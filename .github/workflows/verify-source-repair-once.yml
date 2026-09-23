@@ -10,14 +10,24 @@ permissions:
 
 jobs:
   compatibility:
+    if: github.repository == 'trueChristian/berean-translation' && github.ref == 'refs/heads/feat/openai-batch-translation'
     runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
       - name: Check out the translation implementation
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
+          fetch-depth: 0
           persist-credentials: false
-      - name: Check out only the repaired English metadata and article fragments
+      - name: Install the official SDK and run every regression test
+        run: |
+          set -euo pipefail
+          python3 -m venv .venv
+          .venv/bin/python -m pip install --disable-pip-version-check -r requirements-dev.txt
+          mkdir -p .build/evidence
+          .venv/bin/python -m unittest discover -s tests -v 2>&1 | tee .build/evidence/tests.txt
+          .venv/bin/python -m berean_translation validate --recognize-human-edits
+      - name: Check out only repaired English metadata and article fragments
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           repository: trueChristian/berean-voice
@@ -25,44 +35,24 @@ jobs:
           path: .build/source
           sparse-checkout: content/articles
           persist-credentials: false
-      - name: Validate the real repaired source and every article without an OpenAI request
+      - name: Verify actual source discovery and every article without OpenAI
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          mkdir -p .build/evidence
-          python3 - <<'PY' | tee .build/evidence/source-compatibility.json
-          import json, subprocess
+          .venv/bin/python - <<'PY' | tee .build/evidence/source-http.json
+          import json
           from pathlib import Path
           from berean_translation.config import Config
           from berean_translation.source import SourceClient
-          from berean_translation.common import safe_path
-          revision = '62e7fd23b886a01da2755240e7a6c7ee28174bda'
-          root = Path.cwd()
-          config = Config(root)
-          config.runtime['source_branch'] = revision
-          source = SourceClient(config)
-          inventory = source.discover()
-          assert inventory['revision'] == revision
-          checkout = root / '.build/source'
-          actual = subprocess.check_output(['git', '-C', str(checkout), 'rev-parse', 'HEAD'], text=True).strip()
-          assert actual == revision
-          prefix = f'https://raw.githubusercontent.com/trueChristian/berean-voice/{revision}/'
-          def read_checked_out_article(url):
-              assert url.startswith(prefix), 'Unexpected source location'
-              return safe_path(checkout, url[len(prefix):]).read_bytes()
-          source.fetch = read_checked_out_article
-          for article_id in inventory['articles']:
-              source.snapshot(article_id)
-          report = {'translation_commit': subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip(),
-                    'source_revision': revision, 'issues': len(inventory['issues']),
-                    'article_snapshots_verified': len(inventory['articles']),
-                    'real_source_http_discovery': 'passed', 'all_source_html_and_image_references': 'passed',
-                    'paid_openai_calls': 0, 'production_source_branch_changed': False}
-          print(json.dumps(report, indent=2))
+          config = Config(Path.cwd())
+          config.runtime['source_branch'] = '62e7fd23b886a01da2755240e7a6c7ee28174bda'
+          report = SourceClient(config).discover()
+          print(json.dumps({'revision': report['revision'], 'issues': len(report['issues']), 'articles': len(report['articles'])}, indent=2))
           PY
+          .venv/bin/python -m berean_translation.check_source --checkout .build/source --revision 62e7fd23b886a01da2755240e7a6c7ee28174bda | tee .build/evidence/source-articles.json
           git diff --exit-code
-          cat .build/evidence/source-compatibility.json >> "$GITHUB_STEP_SUMMARY"
+          cat .build/evidence/source-articles.json >> "$GITHUB_STEP_SUMMARY"
       - name: Retain compatibility evidence
         if: always()
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
