@@ -127,7 +127,9 @@ class State:
         self.write('index.json',index)
         source = self.read('state/source.json',{'revision':None,'articles':{},'issues':[]})
         tasks = self.tasks()
-        current_tasks = {(t['language'],t['article_id']):t for t in sorted(tasks,key=lambda t:t['created_at'])}
+        task_by_id = {t['id']:t for t in tasks}
+        current_tasks = {(r['language'],r['article_id']):task_by_id[r['latest_task']]
+                         for r in self.records() if r.get('latest_task') in task_by_id}
         entries = {(e['language'],e['id']):e for e in index['articles']}
         rows = ['# Translation status','',
                 'Generated from the pinned source catalogue and durable work records. No API call is made by this report.',
@@ -148,6 +150,41 @@ class State:
                     elif task and task['status'] in ('not_ready','budget_blocked','source_error'):
                         counts['not_ready'] += 1
             rows.append(f'| `{issue["source_id"]}` | {len(ids)} | {counts["ready"]} / {len(ids)*len(config.languages)} | {counts["active"]} | {counts["not_ready"]} | {counts["stale"]} |')
+        rows += ['', '## Language readiness', '',
+                 '| Language | Ready / source articles | Human reviewed | Active candidates | Not-ready candidates | Corrected candidates |',
+                 '| --- | ---: | ---: | ---: | ---: | ---: |']
+        for language, settings in config.languages.items():
+            pubs = [e for e in index['articles'] if e['language'] == language]
+            latest = [t for (code,_),t in current_tasks.items() if code == language]
+            rows.append(f'| `{language}` ({settings["tag"]}) | '
+                        f'{sum(e["status"]=="ready" for e in pubs)} / {len(source["articles"])} | '
+                        f'{sum(e["human_reviewed"] for e in pubs)} | '
+                        f'{sum(t["status"] not in TERMINAL for t in latest)} | '
+                        f'{sum(t["status"] in ("not_ready","budget_blocked","source_error") for t in latest)} | '
+                        f'{sum(t["translation_attempts"] > 1 for t in latest)} |')
+        rows += ['', '## Issue / language work', '',
+                 'Only combinations with requested or published work appear below. Counts of pending/failed candidates are separate from existing public versions.', '',
+                 '| Issue | Language | Ready / articles | Human reviewed | Active | Not ready | Proposals |',
+                 '| --- | --- | ---: | ---: | ---: | ---: | ---: |']
+        for issue in source['issues']:
+            ids = {a['id'] for a in source['articles'].values() if a['issue_id'] == issue['id']}
+            for language in config.languages:
+                pubs = [entries[(language,identity)] for identity in ids if (language,identity) in entries]
+                latest = [current_tasks[(language,identity)] for identity in ids if (language,identity) in current_tasks]
+                if not pubs and not latest:
+                    continue
+                rows.append(f'| `{issue["source_id"]}` | `{language}` | '
+                            f'{sum(e["status"]=="ready" for e in pubs)} / {len(ids)} | '
+                            f'{sum(e["human_reviewed"] for e in pubs)} | '
+                            f'{sum(t["status"] not in TERMINAL for t in latest)} | '
+                            f'{sum(t["status"] in ("not_ready","budget_blocked","source_error") for t in latest)} | '
+                            f'{sum(t["status"]=="proposal" for t in latest)} |')
+        errors = sorted((self.root/'state/queue-errors').glob('*.json'))
+        if errors:
+            rows += ['', '## Rejected requests', '', 'These requests did not start a paid campaign. Inspect the recorded validation error before submitting a new request.', '']
+            for path in errors:
+                relative = path.relative_to(self.root).as_posix()
+                rows.append(f'- [`{path.stem}`]({relative})')
         rows += ['', '## Campaigns', '', '| Request | Operation | Tasks | Reserved ceiling (USD) | Report |',
                  '| --- | --- | ---: | ---: | --- |']
         for campaign in self.campaigns():
