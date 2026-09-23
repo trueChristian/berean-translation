@@ -1,0 +1,6 @@
+{
+  "gpt-4.1-mini": {"api_model": "gpt-4.1-mini-2025-04-14", "input_batch_usd_per_million": 0.20, "output_batch_usd_per_million": 0.80, "context_tokens": 1047576, "max_output_tokens": 32768, "reasoning_effort": null, "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language."},
+  "gpt-4.1-nano": {"api_model": "gpt-4.1-nano-2025-04-14", "input_batch_usd_per_million": 0.05, "output_batch_usd_per_million": 0.20, "context_tokens": 1047576, "max_output_tokens": 32768, "reasoning_effort": null, "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication."},
+  "gpt-4.1": {"api_model": "gpt-4.1-2025-04-14", "input_batch_usd_per_million": 1.0, "output_batch_usd_per_million": 4.0, "context_tokens": 1047576, "max_output_tokens": 32768, "reasoning_effort": null, "quality_note": "Higher-cost translation or reviewer option."},
+  "gpt-5-mini": {"api_model": "gpt-5-mini-2025-08-07", "input_batch_usd_per_million": 0.125, "output_batch_usd_per_million": 1.0, "context_tokens": 400000, "max_output_tokens": 128000, "reasoning_effort": "low", "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality."}
+}

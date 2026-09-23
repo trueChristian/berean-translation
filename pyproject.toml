@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "berean-translation"
+version = "1.0.0"
+description = "Resumable OpenAI Batch article translation for the Berean Voice archive"
+requires-python = ">=3.11"
+dependencies = ["openai==3.17.0"]
+
+[project.scripts]
+berean-translate = "berean_translation.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["berean_translation*"]
