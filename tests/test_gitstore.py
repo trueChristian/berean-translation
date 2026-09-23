@@ -50,6 +50,16 @@ class GitStoreTests(unittest.TestCase):
         self.assertIn('state/queue/request.json',files)
         self.assertIn('state/source.json',files)
 
+    def test_concurrent_checkpoint_without_runner_git_identity(self):
+        # Hosted checkout does not configure user.name/email. Rebasing must use
+        # the same explicit bot identity as the original checkpoint commit.
+        self.run_git(self.worker, 'config', '--unset', 'user.name')
+        self.run_git(self.worker, 'config', '--unset', 'user.email')
+        self.run_git(self.worker, 'config', 'user.useConfigOnly', 'true')
+        self.test_concurrent_queue_addition_is_preserved()
+        committer = self.run_git(self.remote, 'log', '-1', '--format=%cn <%ce>', 'main')
+        self.assertEqual(committer, 'github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>')
+
     def test_same_file_conflict_is_never_silently_rebased(self):
         (self.other/'state').mkdir(); (self.other/'state/source.json').write_text('{"human":true}')
         self.commit(self.other,'human edit'); self.run_git(self.other,'push')
