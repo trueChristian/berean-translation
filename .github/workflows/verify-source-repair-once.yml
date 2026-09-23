@@ -1,0 +1,73 @@
+name: Verify repaired source once
+
+on:
+  push:
+    branches: [feat/openai-batch-translation]
+    paths: [.github/workflows/verify-source-repair-once.yml]
+
+permissions:
+  contents: read
+
+jobs:
+  compatibility:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out the translation implementation
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Check out only the repaired English metadata and article fragments
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: trueChristian/berean-voice
+          ref: 62e7fd23b886a01da2755240e7a6c7ee28174bda
+          path: .build/source
+          sparse-checkout: content/articles
+          persist-credentials: false
+      - name: Validate the real repaired source and every article without an OpenAI request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p .build/evidence
+          python3 - <<'PY' | tee .build/evidence/source-compatibility.json
+          import json, subprocess
+          from pathlib import Path
+          from berean_translation.config import Config
+          from berean_translation.source import SourceClient
+          from berean_translation.common import safe_path
+          revision = '62e7fd23b886a01da2755240e7a6c7ee28174bda'
+          root = Path.cwd()
+          config = Config(root)
+          config.runtime['source_branch'] = revision
+          source = SourceClient(config)
+          inventory = source.discover()
+          assert inventory['revision'] == revision
+          checkout = root / '.build/source'
+          actual = subprocess.check_output(['git', '-C', str(checkout), 'rev-parse', 'HEAD'], text=True).strip()
+          assert actual == revision
+          prefix = f'https://raw.githubusercontent.com/trueChristian/berean-voice/{revision}/'
+          def read_checked_out_article(url):
+              assert url.startswith(prefix), 'Unexpected source location'
+              return safe_path(checkout, url[len(prefix):]).read_bytes()
+          source.fetch = read_checked_out_article
+          for article_id in inventory['articles']:
+              source.snapshot(article_id)
+          report = {'translation_commit': subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip(),
+                    'source_revision': revision, 'issues': len(inventory['issues']),
+                    'article_snapshots_verified': len(inventory['articles']),
+                    'real_source_http_discovery': 'passed', 'all_source_html_and_image_references': 'passed',
+                    'paid_openai_calls': 0, 'production_source_branch_changed': False}
+          print(json.dumps(report, indent=2))
+          PY
+          git diff --exit-code
+          cat .build/evidence/source-compatibility.json >> "$GITHUB_STEP_SUMMARY"
+      - name: Retain compatibility evidence
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: repaired-source-compatibility
+          path: .build/evidence/
+          include-hidden-files: true
+          retention-days: 14
