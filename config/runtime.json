@@ -18,7 +18,7 @@
   "max_batches_per_tick": 20,
   "max_pending_campaigns_per_tick": 25,
   "english_route": "/en/articles/{article_id}/",
-  "prompt_version": "1.0.0",
+  "prompt_version": "1.0.1",
   "automatic_discovery": true,
   "automatic_new_translation": false
 }
