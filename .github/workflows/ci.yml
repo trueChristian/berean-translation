@@ -34,33 +34,21 @@ jobs:
           .venv/bin/python -m unittest discover -s tests -v 2>&1 | tee .build/ci/tests.txt
       - name: Validate content and recognize committed human review edits
         run: .venv/bin/python -m berean_translation validate --recognize-human-edits
-      - name: Check compatibility with the live English catalogue without paid calls
-        id: source
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          set -euo pipefail
-          .venv/bin/python -m berean_translation discover --check-only | tee .build/ci/source-catalogue.json
-          .venv/bin/python - <<'PYTHON' >> "$GITHUB_OUTPUT"
-          import json
-          from pathlib import Path
-          report = json.loads(Path('.build/ci/source-catalogue.json').read_text())
-          print('revision=' + report['revision'])
-          PYTHON
-      - name: Check out only source articles from that exact validated revision
+      - name: Read the current English main branch, without generated metadata
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           repository: trueChristian/berean-voice
-          ref: ${{ steps.source.outputs.revision }}
+          ref: main
           path: .build/source
           sparse-checkout: content/articles
           persist-credentials: false
-      - name: Validate every English article against the translation HTML contract
+      - name: Discover articles and compute change tracking in the translation runtime
         env:
-          SOURCE_REVISION: ${{ steps.source.outputs.revision }}
+          BEREAN_SOURCE_CHECKOUT: .build/source
         run: |
           set -euo pipefail
-          .venv/bin/python -m berean_translation.check_source --checkout .build/source --revision "$SOURCE_REVISION" | tee .build/ci/source-articles.json
+          .venv/bin/python -m berean_translation discover --check-only | tee .build/ci/source-catalogue.json
+          .venv/bin/python -m berean_translation.check_source --checkout .build/source | tee .build/ci/source-articles.json
       - name: Upload test evidence
         if: always()
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
