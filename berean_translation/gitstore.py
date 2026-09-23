@@ -12,6 +12,8 @@ from pathlib import Path
 from .common import ContractError
 
 MANAGED = ('state', 'content', 'index.json', 'STATUS.md')
+BOT_IDENTITY = ('-c', 'user.name=github-actions[bot]', '-c',
+                'user.email=41898282+github-actions[bot]@users.noreply.github.com')
 
 
 class GitStore:
@@ -34,9 +36,7 @@ class GitStore:
         self.git('add','-A','--',*paths)
         if not self.git('diff','--cached','--name-only').stdout.strip():
             return
-        self.git('-c','user.name=github-actions[bot]', '-c',
-                 'user.email=41898282+github-actions[bot]@users.noreply.github.com',
-                 'commit','-m',message)
+        self.git(*BOT_IDENTITY, 'commit', '-m', message)
         own = set(self.git('diff-tree','--no-commit-id','--name-only','-r','HEAD').stdout.splitlines())
         parent = self.git('rev-parse','HEAD^').stdout.strip()
         for _ in range(4):
@@ -61,7 +61,7 @@ class GitStore:
             if any(p.startswith(('berean_translation/','config/','prompts/','.github/')) or
                    p in ('requirements.txt','pyproject.toml') for p in theirs):
                 raise ContractError('Runtime code/configuration changed concurrently; resume on a fresh checkout')
-            result = self.git('rebase','--onto',remote,parent,check=False)
+            result = self.git(*BOT_IDENTITY, 'rebase', '--onto', remote, parent, check=False)
             if result.returncode:
                 self.git('rebase','--abort',check=False)
                 raise ContractError('Checkpoint rebase conflict; no force push was attempted')
