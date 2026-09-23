@@ -85,6 +85,8 @@ def main(argv=None):
         elif args.command == 'export':
             result = export(config,args.output,read_json(args.source_manifest),args.source_revision,args.base)
         else:
+            if os.environ.get('OPENAI_API_KEY') and not args.publish:
+                raise ContractError('Real-key collection and maintenance require --publish for durable checkpoints')
             store = GitStore(config.root,publish=args.publish)
             provider = OpenAIProvider() if os.environ.get('OPENAI_API_KEY') else None
             engine = Engine(config,SourceClient(config),provider,store)
