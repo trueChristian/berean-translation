@@ -15,7 +15,7 @@ Human review is recorded only after a human repository commit changes an existin
 ## State and durability
 
 1. Manual Actions workflows persist unique immutable queue requests, without a shared enqueuer concurrency group.
-2. The collector checks out current `main`, synchronizes human review, resolves upstream `main` to a commit, verifies raw index/catalogue bytes against the source manifest, and discovers eligible articles.
+2. The collector checks out current `main`, synchronizes human review, resolves upstream `main` to a commit, reads the eligible IDs from `index.json`, and computes article fingerprints itself from current English HTML and relevant metadata. A sparse checkout reads current English `main` once; missing/stale core manifests do not matter.
 3. It resolves issue selectors from that snapshot, skips processed/active/protected combinations, freezes model settings/prompts/glossaries, and creates durable tasks and hash-named source snapshots.
 4. For each stage it prepares single-model JSONL batches, reserves conservative token-cost ceilings, and pushes the reservation before calling OpenAI.
 5. It persists the uploaded file ID, then submission intent, then calls Batch creation once with retries disabled. A lost response remains `submission_unknown`; subsequent ticks search Batch metadata instead of making another paid request.
@@ -34,7 +34,7 @@ No more than two translations/corrections and two reviews occur per task. No bil
 
 ## Source compatibility
 
-The source reader consumes archive format 2.0: `index.json.articles`, `catalogue.json.issues`, `manifest.json.articles`, and `content/articles/<uuid>.html`. Index/catalogue fingerprints are SHA-256 of the raw files, matching `tools/archive.py` in the source repository. Each downloaded HTML file must match the corresponding raw HTML hash and image list.
+The source reader consumes archive format 2.0: `index.json.articles`, `catalogue.json.issues`, and `content/articles/<uuid>.html`. It does not read a core manifest or navigation file. It computes fingerprints inside the translation runtime, stores the observed inventory in `state/source.json`, and verifies each HTML fragment and its indexed image references. Existing compatible translation keys are preserved by retaining the previous fingerprint recipe.
 
 Compatibility uses the source text, structure and translation-metadata fingerprints. Shared image pixel replacements do not incur a new translation. A wording change, structural change, or translated metadata change marks the previous translation stale. Conservative invalidation is intentional; this version does not silently transplant reviewed prose into changed markup. Snapshot caches are not independently authoritative and must never be edited.
 
@@ -44,15 +44,14 @@ The website must pin both repository checkouts. From the clean translation check
 
 ```bash
 python -m berean_translation export \
-  --source-manifest ../berean-voice/manifest.json \
-  --source-revision "$(git -C ../berean-voice rev-parse HEAD)" \
+  --source-checkout ../berean-voice \
   --output .build/website-input \
   --base /
 ```
 
 For a Pages project path use the actual site's base, for example `--base /articles/`. The export includes translated HTML/sidecars, a display index, and a file-hash manifest. It contains no state, prompts, configuration, snapshots, skipped audit records, or images. The website uses the English repository's shared images and canonical article/group associations. It should use the exported translated `images[].alt` when generating image accessibility metadata.
 
-Export compares every publication with the **selected** English manifest, not merely the translation repository's most recent poll. Incompatible, removed, unready and failed candidates are omitted. Output is assembled in a temporary sibling directory and promoted only when complete. Existing nonempty destinations are never erased. Base-path rewriting affects actual image attributes and the application's English-link attribute, not matching text inside article prose.
+Export compares every publication with a fresh runtime scan of the **selected** English checkout, not merely the translation repository's most recent poll. Incompatible, removed, unready and failed candidates are omitted. Output is assembled in a temporary sibling directory and promoted only when complete. Existing nonempty destinations are never erased. Base-path rewriting affects actual image attributes and the application's English-link attribute, not matching text inside article prose.
 
 The configurable initial English route is `/en/articles/{article_id}/`. The website must implement that route or update `config/runtime.json.english_route` before initial publication. No live website URL is invented here.
 

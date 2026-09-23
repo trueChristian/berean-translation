@@ -87,7 +87,7 @@ class SourceCompatibilityTests(unittest.TestCase):
         with self.assertRaises(ContractError):
             validate_checkout(self.config, directory, revision)
 
-    def test_committed_tampering_cannot_hide_behind_a_discovery_cache(self):
+    def test_committed_english_edit_is_detected_without_hash_maintenance(self):
         directory, _, git = self.checkout()
         target = directory / f'content/articles/{A}.html'
         target.write_text(target.read_text().replace('Faith', 'Changed'))
@@ -97,5 +97,7 @@ class SourceCompatibilityTests(unittest.TestCase):
         stale_cache = self.root / f'.cache/source/{revision}/content/articles/{A}.html'
         stale_cache.parent.mkdir(parents=True)
         stale_cache.write_text(self.upstream.contents[f'content/articles/{A}.html'])
-        with self.assertRaisesRegex(ContractError, 'Source HTML hash'):
-            validate_checkout(self.config, directory, revision)
+        from berean_translation.source import SourceClient
+        observed = SourceClient(self.config, checkout=directory).discover()
+        self.assertNotEqual(observed['articles'][A]['translation_key'], self.source['translation_key'])
+        self.assertEqual(validate_checkout(self.config, directory, revision)['article_snapshots_verified'], 2)
