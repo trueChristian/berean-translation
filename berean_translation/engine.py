@@ -484,6 +484,13 @@ class Engine:
             campaign['status'] = 'finished' if all(t['status'] in TERMINAL for t in tasks) else 'active'
             campaign['task_counts'] = dict(sorted({s:sum(t['status']==s for t in tasks) for s in {t['status'] for t in tasks}}.items()))
             self.state.save_campaign(campaign)
+        source = self.state.read('state/source.json')
+        heartbeat = self.state.read('state/heartbeat.json',{})
+        if heartbeat.get('utc_date') != now()[:10]:
+            self.state.write('state/heartbeat.json',{'utc_date':now()[:10],
+                'source_revision':source['revision'],'articles_discovered':len(source['articles']),
+                'issues_discovered':len(source['issues']),
+                'pending_tasks':sum(t['status'] not in TERMINAL for t in self.state.tasks())})
         result = self.state.derive(self.config)
         self.checkpoint('runtime: update source discovery and translation publication index')
         return result

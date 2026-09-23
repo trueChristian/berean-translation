@@ -45,6 +45,12 @@ class GitStore:
                 return
             self.git('fetch','origin','main')
             remote = self.git('rev-parse','origin/main').stdout.strip()
+            head = self.git('rev-parse','HEAD').stdout.strip()
+            if remote == head:
+                return  # The push succeeded but its acknowledgement was lost.
+            if self.git('merge-base','--is-ancestor',head,remote,check=False).returncode == 0:
+                self.git('merge','--ff-only','origin/main')
+                return
             if remote == parent:
                 raise ContractError('Git push rejected; state is preserved locally. Check Actions contents:write and main rules.')
             if self.git('merge-base','--is-ancestor',parent,remote,check=False).returncode:
@@ -52,6 +58,9 @@ class GitStore:
             theirs = set(self.git('diff','--name-only',parent,remote).stdout.splitlines())
             if own & theirs:
                 raise ContractError('Concurrent edits touched the same managed files; refusing automatic overwrite')
+            if any(p.startswith(('berean_translation/','config/','prompts/','.github/')) or
+                   p in ('requirements.txt','pyproject.toml') for p in theirs):
+                raise ContractError('Runtime code/configuration changed concurrently; resume on a fresh checkout')
             result = self.git('rebase','--onto',remote,parent,check=False)
             if result.returncode:
                 self.git('rebase','--abort',check=False)
