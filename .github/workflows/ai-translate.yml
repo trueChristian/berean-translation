@@ -1,0 +1,105 @@
+name: AI — OpenAI
+
+on:
+  workflow_dispatch:
+    inputs:
+      language:
+        description: "One language, or all 20 languages"
+        type: choice
+        options:
+          - all
+          - cmn
+          - hin
+          - spa
+          - ara
+          - fra
+          - ben
+          - por
+          - ind
+          - urd
+          - rus
+          - deu
+          - nld
+          - afr
+          - swa
+          - kor
+          - ita
+          - heb
+          - ell
+          - swe
+          - nob
+        default: afr
+      languages:
+        description: "Optional multiple codes, comma-separated; overrides language (e.g. afr,deu,spa)"
+        type: string
+        default: ""
+      issue_selection:
+        description: "Issue selection; use custom with issue IDs from STATUS.md"
+        type: choice
+        options: [next, all, outstanding, custom]
+        default: next
+      issues:
+        description: "Optional comma-separated issue source IDs or UUIDs; overrides issue selection"
+        type: string
+        default: ""
+      model:
+        description: "Translation/correction model"
+        type: choice
+        options:
+          - gpt-4.1-mini
+          - gpt-4.1-nano
+          - gpt-4.1
+          - gpt-5-mini
+        default: gpt-4.1-mini
+      review_model:
+        description: "Independent review request model"
+        type: choice
+        options:
+          - gpt-4.1-mini
+          - gpt-4.1-nano
+          - gpt-4.1
+          - gpt-5-mini
+        default: gpt-4.1-mini
+      budget_usd:
+        description: "Maximum campaign reservation in USD, including all stages"
+        type: string
+        default: "5"
+      dry_run:
+        description: "Preview selections only: no translations, reservations, or paid requests"
+        type: boolean
+        default: true
+      retry_failed:
+        description: "Explicitly retry previously attempted items (translate only); costs a new bounded campaign"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+# Do not serialize enqueuers with a shared concurrency group: GitHub keeps only
+# one pending run per group. Each request is instead committed to a unique file.
+jobs:
+  enqueue:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Check out trusted main
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Persist the manual request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TRANSLATION_OPERATION: translate
+          INPUT_LANGUAGE: ${{ inputs.language }}
+          INPUT_LANGUAGES: ${{ inputs.languages }}
+          INPUT_ISSUE_SELECTION: ${{ inputs.issue_selection }}
+          INPUT_ISSUES: ${{ inputs.issues }}
+          INPUT_MODEL: ${{ inputs.model }}
+          INPUT_REVIEW_MODEL: ${{ inputs.review_model }}
+          INPUT_BUDGET_USD: ${{ inputs.budget_usd }}
+          INPUT_DRY_RUN: ${{ inputs.dry_run }}
+          INPUT_RETRY_FAILED: ${{ inputs.retry_failed }}
+        run: python3 -m berean_translation enqueue-env

@@ -1,0 +1,48 @@
+name: Translation runtime checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: translation-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out the exact change and review history
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Install the tested application and YAML validation dependencies
+        run: |
+          python3 -m venv .venv
+          .venv/bin/python -m pip install --disable-pip-version-check -r requirements-dev.txt
+      - name: Run the offline regression and SDK contract tests
+        run: |
+          set -euo pipefail
+          mkdir -p .build/ci
+          .venv/bin/python -m unittest discover -s tests -v 2>&1 | tee .build/ci/tests.txt
+      - name: Validate content and recognize committed human review edits
+        run: .venv/bin/python -m berean_translation validate --recognize-human-edits
+      - name: Check compatibility with the live English catalogue without paid calls
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: .venv/bin/python -m berean_translation discover --check-only
+      - name: Upload test evidence
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: translation-runtime-tests
+          path: .build/ci/
+          include-hidden-files: true
+          retention-days: 14
