@@ -97,7 +97,13 @@ class Fragment(HTMLParser):
                 block[1] = True
 
     def handle_comment(self, data):
-        raise ContractError('Comments are not article content')
+        if not self.stack:
+            raise ContractError('Comments must remain inside the source article')
+        if '--' in data or '\x00' in data or data.startswith(('>', '->')) or data.endswith('-'):
+            raise ContractError('Malformed HTML comment')
+        # Existing archive audit notes are inert metadata, never translated text
+        # or instructions. Their exact content and position are immutable.
+        self.signature.append(('comment', data))
 
     def handle_decl(self, decl):
         raise ContractError('Document declarations are forbidden')
@@ -146,10 +152,34 @@ def validate_translation(source: dict, candidate: dict) -> Fragment:
 
 
 def split_article(text: str) -> tuple[str, str]:
-    match = re.search(r'</article\s*>', text, re.I)
-    if not match:
+    # Parse the boundary: a closing-tag string inside a comment or attribute is
+    # not the article's end and must not be mistaken for a review-notice boundary.
+    offsets = [0]
+    for line in text.splitlines(keepends=True):
+        offsets.append(offsets[-1] + len(line))
+
+    class Boundary(HTMLParser):
+        depth = 0
+        end = None
+
+        def handle_starttag(self, tag, attrs):
+            if tag == 'article':
+                self.depth += 1
+
+        def handle_endtag(self, tag):
+            if tag == 'article' and self.depth:
+                self.depth -= 1
+                if self.depth == 0 and self.end is None:
+                    line, column = self.getpos()
+                    start = offsets[line - 1] + column
+                    self.end = text.index('>', start) + 1
+
+    parser = Boundary(convert_charrefs=False)
+    parser.feed(text)
+    parser.close()
+    if parser.end is None:
         raise ContractError('Missing article closing tag')
-    return text[:match.end()].strip(), text[match.end():].strip()
+    return text[:parser.end].strip(), text[parser.end:].strip()
 
 
 def notice(language: dict, article_id: str, model: str, english_route: str) -> str:
