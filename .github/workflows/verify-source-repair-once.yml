@@ -3,7 +3,12 @@ name: Verify repaired source once
 on:
   push:
     branches: [feat/openai-batch-translation]
-    paths: [.github/workflows/verify-source-repair-once.yml]
+    paths:
+      - .github/workflows/verify-source-repair-once.yml
+      - berean_translation/**
+      - tests/**
+      - prompts/**
+      - config/**
 
 permissions:
   contents: read
