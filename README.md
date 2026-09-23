@@ -4,6 +4,12 @@ An independent, resumable OpenAI Batch translation runtime for the authoritative
 
 **Publication policy:** a translation that passes the automated checks is available for website export immediately, with a localized AI notice. Human review is optional: a collaborator reviews/corrects the translation, removes the complete notice block and commits. English always remains authoritative. Failed candidates are retained for inspection but are never exported as finished translations.
 
+## English editors do not maintain hashes
+
+Edit an English article in `berean-voice`, commit the normal source change, and stop. This repository's collector reads English `main`, matches article UUIDs against its language records, and computes its own fingerprints to detect revisions. It ignores core `manifest.json` and `navigation.json` completely. A new article is missing work; a changed article is outdated work; unchanged articles are skipped. No source-side regeneration or manually copied commit/hash is required.
+
+The collector still respects manual language/issue selections, paid-work budgets, the bounded correction cycle, and protection of human-reviewed translations. Automatic discovery does not authorize a new paid campaign. Downloading `main` once per run simply avoids mixing old and new source files during one batch; the revision is internal provenance.
+
 ## Activate after merging the implementation
 
 1. Add an Actions repository secret named **`OPENAI_API_KEY`** under **Settings → Secrets and variables → Actions**. Use an OpenAI API project with billing and access to the selected models. Do not put the key in a file, workflow input, issue, pull request or chat.
@@ -115,7 +121,7 @@ An **AI — Review** request can inspect a human-reviewed translation, but it ca
 
 The hourly collector discovers new issues and articles automatically and makes them selectable. It also updates the observed source revision and identifies stale/withdrawn translations. **Discovery never authorizes paid work.** Use **next** or **outstanding** in a manual translation request for new eligible work.
 
-Source text, markup and translation-metadata fingerprints govern compatibility. An image pixel replacement or unrelated category edit alone does not require retranslation. Relevant English changes mark older translations stale without deleting them or overwriting human corrections. Each requested campaign retains its exact source commit and source snapshots.
+The translation runtime computes source text, markup and translation-metadata fingerprints automatically; source editors never maintain them. Those local fingerprints govern compatibility. An image pixel replacement or unrelated category edit alone does not require retranslation. Relevant English changes mark older translations stale without deleting them or overwriting human corrections. Each requested campaign retains its exact source commit and source snapshots.
 
 ## Recovery and cancellation
 
@@ -139,13 +145,12 @@ The future website reads compatible translations from a pinned commit. It does n
 
 ```bash
 python3 -m berean_translation export \
-  --source-manifest ../berean-voice/manifest.json \
-  --source-revision "$(git -C ../berean-voice rev-parse HEAD)" \
+  --source-checkout ../berean-voice \
   --output .build/website-input \
   --base /
 ```
 
-The English checkout must be clean and its manifest validated by that repository's own archive tools. Export rejects an uncommitted translation checkout, compares each publication with the selected English manifest, and emits compatible HTML, sidecars, a display index and file hashes. For a Pages project site, supply its actual base path instead of `/`. Image attributes and the notice's English link receive the base prefix without changing matching prose. The site uses shared images from the English archive.
+The English checkout must be clean. The translation exporter computes its own fingerprints directly from that checkout; there is no prerequisite core manifest. Export rejects an uncommitted translation checkout, compares each publication with that fresh source scan, and emits compatible HTML, sidecars, a display index and file hashes. For a Pages project site, supply its actual base path instead of `/`. Image attributes and the notice's English link receive the base prefix without changing matching prose. The site uses shared images from the English archive.
 
 The initial notice links to `/en/articles/<article-uuid>/`. Implement that route in the website or change `config/runtime.json.english_route` **before first publication**. This repository does not deploy a site or invent its future domain. The exporter never erases an existing nonempty output directory.
 

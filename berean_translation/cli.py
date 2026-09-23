@@ -45,8 +45,8 @@ def main(argv=None):
     resolve.add_argument('--publish',action='store_true')
     output = commands.add_parser('export')
     output.add_argument('--output',type=Path,required=True)
-    output.add_argument('--source-manifest',type=Path,required=True)
-    output.add_argument('--source-revision',required=True)
+    output.add_argument('--source-checkout',type=Path,required=True,
+                        help='English checkout used by the website build; hashes are computed automatically')
     output.add_argument('--base',default='/')
     try:
         args = parser.parse_args(argv)
@@ -83,7 +83,8 @@ def main(argv=None):
                 state.write('state/source.json',result); state.derive(config)
             result = {'revision':result['revision'],'issues':len(result['issues']),'articles':len(result['articles'])}
         elif args.command == 'export':
-            result = export(config,args.output,read_json(args.source_manifest),args.source_revision,args.base)
+            inventory = SourceClient(config, checkout=args.source_checkout).discover()
+            result = export(config,args.output,inventory,inventory['revision'],args.base)
         else:
             if os.environ.get('OPENAI_API_KEY') and not args.publish:
                 raise ContractError('Real-key collection and maintenance require --publish for durable checkpoints')

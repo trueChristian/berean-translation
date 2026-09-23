@@ -115,18 +115,18 @@ class ContractTests(unittest.TestCase):
         for text in ('{"x":1,"x":2}','{"x":NaN}','{"x":Infinity}'):
             with self.assertRaises(ContractError): loads(text)
 
-    def test_source_verifies_raw_file_bytes_not_reserialized_objects(self):
+    def test_source_index_whitespace_requires_no_saved_hash_refresh(self):
         self.assertTrue(self.upstream.contents['index.json'].startswith('{\n'))
         self.engine.discover()
         self.upstream.revision = 'b'*40
         self.upstream.contents['index.json'] += '\n'
-        with self.assertRaises(ContractError): self.engine.discover()
+        result = self.engine.discover()
+        self.assertEqual(len(result['articles']), 2)
 
     def test_source_html_tampering_is_detected(self):
         self.upstream.revision = 'b'*40
         self.upstream.contents[f'content/articles/{A}.html'] += 'tampered'
-        self.engine.discover()
-        with self.assertRaises(ContractError): self.upstream.client.snapshot(A)
+        with self.assertRaises(ContractError): self.engine.discover()
 
     def test_ineligible_article_is_not_accepted(self):
         self.upstream.revision = 'b'*40

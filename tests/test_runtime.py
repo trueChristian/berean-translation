@@ -263,14 +263,14 @@ class RuntimeTests(unittest.TestCase):
         self.upstream.revision = 'b'*40
         self.upstream.articles = [a for a in self.upstream.articles if a['id'] != A]
         self.upstream.rebuild(); self.engine.tick()
-        result = export(self.config,self.root/'.build/export',self.upstream.manifest,'b'*40,translation_revision='c'*40)
+        result = export(self.config,self.root/'.build/export',self.upstream.client.discover(),self.upstream.revision,translation_revision='c'*40)
         self.assertEqual(result['article_count'],1)
         self.assertEqual(result['omitted'][0]['id'],A)
 
     def test_export_checks_the_actual_selected_english_manifest(self):
         queue(self.state); drive(self.engine,self.provider)
         self.upstream.change_source()
-        result = export(self.config,self.root/'.build/export',self.upstream.manifest,'b'*40,
+        result = export(self.config,self.root/'.build/export',self.upstream.client.discover(),self.upstream.revision,
                         base='/website/',translation_revision='c'*40)
         self.assertEqual(result['article_count'],1)
         index = read_json_local(self.root/'.build/export/index.json')
@@ -285,11 +285,11 @@ class RuntimeTests(unittest.TestCase):
         queue(self.state); drive(self.engine,self.provider)
         for destination in (self.root,self.root/'content',self.root.parent):
             with self.assertRaises(ContractError):
-                export(self.config,destination,self.upstream.manifest,'a'*40,translation_revision='c'*40)
+                export(self.config,destination,self.upstream.client.discover(),self.upstream.revision,translation_revision='c'*40)
         destination = self.root/'.build/occupied'
         destination.mkdir(parents=True); (destination/'keep').write_text('safe')
         with self.assertRaises(ContractError):
-            export(self.config,destination,self.upstream.manifest,'a'*40,translation_revision='c'*40)
+            export(self.config,destination,self.upstream.client.discover(),self.upstream.revision,translation_revision='c'*40)
         self.assertEqual((destination/'keep').read_text(),'safe')
 
     def test_tampered_snapshot_or_batch_payload_fails_closed(self):

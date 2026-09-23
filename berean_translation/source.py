@@ -1,26 +1,31 @@
-"""Read-only, commit-pinned access to the authoritative format-2.0 archive."""
+"""Read English main/index and compute change tracking in the translation runtime."""
 from __future__ import annotations
 import copy
 import os
 import re
+import subprocess
 import time
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.parse import quote
 from urllib.request import Request, urlopen
-from .common import ContractError, digest, json_hash, loads, read_json, safe_path, uuid, write_json
+from .common import ContractError, digest, json_hash, loads, safe_path, uuid
+from .fingerprints import article_fingerprints
 from .html import Fragment
 
 
 class SourceClient:
-    def __init__(self, config, fetch=None):
+    def __init__(self, config, fetch=None, checkout=None):
         self.config = config
         self.repository = config.runtime['source_repository']
         self.fetch = fetch or self._get
+        configured = checkout or (os.environ.get('BEREAN_SOURCE_CHECKOUT') if fetch is None else None)
+        self.checkout = Path(configured).resolve() if configured else None
         self.revision = None
         self.index = None
         self.catalogue = None
-        self.manifest = None
+        self.snapshots = {}
 
     @staticmethod
     def _get(url: str) -> bytes:
@@ -44,86 +49,117 @@ class SourceClient:
             time.sleep(attempt + 1)
         raise AssertionError('Unreachable')
 
+    def checkout_revision(self) -> str:
+        """Freeze one main checkout per scan, without a user-managed revision pin."""
+        def git(*args):
+            return subprocess.check_output(['git', '-C', str(self.checkout), *args],
+                                           stderr=subprocess.PIPE, text=True).strip()
+        try:
+            revision = git('rev-parse', 'HEAD')
+            dirty = git('status', '--porcelain', '--untracked-files=all', '--',
+                        'index.json', 'catalogue.json', 'content/articles')
+        except (OSError, subprocess.CalledProcessError) as exc:
+            raise ContractError('A readable Git source checkout is required') from exc
+        if dirty or not re.fullmatch(r'[0-9a-f]{40}', revision):
+            raise ContractError('Source checkout must be clean before scanning; commit the English edits')
+        selected = self.config.runtime['source_branch']
+        if re.fullmatch(r'[0-9a-f]{40}', selected) and selected != revision:
+            raise ContractError('Source checkout does not match the internally selected revision')
+        return revision
+
     def raw(self, revision: str, path: str) -> bytes:
         if not re.fullmatch(r'[0-9a-f]{40}', revision):
             raise ContractError('Source revision must be a complete commit SHA')
-        if path not in ('index.json','catalogue.json','manifest.json') and not re.fullmatch(
+        if path not in ('index.json', 'catalogue.json') and not re.fullmatch(
                 r'content/articles/[a-f0-9-]{36}\.html', path):
             raise ContractError(f'Disallowed source file: {path}')
-        cache = safe_path(self.config.root, f'.cache/source/{revision}/{path}')
-        if cache.exists():
-            return cache.read_bytes()
-        result = self.fetch(f'https://raw.githubusercontent.com/{self.repository}/{revision}/{path}')
-        cache.parent.mkdir(parents=True, exist_ok=True)
-        cache.write_bytes(result)
-        return result
+        if self.checkout:
+            return safe_path(self.checkout, path).read_bytes()
+        # Each scan reads real source bytes, not an independently editable hash
+        # cache. Production uses one sparse checkout rather than N HTTP calls.
+        return self.fetch(f'https://raw.githubusercontent.com/{self.repository}/{revision}/{path}')
 
     def discover(self) -> dict:
-        ref = quote(self.config.runtime['source_branch'], safe='')
-        commit = loads(self.fetch(f'https://api.github.com/repos/{self.repository}/commits/{ref}'))
-        revision = commit.get('sha','')
+        if self.checkout:
+            revision = self.checkout_revision()
+        else:
+            ref = quote(self.config.runtime['source_branch'], safe='')
+            commit = loads(self.fetch(f'https://api.github.com/repos/{self.repository}/commits/{ref}'))
+            revision = commit.get('sha', '')
         index_raw = self.raw(revision, 'index.json')
         catalogue_raw = self.raw(revision, 'catalogue.json')
-        index = loads(index_raw)
-        catalogue = loads(catalogue_raw)
-        manifest = loads(self.raw(revision, 'manifest.json'))
-        if any(item.get('format_version') != '2.0' for item in (index,catalogue,manifest)):
+        index, catalogue = loads(index_raw), loads(catalogue_raw)
+        if any(item.get('format_version') != '2.0' for item in (index, catalogue)):
             raise ContractError('Unsupported core archive contract; format 2.0 is required')
-        if manifest.get('index_sha256') != digest(index_raw) or manifest.get('catalogue_sha256') != digest(catalogue_raw):
-            raise ContractError('Core index/catalogue hashes do not match the manifest')
+        if not isinstance(index.get('articles'), list) or not isinstance(catalogue.get('issues'), list):
+            raise ContractError('Source index articles and catalogue issues must be arrays')
         issues = {}
         for issue in catalogue['issues']:
             identity = uuid(issue['id'])
             if identity in issues:
                 raise ContractError('Duplicate source issue')
             issues[identity] = {k: copy.deepcopy(issue.get(k)) for k in ('id','slug','source_id','date','publication')}
-        articles = {}
+        seen, sequences = set(issues), set()
         for article in index['articles']:
             identity = uuid(article['id'])
-            if identity in articles or article['issue_id'] not in issues:
+            if identity in seen or article['issue_id'] not in issues:
                 raise ContractError('Duplicate article or missing source issue')
+            seen.add(identity)
             if article.get('language') != 'en' or article['html']['repository_path'] != f'content/articles/{identity}.html':
                 raise ContractError('Source language or article path is invalid')
+            sequence = article.get('sequence')
+            if type(sequence) is not int or sequence < 1 or (article['issue_id'], sequence) in sequences:
+                raise ContractError('Invalid or duplicate issue article sequence')
+            sequences.add((article['issue_id'], sequence))
             rights = article.get('rights', {})
             if rights.get('status') != 'eligible' or rights.get('article_specific_permission_notice_detected') is not False:
                 raise ContractError('The included source array contains an ineligible article')
-            fp = manifest['articles'].get(identity)
-            if not isinstance(fp, dict) or any(not re.fullmatch(r'[0-9a-f]{64}', fp.get(k,'')) for k in (
-                    'html_sha256','text_sha256','structure_sha256','translation_metadata_sha256')):
-                raise ContractError('Source article fingerprints are missing or invalid')
-            articles[identity] = {'id':identity,'issue_id':article['issue_id'],'sequence':article['sequence'],
-                                  'title':article.get('title'),'fingerprints':copy.deepcopy(fp),
-                                  'translation_key':translation_key(fp)}
-        if set(articles) != set(manifest['articles']):
-            raise ContractError('Manifest and index article inventories differ')
-        self.revision, self.index, self.catalogue, self.manifest = revision,index,catalogue,manifest
-        return {'format_version':'1.0','repository':self.repository,'revision':revision,
-                'content_sha256':manifest.get('content_sha256'),'issues':list(issues.values()),'articles':articles}
+
+        def inspect(article):
+            identity = article['id']
+            try:
+                raw = self.raw(revision, article['html']['repository_path'])
+                if len(raw) > self.config.runtime['max_source_html_bytes']:
+                    raise ContractError('Article exceeds the configured source size; no paid request was made')
+                text = raw.decode('utf-8')
+                parsed = Fragment(text, identity)
+                if [i['src'] for i in parsed.images] != [i['public_path'] for i in article['images']]:
+                    raise ContractError('Source image references disagree with their index metadata')
+                fp = article_fingerprints(article, raw)
+                snapshot = {'repository': self.repository, 'revision': revision, 'fingerprints': fp,
+                            'translation_key': translation_key(fp), 'html': text,
+                            'article': {k: copy.deepcopy(article.get(k)) for k in (
+                                'id','issue_id','sequence','title','subtitle','section','byline','categories','topics',
+                                'series','images','rights','source_pages')}}
+                item = {'id': identity, 'issue_id': article['issue_id'], 'sequence': article['sequence'],
+                        'title': article.get('title'), 'fingerprints': copy.deepcopy(fp),
+                        'translation_key': snapshot['translation_key']}
+                return identity, item, snapshot
+            except (ContractError, OSError, ValueError) as exc:
+                raise ContractError(f'Source article {identity}: {exc}') from exc
+
+        # Bounded concurrency is only a transport optimization. Publication is
+        # still atomic: an invalid scan never replaces the last good inventory.
+        with ThreadPoolExecutor(max_workers=8) as pool:
+            inspected = list(pool.map(inspect, index['articles']))
+        articles = {identity: item for identity, item, _ in inspected}
+        snapshots = {identity: snapshot for identity, _, snapshot in inspected}
+        inventory = {'format_version': '1.0', 'fingerprint_origin': 'translation-runtime',
+                     'repository': self.repository, 'revision': revision,
+                     'content_sha256': json_hash({'index': digest(index_raw), 'catalogue': digest(catalogue_raw),
+                                                'articles': articles}),
+                     'issues': list(issues.values()), 'articles': articles}
+        self.revision, self.index, self.catalogue, self.snapshots = revision, index, catalogue, snapshots
+        return inventory
 
     def snapshot(self, article_id: str) -> dict:
         if self.index is None:
             raise ContractError('Discover the current source before taking a snapshot')
-        article = next((a for a in self.index['articles'] if a['id'] == article_id), None)
-        if not article:
+        if article_id not in self.snapshots:
             raise ContractError('Article is not present in the eligible source index')
-        raw = self.raw(self.revision, article['html']['repository_path'])
-        if len(raw) > self.config.runtime['max_source_html_bytes']:
-            raise ContractError('Article exceeds the configured source size; no paid request was made')
-        fp = self.manifest['articles'][article_id]
-        if digest(raw) != fp['html_sha256']:
-            raise ContractError('Source HTML hash differs from the pinned source manifest')
-        text = raw.decode('utf-8')
-        parsed = Fragment(text, article_id)
-        if [i['src'] for i in parsed.images] != [i['public_path'] for i in article['images']]:
-            raise ContractError('Source image references disagree with their index metadata')
-        snapshot = {'repository':self.repository,'revision':self.revision,'fingerprints':copy.deepcopy(fp),
-                    'translation_key':translation_key(fp),'html':text,
-                    'article':{k:copy.deepcopy(article.get(k)) for k in (
-                        'id','issue_id','sequence','title','subtitle','section','byline','categories','topics',
-                        'series','images','rights','source_pages')}}
-        return snapshot
+        return copy.deepcopy(self.snapshots[article_id])
 
 
 def translation_key(fingerprints: dict) -> str:
     # Image pixel replacements and unrelated catalogue edits do not invalidate language work.
-    return json_hash({k:fingerprints[k] for k in ('text_sha256','structure_sha256','translation_metadata_sha256')})
+    return json_hash({k: fingerprints[k] for k in ('text_sha256','structure_sha256','translation_metadata_sha256')})

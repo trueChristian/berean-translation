@@ -8,6 +8,7 @@ from berean_translation.common import canonical, digest, json_hash, loads, read_
 from berean_translation.config import Config
 from berean_translation.engine import Engine
 from berean_translation.source import SourceClient
+from berean_translation.fingerprints import article_fingerprints
 from berean_translation.state import State
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -43,9 +44,7 @@ class FixtureSource:
         fingerprints = {}
         for item in self.articles:
             text = self.contents[item['html']['repository_path']]
-            fingerprints[item['id']] = {'html_sha256':digest(text),'text_sha256':digest(text),
-                'structure_sha256':digest('fixture structure'),
-                'translation_metadata_sha256':json_hash({k:item.get(k) for k in ('title','subtitle','section','images')})}
+            fingerprints[item['id']] = article_fingerprints(item, text.encode('utf-8'))
         index_raw = json.dumps(index,ensure_ascii=False,indent=2)+'\n'
         catalogue_raw = json.dumps(catalogue,ensure_ascii=False,indent=2)+'\n'
         self.manifest = {'format_version':'2.0','index_sha256':digest(index_raw),'catalogue_sha256':digest(catalogue_raw),

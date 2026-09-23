@@ -73,7 +73,7 @@ def validate_repository(config, check_index=True):
             'tasks':len(tasks),'campaigns':len(state.campaigns()),'batches':len(state.batches())}
 
 
-def export(config, destination: Path, source_manifest: dict, source_revision: str, base='/', translation_revision=None):
+def export(config, destination: Path, source_inventory: dict, source_revision: str, base='/', translation_revision=None):
     validate_repository(config)
     root = config.root.resolve()
     destination = destination.absolute()
@@ -86,11 +86,11 @@ def export(config, destination: Path, source_manifest: dict, source_revision: st
         raise ContractError('Export destination must be absent or empty; existing data is never deleted')
     if not re.fullmatch(r'[0-9a-f]{40}',source_revision):
         raise ContractError('Export requires the exact English source revision')
-    if source_manifest.get('format_version') != '2.0':
-        raise ContractError('Unsupported English source manifest')
-    fingerprints = source_manifest.get('articles',source_manifest.get('source_article_fingerprints'))
-    if not isinstance(fingerprints,dict):
-        raise ContractError('English manifest has no article fingerprints')
+    if source_inventory.get('fingerprint_origin') != 'translation-runtime' or source_inventory.get('revision') != source_revision:
+        raise ContractError('Export requires a current runtime scan of the selected English checkout')
+    source_articles = source_inventory.get('articles')
+    if not isinstance(source_articles,dict):
+        raise ContractError('English source scan has no article inventory')
     if (root/'.git').exists():
         def git(*args):
             return subprocess.run(['git','-C',str(root),*args],check=True,capture_output=True,text=True).stdout.strip()
@@ -110,8 +110,8 @@ def export(config, destination: Path, source_manifest: dict, source_revision: st
         entries = []
         omitted = []
         for item in State(root).projection(config)['articles']:
-            fp = fingerprints.get(item['id'])
-            if not fp or translation_key(fp) != item['source_translation_key']:
+            observed = source_articles.get(item['id'])
+            if not observed or observed['translation_key'] != item['source_translation_key']:
                 omitted.append({'id':item['id'],'language':item['language'],'reason':'incompatible_with_selected_English_source'})
                 continue
             target = copy.deepcopy(item)
