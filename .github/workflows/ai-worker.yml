@@ -1,0 +1,99 @@
+name: AI — Collect and discover
+
+on:
+  workflow_dispatch:
+    inputs:
+      operation:
+        description: "Collect/resume pending work, cancel a campaign, or resolve a confirmed absent batch"
+        type: choice
+        options: [collect, cancel, resolve-absent]
+        default: collect
+      campaign:
+        description: "Campaign ID for cancellation (from STATUS.md)"
+        type: string
+        default: ""
+      batch:
+        description: "Internal batch ID for resolve-absent"
+        type: string
+        default: ""
+      confirmed_no_remote_batch:
+        description: "I checked OpenAI and confirm that this uncertain batch was NOT created; authorize resubmission"
+        type: boolean
+        default: false
+  schedule:
+    - cron: '17 * * * *'
+  workflow_run:
+    workflows: ["AI — OpenAI", "AI — Review"]
+    types: [completed]
+  push:
+    branches: [main]
+    paths:
+      - 'content/**'
+
+permissions:
+  contents: write
+
+# Losing a redundant pending collector does not lose any manual requests:
+# all enqueuers persist immutable state/queue/<run-id>.json before completing.
+concurrency:
+  group: berean-translation-state-writer
+  cancel-in-progress: false
+
+jobs:
+  worker:
+    if: >-
+      github.ref == 'refs/heads/main' &&
+      (github.event_name != 'workflow_run' ||
+       (github.event.workflow_run.conclusion == 'success' &&
+        github.event.workflow_run.head_branch == 'main' &&
+        github.event.workflow_run.head_repository.full_name == github.repository))
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Check out trusted main and review history
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Install the official OpenAI SDK
+        run: |
+          python3 -m venv .venv
+          .venv/bin/python -m pip install --disable-pip-version-check -r requirements.txt
+      - name: Collect results or perform the requested maintenance
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GH_TOKEN: ${{ github.token }}
+          OPERATION: ${{ inputs.operation || 'collect' }}
+          CAMPAIGN: ${{ inputs.campaign }}
+          BATCH_ID: ${{ inputs.batch }}
+          CONFIRMED_ABSENT: ${{ inputs.confirmed_no_remote_batch }}
+        run: |
+          set -euo pipefail
+          case "$OPERATION" in
+            collect)
+              .venv/bin/python -m berean_translation tick --publish
+              ;;
+            cancel)
+              .venv/bin/python -m berean_translation cancel --campaign "$CAMPAIGN" --publish
+              ;;
+            resolve-absent)
+              test "$CONFIRMED_ABSENT" = true
+              .venv/bin/python -m berean_translation resolve-absent --batch "$BATCH_ID" --confirmed-no-remote-batch --publish
+              ;;
+            *) echo 'Unsupported operation' >&2; exit 1 ;;
+          esac
+      - name: Validate the resulting runtime records
+        run: .venv/bin/python -m berean_translation validate
+      - name: Retain recovery evidence after a failed checkpoint
+        if: failure()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: runtime-recovery-${{ github.run_id }}
+          path: |
+            state/
+            content/
+            index.json
+            STATUS.md
+          if-no-files-found: warn
+          retention-days: 14
