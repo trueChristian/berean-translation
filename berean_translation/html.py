@@ -11,9 +11,9 @@ from .common import ContractError
 VOID = {'br', 'img', 'hr', 'wbr'}
 ALLOWED = {'article','p','h1','h2','h3','h4','h5','h6','em','strong','b','i','u','s','mark',
            'blockquote','ul','ol','li','sup','sub','figure','figcaption','span','div','a',
-           'section','small','cite','q','abbr','time','dl','dt','dd','table','thead','tbody','tr','td',
+           'section','aside','footer','small','cite','q','abbr','time','dl','dt','dd','table','thead','tbody','tr','td',
            'th','caption','pre','code', *VOID}
-BLOCKS = {'p','h1','h2','h3','h4','h5','h6','figcaption','li','blockquote','dt','dd'}
+BLOCKS = {'p','h1','h2','h3','h4','h5','h6','figcaption','li','blockquote','dt','dd','aside','footer'}
 
 
 class Fragment(HTMLParser):
@@ -50,9 +50,11 @@ class Fragment(HTMLParser):
             if value is None or key.startswith('on') or key in ('style','srcdoc','srcset'):
                 raise ContractError(f'Forbidden or valueless HTML attribute: {key}')
             if not (key in ('id','class','alt','title','href','src','lang','dir','width','height',
-                            'colspan','rowspan','start','type','datetime','loading','decoding')
+                            'colspan','rowspan','scope','start','type','datetime','loading','decoding')
                     or key.startswith('data-') or key.startswith('aria-')):
                 raise ContractError(f'Unsupported HTML attribute: {key}')
+            if key == 'scope' and (tag != 'th' or value not in ('row', 'col', 'rowgroup', 'colgroup')):
+                raise ContractError('Invalid table header scope')
             if key in ('href','src'):
                 if any(ord(c) < 32 for c in value) or '\\' in value:
                     raise ContractError('Unsafe URL')
