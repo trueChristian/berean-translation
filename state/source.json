@@ -140,6 +140,20 @@
       "title": "Ponderings for Daughters",
       "translation_key": "144a2f28ba895f9d80bb30e6df0ffeb8b1edd4259cc5b4ccd46a35db6f476235"
     },
+    "05bb94a7-a629-4c17-b6b2-d05a0e0c9d45": {
+      "fingerprints": {
+        "html_sha256": "43c8c208e8655a86859a76614a575572288553bafc4d2ad9e250ad9a80c1f071",
+        "metadata_sha256": "573334d646f80be9edb9e4689679130a1f5a6e40fff8d2adea4641511dff7230",
+        "structure_sha256": "7f51caa27facf66ec4e287e77b9b15121b60c3b613018836612260564333b35b",
+        "text_sha256": "c8dcab0632e8dd1f5cd6171f5e28b137760dbf048d30d8c92fec705b752a11ad",
+        "translation_metadata_sha256": "117c8f63ff17d570450fbe3c0a51a376bb4a9885b8947d0cb184bfbec32579c7"
+      },
+      "id": "05bb94a7-a629-4c17-b6b2-d05a0e0c9d45",
+      "issue_id": "e0397047-e2ff-4ec0-bacc-8c286b979f15",
+      "sequence": 5,
+      "title": "Handmaid of the Lord",
+      "translation_key": "4e534a5d95c99d366da809d7ca5a5220ab345582fecbbdd22a04448b61bb96df"
+    },
     "0678981b-d0f9-4c28-970e-2617f9543c9b": {
       "fingerprints": {
         "html_sha256": "301ad625c374feeb80cfcf20ce4dcde4186f3413d5feda29e112636b10a1a430",
@@ -336,6 +350,20 @@
       "title": "Servanthood—God’s High Calling",
       "translation_key": "ea69c62d16c631d6c96d16dab440579f54d7a38e481ec6f6f2614822ea7e362d"
     },
+    "0d0d5884-baa0-4a6d-8bd6-e68853060e6e": {
+      "fingerprints": {
+        "html_sha256": "4042cdeb0b0729d7775172f005c89ec8a7c549b21b3f576733654bfb2cc41e01",
+        "metadata_sha256": "8939960b5500ac45bc3357b6a03204fbaa7c976ff4d22055e723e7849fcafe56",
+        "structure_sha256": "1ee902a91962bdcd9dc1aea396a2a3c016c468ba49c5c6dbe20e25cbb0b92310",
+        "text_sha256": "78d2bbdb2345ce2db8f0a3ec2a76d3b98527e8b3f968b2dfd89a6586cd186f72",
+        "translation_metadata_sha256": "81ea1c049039c9a869459d3fe950074138e0b2c5d9993e4451b593dfa6d22864"
+      },
+      "id": "0d0d5884-baa0-4a6d-8bd6-e68853060e6e",
+      "issue_id": "e0397047-e2ff-4ec0-bacc-8c286b979f15",
+      "sequence": 13,
+      "title": "Trust in God",
+      "translation_key": "786970bdcde0cf0b96cb2aee14c082eae8b3a35f73395e57bc96b50275f16c58"
+    },
     "0d931d28-0d57-43c1-b492-26b79348713a": {
       "fingerprints": {
         "html_sha256": "e1665fba642551c5c95aaf7eccf929395f1d1b58cce6dcbb89d06b1449a9b0f2",
@@ -349,6 +377,20 @@
       "sequence": 7,
       "title": "Of Such is the Kingdom of God",
       "translation_key": "0efb908d1ef76df933920ffb18ebe3ddd2de761495d8e3769629af70bb640e82"
+    },
+    "0ee58c4e-995f-41e9-8811-45bc7e9412a6": {
+      "fingerprints": {
+        "html_sha256": "0713a9b8f06e42f16eb680a9ce6a5a99839fe55f23cb35bea43bab706247c2f9",
+        "metadata_sha256": "234d61585140da194fbea0f8463320d4286616d5865e0ee0dd348a04521dddeb",
+        "structure_sha256": "ddfbedfc2f324d9ba36fbb9795bcd78843762515058c3765846e879d7172a705",
+        "text_sha256": "2680b60d88108485b91fb5ca8251e574a156264ece054663afcebabbe17d30fc",
+        "translation_metadata_sha256": "1abbf5fe0a6f27206d8d43531e630a5f140a1e6e395e50daf513cc70578c2c30"
+      },
+      "id": "0ee58c4e-995f-41e9-8811-45bc7e9412a6",
+      "issue_id": "e93ed6b9-d721-4065-80db-4c8d22a5cbbd",
+      "sequence": 5,
+      "title": "My Obituary",
+      "translation_key": "de1512fa5c6fabd2d9a34e5ffa733f439217c8a72a2faa22586fd29b01487850"
     },
     "0f775a7f-1f39-428b-8d96-3d48095e1f49": {
       "fingerprints": {
@@ -409,7 +451,7 @@
     "116e8bc9-5f99-4595-a021-d1445e165fbd": {
       "fingerprints": {
         "html_sha256": "6cd9631178fc036b5a7d5da5acf054c240d4dbfef6218774781b6f8c9a7f7422",
-        "metadata_sha256": "7615afd5cb0006e395917318830621a7d0a4717211ba2ef4bf7ae0bedd6becf9",
+        "metadata_sha256": "a0d0d5cf80abf97e70f9912e8a12c49d20e8c06e0223d7047e56d8d8aefc2ad4",
         "structure_sha256": "f91e27545d825667d38f6ef4cb05675fafa2a4e42d11e2635fae4ee5b9b26726",
         "text_sha256": "f1fc9e925defdb09ae12bc425bfef9275be9dd877f761d6c6e0ca45ed8d40f4c",
         "translation_metadata_sha256": "bd3657682eacf3579de78b737cff50ab5fd4a7dfd0be6638cadbfff85ff845be"
@@ -535,7 +577,7 @@
     "16200f43-1163-4e2b-94a5-730b2aaf30a5": {
       "fingerprints": {
         "html_sha256": "ffd1b5b93a6faa0f13e7890f8c5d51078508a905ebbbc61aef0c6c19ca8c1b44",
-        "metadata_sha256": "23eb70da1d81c96dd8935cb8b49c9a8188c171242932e6f2c26e61b23d1d2b5e",
+        "metadata_sha256": "9c01b8126e71dbf67e385ec8209d4bd60113f50f3eca168c667f9c1eafc3c91b",
         "structure_sha256": "8602e415f6c385f97d88899276fa5f7a5602c4b99971be4e57b92a6b7378a92e",
         "text_sha256": "513aa4333f1212d9b20a512c7f7de779019a41cc70cabc4147794c2d733c8969",
         "translation_metadata_sha256": "e43a8ec0efe014eb4d7d8d7233c2504709dbc5f365ef1df342a7027583004190"
@@ -686,6 +728,20 @@
       "title": "Understanding Submission",
       "translation_key": "ad61f4b9009ceb692738e67bfe8cebef4cb378ea1ea96cae5a9794b4be22a0d2"
     },
+    "1c6bc9f7-00f7-490f-8b4e-97310b31eb9e": {
+      "fingerprints": {
+        "html_sha256": "2c3822a8bfb71c689353ecbac6e8658a15a937ae5a2d5a9104221c1d62b335f8",
+        "metadata_sha256": "8fa778846244b029adc4086bb14fe98e7046f44ff5db86e393dde8b6eef38c08",
+        "structure_sha256": "fcd8378e0d19579213f778173c581a24577079e6b487eab41d701a4ae9a05ee8",
+        "text_sha256": "21a2929145bddd9e37f7e0e2795b1f839984bb5bd531ada80b3a41c98a138d3e",
+        "translation_metadata_sha256": "05ab6250599143fbd719000c56b1bb222a10dc50778c12bf56e2004728e44e01"
+      },
+      "id": "1c6bc9f7-00f7-490f-8b4e-97310b31eb9e",
+      "issue_id": "e0397047-e2ff-4ec0-bacc-8c286b979f15",
+      "sequence": 10,
+      "title": "Ah, That Motley Crew!",
+      "translation_key": "ecf1a7f7196f1952bafcde77a4ee1c3ae090962f6d036565c63a6301af942aab"
+    },
     "1c75dce8-1781-427f-8099-01596d53c2a4": {
       "fingerprints": {
         "html_sha256": "a58843b21d7c0b99c66e9d6da2c4793cafa762b880e1739931280ab8938c6df5",
@@ -815,7 +871,7 @@
     "208978c6-0174-434b-abf7-a8ad5343e252": {
       "fingerprints": {
         "html_sha256": "c8fe66e67e1cce57f38e14063fd62119faf6fae247cb19ae930b96000114b5e5",
-        "metadata_sha256": "c84a4e734d0b4a42e80ed2595b01a59fcd84c64377f3bc6789bdbdcb2ce5cee9",
+        "metadata_sha256": "8d7c4ff79bc908075f1e285d775bb17dfdcc9b9f5556e7f6619d65dd5db2adb9",
         "structure_sha256": "5c209154919c3942f79e8bccd2acba374781b5b8e956eddaf3863b1d2e890290",
         "text_sha256": "cdb526d7c1d78aac310ad5a35a5f11e83aab5ed8c8413a9334b874434c62305d",
         "translation_metadata_sha256": "570548713bcb3c5ba1e64449dd52d8a00599b474dd8fd6225bbc3e2c66581051"
@@ -1036,6 +1092,20 @@
       "title": "Fearing God for Selfish Reasons",
       "translation_key": "c484290bdffe3e11fafeded4a436bbd01559b8db71c7203ee8e5292badc6db11"
     },
+    "247894af-b04c-471f-8b3a-2cb62064364e": {
+      "fingerprints": {
+        "html_sha256": "b22719524fc1a46fce142e41fd5bb31bc3647e07f9129b26f55686b673924718",
+        "metadata_sha256": "1b16a1734ee57e0c99884b57f6261dbce0c1b3744ee3428f0681f99316f1f2c3",
+        "structure_sha256": "4a096d8ecc8c6ac391358902ad0c983a72d050a98ce741045ba5ef361c3affe3",
+        "text_sha256": "2a851770669d5920e02e787f5ad91bbfed580a3160fb0b0cebeca82d3d98fe3e",
+        "translation_metadata_sha256": "894479c4566fcb283966cb2be95931ed878c572c956599838c6981f03f171681"
+      },
+      "id": "247894af-b04c-471f-8b3a-2cb62064364e",
+      "issue_id": "e93ed6b9-d721-4065-80db-4c8d22a5cbbd",
+      "sequence": 9,
+      "title": "Do You “Have to” or “Want to”?",
+      "translation_key": "288bebad1fece0cccbbd5c015be855d3912d69d46f2a2eb7b3b1007a9937bb90"
+    },
     "25d5cf37-4756-4905-8eca-cdb817ade997": {
       "fingerprints": {
         "html_sha256": "6202243ca4518dc26180c65c12ce76dbb1c83294e00d78a3c3c1949d4dff2975",
@@ -1176,6 +1246,20 @@
       "title": "Coronavirus—God, the World, and the Church",
       "translation_key": "70e9ca7234600ef7ccf8e8e8fe9937db2aa9ef42a90f47c7e9d5a9c54c069516"
     },
+    "29de3ed9-7d69-4246-863b-f80e3dd80393": {
+      "fingerprints": {
+        "html_sha256": "b2052cc43c830f6157ba8e462571378a321422b9880ed9de6cd8987ac0d51736",
+        "metadata_sha256": "c62ccc12dbd017de892bfe6d4759ca8249847875e55afe8c5f273bf78d7eae89",
+        "structure_sha256": "5b757fbf507883a61b98bb77f1fc97d92f3c09f8bf755ea5a671fa1ebbfd5999",
+        "text_sha256": "03c8dd603d40abca6ef15a50a65253c0bdfd0fe914fa8adb2346d74a788dc8d4",
+        "translation_metadata_sha256": "4e5a6d95dedc3edd9daca0f673db62cf98929919c7329bbd2d9e3d85248bf2a7"
+      },
+      "id": "29de3ed9-7d69-4246-863b-f80e3dd80393",
+      "issue_id": "e93ed6b9-d721-4065-80db-4c8d22a5cbbd",
+      "sequence": 13,
+      "title": "My Little Mtungi",
+      "translation_key": "67a46ea2d67363be40593b004c2e5674091538fc6b5f1020ad5998d9b942399c"
+    },
     "2b07502a-cbf0-4b92-8bb8-7910a5557f84": {
       "fingerprints": {
         "html_sha256": "0e51b6b8a7b5ca986e0663105895c0868fac6595061ca31ecc01ddea9c94e10f",
@@ -1277,7 +1361,7 @@
     "2e820bdc-8092-4dc8-bbc9-8d24143434ad": {
       "fingerprints": {
         "html_sha256": "892109773382a39bc7604c4205e2f442e6afa7b304a160b85deebe77acf70bd1",
-        "metadata_sha256": "17f6e53eeaea2700474e98fa4a7aacd3088c2b61ccacd0268eea712bc61875eb",
+        "metadata_sha256": "1055309fd35627fb146abe3471ffbb41693fa2627c4e139eef9752447db094f3",
         "structure_sha256": "8b78efdc6a36d8c9703f6cc511291e34269e8b231954669429bc5ded028cc313",
         "text_sha256": "f37919ee9bf6732dc4a477f3078dbb1221b4fb937479f656c2d8a4cc3067452b",
         "translation_metadata_sha256": "653d609ad36e766fa60ad8c30e1bbf78083954d494b0a9cc90c36632b84426a1"
@@ -1287,6 +1371,20 @@
       "sequence": 12,
       "title": "Which Kingdom Are You Living For?",
       "translation_key": "4d12f55b44d51209da36359f62f8bc4c15dca11b959d0131705562eec5d4ef1f"
+    },
+    "2e922d22-8801-4686-9c9f-2a123a258f7d": {
+      "fingerprints": {
+        "html_sha256": "e56ced2348cf27e29d3c8e4011c574f122c5cff5f94a972f40e6f9d829f6416d",
+        "metadata_sha256": "359bbda6db2497abe25eecb1b3624df8fbd9ca148a9d69b212a93f64a32cd676",
+        "structure_sha256": "9a2d1735d77600b334b34949e912f32efaf5d09f8884495ee0a3c03518e10115",
+        "text_sha256": "7e20ef32e433c68a98ce311db99d8702fe312e6199977b2f027181ca7a6a197f",
+        "translation_metadata_sha256": "ba1cd07085f7b44ac29344254eb336ab36d2831efe1393c5196573d87fa54835"
+      },
+      "id": "2e922d22-8801-4686-9c9f-2a123a258f7d",
+      "issue_id": "e0397047-e2ff-4ec0-bacc-8c286b979f15",
+      "sequence": 3,
+      "title": "Three Stories of Grace",
+      "translation_key": "ad0fa07f54f002dd6cd5e98925cda5b90cdf7634ce3284a13c2559eb8e702758"
     },
     "2f9aa011-78bf-4423-9e05-2f629f9d5343": {
       "fingerprints": {
@@ -1371,6 +1469,20 @@
       "sequence": 6,
       "title": "The Road to Emmaus",
       "translation_key": "ceb52dc3bb5b5ab212a3930b445c8849f8521bc253df2cec9d019d90e889292e"
+    },
+    "3103df35-fe97-490f-9388-1dca942c0348": {
+      "fingerprints": {
+        "html_sha256": "4dc439e64d690012f7c4f19a27cf6785a4b256d801aecf7e3cf32cb89ff2a6bd",
+        "metadata_sha256": "6c5ca730ddff59a52bbc3458ded2b258f3ccbc9d0f2874bb1caa99e8da19e3be",
+        "structure_sha256": "c854f45e2c6045413f8a2e973f507dc3b9dbdbbbb6ce1f2fc2de8a9bac7d61f3",
+        "text_sha256": "4df7f184c89117595b8497b2d1173d070a97812809a31e39934fb48e21298cdf",
+        "translation_metadata_sha256": "cf90aa131e4a3948f9c6d5dca1068789a47f8761819c0995870260af7e3ce07f"
+      },
+      "id": "3103df35-fe97-490f-9388-1dca942c0348",
+      "issue_id": "b1525b50-95a6-40db-acf5-74b5a0e682fa",
+      "sequence": 8,
+      "title": "To Christian Young Ladies",
+      "translation_key": "d31ce73758f5ba149a8b1de03e566220ca9685e7ddaa126c96e602d42d93c471"
     },
     "31dfe629-b7fb-41e2-8d89-018530d14229": {
       "fingerprints": {
@@ -1470,6 +1582,20 @@
       "title": "A Call to Holiness",
       "translation_key": "b3a0b32450038629cf20919c69af275c4549e0b458e25e2b5d03da547dfb97f7"
     },
+    "34f1dbb0-adf7-4ab0-a8b8-efc5b8b8725c": {
+      "fingerprints": {
+        "html_sha256": "7caaa88813b34ddc6f08b87dc38bda95d7a37a3c05c4fb07dee9642bcc2e66f5",
+        "metadata_sha256": "99d787a53eb0bd6bf31cd1f59a096e617abedbc1407068ac3a2990a23c421a67",
+        "structure_sha256": "5dbae28dce12d91f6c36aa0acc626a1bce541c5a8cbcaa61010e77f8786e6975",
+        "text_sha256": "a6ba9483cc1577d3288a9a492ff524276693146e65d1fe06257e2d4ab82642fe",
+        "translation_metadata_sha256": "cde635cb1e89ef5db2a231805d1808384b76d37b19acd3d0dce0742913b7a669"
+      },
+      "id": "34f1dbb0-adf7-4ab0-a8b8-efc5b8b8725c",
+      "issue_id": "e93ed6b9-d721-4065-80db-4c8d22a5cbbd",
+      "sequence": 2,
+      "title": "The World Hates Humility",
+      "translation_key": "00ff92fa655e2f353031ee6fdd201b16cdeeae45104f2aa3faa5aa1faef5b1fb"
+    },
     "34f1de2d-cca6-4333-b60b-3f08d6e9c17f": {
       "fingerprints": {
         "html_sha256": "14a976fdd61e8e41a2cf9e9f025c93e78b5b7766e907d69d89a43ba2b47d2ae4",
@@ -1554,6 +1680,20 @@
       "title": "Separation",
       "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2"
     },
+    "3796aabd-5cfe-4ba9-8950-adb774359f65": {
+      "fingerprints": {
+        "html_sha256": "c10cac2fd860530581d551ccb18193665c39aa4d2dcfc1ef78a48dbb71ff6572",
+        "metadata_sha256": "222f11802bd8ae2e51333f2cb360caa3d41be761f0509f66edd42fe8a62b5fb8",
+        "structure_sha256": "fc6d1396801f4a797cc86f2a55f3434f7e56ccbd8360795b807f525c315a5794",
+        "text_sha256": "c8fade9cafe1020b941307d163f69945e94b6319607cf47765ef203728d967e7",
+        "translation_metadata_sha256": "b605ad8a02c3734001672aec650a0ebae7b2c3ef6f40f807e3dad9ea74c348d5"
+      },
+      "id": "3796aabd-5cfe-4ba9-8950-adb774359f65",
+      "issue_id": "e93ed6b9-d721-4065-80db-4c8d22a5cbbd",
+      "sequence": 6,
+      "title": "Key Differences between Evangelicals and Anabaptists",
+      "translation_key": "9fe29e268a264c82a7b64db200d9d47a199db7e5b4ccf8dd53ba342b1b9cc447"
+    },
     "383d2d13-cefc-42dd-a3b9-e6e41a0d373f": {
       "fingerprints": {
         "html_sha256": "7b33c06653917d85c9a927867ea69652dc86352db524384d9499eebfb9938d79",
@@ -1571,7 +1711,7 @@
     "38af92fc-8038-48c1-9276-5983c17e0a08": {
       "fingerprints": {
         "html_sha256": "12e407441fe95d9d922a0c501310b9bda682535a1ce76b147fa239c03dd30bd3",
-        "metadata_sha256": "34aeeb9e48c928a56a1a3b59276f7cfc8d221d2d491101e6d774110b3625500a",
+        "metadata_sha256": "f8033f75201a54bd0f243f9e0ec06500e16e785e1bb6c90b714b0a3bf71d0e48",
         "structure_sha256": "55bf24cb1743ff3cb11981b1eaeb4abb2b41291e105c6709c3521eab28fb692a",
         "text_sha256": "2b86e55ec24b54521968eb18a97f98f53ff33440c71675589b35a6187a99da58",
         "translation_metadata_sha256": "bb3190762dc67619acd64eed3709cd58ea415915d3706118123c1213faad07c9"
@@ -1948,9 +2088,9 @@
     },
     "41f464a0-4e90-43a6-b139-5652424ca78c": {
       "fingerprints": {
-        "html_sha256": "7687833841cff2d31587ce8d02e3728b8c9415e095210e98753ef3d1b1be37cc",
-        "metadata_sha256": "e10113a93db15a68609df2a8a43625bc86935f91dadde5e187a0a73e2aef35a3",
-        "structure_sha256": "3cfb0f904d05cfb9dc45ff5dc31d3a80365976565ea5cae9b1c8a1f9b81e48cb",
+        "html_sha256": "cd0fdf278e77ffd2ab20551fea0afb122b06b9ff57b10183da4f4235d0a9b7bb",
+        "metadata_sha256": "74f17bad8475f0cb73165895e2b4a9cba52af31895e0ba6cc76983bfb3bc899b",
+        "structure_sha256": "b3f440e158dafc6c9ba3bd74d1c92fbda7c7df74911bbb242e26af2ec686f58b",
         "text_sha256": "a23c3c4a1fa4cdcd50843d96760da08b75b6d605be91608bebe05469c0f93328",
         "translation_metadata_sha256": "99f15d5be9093af57df9909736b9a40e648dd5e46ff91eb76945c3f9314b25ed"
       },
@@ -1958,7 +2098,7 @@
       "issue_id": "d86ce698-0b1e-5aa3-9c30-9e3c831aea57",
       "sequence": 10,
       "title": "He Loved Righteousness ... and Hated Iniquity.",
-      "translation_key": "1a8dbd8b5a404346d64b7ae46d5845bef3d0bc9ca2fc69a47a692437c0c90e76"
+      "translation_key": "16a22cf4221b6dd16489edc30658f555f549cb7bb4cdf3f67e346542cbfd766d"
     },
     "420398b9-e4fa-449d-9aa2-3053fffb1e07": {
       "fingerprints": {
@@ -2253,6 +2393,20 @@
       "sequence": 10,
       "title": "I Must Pray in Secret!",
       "translation_key": "4456fd1d607bdf844a5dfdb008457a1a25252d286d983ab951de468adb0676b9"
+    },
+    "4cca26f0-52bc-4a15-a6d0-755ed7eb3385": {
+      "fingerprints": {
+        "html_sha256": "54d79d142a9ff35e92b716cfdaec8b98f9b6b6f18b279b6c738c38c66f0ddbb4",
+        "metadata_sha256": "c732efcb08d3aebd07232f18a170586c035b6ad6bc85c5e49eda26397eb36e8c",
+        "structure_sha256": "b79a740c1aff848ee558483b95aee1a278f61776b4bc59bd6150f258f443ef4c",
+        "text_sha256": "6845ec8ea25c51adddea5275524ae3fc2e8eaecee455c2b30bf681dc5fa12a54",
+        "translation_metadata_sha256": "e6f5d2b01efc29bc119ed71235e10f9ace9d267e902587f50d3d3933794e29f4"
+      },
+      "id": "4cca26f0-52bc-4a15-a6d0-755ed7eb3385",
+      "issue_id": "e0397047-e2ff-4ec0-bacc-8c286b979f15",
+      "sequence": 8,
+      "title": "Mothers, Sing with Your Children!",
+      "translation_key": "25b9589ec1e87ca5bcb18ea5a1ad8be18cff9ad912eb7e2763ed65eeb87ccb53"
     },
     "4d6e2019-29bf-410c-9ca4-0d3a22ac2333": {
       "fingerprints": {
@@ -2730,6 +2884,20 @@
       "title": "The True Way of Turning to God",
       "translation_key": "850926ba17e8070275b1a775fc07905107f9a396f0c46d539a047ce2950a25d5"
     },
+    "5bf8da8e-cd24-40e9-97d0-319b00f6d0af": {
+      "fingerprints": {
+        "html_sha256": "b2a900b2ee9499ed6ee868f805ca4d8ee7406d41193c9da31c77372f4eca641e",
+        "metadata_sha256": "a6910f1ea4b36112fa487e7f0eb072c433d9190a7bdbf12a181b9963cf4fefdf",
+        "structure_sha256": "eb1ae33f44054c96009b674cca7d228e009b95b13974ca002bef20b2bc096fc6",
+        "text_sha256": "a38ab17a74fa4e32876e4145ac5879c4b52fdb22bfd787fcfba4d071dcdc5548",
+        "translation_metadata_sha256": "965069ad8b08ccc0ffbfa57ca0a0c70fb79e0ddda9f06c8c1e90ea0e32db50a0"
+      },
+      "id": "5bf8da8e-cd24-40e9-97d0-319b00f6d0af",
+      "issue_id": "e0397047-e2ff-4ec0-bacc-8c286b979f15",
+      "sequence": 9,
+      "title": "Sober Minded",
+      "translation_key": "3f42f018636b7a50eb031574995fb9beec13c4d740d78eef3b02828c37ef55b2"
+    },
     "5debb819-a6cb-48f9-9bee-a96915d065cc": {
       "fingerprints": {
         "html_sha256": "998f51923a42992d0ff4918ac758c4d9827e761a2d0bcb6dc61566c44f38ef30",
@@ -2845,7 +3013,7 @@
     "618e8fb5-f7a3-430f-ae11-717f4f98e216": {
       "fingerprints": {
         "html_sha256": "2bcc76d9a19390d81d2222ac006948fbe61f455997449f2d9bb2b00d9026acd5",
-        "metadata_sha256": "a258034c2decf3b9c6a2f7f596f8b6f050767aa5189b951fa33c4f57bddb2c02",
+        "metadata_sha256": "0d83641376e9b48e4c3426e134b858c6c23e06cb40634b27886cfdd978d277c9",
         "structure_sha256": "355ffa5d7914391f4a30bbfdb314810d539a302d2d30196a5de66207c99d6e78",
         "text_sha256": "a502a5dc4fa3f9d7cc000af861a67744cdde5dec99c1b41d95275e34e7e049ac",
         "translation_metadata_sha256": "faa2c58b3bf2ef0ac56c18368808295ccbdb105e82f9338a26c1398c1efd6634"
@@ -3083,7 +3251,7 @@
     "6aeb5a86-17e2-4b7f-9564-c0525b388944": {
       "fingerprints": {
         "html_sha256": "13ba5a7bd0be5c18db072d37de1c28c07a05a13785cbb3608b3724ec0e078a2d",
-        "metadata_sha256": "29acf16abbcbb455d8ce11d988e15eb1c8751e83cdccbb51dd534725afe13ad5",
+        "metadata_sha256": "aa2c08595a40bd5cabdfc0cc888a694eb994b1c891485502bbb9d6af5e2e8a26",
         "structure_sha256": "b7ebac1b2322fb5b9217c9e78606866f8606be52ebc837e2906920868bd5e2ff",
         "text_sha256": "54524ad1364a3556029b6ce4bb20c9c2f61649156dbcc47b4613f7dd090d5cbf",
         "translation_metadata_sha256": "411438e1fb76fcc70dcb271b6691efd23c3cd34cfedaa77cbbfcf9d6f225a13b"
@@ -3164,6 +3332,20 @@
       "title": "How Shall We Preach?",
       "translation_key": "177efd01429cdde720c7ee8c58d1c372a2e51a2b7b20ffa32440b24002d04023"
     },
+    "6db27583-d595-4584-b197-549a13143c4b": {
+      "fingerprints": {
+        "html_sha256": "c235d2035f03b370bb9f3588953e8de737f50dae657cef44b57703e8dadf663e",
+        "metadata_sha256": "fc6a42c6b835e066f4bf068d8d0a966a03e6b911bcf047d723941eb5e5d272e3",
+        "structure_sha256": "f02aab58f18b9fda3a83d71365077f64d1d1e6aadff9762888c48967b6fa0602",
+        "text_sha256": "944a137cc6ed09be9ef1456cacd4520160fcb61971c14fe4e2c91e6e09fcf0a0",
+        "translation_metadata_sha256": "ae237510049b8aac68cb1c698496ec39a1df7dd283f48770c98e98e44f852af0"
+      },
+      "id": "6db27583-d595-4584-b197-549a13143c4b",
+      "issue_id": "e0397047-e2ff-4ec0-bacc-8c286b979f15",
+      "sequence": 1,
+      "title": "From the Editor",
+      "translation_key": "49ddc4eb4b3e5dd2bf64b2486b4c7c8160502019ee0b5e0661a9eb80c5b51108"
+    },
     "6f528c85-5ee6-4ccd-804f-63652b5c3a1d": {
       "fingerprints": {
         "html_sha256": "f164792243d93011d5c29b6b8a346aabf6836209889c774b119098e659cf9a40",
@@ -3177,6 +3359,20 @@
       "sequence": 7,
       "title": "We Are World Christians",
       "translation_key": "626995bb484688afaeb937b961680a84cb8267e4ccb1ac251bb92f94ec11d6ef"
+    },
+    "6fb626a6-774a-43be-8268-918f4adcaffc": {
+      "fingerprints": {
+        "html_sha256": "a1d4e28e95a68123231744579a3c19f88397d94edba701b2e34aa294ee485742",
+        "metadata_sha256": "7f8af8ad7e5d7b2eb6ad9220aa6419a98a6203aefa21e4a5842cebf1d61e44bf",
+        "structure_sha256": "86d162d69bbfbf94742494e262e7e15f93271551eb42e3d6ab013f5eda579bde",
+        "text_sha256": "2181b006aea58d91182e6a3f8537cc690d96db494a2408aff384fa74d1098eb6",
+        "translation_metadata_sha256": "40ce713fadd8c5c70f53e8c7ccbb7790544ff79966b107f4f8bb1986f796cfc4"
+      },
+      "id": "6fb626a6-774a-43be-8268-918f4adcaffc",
+      "issue_id": "e0397047-e2ff-4ec0-bacc-8c286b979f15",
+      "sequence": 7,
+      "title": "Free Indeed",
+      "translation_key": "c38582f8786a992765911fd38e3fadee49667b0cdd709f69b761f80c6c369c83"
     },
     "7065efe5-66f5-44c1-bf03-3f88d5ad2c74": {
       "fingerprints": {
@@ -3429,6 +3625,20 @@
       "sequence": 11,
       "title": "Blessed Assurance",
       "translation_key": "0ea1ebb825817c9400b89219418ac3b672692f3265fe797ef71d5ffd972d635c"
+    },
+    "7793006e-9b0e-4ad7-a803-59c7b9e16969": {
+      "fingerprints": {
+        "html_sha256": "0ecd60b44f7c97866a5cccf53677c90ebab6e3a7228abf366b5a2a44d6f091ac",
+        "metadata_sha256": "f9779bee6c22b53d6e0f36952f7b3509ccde80fdfa7a8d4ec957f44e585b3bd2",
+        "structure_sha256": "5f91f71c1cd1bf015f919d6090568d02ea41d18c11ef07c2d51db7facbf31242",
+        "text_sha256": "d54cb639f6724a2bcb5a3327ffe1c8a1bb2cb777de28df154af98fbe944495d4",
+        "translation_metadata_sha256": "b3e90fcf0ac82f95be4ad40f1820ca4eb727366a69f08e032f38587620b999e6"
+      },
+      "id": "7793006e-9b0e-4ad7-a803-59c7b9e16969",
+      "issue_id": "e93ed6b9-d721-4065-80db-4c8d22a5cbbd",
+      "sequence": 11,
+      "title": "Given Her for a Covering",
+      "translation_key": "dca4d28c7d03f30a96ca90314ff339fd8d74682cc5d07c3f0665b7066be04244"
     },
     "77a6f2d1-3ddd-4eed-9b80-9db2be0c922e": {
       "fingerprints": {
@@ -3699,7 +3909,7 @@
     "7d6d6577-a9d9-4202-8362-9191ab4df5f9": {
       "fingerprints": {
         "html_sha256": "c8c09d9c5a730b9efe386631db97399b99e429a13093ab3599a04fda62b5a1f0",
-        "metadata_sha256": "7bd54f37a0275b4ef1e10eab91ec40da37dd4af23546d5231b7f94c0af98e734",
+        "metadata_sha256": "3274932398e3efea284bcda1573941e894eb73345a2501b700e595c67df6666b",
         "structure_sha256": "b644857c585f7e61c8310051000f499e508ee25099bdfbdf87c29f6d0b2355f6",
         "text_sha256": "e49703199bb8a23a87c925f6521300f649d49e80567e47481b54bb38cf146bc2",
         "translation_metadata_sha256": "172d6b45a35ba4cc2a8f553d15962829f06adbf95c2baacfc6ff7d736b1360dd"
@@ -3950,8 +4160,8 @@
     },
     "89ef3498-640e-4f99-b08c-08d08c62c3e8": {
       "fingerprints": {
-        "html_sha256": "62f5d92763d7e1becdaba0f4c908c389f8b08d22d11255a13dbfbd6893e5e211",
-        "metadata_sha256": "4ea9f65fd675d6e08cf5b8f7d94e347bc739ca48a35a1d8d9e19b15e602cf261",
+        "html_sha256": "2b88b5420654a5377cc4053504284f4325baca1968f480552b656544b39ecdbd",
+        "metadata_sha256": "d8987e08bcf0c53cdaf6de4533fa83c13e58fd9b3a005b40746e9cf0fcd9fc2d",
         "structure_sha256": "13ad87615f953352b4f840a52ea70273cafb8b4da766d9851133edd75835891a",
         "text_sha256": "58321cd0d534ba7bb046301837716b78a4a3e2b5966fa9672452de885caca45c",
         "translation_metadata_sha256": "3b30a17b93c5cbffbe0aa00e545d4077dc812d3fbee4a2a201f67e594ffc5620"
@@ -4409,6 +4619,20 @@
       "sequence": 11,
       "title": "The Haven of Rest",
       "translation_key": "6ba0f430c997b1ea3450b766c83b9abcf64dbdc84cdd47383ef0cebf9766d0dd"
+    },
+    "958da9ad-3de2-4e1f-a3dc-c777af6d11ab": {
+      "fingerprints": {
+        "html_sha256": "eb76d3d2bab10603e85d12e156a5fe967690ffafa59b30fc114c2c239ddc1800",
+        "metadata_sha256": "1445d7f09e88d6cf017809ab8eee9d1198c0f19cf3644fe5a63ecb8917c1450a",
+        "structure_sha256": "85274baa7f30a0a91004ae180a93908c2f0e82091c08c547686f4e952a98c1d8",
+        "text_sha256": "e3dd8517b2aa8b98d8f36824ade6c3be77143576738081193aebb677c404009d",
+        "translation_metadata_sha256": "7ab3b0abc546accc05d94ef8eec2fa94a1e963c507b66091ab4964efa8163c75"
+      },
+      "id": "958da9ad-3de2-4e1f-a3dc-c777af6d11ab",
+      "issue_id": "e0397047-e2ff-4ec0-bacc-8c286b979f15",
+      "sequence": 2,
+      "title": "What is the Gospel?",
+      "translation_key": "e88838ecbbe73a27d5d178030b5f7f55ac0669d5016295719a9a4d4383a5b831"
     },
     "95aac01a-bc7b-4c4b-a8c0-0c193488e249": {
       "fingerprints": {
@@ -4903,7 +5127,7 @@
     "a9ab2c6a-8ad9-427b-8d48-841e47e1a5f7": {
       "fingerprints": {
         "html_sha256": "52180a8688a28eaf5e5fa430be4683d033962d69b8e291b973122796c9575588",
-        "metadata_sha256": "0f90668c81c1b4d6cd73075d1b81ec6c366784f916cbc884cd982623a8670703",
+        "metadata_sha256": "1b8ff735c9448f08acf71feb01ad04c494bbf481567da5959d5d400e15e1ad0d",
         "structure_sha256": "c4db2cdf23a1018b6a63f8d5b4126af7e4a08b102bb7211f70119f8f9f78d828",
         "text_sha256": "dd3217f9e0183314813e1a062322f4b38669c2d0b5e38db4852cc2654cd4e583",
         "translation_metadata_sha256": "97869c835a48cc85bfa529f89fb586305e683f1b32e190ff958998796a6aab52"
@@ -5025,6 +5249,34 @@
       "sequence": 6,
       "title": "Ken And I",
       "translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18"
+    },
+    "acb415d4-2d68-4cc5-a06c-06b06ad2735c": {
+      "fingerprints": {
+        "html_sha256": "e4de26bedc4342c73beb363fb6b0b3d1285f2a2aa86fe22e64e90fae4496af92",
+        "metadata_sha256": "74f1b2bf0cf12a962c02f3dd43e237e2314e6dc5d18bd0840b8d45b5605bce05",
+        "structure_sha256": "346363f4f83748d943c8afcd4ed5d49b7632b44cb36d7a2aef5be287c181433e",
+        "text_sha256": "e6c0e89f9ac8a0f2318f2c3cced5dcf98b3e719bf4faacd1c166edf3e0a0dc6e",
+        "translation_metadata_sha256": "3d233b09cdaed9678b7711b2dae7dc373c804d23115ea20d4b37b7463e1d9c30"
+      },
+      "id": "acb415d4-2d68-4cc5-a06c-06b06ad2735c",
+      "issue_id": "b1525b50-95a6-40db-acf5-74b5a0e682fa",
+      "sequence": 1,
+      "title": "From the Editor",
+      "translation_key": "ae17db3a0dfec1fbeb7b19aba42f68dfe4441357c16189eaaae678835b69771c"
+    },
+    "ae906c68-56e9-404e-801e-bb21d54682f0": {
+      "fingerprints": {
+        "html_sha256": "8be9780bbd32fd728bcecd2e5e73181105f7baf2eac1cb6c91640b48f949ee2e",
+        "metadata_sha256": "2dddf8fcb34819568b290504dd064993f3fd7e5e7bfdcd5aa90c7ca6235b0b74",
+        "structure_sha256": "080fd7046cb3c0fccc7f74a298e5924d9a692bce024a9e5590e516f07bc981fa",
+        "text_sha256": "c75157afc106afaffcd0f5c2349616ae4d72fd4e09f56077a8ee672126c0513f",
+        "translation_metadata_sha256": "9548c9b65d1cfd43307093b17827bdaf43e3a81640363e04faabc7737e2dade4"
+      },
+      "id": "ae906c68-56e9-404e-801e-bb21d54682f0",
+      "issue_id": "b1525b50-95a6-40db-acf5-74b5a0e682fa",
+      "sequence": 4,
+      "title": null,
+      "translation_key": "f30e6ccb02e3129d5955337dc0ef4578e24e51d77c01e1d6567a4d3f2249b9a4"
     },
     "af526358-a4bb-44b9-aeec-2535f8ce9a29": {
       "fingerprints": {
@@ -5179,6 +5431,20 @@
       "sequence": 5,
       "title": "Morally Pure In a Corrupt Society",
       "translation_key": "f7304b582e2d69344173a19198f46ca88b1132d0c44e0b4021e5c3668c34cd95"
+    },
+    "b473ca57-aba0-475d-89d6-32a3a75f7ac3": {
+      "fingerprints": {
+        "html_sha256": "0b528b1e51dcbb360b159da5eb13cafd4df5d5ed4231205b2c2dd8e7bd0d9311",
+        "metadata_sha256": "60c961917d559f165a1a731cab0b16c5d8345a30b7d5829c2908a2c59a647262",
+        "structure_sha256": "8407ce0826dd03ac113777518d6ce06890ceb67dab533e71fa5391e1a89ae9ca",
+        "text_sha256": "c1bb485b458827f735fc77afb794d03fc3ca23b6579d1328108a0834140bc4ca",
+        "translation_metadata_sha256": "631d6f9f6a53665d5ed17b38b2fa9e64cfe079fe57bd80de21f2eb96a976eab5"
+      },
+      "id": "b473ca57-aba0-475d-89d6-32a3a75f7ac3",
+      "issue_id": "e93ed6b9-d721-4065-80db-4c8d22a5cbbd",
+      "sequence": 7,
+      "title": null,
+      "translation_key": "0954a3b18b65c0e755033549ac5f63d8fe826a1092bb8ca1c827c86de618feb9"
     },
     "b4982ff3-af5e-42fa-b8a6-b2e556ccc0ed": {
       "fingerprints": {
@@ -5390,6 +5656,20 @@
       "title": "About the song ...",
       "translation_key": "3313efd8d677d4cad3a1ec05e684e2880613fb51193f0810f0c9d2b1eb7b9b2e"
     },
+    "bcd844a2-09d7-4e8f-8b22-139fb2e8cdf5": {
+      "fingerprints": {
+        "html_sha256": "ed72c6d40e0df26a4f4f6099298fbf80c88b95fabda1d66dcf0fbb918ae68fde",
+        "metadata_sha256": "4eae2620a2e8a70797f2649f112da6b764f68e262dc830fcd6d823a194bb0921",
+        "structure_sha256": "cea015555e97cbae3b2f2735982dc742e478917eb37b5f2c80223bbc5887e8cd",
+        "text_sha256": "fa671c83efcec3be9d6f4ce65c518ff45d994d220dfe0b5965d33aa4f40f6fc6",
+        "translation_metadata_sha256": "e9b1235e1543f0f4962beb3981be6323b2a4ae1f4e8635c7459a361d7e149fbe"
+      },
+      "id": "bcd844a2-09d7-4e8f-8b22-139fb2e8cdf5",
+      "issue_id": "b1525b50-95a6-40db-acf5-74b5a0e682fa",
+      "sequence": 6,
+      "title": "The Spiritual Resurrection",
+      "translation_key": "f6a58769a1fb197e9e1b32b4906a77eb9ba79ef592321b312c5f2c537ae2b033"
+    },
     "bd7bc21c-5e26-46de-af8e-c1b13b47a349": {
       "fingerprints": {
         "html_sha256": "c155e5d1c19d75c8391bc4e8d57898a3a84c5be58dc6f8640394abe418f794e0",
@@ -5530,6 +5810,20 @@
       "title": "From the Editor",
       "translation_key": "7328fe7985535229790c376868603624111ed137e1665aff6a36b03d5b4d90fa"
     },
+    "c23035c3-67d1-4f67-a927-273f131952c2": {
+      "fingerprints": {
+        "html_sha256": "31ea4218d8684aaae1f350decf878d1b319f927c0e355e2a3a842e6278cdb2b9",
+        "metadata_sha256": "4e170aef3fc57828564002d4a464223c4919efa8dfc0d3919698fc29883fe9ff",
+        "structure_sha256": "13b7f7a47c3e14605488e27c3f88cfcfb67411040545671e69a11d0fd3bebd29",
+        "text_sha256": "1a2931bb0b9b36171f5a70ee2948fc9a8cc2b69d99d6f89ae1ccae94b0a0b3e0",
+        "translation_metadata_sha256": "05a78134d2237a53dc65487a4594ea617207574c6aea7be7ce7929f9563b3267"
+      },
+      "id": "c23035c3-67d1-4f67-a927-273f131952c2",
+      "issue_id": "e93ed6b9-d721-4065-80db-4c8d22a5cbbd",
+      "sequence": 10,
+      "title": "Entertainment or Eternity",
+      "translation_key": "1136a65236173376b89db6f27d98cfcea9894ce975c248aeb13bcd0c8b730ca8"
+    },
     "c233b16f-7c75-4b40-b250-9ed3a1e336d5": {
       "fingerprints": {
         "html_sha256": "447174b4ec51909b32d7aa5477d1f3a8b9d675eb07510e2091fc5f91a31ff5ba",
@@ -5547,7 +5841,7 @@
     "c23ee10e-0377-4ee9-bd7d-74c7f5a5147b": {
       "fingerprints": {
         "html_sha256": "8a03ce1fb4c2c2d709a2650a45fb98ca0e23b8c61371da85acd59bed8918b2ee",
-        "metadata_sha256": "8e8f1fcf3811dde1fa1558f415bc6d40aa7dc78d25259c43759fe1abbc5ad2f6",
+        "metadata_sha256": "48ab5f0c305b84cc7b3cfd096fa4f014aea765652f6826961690760d3e1ea53c",
         "structure_sha256": "70fa41cee052da6c43ff1f49e2bf0db845e5fd67fd8eeee1499088705c5a5361",
         "text_sha256": "29549b9311d5c2e72f3651955a5912f7b3b8dc7e5379d9305c6631397a8cee1e",
         "translation_metadata_sha256": "d9911557261e0642aa45c7a0e3b79de78a593148f9d20fd89886d996859a08a1"
@@ -5669,6 +5963,34 @@
       "sequence": 6,
       "title": "The Preachers Confess!",
       "translation_key": "9fb07f06553ec8c43a7450e1b9a1da491fe5117c160be7a08819b2f6f54811e5"
+    },
+    "c802cb5c-a80a-4f32-bd6b-5ec2d5be3670": {
+      "fingerprints": {
+        "html_sha256": "85ce7d69914f233c5fd224a783fcf8b93d31a1d17cee59b2a7fbe6892e2d0f89",
+        "metadata_sha256": "dc998255013d5c263b296d881e86b0bbdc9ed37c5823c0ee375ae6b71987f3bf",
+        "structure_sha256": "d7d6917a6d86576df716141eb245e65a4e03034c413a08001da440a8e8e82272",
+        "text_sha256": "972382ac3df5a76e361307fa88b45534d2989ee68d25103fb9679b7773fc0780",
+        "translation_metadata_sha256": "355064693d4d4dcba4e4943c6e2867c4e7978b1a45a70bf862b6478db25fcba6"
+      },
+      "id": "c802cb5c-a80a-4f32-bd6b-5ec2d5be3670",
+      "issue_id": "e93ed6b9-d721-4065-80db-4c8d22a5cbbd",
+      "sequence": 14,
+      "title": "Living Water",
+      "translation_key": "097bca60737b69f48fb1375c98ddf5262c9b9a304d48bf68e78e90fef44c3986"
+    },
+    "c830db53-56e5-4b70-8021-8471740a3aa3": {
+      "fingerprints": {
+        "html_sha256": "434dd913e6edf2c3fbc3e3d5bc60f22fe71eff8a5636c8c1d8cf57934e752391",
+        "metadata_sha256": "d97d072769cce272024ddcf0cabe6bddc4d6826b2fe8b507d11303fd05e0051b",
+        "structure_sha256": "1429b145e61d051912eb3fc7e15f26483efe2994a93cd9b85e60281c977702d6",
+        "text_sha256": "085d4f5979ebe7f058fbbdeea57af05b953a771296f30af8c5f8b0aa6f5f809c",
+        "translation_metadata_sha256": "66dbd76a48cba4412cd4dd9898efebe93f9cbdaa4fcf79df81d4c325040eec0c"
+      },
+      "id": "c830db53-56e5-4b70-8021-8471740a3aa3",
+      "issue_id": "e0397047-e2ff-4ec0-bacc-8c286b979f15",
+      "sequence": 6,
+      "title": "Modesty for Men",
+      "translation_key": "27dc1cd343b6fb959e759ed0dd2acd510075f254ff8e68aa7bad7a90f5992f65"
     },
     "c865ee9b-c60f-4a93-915e-091fc7d6eae0": {
       "fingerprints": {
@@ -6188,6 +6510,20 @@
       "title": "SHOULD WE Vote?",
       "translation_key": "e8dc013f955d85f9f69950aac584cee30b2e2577172c01fe6c18c3e5e51a04c9"
     },
+    "d6baf3a2-00bd-416a-a19c-78ce422a8bbd": {
+      "fingerprints": {
+        "html_sha256": "65963444ea11018723b3de3f062a50dabacf156b7c28429f0573f0c7cbc790a1",
+        "metadata_sha256": "852eff3592294ed4e52cf13508532a540bcdc390fd6e68480acf4a91cb1eb382",
+        "structure_sha256": "f8632ae82712de08502309c85dc19f591a20153f97a7bc82982b846c17ddf6be",
+        "text_sha256": "244a7986dbd3a1900a5a4493da589a3d537d1750a493073b0e30e24c5b379930",
+        "translation_metadata_sha256": "2105284812b6d198c3f1e0917a1d96b60bea54da294e605db00bfaa81e793cf5"
+      },
+      "id": "d6baf3a2-00bd-416a-a19c-78ce422a8bbd",
+      "issue_id": "b1525b50-95a6-40db-acf5-74b5a0e682fa",
+      "sequence": 9,
+      "title": "Ambrosius Spittelmayr",
+      "translation_key": "e9528a33e448b702847a5e65f6114d4e58945f6c0527788ba703f136c28a027b"
+    },
     "d6e9d18c-8d14-4187-8977-c6150a9c43b2": {
       "fingerprints": {
         "html_sha256": "53e104c860d8ea695b51c2db504c6d9c1579b4e4a16c7b6af787abb0ae7ae1c2",
@@ -6216,6 +6552,20 @@
       "title": "Freedom in Christ",
       "translation_key": "ec9ca1f91af55e6e704ecf4d3a7baf6597647d5b6e47c84d8f815d39161ac0a4"
     },
+    "d76a8fb5-e163-463a-b9ae-6a8d93f25e67": {
+      "fingerprints": {
+        "html_sha256": "9501c1dd6b187768526cdf9e37b021cf2069dc632ad3af21215c2dcfaa1171d5",
+        "metadata_sha256": "96353bb5860d667bd9f08eb2009bc603bee4910e6c9e44f965110977653ba619",
+        "structure_sha256": "563303b6b75eecc41628b7d5b3755435ed8d86d8b93e56b48d48dcc7dc1c8380",
+        "text_sha256": "475eaf0f51eb00892b242b69a45c72558e7220ed5482532ae9c8d49a1444bab8",
+        "translation_metadata_sha256": "42ca7a98d61b5469375709fc1487e74d9ec525b58d01c784778fd5ca17d3d206"
+      },
+      "id": "d76a8fb5-e163-463a-b9ae-6a8d93f25e67",
+      "issue_id": "b1525b50-95a6-40db-acf5-74b5a0e682fa",
+      "sequence": 2,
+      "title": "Afraid to Tell Eli",
+      "translation_key": "8055754e867f612b047ab41fdcdcf06172c364819c9f2b00c259d418ecc1672f"
+    },
     "d9e8d6f2-78d6-4225-928b-48cd3b6074fd": {
       "fingerprints": {
         "html_sha256": "178bfc857117a1ef885daced273bcf5c46da18ad8968700a26e443db59285613",
@@ -6233,7 +6583,7 @@
     "da69b76d-a7fe-4454-92f6-50b72a863990": {
       "fingerprints": {
         "html_sha256": "3f9796afabd6af5216b7495a5951b51f0c09170716a22c0ae2dfbec01dbc741c",
-        "metadata_sha256": "648618c268deaef389a51998f38de9fe71dbaecf51f4a1656b5b589e8260ad65",
+        "metadata_sha256": "ae039b301c63cc56e4d1bc8baf4a91585d83bb8ae365473ad4905846ae82aa24",
         "structure_sha256": "8e80c53af3176f1b9a69d6b103419f0808a660fe88abb788a83e5032c80d1ea3",
         "text_sha256": "39ee4797ee7cec15064e5196138fafe34d78c42aaf40ed8c237b5e0933d51e08",
         "translation_metadata_sha256": "5bcacef0676f1807b68e78b168d713c594b9b928d1826537945d3043c1cdd542"
@@ -6286,6 +6636,20 @@
       "title": "From the Editor",
       "translation_key": "d0410b3ae98c7c6c4b8643e82b8513a58f4f423e430db25e79b18dc18a3fab41"
     },
+    "dda47f1b-68c2-491b-b85d-accf7a24f4db": {
+      "fingerprints": {
+        "html_sha256": "ee0bfb630ab5da7353b469fc3e7388d69531217587f0f197945cd269a70c5c73",
+        "metadata_sha256": "342f4b87bdd5362f2593b8f4354e50abf1e0886857f1fdc4888804b5679a7289",
+        "structure_sha256": "046650070d5d9caf73564b0da194ee88ac08cf18688c96a610db298b6fa838ff",
+        "text_sha256": "f8fa4155def32ad0aef0da10747c12b7d0770bf1ee8352b76cc0726eca3a58c0",
+        "translation_metadata_sha256": "1310e75b3dbbb80e5f0fdf271e76d25542d95ca224e29e5a3a55973fea593571"
+      },
+      "id": "dda47f1b-68c2-491b-b85d-accf7a24f4db",
+      "issue_id": "e0397047-e2ff-4ec0-bacc-8c286b979f15",
+      "sequence": 12,
+      "title": "Letter from John Esh",
+      "translation_key": "76c195e69ad688895e3a2dfb11ed81b960dc95280b824bf55a1916df48f827f9"
+    },
     "de1ad3c0-8efc-4a93-a965-a92172801455": {
       "fingerprints": {
         "html_sha256": "9c41ff68caaf331cac40778e7a6ba0ec10054809891cc48269aa2e4dcddd2322",
@@ -6313,6 +6677,20 @@
       "sequence": 12,
       "title": "Crown Him with Many Crowns",
       "translation_key": "01644cf9abc17411f3b235a99895bb87e8eec445a9ac28e6394d4afb94966251"
+    },
+    "df617a56-01b8-4099-bbcd-137a08cbfb95": {
+      "fingerprints": {
+        "html_sha256": "b8ddd47c0c8bd1911d117af889ed3cbc35cdfa62dc3cab553c36e937b4a70104",
+        "metadata_sha256": "e740f52b64c9305fd33ca153b00abe5b4715ab43fffe4079c16b73fa053beafb",
+        "structure_sha256": "6dba29271e3f346495387eb5b44648e5716c15bc72f10d18e7b88807635a53ea",
+        "text_sha256": "030363b2d4217d12177043418ac9be3f1d259a3eaa343efecb2437551285be52",
+        "translation_metadata_sha256": "860d212f7b78befce852d170fa09e5ba3322081d920a53714794495333517869"
+      },
+      "id": "df617a56-01b8-4099-bbcd-137a08cbfb95",
+      "issue_id": "e93ed6b9-d721-4065-80db-4c8d22a5cbbd",
+      "sequence": 4,
+      "title": "But Mine Eye Spared Thee",
+      "translation_key": "004a6303deaf522f21e1304a1c2fb40246a5030ced24a145e1c441e2beeba9be"
     },
     "dfc80edf-efff-4f43-a0b6-f0328948b30b": {
       "fingerprints": {
@@ -6355,6 +6733,20 @@
       "sequence": 13,
       "title": "Joy in the Crevices",
       "translation_key": "acbad956acbc0ba297dd9987580b31ba6d564249f37c4797bf87680f76b1dffc"
+    },
+    "e14d9ebc-c490-40d0-8d79-1727a9572f6f": {
+      "fingerprints": {
+        "html_sha256": "125c75e346387811f23cd7cd1e2c665c316d2d012ece035b8fb977fb217c2b02",
+        "metadata_sha256": "e7e4c21608c50b2ccdb9f2686afe6f2397c36d1e259fe21f5f91f4ed49a68f83",
+        "structure_sha256": "3e077ac0115988a33b0aa0d0bca0ff564a1e29ffd7116e70082a34a347765401",
+        "text_sha256": "3bd1199dcb5df7c750aa73bbd76ce17fd027a309ada8480e4db968c987c6b08c",
+        "translation_metadata_sha256": "f45e3588a74da0849898bcf3c502962f5423e37f89ef9899282649f54ade26fa"
+      },
+      "id": "e14d9ebc-c490-40d0-8d79-1727a9572f6f",
+      "issue_id": "b1525b50-95a6-40db-acf5-74b5a0e682fa",
+      "sequence": 10,
+      "title": "Seeds of the Kingdom",
+      "translation_key": "26062604a3639919d21ff0df352791a4b9d1b3f40e1deacce2aea11cb3a6ed54"
     },
     "e296cdce-916b-4ecd-8bc5-8cc00726a580": {
       "fingerprints": {
@@ -6426,6 +6818,20 @@
       "title": "Keep God Before Your Eyes",
       "translation_key": "bcdd8484035480e296a64f732b8607ef905a5d176e208217c3b1df5a41e79ec9"
     },
+    "e6efda80-883a-45b9-b615-efc270f09f1d": {
+      "fingerprints": {
+        "html_sha256": "3d59475a83972627f23a043fd8435903b818eafcd1e91ed7b671ea662329faa2",
+        "metadata_sha256": "5358c810805750203103ace7be06795fd2a23ab161284cec0f8a9bac8fdab5cd",
+        "structure_sha256": "960b08a82e10dd350855f0aa60c6ac1564bd90624e67e56af28efcaeed7a22e9",
+        "text_sha256": "332239feedf9c60b193404813bdc8c3e8f90a5164a9422d0af5b68638e52ceff",
+        "translation_metadata_sha256": "2e318a5da71c6f841e92f8359c0d383663e219db642a472ade270c7ee10e3388"
+      },
+      "id": "e6efda80-883a-45b9-b615-efc270f09f1d",
+      "issue_id": "b1525b50-95a6-40db-acf5-74b5a0e682fa",
+      "sequence": 5,
+      "title": "Of Wading Ducks and Emotional Women",
+      "translation_key": "d6c0418d0fa82e5cf1300215f71ab72a2eb70c74d6ab4120be96fb8ad06f5171"
+    },
     "e7e3ec8b-76a7-4b0b-9837-12e668dd9abd": {
       "fingerprints": {
         "html_sha256": "f37b3b31c36a8681b955cc7f926d175a0b91cd72c2450125af07ee87da266e33",
@@ -6467,6 +6873,20 @@
       "sequence": 8,
       "title": "DEMENTIA",
       "translation_key": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef"
+    },
+    "e85b8060-dfe6-4e23-b9e2-c23d57a6e2b7": {
+      "fingerprints": {
+        "html_sha256": "cf3ef2f56157bd8346ef6582ff4138d07247d9bbe2ee0b8c55697e8e1bd201e8",
+        "metadata_sha256": "a0d9480bdee648596f85cb5f7f42b734f1f455738f77bc0773547b5bad14ef05",
+        "structure_sha256": "962a93d820b45e13b1dbc8def22893d5e0353e3960f82388d1c787ec7ecab8e5",
+        "text_sha256": "22353504234b35785c5bf93616b6c09d56d6cfe8caf2c0446b8b4bc6e9b5cb73",
+        "translation_metadata_sha256": "0ac76bacc86e19657eeb29c8e5c44ac9fcc5ec583bbd0b3818d4619d0155ff6c"
+      },
+      "id": "e85b8060-dfe6-4e23-b9e2-c23d57a6e2b7",
+      "issue_id": "e93ed6b9-d721-4065-80db-4c8d22a5cbbd",
+      "sequence": 12,
+      "title": "Hail to the Lord's Anointed",
+      "translation_key": "432db51c2af1d0759cc5f9e8b52ca8986f7b991cc9445d99634482f67ce3029d"
     },
     "e8bdb12c-2e8e-4f55-9052-07bec6e103a1": {
       "fingerprints": {
@@ -6565,6 +6985,34 @@
       "sequence": 8,
       "title": "At Home with Usefulness",
       "translation_key": "0b31baca62de8f2420d466899aafcab4390c925bf5cf10bf487a92a892c381aa"
+    },
+    "ead77cbc-fa20-4919-ad5d-a220d48d9f14": {
+      "fingerprints": {
+        "html_sha256": "dcaaf28f57550a719337c838a1e295557cd9a0a86f6c46c101df854f4fbeb746",
+        "metadata_sha256": "5f81c915e397cfb18f634638bde64cdacfa4a583261fd046828afe7effe8385e",
+        "structure_sha256": "74ecd2a7b6412d30c1b1ffab4759f529571505a83ff932fab5b0c5a986c376ce",
+        "text_sha256": "db6dccda5849f7bd33ea7767ec62e8028ef28500ae2fc04cddf462a66613d576",
+        "translation_metadata_sha256": "ae237510049b8aac68cb1c698496ec39a1df7dd283f48770c98e98e44f852af0"
+      },
+      "id": "ead77cbc-fa20-4919-ad5d-a220d48d9f14",
+      "issue_id": "e93ed6b9-d721-4065-80db-4c8d22a5cbbd",
+      "sequence": 1,
+      "title": "From the Editor",
+      "translation_key": "904f98bd6d30c27b3f55c0c1dfbac3753ea9b6ce6c5f2ec1e7f8a47c490acc2c"
+    },
+    "eccdcd73-d0b6-41d3-b1b9-846efb218233": {
+      "fingerprints": {
+        "html_sha256": "71ab52831baaa04dd1768400a4a79b411472e137322ebd92a09dd41b86217105",
+        "metadata_sha256": "5c1c6ce962f8c6f44887ac7aef08e04ebef9b0ccea59b82cadc16c1d5610d0b2",
+        "structure_sha256": "ddce8df9f48ec92ec8a6d0b462f9c5d49a9ab65a13b26cac38920fd194cbae74",
+        "text_sha256": "50a3cfce85b19366c9dbb97bb6a11cf23ec9988b5cc8692a69f36c694db9b6b9",
+        "translation_metadata_sha256": "0cce32600976a9067792268f19f6828a4d86be70b1c605533cd295abbaf9d955"
+      },
+      "id": "eccdcd73-d0b6-41d3-b1b9-846efb218233",
+      "issue_id": "e0397047-e2ff-4ec0-bacc-8c286b979f15",
+      "sequence": 4,
+      "title": "Offcasts or Firstfruits?",
+      "translation_key": "59103e549d100914d1ee28a531323843635e030d130f1483426a2c9f99609fe8"
     },
     "ee2039bb-d8f1-47d2-af3d-d4e4f0d701aa": {
       "fingerprints": {
@@ -6677,6 +7125,20 @@
       "sequence": 9,
       "title": "Benefits of Churches Helping Their Own",
       "translation_key": "bd565d25d9a64c7a0f2f06fb96cb13c5e6c3c465f39edeeb7e347dd4fa29c04c"
+    },
+    "f1a3837b-d67f-4956-aca0-f94eecc770fe": {
+      "fingerprints": {
+        "html_sha256": "02f5f5ade9f6ef8bbe3918efbd653e6ad8884098c337181befbf427ab6fee094",
+        "metadata_sha256": "019cb3b814ebefddd8607fe5f3d06209f3c30241cb100979d98ee4028656b3b4",
+        "structure_sha256": "df3287c8b14023227e756e89c4113931310b41ddf3502245f7cfe571983ca7c7",
+        "text_sha256": "07046e280aa20b7b5f7a09aa1cf86ebd203f13ea7bc2500d2c1956177f84b02c",
+        "translation_metadata_sha256": "1f54727c6b2b357a01ea4603a5059a06f994582c851a2f61162cc406a5e08301"
+      },
+      "id": "f1a3837b-d67f-4956-aca0-f94eecc770fe",
+      "issue_id": "b1525b50-95a6-40db-acf5-74b5a0e682fa",
+      "sequence": 7,
+      "title": "The Parable of the Pig and the Puddle",
+      "translation_key": "5c2a7e76f122e2c284ae04ecfc0e8484214c7b413e580e8eba86f0c419aae183"
     },
     "f21c4f39-9508-4f75-9e0c-0c68468c41f8": {
       "fingerprints": {
@@ -6834,9 +7296,9 @@
     },
     "f8bdf245-dcb2-4f35-8d31-9ad084ad4255": {
       "fingerprints": {
-        "html_sha256": "9533a5796b404b888b61c008d5671a46d5c66f64bf721785f4fdb862da46bd60",
-        "metadata_sha256": "60233b71fdf3abe6dfc51caf8ff349e9d74cf87a87981ac47ee3e71484d14813",
-        "structure_sha256": "552ee27ea07d9ca627ebca2cae1c342e8321509625e54073d34167bd5e25096f",
+        "html_sha256": "97a0366411f6b8dd346617e4355abfd364273b4c956f42cce22cfdc55bd84047",
+        "metadata_sha256": "2846b08e158574a640cb7d9e48b20797b608de7e2374dc068408ab559268cff7",
+        "structure_sha256": "d73bef3e042975c1617f1c201a2fcc80c3d6c699b895662dfa4334f36164d58f",
         "text_sha256": "2898f2e374aad9a6f61b0ca68e733ab856879aad0b66b4764441cfb6cb7a088e",
         "translation_metadata_sha256": "ca4b0453ca033f6867198e723220efc570a102c20fc5b2fae3593603d1465c72"
       },
@@ -6844,7 +7306,7 @@
       "issue_id": "d86ce698-0b1e-5aa3-9c30-9e3c831aea57",
       "sequence": 7,
       "title": "What’s on the Praise Menu?",
-      "translation_key": "e397b34bba2b233ebb52023080ed0db816d23c918fb07d4c5e128b65d6c1ed37"
+      "translation_key": "e2d32e42f7f545301d72ec7b437281ea480d65a2c2cb4243cafab9789e49fb56"
     },
     "f957067f-a69c-4321-a3cd-b28fe861eb40": {
       "fingerprints": {
@@ -6958,6 +7420,20 @@
       "title": "One Christian’s Response",
       "translation_key": "5fbd516564ba7c85c347141861b28c59c35eabd19c29b4f342e40930cce50e8b"
     },
+    "fdf03bc6-7f2d-403c-8254-462c961621a4": {
+      "fingerprints": {
+        "html_sha256": "8e02b5e19cb0bade18c42ceea118bf1479844b741b28f276429c48cef663df0c",
+        "metadata_sha256": "6579dba25044ef7ff0686fa91c24ff09649a9b5113aa1c283ffa608e4921cb63",
+        "structure_sha256": "5b6ed0d740ee8d4f10cfcaeabaee2c5859b07f22205302808f4ea4ded236ec38",
+        "text_sha256": "7e56721675e645e6a32c2c21cb8b7af8f5538df1d98f30d4ea5eb107d5c81bda",
+        "translation_metadata_sha256": "93a46a91dc9ec293e01c50d97f6ba13c23fe2be80b5cdba6f66fe45942cadcb7"
+      },
+      "id": "fdf03bc6-7f2d-403c-8254-462c961621a4",
+      "issue_id": "e93ed6b9-d721-4065-80db-4c8d22a5cbbd",
+      "sequence": 8,
+      "title": "An Appeal to American Anabaptists",
+      "translation_key": "4c93ae678d7ea11f5062265f8dd93e8f8faaf925fb313f48c2548d731fd9c7db"
+    },
     "fe13ba15-f33c-46ff-9d3c-f114f1b2f4d4": {
       "fingerprints": {
         "html_sha256": "aedd011617114e8f614a7c8f60d56f240faba6768195e31c5abbe33117e3845a",
@@ -6971,6 +7447,20 @@
       "sequence": 1,
       "title": "From the Editor",
       "translation_key": "638ffc8e59099baf2aea4d3ff147935b68127324804d36e99f77026b29a9def3"
+    },
+    "fe1fac5f-5e0c-4074-a84f-c6afe94dc716": {
+      "fingerprints": {
+        "html_sha256": "22b952898df1688e1b199b8640976b028cc07534bdd47d63d5fdc4573fb4d30a",
+        "metadata_sha256": "baae306f1f6942c4b1388b6cace3e0e8febfc31e7f6b0aed3b96546a17adb4f1",
+        "structure_sha256": "b05336e51f0cae231168d417640f287c5b68052f5089fbf942830383bbe11674",
+        "text_sha256": "ee66c8a9b1a67a5efc748b3bf7be97ea7f888f3b5adea74cf874ddc7e17b8bdd",
+        "translation_metadata_sha256": "d5a1d7921996531461a3fdf2bfd5e58a6c12386782d79d2600c3f8ea78fdda50"
+      },
+      "id": "fe1fac5f-5e0c-4074-a84f-c6afe94dc716",
+      "issue_id": "e0397047-e2ff-4ec0-bacc-8c286b979f15",
+      "sequence": 11,
+      "title": "The Birth, Life, and Death of the Bohemian Revival",
+      "translation_key": "9691e127ed9ac4edb481012c16e99dd58d6a3c5f94e18967c6dde083eef3d3ca"
     },
     "fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd": {
       "fingerprints": {
@@ -7057,7 +7547,7 @@
       "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1"
     }
   },
-  "content_sha256": "790683acd342dbe0ac101db42e71b667b248e4ada4c6919eaac28f023e5b3b9d",
+  "content_sha256": "40b3d4c513c94004dcc6508dad719518e8ecb22c6fbb63ae4367161869453572",
   "fingerprint_origin": "translation-runtime",
   "format_version": "1.0",
   "issues": [
@@ -7650,8 +8140,53 @@
       "publication": "The Heartbeat of The Remnant",
       "slug": "heartbeat-remnant-2007-special-edition",
       "source_id": "heartbeat-remnant-2007-special-edition"
+    },
+    {
+      "date": {
+        "label": "September/October 2010",
+        "months": [
+          9,
+          10
+        ],
+        "precision": "month_range",
+        "year": 2010
+      },
+      "id": "e93ed6b9-d721-4065-80db-4c8d22a5cbbd",
+      "publication": "The Heartbeat of The Remnant",
+      "slug": "heartbeat-remnant-2010-09",
+      "source_id": "heartbeat-remnant-2010-09"
+    },
+    {
+      "date": {
+        "label": "July/August 2010",
+        "months": [
+          7,
+          8
+        ],
+        "precision": "month_range",
+        "year": 2010
+      },
+      "id": "e0397047-e2ff-4ec0-bacc-8c286b979f15",
+      "publication": "The Heartbeat of The Remnant",
+      "slug": "heartbeat-remnant-2010-07",
+      "source_id": "heartbeat-remnant-2010-07"
+    },
+    {
+      "date": {
+        "label": "May/June 2010",
+        "months": [
+          5,
+          6
+        ],
+        "precision": "month_range",
+        "year": 2010
+      },
+      "id": "b1525b50-95a6-40db-acf5-74b5a0e682fa",
+      "publication": "The Heartbeat of The Remnant",
+      "slug": "heartbeat-remnant-2010-05",
+      "source_id": "heartbeat-remnant-2010-05"
     }
   ],
   "repository": "trueChristian/berean-voice",
-  "revision": "a289a2bc2111cb49cd41db7114619bb341562e8c"
+  "revision": "bc18d344620821207c93ee0db6c19c8d803c39b3"
 }
