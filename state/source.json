@@ -14,6 +14,20 @@
       "title": "The Search for Happiness",
       "translation_key": "8c1c5a7d4d0b03e02f04972f0dfa06c4aea5d779cd7cd4b1c8160ddb0d9a46ff"
     },
+    "013b7fff-5d04-48a6-bd8e-e1c5d54c7b30": {
+      "fingerprints": {
+        "html_sha256": "bf937eeaf95b1bec616f908996dff9a17c5d84154cc9b671ae121eb2ecaf11d9",
+        "metadata_sha256": "1219d9793203cbd922343bb36a339949f289348856bd5fe496c5a49b296e86b8",
+        "structure_sha256": "ae16777137af4bf0b5b13dd5d2b3bb47d5fd12676bc9cd8c75039be684a1285d",
+        "text_sha256": "d2d6284c4245fedf3bc8085d4bf875ff91e634dc6505d3e7f8870b1998d30594",
+        "translation_metadata_sha256": "a947c9afcdad0187118946878ff826675b8a55bc07193d66257d7a771c9e19cc"
+      },
+      "id": "013b7fff-5d04-48a6-bd8e-e1c5d54c7b30",
+      "issue_id": "7427bc1a-c95b-4939-8616-74f3fc00d881",
+      "sequence": 9,
+      "title": "Seeds of the Kingdom",
+      "translation_key": "7fc5026b9e5c5da4e78eb5fa5c6c9ea7f73c37c70643fcafc00fb5c1a556a7db"
+    },
     "01d6d043-59d2-4042-a6e9-8c4abf368212": {
       "fingerprints": {
         "html_sha256": "4132f5fdbeb38cd2f841d4f52c22ee0467ac7c199a48f6d7c9d2e819f6e0468f",
@@ -97,6 +111,20 @@
       "sequence": 5,
       "title": "Mary—Jesus’ Mother and Disciple",
       "translation_key": "400edf3bc194ea2d6a29cc6c0415fa531d5ac250c4728bac3ae653fb5ee65618"
+    },
+    "03c6c31a-17f7-492a-b046-270df324c628": {
+      "fingerprints": {
+        "html_sha256": "1055f11e1dfe7b3f65ce31b9af44b5a1f7f1071a4571c5cccc2731764fa4883c",
+        "metadata_sha256": "ab808efdc7d4e85d35c36d48bd37941a7bbfbe7d3e46d1589dc116083042780d",
+        "structure_sha256": "39002910d48f69afe3b71cce917830c4cdd19c8b3e5628a3c78e002006896c49",
+        "text_sha256": "cb0f0b6f45636b155dc0983738b1b0bdde94aa436e243ad54f5ef1fccca616cc",
+        "translation_metadata_sha256": "9f1acc529c9c7d2c0b7a0193ad6c4d8957442ba018dbcf1ffc216c127942ffc4"
+      },
+      "id": "03c6c31a-17f7-492a-b046-270df324c628",
+      "issue_id": "7427bc1a-c95b-4939-8616-74f3fc00d881",
+      "sequence": 2,
+      "title": "Broken Clock Salvation",
+      "translation_key": "cc029620c33b8cefe0a0de4505e162aca99b086dc2ee2cddee6344f06cc85514"
     },
     "042fce50-3724-4100-b397-093c6d081e89": {
       "fingerprints": {
@@ -406,6 +434,20 @@
       "title": "“Regeneration”",
       "translation_key": "e59b75700481435eacbacb44977c56edc6d21a27f62bd817a25bc0ab058ab7b4"
     },
+    "103f9dba-5fc8-4384-9161-226f96d1ff5a": {
+      "fingerprints": {
+        "html_sha256": "a7c2194437151289f565ed925949280febb174c10553609c41a5c3c6e16c6322",
+        "metadata_sha256": "503bd5c5ca145fea96192ac7f40ba956eedd9ed426acd92b33243b6e82793942",
+        "structure_sha256": "0f9df48edd0feb50465401c77082eabd5e52e9ecf326f5b47f5f9c692669df1e",
+        "text_sha256": "f4df09bd85ea74d90ce20e5d9198b47672b6b918828d90565dce86af40e4a0f1",
+        "translation_metadata_sha256": "a233e3d920a29f14507c266305825aa1f312620b53cd5ffe75ab1bce548cde0f"
+      },
+      "id": "103f9dba-5fc8-4384-9161-226f96d1ff5a",
+      "issue_id": "7427bc1a-c95b-4939-8616-74f3fc00d881",
+      "sequence": 7,
+      "title": "The Heart of the Matter",
+      "translation_key": "37fbd7733dc9570be058aff82276ff4a8a4df5f84967378cbd459574e51422b4"
+    },
     "10933457-b503-48e1-9346-49ff54d1b6fe": {
       "fingerprints": {
         "html_sha256": "e5199480a52be3cfd6c6ccbac6d58df2a0e37d19d1d62c364d65a653e1f544a6",
@@ -587,6 +629,20 @@
       "sequence": 13,
       "title": "A Cry From The Heart",
       "translation_key": "a1bd597360186085c3e5ad29641a8795596b4641aa2164fa4fd9e116788269d0"
+    },
+    "16b51668-067e-45fe-b0dd-4357620150eb": {
+      "fingerprints": {
+        "html_sha256": "59357c3e85fc0a01de1ed9d4ba66ac1d9edeb1413659ce4641acbb76b320013f",
+        "metadata_sha256": "4b9804d1614acd6c7f49bfbbc6c93192501d4eb83022a741dbc0f1aee27a663a",
+        "structure_sha256": "c82168c152cb3ca02dd7f99deb03bad59fbff62e707a7654670608671355a175",
+        "text_sha256": "8af13c109d26be998bcb6f570abeb527d51be587ca61d73fbec5af45feb6d7c0",
+        "translation_metadata_sha256": "60d366e69a3b43723c14c742d1e5f1f1a7c43ca4a6783d41d0cfb22977fd4dca"
+      },
+      "id": "16b51668-067e-45fe-b0dd-4357620150eb",
+      "issue_id": "7427bc1a-c95b-4939-8616-74f3fc00d881",
+      "sequence": 11,
+      "title": "When Things go Wrong",
+      "translation_key": "d808fc8a6423c4c94d005c8d4d3408c0e7d0c75dd193cc8f64234915f200dc7b"
     },
     "175280ea-7e5f-4be2-bbce-b500c0fd93cb": {
       "fingerprints": {
@@ -2940,6 +2996,20 @@
       "title": "The True Way of Turning to God",
       "translation_key": "850926ba17e8070275b1a775fc07905107f9a396f0c46d539a047ce2950a25d5"
     },
+    "5b9e0510-9f8d-4718-8531-8fcd60a4f1d3": {
+      "fingerprints": {
+        "html_sha256": "8c5703f80c3a881681e9373b613ae15dd37baa8d56bece2ce9d649c9087f8351",
+        "metadata_sha256": "55e0bacd2d99382481823e1b6a268498c0a619ad63e18b1f6aa50b0cb095c220",
+        "structure_sha256": "47a1276625758e0650b3bf33d6eb770e1649d161c5b0d6774af2f188e52765e2",
+        "text_sha256": "8d83ace6376705ea75558cc254fdb92df7b60e30e0501dead576c2d30711ea12",
+        "translation_metadata_sha256": "2d752e351edbb6b3800e7217772ba3d830a9bbf6c11324e4c01423657e659a4f"
+      },
+      "id": "5b9e0510-9f8d-4718-8531-8fcd60a4f1d3",
+      "issue_id": "7427bc1a-c95b-4939-8616-74f3fc00d881",
+      "sequence": 4,
+      "title": "Christ’s Message to American Christians",
+      "translation_key": "930d3e9b8774ec9f8b9c2b65ddba994ddaf5523909a00ee782a48c0f7542bff1"
+    },
     "5bf8da8e-cd24-40e9-97d0-319b00f6d0af": {
       "fingerprints": {
         "html_sha256": "b2a900b2ee9499ed6ee868f805ca4d8ee7406d41193c9da31c77372f4eca641e",
@@ -4984,6 +5054,20 @@
       "title": "Our Testimony that God’s Ways Work",
       "translation_key": "1bf5c8554764ed4471c47995f49aa02fe7d6bf91d9d43e527de9f8a46981246f"
     },
+    "a11d7521-063e-4e4e-a95b-f5a51163737d": {
+      "fingerprints": {
+        "html_sha256": "32fb43ba553c378f73a835ddb1f257542ec506821ff05566660a2ad3af87a8a2",
+        "metadata_sha256": "5b5cdacdd4f1623b1fb556b6db711b845a71ac70fe7a825f04be892756fc6a0d",
+        "structure_sha256": "2d9abd9a1bbcfc5910368388fbeb2bfde7ca6c15ea3bbc63ad9c71da932fd558",
+        "text_sha256": "c0eee01c5419c115c9121d4cc7c58a7ce83f21a476f391bbdfe7d20a4542b209",
+        "translation_metadata_sha256": "19234aad125e885bf604415b2c6a3bb6dd8e6c41b3637fd5ba273078329ba6ad"
+      },
+      "id": "a11d7521-063e-4e4e-a95b-f5a51163737d",
+      "issue_id": "7427bc1a-c95b-4939-8616-74f3fc00d881",
+      "sequence": 3,
+      "title": "The (Almost) Lost Art of Letter Writing",
+      "translation_key": "e0b1c78cf55ae5b9d2700e7ebd93321b0b40569f4714dde6feb2492c64efd4ff"
+    },
     "a1334217-82ac-49ef-8293-563122652b89": {
       "fingerprints": {
         "html_sha256": "b2c16da75cb92df19bad2178da1c2cd9b7ff507f9faec66705ac4bc55a44916f",
@@ -5207,6 +5291,20 @@
       "sequence": 6,
       "title": "Inside and Out",
       "translation_key": "a2ab0300dd75c8a775be8f3a690e4e5bafd7738c9372ec14ed0294833cde6cf6"
+    },
+    "a9a438a1-f3f8-4fb7-8567-6a259c32c788": {
+      "fingerprints": {
+        "html_sha256": "d8e75842c8402c12386878f7fd7b6b4787bace06f70862d62ccef96c1e15163d",
+        "metadata_sha256": "22ff624ff17ff1440557d431fde2b94eb946f63793de64ac3ee8738d4cddf4fe",
+        "structure_sha256": "0ffa934fe44e54593a8665952e4591cf53c4a23152e9ae579be656bc979b0051",
+        "text_sha256": "b09657e3d56a0b31525c6240beb3604fd8a17ca189fc64c128fbcb0d1f3d7abe",
+        "translation_metadata_sha256": "224b401821e432e6546b18bac70b7b88b221b0258f90c68cc0dc1318e45dfa9a"
+      },
+      "id": "a9a438a1-f3f8-4fb7-8567-6a259c32c788",
+      "issue_id": "7427bc1a-c95b-4939-8616-74f3fc00d881",
+      "sequence": 8,
+      "title": "On the Mortality",
+      "translation_key": "b9da7b40d986d6bf2d39a657187f03275430df01631718b8b2f070ae252d446c"
     },
     "a9ab2c6a-8ad9-427b-8d48-841e47e1a5f7": {
       "fingerprints": {
@@ -6034,6 +6132,20 @@
       "title": "Building Up Relationships",
       "translation_key": "3186106331d59a5f0271e8677490e153e1fe6ddc7290a148ed846dc4eaa5e16c"
     },
+    "c522e017-97ab-419f-90cc-ea0f1c4741e8": {
+      "fingerprints": {
+        "html_sha256": "c0e19f4fe5b07cc7c223799115e07150b974328dcf45bb00f83aa46c5fad6088",
+        "metadata_sha256": "7729ed134615a512cf8881b7282f374ab69631500e4e37481fe91b78659df97c",
+        "structure_sha256": "c1faa26b388ec920c8329ae7e73ce802d9bff937460b4dd2d4e3cf7156b9a596",
+        "text_sha256": "619f1a213ae1a30e78c295198ce473774f0819403460c987211deb6f830263a9",
+        "translation_metadata_sha256": "8b6f622d7f3fd32fb206a3dda542a6c072edb712a7e5b4c122b068231e35abf7"
+      },
+      "id": "c522e017-97ab-419f-90cc-ea0f1c4741e8",
+      "issue_id": "7427bc1a-c95b-4939-8616-74f3fc00d881",
+      "sequence": 10,
+      "title": "BLOOD IS THE COLOR OF OUR BAND!",
+      "translation_key": "165ffc86d789f91dabf9a6aeddca1313f8b4fa89c8636b85439bec0566d2c1a3"
+    },
     "c686be27-7ea4-4109-b955-2748af446084": {
       "fingerprints": {
         "html_sha256": "6d6d15e47811d3b5cd74bc98a8c3f91451b259ecc866375786d4c3e7b1d62ef4",
@@ -6649,6 +6761,20 @@
       "sequence": 1,
       "title": "The Mars Colony, Or the Kingdom of God?",
       "translation_key": "f4361296dae990ee2ce875f55229f8721747698a2122771a44bc197309db5bb0"
+    },
+    "d68a5b18-070f-4b4e-a7a6-63072b39e4ca": {
+      "fingerprints": {
+        "html_sha256": "637a3aa2e2eeaebf8b22e06d2f660c7badc02c40796176b241510eee742bb35f",
+        "metadata_sha256": "e9e623f9671762ad3cd7d5bcdef880495a3ef57c1a41c690c5d7a2d366c3a877",
+        "structure_sha256": "806f94bc31def918744839e61c3a367d4e683feae57d2d175b98fedbda702063",
+        "text_sha256": "8088804d2a91757b9a1593941d49d83c1e552fe1a3a82fad3eb2b7e5fc54146c",
+        "translation_metadata_sha256": "396d0f9fea593b70ea5e257cd6ef8fe4c0f41e541ce76f76efde882fa973d2a1"
+      },
+      "id": "d68a5b18-070f-4b4e-a7a6-63072b39e4ca",
+      "issue_id": "7427bc1a-c95b-4939-8616-74f3fc00d881",
+      "sequence": 6,
+      "title": "Too Timid to Tell the Truth",
+      "translation_key": "6de8ba0b785f93ef7b849041c3679f36c6a75c1d0847bfa11fb24c1e8ad123fe"
     },
     "d69509c1-b5b2-4dc2-9d57-2bba7791639b": {
       "fingerprints": {
@@ -7322,6 +7448,20 @@
       "title": "Benefits of Churches Helping Their Own",
       "translation_key": "bd565d25d9a64c7a0f2f06fb96cb13c5e6c3c465f39edeeb7e347dd4fa29c04c"
     },
+    "f124beed-a37c-436c-8450-f610647beae6": {
+      "fingerprints": {
+        "html_sha256": "858917e04179598073757fa69864c3ed72a60a2a643b64a246fc30c0b95e4030",
+        "metadata_sha256": "c0e8d78ed354e518f9ce70560783f1d2f56a1b8050c8887d8b54754f63a61a07",
+        "structure_sha256": "4513da286ab055ee0153351eb7149b465e130481f5be7899d334ec19c15a7e0e",
+        "text_sha256": "bd0b4414daa8b42902642c946f0b39ed24aea160d7a881444e8fbc3ff03f5799",
+        "translation_metadata_sha256": "a988c8084973fa283380fb21a649fad817608dd51cbdfc246b14ee3110ddfb04"
+      },
+      "id": "f124beed-a37c-436c-8450-f610647beae6",
+      "issue_id": "7427bc1a-c95b-4939-8616-74f3fc00d881",
+      "sequence": 1,
+      "title": "From the Editor",
+      "translation_key": "46907969a7901147580df221a027f0d6c921c898dfe03557f730689d8c6e3767"
+    },
     "f1a3837b-d67f-4956-aca0-f94eecc770fe": {
       "fingerprints": {
         "html_sha256": "02f5f5ade9f6ef8bbe3918efbd653e6ad8884098c337181befbf427ab6fee094",
@@ -7517,6 +7657,20 @@
       "sequence": 8,
       "title": "Jesus",
       "translation_key": "fa2be013e7b0f9f25c457c646fe92ba25831363cc265e44937218d1f0e425a95"
+    },
+    "fa4115d9-abd6-497b-a0c8-1aa049f80b5b": {
+      "fingerprints": {
+        "html_sha256": "739d33c45a96df0f24914e39f28743daaf07e08780a14cb419a95fbc1cf4e9b2",
+        "metadata_sha256": "0e5982df364848c768db386649d8678a7657de18f6fd49e2caab797653eb18aa",
+        "structure_sha256": "76ca1f8c18c50baa077f3d11e748cc16cadaeaab8a7f18a2074ef3a5d17bb33c",
+        "text_sha256": "5a89390e3d4a737b48317593b268a4c727950bebb08c9d46bd67b34b6328886c",
+        "translation_metadata_sha256": "288654978a0f9ab2e87b85cf70311508543cd0955ab34321ef02592808108db3"
+      },
+      "id": "fa4115d9-abd6-497b-a0c8-1aa049f80b5b",
+      "issue_id": "7427bc1a-c95b-4939-8616-74f3fc00d881",
+      "sequence": 12,
+      "title": "STONES OF MEMORIAL",
+      "translation_key": "4c4d553c4a016b51309216e6e8edb614fa6203a23ca85b4302f23fe75237cfd4"
     },
     "fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b": {
       "fingerprints": {
@@ -7757,7 +7911,7 @@
       "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1"
     }
   },
-  "content_sha256": "220d10fa337151f6bf22b4f9a8b4e0d502c9c81105fda96d5f1a728c856c5f34",
+  "content_sha256": "694b795b08dd59568951de66c67948c375a4e92b87f366f5ea99ded524479811",
   "fingerprint_origin": "translation-runtime",
   "format_version": "1.0",
   "issues": [
@@ -8411,8 +8565,24 @@
       "publication": "The Heartbeat of The Remnant",
       "slug": "heartbeat-remnant-2009-10",
       "source_id": "heartbeat-remnant-2009-10"
+    },
+    {
+      "date": {
+        "label": "July/August/September 2009",
+        "months": [
+          7,
+          8,
+          9
+        ],
+        "precision": "month_range",
+        "year": 2009
+      },
+      "id": "7427bc1a-c95b-4939-8616-74f3fc00d881",
+      "publication": "The Heartbeat of The Remnant",
+      "slug": "heartbeat-remnant-2009-07",
+      "source_id": "heartbeat-remnant-2009-07"
     }
   ],
   "repository": "trueChristian/berean-voice",
-  "revision": "8fac93935c9b0f6a9daec81f95081e1ebca3699d"
+  "revision": "08fb90aa78dc7d319a95a75c20c44aaa9dadfc1a"
 }
