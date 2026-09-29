@@ -6,7 +6,7 @@ Observed English revision: `2ae95fda39469ef52a72279047745b6a5e870c0b`
 
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `heartbeat-remnant-2024-summer` | 10 | 0 / 200 | 0 | 0 | 0 |
+| `heartbeat-remnant-2024-summer` | 10 | 0 / 200 | 10 | 0 | 0 |
 | `heartbeat-remnant-2024-spring` | 11 | 0 / 220 | 0 | 0 | 0 |
 | `heartbeat-remnant-2024-winter` | 11 | 0 / 220 | 0 | 0 | 0 |
 | `heartbeat-remnant-2023-summer` | 13 | 0 / 260 | 0 | 0 | 0 |
@@ -74,7 +74,7 @@ Observed English revision: `2ae95fda39469ef52a72279047745b6a5e870c0b`
 | `rus` (ru) | 0 / 579 | 0 | 0 | 0 | 0 |
 | `deu` (de) | 0 / 579 | 0 | 0 | 0 | 0 |
 | `nld` (nl) | 0 / 579 | 0 | 0 | 0 | 0 |
-| `afr` (af) | 0 / 579 | 0 | 0 | 0 | 0 |
+| `afr` (af) | 0 / 579 | 0 | 10 | 0 | 0 |
 | `swa` (sw) | 0 / 579 | 0 | 0 | 0 | 0 |
 | `kor` (ko) | 0 / 579 | 0 | 0 | 0 | 0 |
 | `ita` (it) | 0 / 579 | 0 | 0 | 0 | 0 |
@@ -89,8 +89,10 @@ Only combinations with requested or published work appear below. Counts of pendi
 
 | Issue | Language | Ready / articles | Human reviewed | Active | Not ready | Proposals |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
+| `heartbeat-remnant-2024-summer` | `afr` | 0 / 10 | 0 | 10 | 0 | 0 |
 
 ## Campaigns
 
 | Request | Operation | Tasks | Reserved ceiling (USD) | Report |
 | --- | --- | ---: | ---: | --- |
+| `gh-36549125967` | translate | 10 | 0.000000 / 10.00 | [state](state/campaigns/gh-36549125967.json) |
