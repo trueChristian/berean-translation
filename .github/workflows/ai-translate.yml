@@ -50,7 +50,7 @@ on:
           - gpt-4.1-nano
           - gpt-4.1
           - gpt-5-mini
-        default: gpt-4.1-mini
+        default: gpt-5-mini
       review_model:
         description: "Independent review request model"
         type: choice
@@ -59,11 +59,11 @@ on:
           - gpt-4.1-nano
           - gpt-4.1
           - gpt-5-mini
-        default: gpt-4.1-mini
+        default: gpt-5-mini
       budget_usd:
         description: "Maximum campaign reservation in USD, including all stages"
         type: string
-        default: "5"
+        default: "10"
       dry_run:
         description: "Preview selections only: no translations, reservations, or paid requests"
         type: boolean
