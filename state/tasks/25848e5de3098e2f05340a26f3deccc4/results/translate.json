@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "27f0b00e-c068-4dee-b4a8-977583d0737d",
+    "response_id": "chatcmpl-ETOS6vxSXJLJBDel0jv9OqRPujEyg",
+    "usage": {
+      "completion_tokens": 731,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1034,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1765
+    }
+  },
+  "received_at": "2026-09-29T15:57:11+00:00",
+  "result": {
+    "html": "<article data-article-id=\"eed66189-2caa-4bfb-9eaa-545562c7e9a6\">\n  <figure>\n    <img src=\"/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg\" alt=\"’n klein boot aan die rand van kalm water tydens ’n lewendige sonsondergang\" loading=\"lazy\">\n  </figure>\n\n  <div class=\"poem\">\n    <p><strong>Sta op, wees bly! Want die dagbreek is hier!<br>\n    Verheug en sing! Die nag is verby,<br>\n    Die Dagskynding skyn van hoog in die hemele,<br>\n    Die genade van God na die mens is naby!<br>\n    Verheug en loof die Koning van konings!<br>\n    Gee dank en prys, want meer is hier!</strong></p>\n\n    <p><strong>Sta op en verheerlik die Here!<br>\n    Prys en roem Sy waardige naam!<br>\n    Hy skyn uit die hemele in liefde,<br>\n    En stort seëninge van bo neer,<br>\n    Sy barmhartigheid reik na die mense neer—<br>\n    Aanbid en prys ons magtige Here!</strong></p>\n\n    <p><strong>Gee dank en sing vir Christus ons Koning<br>\n    En dien Hom met eerbiedige lof;<br>\n    Buig neer in ontzaglike, heilige vrees—<br>\n    Die Heiligheid van God is hier;<br>\n    In wonderskone prag buig die knie;<br>\n    Aanbid die almagtige Koning van konings!</strong></p>\n  </div>\n</article>\n",
+    "section": "Gedig",
+    "subtitle": null,
+    "title": "Sta op, wees bly"
+  }
+}
