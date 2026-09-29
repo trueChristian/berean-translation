@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8b2c2ae2-f88d-442f-bfdb-5fda2832dd4f",
+    "response_id": "chatcmpl-ETUUtWWoocJxl3A1nMBrGfGBcxg0H",
+    "usage": {
+      "completion_tokens": 1452,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12108,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13560
+    }
+  },
+  "received_at": "2026-09-29T20:52:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 3, translation first paragraph of article-note",
+        "severity": "minor",
+        "source_quote": "After printing all six articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet. This is the first article of six.",
+        "suggested_fix": "Remove the erroneous hyphenation and ensure Afrikaans punctuation flows: replace “belas-ting” with “belang” or (better) “belang/belangstelling” depending on intended meaning. (See next finding for context.)",
+        "translation_quote": "...My gebed vir jou is egter dat jy ’n brandende belas-ting en visie in jou hart kry om dit vir jou kinders te hê."
+      },
+      {
+        "location": "Same paragraph (article-note -> body) — translation of “burning burden”",
+        "severity": "minor",
+        "source_quote": "But my prayer for you is that you get a burning burden and vision in your heart to have it for your children.",
+        "suggested_fix": "“brandende belas-ting” is a broken hyphenation and also non‑idiomatic. Use a single correct Afrikaans phrase such as “’n brandende begeerte”, “’n brandende roeping”, or “’n brandende bekommernis/verantwoordelikheidsgevoel” depending on the intended nuance. Replace “belas-ting” with one of these.",
+        "translation_quote": "My gebed vir jou is egter dat jy ’n brandende belas-ting en visie in jou hart kry om dit vir jou kinders te hê."
+      },
+      {
+        "location": "Section 2) Genesis 2:24 citation line",
+        "severity": "minor",
+        "source_quote": "“Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24).",
+        "suggested_fix": "There is an extraneous capital letter 'B' added at the start of the quoted verse line (“Therefore Bshall…”). Remove the stray 'B' so the printed verse matches the source exactly.",
+        "translation_quote": "“Therefore Bshall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24)."
+      },
+      {
+        "location": "Paragraph under heading 3) — sentence about pain of separation",
+        "severity": "minor",
+        "source_quote": "Pulling apart is no blessing at all but brings agony, pain, travail, and hurt. There is no blessing in separation. But God’s plan brings blessing.",
+        "suggested_fix": "The translation left the English phrase unrendered and joined without spaces: “bringsagony,pain,travail, and hurt.” Either translate that phrase into idiomatic Afrikaans (e.g. “bring dit angs, pyn, smarte en verdriet”) or at minimum preserve spacing and commas if intentionally left in English. Replace the merged English text with a proper Afrikaans rendering.",
+        "translation_quote": "Afskeur bring geen seën nie maar bringsagony,pain,travail, and hurt. Daar is geen seën in skeiding nie."
+      },
+      {
+        "location": "Multiple scripture citation renderings (e.g. Ephesians, 1 Peter, Proverbs)",
+        "severity": "minor",
+        "source_quote": "Ephesians 5:21,22,24 ... 1 Peter 3:7 ... Proverbs 3:1-2",
+        "suggested_fix": "Spellings of Bible book names in the translation vary (e.g. “Ephesiers” used instead of the more standard Afrikaans “Efeërs” or “Efe­siërs”). Ensure a consistent, standard Afrikaans form for book names throughout (recommended: “Efe­siërs” for Ephesians, “1 Petrus” for 1 Peter, “ Spreuke” or “Spreuke/Proverbs” per publication style). Maintain the printed English verse text as the source requires only if that was the intentional policy—if the edition intends Afrikaans Bible translations, render consistently. (This is a style suggestion; no doctrinal content change.)",
+        "translation_quote": "Ephesiers 5:21,22,24 sê, “Submitting yourselves one to another in the fear of God. Wives, submit yourselves unto your own husbands, as unto the Lord. . . Therefore as the church is subject unto Christ, so let the wives be to their own husbands in every thing.”"
+      },
+      {
+        "location": "Paragraph under heading 2) — translation of “leaving”",
+        "severity": "minor",
+        "source_quote": "Leaving means to leave behind, to abandon.",
+        "suggested_fix": "The translation uses “verwerping” once (“sonder verwerping nie”) which is close but not the clearest idiomatic match for the explanatory sentence. Suggest replacing “verwerping” with “agterlaat” or “afskeid neem van” to match the source wording and idiom: e.g. “Verlaat beteken om agter te laat, om te verlaat.”",
+        "translation_quote": "Verlaat beteken om agter te laat, om te verlaat. “For this cause shall a man leave his father and mother” beteken om ouers agter te laat."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "356948d8-9728-4144-a4ae-a3fff07609de",
+    "response_id": "chatcmpl-ETUVsvkoPdosKmcKXqBgEN9iZS8hR",
+    "usage": {
+      "completion_tokens": 995,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1340,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2335
+    }
+  },
+  "received_at": "2026-09-29T20:52:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, stanza 1, line 3 (\"Dayspring shineth from on high\")",
+        "severity": "minor",
+        "source_quote": "The Dayspring shineth from on high",
+        "suggested_fix": "Consider using a more common Afrikaans term for poetic clarity, e.g. \"Die dagbreek skyn van hoog in die hemele\" or keep \"Dagskynding\" if you prefer a more archaic/poetic tone.",
+        "translation_quote": "Die Dagskynding skyn van hoog in die hemele"
+      },
+      {
+        "location": "Poem, stanza 1, line 4 (\"The grace of God to man is nigh!\")",
+        "severity": "minor",
+        "source_quote": "The grace of God to man is nigh!",
+        "suggested_fix": "Improve idiomatic flow: change \"Die genade van God na die mens is naby!\" to \"Die genade van God aan die mens is naby!\" or \"God se genade is vir die mens naby!\"",
+        "translation_quote": "Die genade van God na die mens is naby!"
+      },
+      {
+        "location": "Poem, stanza 3, line 2 (\"And worship Him with reverent praise;\")",
+        "severity": "minor",
+        "source_quote": "And worship Him with reverent praise;",
+        "suggested_fix": "\"Dien Hom met eerbiedige lof\" is acceptable but slightly unusual; consider \"Aanbid Hom met eerbiedige lof\" or \"Aanbid Hom met eerbiedige lofprysing\" for closer lexical match.",
+        "translation_quote": "En dien Hom met eerbiedige lof;"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

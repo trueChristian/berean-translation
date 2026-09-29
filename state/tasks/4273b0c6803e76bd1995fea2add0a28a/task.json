@@ -2,7 +2,6 @@
   "article_id": "db7b1129-282d-4f48-aefa-f839cb585426",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0ec98d4956474ecc9adac833385eb194",
   "campaign": "gh-36549125967",
   "created_at": "2026-09-29T09:27:00+00:00",
   "events": [
@@ -24,8 +23,65 @@
         },
         "total_tokens": 6846
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1320,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6486,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7806
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Paragraph: \"Die humaniste, met al hul redenasie, bespot die very bestaan van God.\"",
+      "severity": "minor",
+      "source_quote": "The humanists, with all their reasoning, mock the very existence of God.",
+      "suggested_fix": "Replace the erroneous English word \"very\" with the correct Afrikaans equivalent, e.g. \"werklike\": \"… bespot die werklike bestaan van God.\"",
+      "translation_quote": "Die humaniste, met al hul redenasie, bespot die very bestaan van God."
+    },
+    {
+      "location": "Paragraph: \"Nee, nee, gee nie die kredit aan God nie.\"",
+      "severity": "minor",
+      "source_quote": "No, no, don’t give the credit to God.",
+      "suggested_fix": "Correct the Afrikaans spelling of \"krediet\": \"Nee, nee, gee nie die krediet aan God nie.\"",
+      "translation_quote": "Nee, nee, gee nie die kredit aan God nie."
+    },
+    {
+      "location": "Opening paragraph: sequence of em dashes",
+      "severity": "minor",
+      "source_quote": "Or a better question might be, have you seen God working in your life? Do others see God working in your life?",
+      "suggested_fix": "Replace the HTML entity sequence and long run of em dashes with an idiomatic Afrikaans punctuation or a single em dash. Example: \"Of dalk — is die beter vraag: het jy God in jou lewe sien werk?\"",
+      "translation_quote": "Of dalk &#8211; &#8211; &#8211; &#8211; &#8211; &#8211; &#8211; &#8211; is die beter vraag: het jy God in jou lewe sien werk?"
+    },
+    {
+      "location": "Sentence: \"Voordat hy terug China toe vertrek het\"",
+      "severity": "minor",
+      "source_quote": "Before departing back to China, he was asked what impressed him most about the churches in America.",
+      "suggested_fix": "Improve Afrikaans word order and include preposition for clarity. For example: \"Voordat hy terug na China vertrek het, is hy gevra…\"",
+      "translation_quote": "Voordat hy terug China toe vertrek het, is hy gevra wat hom die meeste beïndruk het aan die kerke in Amerika."
+    },
+    {
+      "location": "Paragraph: \"Die woordeboek omskryf humanisme soos volg; ’n siening...\"",
+      "severity": "minor",
+      "source_quote": "The dictionary defines humanism like this; an outlook or system of thought attaching prime importance to human rather than divine or supernatural matters.",
+      "suggested_fix": "Use a colon rather than a semicolon for introducing a definition in Afrikaans: \"Die woordeboek omskryf humanisme soos volg: ’n siening...\"",
+      "translation_quote": "Die woordeboek omskryf humanisme soos volg; ’n siening of denkstelsel wat primêre belang aan die mens eerder as die goddelike of bonatuurlike heg."
+    }
+  ],
+  "finished_at": "2026-09-29T20:52:06+00:00",
   "id": "4273b0c6803e76bd1995fea2add0a28a",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "afr",
@@ -69,11 +125,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d019515e42b0131458abf262e14f46e6b1b1bfc11f9ff219956f0412ec87c759.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

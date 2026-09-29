@@ -1,5 +1,154 @@
 {
-  "articles": [],
+  "articles": [
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
+      "html_sha256": "b636b98deceadf83aca06ee594f5820f843e875081fe6661d7727a80277c9ca0",
+      "human_reviewed": false,
+      "id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
+      "images": [
+        {
+          "alt": "Pienk en wit kroonwikke-blomme in ’n groen weide",
+          "public_path": "/images/articles/52074824-2feb-4fe4-96d0-a08ec72c3565-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.json",
+      "metadata_sha256": "0a2c09df87d7b5351e558f99a6297f6841e86ef25de6802be2d1d9b184acc196",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Van die REDAKTEUR",
+      "source_revision": "2ae95fda39469ef52a72279047745b6a5e870c0b",
+      "source_translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Van die Redakteur",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
+      "html_sha256": "e9fa941340383f36ee3de223bda2f08a172dae0d335fc17e33485b9dafdfe171",
+      "human_reviewed": false,
+      "id": "80e78d22-936e-48de-885a-f9a8898d5e42",
+      "images": [
+        {
+          "alt": "’n Man en vrou wat saam deur ’n groen weiding stap",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-1.jpg"
+        },
+        {
+          "alt": "’n Vader en moeder wat na hul pasgebore baba kyk",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-2.jpg"
+        },
+        {
+          "alt": "’n Gesin wat saam voor ’n waterval staan",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-3.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/80e78d22-936e-48de-885a-f9a8898d5e42.json",
+      "metadata_sha256": "b4e36534c1f1e241aaca1047e02c05c74f27fa309239451d2089bbd38dee90a9",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "INSPIRATIONS FOR YOUTH",
+      "source_revision": "2ae95fda39469ef52a72279047745b6a5e870c0b",
+      "source_translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
+      "status": "ready",
+      "subtitle": "God’s Plan for Male and Female",
+      "title": "A Christ-Centered Courtship",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
+      "html_sha256": "1b27c864656933d5004a390f4affc9e0026c9caa47925c3fdf01ab29740a43f3",
+      "human_reviewed": false,
+      "id": "93978dae-706d-43d4-abee-6b6e011683fa",
+      "images": [
+        {
+          "alt": "Oseaanwaaiers wat langs ’n sandstrand breek, gesien van bo af.",
+          "public_path": "/images/articles/93978dae-706d-43d4-abee-6b6e011683fa-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/93978dae-706d-43d4-abee-6b6e011683fa.json",
+      "metadata_sha256": "d20dcbc8105b11d31a9091e2e073e06b525c89af9e9b403cc1572e4d8f688429",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SUSTER AAN SUSTER",
+      "source_revision": "2ae95fda39469ef52a72279047745b6a5e870c0b",
+      "source_translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Omstandigheidsoorlading",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
+      "html_sha256": "5320fc4caf1cf61cd4cdc6206e0c694fc625e2cb9f8d04ebdc000940f44534aa",
+      "human_reviewed": false,
+      "id": "db7b1129-282d-4f48-aefa-f839cb585426",
+      "images": [
+        {
+          "alt": "’n Reeks saadplante wat uit die grond opkom terwyl ’n hand hulle water",
+          "public_path": "/images/articles/db7b1129-282d-4f48-aefa-f839cb585426-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/db7b1129-282d-4f48-aefa-f839cb585426.json",
+      "metadata_sha256": "03d296a4953cb984d65b9f72d53eef1753c09873d407dda3f7b127da55d02934",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "BESINNINGS VAN ’N SENDINGSWERKER",
+      "source_revision": "2ae95fda39469ef52a72279047745b6a5e870c0b",
+      "source_translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Die Christen‑Humanis",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.html",
+      "html_sha256": "0febbfd6c62bdf38bdc0db6890c4ae3e6c160143799d57cedd6484a3d0ca98af",
+      "human_reviewed": false,
+      "id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
+      "images": [
+        {
+          "alt": "’n klein boot aan die rand van kalm water tydens ’n lewendige sonsondergang",
+          "public_path": "/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.json",
+      "metadata_sha256": "a34ca53c257dc2931da6041aaa80b74de1124bd4620628853b9c9d3925789548",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Gedig",
+      "source_revision": "2ae95fda39469ef52a72279047745b6a5e870c0b",
+      "source_translation_key": "37a857029f09f62dd90f027f2e63470f927d9f310ba6c3ebc9a8fab36434b0c6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Sta op, wees bly",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    }
+  ],
   "format_version": "1.0",
   "observed_source_revision": "d691ac7d4d05445615224e750943cbbdda19c212",
   "source_repository": "trueChristian/berean-voice"

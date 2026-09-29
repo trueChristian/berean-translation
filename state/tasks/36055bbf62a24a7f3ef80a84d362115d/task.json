@@ -2,7 +2,6 @@
   "article_id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0ec98d4956474ecc9adac833385eb194",
   "campaign": "gh-36549125967",
   "created_at": "2026-09-29T09:27:00+00:00",
   "events": [
@@ -24,8 +23,37 @@
         },
         "total_tokens": 3346
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 825,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2931,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3756
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Paragraph 3 (sentence about fathers watching the world)",
+      "severity": "minor",
+      "source_quote": "Fathers who with a concerned eye watch the world pressing in on the Christian homes.",
+      "suggested_fix": "Replace the mistranslated phrase 'met ’n bewerkte oog' with an Afrikaans phrase that conveys concern/guarded watchfulness, e.g. 'met ’n bewerkte oog' -> 'met ’n bewerkte oog' is incorrect. Use 'met ’n besorgde oog' or 'met ’n wakende, besorgde oog' so the sense 'a concerned eye' is preserved.",
+      "translation_quote": "Vaderfigure wat met ’n bewerkte oog die wêreld sien inbeweeg op die Christelike huise."
+    }
+  ],
+  "finished_at": "2026-09-29T20:52:06+00:00",
   "id": "36055bbf62a24a7f3ef80a84d362115d",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "afr",
@@ -69,11 +97,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0f8df8a965d2b8c793d4ea0931725a40cd8a0e03034c08aea99c21fe7597385e.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

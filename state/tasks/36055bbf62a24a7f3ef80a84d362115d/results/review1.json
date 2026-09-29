@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8e828d1e-ab5a-48f4-b64c-92ac8f3c066c",
+    "response_id": "chatcmpl-ETUVrwKtgw5SjdrdPlDaaLZLbQWU2",
+    "usage": {
+      "completion_tokens": 825,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2931,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3756
+    }
+  },
+  "received_at": "2026-09-29T20:52:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 3 (sentence about fathers watching the world)",
+        "severity": "minor",
+        "source_quote": "Fathers who with a concerned eye watch the world pressing in on the Christian homes.",
+        "suggested_fix": "Replace the mistranslated phrase 'met ’n bewerkte oog' with an Afrikaans phrase that conveys concern/guarded watchfulness, e.g. 'met ’n bewerkte oog' -> 'met ’n bewerkte oog' is incorrect. Use 'met ’n besorgde oog' or 'met ’n wakende, besorgde oog' so the sense 'a concerned eye' is preserved.",
+        "translation_quote": "Vaderfigure wat met ’n bewerkte oog die wêreld sien inbeweeg op die Christelike huise."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0ec98d4956474ecc9adac833385eb194",
   "campaign": "gh-36549125967",
   "created_at": "2026-09-29T09:27:00+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 1765
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 995,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1340,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2335
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Poem, stanza 1, line 3 (\"Dayspring shineth from on high\")",
+      "severity": "minor",
+      "source_quote": "The Dayspring shineth from on high",
+      "suggested_fix": "Consider using a more common Afrikaans term for poetic clarity, e.g. \"Die dagbreek skyn van hoog in die hemele\" or keep \"Dagskynding\" if you prefer a more archaic/poetic tone.",
+      "translation_quote": "Die Dagskynding skyn van hoog in die hemele"
+    },
+    {
+      "location": "Poem, stanza 1, line 4 (\"The grace of God to man is nigh!\")",
+      "severity": "minor",
+      "source_quote": "The grace of God to man is nigh!",
+      "suggested_fix": "Improve idiomatic flow: change \"Die genade van God na die mens is naby!\" to \"Die genade van God aan die mens is naby!\" or \"God se genade is vir die mens naby!\"",
+      "translation_quote": "Die genade van God na die mens is naby!"
+    },
+    {
+      "location": "Poem, stanza 3, line 2 (\"And worship Him with reverent praise;\")",
+      "severity": "minor",
+      "source_quote": "And worship Him with reverent praise;",
+      "suggested_fix": "\"Dien Hom met eerbiedige lof\" is acceptable but slightly unusual; consider \"Aanbid Hom met eerbiedige lof\" or \"Aanbid Hom met eerbiedige lofprysing\" for closer lexical match.",
+      "translation_quote": "En dien Hom met eerbiedige lof;"
+    }
+  ],
+  "finished_at": "2026-09-29T20:52:06+00:00",
   "id": "25848e5de3098e2f05340a26f3deccc4",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "afr",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/9b401d0dfa2e5edbf198c3eea9df3c2da05845cf50a376b887a3a32edf40a538.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "37a857029f09f62dd90f027f2e63470f927d9f310ba6c3ebc9a8fab36434b0c6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

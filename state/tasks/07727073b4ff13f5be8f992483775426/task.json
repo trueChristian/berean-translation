@@ -2,7 +2,6 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0ec98d4956474ecc9adac833385eb194",
   "campaign": "gh-36549125967",
   "created_at": "2026-09-29T09:27:00+00:00",
   "events": [
@@ -24,6 +23,62 @@
         },
         "total_tokens": 3457
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1576,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3096,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4672
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Paragraph 2 — sentence: “Jamin, you will never be smart”, Kenny said. Deep inside Jamin felt resigned to a life of muddled trip-ups.",
+      "severity": "major",
+      "source_quote": "“Jamin, you will never be smart”, Kenny said. Deep inside Jamin felt resigned to a life of muddled trip-ups.",
+      "suggested_fix": "Render the meaning clearly: translate “smart” as a cognitive judgment (e.g., ‘slim’ or ‘dom’ depending on tone) and translate “Deep inside Jamin felt resigned to a life of muddled trip-ups” idiomatically so the resignation is clear. For example: “’Jamin, jy sal nooit slim wees nie,” het Kenny gesê. Diep binne-in het Jamin hom by ’n lewe van verwarde struikelings bepas gevoel.” (Or better: “Diep binne-in het Jamin hom by ’n lewe van onsekerheid en konstante foutjies neergeleë gevoel.”)",
+      "translation_quote": "“Jamin, jy sal nooit slim wees nie,” het Kenny gesê. Tief binne-in het Jamin hom by ’n lewe van verwarde struikelings gevoeg gevoel."
+    },
+    {
+      "location": "Paragraph 3 — sentence: “Very well, then Jamin would be simple. Kenny would be smart.”",
+      "severity": "major",
+      "source_quote": "Very well, then Jamin would be simple. Kenny would be smart.",
+      "suggested_fix": "‘Simple’ here means ‘not intelligent’ (pejorative), not ‘simple’ in the neutral sense. Translate to a clear Afrikaans equivalent that carries the intended meaning (e.g., ‘dom’). Example: “Goed dan — Jamin sal dom wees. Kenny sal slim wees.”",
+      "translation_quote": "Goed dan, Jamin sal eenvoudig wees. Kenny sal slim wees."
+    },
+    {
+      "location": "Paragraph with image alt attribute",
+      "severity": "minor",
+      "source_quote": "A narrow path winding through a leafy woodland",
+      "suggested_fix": "Alt text should match the original. Replace inaccurate adjective ‘slyperige’ (slippery) with a neutral descriptor for ‘narrow’, e.g., ‘’n nou paadjie wat deur ’n blarevolle woud kronkel’ or keep the translator’s ‘kronkel’ but change ‘slyperige’ to ‘nou’.",
+      "translation_quote": "’n Slyperige paadjie wat deur ’n blarevolle woud kronkel"
+    },
+    {
+      "location": "Paragraph describing light through trees — “his golden head caught the tired beams that fled from the sun as they flickered through the trees.”",
+      "severity": "minor",
+      "source_quote": "his golden head caught the tired beams that fled from the sun as they flickered through the trees.",
+      "suggested_fix": "The translation uses inappropriate verb choices that obscure the image (“geknou”, “wegflikker” earlier). Use clearer, idiomatic Afrikaans to preserve the pastoral image. Example: “Sy goue kop het die moeg strale opgevang wat, terwyl hulle tussen die bome flikker, van die son wegkruip.”",
+      "translation_quote": "Sy goue kop het die moeg strale geknou wat van die son wegflikker deur die bome."
+    },
+    {
+      "location": "Paragraph where darkness stains the ground — “Darkness stained the ground around Kenny.”",
+      "severity": "minor",
+      "source_quote": "Darkness stained the ground around Kenny.",
+      "suggested_fix": "‘Stained the ground’ is rendered oddly as ‘aangeteken’. Use a verb that conveys the sense of darkness settling or spreading, e.g., ‘’n donker vlek het die grond rondom Kenny geteken’ or ‘donkerheid het die grond rondom Kenny oorval’.",
+      "translation_quote": "Duisternis het die grond om Kenny aangeteken."
     }
   ],
   "id": "07727073b4ff13f5be8f992483775426",
@@ -69,11 +124,13 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/874be6d83ff836e790bd678ed58ac52baa083d6b43a053b04cc97a41b61ccd8e.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "daa06c10-6218-41c5-82b1-f909a02522a0",
+    "response_id": "chatcmpl-ETUVrxnaEoJNKowUxEdyaEJ3VPOdW",
+    "usage": {
+      "completion_tokens": 929,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3866,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4795
+    }
+  },
+  "received_at": "2026-09-29T20:52:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: “My husband faced the disaster like a man,” (English) -> “My man het die ramp soos ’n man aangespreek,” (Afrikaans)",
+        "severity": "minor",
+        "source_quote": "“My husband faced the disaster like a man,” says Becky.",
+        "suggested_fix": "Use a more idiomatic Afrikaans verb for 'faced' in this context, e.g. “My man het die ramp soos ’n man aangegaan” or “deurstaan” to convey the sense of confronting/enduring the disaster.",
+        "translation_quote": "“My man het die ramp soos ’n man aangespreek,” sê Becky."
+      },
+      {
+        "location": "Paragraph about being asked to fill the food-committee role",
+        "severity": "minor",
+        "source_quote": "Then I was asked to fill the position of food committee for Mrs. ‘Going-to-Bulgaria.’",
+        "suggested_fix": "The translation renders the role imprecisely as “pos van voedselaanbieder,” which reads as 'food provider' rather than a committee position. Use wording that preserves the committee/position sense, e.g. “om die pos op die voedselaanbodkomitee te vervul” or “om op die voedselkomitee te dien.”",
+        "translation_quote": "Toe word ek gevra om die pos van voedselaanbieder te vul vir mev. ‘Gaan-na-Bulgarye.’"
+      },
+      {
+        "location": "Image alt text",
+        "severity": "minor",
+        "source_quote": "Ocean waves breaking along a sandy shoreline seen from above.",
+        "suggested_fix": "The Afrikaans alt text uses “Oseaanwaaiers” (literally 'ocean fans'), which is incorrect. Use “Oseaangolwe wat langs ’n sandstrand breek, gesien van bo af.”",
+        "translation_quote": "alt=\"Oseaanwaaiers wat langs ’n sandstrand breek, gesien van bo af.\""
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}
