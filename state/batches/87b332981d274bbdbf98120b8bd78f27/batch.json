@@ -17,10 +17,10 @@
   "input_file_id": "file-93P6y6iyf5vxqi6g6m6Aa5",
   "model": "gpt-5-mini",
   "payload_sha256": "4217fa914af6edd84671decddceb79008d3f6914743b8f8563b8f9ddd6dbca70",
-  "remote_id": null,
+  "remote_id": "batch_6abb846acb8881909da217b89bf76870",
   "reserved_usd": 0.18509,
   "stage": "translate",
-  "status": "submitting",
+  "status": "submitted",
   "submission_started_at": "2026-09-29T09:27:05+00:00",
   "tasks": [
     "07727073b4ff13f5be8f992483775426",
