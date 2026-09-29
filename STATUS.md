@@ -2,7 +2,7 @@
 
 Generated from the pinned source catalogue and durable work records. No API call is made by this report.
 
-Observed English revision: `2ae95fda39469ef52a72279047745b6a5e870c0b`
+Observed English revision: `e76a06696594adf94737a998ed24e946d41f3c1b`
 
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
@@ -57,31 +57,36 @@ Observed English revision: `2ae95fda39469ef52a72279047745b6a5e870c0b`
 | `heartbeat-remnant-2009-10` | 15 | 0 / 300 | 0 | 0 | 0 |
 | `heartbeat-remnant-2009-07` | 11 | 0 / 220 | 0 | 0 | 0 |
 | `heartbeat-remnant-2009-04` | 14 | 0 / 280 | 0 | 0 | 0 |
+| `heartbeat-remnant-2009-01` | 10 | 0 / 200 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-07` | 13 | 0 / 260 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-special-edition` | 9 | 0 / 180 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-04` | 10 | 0 / 200 | 0 | 0 | 0 |
+| `heartbeat-remnant-2008-01` | 13 | 0 / 260 | 0 | 0 | 0 |
 
 ## Language readiness
 
 | Language | Ready / source articles | Human reviewed | Active candidates | Not-ready candidates | Corrected candidates |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 0 / 579 | 0 | 0 | 0 | 0 |
-| `hin` (hi) | 0 / 579 | 0 | 0 | 0 | 0 |
-| `spa` (es) | 0 / 579 | 0 | 0 | 0 | 0 |
-| `ara` (ar) | 0 / 579 | 0 | 0 | 0 | 0 |
-| `fra` (fr) | 0 / 579 | 0 | 0 | 0 | 0 |
-| `ben` (bn) | 0 / 579 | 0 | 0 | 0 | 0 |
-| `por` (pt) | 0 / 579 | 0 | 0 | 0 | 0 |
-| `ind` (id) | 0 / 579 | 0 | 0 | 0 | 0 |
-| `urd` (ur) | 0 / 579 | 0 | 0 | 0 | 0 |
-| `rus` (ru) | 0 / 579 | 0 | 0 | 0 | 0 |
-| `deu` (de) | 0 / 579 | 0 | 0 | 0 | 0 |
-| `nld` (nl) | 0 / 579 | 0 | 0 | 0 | 0 |
-| `afr` (af) | 0 / 579 | 0 | 10 | 0 | 0 |
-| `swa` (sw) | 0 / 579 | 0 | 0 | 0 | 0 |
-| `kor` (ko) | 0 / 579 | 0 | 0 | 0 | 0 |
-| `ita` (it) | 0 / 579 | 0 | 0 | 0 | 0 |
-| `heb` (he) | 0 / 579 | 0 | 0 | 0 | 0 |
-| `ell` (el) | 0 / 579 | 0 | 0 | 0 | 0 |
-| `swe` (sv) | 0 / 579 | 0 | 0 | 0 | 0 |
-| `nob` (nb) | 0 / 579 | 0 | 0 | 0 | 0 |
+| `cmn` (zh-Hans) | 0 / 634 | 0 | 0 | 0 | 0 |
+| `hin` (hi) | 0 / 634 | 0 | 0 | 0 | 0 |
+| `spa` (es) | 0 / 634 | 0 | 0 | 0 | 0 |
+| `ara` (ar) | 0 / 634 | 0 | 0 | 0 | 0 |
+| `fra` (fr) | 0 / 634 | 0 | 0 | 0 | 0 |
+| `ben` (bn) | 0 / 634 | 0 | 0 | 0 | 0 |
+| `por` (pt) | 0 / 634 | 0 | 0 | 0 | 0 |
+| `ind` (id) | 0 / 634 | 0 | 0 | 0 | 0 |
+| `urd` (ur) | 0 / 634 | 0 | 0 | 0 | 0 |
+| `rus` (ru) | 0 / 634 | 0 | 0 | 0 | 0 |
+| `deu` (de) | 0 / 634 | 0 | 0 | 0 | 0 |
+| `nld` (nl) | 0 / 634 | 0 | 0 | 0 | 0 |
+| `afr` (af) | 0 / 634 | 0 | 10 | 0 | 0 |
+| `swa` (sw) | 0 / 634 | 0 | 0 | 0 | 0 |
+| `kor` (ko) | 0 / 634 | 0 | 0 | 0 | 0 |
+| `ita` (it) | 0 / 634 | 0 | 0 | 0 | 0 |
+| `heb` (he) | 0 / 634 | 0 | 0 | 0 | 0 |
+| `ell` (el) | 0 / 634 | 0 | 0 | 0 | 0 |
+| `swe` (sv) | 0 / 634 | 0 | 0 | 0 | 0 |
+| `nob` (nb) | 0 / 634 | 0 | 0 | 0 | 0 |
 
 ## Issue / language work
 
