@@ -79,7 +79,7 @@ Observed English revision: `e76a06696594adf94737a998ed24e946d41f3c1b`
 | `rus` (ru) | 0 / 634 | 0 | 0 | 0 | 0 |
 | `deu` (de) | 0 / 634 | 0 | 0 | 0 | 0 |
 | `nld` (nl) | 0 / 634 | 0 | 0 | 0 | 0 |
-| `afr` (af) | 0 / 634 | 0 | 10 | 0 | 0 |
+| `afr` (af) | 0 / 634 | 0 | 10 | 0 | 3 |
 | `swa` (sw) | 0 / 634 | 0 | 0 | 0 | 0 |
 | `kor` (ko) | 0 / 634 | 0 | 0 | 0 | 0 |
 | `ita` (it) | 0 / 634 | 0 | 0 | 0 | 0 |
@@ -100,4 +100,4 @@ Only combinations with requested or published work appear below. Counts of pendi
 
 | Request | Operation | Tasks | Reserved ceiling (USD) | Report |
 | --- | --- | ---: | ---: | --- |
-| `gh-36549125967` | translate | 10 | 0.185090 / 10.00 | [state](state/campaigns/gh-36549125967.json) |
+| `gh-36549125967` | translate | 10 | 0.247232 / 10.00 | [state](state/campaigns/gh-36549125967.json) |
