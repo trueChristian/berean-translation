@@ -21,7 +21,9 @@ on:
         type: boolean
         default: false
   schedule:
-    - cron: '17 * * * *'
+    # Best-effort fallback between bounded active polling windows. Offset from
+    # the top of the hour; GitHub does not guarantee scheduled start times.
+    - cron: '7,22,37,52 * * * *'
   workflow_run:
     workflows: ["AI — OpenAI", "AI — Review"]
     types: [completed]
@@ -82,7 +84,9 @@ jobs:
           set -euo pipefail
           case "$OPERATION" in
             collect)
-              .venv/bin/python -m berean_translation tick --publish
+              # Leave half the job budget for setup, slow API I/O, durable
+              # checkpoints, validation, and the existing publication hooks.
+              .venv/bin/python -m berean_translation tick --publish --wait-seconds 600 --poll-seconds 60
               ;;
             cancel)
               .venv/bin/python -m berean_translation cancel --campaign "$CAMPAIGN" --publish

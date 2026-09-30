@@ -7,6 +7,7 @@ import sys
 from pathlib import Path
 from uuid import uuid4
 from .common import ContractError, loads, read_json
+from .collector import collect_window
 from .config import Config
 from .engine import Engine
 from .gitstore import GitStore
@@ -36,6 +37,10 @@ def main(argv=None):
     discover.add_argument('--check-only',action='store_true')
     worker = commands.add_parser('tick')
     worker.add_argument('--publish',action='store_true')
+    worker.add_argument('--wait-seconds',type=int,default=0,
+                        help='Bounded active-work pickup window (0..900 seconds; default: one tick)')
+    worker.add_argument('--poll-seconds',type=int,default=60,
+                        help='Submitted-batch poll interval (30..300 seconds)')
     cancel = commands.add_parser('cancel')
     cancel.add_argument('--campaign',required=True)
     cancel.add_argument('--publish',action='store_true')
@@ -92,9 +97,10 @@ def main(argv=None):
             provider = OpenAIProvider() if os.environ.get('OPENAI_API_KEY') else None
             engine = Engine(config,SourceClient(config),provider,store)
             if args.command == 'tick':
-                engine.tick()
+                collection = collect_window(engine,wait_seconds=args.wait_seconds,poll_seconds=args.poll_seconds)
                 result = validate_repository(config)
                 result['api_key_configured'] = bool(provider)
+                result['collection'] = collection
             elif args.command == 'cancel':
                 engine.cancel_campaign(args.campaign)
                 result = {'campaign':args.campaign,'cancel_requested':True}
