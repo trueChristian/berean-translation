@@ -2,7 +2,7 @@
 
 Generated from the pinned source catalogue and durable work records. No API call is made by this report.
 
-Observed English revision: `d691ac7d4d05445615224e750943cbbdda19c212`
+Observed English revision: `e2d43a96b5d22ccd98b4842f332c7247f2b63c30`
 
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
