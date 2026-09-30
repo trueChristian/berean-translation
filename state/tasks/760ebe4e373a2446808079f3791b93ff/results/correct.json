@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "083d642e-23e9-4a5d-9f34-953790c9f3c2",
+    "response_id": "chatcmpl-ETZ7eZnh50x9D2Ez09gEL5Obiflyc",
+    "usage": {
+      "completion_tokens": 2084,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3281,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5365
+    }
+  },
+  "received_at": "2026-09-30T00:31:56+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a76ef013-7cf5-4e99-8312-3a9818d244ff\">\n  <figure>\n    <img src=\"/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg\" alt=\"’n Koppie koffie langs ’n spiraalnotaboek en potlood.\">\n  </figure>\n  <p class=\"byline\">by Sue Hooley\nHolmesville, Ohio</p>\n  <p class=\"drop-cap\">Die dringendheid van die laaste oomblik is iets waarmee baie huisvroue gereeld te doen het. Maak nie saak hoe georganiseerd ons is nie, soms stel ons take uit omdat ons dit nie graag doen nie of totdat ons onder druk kom.</p>\n  <p>Gewoontelike uitstelgedrag lei potensieel tot hoër vlakke van stres. Miskien is ek vreemd, maar vir my is dit moeilik om kalm en beheers te bly wanneer die druk styg. Teen die tyd dat die laaste oomblik-dinge afgehandel is, is ek te uitgeput om van die beplande gebeurtenis te geniet.</p>\n  <h2>Tandpyn en Padreise</h2>\n  <p>Dit is vir my ’n raaisel waarom ’n familielid net ’n dag of twee voor ons vertrek op ’n reis in ’n tandartsstoel beland. Miskien het dit nie so gereeld gebeur as wat ek dink nie, maar die frustrasie van ’n ongeplande besoek aan die tandarts op ’n ongunstige tyd het vasgesit in my gedagtes. Nou beplan ek ’n denkbeeldige afspraak voor ’n reis. As dit nie ’n tandheelkundige noodgeval is nie, sal ’n ander kwessie daardie tydgleuf sekerlik invul.</p>\n  <p>Sperdatums is ’n normale deel van die lewe. Sonder hulle sou ons ongemotiveerd wees, en ons dae sou doel ontbreek. Onderbrekings is ook ’n normale deel van die lewe. Hulle gee voortdurend ’n onvoorspelbare draai aan ons dae en weke. As ons te veel take laat vir die laaste oomblik, bots onderbrekings en sperdatums, en chaos regeer.</p>\n  <h2>Verander die laaste oomblik-toneel</h2>\n  <p>Sperdatums en onderbrekings kan nie uitgehaal word nie, maar ons kan laaste oomblik-take beperk. Soms verg dit ’n eerlike terugblik om uit te vind wat ons stres veroorsaak het. Dikwels gee ons die skuld aan onderbrekings en besef nie dat swak beplanning of uitstel die oorsaak kon wees nie.</p>\n  <p>Byvoorbeeld, as gaste kom en ons beplan om vensters te was en ’n nagereg te maak saam met ’n dosyn ander take op die dag van hulle aankoms, is daar geen ruimte vir ontwrigtings nie. Uit ervaring weet ons onderbrekings sal kom. Is dit dan nie beter om vir ’n bysteek en ’n verstote toon te beplan nie?</p>\n  <p>Hoekom nie vensterswas en nagereg vir ’n ander dag skeduleer nie? Dit mag beteken daar is vingerafdrukke op die vensters en ’n eenvoudiger nagereg, maar is dit nie beter as baie stres op die laaste oomblik nie?</p>\n  <h2>Doen 'n paar take vooraf</h2>\n  <p>Om vroeg in die dag te besluit wat om vir aandete te maak en die luiertas vooruit te pak is klein dinge wat ’n groot verskil op die laaste oomblik kan maak. Toe ons kinders klein was, het ek begin om tasse ’n dag voor ’n reis in te pak in plaas van die dag van vertrek. Ek kon beter met die laaste oomblik-haas klaarkom as daardie taak uit die pad was.</p>\n  <h2>Doen die belangrikste take eerste</h2>\n  <p>Hierdie benadering gee die vryheid om take van minder belang oor te slaan wanneer daar ’n tydsdruk is.</p>\n  <p>Partykeer is nie alles op die taaklys ewe waardevol nie. Om ’n taak te laat vaar is moeilik vir ’n perfeksionis, maar dit is moontlik om nuwe gewoontes te ontwikkel.</p>\n  <h2>Breek werk in kleiner stukke</h2>\n  <p>Partykeer laat die enormiteit van ’n taak dit lyk te groot om te begin. Breek die groot taak in kleiner komponente. Om ’n kleiner taak klaar te kry is baie meer hanteerbaar. Om my kombuis diep skoon te maak is ’n taak wat ek nie geniet nie. As my beplanner sê, “diep-skoon kombuis,” is dit maklik om te ignoreer.</p>\n  <p>Maar as my beplanner sê, “skoon toestelle, vee kaste uit, en was vensters,” lyk dit meer doenbaar.</p>\n  <p>Daar is soveel blye gebeurtenisse in die lewe; waarom moet uitstelgedrag jou pla? Gee jouself die vryheid om anders te leef. ’n Paar klein veranderinge kan die grootste verskil maak tussen ’n geseënde of gestresde laaste oomblik.</p>\n</article>\n",
+    "section": "SUSTER TOT SUSTER",
+    "subtitle": null,
+    "title": "Uitstelbelasting"
+  }
+}
