@@ -10,6 +10,7 @@ import re
 from collections import defaultdict
 from pathlib import Path
 from uuid import uuid4
+from .batch_telemetry import failure_reason, observe_batch, request_failure
 from .common import (ContractError, canonical, csv_values, digest, json_hash, loads, now,
                      positive_money, read_json, write_text)
 from .html import notice, validate_translation
@@ -276,10 +277,19 @@ class Engine:
             self.finish(task,'not_ready',str(exc))
 
     def recover(self, batch):
-        matches = self.provider.find(batch['id'])
+        batch['last_reconciled_at'] = now()
+        try:
+            matches = self.provider.find(batch['id'])
+        except Exception as exc:
+            batch.update(status='submission_unknown',reconciliation='lookup_failed_no_resubmission',
+                         reconciliation_error_type=type(exc).__name__)
+            self.state.save_batch(batch)
+            return False
+        batch.pop('reconciliation_error_type',None)
         matches = [m for m in matches if m.get('input_file_id') == batch.get('input_file_id')]
         if len(matches) == 1:
             batch.update(remote_id=matches[0]['id'],status='submitted',recovered_at=now())
+            observe_batch(batch,matches[0],batch['recovered_at'])
             self.state.save_batch(batch)
             self.checkpoint('runtime: reconcile an uncertain OpenAI batch submission')
             return True
@@ -321,6 +331,7 @@ class Engine:
         try:
             remote = self.provider.create(batch['input_file_id'],batch['id'],batch['campaign'])
             batch.update(remote_id=remote['id'],status='submitted')
+            observe_batch(batch,remote,now())
         except Exception as exc:
             # Do not store exception bodies: upstream exceptions may contain sensitive headers.
             batch.update(status='submission_unknown',error_type=type(exc).__name__)
@@ -336,26 +347,46 @@ class Engine:
                 continue
             if batch['status'] not in ('submitted','cancelling'):
                 continue
-            remote = self.provider.retrieve(batch['remote_id'])
-            batch['remote_status'] = remote['status']
-            if remote['status'] not in BATCH_TERMINAL:
-                if batch.get('cancel_requested') and remote['status'] != 'cancelling':
+            batch['last_polled_at'] = now()
+            try:
+                remote = self.provider.retrieve(batch['remote_id'])
+            except Exception as exc:
+                # A failed read does not prove a provider failure or authorize a resubmission.
+                batch['poll_error_type'] = type(exc).__name__
+                self.state.save_batch(batch)
+                continue
+            batch.pop('poll_error_type',None)
+            observe_batch(batch,remote,batch['last_polled_at'])
+            if batch['remote_status'] not in BATCH_TERMINAL:
+                if batch.get('cancel_requested') and batch['remote_status'] != 'cancelling':
                     self.provider.cancel(batch['remote_id'])
                     batch['status'] = 'cancelling'
                 self.state.save_batch(batch)
                 continue
             rows = {}
+            files = []
             try:
                 for field in ('output_file_id','error_file_id'):
-                    if not remote.get(field):
-                        continue
-                    data = self.provider.content(remote[field])
+                    if remote.get(field):
+                        files.append(self.provider.content(remote[field]))
+            except Exception as exc:
+                batch['collection_error_type'] = type(exc).__name__
+                self.state.save_batch(batch)
+                continue
+            batch.pop('collection_error_type',None)
+            try:
+                for data in files:
                     if len(data) > 100000000:
                         raise ContractError('Batch result file exceeded the 100 MB collection safety limit')
                     for line in data.splitlines():
                         if not line.strip():
                             continue
-                        row = loads(line)
+                        try:
+                            row = loads(line)
+                        except ContractError as exc:
+                            raise ContractError('Batch result file contains invalid JSON') from exc
+                        if not isinstance(row,dict) or not isinstance(row.get('custom_id'),str):
+                            raise ContractError('Batch result row is missing a valid custom ID')
                         key = row.get('custom_id')
                         if key in rows or key not in batch['custom_ids']:
                             raise ContractError('Batch results contain duplicate or unexpected custom IDs')
@@ -370,13 +401,27 @@ class Engine:
                     if batch.get('cancel_requested'):
                         self.finish(task,'cancelled','Cancelled by explicit owner request')
                     elif key not in rows:
-                        self.finish(task,'not_ready',f'Missing batch result; remote batch ended as {remote["status"]}')
+                        reason = f'Missing batch result; remote batch ended as {batch["remote_status"]}'
+                        if batch.get('remote_errors'):
+                            reason += '. ' + failure_reason(batch['remote_errors'][0])
+                        else:
+                            reason += '. Inspect the provider batch before requesting any retry; no automatic replacement was submitted.'
+                        self.finish(task,'not_ready',reason)
                     else:
-                        self.receive(task,rows[key])
+                        diagnostic = request_failure(rows[key])
+                        if diagnostic:
+                            task['provider_failure'] = diagnostic
+                            self.finish(task,'not_ready',failure_reason(diagnostic))
+                        else:
+                            self.receive(task,rows[key])
                 batch['status'] = 'collected'
-                batch['completed_at'] = now()
+                batch['collected_at'] = now()
+                # Compatibility: completed_at has always meant LOCAL collection.
+                # Provider completion is exclusively remote_completed_at (Unix seconds).
+                batch['completed_at'] = batch['collected_at']
             except ContractError as exc:
                 batch.update(status='results_invalid',error=str(exc))
+                batch['collection_finished_at'] = now()
                 for task_id in batch['tasks']:
                     task = self.state.read(f'state/tasks/{task_id}/task.json')
                     if task['status'] not in TERMINAL:
@@ -471,9 +516,10 @@ class Engine:
         self.state.derive(self.config)
         self.checkpoint('runtime: record campaign cancellation results')
 
-    def tick(self):
+    def tick(self, *, discover_source=True):
         self.state.sync_human_reviews(self.gitstore)
-        self.discover()
+        if discover_source:
+            self.discover()
         self.accept_queue()
         self.collect()
         self.prepare()
@@ -486,11 +532,12 @@ class Engine:
             self.state.save_campaign(campaign)
         source = self.state.read('state/source.json')
         heartbeat = self.state.read('state/heartbeat.json',{})
-        if heartbeat.get('utc_date') != now()[:10]:
-            self.state.write('state/heartbeat.json',{'utc_date':now()[:10],
-                'source_revision':source['revision'],'articles_discovered':len(source['articles']),
-                'issues_discovered':len(source['issues']),
-                'pending_tasks':sum(t['status'] not in TERMINAL for t in self.state.tasks())})
+        snapshot = {'utc_date':now()[:10],
+            'source_revision':source['revision'],'articles_discovered':len(source['articles']),
+            'issues_discovered':len(source['issues']),
+            'pending_tasks':sum(t['status'] not in TERMINAL for t in self.state.tasks())}
+        if heartbeat != snapshot:
+            self.state.write('state/heartbeat.json',snapshot)
         result = self.state.derive(self.config)
         self.checkpoint('runtime: update source discovery and translation publication index')
         return result
