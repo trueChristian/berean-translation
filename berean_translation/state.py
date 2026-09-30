@@ -1,11 +1,22 @@
 """Persistent work records, review detection, and deterministic website metadata."""
 from __future__ import annotations
 import copy
+from datetime import datetime, timezone
 from pathlib import Path
+from .batch_telemetry import provider_error
 from .common import ContractError, digest, json_hash, now, read_json, safe_path, write_json, write_text
 from .html import split_article, validate_translation
 
 TERMINAL = {'complete','not_ready','proposal','cancelled','budget_blocked','source_error'}
+
+
+def provider_time(value):
+    if type(value) is not int or value < 0:
+        return 'not recorded'
+    try:
+        return datetime.fromtimestamp(value,timezone.utc).isoformat(timespec='seconds')
+    except (OverflowError,OSError,ValueError):
+        return 'not recorded'
 
 
 class State:
@@ -185,11 +196,42 @@ class State:
             for path in errors:
                 relative = path.relative_to(self.root).as_posix()
                 rows.append(f'- [`{path.stem}`]({relative})')
-        rows += ['', '## Campaigns', '', '| Request | Operation | Tasks | Reserved ceiling (USD) | Report |',
-                 '| --- | --- | ---: | ---: | --- |']
+        rows += ['', '## Campaigns', '', '| Request | Operation | Status | Tasks | Reported usage (USD) | Reserved ceiling (USD) | Report |',
+                 '| --- | --- | --- | ---: | ---: | ---: | --- |']
         for campaign in self.campaigns():
-            rows.append(f'| `{campaign["id"]}` | {campaign["operation"]} | {len(campaign.get("tasks",[]))} | '
+            rows.append(f'| `{campaign["id"]}` | {campaign["operation"]} | {campaign["status"]} | {len(campaign.get("tasks",[]))} | '
+                        f'{campaign.get("reported_usage_usd",0):.8f} | '
                         f'{campaign.get("reserved_usd",0):.6f} / {campaign["budget_usd"]:.2f} | '
                         f'[state](state/campaigns/{campaign["id"]}.json) |')
+        batches = self.batches()
+        if batches:
+            rows += ['', '## Provider batch lifecycle', '',
+                     'Provider completion and local collection are separate clocks. Older records without provider timestamps remain unknown; legacy `completed_at` is local collection time. Provider completion does not mean a translation passed its quality gates.', '',
+                     '| Batch / stage | Worker / provider status | Requests total / completed / failed | Provider completed (UTC) | Collected locally (UTC) | Last poll attempted (UTC) |',
+                     '| --- | --- | --- | --- | --- | --- |']
+            for batch in batches:
+                counts = batch.get('remote_request_counts') or {}
+                rows.append(f'| [{batch["id"]}](state/batches/{batch["id"]}/batch.json) / {batch["stage"]} | '
+                            f'{batch["status"]} / {batch.get("remote_status","not recorded")} | '
+                            f'{counts.get("total","?")} / {counts.get("completed","?")} / {counts.get("failed","?")} | '
+                            f'{provider_time(batch.get("remote_completed_at"))} | '
+                            f'{batch.get("collected_at") or batch.get("completed_at") or "not collected"} | '
+                            f'{batch.get("last_polled_at","not recorded")} |')
+            diagnostics = []
+            for batch in batches:
+                link = f'[batch {batch["id"]}](state/batches/{batch["id"]}/batch.json)'
+                if batch.get('poll_error_type') or batch.get('collection_error_type'):
+                    diagnostics.append(f'- {link}: Provider read failed. Check provider availability and project access; collection can resume without resubmitting the batch.')
+                if batch.get('reconciliation_error_type') or batch['status'] == 'submission_unknown':
+                    diagnostics.append(f'- {link}: Submission remains uncertain. Reconcile the submission key; never retry creation without verified absence and explicit owner confirmation.')
+                for error in batch.get('remote_errors',[]):
+                    safe = provider_error(error)
+                    diagnostics.append(f'- {link}: `{safe["code"]}`. {safe["action"]}')
+            for task in tasks:
+                if task.get('provider_failure'):
+                    safe = provider_error(task['provider_failure'])
+                    diagnostics.append(f'- [task {task["id"]}](state/tasks/{task["id"]}/task.json): `{safe["code"]}`. {safe["action"]}')
+            if diagnostics:
+                rows += ['', '## Provider diagnostics', '', *diagnostics]
         write_text(self.path('STATUS.md'),'\n'.join(rows)+'\n')
         return index
