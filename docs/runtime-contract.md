@@ -16,7 +16,7 @@ Human review is recorded only after a human repository commit changes an existin
 
 ## State and durability
 
-1. Manual Actions workflows persist unique immutable queue requests, without a shared enqueuer concurrency group.
+1. Manual Actions workflows persist unique immutable queue requests, without a shared enqueuer concurrency group. The single collector may also persist exact, deterministic requests under the enabled owner-authorized source-refresh policy.
 2. The collector checks out current `main`, synchronizes human review, resolves upstream `main` to a commit, reads the eligible IDs from `index.json`, and computes article fingerprints itself from current English HTML and relevant metadata. A sparse checkout reads current English `main` once; missing/stale core manifests do not matter.
 3. It resolves issue selectors from that snapshot, skips processed/active/protected combinations, freezes model settings/prompts/glossaries, and creates durable tasks and hash-named source snapshots.
 4. For each stage it prepares single-model JSONL batches, reserves conservative token-cost ceilings, and pushes the reservation before calling OpenAI.
@@ -32,7 +32,7 @@ The configured model list is an explicit allowlist of dated model snapshots and 
 
 A campaign records its USD cap, conservative reserved cost and API-reported token-usage estimate. Input estimates use UTF-8 bytes plus a framing allowance; output tokens are explicitly limited. Reservations are never silently released and reused. A subsequent stage that cannot fit the remaining cap becomes `budget_blocked` and does not call OpenAI. Selecting a very large batch with too small a budget can therefore stop after translation but before review; the saved candidate can be selected in **AI — Review** without paying to translate it from scratch. Caps are application safeguards based on the configured rate table, not a provider billing guarantee. Configure OpenAI project/account budgets and alerts as an independent safeguard, verify whether they impose a hard cap rather than merely notifying, and review rates before a large campaign.
 
-No more than two translations/corrections and two reviews occur per task. No billable endpoint is automatically retried. File uploads have a separate three-failure bound. Manual re-review/retry is a new, explicitly authorized bounded campaign. Source discovery never starts new paid work automatically.
+No more than two translations/corrections and two reviews occur per task. No billable endpoint is automatically retried. File uploads have a separate three-failure bound. Manual re-review/retry is a new, explicitly authorized bounded campaign. Discovery never authorizes a first translation of an article/language pair. The separately approved automatic source-refresh policy applies only to already-published AI pairs whose current source fingerprint changed: gpt-5-mini for both stages, at most $10 per one-issue/language campaign, at most five new campaigns per initial scan, exact source selections and all-history fingerprint deduplication. These caps are per campaign, not an aggregate lifetime/daily spending cap. Failed/cancelled/budget-blocked fingerprints require manual intervention; active, human-reviewed, withdrawn and compatible work is excluded. Immutable requests and frozen campaign policy/usage provide the spending ledger. Disabling the policy pauses unaccepted automatic requests; already-accepted work needs explicit cancellation.
 
 ## Source compatibility
 

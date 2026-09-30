@@ -196,10 +196,11 @@ class State:
             for path in errors:
                 relative = path.relative_to(self.root).as_posix()
                 rows.append(f'- [`{path.stem}`]({relative})')
-        rows += ['', '## Campaigns', '', '| Request | Operation | Status | Tasks | Reported usage (USD) | Reserved ceiling (USD) | Report |',
-                 '| --- | --- | --- | ---: | ---: | ---: | --- |']
+        rows += ['', '## Campaigns', '', '| Request | Trigger | Operation | Status | Tasks | Reported usage (USD) | Reserved ceiling (USD) | Report |',
+                 '| --- | --- | --- | --- | ---: | ---: | ---: | --- |']
         for campaign in self.campaigns():
-            rows.append(f'| `{campaign["id"]}` | {campaign["operation"]} | {campaign["status"]} | {len(campaign.get("tasks",[]))} | '
+            trigger = 'source refresh' if campaign.get('source_refresh') else 'manual'
+            rows.append(f'| `{campaign["id"]}` | {trigger} | {campaign["operation"]} | {campaign["status"]} | {len(campaign.get("tasks",[]))} | '
                         f'{campaign.get("reported_usage_usd",0):.8f} | '
                         f'{campaign.get("reserved_usd",0):.6f} / {campaign["budget_usd"]:.2f} | '
                         f'[state](state/campaigns/{campaign["id"]}.json) |')

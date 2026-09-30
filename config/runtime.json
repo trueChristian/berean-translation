@@ -20,5 +20,12 @@
   "english_route": "/en/articles/{article_id}/",
   "prompt_version": "1.0.2",
   "automatic_discovery": true,
-  "automatic_new_translation": false
+  "automatic_new_translation": false,
+  "automatic_source_refresh": {
+    "enabled": true,
+    "model": "gpt-5-mini",
+    "review_model": "gpt-5-mini",
+    "budget_usd": 10,
+    "max_campaigns_per_tick": 5
+  }
 }
