@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "43438622-4caf-442f-9ea4-9a29331cec24",
+    "response_id": "chatcmpl-ETcXsPgFGF2LniO4zCFTCnQmRUKn0",
+    "usage": {
+      "completion_tokens": 1216,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1088,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3106,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4322
+    }
+  },
+  "received_at": "2026-09-30T06:47:56+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph before the figure (original: \"He headed for the front door.\")",
+        "severity": "major",
+        "source_quote": "He headed for the front door.",
+        "suggested_fix": "Translate the sentence to match the source location/action (e.g., \"Hy het na die voorstoepdeur gekom.\" or \"Hy het na die voordeur gegaan.\") so the movement matches the next scene of seeing Grandma on the porch.",
+        "translation_quote": "Hy het na die kombuis deurgegaan."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}
