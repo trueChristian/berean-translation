@@ -86,6 +86,15 @@ class ContentGateTests(unittest.TestCase):
             self.validate('<p>John 3:16.</p><p>John 4:7.</p>',
                           '<p>Johannes 4:7.</p><p>Johannes 3:16.</p>')
 
+    def test_clock_cannot_move_between_non_paragraph_text_containers(self):
+        for tag in ('div','section','td','th','caption','pre','figure'):
+            with self.subTest(tag=tag), self.assertRaisesRegex(ContractError, 'Scripture'):
+                self.validate(f'<{tag}>Around 2 pm, a call came.</{tag}><{tag}>Conclusion.</{tag}>',
+                              f'<{tag}>A call came.</{tag}><{tag}>Omstreeks 14:00.</{tag}>')
+            with self.subTest(tag=tag):
+                self.validate(f'<{tag}>Around <em>2 pm</em>, a call came.</{tag}>',
+                              f'<{tag}>Omstreeks <em>14:00</em> het ’n oproep gekom.</{tag}>')
+
     def test_standalone_number_extractor_is_still_conservative(self):
         self.assertEqual(reference_numbers('Around 2 pm; Omstreeks 14:00; John 3:16–18; ٣:١٦—١٨.'),
                          Counter({'14:00': 1, '3:16-18': 2}))

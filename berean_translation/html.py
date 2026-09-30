@@ -15,6 +15,8 @@ ALLOWED = {'article','p','h1','h2','h3','h4','h5','h6','em','strong','b','i','u'
            'section','aside','footer','small','cite','q','abbr','time','dl','dt','dd','table','thead','tbody','tr','td',
            'th','caption','pre','code', *VOID}
 BLOCKS = {'p','h1','h2','h3','h4','h5','h6','figcaption','li','blockquote','dt','dd','aside','footer'}
+TEXT_BLOCKS = BLOCKS | {'article','div','section','figure','ul','ol','dl','table',
+                        'thead','tbody','tr','td','th','caption','pre'}
 
 
 class Fragment(HTMLParser):
@@ -31,7 +33,6 @@ class Fragment(HTMLParser):
         self.images = []
         self.nonempty_blocks = []
         self.block_stack = []
-        self.block_paths = []
         self.roots = 0
         self.feed(text)
         self.close()
@@ -81,7 +82,6 @@ class Fragment(HTMLParser):
         self.signature_paths.append(path)
         if tag in BLOCKS:
             self.block_stack.append([len(self.signature), False])
-            self.block_paths.append(path)
         if tag not in VOID:
             self.stack.append(tag)
             self.path_stack.append(path)
@@ -101,14 +101,17 @@ class Fragment(HTMLParser):
         self.child_counts.pop()
         if tag in BLOCKS:
             self.nonempty_blocks.append(tuple(self.block_stack.pop()))
-            self.block_paths.pop()
 
     def handle_data(self, data):
         if not self.stack and data.strip():
             raise ContractError('Text outside article')
         self.text_parts.append(data)
         if self.stack:
-            path = self.block_paths[-1] if self.block_paths else self.path_stack[0]
+            # Scope clocks and references to the nearest structural text
+            # container, including div/section/table cells. Inline emphasis
+            # remains transparent, but sibling containers cannot share a clock.
+            path = next(path for tag,path in zip(reversed(self.stack), reversed(self.path_stack))
+                        if tag in TEXT_BLOCKS)
             self.text_by_block[path].append(data)
         if data.strip():
             for block in self.block_stack:
