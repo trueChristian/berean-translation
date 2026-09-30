@@ -8,17 +8,17 @@ An independent, resumable OpenAI Batch translation runtime for the authoritative
 
 Edit an English article in `berean-voice`, commit the normal source change, and stop. This repository's collector reads English `main`, matches article UUIDs against its language records, and computes its own fingerprints to detect revisions. It ignores core `manifest.json` and `navigation.json` completely. A new article is missing work; a changed article is outdated work; unchanged articles are skipped. No source-side regeneration or manually copied commit/hash is required.
 
-The collector still respects manual language/issue selections, paid-work budgets, the bounded correction cycle, and protection of human-reviewed translations. Automatic discovery does not authorize a new paid campaign. Downloading `main` once per run simply avoids mixing old and new source files during one batch; the revision is internal provenance.
+The collector respects manual language/issue selections, paid-work budgets, the bounded correction cycle, and protection of human-reviewed translations. The owner-approved source-refresh policy automatically retranslates **already-published AI translations** after their English fingerprint changes, within the limits below. First translations of new articles or languages still require manual requests. Downloading `main` once per run avoids mixing old and new source files; the revision is internal provenance.
 
 ## Activate after merging the implementation
 
 1. Add an Actions repository secret named **`OPENAI_API_KEY`** under **Settings → Secrets and variables → Actions**. Use an OpenAI API project with billing and access to the selected models. Do not put the key in a file, workflow input, issue, pull request or chat.
 2. Enable GitHub Actions. The request and collector workflows need `contents: write` in this repository. The workflow files request it explicitly; organization policy or a protected `main` may still prevent the standard Actions token from making the runtime commits. Configure an appropriate permitted automation path rather than disabling protections indiscriminately. No personal token is needed for the supplied public English archive.
-3. Run **AI — Collect and discover**, operation **collect**, from `main`. This discovers the current English issues and generates [STATUS.md](STATUS.md). It does not start a paid campaign by itself; discovery also works before the OpenAI key is added.
+3. Run **AI — Collect and discover**, operation **collect**, from `main`. This discovers the current English issues and generates [STATUS.md](STATUS.md). With an API key, it can spend on existing authorized requests and eligible automatic source refreshes. For a strictly read-only source check, use `discover --check-only`; discovery also works before the OpenAI key is added.
 4. Run **AI — OpenAI** from `main`. Select a language, **next** issue, translation and review models, and a USD budget. Leave **dry_run** checked for a free selection preview. The request is stored immediately; the collector resolves it and records the selection under `state/campaigns/gh-<run-id>.json`.
 5. Submit a new manual run with **dry_run** unchecked when ready to translate. The collector starts after a successful request workflow and has a best-effort 15-minute schedule. While submitted work remains, it polls every minute within a 10-minute window, collecting completed batches and submitting the bounded review/correction stages without waiting for another scheduled run. A later collector resumes anything still processing. The runner does not wait for an entire OpenAI batch window.
 
-A dry run is deliberately a selection preview, not a certified price quotation or a translation-quality assessment. Adding the API key later resumes any previously authorized, non-dry-run requests already in the queue. Inspect/cancel those requests before adding the key when their intent has changed.
+A dry-run request is deliberately a free selection preview, not a certified price quotation or a translation-quality assessment; it does not pause separately authorized existing campaigns or automatic source refreshes. Adding the API key later resumes any previously authorized, non-dry-run requests already in the queue. Inspect/cancel those requests before adding the key when their intent has changed.
 
 ## Workflows
 
@@ -26,7 +26,7 @@ A dry run is deliberately a selection preview, not a certified price quotation o
 | --- | --- | --- |
 | **AI — OpenAI** | Persist one manual translation request with issue/language/model selections. | The collector submits the authorized work; this enqueuer has no OpenAI secret. |
 | **AI — Review** | Request a new bounded AI review of existing translations or saved failed candidates. | Review, and at most one correction plus final review. |
-| **AI — Collect and discover** | Discover source updates, process queued requests, collect/resume batches, recognize human review, or perform explicit cancellation/recovery. | Only existing manually authorized campaigns. |
+| **AI — Collect and discover** | Discover source updates, process queued requests, collect/resume batches, recognize human review, or perform explicit cancellation/recovery. | Manual campaigns plus the explicitly bounded source-refresh policy. |
 | **Translation runtime checks** | Offline regression tests, installed SDK contract check, repository validation and read-only source compatibility check. | None. |
 
 Manual workflows are intentionally restricted to `main`. Merge the implementation before trying to run production translation work. Do not add an API secret to a pull-request test environment.
@@ -43,7 +43,7 @@ Concurrent manual runs create different immutable queue files. OpenAI batches ma
 
 ### Model selection and expenditure
 
-The default translation and review choice is **gpt-4.1-mini**. This is a cost-conscious starting candidate, **not** a claim that theological translation quality has been proven for all twenty languages. The allowlist also includes **gpt-4.1-nano**, **gpt-4.1** and **gpt-5-mini**, with pinned API snapshot names and explicit Batch prices in `config/models.json`. The smallest model should be benchmarked on representative articles before broad use. Choose a different model for the independent review request when appropriate.
+The manual workflow defaults and automatic source-refresh policy use **gpt-5-mini** for translation and review, matching the first campaign; the low-level runtime fallback remains **gpt-4.1-mini** when a caller omits a model. These are operational choices, not proof of theological translation quality for all twenty languages. The allowlist also includes **gpt-4.1-nano** and **gpt-4.1**, with pinned API snapshot names and explicit Batch prices in `config/models.json`. Choose a different model for an explicitly requested independent review when appropriate.
 
 All model work uses OpenAI's Batch API; there is no hidden synchronous fallback. Each campaign has a USD reservation ceiling covering translation, review, correction and final review. The runtime reserves a conservative input/output upper estimate before each batch submission and retains actual returned token usage for comparison. Input estimates deliberately overestimate using UTF-8 bytes plus framing allowance. The application never recycles an uncertain reservation to authorize more work.
 
@@ -119,9 +119,22 @@ An **AI — Review** request can inspect a human-reviewed translation, but it ca
 
 ### New and changed English articles
 
-The scheduled collector discovers new issues and articles automatically and makes them selectable. It also updates the observed source revision and identifies stale/withdrawn translations. **Discovery never authorizes paid work.** Use **next** or **outstanding** in a manual translation request for new eligible work.
+The scheduled collector discovers new issues and articles automatically and makes them selectable. It also updates the observed source revision and identifies stale/withdrawn translations. Use **next** or **outstanding** in a manual translation request for first-time translation work.
 
 The translation runtime computes source text, markup and translation-metadata fingerprints automatically; source editors never maintain them. Those local fingerprints govern compatibility. An image pixel replacement or unrelated category edit alone does not require retranslation. Relevant English changes mark older translations stale without deleting them or overwriting human corrections. Each requested campaign retains its exact source commit and source snapshots.
+
+### Automatic refresh of changed English
+
+`config/runtime.json.automatic_source_refresh` is an explicit standing spending policy, enabled for source changes to existing AI-published translations. At the start of each collector run, the current English scan can create immutable, source-hash-deduplicated refresh requests. No cross-repository dispatch token is required; pickup uses the collector's best-effort 15-minute schedule and manual **collect** runs. This is separate from the optional Remnant website rebuild notification.
+
+- Only already-published, non-human-reviewed article/language pairs with a changed translation fingerprint qualify. New articles, new languages, withdrawn source articles and compatible publications are excluded
+- Each request contains an exact article set and expected source fingerprints for **one issue and one language**. It cannot expand into the rest of an issue or corpus when accepted
+- Translation and review use **gpt-5-mini**, with a **$10 maximum per issue-language refresh campaign**, covering all bounded stages. This is a per-campaign cap, not a shared lifetime or daily cap; another new source version or another published language can authorize a separate capped campaign. The collector queues at most five new refresh requests per initial discovery tick; previously queued work remains subject to the normal acceptance and batch limits
+- Existing active work and pending overlapping manual requests take precedence. All task history and immutable refresh requests prevent automatically retrying the same source fingerprint, including prior failed, cancelled or budget-blocked work and source-version rollbacks. A failed version requires an explicit manual retry/review
+- If the source changes again before a queued refresh is accepted, that old fingerprint is skipped; a later discovery may authorize the new one. If source changes during active work, the next collector can refresh the newer version after that work finishes
+- A failed refresh preserves the last good files and provenance; only current-source-compatible publications are exported. Human-reviewed translations stay protected
+
+Merging with this policy enabled allows the next collector to refresh eligible stale publications without another manual translation request. Setting `enabled` to `false` prevents new automatic requests and pauses unaccepted automatic requests; already-accepted campaigns remain durable authorized work and must be cancelled explicitly if desired. Campaign records freeze the policy, exact source selection, spending reservations and reported usage for audit. Tests and CI never submit real paid work.
 
 ## Recovery and cancellation
 

@@ -1,7 +1,7 @@
 """Bounded in-run pickup for already-authorized Batch work.
 
-The runner remains the single state writer. This does not create campaigns,
-replace the provider's Batch completion window, or promise a cron deadline.
+The runner remains the single state writer. This grants no new spending scope,
+does not replace the provider's Batch completion window or promise a cron deadline.
 """
 from __future__ import annotations
 import time

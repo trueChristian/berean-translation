@@ -48,6 +48,21 @@ class Config:
                 raise ContractError('Runtime size/count limits must be positive integers')
         if self.runtime.get('automatic_new_translation') is not False:
             raise ContractError('Automatic new paid campaigns are outside the manual-authorization contract')
+        refresh = self.runtime.get('automatic_source_refresh', {'enabled': False})
+        if not isinstance(refresh, dict) or type(refresh.get('enabled')) is not bool:
+            raise ContractError('Automatic source refresh must have a boolean enabled setting')
+        if refresh['enabled'] or set(refresh) != {'enabled'}:
+            if set(refresh) != {'enabled', 'model', 'review_model', 'budget_usd', 'max_campaigns_per_tick'}:
+                raise ContractError('Invalid automatic source refresh policy fields')
+            if any(refresh.get(field) != 'gpt-5-mini' for field in ('model', 'review_model')):
+                raise ContractError('Automatic source refresh requires gpt-5-mini translation and review')
+            self.model(refresh['model']); self.model(refresh['review_model'])
+            budget = refresh.get('budget_usd')
+            if type(budget) not in (int, float) or not math.isfinite(budget) or not 0 < budget <= min(10, self.runtime['max_campaign_usd']):
+                raise ContractError('Automatic source refresh budget must be positive and at most $10 per campaign')
+            limit = refresh.get('max_campaigns_per_tick')
+            if type(limit) is not int or not 1 <= limit <= 5:
+                raise ContractError('Automatic source refresh permits at most five campaigns per discovery tick')
         if self.runtime['max_translation_attempts'] != 2:
             raise ContractError('Exactly two translation attempts are the hard limit')
         if self.runtime['quality_threshold'] != 95:

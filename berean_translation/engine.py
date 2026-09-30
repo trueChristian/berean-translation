@@ -1,6 +1,6 @@
 """Resumable, cost-bounded translation state machine.
 
-Manual requests are immutable queue entries. Only the serialized worker mutates
+Manual and authorized source-refresh requests are immutable queue entries. Only the serialized worker mutates
 campaign/task/batch records. Checkpoints precede every potentially billable
 Batch creation. Uncertain submissions are reconciled, never blindly retried.
 """
@@ -15,6 +15,7 @@ from .common import (ContractError, canonical, csv_values, digest, json_hash, lo
                      positive_money, read_json, write_text)
 from .html import notice, validate_translation
 from .requests import accepted_review, build_request, parse_response
+from .refresh import enqueue_source_refreshes
 from .state import State, TERMINAL
 
 BATCH_TERMINAL = {'completed','failed','expired','cancelled'}
@@ -98,14 +99,52 @@ class Engine:
         dry_run = request.get('dry_run',False)
         if type(retry) is not bool or type(dry_run) is not bool:
             raise ContractError('Request dry_run and retry_failed must be booleans')
+        refresh = request.get('source_refresh',False)
+        if type(refresh) is not bool:
+            raise ContractError('Request source_refresh must be a boolean')
         selected = self.select_issues(request.get('issues','next'),languages,operation,retry)
         source_index = self.state.read('state/source.json')
+        refresh_ids, refresh_keys = None, None
+        if refresh:
+            policy = self.config.runtime.get('automatic_source_refresh',{})
+            if (not policy.get('enabled') or operation != 'translate' or len(languages) != 1
+                    or len(selected) != 1 or retry or dry_run
+                    or model != policy['model'] or review_model != policy['review_model']
+                    or budget > policy['budget_usd']):
+                raise ContractError('Source refresh must follow the enabled one-issue/language model and budget policy')
+            refresh_ids = request.get('article_ids')
+            refresh_keys = request.get('source_translation_keys')
+            if (not isinstance(refresh_ids,list) or not refresh_ids
+                    or not all(isinstance(item,str) for item in refresh_ids)
+                    or len(refresh_ids) != len(set(refresh_ids))
+                    or not isinstance(refresh_keys,dict) or set(refresh_keys) != set(refresh_ids)
+                    or not all(isinstance(key,str) and re.fullmatch(r'[a-f0-9]{64}',key)
+                               for key in refresh_keys.values())):
+                raise ContractError('Source refresh requires exact article identities and source fingerprints')
+            if len(refresh_ids) > self.config.runtime['max_tasks_per_request']:
+                raise ContractError('Source refresh group exceeds max_tasks_per_request; no automatic splitting or spending is allowed')
+            if any(identity not in source_index['articles'] or
+                   source_index['articles'][identity]['issue_id'] != selected[0] for identity in refresh_ids):
+                raise ContractError('Source refresh articles must still belong to the selected issue')
+        elif 'article_ids' in request or 'source_translation_keys' in request:
+            raise ContractError('Exact source-refresh selection fields require source_refresh=true')
         articles = sorted((a for a in source_index['articles'].values() if a['issue_id'] in selected),
                           key=lambda a:(selected.index(a['issue_id']),a['sequence'],a['id']))
+        if refresh:
+            articles = [a for a in articles if a['id'] in refresh_ids]
+        attempted = {(t['language'],t['article_id'],t['translation_key']) for t in self.state.tasks()} if refresh else set()
         planned, skipped = [],[]
         for article in articles:
             for language in languages:
                 allowed, reason = self.eligible(article,language,operation,retry)
+                if refresh:
+                    pub = self.state.record(language,article['id']).get('published')
+                    if not pub:
+                        allowed, reason = False,'source_refresh_requires_existing_publication'
+                    elif article['translation_key'] != refresh_keys[article['id']]:
+                        allowed, reason = False,'source_changed_after_refresh_request'
+                    elif (language,article['id'],article['translation_key']) in attempted:
+                        allowed, reason = False,'source_fingerprint_already_attempted'
                 (planned if allowed else skipped).append({'article_id':article['id'],'language':language,'reason':reason})
         if len(planned) > self.config.runtime['max_tasks_per_request']:
             raise ContractError('Selection exceeds max_tasks_per_request; choose fewer issues/languages')
@@ -121,6 +160,9 @@ class Engine:
                     'max_output_tokens':self.config.runtime['max_output_tokens'],
                     'review_output_tokens':self.config.runtime['review_output_tokens'],
                     'quality_threshold':self.config.runtime['quality_threshold']}
+        if refresh:
+            campaign.update(source_refresh=True,source_translation_keys=copy.deepcopy(refresh_keys),
+                            refresh_policy=copy.deepcopy(self.config.runtime['automatic_source_refresh']))
         self.state.save_campaign(campaign)
         if dry_run:
             # Selection preview is free; no tasks are reserved and no API objects are created.
@@ -172,6 +214,8 @@ class Engine:
                 break
             if request.get('id') != path.stem:
                 raise ContractError('Queue filename and identity mismatch')
+            if request.get('source_refresh') is True and not self.config.runtime.get('automatic_source_refresh',{}).get('enabled'):
+                continue  # Disabling the policy pauses unaccepted automatic requests.
             try:
                 self.accept_request(request)
             except ContractError as exc:
@@ -520,6 +564,7 @@ class Engine:
         self.state.sync_human_reviews(self.gitstore)
         if discover_source:
             self.discover()
+            enqueue_source_refreshes(self)
         self.accept_queue()
         self.collect()
         self.prepare()
