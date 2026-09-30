@@ -172,3 +172,10 @@ Tests use artificial articles and simulated API responses, including failures an
 `python -m berean_translation discover --check-only` is a read-only live compatibility check, not a translation. Production collection is `python -m berean_translation tick --publish` on `main`; it requires an authenticated origin push path and an API key for already-authorized paid work. The CLI rejects real-key collection or maintenance without `--publish`: local-only mode is for tests and credential-free discovery, not production submission.
 
 See [AGENTS.md](AGENTS.md) for agent instructions and [the runtime contract](docs/runtime-contract.md) for invariants. Initial structural tests do not establish real theological translation quality; conduct a small representative, human-reviewed trial before authorizing a large multilingual campaign.
+
+## Remnant rebuild notifications
+
+An optional, disabled-by-default source-publication hook can request a rebuild of
+`remnant.truechristian.church` after validated display output changes. See
+[notification setup and recovery](docs/remnant-notifications.md) for the trusted
+publishing path, destination-scoped credential requirements, and offline tests.
