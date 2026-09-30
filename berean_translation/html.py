@@ -3,8 +3,9 @@ from __future__ import annotations
 import html
 import re
 import unicodedata
-from collections import Counter
+from collections import Counter, defaultdict
 from html.parser import HTMLParser
+from itertools import zip_longest
 from urllib.parse import urlsplit
 from .common import ContractError
 
@@ -22,10 +23,15 @@ class Fragment(HTMLParser):
         self.article_id = article_id
         self.stack = []
         self.signature = []
+        self.signature_paths = []
+        self.path_stack = []
+        self.child_counts = [Counter()]
         self.text_parts = []
+        self.text_by_block = defaultdict(list)
         self.images = []
         self.nonempty_blocks = []
         self.block_stack = []
+        self.block_paths = []
         self.roots = 0
         self.feed(text)
         self.close()
@@ -69,11 +75,17 @@ class Fragment(HTMLParser):
             self.images.append(pairs)
         # Textual accessibility attributes can be translated, but not added/removed.
         signature_attrs = [(key, '<translated>' if key in ('alt','title') else value) for key,value in attrs]
+        self.child_counts[-1][tag] += 1
+        path = (self.path_stack[-1] if self.path_stack else '') + f'/{tag}[{self.child_counts[-1][tag]}]'
         self.signature.append(('start', tag, tuple(sorted(signature_attrs))))
+        self.signature_paths.append(path)
         if tag in BLOCKS:
             self.block_stack.append([len(self.signature), False])
+            self.block_paths.append(path)
         if tag not in VOID:
             self.stack.append(tag)
+            self.path_stack.append(path)
+            self.child_counts.append(Counter())
 
     def handle_startendtag(self, tag, attrs):
         self.handle_starttag(tag, attrs)
@@ -85,13 +97,19 @@ class Fragment(HTMLParser):
             raise ContractError(f'Malformed HTML closing tag: {tag}')
         self.stack.pop()
         self.signature.append(('end', tag))
+        self.signature_paths.append(self.path_stack.pop())
+        self.child_counts.pop()
         if tag in BLOCKS:
             self.nonempty_blocks.append(tuple(self.block_stack.pop()))
+            self.block_paths.pop()
 
     def handle_data(self, data):
         if not self.stack and data.strip():
             raise ContractError('Text outside article')
         self.text_parts.append(data)
+        if self.stack:
+            path = self.block_paths[-1] if self.block_paths else self.path_stack[0]
+            self.text_by_block[path].append(data)
         if data.strip():
             for block in self.block_stack:
                 block[1] = True
@@ -104,6 +122,8 @@ class Fragment(HTMLParser):
         # Existing archive audit notes are inert metadata, never translated text
         # or instructions. Their exact content and position are immutable.
         self.signature.append(('comment', data))
+        self.child_counts[-1]['comment()'] += 1
+        self.signature_paths.append(self.path_stack[-1] + f'/comment()[{self.child_counts[-1]["comment()"]}]')
 
     def handle_decl(self, decl):
         raise ContractError('Document declarations are forbidden')
@@ -116,10 +136,68 @@ class Fragment(HTMLParser):
         return ' '.join(self.text_parts)
 
 
+REFERENCE_NUMBER = re.compile(r'\b\d+\s*:\s*\d+(?:\s*[-–—]\s*\d+)?')
+EXPLICIT_CLOCK = re.compile(
+    r'(?<![\w:\-–—])(?P<hour>1[0-2]|0?[1-9])'
+    r'(?::(?P<minute>[0-5][0-9]))?\s*(?P<period>[ap])\.?\s*m\.?(?!\w)', re.I)
+# These are positive clock cues, not a list of Bible books to exclude. Unknown
+# or bare colon expressions remain protected, even when they look like times.
+CLOCK_PREFIX = re.compile(r'(?<!\w)(?:at|around|about|om|omstreeks)\s*$', re.I)
+CLOCK_SUFFIX = re.compile(r'^\s*(?:uur|hours?|o[’\']clock)(?!\w)', re.I)
+
+
+def decimal_digits(text: str) -> str:
+    return ''.join(str(unicodedata.decimal(c)) if c.isdecimal() else c for c in text)
+
+
+def reference_value(value: str) -> str:
+    return re.sub(r'\s+', '', value).replace('–','-').replace('—','-')
+
+
 def reference_numbers(text: str) -> Counter:
-    normalized = ''.join(str(unicodedata.decimal(c)) if c.isdecimal() else c for c in text)
-    return Counter(re.sub(r'\s+', '', value).replace('–','-').replace('—','-')
-                   for value in re.findall(r'\b\d+\s*:\s*\d+(?:\s*[-–—]\s*\d+)?', normalized))
+    # Without an authoritative source, never guess that a colon number is a clock.
+    return Counter(reference_value(match.group()) for match in REFERENCE_NUMBER.finditer(decimal_digits(text)))
+
+
+def clock_mentions(text: str, *, localized: bool = False) -> list:
+    mentions = []
+    for match in EXPLICIT_CLOCK.finditer(text):
+        hour = int(match['hour']) % 12 + (12 if match['period'].lower() == 'p' else 0)
+        mentions.append((match.start(), match.end(), (hour, int(match['minute'] or 0))))
+    if localized:
+        for match in REFERENCE_NUMBER.finditer(text):
+            # A range is always a protected reference. Do not match a prefix of
+            # one, accept impossible clock values, or reuse an explicit clock.
+            if not re.fullmatch(r'(?:[01]?[0-9]|2[0-3]):[0-5][0-9]', match.group()):
+                continue
+            if any(start <= match.start() and match.end() <= end for start,end,_ in mentions):
+                continue
+            if CLOCK_PREFIX.search(text[:match.start()]) or CLOCK_SUFFIX.match(text[match.end():]):
+                mentions.append((match.start(), match.end(), tuple(map(int, match.group().split(':')))))
+    return mentions
+
+
+def protected_reference_numbers(original: str, translated: str) -> tuple[Counter, Counter]:
+    original, translated = decimal_digits(original), decimal_digits(translated)
+    source_clocks = clock_mentions(original)
+    target_clocks = clock_mentions(translated, localized=True)
+    # Only a complete, one-to-one equivalent set of explicit source clocks can
+    # justify exemptions in the corresponding HTML block. Extra copies, wrong
+    # times, and clocks elsewhere in the article cannot consume a reference.
+    if not source_clocks or Counter(x[2] for x in source_clocks) != Counter(x[2] for x in target_clocks):
+        return reference_numbers(original), reference_numbers(translated)
+
+    def without_clocks(text, clocks):
+        return Counter(reference_value(match.group()) for match in REFERENCE_NUMBER.finditer(text)
+                       if not any(start <= match.start() and match.end() <= end for start,end,_ in clocks))
+
+    return without_clocks(original, source_clocks), without_clocks(translated, target_clocks)
+
+
+def describe_reference_difference(original: Counter, translated: Counter) -> str:
+    def describe(values):
+        return ', '.join(f'{value} (x{count})' if count > 1 else value for value,count in sorted(values.items())) or 'none'
+    return f'missing: {describe(original - translated)}; extra: {describe(translated - original)}'
 
 
 def validate_translation(source: dict, candidate: dict) -> Fragment:
@@ -130,11 +208,22 @@ def validate_translation(source: dict, candidate: dict) -> Fragment:
     original = Fragment(source['html'], source['article']['id'])
     translated = Fragment(candidate['html'], source['article']['id'])
     if original.signature != translated.signature:
-        raise ContractError('HTML structure, IDs, links, or immutable attributes changed')
+        for index,(left,right) in enumerate(zip_longest(original.signature, translated.signature)):
+            if left != right:
+                left_path = original.signature_paths[index] if left is not None else '<end>'
+                right_path = translated.signature_paths[index] if right is not None else '<end>'
+                raise ContractError('HTML structure, IDs, links, or immutable attributes changed; '
+                                    f'first difference at signature[{index}]: '
+                                    f'source {left_path} {repr(left)[:240]}; '
+                                    f'translation {right_path} {repr(right)[:240]}')
     if original.nonempty_blocks != translated.nonempty_blocks:
         raise ContractError('A substantive block was emptied or inserted')
-    if reference_numbers(original.text) != reference_numbers(translated.text):
-        raise ContractError('Scripture chapter/verse numbers or ranges changed')
+    for path in dict.fromkeys([*original.text_by_block, *translated.text_by_block]):
+        left, right = protected_reference_numbers(' '.join(original.text_by_block.get(path, [])),
+                                                 ' '.join(translated.text_by_block.get(path, [])))
+        if left != right:
+            raise ContractError(f'Scripture chapter/verse numbers or ranges changed at {path}; '
+                                + describe_reference_difference(left, right))
     if not translated.text.strip():
         raise ContractError('Translation has no text')
     for left, right in zip(original.images, translated.images):
