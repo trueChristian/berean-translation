@@ -2,11 +2,11 @@
 
 Generated from the pinned source catalogue and durable work records. No API call is made by this report.
 
-Observed English revision: `6af08032b5e2a92ff0671605fb89dffa06780892`
+Observed English revision: `9d63582fba97d9f34c3c05d2e95b35dc67b3c042`
 
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `heartbeat-remnant-2024-summer` | 10 | 5 / 200 | 0 | 5 | 0 |
+| `heartbeat-remnant-2024-summer` | 10 | 4 / 200 | 0 | 5 | 1 |
 | `heartbeat-remnant-2024-spring` | 11 | 0 / 220 | 0 | 0 | 0 |
 | `heartbeat-remnant-2024-winter` | 11 | 0 / 220 | 0 | 0 | 0 |
 | `heartbeat-remnant-2023-summer` | 13 | 0 / 260 | 0 | 0 | 0 |
@@ -63,31 +63,33 @@ Observed English revision: `6af08032b5e2a92ff0671605fb89dffa06780892`
 | `heartbeat-remnant-2008-04` | 10 | 0 / 200 | 0 | 0 | 0 |
 | `heartbeat-remnant-2008-01` | 13 | 0 / 260 | 0 | 0 | 0 |
 | `heartbeat-remnant-2007-07` | 12 | 0 / 240 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-04` | 12 | 0 / 240 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-01` | 13 | 0 / 260 | 0 | 0 | 0 |
 
 ## Language readiness
 
 | Language | Ready / source articles | Human reviewed | Active candidates | Not-ready candidates | Corrected candidates |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 0 / 646 | 0 | 0 | 0 | 0 |
-| `hin` (hi) | 0 / 646 | 0 | 0 | 0 | 0 |
-| `spa` (es) | 0 / 646 | 0 | 0 | 0 | 0 |
-| `ara` (ar) | 0 / 646 | 0 | 0 | 0 | 0 |
-| `fra` (fr) | 0 / 646 | 0 | 0 | 0 | 0 |
-| `ben` (bn) | 0 / 646 | 0 | 0 | 0 | 0 |
-| `por` (pt) | 0 / 646 | 0 | 0 | 0 | 0 |
-| `ind` (id) | 0 / 646 | 0 | 0 | 0 | 0 |
-| `urd` (ur) | 0 / 646 | 0 | 0 | 0 | 0 |
-| `rus` (ru) | 0 / 646 | 0 | 0 | 0 | 0 |
-| `deu` (de) | 0 / 646 | 0 | 0 | 0 | 0 |
-| `nld` (nl) | 0 / 646 | 0 | 0 | 0 | 0 |
-| `afr` (af) | 5 / 646 | 0 | 0 | 5 | 5 |
-| `swa` (sw) | 0 / 646 | 0 | 0 | 0 | 0 |
-| `kor` (ko) | 0 / 646 | 0 | 0 | 0 | 0 |
-| `ita` (it) | 0 / 646 | 0 | 0 | 0 | 0 |
-| `heb` (he) | 0 / 646 | 0 | 0 | 0 | 0 |
-| `ell` (el) | 0 / 646 | 0 | 0 | 0 | 0 |
-| `swe` (sv) | 0 / 646 | 0 | 0 | 0 | 0 |
-| `nob` (nb) | 0 / 646 | 0 | 0 | 0 | 0 |
+| `cmn` (zh-Hans) | 0 / 671 | 0 | 0 | 0 | 0 |
+| `hin` (hi) | 0 / 671 | 0 | 0 | 0 | 0 |
+| `spa` (es) | 0 / 671 | 0 | 0 | 0 | 0 |
+| `ara` (ar) | 0 / 671 | 0 | 0 | 0 | 0 |
+| `fra` (fr) | 0 / 671 | 0 | 0 | 0 | 0 |
+| `ben` (bn) | 0 / 671 | 0 | 0 | 0 | 0 |
+| `por` (pt) | 0 / 671 | 0 | 0 | 0 | 0 |
+| `ind` (id) | 0 / 671 | 0 | 0 | 0 | 0 |
+| `urd` (ur) | 0 / 671 | 0 | 0 | 0 | 0 |
+| `rus` (ru) | 0 / 671 | 0 | 0 | 0 | 0 |
+| `deu` (de) | 0 / 671 | 0 | 0 | 0 | 0 |
+| `nld` (nl) | 0 / 671 | 0 | 0 | 0 | 0 |
+| `afr` (af) | 4 / 671 | 0 | 0 | 5 | 5 |
+| `swa` (sw) | 0 / 671 | 0 | 0 | 0 | 0 |
+| `kor` (ko) | 0 / 671 | 0 | 0 | 0 | 0 |
+| `ita` (it) | 0 / 671 | 0 | 0 | 0 | 0 |
+| `heb` (he) | 0 / 671 | 0 | 0 | 0 | 0 |
+| `ell` (el) | 0 / 671 | 0 | 0 | 0 | 0 |
+| `swe` (sv) | 0 / 671 | 0 | 0 | 0 | 0 |
+| `nob` (nb) | 0 / 671 | 0 | 0 | 0 | 0 |
 
 ## Issue / language work
 
@@ -95,7 +97,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 
 | Issue | Language | Ready / articles | Human reviewed | Active | Not ready | Proposals |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
-| `heartbeat-remnant-2024-summer` | `afr` | 5 / 10 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2024-summer` | `afr` | 4 / 10 | 0 | 0 | 5 | 0 |
 
 ## Campaigns
 

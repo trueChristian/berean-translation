@@ -143,13 +143,13 @@
       "section": "Gedig",
       "source_revision": "2ae95fda39469ef52a72279047745b6a5e870c0b",
       "source_translation_key": "37a857029f09f62dd90f027f2e63470f927d9f310ba6c3ebc9a8fab36434b0c6",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Sta op, wees bly",
       "translation_model": "gpt-5-mini-2025-08-07"
     }
   ],
   "format_version": "1.0",
-  "observed_source_revision": "6af08032b5e2a92ff0671605fb89dffa06780892",
+  "observed_source_revision": "9d63582fba97d9f34c3c05d2e95b35dc67b3c042",
   "source_repository": "trueChristian/berean-voice"
 }
