@@ -2,7 +2,7 @@
 
 Generated from the pinned source catalogue and durable work records. No API call is made by this report.
 
-Observed English revision: `e2d43a96b5d22ccd98b4842f332c7247f2b63c30`
+Observed English revision: `6af08032b5e2a92ff0671605fb89dffa06780892`
 
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
@@ -62,31 +62,32 @@ Observed English revision: `e2d43a96b5d22ccd98b4842f332c7247f2b63c30`
 | `heartbeat-remnant-2008-special-edition` | 9 | 0 / 180 | 0 | 0 | 0 |
 | `heartbeat-remnant-2008-04` | 10 | 0 / 200 | 0 | 0 | 0 |
 | `heartbeat-remnant-2008-01` | 13 | 0 / 260 | 0 | 0 | 0 |
+| `heartbeat-remnant-2007-07` | 12 | 0 / 240 | 0 | 0 | 0 |
 
 ## Language readiness
 
 | Language | Ready / source articles | Human reviewed | Active candidates | Not-ready candidates | Corrected candidates |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 0 / 634 | 0 | 0 | 0 | 0 |
-| `hin` (hi) | 0 / 634 | 0 | 0 | 0 | 0 |
-| `spa` (es) | 0 / 634 | 0 | 0 | 0 | 0 |
-| `ara` (ar) | 0 / 634 | 0 | 0 | 0 | 0 |
-| `fra` (fr) | 0 / 634 | 0 | 0 | 0 | 0 |
-| `ben` (bn) | 0 / 634 | 0 | 0 | 0 | 0 |
-| `por` (pt) | 0 / 634 | 0 | 0 | 0 | 0 |
-| `ind` (id) | 0 / 634 | 0 | 0 | 0 | 0 |
-| `urd` (ur) | 0 / 634 | 0 | 0 | 0 | 0 |
-| `rus` (ru) | 0 / 634 | 0 | 0 | 0 | 0 |
-| `deu` (de) | 0 / 634 | 0 | 0 | 0 | 0 |
-| `nld` (nl) | 0 / 634 | 0 | 0 | 0 | 0 |
-| `afr` (af) | 5 / 634 | 0 | 0 | 5 | 5 |
-| `swa` (sw) | 0 / 634 | 0 | 0 | 0 | 0 |
-| `kor` (ko) | 0 / 634 | 0 | 0 | 0 | 0 |
-| `ita` (it) | 0 / 634 | 0 | 0 | 0 | 0 |
-| `heb` (he) | 0 / 634 | 0 | 0 | 0 | 0 |
-| `ell` (el) | 0 / 634 | 0 | 0 | 0 | 0 |
-| `swe` (sv) | 0 / 634 | 0 | 0 | 0 | 0 |
-| `nob` (nb) | 0 / 634 | 0 | 0 | 0 | 0 |
+| `cmn` (zh-Hans) | 0 / 646 | 0 | 0 | 0 | 0 |
+| `hin` (hi) | 0 / 646 | 0 | 0 | 0 | 0 |
+| `spa` (es) | 0 / 646 | 0 | 0 | 0 | 0 |
+| `ara` (ar) | 0 / 646 | 0 | 0 | 0 | 0 |
+| `fra` (fr) | 0 / 646 | 0 | 0 | 0 | 0 |
+| `ben` (bn) | 0 / 646 | 0 | 0 | 0 | 0 |
+| `por` (pt) | 0 / 646 | 0 | 0 | 0 | 0 |
+| `ind` (id) | 0 / 646 | 0 | 0 | 0 | 0 |
+| `urd` (ur) | 0 / 646 | 0 | 0 | 0 | 0 |
+| `rus` (ru) | 0 / 646 | 0 | 0 | 0 | 0 |
+| `deu` (de) | 0 / 646 | 0 | 0 | 0 | 0 |
+| `nld` (nl) | 0 / 646 | 0 | 0 | 0 | 0 |
+| `afr` (af) | 5 / 646 | 0 | 0 | 5 | 5 |
+| `swa` (sw) | 0 / 646 | 0 | 0 | 0 | 0 |
+| `kor` (ko) | 0 / 646 | 0 | 0 | 0 | 0 |
+| `ita` (it) | 0 / 646 | 0 | 0 | 0 | 0 |
+| `heb` (he) | 0 / 646 | 0 | 0 | 0 | 0 |
+| `ell` (el) | 0 / 646 | 0 | 0 | 0 | 0 |
+| `swe` (sv) | 0 / 646 | 0 | 0 | 0 | 0 |
+| `nob` (nb) | 0 / 646 | 0 | 0 | 0 | 0 |
 
 ## Issue / language work
 
