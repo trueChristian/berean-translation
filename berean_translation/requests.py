@@ -28,8 +28,15 @@ def build_request(config, state, task):
     payload = {'target_language':lang['name'],'language_tag':lang['tag'],'language_guidance':lang['guidance'],
                'terminology_glossary':campaign['glossaries'].get(task['language'],{}),
                'source':{'html':source['html'], 'title':source['article'].get('title'),
-                         'subtitle':source['article'].get('subtitle'),'section':source['article'].get('section'),
-                         'byline':source['article'].get('byline')}}
+                         'subtitle':source['article'].get('subtitle'),'section':source['article'].get('section')}}
+    byline = source['article'].get('byline')
+    if campaign.get('prompt_version') in (None, '1.0.0', '1.0.1'):
+        # Preserve the request contract paired with historical frozen prompts.
+        payload['source']['byline'] = byline
+    else:
+        # Attribution outside source HTML is context, rendered separately from
+        # English by the website. It is deliberately outside translatable fields.
+        payload['source_context'] = {'byline':byline}
     if review or task['stage'] == 'correct':
         payload['translation'] = state.candidate(task)
     if task['stage'] == 'correct':
@@ -56,26 +63,43 @@ def build_request(config, state, task):
 
 
 def parse_response(row: dict, maximum_bytes: int) -> tuple[dict,dict]:
-    if row.get('error') or not isinstance(row.get('response'),dict):
-        code = (row.get('error') or {}).get('code','missing_response')
+    if not isinstance(row,dict):
+        raise ContractError('Batch result row must be an object')
+    error = row.get('error')
+    if error is not None and not isinstance(error,dict):
+        raise ContractError('Batch request error must be an object or null')
+    if error is not None or not isinstance(row.get('response'),dict):
+        code = (error or {}).get('code','missing_response')
         raise ContractError(f'Batch request failed: {code}')
     response = row['response']
     if response.get('status_code') != 200:
         raise ContractError(f'Batch request HTTP status {response.get("status_code")}')
     body = response.get('body',{})
+    if not isinstance(body,dict):
+        raise ContractError('Batch response body must be an object')
     choices = body.get('choices',[])
-    if len(choices) != 1 or choices[0].get('finish_reason') != 'stop':
+    if (not isinstance(choices,list) or len(choices) != 1 or not isinstance(choices[0],dict)
+            or choices[0].get('finish_reason') != 'stop'):
         raise ContractError('Missing, ambiguous, or truncated model response')
     message = choices[0].get('message',{})
+    if not isinstance(message,dict):
+        raise ContractError('Model response message must be an object')
     if message.get('refusal') or not isinstance(message.get('content'),str):
         raise ContractError('Model refused or did not return a textual structured result')
-    if len(message['content'].encode('utf-8')) > maximum_bytes:
+    try:
+        content_bytes = message['content'].encode('utf-8')
+    except UnicodeError as exc:
+        raise ContractError('Model result contains invalid Unicode') from exc
+    if len(content_bytes) > maximum_bytes:
         raise ContractError('Model result exceeds configured safety limit')
     data = loads(message['content'])
     if not isinstance(data,dict) or not isinstance(body.get('model'),str) or not body['model']:
         raise ContractError('Structured result or actual model identity is missing')
+    usage = body.get('usage')
+    if usage is not None and not isinstance(usage,dict):
+        raise ContractError('Model usage must be an object or null')
     provenance = {'model':body['model'],'request_id':response.get('request_id'),
-                  'response_id':body.get('id'),'usage':body.get('usage',{})}
+                  'response_id':body.get('id'),'usage':usage or {}}
     return data,provenance
 
 
