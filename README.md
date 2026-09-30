@@ -16,7 +16,7 @@ The collector still respects manual language/issue selections, paid-work budgets
 2. Enable GitHub Actions. The request and collector workflows need `contents: write` in this repository. The workflow files request it explicitly; organization policy or a protected `main` may still prevent the standard Actions token from making the runtime commits. Configure an appropriate permitted automation path rather than disabling protections indiscriminately. No personal token is needed for the supplied public English archive.
 3. Run **AI — Collect and discover**, operation **collect**, from `main`. This discovers the current English issues and generates [STATUS.md](STATUS.md). It does not start a paid campaign by itself; discovery also works before the OpenAI key is added.
 4. Run **AI — OpenAI** from `main`. Select a language, **next** issue, translation and review models, and a USD budget. Leave **dry_run** checked for a free selection preview. The request is stored immediately; the collector resolves it and records the selection under `state/campaigns/gh-<run-id>.json`.
-5. Submit a new manual run with **dry_run** unchecked when ready to translate. The collector starts after a successful request workflow and also runs hourly. Later collector runs retrieve completed batches, submit the bounded review/correction stages and publish passed translations. The runner does not wait for an entire OpenAI batch window.
+5. Submit a new manual run with **dry_run** unchecked when ready to translate. The collector starts after a successful request workflow and has a best-effort 15-minute schedule. While submitted work remains, it polls every minute within a 10-minute window, collecting completed batches and submitting the bounded review/correction stages without waiting for another scheduled run. A later collector resumes anything still processing. The runner does not wait for an entire OpenAI batch window.
 
 A dry run is deliberately a selection preview, not a certified price quotation or a translation-quality assessment. Adding the API key later resumes any previously authorized, non-dry-run requests already in the queue. Inspect/cancel those requests before adding the key when their intent has changed.
 
@@ -100,7 +100,7 @@ state/batches/                Exact JSONL inputs, batch IDs and recovery state
 state/records/                Article/language identity, publication and review history
 state/sources/                Hash-verified pinned source snapshots
 state/source.json             Last discovered source issue/article catalogue
-state/heartbeat.json          Daily real source-discovery report
+state/heartbeat.json          Current meaningful source/work snapshot, refreshed at least daily
 index.json                    Generated website-facing translation catalogue
 STATUS.md                     Generated issue, language and campaign status
 ```
@@ -119,13 +119,15 @@ An **AI — Review** request can inspect a human-reviewed translation, but it ca
 
 ### New and changed English articles
 
-The hourly collector discovers new issues and articles automatically and makes them selectable. It also updates the observed source revision and identifies stale/withdrawn translations. **Discovery never authorizes paid work.** Use **next** or **outstanding** in a manual translation request for new eligible work.
+The scheduled collector discovers new issues and articles automatically and makes them selectable. It also updates the observed source revision and identifies stale/withdrawn translations. **Discovery never authorizes paid work.** Use **next** or **outstanding** in a manual translation request for new eligible work.
 
 The translation runtime computes source text, markup and translation-metadata fingerprints automatically; source editors never maintain them. Those local fingerprints govern compatibility. An image pixel replacement or unrelated category edit alone does not require retranslation. Relevant English changes mark older translations stale without deleting them or overwriting human corrections. Each requested campaign retains its exact source commit and source snapshots.
 
 ## Recovery and cancellation
 
-**No progress yet:** inspect the collector workflow and `STATUS.md`. A submitted OpenAI batch may still be processing. The worker checks status and exits; manually running **collect** is safe and does not create a duplicate campaign. Scheduled runs are subject to GitHub scheduling availability, not a guaranteed completion deadline.
+**No progress yet:** inspect the collector workflow and `STATUS.md`. A submitted OpenAI batch may still be processing. The worker polls active batches within its bounded window, then exits; idle runs exit immediately. Manually running **collect** is safe and does not create a duplicate campaign. Scheduled runs are subject to GitHub scheduling availability, not a guaranteed completion deadline. The single state-writer concurrency group is unchanged; a maintenance/cancellation run may wait for the active collector to finish. No new service, token, or synchronous model fallback is required.
+
+**Provider time versus collection delay:** new observations retain the provider's Unix lifecycle timestamps in `remote_*_at` and its request counts. `last_polled_at` records the last read attempt; `remote_observed_at` is the latest successful provider observation. `collected_at` is when this application collected terminal results; legacy `completed_at` remains a local-collection alias, never the provider completion time. Older records lacking provider timestamps cannot establish how much delay occurred at OpenAI versus waiting for a collector. Compare `remote_completed_at` with `collected_at` only when both exist; terminal failures/expiry/cancellation have their own provider timestamps. Read/download/reconciliation failures retain safe diagnostics and resume without creating replacement batches.
 
 **Missing API key:** discovery and durable selection still work, but no OpenAI request is sent. Add the repository secret after checking that queued paid requests are still intended.
 
@@ -137,7 +139,7 @@ The translation runtime computes source text, markup and translation-metadata fi
 
 **Git write failure:** the next external side effect is blocked until the preceding checkpoint is durable. The failure artifact retains local state for inspection. Check Actions write permission and `main` rules. Never force-push over concurrent work. An uncertain remote submission is recoverable using its already-pushed unique key even when the latest response checkpoint failed.
 
-The daily discovery report records actual observed source revision/counts and pending work; it is not a meaningless counter. Check Actions if the collector stops, including scheduled-workflow inactivity restrictions.
+The discovery/work report refreshes when its source or pending-work snapshot changes, as well as at least once per UTC day. A same-day campaign completion therefore updates pending work immediately. Check Actions if the collector stops, including scheduled-workflow inactivity restrictions.
 
 ## Website integration
 
@@ -169,7 +171,7 @@ python -m compileall -q berean_translation tests
 
 Tests use artificial articles and simulated API responses, including failures and lost acknowledgements. They do not produce genuine translations or spend money. The SDK resource-contract test needs the installed official SDK; it is skipped in offline environments without it. CI installs the dependency and checks it without a network model call. Real local bare-Git tests exercise durable checkpoints, concurrent enqueuers, conflicts and human-review attribution.
 
-`python -m berean_translation discover --check-only` is a read-only live compatibility check, not a translation. Production collection is `python -m berean_translation tick --publish` on `main`; it requires an authenticated origin push path and an API key for already-authorized paid work. The CLI rejects real-key collection or maintenance without `--publish`: local-only mode is for tests and credential-free discovery, not production submission.
+`python -m berean_translation discover --check-only` is a read-only live compatibility check, not a translation. Production collection is `python -m berean_translation tick --publish` on `main`; it requires an authenticated origin push path and an API key for already-authorized paid work. Add `--wait-seconds 600 --poll-seconds 60` for the workflow's bounded pickup behavior (default is still one tick). The initial tick counts toward the wait budget; a tick already in progress completes its durable checkpoints, so reserve extra time for API I/O and final validation. Waits are limited to 900 seconds and poll intervals to 30–300 seconds. All ticks in one window reuse the initial coherent English source scan. Unknown submissions do not keep a runner alive by themselves and are never blindly resubmitted. The CLI rejects real-key collection or maintenance without `--publish`: local-only mode is for tests and credential-free discovery, not production submission.
 
 See [AGENTS.md](AGENTS.md) for agent instructions and [the runtime contract](docs/runtime-contract.md) for invariants. Initial structural tests do not establish real theological translation quality; conduct a small representative, human-reviewed trial before authorizing a large multilingual campaign.
 
