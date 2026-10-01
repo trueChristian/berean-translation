@@ -76,7 +76,7 @@
     "model": "gpt-5-mini",
     "review_model": "gpt-5-mini"
   },
-  "reported_usage_usd": 0.0,
+  "reported_usage_usd": 0.00079787,
   "requested_by": "automatic-source-refresh",
   "reserved_usd": 0.017585,
   "review_model": "gpt-5-mini",
