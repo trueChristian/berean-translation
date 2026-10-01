@@ -2,6 +2,7 @@
   "article_id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
   "base_html_sha256": "0febbfd6c62bdf38bdc0db6890c4ae3e6c160143799d57cedd6484a3d0ca98af",
   "base_metadata_sha256": "a34ca53c257dc2931da6041aaa80b74de1124bd4620628853b9c9d3925789548",
+  "batch": "1802b1fbddfd47bd90e4489ac6c98698",
   "campaign": "refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267",
   "created_at": "2026-10-01T15:22:39+00:00",
   "events": [
@@ -68,11 +69,11 @@
     }
   },
   "protected": false,
-  "review_attempts": 0,
+  "review_attempts": 1,
   "review_model": "gpt-5-mini",
   "source_snapshot": "state/sources/c374cbceeb26da7749406004793e5eac872caec4a60c50378925ed40aec9487c.json",
   "stage": "review1",
-  "status": "queued",
+  "status": "in_batch",
   "translation_attempts": 1,
   "translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
