@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5ed699da-5220-4237-af2f-5a6908200843",
+    "response_id": "chatcmpl-EUGHCJArYGXg3BVVvuo5Do1E9G5wp",
+    "usage": {
+      "completion_tokens": 706,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1153,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1859
+    }
+  },
+  "received_at": "2026-10-01T19:02:18+00:00",
+  "result": {
+    "html": "<article data-article-id=\"eed66189-2caa-4bfb-9eaa-545562c7e9a6\">\n  <figure>\n    <img src=\"/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg\" alt=\"একটি ছোট নৌকা শান্ত জলের কিনারায় উজ্জ্বল সূর্যাস্তের সময়\" loading=\"lazy\">\n  </figure>\n\n  <div class=\"poem\">\n    <p><strong>উঠো, আনন্দ কর! ভোর চলে এসেছে!<br>\n    উৎসব কর ও গাও! রাত পার হয়েছে,<br>\n    উচ্চ থেকে দিনভোরের আলো ছড়ায়,<br>\n    মানুষের কাছে ঈশ্বরের করুণা নিকটে এসেছে!<br>\n    রাজাদের রাজাকে উপাসনা করো, প্রশংসা করো!<br>\n    কৃতজ্ঞতা জ্ঞাপন করো এবং গাও, আরও অনেক কিছু here—</strong></p>\n\n    <p><strong>উঠো এবং প্রভুকে মহিমা দাও!<br>\n    তাঁর যোগ্য নাম উচ্চবাষ্পে স্তব করো!<br>\n    তিনি প্রেমে আকাশ থেকে উদিত হচ্ছেন,<br>\n    ওপর থেকে আশীর্বাদ বুধিয়ে ছড়ান,<br>\n    তাঁর দয়া মানুষের কাছে নেমে আসে—<br>\n    আমাদের মহাবলশালী প্রভুকে বন্দনা ও গৌরব দাও!</strong></p>\n\n    <p><strong>খ্রীষ্ট আমাদের রাজাকে ধন্যবাদ জানাও ও গাও<br>\n    এবং ভক্তিপূর্ণ স্তব দিয়ে তাঁকে উপাসনা করো;<br>\n    ভয়ানক, পবিত্র ভয়ে নমো—<br>\n    ঈশ্বরের পবিত্রতা এখানে আছে;<br>\n    আশ্চর্যজনক সৌন্দর্যে হাঁটু গোড়াও—<br>\n    সর্বশক্তিমান রাজা রাজাদের বন্দনা করো!</strong></p>\n  </div>\n</article>\n",
+    "section": "কবিতা",
+    "subtitle": null,
+    "title": "উঠো, আনন্দ কর!"
+  }
+}
