@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1cbd0b77-715c-4600-96b5-8ddf7d0f01fc",
+    "response_id": "chatcmpl-EUGaLUHwdiTQCQitkmV4lC7ZymuZF",
+    "usage": {
+      "completion_tokens": 783,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1154,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1937
+    }
+  },
+  "received_at": "2026-10-01T20:28:44+00:00",
+  "result": {
+    "html": "<article data-article-id=\"eed66189-2caa-4bfb-9eaa-545562c7e9a6\">\n  <figure>\n    <img src=\"/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg\" alt=\"선명한 석양 속 잔잔한 물가에 있는 작은 배\" loading=\"lazy\">\n  </figure>\n\n  <div class=\"poem\">\n    <p><strong>일어나 기뻐하라! 새벽이 도래했도다!<br>\n    기뻐하며 노래하라! 밤은 지나갔고,<br>\n    동터 오는 빛이 높은 곳에서 비치며,<br>\n    하나님의 은혜가 사람들에게 가까이 왔도다!<br>\n    기뻐하여 만왕의 왕을 찬양하라!<br>\n    감사하며 찬양하라, 더 큰 은혜가 여기에 있도다!</strong></p>\n\n    <p><strong>일어나 주를 영화롭게 하라!<br>\n    그의 존귀하신 이름을 높이며 찬미하라!<br>\n    그는 사랑으로 하늘에서 비치시며,<br>\n    위로부터 복을 쏟아 부으시네,<br>\n    그의 자비가 사람들에게 닿도다-<br>\n    우리의 강한 주를 경배하고 찬양하라!</strong></p>\n\n    <p><strong>그리스도 우리 왕께 감사하고 노래하라<br>\n    경건한 찬양으로 그를 예배하라;<br>\n    두려움 가운데 엄숙히 엎드리라-<br>\n    하나님의 거룩하심이 여기 계시니;<br>\n    놀라운 아름다움 속에 무릎을 꿇고;<br>\n    전능하신 만왕의 왕을 경배하라!</strong></p>\n  </div>\n</article>\n",
+    "section": "시",
+    "subtitle": null,
+    "title": "일어나 기뻐하라"
+  }
+}
