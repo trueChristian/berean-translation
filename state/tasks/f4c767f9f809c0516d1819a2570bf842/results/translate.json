@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ad5abb20-02fd-439a-85c2-915573dd6c66",
+    "response_id": "chatcmpl-EUGgmxD8GQhema7H8pKNwWnmdlnmN",
+    "usage": {
+      "completion_tokens": 1179,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1712,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2891
+    }
+  },
+  "received_at": "2026-10-01T20:28:34+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a76ef013-7cf5-4e99-8312-3a9818d244ff\">\n  <figure>\n    <img src=\"/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg\" alt=\"Een kop koffie naast een spiraalnotitieboek en een potlood.\">\n  </figure>\n  <p class=\"drop-cap\">De urgentie van het laatste moment is iets waar veel huisvrouwen regelmatig mee te maken hebben. Hoe georganiseerd we ook zijn, soms stellen we taken uit omdat we ze niet graag doen of wachten we totdat we onder druk staan.</p>\n  <p>Chronisch uitstelgedrag kan leiden tot hogere stressniveaus. Misschien ben ik vreemd, maar het is voor mij moeilijk om kalm en beheerst te blijven wanneer de druk toeneemt. Tegen de tijd dat de laatste-minuut-dingen zijn afgehandeld, ben ik te uitgeput om van het geplande evenement te genieten.</p>\n  <h2>Tandpijn en autoritten</h2>\n  <p>Het is me een raadsel waarom een familielid net een dag of twee voordat we op reis gaan in een tandartsstoel belandt. Misschien is het niet zo vaak gebeurd als ik denk, maar de frustratie van een ongeplande tandartsafspraak op een ongunstig moment zit in mijn geheugen gegrift. Nu plan ik een denkbeeldige afspraak vóór een reis. Als het geen tandheelkundig noodgeval is, zal wel een ander probleem die tijdsperiode vullen.</p>\n  <p>Deadlines zijn een normaal onderdeel van het leven. Zonder deadlines zouden we ongemotiveerd zijn en zouden onze dagen doel missen. Onderbrekingen zijn ook een normaal onderdeel van het leven. Ze geven constant een onvoorspelbare wending aan onze dagen en weken. Als we te veel taken tot het laatste moment laten liggen, botsen onderbrekingen en deadlines en regeert chaos.</p>\n  <h2>Verander het laatste-minuut-scenario</h2>\n  <p>Deadlines en onderbrekingen kunnen niet worden geëlimineerd, maar we kunnen last-minute taken beperken. Soms is het nodig om eerlijk terug te kijken om te achterhalen wat onze stress veroorzaakte. Vaak geven we de schuld aan onderbrekingen en realiseren we ons niet dat slechte planning of uitstelgedrag de boosdoener kan zijn geweest.</p>\n  <p>Als bijvoorbeeld gasten komen en we van plan zijn ramen te wassen en een nagerecht te maken naast nog een dozijn andere taken op de dag van hun aankomst, is er geen ruimte voor verstoringen. Uit ervaring weten we dat onderbrekingen zullen komen. Dus is het niet beter om te “plannen” voor een bijensteek en het stoten van een teen?</p>\n  <p>Waarom ramenwassen en nagerecht niet op een andere dag inplannen? Dat kan betekenen dat er vingerafdrukken op de ramen blijven en dat het nagerecht eenvoudiger is, maar is dat niet beter dan veel stress op het laatste moment?</p>\n  <h2>Doe sommige taken van tevoren</h2>\n  <p>Vroeg op de dag besluiten wat te maken voor het avondeten en de luiertas van tevoren inpakken zijn kleine dingen die een groot verschil kunnen maken op het laatste moment. Toen onze kinderen klein waren, begon ik koffers een dag vóór een reis in te pakken in plaats van op de dag van vertrek. Ik kon beter omgaan met de laatste-minuut-haast als die taak uit de weg was.</p>\n  <h2>Doe de belangrijkste taken eerst</h2>\n  <p>Deze werkwijze geeft de vrijheid om taken van minder belang over te slaan wanneer de tijd krap is.</p>\n  <p>Soms is niet alles op de takenlijst even waardevol. Een taak laten vallen is moeilijk voor een perfectionist, maar het is mogelijk om nieuwe gewoonten te ontwikkelen.</p>\n  <h2>Breek werk in kleinere stukken</h2>\n  <p>Soms lijkt de omvang van een taak zo groot dat het te veel is om eraan te beginnen. Breek de grote taak in kleinere onderdelen. Het voltooien van een kleinere taak is veel beter te doen. Het grondig schoonmaken van mijn keuken is een taak die ik niet leuk vind. Als mijn planner zegt: “keuken grondig schoonmaken”, is het makkelijk te negeren.</p>\n  <p>Maar als mijn planner zegt: “apparaten schoonmaken, kasten uitvegen en ramen wassen”, lijkt het haalbaarder.</p>\n  <p>Er zijn zoveel vreugdevolle gebeurtenissen in het leven; waarom je laten hinderen door uitstelgedrag? Geef jezelf de vrijheid om anders te leven. Een paar kleine veranderingen kunnen het grootste verschil maken tussen een gezegend of gestrest laatste moment.</p>\n</article>\n",
+    "section": "SISTER TO SISTER",
+    "subtitle": null,
+    "title": "Uitstelgedrag Overbelast"
+  }
+}
