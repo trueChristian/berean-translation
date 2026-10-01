@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c4806194-8902-4c9b-9b75-ab39a7c4a306",
+    "response_id": "chatcmpl-EUGfd5PRPaMLtMwLgNd4crnkNiFgh",
+    "usage": {
+      "completion_tokens": 2098,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9233,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11331
+    }
+  },
+  "received_at": "2026-10-01T20:27:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>“It’s her drinking!” Her husband told me. “She is drinking more and more every night. She won’t go out except to get whiskey. She drinks till she passes out every night and has to have something every morning to get her started.”</p>",
+        "severity": "minor",
+        "source_quote": "“She won’t go out except to get whiskey.”",
+        "suggested_fix": "Translate or localize idiomatic phrasing to natural Kiswahili while preserving meaning. For example: replace “Haatoki mbali isipokuwa kupata whiskey.” with “Haatoki nje isipokuwa kuenda kununua whiskey.” (Preserve the surrounding <p>…</p> tag.)",
+        "translation_quote": "“Haatoki mbali isipokuwa kupata whiskey.”"
+      },
+      {
+        "location": "<p>When dealing with someone who drinks heavily, it is crucial that they don’t simply stop drinking without medical support. Abrupt cessation of alcohol use causes the body to go into withdrawal which can produce a state called Delirium Tremens and even seizures.</p>",
+        "severity": "major",
+        "source_quote": "Abrupt cessation of alcohol use causes the body to go into withdrawal which can produce a state called Delirium Tremens and even seizures.",
+        "suggested_fix": "Correct the Kiswahili medical terminology and preserve meaning. Replace the translated sentence text (inside the same <p> element) with: “Ni muhimu kwamba mtu anayekunywa pombe kwa wingi asilieache ghafla bila msaada wa matibabu. Kuacha ghafla matumizi ya pombe husababisha mwili kuingia katika dalili za kuondolewa ambazo zinaweza kusababisha hali inayoitwa Delirium Tremens na hata kifafa (seizures).”",
+        "translation_quote": "“Kuacha kabisa matumizi ya pombe husababisha mwili kuingia katika dalili za kuondolewa ambazo zinaweza kusababisha hali inayoitwa Delirium Tremens na hata kufichua (seizures).”"
+      },
+      {
+        "location": "<p>I sighed as I reentered her exam room. I had been afraid that I wouldn’t find anywhere for her to go.</p>",
+        "severity": "critical",
+        "source_quote": "I sighed as I reentered her exam room.",
+        "suggested_fix": "Remove the corrupted characters and restore correct Kiswahili text while preserving the <p> element. Replace the translation sentence with: “Nilipumua kwa msongo wa moyo niliporudi chumbani mwake wa ukaguzi.” (Preserve the surrounding <p>…</p> tag.)",
+        "translation_quote": "“Nilisonga kwa msongo wa kupumua nいやrorudi chumbani mwake wa ukaguzi.”"
+      },
+      {
+        "location": "Multiple paragraphs containing biblical quotations (e.g., Ecclesiastes 2:22,23; Ecclesiastes 4:13; Ecclesiastes 6:6; Jeremiah 7:27; 2 Timothy 4:3; Romans 5:3-5; Matthew 4:8)",
+        "severity": "critical",
+        "source_quote": "Full printed English quotations such as: “For what hath man of all his labour, and of the vexation of his heart, wherein he hath laboured under the sun? For all his days are sorrows, and his travail grief; yea, his heart taketh not rest in the night. This is also vanity.” (Ecclesiastes 2:22,23) and other scripture quotations exactly as printed in the English source.",
+        "suggested_fix": "The translated article must convey the printed English quotation text into Kiswahili (do not substitute a different Bible version or leave the English text verbatim). For each quoted Bible passage, replace the English lines with a Kiswahili rendering that accurately conveys the printed English wording while keeping the verse reference in parentheses. For example, in the <p> containing Ecclesiastes 2:22,23 replace the English quotation with a Kiswahili rendering that follows the printed English meaning and keep “(Ecclesiastes 2:22,23)” immediately after. Ensure all other scripture quotations in the article are likewise translated into Kiswahili that reflects the printed English phrasing. Preserve the existing <p> tags and surrounding punctuation.",
+        "translation_quote": "The translation currently leaves the quoted scripture verses in English (e.g., “For what hath man of all his labour… This is also vanity.” (Ecclesiastes 2:22,23) and others)."
+      },
+      {
+        "location": "<p>It seems there is little point of investing ourselves in the people around us. They are full of woe and are as likely to change as a chipmunk is to master differential calculus.</p>",
+        "severity": "minor",
+        "source_quote": "They are full of woe and are as likely to change as a chipmunk is to master differential calculus.",
+        "suggested_fix": "Localize the simile to a natural Kiswahili expression or provide a common animal name in Kiswahili. For example: replace “kama chipmunk akifanikisha hesabu tofauti” with “kama chipmunk (au jerboa/squirrel) akifanikiwa kujifunza hesabu ngumu,” or choose a commonly understood small mammal in Kiswahili. Keep the <p> element intact.",
+        "translation_quote": "“Wamejaa huzuni na wana uwezekano mdogo wa kubadilika kama chipmunk akifanikisha hesabu tofauti.”"
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}
