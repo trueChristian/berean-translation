@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "dfa5bc04-3ddc-4fbf-b8de-a7efae3e0e5f",
+    "response_id": "chatcmpl-EUGPI4lm3K6eojyXooZsrQT6WTpIx",
+    "usage": {
+      "completion_tokens": 639,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1154,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1793
+    }
+  },
+  "received_at": "2026-10-01T19:07:38+00:00",
+  "result": {
+    "html": "<article data-article-id=\"eed66189-2caa-4bfb-9eaa-545562c7e9a6\">\n  <figure>\n    <img src=\"/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg\" alt=\"סירה קטנה על שפת מים שקטים בשקיעה עזה\" loading=\"lazy\">\n  </figure>\n\n  <div class=\"poem\">\n    <p><strong>קום ושמח! כי השחר כאן!<br>\n    שמחו ושירו! הלילה חלף,<br>\n    זריחת היום זורחת מעלה,<br>\n    חסד האל לאדם קרב!<br>\n    שמחו והללו את מלכי המלכים!<br>\n    הודו והפארו, כי עוד יש כאן!</strong></p>\n\n    <p><strong>קום והדר את ה׳!<br>\n    הילל ושבח לשמו הראוי!<br>\n    הוא זורח מן השמים באהבה,<br>\n    ומרטיב ברכות מלמעלה,<br>\n    רחמיו יורדים לעבר האנשים—<br>\n    העריצו והשבחו את אדוננו החזק!</strong></p>\n\n    <p><strong>הודו ושירו למשיח מלכנו<br>\n    והשתחוו לו בשבח ירא;<br>\n    השתחוו בפחד קדוש ומכובד—<br>\n    קדושת האל נמצאת כאן;<br>\n    בתפארה נפלו ברך;<br>\n    העריצו את מלך המלכים האדיר!</strong></p>\n  </div>\n</article>\n",
+    "section": "שיר",
+    "subtitle": null,
+    "title": "קום ושמח"
+  }
+}
