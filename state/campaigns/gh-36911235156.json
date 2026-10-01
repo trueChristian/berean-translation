@@ -1403,7 +1403,9 @@
   "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
   "status": "active",
   "task_counts": {
-    "in_batch": 220
+    "complete": 61,
+    "not_ready": 15,
+    "queued": 144
   },
   "tasks": [
     "fe2a3989ded78aea7290409cced5576e",

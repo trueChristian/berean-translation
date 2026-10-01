@@ -130,7 +130,9 @@
   "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
   "status": "active",
   "task_counts": {
-    "in_batch": 10
+    "complete": 3,
+    "in_batch": 6,
+    "not_ready": 1
   },
   "tasks": [
     "32170be46b055dbf86d0d9b47ecd822b",
