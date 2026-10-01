@@ -148,14 +148,28 @@ class Fragment(HTMLParser):
         return ' '.join(self.text_parts)
 
 
-REFERENCE_NUMBER = re.compile(r'\b\d+\s*:\s*\d+(?:\s*[-–—]\s*\d+)?')
+# Book names and surrounding prose need not have spaces in every language.
+# A digit boundary preserves the complete chapter number while recognizing
+# references such as 马可福音10:7 and their missing/changed counterparts.
+REFERENCE_NUMBER = re.compile(r'(?<!\d)\d+\s*:\s*\d+(?:\s*[-–—]\s*\d+)?')
 EXPLICIT_CLOCK = re.compile(
     r'(?<![\w:\-–—])(?P<hour>1[0-2]|0?[1-9])'
     r'(?::(?P<minute>[0-5][0-9]))?\s*(?P<period>[ap])\.?\s*m\.?(?!\w)', re.I)
 # These are positive clock cues, not a list of Bible books to exclude. Unknown
 # or bare colon expressions remain protected, even when they look like times.
-CLOCK_PREFIX = re.compile(r'(?<!\w)(?:at|around|about|om|omstreeks)\s*$', re.I)
-CLOCK_SUFFIX = re.compile(r'^\s*(?:uur|hours?|o[’\']clock)(?!\w)', re.I)
+CLOCK_PREFIX = re.compile(
+    r'(?<!\w)(?:at|around|about|om|omstreeks|rond|'  # English, Afrikaans, Dutch
+    r'a las|de las|hacia las|'                     # Spanish
+    r'à|vers|às|pelas|por volta das|perto das|'     # French, Portuguese
+    r'alle|verso le|um|gegen|'                     # Italian, German
+    r'pukul|jam|saa|'                             # Indonesian, Swahili
+    r'около|примерно в|в|στις|'                    # Russian, Greek
+    r'klockan|klokken|klokka|kl\.|'                # Swedish, Norwegian Bokmål
+    r'الساعة|בשעה|השעה)\s*$', re.I)              # Arabic, Hebrew
+CLOCK_SUFFIX = re.compile(
+    r'^\s*(?:(?:uur|hours?|o[’\']clock|heures?|horas?|Uhr|'
+    r'बजे|টায়|টায়|بجے)(?!\w)|'                 # Hindi, Bengali, Urdu
+    r'时|에|경)', re.I)                            # Simplified Chinese, Korean
 
 
 def decimal_digits(text: str) -> str:

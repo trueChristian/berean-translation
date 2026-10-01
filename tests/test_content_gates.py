@@ -16,6 +16,30 @@ from support import setup, queue, drive
 
 ARTICLE_ID = '11111111-1111-4111-8111-111111111111'
 ROOT = Path(__file__).resolve().parents[1]
+# Positive local time cues, with native decimal digits where applicable. These
+# are 24-hour clocks; linguistic day-period/hour conversions remain AI review.
+LOCAL_CLOCKS = {
+    'cmn': '大约14:00时',
+    'hin': 'लगभग १४:०० बजे',
+    'spa': 'Alrededor de las 14:00',
+    'ara': 'حوالي الساعة ١٤:٠٠',
+    'fra': 'Vers 14:00',
+    'ben': 'প্রায় ১৪:০০ টায়',
+    'por': 'Por volta das 14:00',
+    'ind': 'Sekitar pukul 14:00',
+    'urd': 'تقریباً ۱۴:۰۰ بجے',
+    'rus': 'Около 14:00',
+    'deu': 'Gegen 14:00 Uhr',
+    'nld': 'Rond 14:00',
+    'afr': 'Omstreeks 14:00',
+    'swa': 'Saa 14:00',
+    'kor': '14:00경',
+    'ita': 'Verso le 14:00',
+    'heb': 'בסביבות השעה 14:00',
+    'ell': 'Περίπου στις 14:00',
+    'swe': 'Klockan 14:00',
+    'nob': 'Rundt kl. 14:00',
+}
 
 
 class ContentGateTests(unittest.TestCase):
@@ -44,6 +68,70 @@ class ContentGateTests(unittest.TestCase):
     def test_clock_may_span_preserved_inline_markup(self):
         self.validate('<p>Around <em>2 pm</em>, a call came.</p>',
                       '<p>Omstreeks <em>14:00</em> het ’n oproep gekom.</p>')
+
+    def test_source_backed_local_clock_cues_cover_configured_languages(self):
+        self.assertEqual(set(LOCAL_CLOCKS), set(Config(ROOT).languages))
+        for language, clock in LOCAL_CLOCKS.items():
+            with self.subTest(language=language):
+                self.validate('<p>Around 2 pm, read John 3:16–18.</p>',
+                              f'<p>{clock}, John 3:16–18.</p>')
+
+    def test_local_clock_cues_do_not_exempt_references_without_source_clock(self):
+        for language, clock in LOCAL_CLOCKS.items():
+            with self.subTest(language=language), self.assertRaisesRegex(ContractError, 'Scripture'):
+                self.validate('<p>A call came.</p>', f'<p>{clock}.</p>')
+
+    def test_local_clock_cues_preserve_all_other_references(self):
+        for language, clock in LOCAL_CLOCKS.items():
+            for source_refs, target_refs in (
+                ('John 3:16', 'John 3:17'),
+                ('John 3:16', ''),
+                ('John 3:16', 'John 3:16 and 3:17'),
+                ('John 3:16 and 3:16', 'John 3:16'),
+                ('John 3:16–18', 'John 3:16–19'),
+                ('John 14:00', ''),
+                ('John 14:00', 'John 15:00'),
+            ):
+                with self.subTest(language=language, source=source_refs, target=target_refs), \
+                        self.assertRaisesRegex(ContractError, 'Scripture'):
+                    self.validate(f'<p>Around 2 pm. {source_refs}.</p>',
+                                  f'<p>{clock}. {target_refs}.</p>')
+
+    def test_local_clock_cues_require_exact_time_multiplicity_and_block(self):
+        for language, clock in LOCAL_CLOCKS.items():
+            for source, target in (
+                ('<p>Around 3 pm.</p>', f'<p>{clock}.</p>'),
+                ('<p>Around 2 pm.</p>', f'<p>{clock} and {clock}.</p>'),
+                ('<p>Around 2 pm and 2 pm.</p>', f'<p>{clock}.</p>'),
+                ('<p>Around 2 pm.</p><p>A call.</p>', f'<p>A call.</p><p>{clock}.</p>'),
+            ):
+                with self.subTest(language=language, source=source, target=target), \
+                        self.assertRaisesRegex(ContractError, 'Scripture'):
+                    self.validate(source, target)
+
+    def test_references_adjacent_to_non_latin_text_are_preserved(self):
+        for translated in ('马可福音10:7我们也读到', 'मार्क१०:७', 'মার্ক১০:৭',
+                           'مرقس١٠:٧', 'مرقس۱۰:۷', 'מרקוס10:7', '마가복음10:7에서'):
+            with self.subTest(translated=translated):
+                self.validate('<p>Mark 10:7.</p>', f'<p>{translated}.</p>')
+        self.assertEqual(reference_numbers('马可福音110:7我们; 约翰福音３:１６–１８'),
+                         Counter({'110:7': 1, '3:16-18': 1}))
+
+    def test_changed_missing_or_added_adjacent_script_references_stay_blocked(self):
+        for source, target in (
+            ('Mark 10:7', '马可福音10:8我们'),
+            ('Mark 10:7', '马可福音110:7我们'),
+            ('Mark 10:7', '马可福音10:7我们，约翰福音3:16'),
+            ('Mark 10:7 and 10:7', '马可福音10:7我们'),
+            ('Mark 10:7–9', '马可福音10:7–8我们'),
+            ('Around 2 pm, read Mark 10:7', 'Om 14:00'),
+            ('A call came', '大约14:00时'),
+            ('Around 2 pm', '约翰福音14:00'),
+            ('chapter 2:17-23', '在第二章 17–23 节'),
+            ('John 7:38', '约翰七章三十八节'),
+        ):
+            with self.subTest(source=source, target=target), self.assertRaisesRegex(ContractError, 'Scripture'):
+                self.validate(f'<p>{source}.</p>', f'<p>{target}.</p>')
 
     def test_unexplained_or_ambiguous_clock_shaped_numbers_remain_protected(self):
         for source, translated in (
