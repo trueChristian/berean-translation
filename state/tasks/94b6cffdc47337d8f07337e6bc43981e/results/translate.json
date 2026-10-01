@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "42d84aea-542f-4634-96a6-90e4c8ebeb67",
+    "response_id": "chatcmpl-EUGXYe3u5U5xZm1okExK3kR5jwEd1",
+    "usage": {
+      "completion_tokens": 548,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1174,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1722
+    }
+  },
+  "received_at": "2026-10-01T19:19:08+00:00",
+  "result": {
+    "html": "<article data-article-id=\"cdb88be0-93b0-4362-bc3b-1488aff1a76f\">\n  <figure>\n    <img src=\"/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg\" alt=\"Weiße Orchideen mit violetten Zentren\">\n  </figure>\n  <div class=\"poem\">\n    <p>Der Ruhm des Frühlings, wie süß!<br>\n    Das neugeborene Leben, wie froh!<br>\n    Welch Freude, die glückliche Erde zu grüßen<br>\n    In neuem, hellem Gewand!</p>\n\n    <p>Göttlicher Erlöser, Dich preise ich;<br>\n    Ich grüße Dein Hervortreten;<br>\n    Ich liebe Dich in der Lieblichkeit<br>\n    Deiner erneuerten Erde.</p>\n\n    <p>Doch o, diese Wunder Deiner Gnade,<br>\n    Diese edleren Werke Dein;<br>\n    Diese Wunder, süßer zu verfolgen,<br>\n    Diese Neuboren, göttlicher:</p>\n\n    <p>Dieses neugeborene Glühen des starken Glaubens,<br>\n    Diese Blüte der Liebe so schön,<br>\n    Diese neugeborene Verzückung des Gesangs,<br>\n    Und Duft des Gebets!</p>\n\n    <p>Schöpfergeist, wirke in mir<br>\n    Diese süßen Wunder Dein;<br>\n    Göttlicher Erlöser, erneuere gütig<br>\n    Dieses Herz von mir.</p>\n\n    <p>Weiter, lass neues Leben und Kraft aufkeimen,<br>\n    Weiter, lass neue Freude gegeben werden;<br>\n    Und gewähre, dass das fröhliche neue Lied erklinge<br>\n    Durch die neue Erde und den Himmel.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Der Ruhm des Frühlings"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "afd7f3d6-c8b8-41ad-8c9d-5d778009967f",
+    "response_id": "chatcmpl-EUGWJK3lvsrLaXiFJ4WnmZvvhcfSB",
+    "usage": {
+      "completion_tokens": 611,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1186,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1797
+    }
+  },
+  "received_at": "2026-10-01T19:19:07+00:00",
+  "result": {
+    "html": "<article data-article-id=\"cdb88be0-93b0-4362-bc3b-1488aff1a76f\">\n  <figure>\n    <img src=\"/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg\" alt=\"Hvite orkideer med lilla sentrum\">\n  </figure>\n  <div class=\"poem\">\n    <p>Vårens herlighet, så søt!<br>\n    Det nyfødte liv, så glad!<br>\n    Hvilken fryd å møte jordens møte<br>\n    I nytt, lyst draktelag!</p>\n\n    <p>Gjenløser Gud, jeg priser Deg;<br>\n    Jeg hilser Din utgangs ferd;<br>\n    Jeg elsker Deg i skjønnheten<br>\n    Av Din fornyede jord.</p>\n\n    <p>Men å, disse under av Din nåde,<br>\n    Disse edlere gjerninger av Deg,<br>\n    Disse under søtere å spore,<br>\n    Disse nyfødte mer guddommelige fødsler:</p>\n\n    <p>Dette nyfødte mot til tro så sterk,<br>\n    Denne kjærlighets blomstring så skjønn,<br>\n    Denne nyfødte salighet i sang,<br>\n    Og bønnens velduft!</p>\n\n    <p>Skaperens Ånd, arbeid i meg<br>\n    Disse dine søte undere;<br>\n    Gjenløser Gud, nådig forny<br>\n    Dette mitt hjerte.</p>\n\n    <p>La dog nytt liv og styrke spire,<br>\n    La dog ny glede bli gitt;<br>\n    Og la den glade nye sangen klinge<br>\n    Gjennom den nye jord og Himmelen.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Vårens herlighet"
+  }
+}

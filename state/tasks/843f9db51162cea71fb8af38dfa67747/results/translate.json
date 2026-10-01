@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "749f6a70-25bb-4b80-b6e8-dd56828b4c06",
+    "response_id": "chatcmpl-EUGXrc4nUGlH5lx147TkjCFjsPDwz",
+    "usage": {
+      "completion_tokens": 633,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1174,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1807
+    }
+  },
+  "received_at": "2026-10-01T19:19:08+00:00",
+  "result": {
+    "html": "<article data-article-id=\"cdb88be0-93b0-4362-bc3b-1488aff1a76f\">\n  <figure>\n    <img src=\"/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg\" alt=\"Witte orchideeën met paarse centra\">\n  </figure>\n  <div class=\"poem\">\n    <p>De luister van de lente, hoe zoet!<br>\n    Het pasgeboren leven, hoe blij!<br>\n    Wat vreugd de blije aarde groet<br>\n    In nieuw, helder kleed, daarbij!</p>\n\n    <p>Goddelijke Verlosser, U prijs ik; ik groet Uw heengaan;<br>\n    Ik houd van U in 't lieflijke aanschijn<br>\n    Van Uw vernieuwde aardse staan.</p>\n\n    <p>Maar o, deze wonderen van Uw trouw,<br>\n    Deze edlere werken van Uw hand,<br>\n    Deze wonderen, zoeter om te aanschouwen,<br>\n    Deze nieuwgeboren daden meer goddelijk en grand:</p>\n\n    <p>Die nieuwgeboren gloed van geloof zo sterk,<br>\n    Die bloesem van liefde zo rein,<br>\n    Die nieuwgeboren vervoering van zang,<br>\n    En de geur van gebed zo fijn!</p>\n\n    <p>Scheppende Geest, werk in mij<br>\n    Deze zoete wonderen van U;<br>\n    Goddelijke Verlosser, vernieuw genadiglijk<br>\n    Dit hart van mij erbij, als 't rouwt en ru.</p>\n\n    <p>Laat toch nieuwe leven en kracht ontspringen,<br>\n    Laat toch nieuwe vreugd gegeven zijn;<br>\n    En schenk het blije nieuwe lied te klinken<br>\n    Door de nieuwe aarde en de Hemel, rein.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "De glorie van de lente"
+  }
+}

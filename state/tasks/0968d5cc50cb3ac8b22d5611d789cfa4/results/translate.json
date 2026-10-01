@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a94d17e1-1ce2-4f51-93ba-8aaf9e62ca52",
+    "response_id": "chatcmpl-EUGX2sdfM2xdsW8eWElBLMms5q9Sv",
+    "usage": {
+      "completion_tokens": 1407,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1808,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3215
+    }
+  },
+  "received_at": "2026-10-01T19:19:07+00:00",
+  "result": {
+    "html": "<article data-article-id=\"62646d6d-87be-47a6-880f-0ade408a3402\">\n  <p class=\"drop-cap\">Våren er min favorittid på året. Alt er nytt. Hyasinter prøver så godt de kan å stikke knoppene sine gjennom den kalde begrensningen av den vinterbundne jorden. Trekkfugler bringer nye lyder idet de halsbrekkende og kvakkende drar mot sine endelige reirplasser. I år var vårfroskene i vårt område «vinterfrosker» da de svakt kvitret sine hilsener til den ankommende våren i midten av februar. Treknoppene svulmer og venter på å sprenge fram i full prakt.</p>\n\n  <p>Å, hvor storslått Guds natur samarbeider for å kunngjøre herligheten av nytt liv. Sannelig må det ha vært i denne boblende årstiden da salmisten skrev: “Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9). Dette skue av nytt liv som springer fra jorden er en vakker framstilling av det nye livet som finnes i Kristus Jesus. Undrene ved nyhetens liv som springer fra syndens død kan ikke fullt ut vises selv av den beste framvisning av Guds skapelse. Det kan kun erfars i sjelen.</p>\n\n  <p>Mens jeg skriver dette, flyr jeg i 35 000 fot over det subsahariske ørkenlandskapet i Tsjad og Niger. Den skarpe kontrasten mellom landskapet beskrevet i de foregående avsnittene og det tørre ørkenlandskapet som haster forbi seks miles under meg, er nesten utenfor min fatteevne. Den tørre jorden ber om regn mens husdyr skraper etter hva som helst grønt for å stille appetitten. Den store tørken roper høyt som en påminnelse om de millionene av tørste sjeler som aldri har hørt om the “well of water springing up into everlasting life” (John 4:14). Millioner som aldri opplevde Kristus som fontenen som beskrevet i Hymn History-artikkelen i dette nummeret:</p>\n\n  <figure>\n    <img src=\"/images/articles/62646d6d-87be-47a6-880f-0ade408a3402-1.jpg\" alt=\"Hvite blomster ved siden av en liten fugl som bygger rede i en bolle\">\n  </figure>\n\n  <blockquote class=\"poem\">\n    <p><em>Oh! Christ He is the foutain,<br>\n    The deep sweet well of Love!<br>\n    The streams on earth I’ve tasted,<br>\n    More deep I’ll drink above:<br>\n    There, to an ocean fullness,<br>\n    His mercy doth expand,<br>\n    And glory—glory dwelleth<br>\n    In Immanuel’s land.</em></p>\n  </blockquote>\n\n  <p>Av og til våkner et lengselsfullt ønske i mitt hjerte om å leve det avslappede, relasjonelle livet som erfareres i disse fattige stammefellesskapene. Familie og venner er viktigere enn kalendere og forpliktelser. Som vi leser i Sister to Sister-artikkelen, kan forpliktelser og travelhet føre oss til et overbelastningspunkt der vi føler at vi ikke klarer mer. Les videre for å lære hvordan du kan ta praktiske steg for å unngå dette bristepunktet.</p>\n\n  <p>De fleste i dette området er muslimer. Mens jeg skriver dette, er muslimer midt i Ramadan, en månedslang fasteperiode. De faster fra mat og vann hver dag fra daggry til skumring, selv om dagtemperaturene overstiger 110 grader. Deres streng faste, sammen med å stoppe arbeidet for å be mange ganger om dagen, drives av et brennende ønske om å søke syndenes forlatelse og opparbeide nok fortjeneste til å komme inn i himmelen. Om de bare visste at sann nåde og barmhjertighet kommer fra Gud gjennom frelsen ved hans Sønn, Jesus Kristus. Våre gjerninger kan aldri bringe oss i rett ståsted med Gud. Forfatteren av artikkelen “How to Increase Your Faith” påpeker dette klart: “Faith is one of the basic ingredients in getting right with God. We come into the Christian life (and receive the forgiveness of sins) through faith. . . We abandon all hope for saving ourselves by our own abilities, and instead, we put complete trust in Jesus Christ for our eternal safety.”</p>\n\n  <p>Når vi planter hagene våre og ser trærne bryte fram i blomstring, la oss bli minnet om profeten Jesajas ord: “For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11).</p>\n\n  <p>Velsignelser til alle,</p>\n\n  <p>Edward Martin</p>\n</article>\n",
+    "section": "Fra redaktøren",
+    "subtitle": null,
+    "title": "From the Editor"
+  }
+}

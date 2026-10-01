@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1e5bac37-7924-406d-a3a3-edeaae117201",
+    "response_id": "chatcmpl-EUGWjveogcM0EjRKGqtYzoIcoyAvq",
+    "usage": {
+      "completion_tokens": 692,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1180,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1872
+    }
+  },
+  "received_at": "2026-10-01T19:19:07+00:00",
+  "result": {
+    "html": "<article data-article-id=\"cdb88be0-93b0-4362-bc3b-1488aff1a76f\">\n  <figure>\n    <img src=\"/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg\" alt=\"보라빛 중심을 가진 흰 난초들\">\n  </figure>\n  <div class=\"poem\">\n    <p>봄의 영광, 얼마나 달콤한지!<br>\n    새로 난 생명, 얼마나 기쁜지!<br>\n    기쁨이여, 행복한 땅을 맞이하네<br>\n    새롭고 밝은 옷을 입고!</p>\n\n    <p>신성한 구속자여, 주를 찬양하네;<br>\n    주의 나심을 인사하오니;<br>\n    주의 새로워진 땅의 아름다움 속에서<br>\n    나는 주를 사랑하나이다.</p>\n\n    <p>오, 그러나 이 은혜의 경이로움들,<br>\n    주의 더 고귀한 일들,<br>\n    추적하기에 더 달콤한 이 기이한 일들,<br>\n    더 신성한 이 새로운 탄생들:</p>\n\n    <p>이토록 굳건한 새로 난 믿음의 빛남,<br>\n    이토록 아름다운 사랑의 꽃피움,<br>\n    이 새로 난 노래의 황홀경,<br>\n    그리고 기도의 향기!</p>\n\n    <p>창조의 영이여, 내게서 일하소서<br>\n    주의 이 달콤한 경이들을;<br>\n    신성한 구속자여, 은혜로이<br>\n    내 이 마음을 새롭게 하소서.</p>\n\n    <p>계속하여 새 생명과 능력이 솟게 하시고,<br>\n    계속하여 새 기쁨을 허락하소서;<br>\n    새 기쁨의 노래가 울려 퍼지게 하시어<br>\n    새 땅과 하늘에 가득하게 하소서.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "봄의 영광"
+  }
+}

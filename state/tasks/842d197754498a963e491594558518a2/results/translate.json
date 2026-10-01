@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7fa02b0d-2dcc-42d7-9d89-8f0ffd6cd0ab",
+    "response_id": "chatcmpl-EUGXpcNRsfQWchUK1TLpxftu8Xgro",
+    "usage": {
+      "completion_tokens": 854,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1179,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2033
+    }
+  },
+  "received_at": "2026-10-01T19:19:08+00:00",
+  "result": {
+    "html": "<article data-article-id=\"cdb88be0-93b0-4362-bc3b-1488aff1a76f\">\n  <figure>\n    <img src=\"/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg\" alt=\"سحلب أبيض بمراكز أرجوانية\">\n  </figure>\n  <div class=\"poem\">\n    <p>يا بهاءَ الربيعِ، ما أطيبك!<br>\n    الحياةُ المولودةُ، ما أفرحها!<br>\n    يا لها من بهجةٍ تُحيّي الأرضَ البهيّةَ<br>\n    بزينٍ جديدٍ، مشرقٍ يكتسيها!</p>\n\n    <p>يا مخلصي الإلهي، لكَ أباركُ؛<br>\n    أحييكَ في مسيركَ؛<br>\n    أحبكَ في الحُسنِ الذي أظهرتهِ<br>\n    في أرضِكَ المتجدِّدةِ.</p>\n\n    <p>ولكن يا لهذه العجائبِ من نِعمِكَ،<br>\n    هذه الأعمالُ الأسمىُ لَكَ،<br>\n    هذه العجائبُ أحلى بكثيرٍ إن تُبْصَرُ،<br>\n    وهذه الولاداتُ الجديدةُ أقدسُ:</p>\n\n    <p>هذا التوهّجُ الوليدُ من إيمانٍ قوي،<br>\n    هذا تفتُّحُ المحبةِ البهيُّ،<br>\n    هذه النشوةُ الوليدةُ للترتيلِ،<br>\n    وعبقُ الصلاةِ الطاهرِ!</p>\n\n    <p>يا روحَ الخالقِ، اعمَلْ فيَّ<br>\n    هذه العجائبَ العذبةَ لَكَ؛<br>\n    يا مخلصي الإلهي، بفضلِكَ<br>\n    جَدِّدْ هذا القلبَ لي.</p>\n\n    <p>لا زِلْ، فلتنبُتْ حياةٌ وقوّةٌ جديدةٌ،<br>\n    لا زِلْ، فلتُوهَبْ بهجةٌ جديدةٌ؛<br>\n    وامنحْ أن يرنَّ الأنشُدَةُ الجديدةُ<br>\n    في الأرضِ الجديدةِ وفي السماءِ.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "بَهاء الربيع"
+  }
+}
