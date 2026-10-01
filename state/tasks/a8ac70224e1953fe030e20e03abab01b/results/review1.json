@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ca6bd91d-04c5-4c31-877b-cc3b6fa1ab8c",
+    "response_id": "chatcmpl-EUGuBSOJPSiHDgXzwCSkYgOrWOhrR",
+    "usage": {
+      "completion_tokens": 1646,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3184,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4830
+    }
+  },
+  "received_at": "2026-10-01T20:29:00+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"As Jamin clumped into the meadow, he could see a frustrated heap to his right. The heap’s voice had a familiar ring. The heap’s face was lit in pain. The heap was Kenny.\"",
+        "severity": "major",
+        "source_quote": "a frustrated heap",
+        "suggested_fix": "Replace the Arabic 'تلة محبطة' (which means 'hill') with a phrase that conveys a person curled up or a 'mangled/defeated heap' of a person, e.g. 'كتلة محبطة' or better 'هيئة محبطة' or 'مكوَّمٌ محبط' to indicate a person collapsed/curled up. Preserve surrounding punctuation and tags.",
+        "translation_quote": "رأى تلة محبطة إلى يمينه. لصوت التلة رنين مألوف. كان وجه التلة مضاءً بالألم. كانت التلة كيني."
+      },
+      {
+        "location": "Paragraph: \"His golden head caught the tired beams that fled from the sun as they flickered through the trees.\"",
+        "severity": "major",
+        "source_quote": "His golden head caught the tired beams",
+        "suggested_fix": "Correct the mistranslation/typo 'احتجزت رأسه الكاْنِية' to convey 'رأسه الذهبي' or 'رأسه الأشقر' depending on intended tone. For example: 'التقطت رأسه الذهبية أشعة الشمس المتعبة...' Keep original sentence structure and punctuation.",
+        "translation_quote": "احتجزت رأسه الكاْنِية أشعة الشمس المتعبة التي كانت تهرب متقطعة عبر الأشجار."
+      },
+      {
+        "location": "Paragraph: \"Jamin bent and found an ankle firmly held in the jaws of a steel trap. Darkness stained the ground around Kenny. Quickly, Jamin’s strong arms pried open the jaws. Kenny reeled free.\"",
+        "severity": "major",
+        "source_quote": "found an ankle firmly held in the jaws of a steel trap",
+        "suggested_fix": "Fix the later sentence that describes seeing the ankle and then lifting Kenny. The current Arabic adds or jumbles words ('راجعاً الكاحل') when describing the father arriving and tending the ankle. Suggest: 'رأى الكاحل ممسوكاً بقوة في فك فخ من الفولاذ. لوّث الظلام الأرض حول كيني. بسرعة، فرَّغت ذراعا جامين القويتان الفكين. انطلق كيني حراً.' and later 'رأى الأب الكاحل وحمّل كيني كخروف مجروح.' Ensure the sequence matches source: father arrives, sees the ankle, scoops up Kenny like a hurt sheep.",
+        "translation_quote": "انحنى جامين ووجد كاحلاً ممسوكاً بقوة في فك فخ فولاذي. لوّث الظلام الأرض حول كيني. بسرعة، فتحت ذراعا جامين القويتان الفكين. انطلق كيني حراً. «هل تستطيع المشي؟» ... نادى جامين بالمقابل، فكان إلى جانبهم في لحظة، راجعا الكاحل وحاملاً كيني كخروف مجروح."
+      },
+      {
+        "location": "Paragraph: \"But Kenny had a way of avoiding earshot. So he continued mocking Jamin.\"",
+        "severity": "minor",
+        "source_quote": "avoiding earshot",
+        "suggested_fix": "The Arabic 'كان يجد وسيلة لتفادي السمع' is understandable but slightly awkward. Consider 'كان يجد وسيلة ليبقى خارج متناول السمع' or 'كان يتجنب أن يسمعاه' to be more natural in Arabic.",
+        "translation_quote": "لكن كيني كان يجد وسيلة لتفادي السمع. فاستمر في السخرية من جامين."
+      },
+      {
+        "location": "Paragraph: \"He breathed the rich air and followed Kenny’s trail. Eventually, the trail would end up in a meadow...\"",
+        "severity": "minor",
+        "source_quote": "He breathed the rich air and followed Kenny’s trail.",
+        "suggested_fix": "The Arabic translation is largely correct but 'استنشق الهواء الغني واتبع أثر كيني' is fine; consider 'استنشق الهواء العليل' for a more idiomatic rendering. This is stylistic and optional.",
+        "translation_quote": "استنشق الهواء الغني واتبع أثر كيني."
+      }
+    ],
+    "passed": false,
+    "score": 68
+  }
+}

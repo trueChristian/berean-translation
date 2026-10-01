@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e1c8749a-353a-437e-9089-7e0def5eb82c",
+    "response_id": "chatcmpl-EUGuBzNLprIgXnnsJl9oYKR8DHuuW",
+    "usage": {
+      "completion_tokens": 1593,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8930,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10523
+    }
+  },
+  "received_at": "2026-10-01T20:29:00+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Paragraph about cynicism directed at politicians (source HTML near \"Sometimes this cynicism is directed against all politicians.\")</p>",
+        "severity": "minor",
+        "source_quote": "\"Sometimes this cynicism is directed against all politicians. Sometimes it is only anger directed against members of the party that opposes their party’s positions. Hope is replaced by cynicism.\"",
+        "suggested_fix": "Replace the mistranslated phrase that reads \"وأحيانًا تكون غيرة من أعضاء الحزب المعارض فقط.\" with wording that preserves the source meaning. For example: \"أحيانًا تُوجَّه هذه السخرية ضد جميع السياسيين. وأحيانًا تكون موجهة فقط ضد أعضاء الحزب المعارض.\" Ensure the two sentences keep the original contrast and meaning.",
+        "translation_quote": "\"أحيانًا تُوجه هذه السخرية ضد جميع السياسيين. وأحيانًا تكون غيرة من أعضاء الحزب المعارض فقط. يحل اليأس محل الأمل.\""
+      },
+      {
+        "location": "<p>Paragraph quoting Ecclesiastes and comment about remembering God in youth (source HTML around Ecclesiastes 6:6 and following)</p>",
+        "severity": "minor",
+        "source_quote": "\"Of course, he finishes his short book with the instruction to remember our Creator in the days of our youth. There is a blessing for those who choose to focus on God when they have a little bit of energy left and not, when they are old and jaded, like Solomon.\"",
+        "suggested_fix": "Correct small mistranslation/typo that produced awkward phrasing \"علًى وشكّ الخُبْث\". Replace with a more accurate rendering preserving tone: \"عندما يكون لديهم قليل من الطاقة المتبقية وليس عندما يكونون كبارًا ومُتنكِّرين، مثل سليمان.\" (Keep original HTML structure.)",
+        "translation_quote": "\"هناك بركة لأولئك الذين يختارون أن يركزوا على الله عندما يكون لديهم قليل من الطاقة المتبقية وليس عندما يكونون علًى وشكّ الخُبْث، مثل سليمان.\""
+      },
+      {
+        "location": "<p>Paragraph about older man stealing hope from youth (source HTML in 'Small Efforts Do Make a Difference')</p>",
+        "severity": "minor",
+        "source_quote": "\"As we were talking, an older man entered the conversation and shared that he saw little hope for change in developing countries.\"",
+        "suggested_fix": "Fix mistranslation that reads \"شارك أنفاقته ضئيلة للتغيير\" which is unclear/incorrect. Replace with a clear translation preserving the source meaning, for example: \"دخل رجل مسن المحادثة وشارك أنه يرى أملًا ضئيلاً للتغيير في البلدان النامية.\"",
+        "translation_quote": "\"دخل رجل مسن المحادثة وشارك أنفاقته ضئيلة للتغيير في البلدان النامية.\""
+      },
+      {
+        "location": "<p>Paragraph about 'our Heavenly Father' (source HTML in 'The Opposite of Cynicism')</p>",
+        "severity": "minor",
+        "source_quote": "\"Yet, that is exactly what our Heavenly Father does for us.\"",
+        "suggested_fix": "Adjust the Arabic phrase \"أبوينا السماوي\" to the more standard Modern Standard Arabic form \"أبونا السماوي\" to match the singular possessive in the source sentence. Example replacement: \"ومع ذلك، هذا بالضبط ما يفعله أبونا السماوي لنا.\"",
+        "translation_quote": "\"ومع ذلك، هذا بالضبط ما يفعله أبوينا السماوي لنا.\""
+      },
+      {
+        "location": "<p>Paragraph about Jesus' messages on forgiveness (source HTML in 'Remember that We Have Undeserved Hope')</p>",
+        "severity": "minor",
+        "source_quote": "\"Jesus’ messages about forgiveness make it clear that one of the major reasons that we have for forgiving others in our lives is that we have received great and undeserved forgiveness.\"",
+        "suggested_fix": "There is a missing space/typo in the Arabic: \"رسائل يسوع حولالغفران\". Insert a space so it reads \"رسائل يسوع حول الغفران\" to match the source phrasing and improve readability.",
+        "translation_quote": "\"رسائل يسوع حولالغفران تُوضّح أن أحد الأسباب الرئيسة...\""
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

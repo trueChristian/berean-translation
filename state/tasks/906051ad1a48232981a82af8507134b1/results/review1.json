@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5852e466-b47a-4f2e-a832-33597dba0114",
+    "response_id": "chatcmpl-EUGuBivQ1ZsnT63g5BcK1siDPrcBT",
+    "usage": {
+      "completion_tokens": 1523,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1088,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2958,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4481
+    }
+  },
+  "received_at": "2026-10-01T20:29:00+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"book-list\">…The Mennonite Church and Modernism</p>",
+        "severity": "critical",
+        "source_quote": "The Mennonite Church and Modernism",
+        "suggested_fix": "Translate the exact book title without adding or changing denominations or descriptors. Replace the Arabic text inside the same tag with: كنيسة المينونايت والحداثة",
+        "translation_quote": "كنيسة الأناجيل المينونايت والحداثة"
+      },
+      {
+        "location": "<p class=\"drop-cap\">I can still smell the tantalizing cacophony of odors as I clutched my father’s strong hand, weaving our way through the masses of tourists that crowded the building.</p>",
+        "severity": "minor",
+        "source_quote": "tantalizing cacophony of odors",
+        "suggested_fix": "Preserve the sense of discordant/conflicting but appealing odors. Replace the phrase with a closer Arabic equivalent, e.g.: \"الضوضاء الشهيّة للروائح\" or \"الضجيج المغري للروائح\" (keeping the original contrast between enticing and cacophonous).",
+        "translation_quote": "التناغم المغرية للروائح"
+      },
+      {
+        "location": "<p>لصوت البِريان هدف تقديم مواد مطبوعة تساعد القراء على التنقل عبر فصول الحياة المتنوعة والصعبة.</p>",
+        "severity": "minor",
+        "source_quote": "The Berean Voice has a goal to provide printed material that will help readers navigate through the varied and difficult seasons of life.",
+        "suggested_fix": "Use a consistent, grammatical rendering of the publication name and the sentence. For example: \"لـصوت البِريان هدفٌ في تقديم مواد مطبوعة تساعد القراء…\" or \"صوت البِريان يهدف إلى تقديم مواد مطبوعة تساعد القراء…\" Ensure the same Arabic form of the publication name is used throughout the article.",
+        "translation_quote": "لصوت البِريان هدف تقديم مواد مطبوعة تساعد القراء على التنقل عبر فصول الحياة المتنوعة والصعبة."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

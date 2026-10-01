@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7f5a0d20-f9da-4a81-934a-9fb6b96a5388",
+    "response_id": "chatcmpl-EUGvWuwEx0biNIqhAZYPyoASe18AX",
+    "usage": {
+      "completion_tokens": 1140,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1484,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2624
+    }
+  },
+  "received_at": "2026-10-01T20:29:00+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> — stanza 1, line 3 (source.html)",
+        "severity": "minor",
+        "source_quote": "The Dayspring shineth from on high,",
+        "suggested_fix": "Replace the translated phrase with wording that more closely preserves the poetic/theological sense of \"Dayspring\" (a Messianic/Christological image) rather than a generic \"light\": e.g. change \"ينبعث النور من العلاء\" to \"يشرق فجر المسيح من الأعالي\" or more literally \"يشرق فجر الفجر من الأعالي\" depending on style. In the translation HTML, replace only the text inside the <strong>…</strong> for that line, for example: \"...\\n    يشرق فجر المسيح من الأعالي،<br>\\n    ...\"",
+        "translation_quote": "ينبعث النور من العلاء,"
+      },
+      {
+        "location": "<div class=\"poem\"> — stanza 2, line 2 (source.html)",
+        "severity": "minor",
+        "source_quote": "Extol and praise His worthy name!",
+        "suggested_fix": "Use a gender-neutral/plural imperative appropriate for a general audience instead of a feminine singular form. For example replace \"ارفعي وامدحي اسمه المستحق!\" with \"امجدوا وامدحوا اسمه المستحق!\". In the translation HTML, replace that line's text inside the <strong>…</strong>, e.g.: \"...\\n    امجدوا وامدحوا اسمه المستحق!<br>\\n    ...\"",
+        "translation_quote": "ارفعي وامدحي اسمه المستحق!"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

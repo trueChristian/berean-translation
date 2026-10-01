@@ -6,9 +6,32 @@
       "campaign": "gh-36908432434",
       "event": "requested",
       "task": "eed4cba5c34bed7da8d1afe30e05f617"
+    },
+    {
+      "at": "2026-10-01T20:29:00+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "eed4cba5c34bed7da8d1afe30e05f617"
     }
   ],
   "language": "ara",
   "latest_task": "eed4cba5c34bed7da8d1afe30e05f617",
-  "published": null
+  "published": {
+    "html_path": "content/ara/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
+    "html_sha256": "27f221f11cc2f3a4711fa28f7bd139520b3fe555667daa835cb7b6f7b56f9a2a",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+    "metadata_path": "content/ara/articles/93978dae-706d-43d4-abee-6b6e011683fa.json",
+    "metadata_sha256": "b3a5b5dfe933c03be3592aef4b68aa540ba6aafd7588fd1ab344bcee89b39c99",
+    "model": "gpt-5-mini-2025-08-07",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"ar\" dir=\"rtl\" role=\"note\">\n  <p>تُرجم هذا المقال باستخدام الذكاء الاصطناعي من OpenAI (النموذج: gpt-5-mini-2025-08-07)، ولم يخضع بعد لمراجعة بشرية. النص الإنجليزي الأصلي هو النسخة المرجعية المعتمدة. عند الشك في المعنى، يُرجى الرجوع إلى الأصل الإنجليزي. <a href=\"/en/articles/93978dae-706d-43d4-abee-6b6e011683fa/\" data-source-article-id=\"93978dae-706d-43d4-abee-6b6e011683fa\" hreflang=\"en\">الأصل الإنجليزي</a></p>\n</aside>",
+    "published_at": "2026-10-01T20:29:00+00:00",
+    "quality_score": 95,
+    "review_model": "gpt-5-mini-2025-08-07",
+    "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+    "source_snapshot": "state/sources/655f2b893d535149fb7f0e71fcdd48b885970929ae2439021fc6d8de3cd6b11b.json",
+    "task": "eed4cba5c34bed7da8d1afe30e05f617",
+    "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac"
+  }
 }

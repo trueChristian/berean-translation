@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "19307afd-2c2e-4bf2-a9de-88d3e166e18a",
+    "response_id": "chatcmpl-EUGvGaEKWBAtpBEFf5IlmJgQXZtq3",
+    "usage": {
+      "completion_tokens": 732,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2779,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3511
+    }
+  },
+  "received_at": "2026-10-01T20:29:00+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<h2>آلام الأسنان والرحلات البرّية</h2>",
+        "severity": "minor",
+        "source_quote": "Toothaches and Road Trips",
+        "suggested_fix": "Replace heading text with \"آلام الأسنان ورحلات الطريق\" or simply \"آلام الأسنان ورحلات الطرق\" to avoid the uncommon construct \"الرحلات البرّية\".",
+        "translation_quote": "آلام الأسنان والرحلات البرّية"
+      },
+      {
+        "location": "<p>...أليس من الأفضل إذن أن \\\"نخطط\\\" للسعة نحلة وإصبع مدوس؟</p>",
+        "severity": "minor",
+        "source_quote": "So, isn’t it better to “plan” for a bee sting and a stubbed toe?",
+        "suggested_fix": "Correct the mistranslated words to \"...أليس من الأفضل إذن أن \\\"نخطط\\\" للسعة نحلة ولسبّابة مدوسة؟\" or more naturally \"...أليس من الأفضل إذن أن \\\"نخطط\\\" للّسعة من نحلة ولمدّ إصبع؟\" (retain original HTML structure).",
+        "translation_quote": "أليس من الأفضل إذن أن \"نخطط\" للسعة نحلة وإصبع مدوس؟"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

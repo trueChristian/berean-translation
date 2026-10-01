@@ -267,6 +267,94 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
+      "html_sha256": "f66d80693c253e50b888f4fd01bb8201c784c17ab9ba2892cfbe22a5d9967bbb",
+      "human_reviewed": false,
+      "id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
+      "images": [
+        {
+          "alt": "مصباح متوهج داخل فانوس مظلم.",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-1.jpg"
+        },
+        {
+          "alt": "فراشة بين أزهار برية زاهية وأعشاب.",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.json",
+      "metadata_sha256": "632c1a5b83ceb15a9a8c6ad9b3deb618c95441ca60bdfbb15b96921e80d38a1d",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "كلمة من الطبيب",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
+      "status": "ready",
+      "subtitle": null,
+      "title": "التعامل مع السخرية",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
+      "html_sha256": "27f221f11cc2f3a4711fa28f7bd139520b3fe555667daa835cb7b6f7b56f9a2a",
+      "human_reviewed": false,
+      "id": "93978dae-706d-43d4-abee-6b6e011683fa",
+      "images": [
+        {
+          "alt": "أمواج المحيط تتكسر على شاطئ رملي تُرى من الأعلى.",
+          "public_path": "/images/articles/93978dae-706d-43d4-abee-6b6e011683fa-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/93978dae-706d-43d4-abee-6b6e011683fa.json",
+      "metadata_sha256": "b3a5b5dfe933c03be3592aef4b68aa540ba6aafd7588fd1ab344bcee89b39c99",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SISTER TO SISTER",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
+      "status": "ready",
+      "subtitle": null,
+      "title": "التحميل الظرفي",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.html",
+      "html_sha256": "cde5cd3e8ca774f457de3869eda6f26934841e84117a09afcda4fb7947c825ab",
+      "human_reviewed": false,
+      "id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
+      "images": [
+        {
+          "alt": "فنجان قهوة بجانب دفتر حلزوني وقلم رصاص.",
+          "public_path": "/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.json",
+      "metadata_sha256": "57dcdcc931211f2ea0f57ef0c4ca0b07bdf9f984edcd0fefa1c9db17a549c67f",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "من أخت إلى أخت",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "عبء التسويف",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
       "html_sha256": "1d58e7ead8c641e15bb03825e4665d22bf6725b5d2c156a5b8817827f1016f1c",
       "human_reviewed": false,
@@ -322,6 +410,62 @@
       "status": "ready",
       "subtitle": null,
       "title": "بَهاء الربيع",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
+      "html_sha256": "abcfecbeaf8007b2643933c51b340309e56074260a2295495437266a0e09c260",
+      "human_reviewed": false,
+      "id": "db7b1129-282d-4f48-aefa-f839cb585426",
+      "images": [
+        {
+          "alt": "تتابع نباتات شتلات تبرز من التربة بينما تسقيها يد",
+          "public_path": "/images/articles/db7b1129-282d-4f48-aefa-f839cb585426-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/db7b1129-282d-4f48-aefa-f839cb585426.json",
+      "metadata_sha256": "18ae4415f0e3155e29e158246db8900e983e26cc08d253b3a3bf4dfd7e1c47bc",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "تأملات مبشر",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "الإنساني المسيحي",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.html",
+      "html_sha256": "abf07f6a139db3dfc3177004efc737c646c9fb8a642150b1fd32666520d54148",
+      "human_reviewed": false,
+      "id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
+      "images": [
+        {
+          "alt": "قارب صغير على حافة ماء هادئ أثناء غروبٍ زاهٍ",
+          "public_path": "/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.json",
+      "metadata_sha256": "a4c572fed2057bb8d246df696fd41424cb70b78b4687f7e145beb6f7a3e738c6",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "قصيدة",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "انهضي وابتهجي",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {

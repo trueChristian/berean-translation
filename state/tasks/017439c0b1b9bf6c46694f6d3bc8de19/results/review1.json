@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b61d6c6a-7a88-4047-a510-702d0c8b5860",
+    "response_id": "chatcmpl-EUGuBLwXJb91ah2o8KBmb3w2Fh02O",
+    "usage": {
+      "completion_tokens": 1058,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6476,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7534
+    }
+  },
+  "received_at": "2026-10-01T20:29:00+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph of translation HTML (opening paragraph)",
+        "severity": "minor",
+        "source_quote": "“Some plant, some water, but God gives the increase.”",
+        "suggested_fix": "Replace the rendered Arabic phrase «هناك نبات قليل، وماء قليل، لكن الله هو الذي يعطي الزيادة» with a more natural and faithful equivalent that preserves the original colloquial cadence, for example: «بعض الزرع وبعض الماء، ولكن الله هو الذي يعطي الزيادة». Preserve the surrounding tags and punctuation exactly.",
+        "translation_quote": "«هناك نبات قليل، وماء قليل، لكن الله هو الذي يعطي الزيادة»"
+      },
+      {
+        "location": "Second paragraph (customer reaction) near word translated as إنسانياني",
+        "severity": "minor",
+        "source_quote": "The reason the man felt this way is because he was a humanist.",
+        "suggested_fix": "Replace «إنسانياني (هيوماني)» with a correct, idiomatic Arabic rendering. Suggested replacement: «إنساني (هيومانيسي)» or simply «إنساني» depending on preferred glossary. Preserve original parentheses and punctuation if desired, e.g. «... السبب في شعور الرجل بهذا الشكل هو أنه إنساني (هيومانيسي).» Keep the HTML structure unchanged.",
+        "translation_quote": "... السبب في شعور الرجل بهذا الشكل هو أنه إنسانياني (هيوماني)."
+      },
+      {
+        "location": "Paragraph giving the gardening example (middle of article)",
+        "severity": "minor",
+        "source_quote": "He waters and fertilizes weeds and prunes.",
+        "suggested_fix": "Adjust Arabic word order/word choice for clarity while preserving meaning. Suggested replacement: «يسقي ويمدّ الأرض بالسماد ويقلّم ويُزيل الأعشاب» or «يسقي ويُسمِد ويُقلِم ويُزيل الأعشاب الضارة». Keep existing HTML tags.",
+        "translation_quote": "يسقي ويُسمِد ويُقلِم ويُزيل الأعشاب."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}
