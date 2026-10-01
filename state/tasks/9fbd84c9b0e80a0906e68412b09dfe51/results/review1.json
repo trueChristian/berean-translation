@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "95635734-583c-4dae-96b1-37d850f632c4",
+    "response_id": "chatcmpl-EUGsFp2KNXUJ3QlsIgxZgns8hyhZh",
+    "usage": {
+      "completion_tokens": 1618,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2808,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4426
+    }
+  },
+  "received_at": "2026-10-01T20:28:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...Interruptions are also a normal part of life. ... If we let too many tasks wait until the last minute, interruptions and deadlines collide, and chaos reigns.</p>",
+        "severity": "minor",
+        "source_quote": "If we let too many tasks wait until the last minute, interruptions and deadlines collide, and chaos reigns.",
+        "suggested_fix": "Remove the combining diacritic under the letter ש in the translation word מתנגשׂים so it reads מתנגשִים or better: מתנגשים. Keep surrounding HTML unchanged.",
+        "translation_quote": "אם נניח יותר מדי משימות ממתינות לרגע האחרון, ההפרעות והמועדים מתנגשׂים, והכאוס שורר."
+      },
+      {
+        "location": "<h2>Toothaches and Road Trips</h2>\n  <p>...So, isn’t it better to “plan” for a bee sting and a stubbed toe?</p>",
+        "severity": "minor",
+        "source_quote": "So, isn’t it better to “plan” for a bee sting and a stubbed toe?",
+        "suggested_fix": "Translate 'a stubbed toe' explicitly as כיסוח/פגיעה בעקב או בעקב כף הרגל—suggested: \"לעקיצת דבורה ופגיעה באצבע של הרגל\" or \"לעקיצת דבורה ולחבטת בהונות\" to preserve 'toe' (not 'finger'). Keep surrounding HTML unchanged.",
+        "translation_quote": "אז, האם לא עדיף \\\"לתכנן\\\" עקיצת דבורה ומכה באצבע?"
+      },
+      {
+        "location": "<p>...Dropping a task is difficult for a perfectionist, but it is possible to develop new habits.</p>",
+        "severity": "minor",
+        "source_quote": "Dropping a task is difficult for a perfectionist, but it is possible to develop new habits.",
+        "suggested_fix": "Correct the Hebrew wording to a grammatical rendering preserving meaning. Suggested fix: \"לצרוך לוותר על משימה קשה למושלמת\" is wrong. Replace the sentence text only (inside same <p>) with: \"ויתור על משימה קשה במיוחד עבור אדם שואף לשלמות אינו פשוט, אך ניתן לפתח הרגלים חדשים.\" Preserve HTML tags.",
+        "translation_quote": "להוריד משימה קשה למושלמת, אבל אפשר לפתח הרגלים חדשים."
+      },
+      {
+        "location": "<p>But if my planner says, “clean appliances, wipe out cupboards, and wash windows,” it seems more doable.</p>",
+        "severity": "major",
+        "source_quote": "But if my planner says, “clean appliances, wipe out cupboards, and wash windows,” it seems more doable.",
+        "suggested_fix": "The Hebrew translation changes the meaning: 'more doable' was mistranslated as 'more creative' (ביצירתי). Replace only the sentence text (inside the <p>) with a correct equivalent that preserves the source meaning, for example: \"אבל אם המתכנן שלי כותב: 'נקה את המכשירים, נגב את הארונות ושטוף את החלונות', זה נראה יותר בר־ביצוע.\" Keep existing HTML tags and punctuation.",
+        "translation_quote": "אבל אם המתכננת שלי אומרת, \"נקה מכשירים, נגב ארונות, ושטוף חלונות,\" זה נראה יותר ביצירתי."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

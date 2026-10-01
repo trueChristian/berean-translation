@@ -6,9 +6,32 @@
       "campaign": "gh-36910515539",
       "event": "requested",
       "task": "ce88b00a2c2a3bab9f1e76abd54cd234"
+    },
+    {
+      "at": "2026-10-01T20:28:05+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "ce88b00a2c2a3bab9f1e76abd54cd234"
     }
   ],
   "language": "heb",
   "latest_task": "ce88b00a2c2a3bab9f1e76abd54cd234",
-  "published": null
+  "published": {
+    "html_path": "content/heb/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
+    "html_sha256": "6390474b6f42b9a9769440c5be2cf8ab6e05c825f1f19f24f0ee91bb4e37092f",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+    "metadata_path": "content/heb/articles/db7b1129-282d-4f48-aefa-f839cb585426.json",
+    "metadata_sha256": "09b4a409351755fa29fa84a57117490b9cb6aa679259f7fe88d5f91e324a2105",
+    "model": "gpt-5-mini-2025-08-07",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"he\" dir=\"rtl\" role=\"note\">\n  <p>מאמר זה תורגם באמצעות בינה מלאכותית של OpenAI (מודל: gpt-5-mini-2025-08-07) וטרם נבדק בידי אדם. המקור באנגלית הוא הגרסה המוסמכת. במקרה של ספק לגבי המשמעות, יש לעיין במקור באנגלית. <a href=\"/en/articles/db7b1129-282d-4f48-aefa-f839cb585426/\" data-source-article-id=\"db7b1129-282d-4f48-aefa-f839cb585426\" hreflang=\"en\">המקור באנגלית</a></p>\n</aside>",
+    "published_at": "2026-10-01T20:28:05+00:00",
+    "quality_score": 96,
+    "review_model": "gpt-5-mini-2025-08-07",
+    "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+    "source_snapshot": "state/sources/a072a36e6aede6bd6978f7ac04698cebcbcce9571999d9176c58a465e0428962.json",
+    "task": "ce88b00a2c2a3bab9f1e76abd54cd234",
+    "translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4"
+  }
 }

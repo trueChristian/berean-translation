@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "58e014af-1b26-4ee6-8760-7df27778e7df",
+    "response_id": "chatcmpl-EUGsFnEcw0tgJiwWzNkntfJFxqcVm",
+    "usage": {
+      "completion_tokens": 1986,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11666,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13652
+    }
+  },
+  "received_at": "2026-10-01T20:28:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html article-note (opening paragraph)",
+        "severity": "critical",
+        "source_quote": "A Christ-centered Courtship is a series of messages on godly courtship preached by Paul Hershberger.",
+        "suggested_fix": "Translate and preserve meaning: replace the Hebrew phrase that reads \"חתונה עבריינית אלוהית\" with a correct rendering of \"A Christ-centered Courtship\" and \"godly courtship\". For example: keep the HTML and tags unchanged but change the inner text to: <em>\"A Christ-centered Courtship\" היא סדרת מסרים על חיזור נוצחי/חיזור מושרש במשיח שנשאו פאול הרשברגר.</em> (Or another idiomatic Modern Hebrew rendering of \"godly courtship\" such as 'חיזור שמרכזו המשיח' or 'חיזור יהודי-נוצרי' consistent with the publication's preferred terminology). Do not introduce or change tags; only substitute the incorrect word \"עבריינית\" (criminal) with an accurate phrase meaning \"godly courtship\" or \"Christ-centered courtship\".",
+        "translation_quote": "\"A Christ-centered Courtship\" היא סדרת מסרים על חתונה עבריינית אלוהית שנשאו פאול הרשברגר."
+      },
+      {
+        "location": "title (source.title)",
+        "severity": "critical",
+        "source_quote": "A Christ-Centered Courtship",
+        "suggested_fix": "Title must preserve the original meaning. Replace the Hebrew title \"חתונה שממוקדת במשיח\" (which reads as 'a marriage focused on Christ') with a translation that preserves the English \"Courtship\" (the period/process of seeking/matching before marriage). Suggested fix (one of): \"חיזור שממוקד במשיח\" or \"חיזור במרכזו המשיח\". Keep the <title> tag structure unchanged; only adjust the text content.",
+        "translation_quote": "חתונה שממוקדת במשיח"
+      },
+      {
+        "location": "source.html — Goals section (several goal lines)",
+        "severity": "major",
+        "source_quote": "Five goals for this Christ-Centered Courtship series. Goal #1. To turn the hearts of the fathers to their children. Goal #2. To turn the hearts of the children to their fathers. Goal #3. That parents would get a burden to lead each one of their children into the perfect will of God for their lives. Goal #4. That young people would get a burden to seek after God, find fulfillment and purpose in walking with God, and you would seek maturity in your manners and in your character. Goal #5. That young men and young women would rise up to be godly fathers and godly mothers with a vision to raise up another godly generation, and the Gospel of Jesus Christ can go on.",
+        "suggested_fix": "Translate these English sentences into Hebrew to match the rest of the article and preserve their theological meaning. Keep the same HTML tags and order. Example (literal, adjust style as needed): <h2>חמש מטרות לסדרת החיזור שממוקדת במשיח</h2> followed by five <p> elements with Hebrew equivalents of each goal, preserving nuance (\"turn the hearts of the fathers to their children\" → \"להחזיר את לב האבות אל ילדיהם\", etc.). Do not remove or change scripture references or formatting.",
+        "translation_quote": "Five goals for this Christ-Centered Courtship series.\nGoal #1. To turn the hearts of the fathers to their children.\nGoal #2. To turn the hearts of the children to their fathers.\nGoal #3. That parents would get a burden to lead each one of their children into the perfect will of God for their lives.\nGoal #4. That young people would get a burden to seek after God, find fulfillment and purpose in walking with God, and you would seek maturity in your manners and in your character.\nGoal #5. That young men and young women would rise up to be godly fathers and godly mothers with a vision to raise up another godly generation, and the Gospel of Jesus Christ can go on."
+      },
+      {
+        "location": "source.html — Multiple Bible quotations and many paragraphs left in English",
+        "severity": "major",
+        "source_quote": "Numerous Bible quotations and explanatory paragraphs are left in English in the translation (examples: Ecclesiastes 12:1 paragraph, long Genesis and Genesis/Mark/Corinthians quotations, many explanatory paragraphs throughout).",
+        "suggested_fix": "Bible quotations that were printed in the English source must be rendered into Hebrew conveying the printed English wording (not substituted with an independent Bible version). Translate the English quotation text into Hebrew while preserving verse numbers and placement. Additionally, translate the intervening English explanatory paragraphs into Hebrew. Keep original HTML structure (paragraphs and quote blocks) intact and only replace the English text content with accurate Hebrew equivalents that convey the original English phrasing and theological nuance.",
+        "translation_quote": "Ecclesiastes 12:1 says, “Remember now thy Creator in the days of thy youth...\" and many other English scripture blocks and paragraphs remain in English within the Hebrew article."
+      },
+      {
+        "location": "source.html — Mixed-language fragments within Hebrew paragraphs",
+        "severity": "minor",
+        "source_quote": "Examples: \"ליבם hadn't been given away to anyone else before.\" and \"Therefore Bshall a man leave...\" and other stray English tokens.",
+        "suggested_fix": "Remove mixed-language fragments and translate them fully into Hebrew, preserving the original meaning. For example, replace 'ליבם hadn't been given away to anyone else before.' with a full Hebrew sentence: 'ליבם לא נמסר לאף אחד קודם לכן.' Also correct typographical artifacts like 'Bshall' to the intended text and render in Hebrew. Preserve HTML tags; only edit text nodes.",
+        "translation_quote": "ליבם hadn’t been given away to anyone else before.\n“Therefore Bshall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24)."
+      },
+      {
+        "location": "source.html — Paragraphs that alter or invent wording (tone and small invented phrases)",
+        "severity": "major",
+        "source_quote": "Original: \"A Christ-centered courtship is a period of time between a single life and a married life.\" Translation: \"חתונה שממוקדת במשיח היא תקופת זמן בין חיים בעודה רווקים לבין חיים נשואים.\"",
+        "suggested_fix": "The Hebrew must reflect the concept of 'courtship' (period of seeking before marriage), not 'חתונה' which means 'wedding' or 'marriage'. Change phrasing to use a word for courtship such as 'חיזור' or 'התארגנות לפני הנישואין' and keep the same nuance as the English. Example: 'חיזור שראשו במשיח הוא תקופת זמן בין חיי רווקות לחיי נשואים.' Preserve paragraph tag.",
+        "translation_quote": "חתונה שממוקדת במשיח היא תקופת זמן בין חיים בעודה רווקים לבין חיים נשואים."
+      }
+    ],
+    "passed": false,
+    "score": 40
+  }
+}

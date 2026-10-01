@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6b500229-4927-4c34-9db2-bfe949b16812",
+    "response_id": "chatcmpl-EUGrGoOuWtH8CcONoJP70XWCTvneg",
+    "usage": {
+      "completion_tokens": 1638,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3986,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5624
+    }
+  },
+  "received_at": "2026-10-01T20:28:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: “That was the straw that broke the camel’s back,” Becky said. “I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.”",
+        "severity": "major",
+        "source_quote": "\"I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.\"",
+        "suggested_fix": "Translate the sentence to convey the original meaning: e.g. replace the Hebrew with: \"התרעתי וחששתי כששמעתי אותו מפהק באמצע הלילה וידעתי שאינו ישן.\" (preserve surrounding HTML tags and punctuation).",
+        "translation_quote": "“התרתי דאגה כשהקשבתי לו מצנן באמצע הלילה וידעתי שהוא לא ישן.”"
+      },
+      {
+        "location": "Paragraph: “My darkest day came when I was accused of being selfish with my time because I declined the food committee request.”",
+        "severity": "critical",
+        "source_quote": "\"My darkest day came when I was accused of being selfish with my time because I declined the food committee request.\"",
+        "suggested_fix": "This must convey that Becky was accused by others. Replace with correct Hebrew reflecting passive accusation, e.g.: \"היום האפל ביותר שלי הגיע כשהאשימו אותי שאני אנוכית בזמני כי סירבתי לבקשת ועדת המזון.\" (preserve exact HTML tags and punctuation).",
+        "translation_quote": "\"היום האפל ביותר שלי הגיע כשאיששתי שאני אנוכית עם זמני כי סירבתי לבקשת ועדת המזון.\""
+      },
+      {
+        "location": "Paragraph: “I felt like a lifeguard trying to keep a man from drowning while taking in a bit too much water myself.”",
+        "severity": "minor",
+        "source_quote": "\"I felt like a lifeguard trying to keep a man from drowning while taking in a bit too much water myself.\"",
+        "suggested_fix": "Use an idiomatic Hebrew that preserves the metaphor without changing agency: e.g. \"הרגשתי כמו מציל שמנסה למנוע מאדם לטבוע, תוך כך שגם אני נכנסת קצת למים.\"",
+        "translation_quote": "\"הרגשתי כמו מציל שמנסה למנוע מאדם לטבוע בזמן שגם אני נושאת קצת מים בפה.\""
+      },
+      {
+        "location": "Paragraph: “The boys were old enough to help, yet they couldn’t do much without Rick’s direction.”",
+        "severity": "minor",
+        "source_quote": "\"The boys were old enough to help, yet they couldn’t do much without Rick’s direction.\"",
+        "suggested_fix": "Smooth Hebrew wording while preserving meaning, e.g.: \"הבנים שלנו כבר היו מספיק בוגרים כדי לעזור, אך הם לא יכלו לעשות הרבה ללא הנחייתו של ריק.\"",
+        "translation_quote": "\"הבנים שלנו היו בני גיל המסוגלים לעזור, אך לא יכלו לעשות הרבה בלי הנחייתו של ריק.\""
+      },
+      {
+        "location": "Heading: \"Believe that God cares\" and following paragraph with Psalm 30:5",
+        "severity": "minor",
+        "source_quote": "\"Believe that God cares\" and: \"Believe “Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).\"",
+        "suggested_fix": "Heading tone in Hebrew uses feminine forms elsewhere; keep consistent with article voice (addressing female reader). Also consider translating the Psalm citation into the same presentation as in English (the translation currently preserves the English quote — acceptable but note consistency). If you want Hebrew rendering of heading: \"האמיני שאלוהים דואג\". If keeping as is, no change required.",
+        "translation_quote": "\"אחרי המאמץ — האמונה שמשמעותה שהאל דואג\" and \"האמיני “Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).\""
+      },
+      {
+        "location": "Final paragraph with Psalm 71:1 quote",
+        "severity": "minor",
+        "source_quote": "\"And say with the Psalmist, “In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).\"",
+        "suggested_fix": "The Hebrew text addresses a female reader elsewhere; consider keeping imperative gender consistent (e.g. \"ואמרי עם המזמור-הזמר:\"). The Hebrew currently leaves the verse in English — that is acceptable per guidance; if desired, keep the English quote but ensure surrounding Hebrew verbs match second-person feminine if addressing the same audience.",
+        "translation_quote": "\"ואמרי עם מזמור-הזמר, “In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).\""
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

@@ -358,6 +358,34 @@
     },
     {
       "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/heb/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
+      "html_sha256": "6390474b6f42b9a9769440c5be2cf8ab6e05c825f1f19f24f0ee91bb4e37092f",
+      "human_reviewed": false,
+      "id": "db7b1129-282d-4f48-aefa-f839cb585426",
+      "images": [
+        {
+          "alt": "רצף שתילים שצומחים מן האדמה בזמן שיד משקה אותם",
+          "public_path": "/images/articles/db7b1129-282d-4f48-aefa-f839cb585426-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/db7b1129-282d-4f48-aefa-f839cb585426.json",
+      "metadata_sha256": "09b4a409351755fa29fa84a57117490b9cb6aa679259f7fe88d5f91e324a2105",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "מחשבות של מיסיונר",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ההומניסט הנוצרי",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
       "direction": "ltr",
       "html": "content/hin/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
       "html_sha256": "97b872dee7e908df83f9f9ee9c118ac3ecb6aafff54b6b8588611d678bdbcdc3",

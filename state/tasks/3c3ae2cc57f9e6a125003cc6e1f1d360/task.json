@@ -2,7 +2,6 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "29f4bd4370794e738641607e3e709498",
   "campaign": "gh-36910515539",
   "created_at": "2026-10-01T18:57:44+00:00",
   "events": [
@@ -24,6 +23,69 @@
         },
         "total_tokens": 3646
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1516,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3264,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4780
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<p class=\"drop-cap\"> (first paragraph)",
+      "severity": "minor",
+      "source_quote": "Eight-year-old Jamin wasn’t very smart.",
+      "suggested_fix": "Translate idiomatically to Modern Hebrew: replace with \"ג'מין בן שמונה לא היה מאוד חכם.\" and keep the surrounding <p class=\"drop-cap\"> tags unchanged.",
+      "translation_quote": "גיל  שמונה, ג'מין לא היה מאוד חכם."
+    },
+    {
+      "location": "<p>Grandma Otto watched these trials from her rocker on the porch. She was a quiet old lady.</p>",
+      "severity": "minor",
+      "source_quote": "Grandma Otto watched these trials from her rocker on the porch. She was a quiet old lady.",
+      "suggested_fix": "Use a correct Hebrew term for 'rocker' and fix word order: e.g. \"סבתא אוטו צפתה בניסיונות הללו מכיסא הנדנדה שלה על המרפסת. היא הייתה אישה זקנה ושקטה.\" Preserve the <p> tag.",
+      "translation_quote": "סבתא אוטו צפתה בניסיונות האלה משנדנתה על המרפסת. היא הייתה אישה זקנה ושקטה."
+    },
+    {
+      "location": "<p>“Yes. I think so. If you support me, I can hobble along.”</p>",
+      "severity": "major",
+      "source_quote": "Yes. I think so. If you support me, I can hobble along.",
+      "suggested_fix": "Restore the original meaning of 'hobble along' (to walk with difficulty). For example: \"כן, אני חושב כן. אם תתמוך בי, אוכל לעקוב בקושי.\" or \"... אוכל לצעוד בקושי אם תתמוך בי.\" Keep the <p> tag and surrounding punctuation.",
+      "translation_quote": "“כן. אני חושב שכן. אם תתמוך בי, אני אוכל לקפוץ הלאה.”"
+    },
+    {
+      "location": "<p>“Jamin.” It was Grandma. The porch light showed her in her old rocker. A heavy comforter lay on her shoulders.</p>",
+      "severity": "minor",
+      "source_quote": "The porch light showed her in her old rocker. A heavy comforter lay on her shoulders.",
+      "suggested_fix": "Fix idiomatic rendering and verb tense: e.g. \"אור המרפסת גילה אותה בכיסא הנדנדה הישן שלה. שמיכה כבדה שככה על כתפיה.\" (or \"מונחת על כתפיה\"). Preserve the <p> tag.",
+      "translation_quote": "“ג'מין.” זו הייתה סבתא. אור המרפסת הראה אותה בכיסא שלה. שמיכה כבדה שוכבת על כתפיה."
+    },
+    {
+      "location": "<p>The odd little band hurried home, and the screen door banged shut as Dad swept across the porch.</p>",
+      "severity": "minor",
+      "source_quote": "The odd little band hurried home, and the screen door banged shut as Dad swept across the porch.",
+      "suggested_fix": "Use an idiomatic Hebrew verb for 'banged shut' (נעצרה/נטרקה/נעלתה בחבטה) and choose one that fits tone, e.g. \"דלת המסך נטרקה\". Preserve the <p> tag.",
+      "translation_quote": "ההרכב הקטן והמשונה חזר הביתה במהירות, ודלת המסך נסתה בחבטה כשהאבא חצה את המרפסת."
+    },
+    {
+      "location": "<p>He breathed the rich air and followed Kenny’s trail.</p>",
+      "severity": "minor",
+      "source_quote": "He breathed the rich air and followed Kenny’s trail.",
+      "suggested_fix": "Minor stylistic: correct Hebrew verb forms and missing pronoun: e.g. \"נשף את האוויר העשיר ועקב אחרי שבילו של קני.\" or better \"נשם את האוויר העשיר ועקב אחרי שבילו של קני.\" Preserve the <p> tag.",
+      "translation_quote": "נשם את האוויר העשיר ועקב אחרי שבبلو של קני."
     }
   ],
   "id": "3c3ae2cc57f9e6a125003cc6e1f1d360",
@@ -69,11 +131,13 @@
     }
   },
   "protected": false,
+  "quality_score": 62,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a7ca25068c1bad9f392aef90030e0bae4b2e168a2dbdfb445b23493e0ef481c1.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

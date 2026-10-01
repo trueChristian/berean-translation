@@ -2,7 +2,6 @@
   "article_id": "1c75dce8-1781-427f-8099-01596d53c2a4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "29f4bd4370794e738641607e3e709498",
   "campaign": "gh-36910515539",
   "created_at": "2026-10-01T18:57:44+00:00",
   "events": [
@@ -24,6 +23,76 @@
         },
         "total_tokens": 7037
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2144,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6454,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8598
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Paragraph: \"The robin opens up the choir...\" (source.html third paragraph after the first figure)",
+      "severity": "critical",
+      "source_quote": "The robin opens up the choir in early spring, but his song is soon surpassed in beauty by the song sparrow and again by the rose-breasted grosbeak.",
+      "suggested_fix": "Translate bird name and surrounding clause to preserve meaning and imagery. Example (preserve HTML tags and order): \"השחרור פותח את המקהלה בתחילת האביב, אך שירו במהרה גובר ביופיו על ידי הספארוּוֹ (song sparrow) ושוב על ידי הציפור rose-breasted grosbeak.\" — but better use correct Hebrew bird names: replace \"השחרור\" with \"העיטור\" or the common Hebrew name for 'robin' (e.g., \"קיכלי\" or \"רובין\" depending on style). Ensure the verbs and comparison mirror the English: 'פותח את המקהלה בתחילת האביב, אך שירתו במהרה מנוצחת ביופייה על ידי ה-song sparrow ושוב על ידי ה-rose-breasted grosbeak.'",
+      "translation_quote": "השחרור פותח את המקהלה בתחילת האביב, אך שירו מוחלף במהרה ביופיו על ידי ה-song sparrow ושוב על ידי ה-rose-breasted grosbeak."
+    },
+    {
+      "location": "Paragraph: reference to John 4 (paragraph beginning 'In John 4, we happen upon the scene...')",
+      "severity": "critical",
+      "source_quote": "In John 4, we happen upon the scene at Jacob’s well, where Christ asks the woman for a drink.",
+      "suggested_fix": "Correct the book reference wording in Hebrew and keep the quoted English Scripture if desired. For example: replace \"ביון 4\" with \"ביוֹחנן פרק 4\" or \"בספר יוחנן פרק ד׳\". Keep HTML structure unchanged.",
+      "translation_quote": "ביון 4, אנו נתקלים בסצנה ליד באר יעקב, שם המשיח מבקש מן האישה לשתות."
+    },
+    {
+      "location": "Final paragraph before last: 'God's loving providence'",
+      "severity": "major",
+      "source_quote": "...who are thankful for God’s loving providence.",
+      "suggested_fix": "Restore original meaning: replace the mistranslation 'פרובלמותיו האוהבות של האל' with a correct Hebrew rendering such as 'ההשגחה האוהבת של האל' or 'השגחתו האוהבת של אלוהים'. Preserve punctuation and HTML tags.",
+      "translation_quote": "הרבה־מספר של ידידינו הנוצותיים השמחים על פרובלמותיו האוהבות של האל."
+    },
+    {
+      "location": "Paragraph: lead sentence about 'Doth the wild ass bray... (Job 6:5)'",
+      "severity": "minor",
+      "source_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5).",
+      "suggested_fix": "The English Scripture quotation is acceptable, but the Hebrew paragraph mixes English quote with Hebrew sentence flow. Consider adding a Hebrew rendering or clarifying punctuation to match surrounding Hebrew syntax if stylistically desired, while preserving the printed English quote (per review rules). No doctrinal change needed.",
+      "translation_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5)."
+    },
+    {
+      "location": "Multiple paragraphs: inconsistent rendering of bird species names (e.g., 'killdeer', 'song sparrow', 'rose-breasted grosbeak', 'wren', 'buntings', 'cowbird', 'starlings', 'grackles')",
+      "severity": "major",
+      "source_quote": "Examples: \"The killdeer also has no qualms...\"; \"the song sparrow and again by the rose-breasted grosbeak.\"; \"The wren trumps them all...\"; \"The buntings fill in the heat...\"; \"the cowbird is also black...\"; \"the starlings and grackles.\"",
+      "suggested_fix": "Use consistent, accurate Hebrew names (or consistently keep English common names) for bird species. Mixing untranslated English names, hyphenated English, and Hebrew creates confusion and can alter meaning. Either provide the accepted Hebrew bird name for each species or consistently present the English name in italics/quotes (here keep plain text), for example: 'ה-killdeer (killdeer)', 'ה-song sparrow (song sparrow)', or better: 'ציפור החוף (killdeer)'. Preserve the original comparisons and qualifiers.",
+      "translation_quote": "השחרור פותח את המקהלה... ה-song sparrow ושוב על ידי ה-rose-breasted grosbeak. שירת ה-wren גוברת... ה-buntings ממלאים... ה-cowbird גם הוא שחור... ה-starlings וה-grackles."
+    },
+    {
+      "location": "Paragraph: 'The advent of Christ was marked by the angelic host announcing peace...' (angels phrase)",
+      "severity": "minor",
+      "source_quote": "The advent of Christ was marked by the angelic host announcing peace and goodwill toward men.",
+      "suggested_fix": "The translation renders 'angelic host' inconsistently as 'הר_hosts המלאכיים'. Replace 'הר_hosts' with a correct Hebrew phrase such as 'חוצת המלאכים' or better 'המוני המלאכים' or 'החזית המלאכית' while keeping the rest intact. Preserve the quoted English Scripture if present.",
+      "translation_quote": "ביאת המשיח סומנה על ידי הר_hosts המלאכיים שהודיעו שלום ורצון טוב לבני אדם."
+    },
+    {
+      "location": "Paragraph: 'We hang our harps upon the willows...' (Psalm 137)",
+      "severity": "minor",
+      "source_quote": "\"We hanged our harps upon the willows in the midst thereof... How shall we sing the LORD’S song in a strange land?\" (Ps 137:2-4).",
+      "suggested_fix": "Quotation left in English is permissible under the rule to preserve printed English, but ensure surrounding Hebrew punctuation and introductory phrase reflect that the quote is verbatim. No doctrinal change; optional stylistic fix to add Hebrew quotation markers or a short Hebrew translation in parentheses.",
+      "translation_quote": "“We hanged our harps upon the willows in the midst thereof. For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion. How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4)."
     }
   ],
   "id": "2cd961df2cd1abc2d8ea69524ca81d80",
@@ -69,11 +138,13 @@
     }
   },
   "protected": false,
+  "quality_score": 40,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6b4fad51874daab2b26c2a97a4e4c4aa1580e7cb9aed0a786736362fa6dfa46a.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

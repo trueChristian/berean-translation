@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1c624448-f110-494a-a932-21c2532c685e",
+    "response_id": "chatcmpl-EUGrGgVqwZmpLRmscjGwWLNVWzFtc",
+    "usage": {
+      "completion_tokens": 1242,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6750,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7992
+    }
+  },
+  "received_at": "2026-10-01T20:28:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph: \"Some plant, some water, but God gives the increase.\"",
+        "severity": "minor",
+        "source_quote": "Some plant, some water, but God gives the increase.",
+        "suggested_fix": "Preserve the idiomatic sense in Hebrew and correct word choice: replace \"חלק צמח, חלק מים, אך האל נותן את ההגדלה.\" with \"חלק אחד שתל, חלק אחד השקה, אך האל הוא שנותן את הצמיחה.\"",
+        "translation_quote": "\"חלק צמח, חלק מים, אך האל נותן את ההגדלה.\""
+      },
+      {
+        "location": "source.html — paragraph describing the customer's reply: \"...and you all deserve the credit, not God!\"",
+        "severity": "minor",
+        "source_quote": "you all deserve the credit, not God!",
+        "suggested_fix": "Correct Hebrew loanword spelling and keep informal tone: replace \"אתם ראויים לכרדיט, לא אלוהים!\" with \"אתם ראויים לקרדיט, לא אלוהים!\"",
+        "translation_quote": "\"אתם ראויים לכרדיט, לא אלוהים!\""
+      },
+      {
+        "location": "source.html — paragraph with gardening example: \"He waters and fertilizes weeds and prunes.\"",
+        "severity": "minor",
+        "source_quote": "He waters and fertilizes weeds and prunes.",
+        "suggested_fix": "Correct verb forms and meanings in Hebrew and preserve sequence of actions: replace the sentence fragment \"הוא השקיה ודישון, הוצאת עשבים ותגמול.\" with \"הוא השקות ודישון, עקירת עשבים וגזימה.\"",
+        "translation_quote": "\"הוא השקיה ודישון, הוצאת עשבים ותגמול.\""
+      },
+      {
+        "location": "source.html — paragraph: \"This type of humanism has confused the modern world. He caused unbelievers to mock...\" (context of sentence mentioning 'am-nist' in translation)",
+        "severity": "minor",
+        "source_quote": "This type of humanism has confused the modern world. It has caused unbelievers to mock the Christian faith and to call it a false religion with no power.",
+        "suggested_fix": "Fix a mistranscription/typo and a mistranslated noun: replace \"הוא גרם לאמניסטים ללעוג\" (if present) or any malformed form with \"הוא גרם לכך שאיןאמינים ילעגו לאמונה הנוצרית\" or simply \"וזה גרם לחילונים ולכופרים ללעוג לאמונה הנוצרית\". (Keep source HTML structure unchanged.)",
+        "translation_quote": "\"סוג זה של הומניזם בלבל את העולם המודרני. הוא גרם לאמניסטים ללעוג לאמונה הנוצרית ולכנותה דת שקרית חסרת כוח.\""
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

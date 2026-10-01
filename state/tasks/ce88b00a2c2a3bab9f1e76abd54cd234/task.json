@@ -2,7 +2,6 @@
   "article_id": "db7b1129-282d-4f48-aefa-f839cb585426",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "29f4bd4370794e738641607e3e709498",
   "campaign": "gh-36910515539",
   "created_at": "2026-10-01T18:57:44+00:00",
   "events": [
@@ -24,8 +23,58 @@
         },
         "total_tokens": 6938
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1242,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6750,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7992
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "source.html — paragraph: \"Some plant, some water, but God gives the increase.\"",
+      "severity": "minor",
+      "source_quote": "Some plant, some water, but God gives the increase.",
+      "suggested_fix": "Preserve the idiomatic sense in Hebrew and correct word choice: replace \"חלק צמח, חלק מים, אך האל נותן את ההגדלה.\" with \"חלק אחד שתל, חלק אחד השקה, אך האל הוא שנותן את הצמיחה.\"",
+      "translation_quote": "\"חלק צמח, חלק מים, אך האל נותן את ההגדלה.\""
+    },
+    {
+      "location": "source.html — paragraph describing the customer's reply: \"...and you all deserve the credit, not God!\"",
+      "severity": "minor",
+      "source_quote": "you all deserve the credit, not God!",
+      "suggested_fix": "Correct Hebrew loanword spelling and keep informal tone: replace \"אתם ראויים לכרדיט, לא אלוהים!\" with \"אתם ראויים לקרדיט, לא אלוהים!\"",
+      "translation_quote": "\"אתם ראויים לכרדיט, לא אלוהים!\""
+    },
+    {
+      "location": "source.html — paragraph with gardening example: \"He waters and fertilizes weeds and prunes.\"",
+      "severity": "minor",
+      "source_quote": "He waters and fertilizes weeds and prunes.",
+      "suggested_fix": "Correct verb forms and meanings in Hebrew and preserve sequence of actions: replace the sentence fragment \"הוא השקיה ודישון, הוצאת עשבים ותגמול.\" with \"הוא השקות ודישון, עקירת עשבים וגזימה.\"",
+      "translation_quote": "\"הוא השקיה ודישון, הוצאת עשבים ותגמול.\""
+    },
+    {
+      "location": "source.html — paragraph: \"This type of humanism has confused the modern world. He caused unbelievers to mock...\" (context of sentence mentioning 'am-nist' in translation)",
+      "severity": "minor",
+      "source_quote": "This type of humanism has confused the modern world. It has caused unbelievers to mock the Christian faith and to call it a false religion with no power.",
+      "suggested_fix": "Fix a mistranscription/typo and a mistranslated noun: replace \"הוא גרם לאמניסטים ללעוג\" (if present) or any malformed form with \"הוא גרם לכך שאיןאמינים ילעגו לאמונה הנוצרית\" or simply \"וזה גרם לחילונים ולכופרים ללעוג לאמונה הנוצרית\". (Keep source HTML structure unchanged.)",
+      "translation_quote": "\"סוג זה של הומניזם בלבל את העולם המודרני. הוא גרם לאמניסטים ללעוג לאמונה הנוצרית ולכנותה דת שקרית חסרת כוח.\""
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:05+00:00",
   "id": "ce88b00a2c2a3bab9f1e76abd54cd234",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "heb",
@@ -69,11 +118,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a072a36e6aede6bd6978f7ac04698cebcbcce9571999d9176c58a465e0428962.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

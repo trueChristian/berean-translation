@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "85e2e1c7-fb1a-412f-972e-cfd08219ad4d",
+    "response_id": "chatcmpl-EUGsFspH1HMCUCrLRzU1nyUkVWrw9",
+    "usage": {
+      "completion_tokens": 1726,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1088,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1467,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3193
+    }
+  },
+  "received_at": "2026-10-01T20:28:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> stanza 2, line 4 (source.html third line of stanza)",
+        "severity": "minor",
+        "source_quote": "And showers blessings from above,",
+        "suggested_fix": "Replace the Hebrew verb \"מרטיב\" with a verb that conveys 'showers/portrays abundant outpouring'—for example: \"ושופך ברכות מלמעלה,\" or \"ומשפך ברכות מלמעלה,\" preserving the surrounding HTML.",
+        "translation_quote": "ומרטיב ברכות מלמעלה,"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 2, line 6 (source.html last line of stanza)",
+        "severity": "major",
+        "source_quote": "Adore and praise our mighty Lord!",
+        "suggested_fix": "Change the verb \"העריצו\" (which commonly means 'admire') to a Hebrew verb that conveys worship/adoration in a theological sense: e.g. \"השתחוו והשבחו את אדוננו האדיר!\" or \"עבדו והללו את אדוננו האדיר!\" Keep tags and punctuation.",
+        "translation_quote": "העריצו והשבחו את אדוננו החזק!"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 2, line 5 (source.html penultimate line of stanza)",
+        "severity": "minor",
+        "source_quote": "His mercy reaches down to men-",
+        "suggested_fix": "Replace the awkward phrasing \"רחמיו יורדים לעבר האנשים—\" with a more natural rendering that keeps the directional sense, e.g. \"רחמיו נשפכים אל בני האדם—\" or \"רחמיו יורדים אל האנשים—\" Keep the dash and HTML.",
+        "translation_quote": "רחמיו יורדים לעבר האנשים—"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 3, line 5 (source.html fifth line of stanza)",
+        "severity": "minor",
+        "source_quote": "In wondrous beauty bend the knee;",
+        "suggested_fix": "Avoid the past-tense/awkward phrasing \"בתפארה נפלו ברך;\" and use an imperative/present participle that matches the English meter and sense, e.g. \"ובתפארה נכרע ברך;\" or \"בתפארה כפפו את הברך;\" Preserve tags and punctuation.",
+        "translation_quote": "בתפארה נפלו ברך;"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 3, line 1 (source.html first line of stanza)",
+        "severity": "minor",
+        "source_quote": "Give thanks and sing to Christ our King",
+        "suggested_fix": "The line is mostly correct, but ensure the Hebrew idiom flows: consider \"הודו ושירו למשיח מלכנו,\" (as translated) or optionally \"הודו ושירו למשיח, מלכנו\" if a slight pause is desired. No HTML structural changes.",
+        "translation_quote": "הודו ושירו למשיח מלכנו"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}
