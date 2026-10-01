@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "40e6f6f7-4347-4057-bed4-8c83f365442c",
+    "response_id": "chatcmpl-EUGTH7bpitVvZfWoUchK8Q6OlROsz",
+    "usage": {
+      "completion_tokens": 1432,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1922,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3354
+    }
+  },
+  "received_at": "2026-10-01T19:12:34+00:00",
+  "result": {
+    "html": "<article data-article-id=\"aa552c1c-4324-40a5-a7c3-8f36b6a99ee2\">\n  <p class=\"drop-cap\">Jamin, de ocho años, no era muy listo. O al menos eso era lo que su hermano mayor le decía. Casi a diario, Kenny encontraba maneras de recordarle a Jamin sus defectos y burlarse de sus tropiezos.</p>\n  <p>“Jamin, nunca serás listo”, decía Kenny. En lo más profundo, Jamin se sentía resignado a una vida de torpezas confusas. ¿Siempre sería torpe? ¿Siempre diría las cosas mal? Eso era lo que decía Kenny.</p>\n  <p>Jamin creía las lecciones de Kenny con ojos asombrados. Kenny tenía tres años más que él, así que debía de tener razón. Muy bien, entonces Jamin sería simple. Kenny sería listo. La vida no era justa. Papá y mamá no aprobaban las palabras orgullosas de Kenny y lo castigaban siempre que lo sorprendían en una de sus arengas. Pero Kenny tenía la habilidad de evitar que lo oyeran. Así que siguió burlándose de Jamin.</p>\n  <p>La abuela Otto observaba estas pruebas desde su mecedora en el porche. Era una mujer mayor callada.</p>\n  <p>“Jamin, ¿sabes dónde está Kenny?” preguntó mamá con una sonrisa. “Ya casi es la hora de la cena.”</p>\n  <p>“Se fue a revisar sus trampas para coyotes. Voy a buscarlo.”</p>\n  <p>Había un frescor en el aire mientras atravesaba el césped, y el sol envejecía cuando cruzó el límite del bosque. Las sombras fugaces se apresuraban por las colinas. El frío se intensificó a medida que se internaba más. Respiró el aire denso y siguió la huella de Kenny. Eventualmente, el sendero desembocaría en un prado, pero Jamin esperaba encontrar a Kenny antes de tener que llegar tan lejos. Ya se habían revisado las distintas trampas, así que Jamin sabía que Kenny había pasado por aquí. Jamin continuó marchando con determinación. Su cabecita dorada atrapó los fatigados rayos que huían del sol al parpadear entre los árboles. Y pronto esos también se desvanecieron, dejando tras de sí el olor almizclado del bosque. Las polillas del otoño habían estado en su faena, y sus cortinas de telaraña colgaban de las ramas sobre la cabeza.</p>\n  <p>Al fin, cuando los árboles se apaciguaron y se hicieron más escasos, y apareció el prado, Jamin supo que ese era el final de la ruta de las trampas de su hermano. Si Kenny no estaba allí, no sabría dónde buscar más.</p>\n  <p>Pero Kenny estaba allí. Cuando Jamin entró pesadamente en el prado, pudo ver un montón frustrado a su derecha. La voz del montón tenía un timbre conocido. El rostro del montón estaba iluminado por el dolor. El montón era Kenny. “¿Estás bien? ¿Qué pasó?” Jamin se sintió extraño al ver a Kenny encogido en la tierra. Kenny era listo. “¿Pisaste una trampa?”</p>\n  <p>“Sí, Jamin. Yo... no estaba mirando por dónde iba. Ayúdame. Por favor.”</p>\n  <p>Jamin se inclinó y encontró un tobillo firmemente sujeto por las mandíbulas de una trampa de acero. La oscuridad teñía el suelo alrededor de Kenny. Rápidamente, los fuertes brazos de Jamin forzaron la apertura de las mandíbulas. Kenny salió tambaleándose. “¿Puedes caminar?”</p>\n  <p>“Sí. Creo que sí. Si me sostienes, puedo cojear.”</p>\n  <p>“Papá y mamá estarán preocupados. Nos hemos perdido la cena.”</p>\n  <p>En efecto, mientras los hermanos cojeaban de regreso por el bosque, oyeron la larga llamada de su padre. Jamin respondió, y en un instante él estuvo a su lado, viendo el tobillo y alzando a Kenny como a una oveja herida. La extraña pandilla se apresuró a casa, y la puerta mosquitera se cerró de un portazo cuando papá cruzó el porche. Jamin fue a la letrina y se fregó las manos. Se dirigió a la puerta principal.</p>\n  <figure>\n    <img src=\"/images/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2-1.jpg\" alt=\"Un sendero estrecho serpenteando por un bosque frondoso\" loading=\"lazy\">\n  </figure>\n  <p>“Jamin.” Era la abuela. La luz del porche la mostraba en su vieja mecedora. Un grueso cobertor reposaba sobre sus hombros.</p>\n  <p>“Sí, abuela?”</p>\n  <p>“¿Crees que no eres muy listo?”</p>\n  <p>“Eso es lo que dice Kenny.” Jamin se retorció.</p>\n  <p>“Fuiste lo bastante fuerte como para abrir la trampa, y Kenny no lo fue. Fuiste lo bastante valiente como para encontrarlo en la oscuridad. Muchos chicos no lo serían.” Jamin guardó silencio. La abuela Otto meció la mecedora un poco más y luego sonrió. “Dios te hizo tal como eres por una razón, Jamin. Hizo a Kenny tal como es por una razón. Tiene un plan para ti, y un lugar que solo tú puedes llenar, ¿sabes?”</p>\n  <p>Jamin se dio la vuelta y entró en la cálida cocina. Estaba sonriendo.</p>\n</article>\n",
+    "section": "Rincón Infantil",
+    "subtitle": null,
+    "title": "Jamin se vuelve listo"
+  }
+}
