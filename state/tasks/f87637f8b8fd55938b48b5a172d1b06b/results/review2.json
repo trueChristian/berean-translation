@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ee46f078-6656-43fb-bcd8-e2aae980f2da",
+    "response_id": "chatcmpl-EUHljsnVcvRkNysVbjDXoE2XkFUgT",
+    "usage": {
+      "completion_tokens": 1225,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9282,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10507
+    }
+  },
+  "received_at": "2026-10-01T20:36:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "Dealing with Cynicism",
+        "suggested_fix": "Consider a more natural Afrikaans rendering such as “Sinisme hanteer” or “Om sinisme te hanteer” (preserve tags/order as-is). Replace the contents of the <title> element only.",
+        "translation_quote": "Om te Werk met Sinisme"
+      },
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "A WORD FROM THE DOCTOR",
+        "suggested_fix": "Use the more typical Afrikaans capitalization and wording for a section header, e.g. “’n Woord van die Dokter” (note the initial lowercase apostrophe-n), to match idiomatic usage. Replace the contents of the section field only.",
+        "translation_quote": "’N WOORD VAN DIE DOKTER"
+      },
+      {
+        "location": "paragraph (after finding rehab facility)",
+        "severity": "minor",
+        "source_quote": "I stepped out of the exam room and to make phone calls.",
+        "suggested_fix": "The Afrikaans “Ek het die ondersoekkamer verlaat om telefone te maak.” is non‑idiomatic. Suggest: “Ek het die ondersoekkamer verlaat om ’n paar telefoontjies te maak.” Preserve original paragraph tags and surrounding HTML.",
+        "translation_quote": "Ek het die ondersoekkamer verlaat om telefone te maak."
+      },
+      {
+        "location": "paragraph (they left with marching orders)",
+        "severity": "minor",
+        "source_quote": "They left my office with marching orders and directions on where to go.",
+        "suggested_fix": "“Marsbevelle” reads unusually in Afrikaans; consider “opdragte” or “duidelike instruksies” for naturalness. Example replacement: “Hulle het my kantoor verlaat met duidelike instruksies en aanwysings waarheen om te gaan.” Preserve paragraph tags and nesting.",
+        "translation_quote": "Hulle het my kantoor verlaat met marsbevelle en aanwysings waarheen om te gaan."
+      },
+      {
+        "location": "paragraph (Ecclesiastes description)",
+        "severity": "minor",
+        "source_quote": "If there is a book in the Bible that seems to have been written by a cynical man, it is the book of Ecclesiastes.",
+        "suggested_fix": "The translation uses “sinsgetrewe” in “wat lyk of dit deur ’n sinsgetrewe man geskryf is,” which is understandable but unusual. Consider “sinis”/“sinies” derivation or simply “’n siniese man” for clarity: “wat lyk of dit deur ’n siniese man geskryf is.” Preserve HTML paragraph tags.",
+        "translation_quote": "As daar ’n boek in die Bybel is wat lyk of dit deur ’n sinsgetrewe man geskryf is, is dit die boek Prediker."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

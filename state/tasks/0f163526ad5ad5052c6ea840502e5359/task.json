@@ -2,7 +2,6 @@
   "article_id": "1c75dce8-1781-427f-8099-01596d53c2a4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5e8f1498dc48457296d31ed5cdb00fc4",
   "campaign": "gh-36908965053",
   "created_at": "2026-10-01T18:45:14+00:00",
   "events": [
@@ -62,24 +61,44 @@
         },
         "total_tokens": 10920
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1858,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6592,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8450
+      }
     }
   ],
   "findings": [
     {
-      "location": "Paragraph beginning \"Sonde. Nie alle voëls sing nie.\"",
-      "severity": "major",
-      "source_quote": "The babbling noise we hear emanating from many passing vehicles certainly parallels the songs of such foul fowl.",
-      "suggested_fix": "Translate the sentence without adding gender. Replace \"weerspieël beslis die liedere van sulke vroulike voëls\" with wording that preserves the original meaning and does not add \"vroulike\" (female). For example: \"die gekabbelde geluid wat ons uit baie verbyryende voertuie hoor, weerspieël beslis die liedere van sulke onreine voëls.\"",
-      "translation_quote": "Die gekabbelde geluid wat ons uit baie verbyryende voertuie hoor, weerspieël beslis die liedere van sulke vroulike voëls."
+      "location": "source.html — paragraph 1 (sentence with quoted question)",
+      "severity": "minor",
+      "source_quote": "Paul pleaded with the Corinthian church, “Doth not nature itself teach you?”",
+      "suggested_fix": "Render the quoted question into Afrikaans to match the surrounding translation (or retain the exact printed-English quote as in the source if that was editorial intent). For example: “Dít leer jou die natuur self nie?” or, if preserving the source's exact printed English is required, keep the original English quotation marks and wording unchanged. Ensure consistent treatment of short quoted English phrases throughout the article.",
+      "translation_quote": "Paulus het met die Korintiërs gesmeek, “Doth not nature itself teach you?”"
     },
     {
-      "location": "Multiple places — word choices and minor mistranslations (examples)",
+      "location": "source.html — multiple scripture/quote occurrences (Job 6:5; James 5:13; Ps 40:3; Eph 5:19; John 4:14; John 7:38 reference; Is 65:14; Rev 18:2; Ps 22:9; Gen 26:15; Ps 137:2-4; Jer. 29:5-7; Col 3:16, 23)",
       "severity": "minor",
-      "source_quote": "starlings",
-      "suggested_fix": "Use the standard Afrikaans common name or an accepted transliteration rather than a literal 'sterrevoëls'. Replace \"sterrevoëls\" with \"spreeus\" (or another context-appropriate common name used in the publication). Also correct obvious typos/loanwords: replace \"nagingale\" with \"nagingale\" (or local spelling), and change \"exploit hulle sonde\" to an idiomatic Afrikaans construction such as \"benut hul sondigheid\" or \"buit hul sondes uit.\"",
-      "translation_quote": "Van so is die waardelose swartvoëls, sterrevoëls en grackles. ... voed vrolik op die rampspoed van 'n ander en exploit hulle sonde. ... Die kanarie sing in 'n hok, terwyl die nagingale in die donker sing."
+      "source_quote": "(Examples:) “Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5). “Is any merry? Let him sing psalms” (James 5:13). “And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3). “Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord” (Eph 5:19). … “But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14). … “Behold, my servants shall sing for joy of heart” (Is 65:14). “Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2). … “But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts” (Ps 22:9). The long Psalm 137 quotation (Ps 137:2-4). “Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23).",
+      "suggested_fix": "Decide on and implement a consistent policy for Scripture and set-phrase quotations: either (A) render each quoted Scripture and English set-phrase into idiomatic Afrikaans that faithfully conveys the printed-English wording used in the source, or (B) keep the source's exact printed-English quotations intact in the Afrikaans article. Currently many such lines remain in English embedded in Afrikaans text; this is inconsistent. Update each quoted passage accordingly. Example Afrikaans rendering for one: “Is iemand bly? Laat hom psalms sing” (James 5:13). If editorial policy requires the source printed English to remain, then retain those exact English quotations in every case rather than a mix.",
+      "translation_quote": "(Examples from translation showing English quotes retained) “Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5). “Is any merry? Let him sing psalms” (James 5:13). “And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3). “Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord” (Eph 5:19). “But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14). “Behold, my servants shall sing for joy of heart” (Is 65:14). “Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2). “But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts” (Ps 22:9). The full Psalm 137 passage is left in English. “Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23)."
     }
   ],
+  "finished_at": "2026-10-01T20:36:49+00:00",
   "id": "0f163526ad5ad5052c6ea840502e5359",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "afr",
@@ -123,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6b4fad51874daab2b26c2a97a4e4c4aa1580e7cb9aed0a786736362fa6dfa46a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
