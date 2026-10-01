@@ -1,0 +1,22 @@
+{
+  "campaign": "gh-36910113689",
+  "created_at": "2026-10-01T20:31:29+00:00",
+  "custom_ids": [
+    "6514854ccb67aa3b9912a956ba1a1552:correct",
+    "7da73b1a3e6db50a0820ca29443129a8:correct",
+    "fa2b6bef991135d6b46587ea1cca995d:correct"
+  ],
+  "id": "20a43fe78d5e45dfb77b4b7c492e7178",
+  "input_file_id": null,
+  "model": "gpt-5-mini",
+  "payload_sha256": "5c9841f891e4d09708963e0bcd5a4339c07230d472c6be1cee10fb74c2833f76",
+  "remote_id": null,
+  "reserved_usd": 0.065583,
+  "stage": "correct",
+  "status": "prepared",
+  "tasks": [
+    "6514854ccb67aa3b9912a956ba1a1552",
+    "7da73b1a3e6db50a0820ca29443129a8",
+    "fa2b6bef991135d6b46587ea1cca995d"
+  ]
+}
