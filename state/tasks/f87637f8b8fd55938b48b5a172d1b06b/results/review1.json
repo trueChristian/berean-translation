@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "97d2aa35-8a54-446b-9de1-79b2c8f2fb78",
+    "response_id": "chatcmpl-EUGx189K4QG8zZDd1gsTgMCWTIED5",
+    "usage": {
+      "completion_tokens": 1101,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9284,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10385
+    }
+  },
+  "received_at": "2026-10-01T20:28:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "article > figure:nth-of-type(2) > img@alt",
+        "severity": "critical",
+        "source_quote": "A butterfly among bright wildflowers and grasses.",
+        "suggested_fix": "Replace the alt text with a faithful translation preserving meaning, e.g. alt=\"’n Skoonheidige skoenlapper tussen helder veldblomme en grasse.\"",
+        "translation_quote": "’n Skerpioen tussen helder veldblomme en grasse."
+      },
+      {
+        "location": "source.section -> translation.section",
+        "severity": "major",
+        "source_quote": "A WORD FROM THE DOCTOR",
+        "suggested_fix": "Translate the section heading accurately and without stray characters, preserving case/spacing expected by the site, e.g. \"A WORD FROM THE DOCTOR\" -> \"N 'n WOORD VAN DIE DOKTER\" or more idiomatically \"’N WOORD VAN DIE DOKTER\" (replace the current value exactly in the translation field).",
+        "translation_quote": "N A WOORD VAN DIE DOKTER"
+      },
+      {
+        "location": "article > p:nth-of-type(8)",
+        "severity": "minor",
+        "source_quote": "“I guess so,” she said, indifferently.",
+        "suggested_fix": "Correct the Afrikaans wording to a natural idiom that preserves the original sense, e.g. change “ongeïndifiseer” to “ongeïndifereerd” or “onverskillig”. Make the edit in the same paragraph tag without changing HTML structure.",
+        "translation_quote": "“Ek dink so,” het sy sê, ongeïndifiseer."
+      },
+      {
+        "location": "article > h2:nth-of-type(4) / paragraph where Romans quote is introduced",
+        "severity": "minor",
+        "source_quote": "It is interesting that the Apostle Paul spoke of tribulations in the Epistle to the Romans, “And not only so, but we glory in tribulations also...\" (Romans 5:3-5).",
+        "suggested_fix": "Fix the misspelling of 'Epistle' in Afrikaans. Replace “Briedbrief” with the correct term, e.g. “Boodskap aan die Romeine” or “Epistel aan die Romeine”, preserving the quoted English scripture as in the source.",
+        "translation_quote": "Dit is interessant dat die apostel Paulus oor verdrukkinge gespreek het in die Briedbrief aan die Romeine, “And not only so, but we glory in tribulations also:...\" (Romans 5:3-5)."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

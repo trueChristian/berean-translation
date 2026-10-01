@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "78a09706-0d0a-42c2-81c6-3bf5944962b4",
+    "response_id": "chatcmpl-EUGvQ6wwJuSNAoz2VavCQqK8yg5vu",
+    "usage": {
+      "completion_tokens": 1481,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3251,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4732
+    }
+  },
+  "received_at": "2026-10-01T20:28:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Translation paragraph: \"Sy goue kop het die moedervlak strale gevang wat van die son gevlug het terwyl hulle deur die bome geflikker het.\"",
+        "severity": "minor",
+        "source_quote": "His golden head caught the tired beams that fled from the sun as they flickered through the trees.",
+        "suggested_fix": "Replace the garbled word \"moedervlak\" with a faithful rendering such as \"vermoeide\" so the sentence reads: \"Sy goue kop het die vermoeide strale gevang wat van die son gevlug het terwyl hulle deur die bome geflikker het.\" Preserve existing HTML tags and attributes.",
+        "translation_quote": "Sy goue kop het die moedervlak strale gevang wat van die son gevlug het terwyl hulle deur die bome geflikker het."
+      },
+      {
+        "location": "Figure img alt attribute",
+        "severity": "minor",
+        "source_quote": "A narrow path winding through a leafy woodland",
+        "suggested_fix": "The translated alt text contains a non-idiomatic or incorrect compound \"blaredakke\". Replace the alt value with a clear, natural Afrikaans rendering preserving quotes and attributes, for example: alt=\"'n nou paadjie kronkel deur 'n blaarbedekte woud\"",
+        "translation_quote": "'n Nou paadjie kronkel deur ’n blaredakke woud"
+      },
+      {
+        "location": "Translation paragraph: \"Hy het weggegaan om sy jakhalslotte na te gaan. Ek gaan hom soek.\"",
+        "severity": "minor",
+        "source_quote": "He went to check his coyote traps. I’ll go find him.",
+        "suggested_fix": "\"Coyote\" is best rendered explicitly. Replace \"jakhalslotte\" (literal/unclear) with a clearer phrase such as \"sy coyote-lokvalle\" or \"sy jakhalslokvalle\" depending on preferred localisation. For example: \"Hy het weggegaan om sy coyote-lokvalle na te gaan. Ek gaan hom soek.\" Preserve HTML structure.",
+        "translation_quote": "Hy het weggegaan om sy jakhalslotte na te gaan. Ek gaan hom soek."
+      },
+      {
+        "location": "Translation paragraph: \"Die herfspinnekopwebbe was aan die werk en hul webgordyne het van takke bo afgeskuif.\"",
+        "severity": "minor",
+        "source_quote": "The fall webworms had been at work, and their web curtains shuttered from branches overhead.",
+        "suggested_fix": "\"afgeskuif\" is awkward here. Use a clearer idiom such as: \"...en hul webgordyne het van takke boaf gehang\" or \"...en hul webgordyne het van takke bo neergedeur.\" Example: \"Die herfspinnekopwebbe was aan die werk en hul webgordyne het van takke bo neergedeur.\"",
+        "translation_quote": "Die herfspinnekopwebbe was aan die werk en hul webgordyne het van takke bo afgeskuif."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

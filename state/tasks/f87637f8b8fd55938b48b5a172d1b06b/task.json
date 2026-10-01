@@ -2,7 +2,6 @@
   "article_id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7a5231f8affe4a86b80eacb1aa934652",
   "campaign": "gh-36908965053",
   "created_at": "2026-10-01T18:45:14+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 9538
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1101,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9284,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10385
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "article > figure:nth-of-type(2) > img@alt",
+      "severity": "critical",
+      "source_quote": "A butterfly among bright wildflowers and grasses.",
+      "suggested_fix": "Replace the alt text with a faithful translation preserving meaning, e.g. alt=\"’n Skoonheidige skoenlapper tussen helder veldblomme en grasse.\"",
+      "translation_quote": "’n Skerpioen tussen helder veldblomme en grasse."
+    },
+    {
+      "location": "source.section -> translation.section",
+      "severity": "major",
+      "source_quote": "A WORD FROM THE DOCTOR",
+      "suggested_fix": "Translate the section heading accurately and without stray characters, preserving case/spacing expected by the site, e.g. \"A WORD FROM THE DOCTOR\" -> \"N 'n WOORD VAN DIE DOKTER\" or more idiomatically \"’N WOORD VAN DIE DOKTER\" (replace the current value exactly in the translation field).",
+      "translation_quote": "N A WOORD VAN DIE DOKTER"
+    },
+    {
+      "location": "article > p:nth-of-type(8)",
+      "severity": "minor",
+      "source_quote": "“I guess so,” she said, indifferently.",
+      "suggested_fix": "Correct the Afrikaans wording to a natural idiom that preserves the original sense, e.g. change “ongeïndifiseer” to “ongeïndifereerd” or “onverskillig”. Make the edit in the same paragraph tag without changing HTML structure.",
+      "translation_quote": "“Ek dink so,” het sy sê, ongeïndifiseer."
+    },
+    {
+      "location": "article > h2:nth-of-type(4) / paragraph where Romans quote is introduced",
+      "severity": "minor",
+      "source_quote": "It is interesting that the Apostle Paul spoke of tribulations in the Epistle to the Romans, “And not only so, but we glory in tribulations also...\" (Romans 5:3-5).",
+      "suggested_fix": "Fix the misspelling of 'Epistle' in Afrikaans. Replace “Briedbrief” with the correct term, e.g. “Boodskap aan die Romeine” or “Epistel aan die Romeine”, preserving the quoted English scripture as in the source.",
+      "translation_quote": "Dit is interessant dat die apostel Paulus oor verdrukkinge gespreek het in die Briedbrief aan die Romeine, “And not only so, but we glory in tribulations also:...\" (Romans 5:3-5)."
     }
   ],
   "id": "f87637f8b8fd55938b48b5a172d1b06b",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3451f84582c4785f9b0f645d0fa02d45fddc1b092b1b316a6c04206ec4c9dba9.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

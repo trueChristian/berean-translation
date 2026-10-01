@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "fee7d454-b2f1-4e19-83db-41826e0527a2",
+    "response_id": "chatcmpl-EUGx0FBNAkjESmlpMrXWeJxKbIbh8",
+    "usage": {
+      "completion_tokens": 1413,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2829,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4242
+    }
+  },
+  "received_at": "2026-10-01T20:28:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first paragraph (opening sentence)",
+        "severity": "minor",
+        "source_quote": "The urgency of the last minute is something that many homemakers deal with regularly.",
+        "suggested_fix": "Replace the translated phrase “Die dringency van die laaste minuut” with a natural Afrikaans equivalent that preserves meaning, for example: “Die dringendheid van die laaste minuut” or “Die dringendheid van laaste-minuut-werk.” Maintain the rest of the sentence as is.",
+        "translation_quote": "Die dringency van die laaste minuut is iets waarmee baie tuistes gereeld te doen het."
+      },
+      {
+        "location": "source.html — second paragraph (second sentence)",
+        "severity": "minor",
+        "source_quote": "By the time the last minute things are completed I’m too exhausted to enjoy the planned event.",
+        "suggested_fix": "Replace “vasgespes in my gedagtes” (appears later in article) with a correct rendering when referring to a memory being fixed/etched: use “vasgekap in my gedagtes,” “ingedruk in my gedagtes,” or “vas in my gedagtes,” depending on tone. In this sentence specifically, change any instance of “vasgespes” to “vas in my gedagtes” or “vasgeanker in my gedagtes.”",
+        "translation_quote": "Teen die tyd dat die laaste-minuut-dinge gedoen is, is ek te uitgeput om van die beplande gebeurtenis te geniet."
+      },
+      {
+        "location": "source.html — paragraph under “Toothaches and Road Trips” (first sentence of that paragraph)",
+        "severity": "minor",
+        "source_quote": "It is a mystery to me why a family member ends up in a dentist chair a day or two before we leave on a trip.",
+        "suggested_fix": "Replace the translated word “vasgespes” later in this paragraph with a clearer Afrikaans equivalent such as “vasgebrand,” “vasgeanker,” or “vas in my gedagtes.” Also consider making “familielid gewoonlik in ’n tandartsstoel beland” -> “’n familielid dikwels in ’n tandartsstoel beland” if you want to match nuance of “ends up.”",
+        "translation_quote": "Dit is ’n raaisel vir my waarom ’n familielid gewoonlik in ’n tandartsstoel beland een of twee dae voordat ons op ’n reis vertrek. Miskien het dit nie so gereeld gebeur as wat ek dink nie, maar die frustrasie van ’n onbeplande tandartsbesoek op ’n ongeleentheidstyd is vasgespes in my gedagtes."
+      },
+      {
+        "location": "source.html — paragraph “Verander die laaste-minuut-scenario” (first sentence)",
+        "severity": "minor",
+        "source_quote": "Deadlines and interruptions cannot be eliminated but we can limit last-minute tasks.",
+        "suggested_fix": "The translation uses “kan nie uitgepluis word nie,” which is idiomatically incorrect for “eliminated.” Change to “kan nie uitgewis/verwyder/vermindder word nie” or “kan nie uitgeskakel word nie.” Suggested phrasing: “Sperdatums en onderbrekings kan nie uitgeskakel word nie, maar ons kan laaste-minuut-take beperk.”",
+        "translation_quote": "Sperdatums en onderbrekings kan nie uitgepluis word nie, maar ons kan laaste-minuut-take beperk."
+      },
+      {
+        "location": "source.html — paragraph with phrase “plan for a bee sting and a stubbed toe”",
+        "severity": "minor",
+        "source_quote": "So, isn’t it better to “plan” for a bee sting and a stubbed toe?",
+        "suggested_fix": "The translation “bye-steek en ’n verstapte toon” is understandable but slightly awkward. Use a more idiomatic rendering such as “’n bysteek en ’n gestampte toon” or “’n bysteek en ’n verstampte toon.” Suggested replacement: “Is dit dus nie beter om vir ’n bysteek en ’n gestampte toon te ‘beplan’ nie?”",
+        "translation_quote": "Is dit dus nie beter om vir ’n bye-steek en ’n verstapte toon te “beplan” nie?"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

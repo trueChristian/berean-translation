@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "30a1dc99-7cb6-4301-bd9b-5419018a5789",
+    "response_id": "chatcmpl-EUGwzKMyi0436Mu1QV4CVilcqoSbZ",
+    "usage": {
+      "completion_tokens": 1050,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6593,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7643
+    }
+  },
+  "received_at": "2026-10-01T20:28:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning \"Sonde. Nie alle voëls sing nie.\"",
+        "severity": "major",
+        "source_quote": "The babbling noise we hear emanating from many passing vehicles certainly parallels the songs of such foul fowl.",
+        "suggested_fix": "Translate the sentence without adding gender. Replace \"weerspieël beslis die liedere van sulke vroulike voëls\" with wording that preserves the original meaning and does not add \"vroulike\" (female). For example: \"die gekabbelde geluid wat ons uit baie verbyryende voertuie hoor, weerspieël beslis die liedere van sulke onreine voëls.\"",
+        "translation_quote": "Die gekabbelde geluid wat ons uit baie verbyryende voertuie hoor, weerspieël beslis die liedere van sulke vroulike voëls."
+      },
+      {
+        "location": "Multiple places — word choices and minor mistranslations (examples)",
+        "severity": "minor",
+        "source_quote": "starlings",
+        "suggested_fix": "Use the standard Afrikaans common name or an accepted transliteration rather than a literal 'sterrevoëls'. Replace \"sterrevoëls\" with \"spreeus\" (or another context-appropriate common name used in the publication). Also correct obvious typos/loanwords: replace \"nagingale\" with \"nagingale\" (or local spelling), and change \"exploit hulle sonde\" to an idiomatic Afrikaans construction such as \"benut hul sondigheid\" or \"buit hul sondes uit.\"",
+        "translation_quote": "Van so is die waardelose swartvoëls, sterrevoëls en grackles. ... voed vrolik op die rampspoed van 'n ander en exploit hulle sonde. ... Die kanarie sing in 'n hok, terwyl die nagingale in die donker sing."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}
