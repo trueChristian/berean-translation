@@ -2,7 +2,6 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8e1e635fb7614cbfa6060253fabe1e27",
   "campaign": "gh-36908568068",
   "created_at": "2026-10-01T18:41:59+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 3539
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1215,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3288,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4503
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<p>…«Ты были достаточно силён, чтобы открыть капкан, а Кенни — нет. Ты был достаточно храбр, чтобы найти его в темноте. Многие мальчики не смогли бы».</p>",
+      "severity": "minor",
+      "source_quote": "\"You were strong enough to open the trap, and Kenny wasn’t. You were brave enough to find him in the dark. Lots of young boys wouldn’t be.\"",
+      "suggested_fix": "Correct Russian grammar: change \"Ты были достаточно силён\" to \"Ты был достаточно силён\" (singular, masculine). Preserve the surrounding HTML and punctuation exactly.",
+      "translation_quote": "«Ты были достаточно силён, чтобы открыть капкан, а Кенни — нет. Ты был достаточно храбр, чтобы найти его в темноте. Многие мальчики не смогли бы»."
+    },
+    {
+      "location": "<p>…«Бог создал тебя таким не просто так, Джамин. Он создал Кенни таким по своей причине. У Него есть план для тебя и место, которое можешь занять только ты, знаешь ли».</p>",
+      "severity": "minor",
+      "source_quote": "\"God made you the way you are for a reason, Jamin. He made Kenny the way he is for a reason. He has a plan for you, and a place only you can fill, you know.\"",
+      "suggested_fix": "Improve idiomatic Russian while preserving theology: replace the second sentence with a parallel phrasing, e.g. \"Он создал Кенни таким тоже не случайно.\" Also consider lowercasing the pronoun \"Него\" to \"него\" only if style guide does not require divine pronoun capitalization. Keep HTML structure unchanged.",
+      "translation_quote": "«Бог создал тебя таким не просто так, Джамин. Он создал Кенни таким по своей причине. У Него есть план для тебя и место, которое можешь занять только ты, знаешь ли»."
+    },
+    {
+      "location": "<p>…\"По газону он шёл вразвалку, в воздухе стояла прохлада, и солнце уже садилось, когда он перешёл границу леса.\"</p>",
+      "severity": "minor",
+      "source_quote": "\"There was a chill in the air as he tramped up over the lawn, and the sun was growing old as he crossed the border of the woods.\"",
+      "suggested_fix": "Consider a more neutral phrasing for \"tramped up over the lawn\" — e.g. \"Он шёл по газону\" or \"Он ступал по газону\". Current \"вразвалку\" is colloquial and slightly changes tone; change only if a more literal/neutral tone is preferred. Preserve tags and sentence order.",
+      "translation_quote": "По газону он шёл вразвалку, в воздухе стояла прохлада, и солнце уже садилось, когда он перешёл границу леса."
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:31+00:00",
   "id": "9a787fe2affb57bae116ad84a670c9b6",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "rus",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a7ca25068c1bad9f392aef90030e0bae4b2e168a2dbdfb445b23493e0ef481c1.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

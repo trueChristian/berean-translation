@@ -1235,6 +1235,118 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
+      "html_sha256": "9b5f56a0e009d92912d3665d20d1ba033a63bcd43e434cc2b42e0b4343e2a9c6",
+      "human_reviewed": false,
+      "id": "93978dae-706d-43d4-abee-6b6e011683fa",
+      "images": [
+        {
+          "alt": "Океанские волны разбиваются о песчаный берег, вид сверху.",
+          "public_path": "/images/articles/93978dae-706d-43d4-abee-6b6e011683fa-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/93978dae-706d-43d4-abee-6b6e011683fa.json",
+      "metadata_sha256": "57b6c283897dd5abbd66d4bb3f2d81b2045a715706de7bdcf6eef651dd772747",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SISTER TO SISTER",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Перегрузка обстоятельствами",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.html",
+      "html_sha256": "82ff72210e30ee4acf03a913c06e5fb3602f3069e9f508f323c7c6399b8b0fb6",
+      "human_reviewed": false,
+      "id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
+      "images": [
+        {
+          "alt": "Чашка кофе рядом со спиральным блокнотом и карандашом.",
+          "public_path": "/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.json",
+      "metadata_sha256": "34af9a186959bdda7ebee114cd0813e4613a124113d1745b8a349e824196957e",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "СЕСТРА К СЕСТРЕ",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Перегрузка промедлением",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
+      "html_sha256": "045e3f7933f183975dcb4551d7957bcf2a0b64428208440ae76659547ce84c56",
+      "human_reviewed": false,
+      "id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
+      "images": [
+        {
+          "alt": "Узкая тропинка, вьющаяся через лиственный лес",
+          "public_path": "/images/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.json",
+      "metadata_sha256": "3002bbce815d08c8a85e4cacca95c1421f2e5e2b491d4c4d95b516c98a3ff5dc",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Детский уголок",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Джамин становится умнее",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.html",
+      "html_sha256": "6fcd68012496c1349f93174a70458e5b57c587474fdb3e40886bada290d58fba",
+      "human_reviewed": false,
+      "id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
+      "images": [
+        {
+          "alt": "Небольшая лодка на краю спокойной воды во время яркого заката",
+          "public_path": "/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.json",
+      "metadata_sha256": "ee7b71f226b6afd7f98e3a7a4a74c7e783b6f692d4e12dd5fd80017b9f554d56",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Стихотворение",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Восстаньте и радуйтесь!",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
       "html_sha256": "b213f97747564eb1fdbff7586e07c3a4849e857af069f870411db5ea30d1f40b",
       "human_reviewed": false,

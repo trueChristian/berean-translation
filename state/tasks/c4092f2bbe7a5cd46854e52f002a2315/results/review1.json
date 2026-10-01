@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "993b4fc9-faca-4cf6-bfd3-d386943c0fcd",
+    "response_id": "chatcmpl-EUGt4mW3qoCnHyEjy11g9wG3RFFvg",
+    "usage": {
+      "completion_tokens": 810,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2752,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3562
+    }
+  },
+  "received_at": "2026-10-01T20:28:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p> (paragraph beginning: \"Мне непонятно, почему член семьи оказывается в стоматологическом кресле...\")",
+        "severity": "minor",
+        "source_quote": "Now I schedule an imaginary appointment before a trip. If it is not a dental emergency, some other issue is bound to fill that time slot.",
+        "suggested_fix": "Preserve the specificity of 'dentist' rather than general 'doctor'. Replace «назначаю вымышленный визит к врачу» with «назначаю вымышленный визит к стоматологу» to match the source meaning and retain the humorous contrast with 'dental emergency'.",
+        "translation_quote": "Теперь перед поездкой я назначаю вымышленный визит к врачу. Если это не стоматологическая неотложная ситуация, какое‑нибудь другое дело обязательно займет это время."
+      },
+      {
+        "location": "<p> (paragraph beginning: \"Например, если приходят гости, и мы планируем мыть окна...\")",
+        "severity": "minor",
+        "source_quote": "So, isn’t it better to “plan” for a bee sting and a stubbed toe?",
+        "suggested_fix": "Correct the Russian phrase that mistranslates 'stubbed toe'. Replace «или ушибший палец?» with «или ушиб палец ноги?» or better «или ушибленного пальца ноги?» (keeping the rhetorical question). For example: «Так не лучше ли «запланировать» укус пчелы или ушиб пальца ноги?»",
+        "translation_quote": "Так не лучше ли «запланировать» укус пчелы или ушибший палец?"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

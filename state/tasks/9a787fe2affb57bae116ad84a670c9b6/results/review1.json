@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d02dd53f-9c6b-4c99-a87d-0f5578bae7b3",
+    "response_id": "chatcmpl-EUGuEpuRbpqRAMn336JAv7ysT1cy2",
+    "usage": {
+      "completion_tokens": 1215,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3288,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4503
+    }
+  },
+  "received_at": "2026-10-01T20:28:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>…«Ты были достаточно силён, чтобы открыть капкан, а Кенни — нет. Ты был достаточно храбр, чтобы найти его в темноте. Многие мальчики не смогли бы».</p>",
+        "severity": "minor",
+        "source_quote": "\"You were strong enough to open the trap, and Kenny wasn’t. You were brave enough to find him in the dark. Lots of young boys wouldn’t be.\"",
+        "suggested_fix": "Correct Russian grammar: change \"Ты были достаточно силён\" to \"Ты был достаточно силён\" (singular, masculine). Preserve the surrounding HTML and punctuation exactly.",
+        "translation_quote": "«Ты были достаточно силён, чтобы открыть капкан, а Кенни — нет. Ты был достаточно храбр, чтобы найти его в темноте. Многие мальчики не смогли бы»."
+      },
+      {
+        "location": "<p>…«Бог создал тебя таким не просто так, Джамин. Он создал Кенни таким по своей причине. У Него есть план для тебя и место, которое можешь занять только ты, знаешь ли».</p>",
+        "severity": "minor",
+        "source_quote": "\"God made you the way you are for a reason, Jamin. He made Kenny the way he is for a reason. He has a plan for you, and a place only you can fill, you know.\"",
+        "suggested_fix": "Improve idiomatic Russian while preserving theology: replace the second sentence with a parallel phrasing, e.g. \"Он создал Кенни таким тоже не случайно.\" Also consider lowercasing the pronoun \"Него\" to \"него\" only if style guide does not require divine pronoun capitalization. Keep HTML structure unchanged.",
+        "translation_quote": "«Бог создал тебя таким не просто так, Джамин. Он создал Кенни таким по своей причине. У Него есть план для тебя и место, которое можешь занять только ты, знаешь ли»."
+      },
+      {
+        "location": "<p>…\"По газону он шёл вразвалку, в воздухе стояла прохлада, и солнце уже садилось, когда он перешёл границу леса.\"</p>",
+        "severity": "minor",
+        "source_quote": "\"There was a chill in the air as he tramped up over the lawn, and the sun was growing old as he crossed the border of the woods.\"",
+        "suggested_fix": "Consider a more neutral phrasing for \"tramped up over the lawn\" — e.g. \"Он шёл по газону\" or \"Он ступал по газону\". Current \"вразвалку\" is colloquial and slightly changes tone; change only if a more literal/neutral tone is preferred. Preserve tags and sentence order.",
+        "translation_quote": "По газону он шёл вразвалку, в воздухе стояла прохлада, и солнце уже садилось, когда он перешёл границу леса."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

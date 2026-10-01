@@ -2,7 +2,6 @@
   "article_id": "93978dae-706d-43d4-abee-6b6e011683fa",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8e1e635fb7614cbfa6060253fabe1e27",
   "campaign": "gh-36908568068",
   "created_at": "2026-10-01T18:41:59+00:00",
   "events": [
@@ -24,8 +23,29 @@
         },
         "total_tokens": 4214
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 346,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 320,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3963,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4309
+      }
     }
   ],
+  "findings": [],
+  "finished_at": "2026-10-01T20:28:31+00:00",
   "id": "9d84d844acdaeb50eab6a8e84a3f101e",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "rus",
@@ -69,11 +89,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/655f2b893d535149fb7f0e71fcdd48b885970929ae2439021fc6d8de3cd6b11b.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

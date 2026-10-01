@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "452f3573-6971-4d91-bdb9-24b591526acd",
+    "response_id": "chatcmpl-EUGuE3vsEJ0EPQSJ3l9bcjjGR3rL4",
+    "usage": {
+      "completion_tokens": 1538,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12015,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13553
+    }
+  },
+  "received_at": "2026-10-01T20:28:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph quoting Ecclesiastes 12:1 (near start of \"План Бога для мужчины и женщины\")",
+        "severity": "critical",
+        "source_quote": "Ecclesiastes 12:1 says, “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them.”",
+        "suggested_fix": "Translate the quoted Scripture into Russian so it conveys the printed English quotation exactly (in Russian), and keep the verse reference. For example (preserve surrounding <p> tags):\n<p>Екклесиаст 12:1 говорит: «Помни теперь Творца твоего в дни юности твоей, прежде нежели придут лихие дни…» (далее дословно передать английский текст на русский язык), — и т. д., сохранив ссылку на стих.</p>\n(Note: preserve the article HTML structure and the verse reference; do not replace the quoted wording with a different Bible translation that changes meaning.)",
+        "translation_quote": "Екклесиаст 12:1 говорит: “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them.” Моё желание, чтобы каждый из вас помнил своего Творца в дни юности."
+      },
+      {
+        "location": "Multiple scripture quotation paragraphs throughout the article (Genesis 2:18-24, Genesis 1:26-28, Mark 10:7-9, 2 Corinthians 6:14-15, 1 Corinthians 7:39, many others)",
+        "severity": "critical",
+        "source_quote": "Example source scripture quotation: “And the LORD God said, It is not good that the man should be alone; I will make him an help meet for him. ... And Adam said, This is now bone of my bones, and flesh of my flesh: she shall be called Woman, because she was taken out of Man. Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:18-24).",
+        "suggested_fix": "Translate each quoted Scripture passage into Russian so it conveys the printed English quotation (i.e., render the English quote into Russian text that preserves the meaning and wording of the quoted English), and keep the original verse references in parentheses. Do this for every in-line biblical quotation currently left in English. Preserve all HTML tags and nesting exactly as in the translation, only replacing the English quotation text with the Russian rendering that corresponds to the printed English.",
+        "translation_quote": "“And the LORD God said, It is not good that the man should be alone; I will make him an help meet for him. And out of the ground the LORD God formed every beast of the field, ... and they shall be one flesh” (Genesis 2:18-24)."
+      },
+      {
+        "location": "Paragraph quoting Genesis 2:24 heading (section \"2) Оставление и прилепление в единстве на всю жизнь.\")",
+        "severity": "major",
+        "source_quote": "“Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24).",
+        "suggested_fix": "Translate the quoted verse into Russian (conveying the printed English wording) and remove the stray capital 'B' that appears before 'shall' in the source. Preserve the verse reference and surrounding tags. Example: replace “Therefore Bshall a man leave his father and his mother...” with a Russian rendering of the quoted English and correct the typo.",
+        "translation_quote": "“Therefore Bshall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24)."
+      },
+      {
+        "location": "Paragraph referencing 1 Peter 3:7 (section \"8) Совместные наследники благодати жизни.\")",
+        "severity": "minor",
+        "source_quote": "1 Peter 3:7 “Likewise, ye husbands, dwell with them according to knowledge, giving honor unto the wife, as unto the weaker vessel, and as being heirs together of the grace of life; that your prayers be not hindered.”",
+        "suggested_fix": "Translate the quoted Scripture into Russian consistent with the printed English, and fix small typographical errors in the Russian rendering (e.g., 'слабоe' should use Cyrillic 'е' and correct casing/inflection: 'более слабый сосуд' or another idiomatic Russian phrase that faithfully conveys the printed English). Preserve the verse reference.",
+        "translation_quote": "1 Peter 3:7 “Likewise, ye husbands, dwell with them according to knowledge, giving honor unto the wife, as unto the weaker vessel, and as being heirs together of the grace of life; that your prayers be not hindered.” Как мужья, мы отдаём честь жёнам. Она — более слабоe сосуд и та, которая рожает детей!"
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

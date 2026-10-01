@@ -2,7 +2,6 @@
   "article_id": "1c75dce8-1781-427f-8099-01596d53c2a4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8e1e635fb7614cbfa6060253fabe1e27",
   "campaign": "gh-36908568068",
   "created_at": "2026-10-01T18:41:59+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 6947
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1989,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6505,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8494
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html — multiple Bible quotations (examples: first paragraph, Job 6:5, James 5:13, Psalm 40:3, Eph 5:19, John 4:14, John 7:38, Is 65:14, Rev 18:2, Ps 137:2-4, Jer. 29:5-7, Ps 22:9, Gen 26:15, Col 3:16, 23)",
+      "severity": "critical",
+      "source_quote": "Examples of printed English scripture quotations in the authoritative article: “Doth not nature itself teach you?”; “Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5); “Is any merry? Let him sing psalms” (James 5:13); “And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3); “Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord” (Eph 5:19); “But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14); “Behold, my servants shall sing for joy of heart” (Is 65:14); “Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2); “We hanged our harps upon the willows in the midst thereof... How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4); “… And seek the peace of the city whither I have caused you to be carried away captives…” (Jer. 29:5-7); “But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts” (Ps 22:9); “had filled them with earth” (Gen 26:15); “Let the word of Christ dwell in you richly... singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23).",
+      "suggested_fix": "Translate each printed English scripture quotation into Russian while ensuring the translation conveys the exact wording and meaning of the printed English text in the authoritative article (do not substitute a different English Bible version). Replace the English quotation text within the translation with a Russian rendering that is faithful to the printed English lines and keep the original Scripture references and punctuation intact. For example, replace “Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” with a Russian rendering that mirrors that specific English wording and then keep (Job 6:5) unchanged.",
+      "translation_quote": "In the submitted translation many of the above scripture quotations (and similar printed English lines) were left in English verbatim (for example: “Doth not nature itself teach you?”; “Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5); “Is any merry? Let him sing psalms” (James 5:13); “And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3); etc.)."
+    },
+    {
+      "location": "source.subtitle / translation.subtitle",
+      "severity": "major",
+      "source_quote": "and ‘round me rings the music of the spheres.",
+      "suggested_fix": "Translate the subtitle into Russian to convey the printed English subtitle. The authoritative subtitle must be represented in the target language rather than left in English. For example, render the subtitle into Russian while preserving punctuation and style appropriate for a subtitle placement.",
+      "translation_quote": "and ‘round me rings the music of the spheres."
+    },
+    {
+      "location": "source.html — bird species and other English common names (examples within body: “killdeer”, “song sparrow”, “rose-breasted grosbeak”, “wren”, “buntings”, “cowbird”, “robins” sometimes left in English)",
+      "severity": "minor",
+      "source_quote": "Examples in authoritative English: the text names species such as the killdeer, song sparrow, rose-breasted grosbeak, wren, buntings, cowbird, robins.",
+      "suggested_fix": "Translate common bird names into idiomatic Russian equivalents (or transliterate only when no standard Russian name exists), so the Russian reader receives the same referent as the English. Keep the original English names in parentheses only if editorial policy requires dual labeling. For example, replace “song sparrow” with the Russian common name (e.g., «певчий воробей» if that matches the author’s intended species) or provide both forms: «song sparrow (певчий воробей)».",
+      "translation_quote": "Several bird common names were left in English in the translation (e.g., song sparrow, rose-breasted grosbeak, killdeer, wren, buntings, cowbird)."
+    },
+    {
+      "location": "source.html — image alt text (second figure)",
+      "severity": "minor",
+      "source_quote": "Source image alt: \"A blue-and-white bird perched on a cut branch against a green background\"",
+      "suggested_fix": "Correct the Russian adjective agreement and idiomatic phrasing in the alt text. Replace «Сине-белоё птица, сидящая на обрезанной ветке на зелёном фоне» with grammatically correct Russian: «Сине-белая птица, сидящая на срезанной ветке на зелёном фоне» (or «на обрезанной ветке», if preferred idiomatically), matching gender and adjective agreement.",
+      "translation_quote": "\"Сине-белоё птица, сидящая на обрезанной ветке на зелёном фоне\""
     }
   ],
   "id": "05c4ff5048db6a2d1a81bec2f1190995",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6b4fad51874daab2b26c2a97a4e4c4aa1580e7cb9aed0a786736362fa6dfa46a.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

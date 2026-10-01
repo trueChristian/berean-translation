@@ -2,7 +2,6 @@
   "article_id": "db7b1129-282d-4f48-aefa-f839cb585426",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8e1e635fb7614cbfa6060253fabe1e27",
   "campaign": "gh-36908568068",
   "created_at": "2026-10-01T18:41:59+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 6974
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1483,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6595,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8078
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<p>Romans 1:18-32 passage (paragraph beginning ",
+      "severity": "critical",
+      "source_quote": "In Romans, we read, “For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness; ...” (Romans 1:18-32).",
+      "suggested_fix": "Translate this entire quoted Scripture passage into contemporary Russian, preserving the exact wording and theological nuance of the printed English source (do not replace with a different English version). Keep any HTML tags or surrounding punctuation as in source.html. For example, replace the English KJV block with an accurate Russian rendering of the same printed English text, preserving quote marks, verse range, and the parenthetical “(Romans 1:18-32).”.",
+      "translation_quote": "В Послании к Римлянам мы читаем: “For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness; Because that which may be known of God is manifest in them; for God hath shewed it unto them. For the invisible things of him from the creation of the world are clearly seen, being understood by the things that are made, even his eternal power and Godhead; so that they are without excuse: Because that, when they knew God, they glorified him not as God, neither were thankful; but became vain in their imaginations, and their foolish heart was darkened. Professing themselves to be wise, they became fools, And changed the glory of the uncorruptible God into an image made like to corruptible man, and to birds, and fourfooted beasts, and creeping things. Wherefore God also gave them up to uncleanness through the lusts of their own hearts, to dishonour their own bodies between themselves: Who changed the truth of God into a lie, and worshipped and served the creature more than the Creator, who is blessed for ever. Amen. For this cause God gave them up unto vile affections: for even their women did change the natural use into that which is against nature: And likewise also the men, leaving the natural use of the woman, burned in their lust one toward another; men with men working that which is unseemly, and receiving in themselves that recompence of their error which was meet. And even as they did not like to retain God in their knowledge, God gave them over to a reprobate mind, to do those things which are not convenient; Being filled with all unrighteousness, fornication, wickedness, covetousness, maliciousness; full of envy, murder, debate, deceit, malignity; whisperers, Backbiters, haters of God, despiteful, proud, boasters, inventors of evil things, disobedient to parents, Without understanding, covenantbreakers, without natural affection, implacable, unmerciful: Who knowing the judgment of God, that they which commit such things are worthy of death, not only do the same, but have pleasure in them that do them” (Romans 1:18-32)."
+    },
+    {
+      "location": "<p>Colossians 1:16 quotation (paragraph beginning “The Christian does not believe in human reasoning.”)",
+      "severity": "critical",
+      "source_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (Colossians 1:16).",
+      "suggested_fix": "Translate this quoted Scripture (Colossians 1:16) into contemporary Russian so it conveys the printed English source's wording and theological nuance. Preserve the punctuation, verse reference, and surrounding HTML structure exactly as in source.html.",
+      "translation_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (Colossians 1:16)."
+    },
+    {
+      "location": "<p>John 15:18 quotation (near end, paragraph beginning “Christians believe they are merely servants to their master.”)",
+      "severity": "critical",
+      "source_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”",
+      "suggested_fix": "Translate this short Scripture quotation (John 15:18) into contemporary Russian, matching the printed English source's meaning and preserving the parenthetical verse reference. Keep any quotation marks and punctuation placement as in the source.html.",
+      "translation_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”"
     }
   ],
   "id": "06cbff13b584376a8617af20d5a9d364",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a072a36e6aede6bd6978f7ac04698cebcbcce9571999d9176c58a465e0428962.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
