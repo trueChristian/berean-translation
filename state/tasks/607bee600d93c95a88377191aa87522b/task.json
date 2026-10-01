@@ -2,7 +2,6 @@
   "article_id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ca6791dfd9564bfbaf2be5345bf1e4d4",
   "campaign": "gh-36909630302",
   "created_at": "2026-10-01T18:50:31+00:00",
   "events": [
@@ -24,6 +23,41 @@
         },
         "total_tokens": 2957
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 999,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2706,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3705
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<h2>Toothaches and Road Trips</h2> (and other <h2> headings)",
+      "severity": "major",
+      "source_quote": "<h2>Toothaches and Road Trips</h2>\n...\n<h2>Change the Last-Minute Scenario</h2>\n...\n<h2>Do some tasks ahead of time</h2>\n...\n<h2>Do the most important tasks first</h2>\n...\n<h2>Break work into smaller bits</h2>",
+      "suggested_fix": "Translate each English heading into Bahasa Indonesia and preserve the <h2> tags and exact HTML structure. For example:\n- Replace <h2>Toothaches and Road Trips</h2> with <h2>Sakit Gigi dan Perjalanan</h2>\n- Replace <h2>Change the Last-Minute Scenario</h2> with <h2>Ubah Situasi Menit Terakhir</h2>\n- Replace <h2>Do some tasks ahead of time</h2> with <h2>Lakukan Beberapa Tugas Lebih Awal</h2>\n- Replace <h2>Do the most important tasks first</h2> with <h2>Lakukan Tugas Terpenting Terlebih Dahulu</h2>\n- Replace <h2>Break work into smaller bits</h2> with <h2>Pecah Pekerjaan menjadi Bagian Lebih Kecil</h2>\n(Adjust wording if preferred, but ensure all substantive headings are translated.)",
+      "translation_quote": "<h2>Toothaches and Road Trips</h2>\n...\n<h2>Change the Last-Minute Scenario</h2>\n...\n<h2>Do some tasks ahead of time</h2>\n...\n<h2>Do the most important tasks first</h2>\n...\n<h2>Break work into smaller bits</h2> "
+    },
+    {
+      "location": "Paragraph: \"So, isn’t it better to “plan” for a bee sting and a stubbed toe?\"",
+      "severity": "minor",
+      "source_quote": "So, isn’t it better to “plan” for a bee sting and a stubbed toe?",
+      "suggested_fix": "Use a more natural Indonesian rendering of \"a bee sting and a stubbed toe\". Preserve the paragraph tags. Suggested replacement: \"Jadi, bukankah lebih baik 'merencanakan' jika ada sengatan lebah dan jari kaki yang terantuk?\" or \"Jadi, bukankah lebih baik 'merencanakan' kemungkinan tersengat lebah atau terantuknya jari kaki?\"",
+      "translation_quote": "Jadi, bukankah lebih baik “merencanakan” sengatan lebah dan tersandung jari kaki?"
     }
   ],
   "id": "607bee600d93c95a88377191aa87522b",
@@ -69,11 +103,13 @@
     }
   },
   "protected": false,
+  "quality_score": 75,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5fd263b236cc5e1da73816f24d29564842c820fa1abbcc53a271dfa0bf31493f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

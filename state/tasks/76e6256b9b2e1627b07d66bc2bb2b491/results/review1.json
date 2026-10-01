@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d44c5f7b-82f8-400e-8d81-8a1052408463",
+    "response_id": "chatcmpl-EUGyxEsg3QxJBtAeQBhvWIiL7PztN",
+    "usage": {
+      "completion_tokens": 917,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3170,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4087
+    }
+  },
+  "received_at": "2026-10-01T20:28:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...The various traps had been checked already, so Jamin knew Kenny had come this way. Jamin trudged on resolutely. His golden head caught the tired beams that fled from the sun as they flickered through the trees.</p>",
+        "severity": "critical",
+        "source_quote": "His golden head caught the tired beams that fled from the sun as they flickered through the trees.",
+        "suggested_fix": "Translate the phrase without adding details that are not in the source. For example: \"Kepala keemasannya menangkap sinar-sinar letih yang kabur dari matahari saat berkelebat melalui pepohonan.\" (Preserve original imagery without introducing 'kepang' / 'braid'.)",
+        "translation_quote": "Kepala kepangnya yang keemasan menangkap sinar-sinar letih yang melarikan diri dari matahari saat berkelebat melalui pepohonan."
+      },
+      {
+        "location": "<p>“Jamin, you will never be smart”, Kenny said. ... \"Very well, then Jamin would be simple.\"</p>",
+        "severity": "minor",
+        "source_quote": "Very well, then Jamin would be simple.",
+        "suggested_fix": "Use a target-language word that clearly conveys the English sense of 'simple' meaning 'not intelligent' rather than possible alternate senses like 'modest/simple'. For example: \"Kalau begitu, Jamin akan tetap bodoh\" or \"Kalau begitu, Jamin memang tak akan pintar.\"",
+        "translation_quote": "Baiklah, maka Jamin akan menjadi sederhana."
+      },
+      {
+        "location": "<p>\"Jamin believed Kenny’s lectures with wide-eyed belief.\"</p>",
+        "severity": "minor",
+        "source_quote": "Jamin believed Kenny’s lectures with wide-eyed belief.",
+        "suggested_fix": "Make the Indonesian phrasing idiomatic and preserve emphasis (wide-eyed = innocent, unquestioning). For example: \"Jamin mempercayai ceramah Kenny dengan mata terbelalak dan penuh keyakinan.\" Current ordering is awkward; adjust word order for clarity while keeping meaning.",
+        "translation_quote": "Jamin mempercayai ceramah Kenny dengan penuh keyakinan mata terbuka lebar."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

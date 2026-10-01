@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "13f31592-3d23-4e6b-922a-5234660fd88c",
+    "response_id": "chatcmpl-EUH0PQe5Uyy8gLr5VZsJ7Egs2MqG7",
+    "usage": {
+      "completion_tokens": 828,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11970,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12798
+    }
+  },
+  "received_at": "2026-10-01T20:28:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph under heading '2) Leaving and cleaving in unity for life.' (Genesis 2:24)",
+        "severity": "minor",
+        "source_quote": "“Therefore Bshall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24).",
+        "suggested_fix": "Correct the apparent typographical error while preserving tags and punctuation: change “Bshall” to “shall”.",
+        "translation_quote": "“Therefore Bshall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24)."
+      },
+      {
+        "location": "metadata: source.section / translation.section",
+        "severity": "minor",
+        "source_quote": "INSPIRATIONS FOR YOUTH",
+        "suggested_fix": "If the intent is fully localized, consider translating the section string into Bahasa Indonesia in the translation metadata (for example: \"INSPIRASI BAGI PEMUDA\"); if the site prefers to keep section names in English, no change is required.",
+        "translation_quote": "INSPIRATIONS FOR YOUTH"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

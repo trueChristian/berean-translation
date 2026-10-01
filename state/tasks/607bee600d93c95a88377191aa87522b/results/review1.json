@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "845f724c-4973-44f4-bfb9-aa02de4bf141",
+    "response_id": "chatcmpl-EUGyx7d5xAPUT27ZIXGBNaX2lgTPI",
+    "usage": {
+      "completion_tokens": 999,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2706,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3705
+    }
+  },
+  "received_at": "2026-10-01T20:28:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<h2>Toothaches and Road Trips</h2> (and other <h2> headings)",
+        "severity": "major",
+        "source_quote": "<h2>Toothaches and Road Trips</h2>\n...\n<h2>Change the Last-Minute Scenario</h2>\n...\n<h2>Do some tasks ahead of time</h2>\n...\n<h2>Do the most important tasks first</h2>\n...\n<h2>Break work into smaller bits</h2>",
+        "suggested_fix": "Translate each English heading into Bahasa Indonesia and preserve the <h2> tags and exact HTML structure. For example:\n- Replace <h2>Toothaches and Road Trips</h2> with <h2>Sakit Gigi dan Perjalanan</h2>\n- Replace <h2>Change the Last-Minute Scenario</h2> with <h2>Ubah Situasi Menit Terakhir</h2>\n- Replace <h2>Do some tasks ahead of time</h2> with <h2>Lakukan Beberapa Tugas Lebih Awal</h2>\n- Replace <h2>Do the most important tasks first</h2> with <h2>Lakukan Tugas Terpenting Terlebih Dahulu</h2>\n- Replace <h2>Break work into smaller bits</h2> with <h2>Pecah Pekerjaan menjadi Bagian Lebih Kecil</h2>\n(Adjust wording if preferred, but ensure all substantive headings are translated.)",
+        "translation_quote": "<h2>Toothaches and Road Trips</h2>\n...\n<h2>Change the Last-Minute Scenario</h2>\n...\n<h2>Do some tasks ahead of time</h2>\n...\n<h2>Do the most important tasks first</h2>\n...\n<h2>Break work into smaller bits</h2> "
+      },
+      {
+        "location": "Paragraph: \"So, isn’t it better to “plan” for a bee sting and a stubbed toe?\"",
+        "severity": "minor",
+        "source_quote": "So, isn’t it better to “plan” for a bee sting and a stubbed toe?",
+        "suggested_fix": "Use a more natural Indonesian rendering of \"a bee sting and a stubbed toe\". Preserve the paragraph tags. Suggested replacement: \"Jadi, bukankah lebih baik 'merencanakan' jika ada sengatan lebah dan jari kaki yang terantuk?\" or \"Jadi, bukankah lebih baik 'merencanakan' kemungkinan tersengat lebah atau terantuknya jari kaki?\"",
+        "translation_quote": "Jadi, bukankah lebih baik “merencanakan” sengatan lebah dan tersandung jari kaki?"
+      }
+    ],
+    "passed": false,
+    "score": 75
+  }
+}

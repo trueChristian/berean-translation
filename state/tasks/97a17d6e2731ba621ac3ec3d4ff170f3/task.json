@@ -2,7 +2,6 @@
   "article_id": "1c75dce8-1781-427f-8099-01596d53c2a4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ca6791dfd9564bfbaf2be5345bf1e4d4",
   "campaign": "gh-36909630302",
   "created_at": "2026-10-01T18:50:31+00:00",
   "events": [
@@ -24,8 +23,58 @@
         },
         "total_tokens": 6913
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2009,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6468,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8477
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Paragraph 1 (lead)",
+      "severity": "minor",
+      "source_quote": "Paul pleaded with the Corinthian church, “Doth not nature itself teach you?”",
+      "suggested_fix": "Translate the English quotation into Bahasa Indonesia to match the rest of the article (preserve punctuation and meaning). For example, replace the English quote with “Bukankah alam sendiri mengajar kamu?” while keeping the rest of the sentence as-is.",
+      "translation_quote": "Paulus memohon kepada jemaat Korintus, “Doth not nature itself teach you?”"
+    },
+    {
+      "location": "Throughout article (scripture quotations)",
+      "severity": "minor",
+      "source_quote": "Examples: “Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5). “Is any merry? Let him sing psalms” (James 5:13). “And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3). “Speaking to yourselves in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord” (Eph 5:19). “But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14). “Behold, my servants shall sing for joy of heart” (Is 65:14). “Babylon the great is fallen, is fallen, and is become the habitation of devils, and the hold of every foul spirit, and a cage of every unclean and hateful bird” (Rev 18:2). “But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts” (Ps 22:9). Philistine quote: “had filled them with earth” (Gen 26:15). “We hanged our harps upon the willows ... How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4). “... And seek the peace of the city ...” (Jer. 29:5-7). “Let the word of Christ dwell in you richly ...” (Col 3:16, 23).",
+      "suggested_fix": "The English scripture quotations currently appear verbatim in English inside the Bahasa Indonesia article. To maintain readability and consistency for Indonesian readers, translate the quoted scripture lines into Bahasa Indonesia while preserving the exact verse references and the author’s chosen English wording/meaning. For example, Job 6:5 could be rendered “Apakah keledai liar beriak bila ia mendapat rumput? Atau apakah lembu mengembik atas makanannya?” (Job 6:5) — or a suitable literal Bahasa Indonesia rendering that follows the printed English sense. Do not substitute a different Bible translation/version; render the printed English meaning into Indonesian.",
+      "translation_quote": "Multiple scripture quotations are left in English throughout the translation (see quotes cited above)."
+    },
+    {
+      "location": "Paragraphs describing bird species (several places)",
+      "severity": "minor",
+      "source_quote": "Examples: “lark”, “swallow”, “killdeer”, “song sparrow”, “rose-breasted grosbeak”, “wren”, “canary”, “nightingale”, “robin”, “buntings”, “cowbird”, “starlings”, “grackles”, “crows”",
+      "suggested_fix": "Some bird species names are left in English (e.g., killdeer, song sparrow, rose-breasted grosbeak, nightingale). For reader clarity, either translate these common names into standard Bahasa Indonesia equivalents where available (e.g., 'swallow' → 'burung walet', 'canary' → 'kenari', 'nightingale' → 'bulbul malam' if appropriate) or render them consistently with an Indonesian common name followed by the English in parentheses. Keep proper nouns and taxonomic intent intact.",
+      "translation_quote": "The translation mixes Indonesian and English bird names: examples include 'lark' (as in the English expression cited in source), 'killdeer', 'song sparrow', 'rose-breasted grosbeak', 'nightingale', 'buntings', 'cowbird'."
+    },
+    {
+      "location": "Subtitle",
+      "severity": "minor",
+      "source_quote": "and ‘round me rings the music of the spheres.",
+      "suggested_fix": "The translation presents the subtitle as: dan 'di sekelilingku bergema musik alam semesta. Use a consistent single-quote character and ensure the idiom reads smoothly in Indonesian. Suggested: dan 'di sekelilingku bergema musik alam semesta.' or remove the leading apostrophe if it is intended as an archaism: dan di sekelilingku bergema musik alam semesta.",
+      "translation_quote": "dan 'di sekelilingku bergema musik alam semesta."
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:42+00:00",
   "id": "97a17d6e2731ba621ac3ec3d4ff170f3",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ind",
@@ -69,11 +118,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6b4fad51874daab2b26c2a97a4e4c4aa1580e7cb9aed0a786736362fa6dfa46a.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

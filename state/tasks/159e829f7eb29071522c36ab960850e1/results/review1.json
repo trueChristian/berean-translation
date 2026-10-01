@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7d069e06-2b56-492c-a141-1fdab624e05b",
+    "response_id": "chatcmpl-EUGyxdzhUYSF7OblzdMzyzS2ppyUY",
+    "usage": {
+      "completion_tokens": 563,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1510,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2073
+    }
+  },
+  "received_at": "2026-10-01T20:28:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first stanza, line with “The Dayspring shineth from on high,”",
+        "severity": "major",
+        "source_quote": "The Dayspring shineth from on high,",
+        "suggested_fix": "Translate 'The Dayspring' consistently as a Christological dawn metaphor (e.g., 'Sang Fajar' or 'Fajar yang menyinari') rather than 'Sang Penyayang'. Preserve the imagery of dawning/light rather than converting it into an attribute of compassion. Example replacement: \"Fajar menyinari dari tempat yang tinggi,\" or \"Sang Fajar menyinari dari tempat yang tinggi,\" keeping the poetic meter and HTML tags intact.",
+        "translation_quote": "Sang Penyayang bersinar dari tempat tinggi,"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}
