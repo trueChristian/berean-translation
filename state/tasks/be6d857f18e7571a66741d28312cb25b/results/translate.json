@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "eb851ffc-c617-4edd-aaa5-1fa84712e4bc",
+    "response_id": "chatcmpl-EUGTYkWC3ynG9WrEGiiEO024w3h09",
+    "usage": {
+      "completion_tokens": 1616,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1808,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3424
+    }
+  },
+  "received_at": "2026-10-01T19:15:02+00:00",
+  "result": {
+    "html": "<article data-article-id=\"52074824-2feb-4fe4-96d0-a08ec72c3565\">\n  <p class=\"drop-cap\">Je peux encore sentir la cacophonie alléchante d’odeurs tandis que je serrais la main robuste de mon père, nous frayant un chemin parmi les foules de touristes qui encombraient le bâtiment. Les vendeurs du Green Dragon Farmer’s Market à Ephrata, en Pennsylvanie, faisaient de leur mieux pour attirer les acheteurs avec leurs rangées de poissons frais sur glace, des fromages de toutes sortes, de la charcuterie et des sandwiches, et des tas de fruits frais. Et, oh, les bonbons ! Mon jeune esprit de préscolaire n’avait jamais vu autant de douceurs alléchantes réunies au même endroit.</p>\n\n  <p>Ces deux derniers jours ont été pour moi comme pour le garçon dans la confiserie. J’ai eu le privilège d’assister à la première conférence annuelle des écrivains organisée par Christian Aid Ministries. J’ai croisé des auteurs connus tels que Katrina Hoover Lee, Johnny Miller et Ruthann Stelfox. J’ai discuté avec des aspirants écrivains et des professeurs d’école expérimentés. J’ai eu l’occasion d’assister à des heures d’ateliers inspirants et pédagogiques sur la façon d’écrire pour communiquer, en utilisant des dialogues réalistes, un écriture descriptive, et bien plus encore. Nous avions tous un objectif commun. Ensemble, nous partageons et apprenons comment communiquer efficacement ce qui est dans nos cœurs, et, par le pouvoir de l’écrit, transmettre ces pensées dans vos cœurs.</p>\n\n  <p><em>The Heartbeat of the Remnant</em> est un moyen de communiquer des pensées inspirantes à des lecteurs avides répartis à travers le monde. Des écrivains courageux se présentent, plume et papier ou clavier et écran, et contribuent à répandre la Bonne Nouvelle de la Parole de Dieu avec prudence, correction et édification. Pourtant, nous avons besoin de davantage de tels écrivains. Nous avons besoin de jeunes croyants qui présentent courageusement leurs premières histoires pour enfants. De grands-pères expérimentés qui apportent des paroles d’avertissement à la jeune génération. De mères qui partagent expériences et épreuves avec d’autres mères en plein élevage des tout-petits. Des jeunes encourageant leurs pairs à poursuivre la course vers le prix de l’appel élevé en Jésus-Christ. Des pères qui, d’un œil inquiet, observent le monde faire pression sur les foyers chrétiens. Ensemble, ces écrivains aspirants produiront une périodique qui restera sur la table basse familiale pendant de nombreuses années. Je vous encourage, frères et sœurs en Christ, à tenter votre chance. Nelson Mandela, ancien président de l’Afrique du Sud, a écrit : « L’échec est un maître, et à la fin de votre vie, de quoi pensez-vous que vous vous sentirez le plus mal : d’avoir échoué ou de ne jamais avoir essayé ? »</p>\n\n  <p>Le Berean Voice a pour objectif de fournir des documents imprimés qui aideront les lecteurs à traverser les saisons variées et difficiles de la vie. Tout notre matériel est disponible gratuitement, mais nous dépendons des dons de nos soutiens. Voici une liste des livres que nous avons disponibles :</p>\n\n  <p class=\"book-list\">La puissance de l’amour de la vérité<br>\n  Conseil chrétien : contrefaçon ?<br>\n  Le cœur de Dieu<br>\n  Libres en vérité !<br>\n  Pèlerins et politique<br>\n  Coupe et croix<br>\n  Le coût élevé de la guérison holistique<br>\n  Secrets de l’écriture réussie<br>\n  La connexion catholique<br>\n  Psychiatrie et médicaments modifiant l’humeur<br>\n  L’Église mennonite et le modernisme</p>\n\n  <p>En 2017 et 2018, le Berean Voice a publié une série d’articles sur les vaccins dans le magazine <em>The Heartbeat of the Remnant</em>. Ces articles étaient un effort sincère pour examiner divers aspects de l’utilisation des vaccins avec une approche équilibrée. Nous avons tenté de présenter les faits aussi clairement que possible et de laisser les lecteurs tirer leurs propres conclusions.</p>\n\n  <p>Depuis lors, nous avons reçu de nombreuses demandes de la part de nos lecteurs pour publier tous les articles sur les vaccins dans un livret, ce que nous avons accepté de faire. Puis est arrivé 2019, apportant avec lui le coronavirus. Cet événement monumental a bouleversé le débat sur les vaccins et a ouvert la voie à une ruée effrénée pour commercialiser des remèdes contre la COVID-19, dont beaucoup n’étaient pas correctement testés. Nous avons mis l’impression en attente, ne sachant pas s’il fallait inclure des informations sur ces nouveaux « vaccins » contre la COVID-19 non éprouvés. Avec le temps et l’atténuation du caractère mortel de la COVID-19, nous avons décidé de publier les articles originaux sur les vaccins dans un livret sans articles supplémentaires sur le débat concernant la COVID-19. Nous sommes heureux que le projet soit presque achevé et qu’il sera annoncé lors de sa sortie.</p>\n\n  <p>Bénédictions à tous,</p>\n\n  <p class=\"byline\">Edward Martin</p>\n\n  <figure>\n    <img src=\"/images/articles/52074824-2feb-4fe4-96d0-a08ec72c3565-1.jpg\" alt=\"Fleurs de coronille rose et blanche dans un pré verdoyant\" loading=\"lazy\">\n  </figure>\n</article>\n",
+    "section": "De la RÉDACTION",
+    "subtitle": null,
+    "title": "De la rédaction"
+  }
+}

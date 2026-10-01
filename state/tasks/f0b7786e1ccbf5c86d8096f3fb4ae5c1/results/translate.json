@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6ffff4bd-25f1-4a91-a984-31612948d538",
+    "response_id": "chatcmpl-EUGU7Hdbr41vbdcSH5XQ5a5BxNgsm",
+    "usage": {
+      "completion_tokens": 1488,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1919,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3407
+    }
+  },
+  "received_at": "2026-10-01T19:15:02+00:00",
+  "result": {
+    "html": "<article data-article-id=\"aa552c1c-4324-40a5-a7c3-8f36b6a99ee2\">\n  <p class=\"drop-cap\">Jamin, huit ans, n’était pas très intelligent. Du moins, c’est ce que lui disait son frère aîné. Presque chaque jour, Kenny trouvait des moyens de rappeler à Jamin ses défauts et de rire de ses bévues.</p>\n  <p>« Jamin, tu ne seras jamais intelligent », disait Kenny. Profondément, Jamin se sentit résigné à une vie de maladresses confuses. Serait-il toujours gauche ? Dirait-il toujours les choses de travers ? C’est ce que Kenny disait.</p>\n  <p>Jamin croyait aux leçons de Kenny avec une foi d’enfant aux yeux écarquillés. Kenny avait trois ans de plus que lui, donc il devait avoir raison. Très bien, alors Jamin serait simple. Kenny serait intelligent. La vie n’était pas juste. Papa et Maman n’aimaient pas les propos orgueilleux de Kenny et le punissaient chaque fois qu’ils surprenaient l’une de ses tirades. Mais Kenny savait se tenir hors d’écoute. Alors il continua à se moquer de Jamin.</p>\n  <p>Grand-mère Otto observait ces épreuves depuis son fauteuil à bascule sur la véranda. C’était une vieille dame tranquille.</p>\n  <p>« Jamin, sais-tu où est Kenny ? » demanda Maman avec un sourire. « C’est presque l’heure du souper. »</p>\n  <p>« Il est allé vérifier ses pièges à coyotes. J’irai le chercher. »</p>\n  <p>Un froid piquant se faisait sentir tandis qu’il gravissait la pelouse, et le soleil vieillissait quand il franchit la lisière du bois. Les ombres fugitives glissaient sur les collines. Le froid se fit plus vif à mesure qu’il s’enfonçait. Il respira l’air riche et suivit la piste de Kenny. Finalement, le sentier finirait par déboucher sur une prairie, mais Jamin espérait trouver Kenny avant d’avoir à aller si loin. Les différents pièges avaient déjà été vérifiés, donc Jamin savait que Kenny était passé par là. Jamin marcha d’un pas résolu. Sa chevelure dorée attrapait les rayons fatigués qui fuyèrent du soleil en scintillant à travers les arbres. Et bientôt ceux-ci aussi s’étaient estompés, ne laissant que l’odeur musquée du bois. Les chenilles tisseuses d’automne avaient travaillé, et leurs rideaux de toile pendaient des branches au-dessus.</p>\n  <p>Au bout d’un moment, alors que les arbres s’éclaircissaient et que la prairie apparaissait, Jamin sut que c’était la fin du parcours des pièges de son frère. Si Kenny n’était pas là, il ne saurait pas où chercher ailleurs.</p>\n  <p>Mais Kenny était là. Quand Jamin déboula dans la prairie, il aperçut un tas frustré à sa droite. La voix du tas avait une sonorité familière. Le visage du tas était crispé de douleur. Le tas, c’était Kenny. « Ça va ? Que s’est-il passé ? » Jamin trouva étrange de voir Kenny affalé dans la terre. Kenny était intelligent. « Tu as marché dans un piège ? »</p>\n  <p>« Oui, Jamin. Je… je ne regardais pas où j’allais. Aide‑moi. S’il te plaît. »</p>\n  <p>Jamin se pencha et trouva une cheville fermement prise dans les mâchoires d’un piège en acier. L’obscurité ternissait le sol autour de Kenny. Rapidement, les bras puissants de Jamin forcèrent l’ouverture des mâchoires. Kenny se dépêtra. « Tu peux marcher ? »</p>\n  <p>« Oui. Je crois. Si tu me soutiens, je peux boitiller. »</p>\n  <p>« Papa et Maman vont s’inquiéter. Nous avons raté le souper. »</p>\n  <p>En effet, alors que les frères boitillaient en revenant par le bois, ils entendirent l’appel prolongé de leur père. Jamin répondit, et il fut à leurs côtés en un instant, voyant la cheville et soulevant Kenny comme un mouton blessé. La petite bande pressée rentra chez elle, et la porte moustiquaire claqua quand Papa traversa la véranda. Jamin alla à la buanderie et se lava les mains. Il se dirigea vers la porte d’entrée.</p>\n  <figure>\n    <img src=\"/images/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2-1.jpg\" alt=\"Un sentier étroit serpentant à travers un sous-bois feuillu\" loading=\"lazy\">\n  </figure>\n  <p>« Jamin. » C’était Grand-mère. La lumière de la véranda la montrait dans son vieux fauteuil à bascule. Une lourde couverture reposait sur ses épaules.</p>\n  <p>« Oui, grand‑mère ? »</p>\n  <p>« Penses‑tu que tu n’es pas très intelligent ? »</p>\n  <p>« C’est ce que dit Kenny. » Jamin se tortillait.</p>\n  <p>« Tu as été assez fort pour ouvrir le piège, et Kenny ne l’a pas été. Tu as eu le courage de le chercher dans l’obscurité. Beaucoup de jeunes garçons ne l’auraient pas fait. » Jamin resta silencieux. Grand-mère Otto balança encore son fauteuil puis sourit. « Dieu t’a fait tel que tu es pour une raison, Jamin. Il a fait Kenny tel qu’il est pour une raison. Il a un plan pour toi, et une place que toi seul peux occuper, tu sais. »</p>\n  <p>Jamin se retourna et entra dans la cuisine chaleureuse. Il souriait.</p>\n</article>\n",
+    "section": "Le coin des enfants",
+    "subtitle": null,
+    "title": "Jamin devient plus sage"
+  }
+}
