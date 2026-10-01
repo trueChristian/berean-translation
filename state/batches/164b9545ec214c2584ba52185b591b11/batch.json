@@ -13,7 +13,7 @@
   ],
   "id": "164b9545ec214c2584ba52185b591b11",
   "input_file_id": "file-2TZB8DpwmPejTLdoRPaqW5",
-  "last_polled_at": "2026-10-01T19:16:42+00:00",
+  "last_polled_at": "2026-10-01T19:17:58+00:00",
   "model": "gpt-5-mini",
   "payload_sha256": "0b324a5be8b431422e8ef621a12ca771f3fe48a784316001c7357b6198d3d2bf",
   "remote_cancelled_at": null,
@@ -27,7 +27,7 @@
   "remote_finalizing_at": null,
   "remote_id": "batch_6abeb14fe6208190882f07188c5e8870",
   "remote_in_progress_at": 1790882129,
-  "remote_observed_at": "2026-10-01T19:16:42+00:00",
+  "remote_observed_at": "2026-10-01T19:17:58+00:00",
   "remote_request_counts": {
     "completed": 0,
     "failed": 0,
