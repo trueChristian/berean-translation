@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0b71f264-3ab2-41cb-9dec-b8588ab69d74",
+    "response_id": "chatcmpl-EUH4jF3gOC7qeRMf0S17d6wMfClkk",
+    "usage": {
+      "completion_tokens": 1818,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8929,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10747
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"hymn\"> — first stanza (hymn opening line)",
+        "severity": "major",
+        "source_quote": "The sands of time are sinking,",
+        "suggested_fix": "Translate the phrase literally and accurately as: \"חול הזמן שוקע,\" (or other clear Hebrew for 'the sands of time are sinking') preserving the sense of 'sands' (חול) rather than 'חולי'. Keep the surrounding HTML tags and markup unchanged.",
+        "translation_quote": "חולי הזמן שוקעים,"
+      },
+      {
+        "location": "<p>…רתרפורד המשיך להיות מנהיג…</p> (paragraph about Rutherford after children paragraph)",
+        "severity": "minor",
+        "source_quote": "Rutherford continued to be an influential leader in the non-conformist movement in Scotland for the next 20 years until 1660.",
+        "suggested_fix": "Correct the personal name spelling in-place to match the source: replace \"רץפורד\" with \"רתרפורד\". Preserve the paragraph's HTML tags and punctuation.",
+        "translation_quote": "רץפורד המשיך להיות מנהיג בעל השפעה בתנועת הלא־התאמה בסקוטלנד במשך כ־20 השנים הבאות עד 1660."
+      },
+      {
+        "location": "Hymn stanzas — various lines (example: stanza 2 first line)",
+        "severity": "major",
+        "source_quote": "Oh! well it is forever, Oh! well forevermore",
+        "suggested_fix": "Re-render stanza 2 and other hymn lines to convey the printed English meaning faithfully. For stanza 2 a suitable Hebrew preserving the sense would be e.g. \"אוי! מה טוב הדבר לעד, אוי! טוב לעד ולעד\". Review all 19 original verses for sense-accurate Hebrew equivalents and correct mistranslations such as 'My nest hung in no forest' (do not render as 'קנוני לא היו בקן ביער') — use a phrase conveying 'My nest was not hung in any forest of this death-doomed shore.' Keep all hymn HTML tags intact.",
+        "translation_quote": "2. אוי! טוב זאת לעד,\n    אוי! טוב לעד ולעד\n    קנוני לא היו בקן ביער\n    של כל החוף הזה הנידון למות!"
+      },
+      {
+        "location": "<figure> <img alt=\"...\">",
+        "severity": "minor",
+        "source_quote": "A star-filled night sky above a mountain lake",
+        "suggested_fix": "Use a natural Hebrew rendering of the original English alt text such as: \"שמיים ליליים מלאי כוכבים מעל אגם הררי\". Replace the current alt text in-place and preserve the <img> tag and attributes.",
+        "translation_quote": "שמי לילה מלאים בכוכבים מעל אגם הררי"
+      },
+      {
+        "location": "Last paragraph before sources — closing Samuel Rutherford quote",
+        "severity": "minor",
+        "source_quote": "\"They lose nothing who gain Christ.\"",
+        "suggested_fix": "Render the short quotation more idiomatically and clearly while keeping the original meaning, for example: \"הם לא מפסידים דבר שזוכים במשיח.\" Keep the quotation marks and surrounding HTML unchanged.",
+        "translation_quote": "\"האינם מפסידים כלום שהם מרוויחים את המשיח.\""
+      },
+      {
+        "location": "Multiple hymn stanzas — fidelity and idiom (examples: stanza 6, stanza 9)",
+        "severity": "major",
+        "source_quote": "6. E’en Anwoth was not heaven—E’en preaching was not Christ; ...\n9. The little birds of Anwoth, used to count them blest,—",
+        "suggested_fix": "Revise these stanzas to accurately reflect the printed English sense. For stanza 6 a clearer Hebrew might be: \"אפילו אנוות' לא הייתה גן עדן — אפילו הדרשה אינה המשיח; ...\" For stanza 9: \"ציפורי אנוות' הקטנות, שהיו נחשבות מבורכות —\". Carefully correct mistranslations that alter meaning (e.g. avoid rendering 'preaching was not Christ' as 'ההטפה לא היתה המשיח' without context that makes the negative correctly idiomatic). Preserve the hymn <div> and <p> tags.",
+        "translation_quote": "<em>6. אף אנוות' לא הייתה השמיים—<br>\n    אף ההטפה לא הייתה המשיח;<br>\n    ובכלאי הים הנוטש שלי<br>\n    אדוני ואני קבענו מפגש:<br>\n    ותמיד ענן הסערה האפל שלי<br>\n    נתפס על ידי קשת־קשת;<br>\n    נתפס מתהילת השכינה<br>\n    בארץ עמנואל.</em>\n...\n<em>9. הציפורים הקטנות של אנוות',<br>\n    נהגו לספור את עצמן מבורכות,—<br>\n    כעת, ליד מזבחות מאושרים יותר,<br>\n    הולכות לבנות את קניי:<br>\n    מעליהן אין שורה דממה,<br>\n    אין קברים עומדים סביבהן,<br>\n    כי תהילה, אינה מתה, שורה<br>\n    בארץ עמנואל.</em>"
+      }
+    ],
+    "passed": false,
+    "score": 58
+  }
+}

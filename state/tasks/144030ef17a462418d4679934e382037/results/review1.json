@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d3bd5438-3973-47e6-b134-36b38e16ea45",
+    "response_id": "chatcmpl-EUH4F3rPzbrXBHy9c9hT4RZT2vwaj",
+    "usage": {
+      "completion_tokens": 931,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3541,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4472
+    }
+  },
+  "received_at": "2026-10-01T20:28:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first two paragraphs (temperature lines)",
+        "severity": "major",
+        "source_quote": "“Probably about 50.” Adrianna glanced lazily at the thermometer. “Hey, it’s 65 degrees! Mom, may we eat lunch outside?”",
+        "suggested_fix": "Preserve the original numeric readings instead of converting them to Celsius, or else show both the original numbers and a localized conversion in parentheses. For example, keep the text as: “Kanske omkring 50.” Adrianna tittade slött på termometern. “Hej, det är 65 grader! Mamma, får vi äta lunch ute?” — or, if you want a Celsius conversion, render: “Kanske omkring 50 (ca 10 °C).” Adrianna tittade slött på termometern. “Hej, det är 65 (ca 18 °C)!” Mamma, får vi äta lunch ute?",
+        "translation_quote": "\"Kanske runt 10 grader.\" Adrianna tittade slött på termometern. \"Hej, det är 18 grader! Mamma, får vi äta lunch ute?\""
+      },
+      {
+        "location": "source.html — near end: “out of the pasture” sentence",
+        "severity": "minor",
+        "source_quote": "She stepped out of the kayak, pulled it out of the water, and flipped it over to dry. Resolutely, she walked out of the pasture to find Asher and the girls.",
+        "suggested_fix": "The translation uses plural 'hagarnas' (out of the pastures) — a minor idiomatic change. Use the singular 'hagen' to match the English singular 'pasture', unless the original setting has multiple pastures. Suggested wording: 'Bestämt gick hon ut ur hagen för att hitta Asher och flickorna.'",
+        "translation_quote": "Bestämt gick hon ut ur hagarna för att hitta Asher och flickorna."
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

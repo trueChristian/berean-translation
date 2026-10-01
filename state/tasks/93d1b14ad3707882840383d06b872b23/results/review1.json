@@ -1,0 +1,85 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "14d2d54d-8e5b-45ec-9ff5-e9f0330c1b59",
+    "response_id": "chatcmpl-EUH3ZBnXbbVvq8SgV28eP3ioWOXPE",
+    "usage": {
+      "completion_tokens": 2132,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7996,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10128
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Notice what scripture says about being pure. … Psalm 24:3-4 …</p>",
+        "severity": "major",
+        "source_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”",
+        "suggested_fix": "Translate the quoted Scripture phrases into Arabic in a way that conveys the exact printed English wording from the source. Preserve the surrounding HTML and the parenthetical verse references. For example, replace the English quotation marks and English phrases with Arabic text that is a direct rendering of the printed English quotations (not a citation of a different Bible version). Keep the verse references in parentheses unchanged (e.g., (Matthew 5:8)). Ensure resulting HTML remains identical except for the translated quote strings.",
+        "translation_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”"
+      },
+      {
+        "location": "<p>I John 1:6 says, “if we say that we have fellowship…</p>",
+        "severity": "major",
+        "source_quote": "I John 1:6 says, “if we say that we have fellowship with Him and walk in darkness (light on the outside and darkness on the inside), we lie and do not practice the truth.”",
+        "suggested_fix": "Translate the scripture quotation into Arabic while conveying the printed English wording from the source. Preserve the reference label 'I John 1:6' and the parenthetical explanatory clause exactly in structure; only translate the quoted English sentence into Arabic. Keep the HTML tags as in source.",
+        "translation_quote": "I John 1:6 says, “if we say that we have fellowship with Him and walk in darkness (light on the outside and darkness on the inside), we lie and do not practice the truth.”"
+      },
+      {
+        "location": "<p>…in John 10:10, Jesus said…</p>",
+        "severity": "major",
+        "source_quote": "In John 10:10, Jesus said, “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy” all godly relationships.",
+        "suggested_fix": "Translate the quoted sentence into Arabic conveying the printed English wording. Keep the verse reference 'John 10:10' and surrounding punctuation intact. Make sure the translation preserves the original clause structure and emphasis.",
+        "translation_quote": "In John 10:10, Jesus said, “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy” all godly relationships."
+      },
+      {
+        "location": "<p>…Hebrews 4:13 says, “Neither is there any creature…</p>",
+        "severity": "major",
+        "source_quote": "Hebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).”",
+        "suggested_fix": "Translate the scripture quotation into Arabic that communicates the printed English phrase shown in the source. Preserve the reference 'Hebrews 4:13' and the parenthetical insertion. Keep the HTML unchanged except for replacing the English quoted string with an Arabic rendering of that exact English wording.",
+        "translation_quote": "Hebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).”"
+      },
+      {
+        "location": "<p>…Numbers 32:23 is still very true, saying, “Be sure your sin will find you out.”</p>",
+        "severity": "major",
+        "source_quote": "Numbers 32:23 is still very true, saying, “Be sure your sin will find you out.”",
+        "suggested_fix": "Translate the quoted Scripture sentence into Arabic conveying the printed English wording. Keep the verse reference 'Numbers 32:23' intact and maintain the surrounding HTML structure.",
+        "translation_quote": "Numbers 32:23 is still very true, saying, “Be sure your sin will find you out.”"
+      },
+      {
+        "location": "<p>…James 1:15 happens: “Then when lust hath conceived…</p>",
+        "severity": "major",
+        "source_quote": "then James 1:15 happens: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” Verse 16 says, “Do not (be deceived) my beloved brethren.”",
+        "suggested_fix": "Translate the scripture quotations (James 1:15 and verse 16) into Arabic conveying the exact printed English text in the source. Preserve the verse numbering and punctuation. Do not substitute a different Bible version’s wording; render the English phrasing into Arabic text that mirrors the source quotes. Keep HTML tags unchanged.",
+        "translation_quote": "then James 1:15 happens: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” Verse 16 says, “Do not (be deceived) my beloved brethren.”"
+      },
+      {
+        "location": "<p>…Promise Keepers said 65% of men…</p>",
+        "severity": "minor",
+        "source_quote": "Promise Keepers said 65% of men in their survey were addicted.",
+        "suggested_fix": "This organizational name is left in English; if style guidelines prefer transliteration or an Arabic rendering, consider writing it as «Promise Keepers» consistently or transliterating to «بروميس كيبرز». This is a stylistic/consistency issue, not a doctrinal one. No HTML changes required other than replacing the name. If leaving in English is acceptable per house style, no change is necessary.",
+        "translation_quote": "Promise Keepers said 65% of men in their survey were addicted."
+      },
+      {
+        "location": "<h2>How can we live a morally pure life?</h2> and following paragraph referencing James 5 and I Peter 5:5",
+        "severity": "minor",
+        "source_quote": "Be Humble. James 5 says, “Confess your faults one to another that ye may be healed.” … I Peter 5:5 tells us that God gives grace to the humble.",
+        "suggested_fix": "Translate the short Scripture quote into Arabic conveying the printed English wording, and translate the book names consistently (e.g., 'James' → 'James' or transliterated consistently). Ensure the verse reference formatting (e.g., 'James 5') matches the source. Preserve HTML tags and inline emphasis. This is minor because the passage is present but the quoted text remains in English in the translation.",
+        "translation_quote": "Be Humble. James 5 says, “Confess your faults one to another that ye may be healed.” … I Peter 5:5 tells us that God gives grace to the humble."
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ab7b121f-3b23-4839-a32b-22bb3f43a734",
+    "response_id": "chatcmpl-EUH488GUEPXUeQvUYZ1xKbztIpdzd",
+    "usage": {
+      "completion_tokens": 890,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3482,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4372
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first paragraph",
+        "severity": "major",
+        "source_quote": "He and Adrianna were sitting at the table doing school with their siblings Emily and Kianna.",
+        "suggested_fix": "Use wording that preserves the original meaning that Emily and Kianna are the siblings (both female) rather than implying brothers: replace the translation quote with: \"Hij en Adrianna zaten aan de tafel schoolwerk te doen met hun zusjes Emily en Kianna.\"",
+        "translation_quote": "Hij en Adrianna zaten aan de tafel schoolwerk te doen met hun broertjes en zusjes Emily en Kianna."
+      },
+      {
+        "location": "source.html — paragraph that begins “She threw her apple core to the dogs”",
+        "severity": "minor",
+        "source_quote": "She threw her apple core to the dogs and started for the house.",
+        "suggested_fix": "Translate the noun for 'apple core' with the common Dutch term. Replace the translation quote with: \"Ze gooide haar appelklokhuis naar de honden en liep naar het huis.\"",
+        "translation_quote": "Ze gooide haar appelklokje naar de honden en liep naar het huis."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

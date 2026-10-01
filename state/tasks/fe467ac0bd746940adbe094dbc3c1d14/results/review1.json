@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "78a3c747-4a65-4c54-8569-89aedd383163",
+    "response_id": "chatcmpl-EUH3fK3TGEO8ou3qPhvuh1OF24aE9",
+    "usage": {
+      "completion_tokens": 1306,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8912,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10218
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — Ecclesiastes paragraph (after h2 “Dementia in the Bible\")",
+        "severity": "major",
+        "source_quote": "“Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, ... Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”",
+        "suggested_fix": "Translate the full quoted Scripture passage into contemporary Russian (preserve the punctuation/quotation structure and the original citation context). For example, replace the English quotation text inside the <p>…</p> with an equivalent Russian rendering of Ecclesiastes 12:1-7, and keep the surrounding HTML unchanged.",
+        "translation_quote": "“Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, ... Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”"
+      },
+      {
+        "location": "source.html — Deuteronomy and Galatians inline quotations (two separate instances; Deuteronomy 6:7 in paragraph after Ecclesiastes, and Galatians 5:22-23 in Conclusion)",
+        "severity": "major",
+        "source_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, ... and when thou risest up” (Deuteronomy 6:7).",
+        "suggested_fix": "Translate the quoted Deuteronomy 6:7 into Russian (keeping the parenthetical citation “(Deuteronomy 6:7)”). Do the same for the Galatians quotation: replace the English Galatians 5:22-23 quotation with the corresponding Russian text, preserving the parenthetical reference “(Galatians 5:22-23)”. Do not substitute a different Bible version than the printed English; rather render the printed English text into standard contemporary Russian while preserving the citation.",
+        "translation_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7).\n\n“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23)."
+      },
+      {
+        "location": "source.html — Multiple section headings left in English (h2 elements: “Dementia in the Bible”, “What Dementia is”, “Diagnosing Dementia”, “Eliminate Medications”, “Medical Treatments”, “Non-medication Therapies”, “Caring For Someone with Dementia”, “Get Others to Help”, “Conclusion”)",
+        "severity": "minor",
+        "source_quote": "Dementia in the Bible\n\nWhat Dementia is\n\nDiagnosing Dementia\n\nEliminate Medications\n\nMedical Treatments\n\nNon-medication Therapies\n\nCaring For Someone with Dementia\n\nGet Others to Help\n\nConclusion",
+        "suggested_fix": "Translate these H2 headings into Russian equivalents to match the target-language article (preserve the same <h2> tags and their positions). Example suggestions: «Деменция в Библии», «Что такое деменция», «Диагностика деменции», «Исключение лекарств», «Медикаментозное лечение», «Немедикаментозные подходы», «Уход за человеком с деменцией», «Привлечение посторонней помощи», «Заключение». Ensure the HTML structure (h2 tags) and their order remain unchanged.",
+        "translation_quote": "Dementia in the Bible\n\nWhat Dementia is\n\nDiagnosing Dementia\n\nEliminate Medications\n\nMedical Treatments\n\nNon-medication Therapies\n\nCaring For Someone with Dementia\n\nGet Others to Help\n\nConclusion"
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

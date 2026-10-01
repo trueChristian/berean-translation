@@ -2,7 +2,6 @@
   "article_id": "1ec0f654-0dd1-48f3-9a68-3b15189e6704",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:46+00:00",
   "events": [
@@ -24,8 +23,37 @@
         },
         "total_tokens": 3955
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1164,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 960,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3757,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4921
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<p>Adrianna stood with a scowl on her face. Playhouse indeed! She was way too old for that! “I’m going kayaking,” she announced. “You can just have your playhouse.”</p>",
+      "severity": "minor",
+      "source_quote": "Adrianna stood with a scowl on her face.",
+      "suggested_fix": "Preserve meaning with natural Hindi phrasing. Replace the current translation phrase that uses an incorrect/odd word (\"चेहरा भौंरा कर खड़ी हो गयी\") with a clearer rendering that preserves the original tone: \"एड्रियाना सख्त भंगिमा बनाकर खड़ी हो गई।\" Ensure the surrounding HTML and tags remain unchanged.",
+      "translation_quote": "एड्रियाना चेहरा भौंरा कर खड़ी हो गयी। प्लेहाउस! वह इसके लिए बहुत बड़ी थी!"
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:53+00:00",
   "id": "07307d33c889c8058230c2ec3931fdcd",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "hin",
@@ -69,11 +97,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d59e6cc034714ade3629f9e4dd10e75a09cff16eb5d3255ed698b76288fda97d.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "dcfff2a5364081c6a6817377a0d3ad1649eaec0276399a4b9a70adc9f0fe19d1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

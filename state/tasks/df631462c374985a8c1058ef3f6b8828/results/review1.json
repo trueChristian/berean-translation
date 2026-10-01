@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9597958d-fe6c-4afa-829c-c3bd526635c9",
+    "response_id": "chatcmpl-EUH43eQ3Acw2cchB8i79VAkiQIppu",
+    "usage": {
+      "completion_tokens": 819,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3066,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3885
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"drop-cap\"> (first paragraph)",
+        "severity": "minor",
+        "source_quote": "...they honk and quack their way to their final nesting places. This year the spring peepers in our area were “winter peepers” as they feebly squeaked their greetings to the arriving spring in mid-February.",
+        "suggested_fix": "Replace \"मध्यम फरवरी\" with the correct Hindi phrase \"मध्य फरवरी\" to match the English meaning and standard Hindi usage.",
+        "translation_quote": "...प्रवासी जलपक्षी अपनी नई आवाज़ें लाते हैं, गंू-गूं और क्वैक करते हुए अपने अंतिम घोंसले की ओर बढ़ते हैं। इस साल हमारे क्षेत्र के स्प्रिंग पीपर्स \"विंटर पीपर्स\" थे, जिन्होंने मध्यम फरवरी में आने वाले बसंत का सलाम कमजोर-सा चीख कर किया।"
+      },
+      {
+        "location": "<figure> <img alt>",
+        "severity": "minor",
+        "source_quote": "alt=\"White blossoms beside a small bird nesting in a bowl\"",
+        "suggested_fix": "Adjust the alt text wording to a more natural Hindi phrasing while preserving meaning. Suggested: \"किसी कटोरे में घोंसला बनाये एक छोटे पक्षी के पास सफेद फूलों की पुष्पशिखा\" or keep current but change word order to sound more idiomatic: \"एक कटोरे में घोंसला बनाये हुए एक छोटे पक्षी के पास सफेद पुष्पों के गुच्छे\".",
+        "translation_quote": "alt=\"एक कटोरे में घोंसला बनाये हुए एक छोटे पक्षी के पास सफेद पुष्पों के गुच्छे\""
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

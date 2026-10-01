@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "83d085e3-4c04-4312-bdb5-edae8b9ddcd9",
+    "response_id": "chatcmpl-EUH3aL6zWoUKgpI22Dqi79Fq3N9QP",
+    "usage": {
+      "completion_tokens": 1597,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2935,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4532
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> paragraph 2 (Psalm quotation)",
+        "severity": "major",
+        "source_quote": "“Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9).",
+        "suggested_fix": "将括号中的英文诗篇摘引翻译成标准书面中文，既传达原文英文所载措辞的意思，又保留原始经文出处。示例译文：\"‘愿诸水拍掌；愿诸山在耶和华面前一同欢呼；因为他要来审判世界；他要以公义审判万民，以公平判断万国。’（诗篇98:8-9）\"。请在 HTML 中以相同位置和引号结构替换原英文摘引。",
+        "translation_quote": "“Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9)。"
+      },
+      {
+        "location": "<article> paragraph 6 (quoted passage from “How to Increase Your Faith”)",
+        "severity": "major",
+        "source_quote": "“Faith is one of the basic ingredients in getting right with God. We come into the Christian life (and receive the forgiveness of sins) through faith. . . We abandon all hope for saving ourselves by our own abilities, and instead, we put complete trust in Jesus Christ for our eternal safety.”",
+        "suggested_fix": "将该段英文引用翻译为中文，准确传达原文神学主张与句意（不要以不同经文或版本替换其含义）。示例译文：\"‘信心是与上帝和好之基本要素之一。我们藉着信进入基督徒的生命（并接受罪的赦免）。……我们不再寄望靠自己能力得救，反而把完全的信靠放在耶稣基督身上，求得永远的安全。’\"。请在 HTML 原位置替换英文摘引为中文译文，保留引号与句内省略号形式。",
+        "translation_quote": "“Faith is one of the basic ingredients in getting right with God. We come into the Christian life (and receive the forgiveness of sins) through faith. . . We abandon all hope for saving ourselves by our own abilities, and instead, we put complete trust in Jesus Christ for our eternal safety.”"
+      },
+      {
+        "location": "<article> paragraph 8 (Isaiah quotation)",
+        "severity": "major",
+        "source_quote": "“For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11).",
+        "suggested_fix": "将此以英文呈现的以赛亚经文摘引翻译为中文，准确传达原文含义并保留经文出处。示例译文：\"‘因为地发芽长禾，园中所栽的发出发旺；耶和华必使公义和赞美在万国面前发出。’（以赛亚书61:11）\"。请在 HTML 中以相同位置和引号结构替换原英文摘引。",
+        "translation_quote": "“For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11)。"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

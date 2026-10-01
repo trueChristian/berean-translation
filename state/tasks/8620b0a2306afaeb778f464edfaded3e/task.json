@@ -2,7 +2,6 @@
   "article_id": "b43320f3-e4e8-450b-865c-099ef704149c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 8316
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2127,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 320,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8000,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10127
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Paragraph 2 (scripture quotations)",
+      "severity": "major",
+      "source_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”",
+      "suggested_fix": "Translate the printed English Scripture quotations into German while preserving the original citation parentheses and HTML. For example: “Selig sind, die reinen Herzens sind” (Matthew 5:8). “Damit ihr prüfen mögt, was das Beste ist; dass ihr lauter und ohne Anstoß seid bis an den Tag Christi” (Philippians 1:10). “Denket an das, was rein ist” (Philippians 4:8). “Hüte dich rein zu sein” (1Timothy 5:22). Revelation 19: “Die reinen im Herzen werden Gott sehen.” Psalm 24:3–4: “Wer wird wohnen in deinem Zelt? Wer wird wohnen auf deinem heiligen Berge? Der reinen Hände und reinen Herzens ist.” (Keep the original parentheses and verse references unchanged.)",
+      "translation_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”"
+    },
+    {
+      "location": "Multiple locations — inline verse quotations later in article (e.g., I John 1:6 paragraph; Hebrews 4:13 / Numbers 32:23; James 1:15 paragraph; etc.)",
+      "severity": "major",
+      "source_quote": "I John 1:6 says, “if we say that we have fellowship with Him and walk in darkness (light on the outside and darkness on the inside), we lie and do not practice the truth.” ... Hebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).” ... Numbers 32:23 is still very true, saying, “Be sure your sin will find you out.” ... then James 1:15 happens: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” ... Vers 16 says, “Do not (be deceived) my beloved brethren.”",
+      "suggested_fix": "Translate these printed English scripture quotations into German, preserving verse references and HTML. Example for I John 1:6: “Wenn wir sagen, wir hätten Gemeinschaft mit ihm und wandeln in der Finsternis, so lügen wir und tun nicht die Wahrheit.” (I John 1:6). For Hebrews 4:13: “Und kein Geschöpf ist vor ihm verbor­gen; sondern alles ist offen und bloß vor seinen Augen; ihm müssen wir Rechenschaft geben.” (Hebrews 4:13). For Numbers 32:23: “Siehe, dein Missetat wird dich finden.” (Numbers 32:23). For James 1:15: “Die Begierde, sobald sie empfangen hat, gebiert Sünde; die Sünde, wenn sie vollendet ist, gebiert den Tod.” (James 1:15). Keep the same punctuation and verse references as in the source HTML.",
+      "translation_quote": "I John 1:6 says, “if we say that we have fellowship with Him and walk in darkness (light on the outside and darkness on the inside), we lie and do not practice the truth.” ... Hebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).” ... Numbers 32:23 is still very true, saying, “Be sure your sin will find you out.” ... then James 1:15 happens: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” ... Vers 16 says, “Do not (be deceived) my beloved brethren.”"
+    },
+    {
+      "location": "Section headings and exhortations left in English (many places) — e.g. <h2>How can we live a morally pure life?</h2> and subheads like <strong>Be Humble.</strong>, <strong>Be Honest.</strong>, <strong>Be transparent.</strong>, <strong>Tell yourself the truth.</strong>, <strong>Teach your eyes to bounce.</strong>, <strong>Teaching our children.</strong>, <strong>Keep your emotions.</strong>, <strong>Flee lust and fornication.</strong>",
+      "severity": "major",
+      "source_quote": "How can we live a morally pure life?  /  Be Humble.  /  Be Honest.  /  Be transparent.  /  Tell yourself the truth.  /  Teach your eyes to bounce.  /  Teaching our children.  /  Keep your emotions.  /  Flee lust and fornication.",
+      "suggested_fix": "Translate these headings and exhortation labels into German, preserving the HTML tags (h2, strong). Example: <h2>Wie können wir ein moralisch reines Leben führen?</h2> and <p><strong>Sei demütig.</strong></p>, <p><strong>Sei ehrlich.</strong></p>, <p><strong>Sei transparent.</strong></p>, <p><strong>Sag dir die Wahrheit.</strong></p>, <p><strong>Gewöhne deinen Blick abzuspringen.</strong></p>, <p><strong>Sage unseren Kindern</strong> (or better: <strong>Unsere Kinder lehren.</strong>), <p><strong>Bewahre deine Gefühle.</strong></p>, <p><strong>Fliehe Lust und Unzucht.</strong></p>. Keep structure and order unchanged.",
+      "translation_quote": "How can we live a morally pure life?  /  Be Humble.  /  Be Honest.  /  Be transparent.  /  Tell yourself the truth.  /  Teach your eyes to bounce.  /  Teaching our children.  /  Keep your emotions.  /  Flee lust and fornication."
+    },
+    {
+      "location": "Poem blockquotes at end of article",
+      "severity": "major",
+      "source_quote": "<em>Two forces lie within my breast,\n    The one I love, the one I hate.\n    But the one I feed will dominate.</em>\n\n—The author’s dad\n\n<em>The more honestly I name\n    what is true about myself,\n    The less I need to hide and defend,\n    and posture and pretend.</em>\n\n—Dan Allender",
+      "suggested_fix": "Translate the poems into German (they are substantive content) while preserving the blockquote and poem markup. For example: <blockquote class=\"poem\"><p><em>Zwei Kräfte wohnen in meiner Brust,\n Die eine lieb ich, die andere hass ich.\n Doch die, die ich nähre, wird herrschen.</em></p><p><em>—Der Vater der Autorin</em></p></blockquote> and similarly translate the Dan Allender quotation. Preserve line breaks and the author attributions exactly as in source HTML.",
+      "translation_quote": "<em>Two forces lie within my breast,\n    The one I love, the one I hate.\n    But the one I feed will dominate.</em>\n\n—The author’s dad\n\n<em>The more honestly I name\n    what is true about myself,\n    The less I need to hide and defend,\n    and posture and pretend.</em>\n\n—Dan Allender"
     }
   ],
   "id": "8620b0a2306afaeb778f464edfaded3e",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6e098ac8eb342eaa406de38f5a002ad3b708959025887f49dfe6141d191cd700.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "f7304b582e2d69344173a19198f46ca88b1132d0c44e0b4021e5c3668c34cd95",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

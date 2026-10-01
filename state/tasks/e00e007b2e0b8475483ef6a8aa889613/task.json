@@ -2,7 +2,6 @@
   "article_id": "b43320f3-e4e8-450b-865c-099ef704149c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 8188
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2495,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7937,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10432
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Paragraph 2 (scripture quotations)",
+      "severity": "critical",
+      "source_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”",
+      "suggested_fix": "Translate these quoted Scripture lines into Swedish so they convey the authoritative English wording in Swedish (do not substitute a different English Bible version). Preserve punctuation and citation placement and keep existing HTML structure. For example: replace the English quotes with Swedish renderings that mirror the English text semantics and keep the parenthetical references (e.g., “Saliga är de renhjärtade” for “Blessed are the pure in heart” and similar careful renderings for the others). Ensure citations like (Matthew 5:8) remain unchanged.",
+      "translation_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”"
+    },
+    {
+      "location": "Multiple paragraphs (interior Scripture quotations and verse citations) — e.g., paragraphs beginning “I John 1:6 says...” and “Satan is cruel. In John 10:10, Jesus said…” and the paragraph with Hebrews 4:13 and Numbers 32:23 and James 1:15/16",
+      "severity": "critical",
+      "source_quote": "I John 1:6 says, “if we say that we have fellowship with Him and walk in darkness (light on the outside and darkness on the inside), we lie and do not practice the truth.”\n\nJohn 10:10, Jesus said, “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy”\n\nHebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).”\n\nNumbers 32:23 is still very true, saying, “Be sure your sin will find you out.”\n\nJames 1:15: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” Verse 16 says, “Do not (be deceived) my beloved brethren.”",
+      "suggested_fix": "Render these quoted Bible phrases and verse quotations into Swedish, preserving the meaning of the authoritative English text and keeping the verse citations intact. Do not substitute a different English Bible text; translate the quoted English wording into Swedish. Maintain existing HTML tags and sentence structure around the quotations.",
+      "translation_quote": "I John 1:6 says, “if we say that we have fellowship with Him and walk in darkness (light on the outside and darkness on the inside), we lie and do not practice the truth.”\n\nSatan är grym. I John 10:10 sade Jesus, “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy” alla gudfruktiga relationer.\n\nDet verkar som om vi lätt glömmer hur fåfängligt det är att försöka dölja för Gud. Hebrews 4:13 säger, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).” Hur kan vi vara så naiva...\n\nNumbers 32:23 är fortfarande mycket sant och säger, “Be sure your sin will find you out.”\n\n…sedan händer James 1:15: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” Vers 16 säger, “Do not (be deceived) my beloved brethren.”"
+    },
+    {
+      "location": "H2 heading and following section (practical steps)",
+      "severity": "major",
+      "source_quote": "<h2>How can we live a morally pure life?</h2>\n\n<p><strong>Be Humble.</strong> James 5 says, “Confess your faults one to another that ye may be healed.” ...</p>\n\n<p><strong>Be Honest.</strong> ...</p>\n\n<p><strong>Be transparent.</strong> Romans 2:16 tells of the day when God will judge the secrets of men. ...</p>\n\n<p><strong>Tell yourself the truth.</strong> ...</p>\n\n<p><strong>Teach your eyes to bounce.</strong> ...</p>\n\n<p><strong>Teaching our children.</strong> ...</p>\n\n<p><strong>Keep your emotions.</strong> ...</p>\n\n<p><strong>Flee lust and fornication.</strong> ...</p>",
+      "suggested_fix": "Translate the H2 heading and all English strong-section headings and the immediately following English paragraphs into Swedish. These are substantive headings and guidance; leaving them in English creates incompleteness and breaks the article flow. Preserve the HTML tags (h2 and p/strong) exactly and replace only the English text with correct Swedish equivalents that reflect the original English meaning (e.g., translate the heading to “Hur kan vi leva ett moraliskt rent liv?” and the subheadings to Swedish equivalents such as “Var ödmjuk”, “Var ärlig”, etc.). Keep verse citations (e.g., James 5, Romans 2:16) unchanged.",
+      "translation_quote": "<h2>How can we live a morally pure life?</h2>\n\n<p><strong>Be Humble.</strong> James 5 says, “Confess your faults one to another that ye may be healed.” It takes humility and brokenness to acknowledge our needs, but brokenness is the key to victory. I Peter 5:5 tells us that God gives grace to the humble. ...</p>\n\n<p><strong>Be Honest.</strong> Examine your thoughts, actions, temptations, the things you struggle with, anger, lust, pride, bitterness, etc. ...</p>\n\n<p><strong>Be transparent.</strong> Romans 2:16 tells of the day when God will judge the secrets of men. ...</p>\n\n<p><strong>Tell yourself the truth.</strong> ...</p>\n\n<p><strong>Teach your eyes to bounce.</strong> You can't help what you look at the first time, but you can control what you look at twice. ...</p>\n\n<p><strong>Teaching our children.</strong> This should be heavy on our hearts from early childhood. ...</p>\n\n<p><strong>Keep your emotions.</strong> This is a safety in our corrupt society. ...</p>\n\n<p><strong>Flee lust and fornication.</strong> Run from it! ...</p>"
+    },
+    {
+      "location": "Poems and blockquotes at end",
+      "severity": "major",
+      "source_quote": "<blockquote class=\"poem\">\n    <p><em>Two forces lie within my breast,<br>\n    The one I love, the one I hate.<br>\n    But the one I feed will dominate.</em></p>\n    <p><em>—The author’s dad</em></p>\n  </blockquote>\n\n  <blockquote class=\"poem\">\n    <p><em>The more honestly I name<br>\n    what is true about myself,<br>\n    The less I need to hide and defend,<br>\n    and posture and pretend.</em></p>\n    <p><em>—Dan Allender</em></p>\n  </blockquote>",
+      "suggested_fix": "The two quoted poems are left in English. Translate the poem texts into Swedish to match the authoritative English content in Swedish while preserving the HTML blockquote and em tags and the attribution lines. If the publication policy is to keep short quoted poems in original language, note that must be uniform — otherwise provide faithful Swedish translations of the verses and keep authorship lines unchanged.",
+      "translation_quote": "<blockquote class=\"poem\">\n    <p><em>Two forces lie within my breast,<br>\n    The one I love, the one I hate.<br>\n    But the one I feed will dominate.</em></p>\n    <p><em>—The author’s dad</em></p>\n  </blockquote>\n\n  <blockquote class=\"poem\">\n    <p><em>The more honestly I name<br>\n    what is true about myself,<br>\n    The less I need to hide and defend,<br>\n    and posture and pretend.</em></p>\n    <p><em>—Dan Allender</em></p>\n  </blockquote>"
     }
   ],
   "id": "e00e007b2e0b8475483ef6a8aa889613",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 40,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6e098ac8eb342eaa406de38f5a002ad3b708959025887f49dfe6141d191cd700.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "f7304b582e2d69344173a19198f46ca88b1132d0c44e0b4021e5c3668c34cd95",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

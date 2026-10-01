@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f7940db9-542e-4ec7-9f77-d9446a6bed26",
+    "response_id": "chatcmpl-EUH3jVby8INT5cC5MhgUH6SU7usQD",
+    "usage": {
+      "completion_tokens": 1035,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8767,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9802
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "article > div.hymn > p (stanza 2)",
+        "severity": "minor",
+        "source_quote": "2. Oh! well it is forever,\n    Oh! well forevermore\n    My nest hung in no forest\n    Of all this death-doomed shore!\n    Yea, let the vain world vanish,\n    As from the ship the stand,\n    While glory—glory dwelleth\n    In Immanuel’s land.",
+        "suggested_fix": "The German translation renders the odd source phrase \"As from the ship the stand\" as \"Wie vom Schiff das Gerüst\", which reads unnaturally and is likely a mistranslation of the source wording. Preserve the source wording's sense more literally and idiomatically, for example: \"Ja, lasse die eitle Welt vergehen, wie vom Schiff das Ufer\" or \"Ja, lasse die eitle Welt vergehen, wie vom Schiff das Land\" (choose the version that keeps the original metaphor). Replace the current third-to-last line in stanza 2 with one of these options while preserving the surrounding HTML and emphasis tags.",
+        "translation_quote": "2. O! wohl ist's für immer so,\n    O! wohl für immerdar\n    Mein Nest hing in keinem Forst\n    Dieser ganz todgeweihten Küste!\n    Ja, lasse die eitle Welt vergehen,\n    Wie vom Schiff das Gerüst,\n    Während Herrlichkeit—Herrlichkeit wohnt\n    Im Land Immanuels."
+      },
+      {
+        "location": "article > p (paragraph about tune composer)",
+        "severity": "minor",
+        "source_quote": "The fine complementary tune for this text was composed in the early 1800s by a French musician, Chretien D`Urhan.",
+        "suggested_fix": "The source spells the composer's name with a backtick (D`Urhan). The translation renders it as Chretien D'Urhan with an ASCII apostrophe, which is acceptable, but to match the source more closely you may choose the exact punctuation used originally. No theological or substantive change; this is stylistic. If you prefer stricter fidelity, change \"Chretien D'Urhan\" to \"Chretien D`Urhan\" in the translated paragraph while preserving HTML.",
+        "translation_quote": "Die passende ergänzende Melodie zu diesem Text wurde Anfang des 1800er von einem französischen Musiker, Chretien D'Urhan, komponiert."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

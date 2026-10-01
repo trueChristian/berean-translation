@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "14ff212d-3d14-43ff-a86b-4d20dfe370e8",
+    "response_id": "chatcmpl-EUH3YSWcSHdJJXpWHCMCgCggsGM1U",
+    "usage": {
+      "completion_tokens": 925,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6790,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7715
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<figure> second <img> alt",
+        "severity": "minor",
+        "source_quote": "A puffball fungus growing on a mossy forest floor",
+        "suggested_fix": "Translate the English description into standard Korean terminology without unnecessary transliteration. For example: replace the img alt value with \"이끼 낀 숲 바닥에서 자라는 포프볼 버섯\" or \"이끼 낀 숲 바닥에서 자라는 둥근 버섯(포프볼)\" while preserving the img tag and attributes.",
+        "translation_quote": "이끼 낀 숲 바닥에서 자라는 포프볼(fungus)"
+      },
+      {
+        "location": "source.subtitle / translation.subtitle",
+        "severity": "minor",
+        "source_quote": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2",
+        "suggested_fix": "Consider providing a Korean rendering of the subtitle (while keeping the original English if desired). For example: replace the subtitle string with \"시온에서 아름다움의 충만이 비치도다(시편 50:2)\" or similar, preserving the subtitle field and any surrounding HTML structure if present.",
+        "translation_quote": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

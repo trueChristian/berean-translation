@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7ea446cb-c4fb-4042-8044-7e74d86a755c",
+    "response_id": "chatcmpl-EUH3lxYzassW0Iax1lg6V5B8wG7RQ",
+    "usage": {
+      "completion_tokens": 795,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6357,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7152
+    }
+  },
+  "received_at": "2026-10-01T20:28:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph near end: \"I’m so glad that God brought Ken into my life.\" paragraph (source.html)",
+        "severity": "major",
+        "source_quote": "\"God wanted to show Ken that He loved him and that He would be there for him even when Josh turned his back on Him.\"",
+        "suggested_fix": "Restore the original past-tense meaning. Replace the Russian sentence \"Бог хотел показать Кену, что Он любит его и что Он будет рядом с ним даже тогда, когда Джош отвернётся от Него.\" with: \"Бог хотел показать Кену, что Он любит его и что Он будет рядом с ним даже тогда, когда Джош отвернулся от Него.\" (preserve existing HTML tags and surrounding text exactly).",
+        "translation_quote": "\"Бог хотел показать Кену, что Он любит его и что Он будет рядом с ним даже тогда, когда Джош отвернётся от Него.\""
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

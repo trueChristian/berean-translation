@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "cd66f4e1-922e-447d-8c4a-c2f54d8104d7",
+    "response_id": "chatcmpl-EUH47oQJyngSqPVmFCurp5wWmbJYo",
+    "usage": {
+      "completion_tokens": 1833,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8905,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10738
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph quoting Ecclesiastes 12:1-7",
+        "severity": "critical",
+        "source_quote": "“Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”",
+        "suggested_fix": "Translate the quoted Ecclesiastes 12:1-7 text into Modern Standard Arabic (keeping it as the author-printed English content rendered into Arabic), and preserve the surrounding HTML structure and punctuation. Example fix (replace the English quote with an Arabic rendering while preserving tags):\n<p>يعطي سفر الجامعة 12:1-7 صورة قاتمة إلى حد ما عن عملية الشيخوخة. “تذكَرْ الآن خالقَكَ في أيام شبابك، قبل أن تأتي الأيام الشِّرِيرة ولا تقرُب السِّنون التي تقول فيها: لا سرور لي فيها. إلى أن تُظلم الشمس والنور والقمر والنجوم، ولا تعود السحب بعد المطر؛ في اليوم الذي ترتعش فيه حارِسات البيت، وينحني الأقوياء، وتتقلّص الأرحاء لقِلَّتهم، وتظلم الناظرات من النوافذ، وتُغلق الأبواب في الشوارع، ويخفّ صوت الأرحاء، فيقوم للغناء طائرٌ، وتضعُ كل بنات الغناء؛ ويناوحون من الخوف عما هو عالٍ، وتملأ الرهبة السبيل، وتُزهِر شجرة اللوز، ويصير الجرادة هِمَّةً، وتخِبُّ الرغبة، لأنَّ الإنسان يذهب إلى بيته الأبدِي، والنوَّاحون يتجوَّلون في الشوارع؛ قبل أن تُفسخ الحبل الفضي، أو يُنكسر الإناء الذهبي، أو يُنكسر الإبريق عند العين، أو تُكسر العجلة عند البئر؛ حينئذٍ تعود تُرابٌ إلى الأرض كما كان، وتعود الروح إلى الله الذي أعطاها.”</p>\n(Use an accurate Modern Standard Arabic rendering of the printed English quotation; preserve the original quotation marks and HTML tags.)",
+        "translation_quote": "“Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; ... and the spirit shall return unto God who gave it.”"
+      },
+      {
+        "location": "source.html — paragraph quoting Deuteronomy 6:7",
+        "severity": "major",
+        "source_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7).",
+        "suggested_fix": "Render this author-printed Deuteronomy 6:7 quotation into Modern Standard Arabic (conveying the printed English content in Arabic), and keep the scripture reference in parentheses. Example: replace the English quote with an Arabic translation while preserving tags: \n“وَتُعَلِّمُهُمْ لِبِنِيكَ تَعْلِيمًا، وَتَتَكَلَّمُ بِهِ إِذَا جَلَسْتَ فِي بَيْتِكَ، وَإِذَا سِرْتَ فِي الطَّرِيقِ، وَإِذَا اضْطَجَعْتَ، وَإِذَا قُمْتَ” (تثنية 6:7).",
+        "translation_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7)."
+      },
+      {
+        "location": "source.html — paragraph quoting Galatians 5:22-23",
+        "severity": "major",
+        "source_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23).",
+        "suggested_fix": "Translate this Galatians quotation into Modern Standard Arabic, conveying the printed English wording in Arabic, and preserve the scripture reference and surrounding HTML. Example replacement:\n“وأَمَّا ثَمَرُ الرُّوحِ فَهُوَ: مَحَبَّةٌ، فَرَحٌ، سَلامٌ، طُولُ نَفْسٍ، لُطْفٌ، صَلاحٌ، إِيمانٌ، وُدَاعَةٌ، تَعْفِيفٌ؛ ضِدَّ هَذِهِ لَيْسَ نَامُوسٌ” (غلاطية 5:22-23).",
+        "translation_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23)."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

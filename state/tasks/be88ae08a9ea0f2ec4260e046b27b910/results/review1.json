@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "20209daf-93b2-4be5-96b2-ac6e9a01df93",
+    "response_id": "chatcmpl-EUH3qo3E5uvlM4SWK7kRd1We82fjy",
+    "usage": {
+      "completion_tokens": 1260,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6532,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7792
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first paragraph (near \"the heavenly\")",
+        "severity": "minor",
+        "source_quote": "the heavenly",
+        "suggested_fix": "Correct the Swedish noun phrase to singular and proper grammar. For example, change \"det himmelskas riken\" to \"det himmelska riket\" while preserving surrounding HTML tags and punctuation.",
+        "translation_quote": "det himmelskas riken"
+      },
+      {
+        "location": "source.html — second paragraph (sentence about the cross)",
+        "severity": "minor",
+        "source_quote": "the lifeless body of their beloved Master",
+        "suggested_fix": "Use correct Swedish possessive/word order. Replace \"deras älskade Mästars livlösa kropp\" with \"deras älskade Mästarens livlösa kropp\" or more idiomatically \"deras älskade mästares livlösa kropp\" while preserving HTML tags.",
+        "translation_quote": "deras älskade Mästars livlösa kropp"
+      },
+      {
+        "location": "source.html — paragraph on \"Through Creation\" (list of examples)",
+        "severity": "minor",
+        "source_quote": "a towering redwood",
+        "suggested_fix": "Fix adjective agreement and article. Replace \"en ståtliga redwood\" with \"en ståtlig redwood\" (or \"en ståtliga redwood\" → \"ett ståtliga redwood\" is incorrect; use \"en ståtlig redwood\"). Preserve HTML.",
+        "translation_quote": "en ståtliga redwood"
+      },
+      {
+        "location": "source.html — heading/line where question appears \"How does God express His Beauty?\"",
+        "severity": "minor",
+        "source_quote": "How does God express His Beauty?",
+        "suggested_fix": "Correct inconsistent capitalization in Swedish question. Replace \"Hur uttrycker Gud Sin Skönhet?\" with \"Hur uttrycker Gud sin skönhet?\" preserving tags and punctuation.",
+        "translation_quote": "Hur uttrycker Gud Sin Skönhet?"
+      },
+      {
+        "location": "source.html — final figure alt text",
+        "severity": "minor",
+        "source_quote": "A puffball fungus growing on a mossy forest floor",
+        "suggested_fix": "Use an accurate, standard Swedish term for the fungus. Replace \"En sporkullssvamp som växer på en mossig skogsbotten\" with e.g. \"En sprängtickesvamp som växer på en mossig skogsbotten\" or \"En bollticka som växer på en mossig skogsbotten\" depending on preferred common name, preserving the <img> tag and its alt attribute.",
+        "translation_quote": "En sporkullssvamp som växer på en mossig skogsbotten"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

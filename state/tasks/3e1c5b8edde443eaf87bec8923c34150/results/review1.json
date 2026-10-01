@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "48d92df0-d4fb-4231-897f-19f0c75546d4",
+    "response_id": "chatcmpl-EUH3YbNb2ISOsxVFlvPtf5WDl0gkc",
+    "usage": {
+      "completion_tokens": 2644,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9150,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11794
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p> paragraph that begins \"Παρατηρήστε τι λέγει η γραφή για την αγνότητα.\"",
+        "severity": "major",
+        "source_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”",
+        "suggested_fix": "Translate these printed English quotations consistently into Modern Greek, preserving the exact sense and scriptural references from the source. For example (preserve HTML tags and nesting):\n\n<p>Παρατηρήστε τι λέγει η γραφή για την αγνότητα. “Μακάριοι οἱ καθαροί τῇ καρδίᾳ” (Matthew 5:8). “ἵνα τὸν δοκιμάζετε τὰ ἄριστα, ἵνα εἶσθε ἀνθρώποι ἀσπλαγχνίᾳ καὶ ἀσυγκρίτως ἀνάβλητοι εἰς τὴν ἡμέραν τοῦ Χριστοῦ” (Philippians 1:10). “Σκέψασθε τὰ καθαρά” (Philippians 4:8). “Φύλασσε σεαυτόν καθαρόν” (1 Timothy 5:22). Revelation 19: “Οἱ καθαροὶ τῇ καρδίᾳ ὄψονται τὸν Θεόν.” Psalm 24:3–4: “Τίς ἀναβήσεται εἰς τὸ ὄρος Κυρίου; Καθαροὶ τὰς χεῖρας καὶ ἁγνοὶ τῇ καρδίᾳ.”\n\n(Use clear, idiomatic Modern Greek renderings that reflect the printed English phrases and keep the citation parentheses exactly as in the source.)",
+        "translation_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”"
+      },
+      {
+        "location": "Multiple paragraphs quoting scripture later (examples: paragraphs with 'I John 1:6', 'Hebrews 4:13', 'Numbers 32:23', 'James 1:15', 'James 1:16' etc.)",
+        "severity": "major",
+        "source_quote": "I John 1:6 says, “if we say that we have fellowship with Him and walk in darkness (light on the outside and darkness on the inside), we lie and do not practice the truth.” Hebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).” Numbers 32:23 is still very true, saying, “Be sure your sin will find you out.” James 1:15: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” Verse 16 says, “Do not (be deceived) my beloved brethren.”",
+        "suggested_fix": "Render each quoted verse into fluent Modern Greek that conveys the same printed English wording and keep the verse references in parentheses as in the source. For example, replace the English quotation text with an idiomatic Greek rendering while preserving punctuation and parentheses around the citation tags. Ensure all scriptural quotations that were printed in English in the source are translated (not left verbatim in English) so Greek readers receive the author's cited wording.",
+        "translation_quote": "I John 1:6 says, “if we say that we have fellowship with Him and walk in darkness (light on the outside and darkness on the inside), we lie and do not practice the truth.” Hebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).” Numbers 32:23 is still very true, saying, “Be sure your sin will find you out.” James 1:15: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” Verse 16 says, “Do not (be deceived) my beloved brethren.”"
+      },
+      {
+        "location": "Heading <h2> before section 'How can we live a morally pure life?'",
+        "severity": "minor",
+        "source_quote": "How can we live a morally pure life?",
+        "suggested_fix": "Translate this heading into Modern Greek and preserve the h2 tag. For example: <h2>Πώς μπορούμε να ζούμε μια ηθικά αγνή ζωή;</h2> (Keep the tag and placement identical to the source.)",
+        "translation_quote": "How can we live a morally pure life?"
+      },
+      {
+        "location": "Paragraph that begins \"<p><strong>Be Humble.</strong>\" and subsequent paragraphs in that section",
+        "severity": "major",
+        "source_quote": "Be Humble. James 5 says, “Confess your faults one to another that ye may be healed.” ... I Peter 5:5 tells us that God gives grace to the humble. ... Jesus taught in Matthew 23:26, where He said, \"First clean the inside of the cup, so that the outside may be clean also.\"",
+        "suggested_fix": "Translate the section headings and the quoted Scripture into Greek. For section headings, use Greek equivalents (e.g., <strong>Να είστε ταπεινοί.</strong>). For quoted Scripture, provide an idiomatic Greek rendering that conveys the printed English. Also translate book names (e.g., 'James' → 'Ιάκωβος', 'I Peter' → 'Α΄ Πέτρου') or keep the English book labels only if the source used them consistently—but do not leave the verse text in English. Preserve the HTML structure and verse citation parentheses exactly as in the source HTML.",
+        "translation_quote": "<strong>Be Humble.</strong> James 5 says, “Confess your faults one to another that ye may be healed.” It takes humility and brokenness to acknowledge our needs, but brokenness is the key to victory. I Peter 5:5 tells us that God gives grace to the humble. One of the most comprehensive definitions of grace is unmerited divine assistance given to humans for regeneration and sanctification. Regeneration is 'redeeming grace,' and sanctification is 'transforming grace.' The truth of this is that God gives 'transforming grace' to the humble. This grace changes us from the inside out making us holy. This aspect of grace must be desired and sought after as much as redeeming grace was when God saved us. This is probably the single most important step in overcoming addictions of any kind. Be humble enough to make it a daily prayer to God for His transforming grace. Jesus taught in Matthew 23:26, where He said, \"First clean the inside of the cup, so that the outside may be clean also.\""
+      },
+      {
+        "location": "Paragraph mentioning Daniel: awkward translation 'αχθοῦν/μολυνθούν' in place of 'defile themselves'",
+        "severity": "minor",
+        "source_quote": "...those who, like Daniel of old, purpose in their hearts, not to defile themselves.",
+        "suggested_fix": "Replace the incorrect mixed transliteration with a clear Greek verb phrase. For example: «όσοι, όπως ο Δανιήλ παλιά, αποφασίζουν μέσα στην καρδιά τους να μην μολύνουν/αμαρτήσουν» or better: «να μην αμαρτήσουν ή να μην μολύνουν τον εαυτό τους.» Preserve surrounding HTML tags and punctuation.",
+        "translation_quote": "...όπως ο Δανιήλ παλιά, αποφασίζουν στην καρδιά τους να μην αχθοῦν/μολυνθούν."
+      },
+      {
+        "location": "Poem blockquotes at end of article",
+        "severity": "major",
+        "source_quote": "<p><em>Two forces lie within my breast,\n    The one I love, the one I hate.\n    But the one I feed will dominate.</em></p>\n    <p><em>—The author’s dad</em></p>\n\n<p><em>The more honestly I name\n    what is true about myself,\n    The less I need to hide and defend,\n    and posture and pretend.</em></p>\n    <p><em>—Dan Allender</em></p>",
+        "suggested_fix": "Translate these poems into fluent Modern Greek so readers of the Greek translation receive the same poetic content as in the English source, preserving the blockquote and em tags and author lines exactly. For example: <blockquote class=\"poem\"><p><em>Δύο δυνάμεις στο στήθος μου κατοικούν,...</em></p><p><em>—Ο πατέρας της συγγραφέως</em></p></blockquote> and similarly for the Dan Allender excerpt. Alternatively, if the editorial policy is to keep quoted poems in the original English, mark that explicitly in the translation; but do not leave untranslated English text without note.",
+        "translation_quote": "<p><em>Two forces lie within my breast,\n    The one I love, the one I hate.\n    But the one I feed will dominate.</em></p>\n    <p><em>—The author’s dad</em></p>\n\n  <blockquote class=\"poem\">\n    <p><em>The more honestly I name<br>\n    what is true about myself,<br>\n    The less I need to hide and defend,<br>\n    and posture and pretend.</em></p>\n    <p><em>—Dan Allender</em></p>\n  </blockquote>"
+      }
+    ],
+    "passed": false,
+    "score": 40
+  }
+}

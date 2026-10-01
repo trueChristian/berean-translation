@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "053e6997-4a5b-46e6-90c5-2020f1cc22b4",
+    "response_id": "chatcmpl-EUH3q58w8pept9BKGPbz0lCegGm1r",
+    "usage": {
+      "completion_tokens": 920,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3443,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4363
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>…“I’m going kayaking,” she announced. “You can just have your playhouse.”…</p>",
+        "severity": "minor",
+        "source_quote": "“I’m going kayaking,” she announced. “You can just have your playhouse.”",
+        "suggested_fix": "Replace the translated phrase '“Aku mau kayak,” umumnya.' with a faithful rendering of 'she announced' that preserves the original sense and tone, for example: '“Aku mau kayak,” ujarnya.' Ensure the surrounding HTML tag remains unchanged.",
+        "translation_quote": "“Aku mau kayak,” umumnya. “Kalian boleh punya rumah bermain kalian sendiri.”"
+      },
+      {
+        "location": "<p>…She sighed with pleasure. This was way better than building a playhouse in the woods!…</p>",
+        "severity": "minor",
+        "source_quote": "She sighed with pleasure. This was way better than building a playhouse in the woods!",
+        "suggested_fix": "Improve the Indonesian idiom. Replace 'Dia menghela napas dengan senang.' with a more natural phrasing such as 'Dia menghela napas penuh kesenangan.' or 'Dia menghela napas dengan senang hati.' Keep the surrounding HTML tag unchanged.",
+        "translation_quote": "Dia menghela napas dengan senang. Ini jauh lebih baik daripada membangun rumah bermain di hutan!"
+      },
+      {
+        "location": "<p>…Adrianna grinned, “It looks like you have your house about set up,” she said encouragingly. “What do you need to finish it?”…</p>",
+        "severity": "minor",
+        "source_quote": "Adrianna grinned, “It looks like you have your house about set up,” she said encouragingly. “What do you need to finish it?”",
+        "suggested_fix": "'katanya dengan dorongan' is awkward and non-idiomatic in Indonesian. Replace it with a natural phrase that conveys encouragement, e.g. 'katanya sambil menyemangati.' Leave the HTML tags and surrounding text unchanged.",
+        "translation_quote": "Adrianna tersenyum, “Sepertinya rumahmu sudah hampir jadi,” katanya dengan dorongan. “Apa yang kalian butuhkan untuk menyelesaikannya?”"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

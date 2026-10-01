@@ -2,7 +2,6 @@
   "article_id": "45c612ff-1966-4079-9ba5-09ab022917ea",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -24,6 +23,62 @@
         },
         "total_tokens": 7787
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1617,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7536,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9153
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Paragraph 1 (first section paragraph)",
+      "severity": "major",
+      "source_quote": "God is an uncreated eternal being, and man was created in His image to reflect His glory and beauty.",
+      "suggested_fix": "Replace «Ο Θεός είναι ένα αδόμητο αιώνιο ον» with «Ο Θεός είναι ένα ανέκτιστο/ακτίστως αιώνιο ον» or better «Ο Θεός είναι άκτιστος και αιώνιος» to retain the meaning “uncreated eternal being.” Preserve surrounding HTML tags and punctuation.",
+      "translation_quote": "Ο Θεός είναι ένα αδόμητο αιώνιο ον, και ο άνθρωπος δημιουργήθηκε κατ' εικόνα Του για να αντανακλά τη δόξα και την ομορφιά Του."
+    },
+    {
+      "location": "Paragraph 2 of 'Through the Gospel' section",
+      "severity": "major",
+      "source_quote": "the beauty of a sacrifice made by a sinless Savior for undeserving humanity.",
+      "suggested_fix": "Replace «για ανεκδιήγητη ανθρωπότητα» with «για μια ανάξια/ανεπιφύλακτη/ανάξια ανθρωπότητα» or «για μια ανθρωπότητα που δεν το αξίζει» to convey “undeserving humanity.” Preserve the surrounding punctuation and HTML tags.",
+      "translation_quote": "την ομορφιά μιας θυσίας που έγινε από έναν αμάρτητο Σωτήρα για ανεκδιήγητη ανθρωπότητα."
+    },
+    {
+      "location": "Headings (multiple) — e.g. <h2>Through the Gospel</h2>, <h2>Through Creation</h2>, <h2>Through Music and Sound</h2>, <h2>Through the Church:</h2>",
+      "severity": "minor",
+      "source_quote": "Through the Gospel / Through Creation / Through Music and Sound / Through the Church:",
+      "suggested_fix": "Translate the English section headings into Modern Greek to match the target-language article (for example: «Μέσω του Ευαγγελίου», «Μέσω της Κτίσης», «Μέσω της Μουσικής και του Ήχου», «Μέσω της Εκκλησίας»). Preserve the <h2> tag, its attributes (if any), and nesting.",
+      "translation_quote": "Through the Gospel\n...\nThrough Creation\n...\nThrough Music and Sound\n...\nThrough the Church:"
+    },
+    {
+      "location": "Figure 2 <img alt=\"...\"> (final figure)",
+      "severity": "minor",
+      "source_quote": "A puffball fungus growing on a mossy forest floor",
+      "suggested_fix": "Replace the alt text «Ένα σπόγγειο μύκητα να αναπτύσσεται σε ένα δασώδες έδαφος καλυμμένο με βρύα» with a clearer Greek rendering such as «Ένα μανιτάρι τύπου 'puffball' που αναπτύσσεται σε δασικό έδαφος καλυμμένο με βρύα» or «Ένα σφαιρικό μανιτάρι (puffball) που αναπτύσσεται σε δασικό δάπεδο με βρύα». Preserve the <img> element and other attributes.",
+      "translation_quote": "Ένα σπόγγειο μύκητα να αναπτύσσεται σε ένα δασώδες έδαφος καλυμμένο με βρύα"
+    },
+    {
+      "location": "Creation paragraph (sentence on fulfilling sense)",
+      "severity": "minor",
+      "source_quote": "The fulfilling sense of accomplishment derived from a job well done has its origin in creation",
+      "suggested_fix": "Replace «Η πληρώτρια αίσθηση ολοκλήρωσης» with a natural Greek phrase such as «Η αισθητηριακή/αισθητή αίσθηση πληρότητας και ολοκλήρωσης» or «Η αίσθηση πληρότητας που προκύπτει από μια καλά εκτελεσμένη εργασία». Preserve punctuation and surrounding HTML tags.",
+      "translation_quote": "Η πληρώτρια αίσθηση ολοκλήρωσης που προέρχεται από μια καλά εκτελεσμένη εργασία έχει την αφετηρία της στην κτίση,"
     }
   ],
   "id": "8c0878f7ade28708ded4186f229bfbda",
@@ -69,11 +124,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8ff6615d88d56d991342498ce45e0382ed69e4ee6f5e71d66558a915bc80e645.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "307ff3dcec107109e8c031e07835839a270150b1f8308d14b1a8b6811fd4f56d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

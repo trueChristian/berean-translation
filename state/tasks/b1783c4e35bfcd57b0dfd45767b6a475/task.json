@@ -2,7 +2,6 @@
   "article_id": "45c612ff-1966-4079-9ba5-09ab022917ea",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 6840
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1610,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6513,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8123
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html — section headings (multiple <h2> elements)",
+      "severity": "major",
+      "source_quote": "<h2>Through the Gospel</h2>\n...\n<h2>Through Creation</h2>\n...\n<h2>Through Music and Sound</h2>\n...\n<h2>Through the Church:</h2>",
+      "suggested_fix": "Translate the English headings into Italian, preserving the exact HTML tags and attributes. For example: replace <h2>Through the Gospel</h2> with <h2>Attraverso il Vangelo</h2>, <h2>Through Creation</h2> with <h2>Attraverso la creazione</h2>, <h2>Through Music and Sound</h2> with <h2>Attraverso la musica e il suono</h2>, and <h2>Through the Church:</h2> with <h2>Attraverso la Chiesa:</h2>. Keep tag case, order, and any attributes unchanged.",
+      "translation_quote": "<h2>Through the Gospel</h2> ... <h2>Through Creation</h2> ... <h2>Through Music and Sound</h2> ... <h2>Through the Church:</h2>"
+    },
+    {
+      "location": "source.html — quoted Bible verses and other Scripture quotations",
+      "severity": "major",
+      "source_quote": "“Thine eyes shall see the king in his beauty: they shall behold the land that is very far off” (Isaiah 33:17).\n\n“One thing have I desired of the LORD, that will I seek after; that I may dwell in the house of the LORD all the days of my life, to behold the beauty of the LORD, and to inquire in his temple” (Psalm 27:4).\n\n“...the light of the glorious gospel of Christ, who is the image of God...” (2 Corinthians 4:4-6).\n\n“...For now we see through a glass, darkly; but then face to face...”(1 Corinthians 13:12).\n\n“...To appoint unto them that mourn in Zion, to give unto them beauty for ashes...”(Isaiah 61:3).\n\n“‘The heavens declare the glory of God; and the firmament showeth His handy work’” (Psalm 19:1).\n\n“‘For the invisible things of Him from the creation of the world are clearly seen . . .’” (Romans 1:20).\n\n“‘And I heard a voice from heaven, as the voice of many waters...’” (Revelation 14:2).\n\n“‘And I John saw the holy city, New Jerusalem, coming down from God out of heaven...’” (Revelation 21:2-3).\n\n“‘Delight thyself also in the LORD; and He shall give thee the desires of thine heart’” (Psalm 37:4).\n\n“‘Great is the LORD, and greatly to be praised in the city of our God...’” (Psalm 48:1-2).\n\n“‘le mani che si abbassano e le ginocchia vacillanti’” is an inserted translation of Hebrews 12:12 in the text but the primary quoted verses above remain in English.",
+      "suggested_fix": "The quoted Scripture passages in the English source must be conveyed in Italian in a way that reflects the printed English wording (do not substitute a different Bible edition). Translate each quoted verse into Italian while preserving the quotation marks, verse references, and punctuation exactly in place. For example, replace “Thine eyes shall see the king in his beauty: ...” (Isaiah 33:17) with an Italian rendering that conveys that exact English text (e.g., “I tuoi occhi vedranno il re nella sua bellezza: contempleranno la terra lontana” (Isaia 33:17)) while keeping the verse reference in parentheses. Apply the same approach for every quoted Scripture occurrence, preserving the original inline quotation structure and punctuation and not replacing them with a different English version or omitting them.",
+      "translation_quote": "All quoted Scripture passages remain in English throughout the translation (examples: “Thine eyes shall see the king in his beauty...”; “One thing have I desired of the LORD...”; “And I heard a voice from heaven...”; etc.)."
+    },
+    {
+      "location": "source.subtitle vs translation.subtitle",
+      "severity": "minor",
+      "source_quote": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2",
+      "suggested_fix": "The translation renders the subtitle into Italian as: \"Da Sion è uscita la perfezione della bellezza; Dio ha rischiarato. Salmi 50:2\". Confirm the Italian rendering matches the printed English sense while preserving the verse reference format. If you prefer a more literal Italianized punctuation or capitalization for a subtitle, keep it consistent with house style; otherwise this is acceptable. No HTML changes required.",
+      "translation_quote": "Da Sion è uscita la perfezione della bellezza; Dio ha rischiarato. Salmi 50:2"
     }
   ],
   "id": "b1783c4e35bfcd57b0dfd45767b6a475",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 68,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8ff6615d88d56d991342498ce45e0382ed69e4ee6f5e71d66558a915bc80e645.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "307ff3dcec107109e8c031e07835839a270150b1f8308d14b1a8b6811fd4f56d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

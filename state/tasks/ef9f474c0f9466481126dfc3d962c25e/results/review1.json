@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5ddf5048-b2ac-4e56-9ce2-7b1a75700b6f",
+    "response_id": "chatcmpl-EUH3atOxxk7o0ruMg7QjdKuZYPt4P",
+    "usage": {
+      "completion_tokens": 1340,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5585,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6925
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — h2 headings",
+        "severity": "major",
+        "source_quote": "<h2>The Doctrine of Nonresistance</h2>\n\n  ...\n\n  <h2>The Emphasis of Biblical Foundations</h2>\n\n  ...\n\n  <h2>Importance of Practical Salvation</h2>\n\n  ...\n\n  <h2>The Seriousness of a Pure Church</h2>\n\n  ...\n\n  <h2>The Teachings of Practical Christianity</h2>\n\n  ...\n\n  <h2>Conclusion</h2>",
+        "suggested_fix": "Translate each English H2 heading into Dutch, preserving the exact HTML tags and attributes. For example: \n- <h2>The Doctrine of Nonresistance</h2> → <h2>De leer van niet-weerstand</h2>\n- <h2>The Emphasis of Biblical Foundations</h2> → <h2>De nadruk op Bijbelse grondslagen</h2>\n- <h2>Importance of Practical Salvation</h2> → <h2>Het belang van praktische zaligheid</h2>\n- <h2>The Seriousness of a Pure Church</h2> → <h2>De ernst van een zuivere kerk</h2>\n- <h2>The Teachings of Practical Christianity</h2> → <h2>De leer van praktisch christendom</h2>\n- <h2>Conclusion</h2> → <h2>Conclusie</h2>\nEnsure these replacements keep the same <h2> tags and spacing as in the translation HTML.",
+        "translation_quote": "<h2>The Doctrine of Nonresistance</h2>\n\n  ...\n\n  <h2>The Emphasis of Biblical Foundations</h2>\n\n  ...\n\n  <h2>Importance of Practical Salvation</h2>\n\n  ...\n\n  <h2>The Seriousness of a Pure Church</h2>\n\n  ...\n\n  <h2>The Teachings of Practical Christianity</h2>\n\n  ...\n\n  <h2>Conclusion</h2>”},{"
+      },
+      {
+        "location": "source.html — paragraph containing \"shoe leather\" metaphor",
+        "severity": "minor",
+        "source_quote": "In this way, we can see the Christian life in shoe leather.",
+        "suggested_fix": "Use a Dutch idiomatic equivalent that preserves sense (practical, everyday life) while keeping the paragraph HTML unchanged. For example: \"Op deze manier kunnen we het christelijke leven zien in het dagelijks leven.\" Or: \"Op deze manier zien we het christelijke leven concreet in het gewone leven.\" Replace only the text inside the <p> tag.",
+        "translation_quote": "Op deze manier kunnen we het christelijke leven letterlijk in schoenzool zien."
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

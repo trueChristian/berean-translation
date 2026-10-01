@@ -2,7 +2,6 @@
   "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 9065
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1438,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8869,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10307
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<article> paragraph containing Rutherford quote near end of life (source.html paragraph starting \"Late in the afternoon...\")",
+      "severity": "major",
+      "source_quote": "Oh, for arms to embrace Him! Oh, for a well-tuned harp! Glory! glory dwelleth in Immanuel's land!",
+      "suggested_fix": "Preserve meaning and render idiomatically: replace the mistranslation with an accurate Arabic rendering that keeps the imagery. For example: \"يا ليت لي أذانٌ لأحضنه! يا ليت لي قيثارةٌ مضبوطة النغم! المجد! المجد يسكن في أرض عمانوئيل!\" Ensure the replacement keeps the surrounding HTML tags and structure unchanged.",
+      "translation_quote": "أوه، لأني أشتاق لأحضانه! أوه، لأجراس جيتر! المجد! المجد سكن في أرض عمانوئيل!\""
+    },
+    {
+      "location": "<div class=\"hymn\"> stanza 12 (source hymn stanza 12: \"Oh, for a well-tuned harp! Oh, to join Hallelujah With yon triumphant band,\")",
+      "severity": "major",
+      "source_quote": "Oh, for a well-tuned harp! Oh, to join Hallelujah With yon triumphant band,",
+      "suggested_fix": "Restore the original hymn sense with a clear Arabic phrasing and correct musical term. For example: \"آه، ليت لي قيثارةٌ مضبوطة النغم! آه، لأشهد هللويا مع تلك الفرقة المنتصرة،\" Keep original stanza tags and layout.",
+      "translation_quote": "آه، لأجل جيتر مضبوطة النغم! آه، لأناشد هلّلويا مع تلك الفرقة المنتصرة،"
+    },
+    {
+      "location": "<div class=\"hymn\"> stanza 2 (source hymn stanza 2: second line ends \"Oh! well it is forever, Oh! well forevermore\")",
+      "severity": "minor",
+      "source_quote": "Oh! well it is forever, Oh! well forevermore",
+      "suggested_fix": "Remove the stray English token and render the repetition idiomatically in Arabic. For example: \"آه! حسنٌ هو إلى الأبد، آه! حسنٌ إلى الأبد\" or \"آه! حسنٌ هو إلى الأبد، آه! حسنٌ إلى الأبد دوماً\". Preserve HTML tags.",
+      "translation_quote": "آه! حسنٌ هو إلى الأبد،\n    آه! حسنٌ إلى الأبدmore"
+    },
+    {
+      "location": "<div class=\"hymn\"> stanza 12 second half (source: \"Oh, to join Hallelujah With yon triumphant band,\")",
+      "severity": "minor",
+      "source_quote": "Oh, to join Hallelujah With yon triumphant band,",
+      "suggested_fix": "Use a natural Arabic phrasing for \"to join Hallelujah\" such as \"أن أشترك في هللويا مع تلك الفرقة المنتصرة\" rather than the current literal/awkward rendering. Preserve stanza markup.",
+      "translation_quote": "أه، لأناشد هلّلويا\n    مع تلك الفرقة المنتصرة,"
     }
   ],
   "id": "d8dc411b52db03ac50279929fd481b91",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c48182e3f5033a08822c2237c3e9e7faab5b80302e823695d8ba3dd0faead4e3.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

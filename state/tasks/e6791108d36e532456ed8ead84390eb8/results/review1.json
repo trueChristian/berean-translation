@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0a189e17-abd9-4d84-ac86-e600cafeb7d0",
+    "response_id": "chatcmpl-EUH4UL5f2CGVgMPgNMxWS1N6Uq4cs",
+    "usage": {
+      "completion_tokens": 536,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1529,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2065
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> first stanza, line 2–4",
+        "severity": "minor",
+        "source_quote": "I greet Thy going forth;",
+        "suggested_fix": "Rephrase to a more idiomatic Spanish while preserving the surrounding HTML, for example: replace \"A tu salida doy mi saludo;\" with \"Te saludo en tu salida;\"",
+        "translation_quote": "A tu salida doy mi saludo;"
+      },
+      {
+        "location": "<div class=\"poem\"> third stanza, line 3",
+        "severity": "minor",
+        "source_quote": "These marvels sweeter far to trace,",
+        "suggested_fix": "Use a verb conveying contemplative tracing rather than \"seguir\" for natural Spanish. For example, replace \"Estos prodigios, mucho más dulces de seguir,\" with \"Estos prodigios, mucho más dulces de contemplar,\" preserving the surrounding HTML.",
+        "translation_quote": "Estos prodigios, mucho más dulces de seguir,"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "b43320f3-e4e8-450b-865c-099ef704149c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -24,6 +23,62 @@
         },
         "total_tokens": 8479
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1826,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8229,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10055
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "article > p.drop-cap (first paragraph)",
+      "severity": "minor",
+      "source_quote": "Purity contains nothing that does not properly belong there.",
+      "suggested_fix": "Translate the English word or phrase into Hindi while preserving HTML tags. For example: replace the English fragment with its Hindi equivalent: \"पवित्रता में ऐसा कुछ भी नहीं होता जो वहाँ सही मायने में न आता हो।\" (already present for most of sentence) — ensure the single remaining English word \"belong\" is removed or translated so the sentence is fully Hindi.",
+      "translation_quote": "...जो वहाँ ठीक से नहीं belong करता।"
+    },
+    {
+      "location": "article > paragraph beginning \"ध्यान दें कि शास्त्र...\"",
+      "severity": "minor",
+      "source_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”",
+      "suggested_fix": "The source printed these scripture quotations in English. The translation currently preserves them in English — that's acceptable only if the translator intentionally preserves the exact printed English. If the intention was to render the surrounding narrative into Hindi while keeping the scripture quotations verbatim, keep as-is. If the intention was to render scripture text into Hindi, translate those quotations to Hindi but preserve the exact source verse wording if the authoritative English text must be conveyed. Confirm editorial preference. If you choose to translate, render them into Hindi and include the verse references unchanged.",
+      "translation_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”"
+    },
+    {
+      "location": "article > several consecutive paragraphs from the heading \"How can we live a morally pure life?\" through the following many <p> elements",
+      "severity": "major",
+      "source_quote": "Entire section starting with heading and paragraphs: \"How can we live a morally pure life?\" followed by English paragraphs: \"Be Humble. James 5 says, “Confess your faults one to another that ye may be healed.” It takes humility...\" through the paragraph ending with \"Jesus taught in Matthew 23:26, where He said, \"First clean the inside of the cup, so that the outside may be clean also.\"\" and all subsequent guidance paragraphs in that block (Be Honest, Be transparent, Tell yourself the truth, Teach your eyes to bounce, Teaching our children, Keep your emotions, Flee lust and fornication, and following explanatory paragraphs).",
+      "suggested_fix": "These paragraphs in the translation remain in English while the rest of the article was translated to Hindi. This is an untranslated substantive passage and must be translated into Hindi to match the source content. Translate each <p> element fully into contemporary standard Hindi, preserving all original HTML tags, attributes, order, and any inline markup (e.g., <strong>). Preserve scripture quotations either verbatim in the printed English (if editorial policy requires) or translate them consistently into Hindi, keeping the verse references unchanged. Do not alter tag structure. Example: replace the English <h2> and following <p> blocks with Hindi equivalents while keeping tags the same.",
+      "translation_quote": "<h2>How can we live a morally pure life?</h2>\n\n  <p><strong>Be Humble.</strong> James 5 says, “Confess your faults one to another that ye may be healed.” It takes humility and brokenness to acknowledge our needs, but brokenness is the key to victory. I Peter 5:5 tells us that God gives grace to the humble. One of the most comprehensive definitions of grace is unmerited divine assistance given to humans for regeneration and sanctification. Regeneration is 'redeeming grace,' and sanctification is 'transforming grace.' The truth of this is that God gives 'transforming grace' to the humble. This grace changes us from the inside out making us holy. This aspect of grace must be desired and sought after as much as redeeming grace was when God saved us. This is probably the single most important step in overcoming addictions of any kind. Be humble enough to make it a daily prayer to God for His transforming grace. Jesus taught in Matthew 23:26, where He said, \"First clean the inside of the cup, so that the outside may be clean also.\" ... (and subsequent English paragraphs) "
+    },
+    {
+      "location": "article > title metadata",
+      "severity": "minor",
+      "source_quote": "Morally Pure In a Corrupt Society",
+      "suggested_fix": "Translate the article title into contemporary standard Hindi. Preserve the exact metadata field and only replace the text content. For example: \"भ्रष्ट समाज में नैतिक रूप से पवित्र\" (or another accurate idiomatic rendering).",
+      "translation_quote": "Morally Pure In a Corrupt Society"
+    },
+    {
+      "location": "article > blockquote.poem (both poems)",
+      "severity": "minor",
+      "source_quote": "First poem in English: \"Two forces lie within my breast, The one I love, the one I hate. But the one I feed will dominate.\" Second poem in English: \"The more honestly I name what is true about myself, The less I need to hide and defend, and posture and pretend.\"",
+      "suggested_fix": "The poems remain in English in the translation. Either translate the poem stanzas into Hindi to match the rest of the article, or (if editorial policy prefers to keep quoted poems in original English) leave them but ensure that this is intentional. If translating, keep the <blockquote> structure and inline <em> tags unchanged while replacing text with Hindi equivalents and retaining attributions (—The author’s dad; —Dan Allender).",
+      "translation_quote": "<em>Two forces lie within my breast,<br>\n    The one I love, the one I hate.<br>\n    But the one I feed will dominate.</em> ... <em>The more honestly I name<br>\n    what is true about myself,<br>\n    The less I need to hide and defend,<br>\n    and posture and pretend.</em>"
     }
   ],
   "id": "670145247e2cd97fe7fbfc970da80ee2",
@@ -69,11 +124,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6e098ac8eb342eaa406de38f5a002ad3b708959025887f49dfe6141d191cd700.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "f7304b582e2d69344173a19198f46ca88b1132d0c44e0b4021e5c3668c34cd95",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

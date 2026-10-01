@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a9222527-a52e-45fa-ad83-b64f6828dc48",
+    "response_id": "chatcmpl-EUH3Zsf3ESA1gEuVtduWFh4lNhMdN",
+    "usage": {
+      "completion_tokens": 927,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2876,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3803
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph (valediction)",
+        "severity": "minor",
+        "source_quote": "Blessings to all,",
+        "suggested_fix": "Accentuate the Portuguese word correctly. Replace \"Bençãos a todos,\" with \"Bênçãos a todos,\" preserving the surrounding HTML and punctuation.",
+        "translation_quote": "Bençãos a todos,"
+      },
+      {
+        "location": "Paragraph 3 (first sentence)",
+        "severity": "minor",
+        "source_quote": "spring peepers",
+        "suggested_fix": "Consider a clearer, internationally intelligible Portuguese equivalent for the animal referred to as \"spring peepers\" (small chorus frogs). Replace \"grilos-da-primavera\" with \"sapos-cantores-da-primavera\" or \"rãs (spring peepers)\" if you prefer a descriptive form. This is optional (stylistic) and not required if the term is intentionally chosen.",
+        "translation_quote": "grilos-da-primavera em nossa região foram “grilos-de-inverno”"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

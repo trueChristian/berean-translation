@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "03401ed0-4af6-4541-94ec-df491be572af",
+    "response_id": "chatcmpl-EUH41Pb9ULvWzkdxyxRrhvqa3leDt",
+    "usage": {
+      "completion_tokens": 2232,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8993,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11225
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<h2>Dementia in the Bible</h2> and other h2 headings (multiple)",
+        "severity": "major",
+        "source_quote": "<h2>Dementia in the Bible</h2>\n<h2>What Dementia is</h2>\n<h2>Diagnosing Dementia</h2>\n<h2>Eliminate Medications</h2>\n<h2>Medical Treatments</h2>\n<h2>Non-medication Therapies</h2>\n<h2>Caring For Someone with Dementia</h2>\n<h2>Get Others to Help</h2>",
+        "suggested_fix": "Translate all section headings into French, preserving the HTML structure and tags exactly (only change the English text inside each <h2>...</h2>). Suggested French renderings that preserve meaning: \n- <h2>La démence dans la Bible</h2>\n- <h2>Qu’est‑ce que la démence</h2>\n- <h2>Diagnostic de la démence</h2>\n- <h2>Éliminer certains médicaments</h2>\n- <h2>Traitements médicaux</h2>\n- <h2>Thérapies non médicamenteuses</h2>\n- <h2>Prendre soin d’une personne atteinte de démence</h2>\n- <h2>Faire appel à d’autres personnes pour aider</h2\n(Only modify the text between the tags; keep attributes and tag nesting unchanged.)",
+        "translation_quote": "<h2>Dementia in the Bible</h2>\n<h2>What Dementia is</h2>\n<h2>Diagnosing Dementia</h2>\n<h2>Eliminate Medications</h2>\n<h2>Medical Treatments</h2>\n<h2>Non-medication Therapies</h2>\n<h2>Caring For Someone with Dementia</h2>\n<h2>Get Others to Help</h2> "
+      },
+      {
+        "location": "Ecclesiastes 12:1-7 quoted paragraph",
+        "severity": "major",
+        "source_quote": "“Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”",
+        "suggested_fix": "Translate the quoted Scripture passage into French so it conveys the exact content of the printed English quotation in the source (do not substitute a different Bible version). Preserve the punctuation and the fact that this is a quotation from Ecclesiastes 12:1-7. Example: keep the introductory clause naming the passage, then include a French rendering that follows the English text closely. Ensure the full verse block is translated (currently left entirely in English). Keep HTML paragraph tags unchanged.",
+        "translation_quote": "Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”"
+      },
+      {
+        "location": "Deuteronomy 6:7 quotation inside paragraph",
+        "severity": "major",
+        "source_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7).",
+        "suggested_fix": "Translate this quoted verse into French so it conveys the printed English quotation from Deuteronomy 6:7. Do not replace it with a different Bible wording; render the English quotation into French while keeping the verse reference in parentheses. Preserve the paragraph HTML and punctuation.",
+        "translation_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7)."
+      },
+      {
+        "location": "Galatians 5:22-23 quotation in Conclusion",
+        "severity": "major",
+        "source_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23).",
+        "suggested_fix": "Translate this quoted New Testament verse into French conveying the printed English quotation from Galatians 5:22-23. Keep the verse reference in parentheses and do not substitute another Bible version. Preserve the quotation marks and paragraph tags.",
+        "translation_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23)."
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

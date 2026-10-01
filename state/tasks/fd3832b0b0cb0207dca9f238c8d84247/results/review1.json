@@ -1,0 +1,78 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6a95f49c-75a9-4676-b260-a013cde9d734",
+    "response_id": "chatcmpl-EUH3aUmvuTYeSXGPiaeAOPKP7S6Li",
+    "usage": {
+      "completion_tokens": 2508,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7186,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9694
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.” (2 Timothy 1:7)</p>",
+        "severity": "critical",
+        "source_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.” (2 Timothy 1:7)",
+        "suggested_fix": "Replace the English scripture quotation with a German rendering that conveys the printed English text (do not substitute a different Bible version). For example: “Denn Gott hat uns nicht gegeben den Geist der Furcht, sondern den der Kraft, der Liebe und der Besonnenheit.” (2 Timothy 1:7)",
+        "translation_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.” (2 Timothy 1:7)"
+      },
+      {
+        "location": "Multiple inline quotations throughout (Job 15:21,22; 2 Corinthians 7:5; Philippians 4:6 7; Job 23:1-6; Psalm 142:2; 1 Samuel 1:16; Lamentations 3:15; Ruth 1:20; Isaiah 38:12; Matthew 27:46; 1 John 4:18; Psalm 119:165; 1 John 4:19,20; Isaiah 8:12,13; 1 Peter 1:13)",
+        "severity": "critical",
+        "source_quote": "All scripture quotations in the authoritative English article (for example: “A dreadful sound is in his ears: in prosperity the destroyer shall come upon him...”(Job 15:21, 22); “Be careful for nothing; but in every thing by prayer...”(Philippians 4:6 7); Job 23:1-6, etc.)",
+        "suggested_fix": "Translate each printed English Bible quotation into German in a way that faithfully conveys the printed English text (retain the same verse references). Example replacements: \n- Job 15:21–22: “Ein grauenvolles Geräusch ist in seinen Ohren: in seinem Wohlstand wird der Verderber über ihn kommen. Er glaubt nicht, daß er aus der Finsternis zurückkehren werde, und er wartet des Schwertes.” (Job 15:21, 22)\n- Philippians 4:6–7: “Seid um nichts besorgt; sondern in allem sollen durch Gebet und Flehen mit Danksagung eure Anliegen vor Gott kundwerden. Und der Friede Gottes, der allen Verstand übersteigt, wird eure Herzen und Sinne bewahren in Christus Jesus.” (Philippians 4:6, 7)\n- Job 23:1–6: translate the printed English lines of Job 23:1–6 into German, etc.\nDo this for every English scripture quotation still left untranslated, preserving the verse references and surrounding HTML structure.",
+        "translation_quote": "Many scripture quotations remain in English verbatim (e.g., “A dreadful sound is in his ears: in prosperity the destroyer shall come upon him...” (Job 15:21, 22); “Be careful for nothing; but in every thing by prayer...” (Philippians 4:6 7); Job 23:1-6; etc.)"
+      },
+      {
+        "location": "<blockquote>...<em>“And the peace of God,...think on these things.</em> ... <em>— Philippians 4:7, 8</em></blockquote>",
+        "severity": "critical",
+        "source_quote": "<em>“And the peace of God,...think on these things.” — Philippians 4:7, 8</em> (printed English block quotation in source)",
+        "suggested_fix": "Translate the full blockquoted Philippians 4:7–8 passage into German conveying the printed English wording. Example: “Und der Friede Gottes, der allen Verstand übersteigt, wird eure Herzen und Sinne bewahren in Christus Jesus. Schließlich, Brüder, was wahr ist, was ehrbar ist, was gerecht ist, was rein ist, was lieblich ist, was wohllautend ist; wenn es irgendeine Tugend und etwas Lobenswertes gibt, so denkt darüber nach.” — Philippians 4:7, 8\nPreserve the blockquote HTML tags and the verse reference as in the source.",
+        "translation_quote": "Blockquote remains printed in English in the translation (the long Philippians 4:7–8 passage is still the English wording)."
+      },
+      {
+        "location": "<p>...Paulus beanspruchte keine Ausnahme, denn er war „troubled on every side; without were fightings, within were fears.” (2 Corinthians 7:5)</p>",
+        "severity": "major",
+        "source_quote": "“troubled on every side; without were fightings, within were fears.” (2 Corinthians 7:5)",
+        "suggested_fix": "Translate this quoted English phrase into German conveying the printed English wording, e.g.: “in allen Stücken bedrängt, draußen waren Angriffe, drinnen waren Ängste.” (2 Corinthians 7:5). Keep the verse reference.",
+        "translation_quote": "“troubled on every side; without were fightings, within were fears.” (2 Corinthians 7:5)"
+      },
+      {
+        "location": "<figure> img alt text 1</figure>",
+        "severity": "minor",
+        "source_quote": "An orange-and-black butterfly among green leaves",
+        "suggested_fix": "Alt text translation is acceptable in German, but consider a slightly more idiomatic rendering: “Ein orange-schwarz gefleckter Schmetterling zwischen grünen Blättern” → current translation is “Ein orange-schwarz gefleckter Schmetterling zwischen grünen Blättern” (ok). No mandatory change required.",
+        "translation_quote": "Ein orange-schwarz gefleckter Schmetterling zwischen grünen Blättern"
+      },
+      {
+        "location": "<p>...Der Geist eines gesunden Geistes oder die Ruhe des Geistes ist ein friedliches Genießen des Lebens.</p>",
+        "severity": "minor",
+        "source_quote": "“The spirit of a sound mind, or quietness of mind, is a peaceable enjoyment of life.”",
+        "suggested_fix": "Improve German idiom/clarity: replace the awkward repetition “Der Geist eines gesunden Geistes” with “Der Geist eines gesunden Sinnes” or “Der Geist eines ruhigen Sinnes” to better reflect the English wording and read naturally in German. Example: “Der Geist eines gesunden Sinnes, oder die Ruhe des Sinnes, ist ein friedliches Genießen des Lebens.”",
+        "translation_quote": "Der Geist eines gesunden Geistes oder die Ruhe des Geistes ist ein friedliches Genießen des Lebens."
+      },
+      {
+        "location": "<article section metadata> section: \"VICTORIOUS CHRISTIAN LIVING\" → \"SIEGREICH CHRISTLICHES LEBEN\"",
+        "severity": "minor",
+        "source_quote": "VICTORIOUS CHRISTIAN LIVING",
+        "suggested_fix": "Use a more idiomatic German section title: consider “SIEGREICHES CHRISTLICHES LEBEN” (add adjectival ending) to match German grammar, unless the publisher’s style intentionally omits it.",
+        "translation_quote": "SIEGREICH CHRISTLICHES LEBEN"
+      }
+    ],
+    "passed": false,
+    "score": 64
+  }
+}

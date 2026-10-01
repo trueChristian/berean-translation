@@ -2,7 +2,6 @@
   "article_id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -24,8 +23,65 @@
         },
         "total_tokens": 6608
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1312,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6356,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7668
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<p class=\"drop-cap\">(opening paragraph) in translation",
+      "severity": "minor",
+      "source_quote": "With one last attempt, I feebly yelled above the tension, “Ken, we don’t want to ...” but once more, I was rudely cut off.",
+      "suggested_fix": "Correct the adverb and phrasing to a natural Swedish equivalent. For example: “Med ett sista försök ropade jag svagt över spänningen: ”Ken, vi vill inte ...” men återigen blev jag oartigt avbruten.” Preserve HTML and surrounding text.",
+      "translation_quote": "Med ett sista försök ropade jag svagt över spänningen: ”Ken, vi vill inte ...” men återigen blev jag rudt avbruten."
+    },
+    {
+      "location": "<p>\"...stirred at the moldy ceiling\" (early childhood paragraph) in translation",
+      "severity": "minor",
+      "source_quote": "In his musty bedroom at their little, dingy apartment, he lay staring at the moldy ceiling, wondering endlessly what had gone so wrong.",
+      "suggested_fix": "Fix the article/gender agreement and natural wording: e.g. “i sitt instängda sovrum i deras lilla, sunkiga lägenhet låg han och stirrade på det mögliga taket och undrade utan slut vad som gått så fel.” Preserve HTML tags.",
+      "translation_quote": "i sitt instängda sovrum i deras lilla, sunkiga lägenhet låg han och stirrade på den mögliga taket och undrade utan slut vad som gått så fel."
+    },
+    {
+      "location": "<p>\"...ever-crowning beanie\" (end of first section) in translation",
+      "severity": "minor",
+      "source_quote": "What lay behind those flashing eyes, and what memories are stored beneath his ever-crowning beanie?",
+      "suggested_fix": "Translate the idiom more accurately into natural Swedish. The English suggests a frequently-worn beanie; a better rendering: “Vad låg bakom de blixtrande ögonen, och vilka minnen gömde sig under hans ständigt påsatta mössa?” Preserve HTML.",
+      "translation_quote": "Vad låg bakom de blixtrande ögonen, och vilka minnen fanns nedlagrade under hans ständigt sittande mössa?"
+    },
+    {
+      "location": "Paragraph about leaving for California (\"lifthoppade\") in translation",
+      "severity": "minor",
+      "source_quote": "Ken lived on the beach for a year and a half and then hitchhiked to Arizona.",
+      "suggested_fix": "Use a standard Swedish verb for hitchhiked. For example: “Ken bodde på stranden i ett och ett halvt år och liftade sedan till Arizona.” Preserve HTML.",
+      "translation_quote": "Ken bodde på stranden i ett och ett halvt år och lifthoppade sedan till Arizona."
+    },
+    {
+      "location": "Paragraph about foster parents (\"fostrföräldrar\") in translation",
+      "severity": "minor",
+      "source_quote": "He didn’t mind leaving all his stuff behind—he really didn’t have much anyway. His foster parents didn’t even care that he left.",
+      "suggested_fix": "Fix a typographical error in the compound noun. Use the standard Swedish spelling: “fosterföräldrar”. For example: “Hans fosterföräldrar brydde sig inte ens om att han försvann.” Preserve HTML.",
+      "translation_quote": "Hans fostrföräldrar brydde sig inte ens om att han försvann."
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:54+00:00",
   "id": "4c755e586c3f9b35cb8c973d4085e7c6",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "swe",
@@ -69,11 +125,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0c059a0312fc4bb7c1d9113fe70aaa013f3daaefdb55449ee68204bcbaa1c79e.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

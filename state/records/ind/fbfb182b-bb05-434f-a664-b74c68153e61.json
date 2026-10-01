@@ -6,9 +6,32 @@
       "campaign": "gh-36911235156",
       "event": "requested",
       "task": "f0e571f61101d69286f5bf627c2ba2c9"
+    },
+    {
+      "at": "2026-10-01T20:28:54+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "f0e571f61101d69286f5bf627c2ba2c9"
     }
   ],
   "language": "ind",
   "latest_task": "f0e571f61101d69286f5bf627c2ba2c9",
-  "published": null
+  "published": {
+    "html_path": "content/ind/articles/fbfb182b-bb05-434f-a664-b74c68153e61.html",
+    "html_sha256": "ecd28d99404fd70e85eff3d533f2381c6c30c9c5400d2c61fd33b68752a97d56",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+    "metadata_path": "content/ind/articles/fbfb182b-bb05-434f-a664-b74c68153e61.json",
+    "metadata_sha256": "431583f2533bad04a56783a8c16dd7203e603f34431d3b9e185f8189a27badfb",
+    "model": "gpt-5-mini-2025-08-07",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"id\" dir=\"ltr\" role=\"note\">\n  <p>Artikel ini diterjemahkan menggunakan kecerdasan buatan OpenAI (model: gpt-5-mini-2025-08-07) dan belum ditinjau oleh manusia. Naskah asli berbahasa Inggris merupakan versi yang berwenang. Jika terdapat keraguan mengenai maknanya, silakan merujuk pada naskah asli berbahasa Inggris. <a href=\"/en/articles/fbfb182b-bb05-434f-a664-b74c68153e61/\" data-source-article-id=\"fbfb182b-bb05-434f-a664-b74c68153e61\" hreflang=\"en\">Naskah asli bahasa Inggris</a></p>\n</aside>",
+    "published_at": "2026-10-01T20:28:54+00:00",
+    "quality_score": 97,
+    "review_model": "gpt-5-mini-2025-08-07",
+    "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+    "source_snapshot": "state/sources/57473773ac5b1974a223c6159a928ec4b7d4781abd867e42854e5f7e38041953.json",
+    "task": "f0e571f61101d69286f5bf627c2ba2c9",
+    "translation_key": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c"
+  }
 }

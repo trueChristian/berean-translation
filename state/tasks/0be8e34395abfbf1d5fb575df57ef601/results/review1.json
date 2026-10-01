@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4008e24c-1c85-419b-a8fa-e62735cad84a",
+    "response_id": "chatcmpl-EUH3YIOM37Di7bBGq1ETyenlDNWFp",
+    "usage": {
+      "completion_tokens": 1363,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5677,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7040
+    }
+  },
+  "received_at": "2026-10-01T20:28:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Fun-loving, happy, homemakers might have a few dust bunnies under the furniture, but they radiate an aura that draws people to their hearts and homes.</p> (source paragraph in Part 1)",
+        "severity": "major",
+        "source_quote": "Fun-loving, happy, homemakers might have a few dust bunnies under the furniture, but they radiate an aura that draws people to their hearts and homes.",
+        "suggested_fix": "Replace the mistranslated phrase with a natural, accurate rendering that preserves meaning and tone. For example: \"Οι νοικοκυρές που αγαπούν τη διασκέδαση και είναι χαρούμενες μπορεί να έχουν λίγη σκόνη κάτω από τα έπιπλα, αλλά εκπέμπουν μια αύρα που προσελκύει ανθρώπους στις καρδιές και τα σπίτια τους.\" Preserve the surrounding HTML tags and sentence order.",
+        "translation_quote": "Οι αστειογνώστριες, χαρούμενες νοικοκυρές μπορεί να έχουν λίγη σκόνη κάτω από τα έπιπλα, αλλά εκπέμπουν μια αύρα που προσελκύει τους ανθρώπους στις καρδιές και τα σπίτια τους."
+      },
+      {
+        "location": "<p>That means if you are an avid bread maker, it’s all right to toss a few loaves of bread into your shopping cart.</p> (source paragraph in Part 1)",
+        "severity": "minor",
+        "source_quote": "That means if you are an avid bread maker, it’s all right to toss a few loaves of bread into your shopping cart.",
+        "suggested_fix": "Fix the grammatical gender/declension in the noun phrase. Replace \"στον καλάθι των αγορών σου\" with \"στο καλάθι των αγορών σου\" so the article agrees with the noun.",
+        "translation_quote": "...είναι εντάξει να βάλεις μερικές φρατζόλες στον καλάθι των αγορών σου."
+      },
+      {
+        "location": "Throughout translation — register and occasional word-choice/idiom (examples: \"από προεπιλογή\", \"αγαπούν τη διασκέδαση\" rendering consistency)",
+        "severity": "minor",
+        "source_quote": "Multiple English idiomatic phrases such as \"By default, we start believing that:\" and \"Fun-loving, happy, homemakers...\"",
+        "suggested_fix": "Adjust a few literal or awkward renderings for more natural Modern Greek idiom while preserving meaning. Examples: change \"Από προεπιλογή, αρχίζουμε να πιστεύουμε ότι:\" to \"Κατά κανόνα αρχίζουμε να πιστεύουμε ότι:\" and ensure the suggested fix for \"Fun-loving\" (see major finding) is applied. These are stylistic improvements — keep original paragraph structure and HTML unchanged.",
+        "translation_quote": "\"Από προεπιλογή, αρχίζουμε να πιστεύουμε ότι:\" and the phrase \"Οι αστειογνώστριες, χαρούμενες νοικοκυρές...\" (see major finding)"
+      }
+    ],
+    "passed": false,
+    "score": 86
+  }
+}

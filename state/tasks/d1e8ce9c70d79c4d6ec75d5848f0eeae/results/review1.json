@@ -1,0 +1,85 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b7cd7163-e2bc-4bb1-9994-efde23be726a",
+    "response_id": "chatcmpl-EUH47CwAWH29F5ftOfEw0hMzacAC2",
+    "usage": {
+      "completion_tokens": 1221,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5841,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7062
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html > h2 (first heading)",
+        "severity": "major",
+        "source_quote": "The Doctrine of Nonresistance",
+        "suggested_fix": "Translate the heading to Afrikaans and keep the same tag, e.g. <h2>Die Leer van Nie-Weerstandigheid</h2>.",
+        "translation_quote": "<h2>The Doctrine of Nonresistance</h2>"
+      },
+      {
+        "location": "source.html > h2 (second heading)",
+        "severity": "major",
+        "source_quote": "The Emphasis of Biblical Foundations",
+        "suggested_fix": "Translate the heading to Afrikaans and keep the same tag, e.g. <h2>Die Beklemtoning van Bybelse Grondslag</h2>.",
+        "translation_quote": "<h2>The Emphasis of Biblical Foundations</h2>"
+      },
+      {
+        "location": "source.html > h2 (third heading)",
+        "severity": "major",
+        "source_quote": "Importance of Practical Salvation",
+        "suggested_fix": "Translate the heading to Afrikaans and keep the same tag, e.g. <h2>Die Belang van Praktiese Verlossing</h2>.",
+        "translation_quote": "<h2>Importance of Practical Salvation</h2>"
+      },
+      {
+        "location": "source.html > h2 (fourth heading)",
+        "severity": "major",
+        "source_quote": "The Seriousness of a Pure Church",
+        "suggested_fix": "Translate the heading to Afrikaans and keep the same tag, e.g. <h2>Die Ernstigheid van 'n Suiwer Kerk</h2>.",
+        "translation_quote": "<h2>The Seriousness of a Pure Church</h2>"
+      },
+      {
+        "location": "source.html > h2 (fifth heading)",
+        "severity": "major",
+        "source_quote": "The Teachings of Practical Christianity",
+        "suggested_fix": "Translate the heading to Afrikaans and keep the same tag, e.g. <h2>Die Leerstellings van Praktiese Kristenskap</h2>.",
+        "translation_quote": "<h2>The Teachings of Practical Christianity</h2>"
+      },
+      {
+        "location": "source.html > h2 (conclusion heading)",
+        "severity": "major",
+        "source_quote": "Conclusion",
+        "suggested_fix": "Translate the heading to Afrikaans and keep the same tag, e.g. <h2>Gevolgtrekking</h2>.",
+        "translation_quote": "<h2>Conclusion</h2>"
+      },
+      {
+        "location": "source.html > paragraph about 'maturing of a Christian' (third paragraph under 'Importance of Practical Salvation')",
+        "severity": "major",
+        "source_quote": "This maturing of a Christian is emphasized in writings ranging from those of Menno Simons up to Abraham Goshalk.",
+        "suggested_fix": "Correct the Afrikaans rendering to convey 'this maturing' (maturation/spiritual growth). Replace 'Hierdie veroudering van ’n Christen' with a phrase such as 'Hierdie geestelike volwassenwording van ’n Christen' while preserving the surrounding HTML paragraph tags.",
+        "translation_quote": "Hierdie veroudering van ’n Christen word beklemtoon in geskrifte wat wissel van dié van Menno Simons tot by Abraham Goshalk."
+      },
+      {
+        "location": "source.html > paragraph comparing marriage as symbol (paragraph beginning 'To aid our minds')",
+        "severity": "minor",
+        "source_quote": "To aid our minds in answering such a question, let us consider the earthly symbol of this heavenly union: that of a man and a woman joined together for life.",
+        "suggested_fix": "The Afrikaans uses 'weeroor' (typo/concatenation) earlier in the paragraph and 'soo dikwels' later appears odd. Recommend correcting 'Hier weeroor moet ons' to 'Hier weereens moet ons' and 'soo dikwels' to 'sodat' or rephrase for idiomatic clarity, preserving HTML. E.g. replace 'Hier weeroor moet ons die karakter...' with 'Hier weereens moet ons die karakter...' and 'soo dikwels dat die huwelik' with 'sodat die huwelik'.",
+        "translation_quote": "Hier weeroor moet ons die karakter van Christus in gedagte hou. ... Dit skilder vir ons aardse gedagtes duidelik die gees van Christus, soo dikwels dat die huwelik ’n simbool is van Christus en Sy bruid."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

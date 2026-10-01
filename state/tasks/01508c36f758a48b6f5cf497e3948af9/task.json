@@ -2,7 +2,6 @@
   "article_id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 6765
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1276,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6449,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7725
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Paragraph beginning “Ken was 13 years old, and his life was no better…” (source and translation mid-article)",
+      "severity": "major",
+      "source_quote": "His school friend was a hippie, and his parents traveled a lot. They were called Gypsies.",
+      "suggested_fix": "Replace the mistranslated word with an appropriate Afrikaans equivalent for 'Gypsies' (e.g., 'sjipiese' or 'sirkusfamilies' depending on intended nuance). Preserve surrounding HTML and punctuation. Example: \"Sy skoolvriend was ’n hippie, en sy ouers het baie gereis. Hulle is genoem Sjipeiese.\"",
+      "translation_quote": "Sy skoolvriend was ’n hippie, en sy ouers het baie gereis. Hulle is genoem Sypieste."
+    },
+    {
+      "location": "Paragraph near top describing the pawn shop leaving scene (first paragraph and subsequent sentence about leaving the pawn shop)",
+      "severity": "major",
+      "source_quote": "With slumped shoulders and downcast eyes, I turned to escape the confines of his dingy, pawn shop, his ever-crescendoing voice drowning the last hope of respite.",
+      "suggested_fix": "'Dingy' was mistranslated as 'nuuskierige' (which means 'curious'). Replace with an Afrikaans adjective that conveys 'dingy' (e.g., 'donker', 'verval', 'armagtig', or 'slordig') and preserve HTML tags. Example: \"... draai ek om en vlug die benoude grense van sy benoude, rookgeplote pandjieswinkel binne; sy stem wat steeds harder word, oorstroom die laaste hoop op rustigheid.\"",
+      "translation_quote": "Met geslote skouers en neergeslagte oë draai ek om en vlug die benoude grense van sy beknopte pandjieswinkel binne; sy stem wat steeds harder word, oorstroom die laaste hoop op rustigheid."
+    },
+    {
+      "location": "Paragraph describing the beanie and reactions after the failed Bible study (early in article)",
+      "severity": "major",
+      "source_quote": "What lay behind those flashing eyes, and what memories are stored beneath his ever-crowning beanie?",
+      "suggested_fix": "The phrase 'ever-crowning beanie' is obscure but should not be turned into 'altyd-opgedrukte muts' (which implies 'always-pressed-down beanie'). Use a neutral, idiomatic rendering that preserves sense (for example, 'sy altyd-draende muts' or 'sy altyd-opgedraaide muts' if referring to a constantly-worn beanie). Preserve HTML. Example: \"Wat lê agter daardie flitsende oë, en watter herinneringe lê onder sy altyd-draende muts?\"",
+      "translation_quote": "Wat lê agter daardie flitsende oë, en watter herinneringe lê onder sy altyd-opgedrukte muts?"
     }
   ],
   "id": "01508c36f758a48b6f5cf497e3948af9",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 80,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0c059a0312fc4bb7c1d9113fe70aaa013f3daaefdb55449ee68204bcbaa1c79e.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

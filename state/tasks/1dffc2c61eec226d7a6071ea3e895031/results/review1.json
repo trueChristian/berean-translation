@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c6f28c9d-bb13-4cc5-8d0d-9de73e2bab8b",
+    "response_id": "chatcmpl-EUH3tBkp57KSAYMRr8eo1JsCv4HKo",
+    "usage": {
+      "completion_tokens": 1088,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5580,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6668
+    }
+  },
+  "received_at": "2026-10-01T20:28:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — h2 headings (multiple)",
+        "severity": "minor",
+        "source_quote": "<h2>The Doctrine of Nonresistance</h2>\n...\n<h2>The Emphasis of Biblical Foundations</h2>\n...\n<h2>Importance of Practical Salvation</h2>\n...\n<h2>The Seriousness of a Pure Church</h2>\n...\n<h2>The Teachings of Practical Christianity</h2>\n...\n<h2>Conclusion</h2>",
+        "suggested_fix": "Translate the H2 headings into German while preserving the HTML tags and attributes. Example replacements (preserve exact tag):\n<h2>Die Lehre des Nichtwiderstands</h2>\n<h2>Die Betonung biblischer Grundlagen</h2>\n<h2>Die Bedeutung praktischer Errettung</h2>\n<h2>Die Ernsthaftigkeit einer reinen Kirche</h2>\n<h2>Die Lehren praktischen Christentums</h2>\n<h2>Fazit</h2>",
+        "translation_quote": "<h2>The Doctrine of Nonresistance</h2>\n...\n<h2>The Emphasis of Biblical Foundations</h2>\n...\n<h2>Importance of Practical Salvation</h2>\n...\n<h2>The Seriousness of a Pure Church</h2>\n...\n<h2>The Teachings of Practical Christianity</h2>\n...\n<h2>Conclusion</h2>"
+      },
+      {
+        "location": "source.html — book title in body (paragraph mentioning John M. Brenneman)",
+        "severity": "minor",
+        "source_quote": "In his book, “Pride and Humility,” John M. Brenneman maintains that the outward appearance...",
+        "suggested_fix": "Either leave the book title in the original language but mark it typographically as a title (preserve quotes) or provide a German rendering while keeping the original punctuation and HTML. Example: „Pride and Humility“ (oder „Stolz und Demut“). Preserve surrounding HTML and punctuation exactly. E.g. in the paragraph HTML: In seinem Buch „Pride and Humility“ behauptet John M. Brenneman...",
+        "translation_quote": "In seinem Buch „Pride and Humility“ behauptet John M. Brenneman, dass das äußere Erscheinungsbild..."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

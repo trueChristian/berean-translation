@@ -2,7 +2,6 @@
   "article_id": "10933457-b503-48e1-9346-49ff54d1b6fe",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -24,6 +23,62 @@
         },
         "total_tokens": 7632
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1918,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7242,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9160
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<p>...God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.” (2 Timothy 1:7)</p>",
+      "severity": "critical",
+      "source_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.” (2 Timothy 1:7)",
+      "suggested_fix": "Translate the quoted Bible text into Italian while preserving the exact meaning and quotation punctuation and keep the Scripture citation unchanged. For example (preserve the paragraph and tag structure): <p>“Dio infatti non ci ha dato uno spirito di timidezza, ma di forza, d'amore e di autocontrollo.” (2 Timothy 1:7)</p> — or render the KJV wording into Italian equivalent that faithfully conveys the original English wording used in the source article. Do not replace the citation number.",
+      "translation_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.” (2 Timothy 1:7)"
+    },
+    {
+      "location": "<p>...he maketh intercession for us with groanings which cannot be uttered.</em></p>",
+      "severity": "critical",
+      "source_quote": "<em>the Spirit,</em> which <em>maketh intercession for us with groanings which cannot be uttered.</em>",
+      "suggested_fix": "Translate this English clause into Italian within the existing <em> tags, preserving tag structure and meaning. Example: <em>lo Spirito,</em> che <em>intercede per noi con sospiri inesprimibili.</em>",
+      "translation_quote": "<em>the Spirit,</em> which <em>makes intercession for us with groanings which cannot be uttered.</em>"
+    },
+    {
+      "location": "Multiple Bible quotations and inline verse blocks throughout the article (Job 15:21-22, 2 Corinthians 7:5, Philippians 4:6-7, Job 23:1-6, Psalm 142:2, 1 Samuel 1:16, Lamentations 3:15, Ruth 1:20, Isaiah 38:12, Matthew 27:46, 1 John 4:18, Psalm 119:165, 1 John 4:19-20, Isaiah 8:12-13, 1 Peter 1:13, Philippians 4:7-8 blockquote)",
+      "severity": "critical",
+      "source_quote": "Examples from source: “A dreadful sound is in his ears: in prosperity the destroyer shall come upon him. He believeth not that he shall return out of darkness, and he is waited for of the sword.” (Job 15:21, 22); “troubled on every side; without were fightings, within were fears.” (2 Corinthians 7:5); “Be careful for nothing; but in every thing by prayer...”(Philippians 4:6 7); full Philippians 4:7,8 blockquote in English; Job 23:1-6 in English; many other verse quotations all in English in the translation.",
+      "suggested_fix": "Each quoted Scripture passage must be rendered into Italian in a way that faithfully conveys the exact printed English wording used in the authoritative source (do not substitute a different English Bible version). Keep all punctuation, verse citations and HTML tags as in the source. For example replace the English Job quote with an Italian rendering faithful to the source English text, wrapped exactly as the original paragraph and citation: <p>“Un terribile suono è nelle sue orecchie: nella prosperità gli verrà addosso il distruttore. Egli non pensa che tornerà dalle tenebre, ed è atteso dalla spada.” (Job 15:21, 22)</p> Apply the same treatment to every Scripture quotation and the full Philippians 4:7-8 blockquote, preserving the blockquote tags and the citation line.",
+      "translation_quote": "(Multiple places) Bible quotations remain in English rather than being rendered into Italian (e.g., “A dreadful sound is in his ears...” (Job 15:21, 22); “Be careful for nothing; but in every thing by prayer...” (Philippians 4:6 7); full Philippians 4:7,8 blockquote, Job 23:1-6, etc.)"
+    },
+    {
+      "location": "<p>...Paolo non si dichiarò esente, poiché era “troubled on every side; without were fightings, within were fears.” (2 Corinthians 7:5)</p>",
+      "severity": "major",
+      "source_quote": "“troubled on every side; without were fightings, within were fears.” (2 Corinthians 7:5)",
+      "suggested_fix": "Translate the quoted verse text into Italian within the paragraph, preserving the citation and keeping the meaning identical to the printed English source. Example: “era tribolato da ogni parte, all’esterno c’erano pericoli, all’interno timori.” (2 Corinthians 7:5)",
+      "translation_quote": "“troubled on every side; without were fightings, within were fears.” (2 Corinthians 7:5)"
+    },
+    {
+      "location": "<p>...This is no pointed accusation at any individuals... Paolo claimed no exemption, for he was “troubled on every side; without were fightings, within were fears.” (2 Corinthians 7:5)</p>",
+      "severity": "minor",
+      "source_quote": "Original English surrounding explanatory phrases and the Paul citation.",
+      "suggested_fix": "The explanatory Italian rendering is generally acceptable, but ensure any quoted Scripture text is translated as noted above. No change required to surrounding prose beyond fixing the quoted verse text.",
+      "translation_quote": "Paolo non si dichiarò esente, poiché era “troubled on every side; without were fightings, within were fears.” (2 Corinthians 7:5)"
     }
   ],
   "id": "428bdeffc0d792806ddc095e135a0b2a",
@@ -69,11 +124,13 @@
     }
   },
   "protected": false,
+  "quality_score": 40,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/26b7a664a367b633bc68dce4ce41099ba34f55c7da13d83df0ec0180ed003d97.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b862596e1902f47704d5b4543248cd118dbbf01a8d05be354c99504278ee33ab",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

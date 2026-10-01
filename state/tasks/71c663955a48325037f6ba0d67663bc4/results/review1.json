@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "781353a4-9b77-4804-a87b-a8042710f90f",
+    "response_id": "chatcmpl-EUH3gBf6hyaXpfL01vDVNw5Qob7LD",
+    "usage": {
+      "completion_tokens": 2075,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2965,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5040
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph 2 (Psalm quotation)",
+        "severity": "major",
+        "source_quote": "“Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9).",
+        "suggested_fix": "Translate the quoted English verse into standard contemporary Italian while keeping the scripture reference (Psalms 98:8-9) unchanged and preserving the surrounding punctuation and HTML. For example: “«Sia applaudono i fiumi, e tutte le colline esultino insieme davanti al SIGNORE; perché egli viene a giudicare la terra: con giustizia giudicherà il mondo, e i popoli con rettitudine» (Salmi 98:8-9).”",
+        "translation_quote": "“Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9)."
+      },
+      {
+        "location": "source.html — paragraph 4 (John 4:14 reference)",
+        "severity": "major",
+        "source_quote": "“well of water springing up into everlasting life” (John 4:14).",
+        "suggested_fix": "Translate the quoted English phrase into Italian, keeping the scripture reference (John 4:14) unchanged and preserving surrounding punctuation. Example: “«pozzo d’acqua che zampilla per vita eterna» (Giovanni 4:14).”",
+        "translation_quote": "“well of water springing up into everlasting life” (John 4:14)."
+      },
+      {
+        "location": "source.html — paragraph 7 (quoted article title and paragraph in English)",
+        "severity": "major",
+        "source_quote": "The writer of the article “How to Increase Your Faith” clearly points this out “Faith is one of the basic ingredients in getting right with God. We come into the Christian life (and receive the forgiveness of sins) through faith. . . We abandon all hope for saving ourselves by our own abilities, and instead, we put complete trust in Jesus Christ for our eternal safety.”",
+        "suggested_fix": "Translate the quoted article title and the quoted English paragraph into Italian, preserving quotation marks and punctuation. Translate the title “How to Increase Your Faith” (e.g., «Come aumentare la tua fede») and the English quoted sentences into idiomatic Italian while keeping the meaning identical to the source. For example: “L’autore dell’articolo «Come aumentare la tua fede» lo evidenzia chiaramente: «La fede è uno degli ingredienti fondamentali per mettersi in regola con Dio. Entriamo nella vita cristiana (e riceviamo il perdono dei peccati) mediante la fede... Abbandoniamo ogni speranza di salvarci con le nostre capacità e invece riponiamo completa fiducia in Gesù Cristo per la nostra salvezza eterna.»”",
+        "translation_quote": "The writer of the article “How to Increase Your Faith” clearly points this out “Faith is one of the basic ingredients in getting right with God. We come into the Christian life (and receive the forgiveness of sins) through faith. . . We abandon all hope for saving ourselves by our own abilities, and instead, we put complete trust in Jesus Christ for our eternal safety.”"
+      },
+      {
+        "location": "source.html — paragraph 10 (Isaiah quotation)",
+        "severity": "major",
+        "source_quote": "“For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11).",
+        "suggested_fix": "Translate the quoted English verse into Italian while keeping the scripture reference (Isaiah 61:11) unchanged and preserving surrounding punctuation. For example: “«Poiché come la terra produce il suo germoglio, e come il giardino fa nascere ciò che vi è seminato, così il Signore DIO farà germogliare la giustizia e la lode davanti a tutte le nazioni» (Isaia 61:11).”",
+        "translation_quote": "“For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11)."
+      },
+      {
+        "location": "source.html — paragraph 1 (\"honk and quack\")",
+        "severity": "minor",
+        "source_quote": "\"...Migrating waterfowl bring new sounds as they honk and quack their way to their final nesting places.\"",
+        "suggested_fix": "Correct the verb translation so it conveys the original onomatopoeic sounds. Replace the erroneous \"onorano\" with verbs appropriate to the bird sounds (e.g., \"emettendo fischi e starnazzi\" or \"emettendo schiamazzi e starnazzi\"), keeping the surrounding Italian phrasing. Example revision: \"...Gli anatidi migratori portano nuovi suoni mentre emettono fischi e starnazzi nel loro cammino verso i luoghi di nidificazione finali.\"",
+        "translation_quote": "\"Gli anatidi migratori portano nuovi suoni mentre onorano e starnazzano il loro cammino verso i luoghi di nidificazione finali.\""
+      },
+      {
+        "location": "source.html — paragraph 1 (\"spring peepers\")",
+        "severity": "minor",
+        "source_quote": "\"This year the spring peepers in our area were “winter peepers” as they feebly squeaked their greetings to the arriving spring in mid-February.\"",
+        "suggested_fix": "Adjust the animal identification to the more accurate Italian equivalent (spring peepers are small chorus frogs). Replace \"piccoli grilli primaverili\" with \"piccole rane corritrici\" or \"piccole rane del genere spring peeper\" or the common Italian name if appropriate. Keep the rest of the sentence idiomatic. Example: \"Quest'anno le rane primavera della nostra zona sono state 'rane invernali', mentre cinguettavano debolmente...\"",
+        "translation_quote": "\"Quest'anno i piccoli grilli primaverili della nostra zona sono stati “grilli invernali”, mentre gracchiavano debolmente i loro saluti all'arrivo della primavera a metà febbraio.\""
+      }
+    ],
+    "passed": false,
+    "score": 68
+  }
+}

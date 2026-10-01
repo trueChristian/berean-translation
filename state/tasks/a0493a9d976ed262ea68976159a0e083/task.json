@@ -2,7 +2,6 @@
   "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 9218
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1210,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8966,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10176
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Paragraph about the hymn tune (near end of article)",
+      "severity": "critical",
+      "source_quote": "\"And glory—glory dwelleth in Immanuel's land.\"",
+      "suggested_fix": "Translate or render this quoted refrain consistently into Italian (or keep the entire quoted hymn lines in English only if the source printed them in English and the translation is meant to reproduce them verbatim). Preserve the original punctuation and capitalization and, if translated, ensure the Italian matches the printed English meaning. Example Italian rendering: \"E gloria — gloria dimora nella terra di Immanuel.\"",
+      "translation_quote": "\"And glory, glory dwelleth in Immanuel's land.\""
+    },
+    {
+      "location": "Final paragraph closing quotation",
+      "severity": "critical",
+      "source_quote": "\"They lose nothing who gain Christ.\"",
+      "suggested_fix": "Translate this quoted statement into Italian (or retain it verbatim in English only if the authoritative English text is intended to appear untranslated). Preserve meaning and theological force. Example Italian rendering: \"Non perdono nulla coloro che acquistano Cristo.\"",
+      "translation_quote": "\"They lose nothing who gain Christ.\""
+    },
+    {
+      "location": "Hymn stanza 2 (hymn div, stanza labelled 2)",
+      "severity": "minor",
+      "source_quote": "Oh! well it is forever,\nOh! well forevermore\nMy nest hung in no forest\nOf all this death-doomed shore!",
+      "suggested_fix": "Adjust the Italian to convey the printed English meaning more clearly and idiomatically. The current \"Il mio nido appeso in nessuna foresta / Di tutta questa sponda destinata alla morte!\" is awkward and risks altering sense. Suggested Italian: \"Oh! bene è per sempre,\nOh! bene per sempre ancora:\nil mio nido non posa in alcuna foresta\ndi questa riva destinata alla morte!\" (preserving line breaks and poetic sense).",
+      "translation_quote": "\"Il mio nido appeso in nessuna foresta\nDi tutta questa sponda destinata alla morte!\""
     }
   ],
   "id": "a0493a9d976ed262ea68976159a0e083",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 76,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c48182e3f5033a08822c2237c3e9e7faab5b80302e823695d8ba3dd0faead4e3.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

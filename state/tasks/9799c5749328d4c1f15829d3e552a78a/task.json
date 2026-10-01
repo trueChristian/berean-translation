@@ -2,7 +2,6 @@
   "article_id": "e848a36d-36eb-4f7d-aea7-e17ab34a8870",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 8963
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1847,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8646,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10493
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<p>Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “Remember now thy Creator...\" (in the section \"Dementie in de Bijbel\")",
+      "severity": "critical",
+      "source_quote": "<p>Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”</p>",
+      "suggested_fix": "Translate the entire Ecclesiastes quotation into natural contemporary Dutch, preserving the exact content, verse numbers and theological sense. Keep HTML tags unchanged and insert the Dutch translation in place of the English quotation. For example, replace the English block with a Dutch rendering of Ecclesiastes 12:1-7 (preserving the author’s quoted wording) inside the same <p> tag.",
+      "translation_quote": "<p>Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”</p>\""
+    },
+    {
+      "location": "<p>“And thou shalt teach them diligently unto thy children...\" (Deuteronomy 6:7 quote in the paragraph about instructing children)",
+      "severity": "critical",
+      "source_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7).",
+      "suggested_fix": "Translate the Deuteronomy 6:7 quotation into Dutch, preserving the wording and verse reference exactly as printed in the English source. Replace the English quotation with the Dutch translation within the same <p> tag and keep the parenthetical reference (Deuteronomy 6:7) unchanged in form.",
+      "translation_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7).\""
+    },
+    {
+      "location": "<p>“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23). (in the Conclusion)",
+      "severity": "critical",
+      "source_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23).",
+      "suggested_fix": "Translate the Galatians 5:22-23 quotation into Dutch, preserving the exact content and verse numbering as printed in the English source. Replace the English quotation with a Dutch rendering inside the same <p> tag, keeping the parenthetical (Galatians 5:22-23) unchanged.",
+      "translation_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23).\""
+    },
+    {
+      "location": "<p>“Het enige wat haar terugbrengt is naar buiten gaan en haar op haar mobiele bellen...” (paragraph where Al calls Lisa on her cell phone)",
+      "severity": "minor",
+      "source_quote": "“The only thing I’ve found that brings her back to herself is to go outside and call her on her cell phone. I tell her to come out to the garage, I’ve got something to show her. Somehow when I do that, it brings her back to the present and lets her know who I am – for a little bit, anyway.”",
+      "suggested_fix": "Use an idiomatic Dutch phrasing for “call her on her cell phone.” For example: “Het enige wat haar terugbrengt is dat ik naar buiten ga en haar op haar mobiele telefoon bel.” Keep the rest of the sentence as translated but preserve all HTML tags.",
+      "translation_quote": "“Het enige wat haar terugbrengt is naar buiten gaan en haar op haar mobiele bellen. Ik zeg dat ze naar de garage moet komen, dat ik haar iets wil laten zien. Op de een of andere manier brengt dat haar weer terug naar het heden en laat het haar weten wie ik ben – al is het maar even.”"
     }
   ],
   "id": "9799c5749328d4c1f15829d3e552a78a",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 68,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

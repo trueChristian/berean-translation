@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4c4414b2-6ef7-485f-b744-f95098313c2a",
+    "response_id": "chatcmpl-EUH3cEoiZG6P0tDpVctopNisFpwXQ",
+    "usage": {
+      "completion_tokens": 1528,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1563,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3091
+    }
+  },
+  "received_at": "2026-10-01T20:28:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> second stanza, line 2",
+        "severity": "major",
+        "source_quote": "I greet Thy going forth;",
+        "suggested_fix": "Translate the phrase idiomatically and grammatically in Afrikaans to convey the original meaning (greeting the Redeemer’s going forth). For example: \"Ek groet U in U uitgaan;\" or more smoothly, \"Ek groet U se uitgaan\" or \"Ek groet U se uitgaan (U wat te voorskyn treed)\" depending on intended nuance. Preserve the sense of greeting the Redeemer's going/coming forth rather than the current literal tokenization.",
+        "translation_quote": "Ek groet U uitgaan;"
+      },
+      {
+        "location": "<div class=\"poem\"> third stanza, line 1–3",
+        "severity": "minor",
+        "source_quote": "But O these wonders of Thy grace,\nThese nobler works of Thine,\nThese marvels sweeter far to trace,",
+        "suggested_fix": "Smooth the Afrikaans phrasing and avoid repeating 'wonders/wonderwerke' twice. A clearer rendering: \"Maar o, hierdie wonders van U genade, hierdie edeler werke van U, hierdie wonders wat soveel liefliker is om na te volg,\" or \"... hierdie wonders wat soveel liefliker is om op te spoor.\" Preserve the meaning while improving idiom.",
+        "translation_quote": "Maar O, hierdie wonders van U genade,\nHierdie edeler werke van U,\nHierdie wonderwerke wat soveel liefliker is om te volg,"
+      },
+      {
+        "location": "<div class=\"poem\"> fifth stanza, line 2–3",
+        "severity": "minor",
+        "source_quote": "Creator Spirit, work in me\nThese wonders sweet of Thine;",
+        "suggested_fix": "Improve word order and register for natural Afrikaans. For example: \"Skeppergees, werk in my hierdie soete wonders van U;\" or \"Skeppergees, werk in my hierdie lieflike wonders van U.\" Keep 'Skeppergees' and 'werk in my' and preserve the appeal to the Spirit.",
+        "translation_quote": "Skepper-Gees, werk in my\nHierdie soet wonderwerke van U;"
+      },
+      {
+        "location": "<div class=\"poem\"> fifth stanza, line 4",
+        "severity": "minor",
+        "source_quote": "Divine Redeemer, graciously\nRenew this heart of mine.",
+        "suggested_fix": "Correct Afrikaans word order and placement of 'genadig' (or use 'genadiglik' or comma). For example: \"Goddelike Verlosser, vernuwe genadiglik hierdie hart van my.\" Or: \"Goddelike Verlosser, vernuwe hierdie hart van my, genadig.\" This will read more naturally while preserving meaning.",
+        "translation_quote": "Goddelike Verlosser, vernuwe genadig\nHierdie hart van my."
+      }
+    ],
+    "passed": false,
+    "score": 86
+  }
+}

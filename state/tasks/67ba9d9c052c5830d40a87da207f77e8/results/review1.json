@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a846ff16-5b7f-40ce-b597-f77659c01a96",
+    "response_id": "chatcmpl-EUH473LJbCEBUE5eOPcb5qESgkmUn",
+    "usage": {
+      "completion_tokens": 2171,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1216,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6610,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8781
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html first paragraph",
+        "severity": "minor",
+        "source_quote": "The landscape on the hills of glory, the wonderful creatures that dwell there, and most of all, the Supreme Being on the throne, all defy our human attempt to grasp and understand the beauty and glory of our God.",
+        "suggested_fix": "In the corresponding translated paragraph, consider changing “die landskap op die heiligdom se heuwels” to a closer rendering of “the hills of glory” (for example: “die landskap op die heuwels van heerlikheid”) to preserve the original image. Preserve all surrounding HTML and punctuation.",
+        "translation_quote": "Die landskap op die heiligdom se heuwels, die wonderlike wesens wat daar woon, en bo alles die Opperste Wees op die troon, trotseer ons menslike poging om die skoonheid en heerlikheid van ons God te begryp en vas te vang."
+      },
+      {
+        "location": "source.html paragraph beginning “God is an uncreated eternal being”",
+        "severity": "minor",
+        "source_quote": "God is an uncreated eternal being, and man was created in His image to reflect His glory and beauty.",
+        "suggested_fix": "Correct the apparent typo/word choice “ongeskepe” to a standard Afrikaans rendering of “uncreated,” for example “ongeskapen” or “ongeskape” (choose the idiomatic form), so the meaning is clear. Keep the original HTML tags and sentence order.",
+        "translation_quote": "God is ’n ongeskepe ewige wese, en die mens is geskape na Sy beeld om Sy heerlikheid en skoonheid te weerspieël."
+      },
+      {
+        "location": "source.html paragraph in Creation section containing “Dieen wat dit geskep het.”",
+        "severity": "minor",
+        "source_quote": "... these gifts of creation are given to give us a brief glimpse of the One who created them.",
+        "suggested_fix": "Fix the spacing/typo “Dieen” to the correct Afrikaans phrase (e.g., “Die een” or “Dieen” → “Dieen” should be separated if intended, but best: “Die Ene wat dit geskep het”). Preserve the HTML structure.",
+        "translation_quote": "Hierdie gawes van die skepping word gegee om ons ’n kort glimp te gee van Dieen wat dit geskep het."
+      },
+      {
+        "location": "source.html Music and Sound paragraph with “Israel-gesange”",
+        "severity": "minor",
+        "source_quote": "... the people of God singing the songs of Zion, the prayers of the saints ...",
+        "suggested_fix": "The source refers to “the songs of Zion.” The translation’s phrase “die Israel-gesange” alters that reference. Change “Israel-gesange” to “Sion-liedere” or “liedere van Sion” (e.g., “die mense van God wat die liedere van Sion sing”) to match the original wording and theological referent. Keep punctuation and HTML tags.",
+        "translation_quote": "die mense van God wat die Israel-gesange sing, die gebede van die heiliges, die wind wat deur die boomtoppe fluister,"
+      },
+      {
+        "location": "source.html image alt text for second figure",
+        "severity": "minor",
+        "source_quote": "A puffball fungus growing on a mossy forest floor",
+        "suggested_fix": "Replace the translated alt text “’n Pofbal-fongs wat op ’n mosbedekte bosvloer groei” with a clearer, idiomatic Afrikaans equivalent (for example: “’n Pofbal-paddastoel wat op ’n mosbedekte bosvloer groei” or “’n pofbal-swamm (paddastoel) wat op ’n mosbedekte bosvloer groei”). Preserve the <img> tag and its src attribute unchanged.",
+        "translation_quote": "’n Pofbal-fongs wat op ’n mosbedekte bosvloer groei"
+      },
+      {
+        "location": "source.subtitle",
+        "severity": "minor",
+        "source_quote": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2",
+        "suggested_fix": "The subtitle remains in English in the translation metadata. If the target-language guidance requires Afrikaans metadata, provide an Afrikaans rendering while preserving punctuation and scripture reference, for example: “Uit Sion het die volmaaktheid van skoonheid God geskyn. Psalms 50:2”. If you intentionally keep the original English subtitle, no change is required.",
+        "translation_quote": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

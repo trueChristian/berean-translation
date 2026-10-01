@@ -2,7 +2,6 @@
   "article_id": "1ec0f654-0dd1-48f3-9a68-3b15189e6704",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:46+00:00",
   "events": [
@@ -24,6 +23,41 @@
         },
         "total_tokens": 3836
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 966,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3585,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4551
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "First paragraphs (temperature lines)",
+      "severity": "major",
+      "source_quote": "“Probably about 50.” Adrianna glanced lazily at the thermometer. “Hey, it’s 65 degrees! Mom, may we eat lunch outside?”",
+      "suggested_fix": "Preserve the original printed numeric values and wording. Replace the Celsius conversions with the original Fahrenheit numbers (or keep the original English numbers) in French: e.g. « Probablement environ 50. » Adrianna jeta un coup d’œil paresseux au thermomètre. « Hé, il fait 65 degrés ! Maman, on peut déjeuner dehors ? » If you prefer to localize temperatures, include the original numbers in parentheses, but do not remove or change the original printed numbers without the editor's approval.",
+      "translation_quote": "« Probablement environ 10 degrés. » Adrianna jeta un coup d’œil paresseux au thermomètre. « Hé, il fait 18 degrés ! Maman, on peut déjeuner dehors ? »"
+    },
+    {
+      "location": "End of article HTML (final paragraph)",
+      "severity": "minor",
+      "source_quote": "When suppertime came and they went in for supper, Adrianna was very happy. Mom was right, she thought. It is more fun to give up my way and do what everyone else wants to.",
+      "suggested_fix": "Close the unclosed paragraph tag to preserve exact HTML structure. Add a closing </p> tag at the end of the final paragraph so the HTML matches the source structure.",
+      "translation_quote": "Quand arriva l’heure du souper et qu’ils rentrèrent pour dîner, Adrianna était très heureuse. Maman avait eu raison, pensa‑t‑elle. C’est plus amusant de renoncer à ma façon et de faire ce que tout le monde veut."
     }
   ],
   "id": "286cb2cb090e4a3198a4b1545d1cbb95",
@@ -69,11 +103,13 @@
     }
   },
   "protected": false,
+  "quality_score": 80,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d59e6cc034714ade3629f9e4dd10e75a09cff16eb5d3255ed698b76288fda97d.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "dcfff2a5364081c6a6817377a0d3ad1649eaec0276399a4b9a70adc9f0fe19d1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

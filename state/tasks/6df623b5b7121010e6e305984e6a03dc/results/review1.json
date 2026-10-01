@@ -1,0 +1,85 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ee4e35fc-6a76-4a54-9bee-5ab32bdc6521",
+    "response_id": "chatcmpl-EUH4S9w0h4cie0UYWAnzbkwUySfL8",
+    "usage": {
+      "completion_tokens": 2015,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2985,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5000
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"drop-cap\"> first paragraph",
+        "severity": "major",
+        "source_quote": "Hyacinths are trying their noble best to poke their buds through the cold constraint of the winter-bound earth.",
+        "suggested_fix": "Translate the plant name and meaning accurately and idiomatically. For example: \"Ziyaki za hyacinth zinafanya bidii kuwasukuma vichanja vyao kupitia ukandamizaji wa baridi wa dunia iliyofungwa kwa msimu wa baridi.\" Preserve the tag and sentence structure within the paragraph.",
+        "translation_quote": "Zinia zinafanya bidii yao kuu kuonyesha vifuniko vyao kupitia kwa udhaifu wa dunia iliyofungwa na baridi ya msimu wa baridi."
+      },
+      {
+        "location": "<p class=\"drop-cap\"> first paragraph",
+        "severity": "major",
+        "source_quote": "spring peepers in our area were “winter peepers” as they feebly squeaked their greetings to the arriving spring in mid-February.",
+        "suggested_fix": "'Spring peepers' refers to small frogs that peep; it must not be rendered as 'wanyanyapaa' (hyenas). Suggested fix: \"wanyama wadogo wa kupepea wa chemchemi katika eneo letu walikuwa 'wanyama wa baridi' wakitamba kwa kupiga sauti dhaifu kwa kuwatakia salamu za kuwasili kwa chemchemi katikati ya Februari.\" Keep paragraph tags.",
+        "translation_quote": "Mwaka huu wanyanyapaa wa chemchemi katika eneo letu walikuwa “wanyanyapaa wa baridi” wakitamba kwa kupiga midomo dhaifu salamu zao za kuwasili kwa chemchemi katikati ya Februari."
+      },
+      {
+        "location": "<p class=\"drop-cap\"> first paragraph",
+        "severity": "minor",
+        "source_quote": "Tree buds are swelling, waiting to burst forth in full glory.",
+        "suggested_fix": "'Tree buds' should be rendered as 'viboko vya miti' or 'vichanga/matunda ya mimea' depending on dialect. Suggested: \"Vichanga vya miti vinazidi kujaa, vikinisubiri kuvunjika na kuibuka kwa utukufu kamili.\"",
+        "translation_quote": "Vibatili vya miti vinazidi kukomaa, vikinisubiri kuvunjika na kuibuka kwa utukufu kamili."
+      },
+      {
+        "location": "<p>At times a yearning stirs in my heart... </p> (paragraph about fasting)",
+        "severity": "critical",
+        "source_quote": "They fast from food and water every day from dawn to dusk, even though daytime temperatures exceed 110 degrees.",
+        "suggested_fix": "This sentence has been mistranslated in a way that reverses meaning ('they die from food' instead of 'they fast'). Correct urgently. Suggested: \"Wanafunga chakula na maji kila siku kutoka alfajiri hadi machweo, hata joto la mchana likizidi nyuzi joto 110.\" Preserve paragraph tags.",
+        "translation_quote": "Wanakufa kwa chakula na maji kila siku kutoka alfajiri hadi machweo, hata joto la mchana likizidi nyuzi 110."
+      },
+      {
+        "location": "<figure> <img alt=\"...\">",
+        "severity": "major",
+        "source_quote": "alt=\"White blossoms beside a small bird nesting in a bowl\"",
+        "suggested_fix": "Alt text must match meaning of source. Suggested: \"alt=\\\"White blossoms beside a small bird nesting in a bowl\\\"\" (in Swahili: \"Umeupe wa maua kando ya ndege mdogo anayejenga kiota ndani ya bakuli\") — keep within the <img> tag and do not add/specify a different bird species.",
+        "translation_quote": "alt=\"Warausi meupe kando ya tai mdogo aliyejenga yai yake ndani ya bakuli\""
+      },
+      {
+        "location": "<p>As I write this, I am flying 35,000 feet...</p>",
+        "severity": "major",
+        "source_quote": "The dry earth begs for rain as livestock scrounge for anything green to fulfill their appetite.",
+        "suggested_fix": "The translation must preserve 'livestock scrounge' (animals searching for green food). Suggested: \"Ardhi kavu inaalika mvua wakati mifugo inatafuta chochote kibichi kukidhi njaa yao.\"",
+        "translation_quote": "Ardhi kavu inataka mvua wakati mifugo inatafuta chochote kijani kukidhi njaa yao."
+      },
+      {
+        "location": "<p>As we plant our gardens... Isaiah 61:11</p>",
+        "severity": "minor",
+        "source_quote": "For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations (Isaiah 61:11).",
+        "suggested_fix": "Either translate the quoted verse into Swahili consistent with the printed English text in the source or include the exact English quotation as in source. Suggested translation preserving meaning: \"Kama ardhi inavyoleta kimo chake, na bustani ikayoa vitu vilivyopandwa ndani yake kuibuka, Bwana MUNGU atapandua haki na sifa kusimama mbele ya mataifa yote.\" Keep the verse citation unchanged.",
+        "translation_quote": "Tukapopanda bustani zetu na kuangalia miti yakiibuka kwa maua, tukumbuke maneno ya nabii Isaya, “For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11)."
+      },
+      {
+        "location": "<p>Mara nyingine hamu hulia moyoni...</p> (paragraph referencing Sister to Sister)",
+        "severity": "minor",
+        "source_quote": "commitments and busyness can bring us to the overload point when we feel we cannot handle anything more.",
+        "suggested_fix": "Translation used 'uhifadhi huo wa kuvunjika' which is unclear. Suggest: \"ahadi na shughuli nyingi zinaweza kutufikisha hadi hatua ya mzigo kupita kiasi tunapohisi hatuwezi kushughulikia zaidi.\" Preserve paragraph structure.",
+        "translation_quote": "ahadi na shughuli nyingi zinaweza kutufikisha katika kiwango cha mzigo tunapohisi hatuwezi kushughulikia zaidi. Soma zaidi ujifunze hatua za vitendo za kuepuka uhifadhi huo wa kuvunjika."
+      }
+    ],
+    "passed": false,
+    "score": 40
+  }
+}

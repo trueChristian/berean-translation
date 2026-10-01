@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "35b04ecb-4df1-40b4-81f8-a37d38a2d458",
+    "response_id": "chatcmpl-EUH3ZsUMc24h4T0CgoE4dDrbHPU1t",
+    "usage": {
+      "completion_tokens": 1533,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6881,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8414
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<h2>The Doctrine of Nonresistance</h2>",
+        "severity": "minor",
+        "source_quote": "The Doctrine of Nonresistance",
+        "suggested_fix": "Replace with Greek definite neuter form and natural phrasing: \"Το δόγμα της μη αντίστασης\" (preserve <h2>...</h2> tags).",
+        "translation_quote": "<h2>Η Δόγμα της Μη Αντίστασης</h2>"
+      },
+      {
+        "location": "<p>...Christ typified the acceptable response to violence and ill-will: gentleness, meekness, as befitted one who is called a Lamb.</p>",
+        "severity": "minor",
+        "source_quote": "Christ typified the acceptable response to violence and ill-will: gentleness, meekness, as befitted one who is called a Lamb.",
+        "suggested_fix": "Change awkward verb «τύπωσε» to a more accurate Greek rendering of \"typified\", e.g. \"Ο Χριστός υπήρξε το πρότυπο/υποδείκνυε την αποδεκτή απάντηση στη βία και την κακοβουλία: πραότητα, πραότητα/ταπεινότητα, όπως αρμόζει σε αυτόν που καλείται Αρνίον.\" Preserve original sentence structure and tags.",
+        "translation_quote": "Ο Χριστός τύπωσε την αποδεκτή απάντηση στη βία και την κακοβουλία: πραότητα, ταπεινότητα, όπως αρμόζει σε αυτόν που καλείται Αρνίον."
+      },
+      {
+        "location": "Paragraph: \"We will look at how they navigated these challenges by studying several of their doctrines and practices.\"",
+        "severity": "minor",
+        "source_quote": "doctrines and practices",
+        "suggested_fix": "Use a more natural lexical choice for \"doctrines\" in Greek, e.g. \"διδασκαλίες και πρακτικές\" or \"δόγματα και πρακτικές\" to match the source meaning. Preserve sentence punctuation and tags.",
+        "translation_quote": "δοξασίες και τις πρακτικές τους"
+      },
+      {
+        "location": "<figure> second image alt attribute</figure>",
+        "severity": "minor",
+        "source_quote": "A fresh green leaf budding from a twig",
+        "suggested_fix": "Fix grammatical gender/number and verb choice in the alt text. Suggested: alt=\"Ένα φρέσκο πράσινο φύλλο που βλαστάνει από ένα κλαδάκι\" (preserve <img ... alt=\"...\"> structure and other attributes).",
+        "translation_quote": "alt=\"Ένας φρέσκος πράσινος φύλλος που ανθίζει από ένα κλαδάκι\""
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

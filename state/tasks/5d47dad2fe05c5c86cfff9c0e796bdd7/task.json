@@ -2,7 +2,6 @@
   "article_id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -24,6 +23,41 @@
         },
         "total_tokens": 6478
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1080,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6344,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7424
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<p class=\"drop-cap\"> (opening paragraph, description of shop)",
+      "severity": "major",
+      "source_quote": "With slumped shoulders and downcast eyes, I turned to escape the confines of his dingy, pawn shop, his ever-crescendoing voice drowning the last hope of respite.",
+      "suggested_fix": "Replace the mistranslation with a faithful rendering that preserves the original meaning and does not add extraneous words. For example: \"Les épaules voûtées et les yeux baissés, je me détournai pour échapper aux recoins de sa boutique miteuse de prêteur sur gages, sa voix qui montait sans cesse noyant la dernière lueur d’apaisement.\" Ensure the phrase corresponds to the later wording \"boutique de prêteur sur gages\" used elsewhere for \"pawn shop.\"",
+      "translation_quote": "Les épaules voûtées et les yeux baissés, je me détournai pour échapper aux limites de sa boutique miteuse et monacrée de fumerie, sa voix montant sans cesse et noyant la dernière lueur d’apaisement."
+    },
+    {
+      "location": "throughout article (terminology consistency for \"pawn shop\")",
+      "severity": "minor",
+      "source_quote": "his dingy, pawn shop (opening); Now Ken is sitting in his pawn shop, alone, hurt, sad, and hiding.",
+      "suggested_fix": "Use a consistent French term for \"pawn shop\" throughout the translation. The later paragraph correctly uses \"boutique de prêteur sur gages.\" Replace earlier occurrences of \"boutique\" or any variant with \"boutique de prêteur sur gages\" (or consistently \"boutique de prêteur sur gages, miteuse\" where appropriate) to avoid ambiguity and maintain fidelity.",
+      "translation_quote": "opening paragraph: \"... sa boutique miteuse et monacrée de fumerie ...\" later paragraph: \"À présent Ken était assis dans sa boutique de prêteur sur gages, seul, blessé, triste et caché.\""
     }
   ],
   "id": "5d47dad2fe05c5c86cfff9c0e796bdd7",
@@ -69,11 +103,13 @@
     }
   },
   "protected": false,
+  "quality_score": 85,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0c059a0312fc4bb7c1d9113fe70aaa013f3daaefdb55449ee68204bcbaa1c79e.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

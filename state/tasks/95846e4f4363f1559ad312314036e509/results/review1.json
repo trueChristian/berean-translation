@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0bc71462-b1ad-48bf-82dc-0ac2a6187c40",
+    "response_id": "chatcmpl-EUH3fKmoBa51VvOeYOtkGwkDAdgYb",
+    "usage": {
+      "completion_tokens": 1053,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5810,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6863
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<h2>The Doctrine of Nonresistance</h2>",
+        "severity": "major",
+        "source_quote": "<h2>The Doctrine of Nonresistance</h2>",
+        "suggested_fix": "Translate the heading text into Korean while preserving the tag, e.g. <h2>비저항 교리</h2>",
+        "translation_quote": "<h2>The Doctrine of Nonresistance</h2>"
+      },
+      {
+        "location": "<h2>The Emphasis of Biblical Foundations</h2>",
+        "severity": "major",
+        "source_quote": "<h2>The Emphasis of Biblical Foundations</h2>",
+        "suggested_fix": "Translate the heading text into Korean while preserving the tag, e.g. <h2>성경적 기초의 강조</h2>",
+        "translation_quote": "<h2>The Emphasis of Biblical Foundations</h2>"
+      },
+      {
+        "location": "<h2>Importance of Practical Salvation</h2>",
+        "severity": "major",
+        "source_quote": "<h2>Importance of Practical Salvation</h2>",
+        "suggested_fix": "Translate the heading text into Korean while preserving the tag, e.g. <h2>실천적 구원의 중요성</h2>",
+        "translation_quote": "<h2>Importance of Practical Salvation</h2>"
+      },
+      {
+        "location": "<h2>The Seriousness of a Pure Church</h2>",
+        "severity": "major",
+        "source_quote": "<h2>The Seriousness of a Pure Church</h2>",
+        "suggested_fix": "Translate the heading text into Korean while preserving the tag, e.g. <h2>거룩한 교회의 엄중함</h2>",
+        "translation_quote": "<h2>The Seriousness of a Pure Church</h2>"
+      },
+      {
+        "location": "<h2>The Teachings of Practical Christianity</h2>",
+        "severity": "major",
+        "source_quote": "<h2>The Teachings of Practical Christianity</h2>",
+        "suggested_fix": "Translate the heading text into Korean while preserving the tag, e.g. <h2>실천적 기독교의 가르침</h2>",
+        "translation_quote": "<h2>The Teachings of Practical Christianity</h2>"
+      },
+      {
+        "location": "<h2>Conclusion</h2>",
+        "severity": "major",
+        "source_quote": "<h2>Conclusion</h2>",
+        "suggested_fix": "Translate the heading text into Korean while preserving the tag, e.g. <h2>결론</h2>",
+        "translation_quote": "<h2>Conclusion</h2>"
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

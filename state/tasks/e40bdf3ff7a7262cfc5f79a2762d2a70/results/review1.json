@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c0303821-551a-4c01-bc07-62d0cdaef8ac",
+    "response_id": "chatcmpl-EUH46ful6xYv49PGj8w5HvNH8wESC",
+    "usage": {
+      "completion_tokens": 1975,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7704,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9679
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Entire article (multiple paragraphs)",
+        "severity": "major",
+        "source_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.” I John 1:6 says, “if we say that we have fellowship with Him and walk in darkness (light on the outside and darkness on the inside), we lie and do not practice the truth.” John 10:10, Jesus said, “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy” all godly relationships. Hebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).” Numbers 32:23 is still very true, saying, “Be sure your sin will find you out.” James 1:15: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” Verse 16 says, “Do not (be deceived) my beloved brethren.”",
+        "suggested_fix": "Translate each quoted Scripture clause and quoted verse text into Portuguese, preserving the exact sense and punctuation of the printed English quotations used in the source. For example, replace “Blessed are the pure in heart” (Matthew 5:8) with a Portuguese rendering that conveys that same printed English wording (e.g., “Bem-aventurados os limpos de coração”), and do the same consistently for every quotation of Scripture in the article (Matthew 5:8; Philippians 1:10; Philippians 4:8; 1 Timothy 5:22; Revelation 19; Psalm 24:3–4; 1 John 1:6; John 10:10; Hebrews 4:13; Numbers 32:23; James 1:15–16; Matthew 23:26; etc.). Keep the verse references (book and chapter:verse) as they appear, but ensure the quoted verse text is rendered into Portuguese. Preserve original HTML tags and order.",
+        "translation_quote": "Repare no que as Escrituras dizem sobre ser puro. “Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.” ... I John 1:6 says, “if we say that we have fellowship with Him and walk in darkness (light on the outside and darkness on the inside), we lie and do not practice the truth.” ... Em John 10:10, Jesus disse, “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy” all godly relationships. ... Hebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).” ... Numbers 32:23 is still very true, saying, “Be sure your sin will find you out.” ... then James 1:15 happens: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” Verse 16 says, “Do not (be deceived) my beloved brethren.”"
+      },
+      {
+        "location": "Paragraphs containing poetic blockquotes at article end",
+        "severity": "major",
+        "source_quote": "<p><em>Two forces lie within my breast,<br>\n    The one I love, the one I hate.<br>\n    But the one I feed will dominate.</em></p>\n    <p><em>—The author’s dad</em></p>\n\n... \n\n<p><em>The more honestly I name<br>\n    what is true about myself,<br>\n    The less I need to hide and defend,<br>\n    and posture and pretend.</em></p>\n    <p><em>—Dan Allender</em></p>",
+        "suggested_fix": "Translate the two poem blockquotes into Portuguese, preserving line breaks and the quoted English content's meaning and tone. Keep the attribution lines (—The author’s dad; —Dan Allender) intact but translated if desired (e.g., —Pai do autor), only if this preserves the author's original attributions; otherwise retain exact attribution text. Ensure the translated poems remain inside the same <blockquote class=\"poem\"> structure and preserve HTML tags.",
+        "translation_quote": "<blockquote class=\"poem\">\n    <p><em>Two forces lie within my breast,<br>\n    The one I love, the one I hate.<br>\n    But the one I feed will dominate.</em></p>\n    <p><em>—The author’s dad</em></p>\n  </blockquote>\n\n  <blockquote class=\"poem\">\n    <p><em>The more honestly I name<br>\n    what is true about myself,<br>\n    The less I need to hide and defend,<br>\n    and posture and pretend.</em></p>\n    <p><em>—Dan Allender</em></p>\n  </blockquote>"
+      },
+      {
+        "location": "Paragraphs quoting Bible verses and theological instructions (mixed English and Portuguese)",
+        "severity": "minor",
+        "source_quote": "Jesus said, “Cleanse first the inside of the cup and platter that the outside may be clean also” (Matthew 23:26). ... James 5 says, “Confess your faults one to another that ye may be healed.” ... Jesus taught in Matthew 23:26, where He said, \"First clean the inside of the cup, so that the outside may be clean also.\"",
+        "suggested_fix": "There are multiple occurrences where the same scripture is quoted more than once in English or partially in English and partially in Portuguese. Remove duplication of the same verse in English; instead render the verse text into Portuguese consistently for every occurrence. For example, choose a clear Portuguese rendering of Matthew 23:26 and use it each time the verse is quoted. Preserve HTML structure and verse references.",
+        "translation_quote": "Jesus disse, “Cleanse first the inside of the cup and platter that the outside may be clean also” (Matthew 23:26). ... <strong>Seja Humilde.</strong> James 5 says, “Confess your faults one to another that ye may be healed.” ... Jesus ensinou em Matthew 23:26, onde disse, \"First clean the inside of the cup, so that the outside may be clean also.\""
+      }
+    ],
+    "passed": false,
+    "score": 65
+  }
+}

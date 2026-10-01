@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "013546ed-e572-47d1-af55-e7a1b505e048",
+    "response_id": "chatcmpl-EUH47lhb6YkpMut5IWKSPtKWA1xJa",
+    "usage": {
+      "completion_tokens": 1328,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2989,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4317
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 2 (Psalm quotation paragraph)",
+        "severity": "minor",
+        "source_quote": "\"This display of new life springing from the earth is a beautiful representation of new life found in Christ Jesus.\"",
+        "suggested_fix": "Correct the typographical error in the target text to preserve the author's wording and theology. Replace \"во Христее Иисусе\" with \"во Христе Иисусе\" (preserve surrounding punctuation and HTML).",
+        "translation_quote": "\"Это явление новой жизни, прорастающей из земли, — прекрасное изображение новой жизни во Христее Иисусе.\""
+      },
+      {
+        "location": "Paragraph 4 (flight over desert)",
+        "severity": "minor",
+        "source_quote": "\"As I write this, I am flying 35,000 feet over the sub-Saharan desert land of Chad and Niger.\"",
+        "suggested_fix": "Smooth and accurate geographic rendering that preserves meaning. Replace the target phrase \"пролетая на высоте 35 000 футов над странами и Сахарой южнее Сахары — Чадом и Нигером\" with a clearer equivalent such as \"пролетая на высоте 35 000 футов над субсахарской пустынной местностью Чада и Нигера\" (preserve surrounding punctuation and HTML).",
+        "translation_quote": "\"Пишу это, пролетая на высоте 35 000 футов над странами и Сахарой южнее Сахары — Чадом и Нигером.\""
+      },
+      {
+        "location": "Paragraph 9 (Isaiah quotation paragraph)",
+        "severity": "minor",
+        "source_quote": "\"As we plant our gardens and watch the trees burst forth in bloom, let us be reminded of the words of the prophet Isaiah, “For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11).\"",
+        "suggested_fix": "Tone/word choice: the translation uses \"деревья взрываются в цвете\" which is idiomatic but stronger than the source's \"burst forth in bloom.\" To better match the original register, consider replacing \"деревья взрываются в цвете\" with \"деревья раскрываются в цвету\" or \"деревья распускаются\" (preserve surrounding punctuation and HTML).",
+        "translation_quote": "\"Сажая наши сады и наблюдая, как деревья взрываются в цвете, вспомним слова пророка Исайи: «Ибо как земля освобождает бутон свой и как сад вызывает взрастание посеянного в нём, так и Господь Бог произведёт праведность и хвалы, которые явятся пред всеми народами» (Isaiah 61:11).\""
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

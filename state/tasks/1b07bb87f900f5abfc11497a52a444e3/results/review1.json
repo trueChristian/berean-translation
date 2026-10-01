@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4bf7db25-8fa9-4761-a474-ddcad15b6472",
+    "response_id": "chatcmpl-EUH3speTXngwh27vYpDYdevOp77gD",
+    "usage": {
+      "completion_tokens": 1099,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6363,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7462
+    }
+  },
+  "received_at": "2026-10-01T20:28:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Throughout — section headings",
+        "severity": "minor",
+        "source_quote": "<h2>Through the Gospel</h2>\n...\n<h2>Through Creation</h2>\n...\n<h2>Through Music and Sound</h2>\n...\n<h2>Through the Church:</h2>",
+        "suggested_fix": "Translate the English section headings into Dutch while preserving the HTML tags exactly. For example, replace <h2>Through the Gospel</h2> with <h2>Door het Evangelie</h2>, <h2>Through Creation</h2> with <h2>Door de schepping</h2>, <h2>Through Music and Sound</h2> with <h2>Door muziek en klank</h2>, and <h2>Through the Church:</h2> with <h2>Door de Kerk:</h2>. Do not alter tag order, attributes, or nesting.",
+        "translation_quote": "<h2>Through the Gospel</h2> ... <h2>Through Creation</h2> ... <h2>Through Music and Sound</h2> ... <h2>Through the Church:</h2> (English headings left untranslated)"
+      },
+      {
+        "location": "Paragraph about creativity (third section on Creation)",
+        "severity": "minor",
+        "source_quote": "\"Ungodly men have used this gift of creativity many times for evil means.\"",
+        "suggested_fix": "Replace the awkward or incorrect Dutch word 'Ondogmatische mensen' with a standard translation such as 'On-goddelijke mensen' or better 'ongoddelijke mensen' to reflect the source meaning. Preserve sentence punctuation and HTML tags.",
+        "translation_quote": "\"Ondogmatische mensen hebben dit geschenk van creativiteit vaak voor kwade doeleinden gebruikt.\""
+      },
+      {
+        "location": "Revelation 14:2 sentence punctuation",
+        "severity": "minor",
+        "source_quote": "“And I heard a voice from heaven, as the voice of many waters, and as the voice of a great thunder: and I heard the voice of harpers harping with their harps” (Revelation 14:2) According to the book of Revelation, God's throne is surrounded by sound:",
+        "suggested_fix": "Insert a space after the closing parenthesis before the following sentence to match normal punctuation and spacing in Dutch. Preserve the quote exactly as in the source and do not change the quotation text. Example: keep the verse exactly, then add a single space before 'Volgens het boek Openbaring...'",
+        "translation_quote": "“And I heard a voice from heaven... (Revelation 14:2) Volgens het boek Openbaring is Gods troon omgeven door geluid: donderslagen en bliksem; ...\""
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

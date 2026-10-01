@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b410ecd7-28dd-47ac-b839-5b2593f17665",
+    "response_id": "chatcmpl-EUH3eTP1J7TwHWkOIFrfegCWBaUs5",
+    "usage": {
+      "completion_tokens": 1125,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6257,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7382
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...“Jesus loves the little children, all the children of the world.”...</p> (paragraph describing the Sunday school song)",
+        "severity": "major",
+        "source_quote": "“Jesus loves the little children, all the children of the world.”",
+        "suggested_fix": "Translate the quoted song line into Indonesian to match the surrounding translation and avoid leaving a substantive passage untranslated. For example: “'Yesus mengasihi anak-anak kecil, semua anak di seluruh dunia.'\" Replace the existing English-line text between the same quotation marks and preserve surrounding HTML and attributes.",
+        "translation_quote": "“Jesus loves the little children, all the children of the world.”"
+      },
+      {
+        "location": "Throughout article (consistency): English 'Jesus' inside the quoted song vs Indonesian 'Yesus' elsewhere",
+        "severity": "minor",
+        "source_quote": "(source uses English proper name 'Jesus' only in the quoted song; elsewhere the English text uses 'God' and 'Jesus' as in English)",
+        "suggested_fix": "Make the rendering of the name for Jesus consistent in the translation. Either translate the quoted song so the name appears as 'Yesus' to match the rest of the Indonesian text, or if keeping the song in English is preferred, consistently retain 'Jesus' elsewhere (but current translation already uses 'Yesus' elsewhere). Prefer changing the quoted song to Indonesian (see major suggestion) to resolve inconsistency.",
+        "translation_quote": "The translation currently keeps the song line as English 'Jesus' while later paragraphs use 'Yesus' (e.g., “Ia telah mengalami kasih Tuhan yang tak bersyarat.” and later references to Yesus)."
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

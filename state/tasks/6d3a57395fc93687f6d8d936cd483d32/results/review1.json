@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "feeb5392-a3de-482b-9dd7-6962e5f20cf1",
+    "response_id": "chatcmpl-EUH4Qlly08qrTVmAUH7Ai0J9TjNbI",
+    "usage": {
+      "completion_tokens": 1381,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8946,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10327
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"The government eventually changed hands...\" (source.html)",
+        "severity": "major",
+        "source_quote": "The government eventually changed hands, which gave more liberty to the non-conformist Covenanters.",
+        "suggested_fix": "Translate without adding an extra denominational label. Preserve the original meaning: e.g. « Le gouvernement changea finalement de mains, ce qui donna plus de liberté aux non-conformist Covenanters. » or « …donna plus de liberté aux Covenanters non-conformistes. » (keep the term Covenanters untranslated or clearly marked as the English name in parentheses if needed). Do not add “presbytériens”.",
+        "translation_quote": "Le gouvernement changea finalement de mains, ce qui donna plus de liberté aux presbytériens non-conformistes (les Covenanters)."
+      },
+      {
+        "location": "Hymn stanza 2 (inside <div class=\"hymn\">)",
+        "severity": "major",
+        "source_quote": "Yea, let the vain world vanish,\nAs from the ship the strand,",
+        "suggested_fix": "Correct the stanza so it conveys the original sense. A closer rendering could be: « Oui, que le monde vain s'évanouisse,\nComme la côte se détache du navire, » or better idiomatic French: « Oui, que le monde vain s'évanouisse,\nComme un rivage abandonné par le navire, » (preserve hymn line breaks and HTML tags).",
+        "translation_quote": "Oui, que le monde vain s'évanouisse,\nComme on jette du bord le fardiau,"
+      },
+      {
+        "location": "Hymn stanza 14 (inside <div class=\"hymn\">)",
+        "severity": "minor",
+        "source_quote": "Soon shall the cup of glory\nWash down earth’s bitterest woes,",
+        "suggested_fix": "Remove the stray bracketed marker and render the verb correctly. For example: « Bientôt la coupe de gloire\nLavera les plus amères douleurs de la terre, » (delete the inserted \"[a]\"). Preserve stanza formatting and tags.",
+        "translation_quote": "Bientôt la coupe de gloire\nLaver[a] les plus amères douleurs de la terre,"
+      },
+      {
+        "location": "Final paragraph discussing the tune (source.html)",
+        "severity": "minor",
+        "source_quote": "The rising melodic line of the last phrase perfectly matches the anticipated joy expressed by the refrain—\"And glory—glory dwelleth in Immanuel's land.\"",
+        "suggested_fix": "For consistency, either translate the quoted refrain into French (to match the translated hymn) or explicitly indicate that the refrain is being quoted in the original English. Suggested: « …la joie anticipée exprimée par le refrain — « Et la gloire, la gloire habite dans la terre d'Emmanuel. » » or « …le refrain (en anglais) : “And glory—glory dwelleth in Immanuel's land.” »",
+        "translation_quote": "La ligne mélodique ascendante de la dernière phrase correspond parfaitement à la joie anticipée exprimée par le refrain—« And glory, glory dwelleth in Immanuel's land.\""
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

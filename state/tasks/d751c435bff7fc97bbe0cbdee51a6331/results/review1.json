@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "90bd6070-33f2-9c9d-8f9d-71a445cbefbf",
+    "response_id": "chatcmpl-EUH4DNp65r4GhxYAc400iRFPhURgE",
+    "usage": {
+      "completion_tokens": 1457,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6210,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7667
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>“I don’t know, \" he responded, and we fell back into silent anguish at the outcome of our supposed Bible study, grasping for an explanation for the terrible response.</p>",
+        "severity": "minor",
+        "source_quote": "“I don’t know, \" he responded, and we fell back into silent anguish at the outcome of our supposed Bible study, grasping for an explanation for the terrible response.",
+        "suggested_fix": "Translate the English word 'anguish' correctly into Arabic (e.g., «غرقنا في حزن صامت» or «غرقنا في عذاب صامت»). Preserve surrounding punctuation and HTML tags.",
+        "translation_quote": "«لا أدري،» أجاب، وغرقنا في anguّان صامت عند نتيجة ما اعتبرناه دراسة كتاب مقدس، نحاول الإمساك بتفسير للرد الفظيع."
+      },
+      {
+        "location": "<p class=\"drop-cap\">…escape the confines of his dingy, pawn shop, his ever-crescendoing voice drowning the last hope of respite.</p>",
+        "severity": "minor",
+        "source_quote": "escape the confines of his dingy, pawn shop, his ever-crescendoing voice drowning the last hope of respite.",
+        "suggested_fix": "Use an idiomatic Arabic rendering for 'dingy, pawn shop' such as «محل الرهونات المتسخ» or «متجر الرهونات القذر» and ensure fluent Arabic order. Preserve the HTML tag and sentence structure.",
+        "translation_quote": "أهرب من حدود متجره المحتفظات الصدئة، وصوته الذي يتصاعد باستمرار يُخمد آخر أمل في مهلة."
+      },
+      {
+        "location": "<p>To his relief, she continued down the hall. He was still too scared to leave his hiding place for fear of receiving a beating.</p>",
+        "severity": "minor",
+        "source_quote": "To his relief, she continued down the hall.",
+        "suggested_fix": "Correct the garbled duplication. Replace the current Arabic with a natural equivalent such as «ولراحة صدره واصلَت سيرها في الممر.» or «ولراحته، واصلت النزول في الرواق.» Keep the surrounding HTML and sentence punctuation unchanged.",
+        "translation_quote": "لراحته استمرت راحته في النزول في الرواق."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

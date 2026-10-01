@@ -6,9 +6,32 @@
       "campaign": "gh-36911235156",
       "event": "requested",
       "task": "c9fcdd354a68000635813ef70a27e476"
+    },
+    {
+      "at": "2026-10-01T20:28:54+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "c9fcdd354a68000635813ef70a27e476"
     }
   ],
   "language": "kor",
   "latest_task": "c9fcdd354a68000635813ef70a27e476",
-  "published": null
+  "published": {
+    "html_path": "content/kor/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
+    "html_sha256": "de3fc5df3cf800256f10649e9e08b0fd34b6fa1e6ca46153b4ea33ddadec39af",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+    "metadata_path": "content/kor/articles/62646d6d-87be-47a6-880f-0ade408a3402.json",
+    "metadata_sha256": "3b1985ac314123980d3ac1e37bf0b4616eae1e50678456a3c15545e49b72d138",
+    "model": "gpt-5-mini-2025-08-07",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"ko\" dir=\"ltr\" role=\"note\">\n  <p>이 글은 OpenAI의 인공지능(모델: gpt-5-mini-2025-08-07)으로 번역되었으며 아직 사람의 검토를 거치지 않았습니다. 영어 원문이 권위 있는 기준입니다. 의미가 불확실한 경우 영어 원문을 확인해 주십시오. <a href=\"/en/articles/62646d6d-87be-47a6-880f-0ade408a3402/\" data-source-article-id=\"62646d6d-87be-47a6-880f-0ade408a3402\" hreflang=\"en\">영어 원문</a></p>\n</aside>",
+    "published_at": "2026-10-01T20:28:54+00:00",
+    "quality_score": 97,
+    "review_model": "gpt-5-mini-2025-08-07",
+    "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+    "source_snapshot": "state/sources/5455d2cd09d57a9e870ea92c4b7c08c9a0c8a2c68c077d639797bdc8f61c6072.json",
+    "task": "c9fcdd354a68000635813ef70a27e476",
+    "translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af"
+  }
 }

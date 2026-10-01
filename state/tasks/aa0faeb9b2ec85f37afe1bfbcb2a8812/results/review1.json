@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "755bf89b-3301-4733-8ebf-1b62fa90dff5",
+    "response_id": "chatcmpl-EUH3pQ4admoSXhN7zm93EKs64Y6c5",
+    "usage": {
+      "completion_tokens": 837,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5700,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6537
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Translation html, paragraph beginning \"La praticità della fede...\" (section 'Gli insegnamenti del cristianesimo pratico')",
+        "severity": "minor",
+        "source_quote": "In his book, “Pride and Humility,” John M. Brenneman maintains that the outward appearance of a person is directly related to his inward heart...",
+        "suggested_fix": "Translate the book title into Italian (or mark it as a foreign title consistently). Preserve the surrounding HTML and punctuation. Example: “Nel suo libro, «Orgoglio e umiltà», John M. Brenneman sostiene…\"",
+        "translation_quote": "Nel suo libro, “Pride and Humility,” John M. Brenneman sostiene che l'apparenza esteriore di una persona è direttamente collegata al suo cuore interiore..."
+      },
+      {
+        "location": "Translation html, paragraph beginning \"Per questi cristiani dal pensiero serio...\" (paragraph starting 'Per il primo mennonita americano, questi tipi di posizioni...')",
+        "severity": "minor",
+        "source_quote": "To the early American Mennonite, these types of stances betrayed the very meaning of his Christianity: he was a new person...",
+        "suggested_fix": "Adjust wording to preserve the sense of the English 'early' (plural/general) rather than 'primo' (singular/first). Keep HTML unchanged. Suggested phrasing: \"Per i primi mennoniti americani, questi tipi di posizioni tradivano il vero significato del loro cristianesimo: essi erano persone nuove...\"",
+        "translation_quote": "Per il primo mennonita americano, questi tipi di posizioni tradivano il vero significato del suo cristianesimo: egli era una persona nuova, viva solo nel potere di Cristo..."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

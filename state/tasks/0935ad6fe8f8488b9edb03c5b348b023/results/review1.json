@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a42db60f-f9b3-4d75-8785-59a73708eedc",
+    "response_id": "chatcmpl-EUH3wi6PP6pFP4ftJqyun6Ag2kWoh",
+    "usage": {
+      "completion_tokens": 1694,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2981,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4675
+    }
+  },
+  "received_at": "2026-10-01T20:28:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...Psalm quote...</p> (paragraph with Psalms 98:8-9)",
+        "severity": "critical",
+        "source_quote": "“Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9).",
+        "suggested_fix": "Translate the quoted English verse into Hebrew so the translation conveys the original printed English in Hebrew wording and preserve the citation. For example (preserve paragraph tags and punctuation): “יְרַעֲמוּ הַמַּיִם וְהָרִים יָשִׂישׂוּ יַחְדָּו לִפְנֵי יְהוָה; כִּי־הוּא בָא לִשְׁפֹּט הָאָרֶץ: בַּצֶּדֶק יִשְׁפֹּט הָעוֹלָם, וּבְמִשְׁפָּט לְעַמִּים־לָעוֹלָם” (Psalms 98:8-9). Replace the English text inside the paragraph with the Hebrew rendering and keep the parenthetical citation.”",
+        "translation_quote": "“Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9)."
+      },
+      {
+        "location": "<p>...John 4:14 reference...</p> (paragraph mentioning the well)",
+        "severity": "critical",
+        "source_quote": "“well of water springing up into everlasting life” (John 4:14).",
+        "suggested_fix": "Render the quoted phrase into Hebrew reproducing the English verse sense, and keep the citation. Example: “המעיין של מים הזורמים אל־חיי עולם” (John 4:14). Replace the English fragment with a Hebrew rendering that reflects the original printed English quotation and retain the parenthetical reference.”",
+        "translation_quote": "\"well of water springing up into everlasting life\" (John 4:14)."
+      },
+      {
+        "location": "<p>...Isaiah 61:11 quote...</p> (final scripture paragraph)",
+        "severity": "critical",
+        "source_quote": "“For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11).",
+        "suggested_fix": "Translate the quoted English verse into Hebrew so it conveys the printed English in Hebrew and keep the citation. For example: “כִּי־כַּאֲשֶׁר הָאָרֶץ תּוֹצִיא נֵצֶרָּהּ, וּכְגַן הַמּוֹצִיא אֶת־הַנִּזְרָעוֹת אֲשֶׁר־בוֹ; כֵּן יְהוָה אֱלֹהִים יָבִיא צֶדֶק וּתְהִלָּה לִפְנֵי כָּל־הַגּוֹיִם” (Isaiah 61:11). Insert this Hebrew rendering in place of the English quotation while preserving the parenthetical citation.”",
+        "translation_quote": "“For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11)."
+      },
+      {
+        "location": "<article>opening paragraph (\"sub-Saharan\" phrase)</article>",
+        "severity": "minor",
+        "source_quote": "\"the sub-Saharan desert land of Chad and Niger\"",
+        "suggested_fix": "Use the standard Hebrew geographic adjective for 'sub-Saharan'. Replace \"המדבר הדרום־סהרוויות\" with a more idiomatic rendering such as \"אדמות המדבר שבדרום הסהרה\" or \"אזור המדבר בדרום הסהרה של צ'אד וניג'ר\" to correct gender/idiom while preserving meaning and HTML structure.",
+        "translation_quote": "\"המדבר הדרום־סהרוויות של צ'אד וניג'ר\""
+      },
+      {
+        "location": "<p>paragraph about Ramadan (temperature)</p>",
+        "severity": "minor",
+        "source_quote": "\"even though daytime temperatures exceed 110 degrees.\"",
+        "suggested_fix": "Clarify the temperature unit in Hebrew or keep the same ambiguity as source by indicating units. Suggestion: change to \"אף על פי שהטמפרטורות במהלך היום עולות על 110 מעלות פרנהייט\" if Fahrenheit intended, or convert to Celsius with a note. Preserve the paragraph tags and surrounding text.",
+        "translation_quote": "\"הטמפרטורות במהלך היום עולות על 110 מעלות.\""
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5bbe053d-087c-4f72-9a4b-91d528069980",
+    "response_id": "chatcmpl-EUH3mLcv4oDIUA2C0hLQ6U9vXLhcx",
+    "usage": {
+      "completion_tokens": 1592,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6396,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7988
+    }
+  },
+  "received_at": "2026-10-01T20:28:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>…Revelation 14:2…</p> (paragraph under heading 'Through Music and Sound')",
+        "severity": "critical",
+        "source_quote": "\"And I heard a voice from heaven, as the voice of many waters, and as the voice of a great thunder: and I heard the voice of harpers harping with their harps\" (Revelation 14:2) According to the book of Revelation, God's throne is surrounded by sound: thundering and lightning; praises flowing from the angels, the four beasts and twenty elders, and the great multitude which no man can number; and the new song by the one hundred and forty four thousand.",
+        "suggested_fix": "Correct the numeric change in the translation to match the source. Replace \"les quatre créatures et des vingt-quatre vieillards\" with \"les quatre créatures et les vingt vieillards\" (preserving the surrounding sentence and any HTML).",
+        "translation_quote": "“And I heard a voice from heaven, as the voice of many waters, and as the voice of a great thunder: and I heard the voice of harpers harping with their harps” (Revelation 14:2) Selon le livre de l'Apocalypse, le trône de Dieu est entouré de sons : tonnerre et éclairs ; louanges émanant des anges, des quatre créatures et des vingt-quatre vieillards, et la grande multitude qu'aucun homme ne peut dénombrer ; et le nouveau cantique des cent quarante-quatre mille."
+      },
+      {
+        "location": "title element",
+        "severity": "minor",
+        "source_quote": "God, The Perfection of Beauty",
+        "suggested_fix": "Translate the title into French to match the target language style. For example, replace the title text with \"Dieu, la perfection de la beauté\" (preserve the article's <article> tag and attributes exactly as in the translation).",
+        "translation_quote": "God, The Perfection of Beauty"
+      },
+      {
+        "location": "subtitle element",
+        "severity": "minor",
+        "source_quote": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2",
+        "suggested_fix": "Translate the subtitle into French to match the rest of the article. For example: \"De Sion a resplendi la perfection de la beauté, Dieu a brillé. Psaume 50:2\" (or a more idiomatic French rendering of the verse), ensuring the original scripture reference text remains as in the source if the editorial policy requires the printed English. Preserve subtitle HTML structure.",
+        "translation_quote": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2"
+      },
+      {
+        "location": "section metadata",
+        "severity": "minor",
+        "source_quote": "ATTRIBUTES OF GOD",
+        "suggested_fix": "Localize the section metadata into French (e.g., \"ATTRIBUTS DE DIEU\"), preserving the metadata field structure exactly.",
+        "translation_quote": "ATTRIBUTES OF GOD"
+      },
+      {
+        "location": "several headings in article body (e.g., <h2>Through the Gospel</h2>, <h2>Through Creation</h2>, <h2>Through Music and Sound</h2>, <h2>Through the Church:</h2>)",
+        "severity": "minor",
+        "source_quote": "Through the Gospel; Through Creation; Through Music and Sound; Through the Church:",
+        "suggested_fix": "Translate these section headings into French to match the article language (for example: \"Par l'Évangile\", \"Par la Création\", \"Par la musique et le son\", \"Par l'Église\"). Preserve the <h2> tags and any punctuation exactly as in the translation file.",
+        "translation_quote": "Through the Gospel; Through Creation; Through Music and Sound; Through the Church:"
+      },
+      {
+        "location": "paragraph quoting rhetorical questions about music (English quoted questions left untranslated)",
+        "severity": "minor",
+        "source_quote": "The questions have been asked,” Should we always be trying to improve our music making?” and “when have we reached ‘good enough’?”",
+        "suggested_fix": "Translate the quoted rhetorical questions into French to maintain target-language consistency while preserving punctuation and quotation structure. Example: « On s'est demandé : “Devons-nous toujours essayer d'améliorer notre pratique musicale ?” et “quand avons-nous atteint 'suffisamment bien' ?” » Keep the surrounding paragraph HTML unchanged.",
+        "translation_quote": "Les questions ont été posées : “Should we always be trying to improve our music making?” et “when have we reached ‘good enough’?”"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

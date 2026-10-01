@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "92e634b1-4c5c-4e7e-83aa-f8d64b5a4666",
+    "response_id": "chatcmpl-EUH4A6kShEepIAPgkWECVyn1Ef4FQ",
+    "usage": {
+      "completion_tokens": 762,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3447,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4209
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"drop-cap\">“Adrianna, qual é a temperatura lá fora?” perguntou Asher.",
+        "severity": "major",
+        "source_quote": "“Probably about 50.” Adrianna glanced lazily at the thermometer. “Hey, it’s 65 degrees! Mom, may we eat lunch outside?”",
+        "suggested_fix": "Restore the original numeric temperature values exactly as printed in the English text. Replace “Provavelmente uns 10.” and “Ei, está 18 graus!” with the numbers from the source: “Provavelmente uns 50.” followed immediately by “Ei, está 65 graus! Mãe, podemos almoçar lá fora?” (or, if a unit is needed, preserve the original unitless English presentation by keeping the numbers 50 and 65 without adding a different unit). Ensure both temperature figures match the source and remain consistent with one another.",
+        "translation_quote": "“Provavelmente uns 10.” Adrianna olhou preguiçosamente para o termômetro. “Ei, está 18 graus! Mãe, podemos almoçar lá fora?”"
+      }
+    ],
+    "passed": false,
+    "score": 85
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "767e3c9a-809b-4ef0-a8c9-969d883360c0",
+    "response_id": "chatcmpl-EUH4AqndCOslozxeT5jk7wcyiZQBQ",
+    "usage": {
+      "completion_tokens": 984,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3643,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4627
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraphs 2–3 (temperature lines near start)",
+        "severity": "major",
+        "source_quote": "“Probably about 50.” Adrianna glanced lazily at the thermometer. “Hey, it’s 65 degrees! Mom, may we eat lunch outside?”",
+        "suggested_fix": "Preserve the original numeric values as presented in the English source. Replace the translated sentences with a literal rendering that keeps the numbers 50 and 65 (and does not convert them to Celsius). For example: «Наверное где-то 50 градусов». Адрианна лениво взглянула на термометр. «Ой, 65 градусов! Мама, можно нам пообедать на улице?» If a unit indication is desired for the target audience, add the same unit marker used in the source (or explicitly note the conversion in parentheses) rather than replacing the numbers.",
+        "translation_quote": "«Наверное где-то градусов 10.» Адрианна лениво взглянула на термометр. «Ого, 18 градусов! Мама, можно нам пообедать на улице?»"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

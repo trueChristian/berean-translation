@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "bf811128-c14a-4905-814b-325ce9de79af",
+    "response_id": "chatcmpl-EUH3oue0SNvSpza7lg2R5ZiTVqwUI",
+    "usage": {
+      "completion_tokens": 1364,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4921,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6285
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>When I told my husband about the frustration, he simply said, “Why don’t you explain the issue and quit being so uptight about it?” Good point. Proactively seeking solutions works for many problem areas.</p>",
+        "severity": "major",
+        "source_quote": "“Why don’t you explain the issue and quit being so uptight about it?”",
+        "suggested_fix": "Translate the husband's quoted line to preserve the original meaning: e.g. “Mbona huwaelezi suala na kuacha kuwa mkali kuhusu hilo?” or the existing Kiswahili literal equivalent that keeps the sense of “quit being so uptight/stop being so uptight.” Ensure it does not change to a different meaning such as “I won’t be disappointed.”",
+        "translation_quote": "“Kwa nini usieleze tatizo na kuacha kuwa mkali kuhusu hilo?” Hoja nzuri. Kutafuta suluhisho kwa wepesi hufanya kazi kwa maeneo mengi ya shida."
+      },
+      {
+        "location": "<h3>Dhana zinazochangia kuzidiwa</h3>\n  <p>Playing multiple roles can be stressful. Overloading yourself with responsibilities and commitments can make you forget what is most important. It is easy to equate busyness with self-worth. By default, we start believing that:</p>",
+        "severity": "minor",
+        "source_quote": "Playing multiple roles can be stressful.",
+        "suggested_fix": "Use a more natural Kiswahili rendering that matches the author's meaning. For example: “Kujihusisha katika nyimbo/kwenye nafasi nyingi za majukumu kunaweza kuwa na msongo.” Prefer: “Kuchukua nyimbo/cheo nyingi za majukumu kunaweza kusababisha msongo wa mawazo.” Keep the rest of the paragraph structure intact.",
+        "translation_quote": "Kucheza nyenzo nyingi za majukumu kunaweza kuwa na msongo."
+      },
+      {
+        "location": "<ul>\n    <li>Homemakers are capable of handling everything.</li>\n    <li>Homemakers, especially godly homemakers, are never frustrated.</li>\n    <li>A homemaker should anticipate all her family’s needs.</li>\n  </ul>",
+        "severity": "minor",
+        "source_quote": "Homemakers, especially godly homemakers, are never frustrated.",
+        "suggested_fix": "Avoid the awkward repetition and preserve the sense. Suggested Kiswahili: “Wenye kuendesha nyumba, hasa wale waliomcha Mungu, hawawahi kukasirika.” Or simply: “Wenye kuendesha nyumba, hasa wawe wa kiroho/waliomcha Mungu, hawawahi kukasirika.” Keep other list items consistent with the translator’s style for “homemaker.”",
+        "translation_quote": "Wenye kuendesha nyumba, hasa wenye kuendesha nyumba wema, hawawahi kukasirika."
+      },
+      {
+        "location": "<h3>Let an idea or request gel before committing</h3>\n  <p>This has saved me a great deal of stress. ... Consider waiting a few hours before incorporating new ideas and requests.</p>",
+        "severity": "minor",
+        "source_quote": "Let an idea or request gel before committing",
+        "suggested_fix": "Translate the idiom into clearer Kiswahili that conveys ‘wait before saying yes,’ e.g. “Ruhusu wazo au ombi lipate muda wa kufikiri kabla ya kukubali” or “Usikubali mara moja; ngoja wazo/ombi lipitie muda.” Preserve the author’s counsel to delay committing rather than wording that implies abandoning the idea permanently.",
+        "translation_quote": "Ruhusu wazo au ombi lipitie muda kabla ya kujitoa"
+      },
+      {
+        "location": "<h3>Evaluate your schedule regularly</h3>\n  <p>Keep a detailed calendar to have a picture of past, present, and future events. ...</p>",
+        "severity": "minor",
+        "source_quote": "Keep a detailed calendar to have a picture of past, present, and future events.",
+        "suggested_fix": "Improve natural phrasing: e.g. “Hifadhi kalenda ya kina ili upate picha ya matukio ya zamani, ya sasa, na yajayo.” (This retains the sense but reads more idiomatically.)",
+        "translation_quote": "Hifadhi kalenda ya kina ili kupata picha ya matukio ya zamani, sasa, na yajayo."
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

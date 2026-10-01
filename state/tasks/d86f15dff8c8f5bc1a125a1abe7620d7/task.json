@@ -2,7 +2,6 @@
   "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 9839
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1139,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9524,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10663
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html — hymn block (multiple stanzas)",
+      "severity": "critical",
+      "source_quote": "<div class=\"hymn\">…<p><strong><em>The sands of time are sinking, The dawn of heaven breaks, The summer morn I’ve sighed for, The fair, sweet morn awakes: Dark, dark hath been the midnight, But dayspring is at hand, And glory—glory dwelleth In Immanuel’s land.</em></strong></p>…(all 19 English stanzas)</div>",
+      "suggested_fix": "Translate the entire hymn text (all stanzas and refrains) into Modern Greek, preserving the <div class=\"hymn\"> container and all inner paragraph (<p>), emphasis (<em>), and strong (<strong>) tags and line breaks (<br>) in the same order and nesting. Do not remove or alter the HTML structure or attributes. The translated hymn must convey the printed English wording (i.e., the Greek text should be a faithful translation of the English hymn as printed in source.html).",
+      "translation_quote": "<div class=\"hymn\">…<p><strong><em>The sands of time are sinking,<br>\n    The dawn of heaven breaks,<br>\n    The summer morn I’ve sighed for,<br>\n    The fair, sweet morn awakes:<br>\n    Dark, dark hath been the midnight,<br>\n    But dayspring is at hand,<br>\n    And glory—glory dwelleth<br>\n    In Immanuel’s land.</em></strong></p>…(all 19 English stanzas left in English)</div>"
+    },
+    {
+      "location": "source.html — paragraph about Rutherford’s ministry (sentence containing an English fragment)",
+      "severity": "minor",
+      "source_quote": "\"His passion was for the conversion of the people, and it is said that he seemed to be always praying, always preaching, always visiting the sick, always teaching and instructing, always writing or studying.\"",
+      "suggested_fix": "Replace the mixed-language fragment 'instru-ρεί' with a correct Modern Greek verb equivalent (e.g., «διδάσκει και διαρκώς παροτρύνει/διδάσκει και καθοδηγεί/διδάσκει και παροτρύνει»), keeping the original sentence structure and HTML tags intact.",
+      "translation_quote": "\"Το πάθος του ήταν για τη μεταστροφή του λαού, και λέγεται πως φαινόταν να προσεύχεται πάντα, να κηρύττει πάντα, να επισκέπτεται πάντα τους ασθενείς, να διδάσκει και να instru-ρεί συνεχώς, να γράφει ή να μελετά.\""
+    },
+    {
+      "location": "source.html — paragraph about Covenanters and related term",
+      "severity": "minor",
+      "source_quote": "\"The government eventually changed hands, which gave more liberty to the non-conformist Covenanters.\"",
+      "suggested_fix": "Translate 'Covenanters' or present it as a transliterated, annotated term (for example «τους μη συμμορφωμένους Covenanters (Covenanters: οι Συνθήκες)» or fully translate if an established Greek term exists), preserving the sentence and HTML. Avoid leaving English-only proper nouns unexplained without transliteration or context.",
+      "translation_quote": "\"Η κυβέρνηση τελικά άλλαξε χέρια, κάτι που έδωσε περισσότερη ελευθερία στους μη συμμορφωμένους Covenanters.\""
     }
   ],
   "id": "d86f15dff8c8f5bc1a125a1abe7620d7",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 40,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c48182e3f5033a08822c2237c3e9e7faab5b80302e823695d8ba3dd0faead4e3.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

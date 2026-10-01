@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "92b03d45-78cf-435f-a010-1972be10a04e",
+    "response_id": "chatcmpl-EUH3lOpVTmP3osUeVeeDnnQOjNgK9",
+    "usage": {
+      "completion_tokens": 500,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5600,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6100
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<figure> second img alt",
+        "severity": "minor",
+        "source_quote": "<img src=\"/images/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6-2.jpg\" alt=\"A fresh green leaf budding from a twig\">",
+        "suggested_fix": "Change the alt to closely match the English: alt=\"Daun hijau segar yang sedang bertunas pada sebuah ranting\" (preserve HTML tag structure).",
+        "translation_quote": "<img src=\"/images/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6-2.jpg\" alt=\"Daun hijau segar yang sedang menumbuhkan tunas dari ranting\">"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "62646d6d-87be-47a6-880f-0ade408a3402",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:44+00:00",
   "events": [
@@ -24,8 +23,37 @@
         },
         "total_tokens": 3283
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 872,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2904,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3776
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<p>…je survole à 35 000 pieds les terres désertiques sahariennes du Tchad et du Niger. Le contraste saisissant entre le paysage…six miles en dessous de moi…</p>",
+      "severity": "minor",
+      "source_quote": "The stark contrast between the landscape described in the previous paragraphs and the parched desert land hurrying by six miles below me is nearly beyond my comprehension.",
+      "suggested_fix": "Considérez l’harmonisation des unités dans la traduction française. Par exemple : « …la terre aride qui défile à six miles (≈ 9,7 km) sous moi » ou convertir complètement : « …qui défile à environ 9,7 km sous moi ». Conserver la mention de la distance si l’auteur l’a souhaitée.",
+      "translation_quote": "Le contraste saisissant entre le paysage décrit dans les paragraphes précédents et la terre aride qui défile six miles en dessous de moi est presque au-delà de ma compréhension."
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:54+00:00",
   "id": "58fb8d3009fd5a10d6641981bf13b87b",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "fra",
@@ -69,11 +97,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5455d2cd09d57a9e870ea92c4b7c08c9a0c8a2c68c077d639797bdc8f61c6072.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

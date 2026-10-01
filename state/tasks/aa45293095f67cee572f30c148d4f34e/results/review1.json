@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0f196729-f90c-409f-b9b1-e737de32e3b8",
+    "response_id": "chatcmpl-EUH44s93qC8ZwgUguEohGD4qhIpH5",
+    "usage": {
+      "completion_tokens": 1097,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1546,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2643
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> — stanza beginning \"But O these wonders of Thy grace\" (third stanza), third line",
+        "severity": "major",
+        "source_quote": "These marvels sweeter far to trace,",
+        "suggested_fix": "Translate the comparative and sense of \"sweeter far to trace\" (meaning: far sweeter to follow/trace/observe) rather than rendering as \"à suivre avec audace\". Suggested French replacement (preserving tags and line breaks): \"Ces prodiges, bien plus doux à contempler,\"",
+        "translation_quote": "Ces prodiges à suivre avec audace,"
+      },
+      {
+        "location": "<div class=\"poem\"> — stanza beginning \"Divine Redeemer, Thee I bless\" (second stanza), third line",
+        "severity": "minor",
+        "source_quote": "I love Thee in the loveliness",
+        "suggested_fix": "\"la beauté ravie\" is awkward and risks changing nuance. Prefer a clearer, idiomatic rendering that preserves sense, for example: \"Je T'aime dans la beauté ravissante\" or simply \"Je T'aime dans la beauté\". Keep original HTML structure.",
+        "translation_quote": "Je T'aime dans la beauté ravie"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

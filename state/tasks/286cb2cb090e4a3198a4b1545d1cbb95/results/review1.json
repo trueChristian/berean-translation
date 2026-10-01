@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "905ed912-9293-486c-a99b-fa31bfca3e7d",
+    "response_id": "chatcmpl-EUH40R7U5SG7ZeIIvZX3SU1J015jH",
+    "usage": {
+      "completion_tokens": 966,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3585,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4551
+    }
+  },
+  "received_at": "2026-10-01T20:28:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraphs (temperature lines)",
+        "severity": "major",
+        "source_quote": "“Probably about 50.” Adrianna glanced lazily at the thermometer. “Hey, it’s 65 degrees! Mom, may we eat lunch outside?”",
+        "suggested_fix": "Preserve the original printed numeric values and wording. Replace the Celsius conversions with the original Fahrenheit numbers (or keep the original English numbers) in French: e.g. « Probablement environ 50. » Adrianna jeta un coup d’œil paresseux au thermomètre. « Hé, il fait 65 degrés ! Maman, on peut déjeuner dehors ? » If you prefer to localize temperatures, include the original numbers in parentheses, but do not remove or change the original printed numbers without the editor's approval.",
+        "translation_quote": "« Probablement environ 10 degrés. » Adrianna jeta un coup d’œil paresseux au thermomètre. « Hé, il fait 18 degrés ! Maman, on peut déjeuner dehors ? »"
+      },
+      {
+        "location": "End of article HTML (final paragraph)",
+        "severity": "minor",
+        "source_quote": "When suppertime came and they went in for supper, Adrianna was very happy. Mom was right, she thought. It is more fun to give up my way and do what everyone else wants to.",
+        "suggested_fix": "Close the unclosed paragraph tag to preserve exact HTML structure. Add a closing </p> tag at the end of the final paragraph so the HTML matches the source structure.",
+        "translation_quote": "Quand arriva l’heure du souper et qu’ils rentrèrent pour dîner, Adrianna était très heureuse. Maman avait eu raison, pensa‑t‑elle. C’est plus amusant de renoncer à ma façon et de faire ce que tout le monde veut."
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

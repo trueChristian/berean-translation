@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e2c0f31f-4ef5-4e7e-b607-a4e7a9162aa7",
+    "response_id": "chatcmpl-EUH3zHF8A0oY5fF1ciKsDBR3s25jA",
+    "usage": {
+      "completion_tokens": 915,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1621,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2536
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"><p>Divine Redeemer, Thee I bless;<br>\n    I greet Thy going forth;<br>\n    I love Thee in the loveliness<br>\n    Of Thy renewed earth.</p>",
+        "severity": "minor",
+        "source_quote": "Divine Redeemer, Thee I bless; I greet Thy going forth; I love Thee in the loveliness Of Thy renewed earth.",
+        "suggested_fix": "Preserve original nuance of “greet Thy going forth” (coming forth/going forth) rather than rendering specifically as ‘birth’ if that was not intended. A closer Korean rendering would be: \"신성한 구속자여, 주를 찬양하나이다; 주의 출현을 맞이하나이다; 주의 새로워진 땅의 아름다움 속에서 나는 주를 사랑하나이다.\" Keep existing HTML structure and tags.",
+        "translation_quote": "신성한 구속자여, 주를 찬양하네; 주의 나심을 인사하오니; 주의 새로워진 땅의 아름다움 속에서 나는 주를 사랑하나이다."
+      },
+      {
+        "location": "<div class=\"poem\"><p>Still, let new life and strength upspring,<br>\n    Still, let new joy be given;<br>\n    And grant the glad new song to ring<br>\n    Through the new earth and Heaven.</p>",
+        "severity": "minor",
+        "source_quote": "Still, let new life and strength upspring, Still, let new joy be given; And grant the glad new song to ring Through the new earth and Heaven.",
+        "suggested_fix": "The Korean rendering slightly shifts the final image from the song \"ringing through\" to the song \"filling\" earth and Heaven. A closer literal rendering would be: \"계속하여 새 생명과 능력이 솟게 하시고, 계속하여 새 기쁨을 허락하소서; 기쁜 새 노래가 울려 퍼져 새 땅과 하늘에 미치게 하소서.\" Preserve HTML tags.",
+        "translation_quote": "계속하여 새 생명과 능력이 솟게 하시고, 계속하여 새 기쁨을 허락하소서; 새 기쁨의 노래가 울려 퍼지게 하시어 새 땅과 하늘에 가득하게 하소서."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

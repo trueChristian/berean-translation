@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "16dfc7e6-c379-43e3-a7ad-3b9de56122b9",
+    "response_id": "chatcmpl-EUH4MkEhDrXEGwnsDccT5MIvypx9I",
+    "usage": {
+      "completion_tokens": 741,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3482,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4223
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<figure> <img alt>",
+        "severity": "major",
+        "source_quote": "<img src=\"/images/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704-1.jpg\" alt=\"A child paddling a blue kayak on a pond\">",
+        "suggested_fix": "Preserve the original English meaning and neutrality. Change the alt text to match the source: alt=\"A child paddling a blue kayak on a pond\" — or, to maintain Spanish and match the article character, use alt=\"Una niña remando un kayak azul en un estanque\". Ensure the HTML attribute is updated exactly (keeping other attributes and tags unchanged).",
+        "translation_quote": "<img src=\"/images/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704-1.jpg\" alt=\"Un niño remando un kayak azul en un estanque\">"
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

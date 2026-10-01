@@ -2,7 +2,6 @@
   "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 8926
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 903,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8739,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9642
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Paragraph: hymn stanza 1 (translation)",
+      "severity": "minor",
+      "source_quote": "The dawn of heaven breaks,",
+      "suggested_fix": "Correct Norwegian spelling: change \"Himmlens\" to \"Himmelens\" so the line reads \"Himmelens morgen bryter frem\" to match meaning and idiom.",
+      "translation_quote": "Himmlens morgen bryter frem"
+    },
+    {
+      "location": "Paragraph: Rutherford / political change (translation)",
+      "severity": "minor",
+      "source_quote": "With the death of Cromwell, the rule of the commonwealth came to an end, and Charles II was restored to power.",
+      "suggested_fix": "Clarify and correct Norwegian wording so it conveys the original historical fact clearly. For example: \"Med Cromwells død opphørte styret under Commonwealth, og Karl II ble gjeninnsatt.\" Replace the current phrase \"tok ikkeveldet slutt\" with a correct rendering such as \"opphørte styret under Commonwealth\" or \"tok Commonwealth-styret slutt.\"",
+      "translation_quote": "Med Cromwells død tok ikkeveldet slutt, og Karl II ble gjeninnsatt ved makten."
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:54+00:00",
   "id": "8717392811eb91e62746a1e411424882",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "nob",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c48182e3f5033a08822c2237c3e9e7faab5b80302e823695d8ba3dd0faead4e3.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

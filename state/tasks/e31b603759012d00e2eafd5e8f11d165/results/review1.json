@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8320c138-8ddd-4d62-9155-9d011dc29893",
+    "response_id": "chatcmpl-EUH48HzdREZfHp2ze44MZ9jKxNtYe",
+    "usage": {
+      "completion_tokens": 1245,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5238,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6483
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> <h3>Concepts that contribute to overload</h3> (Part 1, paragraph beginning \"Playing multiple roles...\")",
+        "severity": "major",
+        "source_quote": "Playing multiple roles can be stressful.",
+        "suggested_fix": "Translate the sense of \"stressful\" accurately. For example: \"একাধিক ভূমিকায় থাকা চাপের কারণ হতে পারে।\" (Replace the current sentence while preserving surrounding HTML and tags.)",
+        "translation_quote": "একাধিক ভূমিকায় থাকা উত্তেজনাপূর্ণ হতে পারে।"
+      },
+      {
+        "location": "<article> <h3>Accept your limits</h3> (Part 1, paragraph beginning \"That means if you are an avid bread maker...\")",
+        "severity": "major",
+        "source_quote": "That means if you are an avid bread maker, it’s all right to toss a few loaves of bread into your shopping cart.",
+        "suggested_fix": "Correct the food item to match the source \"bread\" and use appropriate Bengali wording. For example: \"এর মানে, যদি আপনি রুটি বানাতে উৎসাহী হন, তাহলে আপনার শপিং কার্টে কয়েকটা রুটির লোফ রেখে দেওয়াও ঠিক আছে।\" (Replace the current sentence; preserve HTML tags and surrounding structure.)",
+        "translation_quote": "এর মানে যদি আপনি নাড়ু বানাতে ভালোবাসেন, তাহলে আপনার শপিং কার্টে কয়েকটি লোফ পাউরুটি ছুড়ে দেওয়াও ঠিক আছে।"
+      },
+      {
+        "location": "",
+        "severity": "major",
+        "source_quote": "...Overload tends to drain our energy, dull our senses, and deaden our joy.",
+        "suggested_fix": "Remove encoding corruption and restore plain Bengali that matches the source. For example: \"...অতিরিক্তভার সাধারণত আমাদের শক্তি চুষে নেয়, আমাদের ইন্দ্রিয়কে鈥�鈥�...\" should be replaced with \"...অতিরিক্তভার সাধারণত আমাদের শক্তি শুষে নেয়, আমাদের ইন্দ্রিয়কে কুন্দ করে এবং আমাদের আনন্দকে মার্জিত করে।\" Preserve HTML tags and paragraph boundaries when making the correction.",
+        "translation_quote": "অতিরিক্তভার আমাদের শক্তি শুষে নেয়, আমাদের ইন্দ্রিয়কে鈥�鈥�鈥�鈥�鈥�鈥�鈥�鈥�鈥�鈥�鈥�鈥�鈥�鈥�鈥�dull করা এবং আমাদের আনন্দকে নিঃসঙ্গ করে দেয়।"
+      }
+    ],
+    "passed": false,
+    "score": 68
+  }
+}

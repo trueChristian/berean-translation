@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7187b1f1-3695-42b7-92e3-449e98e8d8dd",
+    "response_id": "chatcmpl-EUH3YowuNwKhSF8U8Tc4wP9LsKWoj",
+    "usage": {
+      "completion_tokens": 1164,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3757,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4921
+    }
+  },
+  "received_at": "2026-10-01T20:28:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Adrianna stood with a scowl on her face. Playhouse indeed! She was way too old for that! “I’m going kayaking,” she announced. “You can just have your playhouse.”</p>",
+        "severity": "minor",
+        "source_quote": "Adrianna stood with a scowl on her face.",
+        "suggested_fix": "Preserve meaning with natural Hindi phrasing. Replace the current translation phrase that uses an incorrect/odd word (\"चेहरा भौंरा कर खड़ी हो गयी\") with a clearer rendering that preserves the original tone: \"एड्रियाना सख्त भंगिमा बनाकर खड़ी हो गई।\" Ensure the surrounding HTML and tags remain unchanged.",
+        "translation_quote": "एड्रियाना चेहरा भौंरा कर खड़ी हो गयी। प्लेहाउस! वह इसके लिए बहुत बड़ी थी!"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c00b7965-f28c-4b00-838d-944f62361ebc",
+    "response_id": "chatcmpl-EUH4W3qiimT2hkT4xtLaAMp4cm4v2",
+    "usage": {
+      "completion_tokens": 1301,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6168,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7469
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Translation HTML — section headings (multiple)",
+        "severity": "major",
+        "source_quote": "<h2>Through the Gospel</h2>\n...\n<h2>Through Creation</h2>\n...\n<h2>Through Music and Sound</h2>\n...\n<h2>Through the Church:</h2>",
+        "suggested_fix": "Translate these section headings into Portuguese and preserve the same HTML tags and attributes. For example: <h2>Por meio do Evangelho</h2>, <h2>Por meio da Criação</h2>, <h2>Por meio da Música e do Som</h2>, <h2>Por meio da Igreja</h2>. Keep the <h2> tags exactly as they appear.",
+        "translation_quote": "<h2>Through the Gospel</h2>\n...\n<h2>Through Creation</h2>\n...\n<h2>Through Music and Sound</h2>\n...\n<h2>Through the Church:</h2>”"
+      },
+      {
+        "location": "Paragraph in 'Music and Sound' section — two rhetorical questions",
+        "severity": "major",
+        "source_quote": "As perguntas têm sido feitas,” Should we always be trying to improve our music making?” e “when have we reached ‘good enough’?”",
+        "suggested_fix": "Translate the English questions into Portuguese, preserving punctuation and surrounding HTML/text. Example: As perguntas têm sido feitas: “Devemos sempre tentar aperfeiçoar nossa execução musical?” e “Quando alcançamos o ‘suficientemente bom’?”",
+        "translation_quote": "As perguntas têm sido feitas: “Should we always be trying to improve our music making?” e “when have we reached ‘good enough’?”"
+      },
+      {
+        "location": "Paragraph in 'The Church' section — list of synonymous expressions",
+        "severity": "major",
+        "source_quote": "“Zion,” “The Temple,” “The Mountain of God,” “Jerusalem,” and“The Church” are synonymous expressions woven throughout scripture",
+        "suggested_fix": "Translate these terms into Portuguese (or supply a consistent bilingual presentation) while preserving quote marks. Example: “Sião”, “O Templo”, “A Montanha de Deus”, “Jerusalém” e “A Igreja” são expressões sinônimas ... Ensure spacing is corrected (\"and\"/\"e\" and spacing around quotes).",
+        "translation_quote": "“Zion,” “The Temple,” “The Mountain of God,” “Jerusalem,” and“The Church” são expressões sinônimas tecidas pelas Escrituras..."
+      },
+      {
+        "location": "Subtitle/metadata fidelity",
+        "severity": "major",
+        "source_quote": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2",
+        "suggested_fix": "Translate the subtitle into Portuguese or present an acceptable localized rendering consistent with the article language, while preserving the Scripture reference. Example: \"De Sião, a perfeição da beleza, Deus resplandeceu. Salmos 50:2\". Keep the subtitle field text in Portuguese.",
+        "translation_quote": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2"
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

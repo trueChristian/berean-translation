@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5c6c9344-60be-46f6-8a52-ad3bef1132df",
+    "response_id": "chatcmpl-EUH4SN8zx4lPzdHRZbsmq3ZcHikUG",
+    "usage": {
+      "completion_tokens": 793,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5798,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6591
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph under 'Läran om icke-motstånd' (sentence ending with 'som kallas ett Lamm.')",
+        "severity": "minor",
+        "source_quote": "Christ typified the acceptable response to violence and ill-will: gentleness, meekness, as befitted one who is called a Lamb.",
+        "suggested_fix": "Preserve meaning but correct Swedish idiom. For example, change “såsom bebor en som kallas ett Lamm” to “som är passande för en som kallas ett Lamm” or “som klär en som kallas Lamm.” Keep the original HTML tags and context.",
+        "translation_quote": "Kristus typifierade det acceptabla svaret på våld och illvilja: mildhet, ödmjukhet, såsom bebor en som kallas ett Lamm."
+      },
+      {
+        "location": "Paragraph beginning 'Nu när vi kan se kyrkans renhet...' (phrase about regeneration)",
+        "severity": "minor",
+        "source_quote": "Here enters the need for a clear understanding of regeneration, a doctrine held in high regard by these Mennonite forefathers.",
+        "suggested_fix": "Use a more idiomatic Swedish rendering of 'regeneration.' For example, replace “födelsen på nytt” with “återfödelse” or keep “regenerering” if preferred. Either preserves theological meaning; retain HTML structure.",
+        "translation_quote": "Här träder behovet av en klar förståelse av födelsen på nytt in, en lära högt aktad av dessa mennonitiska föregångare."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "736d865b-6b48-4c5c-a628-0f9e26b18997",
+    "response_id": "chatcmpl-EUH4eVS2NEIXwENCuukc4790I6GcD",
+    "usage": {
+      "completion_tokens": 1133,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9070,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10203
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Из того, что известно о Самуиле Резерфорде, у него было два брата и сестра. Его отдали в школу в детстве, и он стал очень прилежным ученикам.</p>",
+        "severity": "minor",
+        "source_quote": "...and he became a very diligent scholar.",
+        "suggested_fix": "Correct the grammatical case/number to match Russian: change \"он стал очень прилежным ученикам\" to \"он стал очень прилежным учеником\" (preserve original HTML tags and surrounding text).",
+        "translation_quote": "...и он стал очень прилежным ученикам."
+      },
+      {
+        "location": "<p>Резерфорд оставался влиятельным лидером в движении несоглашавшихся в Шотландии в течение следующих двадцати лет до 1660 года. С смертью Кромвеля правление республики прекратилось, и Карл II был восстановлен на троне. Снова гнев монархии обрушился на Самуила. Его вызвали пред суд и обвинили в государственной измене за проповедь истины.</p>",
+        "severity": "minor",
+        "source_quote": "He was summoned to appear before the judge and charged with high treason against the government for preaching the truth.",
+        "suggested_fix": "Fix spacing/wording to standard Russian: change \"пред суд\" to \"пред судью\" or \"в суд\" (preserve HTML). For example: \"Его вызвали в суд и обвинили в государственной измене...\"",
+        "translation_quote": "Его вызвали пред суд и обвинили в государственной измене за проповедь истины."
+      },
+      {
+        "location": "<p>Прекрасная подходящая мелодия к этому тексту была написана в начале 1800-х французским музыкантом Кретьеном Д'Юрханом.</p>",
+        "severity": "minor",
+        "source_quote": "The fine complementary tune for this text was composed in the early 1800s by a French musician, Chretien D`Urhan.",
+        "suggested_fix": "Minor orthographic consistency: original uses backtick D`Urhan; translation uses D'Юрхан — acceptable, but to match common Russian transcription, consider \"Кретьен Д'Юрхан\" or \"Кретьен Д'Юрэн\" depending on the authoritative source. No theological change; optional adjustment only (preserve HTML).",
+        "translation_quote": "...французским музыкантом Кретьеном Д'Юрханом."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

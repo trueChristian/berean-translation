@@ -2,7 +2,6 @@
   "article_id": "1ec0f654-0dd1-48f3-9a68-3b15189e6704",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 3700
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1008,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3512,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4520
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "source.html p:3 (\"If you do a good job with your school until then, you may,\")",
+      "severity": "minor",
+      "source_quote": "“If you do a good job with your school until then, you may,” she told them. “And if you get your school done before lunch, you may play outside for a while this afternoon.”",
+      "suggested_fix": "Use clearer Norwegian for permission. Preserve HTML and tags. Replace the translated sentence text with: «Hvis dere gjør en god jobb med skolearbeidet fram til da, får dere lov,» sa hun. «Og hvis dere blir ferdige med skolearbeidet før lunsj, kan dere leke ute en stund i ettermiddag.»",
+      "translation_quote": "«Hvis dere gjør en god jobb med skolen til da, får dere det,» sa hun. «Og hvis dere blir ferdige med skolen før lunsj, kan dere leke ute en stund i ettermiddag.»"
+    },
+    {
+      "location": "source.html p:11 (\"Everyone worked diligently until lunchtime.\")",
+      "severity": "minor",
+      "source_quote": "Everyone worked diligently until lunchtime.",
+      "suggested_fix": "Use more natural Norwegian phrasing. Preserve HTML and tags. Replace the translated sentence with: «Alle jobbet flittig helt til lunsj.»",
+      "translation_quote": "Alle arbeidet flittig til lunsjtider."
+    },
+    {
+      "location": "source.html p:25 (\"She snapped the paddle together,\")",
+      "severity": "minor",
+      "source_quote": "She snapped the paddle together, hopped into the seat, and pushed the kayak onto the smooth surface of the water.",
+      "suggested_fix": "Prefer the more idiomatic Norwegian word for paddle. Preserve HTML and tags. Replace the phrase «Hun satte sammen pagajen» with «Hun satte sammen åren» (or «hun satte sammen åreren» if preferred).",
+      "translation_quote": "Hun satte sammen pagajen, hoppet i setet og dyttet kajakken ut på det glatte vannet."
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:54+00:00",
   "id": "c03077554f347a7bb927ab9f8cfd8fe1",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "nob",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d59e6cc034714ade3629f9e4dd10e75a09cff16eb5d3255ed698b76288fda97d.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "dcfff2a5364081c6a6817377a0d3ad1649eaec0276399a4b9a70adc9f0fe19d1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

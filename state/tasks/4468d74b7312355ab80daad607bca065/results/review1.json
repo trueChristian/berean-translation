@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "73e753a1-c810-92b6-a624-5724bd60f8ed",
+    "response_id": "chatcmpl-EUH3YgUlAjpoYZzWYPKVDN0qMH9cY",
+    "usage": {
+      "completion_tokens": 1355,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6924,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8279
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<h3>Prayer Begets Power</h3> (section heading)",
+        "severity": "major",
+        "source_quote": "Prayer Begets Power",
+        "suggested_fix": "Translate the heading into Portuguese while preserving the <h3> tag, e.g. <h3>Oração Dá Poder</h3>. Do not alter tag structure or attributes.",
+        "translation_quote": "Prayer Begets Power"
+      },
+      {
+        "location": "<h3>Peace Begets Love</h3> (section heading)",
+        "severity": "major",
+        "source_quote": "Peace Begets Love",
+        "suggested_fix": "Translate the heading into Portuguese while preserving the <h3> tag, e.g. <h3>Paz Gera Amor</h3>. Keep the tag and attributes intact.",
+        "translation_quote": "Peace Begets Love"
+      },
+      {
+        "location": "<h3>Thankfulness Begets a Sound Mind</h3> (section heading)",
+        "severity": "major",
+        "source_quote": "Thankfulness Begets a Sound Mind",
+        "suggested_fix": "Translate the heading into Portuguese while preserving the <h3> tag, e.g. <h3>A Gratidão Produz uma Mente Sã</h3>. Preserve tag structure and attributes.",
+        "translation_quote": "Thankfulness Begets a Sound Mind"
+      },
+      {
+        "location": "Paragraph beginning with “Em nossa condição enfraquecida...”",
+        "severity": "minor",
+        "source_quote": "the Spirit, maketh intercession for us with groanings which cannot be uttered.",
+        "suggested_fix": "Translate this non-biblical explanatory phrase into Portuguese (keeping it inside the same <p>), e.g. “o Espírito, que intercede por nós com gemidos inexprimíveis.” Preserve the HTML and emphasis tags exactly where they appear.",
+        "translation_quote": "the Spirit, maketh intercession for us with groanings which cannot be uttered."
+      },
+      {
+        "location": "Paragraph beginning with “Foi Acabe, sem fé...”",
+        "severity": "minor",
+        "source_quote": "refused to \"tempt\" God.",
+        "suggested_fix": "Translate the verb 'tempt' into Portuguese in place and keep the quotation marks, e.g. recusou a \"tentar\" a Deus. Preserve the punctuation and surrounding text within the same paragraph and tags.",
+        "translation_quote": "\"tempt\" God"
+      },
+      {
+        "location": "Paragraph beginning with “Cada um de nós pode pensar‑se em uma caverna profunda...”",
+        "severity": "minor",
+        "source_quote": "we must thank ourselves out.",
+        "suggested_fix": "Correct the awkward/incorrect Portuguese rendering to convey the English meaning (give thanks to get out). Suggested text inside same <p>: \"devemos nos livrar pela ação de graças\" or \"devemos sair dessa por meio da gratidão.\" Preserve paragraph tags and surrounding sentence structure.",
+        "translation_quote": "devemos nos agradecer para sair dela."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

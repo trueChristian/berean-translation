@@ -2,7 +2,6 @@
   "article_id": "45c612ff-1966-4079-9ba5-09ab022917ea",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -24,6 +23,62 @@
         },
         "total_tokens": 7562
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1870,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7051,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8921
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Paragraph: \"We see a beautiful scene at the Mount of Olives forty days later...\" (source HTML, paragraph beginning \"We see a beautiful scene at the Mount of Olives forty days later...\")",
+      "severity": "major",
+      "source_quote": "We see a beautiful scene at the Mount of Olives forty days later as the same disciples wistfully gazed into the sky, watching as their risen Lord disappeared into the heavens.",
+      "suggested_fix": "Translate the sense of 'wistfully gazed' correctly (longing/sadly/with yearning), and preserve the neutral tone about watching Jesus ascend. Example fix preserving HTML: replace the translation sentence with a Bengali rendering faithful to the source while keeping original tags and structure, e.g. \"চল্লিশ দিন পর অলিভস পাহাড়ে আমরা একটি সুন্দর দৃশ্য দেখি: একই শিষ্যগণ স্বপ্নোময় বা আকাক্সক্ষাভরে আকাশের দিকে তাকিয়ে ছিলেন, যখন তাদের রাইজেন প্রভু ধীরে ধীরে স্বর্গে উচ্চারিত হয়ে গেলেন।\"",
+      "translation_quote": "চল্লিশ দিন পর অলিভস পাহাড়ে আমরা একটি সুন্দর দৃশ্য দেখি: একই শিষ্যগণ ক্ষুব্ধবুদ্ধি করে আকাশের দিকে তাকিয়ে রইল, যখন তাদের রাইজেন স্বামী স্বর্গে অদৃশ্য হয়ে চললেন।"
+    },
+    {
+      "location": "Paragraph: \"Today we expectantly wait for the Son of God to appear...\" (source HTML, paragraph beginning \"Today we expectantly wait for the Son of God to appear...\")",
+      "severity": "major",
+      "source_quote": "Today we expectantly wait for the Son of God to appear from heaven with power and great glory to complete the work of salvation.",
+      "suggested_fix": "Remove the incorrect inserted German/foreign word and render the sentence in clear Bengali that matches the source meaning. Keep HTML structure. Example fix: \"আজ আমরা আশাভরে প্রতীক্ষা করি যে ঈশ্বরের পুত্র স্বর্গ হইতে শক্তি ও মহান মহিমায় উপস্থিত হবেন যাতে ত্রাণকর্ম সম্পূর্ণ হয়।\"",
+      "translation_quote": "আজ আমরা আশাভরে প্রতীক্ষা করি যে ঈশ্বরের পুত্র স্বর্গ হইতে শক্তি ও মহান মহিমায় Erschein মত প্রকাশ করবেন যাতে তৎপর্যরুপে তিলোত্তমায়নের কাজ সম্পন্ন হয়।"
+    },
+    {
+      "location": "Paragraph: Revelation paragraph (beginning “And I heard a voice from heaven…” )",
+      "severity": "major",
+      "source_quote": "...praises flowing from the angels, the four beasts and twenty elders, and the great multitude which no man can number; and the new song by the one hundred and forty four thousand.",
+      "suggested_fix": "Correct the mistranslation that garbles 'the four beasts and twenty elders' and other phrases. Render the list faithfully in Bengali, preserving order and meaning. Example: \"...দেবদূতদের গাওয়া প্রশংসা, চার জীব ও বিশ প্রাপ্তবয়স্ক প্রবীণদের কণ্ঠ, এবং অগণিত বিশাল জনসমুদ্রের গীতি; এবং এক লক্ষ চল্লিশ হাজারের নতুন গান।\" Keep HTML tags unchanged.",
+      "translation_quote": "প্রকাশিতির বই অনুসারে, ঈশ্বরের সিংহাসন শব্দে পরিবেষ্টিত: বজ্রধ্বনি ও বিদ্যুৎ; দেবদূতদের গাওয়া প্রশংসা, চারপাশের প্রাণীর ও বিশ বার্ষিক বয়স্কদের ধারা, এবং অগণিত বৃহৎ বহুবর্গের কণ্ঠ; এবং এক শত চল্লিশ চার হাজারের নতুন গান।"
+    },
+    {
+      "location": "Paragraph: 2 Corinthians paragraph (word for 'Christ')",
+      "severity": "minor",
+      "source_quote": "...the glorious gospel of Christ, who is the image of God...",
+      "suggested_fix": "Fix the corrupted rendering of 'Christ' (currently shown as 'খristo' mixing scripts). Use standard Bengali spelling 'কী সম্ভাব্য: 'খ্রীষ্ট' or 'ম্যাসিহ' depending on source's convention — preserve the author's theology and original English scripture text. Example: replace 'খristo' with 'Christ' in the same formatting as other preserved English scripture quotations or with Bengali 'খ্রীষ্ট' consistently.",
+      "translation_quote": "...খristo-এর যন্ত্রণা-পর্বের ভয়ঙ্করতায় আমরা..."
+    },
+    {
+      "location": "Figure alt text (first image) and subtitle field",
+      "severity": "minor",
+      "source_quote": "subtitle: Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2\nimg alt: A yellow flower against green leaves",
+      "suggested_fix": "Subtitle: The source subtitle is in English; if the publication policy requires translation to Bengali, translate it consistently into Bengali or leave as original English intentionally. If translating, provide accurate Bengali equivalent while preserving original punctuation and reference. Example: \"জিয়োন থেকে সৌন্দর্যের পরিপূর্ণতা ঝলমলে—ঈশ্বর প্রকাশিত হলেন। ভজনসংহার 50:2\" (or keep original if policy prefers). Image alt: the translated alt is acceptable but could be tightened to faithful literal sense, e.g. \"সবুজ পাতা-ভরচরার সামনে একটি হলুদ ফুল\". Preserve figure tag and attributes when correcting.",
+      "translation_quote": "subtitle: Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2\nimg alt: সবজি পল্লবের সামনে একটি হলুদ ফুল"
     }
   ],
   "id": "38f81447790b048671a7b0c7c32fd982",
@@ -69,11 +124,13 @@
     }
   },
   "protected": false,
+  "quality_score": 58,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8ff6615d88d56d991342498ce45e0382ed69e4ee6f5e71d66558a915bc80e645.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "307ff3dcec107109e8c031e07835839a270150b1f8308d14b1a8b6811fd4f56d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

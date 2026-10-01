@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4f7c8147-ded8-4d63-91cc-4dd895e975b7",
+    "response_id": "chatcmpl-EUH4N8qpTCcAVMii9kM64YezPC8qA",
+    "usage": {
+      "completion_tokens": 2020,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9770,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11790
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “Remember now thy Creator...\"</p>",
+        "severity": "critical",
+        "source_quote": "Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”",
+        "suggested_fix": "Translate the full quoted Ecclesiastes 12:1–7 English text into standard contemporary Urdu (Perso-Arabic script), preserving the quotation marks and the HTML paragraph tag. The translation must convey the printed English wording (do not substitute a different Bible version). Example: replace the English block with an accurate Urdu rendering of that exact English passage, inside the same <p>...</p> element.",
+        "translation_quote": "اس مختصر عبارت میں شاعرانہ انداز میں بوڑھاپے کے عمل کی ایک تھوڑی مایوس کن تصویر دکھائی گئی ہے۔ یہ بظاہر دانتوں کے نقصان، سماعت کم ہونے، عدم استحکامِ قدم، اور عمومی کمزوری کا ذکر کرتی ہے۔ یہ کہنا مشکل ہے کہ ان میں سے کون سی تصاویر یادداشت کے ضیاع کی طرف اشارہ کر رہی ہیں۔ جو بات یقینی ہے وہ یہ ہے کہ عبارت ایک حکم کے ساتھ شروع ہوتی ہے: “Remember!”"
+      },
+      {
+        "location": "<p>“And thou shalt teach them diligently unto thy children...\" (Deuteronomy 6:7).</p>",
+        "severity": "critical",
+        "source_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7).",
+        "suggested_fix": "Translate this quoted Deuteronomy 6:7 English sentence into Urdu (Perso-Arabic), preserving the parenthetical reference (Deuteronomy 6:7) and quotation marks, and keep it inside the same <p> element. The translation must reflect the printed English wording rather than substituting a different Bible version.",
+        "translation_quote": "یہ صرف ایک مقام نہیں جہاں کلامِ مقدس میں انسانوں کو یاد رکھنے کا حکم دیا گیا ہے۔ بار بار ہمیں خدا کو یاد رکھنے کا کہا جاتا ہے۔ ہمیں یہ یقینی بنانا ہے کہ ہم اپنے بچوں کو اس کی تعلیم دیں۔ “And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7)."
+      },
+      {
+        "location": "<p>“But the fruit of the Spirit is love, joy, peace...\" (Galatians 5:22-23).</p>",
+        "severity": "critical",
+        "source_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23).",
+        "suggested_fix": "Translate this quoted Galatians 5:22–23 English sentence into Urdu (Perso-Arabic script), preserving the verse citation and quotation marks within the same <p> element. The Urdu must convey the printed English wording (do not replace with a different Bible rendition).",
+        "translation_quote": "کنجی یہ ہے کہ روح کے پھل کو عملی جامہ پہنایا جائے۔ “But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23)."
+      },
+      {
+        "location": "Multiple <h2> headings throughout the article (e.g., \"Dementia in the Bible\", \"What Dementia is\", \"Diagnosing Dementia\", \"Eliminate Medications\", \"Medical Treatments\", \"Non-medication Therapies\", \"Caring For Someone with Dementia\", \"Get Others to Help\", \"Conclusion\")",
+        "severity": "major",
+        "source_quote": "Dementia in the Bible\n\nWhat Dementia is\n\nDiagnosing Dementia\n\nEliminate Medications\n\nMedical Treatments\n\nNon-medication Therapies\n\nCaring For Someone with Dementia\n\nGet Others to Help\n\nConclusion",
+        "suggested_fix": "Translate each English <h2> heading into standard contemporary Urdu (Perso-Arabic script) and replace the English heading text but preserve the <h2> tag and attributes. For example: <h2>Dementia in the Bible</h2> → <h2>کیا بائبل میں ڈیمنشیا کا ذکر ہے</h2> (or another faithful Urdu rendering). Do this for every remaining English section heading so headings match the article language.",
+        "translation_quote": "میں ڈیمنشیا سے نمٹنے کے کچھ چیلنجز پر غور کرنا چاہوں گا۔\n\n<h2>Dementia in the Bible</h2>\n...\n<h2>What Dementia is</h2>\n...\n<h2>Diagnosing Dementia</h2>\n...\n<h2>Eliminate Medications</h2>\n...\n<h2>Medical Treatments</h2>\n...\n<h2>Non-medication Therapies</h2>\n...\n<h2>Caring For Someone with Dementia</h2>\n...\n<h2>Get Others to Help</h2>\n...\n<h2>Conclusion</h2>"
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

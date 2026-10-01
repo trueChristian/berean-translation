@@ -2,7 +2,6 @@
   "article_id": "62646d6d-87be-47a6-880f-0ade408a3402",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:44+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 3470
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 955,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3080,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4035
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<p>...35,000 feet over the sub-Saharan desert land of Chad and Niger...</p>",
+      "severity": "minor",
+      "source_quote": "The stark contrast between the landscape described in the previous paragraphs and the parched desert land hurrying by six miles below me is nearly beyond my comprehension.",
+      "suggested_fix": "Remove or mark the added metric conversion as an editorial note, or include it inline in parentheses only if the publisher's style requires unit conversions. Suggested phrasing preserving original meaning: keep the original wording and if conversion is required by house style, render as “six miles below me (≈9.7 km)”.",
+      "translation_quote": "앞 문단에서 묘사한 풍경과 아래 6마일(약 9.7km) 아래로 급히 지나가는 메마른 사막 지대 사이의 현저한 대조는 거의 이해하기 어려울 지경입니다."
+    },
+    {
+      "location": "<p>...daytime temperatures exceed 110 degrees...</p>",
+      "severity": "minor",
+      "source_quote": "They fast from food and water every day from dawn to dusk, even though daytime temperatures exceed 110 degrees.",
+      "suggested_fix": "Clarify the temperature unit only if required by house style. To preserve the source text, either leave as in the original or state the unit explicitly: “...temperatures exceed 110 degrees (Fahrenheit).”",
+      "translation_quote": "낮 기온이 110도(화씨)를 넘기도 하는데도 말입니다."
+    },
+    {
+      "location": "<blockquote class=\"poem\">",
+      "severity": "minor",
+      "source_quote": "Oh! Christ He is the foutain,",
+      "suggested_fix": "The English poem is reproduced in the translation. If the publisher prefers to preserve the exact printed English (including any original spelling), keep as-is. If the misspelling is unintended and should be corrected for clarity, change “foutain” to “fountain” in the reproduced English poem only if authorized by the editor.",
+      "translation_quote": "Oh! Christ He is the foutain,"
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:54+00:00",
   "id": "c9fcdd354a68000635813ef70a27e476",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "kor",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5455d2cd09d57a9e870ea92c4b7c08c9a0c8a2c68c077d639797bdc8f61c6072.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

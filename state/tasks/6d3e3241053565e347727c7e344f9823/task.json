@@ -2,7 +2,6 @@
   "article_id": "31ea7041-cab6-4ccd-9ead-04cc949321a6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:46+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 6115
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 793,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5798,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6591
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Paragraph under 'Läran om icke-motstånd' (sentence ending with 'som kallas ett Lamm.')",
+      "severity": "minor",
+      "source_quote": "Christ typified the acceptable response to violence and ill-will: gentleness, meekness, as befitted one who is called a Lamb.",
+      "suggested_fix": "Preserve meaning but correct Swedish idiom. For example, change “såsom bebor en som kallas ett Lamm” to “som är passande för en som kallas ett Lamm” or “som klär en som kallas Lamm.” Keep the original HTML tags and context.",
+      "translation_quote": "Kristus typifierade det acceptabla svaret på våld och illvilja: mildhet, ödmjukhet, såsom bebor en som kallas ett Lamm."
+    },
+    {
+      "location": "Paragraph beginning 'Nu när vi kan se kyrkans renhet...' (phrase about regeneration)",
+      "severity": "minor",
+      "source_quote": "Here enters the need for a clear understanding of regeneration, a doctrine held in high regard by these Mennonite forefathers.",
+      "suggested_fix": "Use a more idiomatic Swedish rendering of 'regeneration.' For example, replace “födelsen på nytt” with “återfödelse” or keep “regenerering” if preferred. Either preserves theological meaning; retain HTML structure.",
+      "translation_quote": "Här träder behovet av en klar förståelse av födelsen på nytt in, en lära högt aktad av dessa mennonitiska föregångare."
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:54+00:00",
   "id": "6d3e3241053565e347727c7e344f9823",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "swe",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/89fccb1e579c0ea7c2e8e4f5bade339b25251e139570b39f442b2c1c8ea4bc11.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "9001af1f34c52b235af4ae22af79ba7fa0d5cf2bf7273485ec1e06a8188fc9a6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

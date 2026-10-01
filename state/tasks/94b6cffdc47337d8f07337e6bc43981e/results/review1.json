@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "360ac9d0-0388-478c-8ad3-c3454d092a6a",
+    "response_id": "chatcmpl-EUH3ZQSeTByXuZ2fI5fbGBhnT4c9R",
+    "usage": {
+      "completion_tokens": 797,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1534,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2331
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> <p>...</p> (3rd stanza)",
+        "severity": "minor",
+        "source_quote": "These nobler works of Thine,",
+        "suggested_fix": "Make the genitive/possession explicit and idiomatic: replace \"Diese edleren Werke Dein;\" with \"Diese edleren Werke von Dir;\" or \"Diese edleren Werke Dein(e)\" depending on preferred style. For example: \"Diese edleren Werke von Dir;\"",
+        "translation_quote": "Diese edleren Werke Dein;"
+      },
+      {
+        "location": "<div class=\"poem\"> <p>...</p> (3rd stanza, last line)",
+        "severity": "minor",
+        "source_quote": "These new births more divine:",
+        "suggested_fix": "Use a natural German expression for \"new births more divine\" and correct agreement. Replace \"Diese Neuboren, göttlicher:\" with e.g. \"Diese neugeborenen, göttlicheren:\"\n(or more idiomatically: \"Diese neueren, göttlicheren Neugeborenheiten:\" if a noun is preferred).",
+        "translation_quote": "Diese Neuboren, göttlicher:"
+      },
+      {
+        "location": "<div class=\"poem\"> <p>...</p> (5th stanza, 2nd line)",
+        "severity": "minor",
+        "source_quote": "Renew this heart of mine.",
+        "suggested_fix": "Use a natural German reflexive/possessive phrase: replace \"Göttlicher Erlöser, erneuere gütig\\n    Dieses Herz von mir.\" with e.g. \"Göttlicher Erlöser, erneuere gütig\\n    dieses Herz in mir.\" or \"Göttlicher Erlöser, erneuere gütig\\n    mein Herz.\"",
+        "translation_quote": "Göttlicher Erlöser, erneuere gütig<br>    Dieses Herz von mir."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

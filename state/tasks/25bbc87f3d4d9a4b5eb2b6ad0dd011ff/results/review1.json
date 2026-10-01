@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "57655e8d-81f2-428c-8b3a-19a8d8d8166b",
+    "response_id": "chatcmpl-EUH4DvAtrI5r02xZCIh5S7h7Mtyql",
+    "usage": {
+      "completion_tokens": 953,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3522,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4475
+    }
+  },
+  "received_at": "2026-10-01T20:28:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>“Yes, let’s!” Emily agreed. “You could hunt for us,” she told Asher.</p>",
+        "severity": "minor",
+        "source_quote": "“Yes, let’s!” Emily agreed. “You could hunt for us,” she told Asher.",
+        "suggested_fix": "Render the verb in a way that fits the children’s play context in German (gather materials/play a seeker) rather than the literal verb 'jagen', which implies hunting animals. Example: \"Du könntest für uns Sachen sammeln\" or \"Du könntest für uns nach Material suchen.\" Preserve the surrounding HTML tag and text order.",
+        "translation_quote": "„Ja, los!“ stimmte Emily zu. „Du könntest für uns jagen\", sagte sie zu Asher."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

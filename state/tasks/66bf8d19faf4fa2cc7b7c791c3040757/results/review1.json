@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d6786507-cae3-4bd9-91e4-a4e25a0db52e",
+    "response_id": "chatcmpl-EUH4KpAi8fBSBZaGrHaKPuxtIuMvn",
+    "usage": {
+      "completion_tokens": 686,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5904,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6590
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<figure> <img alt> (first image)",
+        "severity": "minor",
+        "source_quote": "An open Bible with pages turning",
+        "suggested_fix": "Correct the Kiswahili spelling and preserve the original meaning in the img alt attribute. Replace alt=\"Bibilia iliyofunguliwa ikiwa na kurasa zinazozunguka\" with alt=\"Bibilia iliyofunguliwa ikiwa na kurasa zinazozunguka\" -> fix spelling to \"Bibiliya\". For example: alt=\"Bibiliya iliyofunguliwa ikiwa na kurasa zinazozunguka\"",
+        "translation_quote": "Bibilia iliyofunguliwa ikiwa na kurasa zinazozunguka"
+      },
+      {
+        "location": "<h2> heading 'Fundi la Kutokupinga Kwa Nguvu (Nonresistance)'",
+        "severity": "minor",
+        "source_quote": "The Doctrine of Nonresistance",
+        "suggested_fix": "Use a more natural Kiswahili rendering for the heading while preserving tags and meaning. Replace the h2 content \"Fundi la Kutokupinga Kwa Nguvu (Nonresistance)\" with \"Mafundisho ya Kutokupinga kwa Nguvu (Nonresistance)\" to reflect 'Doctrine' as 'Mafundisho'.",
+        "translation_quote": "Fundi la Kutokupinga Kwa Nguvu (Nonresistance)"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

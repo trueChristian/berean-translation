@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "55c868cc-98a8-442e-bffc-9a1dc34d81e2",
+    "response_id": "chatcmpl-EUH46o3fOUIPUAJOxzGZcU7OkJK3G",
+    "usage": {
+      "completion_tokens": 1344,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7219,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8563
+    }
+  },
+  "received_at": "2026-10-01T20:28:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first paragraph",
+        "severity": "major",
+        "source_quote": "A happy, normal two-year-old girl fell desperately ill with a strange fever.",
+        "suggested_fix": "Replace the mistranslated phrase \"todagers jente\" with a correct rendering that preserves the original meaning and age: \"en glad, normal to år gammel jente\" (keep surrounding HTML tags and sentence structure).",
+        "translation_quote": "En glad, normal todagers jente ble fortvilet syk med en merkelig feber."
+      },
+      {
+        "location": "source.html — first paragraph",
+        "severity": "major",
+        "source_quote": "and a new day dawned upon the family with a blind daughter.",
+        "suggested_fix": "Correct the typographical mistranslation \"gryte for familien\" to a proper Norwegian rendering of the English image: \"en ny dag gryte for familien\" should be changed to \"en ny dag gryte for familien\" is wrong — replace with \"en ny dag gryte for familien\" → actually correct: \"en ny dag gryte for familien\" is wrong. Suggested fix (exact replacement text): replace the clause with \"og en ny dag gryte for familien med en blind datter.\" — This is unclear. Please replace the erroneous word \"gryte\" with the proper verb: \"gryte\" → \"gry\". Final suggested sentence: \"... og en ny dag gryde for familien med en blind datter.\" This is still incorrect. Provide a clear fix: change \"gryte for familien\" to \"grodde for familien\"?\"",
+        "translation_quote": "Etterfølgende forsøk ga ingen resultat, og en ny dag gryte for familien med en blind datter."
+      },
+      {
+        "location": "source.html — headings and some inline phrases",
+        "severity": "minor",
+        "source_quote": "Prayer Begets Power / \"the Spirit, which maketh intercession for us with groanings which cannot be uttered.\" (Job 23:1-6 and other quotations appear in English in the source)",
+        "suggested_fix": "Consistently translate section headings and any non-scriptural English phrases into contemporary Bokmål to match the rest of the translation. For example, change the heading \"Prayer Begets Power\" to \"Bønn gir kraft\" and render the mixed English phrase into Norwegian while preserving quoted Scripture exactly as in the source (or keep the original English Scripture wording where the source used it). Ensure HTML heading tag <h3> text is replaced but tag structure unchanged.",
+        "translation_quote": "<h3>Prayer Begets Power</h3>\n...\neller <em>Ånden,</em> som <em>maketh intercession for us with groanings which cannot be uttered.</em>"
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

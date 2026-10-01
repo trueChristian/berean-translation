@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d682afbb-95ca-448d-b6ac-b8abdecd19f0",
+    "response_id": "chatcmpl-EUH3pvjPW4UNLdQET9lkbXzKmeG7o",
+    "usage": {
+      "completion_tokens": 2691,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9707,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12398
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<h2>Бибल में डिमेंशिया</h2> paragraph containing Ecclesiastes 12:1-7",
+        "severity": "critical",
+        "source_quote": "Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”",
+        "suggested_fix": "Replace the intact English Bible quotation with a Hindi rendering that faithfully conveys the printed English text used in the source (preserve punctuation and the fact that it is a direct quotation). For example (preserve the same surrounding <p> tag):\n\n<p>Ecclesiastes 12:1-7 कुछ हद तक बूढ़े होने की प्रक्रिया का वियाग दिखाता है। “अब अपने स्रष्टा को अपने बाल्यकाल के दिनों में याद कर, जब तक विपत्तिपूर्ण दिन न आएँ, और वर्ष निकट न आएँ, जब तू कहेगा, मुझमें उनमें आनन्द नहीं है; जब सूरज या प्रकाश या चन्द्रमा या तारे म्लान न हों, और बादल बारिश के बाद न लौटें: जब गृह के प्रहरी काँपेंगे, और बलिष्ट पुरुष झुकेंगे, और पीसने वाले रक्तहीन हो जाएँ क्योंकि वे कम हो गए हैं, और वे जो खिड़कियों से निगाह करते हैं, अँधेरे हो जाएँ, और जब रास्तों में द्वार बंद होंगे, जब पीसने की आवाज मंद हो, और वह पक्षी के स्वरों पर उठेगा, और संगीत की सब कन्याएँ निचली होंगी; और जब वे ऊँची बात से डरें और मार्ग पर भय होगा, और बादाम का वृक्ष खिल उठेगा, और टिड्डी बोझ बनेगा, और इच्छा क्षीण हो जाएगी: क्योंकि मनुष्य अपने दीर्घ-गृह को जाता है, और शोक करने वाले सड़कों पर घुमते हैं: पहले कि चाँदी की डोरी न खुल जाए, या सुनहरा कटोरा टूट जाए, या मटके का घड़ा फव्वारे पर टूट जाए, या चक्र कुंड में टूट जाए। तब धूल उसी प्रकार पृथ्वी को लौटेगी जैसी वह थी: और आत्मा उसी परमेश्वर के पास लौटेगी जिसने उसे दी।”\n\n(Adjust wording only to accurately convey the source English; keep it a faithful translation of that printed English rather than substituting a different Bible version.)",
+        "translation_quote": "Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”"
+      },
+      {
+        "location": "Paragraph containing Deuteronomy 6:7 quotation",
+        "severity": "major",
+        "source_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7).",
+        "suggested_fix": "Translate the in-text Bible quotation into Hindi while faithfully conveying the printed English wording from the source. For example, replace the English quote with a Hindi rendering that mirrors the source's English phrasing and punctuation, and keep the verse reference in parentheses unchanged. E.g.: “और तू उन्हें अपने पुत्रों को मन से पढ़ाएगा, और जब तू अपने घर में बैठे तब उन पर बात करेगा, और जब तू मार्ग पर चलेगा तब भी, और जब तू लेटेगा तब भी, और जब तू उठेगा तब भी।” (Deuteronomy 6:7).",
+        "translation_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7)."
+      },
+      {
+        "location": "Conclusion paragraph with Galatians quotation",
+        "severity": "major",
+        "source_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23).",
+        "suggested_fix": "Translate the Bible quotation into Hindi, faithfully conveying the printed English. For example (preserve the parentheses with reference): “परन्तु आत्मा का फल प्रेम, आनंद, शान्ति, दीर्घधैर्य, कोमलता, भलाई, विश्वास, नम्रता, संयम है: इन चीज़ों के विरुद्ध कोई नियम नहीं है।” (Galatians 5:22-23). Replace the English quote in the <p> tag with an equivalent Hindi rendering that reflects the source English wording.",
+        "translation_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23)."
+      },
+      {
+        "location": "Paragraph: “उसकी 48 साल की पत्नी outwardly पहले जैसी दिखती थी…”",
+        "severity": "minor",
+        "source_quote": "His wife of 48 years looked the same as ever on the outside and yet, she was a completely different person.",
+        "suggested_fix": "Replace the leftover English word outwardly with an appropriate Hindi equivalent. For example: “उसकी 48 साल की पत्नी बाहर से पहले जैसी दिखती थी और फिर भी, वह पूरी तरह अलग व्यक्ति बन चुकी थी।” Preserve the original sentence structure and HTML tags.",
+        "translation_quote": "उसकी 48 साल की पत्नी outwardly पहले जैसी दिखती थी और फिर भी, वह पूरी तरह अलग व्यक्ति बन चुकी थी।"
+      },
+      {
+        "location": "Section: 'दवाइयों को हटाना' and 'चिकित्सकीय उपचार' — medical terms formatting and mistranslation",
+        "severity": "minor",
+        "source_quote": "cholinesterase inhibitors; seizure medications",
+        "suggested_fix": "Correct the Hindi rendering and formatting for the medical terms to be clear and idiomatic. Replace mixed/garbled forms with proper Hindi transliterations or standard medical terms while preserving meaning. Examples:\n- Replace “कोलिनेस्टरase इनहिबिटर्स” with “कोलिनेस्टरैज़ इनहिबिटर (cholinesterase inhibitors)” or “कोलिनेस्ट्रेज़ इनहिबिटर”.\n- Replace “दसनविवेकता दवाइयाँ (seizure medications)” and the subsequent garbled sentence with “आघातरोधी/मिर्गी संबंधी दवाएँ (seizure medications)” and ensure examples (valproate, gabapentin) are spelled consistently: “वाल्प्रोएट और गैबापेन्टिन।” \nPreserve the original paragraph tags and order; make only these term corrections for clarity.",
+        "translation_quote": "कोलिनेस्टरase inहिबिटर्स\n...\nदसनविवेकता दवाइयाँ (seizure medications) also thinking ability worse ... वैल्प्रोएट और गैबापेंटिन ..."
+      },
+      {
+        "location": "Throughout article — untranslated/inconsistent English Bible-verse presentation vs surrounding Hindi",
+        "severity": "minor",
+        "source_quote": "Multiple in-text Bible quotations presented in English in the source (Ecclesiastes, Deuteronomy, Galatians)",
+        "suggested_fix": "Either translate each Bible quotation into Hindi while faithfully conveying the printed English wording from the source (preferred per guidelines), or explicitly mark that Bible quotations remain in English and provide a consistent approach. Currently the translations are inconsistent (some surrounding commentary is Hindi while the quoted verses remain in English). For each quotation, replace the English text with a faithful Hindi rendering that mirrors the source English punctuation and reference. Maintain the verse references exactly as in source.",
+        "translation_quote": "See individual instances above (Ecclesiastes, Deuteronomy, Galatians)."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

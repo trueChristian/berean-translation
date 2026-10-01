@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6cedb7d3-0b87-41f4-a887-71f22148b34a",
+    "response_id": "chatcmpl-EUH4YdZ2lT3DoYtnqM7q1k0bhJSqw",
+    "usage": {
+      "completion_tokens": 1477,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3577,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5054
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"drop-cap\"> (first paragraph)",
+        "severity": "minor",
+        "source_quote": "He and Adrianna were sitting at the table doing school with their siblings Emily and Kianna.",
+        "suggested_fix": "Replace \"הוא ואדריאנה ישבו על השולחן ועשו שיעורים יחד עם אחיותיהם אמילי וקיאנה.\" with \"הוא ואדריאנה ישבו ליד השולחן ולמדו/עשו שיעורים עם אחיותיהם, אמילי וקיאנה.\"",
+        "translation_quote": "הוא ואדריאנה ישבו על השולחן ועשו שיעורים יחד עם אחיותיהם אמילי וקיאנה."
+      },
+      {
+        "location": "<p>“Oh, yes, I guess she did. Well, they can play on the swings or something,” she shrugged</p>",
+        "severity": "major",
+        "source_quote": "“Oh, yes, I guess she did. Well, they can play on the swings or something,” she shrugged",
+        "suggested_fix": "Replace the mistranslation \"המנדפות\" with the correct word for swings. For example: \"או, כן, כנראה שהיא сказала. ובכן, הן יכולות לשחק על הנדנדות או משהו,\" היא משכה בכתפיה.",
+        "translation_quote": "\"או, כן, כנראה שהיא אמרה. ובכן, הן יכולות לשחק על המנדפות או משהו,\" היא משכה בכתפיה."
+      },
+      {
+        "location": "<p>She heard her mom’s voice. “Wait, Adrianna, what’s wrong? Your face looks like a thunderstorm!”</p>",
+        "severity": "major",
+        "source_quote": "She heard her mom’s voice.",
+        "suggested_fix": "Keep singular subject. Replace \"שמעו את קול אמא.\" with \"היא שמעה את קול אמא.\" so it matches the original subject (Adrianna) and tense.",
+        "translation_quote": "שמעו את קול אמא."
+      },
+      {
+        "location": "<p>They each packed their lunch in a shopping bag and went out to their picnic spot, a big, flat rock in a clearing in the woods.</p>",
+        "severity": "minor",
+        "source_quote": "They each packed their lunch in a shopping bag",
+        "suggested_fix": "Use a verb that means 'packed' or 'put' rather than \"חיבר\". For example: \"כל אחד ארז את ארוחתו בשקית קניות\" or \"כל אחד שם את ארוחתו בשקית קניות.\" Replace the sentence accordingly.",
+        "translation_quote": "כל אחד חיבר את ארוחתו בשקית קניות ויצא לנקודת הפיקניק שלהם — סלע גדול ושטוח בפתח יער."
+      },
+      {
+        "location": "<p>Slowly she paddled to the edge of the pond.</p>",
+        "severity": "major",
+        "source_quote": "Slowly she paddled to the edge of the pond.",
+        "suggested_fix": "The verb used, \"שפכה\", is incorrect. Replace \"לאט לאט היא שפכה אל שפת האגם.\" with a correct phrasing such as \"לאט לאט היא חתרה אל שפת הבריכה/האגם.\" (use \"חתרה\" for 'paddled').",
+        "translation_quote": "לאט לאט היא שפכה אל שפת האגם."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

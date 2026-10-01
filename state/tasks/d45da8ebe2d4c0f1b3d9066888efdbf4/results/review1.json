@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "13b06ac7-5d19-4d5e-9e8b-aa980abdc69b",
+    "response_id": "chatcmpl-EUH3ZbdHS1c79kkFovwp6p8tEQDIJ",
+    "usage": {
+      "completion_tokens": 1216,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7042,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8258
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> paragraph 3 (source.html) — “Jesus loves the little children, all the children of the world.”",
+        "severity": "minor",
+        "source_quote": "“Jesus loves the little children, all the children of the world.”",
+        "suggested_fix": "Render the English quotation meaningfully in Bengali while preserving sense. For example, replace the translated Bengali inside the paragraph but keep HTML tags: “যীশু বিশ্বের সমস্ত ছোট শিশুদের ভালোবাসেন।” Ensure it reads naturally rather than literal word choices that change tone.",
+        "translation_quote": "“যীশু বিশ্বের সমস্ত ছোট শিশুকে ভালোবাসেন।”"
+      },
+      {
+        "location": "<article> paragraph 6 (source.html) — “musty bedroom…moldy ceiling”",
+        "severity": "major",
+        "source_quote": "In his musty bedroom at their little, dingy apartment, he lay staring at the moldy ceiling, wondering endlessly what had gone so wrong.",
+        "suggested_fix": "Correct the mistranslation that introduced an unrelated Bengali word. Preserve HTML tags and sentence order. Suggested Bengali rendering: “তাদের ছোট, অবশ্যই ভাঙাচোরা অ্যাপার্টমেন্টের ভেজা গন্ধে ভরা শোবার ঘরে সে মোল্ড-জরা ছাদ তাকিয়ে আর ভাবছিল কোথায় এত ভুল হল।” (Replace only the paragraph text inside the <p> tag.)",
+        "translation_quote": "তার ছোট, গৃহচবচটি অ্যাপার্টমেন্টের খারাপ বাতাস-জড়িত শয়নকক্ষে কপট ছাদ তাকিয়ে সে অদ্ভুতভাবে ভাবত কি ভুল হয়ে গেল।"
+      },
+      {
+        "location": "<article> paragraph about California (translation html) — stray English token",
+        "severity": "critical",
+        "source_quote": "He had his fellow beach bums, but he was still alone inside. His heart was still empty. He longed for love.",
+        "suggested_fix": "Remove the stray English token and translate fully into Bengali while preserving article HTML. For example replace the sentence segment in the <p> text with: “তার সৈকতের বন্ধু ছিল, কিন্তু ভিতরে সে এখনও একা ছিল। তার হৃদয় তখনও শূন্য ছিল। সে ভালোবাসা খুঁজে ফিরছিল।”",
+        "translation_quote": "তার সৈকতের বন্ধু ছিল, কিন্তু ভিতরে সে এখনও একা ছিল। তার হৃদয় তবুও খাঁ.empty. সে ভালোবাসা খুঁজে ফিরছিল।"
+      },
+      {
+        "location": "<article> opening paragraph (source.html) — “unbidden tears”",
+        "severity": "minor",
+        "source_quote": "I blinked back the unbidden tears, realizing that once more, I had to leave this man that I loved.",
+        "suggested_fix": "Use a Bengali phrase that matches the English nuance of involuntary/sudden tears rather than implying 'unnecessary'. Suggested replacement (inside the same <p> tag): “আমি আকস্মিক অশ্রু পিছু চেপে ধরে রাখলাম, এবং বুঝতে পারলাম আবারও আমাকে সেই মানুষটাকে ছেড়ে যেতে হবে।”",
+        "translation_quote": "অপ্রয়োজনীয় অশ্রু গলিয়ে ফেলতে বাধা দিতে চোখ ঝাপসা করতেছিল, বুঝতে পারলাম আবারও আমাকে এই মানুষটি — যাকে আমি ভালোবাসতাম — ছেড়ে চলে যেতে হবে।"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

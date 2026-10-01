@@ -2,7 +2,6 @@
   "article_id": "cdb88be0-93b0-4362-bc3b-1488aff1a76f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:46+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 1877
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1595,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1690,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3285
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.title",
+      "severity": "major",
+      "source_quote": "The Glory of the Spring",
+      "suggested_fix": "Replace the translated title with a faithful rendering of \"The Glory of the Spring\", e.g. \"Η Δόξα της Άνοιξης\" (preserve article HTML). Example replacement: <title>Η Δόξα της Άνοιξης</title>",
+      "translation_quote": "Το Κράσπεδο της Άνοιξης"
+    },
+    {
+      "location": "article > div.poem > p:nth-of-type(2)",
+      "severity": "minor",
+      "source_quote": "Divine Redeemer, Thee I bless; I greet Thy going forth;",
+      "suggested_fix": "Render \"I greet Thy going forth\" to convey the sense of greeting Christ's going forth/coming forth rather than a literal or awkward \"δρόμο\". Suggested line preserving tags and line breaks: <p>Θεϊκέ Λυτρωτή, Σ’ ευλογώ;<br>Χαιρετώ την έξοδό Σου;<br>Σ’ αγαπώ μέσα στην ομορφιά<br>Της ανανεωμένης Σου γης.</p> — or without question marks: <p>Θεϊκέ Λυτρωτή, Σ’ ευλογώ;<br>Χαιρετώ την έξοδό Σου;<br>Σ’ αγαπώ μέσα στην ομορφιά<br>Της ανανεωμένης Σου γης.</p> (see punctuation finding below)",
+      "translation_quote": "Θεϊκέ Λυτρωτή, Σ’ ευλογώ;<br>\n    Χαιρετώ τον δρόμο Σου που προβάλλει;<br>\n    Σ’ αγαπώ μέσα στην ομορφιά<br>\n    Της ανανεωμένης Σου γης."
+    },
+    {
+      "location": "article > div.poem",
+      "severity": "major",
+      "source_quote": "This new-born glow of faith so strong,",
+      "suggested_fix": "\"Glow of faith\" should be rendered to convey the original sense of a radiance or brightening of faith, not \"πάθος\" (which means passion). Suggested replacement preserving tags: <p>Αυτή η νεογέννητη λάμψη της πίστης τόσο δυνατή,<br>...</p>",
+      "translation_quote": "Αυτό το νεογέννητο πάθος της πίστης τόσο δυνατό,<br>..."
+    },
+    {
+      "location": "article > div.poem",
+      "severity": "minor",
+      "source_quote": "Punctuation and tone: many original lines are declarative/affirmative (commas/semicolons/periods).",
+      "suggested_fix": "Replace question marks that appear at line ends in the translation with the appropriate punctuation to match the original tone (commas/semicolons/periods). For example change \"Σ’ ευλογώ;\" to \"Σ’ ευλογώ,\" or \"Σ’ ευλογώ.\" and similarly for other lines. Preserve HTML structure when making changes.",
+      "translation_quote": "Multiple lines in the translation end with question marks (e.g., \"Σ’ ευλογώ;\", \"Αυτά τα γλυκά θαύματα Σου;\", \"Χαιρετώ τον δρόμο Σου που προβάλλει;\" etc.)"
     }
   ],
   "id": "6b2a87e630390c9ae42b68e20fcfda89",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/77e936fd3992ec154fecd4e753dcaf1c210f965f21cd72ac0e78032ca820afc1.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "15ac9c1b97edbe073ae811f5fd305d02a68542aeb9f44f03ca5e9732f904625a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

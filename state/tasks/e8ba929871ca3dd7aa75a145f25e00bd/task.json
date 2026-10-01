@@ -2,7 +2,6 @@
   "article_id": "1ec0f654-0dd1-48f3-9a68-3b15189e6704",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -24,6 +23,62 @@
         },
         "total_tokens": 3892
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1477,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3577,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5054
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<p class=\"drop-cap\"> (first paragraph)",
+      "severity": "minor",
+      "source_quote": "He and Adrianna were sitting at the table doing school with their siblings Emily and Kianna.",
+      "suggested_fix": "Replace \"הוא ואדריאנה ישבו על השולחן ועשו שיעורים יחד עם אחיותיהם אמילי וקיאנה.\" with \"הוא ואדריאנה ישבו ליד השולחן ולמדו/עשו שיעורים עם אחיותיהם, אמילי וקיאנה.\"",
+      "translation_quote": "הוא ואדריאנה ישבו על השולחן ועשו שיעורים יחד עם אחיותיהם אמילי וקיאנה."
+    },
+    {
+      "location": "<p>“Oh, yes, I guess she did. Well, they can play on the swings or something,” she shrugged</p>",
+      "severity": "major",
+      "source_quote": "“Oh, yes, I guess she did. Well, they can play on the swings or something,” she shrugged",
+      "suggested_fix": "Replace the mistranslation \"המנדפות\" with the correct word for swings. For example: \"או, כן, כנראה שהיא сказала. ובכן, הן יכולות לשחק על הנדנדות או משהו,\" היא משכה בכתפיה.",
+      "translation_quote": "\"או, כן, כנראה שהיא אמרה. ובכן, הן יכולות לשחק על המנדפות או משהו,\" היא משכה בכתפיה."
+    },
+    {
+      "location": "<p>She heard her mom’s voice. “Wait, Adrianna, what’s wrong? Your face looks like a thunderstorm!”</p>",
+      "severity": "major",
+      "source_quote": "She heard her mom’s voice.",
+      "suggested_fix": "Keep singular subject. Replace \"שמעו את קול אמא.\" with \"היא שמעה את קול אמא.\" so it matches the original subject (Adrianna) and tense.",
+      "translation_quote": "שמעו את קול אמא."
+    },
+    {
+      "location": "<p>They each packed their lunch in a shopping bag and went out to their picnic spot, a big, flat rock in a clearing in the woods.</p>",
+      "severity": "minor",
+      "source_quote": "They each packed their lunch in a shopping bag",
+      "suggested_fix": "Use a verb that means 'packed' or 'put' rather than \"חיבר\". For example: \"כל אחד ארז את ארוחתו בשקית קניות\" or \"כל אחד שם את ארוחתו בשקית קניות.\" Replace the sentence accordingly.",
+      "translation_quote": "כל אחד חיבר את ארוחתו בשקית קניות ויצא לנקודת הפיקניק שלהם — סלע גדול ושטוח בפתח יער."
+    },
+    {
+      "location": "<p>Slowly she paddled to the edge of the pond.</p>",
+      "severity": "major",
+      "source_quote": "Slowly she paddled to the edge of the pond.",
+      "suggested_fix": "The verb used, \"שפכה\", is incorrect. Replace \"לאט לאט היא שפכה אל שפת האגם.\" with a correct phrasing such as \"לאט לאט היא חתרה אל שפת הבריכה/האגם.\" (use \"חתרה\" for 'paddled').",
+      "translation_quote": "לאט לאט היא שפכה אל שפת האגם."
     }
   ],
   "id": "e8ba929871ca3dd7aa75a145f25e00bd",
@@ -69,11 +124,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d59e6cc034714ade3629f9e4dd10e75a09cff16eb5d3255ed698b76288fda97d.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "dcfff2a5364081c6a6817377a0d3ad1649eaec0276399a4b9a70adc9f0fe19d1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

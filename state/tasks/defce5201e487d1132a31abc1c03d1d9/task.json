@@ -2,7 +2,6 @@
   "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 8810
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 869,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8559,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9428
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Paragraph about the melody (source.html beginning: \"The fine complementary tune...\")",
+      "severity": "minor",
+      "source_quote": "\"And glory—glory dwelleth in Immanuel's land.\"",
+      "suggested_fix": "Translate the quoted refrain into Portuguese to match the rest of the translation, preserving the punctuation and any HTML formatting. Example replacement (keep quotes): \"\"E a glória—glória habita na terra do Immanuel.\"\"",
+      "translation_quote": "\"And glory, glory dwelleth in Immanuel's land.\""
+    },
+    {
+      "location": "Final prose paragraph (source.html near end: final quote from Samuel Rutherford)",
+      "severity": "minor",
+      "source_quote": "\"They lose nothing who gain Christ.\"",
+      "suggested_fix": "Translate this closing quotation into Portuguese to match the article's target language while preserving the quotation marks and punctuation. Example replacement (keep quotes): \"\"Eles nada perdem os que ganham Cristo.\"\"",
+      "translation_quote": "\"They lose nothing who gain Christ.\""
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:54+00:00",
   "id": "defce5201e487d1132a31abc1c03d1d9",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "por",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c48182e3f5033a08822c2237c3e9e7faab5b80302e823695d8ba3dd0faead4e3.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

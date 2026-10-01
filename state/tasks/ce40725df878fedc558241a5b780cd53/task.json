@@ -2,7 +2,6 @@
   "article_id": "b43320f3-e4e8-450b-865c-099ef704149c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 7940
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2116,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7688,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9804
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<title> and top of document",
+      "severity": "major",
+      "source_quote": "title: \"Morally Pure In a Corrupt Society\"",
+      "suggested_fix": "Translate the article title into Dutch and keep it in the same HTML title element structure. For example, replace the title text with a Dutch equivalent (preserve casing and the element itself): <title>Moreel zuiver in een corrupte maatschappij</title>",
+      "translation_quote": "title: \"Morally Pure In a Corrupt Society\""
+    },
+    {
+      "location": "<article> <h2>How can we live a morally pure life?</h2> and the entire following section of guidance (from that h2 through the end of the practical-advice paragraphs and the closing paragraph before the figure)",
+      "severity": "critical",
+      "source_quote": "<h2>How can we live a morally pure life?</h2>\n\n  <p><strong>Be Humble.</strong> James 5 says, “Confess your faults one to another that ye may be healed.” ... Jesus taught in Matthew 23:26, where He said, \"First clean the inside of the cup, so that the outside may be clean also.\"</p>\n\n  <p><strong>Be Honest.</strong> Examine your thoughts, actions, temptations, the things you struggle with, anger, lust, pride, bitterness, etc. ...</p>\n\n  <p><strong>Be transparent.</strong> Romans 2:16 tells of the day when God will judge the secrets of men. ...</p>\n\n  <p><strong>Tell yourself the truth.</strong> When you are tempted, consider the end of your lustful desire. ...</p>\n\n  <p><strong>Teach your eyes to bounce.</strong> You can't help what you look at the first time, but you can control what you look at twice. ...</p>\n\n  <p><strong>Teaching our children.</strong> This should be heavy on our hearts from early childhood. ...</p>\n\n  <p><strong>Keep your emotions.</strong> This is a safety in our corrupt society. ...</p>\n\n  <p><strong>Flee lust and fornication.</strong> Run from it! These cravings are addictions that must be broken. ...</p>\n\n  <p>God has made us in a way that when we love the things He loves, our heart still has room to love more. ...</p>\n\n  <p>Many a man has come to his senses and seen the utter foolishness of the path he took. ...</p>\n\n  <p>How wonderful to live an open life free of guilt and have peace with God and the assurance of sins forgiven, so that one day we will be taken out of this evil world and ushered into the presence of our Holy God.</p>",
+      "suggested_fix": "These paragraphs are still in English in the translation and must be rendered into Dutch so the target-language article is complete. Translate each paragraph to contemporary Dutch while preserving the existing HTML tags and structure. For example: replace <h2>How can we live a morally pure life?</h2> with <h2>Hoe kunnen we een moreel zuiver leven leiden?</h2>, and translate the following <p> elements (including the bolded section headings such as <strong>Be Humble.</strong>) into Dutch while keeping the <strong> tags and scripture references unchanged in position (e.g., keep 'James 5' and verse citations like (Matthew 23:26) as in source). Do not alter tag order, attributes, or nesting.",
+      "translation_quote": "The entire h2 and subsequent practical-advice paragraphs appear verbatim in English in the translation (e.g., \"How can we live a morally pure life?\", \"Be Humble.\", \"Be Honest.\", etc.)."
+    },
+    {
+      "location": "First half of article — scripture quotations and some in-text quotes",
+      "severity": "minor",
+      "source_quote": "Examples: “Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.” ... I John 1:6 says, “if we say that we have fellowship with Him and walk in darkness (light on the outside and darkness on the inside), we lie and do not practice the truth.” ... Hebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).” ... James 1:15: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” Vers 16 says, “Do not (be deceived) my beloved brethren.”",
+      "suggested_fix": "Several Scripture quotations and short quoted phrases later in the first half remain in English in the translation. Either translate the quoted English verse-texts/phrases into Dutch to match the rest of the article's language or (if your editorial policy requires preserving the exact printed English verse text) render them consistently (e.g., by keeping the exact English verse quotations but translating the surrounding narrative). The key requirement is consistency and that the translated article does not leave substantial quoted sentences in English while the rest is Dutch. Preserve verse references (book and verse numbers) exactly as in source. Specific actionable fix: replace the English sentence fragments inside quotes with Dutch equivalents while keeping the parenthetical verse citations unchanged — for example replace “Blessed are the pure in heart” with “Zalig zijn de reinen van hart” (Matthew 5:8) — or, if you must keep the English printed-verse wording, wrap it in a translated explanatory sentence to avoid mixed-language paragraphs.",
+      "translation_quote": "Many verse quotations are left in English in the Dutch translation (see examples above)."
+    },
+    {
+      "location": "scattered: inline book names and references (e.g., \"I John 1:6\", \"Revelation 19\", \"Psalm 24:3-4\", \"James 1:15\")",
+      "severity": "minor",
+      "source_quote": "I John 1:6; Revelation 19; Psalm 24:3-4; James 1:15; Numbers 32:23; John 10:10; Matthew 23:26; Philippians 1:10; etc.",
+      "suggested_fix": "Ensure scripture book names and inline references appear consistently with the rest of the translated text. If the translation uses Dutch book names elsewhere, make them consistent; if you choose to keep the English book names (as in the source), keep them unchanged throughout. Do not change verse numbers. For example, if you render 'I John 1:6' as '1 Johannes 1:6', apply that consistently and do so only if you translate the quoted verse text accordingly. Preserve the exact numeric citations.",
+      "translation_quote": "The translation preserves the original-form book names and citations in English (e.g., \"I John 1:6\", \"Hebrews 4:13\"), which is acceptable but inconsistent with some translated surrounding text."
     }
   ],
   "id": "ce40725df878fedc558241a5b780cd53",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 40,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6e098ac8eb342eaa406de38f5a002ad3b708959025887f49dfe6141d191cd700.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "f7304b582e2d69344173a19198f46ca88b1132d0c44e0b4021e5c3668c34cd95",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

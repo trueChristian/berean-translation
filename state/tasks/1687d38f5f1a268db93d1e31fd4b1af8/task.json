@@ -2,7 +2,6 @@
   "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -24,8 +23,37 @@
         },
         "total_tokens": 8810
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 877,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8624,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9501
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "source.html paragraph containing the childhood well anecdote",
+      "severity": "minor",
+      "source_quote": "They asked him how he got out, and his reply was, \"A bonny white man came and drew me out of the well.\" His family believed that God sent an angel to rescue him that day.",
+      "suggested_fix": "In the translation, render the phrase to avoid implying racial meaning from 'white' and to better reflect the likely meaning 'fair/beautiful/angelic'. Replace the sentence\n\n\"Mereka bertanya bagaimana ia bisa keluar, dan jawabnya, \\\"Seorang pria putih yang cantik datang dan menarikku keluar dari sumur.\\\" Keluarganya percaya bahwa Allah mengutus seorang malaikat untuk menyelamatkannya hari itu.\"\n\nwith\n\n\"Mereka bertanya bagaimana ia bisa keluar, dan jawabnya, \\\"Seorang lelaki tampan berbaju putih datang dan menarikku keluar dari sumur.\\\" Keluarganya percaya bahwa Allah mengutus seorang malaikat untuk menyelamatkannya hari itu.\"",
+      "translation_quote": "Mereka bertanya bagaimana ia bisa keluar, dan jawabnya, \"Seorang pria putih yang cantik datang dan menarikku keluar dari sumur.\" Keluarganya percaya bahwa Allah mengutus seorang malaikat untuk menyelamatkannya hari itu."
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:53+00:00",
   "id": "1687d38f5f1a268db93d1e31fd4b1af8",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "ind",
@@ -69,11 +97,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c48182e3f5033a08822c2237c3e9e7faab5b80302e823695d8ba3dd0faead4e3.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "93f7cc25-9ba7-4fcb-acf6-75e3f0f7bd0f",
+    "response_id": "chatcmpl-EUH4bUmjvVIZ2LCvvHXUTpOXsXcor",
+    "usage": {
+      "completion_tokens": 1026,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1534,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2560
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — stanza 2, line: \"I greet Thy going forth;\"",
+        "severity": "minor",
+        "source_quote": "I greet Thy going forth;",
+        "suggested_fix": "Replace the translation phrase \"Saúdo o Teu partir;\" with wording that preserves the sense of 'going forth' (movement outward or proceeding) rather than 'departure'. For example: \"Saúdo o Teu ir adiante;\" or \"Saúdo o Teu avançar;\" (preserve existing HTML tags and line breaks).",
+        "translation_quote": "Saúdo o Teu partir;"
+      },
+      {
+        "location": "source.html — stanza 3, line: \"These marvels sweeter far to trace,\"",
+        "severity": "minor",
+        "source_quote": "These marvels sweeter far to trace,",
+        "suggested_fix": "The translation \"Esses prodígios muito mais doces de seguir,\" renders 'to trace' as 'seguir', which can imply 'follow' rather than 'discern/trace out'. Recommend using a verb that conveys 'trace' or 'discern', for example: \"Esses prodígios muito mais doces de perscrutar,\" or \"...mais doces de revelar/descobrir\". Preserve HTML structure.",
+        "translation_quote": "Esses prodígios muito mais doces de seguir,"
+      },
+      {
+        "location": "source.html — stanza 5, line: \"Divine Redeemer, graciously\\nRenew this heart of mine.\"",
+        "severity": "minor",
+        "source_quote": "Divine Redeemer, graciously\nRenew this heart of mine.",
+        "suggested_fix": "The translation uses the adjective \"gracioso,\" which does not match the adverbial sense of 'graciously.' Recommend changing to an adverb or phrasing that conveys 'graciously' as an action, for example: \"Redentor divino, com graça,\\nRenova este meu coração.\" or \"Redentor divino, graciosamente,\\nRenova este meu coração.\" Preserve existing HTML tags and line breaks.",
+        "translation_quote": "Redentor divino, gracioso,\nRenova este meu coração."
+      }
+    ],
+    "passed": true,
+    "score": 95
+  }
+}

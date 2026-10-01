@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3a785a13-3886-40f3-b978-7e5b802b02ac",
+    "response_id": "chatcmpl-EUH3s9gZzAC7nT8fpU6PqGRabgXz4",
+    "usage": {
+      "completion_tokens": 812,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5556,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6368
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html – first <figure> img alt",
+        "severity": "critical",
+        "source_quote": "alt=\"An open Bible with pages turning\"",
+        "suggested_fix": "Replace the Arabic alt text with a correct rendering of \"An open Bible with pages turning\", for example: alt=\"الكتاب المقدس مفتوح وصفحاته تتقلب\" (or alt=\"إنجيل مفتوح وصفحاته تتقلب\"). Preserve the same HTML tag and attributes; only change the alt string.",
+        "translation_quote": "alt=\"مصحف مفتوح وصفحاته تتقلب\""
+      }
+    ],
+    "passed": false,
+    "score": 40
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "45c612ff-1966-4079-9ba5-09ab022917ea",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -24,6 +23,62 @@
         },
         "total_tokens": 6612
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1638,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6297,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7935
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<p>…Although we know that our wildest imaginations will be exceeded. “Thine eyes shall see the king in his beauty: they shall behold the land that is very far off” (Isaiah 33:17).</p>",
+      "severity": "major",
+      "source_quote": "“Thine eyes shall see the king in his beauty: they shall behold the land that is very far off” (Isaiah 33:17).",
+      "suggested_fix": "Translate the quoted verse text into Arabic faithfully conveying the exact printed English wording. Preserve the Scripture reference in parentheses. Example replacement (inline, preserving tags): “«تُبْصِرُ عَيْنَاكَ الْمَلِكَ فِي جَمَالِهِ: تُبْصِرَانِ أَرْضًا بَعِيدَةً جِدًّا» (Isaiah 33:17).”",
+      "translation_quote": "“Thine eyes shall see the king in his beauty: they shall behold the land that is very far off” (Isaiah 33:17)."
+    },
+    {
+      "location": "Multiple paragraph locations where Bible verses are quoted in English (Psalm 27:4; 2 Corinthians 4:4-6; Isaiah 61:3; Psalm 19:1; Romans 1:20; 1 Corinthians 13:12; Revelation 14:2; Psalm 48:1-2; Revelation 21:2-3; Hebrews 12:12; Psalm 37:4)",
+      "severity": "major",
+      "source_quote": "All occurrences of quoted Scripture in the source are in English (for example: “One thing have I desired of the LORD ...” (Psalm 27:4); “In whom the god of this world hath blinded ...” (2 Corinthians 4:4-6); etc.).",
+      "suggested_fix": "Translate each quoted Scripture passage into Arabic so it conveys the exact printed English wording from the authoritative source. Keep the verse references in parentheses unchanged. For each quoted block, replace the English quotation with an Arabic rendering that follows the source English phrasing. Do not substitute a different Bible version or omit any clause. For example replace: “One thing have I desired of the LORD ...” (Psalm 27:4) with an Arabic rendering that matches the English wording: “«أَمْرٌ وَاحِدٌ طَلَبْتُهُ مِنَ الرَّبِّ، ذَلِكَ أَطْلُبُهُ...» (Psalm 27:4).”",
+      "translation_quote": "The translation leaves the quoted Bible passages in English (e.g., “One thing have I desired of the LORD, that will I seek after; ...” (Psalm 27:4), etc.)."
+    },
+    {
+      "location": "Multiple section headings: <h2>Through the Gospel</h2>, <h2>Through Creation</h2>, <h2>Through Music and Sound</h2>, <h2>Through the Church:</h2>",
+      "severity": "minor",
+      "source_quote": "Through the Gospel / Through Creation / Through Music and Sound / Through the Church:",
+      "suggested_fix": "Translate these section headings into Modern Standard Arabic, preserving the <h2> tag and its attributes exactly. For example: <h2>من خلال الإنجيل</h2>, <h2>من خلال الخليقة</h2>, <h2>من خلال الموسيقى والصوت</h2>, <h2>من خلال الكنيسة</h2>.",
+      "translation_quote": "Headings are left in English exactly as in source (e.g., \"Through the Gospel\")."
+    },
+    {
+      "location": "<p>“And I heard a voice from heaven, ... and the new song by the one hundred and forty four thousand.”</p> (within Revelation 14:2 paragraph)",
+      "severity": "critical",
+      "source_quote": "\"... and the new song by the one hundred and forty four thousand.\"",
+      "suggested_fix": "The translation introduced a wrong/mistranscribed Arabic number phrase (rendered as \"الثلثمائة وأربعة وأربعين ألفاً\" / garbled) for 'one hundred and forty four thousand'. Correct by translating the quoted English phrase faithfully into Arabic as used for the quoted verse: for example “«... والأغنية الجديدة للمئة والأربعة والأربعين ألفًا.»” and ensure it matches the source English numeric value 144,000 exactly. Preserve quotation marks and the verse reference formatting.",
+      "translation_quote": "Rendered in Arabic as: “والأغنية الجديدة للثلثمائة وأربعة وأربعين ألفاً.” (garbled/mistranscribed number and wording)."
+    },
+    {
+      "location": "<p>…let us “lift up the hands which hang down and the feeble knees” (Hebrews 12:12) …</p>",
+      "severity": "major",
+      "source_quote": "“lift up the hands which hang down and the feeble knees” (Hebrews 12:12)",
+      "suggested_fix": "Translate the quoted exhortation into Arabic preserving the exact printed English phrasing in meaning. For example: replace the embedded English quotation with an Arabic rendering that conveys the same printed English: “«ارفَعوا الأَيْدِيَةَ الْمُنْسَدِلَةَ وَالرُّكَبَ الْمَرِقَةَ» (Hebrews 12:12).” Keep the verse reference. Preserve surrounding HTML tags.",
+      "translation_quote": "The embedded exhortation is left in English: “lift up the hands which hang down and the feeble knees” (Hebrews 12:12)."
     }
   ],
   "id": "8b68bf9bf0e4e096353314ed58e938d0",
@@ -69,11 +124,13 @@
     }
   },
   "protected": false,
+  "quality_score": 40,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8ff6615d88d56d991342498ce45e0382ed69e4ee6f5e71d66558a915bc80e645.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "307ff3dcec107109e8c031e07835839a270150b1f8308d14b1a8b6811fd4f56d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

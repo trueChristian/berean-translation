@@ -6,9 +6,32 @@
       "campaign": "gh-36911235156",
       "event": "requested",
       "task": "1b07bb87f900f5abfc11497a52a444e3"
+    },
+    {
+      "at": "2026-10-01T20:28:53+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "1b07bb87f900f5abfc11497a52a444e3"
     }
   ],
   "language": "nld",
   "latest_task": "1b07bb87f900f5abfc11497a52a444e3",
-  "published": null
+  "published": {
+    "html_path": "content/nld/articles/45c612ff-1966-4079-9ba5-09ab022917ea.html",
+    "html_sha256": "9736db4b62ec877a24e8433e6b83709780b78d51de7c16db4b792f4f451a9363",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+    "metadata_path": "content/nld/articles/45c612ff-1966-4079-9ba5-09ab022917ea.json",
+    "metadata_sha256": "09a440d45c7ac631f1d3c9f44c934c54f1082b35fc59456b42caf2b59a28a9b9",
+    "model": "gpt-5-mini-2025-08-07",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"nl\" dir=\"ltr\" role=\"note\">\n  <p>Dit artikel is vertaald met kunstmatige intelligentie van OpenAI (model: gpt-5-mini-2025-08-07) en is nog niet door een mens gecontroleerd. Het Engelse origineel is de gezaghebbende versie. Raadpleeg bij twijfel over de betekenis het Engelse origineel. <a href=\"/en/articles/45c612ff-1966-4079-9ba5-09ab022917ea/\" data-source-article-id=\"45c612ff-1966-4079-9ba5-09ab022917ea\" hreflang=\"en\">Engels origineel</a></p>\n</aside>",
+    "published_at": "2026-10-01T20:28:53+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-5-mini-2025-08-07",
+    "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+    "source_snapshot": "state/sources/8ff6615d88d56d991342498ce45e0382ed69e4ee6f5e71d66558a915bc80e645.json",
+    "task": "1b07bb87f900f5abfc11497a52a444e3",
+    "translation_key": "307ff3dcec107109e8c031e07835839a270150b1f8308d14b1a8b6811fd4f56d"
+  }
 }

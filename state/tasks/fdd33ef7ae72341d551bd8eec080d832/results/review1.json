@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6b2977e9-9bd7-4f05-863d-efbf22c542d8",
+    "response_id": "chatcmpl-EUH3aSbWmt7VdmKoBykytaVSHiuWQ",
+    "usage": {
+      "completion_tokens": 1607,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10533,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12140
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph containing Ecclesiastes 12:1-7 (the long quoted block)",
+        "severity": "critical",
+        "source_quote": "“Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; ... Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”",
+        "suggested_fix": "Translate this entire quoted Scripture passage into contemporary Modern Greek so the translation conveys the exact meaning of the printed English passage from the authoritative source text. Preserve the punctuation and quoted-block structure; do not substitute a different Bible version. For example, render the English phrase-for-phrase meaning into Greek (keeping it as a quotation) so Greek readers see the Scripture in Greek that corresponds to the printed English block in the source.",
+        "translation_quote": "Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; ... Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”"
+      },
+      {
+        "location": "source.html — sentence quoting Deuteronomy 6:7",
+        "severity": "major",
+        "source_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7).",
+        "suggested_fix": "Translate this quoted Scripture sentence into contemporary Modern Greek, conveying the exact printed English meaning rather than inserting a different Bible wording. Keep the citation “(Deuteronomy 6:7)” as in the source. For example, render the quotation into Greek within the quotation marks so it reads naturally to Greek speakers while reflecting the English text's content.",
+        "translation_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7)."
+      },
+      {
+        "location": "source.html — sentence quoting Galatians 5:22-23 near the end",
+        "severity": "major",
+        "source_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23).",
+        "suggested_fix": "Translate this quoted Scripture into contemporary Modern Greek reflecting the printed English wording's meaning. Keep the verse citation “(Galatians 5:22-23)” and the quotation marks. Do not replace it with a different English or Greek Bible version; render the English text's content into Greek so Greek readers get the same wording intent.",
+        "translation_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23)."
+      },
+      {
+        "location": "source.html — multiple section headings left in English (e.g., \"Dementia in the Bible\", \"What Dementia is\", \"Diagnosing Dementia\", \"Eliminate Medications\", \"Non-medication Therapies\", \"Get Others to Help\", \"Conclusion\")",
+        "severity": "minor",
+        "source_quote": "Dementia in the Bible\n\nWhat Dementia is\n\nDiagnosing Dementia\n\nEliminate Medications\n\nNon-medication Therapies\n\nGet Others to Help\n\nConclusion",
+        "suggested_fix": "Translate all section headings into contemporary Modern Greek to match the rest of the translated article. Keep the HTML structure unchanged (h2 tags, order, nesting, attributes). Example suggestions: \"Dementia in the Bible\" → \"Η άνοια στη Βίβλο\", \"What Dementia is\" → \"Τι είναι η άνοια\", \"Diagnosing Dementia\" → \"Διάγνωση της άνοιας\", \"Eliminate Medications\" → \"Αποφυγή φαρμάκων\", \"Non-medication Therapies\" → \"Μη φαρμακευτικές θεραπείες\", \"Get Others to Help\" → \"Ζητήστε βοήθεια από άλλους\", \"Conclusion\" → \"Συμπέρασμα\". Preserve the original h2 tags and placement.",
+        "translation_quote": "Dementia in the Bible\n\nWhat Dementia is\n\nDiagnosing Dementia\n\nEliminate Medications\n\nNon-medication Therapies\n\nGet Others to Help\n\nConclusion"
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

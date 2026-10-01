@@ -2,7 +2,6 @@
   "article_id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -24,8 +23,58 @@
         },
         "total_tokens": 6501
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1002,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6303,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7305
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "source.html paragraph: \"What lay behind those flashing eyes, and what memories are stored beneath his ever-crowning beanie?\"",
+      "severity": "minor",
+      "source_quote": "What lay behind those flashing eyes, and what memories are stored beneath his ever-crowning beanie?",
+      "suggested_fix": "Preserve meaning and improve Norwegian idiom: replace “den stadig pålagte lue” with a clearer phrase such as “den stadig brukte lua” or “lua han alltid hadde på seg.” Keep existing HTML tags and structure.",
+      "translation_quote": "Hva lå bak de blafrende øynene, og hvilke minner var lagret under den stadig pålagte lue?"
+    },
+    {
+      "location": "source.html paragraph: \"He had his fellow beach bums, but he was still alone inside.\"",
+      "severity": "minor",
+      "source_quote": "He had his fellow beach bums, but he was still alone inside.",
+      "suggested_fix": "Use a natural Norwegian rendering for “beach bums.” Replace “sine med-strandløse” with e.g. “sine medstrandskamerater” or “andre strandløse” (better: “sine strandkamerater” or “de andre på stranden”). Preserve the surrounding HTML.",
+      "translation_quote": "Han hadde sine med-strandløse, men han var fortsatt alene innvendig."
+    },
+    {
+      "location": "source.html near end of long paragraph about pawn shop visits (image alt paragraph preceding second figure)",
+      "severity": "minor",
+      "source_quote": "we still visited the dingy, smoke-stained shop after six years of very little apparent success",
+      "suggested_fix": "Fix small typo/awkward compound in Norwegian. Replace “skitne, røykflekkerede butikken” with “skitne, røykflekkerte butikken” or better “skitne, røykfargede butikken.” Keep HTML as-is.",
+      "translation_quote": "det er grunnen til at vi fortsatt besøkte den skitne, røykflekkerede butikken etter seks år med svært liten tilsynelatende suksess."
+    },
+    {
+      "location": "source.section",
+      "severity": "minor",
+      "source_quote": "INSPIRATIONS FOR YOUTH",
+      "suggested_fix": "Section heading is plural in English. Current translation “INSPIRASJON FOR UNGDOM” is acceptable, but for closer correspondence you may use plural nuance: “INSPIRASJONER FOR UNGDOM” or keep singular if style prefers. No HTML change needed.",
+      "translation_quote": "INSPIRASJON FOR UNGDOM"
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:54+00:00",
   "id": "ca9a9c9bd42d6b9e7ff069ad22c48047",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "nob",
@@ -69,11 +118,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0c059a0312fc4bb7c1d9113fe70aaa013f3daaefdb55449ee68204bcbaa1c79e.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

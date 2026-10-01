@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8389d574-5a23-4ef5-a8dc-0b0e46ba4707",
+    "response_id": "chatcmpl-EUH4Nhjejbe25f6wJCQNU6cdzVJ5w",
+    "usage": {
+      "completion_tokens": 1161,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7407,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8568
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...we he must rise with all diligence in defiant warfare.</p>",
+        "severity": "minor",
+        "source_quote": "If we are to resist it in these days, we he must rise with all diligence in defiant warfare.",
+        "suggested_fix": "Preserve meaning and correct typo while keeping original sense: replace with \"If we are to resist it in these days, we must rise with all diligence in defiant warfare.\" in the source-preserving structure.",
+        "translation_quote": "우리가 이 시대에 그것을 저항하려면, 모든 부지런함으로 반항의 전쟁을 일으켜야 합니다."
+      },
+      {
+        "location": "<p>…our medication consumption tells a different story. Paul claimed no exemption, for he was “troubled on every side; without were fightings, within were fears.” (2 Corinthians 7:5)</p>",
+        "severity": "minor",
+        "source_quote": "Paul claimed no exemption, for he was “troubled on every side; without were fightings, within were fears.” (2 Corinthians 7:5)",
+        "suggested_fix": "No doctrinal change, but to match the source's punctuation and wording exactly, ensure the parenthetical reference is formatted the same as source (keep as \"(2 Corinthians 7:5)\").",
+        "translation_quote": "바울도 예외가 아니었으니 그는 “troubled on every side; without were fightings, within were fears.” (2 Corinthians 7:5)"
+      },
+      {
+        "location": "<p>...it is not conducive to a sound and peaceable mind. This offended soul has no root in himself...</p>",
+        "severity": "minor",
+        "source_quote": "This offended soul has no root in himself and will forever be wronged in some fashion and spend his days in search of a savior to come and fix the other party.",
+        "suggested_fix": "Translation is faithful but slightly shifts register; to preserve original phrasing more closely, consider: \"이 불쾌한 영혼은 자기에게 뿌리가 없었고 어떤 식으로든 영원히 부당함을 당하며 다른 당사자를 고쳐줄 구세주를 찾아 평생을 보낼 것입니다.\"",
+        "translation_quote": "이 불쾌한 영혼은 자기에게 뿌리가 없고 어떤 식으로든 영원히 부당함을 당할 것이며 다른 당사자를 고쳐줄 구세주를 찾아 평생을 보낼 것입니다."
+      },
+      {
+        "location": "<p>...it is a sure avenue to ingratitude.</p>",
+        "severity": "minor",
+        "source_quote": "it is a sure avenue to ingratitude.",
+        "suggested_fix": "Either translate the noun consistently into Korean or preserve the English in quotes as the author might intend. Suggested: replace with \"확실히 감사하지 못함으로 이어집니다.\" or keep as \"ingratitude(감사 없음)\" consistently elsewhere.",
+        "translation_quote": "확실한 길이 ingratitude(감사 없음)로 이어집니다."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

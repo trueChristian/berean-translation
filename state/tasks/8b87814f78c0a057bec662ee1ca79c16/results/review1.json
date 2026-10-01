@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "441f31cf-1dd8-4052-a285-06be34add1b1",
+    "response_id": "chatcmpl-EUH3k9mlJhWDAsonrPZfOpZzSEBmX",
+    "usage": {
+      "completion_tokens": 930,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5036,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5966
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>इफ यु आर अन अविड ब्रेड मेकर... (Part 1: paragraph 'Accept your limits')</p>",
+        "severity": "minor",
+        "source_quote": "That means if you are an avid bread maker, it’s all right to toss a few loaves of bread into your shopping cart.",
+        "suggested_fix": "Preserve meaning and correct Hindi spelling/wording. Replace the phrase “अगर आप एक जोशिलि ब्रेड बनाने वाली हैं, तो कुछ लोफ़ ब्रेड अपने शॉपिंग कार्ट में डाल देना भी ठीक है।” with “यदि आप ब्रेड बनाने में उत्साही हैं, तो कुछ ब्रेड की लोफ़ें अपने शॉपिंग कार्ट में डाल लेना भी ठीक है।”",
+        "translation_quote": "अगर आप एक जोशिलि ब्रेड बनाने वाली हैं, तो कुछ लोफ़ ब्रेड अपने शॉपिंग कार्ट में डाल देना भी ठीक है।"
+      },
+      {
+        "location": "<p>इन्फो 'Imperfect women make good homemakers' translation (Part 1: paragraph 'Imperfect women make good homemakers')</p>",
+        "severity": "minor",
+        "source_quote": "Fun-loving, happy, homemakers might have a few dust bunnies under the furniture, but they radiate an aura that draws people to their hearts and homes.",
+        "suggested_fix": "Use a more natural Hindi idiom. Replace “मज़ाक-प्रिय, खुश, गृहिणियों” with “हंसमुख और खुशमिज़ाज गृहिणियाँ” or “मुस्कुराती और खुश गृहिणियाँ” to better convey 'fun-loving, happy'.",
+        "translation_quote": "मज़ाक-प्रिय, खुश, गृहिणियों के फर्नीचर के नीचे कुछ धूल के लोहे हो सकते हैं, पर वे एक ऐसा आभा बिखेरती हैं जो लोगों को उनके हृदयों और घरों की ओर खींचती है।"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

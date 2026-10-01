@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "00905847-5ccf-438d-9046-e85b129ad378",
+    "response_id": "chatcmpl-EUH4J4SPoDt31LsZISdAPkfDhB8mD",
+    "usage": {
+      "completion_tokens": 1221,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6855,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8076
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>…Revelation 14:2</p> (paragraph under heading \"موسیقی اور آواز کے ذریعے\")",
+        "severity": "critical",
+        "source_quote": "\"And I heard a voice from heaven, as the voice of many waters, and as the voice of a great thunder: and I heard the voice of harpers harping with their harps\" (Revelation 14:2) ... and the new song by the one hundred and forty four thousand.",
+        "suggested_fix": "Correct the numeric reference in the Urdu translation to match the English source. Replace the phrase \"اور وہ نوے چار ہزار کا نیا گانا۔\" with a faithful rendering of \"and the new song by the one hundred and forty four thousand.\" For example: \"اور وہ ایک سو چونتالیس ہزار کے لیے نیا گانا۔\" or more smoothly: \"اور وہ ایک سو چونتالیس ہزار کے لیے نیا گانا۔\" ensuring the number equals 144,000 (ایک سو چونتالیس ہزار). Preserve the surrounding sentence and scripture citation in the same position.",
+        "translation_quote": "\"اور وہ نوے چار ہزار کا نیا گانا۔\""
+      },
+      {
+        "location": "Paragraph: \"مگر چھڑکار ہے!\" (under heading \"خُبْرِ نَجَات کے ذریعے\")",
+        "severity": "minor",
+        "source_quote": "\"But, there is redemption!\"",
+        "suggested_fix": "The Urdu word \"چھڑکار\" is incorrect or nonstandard for the intended meaning \"redemption.\" Replace with a standard Urdu equivalent such as \"مگر نجات ہے!\" or \"مگر چھڑکار (نجات) موجود ہے!\" while preserving the emphatic punctuation. For example: replace \"مگر چھڑکار ہے!\" with \"مگر نجات ہے!\"",
+        "translation_quote": "\"مگر چھڑکار ہے!\""
+      },
+      {
+        "location": "Figure alt attribute (second image)",
+        "severity": "minor",
+        "source_quote": "alt=\"A puffball fungus growing on a mossy forest floor\"",
+        "suggested_fix": "The Urdu alt text uses \"مونچھدار\" which literally reads as \"moustached\" and does not accurately render \"mossy.\" Replace with an accurate Urdu word for \"mossy\" such as \"کھردرا کائی والا\" or simply \"کائی سے ڈھکا ہوا\". For example: change \"ایک خِلیہ سا پھپھوندی جو کسی مونچھدار جنگلی فرش پر اُگ رہا ہے\" to \"ایک گھومدار پھپھوندی جو کائی سے ڈھکے جنگلی فرش پر اُگ رہی ہے\" or \"ایک خال نما پھپھوندی جو کائی سے ڈھکے جنگل کے فرش پر اُگ رہی ہے\". Preserve the article's HTML structure and img alt attribute.",
+        "translation_quote": "\"ایک خِلیہ سا پھپھوندی جو کسی مونچھدار جنگلی فرش پر اُگ رہا ہے\""
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

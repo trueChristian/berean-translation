@@ -2,7 +2,6 @@
   "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 8791
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1011,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8604,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9615
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Paragraph 2 (first sentence) in translation HTML",
+      "severity": "minor",
+      "source_quote": "This hymn became precious to my family and me several years ago as we awaited the birth of our fourth genetically challenged baby.",
+      "suggested_fix": "Correct Swedish demonstrative pronoun for natural contemporary Swedish: replace \"Denne psalm\" with \"Denna psalm\" (preserve surrounding tags). For example: <p>Denna psalm blev kär för min familj ...</p>",
+      "translation_quote": "Denne psalm blev kär för min familj och mig för flera år sedan medan vi väntade födelsen av vårt fjärde genetiskt utmanade barn."
+    },
+    {
+      "location": "Title and hymn text kept in English",
+      "severity": "minor",
+      "source_quote": "The Sands of Time Are SINKING  (title)  and the full hymn stanzas in English as printed in source HTML",
+      "suggested_fix": "If the publication's style requires full translation into the target language, translate the title and hymn text into Swedish. If the hymn is intentionally preserved in its original English in this edition, add a short Swedish editorial note (within the same HTML structure) indicating that the hymn text is presented in the original English. Do not alter the hymn HTML structure—either replace the text nodes or add one sentence before the <div class=\"hymn\"> block, e.g. <p>Psalmtexten följer på engelska i original:</p> or translate each stanza into Swedish preserving the <div class=\"hymn\"> and <p> tags.</p>",
+      "translation_quote": "title: \"The Sands of Time Are SINKING\"; hymn stanzas: all 19 stanzas remain in English within <div class=\"hymn\">...</div>."
+    },
+    {
+      "location": "Parenthetical editorial note near hymn reference \"(in bold copy)\"",
+      "severity": "minor",
+      "source_quote": "Out of the nineteen original verses, only four are used in our hymn books. (in bold copy)",
+      "suggested_fix": "Translate the parenthetical editorial note into Swedish for consistency with surrounding text, preserving the <em> tag. For example: replace <em>(in bold copy)</em> with <em>(i fet stil)</em>.",
+      "translation_quote": "<em>(in bold copy)</em>"
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:54+00:00",
   "id": "ccd3afee87ab5c559834989f09065ff5",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "swe",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c48182e3f5033a08822c2237c3e9e7faab5b80302e823695d8ba3dd0faead4e3.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

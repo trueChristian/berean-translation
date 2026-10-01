@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "fb422e93-35f0-4523-a615-122b7f1e066c",
+    "response_id": "chatcmpl-EUH4HnQpPCavmE8lahKgx8zVYCqgF",
+    "usage": {
+      "completion_tokens": 1349,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1558,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2907
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"><p>...<br>\n    Созидающий Дух, сотвори во мне<br>\n    Эти сладкие Твои чудеса;<br>\n    Божественный Искупитель, помилуй и обнови<br>\n    Это моё сердце.</p>...</div>",
+        "severity": "major",
+        "source_quote": "Divine Redeemer, graciously\nRenew this heart of mine.",
+        "suggested_fix": "Preserve meaning of the English line by rendering \"graciously Renew\" as an adverb modifying \"renew\" rather than adding a new imperative (\"помилуй\"). Replace the three lines inside the poem stanza with a literal but idiomatic Russian equivalent that keeps the original sense, for example:\n\n<blockquote>Созидающий Дух, сотвори во мне<br>\nЭти сладкие Твои чудеса;<br>\nБожественный Искупитель, милостиво обнови<br>\nэто моё сердце.</blockquote>\n\nThis keeps the adverbial sense of \"graciously\" (милостиво) without inserting an added theological action (\"помилуй\") not present in the source. Preserve original HTML tags and line breaks exactly as in source.",
+        "translation_quote": "Созидающий Дух, сотвори во мне\n    Эти сладкие Твои чудеса;\n    Божественный Искупитель, помилуй и обнови\n    Это моё сердце."
+      },
+      {
+        "location": "<div class=\"poem\"><p>...<br>\n    Это рождение веры столь стойкой,<br>\n    Этот цвет любви столь прекрасной,<br>\n    Это новорожденный восторг песни,<br>\n    И благоухание молитвы!</p>...</div>",
+        "severity": "minor",
+        "source_quote": "This new-born glow of faith so strong,\nThis bloom of love so fair,",
+        "suggested_fix": "Correct adjective agreement/word order to be idiomatic and match the English imagery. For example, change the two lines to:\n\n<blockquote>Это новорожденное пламя веры, столь стойкое,<br>\nЭто цветок любви, столь прекрасный,</blockquote>\n\nor more literally keeping the original parallelism:\n\n<blockquote>Это ново-рожденная сила веры, столь стойкая,<br>\nЭтот цвет любви, столь прекрасный,</blockquote>\n\nEither preserves the original metaphors and corrects grammatical agreement. Maintain HTML tags and line breaks.",
+        "translation_quote": "Это рождение веры столь стойкой,\n    Этот цвет любви столь прекрасной,"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

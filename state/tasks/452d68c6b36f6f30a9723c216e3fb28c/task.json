@@ -2,7 +2,6 @@
   "article_id": "cdb88be0-93b0-4362-bc3b-1488aff1a76f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:46+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 1895
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1442,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1644,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3086
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<article> <div class=\"poem\"> stanza 2, line 1–2",
+      "severity": "major",
+      "source_quote": "Divine Redeemer, Thee I bless;\nI greet Thy going forth;",
+      "suggested_fix": "Translate as a clear, literal address and action preserving the sense “I bless Thee” and “I greet Thy going forth.” Example fix (preserve HTML tags and line breaks):\n<p>দিব্য মোচক, তোেমাকে আমি বন্দনা করি;<br>\nআমি তোমার প্রস্থান/যাত্রাকে স্বাগত জানাই;</p>",
+      "translation_quote": "দিব্য মোচক, তোর মহিমা করো আমি;<br>\nতোর আগমনটিই আমি অভিবাদন জানাই;"
+    },
+    {
+      "location": "<article> <div class=\"poem\"> stanza 4, line 1",
+      "severity": "major",
+      "source_quote": "This new-born glow of faith so strong,",
+      "suggested_fix": "Restore the sense of 'faith' (belief, বিশ্বাস) rather than 'faithfulness' (বিশ্বস্ততা). Example fix preserving tags:\n<p>এই নবজন্মিত বিশ্বাসের তীব্র উজ্জ্বলতা,</p>",
+      "translation_quote": "এত শক্তিশালী বিশ্বস্ততার নবজাগরণীয় জোশ,"
+    },
+    {
+      "location": "<article> <div class=\"poem\"> stanza 4, line 3",
+      "severity": "major",
+      "source_quote": "This new-born ecstasy of song,",
+      "suggested_fix": "Use the correct genitive for 'of song' (গানের) rather than 'গানকের'. Example fix preserving tags:\n<p>এই গানের নবজন্মিত উল্লাস,</p>",
+      "translation_quote": "গানকের নবজন্মিত উল্লাসের তীব্রতা,"
+    },
+    {
+      "location": "<article> <figure> <img alt>",
+      "severity": "minor",
+      "source_quote": "alt=\"White orchids with purple centers\"",
+      "suggested_fix": "Use Bengali script consistently and correct spelling for 'orchid'. Example alt text (preserve img tag and attributes):\n<img src=\"/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg\" alt=\"সাদা অর্কিড, মধ্যভাগে বেগুনি রং\">",
+      "translation_quote": "alt=\"সাদা ऑर्किड ফুলের মধ্যভাগে বেগুনি রং\""
     }
   ],
   "id": "452d68c6b36f6f30a9723c216e3fb28c",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/77e936fd3992ec154fecd4e753dcaf1c210f965f21cd72ac0e78032ca820afc1.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "15ac9c1b97edbe073ae811f5fd305d02a68542aeb9f44f03ca5e9732f904625a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

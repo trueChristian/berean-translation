@@ -2,7 +2,6 @@
   "article_id": "fbfb182b-bb05-434f-a664-b74c68153e61",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 4777
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 942,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4526,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5468
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "translation.html — paragraph with Tupperware and bread sentence (Part 1 — \"Acepta tus límites\")",
+      "severity": "minor",
+      "source_quote": "That means if you are an avid bread maker, it’s all right to toss a few loaves of bread into your shopping cart.",
+      "suggested_fix": "Use a more neutral, widely understood term for \"loaves of bread\" in Spanish. Replace \"unas cuantas barras de pan\" with \"unas cuantas hogazas/unas cuantas piezas de pan\" or simply \"unos panes\" to match the neutral sense of \"loaves.\"",
+      "translation_quote": "Eso significa que si eres una panadera entusiasta, está bien poner unas cuantas barras de pan en tu carrito de compras."
+    },
+    {
+      "location": "translation.html — paragraph about fun-loving homemakers (Part 1 — \"Imperfect women make good homemakers\")",
+      "severity": "minor",
+      "source_quote": "Fun-loving, happy, homemakers might have a few dust bunnies under the furniture, but they radiate an aura that draws people to their hearts and homes.",
+      "suggested_fix": "Use a more natural Spanish expression for \"dust bunnies.\" Replace \"algunos pelitos de polvo\" with \"algunas pelusas de polvo\" or \"unos peluches de polvo\" (\"pelusas de polvo\" is most idiomatic).",
+      "translation_quote": "Las amas de casa alegres y divertidas pueden tener algunos pelitos de polvo bajo los muebles, pero irradian un aura que atrae a la gente a sus corazones y hogares."
+    },
+    {
+      "location": "translation.section and translation.html — section heading and possible heading phrasing",
+      "severity": "minor",
+      "source_quote": "SISTER TO SISTER",
+      "suggested_fix": "Consider the more idiomatic Spanish rendering \"De hermana a hermana\" instead of the literal \"HERMANA A HERMANA.\" Either is understandable, but the suggested form reads more naturally as a column title.",
+      "translation_quote": "HERMANA A HERMANA"
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:53+00:00",
   "id": "023a3f1149682ef648131c7914b90c36",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "spa",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/57473773ac5b1974a223c6159a928ec4b7d4781abd867e42854e5f7e38041953.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

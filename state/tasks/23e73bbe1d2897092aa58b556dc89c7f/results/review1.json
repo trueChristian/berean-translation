@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4a432383-da70-417a-bb1b-0e757f0585e5",
+    "response_id": "chatcmpl-EUH4Dx5Ex63LkVZQeTVphrZN0pZgi",
+    "usage": {
+      "completion_tokens": 798,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6237,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7035
+    }
+  },
+  "received_at": "2026-10-01T20:28:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.subtitle (metadata)",
+        "severity": "critical",
+        "source_quote": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2",
+        "suggested_fix": "Translate the subtitle into Spanish and preserve punctuation and scripture citation. For example: \"Desde Sion salió la hermosura perfecta; Dios se manifestó. Salmos 50:2\" (replace only the textual content inside the subtitle field, do not change HTML structure or attributes).",
+        "translation_quote": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2"
+      },
+      {
+        "location": "source.html — headings (h2 elements)",
+        "severity": "major",
+        "source_quote": "Through the Gospel\n\nThrough Creation\n\nThrough Music and Sound\n\nThrough the Church:",
+        "suggested_fix": "Translate each h2 heading into Spanish inside the same h2 tags, preserving HTML structure and attributes. Suggested translations: \"A través del Evangelio\"; \"A través de la Creación\"; \"A través de la Música y el Sonido\"; \"A través de la Iglesia:\". Replace only the heading text, leaving tags and punctuation unchanged.",
+        "translation_quote": "Through the Gospel\n\nThrough Creation\n\nThrough Music and Sound\n\nThrough the Church:"
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

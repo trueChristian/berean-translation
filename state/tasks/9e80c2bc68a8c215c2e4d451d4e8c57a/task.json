@@ -2,7 +2,6 @@
   "article_id": "31ea7041-cab6-4ccd-9ead-04cc949321a6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:44+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 6483
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1128,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6092,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7220
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "source.html — h2 headings (multiple)",
+      "severity": "minor",
+      "source_quote": "<h2>The Doctrine of Nonresistance</h2>\n...\n<h2>The Emphasis of Biblical Foundations</h2>\n...\n<h2>Importance of Practical Salvation</h2>\n...\n<h2>The Teachings of Practical Christianity</h2>\n...\n<h2>Conclusion</h2>",
+      "suggested_fix": "Translate the H2 headings into Hindi to match the rest of the article and the target-language section/title. Preserve tag, order, and attributes. Example replacements:\n- <h2>अहिंसा-निरोध का सिद्धांत</h2>\n- <h2>शास्त्रीय (बाइबिल) नींव पर जोर</h2>\n- <h2>व्यावहारिक उद्धार का महत्व</h2>\n- <h2>व्यावहारिक ईसाइयत की शिक्षाएँ</h2>\n- <h2>निष्कर्ष</h2>",
+      "translation_quote": "<h2>The Doctrine of Nonresistance</h2>\n...\n<h2>The Emphasis of Biblical Foundations</h2>\n...\n<h2>Importance of Practical Salvation</h2>\n...\n<h2>The Teachings of Practical Christianity</h2>\n...\n<h2>Conclusion</h2>"
+    },
+    {
+      "location": "source.html — paragraph about yielding to the Spirit",
+      "severity": "minor",
+      "source_quote": "It is important to realize, however, that this victory over sin is brought into effect by the believer yielding his will and allowing the Spirit complete control.",
+      "suggested_fix": "Remove the stray English token and render the phrase smoothly in Hindi while preserving meaning. Suggested replacement within the same <p> tag: \"यह समझना महत्वपूर्ण है कि पाप पर यह विजय विश्वासी के अपनी इच्छा का समर्पण करने और आत्मा को पूरा नियन्त्रण देने से ही क्रियान्वित होती है।\"",
+      "translation_quote": "\"यह समझना महत्वपूर्ण है कि पाप पर यह विजय विश्वासी के अपनी इच्छाyield (समर्पण) करने और आत्मा को पूरा नियन्त्रण देने से ही क्रियान्वित होती है।\""
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:54+00:00",
   "id": "9e80c2bc68a8c215c2e4d451d4e8c57a",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "hin",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/89fccb1e579c0ea7c2e8e4f5bade339b25251e139570b39f442b2c1c8ea4bc11.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "9001af1f34c52b235af4ae22af79ba7fa0d5cf2bf7273485ec1e06a8188fc9a6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

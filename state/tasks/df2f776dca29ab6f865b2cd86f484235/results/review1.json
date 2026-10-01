@@ -1,0 +1,85 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d289b712-c92c-4c87-bf7d-1e385f1e70c7",
+    "response_id": "chatcmpl-EUH4bR3LPAa73NL9V3uSzSqrNkSbH",
+    "usage": {
+      "completion_tokens": 1992,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6944,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8936
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 3 (verse quotation)",
+        "severity": "major",
+        "source_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.” (2 Timothy 1:7)",
+        "suggested_fix": "Translate the printed English Bible quotation into Spanish while preserving the punctuation and the scripture citation. Example: “Porque no nos ha dado Dios espíritu de cobardía, sino de poder, de amor y de dominio propio.” (2 Timoteo 1:7) — keep the parenthetical reference exactly as in the source (2 Timothy 1:7) or localize only the book name if your style guide requires Spanish book names, but do not replace the printed English quotation with an independently chosen Bible version. Preserve all HTML and surrounding text.",
+        "translation_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.” (2 Timothy 1:7)"
+      },
+      {
+        "location": "Paragraph 5 (Job quotation)",
+        "severity": "major",
+        "source_quote": "“A dreadful sound is in his ears: in prosperity the destroyer shall come upon him. He believeth not that he shall return out of darkness, and he is waited for of the sword.” (Job 15:21, 22)",
+        "suggested_fix": "Translate the printed English Bible quotation into Spanish while preserving the citation. Example: “Un terrible sonido está en sus oídos; en la prosperidad vendrá sobre él el destruido; no cree que volverá de las tinieblas, y espera la espada.” (Job 15:21, 22). Do not substitute a different Bible translation; render the exact printed English into Spanish equivalent wording and keep the verse reference as in the source.",
+        "translation_quote": "“A dreadful sound is in his ears: in prosperity the destroyer shall come upon him. He believeth not that he shall return out of darkness, and he is waited for of the sword.” (Job 15:21, 22)"
+      },
+      {
+        "location": "Paragraph 8 (Philippians quotation)",
+        "severity": "major",
+        "source_quote": "“Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God. And the peace of God, which passeth all understanding, shall keep your hearts and minds through Christ Jesus.” (Philippians 4:6 7)",
+        "suggested_fix": "Translate the printed English Bible quotation into Spanish while preserving the citation. Example: “No estéis afanosos por nada; antes bien, en todo, mediante la oración y la súplica con acción de gracias, sean conocidas vuestras peticiones delante de Dios. Y la paz de Dios, que sobrepasa todo entendimiento, guardará vuestros corazones y vuestras mentes en Cristo Jesús.” (Philippians 4:6, 7). Keep the scripture reference format consistent with the source.",
+        "translation_quote": "“Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God. And the peace of God, which passeth all understanding, shall keep your hearts and minds through Christ Jesus.” (Philippians 4:6 7)"
+      },
+      {
+        "location": "Section headings (three h3 headings)",
+        "severity": "major",
+        "source_quote": "Prayer Begets Power / Peace Begets Love / Thankfulness Begets a Sound Mind",
+        "suggested_fix": "Translate the three English subheadings into Spanish to match the article language and preserve structure and tags. Suggested translations: \"La oración engendra poder\" (or \"La oración produce poder\"), \"La paz engendra amor\" (or \"La paz produce amor\"), and \"La gratitud engendra una mente sana\". Keep the <h3> tags and surrounding HTML unchanged, only replace the visible heading text.",
+        "translation_quote": "Prayer Begets Power\n\n...\n\nPeace Begets Love\n\n...\n\nThankfulness Begets a Sound Mind"
+      },
+      {
+        "location": "Paragraph 15 (embedded English phrase)",
+        "severity": "minor",
+        "source_quote": "the Spirit, which maketh intercession for us with groanings which cannot be uttered.",
+        "suggested_fix": "Translate this embedded English clause into Spanish consistent with surrounding text. Example: “el Espíritu, que intercede por nosotros con gemidos que no pueden expresarse.” Preserve emphasis tags (italics) as in source HTML.",
+        "translation_quote": "the Spirit, which maketh intercession for us with groanings which cannot be uttered."
+      },
+      {
+        "location": "Multiple places — short quoted phrases left in English (motto and question)",
+        "severity": "minor",
+        "source_quote": "\"No fear!\" / \"Are we having fun yet?\"",
+        "suggested_fix": "Translate these short quoted English phrases into Spanish or present them as bilingual with the Spanish translation in parentheses, according to house style. Suggested: \"¡Sin miedo!\" and \"¿Ya nos estamos divirtiendo?\" or provide both if the English is to be retained for stylistic reasons. Ensure consistency throughout the article.",
+        "translation_quote": "\"No fear!\" / \"Are we having fun yet?\""
+      },
+      {
+        "location": "List of scripture quotations (various Psalms, 1 Samuel, Lamentations, Ruth, Isaiah, Matthew, 1 John)",
+        "severity": "major",
+        "source_quote": "Multiple verse quotations in English inside the bulleted list and later quotations (e.g., “I poured out my complaint before him; I shewed before him my trouble.” (Psalm 142:2), etc.)",
+        "suggested_fix": "Translate each printed English Bible quotation into Spanish exactly (rendering the printed English meaning into Spanish) while leaving the verse citations as in the source. For example: “Derramé delante de él mi queja; manifesté delante de él mi angustia.” (Salmo 142:2). Apply this to every listed verse and the later 1 John/Isaiah quotations. Preserve list structure and punctuation.",
+        "translation_quote": "The bulleted list and other inline verse quotations remain in English (e.g., “I poured out my complaint before him; I shewed before him my trouble.” (Psalm 142:2), etc.)"
+      },
+      {
+        "location": "Final blockquote (Philippians 4:7, 8)",
+        "severity": "major",
+        "source_quote": "Block quotation in English beginning “And the peace of God, which passeth all understanding, shall keep your hearts and minds through Christ Jesus...” and ending with — Philippians 4:7, 8",
+        "suggested_fix": "Translate the full blockquoted Scripture passage into Spanish, preserving line breaks and the scripture citation. Example rendering: “Y la paz de Dios, que sobrepasa todo entendimiento, guardará vuestros corazones y vuestras mentes en Cristo Jesús. Por lo demás, hermanos, todo lo que es verdadero, todo lo honesto, todo lo justo, todo lo puro, todo lo amable, todo lo que merece buen nombre; si hay virtud alguna, si hay algo digno de alabanza, en esto pensad.” — Philippians 4:7, 8. Keep the <blockquote> and <em> tags intact.",
+        "translation_quote": "Entire blockquote remains in English (beginning “And the peace of God,...” and ending with “— Philippians 4:7, 8”)."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

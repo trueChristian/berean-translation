@@ -2,7 +2,6 @@
   "article_id": "cdb88be0-93b0-4362-bc3b-1488aff1a76f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:46+00:00",
   "events": [
@@ -24,6 +23,41 @@
         },
         "total_tokens": 1733
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1097,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1546,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2643
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> — stanza beginning \"But O these wonders of Thy grace\" (third stanza), third line",
+      "severity": "major",
+      "source_quote": "These marvels sweeter far to trace,",
+      "suggested_fix": "Translate the comparative and sense of \"sweeter far to trace\" (meaning: far sweeter to follow/trace/observe) rather than rendering as \"à suivre avec audace\". Suggested French replacement (preserving tags and line breaks): \"Ces prodiges, bien plus doux à contempler,\"",
+      "translation_quote": "Ces prodiges à suivre avec audace,"
+    },
+    {
+      "location": "<div class=\"poem\"> — stanza beginning \"Divine Redeemer, Thee I bless\" (second stanza), third line",
+      "severity": "minor",
+      "source_quote": "I love Thee in the loveliness",
+      "suggested_fix": "\"la beauté ravie\" is awkward and risks changing nuance. Prefer a clearer, idiomatic rendering that preserves sense, for example: \"Je T'aime dans la beauté ravissante\" or simply \"Je T'aime dans la beauté\". Keep original HTML structure.",
+      "translation_quote": "Je T'aime dans la beauté ravie"
     }
   ],
   "id": "aa45293095f67cee572f30c148d4f34e",
@@ -69,11 +103,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/77e936fd3992ec154fecd4e753dcaf1c210f965f21cd72ac0e78032ca820afc1.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "15ac9c1b97edbe073ae811f5fd305d02a68542aeb9f44f03ca5e9732f904625a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

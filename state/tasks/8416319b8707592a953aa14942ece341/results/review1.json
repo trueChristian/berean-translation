@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a57b7b7e-eaf2-4919-a7a0-699fa2a95e88",
+    "response_id": "chatcmpl-EUH4CsfFQwmkiRD3KReW31ymPih9n",
+    "usage": {
+      "completion_tokens": 1163,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2980,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4143
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first paragraph",
+        "severity": "minor",
+        "source_quote": "Hyacinths are trying their noble best to poke their buds through the cold constraint of the winter-bound earth.",
+        "suggested_fix": "Replace “Hiensia's” with correct Afrikaans plural without an apostrophe: “Hiensias probeer hul edele bes ...” Preserve all surrounding HTML and wording.",
+        "translation_quote": "Hiensia's probeer hul edele bes om hul knoppe deur die koue, wintergebonde grond te stoot."
+      },
+      {
+        "location": "source.html — poem blockquote",
+        "severity": "minor",
+        "source_quote": "Oh! Christ He is the foutain, The deep sweet well of Love!...",
+        "suggested_fix": "The source poem is in English; the translation rendered it into Afrikaans. If the publishing guideline requires preserving quoted non-scripture text in the original language, revert the poem to the exact English lines from source while keeping the same blockquote HTML. If instead the poem should be translated, keep as-is. (No change if translated intentionally.)",
+        "translation_quote": "O! Christus Hy is die fontein,\n    Die diep soet put van Liefde!\n    Die strome op aarde wat ek geproe het,\n    Dieper sal ek bo drink:\n    Daar, tot ’n oseaan van volheid,\n    Strek sy barmhartigheid uit,\n    En heerlikheid—heerlikheid woon\n    In Immanuel se land."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

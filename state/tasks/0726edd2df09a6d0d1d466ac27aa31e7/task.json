@@ -2,7 +2,6 @@
   "article_id": "62646d6d-87be-47a6-880f-0ade408a3402",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:44+00:00",
   "events": [
@@ -24,8 +23,58 @@
         },
         "total_tokens": 3295
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1397,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2851,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4248
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Second paragraph (Psalm quote)",
+      "severity": "minor",
+      "source_quote": "“Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9).",
+      "suggested_fix": "Render the printed English quotation into clear Spanish while preserving the exact sense and wording of the source English. For example, replace the English quotation with a Spanish rendering that reflects the original English wording and keep the Scripture reference unchanged: “Que las aguas aplaudan con sus manos; regocíjense los montes juntamente delante del SEÑOR; porque él viene a juzgar la tierra. Con justicia juzgará al mundo, y a los pueblos con su verdad” (Psalms 98:8-9). Preserve the surrounding HTML and punctuation exactly.",
+      "translation_quote": "“Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9)."
+    },
+    {
+      "location": "Fourth paragraph (John quote)",
+      "severity": "minor",
+      "source_quote": "“well of water springing up into everlasting life” (John 4:14).",
+      "suggested_fix": "Translate the quoted phrase into Spanish conveying the printed English wording while keeping the scripture reference intact. For example: “pozo de agua que brota para vida eterna” (John 4:14). Keep surrounding HTML and punctuation as in the source.",
+      "translation_quote": "\"well of water springing up into everlasting life\" (John 4:14)."
+    },
+    {
+      "location": "Seventh paragraph (article-title quotation)",
+      "severity": "minor",
+      "source_quote": "“Faith is one of the basic ingredients in getting right with God. We come into the Christian life (and receive the forgiveness of sins) through faith. . . We abandon all hope for saving ourselves by our own abilities, and instead, we put complete trust in Jesus Christ for our eternal safety.”",
+      "suggested_fix": "The quoted passage appears in English in the translation. For target-language clarity, render that quoted passage into Spanish while preserving the printed English sense and sentence structure. For example: “La fe es uno de los ingredientes básicos para ponerse en paz con Dios. Entramos en la vida cristiana (y recibimos el perdón de los pecados) por la fe. . . Abandonamos toda esperanza de salvarnos por nuestras propias capacidades y, en cambio, ponemos completa confianza en Jesucristo para nuestra seguridad eterna.” Keep the quotes and the surrounding HTML exactly as in the source.",
+      "translation_quote": "“Faith is one of the basic ingredients in getting right with God. We come into the Christian life (and receive the forgiveness of sins) through faith. . . We abandon all hope for saving ourselves by our own abilities, and instead, we put complete trust in Jesus Christ for our eternal safety.”"
+    },
+    {
+      "location": "First paragraph (\"spring peepers\" mention)",
+      "severity": "minor",
+      "source_quote": "This year the spring peepers in our area were “winter peepers” as they feebly squeaked their greetings to the arriving spring in mid-February.",
+      "suggested_fix": "Consider translating or explaining the colloquial English names “spring peepers” and “winter peepers” into Spanish for clarity (or keep as quoted English but add an explanatory Spanish term). For example: replace with “Los llamados ‘spring peepers’ (ranitas primaverales) de nuestra zona fueron ‘winter peepers’ (ranitas invernales)...” Preserve original HTML and punctuation.",
+      "translation_quote": "Este año los \"spring peepers\" de nuestra zona fueron \"winter peepers\" mientras chillaban débilmente sus saludos a la primavera que llegaba a mediados de febrero."
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:53+00:00",
   "id": "0726edd2df09a6d0d1d466ac27aa31e7",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "spa",
@@ -69,11 +118,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5455d2cd09d57a9e870ea92c4b7c08c9a0c8a2c68c077d639797bdc8f61c6072.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

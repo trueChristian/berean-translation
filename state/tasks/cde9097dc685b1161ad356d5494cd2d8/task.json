@@ -2,7 +2,6 @@
   "article_id": "62646d6d-87be-47a6-880f-0ade408a3402",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:44+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 3369
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1328,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2989,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4317
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Paragraph 2 (Psalm quotation paragraph)",
+      "severity": "minor",
+      "source_quote": "\"This display of new life springing from the earth is a beautiful representation of new life found in Christ Jesus.\"",
+      "suggested_fix": "Correct the typographical error in the target text to preserve the author's wording and theology. Replace \"во Христее Иисусе\" with \"во Христе Иисусе\" (preserve surrounding punctuation and HTML).",
+      "translation_quote": "\"Это явление новой жизни, прорастающей из земли, — прекрасное изображение новой жизни во Христее Иисусе.\""
+    },
+    {
+      "location": "Paragraph 4 (flight over desert)",
+      "severity": "minor",
+      "source_quote": "\"As I write this, I am flying 35,000 feet over the sub-Saharan desert land of Chad and Niger.\"",
+      "suggested_fix": "Smooth and accurate geographic rendering that preserves meaning. Replace the target phrase \"пролетая на высоте 35 000 футов над странами и Сахарой южнее Сахары — Чадом и Нигером\" with a clearer equivalent such as \"пролетая на высоте 35 000 футов над субсахарской пустынной местностью Чада и Нигера\" (preserve surrounding punctuation and HTML).",
+      "translation_quote": "\"Пишу это, пролетая на высоте 35 000 футов над странами и Сахарой южнее Сахары — Чадом и Нигером.\""
+    },
+    {
+      "location": "Paragraph 9 (Isaiah quotation paragraph)",
+      "severity": "minor",
+      "source_quote": "\"As we plant our gardens and watch the trees burst forth in bloom, let us be reminded of the words of the prophet Isaiah, “For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11).\"",
+      "suggested_fix": "Tone/word choice: the translation uses \"деревья взрываются в цвете\" which is idiomatic but stronger than the source's \"burst forth in bloom.\" To better match the original register, consider replacing \"деревья взрываются в цвете\" with \"деревья раскрываются в цвету\" or \"деревья распускаются\" (preserve surrounding punctuation and HTML).",
+      "translation_quote": "\"Сажая наши сады и наблюдая, как деревья взрываются в цвете, вспомним слова пророка Исайи: «Ибо как земля освобождает бутон свой и как сад вызывает взрастание посеянного в нём, так и Господь Бог произведёт праведность и хвалы, которые явятся пред всеми народами» (Isaiah 61:11).\""
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:54+00:00",
   "id": "cde9097dc685b1161ad356d5494cd2d8",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "rus",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5455d2cd09d57a9e870ea92c4b7c08c9a0c8a2c68c077d639797bdc8f61c6072.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

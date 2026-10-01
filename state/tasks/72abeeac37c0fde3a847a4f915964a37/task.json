@@ -2,7 +2,6 @@
   "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 9148
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1035,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8767,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9802
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "article > div.hymn > p (stanza 2)",
+      "severity": "minor",
+      "source_quote": "2. Oh! well it is forever,\n    Oh! well forevermore\n    My nest hung in no forest\n    Of all this death-doomed shore!\n    Yea, let the vain world vanish,\n    As from the ship the stand,\n    While glory—glory dwelleth\n    In Immanuel’s land.",
+      "suggested_fix": "The German translation renders the odd source phrase \"As from the ship the stand\" as \"Wie vom Schiff das Gerüst\", which reads unnaturally and is likely a mistranslation of the source wording. Preserve the source wording's sense more literally and idiomatically, for example: \"Ja, lasse die eitle Welt vergehen, wie vom Schiff das Ufer\" or \"Ja, lasse die eitle Welt vergehen, wie vom Schiff das Land\" (choose the version that keeps the original metaphor). Replace the current third-to-last line in stanza 2 with one of these options while preserving the surrounding HTML and emphasis tags.",
+      "translation_quote": "2. O! wohl ist's für immer so,\n    O! wohl für immerdar\n    Mein Nest hing in keinem Forst\n    Dieser ganz todgeweihten Küste!\n    Ja, lasse die eitle Welt vergehen,\n    Wie vom Schiff das Gerüst,\n    Während Herrlichkeit—Herrlichkeit wohnt\n    Im Land Immanuels."
+    },
+    {
+      "location": "article > p (paragraph about tune composer)",
+      "severity": "minor",
+      "source_quote": "The fine complementary tune for this text was composed in the early 1800s by a French musician, Chretien D`Urhan.",
+      "suggested_fix": "The source spells the composer's name with a backtick (D`Urhan). The translation renders it as Chretien D'Urhan with an ASCII apostrophe, which is acceptable, but to match the source more closely you may choose the exact punctuation used originally. No theological or substantive change; this is stylistic. If you prefer stricter fidelity, change \"Chretien D'Urhan\" to \"Chretien D`Urhan\" in the translated paragraph while preserving HTML.",
+      "translation_quote": "Die passende ergänzende Melodie zu diesem Text wurde Anfang des 1800er von einem französischen Musiker, Chretien D'Urhan, komponiert."
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:54+00:00",
   "id": "72abeeac37c0fde3a847a4f915964a37",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "deu",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c48182e3f5033a08822c2237c3e9e7faab5b80302e823695d8ba3dd0faead4e3.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

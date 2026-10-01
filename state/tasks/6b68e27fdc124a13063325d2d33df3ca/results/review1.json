@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d5a30f9f-434d-49bb-9a08-323c3972db4f",
+    "response_id": "chatcmpl-EUH3Y7cMUEtCUqrPczXYfAmSN8rS2",
+    "usage": {
+      "completion_tokens": 1151,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7536,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8687
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>We do not need to look very far to behold the disarmament and weakening of man's mind. ...</p>",
+        "severity": "minor",
+        "source_quote": "We do not need to look very far to behold the disarmament and weakening of man's mind.",
+        "suggested_fix": "Use wording that more closely renders \"disarmament and weakening\" (loss of strength/capacity) rather than \"अचेतनता\" which reads as \"unconsciousness.\" Suggested Hindi: \"मनुष्य के मन की निर्बलता और कमज़ोरी देखने के लिए हमें बहुत दूर नहीं देखना पड़ता।\" or \"मनुष्य के मन की क्षमता में होने वाली कमज़ोरी और कमजोर पड़ना देखने के लिए हमें दूर नहीं देखना पड़ता।\"",
+        "translation_quote": "मनुष्य के मन की अचेतनता और कमजोरी देखने के लिए हमें बहुत दूर नहीं देखना पड़ता।"
+      },
+      {
+        "location": "<p>We each may think ourselves into a deep cave, but we must thank ourselves out.</p>",
+        "severity": "minor",
+        "source_quote": "We each may think ourselves into a deep cave, but we must thank ourselves out.",
+        "suggested_fix": "The English idiom \"thank ourselves out\" means to use thanksgiving to get out of a discouraged mental state. The current Hindi \"हमें खुद को धन्यवाद करना होगा।\" is literal and can be unclear. Suggested Hindi that preserves sense: \"हम स्वयं को कृतज्ञता के द्वारा बाहर निकाल सकते हैं।\" or \"हमें अपनी कृतज्ञता से खुद को बाहर निकालना होगा।\"",
+        "translation_quote": "हम में से हर कोई खुद को एक गहरी गुफा में सोच सकता है, पर हमें खुद को धन्यवाद करना होगा।"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

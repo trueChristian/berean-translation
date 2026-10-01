@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "af8c2902-4842-4739-be04-e5145d3566f5",
+    "response_id": "chatcmpl-EUH3yTIkhmIK2PrAozMnsWJbppYhm",
+    "usage": {
+      "completion_tokens": 1293,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4785,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6078
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Fun-loving, happy, homemakers might have a few dust bunnies under the furniture, but they radiate an aura that draws people to their hearts and homes.</p> (source.html, Part 1)",
+        "severity": "minor",
+        "source_quote": "Fun-loving, happy, homemakers might have a few dust bunnies under the furniture, but they radiate an aura that draws people to their hearts and homes.",
+        "suggested_fix": "Correct the misspelled Arabic verb to a natural form. Preserve the surrounding <p> tags and Arabic punctuation. For example: replace «يشعن هالة تجذب الناس إلى قلوبهن وبيوتهن.» with «يشعون هالة تجذب الناس إلى قلوبهن وبيوتهن.»",
+        "translation_quote": "ربات البيوت المرحات والسعيدات قد يكون لديهن بعض الغبار تحت الأثاث، لكنهن يشعن هالة تجذب الناس إلى قلوبهن وبيوتهن."
+      },
+      {
+        "location": "<p>A renowned doughnut maker was asked to have a stand at an auction. ... Either she should not do it, or together they must seek a workable solution.</p> (source.html, Part 2)",
+        "severity": "minor",
+        "source_quote": "A renowned doughnut maker was asked to have a stand at an auction. She asked her husband what he thought about it. He said, “As long as you don’t complain and stress about it like you did last year, I don’t care.” Was her husband saying “yes” or “no”? This lady should take the cue that doughnut making was somehow adding stress. Either she should not do it, or together they must seek a workable solution.",
+        "suggested_fix": "Use a consistent and natural Arabic rendering for “doughnut” throughout the paragraph. Preserve the <p> tags. For example, replace the two inconsistent forms («صانعة دوْننَت» and later «صنع الدونت») with a single natural term such as «صانعة الدونات» (used consistently): «طُلب من صانعة الدونات المشهورة أن يكون لها كشك في مزاد... ينبغي لهذه السيدة أن تأخذ الإشارة أن صنع الدونات كان يضيف نوعًا من التوتر. إما ألا تفعل ذلك، أو يجب عليهما معًا البحث عن حل عملي.»",
+        "translation_quote": "طُلب من صانعة دوْننَت مشهورة أن يكون لها كشك في مزاد. سألت زوجها ما رأيه في الأمر. قال، «طالما أنكِ لا تشتكين وتتوترين بشأنه كما فعلت العام الماضي، فلا يهمني.» هل كان زوجها يقول «نعم» أم «لا»؟ ينبغي لهذه السيدة أن تأخذ الإشارة أن صنع الدونت كان يضيف نوعًا من التوتر. إما ألا تفعل ذلك، أو يجب عليهما معًا البحث عن حل عملي."
+      },
+      {
+        "location": "<p>Maybe you can go to a Tupperware party, attend a Bible study, and repaint the bathroom all in one week. But should you? ...</p> (source.html, Part 1)",
+        "severity": "minor",
+        "source_quote": "Maybe you can go to a Tupperware party, attend a Bible study, and repaint the bathroom all in one week. But should you?",
+        "suggested_fix": "Use a consistent, natural Arabic transliteration for the brand/event name while preserving the <p> tag. For example, replace «حفلة تابيروير» with «حفلة تابروير» or «حفلة تابرفير» according to site style; if the site prefers Arabicized forms, use «حفلة تابِرْوير» consistently. (This is a stylistic/terminology clarity fix; keep the trademark spelled consistently.)",
+        "translation_quote": "ربما يمكنك الذهاب إلى حفلة تابيروير، وحضور دراسة كتابية، وإعادة طلاء الحمام في أسبوع واحد."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

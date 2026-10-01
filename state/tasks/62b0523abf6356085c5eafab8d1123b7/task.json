@@ -2,7 +2,6 @@
   "article_id": "1ec0f654-0dd1-48f3-9a68-3b15189e6704",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:46+00:00",
   "events": [
@@ -24,6 +23,34 @@
         },
         "total_tokens": 3830
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 984,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3643,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4627
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Paragraphs 2–3 (temperature lines near start)",
+      "severity": "major",
+      "source_quote": "“Probably about 50.” Adrianna glanced lazily at the thermometer. “Hey, it’s 65 degrees! Mom, may we eat lunch outside?”",
+      "suggested_fix": "Preserve the original numeric values as presented in the English source. Replace the translated sentences with a literal rendering that keeps the numbers 50 and 65 (and does not convert them to Celsius). For example: «Наверное где-то 50 градусов». Адрианна лениво взглянула на термометр. «Ой, 65 градусов! Мама, можно нам пообедать на улице?» If a unit indication is desired for the target audience, add the same unit marker used in the source (or explicitly note the conversion in parentheses) rather than replacing the numbers.",
+      "translation_quote": "«Наверное где-то градусов 10.» Адрианна лениво взглянула на термометр. «Ого, 18 градусов! Мама, можно нам пообедать на улице?»"
     }
   ],
   "id": "62b0523abf6356085c5eafab8d1123b7",
@@ -69,11 +96,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d59e6cc034714ade3629f9e4dd10e75a09cff16eb5d3255ed698b76288fda97d.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "dcfff2a5364081c6a6817377a0d3ad1649eaec0276399a4b9a70adc9f0fe19d1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

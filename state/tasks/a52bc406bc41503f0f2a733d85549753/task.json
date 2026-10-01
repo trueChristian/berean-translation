@@ -2,7 +2,6 @@
   "article_id": "1ec0f654-0dd1-48f3-9a68-3b15189e6704",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:46+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 3877
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 775,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3623,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4398
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Paragraph: “She lifted her blue kayak off the rack and hauled it down to the pond.” (source.html near middle)",
+      "severity": "minor",
+      "source_quote": "She lifted her blue kayak off the rack and hauled it down to the pond.",
+      "suggested_fix": "Use a single consistent Kiswahili spelling for 'kayak' throughout the article (either 'kajaki' or 'kayaki') and update this instance to match the chosen form while preserving the surrounding HTML tags and order.",
+      "translation_quote": "Alipandisha kajaki yake ya buluu kutoka kwenye rafu na kuileta chini hadi bwawani."
+    },
+    {
+      "location": "Paragraph: “and Kianna ran down to the basement to grab a few apples.” (source.html earlier)",
+      "severity": "minor",
+      "source_quote": "and Kianna ran down to the basement to grab a few apples.",
+      "suggested_fix": "Translate the English word 'basement' into standard Kiswahili (for example 'gerezani' is inappropriate; a better choice is 'gerezani' is not correct—use 'gerezani' only if that is the publisher's orthography—recommended: 'stoo chini' or 'sehemu ya chini ya nyumba' or simply 'gerezani' if that term is accepted by the publication). Update this instance to the chosen Kiswahili rendering while preserving the surrounding HTML tags and order.",
+      "translation_quote": "na Kianna akaruka hadi basement kuchukua matunda machache."
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:54+00:00",
   "id": "a52bc406bc41503f0f2a733d85549753",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "swa",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d59e6cc034714ade3629f9e4dd10e75a09cff16eb5d3255ed698b76288fda97d.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "dcfff2a5364081c6a6817377a0d3ad1649eaec0276399a4b9a70adc9f0fe19d1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "e848a36d-36eb-4f7d-aea7-e17ab34a8870",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -24,6 +23,62 @@
         },
         "total_tokens": 9585
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2256,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9255,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11511
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<p>Prediker 12:1-7 ...</p> (Ecclesiastes quotation block in source.html)",
+      "severity": "major",
+      "source_quote": "“Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”",
+      "suggested_fix": "Translate the quoted Ecclesiastes 12:1-7 text into Afrikaans so the Scripture quotation is rendered into the article's target language while preserving the original quoted wording and punctuation. Keep the quotation inside the same <p> element and do not alter surrounding HTML or verse reference.",
+      "translation_quote": "“Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”"
+    },
+    {
+      "location": "<p>“And thou shalt teach them diligently unto thy children...”(Deuteronomy 6:7) paragraph",
+      "severity": "major",
+      "source_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7).",
+      "suggested_fix": "Translate the Deuteronomy 6:7 quotation into Afrikaans in the same <p> element so the Scripture quotation appears in the article's target language while preserving punctuation and the verse reference. Do not replace it with a different English Bible version; render the quoted English into Afrikaans text.",
+      "translation_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7)."
+    },
+    {
+      "location": "<p>Galatians quotation in Conclusion</p>",
+      "severity": "major",
+      "source_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23).",
+      "suggested_fix": "Translate the Galatians 5:22-23 quotation into Afrikaans in the same <p> element so the Scripture quotation appears in the target language while preserving the original quoted wording and the verse reference. Keep the HTML structure intact.",
+      "translation_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23)."
+    },
+    {
+      "location": "<p>Paragraph under “Skaf medikasie uit” discussing seizure medications</p>",
+      "severity": "major",
+      "source_quote": "“Seizure medications may make thinking ability worse as well. Having a seizure disorder seems to increase the risk of dementia, but certain older medications like valproate and gabapentin seem to make it harder for older people to think clearly, and shifting to lower-risk seizure medications is in order (if possible) for older people.”",
+      "suggested_fix": "Correct the medical terms in Afrikaans. Replace the mistranslated sentence currently reading about 'Ontlastingsepilepsiemiddels' and 'gulsiekte' with accurate Afrikaans medical terminology while preserving the paragraph's meaning. Suggested Afrikaans wording to insert within the same <p> element: \"Epilepsiemedikasie kan dinkvermoë ook versleg. Om ’n aanvalsleef te hê (epilepsie) lyk of dit die risiko van demensie verhoog, en sekere ouer medikasie soos valproaat en gabapentien maak dit moeiliker vir ouer mense om duidelik te dink; waar moontlik behoort na laer-risiko epilepsiemedikasie oorgeskakel te word.\" Do not change HTML tags or surrounding content.",
+      "translation_quote": "\"Ontlastingsepilepsiemiddels kan denke ook versleg. Om ’n gulsiekte te hê lyk of dit die risiko van demensie verhoog, maar sekere ouer medikasie soos valproaat en gabapentien lyk of dit dit moeiliker maak vir ouer mense om duidelik te dink, en om oor te skakel na laer-risiko epilepsiemedikasie is aangewys (indien moontlik) vir ouer mense.\""
+    },
+    {
+      "location": "<p>\"sy kyk na my leeg soosof\" (earlier paragraph)</p>",
+      "severity": "minor",
+      "source_quote": "\"She looks at me blankly like she is wondering what crazy stranger has gotten into her house.\"",
+      "suggested_fix": "Fix small spacing/wording typo: change \"soosof\" to two words \"soos of\" (i.e., \"sy kyk na my leeg soos of sy wonder ...\") preserving the surrounding sentence and HTML.",
+      "translation_quote": "\"Sy kyk na my leeg soosof sy wonder watter mal vreemdeling in haar huis ingekom het.\""
     }
   ],
   "id": "e3adb9b8a1f162ea6e4ffe79c0c87712",
@@ -69,11 +124,13 @@
     }
   },
   "protected": false,
+  "quality_score": 62,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "2fe573f6-9840-4ffa-bbf3-601dc189d307",
+    "response_id": "chatcmpl-EUH3m83RW6GLga1DAvyR56pmAkn9L",
+    "usage": {
+      "completion_tokens": 1110,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8101,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9211
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — multiple scripture quotations (paragraph 2 and elsewhere)",
+        "severity": "major",
+        "source_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.” (also I John 1:6 and other verse quotations appear throughout)",
+        "suggested_fix": "Translate each quoted Scripture phrase into standard Bahasa Indonesia while preserving the original verse citations and the article's printed English wording intent. For example, replace “Blessed are the pure in heart” (Matthew 5:8) with a faithful Indonesian rendering such as “Berbahagialah orang yang suci hatinya” (Matius 5:8). Do this for every quoted Bible phrase (Philippians/Philipi, 1 Timothy/1 Timotius, John/Yohanes, Revelation/Wahyu, Psalm/Mazmur, James/Yakobus, Hebrews/Ibrani, Numbers/Bilangan, etc.). Keep the existing HTML structure and tags unchanged; only replace the inner quoted English text with the Indonesian translation. Ensure the translated quotations clearly reflect the printed English sense rather than substituting a different Bible version wording.",
+        "translation_quote": "Many verse quotations remain in English in the translation (for example: “Blessed are the pure in heart” (Matthew 5:8), “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10), etc.)."
+      },
+      {
+        "location": "source.html — poem blockquote (first poem)",
+        "severity": "minor",
+        "source_quote": "Two forces lie within my breast,\n    The one I love, the one I hate.\n    But the one I feed will dominate.",
+        "suggested_fix": "Correct the Indonesian rendering to faithfully convey the meaning and tone. Current translation: “Dua kekuatan terletak dalam dadaku,\\n    Satu yang kucintai, satu yang kusekali.\\n    Tetapi yang kuberi makan akan menguasai.” Replace “satu yang kusekali” (which is ungrammatical/incorrect) with “satu yang kubenci” or “satu yang ku benci” to reflect “the one I hate.” Preserve the HTML structure in the <blockquote> and <p><em> tags; only change the text content inside the tags.",
+        "translation_quote": "“Dua kekuatan terletak dalam dadaku,\\n    Satu yang kucintai, satu yang kusekali.\\n    Tetapi yang kuberi makan akan menguasai.”"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

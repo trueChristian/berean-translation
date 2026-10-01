@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8dcd165e-0fa1-4145-bd3a-7d18847cc040",
+    "response_id": "chatcmpl-EUH4DgMAovOItqUghWs31vGmtlg4b",
+    "usage": {
+      "completion_tokens": 1380,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6843,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8223
+    }
+  },
+  "received_at": "2026-10-01T20:28:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing Sunday-school song (source.html third paragraph after first foster-home section)",
+        "severity": "major",
+        "source_quote": "“Jesus loves the little children, all the children of the world.”",
+        "suggested_fix": "Replace the English song line inside the paragraph with an Urdu rendering that conveys the printed English line within the same HTML and punctuation. For example: “Jesus loves the little children, all the children of the world.” should be rendered in Perso‑Arabic Urdu script but preserving the quoted English wording meaning: «“جیزَس لَوْز دِی لِٹل چلڈرِن، آل دِی چلڈرِن آف دِی ورلڈ.”» — or better, translate the quoted line into Urdu while keeping it clearly presented as the quoted song line, e.g. “’یسوع چھوٹے بچوں سے محبت کرتا ہے، دنیا کے سب بچے۔’” Ensure the replacement preserves the surrounding <p> tag and any other attributes.",
+        "translation_quote": "“Jesus loves the little children, all the children of the world.”"
+      },
+      {
+        "location": "Multiple paragraphs where 'foster homes' / 'foster system' appears (source: several paragraphs describing childhood; translation uses English loan 'فرسٹ ہومز' and 'فرسٹ سسٹم')",
+        "severity": "minor",
+        "source_quote": "\"the children were placed in different foster homes.\" / \"when he was first put into the foster system.\"",
+        "suggested_fix": "Translate 'foster homes' and 'foster system' consistently into standard Urdu (Perso‑Arabic script). Suggested replacements: 'foster homes' → 'سرپرستی کے گھروں' or 'نگہداشت کے گھروں' and 'foster system' → 'سرپرستی کا نظام' (preserve original sentence and HTML tags). Example: replace 'فرسٹ ہومز' with 'سرپرستی کے گھروں' and 'فرسٹ سسٹم' with 'سرپرستی کے نظام' throughout the article to maintain clarity and consistency.",
+        "translation_quote": "\"بچوں کو مختلف فرسٹ ہومز میں رکھ دیا گیا۔\" / \"جب اسے فرسٹ سسٹم میں رکھا گیا تھا۔\""
+      },
+      {
+        "location": "First paragraph and later paragraph describing pawn shop (source: opening scene and later descriptions)",
+        "severity": "minor",
+        "source_quote": "\"pawn shop\" / \"pawn shop, his ever-crescendoing voice drowning the last hope of respite.\"",
+        "suggested_fix": "Use a clear, idiomatic Urdu equivalent for 'pawn shop' instead of literal or awkward phrasing. Suggested term: 'گروی کی دکان' or 'گروی رکھنے کی دکان'. Also smooth the phrase 'tightly confining his dingy, pawn shop' to match original meaning while preserving tags. For example: replace 'گروی رکھنے والے دکانداری کے محدود حصے' with 'اپنی بدبودار گروی کی دکان کے تنگ اندرون' (keeping the <p> or other tags intact).",
+        "translation_quote": "\"اس کے تنگ، گروی رکھنے والے دکانداری کے محدود حصے\" / \"اس بدبودار، دھوئیں سے رنگے ہوے دکان\""
+      },
+      {
+        "location": "Article figure alt text (first image)",
+        "severity": "minor",
+        "source_quote": "alt=\"An urban storefront with a red door and a streetlamp\"",
+        "suggested_fix": "Adjust the Urdu alt attribute to be grammatical and idiomatic in Perso‑Arabic script. Suggested replacement: alt=\"سرخ دروازے اور گلی کے لیمپ کے ساتھ ایک شہری دکان\" (preserve the <img> tag and other attributes).",
+        "translation_quote": "alt=\"سرخ دروازے اور گلی کے لیمپ کے ساتھ ایک شہری دکان کی فرنٹ\""
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "b43320f3-e4e8-450b-865c-099ef704149c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 8369
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2212,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8054,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10266
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<article> paragraph 2 (scripture quotations)",
+      "severity": "major",
+      "source_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”",
+      "suggested_fix": "Translate the quoted Scripture and associated quoted lines into French while preserving the parenthetical verse references and the surrounding HTML. For example: replace the English quotes with French renderings (keeping the verse citations in parentheses): “Heureux ceux qui ont le cœur pur” (Matthieu 5:8). “Afin que vous discerniez ce qui est excellent, afin que vous soyez purs et sans reproche jusqu’au jour de Christ” (Philippiens 1:10). “Que les choses pures soient l’objet de vos pensées” (Philippiens 4:8). “Garde-toi pur” (1 Timothée 5:22). “Les purs de cœur verront Dieu” (Apocalypse 19). “Qui verra la face de l’Éternel? Celui qui a les mains nettes et le cœur pur” (Psaume 24:3–4). Do not alter HTML tags or their order.",
+      "translation_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”"
+    },
+    {
+      "location": "multiple paragraphs (scripture references left in English inline)",
+      "severity": "major",
+      "source_quote": "“Cleanse first the inside of the cup and platter that the outside may be clean also” (Matthew 23:26). I John 1:6 says, “if we say that we have fellowship with Him and walk in darkness (light on the outside and darkness on the inside), we lie and do not practice the truth.” John 10:10, Jesus said, “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy” Hebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).” Numbers 32:23 is still very true, saying, “Be sure your sin will find you out.” James 1:15: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” Verse 16: “Do not (be deceived) my beloved brethren.”",
+      "suggested_fix": "Translate each quoted Scripture or verse phrase into French, preserving verse citations in parentheses and leaving surrounding HTML intact. Examples: replace with French translations such as: « Purifiez d’abord l’intérieur de la coupe et du plat, afin que l’extérieur aussi devienne net » (Matthieu 23:26). « Si nous disons que nous sommes en communion avec lui, et que nous marchions dans les ténèbres, nous mentons et nous ne pratiquons pas la vérité » (1 Jean 1:6). « Le voleur ne vient que pour dérober, égorger et détruire » (Jean 10:10 — adapt to printed wording in source). « Nulle créature n’est cachée devant lui; mais tout est à nu et découvert aux yeux de celui à qui nous devons rendre compte » (Hébreux 4:13). « Vous vous en rapporterez; car votre faute vous poursuivra » (Nombres 32:23 — or a literal French equivalent). « Puis la convoitise, lorsqu’elle a conçu, enfante le péché; et le péché, étant consommé, produit la mort » (Jacques 1:15); « Ne vous y trompez pas, mes frères bien-aimés » (v.16). Ensure the translated wording conveys the printed English in the source article, and do not change HTML structure or attributes.",
+      "translation_quote": "“Cleanse first the inside of the cup and platter that the outside may be clean also” (Matthew 23:26). I John 1:6 says, “if we say that we have fellowship with Him and walk in darkness (light on the outside and darkness on the inside), we lie and do not practice the truth.” John 10:10, Jesus said, “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy” Hebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).” Numbers 32:23 is still very true, saying, “Be sure your sin will find you out.” James 1:15: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” Verse 16: “Do not (be deceived) my beloved brethren.”"
+    },
+    {
+      "location": "section with headings and imperatives (from “How can we live a morally pure life?” down through the subpoints)",
+      "severity": "major",
+      "source_quote": "How can we live a morally pure life? Be Humble. James 5 says, “Confess your faults one to another that ye may be healed.” Be Honest. Be transparent. Romans 2:16 tells of the day when God will judge the secrets of men. Tell yourself the truth. Teach your eyes to bounce. Teaching our children. Keep your emotions. Flee lust and fornication.",
+      "suggested_fix": "Translate the H2 heading and all subhead labels and inline scripture citations into French, preserving strong/em tags and HTML structure. For example: change the H2 to « Comment vivre une vie moralement pure ? » and translate subhead labels to « Soyez humble. », « Soyez honnête. », « Soyez transparent. », etc. Translate the James and Romans quotations into French while keeping the verse references in parentheses. Do not alter HTML tag order, nesting, or attributes.",
+      "translation_quote": "How can we live a morally pure life? Be Humble. James 5 says, “Confess your faults one to another that ye may be healed.” Be Honest. Be transparent. Romans 2:16 tells of the day when God will judge the secrets of men. Tell yourself the truth. Teach your eyes to bounce. Teaching our children. Keep your emotions. Flee lust and fornication."
+    },
+    {
+      "location": "Poem blockquotes at article end",
+      "severity": "minor",
+      "source_quote": "Two forces lie within my breast,\n    The one I love, the one I hate.\n    But the one I feed will dominate.\n\n—The author’s dad\n\nThe more honestly I name\n    what is true about myself,\n    The less I need to hide and defend,\n    and posture and pretend.\n\n—Dan Allender",
+      "suggested_fix": "Translate the two short poems and their attributions into French, preserving the blockquote.poem element, inner <p> and <em> tags and line breaks (<br>). For example, translate the poem text and author lines to French while keeping the same HTML structure. If the publisher prefers to keep original English poetry, note that explicitly in the translation; otherwise render into French so the article is fully in the target language.",
+      "translation_quote": "Two forces lie within my breast,<br>\n    The one I love, the one I hate.<br>\n    But the one I feed will dominate.\n\n—The author’s dad\n\nThe more honestly I name<br>\n    what is true about myself,<br>\n    The less I need to hide and defend,<br>\n    and posture and pretend.\n\n—Dan Allender"
     }
   ],
   "id": "949816bdca031db9ed08f8fe829052c4",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 40,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6e098ac8eb342eaa406de38f5a002ad3b708959025887f49dfe6141d191cd700.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "f7304b582e2d69344173a19198f46ca88b1132d0c44e0b4021e5c3668c34cd95",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

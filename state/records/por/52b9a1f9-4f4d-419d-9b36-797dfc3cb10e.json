@@ -6,9 +6,32 @@
       "campaign": "gh-36911235156",
       "event": "requested",
       "task": "defce5201e487d1132a31abc1c03d1d9"
+    },
+    {
+      "at": "2026-10-01T20:28:54+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "defce5201e487d1132a31abc1c03d1d9"
     }
   ],
   "language": "por",
   "latest_task": "defce5201e487d1132a31abc1c03d1d9",
-  "published": null
+  "published": {
+    "html_path": "content/por/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.html",
+    "html_sha256": "293828562b40d66419d40083a744a87c2f8f730dad8534d68eee59739b4fa092",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+    "metadata_path": "content/por/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.json",
+    "metadata_sha256": "9eb996abb62a7d905baa236576d5ebf2a055ea4d640183616051c421b5a46736",
+    "model": "gpt-5-mini-2025-08-07",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"pt\" dir=\"ltr\" role=\"note\">\n  <p>Este artigo foi traduzido por inteligência artificial com OpenAI (modelo: gpt-5-mini-2025-08-07) e ainda não foi revisto por uma pessoa. O original em inglês é a versão de referência autorizada. Em caso de dúvida sobre o significado, consulte o original em inglês. <a href=\"/en/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e/\" data-source-article-id=\"52b9a1f9-4f4d-419d-9b36-797dfc3cb10e\" hreflang=\"en\">Original em inglês</a></p>\n</aside>",
+    "published_at": "2026-10-01T20:28:54+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-5-mini-2025-08-07",
+    "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+    "source_snapshot": "state/sources/c48182e3f5033a08822c2237c3e9e7faab5b80302e823695d8ba3dd0faead4e3.json",
+    "task": "defce5201e487d1132a31abc1c03d1d9",
+    "translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4"
+  }
 }

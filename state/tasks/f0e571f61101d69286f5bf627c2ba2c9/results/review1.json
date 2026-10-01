@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4beccc9d-5ed9-99a9-967d-c559a1a87fb1",
+    "response_id": "chatcmpl-EUH3arpI4qDPpbOjicHjut08fIpWw",
+    "usage": {
+      "completion_tokens": 1179,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4716,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5895
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html <p> (Part 1 paragraph about bread)",
+        "severity": "minor",
+        "source_quote": "That means if you are an avid bread maker, it’s all right to toss a few loaves of bread into your shopping cart.",
+        "suggested_fix": "Replace \"keping roti\" with a more accurate Indonesian rendering of \"loaves of bread\", e.g. \"beberapa roti\" or \"beberapa lafac roti\" (maintain existing HTML). Example: <p>... Itu berarti jika Anda pembuat roti yang giat, tidak apa-apa memasukkan beberapa roti ke dalam keranjang belanja Anda.</p>",
+        "translation_quote": "Itu berarti jika Anda pembuat roti yang giat, tidak apa-apa memasukkan beberapa keping roti ke dalam keranjang belanja Anda."
+      },
+      {
+        "location": "source.html <p> (Part 2 first paragraph)",
+        "severity": "minor",
+        "source_quote": "Many homemakers find themselves stretched thin among commitments that go with home, family, and other activities.",
+        "suggested_fix": "Use a closer idiomatic equivalent for \"stretched thin\" such as \"tersebar terlalu tipis\" or \"tertarik terlalu tipis\" or \"tersebar\" to preserve the sense of being overextended rather than simply \"tertekan.\" Example: <p>Banyak ibu rumah tangga mendapati diri mereka tersebar terlalu tipis di antara komitmen yang berkaitan dengan rumah, keluarga, dan kegiatan lain.</p>",
+        "translation_quote": "Banyak ibu rumah tangga mendapati diri mereka tertekan di antara komitmen yang berkaitan dengan rumah, keluarga, dan kegiatan lain."
+      },
+      {
+        "location": "source.html <p> (Part 2 paragraph about overextending indefinitely)",
+        "severity": "minor",
+        "source_quote": "No one can overextend themselves indefinitely.",
+        "suggested_fix": "Adjust translation to better reflect the English nuance of \"overextend\" (exceed personal limits) rather than \"memaksakan diri\" (force oneself). Suggested rendering: \"Tidak ada yang bisa terus-menerus melampaui batas kemampuan mereka.\" Keep existing HTML structure.",
+        "translation_quote": "Tidak ada yang dapat memaksakan diri tanpa batas waktu."
+      },
+      {
+        "location": "source.html <h3> (Part 1 heading + following sentence describing fun-loving homemakers)",
+        "severity": "minor",
+        "source_quote": "Fun-loving, happy, homemakers might have a few dust bunnies under the furniture, but they radiate an aura that draws people to their hearts and homes.",
+        "suggested_fix": "Improve naturalness while keeping meaning: change \"Ibu-ibu yang menyukai kesenangan dan bahagia\" to something like \"Ibu rumah tangga yang ceria dan penuh kegembiraan\" to preserve the positive tone. Example: <p>Ibu rumah tangga yang ceria dan penuh kegembiraan mungkin memiliki beberapa debu di bawah furnitur ...</p>",
+        "translation_quote": "Ibu-ibu yang menyukai kesenangan dan bahagia mungkin memiliki beberapa debu di bawah furnitur, tetapi mereka memancarkan aura yang menarik orang ke hati dan rumah mereka."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

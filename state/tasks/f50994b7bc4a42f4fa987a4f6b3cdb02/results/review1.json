@@ -1,0 +1,78 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b58e70a6-aa22-455a-ba19-8ed9a33033fc",
+    "response_id": "chatcmpl-EUH3ag0qQkdCVW9xuBIiJ1T9frQnv",
+    "usage": {
+      "completion_tokens": 1120,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6284,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7404
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<h2>The Doctrine of Nonresistance</h2>",
+        "severity": "critical",
+        "source_quote": "<h2>The Doctrine of Nonresistance</h2>",
+        "suggested_fix": "Translate the heading text to Bengali while preserving the tag exactly. For example: <h2>অপ্রতিরোধীতার মতবাদ</h2>",
+        "translation_quote": "<h2>The Doctrine of Nonresistance</h2>"
+      },
+      {
+        "location": "<h2>The Emphasis of Biblical Foundations</h2>",
+        "severity": "critical",
+        "source_quote": "<h2>The Emphasis of Biblical Foundations</h2>",
+        "suggested_fix": "Translate the heading text to Bengali while preserving the tag exactly. For example: <h2>বাইবেলীয় ভিত্তির ওপর জোর</h2>",
+        "translation_quote": "<h2>The Emphasis of Biblical Foundations</h2>"
+      },
+      {
+        "location": "<h2>Importance of Practical Salvation</h2>",
+        "severity": "critical",
+        "source_quote": "<h2>Importance of Practical Salvation</h2>",
+        "suggested_fix": "Translate the heading text to Bengali while preserving the tag exactly. For example: <h2>ব্যবহারিক উদ্ধার-প্রক্রিয়ার গুরুত্ব</h2>",
+        "translation_quote": "<h2>Importance of Practical Salvation</h2>"
+      },
+      {
+        "location": "<h2>The Seriousness of a Pure Church</h2>",
+        "severity": "critical",
+        "source_quote": "<h2>The Seriousness of a Pure Church</h2>",
+        "suggested_fix": "Translate the heading text to Bengali while preserving the tag exactly. For example: <h2>বিশুদ্ধ চার্চের গুরুত্ব/গম্ভীরতা</h2>",
+        "translation_quote": "<h2>The Seriousness of a Pure Church</h2>"
+      },
+      {
+        "location": "<h2>The Teachings of Practical Christianity</h2>",
+        "severity": "critical",
+        "source_quote": "<h2>The Teachings of Practical Christianity</h2>",
+        "suggested_fix": "Translate the heading text to Bengali while preserving the tag exactly. For example: <h2>ব্যবহারিক খ্রীষ্টিয়তার শিক্ষা</h2>",
+        "translation_quote": "<h2>The Teachings of Practical Christianity</h2>"
+      },
+      {
+        "location": "<h2>Conclusion</h2>",
+        "severity": "major",
+        "source_quote": "<h2>Conclusion</h2>",
+        "suggested_fix": "Translate the heading text to Bengali while preserving the tag exactly. For example: <h2>উপসংহার</h2>",
+        "translation_quote": "<h2>Conclusion</h2>"
+      },
+      {
+        "location": "Paragraph mentioning book title: “Pride and Humility”",
+        "severity": "major",
+        "source_quote": "In his book, “Pride and Humility,” John M. Brenneman maintains that the outward appearance of a person is directly related to his inward heart, ...",
+        "suggested_fix": "Preserve the quoted book title exactly as in the English source (including punctuation and capitalization) or, if the style guide requires, place a Bengali translation immediately after the original title in parentheses. Keep the surrounding HTML and punctuation unchanged. Example: In his book, “Pride and Humility” (\"গর্ব ও বিনয়\"), John M. Brenneman maintains ...",
+        "translation_quote": "তিনি বই “Pride and Humility” তে, জন এম. ব্রেনেম্যান রক্ষা করেন যে একজন ব্যক্তির বাহ্যিক চেহারা ..."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

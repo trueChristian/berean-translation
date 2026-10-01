@@ -2,7 +2,6 @@
   "article_id": "cdb88be0-93b0-4362-bc3b-1488aff1a76f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:46+00:00",
   "events": [
@@ -24,6 +23,69 @@
         },
         "total_tokens": 1797
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1282,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1546,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2828
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> first stanza, line 3-4",
+      "severity": "major",
+      "source_quote": "What joy the happy earth to greet\n    In new, bright raiment clad!",
+      "suggested_fix": "Replace the translation of these two lines with a faithful rendering that preserves the sense \"What joy to greet the happy earth, clothed in new, bright raiment!\" e.g.: \"Hvilken fryd å møte den glade jord,\n    Kledd i ny, lys drakt!\" — keep the HTML structure unchanged.",
+      "translation_quote": "Hvilken fryd å møte jordens møte\n    I nytt, lyst draktelag!"
+    },
+    {
+      "location": "<div class=\"poem\"> second stanza, line 2",
+      "severity": "minor",
+      "source_quote": "I greet Thy going forth;",
+      "suggested_fix": "Use a more idiomatic and accurate Norwegian rendering of \"I greet Thy going forth;\" e.g.: \"Jeg hilser Din utgang\" or \"Jeg hilser Din utferd\" — replace only the text inside the <p> tag.",
+      "translation_quote": "Jeg hilser Din utgangs ferd;"
+    },
+    {
+      "location": "<div class=\"poem\"> third stanza, line 4",
+      "severity": "major",
+      "source_quote": "These new births more divine:",
+      "suggested_fix": "Restore the intended meaning that these are \"new births\" that are \"more divine.\" Suggested translation: \"Disse nyfødte, mer guddommelige fødsler:\" or, more idiomatically, \"Disse nyfødte og mer guddommelige fødsler:\" — keep punctuation and tags unchanged.",
+      "translation_quote": "Disse nyfødte mer guddommelige fødsler:"
+    },
+    {
+      "location": "<div class=\"poem\"> fourth stanza, line 1",
+      "severity": "major",
+      "source_quote": "This new-born glow of faith so strong,",
+      "suggested_fix": "The phrase \"glow of faith\" was rendered as \"mot til tro\" (courage to faith), which changes the meaning. Suggestion: \"Denne nyfødte troens glød så sterk,\" or \"Denne nyfødte, så sterke troens glød,\" — replace only the clause inside the <p> tag.",
+      "translation_quote": "Dette nyfødte mot til tro så sterk,"
+    },
+    {
+      "location": "<div class=\"poem\"> first stanza, line 4",
+      "severity": "minor",
+      "source_quote": "In new, bright raiment clad!",
+      "suggested_fix": "The compound noun \"draktelag\" is non‑idiomatic in Bokmål. Use \"drakt\" or \"drakt!\" or \"kledd i ny, lys drakt!\" to be idiomatic. Replace only the phrase inside the <p> tag.",
+      "translation_quote": "I nytt, lyst draktelag!"
+    },
+    {
+      "location": "<div class=\"poem\"> image alt attribute",
+      "severity": "minor",
+      "source_quote": "White orchids with purple centers",
+      "suggested_fix": "The alt text is acceptable but could be slightly more natural as \"Hvite orkideer med lilla midt\" or \"Hvite orkideer med lilla midtparti\" if you prefer; this is optional. No HTML structural change required.",
+      "translation_quote": "Hvite orkideer med lilla sentrum"
     }
   ],
   "id": "170120148dec5baa796a1ad0a25f106d",
@@ -69,11 +131,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/77e936fd3992ec154fecd4e753dcaf1c210f965f21cd72ac0e78032ca820afc1.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "15ac9c1b97edbe073ae811f5fd305d02a68542aeb9f44f03ca5e9732f904625a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

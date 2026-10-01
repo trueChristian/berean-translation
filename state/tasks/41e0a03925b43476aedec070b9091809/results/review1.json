@@ -1,0 +1,78 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d46a8a2a-a4c6-4d10-bd9a-fe90dbbea685",
+    "response_id": "chatcmpl-EUH3Y71ABWyOstVuYGcz7Y9gC6Mvl",
+    "usage": {
+      "completion_tokens": 2490,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7955,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10445
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 2 (Scripture summary)",
+        "severity": "critical",
+        "source_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”",
+        "suggested_fix": "Translate the quoted Scripture phrases into Italian, preserving the exact printed English meaning and the scripture references, and keep original HTML structure. Example replacements inside the same paragraph: “Beati i puri di cuore” (Matteo 5:8). “Affinché riconosciate le cose eccellenti; affinché siate sinceri (puri) e senza offesa fino al giorno di Cristo” (Filippesi 1:10). “Pensate a cose pure” (Filippesi 4:8). “Conservati puro” (1 Timoteo 5:22). In Apocalisse 19: “I puri di cuore vedranno Dio.” Salmo 24:3-4: “Chi salirà al monte del Signore? Chi ha le mani innocenti e il cuore puro.” Ensure the Italian rendering reflects the printed English wording used in the source rather than substituting a different Bible version.",
+        "translation_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”"
+      },
+      {
+        "location": "Paragraph 6 (I John 1:6)",
+        "severity": "major",
+        "source_quote": "I John 1:6 says, “if we say that we have fellowship with Him and walk in darkness (light on the outside and darkness on the inside), we lie and do not practice the truth.”",
+        "suggested_fix": "Render the quoted clause into Italian, keeping the scripture reference and conveying the printed English meaning. Example: “1 Giovanni 1:6 dice: «Se diciamo che siamo in comunione con lui e camminiamo nelle tenebre (luce all’esterno e oscurità all’interno), noi mentiamo e non pratichiamo la verità.»” Preserve HTML and punctuation.",
+        "translation_quote": "I John 1:6 says, “if we say that we have fellowship with Him and walk in darkness (light on the outside and darkness on the inside), we lie and do not practice the truth.”"
+      },
+      {
+        "location": "Paragraph 11 (Hebrews & Numbers quotes)",
+        "severity": "major",
+        "source_quote": "Hebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).” ... Numbers 32:23 is still very true, saying, “Be sure your sin will find you out.”",
+        "suggested_fix": "Translate these quoted Scripture sentences into Italian, preserving the printed-English meaning and references. Example: “Ebrei 4:13 dice: «Non c’è infatti alcuna creatura che non sia manifesta davanti a lui; anzi tutte le cose sono scoperte e messe a nudo agli occhi di colui al quale noi dobbiamo rendere conto.»” and “Numeri 32:23: «Sappi bene che il tuo peccato ti raggiungerà.»” Keep HTML unchanged.",
+        "translation_quote": "Hebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).” ... Numbers 32:23 is still very true, saying, “Be sure your sin will find you out.”"
+      },
+      {
+        "location": "Multiple locations: long quoted biblical/descriptive lines left in English (James 1:15, John 10:10, James 1:15/16, Daniel reference, Psalm/quotation contexts)",
+        "severity": "critical",
+        "source_quote": "Examples: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” (James 1:15). In John 10:10, Jesus said, “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy” ... “Then when lust hath conceived...” (repeated).",
+        "suggested_fix": "Translate every in-line quoted scripture or extended English biblical phrase into Italian, matching the printed-English content and keeping the scripture citation. Do this consistently wherever biblical quotes appear (James, John, etc.). Maintain the same HTML markup and punctuation.",
+        "translation_quote": "“Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” (James 1:15). In John 10:10, Jesus said, “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy” ..."
+      },
+      {
+        "location": "Section heading and subheadings (end portion)",
+        "severity": "major",
+        "source_quote": "<h2>How can we live a morally pure life?</h2>  <p><strong>Be Humble.</strong> James 5 says, “Confess your faults one to another that ye may be healed.” ... <p><strong>Be Honest.</strong> ... <p><strong>Be transparent.</strong> ... <p><strong>Tell yourself the truth.</strong> ... <p><strong>Teach your eyes to bounce.</strong>",
+        "suggested_fix": "Translate the H2 heading and the bold subheadings into Italian. Example: <h2>Come possiamo vivere una vita moralmente pura?</h2> and subheads: <strong>Sii umile.</strong>, <strong>Sii onesto.</strong>, <strong>Sii trasparente.</strong>, <strong>Di' la verità a te stesso.</strong>, <strong>Insegna ai tuoi occhi a distogliersi.</strong> Keep the scripture quotations (inside these sections) translated as recommended above and preserve HTML tags.",
+        "translation_quote": "<h2>How can we live a morally pure life?</h2>  <p><strong>Be Humble.</strong> James 5 says, “Confess your faults one to another that ye may be healed.” ... <p><strong>Be Honest.</strong> ... <p><strong>Be transparent.</strong> ... <p><strong>Tell yourself the truth.</strong> ... <p><strong>Teach your eyes to bounce.</strong>"
+      },
+      {
+        "location": "Poems and short epigraphs at end (two blockquotes)",
+        "severity": "major",
+        "source_quote": "<em>Two forces lie within my breast,\n    The one I love, the one I hate.\n    But the one I feed will dominate.</em> —The author’s dad\n\n<em>The more honestly I name\n    what is true about myself,\n    The less I need to hide and defend,\n    and posture and pretend.</em> —Dan Allender",
+        "suggested_fix": "Translate both short poems/epigraphs into Italian, preserving line breaks and attribution and keeping them inside the same <blockquote class=\"poem\"> elements. Example first poem: «Due forze dimorano nel mio petto,/ Una che amo, una che odio./ Ma quella che alimento dominerà.» —Il padre dell’autore. And similarly translate the Dan Allender excerpt into idiomatic Italian. Do not alter HTML structure.",
+        "translation_quote": "<em>Two forces lie within my breast,<br>\n    The one I love, the one I hate.<br>\n    But the one I feed will dominate.</em> … <em>The more honestly I name<br>\n    what is true about myself,<br>\n    The less I need to hide and defend,<br>\n    and posture and pretend.</em> …"
+      },
+      {
+        "location": "Throughout article — mixture of English and Italian left inconsistent (numerous sentences left in English)",
+        "severity": "minor",
+        "source_quote": "Multiple instances where English phrases are left (e.g., “Promise Keepers said 65% of men in their survey were addicted.”; several occurrences of names/phrases in English).",
+        "suggested_fix": "Complete the translation by rendering these remaining English sentences/phrases into Italian, ensuring consistency and idiomatic style. Keep proper nouns and organization names (e.g., Promise Keepers) in original if desired but clarify in Italian context.",
+        "translation_quote": "Examples in translation: “Promise Keepers said 65% of men in their survey were addicted.” and other English fragments."
+      }
+    ],
+    "passed": false,
+    "score": 64
+  }
+}

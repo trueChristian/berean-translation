@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9858a922-60d2-4c6e-9072-1658a5b86b23",
+    "response_id": "chatcmpl-EUH4JWRtFKJpePxNPTWka58bZOyoq",
+    "usage": {
+      "completion_tokens": 1011,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8604,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9615
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 2 (first sentence) in translation HTML",
+        "severity": "minor",
+        "source_quote": "This hymn became precious to my family and me several years ago as we awaited the birth of our fourth genetically challenged baby.",
+        "suggested_fix": "Correct Swedish demonstrative pronoun for natural contemporary Swedish: replace \"Denne psalm\" with \"Denna psalm\" (preserve surrounding tags). For example: <p>Denna psalm blev kär för min familj ...</p>",
+        "translation_quote": "Denne psalm blev kär för min familj och mig för flera år sedan medan vi väntade födelsen av vårt fjärde genetiskt utmanade barn."
+      },
+      {
+        "location": "Title and hymn text kept in English",
+        "severity": "minor",
+        "source_quote": "The Sands of Time Are SINKING  (title)  and the full hymn stanzas in English as printed in source HTML",
+        "suggested_fix": "If the publication's style requires full translation into the target language, translate the title and hymn text into Swedish. If the hymn is intentionally preserved in its original English in this edition, add a short Swedish editorial note (within the same HTML structure) indicating that the hymn text is presented in the original English. Do not alter the hymn HTML structure—either replace the text nodes or add one sentence before the <div class=\"hymn\"> block, e.g. <p>Psalmtexten följer på engelska i original:</p> or translate each stanza into Swedish preserving the <div class=\"hymn\"> and <p> tags.</p>",
+        "translation_quote": "title: \"The Sands of Time Are SINKING\"; hymn stanzas: all 19 stanzas remain in English within <div class=\"hymn\">...</div>."
+      },
+      {
+        "location": "Parenthetical editorial note near hymn reference \"(in bold copy)\"",
+        "severity": "minor",
+        "source_quote": "Out of the nineteen original verses, only four are used in our hymn books. (in bold copy)",
+        "suggested_fix": "Translate the parenthetical editorial note into Swedish for consistency with surrounding text, preserving the <em> tag. For example: replace <em>(in bold copy)</em> with <em>(i fet stil)</em>.",
+        "translation_quote": "<em>(in bold copy)</em>"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

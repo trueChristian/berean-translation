@@ -2,7 +2,6 @@
   "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 9141
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1446,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8814,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10260
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html paragraph 7 (quote)",
+      "severity": "major",
+      "source_quote": "\"I have received the commission from the royal and princely Master, my Lord Jesus, to preach Christ to the people.\"",
+      "suggested_fix": "Translate the phrase accurately and respectfully, preserving 'royal and princely' meaning. Example replacement (preserve surrounding HTML): \"\\\"Nimepokea mamlaka kutoka kwa Mwalimu wa kifalme na wa kifalme mwenye heshima, Bwana wangu Yesu, kuhubiri Kristo kwa watu.\\\"\"",
+      "translation_quote": "\"Nimepokea mamlaka kutoka kwa Mwalimu wa kifalme na wa kijinga, Bwana wangu Yesu, kuhubiri Kristo kwa watu.\""
+    },
+    {
+      "location": "source.html — hymn block (entire hymn stanzas)",
+      "severity": "critical",
+      "source_quote": "All 19 original hymn stanzas (The sands of time are sinking ... In Immanuel’s land.)",
+      "suggested_fix": "The hymn text in source.html is a substantive passage. If the target-language article is intended to be fully translated into Kiswahili, translate the hymn stanzas into Kiswahili (or explicitly preserve the original English only if that is the publisher's policy). Provide the translated stanza text while preserving the exact HTML structure (the <div class=\"hymn\"> and <p><em>/<strong><em> tags). Example: replace the English lines inside the <div class=\"hymn\"> with their Kiswahili equivalents, keeping tags and line breaks unchanged.",
+      "translation_quote": "(Hymn left entirely in English inside the <div class=\"hymn\"> block; e.g., \"The sands of time are sinking, The dawn of heaven breaks, ... In Immanuel’s land.\")"
+    },
+    {
+      "location": "source.html paragraph 5 (well incident)",
+      "severity": "minor",
+      "source_quote": "\"When they returned, they found a very wet Samuel sitting on the grass beside the well.\"",
+      "suggested_fix": "Correct the Kiswahili to convey that Samuel was wet (from being pulled out of the well) rather than 'carrying water'. Suggested fix (preserve HTML): replace the sentence with: \"Waliporudi, walimpata Samuel akiwa na mwili umechafuka na maji, amekaa kwenye nyasi karibu na kisima.\"",
+      "translation_quote": "\"Waliporudi, walimpata Samuel akiwa amebeba maji karibu na kisima.\""
+    },
+    {
+      "location": "source.html paragraph 11 (Rutherford quoted line)",
+      "severity": "major",
+      "source_quote": "\"O but Christ hath a saving eye. When He first looked on me I was saved. It cost Him but a look to make hell quit to me.\"",
+      "suggested_fix": "Render the quoted English sense faithfully into Kiswahili, preserving the force of the original. For example (preserve surrounding HTML/quote marks): \"\\\"Ee, lakini Kristo ana jicho la kuokoa. Aliponitazama mara ya kwanza nilikuokoka. Ilimgharimu tu kuangalia moja kumfanya kuzimu kuniondolee.\\\"\" Replace the garbled Kiswahili with a clear, equivalent rendering of the English quote.",
+      "translation_quote": "\"Alisema, \\\"Ee lakini Kristo ana jicho la kuokoa. Alipolitania kwangu mara ya kwanza nilikuokoka. Ilimgharimu tu kuangalia kufanya kuzimu kuninyooshea.\\\"\""
     }
   ],
   "id": "386ca23becba1bc7c4ec9be448ee9e13",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 62,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c48182e3f5033a08822c2237c3e9e7faab5b80302e823695d8ba3dd0faead4e3.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

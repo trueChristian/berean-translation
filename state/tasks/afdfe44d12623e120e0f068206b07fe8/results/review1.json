@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "aa6c9a11-20f5-4c01-8511-589ab6166a26",
+    "response_id": "chatcmpl-EUH44Epva3VRuVkrA1BdrHzEVTX5a",
+    "usage": {
+      "completion_tokens": 1603,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3360,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4963
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p> ... Καθώς γράφω αυτό, οι Μουσουλμάνοι βρίσκονται στη μέση του Ραμαζανιού, ενός μηνιαίου τέμένους νηστείας. Νηστεύουν ...</p>",
+        "severity": "major",
+        "source_quote": "As I write this, Muslims are in the middle of Ramadan, a month-long season of fasting.",
+        "suggested_fix": "Replace the mistranslated phrase with a correct rendering. Example: \"Καθώς γράφω αυτό, οι Μουσουλμάνοι βρίσκονται στη μέση του Ραμαζανιού, μιας μηνιαίας περιόδου νηστείας.\" Preserve existing HTML tags and attributes.",
+        "translation_quote": "Καθώς γράφω αυτό, οι Μουσουλμάνοι βρίσκονται στη μέση του Ραμαζανιού, ενός μηνιαίου τέμένους νηστείας."
+      },
+      {
+        "location": "<p class=\"drop-cap\">Η άνοιξη ... Τα «άνοιξήρικα» βατραχάκια ...</p>",
+        "severity": "minor",
+        "source_quote": "This year the spring peepers in our area were “winter peepers” as they feebly squeaked their greetings to the arriving spring in mid-February.",
+        "suggested_fix": "Use an established Modern Greek term or a clear descriptive translation for 'spring peepers' instead of the coined form «άνοιξήρικα». Example: \"Φέτος τα μικρά ανοιξιάτικα βατραχάκια (spring peepers) στην περιοχή μας ήταν...\" — or simply \"...τα μικρά βατραχάκια της άνοιξης...\" Preserve the HTML structure.",
+        "translation_quote": "Φέτος τα «άνοιξήρικα» βατραχάκια στην περιοχή μας ήταν «χειμωνιάτικα βατραχάκια», καθώς ασθενικά τσίριζαν τους χαιρετισμούς τους στην επερχόμενη άνοιξη στα μέσα Φεβρουαρίου."
+      },
+      {
+        "location": "<p class=\"drop-cap\">Η άνοιξη ... Τα μεταναστευτικά υδρόβια πουλιά φέρνουν νέους ήχους καθώς κορνάρουν και βγάζουν ενοχλητικούς ήχους ...</p>",
+        "severity": "minor",
+        "source_quote": "Migrating waterfowl bring new sounds as they honk and quack their way to their final nesting places.",
+        "suggested_fix": "Translate the onomatopoeic verbs more precisely to reflect 'honk and quack' rather than the general 'ενοχλητικούς ήχους'. Example: \"...καθώς κορνάρουν και κουάκ-κουάκ κάνουν στο δρόμο τους...\" or \"...καθώς κορνάρουν και κουρούνουν (quack) καθ' οδόν προς τις τελικές φωλιές τους.\" Preserve tags.",
+        "translation_quote": "Τα μεταναστευτικά υδρόβια πουλιά φέρνουν νέους ήχους καθώς κορνάρουν και βγάζουν ενοχλητικούς ήχους στο δρόμο τους προς τους τελικούς τόπους φωλιάσματος."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

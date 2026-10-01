@@ -2,7 +2,6 @@
   "article_id": "45c612ff-1966-4079-9ba5-09ab022917ea",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 6679
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1555,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6426,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7981
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<p>…“And I heard a voice from heaven, as the voice of many waters, and as the voice of a great thunder: and I heard the voice of harpers harping with their harps” (Revelation 14:2) …</p>",
+      "severity": "critical",
+      "source_quote": "\"And I heard a voice from heaven, as the voice of many waters, and as the voice of a great thunder: and I heard the voice of harpers harping with their harps\" (Revelation 14:2) According to the book of Revelation, God's throne is surrounded by sound: thundering and lightning; praises flowing from the angels, the four beasts and twenty elders, and the great multitude which no man can number; and the new song by the one hundred and forty four thousand.",
+      "suggested_fix": "Restore the original wording/numbering exactly as in the authoritative English source. In the translated paragraph, change the phrase \"четырех животных и двадцати четырех старейшин\" to match the source's phrasing \"the four beasts and twenty elders\", rendered in Russian as \"четырех животных и двадцати старейшин\" (keep the same numeric/wording as the English source). Preserve all surrounding HTML and punctuation.",
+      "translation_quote": "\"And I heard a voice from heaven, as the voice of many waters, and as the voice of a great thunder: and I heard the voice of harpers harping with their harps\" (Revelation 14:2) По книге Откровения трон Божий окружен звуком: гром и молнии; хвалы, льющиеся от ангелов, четырех животных и двадцати четырех старейшин, и великого множества, которое никто не может сосчитать; и новая песнь ста сорока четырех тысяч."
+    },
+    {
+      "location": "<article> <p>first paragraph beginning 'Удивительное в том, чтобы быть христианином…'</p>",
+      "severity": "minor",
+      "source_quote": "\"...although we know that our wildest imaginations will be exceeded.\"",
+      "suggested_fix": "Change the Russian rendering \"будут преувеличены\" (which reads as \"will be exaggerated\") to a closer match of the English meaning \"will be exceeded\". Suggested phrasing: \"хотя мы знаем, что даже наши самые смелые воображения будут превзойдены.\" Preserve existing HTML tags and order.",
+      "translation_quote": "\"...хотя мы знаем, что даже наши самые смелые воображения будут преувеличены.\""
+    },
+    {
+      "location": "metadata: source.subtitle",
+      "severity": "minor",
+      "source_quote": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2",
+      "suggested_fix": "Translate the subtitle into Russian to match the target-language guidance. Suggested translation (preserving citation): \"Из Сиона восияло совершенство красоты; Бог явил Себя. Псалом 49:2\" or a literal rendering \"Из Сиона восияло совершенство красоты; Бог явил Себя. Psalms 50:2\". Ensure the subtitle field contains the Russian text (keep scripture reference in English or translated consistently with house style).",
+      "translation_quote": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2"
     }
   ],
   "id": "970cb7b1e0ca8250a2dc7f0abbd3d91b",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8ff6615d88d56d991342498ce45e0382ed69e4ee6f5e71d66558a915bc80e645.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "307ff3dcec107109e8c031e07835839a270150b1f8308d14b1a8b6811fd4f56d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

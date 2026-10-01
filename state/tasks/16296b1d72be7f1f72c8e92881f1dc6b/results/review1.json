@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e808140b-90fb-4467-b7b4-4d19484f3c08",
+    "response_id": "chatcmpl-EUH4LkrPu3SZlaEkJSZb1LxXN2LGv",
+    "usage": {
+      "completion_tokens": 959,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5404,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6363
+    }
+  },
+  "received_at": "2026-10-01T20:28:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first <h2> element",
+        "severity": "major",
+        "source_quote": "The Doctrine of Nonresistance",
+        "suggested_fix": "Replace the h2 text with its Mandarin equivalent while preserving the tag. For example: <h2>非抵抗的教义</h2>",
+        "translation_quote": "The Doctrine of Nonresistance"
+      },
+      {
+        "location": "source.html — second <h2> element",
+        "severity": "major",
+        "source_quote": "The Emphasis of Biblical Foundations",
+        "suggested_fix": "Replace the h2 text with its Mandarin equivalent while preserving the tag. For example: <h2>圣经根基的重视</h2>",
+        "translation_quote": "The Emphasis of Biblical Foundations"
+      },
+      {
+        "location": "source.html — third <h2> element",
+        "severity": "major",
+        "source_quote": "Importance of Practical Salvation",
+        "suggested_fix": "Replace the h2 text with its Mandarin equivalent while preserving the tag. For example: <h2>实践性救恩的重要性</h2>",
+        "translation_quote": "Importance of Practical Salvation"
+      },
+      {
+        "location": "source.html — fourth <h2> element",
+        "severity": "major",
+        "source_quote": "The Seriousness of a Pure Church",
+        "suggested_fix": "Replace the h2 text with its Mandarin equivalent while preserving the tag. For example: <h2>纯洁教会的严肃性</h2>",
+        "translation_quote": "The Seriousness of a Pure Church"
+      },
+      {
+        "location": "source.html — fifth <h2> element",
+        "severity": "major",
+        "source_quote": "The Teachings of Practical Christianity",
+        "suggested_fix": "Replace the h2 text with its Mandarin equivalent while preserving the tag. For example: <h2>实践基督教的教导</h2>",
+        "translation_quote": "The Teachings of Practical Christianity"
+      },
+      {
+        "location": "source.html — sixth <h2> element",
+        "severity": "major",
+        "source_quote": "Conclusion",
+        "suggested_fix": "Replace the h2 text with its Mandarin equivalent while preserving the tag. For example: <h2>结论</h2>",
+        "translation_quote": "Conclusion"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

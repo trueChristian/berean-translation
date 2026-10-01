@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d9f6f413-3312-4263-9d5f-28a395b5e38b",
+    "response_id": "chatcmpl-EUH4OgpgUX8b25d1aThmdAieBaRi0",
+    "usage": {
+      "completion_tokens": 1870,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1216,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1559,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3429
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> stanza 4, line 3",
+        "severity": "major",
+        "source_quote": "This new-born ecstasy of song,",
+        "suggested_fix": "Replace the phrase with a translation that keeps \"song\" as the domain of the ecstasy. Example: \"התלהבות שיר חדשה,\" or more idiomatically \"התלהבות השיר החדש\" (preserving noun 'song' rather than inserting 'creation'). Keep original HTML structure and tags.",
+        "translation_quote": "זה התלהבות היצירה בשיר החדש,"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 5, line 2-3",
+        "severity": "major",
+        "source_quote": "Divine Redeemer, graciously\nRenew this heart of mine.",
+        "suggested_fix": "Render the plea as a request to renew the heart rather than to 'bless'. Example: \"גואל אלוהי, ברחמיך חסד\nחדש את לבי הזה.\" or \"גואל אלוהי, ברוח רחמזך חנני וחדש את לבי.\" Preserve the original vocative order and HTML tags.",
+        "translation_quote": "גואל אלוהי, ברך בחסד\nוחדש לב זה שלי."
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 2, line 2",
+        "severity": "minor",
+        "source_quote": "I greet Thy going forth;",
+        "suggested_fix": "Use a more natural Hebrew rendering for 'I greet Thy going forth' that preserves the sense of welcoming the Redeemer's coming, e.g. \"אני מברך את יציאתך\" or \"אני מקדם את צאתך\" rather than \"אני מקבל את צאתך\". Keep HTML tags as in source.",
+        "translation_quote": "אני מקבל את צאתך;"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 1, line 2",
+        "severity": "minor",
+        "source_quote": "The newborn life, how glad!",
+        "suggested_fix": "Prefer singular/collective rendering closer to the English singular 'life' (\"החיים שנולדו\" is plural). Suggest: \"החיים שנולדו, כמה עליזים/עליזה!\" or better: \"החיים החדשים, כמה עליזים!\" Adjust gender/number to match Hebrew idiom while keeping meaning.",
+        "translation_quote": "החיים שנולדו, כמה עליזים!"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 2, line 4",
+        "severity": "minor",
+        "source_quote": "I love Thee in the loveliness\nOf Thy renewed earth.",
+        "suggested_fix": "Avoid adding 'מתוק' or changing 'earth' to 'world'. Suggested: \"אני אוהב אותך ביופיה של אדמתך המתחדשת.\" or \"אני אוהב אותך ביופיו של עולמך המתחדש\" only if 'world' intended; prefer 'אדמתך' to match 'earth'. Preserve tags.",
+        "translation_quote": "אני אוהב אותך ביופיו המתוק של עולמך המתחדש."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "09583f64-2669-490d-98bd-9c16cc2ceb86",
+    "response_id": "chatcmpl-EUH47QZ0HMSP7HQgq2H0xYiI2bcOK",
+    "usage": {
+      "completion_tokens": 1211,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3877,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5088
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Paragraph: \"Together they hunted in the woods and the shed for boards and logs to finish the house.\"",
+        "severity": "major",
+        "source_quote": "Together they hunted in the woods and the shed for boards and logs to finish the house.",
+        "suggested_fix": "Replace the translated fragment 'تختے اور ٹھنڈے ڈھونڈے' with 'تختے اور گِھاس/لاگ/لَٹَھ (لاگ)' or better: 'تختے اور لکڑی کے لٹخے/لَٹھ' — recommended full translation: 'ساتھ میں انہوں نے جنگل اور شیڈ میں گھر مکمل کرنے کے لیے تختے اور لکڑی کے لٹّھ ڈھونڈے۔'",
+        "translation_quote": "ساتھ میں انہوں نے جنگل اور شیڈ میں تختے اور ٹھنڈے ڈھونڈے تاکہ گھر مکمل ہو سکے۔"
+      },
+      {
+        "location": "<p>Paragraph: \"She threw her apple core to the dogs and started for the house.\"",
+        "severity": "minor",
+        "source_quote": "She threw her apple core to the dogs and started for the house.",
+        "suggested_fix": "Translate 'apple core' more precisely as 'اپنے سیب کا بیج والا حصہ' or 'سیب کا چھلکا والا حصہ' depending on intended meaning; recommended: 'اس نے اپنا سیب کا گٹھلی والا حصہ کتوں کو پھینک دیا اور گھر کی طرف چل پڑی۔'",
+        "translation_quote": "اس نے اپنی سیب کی چھلی کتوں کو پھینک دی اور گھر کی جانب چل پڑی۔"
+      },
+      {
+        "location": "<p>Paragraph: \"“I wanted to go kayaking, but Asher doesn’t want to,” she grumbled.\"",
+        "severity": "minor",
+        "source_quote": "“I wanted to go kayaking, but Asher doesn’t want to,” she grumbled.",
+        "suggested_fix": "'غرارت سے کہا' appears to be a typo or nonstandard. Replace with an idiomatic verb such as 'بڑبڑائی', 'بغض میں کہا', or 'نارا ضی سے کہا'. Recommended: 'اس نے بڑبڑاتے ہوئے کہا۔'",
+        "translation_quote": "\"میں کیاکنگ کرنا چاہتی تھی، مگر آشر نہیں چاہتا،\" اس نے غرارت سے کہا۔"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

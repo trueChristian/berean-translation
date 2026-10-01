@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "2b8ef20c-e7b7-4a5c-b355-059f6a2df392",
+    "response_id": "chatcmpl-EUH4JsimR3hDj3NSFPCoeu3hnBHA6",
+    "usage": {
+      "completion_tokens": 848,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1653,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2501
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<img alt>",
+        "severity": "minor",
+        "source_quote": "alt=\"White orchids with purple centers\"",
+        "suggested_fix": "Use a more literal or widely understood render for “white orchids,” e.g. alt=\"زهور أوركيد بيضاء بمراكز أرجوانية\" to avoid the ambiguous word \"سحلب\".",
+        "translation_quote": "alt=\"سحلب أبيض بمراكز أرجوانية\""
+      },
+      {
+        "location": "<div class=\"poem\"> first stanza, line 3–4",
+        "severity": "minor",
+        "source_quote": "What joy the happy earth to greet\nIn new, bright raiment clad!",
+        "suggested_fix": "Render the sense closer to the English image of joy at greeting the earth clothed in new bright raiment. For example: \"يا لها من بهجةٍ في استقبالِ الأرضِ البهيَّةِِ\nلِلْبَسِها رِداءً جديدًا مُشرقًا!\"—preserving stanza tags and line breaks inside the <p> element.",
+        "translation_quote": "يا لها من بهجةٍ تُحيّي الأرضَ البهيّةَ\nبزينٍ جديدٍ، مشرقٍ يكتسيها!"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

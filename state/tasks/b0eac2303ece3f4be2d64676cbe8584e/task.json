@@ -2,7 +2,6 @@
   "article_id": "31ea7041-cab6-4ccd-9ead-04cc949321a6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:44+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 5818
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 891,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5567,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6458
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<p>Ainsi, une Église pure est un groupe de croyants rendus, remplis de l’Esprit, qui reconnaissent en vraie humilité que leur puissance n’est en aucune manière liée à leur propre mérite.</p>",
+      "severity": "minor",
+      "source_quote": "Thus, a pure church is a surrendered, Spirit-filled group of believers who recognize in true humility that their power is not in any way linked to their own merit.",
+      "suggested_fix": "Preserve meaning and improve French idiom by replacing « rendus » with a clearer phrase that conveys spiritual surrender, e.g. « entièrement soumis » or « consacrés ». Suggested corrected sentence (preserving HTML): <p>Ainsi, une Église pure est un groupe de croyants entièrement soumis, remplis de l’Esprit, qui reconnaissent en vraie humilité que leur puissance n’est en aucune manière liée à leur propre mérite.</p>",
+      "translation_quote": "Ainsi, une Église pure est un groupe de croyants rendus, remplis de l’Esprit, qui reconnaissent en vraie humilité que leur puissance n’est en aucune manière liée à leur propre mérite."
+    },
+    {
+      "location": "<p>Pour le premier mennonite américain, ces positions trahissaient le sens même de son christianisme : il était une personne nouvelle, vivante seulement dans la puissance du Christ qui coulait en lui.</p>",
+      "severity": "minor",
+      "source_quote": "To the early American Mennonite, these types of stances betrayed the very meaning of his Christianity: he was a new person, alive only in the power of Christ that flowed through him.",
+      "suggested_fix": "Correct number/tense to match plural/general sense in source. Replace « Pour le premier mennonite américain » with « Pour le mennonite américain de l'époque » or « Pour les premiers mennonites américains ». Suggested corrected sentence (preserving HTML): <p>Pour les premiers mennonites américains, ces positions trahissaient le sens même de leur christianisme : ils étaient des personnes nouvelles, vivantes seulement dans la puissance du Christ qui coulait en elles.</p>",
+      "translation_quote": "Pour le premier mennonite américain, ces positions trahissaient le sens même de son christianisme : il était une personne nouvelle, vivante seulement dans la puissance du Christ qui coulait en lui."
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:54+00:00",
   "id": "b0eac2303ece3f4be2d64676cbe8584e",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "fra",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/89fccb1e579c0ea7c2e8e4f5bade339b25251e139570b39f442b2c1c8ea4bc11.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "9001af1f34c52b235af4ae22af79ba7fa0d5cf2bf7273485ec1e06a8188fc9a6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

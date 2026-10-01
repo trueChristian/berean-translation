@@ -2,7 +2,6 @@
   "article_id": "e848a36d-36eb-4f7d-aea7-e17ab34a8870",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 9512
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1726,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9182,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10908
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<h2>דמנציה בתנ\"ך</h2> / following <p> (Ecclesiastes 12:1-7 quote)",
+      "severity": "major",
+      "source_quote": "Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”",
+      "suggested_fix": "Translate the entire Ecclesiastes 12:1–7 passage into contemporary Modern Hebrew conveying the exact printed English wording (not substituting a different Bible version). Keep the English reference “Ecclesiastes 12:1-7” (or add the Hebrew book name in parentheses) but render the quoted verses fully in Hebrew, preserving the meaning of the printed English lines and punctuation. Ensure no English words remain inside the quote block.",
+      "translation_quote": "Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”"
+    },
+    {
+      "location": "Paragraph discussing teaching children (Deuteronomy citation)",
+      "severity": "major",
+      "source_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7).",
+      "suggested_fix": "Render the quoted Deuteronomy 6:7 text into contemporary Modern Hebrew matching the printed English quotation's content. Replace the inline English quotation with its Hebrew rendering, and keep the citation (Deuteronomy 6:7) in English or add the Hebrew book name in parentheses. Do not insert mixed-language fragments.",
+      "translation_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7)."
+    },
+    {
+      "location": "Same paragraph: preceding sentence with mixed-language error",
+      "severity": "major",
+      "source_quote": "We are to make certain that we instruct our children about Him. “And thou shalt teach them diligently unto thy children...",
+      "suggested_fix": "The translation currently reads 'עלינו לוודא שאנו מלמדים את ילדים על אותו One.' Replace the mixed-language phrase with a correct Hebrew rendering that preserves the source meaning. Suggested: 'עלינו לוודא שאנו מלמדים את ילדינו עליו.' (Keep the quoted Deuteronomy verse translated into Hebrew as a separate quoted block.)",
+      "translation_quote": "עלינו לוודא שאנו מלמדים את ילדים על אותו One."
+    },
+    {
+      "location": "Conclusion / Galatians quote",
+      "severity": "major",
+      "source_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23).",
+      "suggested_fix": "Translate the Galatians 5:22–23 quotation into contemporary Modern Hebrew while conveying the same printed English wording and word order as far as idiom allows. Keep the scripture citation (Galatians 5:22-23) but render the quoted verse into Hebrew text rather than leaving it in English.",
+      "translation_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23)."
     }
   ],
   "id": "8b366d3652776b0fb9040eeaacc3ce4c",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

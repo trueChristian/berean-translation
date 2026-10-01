@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f30bce1c-0676-4907-93c6-182ed5cf6b1c",
+    "response_id": "chatcmpl-EUH49j6UJFMSmcPlmpsMhsScMcaEu",
+    "usage": {
+      "completion_tokens": 1637,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9643,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11280
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"hymn\"> stanza 2 (within translation_html)",
+        "severity": "critical",
+        "source_quote": "\"Yea, let the vain world vanish,\\nAs from the ship the strand,\\nWhile glory—glory dwelleth\\nIn Immanuel’s land.\"",
+        "suggested_fix": "Render the English image \"As from the ship the strand\" as shore/strand (not window). Replace the mistranslation \"جیسے جہاز سے کھڑکی کا ڈانواں\" with a phrase meaning \"جیسے جہاز سے ساحل کو کاٹا جاتا ہے\" or simply \"جیسے جہاز ساحل سے دور ہو\". Keep surrounding punctuation and HTML exactly as in the translation.",
+        "translation_quote": "\"ہاں، دنیا فانی فنا ہو جائے،<br>\n    جیسے جہاز سے کھڑکی کا ڈانواں،<br>\n    جب کہ جلال—جلال بستا ہے<br>\n    عمّانُوئل کے ملک میں۔\""
+      },
+      {
+        "location": "<p>paragraph about the hymn's origin (source.html and translation_html)",
+        "severity": "major",
+        "source_quote": "\"Out of the nineteen original verses, only four are used in our hymn books.\"",
+        "suggested_fix": "The translation currently uses \"ان ابتدائی انیس مصرعوں\" (lines) which changes 'verses' to 'lines'. Change \"مصرعوں\" to a word meaning 'verses' (e.g., \"اشعار\" or \"مصرحوں/مصرحات\" if preferred) so it faithfully reflects 'verses'. Preserve the <p> and <em> tags and surrounding HTML.",
+        "translation_quote": "\"یہ حمد پہلی بار 1857 میں کرسچن ٹریژری میں شائع ہوا۔ ان ابتدائی انیس مصرعوں میں سے صرف چار ہمارے حمد کی کتابوں میں استعمال ہوتے ہیں۔ <em>(مضبوط نقل)</em>\""
+      },
+      {
+        "location": "<p>paragraph containing Rutherford quote (source.html and translation_html)</p>",
+        "severity": "major",
+        "source_quote": "\"O but Christ hath a saving eye. When He first looked on me I was saved. It cost Him but a look to make hell quit to me.\"",
+        "suggested_fix": "The translation renders the last clause as \"اسے مجھے چھوڑوانے کے لیے صرف ایک نظر کی قیمت لگی۔\" which loses the explicit phrasing about 'make hell quit to me'. Re-render the clause to more closely reflect the printed English, e.g. \"...اسے صرف ایک نظر پہنچی اور اسی سے میرے لیے دوزخ چھوڑ گیا۔\" or \"...مجھے بچانے کے لیے اس کی ایک نظر نے میرے لیے دوزخ کو چھوڑوا دیا۔\" Preserve the original sentence structure and any enclosing tags.",
+        "translation_quote": "\"اُس نے کہا، \\\"اے مگر مسیح کی نجات دینے والی نظر ہے۔ جب اس نے پہلی بار مجھ پر دیکھا تو میں بچ گیا تھا۔ اسے مجھے چھوڑوانے کے لیے صرف ایک نظر کی قیمت لگی۔\\\"\""
+      },
+      {
+        "location": "<p>(in bold copy) parenthetical note near hymn origin (source.html and translation_html)</p>",
+        "severity": "minor",
+        "source_quote": "\"(in bold copy)\"",
+        "suggested_fix": "The source note reads \"(in bold copy)\". The translation uses \"(مضبوط نقل)\" which is a different nuance. Change to a closer Urdu rendering of \"(in bold copy)\" such as \"(بولڈ میں نقل)\" or \"(مؤجرہ بولڈ)\" depending on the site's style, preserving the <em> tags.",
+        "translation_quote": "\"<em>(مضبوط نقل)</em>\""
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

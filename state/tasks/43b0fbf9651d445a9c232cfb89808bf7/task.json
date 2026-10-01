@@ -2,7 +2,6 @@
   "article_id": "62646d6d-87be-47a6-880f-0ade408a3402",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:44+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 3489
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1277,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3046,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4323
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Paragraph 1 (translation)",
+      "severity": "minor",
+      "source_quote": "This year the spring peepers in our area were “winter peepers” as they feebly squeaked their greetings to the arriving spring in mid-February.",
+      "suggested_fix": "Render the nuance of \"feebly squeaked their greetings\" accurately and avoid injecting unrelated wording. For example, replace ''''ونٹر پیپرز''' تھے جب انہوں نے وسطِ فروری میں آنے والی بہار کو زنگ آلود انداز میں خوش آمدید کہا۔' with ''''ونٹر پیپرز''' تھے جب انہوں نے وسطِ فروری میں آنے والی بہار کو زور سے مگر کمزور انداز میں خوش آمدید کہا۔' or '...وسطِ فروری میں آنے والی بہار کو بے جان سی آواز میں خوش آمدید کہا۔'",
+      "translation_quote": "اس سال ہمارے علاقے کے اسپرِنگ پیپرز '''ونٹر پیپرز''' تھے جب انہوں نے وسطِ فروری میں آنے والی بہار کو زنگ آلود انداز میں خوش آمدید کہا۔"
+    },
+    {
+      "location": "Paragraph 2 (translation)",
+      "severity": "minor",
+      "source_quote": "Oh, the magnificence of God’s nature joining forces to proclaim the glory of new life.",
+      "suggested_fix": "Preserve the sense of \"joining forces\"; do not translate as 'عجب جسم'. Replace 'اے خدا کی قدرت کا عجب جسم، جو نئی زندگی کی شان منانے کے لیے متحد ہوتا ہے۔' with 'اے خدا کی قدرت کا شاندار ملاپ، جو نئی زندگی کی جلال کو بیان کرنے کے لیے متحد ہوتا ہے۔' or 'اے خدا کی قدرت کی وہ شان جو نئی زندگی کے جلال کے ابلاغ کے لئے متحد ہوتی ہے۔'",
+      "translation_quote": "اے خدا کی قدرت کا عجب جسم، جو نئی زندگی کی شان منانے کے لیے متحد ہوتا ہے۔"
+    },
+    {
+      "location": "figure img alt attribute (translation)",
+      "severity": "minor",
+      "source_quote": "alt=\"White blossoms beside a small bird nesting in a bowl\"",
+      "suggested_fix": "Include the detail 'in a bowl' present in the English alt text. For example, change the translated alt from 'ایک چھوٹے پرندے کے گھونسلے کے ساتھ سفید پھول' to 'ایک چھوٹے پرندے کے گھونسلے (کٹورے) کے ساتھ سفید پھول' or 'ایک چھوٹے پرندے کے پیالے نما گھونسلے کے ساتھ سفید پھول' while preserving the img tag and its attributes.",
+      "translation_quote": "alt=\"ایک چھوٹے پرندے کے گھونسلے کے ساتھ سفید پھول\""
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:54+00:00",
   "id": "43b0fbf9651d445a9c232cfb89808bf7",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "urd",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5455d2cd09d57a9e870ea92c4b7c08c9a0c8a2c68c077d639797bdc8f61c6072.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

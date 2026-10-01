@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "21e0d7a7-bcdd-4e3a-bb89-9e462b834f3c",
+    "response_id": "chatcmpl-EUH3b8pZ1r1XNyuW0et9jYmm8nNBE",
+    "usage": {
+      "completion_tokens": 1505,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8671,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10176
+    }
+  },
+  "received_at": "2026-10-01T20:28:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Rond 1624 trouwde hij met Eupham Hamilton, kort nadat hij was begonnen met lesgeven aan de Universiteit van Edinburgh. Op dat moment was Samuel nog ongodsdienstig en gaf hij alleen om het nastreven van zijn academische doelen.</p>",
+        "severity": "major",
+        "source_quote": "At this time, Samuel was yet unconverted and cared only for pursuing his academic goals.",
+        "suggested_fix": "Render the theological meaning of 'yet unconverted' precisely. Replace \"Op dat moment was Samuel nog ongodsdienstig\" with \"Op dat moment was Samuel nog niet bekeerd\" (or \"nog niet tot geloof gekomen\").",
+        "translation_quote": "Op dat moment was Samuel nog ongodsdienstig en gaf hij alleen om het nastreven van zijn academische doelen."
+      },
+      {
+        "location": "<p>Rutherford bleef gedurende de volgende 20 jaar tot 1660 een invloedrijke leider in de non‑conformistische beweging in Schotland. Met de dood van Cromwell kwam het bestuur van het gemeen-bestaan ten einde en werd Karel II in ere hersteld.</p>",
+        "severity": "minor",
+        "source_quote": "With the death of Cromwell, the rule of the commonwealth came to an end, and Charles II was restored to power.",
+        "suggested_fix": "Correct the rendering of 'commonwealth' and the idiom. Replace \"het bestuur van het gemeen-bestaan\" with a natural, accurate phrase such as \"het bestuur van het Gemenebest\" or \"het bewind van het Gemenebest\" or simply \"het bewind van de Commonwealth-regering\". E.g.: \"Met de dood van Cromwell kwam het bewind van het Gemenebest ten einde en werd Karel II hersteld in zijn macht.\"",
+        "translation_quote": "Met de dood van Cromwell kwam het bestuur van het gemeen-bestaan ten einde en werd Karel II in ere hersteld."
+      },
+      {
+        "location": "<p>Bijna twee eeuwen later werd Annie Ross Cousin, een Schotse dichteres en gezelschapsliedschrijfster en de vrouw van een predikant, geïnspireerd door het leven en de geschriften van Samuel Rutherford.</p>",
+        "severity": "minor",
+        "source_quote": "Nearly two centuries later, Annie Ross Cousin, a Scottish poet and hymn writer and the wife of a minister, was inspired by the life and writings of Samuel Rutherford.",
+        "suggested_fix": "'Hymn writer' should be translated to indicate Christian hymn composition. Replace \"gezelschapsliedschrijfster\" with e.g. \"hymneschrijfster\", \"gezangschrijfster\" or \"psalmen- en hymneschrijfster\". For example: \"Annie Ross Cousin, een Schotse dichteres en hymneschrijfster en de vrouw van een predikant...\"",
+        "translation_quote": "Bijna twee eeuwen later werd Annie Ross Cousin, een Schotse dichteres en gezelschapsliedschrijfster en de vrouw van een predikant, geïnspireerd door het leven en de geschriften van Samuel Rutherford."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

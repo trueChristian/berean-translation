@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "55ff5188-b10b-472f-8d30-02c34983653c",
+    "response_id": "chatcmpl-EUH3oM8F9LmorQJ4FvxRD31RvEvRI",
+    "usage": {
+      "completion_tokens": 1433,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2895,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4328
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p> paragraph 2 (Psalm quotation)",
+        "severity": "major",
+        "source_quote": "“Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9).",
+        "suggested_fix": "Replace the English quotation with an Arabic rendering that directly conveys the printed English wording (do not substitute a different Bible version). Suggested Arabic text to insert (keeping the parenthetical reference unchanged): “لتصفق الفياض، لتبتهج التلال جميعًا أمام الرب، لأنّه آتٍ ليدين الأرض. بِالبِرّ يَدِين العالم، والشعوب بِقِسطٍ” (Psalms 98:8-9).",
+        "translation_quote": "“Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9)."
+      },
+      {
+        "location": "<p> paragraph 4 (John quotation)",
+        "severity": "major",
+        "source_quote": "“well of water springing up into everlasting life” (John 4:14).",
+        "suggested_fix": "Translate the quoted English phrase into Arabic so it conveys the printed English wording (preserve the verse reference in English). Suggested Arabic text to insert: «بئر ماء يَنابيع إلى حياة أبدية» (John 4:14). Alternatively use a fluent Arabic rendering that follows the English phrasing: «بِئْر ماء يَنبُع إلى حياة أبدية» (John 4:14).",
+        "translation_quote": "\"well of water springing up into everlasting life\" (John 4:14)."
+      },
+      {
+        "location": "<blockquote class=\"poem\"> (hymn stanza)",
+        "severity": "major",
+        "source_quote": "Oh! Christ He is the foutain, The deep sweet well of Love! The streams on earth I’ve tasted, More deep I’ll drink above: There, to an ocean fullness, His mercy doth expand, And glory—glory dwelleth In Immanuel’s land.",
+        "suggested_fix": "The translation introduces the phrase \"يا روح\" and rephrases the hymn in a way that alters the original authorial statement \"Christ He is the fountain\". Preserve the original sense and personal subject (Christ) without adding \"يا روح\". Suggested correction (Arabic preserving the hymn sense): «يا! المسيح هو الينبوع، البئر العميق الحلو للمحبة! التيارات على الأرض قد ذقتها، أعمق سأشرب فوق: هناك، إلى فيض المحيط، رحمتُه تتسع، والمجد — المجد يسكن في أرض عمانوئيل.» Ensure the line breaks/HTML remain identical to the source block.",
+        "translation_quote": "<em>يا روح المسيح هو الينبوع،\n    البئر العميق الحلو للمحبة!<br>\n    التيارات على الأرض ذقتها،\n    أعمق سأشرب فوق:<br>\n    هناك، إلى فيض المحيط،\n    رحمته تتسع،\n    والمجد—المجد يسكن\n    في أرض عمانوئيل.</em>"
+      }
+    ],
+    "passed": false,
+    "score": 52
+  }
+}

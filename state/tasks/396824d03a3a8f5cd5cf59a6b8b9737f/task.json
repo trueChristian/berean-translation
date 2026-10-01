@@ -2,7 +2,6 @@
   "article_id": "45c612ff-1966-4079-9ba5-09ab022917ea",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 6978
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 925,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6790,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7715
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<figure> second <img> alt",
+      "severity": "minor",
+      "source_quote": "A puffball fungus growing on a mossy forest floor",
+      "suggested_fix": "Translate the English description into standard Korean terminology without unnecessary transliteration. For example: replace the img alt value with \"이끼 낀 숲 바닥에서 자라는 포프볼 버섯\" or \"이끼 낀 숲 바닥에서 자라는 둥근 버섯(포프볼)\" while preserving the img tag and attributes.",
+      "translation_quote": "이끼 낀 숲 바닥에서 자라는 포프볼(fungus)"
+    },
+    {
+      "location": "source.subtitle / translation.subtitle",
+      "severity": "minor",
+      "source_quote": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2",
+      "suggested_fix": "Consider providing a Korean rendering of the subtitle (while keeping the original English if desired). For example: replace the subtitle string with \"시온에서 아름다움의 충만이 비치도다(시편 50:2)\" or similar, preserving the subtitle field and any surrounding HTML structure if present.",
+      "translation_quote": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2"
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:54+00:00",
   "id": "396824d03a3a8f5cd5cf59a6b8b9737f",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "kor",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8ff6615d88d56d991342498ce45e0382ed69e4ee6f5e71d66558a915bc80e645.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "307ff3dcec107109e8c031e07835839a270150b1f8308d14b1a8b6811fd4f56d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

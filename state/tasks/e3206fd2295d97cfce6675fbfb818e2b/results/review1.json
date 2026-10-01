@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "add1946c-6e8a-4fdb-afc7-1b9a2e55aba4",
+    "response_id": "chatcmpl-EUH4DXzGRlUAfMqT5fKtbKJ0IOxAQ",
+    "usage": {
+      "completion_tokens": 1095,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9253,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10348
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"hymn\"> (entire hymn stanzas)",
+        "severity": "major",
+        "source_quote": "All 19 hymn stanzas (The sands of time are sinking ... In Immanuel’s land.) — presented in English in source.html",
+        "suggested_fix": "Translate the hymn stanzas into Bengali (or, if the publication policy is to leave hymn texts in the original, explicitly preserve that policy in the translation). Preserve the existing HTML structure and tags exactly (the <div class=\"hymn\"> and contained <p>, <em>, <strong>, <br> tags and line breaks). Do not alter tag order, nesting, or attributes. Provide a Bengali rendering of the stanza text in place of the English lines, keeping stanza numbering and inline markup the same.",
+        "translation_quote": "Entire hymn block remains in English (The sands of time are sinking,... Where glory—glory dwelleth In Immanuel’s land.)"
+      },
+      {
+        "location": "Final quoted lines in article paragraphs",
+        "severity": "major",
+        "source_quote": "\"And glory, glory dwelleth in Immanuel's land.\" and \"They lose nothing who gain Christ.\" (both present in source.html)",
+        "suggested_fix": "Translate these quoted lines into Bengali to match the surrounding translated article text, or preserve them intentionally in English only if that matches editorial policy. If translated, keep the exact surrounding paragraph HTML and punctuation intact and replace only the quoted English text with a Bengali equivalent (preserving quotes and any inline emphasis tags).",
+        "translation_quote": "Both quoted lines remain in English inside the translated paragraphs."
+      },
+      {
+        "location": "Paragraph: \"I have received the commission from the royal and princely Master, my Lord Jesus, to preach Christ to the people.\"",
+        "severity": "minor",
+        "source_quote": "\"... the royal and princely Master, my Lord Jesus ...\"",
+        "suggested_fix": "Avoid repeating the same adjective in Bengali. Replace the translation \"আমার রাজকীয় ও রাজকীয় স্বামী\" with a clearer rendering such as \"আমার রাজকীয় ও রাজসুলভ শ্রেষ্ঠত্ব—আমার প্রভু যিশু\" or simply \"আমার রাজকীয় ও রাজসুলভ প্রভু, আমার যিশু খ্রীষ্ট\" while preserving the original punctuation and quote marks. Keep the original HTML tags and paragraph structure.",
+        "translation_quote": "\"আমি আমার রাজকীয় ও রাজকীয় স্বামী, আমার প্রভু যিশু থেকে লোককে খ্রিস্ট প্রচার করার কমিশন পেয়েছি।\""
+      },
+      {
+        "location": "Proper nouns: Anwoth spelling inconsistency",
+        "severity": "minor",
+        "source_quote": "Source uses \"Anwoth\" consistently",
+        "suggested_fix": "Standardize the Bengali transliteration of the place name Anwoth across the article (for example, use consistently 'আনওথ' or 'আনওথে' depending on grammatical case). Make the change in-place, preserving HTML tags and attributes.",
+        "translation_quote": "Both \"আনওথে\" and \"আনওথ\" appear in different paragraphs."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

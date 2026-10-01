@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f931351e-6102-4d1d-9e22-a59391cb83c7",
+    "response_id": "chatcmpl-EUH3Z0NX7iHCOU5hKzJefBJAsgwNd",
+    "usage": {
+      "completion_tokens": 678,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5395,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6073
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html — paragraph beginning \"También es importante para el bien de la iglesia...\"",
+        "severity": "minor",
+        "source_quote": "It is also important for the sake of the church that the believer be firmly committed and engaged in the steady growth of his faith.",
+        "suggested_fix": "Remove the duplicated word so the sentence reads naturally in Spanish. For example: \"También es importante para el bien de la iglesia que el creyente esté firmemente comprometido en el crecimiento constante de su fe.\" Preserve existing HTML tags and structure.",
+        "translation_quote": "También es importante para el bien de la iglesia que el creyente esté firmemente comprometido y comprometido en el crecimiento constante de su fe."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

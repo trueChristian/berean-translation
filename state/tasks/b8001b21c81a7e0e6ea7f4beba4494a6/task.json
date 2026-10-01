@@ -2,7 +2,6 @@
   "article_id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 6615
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1317,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6363,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7680
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<p>…He stopped to think, and his crying quit. “Then why am I here? \" he wondered. “Have I done something wrong? God must not love little children. That song is not true! If God loved me I would not be here!\" With that conclusion, he burst into tears and lost hope in God. He woke the next morning, still hidden behind the door.</p>",
+      "severity": "major",
+      "source_quote": "“Jesus loves the little children, all the children of the world.”",
+      "suggested_fix": "Translate the quoted hymn line into Italian (conveying the exact printed English sentence) and keep it inside the same paragraph and punctuation. Example replacement (preserving tags): “Gesù ama i bambini, tutti i bambini del mondo.”",
+      "translation_quote": "“Jesus loves the little children, all the children of the world.”"
+    },
+    {
+      "location": "<p>L’odore persistente di fumo … “Cosa ne pensi, Josh?” chiesi al mio fedele, silenzioso amico.</p>\n  <p>“Non lo so,” rispose, e ricadiamo nel silenzio angosciato per l’esito del nostro presunto studio biblico, cercando una spiegazione per la terribile reazione.</p>",
+      "severity": "minor",
+      "source_quote": "“I don’t know, \" he responded, and we fell back into silent anguish at the outcome of our supposed Bible study, grasping for an explanation for the terrible response.",
+      "suggested_fix": "Keep past tense to match the source narrative. Replace \"ricadiamo\" with past tense \"ricademmo\" (or \"siamo ricaduti\" depending on register) while preserving surrounding punctuation and tags. Example: “Non lo so,” rispose, e ricademmo nel silenzio angosciato per l’esito del nostro presunto studio biblico...",
+      "translation_quote": "“Non lo so,” rispose, e ricadiamo nel silenzio angosciato per l’esito del nostro presunto studio biblico, cercando una spiegazione per la terribile reazione."
+    },
+    {
+      "location": "<p>Fratelli cristiani, aprite le vostre vite all’opera di Dio. … Amate fino a che non fa così male che non sapete più cosa fare, e allora volgente a Gesù, che è lì per aiutarvi.</p>",
+      "severity": "minor",
+      "source_quote": "Love until it hurts so badly that you don’t know what to do, and then turn to Jesus, who is there to help you through.",
+      "suggested_fix": "Correct the verb form and spelling to an imperative addressing the reader. Replace \"volgente a Gesù\" with \"volgetevi a Gesù\" (or \"rivolgetevi a Gesù\") to match the source meaning, preserving the paragraph tags. Example: \"...e allora rivolgetevi a Gesù, che è lì per aiutarvi.\"",
+      "translation_quote": "Amate fino a che non fa così male che non sapete più cosa fare, e allora volgente a Gesù, che è lì per aiutarvi."
     }
   ],
   "id": "b8001b21c81a7e0e6ea7f4beba4494a6",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0c059a0312fc4bb7c1d9113fe70aaa013f3daaefdb55449ee68204bcbaa1c79e.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

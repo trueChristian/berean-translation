@@ -2,7 +2,6 @@
   "article_id": "b43320f3-e4e8-450b-865c-099ef704149c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -24,6 +23,69 @@
         },
         "total_tokens": 8050
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2098,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7799,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9897
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Entire article — multiple inline Scripture quotations and quoted English sentences",
+      "severity": "major",
+      "source_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.” ... I John 1:6 says, “if we say that we have fellowship with Him and walk in darkness (light on the outside and darkness on the inside), we lie and do not practice the truth.” ... In John 10:10, Jesus said, “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy” ... Hebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).” ... Numbers 32:23 is still very true, saying, “Be sure your sin will find you out.” ... James 1:15 happens: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” Verse 16 says, “Do not (be deceived) my beloved brethren.” ... Matthew 23:26, where He said, \"Cleanse first the inside of the cup and platter that the outside may be clean also\" ... James 5 says, “Confess your faults one to another that ye may be healed.” ... I Peter 5:5 tells us that God gives grace to the humble. ... Matthew 23:26, where he said: \"First clean the inside of the cup, so that the outside may be clean also.\" ... Romans 2:16 tells of the day when God will judge the secrets of men.",
+      "suggested_fix": "Translate every printed English Scripture quotation into Spanish, preserving the exact sense and wording of the authoritative English text as printed in the source (i.e., render the source’s English phrasing accurately into Spanish). For example, change “Blessed are the pure in heart” (Matthew 5:8) to a Spanish rendering that directly conveys the printed English phrase (e.g., “Bienaventurados los de limpio corazón” (Mateo 5:8)), and similarly translate each in-line quotation (Matthew 23:26, James 1:15, Hebrews 4:13, etc.) so that the Spanish article contains the quoted biblical phrases in Spanish while remaining faithful to the original English text and verse numbering. Ensure parenthetical verse citations (book and chapter:verse) remain identical to the source. Do this for every occurrence where an English Bible quotation remains in the translation.",
+      "translation_quote": "Many Scripture quotations remain in English throughout the translation (see examples above)."
+    },
+    {
+      "location": "Title and section header",
+      "severity": "major",
+      "source_quote": "Title: \"Morally Pure In a Corrupt Society\"; Section: \"CHRISTIAN DISCIPLESHIP\"",
+      "suggested_fix": "Translate the title into Spanish (the translation currently left the title in English). The translation’s section was rendered as \"DISCIPULADO CRISTIANO\" which correctly localizes the section; make the article title Spanish and idiomatic (for example, \"Moralmente puros en una sociedad corrupta\" or equivalent that preserves the author’s original theology and sense). Preserve HTML tags and attributes exactly while replacing the title text only.",
+      "translation_quote": "Translation kept the title in English: \"Morally Pure In a Corrupt Society\". The section was translated to \"DISCIPULADO CRISTIANO\"."
+    },
+    {
+      "location": "Subheading H2 (\"How can we live a morally pure life?\")",
+      "severity": "major",
+      "source_quote": "<h2>How can we live a morally pure life?</h2>",
+      "suggested_fix": "Translate the H2 into Spanish while preserving the tag: e.g., <h2>¿Cómo podemos vivir una vida moralmente pura?</h2>. Do not alter the HTML structure; only replace the English heading text with an accurate Spanish rendering that preserves the source meaning and theology.",
+      "translation_quote": "The H2 was left in English: \"How can we live a morally pure life?\""
+    },
+    {
+      "location": "Multiple imperatives and section labels left in English within Spanish text (e.g., 'Be Humble.', 'Be Honest.', 'Be transparent.', 'Tell yourself the truth.', 'Teach your eyes to bounce.', 'Teaching our children.', 'Keep your emotions.', 'Flee lust and fornication.')",
+      "severity": "major",
+      "source_quote": "Paragraphs beginning with: <strong>Be Humble.</strong> <strong>Be Honest.</strong> <strong>Be transparent.</strong> <strong>Tell yourself the truth.</strong> <strong>Teach your eyes to bounce.</strong> <strong>Teaching our children.</strong> <strong>Keep your emotions.</strong> <strong>Flee lust and fornication.</strong>",
+      "suggested_fix": "Translate each bolded imperative and section label into Spanish while preserving the <strong> tags and their placement. For example, <strong>Be Humble.</strong> → <strong>Sé humilde.</strong>, <strong>Be Honest.</strong> → <strong>Sé honesto.</strong>, etc. Keep the HTML tags and order unchanged; only replace the English text with accurate Spanish equivalents that preserve the author’s intent and theological nuance.",
+      "translation_quote": "Those section labels and imperatives are still in English in the translation."
+    },
+    {
+      "location": "Poetry blockquotes at end of article",
+      "severity": "minor",
+      "source_quote": "<blockquote class=\"poem\"><p><em>Two forces lie within my breast,<br>\n    The one I love, the one I hate.<br>\n    But the one I feed will dominate.</em></p>\n    <p><em>—The author’s dad</em></p></blockquote>\n\n<blockquote class=\"poem\"><p><em>The more honestly I name<br>\n    what is true about myself,<br>\n    The less I need to hide and defend,<br>\n    and posture and pretend.</em></p>\n    <p><em>—Dan Allender</em></p></blockquote>",
+      "suggested_fix": "Translate the two poem quotations into Spanish, preserving the line breaks and the attribution lines exactly (keeping the <blockquote class=\"poem\"> structure and <em> tags). For example, provide faithful Spanish renderings of each line that convey the original English text and tone. Do not remove or change HTML tags or attributions.",
+      "translation_quote": "Both short poems and their attributions remain in English in the translation."
+    },
+    {
+      "location": "Inline references to books or personal names left in English where Spanish alternatives were used elsewhere (inconsistency)",
+      "severity": "minor",
+      "source_quote": "Instances such as 'Promise Keepers said 65% of men in their survey...' and 'Daniel of old' appear in the source.",
+      "suggested_fix": "Confirm that organizational and personal names are either translated only when standard Spanish names exist or left in the original when appropriate, but ensure consistency across the article. For example, keep 'Promise Keepers' in English if that is the organization’s proper name, but ensure surrounding Spanish grammar is correct. No structural HTML changes are required—only harmonize language usage.",
+      "translation_quote": "The translation uses 'Promise Keepers' unchanged, which is acceptable if intended, but consistency should be checked."
     }
   ],
   "id": "223d76db76e5c6d60eb3db74e6207ece",
@@ -69,11 +131,13 @@
     }
   },
   "protected": false,
+  "quality_score": 68,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6e098ac8eb342eaa406de38f5a002ad3b708959025887f49dfe6141d191cd700.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "f7304b582e2d69344173a19198f46ca88b1132d0c44e0b4021e5c3668c34cd95",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

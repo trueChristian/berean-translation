@@ -2,7 +2,6 @@
   "article_id": "e848a36d-36eb-4f7d-aea7-e17ab34a8870",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 8915
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1880,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8600,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10480
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html — h2 headings and multiple section headings",
+      "severity": "major",
+      "source_quote": "<h2>Dementia in the Bible</h2>\n...\n<h2>What Dementia is</h2>\n...\n<h2>Diagnosing Dementia</h2>\n...\n<h2>Non-medication Therapies</h2>\n...\n<h2>Caring For Someone with Dementia</h2>\n...\n<h2>Get Others to Help</h2>\n...\n<h2>Conclusion</h2>",
+      "suggested_fix": "Translate each English heading into Spanish, preserving the exact HTML tag and attributes. Example replacements (preserve <h2> tags):\n- <h2>Dementia in the Bible</h2> -> <h2>La demencia en la Biblia</h2>\n- <h2>What Dementia is</h2> -> <h2>Qué es la demencia</h2>\n- <h2>Diagnosing Dementia</h2> -> <h2>Diagnóstico de la demencia</h2>\n- <h2>Non-medication Therapies</h2> -> <h2>Terapias no farmacológicas</h2>\n- <h2>Caring For Someone with Dementia</h2> -> <h2>Cuidar a alguien con demencia</h2>\n- <h2>Get Others to Help</h2> -> <h2>Pide ayuda a otros</h2>\n- <h2>Conclusion</h2> -> <h2>Conclusión</h2>\nDo not change surrounding HTML structure or attributes.",
+      "translation_quote": "<h2>Dementia in the Bible</h2> ... <h2>What Dementia is</h2> ... <h2>Diagnosing Dementia</h2> ... <h2>Non-medication Therapies</h2> ... <h2>Caring For Someone with Dementia</h2> ... <h2>Get Others to Help</h2> ... <h2>Conclusion</h2>"
+    },
+    {
+      "location": "source.html — Ecclesiastes quotation and Deuteronomy/Galatians inline quotations",
+      "severity": "major",
+      "source_quote": "<p class=\"\">Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “Remember now thy Creator in the days of thy youth, ... Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”</p>\n...\n<p>“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7).</p>\n...\n<p>“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23).</p>",
+      "suggested_fix": "The long quoted biblical passage and the two shorter verse quotations appear in the source as English. In the Spanish translation they must convey the printed English wording (i.e., translate the printed English phrases into Spanish while preserving theological meaning and the author’s quoted wording). Replace the English quotation text with an accurate Spanish rendering of the quoted English text, keeping the same punctuation and quotation-mark placement and leaving the verse references as in the source. Example (one possible rendering that keeps the sense of the printed English):\n- Replace the Ecclesiastes block with a Spanish translation that follows the printed English lines, e.g. “Acuérdate ahora de tu Creador en los días de tu juventud, antes que vengan los días malos, y lleguen los años de los cuales digas: No tengo en ellos contentamiento; … Entonces volverá el polvo a la tierra, como era, y el espíritu volverá a Dios que lo dio.”\n- Replace the Deuteronomy and Galatians quoted lines with Spanish translations conveying the printed English wording (keeping the verse references unchanged).\nPreserve the exact HTML tags (paragraph and citation structure) and do not substitute a different Bible version text that changes wording or theology.",
+      "translation_quote": "Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “Remember now thy Creator ... and the spirit shall return unto God who gave it.” ... “And thou shalt teach them diligently unto thy children ...” (Deuteronomy 6:7). ... “But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23)."
+    },
+    {
+      "location": "source.html — mixed-language section headings and body consistency",
+      "severity": "minor",
+      "source_quote": "Multiple h2 headings and many section titles in source are English; translation shows a mix of Spanish and English headings/body (several h2 left in English).",
+      "suggested_fix": "Ensure consistency: translate all structural headings into Spanish (see suggested translations in the first finding) so the article does not switch between English and Spanish headings. Preserve all HTML tags and attributes exactly.",
+      "translation_quote": "(See repeated English h2 headings in translated HTML)"
+    },
+    {
+      "location": "source.html — paragraph translating “jigsaw puzzles” as “puzzles de encaje”",
+      "severity": "minor",
+      "source_quote": "<p>... jigsaw puzzles (even children’s puzzles with really big pieces), get them to do it. ...</p>",
+      "suggested_fix": "Replace the phrase “puzzles de encaje” with a clearer, idiomatic Spanish rendering that preserves meaning, e.g. “rompecabezas (incluso rompecabezas infantiles con piezas muy grandes)” or “puzzles de piezas grandes”. Keep the existing HTML paragraph tags unchanged.",
+      "translation_quote": "“puzzles de encaje (incluso puzzles infantiles con piezas realmente grandes)”"
     }
   ],
   "id": "376ee3b6fbb385a695d9fe365914b33e",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -3,6 +3,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/45c612ff-1966-4079-9ba5-09ab022917ea.html",
+      "html_sha256": "12ecf1447615cb056606d1085e081b81041d6aa93bc6c49e0ca4cceb6d0101d0",
+      "human_reviewed": false,
+      "id": "45c612ff-1966-4079-9ba5-09ab022917ea",
+      "images": [
+        {
+          "alt": "’n Geel blom teen groen blare",
+          "public_path": "/images/articles/45c612ff-1966-4079-9ba5-09ab022917ea-1.jpg"
+        },
+        {
+          "alt": "’n Pofbal-fongs wat op ’n mosbedekte bosvloer groei",
+          "public_path": "/images/articles/45c612ff-1966-4079-9ba5-09ab022917ea-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/45c612ff-1966-4079-9ba5-09ab022917ea.json",
+      "metadata_sha256": "6bd6e1bf6e6433600a4db5b42355a9b9c4dde0efd89b56776fa6894d8d68e64d",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "EIEENSKAPPE VAN GOD",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "307ff3dcec107109e8c031e07835839a270150b1f8308d14b1a8b6811fd4f56d",
+      "status": "ready",
+      "subtitle": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2",
+      "title": "God, die Volmaaktheid van Skoonheid",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
       "html_sha256": "b636b98deceadf83aca06ee594f5820f843e875081fe6661d7727a80277c9ca0",
       "human_reviewed": false,
@@ -23,6 +55,34 @@
       "section": "Van die REDAKTEUR",
       "source_revision": "2ae95fda39469ef52a72279047745b6a5e870c0b",
       "source_translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Van die Redakteur",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
+      "html_sha256": "46d3b29bf93c9986006e0aa4760664d440c076e97703be49adb606080c1e149a",
+      "human_reviewed": false,
+      "id": "62646d6d-87be-47a6-880f-0ade408a3402",
+      "images": [
+        {
+          "alt": "Wit blomme langs ’n klein voëlnes in ’n bak",
+          "public_path": "/images/articles/62646d6d-87be-47a6-880f-0ade408a3402-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/62646d6d-87be-47a6-880f-0ade408a3402.json",
+      "metadata_sha256": "69fa9d6251a848656e67d4f9609b92944997ef84da5262bf2588983081f7d730",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Van die Redakteur",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
       "status": "ready",
       "subtitle": null,
       "title": "Van die Redakteur",
@@ -206,6 +266,98 @@
     },
     {
       "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
+      "html_sha256": "1d58e7ead8c641e15bb03825e4665d22bf6725b5d2c156a5b8817827f1016f1c",
+      "human_reviewed": false,
+      "id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
+      "images": [
+        {
+          "alt": "واجهة متجر حضرية بابها أحمر ومصباح شارع",
+          "public_path": "/images/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46-1.jpg"
+        },
+        {
+          "alt": "يد تمسك بكتاب مفتوح",
+          "public_path": "/images/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.json",
+      "metadata_sha256": "a9b3cd5fcafea7d66619bd35c53a8c149fac93e56543cfb6c0882f8c505e8735",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "إلهامات للشباب",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
+      "status": "ready",
+      "subtitle": null,
+      "title": "كين وأنا",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f.html",
+      "html_sha256": "3c82a79f136047911244b54daa09b03afaa3609eefdfc4ce0e1015ee76c3c2d3",
+      "human_reviewed": false,
+      "id": "cdb88be0-93b0-4362-bc3b-1488aff1a76f",
+      "images": [
+        {
+          "alt": "سحلب أبيض بمراكز أرجوانية",
+          "public_path": "/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f.json",
+      "metadata_sha256": "7b0d29d47f3fe11a3432efe9dac0e38f004980ef5cd3271f71eda91b0a70d787",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "15ac9c1b97edbe073ae811f5fd305d02a68542aeb9f44f03ca5e9732f904625a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "بَهاء الربيع",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/fbfb182b-bb05-434f-a664-b74c68153e61.html",
+      "html_sha256": "c3fed699c5adfb1e61c72b63402003dc3a44ada55ef19617b235be9d9adf1744",
+      "human_reviewed": false,
+      "id": "fbfb182b-bb05-434f-a664-b74c68153e61",
+      "images": [
+        {
+          "alt": "غسالة وسلال غسيل في غرفة",
+          "public_path": "/images/articles/fbfb182b-bb05-434f-a664-b74c68153e61-1.jpg"
+        },
+        {
+          "alt": "مفكرة، وأقلام، وقهوة، ونبتة على مكتب",
+          "public_path": "/images/articles/fbfb182b-bb05-434f-a664-b74c68153e61-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/fbfb182b-bb05-434f-a664-b74c68153e61.json",
+      "metadata_sha256": "1498cfb38b9668c0b2a7d17e322cbc6087b120d58899fb7637a98b570ee1c2a2",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "أخت لأخت",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "متلازمة التحميل الزائد",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
       "direction": "ltr",
       "html": "content/ben/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
       "html_sha256": "c4e9e3eac33ed58e4531ae30f2659b9ef77cddbb6c78208c6bce4936a3ee8e85",
@@ -359,6 +511,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.html",
+      "html_sha256": "c430c098bd704153b946704970b397e33a6a8dc3db9c19f2b7ebe71abfa59520",
+      "human_reviewed": false,
+      "id": "1ec0f654-0dd1-48f3-9a68-3b15189e6704",
+      "images": [
+        {
+          "alt": "一个孩子在池塘上划着蓝色皮划艇",
+          "public_path": "/images/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.json",
+      "metadata_sha256": "4fbdfe1f96f702bc9492dc2028715ce8f099bf95e05497abad806533f89bf9ad",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "儿童天地",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "dcfff2a5364081c6a6817377a0d3ad1649eaec0276399a4b9a70adc9f0fe19d1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "适合所有人的乐趣",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
       "html_sha256": "9b0b780caa7bbfb28f2291f51b9be5e4c2d6b71c8f150518ba20f362794b3a1d",
       "human_reviewed": false,
@@ -443,6 +623,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
+      "html_sha256": "36dda31469e2c31c840171e2385267bb4940a5f515ece7e7d4a88b94ffcc68a3",
+      "human_reviewed": false,
+      "id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
+      "images": [
+        {
+          "alt": "一扇红门和街灯的城市店面",
+          "public_path": "/images/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46-1.jpg"
+        },
+        {
+          "alt": "一只手捧着打开的书",
+          "public_path": "/images/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.json",
+      "metadata_sha256": "28262c8b34d45618a5fbda434797b6fd33b411e9c49b2ebf472dae239b32fbbd",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "献给青年的感悟",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
+      "status": "ready",
+      "subtitle": null,
+      "title": "我与肯",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
       "html_sha256": "6cbb891f4aeae13b6244eb9fb4b289e2d7d9764c0bf6bddf1d25b6420d2f263b",
       "human_reviewed": false,
@@ -499,6 +711,154 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.html",
+      "html_sha256": "d33b3bd955a5e93652f8125467ac6403c2557b84d32d21d58a7c4cc129d582bb",
+      "human_reviewed": false,
+      "id": "1ec0f654-0dd1-48f3-9a68-3b15189e6704",
+      "images": [
+        {
+          "alt": "Ein Kind paddelt mit einem blauen Kajak auf einem Teich",
+          "public_path": "/images/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.json",
+      "metadata_sha256": "975c4fb2cc76c3b1c602a101bd1c32177ae1e0204ec7ac603ca7b00fe442b9c8",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Kinder-Ecke",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "dcfff2a5364081c6a6817377a0d3ad1649eaec0276399a4b9a70adc9f0fe19d1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Spaß für alle",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
+      "html_sha256": "da57832c0a6f1aaea2f6ecbe5708c29690e8673f05b5dfbbb738ded892a7cc88",
+      "human_reviewed": false,
+      "id": "31ea7041-cab6-4ccd-9ead-04cc949321a6",
+      "images": [
+        {
+          "alt": "Eine geöffnete Bibel, deren Seiten sich wenden",
+          "public_path": "/images/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6-1.jpg"
+        },
+        {
+          "alt": "Ein frisches grünes Blatt, das aus einem Zweig knospt",
+          "public_path": "/images/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.json",
+      "metadata_sha256": "0512eb7dd694a178e2f36ede8628dbfb98dfe85287ea3ed30dcd247e948afdeb",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "KIRCHENGESCHICHTE",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "9001af1f34c52b235af4ae22af79ba7fa0d5cf2bf7273485ec1e06a8188fc9a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Eine Betrachtung der frühen amerikanischen Mennonitenkirche",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/45c612ff-1966-4079-9ba5-09ab022917ea.html",
+      "html_sha256": "86f396e5477d701a04ba20a81e25994b82544562b9dbc848051ef34f4bdc2b98",
+      "human_reviewed": false,
+      "id": "45c612ff-1966-4079-9ba5-09ab022917ea",
+      "images": [
+        {
+          "alt": "Eine gelbe Blüte vor grünen Blättern",
+          "public_path": "/images/articles/45c612ff-1966-4079-9ba5-09ab022917ea-1.jpg"
+        },
+        {
+          "alt": "Ein kugelförmiger Pilz auf moosigem Waldboden",
+          "public_path": "/images/articles/45c612ff-1966-4079-9ba5-09ab022917ea-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/45c612ff-1966-4079-9ba5-09ab022917ea.json",
+      "metadata_sha256": "f03ae856c86a49ad6cd9efe186c1db21a618a547dba933555cac2c14ed898c45",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Attribute Gottes",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "307ff3dcec107109e8c031e07835839a270150b1f8308d14b1a8b6811fd4f56d",
+      "status": "ready",
+      "subtitle": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2",
+      "title": "Gott, die Vollkommenheit der Schönheit",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.html",
+      "html_sha256": "fe32e0ed6626e873126cf2a6c276866680e1b1bc06bed22607804a61438feb96",
+      "human_reviewed": false,
+      "id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
+      "images": [
+        {
+          "alt": "Ein sternenübersäter Nachthimmel über einem Bergsee",
+          "public_path": "/images/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.json",
+      "metadata_sha256": "082d90b9b22cf27696abc485be79078c3a315705b44d7d6df8326e230e855030",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Hymnengeschichte",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Der Sand der Zeit VERSINKT",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f.html",
+      "html_sha256": "4acd5714836de7820f6b0b43e43cb468c18825046a2d76c96d7cfb28723f80f9",
+      "human_reviewed": false,
+      "id": "cdb88be0-93b0-4362-bc3b-1488aff1a76f",
+      "images": [
+        {
+          "alt": "Weiße Orchideen mit violetten Zentren",
+          "public_path": "/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f.json",
+      "metadata_sha256": "6ab07d9ebdd2341037837afbfe271214a0b735f65bd13f2a946d3caac87aee18",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "15ac9c1b97edbe073ae811f5fd305d02a68542aeb9f44f03ca5e9732f904625a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Der Ruhm des Frühlings",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
       "html_sha256": "c68506fdd8d6dddd603c5691263b1da4dfeb29290bfcd308bf6dafd86d3dd310",
       "human_reviewed": false,
@@ -531,6 +891,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
+      "html_sha256": "002149ed83e4c57893d72b84456d45190e86c3c45e1fba76d06e501d7b646b2d",
+      "human_reviewed": false,
+      "id": "31ea7041-cab6-4ccd-9ead-04cc949321a6",
+      "images": [
+        {
+          "alt": "Une Bible ouverte avec des pages qui tournent",
+          "public_path": "/images/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6-1.jpg"
+        },
+        {
+          "alt": "Une nouvelle feuille verte éclosant d’un rameau",
+          "public_path": "/images/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.json",
+      "metadata_sha256": "c79c58d9441ee24488f41d75fc303657d0e5eba8fa9571dd40479a7aae170562",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "HISTOIRE DE L’ÉGLISE",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "9001af1f34c52b235af4ae22af79ba7fa0d5cf2bf7273485ec1e06a8188fc9a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Une réflexion sur la première Église mennonite américaine",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
       "html_sha256": "a98d32e17729512da328e58d0a042056c81bc9f61cbfc16048f3fc016c511501",
       "human_reviewed": false,
@@ -554,6 +946,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "De la rédaction",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
+      "html_sha256": "af3c74744d8baf7c1da2e3106cadb07525f7820dd29067eb6e4f78c5c386effd",
+      "human_reviewed": false,
+      "id": "62646d6d-87be-47a6-880f-0ade408a3402",
+      "images": [
+        {
+          "alt": "Fleurs blanches à côté d'un petit oiseau nichant dans un bol",
+          "public_path": "/images/articles/62646d6d-87be-47a6-880f-0ade408a3402-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/62646d6d-87be-47a6-880f-0ade408a3402.json",
+      "metadata_sha256": "9ad176290b910f75e81b40c068b596bee478fb30e9d013cafeb4ea3155d03f52",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Du Rédacteur",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Du Rédacteur",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -699,6 +1119,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/10933457-b503-48e1-9346-49ff54d1b6fe.html",
+      "html_sha256": "e0fed5a11d8b859eb46b716b2c139400947b839bebe57aeef5c73b61a8dc2cd8",
+      "human_reviewed": false,
+      "id": "10933457-b503-48e1-9346-49ff54d1b6fe",
+      "images": [
+        {
+          "alt": "हरे पत्तों के बीच एक नारंगी और काले रंग का तितली",
+          "public_path": "/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-1.jpg"
+        },
+        {
+          "alt": "छोटे नारंगी ऑर्किड की एक डंडी",
+          "public_path": "/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-2.png"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/10933457-b503-48e1-9346-49ff54d1b6fe.json",
+      "metadata_sha256": "1d78c626e11b30789e700674968d08fed5509a5dd8adbfe6e4f8792e80d029ca",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "VICTORIOUS CHRISTIAN LIVING",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "b862596e1902f47704d5b4543248cd118dbbf01a8d05be354c99504278ee33ab",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Power, Love, and a Sound Mind",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
       "html_sha256": "97b872dee7e908df83f9f9ee9c118ac3ecb6aafff54b6b8588611d678bdbcdc3",
       "human_reviewed": false,
@@ -731,6 +1183,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.html",
+      "html_sha256": "b12f9fb8130efa0159df10fea6f82acb2181aca8f51a0aea39dbf327edd36937",
+      "human_reviewed": false,
+      "id": "1ec0f654-0dd1-48f3-9a68-3b15189e6704",
+      "images": [
+        {
+          "alt": "तालाब पर नीली कयाक में पैडल मारता हुआ एक बच्चा",
+          "public_path": "/images/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.json",
+      "metadata_sha256": "394f072297418f6246d9b225b461bc02d1cf75531a6ac0f3dd84a7b6fc026987",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "बच्चों का कोना",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "dcfff2a5364081c6a6817377a0d3ad1649eaec0276399a4b9a70adc9f0fe19d1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "सबके लिए मज़ा",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
       "html_sha256": "c57acf1a3ba9ca58377ffe564c4c0cee0cbae90c328cd5faf18dd667f67b5cd4",
       "human_reviewed": false,
@@ -758,6 +1238,66 @@
       "status": "ready",
       "subtitle": null,
       "title": "निंदकता से निपटना",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
+      "html_sha256": "0f8cc2052a5e44d0cbed268faf06d4ee9392f405775d07c24ef7344375de7dc1",
+      "human_reviewed": false,
+      "id": "31ea7041-cab6-4ccd-9ead-04cc949321a6",
+      "images": [
+        {
+          "alt": "खुला हुआ बाइबिल जिसके पन्ने पलट रहे हैं",
+          "public_path": "/images/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6-1.jpg"
+        },
+        {
+          "alt": "एक टहनी से एक ताजा हरा पत्ता फूटता हुआ",
+          "public_path": "/images/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.json",
+      "metadata_sha256": "8073769fbff024879c4cbe6a9c353ecf93fff04781382db3db3a197f9554a70b",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "चर्च इतिहास",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "9001af1f34c52b235af4ae22af79ba7fa0d5cf2bf7273485ec1e06a8188fc9a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "प्रारंभिक अमेरिकी मेनोनाइट गिरिजा पर एक चिंतन",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
+      "html_sha256": "c2381744ecb2378a1749d659931294db3d52a91d6f90d3936ee9a753a0740716",
+      "human_reviewed": false,
+      "id": "62646d6d-87be-47a6-880f-0ade408a3402",
+      "images": [
+        {
+          "alt": "एक कटोरे में घोंसला बनाये हुए एक छोटे पक्षी के पास सफेद पुष्पों के गुच्छे",
+          "public_path": "/images/articles/62646d6d-87be-47a6-880f-0ade408a3402-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/62646d6d-87be-47a6-880f-0ade408a3402.json",
+      "metadata_sha256": "0ba4da3681d7a047c28dd5f1e1d947be9a96fded49173e97302866cbf1902f12",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "From the EDITOR",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
+      "status": "ready",
+      "subtitle": null,
+      "title": "From the Editor",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -883,6 +1423,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/fbfb182b-bb05-434f-a664-b74c68153e61.html",
+      "html_sha256": "0c52836d870c819a89782262da70bab0dd86a323c7f6480b70cd3e401aa6cc35",
+      "human_reviewed": false,
+      "id": "fbfb182b-bb05-434f-a664-b74c68153e61",
+      "images": [
+        {
+          "alt": "एक कमरे में वॉशिंग मशीन और लॉन्ड्री बास्केट",
+          "public_path": "/images/articles/fbfb182b-bb05-434f-a664-b74c68153e61-1.jpg"
+        },
+        {
+          "alt": "एक डेस्क पर एक नोटबुक, पेन, कॉफी और एक पौधा",
+          "public_path": "/images/articles/fbfb182b-bb05-434f-a664-b74c68153e61-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/fbfb182b-bb05-434f-a664-b74c68153e61.json",
+      "metadata_sha256": "e399fce5d17032834221675a6df432c7af2e2da7afc53e106960eb6c28845a48",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "बहन से बहन",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "अतिभार सिंड्रोम",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
       "html_sha256": "e76909c7a4fa06278fd4107ad0d104c7cd405efe776bd01613182fca696669c4",
       "human_reviewed": false,
@@ -915,6 +1487,98 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.html",
+      "html_sha256": "d6355b2f7aa59c6f9e781998f1fb09f197e3b6bf1b0d9b522fbf998febb36c29",
+      "human_reviewed": false,
+      "id": "1ec0f654-0dd1-48f3-9a68-3b15189e6704",
+      "images": [
+        {
+          "alt": "Seorang anak mendayung kayak biru di sebuah kolam",
+          "public_path": "/images/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.json",
+      "metadata_sha256": "d74f4d30972a474c57829483d8a62131a99803ebd4667defdcaf19d15eb76ad6",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Pojok Anak-anak",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "dcfff2a5364081c6a6817377a0d3ad1649eaec0276399a4b9a70adc9f0fe19d1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kesenangan untuk Semua",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
+      "html_sha256": "c465e157928656c6a6b2d924615c5956ac0e87c327fa2998b11058a4a0f412b3",
+      "human_reviewed": false,
+      "id": "31ea7041-cab6-4ccd-9ead-04cc949321a6",
+      "images": [
+        {
+          "alt": "Alkitab terbuka dengan halaman yang bergeser",
+          "public_path": "/images/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6-1.jpg"
+        },
+        {
+          "alt": "Daun hijau segar yang sedang menumbuhkan tunas dari ranting",
+          "public_path": "/images/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.json",
+      "metadata_sha256": "da72ac415083415b513925f4835212c7bc68c933728924224e44896f5cdaae3e",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SEJARAH GEREJA",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "9001af1f34c52b235af4ae22af79ba7fa0d5cf2bf7273485ec1e06a8188fc9a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Renungan tentang Gereja Mennonite Amerika Awal",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/45c612ff-1966-4079-9ba5-09ab022917ea.html",
+      "html_sha256": "527dafd2aad82c3a4fcd3e52b52de01893c593a0445d36086e36c765733b7930",
+      "human_reviewed": false,
+      "id": "45c612ff-1966-4079-9ba5-09ab022917ea",
+      "images": [
+        {
+          "alt": "Sebuah bunga kuning di antara daun-daun hijau",
+          "public_path": "/images/articles/45c612ff-1966-4079-9ba5-09ab022917ea-1.jpg"
+        },
+        {
+          "alt": "Sebuah jamur puffball tumbuh di lantai hutan yang berlumut",
+          "public_path": "/images/articles/45c612ff-1966-4079-9ba5-09ab022917ea-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/45c612ff-1966-4079-9ba5-09ab022917ea.json",
+      "metadata_sha256": "d0d8d701750f4bed86e9c639bedd5d78105cbe30579737e72e2b0d05c110bcf5",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SIFAT-SIFAT ALLAH",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "307ff3dcec107109e8c031e07835839a270150b1f8308d14b1a8b6811fd4f56d",
+      "status": "ready",
+      "subtitle": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2",
+      "title": "Allah, Kesempurnaan Keindahan",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
       "html_sha256": "67e62c6a94624f0719b133d7381be22eeaf9bfa8910d85e9f57765e9305fd7f3",
       "human_reviewed": false,
@@ -935,6 +1599,62 @@
       "section": "Dari EDITOR",
       "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
       "source_translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dari Editor",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.html",
+      "html_sha256": "8fbb4e646a2e2455f1b4c507d1c720da931944d6b3934ab88034401460014dae",
+      "human_reviewed": false,
+      "id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
+      "images": [
+        {
+          "alt": "Langit malam bertabur bintang di atas danau pegunungan",
+          "public_path": "/images/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.json",
+      "metadata_sha256": "f33c6513db0c1d63e3a6835ebefccc0161c2d0ce67b79816472b979e27cd2c02",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SEJARAH HIMNE",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "The Sands of Time Are SINKING",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
+      "html_sha256": "48a5b5ff87dd62e3fa45b879bee6782de3dc3207da573674e5d632b133c4bb75",
+      "human_reviewed": false,
+      "id": "62646d6d-87be-47a6-880f-0ade408a3402",
+      "images": [
+        {
+          "alt": "Bunga putih di samping sarang burung kecil dalam sebuah mangkuk",
+          "public_path": "/images/articles/62646d6d-87be-47a6-880f-0ade408a3402-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/62646d6d-87be-47a6-880f-0ade408a3402.json",
+      "metadata_sha256": "684e07107408a45656ff06c4ea40b12de0379f4704b69c8e39e41774917d2450",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Dari EDITOR",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
       "status": "ready",
       "subtitle": null,
       "title": "Dari Editor",
@@ -979,6 +1699,370 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/fbfb182b-bb05-434f-a664-b74c68153e61.html",
+      "html_sha256": "ecd28d99404fd70e85eff3d533f2381c6c30c9c5400d2c61fd33b68752a97d56",
+      "human_reviewed": false,
+      "id": "fbfb182b-bb05-434f-a664-b74c68153e61",
+      "images": [
+        {
+          "alt": "Mesin cuci dan keranjang cucian di sebuah ruangan",
+          "public_path": "/images/articles/fbfb182b-bb05-434f-a664-b74c68153e61-1.jpg"
+        },
+        {
+          "alt": "Sebuah buku catatan, pena, kopi, dan tanaman di atas meja",
+          "public_path": "/images/articles/fbfb182b-bb05-434f-a664-b74c68153e61-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/fbfb182b-bb05-434f-a664-b74c68153e61.json",
+      "metadata_sha256": "431583f2533bad04a56783a8c16dd7203e603f34431d3b9e185f8189a27badfb",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SAUDARI KE SAUDARI",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Sindrom Kelebihan Beban",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.html",
+      "html_sha256": "c7b62a81a58b2e30b6811d7d3717d9b4798239c1ba68757756b417563dd97937",
+      "human_reviewed": false,
+      "id": "1ec0f654-0dd1-48f3-9a68-3b15189e6704",
+      "images": [
+        {
+          "alt": "Un bambino che pagaia un kayak blu su uno stagno",
+          "public_path": "/images/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.json",
+      "metadata_sha256": "939e85bc9d2b11532fa093456bc17c33a8925b767a069fd24aa33ad2384328fd",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Angolo dei bambini",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "dcfff2a5364081c6a6817377a0d3ad1649eaec0276399a4b9a70adc9f0fe19d1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Divertimento per tutti",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
+      "html_sha256": "c253b79c7b36cefad4437b19634e5e33c1bb3b26b04eec9846ac75258f84be75",
+      "human_reviewed": false,
+      "id": "31ea7041-cab6-4ccd-9ead-04cc949321a6",
+      "images": [
+        {
+          "alt": "Una Bibbia aperta con le pagine che si voltano",
+          "public_path": "/images/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6-1.jpg"
+        },
+        {
+          "alt": "Una fresca foglia verde che germoglia da un ramo",
+          "public_path": "/images/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.json",
+      "metadata_sha256": "4ca527d66567b95eb60ef1f3409040822efc78524d245f2d9cdbfb30a128d8f3",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "STORIA DELLA CHIESA",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "9001af1f34c52b235af4ae22af79ba7fa0d5cf2bf7273485ec1e06a8188fc9a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Una riflessione sulla prima chiesa mennonita americana",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f.html",
+      "html_sha256": "132d51d724529bdbd5904aee937e1589e90bcef7812d06cebe7688093dd79266",
+      "human_reviewed": false,
+      "id": "cdb88be0-93b0-4362-bc3b-1488aff1a76f",
+      "images": [
+        {
+          "alt": "Orchidee bianche con centri viola",
+          "public_path": "/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f.json",
+      "metadata_sha256": "f16b93e092576d308a13cc2de3e92055dcd1633bc0405b24a7829fea776dc62f",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "15ac9c1b97edbe073ae811f5fd305d02a68542aeb9f44f03ca5e9732f904625a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La gloria della primavera",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/10933457-b503-48e1-9346-49ff54d1b6fe.html",
+      "html_sha256": "e17a9efd1d61ec363012ffc39e3a36ef4a9bad3f4e0d49e8f9d5ae538d35932e",
+      "human_reviewed": false,
+      "id": "10933457-b503-48e1-9346-49ff54d1b6fe",
+      "images": [
+        {
+          "alt": "초록 잎 사이의 주황색과 검은색 나비",
+          "public_path": "/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-1.jpg"
+        },
+        {
+          "alt": "작은 주황색 난초 한 줄기",
+          "public_path": "/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-2.png"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/10933457-b503-48e1-9346-49ff54d1b6fe.json",
+      "metadata_sha256": "e5af79952d21b3bcfa0d876bede1735e355f8502dce825fef303c6ea854f0f64",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "승리하는 기독교인의 삶",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "b862596e1902f47704d5b4543248cd118dbbf01a8d05be354c99504278ee33ab",
+      "status": "ready",
+      "subtitle": null,
+      "title": "능력, 사랑, 그리고 건전한 마음",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/45c612ff-1966-4079-9ba5-09ab022917ea.html",
+      "html_sha256": "c9df85d1b632afacdd54ba36e1e52acc7194fd313f55fb821da0a8e662d709a7",
+      "human_reviewed": false,
+      "id": "45c612ff-1966-4079-9ba5-09ab022917ea",
+      "images": [
+        {
+          "alt": "녹음이 우거진 잎사귀를 배경으로 한 노란 꽃",
+          "public_path": "/images/articles/45c612ff-1966-4079-9ba5-09ab022917ea-1.jpg"
+        },
+        {
+          "alt": "이끼 낀 숲 바닥에서 자라는 포프볼(fungus)",
+          "public_path": "/images/articles/45c612ff-1966-4079-9ba5-09ab022917ea-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/45c612ff-1966-4079-9ba5-09ab022917ea.json",
+      "metadata_sha256": "2717fb80df1f2ba697d941d8795b4fb8a691cbffbf9f622980c2c07edc3a1e9f",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "하나님의 속성",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "307ff3dcec107109e8c031e07835839a270150b1f8308d14b1a8b6811fd4f56d",
+      "status": "ready",
+      "subtitle": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2",
+      "title": "God, The Perfection of Beauty",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
+      "html_sha256": "de3fc5df3cf800256f10649e9e08b0fd34b6fa1e6ca46153b4ea33ddadec39af",
+      "human_reviewed": false,
+      "id": "62646d6d-87be-47a6-880f-0ade408a3402",
+      "images": [
+        {
+          "alt": "작은 그릇에 둥지를 튼 새 옆에 핀 흰 꽃들",
+          "public_path": "/images/articles/62646d6d-87be-47a6-880f-0ade408a3402-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/62646d6d-87be-47a6-880f-0ade408a3402.json",
+      "metadata_sha256": "3b1985ac314123980d3ac1e37bf0b4616eae1e50678456a3c15545e49b72d138",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "편집장의 글",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
+      "status": "ready",
+      "subtitle": null,
+      "title": "편집장의 글",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
+      "html_sha256": "f286f5f1ca2eed777010fe0bf7841a2db887fe1099c04c6ee8399dcb64dd1223",
+      "human_reviewed": false,
+      "id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
+      "images": [
+        {
+          "alt": "빨간 문과 가로등이 있는 도시 상점 전경",
+          "public_path": "/images/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46-1.jpg"
+        },
+        {
+          "alt": "펼쳐진 책을 들고 있는 손",
+          "public_path": "/images/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.json",
+      "metadata_sha256": "d44cecd4d6f030935fec99a1297689f05471021f9137f59be733c2eb26ea8286",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "청소년을 위한 영감",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
+      "status": "ready",
+      "subtitle": null,
+      "title": "켄과 나",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f.html",
+      "html_sha256": "e9ab013709f569b68be8a0fc68f62804a3c412a6d958f3f8a6ceba9fa893a9de",
+      "human_reviewed": false,
+      "id": "cdb88be0-93b0-4362-bc3b-1488aff1a76f",
+      "images": [
+        {
+          "alt": "보라빛 중심을 가진 흰 난초들",
+          "public_path": "/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f.json",
+      "metadata_sha256": "f6dcf6827966452fd677ba4cadb4bdb5de00e4f7dd9f8a76326706f41210da26",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "15ac9c1b97edbe073ae811f5fd305d02a68542aeb9f44f03ca5e9732f904625a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "봄의 영광",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/45c612ff-1966-4079-9ba5-09ab022917ea.html",
+      "html_sha256": "9736db4b62ec877a24e8433e6b83709780b78d51de7c16db4b792f4f451a9363",
+      "human_reviewed": false,
+      "id": "45c612ff-1966-4079-9ba5-09ab022917ea",
+      "images": [
+        {
+          "alt": "Een gele bloem tegen groene bladeren",
+          "public_path": "/images/articles/45c612ff-1966-4079-9ba5-09ab022917ea-1.jpg"
+        },
+        {
+          "alt": "Een stuifzwam die groeit op een met mos bedekt bosgrond",
+          "public_path": "/images/articles/45c612ff-1966-4079-9ba5-09ab022917ea-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/45c612ff-1966-4079-9ba5-09ab022917ea.json",
+      "metadata_sha256": "09a440d45c7ac631f1d3c9f44c934c54f1082b35fc59456b42caf2b59a28a9b9",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ATTRIBUTES OF GOD",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "307ff3dcec107109e8c031e07835839a270150b1f8308d14b1a8b6811fd4f56d",
+      "status": "ready",
+      "subtitle": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2",
+      "title": "God, The Perfection of Beauty",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
+      "html_sha256": "8960c25d53063484acc15f2f2648153d6e5f2d811aecd9c86984fff3ee0a29d5",
+      "human_reviewed": false,
+      "id": "62646d6d-87be-47a6-880f-0ade408a3402",
+      "images": [
+        {
+          "alt": "Witte bloesems naast een klein vogelnest in een kom",
+          "public_path": "/images/articles/62646d6d-87be-47a6-880f-0ade408a3402-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/62646d6d-87be-47a6-880f-0ade408a3402.json",
+      "metadata_sha256": "be262f597113ebc3b30b34bdfb017121ec4b90e57d63394792c495c0230f2b2b",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Van de REDACTEUR",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Van de redacteur",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
+      "html_sha256": "546687e4cd96472233a617c20a8c5ebb5d75cce43242a6a2a1ab5bf5502d8402",
+      "human_reviewed": false,
+      "id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
+      "images": [
+        {
+          "alt": "Een stedelijke etalage met een rode deur en een lantaarnpaal",
+          "public_path": "/images/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46-1.jpg"
+        },
+        {
+          "alt": "Een hand die een open boek vasthoudt",
+          "public_path": "/images/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.json",
+      "metadata_sha256": "602a3c479b798d5744b05c063b4bd39f1848aeb371b95121cd228dacb53b82b4",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "INSPIRATIES VOOR JONGEREN",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ken en ik",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
       "html_sha256": "e40ac8a0be67d48050cc1455c05f2ffe5a0f874f3a9d2084fffc3d4601a33118",
       "human_reviewed": false,
@@ -1011,6 +2095,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.html",
+      "html_sha256": "21b029080c7a014a826b738f76fe88e653383f8f52921b487fed5463ac17bbbb",
+      "human_reviewed": false,
+      "id": "1ec0f654-0dd1-48f3-9a68-3b15189e6704",
+      "images": [
+        {
+          "alt": "Et barn som padler en blå kajakk på en dam",
+          "public_path": "/images/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.json",
+      "metadata_sha256": "b71128d429d5143bf8c866286a04a656c5fc29357ae929833892dd18ec0dea63",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Barnas hjørne",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "dcfff2a5364081c6a6817377a0d3ad1649eaec0276399a4b9a70adc9f0fe19d1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Moro for alle",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
       "html_sha256": "1306f8fc7ed24931b89b7f8f9b43fd29f33f57b56025e1e053e8f62050e5b712",
       "human_reviewed": false,
@@ -1038,6 +2150,62 @@
       "status": "ready",
       "subtitle": null,
       "title": "Å håndtere kynisme",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.html",
+      "html_sha256": "2dcda738023cde4fcd5e574a2c81cb520b4e46f298259e7a481e8a5eaaf6046f",
+      "human_reviewed": false,
+      "id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
+      "images": [
+        {
+          "alt": "En stjerneklar nattehimmel over en fjellinnsjø",
+          "public_path": "/images/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.json",
+      "metadata_sha256": "7365c0656dd7afd7456011a5ece44dd3f9a77084f49d094e4c815fd5efcd3670",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "HYMN HISTORY",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "The Sands of Time Are SINKING",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
+      "html_sha256": "5a521ce180bd06aedefc6a5755b5746542cdc1b7158a44b28654f8def95f9f3c",
+      "human_reviewed": false,
+      "id": "62646d6d-87be-47a6-880f-0ade408a3402",
+      "images": [
+        {
+          "alt": "Hvite blomster ved siden av en liten fugl som bygger rede i en bolle",
+          "public_path": "/images/articles/62646d6d-87be-47a6-880f-0ade408a3402-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/62646d6d-87be-47a6-880f-0ade408a3402.json",
+      "metadata_sha256": "0dde7ab336a2f67504981b6b01d95ee9c1619e715238bcbd0ea3d3dcb2012352",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Fra redaktøren",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
+      "status": "ready",
+      "subtitle": null,
+      "title": "From the Editor",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -1094,6 +2262,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "Jamin blir klokere",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
+      "html_sha256": "445af7ffb390ff1781e375c822aa76aa942bca16a0b924dc04fe9fc625fbf5c3",
+      "human_reviewed": false,
+      "id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
+      "images": [
+        {
+          "alt": "En bybutikk med en rød dør og en gatelykt",
+          "public_path": "/images/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46-1.jpg"
+        },
+        {
+          "alt": "En hånd som holder en åpen bok",
+          "public_path": "/images/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.json",
+      "metadata_sha256": "b369ee680b8fcfc36fddbcff8624e565268c30029c14d58bd9c172cd86e69f81",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "INSPIRASJON FOR UNGDOM",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ken og jeg",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -1219,6 +2419,94 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
+      "html_sha256": "d30aba3a1efa3c5b4eb32f7528afc2529c4019c9d5b155963f8dcd00da9ff530",
+      "human_reviewed": false,
+      "id": "31ea7041-cab6-4ccd-9ead-04cc949321a6",
+      "images": [
+        {
+          "alt": "Uma Bíblia aberta com páginas virando",
+          "public_path": "/images/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6-1.jpg"
+        },
+        {
+          "alt": "Uma folha verde fresca brotando de um galho",
+          "public_path": "/images/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.json",
+      "metadata_sha256": "653f9821988174df5c4340e806a50d8a9827502f5a9e0689e21f8f7068bda2d5",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "HISTÓRIA DA IGREJA",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "9001af1f34c52b235af4ae22af79ba7fa0d5cf2bf7273485ec1e06a8188fc9a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Uma reflexão sobre a igreja menonita americana primitiva",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.html",
+      "html_sha256": "293828562b40d66419d40083a744a87c2f8f730dad8534d68eee59739b4fa092",
+      "human_reviewed": false,
+      "id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
+      "images": [
+        {
+          "alt": "Um céu noturno estrelado acima de um lago montanhoso",
+          "public_path": "/images/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.json",
+      "metadata_sha256": "9eb996abb62a7d905baa236576d5ebf2a055ea4d640183616051c421b5a46736",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "HISTÓRIA DO HINO",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "As areias do tempo afundam",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
+      "html_sha256": "623b15c04747a058c986805f0c60841ac6d39c1e0ef889ece7bddd8f82e8966e",
+      "human_reviewed": false,
+      "id": "62646d6d-87be-47a6-880f-0ade408a3402",
+      "images": [
+        {
+          "alt": "Flores brancas ao lado de um pequeno pássaro fazendo ninho em uma tigela",
+          "public_path": "/images/articles/62646d6d-87be-47a6-880f-0ade408a3402-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/62646d6d-87be-47a6-880f-0ade408a3402.json",
+      "metadata_sha256": "1a45986e1752d2c31374f4f4b0189a794d1ee5bd168416157c49302aa6b79401",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Do Editor",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Do Editor",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
       "html_sha256": "75b74db9c37f2c88b080225dda7742239b6939bb4ba3708cc5aeb41a76ca359f",
       "human_reviewed": false,
@@ -1303,6 +2591,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f.html",
+      "html_sha256": "0a38c5ccc4288a4de6b919a9b9671462e58e03db2d4e78247240ebbacfd2a9d5",
+      "human_reviewed": false,
+      "id": "cdb88be0-93b0-4362-bc3b-1488aff1a76f",
+      "images": [
+        {
+          "alt": "Orquídeas brancas com centros púrpura",
+          "public_path": "/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f.json",
+      "metadata_sha256": "188081579d471d2449a799a13d8ff2446e0a58dc0acc59e522ce0b317032ca9c",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "15ac9c1b97edbe073ae811f5fd305d02a68542aeb9f44f03ca5e9732f904625a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "A glória da primavera",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.html",
       "html_sha256": "54324c559d34b1e320ab79f347bb062d8898d2fa6d49abd37ed5a10cac12df61",
       "human_reviewed": false,
@@ -1326,6 +2642,94 @@
       "status": "ready",
       "subtitle": null,
       "title": "Erguei-vos e alegrai-vos!",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
+      "html_sha256": "ce11c0f72f015a5c67f86d06d357d6ac313b2769b4079c07e34d34ad8a4d33e8",
+      "human_reviewed": false,
+      "id": "31ea7041-cab6-4ccd-9ead-04cc949321a6",
+      "images": [
+        {
+          "alt": "Открытая Библия с переворачивающимися страницами",
+          "public_path": "/images/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6-1.jpg"
+        },
+        {
+          "alt": "Свежий зелёный лист, распускающийся из веточки",
+          "public_path": "/images/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.json",
+      "metadata_sha256": "3da49d74bc08a43d58e1521c3a1855b84b0875e95ea888a451987e26bb69973c",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ИСТОРИЯ ЦЕРКВИ",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "9001af1f34c52b235af4ae22af79ba7fa0d5cf2bf7273485ec1e06a8188fc9a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Размышления о ранней американской меннонитской церкви",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.html",
+      "html_sha256": "1b19c2742bbcd8e798e9939ab97401989f55a091a70390d49591fc8ea795b572",
+      "human_reviewed": false,
+      "id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
+      "images": [
+        {
+          "alt": "Ночное небо, усыпанное звёздами, над горным озером",
+          "public_path": "/images/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.json",
+      "metadata_sha256": "96fe2ecce251bb25918a0b29cab20685dec8c973ed63417876529af176a2a339",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ИСТОРИЯ ГИМНОВ",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Песчинки времени погружаются",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
+      "html_sha256": "96a32bb3ec1e36f6b89aa46953a709fbc9865bd63d24958ade477df293089ad8",
+      "human_reviewed": false,
+      "id": "62646d6d-87be-47a6-880f-0ade408a3402",
+      "images": [
+        {
+          "alt": "Белые цветы рядом с маленькой птицей, гнездящейся в чаше",
+          "public_path": "/images/articles/62646d6d-87be-47a6-880f-0ade408a3402-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/62646d6d-87be-47a6-880f-0ade408a3402.json",
+      "metadata_sha256": "67a824c0300dd7b3f1703c7a8c0fcc5b83164b1b076d46253066cc2354eb5eed",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "От редактора",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
+      "status": "ready",
+      "subtitle": null,
+      "title": "От редактора",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -1507,6 +2911,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
+      "html_sha256": "e5b53c78a15afea75bced86aae0c13179f7b806139eb458ec9e5c585b26bface",
+      "human_reviewed": false,
+      "id": "31ea7041-cab6-4ccd-9ead-04cc949321a6",
+      "images": [
+        {
+          "alt": "Una Biblia abierta con páginas que se voltean",
+          "public_path": "/images/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6-1.jpg"
+        },
+        {
+          "alt": "Una hoja verde fresca brotando de una rama",
+          "public_path": "/images/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.json",
+      "metadata_sha256": "2394156a9fcfd26df8a66864a6b8ce67bc04129970f7bf8513c30cb24ae5581c",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "HISTORIA DE LA IGLESIA",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "9001af1f34c52b235af4ae22af79ba7fa0d5cf2bf7273485ec1e06a8188fc9a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Una reflexión sobre la temprana iglesia menonita estadounidense",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
       "html_sha256": "f11aa2f168e4ad5ee76a63ef89a209f76cf031e6464d4d978a3cbafcdeef22b0",
       "human_reviewed": false,
@@ -1530,6 +2966,62 @@
       "status": "ready",
       "subtitle": null,
       "title": "From the Editor",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.html",
+      "html_sha256": "25fe510191eec8454dced9d92d414754e694d00d005069bfe9f5046ddd43a1cf",
+      "human_reviewed": false,
+      "id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
+      "images": [
+        {
+          "alt": "Un cielo nocturno lleno de estrellas sobre un lago de montaña",
+          "public_path": "/images/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.json",
+      "metadata_sha256": "7365c0656dd7afd7456011a5ece44dd3f9a77084f49d094e4c815fd5efcd3670",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "HYMN HISTORY",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "The Sands of Time Are SINKING",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
+      "html_sha256": "213c30d0d575241d5b12876840f149a69463c1168805cf69f190cc3f843909d2",
+      "human_reviewed": false,
+      "id": "62646d6d-87be-47a6-880f-0ade408a3402",
+      "images": [
+        {
+          "alt": "Flores blancas junto a un pequeño pájaro anidando en un cuenco",
+          "public_path": "/images/articles/62646d6d-87be-47a6-880f-0ade408a3402-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/62646d6d-87be-47a6-880f-0ade408a3402.json",
+      "metadata_sha256": "9dc8eed75d527cf69e4eeea74d6365a033052969501090f48c6b32f897396002",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Del editor",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Del editor",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -1658,6 +3150,338 @@
       "status": "ready",
       "subtitle": null,
       "title": "Procrastinación en exceso",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f.html",
+      "html_sha256": "2a2f8dd9c81b0046be00a436e05afd01a31ed7c0ed247271fb25b32e56b41004",
+      "human_reviewed": false,
+      "id": "cdb88be0-93b0-4362-bc3b-1488aff1a76f",
+      "images": [
+        {
+          "alt": "Orquídeas blancas con centros morados",
+          "public_path": "/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f.json",
+      "metadata_sha256": "68e01cfd3174b25b234924132c38c3928d2d55456b2873563e61077f4b4a30a6",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "15ac9c1b97edbe073ae811f5fd305d02a68542aeb9f44f03ca5e9732f904625a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La gloria de la primavera",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/fbfb182b-bb05-434f-a664-b74c68153e61.html",
+      "html_sha256": "9724c8bc24ade9a55735459edee28cf5828a86fc85b42906967fa8b5502364ad",
+      "human_reviewed": false,
+      "id": "fbfb182b-bb05-434f-a664-b74c68153e61",
+      "images": [
+        {
+          "alt": "Una lavadora y cestos de ropa en una habitación",
+          "public_path": "/images/articles/fbfb182b-bb05-434f-a664-b74c68153e61-1.jpg"
+        },
+        {
+          "alt": "Un cuaderno, bolígrafos, café y una planta sobre un escritorio",
+          "public_path": "/images/articles/fbfb182b-bb05-434f-a664-b74c68153e61-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/fbfb182b-bb05-434f-a664-b74c68153e61.json",
+      "metadata_sha256": "5bacf0adbe7a7f4f3cecdcd08eaaa373164b5595d212128693f2753a18e3fc13",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "HERMANA A HERMANA",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "El síndrome de la sobrecarga",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.html",
+      "html_sha256": "21fe11cc0b8bbda47121ab1c25d8d5669b2e62852e2ef9f513b9ce0d39c41a88",
+      "human_reviewed": false,
+      "id": "1ec0f654-0dd1-48f3-9a68-3b15189e6704",
+      "images": [
+        {
+          "alt": "Mtoto akipiga mkoko kwenye kajaki ya buluu kwenye bwawa",
+          "public_path": "/images/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.json",
+      "metadata_sha256": "9fbfb30ccaf118f7c9266b52cfcc10ae203541544de8982e15d64f42092eba1a",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Sehemu ya Watoto",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "dcfff2a5364081c6a6817377a0d3ad1649eaec0276399a4b9a70adc9f0fe19d1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Furaha kwa Wote",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
+      "html_sha256": "ccbe9c3984cbaaed418fe38cd8524f722543a533e42c2917f689a35fc32559bb",
+      "human_reviewed": false,
+      "id": "31ea7041-cab6-4ccd-9ead-04cc949321a6",
+      "images": [
+        {
+          "alt": "Bibilia iliyofunguliwa ikiwa na kurasa zinazozunguka",
+          "public_path": "/images/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6-1.jpg"
+        },
+        {
+          "alt": "Ganda jipya jani la kijani likianza kutoka kwenye tawi",
+          "public_path": "/images/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.json",
+      "metadata_sha256": "eae37f5124235786c2c833e05fa1d57e507dfb2027e6ffd752e453b9f9f8ad01",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "HISTORIA YA KANISA",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "9001af1f34c52b235af4ae22af79ba7fa0d5cf2bf7273485ec1e06a8188fc9a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Tafakari juu ya Kanisa la Mennonite la Marekani la Mwanzo",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
+      "html_sha256": "8178b4aee4de9194772d774b17062f1fce66a32d930508ef35b3b8d7088108e9",
+      "human_reviewed": false,
+      "id": "31ea7041-cab6-4ccd-9ead-04cc949321a6",
+      "images": [
+        {
+          "alt": "En öppen Bibel med bläddrande sidor",
+          "public_path": "/images/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6-1.jpg"
+        },
+        {
+          "alt": "Ett fräscht grönt blad som slår ut från en kvist",
+          "public_path": "/images/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.json",
+      "metadata_sha256": "dd0cf68d6c0243f822ce3d393659d40f81fc35e06de68e545c99d1dcf02664d8",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "KYRKOHISTORIA",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "9001af1f34c52b235af4ae22af79ba7fa0d5cf2bf7273485ec1e06a8188fc9a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "En reflektion över den tidiga amerikanska mennonitiska kyrkan",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/45c612ff-1966-4079-9ba5-09ab022917ea.html",
+      "html_sha256": "5a84d764d558e8a715b7c17113254b3909b786d706e502be04ec9298bfc6b50c",
+      "human_reviewed": false,
+      "id": "45c612ff-1966-4079-9ba5-09ab022917ea",
+      "images": [
+        {
+          "alt": "En gul blomma mot gröna blad",
+          "public_path": "/images/articles/45c612ff-1966-4079-9ba5-09ab022917ea-1.jpg"
+        },
+        {
+          "alt": "En sporkullssvamp som växer på en mossig skogsbotten",
+          "public_path": "/images/articles/45c612ff-1966-4079-9ba5-09ab022917ea-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/45c612ff-1966-4079-9ba5-09ab022917ea.json",
+      "metadata_sha256": "c5c866e3b6cbbfe05c695bc842dbb1063353a5332ae6d4a6005d5c2889075cb4",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "GUDS EGENSKAPER",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "307ff3dcec107109e8c031e07835839a270150b1f8308d14b1a8b6811fd4f56d",
+      "status": "ready",
+      "subtitle": "Från Sion har skönhet strålat fram, Gud har uppenbarat sig. Psalms 50:2",
+      "title": "Gud, Skönhetens Fullkomlighet",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.html",
+      "html_sha256": "a42cbee44d0c626bbc1997d2f74cf885464e94e3f8fd43545d235e89b6f4700d",
+      "human_reviewed": false,
+      "id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
+      "images": [
+        {
+          "alt": "En stjärnfylld natthimmel över en bergssjö",
+          "public_path": "/images/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.json",
+      "metadata_sha256": "7365c0656dd7afd7456011a5ece44dd3f9a77084f49d094e4c815fd5efcd3670",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "HYMN HISTORY",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "The Sands of Time Are SINKING",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
+      "html_sha256": "b6392ba4afb80544f0b04603a92bb98c6cb8ee8ecb2232b236a98f7900a855c7",
+      "human_reviewed": false,
+      "id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
+      "images": [
+        {
+          "alt": "En stadsbutik med en röd dörr och en gatlykta",
+          "public_path": "/images/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46-1.jpg"
+        },
+        {
+          "alt": "En hand som håller en uppslagen bok",
+          "public_path": "/images/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.json",
+      "metadata_sha256": "448f39267293c3974cfa04c921a5ada829ae13d3c774e09a023364382d0dcb97",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "INSPIRATION FÖR UNGDOMAR",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ken och jag",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
+      "html_sha256": "8083b34ce5253c0cce93a8974dda978819eff5a15db0834b1935e09c4474c2e3",
+      "human_reviewed": false,
+      "id": "31ea7041-cab6-4ccd-9ead-04cc949321a6",
+      "images": [
+        {
+          "alt": "ایک کھلی بائبل جس کے صفحات پلٹ رہے ہیں",
+          "public_path": "/images/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6-1.jpg"
+        },
+        {
+          "alt": "ایک تنکے سے نکلتی تازہ سبز پتّی",
+          "public_path": "/images/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.json",
+      "metadata_sha256": "cdaa9506373e9c9073e9c3aaecffe7d82d80a5d09d664281d806781e2265fbdb",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "چرچ ہسٹری",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "9001af1f34c52b235af4ae22af79ba7fa0d5cf2bf7273485ec1e06a8188fc9a6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ابتدائی امریکن مینو نائٹ چرچ پر ایک عکاسی",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
+      "html_sha256": "50dc9887a5dfaadf41464ad0982a0987ccee5c50d803ccea06bc9ca6aebb1128",
+      "human_reviewed": false,
+      "id": "62646d6d-87be-47a6-880f-0ade408a3402",
+      "images": [
+        {
+          "alt": "ایک چھوٹے پرندے کے گھونسلے کے ساتھ سفید پھول",
+          "public_path": "/images/articles/62646d6d-87be-47a6-880f-0ade408a3402-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/62646d6d-87be-47a6-880f-0ade408a3402.json",
+      "metadata_sha256": "9af42642cfc6c57b1929acd62f906619f634cb127a3193fc9fa3f034a9f6dd19",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "مدیر سے",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
+      "status": "ready",
+      "subtitle": null,
+      "title": "مدیر سے",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/b43320f3-e4e8-450b-865c-099ef704149c.html",
+      "html_sha256": "c80dc53a64f07911776a90d8c56aa43024520a7d752f2f68d73b463299f38224",
+      "human_reviewed": false,
+      "id": "b43320f3-e4e8-450b-865c-099ef704149c",
+      "images": [
+        {
+          "alt": "سرخ بیریوں کے پاس ایک نارنجی اور سیاہ تتلی بیٹھی ہوئی ہے",
+          "public_path": "/images/articles/b43320f3-e4e8-450b-865c-099ef704149c-1.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/b43320f3-e4e8-450b-865c-099ef704149c.json",
+      "metadata_sha256": "772e3743ce3b12dc232ab3e16376b45853bea2ba476c1b3041be29c4e1d7ff4c",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "مسیحی شراکتِ تلمیذانہ",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "f7304b582e2d69344173a19198f46ca88b1132d0c44e0b4021e5c3668c34cd95",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ایک بگاڑے ہوئے معاشرے میں اخلاقی طور پر پاک",
       "translation_model": "gpt-5-mini-2025-08-07"
     }
   ],

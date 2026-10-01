@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e687d90f-a233-4953-9f9f-f887bc7fedb8",
+    "response_id": "chatcmpl-EUH3e8YhXLWIKFVTofObaWxx70xH8",
+    "usage": {
+      "completion_tokens": 1853,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8988,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10841
+    }
+  },
+  "received_at": "2026-10-01T20:28:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph about rescue from well (5th <p>)",
+        "severity": "major",
+        "source_quote": "They asked him how he got out, and his reply was, \"A bonny white man came and drew me out of the well.\"",
+        "suggested_fix": "Translate the child's quoted reply into Afrikaans and preserve the quotation marks and paragraph structure. Example replacement (inside same <p>): Hulle het hom gevra hoe hy uitgekom het, en hy het geantwoord: \"'n Mooi wit man het gekom en my uit die put getrek.\"",
+        "translation_quote": "They asked him how he got out, and his reply was: \"A bonny white man came and drew me out of the well.\""
+      },
+      {
+        "location": "source.html — paragraph about conversion (11th <p>)",
+        "severity": "major",
+        "source_quote": "He said, \"O but Christ hath a saving eye. When He first looked on me I was saved. It cost Him but a look to make hell quit to me.\"",
+        "suggested_fix": "Translate Rutherford's quoted testimony into Afrikaans, keeping it clearly marked as a direct quotation. Example replacement: Hy het gesê: \"O, maar Christus het 'n reddende oog. Toe Hy my eers aanskou het, is ek gered. Dit het Hom net 'n blik gekos om die hel van my af te keer.\"",
+        "translation_quote": "He said, \"O but Christ hath a saving eye. When He first looked on me I was saved. It cost Him but a look to make hell quit to me.\""
+      },
+      {
+        "location": "source.html — paragraph about university stir and visiting (13th <p>)",
+        "severity": "major",
+        "source_quote": "It is said that he seemed to be always praying, always preaching, always visiting the sick, always teaching and instructing, always writing or studying. A friend once reported, \"Many times I thought he would have flown out of the pulpit when he came to speak of Jesus Christ.\"",
+        "suggested_fix": "Translate both the descriptive sentence and the friend's reported quotation into Afrikaans, preserving punctuation and structure. Example: Daar word gesê hy het altyd gebid, altyd gepreek, altyd die siekes besoek, altyd geleer en onderrig gegee, altyd geskryf of gestudeer. 'n Vriend het eens berig: \"Dikwels het ek gedink hy sou uit die preekstoel uitgeswaai het wanneer hy van Jesus Christus praat.\"",
+        "translation_quote": "It is said that he seemed to be always praying, always preaching, always visiting the sick, always teaching and instructing, always writing or studying. A friend once reported, \"Many times I thought he would have flown out of the pulpit when he came to speak of Jesus Christ.\""
+      },
+      {
+        "location": "source.html — paragraph with Rutherford's dying testimony (near end, long <p>)",
+        "severity": "major",
+        "source_quote": "Late in the afternoon of the last day of his life in answer to the question, \"What think ye now of Christ?\" answered thusly, \"Oh, that all my brethren in the land may know what a Master I have served, and what peace I have this day! I shall sleep in Christ, and when I awake, I shall be satisfied with His likeness. This night shall close the door, and put my anchor within the veil, and I shall go away in a sleep by five of the clock in the morning. Glory! glory to my Creator and my Redeemer forever! I Shall live and adore Him. Oh, for arms to embrace Him! Oh, for a well-tuned harp! Glory! glory dwelleth in Immanuel's land!\" These words were heard by his wife, daughter and friends, and he was indeed with his Lord by five in the morning.",
+        "suggested_fix": "Translate the entire question-and-answer and the following sentence into Afrikaans as a single quoted passage where appropriate. Preserve quotation marks, sentence order and HTML tags. Example replacement (condensed for style): Laatmiddag op die laaste dag van sy lewe, toe gevra is: \"Wat dink julle nou van Christus?\", het hy geantwoord: \"O, dat al my broeders in die land sou weet watter Meester ek gedien het, en watter vrede ek hierdie dag het! Ek sal in Christus slaap, en wanneer ek ontwaak sal ek met Sy beeld bevredig wees. Hierdie nag sal die deur toemaak en my anker binne die voorhangsel sit, en ek sal teen vyfuur in die oggend in 'n slaap weggaan. Heerlikheid! heerlikheid aan my Skepper en my Verlosser vir ewig! Ek sal leef en Hom aanbid. O, vir arms om Hom te omhels! O, vir 'n welgestemde harp! Heerlikheid! heerlikheid woon in Immanuel se land!\" Hierdie woorde is deur sy vrou, dogter en vriende gehoor, en hy was inderdaad by vyfuur in die oggend by sy Here.",
+        "translation_quote": "Late in the afternoon of the last day of his life in answer to the question, \"What think ye now of Christ?\" answered thusly, \"Oh, that all my brethren in the land may know what a Master I have served, and what peace I have this day! I shall sleep in Christ, and when I awake, I shall be satisfied with His likeness. This night shall close the door, and put my anchor within the veil, and I shall go away in a sleep by five of the clock in the morning. Glory! glory to my Creator and my Redeemer forever! I Shall live and adore Him. Oh, for arms to embrace Him! Oh, for a well-tuned harp! Glory! glory dwelleth in Immanuel's land!\" These words were heard by his wife, daughter and friends, and he was indeed with his Lord by five in the morning."
+      },
+      {
+        "location": "source.title vs translation.title (metadata)",
+        "severity": "minor",
+        "source_quote": "The Sands of Time Are SINKING",
+        "suggested_fix": "Translate or localize the English title into Afrikaans to match the article content and hymn translation. For example: \"Die sand van tyd sak weg\" (or keep original English if editorial policy requires). Ensure title capitalization and punctuation follow site conventions.",
+        "translation_quote": "Die Sands of Time Are SINKING"
+      }
+    ],
+    "passed": false,
+    "score": 62
+  }
+}

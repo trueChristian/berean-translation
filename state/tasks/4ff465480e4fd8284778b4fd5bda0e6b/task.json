@@ -2,7 +2,6 @@
   "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 8647
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 708,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8460,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9168
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Paragraph about 1631 (source.html paragraph starting \"Samuel no estuvo ajeno...\")",
+      "severity": "minor",
+      "source_quote": "In 1631, only four short years after he began his work as a pastor, his wife passed away. His two children also became ill and left this world.",
+      "suggested_fix": "Change the Spanish tense to a simple past to match the source and sound natural: replace \"Sus dos hijos también enfermaban y dejaron este mundo.\" with \"Sus dos hijos también enfermaron y dejaron este mundo.\"",
+      "translation_quote": "Sus dos hijos también enfermaban y dejaron este mundo."
+    },
+    {
+      "location": "Paragraph about government change (source.html paragraph starting \"The government eventually changed hands...\")",
+      "severity": "minor",
+      "source_quote": "The government eventually changed hands, which gave more liberty to the non-conformist Covenanters.",
+      "suggested_fix": "Avoid mixing English and Spanish and render the movement name idiomatically. Replace \"los disidentes covenanters\" with \"los covenanters no conformistas\" or simply \"los covenanters\" (with appropriate lowercase/uppercase consistent with house style). Also capitalize 'Commonwealth' if treated as a proper noun: replace \"el gobierno del commonwealth\" with \"el gobierno del Commonwealth\" or translate as \"la Mancomunidad (Commonwealth)\" if preferred.",
+      "translation_quote": "El gobierno eventualmente cambió de manos, lo que dio más libertad a los disidentes covenanters."
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:54+00:00",
   "id": "4ff465480e4fd8284778b4fd5bda0e6b",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "spa",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c48182e3f5033a08822c2237c3e9e7faab5b80302e823695d8ba3dd0faead4e3.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

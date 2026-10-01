@@ -2,7 +2,6 @@
   "article_id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e930b689493245769dff389b4802f44f",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 6397
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1457,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 960,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6210,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7667
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<p>“I don’t know, \" he responded, and we fell back into silent anguish at the outcome of our supposed Bible study, grasping for an explanation for the terrible response.</p>",
+      "severity": "minor",
+      "source_quote": "“I don’t know, \" he responded, and we fell back into silent anguish at the outcome of our supposed Bible study, grasping for an explanation for the terrible response.",
+      "suggested_fix": "Translate the English word 'anguish' correctly into Arabic (e.g., «غرقنا في حزن صامت» or «غرقنا في عذاب صامت»). Preserve surrounding punctuation and HTML tags.",
+      "translation_quote": "«لا أدري،» أجاب، وغرقنا في anguّان صامت عند نتيجة ما اعتبرناه دراسة كتاب مقدس، نحاول الإمساك بتفسير للرد الفظيع."
+    },
+    {
+      "location": "<p class=\"drop-cap\">…escape the confines of his dingy, pawn shop, his ever-crescendoing voice drowning the last hope of respite.</p>",
+      "severity": "minor",
+      "source_quote": "escape the confines of his dingy, pawn shop, his ever-crescendoing voice drowning the last hope of respite.",
+      "suggested_fix": "Use an idiomatic Arabic rendering for 'dingy, pawn shop' such as «محل الرهونات المتسخ» or «متجر الرهونات القذر» and ensure fluent Arabic order. Preserve the HTML tag and sentence structure.",
+      "translation_quote": "أهرب من حدود متجره المحتفظات الصدئة، وصوته الذي يتصاعد باستمرار يُخمد آخر أمل في مهلة."
+    },
+    {
+      "location": "<p>To his relief, she continued down the hall. He was still too scared to leave his hiding place for fear of receiving a beating.</p>",
+      "severity": "minor",
+      "source_quote": "To his relief, she continued down the hall.",
+      "suggested_fix": "Correct the garbled duplication. Replace the current Arabic with a natural equivalent such as «ولراحة صدره واصلَت سيرها في الممر.» or «ولراحته، واصلت النزول في الرواق.» Keep the surrounding HTML and sentence punctuation unchanged.",
+      "translation_quote": "لراحته استمرت راحته في النزول في الرواق."
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:54+00:00",
   "id": "d751c435bff7fc97bbe0cbdee51a6331",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "ara",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0c059a0312fc4bb7c1d9113fe70aaa013f3daaefdb55449ee68204bcbaa1c79e.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
