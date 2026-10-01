@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d5e91175-3752-47bc-99cf-a018fc3a537c",
+    "response_id": "chatcmpl-EUGi91EfsQnFM7fiwHdT2b70EKGKD",
+    "usage": {
+      "completion_tokens": 730,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1149,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1879
+    }
+  },
+  "received_at": "2026-10-01T20:28:38+00:00",
+  "result": {
+    "html": "<article data-article-id=\"eed66189-2caa-4bfb-9eaa-545562c7e9a6\">\n  <figure>\n    <img src=\"/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg\" alt=\"En liten båt vid kanten av stilla vatten under en sprakande solnedgång\" loading=\"lazy\">\n  </figure>\n\n  <div class=\"poem\">\n    <p><strong>Stå upp, var glad! Ty gryningen är här!<br>\n    Gläds och sjung! Natten är förbi,<br>\n    Morgonrodnaden skiner från höjden,<br>\n    Guds nåd mot människan är nära!<br>\n    Gläds och prisa Konungarnas Konung!<br>\n    Tacka och lova, för mer är här!</strong></p>\n\n    <p><strong>Stå upp och förhärliga Herren!<br>\n    Upphöj och prisa Hans värdiga namn!<br>\n    Han skiner från himlens höjd i kärlek,<br>\n    Och öser välsignelser från ovan,<br>\n    Hans barmhärtighet når ner till människan—<br>\n    Tillbe och prisa vår mäktige Herre!</strong></p>\n\n    <p><strong>Tacka och sjung för Kristus vår Konung<br>\n    Och tillbed Honom med vördnadsfull lovsång;<br>\n    Böj er i fruktansvärd, helig fruktan—<br>\n    Guds helighet är här;<br>\n    I underbar skönhet böj knäet;<br>\n    Tillbe den allsmäktige Konungarnas Konung!</strong></p>\n  </div>\n</article>\n",
+    "section": "Dikt",
+    "subtitle": null,
+    "title": "Stå upp, var glad"
+  }
+}

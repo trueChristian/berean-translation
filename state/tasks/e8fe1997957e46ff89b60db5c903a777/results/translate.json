@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0c6068ff-0dcb-4b4c-bbdf-82550bde2769",
+    "response_id": "chatcmpl-EUGj8GRqHivMGemMQwR8HkCvhjZ1Z",
+    "usage": {
+      "completion_tokens": 1533,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1807,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3340
+    }
+  },
+  "received_at": "2026-10-01T20:28:38+00:00",
+  "result": {
+    "html": "<article data-article-id=\"52074824-2feb-4fe4-96d0-a08ec72c3565\">\n  <p class=\"drop-cap\">Jag kan fortfarande känna den lockande kakafonin av dofter när jag höll min fars starka hand och slingrade oss genom folkmassorna av turister som trängdes i byggnaden. Försäljarna på Green Dragon Farmer’s Market i Ephrata, PA, försökte locka köpare med sina rader av färsk fisk på is, ostar i alla varianter, charkuterier och smörgåsar samt högar av färsk frukt. Och, åh, godiset! Mitt unga förskolehjärta hade aldrig sett så många läckra sötsaker på ett och samma ställe.</p>\n\n  <p>De två senaste dagarna för mig var som pojken i godisaffären. Jag hade förmånen att delta i Christian Aid Ministries första årliga författarkonferens. Jag råkade borra axlar med välkända författare som Katrina Hoover Lee, Johnny Miller och Ruthann Stelfox. Jag samtalade med aspirerande skribenter och erfarna skol lärare. Jag fick möjlighet att sitta med under timmar av inspirerande och utbildande workshops om hur man skriver för att kommunicera, använder realistisk dialog, beskrivande skrivande och mycket mer. Vi hade alla ett gemensamt mål i sikte. Tillsammans delar vi och lär oss hur vi effektivt kommunicerar vad som finns i våra hjärtan, och genom det skrivna ordets kraft överför dessa tankar till era hjärtan.</p>\n\n  <p><em>The Heartbeat of the Remnant</em> är ett sätt att förmedla inspirerande tankar till ivriga läsare spridda över hela världen. Modiga författare träder fram med penna och papper eller tangentbord och bildskärm och hjälper till att sprida det goda budskapet i Guds Ord med försiktighet, rättelse och uppbyggelse. Ändå behöver vi fler sådana skribenter. Vi behöver unga troende som modigt lämnar in sina första barnhistorier. Erfarna farföräldrar som för fram tillrättavisande ord till den yngre generationen. Mödrar som delar erfarenheter och prövningar med andra mödrar som är mitt uppe i uppfostran av små barn. Ungdomar som uppmuntrar medungdomar att sträva mot målet och priset för den höga kallelsen i Kristus Jesus. Fäder som med bekymrad blick ser hur världen tränger sig in i de kristna hemmen. Tillsammans kommer dessa aspirerande skribenter att producera en tidskrift som kommer att leva kvar på familjens soffbord i många år. Jag uppmuntrar er, kära troende, att ge det ett försök. Nelson Mandela, Sydafrikas tidigare president, skrev: \"Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?\"</p>\n\n  <p>Berean Voice har som mål att tillhandahålla tryckt material som hjälper läsare att navigera genom livets skiftande och svåra årstider. Allt vårt material finns tillgängligt utan kostnad, men vi är beroende av donationer från våra stödjare. Här är en lista över böcker vi har tillgängliga:</p>\n\n  <p class=\"book-list\">Kraften i sanningens kärlek<br>\n  Kristen rådgivning—Förfalskning?<br>\n  Guds hjärta<br>\n  Fri på riktigt!<br>\n  Pilgrimer och politik<br>\n  Bägaren &amp; Korset<br>\n  Den höga kostnaden för holistisk healing<br>\n  Hemligheterna bakom framgångsrikt skrivande<br>\n  Den katolska kopplingen<br>\n  Psykiatri och humörpåverkande mediciner<br>\n  Mennonitkyrkan och modernismen</p>\n\n  <p>Åren 2017 och 2018 tryckte Berean Voice en serie vaccinationsartiklar i <em>The Heartbeat of the Remnant</em>-magasinet. Dessa artiklar var ett uppriktigt försök att granska olika aspekter av vaccinationsanvändning med ett opartiskt tillvägagångssätt. Vi försökte presentera fakta så klart som möjligt och låta läsarna dra sina egna slutsatser.</p>\n\n  <p>Sedan dess har vi fått en mängd förfrågningar från våra läsare att publicera alla vaccinationsartiklarna i ett häfte, vilket vi gick med på att göra. Men så kom 2019 och förde med sig coronaviruset. Denna monumentala händelse ställde vaccin-debatten på ända och inledde en febril kapplöpning för att få fram COVID-19-åtgärder på marknaden, många av vilka inte var ordentligt testade. Vi satte tryckningen på vänt, osäkra på om vi skulle inkludera information om dessa nya och obekräftade COVID-19 \"vacciner.\" När tiden gick och COVID-19:s dödliga natur avtagit, bestämde vi oss för att publicera de ursprungliga vaccinationsartiklarna i ett häfte utan några ytterligare artiklar om COVID-19-debatten. Vi är glada att projektet närmar sig slutförande och kommer att tillkännage det när det släpps.</p>\n\n  <p>Välsignelser till er alla,</p>\n\n  <p class=\"byline\">Edward Martin</p>\n\n  <figure>\n    <img src=\"/images/articles/52074824-2feb-4fe4-96d0-a08ec72c3565-1.jpg\" alt=\"Rosa och vita crown vetch-blommor i en grön äng\" loading=\"lazy\">\n  </figure>\n</article>\n",
+    "section": "Från REDAKTÖREN",
+    "subtitle": null,
+    "title": "Från redaktören"
+  }
+}
