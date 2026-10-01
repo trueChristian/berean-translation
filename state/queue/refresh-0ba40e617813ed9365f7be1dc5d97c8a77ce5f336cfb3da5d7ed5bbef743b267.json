@@ -1,0 +1,19 @@
+{
+  "article_ids": [
+    "eed66189-2caa-4bfb-9eaa-545562c7e9a6"
+  ],
+  "budget_usd": 10,
+  "dry_run": false,
+  "id": "refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267",
+  "issues": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+  "languages": "afr",
+  "model": "gpt-5-mini",
+  "operation": "translate",
+  "requested_by": "automatic-source-refresh",
+  "retry_failed": false,
+  "review_model": "gpt-5-mini",
+  "source_refresh": true,
+  "source_translation_keys": {
+    "eed66189-2caa-4bfb-9eaa-545562c7e9a6": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb"
+  }
+}

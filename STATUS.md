@@ -2,7 +2,7 @@
 
 Generated from the pinned source catalogue and durable work records. No API call is made by this report.
 
-Observed English revision: `9d63582fba97d9f34c3c05d2e95b35dc67b3c042`
+Observed English revision: `eb04e6e4598da0e78120fd5ab5dfcbcf1a9aa457`
 
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
@@ -65,31 +65,43 @@ Observed English revision: `9d63582fba97d9f34c3c05d2e95b35dc67b3c042`
 | `heartbeat-remnant-2007-07` | 12 | 0 / 240 | 0 | 0 | 0 |
 | `heartbeat-remnant-2007-04` | 12 | 0 / 240 | 0 | 0 | 0 |
 | `heartbeat-remnant-2007-01` | 13 | 0 / 260 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-10` | 13 | 0 / 260 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-07` | 13 | 0 / 260 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-03` | 13 | 0 / 260 | 0 | 0 | 0 |
+| `heartbeat-remnant-2006-01` | 12 | 0 / 240 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-11` | 12 | 0 / 240 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-09` | 15 | 0 / 300 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-07` | 13 | 0 / 260 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-05` | 12 | 0 / 240 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-03` | 12 | 0 / 240 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-winter` | 11 | 0 / 220 | 0 | 0 | 0 |
+| `heartbeat-remnant-2005-01` | 11 | 0 / 220 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-autumn` | 10 | 0 / 200 | 0 | 0 | 0 |
 
 ## Language readiness
 
 | Language | Ready / source articles | Human reviewed | Active candidates | Not-ready candidates | Corrected candidates |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 0 / 671 | 0 | 0 | 0 | 0 |
-| `hin` (hi) | 0 / 671 | 0 | 0 | 0 | 0 |
-| `spa` (es) | 0 / 671 | 0 | 0 | 0 | 0 |
-| `ara` (ar) | 0 / 671 | 0 | 0 | 0 | 0 |
-| `fra` (fr) | 0 / 671 | 0 | 0 | 0 | 0 |
-| `ben` (bn) | 0 / 671 | 0 | 0 | 0 | 0 |
-| `por` (pt) | 0 / 671 | 0 | 0 | 0 | 0 |
-| `ind` (id) | 0 / 671 | 0 | 0 | 0 | 0 |
-| `urd` (ur) | 0 / 671 | 0 | 0 | 0 | 0 |
-| `rus` (ru) | 0 / 671 | 0 | 0 | 0 | 0 |
-| `deu` (de) | 0 / 671 | 0 | 0 | 0 | 0 |
-| `nld` (nl) | 0 / 671 | 0 | 0 | 0 | 0 |
-| `afr` (af) | 4 / 671 | 0 | 0 | 5 | 5 |
-| `swa` (sw) | 0 / 671 | 0 | 0 | 0 | 0 |
-| `kor` (ko) | 0 / 671 | 0 | 0 | 0 | 0 |
-| `ita` (it) | 0 / 671 | 0 | 0 | 0 | 0 |
-| `heb` (he) | 0 / 671 | 0 | 0 | 0 | 0 |
-| `ell` (el) | 0 / 671 | 0 | 0 | 0 | 0 |
-| `swe` (sv) | 0 / 671 | 0 | 0 | 0 | 0 |
-| `nob` (nb) | 0 / 671 | 0 | 0 | 0 | 0 |
+| `cmn` (zh-Hans) | 0 / 818 | 0 | 0 | 0 | 0 |
+| `hin` (hi) | 0 / 818 | 0 | 0 | 0 | 0 |
+| `spa` (es) | 0 / 818 | 0 | 0 | 0 | 0 |
+| `ara` (ar) | 0 / 818 | 0 | 0 | 0 | 0 |
+| `fra` (fr) | 0 / 818 | 0 | 0 | 0 | 0 |
+| `ben` (bn) | 0 / 818 | 0 | 0 | 0 | 0 |
+| `por` (pt) | 0 / 818 | 0 | 0 | 0 | 0 |
+| `ind` (id) | 0 / 818 | 0 | 0 | 0 | 0 |
+| `urd` (ur) | 0 / 818 | 0 | 0 | 0 | 0 |
+| `rus` (ru) | 0 / 818 | 0 | 0 | 0 | 0 |
+| `deu` (de) | 0 / 818 | 0 | 0 | 0 | 0 |
+| `nld` (nl) | 0 / 818 | 0 | 0 | 0 | 0 |
+| `afr` (af) | 4 / 818 | 0 | 0 | 5 | 5 |
+| `swa` (sw) | 0 / 818 | 0 | 0 | 0 | 0 |
+| `kor` (ko) | 0 / 818 | 0 | 0 | 0 | 0 |
+| `ita` (it) | 0 / 818 | 0 | 0 | 0 | 0 |
+| `heb` (he) | 0 / 818 | 0 | 0 | 0 | 0 |
+| `ell` (el) | 0 / 818 | 0 | 0 | 0 | 0 |
+| `swe` (sv) | 0 / 818 | 0 | 0 | 0 | 0 |
+| `nob` (nb) | 0 / 818 | 0 | 0 | 0 | 0 |
 
 ## Issue / language work
 
@@ -101,6 +113,18 @@ Only combinations with requested or published work appear below. Counts of pendi
 
 ## Campaigns
 
-| Request | Operation | Tasks | Reserved ceiling (USD) | Report |
-| --- | --- | ---: | ---: | --- |
-| `gh-36549125967` | translate | 10 | 0.330636 / 10.00 | [state](state/campaigns/gh-36549125967.json) |
+| Request | Trigger | Operation | Status | Tasks | Reported usage (USD) | Reserved ceiling (USD) | Report |
+| --- | --- | --- | --- | ---: | ---: | ---: | --- |
+| `gh-36549125967` | manual | translate | finished | 10 | 0.06786800 | 0.330636 / 10.00 | [state](state/campaigns/gh-36549125967.json) |
+
+## Provider batch lifecycle
+
+Provider completion and local collection are separate clocks. Older records without provider timestamps remain unknown; legacy `completed_at` is local collection time. Provider completion does not mean a translation passed its quality gates.
+
+| Batch / stage | Worker / provider status | Requests total / completed / failed | Provider completed (UTC) | Collected locally (UTC) | Last poll attempted (UTC) |
+| --- | --- | --- | --- | --- | --- |
+| [0ec98d4956474ecc9adac833385eb194](state/batches/0ec98d4956474ecc9adac833385eb194/batch.json) / review1 | collected / completed | ? / ? / ? | not recorded | 2026-09-29T20:52:06+00:00 | not recorded |
+| [4af1a0b3630b405480a244dec9588991](state/batches/4af1a0b3630b405480a244dec9588991/batch.json) / review2 | collected / completed | ? / ? / ? | not recorded | 2026-09-30T06:47:56+00:00 | not recorded |
+| [87b332981d274bbdbf98120b8bd78f27](state/batches/87b332981d274bbdbf98120b8bd78f27/batch.json) / translate | collected / completed | ? / ? / ? | not recorded | 2026-09-29T15:57:12+00:00 | not recorded |
+| [ac99739dcdb74fb3bbce01ecfd13b081](state/batches/ac99739dcdb74fb3bbce01ecfd13b081/batch.json) / correct | collected / completed | ? / ? / ? | not recorded | 2026-09-30T00:31:56+00:00 | not recorded |
+| [bd664b332dc94252bac8ffeccdd68e4c](state/batches/bd664b332dc94252bac8ffeccdd68e4c/batch.json) / correct | collected / completed | ? / ? / ? | not recorded | 2026-09-29T20:52:08+00:00 | not recorded |
