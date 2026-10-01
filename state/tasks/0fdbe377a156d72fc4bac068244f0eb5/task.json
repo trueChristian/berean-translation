@@ -2,7 +2,6 @@
   "article_id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "43dd6806a74a4d91b551edb6be2f9847",
   "campaign": "gh-36909139357",
   "created_at": "2026-10-01T18:46:24+00:00",
   "events": [
@@ -24,6 +23,41 @@
         },
         "total_tokens": 2010
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 779,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1492,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2271
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> — first stanza, line 5",
+      "severity": "major",
+      "source_quote": "Rejoice and praise the King of Kings!",
+      "suggested_fix": "Keep imperative, active phrasing. Replace the translation's passive/optative phrase with an active imperative that matches the source and preserves HTML tags: change \"¡Regocíjaos y alabado sea el Rey de reyes!\" to \"¡Regocijaos y alabad al Rey de reyes!\"",
+      "translation_quote": "¡Regocíjaos y alabado sea el Rey de reyes!"
+    },
+    {
+      "location": "<div class=\"poem\"> — first stanza, line 2 and elsewhere (imperative forms)",
+      "severity": "minor",
+      "source_quote": "Rejoice and sing! The night is past,",
+      "suggested_fix": "Correct Spanish orthography for the verb form without introducing doctrinal or stylistic changes. Replace occurrences of the accented form \"Regocíjaos\" with the correct form \"Regocijaos\" (no accent). Preserve tags and line breaks.",
+      "translation_quote": "Regocíjaos y cantad! La noche ha pasado,"
     }
   ],
   "id": "0fdbe377a156d72fc4bac068244f0eb5",
@@ -69,11 +103,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/106121576068d9bdf697518dbfe2c70eff09e46a5d060eef756de2cfcb440b7f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

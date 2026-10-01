@@ -2,7 +2,6 @@
   "article_id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "43dd6806a74a4d91b551edb6be2f9847",
   "campaign": "gh-36909139357",
   "created_at": "2026-10-01T18:46:24+00:00",
   "events": [
@@ -24,8 +23,37 @@
         },
         "total_tokens": 2848
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 632,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2661,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3293
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<p>For example, if guests are coming and we plan to wash windows and make a dessert along with a dozen more tasks on the day of their arrival, there is no room for disruptions.</p>",
+      "severity": "minor",
+      "source_quote": "so isn’t it better to “plan” for a bee sting and a stubbed toe?",
+      "suggested_fix": "Change the translation to explicitly indicate \"stubbed toe\" as a toe rather than a finger. For example, replace “un dedo golpeado” with “un dedo del pie golpeado” or “un dedo del pie lastimado.” Preserve surrounding HTML tags and punctuation.",
+      "translation_quote": "Entonces, ¿no es mejor “planear” una picadura de abeja y un dedo golpeado?"
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:13+00:00",
   "id": "afbd266e3a526d3018cbce224b1e72ec",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "spa",
@@ -69,11 +97,13 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5fd263b236cc5e1da73816f24d29564842c820fa1abbcc53a271dfa0bf31493f.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

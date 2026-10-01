@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "63ae5305-9562-413c-ab6c-88e81e029698",
+    "response_id": "chatcmpl-EUGl1Nd1glyVMj2ahtrodnrqM7dEQ",
+    "usage": {
+      "completion_tokens": 632,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2661,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3293
+    }
+  },
+  "received_at": "2026-10-01T20:28:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>For example, if guests are coming and we plan to wash windows and make a dessert along with a dozen more tasks on the day of their arrival, there is no room for disruptions.</p>",
+        "severity": "minor",
+        "source_quote": "so isn’t it better to “plan” for a bee sting and a stubbed toe?",
+        "suggested_fix": "Change the translation to explicitly indicate \"stubbed toe\" as a toe rather than a finger. For example, replace “un dedo golpeado” with “un dedo del pie golpeado” or “un dedo del pie lastimado.” Preserve surrounding HTML tags and punctuation.",
+        "translation_quote": "Entonces, ¿no es mejor “planear” una picadura de abeja y un dedo golpeado?"
+      }
+    ],
+    "passed": true,
+    "score": 99
+  }
+}

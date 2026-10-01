@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d6eb55ac-da34-4191-a2c3-324a8c0b9be6",
+    "response_id": "chatcmpl-EUGkipyevcuhmFosyYObj7vGO2WTU",
+    "usage": {
+      "completion_tokens": 648,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2877,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3525
+    }
+  },
+  "received_at": "2026-10-01T20:28:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Third paragraph, sentence ending and direct address",
+        "severity": "minor",
+        "source_quote": "Together, we share and learn how to effectively communicate what is in our hearts, and through the power of the written word, transmit those thoughts to your hearts.",
+        "suggested_fix": "Make the address consistent in number and person. Change \"vuestros corazones\" to \"nuestros corazones\" (or to \"sus corazones\" if a polite plural is preferred) so it matches the preceding \"Juntos, compartimos y aprendemos\". Example: \"...y, mediante el poder de la palabra escrita, transmitir esos pensamientos a nuestros corazones.\"",
+        "translation_quote": "Juntos, compartimos y aprendemos cómo comunicar eficazmente lo que hay en nuestros corazones, y mediante el poder de la palabra escrita, transmitir esos pensamientos a vuestros corazones."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "db7b1129-282d-4f48-aefa-f839cb585426",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "43dd6806a74a4d91b551edb6be2f9847",
   "campaign": "gh-36909139357",
   "created_at": "2026-10-01T18:46:24+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 6591
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2633,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6339,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8972
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<p>…En Romanos, leemos, “For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness; Because that which may be known of God is manifest in them; for God hath shewed it unto them. For the invisible things of him from the creation of the world are clearly seen, being understood by the things that are made, even his eternal power and Godhead; so that they are without excuse: Because that, when they knew God, they glorified him not as God, neither were thankful; but became vain in their imaginations, and their foolish heart was darkened. Professing themselves to be wise, they became fools, And changed the glory of the uncorruptible God into an image made like to corruptible man, and to birds, and fourfooted beasts, and creeping things. Wherefore God also gave them up to uncleanness through the lusts of their own hearts, to dishonour their own bodies between themselves: Who changed the truth of God into a lie, and worshipped and served the creature more than the Creator, who is blessed for ever. Amen. For this cause God gave them up unto vile affections: for even their women did change the natural use into that which is against nature: And likewise also the men, leaving the natural use of the woman, burned in their lust one toward another; men with men working that which is unseemly, and receiving in themselves that recompence of their error which was meet. And even as they did not like to retain God in their knowledge, God gave them over to a reprobate mind, to do those things which are not convenient; Being filled with all unrighteousness, fornication, wickedness, covetousness, maliciousness; full of envy, murder, debate, deceit, malignity; whisperers, Backbiters, haters of God, despiteful, proud, boasters, inventors of evil things, disobedient to parents, Without understanding, covenantbreakers, without natural affection, implacable, unmerciful: Who knowing the judgment of God, that they which commit such things are worthy of death, not only do the same, but have pleasure in them that do them” (Romans 1:18-32).</p>",
+      "severity": "critical",
+      "source_quote": "Entire Romans 1:18-32 block as printed in source.html (long English quotation).",
+      "suggested_fix": "Replace the English Bible quotation with a faithful Spanish rendering that conveys the exact wording of the printed English passage while preserving the same HTML tag. Keep the surrounding <p>…</p> intact. Example replacement (preserve the p tag exactly):\n<p>En Romanos, leemos: “Porque la ira de Dios se revela desde el cielo contra toda impiedad e injusticia de los hombres que detienen con injusticia la verdad; Porque lo que de Dios se puede conocer les es manifiesto, pues Dios se lo manifestó. Porque las cosas invisibles de él, desde la creación del mundo, se ven desde las cosas hechas, siendo entendidas por medio de ellas su eterna potencia y divinidad, de modo que son inhábiles para excusarse; Porque habiendo conocido a Dios, no le glorificaron como a Dios, ni le dieron gracias, sino que se desvanecieron en sus razonamientos, y su corazón sin entendimiento se entenebreció. Profesando ser sabios, se volvieron necios, y cambiaron la gloria del Dios incorruptible por la semejanza de imagen de hombre corruptible, y de aves, y de cuadrúpedos, y de reptiles. Por lo cual también Dios los entregó a la inmundicia, en las concupiscencias de sus propios corazones, para deshonrar sus propios cuerpos entre sí; los cuales cambiaron la verdad de Dios por la mentira, y adoraron y sirvieron a la criatura antes que al Creador, el cual es bendito por los siglos. Amén. Por esto Dios los entregó a pasiones viles; pues aun sus mujeres cambiaron el uso natural por el que es contra naturaleza; y de igual modo también los hombres, dejando el uso natural de la mujer, se encendieron en su lascivia unos con otros, cometiendo hechos vergonzosos hombres con hombres, y recibiendo en sí mismos la retribución debida a su extravío. Y como no aprobaron tener en conocimiento a Dios, Dios los entregó a una mente reprobada, para hacer cosas que no convienen, llenos de toda injusticia, fornicación, maldad, avaricia, malicia; llenos de envidia, homicidio, contienda, engaño, malignidad; detractores, malignos, aborrecedores de Dios, injuriosos, soberbios, vanagloriosos, inventores de males, desobedientes a los padres, sin entendimiento, quebrantadores de pactos, sin afecto natural, implacables, sin misericordia; quienes habiendo conocido el juicio de Dios, que los que practican tales cosas son dignos de muerte, no solo las hacen, sino que aun se complacen con los que las practican” (Romanos 1:18-32).</p>\n\nNote: preserve the original punctuation and verse citation (Romans 1:18-32). Do not substitute a different Bible version; the Spanish text above is a direct rendering of the printed English for fidelity to the author’s quoted wording.",
+      "translation_quote": "Same long Romans passage left in English inside the translation."
+    },
+    {
+      "location": "<p>…El cristiano no confía en el razonamiento humano. El cristiano cree que el Dios del cielo es la razón de todo. “For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (Colossians 1:16). No somos nada sin Él, y sin Él no podemos hacer nada.…</p>",
+      "severity": "critical",
+      "source_quote": "Colossians 1:16 quoted in English in source.html: “For by him were all things created… all things were created by him, and for him” (Colossians 1:16).",
+      "suggested_fix": "Replace the English verse with a Spanish rendering that conveys the printed English wording while preserving the same <p> tag and inline quotation marks and the verse citation. Example replacement (keep the parentheses and citation):\n<p>…El cristiano no confía en el razonamiento humano. El cristiano cree que el Dios del cielo es la razón de todo. “Porque por él fueron creadas todas las cosas, las que hay en los cielos y las que hay en la tierra, visibles e invisibles, sean tronos, sea dominios, sea principados, o potestades: todo fue creado por medio de él y para él” (Colosenses 1:16). No somos nada sin Él, y sin Él no podemos hacer nada.…</p>\n\nThis keeps the author’s quoted English sense but presents it in Spanish; preserve the verse citation as (Colossians 1:16) or localize to (Colosenses 1:16) only if the publication’s style requires Bible book names in Spanish—otherwise keep the original parenthetical form used in the source.",
+      "translation_quote": "Colossians 1:16 left in English in the translation."
+    },
+    {
+      "location": "<p>…“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”…</p>",
+      "severity": "critical",
+      "source_quote": "John 15:18 quoted in English in source.html: “If the world hate you, ye know that it hated me before it hated you. (John 15:18)”",
+      "suggested_fix": "Replace the English verse with a Spanish rendering faithful to the printed English while preserving the same punctuation, quotation marks, parentheses and the <p> tag. Example replacement:\n<p>…“Si el mundo os aborreciese, sabed que a mí me aborreció antes que a vosotros. (Juan 15:18)”…</p>\n\nKeep the verse citation formatting consistent with the rest of the article (either keep the English book name in parentheses or use the Spanish book name per style), but ensure the quoted text in the body conveys the printed English content in Spanish.",
+      "translation_quote": "John 15:18 left in English in the translation."
+    },
+    {
+      "location": "<p>…No hay otros factores ni intervención supernatural. Todo ocurre por razón y sentido común.…</p>",
+      "severity": "minor",
+      "source_quote": "Source: “No other factors or supernatural involvement. Everything happens by reason and common sense.” (source.html sentence in English used 'supernatural').",
+      "suggested_fix": "Correct the single-word translation error: replace the English word 'supernatural' with the Spanish 'sobrenatural' while keeping the original paragraph tag. Example replacement:\n<p>…No hay otros factores ni intervención sobrenatural. Todo ocurre por razón y sentido común.…</p>",
+      "translation_quote": "“No hay otros factores ni intervención supernatural. Todo ocurre por razón y sentido común.” (uses English 'supernatural' in translation)."
     }
   ],
   "id": "b332cba49cf8c33ff8bc353bbeb1f45a",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 40,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a072a36e6aede6bd6978f7ac04698cebcbcce9571999d9176c58a465e0428962.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

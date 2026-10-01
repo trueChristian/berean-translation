@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "533953f1-b51e-4c4e-ab54-7128341499b3",
+    "response_id": "chatcmpl-EUGkrXCmDrxnE7vbC5Lp16p4TSbWm",
+    "usage": {
+      "completion_tokens": 779,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1492,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2271
+    }
+  },
+  "received_at": "2026-10-01T20:28:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> — first stanza, line 5",
+        "severity": "major",
+        "source_quote": "Rejoice and praise the King of Kings!",
+        "suggested_fix": "Keep imperative, active phrasing. Replace the translation's passive/optative phrase with an active imperative that matches the source and preserves HTML tags: change \"¡Regocíjaos y alabado sea el Rey de reyes!\" to \"¡Regocijaos y alabad al Rey de reyes!\"",
+        "translation_quote": "¡Regocíjaos y alabado sea el Rey de reyes!"
+      },
+      {
+        "location": "<div class=\"poem\"> — first stanza, line 2 and elsewhere (imperative forms)",
+        "severity": "minor",
+        "source_quote": "Rejoice and sing! The night is past,",
+        "suggested_fix": "Correct Spanish orthography for the verb form without introducing doctrinal or stylistic changes. Replace occurrences of the accented form \"Regocíjaos\" with the correct form \"Regocijaos\" (no accent). Preserve tags and line breaks.",
+        "translation_quote": "Regocíjaos y cantad! La noche ha pasado,"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

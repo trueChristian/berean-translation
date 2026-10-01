@@ -2,7 +2,6 @@
   "article_id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "43dd6806a74a4d91b551edb6be2f9847",
   "campaign": "gh-36909139357",
   "created_at": "2026-10-01T18:46:24+00:00",
   "events": [
@@ -24,8 +23,37 @@
         },
         "total_tokens": 6746
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1024,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6303,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7327
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<p>In the small cemetery of a churchyard in Olney, England, stands a granite tombstone with this inscription...</p>",
+      "severity": "minor",
+      "source_quote": "In the small cemetery of a churchyard in Olney, England, stands a granite tombstone with this inscription, written by Newton himself before his death:",
+      "suggested_fix": "Use a more accurate Spanish equivalent for 'churchyard'. Replace 'un atrio parroquial' with 'un cementerio parroquial' or 'el patio de la iglesia' to preserve the sense of a churchyard as a burial ground.",
+      "translation_quote": "En el pequeño cementerio de un atrio parroquial en Olney, Inglaterra, se alza una lápida de granito con esta inscripción, escrita por el propio Newton antes de su muerte:"
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:13+00:00",
   "id": "b052374742bee8c40600218dca38c8c5",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "spa",
@@ -69,11 +97,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/99f7a00d58438b91d7d6780f03573351b90289d575c249e98d01280c6cfd04d7.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

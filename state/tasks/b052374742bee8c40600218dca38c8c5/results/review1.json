@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4d135ee4-4ecd-4df4-99a5-2718bc4f91fb",
+    "response_id": "chatcmpl-EUGkiRElQMsrUAeGvCwipUoWQG0ap",
+    "usage": {
+      "completion_tokens": 1024,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6303,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7327
+    }
+  },
+  "received_at": "2026-10-01T20:28:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>In the small cemetery of a churchyard in Olney, England, stands a granite tombstone with this inscription...</p>",
+        "severity": "minor",
+        "source_quote": "In the small cemetery of a churchyard in Olney, England, stands a granite tombstone with this inscription, written by Newton himself before his death:",
+        "suggested_fix": "Use a more accurate Spanish equivalent for 'churchyard'. Replace 'un atrio parroquial' with 'un cementerio parroquial' or 'el patio de la iglesia' to preserve the sense of a churchyard as a burial ground.",
+        "translation_quote": "En el pequeño cementerio de un atrio parroquial en Olney, Inglaterra, se alza una lápida de granito con esta inscripción, escrita por el propio Newton antes de su muerte:"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

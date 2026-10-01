@@ -1039,6 +1039,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
+      "html_sha256": "b213f97747564eb1fdbff7586e07c3a4849e857af069f870411db5ea30d1f40b",
+      "human_reviewed": false,
+      "id": "1c75dce8-1781-427f-8099-01596d53c2a4",
+      "images": [
+        {
+          "alt": "Un pequeño pájaro marrón posado en un prado verde",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-1.jpg"
+        },
+        {
+          "alt": "Un pájaro blanco y azul posado en una rama cortada contra un fondo verde",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/1c75dce8-1781-427f-8099-01596d53c2a4.json",
+      "metadata_sha256": "70d069e349b380f4fe38d081500d44f5ab385b506fc9aed73a294ef19c3b2157",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ARTÍCULO DESTACADO",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
+      "status": "ready",
+      "subtitle": "y a mi alrededor resuena la música de las esferas.",
+      "title": "TODA LA NATURALEZA CANTA",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
       "html_sha256": "78139cfdb879dc6323f5ebf439d6089256a0f0fd6b4141b8bd2c6d9aaf69444f",
       "human_reviewed": false,
@@ -1066,6 +1098,162 @@
       "status": "ready",
       "subtitle": null,
       "title": "Lidiando con el cinismo",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
+      "html_sha256": "f11aa2f168e4ad5ee76a63ef89a209f76cf031e6464d4d978a3cbafcdeef22b0",
+      "human_reviewed": false,
+      "id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
+      "images": [
+        {
+          "alt": "Flores de corona de veza rosadas y blancas en un prado verde",
+          "public_path": "/images/articles/52074824-2feb-4fe4-96d0-a08ec72c3565-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.json",
+      "metadata_sha256": "0ba4da3681d7a047c28dd5f1e1d947be9a96fded49173e97302866cbf1902f12",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "From the EDITOR",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "From the Editor",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
+      "html_sha256": "0f7ed18e6a786df4600337a68d26c0280c9cfdb60265c58fc421a3b85c311ab6",
+      "human_reviewed": false,
+      "id": "80e78d22-936e-48de-885a-f9a8898d5e42",
+      "images": [
+        {
+          "alt": "Un hombre y una mujer caminando juntos por un prado verde",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-1.jpg"
+        },
+        {
+          "alt": "Un padre y una madre mirando a su recién nacido",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-2.jpg"
+        },
+        {
+          "alt": "Una familia de pie junta delante de una cascada",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-3.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/80e78d22-936e-48de-885a-f9a8898d5e42.json",
+      "metadata_sha256": "08e298ba4d37e371a0947c3f343caec217dc0950097932fdd5fc2c407851ec50",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "INSPIRATIONS FOR YOUTH",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
+      "status": "ready",
+      "subtitle": "El plan de Dios para el varón y la hembra",
+      "title": "Un noviazgo centrado en Cristo",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
+      "html_sha256": "541615a67b7452ed4db5c8600218f90520b677d2947bb21db28d785615a12f1c",
+      "human_reviewed": false,
+      "id": "93978dae-706d-43d4-abee-6b6e011683fa",
+      "images": [
+        {
+          "alt": "Olas del océano rompiéndose a lo largo de una playa arenosa vistas desde arriba.",
+          "public_path": "/images/articles/93978dae-706d-43d4-abee-6b6e011683fa-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/93978dae-706d-43d4-abee-6b6e011683fa.json",
+      "metadata_sha256": "158d47201854c93b85e551e6ad9b5a9cbdd16b25bceed8695bd9f0af63f67c31",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "De hermana a hermana",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Sobrecarga circunstancial",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
+      "html_sha256": "e23c0570b9e8531d10d593a63fbb7029f8ca88c85cecc6d58f85ab85393c1f69",
+      "human_reviewed": false,
+      "id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
+      "images": [
+        {
+          "alt": "Un retrato de John Newton sobre un barco de vela en una tormenta, con la partitura de Amazing Grace en el fondo.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-1.jpg"
+        },
+        {
+          "alt": "Olas oscuras alrededor de una escarpada isla rocosa bajo nubes de tormenta.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-2.jpg"
+        },
+        {
+          "alt": "Partitura de Amazing Grace, acreditada a John Newton, 1779, y arreglada por Edwin O. Excell, 1831.",
+          "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-3.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.json",
+      "metadata_sha256": "6316596d7030aa4ccd6d2a2b8de73e483933b0b63885eb7e78cd2671218c96e8",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "HISTORIA DEL HIMNO",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Amazing Grace",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.html",
+      "html_sha256": "960379c194bc41c96659409c9d02bbd9996f77fe10e6fb4daf21797a289040e6",
+      "human_reviewed": false,
+      "id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
+      "images": [
+        {
+          "alt": "Una taza de café junto a una libreta espiralada y un lápiz.",
+          "public_path": "/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.json",
+      "metadata_sha256": "bb847d8235bedc61aaf58201b556be1d3dd03f6c7e1326876d245498e8938331",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "HERMANA A HERMANA",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Procrastinación en exceso",
       "translation_model": "gpt-5-mini-2025-08-07"
     }
   ],

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e241f013-5808-45af-b6d4-5dc9da45a955",
+    "response_id": "chatcmpl-EUGl2bc2t7PXKHnblfBpfSdzcco3H",
+    "usage": {
+      "completion_tokens": 1027,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3787,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4814
+    }
+  },
+  "received_at": "2026-10-01T20:28:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Translation paragraph: \"Haga lo que haga para obrar a tu favor, agárrate de su mano inmutable.\"",
+        "severity": "minor",
+        "source_quote": "However He chooses to work on your behalf, hold to His unchanging hand.",
+        "suggested_fix": "Preserve consistent address/register. Use either informal or formal consistently. For informal (matches surrounding \"tu\"): \"Sea como sea que Él decida obrar a tu favor, aférrate a su mano inmutable.\" For formal (if you prefer usted): \"Sea como sea que Él decida obrar a su favor, aférrese a su mano inmutable.\"",
+        "translation_quote": "Haga lo que haga para obrar a tu favor, agárrate de su mano inmutable."
+      },
+      {
+        "location": "Translation paragraph: \"Los presupuestos eran más altos de lo esperado, así que optó por hacer parte del trabajo él mismo.\"",
+        "severity": "minor",
+        "source_quote": "The quotes were higher than expected, so he opted to do some of the work himself.",
+        "suggested_fix": "Use a more idiomatic rendering of \"quotes\" as \"cotizaciones\" rather than \"presupuestos\" to match the original sense: \"Las cotizaciones fueron más altas de lo esperado, así que optó por hacer parte del trabajo él mismo.\"",
+        "translation_quote": "Los presupuestos eran más altos de lo esperado, así que optó por hacer parte del trabajo él mismo."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}
