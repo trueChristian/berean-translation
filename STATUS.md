@@ -2,11 +2,11 @@
 
 Generated from the pinned source catalogue and durable work records. No API call is made by this report.
 
-Observed English revision: `eb04e6e4598da0e78120fd5ab5dfcbcf1a9aa457`
+Observed English revision: `0c593068ae71a87738074ab57ca7e4f693248da3`
 
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `heartbeat-remnant-2024-summer` | 10 | 4 / 200 | 1 | 5 | 1 |
+| `heartbeat-remnant-2024-summer` | 10 | 4 / 200 | 11 | 5 | 1 |
 | `heartbeat-remnant-2024-spring` | 11 | 0 / 220 | 0 | 0 | 0 |
 | `heartbeat-remnant-2024-winter` | 11 | 0 / 220 | 0 | 0 | 0 |
 | `heartbeat-remnant-2023-summer` | 13 | 0 / 260 | 0 | 0 | 0 |
@@ -77,31 +77,32 @@ Observed English revision: `eb04e6e4598da0e78120fd5ab5dfcbcf1a9aa457`
 | `heartbeat-remnant-2025-winter` | 11 | 0 / 220 | 0 | 0 | 0 |
 | `heartbeat-remnant-2005-01` | 11 | 0 / 220 | 0 | 0 | 0 |
 | `heartbeat-remnant-2025-autumn` | 10 | 0 / 200 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-summer` | 11 | 0 / 220 | 0 | 0 | 0 |
 
 ## Language readiness
 
 | Language | Ready / source articles | Human reviewed | Active candidates | Not-ready candidates | Corrected candidates |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 0 / 818 | 0 | 0 | 0 | 0 |
-| `hin` (hi) | 0 / 818 | 0 | 0 | 0 | 0 |
-| `spa` (es) | 0 / 818 | 0 | 0 | 0 | 0 |
-| `ara` (ar) | 0 / 818 | 0 | 0 | 0 | 0 |
-| `fra` (fr) | 0 / 818 | 0 | 0 | 0 | 0 |
-| `ben` (bn) | 0 / 818 | 0 | 0 | 0 | 0 |
-| `por` (pt) | 0 / 818 | 0 | 0 | 0 | 0 |
-| `ind` (id) | 0 / 818 | 0 | 0 | 0 | 0 |
-| `urd` (ur) | 0 / 818 | 0 | 0 | 0 | 0 |
-| `rus` (ru) | 0 / 818 | 0 | 0 | 0 | 0 |
-| `deu` (de) | 0 / 818 | 0 | 0 | 0 | 0 |
-| `nld` (nl) | 0 / 818 | 0 | 0 | 0 | 0 |
-| `afr` (af) | 4 / 818 | 0 | 1 | 5 | 5 |
-| `swa` (sw) | 0 / 818 | 0 | 0 | 0 | 0 |
-| `kor` (ko) | 0 / 818 | 0 | 0 | 0 | 0 |
-| `ita` (it) | 0 / 818 | 0 | 0 | 0 | 0 |
-| `heb` (he) | 0 / 818 | 0 | 0 | 0 | 0 |
-| `ell` (el) | 0 / 818 | 0 | 0 | 0 | 0 |
-| `swe` (sv) | 0 / 818 | 0 | 0 | 0 | 0 |
-| `nob` (nb) | 0 / 818 | 0 | 0 | 0 | 0 |
+| `cmn` (zh-Hans) | 0 / 829 | 0 | 10 | 0 | 0 |
+| `hin` (hi) | 0 / 829 | 0 | 0 | 0 | 0 |
+| `spa` (es) | 0 / 829 | 0 | 0 | 0 | 0 |
+| `ara` (ar) | 0 / 829 | 0 | 0 | 0 | 0 |
+| `fra` (fr) | 0 / 829 | 0 | 0 | 0 | 0 |
+| `ben` (bn) | 0 / 829 | 0 | 0 | 0 | 0 |
+| `por` (pt) | 0 / 829 | 0 | 0 | 0 | 0 |
+| `ind` (id) | 0 / 829 | 0 | 0 | 0 | 0 |
+| `urd` (ur) | 0 / 829 | 0 | 0 | 0 | 0 |
+| `rus` (ru) | 0 / 829 | 0 | 0 | 0 | 0 |
+| `deu` (de) | 0 / 829 | 0 | 0 | 0 | 0 |
+| `nld` (nl) | 0 / 829 | 0 | 0 | 0 | 0 |
+| `afr` (af) | 4 / 829 | 0 | 1 | 5 | 5 |
+| `swa` (sw) | 0 / 829 | 0 | 0 | 0 | 0 |
+| `kor` (ko) | 0 / 829 | 0 | 0 | 0 | 0 |
+| `ita` (it) | 0 / 829 | 0 | 0 | 0 | 0 |
+| `heb` (he) | 0 / 829 | 0 | 0 | 0 | 0 |
+| `ell` (el) | 0 / 829 | 0 | 0 | 0 | 0 |
+| `swe` (sv) | 0 / 829 | 0 | 0 | 0 | 0 |
+| `nob` (nb) | 0 / 829 | 0 | 0 | 0 | 0 |
 
 ## Issue / language work
 
@@ -109,6 +110,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 
 | Issue | Language | Ready / articles | Human reviewed | Active | Not ready | Proposals |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
+| `heartbeat-remnant-2024-summer` | `cmn` | 0 / 10 | 0 | 10 | 0 | 0 |
 | `heartbeat-remnant-2024-summer` | `afr` | 4 / 10 | 0 | 1 | 5 | 0 |
 
 ## Campaigns
@@ -116,6 +118,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 | Request | Trigger | Operation | Status | Tasks | Reported usage (USD) | Reserved ceiling (USD) | Report |
 | --- | --- | --- | --- | ---: | ---: | ---: | --- |
 | `gh-36549125967` | manual | translate | finished | 10 | 0.06786800 | 0.330636 / 10.00 | [state](state/campaigns/gh-36549125967.json) |
+| `gh-36908242193` | manual | translate | active | 10 | 0.00000000 | 0.000000 / 10.00 | [state](state/campaigns/gh-36908242193.json) |
 | `refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267` | source refresh | translate | active | 1 | 0.00079787 | 0.021884 / 10.00 | [state](state/campaigns/refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267.json) |
 
 ## Provider batch lifecycle

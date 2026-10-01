@@ -3598,6 +3598,20 @@
       "title": "Cancer",
       "translation_key": "ba22efc6cb9233faebc78cea85896092801ad5d430d2342a669d196dab4937e6"
     },
+    "50c05c9f-af87-40d0-9255-f59b01b4985c": {
+      "fingerprints": {
+        "html_sha256": "a1d5a4137cf9724ded51d266534d6a9531e7997581ffbcc4ed03c286d0d5148d",
+        "metadata_sha256": "44674e0665064114199539f12ad070514f58b9d2ceaeead1be7f2fcf48f1188a",
+        "structure_sha256": "e50d094c6fc53019b820e2f0c8eeed37627db31d9321913eb224ce2b0fd81c23",
+        "text_sha256": "bafc6e375b103f8894e992f68e3685a47c37ce9090fe7fa5b5815e00f98ccbd4",
+        "translation_metadata_sha256": "0497a432731db3a38e9908b0b51100e8b834fbdf26700e1229a5fd7150a145f8"
+      },
+      "id": "50c05c9f-af87-40d0-9255-f59b01b4985c",
+      "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
+      "sequence": 5,
+      "title": "Johnny’s Bad Habit",
+      "translation_key": "41c3d633e4c3fd51a97e5edf28bd3a65f698aae27d5a4d0514c7f9275153cca3"
+    },
     "511de3a8-fcc5-4041-8161-1faf33a20bc7": {
       "fingerprints": {
         "html_sha256": "b02607650edf4a515cbe2d9ce04e7595fd58828e4b8a1a8f31bb1009a084feb1",
@@ -3807,6 +3821,20 @@
       "sequence": 12,
       "title": "While Life Is In the Prime Of Youth",
       "translation_key": "a3b1ef8b8d600ad7a77b37939c7bde6c6d9e746223e2d5de52e773343f730314"
+    },
+    "545d5674-2e4f-4c25-9aa9-0cec6be58a2c": {
+      "fingerprints": {
+        "html_sha256": "322f5a7d81efb3458fdc5ff17f72b14c78752bb5ab682130b34872179df0061e",
+        "metadata_sha256": "f9007650a6ed7a5682ef3b36694adcaa858b5882408f355d43e4bfb3e7b07205",
+        "structure_sha256": "fd2e11bc844e8417bd644fe2b78cc773307206c1019b1a87b14f88573872392b",
+        "text_sha256": "68e3e12c34fd4df265c375b305e286788668d01a43c514268c408276bd48515c",
+        "translation_metadata_sha256": "c8f079fcfe304209072d3d1b62e927a76277a8a0430d2408a1dc2f1f7be1a7a1"
+      },
+      "id": "545d5674-2e4f-4c25-9aa9-0cec6be58a2c",
+      "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
+      "sequence": 10,
+      "title": "Health Benefits of Eating Whole Foods",
+      "translation_key": "203c184de70cc1d504e3dd52a194be640447e4cacf2b31f7dfa2f191573aeff0"
     },
     "54a067b0-14dd-41ca-afb7-a109f69eb389": {
       "fingerprints": {
@@ -5222,6 +5250,20 @@
       "title": "Carelessly Drifting",
       "translation_key": "7633520db1a3a8af877d03a29ae1bd3e9a6ee307f083342936f026476abc9853"
     },
+    "74eb7e32-78db-4e85-996a-4017e7df70d3": {
+      "fingerprints": {
+        "html_sha256": "c88071c046048ab4c1b1c0ceb2c57c739f625a13d3804467cb9b2aae12e5ec53",
+        "metadata_sha256": "5dc897ba77625f725f42b50c3b5a5f6880eef3ba160eb829d6c248c1486a6b36",
+        "structure_sha256": "8a13afb093b457b06536ba8d6d09550a8d85f62a21d84e8cbcb073241e93341b",
+        "text_sha256": "34f20816067e17367e2f4f35fbfad621c942e2b209a226c4e037655b6c663f6a",
+        "translation_metadata_sha256": "099545b59b5ddef74c1cc3057ffff6ba25d5c1f15de7a557079fc011367746ee"
+      },
+      "id": "74eb7e32-78db-4e85-996a-4017e7df70d3",
+      "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
+      "sequence": 4,
+      "title": "Examining Reactive Attachment Disorder",
+      "translation_key": "fd2e0d3cdc882e686fded63370ec85d20fbc9514d72370801f785f0095ba7930"
+    },
     "74ee3fe8-f36a-40fc-8729-172a298c86a9": {
       "fingerprints": {
         "html_sha256": "11226025791313e62748a605d330421aa5c8504ef6c21e180f5271b97fe59934",
@@ -5558,6 +5600,20 @@
       "title": "From the Editor",
       "translation_key": "4b38766199b59c5d53403c665457104111492fe98c8397fb75b6576a7ee1e19d"
     },
+    "7b64c74b-c4d6-4a98-b95c-b34823831d64": {
+      "fingerprints": {
+        "html_sha256": "2030e46721c34bff94180063e4388c83d8cdb73e82192b2551068dcc1ddc989d",
+        "metadata_sha256": "c25f88f91af2e105220c3db6a22044915168cff115d48e80afeb7243cdb4edb9",
+        "structure_sha256": "5b67e62d51af15ea8d9be16b8f0df9ccd18552ad085fae0ca0eda3d10095678a",
+        "text_sha256": "6862770e02e7d969df69fc135df96fca121b04d6b8082c299ef8442605fdb661",
+        "translation_metadata_sha256": "d1eee1284f928e6c7def0160501b5f572595742518068bda12312a0bd3ae1895"
+      },
+      "id": "7b64c74b-c4d6-4a98-b95c-b34823831d64",
+      "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
+      "sequence": 8,
+      "title": "Contrasts, Contentions, and the Cloistered Life",
+      "translation_key": "06233ba20523cb7c313fe0fe38108bd7f131e5ba72234d09d746e397aeecd870"
+    },
     "7b9b3fa0-a09b-4c5b-9389-0c0bb47500e2": {
       "fingerprints": {
         "html_sha256": "62ca9491505a26a95bab43c22c1f8f76999d6f6d106e9027c052586fca0c8bdb",
@@ -5879,6 +5935,20 @@
       "sequence": 11,
       "title": "A Mother’s Heart Cry",
       "translation_key": "2e102ab0cbb7c62a1dbcf54e73534964d13a3ff230d606a740033b3e7b8521b8"
+    },
+    "8217b078-a164-411f-bcbd-056253d4bb3e": {
+      "fingerprints": {
+        "html_sha256": "07fc698f362608b251525c7f897d4abcf09b4972317248070adc18ade9a42171",
+        "metadata_sha256": "929a58ce68ec4b2229d8fce317ba1136bdb073d60985a162e8b7b09b8ff75064",
+        "structure_sha256": "3f4c82dce2e85626b780f567f68d1d30d2a96a3e51c396220439f42a08615a73",
+        "text_sha256": "6a0569834bfacf9c10b6dbec2d52d011632ef57c7320d78e6e16e5c35aa0c729",
+        "translation_metadata_sha256": "ae76970eafe83c3eb90a050645a14a21d7eab76e903670f40f7bd26c66e0b1d5"
+      },
+      "id": "8217b078-a164-411f-bcbd-056253d4bb3e",
+      "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
+      "sequence": 2,
+      "title": "The Inconvenient Revival",
+      "translation_key": "a0555fd8a73caac7de296b5779f24405275e814dc68c511482a75e8681dcf31a"
     },
     "834dcbc2-39c5-4942-acc6-234ebca43d1c": {
       "fingerprints": {
@@ -7140,6 +7210,20 @@
       "title": "From the Editor",
       "translation_key": "494851d24964865b032530a53a090c443379996d0d46c6ed8f6592714ea3a923"
     },
+    "a235bdfc-afca-43a9-b095-abc11aaf5a70": {
+      "fingerprints": {
+        "html_sha256": "b54f3e09465a3d10f7184ffb3e74e77adf4605d70fadcf9de201b00482b88596",
+        "metadata_sha256": "416b998359ad917f083b671fb9224bd23d35b69c129c0a981b10ac0ddfb100a1",
+        "structure_sha256": "29e20027cf63e8467d66371c2b90d57e1f8bb8652be9152183599d1cc41205ee",
+        "text_sha256": "8ac10c9387c34da822ce03a29a2ca50fad2a6ee5042cebbfc946e53e54ee336d",
+        "translation_metadata_sha256": "af57d002005881b816885e69f3ab7b79fdb0b3bbeaf33f9c3733ce8a0433dc69"
+      },
+      "id": "a235bdfc-afca-43a9-b095-abc11aaf5a70",
+      "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
+      "sequence": 7,
+      "title": "Mothers and the Great Commission",
+      "translation_key": "b9caa6c12d0a69460c81476ba03183230b23c8d253806d899c496f781b1bf33a"
+    },
     "a2a3e213-f5ad-48b2-9784-d2824814d767": {
       "fingerprints": {
         "html_sha256": "c815250bc6aeeb4932de6416491a43ce3ee4a5de737daeac7fb763ba5ac74fea",
@@ -8386,6 +8470,34 @@
       "title": "Today",
       "translation_key": "d0bd6b9731516613369572dd3b2aa1ed2ea19f5321a4063d0f567127abe1d326"
     },
+    "ba84cac6-413c-49f5-a229-d74ed4913f69": {
+      "fingerprints": {
+        "html_sha256": "a398fc549998f5e12bf7c7212a63a252b27e2362922f8ddd2aa233a5c521b35d",
+        "metadata_sha256": "9eb82d30e79132aada020f9e7ab494da2d8fed171c1da453378cfdb5138d3793",
+        "structure_sha256": "a46a6bbc6c41ddcf85622aa741c307069b5006ffcc8ff919ebfd788898f76229",
+        "text_sha256": "4c83167fe93c464c58455ea1e92d90aab186567b2d42ab606c067de91b2b8efc",
+        "translation_metadata_sha256": "c3a00f14f9408563731ae65c221bd7ecd6c69fd81ee7d1d6da3a672fff2d54ad"
+      },
+      "id": "ba84cac6-413c-49f5-a229-d74ed4913f69",
+      "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
+      "sequence": 3,
+      "title": "A Voice from Hell",
+      "translation_key": "8f0bb74bb929e6159c238175c53723174db14e4ebfcabf6b47ae67c643d6b81e"
+    },
+    "bab0c77b-3cb7-4792-9694-d823e3e93f0e": {
+      "fingerprints": {
+        "html_sha256": "0d54db3f25549efc42ae01d94735400f864414d463bcadfd336a3beddc87550a",
+        "metadata_sha256": "af364b45b9af9dcfa4d40d01d2ab6abda10495df0214eda7a4ffbf37d8d6fed0",
+        "structure_sha256": "06f4fb6a645c3b01ea58b5892a7c2354dba959f7d79d5649aa15640fda5634e5",
+        "text_sha256": "56b8fb248db5021c11a9bacdd30e031f42fc2d79c878bc4507a12d09ce1b0172",
+        "translation_metadata_sha256": "53daafca350c6ea86d56b024ab4280b68d69fc3742195bb923b67730a4e49e18"
+      },
+      "id": "bab0c77b-3cb7-4792-9694-d823e3e93f0e",
+      "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
+      "sequence": 1,
+      "title": "From the EDITOR",
+      "translation_key": "b82a4218ca8c5f7bd9f48d8ada72df5ca4720d94c11f7e22d76cb821dded1782"
+    },
     "bac9eb21-a63f-489c-97f7-d7ef54ebd853": {
       "fingerprints": {
         "html_sha256": "3296b30e93adc066559fe98828cc9d2070aa0c1200caaee64f8ea8066faebc22",
@@ -9071,6 +9183,20 @@
       "sequence": 3,
       "title": "Set the Captives FREE",
       "translation_key": "51ecf67ea4e56a695f584bc4589e3a47602645f24277d2ec81fc3157583303d9"
+    },
+    "c8e8ffd0-a26f-45b5-b681-047c36258d73": {
+      "fingerprints": {
+        "html_sha256": "67493beae9a83831d67e6ed9b98670ed1598a726f8ac417fc3dd7cf02bb8a506",
+        "metadata_sha256": "85efac3fb4331c903307c576ff7c44b6aa296d505b526bb56eb2909224bec616",
+        "structure_sha256": "e7ce11193ef390104418c138bf3a3cdbd6511e0c95ec07337f33a12a0e1b948f",
+        "text_sha256": "63f4db4b02a9acd0c56e48f5f38580827ca3a054189a2dfbecc03992cdf74eab",
+        "translation_metadata_sha256": "a7b0d7433d11596ce0556b32cf20ca9970e1190984053a4aa4dcdc32f54c58d2"
+      },
+      "id": "c8e8ffd0-a26f-45b5-b681-047c36258d73",
+      "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
+      "sequence": 9,
+      "title": "Give Me Thine Heart",
+      "translation_key": "af774244fbdd8ce2c252f4809af475d03627ed67e251dbf13230ba2e58845bc1"
     },
     "c93eb933-a776-4294-b21d-340cfbb192a8": {
       "fingerprints": {
@@ -10444,6 +10570,20 @@
       "title": "Precious Letters from Our Readers",
       "translation_key": "412f024a4ad846ac9f01ff4981787048e536994951c1ddaf637d58c82570786f"
     },
+    "eab36978-f9e2-481d-a3cd-d6721f07a41e": {
+      "fingerprints": {
+        "html_sha256": "4d9168ac7bc40ca1754f7f4e50a962b1b71303f6ac2b37984aed144f72d45f03",
+        "metadata_sha256": "a4455bd310e923b1d9f4af2d1eb4d79d80b533ebd2d8407964ac3215bb7e7249",
+        "structure_sha256": "feba4797fd55c088bf6a2c71a153682c613b4dea249c6984b3e36f6562cc26ab",
+        "text_sha256": "22df7cc74551680dcd59d5bb3313be9ca0c7cfa9a20b04e0aba5ed9323679563",
+        "translation_metadata_sha256": "f03022bb296efe1caf4f9a6251e3e8f145d88a335553f4c72477ab7bc623de73"
+      },
+      "id": "eab36978-f9e2-481d-a3cd-d6721f07a41e",
+      "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
+      "sequence": 6,
+      "title": "Christ the Bread",
+      "translation_key": "940a583c816b57e1e0d911ca21736a7905fee27a37b223058ed55f5245834e41"
+    },
     "ead77cbc-fa20-4919-ad5d-a220d48d9f14": {
       "fingerprints": {
         "html_sha256": "dcaaf28f57550a719337c838a1e295557cd9a0a86f6c46c101df854f4fbeb746",
@@ -10821,6 +10961,20 @@
       "sequence": 5,
       "title": "Winter Song",
       "translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712"
+    },
+    "f362a4bd-2f1c-496a-ac02-aa08c128d834": {
+      "fingerprints": {
+        "html_sha256": "256fe2c18b70901e1bf6829a20099f4c7f104ed8023cf110d25764f8a0768609",
+        "metadata_sha256": "a28fe9d0b53af8403defc7cde005e9019b9531c6dc3f3b018b9e3df6976f8a04",
+        "structure_sha256": "395aa4f1f0801f1dc98563255827af3d9f8ac10fcd2586c530d1354089141cc5",
+        "text_sha256": "967855d8689e4cb14ceb9a0a3cfcc4dfc816a0d881dd779d61e4073927d46cd9",
+        "translation_metadata_sha256": "7bc3207a7fd208ab0cca849cbc742c84ac9d6d22fcfe9c37799fbc9a982c117d"
+      },
+      "id": "f362a4bd-2f1c-496a-ac02-aa08c128d834",
+      "issue_id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
+      "sequence": 11,
+      "title": "Joyful, Joyful, We Adore Thee",
+      "translation_key": "eed2c8bf93aeb5a52905d52c3e22299274130809c8a7fdf4a1b3abc03a373a6b"
     },
     "f39448f5-408c-461d-9d1d-3c71d1e99c0b": {
       "fingerprints": {
@@ -11453,7 +11607,7 @@
       "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1"
     }
   },
-  "content_sha256": "f076455a12fce69d96447538afd4e450a40de1cb65513b44fa4e5a931e70d128",
+  "content_sha256": "b8342308941dadbd394d955be03516eda41a2d705dfabefd74099f77bfc7ee6a",
   "fingerprint_origin": "translation-runtime",
   "format_version": "1.0",
   "issues": [
@@ -12437,8 +12591,20 @@
       "publication": "The Heartbeat of The Remnant",
       "slug": "heartbeat-remnant-2025-autumn",
       "source_id": "heartbeat-remnant-2025-autumn"
+    },
+    {
+      "date": {
+        "label": "Summer 2025",
+        "precision": "season",
+        "season": "Summer",
+        "year": 2025
+      },
+      "id": "e0ce36a8-9040-4c54-94ea-6db6d0dcd0b7",
+      "publication": "The Heartbeat of The Remnant",
+      "slug": "heartbeat-remnant-2025-summer",
+      "source_id": "heartbeat-remnant-2025-summer"
     }
   ],
   "repository": "trueChristian/berean-voice",
-  "revision": "eb04e6e4598da0e78120fd5ab5dfcbcf1a9aa457"
+  "revision": "0c593068ae71a87738074ab57ca7e4f693248da3"
 }
