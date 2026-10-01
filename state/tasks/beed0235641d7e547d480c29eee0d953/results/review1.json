@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e70f8fe6-b641-453f-ad4e-90d14dff74d1",
+    "response_id": "chatcmpl-EUGss5mvAmmNHjCLXlDWrUUkhGuNH",
+    "usage": {
+      "completion_tokens": 1057,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8975,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10032
+    }
+  },
+  "received_at": "2026-10-01T20:27:52+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...In the New Testament...</p> (paragraph mentioning 2 Timothy)</location",
+        "severity": "minor",
+        "source_quote": "“For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears;” (2 Timothy 4:3).",
+        "suggested_fix": "Replace the mistranscribed Norwegian word 'Selve' with 'Selv' at the start of the paragraph. Preserve surrounding HTML and English verse exactly. Example change within the translation paragraph: change “Selve i Det nye testamente fortalte Paulus Timoteus at tiden ville komme …” to “Selv i Det nye testamente fortalte Paulus Timoteus at tiden ville komme …”",
+        "translation_quote": "Selve i Det nye testamente fortalte Paulus Timoteus at tiden ville komme da folk ikke lenger ville høre på sunn lære. “For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears;” (2 Timothy 4:3)."
+      },
+      {
+        "location": "<p>…Jesus told the sheep…</p> (paragraph about ministering to 'the least of these my brethren')",
+        "severity": "minor",
+        "source_quote": "“the least of these my brethren,”",
+        "suggested_fix": "The English phrase is quoted in the source and is retained in the translation, but it currently appears in English without quotation marks in the Norwegian paragraph. To better reflect the source's formatting and make the quoted phrase stand out to Norwegian readers, keep the phrase exactly as in the source and ensure it is enclosed in the same quotation marks. For example, in the translation paragraph replace “the least of these my brethren,” with ““the least of these my brethren,””. Preserve surrounding HTML.",
+        "translation_quote": "“the least of these my brethren,” tjente de ham."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "eb612043-242a-44b9-8cdb-6bd0b1c5d53a",
+    "response_id": "chatcmpl-EUGssXesPu7DU52SNp1GYMmsAThqp",
+    "usage": {
+      "completion_tokens": 1187,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3003,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4190
+    }
+  },
+  "received_at": "2026-10-01T20:27:52+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"drop-cap\"> (first paragraph)",
+        "severity": "critical",
+        "source_quote": "My young preschool mind had never seen so many delectable sweets in one place at one time.",
+        "suggested_fix": "Replace the mistranslation with wording that conveys 'preschool' (førskole) rather than 'orphanage'. For example: \"Mitt unge førskolehode hadde aldri sett så mange fristende søtsaker på ett sted samtidig.\" Preserve original punctuation and HTML tags.",
+        "translation_quote": "Mitt unge barnehjems-hode hadde aldri sett så mange fristende søtsaker på ett sted samtidig."
+      },
+      {
+        "location": "<p>I 2017 og 2018 trykket Berean Voice en serie vaksineartikler... (paragraph about 2017–2018)",
+        "severity": "major",
+        "source_quote": "These articles were a sincere effort to examine various aspects of vaccine usage with an unbiased approach.",
+        "suggested_fix": "Change the mistranslation 'ubestemt tilnærming' (which means 'unspecified') to a correct Norwegian equivalent of 'unbiased', e.g. 'en ubiasert tilnærming' or 'en nøytral tilnærming'. Keep sentence structure and HTML intact.",
+        "translation_quote": "Disse artiklene var et oppriktig forsøk på å undersøke ulike aspekter av vaksinebruk med en ubestemt tilnærming."
+      },
+      {
+        "location": "<figure> <img alt=\"...\"> (image alt text)",
+        "severity": "minor",
+        "source_quote": "Pink and white crown vetch flowers in a green meadow",
+        "suggested_fix": "Either translate the full phrase to Norwegian, including the common name of the plant, or keep the original English name consistently. Suggested Norwegian alt text: \"Rosa og hvite kransvicker-blomster i en grønn eng\" (if 'crown vetch' corresponds to 'kransvicker') or keep the English name but mark as common name: \"Rosa og hvite crown vetch-blomster i en grønn eng\". Preserve alt attribute and other img attributes exactly.",
+        "translation_quote": "Rosa og hvite crown vetch-blomster i en grønn eng"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

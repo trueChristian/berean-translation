@@ -335,6 +335,182 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
+      "html_sha256": "e40ac8a0be67d48050cc1455c05f2ffe5a0f874f3a9d2084fffc3d4601a33118",
+      "human_reviewed": false,
+      "id": "1c75dce8-1781-427f-8099-01596d53c2a4",
+      "images": [
+        {
+          "alt": "En liten brun fugl som står i en grønn eng",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-1.jpg"
+        },
+        {
+          "alt": "En blå- og hvitfarget fugl sittende på en avkuttet grein mot en grønn bakgrunn",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/1c75dce8-1781-427f-8099-01596d53c2a4.json",
+      "metadata_sha256": "3b16be4e446c2e6a64056fc080b3bd08989bb3713e542ad1fd8d6480aa8dfbc5",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "FREMHEVET ARTIKKEL",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
+      "status": "ready",
+      "subtitle": "og rundt meg klinger sfærenes musikk.",
+      "title": "HELE NATUREN SINGER",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
+      "html_sha256": "1306f8fc7ed24931b89b7f8f9b43fd29f33f57b56025e1e053e8f62050e5b712",
+      "human_reviewed": false,
+      "id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
+      "images": [
+        {
+          "alt": "En glødende lyspære inne i en mørk lanterne.",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-1.jpg"
+        },
+        {
+          "alt": "En sommerfugl blant lyse villblomster og gress.",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.json",
+      "metadata_sha256": "c70097444ea93d4d9b62af4f8b7e50c5894ddaf656be172c6ee73ac2d0d6f4e2",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Et ord fra legen",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Å håndtere kynisme",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
+      "html_sha256": "94f91847a7f8cd508c6afe70eb2627b4b0c1c9bcf604adc8438e45f6b6736b00",
+      "human_reviewed": false,
+      "id": "93978dae-706d-43d4-abee-6b6e011683fa",
+      "images": [
+        {
+          "alt": "Havbølger som slår mot en sandstrand sett ovenfra.",
+          "public_path": "/images/articles/93978dae-706d-43d4-abee-6b6e011683fa-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/93978dae-706d-43d4-abee-6b6e011683fa.json",
+      "metadata_sha256": "fb1469df43a9d7a8fdf92f68c359135fa065100b119cbe377fa46e2dac9cd573",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Søster til søster",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Omstendighetsbelastning",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
+      "html_sha256": "d2764c336db4dd0880dbd3b6af278657117e1222460f340eef506d32a87981c2",
+      "human_reviewed": false,
+      "id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
+      "images": [
+        {
+          "alt": "En smal sti som slynger seg gjennom et løvfullt skogsområde",
+          "public_path": "/images/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.json",
+      "metadata_sha256": "cc1549724b4f883d71c10cf9f7874c464c1e600736c1b655b60539fec2e7e8ec",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Barnas krok",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Jamin blir klokere",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
+      "html_sha256": "8928e592d0b595d251d0f8ab2d9f032b62c293b7485d28189ac8bd695fe5f03b",
+      "human_reviewed": false,
+      "id": "db7b1129-282d-4f48-aefa-f839cb585426",
+      "images": [
+        {
+          "alt": "En rekke spirer som kommer opp av jorden mens en hånd vanner dem",
+          "public_path": "/images/articles/db7b1129-282d-4f48-aefa-f839cb585426-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/db7b1129-282d-4f48-aefa-f839cb585426.json",
+      "metadata_sha256": "73bba6f7877a2ff44c425dc28bd9f1603b7e1447f84db8ac9147ae4800ac0ba2",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "TANKER FRA EN MISJONÆR",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Den kristne humanisten",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.html",
+      "html_sha256": "2a121363d728d745e0890e419dfe02fee64a5cc69d41d9f0d6e105952705f7db",
+      "human_reviewed": false,
+      "id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
+      "images": [
+        {
+          "alt": "En liten båt ved kanten av stille vann under en fargerik solnedgang",
+          "public_path": "/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.json",
+      "metadata_sha256": "29f374ca8e13b527ffd27fca3926f38269c99085e8c78d795027f8b5dac4df8a",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Dikt",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Stå opp, vær glad!",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
       "html_sha256": "3ed4b7a778bec697532c6354890a7f3227ff088fccb089c1d52899433803a5ff",
       "human_reviewed": false,

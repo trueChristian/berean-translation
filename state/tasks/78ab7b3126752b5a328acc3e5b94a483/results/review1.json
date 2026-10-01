@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ed1f032f-fe89-4b19-b88b-1b96b6ee70f5",
+    "response_id": "chatcmpl-EUGvEtgtO3fMQ9sbkPbU25aJOAQsH",
+    "usage": {
+      "completion_tokens": 877,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3963,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4840
+    }
+  },
+  "received_at": "2026-10-01T20:27:52+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<h2>Find routine</h2>\n  <p>When stress prevails, racing thoughts, forgetfulness, and inability to focus comes uninvited.</p>",
+        "severity": "minor",
+        "source_quote": "When stress prevails, racing thoughts, forgetfulness, and inability to focus comes uninvited.",
+        "suggested_fix": "Replace the translated sentence inside the same <p> tag with a grammatically correct Norwegian rendering that preserves meaning. Example replacement (preserve tags):\n<p>Når stress råder, kommer racingtanker, glemsomhet og manglende evne til å fokusere ubuden.</p>\nAlternatively, a natural phrasing is:\n<p>Når stress råder, kommer racingtanker, glemsomhet og manglende evne til å fokusere uten å bli invitert.</p>",
+        "translation_quote": "Når stress råder, kommer racingtanker, glemsomhet og manglende evne til å fokusere ubedt."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

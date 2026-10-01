@@ -2,7 +2,6 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "03063f2e598b42cfbbddae1e16e896f9",
   "campaign": "gh-36911053601",
   "created_at": "2026-10-01T19:02:12+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 3368
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1128,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3180,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4308
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "source.html — paragraph: \"He breathed the rich air and followed Kenny’s trail. ... The fall webworms had been at work, and their web curtains shuttered from branches overhead.\"",
+      "severity": "minor",
+      "source_quote": "He breathed the rich air and followed Kenny’s trail. ... The fall webworms had been at work, and their web curtains shuttered from branches overhead.",
+      "suggested_fix": "Replace “Etterhvert hadde nettspinnerne vært i arbeid, og deres nettgardiner hang fra greinene over hodet.” with “Nettspinnerne hadde vært i arbeid, og deres nettgardiner hang fra greinene over hodet.” or better keep flow: “Nettspinnerne hadde vært i arbeid, og nettgardinene deres hang fra greinene over hodet.” (No HTML tag changes required.)",
+      "translation_quote": "Etterhvert hadde nettspinnerne vært i arbeid, og deres nettgardiner hang fra greinene over hodet."
+    },
+    {
+      "location": "source.html — paragraph: \"Jamin felt strange, seeing Kenny scrunched in the dirt.\"",
+      "severity": "minor",
+      "source_quote": "Jamin felt strange, seeing Kenny scrunched in the dirt.",
+      "suggested_fix": "Change “sammenkrøpet i jordet” to “sammenkrøpet i jorden” or “sammenkrøpet i jordbunnen” to accurately convey English “in the dirt.” (No HTML tag changes required.)",
+      "translation_quote": "Jamin følte det merkelig å se Kenny sammenkrøpet i jordet."
+    },
+    {
+      "location": "source.html — paragraph: \"He has a plan for you, and a place only you can fill, you know.\"",
+      "severity": "minor",
+      "source_quote": "He has a plan for you, and a place only you can fill, you know.",
+      "suggested_fix": "Adjust wording for natural Norwegian and to preserve the transitive sense: replace “Han har en plan for deg, og et sted bare du kan fylle, vet du.” with “Han har en plan for deg, og et sted som bare du kan fylle, vet du.” (No HTML tag changes required.)",
+      "translation_quote": "Han har en plan for deg, og et sted bare du kan fylle, vet du."
+    }
+  ],
+  "finished_at": "2026-10-01T20:27:52+00:00",
   "id": "846fdb54790c704069b8518a98872b1e",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "nob",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/b596380eb43b1f61b245cbcc583535c2c6f4fd72aac508cd4987ebb85e9f1b1f.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

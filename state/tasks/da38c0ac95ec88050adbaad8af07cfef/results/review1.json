@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4a323032-e842-42c5-992f-ef1bbe8f18cd",
+    "response_id": "chatcmpl-EUGstqsAZPEeUVc9MCoKZj0gSqs6v",
+    "usage": {
+      "completion_tokens": 1582,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12125,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13707
+    }
+  },
+  "received_at": "2026-10-01T20:27:52+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.title",
+        "severity": "major",
+        "source_quote": "A Christ-Centered Courtship",
+        "suggested_fix": "Translate the title into Norwegian Bokmål and preserve exact HTML structure (if any). Example: replace with: \"Et Kristus-sentrert frieri\"",
+        "translation_quote": "A Christ-Centered Courtship"
+      },
+      {
+        "location": "source.subtitle",
+        "severity": "major",
+        "source_quote": "God’s Plan for Male and Female",
+        "suggested_fix": "Translate the subtitle into Norwegian Bokmål. Example: replace with: \"Guds plan for mann og kvinne\"",
+        "translation_quote": "God’s Plan for Male and Female"
+      },
+      {
+        "location": "source.section",
+        "severity": "major",
+        "source_quote": "INSPIRATIONS FOR YOUTH",
+        "suggested_fix": "Translate the section label into Norwegian Bokmål. Example: replace with: \"INSPIRASJON FOR UNGE\" (or site-appropriate localized section name)",
+        "translation_quote": "INSPIRATIONS FOR YOUTH"
+      },
+      {
+        "location": "source.html — multiple headings and subheadings (e.g. <h2>Introduction</h2>, <h2>Five goals for this Christ-Centered Courtship series.</h2>, <h2>God’s Plan for Male and Female</h2>, numbered headings like <h2>1) God brings Eve to Adam.</h2>, etc.)",
+        "severity": "major",
+        "source_quote": "Introduction\n\nFive goals for this Christ-Centered Courtship series.\n\nGod’s Plan for Male and Female\n\n1) God brings Eve to Adam.\n\n2) Leaving and cleaving in unity for life.\n\n3) They shall be one flesh.\n\n4) Not an unequal yoke.\n\n5) God planned for us to have children.\n\n6) Headship order.\n\n7) A godly marriage.\n\n8) Being heirs together of the grace of life.\n\n9) A blessed and secure home.\n\n10) As Christ and the church.",
+        "suggested_fix": "Translate all headings and numbered section headings into Norwegian Bokmål, preserving the surrounding <h2> tags and numbering/ordering exactly. Examples: \"Introduction\" → \"Innledning\"; \"Five goals for this Christ-Centered Courtship series.\" → \"Fem mål for denne serien om et Kristus-sentrert frieri.\"; \"1) God brings Eve to Adam.\" → \"1) Gud fører Eva til Adam.\" etc. Keep the same HTML tags and order.",
+        "translation_quote": "Introduction\n\nFive goals for this Christ-Centered Courtship series.\n\nGod’s Plan for Male and Female\n\n1) God brings Eve to Adam.\n\n2) Leaving and cleaving in unity for life.\n\n3) They shall be one flesh.\n\n4) Not an unequal yoke.\n\n5) God planned for us to have children.\n\n6) Headship order.\n\n7) A godly marriage.\n\n8) Being heirs together of the grace of life.\n\n9) A blessed and secure home.\n\n10) As Christ and the church."
+      },
+      {
+        "location": "source.html — opening article note paragraph",
+        "severity": "minor",
+        "source_quote": "A Christ-centered Courtship is a series of messages on godly courtship preached by Paul Hershberger. He preached these messages several times at different locations over the last ten years. Recently, we had them transcribed and abridged for reading clarity. After printing all six articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet. This is the first article of six.",
+        "suggested_fix": "Correct Norwegian Bokmål typos and idiomatic phrasing while preserving HTML tags. In the translation the verb 'prekt' is a misspelling. Replace with 'preket' and ensure punctuation/spacing around emphasized The Heartbeat of the Remnant is correct. Example replacement (inside same <p class=\"article-note\"><em> ... </em></p>):\n\"«A Christ-centered Courtship» er en serie taler om gudfryktig frieri preket av Paul Hershberger. Han preket disse talene flere ganger på forskjellige steder gjennom de siste ti årene. Nylig fikk vi dem transkribert og forkortet for lesbarhet. Etter å ha trykt alle seks artiklene i </em>The Heartbeat of the Remnant<em>, vil vi gi dem ut i et hefte. Dette er den første av seks artikler.\"",
+        "translation_quote": "\"A Christ-centered Courtship\" er en serie taler om gudfryktig frieri prekt av Paul Hershberger. Han prekte disse talene flere ganger på forskjellige steder gjennom de siste ti årene. Nylig fikk vi dem transkribert og forkortet for klarhet ved lesing. Etter å ha trykt alle seks artiklene i </em>The Heartbeat of the Remnant<em>, vil vi gi dem ut i et hefte. Dette er den første artikkelen av seks."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

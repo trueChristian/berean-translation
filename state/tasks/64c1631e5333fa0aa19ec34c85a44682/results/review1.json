@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "616ba198-32d6-4f7f-b20b-1e5eaa370e6b",
+    "response_id": "chatcmpl-EUGssrTssnzZaG8Isj2DYx0tmSFpp",
+    "usage": {
+      "completion_tokens": 734,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2765,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3499
+    }
+  },
+  "received_at": "2026-10-01T20:27:52+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>For eksempel, hvis gjester kommer og vi planlegger å vaske vinduer og lage en dessert sammen med et dusin andre oppgaver på dagen de kommer, er det ikke rom for forstyrrelser. Av erfaring vet vi at avbrudd vil komme. Så er det ikke bedre å «planlegge» for et vepsestikk og en folestøt?</p>",
+        "severity": "major",
+        "source_quote": "So, isn’t it better to “plan” for a bee sting and a stubbed toe?",
+        "suggested_fix": "Replace the mistranslated phrase with a correct Norwegian rendition of the English source while preserving surrounding punctuation and quotation marks. For example: Så er det ikke bedre å «planlegge» for et vepsestikk og en klemt tå?",
+        "translation_quote": "Så er det ikke bedre å «planlegge» for et vepsestikk og en folestøt?"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6a9cf37a-e640-4a83-abd0-10f73672c928",
+    "response_id": "chatcmpl-EUGssqt0pM31EkUclSTtNVOHF0lIy",
+    "usage": {
+      "completion_tokens": 1128,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3180,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4308
+    }
+  },
+  "received_at": "2026-10-01T20:27:52+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph: \"He breathed the rich air and followed Kenny’s trail. ... The fall webworms had been at work, and their web curtains shuttered from branches overhead.\"",
+        "severity": "minor",
+        "source_quote": "He breathed the rich air and followed Kenny’s trail. ... The fall webworms had been at work, and their web curtains shuttered from branches overhead.",
+        "suggested_fix": "Replace “Etterhvert hadde nettspinnerne vært i arbeid, og deres nettgardiner hang fra greinene over hodet.” with “Nettspinnerne hadde vært i arbeid, og deres nettgardiner hang fra greinene over hodet.” or better keep flow: “Nettspinnerne hadde vært i arbeid, og nettgardinene deres hang fra greinene over hodet.” (No HTML tag changes required.)",
+        "translation_quote": "Etterhvert hadde nettspinnerne vært i arbeid, og deres nettgardiner hang fra greinene over hodet."
+      },
+      {
+        "location": "source.html — paragraph: \"Jamin felt strange, seeing Kenny scrunched in the dirt.\"",
+        "severity": "minor",
+        "source_quote": "Jamin felt strange, seeing Kenny scrunched in the dirt.",
+        "suggested_fix": "Change “sammenkrøpet i jordet” to “sammenkrøpet i jorden” or “sammenkrøpet i jordbunnen” to accurately convey English “in the dirt.” (No HTML tag changes required.)",
+        "translation_quote": "Jamin følte det merkelig å se Kenny sammenkrøpet i jordet."
+      },
+      {
+        "location": "source.html — paragraph: \"He has a plan for you, and a place only you can fill, you know.\"",
+        "severity": "minor",
+        "source_quote": "He has a plan for you, and a place only you can fill, you know.",
+        "suggested_fix": "Adjust wording for natural Norwegian and to preserve the transitive sense: replace “Han har en plan for deg, og et sted bare du kan fylle, vet du.” with “Han har en plan for deg, og et sted som bare du kan fylle, vet du.” (No HTML tag changes required.)",
+        "translation_quote": "Han har en plan for deg, og et sted bare du kan fylle, vet du."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

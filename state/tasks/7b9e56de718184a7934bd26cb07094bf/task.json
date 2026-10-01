@@ -2,7 +2,6 @@
   "article_id": "1c75dce8-1781-427f-8099-01596d53c2a4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "03063f2e598b42cfbbddae1e16e896f9",
   "campaign": "gh-36911053601",
   "created_at": "2026-10-01T19:02:12+00:00",
   "events": [
@@ -24,8 +23,65 @@
         },
         "total_tokens": 7242
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1890,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1024,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6533,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8423
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Paragraph 4 (\"Wander near the nest of a swallow...\")",
+      "severity": "minor",
+      "source_quote": "Wander near the nest of a swallow and you will find that they have ways of expressing depreciation as well.",
+      "suggested_fix": "Replace mistranslated bird name and verb: keep HTML structure and wording intent. For example: \"Vandrer du nær svalens rede, vil du finne at de også har måter å uttrykke forakt på.\" (Preserve the surrounding <p> tag exactly.)",
+      "translation_quote": "Vandrer du nær sprintens rede, vil du finne at de også har måter å uttrykke forakt på."
+    },
+    {
+      "location": "Paragraph 6 (reference to the killdeer)",
+      "severity": "minor",
+      "source_quote": "The killdeer also has no qualms with expressing rash disfavor to those who intrude their domain, but these are not to be mistaken as songs.",
+      "suggested_fix": "Render the species name idiomatically in Norwegian (or keep original in italics) and remove redundant parenthetical. For example: \"Killdeeren nøler heller ikke med å uttrykke overilt misnøye overfor dem som trår inn i deres domene, men dette skal ikke forveksles med sang.\" (Preserve <p>.)",
+      "translation_quote": "Vandrer du nær sprintens rede, vil du finne at de også har måter å uttrykke forakt på. Killdeeren (killdeer) nøler heller ikke med å uttrykke overilt misnøye overfor dem som trår inn i deres domene, men disse skal ikke forveksles med sanger."
+    },
+    {
+      "location": "Section heading for paragraph beginning \"Ungratitude.\"",
+      "severity": "minor",
+      "source_quote": "Ingratitude.",
+      "suggested_fix": "Translate the heading into Norwegian Bokmål. For example: \"Utakknemlighet.\" Replace the single-word heading in the corresponding <p> tag but preserve tags/structure.",
+      "translation_quote": "Ungratitude."
+    },
+    {
+      "location": "Paragraph about bird names (\"The robin opens...rose-breasted grosbeak...\")",
+      "severity": "minor",
+      "source_quote": "The robin opens up the choir in early spring, but his song is soon surpassed in beauty by the song sparrow and again by the rose-breasted grosbeak.",
+      "suggested_fix": "Consistently render common bird names into Norwegian Bokmål (or keep scientific/English names consistently). Example: \"Rødhaken åpner koret tidlig om våren, men hans sang blir snart overgått i skjønnhet av sangspurven og igjen av rosebrystet grosbeak (rose-breasted grosbeak).\" Preserve original <p> tag. (If you prefer full Norwegian names, use e.g. \"rødhake, sangspurv og rosebrystet grosbeak\".)",
+      "translation_quote": "Rødhaken åpner koret tidlig om våren, men hans sang blir snart overgått i skjønnhet av sangspurven og igjen av rosebrystet grosbeak. Skrikens sang overgår dem alle i varighet og livfullhet."
+    },
+    {
+      "location": "Paragraph about the cowbird (\"The cowbird is also black...\")",
+      "severity": "minor",
+      "source_quote": "The cowbird is also black (the female is brown/gray). She will be found sitting on a high vantage...",
+      "suggested_fix": "Translate the species name into Norwegian Bokmål (\"kjeldepuer\"/\"cowbird\" depending on preferred term) and keep parenthetical as Norwegian: e.g. \"Cowbird (hunnene er brun/grå)\" or \"løvtrekutter (hunnen er brun/grå)\". Preserve the <p> tag.",
+      "translation_quote": "Forsømmelse. Cowbird er også svart (hunnen er brun/grå). Hun vil bli funnet sittende på et høyt utkikkspunkt, skamløst kalle på sine elskere med sin skarpe skriking."
+    }
+  ],
+  "finished_at": "2026-10-01T20:27:52+00:00",
   "id": "7b9e56de718184a7934bd26cb07094bf",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "nob",
@@ -69,11 +125,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/297bec5eb6130d2e5b99a1b8933e585890e109074aa572a0b93e7208618f72b4.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

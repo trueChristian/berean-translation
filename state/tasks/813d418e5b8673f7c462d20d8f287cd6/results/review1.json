@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b739bbe0-0d33-46d2-8d28-fe709f0bbee0",
+    "response_id": "chatcmpl-EUGvR26uQxcPriW3z3y9Xwfh9Blw1",
+    "usage": {
+      "completion_tokens": 1170,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6542,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7712
+    }
+  },
+  "received_at": "2026-10-01T20:27:52+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph with garden example (third paragraph after \"To typer humanisme\" section) — sentence listing gardening actions",
+        "severity": "minor",
+        "source_quote": "He, too, went out each day and watered, pruned, weeded, and fertilized.",
+        "suggested_fix": "Replace the mistranslated phrase \"luktet ut ugress\" with a correct Norwegian equivalent such as \"fjernet ugress\" so the list reads: \"Han gikk også ut hver dag og vannet, beskar, fjernet ugress og gjødslet.\" Preserve existing HTML and punctuation.",
+        "translation_quote": "Han gikk også ut hver dag og vannet, beskar, luktet ut ugress og gjødslet."
+      },
+      {
+        "location": "Opening anecdote paragraph (first paragraph after lead)",
+        "severity": "minor",
+        "source_quote": "Some plant, some water, but God gives the increase.",
+        "suggested_fix": "Consider using a Norwegian present-tense idiom to match typical phrasing, e.g. \"Noen planter, noen vanner, men Gud gir veksten.\" (optional — not required for theological fidelity). If you keep past tense, it's acceptable; no doctrinal change. Preserve HTML.",
+        "translation_quote": "Broren min svarte: «Noen plantet, noen vannet, men Gud gir veksten.»"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}
