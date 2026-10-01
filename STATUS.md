@@ -2,11 +2,11 @@
 
 Generated from the pinned source catalogue and durable work records. No API call is made by this report.
 
-Observed English revision: `0c593068ae71a87738074ab57ca7e4f693248da3`
+Observed English revision: `515b02c3856faf0a131247f46824717e2758eadc`
 
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `heartbeat-remnant-2024-summer` | 10 | 5 / 200 | 163 | 2 | 0 |
+| `heartbeat-remnant-2024-summer` | 10 | 5 / 200 | 183 | 2 | 0 |
 | `heartbeat-remnant-2024-spring` | 11 | 0 / 220 | 0 | 0 | 0 |
 | `heartbeat-remnant-2024-winter` | 11 | 0 / 220 | 0 | 0 | 0 |
 | `heartbeat-remnant-2023-summer` | 13 | 0 / 260 | 0 | 0 | 0 |
@@ -78,31 +78,32 @@ Observed English revision: `0c593068ae71a87738074ab57ca7e4f693248da3`
 | `heartbeat-remnant-2005-01` | 11 | 0 / 220 | 0 | 0 | 0 |
 | `heartbeat-remnant-2025-autumn` | 10 | 0 / 200 | 0 | 0 | 0 |
 | `heartbeat-remnant-2025-summer` | 11 | 0 / 220 | 0 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | 11 | 0 / 220 | 0 | 0 | 0 |
 
 ## Language readiness
 
 | Language | Ready / source articles | Human reviewed | Active candidates | Not-ready candidates | Corrected candidates |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 0 / 829 | 0 | 10 | 0 | 0 |
-| `hin` (hi) | 0 / 829 | 0 | 10 | 0 | 0 |
-| `spa` (es) | 0 / 829 | 0 | 10 | 0 | 0 |
-| `ara` (ar) | 0 / 829 | 0 | 10 | 0 | 0 |
-| `fra` (fr) | 0 / 829 | 0 | 10 | 0 | 0 |
-| `ben` (bn) | 0 / 829 | 0 | 10 | 0 | 0 |
-| `por` (pt) | 0 / 829 | 0 | 10 | 0 | 1 |
-| `ind` (id) | 0 / 829 | 0 | 10 | 0 | 0 |
-| `urd` (ur) | 0 / 829 | 0 | 10 | 0 | 0 |
-| `rus` (ru) | 0 / 829 | 0 | 10 | 0 | 0 |
-| `deu` (de) | 0 / 829 | 0 | 10 | 0 | 0 |
-| `nld` (nl) | 0 / 829 | 0 | 0 | 0 | 0 |
-| `afr` (af) | 5 / 829 | 0 | 5 | 0 | 0 |
-| `swa` (sw) | 0 / 829 | 0 | 8 | 2 | 3 |
-| `kor` (ko) | 0 / 829 | 0 | 10 | 0 | 0 |
-| `ita` (it) | 0 / 829 | 0 | 10 | 0 | 0 |
-| `heb` (he) | 0 / 829 | 0 | 10 | 0 | 0 |
-| `ell` (el) | 0 / 829 | 0 | 10 | 0 | 0 |
-| `swe` (sv) | 0 / 829 | 0 | 0 | 0 | 0 |
-| `nob` (nb) | 0 / 829 | 0 | 0 | 0 | 0 |
+| `cmn` (zh-Hans) | 0 / 840 | 0 | 10 | 0 | 0 |
+| `hin` (hi) | 0 / 840 | 0 | 10 | 0 | 0 |
+| `spa` (es) | 0 / 840 | 0 | 10 | 0 | 0 |
+| `ara` (ar) | 0 / 840 | 0 | 10 | 0 | 0 |
+| `fra` (fr) | 0 / 840 | 0 | 10 | 0 | 0 |
+| `ben` (bn) | 0 / 840 | 0 | 10 | 0 | 0 |
+| `por` (pt) | 0 / 840 | 0 | 10 | 0 | 1 |
+| `ind` (id) | 0 / 840 | 0 | 10 | 0 | 0 |
+| `urd` (ur) | 0 / 840 | 0 | 10 | 0 | 0 |
+| `rus` (ru) | 0 / 840 | 0 | 10 | 0 | 0 |
+| `deu` (de) | 0 / 840 | 0 | 10 | 0 | 0 |
+| `nld` (nl) | 0 / 840 | 0 | 10 | 0 | 0 |
+| `afr` (af) | 5 / 840 | 0 | 5 | 0 | 0 |
+| `swa` (sw) | 0 / 840 | 0 | 8 | 2 | 3 |
+| `kor` (ko) | 0 / 840 | 0 | 10 | 0 | 0 |
+| `ita` (it) | 0 / 840 | 0 | 10 | 0 | 0 |
+| `heb` (he) | 0 / 840 | 0 | 10 | 0 | 0 |
+| `ell` (el) | 0 / 840 | 0 | 10 | 0 | 0 |
+| `swe` (sv) | 0 / 840 | 0 | 10 | 0 | 0 |
+| `nob` (nb) | 0 / 840 | 0 | 0 | 0 | 0 |
 
 ## Issue / language work
 
@@ -121,12 +122,14 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `heartbeat-remnant-2024-summer` | `urd` | 0 / 10 | 0 | 10 | 0 | 0 |
 | `heartbeat-remnant-2024-summer` | `rus` | 0 / 10 | 0 | 10 | 0 | 0 |
 | `heartbeat-remnant-2024-summer` | `deu` | 0 / 10 | 0 | 10 | 0 | 0 |
+| `heartbeat-remnant-2024-summer` | `nld` | 0 / 10 | 0 | 10 | 0 | 0 |
 | `heartbeat-remnant-2024-summer` | `afr` | 5 / 10 | 0 | 5 | 0 | 0 |
 | `heartbeat-remnant-2024-summer` | `swa` | 0 / 10 | 0 | 8 | 2 | 0 |
 | `heartbeat-remnant-2024-summer` | `kor` | 0 / 10 | 0 | 10 | 0 | 0 |
 | `heartbeat-remnant-2024-summer` | `ita` | 0 / 10 | 0 | 10 | 0 | 0 |
 | `heartbeat-remnant-2024-summer` | `heb` | 0 / 10 | 0 | 10 | 0 | 0 |
 | `heartbeat-remnant-2024-summer` | `ell` | 0 / 10 | 0 | 10 | 0 | 0 |
+| `heartbeat-remnant-2024-summer` | `swe` | 0 / 10 | 0 | 10 | 0 | 0 |
 
 ## Campaigns
 
@@ -150,6 +153,8 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `gh-36910234395` | manual | translate | active | 10 | 0.00000000 | 0.185848 / 10.00 | [state](state/campaigns/gh-36910234395.json) |
 | `gh-36910515539` | manual | translate | active | 10 | 0.00000000 | 0.185886 / 10.00 | [state](state/campaigns/gh-36910515539.json) |
 | `gh-36910662071` | manual | translate | active | 10 | 0.00000000 | 0.185875 / 10.00 | [state](state/campaigns/gh-36910662071.json) |
+| `gh-36910785828` | manual | translate | active | 10 | 0.00000000 | 0.000000 / 10.00 | [state](state/campaigns/gh-36910785828.json) |
+| `gh-36910935961` | manual | translate | active | 10 | 0.00000000 | 0.000000 / 10.00 | [state](state/campaigns/gh-36910935961.json) |
 | `refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267` | source refresh | translate | finished | 1 | 0.00188212 | 0.021884 / 10.00 | [state](state/campaigns/refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267.json) |
 
 ## Provider batch lifecycle
