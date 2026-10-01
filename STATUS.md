@@ -91,7 +91,7 @@ Observed English revision: `68b5dc9fc44d9a6e62607a9b52ed121fe0667b4f`
 | `ara` (ar) | 8 / 849 | 0 | 10 | 3 | 6 |
 | `fra` (fr) | 8 / 849 | 0 | 13 | 0 | 6 |
 | `ben` (bn) | 5 / 849 | 0 | 16 | 0 | 9 |
-| `por` (pt) | 10 / 849 | 0 | 10 | 1 | 3 |
+| `por` (pt) | 10 / 849 | 0 | 10 | 1 | 6 |
 | `ind` (id) | 9 / 849 | 0 | 10 | 2 | 5 |
 | `urd` (ur) | 3 / 849 | 0 | 18 | 0 | 2 |
 | `rus` (ru) | 7 / 849 | 0 | 12 | 2 | 8 |
@@ -166,7 +166,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `gh-36909139357` | manual | translate | active | 10 | 0.05316460 | 0.329420 / 10.00 | [state](state/campaigns/gh-36909139357.json) |
 | `gh-36909223255` | manual | translate | active | 10 | 0.05514988 | 0.337346 / 10.00 | [state](state/campaigns/gh-36909223255.json) |
 | `gh-36909407714` | manual | translate | active | 10 | 0.06456399 | 0.391537 / 10.00 | [state](state/campaigns/gh-36909407714.json) |
-| `gh-36909529190` | manual | translate | active | 10 | 0.05042075 | 0.262790 / 10.00 | [state](state/campaigns/gh-36909529190.json) |
+| `gh-36909529190` | manual | translate | active | 10 | 0.05042075 | 0.326527 / 10.00 | [state](state/campaigns/gh-36909529190.json) |
 | `gh-36909630302` | manual | translate | active | 10 | 0.05527874 | 0.290169 / 10.00 | [state](state/campaigns/gh-36909630302.json) |
 | `gh-36909750062` | manual | translate | active | 10 | 0.03488200 | 0.185869 / 10.00 | [state](state/campaigns/gh-36909750062.json) |
 | `gh-36909855802` | manual | translate | active | 10 | 0.06233664 | 0.290427 / 10.00 | [state](state/campaigns/gh-36909855802.json) |
@@ -215,6 +215,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [4317c9e3b66a40ad9a78382a4f2d73f8](state/batches/4317c9e3b66a40ad9a78382a4f2d73f8/batch.json) / translate | collected / completed | 10 / 10 / 0 | 2026-10-01T19:15:42+00:00 | 2026-10-01T19:16:43+00:00 | 2026-10-01T19:16:42+00:00 |
 | [43dd6806a74a4d91b551edb6be2f9847](state/batches/43dd6806a74a4d91b551edb6be2f9847/batch.json) / review1 | collected / completed | 9 / 9 / 0 | 2026-10-01T19:29:45+00:00 | 2026-10-01T20:28:13+00:00 | 2026-10-01T20:28:13+00:00 |
 | [46dbfdbc7bab4a609ac292a919a84f89](state/batches/46dbfdbc7bab4a609ac292a919a84f89/batch.json) / correct | submitted / validating | 0 / 0 / 0 | not recorded | not collected | not recorded |
+| [49d40a0061304dadb84d2836225ce2a9](state/batches/49d40a0061304dadb84d2836225ce2a9/batch.json) / correct | prepared / not recorded | ? / ? / ? | not recorded | not collected | not recorded |
 | [4af1a0b3630b405480a244dec9588991](state/batches/4af1a0b3630b405480a244dec9588991/batch.json) / review2 | collected / completed | ? / ? / ? | not recorded | 2026-09-30T06:47:56+00:00 | not recorded |
 | [51979917e8db42ccbe5a1a9b4e7ebcd1](state/batches/51979917e8db42ccbe5a1a9b4e7ebcd1/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-01T19:36:02+00:00 | 2026-10-01T20:28:16+00:00 | 2026-10-01T20:28:15+00:00 |
 | [5543ebd6483743839e0133baa29e70a6](state/batches/5543ebd6483743839e0133baa29e70a6/batch.json) / translate | collected / completed | 10 / 10 / 0 | 2026-10-01T19:05:29+00:00 | 2026-10-01T19:06:14+00:00 | 2026-10-01T19:06:13+00:00 |
