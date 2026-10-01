@@ -1,0 +1,59 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Thomas H. Gill"
+        }
+      ],
+      "raw": "—Thomas H. Gill 1867"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "cdb88be0-93b0-4362-bc3b-1488aff1a76f",
+    "images": [
+      {
+        "alt": "White orchids with purple centers",
+        "caption": null,
+        "credit": "Photography By Laurel",
+        "public_path": "/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg",
+        "repository_path": "public/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg",
+        "rights_note": "The page-2 masthead credits Photography By Laurel for printed page 7; no separate permission notice or license terms are stated. The clean embedded sRGB JPEG was copied byte-for-byte without transformation.",
+        "role": "article illustration",
+        "sequence": 1,
+        "source_page": 7
+      }
+    ],
+    "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 7,
+      "start": 7
+    },
+    "subtitle": null,
+    "title": "The Glory of the Spring",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "4164f33f079cc3a446c3011bbc5e3719b45940ec64b0c1b5862066d4fadccb20",
+    "metadata_sha256": "2851a4eac8f7c72bcb3792d89b4d94b255221930a8a970f1b7f8ad68dddc2df2",
+    "structure_sha256": "8f0693f00093855fcb1bfb4504561f018b14944bb4fdf1d88ba338b3c8f598f8",
+    "text_sha256": "014078437819d78c782c3ea56ad30dccc84831120a574cc9e8f90605ba60950e",
+    "translation_metadata_sha256": "4e1c32da85651ed87ffe7bb67fcc94b7dbb2c4de85eddfcedf00edf0e5be58e1"
+  },
+  "html": "<article data-article-id=\"cdb88be0-93b0-4362-bc3b-1488aff1a76f\">\n  <figure>\n    <img src=\"/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg\" alt=\"White orchids with purple centers\">\n  </figure>\n  <div class=\"poem\">\n    <p>The glory of the spring, how sweet!<br>\n    The newborn life, how glad!<br>\n    What joy the happy earth to greet<br>\n    In new, bright raiment clad!</p>\n\n    <p>Divine Redeemer, Thee I bless;<br>\n    I greet Thy going forth;<br>\n    I love Thee in the loveliness<br>\n    Of Thy renewed earth.</p>\n\n    <p>But O these wonders of Thy grace,<br>\n    These nobler works of Thine,<br>\n    These marvels sweeter far to trace,<br>\n    These new births more divine:</p>\n\n    <p>This new-born glow of faith so strong,<br>\n    This bloom of love so fair,<br>\n    This new-born ecstasy of song,<br>\n    And fragrancy of prayer!</p>\n\n    <p>Creator Spirit, work in me<br>\n    These wonders sweet of Thine;<br>\n    Divine Redeemer, graciously<br>\n    Renew this heart of mine.</p>\n\n    <p>Still, let new life and strength upspring,<br>\n    Still, let new joy be given;<br>\n    And grant the glad new song to ring<br>\n    Through the new earth and Heaven.</p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "515b02c3856faf0a131247f46824717e2758eadc",
+  "translation_key": "15ac9c1b97edbe073ae811f5fd305d02a68542aeb9f44f03ca5e9732f904625a"
+}
