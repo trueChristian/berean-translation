@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9a5377ae-3330-408e-a22e-b539385521fd",
+    "response_id": "chatcmpl-EUGh2Yqg5UkN6HkWNCvTc7mns2aV5",
+    "usage": {
+      "completion_tokens": 1531,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12279,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13810
+    }
+  },
+  "received_at": "2026-10-01T20:28:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<h2>Matarajio matano kwa mfululizo huu wa Ukaribu wa Mapenzi Uliozingatia Kristo.</h2>\n  <p>Lengo #1. Kurudisha mioyo ya wavulana kwa watoto wao.</p>\n  <p>Lengo #2. Kurudisha mioyo ya watoto kwa wavulana wao.</p>",
+        "severity": "major",
+        "source_quote": "Goal #1. To turn the hearts of the fathers to their children.\nGoal #2. To turn the hearts of the children to their fathers.",
+        "suggested_fix": "Replace the two translated goal lines so they preserve the original meaning (fathers/children). For example:\n<p>Lengo #1. Kurudisha mioyo ya baba kwa watoto wao.</p>\n<p>Lengo #2. Kurudisha mioyo ya watoto kwa baba zao.</p>",
+        "translation_quote": "Lengo #1. Kurudisha mioyo ya wavulana kwa watoto wao.\nLengo #2. Kurudisha mioyo ya watoto kwa wavulana wao."
+      },
+      {
+        "location": "<h2>Mpango wa Mungu kwa Mwanamume na Mwanamke</h2>\n  <p>Mathayo 12:1 inasema, “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them.”",
+        "severity": "major",
+        "source_quote": "Ecclesiastes 12:1 says, “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them.”",
+        "suggested_fix": "Correct the book citation to match the source. Replace 'Mathayo 12:1' with 'Mhubiri 12:1' (Swahili name for Ecclesiastes) or leave as 'Ecclesiastes 12:1' if the publication prefers English book names. For example:\n<p>Mhubiri 12:1 inasema, “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them.”</p>",
+        "translation_quote": "Mathayo 12:1 inasema, “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them.”"
+      },
+      {
+        "location": "<h2>2) Kuwaacha na kushikana kwa umoja kwa maisha.</h2>\n  <p>“Therefore Bshall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24).</p>",
+        "severity": "minor",
+        "source_quote": "“Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24).",
+        "suggested_fix": "Remove the stray character 'B' so the quoted verse reads correctly in the translation. For example:\n<p>“Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24).</p>",
+        "translation_quote": "“Therefore Bshall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24)."
+      }
+    ],
+    "passed": false,
+    "score": 65
+  }
+}

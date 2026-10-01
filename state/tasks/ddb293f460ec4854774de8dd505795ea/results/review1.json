@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4978a4b0-4cd1-4f87-acba-4583c66a1cae",
+    "response_id": "chatcmpl-EUGg0OLDE6iwcfLYgbYSS2igQRKuz",
+    "usage": {
+      "completion_tokens": 1453,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4094,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5547
+    }
+  },
+  "received_at": "2026-10-01T20:28:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>…that no one was close by when the propane tank exploded.</p>",
+        "severity": "major",
+        "source_quote": "that no one was close by when the propane tank exploded.",
+        "suggested_fix": "Translate the event as an explosion. Example Kiswahili: “na kwamba hakuna mtu alikuwa karibu wakati tanka la propane lilipopasuka.” Preserve the surrounding <p> tags and punctuation.",
+        "translation_quote": "na kwamba hakuna mtu aliye karibu wakati tanka la propane liliporomoka."
+      },
+      {
+        "location": "<p>“I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.”</p>",
+        "severity": "major",
+        "source_quote": "I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.",
+        "suggested_fix": "Render “yawning” correctly (not trembling). Example Kiswahili: “Nilihisi wasiwasi niliposikia akinomeza/kanyaga mdomo katikati ya usiku na nikajua hajalala.” Keep the <p> tag intact.",
+        "translation_quote": "Nilieka wakati niliposikia yuko akitetemeka usingizini na nilijua hajalala."
+      },
+      {
+        "location": "<p>“My darkest day came when I was accused of being selfish with my time because I declined the food committee request.”</p>",
+        "severity": "major",
+        "source_quote": "My darkest day came when I was accused of being selfish with my time because I declined the food committee request.",
+        "suggested_fix": "Translate “selfish with my time” accurately. Example Kiswahili: “Siku yangu ya giza zaidi ilikuja nilipoposhutumiwa kuwa mnataka muda wangu kwa kiburi kwa sababu nilikataa ombi la kamati ya chakula.” Or more naturally: “... nilipoposhutumiwa kuwa nimejikita kwa muda wangu (kukawayusha wengine au kuwa mwenye dharau kwa wakati) kwa sababu nilikataa ombi la kamati ya chakula.” Keep the <p> tag.",
+        "translation_quote": "Siku yangu ya giza zaidi iliwekwa wasiwasi nilipopatikana nikishutumiwa kwa kuwa mtu mpumbavu kwa muda wangu kwa sababu nilipoukataa ombi la kamati ya chakula."
+      },
+      {
+        "location": "<p>“That was the straw that broke the camel’s back,” Becky said.</p>",
+        "severity": "minor",
+        "source_quote": "That was the straw that broke the camel’s back,",
+        "suggested_fix": "Use a Kiswahili idiom or a clearer literal rendering. Example: “Hilo ndilo lililosababisha mwisho wa kuvumilia” or “Hilo ndilo lilivosababisha kupasuka kwa uvumilivu.” Preserve the <p> tags.",
+        "translation_quote": "Hilo ndilo lililosababisha kuvunjika kwa mwisho,"
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

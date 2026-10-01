@@ -2,7 +2,6 @@
   "article_id": "1c75dce8-1781-427f-8099-01596d53c2a4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "6fcfd80c67274600adbff3c5fee2f976",
   "campaign": "gh-36909987232",
   "created_at": "2026-10-01T18:54:08+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 7254
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1117,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6606,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7723
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html — paragraph 2 (\"Man may mount on the wings of a plane...\")",
+      "severity": "major",
+      "source_quote": "Man may mount on the wings of a plane and evade the lower earth for a few hours, but the heavens will never be a place of his common dominion.",
+      "suggested_fix": "Translate the idea of an airplane (aeroplane) correctly. For example: replace the current sentence in the translation with: \"Mtu anaweza kupanda kwa ndege (au kwenye mabawa ya ndege) na kuepuka dunia ya chini kwa saa chache, lakini mbingu hazitawahi kuwa eneo la mamlaka yake ya kawaida.\" Preserve the existing HTML tags and structure.",
+      "translation_quote": "Mtu anaweza kupanda kwa mapanga ya ndege na kuepuka dunia ya chini kwa saa chache, lakini mbingu hazitawahi kuwa eneo la tawi lake la kawaida."
+    },
+    {
+      "location": "source.html — paragraph 9 (reference to Jehoshaphat / Exodus scene)",
+      "severity": "critical",
+      "source_quote": "Their singing erupted at the passage of the Red Sea in the days of Jehoshaphat and had been known to defeat armies.",
+      "suggested_fix": "Correct the mistranslated biblical reference/name. The source names Jehoshaphat (who led praise that defeated an army); the translation incorrectly renders this as 'Yosia'. Replace 'Yosia' with 'Jehoshaphat' (or a localized form that clearly matches the English name Jehoshaphat) to preserve the author's intended biblical allusion. Keep HTML structure unchanged.",
+      "translation_quote": "Wimbo wao ulilipuka wakati wa kuvuka Bahari Nyekundu katika siku za Yosia na ulikuwa maarufu kushinda majeshi."
+    },
+    {
+      "location": "source.html — paragraph 2 (\"the earthly human shares its nature with the mammals of the field\")",
+      "severity": "minor",
+      "source_quote": "Similarly, the earthly human shares its nature with the mammals of the field.",
+      "suggested_fix": "Fix awkward/doubled wording and improve idiomatic Kiswahili. For example: replace the sentence in the translation with: \"Vivyo hivyo, mwanadamu wa hapa duniani anashiriki tabia ya wanyama wengine wa shamba.\" Preserve HTML tags.",
+      "translation_quote": "Vivyo hivyo, mwanadamu wa dunia anashirikiana tabia yake na wanyama wanyama wa shambani."
+    },
+    {
+      "location": "source.html — paragraph 5 (\"spring\")",
+      "severity": "minor",
+      "source_quote": "The robin opens up the choir in early spring, but his song is soon surpassed...",
+      "suggested_fix": "Clarify season reference idiomatically in Kiswahili. For example: replace 'mapema spring' with 'mapema msimu wa kuchipua (majira ya machipuko)' or simply 'mapema msimu wa prolifera' only if idiomatic. Keep HTML markup intact.",
+      "translation_quote": "Robin huanzisha kwaya mapema spring, lakini wimbo wake huharibika haraka katika uzuri na song sparrow na tena na rose-breasted grosbeak."
     }
   ],
   "id": "5d953d7cf024b5fa625bc30c483835d5",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6b4fad51874daab2b26c2a97a4e4c4aa1580e7cb9aed0a786736362fa6dfa46a.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

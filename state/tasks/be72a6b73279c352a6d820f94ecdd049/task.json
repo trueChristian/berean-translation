@@ -2,7 +2,6 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "6fcfd80c67274600adbff3c5fee2f976",
   "campaign": "gh-36909987232",
   "created_at": "2026-10-01T18:54:08+00:00",
   "events": [
@@ -24,6 +23,76 @@
         },
         "total_tokens": 3508
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1578,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3317,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4895
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html paragraph 7 (webworms sentence)",
+      "severity": "critical",
+      "source_quote": "The fall webworms had been at work, and their web curtains shuttered from branches overhead.",
+      "suggested_fix": "Translate the sentence to convey that fall webworms had been busy and their silk-web curtains hung from the branches overhead. Preserve the image of webbing on the branches rather than introducing unrelated words.",
+      "translation_quote": "Waridi wa mteenthari wa vuli walikuwa wameshindwa, na pazia lao la wavuli lilifungwa kutoka kwenye matawi juu."
+    },
+    {
+      "location": "source.html paragraph 11 (\"a frustrated heap\" and references)",
+      "severity": "major",
+      "source_quote": "But Kenny was there. As Jamin clumped into the meadow, he could see a frustrated heap to his right. The heap’s voice had a familiar ring. The heap’s face was lit in pain. The heap was Kenny.",
+      "suggested_fix": "Render \"a frustrated heap\" and the subsequent sentences to reflect a collapsed or crumpled figure (person) — e.g. 'aliona mtu aliyekunjikana kwa huzuni upande wake wa kulia. Sauti yake ilikuwa ya kumfahamu. Uso wake ulikuwa umejaa maumivu. Yule mtu alikuwa Kenny.' Do not translate 'heap' as 'mkusanyiko' (pile/gathering).",
+      "translation_quote": "Wakati Jamin alipokuwa akielekea katika uwanda, aliweza kuona mkusanyiko wa mshtuko upande wake wa kulia. Sauti ya mkusanyiko huo ilikuwa na toni ya kumfahamu. Uso wa mkusanyiko huo ulikuwa umetakaswa na maumivu. Mkusanyiko huo alikuwa Kenny."
+    },
+    {
+      "location": "source.html paragraph 12 (\"Did you step in a trap?\")",
+      "severity": "major",
+      "source_quote": "“Did you step in a trap?”",
+      "suggested_fix": "Translate the question to make clear it's about stepping into a trap: e.g. 'Je, umeingia kwenye mtego?' or 'Je, umeingia kwenye kitengo cha mtego?' The translator used 'kitengo cha mtego' earlier which is awkward; prefer 'mtego' or 'kitao cha mtego' consistent with other uses.",
+      "translation_quote": "“Je, umeingia kwenye kitengo cha mtego?”"
+    },
+    {
+      "location": "source.html paragraph 14 (\"If you support me, I can hobble along.\")",
+      "severity": "major",
+      "source_quote": "“Yes. I think so. If you support me, I can hobble along.”",
+      "suggested_fix": "Translate 'support me' as 'unanigongea' is wrong — it should convey physical support: e.g. 'Ikiwa utanichukua kwa mkono / kuunga mkono, nitaweza kuhema kwa kinamelimeli / kutembea kwa polepole.' Avoid 'utanigusa' which changes meaning to merely touching.",
+      "translation_quote": "“Ndio. Nadhani. Ikiwa utanigusa, nitaweza kutetemeka.”"
+    },
+    {
+      "location": "source.html paragraph 17 (\"Grandma Otto rocked some more\")",
+      "severity": "major",
+      "source_quote": "Grandma Otto rocked some more, then smiled.",
+      "suggested_fix": "Translate 'rocked some more' to mean rocking back in her rocker (swinging), not 'jumped': e.g. 'Bibi Otto alitetemeka kidogo tena kwenye kiti chake, kisha akatabasamu.' Do not use 'aliruka' which means 'she jumped.'",
+      "translation_quote": "Bibi Otto aliruka kwa kiti chake tena, kisha akatabasamu."
+    },
+    {
+      "location": "source.html paragraph 2 (older brother sentence and pronoun)",
+      "severity": "minor",
+      "source_quote": "Or at least that’s what his older brother told him.",
+      "suggested_fix": "Fix the mistranscription/typo 'ndoda' to the correct Kiswahili word. A correct rendering: 'Au angalau hivyo kaka yake alivyomwambia.'",
+      "translation_quote": "Au angalau hivyo ndoda yake alivyomweleza."
+    },
+    {
+      "location": "source.html paragraph 15 (\"Darkness stained the ground\")",
+      "severity": "minor",
+      "source_quote": "Darkness stained the ground around Kenny.",
+      "suggested_fix": "Translate to convey the image of darkness or blackness around Kenny, e.g. 'Giza lilimvizia/kulifunika udongo karibu na Kenny.' Current 'Giza lilikuwa limechafua ardhi' is awkward; prefer 'lilipamba' or 'lilijaza' depending on tone.",
+      "translation_quote": "Giza lilikuwa limechafua ardhi karibu na Kenny."
     }
   ],
   "id": "be72a6b73279c352a6d820f94ecdd049",
@@ -69,11 +138,13 @@
     }
   },
   "protected": false,
+  "quality_score": 62,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a7ca25068c1bad9f392aef90030e0bae4b2e168a2dbdfb445b23493e0ef481c1.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

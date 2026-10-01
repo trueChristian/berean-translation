@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "90ffe620-d263-4b7c-9732-cddfbd161b7b",
+    "response_id": "chatcmpl-EUGh26nw7GfdjBcA35Ra5I6plyl70",
+    "usage": {
+      "completion_tokens": 1633,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2881,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4514
+    }
+  },
+  "received_at": "2026-10-01T20:28:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Kuchelewesha kazi kwa tabia kunaweza kusababisha viwango vya juu vya msongo wa mawazo. Labda mimi ni wa ajabu, lakini ni vigumu kwangu kubaki mwenye utulivu na mtulivu ninapokua shinikizo likiongezeka. Wakati mambo ya dakika za mwisho yanapokamilishwa mimi huwa nimechoka mno kula siwezi kufurahia tukio lililopangwa.</p>",
+        "severity": "major",
+        "source_quote": "By the time the last minute things are completed I’m too exhausted to enjoy the planned event.",
+        "suggested_fix": "Wakati mambo ya dakika za mwisho yanapokamilishwa mimi huwa nimechoka mno na siwezi kufurahia tukio lililopangwa.",
+        "translation_quote": "Wakati mambo ya dakika za mwisho yanapokamilishwa mimi huwa nimechoka mno kula siwezi kufurahia tukio lililopangwa."
+      },
+      {
+        "location": "<p>Ni fumbo kwangu kwa nini mshirika wa familia anafika kiti cha daktari wa meno siku moja au mbili kabla ya kuondoka kwenye safari. Labda hajatokea mara nyingi kama ninavyodhani, lakini kuchanganyikiwa kwa safari isiyopangwa ya kwenda kwa daktari wa meno wakati usiofaa kumeweka fitina akilini mwangu. Sasa napanga miadi ya kufikirika kabla ya safari. Ikiwa si dharura ya meno, suala lingine litasubiri nafasi hiyo.</p>",
+        "severity": "minor",
+        "source_quote": "If it is not a dental emergency, some other issue is bound to fill that time slot.",
+        "suggested_fix": "Ikiwa si dharura ya meno, jambo lingine kawaida litajitokeza kujaa nafasi hiyo.",
+        "translation_quote": "Ikiwa si dharura ya meno, suala lingine litasubiri nafasi hiyo."
+      },
+      {
+        "location": "<p>Muda wa mwisho ni sehemu ya kawaida ya maisha. Bila yao tungekuwa bila motisha, na siku zetu zingekuwa bila kusudi. Usitisho pia ni sehemu ya kawaida ya maisha. Huvuka-ghafla huleta mabadiliko yasiyotabirika katika siku zetu na wiki zetu. Tukiacha kazi nyingi zikusubiri hadi dakika za mwisho, usitisho na tarehe za mwisho vinakutana, na vurugu zinaanza kutawala.</p>",
+        "severity": "minor",
+        "source_quote": "Interruptions are also a normal part of life.",
+        "suggested_fix": "Usumbufu/vizingiti pia ni sehemu ya kawaida ya maisha.",
+        "translation_quote": "Usitisho pia ni sehemu ya kawaida ya maisha."
+      },
+      {
+        "location": "<p>Lakini ikiwa mpangaji wangu anasema, “safisha vito vya nyumbani, suka makabati, na suuza madirisha,” inaonekana inawezekana zaidi.</p>",
+        "severity": "major",
+        "source_quote": "But if my planner says, “clean appliances, wipe out cupboards, and wash windows,” it seems more doable.",
+        "suggested_fix": "Lakini ikiwa mpangaji wangu anasema, “safisha vifaa vya nyumbani, futa/mfute kabati, na suuza madirisha,” inaonekana inawezekana zaidi.",
+        "translation_quote": "Lakini ikiwa mpangaji wangu anasema, “safisha vito vya nyumbani, suka makabati, na suuza madirisha,” inaonekana inawezekana zaidi."
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}
