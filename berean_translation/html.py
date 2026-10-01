@@ -54,6 +54,15 @@ class Fragment(HTMLParser):
         elif tag == 'article':
             raise ContractError('Nested article element')
         for key, value in attrs:
+            if key == 'reversed':
+                # HTML's ordered-list boolean attribute may be minimized,
+                # empty, or repeat its name. It is never a general permission
+                # for valueless attributes, nor valid on another element.
+                if tag != 'ol' or (value is not None and value.lower() not in ('', 'reversed')):
+                    raise ContractError('reversed must be a boolean attribute on an ordered list')
+                # Keep the exact value (including None) in the immutable
+                # signature below; translated lists cannot change direction.
+                continue
             if value is None or key.startswith('on') or key in ('style','srcdoc','srcset'):
                 raise ContractError(f'Forbidden or valueless HTML attribute: {key}')
             if not (key in ('id','class','alt','title','href','src','lang','dir','width','height',
