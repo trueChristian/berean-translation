@@ -947,6 +947,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
+      "html_sha256": "5e3da808fe69cbc32375ed18864abfb638c584f5473784ea7fbaec71c4ebfbb3",
+      "human_reviewed": false,
+      "id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
+      "images": [
+        {
+          "alt": "Rosa und weiße Kronwicke-Blumen in einer grünen Wiese",
+          "public_path": "/images/articles/52074824-2feb-4fe4-96d0-a08ec72c3565-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.json",
+      "metadata_sha256": "bb797a3c66eb32c49eeba39bce88876d3ee8bf13fc0aea271286a6a2df52df42",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Vom HERAUSGEBER",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Vom Herausgeber",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.html",
       "html_sha256": "fe32e0ed6626e873126cf2a6c276866680e1b1bc06bed22607804a61438feb96",
       "human_reviewed": false,
@@ -975,6 +1003,62 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
+      "html_sha256": "919faaedc00d30ca0a62e2fc065e4b71af1a936c0d90473735bda569eccd690f",
+      "human_reviewed": false,
+      "id": "93978dae-706d-43d4-abee-6b6e011683fa",
+      "images": [
+        {
+          "alt": "Meereswellen, die aus der Vogelperspektive entlang eines sandigen Ufers brechen.",
+          "public_path": "/images/articles/93978dae-706d-43d4-abee-6b6e011683fa-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/93978dae-706d-43d4-abee-6b6e011683fa.json",
+      "metadata_sha256": "32553e9e1db982214e043e273894c62303c291bda442e445c99a4ea438f63459",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Von Schwester zu Schwester",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Umständebedingte Überlastung",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
+      "html_sha256": "6d79f479b23062be46f54c1d951569a3d16373c06c26ebf532797a4bdb6f986f",
+      "human_reviewed": false,
+      "id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
+      "images": [
+        {
+          "alt": "Ein schmaler Pfad, der sich durch ein laubiges Wäldchen windet",
+          "public_path": "/images/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.json",
+      "metadata_sha256": "0e5baadf752c4c85777a24cb46e00ce2b50905841d54bade0a70ab2dad491dce",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Children’s Corner",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Jamin wird klüger",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f.html",
       "html_sha256": "4acd5714836de7820f6b0b43e43cb468c18825046a2d76c96d7cfb28723f80f9",
       "human_reviewed": false,
@@ -998,6 +1082,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Der Ruhm des Frühlings",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.html",
+      "html_sha256": "9f685562bd3266ceee96f8ccae38fa6fc8aa6497075307a8e77736c853a0f000",
+      "human_reviewed": false,
+      "id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
+      "images": [
+        {
+          "alt": "Ein kleines Boot am Rand ruhigen Wassers bei einem lebhaften Sonnenuntergang",
+          "public_path": "/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.json",
+      "metadata_sha256": "84bc7e0eaddbeb5162a8ee216b899fdfb48fd24629c12a82e88aea5b4269e5da",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Gedicht",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Erhebe dich, sei froh!",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d443c3a8-0e5d-44d6-ba24-b518802d926e",
+    "response_id": "chatcmpl-EUGc6WdQUwfPcHdMbU925IZelJM5H",
+    "usage": {
+      "completion_tokens": 805,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2729,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3534
+    }
+  },
+  "received_at": "2026-10-01T20:29:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...Isn’t it da better to “plan” for a bee sting and a stubbed toe?</p> (Source paragraph under heading \"Change the Last-Minute Scenario\")",
+        "severity": "major",
+        "source_quote": "So, isn’t it better to “plan” for a bee sting and a stubbed toe?",
+        "suggested_fix": "Replace the translated phrase that reads as the pastry name with an unambiguous phrase that conveys the original meaning (a literal insect sting). Keep sentence structure and HTML unchanged. For example: „Ist es da nicht besser, für einen Bienestoß und einen angestoßenen Zeh ‚einzuplanen‘?“ or more naturally: „Ist es da nicht besser, für einen Bienenstich und einen angestoßenen Zeh ‚einzuplanen‘?“ — but avoid the pastry ambiguity by using 'Stich einer Biene' or 'Bienenstich (durch eine Biene)' if necessary.",
+        "translation_quote": "Ist es da nicht besser, für einen Bienenstich und einen angestoßenen Zeh „einzuplanen“?"
+      },
+      {
+        "location": "<title> element and article title text",
+        "severity": "minor",
+        "source_quote": "Procrastination Overload",
+        "suggested_fix": "Use a more natural German title. Either add a hyphen or choose a more idiomatic wording. Suggested replacements (preserve title tag): \"Prokrastination-Überlastung\" or better: \"Zu viel Prokrastination\" or \"Prokrastination im Übermaß\".",
+        "translation_quote": "Prokrastination Überlastung"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

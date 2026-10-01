@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f00b9782-8140-488f-adfd-8cc90087ae04",
+    "response_id": "chatcmpl-EUGbcAb0hCZt7iwq3U5suUUDSAvGt",
+    "usage": {
+      "completion_tokens": 912,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3942,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4854
+    }
+  },
+  "received_at": "2026-10-01T20:29:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Full article text, title",
+        "severity": "minor",
+        "source_quote": "Circumstantial overload may happen slowly, as in the following story, or it may happen quickly as in the case of an accident in which a family member is injured.",
+        "suggested_fix": "Consider using the more idiomatic German adjective \"umstandesbedingte\" instead of the literal calque \"umständebedingte\" throughout the translation (including the title) for smoother readability. Example replacement in HTML: replace \"Umständebedingte Überlastung\" with \"Umstandesbedingte Überlastung\" (preserve tags and punctuation).",
+        "translation_quote": "Umständebedingte Überlastung kann sich langsam einstellen, wie in der folgenden Geschichte, oder sie kann schnell eintreten, etwa bei einem Unfall, bei dem ein Familienmitglied verletzt wird."
+      },
+      {
+        "location": "Paragraph beginning \"When stress prevails...\"",
+        "severity": "minor",
+        "source_quote": "When stress prevails, racing thoughts, forgetfulness, and inability to focus comes uninvited.",
+        "suggested_fix": "The German phrase \"Renn-Gedanken\" is non‑idiomatic. Use a natural rendering such as \"rasende Gedanken\" or \"hetzende Gedanken\". Apply change inside the same paragraph, preserving HTML tags. Example: replace \"Renn-Gedanken\" with \"rasende Gedanken\".",
+        "translation_quote": "Wenn Stress vorherrscht, treten ungebetene Renn-Gedanken, Vergesslichkeit und Unfähigkeit zur Konzentration auf."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

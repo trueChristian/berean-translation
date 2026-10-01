@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "73684187-0cec-46ee-8e57-d609cd871b41",
+    "response_id": "chatcmpl-EUGbkduPSrcmgjw0yIcBpjkDShdJe",
+    "usage": {
+      "completion_tokens": 1411,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1491,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2902
+    }
+  },
+  "received_at": "2026-10-01T20:29:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"><p>Strophe 2, Zeile 6 (imperativische Form)",
+        "severity": "minor",
+        "source_quote": "Adore and praise our mighty Lord!",
+        "suggested_fix": "Halten Sie die Anredeform konsistent. Entweder alle Imperative im Singular (z. B. »Bete an und preise unseren mächtigen Herrn!«) oder im plural/archaisch (z. B. »Anbetet und preiset unseren mächtigen Herrn!«). Vorschlag: «Bete an und preise unseren mächtigen Herrn!»",
+        "translation_quote": "Anbete und preise unseren mächtigen Herrn!"
+      },
+      {
+        "location": "<div class=\"poem\"><p>Strophe 3, Zeilen 1–2 (inkonsistente Anrede/Verbalformen)",
+        "severity": "minor",
+        "source_quote": "Give thanks and sing to Christ our King\nAnd worship Him with reverent praise;",
+        "suggested_fix": "Stellen Sie die Anredeformen in der Strophe und im Gedicht einheitlich her. Aktueller Satz verwendet archaisches Plural (»Danket und singet«) statt moderner Imperative. Vorschlag im modernen, einheitlichen Stil: «Singe Dank und Lobe Christus, unseren König, und bete ihn mit ehrfürchtigem Lob an;» oder im kollektiven Imperativ: «Danket und singet Christus, unserem König, und betet ihn mit ehrfürchtigem Lob an.»",
+        "translation_quote": "Danket und singet Christus, unserem König\nUnd betet ihn mit ehrfürchtigem Lob an;"
+      },
+      {
+        "location": "<div class=\"poem\"><p>Strophe 1, Zeile 3 (Terminologie: \"Dayspring\")",
+        "severity": "minor",
+        "source_quote": "The Dayspring shineth from on high,",
+        "suggested_fix": "»Dayspring« kann theologisch als »Morgenröte« (Dawn) oder »Morgenstern« (Morning Star) übersetzt werden. Zur besseren Kohärenz mit »dawn« in der ersten Zeile und dem Bild des Tagesanbruchs empfehle ich »Morgenröte«. Vorschlag: «Die Morgenröte leuchtet von oben herab,»",
+        "translation_quote": "Der Morgenstern leuchtet von oben herab,"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "93978dae-706d-43d4-abee-6b6e011683fa",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f5c44a10e123415eadd0a8d5dbb39095",
   "campaign": "gh-36909855802",
   "created_at": "2026-10-01T18:52:56+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 4396
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 912,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3942,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4854
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Full article text, title",
+      "severity": "minor",
+      "source_quote": "Circumstantial overload may happen slowly, as in the following story, or it may happen quickly as in the case of an accident in which a family member is injured.",
+      "suggested_fix": "Consider using the more idiomatic German adjective \"umstandesbedingte\" instead of the literal calque \"umständebedingte\" throughout the translation (including the title) for smoother readability. Example replacement in HTML: replace \"Umständebedingte Überlastung\" with \"Umstandesbedingte Überlastung\" (preserve tags and punctuation).",
+      "translation_quote": "Umständebedingte Überlastung kann sich langsam einstellen, wie in der folgenden Geschichte, oder sie kann schnell eintreten, etwa bei einem Unfall, bei dem ein Familienmitglied verletzt wird."
+    },
+    {
+      "location": "Paragraph beginning \"When stress prevails...\"",
+      "severity": "minor",
+      "source_quote": "When stress prevails, racing thoughts, forgetfulness, and inability to focus comes uninvited.",
+      "suggested_fix": "The German phrase \"Renn-Gedanken\" is non‑idiomatic. Use a natural rendering such as \"rasende Gedanken\" or \"hetzende Gedanken\". Apply change inside the same paragraph, preserving HTML tags. Example: replace \"Renn-Gedanken\" with \"rasende Gedanken\".",
+      "translation_quote": "Wenn Stress vorherrscht, treten ungebetene Renn-Gedanken, Vergesslichkeit und Unfähigkeit zur Konzentration auf."
+    }
+  ],
+  "finished_at": "2026-10-01T20:29:05+00:00",
   "id": "049eee7e5c2251441bbeb80237c9e0f6",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "deu",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/655f2b893d535149fb7f0e71fcdd48b885970929ae2439021fc6d8de3cd6b11b.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f5c44a10e123415eadd0a8d5dbb39095",
   "campaign": "gh-36909855802",
   "created_at": "2026-10-01T18:52:56+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 3358
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1005,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3171,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4176
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Paragraph beginning \"Jamin believed Kenny’s lectures...\" (third paragraph)",
+      "severity": "minor",
+      "source_quote": "He breathed the rich air and followed Kenny’s trail.",
+      "suggested_fix": "Replace \"Er atmete die schwere Luft ein und folgte Kennys Spur.\" with wording that preserves the nuance of \"rich air\" (positive, full) rather than only \"heavy\". Example: \"Er atmete die würzige Luft tief ein und folgte Kennys Spur.\"",
+      "translation_quote": "Er atmete die schwere Luft ein und folgte Kennys Spur."
+    },
+    {
+      "location": "Paragraph beginning \"But Kenny was there...\" (ninth paragraph)",
+      "severity": "minor",
+      "source_quote": "As Jamin clumped into the meadow, he could see a frustrated heap to his right.",
+      "suggested_fix": "The translation uses \"einen frustrierten Haufen\", which reads awkwardly for a person collapsed in the grass. Use a German expression that clearly describes a person collapsed or crumpled, e.g. \"einen zusammengesunkenen Körper\" or \"eine gekrümmte Gestalt\" while preserving the simple style. Example: replace \"sah er zu seiner Rechten einen frustrierten Haufen.\" with \"sah er zu seiner Rechten eine zusammengesunkene Gestalt.\"",
+      "translation_quote": "Als Jamin in die Wiese stapfte, sah er zu seiner Rechten einen frustrierten Haufen."
+    },
+    {
+      "location": "Paragraph beginning \"And indeed...\" (paragraph where father returns)",
+      "severity": "minor",
+      "source_quote": "Jamin called back, and he was by their side in a moment, seeing the ankle and scooping up Kenny like a hurt sheep.",
+      "suggested_fix": "The German \"Jamin rief zurück, und im nächsten Moment war er an ihrer Seite\" leaves the pronoun \"er\" ambiguous. To make clear that the father returned, specify the subject: e.g. \"Jamin rief zurück, und im nächsten Moment war ihr Vater an ihrer Seite, sah den Knöchel und nahm Kenny auf wie ein verletztes Schaf.\"",
+      "translation_quote": "Jamin rief zurück, und im nächsten Moment war er an ihrer Seite, sah den Knöchel und nahm Kenny auf wie ein verletztes Schaf."
+    }
+  ],
+  "finished_at": "2026-10-01T20:29:05+00:00",
   "id": "d0c9901dab9d8eb2b4315776b042c683",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "deu",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a7ca25068c1bad9f392aef90030e0bae4b2e168a2dbdfb445b23493e0ef481c1.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

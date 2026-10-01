@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4f58781f-6bba-4b1d-9570-f622aa395b9e",
+    "response_id": "chatcmpl-EUGcm8p4UuloIlwoStnsESCyDfzOY",
+    "usage": {
+      "completion_tokens": 1719,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2957,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4676
+    }
+  },
+  "received_at": "2026-10-01T20:29:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"drop-cap\">…Ich kann immer noch die verlockende Kakophonie von Gerüchen riechen, während ich die starke Hand meines Vaters hielt…</p>",
+        "severity": "minor",
+        "source_quote": "My young preschool mind had never seen so many delectable sweets in one place at one time.",
+        "suggested_fix": "Replace «Mein junges Vorschulkind-Gedächtnis hatte noch nie so viele köstliche Süßigkeiten an einem Ort zu einer Zeit gesehen.» with a more natural German rendering preserving meaning, e.g. «Mein junges Vorschulgedächtnis hatte noch nie so viele köstliche Süßigkeiten an einem Ort gesehen.»",
+        "translation_quote": "Mein junges Vorschulkind-Gedächtnis hatte noch nie so viele köstliche Süßigkeiten an einem Ort zu einer Zeit gesehen."
+      },
+      {
+        "location": "<p>…Ich hatte das Privileg, an Christian Aid Ministries’ erstem jährlichen Schriftstellerkonferenz teilzunehmen.</p>",
+        "severity": "minor",
+        "source_quote": "I had the privilege of attending Christian Aid Ministries’ first Annual Writers’ Conference.",
+        "suggested_fix": "Fix German grammar and article agreement. Replace «an Christian Aid Ministries’ erstem jährlichen Schriftstellerkonferenz teilzunehmen» with «an der ersten jährlichen Schriftstellerkonferenz von Christian Aid Ministries teilzunehmen» or «an Christian Aid Ministries’ erster jährlicher Schriftstellerkonferenz teilzunehmen.»",
+        "translation_quote": "Ich hatte das Privileg, an Christian Aid Ministries’ erstem jährlichen Schriftstellerkonferenz teilzunehmen."
+      },
+      {
+        "location": "<p>…Ich stieß mit bekannten Autoren wie Katrina Hoover Lee, Johnny Miller und Ruthann Stelfox zusammen.</p>",
+        "severity": "minor",
+        "source_quote": "I brushed shoulders with well-known authors such as Katrina Hoover Lee, Johnny Miller, and Ruthann Stelfox.",
+        "suggested_fix": "«I brushed shoulders with» conveys mingling rather than colliding. Replace «Ich stieß … zusammen» with a less collision-like phrase such as «Ich traf bekannte Autoren wie…» or «Ich kam mit bekannten Autoren wie … ins Gespräch.»",
+        "translation_quote": "Ich stieß mit bekannten Autoren wie Katrina Hoover Lee, Johnny Miller und Ruthann Stelfox zusammen."
+      },
+      {
+        "location": "<p><em>The Heartbeat of the Remnant</em> … Erfahrene Großväter, die dem jüngeren Generation mahnende Worte bringen.</p>",
+        "severity": "minor",
+        "source_quote": "Seasoned grandfathers who bring words of admonishment to the younger generation.",
+        "suggested_fix": "Correct article and case: replace «dem jüngeren Generation» with «der jüngeren Generation» so it reads «Erfahrene Großväter, die der jüngeren Generation mahnende Worte bringen.»",
+        "translation_quote": "Erfahrene Großväter, die dem jüngeren Generation mahnende Worte bringen."
+      },
+      {
+        "location": "<p>…Ich ermutige euch, liebe Gläubige, es zu versuchen. Nelson Mandela, ehemaliger Präsident Südafrikas, schrieb: «Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?»</p>",
+        "severity": "minor",
+        "source_quote": "Nelson Mandela, former president of South Africa wrote, “Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”",
+        "suggested_fix": "Either translate the quoted English sentence into German to match the target-language text or set it explicitly as an English quote if intended. Suggested translation: «‚Scheitern ist ein Lehrer; und am Ende deines Lebens, worüber denkst du, wirst du es am meisten bereuen: gescheitert zu sein oder es nie versucht zu haben?‘»",
+        "translation_quote": "Nelson Mandela, ehemaliger Präsident Südafrikas, schrieb: „Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?“"
+      },
+      {
+        "location": "<p>…Wir stellten den Druck zurück und waren uns unschlüssig…</p>",
+        "severity": "minor",
+        "source_quote": "We put the printing on hold, unsure whether to include information on these new and unproven COVID-19 “vaccines.”",
+        "suggested_fix": "Use an idiomatic German equivalent for «put the printing on hold». Replace «Wir stellten den Druck zurück» with «Wir setzten den Druck aus» or «Wir setzten den Druck vorübergehend aus» so the meaning matches the source.",
+        "translation_quote": "Wir stellten den Druck zurück und waren uns unschlüssig, ob Informationen über diese neuen und unbelegten COVID-19-„Impfstoffe“ aufgenommen werden sollten."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

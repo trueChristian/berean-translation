@@ -2,7 +2,6 @@
   "article_id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f5c44a10e123415eadd0a8d5dbb39095",
   "campaign": "gh-36909855802",
   "created_at": "2026-10-01T18:52:56+00:00",
   "events": [
@@ -24,6 +23,41 @@
         },
         "total_tokens": 2916
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 805,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2729,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3534
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<p>...Isn’t it da better to “plan” for a bee sting and a stubbed toe?</p> (Source paragraph under heading \"Change the Last-Minute Scenario\")",
+      "severity": "major",
+      "source_quote": "So, isn’t it better to “plan” for a bee sting and a stubbed toe?",
+      "suggested_fix": "Replace the translated phrase that reads as the pastry name with an unambiguous phrase that conveys the original meaning (a literal insect sting). Keep sentence structure and HTML unchanged. For example: „Ist es da nicht besser, für einen Bienestoß und einen angestoßenen Zeh ‚einzuplanen‘?“ or more naturally: „Ist es da nicht besser, für einen Bienenstich und einen angestoßenen Zeh ‚einzuplanen‘?“ — but avoid the pastry ambiguity by using 'Stich einer Biene' or 'Bienenstich (durch eine Biene)' if necessary.",
+      "translation_quote": "Ist es da nicht besser, für einen Bienenstich und einen angestoßenen Zeh „einzuplanen“?"
+    },
+    {
+      "location": "<title> element and article title text",
+      "severity": "minor",
+      "source_quote": "Procrastination Overload",
+      "suggested_fix": "Use a more natural German title. Either add a hyphen or choose a more idiomatic wording. Suggested replacements (preserve title tag): \"Prokrastination-Überlastung\" or better: \"Zu viel Prokrastination\" or \"Prokrastination im Übermaß\".",
+      "translation_quote": "Prokrastination Überlastung"
     }
   ],
   "id": "e7ab43fb4468328358bc535b6a405075",
@@ -69,11 +103,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5fd263b236cc5e1da73816f24d29564842c820fa1abbcc53a271dfa0bf31493f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

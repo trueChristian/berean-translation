@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9b508b6a-35f0-4e43-85c0-235d0a0bdc87",
+    "response_id": "chatcmpl-EUGcX28UlHFi06QBFe0v1iNJrblMH",
+    "usage": {
+      "completion_tokens": 1009,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6478,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7487
+    }
+  },
+  "received_at": "2026-10-01T20:29:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first paragraph (lead)",
+        "severity": "critical",
+        "source_quote": "Our Father’s world is a world unspoiled by human invention and intervention.",
+        "suggested_fix": "Translate the phrase without altering theological attribution. Replace the German sentence that begins the lead paragraph with a rendering that preserves 'Our Father' (i.e. God the Father). Example fix (preserve surrounding tags): <p class=\"lead\"><span class=\"drop-cap\">O</span>Die Welt unseres Vaters ist eine Welt, die von menschlicher Erfindung und Eingriffe unverdorben geblieben ist.</p> (Or: <p class=\"lead\"><span class=\"drop-cap\">O</span>Die Welt unseres Vaters ist eine Welt, die durch menschliche Erfindungen und Eingriffe nicht verdorben ist.</p>)",
+        "translation_quote": "Unsere himmlische Welt ist eine Welt, die von menschlicher Erfindung und Intervention unverdorben geblieben ist."
+      },
+      {
+        "location": "source.html — paragraph about the canary (Undankbarkeit paragraph)",
+        "severity": "minor",
+        "source_quote": "If the canary were to refuse to sing in captivity, few of us would ever have heard his rollicking melody.",
+        "suggested_fix": "Correct German grammar and agreement while preserving sense. Replace the clause in-place, preserving tags. Example: “Würde der Kanarienvogel sich im Käfig weigern zu singen, hätten nur wenige von uns jemals seine ausgelassene Melodie gehört.”",
+        "translation_quote": "Würde die Kanarienvogel im Käfig sich weigern zu singen, hätten nur wenige von uns jemals seine ausgelassene Melodie gehört."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}
