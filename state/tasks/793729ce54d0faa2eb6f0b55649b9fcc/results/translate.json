@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8c5f0e13-81d7-42a0-b129-9df19b027b8e",
+    "response_id": "chatcmpl-EUGMhBaNm0plMalgdvTukBANZojnU",
+    "usage": {
+      "completion_tokens": 651,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1160,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1811
+    }
+  },
+  "received_at": "2026-10-01T19:06:14+00:00",
+  "result": {
+    "html": "<article data-article-id=\"eed66189-2caa-4bfb-9eaa-545562c7e9a6\">\n  <figure>\n    <img src=\"/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg\" alt=\"En liten båt ved kanten av stille vann under en fargerik solnedgang\" loading=\"lazy\">\n  </figure>\n\n  <div class=\"poem\">\n    <p><strong>Stå opp, vær glad! For daggryet er her!<br>\n    Fryd deg og syng! Natten er forbi,<br>\n    Daggryets lys fra høyden skinner,<br>\n    Guds nåde mot mennesket nærmer seg!<br>\n    Fryd deg og pris Kongenes Konge!<br>\n    Gi takk og lov, for mer er kommet!</strong></p>\n\n    <p><strong>Stå opp og glorifiser Herren!<br>\n    Opphøy og pris Hans verdige navn!<br>\n    Han stråler fra himmelen i kjærlighet,<br>\n    Og øser velsignelser ovenfra,<br>\n    Hans miskunn når ned til mennesket—<br>\n    Tilbed og pris vår mektige Herre!</strong></p>\n\n    <p><strong>Gi takk og syng for Kristus, vår Konge<br>\n    Og tilbe Ham med ærbødig pris;<br>\n    Bøy deg i aktelsens, hellige frykt—<br>\n    Guds Hellighet er her;<br>\n    I underfull skjønnhet bøy ditt kne;<br>\n    Tilbed den allmektige Kongen over konger!</strong></p>\n  </div>\n</article>\n",
+    "section": "Dikt",
+    "subtitle": null,
+    "title": "Stå opp, vær glad!"
+  }
+}

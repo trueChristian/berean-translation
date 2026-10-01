@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ec8fefa0-1643-45c8-879d-f865d06e50e8",
+    "response_id": "chatcmpl-EUGND5BwNSvaKP3Mdt4Wy0LJiy6Fl",
+    "usage": {
+      "completion_tokens": 1439,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1929,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3368
+    }
+  },
+  "received_at": "2026-10-01T19:06:14+00:00",
+  "result": {
+    "html": "<article data-article-id=\"aa552c1c-4324-40a5-a7c3-8f36b6a99ee2\">\n  <p class=\"drop-cap\">Åtte år gamle Jamin var ikke særlig smart. Eller i det minste var det det storebroren hans sa til ham. Nesten hver dag fant broren Kenny måter å minne Jamin om hans mangler og le av tabbene hans.</p>\n  <p>«Jamin, du kommer aldri til å bli smart», sa Kenny. Dypt inne i Jamin følte han seg resignert til et liv fylt av forviklinger. Kom han alltid til å være klosset? Kom han alltid til å si ting feil? Det var i alle fall det Kenny sa.</p>\n  <p>Jamin trodde på Kennys formaninger med vidåpne øyne. Kenny var tre år eldre enn ham, så han måtte ha rett. Greit, da skulle Jamin være enkel. Kenny skulle være smart. Livet var ikke rettferdig. Far og Mor likte ikke Kennys stolte snakk og straffet ham når de kom inn på en av hans taler. Men Kenny hadde en måte å unngå å bli hørt på. Så han fortsatte å gjøre narr av Jamin.</p>\n  <p>Bestemor Otto så disse prøvelsene fra gyngestolen på verandaen. Hun var en stille gammel dame.</p>\n  <p>«Jamin, vet du hvor Kenny er?» spurte Mor med et smil. «Det er nesten tid for middag.»</p>\n  <p>«Han dro for å sjekke coyotefellene sine. Jeg skal gå og finne ham.»</p>\n  <p>Det var en kjølig luft da han trampet over plenen, og solen var blitt gammel da han krysset grensen til skogen. De flyktige skyggene skyndte seg over åsene. Kulden dypet seg mens han gikk lenger inn. Han pustet inn den rike luften og fulgte Kennys spor. Etter hvert ville stien ende i en eng, men Jamin håpet han skulle finne Kenny før han måtte gå så langt. De ulike fellene var allerede sjekket, så Jamin visste at Kenny hadde gått denne veien. Jamin trasket videre bestemt. Hans gyldne hode fanget de trette solstrålene som slapp gjennom trærne. Og snart hadde også de falmet, og etterlot seg skogenes jordaktige duft. Etterhvert hadde nettspinnerne vært i arbeid, og deres nettgardiner hang fra greinene over hodet.</p>\n  <p>Etter hvert, da trærne stilnet og tynnet ut, og engen dukket opp, visste Jamin at dette var slutten på brorens fellrute. Hvis Kenny ikke var her, visste han ikke hvor annet å lete.</p>\n  <p>Men Kenny var der. Da Jamin trådte inn i enga, kunne han se en frustrert haug til høyre for seg. Haugens stemme hadde en velkjent klang. Haugens ansikt var opplyst av smerte. Haugen var Kenny. «Er du ok? Hva skjedde?» Jamin følte det merkelig å se Kenny sammenkrøpet i jordet. Kenny var smart. «Tråkket du i en felle?»</p>\n  <p>«Ja, Jamin. Jeg… jeg så ikke hvor jeg gikk. Hjelp meg. Vær så snill.»</p>\n  <p>Jamin bøyde seg og fant en ankel fast holdt i kjevene på en stålfelle. Mørket farget bakken rundt Kenny. Raskt vred Jamins sterke armer opp kjevene. Kenny slynget seg fri. «Kan du gå?»</p>\n  <p>«Ja. Jeg tror det. Hvis du støtter meg, kan jeg halte videre.»</p>\n  <p>«Far og Mor vil være bekymret. Vi har gått glipp av middagen.»</p>\n  <p>Jo, da — mens brødrene haltet tilbake gjennom skogen, hørte de farens lange rop. Jamin ropte tilbake, og han var ved deres side på et øyeblikk, så ankelen og løftet Kenny opp som et skadet lam. Den merkelige lille gruppen skyndte seg hjem, og dørskjermen smalt igjen idet Far hastet over verandaen. Jamin gikk til vaskerommet og skrubbet hendene sine. Han gikk mot inngangsdøren.</p>\n  <figure>\n    <img src=\"/images/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2-1.jpg\" alt=\"En smal sti som slynger seg gjennom et løvfullt skogsområde\" loading=\"lazy\">\n  </figure>\n  <p>«Jamin.» Det var Bestemor. Verandalampen viste henne i den gamle gyngestolen. Et tungt teppe lå over skuldrene hennes.</p>\n  <p>«Ja, Bestemor?»</p>\n  <p>«Tror du at du ikke er særlig smart?»</p>\n  <p>«Det er det Kenny sier.» Jamin vred seg.</p>\n  <p>«Du var sterk nok til å åpne fellen, og Kenny var det ikke. Du var modig nok til å finne ham i mørket. Mange unge gutter ville ikke vært det.» Jamin var taus. Bestemor Otto gynget litt mer, så smilte hun. «Gud gjorde deg slik du er av en grunn, Jamin. Han gjorde Kenny slik han er av en grunn. Han har en plan for deg, og et sted bare du kan fylle, vet du.»</p>\n  <p>Jamin snudde seg og gikk inn i det varme kjøkkenet. Han smilte.</p>\n</article>\n",
+    "section": "Barnas krok",
+    "subtitle": null,
+    "title": "Jamin blir klokere"
+  }
+}
