@@ -6,9 +6,32 @@
       "campaign": "gh-36908242193",
       "event": "requested",
       "task": "6d731c16527c725da4d9bda2aa5a3cc0"
+    },
+    {
+      "at": "2026-10-01T20:33:07+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "6d731c16527c725da4d9bda2aa5a3cc0"
     }
   ],
   "language": "cmn",
   "latest_task": "6d731c16527c725da4d9bda2aa5a3cc0",
-  "published": null
+  "published": {
+    "html_path": "content/cmn/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
+    "html_sha256": "96994dac36d774d619c5291bcbab0accd4ca28bb024dd8fa90ef04e8a15cb0c4",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+    "metadata_path": "content/cmn/articles/1c75dce8-1781-427f-8099-01596d53c2a4.json",
+    "metadata_sha256": "f3c6b90501b090c0e1947aacb2dbf4b0afff4f32960a41754fd522b1ed7c159f",
+    "model": "gpt-5-mini-2025-08-07",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"zh-Hans\" dir=\"ltr\" role=\"note\">\n  <p>本文由 OpenAI（模型：gpt-5-mini-2025-08-07）通过人工智能翻译，尚未经人工审核。英文原文为权威版本。如对含义有疑问，请参阅英文原文。 <a href=\"/en/articles/1c75dce8-1781-427f-8099-01596d53c2a4/\" data-source-article-id=\"1c75dce8-1781-427f-8099-01596d53c2a4\" hreflang=\"en\">英文原文</a></p>\n</aside>",
+    "published_at": "2026-10-01T20:33:07+00:00",
+    "quality_score": 100,
+    "review_model": "gpt-5-mini-2025-08-07",
+    "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+    "source_snapshot": "state/sources/6b4fad51874daab2b26c2a97a4e4c4aa1580e7cb9aed0a786736362fa6dfa46a.json",
+    "task": "6d731c16527c725da4d9bda2aa5a3cc0",
+    "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c"
+  }
 }

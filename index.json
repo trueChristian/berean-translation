@@ -655,6 +655,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
+      "html_sha256": "96994dac36d774d619c5291bcbab0accd4ca28bb024dd8fa90ef04e8a15cb0c4",
+      "human_reviewed": false,
+      "id": "1c75dce8-1781-427f-8099-01596d53c2a4",
+      "images": [
+        {
+          "alt": "一只棕色小鸟站在绿草地上",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-1.jpg"
+        },
+        {
+          "alt": "一只蓝白相间的鸟停在被截断的树枝上，背景为绿色",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/1c75dce8-1781-427f-8099-01596d53c2a4.json",
+      "metadata_sha256": "f3c6b90501b090c0e1947aacb2dbf4b0afff4f32960a41754fd522b1ed7c159f",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "特色文章",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
+      "status": "ready",
+      "subtitle": "天体的乐章在我周围回响。",
+      "title": "自然万物皆歌",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.html",
       "html_sha256": "c430c098bd704153b946704970b397e33a6a8dc3db9c19f2b7ebe71abfa59520",
       "human_reviewed": false,
