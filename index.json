@@ -151,6 +151,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
+      "html_sha256": "c4e9e3eac33ed58e4531ae30f2659b9ef77cddbb6c78208c6bce4936a3ee8e85",
+      "human_reviewed": false,
+      "id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
+      "images": [
+        {
+          "alt": "একটি অন্ধকার লণ্ঠনের ভেতরে দীপ্তিময় বাতি।",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-1.jpg"
+        },
+        {
+          "alt": "উজ্জ্বল বন্যফুল এবং ঘাসের মাঝে এক প্রজাপতি।",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.json",
+      "metadata_sha256": "8ec6df5af1679fa5ddcd263325ed1bb26c13e52ae3e1eccd570d5a85c9766372",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ডাক্তারের কথা",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
+      "status": "ready",
+      "subtitle": null,
+      "title": "নিরাশাবাদের সাথে মোকাবিলা",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
       "html_sha256": "727a4ca0e42f736003da18e057a6d95e68b3643c8075d8def8e153b736cd43aa",
       "human_reviewed": false,
@@ -182,6 +214,90 @@
       "status": "ready",
       "subtitle": "পুরুষ ও নরীর জন্য ঈশ্বরের পরিকল্পনা",
       "title": "একটি খ্রীষ্ট-কেন্দ্রিক কোর্টশিপ",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ben/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.html",
+      "html_sha256": "a36b638aab90b0cbe82083b97c017d3f3c4229bce81c1b0d067a09b5c5c51fd3",
+      "human_reviewed": false,
+      "id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
+      "images": [
+        {
+          "alt": "একটি স্পাইরাল নোটবুক ও পেন্সিলের পাশে কফির কাপ।",
+          "public_path": "/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.json",
+      "metadata_sha256": "eb8d39ca18e6af3c4e63180e3cf3afdb8580585e71ba0aa228fe3aeeeb5113a4",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SISTER TO SISTER",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Procrastination Overload",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ben/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
+      "html_sha256": "8bef94f0c45ef22f3e678704a70eadfdc05722777569b6b0c1ead04bb5bafad5",
+      "human_reviewed": false,
+      "id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
+      "images": [
+        {
+          "alt": "পাতার ঢাকা বনভূমির মধ্য দিয়ে একটি সংকীর্ণ পথ মোড় নিচ্ছে",
+          "public_path": "/images/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.json",
+      "metadata_sha256": "28997cc858a5c49598f371e56a278745442cb313b4d2d2415b617e8247924c2f",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "শিশুদের কোণ",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
+      "status": "ready",
+      "subtitle": null,
+      "title": "জামিন বুদ্ধিমান হয়ে ওঠে",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ben/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
+      "html_sha256": "7b22e93ecdbf9d5d926fa4ae5dfc320915e989dd37816a391c97187f9080662f",
+      "human_reviewed": false,
+      "id": "db7b1129-282d-4f48-aefa-f839cb585426",
+      "images": [
+        {
+          "alt": "মাটির মধ্যে থেকে ফুটে উঠা চারা শ্রেণি, একটি হাত সেগুলোকে জল দিচ্ছে",
+          "public_path": "/images/articles/db7b1129-282d-4f48-aefa-f839cb585426-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/db7b1129-282d-4f48-aefa-f839cb585426.json",
+      "metadata_sha256": "50fd9d45577d50187b27f7166dc765ff18403754a574dfabae40d422356a0f1a",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "মিশনারির ভাবনা",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "খ্রিস্টান মানবতাবাদী",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {

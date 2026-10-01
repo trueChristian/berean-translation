@@ -2,7 +2,6 @@
   "article_id": "db7b1129-282d-4f48-aefa-f839cb585426",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3f0b05a851634b3f938deae65809dc6c",
   "campaign": "gh-36909407714",
   "created_at": "2026-10-01T18:48:07+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 7329
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1023,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7074,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8097
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<p> paragraph 2 (source.html beginning)",
+      "severity": "minor",
+      "source_quote": "He then exclaimed how impressed he was at all our hard work. My brother responded with, “Some plant, some water, but God gives the increase.” To which the customer responded with, “No, no, don’t give the credit to God. You came out here and did all this work. You planted, watered, and fertilized all these plants, and you all deserve the credit, not God!” The reason the man felt this way is because he was a humanist.",
+      "suggested_fix": "In the corresponding translation paragraph preserve meaning and use idiomatic Bengali. Replace the mixed/incorrect phrase “আপনাদের deserve ক্রেডিট, ঈশ্বর নয়!” with fully Bengali text that matches the English source meaning, for example: “আপনারাই এই কাজ করেছেন, তাই আপনাদেরই ক্রেডিট উচিত, ঈশ্বরের নয়!” Ensure no English word 'deserve' remains and keep the rest of the sentence structure intact within the same <p> tag.",
+      "translation_quote": "...আপনাদের deserve ক্রেডিট, ঈশ্বর নয়!” ওই মানুষটি এভাবে অনুভব করেছিলেন কারণ তিনি একজন মানবতাবাদী ছিলেন।"
+    },
+    {
+      "location": "<p> paragraph 2 (same sentence earlier)",
+      "severity": "minor",
+      "source_quote": "My brother responded with, “Some plant, some water, but God gives the increase.”",
+      "suggested_fix": "Correct the Bengali punctuation and spacing and render idiomatically. In the translation the sentence appears as “...বৃদ্ধি দেন ঈশ্বর। ” —prefer a clean idiomatic rendering and remove stray space before closing quotation. For example: “কিছুটা বীজ, কিছুটা পানি — কিন্তু বৃদ্ধি দেন ঈশ্বর।” Preserve the quotation marks inside the same <p> tag.",
+      "translation_quote": "...“কিছুটা বীজ, কিছুটা পানি, কিন্তু বৃদ্ধি দেন ঈশ্বর। ”"
+    },
+    {
+      "location": "<p> paragraph starting \"The humanists...\" (translation third paragraph under 'Two Types of Humanism')",
+      "severity": "minor",
+      "source_quote": "Everything happens by reason and common sense. There is a logical explanation for everything that happens.",
+      "suggested_fix": "Fix a missing space/typo in the Bengali sentence where two words were joined. In the translation the phrase appears as “সবকিছু ঘটেএ যুক্তি ও সাধারণ বোধে।” Insert the missing space so it reads: “সবকিছু ঘটে যুক্তি ও সাধারণ বোধে।” Keep the sentence inside the same <p> tag.",
+      "translation_quote": "সবকিছু ঘটেএ যুক্তি ও সাধারণ বোধে।"
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:11+00:00",
   "id": "fc791af8290ce5dfdefb881bea9a35b6",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ben",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a072a36e6aede6bd6978f7ac04698cebcbcce9571999d9176c58a465e0428962.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

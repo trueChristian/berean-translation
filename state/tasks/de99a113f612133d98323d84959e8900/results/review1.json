@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "10a305e2-92ee-48f5-95cd-202490333053",
+    "response_id": "chatcmpl-EUGp9utrIrfIaXNDGAihphkHOxOIb",
+    "usage": {
+      "completion_tokens": 902,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3046,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3948
+    }
+  },
+  "received_at": "2026-10-01T20:28:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"drop-cap\"> (first paragraph)",
+        "severity": "minor",
+        "source_quote": "Habitual procrastination potentially leads to higher levels of stress.",
+        "suggested_fix": "Replace the parenthetical and transliterated phrase with a natural Bengali rendering. Suggested Bengali: \"অভ্যস্থভাবে কাজ পিছিয়ে রাখা সম্ভবত স্ট্রেস বা উদ্বেগের মাত্রা বাড়ায়।\" Preserve the surrounding <p class=\"drop-cap\"> tag and punctuation exactly.",
+        "translation_quote": "অভ্যস্ত প্রোক্রাস্টিনেশন (অবসরাইভভাবে কাজ পেছানো) সম্ভবত উত্তেজনা বা স্ট্রেসের উচ্চতর স্তরের দিকে নিয়ে যায়।"
+      },
+      {
+        "location": "<p> (third paragraph under \"Change the Last-Minute Scenario\")",
+        "severity": "minor",
+        "source_quote": "Often, we blame it on interruptions and fail to realize that poor planning or procrastination might have been the culprit.",
+        "suggested_fix": "Fix the typographic/wording error and make the sentence smooth in Bengali. Suggested Bengali: \"প্রায়ই আমরা এটিকে ব্যাঘাতের উপর চাপাই এবং বুঝতে পারি না যে দুর্বল পরিকল্পনা বা কাজ পেছানোই দোষী হতে পারে।\" Preserve the <p> tag and sentence order.",
+        "translation_quote": "প্রায়ই, আমরা এটিকে ব্যাঘাতের উঃপরে চাপিয়ে দিই এবং বুঝতে পারি না যে খারাপ পরিকল্পনা বা পিছে ঠেলা আমাদের দোষী হয়ে থাকতে পারে।"
+      },
+      {
+        "location": "<p> (paragraph about deep cleaning the kitchen)",
+        "severity": "minor",
+        "source_quote": "Deep cleaning my kitchen is a task that I do not enjoy.",
+        "suggested_fix": "Remove the added simile that is not present in the source. Suggested Bengali: \"বড় করে আমার রান্নাঘর পরিষ্কার করা এমন কাজ যা আমি উপভোগ করি না।\" Preserve the <p> tag and surrounding sentences.",
+        "translation_quote": "রেস্তোরাঁর মতো আমার রান্নাঘর গভীরভাবে পরিষ্কার করা এমন একটি কাজ যা আমি উপভোগ করি না।"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1d7b42aa-f28e-4350-bfa2-b97e33c8f650",
+    "response_id": "chatcmpl-EUGpCOfuwCJp9ZGx202iP1vionL8H",
+    "usage": {
+      "completion_tokens": 1023,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7074,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8097
+    }
+  },
+  "received_at": "2026-10-01T20:28:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p> paragraph 2 (source.html beginning)",
+        "severity": "minor",
+        "source_quote": "He then exclaimed how impressed he was at all our hard work. My brother responded with, “Some plant, some water, but God gives the increase.” To which the customer responded with, “No, no, don’t give the credit to God. You came out here and did all this work. You planted, watered, and fertilized all these plants, and you all deserve the credit, not God!” The reason the man felt this way is because he was a humanist.",
+        "suggested_fix": "In the corresponding translation paragraph preserve meaning and use idiomatic Bengali. Replace the mixed/incorrect phrase “আপনাদের deserve ক্রেডিট, ঈশ্বর নয়!” with fully Bengali text that matches the English source meaning, for example: “আপনারাই এই কাজ করেছেন, তাই আপনাদেরই ক্রেডিট উচিত, ঈশ্বরের নয়!” Ensure no English word 'deserve' remains and keep the rest of the sentence structure intact within the same <p> tag.",
+        "translation_quote": "...আপনাদের deserve ক্রেডিট, ঈশ্বর নয়!” ওই মানুষটি এভাবে অনুভব করেছিলেন কারণ তিনি একজন মানবতাবাদী ছিলেন।"
+      },
+      {
+        "location": "<p> paragraph 2 (same sentence earlier)",
+        "severity": "minor",
+        "source_quote": "My brother responded with, “Some plant, some water, but God gives the increase.”",
+        "suggested_fix": "Correct the Bengali punctuation and spacing and render idiomatically. In the translation the sentence appears as “...বৃদ্ধি দেন ঈশ্বর। ” —prefer a clean idiomatic rendering and remove stray space before closing quotation. For example: “কিছুটা বীজ, কিছুটা পানি — কিন্তু বৃদ্ধি দেন ঈশ্বর।” Preserve the quotation marks inside the same <p> tag.",
+        "translation_quote": "...“কিছুটা বীজ, কিছুটা পানি, কিন্তু বৃদ্ধি দেন ঈশ্বর। ”"
+      },
+      {
+        "location": "<p> paragraph starting \"The humanists...\" (translation third paragraph under 'Two Types of Humanism')",
+        "severity": "minor",
+        "source_quote": "Everything happens by reason and common sense. There is a logical explanation for everything that happens.",
+        "suggested_fix": "Fix a missing space/typo in the Bengali sentence where two words were joined. In the translation the phrase appears as “সবকিছু ঘটেএ যুক্তি ও সাধারণ বোধে।” Insert the missing space so it reads: “সবকিছু ঘটে যুক্তি ও সাধারণ বোধে।” Keep the sentence inside the same <p> tag.",
+        "translation_quote": "সবকিছু ঘটেএ যুক্তি ও সাধারণ বোধে।"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

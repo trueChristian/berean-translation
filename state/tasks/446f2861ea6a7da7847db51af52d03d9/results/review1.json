@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d3fb4b2e-265b-432b-851d-ab8f148df667",
+    "response_id": "chatcmpl-EUGnJav0r01ekJR3uPKBBBGdvj77O",
+    "usage": {
+      "completion_tokens": 1085,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3249,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4334
+    }
+  },
+  "received_at": "2026-10-01T20:28:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first paragraph (article opening sentence)",
+        "severity": "minor",
+        "source_quote": "I can still smell the tantalizing cacophony of odors as I clutched my father’s strong hand, weaving our way through the masses of tourists that crowded the building.",
+        "suggested_fix": "Replace the garbled phrase with a fluent Bengali rendering preserving the original meaning. For example: \"আমি এখনও বাবার শক্ত হাতটি আঁকড়ে ধরে ভবন ভরতি ভিড়-পর্যটকদের মধ্য দিয়ে এগিয়ে চলার সময় সেই মনোমুগ্ধকর মিশ্র গন্ধগুলোর শিহরণ অনুভব করি।\" Maintain the existing <p class=\"drop-cap\">…</p> tags and attributes.",
+        "translation_quote": "আমি এখনও সেই মিশ্র—and সন্ধিত আকর্ষণীয় গন্ধগুলো টের পাই যখন বাবার শক্ত হাতটি ধরেই ভিড়-যাত্রীদের মধ্যে ঘুরে বেড়াচ্ছিলাম।"
+      },
+      {
+        "location": "source.html — second sentence of first content paragraph: organization name",
+        "severity": "major",
+        "source_quote": "I had the privilege of attending Christian Aid Ministries’ first Annual Writers’ Conference.",
+        "suggested_fix": "Correct the organization name so it matches the source. Replace \"খ্রিষ্টীয় এইড ম্যানুফ্যাকচারস-এর\" with an accurate transliteration/translation of the source name, for example: \"ক্রিশ্চিয়ান এড মিনিস্ট্রিজ-এর\" or \"Christian Aid Ministries-এর\" (preserving capitalization/branding as preferred). Keep the original sentence structure and HTML tags.",
+        "translation_quote": "আমি খ্রিষ্টীয় এইড ম্যানুফ্যাকচারস-এর প্রথম বার্ষিক লেখক সম্মেলনে যোগ দেওয়ার সৌভাগ্য পেয়েছি।"
+      },
+      {
+        "location": "source.html — figure img alt attribute",
+        "severity": "minor",
+        "source_quote": "Pink and white crown vetch flowers in a green meadow",
+        "suggested_fix": "Translate the alt text into natural Bengali for 'green meadow'. For example: replace the alt value with \"সবুজ ঘাসের মাঠে গোলাপী ও সাদা ক্রাউন ভেটচ ফুল\". Preserve the <img> element and its attributes (src, loading) and only change the alt text.",
+        "translation_quote": "সবুজ দোতাবাড়ি মধ্যে গোলাপী ও সাদা ক্রাউন ভেটচ ফুল"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

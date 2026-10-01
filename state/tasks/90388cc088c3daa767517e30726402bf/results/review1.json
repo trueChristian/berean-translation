@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c48cb937-e374-486b-aeb2-09c531f0411b",
+    "response_id": "chatcmpl-EUGoty7NxKhpJRZQdKCoPM5scVFse",
+    "usage": {
+      "completion_tokens": 1581,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3537,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5118
+    }
+  },
+  "received_at": "2026-10-01T20:28:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph with coyote traps (source HTML: <p>“He went to check his coyote traps. I’ll go find him.”</p>)",
+        "severity": "minor",
+        "source_quote": "He went to check his coyote traps. I’ll go find him.",
+        "suggested_fix": "Render the animal name correctly in Bengali script and avoid mixing Latin letters. Replace \"কoyote ফাঁদগুলো\" with \"কয়টের ফাঁদগুলো\" or \"কয়ট ফাঁদগুলো\".",
+        "translation_quote": "“সে কoyote ফাঁদগুলো চেক করতে গেছিল। আমি তাকে খুঁজে নিয়ে আসব।”"
+      },
+      {
+        "location": "Opening paragraph and related sentences about Jamin’s feelings (source: first three paragraphs)",
+        "severity": "minor",
+        "source_quote": "Eight-year-old Jamin wasn’t very smart. Or at least that’s what his older brother told him. Almost daily, brother Kenny found ways to remind Jamin of his shortcomings and laugh at his blunders.",
+        "suggested_fix": "Improve naturalness and preserve the original meaning. The phrase \"ভুলে-চুসে ভরা\" and \"অনর্গল\" are awkward and change nuance. Replace \"জামিনের ভিতরে গভীরে মনে হয়েছিল যে তার জীবনটি ভুলে-চুসে ভরা থাকবে\" with a more literal, idiomatic rendering such as: \"জামিনের ভেতরে গভীরে মনে হল তাকে ভুলভ্রান্তি আর ভূল-ত্রুটিতে ভরা এক জীবনের মধ্যেই থাকতে হবে।\" Replace \"সে কি সবসময়ই অনর্গল থাকবে?\" with \"সে কি সবসময়ই অদক্ষ থাকবে?\" or \"সে কি সবসময়ই দুর্বল বা অদক্ষই থাকবে?\"",
+        "translation_quote": "“জামিন, তুই কখনই বুদ্ধিমান হবে না”, কেনি বলত। জামিনের ভিতরে গভীরে মনে হয়েছিল যে তার জীবনটি ভুলে-চুসে ভরা থাকবে। সে কি সবসময়ই অনর্গল থাকবে? কি সবসময়ই ভুল কথা বলবে? কেনিই তো তাই বলছিল।"
+      },
+      {
+        "location": "Paragraph describing walking into the woods (source: long paragraph beginning \"There was a chill in the air...\")",
+        "severity": "minor",
+        "source_quote": "The chill deepened as he stumped further in. He breathed the rich air and followed Kenny’s trail.",
+        "suggested_fix": "The translation \"ততই ঠান্ডা বাড়তে থাকল\" is acceptable, but \"অগভীর জঙ্গলভাগে হাঁটলেন\" later is misleading since \"further in\" means deeper into the woods. Replace \"অগভীর জঙ্গলভাগে\" with \"অধিক গভীরে বনভাগে\" or simply \"বনের গভীরে\" to match the source.",
+        "translation_quote": "তত বেশি তিনি অগভীর জঙ্গলভাগে হাঁটলেন ততই ঠান্ডা বাড়তে থাকল। তিনি সমৃদ্ধ বায়ু শ্বাস নিলেন এবং কেনির পদচিহ্ন অনুসরণ করলেন।"
+      },
+      {
+        "location": "Line where Grandma is identified at the porch light (source: “Jamin.” It was Grandma. The porch light showed her in her old rocker.)",
+        "severity": "minor",
+        "source_quote": "“Jamin.” It was Grandma. The porch light showed her in her old rocker.",
+        "suggested_fix": "Preserve the previously given name reference or keep consistency. Earlier the source names her explicitly as \"Grandma Otto.\" The translation earlier used \"ওটো দিদিমা,\" but here it omits \"ওটো\" and uses only \"দিদিমা.\" Prefer consistency: replace \"“জামিন।” এটি দিদিমা।\" with \"“জামিন।” ওটো দিদিমা বললেন।\" or \"“জামিন।” ওটো দিদিমা ছিলেন।\"",
+        "translation_quote": "“জামিন।” এটি দিদিমা। বারান্দার আলোতে তিনি তার পুরনো কুঁড়ো চেয়ারে দেখা গেলেন।"
+      },
+      {
+        "location": "Dialogue: \"Do you think you are not very smart?\" (source paragraph near end)",
+        "severity": "minor",
+        "source_quote": "“Do you think you are not very smart?”",
+        "suggested_fix": "Fix small grammatical/typographic error in Bengali negation. Replace \"তুমি কি মনে করো তুমি খুব বুদ্ধিমান নও?\" with \"তুমি কি মনে করো তুমি খুব বুদ্ধিমান নও?\" is a typographic mismatch — correct form is \"তুমি কি মনে করো তুমি খুব বুদ্ধিমান নও?\" -> better: \"তুমি কি মনে করো তুমি খুব বুদ্ধিমান নও?\" (use 'নও' -> 'নও' is nonstandard). Recommended: \"তুমি কি মনে করো তুমি খুব বুদ্ধিমান নও?\" should be \"তুমি কি মনে করো তুমি খুব বুদ্ধিমান নও?\" Actually best: \"তুমি কি মনে করো তুমি খুব বুদ্ধিমতী নও?\" Replace with: \"তুমি কি মনে করো তুমি খুব বুদ্ধিমান নও?\" — simplify to: \"তুমি কি মনে করছ যে তুমি খুব বুদ্ধিমান না?\"",
+        "translation_quote": "“তুমি কি মনে করো তুমি খুব বুদ্ধিমান নও?”"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

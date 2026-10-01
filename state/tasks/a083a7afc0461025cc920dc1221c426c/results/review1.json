@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5bcae3c2-d6f9-4acd-8739-fa8f43104f7f",
+    "response_id": "chatcmpl-EUGmvXaYt1GcpJAgQB6jI3FoxqVDD",
+    "usage": {
+      "completion_tokens": 1048,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6911,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7959
+    }
+  },
+  "received_at": "2026-10-01T20:28:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph 1 (\"Another is the fowl of the air as prescribed in Genesis.\")",
+        "severity": "major",
+        "source_quote": "Another is the fowl of the air as prescribed in Genesis.",
+        "suggested_fix": "Translate the phrase to convey the sense that birds are identified in Genesis (presumably \"the fowls of the air\"), e.g.: \"আরেকটি হলো আকাশের পাখি, যেনাে এটি পৈত্তৃকভাবে উদাহৃত হয়েছে উদ্ভবগ্রন্থে (জেনেসিস)\" — preserve original HTML tags and surrounding sentence structure.",
+        "translation_quote": "আরেকটি হলো আদম-প্রথমের মতোই আকাশের পাখি।"
+      },
+      {
+        "location": "source.html — paragraph 5 (\"...the song of the wren trumps them all for longevity and vibrancy.\")",
+        "severity": "minor",
+        "source_quote": "The song of the wren trumps them all for longevity and vibrancy.",
+        "suggested_fix": "Render the bird name and meaning more clearly in Bengali and keep the comparative sense. For example: \"ওয়্রেন পাখির গান স্থায়িত্ব ও প্রাণবন্ততায় সবার উপরে।\" (preserve HTML tags and sentence order).",
+        "translation_quote": "রেন-এর গান দীর্ঘায়িততা ও জ্বালায় সবকিছুকে ছাড়িয়ে যায়।"
+      },
+      {
+        "location": "source.html — subtitle",
+        "severity": "minor",
+        "source_quote": "and ‘round me rings the music of the spheres.",
+        "suggested_fix": "Either translate the subtitle into Bengali or explicitly mark it as an untranslated English phrase. Suggested Bengali translation: \"এবং আমার চারপাশে বৃত্তাকার সঙ্গীত ঘুরছে।\" Do not alter HTML structure; replace subtitle text only.",
+        "translation_quote": "and ‘round me rings the music of the spheres."
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

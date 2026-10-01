@@ -2,7 +2,6 @@
   "article_id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3f0b05a851634b3f938deae65809dc6c",
   "campaign": "gh-36909407714",
   "created_at": "2026-10-01T18:48:07+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 7763
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1441,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7317,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8758
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html — blockquote (epitaph)",
+      "severity": "critical",
+      "source_quote": "John Newton, once an infidel and libertine, a servant of slaves in Africa, was, by the rich mercy of our Lord and Savior Jesus Christ, preserved, restored, pardoned, and appointed to preach the faith he had long labored to destroy!",
+      "suggested_fix": "Translate the entire epitaph into Bengali (preserving the <blockquote><p><em>...</em></p></blockquote> HTML structure). Do not leave any of the English clause untranslated. For example (keep as a suggestion only — preserve tags exactly): <blockquote><p><em>জন নিউটন, এককালীন অবিশ্বাসী ও অনাচারী, আফ্রিকার দাসদের একজন নৈওপ্রাপক, আমাদের প্রভু ও পরিত্রাতার যীশু খ্রীষ্টের সমৃদ্ধ কৃপাত্বে রক্ষিত, পুনরুদ্ধারকৃত, ক্ষমা প্রাপ্ত এবং দীর্ঘদিন ধরে ধ্বংস করতে তিনি যাহাতে যত্নশীল ছিলেন সে বিশ্বাস প্রচার করার জন্য নিয়োগপ্রাপ্ত ছিলেন!</em></p></blockquote>",
+      "translation_quote": "<blockquote><p><em>জন নিউটন, এককালীন একজন অভিশিক্ষিত ও অনাচারী, আফ্রিকার দাসদের কীর্তিকর সেবক, was, by the rich mercy of our Lord and Savior Jesus Christ, preserved, restored, pardoned, and appointed to preach the faith he had long labored to destroy!</em></p></blockquote> "
+    },
+    {
+      "location": "source.html — first paragraphs with birth date (paragraph beginning 'John was born on July 24, 1725')",
+      "severity": "critical",
+      "source_quote": "John was born on July 24, 1725, in Wapping, England, to a seafaring father, John Newton, Sr., and a devout Christian mother, Elizabeth Newton.",
+      "suggested_fix": "Restore the correct birth date and cleanly translate the sentence into Bengali without introducing contradictory or garbled text. Preserve the original meaning and names. For example (preserve surrounding <p> tag): <p>জন 24 জুলাই 1725 সালে ইংল্যান্ডের ওয়্যাপিং-এ একটি নৌকাজীবী পিতা, জন নিউটন সেয়ার এবং ধার্মিক মাতৃ, এিলিজাবেথ নিউটনের এখানে জন্মগ্রহণ করেছিলেন।</p>",
+      "translation_quote": "<p>জন জনুয়ারী 24, 1725-এ নয়—ঠিক নয়; তিনি 24 জুলাই, 1725-এ ইংল্যান্ডের ওয়্যাপিং-এ একজন নৌ-চালক পিতা জন নিউটন সিনিয়র এবং ধার্মিক মা এলিজাবেথ নিউটনের এখানে জন্মগ্রহণ করেছিলেন।</p> "
+    },
+    {
+      "location": "source.html — quote “By the grace of God, I am what I am!”",
+      "severity": "minor",
+      "source_quote": "His testimony was, “By the grace of God, I am what I am!”",
+      "suggested_fix": "Translate the quotation idiomatically and faithfully into Bengali so it conveys the exact meaning of the English sentence. Preserve punctuation and quotation marks inside the paragraph. For example: “ঈশ্বরের করুণায়ই আমি যেমন, তেমনই।” Replace the current mistranslation that reads “ঈশ্বরের করুণায়, আমি যিশ্তা যা হই!” which is unclear and not faithful to the source.",
+      "translation_quote": "<p>এই epitaph aptly describes the unusual and colorful life of this man, one of the great evangelical preachers of the eighteenth century. His testimony was, “By the grace of God, I am what I am!”</p>\n\n(appears in translation as) “ঈশ্বরের করুণায়, আমি যিশ্তা যা হই!” "
+    },
+    {
+      "location": "source.html — several occurrences: English phrases left untranslated (examples)",
+      "severity": "minor",
+      "source_quote": "Olney Hymns; The Greyhound; The Imitation of Christ; Thoughts Upon the African Slave Trade; The Virginia Harmony; Loving Lambs",
+      "suggested_fix": "Either translate these book/title names into Bengali where appropriate or consistently render them as English-language titles in italics (as in the source). Ensure the treatment matches the source presentation (italics for titles) and is consistent throughout the translation. For example: <em>The Imitation of Christ</em> may remain in italics, but if translated, use a clear Bengali rendering and keep the <em> tag.",
+      "translation_quote": "In the translation these appear variously as <em>The Imitation of Christ</em>, <em>The Greyhound</em>, <em>Olney Hymns</em>, <em>Thoughts Upon the African Slave Trade</em>, <em>The Virginia Harmony</em>, and the phrase “Loving Lambs” left in English."
     }
   ],
   "id": "e51a09af3c6e4b1fcec44169e1f40d7d",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/99f7a00d58438b91d7d6780f03573351b90289d575c249e98d01280c6cfd04d7.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
