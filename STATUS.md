@@ -2,7 +2,7 @@
 
 Generated from the pinned source catalogue and durable work records. No API call is made by this report.
 
-Observed English revision: `515b02c3856faf0a131247f46824717e2758eadc`
+Observed English revision: `68b5dc9fc44d9a6e62607a9b52ed121fe0667b4f`
 
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
@@ -79,31 +79,32 @@ Observed English revision: `515b02c3856faf0a131247f46824717e2758eadc`
 | `heartbeat-remnant-2025-autumn` | 10 | 0 / 200 | 0 | 0 | 0 |
 | `heartbeat-remnant-2025-summer` | 11 | 0 / 220 | 0 | 0 | 0 |
 | `heartbeat-remnant-2025-spring` | 11 | 0 / 220 | 0 | 0 | 0 |
+| `heartbeat-remnant-2004-11` | 9 | 0 / 180 | 0 | 0 | 0 |
 
 ## Language readiness
 
 | Language | Ready / source articles | Human reviewed | Active candidates | Not-ready candidates | Corrected candidates |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 0 / 840 | 0 | 21 | 0 | 11 |
-| `hin` (hi) | 6 / 840 | 0 | 15 | 0 | 7 |
-| `spa` (es) | 0 / 840 | 0 | 21 | 0 | 1 |
-| `ara` (ar) | 0 / 840 | 0 | 21 | 0 | 3 |
-| `fra` (fr) | 0 / 840 | 0 | 21 | 0 | 4 |
-| `ben` (bn) | 0 / 840 | 0 | 21 | 0 | 4 |
-| `por` (pt) | 0 / 840 | 0 | 20 | 1 | 3 |
-| `ind` (id) | 0 / 840 | 0 | 21 | 0 | 5 |
-| `urd` (ur) | 0 / 840 | 0 | 21 | 0 | 2 |
-| `rus` (ru) | 0 / 840 | 0 | 21 | 0 | 4 |
-| `deu` (de) | 0 / 840 | 0 | 21 | 0 | 5 |
-| `nld` (nl) | 0 / 840 | 0 | 21 | 0 | 3 |
-| `afr` (af) | 5 / 840 | 0 | 16 | 0 | 3 |
-| `swa` (sw) | 0 / 840 | 0 | 19 | 2 | 7 |
-| `kor` (ko) | 0 / 840 | 0 | 21 | 0 | 3 |
-| `ita` (it) | 0 / 840 | 0 | 21 | 0 | 2 |
-| `heb` (he) | 0 / 840 | 0 | 21 | 0 | 7 |
-| `ell` (el) | 0 / 840 | 0 | 21 | 0 | 2 |
-| `swe` (sv) | 0 / 840 | 0 | 21 | 0 | 2 |
-| `nob` (nb) | 0 / 840 | 0 | 21 | 0 | 2 |
+| `cmn` (zh-Hans) | 0 / 849 | 0 | 21 | 0 | 11 |
+| `hin` (hi) | 6 / 849 | 0 | 15 | 0 | 7 |
+| `spa` (es) | 0 / 849 | 0 | 21 | 0 | 1 |
+| `ara` (ar) | 0 / 849 | 0 | 21 | 0 | 3 |
+| `fra` (fr) | 0 / 849 | 0 | 21 | 0 | 4 |
+| `ben` (bn) | 0 / 849 | 0 | 21 | 0 | 4 |
+| `por` (pt) | 0 / 849 | 0 | 20 | 1 | 3 |
+| `ind` (id) | 0 / 849 | 0 | 21 | 0 | 5 |
+| `urd` (ur) | 0 / 849 | 0 | 21 | 0 | 2 |
+| `rus` (ru) | 0 / 849 | 0 | 21 | 0 | 4 |
+| `deu` (de) | 0 / 849 | 0 | 21 | 0 | 5 |
+| `nld` (nl) | 0 / 849 | 0 | 21 | 0 | 3 |
+| `afr` (af) | 5 / 849 | 0 | 16 | 0 | 3 |
+| `swa` (sw) | 0 / 849 | 0 | 19 | 2 | 7 |
+| `kor` (ko) | 0 / 849 | 0 | 21 | 0 | 3 |
+| `ita` (it) | 0 / 849 | 0 | 21 | 0 | 2 |
+| `heb` (he) | 0 / 849 | 0 | 21 | 0 | 7 |
+| `ell` (el) | 0 / 849 | 0 | 21 | 0 | 2 |
+| `swe` (sv) | 0 / 849 | 0 | 21 | 0 | 2 |
+| `nob` (nb) | 0 / 849 | 0 | 21 | 0 | 2 |
 
 ## Issue / language work
 
