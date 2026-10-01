@@ -2,10 +2,38 @@
   "article_id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2e50208d912944f4ba2754b36bd9de0d",
   "campaign": "gh-36908568068",
   "created_at": "2026-10-01T18:41:59+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "translate",
+      "usage": {
+        "completion_tokens": 3875,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3440,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7315
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "HTML/metadata contract",
+      "severity": "critical",
+      "source_quote": "",
+      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[17]: source /article[1]/p[4]/em[1] ('start', 'em', ()); translation /article[1]/p[4] ('end', 'p')",
+      "translation_quote": ""
+    }
+  ],
   "id": "58092f8665b7e2397728f5b0267627ad",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "rus",
@@ -52,9 +80,9 @@
   "review_attempts": 0,
   "review_model": "gpt-5-mini",
   "source_snapshot": "state/sources/99f7a00d58438b91d7d6780f03573351b90289d575c249e98d01280c6cfd04d7.json",
-  "stage": "translate",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
-  "translation_model_actual": null
+  "translation_model_actual": "gpt-5-mini-2025-08-07"
 }
