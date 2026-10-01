@@ -6,7 +6,7 @@ Observed English revision: `0c593068ae71a87738074ab57ca7e4f693248da3`
 
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `heartbeat-remnant-2024-summer` | 10 | 5 / 200 | 95 | 0 | 0 |
+| `heartbeat-remnant-2024-summer` | 10 | 5 / 200 | 105 | 0 | 0 |
 | `heartbeat-remnant-2024-spring` | 11 | 0 / 220 | 0 | 0 | 0 |
 | `heartbeat-remnant-2024-winter` | 11 | 0 / 220 | 0 | 0 | 0 |
 | `heartbeat-remnant-2023-summer` | 13 | 0 / 260 | 0 | 0 | 0 |
@@ -91,7 +91,7 @@ Observed English revision: `0c593068ae71a87738074ab57ca7e4f693248da3`
 | `ben` (bn) | 0 / 829 | 0 | 10 | 0 | 0 |
 | `por` (pt) | 0 / 829 | 0 | 10 | 0 | 0 |
 | `ind` (id) | 0 / 829 | 0 | 10 | 0 | 0 |
-| `urd` (ur) | 0 / 829 | 0 | 0 | 0 | 0 |
+| `urd` (ur) | 0 / 829 | 0 | 10 | 0 | 0 |
 | `rus` (ru) | 0 / 829 | 0 | 10 | 0 | 0 |
 | `deu` (de) | 0 / 829 | 0 | 0 | 0 | 0 |
 | `nld` (nl) | 0 / 829 | 0 | 0 | 0 | 0 |
@@ -118,6 +118,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `heartbeat-remnant-2024-summer` | `ben` | 0 / 10 | 0 | 10 | 0 | 0 |
 | `heartbeat-remnant-2024-summer` | `por` | 0 / 10 | 0 | 10 | 0 | 0 |
 | `heartbeat-remnant-2024-summer` | `ind` | 0 / 10 | 0 | 10 | 0 | 0 |
+| `heartbeat-remnant-2024-summer` | `urd` | 0 / 10 | 0 | 10 | 0 | 0 |
 | `heartbeat-remnant-2024-summer` | `rus` | 0 / 10 | 0 | 10 | 0 | 0 |
 | `heartbeat-remnant-2024-summer` | `afr` | 5 / 10 | 0 | 5 | 0 | 0 |
 
@@ -136,6 +137,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `gh-36909407714` | manual | translate | active | 10 | 0.00000000 | 0.185870 / 10.00 | [state](state/campaigns/gh-36909407714.json) |
 | `gh-36909529190` | manual | translate | active | 10 | 0.00000000 | 0.185919 / 10.00 | [state](state/campaigns/gh-36909529190.json) |
 | `gh-36909630302` | manual | translate | active | 10 | 0.00000000 | 0.185846 / 10.00 | [state](state/campaigns/gh-36909630302.json) |
+| `gh-36909750062` | manual | translate | active | 10 | 0.00000000 | 0.000000 / 10.00 | [state](state/campaigns/gh-36909750062.json) |
 | `refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267` | source refresh | translate | finished | 1 | 0.00188212 | 0.021884 / 10.00 | [state](state/campaigns/refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267.json) |
 
 ## Provider batch lifecycle
