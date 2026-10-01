@@ -12,9 +12,15 @@
       "event": "not_ready",
       "reason": "Final review failed; no further automatic correction is allowed",
       "task": "07727073b4ff13f5be8f992483775426"
+    },
+    {
+      "at": "2026-10-01T18:45:14+00:00",
+      "campaign": "gh-36908965053",
+      "event": "requested",
+      "task": "046ce62f1d9d08fc739cf40c3385e4a4"
     }
   ],
   "language": "afr",
-  "latest_task": "07727073b4ff13f5be8f992483775426",
+  "latest_task": "046ce62f1d9d08fc739cf40c3385e4a4",
   "published": null
 }

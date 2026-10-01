@@ -12,9 +12,15 @@
       "event": "not_ready",
       "reason": "HTML structure, IDs, links, or immutable attributes changed",
       "task": "580ab2e57375816ce0f839575ea23ea9"
+    },
+    {
+      "at": "2026-10-01T18:45:14+00:00",
+      "campaign": "gh-36908965053",
+      "event": "requested",
+      "task": "f945d688f075920a6097c4c27660755e"
     }
   ],
   "language": "afr",
-  "latest_task": "580ab2e57375816ce0f839575ea23ea9",
+  "latest_task": "f945d688f075920a6097c4c27660755e",
   "published": null
 }
