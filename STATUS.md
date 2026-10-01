@@ -158,7 +158,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 | Request | Trigger | Operation | Status | Tasks | Reported usage (USD) | Reserved ceiling (USD) | Report |
 | --- | --- | --- | --- | ---: | ---: | ---: | --- |
 | `gh-36549125967` | manual | translate | finished | 10 | 0.06786800 | 0.330636 / 10.00 | [state](state/campaigns/gh-36549125967.json) |
-| `gh-36908242193` | manual | translate | active | 10 | 0.06116328 | 0.321775 / 10.00 | [state](state/campaigns/gh-36908242193.json) |
+| `gh-36908242193` | manual | translate | finished | 10 | 0.06116328 | 0.321775 / 10.00 | [state](state/campaigns/gh-36908242193.json) |
 | `gh-36908316701` | manual | translate | active | 10 | 0.06306802 | 0.352197 / 10.00 | [state](state/campaigns/gh-36908316701.json) |
 | `gh-36908432434` | manual | translate | active | 10 | 0.06514196 | 0.338408 / 10.00 | [state](state/campaigns/gh-36908432434.json) |
 | `gh-36908568068` | manual | translate | active | 10 | 0.05789788 | 0.369971 / 10.00 | [state](state/campaigns/gh-36908568068.json) |
