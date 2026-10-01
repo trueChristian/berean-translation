@@ -208,7 +208,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [2aa45245153e4fa38e372963ca132581](state/batches/2aa45245153e4fa38e372963ca132581/batch.json) / review1 | submitted / in_progress | 8 / 0 / 0 | not recorded | not collected | 2026-10-01T20:33:09+00:00 |
 | [2e50208d912944f4ba2754b36bd9de0d](state/batches/2e50208d912944f4ba2754b36bd9de0d/batch.json) / translate | collected / completed | 10 / 10 / 0 | 2026-10-01T19:09:04+00:00 | 2026-10-01T19:09:12+00:00 | 2026-10-01T19:09:11+00:00 |
 | [2e8b9698c4c04fa0acc318ed6808431d](state/batches/2e8b9698c4c04fa0acc318ed6808431d/batch.json) / correct | submitted / in_progress | 5 / 0 / 0 | not recorded | not collected | 2026-10-01T20:33:09+00:00 |
-| [316370d9b4fa4bb3ad3ddac9824a31ae](state/batches/316370d9b4fa4bb3ad3ddac9824a31ae/batch.json) / review2 | prepared / not recorded | ? / ? / ? | not recorded | not collected | not recorded |
+| [316370d9b4fa4bb3ad3ddac9824a31ae](state/batches/316370d9b4fa4bb3ad3ddac9824a31ae/batch.json) / review2 | submitting / not recorded | ? / ? / ? | not recorded | not collected | not recorded |
 | [32fdd28e654a47cca348868665437e0e](state/batches/32fdd28e654a47cca348868665437e0e/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-01T19:41:58+00:00 | 2026-10-01T20:28:07+00:00 | 2026-10-01T20:28:06+00:00 |
 | [347ee637526a4804ba9ee01557d0765b](state/batches/347ee637526a4804ba9ee01557d0765b/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-01T19:44:00+00:00 | 2026-10-01T20:28:09+00:00 | 2026-10-01T20:28:08+00:00 |
 | [36e07f5ce1024bc08dc67a902f4ad83f](state/batches/36e07f5ce1024bc08dc67a902f4ad83f/batch.json) / review2 | submitted / in_progress | 2 / 0 / 0 | not recorded | not collected | 2026-10-01T20:33:09+00:00 |
