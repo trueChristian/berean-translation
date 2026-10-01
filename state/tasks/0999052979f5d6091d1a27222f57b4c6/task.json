@@ -2,7 +2,6 @@
   "article_id": "80e78d22-936e-48de-885a-f9a8898d5e42",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "20b66353f9224557b174b886481ce467",
   "campaign": "gh-36909407714",
   "created_at": "2026-10-01T18:48:07+00:00",
   "events": [
@@ -43,17 +42,44 @@
         },
         "total_tokens": 20347
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 734,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12869,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13603
+      }
     }
   ],
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[3]: source /article[1]/p[1]/em[1] ('end', 'em'); translation /article[1]/p[1]/em[1]/em[1] ('start', 'em', ())",
-      "translation_quote": ""
+      "location": "translation.html — article-note paragraph (opening)",
+      "severity": "minor",
+      "source_quote": "Recently, we had them transcribed and abridged for reading clarity.",
+      "suggested_fix": "Replace the nonstandard/unclear Bengali word “কপিশোনা” with a clear translation such as “ট্রান্সক্রাইব ও সংক্ষিপ্ত করা হয়েছে” while preserving the existing HTML tags and order.",
+      "translation_quote": "সম্প্রতি, পড়ার স্বচ্ছতার জন্য সেগুলো কপিশোনা ও সংক্ষেপ করে নেওয়া হয়েছে।"
+    },
+    {
+      "location": "translation.html — paragraph under “এই খ্রীষ্ট-কেন্দ্রিক কোর্টশিপ সিরিজের জন্য পাঁচটি লক্ষ্য।” (Goal #4)",
+      "severity": "minor",
+      "source_quote": "That young people would get a burden to seek after God, find fulfillment and purpose in walking with God, and you would seek maturity in your manners and in your character.",
+      "suggested_fix": "Smooth the address consistency: change “এবং আপনি আচরণ ও চরিত্রে পরিপক্কতা খুঁজবে।” to a plural/collective phrasing matching the rest of the paragraph, e.g. “এবং তরুণেরা তাদের আচরণ ও চরিত্রে পরিপক্কতা অর্জন করার চেষ্টা করবে।” Preserve HTML tags and sentence order.",
+      "translation_quote": "লক্ষ্য #4. যে তরুণরা ঈশ্বরের অনুসরণে ভোগ ও উদ্দেশ্য খুঁজতে একান্ত দায়বোধ পাবে, এবং আপনি আচরণ ও চরিত্রে পরিপক্কতা খুঁজবে।"
     }
   ],
+  "finished_at": "2026-10-01T20:28:03+00:00",
   "id": "0999052979f5d6091d1a27222f57b4c6",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ben",
@@ -97,11 +123,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1813629ba31cec5f42c8546808ad86fd17dc2aca775e7cb43f2368f4a4530061.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
