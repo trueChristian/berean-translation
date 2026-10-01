@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7a9049b0-d4a5-4c06-8903-6225a802e77c",
+    "response_id": "chatcmpl-EUDPmBdHMfGizIRIRkKv7sWdIO8ov",
+    "usage": {
+      "completion_tokens": 898,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1490,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2388
+    }
+  },
+  "received_at": "2026-10-01T18:38:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> stanza 2, line 2",
+        "severity": "minor",
+        "source_quote": "Extol and praise His worthy name!",
+        "suggested_fix": "Keep the existing HTML structure. Replace the translated line text with: Verheerlik en prys sy waardige naam!",
+        "translation_quote": "Verheug en prys sy waardige naam!"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 3, line 2",
+        "severity": "minor",
+        "source_quote": "And worship Him with reverent praise;",
+        "suggested_fix": "Keep the existing HTML structure. Replace the translated line text with wording that more closely reflects \"worship\" rather than \"serve\", for example: En aanbid Hom met eerbiedige lof;",
+        "translation_quote": "En diens Hom met eerbiedige lof;"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

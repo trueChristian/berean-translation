@@ -124,12 +124,12 @@
       "ai_notice_required": true,
       "direction": "ltr",
       "html": "content/afr/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.html",
-      "html_sha256": "0febbfd6c62bdf38bdc0db6890c4ae3e6c160143799d57cedd6484a3d0ca98af",
+      "html_sha256": "76e40b78634af997b8afcb4a0f54a0fed8ef2a72a6c55a8d16292f1714562829",
       "human_reviewed": false,
       "id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
       "images": [
         {
-          "alt": "’n klein boot aan die rand van kalm water tydens ’n lewendige sonsondergang",
+          "alt": "'n Klein bootjie by die rand van kalm water tydens 'n skouspelagtige sonsondergang",
           "public_path": "/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg"
         }
       ],
@@ -137,15 +137,15 @@
       "language": "afr",
       "language_tag": "af",
       "metadata": "content/afr/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.json",
-      "metadata_sha256": "a34ca53c257dc2931da6041aaa80b74de1124bd4620628853b9c9d3925789548",
+      "metadata_sha256": "fde97febeb4b3d56ad024a953e206b104432d7408acc2a83363f271d50fa5d6c",
       "provider": "OpenAI",
       "review_model": "gpt-5-mini-2025-08-07",
       "section": "Gedig",
-      "source_revision": "2ae95fda39469ef52a72279047745b6a5e870c0b",
-      "source_translation_key": "37a857029f09f62dd90f027f2e63470f927d9f310ba6c3ebc9a8fab36434b0c6",
-      "status": "stale",
+      "source_revision": "eb04e6e4598da0e78120fd5ab5dfcbcf1a9aa457",
+      "source_translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
+      "status": "ready",
       "subtitle": null,
-      "title": "Sta op, wees bly",
+      "title": "Sta op, wees bly!",
       "translation_model": "gpt-5-mini-2025-08-07"
     }
   ],
