@@ -94,9 +94,9 @@
   "source_translation_keys": {
     "eed66189-2caa-4bfb-9eaa-545562c7e9a6": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb"
   },
-  "status": "active",
+  "status": "finished",
   "task_counts": {
-    "in_batch": 1
+    "complete": 1
   },
   "tasks": [
     "7c71216b6f2a09db1cf42f9ad97e11b3"
