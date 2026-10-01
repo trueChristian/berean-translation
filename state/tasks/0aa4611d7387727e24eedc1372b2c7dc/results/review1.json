@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e01e2011-7793-4f3c-aee2-08a45a40f35d",
+    "response_id": "chatcmpl-EUHjEPnFMacp6N4Xggp8q0lLkR0yc",
+    "usage": {
+      "completion_tokens": 1163,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3172,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4335
+    }
+  },
+  "received_at": "2026-10-01T20:33:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>…Di Berean Voice ka maqsad…</p> (paragraph beginning \"The Berean Voice has a goal…\")",
+        "severity": "minor",
+        "source_quote": "The Berean Voice has a goal to provide printed material that will help readers navigate through the varied and difficult seasons of life.",
+        "suggested_fix": "Preserve meaning but improve Urdu grammar: change \"دی بیرین وائس کا مقصد چھپی ہوئی مواد فراہم کرنا ہے جو قارئین کو زندگی کے مختلف اور مشکل موسموں سے گزرنے میں مدد دے۔\" to \"دی بیرین وائس کا مقصد چھپا ہوا مواد فراہم کرنا ہے جو قارئین کو زندگی کے مختلف اور مشکل موسموں سے گزَرنے میں مدد دے۔\" (replace \"چھپی ہوئی مواد\" with grammatically correct \"چھپا ہوا مواد\" and use \"گزرنے\" → \"گزَرنے\" if preferred for orthography).",
+        "translation_quote": "دی بیرین وائس کا مقصد چھپی ہوئی مواد فراہم کرنا ہے جو قارئین کو زندگی کے مختلف اور مشکل موسموں سے گزرنے میں مدد دے۔"
+      },
+      {
+        "location": "first paragraph (food vendor list)",
+        "severity": "minor",
+        "source_quote": "The vendors at the Green Dragon Farmer’s Market in Ephrata, PA, were trying their best to entice buyers with their rows of fresh fish over ice, cheeses of every variety, deli meat and sandwiches, and piles of fresh fruit.",
+        "suggested_fix": "Adjust minor transliteration/orthography for Urdu readers: change \"ڈیلے گوشت\" to the more common \"ڈیلی گوشت\" or translate as \"ڈیلی کی اشیاء/کٹّے ہوئے گوشت\" (preserving meaning). For example: \"…ہر قسم کے پنیر، ڈیلی گوشت اور سینڈوچز، اور تازہ پھلوں کے ڈھیر…\"",
+        "translation_quote": "…ہر قسم کے پنیر، ڈیلے گوشت اور سینڈوچز، اور تازہ پھلوں کے ڈھیر کے ساتھ خریداروں کو راغب کرنے کی پوری کوشش کر رہے تھے۔"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

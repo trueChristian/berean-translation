@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d8e0c660-c26a-41ab-8a3e-273327cc3ef7",
+    "response_id": "chatcmpl-EUHkIuD6uWkvBPt0RXV7XZoc7RgME",
+    "usage": {
+      "completion_tokens": 1642,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1554,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3196
+    }
+  },
+  "received_at": "2026-10-01T20:33:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"><p><strong>Arise be glad! For dawn is here!<br>\nRejoice and sing! The night is past,<br>\nThe Dayspring shineth from on high,<br>\nThe grace of God to man is nigh!<br>\nRejoice and praise the King of Kings!<br>\nGive thanks and laud, for more is here!</strong></p>",
+        "severity": "major",
+        "source_quote": "Rejoice and praise the King of Kings!",
+        "suggested_fix": "Translate the imperative as praise directed to the King, preserving agent and command. For example: \"بادشاہِ بادشاہوں کی ستائش کرو!\" or \"بادشاہِ بادشاہوں کی حمد کرو!\" (preserves original meaning 'praise the King of Kings').",
+        "translation_quote": "بادشاہِ بادشاہوں کی خوشی بيان کرو!"
+      },
+      {
+        "location": "<div class=\"poem\"><p><strong>Arise and glorify the Lord!<br>\nExtol and praise His worthy name!<br>\nHe shineth from the heav’ns in love,<br>\nAnd showers blessings from above,<br>\nHis mercy reaches down to men-<br>\nAdore and praise our mighty Lord!</strong></p>",
+        "severity": "major",
+        "source_quote": "Extol and praise His worthy name!",
+        "suggested_fix": "The phrase \"worthy name\" was mistranslated as باقِی نام which means 'remaining name' and changes sense. Use an Urdu phrase that conveys 'worthy/deserving' (قابلِ حمد / باوقار). For example: \"اس کے باوقار نام کی حمد کرو!\" or \"اس کے قابلِ حمد نام کی ستائش کرو!\"",
+        "translation_quote": "اس کے باقِی نام کی بڑائی کہو!"
+      },
+      {
+        "location": "<div class=\"poem\"><p><strong>Arise be glad! For dawn is here!<br>\nRejoice and sing! The night is past,<br>\nThe Dayspring shineth from on high,<br>\nThe grace of God to man is nigh!<br>\nRejoice and praise the King of Kings!<br>\nGive thanks and laud, for more is here!</strong></p>",
+        "severity": "minor",
+        "source_quote": "Give thanks and laud, for more is here!",
+        "suggested_fix": "The English phrase \"for more is here\" is rendered as \"کیونکہ برکتیں ہیں یہاں\" (\"blessings are here\"); this adds the specific word 'blessings' though the source is more general. If you wish to keep the original general sense, translate as: \"شکر کرو اور ثنا پڑھو، کیونکہ مزید کچھ یہاں ہے۔\" If the intent was to specify blessings, keep as-is but consider matching the tone: \"شکر ادا کرو اور ثنا بجا لاؤ، کیونکہ مزید رحمتیں یہاں ہیں۔\"",
+        "translation_quote": "شکر کرو اور حمد گاؤ، کیونکہ برکتیں ہیں یہاں!"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "1c75dce8-1781-427f-8099-01596d53c2a4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4d0b0118099d445caf2349346769da4e",
   "campaign": "gh-36909750062",
   "created_at": "2026-10-01T18:51:43+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 7112
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1381,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6847,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8228
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Paragraph beginning: \"How little knowledge of heaven is committed to our understanding.\" (source HTML paragraph mentioning 'On 22 occasions')",
+      "severity": "major",
+      "source_quote": "On 22 occasions, the Scriptures reiterate the phrase, I will sing.",
+      "suggested_fix": "Translate the sentence to accurately reflect the source's claim. Keep the numeric quantity '22' (in digits or Urdu words) and preserve the English quoted phrase 'I will sing.' For example: \"تقریباً 22 مواقع پر صحیفہ جات اس فقرے کی تکرار کرتے ہیں: 'I will sing.'\"",
+      "translation_quote": "بارہ موقعوں پر نہیں تو 22 مواقع پر، صحائف اس فقرے کی تکرار کرتے ہیں، I will sing۔"
+    },
+    {
+      "location": "Paragraph beginning: “Birds are diverse.” (sentence listing specific bird names: 'song sparrow', 'rose-breasted grosbeak', 'wren')",
+      "severity": "minor",
+      "source_quote": "The robin opens up the choir in early spring, but his song is soon surpassed in beauty by the song sparrow and again by the rose-breasted grosbeak. The song of the wren trumps them all for longevity and vibrancy.",
+      "suggested_fix": "Use consistent, intelligible Urdu renderings or widely accepted transliterations for bird names (or keep the English names in quotes). Avoid accidental misspelling. For example: \"...گونیا کھولتا ہے، مگر اس کا نغمہ جلدی 'سونگ اسپیریو' کے مقابلے میں، اور پھر 'روز بریسٹڈ گروسبیک' کے مقابلے میں خوبصورتی میں پیچھے رہ جاتا ہے۔ 'رین' کے نغمے طوالت اور شوخی میں سب پر بھاری ہیں۔\" could be corrected to: \"...روبن بہار کے اوائل میں کوائر کھولتا ہے، مگر اس کا نغمہ جلد ہی 'سونگ اسپراو' (song sparrow) اور پھر 'روز بریسٹیڈ گروس بک' (rose-breasted grosbeak) کے نغموں کے مقابلے میں کم خوبصورت معلوم ہوتا ہے۔ 'رین' (wren) کا نغمہ طوالت اور شوخی میں سب پر بھاری ہے۔\"",
+      "translation_quote": "روبن بہار کے اوائل میں چوروس کا آغاز کرتا ہے، مگر اس کا نغمہ جلد ہی سونگ سپیرو اور پھر روز بریسٹڈ گروس بیک کے نغمے سے خوبصورتی میں پیچھے رہ جاتا ہے۔ رین کا نغمہ طوالت اور چنخیلے پن میں سب پر بھاری ہے۔"
+    },
+    {
+      "location": "Paragraph beginning: “Birds hold a unique place...” (sentence: 'The dog barks at an intruder to drive him away')",
+      "severity": "minor",
+      "source_quote": "The dog barks at an intruder to drive him away, while the cat mews for attention.",
+      "suggested_fix": "The translation uses \"کتا غدار کو بھونکتا ہے\" where 'غدار' (traitor) is an odd choice. Replace with a neutral, idiomatic Urdu rendering such as \"کتا درانداز/داخل ہونے والے پر بھونکتا ہے تاکہ اسے بھگا دے\". Preserve the contrast with the cat.",
+      "translation_quote": "کتا غدار کو بھونکتا ہے تاکہ اسے بھگا دے، جبکہ بلی توجہ کے لیے میاؤں کرتی ہے۔"
     }
   ],
   "id": "47df6882e74759d25c0c22a3f423ffda",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 77,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6b4fad51874daab2b26c2a97a4e4c4aa1580e7cb9aed0a786736362fa6dfa46a.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -3719,6 +3719,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
+      "html_sha256": "e34f6c12e4fd13827fc63d8b1cfbe7f440416b4b3f62f874aaa646fcc1c94352",
+      "human_reviewed": false,
+      "id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
+      "images": [
+        {
+          "alt": "سبز چراگاہ میں گلابی اور سفید 'کراؤن ویچ' کے پھول",
+          "public_path": "/images/articles/52074824-2feb-4fe4-96d0-a08ec72c3565-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.json",
+      "metadata_sha256": "0dd75509c3e9fdfdd139c3cf082acf715c82beb58e883d3df9a2e6df5312f6f8",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "مدیر سے",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "مدیر کا پیغام",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "50dc9887a5dfaadf41464ad0982a0987ccee5c50d803ccea06bc9ca6aebb1128",
       "human_reviewed": false,
@@ -3742,6 +3770,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "مدیر سے",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
+      "html_sha256": "9404cee4953b422cf9289efbf409895c8afbc22a1c18845fc960aa7d17058fea",
+      "human_reviewed": false,
+      "id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
+      "images": [
+        {
+          "alt": "پتوں سے بھرے جنگل سے گزرنے والا ایک تنگ راستہ",
+          "public_path": "/images/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.json",
+      "metadata_sha256": "9aa37f581b3e2419d715d3cfeca4079dcf01ca8d917e65ecbdb5cc2dcff0b107",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "بچوں کا کونا",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
+      "status": "ready",
+      "subtitle": null,
+      "title": "جیمِن ہوشیار ہوتا ہے",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {

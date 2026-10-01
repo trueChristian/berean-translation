@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "96b175bc-6cd2-419f-b038-1bdb9949a932",
+    "response_id": "chatcmpl-EUHiqqzBYncZtDGCxN2v2myEfHFO1",
+    "usage": {
+      "completion_tokens": 680,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3483,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4163
+    }
+  },
+  "received_at": "2026-10-01T20:33:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph beginning: \"The fall webworms had been at work, and their web curtains shuttered from branches overhead.\"",
+        "severity": "minor",
+        "source_quote": "The fall webworms had been at work, and their web curtains shuttered from branches overhead.",
+        "suggested_fix": "Preserve meaning but use an Urdu expression or a clearer transliteration with brief clarification. For example, in the translation replace “فال ویب ورمز نے کام کیا تھا، اُن کے جال شاخوں سے اوپر پردے کی طرح جھول رہے تھے۔” with: “فال ویب ورمز (پتے ڈھانپنے والے جال بنانے والے کیڑے) کام کر رہے تھے، اور اُن کے جال شاخوں سے اوپر پردے کی طرح لٹک رہے تھے۔” Maintain original HTML tags and punctuation exactly as in the translation.",
+        "translation_quote": "فال ویب ورمز نے کام کیا تھا، اُن کے جال شاخوں سے اوپر پردے کی طرح جھول رہے تھے۔"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

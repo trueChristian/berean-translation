@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a3727b1b-1e44-4d7d-aded-0366ff75b66f",
+    "response_id": "chatcmpl-EUHjjBc5pnmWbu11p3Hzg7i1oOvEM",
+    "usage": {
+      "completion_tokens": 1129,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9516,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10645
+    }
+  },
+  "received_at": "2026-10-01T20:33:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>…اعمال 6:6 میں، وہ بظاہر طویل عمر کو کم اہمیت دیتا ہے۔ “Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?”</p>",
+        "severity": "critical",
+        "source_quote": "\"In Ecclesiastes 6:6, he seems to disparage long life. “Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?”\"",
+        "suggested_fix": "Replace the incorrect book name in the translation with the correct Urdu rendering of 'Ecclesiastes' and keep the quoted English verse exactly as in the source. For example: \"<p>واعظ 6:6 میں، وہ بظاہر طویل عمر کو کم اہمیت دیتا ہے۔ “Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?”</p>\" Preserve the existing HTML tags and punctuation exactly as in the translation except for the book name change.",
+        "translation_quote": "“اعمال 6:6 میں، وہ بظاہر طویل عمر کو کم اہمیت دیتا ہے۔ “Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?””"
+      },
+      {
+        "location": "<title>…\"سنجیدگی سے نمٹنا\"</title>\n\n<h2>سنجیدگی</h2>",
+        "severity": "minor",
+        "source_quote": "\"Dealing with Cynicism\"; section heading: \"Cynicism\"",
+        "suggested_fix": "The translation consistently uses the Urdu word 'سنجیدگی' which commonly reads as 'seriousness' rather than the intended English meaning 'cynicism' or 'cynical attitude.' Consider using a more accurate Urdu term for 'cynicism' in both the title and the H2 heading. Suggested replacements (choose one consistent option):\n- Title: \"بدگمانی سے نمٹنا\" and H2: \"بدگمانی\" or\n- Title: \"نفسِ بدگمانی سے نمٹنا\" and H2: \"بدگمانی (Cynicism)\"\nApply the chosen term in both the <title> element and the corresponding <h2> to preserve consistency. Keep all HTML structure and other text unchanged.",
+        "translation_quote": "\"سنجیدگی سے نمٹنا\"; \"سنجیدگی\""
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

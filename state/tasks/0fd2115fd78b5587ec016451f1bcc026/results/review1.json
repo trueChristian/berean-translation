@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5177f243-cb16-4ff5-b212-eb49b4d78d36",
+    "response_id": "chatcmpl-EUHjVH1t6rTyGHVlwRCErpNhWCKi2",
+    "usage": {
+      "completion_tokens": 999,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7004,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8003
+    }
+  },
+  "received_at": "2026-10-01T20:33:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p> (paragraph with garden example, after “His neighbor, an atheistic humanist, also planted a garden.”)",
+        "severity": "major",
+        "source_quote": "His neighbor, an atheistic humanist, also planted a garden.",
+        "suggested_fix": "Replace the mistranslated phrase with a correct Urdu rendering of “an atheistic humanist,” for example: \"اس کا پڑوسی، ایک ملحد ہیومنسٹ، نے بھی باغ لگایا۔\" Keep the rest of the sentence unchanged and preserve the surrounding HTML tags and attributes.",
+        "translation_quote": "اُس کا پڑوسی، ایک ناشتہ پسند ہیومنسٹ، نے بھی باغ لگایا۔"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}
