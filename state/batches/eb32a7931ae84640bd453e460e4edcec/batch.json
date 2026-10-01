@@ -1,0 +1,36 @@
+{
+  "campaign": "gh-36910515539",
+  "created_at": "2026-10-01T18:57:48+00:00",
+  "custom_ids": [
+    "13a37ea16e7b2125d3ecac650f81196a:translate",
+    "2cd961df2cd1abc2d8ea69524ca81d80:translate",
+    "34700ebda02d789cd095ae3710935dde:translate",
+    "3c3ae2cc57f9e6a125003cc6e1f1d360:translate",
+    "7316f348fcc88f7565d25f706fd9cbbb:translate",
+    "9fbd84c9b0e80a0906e68412b09dfe51:translate",
+    "bc0802c8ce2e6d3973c2ca7e2ab91282:translate",
+    "ce88b00a2c2a3bab9f1e76abd54cd234:translate",
+    "f7d8e5b13cd26dd4ca620a18bf3b3a06:translate",
+    "fa2674e058a6d22160cd9786dfaf6a69:translate"
+  ],
+  "id": "eb32a7931ae84640bd453e460e4edcec",
+  "input_file_id": null,
+  "model": "gpt-5-mini",
+  "payload_sha256": "d92d7e7b25b9190f8c8e3350aa5fc672478c9d4d56e84e7fede5e8166ccdb4db",
+  "remote_id": null,
+  "reserved_usd": 0.185886,
+  "stage": "translate",
+  "status": "prepared",
+  "tasks": [
+    "13a37ea16e7b2125d3ecac650f81196a",
+    "2cd961df2cd1abc2d8ea69524ca81d80",
+    "34700ebda02d789cd095ae3710935dde",
+    "3c3ae2cc57f9e6a125003cc6e1f1d360",
+    "7316f348fcc88f7565d25f706fd9cbbb",
+    "9fbd84c9b0e80a0906e68412b09dfe51",
+    "bc0802c8ce2e6d3973c2ca7e2ab91282",
+    "ce88b00a2c2a3bab9f1e76abd54cd234",
+    "f7d8e5b13cd26dd4ca620a18bf3b3a06",
+    "fa2674e058a6d22160cd9786dfaf6a69"
+  ]
+}
