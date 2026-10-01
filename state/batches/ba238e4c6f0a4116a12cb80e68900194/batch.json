@@ -1,0 +1,32 @@
+{
+  "campaign": "gh-36910662071",
+  "created_at": "2026-10-01T20:34:31+00:00",
+  "custom_ids": [
+    "011bbca4240b260f7a2b459a8dcbfeec:review1",
+    "086ff8d69a2041ffb60e2dbb4d34a4ed:review1",
+    "7ee1ced5bd75be884f0971e4c9af0d66:review1",
+    "81aa822cf8ce74e827f03679e6dc4a93:review1",
+    "b8e3d1ad3f01a19fe39af276c501c5b0:review1",
+    "bd2b745e2c215bd2dad509164e57c7d0:review1",
+    "dd9248b7dbf662d22e1f1592a60c7470:review1",
+    "fff66a5747ecb3b466b7e148036345c2:review1"
+  ],
+  "id": "ba238e4c6f0a4116a12cb80e68900194",
+  "input_file_id": null,
+  "model": "gpt-5-mini",
+  "payload_sha256": "2cf5a25e574a8f1dcfdb65364345e0f5e90b03435399cb9eaba145bfc5d13a43",
+  "remote_id": null,
+  "reserved_usd": 0.054382,
+  "stage": "review1",
+  "status": "prepared",
+  "tasks": [
+    "011bbca4240b260f7a2b459a8dcbfeec",
+    "086ff8d69a2041ffb60e2dbb4d34a4ed",
+    "7ee1ced5bd75be884f0971e4c9af0d66",
+    "81aa822cf8ce74e827f03679e6dc4a93",
+    "b8e3d1ad3f01a19fe39af276c501c5b0",
+    "bd2b745e2c215bd2dad509164e57c7d0",
+    "dd9248b7dbf662d22e1f1592a60c7470",
+    "fff66a5747ecb3b466b7e148036345c2"
+  ]
+}
