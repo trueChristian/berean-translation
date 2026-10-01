@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "01eb9fe0-5b45-415a-a2d7-ae04e1332e4d",
+    "response_id": "chatcmpl-EUHjtFjJcCn3BfJXArJLHXMR9527i",
+    "usage": {
+      "completion_tokens": 1451,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3412,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4863
+    }
+  },
+  "received_at": "2026-10-01T20:33:20+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a76ef013-7cf5-4e99-8312-3a9818d244ff\">\n  <figure>\n    <img src=\"/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg\" alt=\"Secangkir kopi di samping buku catatan spiral dan pensil.\">\n  </figure>\n  <p class=\"drop-cap\">Urgensi menit terakhir adalah sesuatu yang sering dihadapi banyak ibu rumah tangga secara teratur. Tidak peduli seberapa teratur kita, terkadang kita menunda tugas karena tidak menyukainya atau menunggu sampai berada di bawah tekanan.</p>\n  <p>Kebiasaan menunda-nunda berpotensi menyebabkan tingkat stres yang lebih tinggi. Mungkin saya aneh, tetapi sulit bagi saya untuk tetap tenang dan terkendali ketika tekanan meningkat. Saat hal-hal menit terakhir selesai, saya terlalu lelah untuk menikmati acara yang direncanakan.</p>\n  <h2>Sakit Gigi dan Perjalanan</h2>\n  <p>Bagi saya merupakan misteri mengapa seorang anggota keluarga berakhir di kursi dokter gigi sehari atau dua sebelum kami berangkat dalam sebuah perjalanan. Mungkin itu tidak terjadi sesering yang saya kira, tetapi frustrasi karena harus pergi ke dokter gigi yang tidak direncanakan pada waktu yang tidak tepat tertanam kuat dalam ingatan saya. Sekarang saya menjadwalkan janji imajiner sebelum perjalanan. Jika itu bukan darurat gigi, masalah lain akan mengisi slot waktu itu.</p>\n  <p>Batas waktu adalah bagian normal dari hidup. Tanpa batas waktu kita akan kehilangan motivasi, dan hari-hari kita akan kehilangan tujuan. Gangguan juga merupakan bagian normal dari hidup. Mereka terus memberikan perubahan yang tak terduga pada hari dan minggu kita. Jika kita membiarkan terlalu banyak tugas menunggu sampai menit terakhir, gangguan dan tenggat waktu bertabrakan, dan kekacauan berkuasa.</p>\n  <h2>Ubah Situasi Menit Terakhir</h2>\n  <p>Tenggat waktu dan gangguan tidak dapat dihilangkan tetapi kita dapat membatasi tugas menit terakhir. Kadang-kadang perlu melihat ke belakang dengan jujur untuk mencari tahu apa yang menyebabkan stres kita. Seringkali, kita menyalahkan gangguan dan gagal menyadari bahwa perencanaan yang buruk atau penundaan mungkin menjadi penyebabnya.</p>\n  <p>Sebagai contoh, jika tamu akan datang dan kita berencana mencuci jendela dan membuat makanan penutup bersama dengan selusin tugas lainnya pada hari kedatangan mereka, tidak ada ruang untuk gangguan. Dari pengalaman, kita tahu gangguan pasti akan datang. Jadi, bukankah lebih baik “merencanakan” sengatan lebah dan tersandung jari kaki?</p>\n  <p>Mengapa tidak menjadwalkan mencuci jendela dan membuat makanan penutup di hari lain? Itu mungkin berarti ada sidik jari di jendela dan makanan penutup yang lebih sederhana, tetapi bukankah itu lebih baik daripada banyak stres di menit terakhir?</p>\n  <h2>Lakukan Beberapa Tugas Lebih Awal</h2>\n  <p>Menentukan lebih awal di hari apa yang akan dibuat untuk makan malam dan mengemas tas popok sebelumnya adalah hal-hal kecil yang dapat membuat perbedaan besar pada menit terakhir. Ketika anak-anak kami masih kecil, saya mulai mengemas koper sehari sebelum perjalanan daripada pada hari keberangkatan. Saya mampu menangani kepanikan menit terakhir lebih baik jika pekerjaan itu sudah selesai.</p>\n  <h2>Lakukan Tugas Terpenting Terlebih Dahulu</h2>\n  <p>Pendekatan ini memberi kebebasan untuk melewatkan pekerjaan yang kurang penting ketika menghadapi kekurangan waktu.</p>\n  <p>Terkadang tidak semua item dalam daftar tugas memiliki nilai yang sama. Meninggalkan tugas sulit bagi seorang perfeksionis, tetapi mungkin untuk mengembangkan kebiasaan baru.</p>\n  <h2>Pecah Pekerjaan menjadi Bagian Lebih Kecil</h2>\n  <p>Terkadang besarnya sebuah tugas membuatnya tampak terlalu sulit untuk dimulai. Pecah tugas besar menjadi komponen yang lebih kecil. Menyelesaikan tugas yang lebih kecil jauh lebih mudah diatur. Membersihkan dapur secara menyeluruh adalah tugas yang tidak saya nikmati. Jika perencana saya menulis, “membersihkan dapur secara menyeluruh,” itu mudah diabaikan.</p>\n  <p>Tetapi jika perencana saya menulis, “membersihkan peralatan, mengelap lemari, dan mencuci jendela,” itu terasa lebih dapat dilakukan.</p>\n  <p>Ada begitu banyak acara menggembirakan dalam hidup; mengapa harus diganggu oleh penundaan? Berilah diri Anda kebebasan untuk menjalani hidup secara berbeda. Beberapa perubahan kecil dapat membuat perbedaan terbesar antara menit terakhir yang diberkati atau yang penuh stres.</p>\n</article>\n",
+    "section": "Saudari untuk Saudari",
+    "subtitle": null,
+    "title": "Penundaan Berlebihan"
+  }
+}
