@@ -1,0 +1,18 @@
+{
+  "campaign": "refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267",
+  "created_at": "2026-10-01T15:22:40+00:00",
+  "custom_ids": [
+    "7c71216b6f2a09db1cf42f9ad97e11b3:translate"
+  ],
+  "id": "0d6e4e58466b4abc9d43e88823649f07",
+  "input_file_id": null,
+  "model": "gpt-5-mini",
+  "payload_sha256": "fcc943f358110f068b68cae0bbdf0bb0caff0a6ef258c7e29d6fa57f10e0a30e",
+  "remote_id": null,
+  "reserved_usd": 0.017585,
+  "stage": "translate",
+  "status": "prepared",
+  "tasks": [
+    "7c71216b6f2a09db1cf42f9ad97e11b3"
+  ]
+}
