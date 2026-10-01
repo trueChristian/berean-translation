@@ -2,7 +2,6 @@
   "article_id": "93978dae-706d-43d4-abee-6b6e011683fa",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "164b9545ec214c2584ba52185b591b11",
   "campaign": "gh-36909223255",
   "created_at": "2026-10-01T18:47:35+00:00",
   "events": [
@@ -24,8 +23,37 @@
         },
         "total_tokens": 4131
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 704,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3944,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4648
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<p>Becky est dans la trentaine et a sept enfants de moins de dix-sept ans. Il y a quelques années, l’un de leurs poulaillers a pris feu. À l’époque, ils furent reconnaissants que les poules soient parties la veille et que personne n’était à proximité lorsque la bouteille de propane a explosé.</p>",
+      "severity": "minor",
+      "source_quote": "...and that no one was close by when the propane tank exploded.",
+      "suggested_fix": "Change « la bouteille de propane » to a more exact rendering of \"propane tank,\" for example « le réservoir de propane » or « la cuve de propane », preserving the HTML paragraph tags and wording order.",
+      "translation_quote": "...que personne n’était à proximité lorsque la bouteille de propane a explosé."
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:01+00:00",
   "id": "56c974f7aff582311d9dd77a53ebe669",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "fra",
@@ -69,11 +97,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/655f2b893d535149fb7f0e71fcdd48b885970929ae2439021fc6d8de3cd6b11b.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

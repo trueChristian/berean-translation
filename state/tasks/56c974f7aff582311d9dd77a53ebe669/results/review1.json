@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "abfef969-fb0d-498a-a097-086523966ee8",
+    "response_id": "chatcmpl-EUGzGn5TBZzdlaOhQUdwY7U2VsME3",
+    "usage": {
+      "completion_tokens": 704,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3944,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4648
+    }
+  },
+  "received_at": "2026-10-01T20:28:01+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Becky est dans la trentaine et a sept enfants de moins de dix-sept ans. Il y a quelques années, l’un de leurs poulaillers a pris feu. À l’époque, ils furent reconnaissants que les poules soient parties la veille et que personne n’était à proximité lorsque la bouteille de propane a explosé.</p>",
+        "severity": "minor",
+        "source_quote": "...and that no one was close by when the propane tank exploded.",
+        "suggested_fix": "Change « la bouteille de propane » to a more exact rendering of \"propane tank,\" for example « le réservoir de propane » or « la cuve de propane », preserving the HTML paragraph tags and wording order.",
+        "translation_quote": "...que personne n’était à proximité lorsque la bouteille de propane a explosé."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

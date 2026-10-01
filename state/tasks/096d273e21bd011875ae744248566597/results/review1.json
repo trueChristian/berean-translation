@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8a29e5e7-c559-48b9-80f7-469f939195c1",
+    "response_id": "chatcmpl-EUGzAjCjLmDYOVR65ux6gU50bEroH",
+    "usage": {
+      "completion_tokens": 802,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1501,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2303
+    }
+  },
+  "received_at": "2026-10-01T20:28:01+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> — stanza 1, line 6",
+        "severity": "minor",
+        "source_quote": "Give thanks and laud, for more is here!",
+        "suggested_fix": "Preserve meaning and natural French idiom. Replace \"Rends grâces et louanges, car davantage est ici !\" with \"Rends grâces et loues-le, car il y a encore davantage !\" or \"Rends grâces et louanges, car il y a plus encore ici !\". Keep existing HTML tags and punctuation.",
+        "translation_quote": "Rends grâces et louanges, car davantage est ici !"
+      },
+      {
+        "location": "<div class=\"poem\"> — stanza 2, line 2",
+        "severity": "minor",
+        "source_quote": "Extol and praise His worthy name!",
+        "suggested_fix": "Make the phrase idiomatic while preserving the theological sense. Replace \"Exalte et loue Son nom digne !\" with \"Exalte et loue Son nom digne de louange !\" or \"Exalte et loue Son nom qui mérite d'être loué !\". Keep the <strong> tags and line-breaks as in source HTML.",
+        "translation_quote": "Exalte et loue Son nom digne !"
+      },
+      {
+        "location": "<div class=\"poem\"> — stanza 3, line 3",
+        "severity": "minor",
+        "source_quote": "Bow down in awful, holy fear-",
+        "suggested_fix": "Translate the archaic sense of \"awful\" (awe-filled rather than terrifying) more clearly. Replace \"Incline-toi dans une crainte redoutable et sainte-\" with \"Incline-toi dans la crainte respectueuse et sainte-\" or \"Incline-toi avec une crainte révérencielle et sainte-\". Preserve HTML structure.",
+        "translation_quote": "Incline-toi dans une crainte redoutable et sainte-"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

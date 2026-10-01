@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3fa38071-2989-4264-b07c-3b230cb5ddf3",
+    "response_id": "chatcmpl-EUGzAQYSUH1V7Z4PWMw51dmH0A7tl",
+    "usage": {
+      "completion_tokens": 1242,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6400,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7642
+    }
+  },
+  "received_at": "2026-10-01T20:28:01+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"The killdeer also has no qualms...\" (source.html third paragraph after figure)",
+        "severity": "minor",
+        "source_quote": "The killdeer also has no qualms with expressing rash disfavor to those who intrude their domain, but these are not to be mistaken as songs.",
+        "suggested_fix": "Replace the French rendition that uses an uncommon or misspelled species name with the standard French name or a faithful transliteration. For example: change “Le pluvier kildir” to “Le pluvier kildir (killdeer)” or simply “le killdeer (pluvier kildir)” depending on house style. Preserve surrounding HTML tags and punctuation.",
+        "translation_quote": "Le pluvier kildir ne craint pas non plus d'exprimer un vif mécontentement envers ceux qui envahissent son domaine, mais ceux-ci ne doivent pas être confondus avec des chants."
+      },
+      {
+        "location": "Paragraph: \"The canary sings in a cage...\" (source.html paragraph describing different birds' songs)",
+        "severity": "minor",
+        "source_quote": "The canary sings in a cage, while the nightingale sings in the dark.",
+        "suggested_fix": "Correct the gender/article and noun to standard French: change “La canari chante” to “Le canari chante” (or “Le canari chante en cage, tandis que le rossignol chante dans l'obscurité.”). Keep original HTML tags intact.",
+        "translation_quote": "La canari chante en cage, tandis que le rossignol chante dans l'obscurité."
+      },
+      {
+        "location": "Paragraph: \"As diverse as their song may be...\" (same paragraph as above)",
+        "severity": "minor",
+        "source_quote": "The buntings fill in the heat of the day when other birds are silent.",
+        "suggested_fix": "Translate or provide the recognized French name for “buntings” instead of leaving the English plural. For example: change “Les buntings remplissent” to “Les bruants (buntings) remplissent” or simply “Les bruants remplissent”. Preserve HTML tags and punctuation.",
+        "translation_quote": "Les buntings remplissent la chaleur du jour quand les autres oiseaux se taisent."
+      },
+      {
+        "location": "Paragraph: \"Neglect. The cowbird is also black...\" (source.html starting 'Neglect' paragraph)",
+        "severity": "minor",
+        "source_quote": "The cowbird is also black (the female is brown/gray). She will be found sitting on a high vantage...",
+        "suggested_fix": "Use the correct common French name and gender for the species. Replace “La vacherie est aussi noire (la femelle est brune/grise).” with e.g. “Le vacher à tête (cowbird) est aussi noir (la femelle est brune/grise).” or simply “Le vacher est aussi noir…”. Keep HTML structure unchanged.",
+        "translation_quote": "La vacherie est aussi noire (la femelle est brune/grise). On la trouvera perchée à un haut point de vue, appelant sans honte ses amants par son cri perçant."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

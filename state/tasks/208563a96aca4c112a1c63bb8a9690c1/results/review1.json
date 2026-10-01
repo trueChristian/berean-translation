@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c28ddbf5-3e08-4e38-945e-5079e38647db",
+    "response_id": "chatcmpl-EUGzFKRPabqWhxZxmeylYA0iBdbfB",
+    "usage": {
+      "completion_tokens": 689,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2764,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3453
+    }
+  },
+  "received_at": "2026-10-01T20:28:01+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<h2>Toothaches and Road Trips</h2>",
+        "severity": "minor",
+        "source_quote": "Toothaches and Road Trips",
+        "suggested_fix": "Translate the heading with a more idiomatic French phrase, e.g. change the h2 content to: <h2>Mal de dents et voyages en voiture</h2>",
+        "translation_quote": "<h2>Dents qui font mal et voyages en voiture</h2>"
+      },
+      {
+        "location": "<p>...I plan an imaginary appointment before a trip...</p>",
+        "severity": "minor",
+        "source_quote": "Now I schedule an imaginary appointment before a trip.",
+        "suggested_fix": "Use a slightly more natural French phrasing while preserving meaning. For example, keep HTML but change the sentence to: <p>À présent, je prévois mentalement un rendez‑vous imaginaire avant un voyage.</p> (this keeps the original sense and structure.)",
+        "translation_quote": "<p>À présent, je planifie mentalement un rendez-vous imaginaire avant un voyage.</p>"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

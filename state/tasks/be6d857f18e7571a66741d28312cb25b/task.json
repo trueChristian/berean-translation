@@ -2,7 +2,6 @@
   "article_id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "164b9545ec214c2584ba52185b591b11",
   "campaign": "gh-36909223255",
   "created_at": "2026-10-01T18:47:35+00:00",
   "events": [
@@ -24,8 +23,65 @@
         },
         "total_tokens": 3424
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1339,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2980,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4319
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Second paragraph, sentence: \"J’ai eu l’occasion d’assister à des heures d’ateliers inspirants et pédagogiques sur la façon d’écrire pour communiquer, en utilisant des dialogues réalistes, un écriture descriptive, et bien plus encore.\"",
+      "severity": "minor",
+      "source_quote": "using realistic dialog, descriptive writing, and much more",
+      "suggested_fix": "Correct the French grammatical gender: replace \"un écriture descriptive\" with \"une écriture descriptive\". Preserve surrounding HTML and punctuation.",
+      "translation_quote": "en utilisant des dialogues réalistes, un écriture descriptive, et bien plus encore."
+    },
+    {
+      "location": "Second paragraph, clause: \"transmettre ces pensées dans vos cœurs.\"",
+      "severity": "minor",
+      "source_quote": "transmit those thoughts to your hearts",
+      "suggested_fix": "Use the more idiomatic preposition « à »: replace \"transmettre ces pensées dans vos cœurs\" with \"transmettre ces pensées à vos cœurs\". Preserve surrounding HTML and punctuation.",
+      "translation_quote": "transmettre ces pensées dans vos cœurs."
+    },
+    {
+      "location": "Third paragraph, sentence: \"Ensemble, ces écrivains aspirants produiront une périodique qui restera sur la table basse familiale pendant de nombreuses années.\"",
+      "severity": "minor",
+      "source_quote": "a periodical that will endure on the family coffee table for many years",
+      "suggested_fix": "Fix gender agreement and natural phrasing: replace \"une périodique\" with \"un périodique\". Optionally use \"qui restera\" → \"qui restera longtemps\" for idiomatic flow, but only the gender change is required. Preserve surrounding HTML and tags.",
+      "translation_quote": "Ensemble, ces écrivains aspirants produiront une périodique qui restera sur la table basse familiale pendant de nombreuses années."
+    },
+    {
+      "location": "Third paragraph, phrase: \"mères qui partagent expériences et épreuves avec d’autres mères en plein élevage des tout-petits.\"",
+      "severity": "minor",
+      "source_quote": "Mothers who share experiences and trials with other mothers who are in the throes of raising little ones",
+      "suggested_fix": "Use a more idiomatic verb phrase: replace \"en plein élevage des tout-petits\" with \"en plein élevage des tout-petits\" → better: \"alors qu’elles élèvent de tout-petits\" or \"dans l’épreuve d’élever de tout-petits\". Minimal suggested fix: replace \"en plein élevage des tout-petits\" with \"en train d’élever de tout-petits\". Preserve HTML tags and surrounding punctuation.",
+      "translation_quote": "mères qui partagent expériences et épreuves avec d’autres mères en plein élevage des tout-petits."
+    },
+    {
+      "location": "Book list paragraph: translated book titles (e.g. \"Free Indeed!\" → \"Libres en vérité !\", \"The Power of the Love of Truth\" → \"La puissance de l’amour de la vérité\")",
+      "severity": "minor",
+      "source_quote": "The Power of the Love of Truth\n  Christian Counseling- Counterfeit?\n  The Heart of God\n  Free Indeed!\n  Pilgrims and Politics\n  Cup & Cross\n  The High Cost of Holistic Healing\n  Secrets of Successful Writing\n  The Catholic Connection\n  Psychiatry and Mood altering Medications\n  The Mennonite Church and Modernism",
+      "suggested_fix": "If the publisher intends to keep original English book titles, preserve them exactly in the translation. If translation of titles is intentional, keep as is. Suggested minimal action only if originals must be preserved: replace the French renditions with the exact English titles as they appear in the source HTML, preserving the <p class=\"book-list\"> block and line breaks.",
+      "translation_quote": "La puissance de l’amour de la vérité\n  Conseil chrétien : contrefaçon ?\n  Le cœur de Dieu\n  Libres en vérité !\n  Pèlerins et politique\n  Coupe et croix\n  Le coût élevé de la guérison holistique\n  Secrets de l’écriture réussie\n  La connexion catholique\n  Psychiatrie et médicaments modifiant l’humeur\n  L’Église mennonite et le modernisme"
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:01+00:00",
   "id": "be6d857f18e7571a66741d28312cb25b",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "fra",
@@ -69,11 +125,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/bfd32875bae1c5d468e2e36f74da09a376963ebbef7c9772d51528cb0cd0f755.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
