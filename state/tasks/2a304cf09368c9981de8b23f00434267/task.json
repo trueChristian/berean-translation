@@ -2,7 +2,6 @@
   "article_id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "61e23af375fd4306b97056f9e03f95dc",
   "campaign": "gh-36908242193",
   "created_at": "2026-10-01T18:38:22+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 1754
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 784,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1491,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2275
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Third stanza, final line (HTML: <div class=\"poem\"> ...)</div>)",
+      "severity": "minor",
+      "source_quote": "Adore th’ almighty King of Kings!",
+      "suggested_fix": "Replace translated phrase “崇拜万能的万王之王！” with “崇拜全能的万王之王！” to better reflect the conventional theological term for God in Chinese and preserve the sense of “almighty.” Preserve the surrounding <strong> tags and line breaks exactly.",
+      "translation_quote": "崇拜万能的万王之王！"
+    },
+    {
+      "location": "First stanza, line 3 (HTML: <div class=\"poem\"> ...)</div>)",
+      "severity": "minor",
+      "source_quote": "The Dayspring shineth from on high,",
+      "suggested_fix": "Consider rendering “Dayspring” as “黎明之光” or “晨曦” rather than “昼光” to better convey the biblical/poetic sense of a Messianic dawn and to match the poem’s tone. Example replacement: “黎明之光自高天照耀,” keeping original line breaks and <strong> tags.",
+      "translation_quote": "昼光从高处照耀，"
+    }
+  ],
+  "finished_at": "2026-10-01T20:28:17+00:00",
   "id": "2a304cf09368c9981de8b23f00434267",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "cmn",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/106121576068d9bdf697518dbfe2c70eff09e46a5d060eef756de2cfcb440b7f.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

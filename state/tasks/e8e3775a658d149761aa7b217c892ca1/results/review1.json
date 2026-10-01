@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "249b55cb-67ae-491d-8423-62ead2a63750",
+    "response_id": "chatcmpl-EUGwxElq7SF6ak9FZk2Y2JWUqe7MI",
+    "usage": {
+      "completion_tokens": 652,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3175,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3827
+    }
+  },
+  "received_at": "2026-10-01T20:28:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph after figure (Grandma on the porch) in translation.html",
+        "severity": "minor",
+        "source_quote": "A heavy comforter lay on her shoulders.",
+        "suggested_fix": "Replace the mistranslated word \"安慰\" with a noun for a blanket. For example, change “一床厚厚的安慰被披在她肩上。” to “一床厚厚的被子披在她肩上。” Preserve the surrounding HTML and punctuation exactly.",
+        "translation_quote": "一床厚厚的安慰被披在她肩上。"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

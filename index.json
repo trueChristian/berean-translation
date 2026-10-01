@@ -303,6 +303,146 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
+      "html_sha256": "9b0b780caa7bbfb28f2291f51b9be5e4c2d6b71c8f150518ba20f362794b3a1d",
+      "human_reviewed": false,
+      "id": "93978dae-706d-43d4-abee-6b6e011683fa",
+      "images": [
+        {
+          "alt": "从上方看沿着沙质海岸线拍摄的海浪拍打景象。",
+          "public_path": "/images/articles/93978dae-706d-43d4-abee-6b6e011683fa-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/93978dae-706d-43d4-abee-6b6e011683fa.json",
+      "metadata_sha256": "de6f4b08afb8b8123efef64d68547f789c9a92c7f90265e70c5a74a1956a0500",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "姐妹心声",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
+      "status": "ready",
+      "subtitle": null,
+      "title": "情境性负荷",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.html",
+      "html_sha256": "b867c118ebd6d4fb43debe432b91830406ab674661c3e5c604822b9701d672c9",
+      "human_reviewed": false,
+      "id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
+      "images": [
+        {
+          "alt": "一杯咖啡置于螺旋笔记本和铅笔旁。",
+          "public_path": "/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.json",
+      "metadata_sha256": "13819ea6111fd5d4e675db515a03ca336200ea6ded580e83e201c3a17f154d2e",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "姐妹对姐妹",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "拖延过载",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
+      "html_sha256": "e33396dd7da71346f8f7f250db6ef498e514768cc0a3b8d1df63b16e9da833b0",
+      "human_reviewed": false,
+      "id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
+      "images": [
+        {
+          "alt": "一条狭窄小路蜿蜒穿过多叶的林地",
+          "public_path": "/images/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.json",
+      "metadata_sha256": "513d6d1895e7f3898df0278c9367b63d162a1af206e4fc7f340c83bd5cad3d92",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "儿童角",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Jamin 变聪明了",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
+      "html_sha256": "6cbb891f4aeae13b6244eb9fb4b289e2d7d9764c0bf6bddf1d25b6420d2f263b",
+      "human_reviewed": false,
+      "id": "db7b1129-282d-4f48-aefa-f839cb585426",
+      "images": [
+        {
+          "alt": "一连串幼苗从土壤中冒出，一只手正在浇水",
+          "public_path": "/images/articles/db7b1129-282d-4f48-aefa-f839cb585426-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/db7b1129-282d-4f48-aefa-f839cb585426.json",
+      "metadata_sha256": "bcd8b940880fe51af1733f101fd75ee32da7d7a8c4dc62055c383b84e34e0c27",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "宣教士的沉思",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "基督教人文主义者",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.html",
+      "html_sha256": "1ab90af8b5b54e21d03d6b6b607648d2b86040805ba867c8e8b63bc7ee4f48b4",
+      "human_reviewed": false,
+      "id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
+      "images": [
+        {
+          "alt": "在鲜艳日落下平静水边的一艘小船",
+          "public_path": "/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.json",
+      "metadata_sha256": "89fe7305e98011575248b667bc7b7294ea0385a99280537fb948df060cb9eb2c",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "诗歌",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "起来欢喜吧",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
       "html_sha256": "c68506fdd8d6dddd603c5691263b1da4dfeb29290bfcd308bf6dafd86d3dd310",
       "human_reviewed": false,
