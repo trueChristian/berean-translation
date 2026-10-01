@@ -6,7 +6,7 @@ Observed English revision: `eb04e6e4598da0e78120fd5ab5dfcbcf1a9aa457`
 
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `heartbeat-remnant-2024-summer` | 10 | 4 / 200 | 0 | 5 | 1 |
+| `heartbeat-remnant-2024-summer` | 10 | 4 / 200 | 1 | 5 | 1 |
 | `heartbeat-remnant-2024-spring` | 11 | 0 / 220 | 0 | 0 | 0 |
 | `heartbeat-remnant-2024-winter` | 11 | 0 / 220 | 0 | 0 | 0 |
 | `heartbeat-remnant-2023-summer` | 13 | 0 / 260 | 0 | 0 | 0 |
@@ -94,7 +94,7 @@ Observed English revision: `eb04e6e4598da0e78120fd5ab5dfcbcf1a9aa457`
 | `rus` (ru) | 0 / 818 | 0 | 0 | 0 | 0 |
 | `deu` (de) | 0 / 818 | 0 | 0 | 0 | 0 |
 | `nld` (nl) | 0 / 818 | 0 | 0 | 0 | 0 |
-| `afr` (af) | 4 / 818 | 0 | 0 | 5 | 5 |
+| `afr` (af) | 4 / 818 | 0 | 1 | 5 | 5 |
 | `swa` (sw) | 0 / 818 | 0 | 0 | 0 | 0 |
 | `kor` (ko) | 0 / 818 | 0 | 0 | 0 | 0 |
 | `ita` (it) | 0 / 818 | 0 | 0 | 0 | 0 |
@@ -109,13 +109,14 @@ Only combinations with requested or published work appear below. Counts of pendi
 
 | Issue | Language | Ready / articles | Human reviewed | Active | Not ready | Proposals |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
-| `heartbeat-remnant-2024-summer` | `afr` | 4 / 10 | 0 | 0 | 5 | 0 |
+| `heartbeat-remnant-2024-summer` | `afr` | 4 / 10 | 0 | 1 | 5 | 0 |
 
 ## Campaigns
 
 | Request | Trigger | Operation | Status | Tasks | Reported usage (USD) | Reserved ceiling (USD) | Report |
 | --- | --- | --- | --- | ---: | ---: | ---: | --- |
 | `gh-36549125967` | manual | translate | finished | 10 | 0.06786800 | 0.330636 / 10.00 | [state](state/campaigns/gh-36549125967.json) |
+| `refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267` | source refresh | translate | active | 1 | 0.00000000 | 0.000000 / 10.00 | [state](state/campaigns/refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267.json) |
 
 ## Provider batch lifecycle
 
