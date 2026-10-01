@@ -2,7 +2,6 @@
   "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7f276ba21bf940b297743087350f9773",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -24,8 +23,28 @@
         },
         "total_tokens": 9858
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 4590,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 256,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9747,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14337
+      }
     }
   ],
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[100]: source /article[1]/div[1]/p[6]/em[1]/br[7] ('start', 'br', ()); translation /article[1]/div[1]/p[6]/em[1] ('end', 'em')",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -35,6 +54,7 @@
       "translation_quote": ""
     }
   ],
+  "finished_at": "2026-10-01T20:28:28+00:00",
   "id": "a240311135b6bbbf3269133369a4060d",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "hin",
@@ -82,7 +102,7 @@
   "review_model": "gpt-5-mini",
   "source_snapshot": "state/sources/c48182e3f5033a08822c2237c3e9e7faab5b80302e823695d8ba3dd0faead4e3.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

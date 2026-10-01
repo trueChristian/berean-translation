@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b5a15662-dc56-4e41-a0af-43843139cd64",
+    "response_id": "chatcmpl-EUH3YBoB2AwPEt2HFBqFEvtK54Rgk",
+    "usage": {
+      "completion_tokens": 735,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1792,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2527
+    }
+  },
+  "received_at": "2026-10-01T20:28:29+00:00",
+  "result": {
+    "html": "<article data-article-id=\"cdb88be0-93b0-4362-bc3b-1488aff1a76f\">\n  <figure>\n    <img src=\"/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg\" alt=\"बैंगनी केन्द्र वाले सफेद ऑर्किड\">\n  </figure>\n  <div class=\"poem\">\n    <p>वसंत की महिमा, कितनी मधुर!<br>\n    नवजात जीवन, कितना हर्षित!<br>\n    क्या आनंद है सुखी पृथ्वी का अभिनन्दन करने में<br>\n    नए, उज्ज्वल वस्त्रों से सुसज्जित!</p>\n\n    <p>दैवी उद्धारकर्ता, मैं तेरा धन्यवाद करता/करती हूँ;<br>\n    मैं तेरी आगमन-यात्रा का अभिनन्दन करता/करती हूँ;<br>\n    मैं तेरे नवीनीकृत पृथ्वी की सुंदरता में तुझसे प्रेम करता/करती हूँ।</p>\n\n    <p>परन्तु हे तेरी कृपा के ये चमत्कार,<br>\n    तेरे ये उद्धृतिशील कार्य,<br>\n    ये आश्चर्य जो देखने में कहीं अधिक मधुर हैं,<br>\n    ये और भी दैवी नव-उत्पत्तियाँ:</p>\n\n    <p>यह प्रबल नवजात विश्वास की नई दीप्ति,<br>\n    यह सुंदर प्रेम का खिलना,<br>\n    यह गीत का नवजात आनंद,<br>\n    और प्रार्थना की खुशबू!</p>\n\n    <p>सृजनहार आत्मा, मुझमें कार्य कर<br>\n    तेरे इन मधुर चमत्कारों को;<br>\n    दैवी उद्धारकर्ता, कृपया कर<br>\n    इस हृदय को नवीनीकृत कर।</p>\n\n    <p>फिर भी, नए जीवन और शक्ति को उड़ान देने दे,<br>\n    फिर भी, नया आनंद प्रदान किया जाए;<br>\n    और नवीन गीत गूंजने दे<br>\n    नई पृथ्वी और स्वर्ग में।</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "वसंत की महिमा"
+  }
+}
