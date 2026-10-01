@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "74cd1f3e-b594-4665-90b5-778d4bc91a7c",
+    "response_id": "chatcmpl-EUGZXM4XLZdqBr6EdMtpP3Y0o7yg4",
+    "usage": {
+      "completion_tokens": 833,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3430,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4263
+    }
+  },
+  "received_at": "2026-10-01T19:19:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "major",
+        "source_quote": "Jamin Smartens Up",
+        "suggested_fix": "Translate the title into natural Hindi, preserving meaning and tone. For example: जेमिन होशियार बनता है or जैमिन होशियार हो जाता है. Replace the title text inside the existing <title> element only.",
+        "translation_quote": "जैमिन स्मार्टेन्स अप"
+      },
+      {
+        "location": "<p>…र rocker on the porch…</p> (near Grandma Otto paragraph)",
+        "severity": "major",
+        "source_quote": "Grandma Otto watched these trials from her rocker on the porch. She was a quiet old lady.",
+        "suggested_fix": "Replace the untranslated/English word 'Veranda' and the mixed-language phrase with idiomatic Hindi. For example: \"दादी ऑट्टो अपनी बरामदे की झूला कुर्सी पर बैठकर इन परीक्षाओं को देखती रहती थीं।\" Ensure you preserve the surrounding <p> tags and existing HTML structure.",
+        "translation_quote": "दादी ऑट्टो अपनी झूला कुर्सी पर Veranda पर बैठकर इन परीक्षाओं को देखती रहतीं। वह एक शांत बूढ़ी औरत थीं।"
+      },
+      {
+        "location": "<p>…Jamin went to the wash house…</p>",
+        "severity": "minor",
+        "source_quote": "Jamin went to the wash house and scrubbed his hands.",
+        "suggested_fix": "Either translate 'wash house' into natural Hindi or use a consistent transliteration if the publication prefers that term. A clear Hindi rendering would be: \"जैमिन धुलाईघर गया और अपने हाथ धोए।\" Preserve the <p> tag and surrounding punctuation.",
+        "translation_quote": "जैमिन वॉश हाउस गया और अपने हाथ धोए।"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

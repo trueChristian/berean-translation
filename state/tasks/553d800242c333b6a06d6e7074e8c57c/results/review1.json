@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "84b10a00-ca59-41f7-bee8-622efcd5b893",
+    "response_id": "chatcmpl-EUGZMBez8M9RomCuOVWlecAlDs9V2",
+    "usage": {
+      "completion_tokens": 1163,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12710,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13873
+    }
+  },
+  "received_at": "2026-10-01T19:19:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph under heading '2) Leaving and cleaving in unity for life.' (source HTML: <h2>2) Leaving and cleaving in unity for life.</h2>)",
+        "severity": "minor",
+        "source_quote": "“Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24).",
+        "suggested_fix": "Remove the stray character and render the verse text exactly as in the source. Replace ““Therefore Bshall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24).” with ““Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24).” in the translation HTML, preserving surrounding tags and punctuation.",
+        "translation_quote": "“Therefore Bshall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24)."
+      },
+      {
+        "location": "Heading '3) They shall be one flesh.' (source HTML: <h2>3) They shall be one flesh.</h2>)",
+        "severity": "minor",
+        "source_quote": "3) They shall be one flesh.",
+        "suggested_fix": "Use a more natural Hindi equivalent for the biblical idiom “one flesh.” Replace the heading text “3) वे एक माँस होंगे।” with “3) वे एक देह होंगे।” (or “3) वे एक शरीर होंगे।”), preserving the <h2> tag and numbering exactly as in source HTML.",
+        "translation_quote": "3) वे एक माँस होंगे।"
+      },
+      {
+        "location": "Heading and paragraph under '4) Not an unequal yoke.' (source HTML: <h2>4) Not an unequal yoke.</h2>)",
+        "severity": "minor",
+        "source_quote": "4) Not an unequal yoke.",
+        "suggested_fix": "Correct the mistransliteration of 'yoke'. Replace occurrences of “जुआग” with the correct Hindi term “जुड़न/जुड़न-बेल्ट” or the transliteration “योक (yoke)” as appropriate. For example, change “असमान जुआग की नहीं।” to “असमान जुताई (yoke) नहीं।” or better: “असमान जुग (yoke) नहीं।” — preserve the <h2> tag and surrounding HTML. (Preferably use “असमान जुग” → or simply “असमान युग/योक” to convey the intended biblical meaning.)",
+        "translation_quote": "4) असमान जुआग की नहीं।"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

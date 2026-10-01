@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f6fe773b-729d-4d47-875a-e2cbff00fecb",
+    "response_id": "chatcmpl-EUGZ2JnL2UM1L2qrEDho6GUiHjACK",
+    "usage": {
+      "completion_tokens": 834,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9438,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10272
+    }
+  },
+  "received_at": "2026-10-01T19:19:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph / throughout (name spelling)",
+        "severity": "minor",
+        "source_quote": "“Elsie” (appears throughout source; note one instance spelled “Elise” in source.html)",
+        "suggested_fix": "Standardize the name spelling to match the authoritative English throughout the translation. Replace occurrences of “एलिसे” with “एल्सी” (or vice versa) to mirror the source spelling “Elsie.” Preserve HTML tags and structure (e.g., <p class=\"drop-cap\">…एल्सी…</p>).",
+        "translation_quote": "uses both “एल्सी” and “एलिसे” (inconsistent)"
+      },
+      {
+        "location": "Paragraph about finding a facility (paragraph that begins “I stepped out of the exam room and to make phone calls.”)",
+        "severity": "minor",
+        "source_quote": "“it was over an hour and a half before I found a facility”",
+        "suggested_fix": "Make the time expression natural and unambiguous in Hindi while preserving meaning. Example replacement inside the existing <p> tag: change “एक घंटे से अधिक डेढ़ घंटे बाद ही मुझे एक ऐसी सुविधा मिली” to “डेढ़ घंटे से अधिक के बाद ही मुझे एक ऐसी सुविधा मिली” (or “करोड़ डेढ़ घंटे बाद” is incorrect — use “डेढ़ घंटे से अधिक के बाद”). Preserve original HTML tags and order.",
+        "translation_quote": "“एक घंटे से अधिक डेढ़ घंटे बाद ही मुझे एक ऐसी सुविधा मिली”"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

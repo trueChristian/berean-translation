@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5039eaba-d22a-4b51-b7e3-7f696963749b",
+    "response_id": "chatcmpl-EUGZoU8zzBpdVEqguoJzAXWt0eWMN",
+    "usage": {
+      "completion_tokens": 847,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4188,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5035
+    }
+  },
+  "received_at": "2026-10-01T19:19:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>“धीरे-धीरे गंदगी साफ़ कर दी गई, और रिक ने पुनर्निर्माण के बारे में सोचना शुरू किया। उद्धरण अपेक्षा से अधिक थे, इसलिए उन्होंने कुछ काम खुद करने का विकल्प चुना।</p>",
+        "severity": "minor",
+        "source_quote": "The quotes were higher than expected, so he opted to do some of the work himself.",
+        "suggested_fix": "Use a more natural Hindi term for 'quotes' in this construction. Replace “उद्धरण अपेक्षा से अधिक थे” with “अनुमान/बोली अपेक्षा से अधिक आईं” to better convey the meaning.",
+        "translation_quote": "उद्धरण अपेक्षा से अधिक थे, इसलिए उन्होंने कुछ काम खुद करने का विकल्प चुना।"
+      },
+      {
+        "location": "<p>“मेरे पति ने उस विपत्ति का सामना एक पुरुष की तरह किया,” बेकी कहती हैं। “उनकी शांत आत्मा ने मुझे भी शिथिल कर दिया।",
+        "severity": "minor",
+        "source_quote": "His calm spirit helped me relax.",
+        "suggested_fix": "'शिथिल कर दिया' is literal and can imply 'made me slack/loosened' in Hindi. For clearer, more natural rendering of 'helped me relax', consider: “उनकी शांत प्रवृत्ति/भावनात्मक शान्ति ने मुझे शान्त और निश्चिंत कर दिया।” Preserve tags and punctuation.",
+        "translation_quote": "उनकी शांत आत्मा ने मुझे भी शिथिल कर दिया।"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

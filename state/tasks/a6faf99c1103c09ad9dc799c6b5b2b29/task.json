@@ -2,7 +2,6 @@
   "article_id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8830280edb304dd2ac901935863d941b",
   "campaign": "gh-36908316701",
   "created_at": "2026-10-01T18:39:36+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 1843
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 835,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1528,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2363
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<figure> <img alt>",
+      "severity": "minor",
+      "source_quote": "A small boat at the edge of calm water during a vivid sunset",
+      "suggested_fix": "Preserve original sense and improve Hindi idiom; keep original tags. Example change inside the same img tag: alt=\"एक छोटी नाव शांत पानी के किनारे, एक जीवंत सूर्यास्त के समय\"",
+      "translation_quote": "एक छोटे से नाव पर शांत पानी के किनारे में जीवंत सूर्यास्त के समय"
+    },
+    {
+      "location": "<div class=\"poem\"> stanza 1, line 6",
+      "severity": "minor",
+      "source_quote": "Give thanks and laud, for more is here!",
+      "suggested_fix": "Render the nuance of 'more is here' as an implication of additional grace/blessing rather than the literal 'more came'. Example fix (preserve tags): \"धन्यवाद करो और स्तुति करो; और अधिक अनुग्रह यहाँ है!\"",
+      "translation_quote": "धन्यवाद करो और स्तुति करो, और भी अधिक आया है!"
+    },
+    {
+      "location": "<div class=\"poem\"> stanza 2, line 5",
+      "severity": "minor",
+      "source_quote": "His mercy reaches down to men-",
+      "suggested_fix": "Translate the downward-reaching sense of mercy rather than 'inherent'. Example fix (preserve tags): \"उसकी दया लोगों तक पहुँचती है—\"",
+      "translation_quote": "उसकी दया मनुष्यों तक निहित है—"
+    }
+  ],
+  "finished_at": "2026-10-01T19:19:12+00:00",
   "id": "a6faf99c1103c09ad9dc799c6b5b2b29",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "hin",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/106121576068d9bdf697518dbfe2c70eff09e46a5d060eef756de2cfcb440b7f.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

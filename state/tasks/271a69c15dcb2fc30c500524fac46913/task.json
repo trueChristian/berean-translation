@@ -2,7 +2,6 @@
   "article_id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8830280edb304dd2ac901935863d941b",
   "campaign": "gh-36908316701",
   "created_at": "2026-10-01T18:39:36+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 9625
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 834,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9438,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10272
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "First paragraph / throughout (name spelling)",
+      "severity": "minor",
+      "source_quote": "“Elsie” (appears throughout source; note one instance spelled “Elise” in source.html)",
+      "suggested_fix": "Standardize the name spelling to match the authoritative English throughout the translation. Replace occurrences of “एलिसे” with “एल्सी” (or vice versa) to mirror the source spelling “Elsie.” Preserve HTML tags and structure (e.g., <p class=\"drop-cap\">…एल्सी…</p>).",
+      "translation_quote": "uses both “एल्सी” and “एलिसे” (inconsistent)"
+    },
+    {
+      "location": "Paragraph about finding a facility (paragraph that begins “I stepped out of the exam room and to make phone calls.”)",
+      "severity": "minor",
+      "source_quote": "“it was over an hour and a half before I found a facility”",
+      "suggested_fix": "Make the time expression natural and unambiguous in Hindi while preserving meaning. Example replacement inside the existing <p> tag: change “एक घंटे से अधिक डेढ़ घंटे बाद ही मुझे एक ऐसी सुविधा मिली” to “डेढ़ घंटे से अधिक के बाद ही मुझे एक ऐसी सुविधा मिली” (or “करोड़ डेढ़ घंटे बाद” is incorrect — use “डेढ़ घंटे से अधिक के बाद”). Preserve original HTML tags and order.",
+      "translation_quote": "“एक घंटे से अधिक डेढ़ घंटे बाद ही मुझे एक ऐसी सुविधा मिली”"
+    }
+  ],
+  "finished_at": "2026-10-01T19:19:12+00:00",
   "id": "271a69c15dcb2fc30c500524fac46913",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "hin",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3451f84582c4785f9b0f645d0fa02d45fddc1b092b1b316a6c04206ec4c9dba9.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

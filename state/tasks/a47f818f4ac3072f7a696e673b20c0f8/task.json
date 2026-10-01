@@ -2,7 +2,6 @@
   "article_id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8830280edb304dd2ac901935863d941b",
   "campaign": "gh-36908316701",
   "created_at": "2026-10-01T18:39:36+00:00",
   "events": [
@@ -24,6 +23,41 @@
         },
         "total_tokens": 3690
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 892,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3183,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4075
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html — first paragraph (vendors list)",
+      "severity": "major",
+      "source_quote": "The vendors at the Green Dragon Farmer’s Market in Ephrata, PA, were trying their best to entice buyers with their rows of fresh fish over ice, cheeses of every variety, deli meat and sandwiches, and piles of fresh fruit.",
+      "suggested_fix": "Translate the phrase 'deli meat and sandwiches' into clear Hindi and remove the garbled text. For example, replace the translated fragment 'डे então मीट व सैंडविच' with 'डेअली मीट और सैंडविच' or a natural Hindi rendering 'डीली मीट और सैंडविच'. Preserve original HTML and punctuation.",
+      "translation_quote": "...हर प्रकार के पनीर, डे então मीट व सैंडविच, और ताज़े फल के ढेरों से खरीदारों को लुभाने की पूरी कोशिश कर रहे थे।"
+    },
+    {
+      "location": "source.html — third paragraph (sentence about spreading Good News)",
+      "severity": "major",
+      "source_quote": "Courageous writers step forward with pen and paper or keyboard and monitor and help spread the Good News of the Word of God with caution, correction, and edification.",
+      "suggested_fix": "'Good News' should be translated to convey the theological meaning in the source (e.g., 'शुभ समाचार' or 'सुसमाचार'), and 'Word of God' should remain clearly referenced as 'परमेश्वर का वचन'. Replace the incorrect 'परमेश्वर के वचन की शुभ-संध्या' with a faithful rendering such as 'परमेश्वर के वचन का शुभ समाचार' or 'परमेश्वर के वचन की सुसमाचार संदेश'. Keep HTML tags and sentence structure intact.",
+      "translation_quote": "साहसी लेखक कलम और कागज़ या कीबोर्ड और मॉनिटर लेकर आगे आते हैं और परमेश्वर के वचन की शुभ-संध्या को सावधानी, सुधार, और प्रेरणा के साथ फैलाने में मदद करते हैं।"
     }
   ],
   "id": "a47f818f4ac3072f7a696e673b20c0f8",
@@ -69,11 +103,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/bfd32875bae1c5d468e2e36f74da09a376963ebbef7c9772d51528cb0cd0f755.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

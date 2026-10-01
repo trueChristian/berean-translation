@@ -2,7 +2,6 @@
   "article_id": "db7b1129-282d-4f48-aefa-f839cb585426",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8830280edb304dd2ac901935863d941b",
   "campaign": "gh-36908316701",
   "created_at": "2026-10-01T18:39:36+00:00",
   "events": [
@@ -24,8 +23,58 @@
         },
         "total_tokens": 7371
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1418,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7056,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8474
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "First paragraph of article (opening sentence in translation)",
+      "severity": "minor",
+      "source_quote": "Do you believe in miracles? Do you believe in the supernatural? What about divine intervention? Or a better question might be, have you seen God working in your life? Do others see God working in your life?",
+      "suggested_fix": "The Hindi is fine overall but consider smoothing register by making the last two questions parallel and idiomatic: e.g. “या एक बेहतर सवाल यह हो सकता है: क्या आपने देखा है कि परमेश्वर आपके जीवन में काम कर रहा है? क्या दूसरे लोग भी देख पाते हैं कि परमेश्वर आपके जीवन में काम कर रहे हैं?”",
+      "translation_quote": "क्या आप चमत्कारों में विश्वास करते हैं? क्या आप अलौकिक में विश्वास करते हैं? दिव्य हस्तक्षेप के बारे में क्या ख्याल है? या एक बेहतर सवाल ये हो सकता है: क्या आपने देखा है कि परमेश्वर आपके जीवन में काम कर रहा है? क्या दूसरे लोग देखते हैं कि परमेश्वर आपके जीवन में काम कर रहे हैं?"
+    },
+    {
+      "location": "Paragraph describing the greenhouse conversation (translation)",
+      "severity": "minor",
+      "source_quote": "“Some plant, some water, but God gives the increase.”",
+      "suggested_fix": "Render the idiomatic English more naturally in Hindi while preserving meaning. Current: “कुछ पौधे, कुछ पानी, पर वृद्धि देने वाला परमेश्वर है।” Better: “कुछ पौधा, कुछ पानी—पर वृद्धि देने वाला परमेश्वर है।” or “थोड़ा पौधा, थोड़ा पानी—पर वृद्धि देने वाला परमेश्वर है।” This keeps the conversational rhythm and sense of the original remark.",
+      "translation_quote": "“कुछ पौधे, कुछ पानी, पर वृद्धि देने वाला परमेश्वर है।”"
+    },
+    {
+      "location": "Paragraph about scientists (translation)",
+      "severity": "minor",
+      "source_quote": "Scientists around the world are working diligently to put human reasoning into everything that has ever happened, even the creation of the world.",
+      "suggested_fix": "The Hindi reads awkwardly (“उस समय से ही यह प्रयास कर रहे हैं”). Suggest replacing with a clearer phrasing that preserves meaning: e.g. “दुनिया भर के वैज्ञानिक यह कठोर परिश्रम कर रहे हैं कि मानव तर्क को हर चीज़ पर लागू किया जाए, यहाँ तक कि संसार की रचना तक।”",
+      "translation_quote": "दुनिया भर के वैज्ञानिक उस समय से ही यह प्रयास कर रहे हैं कि मानव तर्क को हर उस चीज़ में प्रशिक्षित किया जाए जो कभी हुई है, यहाँ तक कि संसार की रचना में भी।"
+    },
+    {
+      "location": "Sentence about Chinese minister (translation)",
+      "severity": "minor",
+      "source_quote": "A minister from China was visiting the churches in America. Before departing back to China, he was asked what impressed him most about the churches in America. He replied, “I am amazed at what all they have accomplished without God.”",
+      "suggested_fix": "Tense/number mismatch in Hindi: current reads plural/present—“चीन के एक मंत्री अमेरिका के चर्चों का दौरा कर रहे थे।” Use singular past tense to match source: e.g. “चीन के एक मंत्री अमेरिका के चर्चों का दौरा कर रहे थे। चीन वापस प्रस्थान करने से पहले उनसे पूछा गया कि अमेरिका के चर्चों में उन्हें सबसे अधिक क्या प्रभावित करता है। उन्होंने उत्तर दिया, ‘मुझे हैरानी है कि उन्होंने परमेश्वर के बिना क्या‑क्या हासिल किया है।’” or more simply: “चीन के एक मंत्री अमेरिका के चर्चों का दौरा कर रहे थे। वे चीन लौटने से पहले पूछा गया कि उन्हें अमेरिका के चर्चों में सबसे अधिक क्या प्रभावित किया। उन्होंने उत्तर दिया…”",
+      "translation_quote": "चीन के एक मंत्री अमेरिका के चर्चों का दौरा कर रहे थे। चीन वापस प्रस्थान करने से पहले उनसे पूछा गया कि उन्हें अमेरिका के चर्चों में सबसे अधिक क्या प्रभावित कर गया। उन्होंने उत्तर दिया, “मुझे हैरानी है कि उन्होंने परमेश्वर के बिना क्या‑क्या हासिल किया है।”"
+    }
+  ],
+  "finished_at": "2026-10-01T19:19:12+00:00",
   "id": "c260b649a9763d308cfd49d1a075f1d2",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "hin",
@@ -69,11 +118,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a072a36e6aede6bd6978f7ac04698cebcbcce9571999d9176c58a465e0428962.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

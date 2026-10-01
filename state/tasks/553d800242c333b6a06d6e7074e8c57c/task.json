@@ -2,7 +2,6 @@
   "article_id": "80e78d22-936e-48de-885a-f9a8898d5e42",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8830280edb304dd2ac901935863d941b",
   "campaign": "gh-36908316701",
   "created_at": "2026-10-01T18:39:36+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 12898
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1163,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12710,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13873
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Paragraph under heading '2) Leaving and cleaving in unity for life.' (source HTML: <h2>2) Leaving and cleaving in unity for life.</h2>)",
+      "severity": "minor",
+      "source_quote": "“Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24).",
+      "suggested_fix": "Remove the stray character and render the verse text exactly as in the source. Replace ““Therefore Bshall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24).” with ““Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24).” in the translation HTML, preserving surrounding tags and punctuation.",
+      "translation_quote": "“Therefore Bshall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24)."
+    },
+    {
+      "location": "Heading '3) They shall be one flesh.' (source HTML: <h2>3) They shall be one flesh.</h2>)",
+      "severity": "minor",
+      "source_quote": "3) They shall be one flesh.",
+      "suggested_fix": "Use a more natural Hindi equivalent for the biblical idiom “one flesh.” Replace the heading text “3) वे एक माँस होंगे।” with “3) वे एक देह होंगे।” (or “3) वे एक शरीर होंगे।”), preserving the <h2> tag and numbering exactly as in source HTML.",
+      "translation_quote": "3) वे एक माँस होंगे।"
+    },
+    {
+      "location": "Heading and paragraph under '4) Not an unequal yoke.' (source HTML: <h2>4) Not an unequal yoke.</h2>)",
+      "severity": "minor",
+      "source_quote": "4) Not an unequal yoke.",
+      "suggested_fix": "Correct the mistransliteration of 'yoke'. Replace occurrences of “जुआग” with the correct Hindi term “जुड़न/जुड़न-बेल्ट” or the transliteration “योक (yoke)” as appropriate. For example, change “असमान जुआग की नहीं।” to “असमान जुताई (yoke) नहीं।” or better: “असमान जुग (yoke) नहीं।” — preserve the <h2> tag and surrounding HTML. (Preferably use “असमान जुग” → or simply “असमान युग/योक” to convey the intended biblical meaning.)",
+      "translation_quote": "4) असमान जुआग की नहीं।"
+    }
+  ],
+  "finished_at": "2026-10-01T19:19:12+00:00",
   "id": "553d800242c333b6a06d6e7074e8c57c",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "hin",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1813629ba31cec5f42c8546808ad86fd17dc2aca775e7cb43f2368f4a4530061.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

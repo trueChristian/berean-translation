@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0a0c82d2-e8ee-4956-b57e-e6619c8f561a",
+    "response_id": "chatcmpl-EUGZFiGhIhON4XIMismtPDxrCdhpT",
+    "usage": {
+      "completion_tokens": 1868,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6776,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8644
+    }
+  },
+  "received_at": "2026-10-01T19:19:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "subtitle",
+        "severity": "minor",
+        "source_quote": "and ‘round me rings the music of the spheres.",
+        "suggested_fix": "Translate the subtitle into Hindi (preserve punctuation and case). Example: \"और मेरे चारों ओर झनझनाती है गगन-सरगम।\" — or a suitable idiomatic Hindi rendering; replace the current English text in the subtitle field with the Hindi translation.",
+        "translation_quote": "and ‘round me rings the music of the spheres."
+      },
+      {
+        "location": "multiple inline quotations and Scripture/quoted English phrases (e.g., first paragraph, various verses throughout)",
+        "severity": "minor",
+        "source_quote": "“Doth not nature itself teach you?”; “Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5); “Is any merry? Let him sing psalms” (James 5:13); “And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3); “But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14); “Behold, my servants shall sing for joy of heart” (Is 65:14); “Babylon the great is fallen, is fallen...a cage of every unclean and hateful bird” (Rev 18:2); other quoted English lines and scripture quotations appear in English in the source.",
+        "suggested_fix": "The translation currently leaves many of the article's quoted English phrases and Scripture lines in English. If the editorial policy requires complete Hindi text, render those quoted passages into Hindi while conveying the original printed English meaning exactly (preserve scripture reference numbers). Example for John 4:14: replace the English quote with Hindi that conveys the same wording used in the source (do not substitute a different Bible version). Ensure all quotations that appear in source.html are conveyed in Hindi in the translation HTML.",
+        "translation_quote": "“Doth not nature itself teach you?”; “Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5); “Is any merry? Let him sing psalms” (James 5:13); “And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3); “But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14); “Behold, my servants shall sing for joy of heart” (Is 65:14); “Babylon the great is fallen, is fallen...a cage of every unclean and hateful bird” (Rev 18:2); …"
+      },
+      {
+        "location": "paragraph beginning \"The robin opens up the choir...\" (third full paragraph after first figure)",
+        "severity": "minor",
+        "source_quote": "The song of the wren trumps them all for longevity and vibrancy. The canary sings in a cage, while the nightingale sings in the dark. The robins sing in the rain. The buntings fill in the heat of the day when other birds are silent.",
+        "suggested_fix": "Correct awkward or incorrect transliterations and grammar. In the translation the word 'wren' appears rendered as “रेन” (possibly a mistransliteration) and 'song sparrow / rose-breasted grosbeak' were inconsistently transliterated. Render bird names consistently (either in Hindi common names where available or as consistent transliterations) and correct sentence flow. Example fixes: replace “रेन का गीत उनकी सभी से लंबाई और जीवंतता में बढ़कर ट्रम्प करता है” with “व्रेन (wren) का गीत सभी में लंबी अवधि और जीवंतता के लिए सर्वश्रेष्ठ है।” Ensure verbs and sentence structure read naturally in Hindi.",
+        "translation_quote": "रॉबिन शुरुआती वसंत में गायन-दलीयता खोलता है, पर उसका गीत शीघ्र ही सॉन्ग स्पैरो और फिर रोज-ब्रेस्टेड ग्रॉसबीक के गीत से श्रेष्ठता में पीछे रह जाता है। रेन का गीत उनकी सभी से लंबाई और जीवंतता में बढ़कर ट्रम्प करता है। कैनरी पिंजरे में गाती है, जबकि नाइटिंगेल अँधेरे में गाती है। रॉबिन वर्षा में गाते हैं। बन्टिंग्स उन दिनों के गरमी में भर देते हैं जब अन्य पक्षी मौन रहते हैं।"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

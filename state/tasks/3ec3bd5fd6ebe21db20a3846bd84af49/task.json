@@ -2,7 +2,6 @@
   "article_id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8830280edb304dd2ac901935863d941b",
   "campaign": "gh-36908316701",
   "created_at": "2026-10-01T18:39:36+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 3108
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1117,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2920,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4037
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "translation.title",
+      "severity": "major",
+      "source_quote": "Procrastination Overload",
+      "suggested_fix": "Translate the English title into contemporary standard Hindi. For example: \"टालमटोल का बोझ\" or keep a close literal rendering such as \"टालमटोल ओवरलोड\" (only if retaining an English word is intentional). Replace the translation.title value with the chosen Hindi string.",
+      "translation_quote": "Procrastination Overload"
+    },
+    {
+      "location": "translation.section",
+      "severity": "major",
+      "source_quote": "SISTER TO SISTER",
+      "suggested_fix": "Translate the section heading into contemporary standard Hindi, preserving its function as a section label. For example: \"बहन से बहन\" or \"बहन से बहन (SISTER TO SISTER)\" if a bilingual label is required. Replace the translation.section value with the chosen Hindi string.",
+      "translation_quote": "SISTER TO SISTER"
+    },
+    {
+      "location": "translation.html > figure > img alt attribute",
+      "severity": "minor",
+      "source_quote": "A cup of coffee beside a spiral notebook and pencil.",
+      "suggested_fix": "Replace the mixed/incorrect alt text with a clean Hindi rendering of the original English alt. Preserve the img tag and its attributes exactly, only change the alt text. For example: alt=\"एक सर्पिल नोटबुक और पेंसिल के पास कॉफी का एक कप।\"",
+      "translation_quote": "螺旋 नोटबुक और पेंसिल के बगल में कॉफी का एक कप।"
+    },
+    {
+      "location": "translation.html > paragraph (near sentence containing 'schedule')",
+      "severity": "minor",
+      "source_quote": "Now I schedule an imaginary appointment before a trip. If it is not a dental emergency, some other issue is bound to fill that time slot.",
+      "suggested_fix": "Fix the mixed-language/punctuation error and render the verb in Hindi. Preserve surrounding HTML tags. For example: replace the sentence in the translation with: \"अब मैं यात्रा से पहले एक काल्पनिक अपॉइंटमेंट तय कर लेती हूँ। अगर यह दंत आपातकाल नहीं है, तो किसी और समस्या के उस समय‑स्लॉट को भरने की संभावना रहती है।\" (ensure no stray English token like '.schedule' remains).",
+      "translation_quote": "विंडो धोने और डेज़र्ट बनाने को किसी और दिन क्यों न.schedule करें?  इसका मतलब हो सकता है खिड़कियों पर कुछ उंगलियों के निशान और साधारण डेज़र्ट, पर क्या यह आखिरी मिनट पर भारी तनाव से बेहतर नहीं है?"
     }
   ],
   "id": "3ec3bd5fd6ebe21db20a3846bd84af49",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 85,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5fd263b236cc5e1da73816f24d29564842c820fa1abbcc53a271dfa0bf31493f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

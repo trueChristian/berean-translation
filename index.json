@@ -147,6 +147,190 @@
       "subtitle": null,
       "title": "Sta op, wees bly!",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
+      "html_sha256": "97b872dee7e908df83f9f9ee9c118ac3ecb6aafff54b6b8588611d678bdbcdc3",
+      "human_reviewed": false,
+      "id": "1c75dce8-1781-427f-8099-01596d53c2a4",
+      "images": [
+        {
+          "alt": "एक हरे घास के मैदानी में खड़ा एक छोटा भूरा पक्षी",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-1.jpg"
+        },
+        {
+          "alt": "एक हरे पृष्ठभूमि के सामने एक कट शाखा पर बैठा नीला और सफेद पक्षी",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/1c75dce8-1781-427f-8099-01596d53c2a4.json",
+      "metadata_sha256": "889fb25b59a352fa0a7f7cc6504be0474bd99641a48dcc7fdd142009e02d5b92",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "फ़ीचर लेख",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
+      "status": "ready",
+      "subtitle": "and ‘round me rings the music of the spheres.",
+      "title": "संपूर्ण प्रकृति गाती है",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
+      "html_sha256": "c57acf1a3ba9ca58377ffe564c4c0cee0cbae90c328cd5faf18dd667f67b5cd4",
+      "human_reviewed": false,
+      "id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
+      "images": [
+        {
+          "alt": "एक अंधेरे लालटेन के अंदर चमकता बल्ब.",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-1.jpg"
+        },
+        {
+          "alt": "रंगीन जंगली फूलों और घासों के बीच तितली.",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.json",
+      "metadata_sha256": "29aca9babaa29acb89ea368854ca8d9e2cea0f6587931bb63272cbabc3acd126",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "डॉक्टर से एक बात",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
+      "status": "ready",
+      "subtitle": null,
+      "title": "निंदकता से निपटना",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
+      "html_sha256": "4bd6c7968de5c0adf0d955dcd6767b627c9b5c0ad2948a5387715b601ea3d649",
+      "human_reviewed": false,
+      "id": "80e78d22-936e-48de-885a-f9a8898d5e42",
+      "images": [
+        {
+          "alt": "एक हरा चरागाह पार करते हुए एक पुरुष और एक महिला",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-1.jpg"
+        },
+        {
+          "alt": "अपने नवजात शिशु की ओर देख रहे एक पिता और माता",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-2.jpg"
+        },
+        {
+          "alt": "झरने के सामने साथ खड़ा एक परिवार",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-3.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/80e78d22-936e-48de-885a-f9a8898d5e42.json",
+      "metadata_sha256": "83ef822102424b0b38eb46d6e27c0a44cfd66fcd62eedbd2df14f1370d97ef4f",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "युवा-उद्दीपन के लिये प्रेरणाएँ",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
+      "status": "ready",
+      "subtitle": "नर और नारी के लिए परमेश्वर की योजना",
+      "title": "एक मसीह-केंद्रित प्रेमप्रसंग",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
+      "html_sha256": "7f666cbaf5c8d3db566518266893d17d6d3f29d93893c18058b71224ec118890",
+      "human_reviewed": false,
+      "id": "93978dae-706d-43d4-abee-6b6e011683fa",
+      "images": [
+        {
+          "alt": "ऊपर से दिखाई देती रेतीली तटरेखा पर टूटते महासागर की लहरें।",
+          "public_path": "/images/articles/93978dae-706d-43d4-abee-6b6e011683fa-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/93978dae-706d-43d4-abee-6b6e011683fa.json",
+      "metadata_sha256": "53f186ed9a48dcde4ebf0292cd69a7a70e1bc440aeefa967a6e4cc6cb9288b38",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "बहन से बहन",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
+      "status": "ready",
+      "subtitle": null,
+      "title": "परिस्थितिजन्य अतिभार",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
+      "html_sha256": "9ba312457044d5e009ee5b074f2925ae055c40f2ce945fa8d93e38232056f4bd",
+      "human_reviewed": false,
+      "id": "db7b1129-282d-4f48-aefa-f839cb585426",
+      "images": [
+        {
+          "alt": "मिट्टी से उगते बीजों की एक श्रृंखला, एक हाथ उन्हें पानी दे रहा है",
+          "public_path": "/images/articles/db7b1129-282d-4f48-aefa-f839cb585426-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/db7b1129-282d-4f48-aefa-f839cb585426.json",
+      "metadata_sha256": "be99bb4e809ced3a3fd0b4882b6bff858da2c098c4e1eea1f0eb227f4410463d",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "एक मिशनरी की मननाएँ",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ईसाई मानवतावादी",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.html",
+      "html_sha256": "e41caaf0238767c28ffef7c5ffe174e912394a70279d239c27bcf73840335237",
+      "human_reviewed": false,
+      "id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
+      "images": [
+        {
+          "alt": "एक छोटे से नाव पर शांत पानी के किनारे में जीवंत सूर्यास्त के समय",
+          "public_path": "/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.json",
+      "metadata_sha256": "18068d1867d1689380ea586ce0cc0d4a1ff43abc47e68fada7a3fcc9264d7f03",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "कविता",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "उठो, आनन्दित हो!",
+      "translation_model": "gpt-5-mini-2025-08-07"
     }
   ],
   "format_version": "1.0",
