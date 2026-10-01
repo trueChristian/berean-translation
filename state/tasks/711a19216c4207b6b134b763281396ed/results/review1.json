@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "fd0b0ce7-7771-4f4a-9a13-309cffc72f05",
+    "response_id": "chatcmpl-EUGdDpR1oWGzZwryRSxyHksxEK65A",
+    "usage": {
+      "completion_tokens": 970,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3800,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4770
+    }
+  },
+  "received_at": "2026-10-01T20:27:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<h2>Sobreacarga prolongada pode ser emocional e mentalmente danosa</h2>",
+        "severity": "minor",
+        "source_quote": "Prolonged overload can be emotionally and mentally damaging",
+        "suggested_fix": "Correct the heading spelling to preserve clarity and standard Portuguese: change 'Sobreacarga' to 'Sobrecarga'. Preserve the HTML tag: <h2>Sobrecarga prolongada pode ser emocional e mentalmente danosa</h2>",
+        "translation_quote": "<h2>Sobreacarga prolongada pode ser emocional e mentalmente danosa</h2>"
+      },
+      {
+        "location": "<p>“Com o tempo a bagunça foi limpa, e Rick pensou em reconstruir. Os orçamentos estavam mais altos do que o esperado, então ele optou por fazer parte do trabalho ele mesmo. Também aceitou um trabalho em meio período para proporcionar mais renda.</p>",
+        "severity": "minor",
+        "source_quote": "He opted to do some of the work himself.",
+        "suggested_fix": "Improve idiomatic clarity while preserving meaning. Suggested wording: 'então ele optou por fazer parte do trabalho ele próprio.' Keep original HTML and punctuation. Example replacement: <p>“Com o tempo a bagunça foi limpa, e Rick pensou em reconstruir. Os orçamentos estavam mais altos do que o esperado, então ele optou por fazer parte do trabalho ele próprio. Também aceitou um trabalho em meio período para proporcionar mais renda.</p>",
+        "translation_quote": "<p>“Com o tempo a bagunça foi limpa, e Rick pensou em reconstruir. Os orçamentos estavam mais altos do que o esperado, então ele optou por fazer parte do trabalho ele mesmo. Também aceitou um trabalho em meio período para proporcionar mais renda.</p>"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

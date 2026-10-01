@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0adb6839-8f10-4e04-85b1-7e444d2c222c",
+    "response_id": "chatcmpl-EUGdKKdCNwoFUHG9mPpfDxIzzGfD4",
+    "usage": {
+      "completion_tokens": 1290,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2868,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4158
+    }
+  },
+  "received_at": "2026-10-01T20:27:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...</p> (paragraph 3, beginning with \"The Heartbeat of the Remnant\")",
+        "severity": "major",
+        "source_quote": "Youth encouraging fellow youth to press toward the mark of the prize of the high calling in Christ Jesus.",
+        "suggested_fix": "Translate the theological phrase to preserve the author's original intent and traditional Pauline wording. Example fix (preserving HTML):\n<p><em>The Heartbeat of the Remnant</em> ... Jovens encorajando outros jovens a prosseguir rumo ao alvo, ao prêmio da soberana vocação em Cristo Jesus.</p>",
+        "translation_quote": "Jovens encorajando outros jovens a prosseguir para a meta do prêmio da excelência no chamamento elevado em Cristo Jesus."
+      },
+      {
+        "location": "<p>Bençãos a todos,</p> (closing paragraph)",
+        "severity": "minor",
+        "source_quote": "Blessings to all,",
+        "suggested_fix": "Correct the Portuguese spelling while preserving the original structure and tags. Example fix:\n<p>Bênçãos a todos,</p>",
+        "translation_quote": "Bençãos a todos,"
+      },
+      {
+        "location": "<p>...</p> (paragraph with Nelson Mandela quote)",
+        "severity": "minor",
+        "source_quote": "Nelson Mandela, former president of South Africa wrote, “Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”",
+        "suggested_fix": "Either translate the quotation into Portuguese or present it as in the English original and indicate translation. Preserve punctuation and HTML. Example fixes:\n- Translate into Portuguese: Nelson Mandela, ex‑presidente da África do Sul, escreveu: “O fracasso é um professor, e, ao final da sua vida, com o que você acha que se sentirá pior, por falhar ou por nunca ter tentado?”\n- Or keep original and add translation in brackets: “Failure is a teacher... never trying?” [«O fracasso é um professor... nunca ter tentado?»]\nKeep the surrounding paragraph tags as in the translation.",
+        "translation_quote": "Nelson Mandela, ex-presidente da África do Sul, escreveu: “Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”"
+      },
+      {
+        "location": "<p>...</p> (paragraph 3, phrase about mothers raising children)",
+        "severity": "minor",
+        "source_quote": "Mothers who share experiences and trials with other mothers who are in the throes of raising little ones.",
+        "suggested_fix": "Use an idiomatic Portuguese expression that conveys the sense of being in the difficult period of raising young children. Example fix (preserving HTML):\n<p>... Mães que partilhem experiências e provações com outras mães que estão no calor de criar os pequenos.</p>\nOr: \"...que estão na difícil tarefa de criar os pequenos.\"",
+        "translation_quote": "Mães que partilhem experiências e provações com outras mães que estão no ímpeto de criar os pequenos."
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

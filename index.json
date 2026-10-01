@@ -331,6 +331,182 @@
       "subtitle": null,
       "title": "उठो, आनन्दित हो!",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
+      "html_sha256": "3ed4b7a778bec697532c6354890a7f3227ff088fccb089c1d52899433803a5ff",
+      "human_reviewed": false,
+      "id": "1c75dce8-1781-427f-8099-01596d53c2a4",
+      "images": [
+        {
+          "alt": "Um pequeno pássaro marrom em pé em um prado verde",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-1.jpg"
+        },
+        {
+          "alt": "Um pássaro azul e branco empoleirado em um galho cortado contra um fundo verde",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/1c75dce8-1781-427f-8099-01596d53c2a4.json",
+      "metadata_sha256": "ad8917819f86b94c0be5b38c6545beedb91a141cc8bf72acd959a7b13f158b19",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "FEATURED ARTICLE",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
+      "status": "ready",
+      "subtitle": "and ‘round me rings the music of the spheres.",
+      "title": "ALL NATURE SINGS",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
+      "html_sha256": "aea003e16ee06ab86c45da1fae3cb02f86e3abb4b3302c83933d2498c67bf53f",
+      "human_reviewed": false,
+      "id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
+      "images": [
+        {
+          "alt": "Uma lâmpada brilhante dentro de uma lanterna escura.",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-1.jpg"
+        },
+        {
+          "alt": "Uma borboleta entre flores silvestres e ervas brilhantes.",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.json",
+      "metadata_sha256": "619d28cf5ba506eaed343f7d03aed7f47e635133011da14e2c9ffcd74510c090",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "UMA PALAVRA DO MÉDICO",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Lidando com o Cinismo",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
+      "html_sha256": "75b74db9c37f2c88b080225dda7742239b6939bb4ba3708cc5aeb41a76ca359f",
+      "human_reviewed": false,
+      "id": "93978dae-706d-43d4-abee-6b6e011683fa",
+      "images": [
+        {
+          "alt": "Ondas do oceano quebrando ao longo de uma praia arenosa vistas de cima.",
+          "public_path": "/images/articles/93978dae-706d-43d4-abee-6b6e011683fa-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/93978dae-706d-43d4-abee-6b6e011683fa.json",
+      "metadata_sha256": "eba838f7a6f3f5967923bb35aa536da73bc531fb5dd3806dc663f763ccb2e1dc",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SISTER TO SISTER",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Circumstantial Overload",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.html",
+      "html_sha256": "718c3e51a2c1bdb2c5cc70bb6171996898d795eaa56d933d599c11f09524cdc7",
+      "human_reviewed": false,
+      "id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
+      "images": [
+        {
+          "alt": "Uma xícara de café ao lado de um caderno espiral e um lápis.",
+          "public_path": "/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.json",
+      "metadata_sha256": "5c0426264482a0b575d7fed513bc1c7794adc1ec33e1ead9eb5b2384255ae6eb",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "DE IRMÃ PARA IRMÃ",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Procrastinação em Excesso",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
+      "html_sha256": "3899d06f9d81678a89c234ddc415c079ff9a40534034e8b0c08af76c0bfed9c2",
+      "human_reviewed": false,
+      "id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
+      "images": [
+        {
+          "alt": "Um caminho estreito serpenteando por um bosque folhoso",
+          "public_path": "/images/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.json",
+      "metadata_sha256": "20e43782bb5ca52a840b32cf78cdecd3fdd34b75aafb52053741847bba800798",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Cantinho Infantil",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Jamin Fica Mais Esperto",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.html",
+      "html_sha256": "54324c559d34b1e320ab79f347bb062d8898d2fa6d49abd37ed5a10cac12df61",
+      "human_reviewed": false,
+      "id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
+      "images": [
+        {
+          "alt": "Um pequeno barco à beira de águas calmas durante um pôr do sol vívido",
+          "public_path": "/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.json",
+      "metadata_sha256": "d0f8cf30eac4d0a9279ea56be2c5ca13e9e288f26e6640cfb6cd4101490fd9fd",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Poema",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Erguei-vos e alegrai-vos!",
+      "translation_model": "gpt-5-mini-2025-08-07"
     }
   ],
   "format_version": "1.0",

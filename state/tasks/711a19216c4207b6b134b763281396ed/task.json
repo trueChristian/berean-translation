@@ -2,7 +2,6 @@
   "article_id": "93978dae-706d-43d4-abee-6b6e011683fa",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "02f1c01f4c0c4918b31d802306658076",
   "campaign": "gh-36909529190",
   "created_at": "2026-10-01T18:49:20+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 4063
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 970,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3800,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4770
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<h2>Sobreacarga prolongada pode ser emocional e mentalmente danosa</h2>",
+      "severity": "minor",
+      "source_quote": "Prolonged overload can be emotionally and mentally damaging",
+      "suggested_fix": "Correct the heading spelling to preserve clarity and standard Portuguese: change 'Sobreacarga' to 'Sobrecarga'. Preserve the HTML tag: <h2>Sobrecarga prolongada pode ser emocional e mentalmente danosa</h2>",
+      "translation_quote": "<h2>Sobreacarga prolongada pode ser emocional e mentalmente danosa</h2>"
+    },
+    {
+      "location": "<p>“Com o tempo a bagunça foi limpa, e Rick pensou em reconstruir. Os orçamentos estavam mais altos do que o esperado, então ele optou por fazer parte do trabalho ele mesmo. Também aceitou um trabalho em meio período para proporcionar mais renda.</p>",
+      "severity": "minor",
+      "source_quote": "He opted to do some of the work himself.",
+      "suggested_fix": "Improve idiomatic clarity while preserving meaning. Suggested wording: 'então ele optou por fazer parte do trabalho ele próprio.' Keep original HTML and punctuation. Example replacement: <p>“Com o tempo a bagunça foi limpa, e Rick pensou em reconstruir. Os orçamentos estavam mais altos do que o esperado, então ele optou por fazer parte do trabalho ele próprio. Também aceitou um trabalho em meio período para proporcionar mais renda.</p>",
+      "translation_quote": "<p>“Com o tempo a bagunça foi limpa, e Rick pensou em reconstruir. Os orçamentos estavam mais altos do que o esperado, então ele optou por fazer parte do trabalho ele mesmo. Também aceitou um trabalho em meio período para proporcionar mais renda.</p>"
+    }
+  ],
+  "finished_at": "2026-10-01T20:27:50+00:00",
   "id": "711a19216c4207b6b134b763281396ed",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "por",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/655f2b893d535149fb7f0e71fcdd48b885970929ae2439021fc6d8de3cd6b11b.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

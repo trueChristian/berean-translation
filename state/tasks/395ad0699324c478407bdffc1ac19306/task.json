@@ -2,7 +2,6 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "02f1c01f4c0c4918b31d802306658076",
   "campaign": "gh-36909529190",
   "created_at": "2026-10-01T18:49:20+00:00",
   "events": [
@@ -24,8 +23,37 @@
         },
         "total_tokens": 3336
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 769,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3149,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3918
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "source.html — paragraph: \"Darkness stained the ground around Kenny.\" (around middle of meadow scene)",
+      "severity": "minor",
+      "source_quote": "Darkness stained the ground around Kenny.",
+      "suggested_fix": "Revise the Portuguese to correct grammar and preserve meaning. Replace the problematic phrase with: \"A escuridão manchava o chão ao redor de Kenny.\" (keeping surrounding HTML paragraph tags unchanged).",
+      "translation_quote": "A escuridão manchas rodeava o chão ao redor de Kenny."
+    }
+  ],
+  "finished_at": "2026-10-01T20:27:50+00:00",
   "id": "395ad0699324c478407bdffc1ac19306",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "por",
@@ -69,11 +97,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a7ca25068c1bad9f392aef90030e0bae4b2e168a2dbdfb445b23493e0ef481c1.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
