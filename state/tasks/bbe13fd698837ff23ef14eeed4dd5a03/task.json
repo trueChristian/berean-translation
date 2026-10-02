@@ -2,7 +2,6 @@
   "article_id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8e36ccc7ff224c8d8c2acde5ff4b1fd4",
   "campaign": "gh-36910662071",
   "created_at": "2026-10-01T18:57:44+00:00",
   "events": [
@@ -43,17 +42,44 @@
         },
         "total_tokens": 16879
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 880,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10519,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11399
+      }
     }
   ],
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[15]; missing: none; extra: 14:00",
-      "translation_quote": ""
+      "location": "article > p (paragraph describing Elsie after plan)",
+      "severity": "minor",
+      "source_quote": "I told them about the plan, and her husband nodded vigorously, while Elise continued to stare silently at the floor.",
+      "suggested_fix": "Preserve the original personal name spelling used elsewhere (Έλσι). Change «η Έλις» to «η Έλσι» to match the rest of the article and the source.",
+      "translation_quote": "Τους εξήγησα το σχέδιο, και ο σύζυγός της έκανε ζωηρή νεύρωση, ενώ η Έλις συνέχισε να κοιτάζει σιωπηλά στο πάτωμα."
+    },
+    {
+      "location": "article > section \"Να Θυμάστε Ότι Έχουμε Ανεξήγητη Ελπίδα\" (paragraph translating \"Each one of us was hopeless and without reason to expect to receive hope...\")",
+      "severity": "minor",
+      "source_quote": "Each one of us was hopeless and without reason to expect to receive hope and we were still given a ray of light in the midst of our darkness.",
+      "suggested_fix": "Adjust Greek wording for naturalness and to match the source meaning and grammatical person. Replace «Ο καθένας από εμάς ήταν απελπιστικός και χωρίς λόγο να περιμένει ελπίδα…» with a wording that preserves the intended meaning and tone, e.g. «Ο καθένας από εμάς ήταν απελπισμένος και δεν είχε κανένα λόγο να περιμένει ελπίδα, και παρ’ όλα αυτά μας δόθηκε μια ακτίνα φωτός μέσα στο σκοτάδι μας.» This preserves meaning and maintains plural/collective sense.",
+      "translation_quote": "Ο καθένας από εμάς ήταν απελπιστικός και χωρίς λόγο να περιμένει ελπίδα και παρόλα αυτά μας δόθηκε μια ραβδούλα φωτός μέσα στο σκοτάδι μας."
     }
   ],
+  "finished_at": "2026-10-02T00:07:52+00:00",
   "id": "bbe13fd698837ff23ef14eeed4dd5a03",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ell",
@@ -97,11 +123,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3451f84582c4785f9b0f645d0fa02d45fddc1b092b1b316a6c04206ec4c9dba9.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
