@@ -201,7 +201,7 @@ class DownstreamEntrypointTests(unittest.TestCase):
         self.assertEqual(set(workflow['on']), {'workflow_dispatch'})
         inputs = workflow['on']['workflow_dispatch']['inputs']
         self.assertEqual(set(inputs), {'model', 'review_model', 'max_articles', 'budget_usd', 'dry_run'})
-        choices = {'gpt-6.1-sol', 'gpt-6-astra', 'gpt-5-mini',
+        choices = {'gpt-6.1-sol', 'gpt-6-astra', 'gpt-6-luna', 'gpt-5-mini',
                    'gpt-4.1-mini', 'gpt-4.1-nano', 'gpt-4.1'}
         for field in ('model', 'review_model'):
             self.assertEqual(inputs[field]['type'], 'choice')

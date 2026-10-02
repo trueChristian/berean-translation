@@ -1,4 +1,4 @@
-# Model pricing and recovery requests
+# Model pricing and request defaults
 
 Verified against official OpenAI documentation on **2026-10-02**. Rates below
 are USD per million tokens for **Batch**, using the ordinary global API endpoint.
@@ -7,6 +7,7 @@ are outside this text-only Batch adapter's scope.
 
 | Registry model / API ID | Input | Cached input | Cache writes | Output |
 | --- | ---: | ---: | ---: | ---: |
+| `gpt-6-luna` | $0.05 | $0.005 | $0.0625 | $0.25 |
 | `gpt-6.1-sol` | $1.00 | $0.05 | $1.25 | $5.00 |
 | `gpt-6-astra` | $5.00 | $0.50 | $6.25 | $25.00 |
 
@@ -19,26 +20,47 @@ Sources: [API pricing](https://developers.openai.com/api/docs/pricing) and
 
 ## Verified request contract
 
-Both models support a 1,050,000-token context and at most 128,000 output tokens.
+All three models support a 1,050,000-token context and at most 128,000 output tokens.
 The documented API IDs above are used as published; the pages do not supply
 dated snapshots to pin. The registry records `reasoning_effort: low` for each.
-Their supported effort levels are `low`, `medium`, `high`, `xhigh`, and `max`.
-Sources: [GPT-6.1 Sol](https://developers.openai.com/api/docs/models/gpt-6.1-sol)
+All support `low`, `medium`, `high`, `xhigh`, and `max`; Luna also supports `none`.
+Sources: [GPT-6 Luna](https://developers.openai.com/api/docs/models/gpt-6-luna),
+[GPT-6.1 Sol](https://developers.openai.com/api/docs/models/gpt-6.1-sol)
 and [GPT-6 Astra](https://developers.openai.com/api/docs/models/gpt-6-astra).
 
 This repository keeps Batch requests to `/v1/chat/completions`, with no tools,
 `reasoning_effort`, `max_completion_tokens`, and the existing strict JSON-schema
 `response_format`. Chat Completions is supported for these text-only requests;
-tool calling would require Responses. There is no synchronous fallback. The
-completion cap includes reasoning as well as visible output. Sources:
+tool calling at the selected `low` effort would require Responses. There is no
+synchronous fallback. The completion cap includes reasoning as well as visible
+output. Sources:
 [migration guide](https://developers.openai.com/api/docs/guides/latest-model#update-api-and-model-parameters)
 and [Chat Completions reference](https://developers.openai.com/api/reference/resources/chat/subresources/completions/methods/create).
+The [Structured Outputs guide](https://developers.openai.com/api/docs/guides/structured-outputs)
+documents the strict JSON-schema response format, and the
+[Batch guide](https://developers.openai.com/api/docs/guides/batch) documents batched
+Chat Completions requests.
+
+## Defaults and bounded alternatives
+
+New ordinary manual translation and review campaigns default to GPT-6 Luna in
+the runtime and both workflows. It is also selectable in the exact-candidate
+recovery and held-translation repair workflows. Its short-context uncached input
+rate is 60% lower and its output rate 75% lower than the existing GPT-5 mini Batch
+registry rates; this is a rate comparison, not a prediction of total spend or
+translation quality. Cached input, reasoning use, output length, retries, and the
+long-context tier affect actual cost. The application retains the 16,384-token
+ordinary translation/correction cap and the 8,192-token reasoning-review cap.
+Both review stages include reasoning within that cap.
 
 Downstream recovery selects GPT-6.1 Sol by default and permits the more expensive
-GPT-6 Astra as a manual option. Recovery uses a 32,768-token translation/correction
-cap and an 8,192-token review cap. These are application caps below the model
+GPT-6 Astra or cheaper Luna as manual options. Recovery uses a 32,768-token
+translation/correction cap and an 8,192-token review cap. These are application caps below the model
 maximum. Higher model capability does not certify theological accuracy or relax
-the existing publication gates.
+the existing publication gates. Exact-candidate recovery retains GPT-5 mini as
+its workflow default. Explicit model selections remain authoritative, and the
+new defaults do not alter frozen campaigns, publish held candidates, increase
+spending limits, or enable automatic downstream recovery.
 
 ## Conservative reservation and reported usage
 
