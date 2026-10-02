@@ -27,5 +27,15 @@
     "review_model": "gpt-5-mini",
     "budget_usd": 10,
     "max_campaigns_per_tick": 5
+  },
+  "automatic_downstream_recovery": {
+    "enabled": false,
+    "total_budget_usd": 0,
+    "campaign_budget_usd": 1,
+    "max_articles": 3,
+    "model": "gpt-6.1-sol",
+    "review_model": "gpt-6.1-sol",
+    "max_output_tokens": 32768,
+    "review_output_tokens": 8192
   }
 }

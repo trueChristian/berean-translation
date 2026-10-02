@@ -63,6 +63,8 @@ def validate_repository(config, check_index=True):
         if any(identity not in tasks for identity in campaign['tasks']):
             raise ContractError('Campaign references a missing task')
     validate_recoveries(state, tasks, state.campaigns(), config.runtime['max_tasks_per_request'])
+    from .downstream import validate_history
+    validate_history(config, state, tasks)
     for batch in state.batches():
         payload = state.path(f'state/batches/{batch["id"]}/input.jsonl').read_bytes()
         if digest(payload) != batch['payload_sha256']:

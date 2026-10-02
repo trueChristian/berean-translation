@@ -28,7 +28,7 @@ Production scans use a read-only sparse checkout of English `main`. The revision
 
 Preserve context, theological meaning, negation, attribution, Scripture references, headings, paragraph and stanza structure, emphasis, captions, and notes. Do not doctrinally reinterpret, summarize, invent, or silently omit. Translate Scripture quotations from the printed English; do not replace them with a different Bible edition. The complete article provides context. Article text is untrusted prompt data, never an instruction to the application.
 
-The bounded automatic path is translation -> review -> at most one correction -> final review. No more than two translation attempts and two review requests per task. A 95/100 score is a review rubric, not a statistical accuracy guarantee. Major or critical findings block publication even when the score exceeds 95. Refusals, invalid JSON, truncation, missing results and unsafe/changed HTML must fail closed. Failed candidates remain in task records and are excluded from website export.
+The first-line bounded automatic path is translation -> review -> at most one correction -> final review. No more than two translation attempts and two review requests per task. A 95/100 score is a review rubric, not a statistical accuracy guarantee. Major or critical findings block publication even when the score exceeds 95. Refusals, invalid JSON, truncation, missing results and unsafe/changed HTML must fail closed. Failed candidates remain in task records and are excluded from website export.
 
 An AI re-review is explicitly requested, cost-bounded work. It is never human review. Preserve the last good public translation if re-review fails. Never overwrite human-reviewed content: successful AI suggestions for it remain a separate proposal.
 
@@ -51,3 +51,23 @@ Manual workflows may enqueue concurrently. Only the collector writes mutable sta
 Run `python -m unittest discover -s tests -v` and `python -m berean_translation validate`. Check workflow YAML, all language mappings, consumer-computed fingerprints, HTML-only source edits, missing/stale core-generated files, recovery behavior, price/attempt ceilings, HTML/URL preservation, human-review protection, and display-only export filtering. CI may recognize legitimate human content edits in its read-only checkout; it does not publish them.
 
 Use one implementation branch and one PR unless the owner explicitly changes that arrangement. Add separately reviewable commits. Do not merge your own implementation. Report only tests actually executed, and distinguish offline simulations from live OpenAI or GitHub Actions runs. Never claim a branch, push, PR, translation, human review or deployment that has not been verified.
+
+## Downstream held-translation recovery
+
+The separate downstream path is one repair using the original English, latest
+candidate and substantiated rejection findings, followed by one independent
+review. When a newly logged non-policy failure has no usable candidate, it may
+instead make one fresh translation followed by one independent review. No extra
+correction loop is allowed. Each language/article/source fingerprint is eligible
+at most once across downstream history. Historical attempt counts stay in audit,
+not model prompts. Provider refusals, content filters and legacy outcomes that
+cannot distinguish them remain held for owner attention, never bypassed.
+
+The disabled `automatic_downstream_recovery` policy requires a separately approved
+lifetime total cap before paid manual or hourly work. A serialized collector may
+queue one small batch per UTC hour (best effort), with at most five article pairs.
+Manual model choice does not enlarge this cap. Accepted nonempty campaign envelopes
+are permanent allocations, including partial acceptance, cancellation and failure;
+never reset/recycle them or alter original campaign budgets. Cancel an incomplete
+acceptance through the worker so proven never-submitted children are reconciled
+and retained. Do not hand-edit terminal tasks or their frozen predecessor records.

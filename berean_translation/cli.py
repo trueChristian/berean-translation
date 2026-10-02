@@ -70,7 +70,7 @@ def main(argv=None):
             if os.environ.get('GITHUB_REF') != 'refs/heads/main':
                 raise ContractError('Manual paid-work requests must run from main')
             selection_mode = os.environ.get('TRANSLATION_SELECTION', 'ordinary')
-            if selection_mode not in ('ordinary', 'exact-recovery'):
+            if selection_mode not in ('ordinary', 'exact-recovery', 'downstream-recovery'):
                 raise ContractError('Unknown manual selection mode')
             request = {'id':'gh-'+os.environ['GITHUB_RUN_ID'],
                        'operation':os.environ['TRANSLATION_OPERATION'],
@@ -79,7 +79,19 @@ def main(argv=None):
                        'budget_usd':os.environ.get('INPUT_BUDGET_USD','5'),
                        'dry_run':env_bool('INPUT_DRY_RUN',True),'retry_failed':env_bool('INPUT_RETRY_FAILED'),
                        'requested_by':os.environ.get('GITHUB_ACTOR')}
-            if selection_mode == 'exact-recovery':
+            if selection_mode == 'downstream-recovery':
+                from .downstream import validate_request
+                if request.pop('retry_failed') or any(os.environ.get(key, '').strip() for key in
+                        ('INPUT_LANGUAGE', 'INPUT_LANGUAGES', 'INPUT_ISSUES', 'INPUT_ISSUE_SELECTION',
+                         'INPUT_ORIGINAL_CAMPAIGN', 'INPUT_PREVIOUS_TASK_IDS')):
+                    raise ContractError('Downstream recovery cannot combine broad, exact or retry selectors')
+                policy = config.runtime.get('automatic_downstream_recovery', {})
+                request.update(max_articles=int(os.environ.get('INPUT_MAX_ARTICLES', '3')),
+                    budget_usd=os.environ.get('INPUT_BUDGET_USD', ''),
+                    model=os.environ.get('INPUT_MODEL') or policy.get('model', 'gpt-6.1-sol'),
+                    review_model=os.environ.get('INPUT_REVIEW_MODEL') or policy.get('review_model', 'gpt-6.1-sol'))
+                validate_request(config, request)
+            elif selection_mode == 'exact-recovery':
                 request['budget_usd'] = os.environ.get('INPUT_BUDGET_USD', '')
                 if any(os.environ.get(key, '').strip() for key in
                        ('INPUT_LANGUAGE', 'INPUT_LANGUAGES', 'INPUT_ISSUES', 'INPUT_ISSUE_SELECTION')):
