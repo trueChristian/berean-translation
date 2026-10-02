@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph (list of 'D' words)",
+      "severity": "minor",
+      "source_quote": "It appears rather coincidental that so many words with a negative connotation begin with the letter D: Disappointment, Doubt, Doleful, Doom, Disillusionment, Discouragement, Dreary, Defeat, Despondency, Depression, Despair, Devastation, Deception, and Death.",
+      "suggested_fix": "Remove the duplicated 'Decepção' from the Portuguese list so each English item maps to a single Portuguese equivalent. For example: \"...Decepção, Dúvida, Doloroso, Ruína, Desilusão, Desânimo, Sombrio, Derrota, Desalento, Depressão, Desespero, Devastação, Engano e Morte.\"",
+      "translation_quote": "Parece bastante coincidente que tantas palavras com conotação negativa comecem com a letra D: Decepção, Dúvida, Doloroso, Desgraça, Desilusão, Desânimo, Sombrio, Derrota, Desalento, Depressão, Desespero, Devastação, Decepção e Morte."
+    },
+    {
+      "location": "Paragraph quoting Matthew 27:46 (Conclusion)",
+      "severity": "minor",
+      "source_quote": "…with a loud voice, saying, Eli, Eli, lama sabachthani? that is to say, My God, my God, why hast thou forsaken me? –Matthew 27:46.",
+      "suggested_fix": "Standardize the transliteration of the Aramaic phrase to match common Portuguese/Biblical usage (and the printed English transliteration). Replace \"lama sabactâni\" with \"lama sabachthani\" or with a fully translated form in Portuguese plus the transliteration in parentheses. For example: \"Eli, Eli, lama sabachthani? isto é: Deus meu, Deus meu, por que me desamparaste? –Mateus 27:46.\"",
+      "translation_quote": "…com grande voz, dizendo: Eli, Eli, lama sabactâni? isto é: Deus meu, Deus meu, por que me desamparaste? –Mateus 27:46."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

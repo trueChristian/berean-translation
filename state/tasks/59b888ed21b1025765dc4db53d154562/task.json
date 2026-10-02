@@ -2,7 +2,6 @@
   "article_id": "964d8688-6491-4ede-9271-c923db4c4079",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d5ece5fabcf745599ea5fcd7a23728f3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -43,18 +42,74 @@
         },
         "total_tokens": 11374
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 2153,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7126,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9279
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
+      "location": "<blockquote>Matthew 4:18-22</blockquote>",
       "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[43]: source /article[1]/p[16]/em[1] ('start', 'em', ()); translation /article[1]/p[16] ('end', 'p')",
-      "translation_quote": ""
+      "source_quote": "And Jesus, walking by the sea of Galilee, saw two brethren, Simon called Peter, and Andrew his brother, casting a net into the sea: for they were fishers. And he saith unto them, Follow me, and I will make you fishers of men. And they straightway left their nets, and followed him. And going on from thence, he saw other two brethren, James the son of Zebedee, and John his brother, in a ship with Zebedee their father, mending their nets; and he called them. And they immediately left the ship and their father, and followed him –Matthew 4:18-22.",
+      "suggested_fix": "Translate the entire biblical quotation into contemporary Modern Hebrew, preserving the verse numbers and placement exactly. For example, render the quoted passage into fluent Hebrew (keeping the citation “–Matthew 4:18-22.” in English or translated book name into Hebrew convention) and preserve the blockquote/emphasis HTML. Do not leave any part of the quoted Scripture in English.",
+      "translation_quote": "<em>And Jesus, walking by the sea of Galilee, saw two brethren, Simon called Peter, and Andrew his brother, casting a net into the sea: for they were fishers. And he saith unto them, Follow me, and I will make you fishers of men. And they straightway left their nets, and followed him. And going on from thence, he saw other two brethren, James the son of Zebedee, and John his brother, in a ship with Zebedee their father, mending their nets; and he called them. And they immediately left the ship and their father, and followed him –Matthew 4:18-22.</em>"
+    },
+    {
+      "location": "<blockquote>John 21:3-6</blockquote>",
+      "severity": "critical",
+      "source_quote": "Simon Peter saith unto them, I go a fishing. They say unto him, We also go with thee. They went forth, and entered into a ship immediately; and that night they caught nothing. But when the morning was now come, Jesus stood on the shore: but the disciples knew not that it was Jesus. Then Jesus saith unto them, Children, have ye any meat? They answered him, No. And he said unto them, Cast the net on the right side of the ship, and ye shall find. They cast therefore, and now they were not able to draw it for the multitude of fishes –John 21:3-6.",
+      "suggested_fix": "Translate this quoted Scripture passage fully into contemporary Modern Hebrew, preserving the verse numbers and placement exactly (e.g., “–John 21:3-6.” with the book name in Hebrew convention if preferred). Do not leave any part of the quoted Scripture in English.",
+      "translation_quote": "<em>Simon Peter saith unto them, I go a fishing. They say unto him, We also go with thee. They went forth, and entered into a ship immediately; and that night they caught nothing. But when the morning was now come, Jesus stood on the shore: but the disciples knew not that it was Jesus. Then Jesus saith unto them, Children, have ye any meat? They answered him, No. And he said unto them, Cast the net on the right side of the ship, and ye shall find. They cast therefore, and now they were not able to draw it for the multitude of fishes –John 21:3-6.</em>"
+    },
+    {
+      "location": "Romans 7:18 and Luke 9:62 inline quotations",
+      "severity": "critical",
+      "source_quote": "…that in me (that is, in my flesh,) dwelleth no good thing….  …for to will is present with me; but how to perform that which is good I find not –Romans 7:18.    …No man, having put his hand to the plough, and looking back, is fit for the kingdom of God –Luke 9:62.",
+      "suggested_fix": "Translate the quoted Scripture fragments entirely into Hebrew, preserving punctuation and the exact verse citations. Replace the English fragments with fluent Hebrew renderings that convey the original printed meaning and keep verse references (e.g., “–Rom 7:18” and “–לוקס 9:62” using conventional Hebrew book names).",
+      "translation_quote": "<em>…that in me (that is, in my flesh,) dwelleth no good thing….  …for to will is present with me; but how to perform that which is good I find not –Romans 7:18.</em>  <em>…No man, having put his hand to the plough, and looking back, is fit for the kingdom of God –Luke 9:62.</em>"
+    },
+    {
+      "location": "Parenthetical/explanatory English and bracketed asides",
+      "severity": "major",
+      "source_quote": "[“I have a job for you, Peter, but a prerequisite for this job is your devoted love for Me.”]  (actually He called him Simon)  “Yes Lord, you know that I love you.”  “I am not”.  <em>this doesn’t sound very appealing</em>",
+      "suggested_fix": "Translate these parenthetical comments and bracketed explanatory phrases into Hebrew. For example, render the bracketed explanatory sentence into Hebrew within the same brackets, translate the parenthetical remark “(actually He called him Simon)” into Hebrew, and translate the inline quoted English phrases into Hebrew. Keep punctuation and parentheses/ brackets unchanged in the HTML structure.",
+      "translation_quote": "[“I have a job for you, Peter, but a prerequisite for this job is your devoted love for Me.”]  (actually He called him Simon)  “Yes Lord, you know that I love you.”  “I am not”.  <em>this doesn’t sound very appealing</em>"
+    },
+    {
+      "location": "Reference to Pentecost — \"Day of Pentecost\" translation",
+      "severity": "major",
+      "source_quote": "After the Day of Pentecost, Peter was called, he was prepared, and he was equipped.",
+      "suggested_fix": "Correct the Hebrew rendering of “Day of Pentecost.” Use the conventional Modern Hebrew term for the festival/event (e.g., “יום הבשורה” is incorrect; use “יום הבטול?” No — correct term is “יום הבשורה” is wrong. Use “יום הבשבועות” or “יום הבשורה” is not standard. The conventional Hebrew for Pentecost (the feast and the event) is “היום של חושן?” — Provide the accurate common usage: “יום הבשורות (יום הבשורה)”? — Suggested fix: replace with “לאחר יום השבועות (יום הבתולה/יום הפנטקוסט)” — More concise: Replace with “לאחר יום השבועות (שבו התקיים האירוע של יום הבשורה/בשביל הפנטקוסט)” — Keep it simple: use “לאחר יום השבועות (חג השבועות / הִמָּלֵאֲת הָרוּחַ בְּיוֹם הַשָּׁבוּעוֹת)”",
+      "translation_quote": "אחרי יום הבתולות (שבפנטקוסטה), פטרוס נקרא, הוכן, וצויד."
+    },
+    {
+      "location": "Phrase mistranslation: “fishers of men” -> \"דוגי אדם\"",
+      "severity": "minor",
+      "source_quote": "Follow me, and I will make you fishers of men.",
+      "suggested_fix": "Correct the Hebrew for “fishers of men” to the idiomatic and accurate form: “דייגי אנשים” or “דייגי אנשים/דייגים של אנשים” (recommendation: “דייגי בני אדם” or simply “דייגי אנשים”). Replace the mistaken ״דוגי אדם״ with “דייגי אנשים” or “דייגים של אנשים.”",
+      "translation_quote": "“לך אחריי ואני אעשה אתכם דוגי אדם.”"
     }
   ],
+  "finished_at": "2026-10-02T13:09:11+00:00",
   "id": "59b888ed21b1025765dc4db53d154562",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "heb",
@@ -128,11 +183,13 @@
     }
   },
   "protected": false,
+  "quality_score": 45,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/72e9e95087abf4bb6b3406930b96815159af17d474fb3822bb08890105936e6b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1a9a048cb09f8defedfe227e6b286e8b931f833f4da6a1d1e6b5d1175b0c84c0",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

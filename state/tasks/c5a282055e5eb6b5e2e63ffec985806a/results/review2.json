@@ -1,0 +1,78 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6c771f9f-2bcd-465a-b59a-969e0b96fa6e",
+    "response_id": "chatcmpl-EUXFXgt0y70kuNTDEgibqV5gZrHPp",
+    "usage": {
+      "completion_tokens": 1917,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6867,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8784
+    }
+  },
+  "received_at": "2026-10-02T13:09:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first paragraph",
+        "severity": "major",
+        "source_quote": "It was midnight and a soft light glowed from my parents’ room.",
+        "suggested_fix": "Translate the time as “midnight” (katikati ya usiku / usiku wa manane) rather than “saa sita usiku.” Replace the sentence in the translation with: \"Ilikuwa katikati ya usiku na mwanga laini ulikuwa ukimulika kutoka chumbani kwa wazazi wangu.\"",
+        "translation_quote": "Ilikuwa saa sita usiku na mwanga laini ulikuwa ukimutiririka kutoka katika chumba cha wazazi wangu."
+      },
+      {
+        "location": "source.html — second paragraph",
+        "severity": "major",
+        "source_quote": "She settled into the rocking chair and soon the house was restored to its midnight quiet.",
+        "suggested_fix": "\"Rocking chair\" must be translated to a correct Kiswahili phrase (e.g. \"kiti cha kuzungusha/kiti cha kuning'inia\"). Replace the clause with: \"Alikaa kwenye kiti cha kuzungusha na hivi karibuni nyumba ikarudishwa katika utulivu wa usiku.\"",
+        "translation_quote": "Alikaa kwenye kiti cha kupiga mswaki na hivi karibuni nyumba ikarudishwa katika utulivu wa usiku."
+      },
+      {
+        "location": "source.html — paragraph quoting Psalm 127:3-5",
+        "severity": "major",
+        "source_quote": "Happy is the man that hath his quiver full of them: they shall not be ashamed, but they shall speak with the enemies in the gate –Psalm 127:3-5.",
+        "suggested_fix": "The image \"quiver full of them\" must be rendered accurately. Do not use \"bofia\" which does not convey 'quiver'. Use \"kikapu cha mishale\" or \"mchembu wa mishale umejaa\". Suggested translation: \"Heri ya mtu aliye na sindano/mchembu wa mishale umejaa yao; hawatajisikia aibu, bali wataongea na maadui mlango wa mji –Zaburi 127:3-5.\" (Adjust to fluent Kiswahili idiom: e.g. \"Heri ya mtu aliye na ulinzi wa mishale zake umemjaa\").",
+        "translation_quote": "Heri ya mtu aliye na <u>bofia yake imejaa</u>: hawatajisikia aibu, bali watazungumza na maadui mlangoni –Zaburi 127:3-5."
+      },
+      {
+        "location": "source.html — paragraph quoting Titus 2:3-5 (opening)",
+        "severity": "minor",
+        "source_quote": "The aged women likewise, that they be in behaviour as becometh holiness, not false accusers, not given to much wine, teachers of good things;",
+        "suggested_fix": "Some phrases are rendered awkwardly but not doctrinally changed. Suggest smoothing for idiomatic clarity while preserving meaning. Example: \"Wanawake waliozeeka pia wawe katika maadili yanayofaa utakatifu; wasiwe wasemaji wa uongo, wasiwe wanywaji wa pombe, wawe walimu wa mambo mema;\"",
+        "translation_quote": "<em><strong>Wanawake waliozeeka</strong> nao hao wawe katika mwenendo unaofaa utakatifu, si wa kupoteza sifa, wasio wanywaji wa pombe mwingi, walifundisha mambo mema;</em>"
+      },
+      {
+        "location": "source.html — paragraph quoting 1 Timothy 5:13 insertion",
+        "severity": "minor",
+        "source_quote": "...wandering about from house to house… –1 Timothy 5:13,",
+        "suggested_fix": "The quoted fragment is translated but the ellipsis formatting should match the source and remain clearly a quotation. Suggest: \"...kutembea kutoka nyumba hadi nyumba... –1 Timotheo 5:13,\" (keep book name conventional: '1 Timotheo' is okay).",
+        "translation_quote": "<em>…kutembea kutoka nyumba hadi nyumba… –1 Timotheo 5:13,</em>"
+      },
+      {
+        "location": "source.html — paragraph quoting 1 Timothy 2:11-13",
+        "severity": "minor",
+        "source_quote": "Let the woman learn in silence with all subjection. But I suffer not a woman to teach, nor to usurp authority over the man, but to be in silence. For Adam was first formed, then Eve –1 Timothy 2:11-13.",
+        "suggested_fix": "The translation \"Mwanamke ajifunze kimya kwa uzito wote\" is awkward and may confuse readers. Suggest: \"Mwanamke ajifunze kimya kwa utulivu wote. Naye siwachukui wanawake kufundisha wala kuchukua mamlaka juu ya mwanaume, bali wawe kimya; kwa kuwa Adamu aliumbwa kwanza, kisha Eva –1 Timotheo 2:11-13.\"",
+        "translation_quote": "<em>Mwanamke ajifunze kimya kwa uzito wote. Lakini siwachukui wanawake kufundisha, wala kuchukua mamlaka juu ya mwanaume, bali wawe kimya. Kwa kuwa Adamu aliumbwa kwanza, kisha Eva –1 Timotheo 2:11-13.</em>"
+      },
+      {
+        "location": "source.html — list item 3 (bulleted list)",
+        "severity": "minor",
+        "source_quote": "Be willing to sacrifice your time. Ministry is a lifestyle of caring more about others than ourselves.",
+        "suggested_fix": "The present translation uses a loan word and the English 'sacrifice' left partially in English: \"Kubali ku sacrifica muda wako.\" This mixes languages and should be rendered fully in Kiswahili: e.g. \"Jitoe kwa kumwaga muda wako\" or \"Kubaliana kutoa muda wako\". Replace with: \"Kubaliana kuupoteza/kujitolea muda wako. Huduma ni mtindo wa maisha wa kumjali wengine zaidi kuliko sisi wenyewe.\"",
+        "translation_quote": "<li>Kubali ku sacrifica muda wako. Huduma ni mtindo wa maisha wa kumjali wengine zaidi kuliko sisi wenyewe. Mungu anahitaji tuwe tayari kutumia sauti yetu. Hii ni njia yake ya kutuzalisha thamani zetu za kiroho na kubariki kizazi kijacho.</li>"
+      }
+    ],
+    "passed": false,
+    "score": 68
+  }
+}

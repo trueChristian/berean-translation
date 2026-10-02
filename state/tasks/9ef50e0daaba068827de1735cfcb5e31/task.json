@@ -2,7 +2,6 @@
   "article_id": "aa8352a7-2d4a-49db-9454-7a0350ad3118",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d5ece5fabcf745599ea5fcd7a23728f3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -43,18 +42,45 @@
         },
         "total_tokens": 10221
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1036,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6592,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7628
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Duplicate HTML attribute",
-      "translation_quote": ""
+      "location": "Paragraph containing 1 Kings 19:10 (source.html third paragraph under “Isolation can lead to Despair”)",
+      "severity": "minor",
+      "source_quote": "…I have been very jealous for the LORD God of hosts: for the children of Israel have forsaken thy covenant, thrown down thine altars, and slain thy prophets with the sword; and I, even I only, am left; and they seek my life, to take it away –1 Kings 19:10.",
+      "suggested_fix": "Correct minor typographic repetition and spacing in the translated scripture clause. Replace \"meruntuhkan mezbah- Mezbah-Mu\" with \"meruntuhkan mezbah-mezbah-Mu\" (lowercase and without space after hyphen) or simply \"meruntuhkan mezbah- mezbah-Mu\" consistently. Remove the extra space before the citation dash so it matches style elsewhere (optional).",
+      "translation_quote": "…aku sangat cemburu karena TUHAN semesta alam; sebab orang Israel telah meninggalkan perjanjian-Mu, meruntuhkan mezbah- Mezbah-Mu dan membunuh nabi-nabi-Mu dengan pedang; dan aku sendiri ini seorang saja yang tinggal, sedang mereka mencari nyawaku untuk mengambilnya – 1 Raja-raja 19:10."
+    },
+    {
+      "location": "Paragraph containing Galatians 6:5 and following Galatians 6:2 citation (source.html near end)",
+      "severity": "minor",
+      "source_quote": "For every man shall bear his own burden –Galatians 6:5, should not give us excuse to not obey God’s command to Bear ye one another's burdens, and so fulfil the law of Christ –Galatians 6:2.",
+      "suggested_fix": "Fix formatting and labeling of the second citation so it matches the source structure and reads naturally in Indonesian. Replace the translated inline citation that currently reads \"untuk tidak taat pada perintah Allah untuk Galatia 6:2: Pikullah bebanmu seorang terhadap yang lain, dan dengan demikian kamu memenuhi hukum Kristus.\" with a form that preserves order and clarity, for example: \"...seharusnya tidak memberi kita alasan untuk tidak taat pada perintah Allah untuk 'Pikullah bebanmu seorang terhadap yang lain, dan demikianlah kamu memenuhi hukum Kristus' – Galatia 6:2.\"",
+      "translation_quote": "<em>Setiap orang harus memikul tanggungannya sendiri – Galatia 6:5,</em> tidak seharusnya memberi kita alasan untuk tidak taat pada perintah Allah untuk <em>Galatia 6:2: Pikullah bebanmu seorang terhadap yang lain, dan dengan demikian kamu memenuhi hukum Kristus.</em>"
     }
   ],
+  "finished_at": "2026-10-02T13:09:11+00:00",
   "id": "9ef50e0daaba068827de1735cfcb5e31",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "ind",
@@ -128,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/59ce8c968d768b658069049f4a1a3e07549e5e1e1925fbea530450e323a86220.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "ac1550aa6190c351e44ee2dfa7e315442d61cbcd47e9044576f72bbc92b99432",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

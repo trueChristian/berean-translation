@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "91cbe584-25f3-48d0-a965-07baef1cf49d",
+    "response_id": "chatcmpl-EUXFG1HzxRguI3B1jFQyWpUINjTeo",
+    "usage": {
+      "completion_tokens": 1650,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6710,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8360
+    }
+  },
+  "received_at": "2026-10-02T13:09:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing Psalm 127:3-5 (source.html paragraphs showing Psalm 127:3-5)",
+        "severity": "major",
+        "source_quote": "As arrows are in the hand of a mighty man; so are children of the youth. Happy is the man that hath his quiver full of them: they shall not be ashamed, but they shall speak with the enemies in the gate –Psalm 127:3-5.",
+        "suggested_fix": "Render the metaphor accurately in Norwegian Bokmål. Replace «fylte skrin med dem» with a conventional Norwegian rendering of “quiver” (for example «sekk med piler», «pileskive», or better: «et fullt pilerør» or «et fullt pilekoger»). A suggested corrected translation: «Slik som piler er i hånden på en mektig mann; slik er ungene i sin ungdom. Lykkelig er mannen som har sin pilerør fullt av dem: de skal ikke bli til skamme, men skal tale med fiendene i porten –Salme 127:3-5.» Ensure the chosen word is idiomatic Bokmål (»pilerør« or »pileskinn/pilekogger«) and preserves the original metaphor of arrows/quiver.",
+        "translation_quote": "Se, <u>barn er en arv fra Herren</u>: livsfrukten er hans lønn. Slik som piler er i en krigers hånd; slik er barna når de er unge. Lykkelig er den mannen som har sitt <u>fylte skrin med dem</u>: de skal ikke bli til skamme, men skal tale med fiendene i porten –Salme 127:3-5."
+      },
+      {
+        "location": "Paragraph repeating Titus 2:4-5 later in article (two occurrences: earlier and later)",
+        "severity": "minor",
+        "source_quote": "That they may teach the young women to be sober, to love their husbands, to love their children, To be discreet, chaste, keepers at home, good, obedient to their own husbands, that the word of God be not blasphemed –Titus 2:4-5.",
+        "suggested_fix": "Correct the Norwegian grammar/word form so it reads idiomatically and preserves the meaning of the source. Replace «så Guds ord ikke blir spotte» with «så Guds ord ikke blir spotte(t)» or better «for at Guds ord ikke må bli spottet». A suggested rendering: «…så Guds ord ikke må bli spottet –Titus 2:4-5.»",
+        "translation_quote": "For at de kan lære de yngre kvinnene å være edru, å elske sine menn, å elske sine barn, å være avholdende, kysk, hjemmets voktere, gode, lydige mot sine egne menn, så Guds ord ikke blir spotte –Titus 2:4-5."
+      },
+      {
+        "location": "Endnotes list (source.html endnotes)",
+        "severity": "minor",
+        "source_quote": "Marionstar.com/story/opinion/2015/05/09/role-mothers-changed-years/270511951  — Bookroo.com 22 of the best book quotes from Elisabeth Elliot",
+        "suggested_fix": "Translate endnote descriptions/titles into Norwegian where they are not strictly URLs, or at minimum mark them consistently as original English titles if leaving them in English is necessary. For example: «MarionStar: 'Role mothers changed through the years' (2015)» or translate to Norwegian: «MarionStar: 'Hvordan mødres rolle endret seg gjennom årene'». If you keep the original English titles, ensure they are presented as titles (in quotation marks) rather than bare bare URLs or English phrases in italics, to make clear they are source citations.",
+        "translation_quote": "<em>Marionstar.com/story/opinion/2015/05/09/role-mothers-changed-years/270511951</em>  — <em>Bookroo.com 22 of the best book quotes from Elisabeth Elliot</em>"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

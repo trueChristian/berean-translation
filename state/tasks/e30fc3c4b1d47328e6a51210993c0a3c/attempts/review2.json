@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:09:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>…The road from Jerusalem to Emmaus was <em>about threescore furlongs</em> or approximately seven miles.</p>\",\"severity\":\"major\",\"source_quote\":\"about threescore furlongs\",\"suggested_fix\":\"Translate ‘threescore furlongs’ correctly into Hindi as ‘लगभग तिहत्तर फर्लॉंग’ or better keep the original explanatory phrasing: '<em>लगभग तिहत्तर फर्लॉंग</em> या लगभग सात मील' (or '<em>लगभग तिहत्तर फर्लॉंग</em> अर्थात लगभग सात मील'). Preserve the <em> tags exactly where they appear.\",\"translation_quote\":\"<em>छः हजार फुरलों के लगभग</em> अर्थात लगभग सात मील था।\"},{\"location\":\"<p class=\\\"drop-cap\\\">... D-word list</p>\",\"severity\":\"minor\",\"source_quote\":\"Disappointment, Doubt, Doleful, Doom, Disillusionment, Discouragement, Dreary, Defeat, Despondency, Depression, Despair, Devastation, Deception, and Death.\",\"suggested_fix\":\"Adjust the Hindi word choices to more directly reflect each English term and avoid duplication. For example: 'निराशा (Disappointment), संदेह (Doubt), शोकग्रहण/दुःखवश (Doleful), अभिशाप/विनाश (Doom), मोहभंग (Disillusionment), हतोत्साह (Discouragement), उदासमय/उदासीनता (Dreary), पराजय (Defeat), निराशाजनकता/निराशा (Despondency) — avoid repeating 'निराशा' twice by choosing distinct terms — अवसादन (Depression), हताशा (Despair), तबाही (Devastation), छल (Deception), और मृत्यु (Death).' Preserve the original punctuation and ordering.\",\"translation_quote\":\"निराशा, सन्देह, उदासी, विनाश, मोहभंग, हतोत्साह, उबासी, पराजय, अवसाद, निराशा, तबाही, छल, और मृत्यु।\"}],\"passed\":false,\"score\":76}",
+    "content_bytes": 2162,
+    "content_evidence_truncated": false,
+    "content_sha256": "8037dbd5df22bad2c20f79575a8a31be61bd2e520128aa1e8068b2f49537d41f",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1130,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10981,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12111
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -2,7 +2,6 @@
   "article_id": "964d8688-6491-4ede-9271-c923db4c4079",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d5ece5fabcf745599ea5fcd7a23728f3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -43,18 +42,53 @@
         },
         "total_tokens": 14993
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1130,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9167,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10297
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
+      "location": "Throughout article: all blockquoted and inline Scripture quotations (Matthew 4:18-22; John 21:3-6; Romans 7:18; Luke 9:62 and the threefold John/Peter exchange passages)",
       "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Forbidden HTML element: pαυτό",
-      "translation_quote": ""
+      "source_quote": "(Examples from source) \"And Jesus, walking by the sea of Galilee... Follow me...\" –Matthew 4:18-22.  \"Simon Peter saith unto them, I go a fishing...\" –John 21:3-6. \"...that in me (that is, in my flesh,) dwelleth no good thing... for to will is present with me; but how to perform that which is good I find not –Romans 7:18.\" \"...No man, having put his hand to the plough, and looking back, is fit for the kingdom of God –Luke 9:62.\"",
+      "suggested_fix": "Translate each quoted Scripture passage into contemporary Modern Greek (not Koine or original Greek text), faithfully conveying the meaning of the authoritative English passage as printed in the source (preserve verse numbers and placement). Use customary Modern Greek book names (e.g. Κατά Ματθαίον 4:18-22) and render the verse text in natural Modern Greek that corresponds to the English KJV wording used in the source. Do this for every quoted or emphasized Scriptural passage and for the threefold \"Do you love me?\" exchange, ensuring the translations are idiomatic Modern Greek and placed exactly where the current Koine quotations are.",
+      "translation_quote": "Blockquotes and inline Scripture currently rendered in Koine/ancient Greek throughout the translation (e.g. the long Matthew and John blockquotes, Romans 7:18, Luke 9:62, and the Peter/Jesus exchange appear in Biblical Greek)."
+    },
+    {
+      "location": "Opening paragraph",
+      "severity": "minor",
+      "source_quote": "\"This is the first of a series of articles on “Discipleship.”\"",
+      "suggested_fix": "Improve idiomatic Modern Greek word order: change \"Αυτό είναι το πρώτο μιας σειράς άρθρων\" to \"Αυτό είναι το πρώτο άρθρο μιας σειράς για τη «Μαθητεία».\" or similar, keeping HTML tags and structure unchanged.",
+      "translation_quote": "\"Αυτό είναι το πρώτο μιας σειράς άρθρων για τη «Μαθητεία».\""
+    },
+    {
+      "location": "Sentence: \"Ο Ιησούς καλεί καθένας μας προσωπικά να «Ακολουθήσει Αυτόν».\"",
+      "severity": "minor",
+      "source_quote": "\"Jesus is calling each of us to personally “Follow Me.”\"",
+      "suggested_fix": "Correct grammatical agreement and natural phrasing in Modern Greek: for example, \"Ο Ιησούς καλεί καθέναν από εμάς προσωπικά να 'Τον ακολουθήσουμε'\" or \"Ο Ιησούς καλεί τον καθένα από εμάς προσωπικά: 'Ακολούθησέ Με'.\" Preserve the quotation punctuation and HTML structure.",
+      "translation_quote": "\"Ο Ιησούς καλεί καθένας μας προσωπικά να «Ακολουθήσει Αυτόν».\""
     }
   ],
+  "finished_at": "2026-10-02T13:09:11+00:00",
   "id": "ace707b8ad49c5bebbc60bfecca27360",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "ell",
@@ -128,11 +162,13 @@
     }
   },
   "protected": false,
+  "quality_score": 68,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/72e9e95087abf4bb6b3406930b96815159af17d474fb3822bb08890105936e6b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1a9a048cb09f8defedfe227e6b286e8b931f833f4da6a1d1e6b5d1175b0c84c0",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

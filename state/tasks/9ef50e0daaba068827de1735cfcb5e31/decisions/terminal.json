@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing 1 Kings 19:10 (source.html third paragraph under “Isolation can lead to Despair”)",
+      "severity": "minor",
+      "source_quote": "…I have been very jealous for the LORD God of hosts: for the children of Israel have forsaken thy covenant, thrown down thine altars, and slain thy prophets with the sword; and I, even I only, am left; and they seek my life, to take it away –1 Kings 19:10.",
+      "suggested_fix": "Correct minor typographic repetition and spacing in the translated scripture clause. Replace \"meruntuhkan mezbah- Mezbah-Mu\" with \"meruntuhkan mezbah-mezbah-Mu\" (lowercase and without space after hyphen) or simply \"meruntuhkan mezbah- mezbah-Mu\" consistently. Remove the extra space before the citation dash so it matches style elsewhere (optional).",
+      "translation_quote": "…aku sangat cemburu karena TUHAN semesta alam; sebab orang Israel telah meninggalkan perjanjian-Mu, meruntuhkan mezbah- Mezbah-Mu dan membunuh nabi-nabi-Mu dengan pedang; dan aku sendiri ini seorang saja yang tinggal, sedang mereka mencari nyawaku untuk mengambilnya – 1 Raja-raja 19:10."
+    },
+    {
+      "location": "Paragraph containing Galatians 6:5 and following Galatians 6:2 citation (source.html near end)",
+      "severity": "minor",
+      "source_quote": "For every man shall bear his own burden –Galatians 6:5, should not give us excuse to not obey God’s command to Bear ye one another's burdens, and so fulfil the law of Christ –Galatians 6:2.",
+      "suggested_fix": "Fix formatting and labeling of the second citation so it matches the source structure and reads naturally in Indonesian. Replace the translated inline citation that currently reads \"untuk tidak taat pada perintah Allah untuk Galatia 6:2: Pikullah bebanmu seorang terhadap yang lain, dan dengan demikian kamu memenuhi hukum Kristus.\" with a form that preserves order and clarity, for example: \"...seharusnya tidak memberi kita alasan untuk tidak taat pada perintah Allah untuk 'Pikullah bebanmu seorang terhadap yang lain, dan demikianlah kamu memenuhi hukum Kristus' – Galatia 6:2.\"",
+      "translation_quote": "<em>Setiap orang harus memikul tanggungannya sendiri – Galatia 6:5,</em> tidak seharusnya memberi kita alasan untuk tidak taat pada perintah Allah untuk <em>Galatia 6:2: Pikullah bebanmu seorang terhadap yang lain, dan dengan demikian kamu memenuhi hukum Kristus.</em>"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

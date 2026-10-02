@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph: “This was her ninth baby…” (source.html third <p>), translation location: same paragraph",
+      "severity": "minor",
+      "source_quote": "This was her ninth baby and I had often seen this in my mother, but this time it felt extra special.",
+      "suggested_fix": "Correct Greek grammar while preserving meaning. Replace the translation sentence inside the same <p> with: «Αυτό ήταν το ένατο μωρό της, και συχνά είχα δει αυτή τη στάση στη μητέρα μου, αλλά αυτή τη φορά ένιωσε ακόμη πιο ιδιαίτερο.»",
+      "translation_quote": "Αυτό ήταν το ένατο της μωρό και συχνά είχα δει αυτή τη στάση στη μητέρα μου, αλλά αυτή τη φορά ένιωσε ακόμη πιο ιδιαίτερο."
+    },
+    {
+      "location": "Paragraph about 1970s quote (source.html, paragraph with block quote and endnote 1)",
+      "severity": "minor",
+      "source_quote": "Mothers who were applauded by society were suddenly bombarded with a new buzzword—fullfillment.",
+      "suggested_fix": "Fix agreement and register in Greek. Replace the phrase in the translation with: «Οι μητέρες που μέχρι τότε επευφημούντο από την κοινωνία ξαφνικά βομβαρδίστηκαν από μια καινούρια λέξη-σύνθημα — «πλήρωση» (fulfillment).» (or use «αυτοπραγμάτωση» if preferred by editor).",
+      "translation_quote": "Οι μητέρες που αποθεωνόταν από την κοινωνία ξαφνικά βομβαρδίστηκαν με μια καινούρια λέξη-σύνθημα—κατάκτηση."
+    },
+    {
+      "location": "Paragraph about paid childcare (source.html paragraph starting “Today, according to some online reports…”)",
+      "severity": "minor",
+      "source_quote": "roughly 27% of infants and toddlers in America are placed in some form of paid childcare arrangement.",
+      "suggested_fix": "Use a clearer, idiomatic Greek rendering of “paid childcare.” Replace the phrase with: «περίπου 27% των βρεφών και νηπίων στην Αμερική τοποθετούνται σε κάποια μορφή πληρωμένης φροντίδας παιδιών.»",
+      "translation_quote": "περίπου 27% των βρεφών και νηπίων στην Αμερική τοποθετούνται σε κάποια μορφή έμμεσης πληρωμένης φροντίδας παιδιών."
+    },
+    {
+      "location": "Multiple places (quotations of Scripture) — 1 Timothy 2:11-13 in translation (source.html near end)",
+      "severity": "major",
+      "source_quote": "Let the woman learn in silence with all subjection. But I suffer not a woman to teach, nor to usurp authority over the man, but to be in silence. For Adam was first formed, then Eve –1 Timothy 2:11-13.",
+      "suggested_fix": "Do not use the Koine/ancient Greek original text here. The translation must be in contemporary Modern Greek, faithful to the printed English quoted passage. Replace the current Greek (which is in original/ancient Greek) with a clear Modern Greek rendering that preserves the meaning and preserves the Scripture reference and placement. For example: «Ας μάθει η γυναίκα εν ησυχία με κάθε υπακοή. Γυναίκα δε δεν επιτρέπω να διδάσκει ούτε να έχει εξουσία επάνω στον άνδρα, αλλά να είναι σε ησυχία. Διότι πρώτος εδημιούργησεν ο Αδάμ, έπειτα η Εύα. – 1 Τιμ. 2:11-13.» Ensure this replacement uses contemporary Modern Greek vocabulary and grammar rather than Koine forms.",
+      "translation_quote": "<em>Ας μάθη η γυναίκα εν ησυχία πάσας υπακοής. Γυναῖκα δὲ διδάσκειν οὐκ επιτρέπω, οὐδὲ αὐθεντεῖν ἐπὶ τοῦ ἀνδρός, ἀλλʼ εἶναι ἐν ἡσυχίᾳ. Πρῶτος γὰρ ἐπλάσθη Ἀδάμ, έπειτα Εὕα – 1 Τιμ. 2:11-13.</em>"
+    },
+    {
+      "location": "Paragraph referencing 1 Timothy 5:13 and 2 Timothy 3:1-2 (source.html paragraph about technology)",
+      "severity": "minor",
+      "source_quote": "wandering about from house to house… –1 Timothy 5:13, and …This know also, that in the last days perilous times shall come. For men shall be lovers of their own selves… –2 Timothy 3:1-2.",
+      "suggested_fix": "The translation mixes an English-style citation with partial Greek/English phrasing. Provide a fluent Modern Greek rendering of the quoted Scripture snippets, consistently formatted like other quoted verses. For example: «…περιφέρονται από σπίτι σε σπίτι… – 1 Τιμ. 5:13» and «Γνώρισον δε ότι εν των έσχατων καιρών καιροί χαλεποί έσονται· οι γαρ άνθρωποι έσονται εαυτών φίλαυτοι… – 2 Τιμ. 3:1-2.» (Better: render both in Modern Greek, matching the rest of the article's translation style.)",
+      "translation_quote": "<em>…περιφέρονται από σπίτι σε σπίτι… –1 Τιμ. 5:13,</em> … <em>Γνώρισον δε ότι τις εν των έσχατων καιρών καιροί χαλεποί έσονται· οι γάρ άνθρωποι έσονται εαυτών φίλαυτοι… –2 Τιμ. 3:1-2.</em>"
+    },
+    {
+      "location": "Section title translation (source.section and source.title)",
+      "severity": "minor",
+      "source_quote": "Sister to Sister (section) ; A Joyful Calling (title)",
+      "suggested_fix": "Use a more natural Modern Greek idiom for the section title and consider a slightly more idiomatic title. Options: for section use «Αδελφή σε Αδελφή» or «Από Αδελφή σε Αδελφή». For title, consider «Μια χαρούμενη κλήση» => acceptable, but confirm editorial preference.",
+      "translation_quote": "section: \"Αδεφή προς Αδεφή\" title: \"Μια χαρούμενη κλήση\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

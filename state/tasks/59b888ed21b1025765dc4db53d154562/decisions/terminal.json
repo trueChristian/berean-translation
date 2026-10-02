@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "<blockquote>Matthew 4:18-22</blockquote>",
+      "severity": "critical",
+      "source_quote": "And Jesus, walking by the sea of Galilee, saw two brethren, Simon called Peter, and Andrew his brother, casting a net into the sea: for they were fishers. And he saith unto them, Follow me, and I will make you fishers of men. And they straightway left their nets, and followed him. And going on from thence, he saw other two brethren, James the son of Zebedee, and John his brother, in a ship with Zebedee their father, mending their nets; and he called them. And they immediately left the ship and their father, and followed him –Matthew 4:18-22.",
+      "suggested_fix": "Translate the entire biblical quotation into contemporary Modern Hebrew, preserving the verse numbers and placement exactly. For example, render the quoted passage into fluent Hebrew (keeping the citation “–Matthew 4:18-22.” in English or translated book name into Hebrew convention) and preserve the blockquote/emphasis HTML. Do not leave any part of the quoted Scripture in English.",
+      "translation_quote": "<em>And Jesus, walking by the sea of Galilee, saw two brethren, Simon called Peter, and Andrew his brother, casting a net into the sea: for they were fishers. And he saith unto them, Follow me, and I will make you fishers of men. And they straightway left their nets, and followed him. And going on from thence, he saw other two brethren, James the son of Zebedee, and John his brother, in a ship with Zebedee their father, mending their nets; and he called them. And they immediately left the ship and their father, and followed him –Matthew 4:18-22.</em>"
+    },
+    {
+      "location": "<blockquote>John 21:3-6</blockquote>",
+      "severity": "critical",
+      "source_quote": "Simon Peter saith unto them, I go a fishing. They say unto him, We also go with thee. They went forth, and entered into a ship immediately; and that night they caught nothing. But when the morning was now come, Jesus stood on the shore: but the disciples knew not that it was Jesus. Then Jesus saith unto them, Children, have ye any meat? They answered him, No. And he said unto them, Cast the net on the right side of the ship, and ye shall find. They cast therefore, and now they were not able to draw it for the multitude of fishes –John 21:3-6.",
+      "suggested_fix": "Translate this quoted Scripture passage fully into contemporary Modern Hebrew, preserving the verse numbers and placement exactly (e.g., “–John 21:3-6.” with the book name in Hebrew convention if preferred). Do not leave any part of the quoted Scripture in English.",
+      "translation_quote": "<em>Simon Peter saith unto them, I go a fishing. They say unto him, We also go with thee. They went forth, and entered into a ship immediately; and that night they caught nothing. But when the morning was now come, Jesus stood on the shore: but the disciples knew not that it was Jesus. Then Jesus saith unto them, Children, have ye any meat? They answered him, No. And he said unto them, Cast the net on the right side of the ship, and ye shall find. They cast therefore, and now they were not able to draw it for the multitude of fishes –John 21:3-6.</em>"
+    },
+    {
+      "location": "Romans 7:18 and Luke 9:62 inline quotations",
+      "severity": "critical",
+      "source_quote": "…that in me (that is, in my flesh,) dwelleth no good thing….  …for to will is present with me; but how to perform that which is good I find not –Romans 7:18.    …No man, having put his hand to the plough, and looking back, is fit for the kingdom of God –Luke 9:62.",
+      "suggested_fix": "Translate the quoted Scripture fragments entirely into Hebrew, preserving punctuation and the exact verse citations. Replace the English fragments with fluent Hebrew renderings that convey the original printed meaning and keep verse references (e.g., “–Rom 7:18” and “–לוקס 9:62” using conventional Hebrew book names).",
+      "translation_quote": "<em>…that in me (that is, in my flesh,) dwelleth no good thing….  …for to will is present with me; but how to perform that which is good I find not –Romans 7:18.</em>  <em>…No man, having put his hand to the plough, and looking back, is fit for the kingdom of God –Luke 9:62.</em>"
+    },
+    {
+      "location": "Parenthetical/explanatory English and bracketed asides",
+      "severity": "major",
+      "source_quote": "[“I have a job for you, Peter, but a prerequisite for this job is your devoted love for Me.”]  (actually He called him Simon)  “Yes Lord, you know that I love you.”  “I am not”.  <em>this doesn’t sound very appealing</em>",
+      "suggested_fix": "Translate these parenthetical comments and bracketed explanatory phrases into Hebrew. For example, render the bracketed explanatory sentence into Hebrew within the same brackets, translate the parenthetical remark “(actually He called him Simon)” into Hebrew, and translate the inline quoted English phrases into Hebrew. Keep punctuation and parentheses/ brackets unchanged in the HTML structure.",
+      "translation_quote": "[“I have a job for you, Peter, but a prerequisite for this job is your devoted love for Me.”]  (actually He called him Simon)  “Yes Lord, you know that I love you.”  “I am not”.  <em>this doesn’t sound very appealing</em>"
+    },
+    {
+      "location": "Reference to Pentecost — \"Day of Pentecost\" translation",
+      "severity": "major",
+      "source_quote": "After the Day of Pentecost, Peter was called, he was prepared, and he was equipped.",
+      "suggested_fix": "Correct the Hebrew rendering of “Day of Pentecost.” Use the conventional Modern Hebrew term for the festival/event (e.g., “יום הבשורה” is incorrect; use “יום הבטול?” No — correct term is “יום הבשורה” is wrong. Use “יום הבשבועות” or “יום הבשורה” is not standard. The conventional Hebrew for Pentecost (the feast and the event) is “היום של חושן?” — Provide the accurate common usage: “יום הבשורות (יום הבשורה)”? — Suggested fix: replace with “לאחר יום השבועות (יום הבתולה/יום הפנטקוסט)” — More concise: Replace with “לאחר יום השבועות (שבו התקיים האירוע של יום הבשורה/בשביל הפנטקוסט)” — Keep it simple: use “לאחר יום השבועות (חג השבועות / הִמָּלֵאֲת הָרוּחַ בְּיוֹם הַשָּׁבוּעוֹת)”",
+      "translation_quote": "אחרי יום הבתולות (שבפנטקוסטה), פטרוס נקרא, הוכן, וצויד."
+    },
+    {
+      "location": "Phrase mistranslation: “fishers of men” -> \"דוגי אדם\"",
+      "severity": "minor",
+      "source_quote": "Follow me, and I will make you fishers of men.",
+      "suggested_fix": "Correct the Hebrew for “fishers of men” to the idiomatic and accurate form: “דייגי אנשים” or “דייגי אנשים/דייגים של אנשים” (recommendation: “דייגי בני אדם” or simply “דייגי אנשים”). Replace the mistaken ״דוגי אדם״ with “דייגי אנשים” or “דייגים של אנשים.”",
+      "translation_quote": "“לך אחריי ואני אעשה אתכם דוגי אדם.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

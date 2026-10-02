@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing 1 John 2:6 (near start)",
+      "severity": "major",
+      "source_quote": "He that saith he abideth in him ought himself also so to walk, even as he walked –1 John 2:6.",
+      "suggested_fix": "Translate the clause faithfully and idiomatically into Kiswahili. A correct rendering preserving the meaning would be, for example: “Yeye anayesema kuwa yuko ndani yake anapaswa pia kutembea kama yeye alivyo kutembea –1 Yohana 2:6.” Replace the current translated sentence with that text, keeping the existing <em>…</em> tags and the reference formatting.",
+      "translation_quote": "<em>Ayeyu asema yuko ndani yake ngangaye na yeye yafanye hayo alivyoyafanya yeye –1 Yohana 2:6.</em>"
+    },
+    {
+      "location": "Paragraph containing Acts 21:10-13 (near later half)",
+      "severity": "critical",
+      "source_quote": "And when we heard these things, both we, and they of that place, besought him not to go up to Jerusalem. Then Paul answered, What mean ye to weep and to break mine heart? for I am ready not to be bound only, but also to die at Jerusalem for the name of the Lord Jesus. –Acts 21:10-13.",
+      "suggested_fix": "The translation introduces factual errors that change meaning: “akarushwa mate” (spat on) and “akatetewa kichwa” (nonsense) do not reflect the source. Restore the factual sequence (Paul was arrested, beaten, imprisoned, later taken to Rome and eventually beheaded). A faithful Kiswahili rendering of the cited verses and the following summary sentence would be, for example: “Pauli alienda Yerusalemu na mara tu akakamatwa, akapigwa na kuwekwa gerezani. Huo ulikuwa mwanzo wa mwisho kwake… hatimaye akafikishwa Roma ambapo alikabidhiwa kifo kwa kukatwa kichwa.” Replace the mistranslated clauses and the summary that follows with wording that preserves the original events and the cited scripture meaning. Preserve HTML tags exactly as in source.",
+      "translation_quote": "<p>Tutafikiri nini kuhusu matendo ya Paulo leo? Paulo alienda Yerusalemu na mara moja akakamatwa, akarushwa mate, na akawekwa gerezani. Ilikuwa mwanzoni mwa mwisho kwa ndugu yetu mpendwa. Alisafirishwa kutoka gerezani hadi gerezani na hatimaye akafika Roma ambapo akatetewa kichwa.</p>"
+    },
+    {
+      "location": "Luke 14:25-33 quotation (second paragraph)",
+      "severity": "minor",
+      "source_quote": "…and he turned, and said unto them, If any man come to me, and hate not his father, and mother, and wife, and children, and brethren, and sisters, yea, and his own life also, he cannot be my disciple. And whosoever doth not bear his cross, and come after me, cannot be my disciple.... –Luke 14:25-33.",
+      "suggested_fix": "Small wording and spacing issues and one stylistic improvement: change “siyeweza kuwa mwanafunzi wangu” to the standard Kiswahili negation “hawezi kuwa mwanafunzi wangu” (and ensure a space after 'si' if that form is retained). Otherwise the quotation is rendered into Kiswahili; adjust to improve grammar: for example, replace “siyeweza kuwa mwanafunzi wangu” with “hawezi kuwa mwanafunzi wangu.” Preserve the <em>, <strong>, and <u> tags when making the correction.",
+      "translation_quote": "<em>…akageuka akawaambia, Ikiwa mtu yeyote anje kwangu, wala haumpende baba yake wala mama yake, wala mke wake wala watoto wake, wala ndugu wala dada, hata maisha yake mwenyewe, <strong>siyeweza kuwa mwanafunzi wangu.</strong> Na kila anayekosa <u>kubeba msalaba wake</u> akamfuate, <strong>siyeweza kuwa mwanafunzi wangu.</strong> ... – Luka 14:25-33.</em>"
+    },
+    {
+      "location": "Multiple places — general grammar and idiom (throughout translation)",
+      "severity": "minor",
+      "source_quote": "Various English sentences and phrasing throughout the article (e.g., “He that saith he abideth in him ought himself also so to walk, even as he walked –1 John 2:6.”; “He was moved from prison to prison and eventually ended up in Rome where he was beheaded.”; several other narrative sentences).",
+      "suggested_fix": "There are several small grammatical/idiomatic issues (word order, punctuation, and a few awkward literal renderings). Examples: change “Ayeyu asema yuko ndani yake ngangaye na yeye yafanye hayo alivyoyafanya yeye” to “Yeye anayesema kuwa yuko ndani yake anapaswa pia kutembea kama yeye alivyo kutembea.” Review the translation for run-on phrases and correct spacing (e.g., 'siyeweza' -> 'si yeweza' is wrong; use 'hawezi'). These are minor edits to improve clarity while preserving theology and meaning. Keep all HTML tags, order and attributes unchanged when applying fixes.",
+      "translation_quote": "Multiple instances such as: “Ayeyu asema yuko ndani yake ngangaye na yeye yafanye hayo alivyoyafanya yeye –1 Yohana 2:6.” and “siyeweza kuwa mwanafunzi wangu.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -2,7 +2,6 @@
   "article_id": "964d8688-6491-4ede-9271-c923db4c4079",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d5ece5fabcf745599ea5fcd7a23728f3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -43,18 +42,45 @@
         },
         "total_tokens": 10239
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 812,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6784,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7596
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Duplicate HTML attribute",
-      "translation_quote": ""
+      "location": "Paragraph: \"This morning, as the waves are gently lapping...\" (description of the rabbi)",
+      "severity": "minor",
+      "source_quote": "He astounds the local rabbi with his knowledge of the scriptures.",
+      "suggested_fix": "Preserve singular reference to the local rabbi. Replace \"Ele assombra os rabinos locais\" with \"Ele assombra o rabino local\" (ou outra formulação singular idiomática).",
+      "translation_quote": "Ele assombra os rabinos locais com seu conhecimento das Escrituras."
+    },
+    {
+      "location": "Paragraph: \"When Jesus appeared on the shore after their long night...\" (the fish meal)",
+      "severity": "minor",
+      "source_quote": "When Jesus appeared on the shore after their long night of fruitless toil, He prepared a fish fry for the weary disciples.",
+      "suggested_fix": "Fix the non‑Portuguese/awkward word \"fritto\". Use an idiomatic Portuguese rendering such as \"preparou um peixe frito para os discípulos fatigados\" or \"preparou uma fritada de peixe para os discípulos cansados.\" Replace \"preparou um fritto de peixe\" accordingly.",
+      "translation_quote": "Quando Jesus apareceu na margem depois de sua longa noite de trabalho infrutífero, preparou um fritto de peixe para os discípulos fatigados."
     }
   ],
+  "finished_at": "2026-10-02T13:09:11+00:00",
   "id": "1499cab0008e581efe02e9353a30e5b1",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "por",
@@ -128,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/72e9e95087abf4bb6b3406930b96815159af17d474fb3822bb08890105936e6b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "1a9a048cb09f8defedfe227e6b286e8b931f833f4da6a1d1e6b5d1175b0c84c0",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

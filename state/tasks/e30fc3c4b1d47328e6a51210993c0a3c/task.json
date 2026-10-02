@@ -2,7 +2,6 @@
   "article_id": "30d02d2c-805c-437c-ad10-4542362ab6de",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d5ece5fabcf745599ea5fcd7a23728f3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -43,18 +42,46 @@
         },
         "total_tokens": 17264
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1130,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10981,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12111
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[4]: source /article[1]/blockquote[1]/p[1]/em[1]/br[1] ('start', 'br', ()); translation /article[1]/blockquote[1]/p[1]/em[1] ('end', 'em')",
-      "translation_quote": ""
+      "location": "<p>…The road from Jerusalem to Emmaus was <em>about threescore furlongs</em> or approximately seven miles.</p>",
+      "severity": "major",
+      "source_quote": "about threescore furlongs",
+      "suggested_fix": "Translate ‘threescore furlongs’ correctly into Hindi as ‘लगभग तिहत्तर फर्लॉंग’ or better keep the original explanatory phrasing: '<em>लगभग तिहत्तर फर्लॉंग</em> या लगभग सात मील' (or '<em>लगभग तिहत्तर फर्लॉंग</em> अर्थात लगभग सात मील'). Preserve the <em> tags exactly where they appear.",
+      "translation_quote": "<em>छः हजार फुरलों के लगभग</em> अर्थात लगभग सात मील था।"
+    },
+    {
+      "location": "<p class=\"drop-cap\">... D-word list</p>",
+      "severity": "minor",
+      "source_quote": "Disappointment, Doubt, Doleful, Doom, Disillusionment, Discouragement, Dreary, Defeat, Despondency, Depression, Despair, Devastation, Deception, and Death.",
+      "suggested_fix": "Adjust the Hindi word choices to more directly reflect each English term and avoid duplication. For example: 'निराशा (Disappointment), संदेह (Doubt), शोकग्रहण/दुःखवश (Doleful), अभिशाप/विनाश (Doom), मोहभंग (Disillusionment), हतोत्साह (Discouragement), उदासमय/उदासीनता (Dreary), पराजय (Defeat), निराशाजनकता/निराशा (Despondency) — avoid repeating 'निराशा' twice by choosing distinct terms — अवसादन (Depression), हताशा (Despair), तबाही (Devastation), छल (Deception), और मृत्यु (Death).' Preserve the original punctuation and ordering.",
+      "translation_quote": "निराशा, सन्देह, उदासी, विनाश, मोहभंग, हतोत्साह, उबासी, पराजय, अवसाद, निराशा, तबाही, छल, और मृत्यु।"
     }
   ],
+  "finished_at": "2026-10-02T13:09:11+00:00",
   "id": "e30fc3c4b1d47328e6a51210993c0a3c",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "hin",
@@ -128,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 76,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f6ab9961323e616863eb6439ba02dc39cc2ebee29143de95816c983763cc88c5.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "ceb52dc3bb5b5ab212a3930b445c8849f8521bc253df2cec9d019d90e889292e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

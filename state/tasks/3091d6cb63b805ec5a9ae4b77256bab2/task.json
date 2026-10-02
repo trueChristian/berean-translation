@@ -2,7 +2,6 @@
   "article_id": "30d02d2c-805c-437c-ad10-4542362ab6de",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d5ece5fabcf745599ea5fcd7a23728f3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -43,18 +42,60 @@
         },
         "total_tokens": 15576
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1460,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10135,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11595
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[4]: source /article[1]/blockquote[1]/p[1]/em[1]/br[1] ('start', 'br', ()); translation /article[1]/blockquote[1]/p[1]/em[1] ('end', 'em')",
-      "translation_quote": ""
+      "location": "<p>...The road from Jerusalem to Emmaus was <em>about threescore furlongs</em> or approximately seven miles.</p>",
+      "severity": "major",
+      "source_quote": "about threescore furlongs",
+      "suggested_fix": "Vertaal de maatletterlijk en correct: vervang 'ongeveer driehonderd stadiën' door 'ongeveer threescore furlongs (ongeveer zeventig werkelijke yards per furlong)'. Beter: 'ongeveer driehonderd stadiën' is onjuist omdat 'threescore furlongs' niet 'stadiën' zijn. Gebruik 'ongeveer zestig furlongs (ongeveer zeven mijl)' of in volledig Nederlands: 'ongeveer zestig furlongs (ongeveer zeven mijl)'. Houd de HTML-tagstructuur en opmaak onveranderd.",
+      "translation_quote": "De weg van Jeruzalem naar Emmaüs was <em>ongeveer driehonderd stadiën</em> of ongeveer zeven mijl."
+    },
+    {
+      "location": "<h3>…On geduld</h3>",
+      "severity": "major",
+      "source_quote": "…Impatience",
+      "suggested_fix": "Corrigeer de kop naar een correcte en natuurlijke Nederlandse vertaling van 'Impatience', bijvoorbeeld '<h3>…Ongeduld</h3>' (als één woord) of '<h3>…On geduld</h3>' is onjuist. Bewaar de driepunt-ellips en het h3-element.",
+      "translation_quote": "…On geduld"
+    },
+    {
+      "location": "<p>...Het lijkt tamelijk toevallig dat zoveel woorden met een negatieve bijklank beginnen met de letter D: teleurstelling, twijfel, droefheid, verderf, desillusie, ontmoediging, somberheid, nederlaag, wanhoop, depressie, wanhoop, verwoesting, bedrog en dood.</p>",
+      "severity": "minor",
+      "source_quote": "Disappointment, Doubt, Doleful, Doom, Disillusionment, Discouragement, Dreary, Defeat, Despondency, Depression, Despair, Devastation, Deception, and Death.",
+      "suggested_fix": "Vermijd dubbele vertaling van twee Engelse termen met hetzelfde Nederlandse woord. Hier zijn twee Engelse termen die beide als 'wanhoop' vertaald zijn (Despondency en Despair). Pas de tweede vertaling aan om onderscheid te tonen, bijvoorbeeld 'despondency' → 'neerslachtigheid/despondentie' en 'despair' → 'wanhoop' of andersom, afhankelijk van desired nuance. Voorstel concreet: '...nederlaag, neerslachtigheid, depressie, wanhoop, verwoesting...' Houd het HTML-paragraafelement ongewijzigd.",
+      "translation_quote": "teleurstelling, twijfel, droefheid, verderf, desillusie, ontmoediging, somberheid, nederlaag, wanhoop, depressie, wanhoop, verwoesting, bedrog en dood."
+    },
+    {
+      "location": "<p>...De Heer kan een mens niet volledig zegenen totdat Hij eerst zijn macht van verstand heeft overwonnen.</p>",
+      "severity": "minor",
+      "source_quote": "The Lord cannot fully bless a man until He has first conquered his powers of reason.",
+      "suggested_fix": "Verbeter de idioom/woordkeus om het Nederlands natuurlijker en exact te laten klinken, b.v.: 'De Heer kan een mens niet volledig zegenen voordat Hij eerst zijn heerschappij van het verstand heeft gebroken.' of '...voordat Hij eerst zijn heerschappij over het verstand heeft overwonnen.' Bewaar HTML-structuur.",
+      "translation_quote": "De Heer kan een mens niet volledig zegenen totdat Hij eerst zijn macht van verstand heeft overwonnen."
     }
   ],
+  "finished_at": "2026-10-02T13:09:11+00:00",
   "id": "3091d6cb63b805ec5a9ae4b77256bab2",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "nld",
@@ -128,11 +169,13 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f6ab9961323e616863eb6439ba02dc39cc2ebee29143de95816c983763cc88c5.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "ceb52dc3bb5b5ab212a3930b445c8849f8521bc253df2cec9d019d90e889292e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

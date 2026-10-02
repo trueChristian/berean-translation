@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph: second paragraph (near phrase 'تحطمت hopelessly في كومة')",
+      "severity": "critical",
+      "source_quote": "They were staring into the face of the grim reality that all their bright hopes of a shining tomorrow were hopelessly shattered in a ruinous heap at the foot of the cross.",
+      "suggested_fix": "Translate the adverb 'hopelessly' into Arabic and integrate it naturally into the sentence. For example: \"...تحطمت بلا رجاء في كومة هائلة عند سفح الصليب.\" Preserve surrounding HTML and punctuation exactly.",
+      "translation_quote": "...جميع آمالهما المشرقة بغدٍ مشرق تحطمت hopelessly في كومة هائلة عند سفح الصليب."
+    },
+    {
+      "location": "Metadata / Bible-book name: Acts 7:25 (paragraph beginning 'هذا ليس بجديد. موسى، شابًا')",
+      "severity": "major",
+      "source_quote": "Acts 7:25.",
+      "suggested_fix": "Use the conventional Arabic name for the book of Acts: 'أعمال الرسل'. Replace 'أَعْمَالُ الْأَيَّامِ 7:25' with 'أَعْمَالُ الرُّسُلِ 7:25'. Keep the verse numbering unchanged and preserve HTML tags.",
+      "translation_quote": "<em>…ظَنَّ أَنَّ إِخْوَتَهُ سَيَفْهَمُونَ أَنَّ اللهَ بِيَدِهِ يُخَلِّصُهُمْ، فَلَمْ يَفْهَمُوا –أَعْمَالُ الْأَيَّامِ 7:25.</em>"
+    },
+    {
+      "location": "Multiple Bible-book renderings (throughout: e.g., '2 كوْرِنْثُوس', '1 كوْرِنْثُوس', 'يوحنا', 'تكوين' etc.)",
+      "severity": "minor",
+      "source_quote": "2 Corinthians 1:8-9; 1 Corinthians 13:12; Genesis 28:20-21 etc.",
+      "suggested_fix": "Standardize book names to common Arabic Bible conventions and typography. For example: '2 Corinthians' → 'كوْرِنْثُوس الثانية' or '2 كوْرِنْثُوس' (without unusual diacritics), '1 Corinthians' → 'كوْرِنْثُوس الأولى', 'Genesis' → 'تكوين', 'John' → 'يوحنا'. Ensure consistent use across all in-text citations while leaving chapter and verse numbers unchanged.",
+      "translation_quote": "Examples: '<em>…كَأَنَّهُ نَظَرٌ غَائِبٌ فِي مَرْآةٍ مُعْتِمَةٍ… –1 كوْرِنْثُوس 13:12.</em>' and '<em>بَلْ كَانَ فِينَا حُكْمُ الْمَوْتِ... –2 كوْرِنْثُوس 1:9.</em>'"
+    },
+    {
+      "location": "Paragraph: 'الطريف أن العديد من الكلمات ... تبدأ بحرف D' (first paragraph)",
+      "severity": "minor",
+      "source_quote": "It appears rather coincidental that so many words with a negative connotation begin with the letter D: Disappointment, Doubt, Doleful, Doom, Disillusionment, Discouragement, Dreary, Defeat, Despondency, Depression, Despair, Devastation, Deception, and Death.",
+      "suggested_fix": "Either translate the English words in parentheses into Arabic or indicate clearly that the parenthetical items are original-English words. Preferable: provide Arabic equivalents for each English word (you may keep the English in parentheses if desired). Example: 'خيبة الأمل (Disappointment)، الشك (Doubt)، الكآبة (Doleful)...' Do not leave the English-only list untranslated.",
+      "translation_quote": "...العديد من الكلمات ذات الدلالات السلبية تبدأ بحرف D: خيبة الأمل (Disappointment)، الشك (Doubt)، الكآبة (Doleful)، الهلاك (Doom)، الخيبة (Disillusionment), الإحباط (Discouragement), الكآبة والرتابة (Dreary), الهزيمة (Defeat), اليأس (Despondency), الاكتئاب (Depression), اليأس القاتل (Despair), الدمار (Devastation), الخداع (Deception)، والموت (Death)."
+    },
+    {
+      "location": "Paragraph: 'FOMO (fear of missing out)'",
+      "severity": "minor",
+      "source_quote": "FOMO (fear of missing out).",
+      "suggested_fix": "Provide an Arabic rendering of the acronym (and optionally keep the English acronym). For example: 'الخوف من الفوات (FOMO — Fear of Missing Out)'. Ensure the Arabic phrase is primary and clear to readers.",
+      "translation_quote": "— الخوف من الفوات (FOMO)."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

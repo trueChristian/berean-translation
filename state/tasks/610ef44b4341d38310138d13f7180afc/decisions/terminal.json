@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "<p class=\"drop-cap\"> (opening paragraph)",
+      "severity": "major",
+      "source_quote": "On June 6, 1944, 156,000 American, British, and Canadian troops landed on a 50-mile stretch of beach in Normandy, France.",
+      "suggested_fix": "Render the distance correctly in Norwegian. Replace the mistranslated \"50-mils strekning\" with a faithful Norwegian rendering of \"a 50-mile stretch of beach\" such as: «på en strekning av strand på 50 miles (omtrent 80 km) i Normandie, Frankrike.» Preserve the surrounding HTML and punctuation.",
+      "translation_quote": "Den 6. juni 1944 landet 156 000 amerikanske, britiske og kanadiske tropper på en 50-mils strekning av strand i Normandie, Frankrike."
+    },
+    {
+      "location": "<p>Veien fra Jerusalem til Emmaus var <em>about threescore furlongs</em> or approximately seven miles.</p> (paragraph beginning “The road from Jerusalem to Emmaus was about threescore furlongs...”)",
+      "severity": "major",
+      "source_quote": "The road from Jerusalem to Emmaus was about threescore furlongs or approximately seven miles.",
+      "suggested_fix": "Correct the unit conversion and avoid introducing an incorrect Norwegian unit. The English says \"about threescore furlongs or approximately seven miles.\" A faithful Norwegian rendering would be e.g.: «Veien fra Jerusalem til Emmaus var omtrent tre score furlong, det vil si omtrent sju engelske mil (ca. 12 km).» or more simply «Veien fra Jerusalem til Emmaus var omtrent tre score furlong, altså cirka sju engelske mil (omtrent 12 km).» Note: ensure the mile/kilometre conversion is accurate and consistent. Preserve the <em> tag and surrounding HTML.",
+      "translation_quote": "Veien fra Jerusalem til Emmaus var <em>omtrent tre mil</em> eller omtrent sju engelske mil."
+    },
+    {
+      "location": "<p class=\"drop-cap\"> (opening paragraph) and the paragraph about the distance (same area)",
+      "severity": "minor",
+      "source_quote": "On June 6, 1944, ... landed on a 50-mile stretch of beach in Normandy, France. ... The road from Jerusalem to Emmaus was about threescore furlongs or approximately seven miles.",
+      "suggested_fix": "Ensure numeric units are consistently and correctly localised. If you use the Norwegian unit \"mil\" (10 km), explicitly indicate it as kilometres or as \"engelske mil\" to avoid confusion; or better, use kilometres in parentheses. For example: «en strekning på 50 miles (omtrent 80 km)» and «omtrent tre score furlong, altså cirka sju engelske mil (omtrent 12 km).» Preserve HTML and emphasis markup.",
+      "translation_quote": "Den 6. juni 1944 landet 156 000 ... på en 50-mils strekning ...\n\nVeien fra Jerusalem til Emmaus var <em>omtrent tre mil</em> eller omtrent sju engelske mil."
+    },
+    {
+      "location": "<p>Jesus... Eli, Eli, lama sabachthani? (Matthew 27:46) paragraph",
+      "severity": "minor",
+      "source_quote": "Eli, Eli, lama sabachthani? that is to say, My God, my God, why hast thou forsaken me? –Matthew 27:46.",
+      "suggested_fix": "Correct the transliteration of the Aramaic as printed in the authoritative English source. The English uses \"sabachthani.\" The translation currently renders the clause as \"sabakhtani\" (missing the 'ch' sound). Replace with a faithful transliteration matching the source, e.g. «Eli, Eli, lama sabachthani? det vil si: Min Gud, min Gud, hvorfor har du forlatt meg? –Matteus 27:46.» Preserve the <em> tags and surrounding HTML.",
+      "translation_quote": "... steg hans røst <em>…med høy røst og sa: Eli, Eli, lama sabakhtani? det vil si: Min Gud, min Gud, hvorfor har du forlatt meg? –Matteus 27:46.</em>"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

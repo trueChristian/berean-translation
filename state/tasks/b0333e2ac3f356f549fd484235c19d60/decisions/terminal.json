@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "<p class=\"drop-cap\"> (opening paragraph)",
+      "severity": "minor",
+      "source_quote": "Like the disciples, you will find yourself drawn to follow Jesus.",
+      "suggested_fix": "Korrigeer die onduidelike/gedupliceerde frase. Voorstel: vervang die sin deur ’n vloeiende Afrikaanse weergawe wat die betekenis behou. Voorbeeld: \"Soos die dissipels sal jy jou self aangetrokke vind om Jesus te volg.\"",
+      "translation_quote": "Soos die dissipels, sal jy jouself aantrek gevind vind om Jesus te volg."
+    },
+    {
+      "location": "<p>Dissipleship paragraph (third paragraph of translation)",
+      "severity": "minor",
+      "source_quote": "Discipleship is not an alternate means of salvation. Following Jesus is the response of a soul set free.",
+      "suggested_fix": "Herformuleer om natuurlike Afrikaans te gebruik en die infinitief duidelik te maak. Voorstel: vervang \"Jesus volg is die reaksie\" met \"Om Jesus te volg is die reaksie\" (behoud van betekenis).",
+      "translation_quote": "Dissipelskap is nie ’n alternatiewe manier van verlossing nie. Jesus volg is die reaksie van ’n siel wat vrygemaak is."
+    },
+    {
+      "location": "<p>Dissipleship steps sentence (same paragraph)",
+      "severity": "minor",
+      "source_quote": "Believing in Jesus, repenting of our sins, and receiving the Lord Jesus into our heart are the first steps into a lifelong journey of faith.",
+      "suggested_fix": "Korrigeer die oorbodige woordorde/typefout: vervang \"van ons sondes te bekering te doen\" met \"van ons sondes te bekeer\" of \"om van ons sondes te bekeer\". Voorstel: \"Om in Jesus te glo, van ons sondes te bekeer, en die Here Jesus in ons hart te ontvang, is die eerste stappe...\"",
+      "translation_quote": "Om in Jesus te glo, van ons sondes te bekering te doen, en die Here Jesus in ons hart te ontvang, is die eerste stappe op ’n leeftyd van geloofsreis."
+    },
+    {
+      "location": "<p>Paragraph beginning \"As you join us on this journey\"",
+      "severity": "minor",
+      "source_quote": "If you join us on this journey, you will discover that following Jesus will lead us into the valley of decision...",
+      "suggested_fix": "Herstel grammatika sodat die Afrikaanse infinitiefvorm gebruik word en die betekenis van \"following Jesus will lead us\" behou word. Voorstel: vervang \"As jy by ons aansluit op hierdie reis, sal jy ontdek dat Jesus volg ons na die vallei...\" met \"As jy by ons aansluit op hierdie reis, sal jy ontdek dat om Jesus te volg ons sal lei na die vallei...\"",
+      "translation_quote": "As jy by us aansluit op hierdie reis, sal jy ontdek dat Jesus volg ons na die vallei van besluit lei waar ons gedwing sal wees om te kies tussen ’n lewe van totale oorgawe aan Christus of ’n lewe van sonde en selfgenot."
+    },
+    {
+      "location": "<p>Paragraph about fishing after Pentecost (paragraph describing their failure)",
+      "severity": "minor",
+      "source_quote": "They decided to go fishing, but much to their consternation they had lost the touch. They fished all night and caught nothing.",
+      "suggested_fix": "Maak die Afrikaans idiomaties en duidelik: \"...maar tot hulle versugting het hulle die raak nie meer.\" is onduidelik en idiomaties problematies. Voorstel: vervang met \"...maar tot hulle frustrasie het hulle die greep verloor. Hulle het die hele nag probeer visvang en niks gevang nie.\"",
+      "translation_quote": "Hulle het besluit om te gaan visvang, maar tot hulle versugting het hulle die raak nie meer. Hulle het die hele nag gevang en niks gekry nie."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c1121891-d331-4faa-9b13-9185a686eb19",
+    "response_id": "chatcmpl-EUXFHg2M3tpkLi3ixxEQRELKifZPh",
+    "usage": {
+      "completion_tokens": 962,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6633,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7595
+    }
+  },
+  "received_at": "2026-10-02T13:09:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html paragraph 2 (first sentence)",
+        "severity": "minor",
+        "source_quote": "My mother was picking him up, crooning softly.",
+        "suggested_fix": "Insert missing space: \"Ibu mengangkatnya, sambil menyanyikan lagu-lagu lembut.\" (preserve tag structure and punctuation).",
+        "translation_quote": "Ibumengangkatnya, sambil menyanyikan lagu-lagu lembut."
+      },
+      {
+        "location": "translation.html paragraph 20 (quotation of 1 Timothy 2:11-13 and commentary)",
+        "severity": "minor",
+        "source_quote": "Let the woman learn in silence with all subjection. But I suffer not a woman to teach, nor to usurp authority over the man, but to be in silence. For Adam was first formed, then Eve –1 Timothy 2:11-13.",
+        "suggested_fix": "Consider a slightly clearer Indonesian phrasing that preserves the original theological force while remaining literal to the English: e.g. replace \"kami percaya agar perempuan berdiam di gereja\" with \"kami percaya agar perempuan berdiam dalam gereja\" or \"kami percaya agar perempuan berdiam-diri di dalam ibadah gereja\" to reduce potential ambiguity. This is a minor clarity edit; theology and meaning should remain unchanged.",
+        "translation_quote": "Seperti yang Paulus ajarkan, kami percaya agar perempuan berdiam di gereja, tetapi ini tidak berarti perempuan harus diam dalam segala situasi, tempat, dan hubungan."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

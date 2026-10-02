@@ -2,7 +2,6 @@
   "article_id": "60de3363-d9fc-4137-ad60-dee9097b154b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d5ece5fabcf745599ea5fcd7a23728f3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -43,18 +42,39 @@
         },
         "total_tokens": 4891
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 772,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3160,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3932
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[1]; missing: 4:11; extra: none",
-      "translation_quote": ""
+      "location": "source.html paragraph 4 (about discipleship)",
+      "severity": "major",
+      "source_quote": "Disciple has almost the same spelling as discipline.",
+      "suggested_fix": "Restore the author's original point about the English-word similarity. Suggested German rendering that preserves the intended meaning: \"Im Englischen ist ‹disciple› fast genauso geschrieben wie ‹discipline›.\" (This keeps the observation that it is an English spelling similarity.)",
+      "translation_quote": "Das Wort Jünger hat fast die gleiche Schreibweise wie Disziplin."
     }
   ],
+  "finished_at": "2026-10-02T13:09:11+00:00",
   "id": "ea334535d8e3fad94eb5b49ff21532e5",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "deu",
@@ -128,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 80,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ab9577ad9f52483785d093ef6641080edc12c9501778b8546b9f11852b6617c7.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "5d9068ffbc6d70e08db0f9acd8f46773a5f961c4f3f8c083b9b2b023b22ece1f",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

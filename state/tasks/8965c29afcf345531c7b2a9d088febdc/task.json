@@ -2,7 +2,6 @@
   "article_id": "8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d5ece5fabcf745599ea5fcd7a23728f3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -43,18 +42,60 @@
         },
         "total_tokens": 7253
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1379,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4425,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5804
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[9]: source /article[1]/p[3]/em[1] ('start', 'em', ()); translation /article[1]/p[3] ('end', 'p')",
-      "translation_quote": ""
+      "location": "<p class=\"drop-cap\">…she ducked back toward the doorway of the house.</p>",
+      "severity": "major",
+      "source_quote": "She felt suddenly shy at having asked such a question, and she ducked back toward the doorway of the house.",
+      "suggested_fix": "Replace the incorrect verb \"נמכרה חזרה\" with a verb that conveys moving quickly away or shrinking back in bashfulness, e.g. \"היא התכופפה אחורה לכיוון סף הבית\" or \"היא נמלטה בחשש חזרה אל סף הבית\" so the Hebrew matches the English meaning.",
+      "translation_quote": "היא הרגישה פתאום ביישנית על ששאלה שאלה כזו, ונמכרה חזרה לכיוון סף הבית."
+    },
+    {
+      "location": "<p>She followed Grandpa out the door and as he walked across the porch, she quickly stepped up next to him.</p>",
+      "severity": "minor",
+      "source_quote": "She followed Grandpa out the door and as he walked across the porch, she quickly stepped up next to him.",
+      "suggested_fix": "Change \"היא נסעה בעקבות סבא\" (which implies traveling by vehicle) to a verb indicating walking or following on foot, e.g. \"היא הלכה בעקבות סבא\" or \"היא יצאה בעקבות סבא\" to reflect the original action accurately.",
+      "translation_quote": "היא נסעה בעקבות סבא אל מחוץ לדלת וכשהלך על המרפסת, היא הצטמצמה במהירות לידו."
+    },
+    {
+      "location": "<div class=\"lyrics\"> first stanza, line 3-4</div>",
+      "severity": "major",
+      "source_quote": "In Thy pleasant pastures feed us, / For our use Thy folds prepare:",
+      "suggested_fix": "The translation \"בעבור שימושנו עשה צורותיך מוכנות\" is incorrect and obscures the pastoral image. Use \"במרעים נעימים שלך רעה אותנו, / למען שימושנו תכין מכלאותיך\" or \"במרעים שנעימים בעיניך רעה אותנו, / תכין למעננו מכלאותיך\" so that \"folds\" is rendered as \"מכלאותיך\" (sheepfolds/enclosures) and the meaning is preserved.",
+      "translation_quote": "במרעים נעימים שלך רעה אותנו,<br>\nעבור שימושנו עשה צורותיך מוכנות:"
+    },
+    {
+      "location": "<div class=\"lyrics\">second stanza, line 6-8</div>",
+      "severity": "major",
+      "source_quote": "Blessed Jesus! blessed Jesus! / Hear, O hear us when we pray.",
+      "suggested_fix": "The translation \"שמע, הו שמע אותנו כשתתפלל\" changes the subject and tense (it reads as 'when you pray'). It should preserve the original plea 'when we pray'. Suggested rendering: \"ישוע המבורך! ישוע המבורך! / שמע, הו שמע אותנו כשאנחנו מתפללים.\"",
+      "translation_quote": "ישוע המבורך! ישוע המבורך!<br>\nשמע, הו שמע אותנו כשתתפלל."
     }
   ],
+  "finished_at": "2026-10-02T13:09:11+00:00",
   "id": "8965c29afcf345531c7b2a9d088febdc",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "heb",
@@ -128,11 +169,13 @@
     }
   },
   "protected": false,
+  "quality_score": 38,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ed28f89bae980f0f15b18d7447272f16d8d7da19ef1ab820db3371f4fb3caf02.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

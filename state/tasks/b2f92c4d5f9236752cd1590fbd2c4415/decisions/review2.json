@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 1 (negative D-words list)",
+      "severity": "minor",
+      "source_quote": "It appears rather coincidental that so many words with a negative connotation begin with the letter D: Disappointment, Doubt, Doleful, Doom, Disillusionment, Discouragement, Dreary, Defeat, Despondency, Depression, Despair, Devastation, Deception, and Death.",
+      "suggested_fix": "Adjust wording to better reflect the original English list and avoid possible semantic shifts or unintended duplication. For example, translate each English item distinctly and in reasonable Indonesian equivalents: \"Kekecewaan, Keraguan, Kesedihan, Kehancuran, Kekecewaan yang nyata (disillusionment), Keputusasaan, Suram, Kekalahan, Putus asa, Depresi, Putus asa (despair), Penghancuran, Penipuan, dan Kematian.\" (Keep consistent single-word translations and avoid repeating synonyms for the same English term.)",
+      "translation_quote": "Tampak cukup kebetulan bahwa begitu banyak kata-kata dengan konotasi negatif diawali dengan huruf D: Kekecewaan, Keraguan, Duka, Kehancuran, Kepahitan, Kegelapan, Kekalahan, Keputusasaan, Depresi, Musnah, Penghancuran, Penipuan, dan Kematian."
+    },
+    {
+      "location": "Paragraph mentioning distance (\"about threescore furlongs\")",
+      "severity": "minor",
+      "source_quote": "The road from Jerusalem to Emmaus was about threescore furlongs or approximately seven miles.",
+      "suggested_fix": "Clarify the measurement term to a conventional Indonesian historical unit or explicitly keep the approximation. Suggestion: translate as \"sekitar enam puluh furlong (kira-kira tujuh mil)\" or \"sekitar enam puluh furlong (kira-kira tujuh mil/11 kilometer)\". This preserves the original term \"furlong\" while providing the familiar metric approximation for readers.",
+      "translation_quote": "Jalan dari Yerusalem ke Emmaus adalah sekitar enam puluh stadion atau kira-kira tujuh mil."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

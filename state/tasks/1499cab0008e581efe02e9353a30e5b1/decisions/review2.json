@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph: \"This morning, as the waves are gently lapping...\" (description of the rabbi)",
+      "severity": "minor",
+      "source_quote": "He astounds the local rabbi with his knowledge of the scriptures.",
+      "suggested_fix": "Preserve singular reference to the local rabbi. Replace \"Ele assombra os rabinos locais\" with \"Ele assombra o rabino local\" (ou outra formulação singular idiomática).",
+      "translation_quote": "Ele assombra os rabinos locais com seu conhecimento das Escrituras."
+    },
+    {
+      "location": "Paragraph: \"When Jesus appeared on the shore after their long night...\" (the fish meal)",
+      "severity": "minor",
+      "source_quote": "When Jesus appeared on the shore after their long night of fruitless toil, He prepared a fish fry for the weary disciples.",
+      "suggested_fix": "Fix the non‑Portuguese/awkward word \"fritto\". Use an idiomatic Portuguese rendering such as \"preparou um peixe frito para os discípulos fatigados\" or \"preparou uma fritada de peixe para os discípulos cansados.\" Replace \"preparou um fritto de peixe\" accordingly.",
+      "translation_quote": "Quando Jesus apareceu na margem depois de sua longa noite de trabalho infrutífero, preparou um fritto de peixe para os discípulos fatigados."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

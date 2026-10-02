@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph 4 (about discipleship)",
+      "severity": "major",
+      "source_quote": "Disciple has almost the same spelling as discipline.",
+      "suggested_fix": "Restore the author's original point about the English-word similarity. Suggested German rendering that preserves the intended meaning: \"Im Englischen ist ‹disciple› fast genauso geschrieben wie ‹discipline›.\" (This keeps the observation that it is an English spelling similarity.)",
+      "translation_quote": "Das Wort Jünger hat fast die gleiche Schreibweise wie Disziplin."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

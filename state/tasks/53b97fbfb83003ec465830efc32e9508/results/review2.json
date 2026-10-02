@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c202b7af-51bd-4d9c-92d2-0f3a34293060",
+    "response_id": "chatcmpl-EUXFEEck9JUqD4HZ6MlZFiS18TIK4",
+    "usage": {
+      "completion_tokens": 873,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10314,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11187
+    }
+  },
+  "received_at": "2026-10-02T13:09:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"drop-cap\"> (premier paragraphe)",
+        "severity": "minor",
+        "source_quote": "...it was the event that seemed to sap the life from the notorious German army, from which they never recovered.",
+        "suggested_fix": "Corriger la préposition et l'accord en français. Par exemple : remplacer «du redoutable armée allemande, dont elle ne se remit jamais» par «de la redoutable armée allemande, qui ne s'en remit jamais.» (Conserver la structure HTML existante.)",
+        "translation_quote": "...et l'événement qui semble avoir sapé la vigueur du redoutable armée allemande, dont elle ne remit jamais."
+      },
+      {
+        "location": "<p> (paragraphe commençant «Cette nuit noire...» au troisième écran)",
+        "severity": "minor",
+        "source_quote": "This dark night of the soul shows no respect to persons. It invades the lives of princes and paupers, preachers and penitents, public and private people, pulpits and pews.",
+        "suggested_fix": "Accorder et traduire correctement le pluriel de «pulpits». Par exemple : remplacer «des chaire et des bancs» par «des chaires et des bancs» ou «des chaires et des fidèles dans les bancs». (Conserver la structure HTML existante.)",
+        "translation_quote": "Cette nuit noire de l'âme ne fait acception de personnes. Elle envahit la vie des princes et des mendiants, des prédicateurs et des pénitents, des personnages publics et privés, des chaire et des bancs."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

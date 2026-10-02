@@ -2,7 +2,6 @@
   "article_id": "30d02d2c-805c-437c-ad10-4542362ab6de",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d5ece5fabcf745599ea5fcd7a23728f3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -43,18 +42,45 @@
         },
         "total_tokens": 15932
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 873,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10314,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11187
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[4]: source /article[1]/blockquote[1]/p[1]/em[1]/br[1] ('start', 'br', ()); translation /article[1]/blockquote[1]/p[1]/em[1] ('end', 'em')",
-      "translation_quote": ""
+      "location": "<p class=\"drop-cap\"> (premier paragraphe)",
+      "severity": "minor",
+      "source_quote": "...it was the event that seemed to sap the life from the notorious German army, from which they never recovered.",
+      "suggested_fix": "Corriger la préposition et l'accord en français. Par exemple : remplacer «du redoutable armée allemande, dont elle ne se remit jamais» par «de la redoutable armée allemande, qui ne s'en remit jamais.» (Conserver la structure HTML existante.)",
+      "translation_quote": "...et l'événement qui semble avoir sapé la vigueur du redoutable armée allemande, dont elle ne remit jamais."
+    },
+    {
+      "location": "<p> (paragraphe commençant «Cette nuit noire...» au troisième écran)",
+      "severity": "minor",
+      "source_quote": "This dark night of the soul shows no respect to persons. It invades the lives of princes and paupers, preachers and penitents, public and private people, pulpits and pews.",
+      "suggested_fix": "Accorder et traduire correctement le pluriel de «pulpits». Par exemple : remplacer «des chaire et des bancs» par «des chaires et des bancs» ou «des chaires et des fidèles dans les bancs». (Conserver la structure HTML existante.)",
+      "translation_quote": "Cette nuit noire de l'âme ne fait acception de personnes. Elle envahit la vie des princes et des mendiants, des prédicateurs et des pénitents, des personnages publics et privés, des chaire et des bancs."
     }
   ],
+  "finished_at": "2026-10-02T13:09:11+00:00",
   "id": "53b97fbfb83003ec465830efc32e9508",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "fra",
@@ -128,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f6ab9961323e616863eb6439ba02dc39cc2ebee29143de95816c983763cc88c5.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "ceb52dc3bb5b5ab212a3930b445c8849f8521bc253df2cec9d019d90e889292e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

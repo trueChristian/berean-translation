@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p class=\"drop-cap\"> (premier paragraphe)",
+      "severity": "minor",
+      "source_quote": "...it was the event that seemed to sap the life from the notorious German army, from which they never recovered.",
+      "suggested_fix": "Corriger la préposition et l'accord en français. Par exemple : remplacer «du redoutable armée allemande, dont elle ne se remit jamais» par «de la redoutable armée allemande, qui ne s'en remit jamais.» (Conserver la structure HTML existante.)",
+      "translation_quote": "...et l'événement qui semble avoir sapé la vigueur du redoutable armée allemande, dont elle ne remit jamais."
+    },
+    {
+      "location": "<p> (paragraphe commençant «Cette nuit noire...» au troisième écran)",
+      "severity": "minor",
+      "source_quote": "This dark night of the soul shows no respect to persons. It invades the lives of princes and paupers, preachers and penitents, public and private people, pulpits and pews.",
+      "suggested_fix": "Accorder et traduire correctement le pluriel de «pulpits». Par exemple : remplacer «des chaire et des bancs» par «des chaires et des bancs» ou «des chaires et des fidèles dans les bancs». (Conserver la structure HTML existante.)",
+      "translation_quote": "Cette nuit noire de l'âme ne fait acception de personnes. Elle envahit la vie des princes et des mendiants, des prédicateurs et des pénitents, des personnages publics et privés, des chaire et des bancs."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

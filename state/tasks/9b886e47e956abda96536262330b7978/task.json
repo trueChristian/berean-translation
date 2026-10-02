@@ -2,7 +2,6 @@
   "article_id": "30d02d2c-805c-437c-ad10-4542362ab6de",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d5ece5fabcf745599ea5fcd7a23728f3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -43,18 +42,52 @@
         },
         "total_tokens": 16306
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1770,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 960,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10468,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12238
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[4]: source /article[1]/blockquote[1]/p[1]/em[1]/br[1] ('start', 'br', ()); translation /article[1]/blockquote[1]/p[1]/em[1] ('end', 'em')",
-      "translation_quote": ""
+      "location": "translation.html — metadata: section",
+      "severity": "minor",
+      "source_quote": "Victorious Christian Living",
+      "suggested_fix": "Translate the section metadata into standard Italian. Suggested translation: \"Vita cristiana vittoriosa\" (or another equivalent used by the publication). Preserve exact field placement and casing.",
+      "translation_quote": "Victorious Christian Living"
+    },
+    {
+      "location": "translation.html — Genesis 32:24-28 paragraph (wording)",
+      "severity": "minor",
+      "source_quote": "And he said, Let me go, for the day breaketh. And he said, I will not let thee go, except thou bless me. And he said unto him, What is thy name? And he said, Jacob. And he said, Thy name shall be called no more Jacob, but Israel: for as a prince hast thou power with God and with men, and hast prevailed –Genesis 32:24-28.",
+      "suggested_fix": "Correct the Italian rendering of the quoted dialogue to standard, idiomatic Italian and fix typos. Suggested replacement (preserving the quoted Scripture as the article does):\n“E disse: «Lasciami andare, perché il giorno è sorto». E disse: «Non ti lascerò andare, se prima non mi benedici». E dissegli: «Qual è il tuo nome?» Ed egli rispose: «Giacobbe». E disse: «Non sarai più chiamato Giacobbe, ma Israele; poiché come principe hai prevalso con Dio e con gli uomini, e hai prevalso» –Genesi 32:24-28.\n\n(Preferable improvement to the slightly awkward/erroneous forms in the translation: replace “dissegli”/“dissegli:” with “disse:” and make the sequence idiomatic: “E disse: ‘Qual è il tuo nome?’ Ed egli rispose: ‘Giacobbe.’ E disse: ‘Non sarai più chiamato Giacobbe, ma Israele…’”).",
+      "translation_quote": "E Giacobbe restò solo; e lottò con lui un uomo fino al levar dell'alba. E quando vide che non prevaleva contro di lui, toccò l'anca di Giacobbe; e l'anca di Giacobbe si saccò, mentre lottava con lui. E disse: Lasciami andare, perché il giorno è sorto. E disse: Non ti lascerò andare, se prima non mi benedici. E dissegli: Qual è il tuo nome? Ed egli rispose: Giacobbe. E dissegli: Non sarai più chiamato Giacobbe, ma Israele: per come principe hai prevalso con Dio e con gli uomini e hai prevalso –Genesi 32:24-28."
+    },
+    {
+      "location": "translation.html — Matthew 27:46 parenthetical and transliteration",
+      "severity": "minor",
+      "source_quote": "…with a loud voice, saying, Eli, Eli, lama sabachthani? that is to say, My God, my God, why hast thou forsaken me? –Matthew 27:46.",
+      "suggested_fix": "Fix the minor misspelling in the transliterated Aramaic and keep the explanatory Italian rendering. Suggested correction: change “lama sabactani?” to “lama sabachthani?” and ensure the explanatory Italian is accurate: “che significa: ‘Dio mio, Dio mio, perché mi hai abbandonato?’”. Preserve punctuation and placement in the quoted Scripture block.",
+      "translation_quote": "…in alta voce, dicendo: Eli, Eli, lama sabactani? che si traduce: Dio mio, Dio mio, perché mi hai abbandonato? –Matteo 27:46."
     }
   ],
+  "finished_at": "2026-10-02T13:09:11+00:00",
   "id": "9b886e47e956abda96536262330b7978",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "ita",
@@ -128,11 +161,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f6ab9961323e616863eb6439ba02dc39cc2ebee29143de95816c983763cc88c5.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "ceb52dc3bb5b5ab212a3930b445c8849f8521bc253df2cec9d019d90e889292e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

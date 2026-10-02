@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "cef2307d-e8fc-4c81-acce-243a7e0e6984",
+    "response_id": "chatcmpl-EUXFE6lDlC50nJJMBjXCJWa4EQUNw",
+    "usage": {
+      "completion_tokens": 772,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3160,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3932
+    }
+  },
+  "received_at": "2026-10-02T13:09:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph 4 (about discipleship)",
+        "severity": "major",
+        "source_quote": "Disciple has almost the same spelling as discipline.",
+        "suggested_fix": "Restore the author's original point about the English-word similarity. Suggested German rendering that preserves the intended meaning: \"Im Englischen ist ‹disciple› fast genauso geschrieben wie ‹discipline›.\" (This keeps the observation that it is an English spelling similarity.)",
+        "translation_quote": "Das Wort Jünger hat fast die gleiche Schreibweise wie Disziplin."
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

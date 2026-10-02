@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:09:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>...The road from Jerusalem to Emmaus was <em>about threescore furlongs</em> or approximately seven miles.</p>\",\"severity\":\"major\",\"source_quote\":\"about threescore furlongs\",\"suggested_fix\":\"Vertaal de maatletterlijk en correct: vervang 'ongeveer driehonderd stadiën' door 'ongeveer threescore furlongs (ongeveer zeventig werkelijke yards per furlong)'. Beter: 'ongeveer driehonderd stadiën' is onjuist omdat 'threescore furlongs' niet 'stadiën' zijn. Gebruik 'ongeveer zestig furlongs (ongeveer zeven mijl)' of in volledig Nederlands: 'ongeveer zestig furlongs (ongeveer zeven mijl)'. Houd de HTML-tagstructuur en opmaak onveranderd.\",\"translation_quote\":\"De weg van Jeruzalem naar Emmaüs was <em>ongeveer driehonderd stadiën</em> of ongeveer zeven mijl.\"},{\"location\":\"<h3>…On geduld</h3>\",\"severity\":\"major\",\"source_quote\":\"…Impatience\",\"suggested_fix\":\"Corrigeer de kop naar een correcte en natuurlijke Nederlandse vertaling van 'Impatience', bijvoorbeeld '<h3>…Ongeduld</h3>' (als één woord) of '<h3>…On geduld</h3>' is onjuist. Bewaar de driepunt-ellips en het h3-element.\",\"translation_quote\":\"…On geduld\"},{\"location\":\"<p>...Het lijkt tamelijk toevallig dat zoveel woorden met een negatieve bijklank beginnen met de letter D: teleurstelling, twijfel, droefheid, verderf, desillusie, ontmoediging, somberheid, nederlaag, wanhoop, depressie, wanhoop, verwoesting, bedrog en dood.</p>\",\"severity\":\"minor\",\"source_quote\":\"Disappointment, Doubt, Doleful, Doom, Disillusionment, Discouragement, Dreary, Defeat, Despondency, Depression, Despair, Devastation, Deception, and Death.\",\"suggested_fix\":\"Vermijd dubbele vertaling van twee Engelse termen met hetzelfde Nederlandse woord. Hier zijn twee Engelse termen die beide als 'wanhoop' vertaald zijn (Despondency en Despair). Pas de tweede vertaling aan om onderscheid te tonen, bijvoorbeeld 'despondency' → 'neerslachtigheid/despondentie' en 'despair' → 'wanhoop' of andersom, afhankelijk van desired nuance. Voorstel concreet: '...nederlaag, neerslachtigheid, depressie, wanhoop, verwoesting...' Houd het HTML-paragraafelement ongewijzigd.\",\"translation_quote\":\"teleurstelling, twijfel, droefheid, verderf, desillusie, ontmoediging, somberheid, nederlaag, wanhoop, depressie, wanhoop, verwoesting, bedrog en dood.\"},{\"location\":\"<p>...De Heer kan een mens niet volledig zegenen totdat Hij eerst zijn macht van verstand heeft overwonnen.</p>\",\"severity\":\"minor\",\"source_quote\":\"The Lord cannot fully bless a man until He has first conquered his powers of reason.\",\"suggested_fix\":\"Verbeter de idioom/woordkeus om het Nederlands natuurlijker en exact te laten klinken, b.v.: 'De Heer kan een mens niet volledig zegenen voordat Hij eerst zijn heerschappij van het verstand heeft gebroken.' of '...voordat Hij eerst zijn heerschappij over het verstand heeft overwonnen.' Bewaar HTML-structuur.\",\"translation_quote\":\"De Heer kan een mens niet volledig zegenen totdat Hij eerst zijn macht van verstand heeft overwonnen.\"}],\"passed\":false,\"score\":72}",
+    "content_bytes": 3045,
+    "content_evidence_truncated": false,
+    "content_sha256": "31b064a231bd0428c1e124739196f948048fd952fd6696d5485e2d5a75e7e3ac",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1460,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10135,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11595
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

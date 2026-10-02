@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "644742f9-860b-4658-aefc-15a0e7d8de8d",
+    "response_id": "chatcmpl-EUXFHphHJSLo8gUIrtXqENBDlrSZX",
+    "usage": {
+      "completion_tokens": 1379,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4425,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5804
+    }
+  },
+  "received_at": "2026-10-02T13:09:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"drop-cap\">…she ducked back toward the doorway of the house.</p>",
+        "severity": "major",
+        "source_quote": "She felt suddenly shy at having asked such a question, and she ducked back toward the doorway of the house.",
+        "suggested_fix": "Replace the incorrect verb \"נמכרה חזרה\" with a verb that conveys moving quickly away or shrinking back in bashfulness, e.g. \"היא התכופפה אחורה לכיוון סף הבית\" or \"היא נמלטה בחשש חזרה אל סף הבית\" so the Hebrew matches the English meaning.",
+        "translation_quote": "היא הרגישה פתאום ביישנית על ששאלה שאלה כזו, ונמכרה חזרה לכיוון סף הבית."
+      },
+      {
+        "location": "<p>She followed Grandpa out the door and as he walked across the porch, she quickly stepped up next to him.</p>",
+        "severity": "minor",
+        "source_quote": "She followed Grandpa out the door and as he walked across the porch, she quickly stepped up next to him.",
+        "suggested_fix": "Change \"היא נסעה בעקבות סבא\" (which implies traveling by vehicle) to a verb indicating walking or following on foot, e.g. \"היא הלכה בעקבות סבא\" or \"היא יצאה בעקבות סבא\" to reflect the original action accurately.",
+        "translation_quote": "היא נסעה בעקבות סבא אל מחוץ לדלת וכשהלך על המרפסת, היא הצטמצמה במהירות לידו."
+      },
+      {
+        "location": "<div class=\"lyrics\"> first stanza, line 3-4</div>",
+        "severity": "major",
+        "source_quote": "In Thy pleasant pastures feed us, / For our use Thy folds prepare:",
+        "suggested_fix": "The translation \"בעבור שימושנו עשה צורותיך מוכנות\" is incorrect and obscures the pastoral image. Use \"במרעים נעימים שלך רעה אותנו, / למען שימושנו תכין מכלאותיך\" or \"במרעים שנעימים בעיניך רעה אותנו, / תכין למעננו מכלאותיך\" so that \"folds\" is rendered as \"מכלאותיך\" (sheepfolds/enclosures) and the meaning is preserved.",
+        "translation_quote": "במרעים נעימים שלך רעה אותנו,<br>\nעבור שימושנו עשה צורותיך מוכנות:"
+      },
+      {
+        "location": "<div class=\"lyrics\">second stanza, line 6-8</div>",
+        "severity": "major",
+        "source_quote": "Blessed Jesus! blessed Jesus! / Hear, O hear us when we pray.",
+        "suggested_fix": "The translation \"שמע, הו שמע אותנו כשתתפלל\" changes the subject and tense (it reads as 'when you pray'). It should preserve the original plea 'when we pray'. Suggested rendering: \"ישוע המבורך! ישוע המבורך! / שמע, הו שמע אותנו כשאנחנו מתפללים.\"",
+        "translation_quote": "ישוע המבורך! ישוע המבורך!<br>\nשמע, הו שמע אותנו כשתתפלל."
+      }
+    ],
+    "passed": false,
+    "score": 38
+  }
+}

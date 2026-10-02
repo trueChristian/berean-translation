@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph starting \"Jag vill uppmärksamma dig på ännu en egenskap...\" (near middle of article)",
+      "severity": "major",
+      "source_quote": "Lest in the authoritative English article the word used is 'drudgery' (\"Lärjungaskap är aldrig avsett att vara drudgery.\") — the English substantive word 'drudgery' appears in the source sentence as the concept to be translated.",
+      "suggested_fix": "Replace the untranslated English word plus parenthesis with a fully translated Swedish phrase, preserving the original meaning. For example: change “Lärjungaskap är aldrig avsett att vara drudgery (tråkigt tvångsarbete).” to “Lärjungaskap är aldrig avsett att vara tråkigt tvångsarbete.” or “Lärjungaskap är aldrig avsett att vara slitsamt tvångsarbete.” Ensure no English words remain in the translated sentence and preserve surrounding HTML and punctuation.",
+      "translation_quote": "\"Lärjungaskap är aldrig avsett att vara drudgery (tråkigt tvångsarbete).\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
