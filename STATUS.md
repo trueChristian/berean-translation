@@ -2,7 +2,10 @@
 
 Generated from the pinned source catalogue and durable work records. No API call is made by this report.
 
-Observed English revision: `c420d39b6e323f1706b11781213f77488f2c8b8b`
+Ready means source-compatible and exportable here; live deployment is verified separately.
+Finished means processing has stopped, not that every requested translation passed. Held items still need action.
+
+Observed English revision: `a4c140808d10570088100bf72903af6bfe80b24b`
 
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
@@ -15,7 +18,7 @@ Observed English revision: `c420d39b6e323f1706b11781213f77488f2c8b8b`
 | `heartbeat-remnant-2022-winter` | 10 | 83 / 200 | 0 | 117 | 0 |
 | `heartbeat-remnant-2022-fall` | 11 | 92 / 220 | 0 | 128 | 0 |
 | `heartbeat-remnant-2022-summer` | 9 | 98 / 180 | 0 | 82 | 0 |
-| `heartbeat-remnant-2022-spring` | 9 | 0 / 180 | 0 | 0 | 0 |
+| `heartbeat-remnant-2022-spring` | 9 | 0 / 180 | 180 | 0 | 0 |
 | `heartbeat-remnant-2021-summer` | 11 | 0 / 220 | 0 | 0 | 0 |
 | `heartbeat-remnant-2021-spring` | 11 | 0 / 220 | 0 | 0 | 0 |
 | `heartbeat-remnant-2021-winter` | 12 | 0 / 240 | 0 | 0 | 0 |
@@ -91,31 +94,32 @@ Observed English revision: `c420d39b6e323f1706b11781213f77488f2c8b8b`
 | `heartbeat-remnant-2003-05` | 10 | 0 / 200 | 0 | 0 | 0 |
 | `heartbeat-remnant-2003-03` | 12 | 0 / 240 | 0 | 0 | 0 |
 | `heartbeat-remnant-2003-01` | 11 | 0 / 220 | 0 | 0 | 0 |
+| `heartbeat-remnant-2002-09` | 12 | 0 / 240 | 0 | 0 | 0 |
 
 ## Language readiness
 
 | Language | Ready / source articles | Human reviewed | Active candidates | Not-ready candidates | Corrected candidates |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 43 / 971 | 0 | 0 | 54 | 71 |
-| `hin` (hi) | 50 / 971 | 0 | 0 | 47 | 75 |
-| `spa` (es) | 78 / 971 | 0 | 0 | 19 | 49 |
-| `ara` (ar) | 41 / 971 | 0 | 0 | 56 | 77 |
-| `fra` (fr) | 75 / 971 | 0 | 0 | 22 | 51 |
-| `ben` (bn) | 40 / 971 | 0 | 0 | 57 | 89 |
-| `por` (pt) | 77 / 971 | 0 | 0 | 20 | 55 |
-| `ind` (id) | 72 / 971 | 0 | 0 | 25 | 61 |
-| `urd` (ur) | 53 / 971 | 0 | 0 | 44 | 74 |
-| `rus` (ru) | 56 / 971 | 0 | 0 | 41 | 70 |
-| `deu` (de) | 43 / 971 | 0 | 0 | 54 | 78 |
-| `nld` (nl) | 72 / 971 | 0 | 0 | 25 | 58 |
-| `afr` (af) | 57 / 971 | 0 | 0 | 40 | 69 |
-| `swa` (sw) | 24 / 971 | 0 | 0 | 73 | 91 |
-| `kor` (ko) | 56 / 971 | 0 | 0 | 41 | 66 |
-| `ita` (it) | 76 / 971 | 0 | 0 | 21 | 52 |
-| `heb` (he) | 12 / 971 | 0 | 0 | 85 | 93 |
-| `ell` (el) | 48 / 971 | 0 | 0 | 49 | 78 |
-| `swe` (sv) | 61 / 971 | 0 | 0 | 36 | 67 |
-| `nob` (nb) | 65 / 971 | 0 | 0 | 32 | 68 |
+| `cmn` (zh-Hans) | 43 / 983 | 0 | 9 | 54 | 71 |
+| `hin` (hi) | 50 / 983 | 0 | 9 | 47 | 75 |
+| `spa` (es) | 78 / 983 | 0 | 9 | 19 | 49 |
+| `ara` (ar) | 41 / 983 | 0 | 9 | 56 | 77 |
+| `fra` (fr) | 75 / 983 | 0 | 9 | 22 | 51 |
+| `ben` (bn) | 40 / 983 | 0 | 9 | 57 | 89 |
+| `por` (pt) | 77 / 983 | 0 | 9 | 20 | 55 |
+| `ind` (id) | 72 / 983 | 0 | 9 | 25 | 61 |
+| `urd` (ur) | 53 / 983 | 0 | 9 | 44 | 74 |
+| `rus` (ru) | 56 / 983 | 0 | 9 | 41 | 70 |
+| `deu` (de) | 43 / 983 | 0 | 9 | 54 | 78 |
+| `nld` (nl) | 72 / 983 | 0 | 9 | 25 | 58 |
+| `afr` (af) | 57 / 983 | 0 | 9 | 40 | 69 |
+| `swa` (sw) | 24 / 983 | 0 | 9 | 73 | 91 |
+| `kor` (ko) | 56 / 983 | 0 | 9 | 41 | 66 |
+| `ita` (it) | 76 / 983 | 0 | 9 | 21 | 52 |
+| `heb` (he) | 12 / 983 | 0 | 9 | 85 | 93 |
+| `ell` (el) | 48 / 983 | 0 | 9 | 49 | 78 |
+| `swe` (sv) | 61 / 983 | 0 | 9 | 36 | 67 |
+| `nob` (nb) | 65 / 983 | 0 | 9 | 32 | 68 |
 
 ## Issue / language work
 
@@ -303,42 +307,70 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `heartbeat-remnant-2022-summer` | `ell` | 3 / 9 | 0 | 0 | 6 | 0 |
 | `heartbeat-remnant-2022-summer` | `swe` | 6 / 9 | 0 | 0 | 3 | 0 |
 | `heartbeat-remnant-2022-summer` | `nob` | 5 / 9 | 0 | 0 | 4 | 0 |
+| `heartbeat-remnant-2022-spring` | `cmn` | 0 / 9 | 0 | 9 | 0 | 0 |
+| `heartbeat-remnant-2022-spring` | `hin` | 0 / 9 | 0 | 9 | 0 | 0 |
+| `heartbeat-remnant-2022-spring` | `spa` | 0 / 9 | 0 | 9 | 0 | 0 |
+| `heartbeat-remnant-2022-spring` | `ara` | 0 / 9 | 0 | 9 | 0 | 0 |
+| `heartbeat-remnant-2022-spring` | `fra` | 0 / 9 | 0 | 9 | 0 | 0 |
+| `heartbeat-remnant-2022-spring` | `ben` | 0 / 9 | 0 | 9 | 0 | 0 |
+| `heartbeat-remnant-2022-spring` | `por` | 0 / 9 | 0 | 9 | 0 | 0 |
+| `heartbeat-remnant-2022-spring` | `ind` | 0 / 9 | 0 | 9 | 0 | 0 |
+| `heartbeat-remnant-2022-spring` | `urd` | 0 / 9 | 0 | 9 | 0 | 0 |
+| `heartbeat-remnant-2022-spring` | `rus` | 0 / 9 | 0 | 9 | 0 | 0 |
+| `heartbeat-remnant-2022-spring` | `deu` | 0 / 9 | 0 | 9 | 0 | 0 |
+| `heartbeat-remnant-2022-spring` | `nld` | 0 / 9 | 0 | 9 | 0 | 0 |
+| `heartbeat-remnant-2022-spring` | `afr` | 0 / 9 | 0 | 9 | 0 | 0 |
+| `heartbeat-remnant-2022-spring` | `swa` | 0 / 9 | 0 | 9 | 0 | 0 |
+| `heartbeat-remnant-2022-spring` | `kor` | 0 / 9 | 0 | 9 | 0 | 0 |
+| `heartbeat-remnant-2022-spring` | `ita` | 0 / 9 | 0 | 9 | 0 | 0 |
+| `heartbeat-remnant-2022-spring` | `heb` | 0 / 9 | 0 | 9 | 0 | 0 |
+| `heartbeat-remnant-2022-spring` | `ell` | 0 / 9 | 0 | 9 | 0 | 0 |
+| `heartbeat-remnant-2022-spring` | `swe` | 0 / 9 | 0 | 9 | 0 | 0 |
+| `heartbeat-remnant-2022-spring` | `nob` | 0 / 9 | 0 | 9 | 0 | 0 |
+
+## Held-work recovery
+
+Paused: new downstream recovery submissions are disabled; held work is not silently retried.
+Accepted lifetime recovery allocations: $0.000000 / $0.00. Allocations are not recycled after failure or cancellation.
+Policy refusals, unknown legacy outcomes, source changes and exhausted per-source attempts remain held for owner attention.
+A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
 
 ## Campaigns
 
-| Request | Trigger | Operation | Status | Tasks | Reported usage (USD) | Reserved ceiling (USD) | Report |
-| --- | --- | --- | --- | ---: | ---: | ---: | --- |
-| `gh-36549125967` | manual | translate | finished | 10 | 0.06786800 | 0.330636 / 10.00 | [state](state/campaigns/gh-36549125967.json) |
-| `gh-36908242193` | manual | translate | finished | 10 | 0.06116328 | 0.321775 / 10.00 | [state](state/campaigns/gh-36908242193.json) |
-| `gh-36908316701` | manual | translate | finished | 10 | 0.06673089 | 0.352197 / 10.00 | [state](state/campaigns/gh-36908316701.json) |
-| `gh-36908432434` | manual | translate | finished | 10 | 0.06837570 | 0.338408 / 10.00 | [state](state/campaigns/gh-36908432434.json) |
-| `gh-36908568068` | manual | translate | finished | 10 | 0.08297651 | 0.391279 / 10.00 | [state](state/campaigns/gh-36908568068.json) |
-| `gh-36908965053` | manual | translate | finished | 5 | 0.04556600 | 0.195664 / 10.00 | [state](state/campaigns/gh-36908965053.json) |
-| `gh-36909139357` | manual | translate | finished | 10 | 0.06519461 | 0.345915 / 10.00 | [state](state/campaigns/gh-36909139357.json) |
-| `gh-36909223255` | manual | translate | finished | 10 | 0.07902212 | 0.354176 / 10.00 | [state](state/campaigns/gh-36909223255.json) |
-| `gh-36909407714` | manual | translate | finished | 10 | 0.09129912 | 0.425629 / 10.00 | [state](state/campaigns/gh-36909407714.json) |
-| `gh-36909529190` | manual | translate | finished | 10 | 0.06849838 | 0.338726 / 10.00 | [state](state/campaigns/gh-36909529190.json) |
-| `gh-36909630302` | manual | translate | finished | 10 | 0.07211324 | 0.402348 / 10.00 | [state](state/campaigns/gh-36909630302.json) |
-| `gh-36909750062` | manual | translate | finished | 10 | 0.09636225 | 0.448819 / 10.00 | [state](state/campaigns/gh-36909750062.json) |
-| `gh-36909855802` | manual | translate | finished | 10 | 0.07860002 | 0.370394 / 10.00 | [state](state/campaigns/gh-36909855802.json) |
-| `gh-36909987232` | manual | translate | finished | 10 | 0.10582789 | 0.477109 / 10.00 | [state](state/campaigns/gh-36909987232.json) |
-| `gh-36910113689` | manual | translate | finished | 10 | 0.07704203 | 0.375036 / 10.00 | [state](state/campaigns/gh-36910113689.json) |
-| `gh-36910234395` | manual | translate | finished | 10 | 0.09224538 | 0.412576 / 10.00 | [state](state/campaigns/gh-36910234395.json) |
-| `gh-36910515539` | manual | translate | finished | 10 | 0.09819813 | 0.451331 / 10.00 | [state](state/campaigns/gh-36910515539.json) |
-| `gh-36910662071` | manual | translate | finished | 10 | 0.09439103 | 0.397510 / 10.00 | [state](state/campaigns/gh-36910662071.json) |
-| `gh-36910785828` | manual | translate | finished | 10 | 0.08146909 | 0.369201 / 10.00 | [state](state/campaigns/gh-36910785828.json) |
-| `gh-36910935961` | manual | translate | finished | 10 | 0.05812289 | 0.307005 / 10.00 | [state](state/campaigns/gh-36910935961.json) |
-| `gh-36911053601` | manual | translate | finished | 10 | 0.06972947 | 0.342436 / 10.00 | [state](state/campaigns/gh-36911053601.json) |
-| `gh-36911235156` | manual | translate | finished | 220 | 2.07687006 | 9.431976 / 10.00 | [state](state/campaigns/gh-36911235156.json) |
-| `gh-36981712493` | manual | translate | finished | 60 | 0.66302525 | 2.723356 / 10.00 | [state](state/campaigns/gh-36981712493.json) |
-| `gh-36985402305` | manual | translate | finished | 220 | 1.97256966 | 9.154220 / 10.00 | [state](state/campaigns/gh-36985402305.json) |
-| `gh-36992568621` | manual | translate | finished | 260 | 2.27880205 | 10.822642 / 20.00 | [state](state/campaigns/gh-36992568621.json) |
-| `gh-37007803504` | manual | translate | finished | 200 | 2.25316856 | 9.223544 / 10.00 | [state](state/campaigns/gh-37007803504.json) |
-| `gh-37007882719` | manual | translate | finished | 240 | 2.07931833 | 9.956063 / 10.00 | [state](state/campaigns/gh-37007882719.json) |
-| `gh-37007962259` | manual | translate | finished | 200 | 2.15372804 | 8.929563 / 10.00 | [state](state/campaigns/gh-37007962259.json) |
-| `gh-37008082026` | manual | translate | finished | 220 | 2.19849647 | 9.299014 / 10.00 | [state](state/campaigns/gh-37008082026.json) |
-| `gh-37008194209` | manual | translate | finished | 180 | 1.53773587 | 7.399660 / 10.00 | [state](state/campaigns/gh-37008194209.json) |
-| `refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267` | source refresh | translate | finished | 1 | 0.00188212 | 0.021884 / 10.00 | [state](state/campaigns/refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267.json) |
+| Request | Trigger | Operation | Processing state | Tasks | Outcomes | Reported usage (USD) | Reserved ceiling (USD) | Report |
+| --- | --- | --- | --- | ---: | --- | ---: | ---: | --- |
+| `gh-36549125967` | manual | translate | finished | 10 | 5 complete, 5 held | 0.06786800 | 0.330636 / 10.00 | [state](state/campaigns/gh-36549125967.json) |
+| `gh-36908242193` | manual | translate | finished | 10 | 6 complete, 4 held | 0.06116328 | 0.321775 / 10.00 | [state](state/campaigns/gh-36908242193.json) |
+| `gh-36908316701` | manual | translate | finished | 10 | 8 complete, 2 held | 0.06673089 | 0.352197 / 10.00 | [state](state/campaigns/gh-36908316701.json) |
+| `gh-36908432434` | manual | translate | finished | 10 | 6 complete, 4 held | 0.06837570 | 0.338408 / 10.00 | [state](state/campaigns/gh-36908432434.json) |
+| `gh-36908568068` | manual | translate | finished | 10 | 5 complete, 5 held | 0.08297651 | 0.391279 / 10.00 | [state](state/campaigns/gh-36908568068.json) |
+| `gh-36908965053` | manual | translate | finished | 5 | 4 complete, 1 held | 0.04556600 | 0.195664 / 10.00 | [state](state/campaigns/gh-36908965053.json) |
+| `gh-36909139357` | manual | translate | finished | 10 | 10 complete | 0.06519461 | 0.345915 / 10.00 | [state](state/campaigns/gh-36909139357.json) |
+| `gh-36909223255` | manual | translate | finished | 10 | 7 complete, 3 held | 0.07902212 | 0.354176 / 10.00 | [state](state/campaigns/gh-36909223255.json) |
+| `gh-36909407714` | manual | translate | finished | 10 | 7 complete, 3 held | 0.09129912 | 0.425629 / 10.00 | [state](state/campaigns/gh-36909407714.json) |
+| `gh-36909529190` | manual | translate | finished | 10 | 7 complete, 3 held | 0.06849838 | 0.338726 / 10.00 | [state](state/campaigns/gh-36909529190.json) |
+| `gh-36909630302` | manual | translate | finished | 10 | 9 complete, 1 held | 0.07211324 | 0.402348 / 10.00 | [state](state/campaigns/gh-36909630302.json) |
+| `gh-36909750062` | manual | translate | finished | 10 | 5 complete, 5 held | 0.09636225 | 0.448819 / 10.00 | [state](state/campaigns/gh-36909750062.json) |
+| `gh-36909855802` | manual | translate | finished | 10 | 7 complete, 3 held | 0.07860002 | 0.370394 / 10.00 | [state](state/campaigns/gh-36909855802.json) |
+| `gh-36909987232` | manual | translate | finished | 10 | 4 complete, 6 held | 0.10582789 | 0.477109 / 10.00 | [state](state/campaigns/gh-36909987232.json) |
+| `gh-36910113689` | manual | translate | finished | 10 | 8 complete, 2 held | 0.07704203 | 0.375036 / 10.00 | [state](state/campaigns/gh-36910113689.json) |
+| `gh-36910234395` | manual | translate | finished | 10 | 7 complete, 3 held | 0.09224538 | 0.412576 / 10.00 | [state](state/campaigns/gh-36910234395.json) |
+| `gh-36910515539` | manual | translate | finished | 10 | 4 complete, 6 held | 0.09819813 | 0.451331 / 10.00 | [state](state/campaigns/gh-36910515539.json) |
+| `gh-36910662071` | manual | translate | finished | 10 | 8 complete, 2 held | 0.09439103 | 0.397510 / 10.00 | [state](state/campaigns/gh-36910662071.json) |
+| `gh-36910785828` | manual | translate | finished | 10 | 6 complete, 4 held | 0.08146909 | 0.369201 / 10.00 | [state](state/campaigns/gh-36910785828.json) |
+| `gh-36910935961` | manual | translate | finished | 10 | 8 complete, 2 held | 0.05812289 | 0.307005 / 10.00 | [state](state/campaigns/gh-36910935961.json) |
+| `gh-36911053601` | manual | translate | finished | 10 | 9 complete, 1 held | 0.06972947 | 0.342436 / 10.00 | [state](state/campaigns/gh-36911053601.json) |
+| `gh-36911235156` | manual | translate | finished | 220 | 130 complete, 90 held | 2.07687006 | 9.431976 / 10.00 | [state](state/campaigns/gh-36911235156.json) |
+| `gh-36981712493` | manual | translate | finished | 60 | 18 complete, 42 held | 0.66302525 | 2.723356 / 10.00 | [state](state/campaigns/gh-36981712493.json) |
+| `gh-36985402305` | manual | translate | finished | 220 | 135 complete, 85 held | 1.97256966 | 9.154220 / 10.00 | [state](state/campaigns/gh-36985402305.json) |
+| `gh-36992568621` | manual | translate | finished | 260 | 176 complete, 84 held | 2.27880205 | 10.822642 / 20.00 | [state](state/campaigns/gh-36992568621.json) |
+| `gh-37007803504` | manual | translate | finished | 200 | 90 complete, 110 held | 2.25316856 | 9.223544 / 10.00 | [state](state/campaigns/gh-37007803504.json) |
+| `gh-37007882719` | manual | translate | finished | 240 | 137 complete, 103 held | 2.07931833 | 9.956063 / 10.00 | [state](state/campaigns/gh-37007882719.json) |
+| `gh-37007962259` | manual | translate | finished | 200 | 83 complete, 117 held | 2.15372804 | 8.929563 / 10.00 | [state](state/campaigns/gh-37007962259.json) |
+| `gh-37008082026` | manual | translate | finished | 220 | 92 complete, 128 held | 2.19849647 | 9.299014 / 10.00 | [state](state/campaigns/gh-37008082026.json) |
+| `gh-37008194209` | manual | translate | finished | 180 | 98 complete, 82 held | 1.53773587 | 7.399660 / 10.00 | [state](state/campaigns/gh-37008194209.json) |
+| `gh-37045474073` | manual | translate | active | 180 | 180 active | 0.00000000 | 0.000000 / 10.00 | [state](state/campaigns/gh-37045474073.json) |
+| `refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267` | source refresh | translate | finished | 1 | 1 complete | 0.00188212 | 0.021884 / 10.00 | [state](state/campaigns/refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267.json) |
 
 ## Provider batch lifecycle
 

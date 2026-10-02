@@ -1,0 +1,44 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Barry Grant"
+        }
+      ],
+      "raw": "~by Barry Grant"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "99d9d2e9-2f6a-46ce-a06a-4635a4d484f9",
+    "images": [],
+    "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 7,
+      "start": 7
+    },
+    "subtitle": null,
+    "title": "If Heaven Is Real",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "fc30a035ddbb0966787d9fe1e5df4752180b6d605824ff609e34eddcfe9a52b9",
+    "metadata_sha256": "e4732f07843a82862adddcfb4cb70629bb7168ec854c03ed341911057dd882c7",
+    "structure_sha256": "8068d815985a16b50556c242fae7e1fd46dbc30543e90ed12f9ed5d840fa5f3f",
+    "text_sha256": "789464a6c29ec5150c92310fbab32e5f963cb863e1384633112c608c2e0c3734",
+    "translation_metadata_sha256": "d6d9a86fa9dcfd93929b48786e84aeb631acc62ac6e5df08a9d535292bb09852"
+  },
+  "html": "<article data-article-id=\"99d9d2e9-2f6a-46ce-a06a-4635a4d484f9\">\n  <div class=\"poem\">\n    <p>We hear all the talk, the beauties of glory<br>\n    The Bible speaks and tells its own story.<br>\n    There’s a place up there, no toil or strife.<br>\n    However, the church, can forget of that life,<br>\n    If the presence of God, shines as the sun,<br>\n    The singing so sweet, includes everyone.<br>\n    If heaven is real, then a question I’ll cast.<br>\n    Why so much focus on a life that won’t last?<br>\n    We build our mansions here on this earth,<br>\n    We must have forgotten, how little it’s worth.<br>\n    We look at our stuff, and say that we’re blessed,<br>\n    Forgetting that soon, it will burn with the rest.<br>\n    Treasures are worthy, of that we agree.<br>\n    But lay them in heaven where forever they’ll be.<br>\n    Would we lose our life, for the good Lord’s sake?<br>\n    Then eternity we’d gain, and heaven partake.<br>\n    Or love our life, which the Bible is clear<br>\n    We’d lose our chance, at heaven so dear.<br>\n    If heaven is real, we must be confused<br>\n    For it seems it’s this life, that has us amused.<br>\n    If heaven awaits, and we know there we’d go,<br>\n    Then why do we fear when death gives its blow?<br>\n    When the next life is heaven, eternity with Him,<br>\n    Then death is the beginning, so why is it grim?<br>\n    Our life’s but a vapor, the Good Book conveys.<br>\n    Let’s reason with wisdom and change our gaze.</p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+  "translation_key": "06ccf1b7eb6faf1d84c1cea9318d75fccca352a299a685149bb00a429eb44698"
+}
