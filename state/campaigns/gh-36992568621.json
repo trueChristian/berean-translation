@@ -1602,11 +1602,10 @@
   ],
   "skipped": [],
   "source_revision": "9e6e1db340e802f71c7018950dc820482ecc4e5e",
-  "status": "active",
+  "status": "finished",
   "task_counts": {
-    "complete": 94,
-    "in_batch": 110,
-    "not_ready": 56
+    "complete": 176,
+    "not_ready": 84
   },
   "tasks": [
     "7e0a6043f4d00f4f3afbfaf88bcd5e54",

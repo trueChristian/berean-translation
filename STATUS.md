@@ -227,7 +227,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `gh-36911235156` | manual | translate | finished | 220 | 2.07687006 | 9.431976 / 10.00 | [state](state/campaigns/gh-36911235156.json) |
 | `gh-36981712493` | manual | translate | finished | 60 | 0.66302525 | 2.723356 / 10.00 | [state](state/campaigns/gh-36981712493.json) |
 | `gh-36985402305` | manual | translate | finished | 220 | 1.97256966 | 9.154220 / 10.00 | [state](state/campaigns/gh-36985402305.json) |
-| `gh-36992568621` | manual | translate | active | 260 | 2.27880205 | 10.822642 / 20.00 | [state](state/campaigns/gh-36992568621.json) |
+| `gh-36992568621` | manual | translate | finished | 260 | 2.27880205 | 10.822642 / 20.00 | [state](state/campaigns/gh-36992568621.json) |
 | `refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267` | source refresh | translate | finished | 1 | 0.00188212 | 0.021884 / 10.00 | [state](state/campaigns/refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267.json) |
 
 ## Provider batch lifecycle
