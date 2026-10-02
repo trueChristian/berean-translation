@@ -2,7 +2,6 @@
   "article_id": "964d8688-6491-4ede-9271-c923db4c4079",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddc3d84bf23341ab8530f6e894825cb8",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -62,32 +61,53 @@
         },
         "total_tokens": 13036
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 988,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7798,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8786
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.section",
-      "severity": "major",
-      "source_quote": "The New Testament Church",
-      "suggested_fix": "Translate the section field into natural Hindi using Devanagari and no mixed scripts. For example: \"नया नियमीय चर्च\" or better, conventional Hindi: \"नया नियम की कलीसिया\" or simply \"नया नियम\" से संबन्धित कलीसिया — choose one idiomatic rendering consistently. Replace the current translation value for the section field with the chosen Hindi phrase (leave the HTML/article body unchanged).",
-      "translation_quote": "नया नियमीन چرچ"
+      "location": "Paragraph containing “reciprocate that love.” (after description of Peter)",
+      "severity": "critical",
+      "source_quote": "Now Jesus is asking him to reciprocate that love.",
+      "suggested_fix": "Translate the English word “reciprocate” into Hindi and preserve the sentence meaning. Example replacement (in-place, preserving HTML): \"अब यीशु उससे उस प्रेम का प्रतिलाभ करने को कह रहे थे।\" OR \"अब यीशु उससे उस प्रेम का प्रतिदान करने को कह रहे थे।\" (Choose one idiomatic Hindi verb and substitute exactly where the English word 'reciprocate' currently appears.)",
+      "translation_quote": "अब यीशु उससे उस प्रेम का reciprocate करने को कह रहे थे।"
     },
     {
-      "location": "source.html (scripture references: blockquote and inline citations)",
-      "severity": "major",
-      "source_quote": "–Matthew 4:18-22.; –John 21:3-6.; –Romans 7:18.; –Luke 9:62.",
-      "suggested_fix": "Render the cited book names in conventional Hindi forms (Devanagari) while keeping chapter:verse numbers and punctuation unchanged. For example: \"–मत्ती 4:18-22.\", \"–यूहन्ना 21:3-6.\", \"–रोमियों 7:18.\", \"–लूका 9:62.\" Update each citation in the translation HTML accordingly so book names are in Hindi and numbers/ranges remain exactly as in the source.",
-      "translation_quote": "–Matthew 4:18-22.\n\n…\n\n–John 21:3-6.\n\n…\n\n–Romans 7:18.\n\n…\n\n–Luke 9:62."
-    },
-    {
-      "location": "source.html (opening paragraph)",
+      "location": "Paragraph: \"Old things pass away. All things become new.\" (early third paragraph)",
       "severity": "minor",
-      "source_quote": "This is the first of a series of articles on “Discipleship.” Today, Jesus is continuing to call men and women to respond to the simple call, “Follow Me.”",
-      "suggested_fix": "Remove unintended non-Hindi character inserted and correct misspelled/oddly-encoded Hindi letters. For example, change the opening phrase currently rendered as: \"यह “छात्रत्व” पर一श्रेणी लेखों में से पहला लेख है।\" to a clean Hindi sentence: \"यह 'छात्रत्व' पर लेखों की श्रृंखला का पहला भाग है।\" Also fix 'आक̧षित' (malformed) to 'आकर्षित'. Make these edits inside the translation HTML paragraph while preserving all tags and structure.",
-      "translation_quote": "यह “छात्रत्व” पर一श्रेणी लेखों में से पहला लेख है... आप पाएँगे कि आप खुद को यीशु के पीछे चलने के लिए आक̧षित महसूस कर रहे हैं।"
+      "source_quote": "Old things pass away. All things become new.",
+      "suggested_fix": "Correct Hindi gender/number and idiom while preserving meaning. Replace the current phrasing with idiomatic Hindi such as: \"पुरानी बातें बीत जाती हैं। सब कुछ नया हो जाता है।\" or \"पुरानी चीज़ें बीत जाती हैं। सब कुछ नया हो जाता है।\" Ensure this replaces the two sentences in-place in the HTML.",
+      "translation_quote": "पुराने चीजें निकल जाती हैं। सभी चीजें नई हो जाती हैं।"
+    },
+    {
+      "location": "Metadata: source.section",
+      "severity": "minor",
+      "source_quote": "The New Testament Church",
+      "suggested_fix": "Use an idiomatic, grammatical Hindi rendering for the section name. Replace \"नया नियम की कलीसिया\" with one of: \"नए नियम की कलीसिया\" or \"नए नियम का चर्च\" depending on style preference. Keep it in the section field (not inside article HTML).",
+      "translation_quote": "नया नियम की कलीसिया"
     }
   ],
+  "finished_at": "2026-10-02T13:12:55+00:00",
   "id": "19cfca45a5fccdf170b692f7e64c8105",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "hin",
@@ -161,13 +181,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 64,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/72e9e95087abf4bb6b3406930b96815159af17d474fb3822bb08890105936e6b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1a9a048cb09f8defedfe227e6b286e8b931f833f4da6a1d1e6b5d1175b0c84c0",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

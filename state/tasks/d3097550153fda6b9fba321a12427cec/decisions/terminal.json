@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning \"Jesus’ soul-piercing question to Peter was quite simple...\" (near the end of the article)",
+      "severity": "minor",
+      "source_quote": "Jesus’ soul-piercing question to Peter was quite simple, “Do you love Me?” It was as if Jesus was testing Peter. [“I have a job for you, Peter, but a prerequisite for this job is your devoted love for Me.”]",
+      "suggested_fix": "Change the Spanish so the question is described as piercing Peter’s soul (the intended meaning), not piercing Jesus’ soul. Preserve structure and tags. Suggested Spanish: \"La pregunta de Jesús, que traspasó el alma de Pedro, fue bastante simple: “¿Me amas?” Era como si Jesús estuviera probando a Pedro. [“Tengo un trabajo para ti, Pedro, pero un requisito previo para este trabajo es tu amor devoto por mí.”]\"",
+      "translation_quote": "La pregunta que traspasó el alma de Jesús a Pedro fue bastante simple: “¿Me amas?” Era como si Jesús estuviera probando a Pedro. [“Tengo un trabajo para ti, Pedro, pero un requisito previo para este trabajo es tu amor devoto por mí.”]"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

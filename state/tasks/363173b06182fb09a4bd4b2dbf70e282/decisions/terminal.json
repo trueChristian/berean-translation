@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Lyrics, stanza 1, line 4 (\"For our use Thy folds prepare\")",
+      "severity": "minor",
+      "source_quote": "For our use Thy folds prepare:",
+      "suggested_fix": "Translate \"folds\" as a sheepfold or enclosure for sheep (kandang/kandang domba/kelompok domba), not as a fence. Suggested Indonesian rendering: \"Siapkan kandang-Mu untuk keperluan kami:\" or \"Sediakan kandang-Mu bagi kami:\" — preserve punctuation and line breaks in the HTML.",
+      "translation_quote": "Untuk kebutuhan kami sediakan pagar-Mu:"
+    },
+    {
+      "location": "Title (source.title)",
+      "severity": "minor",
+      "source_quote": "The Promise of A Song",
+      "suggested_fix": "Consider a more natural idiomatic rendering while preserving the original meaning. Suggested alternatives: \"Janji Sebuah Lagu\" is acceptable, but \"Janji dari Sebuah Lagu\" or \"Janji dalam Sebuah Lagu\" may read more smoothly in Indonesian. No structural HTML changes required if you prefer to keep the current translation.",
+      "translation_quote": "Janji Sebuah Lagu"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -2,7 +2,6 @@
   "article_id": "8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddc3d84bf23341ab8530f6e894825cb8",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -62,32 +61,59 @@
         },
         "total_tokens": 7959
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1357,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4450,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 2816
+        },
+        "total_tokens": 5807
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph: “Did you know that Grandpas weren’t there today? At the last minute they decided to visit elsewhere this morning for church.” (near the middle of article) — corresponding translation paragraph beginning “\"Visste du att farfar inte var där idag? I sista stund bestämde de sig för att besöka en annan plats den här morgonen för gudstjänsten.\"”",
-      "severity": "major",
-      "source_quote": "Did you know that Grandpas weren’t there today? At the last minute they decided to visit elsewhere this morning for church.",
-      "suggested_fix": "The English uses plural \"Grandpas\" (referring back to Grandpa and Grandma) and the Swedish translation renders it singular \"farfar\", which changes the meaning. Change the Swedish to reflect the plural grandparents. Suggested minimal correction (preserving HTML and structure): replace the translation sentence with: \"Visste du att morföräldrarna inte var där idag? I sista stund bestämde de sig för att besöka en annan församling den här morgonen för gudstjänsten.\" or \"Visste du att farmor och farfar inte var där idag? I sista stund bestämde de sig för att gå till en annan församling den här morgonen för gudstjänsten.\" Choose the phrasing that fits the register of the rest of the translation.",
-      "translation_quote": "\"Visste du att farfar inte var där idag? I sista stund bestämde de sig för att besöka en annan plats den här morgonen för gudstjänsten.\""
-    },
-    {
-      "location": "Multiple locations: paragraph where Ellie asks Grandpa and elsewhere in narrative; h3 heading before hymn; any inline quoted song title occurrences — original song title appears in English 'Saviour, Like a Shepherd Lead Us' and in the h3 heading above the lyrics",
-      "severity": "major",
-      "source_quote": "Her favorite song was ‘Saviour, Like a Shepherd Lead Us’ ... When that particular song number was announced ... \"Do you think you could lead the song ‘Saviour, Like A Shepherd Lead Us’ this next Sunday?\" ... H3: Saviour, Like A Shepherd Lead Us",
-      "suggested_fix": "The authoritative quoted substantive material (the song title) must be translated into the target language. Replace the English song title wherever it appears in the article text and the h3 heading with a faithful Swedish rendering. Suggested minimal replacements preserving HTML tags and quotes: change 'Saviour, Like a Shepherd Lead Us' to 'Frälsare, som en herde, led oss' (or another conventional Swedish title used for this hymn) consistently in all narrative occurrences and in the <h3> heading. Ensure the same Swedish title is used every time the song is mentioned in the prose and the heading. Do not leave the quoted title in English.",
-      "translation_quote": "Occurrences such as: 'Hennes favoritsång var ’Saviour, Like a Shepherd Lead Us’' and '”Farfar,” frågade hon. ”Tror du att du kan leda sången ’Saviour, Like A Shepherd Lead Us’ nästa söndag?' and the <h3> heading 'Saviour, Like A Shepherd Lead Us'."
-    },
-    {
-      "location": "Lyrics first stanza, line 2: English 'Much we need Thy tender care.' — Swedish translation: 'Oj, så mycket behöver vi din ömma omsorg.' (in the lyrics block)",
+      "location": "<div class=\"lyrics\">, hymn stanza 1, line 3 (source.html)",
       "severity": "minor",
-      "source_quote": "Much we need Thy tender care.",
-      "suggested_fix": "The interjection 'Oj' is a colloquial addition not present in the source and slightly changes tone. For greater fidelity and register suited to a hymn, consider a more literal, idiomatic rendering without the interjection, e.g. 'Mycket behöver vi din ömma omsorg.' Replace only this word in the lyrics block.",
-      "translation_quote": "Oj, så mycket behöver vi din ömma omsorg."
+      "source_quote": "In Thy pleasant pastures feed us,",
+      "suggested_fix": "Översätt gärna så att avsikten med 'pastures' (betesmarker/pastvillor för får) tydligt framgår på svenska. Föreslagen ändring (ersätt nuvarande rad i översättningen): \"I dina ljuvliga betesmarker låt oss få beta,\" -> behåll eller ändra till: \"I dina ljuvliga betesmarker låt oss beta,\" (ta bort extra 'få' om man vill förenkla).",
+      "translation_quote": "I dina ljuvliga betesmarker låt oss få beta,"
+    },
+    {
+      "location": "<div class=\"lyrics\">, hymn stanza 1, line 4 (source.html)",
+      "severity": "minor",
+      "source_quote": "For our use Thy folds prepare:",
+      "suggested_fix": "Nuvarande översättning använder ordet \"fållor\", vilket på svenska främst betyder sömnadskanter och inte fårhagar/fållor i pastoral betydelse. Ersätt med ett ord som tydligt avser fårens inhägningar, t.ex.: \"För vår skull bered dina fållor\" eller ännu tydligare: \"För vår bruk bered dina fårstängsel / dina fårgårdar.\" Förslag: \"För vår bruk bered dina fårfoldar.\" (Alternativt: \"För vår bruk bered dina fållor\" om man vill hålla formen nära originalet men med korrekt betydelse.)",
+      "translation_quote": "För vår bruk välj ut dina fållor:"
+    },
+    {
+      "location": "<div class=\"lyrics\">, hymn stanza 1, refrain (source.html)",
+      "severity": "minor",
+      "source_quote": "Thou hast bought us, Thine we are.",
+      "suggested_fix": "Den svenska frasen \"Du har köpt oss, dina är vi.\" är begriplig men omvänd ordföljd känns onaturlig. För bättre idiomatisk och teologisk klarhet rekommenderas: \"Du har köpt oss, vi är dina.\" Byt gärna i båda refrängerna.",
+      "translation_quote": "Du har köpt oss, dina är vi."
+    },
+    {
+      "location": "<div class=\"lyrics\">, hymn stanza 3, line 2 (source.html)",
+      "severity": "minor",
+      "source_quote": "Thou hast mercy to relieve us,",
+      "suggested_fix": "\"Skona oss\" är inte felaktigt men fångar inte helt idén om \"relieve\" (avlasta, lindra). Föreslagen ändring för tydlighet och idiomatisk svenska: \"Du har barmhärtighet för att hjälpa oss\" eller \"Du har barmhärtighet som lindrar oss.\" Till exempel: \"Du har barmhärtighet att hjälpa oss,\"",
+      "translation_quote": "Du har barmhärtighet för att skona oss,"
     }
   ],
+  "finished_at": "2026-10-02T13:12:56+00:00",
   "id": "d82afd945787e2f0a048684ebe7d6b25",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "swe",
@@ -161,13 +187,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ed28f89bae980f0f15b18d7447272f16d8d7da19ef1ab820db3371f4fb3caf02.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

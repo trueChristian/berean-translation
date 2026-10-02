@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0230582f-913c-4f2f-9c46-259895e064be",
+    "response_id": "chatcmpl-EUXJKlHa1szjNwsbbfkydkoSERBLk",
+    "usage": {
+      "completion_tokens": 994,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7175,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8169
+    }
+  },
+  "received_at": "2026-10-02T13:12:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph: \"Was my mother deprived of a fulfilling life?\"",
+        "severity": "major",
+        "source_quote": "Was my mother deprived of a fulfilling life?",
+        "suggested_fix": "Translate the intended meaning faithfully. Replace the Hindi sentence that reads “क्या मेरी माँ एक परिपूर्ण जीवन से वंचित थीं?” with wording that preserves the sense of \"deprived of a fulfilling life,\" for example: “क्या मेरी माँ एक संतोषजनक/परिपूर्णता-पूर्ण जीवन से वंचित थीं?” (preferably: “क्या मेरी माँ एक संतोषजनक जीवन से वंचित थीं?”). Do not imply \"perfect\" (परिपूर्ण) which changes the nuance.",
+        "translation_quote": "क्या मेरी माँ एक परिपूर्ण जीवन से वंचित थीं?"
+      },
+      {
+        "location": "source.section metadata",
+        "severity": "minor",
+        "source_quote": "Sister to Sister",
+        "suggested_fix": "Translate the section name into contemporary standard Hindi (Devanagari). For example: “बहन से बहन” or “बहन से बहन तक”. Replace the English section string with the chosen Hindi rendering in the translation metadata.",
+        "translation_quote": "Sister to Sister"
+      },
+      {
+        "location": "source.html — Endnotes header",
+        "severity": "minor",
+        "source_quote": "Endnotes:",
+        "suggested_fix": "Use a natural Hindi term rather than an English transliteration. Replace “<h3><em><u>एंडनोट्स:</u></em></h3>” with a clear Hindi heading such as: “<h3><em><u>सन्दर्भ/एंडनोट्स:</u></em></h3>” or simply “<h3><em><u>संदर्भ:</u></em></h3>”. Preserve the existing HTML tags.",
+        "translation_quote": "<h3><em><u>एंडनोट्स:</u></em></h3>"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

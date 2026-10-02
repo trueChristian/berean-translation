@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<div class=\"lyrics\"> (Verse 2, first line)",
+      "severity": "major",
+      "source_quote": "We are Thine, do Thou befriend us,",
+      "suggested_fix": "Translate the plea literally and simply to preserve the original sense: \"نحن لك، فاصحبنا\" or \"نحن لك، فارافقنا\" (recommended: \"نحن لك، فاصحبنا\"). Do not add notions such as \"فارحمنا وتآزر معنا\" which introduce extra petitions not present in the source.",
+      "translation_quote": "نحن لك، فارحمنا وتآزر معنا،"
+    },
+    {
+      "location": "<h3>Title</location>",
+      "severity": "minor",
+      "source_quote": "The Promise of A Song",
+      "suggested_fix": "Title is acceptable but consider a slightly more idiomatic Arabic rendering such as \"وعد ترنيمة\" is fine; no change required unless editor prefers \"وعد أغنية\".",
+      "translation_quote": "وعد ترنيمة"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

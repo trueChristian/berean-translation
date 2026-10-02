@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:12:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p><em>–by Daniel Kaufman</em></p> (final byline paragraph in source.html)\",\"severity\":\"minor\",\"source_quote\":\"<p><em>–by Daniel Kaufman</em></p>\",\"suggested_fix\":\"Preserve the original byline text exactly as in the authoritative English article. Replace the translated byline paragraph with the original text and HTML structure: <p><em>–by Daniel Kaufman</em></p>\",\"translation_quote\":\"<p><em>–द्वारा Daniel Kaufman</em></p>\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 500,
+    "content_evidence_truncated": false,
+    "content_sha256": "5c0dcc4ebba530afd51397ce34523626e06fe58907ee378ccefceb42364bac48",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 787,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1802,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2589
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

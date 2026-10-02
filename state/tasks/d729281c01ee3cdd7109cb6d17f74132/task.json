@@ -2,7 +2,6 @@
   "article_id": "8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddc3d84bf23341ab8530f6e894825cb8",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -62,25 +61,45 @@
         },
         "total_tokens": 6853
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 803,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4272,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5075
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "source.html — hymn title in article body and header (first paragraph referencing the hymn)",
-      "severity": "major",
-      "source_quote": "Her favorite song was ‘Saviour, Like a Shepherd Lead Us’ ... When that particular song number was announced on a Sunday morning, she always felt a twinge of excitement.",
-      "suggested_fix": "Translate the quoted hymn title into Portuguese consistently wherever it appears in the article (both in running text and the header). Use a natural, idiomatic Portuguese rendering that matches the translated lyrics already included. For example: replace “Saviour, Like a Shepherd Lead Us” with “Salvador, como Pastor nos guia” (or “Salvador, como um Pastor nos guia”) in the paragraph. Ensure the same Portuguese title is used in the <h3> heading and any other occurrences.",
-      "translation_quote": "Seu hino favorito era “Saviour, Like a Shepherd Lead Us” e, embora ainda não soubesse ler, ela sabia que era o número oito. Quando aquele número de hino era anunciado numa manhã de domingo, ela sempre sentia um formigamento de excitação."
+      "location": "<p>…<em>She would be able to help along with this song!</em></p>",
+      "severity": "minor",
+      "source_quote": "She would be able to help along with this song!",
+      "suggested_fix": "Render the thought in third-person narrative perspective consistent with the English original (Ellie's internal thought reported by narrator). For example: «Ela seria capaz de ajudar com este hino!» or keep third-person: «Ela poderia ajudar com este canto!»",
+      "translation_quote": "<em>Eu vou poder ajudar neste canto!</em>"
     },
     {
-      "location": "source.html — <h3> heading immediately before lyrics",
-      "severity": "major",
-      "source_quote": "<h3>Saviour, Like A Shepherd Lead Us</h3>",
-      "suggested_fix": "Translate the heading into Portuguese to match the translated lyrics. For example: <h3>Salvador, como Pastor nos guia</h3> (or <h3>Salvador, como um Pastor nos guia</h3>), keeping the same HTML structure and tags.",
-      "translation_quote": "<h3>Saviour, Like A Shepherd Lead Us</h3>"
+      "location": "<p>“Let’s sing number 8 in the Appendix,” announced the song leader. Ellie’s heart sang. They were going to sing her favorite song.</p>",
+      "severity": "minor",
+      "source_quote": "They were going to sing her favorite song.",
+      "suggested_fix": "Correct the Portuguese grammar/tense. Replace the current wording with a standard, grammatical rendering such as: «Iriam cantar seu hino preferido.» or more naturally: «Viriam a cantar seu hino preferido.» or «Vão cantar seu hino preferido.» — pick one consistent tense (past narrative would be «iriam» or «foram girar» is wrong; recommended: «Viriam a cantar seu hino preferido.» or simply «Irão cantar» is nonstandard; best: «Viriam a cantar seu hino preferido.» or «Vão cantar o seu hino preferido.» depending on preferred narrative tense.",
+      "translation_quote": "O coração de Ellie cantou. Irão cantar seu hino preferido."
     }
   ],
+  "finished_at": "2026-10-02T13:12:56+00:00",
   "id": "d729281c01ee3cdd7109cb6d17f74132",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "por",
@@ -154,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ed28f89bae980f0f15b18d7447272f16d8d7da19ef1ab820db3371f4fb3caf02.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

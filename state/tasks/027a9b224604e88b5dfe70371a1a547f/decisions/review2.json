@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "<p>\"Sayansi haielewi kikamilifu, lakini upweke huongeza uvimbe...\" (paragraph under \"Upweke ni Hatari kwa Afya ya Mwili\")",
+      "severity": "major",
+      "source_quote": "\"...and can experience worsening dementia.\"",
+      "suggested_fix": "Badili kifungu hicho ili kwa usahihi kuonyesha ugonjwa ulioelezwa. Badala ya \"ugumba wa akili (dementia)\" tumia \"upotevu wa kumbukumbu (dementia)\" au \"ugonjwa wa kupoteza kumbukumbu (dementia)\" ili wasomaji wa Kiswahili wasielekezwe kwa maana sahihi ya ‘dementia’. Mfano: \"...wanaweza kuonyesha dalili za kupungua kwa uwezo wa akili na wanaweza kupata maendeleo mabaya ya ugonjwa wa kupoteza kumbukumbu (dementia).\"",
+      "translation_quote": "\"...wanaweza kupata ukuaji mbaya wa ugonjwa wa ugumba wa akili (dementia).\""
+    },
+    {
+      "location": "<p>\"Kinyume cha Upweke\" section, paragraph introducing the term fellowship",
+      "severity": "minor",
+      "source_quote": "\"That word is fellowship.\"",
+      "suggested_fix": "Tafsiri au uanze kwa kifupi neno 'fellowship' kwa Kiswahili kabla ya kuonyesha neno la Kigiriki. Badala ya kuacha neno 'fellowship' kikawa Kiingereza pekee, fanya: \"Neno hilo ni 'kushirikiana' (kwa Kiingereza: 'fellowship').\" au just \"Neno hilo ni 'kushirikiana' / 'maungano ya kikristo' (fellowship).\"",
+      "translation_quote": "\"Neno hilo ni <strong><em>fellowship</em></strong>.\""
+    },
+    {
+      "location": "<p>\"The Greek word translated fellowship...\" (same paragraph)",
+      "severity": "minor",
+      "source_quote": "\"The Greek word translated fellowship in the New Testament is “Koinonia”\"",
+      "suggested_fix": "Tumia umbo la Kiswahili sahihi la neno linalomaanisha koinonia—/kushirikiana/ orodha fupi ya utekelezaji. Mfano: \"Neno la Kigiriki linalotafsiriwa kama 'kushirikiana' (fellowship) ... ni 'koinonia'.\"",
+      "translation_quote": "\"Neno la Kigiriki lililotafsiriwa kama <em>fellowship</em> katika Agano Jipya ni “Koinonia”...\""
+    },
+    {
+      "location": "Various Genesis 2:21-22 paragraph",
+      "severity": "minor",
+      "source_quote": "\"...and he took one of his ribs...\"",
+      "suggested_fix": "Tumia neno la Kiswahili sahihi kwa 'rib'—'mbavu' badala ya 'zebaki' ili kuepuka tafsiri isiyoeleweka au isiyo ya kawaida kwa wasomaji wa Kiswahili. Mfano: \"...akachukua moja ya mbavu zake...\"",
+      "translation_quote": "\"...akachukua moja ya zebaki zake...\""
+    },
+    {
+      "location": "<h3> heading and metadata: section and title translations",
+      "severity": "minor",
+      "source_quote": "source.section: \"A Word From A Doctor\"; source.title: \"Isolation\"",
+      "suggested_fix": "Haya vimekiliwa vizuri, lakini kwa umoja wa istilahi ya tovuti hakikisha 'Neno kutoka kwa Daktari' ni mtiririko unaotumika kwa sehemu nyingine za tovuti. (Isivyo la lazima kwa urekebisho wa haraka; ni mapendekezo ya mtindo tu.)",
+      "translation_quote": "section: \"Neno kutoka kwa Daktari\"; title: \"Upweke\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

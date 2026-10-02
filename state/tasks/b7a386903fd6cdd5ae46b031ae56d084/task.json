@@ -2,7 +2,6 @@
   "article_id": "8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddc3d84bf23341ab8530f6e894825cb8",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -62,32 +61,30 @@
         },
         "total_tokens": 7465
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 218,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 192,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4454,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 2816
+        },
+        "total_tokens": 4672
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph where Ellie asks her grandfather (translation: “«Bestefar,» spurte hun. «Tror du du kan lede sangen ‘Saviour, Like A Shepherd Lead Us’ neste søndag? ...»”)",
-      "severity": "critical",
-      "source_quote": "“Do you think you could lead the song ‘Saviour, Like A Shepherd Lead Us’ this next Sunday? I would really like to sing it again!”",
-      "suggested_fix": "Translate the quoted song title into Norwegian consistently. Replace the English title with the Norwegian rendering used for the hymn in the lyrics section, for example: «Tror du du kan lede sangen «Frelser, lik en hyrde led oss» neste søndag? Jeg skulle så gjerne likt å synge den igjen!» Preserve the surrounding quotation marks and HTML structure.",
-      "translation_quote": "«Bestefar,» spurte hun. «Tror du du kan lede sangen ‘Saviour, Like A Shepherd Lead Us’ neste søndag? Jeg skulle så gjerne likt å synge den igjen!»"
-    },
-    {
-      "location": "Heading immediately before the hymn lyrics (translation: <h3>Saviour, Like A Shepherd Lead Us</h3>)",
-      "severity": "critical",
-      "source_quote": "Saviour, Like A Shepherd Lead Us",
-      "suggested_fix": "Translate the hymn title in the heading into Norwegian to match the translated lyrics. Replace the English heading with: <h3>Frelser, lik en hyrde led oss</h3>",
-      "translation_quote": "Saviour, Like A Shepherd Lead Us"
-    },
-    {
-      "location": "Paragraph where the song number is announced (translation: “«La oss synge nummer 8 i Tillegget,» kunngjorde sanglederen. Ellies hjerte sang. De skulle synge hennes favorittsang. Bestefar hadde innfridd hennes ønske.”) — earlier in source Ellie’s expectation referenced the song by number and the English title appears elsewhere",
-      "severity": "major",
-      "source_quote": "Her favorite song was ‘Saviour, Like a Shepherd Lead Us’ and although she couldn’t read yet, she knew it was number eight.",
-      "suggested_fix": "Ensure the narrative reference to the song title is translated into Norwegian (keep the song-number notation unchanged). For example: «Hennes favorittsang var «Frelser, lik en hyrde led oss», og selv om hun ennå ikke kunne lese, visste hun at den var nummer åtte.»",
-      "translation_quote": "Hennes favorittsang var «Saviour, Like a Shepherd Lead Us», og selv om hun ennå ikke kunne lese, visste hun at den var nummer åtte."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T13:12:56+00:00",
   "id": "b7a386903fd6cdd5ae46b031ae56d084",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "nob",
@@ -161,13 +158,13 @@
     }
   },
   "protected": false,
-  "quality_score": 68,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ed28f89bae980f0f15b18d7447272f16d8d7da19ef1ab820db3371f4fb3caf02.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

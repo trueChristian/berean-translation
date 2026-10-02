@@ -2,7 +2,6 @@
   "article_id": "8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddc3d84bf23341ab8530f6e894825cb8",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -62,32 +61,73 @@
         },
         "total_tokens": 8132
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1619,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4474,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 1792
+        },
+        "total_tokens": 6093
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "source.html — paragraph: \"Ellie didn’t always know the songs that were chosen. They sang out of a little black hymnbook...\"",
-      "severity": "major",
-      "source_quote": "Ellie didn’t always know the songs that were chosen.",
-      "suggested_fix": "Restore the original meaning: translate to indicate Ellie did not always know (recognize) the songs, not that she disliked them. For example: \"Ellie hakukujua kila wakati nyimbo zilizochaguliwa.\"",
-      "translation_quote": "Ellie hakuependa kila wakati nyimbo zilizoachaguliwa."
+      "location": "Paragraph: “Grandpa, Grandma, and Aunt Lily…” / translation paragraph 2",
+      "severity": "minor",
+      "source_quote": "Grandpa, Grandma, and Aunt Lily had stopped by for a visit, and although she didn’t always understand the conversation, she loved to listen.",
+      "suggested_fix": "Translate 'Aunt Lily' using the standard Kiswahili word for aunt 'Shangazi' (or 'Shangazi Lily') rather than 'Shanga Lily'. Preserve punctuation and name order.",
+      "translation_quote": "Babu, Bibi, na Shanga Lily walikuwa wamepita kutembelea, na ingawa hakuelewa kila mara mazungumzo, alipenda kusikiliza."
     },
     {
-      "location": "source.html — paragraph with the sentence starting \"She decided to wait until her grandparents were ready to leave.\" (near: \"She followed Grandpa out the door...\")",
+      "location": "Paragraph: “They sang out of a little black hymnbook…” / translation paragraph 3",
       "severity": "minor",
-      "source_quote": "She decided to wait until her grandparents were ready to leave. She followed Grandpa out the door and as he walked across the porch, she quickly stepped up next to him.",
-      "suggested_fix": "Fix the sentence fragment and preserve subject continuity in Kiswahili. For example: \"Aliamua kusubiri hadi babu na bibi wake wawakae tayari kuondoka. Alimfuata babu hadi mlango, na alipokuwa akitembea kuvuka veranda, alipanda kwa haraka karibu naye.\" Ensure 'babu' and 'bibi' casing and order match the HTML and keep tags unchanged.",
-      "translation_quote": "Akiamua kusubiri hadi babu na bibi wake wakiwa tayari kuondoka. Alimfuata Babu hadi mlango na alipotembea kuvuka veranda, alisimama kwa haraka karibu naye."
+      "source_quote": "They sang out of a little black hymnbook that had lots of songs with hard words and tunes she didn’t recognize.",
+      "suggested_fix": "Correct subject agreement so it clearly refers to Ellie not the book. For example: 'Waliimba kwa kutumia kitabu kidogo cheusi cha nyimbo kilicho na nyimbo nyingi zenye maneno magumu na midundo ambazo hakuifahamu.' or '...midundo ambazo hakumfahamu.'",
+      "translation_quote": "Walikuwa wakiimba kwa kutumia kitabu kidogo cheusi cha nyimbo kilicho na nyimbo nyingi zenye maneno magumu na midundo haikuifahamu."
     },
     {
-      "location": "source.html — hymn lyrics (multiple lines)",
+      "location": "Paragraph: “She would get to sing “her” song.” / translation paragraph 7",
       "severity": "minor",
-      "source_quote": "Much we need Thy tender care.\nIn Thy pleasant pastures feed us,\nFor our use Thy folds prepare:\nBlessed Jesus! blessed Jesus!\nThou hast bought us, Thine we are.",
-      "suggested_fix": "The hymn stanzas should be translated faithfully and idiomatically into Kiswahili, preserving promises and petition language. Current renderings contain awkward or incorrect words (e.g., \"uwekaji kimahabari\" / \"kimahabari\" is incorrect) and some lines change nuance. Suggested more literal/idiomatic Kiswahili alternatives, preserving stanza breaks and HTML structure, e.g.:\n<p>Mwanokoka, kama mchungaji utekeleze kwetu,<br>\nTunahitaji sana mapenzi yako ya huruma.<br>\nUtulishe katika malisho matamu yako,<br>\nNa andaa makundi yako kwa ajili yetu:<br>\nYesu mwenye baraka! Yesu mwenye baraka!<br>\nUmetunua, sisi ni wako.<br>\nYesu mwenye baraka! Yesu mwenye baraka!<br>\nUmetunua, sisi ni wako.</p>\nAdjust remaining stanzas similarly to keep meaning faithful to the English hymn and the printed repetition/line breaks. Preserve the surrounding <div class=\"lyrics\"> and paragraph tags exactly as in the source HTML.",
-      "translation_quote": "Mwanokoka, kama mchungaji utuelekeze,\nTunahitaji sana uangalifu wako mwenye kimahabari.\nUtulishe katika malisho yako yenye utamu,\nNaandaa kifungo chako kwa matumizi yetu:\nYesu mwenye baraka! Yesu mwenye baraka!\nUmetinunua, sisi ni wako.\nYesu mwenye baraka! Yesu mwenye baraka!\nUmetinunua, sisi ni wako."
+      "source_quote": "She would get to sing “her” song.",
+      "suggested_fix": "Fix the unclear/misspelled Kiswahili phrase 'Biyegeweza'. Use a clear idiomatic rendering such as 'Atakuwa na nafasi ya kuimba \"wimbo wake\".' or 'Atapata nafasi ya kuimba \"wimbo wake\".'",
+      "translation_quote": "Biyegeweza kuimba “wimbo wake.”"
+    },
+    {
+      "location": "Paragraph: “Did you know that Grandpas weren’t there today?” / translation paragraph 18",
+      "severity": "minor",
+      "source_quote": "Did you know that Grandpas weren’t there today? At the last minute they decided to visit elsewhere this morning for church.",
+      "suggested_fix": "Clarify plurality and tense. The English is slightly awkward but intended meaning is that her grandparents were not at church. Use 'Je, ulijua kwamba babu na bibi hawakuwepo kanisani leo? Mwisho waliamua kutembelea mahali pengine kwa ajili ya ibada asubuhi hii.' or simply 'Je, ulijua kwamba mababu hawakuwepo leo?'",
+      "translation_quote": "“Je, ulijua kwamba Babu hawakuwepo leo? Kwa dakika za mwisho waliamua kutembelea mahali pengine kwa ajili ya ibada asubuhi hii.”"
+    },
+    {
+      "location": "Lyrics, stanza 2: “Keep Thy flock, from sin defend us, Seek us when we go astray:” / translation in lyrics stanza 2",
+      "severity": "minor",
+      "source_quote": "Keep Thy flock, from sin defend us, Seek us when we go astray:",
+      "suggested_fix": "Improve idiomatic clarity: translate 'flock' as 'kinyonga/wanakondoo/wafuasi' or 'makundi' is ambiguous. For example: 'Linda kondoo/wadauo wako, utulinde dhidi ya dhambi; ututafute tunapotelekea.' Maintain plural imperatives.",
+      "translation_quote": "Linda makundi yako, utulinde na dhambi,\n    Tafuta sisi tunapotokoka:"
+    },
+    {
+      "location": "Lyrics, stanza 4 last lines: “Thou hast loved us, love us still.” / translation stanza 4",
+      "severity": "minor",
+      "source_quote": "Thou hast loved us, love us still.",
+      "suggested_fix": "Correct agreement and person: the translation renders 'Umewapenda, wanipende tena.' which is ungrammatical and changes person. Suggest 'Umewapenda; tupende pia' or 'Umewapenda, tumpende tena' — better: 'Umewapenda; tupende daima.'",
+      "translation_quote": "Umewapenda, wanipende tena."
     }
   ],
+  "finished_at": "2026-10-02T13:12:55+00:00",
   "id": "703df54cc774cbef09a6c5eae1f38c45",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "swa",
@@ -161,13 +201,13 @@
     }
   },
   "protected": false,
-  "quality_score": 75,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ed28f89bae980f0f15b18d7447272f16d8d7da19ef1ab820db3371f4fb3caf02.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

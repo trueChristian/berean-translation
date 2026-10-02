@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:12:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph with Titus 2:3-5 (first occurrence)\",\"severity\":\"minor\",\"source_quote\":\"That they may teach the young women to be sober, to love their husbands, to love their children, To be discreet, chaste, keepers at home, good, obedient to their own husbands, that the word of God be not blasphemed –Titus 2:3-5.\",\"suggested_fix\":\"Håll terminologin konsekvent för den engelska frasen “keepers at home”. I den första förekomsten används \\\"hemmahållerskor\\\"; i en senare återgivning översätts samma fras som \\\"hemmets väktare\\\". Välj en konsekvent svensk översättning och använd samma uttryck i båda verscitat (t.ex. \\\"hemmets väktare\\\" eller \\\"hemmahållerskor\\\") och lämna resten av versen oförändrad. Bevara bibelreferensen och HTML-strukturen.\",\"translation_quote\":\"...att vara försynta, kysk, hemmhahållerskor, goda, underdåniga mot sina egna män, så att Guds ord icke må förolämpas –Titus 2:4-5.\"},{\"location\":\"Paragraph with Psalm 127:3 (first occurrence)\",\"severity\":\"minor\",\"source_quote\":\"Lo, children are an heritage of the LORD: and the fruit of the womb is his reward –Psalm 127:3.\",\"suggested_fix\":\"Återinför possessivet \\\"his\\\" i svenskan så att meningen tydligt motsvarar originalets 'his reward'. Ett enkelt, idiomatiskt förslag: \\\"Se, barn är HERRENS gåva; livmodern är hans lön – Psaltaren 127:3.\\\" Behåll bibelbokens svenska namn och versnummer samt HTML-markeringen.\",\"translation_quote\":\"Se, barn är en HERRENS gåva; livmodern är en lön – Psaltaren 127:3.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 1582,
+    "content_evidence_truncated": false,
+    "content_sha256": "246cbf9f53c590039c595c6f7a8088ba4dd5a3818fd92e39187342a7e24477a3",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1087,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6808,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 3840
+      },
+      "total_tokens": 7895
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

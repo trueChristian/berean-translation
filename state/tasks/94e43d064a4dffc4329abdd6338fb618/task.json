@@ -2,7 +2,6 @@
   "article_id": "8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddc3d84bf23341ab8530f6e894825cb8",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -62,39 +61,74 @@
         },
         "total_tokens": 8064
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1354,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4533,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5887
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html — lyrics (first stanza and repeated line)",
+      "location": "Paragraph: “Did you know that Grandpas weren’t there today? At the last minute they decided to visit elsewhere this morning for church.” (near the middle of the story)",
       "severity": "major",
-      "source_quote": "Savior, like a Shepherd lead us,\nMuch we need Thy tender care.\nIn Thy pleasant pastures feed us,\nFor our use Thy folds prepare:\nBlessed Jesus! blessed Jesus!\nThou hast bought us, Thine we are.\nBlessed Jesus! blessed Jesus!\nThou hast bought us, Thine we are.",
-      "suggested_fix": "Translate the entire quoted hymn stanza faithfully into Afrikaans, preserving the meaning and line breaks. Example translation (replace current stanza in the translation HTML inside the <div class=\"lyrics\"> block):\n\n<p>Verlosser, soos 'n Herder, lei ons,<br>\nHoeveel ons nodig het U liefdevolle sorg.<br>\nVoed ons in U lieflike weidings,<br>\nBereid vir ons U voue as ons toevlug:<br>\nGeseënde Jesus! geseënde Jesus!<br>\nU het ons gekoop; ons behoort aan U.<br>\nGeseënde Jesus! geseënde Jesus!<br>\nU het ons gekoop; ons behoort aan U.</p>\n\n(Ensure orthography and punctuation follow standard contemporary Afrikaans. Preserve the HTML paragraph and <br> line breaks as in the source.)",
-      "translation_quote": "Verlosser, soos 'n Herder lei ons,\nHoeveel ons nodig het van U sagtheid.\nIn U lieflike weidings voed ons,\nVir ons gebruik U hekke berei:\nGeseënde Jesus! geseënde Jesus!\nU het ons gekoop, U is onsne.\nGeseënde Jesus! geseënde Jesus!\nU het ons gekoop, U is onsne."
+      "source_quote": "“Did you know that Grandpas weren’t there today? At the last minute they decided to visit elsewhere this morning for church.”",
+      "suggested_fix": "Render the plural correctly in Afrikaans and keep the meaning that both grandparents were absent. For example: “Het jy geweet dat Oupa en Ouma vandag nie daar was nie? Op die laaste oomblik het hulle besluit om elders vir die kerk te gaan kuier.” (Or: “Het jy geweet dat die grootouers vandag nie daar was nie? …”) Preserve the original sense that both grandparents decided to visit elsewhere at the last minute.",
+      "translation_quote": "“Het jy geweet dat Oupa vandag nie daar was nie? Op die laaste oomblik het hulle besluit om elders vandag vir die kerk te gaan kuier.”"
     },
     {
-      "location": "source.html — lyrics (second stanza)",
-      "severity": "major",
-      "source_quote": "We are Thine, do Thou befriend us,\nBe the guardian of our way.\nKeep Thy flock, from sin defend us,\nSeek us when we go astray:\nBlessed Jesus! blessed Jesus!\nHear, O hear us when we pray.\nBlessed Jesus! blessed Jesus!\nHear, O hear us when we pray.",
-      "suggested_fix": "Replace the mistranslated and garbled lines with a faithful Afrikaans rendering, preserving meaning and prayerful tone. Example (inside the same lyrics block):\n\n<p>Ons is U; wees U dan ons vriend,<br>\nWees die waghond oor ons pad.<br>\nBewaak U kudde, verdedig ons teen sonde,<br>\nSoek ons, wanneer ons afdwaal:<br>\nGeseënde Jesus! geseënde Jesus!<br>\nHoor, O hoor ons wanneer ons bid.<br>\nGeseënde Jesus! geseënde Jesus!<br>\nHoor, O hoor ons wanneer ons bid.</p>\n\n(Keep the HTML structure identical to the source.)",
-      "translation_quote": "Ons is Une, wees U dan ons vriend,\nWees die wachter oor ons pad.\nBewaar U skape, weerhou ons van sonde,\nSoek ons wanneer ons dwaal af:\nGeseënde Jesus! geseënde Jesus!\nHoor, O hoor ons as ons bid.\nGeseënde Jesus! geseënde Jesus!\nHoor, O hoor ons as ons bid."
-    },
-    {
-      "location": "source.html — prose paragraph about \"singing during Sunday morning worship services\"",
+      "location": "Paragraph: “The first and second songs were ones that were not familiar to her.” (Sondagoggend, before announcement of number 8)",
       "severity": "minor",
-      "source_quote": "The topic this evening was about something related to church and that got her mind to thinking about singing during Sunday morning worship services.",
-      "suggested_fix": "Correct the mixed-language and awkward phrasing in Afrikaans. Replace the fragment \"singing tydens die Sondagoggend-diens\" with an idiomatic translation. Suggested revision (keep HTML paragraph tags):\n\n\"Die onderwerp vanaand het met die kerk te doen gehad en dit het haar laat dink aan die sangtyd tydens die Sondagoggenddiens.\"",
-      "translation_quote": "Die onderwerp vanaand was iets wat met die kerk te doen gehad het en dit het haar gedagtes laat kring oor die singing tydens die Sondagoggend-diens."
+      "source_quote": "The first and second songs were ones that were not familiar to her.",
+      "suggested_fix": "Correct the number agreement and natural phrasing in Afrikaans. For example: “Die eerste en tweede liedjies was nie vir haar bekend nie.” or “Die eerste en tweede lied was liedjies wat sy nie geken het nie.”",
+      "translation_quote": "“Die eerste en tweede lied was een wat sy nie geken het nie.”"
     },
     {
-      "location": "source.html — \"Grandpa smiled down at her.\"",
+      "location": "Lyrics — second stanza, line: “Be the guardian of our way.”",
       "severity": "minor",
-      "source_quote": "Grandpa smiled down at her. “I think I can do that. Is that a song you like?” His eyes twinkled at Ellie. “I’ll be happy to lead that one just for you.”",
-      "suggested_fix": "The Afrikaans translation uses an awkward verb \"afgebly\" and the phrase \"Sy oë het by Ellie geknipper,\" which is non-idiomatic. Suggest: replace with an idiomatic rendering preserving meaning, e.g.: \n\n\"Oupa het na haar afgebuig en geglimlag. 'Ek dink ek kan dit doen. Is dit 'n lied wat jy graag het?' Sy oë het getwinkerd. 'Ek sal bly wees om daardie een net vir jou te lei.'\" \n\n(Or use \"Sy oë het geskitter\" instead of \"getwinkerd\" for idiomatic Afrikaans.)",
-      "translation_quote": "Oupa het na haar afgebly en geglimlag. “Ek dink ek kan dit doen. Is dit 'n lied wat jy graag het?” Sy oë het by Ellie geknipper. “Ek sal bly wees om daardie een net vir jou te lei.”"
+      "source_quote": "Be the guardian of our way.",
+      "suggested_fix": "Use a more idiomatic Afrikaans word than the literal 'waghond'. For example: “Wees die wagter oor ons pad.” or “Wees die bewaker van ons pad.” This preserves the metaphor of protection without the unintended 'watchdog' image.",
+      "translation_quote": "“Wees die waghond oor ons pad.”"
+    },
+    {
+      "location": "Lyrics — first stanza, line: “Much we need Thy tender care.”",
+      "severity": "minor",
+      "source_quote": "Much we need Thy tender care.",
+      "suggested_fix": "Smooth the Afrikaans phrasing to a more natural form while preserving meaning. For example: “Ons het groot behoefte aan U liefdevolle sorg.” or “Hoe nodig ons U liefdevolle sorg het.”",
+      "translation_quote": "“Hoeveel ons nodig het U liefdevolle sorg.”"
+    },
+    {
+      "location": "General — phrasing: “sanglede om te begin” (Sondagoggend waiting sentence)",
+      "severity": "minor",
+      "source_quote": "She waited eagerly for the song service to begin.",
+      "suggested_fix": "Use a clearer Afrikaans rendering of 'song service' and the verb. For example: “Sy het gretig gewag dat die sangoefening/sangdiens moes begin.” or “Sy het gretig gewag dat die sangtyd moes begin.”",
+      "translation_quote": "“Sondagoggend het sy gretig gewag vir die sanglede om te begin.”}],"
+    },
+    {
+      "location": "metadata: section",
+      "severity": "minor",
+      "source_quote": "Children’s Corner",
+      "suggested_fix": "Section translated as “Kindershoek” is acceptable but consider the more common ‘Kinderdhoek’ or ‘Kinderhoek’ if preferred by the publication style. No change required if \"Kindershoek\" matches house style.",
+      "translation_quote": "\"Kindershoek\""
     }
   ],
+  "finished_at": "2026-10-02T13:12:56+00:00",
   "id": "94e43d064a4dffc4329abdd6338fb618",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "afr",
@@ -168,13 +202,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 72,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ed28f89bae980f0f15b18d7447272f16d8d7da19ef1ab820db3371f4fb3caf02.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

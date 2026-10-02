@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8facc096-b200-4cf5-afb3-1606a3c123a7",
+    "response_id": "chatcmpl-EUXJPrIytXXHf1bhpHw6VJI3rxPxy",
+    "usage": {
+      "completion_tokens": 1354,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4533,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5887
+    }
+  },
+  "received_at": "2026-10-02T13:12:56+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: “Did you know that Grandpas weren’t there today? At the last minute they decided to visit elsewhere this morning for church.” (near the middle of the story)",
+        "severity": "major",
+        "source_quote": "“Did you know that Grandpas weren’t there today? At the last minute they decided to visit elsewhere this morning for church.”",
+        "suggested_fix": "Render the plural correctly in Afrikaans and keep the meaning that both grandparents were absent. For example: “Het jy geweet dat Oupa en Ouma vandag nie daar was nie? Op die laaste oomblik het hulle besluit om elders vir die kerk te gaan kuier.” (Or: “Het jy geweet dat die grootouers vandag nie daar was nie? …”) Preserve the original sense that both grandparents decided to visit elsewhere at the last minute.",
+        "translation_quote": "“Het jy geweet dat Oupa vandag nie daar was nie? Op die laaste oomblik het hulle besluit om elders vandag vir die kerk te gaan kuier.”"
+      },
+      {
+        "location": "Paragraph: “The first and second songs were ones that were not familiar to her.” (Sondagoggend, before announcement of number 8)",
+        "severity": "minor",
+        "source_quote": "The first and second songs were ones that were not familiar to her.",
+        "suggested_fix": "Correct the number agreement and natural phrasing in Afrikaans. For example: “Die eerste en tweede liedjies was nie vir haar bekend nie.” or “Die eerste en tweede lied was liedjies wat sy nie geken het nie.”",
+        "translation_quote": "“Die eerste en tweede lied was een wat sy nie geken het nie.”"
+      },
+      {
+        "location": "Lyrics — second stanza, line: “Be the guardian of our way.”",
+        "severity": "minor",
+        "source_quote": "Be the guardian of our way.",
+        "suggested_fix": "Use a more idiomatic Afrikaans word than the literal 'waghond'. For example: “Wees die wagter oor ons pad.” or “Wees die bewaker van ons pad.” This preserves the metaphor of protection without the unintended 'watchdog' image.",
+        "translation_quote": "“Wees die waghond oor ons pad.”"
+      },
+      {
+        "location": "Lyrics — first stanza, line: “Much we need Thy tender care.”",
+        "severity": "minor",
+        "source_quote": "Much we need Thy tender care.",
+        "suggested_fix": "Smooth the Afrikaans phrasing to a more natural form while preserving meaning. For example: “Ons het groot behoefte aan U liefdevolle sorg.” or “Hoe nodig ons U liefdevolle sorg het.”",
+        "translation_quote": "“Hoeveel ons nodig het U liefdevolle sorg.”"
+      },
+      {
+        "location": "General — phrasing: “sanglede om te begin” (Sondagoggend waiting sentence)",
+        "severity": "minor",
+        "source_quote": "She waited eagerly for the song service to begin.",
+        "suggested_fix": "Use a clearer Afrikaans rendering of 'song service' and the verb. For example: “Sy het gretig gewag dat die sangoefening/sangdiens moes begin.” or “Sy het gretig gewag dat die sangtyd moes begin.”",
+        "translation_quote": "“Sondagoggend het sy gretig gewag vir die sanglede om te begin.”}],"
+      },
+      {
+        "location": "metadata: section",
+        "severity": "minor",
+        "source_quote": "Children’s Corner",
+        "suggested_fix": "Section translated as “Kindershoek” is acceptable but consider the more common ‘Kinderdhoek’ or ‘Kinderhoek’ if preferred by the publication style. No change required if \"Kindershoek\" matches house style.",
+        "translation_quote": "\"Kindershoek\""
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

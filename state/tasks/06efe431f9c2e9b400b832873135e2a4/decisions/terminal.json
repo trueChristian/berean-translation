@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "<div class=\"lyrics\"> second stanza, line 1",
+      "severity": "major",
+      "source_quote": "We are Thine, do Thou befriend us,",
+      "suggested_fix": "Translate the line without adding words not in the source. Replace «Είμαστε δικοί σου, φίλε μας, φρόντισε μας,» with «Είμαστε δικοί σου· φρόντισέ μας,» (or «Είμαστε δικοί σου· φρόντισε μας,» preserving punctuation style).",
+      "translation_quote": "Είμαστε δικοί σου, φίλε μας, φρόντισε μας,"
+    },
+    {
+      "location": "<div class=\"lyrics\"> first stanza, line 2",
+      "severity": "minor",
+      "source_quote": "Much we need Thy tender care.",
+      "suggested_fix": "Correct the article for standard Modern Greek. Replace «Πολύ χρειάζόμαστε τη τρυφερή σου φροντίδα.» with «Πολύ χρειαζόμαστε την τρυφερή σου φροντίδα.»",
+      "translation_quote": "Πολύ χρειάζόμαστε τη τρυφερή σου φροντίδα."
+    },
+    {
+      "location": "<p> (paragraph about following Grandpa to the door)",
+      "severity": "minor",
+      "source_quote": "She followed Grandpa out the door and as he walked across the porch, she quickly stepped up next to him.",
+      "suggested_fix": "Make the Greek wording match the original sense (walked across the porch). Replace «Ακολούθησε τον παππού μέχρι την πόρτα και καθώς αυτός περπατούσε στην πόρτα του σπιτιού, εκείνη γρήγορα στάθηκε δίπλα του.» with «Τον ακολούθησε ως την πόρτα και καθώς εκείνος διέσχιζε το προστώο/βεράντα, εκείνη γρήγορα στάθηκε δίπλα του.» (preserve surrounding tags).",
+      "translation_quote": "Ακολούθησε τον παππού μέχρι την πόρτα και καθώς αυτός περπατούσε στην πόρτα του σπιτιού, εκείνη γρήγορα στάθηκε δίπλα του."
+    },
+    {
+      "location": "<div class=\"lyrics\"> second stanza, line 4",
+      "severity": "minor",
+      "source_quote": "Seek us when we go astray:",
+      "suggested_fix": "Use a more natural, slightly more formal verb for this hymn context. Replace «Ψάξε μας όταν απομακρυνθούμε:» with «Αναζήτησέ μας όταν απομακρυνθούμε:» or «Εύρισκε μας όταν απομακρυνθούμε:».",
+      "translation_quote": "Ψάξε μας όταν απομακρυνθούμε:"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

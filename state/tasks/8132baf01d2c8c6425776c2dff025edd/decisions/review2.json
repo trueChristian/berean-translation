@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "The Battle That Rages",
+      "suggested_fix": "Change to a more literal, internationally neutral wording that keeps the sense of continuous conflict, for example: \"La batalla que arde\" or \"La batalla que ruge\". If you prefer minimal change, use \"La batalla que arde\".",
+      "translation_quote": "La batalla que hace estragos"
+    },
+    {
+      "location": "source.html <p class=\"poem\"> line 2",
+      "severity": "minor",
+      "source_quote": "The things that are bad will all be in hell.",
+      "suggested_fix": "Remove or relocate the unnecessary adverb \"también\" and tidy word order for natural Spanish: replace \"Lo malo estará todo en el infierno, también.\" with \"Lo malo estará todo en el infierno.\" or more idiomatically \"Todas las cosas malas estarán en el infierno.\"",
+      "translation_quote": "Lo malo estará todo en el infierno, también."
+    },
+    {
+      "location": "source.html <p class=\"poem\"> line 7",
+      "severity": "minor",
+      "source_quote": "Sin in our lives, it is his great goal.",
+      "suggested_fix": "Use a more natural Spanish phrase: replace \"El pecado en nuestras vidas es su gran ambición.\" with \"El pecado en nuestras vidas es su gran objetivo.\" or \"El pecado en nuestras vidas es su principal objetivo.\"",
+      "translation_quote": "El pecado en nuestras vidas es su gran ambición."
+    },
+    {
+      "location": "source.html <p class=\"poem\"> lines 15-16",
+      "severity": "minor",
+      "source_quote": "For the eyes of the Lord seek to and fro,\nTo find one perfect, His power He’ll show!",
+      "suggested_fix": "Tone down the added nuance \"con arrojo\" and make wording smoother: replace \"Para encontrar uno perfecto, ¡su poder Él mostrará con arrojo!\" with \"Para encontrar a uno perfecto, ¡mostrará su poder!\" or \"Para hallar a uno perfecto, ¡mostrará su poder!\"",
+      "translation_quote": "Porque los ojos del Señor escudriñan de un lado a otro,\nPara encontrar uno perfecto, ¡su poder Él mostrará con arrojo!"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

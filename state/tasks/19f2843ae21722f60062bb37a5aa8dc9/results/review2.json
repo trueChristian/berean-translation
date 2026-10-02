@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "fc81d93e-0f2f-4a3d-ac15-a33f011a6b74",
+    "response_id": "chatcmpl-EUXJR7EEy4ClcXY2o4uWRR8aKK0CI",
+    "usage": {
+      "completion_tokens": 819,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1608,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2427
+    }
+  },
+  "received_at": "2026-10-02T13:12:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"poem\"> (line: \"To find one perfect, His power He’ll show!\")",
+        "severity": "minor",
+        "source_quote": "To find one perfect, His power He’ll show!",
+        "suggested_fix": "Translate the English sense clearly into grammatical French. Replace \"Pour trouver ne serait-ce qu'un seul parfait, Il manifestera Sa puissance !\" with a grammatically correct phrasing such as: \"Pour trouver ne serait-ce qu'une seule personne parfaite, Il manifestera Sa puissance !\" or \"Pour trouver ne serait-ce qu'un seul être parfait, Il manifestera Sa puissance !\" Preserve the surrounding <p class=\"poem\"> tags and line break markup.",
+        "translation_quote": "Pour trouver ne serait-ce qu'un seul parfait, Il manifestera Sa puissance !"
+      },
+      {
+        "location": "<p class=\"poem\"> (line: \"The things that are bad will all be in hell.\")",
+        "severity": "minor",
+        "source_quote": "The things that are bad will all be in hell.",
+        "suggested_fix": "Make the French convey the idea of movement/placement more naturally. Replace \"Les choses mauvaises seront toutes en enfer.\" with a more idiomatic rendering such as: \"Les choses mauvaises iront toutes en enfer.\" or \"Toutes choses mauvaises iront en enfer.\" Keep the original HTML structure.",
+        "translation_quote": "Les choses mauvaises seront toutes en enfer."
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b8e59821-fbd6-49fe-ac96-9a1d4ac018a6",
+    "response_id": "chatcmpl-EUXJOrEuGuKa3bTAEDYsFc2wDFg7y",
+    "usage": {
+      "completion_tokens": 1081,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4511,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5592
+    }
+  },
+  "received_at": "2026-10-02T13:12:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Lyrics, stanza 1, line 4 (\"For our use Thy folds prepare\")",
+        "severity": "minor",
+        "source_quote": "For our use Thy folds prepare:",
+        "suggested_fix": "Translate \"folds\" as a sheepfold or enclosure for sheep (kandang/kandang domba/kelompok domba), not as a fence. Suggested Indonesian rendering: \"Siapkan kandang-Mu untuk keperluan kami:\" or \"Sediakan kandang-Mu bagi kami:\" — preserve punctuation and line breaks in the HTML.",
+        "translation_quote": "Untuk kebutuhan kami sediakan pagar-Mu:"
+      },
+      {
+        "location": "Title (source.title)",
+        "severity": "minor",
+        "source_quote": "The Promise of A Song",
+        "suggested_fix": "Consider a more natural idiomatic rendering while preserving the original meaning. Suggested alternatives: \"Janji Sebuah Lagu\" is acceptable, but \"Janji dari Sebuah Lagu\" or \"Janji dalam Sebuah Lagu\" may read more smoothly in Indonesian. No structural HTML changes required if you prefer to keep the current translation.",
+        "translation_quote": "Janji Sebuah Lagu"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

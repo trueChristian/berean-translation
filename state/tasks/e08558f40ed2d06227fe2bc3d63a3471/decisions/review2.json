@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html — Psalm 127:3 (first occurrence)",
+      "severity": "major",
+      "source_quote": "Lo, children are an heritage of the LORD: and the fruit of the womb is his reward –Psalm 127:3.",
+      "suggested_fix": "Translate the book name into conventional Bengali and translate the Scripture phrase fully into Bengali. For example: “দেখ, শিশুরা প্রভুর উত্তরাধিকার; গর্ভের ফল তাঁর পুরস্কার —গীতসংহিতা ১২৭:৩।” Preserve the exact chapter and verse numbers and keep the em dash and verse placement as in the source.",
+      "translation_quote": "ঈশ্বর বলেন, <em>দেখ, শিশুরা প্রভুর উত্তরাধিকার; গর্ভের ফল তাঁর পুরস্কার —Psalm 127:3।</em>"
+    },
+    {
+      "location": "source.html — Psalm 127:3-5 (second occurrence)",
+      "severity": "major",
+      "source_quote": "Lo, children are an heritage of the LORD: and the fruit of the womb is his reward. As arrows are in the hand of a mighty man; so are children of the youth. Happy is the man that hath his quiver full of them: they shall not be ashamed, but they shall speak with the enemies in the gate –Psalm 127:3-5.",
+      "suggested_fix": "1) Translate the book name into conventional Bengali (e.g., গীতসংহিতা ১২৭:৩-৫). 2) Translate or render the substantive Scripture phrase “quiver full” into Bengali rather than transliterating the English word “quiver.” For example: “যেমন একটি শক্তিমান ব্যক্তির হাতে তীর থাকে, তেমনি তরুণদের সন্তানরা আছে; যে ব্যক্তির তীরদানের পূর্ণ, সে ধন্য — তারা লজ্জিত হবে না আর গেটের কাছে শত্রুদের সামনে কথা বলবে —গীতসংহিতা ১২৭:৩-৫।” Keep verse numbers and order unchanged and preserve emphasis/formatting.",
+      "translation_quote": "<em>দেখ, <u>শিশুরা প্রভুর উত্তরাধিকার</u>; গর্ভের ফল তাঁর পুরস্কার। শক্তিমান ব্যক্তির হাতে তীরের মতোই তরতর্য্যদের সন্তান আছে; যে ব্যক্তি <u>তার কোয়িভার পূর্ণ</u>, সে ধন্য; তারা লজ্জিত হবে না, বরং তারা গেটের কাছে শত্রুদের সাথে কথা বলিবে —Psalm 127:3-5।</em>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

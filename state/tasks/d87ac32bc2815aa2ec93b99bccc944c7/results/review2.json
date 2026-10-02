@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "313242cf-d1ed-45f5-9b99-66324d170039",
+    "response_id": "chatcmpl-EUXJXp5Q4mWie8gfNpyWzSlQ1TQUK",
+    "usage": {
+      "completion_tokens": 787,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1802,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2589
+    }
+  },
+  "received_at": "2026-10-02T13:12:56+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p><em>–by Daniel Kaufman</em></p> (final byline paragraph in source.html)",
+        "severity": "minor",
+        "source_quote": "<p><em>–by Daniel Kaufman</em></p>",
+        "suggested_fix": "Preserve the original byline text exactly as in the authoritative English article. Replace the translated byline paragraph with the original text and HTML structure: <p><em>–by Daniel Kaufman</em></p>",
+        "translation_quote": "<p><em>–द्वारा Daniel Kaufman</em></p>"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

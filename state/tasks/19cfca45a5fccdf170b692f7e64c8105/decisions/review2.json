@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing “reciprocate that love.” (after description of Peter)",
+      "severity": "critical",
+      "source_quote": "Now Jesus is asking him to reciprocate that love.",
+      "suggested_fix": "Translate the English word “reciprocate” into Hindi and preserve the sentence meaning. Example replacement (in-place, preserving HTML): \"अब यीशु उससे उस प्रेम का प्रतिलाभ करने को कह रहे थे।\" OR \"अब यीशु उससे उस प्रेम का प्रतिदान करने को कह रहे थे।\" (Choose one idiomatic Hindi verb and substitute exactly where the English word 'reciprocate' currently appears.)",
+      "translation_quote": "अब यीशु उससे उस प्रेम का reciprocate करने को कह रहे थे।"
+    },
+    {
+      "location": "Paragraph: \"Old things pass away. All things become new.\" (early third paragraph)",
+      "severity": "minor",
+      "source_quote": "Old things pass away. All things become new.",
+      "suggested_fix": "Correct Hindi gender/number and idiom while preserving meaning. Replace the current phrasing with idiomatic Hindi such as: \"पुरानी बातें बीत जाती हैं। सब कुछ नया हो जाता है।\" or \"पुरानी चीज़ें बीत जाती हैं। सब कुछ नया हो जाता है।\" Ensure this replaces the two sentences in-place in the HTML.",
+      "translation_quote": "पुराने चीजें निकल जाती हैं। सभी चीजें नई हो जाती हैं।"
+    },
+    {
+      "location": "Metadata: source.section",
+      "severity": "minor",
+      "source_quote": "The New Testament Church",
+      "suggested_fix": "Use an idiomatic, grammatical Hindi rendering for the section name. Replace \"नया नियम की कलीसिया\" with one of: \"नए नियम की कलीसिया\" or \"नए नियम का चर्च\" depending on style preference. Keep it in the section field (not inside article HTML).",
+      "translation_quote": "नया नियम की कलीसिया"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> stanza lines 5-7 (source.html)",
+      "severity": "minor",
+      "source_quote": "Or can you see the distances so great\nWhich stretch the mind almost to breaking point\nAnd make you feel the size you really are?",
+      "suggested_fix": "Adjust Portuguese idiom for grammatical completeness and naturalness. For example: \"Ou consegues ver as distâncias tão grandes / Que fazem a mente quase romper-se / E te fazem sentir o tamanho que realmente és?\" or \"... / Que levem a mente quase ao ponto de romper / ...\" Preserve line structure and HTML tags.",
+      "translation_quote": "Ou consegues ver as distâncias tão grandes\nQue esticam a mente quase até romper\nE te fazem sentir o tamanho que realmente és?"
+    },
+    {
+      "location": "final line of poem (source.html)",
+      "severity": "minor",
+      "source_quote": "And humbly bow our heads and worship Him.",
+      "suggested_fix": "Make the adverbial form explicit in Portuguese for natural flow: change \"E humilde inclinar nossas cabeças e adorá-Lo.\" to \"E humildemente inclinar nossas cabeças e adorá‑Lo.\" (preserve punctuation and tags).",
+      "translation_quote": "E humilde inclinar nossas cabeças e adorá-Lo."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -2,7 +2,6 @@
   "article_id": "8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddc3d84bf23341ab8530f6e894825cb8",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -62,32 +61,60 @@
         },
         "total_tokens": 9370
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1301,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5196,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 2816
+        },
+        "total_tokens": 6497
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "<div class=\"lyrics\"> (entire hymn)",
+      "location": "<div class=\"lyrics\"> second stanza, line 1",
       "severity": "major",
-      "source_quote": "Savior, like a Shepherd lead us, Much we need Thy tender care. In Thy pleasant pastures feed us, For our use Thy folds prepare: Blessed Jesus! blessed Jesus! Thou hast bought us, Thine we are.",
-      "suggested_fix": "Re-translate the hymn stanzas into contemporary Modern Greek preserving the original meaning, meter and repeated refrains. Avoid archaic/koine forms (ημάς, Σου with capitalization, forms like βοσκέςΐς) and broken morphology. Example correction for first stanza (as a faithful, contemporary rendering to guide the translator): «Σωτήρας, σαν Ποιμένας οδήγησέ μας, / Πολύ χρειαζόμαστε τη στοργική σου φροντίδα. / Στις ευχάριστες βοσκές μας βόσκησέ μας, / Και ετοίμασε τα πρόβατά σου για εμάς: / Ευλογημένε Ιησού! Ευλογημένε Ιησού! / Μας αγόρασες· δικοί σου είμαστε. / Ευλογημένε Ιησού! Ευλογημένε Ιησού! / Μας αγόρασες· δικοί σου είμαστε.» Implement the same contemporary-language, grammatically correct approach for all subsequent stanzas and preserve the exact stanza structure and repeated lines in the source.",
-      "translation_quote": "Σωτήρ, σαν Ποιμένας οδήγησέ μας,\n    Πολύ έχουμε ανάγκη τη τρυφερή σου φροντίδα.\n    Στις ευχάριστες βοσκέςΐς βοσκήσον ημάς,\n    Και τους στάβλους σου ετοίμασον για τη χρήση μας:\n    Ευλογημένε Ιησού! ευλογημένε Ιησού!\n    Εσύ μάς αγόρασες, δικοί Σου είμεθα.\n    Ευλογημένε Ιησού! ευλογημένε Ιησού!\n    Εσύ μάς αγόρασες, δικοί Σου είμεθα."
+      "source_quote": "We are Thine, do Thou befriend us,",
+      "suggested_fix": "Translate the line without adding words not in the source. Replace «Είμαστε δικοί σου, φίλε μας, φρόντισε μας,» with «Είμαστε δικοί σου· φρόντισέ μας,» (or «Είμαστε δικοί σου· φρόντισε μας,» preserving punctuation style).",
+      "translation_quote": "Είμαστε δικοί σου, φίλε μας, φρόντισε μας,"
     },
     {
-      "location": "Paragraph: “Grandpa smiled down at her…”",
+      "location": "<div class=\"lyrics\"> first stanza, line 2",
       "severity": "minor",
-      "source_quote": "Grandpa smiled down at her. “I think I can do that. Is that a song you like?” His eyes twinkled at Ellie. “I’ll be happy to lead that one just for you.”",
-      "suggested_fix": "Replace the awkward rendering «Τα μάτια του γυάλιζαν για την Έλι» with a natural contemporary phrase that preserves the original tone, e.g. «Τα μάτια του έλαμψαν για την Έλι» or «Τα μάτια του γέμισαν λάμψη καθώς κοίταζε την Έλι.»",
-      "translation_quote": "Ο παππούς την κοίταξε με χαμόγελο. «Νομίζω ότι μπορώ να το κάνω. Σου αρέσει αυτό το τραγούδι;» Τα μάτια του γυάλιζαν για την Έλι. «Θα χαρώ να το οδηγήσω, μόνο για σένα.»"
+      "source_quote": "Much we need Thy tender care.",
+      "suggested_fix": "Correct the article for standard Modern Greek. Replace «Πολύ χρειάζόμαστε τη τρυφερή σου φροντίδα.» with «Πολύ χρειαζόμαστε την τρυφερή σου φροντίδα.»",
+      "translation_quote": "Πολύ χρειάζόμαστε τη τρυφερή σου φροντίδα."
     },
     {
-      "location": "Throughout article — register and diction",
+      "location": "<p> (paragraph about following Grandpa to the door)",
       "severity": "minor",
-      "source_quote": "(overall English narrative uses contemporary child-friendly modern language)",
-      "suggested_fix": "The narrative translation generally preserves meaning but sometimes uses slightly archaic or non-idiomatic word choices (for example «Σωτήρ» as a hymn title form, «ημάς», capitalization of pronouns like «Σου», and formal verb forms). Use contemporary Modern Greek vocabulary and grammar throughout (e.g. «Σωτήρας» for the hymn title in everyday Greek usage, and modern object pronouns such as «εμάς», «σου» without forced capitalization) to match the requested target-language style.",
-      "translation_quote": "(Examples scattered in translation) «Σωτήρ, σαν Ποιμένας Οδήγησέ μας», «ημάς», «Σου» ]"
+      "source_quote": "She followed Grandpa out the door and as he walked across the porch, she quickly stepped up next to him.",
+      "suggested_fix": "Make the Greek wording match the original sense (walked across the porch). Replace «Ακολούθησε τον παππού μέχρι την πόρτα και καθώς αυτός περπατούσε στην πόρτα του σπιτιού, εκείνη γρήγορα στάθηκε δίπλα του.» with «Τον ακολούθησε ως την πόρτα και καθώς εκείνος διέσχιζε το προστώο/βεράντα, εκείνη γρήγορα στάθηκε δίπλα του.» (preserve surrounding tags).",
+      "translation_quote": "Ακολούθησε τον παππού μέχρι την πόρτα και καθώς αυτός περπατούσε στην πόρτα του σπιτιού, εκείνη γρήγορα στάθηκε δίπλα του."
+    },
+    {
+      "location": "<div class=\"lyrics\"> second stanza, line 4",
+      "severity": "minor",
+      "source_quote": "Seek us when we go astray:",
+      "suggested_fix": "Use a more natural, slightly more formal verb for this hymn context. Replace «Ψάξε μας όταν απομακρυνθούμε:» with «Αναζήτησέ μας όταν απομακρυνθούμε:» or «Εύρισκε μας όταν απομακρυνθούμε:».",
+      "translation_quote": "Ψάξε μας όταν απομακρυνθούμε:"
     }
   ],
+  "finished_at": "2026-10-02T13:12:55+00:00",
   "id": "06efe431f9c2e9b400b832873135e2a4",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "ell",
@@ -161,13 +188,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 82,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ed28f89bae980f0f15b18d7447272f16d8d7da19ef1ab820db3371f4fb3caf02.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

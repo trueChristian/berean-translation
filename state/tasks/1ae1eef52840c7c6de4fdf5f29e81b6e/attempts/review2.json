@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:12:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<div class=\\\"lyrics\\\"> (Verse 2, first line)\",\"severity\":\"major\",\"source_quote\":\"We are Thine, do Thou befriend us,\",\"suggested_fix\":\"Translate the plea literally and simply to preserve the original sense: \\\"نحن لك، فاصحبنا\\\" or \\\"نحن لك، فارافقنا\\\" (recommended: \\\"نحن لك، فاصحبنا\\\"). Do not add notions such as \\\"فارحمنا وتآزر معنا\\\" which introduce extra petitions not present in the source.\",\"translation_quote\":\"نحن لك، فارحمنا وتآزر معنا،\"},{\"location\":\"<h3>Title</location>\",\"severity\":\"minor\",\"source_quote\":\"The Promise of A Song\",\"suggested_fix\":\"Title is acceptable but consider a slightly more idiomatic Arabic rendering such as \\\"وعد ترنيمة\\\" is fine; no change required unless editor prefers \\\"وعد أغنية\\\".\",\"translation_quote\":\"وعد ترنيمة\"}],\"passed\":false,\"score\":81}",
+    "content_bytes": 914,
+    "content_evidence_truncated": false,
+    "content_sha256": "4673c6acc6aeeca0cfb5694316319e69a7fe1dff152c1637643496dafa97dc96",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1060,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4466,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 2816
+      },
+      "total_tokens": 5526
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:12:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p class=\\\"poem\\\"> (line: \\\"To find one perfect, His power He’ll show!\\\")\",\"severity\":\"minor\",\"source_quote\":\"To find one perfect, His power He’ll show!\",\"suggested_fix\":\"Translate the English sense clearly into grammatical French. Replace \\\"Pour trouver ne serait-ce qu'un seul parfait, Il manifestera Sa puissance !\\\" with a grammatically correct phrasing such as: \\\"Pour trouver ne serait-ce qu'une seule personne parfaite, Il manifestera Sa puissance !\\\" or \\\"Pour trouver ne serait-ce qu'un seul être parfait, Il manifestera Sa puissance !\\\" Preserve the surrounding <p class=\\\"poem\\\"> tags and line break markup.\",\"translation_quote\":\"Pour trouver ne serait-ce qu'un seul parfait, Il manifestera Sa puissance !\"},{\"location\":\"<p class=\\\"poem\\\"> (line: \\\"The things that are bad will all be in hell.\\\")\",\"severity\":\"minor\",\"source_quote\":\"The things that are bad will all be in hell.\",\"suggested_fix\":\"Make the French convey the idea of movement/placement more naturally. Replace \\\"Les choses mauvaises seront toutes en enfer.\\\" with a more idiomatic rendering such as: \\\"Les choses mauvaises iront toutes en enfer.\\\" or \\\"Toutes choses mauvaises iront en enfer.\\\" Keep the original HTML structure.\",\"translation_quote\":\"Les choses mauvaises seront toutes en enfer.\"}],\"passed\":false,\"score\":92}",
+    "content_bytes": 1331,
+    "content_evidence_truncated": false,
+    "content_sha256": "047834947692c84d594542ce6f70c33e0e4cfea637332a3dcb0d3c6a8b1abb3d",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 819,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1608,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2427
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

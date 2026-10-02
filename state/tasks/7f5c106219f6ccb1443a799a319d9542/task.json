@@ -2,7 +2,6 @@
   "article_id": "60de3363-d9fc-4137-ad60-dee9097b154b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddc3d84bf23341ab8530f6e894825cb8",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -62,18 +61,46 @@
         },
         "total_tokens": 5274
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1598,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3172,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4770
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "<p>In the spring of 2022, we made some changes with our ministry in our endeavors to keep the work of The Berean Voice moving forward into the future. 人事变动如下：</p>\n  <p>安德鲁弟兄（我们的设计师）...——因此即将在后续期刊中出现的设计“风格”可能会有些微调整。</p>",
+      "location": "<article>…<p>在2022年春，我们为事工做出了一些调整，以求使《悯悯人的心跳》（The Berean Voice）这项工作继续面向未来前进。人事变动如下：</p>…</article>",
       "severity": "major",
-      "source_quote": "In the spring of 2022, we made some changes with our ministry in our endeavors to keep the work of The Berean Voice moving forward into the future. Personnel changes:\n\nBrother Andrew (our designer) has become increasingly busy as a young father with a growing family and as a deacon for our local church congregation. In looking at this challenge, the board decided to support Andrew’s desire to find someone to help him (for now) with the bulk of the design work for each issue of our magazine—The Heartbeat of the Remnant.",
-      "suggested_fix": "保持原文中两处英文刊名和它们的对应位置/顺序，并在必要时提供准确的中文译名作为补充，而不要互换或替代。建议将该段修为（保留原式样）：\n\n“在2022年春，我们为事工做出了一些调整，以求使 The Berean Voice 这项工作继续面向未来前进。人事变动如下：\n\n安德鲁弟兄（我们的设计师）……董事会决定支持安德鲁弟兄找人（暂时）协助承担每期杂志 The Heartbeat of the Remnant 的大部分设计工作——因此即将在后续期刊中出现的设计‘风格’可能会有些微调整。”\n\n（或若要译成中文名，必须保持与原文并存，例如：“……使 The Berean Voice（《伯利恒之声》）继续……”并“……每期杂志 The Heartbeat of the Remnant（《余民心跳》）……”），以确保不改变或混淆原文所指的两个不同名称。",
-      "translation_quote": "在2022年春，我们为事工做出了一些调整，以求使《悯悯人的心跳》（The Berean Voice）这项工作继续面向未来前进。人事变动如下：\n\n安德鲁弟兄（我们的设计师）作为一位年轻的父亲，家庭逐渐增员，并且在本地教会担任执事，因而日益繁忙。鉴于这一挑战，董事会决定支持安德鲁弟兄找人（暂时）协助承担每期杂志《悯悯人的心跳》的大部分设计工作——因此即将在后续期刊中出现的设计“风格”可能会有些微调整。"
+      "source_quote": "In the spring of 2022, we made some changes with our ministry in our endeavors to keep the work of The Berean Voice moving forward into the future. Personnel changes:",
+      "suggested_fix": "保留并准确呈现两个英文名称的角色与对应中文译名（不要将二者对调或仅在括号内保留英文）。将原文中提到的机构名“The Berean Voice”翻译为合适的中文名称（例如《彼列安之声》或沿用音译），并将原文中提到的杂志名“The Heartbeat of the Remnant”翻译为不同、准确的中文名称（例如《余民的心跳》），或按刊社样式仅保留英文原名但不要把两者互换或将一个放在另一个的中文译名旁边。示例修正（保留原HTML标签结构，仅替换文本）：\n\n<p>在2022年春，我们为事工做出了一些调整，以求使《彼列安之声》（The Berean Voice）这项工作继续面向未来前进。人事变动如下：</p>\n...\n<p>安德鲁弟兄（我们的设计师）……以协助承担每期杂志《余民的心跳》（The Heartbeat of the Remnant）的大部分设计工作——因此即将在后续期刊中出现的设计“风格”可能会有些微调整。</p>\n\n如果网站风格要求中文为主，则可去掉括号中的英文；若要求保留英文，则应把英文放在对应中文之后，而不是把英文放在与之不对应的中文旁边。",
+      "translation_quote": "在2022年春，我们为事工做出了一些调整，以求使《悯悯人的心跳》（The Berean Voice）这项工作继续面向未来前进。人事变动如下："
+    },
+    {
+      "location": "<article>…<p>安德鲁弟兄（我们的设计师）……承担每期杂志《悯悯人的心跳》的大部分设计工作——因此即将在后续期刊中出现的设计“风格”可能会有些微调整。</p>…</article>",
+      "severity": "minor",
+      "source_quote": "help him (for now) with the bulk of the design work for each issue of our magazine—The Heartbeat of the Remnant. Thus, there may be some slight changes in the “style” of design in upcoming issues.",
+      "suggested_fix": "不要把《悯悯人的心跳》用作The Berean Voice的中文译名；如果保留中文译名，应对应原文的两个不同专有名：The Berean Voice（事工/机构名）与 The Heartbeat of the Remnant（杂志名）。建议把该句改为与上条建议一致的对应译法，保持两个名称在中文中的区分并去掉多余括号或错误对应。示例修正与上条一致，替换该段中杂志名为《余民的心跳》或其他准确译名。",
+      "translation_quote": "安德鲁弟兄（我们的设计师）……以协助承担每期杂志《悯悯人的心跳》的大部分设计工作——因此即将在后续期刊中出现的设计“风格”可能会有些微调整。"
     }
   ],
+  "finished_at": "2026-10-02T13:12:55+00:00",
   "id": "7f5c106219f6ccb1443a799a319d9542",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "cmn",
@@ -147,13 +174,13 @@
     }
   },
   "protected": false,
-  "quality_score": 85,
+  "quality_score": 78,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ab9577ad9f52483785d093ef6641080edc12c9501778b8546b9f11852b6617c7.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "5d9068ffbc6d70e08db0f9acd8f46773a5f961c4f3f8c083b9b2b023b22ece1f",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

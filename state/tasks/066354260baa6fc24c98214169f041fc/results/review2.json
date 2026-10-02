@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8ffd4bfe-6584-489e-b480-b9e2c572a669",
+    "response_id": "chatcmpl-EUXKLl9PoHsjrX1UatHanYt0YvpWw",
+    "usage": {
+      "completion_tokens": 1448,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7930,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 3840
+      },
+      "total_tokens": 9378
+    }
+  },
+  "received_at": "2026-10-02T13:12:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning \"If you join us on this journey...\" through paragraph beginning \"After the Day of Pentecost, Peter was called...\" (passage about Jesus calling and equipping)",
+        "severity": "major",
+        "source_quote": "Jesus never calls us without equipping us, and He doesn’t equip us until He determines that we are ready.",
+        "suggested_fix": "Correct the double negative so the translation preserves the original meaning: 예수님은 우리를 부르시기 전에 결코 준비시키지 않으시지 않으며 → replace with: \"예수님은 우리를 부르실 때마다 먼저 우리를 준비시키시며, 우리가 준비되었다고 판단하실 때까지 우리를 준비시키십니다.\" Or more directly: \"예수님은 우리를 부르시기 전에 먼저 우리를 준비시키시고, 우리가 준비되었다고 판단하실 때에야 우리를 능력 있게 하십니다.\" Preserve the surrounding HTML and tags.",
+        "translation_quote": "예수님은 우리를 부르시기 전에 결코 준비시키지 않으시지 않으며, 우리가 준비되었다고 판단하실 때까지 우리를 준비시키지 않으십니다. 오순절 이후 베드로는 부름을 받고, 준비되었으며, 능력을 부여받았습니다."
+      },
+      {
+        "location": "Paragraph containing the Romans quotation (around “that in me (that is, in my flesh,)…” and Romans 7:18)",
+        "severity": "minor",
+        "source_quote": "…that in me (that is, in my flesh,) dwelleth no good thing…. …for to will is present with me; but how to perform that which is good I find not –Romans 7:18.",
+        "suggested_fix": "Fix the small typographical/archaic error in the Korean rendering of the Pauline clause so it reads smoothly and idiomatically while preserving the Scripture text. For example: \"…내 속 곧 내 육신에는 선한 것이 거하지 아니하며…\" followed by \"…내게 선을 행할 능력이 없음을 내가 아나니라 – 로마서 7:18.\" Ensure the citation remains ‘로마서 7:18.’",
+        "translation_quote": "<em>…내 속 곧 내 육신에는 선한 것이 거하지 아니하며…</em> 바울은 이어서 그 구절을 계속합니다. <em>…내게 행할 능력이 없음을 내가 곧 아노니니라 –로마서 7:18.</em>"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

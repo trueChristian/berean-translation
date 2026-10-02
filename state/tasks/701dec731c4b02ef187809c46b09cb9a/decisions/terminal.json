@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<article> paragraph: \"When I see people in my office...\" (translation paragraph: second paragraph under recommendations)",
+      "severity": "major",
+      "source_quote": "\"Having brothers and sisters to pray for someone who is struggling, to listen to the discouraging situations, and to encourage that person to a more vibrant walk with God is really helpful.\"",
+      "suggested_fix": "Replace the untranslated English word and fix word order so the sentence is fluent Bengali while preserving meaning. For example: \"এমন ভাই-বোনদের থাকা যারা সংগ্রামরত একজনের জন্য প্রার্থনা করে, হতাশাজনক পরিস্থিতিগুলো শোনে, এবং সেই ব্যক্তিকে ঈশ্বরের সঙ্গে একটি আরও উজ্জ্বল জীবনযাত্রার প্রতি উৎসাহিত করে, তা সত্যিই সহায়ক।\" Preserve the surrounding <p> tags and other HTML exactly.",
+      "translation_quote": "\"এমন ভাই-বোনদের having হওয়া যারা সংগ্রামরত এক ব্যক্তির জন্য প্রার্থনা করে, হতাশাজনক অবস্থাগুলো শুনে, এবং সেই ব্যক্তিকে ঈশ্বরের সঙ্গে আরও উজ্জ্বল পথচলার প্রতি উৎসাহিত করে, তা সত্যিই সহায়ক।\""
+    },
+    {
+      "location": "<article> paragraph quoting 2 Timothy 4:9-11 (translation)",
+      "severity": "minor",
+      "source_quote": "\"Do thy diligence to come shortly unto me: For Demas hath forsaken me, having loved this present world, and is departed unto Thessalonica; Crescens to Galatia, Titus unto Dalmatia. Only Luke is with me. Take Mark, and bring him with thee… –2 Timothy 4:9-11.\"",
+      "suggested_fix": "Correct the Bengali rendering of the final clause so it accurately and naturally reflects the English. For example: \"…মাত্র লুকাই আমার সাথে আছে। মারককে নাও, এবং তাঁকে তোমার সাথে নিয়ে আাও… —২ তিমোথিয়ু ৪:৯-১১।\" (Replace the current clause and keep the verse reference and surrounding <em> tags unchanged.)",
+      "translation_quote": "\"শীঘ্রই আমার কাছে এসো: কারণ দেমাস আমাকে ত্যাগ করিয়াছে, এই বর্তমান জগতকে প্রেম করিয়া, এবং থেসালোনিকা গমন করিয়াছিল; ক্রেসেন্স গ্যালাটিয়াঃ, টিটাস ডালমাটিয়া গমন করিয়াছিল। মাত্র লুকাই আমার সাথে আছে। মারককে নিলে, এবং তোমার সঙ্গ নিয়ে আনি… –২ তিমোথিয়ু ৪:৯-১১।\""
+    },
+    {
+      "location": "<article> paragraph defining \"fellowship\" (translation)",
+      "severity": "minor",
+      "source_quote": "\"That word is fellowship. The Greek word translated fellowship in the New Testament is 'Koinonia'...\"",
+      "suggested_fix": "Remove or translate the redundant English insert and ensure the Bengali term is clear. For example: \"সেই শব্দটি হল 'সদভোগিতা' (গ্রীক: 'কোইনোনিয়া').\" Keep the <strong><em> tags as in source.",
+      "translation_quote": "\"সেই শব্দটি হল <strong><em>সদভোগিতা</em></strong> (fellowship)।\""
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

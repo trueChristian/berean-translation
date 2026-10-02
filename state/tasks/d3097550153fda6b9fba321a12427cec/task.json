@@ -2,7 +2,6 @@
   "article_id": "964d8688-6491-4ede-9271-c923db4c4079",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddc3d84bf23341ab8530f6e894825cb8",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -62,53 +61,38 @@
         },
         "total_tokens": 11009
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 919,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6781,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7700
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "source.html — first blockquote ending",
-      "severity": "major",
-      "source_quote": "…And he saith unto them, Follow me… –Matthew 4:18-22.",
-      "suggested_fix": "Reemplace el identificador de la cita bíblica en inglés por la forma usada en español, conservando el número de capítulo y versículo y el guion tal como aparece. Ejemplo: “–Mateo 4:18-22.” Aplique el mismo criterio a todas las referencias bíblicas en inglés del artículo.",
-      "translation_quote": "…Y les dice: Venid en pos de mí… –Matthew 4:18-22."
-    },
-    {
-      "location": "source.html — second blockquote",
-      "severity": "major",
-      "source_quote": "…They cast therefore, and now they were not able to draw it for the multitude of fishes –John 21:3-6.",
-      "suggested_fix": "Reemplace el identificador de la cita bíblica en inglés por la forma usada en español, conservando el número de capítulo y versículo. Ejemplo: “–Juan 21:3-6.”",
-      "translation_quote": "Entonces la echaron, y ya no podían sacarla por la multitud de peces –John 21:3-6."
-    },
-    {
-      "location": "source.html — paragraph containing Romans quote",
-      "severity": "major",
-      "source_quote": "…for to will is present with me; but how to perform that which is good I find not –Romans 7:18.",
-      "suggested_fix": "Reemplace el identificador bíblico en inglés por la forma española equivalente, manteniendo la puntuación y la numeración. Ejemplo: “–Romanos 7:18.”",
-      "translation_quote": "…porque el querer está en mí, pero el cómo efectuar lo bueno no lo hallo –Romans 7:18."
-    },
-    {
-      "location": "source.html — paragraph containing Luke quote",
-      "severity": "major",
-      "source_quote": "…No man, having put his hand to the plough, and looking back, is fit for the kingdom of God –Luke 9:62.",
-      "suggested_fix": "Reemplace el identificador bíblico en inglés por la forma española equivalente, manteniendo capítulo y versículo. Ejemplo: “–Lucas 9:62.”",
-      "translation_quote": "…Ninguno que puso la mano en el arado y mira atrás, es apto para el reino de Dios –Luke 9:62."
-    },
-    {
-      "location": "source.html — paragraph: “El discipulado es incumbente al creyente.”",
+      "location": "Paragraph beginning \"Jesus’ soul-piercing question to Peter was quite simple...\" (near the end of the article)",
       "severity": "minor",
-      "source_quote": "Discipleship is incumbent on the believer.",
-      "suggested_fix": "Use una construcción idiomática en español que preserve el sentido: por ejemplo, “El discipulado incumbe al creyente.” o “El discipulado corresponde al creyente.” Mantenga la estructura HTML original y reemplace sólo el texto dentro del <p>.",
-      "translation_quote": "El discipulado es incumbente al creyente."
-    },
-    {
-      "location": "source.html — paragraph: “No es un perfecto desconocido.”",
-      "severity": "minor",
-      "source_quote": "He’s not a total stranger.",
-      "suggested_fix": "Use la expresión más natural en español: “No es un completo desconocido.” Sustituya únicamente el fragmento correspondiente dentro del <p> sin alterar etiquetas HTML.",
-      "translation_quote": "No es un perfecto desconocido."
+      "source_quote": "Jesus’ soul-piercing question to Peter was quite simple, “Do you love Me?” It was as if Jesus was testing Peter. [“I have a job for you, Peter, but a prerequisite for this job is your devoted love for Me.”]",
+      "suggested_fix": "Change the Spanish so the question is described as piercing Peter’s soul (the intended meaning), not piercing Jesus’ soul. Preserve structure and tags. Suggested Spanish: \"La pregunta de Jesús, que traspasó el alma de Pedro, fue bastante simple: “¿Me amas?” Era como si Jesús estuviera probando a Pedro. [“Tengo un trabajo para ti, Pedro, pero un requisito previo para este trabajo es tu amor devoto por mí.”]\"",
+      "translation_quote": "La pregunta que traspasó el alma de Jesús a Pedro fue bastante simple: “¿Me amas?” Era como si Jesús estuviera probando a Pedro. [“Tengo un trabajo para ti, Pedro, pero un requisito previo para este trabajo es tu amor devoto por mí.”]"
     }
   ],
+  "finished_at": "2026-10-02T13:12:56+00:00",
   "id": "d3097550153fda6b9fba321a12427cec",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "spa",
@@ -182,13 +166,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/72e9e95087abf4bb6b3406930b96815159af17d474fb3822bb08890105936e6b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "1a9a048cb09f8defedfe227e6b286e8b931f833f4da6a1d1e6b5d1175b0c84c0",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

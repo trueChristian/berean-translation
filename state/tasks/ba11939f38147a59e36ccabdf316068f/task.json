@@ -2,7 +2,6 @@
   "article_id": "964d8688-6491-4ede-9271-c923db4c4079",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddc3d84bf23341ab8530f6e894825cb8",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -62,39 +61,30 @@
         },
         "total_tokens": 11247
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 602,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6980,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7582
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "<p class=\"drop-cap\"> (sentence beginning \"Dit is het eerste...\" )",
-      "severity": "minor",
-      "source_quote": "Jesus is calling each of us to personally “Follow Me.”",
-      "suggested_fix": "Corrigeer typfout in de vertaling: vervang “Volg Mijf.” door “Volg Mij.” (behoud de aanhalingstekens en de bestaande HTML-structuur).",
-      "translation_quote": "Jezus roept ieder van ons persoonlijk: “Volg Mijf.”"
-    },
-    {
-      "location": "<p> (paragraph starting “There is an emptiness…” / Dutch: “Terwijl we met Jezus wandelen…”)",
-      "severity": "minor",
-      "source_quote": "Old things pass away. All things become new.",
-      "suggested_fix": "Maak de Nederlandse zin grammaticaal correct en vloeiender: vervang “Oude dingen voorbijgaan. Alle dingen worden nieuw.” door “Oude dingen gaan voorbij. Alle dingen worden nieuw.” (houd dezelfde positie in de paragraaf en behoud HTML-tags).",
-      "translation_quote": "Oude dingen voorbijgaan. Alle dingen worden nieuw."
-    },
-    {
-      "location": "<p> (paragraph starting “If you want to be like Jesus…”, English source sentence: “If you want to be like Jesus, you cannot look back.”)",
-      "severity": "major",
-      "source_quote": "If you want to be like Jesus, you cannot look back.",
-      "suggested_fix": "Herstel de veranderde theologische/semantische betekenis. Vervang de Nederlandse zin “Als je Jezus wilt zijn, kun je niet achterom kijken.” door een vertaling die de oorspronkelijke intentie bewaart, bijvoorbeeld: “Als je op Jezus wilt lijken, kun je niet achterom kijken.” (behoud HTML-structuur en plaatsing).",
-      "translation_quote": "Als je Jezus wilt zijn, kun je niet achterom kijken."
-    },
-    {
-      "location": "<p> (paragraph quoting Romans; sentence about Paul continuing the verse)",
-      "severity": "minor",
-      "source_quote": "Paul then continues the verse “…for to will is present with me; but how to perform that which is good I find not –Romans 7:18.”",
-      "suggested_fix": "Verbeter nummerwoord/woordkeus en precisie: vervang “Paulus vervolgt dan de verzen …” door “Paulus vervolgt vervolgens de verzen met: ‘…want het goede te willen is bij mij aanwezig; hoe het goede te volbrengen vind ik echter niet –Romeinen 7:18.’” (zorg dat ‘vers’/‘verzen’ correct reflecteert dat het hier om vervolg van dezelfde versregel gaat).",
-      "translation_quote": "Paulus vervolgt dan de verzen <em>…want het goede te willen is bij mij aanwezig; hoe het goede te volbrengen vind ik echter niet –Romeinen 7:18.</em>"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T13:12:56+00:00",
   "id": "ba11939f38147a59e36ccabdf316068f",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "nld",
@@ -168,13 +158,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/72e9e95087abf4bb6b3406930b96815159af17d474fb3822bb08890105936e6b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "1a9a048cb09f8defedfe227e6b286e8b931f833f4da6a1d1e6b5d1175b0c84c0",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

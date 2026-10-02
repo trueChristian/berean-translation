@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<article> — paragraph quoting Titus 2:3–5 (first occurrence)",
+      "severity": "major",
+      "source_quote": "The aged women likewise, that they be in behaviour as becometh holiness, not false accusers, not given to much wine, teachers of good things;",
+      "suggested_fix": "Remove the added clause 'не многословные'. Render the list to match the English order and items. Example Russian rendering: «Пожилые же женщины, чтобы быть в поведении, подобающем святости, не клеветницы, не любящие много вина, учительницы доброго; чтобы они могли учить молодых женщин… — Тит 2:3–5.» Preserve the exact sequence and items from the source English.",
+      "translation_quote": "«Пожилые же женщины, чтобы быть в поведении, подобающем святости, не клеветницы, не многословные, не любители вина, учительницы доброго; чтобы они могли учить молодых женщин… — Тит 2:3–5.»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

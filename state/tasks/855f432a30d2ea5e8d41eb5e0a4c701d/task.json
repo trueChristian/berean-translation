@@ -2,7 +2,6 @@
   "article_id": "60de3363-d9fc-4137-ad60-dee9097b154b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddc3d84bf23341ab8530f6e894825cb8",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -62,67 +61,60 @@
         },
         "total_tokens": 7306
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 2130,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1536,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3364,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 1792
+        },
+        "total_tokens": 5494
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph 1 (scripture quote)",
+      "location": "<p>...\"Disciple has almost the same spelling as discipline.\"...</p>",
       "severity": "major",
-      "source_quote": "Not that I speak in respect of want: for I have learned, in whatsoever state I am, therewith to be content –Philippians 4:11.",
-      "suggested_fix": "Translate the verse into contemporary Hebrew faithfully to the English meaning and include the reference. Example: «אֵינִי מְדַבֵּר מִפְּנֵי חֲסַר; כִּי לָמַדְתִּי, בְּכָל מַעֲמַד שֶׁאֲנִי בוֹ, לָשֵׂבַע.» — פיליפים ד׳:יא. Preserve the book name as a conventional Hebrew form and the exact chapter:verse.",
-      "translation_quote": "<em>לא שאני מדבר מרצון למחסור; כי למדתי להסתפק בכל מצב שבו אני נמצא – איגרת אל הפיליפים 4:11.</em>"
+      "source_quote": "\"Disciple has almost the same spelling as discipline.\"",
+      "suggested_fix": "Translate the author's English observation about the similarity in English spelling, rather than asserting the same about the Hebrew words. For example: \"באנגלית המילה 'disciple' כמעט זהה באיותה למילה 'discipline'\" or in Hebrew+explanation: \"במילה האנגלית 'disciple' יש דמיון באיות ל-'discipline'\". Preserve surrounding HTML and quotes.",
+      "translation_quote": "המילה \"תלמיד\" כמעט זהה באיותה למילה \"משמעת\"."
     },
     {
-      "location": "Paragraph 3 (Emmaus)",
+      "location": "<p>...\"Ellie\"...</p>",
       "severity": "minor",
-      "source_quote": "take a stroll on the road to Emmaus",
-      "suggested_fix": "Use the conventional Hebrew transliteration for Emmaus. Example: «לטייל בדרך לאממעוס» or «לדרך עמאוס» depending on the target style. Ensure single correct spelling is used consistently.",
-      "translation_quote": "לטייל בדרך לאממוס"
+      "source_quote": "...little “Ellie”...",
+      "suggested_fix": "Preserve the original proper name's form or render it in a way that clearly reflects the original English name. If transliterating, use אלי (אֱלי) only if that matches the intended name; otherwise use אלי (Ellie) or אלי־(אֶלִי) with transliteration in parentheses. Example fix: \"הקטנה 'אלי' (Ellie)\" or \"הקטנה 'אלי'\" if author intended that form. Keep quotes and HTML.",
+      "translation_quote": "הקטנה \"אלי\""
     },
     {
-      "location": "Paragraph 5 (discipleship / \"discipline\")",
+      "location": "<p>...\"Song of the Quarter\"...</p>",
       "severity": "minor",
-      "source_quote": "a series by Brother Donald Brechbill on “discipleship”. Disciple has almost the same spelling as discipline.",
-      "suggested_fix": "Translate both terms into Hebrew and avoid leaving the English word in parentheses. For example: «סדרה מאת האח דונלד ברטשביל על 'הִתְאַמּוּנוּת־תַּלְמִידוּת' (discipleship). המילה 'תלמיד' כמעט זהה באיותה למילה 'משמעת' (discipline).» Or simpler: use «תלמידות» → «משמעת» as needed, but ensure idiomatic clarity.",
-      "translation_quote": "משהו חדש בגיליון זה הוא תחילתה של סדרה מאת האח דונלד ברכביל על \"תלמידות\". המילה \"תלמיד\" כמעט זהה באיותה למילה \"דיסציפלינה\" (discipline)."
+      "source_quote": "\"Song of the Quarter\"",
+      "suggested_fix": "Use a clearer Hebrew phrasing for the planned feature. Suggested rendering: \"'שיר הרבעון'\" or \"'שיר של הרבע'\". Keep the original quoted label in quotes and preserve HTML structure.",
+      "translation_quote": "\"שיר הרבע\""
     },
     {
-      "location": "Paragraph 8 (\"feedback\" paragraph — 'board' mistranslation)",
-      "severity": "critical",
-      "source_quote": "feedback is helpful for us as a board, and it is encouraging for our writers.",
-      "suggested_fix": "Restore the correct translation of 'board' (meaning the magazine's governing committee) — do not render as unrelated words. Example: «משוב כזה מועיל לנו כחברי הוועד» or «משוב כזה מועיל לנו כחברי הוועד המנהל».",
-      "translation_quote": "משוב כזה מועיל לנו כחבר הנדסה, והוא מעודד את הכותבים שלנו."
-    },
-    {
-      "location": "Paragraph 10 (\"deacon\" mistranslation)",
-      "severity": "critical",
-      "source_quote": "Brother Andrew (our designer) has become increasingly busy as a young father with a growing family and as a deacon for our local church congregation.",
-      "suggested_fix": "Translate 'deacon' correctly (diakonos/פקיד כנסייתי). For example: «האח אנדרו (המעצב שלנו) הפך לעסוק יותר ויותר כאב צעיר עם משפחה גדלה וכשמשמש כנציב/שָׁרִ מְשָׁרְתִּי בכנסייה המקומית» — better: «וכדיָקון/שַׁר מִשְׁמָרָה בכנסייתנו המקומית.» Choose the conventional Hebrew for 'deacon' (e.g., \"שַׁר משמרת\" or \"דִּיאָקוֹן\" depending on denominational usage) and correct the surrounding sentence grammar.",
-      "translation_quote": "האח אנדרו (הממעצב שלנו) הפך להיות עסוק יותר ויותר כאב צעיר עם משפחה גדלה וכדק למקהלת כנסייתנו המקומית."
-    },
-    {
-      "location": "Multiple paragraphs (magazine and series titles left in English)",
-      "severity": "major",
-      "source_quote": "The Berean Voice; The Heartbeat of the Remnant",
-      "suggested_fix": "Translate the magazine and series titles into Hebrew (article metadata and in-text mentions are translatable). Examples: «הקול הבֶּרִיאַני (The Berean Voice)» or choose a consistent Hebrew title—if the publisher prefers transliteration, use a clear Hebrew transliteration. For 'The Heartbeat of the Remnant' supply a Hebrew rendering, e.g. «דופק השארית». Ensure the Hebrew forms are used consistently wherever the English appeared.",
-      "translation_quote": "The Berean Voice; The Heartbeat of the Remnant"
-    },
-    {
-      "location": "Paragraph 12 (board membership wording and names)",
-      "severity": "major",
-      "source_quote": "After praying for the Lord’s wisdom and direction, and after consultation with the leadership of our church, Brother Joe Mast and Brother Sheldon Bower were chosen to fill the empty slots on the board.",
-      "suggested_fix": "Correctly render 'board' as 'הוועד' and ensure names are transliterated consistently. Example: «אחרי תפילה על חכמת ה' והנחיה, ולאחר התייעצות עם הנהגת כנסייתנו, נבחרו האח ג'ו מאסט והאח שלדון באו למלא את המקומות הריקים בוועד.»",
-      "translation_quote": "לאחר תפילה לחכמת ה' ולהנחיה, ולאחר התייעצות עם הנהגת כנסייתנו, נבחרו האח ג'ו מאסט והאח שלדון בואו כדי למלא את המקומות הפנויים בוועד. האחים הללו קיבלו בחסד קריאה זו וכבר מאפשרים לאלוהים להשתמש במתנות הרוחניות שלהם כדי להביא הבדל."
-    },
-    {
-      "location": "Paragraph 13 (Joe Tindall paragraph — several mistranslations)",
-      "severity": "major",
-      "source_quote": "Brother Joe Tindall has been a board member for The Berean Voice since our beginning in June of 2016. Due to his age (83) Brother Joe asked to be relieved of his duties as a board member.",
-      "suggested_fix": "Fix multiple problems: translate 'board' as 'הוועד', render the magazine title into Hebrew or transliteration, and correct awkward Hebrew sentences (wrong verbs, malformed words like 'נחמיס' and 'שתישארנה'). Example: «האח ג'ו טינדל חבר הוועד של The Berean Voice מאז הקמתנו ביוני 2016. בגלל גילו (83) ביקש האח ג'ו להשתחרר מתפקידו כחבר ועד. בפגישת הוועד החודשית במאי 2022 כיבד הוועד את בקשתו. אנו נשתוק על יציבות חוכמתו השקטה בפגישות...» — adapt idiomatically but preserve meaning and theology.",
-      "translation_quote": "האח ג'ו טינדל הוא חבר ועד של The Berean Voice מאז תחילתנו ביוני 2016. בגלל גילו (83) ביקש האח ג'ו להשתחרר מתפקידיו כחבר ועד. בפגישת הוועד החודשית שלנו במאי 2022, הוועד כיבד את בקשתו של האח ג'ו. נחמיס את היציבות של חוכמתו השקטה בפגישות הוועד שלנו ובמהלך תהליך בחירת המאמרים. אנא הצטרפו לתפילה בעד האח ג'ו ומשפחתו כשהוא ואשתו מתמודדים עם סיום חייהם וכל מה שנלווה לעונה זו של החיים—שתישארנה נאמנים ואמיצים."
+      "location": "<p>...the bulk of the design work for each issue of our magazine—The Heartbeat of the Remnant...</p>",
+      "severity": "minor",
+      "source_quote": "...the bulk of the design work for each issue of our magazine—The Heartbeat of the Remnant.",
+      "suggested_fix": "Either retain the English magazine subtitle as a proper-name in Latin script (The Heartbeat of the Remnant) or ensure the Hebrew translation is an unambiguous translation of that title. If keeping the Hebrew translation, render it consistently and clearly, e.g. \"—'The Heartbeat of the Remnant' (דופק השארית)\" or \"—דופק השארית ('The Heartbeat of the Remnant')\" to show it's a title. Preserve HTML.",
+      "translation_quote": "—דופק השארית."
     }
   ],
+  "finished_at": "2026-10-02T13:12:56+00:00",
   "id": "855f432a30d2ea5e8d41eb5e0a4c701d",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "heb",
@@ -196,13 +188,13 @@
     }
   },
   "protected": false,
-  "quality_score": 48,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ab9577ad9f52483785d093ef6641080edc12c9501778b8546b9f11852b6617c7.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "5d9068ffbc6d70e08db0f9acd8f46773a5f961c4f3f8c083b9b2b023b22ece1f",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:12:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>...Det grekiska ordet som översätts med <em>gemenskap</em>...</p>\",\"severity\":\"minor\",\"source_quote\":\"Christian fellowship includes concepts like praying together, encouraging one another, and even suffering together.\",\"suggested_fix\":\"Replace the phrase \\\"Kristet gemenskap innefattar begrepp som att be tillsammans...\\\" with grammatically correct Swedish: \\\"Kristen gemenskap innefattar begrepp som att be tillsammans...\\\" Preserve the surrounding HTML and tags.\",\"translation_quote\":\"Kristet gemenskap innefattar begrepp som att be tillsammans, uppmuntra varandra och till och med att lida tillsammans.\"},{\"location\":\"<p>...Skriftens gör det klart att vi behöver en kyrklig gemenskap...</p>\",\"severity\":\"minor\",\"source_quote\":\"Scripture makes it clear that we need a church body. <em>Not forsaking the assembling of ourselves together... –Hebrews 10:25.</em>\",\"suggested_fix\":\"Correct the typographical/grammatical error by changing \\\"Skriftens gör det klart\\\" to \\\"Skriften gör det klart\\\". Keep the verse quote and HTML unchanged.\",\"translation_quote\":\"Skriftens gör det klart att vi behöver en kyrklig gemenskap. <em>Och låten vi icke försaka vår sammankomst, såsom några hava för vana; utan uppmuntra varandra, och det så mycket mer, då I se dagen nalkas –Hebreerbrevet 10:25.</em>\"},{\"location\":\"<p>...Minst av allt kan det skapa en känsla av isolering...</p>\",\"severity\":\"minor\",\"source_quote\":\"At the very least it can create a sense of isolation, and at the worst it hinders many of the “one-anothering” Bible passages from being followed.\",\"suggested_fix\":\"Improve idiomatic clarity by replacing \\\"Minst av allt kan det skapa en känsla av isolering...\\\" with a more natural rendering such as \\\"I bästa fall kan det skapa en känsla av isolering...\\\" or \\\"Som minst kan det skapa en känsla av isolering...\\\". Preserve the HTML and sentence structure otherwise.\",\"translation_quote\":\"Minst av allt kan det skapa en känsla av isolering, och som värst hindrar det många av Bibelns ”varandra”-passager från att följas.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 2120,
+    "content_evidence_truncated": false,
+    "content_sha256": "a6b20f7a37f248c3ff5c4f64fb28b8d516b65bd0cafb3cc574e533e5a607c136",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1104,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6691,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 2816
+      },
+      "total_tokens": 7795
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

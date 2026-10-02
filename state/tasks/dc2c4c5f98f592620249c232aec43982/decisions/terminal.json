@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2 (Luke 14:25-33 block)",
+      "severity": "minor",
+      "source_quote": "and hate not his father, and mother, and wife, and children, and brethren, and sisters, yea, and his own life also,",
+      "suggested_fix": "درست اردو میں 'brothers' کے لیے 'بھائیوں' لکھیں اور 'brothers, and sisters' کا درست ترجمہ یکجا کریں۔ مثال کے طور پر: \"اپنے باپ، ماں، بیوی، بچے، بھائیوں اور بہنوں، ہاں اور اپنی جان کو بھی نفرت نہ کرے\"۔ (HTML ساخت میں تبدیلی ضروری نہیں، صرف متن درست کریں)",
+      "translation_quote": "اپنے باپ، ماں، بیوی، بچے، بھائی بھائیوں اور بہنوں، ہاں اور اپنی جان کو بھی نفرت نہ کرے،"
+    },
+    {
+      "location": "Paragraph 6 (discussion of promises about persecution)",
+      "severity": "major",
+      "source_quote": "If we look at the promises which Jesus gave us in His Word about persecution,",
+      "suggested_fix": "'persecution' کا درست ترجمہ 'اضطہاد' ہے۔ جملے کو اس طرح درست کریں: \"اگر ہم اُن وعدوں کو دیکھیں جو یسوع نے ہمیں اپنے کلام میں اضطہاد کے بارے میں دیے\"۔ (محفوظ رکھیں: پیراگراف کے HTML ٹیگ نہ بدلیں، صرف اردو متن تبدیل کریں)",
+      "translation_quote": "اگر ہم اُن وعدوں کو دیکھیں جو یسوع نے ہمیں اپنے کلام میں ستائش کے بارے میں دیے،"
+    },
+    {
+      "location": "Paragraph 38 (\"John the Baptist’s shoes\" sentence)",
+      "severity": "major",
+      "source_quote": "What if we found ourselves in John the Baptist’s shoes? Or the Apostle Paul’s?",
+      "suggested_fix": "'John the Baptist' کا معیاری اردو نام 'یوحنا بپتسمہ دہندہ' ہے اور 'in ... shoes' کو مجازی اظہار کے طور پر برقرار رکھیں۔ درست ترجمہ مثال کے طور پر: \"اگر ہم خود کو یوحنا بپتسمہ دینے والے کے کفشوں میں پائیں؟ یا رسول پولُس کے؟\"۔ (صرف متن درست کریں؛ HTML ڈھانچہ برقرار رہے)",
+      "translation_quote": "اگر ہم خود کو یوحنا بادشاہت کے جوتوں میں پائیں؟ یا رسول پولس کے؟"
+    },
+    {
+      "location": "Paragraph 34 (\"prosperity gospel\" parenthetical)",
+      "severity": "minor",
+      "source_quote": "Is it God or our own doing that causes us to be joyful? What if we found ourselves in John the Baptist’s shoes? Or the Apostle Paul’s? If we would be sitting in prison for doing nothing wrong, would our joy remain? It should if the Holy Spirit is living and working in our hearts. The Bible says that we can suffer joyfully!",
+      "suggested_fix": "'prosperity gospel' کو یا تو مناسب اردو اصطلاح (مثلاً 'خوشحالی کا انجیل' یا 'دولت پر مبنی انجیل') میں ترجمہ کریں یا اگر برقرار رکھا جائے تو قوسِین میں اردو میں وضاحت شامل کریں۔ مثال: '(خوشحالی کا انجیل)'۔ موجودہ متن میں انگریزی اصطلاح رہ جانا قارئین کے لیے غیرضروری خلل ہے۔",
+      "translation_quote": "مگر کیا یہ دولت کا انجیل (prosperity gospel) نہیں ہے؟"
+    },
+    {
+      "location": "Throughout article (scripture citations formatting)",
+      "severity": "minor",
+      "source_quote": "All Scripture quotations as in source (e.g. Luke 14:25-33, Mark 15:28, 2 Timothy 3:12, etc.)",
+      "suggested_fix": "شامل تمام حوالہ نمبرز ٹھیک ہیں، لیکن کتاب کے اردو ناموں کے لیے مستقل انداز اختیار کریں۔ مثال: 'Deuteronomy' کے لیے عام اردو نام 'استثنا' قابل قبول ہے، تاہم ادارے کے طرزِ لکھائی کے مطابق ایک مرتبہ چیک کر لیں۔ (یہ صرف تسلی بخش مشورہ ہے، متن لازمی بدلنے کی ضرورت نہیں جب تک آپ کی طرزِ تحریر یہی رکھتی ہے)",
+      "translation_quote": "(حوالہ جات متن کے اندر بطورِ موجود ہیں، مثال کے طور پر: –لُوقا 14:25-33، –مرقس 15:28، –2 تموتھیس 3:12، وغیرہ)"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

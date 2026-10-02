@@ -2,7 +2,6 @@
   "article_id": "aa8352a7-2d4a-49db-9454-7a0350ad3118",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddc3d84bf23341ab8530f6e894825cb8",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -62,46 +61,67 @@
         },
         "total_tokens": 11816
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1595,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6836,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 2816
+        },
+        "total_tokens": 8431
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "First paragraph (opening sentence)",
+      "location": "<p>\"Sayansi haielewi kikamilifu, lakini upweke huongeza uvimbe...\" (paragraph under \"Upweke ni Hatari kwa Afya ya Mwili\")",
       "severity": "major",
-      "source_quote": "Around the world, but particularly in the United States, people seem to value rugged individualism.",
-      "suggested_fix": "Tafadhali badilisha kuwa: “Huko duniani kote, lakini hasa Marekani, watu wanaonekana kuthamini 'uhalisi wa kujitegemea' au 'uhalisi mkali wa mtu binafsi' (rugged individualism).” Hii inahifadhi maana ya 'rugged individualism' kama msisitizo wa kujitegemea kwa mtu binafsi badala ya kutumia 'ujamaa' iliyobadilisha maana msingi.",
-      "translation_quote": "Huko duniani kote, lakini hasa Marekani, watu wanaonekana kuthamini ujamaa wa kujiamini wenye nguvu."
+      "source_quote": "\"...and can experience worsening dementia.\"",
+      "suggested_fix": "Badili kifungu hicho ili kwa usahihi kuonyesha ugonjwa ulioelezwa. Badala ya \"ugumba wa akili (dementia)\" tumia \"upotevu wa kumbukumbu (dementia)\" au \"ugonjwa wa kupoteza kumbukumbu (dementia)\" ili wasomaji wa Kiswahili wasielekezwe kwa maana sahihi ya ‘dementia’. Mfano: \"...wanaweza kuonyesha dalili za kupungua kwa uwezo wa akili na wanaweza kupata maendeleo mabaya ya ugonjwa wa kupoteza kumbukumbu (dementia).\"",
+      "translation_quote": "\"...wanaweza kupata ukuaji mbaya wa ugonjwa wa ugumba wa akili (dementia).\""
     },
     {
-      "location": "Paragraph introducing Elijah (\"fiery prophet\")",
-      "severity": "major",
-      "source_quote": "We know from the biblical book of I Kings, that Elijah was a fiery prophet of God.",
-      "suggested_fix": "Badilisha 'nabii mwenye hasira za kila mara' kuwa 'nabii mwenye msukumo mkubwa/nhasi wa kiu ya haki' au 'nabii mwenye uchungu na mwamko' ili kuhifadhi maana ya 'fiery' (unyofu wa huduma na msukumo, si 'hasira'). Mfano: “Tunajua ... kwamba Eliya alikuwa nabii mwenye mwamko/mwenye shauku kwa ajili ya Mungu.”",
-      "translation_quote": "Tunajua kutoka kitabu cha Kwanza cha Wafalme kwamba Eliya alikuwa nabii mwenye hasira za kila mara za Mungu."
+      "location": "<p>\"Kinyume cha Upweke\" section, paragraph introducing the term fellowship",
+      "severity": "minor",
+      "source_quote": "\"That word is fellowship.\"",
+      "suggested_fix": "Tafsiri au uanze kwa kifupi neno 'fellowship' kwa Kiswahili kabla ya kuonyesha neno la Kigiriki. Badala ya kuacha neno 'fellowship' kikawa Kiingereza pekee, fanya: \"Neno hilo ni 'kushirikiana' (kwa Kiingereza: 'fellowship').\" au just \"Neno hilo ni 'kushirikiana' / 'maungano ya kikristo' (fellowship).\"",
+      "translation_quote": "\"Neno hilo ni <strong><em>fellowship</em></strong>.\""
     },
     {
-      "location": "Paul/2 Timothy paragraph (phrase about Mark)",
-      "severity": "critical",
-      "source_quote": "Only Luke is with me. Take Mark, and bring him with thee… –2 Timothy 4:9-11.",
-      "suggested_fix": "Hili ni nukuu ya maandiko; hakikisha tafsiri ya kifungu hicho ni sahihi na inatafsiriwa kwa Kiswahili sahihi wa maandiko yaliyotolewa. Badilisha sentensi iliyopo kuwa: “Luka peke yake yuko pamoja nami. Mchukue Marko, na umlete nawe…” (au kutumia tafsiri ya Biblia ya kawaida ya Kiswahili inayofaa), ili kuondoa uharibifu wa maana uliosababishwa na 'wajeruhiwe'.",
-      "translation_quote": "Luka pekee yuko pamoja nami. Chukua Marko, na umlete nawe… – 2 Timotheo 4:9-11."
+      "location": "<p>\"The Greek word translated fellowship...\" (same paragraph)",
+      "severity": "minor",
+      "source_quote": "\"The Greek word translated fellowship in the New Testament is “Koinonia”\"",
+      "suggested_fix": "Tumia umbo la Kiswahili sahihi la neno linalomaanisha koinonia—/kushirikiana/ orodha fupi ya utekelezaji. Mfano: \"Neno la Kigiriki linalotafsiriwa kama 'kushirikiana' (fellowship) ... ni 'koinonia'.\"",
+      "translation_quote": "\"Neno la Kigiriki lililotafsiriwa kama <em>fellowship</em> katika Agano Jipya ni “Koinonia”...\""
     },
     {
-      "location": "Same paragraph (non-quoted explanatory sentence after Paul quotation)",
-      "severity": "major",
-      "source_quote": "Yet, Paul was still feeling isolated and needed the good Christian brothers, Timothy and Mark, to come and encourage him as he faced a martyr’s death.",
-      "suggested_fix": "Sentensi ya tafsiri sasa inapoteza maana kwa matumizi yasiyofaa ya neno 'wajeruhiwe'. Badilisha kuwa: “Hata hivyo, Paulo bado alihisi mpweke na alikuwa anahitaji ndugu wema wa Kikristo, Timotheo na Marko, wajazewe (or 'waje') ili wamtia moyo na kumsaidia wakati alipoikabili kifo cha shahidi.” (Tumia 'wamtia moyo' au 'wamtia moyo na kumtia moyo', sio 'wajeruhiwe'.)",
-      "translation_quote": "Hata hivyo, Paulo bado alihisi kuwa mpweke na alihitaji ndugu wema wa Kikristo, Timotheo na Marko, wajeruhiwe na kumtia moyo wakati alikabili kifo cha shahidi."
+      "location": "Various Genesis 2:21-22 paragraph",
+      "severity": "minor",
+      "source_quote": "\"...and he took one of his ribs...\"",
+      "suggested_fix": "Tumia neno la Kiswahili sahihi kwa 'rib'—'mbavu' badala ya 'zebaki' ili kuepuka tafsiri isiyoeleweka au isiyo ya kawaida kwa wasomaji wa Kiswahili. Mfano: \"...akachukua moja ya mbavu zake...\"",
+      "translation_quote": "\"...akachukua moja ya zebaki zake...\""
     },
     {
-      "location": "Hebrews quotation paragraph",
-      "severity": "major",
-      "source_quote": "Not forsaking the assembling of ourselves together, as the manner of some is; but exhorting one another: and so much the more, as ye see the day approaching –Hebrews 10:25.",
-      "suggested_fix": "Tafsiri ya maandiko imepunguzwa na kuwa isiyo wazi/kisicho sahihi. Badilisha nukuu kuwa toleo la Biblia la Kiswahili linalotumika kwa ufasaha, mfano: “Tusiache mkusanyiko wetu, kama baadhi wanavyokuwa na desturi; bali tuhimize kila mmoja, na hayo zaidi tunapoona siku ikikaribia.” Au tumia toleo la Biblia ya Kiswahili uliokubaliwa, ukihifadhi sehemu zote za sentensi na muundo wa kitabu (Waebrania 10:25).",
-      "translation_quote": "Tusikauzeni kukusanyika pamoja, kama tabia ya wengine; bali tuhimize kila mmoja; na zaidi, tunapoona siku ikikaribia – Waebrania 10:25."
+      "location": "<h3> heading and metadata: section and title translations",
+      "severity": "minor",
+      "source_quote": "source.section: \"A Word From A Doctor\"; source.title: \"Isolation\"",
+      "suggested_fix": "Haya vimekiliwa vizuri, lakini kwa umoja wa istilahi ya tovuti hakikisha 'Neno kutoka kwa Daktari' ni mtiririko unaotumika kwa sehemu nyingine za tovuti. (Isivyo la lazima kwa urekebisho wa haraka; ni mapendekezo ya mtindo tu.)",
+      "translation_quote": "section: \"Neno kutoka kwa Daktari\"; title: \"Upweke\""
     }
   ],
+  "finished_at": "2026-10-02T13:12:55+00:00",
   "id": "027a9b224604e88b5dfe70371a1a547f",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "swa",
@@ -175,13 +195,13 @@
     }
   },
   "protected": false,
-  "quality_score": 50,
+  "quality_score": 82,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/59ce8c968d768b658069049f4a1a3e07549e5e1e1925fbea530450e323a86220.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "ac1550aa6190c351e44ee2dfa7e315442d61cbcd47e9044576f72bbc92b99432",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

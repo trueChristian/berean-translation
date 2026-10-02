@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:12:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final paragraph (scripture citation) — source.html near: <p><em>And let us not be weary in well doing: for in due season we shall reap, if we faint not –Galatians 6:9.</em></p>\",\"severity\":\"major\",\"source_quote\":\"And let us not be weary in well doing: for in due season we shall reap, if we faint not –Galatians 6:9.\",\"suggested_fix\":\"Use the conventional Urdu name for the biblical book and preserve the verse reference exactly. For example: «اور بھلائی کرنے میں تھک نہ مانیں: کیونکہ اپنے وقت پر ہم پھل کاٹیں گے اگر ہم ہمت نہ ہاریں —غلاطیوں 6:9۔»\",\"translation_quote\":\"اور بھلائی کرنے میں تھک نہ مانیں: کیونکہ اپنے وقت پر ہم پھل کاٹیں گے اگر ہم ہمت نہ ہاریں—گلتیوں کے خط 6:9۔\"},{\"location\":\"Endnotes list — source.html near: <ol> ... <li><em>Marionstar.com/story/opinion/2015/05/09/role-mothers-changed-years/270511951</em></li> <li><em>Bookroo.com 22 of the best book quotes from Elisabeth Elliot</em></li> </ol>\",\"severity\":\"minor\",\"source_quote\":\"Marionstar.com/story/opinion/2015/05/09/role-mothers-changed-years/270511951; Bookroo.com 22 of the best book quotes from Elisabeth Elliot\",\"suggested_fix\":\"Translate or localize the endnote descriptive text into Urdu while preserving the URLs when needed. Example: «حواشی: 1) MarionStar کے آرٹیکل — ‘The role of mothers changed through the years’ (MarionStar.com/.../role-mothers-changed-years/270511951). 2) Bookroo.com — ‘22 بہترین اقتباسات از Elisabeth Elliot’ (Bookroo.com/... ).» If you prefer to keep raw URLs, place a brief Urdu description before each URL.\",\"translation_quote\":\"<ol>\\n    <li><em>Marionstar.com/story/opinion/2015/05/09/role-mothers-changed-years/270511951</em></li>\\n    <li><em>Bookroo.com 22 of the best book quotes from Elisabeth Elliot</em></li>\\n  </ol>\"}],\"passed\":false,\"score\":70}",
+    "content_bytes": 2004,
+    "content_evidence_truncated": false,
+    "content_sha256": "6528aaa9b7c0f2e37b8ce376b5282290653c44d801296db7de6cc0a04a0b789e",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1370,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7224,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 6912
+      },
+      "total_tokens": 8594
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

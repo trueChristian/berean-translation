@@ -2,7 +2,6 @@
   "article_id": "aa8352a7-2d4a-49db-9454-7a0350ad3118",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddc3d84bf23341ab8530f6e894825cb8",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -62,32 +61,30 @@
         },
         "total_tokens": 10888
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 730,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6613,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 3840
+        },
+        "total_tokens": 7343
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "<p>…He was miraculously fed through God’s power, first by ravens and then through God’s provision of flour and oil to a widow, with whom he lived.</p>",
-      "severity": "major",
-      "source_quote": "“he was miraculously fed through God’s power, first by ravens and then through God’s provision of flour and oil to a widow”",
-      "suggested_fix": "Исправить неверный перевод слова “ravens”. В русском варианте необходимо ясно указать, что Илия кормился враньями/воронами (птицами). Замените фразу «сначала враньем» на «сначала воронами» или «сначала вран(ами)» в тексте внутри соответствующего <p>-абзаца, сохранив HTML-теги и остальной текст абзаца.",
-      "translation_quote": "«Все это время он чудесным образом питался по Божьей силе: сначала враньем, затем по Божьему обеспечению — мукой и маслом…»"
-    },
-    {
-      "location": "<p class=\"links\"><em>Links:<br>\n  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2841310/<br>\n  https://pubmed.ncbi.nlm.nih.gov/29792097/<br>\n  https://pubmed.ncbi.nlm.nih.gov/23749730/<br>\n  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5430071/</em></p>",
-      "severity": "minor",
-      "source_quote": "<em>Links:<br>\n  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2841310/ ...</em>",
-      "suggested_fix": "Перевести заголовок блока ссылок на русский, чтобы он соответствовал целевому языку. Например, заменить «Links:» на «Ссылки:», сохранив остальную разметку и URL-адреса.",
-      "translation_quote": "<em>Links:<br>\n  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2841310/ ...</em> "
-    },
-    {
-      "location": "<p>…When God asked him what he was doing there, Elijah replied, … –1 Kings 19:10.</p> (and similar reference at 1 Kings 19:18)",
-      "severity": "minor",
-      "source_quote": "“–1 Kings 19:10.” and “–1 Kings 19:18.”",
-      "suggested_fix": "Упоминание книги и номера должно быть единообразным и понятным для русскоязычного читателя. Текущий перевод даёт «1 Царств (3-я книга Царств) 19:10»; рекомендуется выбрать общепринятое оформление в русском религиозно-библейской традиции и оставить только его (например «3-я книга Царств 19:10» или «1 Царств. 19:10»), сохраняя номера глав и стихов без изменений и сохраняя кавычки/курсив внутри абзаца.",
-      "translation_quote": "«… — 1 Царств (3-я книга Царств) 19:10.» и «— 1 Царств (3-я книга Царств) 19:18.»"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T13:12:56+00:00",
   "id": "c9735700c5af26cd97181b851610ea3b",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "rus",
@@ -161,13 +158,13 @@
     }
   },
   "protected": false,
-  "quality_score": 86,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/59ce8c968d768b658069049f4a1a3e07549e5e1e1925fbea530450e323a86220.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "ac1550aa6190c351e44ee2dfa7e315442d61cbcd47e9044576f72bbc92b99432",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

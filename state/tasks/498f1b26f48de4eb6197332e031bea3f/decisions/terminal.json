@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<article> paragraph 6 (sentence about \"disciple\" and \"discipline\")",
+      "severity": "major",
+      "source_quote": "Disciple has almost the same spelling as discipline.",
+      "suggested_fix": "Terjemahkan frasa ini ke dalam Bahasa Indonesia dan gunakan bentuk terjemahan untuk kata-kata yang dijelaskan. Misalnya: \"Kata 'disciple' hampir sama ejaannya dengan kata 'discipline'.\" → \"Kata 'disciple' hampir sama ejaannya dengan kata 'discipline'.\" (Jika Anda ingin mempertahankan istilah Inggris sebagai istilah yang sedang dibahas, berikan terjemahan langsung setelahnya dalam kurung.) Contoh perbaikan yang lebih baik (tetap menjaga maksud penulis): \"Kata 'disciple' hampir sama ejaannya dengan kata 'discipline' (dalam bahasa Inggris); dalam Bahasa Indonesia 'disciple' berarti 'murid' dan 'discipline' berarti 'disiplin'.\" Pastikan seluruh penjelasan kata-kata tersebut ditampilkan dalam Bahasa Indonesia sehingga tidak ada bagian substantif yang tetap dalam bahasa Inggris.",
+      "translation_quote": "Kata 'disciple' hampir sama ejaannya dengan kata 'discipline'."
+    },
+    {
+      "location": "Overall — style/idiom (several sentences)",
+      "severity": "minor",
+      "source_quote": "Summer is hard upon us, along with the heat and humidity that goes along with summers here in Ohio.",
+      "suggested_fix": "Perbaikan gaya kecil untuk kelancaran Bahasa Indonesia; contoh alternatif: \"Musim panas telah tiba beserta panas dan kelembapan khas musim panas di Ohio.\" Ini bukan kesalahan terjemahan substantif, hanya peningkatan kelancaran idiomatik.",
+      "translation_quote": "Musim panas telah tiba, bersama dengan panas dan kelembapan yang menyertai musim panas di sini di Ohio."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

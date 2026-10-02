@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<p><em>–by Daniel Kaufman</em></p> (final byline paragraph in source.html)",
+      "severity": "minor",
+      "source_quote": "<p><em>–by Daniel Kaufman</em></p>",
+      "suggested_fix": "Preserve the original byline text exactly as in the authoritative English article. Replace the translated byline paragraph with the original text and HTML structure: <p><em>–by Daniel Kaufman</em></p>",
+      "translation_quote": "<p><em>–द्वारा Daniel Kaufman</em></p>"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

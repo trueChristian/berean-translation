@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e56803ae-8056-4512-94c7-ec7c1b391da4",
+    "response_id": "chatcmpl-EUXJJTK3uWNuGjYrXlfIe0lSlwpEu",
+    "usage": {
+      "completion_tokens": 852,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6633,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 2816
+      },
+      "total_tokens": 7485
+    }
+  },
+  "received_at": "2026-10-02T13:12:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>…2. Timoteus 4:9-11</p> (Paul quote paragraph)",
+        "severity": "minor",
+        "source_quote": "For Demas hath forsaken me, having loved this present world, and is departed unto Thessalonica; Crescens to Galatia, Titus unto Dalmatia.",
+        "suggested_fix": "Rettskriv eller behold det opprinnelige egennavnet slik det står i den engelske kilden: endre \"Krescens\" til \"Crescens\" for å bevare identisk navneform. (Behold øvrig lokal tilpasning som \"Tessalonika\" er akseptabel.)",
+        "translation_quote": "For Demas har forlatt meg, fordi han elsket denne nåværende verden, og er reist til Tessalonika; Krescens til Galatia, Titus til Dalmatia."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

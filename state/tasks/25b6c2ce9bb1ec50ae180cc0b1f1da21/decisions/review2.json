@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<p class=\"drop-cap\"> (opening paragraph)",
+      "severity": "minor",
+      "source_quote": "“Follow Me.” Jesus is calling each of us to personally “Follow Me.”",
+      "suggested_fix": "Harmonize the imperative used in the narrative with the rest of the article. Replace « Suis‑moi » with « Suivez‑moi » (or consistently use the singular throughout) so the translation consistently reflects the same form of the English imperative. Example replacement in the paragraph: « …au simple appel : « Suivez‑moi ». Jésus appelle chacun de nous à le suivre personnellement. »",
+      "translation_quote": "« Suis‑moi ». Jésus appelle chacun de nous à le suivre personnellement."
+    },
+    {
+      "location": "Paragraph: “He astounds the local rabbi...”",
+      "severity": "minor",
+      "source_quote": "His character is flawless; He is the friend of all and a stranger to none.",
+      "suggested_fix": "Correct the French prepositional phrase to a natural idiom. Replace « il est l’ami de tous et l’étranger de personne » with « il est l’ami de tous et n’est étranger à personne » or « il n’est l’étranger de personne ». Example: « Son caractère est sans faille; il est l’ami de tous et n’est étranger à personne. »",
+      "translation_quote": "Son caractère est sans faille; il est l’ami de tous et l’étranger de personne."
+    },
+    {
+      "location": "Paragraph: “Like the disciples, you will find yourself drawn...”",
+      "severity": "minor",
+      "source_quote": "Like the disciples, you will find yourself drawn to follow Jesus.",
+      "suggested_fix": "Fix agreement/typo for natural French. Change « vous vous trouverez attiré à suivre Jésus » to « vous vous trouverez attirés à suivre Jésus » (or better: « vous vous sentirez attirés à suivre Jésus »).",
+      "translation_quote": "Comme les disciples, vous vous trouverez attiré à suivre Jésus."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

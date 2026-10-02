@@ -2,7 +2,6 @@
   "article_id": "64012528-bcec-4189-96b5-32a226869815",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddc3d84bf23341ab8530f6e894825cb8",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -62,25 +61,46 @@
         },
         "total_tokens": 2785
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "<p class=\"poem\"> stanza lines 15-16 (English: \"For the eyes of the Lord seek to and fro, To find one perfect, His power He’ll show!\")",
-      "severity": "major",
-      "source_quote": "For the eyes of the Lord seek to and fro,\nTo find one perfect, His power He’ll show!",
-      "suggested_fix": "Preserve the possessive reference to God. Replace \"وستظهر قوتها!\" with a phrasing that clearly attributes the action and power to the Lord, for example: \"لأن عيون الرب تفتش هنا وهناك،\\nلتجد واحدًا كاملًا، فسيُظهر قوّته!\" (keep the same HTML structure and line break tags).",
-      "translation_quote": "لأن عيون الرب تفتش هنا وهناك،\nلتجد واحدًا كاملًا، وستظهر قوتها!"
     },
     {
-      "location": "<p class=\"poem\"> line 11 (English: \"When faced with God’s power, that devil—he hides!\")",
-      "severity": "minor",
-      "source_quote": "When faced with God’s power, that devil—he hides!",
-      "suggested_fix": "Clarify the subject to match the English meaning (that the devil hides when confronted with God’s power). Suggested wording: \"عندما يواجه الشيطان قوة الله — يختبئ!\" or, preserving the original rhythm, \"عندما يُواجَه بقدرة الله، ذلك الشيطان — يختبئ!\" (preserve the same HTML tags).",
-      "translation_quote": "عندما يواجه قوة الله، ذلك الشيطان—يختبئ!"
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1031,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1606,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2637
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "<p class=\"poem\"> (line: \"He’ll trick and deceive, each soul to pursue.\")",
+      "severity": "major",
+      "source_quote": "He’ll trick and deceive, each soul to pursue.",
+      "suggested_fix": "Translate the clause to show that the enemy is the agent pursuing each soul. For example: «سيخدع ويغشّ ليطارد كل نفسٍ» or «سيخدع ويغشّ، ساعيًا لاقتناص كل نفسٍ». Preserve the HTML and line breaks.",
+      "translation_quote": "سيغشّ ويخدع، كل نفس يسعى لاقتناصها."
+    },
+    {
+      "location": "<p class=\"poem\"> (line: \"It need not be big; a small sin will do.\")",
+      "severity": "minor",
+      "source_quote": "It need not be big; a small sin will do.",
+      "suggested_fix": "Adjust phrasing for natural gender and fluency in Arabic. For example: «لا يجب أن تكون عظيمة؛ تكفي خطيئة صغيرة.» Replace in-place while preserving HTML.",
+      "translation_quote": "لا تحتاج لأن تكون عظيمة؛ خطيئة صغيرة تكفي."
+    }
+  ],
+  "finished_at": "2026-10-02T13:12:56+00:00",
   "id": "a1fc6638ec3948d7e854e62c2286af03",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "ara",
@@ -154,13 +174,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 68,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3c7e821a8c78c0ef7c2bac73f3fa23afae402db77e7c0d53df8b701aef51628c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

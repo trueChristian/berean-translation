@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:12:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<article> — paragraph quoting Titus 2:3–5 (first occurrence)\",\"severity\":\"major\",\"source_quote\":\"The aged women likewise, that they be in behaviour as becometh holiness, not false accusers, not given to much wine, teachers of good things;\",\"suggested_fix\":\"Remove the added clause 'не многословные'. Render the list to match the English order and items. Example Russian rendering: «Пожилые же женщины, чтобы быть в поведении, подобающем святости, не клеветницы, не любящие много вина, учительницы доброго; чтобы они могли учить молодых женщин… — Тит 2:3–5.» Preserve the exact sequence and items from the source English.\",\"translation_quote\":\"«Пожилые же женщины, чтобы быть в поведении, подобающем святости, не клеветницы, не многословные, не любители вина, учительницы доброго; чтобы они могли учить молодых женщин… — Тит 2:3–5.»\"}],\"passed\":false,\"score\":72}",
+    "content_bytes": 1201,
+    "content_evidence_truncated": false,
+    "content_sha256": "12c041d8dceaa1b19f2fb30c9fddbe92e39edf241c9ce26b8102686e23df96d9",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1213,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6691,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 2816
+      },
+      "total_tokens": 7904
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

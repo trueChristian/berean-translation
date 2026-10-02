@@ -2,7 +2,6 @@
   "article_id": "64012528-bcec-4189-96b5-32a226869815",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddc3d84bf23341ab8530f6e894825cb8",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -62,18 +61,45 @@
         },
         "total_tokens": 2554
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 837,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1638,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2475
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "article > p.poem (line: \"He spreads all his lies, the truth to distort.\")",
-      "severity": "major",
-      "source_quote": "He spreads all his lies, the truth to distort.",
-      "suggested_fix": "在不改变原意的前提下，将译文中新增的“与福音”移除，使句子仅反映原文关于“真理”的扭曲。例如保留：\n<p class=\"poem\">...<br>\n他撒布谎言，扭曲真理。<br>\n...</p>\n保持原有 HTML 标签、行序和换行（<br>）不变。",
-      "translation_quote": "他撒布谎言，扭曲真理与福音。"
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "The Battle That Rages",
+      "suggested_fix": "建议将标题改为更自然的书面中文表达，例如“激烈的争战”或“争战仍在进行”。请在不改变 <article> 标签结构的前提下，仅替换 title 字段文本。",
+      "translation_quote": "激烈争战"
+    },
+    {
+      "location": "<p class=\"poem\">行 8（含“因他深知那将使我们失去灵魂之代价。”）",
+      "severity": "minor",
+      "source_quote": "For he knows very well it will cost us our soul.",
+      "suggested_fix": "建议将该行调整为更通顺的中文表达，同时保持原意，例如“因为他完全知道，那会使我们丧失灵魂。” 或 “因为他深知这会使我们失去灵魂。” 请仅在保持 <p class=\"poem\"> 节点及其换行标签不变的前提下替换该行文本。",
+      "translation_quote": "因他深知那将使我们失去灵魂之代价。"
     }
   ],
+  "finished_at": "2026-10-02T13:12:55+00:00",
   "id": "80466821cbd654b3b732dc2d0ca5bab0",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "cmn",
@@ -147,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3c7e821a8c78c0ef7c2bac73f3fa23afae402db77e7c0d53df8b701aef51628c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

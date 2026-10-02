@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 1 (opening sentence)",
+      "severity": "minor",
+      "source_quote": "Many Christians have gone through a time of trial and testing during the past several years",
+      "suggested_fix": "Αντικαταστήστε «πειρασμού» με λέξη που αποδίδει πιο πιστά το αγγλικό «testing», για να αποφευχθεί η αλλαγή νοήματος. Προτεινόμενη μετάφραση: «έχουν περάσει μια περίοδο δοκιμασίας και δοκιμής τα τελευταία χρόνια» ή «περαιτέρω: …μια περίοδο δοκιμασίας και δοκιμασίας/δοκιμασιών».",
+      "translation_quote": "Πολλοί Χριστιανοί έχουν περάσει μια περίοδο δοκιμασίας και πειρασμού τα τελευταία χρόνια"
+    },
+    {
+      "location": "Paragraph 3 (discussion of discipleship wordplay)",
+      "severity": "minor",
+      "source_quote": "Disciple has almost the same spelling as discipline.",
+      "suggested_fix": "Αφού ο σκοπός είναι να εξηγηθεί η ομοιότητα εννοιών στα αγγλικά, προτείνεται να αποδοθεί το λεκτικό παιχνίδι στα ελληνικά χωρίς απαραίτητα να διατηρούνται οι αγγλικές λέξεις σε παρένθεση. Π.χ.: «Η λέξη “μαθητής” μοιάζει σε γράμματα με τη λέξη “πειθαρχία”» ή, αν διατηρηθούν οι όροι, αφαίρεστε τις αγγλικές λέξεις σε παρένθεση. Αυτό θα βελτιώσει τη ροή και την καθαρότητα στη σύγχρονη ελληνική.",
+      "translation_quote": "Ο όρος «μαθητής» (disciple) έχει σχεδόν την ίδια ορθογραφία με την «πειθαρχία» (discipline)."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

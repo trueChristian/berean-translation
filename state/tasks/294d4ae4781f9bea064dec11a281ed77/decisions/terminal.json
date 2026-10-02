@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing 2 Timothy 4:9-11 (near middle of article)",
+      "severity": "major",
+      "source_quote": "Do thy diligence to come shortly unto me: For Demas hath forsaken me, having loved this present world, and is departed unto Thessalonica; Crescens to Galatia, Titus unto Dalmatia. Only Luke is with me. Take Mark, and bring him with thee… –2 Timothy 4:9-11.",
+      "suggested_fix": "Translate the verse text faithfully into Dutch, preserving the verse content and sense. Suggested Dutch rendering that keeps the printed meaning: “Doe uw best om spoedig naar mij te komen; want Demas heeft mij verlaten, omdat hij deze tegenwoordige wereld liefgekregen heeft, en is vertrokken naar Thessalonica; Crescens naar Galatië, Titus naar Dalmatia. Lucas alleen is bij mij. Neem Markus en breng hem mede… –2 Timoteüs 4:9-11.” (Replace book name with the conventional target-language form used elsewhere in the article if different; keep exact chapter and verse numbers unchanged.)",
+      "translation_quote": "<em>Spaar niet en kom gauw tot mij; want Demas heeft mij verlaten, omdat hij de tegenwoordige wereld liefgekregen heeft, en is vertrokken naar Thessalonica; Crescens naar Galatië, Titus naar Dalmatia. Lucas alleen is bij mij. Neem Markus en breng hem mede… –2 Timoteüs 4:9-11.</em>"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

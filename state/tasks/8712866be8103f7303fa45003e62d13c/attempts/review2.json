@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:12:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>…엘리야는 대답했습니다. <em>…나는 열왕의 군사 여호와인 주의 열심으로 매우 성내었나이다 이스라엘 자손이 주의 언약을 버리고… –열왕기상 19:10.</em></p>\",\"severity\":\"major\",\"source_quote\":\"“…I have been very jealous for the LORD God of hosts: for the children of Israel have forsaken thy covenant, thrown down thine altars, and slain thy prophets with the sword; and I, even I only, am left; and they seek my life, to take it away –1 Kings 19:10.”\",\"suggested_fix\":\"성경 인용은 영어 원문의 의미를 정확히 전달해야 합니다. 한국어 번역에서는 'the LORD God of hosts'가 잘못 옮겨져 있습니다. 권고 번역(본문 맥락에 맞게) 예: “…나는 만군의 여호와 곧 주를 위하여 열심을 내었나이다. 이스라엘 자손이 주의 언약을 버리고 주의 제단을 헐며 주의 선지자들을 칼로 죽였고 이제는 나만 남아 그들이 내 생명을 구하여 빼앗으려 하나이다 –열왕기상 19:10.” 혹은 더 자연스러운 어법으로 “…나는 만군의 여호와를 위하여 매우 열심을 냈나이다; 이스라엘 자손이 주의 언약을 버리고…” 등으로 수정해 주세요.\",\"translation_quote\":\"“…나는 열왕의 군사 여호와인 주의 열심으로 매우 성내었나이다 이스라엘 자손이 주의 언약을 버리고 주의 제단을 무너뜨리며 주의 선지자들을 칼로 죽였고 나만 남아 주의 눈에 보기에도 나 하나뿐이고 그들이 내 생명을 구하여 빼앗으려 하나이다 –열왕기상 19:10.”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1686,
+    "content_evidence_truncated": false,
+    "content_sha256": "4dc04d4c114d9fdd95ff13bd9de4a163854f094aa50e04230ecb59eb73c7d546",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 917,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6905,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 3840
+      },
+      "total_tokens": 7822
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

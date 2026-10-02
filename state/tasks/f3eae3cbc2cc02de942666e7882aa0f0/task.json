@@ -2,7 +2,6 @@
   "article_id": "8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddc3d84bf23341ab8530f6e894825cb8",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -62,32 +61,30 @@
         },
         "total_tokens": 7884
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 602,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4635,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 2816
+        },
+        "total_tokens": 5237
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.html — paragraph where Ellie asks Grandpa (text: “Do you think you could lead the song ‘Saviour, Like A Shepherd Lead Us’ this next Sunday? I would really like to sing it again!”)",
-      "severity": "major",
-      "source_quote": "“Do you think you could lead the song ‘Saviour, Like A Shepherd Lead Us’ this next Sunday? I would really like to sing it again!”",
-      "suggested_fix": "Translate the quoted English song title into Hindi and keep it consistently translated everywhere it appears. Example: replace the English title with a natural Hindi rendering such as “‘उद्धारकर्ता, चरवाहे की तरह हमें ले चलो’” (or “‘उद्धारकर्ता, चरवाहे की तरह हमें मार्गदर्शन करना’”), preserving the quotation marks and surrounding punctuation. Do not leave the song title in English inside the quoted sentence. The rest of the sentence should remain as already translated.",
-      "translation_quote": "“क्या आप अगली रविवार वो गीत ‘Saviour, Like A Shepherd Lead Us’ गा सकते हैं? मैं उसे फिर से गाना चाहती हूँ!”"
-    },
-    {
-      "location": "source.html — hymn heading (h3) and earlier h3 before lyrics (text: “Saviour, Like A Shepherd Lead Us”)",
-      "severity": "major",
-      "source_quote": "Saviour, Like A Shepherd Lead Us",
-      "suggested_fix": "Translate this hymn heading into Hindi so the hymn title is not left in English. Use the same Hindi title chosen for other occurrences (e.g., “उद्धारकर्ता, चरवाहे की तरह हमें ले चलो”) and replace the English heading text inside the <h3> element. Ensure the heading text matches the title used inline in the narrative and any quoted occurrences.",
-      "translation_quote": "Saviour, Like A Shepherd Lead Us"
-    },
-    {
-      "location": "source.html — paragraph where mother looks startled (English: “Mom had a strange look on her face, and she was quiet for a moment.”)",
-      "severity": "minor",
-      "source_quote": "Mom had a strange look on her face, and she was quiet for a moment.",
-      "suggested_fix": "Use a natural Hindi phrasing for “a bit startled” or “a strange look” instead of the literal/odd phrasing currently used. For example: replace “अदरक-सा आश्चर्य दिखा” with “थोड़ा चौंकी हुई सी दिखी” or “चेहरे पर हल्का चौंकना था।” Keep the rest of the translation unchanged.",
-      "translation_quote": "एली की माँ की आँखों में अदरक-सा आश्चर्य दिखा。"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T13:12:56+00:00",
   "id": "f3eae3cbc2cc02de942666e7882aa0f0",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "hin",
@@ -161,13 +158,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ed28f89bae980f0f15b18d7447272f16d8d7da19ef1ab820db3371f4fb3caf02.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

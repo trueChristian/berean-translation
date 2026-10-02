@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p class=\"poem\"> line 11-12",
+      "severity": "minor",
+      "source_quote": "When faced with God’s power, that devil—he hides!",
+      "suggested_fix": "Preserve the original phrasing without introducing a specific proper name unless the author intended it. Replace \"כשניצב מול כוחו של האלוהים — השטן נעלם!\" with a closer structural rendering that keeps the indefinite phrasing, for example: \"כשמול כוחו של אלוהים ניצבים — אותו שַׁד נעלם!\" or better keeping neutral phrasing: \"כשניצב מול כוחו של אלוהים — הוא נעלם!\" (choose the Hebrew pronoun or neutral noun that best matches the author's tone). Ensure the HTML structure remains unchanged.",
+      "translation_quote": "כשניצב מול כוחו של האלוהים — השטן נעלם!"
+    },
+    {
+      "location": "<p class=\"poem\"> line 15-16",
+      "severity": "minor",
+      "source_quote": "For the eyes of the Lord seek to and fro,\nTo find one perfect, His power He’ll show!",
+      "suggested_fix": "The translation mixes the divine names (\"אלוהים\" earlier, here \"האדון\") and inserts an extra word (\"אפילו\"). For consistency with the source, keep terminology consistent and avoid adding modifiers. Suggested revision: \"כי עיניו של האדון סורקות הלוך ושוב,\nלמצוא 'אחד מושלם' — אז יגלה את כוחו!\" or, if you prefer using \"אלוהים\" consistently, change \"האדון\" to \"אלוהים\". Preserve line breaks and HTML tags.",
+      "translation_quote": "כי עיניו של האדון סורקות הלוך ושוב,\nלמצוא אפילו אחד מושלם — יגלה את כוחו!"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

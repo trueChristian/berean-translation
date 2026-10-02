@@ -2,7 +2,6 @@
   "article_id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddc3d84bf23341ab8530f6e894825cb8",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -62,32 +61,45 @@
         },
         "total_tokens": 11757
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1087,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6808,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 3840
+        },
+        "total_tokens": 7895
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph containing Psalm 127:3 (first occurrence)",
+      "location": "Paragraph with Titus 2:3-5 (first occurrence)",
       "severity": "minor",
-      "source_quote": "God says, Lo, children are an heritage of the LORD: and the fruit of the womb is his reward –Psalm 127:3.",
-      "suggested_fix": "Translate the phrase \"the fruit of the womb is his reward\" into natural Swedish that preserves the image (e.g. \"livmoderns frukt är hans lön\" or \"livmoderns frukt är hans belöning\"). Keep the rest of the verse punctuation and the verse reference unchanged and preserve emphasis tags if present.",
-      "translation_quote": "Gud säger, Se, barn är en HERRENS gåva; livmodern är en lön – Psaltaren 127:3."
+      "source_quote": "That they may teach the young women to be sober, to love their husbands, to love their children, To be discreet, chaste, keepers at home, good, obedient to their own husbands, that the word of God be not blasphemed –Titus 2:3-5.",
+      "suggested_fix": "Håll terminologin konsekvent för den engelska frasen “keepers at home”. I den första förekomsten används \"hemmahållerskor\"; i en senare återgivning översätts samma fras som \"hemmets väktare\". Välj en konsekvent svensk översättning och använd samma uttryck i båda verscitat (t.ex. \"hemmets väktare\" eller \"hemmahållerskor\") och lämna resten av versen oförändrad. Bevara bibelreferensen och HTML-strukturen.",
+      "translation_quote": "...att vara försynta, kysk, hemmhahållerskor, goda, underdåniga mot sina egna män, så att Guds ord icke må förolämpas –Titus 2:4-5."
     },
     {
-      "location": "Paragraph containing Psalm 127:3-5 (longer quotation)",
+      "location": "Paragraph with Psalm 127:3 (first occurrence)",
       "severity": "minor",
-      "source_quote": "Lo, children are an heritage of the LORD: and the fruit of the womb is his reward. As arrows are in the hand of a mighty man; so are children of the youth. Happy is the man that hath his quiver full of them: they shall not be ashamed, but they shall speak with the enemies in the gate –Psalm 127:3-5.",
-      "suggested_fix": "The phrase rendering of \"the fruit of the womb\" should match the earlier correction for Psalm 127:3 (e.g. \"livmoderns frukt\"). Also consider replacing the literal \"koger\" with the more common Swedish \"skottsamling\" or retain \"koger\" if that is the magazine's preferred style; ensure the imagery (arrows/quiver) and verse numbers are unchanged. Preserve emphasis and underlining around the same words as in the source HTML.",
-      "translation_quote": "Se, barn är en HERRENS gåva; livmodern är en lön. Som pilar i en mäktigs hand, så är barn i ungdomen. Salig är mannen som har sin koger full av dem; de skall icke bli till skam, utan tala med fienderna i porten – Psaltaren 127:3-5."
-    },
-    {
-      "location": "Paragraph with 2 Timothy 3:1-2 quotation",
-      "severity": "minor",
-      "source_quote": "...This know also, that in the last days perilous times shall come. For men shall be lovers of their own selves… –2 Timothy 3:1-2.",
-      "suggested_fix": "The Swedish translation of \"For men shall be lovers of their own selves\" should use a clearer, idiomatic rendering that conveys the Scripture sense (e.g. \"ty människor skall bli själviska och egenkär(a)\" or \"ty människor skall bli kärleksfulla mot sig själva\"). Keep verse reference and punctuation unchanged and preserve emphasis tags.",
-      "translation_quote": "I 2 Timoteus fortsätter Paulus … Och detta skall du veta, att i de sista dagarna skall svåra tider komma. Ty människor skall vara själviska kärlekare… –2 Timoteus 3:1-2."
+      "source_quote": "Lo, children are an heritage of the LORD: and the fruit of the womb is his reward –Psalm 127:3.",
+      "suggested_fix": "Återinför possessivet \"his\" i svenskan så att meningen tydligt motsvarar originalets 'his reward'. Ett enkelt, idiomatiskt förslag: \"Se, barn är HERRENS gåva; livmodern är hans lön – Psaltaren 127:3.\" Behåll bibelbokens svenska namn och versnummer samt HTML-markeringen.",
+      "translation_quote": "Se, barn är en HERRENS gåva; livmodern är en lön – Psaltaren 127:3."
     }
   ],
+  "finished_at": "2026-10-02T13:12:55+00:00",
   "id": "39e0d3034a9790a08157afa667e9af2f",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "swe",
@@ -161,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/7c85424e5984fd791f1fa504f0338be2aed2d0572a02d43d9b8370601de3fda8.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

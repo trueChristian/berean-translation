@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "2fd025d0-002b-430b-8236-550e6f7cf92b",
+    "response_id": "chatcmpl-EUXJJTZ4OE0UHJTzwJLZV9gqedXO4",
+    "usage": {
+      "completion_tokens": 1031,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1606,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2637
+    }
+  },
+  "received_at": "2026-10-02T13:12:56+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"poem\"> (line: \"He’ll trick and deceive, each soul to pursue.\")",
+        "severity": "major",
+        "source_quote": "He’ll trick and deceive, each soul to pursue.",
+        "suggested_fix": "Translate the clause to show that the enemy is the agent pursuing each soul. For example: «سيخدع ويغشّ ليطارد كل نفسٍ» or «سيخدع ويغشّ، ساعيًا لاقتناص كل نفسٍ». Preserve the HTML and line breaks.",
+        "translation_quote": "سيغشّ ويخدع، كل نفس يسعى لاقتناصها."
+      },
+      {
+        "location": "<p class=\"poem\"> (line: \"It need not be big; a small sin will do.\")",
+        "severity": "minor",
+        "source_quote": "It need not be big; a small sin will do.",
+        "suggested_fix": "Adjust phrasing for natural gender and fluency in Arabic. For example: «لا يجب أن تكون عظيمة؛ تكفي خطيئة صغيرة.» Replace in-place while preserving HTML.",
+        "translation_quote": "لا تحتاج لأن تكون عظيمة؛ خطيئة صغيرة تكفي."
+      }
+    ],
+    "passed": false,
+    "score": 68
+  }
+}

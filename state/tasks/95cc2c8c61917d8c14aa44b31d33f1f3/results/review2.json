@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4fc229a8-39ed-47f1-886a-65b3dde9801a",
+    "response_id": "chatcmpl-EUXJQGjYHvH6lCKU7RllNyjKcpXDQ",
+    "usage": {
+      "completion_tokens": 771,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7073,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7844
+    }
+  },
+  "received_at": "2026-10-02T13:12:56+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning \"I would like to call your attention to another attribute of discipleship...\" (English source) / corresponding Norwegian paragraph beginning \"Jeg vil gjerne rette din oppmerksomhet mot en annen egenskap ved disippelskap...\" (translation)",
+        "severity": "minor",
+        "source_quote": "Discipleship is never intended to be drudgery.",
+        "suggested_fix": "Use a more natural Norwegian idiom for \"drudgery\" (e.g. «meningen er at disippelskap aldri skal være slitsomt eller ensformig»). Preserve HTML and surrounding sentence structure. Suggested replacement sentence: «Disippelskap er aldri ment å være slitsomt eller ensformig.»",
+        "translation_quote": "Disippelskap er aldri ment å være trått arbeid."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

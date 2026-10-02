@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<article> <p class=\"poem\"> (line: \"Quando defronte ao poder de Deus, esse diabo—ele se põe a ocultar!\")",
+      "severity": "minor",
+      "source_quote": "When faced with God’s power, that devil—he hides!",
+      "suggested_fix": "Prefer a more natural, idiomatic Portuguese phrasing while preserving the HTML structure. Replace the line inside the <p class=\"poem\"> with: \"Quando confrontado com o poder de Deus, esse diabo — ele se esconde!\"",
+      "translation_quote": "Quando defronte ao poder de Deus, esse diabo—ele se põe a ocultar!"
+    },
+    {
+      "location": "<article> <p class=\"poem\"> (line: \"Para encontrar um perfeito, Seu poder então mostrará!\")",
+      "severity": "minor",
+      "source_quote": "For the eyes of the Lord seek to and fro,\nTo find one perfect, His power He’ll show!",
+      "suggested_fix": "\"um perfeito\" is awkward in Portuguese. Keep sense and theology but use an idiomatic phrase. Replace the line inside the <p class=\"poem\"> with: \"Para encontrar alguém perfeito, então mostrará Seu poder!\" (preserves meaning and linebreaks)",
+      "translation_quote": "Para encontrar um perfeito, Seu poder então mostrará!"
+    },
+    {
+      "location": "<article> <title> (title text)",
+      "severity": "minor",
+      "source_quote": "The Battle That Rages",
+      "suggested_fix": "Title is acceptable but consider a slightly more natural rendering: change title text to \"A batalha que devasta\" or \"A batalha que ruge\" is acceptable; if you prefer minimal change, keep \"A Batalha que Ruge\". No HTML structural change needed.",
+      "translation_quote": "A Batalha que Ruge"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

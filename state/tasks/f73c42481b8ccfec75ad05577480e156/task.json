@@ -2,7 +2,6 @@
   "article_id": "8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddc3d84bf23341ab8530f6e894825cb8",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -62,32 +61,30 @@
         },
         "total_tokens": 8211
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 218,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 192,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4770,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4988
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Multiple inline occurrences in source.html (paragraphs referencing the hymn title) and the hymn heading element (<h3>)",
-      "severity": "critical",
-      "source_quote": "The source repeatedly names the hymn: 'Saviour, Like a Shepherd Lead Us' (heading and in-body mentions).",
-      "suggested_fix": "Translate every substantive occurrence of the hymn title into Urdu. Preserve the HTML tags and attributes. Example replacements:\n- Replace the <h3> content: <h3>نجات دہندہ، چرواہے کی طرح ہمیں چلا</h3>\n- Replace inline quoted occurrences (e.g. 'Saviour, Like a Shepherd Lead Us') with the same Urdu form inside quotes: 'نجات دہندہ، چرواہے کی طرح ہمیں چلا' \nMake these replacements wherever the English title appears in the translation HTML so the quoted hymn title is fully rendered in Urdu.",
-      "translation_quote": "Heading left as: <h3>Saviour, Like A Shepherd Lead Us</h3>\nInline: \"'Saviour, Like a Shepherd Lead Us'\" (appears inside translated paragraphs)"
-    },
-    {
-      "location": "Lyrics stanza 1, line 4 in translation (within <div class=\"lyrics\">)",
-      "severity": "major",
-      "source_quote": "For our use Thy folds prepare:",
-      "suggested_fix": "The translated phrase 'اور اپنے کرم سے ہمارے لئے کھوپڑی تیار کر:' is inaccurate—the word 'کھوپڑی' means 'skull' and is incorrect here. Replace with an idiomatic Urdu rendering of 'folds' meaning the shepherd's folds/enclosures. Suggested replacement (preserving HTML and tags):\n'Or replace the line with: 'اپنی خوشگوار چراگاہیں ہمارے لیے تیار کر،' or 'اپنی باڑیں ہمارے لیے تیار کر:'\nChoose one that best fits hymn idiom; for example:\n<p>اپنی خوشگوار چراگاہوں میں ہمیں کھلاؤ،<br>\nاور اپنی باڑیں ہمارے لیے تیار کر:</p>\nEnsure the rest of the stanza formatting remains unchanged.",
-      "translation_quote": "اور اپنے کرم سے ہمارے لئے کھوپڑی تیار کر:"
-    },
-    {
-      "location": "Paragraph where mother explains grandparents' absence (translation paragraph: \"کیا تم جانتی ہو کہ دادا آج وہاں نہیں تھے؟\")",
-      "severity": "major",
-      "source_quote": "Did you know that Grandpas weren’t there today? At the last minute they decided to visit elsewhere this morning for church.",
-      "suggested_fix": "The English refers to both grandparents (plural). The translation renders this as singular 'دادا'. Replace with a plural or dual form to match the source. Suggested replacement preserving sentence structure: \"کیا تم جانتیں ہو کہ دادا دادی آج وہاں نہیں تھے؟ آخر لمحات میں انہوں نے اس صبح چرچ کے لیے کہیں اور جانے کا فیصلہ کیا تھا۔\" or at minimum: \"کیا تم جانتی ہو کہ دادا دادی وہاں آج موجود نہیں تھے؟\" Keep the surrounding HTML paragraph tags unchanged.",
-      "translation_quote": "کیا تم جانتی ہو کہ دادا آج وہاں نہیں تھے؟ آخری لمحے میں انہوں نے اس صبح چرچ میں کہیں اور جانا طے کیا تھا۔"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T13:12:56+00:00",
   "id": "f73c42481b8ccfec75ad05577480e156",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "urd",
@@ -161,13 +158,13 @@
     }
   },
   "protected": false,
-  "quality_score": 65,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ed28f89bae980f0f15b18d7447272f16d8d7da19ef1ab820db3371f4fb3caf02.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

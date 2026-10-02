@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:12:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>...<em>In the sweat of thy face shalt thou eat bread, till thou return unto the ground; for out of it wast thou taken: for dust thou art, and unto dust shalt thou return –Genesis 3:19.</em>...</p>\",\"severity\":\"major\",\"source_quote\":\"In the sweat of thy face shalt thou eat bread, till thou return unto the ground; for out of it wast thou taken: for dust thou art, and unto dust shalt thou return –Genesis 3:19.\",\"suggested_fix\":\"Translate Genesis 3:19 so it faithfully conveys the original English meaning in natural Korean, keeping the chapter and verse. A suitable rendering: “네 얼굴의 수고로써 떡을 먹을 것이니 네가 흙으로 돌아갈 때까지라. 이는 흙에서 취함을 입었으니 흙으로 돌아가리라 –창세기 3:19.” Replace the current translated verse paragraph with this corrected Korean rendering, preserving the surrounding HTML tags and verse reference format.\",\"translation_quote\":\"<em>네가 수고한 댓가로 식물을 먹을 것이며 네 얼굴의 땀으로 너는 떡을 먹을 것이니 네가 흙으로 돌아갈 때까지니라 그가 거기서 취함을 입었으므로 흙이니 흙으로 돌아가리라 –창세기 3:19.</em>\"}],\"passed\":false,\"score\":60}",
+    "content_bytes": 1254,
+    "content_evidence_truncated": false,
+    "content_sha256": "eb1bbe2b5e0d17b23e46197926c33cddb38389f9b4d98b11190d2ae4ef618fea",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 839,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8879,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9718
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

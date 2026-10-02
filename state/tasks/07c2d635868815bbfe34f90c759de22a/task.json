@@ -2,7 +2,6 @@
   "article_id": "8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddc3d84bf23341ab8530f6e894825cb8",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -62,39 +61,46 @@
         },
         "total_tokens": 3421
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 947,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1843,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2790
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "<div class=\"poem\">…</div> (line with \"That tiny sphere so very close at hand.\")",
+      "location": "<div class=\"poem\">…</div> (penultimate stanza lines)",
       "severity": "major",
-      "source_quote": "That tiny sphere so very close at hand.",
-      "suggested_fix": "Replace the translated phrase \"اس چھوٹی سی کرۂ ارض تک\" with a translation that correctly identifies the referent (the Moon). For example: \"اس چھوٹی سی کرۂِ چاند تک\" or \"اس چھوٹی سی کرۂ چاند تک\". Preserve surrounding HTML and line breaks.",
-      "translation_quote": "اس چھوٹی سی کرۂ ارض تک جو ہاتھ کے بالکل قریب تھی۔"
+      "source_quote": "And so, my friend, I hope that you will feel\nThat greatness, vastness, emptiness of space\nWhich our Creator made for us so we\nCan feel His greatness and His tender love\nAnd humbly bow our heads and worship Him.",
+      "suggested_fix": "Translate the three nouns 'greatness, vastness, emptiness of space' so they preserve the separate English meanings. Do not render 'emptiness' as 'رعب' (which means 'awe' or 'fear'). A faithful Urdu rendering could be: \"اور لہٰذا، میرے دوست، میری امید ہے کہ تم وہ عظمت، وہ وسعت، اور خلاء کی وہ خالی پن محسوس کرو گے\" — inserted into the existing HTML in place of the current lines, preserving tags and line breaks.",
+      "translation_quote": "اور اس لیے، میرے دوست، میں امید کرتا ہوں کہ تم اس بات کا احساس کرو گے\nوہ عظمت، وہ وسعت، وہ خلا کا رعب\nجنہیں ہمارے خالق نے ہمارے لیے پیدا کیا تاکہ ہم\nاس کی عظمت اور اس کی مہربان محبت محسوس کر سکیں\nاور عاجزی سے اپنے سر جھکا کر اس کی عبادت کریں۔"
     },
     {
-      "location": "<div class=\"poem\">…</div> (line with \"With many a mystery light somewhere up there?\")",
+      "location": "<div class=\"poem\">…</div> (third stanza, line translating 'make you feel the size you really are?')",
       "severity": "minor",
-      "source_quote": "With many a mystery light somewhere up there?",
-      "suggested_fix": "Use a more idiomatic rendering of \"mystery light\". For example replace \"کئی رازاں روشنی کے ٹکڑے?\" with \"کئی پراسرار روشنی کے ٹکڑے؟\" or \"کہیں اوپر کئی پراسرار جھلکیاں؟\" to better convey the sense of mysterious lights.",
-      "translation_quote": "اور کہیں اوپر کئی رازاں روشنی کے ٹکڑے?"
-    },
-    {
-      "location": "<div class=\"poem\">…</div> (line with \"And make you feel the size you really are?\")",
-      "severity": "minor",
-      "source_quote": "And make you feel the size you really are?",
-      "suggested_fix": "The phrase \"size you really are\" is about one's smallness in the vastness; translate to convey that sense. Replace \"اپنے اصل حجم کا احساس دلاتی ہے؟\" with e.g. \"اپنی حقیقی حقارت/معنوی چھوٹا پن محسوس کرواتے ہیں؟\" or better/fitting in tone: \"اور تمہیں اپنی حقیقی چھوٹائی کا احساس دلاتی ہے؟\". Keep wording consistent with register of the poem.",
-      "translation_quote": "اور تمہیں اپنے اصل حجم کا احساس دلاتی ہے؟"
-    },
-    {
-      "location": "<div class=\"poem\">…</div> (final stanza: \"Which our Creator made for us so we / Can feel His greatness and His tender love\")",
-      "severity": "minor",
-      "source_quote": "Which our Creator made for us so we\nCan feel His greatness and His tender love",
-      "suggested_fix": "Fix the grammar to show the Creator as the subject doing the creating. Replace \"جو ہمارا خالق ہمارے لیے پیدا گیا\" with a grammatically correct relative clause such as \"جنہیں ہمارے خالق نے ہمارے لیے پیدا کیا\" so the stanza reads naturally and preserves meaning. Example replacement for both lines: \"جو ہمارے خالق نے ہمارے لیے پیدا کیے ہیں تاکہ ہم\nاس کی عظمت اور اس کی مہربان محبت محسوس کر سکیں\".",
-      "translation_quote": "جو ہمارا خالق ہمارے لیے پیدا گیا تاکہ ہم\nاس کی عظمت اور اس کی مہربان محبت کو محسوس کر سکیں"
+      "source_quote": "Or can you see the distances so great\nWhich stretch the mind almost to breaking point\nAnd make you feel the size you really are?",
+      "suggested_fix": "The phrase 'the size you really are' should convey the implied smallness of the observer relative to the cosmos. The current \"اپنی حقیقی چھوٹائی\" is understandable but slightly awkward. A clearer Urdu rendering: \"اور تمہیں اپنی حقیقت میں کتنے چھوٹے ہونے کا احساس دلاتی ہیں؟\" Replace only that line inside the poem paragraph, preserving HTML tags and line breaks.",
+      "translation_quote": "یا کیا تم اتنی دوری دیکھ سکتے ہو\nجو ذہن کو تقریباً توڑ دینے تک پھیلی ہوئی ہے\nاور تمہیں اپنی حقیقی چھوٹائی کا احساس دلاتی ہے؟"
     }
   ],
+  "finished_at": "2026-10-02T13:12:55+00:00",
   "id": "07c2d635868815bbfe34f90c759de22a",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "urd",
@@ -174,7 +180,7 @@
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/55be7d8861a02b2949238164825078285daf5ecd270cc3e94e3522da9dfec341.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "9f63ce21489f59d1f7dfd3768a5a0916d37d1327776d2e908763aee9fc396f13",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

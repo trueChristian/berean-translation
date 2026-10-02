@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>…<em>She would be able to help along with this song!</em></p>",
+      "severity": "minor",
+      "source_quote": "She would be able to help along with this song!",
+      "suggested_fix": "Render the thought in third-person narrative perspective consistent with the English original (Ellie's internal thought reported by narrator). For example: «Ela seria capaz de ajudar com este hino!» or keep third-person: «Ela poderia ajudar com este canto!»",
+      "translation_quote": "<em>Eu vou poder ajudar neste canto!</em>"
+    },
+    {
+      "location": "<p>“Let’s sing number 8 in the Appendix,” announced the song leader. Ellie’s heart sang. They were going to sing her favorite song.</p>",
+      "severity": "minor",
+      "source_quote": "They were going to sing her favorite song.",
+      "suggested_fix": "Correct the Portuguese grammar/tense. Replace the current wording with a standard, grammatical rendering such as: «Iriam cantar seu hino preferido.» or more naturally: «Viriam a cantar seu hino preferido.» or «Vão cantar seu hino preferido.» — pick one consistent tense (past narrative would be «iriam» or «foram girar» is wrong; recommended: «Viriam a cantar seu hino preferido.» or simply «Irão cantar» is nonstandard; best: «Viriam a cantar seu hino preferido.» or «Vão cantar o seu hino preferido.» depending on preferred narrative tense.",
+      "translation_quote": "O coração de Ellie cantou. Irão cantar seu hino preferido."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -2,7 +2,6 @@
   "article_id": "51e3c3a2-bccc-462c-9ae7-8f232752fbc0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddc3d84bf23341ab8530f6e894825cb8",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -62,25 +61,39 @@
         },
         "total_tokens": 14300
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.title / translation.title",
-      "severity": "minor",
-      "source_quote": "If you love your life…",
-      "suggested_fix": "Translate the English title into standard written Korean to match the article translation and target-language guidance. For example: \"당신이 생명을 사랑한다면…\" or a closer idiomatic rendering such as \"네가 네 생명을 사랑하면…\" Preserve punctuation and ellipsis if desired.",
-      "translation_quote": "If you love your life…"
     },
     {
-      "location": "source.html — quoted Scripture (1 John 2:6) / translation.html — corresponding paragraph",
-      "severity": "major",
-      "source_quote": "He that saith he abideth in him ought himself also so to walk, even as he walked –1 John 2:6.",
-      "suggested_fix": "The Korean rendering of this quoted verse is awkward and alters clarity of the original meaning. Provide a faithful Korean rendering of the English verse meaning as printed (not necessarily a literal word-for-word copy, but preserving the authoritative sense): e.g. \"자기 자신이 그 안에 거한다고 말하는 자는 또 자기 자신도 그가 행한 것 같이 행할지니라 –요한일서 2:6.\" Replace the current sentence with this corrected Korean verse text, and keep the verse reference unchanged.",
-      "translation_quote": "<em>너희가 그 안에 거한다고 하는 자는 또한 그가 행하신 것 같이 그도 자기를 스스로 행할지어다 –요한일서 2:6.</em>"
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 839,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8879,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9718
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "<p>...<em>In the sweat of thy face shalt thou eat bread, till thou return unto the ground; for out of it wast thou taken: for dust thou art, and unto dust shalt thou return –Genesis 3:19.</em>...</p>",
+      "severity": "major",
+      "source_quote": "In the sweat of thy face shalt thou eat bread, till thou return unto the ground; for out of it wast thou taken: for dust thou art, and unto dust shalt thou return –Genesis 3:19.",
+      "suggested_fix": "Translate Genesis 3:19 so it faithfully conveys the original English meaning in natural Korean, keeping the chapter and verse. A suitable rendering: “네 얼굴의 수고로써 떡을 먹을 것이니 네가 흙으로 돌아갈 때까지라. 이는 흙에서 취함을 입었으니 흙으로 돌아가리라 –창세기 3:19.” Replace the current translated verse paragraph with this corrected Korean rendering, preserving the surrounding HTML tags and verse reference format.",
+      "translation_quote": "<em>네가 수고한 댓가로 식물을 먹을 것이며 네 얼굴의 땀으로 너는 떡을 먹을 것이니 네가 흙으로 돌아갈 때까지니라 그가 거기서 취함을 입었으므로 흙이니 흙으로 돌아가리라 –창세기 3:19.</em>"
+    }
+  ],
+  "finished_at": "2026-10-02T13:12:56+00:00",
   "id": "c44eacd98aa7cbb71580004880a86a88",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "kor",
@@ -154,13 +167,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 60,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/2a0e8037a7779b7d65ad5a5dc37689987f7de799a9c99fb81a3fa397558d941f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c2cade59cf352799776fd92a600c879eb44ca1d1a7d3f31107b23708781aed47",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

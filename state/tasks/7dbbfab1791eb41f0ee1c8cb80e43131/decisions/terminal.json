@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<article> paragraph 4 (sentence: \"Disciple has almost the same spelling as discipline.\")",
+      "severity": "minor",
+      "source_quote": "Disciple has almost the same spelling as discipline.",
+      "suggested_fix": "Translate the English headword \"Disciple\" into Dutch to match the surrounding translation and avoid leaving an English word unrendered. For example: replace 'Disciple (leerling) heeft bijna dezelfde spelling als discipline (discipline).' with 'Het woord \"discipel\" (leerling) lijkt bijna hetzelfde te zijn geschreven als \"discipline\" (tucht/discipline).' Preserve the quoted-word formatting if desired.",
+      "translation_quote": "Disciple (leerling) heeft bijna dezelfde spelling als discipline (discipline)."
+    },
+    {
+      "location": "<article> paragraph 4 (parenthetical clarification)",
+      "severity": "minor",
+      "source_quote": "Disciple has almost the same spelling as discipline.",
+      "suggested_fix": "Clarify the parenthetical translation: the translation currently repeats 'discipline (discipline)'. Consider rendering the parenthetical in Dutch (for example '(tucht)') or omit the redundant repetition: 'discipel (leerling) heeft bijna dezelfde spelling als discipline (tucht).' This keeps meaning and reads naturally in Dutch.",
+      "translation_quote": "Disciple (leerling) heeft bijna dezelfde spelling als discipline (discipline)."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

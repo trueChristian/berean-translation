@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "591f64a4-10c8-441a-9a79-46989b9acdd0",
+    "response_id": "chatcmpl-EUXJJRQCFjWsuf9jynN77n6H4Ot0h",
+    "usage": {
+      "completion_tokens": 1106,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4367,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 2816
+      },
+      "total_tokens": 5473
+    }
+  },
+  "received_at": "2026-10-02T13:12:56+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...\"her dear Grandpa was a song leader in their church\"...</p>",
+        "severity": "minor",
+        "source_quote": "She thought about the fact that her dear Grandpa was a song leader in their church and how much she liked when he led a song.",
+        "suggested_fix": "Translate wording to avoid implying a formal choir role if the English only says 'song leader'. For example: \"dass ihr lieber Opa in ihrer Kirche Lieder anleitete\" or \"dass ihr lieber Opa in ihrer Kirche Liederdirigent war\" only if a choir role is intended. Replace the current phrase in the same paragraph, preserving tags and punctuation.",
+        "translation_quote": "Sie dachte daran, dass ihr lieber Opa im Kirchenchor Lieder anleitete und wie gern sie es mochte, wenn er ein Lied anleitete."
+      },
+      {
+        "location": "<div class=\"lyrics\">...\"For our use Thy folds prepare:\"...</div>",
+        "severity": "minor",
+        "source_quote": "For our use Thy folds prepare:",
+        "suggested_fix": "Render 'folds' (sheepfolds / sheep pens) in idiomatic German. A more natural literal rendering would be e.g. \"Bereite für uns deine Falten/Schafställe\" (better: \"Bereite für uns deine Schafställe\" or \"Bereite für uns deine Weidestätten\"). Replace only this line inside the lyrics block, preserving HTML and line breaks.",
+        "translation_quote": "Bereite für uns deine Hütten zur Nutzung:"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

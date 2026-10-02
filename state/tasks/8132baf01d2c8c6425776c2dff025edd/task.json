@@ -2,7 +2,6 @@
   "article_id": "64012528-bcec-4189-96b5-32a226869815",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddc3d84bf23341ab8530f6e894825cb8",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -62,53 +61,59 @@
         },
         "total_tokens": 3149
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1048,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1595,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2643
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<p class=\"poem\"> line 6 (source): \"He spreads all his lies, the truth to distort.\"",
-      "severity": "major",
-      "source_quote": "He spreads all his lies, the truth to distort.",
-      "suggested_fix": "Translate the object 'the truth' correctly. Replace the current phrase 'Esparce todas sus mentiras para distorsionar el monto.' with a faithful rendering such as: 'Esparce todas sus mentiras para distorsionar la verdad.' Preserve the surrounding HTML and line breaks exactly.",
-      "translation_quote": "Esparce todas sus mentiras para distorsionar el monto."
-    },
-    {
-      "location": "<p class=\"poem\"> line 8 (source): \"For he knows very well it will cost us our soul.\"",
-      "severity": "major",
-      "source_quote": "For he knows very well it will cost us our soul.",
-      "suggested_fix": "Restore the correct referent 'our soul' rather than 'salvation.' Replace 'Porque sabe muy bien que nos costará la salvación.' with a faithful rendering such as: 'Porque sabe muy bien que nos costará el alma.' Preserve the surrounding HTML and line breaks exactly.",
-      "translation_quote": "Porque sabe muy bien que nos costará la salvación."
-    },
-    {
-      "location": "<p class=\"poem\"> line 4 (source): \"We are in a battle; we must still overcome.\"",
+      "location": "title",
       "severity": "minor",
-      "source_quote": "We are in a battle; we must still overcome.",
-      "suggested_fix": "Avoid adding redundant words that change tone. Consider replacing 'Estamos en una batalla; aún debemos vencer, ¡pues aún!' with a closer, idiomatic rendering: 'Estamos en una batalla; aún debemos vencer.' Preserve the surrounding HTML and line breaks exactly.",
-      "translation_quote": "Estamos en una batalla; aún debemos vencer, ¡pues aún!"
+      "source_quote": "The Battle That Rages",
+      "suggested_fix": "Change to a more literal, internationally neutral wording that keeps the sense of continuous conflict, for example: \"La batalla que arde\" or \"La batalla que ruge\". If you prefer minimal change, use \"La batalla que arde\".",
+      "translation_quote": "La batalla que hace estragos"
     },
     {
-      "location": "<p class=\"poem\"> line 10 (source): \"He’ll trick and deceive, each soul to pursue.\"",
+      "location": "source.html <p class=\"poem\"> line 2",
       "severity": "minor",
-      "source_quote": "He’ll trick and deceive, each soul to pursue.",
-      "suggested_fix": "Improve word order to match the English infinitive purpose clause. Replace 'Engañará y falsificará, cada alma perseguirá.' with a clearer translation such as: 'Engañará y engañará, para perseguir cada alma.' or 'Engañará y embaucará, buscando cada alma.' Preserve the surrounding HTML and line breaks exactly.",
-      "translation_quote": "Engañará y falsificará, cada alma perseguirá."
+      "source_quote": "The things that are bad will all be in hell.",
+      "suggested_fix": "Remove or relocate the unnecessary adverb \"también\" and tidy word order for natural Spanish: replace \"Lo malo estará todo en el infierno, también.\" with \"Lo malo estará todo en el infierno.\" or more idiomatically \"Todas las cosas malas estarán en el infierno.\"",
+      "translation_quote": "Lo malo estará todo en el infierno, también."
     },
     {
-      "location": "<p class=\"poem\"> line 11 (source): \"The darts of the wicked come from all sides.\"",
+      "location": "source.html <p class=\"poem\"> line 7",
       "severity": "minor",
-      "source_quote": "The darts of the wicked come from all sides.",
-      "suggested_fix": "'Las saetas del impío vienen de todos los lados.' is acceptable but 'impío' (singular) vs 'los impíos' (plural) and 'saetas' collocates better with 'los impíos'. Consider: 'Las saetas de los impíos vienen de todos los lados.' This is optional stylistic improvement; not required for doctrinal fidelity.",
-      "translation_quote": "Las saetas del impío vienen de todos los lados."
+      "source_quote": "Sin in our lives, it is his great goal.",
+      "suggested_fix": "Use a more natural Spanish phrase: replace \"El pecado en nuestras vidas es su gran ambición.\" with \"El pecado en nuestras vidas es su gran objetivo.\" or \"El pecado en nuestras vidas es su principal objetivo.\"",
+      "translation_quote": "El pecado en nuestras vidas es su gran ambición."
     },
     {
-      "location": "<p class=\"poem\"> line 12 (source): \"When faced with God’s power, that devil—he hides!\"",
+      "location": "source.html <p class=\"poem\"> lines 15-16",
       "severity": "minor",
-      "source_quote": "When faced with God’s power, that devil—he hides!",
-      "suggested_fix": "Remove added qualifier that alters immediacy ('a ratos'). Replace '¡ese diablo—se esconde a ratos!' with a closer rendering: '¡ese diablo—se esconde!' Preserve the surrounding HTML and line breaks exactly.",
-      "translation_quote": "¡ese diablo—se esconde a ratos!"
+      "source_quote": "For the eyes of the Lord seek to and fro,\nTo find one perfect, His power He’ll show!",
+      "suggested_fix": "Tone down the added nuance \"con arrojo\" and make wording smoother: replace \"Para encontrar uno perfecto, ¡su poder Él mostrará con arrojo!\" with \"Para encontrar a uno perfecto, ¡mostrará su poder!\" or \"Para hallar a uno perfecto, ¡mostrará su poder!\"",
+      "translation_quote": "Porque los ojos del Señor escudriñan de un lado a otro,\nPara encontrar uno perfecto, ¡su poder Él mostrará con arrojo!"
     }
   ],
+  "finished_at": "2026-10-02T13:12:55+00:00",
   "id": "8132baf01d2c8c6425776c2dff025edd",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "spa",
@@ -182,13 +187,13 @@
     }
   },
   "protected": false,
-  "quality_score": 65,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3c7e821a8c78c0ef7c2bac73f3fa23afae402db77e7c0d53df8b701aef51628c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

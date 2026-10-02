@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<p>…2. Timoteus 4:9-11</p> (Paul quote paragraph)",
+      "severity": "minor",
+      "source_quote": "For Demas hath forsaken me, having loved this present world, and is departed unto Thessalonica; Crescens to Galatia, Titus unto Dalmatia.",
+      "suggested_fix": "Rettskriv eller behold det opprinnelige egennavnet slik det står i den engelske kilden: endre \"Krescens\" til \"Crescens\" for å bevare identisk navneform. (Behold øvrig lokal tilpasning som \"Tessalonika\" er akseptabel.)",
+      "translation_quote": "For Demas har forlatt meg, fordi han elsket denne nåværende verden, og er reist til Tessalonika; Krescens til Galatia, Titus til Dalmatia."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

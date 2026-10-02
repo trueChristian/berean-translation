@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning \"I would like to call your attention to another attribute of discipleship...\" (English source) / corresponding Norwegian paragraph beginning \"Jeg vil gjerne rette din oppmerksomhet mot en annen egenskap ved disippelskap...\" (translation)",
+      "severity": "minor",
+      "source_quote": "Discipleship is never intended to be drudgery.",
+      "suggested_fix": "Use a more natural Norwegian idiom for \"drudgery\" (e.g. «meningen er at disippelskap aldri skal være slitsomt eller ensformig»). Preserve HTML and surrounding sentence structure. Suggested replacement sentence: «Disippelskap er aldri ment å være slitsomt eller ensformig.»",
+      "translation_quote": "Disippelskap er aldri ment å være trått arbeid."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

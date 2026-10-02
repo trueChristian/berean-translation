@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "22618b6d-220f-41cd-80c9-5741a6a11f40",
+    "response_id": "chatcmpl-EUXJJqs5k1dj5E1kD3bVYGTUysp86",
+    "usage": {
+      "completion_tokens": 941,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7082,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 2816
+      },
+      "total_tokens": 8023
+    }
+  },
+  "received_at": "2026-10-02T13:12:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"drop-cap\"> (opening paragraph)",
+        "severity": "minor",
+        "source_quote": "“Follow Me.” Jesus is calling each of us to personally “Follow Me.”",
+        "suggested_fix": "Harmonize the imperative used in the narrative with the rest of the article. Replace « Suis‑moi » with « Suivez‑moi » (or consistently use the singular throughout) so the translation consistently reflects the same form of the English imperative. Example replacement in the paragraph: « …au simple appel : « Suivez‑moi ». Jésus appelle chacun de nous à le suivre personnellement. »",
+        "translation_quote": "« Suis‑moi ». Jésus appelle chacun de nous à le suivre personnellement."
+      },
+      {
+        "location": "Paragraph: “He astounds the local rabbi...”",
+        "severity": "minor",
+        "source_quote": "His character is flawless; He is the friend of all and a stranger to none.",
+        "suggested_fix": "Correct the French prepositional phrase to a natural idiom. Replace « il est l’ami de tous et l’étranger de personne » with « il est l’ami de tous et n’est étranger à personne » or « il n’est l’étranger de personne ». Example: « Son caractère est sans faille; il est l’ami de tous et n’est étranger à personne. »",
+        "translation_quote": "Son caractère est sans faille; il est l’ami de tous et l’étranger de personne."
+      },
+      {
+        "location": "Paragraph: “Like the disciples, you will find yourself drawn...”",
+        "severity": "minor",
+        "source_quote": "Like the disciples, you will find yourself drawn to follow Jesus.",
+        "suggested_fix": "Fix agreement/typo for natural French. Change « vous vous trouverez attiré à suivre Jésus » to « vous vous trouverez attirés à suivre Jésus » (or better: « vous vous sentirez attirés à suivre Jésus »).",
+        "translation_quote": "Comme les disciples, vous vous trouverez attiré à suivre Jésus."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

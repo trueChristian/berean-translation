@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p class=\"poem\"> (line: \"To find one perfect, His power He’ll show!\")",
+      "severity": "minor",
+      "source_quote": "To find one perfect, His power He’ll show!",
+      "suggested_fix": "Translate the English sense clearly into grammatical French. Replace \"Pour trouver ne serait-ce qu'un seul parfait, Il manifestera Sa puissance !\" with a grammatically correct phrasing such as: \"Pour trouver ne serait-ce qu'une seule personne parfaite, Il manifestera Sa puissance !\" or \"Pour trouver ne serait-ce qu'un seul être parfait, Il manifestera Sa puissance !\" Preserve the surrounding <p class=\"poem\"> tags and line break markup.",
+      "translation_quote": "Pour trouver ne serait-ce qu'un seul parfait, Il manifestera Sa puissance !"
+    },
+    {
+      "location": "<p class=\"poem\"> (line: \"The things that are bad will all be in hell.\")",
+      "severity": "minor",
+      "source_quote": "The things that are bad will all be in hell.",
+      "suggested_fix": "Make the French convey the idea of movement/placement more naturally. Replace \"Les choses mauvaises seront toutes en enfer.\" with a more idiomatic rendering such as: \"Les choses mauvaises iront toutes en enfer.\" or \"Toutes choses mauvaises iront en enfer.\" Keep the original HTML structure.",
+      "translation_quote": "Les choses mauvaises seront toutes en enfer."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

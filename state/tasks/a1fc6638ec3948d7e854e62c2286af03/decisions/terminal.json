@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p class=\"poem\"> (line: \"He’ll trick and deceive, each soul to pursue.\")",
+      "severity": "major",
+      "source_quote": "He’ll trick and deceive, each soul to pursue.",
+      "suggested_fix": "Translate the clause to show that the enemy is the agent pursuing each soul. For example: «سيخدع ويغشّ ليطارد كل نفسٍ» or «سيخدع ويغشّ، ساعيًا لاقتناص كل نفسٍ». Preserve the HTML and line breaks.",
+      "translation_quote": "سيغشّ ويخدع، كل نفس يسعى لاقتناصها."
+    },
+    {
+      "location": "<p class=\"poem\"> (line: \"It need not be big; a small sin will do.\")",
+      "severity": "minor",
+      "source_quote": "It need not be big; a small sin will do.",
+      "suggested_fix": "Adjust phrasing for natural gender and fluency in Arabic. For example: «لا يجب أن تكون عظيمة؛ تكفي خطيئة صغيرة.» Replace in-place while preserving HTML.",
+      "translation_quote": "لا تحتاج لأن تكون عظيمة؛ خطيئة صغيرة تكفي."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

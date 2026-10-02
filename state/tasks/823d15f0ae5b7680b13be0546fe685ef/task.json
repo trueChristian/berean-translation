@@ -2,7 +2,6 @@
   "article_id": "51e3c3a2-bccc-462c-9ae7-8f232752fbc0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddc3d84bf23341ab8530f6e894825cb8",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -62,25 +61,30 @@
         },
         "total_tokens": 12480
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 474,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8165,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 8064
+        },
+        "total_tokens": 8639
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.title / translation.title",
-      "severity": "critical",
-      "source_quote": "If you love your life…",
-      "suggested_fix": "Translate the English title into Dutch, preserving meaning and punctuation. For example: \"Als je je leven liefhebt…\" (or another natural Dutch rendering). Do not alter HTML structure—only replace the title string in the translation metadata.",
-      "translation_quote": "If you love your life…"
-    },
-    {
-      "location": "source.section / translation.section",
-      "severity": "critical",
-      "source_quote": "Musings of a Missionary",
-      "suggested_fix": "Translate the section name into Dutch, preserving the topical sense. For example: \"Overpeinzingen van een zendeling\" or \"Gedachten van een zendeling\". Do not change HTML structure—only replace the section string in the translation metadata.",
-      "translation_quote": "Musings of a Missionary"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T13:12:55+00:00",
   "id": "823d15f0ae5b7680b13be0546fe685ef",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "nld",
@@ -154,13 +158,13 @@
     }
   },
   "protected": false,
-  "quality_score": 65,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/2a0e8037a7779b7d65ad5a5dc37689987f7de799a9c99fb81a3fa397558d941f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c2cade59cf352799776fd92a600c879eb44ca1d1a7d3f31107b23708781aed47",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

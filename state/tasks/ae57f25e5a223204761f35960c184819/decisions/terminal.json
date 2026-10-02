@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<article> <p class=\"poem\"> (line 3)",
+      "severity": "minor",
+      "source_quote": "But we must not forget that day has not come.",
+      "suggested_fix": "Update the Bengali to a more natural phrasing while preserving meaning and HTML structure. For example: 'কিন্তু আমাদের ভুলে চলা যাবে না যে সেই দিন এখনও আসে নি।' (Keep inside the same <p class=\"poem\"> element and preserve line breaks.)",
+      "translation_quote": "কিন্তু আমাদের ভুলে না যেতে হবে সেই দিন এখনও আসে নি।"
+    },
+    {
+      "location": "<article> <p class=\"poem\"> (final line)",
+      "severity": "minor",
+      "source_quote": "Let’s take hold of God’s power! It’s time to respond!",
+      "suggested_fix": "Use a more idiomatic Bengali rendering of 'respond' that fits the exhortatory tone. For example: 'ঈশ্বরের শক্তি ধরো! এখন প্রতিক্রিয়া জানানোর সময় এসেছে!' or better: 'ঈশ্বরের শক্তি ধরো! এখন সাড়া দেওয়ার সময় এসেছে!' (Preserve the same <p class=\"poem\"> element and line break.)",
+      "translation_quote": "ঈশ্বরের শক্তি ধরো! প্রতিক্রিয়া জানানোর সময় এসে গেছে!"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

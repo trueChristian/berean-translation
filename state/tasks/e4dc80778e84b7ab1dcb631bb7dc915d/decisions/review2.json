@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>...\"her dear Grandpa was a song leader in their church\"...</p>",
+      "severity": "minor",
+      "source_quote": "She thought about the fact that her dear Grandpa was a song leader in their church and how much she liked when he led a song.",
+      "suggested_fix": "Translate wording to avoid implying a formal choir role if the English only says 'song leader'. For example: \"dass ihr lieber Opa in ihrer Kirche Lieder anleitete\" or \"dass ihr lieber Opa in ihrer Kirche Liederdirigent war\" only if a choir role is intended. Replace the current phrase in the same paragraph, preserving tags and punctuation.",
+      "translation_quote": "Sie dachte daran, dass ihr lieber Opa im Kirchenchor Lieder anleitete und wie gern sie es mochte, wenn er ein Lied anleitete."
+    },
+    {
+      "location": "<div class=\"lyrics\">...\"For our use Thy folds prepare:\"...</div>",
+      "severity": "minor",
+      "source_quote": "For our use Thy folds prepare:",
+      "suggested_fix": "Render 'folds' (sheepfolds / sheep pens) in idiomatic German. A more natural literal rendering would be e.g. \"Bereite für uns deine Falten/Schafställe\" (better: \"Bereite für uns deine Schafställe\" or \"Bereite für uns deine Weidestätten\"). Replace only this line inside the lyrics block, preserving HTML and line breaks.",
+      "translation_quote": "Bereite für uns deine Hütten zur Nutzung:"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

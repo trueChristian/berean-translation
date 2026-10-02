@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3ade4f6c-4a81-4aff-93fb-9fc32d13fc14",
+    "response_id": "chatcmpl-EUXJiupufbAEnSfGr1cBdfq0ItS2U",
+    "usage": {
+      "completion_tokens": 1244,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7356,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8600
+    }
+  },
+  "received_at": "2026-10-02T13:12:56+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"He astounds the local rabbi with his knowledge of the scriptures.\" (source.html)",
+        "severity": "major",
+        "source_quote": "He astounds the local rabbi with his knowledge of the scriptures.",
+        "suggested_fix": "Translate the phrase to standard Swahili meaning \"the local rabbi\" and the verb \"astounds\" correctly. Example: \"Anawashangaza marabi wa mtaa kwa ufahamu wake wa maandiko.\" (Preserve surrounding sentence structure and tags.)",
+        "translation_quote": "Anamshangaza myezi wa mahubiri wa mahali kwa ufahamu wake wa maandiko."
+      },
+      {
+        "location": "Paragraph: \"and was spat upon.\" (source.html, sentence describing treatment of Jesus)",
+        "severity": "minor",
+        "source_quote": "He saw Jesus being brutally handled, falsely accused, and spat upon.",
+        "suggested_fix": "Use a correct Swahili rendering for \"spat upon\" (meaning to have saliva spat on him). Example: \"...akitendewa kwa ukatili, akihojiwa kwa uongo, na kumwagiliwa mate.\"",
+        "translation_quote": "Aliona Yesu akitendewa kwa ukatili, akihojiwa kwa uongo, na kukamatwa mate."
+      },
+      {
+        "location": "Paragraph: \"we commit the details to our Master.\" (source.html)",
+        "severity": "major",
+        "source_quote": "We commit the details to our Master.",
+        "suggested_fix": "Remove the untranslated English word and supply proper Swahili for \"details\". For example: \"Tunamkabidhi Bwana wetu maelezo ya kila undani.\" or \"Tunamkabidhi Bwana wetu mambo yote kwa undani.\" Preserve sentence punctuation and tags.",
+        "translation_quote": "Tunamipa Bwana wetu maelezo da details."
+      },
+      {
+        "location": "Paragraph: \"He doesn’t equip us until He determines that we are ready.\" (source.html)",
+        "severity": "minor",
+        "source_quote": "Jesus never calls us without equipping us, and He doesn’t equip us until He determines that we are ready.",
+        "suggested_fix": "Correct the garbled verb in Swahili. Example: \"Yesu hatutuita bila kutujalia vifaa, na hatutapati vifaa hadi aonekane kwamba tuko tayari.\" or \"...na hatutumuingiwa mpaka aamua kwamba tuko tayari.\"",
+        "translation_quote": "Yesu hatumwiti bila kutubariki kwa vifaa, na hatusiagi hadi atakapothibitisha kwamba tuko tayari."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1dc9586c-2ddc-4154-8914-168b0b784fe1",
+    "response_id": "chatcmpl-EUXJQuCZnAvhXPAWVOUjdz6NUaTXD",
+    "usage": {
+      "completion_tokens": 953,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1609,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2562
+    }
+  },
+  "received_at": "2026-10-02T13:12:56+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — poem, line 2",
+        "severity": "major",
+        "source_quote": "The things that are bad will all be in hell.",
+        "suggested_fix": "Translate clearly in Norwegian so the grammatical subject/number is correct and meaning preserved (things, not people). For example: «De tingene som er onde, vil alle være i helvete.» or more idiomatic: «Alt som er ondt, vil ende i helvete.» Ensure it does not read as \"alle (people) vil være i helvete.\"",
+        "translation_quote": "Det som er ondt, vil alle være i helvete."
+      },
+      {
+        "location": "source.html — poem, line 10",
+        "severity": "minor",
+        "source_quote": "He’ll trick and deceive, each soul to pursue.",
+        "suggested_fix": "Fix Norwegian infinitive/word order so it reads naturally and preserves the pursuit sense. For example: «Han lurer og bedrar, for å forfølge hver sjel.» or «Han lurer og bedrar for å forfølge hver sjel.»",
+        "translation_quote": "Han lurer og bedrar, hver sjel å forfølge."
+      },
+      {
+        "location": "source.html — poem, line 16",
+        "severity": "minor",
+        "source_quote": "Let’s be done with the lesser and look far beyond.",
+        "suggested_fix": "Adjust phrasing to natural Bokmål. \"det små\" is unidiomatic/uncertain; use «det små» → «det lille» or rephrase: «La oss gi slipp på det små og se langt utover.» or «La oss legge det små til side og se langt forbi.»",
+        "translation_quote": "La oss gjøre oss ferdige med det små og se langt forbi."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

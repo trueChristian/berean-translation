@@ -2,7 +2,6 @@
   "article_id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddc3d84bf23341ab8530f6e894825cb8",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -62,32 +61,39 @@
         },
         "total_tokens": 11057
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1213,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 960,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6691,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 2816
+        },
+        "total_tokens": 7904
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html — paragraph containing 1 Timothy 2:11-13 (near end)",
+      "location": "<article> — paragraph quoting Titus 2:3–5 (first occurrence)",
       "severity": "major",
-      "source_quote": "Let the woman learn in silence with all subjection. But I suffer not a woman to teach, nor to usurp authority over the man, but to be in silence. For Adam was first formed, then Eve –1 Timothy 2:11-13.",
-      "suggested_fix": "Translate the quoted Scripture passage so it faithfully conveys the English meaning and tone. Replace the current Russian rendering with a literal, standard Russian Bible-style translation that preserves the imperative and allowance/forbidding structure. For example (preserving the article HTML tags/placement):\n<em>Желаю же, чтобы женщина постигала в молчании со всякою покорностью. А не позволяю женщине учить и властвовать над мужем, но быть в молчании; ибо сначала был создан Адам, потом Ева — 1 Тимофею 2:11–13.</em>\n(Note: keep punctuation and verse reference exactly as in the source.)",
-      "translation_quote": "<em>Желаю же жене учиться в молчании во всяком покорстве. А не позволяю женщине учить, и не властвовать над мужем, но быть в молчании. Ибо сначала Адам был создан, потом Ева — 1 Тимофею 2:11–13.</em>"
-    },
-    {
-      "location": "source.html — paragraph referencing the 1970s (early article)",
-      "severity": "minor",
-      "source_quote": "By the 1970s, the centuries’-old classic role of women was under attack.",
-      "suggested_fix": "Correct the Russian rendering of the time period. Replace the phrase that currently reads as 'к 1970-м векам' (which mistakenly means 'centuries') with the standard Russian for the decade: 'к 1970-м годам'. Suggested replacement (preserve surrounding HTML): 'К 1970-м годам классическая устоявшаяся роль женщин подверглась нападкам.'",
-      "translation_quote": "\"К 1970-м векам классическая возрастом роль женщин оказалась под атакой.\""
-    },
-    {
-      "location": "source.html — endnotes list item 2",
-      "severity": "minor",
-      "source_quote": "Bookroo.com 22 of the best book quotes from Elisabeth Elliot",
-      "suggested_fix": "Fix the Russian grammatical rendering of the endnote text. The current translation '22 лучших книжных цитаты Элизабет Эллиот' has incorrect case/agreement. Replace with a grammatically correct Russian rendering such as: 'Bookroo.com — 22 лучших книжных цитат Элизабет Эллиот'. Preserve the italic/em tags and list structure.",
-      "translation_quote": "<em>Bookroo.com 22 лучших книжных цитаты Элизабет Эллиот</em>"
+      "source_quote": "The aged women likewise, that they be in behaviour as becometh holiness, not false accusers, not given to much wine, teachers of good things;",
+      "suggested_fix": "Remove the added clause 'не многословные'. Render the list to match the English order and items. Example Russian rendering: «Пожилые же женщины, чтобы быть в поведении, подобающем святости, не клеветницы, не любящие много вина, учительницы доброго; чтобы они могли учить молодых женщин… — Тит 2:3–5.» Preserve the exact sequence and items from the source English.",
+      "translation_quote": "«Пожилые же женщины, чтобы быть в поведении, подобающем святости, не клеветницы, не многословные, не любители вина, учительницы доброго; чтобы они могли учить молодых женщин… — Тит 2:3–5.»"
     }
   ],
+  "finished_at": "2026-10-02T13:12:55+00:00",
   "id": "49e483aa5af048d5ab2fcdd52c746c62",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "rus",
@@ -161,13 +167,13 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 72,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/7c85424e5984fd791f1fa504f0338be2aed2d0572a02d43d9b8370601de3fda8.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "64012528-bcec-4189-96b5-32a226869815",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddc3d84bf23341ab8530f6e894825cb8",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -62,39 +61,45 @@
         },
         "total_tokens": 2835
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1245,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1608,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2853
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<p class=\"poem\"> line 6 (English: \"He spreads all his lies, the truth to distort.\")",
-      "severity": "major",
-      "source_quote": "He spreads all his lies, the truth to distort.",
-      "suggested_fix": "Replace the Hebrew phrase with a clear, grammatical equivalent that preserves the original meaning. Example: \"הוא מפיץ את כל שקריו כדי לעוות את האמת.\"",
-      "translation_quote": "הוא מפיץ את כל שקריו, לעוות את האמת נכשלת דרכו."
-    },
-    {
-      "location": "<p class=\"poem\"> line 10 (English: \"He’ll trick and deceive, each soul to pursue.\")",
-      "severity": "major",
-      "source_quote": "He’ll trick and deceive, each soul to pursue.",
-      "suggested_fix": "Remove the extraneous/incorrect words and render the line clearly. Example: \"הוא יטעה וימרמה, ירדוף כל נפש.\"",
-      "translation_quote": "הוא יטעה ויחמיא, כל נפש לרדוף בלי תיק."
-    },
-    {
-      "location": "<p class=\"poem\"> line 16 (English: \"To find one perfect, His power He’ll show!\")",
+      "location": "<p class=\"poem\"> line 11-12",
       "severity": "minor",
-      "source_quote": "To find one perfect, His power He’ll show!",
-      "suggested_fix": "Use a Hebrew phrasing that conveys the promise/plain sense without adding tone words like \"בחן\". Example: \"למצוא אפילו אחד מושלם — יגלה את כוחו!\"",
-      "translation_quote": "למצוא אחד מושלם, את כוחו יגלה בחן!"
+      "source_quote": "When faced with God’s power, that devil—he hides!",
+      "suggested_fix": "Preserve the original phrasing without introducing a specific proper name unless the author intended it. Replace \"כשניצב מול כוחו של האלוהים — השטן נעלם!\" with a closer structural rendering that keeps the indefinite phrasing, for example: \"כשמול כוחו של אלוהים ניצבים — אותו שַׁד נעלם!\" or better keeping neutral phrasing: \"כשניצב מול כוחו של אלוהים — הוא נעלם!\" (choose the Hebrew pronoun or neutral noun that best matches the author's tone). Ensure the HTML structure remains unchanged.",
+      "translation_quote": "כשניצב מול כוחו של האלוהים — השטן נעלם!"
     },
     {
-      "location": "<p class=\"poem\"> line 17 (English: \"Let’s be done with the lesser and look far beyond.\")",
+      "location": "<p class=\"poem\"> line 15-16",
       "severity": "minor",
-      "source_quote": "Let’s be done with the lesser and look far beyond.",
-      "suggested_fix": "Use a more idiomatic Hebrew equivalent of \"be done with the lesser.\" Example: \"נסיים עם הקטן ונביט אל מעבר לכך.\"",
-      "translation_quote": "נשבור את הקטן ונביט אל מעבר למרחב."
+      "source_quote": "For the eyes of the Lord seek to and fro,\nTo find one perfect, His power He’ll show!",
+      "suggested_fix": "The translation mixes the divine names (\"אלוהים\" earlier, here \"האדון\") and inserts an extra word (\"אפילו\"). For consistency with the source, keep terminology consistent and avoid adding modifiers. Suggested revision: \"כי עיניו של האדון סורקות הלוך ושוב,\nלמצוא 'אחד מושלם' — אז יגלה את כוחו!\" or, if you prefer using \"אלוהים\" consistently, change \"האדון\" to \"אלוהים\". Preserve line breaks and HTML tags.",
+      "translation_quote": "כי עיניו של האדון סורקות הלוך ושוב,\nלמצוא אפילו אחד מושלם — יגלה את כוחו!"
     }
   ],
+  "finished_at": "2026-10-02T13:12:55+00:00",
   "id": "5203fecda25a1219f4afcf67b7109376",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "heb",
@@ -168,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3c7e821a8c78c0ef7c2bac73f3fa23afae402db77e7c0d53df8b701aef51628c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

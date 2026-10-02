@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "2ece4343-47ed-40ac-8a84-580b28326c7b",
+    "response_id": "chatcmpl-EUXJJDn3T6g8rzvJggNgx9GAsLpP0",
+    "usage": {
+      "completion_tokens": 2130,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1536,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3364,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1792
+      },
+      "total_tokens": 5494
+    }
+  },
+  "received_at": "2026-10-02T13:12:56+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...\"Disciple has almost the same spelling as discipline.\"...</p>",
+        "severity": "major",
+        "source_quote": "\"Disciple has almost the same spelling as discipline.\"",
+        "suggested_fix": "Translate the author's English observation about the similarity in English spelling, rather than asserting the same about the Hebrew words. For example: \"באנגלית המילה 'disciple' כמעט זהה באיותה למילה 'discipline'\" or in Hebrew+explanation: \"במילה האנגלית 'disciple' יש דמיון באיות ל-'discipline'\". Preserve surrounding HTML and quotes.",
+        "translation_quote": "המילה \"תלמיד\" כמעט זהה באיותה למילה \"משמעת\"."
+      },
+      {
+        "location": "<p>...\"Ellie\"...</p>",
+        "severity": "minor",
+        "source_quote": "...little “Ellie”...",
+        "suggested_fix": "Preserve the original proper name's form or render it in a way that clearly reflects the original English name. If transliterating, use אלי (אֱלי) only if that matches the intended name; otherwise use אלי (Ellie) or אלי־(אֶלִי) with transliteration in parentheses. Example fix: \"הקטנה 'אלי' (Ellie)\" or \"הקטנה 'אלי'\" if author intended that form. Keep quotes and HTML.",
+        "translation_quote": "הקטנה \"אלי\""
+      },
+      {
+        "location": "<p>...\"Song of the Quarter\"...</p>",
+        "severity": "minor",
+        "source_quote": "\"Song of the Quarter\"",
+        "suggested_fix": "Use a clearer Hebrew phrasing for the planned feature. Suggested rendering: \"'שיר הרבעון'\" or \"'שיר של הרבע'\". Keep the original quoted label in quotes and preserve HTML structure.",
+        "translation_quote": "\"שיר הרבע\""
+      },
+      {
+        "location": "<p>...the bulk of the design work for each issue of our magazine—The Heartbeat of the Remnant...</p>",
+        "severity": "minor",
+        "source_quote": "...the bulk of the design work for each issue of our magazine—The Heartbeat of the Remnant.",
+        "suggested_fix": "Either retain the English magazine subtitle as a proper-name in Latin script (The Heartbeat of the Remnant) or ensure the Hebrew translation is an unambiguous translation of that title. If keeping the Hebrew translation, render it consistently and clearly, e.g. \"—'The Heartbeat of the Remnant' (דופק השארית)\" or \"—דופק השארית ('The Heartbeat of the Remnant')\" to show it's a title. Preserve HTML.",
+        "translation_quote": "—דופק השארית."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

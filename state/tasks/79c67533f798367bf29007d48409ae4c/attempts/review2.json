@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:12:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<h3> (heading)\",\"severity\":\"major\",\"source_quote\":\"<h3>Saviour, Like A Shepherd Lead Us</h3>\",\"suggested_fix\":\"Translate the heading into Spanish to match the translated hymn text. For example: <h3>Salvador, como Pastor, guíanos</h3> (preserve the exact <h3> tag and its placement).\",\"translation_quote\":\"<h3>Saviour, Like A Shepherd Lead Us</h3>\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 403,
+    "content_evidence_truncated": false,
+    "content_sha256": "6afe0eb4b137304878ebeb11124b2e4246fd3c2bbc05bc60150825d675f4e2cd",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 707,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4289,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1792
+      },
+      "total_tokens": 4996
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

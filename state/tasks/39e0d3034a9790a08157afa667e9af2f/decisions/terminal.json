@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph with Titus 2:3-5 (first occurrence)",
+      "severity": "minor",
+      "source_quote": "That they may teach the young women to be sober, to love their husbands, to love their children, To be discreet, chaste, keepers at home, good, obedient to their own husbands, that the word of God be not blasphemed –Titus 2:3-5.",
+      "suggested_fix": "Håll terminologin konsekvent för den engelska frasen “keepers at home”. I den första förekomsten används \"hemmahållerskor\"; i en senare återgivning översätts samma fras som \"hemmets väktare\". Välj en konsekvent svensk översättning och använd samma uttryck i båda verscitat (t.ex. \"hemmets väktare\" eller \"hemmahållerskor\") och lämna resten av versen oförändrad. Bevara bibelreferensen och HTML-strukturen.",
+      "translation_quote": "...att vara försynta, kysk, hemmhahållerskor, goda, underdåniga mot sina egna män, så att Guds ord icke må förolämpas –Titus 2:4-5."
+    },
+    {
+      "location": "Paragraph with Psalm 127:3 (first occurrence)",
+      "severity": "minor",
+      "source_quote": "Lo, children are an heritage of the LORD: and the fruit of the womb is his reward –Psalm 127:3.",
+      "suggested_fix": "Återinför possessivet \"his\" i svenskan så att meningen tydligt motsvarar originalets 'his reward'. Ett enkelt, idiomatiskt förslag: \"Se, barn är HERRENS gåva; livmodern är hans lön – Psaltaren 127:3.\" Behåll bibelbokens svenska namn och versnummer samt HTML-markeringen.",
+      "translation_quote": "Se, barn är en HERRENS gåva; livmodern är en lön – Psaltaren 127:3."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
