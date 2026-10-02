@@ -2,7 +2,6 @@
   "article_id": "5a87c21f-cce9-4033-8a43-5458311bc7f0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,59 +61,45 @@
         },
         "total_tokens": 19909
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1659,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1088,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12449,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14108
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "source.html — multiple blockquotes (e.g. Genesis 2:19–22)",
-      "severity": "critical",
-      "source_quote": "“And out of the ground the LORD God formed every beast of the field, and every fowl of the air; ... And the rib, which the LORD God had taken from man, made he a woman, and brought her unto the man” (Genesis 2:19–22).",
-      "suggested_fix": "Translate the quoted Scripture into French, preserving the verse range and placement exactly. Keep the HTML structure (the blockquote and <p> tags) unchanged. Example (one acceptable rendering): «Et l'Éternel Dieu forma de la terre tous les animaux des champs et tous les oiseaux du ciel, et il les fit venir vers l'homme pour voir comment il les appellerait; et quel que fût le nom que l'homme donna à tout être vivant, c'était son nom. L'homme donna des noms à tout le bétail, aux oiseaux du ciel et à tous les animaux des champs; mais pour l'homme il ne se trouva point d'aide qui fût convenable pour lui. Alors l'Éternel Dieu fit tomber un profond sommeil sur l'homme, qui s'endormit; il prit une de ses côtes, et referma la chair à sa place. L'Éternel Dieu forma une femme de la côte qu'il avait prise de l'homme, et il l'amena vers l'homme.» (Genèse 2.19–22) — or a comparable standard French Bible wording. Do not leave the English text; do not change the verse numbers or their placement.",
-      "translation_quote": "“And out of the ground the LORD God formed every beast of the field, and every fowl of the air; and brought them unto Adam to see what he would call them: ... And the rib, which the LORD God had taken from man, made he a woman, and brought her unto the man” (Genesis 2:19–22)."
-    },
-    {
-      "location": "source.html — Luke 2:39–42 blockquote and other Scripture quotes (multiple occurrences)",
-      "severity": "critical",
-      "source_quote": "Blockquote beginning “And when they had performed all things according to the law of the Lord... This was right after they had been at the temple. And the child grew, and waxed strong in spirit...” (Luke 2:39–42)",
-      "suggested_fix": "Translate every quoted Scripture passage into French, preserving each reference exactly (Luke 2:39–42). Replace the English quotation text with an idiomatic French Bible rendering while keeping the reference in parentheses unchanged. Maintain existing HTML tags and the position of the quotation. Repeat this for all other Bible quotations present (Luke 2:42–50; Luke 2:51; Luke 2:52; 2 Timothy 2:15; 1 Timothy 2:1–4; Hebrews 13:15; Galatians 5:22–23; 1 Cor. 7:2–28, 32–34; Luke 3:21–23; Titus and Ephesians references shown in text).",
-      "translation_quote": "The translation left the Luke and other scriptural blockquotes in English (e.g. “And when they had performed all things according to the law of the Lord...”) — unchanged."
-    },
-    {
-      "location": "source.title | source.subtitle | source.section",
+      "location": "article > p.article-note (first paragraph)",
       "severity": "major",
-      "source_quote": "title: \"A Christ-Centered Courtship Series\"; subtitle: \"The Preparation Sleep\"; section: \"INSPIRATIONS FOR YOUTH\"",
-      "suggested_fix": "Translate the article metadata fields into French so the published translation has localized title/subtitle/section. Preserve capitalization style if required by the site, and do not modify HTML structure. Suggested French equivalents: title: «Une cour destinée au Christ — série» (or «Série : une cour centrée sur Christ»), subtitle: «Le sommeil de préparation», section: «INSPIRATIONS POUR LA JEUNESSE» (or simply «INSPIRATIONS POUR LES JEUNES»). Choose idiomatic French that fits the publication's style. Ensure these translated metadata strings replace the English ones in the translation output.",
-      "translation_quote": "title: \"A Christ-Centered Courtship Series\"; subtitle: \"The Preparation Sleep\"; section: \"INSPIRATIONS FOR YOUTH\" (left in English)."
+      "source_quote": "A Christ-centered Courtship is a series of messages on godly courtship preached by Paul Hershberger.",
+      "suggested_fix": "Replace the incorrect French \"Une cour centrée sur Christ\" with the idiomatic, accurate translation used in the translation metadata/title for consistency, e.g. \"Une fréquentation centrée sur Christ\". Ensure the same phrasing is used in the article-note and the article metadata/title to avoid inconsistent renderings.",
+      "translation_quote": "Une cour centrée sur Christ est une série de messages sur la fréquentation pieuse prêchés par Paul Hershberger."
     },
     {
-      "location": "source.html — majority of article body paragraphs",
+      "location": "Throughout article: parenthetical Scripture references and blockquote attributions",
       "severity": "major",
-      "source_quote": "Opening paragraph and most body text beginning: \"A Christ-centered Courtship is a series of messages on godly courtship preached by Paul Hershberger...\" through the end — nearly the whole article text is in English in the translation.",
-      "suggested_fix": "Translate the running article text (all non-quoted-authority prose) into fluent, idiomatic French, preserving meaning and theological nuance exactly. Keep all HTML tags, paragraph order, lists, headings, and blockquote positions unchanged. Do not alter Scripture references or quoted blockquote placement other than replacing English with French translations as required. Example: translate \"Young men and women, it is important that you yield your future and marriage to God.\" into French as \"Jeunes hommes et jeunes femmes, il est important que vous remettiez votre avenir et votre mariage à Dieu.\" Ensure theological terms (e.g., 'grace', 'Holy Ghost') are rendered in standard French Christian usage (e.g., «la grâce de Dieu», «le Saint-Esprit\").",
-      "translation_quote": "Most article paragraphs remain in English in the submitted translation (e.g., \"We discussed Satan’s Snares for male and female in the last issue. Today’s topic is about waiting on God’s timing and plan for marriage.\")."
-    },
-    {
-      "location": "source.html — quoted Pauline and pastoral instruction in blockquote (1 Cor. 7:2–28, 32–34)",
-      "severity": "critical",
-      "source_quote": "Blockquote: “Art thou bound unto a wife? seek not to be loosed... The unmarried woman careth for the things of the Lord...” (1 Cor. 7:2–28, 32–34).",
-      "suggested_fix": "Translate this full Scripture quotation into French while keeping the reference \"(1 Cor. 7:2–28, 32–34)\" unchanged and preserving HTML markup. Use an idiomatic French Bible rendering for the quoted passages (for instance from Louis Segond or another standard French text consistent with your publication policy). Do not leave the English text in the translated article.",
-      "translation_quote": "The blockquote remains in English: “Art thou bound unto a wife? seek not to be loosed... The unmarried woman careth for the things of the Lord...” (1 Cor. 7:2–28, 32–34)."
-    },
-    {
-      "location": "source.html — image alt text for first figure",
-      "severity": "minor",
-      "source_quote": "<img src=\"/images/articles/...-1.jpg\" alt=\"\" loading=\"lazy\"> (empty alt attribute in source)",
-      "suggested_fix": "If the original source left the alt attribute empty, it is acceptable to leave it empty. If the publisher requires localized descriptive alt text, provide a concise French description matching image content and keep it brief. Do not change file names or HTML structure. Example: alt=\"Scène rurale hivernale\". If policy is to preserve empty alt attributes, no change is necessary.",
-      "translation_quote": "First image alt attribute remains empty in translation (unchanged)."
-    },
-    {
-      "location": "source.html — second image alt text",
-      "severity": "minor",
-      "source_quote": "Source image alt was English: \"A three-panel collage of winter trees and a snowy rural scene\"",
-      "suggested_fix": "This alt text has been translated to French in the translation as \"Un collage en trois panneaux d'arbres d'hiver et d'un paysage rural enneigé\", which is appropriate. Ensure the wording is concise; consider \"Collage en trois panneaux : arbres d'hiver et paysage rural enneigé\" to be slightly more natural. No mandatory change required.",
-      "translation_quote": "\"Un collage en trois panneaux d'arbres d'hiver et d'un paysage rural enneigé\" (translated in the submission)."
+      "source_quote": "(Genesis 2:19–22); (Luke 2:39–42); (Luke 2:42-50); (Luke 2:51); (Luke 2:52); (2 Timothy 2:15); (1 Timothy 2:1–4); (Hebrews 13:15); (Galatians 5:22–23); (1 Cor. 7:2–28, 32–34); (Ephesians 5:21); (Titus 2:6-8); (Titus 2:4–5); (Luke 3:21–23)",
+      "suggested_fix": "Translate the English book names in all parenthetical Scripture citations into conventional French forms while leaving chapter:verse numbers unchanged. Examples to use: Genesis -> Genèse; Luke -> Luc; 2 Timothy -> 2 Timothée; 1 Timothy -> 1 Timothée; Hebrews -> Hébreux; Galatians -> Galates; 1 Cor. (or 1 Corinthians) -> 1 Corinthiens (1 Cor.); Ephesians -> Éphésiens; Titus -> Tite. Apply these consistent French book names in every parenthetical reference and blockquote heading (do not change the numeric references). For example change \"(Genesis 2:19–22)\" to \"(Genèse 2:19–22)\", and \"(Luke 2:39–42)\" to \"(Luc 2:39–42)\".",
+      "translation_quote": "«Et l'Éternel Dieu forma...» (Genesis 2:19–22). — et d'autres références tout au long du texte sont laissées avec les noms de livres en anglais (par ex. Luke, 1 Timothy, Hebrews, Galatians, 1 Cor., Ephesians, Titus, etc.)."
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "42adbeb5cd35a8f913b2ca8c5847ae2c",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "fra",
@@ -158,13 +143,13 @@
     }
   },
   "protected": false,
-  "quality_score": 20,
+  "quality_score": 70,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0a1dcaa5cafea68d0933d4307f622a54749ce00327ed437d6329e9b9b2a36c0b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "403dccfee978e00bf41c2daf2df29e8cfa526a0ef6c19371773e58abc48734b6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

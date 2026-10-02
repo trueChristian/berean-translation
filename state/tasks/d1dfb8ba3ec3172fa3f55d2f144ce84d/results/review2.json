@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c868abaa-3d13-4f7e-ae62-72393ec9b8e0",
+    "response_id": "chatcmpl-EUVaVLU6Sq8EfPDMdhh7ml6AWau2r",
+    "usage": {
+      "completion_tokens": 1395,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10866,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12261
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"...جب میں نے انہیں ایک نظر دیکھا اور جو دیکھا وہ پسند نہیں آیا۔ ایک تو وہ انتہائی فیک تھیں۔\" (near \"ڈاکٹر خطرناک صورتحال کی نشاندہی کر سکتے ہیں\")",
+        "severity": "minor",
+        "source_quote": "\"For one thing, she was extremely pale.\"",
+        "suggested_fix": "Use the conventional Urdu adjective for 'pale' and correct grammar. For example: \"ایک تو وہ انتہائی فاقِر یا پریشان معلوم ہو رہی تھیں\" is awkward; better: \"ایک تو وہ انتہائی پیلی پڑی ہوئی تھیں۔\"",
+        "translation_quote": "\"ایک تو وہ انتہائی فیک تھیں۔\""
+      },
+      {
+        "location": "Paragraph: \"وہ اپنی بیسز میں تھیں اور کہہ رہی تھیں...\" (under 'ڈاکٹر خطرناک صورتحال کی نشاندہی کر سکتے ہیں')",
+        "severity": "minor",
+        "source_quote": "\"She was in her 20s and said that she had a pounding sensation in her head and a lot of pressure.\"",
+        "suggested_fix": "Replace the anglicized phrasing with a standard Urdu expression for age. For example: \"وہ اپنی بیس کی دہائی میں تھیں اور کہنے لگیں کہ...\"",
+        "translation_quote": "\"وہ اپنی بیسز میں تھیں اور کہہ رہی تھیں کہ ان کے سر میں دھڑکن جیسی حس ہے اور بہت دباؤ محسوس ہو رہا ہے۔\""
+      },
+      {
+        "location": "Paragraph: \"حکمت ہمیں “علم” کے ماخذوں کی درستگی پر بھی فیصلہ کرنے دیتی ہے۔\" (section 'Get Wisdom!')",
+        "severity": "minor",
+        "source_quote": "\"Wisdom lets us judge the accuracy of the sources of “knowledge” as well.\"",
+        "suggested_fix": "Typo correction: replace 'درستگی' spelling if needed or leave but consider replacing 'درستگی' with more idiomatic 'درست ہونے' or 'درستگی کا تعین'. Suggested wording: \"حکمت ہمیں علم کے ماخذوں کی درست ہونے کا تعین کرنے دیتی ہے۔\"",
+        "translation_quote": "\"حکمت ہمیں “علم” کے ماخذوں کی درستگی پر بھی فیصلہ کرنے دیتی ہے۔\""
+      },
+      {
+        "location": "Paragraph listing CARS acronym (under 'Get Wisdom!')",
+        "severity": "minor",
+        "source_quote": "\"Credibility, past Accuracy, Reasonableness, and Supporting information\"",
+        "suggested_fix": "The translator preserved the English keywords and supplied Urdu equivalents in parentheses. That's acceptable, but for smoother Urdu flow you may invert order (Urdu term first, then the English in parentheses) or fully present the terms in Urdu while keeping the CARS label. No mandatory change required; suggestion only: e.g., \"قابلیتِ اعتبار (Credibility)، ماضی کی درستگی (Past Accuracy)...\"",
+        "translation_quote": "\"Credibility, past Accuracy, Reasonableness, and Supporting information (حمایتی معلومات)\""
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

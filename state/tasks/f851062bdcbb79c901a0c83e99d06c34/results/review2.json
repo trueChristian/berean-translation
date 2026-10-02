@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "bc94ef22-de46-4dc6-a7e6-84b4f70ddb2d",
+    "response_id": "chatcmpl-EUVawDoAOr6pZ6donK8vhLDCVq9SU",
+    "usage": {
+      "completion_tokens": 841,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1572,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2413
+    }
+  },
+  "received_at": "2026-10-02T11:21:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<figure> <img alt>",
+        "severity": "minor",
+        "source_quote": "A lone bare tree in a snowy field",
+        "suggested_fix": "Use a more natural Hindi phrase for a leafless tree in this context, e.g. \"बर्फ़ीले मैदान में एक अकेला पत्तिहीन पेड़\" or \"बर्फ़ीले मैदान में एक अकेला नंगा/नंगी पेड़\" depending on preferred idiom. Replace the alt attribute text accordingly.",
+        "translation_quote": "बर्फ़ीले मैदान में एक अकेला नंगा पेड़"
+      },
+      {
+        "location": "<div class=\"poem\"> third stanza, line 4",
+        "severity": "minor",
+        "source_quote": "and warmer glows her light within.",
+        "suggested_fix": "Clarify the pronouns and make the natural Hindi expression of the image clear. Suggested wording: \"और उसके भीतर उसकी रोशनी और अधिक गर्म चमक उठती है\" or \"और उसके भीतर उसकी रोशनी और अधिक गर्मी से झलमलाती है.\" Replace the fourth line of the stanza with one of these options.",
+        "translation_quote": "और उसके भीतर उसकी रोशनी और गर्म होती है।"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

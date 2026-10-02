@@ -2,7 +2,6 @@
   "article_id": "a42c5719-aea1-47ed-abad-ed0cd2571382",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,38 +61,59 @@
         },
         "total_tokens": 7094
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1096,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3885,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4981
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "source.html paragraph 1",
+      "location": "source.html paragraph: \"The Israelites, Dirk. They often complained and it did not please God,\"",
       "severity": "major",
-      "source_quote": "He was intent on locating Brother Silas before the service began. Every Sunday morning, he would crane his neck in search of the hoary head of the fellowship’s oldest member",
-      "suggested_fix": "Translate the meaning correctly: render “the hoary head of the fellowship’s oldest member” as referring to the old man’s white hair / elderly status. For example: “הוא נחוש לאתר את האח סילס לפני שהטקס יתחיל. בכל בוקר ראשון היה מותח את צווארו בחיפוש אחר ראשו הלבין של המבוגר המבוגר ביותר בקהילה.” (Preserve HTML tags and order.)",
-      "translation_quote": "היה נחוש לאתר את Brother Silas לפני שהטקס יתחיל. כל בוקר ראשון, הוא היה מותח את צווארו בחיפוש אחר הראש הכסוף של בן־הזקונים בקהילה"
+      "source_quote": "The Israelites, Dirk. They often complained and it did not please God,",
+      "suggested_fix": "Replace the mistranslation with wording that conveys \"it did not please God.\" For example: \"‘בני־ישראל, דירק. הם התלוננו לעתים קרובות וזה לא מצא חן בעיני אלוהים,’\". Preserve surrounding punctuation and HTML tags.",
+      "translation_quote": "“הישראלים, Dirk. הם לעתים קרובות התלוננו וזה לא רצה את אלוהים,”"
     },
     {
-      "location": "source.html paragraph with “worship God”",
-      "severity": "critical",
-      "source_quote": "We go to church services to worship God.",
-      "suggested_fix": "Correct the Hebrew verb for worship. Replace the mistranslation “לעבד את אלוהים” (which reads as “to make into a slave” or is otherwise wrong) with the correct phrase “לעבוד את אלוהים” or a more natural Hebrew phrasing such as “כדי לעבוד את אלוהים” or “כדי להעריץ את אלוהים,” keeping the sentence structure. (Preserve surrounding tags.)",
-      "translation_quote": "אנחנו הולכים למניינים כדי לעבד את אלוהים."
-    },
-    {
-      "location": "source.html multiple instances of character title/name",
+      "location": "source.html multiple paragraphs — character name presentation",
       "severity": "minor",
-      "source_quote": "Brother Silas",
-      "suggested_fix": "Translate the English title+name into idiomatic Hebrew. Either translate the title to Hebrew consistently (e.g., “האח סילס” or “אח’ סילס”) or transliterate consistently without the English word “Brother.” Do this everywhere it appears (in narrative and dialog). Ensure spacing and punctuation are natural in Hebrew (e.g., “האח סילס” or “ברדר סיילס” per style guide).",
-      "translation_quote": "Brother Silas (scattered occurrences: “Brother Silas”, “-Brother Silas”) "
+      "source_quote": "Dirk (multiple instances)",
+      "suggested_fix": "Render the character name consistently in Hebrew script (דירק) throughout the article for natural Modern Hebrew reading, e.g. replace \"Dirk\" with \"דירק\" in all inline text while preserving HTML tags.",
+      "translation_quote": "Dirk סרק את האולם, ... בעיניו של Dirk, ... Dirk הבחין ... כשהגיע תורו של Dirk, ... Dirk לא התמהמה ... Dirk יכל לדעת ... עקף Dirk, ... \"נו Dirk Phillips, ...\" ... ביקש מ-Dirk ... עיניו של Dirk נצצו ... Dirk הסס ... אמר Dirk ... כש-Dirk אמר תודה,"
     },
     {
-      "location": "source.html paragraph where Hebrew is unidiomatic/word-choice errors (example: “נמהל”, “צוהריו”)",
+      "location": "source.html paragraph: \"like chickadees at a birdfeeder\"",
       "severity": "minor",
-      "source_quote": "He didn’t lose any time eating that mint, and before he knew it, the mint was gone and he could go on with his afternoon and with the rest of the week.",
-      "suggested_fix": "Fix unnatural or incorrect Hebrew words: e.g., “Dirk לא התמהמה ללעוס את הסוכריה, ולפני שהבין זאת, הסוכריה נעלמה והוא יכול היה להמשיך עם צהריו ושאר השבוע.” — “צהריו” is wrong in context (should be “צהריו” = his noon, but awkward). Replace with natural phrasing: “Dirk לא התמהמה ללעוס את הסוכריה; לפני ששם לב היא כבר נגמרה, והוא יכל להמשיך את יום השבתון/את שאר היום ואת השבוע.” Also replace “נמהל” (not a correct verb here) with “הסתובב לאט/המתין מעט/היסס” where appropriate. Review entire text for similar non-idiomatic or misspelled words (e.g., “Dirk יכל לדעת” → “יכול לדעת”). Preserve HTML structure.",
-      "translation_quote": "Dirk לא התמהמה ללעוס את הסוכריה, ולפני שהבין זאת, הסוכריה נעלמה והוא יכול היה להמשיך עם צהריו ושאר השבוע.\n...\nלמעלה מחודש עבר לפני ש-Brother Silas הרגיש מספיק טוב כדי ללכת למניינים שוב. כשהוא חזר, עיניו של Dirk נצצו למראהו. בסיום המניין, Dirk נמהל מעט לפני שגיחש אליו."
+      "source_quote": "like chickadees at a birdfeeder",
+      "suggested_fix": "Use a natural, commonly understood Hebrew expression for small songbirds. For example: \"כמו ציפורים קטנות סביב מאכסן ציפורים\" or \"כמו ציפורים קטנות סביב מאכסן\". Replace only the translated phrase, preserving HTML tags.",
+      "translation_quote": "כמו ציצניות סביב ממלא מזון לציפורים"
+    },
+    {
+      "location": "source.html paragraph: \"Lifesavers, to be exact.\"",
+      "severity": "minor",
+      "source_quote": "Lifesavers, to be exact.",
+      "suggested_fix": "Either translate into Hebrew a generic description (e.g. \"סוכריות Lifesavers\" or \"סוכריות בצורת טבעת, מסוג Lifesavers\") or render Lifesavers in Hebrew script as a product name (לייף־סייברס / לייף־סייברס). Keep the explanatory sense: that they are Lifesavers candies. Do not leave it untranslated in English-only script inside Hebrew text. Preserve surrounding punctuation and tags.",
+      "translation_quote": "Lifesavers, אם להיות מדויקים."
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "98686503321ab9f2b0a7db8de47e02e8",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "heb",
@@ -137,13 +157,13 @@
     }
   },
   "protected": false,
-  "quality_score": 58,
+  "quality_score": 68,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/75a969c45055c429de95d7ac7fb5ad9ae24609ae4e6f17660c8fb6226abf6c70.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "cb49d9b32a113d5c0bf30e44cdec3451c0a5ce43ad2cf97a5830259f43dd1f79",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

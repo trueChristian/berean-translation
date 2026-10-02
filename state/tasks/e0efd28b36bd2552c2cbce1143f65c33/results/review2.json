@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b650e320-9b52-453d-944c-735bd1f8aafd",
+    "response_id": "chatcmpl-EUVafjrLqpe8B7frCFxyu3Lv6mZDV",
+    "usage": {
+      "completion_tokens": 978,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6594,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7572
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"source-note\"> (end of article, publication credits)",
+        "severity": "major",
+        "source_quote": "<em>The article is reprinted by request. It was first printed in </em><span>The Heartbeat of the Remnant</span><em> in the Autumn 2019 issue. Previously printed in </em><span>Earthen Vessels</span><em>.</em>",
+        "suggested_fix": "Translate the publication titles into Bengali (preserve the surrounding HTML structure and the <span> tags). For example: <em>এই নিবন্ধটি অনুরোধে পুনঃপ্রকাশ করা হয়েছে। এটি প্রথমবার ছাপা হয়েছিল </em><span>অবশিষ্টদের হৃদস্পন্দন</span><em> এর ২০১৯ সালের শরৎ সংস্করণে। পূর্বে ছাপা হয়েছিল </em><span>মাটির পাত্র</span><em>-এ।</em> (Replace the English titles inside the <span> elements with the Bengali equivalents, keeping the <em> and <span> tags and their order/attributes unchanged.)",
+        "translation_quote": "<em>অনুরোধে নিবিড়ভাবে পুনঃপ্রকাশ করা হয়েছে। এটি প্রথমবার ছাপা হয়েছিল </em><span>The Heartbeat of the Remnant</span><em> এর ২০১৯ শরৎ সংস্করণে। পূর্বে ছাপা হয়েছিল </em><span>Earthen Vessels</span><em>-এ।</em>"
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

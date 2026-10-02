@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b2d652df-91c1-4501-96e2-6796ffd593c2",
+    "response_id": "chatcmpl-EUVacV59oeAQUm7K5DAUa3rchS8Vj",
+    "usage": {
+      "completion_tokens": 1974,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1088,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6279,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8253
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<blockquote> (opening verse of Romans)",
+        "severity": "minor",
+        "source_quote": "“O the depth of the riches both of the wisdom and knowledge of God! how unsearchable are His judgments, and his ways past finding out! For who hath known the mind of the Lord? Or who hath been his counsellor? Or who hath first given to him, and it shall be recompensed unto him again? For of Him, and through Him, and to him, are all things: to whom be glory for ever. Amen” (Rom. 11:33–36).",
+        "suggested_fix": "Adjust small stylistic wording to be idiomatic Afrikaans. For example: replace “O die diepte van die rykdom …” with “O, die diepte van die rykdom …” (insert comma and keep only one “die”) and consider rendering “the mind of the Lord” as “die verstand van die Here” for smoother idiom.",
+        "translation_quote": "“O die diepte van die rykdom van die wysheid en kennis van God! Hoe onnaspeurlik is Sy oordele, en Sy paaie onnaspeurbaar! Want wie het die raadsbesluit van die Here geken? Of wie het Sy raadsman geword? Of wie het eers aan Hom gegee, en dit sal vir hom vergoed word? Want uit Hom, deur Hom, en tot Hom is alle dinge: aan Hom sy heerlikheid tot in alle ewigheid. Amen” (Rom. 11:33–36)."
+      },
+      {
+        "location": "<section class=\"lyrics\"> (Bridges lyrics, stanza 2 final line)",
+        "severity": "critical",
+        "source_quote": "The Root, whence mercy ever flows—the Babe of Bethlehem!",
+        "suggested_fix": "Translate the entire line into Afrikaans; do not leave English words embedded. For example: replace “Die Wortel, waaruit genade altyd vloei—the Kind van Betlehem!” with “Die Wortel, waaruit genade altyd vloei—die Kind van Betlehem!” or better still render fully idiomatically: “Die Wortel, waaruit genade altyd vloei — die Kind van Betlehem!” (translate the English article and noun).",
+        "translation_quote": "Die Wortel, waaruit genade altyd vloei—the Kind van Betlehem!"
+      },
+      {
+        "location": "<section class=\"lyrics\"> (Bridges lyrics, stanza 5, line 2)",
+        "severity": "critical",
+        "source_quote": "Glassed in a sea of light, where everlasting waves Reflect His throne—the Infinite! Who lives—and loves—and saves.",
+        "suggested_fix": "Translate all English words remaining in the stanza. Replace the untranslated English word “realms” or any leftover English with an Afrikaans equivalent. In the translation the problematic phrase appears as “Nou in realms van lig lewe,” so change to a full Afrikaans rendering such as “Nou lewe Hy in wêrelde van lig” or “Nou in ligryk leef Hy,” depending on meter preference. Ensure no English word remains.",
+        "translation_quote": "Nou in realms van lig lewe, waar ewige golwe\n    Sy troon weerspieël—die Oneindige! Wie leef—en lief—en red."
+      },
+      {
+        "location": "opening paragraph of article body",
+        "severity": "minor",
+        "source_quote": "What an exuberant and expressive exclamation written by Apostle Paul! As we look at a new hymn and hymn writer again, let’s keep our minds alert and hearts open to see the hand of God at work.",
+        "suggested_fix": "Minor stylistic edit for smoother Afrikaans: consider changing “laat ons ons gedagtes wakker en ons harte oop hou” to “laat ons ons gedagtes wakker hou en ons harte oopmaak” or “laat ons waaksaam wees en ons harte oopmaak” for idiomatic flow.",
+        "translation_quote": "Watter ’n uitbundige en uitdruklike uitroep deur apostel Paulus geskryf! Terwyl ons weer na ’n nuwe gesang en ’n gesangskrywer kyk, laat ons ons gedagtes wakker en ons harte oop hou om die hand van God aan die werk te sien."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "a42c5719-aea1-47ed-abad-ed0cd2571382",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,24 +61,51 @@
         },
         "total_tokens": 6400
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1059,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4003,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5062
+      }
     }
   ],
   "findings": [
     {
-      "location": "Paragraph beginning ““Sal hy Sondag by die kerk wees?” ...” (translation paragraph containing “trok”)",
-      "severity": "major",
-      "source_quote": "“Will he be in church on Sunday?” interjected Dirk, stopping the travels of his tractor in his concern to hear the answer.",
-      "suggested_fix": "Replace the incorrect vehicle word with the faithful rendering of the source. For example, change “trok” to “trekker” or “traktor” so the sentence reads: “…en die reis van sy trekker/traktor gestop omdat hy die antwoord wil hoor.” Preserve punctuation and HTML structure.",
-      "translation_quote": "“Sal hy Sondag by die kerk wees?” het Dirk ingegrap en die reis van sy trok gestop omdat hy die antwoord wil hoor."
+      "location": "Paragraph 1 (opening sentence)",
+      "severity": "minor",
+      "source_quote": "Dirk scanned the sanctuary, trying to be discreet and yet utterly failing as he twisted and turned in his seat.",
+      "suggested_fix": "Revise the Afrikaans for grammatical fluency and natural idiom. For example, replace the current phrasing with: “Dirk het die heiligdom deurgesoek; hy probeer diskreet wees, maar dit het hom glad nie geluk nie terwyl hy in sy sitplek heen en weer gedraai het.” Preserve the surrounding <p>…</p> tags.",
+      "translation_quote": "Dirk het die heiligdom geskandeer, probeer om diskreet te wees en tog heeltemal gefaal terwyl hy in sy sitplek gedraai en gedraai het."
     },
     {
-      "location": "<figure> alt attribute",
+      "location": "Paragraph near the end (eyes lit up)",
       "severity": "minor",
-      "source_quote": "A glass jar spilling wrapped mints beside a potted plant",
-      "suggested_fix": "Use a target-language word that matches “glass jar” (a jar, not a bottle). For example, change “glasbottel” to “glasbottel/glaspot” or preferably “glaspot” so the alt reads: “ʼn glaspot wat toegerolde pepermuntjies langs ’n potplant uitstrooi”. Preserve the exact alt attribute structure.",
-      "translation_quote": "ʼn Glasbottel wat toegerolde pepermuntjies langs ’n potplant uitstrooi"
+      "source_quote": "When he did, Dirk’s eyes lit up at the sight.",
+      "suggested_fix": "The current translation reads as if Dirk merely looked up. To preserve the original sense of delight, consider: “Toe hy dit doen, het Dirk se oë van vreugde geglinster toe hy hom sien.” Keep the <p>…</p> wrapper unchanged.",
+      "translation_quote": "Toe hy dit doen, het Dirk se oë by die gesig opgelaat."
+    },
+    {
+      "location": "Several paragraphs (vest pocket wording)",
+      "severity": "minor",
+      "source_quote": "In the pocket of that vest was something very important. In that vest pocket, there were mints.",
+      "suggested_fix": "The translation uses two different compound forms for the vest pocket (\"sak van daardie baadjie\", \"daardie baadjiesak\", \"baadjiesak\"). For consistency and clarity, use a single natural Afrikaans term throughout, for example \"die binnesak van daardie baadjie\". Make this consistent in all occurrences while preserving the original HTML structure.",
+      "translation_quote": "In die sak van daardie baadjie was iets baie belangrik. In daardie baadjiesak was pepermuntjies. ... Hy het toe in sy baadjiesak ingegrawe en ’n pepermuntjie uittrek."
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "eba43e585aeef3a99c756b95ac2481a0",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "afr",
@@ -123,13 +149,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/75a969c45055c429de95d7ac7fb5ad9ae24609ae4e6f17660c8fb6226abf6c70.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "cb49d9b32a113d5c0bf30e44cdec3451c0a5ce43ad2cf97a5830259f43dd1f79",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

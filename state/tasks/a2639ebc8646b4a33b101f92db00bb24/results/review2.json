@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "123b5dd4-3e7b-4c97-8504-e981645e0a05",
+    "response_id": "chatcmpl-EUVas0yKVkpgiQzI7JTEBo3HEFW6V",
+    "usage": {
+      "completion_tokens": 1686,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6073,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7759
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: “We will continue with our story here. Matthew Bridges converted to Roman Catholicism and, wanting to share in the rich hymnic tradition of the Protestant Church, began writing original hymns. Mr. Bridges’ hymns are marked by spirituality and genuine power. One of his hymns we love and enjoy is “Rise, Glorious Conqueror.” Undoubtedly, his greatest hymn is “Crown Him with Many Crowns.”” (source.html)",
+        "severity": "minor",
+        "source_quote": "One of his hymns we love and enjoy is “Rise, Glorious Conqueror.” Undoubtedly, his greatest hymn is “Crown Him with Many Crowns.”",
+        "suggested_fix": "Translate the quoted hymn title “Rise, Glorious Conqueror” into Dutch (or render it consistently as an untranslated proper name only if editorial policy allows). Example: “Een van zijn gezangen die we liefhebben en genieten is ‘Sta op, heerlijk Overwinnaar.’ Zonder twijfel is zijn grootste gezang ‘Crown Him with Many Crowns.’” If you prefer to translate the principal hymn title as well, render “Crown Him with Many Crowns” as “Kroon Hem met vele kronen” consistently throughout the article (including headings and alt text).",
+        "translation_quote": "Een van zijn gezangen die we liefhebben en genieten is “Rise, Glorious Conqueror.” Zonder twijfel is zijn grootste gezang “Crown Him with Many Crowns.”"
+      },
+      {
+        "location": "Image alt attribute: <img alt=\"Sheet music for Crown Him with Many Crowns\"> (source.html and translation html figure)",
+        "severity": "minor",
+        "source_quote": "Sheet music for Crown Him with Many Crowns",
+        "suggested_fix": "Translate the alt text so quoted substantive prose is in the target language. Example: alt=\"Bladmuziek voor Kroon Hem met vele kronen\" (or alt=\"Bladmuziek voor Crown Him with Many Crowns\" only if you decide to keep the hymn title in English consistently; prefer translating the hymn title). Preserve the img tag and attributes exactly otherwise.",
+        "translation_quote": "Bladmuziek voor Crown Him with Many Crowns"
+      },
+      {
+        "location": "Paragraph about the tune: “A great part of this song’s enduring quality is the tune it is paired with. This refrain was written especially for this song by Sir George Job Elvey in 1868 and was given the name of Diademata.” (source.html)",
+        "severity": "minor",
+        "source_quote": "A great part of this song’s enduring quality is the tune it is paired with. This refrain was written especially for this song by Sir George Job Elvey in 1868 and was given the name of Diademata.",
+        "suggested_fix": "In Dutch, render 'refrain' more accurately as 'melodie' or 'muzikale zetting' to avoid implying 'refrein/chorus' if the original means 'tune' or 'setting'. Suggested revision: \"Een groot deel van de blijvende kwaliteit van dit lied is de melodie waarmee het is gecombineerd. Deze melodie werd speciaal voor dit lied geschreven door Sir George Job Elvey in 1868 en kreeg de naam Diademata.\" Preserve HTML.",
+        "translation_quote": "Dit refrein werd speciaal voor dit lied geschreven door Sir George Job Elvey in 1868 en kreeg de naam <em>Diademata</em>."
+      },
+      {
+        "location": "Paragraph citing J. R. Watson: “Hymnology scholar J. R. Watson agrees with this when he observes…” (source.html)",
+        "severity": "minor",
+        "source_quote": "Hymnology scholar J. R. Watson agrees with this when he observes, “Diademata makes a magnificent setting for the text, march-like and joyful without ever becoming mechanical or strident.”",
+        "suggested_fix": "Correct the gendered noun 'Hymnologe' in Dutch to match the English neutral 'hymnology scholar' (J. R. Watson is male). Use 'Hymnoloog' or neutral phrasing: \"Hymnologe J. R. Watson is het hiermee eens\" → \"Hymnoloog J. R. Watson is het hiermee eens\" or \"De hymnologe/hymnoloog J. R. Watson is het hiermee eens\" depending on intended gender. Preserve the quoted observation in Dutch as already translated.",
+        "translation_quote": "Hymnologe J. R. Watson is het hiermee eens wanneer hij opmerkt: “<em>Diademata</em> vormt een magnifieke omlijsting voor de tekst, marsachtig en vreugdevol zonder ooit mechanisch of schril te worden.”"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

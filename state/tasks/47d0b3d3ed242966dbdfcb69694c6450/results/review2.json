@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b48f216b-0348-4beb-a3d0-b26bf9dfcdfb",
+    "response_id": "chatcmpl-EUVaCyWSE507ojTCa7Gixg7JT4yjC",
+    "usage": {
+      "completion_tokens": 809,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9873,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 4864
+      },
+      "total_tokens": 10682
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "section.references > ol > li:nth-child(3)",
+        "severity": "minor",
+        "source_quote": "Sale of Health-Related Products | AMA-Code (ama-assn.org)",
+        "suggested_fix": "Keep the HTML and tags unchanged but adjust the Arabic title to more closely mirror the English metadata while remaining natural in Arabic. For example: \"بيع المنتجات المتعلقة بالصحة | مدونة سلوك AMA (ama-assn.org)\" or \"بيع المنتجات المتعلقة بالصحة | مدونة AMA (ama-assn.org)\". Replace the current translation text only (inside the <cite> element).",
+        "translation_quote": "بيع المنتجات المرتبطة بالصحة | مدونة AMA (ama-assn.org)"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

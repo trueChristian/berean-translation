@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "237ce50f-d238-47a4-aaaa-03aceacfa58e",
+    "response_id": "chatcmpl-EUVanW3kUrJYcNceN4ocKG6iyOkXb",
+    "usage": {
+      "completion_tokens": 1407,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4530,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5937
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph 1 (mother's remark)",
+        "severity": "minor",
+        "source_quote": "“Sit still and look forward.”",
+        "suggested_fix": "Translate the imperative natural in Modern Greek. Replace «Κάτσε ακίνητος και κοιτάζεις μπροστά» with «Κάτσε ακίνητος και κοίτα μπροστά». Preserve surrounding tags and punctuation.",
+        "translation_quote": "«Κάτσε ακίνητος και κοιτάζεις μπροστά»"
+      },
+      {
+        "location": "source.html — paragraph 2 (two rows from the front)",
+        "severity": "minor",
+        "source_quote": "Two rows from the front of the auditorium, Dirk spotted Brother Silas’ white hair and his black vest.",
+        "suggested_fix": "The English says \"two rows from the front of the auditorium\" (i.e., two rows back from the front). The Greek «δύο σειρές μπροστά από την εξέδρα» shifts the spatial reference by implying 'in front of the platform/stage'. Better: «Δύο σειρές από το μπροστινό μέρος της αίθουσας, ο Dirk είδε...» or «Δύο σειρές πίσω από το μπροστινό μέρος της αίθουσας...». Replace the sentence accordingly, preserving tags.",
+        "translation_quote": "«Δύο σειρές μπροστά από την εξέδρα, ο Dirk είδε τα λευκά μαλλιά του Αδελφού Silas και το μαύρο γιλέκο του.»"
+      },
+      {
+        "location": "source.html — paragraph 5 (idiom: \"before he knew it\")",
+        "severity": "minor",
+        "source_quote": "Dirk didn’t lose any time eating that mint, and before he knew it, the mint was gone and he could go on with his afternoon and with the rest of the week.",
+        "suggested_fix": "The Greek uses an incorrect verb form «πριν το καταλόγιζε». Replace with the idiomatic «πριν το καταλάβει» so the sentence reads naturally and faithfully: «Ο Dirk δεν άργησε να φάει εκείνη τη μέντα, και πριν το καταλάβει η μέντα είχε φύγει...». Preserve tags.",
+        "translation_quote": "«Ο Dirk δεν άργησε να φάει εκείνη τη μέντα, και πριν το καταλόγιζε, η μέντα είχε χαθεί... »"
+      },
+      {
+        "location": "source.html — figure alt text (article image)",
+        "severity": "minor",
+        "source_quote": "A glass jar spilling wrapped mints beside a potted plant",
+        "suggested_fix": "Greek alt text has a small agreement/word-choice issue: «Ένα γυάλινο βάζο χύνει τυλιγμένα μέντας δίπλα σε μια γλαστρά με φυτό». Recommend: «Ένα γυάλινο βάζο χύνει τυλιγμένες μέντες δίπλα σε μια γλάστρα με φυτό.» (use feminine forms and standard word spacing/accents). Preserve the alt attribute and surrounding tags.",
+        "translation_quote": "\"Ένα γυάλινο βάζο χύνει τυλιγμένα μέντας δίπλα σε μια γλαστρά με φυτό\""
+      },
+      {
+        "location": "source.html — paragraph describing bird simile",
+        "severity": "minor",
+        "source_quote": "a swarm of young boys and girls began to cluster around Brother Silas like chickadees at a birdfeeder.",
+        "suggested_fix": "Greek text uses «σαν τα σπουργίτια γύρω από ένα ταΐστρα πουλιών», which has an article/gender mismatch. Recommend: «σαν σπουργίτια γύρω από μια ταΐστρα πουλιών.» Replace in place, preserving tags.",
+        "translation_quote": "«σαν τα σπουργίτια γύρω από ένα ταΐστρα πουλιών.»"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

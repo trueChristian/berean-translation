@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "630a5751-6c3a-4b04-a77f-82032c1389a1",
+    "response_id": "chatcmpl-EUVaJKRLYnRNEDBvBmBGu1YHu6Mqd",
+    "usage": {
+      "completion_tokens": 1506,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9623,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11129
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing \"Robert Harris made an acronym CARS...\"",
+        "severity": "minor",
+        "source_quote": "Robert Harris made an acronym CARS, that helps sort out whether information on a website is valid. Credibility, past Accuracy, Reasonableness, and Supporting information are all important to look at to see if we should value the information on a website.",
+        "suggested_fix": "Translate the English keywords into Dutch (preserve surrounding sentence and HTML). For example: replace the parenthetical English words with their Dutch equivalents while keeping the acronym CARS unchanged: \"Credibility (geloofwaardigheid), Accuracy (nauwkeurigheid), Reasonableness (redelijkheid) en Supporting information (ondersteunende informatie)\" or fully in Dutch but keep the acronym: \"geloofwaardigheid, voorgaande nauwkeurigheid, redelijkheid en ondersteunende informatie\" (acroniem CARS behouden).",
+        "translation_quote": "Robert Harris maakte het acroniem CARS, dat helpt bepalen of informatie op een website geldig is. Credibility (geloofwaardigheid), Accuracy (voorgaande nauwkeurigheid), Reasonableness (redelijkheid) en Supporting information (ondersteunende informatie) zijn allemaal belangrijk om te bekijken om te beoordelen of we waarde moeten hechten aan de informatie op een website."
+      },
+      {
+        "location": "References section (<section class=\"references\">)",
+        "severity": "minor",
+        "source_quote": "<ol>\n      <li><cite>Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models - PMC (nih.gov)</cite></li>\n      <li><cite>Evaluating Internet Research Sources</cite></li>\n      <li><cite>Sale of Health-Related Products | AMA-Code (ama-assn.org)</cite></li>\n      <li><cite>65% of Americans believe they are above average in intelligence: Results of two nationally representative surveys - PMC (nih.gov)</cite></li>\n    </ol>",
+        "suggested_fix": "Translate the cited titles into Dutch while preserving the <cite> tags and URL text. For consistency translate all titles (or mark them as original English titles in parentheses). Example replacements inside the same <li><cite> elements: \n- \"Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models - PMC (nih.gov)\" → \"Prestaties van ChatGPT op de USMLE: potentieel voor AI-ondersteund medisch onderwijs met grote taalmodellen - PMC (nih.gov)\" \n- \"Evaluating Internet Research Sources\" → \"Het evalueren van internetbronnen voor onderzoek\" (already translated) \n- \"Sale of Health-Related Products | AMA-Code (ama-assn.org)\" → \"Verkoop van gezondheidsgerelateerde producten | AMA-Code (ama-assn.org)\" (already translated) \n- \"65% of Americans believe they are above average in intelligence: Results of two nationally representative surveys - PMC (nih.gov)\" → \"65% van de Amerikanen gelooft dat zij bovengemiddeld intelligent zijn: Resultaten van twee representatieve nationale enquêtes - PMC (nih.gov)\". \nPreserve the <section class=\"references\" aria-label=\"References\"> wrapper and <ol>/<li>/<cite> structure exactly.",
+        "translation_quote": "<section class=\"references\" aria-label=\"References\">\n    <ol>\n      <li><cite>Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models - PMC (nih.gov)</cite></li>\n      <li><cite>Het evalueren van internetbronnen voor onderzoek</cite></li>\n      <li><cite>Verkoop van gezondheidsgerelateerde producten | AMA-Code (ama-assn.org)</cite></li>\n      <li><cite>65% van de Amerikanen gelooft dat zij bovengemiddeld intelligent zijn: Resultaten van twee representatieve nationale enquêtes - PMC (nih.gov)</cite></li>\n    </ol>\n  </section>"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

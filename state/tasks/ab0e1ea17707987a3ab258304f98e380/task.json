@@ -2,7 +2,6 @@
   "article_id": "8f996405-d870-4074-947b-35190faad643",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,24 +61,52 @@
         },
         "total_tokens": 2674
       }
-    }
-  ],
-  "findings": [
-    {
-      "location": "<div class=\"poem\"> stanza 2 (lines: \"One working band, one harvest-song, one King omnipotent.\")",
-      "severity": "major",
-      "source_quote": "One working band, one harvest-song, one King omnipotent.",
-      "suggested_fix": "Render \"one working band\" as a group (band) rather than as a noun meaning \"work\"; remove the added phrase \"en unión.\" A faithful rendering could be: \"Una sola agrupación laboriosa, un mismo canto de siega, un Rey omnipotente.\" or \"Una banda laboriosa, un canto de siega, un Rey omnipotente.\" Preserve the triplet rhythm and parallelism.",
-      "translation_quote": "una sola labor, un mismo canto de siega, un Rey omnipotente en unión."
     },
     {
-      "location": "<div class=\"poem\"> stanza 1 (line: \"The true thy chartered freemen are / of every age and clime:\")",
-      "severity": "minor",
-      "source_quote": "The true thy chartered freemen are\nof every age and clime:",
-      "suggested_fix": "Correct number agreement and use idiomatic Spanish for \"age and clime.\" For example: \"Los verdaderos, tus libertos manumitidos son / de toda edad y clima:\" or more smoothly: \"Tus verdaderos liberados son de toda edad y clima:\" or \"Tus verdaderos ciudadanos son de toda edad y clima:\" Keep the idea of enfranchised/members (\"chartered freemen\") and preserve plural agreement.",
-      "translation_quote": "Tus verdaderos ciudadanos son\nde toda era y climas:"
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1276,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1541,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2817
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> (estrofa 1, verso 3)",
+      "severity": "major",
+      "source_quote": "The true thy chartered freemen are\n  of every age and clime:",
+      "suggested_fix": "Translate “chartered freemen” to convey el sentido de ciudadanos libres con derechos garantizados por una carta o estatuto. Ejemplo de solución fiel al sentido en español: “Tus verdaderos ciudadanos con carta son / de toda edad y clima:” o “Tus verdaderos hombres libres, con derechos, son / de toda edad y clima:” Mantener la métrica y las etiquetas HTML tal como están.",
+      "translation_quote": "Tus verdaderos liberados son\n  de toda edad y clima:"
+    },
+    {
+      "location": "<div class=\"poem\"> (estrofa 2, verso 1 y 3)",
+      "severity": "minor",
+      "source_quote": "One holy church, one army strong,\n  one steadfast, high intent;\n  one working band, one harvest-song,",
+      "suggested_fix": "“One working band” se ha traducido como “una banda laboriosa”, pero en español moderno “banda” puede entenderse como grupo musical o banda armada. Recomiendo “un grupo trabajador” o “una tropa laboriosa” según el tono deseado. Ejemplo: “Una santa iglesia, un ejército fuerte, / una firme y noble intención; / un grupo trabajador, un canto de siega,”",
+      "translation_quote": "Una santa iglesia, un ejército fuerte,\n  una firme y noble intención;\n  una banda laboriosa, un canto de siega,"
+    },
+    {
+      "location": "<div class=\"poem\"> (estrofa 5, verso 3)",
+      "severity": "minor",
+      "source_quote": "unharmed upon the eternal Rock\n  the eternal city stands.",
+      "suggested_fix": "La traducción “Roca” está capitalizada (“Roca eterna”). Aunque no es necesariamente incorrecto si se pretende personificar la Roca como símbolo teológico (Cristo), la capitalización puede ser inconsistente con el resto del texto. Si no se desea personificación destacada, use “roca eterna” en minúscula. Ejemplo: “ilesa sobre la roca eterna / la ciudad eterna permanece.”",
+      "translation_quote": "ilesa sobre la Roca eterna\n  la ciudad eterna permanece."
+    }
+  ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "ab0e1ea17707987a3ab258304f98e380",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "spa",
@@ -123,13 +150,13 @@
     }
   },
   "protected": false,
-  "quality_score": 68,
+  "quality_score": 80,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d3ca99062c7b8454e6587c9b32705a7d35c0d70cbcf6c1f6f8eaefeb762c95bf.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "63f32eb5571bce4d8b82e7103273aaf0a3a4bf91449228454d16a781256867bd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

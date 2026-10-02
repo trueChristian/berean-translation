@@ -2,7 +2,6 @@
   "article_id": "b37f8111-4563-4b5b-ab9f-1f87bcd2b46a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,24 +61,45 @@
         },
         "total_tokens": 9929
       }
-    }
-  ],
-  "findings": [
-    {
-      "location": "Final paragraph and source note (source.html end)",
-      "severity": "major",
-      "source_quote": "The article is reprinted by request. It was first printed in The Heartbeat of the Remnant in the Autumn 2019 issue. Previously printed in Earthen Vessels.",
-      "suggested_fix": "Translate the entire source-note into Arabic, including the publication titles or provide a clear, faithful Arabic rendering of those publication titles in the same HTML structure. Preserve the HTML tags and order. For example, replace the English titles inside the <span> elements with Arabic-rendered titles while keeping the surrounding <em> and <span> tags: <p class=\"source-note\"><em>تم إعادة طبع المقال بناءً على طلب. نُشر لأول مرة في </em><span>نبض الباقين</span><em> في عدد خريف 2019. نُشر سابقًا في </em><span>آنية طينية</span><em>.</em></p> — or, if the publisher prefers to keep the original English names, include an Arabic translation immediately alongside them (also inside the same span), e.g. <span>The Heartbeat of the Remnant (نبض الباقين)</span> and <span>Earthen Vessels (آنية طينية)</span>. Do not leave the publication titles only in English; render them in Arabic text within the same HTML structure.",
-      "translation_quote": "<p class=\"source-note\"><em>تم إعادة طبع المقال بناءً على طلب. نُشر لأول مرة في </em><span>The Heartbeat of the Remnant</span><em> في عدد خريف 2019. نُشر سابقًا في </em><span>Earthen Vessels</span><em>.</em></p> "
     },
     {
-      "location": "Paragraph about gifting the army officer (source.html mid-late)",
-      "severity": "minor",
-      "source_quote": "my husband left for another trip back to the village to “heap on coals of fire” by giving the angry army officer a solar panel and a transformer on top of the other things he demanded.",
-      "suggested_fix": "Correct the mistranslation/typo for 'transformer' and consider a more literal/faithful rendering of the idiom “heap on coals of fire” (if desired by the editor). At minimum change 'محولة' to the correct Arabic noun 'محول'. Suggested corrected Arabic phrase preserving HTML structure/context: \"...غادر هذا الصباح في رحلة أخرى إلى القرية ليُقدّم حسب التعبير الإنجليزي 'heap on coals of fire' بإعطاء الضابط الغاضب لوحًا شمسيًا ومحولًا بالإضافة إلى الأشياء الأخرى التي طالب بها.\"",
-      "translation_quote": "\"...غادر هذا الصباح في رحلة أخرى إلى القرية ليُسخِّن قلب الضابط الغاضب بإعطائه لوحًا شمسيًا ومحولة بالإضافة إلى الأشياء الأخرى التي طالب بها.\""
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1006,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5985,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6991
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "findings": [
+    {
+      "location": "Paragraph beginning \"My husband is exhausted...\" (English) / Paragraph beginning \"زوجي مُنهك...\" (Arabic)",
+      "severity": "major",
+      "source_quote": "to “heap on coals of fire” by giving the angry army officer a solar panel and a transformer on top of the other things he demanded.",
+      "suggested_fix": "Translate the quoted English idiom into Arabic rather than leaving it in English. For example: replace the English phrase with its Arabic equivalent while preserving surrounding punctuation and HTML: …غادر هذا الصباح في رحلة أخرى إلى القرية ليُقدّم، بحسب التعبير الإنجليزي، «كَمْ عُودٍ من جَمْرٍ مُشتَعِل»، بإعطاء الضابط الغاضب لوحًا شمسيًا…  (Or better, use a natural Arabic rendering: «ليضع فوق رأس الضابط الغاضب أكوامًا من الجمر» if stylistically preferable.) Ensure the English quote is removed so no substantive quoted prose remains untranslated.",
+      "translation_quote": "…غادر هذا الصباح في رحلة أخرى إلى القرية ليُقدّم حسب التعبير الإنجليزي 'heap on coals of fire' بإعطاء الضابط الغاضب لوحًا شمسيًا ومحولًا…"
+    },
+    {
+      "location": "Paragraph beginning \"This rests my mind...\" (English) / Paragraph beginning \"هذا يريح عقلي...\" (Arabic)",
+      "severity": "minor",
+      "source_quote": "It’s cold (45 degrees or colder in the morning).",
+      "suggested_fix": "Do not add an explicit temperature scale that the English did not specify. Either leave the original wording untranslated in meaning (i.e., \"بارد—45 درجة أو أقل في الصباح\") or convert to a localized scale only if the source specified it. Suggested fix: remove “فهرنهايت” so the sentence reads: \"الجو بارد (45 درجة أو أقل في الصباح).\" If you prefer to localize to Celsius, provide both forms and keep the original number as printed (e.g., \"(حوالي 7°م أو أقل؛ 45 درجة)\"), but do not invent a unit not present in the source.",
+      "translation_quote": "الجو بارد (45 درجة فهرنهايت أو أقل في الصباح)."
+    }
+  ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "827e38f65acd70dc2825a00631ffdc28",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ara",
@@ -123,13 +143,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 82,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8a0658267fa9eaeafccc26ac6637cde2343d272e4862413edce341f1010a3f2c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "810e77f1e38c86de9278d0fba622dcb0789774ee530b139604475db68ad15426",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

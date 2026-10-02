@@ -2,7 +2,6 @@
   "article_id": "b5ea052a-167f-45c4-bf40-cd463c4546b6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,38 +61,45 @@
         },
         "total_tokens": 11563
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 851,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6658,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7509
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "source.html paragraph: \"Jesus had just healed a blind man, and the Jews cast him out of the temple.\"",
+      "location": "Paragraph 3 (source.html) — sentence about robins",
       "severity": "major",
-      "source_quote": "Jesus had just healed a blind man, and the Jews cast him out of the temple.",
-      "suggested_fix": "Translate the phrase to Arabic faithfully as in the English: e.g. «لقد شفى يسوع للتو إنسانًا أعمى، وطرده اليهود من الهيكل.» Preserve \"blind man\" (أعمى / رجل أعمى) rather than \"leper.\"",
-      "translation_quote": "كان يسوع قد شفى للتو أبرصاً، وطرد اليهود الرجل من الهيكل."
+      "source_quote": "Northern tradition states that the robins must get snowed on three times before the full arrival of spring.",
+      "suggested_fix": "Translate the bird correctly as the English \"robins\". Replace \"السنونو\" with a correct Arabic equivalent for robin, e.g. \"الحمامة الحمراء الصدر\" is not conventional; better: use the common Arabic name \"الروبن\" (transliteration) or \"الطائر الدوري، الروبن\". Suggested Arabic rendering: \"يقول تقليد شمالي إن طائر الروبين يجب أن تتساقط عليه الثلوج ثلاث مرات قبل وصول الربيع الكامل.\"",
+      "translation_quote": "تقليد شمالي يقول إن السنونو يجب أن يتساقط عليه الثلج ثلاث مرات قبل وصول الربيع الكامل."
     },
     {
-      "location": "source.title",
+      "location": "Paragraph 2 (source.html) — mention of song title",
       "severity": "minor",
-      "source_quote": "It Was Winter",
-      "suggested_fix": "Use a more idiomatic, grammatically natural Arabic title that preserves the English meaning, e.g. «كان الشتاء» (preferred) or «لقد كان شتاءً». Replace the current «كانَ شِتاءً» with the chosen form.",
-      "translation_quote": "كانَ شِتاءً"
-    },
-    {
-      "location": "source.html opening italic scripture (John 10:22)",
-      "severity": "minor",
-      "source_quote": "And it was at Jerusalem the feast of the dedication, and it was winter (John 10:22).",
-      "suggested_fix": "Use the conventional Arabic rendering of the phrase \"feast of the dedication\" such as «عيد التدشين» or the commonly used «عيد التدشين (عيد التجديد)». For example: «وكان في أورشليم عيد التدشين، وكان الشتاء. (يوحنا 10:22).» Replace the transliterated/unclear «أَيَّامُ الدِّيبُورَةِ» with the standard term.",
-      "translation_quote": "«وَكَانَتْ فِي أُورُشَلِيمَ أَيَّامُ الدِّيبُورَةِ، وَكَانَ الشِّتَاءُ. (يوحنا 10:22)."
-    },
-    {
-      "location": "source.html quote (Genesis 25:8)",
-      "severity": "minor",
-      "source_quote": "It was at the gates of winter that “Abraham gave up the ghost, and died in a good old age” (Genesis 25:8).",
-      "suggested_fix": "Render the verse in a conventional, faithful Arabic Bible phrasing without added or duplicated adjectives. For example: «آبراهام أسلم الروح ومات في شيخوخة طيبة» or the standard Arabic Bible: «فَأَفْرَغَ إِبْرَاهِيمُ نَفْسَهُ، وَمَاتَ شَيخًا شَيخًا، شَبْعَانَ الأَيَّامِ» — choose the widely accepted Arabic Bible wording used on the site. Remove the odd extra words such as the duplicate or unusual «شَيْخًا شَيخًا وَمَرِيحًا» if not part of the standard text.",
-      "translation_quote": "كان عند أبواب الشتاء أن «آبْرَاهِيمُ أَفْرَغَ نَفْسَهُ، وَمَاتَ شَيْخًا شَيخًا وَمَرِيحًا» (تكوين 25:8)."
+      "source_quote": "While a few gay tunes, such as Winter Wonderland, seek to capitalize upon its majestic moments, winter is generally despised by the normal inhabitants of this earth.",
+      "suggested_fix": "Translate or transliterate the song title into Arabic (and keep it in quotation marks). For example: «مثل أغنية \"Winter Wonderland\" (أرض العجائب الشتوية)». A concise fix: replace the English-only title with a transliteration: \"مثل أغنية 'وينتر وندرلاند'\" or a translated title in Arabic: \"أرض العجائب الشتوية\" depending on the magazine's style.",
+      "translation_quote": "بينما تحاول بعض الألحان المبهجة، مثل Winter Wonderland، الاستفادة من لحظاته البهيّة، إلا أن سكان الأرض العاديين يكرهون الشتاء عامة."
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "6dd139319da576741b133c3a30098212",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ara",
@@ -137,13 +143,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 82,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/cb70a64f61d5d6ea793a28714a8210160bd2f71712162f15c2619f188dcf0e3f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "43083ba7fbaa256f5105f34da9e51d125c38a107a8d91b3864609877708b8ea8",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

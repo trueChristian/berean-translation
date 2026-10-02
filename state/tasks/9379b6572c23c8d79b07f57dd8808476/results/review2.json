@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7c2859b2-de3f-4fb8-ac1b-f72cb18500b5",
+    "response_id": "chatcmpl-EUVaiIwHLrDmFpxDYOkmfHZiV6DGD",
+    "usage": {
+      "completion_tokens": 1493,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1088,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12647,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 14140
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — opening paragraph (article-note)",
+        "severity": "minor",
+        "source_quote": "After printing all five articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet.",
+        "suggested_fix": "Translate the cited publication title into Swedish or mark it clearly as a proper name. If it is an English-periodical title that should remain in the original, keep it as-is but enclose it in the same emphasis tags. Suggested Swedish translation if desired: “Efter att ha tryckt alla fem artiklar i </em>The Heartbeat of the Remnant<em> publicerar vi dem i ett häfte.” (If the magazine name is to remain in English, keep exactly as in the source.)",
+        "translation_quote": "Efter att ha tryckt alla fem artiklar i </em>The Heartbeat of the Remnant<em> publicerar vi dem i ett häfte."
+      },
+      {
+        "location": "source.section / translation.section",
+        "severity": "minor",
+        "source_quote": "INSPIRATIONS FOR YOUTH",
+        "suggested_fix": "Use the plural or a more idiomatic Swedish header. Recommended: “INSPIRATIONER FÖR UNGA” (plural) or “INSPIRATION FÖR Unga” with consistent capitalization. Update the translation.section field accordingly.",
+        "translation_quote": "INSPIRATION FÖR UNGA"
+      },
+      {
+        "location": "source.title / translation.title",
+        "severity": "minor",
+        "source_quote": "A Christ-Centered Courtship Series",
+        "suggested_fix": "Title is translated as “En Kristuscentrerad uppvaktning — serie”. For smoother, idiomatic Swedish consider: “En kristuscentrerad uppvaktning — en serie” or simply “En kristuscentrerad uppvaktningsserie”. Adjust capitalization to match site conventions.",
+        "translation_quote": "En Kristuscentrerad uppvaktning — serie"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

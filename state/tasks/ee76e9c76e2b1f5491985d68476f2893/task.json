@@ -2,7 +2,6 @@
   "article_id": "042fce50-3724-4100-b397-093c6d081e89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,31 +61,52 @@
         },
         "total_tokens": 6297
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1503,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3516,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5019
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "<article> paragraph 1 (first paragraph)",
+      "location": "<article> <p> (first paragraph) — proper name",
       "severity": "major",
-      "source_quote": "A small group of radical Christians quietly gathered in the home of Felix Mantz in Zürich, Switzerland.",
-      "suggested_fix": "Replace the Russian word 'тихо' with the Greek adverb that conveys the English 'quietly', e.g. 'σιωπηλά' or 'ήσυχα', preserving the author's original names/orthography exactly as in the English source. Example corrected sentence fragment: «Μια μικρή ομάδα ριζοσπαστικών χριστιανών συγκεντρώθηκε σιωπηλά στο σπίτι του Felix Mantz στη Ζυρίχη της Ελβετίας.»",
-      "translation_quote": "Μια μικρή ομάδα ριζοσπαστικών χριστιανών συγκεντρώθηκε тихо στο σπίτι του Felix Mantz στη Ζυρίχη της Ελβετίας."
+      "source_quote": "Yet, on this momentous winter evening, Feliz Mantz, Conrad Grebel, George Blaurock, and a few others took their obedience one step further.",
+      "suggested_fix": "Preserve the printed English spelling \"Feliz Mantz\" as it appears in the authoritative English source. In the Greek translation, replace \"Felix Mantz\" with \"Feliz Mantz\" (preserving surrounding punctuation and HTML structure). Example replacement inside the same <p> element: \"... εκείνη τη μνημειώδη χειμωνιάτικη βραδιά, ο Feliz Mantz, ο Conrad Grebel, ...\"",
+      "translation_quote": "Ωστόσο, εκείνη τη μνημειώδη χειμωνιάτικη βραδιά, ο Felix Mantz, ο Conrad Grebel, ο George Blaurock και μερικοί άλλοι έκαναν την υπακοή τους ένα βήμα παραπέρα."
     },
     {
-      "location": "<article> paragraph 5 (Ecclesiastes quotation)",
-      "severity": "major",
-      "source_quote": "“And further, by these, my son, be admonished: of making many books there is no end; and much study is a weariness of the flesh” (Ecclesiastes 12:12).",
-      "suggested_fix": "The quoted Scripture must be rendered faithfully and idiomatically into Modern Greek. The current rendering contains an incorrect/unclear phrase ('η μελέτη πλησίστια της σαρκός'). Replace with a clear, faithful Greek translation that preserves the meaning and punctuation of the original quotation. Suggested rendering: «Και πέραν τούτων, τέκνον μου, πρόσεχε· βιβλίων πολλών δεν υπάρχει τέλος, και πολλή μελέτη κόπος της σαρκός» (Εκκλησιαστής 12:12). Ensure the verse reference '(Εκκλησιαστής 12:12)' remains unchanged in placement and numbering.",
-      "translation_quote": "Ο σοφός κήρυκας είχε δίκιο όταν έγραψε, «Και πέραν τούτων, τέκνον μου, να προσέχεις· βιβλίων πολύτων ουκ έσται τέλος, και η μελέτη πλησίστια της σαρκός» (Εκκλησιαστής 12:12)."
-    },
-    {
-      "location": "<figure> img alt attribute",
+      "location": "<article> <p> (third paragraph) — periodical title left in English",
       "severity": "minor",
-      "source_quote": "Gutenberg Bible on display at the U.S. Library of Congress",
-      "suggested_fix": "Translate the image alt text into Greek to match the translated figcaption and to avoid leaving substantive metadata in English. Suggested alt text: «Η Βίβλος του Gutenberg σε έκθεση στη Βιβλιοθήκη του Κογκρέσου των ΗΠΑ». Replace the current English alt attribute with this Greek text.",
-      "translation_quote": "<img src=\"/images/articles/042fce50-3724-4100-b397-093c6d081e89-1.jpg\" alt=\"Gutenberg Bible on display at the U.S. Library of Congress\">"
+      "source_quote": "... it is much easier to print a periodical magazine such as The Heartbeat of the Remnant.",
+      "suggested_fix": "The authoritative English text names the periodical; the translation should either render a conventional Greek title or present the original title with a clear Greek rendering. Do not leave the quoted substantive title untranslated without indication. Suggested fixes (choose one and apply in-place, preserving tags):\n- Translate to Greek: «... είναι πολύ ευκολότερο να τυπώσεις ένα περιοδικό όπως Ο Παλμός των Υπολειμμάτων.»\n- Or keep original and add a Greek rendering: «... ένα περιοδικό όπως The Heartbeat of the Remnant (Ο Παλμός των Υπολειμμάτων).»\nKeep punctuation and HTML intact.",
+      "translation_quote": "Αλλά σήμερα είναι πολύ ευκολότερο να τυπώσεις ένα περιοδικό όπως το The Heartbeat of the Remnant."
+    },
+    {
+      "location": "<figure> <img> alt / surrounding sentence (third paragraph) — Greek grammar",
+      "severity": "minor",
+      "source_quote": "... the printing press will print 6,000 copies in a little over 12 hours.",
+      "suggested_fix": "Fix Greek article/noun agreement and idiomatic phrasing. Replace \"το πιεστήριο θα τυπώσει 6.000 αντίτυπα\" (if present) or the current wording \"το πιεστήριο θα τυπώσει 6.000 αντίτυπα\" with the grammatically correct \"το πιεστήριο θα τυπώσει 6.000 αντίτυπα σε λίγο παραπάνω από 12 ώρες.\" Also ensure use of comma for thousands is acceptable for your house style; otherwise keep the Arabic digits unchanged. Preserve surrounding HTML.",
+      "translation_quote": "Αφού ανεβούν τα αρχεία, το πιεστήριο θα τυπώσει 6.000 αντίτυπα σε λίγο παραπάνω από 12 ώρες."
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "ee76e9c76e2b1f5491985d68476f2893",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ell",
@@ -130,13 +150,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 80,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/901933390bbab68b30ba65d224e53d69f0af822b49f3cdb694876c259f4bd250.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a8b13667ad0bdee6e94fb75c94d958fc5f824dbcd185202cd5cc7be6e9274a4c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

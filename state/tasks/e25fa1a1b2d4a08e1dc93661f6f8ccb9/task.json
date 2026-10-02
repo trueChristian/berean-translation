@@ -2,7 +2,6 @@
   "article_id": "f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,45 +61,45 @@
         },
         "total_tokens": 3622
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1209,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1518,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2727
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "<div class=\"poem\"> first stanza, line 1-4",
-      "severity": "major",
-      "source_quote": "'Tis winter now; the fallen snow\n  has left the heavens all coldly clear;\n  through leafless boughs, the sharp winds blow,\n  and all the earth lies dead and drear.",
-      "suggested_fix": "Übersetze die vier Zeilen möglichst wörtlich und idiomatisch ins Deutsche, ohne Bedeutungsverschiebung. Beispielvorschlag, der den Ton und die Bildsprache bewahrt: \"Es ist jetzt Winter; der gefallene Schnee\n  hat den Himmel kalt und klar gemacht;\n  durch blattlose Zweige wehen scharfe Winde,\n  und alles Land liegt tot und düster.\"",
-      "translation_quote": "'Es ist jetzt Winter; der gefallene Schnee\n  hat den Himmel kalt und klar gemacht;\n  durch blattlose Zweige weht der scharfe Weh,\n  und die ganze Erde liegt tot und sacht."
-    },
-    {
-      "location": "<div class=\"poem\"> second stanza, line 1 and 4",
-      "severity": "major",
-      "source_quote": "And yet God's love is not withdrawn;\n  his life within the keen air breathes;\n  his beauty paints the crimson dawn,\n  and clothes each branch with glittering wreaths.",
-      "suggested_fix": "Die Zeilen 1–4 sollten die Zusicherung von Gottes fortwährender Gegenwart und die Bildmetaphern (\"crimson dawn\", \"glittering wreaths\") treu wiedergeben. Vermeide falsche Bedeutungen wie \"Duft\" oder unklare Neuschöpfungen. Vorschlag: \"Und doch ist Gottes Liebe nicht entschwunden;\n  sein Leben atmet in der scharfen Luft;\n  seine Schönheit malt die purpurne Morgenröte\n  und kleidet jeden Zweig mit funkelnden Kränzen.\"",
-      "translation_quote": "Und doch ist Gottes Liebe nicht entzogen;\n  sein Leben atmet in der klaren Luft;\n  sein Schönsein malt die purpurne Morgenröte, \n  und schmückt jeden Ast mit funkelndem Duft."
-    },
-    {
-      "location": "<div class=\"poem\"> third stanza, lines 1–4",
-      "severity": "major",
-      "source_quote": "And though abroad the sharp winds blow,\n  and skies are chill, and frosts are keen,\n  home closer draws her circle now,\n  and warmer glows her light within.",
-      "suggested_fix": "Die Personifikation von \"home\" als Ortskreis/Heim muss erhalten bleiben; die Übersetzung soll Sinn und Bildsprache (näheres Zusammenrücken, wärmeres Licht drinnen) wiedergeben. Vorschlag: \"Und obgleich draußen scharfe Winde wehen,\n  die Himmel kühl und Reif so beißend sind,\n  zieht das heimische Kreis sich enger nun,\n  und wärmer leuchtet drinnen sein Licht.\"",
-      "translation_quote": "Und obwohl draußen scharfe Winde wehn,\n  und Himmel kühl, und Reif so bitterschchien,\n  zieht heimwärts nun das Haus den Kreis sich zu, \n  und wärmer leuchtet drin sein liebendien."
-    },
-    {
-      "location": "<div class=\"poem\"> fourth stanza, entire stanza",
-      "severity": "major",
-      "source_quote": "O God, you give the winter's cold,\n  as well as summer's joyous rays,\n  you warmly in your love enfold,\n  and keep us through life's wintry days.",
-      "suggested_fix": "Die theologische Aussage (Gott schenkt sowohl Winterkälte als auch Sommerstrahlen; er hält uns in seiner Liebe durch die \"wintry days\" des Lebens) darf nicht verfälscht oder mit erfundenen Begriffen ersetzt werden. Vermeide Neuschöpfungen wie \"Liebesbrauch\" oder \"Winterwahlen\". Vorschlag: \"O Gott, du gibst die Winterkälte ebenso\n  wie die frohen Strahlen des Sommers;\n  du hüllst uns warm in deiner Liebe\n  und behütest uns durch der Lebens wintrige Tage.\"",
-      "translation_quote": "O Gott, du gibst die Winterkälte auch,\n  wie auch der Sommer frohe Strahlen;\n  du hüllst uns warm in deiner Liebesbrauch,\n  und hältst uns durch der Lebens Winterwahlen."
-    },
-    {
-      "location": "<figure>\n  <img ... alt=\"...\">",
+      "location": "Third stanza, line 4 (inside <div class=\"poem\">)",
       "severity": "minor",
-      "source_quote": "alt=\"A lone bare tree in a snowy field\"",
-      "suggested_fix": "Die Bildbeschreibung ist bereits ins Deutsche übertragen, das ist korrekt. Kleinere stilistische Verbesserung möglich: \"Ein einzelner kahler Baum auf einem verschneiten Feld\". Keine inhaltliche Änderung notwendig.",
-      "translation_quote": "alt=\"Ein einzelner kahler Baum in einem verschneiten Feld\""
+      "source_quote": "and warmer glows her light within.",
+      "suggested_fix": "Preserve the personification and feminine possessive used in the English original. Replace the translation \"und wärmer leuchtet drinnen sein Licht.\" with a version that reflects \"her light\" (as in the source) and reads idiomatically in German, for example: \"und wärmer leuchtet drinnen ihr Licht.\" Keep the surrounding HTML unchanged.",
+      "translation_quote": "und wärmer leuchtet drinnen sein Licht."
+    },
+    {
+      "location": "Fourth stanza, line 4 (inside <div class=\"poem\">)",
+      "severity": "minor",
+      "source_quote": "and keep us through life's wintry days.",
+      "suggested_fix": "Correct the German grammar for clarity. Replace the ungrammatical phrase \"und behütest uns durch der Lebens wintrige Tage.\" with an idiomatic rendering that preserves meaning and structure, for example: \"und behütest uns durch die wintrigen Tage des Lebens.\" Keep the surrounding HTML unchanged.",
+      "translation_quote": "und behütest uns durch der Lebens wintrige Tage."
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "e25fa1a1b2d4a08e1dc93661f6f8ccb9",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "deu",
@@ -144,13 +143,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1ed33a15abc99ca0a5621844be43f6764a1df6e4da098bed1eb0cbfbb0276cbd.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

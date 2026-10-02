@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "703d2514-3568-4c65-8fdb-406ea28077fd",
+    "response_id": "chatcmpl-EUVaWXFSZIBUZ45txsXkapV7JiCQ1",
+    "usage": {
+      "completion_tokens": 926,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4171,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5097
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph",
+        "severity": "minor",
+        "source_quote": "Dirk scanned the sanctuary, trying to be discreet and yet utterly failing as he twisted and turned in his seat.",
+        "suggested_fix": "Use more natural Bengali phrasing while preserving meaning. For example: replace the translation sentence with: \"ডির্ক আসনবন্দি থাকতেই গোপনে চার্চ ঘোরাঘুরি করলেন, কিন্তু আসন ঝটকানো ও বেঁকে বসার কারণে এ কাজটিতে পুরোপুরি ব্যর্থ হলেন।\" Preserve the surrounding <p> tags.",
+        "translation_quote": "ডির্ক সভাকক্ষটি অদেখাভাবেই স্ক্যান করল, কিন্তু সে চেয়ার ঘুরাচ্ছিল এবং কাতকাটতে করছিল বলে পুরোপুরি ব্যর্থ হয়ে যাচ্ছিল।"
+      },
+      {
+        "location": "Sentence about the mint brand",
+        "severity": "minor",
+        "source_quote": "Lifesavers, to be exact.",
+        "suggested_fix": "Either keep the brand name as-is but mark it as a loanword in Bengali script or translate the clarifying sense. Suggested Bengali: \"ঠিক বলতে গেলে 'লাইফসেভার' ব্র্যান্ডের মিন্ট।\" This keeps the named candy clear to readers.",
+        "translation_quote": "নিখুঁতভাবে বলতে গেলে লাইফসেভারস।"
+      },
+      {
+        "location": "Paragraph about parents assigning Numbers 11",
+        "severity": "minor",
+        "source_quote": "Father then asked Dirk to read through Numbers 11 and copy down the sentences that showed ungratefulness and how God felt about it.",
+        "suggested_fix": "Slightly adjust wording for clarity and natural flow while keeping exact reference. Suggested Bengali: \"পিতা তখন ডির্ককে সংখ্যা 11 অধ্যায় পড়ে সেই বাক্যগুলো লিখে নিতে বললেন যা কৃতজ্ঞতাহীনতা দেখায় এবং ঈশ্বর সেই সম্পর্কে কেমন অনুভব করতেন তা নির্দেশ করে।\" Preserve the <p> tag.",
+        "translation_quote": "পিতা তখন ডির্ককে সংখ্যা 11 অধ্যায় পড়তে এবং কপি করে নোট নিতে বললেন যাতে কৃতজ্ঞতাহীনতা এবং ঈশ্বর তা সম্পর্কে কেমন অনুভব করতেন—সেই সমস্ত বাক্যগুলো লিপিবদ্ধ করা হয়।"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

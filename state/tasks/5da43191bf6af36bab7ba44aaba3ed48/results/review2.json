@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "83009ee4-f9fd-43e3-8702-6940b4b4b55d",
+    "response_id": "chatcmpl-EUVadeS2J2u5HhVorNhYcLpObKl7x",
+    "usage": {
+      "completion_tokens": 1451,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5190,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6641
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"By this time, the strong agricultural society... Turkey Red Wheat.\" (source.html fourth paragraph of that section)",
+        "severity": "critical",
+        "source_quote": "its vast fields sown with wheat developed specifically by the Mennonites: Turkey Red Wheat.",
+        "suggested_fix": "Translate the verb correctly to reflect sowing/planting (not theft) and translate or explain the cultivar name. For example: replace the current sentence in Kiswahili with wording that preserves the original meaning: \"mashamba yake makubwa yaliwekwa/pandwa ngano iliyotengenezwa mahsusi na Mennonite: ngano aina ya 'Turkey Red'.\" Ensure the verb used is ‘kuweka’, ‘kupanda’ or ‘kupandwa’ rather than 'kuibwa'.",
+        "translation_quote": "mashamba yake makubwa yakiwa yameibwa ngano iliyotengenezwa mahsusi na Mennonites: Ngano ya Turkey Red."
+      },
+      {
+        "location": "First paragraph of historical overview (source.html): reference to 'Viceroy Potemkin'",
+        "severity": "minor",
+        "source_quote": "the urgings of the Viceroy Potemkin",
+        "suggested_fix": "Correct the Kiswahili transliteration/spelling of 'Viceroy' to a standard form. For example: use 'Viceroy Potemkin' or Kiswahili 'Mwakilishi wa Mfalme Potemkin' or 'Vicero Potemkin' consistently. Prefer 'Viceroy Potemkin' if keeping English title, or 'Mwakilishi (Viceroy) Potemkin' for clarity.",
+        "translation_quote": "Vicero Potemkin"
+      },
+      {
+        "location": "Paragraph describing 'New Russia' (source.html)",
+        "severity": "minor",
+        "source_quote": "The residents of New Russia, as it was then called, were mostly nomads and Cossacks, a seminomadic group present in the steppes of Russia.",
+        "suggested_fix": "Translate the name 'New Russia' into Kiswahili or mark it as an English name consistently. For example: 'Wakazi wa New Russia (kama ilivyokuwa ikitajwa wakati huo) ...' The current translation already retains 'New Russia' but ensure it is presented as a name and not left ambiguous.",
+        "translation_quote": "Wakazi wa New Russia, kama ilivyokuwa ikitajwa wakati huo, waliokuwa zaidi wahamaji na Cossacks, kundi la nusu-wahamaji"
+      },
+      {
+        "location": "Paragraph on kulaks (source.html)",
+        "severity": "minor",
+        "source_quote": "It is, therefore, no surprise that when the kulaks, the wealthy class of peasants, came under persecution from the new government, the Mennonites were seen as the enemy of the people.",
+        "suggested_fix": "Reflect plurality and the conventional Kiswahili rendering of 'kulaks'. For example: 'kulaks, tabaka la wakulima matajiri, walipokumbwa na mateso...' Current translation uses singular 'kulak' — change to plural 'kulaks' or Kiswahili plural form 'kulaki' is not correct; better to keep 'kulaks' or render 'wakulima matajiri (kulaks)'.",
+        "translation_quote": "Kwa hivyo, si ajabu kwamba wakati kulak, tabaka la wakulima matajiri, likitendewa kwa ukatili na serikali mpya, Mennonites walionekana kama adui wa watu."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

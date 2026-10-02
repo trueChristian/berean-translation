@@ -2,7 +2,6 @@
   "article_id": "5a87c21f-cce9-4033-8a43-5458311bc7f0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,24 +61,44 @@
         },
         "total_tokens": 21626
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1041,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13491,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14532
+      }
     }
   ],
   "findings": [
     {
-      "location": "source.html first <p class=\"article-note\"> (publication title)",
-      "severity": "major",
+      "location": "source.html — first paragraph (article-note)",
+      "severity": "minor",
       "source_quote": "After printing all five articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet.",
-      "suggested_fix": "Translate the publication title inside the same <em>...</em> tags into Urdu. Preserve the existing HTML structure and tags exactly. Example replacement (leave tags unchanged):\n... جب ہم نے تمام پانچ مضامین کو </em>خلاصۂ باقیہ کا دل (The Heartbeat of the Remnant)<em> میں شائع کیا، تو ہم انہیں ایک کتابچہ کی صورت میں شائع کریں گے۔ ...\nOr if you prefer fully translated title without English in parentheses: use your chosen Urdu rendering between the same </em> and <em> tags.",
-      "translation_quote": "جب ہم نے تمام پانچ مضامین کو </em>The Heartbeat of the Remnant<em> میں شائع کیا، تو ہم انہیں ایک کتابچہ کی صورت میں شائع کریں گے۔ یہ پانچ میں سے چوتھا مضمون ہے۔"
+      "suggested_fix": "Preserve the publication title as a clear, idiomatic Urdu rendering or keep it as a transliterated title in Urdu script. Replace the current rendering “خلاصۂ باقیہ کا دل” with a more natural title form such as “دی ہارٹ بیٹ آف دا ریمننٹ” ( transliterated ) or a faithful Urdu translation like “باقیہ کی دل کی دھڑکن” depending on publisher preference. Do not break or remove the surrounding HTML emphasis tags. Example replacement within the same tags: </em>باقیہ کی دل کی دھڑکن<em>  OR </em>دی ہارٹ بیٹ آف دا ریمننٹ<em>.",
+      "translation_quote": "...جب ہم نے تمام پانچ مضامین کو </em>خلاصۂ باقیہ کا دل<em> میں شائع کیا، تو ہم انہیں ایک کتابچہ کی صورت میں شائع کریں گے۔"
     },
     {
-      "location": "source.title and opening phrase",
+      "location": "source.html — paragraph discussing germination (uses English in parentheses)",
       "severity": "minor",
-      "source_quote": "A Christ-Centered Courtship Series",
-      "suggested_fix": "Consider a more idiomatic Urdu rendering that preserves the authorial theology and genre. Keep the same HTML title tag and order. Two possible alternatives (choose one and replace the translation's title text):\n- </title>ایک مسیح مرکزِ رشتہ ازدواجی سلسلہ</title>\n- </title>ایک مسیح محورِ منسلک رفاقت کا سلسلہ</title>\n(Do not change HTML tags—only replace the visible title text.)",
-      "translation_quote": "ایک مسیح مرکزِ دِلعاشق ملاقات سلسلہ"
+      "source_quote": "We’re not talking about a dormant sleep, where we are unaware of our surroundings, but rather a germinating sleep. Germination has two components.",
+      "suggested_fix": "Remove the English parenthetical term and provide a fully Urdu rendering of the technical term. Replace “ابھار پانے (germination)” with just “ابھار پانے والا عمل” or “جِرمینیشن (ابھار پانا)” — preferably the former for fully Urdu text. Preserve existing HTML tags and sentence order. Example: “ہم … بلکہ ایک ابھار پانے والی نیند کی بات کر رہے ہیں۔ ابھار پانے کے عمل کی دو جز ہیں۔”",
+      "translation_quote": "...بلکہ ایک ابھار پانے والی نیند کی بات کر رہے ہیں۔ ابھار پانے (germination) کی دو جز ہیں۔"
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "38513605100afb8880086b21254a14ca",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "urd",
@@ -123,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0a1dcaa5cafea68d0933d4307f622a54749ce00327ed437d6329e9b9b2a36c0b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "403dccfee978e00bf41c2daf2df29e8cfa526a0ef6c19371773e58abc48734b6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

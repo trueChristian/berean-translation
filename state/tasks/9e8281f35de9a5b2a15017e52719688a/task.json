@@ -2,7 +2,6 @@
   "article_id": "a42c5719-aea1-47ed-abad-ed0cd2571382",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,17 +61,45 @@
         },
         "total_tokens": 6643
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1009,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4135,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5144
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "source.html paragraph 1",
+      "location": "source.html paragraph 9 (\"And then Dirk started fussing.\")",
       "severity": "major",
-      "source_quote": "he would crane his neck in search of the hoary head of the fellowship’s oldest member",
-      "suggested_fix": "In the translation, replace the phrase that incorrectly introduces a 'cap' with a faithful rendering of 'hoary head' (meaning the white-haired head of the fellowship’s oldest member). For example: “وہ تنظیم کے سب سے بزرگ رکن کے سفید بالوں والی سر کو تلاش کرتا” or more idiomatically “وہ تنظیم کے سب سے بزرگ رکن کے سفید سر کی تلاش کرتا” (preserve the surrounding <p> tags and sentence structure).",
-      "translation_quote": "ہر اتوار کی صبح وہ اپنے گلے کو کھینچ کر تنظیم کے سب سے بزرگ رکن کے سفیدہ بال والی ٹوپی تلاش کرتا، اور ہر بار اس کی ماں ڈرک کو وہ نگاہ ڈالتی جو مطلب ہوتا تھا، “چپ چاپ بیٹھو اور آگے دیکھو۔”"
+      "source_quote": "And then Dirk started fussing.",
+      "suggested_fix": "Translate the verb to convey 'fussing' as whining/complaining (not 'tattling'). Replace the Urdu \"اور پھر ڈرک چغلی کرنے لگا۔\" with a faithful rendering such as: \"اور پھر ڈرک شکایت کرنے لگا۔\" or \"اور پھر ڈرک بکنے لگا۔\" Ensure the rest of the sentence/context remains unchanged and preserve existing HTML tags and paragraph structure.",
+      "translation_quote": "اور پھر ڈرک چغلی کرنے لگا۔"
+    },
+    {
+      "location": "source.html paragraph 6 (metaphor: \"like chickadees at a birdfeeder\")",
+      "severity": "minor",
+      "source_quote": "a swarm of young boys and girls began to cluster around Brother Silas like chickadees at a birdfeeder.",
+      "suggested_fix": "Either translate the simile into natural Urdu (preferred) or if keeping the English bird name, use a conventional Urdu rendering. Suggested replacement: \"بچوں کی ایک بھیڑ بھائی سائلَس کے اردگرد اکٹھی ہو گئی، جیسے پرندے دانہ کھانے کے لیے دانے کے پاس اکٹھے ہوتے ہیں۔\" Or: \"جیسے چکاڈیز (chickadees) دانہ کھانے کے پاس اکٹھے ہوتے ہیں۔\" Preserve tags and punctuation.",
+      "translation_quote": "بچوں کی ایک بھیڑ بھائی سائلَس کے اردگرد اکٹھی ہو گئی جیسے چِکاڈیز کھانے والے دانے کے پاس جمع ہوتے ہیں۔"
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "9e8281f35de9a5b2a15017e52719688a",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "urd",
@@ -116,13 +143,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 78,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/75a969c45055c429de95d7ac7fb5ad9ae24609ae4e6f17660c8fb6226abf6c70.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "cb49d9b32a113d5c0bf30e44cdec3451c0a5ce43ad2cf97a5830259f43dd1f79",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

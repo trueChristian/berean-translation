@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9b27e31d-d662-4320-b8e2-13c824ccc4c5",
+    "response_id": "chatcmpl-EUVaoOnhqcYkt2V4vocTRUHHi0TMG",
+    "usage": {
+      "completion_tokens": 633,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7307,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7940
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing Ephesians 5:27 quotation",
+        "severity": "minor",
+        "source_quote": "\". . .a glorious church, not having spot, or wrinkle, or any such thing; but that it should be holy and without blemish\" (Eph. 5:27).",
+        "suggested_fix": "Replace the Portuguese phrasing \"antes que seja santa e irrepreensível\" with a clearer rendering of the adversative \"but\". Use \"mas que seja santa e irrepreensível\" to preserve the original contrastive meaning.",
+        "translation_quote": "\". . .uma igreja gloriosa, que não tenha mancha, nem ruga, nem coisa semelhante; antes que seja santa e irrepreensível\" (Efés. 5:27)."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

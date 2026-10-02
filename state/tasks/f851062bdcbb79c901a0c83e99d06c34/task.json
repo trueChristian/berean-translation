@@ -2,7 +2,6 @@
   "article_id": "f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,52 +61,44 @@
         },
         "total_tokens": 3334
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 841,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1572,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2413
+      }
     }
   ],
   "findings": [
     {
-      "location": "<div class=\"poem\"> stanza 2, line 1",
+      "location": "<figure> <img alt>",
       "severity": "minor",
-      "source_quote": "his life within the keen air breathes;",
-      "suggested_fix": "Translate the sense naturally and with correct noun choice and gender. Replace \"उसकी जीवनी तीखी हवा में साँस लेती है;\" with \"उसका जीवन तीखी हवा में साँस लेता है;\" to use the proper word for 'life' and correct verb agreement.",
-      "translation_quote": "उसकी जीवनी तीखी हवा में साँस लेती है;"
+      "source_quote": "A lone bare tree in a snowy field",
+      "suggested_fix": "Use a more natural Hindi phrase for a leafless tree in this context, e.g. \"बर्फ़ीले मैदान में एक अकेला पत्तिहीन पेड़\" or \"बर्फ़ीले मैदान में एक अकेला नंगा/नंगी पेड़\" depending on preferred idiom. Replace the alt attribute text accordingly.",
+      "translation_quote": "बर्फ़ीले मैदान में एक अकेला नंगा पेड़"
     },
     {
-      "location": "<div class=\"poem\"> stanza 2, line 2",
+      "location": "<div class=\"poem\"> third stanza, line 4",
       "severity": "minor",
-      "source_quote": "his beauty paints the crimson dawn,",
-      "suggested_fix": "\"crimson\" should be translated to indicate deep red dawn (लालिमा/लाल भोर). Replace \"उसकी शोभा सुरभित भोर को रंगती है,\" with \"उसकी शोभा लालिमा से भरी भोर को रंगती है\" or \"उसकी शोभा भोर की लालिमा को रंग देती है।\"",
-      "translation_quote": "उसकी शोभा सुरभित भोर को रंगती है,"
-    },
-    {
-      "location": "<div class=\"poem\"> stanza 3, line 2",
-      "severity": "major",
-      "source_quote": "and skies are chill, and frosts are keen,",
-      "suggested_fix": "The translation wrongly renders 'frosts' as 'ओस-कण' (dewdrops). This changes the imagery. Replace \"और आकाश ठंडे हैं, और ओस-कण तीखे हैं,\" with \"और आकाश ठंडे हैं, और पाले तीखे हैं,\" or \"और आकाश ठंडे हैं, और पाले कड़े हैं,\" so that 'frosts' (पाल/पाला) is correctly conveyed.",
-      "translation_quote": "और आकाश ठंडे हैं, और ओस-कण तीखे हैं,"
-    },
-    {
-      "location": "<div class=\"poem\"> stanza 3, line 3",
-      "severity": "minor",
-      "source_quote": "home closer draws her circle now,",
-      "suggested_fix": "Personification/gender and verb agreement are uneven: the translation uses \"घर अब अपने घेरे को और पास खींचता है,\" where घेरना/खींचना with 'घर' can be masculine or feminine; prefer idiomatic phrasing. Suggest \"अब घर अपने घेरे को और करीब खींच लेता है,\" or \"अब घर अपना घे_in_रा और निकट कर लेता है.\" (preserve HTML structure).",
-      "translation_quote": "घर अब अपने घेरे को और पास खींचता है,"
-    },
-    {
-      "location": "<div class=\"poem\"> stanza 4, line 2",
-      "severity": "minor",
-      "source_quote": "as well as summer's joyous rays,",
-      "suggested_fix": "Awkward and slightly ungrammatical phrasing. Replace \"उसी प्रकार जैसे गर्मियों की हर्षित किरणें भी देते हैं,\" with a clear parallel: \"और साथ ही गर्मियों की प्रसन्न किरणें भी देते हैं।\"",
-      "translation_quote": "उसी प्रकार जैसे गर्मियों की हर्षित किरणें भी देते हैं,"
-    },
-    {
-      "location": "<div class=\"poem\"> stanza 4, line 4</location>",
-      "severity": "minor",
-      "source_quote": "and keep us through life's wintry days.",
-      "suggested_fix": "Awkward verb phrase \"रखे रहते हैं\" should be smoothed to \"रखते हैं\" or \"रखा करते हैं\". Suggest: \"और जीवन के शीतकालीन दिनों में हमें संभालते/रखते हैं।\"",
-      "translation_quote": "और जीवन के शीतकालीन दिनों में हमें रखे रहते हैं।"
+      "source_quote": "and warmer glows her light within.",
+      "suggested_fix": "Clarify the pronouns and make the natural Hindi expression of the image clear. Suggested wording: \"और उसके भीतर उसकी रोशनी और अधिक गर्म चमक उठती है\" or \"और उसके भीतर उसकी रोशनी और अधिक गर्मी से झलमलाती है.\" Replace the fourth line of the stanza with one of these options.",
+      "translation_quote": "और उसके भीतर उसकी रोशनी और गर्म होती है।"
     }
   ],
+  "finished_at": "2026-10-02T11:21:07+00:00",
   "id": "f851062bdcbb79c901a0c83e99d06c34",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "hin",
@@ -151,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 84,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1ed33a15abc99ca0a5621844be43f6764a1df6e4da098bed1eb0cbfbb0276cbd.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "38a11e40-d9b1-415c-9c9c-8f8f4ed7f5fa",
+    "response_id": "chatcmpl-EUVaMEFC2caBFOOd4hWEZBGnhaVZy",
+    "usage": {
+      "completion_tokens": 1041,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13491,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 14532
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first paragraph (article-note)",
+        "severity": "minor",
+        "source_quote": "After printing all five articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet.",
+        "suggested_fix": "Preserve the publication title as a clear, idiomatic Urdu rendering or keep it as a transliterated title in Urdu script. Replace the current rendering “خلاصۂ باقیہ کا دل” with a more natural title form such as “دی ہارٹ بیٹ آف دا ریمننٹ” ( transliterated ) or a faithful Urdu translation like “باقیہ کی دل کی دھڑکن” depending on publisher preference. Do not break or remove the surrounding HTML emphasis tags. Example replacement within the same tags: </em>باقیہ کی دل کی دھڑکن<em>  OR </em>دی ہارٹ بیٹ آف دا ریمننٹ<em>.",
+        "translation_quote": "...جب ہم نے تمام پانچ مضامین کو </em>خلاصۂ باقیہ کا دل<em> میں شائع کیا، تو ہم انہیں ایک کتابچہ کی صورت میں شائع کریں گے۔"
+      },
+      {
+        "location": "source.html — paragraph discussing germination (uses English in parentheses)",
+        "severity": "minor",
+        "source_quote": "We’re not talking about a dormant sleep, where we are unaware of our surroundings, but rather a germinating sleep. Germination has two components.",
+        "suggested_fix": "Remove the English parenthetical term and provide a fully Urdu rendering of the technical term. Replace “ابھار پانے (germination)” with just “ابھار پانے والا عمل” or “جِرمینیشن (ابھار پانا)” — preferably the former for fully Urdu text. Preserve existing HTML tags and sentence order. Example: “ہم … بلکہ ایک ابھار پانے والی نیند کی بات کر رہے ہیں۔ ابھار پانے کے عمل کی دو جز ہیں۔”",
+        "translation_quote": "...بلکہ ایک ابھار پانے والی نیند کی بات کر رہے ہیں۔ ابھار پانے (germination) کی دو جز ہیں۔"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

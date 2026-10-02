@@ -2,7 +2,6 @@
   "article_id": "8f996405-d870-4074-947b-35190faad643",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,66 +61,44 @@
         },
         "total_tokens": 3722
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 737,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1543,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2280
+      }
     }
   ],
   "findings": [
     {
-      "location": "<div class=\"poem\"> stanza 1, line 3",
-      "severity": "major",
-      "source_quote": "The true thy chartered freemen are<br>\nof every age and clime:",
-      "suggested_fix": "Vertaal nauwkeurig het beeld van \"chartered freemen\" en \"of every age and clime\" zonder toegevoegde of foutieve woorden. Voorstel: \"De ware — uw bevoorrechte vrije mannen — zijn\" is te letterlijk; een betere, idiomatische optie: \"De oprechte zijn uw vrije burgers\" of \"De ware zijn uw vrijen, uit alle tijdperken en landen:\". Kies één van deze in plaats van het huidige onjuiste \"kloon\".",
-      "translation_quote": "De ware zijn uw vrijen van elk tijdsgebied,\nvan elk volk en ieder kloon:"
-    },
-    {
-      "location": "<div class=\"poem\"> stanza 2, line 4",
-      "severity": "major",
-      "source_quote": "one King omnipotent.",
-      "suggested_fix": "De frase geeft enkel de soevereiniteit van de Koning weer; verwijder de foutieve toevoeging \"aan de man\" die niet in de bron staat. Voorstel: \"één almachtige Koning.\"",
-      "translation_quote": "één almachtige Koning aan de man."
-    },
-    {
-      "location": "<div class=\"poem\"> stanza 4, line 1",
-      "severity": "major",
-      "source_quote": "How gleam thy watch-fires through the night<br>\nwith never-fainting ray!",
-      "suggested_fix": "De beeldspraak is \"watch-fires\" (brandende wachtvuren), niet \"wachttorens\". Vertaal als \"wachtturen\" is fout; gebruik bijvoorbeeld: \"Hoe glanzen uw wachtvuren door de nacht / met straal die nooit verflauwt!\"",
-      "translation_quote": "Hoe glanzen uw wachttorens door de nacht\nmet onverflauwende straal!"
-    },
-    {
-      "location": "<div class=\"poem\"> stanza 5, lines 3–4",
-      "severity": "major",
-      "source_quote": "unharmed upon the eternal Rock<br>\nthe eternal city stands.",
-      "suggested_fix": "De Engels tekst: \"unharmed upon the eternal Rock\" (onverwond op de eeuwige Rots) en \"the eternal city stands.\" De vertaling maakt onnatuurlijke en betekenisveranderende toevoegingen: \"geplakt\" en \"aan land\". Vertaal neutraal en dichter bij het beeld: bijv. \"Ongeschonden op de eeuwige Rots / staat de eeuwige stad.\"",
-      "translation_quote": "onaangetast op de eeuwige Rots geplakt\nstaat de eeuwige stad aan land."
-    },
-    {
-      "location": "<div class=\"poem\"> stanza 1, line 4",
+      "location": "<div class=\"poem\"><p> stanza 1, line 1-2",
       "severity": "minor",
-      "source_quote": "of every age and clime:",
-      "suggested_fix": "\"Clime\" betekent 'klimaat/regio/land' — vertaal natuurlijk als \"uit alle landen en tijden\" of \"uit elk land en tijdperk\". Huidige \"tijd sgebied\" is onidiomatisch; voorstel: \"uit elk tijdperk en elk land:\"",
-      "translation_quote": "van elk tijdsgebied,"
+      "source_quote": "City of God, how broad and far\noutspread thy walls sublime!",
+      "suggested_fix": "Adjust wording to a more natural Dutch idiom that preserves the meaning and poetic sense. For example: \"Stad van God, hoe breed en wijd\nspreiden zich uw muren, hoog en subliem!\" This keeps the image of the walls being outspread and retains the adjective 'sublime' (subliem). Preserve existing HTML tags and line breaks.",
+      "translation_quote": "Stad van God, hoe breed en wijd\nligt uit uw muren, hoog en groot!"
     },
     {
-      "location": "<div class=\"poem\"> stanza 2, line 3",
+      "location": "<div class=\"poem\"><p> stanza 2, line 1",
       "severity": "minor",
-      "source_quote": "one working band, one harvest-song,",
-      "suggested_fix": "\"one working band\" en \"one harvest-song\" zijn collectieve beelden. \"één werkend gilde, één oogstzang neer,\" gebruikt \"gilde\" en voegt het woord \"neer\" dat niet nodig is. Voorstel: \"één werkend korps, één oogstzang\" of \"één werkende schaar, één oogstzang.\" Verwijder het overbodige \"neer.\"",
-      "translation_quote": "één werkend gilde, één oogstzang neer,"
-    },
-    {
-      "location": "<div class=\"poem\"> stanza 3, line 4",
-      "severity": "minor",
-      "source_quote": "of freedom, love, and truth!",
-      "suggested_fix": "Huidige vertaling \"van liefde en van waarheid gedaan!\" voegt het woord \"gedaan\" dat de betekenis verzwakt en archaïsch maakt. Gebruik: \"van vrijheid, liefde en waarheid!\" of \"van vrijheid, liefde en waarheid.\"",
-      "translation_quote": "van liefde en van waarheid gedaan!"
-    },
-    {
-      "location": "<div class=\"poem\"> stanza 4, line 4",
-      "severity": "minor",
-      "source_quote": "to meet the dawning day!",
-      "suggested_fix": "Huidige vertaling \"om de dageraad tegemoet te haal'n!\" bevat een onnatuurlijke apostrof en onnodige verbuiging. Voorstel: \"om de dageraad tegemoet te rijzen!\" of \"om de dageraad tegemoet te gaan!\"",
-      "translation_quote": "om de dageraad tegemoet te haal'n!"
+      "source_quote": "One holy church, one army strong,",
+      "suggested_fix": "Use consistent and idiomatic Dutch for enumerations and ensure accents are used only if stylistically desired. For example: \"Één heilige kerk, één krachtig leger,\" or without the accent: \"Een heilige kerk, een krachtig leger,\" depending on house style. Preserve HTML structure.",
+      "translation_quote": "Één heilige kerk, één sterk leger,"
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "9dbebeecdee59cd24c2b82eb987414d9",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "nld",
@@ -165,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d3ca99062c7b8454e6587c9b32705a7d35c0d70cbcf6c1f6f8eaefeb762c95bf.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "63f32eb5571bce4d8b82e7103273aaf0a3a4bf91449228454d16a781256867bd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

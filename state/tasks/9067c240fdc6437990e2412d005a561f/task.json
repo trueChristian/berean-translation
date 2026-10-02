@@ -2,7 +2,6 @@
   "article_id": "b5ea052a-167f-45c4-bf40-cd463c4546b6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,52 +61,29 @@
         },
         "total_tokens": 10581
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 538,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6254,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6792
+      }
     }
   ],
-  "findings": [
-    {
-      "location": "<article> introductory parenthetical reference after opening italic line",
-      "severity": "major",
-      "source_quote": "(John 10:22)",
-      "suggested_fix": "Translate the book name into Portuguese using conventional forms. Replace “(John 10:22)” with “(João 10:22)” and preserve the chapter:verse format and parentheses.",
-      "translation_quote": "(John 10:22)"
-    },
-    {
-      "location": "Multiple scripture parenthetical references throughout (examples)",
-      "severity": "major",
-      "source_quote": "(John 10:20) ; (John 1:46) ; (1 Kings 1:6) ; (Genesis 25:8) ; (Acts 5:12) ; (Matthew 24:12)",
-      "suggested_fix": "Translate each English book name to its conventional Portuguese form while keeping chapter and verse numbers unchanged. Suggested replacements: “(John 10:20)” → “(João 10:20)”; “(John 1:46)” → “(João 1:46)”; “(1 Kings 1:6)” → “(1 Reis 1:6)”; “(Genesis 25:8)” → “(Gênesis 25:8)”; “(Acts 5:12)” → “(Atos 5:12)”; “(Matthew 24:12)” → “(Mateus 24:12)”.",
-      "translation_quote": "(John 10:20) ; (John 1:46) ; (1 Kings 1:6) ; (Genesis 25:8) ; (Acts 5:12) ; (Matthew 24:12)"
-    },
-    {
-      "location": "Paragraph 1, second sentence",
-      "severity": "minor",
-      "source_quote": "Little praise arises for the season that greets him at his weakest point and seeks to discomfort and discourage him from the zest of life.",
-      "suggested_fix": "Correct typographical error and ensure natural Portuguese: change “Pouenos elogios surgem” to “Poucos elogios surgem” (or an equally natural rendering).",
-      "translation_quote": "Pouenos elogios surgem para a estação que o encontra em seu ponto mais fraco e procura desconfortá‑lo e desanimá‑lo da alegria de viver."
-    },
-    {
-      "location": "Heading for the final thematic section (source: \"Sympathy\")",
-      "severity": "major",
-      "source_quote": "Sympathy",
-      "suggested_fix": "Correct the section heading to a proper Portuguese equivalent. Replace the mistranslated/misspelled header “Simpadeia” with a suitable rendering such as “Compaixão” or “Simpatia” (preferably “Compaixão” to match the nuance of the original).",
-      "translation_quote": "Simpadeia"
-    },
-    {
-      "location": "Parenthetical scripture abbreviation for Ecclesiastes",
-      "severity": "minor",
-      "source_quote": "(Ecc. 4:11)",
-      "suggested_fix": "Use the conventional Portuguese abbreviation/form for Ecclesiastes. Replace “(Ecc. 4:11)” with “(Ecl. 4:11)” or “(Eccl.)” only if the publication’s house style prefers that—ensure book name matches other converted forms (for example “(Ecl. 4:11)”).",
-      "translation_quote": "(Ecc. 4:11)"
-    },
-    {
-      "location": "Choice of some vocabulary / register (first paragraph: “humidade”)",
-      "severity": "minor",
-      "source_quote": "damp",
-      "suggested_fix": "For broader international Portuguese clarity prefer “umidade” over European “humidade”. Change “humidade” to “umidade” unless the magazine targets European Portuguese specifically.",
-      "translation_quote": "humidade"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "9067c240fdc6437990e2412d005a561f",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "por",
@@ -151,13 +127,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/cb70a64f61d5d6ea793a28714a8210160bd2f71712162f15c2619f188dcf0e3f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "43083ba7fbaa256f5105f34da9e51d125c38a107a8d91b3864609877708b8ea8",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

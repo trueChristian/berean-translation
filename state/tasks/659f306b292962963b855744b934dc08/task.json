@@ -2,7 +2,6 @@
   "article_id": "5a87c21f-cce9-4033-8a43-5458311bc7f0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,52 +61,29 @@
         },
         "total_tokens": 19231
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 666,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11931,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12597
+      }
     }
   ],
-  "findings": [
-    {
-      "location": "source.title / translation.title",
-      "severity": "major",
-      "source_quote": "A Christ-Centered Courtship Series",
-      "suggested_fix": "Translate the English title into Portuguese, preserving the author's meaning and theology. For example: \"Uma Série sobre Namoro Centrado em Cristo\" (or another idiomatic Portuguese rendering chosen by the publisher). Replace the translation.title value with the Portuguese rendering and preserve capitalization style.",
-      "translation_quote": "A Christ-Centered Courtship Series"
-    },
-    {
-      "location": "source.subtitle / translation.subtitle",
-      "severity": "major",
-      "source_quote": "The Preparation Sleep",
-      "suggested_fix": "Translate the subtitle into Portuguese, preserving the original sense. For example: \"O Sono de Preparação\". Replace translation.subtitle with the Portuguese text.",
-      "translation_quote": "The Preparation Sleep"
-    },
-    {
-      "location": "source.section / translation.section",
-      "severity": "major",
-      "source_quote": "INSPIRATIONS FOR YOUTH",
-      "suggested_fix": "Translate the section name into Portuguese using an internationally intelligible phrasing that matches the publication's style. For example: \"INSPIRAÇÕES PARA A JUVENTUDE\" or \"INSPIRAÇÕES PARA JOVENS\". Replace translation.section accordingly.",
-      "translation_quote": "INSPIRATIONS FOR YOUTH"
-    },
-    {
-      "location": "source.html headings (multiple) / translation.html headings (multiple)",
-      "severity": "major",
-      "source_quote": "The Preparation Sleep.; Jesus was a maturing, godly young man; Jesus sensed the call of God; Jesus was subject to his parents; Jesus continued to increase and mature; Learning to walk with God; Bible reading; What kind of partner do I need?; When am I ready for marriage?; Young men; Young women; In Summary",
-      "suggested_fix": "Several substantive section and subsection headings remain in English in the translated article. Headings are content-bearing and must be translated into Portuguese while preserving the original meaning and theological nuance. Suggested Portuguese equivalents (publisher may prefer alternatives):\n- \"The Preparation Sleep.\" -> \"O Sono de Preparação\" (note: remove trailing period as in original style if desired)\n- \"Jesus was a maturing, godly young man\" -> \"Jesus foi um jovem piedoso em maturação\"\n- \"Jesus sensed the call of God\" -> \"Jesus percebeu o chamado de Deus\"\n- \"Jesus was subject to his parents\" -> \"Jesus foi sujeito/ submisso a seus pais\"\n- \"Jesus continued to increase and mature\" -> \"Jesus continuou a crescer e amadurecer\"\n- \"Learning to walk with God\" -> \"Aprendendo a andar com Deus\"\n- \"Bible reading\" -> \"Leitura bíblica\"\n- \"What kind of partner do I need?\" -> \"Que tipo de companheiro(a) eu preciso?\"\n- \"When am I ready for marriage?\" -> \"Quando estou pronto(a) para o casamento?\"\n- \"Young men\" -> \"Jovens homens\" (or \"Jovens\" / \"Rapazes\" depending on style)\n- \"Young women\" -> \"Jovens mulheres\" (or \"Moças\")\n- \"In Summary\" -> \"Em resumo\"\nReplace each English heading in translation.html with the chosen Portuguese rendering, keeping HTML tags and nesting unchanged.",
-      "translation_quote": "The Preparation Sleep.; Jesus was a maturing, godly young man; Jesus sensed the call of God; Jesus was subject to his parents; Jesus continued to increase and mature; Learning to walk with God; Bible reading; What kind of partner do I need?; When am I ready for marriage?; Young men; Young women; In Summary"
-    },
-    {
-      "location": "source.html inline headings and calls-to-action (e.g., \"Study Titus 2:6-8\", \"Study Titus 2:4–5\") / translation.html",
-      "severity": "major",
-      "source_quote": "Study Titus 2:6-8; Study Titus 2:4–5",
-      "suggested_fix": "These short imperative headings/labels are substantive and should be translated into Portuguese while preserving the Scripture reference formatting. Suggested translations: \"Estudem Tito 2:6–8\" and \"Estudem Tito 2:4–5\" (or \"Estude Tito...\" if singular is intended). Replace the English phrases in translation.html with the Portuguese equivalents; keep the Bible book name in Portuguese (\"Tito\") and numeric references unchanged.",
-      "translation_quote": "Study Titus 2:6-8; Study Titus 2:4–5"
-    },
-    {
-      "location": "source.html image alt / translation.html image alt (second figure)",
-      "severity": "major",
-      "source_quote": "A three-panel collage of winter trees and a snowy rural scene",
-      "suggested_fix": "The image alt text in the translation remains in English. Translate alt text into Portuguese describing the image content concisely and idiomatically. Suggested: \"Colagem em três painéis de árvores no inverno e uma paisagem rural nevada\". Replace the translation figure img alt attribute value with the Portuguese text. (The first figure's empty alt may remain empty if decorative; confirm publisher's policy.)",
-      "translation_quote": "A three-panel collage of winter trees and a snowy rural scene"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "659f306b292962963b855744b934dc08",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "por",
@@ -151,13 +127,13 @@
     }
   },
   "protected": false,
-  "quality_score": 65,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0a1dcaa5cafea68d0933d4307f622a54749ce00327ed437d6329e9b9b2a36c0b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "403dccfee978e00bf41c2daf2df29e8cfa526a0ef6c19371773e58abc48734b6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

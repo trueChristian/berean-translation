@@ -2,7 +2,6 @@
   "article_id": "8f996405-d870-4074-947b-35190faad643",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,31 +61,44 @@
         },
         "total_tokens": 2752
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 919,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1568,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2487
+      }
     }
   ],
   "findings": [
     {
-      "location": "<div class=\"poem\"> stanza 4 lines 1-2",
-      "severity": "major",
-      "source_quote": "How gleam thy watch-fires through the night\nwith never-fainting ray!",
-      "suggested_fix": "Translate \"watch-fires\" as a form of watch/fires/beacons rather than \"vakttorn\" (watch-towers). For example: \"Hur glimma vakternas eldar genom natten\nmed ett aldrig sviktande sken!\" or \"Hur glimma dina vaktseldar genom natten\nmed en aldrig sviktande stråle!\" Preserve the two-line structure and the sense of light/beacons rather than towers.",
-      "translation_quote": "Hur glimma dina vakttorn genom natten\nmed en aldrig sviktande stråle!"
+      "location": "<div class=\"poem\">, stanza 3, line 1 (\"How purely hath thy speech come down from man's primaeval youth!\")",
+      "severity": "minor",
+      "source_quote": "How purely hath thy speech come down\nfrom man's primaeval youth!",
+      "suggested_fix": "Ta bort det extra pronomenet \"oss\" eller översätt mer direkt: exempelvis \"Hur rent har ditt tal nått ner från människans uråldriga ungdom!\" eller \"Hur rent har ditt tal kommit ner från människans uråldriga ungdom!\" Bevara diktens arkaiska rytm men undvik att lägga till mottagarperspektiv som inte finns i originalet.",
+      "translation_quote": "Hur rent har ditt tal nått oss ner\nfrån människans uråldriga ungdom!"
     },
     {
-      "location": "<div class=\"poem\"> stanza 4 line 4",
+      "location": "<div class=\"poem\">, stanza 5, line 1 (\"In vain the surge's angry shock,\")",
       "severity": "minor",
-      "source_quote": "to meet the dawning day!",
-      "suggested_fix": "Correct the Swedish wording to the conventional phrase \"daggrynningens ljus\" or \"daggryningens sken\". For example: \"för att möta daggrynningens ljus!\"",
-      "translation_quote": "för att möta daggroendets ljus!"
-    },
-    {
-      "location": "<div class=\"poem\"> stanza 5 line 2",
-      "severity": "minor",
-      "source_quote": "in vain the drifting sands:",
-      "suggested_fix": "Use a more idiomatic Swedish rendering of \"drifting sands\", for example \"de drivande sandarna\" or \"de drivande sanddynerna\". Suggested: \"förgäves de drivande sandarna:\"",
-      "translation_quote": "förgäves de driva sandarna:"
+      "source_quote": "In vain the surge's angry shock,",
+      "suggested_fix": "Byt \"stormens\" till en mer direkt motsvarighet för \"surge\", t.ex. \"vågornas\" eller \"bränningens\" för att bättre återge havsbilden: \"Förgäves vågornas arga stöt,\" eller \"Förgäves bränningens arga stöt,\" så bibehålls bildens ursprungliga betydelse.",
+      "translation_quote": "Förgäves stormens arga slag,"
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "74e421f6394705eb5603f3281ca02828",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "swe",
@@ -130,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d3ca99062c7b8454e6587c9b32705a7d35c0d70cbcf6c1f6f8eaefeb762c95bf.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "63f32eb5571bce4d8b82e7103273aaf0a3a4bf91449228454d16a781256867bd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

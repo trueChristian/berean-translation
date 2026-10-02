@@ -2,7 +2,6 @@
   "article_id": "deabdd90-c842-4ed6-ad15-c2fa9870b099",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,31 +61,44 @@
         },
         "total_tokens": 10203
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1121,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6207,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7328
+      }
     }
   ],
   "findings": [
     {
-      "location": "Paragraph containing \"Apoc. 19:12\" (translation paragraph beginning \"Matthew Bridges compose originariamente il canto nel 1851...\")",
+      "location": "<p>...\"Crown Him the Lord of years! The Potentate of time—\"...</p> (Bridges lyrics)",
       "severity": "minor",
-      "source_quote": "Matthew Bridges originally penned the song in 1851. He wrote six stanzas, all based upon Rev. 19:12: “ ... and on His head were many crowns.”",
-      "suggested_fix": "Use the conventional Italian name for the biblical book so readers clearly recognize the reference. For example, replace “Apoc. 19:12” with “Apocalisse 19:12” (or the standard Italian abbreviation “Apoc.” only if your house style uses it). Preserve the verse numbers and punctuation.",
-      "translation_quote": "Matthew Bridges compose originariamente il canto nel 1851. Scrisse sei strofe, tutte basate su Apoc. 19:12: “ ... e sulla sua testa c'erano molte corone.”"
+      "source_quote": "Crown Him the Lord of years! The Potentate of time—",
+      "suggested_fix": "Consider a more idiomatic Italian rendering of \"The Potentate of time\" such as «Il Sovrano del tempo» or «Il Signore del tempo» to avoid the uncommon noun \"Potentato\", which reads awkwardly in standard contemporary Italian. Replace the line accordingly, preserving the HTML and line breaks.",
+      "translation_quote": "Incoronalo Signore degli anni! Il Potentato del tempo—"
     },
     {
-      "location": "Final exhortation paragraph (translation paragraph beginning \"Possa la nostra congregazione...\")",
+      "location": "<p>...\"A great part of this song’s enduring quality is the tune it is paired with. This refrain was written especially for this song by Sir George Job Elvey in 1868 and was given the name of Diademata.\"...</p>",
       "severity": "minor",
-      "source_quote": "Crown Him, our Lord Jesus Christ, with many crowns, for he is worthy!",
-      "suggested_fix": "Correct the target-language verb form and fix the accidental uppercase pronoun. Replace “IncoronateLO, il nostro Signore Gesù Cristo, con molte corone, poiché egli è degno!” with “Incoronatelo, il nostro Signore Gesù Cristo, con molte corone, poiché egli è degno!” Preserve surrounding HTML tags and punctuation.",
-      "translation_quote": "Possa la nostra congregazione proseguire la pratica del canto corale e di tutto il cuore, innalzando le nostre voci in lode al Signore nell'assemblea dei santi! IncoronateLO, il nostro Signore Gesù Cristo, con molte corone, poiché egli è degno!"
-    },
-    {
-      "location": "Paragraph introducing Thring stanzas (translation paragraph beginning \"Le 12 strofe sono state mescolate...\")",
-      "severity": "major",
-      "source_quote": "Also included as well are the six couplets by Thring.",
-      "suggested_fix": "The translation misrenders the English \"six couplets\" as “sei terzine” (which means three-line stanzas). This changes the factual claim about the form of Thring's contributions. Replace “sei terzine di Thring” with a faithful rendering such as “le sei coppie di strofe di Thring” or “le sei coppie (o sei coppie di versi) di Thring,” or simply “le sei strofe di Thring” if that matches the intended meaning in the English. Preserve HTML tags and the phrase in context.",
-      "translation_quote": "Sono incluse anche le sei terzine di Thring."
+      "source_quote": "A great part of this song’s enduring quality is the tune it is paired with. This refrain was written especially for this song by Sir George Job Elvey in 1868 and was given the name of Diademata.",
+      "suggested_fix": "\"Refrain\" in the source is rendered as \"ritornello\" in the translation, which is acceptable. If you prefer to emphasize the musical term \"melodia\" (tune) rather than \"ritornello\" (refrain), change only that word. Both are accurate; this is a stylistic suggestion. Preserve HTML.",
+      "translation_quote": "Gran parte della qualità duratura di questo canto è dovuta alla melodia con cui è accoppiato. Questo ritornello fu scritto appositamente per il canto da Sir George Job Elvey nel 1868 e fu denominato <em>Diademata</em>."
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "368ce68cb9bb4d781df9b0860fff662c",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ita",
@@ -130,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/abeb1f35c1949ea978d144c1eae3a8c74b9cda2edc2ef460b0d918ec0851fa83.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "01644cf9abc17411f3b235a99895bb87e8eec445a9ac28e6394d4afb94966251",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

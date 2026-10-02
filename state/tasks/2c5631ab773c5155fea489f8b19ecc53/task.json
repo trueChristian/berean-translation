@@ -2,7 +2,6 @@
   "article_id": "58963510-f56e-43e0-88dd-0eb9941ddea9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,73 +61,44 @@
         },
         "total_tokens": 13942
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 806,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7807,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8613
+      }
     }
   ],
   "findings": [
     {
-      "location": "Paragraph containing Ephesians & Matthew citations (near: \"L’apostolo Paolo dice...\")",
-      "severity": "major",
-      "source_quote": "“. . .a glorious church, not having spot, or wrinkle, or any such thing; but that it should be holy and without blemish” (Eph. 5:27). And Jesus Himself said “. . .That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it” (Matt. 16:18).",
-      "suggested_fix": "Localize the Bible book names to conventional Italian forms while keeping chapter and verse numbers unchanged. Replace the parenthetical citations (Eph. 5:27) and (Matt. 16:18) with (Efesini 5:27) and (Matteo 16:18) respectively. Preserve punctuation and HTML structure.",
-      "translation_quote": "«. . . una chiesa gloriosa, che non abbia macchia né rughe, né alcuna cosa simile; ma che sia santa e irreprensibile» (Eph. 5:27). E lo stesso Gesù disse «. . . Tu sei Pietro, e su questa pietra edificherò la mia chiesa; e le porte dell'inferno non prevarranno contro di essa» (Matt. 16:18)."
-    },
-    {
-      "location": "Paragraph with 1 John citation (near: \"La Parola di Dio dice...\")",
-      "severity": "major",
-      "source_quote": "“If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness” (1 John 1:9).",
-      "suggested_fix": "Localize the Bible book name to conventional Italian form while keeping chapter and verse numbers unchanged. Replace (1 John 1:9) with (1 Giovanni 1:9). Preserve the translated verse text.",
-      "translation_quote": "«Se confessiamo i nostri peccati, egli è fedele e giusto da perdonarci i peccati e purificarci da ogni iniquità» (1 John 1:9)."
-    },
-    {
-      "location": "Paragraph with Matthew 11:5 citation (near: \"The blind receive their sight...\")",
-      "severity": "major",
-      "source_quote": "“The blind receive their sight, and the lame walk, the lepers are cleansed, and the deaf hear, the dead are raised up, and the poor have the gospel preached to them ” (Matt. 11:5).",
-      "suggested_fix": "Localize the Bible book name. Replace (Matt. 11:5) with (Matteo 11:5), keeping the translated verse text intact and preserving spacing/punctuation.",
-      "translation_quote": "«I ciechi riacquistano la vista, e gli zoppi camminano, i lebbrosi sono purificati, e i sordi odono, i morti sono risuscitati, e ai poveri è predicato il vangelo» (Matt. 11:5)."
-    },
-    {
-      "location": "List of citations under \"Sottomissione\" (James, Hebrews, 1 Peter, Ephesians)",
-      "severity": "major",
-      "source_quote": "<ul>\n  <li>to God (Jas. 4:7).</li>\n  <li>[to those] that have the [spiritual] rule over you [us] (Heb. 13:17).</li>\n  <li>to every ordinance of man for the Lord’s sake (1 Pet. 2:13).</li>\n  <li>one to another in the fear of God (Eph. 5:21).</li>\n</ul>",
-      "suggested_fix": "Localize each Bible book abbreviation to Italian while preserving chapter and verse numbers and the list HTML structure. Suggested replacements: (Jas. 4:7) → (Giacomo 4:7), (Heb. 13:17) → (Ebrei 13:17), (1 Pet. 2:13) → (1 Pietro 2:13), (Eph. 5:21) → (Efesini 5:21). Keep bracketed editorial clarifications exactly as they appear.",
-      "translation_quote": "<ul>\n  <li>a Dio (Jas. 4:7).</li>\n  <li>[a coloro] che hanno la [guida spirituale] su di voi [noi] (Heb. 13:17).</li>\n  <li>ad ogni ordinanza dell'uomo per amor del Signore (1 Pet. 2:13).</li>\n  <li>l'uno all'altro nel timore di Dio (Eph. 5:21).</li>\n</ul>"
-    },
-    {
-      "location": "Paragraph with 2 Timothy citation (near: \"La storia mostrerebbe...\")",
-      "severity": "major",
-      "source_quote": "“Yea, and all that will live godly in Christ Jesus shall suffer persecution” (2 Tim. 3:12).",
-      "suggested_fix": "Localize the Bible book name. Replace (2 Tim. 3:12) with (2 Timoteo 3:12) while keeping the translated quotation and punctuation unchanged.",
-      "translation_quote": "«Sì, e tutti quelli che vogliono vivere piamente in Cristo Gesù saranno perseguitati» (2 Tim. 3:12)."
-    },
-    {
-      "location": "Paragraph with John 13:35 citation (near: \"Amore\")",
-      "severity": "major",
-      "source_quote": "“By this shall all men know that ye are my disciples, if ye have love one to another” (John 13:35).",
-      "suggested_fix": "Localize the Bible book name. Replace (John 13:35) with (Giovanni 13:35) while keeping the translated verse text intact.",
-      "translation_quote": "«Da questo conosceranno tutti che siete miei discepoli: se avrete amore gli uni per gli altri» (John 13:35)."
-    },
-    {
-      "location": "Paragraph with 1 Corinthians citation (near: \"Non dice la Bibbia che...\")",
-      "severity": "major",
-      "source_quote": "“charity (love) beareth all things, believeth all things, hopeth all things, endureth all things” (1 Cor. 13:7)",
-      "suggested_fix": "Localize the Bible book name. Replace (1 Cor. 13:7) with (1 Corinzi 13:7) and keep the parenthetical explanatory note and punctuation as in the source.",
-      "translation_quote": "«la carità (amore) tutto copre, tutto crede, tutto spera, tutto sopporta» (1 Cor. 13:7) "
-    },
-    {
-      "location": "Multiple paragraphs where parenthetical Scripture citations remain in English-abbreviated form (e.g., (Eph. 5:27), (Matt. 16:18), (1 John 1:9), (Matt. 11:5), (2 Tim. 3:12), (Jas. 4:7), (Heb. 13:17), (1 Pet. 2:13), (Eph. 5:21), (John 13:35), (1 Cor. 13:7))",
-      "severity": "major",
-      "source_quote": "All occurrences of parenthetical scripture citations using English abbreviations in the source.",
-      "suggested_fix": "Systematically replace all English/abbreviated Bible book references with their standard Italian equivalents throughout the HTML while preserving exact chapter:verse numbers and all surrounding punctuation. Examples: Eph. → Efesini; Matt. → Matteo; 1 John → 1 Giovanni; 2 Tim. → 2 Timoteo; Jas. → Giacomo; Heb. → Ebrei; 1 Pet. → 1 Pietro; John → Giovanni; 1 Cor. → 1 Corinzi.",
-      "translation_quote": "See individual occurrences above (e.g., (Eph. 5:27), (Matt. 16:18), etc.)."
-    },
-    {
-      "location": "Paragraphs using the form \"Iddio\" (e.g., \"La mano dell'Iddio onnipotente\" and \"all'Iddio onnipotente in Cielo\")",
+      "location": "Last paragraph before final closing (near end of article)",
       "severity": "minor",
-      "source_quote": "English source: \"the hand of the almighty God\" / \"especially the almighty God in Heaven.\"",
-      "suggested_fix": "Use the conventional Italian spelling/capitalization for the divine name: replace \"Iddio\" with \"Dio\" (capitalized) in both occurrences. Keep the rest of the wording and HTML unchanged.",
-      "translation_quote": "\"La mano dell'Iddio onnipotente mi afferrò...\" and \"...all'Iddio onnipotente in Cielo.\""
+      "source_quote": "Godly people throughout the ages have had their opportunity to serve the King and spread the message of the Kingdom of God, but they have moved on to eternity.",
+      "suggested_fix": "Correct the Italian typo and gender agreement. Replace “Persone pii attraverso i secoli hanno avuto la loro opportunità di servire il Re e diffondere il messaggio del Regno di Dio, ma sono passate all'eternità.” with “Persone pie, nel corso dei secoli, hanno avuto l’opportunità di servire il Re e di diffondere il messaggio del Regno di Dio, ma sono passate all’eternità.”",
+      "translation_quote": "Persone pii attraverso i secoli hanno avuto la loro opportunità di servire il Re e diffondere il messaggio del Regno di Dio, ma sono passate all'eternità."
+    },
+    {
+      "location": "Paragraph describing enlistment (boot camp)",
+      "severity": "minor",
+      "source_quote": "I remember the first day of boot camp when I joined the Marine Corps after graduating from high school.",
+      "suggested_fix": "Use a natural Italian rendering for the U.S. service name for clarity and idiom. Replace “mi arruolai nei Marine Corps” with “mi arruolai nei Marine Corps (Corpo dei Marines)” or “mi arruolai nei Marines\" so it reads idiomatically in contemporary Italian.",
+      "translation_quote": "Ricordo il primo giorno di addestramento quando mi arruolai nei Marine Corps dopo il diploma di scuola superiore."
     }
   ],
+  "finished_at": "2026-10-02T11:21:05+00:00",
   "id": "2c5631ab773c5155fea489f8b19ecc53",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ita",
@@ -172,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 85,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/59d4849e1c86348caee3bfc73f9939e2ea68bc740d52161ef37989eff904e79d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "717da8d77d6092ac85798d90532d1ee4a9c48672d09b7616b1eb527cfd86d893",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

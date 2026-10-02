@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "41c92525-5c03-4929-8785-e7d3c66d2c48",
+    "response_id": "chatcmpl-EUVaeG161BOinoJc39zczeiDKiAp1",
+    "usage": {
+      "completion_tokens": 1270,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3032,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4302
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 3 (source.html) / Paragraph 3 (translation.html)",
+        "severity": "minor",
+        "source_quote": "The Heartbeat of the Remnant",
+        "suggested_fix": "Either leave the journal title in English as a proper name (acceptable) or provide a standard Russian rendering in italics/citation. Suggested Russian rendering: «The Heartbeat of the Remnant» (если сохраняете оригинал) или «Пульс Сбежавшего Оставшегося» — только если редакция желает перевести коммерческое/издательское имя. No change required if the editorial policy is to keep periodical names in the original.",
+        "translation_quote": "The Heartbeat of the Remnant"
+      },
+      {
+        "location": "Paragraph 8 (source.html) / Paragraph 8 (translation.html)",
+        "severity": "minor",
+        "source_quote": "A Glorious Church by Barry Grant and Joy in the Crevices by Sheryl Zeiset were both first printed in 2019.",
+        "suggested_fix": "Either retain the original English article titles as published (acceptable) or provide Russian translations for clarity to readers. Suggested Russian renderings: «A Glorious Church» — «Славная церковь»; «Joy in the Crevices» — «Радость в трещинах». Keep the author names as transliterations or original English per house style.",
+        "translation_quote": "A Glorious Church Барри Гранта и Joy in the Crevices Шерил Зайсет были впервые напечатаны в 2019 году."
+      },
+      {
+        "location": "Paragraph 1 (source.html) / Paragraph 1 (translation.html)",
+        "severity": "minor",
+        "source_quote": "Felix Mantz ... Feliz Mantz",
+        "suggested_fix": "The English source contains an inconsistency/typo (both \"Felix Mantz\" and \"Feliz Mantz\" appear). The translation uses the standard Russian form \"Феликс Манц,\" which corrects the typo. If strict fidelity to every original character string (including source typos) is required, revert the single occurrence that in English reads \"Feliz\" to a transliteration matching that spelling (\"Фелиз Манц\"). Otherwise, keeping the correct name \"Феликс Манц\" is appropriate.",
+        "translation_quote": "Феликс Манц, ... Феликс Манц"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

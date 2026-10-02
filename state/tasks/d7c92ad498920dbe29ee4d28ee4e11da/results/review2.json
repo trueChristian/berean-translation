@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c3eaa87c-923e-491d-9441-5e7b94d060a9",
+    "response_id": "chatcmpl-EUVaYxNlQptv9ETnGdDCunVchLYBv",
+    "usage": {
+      "completion_tokens": 942,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4968,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5910
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph describing crop: \"Turkey Red Wheat\"",
+        "severity": "minor",
+        "source_quote": "By this time, the strong agricultural society of the Mennonites had transformed Ukraine into a breadbasket, its vast fields sown with wheat developed specifically by the Mennonites: Turkey Red Wheat.",
+        "suggested_fix": "Translate the crop name into Arabic without leaving the English name in parentheses. For example, keep \"قمح تركيا الأحمر\" and remove \"(Turkey Red Wheat)\" so the entire substantive phrase is in the target language.",
+        "translation_quote": "...حقولها الواسعة مُزروعة بقمح طوره المينونيت خصيصاً: قمح تركيا الأحمر (Turkey Red Wheat)."
+      },
+      {
+        "location": "Final paragraph referencing Solzhenitsyn's book: \"Gulag Archipelago\"",
+        "severity": "minor",
+        "source_quote": "The atrocities of the Soviet government against its citizens are well documented in various works, most famously in the Gulag Archipelago, a book written by a Russian officer who was accused of treason.",
+        "suggested_fix": "Prefer a fully translated title or place the English title second. For example: \"كتاب «الأرخبيل الغولاغ»\" (omit the parenthetical English) or \"الأرخبيل الغولاغ (Gulag Archipelago)\" — if a parenthetical is retained, put the Arabic title first without duplicating English inside the emphasized text. Ensure the emphasized title uses the Arabic form consistently.",
+        "translation_quote": "...أشهرها كتاب <em>الأرخبيل الغولاغ</em> (Gulag Archipelago)، كتاب كتبه ضابط روسي اُتُّهم بالخيانة."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

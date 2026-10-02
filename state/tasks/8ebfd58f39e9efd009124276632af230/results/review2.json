@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "2c133324-6d0c-44df-9404-9569cb19475c",
+    "response_id": "chatcmpl-EUVac7FsMzYZshdknxCrKfqHv8p1L",
+    "usage": {
+      "completion_tokens": 1592,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12563,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 14155
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"article-note\"> (opening paragraph, inside emphasized text)",
+        "severity": "critical",
+        "source_quote": "After printing all five articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet.",
+        "suggested_fix": "Translate the magazine title (quoted prose) into Norwegian Bokmål within the existing HTML and tags. For example: replace '</em>The Heartbeat of the Remnant<em>' with '</em>Remnants hjerteslag<em>' (or another agreed Norwegian rendering of the publication title). Preserve the surrounding <em> tags and their order, and do not alter other HTML.",
+        "translation_quote": "Etter å ha trykt alle fem artiklene i </em>The Heartbeat of the Remnant<em>, vil vi utgi dem i et hefte."
+      },
+      {
+        "location": "<article> opening paragraph (wording)",
+        "severity": "minor",
+        "source_quote": "He preached these messages several times at different locations over the last ten years.",
+        "suggested_fix": "Fix the Norwegian verb typo 'prekt' to the correct past participle 'preket' while preserving surrounding HTML. For example: change 'budskap om gudfryktig kurtisering prekt av Paul Hershberger' to 'budskap om gudfryktig kurtisering preket av Paul Hershberger'.",
+        "translation_quote": "En Kristus-sentrert kurtiseeringsserie er en serie budskap om gudfryktig kurtisering prekt av Paul Hershberger."
+      },
+      {
+        "location": "<blockquote> (1 Timothy quotation translation)",
+        "severity": "minor",
+        "source_quote": "“I exhort therefore, that, first of all, supplications, prayers, intercessions, and giving of thanks, be made for all men;\" (1 Timothy 2:1–4)",
+        "suggested_fix": "The Norwegian rendering uses 'åsynsbønn' for 'intercessions', which is unclear/incorrect Norwegian. Replace 'forbønn, bønn, åsynsbønn og takksigelser' with a more idiomatic translation such as 'forbønn, bønner, mellombønn(er) og takksigelser' or simply 'forbønn, bønner, mellombønn og takksigelser' to clearly convey 'intercessions'. Preserve the quote tags and verse reference.",
+        "translation_quote": "«Jeg formaner derfor først og fremst at forbønn, bønn, åsynsbønn og takksigelser gjøres for alle mennesker; for konger og alle som er i høyhet; ...» (1. Timoteus 2:1–4)."
+      },
+      {
+        "location": "source.section → translation.section (metadata)",
+        "severity": "minor",
+        "source_quote": "INSPIRATIONS FOR YOUTH",
+        "suggested_fix": "The English section header is plural. The translation uses singular 'INSPIRASJON FOR UNGDOM'. If the intended sense is the same as the source (plural 'Inspirations'), change to plural Norwegian 'INSPIRASJONER FOR UNGDOM' or another plural form to match the English nuance. Update only the section metadata value.",
+        "translation_quote": "INSPIRASJON FOR UNGDOM"
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

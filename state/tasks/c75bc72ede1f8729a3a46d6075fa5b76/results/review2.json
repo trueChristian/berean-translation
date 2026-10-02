@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e51f9ab6-6834-4e97-b9ff-eee740e407c2",
+    "response_id": "chatcmpl-EUVaKaK7EifgCZPUgVf8gfUm3wN9K",
+    "usage": {
+      "completion_tokens": 1452,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6771,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8223
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph with book titles (third paragraph)",
+        "severity": "major",
+        "source_quote": "Hymns of the Heart (1848) and The Passion of Jesus (1852).",
+        "suggested_fix": "Translate the English book title 'The Passion of Jesus' into accurate, theologically neutral Urdu rather than 'یِسوع کا جنون'. Use a phrase that preserves the intended meaning of 'passion' as suffering/ardent devotion (e.g., 'یسوع کی مصیبتیں' or 'یِسوع کا دردِسوز') and keep the year. Preserve the existing HTML tags and punctuation. Example replacement (keeping markup): —<em>یِسوع کی مصیبتیں (The Passion of Jesus)</em> (1852).",
+        "translation_quote": "—<em>یِسوع کا جنون (The Passion of Jesus)</em> (1852)."
+      },
+      {
+        "location": "source.html — first Bridges lyric stanza (Bridges section, first line)",
+        "severity": "minor",
+        "source_quote": "Crown Him with many crowns, the Lamb upon His throne;",
+        "suggested_fix": "Correct the awkward Urdu phrasing that currently reads 'وہ مینڈھے والا تخت پر' to a clearer, grammatically natural rendering that preserves the original meaning. For example: 'اُس کو بے شمار تاج پہناؤ، وہ مینڈھا جو اپنے تخت پر ہے؛' Replace only the quoted line inside the HTML while preserving tags and line breaks.",
+        "translation_quote": "اسے کئی تاجوں سے تاج پوش کرو، وہ مینڈھے والا تخت پر؛"
+      },
+      {
+        "location": "source.html — paragraph about 'Diademata' (paragraph mentioning Greek meaning)",
+        "severity": "minor",
+        "source_quote": "Diademata. In Greek, the word diademata means “a royal crown”",
+        "suggested_fix": "Ensure consistent presentation of the foreign word and its translation. The current rendering repeats the transliterated form and parenthetical Latin script; that's acceptable but consider making the Urdu explanatory text more idiomatic (e.g., 'یونانی میں لفظ \"دیادیماٹا\" کا مطلب ہے \"بادشاہی تاج\"'). Adjust only the sentence in-place and keep the <em> tag around Diademata as in the source HTML.",
+        "translation_quote": "نام دیا گیا <em>Diademata (دیادیماٹا)</em>. یونانی میں، لفظ <em>Diademata (دیادیماٹا)</em> کا مطلب ہے \"ایک شاہی تاج\"—اس جوشیلے نغمے کے لیے ایک موزوں نام۔"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

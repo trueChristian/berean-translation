@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "142760aa-4c91-4637-b796-f73ccb4efab7",
+    "response_id": "chatcmpl-EUVaMVSDBxYcOrPWIl5O8tCMG5pHy",
+    "usage": {
+      "completion_tokens": 1121,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6207,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7328
+    }
+  },
+  "received_at": "2026-10-02T11:21:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...\"Crown Him the Lord of years! The Potentate of time—\"...</p> (Bridges lyrics)",
+        "severity": "minor",
+        "source_quote": "Crown Him the Lord of years! The Potentate of time—",
+        "suggested_fix": "Consider a more idiomatic Italian rendering of \"The Potentate of time\" such as «Il Sovrano del tempo» or «Il Signore del tempo» to avoid the uncommon noun \"Potentato\", which reads awkwardly in standard contemporary Italian. Replace the line accordingly, preserving the HTML and line breaks.",
+        "translation_quote": "Incoronalo Signore degli anni! Il Potentato del tempo—"
+      },
+      {
+        "location": "<p>...\"A great part of this song’s enduring quality is the tune it is paired with. This refrain was written especially for this song by Sir George Job Elvey in 1868 and was given the name of Diademata.\"...</p>",
+        "severity": "minor",
+        "source_quote": "A great part of this song’s enduring quality is the tune it is paired with. This refrain was written especially for this song by Sir George Job Elvey in 1868 and was given the name of Diademata.",
+        "suggested_fix": "\"Refrain\" in the source is rendered as \"ritornello\" in the translation, which is acceptable. If you prefer to emphasize the musical term \"melodia\" (tune) rather than \"ritornello\" (refrain), change only that word. Both are accurate; this is a stylistic suggestion. Preserve HTML.",
+        "translation_quote": "Gran parte della qualità duratura di questo canto è dovuta alla melodia con cui è accoppiato. Questo ritornello fu scritto appositamente per il canto da Sir George Job Elvey nel 1868 e fu denominato <em>Diademata</em>."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

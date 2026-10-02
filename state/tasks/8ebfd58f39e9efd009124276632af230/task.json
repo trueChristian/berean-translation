@@ -2,7 +2,6 @@
   "article_id": "5a87c21f-cce9-4033-8a43-5458311bc7f0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,52 +61,59 @@
         },
         "total_tokens": 19581
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1592,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12563,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14155
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "source.title",
-      "severity": "major",
-      "source_quote": "A Christ-Centered Courtship Series",
-      "suggested_fix": "Translate the English title into contemporary Norwegian Bokmål, preserving meaning and theology. For example: \"En Kristus-sentrert kurtiseeringsserie\" (or another idiomatic Bokmål rendering). Do not alter HTML structure; replace only the text content of the title field.",
-      "translation_quote": "A Christ-Centered Courtship Series"
+      "location": "<p class=\"article-note\"> (opening paragraph, inside emphasized text)",
+      "severity": "critical",
+      "source_quote": "After printing all five articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet.",
+      "suggested_fix": "Translate the magazine title (quoted prose) into Norwegian Bokmål within the existing HTML and tags. For example: replace '</em>The Heartbeat of the Remnant<em>' with '</em>Remnants hjerteslag<em>' (or another agreed Norwegian rendering of the publication title). Preserve the surrounding <em> tags and their order, and do not alter other HTML.",
+      "translation_quote": "Etter å ha trykt alle fem artiklene i </em>The Heartbeat of the Remnant<em>, vil vi utgi dem i et hefte."
     },
     {
-      "location": "source.subtitle",
-      "severity": "major",
-      "source_quote": "The Preparation Sleep",
-      "suggested_fix": "Translate the English subtitle into contemporary Norwegian Bokmål, preserving meaning. For example: \"Forberedelsessøvnen\" or \"Forberedelsens søvn\" depending on preferred idiom. Keep the subtitle field's structure unchanged.",
-      "translation_quote": "The Preparation Sleep"
+      "location": "<article> opening paragraph (wording)",
+      "severity": "minor",
+      "source_quote": "He preached these messages several times at different locations over the last ten years.",
+      "suggested_fix": "Fix the Norwegian verb typo 'prekt' to the correct past participle 'preket' while preserving surrounding HTML. For example: change 'budskap om gudfryktig kurtisering prekt av Paul Hershberger' to 'budskap om gudfryktig kurtisering preket av Paul Hershberger'.",
+      "translation_quote": "En Kristus-sentrert kurtiseeringsserie er en serie budskap om gudfryktig kurtisering prekt av Paul Hershberger."
     },
     {
-      "location": "source.section",
+      "location": "<blockquote> (1 Timothy quotation translation)",
+      "severity": "minor",
+      "source_quote": "“I exhort therefore, that, first of all, supplications, prayers, intercessions, and giving of thanks, be made for all men;\" (1 Timothy 2:1–4)",
+      "suggested_fix": "The Norwegian rendering uses 'åsynsbønn' for 'intercessions', which is unclear/incorrect Norwegian. Replace 'forbønn, bønn, åsynsbønn og takksigelser' with a more idiomatic translation such as 'forbønn, bønner, mellombønn(er) og takksigelser' or simply 'forbønn, bønner, mellombønn og takksigelser' to clearly convey 'intercessions'. Preserve the quote tags and verse reference.",
+      "translation_quote": "«Jeg formaner derfor først og fremst at forbønn, bønn, åsynsbønn og takksigelser gjøres for alle mennesker; for konger og alle som er i høyhet; ...» (1. Timoteus 2:1–4)."
+    },
+    {
+      "location": "source.section → translation.section (metadata)",
       "severity": "minor",
       "source_quote": "INSPIRATIONS FOR YOUTH",
-      "suggested_fix": "Translate the section name into contemporary Norwegian Bokmål while preserving genre/tonal meaning. For example: \"INSPIRASJON FOR UNGDOM\" (or \"Inspirasjon for ungdom\" depending on site style). Maintain capitalization conventions per site style.",
-      "translation_quote": "INSPIRATIONS FOR YOUTH"
-    },
-    {
-      "location": "source.html — entire article body (multiple paragraphs, headings, quotes, lists, captions)",
-      "severity": "critical",
-      "source_quote": "<article data-article-id=\"5a87c21f-cce9-4033-8a43-5458311bc7f0\"> ... full English article text including all headings, paragraphs, Scripture quotations (Genesis 2:19–22; Luke 2:39–42; Luke 2:42-50; Luke 2:51; Luke 2:52; 2 Timothy 2:15; 1 Timothy 2:1–4; Hebrews 13:15; Galatians 5:22–23; 1 Cor. 7:2–28, 32–34; Luke 3:21–23) ...</source_quote",
-      "suggested_fix": "Translate the entire article body into contemporary Norwegian Bokmål. Preserve the HTML tags, order, nesting, and immutable attributes exactly as in the source. Translate all visible text nodes, including headings, paragraph text, bulleted/numbered lists, figure captions and image alt text. Crucially, translate every quoted Scripture passage (blockquotes and inline Scripture quotations) into Norwegian Bokmål, preserving the exact chapter and verse numbers and the number and placement of references. Do not substitute a different Bible version identifier; render the meaning faithfully in Bokmål using conventional Norwegian book names (e.g., \"1. Mosebok\" or \"Genesis\" according to site conventions) only for book-name localization if required by style, but keep verse numbers identical. Example actionable items:\n- Replace each blockquote content with an idiomatic Bokmål rendering of the quoted Scripture, keeping the reference parenthetical unchanged (e.g., \"(Genesis 2:19–22)\" remains the same numbers and punctuation).\n- Translate all narrative and instructional paragraphs into Bokmål, preserving theological content and emphases.\n- Translate headings (e.g., \"Jesus was a maturing, godly young man\") into Bokmål.\n- Translate list items and study references (e.g., \"Study Titus 2:6-8\") into Bokmål, while keeping verse citations identical.\nEnsure no substantive English prose remains in the article text or captions after revision.",
-      "translation_quote": "<article data-article-id=\"5a87c21f-cce9-4033-8a43-5458311bc7f0\"> ... full English article text (unchanged) ..."
-    },
-    {
-      "location": "source.html — image alt text",
-      "severity": "minor",
-      "source_quote": "\"A three-panel collage of winter trees and a snowy rural scene\"",
-      "suggested_fix": "Translate the image alt text into contemporary Norwegian Bokmål (e.g., \"En trepanel-kollasj av vintertrær og et snødekt landskap\"). Preserve the alt attribute and do not alter tag structure.",
-      "translation_quote": "A three-panel collage of winter trees and a snowy rural scene"
-    },
-    {
-      "location": "source.html — article-note and embedded publication metadata",
-      "severity": "major",
-      "source_quote": "A Christ-centered Courtship is a series of messages on godly courtship preached by Paul Hershberger. He preached these messages several times at different locations over the last ten years. Recently, we had them transcribed and abridged for reading clarity. After printing all five articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet. This is the fourth article of five.",
-      "suggested_fix": "Translate the article-note and the embedded publication metadata paragraph into Bokmål, keeping the publication title (The Heartbeat of the Remnant) as an unchanged proper title only if the site's style requires leaving that work's English title; otherwise translate the descriptive text into Bokmål. Preserve the HTML tags (<em>, etc.) and their nesting.",
-      "translation_quote": "A Christ-centered Courtship is a series of messages on godly courtship preached by Paul Hershberger. He preached these messages several times at different locations over the last ten years. Recently, we had them transcribed and abridged for reading clarity. After printing all five articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet. This is the fourth article of five."
+      "suggested_fix": "The English section header is plural. The translation uses singular 'INSPIRASJON FOR UNGDOM'. If the intended sense is the same as the source (plural 'Inspirations'), change to plural Norwegian 'INSPIRASJONER FOR UNGDOM' or another plural form to match the English nuance. Update only the section metadata value.",
+      "translation_quote": "INSPIRASJON FOR UNGDOM"
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "8ebfd58f39e9efd009124276632af230",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "nob",
@@ -151,13 +157,13 @@
     }
   },
   "protected": false,
-  "quality_score": 30,
+  "quality_score": 72,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0a1dcaa5cafea68d0933d4307f622a54749ce00327ed437d6329e9b9b2a36c0b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "403dccfee978e00bf41c2daf2df29e8cfa526a0ef6c19371773e58abc48734b6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

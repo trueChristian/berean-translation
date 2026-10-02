@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0b70cf8c-7530-43fb-a628-cafcef556a76",
+    "response_id": "chatcmpl-EUVapnfazOrnw60BRLQrW5C22rG5r",
+    "usage": {
+      "completion_tokens": 1292,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3902,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5194
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 2 (description of mints)",
+        "severity": "minor",
+        "source_quote": "In that vest pocket, there were mints. Lifesavers, to be exact.",
+        "suggested_fix": "Translate the brand/name into standard Kiswahili rendering or mark as a loanword consistently. Replace the translation sentence with: \"Kwenye mfuko wa veste hiyo, kulikuwa na mints — Lifesavers, hasa.\" (or if you prefer fully Swahilized: \"Kwenye mfuko wa veste hiyo, kulikuwa na mints — candy aina ya ‘Lifesavers’.\") Preserve the surrounding <p>…</p> tags.",
+        "translation_quote": "Kwenye mfuko wa veste hiyo, kulikuwa na mints. Lifesavers, hasa."
+      },
+      {
+        "location": "Penultimate paragraph (brand mention)",
+        "severity": "minor",
+        "source_quote": "A Lifesaver, to be exact.",
+        "suggested_fix": "Make the brand rendering consistent with the earlier rendering in Kiswahili. Replace the translation fragment with: \"Lifesaver, hasa.\" or \"Candy ya aina ya ‘Lifesaver’, hasa.\" Keep the enclosing <p>…</p> tags unchanged.",
+        "translation_quote": "Lifesaver, hasa."
+      },
+      {
+        "location": "Paragraph 1 (rendering of “he would crane his neck”)",
+        "severity": "minor",
+        "source_quote": "Every Sunday morning, he would crane his neck in search of the hoary head of the fellowship’s oldest member",
+        "suggested_fix": "Use an idiomatic Kiswahili verb for 'crane his neck' such as “aning'ama shingo” or “alikuwa akipandisha shingo” or “alikuwa akitikisa shingo kwa kutafuta”. Suggested replacement (preserving <p>…</p>): \"Kila Jumapili asubuhi, alikibwaga shingo kutafuta kichwa cha mwanachama mzee mwenye nywele za kijivu wa kikundi.\" or \"Kila Jumapili asubuhi, alibana shingo kutafuta kichwa cha mwanachama mzee mwenye nywele za kijivu wa kikundi.\"",
+        "translation_quote": "Kila Jumapili asubuhi, algekea shingo kutafuta kichwa cha mwanachama mzee mwenye nywele za kijivu wa kikundi, na kila wakati mama yake angesogeza macho kumtazama Dirk kwa mtazamo ulio maana, “Kaa kimya na tazama mbele.”"
+      },
+      {
+        "location": "Paragraph where Dirk uses his sleeve as handkerchief",
+        "severity": "minor",
+        "source_quote": "“I’m sorry. I didn’t think about it like that,” Dirk sniveled, using his sleeve as a handkerchief.",
+        "suggested_fix": "‘Sleeve’ should be translated as 'mkiuno' or better 'mshipa'/'mkembe' is not correct. Use 'mkono wake' or 'kichwani/mkia'—recommended: \"’Samahani. Sikufikiria hivyo,’ Dirk alihanikiza, akitumia mkono wake kama kitambaa cha kukausha machozi.\" Preserve surrounding <p>…</p>.",
+        "translation_quote": "“Samahani. Sikufikiria hivyo,” Dirk alihanikiza, akitumia mshipi wake kama kitambaa cha kukausha machozi."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

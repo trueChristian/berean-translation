@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "52f4ebd5-4926-4ecf-87d9-a54ca2e9bf70",
+    "response_id": "chatcmpl-EUVacQmO1ajEmlKLkMJi7Jwj2gH7K",
+    "usage": {
+      "completion_tokens": 1601,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6012,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7613
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first paragraph",
+        "severity": "minor",
+        "source_quote": "A few years ago, I was wallowing in emotional and physical burnout, trying to adjust to life outside of the African village we had called home for eight years.",
+        "suggested_fix": "Fix Hebrew verb form to match feminine subject. Change \"ניסה להתרגל\" to \"ניסיתי להתרגל\".",
+        "translation_quote": "לפני כמה שנים שקעתי בשחיקה רגשית ופיזית, ניסה להתרגל לחיים מחוץ לכפר האפריקני שקראנו לו בית במשך שמונה שנים."
+      },
+      {
+        "location": "source.html — second paragraph, sentence 1",
+        "severity": "minor",
+        "source_quote": "And honestly, we lived in a village with very little beauty to offer, the only brightness being the vibrantly colored clothing the women wore.",
+        "suggested_fix": "Correct typo \"וכנה\" → \"וכן\".",
+        "translation_quote": "וכנה, חיינו בכפר שהציע מעט מאוד יופי; הבוהק היחיד היה בבגדים הצבעוניים של הנשים."
+      },
+      {
+        "location": "source.html — \"Keeping a reasonably clean, pleasant house\" paragraph",
+        "severity": "minor",
+        "source_quote": "I try to get rid of the extras and replace the dirty, the dingy, and the ugly with something that is beautiful and lovely.",
+        "suggested_fix": "\"dingy\" was translated as \"המעורפל\" (meaning 'blurred/unclear'). Use a Hebrew equivalent for 'dingy' meaning grimy or shabby, e.g. \"המקומט/השחוק/העכור\". Example: \"להחליף את הלכלוך, את העכור ואת המכוער\".",
+        "translation_quote": "אני משתדלת להיפטר מעודפים ולהחליף את הלכלוך, את המעורפל ואת המכוער במשהו שיפה ונעים."
+      },
+      {
+        "location": "source.html — \"Serving food tastefully\" paragraph",
+        "severity": "major",
+        "source_quote": "Raid your local market and you will be surprised with what you can find in glassware and other beautiful dishes that brighten your table.",
+        "suggested_fix": "Current Hebrew \"הדליקו את השוק המקומי\" reads as \"set your local market on fire\". Replace with a faithful idiomatic rendering such as: \"בקרו את השוק המקומי ותתפלאו ממה שתמצאו\" or \"טיילו בשוק המקומי\".",
+        "translation_quote": "הדליקו את השוק המקומי ותתפסו להפתעתכם מה אפשר למצוא מזכוכית וכלים יפים אחרים שמעניקים שולחן מואר."
+      },
+      {
+        "location": "source.html — \"Spending time appreciating the beauty of nature\" paragraph",
+        "severity": "minor",
+        "source_quote": "It’s cold (45 degrees or colder in the morning).",
+        "suggested_fix": "Original gives no unit; translated text adds \"45°F\". Either remove the unit or match intended unit in context. Suggest: \"קריר (בערך 45 מעלות או פחות בוקר)\" but preferably keep unit neutral: \"קריר (כ־45 מעלות או פחות בבוקר)\" and use Celsius if target audience expects it, or omit unit.",
+        "translation_quote": "קריר (45°F או פחות בבוקר)."
+      },
+      {
+        "location": "source.html — paragraph about Tim being exhausted",
+        "severity": "critical",
+        "source_quote": "My husband is exhausted, both physically and emotionally, yet this morning he left for another trip back to the village to “heap on coals of fire” by giving the angry army officer a solar panel and a transformer on top of the other things he demanded.",
+        "suggested_fix": "Translator rendered \"My husband\" as \"אבי\" (my father), which changes the attribution and is a substantive factual error. Replace \"אבי\" with the correct Hebrew \"בעלי\" so the sentence preserves the original meaning and attribution.",
+        "translation_quote": "אבי מותש, גם פיזית וגם רגשית, ובכל זאת הבוקר הוא יצא לעוד נסיעה חזרה לכפר כדי \\\"להשליך גחלים של אש\\\" על ידי מתן פאנל סולארי ומשנה־מתח על גבי שאר הדברים שדרש."
+      }
+    ],
+    "passed": false,
+    "score": 68
+  }
+}

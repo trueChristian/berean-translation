@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0913b5f5-950c-4a7d-a875-77030b4d6dc1",
+    "response_id": "chatcmpl-EUVaDZLPmrLDO1ziRbVlGZAiYbNC3",
+    "usage": {
+      "completion_tokens": 885,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6540,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7425
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"source-note\">…</p> (source-note at end of article_html)",
+        "severity": "minor",
+        "source_quote": "<em>The article is reprinted by request. It was first printed in </em><span>The Heartbeat of the Remnant</span><em> in the Autumn 2019 issue. Previously printed in </em><span>Earthen Vessels</span><em>.</em>",
+        "suggested_fix": "Preserve the original English publication titles (or present them alongside the Hindi transliteration) to avoid altering cited source names. For example, keep the <span> elements' text as the original English titles or include both: <span>The Heartbeat of the Remnant (रिमनेंट की धड़कन)</span> and <span>Earthen Vessels (अर्थेन वेसल्स)</span>. Do this while keeping the existing HTML structure exactly the same.",
+        "translation_quote": "<p class=\"source-note\"><em>यह लेख अनुरोध पर पुनर्प्रकाशित किया गया है। यह पहली बार </em><span>रिमनेंट की धड़कन</span><em> के शरद् 2019 अंक में छापा था। पहले यह </em><span>अर्थेन वेसल्स</span><em> में छपा था।</em></p>"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

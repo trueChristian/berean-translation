@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "eb46b25c-5fb4-4302-9746-cade9c4c54da",
+    "response_id": "chatcmpl-EUVbe9zcLybuVCzhB5UrD3hccCvg5",
+    "usage": {
+      "completion_tokens": 869,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6253,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7122
+    }
+  },
+  "received_at": "2026-10-02T11:21:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"Mr. Bridges’ hymns are marked...\" (translation paragraph beginning 'Vi fortsätter med vår berättelse. Matthew Bridges konverterade...')",
+        "severity": "minor",
+        "source_quote": "Mr. Bridges’ hymns are marked by spirituality and genuine power.",
+        "suggested_fix": "Translate or localize the English honorific and possessive. Replace the phrase in-place preserving tags, e.g.: \"Bridges psalmer kännetecknas av andlighet och äkta kraft.\"",
+        "translation_quote": "Mr Bridges’ psalmer kännetecknas av andlighet och äkta kraft."
+      },
+      {
+        "location": "Lyrics (Bridges section) — multiple lines where \"Honom\" and other pronouns are capitalized (e.g., \"Krona Honom med många kronor, Lammet på sin tron;\")",
+        "severity": "minor",
+        "source_quote": "Crown Him with many crowns, the Lamb upon His throne;",
+        "suggested_fix": "Swedish convention does not capitalize pronouns for God except in some devotional styles. For a standard contemporary Swedish rendering, lowercase pronouns is preferred. Example replacement: \"Kröna honom med många kronor, lammet på sin tron;\" (apply consistently to other occurrences of Honom/Du/Ty etc.). Preserve HTML and stanza structure.",
+        "translation_quote": "Krona Honom med många kronor, Lammet på sin tron;"
+      },
+      {
+        "location": "Paragraph: \"Crown Him the Lord of heaven! One with the Father known,...\" (translation paragraph about 'triune throne')",
+        "severity": "minor",
+        "source_quote": "Crown Him the Lord of heaven! One with the Father known, And the blest Spirit, through Him given from yonder triune throne!",
+        "suggested_fix": "\"Triune\" is an English theological adjective; render it into idiomatic Swedish. Replace with \"treeniga\" or a clearer phrase such as \"treeniga tronen\" or \"den treeniga tronen\". Example: \"…och den saliga Anden, genom honom given från den treeniga tronen där borta!\" Preserve punctuation and tags.",
+        "translation_quote": "...Och den saliga Anden, genom Honom given från den triune tronen där borta!"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a4e1f018-a690-477e-bd07-6e64d3e52eb3",
+    "response_id": "chatcmpl-EUVaWW09JVLnAgYZMsmXzXBsexXJU",
+    "usage": {
+      "completion_tokens": 1686,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4838,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1792
+      },
+      "total_tokens": 6524
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Atrocity-atrocities pemerintahan Soviet terhadap warganya terdokumentasi dengan baik dalam berbagai karya, paling terkenal dalam <em>Gulag Archipelago</em>, ...</p>",
+        "severity": "major",
+        "source_quote": "The atrocities of the Soviet government against its citizens are well documented in various works, most famously in the <em>Gulag Archipelago</em>, a book written by a Russian officer who was accused of treason.",
+        "suggested_fix": "Ganti frasa yang tampak belum diterjemahkan \"Atrocity-atrocities\" dengan terjemahan Bahasa Indonesia yang sesuai dan alami. Contoh perbaikan: <p>Kekejaman-kekejaman pemerintahan Soviet terhadap warganya terdokumentasi dengan baik dalam berbagai karya, paling terkenal dalam <em>Gulag Archipelago</em>, sebuah buku yang ditulis oleh seorang perwira Rusia yang dituduh pengkhianatan.</p>",
+        "translation_quote": "Atrocity-atrocities pemerintahan Soviet terhadap warganya terdokumentasi dengan baik dalam berbagai karya, paling terkenal dalam <em>Gulag Archipelago</em>, sebuah buku yang ditulis oleh seorang perwira Rusia yang dituduh pengkhianatan."
+      },
+      {
+        "location": "<p>...Penduduk Rusia Baru, sebagaimana disebut kala itu, kebanyakan adalah nomaden dan Cossack, kelompok semi-nomaden yang hadir di stepa Rusia.</p>",
+        "severity": "minor",
+        "source_quote": "The residents of New Russia, as it was then called, were mostly nomads and Cossacks, a seminomadic group present in the steppes of Russia.",
+        "suggested_fix": "Perbaiki angka jamak/satuan untuk kata 'Cossack' agar sesuai makna jamak dalam bahasa Indonesia. Contoh: ganti \"Cossack, kelompok semi-nomaden\" menjadi \"para Cossack, sebuah kelompok semi-nomaden\" atau \"Cossacks, sebuah kelompok semi-nomaden\". Sebagai alternatif terjemahan natural: <p>Penduduk Rusia Baru, sebagaimana disebut kala itu, kebanyakan adalah nomaden dan para Cossack, sebuah kelompok semi-nomaden yang hidup di stepa Rusia.</p>",
+        "translation_quote": "Penduduk Rusia Baru, sebagaimana disebut kala itu, kebanyakan adalah nomaden dan Cossack, kelompok semi-nomaden yang hadir di stepa Rusia."
+      },
+      {
+        "location": "<p>...yang menarik bagi mereka karena pada waktu itu mereka secara rutin ditolak hak kepemilikan tanah sebagai masyarakat yang setengah-teraniaya.</p>",
+        "severity": "minor",
+        "source_quote": "...which would have appealed to them because they were routinely denied land ownership as a semi-persecuted people at that time.",
+        "suggested_fix": "Ungkapan \"setengah-teraniaya\" bertanda hubung dan terasa canggung dalam bahasa Indonesia. Sarankan penghalusan menjadi \"sebagai suatu kaum yang setengah tertindas\" atau \"sebagai suatu kaum yang mengalami penganiayaan sebagian\". Contoh perbaikan: <p>...yang menarik bagi mereka karena pada waktu itu mereka secara rutin dilarang memiliki tanah sebagai suatu kaum yang setengah tertindas.</p>",
+        "translation_quote": "...yang menarik bagi mereka karena pada waktu itu mereka secara rutin ditolak hak kepemilikan tanah sebagai masyarakat yang setengah-teraniaya."
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

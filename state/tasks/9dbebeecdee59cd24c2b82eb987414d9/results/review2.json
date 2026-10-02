@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9e3c7ff5-f789-4030-87a3-6cf8647f1169",
+    "response_id": "chatcmpl-EUValEMBQ6BPupsWpjnEbhYxRHUjU",
+    "usage": {
+      "completion_tokens": 737,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1543,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2280
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"><p> stanza 1, line 1-2",
+        "severity": "minor",
+        "source_quote": "City of God, how broad and far\noutspread thy walls sublime!",
+        "suggested_fix": "Adjust wording to a more natural Dutch idiom that preserves the meaning and poetic sense. For example: \"Stad van God, hoe breed en wijd\nspreiden zich uw muren, hoog en subliem!\" This keeps the image of the walls being outspread and retains the adjective 'sublime' (subliem). Preserve existing HTML tags and line breaks.",
+        "translation_quote": "Stad van God, hoe breed en wijd\nligt uit uw muren, hoog en groot!"
+      },
+      {
+        "location": "<div class=\"poem\"><p> stanza 2, line 1",
+        "severity": "minor",
+        "source_quote": "One holy church, one army strong,",
+        "suggested_fix": "Use consistent and idiomatic Dutch for enumerations and ensure accents are used only if stylistically desired. For example: \"Één heilige kerk, één krachtig leger,\" or without the accent: \"Een heilige kerk, een krachtig leger,\" depending on house style. Preserve HTML structure.",
+        "translation_quote": "Één heilige kerk, één sterk leger,"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

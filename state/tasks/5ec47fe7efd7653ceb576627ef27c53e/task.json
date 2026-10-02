@@ -2,7 +2,6 @@
   "article_id": "5a87c21f-cce9-4033-8a43-5458311bc7f0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,52 +61,44 @@
         },
         "total_tokens": 20966
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1166,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12644,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 5888
+        },
+        "total_tokens": 13810
+      }
     }
   ],
   "findings": [
     {
-      "location": "translation.html <h2>The Preparation Sleep.</h2>",
-      "severity": "critical",
-      "source_quote": "The Preparation Sleep.",
-      "suggested_fix": "Translate this heading into Italian, e.g.: <h2>Il sonno di preparazione</h2>",
-      "translation_quote": "The Preparation Sleep."
-    },
-    {
-      "location": "translation.html several <h2> and <h3> headings (examples: \"Jesus was a maturing, godly young man\", \"Jesus sensed the call of God\", \"Jesus was subject to his parents\", \"Jesus continued to increase and mature\", \"Learning to walk with God\", \"What kind of partner do I need?\", \"When am I ready for marriage?\", \"Young men\", \"Young women\", \"In Summary\")",
-      "severity": "critical",
-      "source_quote": "Jesus was a maturing, godly young man\nJesus sensed the call of God\nJesus was subject to his parents\nJesus continued to increase and mature\nLearning to walk with God\nWhat kind of partner do I need?\nWhen am I ready for marriage?\nYoung men\nYoung women\nIn Summary",
-      "suggested_fix": "Translate each heading into Italian, preserving HTML tags. Examples:\n- <h2>Gesù: un giovane pia e in crescita</h2>\n- <h2>Gesù percepì la chiamata di Dio</h2>\n- <h2>Gesù si sottomise ai suoi genitori</h2>\n- <h2>Gesù continuò a crescere e maturare</h2>\n- <h2>Imparare a camminare con Dio</h2>\n- <h2>Che tipo di partner mi serve?</h2>\n- <h2>Quando sono pronto per il matrimonio?</h2>\n- <h2>Giovani uomini</h2>\n- <h2>Giovani donne</h2>\n- <h2>In sintesi</h2>\n(Adjust wording to match the magazine's style; keep tag structure identical.)",
-      "translation_quote": "Jesus was a maturing, godly young man\nJesus sensed the call of God\nJesus was subject to his parents\nJesus continued to increase and mature\nLearning to walk with God\nWhat kind of partner do I need?\nWhen am I ready for marriage?\nYoung men\nYoung women\nIn Summary"
-    },
-    {
-      "location": "translation.html headings and inline prompts: \"Bible reading\", \"Die to areas in your life\", \"Yield your life to God’s service\", and the sentence-level prompts beginning with English verbs like \"Study Titus 2:6-8\" and \"Study Titus 2:4–5.\"",
-      "severity": "major",
-      "source_quote": "Bible reading\nDie to areas in your life\nDeveloping a Christlike character\nYield your life to God’s service\nStudy Titus 2:6-8\nStudy Titus 2:4–5.",
-      "suggested_fix": "Translate these subheadings and instruction lines into Italian and keep the scripture references unchanged. Examples:\n- <h3>Lettura della Bibbia</h3>\n- <h3>Morire ad aree della tua vita</h3>\n- <h3>Sviluppare un carattere simile a Cristo</h3>\n- <h3>Dedica la tua vita al servizio di Dio</h3>\n- Replace \"Study Titus 2:6-8\" with \"Studia Tito 2:6-8\" and \"Study Titus 2:4–5\" with \"Studia Tito 2:4–5\" (preserve verse numbers and book reference placement).",
-      "translation_quote": "Bible reading\nDie to areas in your life\nDeveloping a Christlike character\nYield your life to God’s service\nStudy Titus 2:6-8\nStudy Titus 2:4–5."
-    },
-    {
-      "location": "translation.section and translation.title",
-      "severity": "major",
-      "source_quote": "INSPIRATIONS FOR YOUTH\nA Christ-Centered Courtship Series",
-      "suggested_fix": "Translate these metadata fields into Italian while preserving style/uppercase choices as appropriate. Suggested translations:\n- section: \"ISPIRAZIONI PER I GIOVANI\"\n- title: \"Una serie sul corteggiamento centrato su Cristo\"\n(Or adapt wording to the magazine's house style.)",
-      "translation_quote": "INSPIRATIONS FOR YOUTH\nA Christ-Centered Courtship Series"
-    },
-    {
-      "location": "translation.html several inline English phrases left untranslated (examples: \"The Heartbeat of the Remnant\", \"The Preparation Sleep.\" repeated instances, \"What kind of partner do I need?\", \"When am I ready for marriage?\", \"In Summary\")",
+      "location": "Paragraph beginning “Now, it is eighteen years later...” (Luke 3:21–23) — translation of Luke 3:21–23",
       "severity": "minor",
-      "source_quote": "The Heartbeat of the Remnant\nThe Preparation Sleep.\nWhat kind of partner do I need?\nWhen am I ready for marriage?\nIn Summary",
-      "suggested_fix": "Translate these remaining English phrases where they appear in the article text. For the magazine name The Heartbeat of the Remnant, if the publication title is normally left in English in Italian editions, keep it; otherwise render consistently (e.g. «The Heartbeat of the Remnant» or «Il battito del residuo» depending on editorial policy).",
-      "translation_quote": "The Heartbeat of the Remnant\nThe Preparation Sleep.\nWhat kind of partner do I need?\nWhen am I ready for marriage?\nIn Summary"
+      "source_quote": "“Now when all the people were baptized, it came to pass, that Jesus also being baptized, and praying, the heaven was opened, And the Holy Ghost descended in a bodily shape like a dove upon him, and a voice came from heaven, which said, Thou art my beloved Son; in thee I am well pleased. And Jesus himself began to be about thirty years of age . . . ” (Luke 3:21–23).",
+      "suggested_fix": "Use a more idiomatic Italian rendering for “in a bodily shape like a dove” (avoid literal calque “corporativamente”). For example: “e lo Spirito Santo discese su di lui in forma corporea, come una colomba” or “e lo Spirito Santo discese su di lui in forma corporea simile a una colomba”. Preserve the rest of the verse punctuation and the Luke 3:21–23 reference.",
+      "translation_quote": "“Quando tutto il popolo fu battezzato, avvenne anche che Gesù, che era stato battezzato e che pregava, il cielo si aprì, e lo Spirito Santo discese corporativamente come una colomba su di lui, e una voce venne dal cielo, che disse: Tu sei il mio Figlio prediletto; in te mi sono compiaciuto. E Gesù stesso cominciò ad essere verso i trent'anni…” (Luca 3:21–23)."
     },
     {
-      "location": "translation.html paragraph where 1 Cor 7 quote appears",
+      "location": "Sentence starting the section that introduces Jesus’ life: “Allorchè consideriamo il sonno di preparazione...”",
       "severity": "minor",
-      "source_quote": "(source quoted 1 Cor. 7:2–28, 32–34 blockquote)",
-      "suggested_fix": "The blockquote includes a parenthetical reference in the source metadata: \"(1 Cor. 7:2–28, 32–34).\" Ensure the translation keeps the same verse-number sequence and formatting. In the translation the blockquote reproduces the scripture text in Italian but the parenthetical reference earlier in the English source at top-of-block should be preserved; confirm the verse-range citation is present and unchanged. If missing, add: (1 Cor. 7:2–28, 32–34).",
-      "translation_quote": "Sezione con la citazione di 1 Cor. 7 (blocco citato)"
+      "source_quote": "“As we consider preparation sleep, let’s look at the life of Jesus when He was young. We want to look at four points from His life and make practical applications.”",
+      "suggested_fix": "Correct minor Italian orthography: replace “Allorchè” with standard Italian accenting “Allorché”. (Keep the sentence structure and meaning otherwise unchanged.)",
+      "translation_quote": "“Allorchè consideriamo il sonno di preparazione, guardiamo alla vita di Gesù quando era giovane. Vogliamo prendere quattro punti dalla Sua vita e trarre applicazioni pratiche.”"
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "5ec47fe7efd7653ceb576627ef27c53e",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ita",
@@ -151,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 45,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0a1dcaa5cafea68d0933d4307f622a54749ce00327ed437d6329e9b9b2a36c0b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "403dccfee978e00bf41c2daf2df29e8cfa526a0ef6c19371773e58abc48734b6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

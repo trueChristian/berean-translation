@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e98d0557-c3a6-4d4b-9b0d-43d1092f0e03",
+    "response_id": "chatcmpl-EUVauKl18eurg06ac0Kuf1u8FLOnb",
+    "usage": {
+      "completion_tokens": 1421,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6666,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8087
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html — paragraph 3 (\"Lente mag haar deel soggende...\")",
+        "severity": "minor",
+        "source_quote": "Spring may have its equal share of soggy and uncomfortable appointments and ragged days.",
+        "suggested_fix": "Replace 'soggende' with a more natural Afrikaans term such as 'soggy' → 'sog' or 'nat' (e.g. \"Lente mag haar deel nat en ongemaklike dae hê...\") to improve idiomatic clarity while preserving meaning.",
+        "translation_quote": "Lente mag haar deel soggende en ongemaklike dae hê en geskeurde oomblikke."
+      },
+      {
+        "location": "translation.html — paragraph 2 (\"...brandende hitte en humiditeit...\")",
+        "severity": "minor",
+        "source_quote": "Summer can be unbearable with its burning heat and humidity,",
+        "suggested_fix": "Use the more common Afrikaans 'vogtheid' rather than 'humiditeit' for natural idiom: e.g. \"...brandende hitte en vogtheid...\"",
+        "translation_quote": "Somer kan ondraaglik wees met sy brandende hitte en humiditeit, maar dit dra ’n skynbare seën..."
+      },
+      {
+        "location": "translation.html — paragraph (Versterking) (\"Diegene wat hulleself aan alle kante sal isoleer...\")",
+        "severity": "minor",
+        "source_quote": "Those who will insulate themselves on every side from the buffeting of winter will, no doubt, incur a weakening of the will.",
+        "suggested_fix": "Correct the typographic/wording error 'hulleself' to 'hulle hulself' or restructure to 'hulle sal hulself' for grammatical correctness. Suggested: \"Diegene wat hulself aan alle kante sal isoleer teen die storm van die winter sal ongetwyfeld ’n verswakking van die wil ervaar.\"",
+        "translation_quote": "Diegene wat hulleself aan alle kante sal isoleer teen die storm van die winter sal ongetwyfeld ’n verswakking van die wil ervaar."
+      },
+      {
+        "location": "translation.html — paragraph (Saamwees) (\"met een gees in Salomo se voorhof\")",
+        "severity": "minor",
+        "source_quote": "with one accord in Solomon’s porch (Acts 5:12)",
+        "suggested_fix": "Consider the slightly more standard Afrikaans rendering 'in een gees' instead of 'met een gees' for smoothness in this biblical phrase: e.g. \"in een gees in Salomo se voorhof\". This is stylistic and optional; current wording is acceptable theologically and accurate.",
+        "translation_quote": "met een gees in Salomo se voorhof (Handelinge 5:12)."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

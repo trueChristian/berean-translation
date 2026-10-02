@@ -2,7 +2,6 @@
   "article_id": "b37f8111-4563-4b5b-ab9f-1f87bcd2b46a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,38 +61,52 @@
         },
         "total_tokens": 10266
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1286,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6049,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7335
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "source.html — final paragraph (source-note)",
+      "location": "<p class=\"source-note\">…</p> (end of article, source-note HTML)",
       "severity": "major",
-      "source_quote": "The article is reprinted by request. It was first printed in The Heartbeat of the Remnant in the Autumn 2019 issue. Previously printed in Earthen Vessels.",
-      "suggested_fix": "Translate the names of the publications into Norwegian or mark them clearly as publication titles in Norwegian while preserving their status as titles. For example: \"Artikkelen gjengis etter forespørsel. Den ble først trykt i Hjerteslaget til de Troende (The Heartbeat of the Remnant) i høstutgaven 2019. Tidligere trykt i Jordiske Beholdere (Earthen Vessels).\" If the editorial style prefers to keep original English titles, present them with Norwegian explanatory wording but still render the descriptive surrounding sentence fully in Norwegian. Ensure the HTML structure and tags remain unchanged.",
-      "translation_quote": "<em>Artikkelen gjengis etter forespørsel. Den ble først trykt i </em><span>The Heartbeat of the Remnant</span><em> i høstutgaven 2019. Tidligere trykt i </em><span>Earthen Vessels</span><em>.</em>"
+      "source_quote": "<em>The article is reprinted by request. It was first printed in </em><span>The Heartbeat of the Remnant</span><em> in the Autumn 2019 issue. Previously printed in </em><span>Earthen Vessels</span><em>.</em>",
+      "suggested_fix": "Translate the English publication titles into Norwegian and remove the parenthesized English. Preserve the existing HTML structure and tags. For example: <p class=\"source-note\"><em>Artikkelen gjengis etter forespørsel. Den ble først trykt i </em><span>Hjerteslaget til de troende</span><em> i høstutgaven 2019. Tidligere trykt i </em><span>Jordiske beholdere</span><em>.</em></p> Ensure the span tags remain surrounding the publication names and nothing else remains in English.",
+      "translation_quote": "<p class=\"source-note\"><em>Artikkelen gjengis etter forespørsel. Den ble først trykt i </em><span>Hjerteslaget til de Troende (The Heartbeat of the Remnant)</span><em> i høstutgaven 2019. Tidligere trykt i </em><span>Jordiske Beholdere (Earthen Vessels)</span><em>.</em></p>"
     },
     {
-      "location": "source.html — paragraph describing morning temperatures",
+      "location": "Paragraph describing morning temperature (paragraph under \"Å bruke tid på å verdsette naturens skjønnhet\")",
       "severity": "minor",
       "source_quote": "It’s cold (45 degrees or colder in the morning).",
-      "suggested_fix": "Clarify the temperature scale to avoid misreading in target language. Either specify the unit (45 °F) or convert to Celsius. For example: \"Det er kaldt (rundt 7 °C om morgenen)\" or \"Det er kaldt (45 °F eller kaldere om morgenen).\" Preserve the sentence placement and HTML tags.",
-      "translation_quote": "Det er kaldt (45 grader eller kaldere om morgenen)."
+      "suggested_fix": "Keep the original nuance '45 degrees or colder' when converting to Celsius. Suggested Norwegian wording preserving the 'or colder' qualifier: «Det er kaldt (omtrent 7 °C eller kaldere om morgenen).» Replace only the parenthetical temperature text; keep surrounding sentence as translated.",
+      "translation_quote": "Det er kaldt (rundt 7 °C om morgenen)."
     },
     {
-      "location": "source.html — paragraph about fresh painted walls",
+      "location": "Paragraph about Tim returning to the village (paragraph beginning \"Mannen min er utslitt…\" )",
       "severity": "minor",
-      "source_quote": "a lovely house with smooth floors and freshly painted walls.",
-      "suggested_fix": "Use a more natural Norwegian phrase for \"freshly painted walls\". Replace \"nyleggete vegger\" with \"nymalte vegger\" or \"nystøkte/nymalte vegger\" depending on preferred register. Preserve HTML structure.",
-      "translation_quote": "et hyggelig hus med glatte gulv og nyleggete vegger."
-    },
-    {
-      "location": "source.html — paragraph about husband's action",
-      "severity": "minor",
-      "source_quote": "to “heap on coals of fire” by giving the angry army officer a solar panel and a transformer",
-      "suggested_fix": "Use a Norwegian idiom or a clearer literal translation for the quoted phrase so that the intended biblical/idiomatic sense is preserved. For example: \"å \"dynge glødende kull på hodet\" ved å gi den sinte offiseren et solcellepanel og en transformator\" or use an explanatory phrasing: \"som en måte å \"la samvittigheten brenne\" (bildlig) — ved å gi ...\" Keep the quotation marks if representing a quoted idiom. Preserve HTML tags and order.",
-      "translation_quote": "for å \"bære kull på hodet\" ved å gi den sinte offiseren et solcellepanel og en transformator i tillegg til de andre kravene han stilte."
+      "source_quote": "...to “heap on coals of fire” by giving the angry army officer a solar panel and a transformer...",
+      "suggested_fix": "Render the idiom in Norwegian so the intended Christian/Scriptural allusion or idiomatic meaning ('to repay evil with kindness' / 'heap coals of fire') is clear. A suggested phrasing that keeps the idiom meaning: «...for å \"legge glødende kull på hodet\" ved å gi den sinte offiseren et solcellepanel og en transformator...» or more idiomatically: «...for å svare på fiendtlighet med godhet ved å gi den sinte offiseren et solcellepanel og en transformator...». Replace only the translated phrase for the idiom, preserving the surrounding sentence and HTML.",
+      "translation_quote": "...dro han i morges tilbake til landsbyen for å \"bære kull på hodet\" ved å gi den sinte offiseren et solcellepanel og en transformator i tillegg til de andre kravene han stilte."
     }
   ],
+  "finished_at": "2026-10-02T11:21:05+00:00",
   "id": "333a366079f65df652b71cc1c6de3707",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "nob",
@@ -137,13 +150,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 80,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8a0658267fa9eaeafccc26ac6637cde2343d272e4862413edce341f1010a3f2c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "810e77f1e38c86de9278d0fba622dcb0789774ee530b139604475db68ad15426",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

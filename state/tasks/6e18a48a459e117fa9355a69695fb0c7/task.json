@@ -2,7 +2,6 @@
   "article_id": "8f996405-d870-4074-947b-35190faad643",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,24 +61,51 @@
         },
         "total_tokens": 2891
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1071,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1552,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2623
+      }
     }
   ],
   "findings": [
     {
-      "location": "<div class=\"poem\"> — first stanza, line 2–3",
-      "severity": "major",
-      "source_quote": "City of God, how broad and far\noutspread thy walls sublime!\nThe true thy chartered freemen are\nof every age and clime:",
-      "suggested_fix": "Render the four lines so they preserve the spatial image of walls 'outspread' and the original sense of 'the true thy chartered freemen are' (i.e., 'os teus verdadeiros cidadãos franquedos/registrados são'). A faithful Portuguese suggestion that keeps the poetic line breaks and HTML structure:\n\n<p>Cidade de Deus, quão larga e distante\nse estendem, sublimes, as tuas muralhas!\nTeus verdadeiros, teus libertos registrados\nsão de toda idade e clima:</p>\n\nNotes: keep 'se estendem' (or 'espalham-se') for outspread, and translate 'the true thy chartered freemen are' as 'Teus verdadeiros, teus libertos/forçados/charterados são' — here 'chartered freemen' historically means 'registered/liberated citizens'; I suggest 'seus verdadeiros concidadãos registados' or 'teus verdadeiros concidadãos de carta'. Choose 'Teus verdadeiros concidadãos de carta são' if you prefer literal historic register wording.",
-      "translation_quote": "Cidade de Deus, quão larga e vasta\nerguem-se as tuas paredes sublimes!\nTua verdade faz livres os que nela restam\nde toda era e climas:"
+      "location": "<div class=\"poem\"> (stanza 1, line 3)",
+      "severity": "minor",
+      "source_quote": "the true thy chartered freemen are",
+      "suggested_fix": "Consider a more idiomatic and clear rendering of \"chartered freemen\" in Portuguese while preserving the meaning (people granted rights or franchise). For example: \"os teus verdadeiros homens livres por carta\" or \"os teus verdadeiros homens livres com carta\". Keep the word order and HTML structure as in the translation.",
+      "translation_quote": "Teus verdadeiros cidadãos por carta"
     },
     {
-      "location": "<div class=\"poem\"> — first stanza, line 3",
-      "severity": "critical",
-      "source_quote": "The true thy chartered freemen are\nof every age and clime:",
-      "suggested_fix": "This line has been mistranslated and introduces new doctrine and wording ('Tua verdade faz livres os que nela restam') that do not correspond to the English. It must be translated to convey the original meaning that the city’s 'chartered freemen' (i.e., those declared or enrolled as citizens/free members) are truly from every age and climate. Suggested faithful translation (preserving poem tags and line break):\n\n<p>... \nTeus verdadeiros concidadãos de carta\nsão de toda idade e clima:</p>\n\nOr, if 'concidadãos de carta' sounds awkward in Portuguese, use:\n\n<p>...\nTeus verdadeiros cidadãos por carta\nsão de toda idade e clima:</p>\n\nDo not replace the quoted substantive phrase with an explanatory paraphrase such as 'Tua verdade faz livres...' — preserve the attribution that the people are 'chartered freemen.'",
-      "translation_quote": "Tua verdade faz livres os que nela restam\nde toda era e climas:"
+      "location": "<figure> <img alt>",
+      "severity": "minor",
+      "source_quote": "A snowy path beside bare winter trees",
+      "suggested_fix": "\"árvores de inverno sem folhas\" is understandable but somewhat awkward. A more natural, internationally intelligible option: \"um caminho nevado ao lado de árvores de inverno despidas\" or \"um caminho nevado junto a árvores invernais desfolhadas\". Preserve the alt attribute and its placement.",
+      "translation_quote": "Um caminho nevado ao lado de árvores de inverno sem folhas"
+    },
+    {
+      "location": "<div class=\"poem\"> (stanza 4, line 1)",
+      "severity": "minor",
+      "source_quote": "How gleam thy watch-fires through the night",
+      "suggested_fix": "\"watch-fires\" could be translated as \"fogueiras de vigia\" to reflect the original image of watch-fires rather than modern \"faróis\". Suggested phrasing: \"Como brilham tuas fogueiras de vigia pela noite\". Preserve HTML tags and line breaks.",
+      "translation_quote": "Como brilham teus faróis vigilantes pela noite"
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "6e18a48a459e117fa9355a69695fb0c7",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "por",
@@ -123,13 +149,13 @@
     }
   },
   "protected": false,
-  "quality_score": 50,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d3ca99062c7b8454e6587c9b32705a7d35c0d70cbcf6c1f6f8eaefeb762c95bf.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "63f32eb5571bce4d8b82e7103273aaf0a3a4bf91449228454d16a781256867bd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "fbb7faf4-04de-4858-b608-09cb6aedaacf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,38 +61,38 @@
         },
         "total_tokens": 16319
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1657,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 192,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10717,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12374
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "source.html (entire article body)",
+      "location": "article start through before the Bengali heading “প্রজ্ঞা অর্জন করো!” (first ~11 paragraphs)",
       "severity": "critical",
-      "source_quote": "All article paragraphs and headings (e.g., opening anecdote about Ben, sections 'Get Wisdom!', 'Confirmation Bias', 'Doctors Can Identify Dangerous Situations', etc.)",
-      "suggested_fix": "Translate every paragraph and heading of the article into Bengali, preserving the existing HTML structure, tags, order, nesting, and immutable attributes. Do not leave substantive prose in English. Maintain the author's theology and tone. Keep Bible book names in conventional Bengali forms and preserve exact chapter and verse numbers and placement (for example, translate 'Proverbs 4:5-9' and the verse text into Bengali, and retain 'I Kings 3:9,10' as '1 রাজা 3:9,10' or the site's preferred Bengali book name). Ensure quoted Scripture passages are translated into Bengali (not left in English) and embedded where the English had them, preserving punctuation and numbering as in the source.",
-      "translation_quote": "Most of the article remains in English (nearly all paragraphs and headings are untranslated)."
-    },
-    {
-      "location": "source.html (Scripture quotations)",
-      "severity": "major",
-      "source_quote": "Proverbs 4:5-9 says, “Get wisdom, get understanding: forget it not; neither decline from the words of my mouth. ...” and later Psalms 103:3 says of God, “Who forgiveth all thine iniquities; who healeth all thy diseases.” and reference to James 5:16.",
-      "suggested_fix": "Translate all quoted Scripture texts into standard contemporary Bengali, accurately conveying the printed English meaning. Use conventional Bengali names for the books (e.g., 'สุপ্রভাত'—no, use 'সাংগত'—[note: keep to actual Bengali names such as 'প্রবচন' for Proverbs, 'পবিত্র গ্রন্থ'—correct: 'প্রবচন', 'গীতোস্লোক'—but supply correct conventional forms]) and preserve exact chapter and verse numbers and their placement. Do not substitute a different Bible version; preserve the meaning as printed. Example: render 'Proverbs 4:5-9' passage into Bengali inside the same <p> element replacing the English quotation.",
-      "translation_quote": "The Scripture quotations remain in English inside the translation."
-    },
-    {
-      "location": "source.html (references section and cited titles)",
-      "severity": "minor",
-      "source_quote": "References list: 'Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models - PMC (nih.gov)', 'Evaluating Internet Research Sources', 'Sale of Health-Related Products | AMA-Code (ama-assn.org)', '65% of Americans believe they are above average in intelligence: Results of two nationally representative surveys - PMC (nih.gov)'.",
-      "suggested_fix": "Translate the visible reference titles and any translatable metadata into Bengali, or at minimum provide Bengali translations for titles while keeping source URLs and proper names intact. Ensure cited work titles that are not proper names are rendered in Bengali script so the reference section is fully localized in presentation. Preserve exact ordering and HTML structure of the <ol> and <li> elements.",
-      "translation_quote": "The reference titles remain in English."
-    },
-    {
-      "location": "source.title and source.section",
-      "severity": "minor",
-      "source_quote": "Title: 'The Googlification of Medicine'; Section: 'A WORD FROM THE DOCTOR'",
-      "suggested_fix": "The translation has already rendered the title as 'চিকিৎসার গুগলীকরণ' and section as 'ডাক্তারের কথা'. Confirm these are acceptable in idiomatic Bengali. If preferred, consider slight editorial alternatives (e.g., section 'ডাক্তারের কথাবার্তা' only as stylistic suggestion). This is optional; no structural change required.",
-      "translation_quote": "Translated title: 'চিকিৎসার গুগলীকরণ'; translated section: 'ডাক্তারের কথা'."
+      "source_quote": "“So, what brings you in today?” I asked Ben, a 40-year-old man who was sitting across from me. “Well,” he answered. “I have a few different symptoms. The biggest one is that I am always tired, but I’ve also been gaining weight, and my knees hurt some in the mornings.” I mentally began to go through what doctors call a differential diagnosis – things that can cause the cluster of symptoms that a patient has. I usually let the patient explain what symptoms he is experiencing and then ask questions to try to hone in on the specific diagnosis. Ben went on for a little while longer. Then, he proceeded to pull out a piece of paper. “So, Doctor,” he told me. “I’ve done some research into my diagnosis, and I think these are tests that I need to have done to work things up.” I looked at the list. It was pretty long and included some things I probably would have ordered anyway, like a blood count and thyroid level, but also some very odd things like a Vitamin B1 level and a DHEA level. He also wanted a CT Scan of his head, chest, and abdomen. “This is a lot of testing,” I said. “I’m not sure we need to do all of it. Can we talk a little bit more about your symptoms and then try to hone in on what testing would be best to sort it out?” Ben was not impressed. “I have done my research!” He told me firmly. “These days, with the internet, you can find out things that your doctor won’t tell you about – maybe things he doesn’t even know to test for. The problem is that I need YOU to order these things for me so my insurance will cover them. Otherwise, I wouldn’t even be here.” With that, we’ll leave Ben and his uncomfortable doctor behind. There have always been patients who brought in articles from magazines telling the reader, “Six things your doctor won’t tell you about your health” and listing testing that should be done. It does seem to have gotten worse. A lot of patients know more than their doctors. They can search for their symptoms on the web and find out all sorts of things that could cause those symptoms. Beyond that, artificial intelligence is smart. Chat GPT, an artificial intelligence platform, was able to pass the three parts of the US Medical Licensure Exam. It didn’t do terribly well— it only got just above a passing grade, but I suppose that’s good enough that it could open an office across the street from mine and start seeing patients. In some ways letting patients have access to this level of information is a good thing. Doctors aren’t some sort of high priests who are given special rights to access the Holiest of Holies of medical information. More than that, doctors are anything but perfect, and you have only to read online reviews to see that they don’t listen well, botch procedures, and struggle with difficult diagnoses. It can be challenging, though, when patients believe that they know more than their doctor. I have always said that if you know more than your doctor, either you need a healthy dose of humility or a new doctor— or maybe both.",
+      "suggested_fix": "Translate these opening paragraphs into standard contemporary Bengali preserving the HTML structure and tags (paragraph <p> with class lead, subsequent <p> tags). Keep all substantive content, examples, and quotes intact and render scripture references and proper names using conventional Bengali forms where applicable. For example, replace the English lead paragraph and following paragraphs with accurate Bengali translations that reflect the author's theology and meaning, without altering punctuation, order of sentences, or embedded HTML tags.",
+      "translation_quote": "“So, what brings you in today?” I asked Ben, a 40-year-old man who was sitting across from me. “Well,” he answered. “I have a few different symptoms. The biggest one is that I am always tired, but I’ve also been gaining weight, and my knees hurt some in the mornings.” I mentally began to go through what doctors call a differential diagnosis – things that can cause the cluster of symptoms that a patient has. I usually let the patient explain what symptoms he is experiencing and then ask questions to try to hone in on the specific diagnosis. Ben went on for a little while longer. Then, he proceeded to pull out a piece of paper. “So, Doctor,” he told me. “I’ve done some research into my diagnosis, and I think these are tests that I need to have done to work things up.” I looked at the list. It was pretty long and included some things I probably would have ordered anyway, like a blood count and thyroid level, but also some very odd things like a Vitamin B1 level and a DHEA level. He also wanted a CT Scan of his head, chest, and abdomen. “This is a lot of testing,” I said. “I’m not sure we need to do all of it. Can we talk a little bit more about your symptoms and then try to hone in on what testing would be best to sort it out?” Ben was not impressed. “I have done my research!” He told me firmly. “These days, with the internet, you can find out things that your doctor won’t tell you about – maybe things he doesn’t even know to test for. The problem is that I need YOU to order these things for me so my insurance will cover them. Otherwise, I wouldn’t even be here.” With that, we’ll leave Ben and his uncomfortable doctor behind. There have always been patients who brought in articles from magazines telling the reader, “Six things your doctor won’t tell you about your health” and listing testing that should be done. It does seem to have gotten worse. A lot of patients know more than their doctors. They can search for their symptoms on the web and find out all sorts of things that could cause those symptoms. Beyond that, artificial intelligence is smart. Chat GPT, an artificial intelligence platform, was able to pass the three parts of the US Medical Licensure Exam. It didn’t do terribly well— it only got just above a passing grade, but I suppose that’s good enough that it could open an office across the street from mine and start seeing patients. In some ways letting patients have access to this level of information is a good thing. Doctors aren’t some sort of high priests who are given special rights to access the Holiest of Holies of medical information. More than that, doctors are anything but perfect, and you have only to read online reviews to see that they don’t listen well, botch procedures, and struggle with difficult diagnoses. It can be challenging, though, when patients believe that they know more than their doctor. I have always said that if you know more than your doctor, either you need a healthy dose of humility or a new doctor— or maybe both."
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "a6cf34ef359b09c82acaa9667cb09432",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ben",
@@ -137,13 +136,13 @@
     }
   },
   "protected": false,
-  "quality_score": 30,
+  "quality_score": 40,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6a174f90d4349eed5395b954b6464250e64e874608b754c80cbaf37735556faf.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "e438e2a5dbbb36ddf11340e0d96ac331f86b42c4c964f5787972c99d3487ba67",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

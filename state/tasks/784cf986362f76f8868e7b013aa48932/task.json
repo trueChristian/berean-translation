@@ -2,7 +2,6 @@
   "article_id": "5a87c21f-cce9-4033-8a43-5458311bc7f0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,24 +61,44 @@
         },
         "total_tokens": 19893
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1427,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12552,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13979
+      }
     }
   ],
   "findings": [
     {
-      "location": "source.html — multiple paragraphs (beginning and middle)",
-      "severity": "major",
-      "source_quote": "“The Preparation Sleep.” (heading) + multiple occurrences of the phrase preparation sleep in paragraphs discussing Genesis 2 and Eve/Adam and later sections.",
-      "suggested_fix": "Translate the heading and every substantive occurrence of the English term into standard Bahasa Indonesia, preserving the article HTML structure. For example: replace the h2 text “The Preparation Sleep.” with “Tidur Persiapan.” and replace in-body occurrences of the phrase “preparation sleep” with “tidur persiapan” or “tidur yang bertunas” consistently. Do not alter other HTML tags or paragraph structure.",
-      "translation_quote": "<h2>The Preparation Sleep.</h2> ... “Jika Hawa tidak masuk ke dalam preparation sleep seperti itu juga, Adam akan kesulitan memasuki preparation sleep jika Hawa mencoba menarik perhatiannya. Hawa perlu tidur dengan cara yang sama seperti Adam.” (translation left the English phrase preparation sleep unchanged in multiple places)"
+      "location": "<article> blockquote (1 Corinthians passage)",
+      "severity": "minor",
+      "source_quote": "“Art thou bound unto a wife? seek not to be loosed. Art thou loosed from a wife? seek not a wife. But and if thou marry, thou hast not sinned; and if a virgin marry, she hath not sinned. Nevertheless such shall have trouble in the flesh: but I spare you. But I would have you without carefulness. He that is unmarried careth for the things that belong to the Lord, how he may please the Lord. But he that is married careth for the things that are of the world, how he may please his wife. There is difference also between a wife and a virgin. The unmarried woman careth for the things of the Lord, that she may be holy both in body and in spirit: but she that is married careth for the things of the world, how she may please her husband” (1 Cor. 7:2–28, 32–34).",
+      "suggested_fix": "Replace Malay/variant wordings with standard Indonesian equivalents in the quoted translation text to match the target-language guidance. For example, change “perbezaan” → “perbedaan”, “isteri” → “istri”, and keep other phrasing otherwise identical. Preserve the existing HTML and punctuation.",
+      "translation_quote": "“Adakah engkau terikat kepada seorang perempuan? Jangan mencari kelepasan. Adakah engkau terlepas dari seorang perempuan? Jangan mencari isteri. Tetapi jika engkau kawin, engkau tidak berdosa; dan jika seorang perawan kawin, ia tidak berdosa. Namun demikian orang-orang yang kawin akan mengalami kesusahan dalam dagingnya, dan aku ingin menahan kamu dari itu. Tetapi aku ingin kamu tidak khawatir. Orang yang tidak kawin mengindahkan perkara-perkara yang ada pada Tuhan, bagaimana ia dapat menyenangkan Tuhan. Tetapi orang yang kawin mengindahkan perkara-perkara dunia, bagaimana ia dapat menyenangkan isterinya. Demikian pula terdapat perbezaan antara isteri dan perawan. Perempuan yang belum kawin mengindahkan perkara-perkara Tuhan supaya ia kudus baik di tubuh maupun di roh; tetapi perempuan yang kawin mengindahkan perkara-perkara dunia, bagaimana ia dapat menyenangkan suaminya.” (1 Korintus 7:2–28, 32–34)."
     },
     {
-      "location": "source.title, source.subtitle, source.section (metadata)",
-      "severity": "major",
-      "source_quote": "title: \"A Christ-Centered Courtship Series\"; subtitle: \"The Preparation Sleep\"; section: \"INSPIRATIONS FOR YOUTH\"",
-      "suggested_fix": "Translate the metadata fields into standard Bahasa Indonesia, preserving casing and exact field placement (these are metadata strings, not HTML). Suggested translations: title -> \"Seri Pacaran yang Berpusat pada Kristus\"; subtitle -> \"Tidur Persiapan\"; section -> \"INSPIRASI UNTUK KAUM MUDA\". Do not modify the order or any HTML in source.html — only replace the metadata field values.",
-      "translation_quote": "title: \"A Christ-Centered Courtship Series\"; subtitle: \"The Preparation Sleep\"; section: \"INSPIRATIONS FOR YOUTH\" (left in English in the translation metadata)"
+      "location": "Paragraph under \"Mengembangkan karakter yang serupa Kristus\"",
+      "severity": "minor",
+      "source_quote": "“What spirit comes from me? Do I have a loud spirit or a quiet spirit? A harsh spirit or a gentle spirit? A critical spirit or a forgiving spirit? A proud spirit or a humble spirit? A selfish spirit or a servant spirit? Unkind or kind? Crude or mannerly? Tough or compassionate? Rude or respectful? Do I need to work on my character?”",
+      "suggested_fix": "Correct a likely typo in the Indonesian translation at the sentence end: change “Apakah aku perlu bekerja pada karaktermu?” to “Apakah aku perlu bekerja pada karaktermu?” should instead be “Apakah aku perlu bekerja pada karaktermu?” — but context shows the question addresses the reader (kamu). Replace the final word “karaktermu” with the correct pronoun consistency: “Apakah aku perlu bekerja pada karaktermu?” -> change to “Apakah aku perlu mengerjakan karakternya?” Wait—preserve second-person voice used throughout. The minimal corrective fix: change “karaktermu?” to “karaktermu?” (fix spacing/typo) — implement as: replace the sentence “Apakah aku perlu bekerja pada karaktermu?” with “Apakah aku perlu bekerja pada karaktermu?” ensuring correct word \"karaktermu\" (replace 'karaktermu' misspelling if present). Preserve HTML tags.",
+      "translation_quote": "Apakah aku perlu bekerja pada karaktermu?"
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "784cf986362f76f8868e7b013aa48932",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ind",
@@ -123,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0a1dcaa5cafea68d0933d4307f622a54749ce00327ed437d6329e9b9b2a36c0b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "403dccfee978e00bf41c2daf2df29e8cfa526a0ef6c19371773e58abc48734b6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

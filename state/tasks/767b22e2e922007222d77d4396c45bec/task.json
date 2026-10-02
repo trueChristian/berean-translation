@@ -2,7 +2,6 @@
   "article_id": "58963510-f56e-43e0-88dd-0eb9941ddea9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,31 +61,37 @@
         },
         "total_tokens": 11540
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 633,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7307,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7940
+      }
     }
   ],
   "findings": [
     {
-      "location": "<article> paragraph: \"He wrestled with God...\" (source.html third paragraph)",
-      "severity": "major",
-      "source_quote": "As he wrestled with God and pled for victory, he began to hear a recurring message from other professing Christians, “No one is perfect!”",
-      "suggested_fix": "Translate the verb 'wrestled' into natural Portuguese instead of leaving an English form. Replace “wrestlava” with a correct Portuguese equivalent such as “lutou” or “contendia com” (suggested phrasing: “Enquanto ele lutava com Deus e suplicava por vitória, começou a ouvir...” ). Preserve the rest of the sentence and punctuation exactly.",
-      "translation_quote": "Enquanto ele wrestlava com Deus e suplicava por vitória, começou a ouvir uma mensagem recorrente de outros cristãos professos: “Ninguém é perfeito!”"
-    },
-    {
-      "location": "source.section metadata",
-      "severity": "major",
-      "source_quote": "MUSINGS OF A MISSIONARY",
-      "suggested_fix": "Translate the section heading into Portuguese in a way that preserves the genre and tone. Suggested translation: \"REFLEXÕES DE UM MISSIONÁRIO\" (or \"REFLEXÕES DE UM MISSIONÁRIO\" in all caps to match original styling). Replace the untranslated English section string with that Portuguese rendering.",
-      "translation_quote": "MUSINGS OF A MISSIONARY"
-    },
-    {
-      "location": "<article> paragraph: \"When I joined the Marine Corps...\" (Negação de si mesmo section)",
+      "location": "Paragraph containing Ephesians 5:27 quotation",
       "severity": "minor",
-      "source_quote": "I remember the first day of boot camp when I joined the Marine Corps after graduating from high school.",
-      "suggested_fix": "Use the most natural and conventional Portuguese name for the U.S. Marine Corps. Possible fixes: \"quando entrei para o Corpo de Fuzileiros Navais (U.S. Marine Corps) depois de me formar no ensino médio\" or simply \"quando entrei para o Corpo de Fuzileiros Navais\". Keep the military example intact and preserve meaning.",
-      "translation_quote": "Lembro-me do primeiro dia do campo de treinamento quando entrei na Marinha de Fuzileiros depois de me formar no ensino médio."
+      "source_quote": "\". . .a glorious church, not having spot, or wrinkle, or any such thing; but that it should be holy and without blemish\" (Eph. 5:27).",
+      "suggested_fix": "Replace the Portuguese phrasing \"antes que seja santa e irrepreensível\" with a clearer rendering of the adversative \"but\". Use \"mas que seja santa e irrepreensível\" to preserve the original contrastive meaning.",
+      "translation_quote": "\". . .uma igreja gloriosa, que não tenha mancha, nem ruga, nem coisa semelhante; antes que seja santa e irrepreensível\" (Efés. 5:27)."
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "767b22e2e922007222d77d4396c45bec",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "por",
@@ -130,13 +135,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/59d4849e1c86348caee3bfc73f9939e2ea68bc740d52161ef37989eff904e79d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "717da8d77d6092ac85798d90532d1ee4a9c48672d09b7616b1eb527cfd86d893",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "b5ea052a-167f-45c4-bf40-cd463c4546b6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,38 +61,59 @@
         },
         "total_tokens": 11864
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1484,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7090,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8574
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "Paragraph beginning “Our Lord experienced the fullness of it;” (source.html) — John 10:20 quotation",
-      "severity": "critical",
-      "source_quote": "“He hath a devil, and is mad; why hear ye him?” (John 10:20).",
-      "suggested_fix": "Translate the quotation to standard Bengali that faithfully renders the English scripture quote and theological meaning. For example: “তাঁর মধ্যে একজন দানব আছে; সুতরাং তিনি পাগল। তোমরা কেন তাঁকে শোন?” (ইয়োহান 10:20)। Preserve the verse reference in parentheses. Ensure the term for 'a devil' is a standard Bengali term for an evil spirit (e.g., 'দানব', 'ভূত', or 'শয়তান') rather than the current rendering.",
-      "translation_quote": "“তাঁর মধ্যে দীন-শক্তি আছে, এবং তিনি পাগল; তেমনি কেন তোমরা তাঁকে শোনো?” (ইয়োহান 10:20)।"
-    },
-    {
-      "location": "Paragraph quoting 1 Kings 1:6 (under “Strengthening”)",
-      "severity": "critical",
-      "source_quote": "“his father had not displeased him at any time in saying, Why hast thou done so?” (1 Kings 1:6).",
-      "suggested_fix": "Render the scriptural quote to faithfully match the English meaning in Bengali. For example: “তার পিতা তাকে কখনও তিরস্কার করেননি বলিয়া ‘তুমি কেন এমন করেছ?’ বলিয়াও নয়” is incorrect. A closer faithful translation: “তার পিতার কাছে তিনি কখনও অসন্তুষ্ট হননি বলে কেহ বলত না, ‘তুমি কেন এমন করেছ?’” (1 রাজা 1:6). Preserve the verse reference. Ensure the translation does not introduce 'অভিশপ্ত' (cursed) which changes meaning.",
-      "translation_quote": "“তার পিতা তাকে কখনো অভিশপ্ত করেনি বলে, ‘তুমি কেন এমন করেছ?’” (1 রাজা 1:6)।"
-    },
-    {
-      "location": "Paragraph mentioning popular songs (second paragraph of article) — reference to Winter Wonderland",
-      "severity": "critical",
-      "source_quote": "While a few gay tunes, such as Winter Wonderland, seek to capitalize upon its majestic moments, winter is generally despised by the normal inhabitants of this earth.",
-      "suggested_fix": "Translate the song title and surrounding clause into Bengali. Song titles and other quoted substantive prose must be rendered in the target language (or presented with a Bengali rendering). For example: “কয়েকটি আনন্দময় গান—যেমন ‘উইন্টার ওয়ান্ডারল্যান্ড’—তার মহিমাময় মুহূর্তগুলো কাজে লাগাতে চাইলেও…” Alternatively, provide a Bengali rendering in quotes (উইন্টার ওয়ান্ডারল্যান্ড) so it is not left as untranslated English. Preserve meaning that the tunes exploit winter’s moments.",
-      "translation_quote": "কয়েকটি হাসিখুশি সঙ্গীত, যেমন Winter Wonderland, তার মহান মুহূর্তগুলোকে কাজে লাগাতে চাইলেও, সাধারণভাবে পৃথিবীর বাসিন্দারা শীতকে ঘৃণা করে।"
-    },
-    {
-      "location": "Paragraph beginning “In the 1700s, a luthier by the name of Stradivari...”",
+      "location": "<p>In source.html paragraph beginning \"In the 1700s, a luthier...\" (paragraph under heading \"Strengthening\")",
       "severity": "major",
       "source_quote": "In the 1700s, a luthier by the name of Stradivari created violins unequaled in their excellence for beautiful sound.",
-      "suggested_fix": "Correctly translate 'luthier' and provide an appropriate Bengali term and clear phrasing for Stradivari’s craft. For example: “১৭০০-এর দশকে স্ট্রাডিভারী নামের এক বাদ্যযন্ত্রকার (লিউথিয়ার) এমন ভায়োলিন তৈরি করেছিলেন…” or “স্ট্রাডিভারী নামের এক দাতব্য বাদ্যযন্ত্র-নির্মাতা...” Keep the name 'Stradivari' as proper name but render the occupation/instrument-maker correctly (not 'বেগুনি-শিল্পী').",
+      "suggested_fix": "Translate luthier correctly and keep the intended meaning: replace the mistranslation with a Bengali word meaning 'violin maker' or a short explanatory phrase. For example: \"1700-এর দশকে স্ট্রাডিভারি নামে একজন ভায়োলিনশিল্পী/ভায়োলিন নির্মাতা এমন ভায়োলিন তৈরি করেন...\" Preserve HTML structure (no tag changes).",
       "translation_quote": "1700-এ, স্ট্রাডিভারি নামের একজন বেগুনি-শিল্পী এমন ভায়োলিন তৈরি করেছিলেন যাদের সুরের উৎকৃষ্টতায় তুলনা হয় না।"
+    },
+    {
+      "location": "<p>In source.html paragraph under \"Strengthening\" containing the 1 Kings quotation",
+      "severity": "major",
+      "source_quote": "The moral character of Adonijah had eroded, for “his father had not displeased him at any time in saying, Why hast thou done so?” (1 Kings 1:6).",
+      "suggested_fix": "The translation changes the sense by rendering the quoted clause incorrectly (and introduces an incorrect verb meaning 'curse'). Render the quoted Scripture thought faithfully into Bengali using conventional phrasing and retain the Scripture reference. Suggested correction: translate the verse portion closer to the English intent, e.g. \"আদনীয়্যের নৈতিক চরিত্র ঝড়িয়া গিয়েছিল, কারণ ‘তার পিতা কখনও তাকে তোপ দেননি, বলিয়া, তুমি কেন এমন করেছ?’ (1 রাজা 1:6)।\" Keep the HTML tags and order unchanged.",
+      "translation_quote": "আদনেয়ার নৈতিক চরিত্র ক্ষয়প্রাপ্ত ছিল, কারণ “তার পিতা তাকে কখনো অভিশপ্ত করেনি বলে, ‘তুমি কেন এমন করেছ?’” (1 রাজা 1:6)।"
+    },
+    {
+      "location": "<p>Multiple inline Scripture headings and citations (Ecclesiastes reference)",
+      "severity": "minor",
+      "source_quote": "“If two lie together, then they have heat: but how can one be warm alone?” (Ecc. 4:11).",
+      "suggested_fix": "The book name used in the translation is 'অধিবচন' which is an uncommon/unclear rendering for Ecclesiastes in standard contemporary Bengali. Use the conventional Bengali Bible book name (commonly 'উপদেশক', 'উপদেশক জ্ঞান' or the edition-specific conventional name) used by the publisher or widely accepted Bengali Bibles. E.g. replace 'অধিবচন' with the target site's preferred form. Do not alter verse numbers or punctuation. Preserve tags.",
+      "translation_quote": "“যদি দুইজন একসাথে শোয়, তাহলেই উভয়েরই তাপ আছে; কিন্তু এক জন একা কিভাবে উষ্ণ হতে পারে?” (অধিবচন 4:11)।"
+    },
+    {
+      "location": "<p>Paragraph mentioning a popular song (near beginning, second large paragraph)",
+      "severity": "minor",
+      "source_quote": "While a few gay tunes, such as Winter Wonderland, seek to capitalize upon its majestic moments...",
+      "suggested_fix": "The song title Winter Wonderland was left in English. This can be acceptable for a proper name, but if the publication prefers target-language rendering or transliteration, render it in Bengali script or add a short note. Suggested fix: transliterate as 'Winter Wonderland' → 'উইন্টার ওয়ান্ডারল্যান্ড' (Bengali script) or keep as-is if style permits. Preserve HTML.",
+      "translation_quote": "কয়েকটি হাসিখুশি সঙ্গীত, যেমন Winter Wonderland, তার মহান মুহূর্তগুলোকে কাজে লাগাতে চাইলেও..."
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "3f2a226b402e44bd6777959fc09b0600",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ben",
@@ -137,13 +157,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 78,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/cb70a64f61d5d6ea793a28714a8210160bd2f71712162f15c2619f188dcf0e3f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "43083ba7fbaa256f5105f34da9e51d125c38a107a8d91b3864609877708b8ea8",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

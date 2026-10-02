@@ -2,7 +2,6 @@
   "article_id": "5a87c21f-cce9-4033-8a43-5458311bc7f0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,38 +61,45 @@
         },
         "total_tokens": 21970
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1256,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13459,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14715
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "source.title",
-      "severity": "major",
-      "source_quote": "A Christ-Centered Courtship Series",
-      "suggested_fix": "Translate the English title into Hindi, preserving it as the article title in the translation field. Example: \"एक मसीह-केंद्रित प्रेम-परिचय श्रृंखला\" (or another idiomatic Hindi rendering chosen by the editor). Do not leave the title in English.",
-      "translation_quote": "A Christ-Centered Courtship Series"
-    },
-    {
-      "location": "source.section",
-      "severity": "minor",
-      "source_quote": "INSPIRATIONS FOR YOUTH",
-      "suggested_fix": "Translate the section name into contemporary standard Hindi. For example: \"युवा प्रेरणाएँ\" or \"युवा के लिए प्रेरणाएँ\" (choose the preferred idiom).",
-      "translation_quote": "INSPIRATIONS FOR YOUTH"
-    },
-    {
-      "location": "source.html: first paragraph (article-note)",
+      "location": "source.html paragraph starting with \"We discussed Satan’s Snares\" (first article-note/intro area)",
       "severity": "major",
       "source_quote": "After printing all five articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet.",
-      "suggested_fix": "Translate the publication title phrase so the whole sentence is in Hindi. If the publication title should remain as a title, render it in Hindi script (transliteration) or translate it according to the publisher's house style. Example: \"सभी पाँच लेखों को 'द हार्टबीट ऑफ़ द रेम्नैंट' में छापने के बाद, हम इन्हें एक पुस्तिका के रूप में प्रकाशित करेंगे।\" (or translate the publication's title into Hindi if there is an established Hindi title). Ensure the inner title is not left in unaltered English unless house style requires it; if kept in English, it still must be presented in Devanagari or be clearly marked per publisher rules.",
-      "translation_quote": "... सभी पांच लेखों को </em>The Heartbeat of the Remnant<em>, में छापने के बाद ..."
+      "suggested_fix": "Translate the quoted publication title into Hindi (preserve the surrounding <em> tags and punctuation). For example: replace \"</em>The Heartbeat of the Remnant<em>\" with \"</em>रिम्नैंट की हार्टबीट (The Heartbeat of the Remnant)<em>\" or an appropriate Hindi rendering inside the same <em>...</em> tags so the publication title is not left as un-translated English.",
+      "translation_quote": "...सभी पांच लेखों को </em>द हार्टबीट ऑफ़ द रेम्नैंट<em> में छापने के बाद, हम इन्हें एक पुस्तिका के रूप में प्रकाशित करेंगे।"
     },
     {
-      "location": "source.html paragraph: \"Each animal had a male and a female, but he was the only one like him.\" (Genesis context; Genesis 2:20)",
-      "severity": "critical",
-      "source_quote": "\"Each animal had a male and a female, but he was the only one like him.\"",
-      "suggested_fix": "Correct the mistranslation that introduced negation. The translation currently reads: \"हर पशु का न पुरूष था न ही स्त्री, पर वह अकेला अपना जैसा था,\" which incorrectly says animals had neither male nor female. It should convey that every animal had both a male and a female, while Adam was unique. Suggested Hindi rendering: \"हर पशु का नर और मादा दोनों थे, पर वह अकेला अपना जैसा था।\" Replace the incorrect sentence in the corresponding paragraph, preserving existing HTML tags and punctuation.",
-      "translation_quote": "\"हर पशु का न पुरूष था न ही स्त्री, पर वह अकेला अपना जैसा था।\""
+      "location": "source.html paragraph beginning \"And as Adam slept that deep sleep, he was wholly yielded.\" (Genesis discussion)",
+      "severity": "major",
+      "source_quote": "As Adam slept that deep sleep, he was wholly yielded.",
+      "suggested_fix": "Render the substantive English word 'yielded' into idiomatic Hindi consistent with surrounding translation. Replace the English word with the Hindi equivalent used elsewhere in the translation (e.g., \"समर्पित\" or \"पूर्णतः समर्पित था\") while preserving the original sentence structure and HTML tags.",
+      "translation_quote": "...और आदम yielded था और गहरी नींद में था बिना अपनी कोई योजना लिये।"
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "8da658745aa692cf3f3d4f47be9a15b3",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "hin",
@@ -137,13 +143,13 @@
     }
   },
   "protected": false,
-  "quality_score": 40,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0a1dcaa5cafea68d0933d4307f622a54749ce00327ed437d6329e9b9b2a36c0b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "403dccfee978e00bf41c2daf2df29e8cfa526a0ef6c19371773e58abc48734b6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

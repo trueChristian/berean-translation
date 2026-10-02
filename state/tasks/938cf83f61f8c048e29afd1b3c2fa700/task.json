@@ -2,7 +2,6 @@
   "article_id": "8f996405-d870-4074-947b-35190faad643",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,31 +61,44 @@
         },
         "total_tokens": 3055
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1127,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1673,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2800
+      }
     }
   ],
   "findings": [
     {
-      "location": "<div class=\"poem\"> stanza 4, line 1 (\"How gleam thy watch-fires through the night\")",
-      "severity": "major",
-      "source_quote": "How gleam thy watch-fires through the night",
-      "suggested_fix": "Translate \"watch-fires\" as beacons/signal-fires (not \"guards\"). For example: \"Πώς λάμπουν οι φρυκτωρίες σου διαμέσου της νύχτας\" or \"Πώς λάμπουν τα φρυκτωριακά σου φωτά διαμέσου της νύχτας\" — preserve the image of signalling/beacon fires.",
-      "translation_quote": "Πώς λάμπουν οι φρουροί σου διαμέσου της νύχτας"
+      "location": "source.html / stanza 3, line 1",
+      "severity": "minor",
+      "source_quote": "How purely hath thy speech come down\nfrom man's primaeval youth!",
+      "suggested_fix": "Correct the Greek spelling and idiom. Replace “απαρχή της ανθρωπίνης νιότης” with a clearer, correctly spelled rendering such as “από την πρωταρχική νεότητα του ανθρώπου” or “από την πρωτόγονη/πρωταρχική νεότητα του ανθρώπου” depending on desired register. Ensure “ανθρώπινης” is spelled correctly.",
+      "translation_quote": "Πόσο καθαρά κατέβηκε ο λόγος σου\nαπό την απαρχή της ανθρωπίνης νιότης!"
     },
     {
-      "location": "<div class=\"poem\"> stanza 3, line 2 (\"from man's primaeval youth\")",
+      "location": "source.html / stanza 2, line 3",
       "severity": "minor",
-      "source_quote": "from man's primaeval youth",
-      "suggested_fix": "Correct the spelling of \"ανθρώπινης\". For example: \"από την απαρχή της ανθρώπινης νιότης!\"",
-      "translation_quote": "από την απαρχή της ανθρωπίνης νιότης!"
-    },
-    {
-      "location": "<div class=\"poem\"> stanza 2, line 3 (\"one working band, one harvest-song\")",
-      "severity": "minor",
-      "source_quote": "one working band, one harvest-song",
-      "suggested_fix": "Consider a more idiomatic rendering of \"one working band\" in Greek (not required if translator prefers current phrasing). Options: \"μία εργατική ομάδα\" or \"ένα εργατικό συγκρότημα\"; keep \"ένα τραγούδι θερισμού/της συγκομιδής\" for \"harvest-song\" if desired.",
-      "translation_quote": "μια εργαζόμενη ομάδα, ένα τραγούδι συγκομιδής"
+      "source_quote": "one steadfast, high intent;",
+      "suggested_fix": "Improve idiomatic flow: consider translating “one steadfast, high intent” as “μια σταθερή, υψηλή πρόθεση” or “ένα σταθερό, υψηλό φρόνημα” instead of “ένα σταθερό, υψηλό μέλημα” for a more natural Modern Greek rendering.",
+      "translation_quote": "ένα σταθερό, υψηλό μέλημα;"
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "938cf83f61f8c048e29afd1b3c2fa700",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ell",
@@ -130,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d3ca99062c7b8454e6587c9b32705a7d35c0d70cbcf6c1f6f8eaefeb762c95bf.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "63f32eb5571bce4d8b82e7103273aaf0a3a4bf91449228454d16a781256867bd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

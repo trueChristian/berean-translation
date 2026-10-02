@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "523971cc-f35a-47ea-936e-2a0e42c76f1c",
+    "response_id": "chatcmpl-EUVaDR2KjpPApSTkKnFQiJ5jNexix",
+    "usage": {
+      "completion_tokens": 1087,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5189,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6276
+    }
+  },
+  "received_at": "2026-10-02T11:21:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>…Die Menoniete in Danzig, Pole, is eers genader…</p>",
+        "severity": "minor",
+        "source_quote": "The Mennonites in Danzig, Poland, were first approached with the offer of land,",
+        "suggested_fix": "Make the place/country phrase idiomatic Afrikaans. Preserve HTML tags and surrounding text. Example replacement: Die Menoniete in Danzig in Pole is eers genader met die aanbod van grond,",
+        "translation_quote": "Die Menoniete in Danzig, Pole, is eers genader met die aanbod van grond, wat vir hulle aantreklik sou wees omdat hulle daardie tyd gereeld verhoed is om grond te besit as ’n semi-vervolgde volk."
+      },
+      {
+        "location": "<p>…En so het hulle die invalle Duitsers omhels.…</p>",
+        "severity": "minor",
+        "source_quote": "And so, they embraced the invading Germans.",
+        "suggested_fix": "Correct the Afrikaans wording so it clearly renders 'the invading Germans' (a noun phrase). Preserve tags. Example replacement: En so het hulle die inval-Duitsers of En so het hulle die invalende Duitse magte omhels.",
+        "translation_quote": "En so het hulle die invalle Duitsers omhels."
+      },
+      {
+        "location": "<p>…Turkey Red-koring (Turkey Red Wheat). Hierdie taai gewas…</p>",
+        "severity": "minor",
+        "source_quote": "Turkey Red Wheat. This hardy crop had made the Mennonite church quite wealthy,",
+        "suggested_fix": "Remove the unnecessary English parenthetical so the crop name is fully rendered in Afrikaans, or translate and keep only the Afrikaans name. Preserve tags. Example replacement: Turkey Red-koring. Hierdie taai gewas het die Menonitiese kerk nogal ryk gemaak,",
+        "translation_quote": "Turkey Red-koring (Turkey Red Wheat). Hierdie taai gewas het die Menonitiese kerk nogal ryk gemaak, en hul kolonieë het gegroei…"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

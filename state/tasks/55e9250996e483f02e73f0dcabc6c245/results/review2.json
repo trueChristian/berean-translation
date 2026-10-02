@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "32936285-1913-4874-bb68-8473c27b84ae",
+    "response_id": "chatcmpl-EUVaXWJYgk7RKTjcqrMBelLulo1p3",
+    "usage": {
+      "completion_tokens": 1040,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3270,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4310
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> first paragraph (sentence mentioning the individuals baptized)",
+        "severity": "minor",
+        "source_quote": "Yet, on this momentous winter evening, Feliz Mantz, Conrad Grebel, George Blaurock, and a few others took their obedience one step further.",
+        "suggested_fix": "অনুবাদে ওই বাক্যে ইংরেজি প্রকাশিত আমলনামা অনুসারে ব্যক্তির নামের কণ্ঠবর্ণ মিলিয়ে দিন: “ফেলিজ মান্টজ, কনরাদ গ্রেবল, জর্জ ব্লাউরক ...” — অর্থাৎ “ফেলিক্স মান্টজ” নয়, বরং লেখায় যেভাবে ছাপা আছে সেভাবে লক্ষ্যভেদী বাংলা রূপে “ফেলিজ মান্টজ” ব্যবহার করুন, যেমন: “ফেলিজ মান্টজ, কনরাদ গ্রেবল, জর্জ ব্লাউরক …”।",
+        "translation_quote": "তবু, ঐ ঐতিহাসিক শীতের সন্ধ্যায়, ফেলিক্স মান্টজ, কনরাদ গ্রেবল, জর্জ ব্লাউরক এবং আরও কয়েকজন তাদের আনুগত্যকে এক ধাপ এগিয়ে নিয়ে গেলেন।"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "042fce50-3724-4100-b397-093c6d081e89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,31 +61,52 @@
         },
         "total_tokens": 5703
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1255,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2985,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4240
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "Last paragraph of third <p> (printing history) — sentence: \"L’impression a parcouru un long chemin depuis 1436, lorsque chaque page devait être composées et imprimée individuellement.\"",
+      "location": "<article> first paragraph, proper name",
+      "severity": "major",
+      "source_quote": "A small group of radical Christians quietly gathered in the home of Felix Mantz in Zürich, Switzerland.",
+      "suggested_fix": "Dans la balise <p> concernée, corriger le nom propre « Feliz Mantz » en « Felix Mantz » pour correspondre au nom imprimé en anglais. Conserver la même structure HTML. Exemple de remplacement du segment erroné : ...dans la maison de Felix Mantz à Zürich, en Suisse.",
+      "translation_quote": "Un petit groupe de chrétiens radicaux s’est réuni en toute discrétion dans la maison de Felix Mantz à Zürich, en Suisse. [...] Pourtant, en cette soirée d’hiver mémorable, Feliz Mantz, Conrad Grebel, George Blaurock et quelques autres firent un pas de plus dans l’obéissance."
+    },
+    {
+      "location": "<article> first paragraph, consistency of proper name",
       "severity": "minor",
-      "source_quote": "\"...when each page had to be set up and printed individually.\"",
-      "suggested_fix": "Correct grammatical agreement: change \"devait être composées\" to \"devait être composée\" so the past passive participle agrees with \"page\" (singular, feminine).",
-      "translation_quote": "\"L’impression a parcouru un long chemin depuis 1436, lorsque chaque page devait être composées et imprimée individuellement.\""
+      "source_quote": "Felix Mantz",
+      "suggested_fix": "Harmoniser l'orthographe du nom dans tout le document : changer « Feliz Mantz » en « Felix Mantz » (ou vice‑versa si la source autorisait, mais ici la forme anglaise est « Felix »). Conserver les mêmes balises HTML et l'ordre du texte.",
+      "translation_quote": "[...] dans la maison de Felix Mantz à Zürich, en Suisse. [...] Pourtant, en cette soirée d’hiver mémorable, Feliz Mantz, Conrad Grebel, George Blaurock et quelques autres firent un pas de plus dans l’obéissance."
     },
     {
-      "location": "Penultimate paragraph — article titles left in English (quoted substantive prose)",
-      "severity": "major",
-      "source_quote": "\"A Glorious Church by Barry Grant and Joy in the Crevices by Sheryl Zeiset were both first printed in 2019.\"",
-      "suggested_fix": "Translate the article titles into French (quoted substantive prose must be rendered in the target language). Preserve the authors and year and the surrounding sentence structure. Example: replace \"A Glorious Church de Barry Grant et Joy in the Crevices de Sheryl Zeiset\" with a faithful French rendering of the titles, e.g. \"Un Église glorieuse de Barry Grant et Joie dans les crevasses de Sheryl Zeiset\" (or another translator-approved wording), and keep the rest of the sentence unchanged.",
-      "translation_quote": "\"A Glorious Church de Barry Grant et Joy in the Crevices de Sheryl Zeiset ont tous deux été publiés pour la première fois en 2019.\""
-    },
-    {
-      "location": "Third paragraph (periodical name) — magazine title left in English inside body text",
-      "severity": "major",
-      "source_quote": "\"...it is much easier to print a periodical magazine such as The Heartbeat of the Remnant.\"",
-      "suggested_fix": "Translate the magazine title or present it in a French typographic form consistent with the rest of the translation. Quoted or translatable article metadata appearing in the article body should be rendered into the target language. For example: replace \"The Heartbeat of the Remnant\" with a French rendering such as \"Le Battement du Reste\" (or another approved translation of the publication title), or keep the original title but indicate it as a proper name in French punctuation if the style guide requires. Preserve the surrounding sentence.",
-      "translation_quote": "\"...il est beaucoup plus facile d’imprimer un périodique comme The Heartbeat of the Remnant.\""
+      "location": "<article> third paragraph, magazine title translation",
+      "severity": "minor",
+      "source_quote": "The Heartbeat of the Remnant",
+      "suggested_fix": "Le titre du périodique a été rendu en français (« Le Battement du Reste »). Si la politique éditoriale exige de conserver le titre original en anglais, remplacer « Le Battement du Reste » par « The Heartbeat of the Remnant » (conserver la balise <p> et le même emplacement). Si la traduction est souhaitée, laisser telle quelle. Ne pas modifier d'autres éléments HTML.",
+      "translation_quote": "un périodique comme Le Battement du Reste."
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "79c5df31e39dee21e4a8a29ec48e023b",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "fra",
@@ -136,7 +156,7 @@
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/901933390bbab68b30ba65d224e53d69f0af822b49f3cdb694876c259f4bd250.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a8b13667ad0bdee6e94fb75c94d958fc5f824dbcd185202cd5cc7be6e9274a4c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

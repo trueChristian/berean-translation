@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "bc182524-1c79-4e3f-b77f-15f55fd02480",
+    "response_id": "chatcmpl-EUVbeHp74lj93KLnPOhV8u30xuPAH",
+    "usage": {
+      "completion_tokens": 1141,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6232,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7373
+    }
+  },
+  "received_at": "2026-10-02T11:21:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Translation — paragraph about support work for missionaries (paragraph beginning \"Maisha hapa mjini ni rahisi...\")",
+        "severity": "minor",
+        "source_quote": "we were doing a lot of support work for our fellow missionaries there and making trips back to where we still felt was our home.",
+        "suggested_fix": "Correct the mistranslated word 'wazundumisionari' to the standard Kiswahili term 'wazee wa misheni' or better 'wazionesheni' (or simply 'wafanyakazi wa misheni' / 'wazee wa misheni' depending on style). Preserve surrounding HTML and sentence structure.",
+        "translation_quote": "tulikuwa tukifanya kazi nyingi za kuunga mkono kwa wazundumisionari wenzetu walioko huko"
+      },
+      {
+        "location": "Translation — phrase rendering 'homemaker' (paragraph beginning \"Kuwa mama na mchololezi wa nyumba...\")",
+        "severity": "minor",
+        "source_quote": "Being a mother and homemaker, no matter where in the world God has placed us, is a beautiful thing in itself...",
+        "suggested_fix": "Consider using a more natural Kiswahili term for 'homemaker', e.g. 'mashauri wa nyumbani', 'mkuu wa nyumba', or simply 'msimamizi wa nyumba' or 'mshauri wa moja kwa moja wa nyumba'. This is a stylistic suggestion; if you prefer a single word, 'msimamizi wa nyumba' reads naturally. Preserve HTML tags and sentence order.",
+        "translation_quote": "Kuwa mama na mchololezi wa nyumba, bila kujali wapi duniani Mungu ametuutaza, ni jambo zuri lenyewe ikiwa tunaona kweli jinsi lilivyo."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

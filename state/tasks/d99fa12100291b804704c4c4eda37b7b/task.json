@@ -2,7 +2,6 @@
   "article_id": "5a87c21f-cce9-4033-8a43-5458311bc7f0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,31 +61,44 @@
         },
         "total_tokens": 22467
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 973,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13909,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14882
+      }
     }
   ],
   "findings": [
     {
-      "location": "source.html — first paragraph (magazine title in article-note)",
-      "severity": "major",
-      "source_quote": "After printing all five articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet.",
-      "suggested_fix": "Translate the magazine title into Arabic and preserve the surrounding <em> tags and HTML structure. For example: After printing all five articles in </em>«نبض الباقين»<em>, we will publish them in a booklet. (Replace the English title only, keep the original <em> tags in place.)",
-      "translation_quote": "بعد طباعة المقالات الخمس كلها في </em>The Heartbeat of the Remnant<em>، سننشرها في كتيّب."
+      "location": "source.html — Genesis blockquote (titled Genesis 2:19–22)",
+      "severity": "minor",
+      "source_quote": "\"And the LORD God caused a deep sleep to fall upon Adam, and he slept: and he took one of his ribs, and closed up the flesh instead thereof;\" (Genesis 2:21–22 in context 19–22)",
+      "suggested_fix": "Adjust the Arabic phrasing to more naturally and clearly convey \"and closed up the flesh instead thereof\". For example: «فَأَخَذَ إِحْدَى أَضْلاَعِهِ، وَسَدَّ اللَّحْمَ مَكَانَهَا» (preserving the surrounding Arabic punctuation and quotation marks exactly as in the translation).",
+      "translation_quote": "«فَأَخَذَ إِحْدَى أَضْلاَعِهِ وَمَلَأَ اللَّحْمَ بِدُونِهَا.»"
     },
     {
-      "location": "source.section (metadata)",
-      "severity": "major",
-      "source_quote": "INSPIRATIONS FOR YOUTH",
-      "suggested_fix": "Translate the section string into Arabic in the translation metadata. For example: \"إلهامات للشباب\" (replace the English section value with the Arabic equivalent while leaving the field name unchanged).",
-      "translation_quote": "INSPIRATIONS FOR YOUTH"
-    },
-    {
-      "location": "second figure alt attribute (image 2) in source.html",
-      "severity": "major",
-      "source_quote": "A three-panel collage of winter trees and a snowy rural scene",
-      "suggested_fix": "Correct the Arabic alt text to faithfully reflect the English alt. Replace the current Arabic alt with a direct translation that preserves meaning, for example: \"تجميعة من ثلاث صور لأشجار شتوية ومشهد ريفي مغطى بالثلوج\". Preserve the img tag and its attributes; change only the alt value.",
-      "translation_quote": "مجموعة صور ثلاثية للّبنات الشتوية ومشهد ريفي مغطى بالثلج"
+      "location": "source.html — opening paragraph (magazine name inside italics)",
+      "severity": "minor",
+      "source_quote": "\"After printing all five articles in The Heartbeat of the Remnant, we will publish them in a booklet.\"",
+      "suggested_fix": "The translation renders the magazine title and surrounding sentence correctly, but to match the source structure preserve the magazine title in the same typographic treatment if the system supports guillemets or italic tags. If not, no change is required. No doctrinal or substantive change is needed. (No change required to the Arabic wording itself unless you prefer a different conventional rendering of the magazine title.)",
+      "translation_quote": "«بعد طباعة المقالات الخمس كلها في »«نبض الباقين»«، سننشرها في كتيّب.»"
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "d99fa12100291b804704c4c4eda37b7b",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ara",
@@ -130,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0a1dcaa5cafea68d0933d4307f622a54749ce00327ed437d6329e9b9b2a36c0b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "403dccfee978e00bf41c2daf2df29e8cfa526a0ef6c19371773e58abc48734b6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

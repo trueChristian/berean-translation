@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "df44ba5e-af4c-445e-96aa-bdba01a953b6",
+    "response_id": "chatcmpl-EUVafXaxE5mTllMrJmMtpc3KuU5Nl",
+    "usage": {
+      "completion_tokens": 430,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6556,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6986
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.title / translation.title",
+        "severity": "minor",
+        "source_quote": "It Was Winter",
+        "suggested_fix": "Optional: translate more literally to preserve the original simple past phrasing (not required). For example, change the translation title from \"Musim Dingin\" to \"Itu Musim Dingin\" if you prefer a closer match to the English phrasing.",
+        "translation_quote": "Musim Dingin"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

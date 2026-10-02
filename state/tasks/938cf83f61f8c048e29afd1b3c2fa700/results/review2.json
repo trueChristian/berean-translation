@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "764fc52c-a083-41cd-ba25-4ab6790779a1",
+    "response_id": "chatcmpl-EUVajUI9UmXbvL3n6TEXYWnYBi3Sc",
+    "usage": {
+      "completion_tokens": 1127,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1673,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2800
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html / stanza 3, line 1",
+        "severity": "minor",
+        "source_quote": "How purely hath thy speech come down\nfrom man's primaeval youth!",
+        "suggested_fix": "Correct the Greek spelling and idiom. Replace “απαρχή της ανθρωπίνης νιότης” with a clearer, correctly spelled rendering such as “από την πρωταρχική νεότητα του ανθρώπου” or “από την πρωτόγονη/πρωταρχική νεότητα του ανθρώπου” depending on desired register. Ensure “ανθρώπινης” is spelled correctly.",
+        "translation_quote": "Πόσο καθαρά κατέβηκε ο λόγος σου\nαπό την απαρχή της ανθρωπίνης νιότης!"
+      },
+      {
+        "location": "source.html / stanza 2, line 3",
+        "severity": "minor",
+        "source_quote": "one steadfast, high intent;",
+        "suggested_fix": "Improve idiomatic flow: consider translating “one steadfast, high intent” as “μια σταθερή, υψηλή πρόθεση” or “ένα σταθερό, υψηλό φρόνημα” instead of “ένα σταθερό, υψηλό μέλημα” for a more natural Modern Greek rendering.",
+        "translation_quote": "ένα σταθερό, υψηλό μέλημα;"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

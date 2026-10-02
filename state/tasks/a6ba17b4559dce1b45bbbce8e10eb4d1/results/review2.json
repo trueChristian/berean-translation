@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0b4e8869-69be-452e-b5bc-cc117066ab53",
+    "response_id": "chatcmpl-EUVauH4LXAY0K60hZg8UBq2YwHzTa",
+    "usage": {
+      "completion_tokens": 1338,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3993,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5331
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph mentioning 'Numbers 11' (source.html paragraph beginning 'Father then asked Dirk to read through Numbers 11')",
+        "severity": "minor",
+        "source_quote": "Father then asked Dirk to read through Numbers 11 and copy down the sentences that showed ungratefulness and how God felt about it.",
+        "suggested_fix": "Use the conventional Hindi Bible book name and make the verb phrasing clearer and grammatical. For example: \"फिर पिता ने डिर्क से कहा कि वह 'गिनतियों' (नंबर्स) की पुस्तक, अध्याय 11 पढ़े और उन वाक्यों को उतारे जो असंतोष दिखाते हैं और परमेश्वर का उसके प्रति क्या भाव था।\" (Preserve HTML structure and punctuation exactly as in the translation.)",
+        "translation_quote": "फिर पिता ने डिर्क से कहा कि वह गिनती 11 को पढ़े और उन वाक्यों की नकल करे जो असंतोष को और परमेश्वर के उस पर कैसा भाव था दिखाएँ।"
+      },
+      {
+        "location": "Paragraph with 'sniveled' (source.html paragraph beginning '“I’m sorry. I didn’t think about it like that,” Dirk sniveled')",
+        "severity": "minor",
+        "source_quote": "“I’m sorry. I didn’t think about it like that,” Dirk sniveled, using his sleeve as a handkerchief.",
+        "suggested_fix": "Replace the nonstandard or unclear Hindi rendering \"सिंगान करते हुए\" with a clearer, idiomatic translation conveying the sniffing/teary self-pity sense of 'sniveled'. For example: \"'माफ़ करना। मैंने ऐसा नहीं सोचा,' डिर्क ने रुँध-रुँध कर कहा और अपनी आस्तीन को रुमाल की तरह इस्तेमाल किया।\" (Keep surrounding HTML tags and sentence order unchanged.)",
+        "translation_quote": "“माफ करना। मैंने ऐसा नहीं सोचा,” डिर्क ने सिंगान करते हुए अपनी आस्तीन को रुमाल की तरह इस्तेमाल किया।"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

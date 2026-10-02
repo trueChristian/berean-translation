@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5935f7fe-af6c-4859-a0c6-2c584d5115ac",
+    "response_id": "chatcmpl-EUVaOIsCkaiES3YZwYe5K1QP8z8lO",
+    "usage": {
+      "completion_tokens": 851,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6658,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7509
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 3 (source.html) — sentence about robins",
+        "severity": "major",
+        "source_quote": "Northern tradition states that the robins must get snowed on three times before the full arrival of spring.",
+        "suggested_fix": "Translate the bird correctly as the English \"robins\". Replace \"السنونو\" with a correct Arabic equivalent for robin, e.g. \"الحمامة الحمراء الصدر\" is not conventional; better: use the common Arabic name \"الروبن\" (transliteration) or \"الطائر الدوري، الروبن\". Suggested Arabic rendering: \"يقول تقليد شمالي إن طائر الروبين يجب أن تتساقط عليه الثلوج ثلاث مرات قبل وصول الربيع الكامل.\"",
+        "translation_quote": "تقليد شمالي يقول إن السنونو يجب أن يتساقط عليه الثلج ثلاث مرات قبل وصول الربيع الكامل."
+      },
+      {
+        "location": "Paragraph 2 (source.html) — mention of song title",
+        "severity": "minor",
+        "source_quote": "While a few gay tunes, such as Winter Wonderland, seek to capitalize upon its majestic moments, winter is generally despised by the normal inhabitants of this earth.",
+        "suggested_fix": "Translate or transliterate the song title into Arabic (and keep it in quotation marks). For example: «مثل أغنية \"Winter Wonderland\" (أرض العجائب الشتوية)». A concise fix: replace the English-only title with a transliteration: \"مثل أغنية 'وينتر وندرلاند'\" or a translated title in Arabic: \"أرض العجائب الشتوية\" depending on the magazine's style.",
+        "translation_quote": "بينما تحاول بعض الألحان المبهجة، مثل Winter Wonderland، الاستفادة من لحظاته البهيّة، إلا أن سكان الأرض العاديين يكرهون الشتاء عامة."
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

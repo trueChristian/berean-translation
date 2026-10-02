@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ca3fe820-3448-434b-9f54-73dcb97db0b3",
+    "response_id": "chatcmpl-EUVaKq0EdGizcRW7gHW3NGpxPJuzw",
+    "usage": {
+      "completion_tokens": 966,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6612,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7578
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning \"Det har funnits många förmögna män...\" (Appreciation section)",
+        "severity": "minor",
+        "source_quote": "This indelibly embossed a permanent mark in their character that fitted them for the success that followed in its wake.",
+        "suggested_fix": "Fix the Swedish wording to be grammatical and preserve the meaning. For example: \"Detta präglade outplånligt ett bestående märke i deras karaktär som gjorde dem lämpade för den framgång som följde i dess kölvatten.\" (Preserve the surrounding HTML and tags exactly as in the translation file.)",
+        "translation_quote": "Detta präglade outplånligt en bestående märkt i deras karaktär som gjorde dem lämpade för den framgång som följde i dess kölvatten."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

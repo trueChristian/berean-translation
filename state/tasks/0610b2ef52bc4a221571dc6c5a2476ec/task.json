@@ -2,7 +2,6 @@
   "article_id": "b37f8111-4563-4b5b-ab9f-1f87bcd2b46a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,38 +61,44 @@
         },
         "total_tokens": 10990
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1141,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6232,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7373
+      }
     }
   ],
   "findings": [
     {
-      "location": "Paragraph under heading \"Keeping a reasonably clean, pleasant house\" (English paragraph: \"Get rid of the limp, ugly curtain in the schoolroom and replace it with a fresh yellow one\")",
-      "severity": "major",
-      "source_quote": "Get rid of the limp, ugly curtain in the schoolroom and replace it with a fresh yellow one (yes, even if it does take a few dollars to do so, I remind my penny-pinching soul).",
-      "suggested_fix": "Replace the incorrect color word with the correct one. Example Swahili rendering: “Ondoa pazia lililo lala, baya katika chumba cha shule na kulibadilisha na pazia manjano safi (ndiyo, hata kama inahitaji dola chache, ninajikumbusha roho yangu inayotafuta kuokoa kila senti).” Preserve HTML structure and punctuation.",
-      "translation_quote": "Ondoa pazia lililo lala, baya katika chumba cha shule na kulibadilisha na pazia jekundu safi (ndiyo, hata kama inahitaji dola chache, ninajikumbusha roho yangu inayotafuta kuokoa kila senti)."
-    },
-    {
-      "location": "Paragraph: “One of my goals is to clean off all flat surfaces...” (headed in Swahili as “Kuondoa vitu kwenye uso wowote wamo wima”)",
-      "severity": "major",
-      "source_quote": "One of my goals is to clean off all flat surfaces in my house and leave only pleasant, tasteful things.",
-      "suggested_fix": "Correct the translation of “flat/horizontal surfaces.” Use a phrase that means horizontal/flat surfaces rather than 'wima' (which means vertical). Example: “Moja ya malengo yangu ni kusafisha uso wote wima wavu/uso wote usio wima (misono ya gorofa) katika nyumba yangu…” Better: “Moja ya malengo yangu ni kusafisha uso wote gorofa (miserobo/misurfi ya gorofa) katika nyumba yangu na kuacha tu vitu vinavyopendeza na vya ladha nzuri.” Keep HTML tags unchanged.",
-      "translation_quote": "Moja ya malengo yangu ni kusafisha uso wote wima katika nyumba yangu na kuacha tu vitu vinavyopendeza na vya ladha nzuri."
-    },
-    {
-      "location": "Paragraph: “we were doing a lot of support work for our fellow missionaries there”",
-      "severity": "major",
-      "source_quote": "we were doing a lot of support work for our fellow missionaries there",
-      "suggested_fix": "Restore the correct referent \"missionaries.\" Replace “waumini wenzetu” with a proper Swahili term for missionaries used elsewhere in the translation (e.g., “wazundumisionari wenzetu” or the more common “wafanyakazi wa uinjilisho/wazee wa utume” depending on house style). Example: “tulikuwa tukifanya kazi nyingi za kuunga mkono kwa wazundumisionari wenzetu walioko huko” (keeping the phrase consistent with other occurrences).",
-      "translation_quote": "tulikuwa tukifanya kazi nyingi za kuunga mkono kwa waumini wenzetu walioko huko"
-    },
-    {
-      "location": "Paragraph: “to “heap on coals of fire” by giving the angry army officer a solar panel and a transformer”",
+      "location": "Translation — paragraph about support work for missionaries (paragraph beginning \"Maisha hapa mjini ni rahisi...\")",
       "severity": "minor",
-      "source_quote": "to “heap on coals of fire” by giving the angry army officer a solar panel and a transformer on top of the other things he demanded.",
-      "suggested_fix": "Render the biblical idiom in idiomatic Swahili while preserving the allusion. The current “kumwaga mia moto” is unclear. Suggested Swahili: “ku 'weka kuni za makaa moto' ” or more idiomatically, “kuweka juu ya makaa moto” or use a clarifying parenthesis: “(kumwaga/kuweka makaa ya moto)” then continue with the items. Keep quotation marks as in the source. Example: “kurudi kijijini ili ‘kuweka makaa ya moto’ kwa kumpa afisa wa jeshi jopo la sola na transfoma pamoja na vitu vingine alivyotaka.”",
-      "translation_quote": "kurudi kijijini ili “kumwaga mia moto” kwa kumpa afisa wa jeshi mwenye hasira jopo la sola na transfoma juu ya vitu vingine alivyotaka."
+      "source_quote": "we were doing a lot of support work for our fellow missionaries there and making trips back to where we still felt was our home.",
+      "suggested_fix": "Correct the mistranslated word 'wazundumisionari' to the standard Kiswahili term 'wazee wa misheni' or better 'wazionesheni' (or simply 'wafanyakazi wa misheni' / 'wazee wa misheni' depending on style). Preserve surrounding HTML and sentence structure.",
+      "translation_quote": "tulikuwa tukifanya kazi nyingi za kuunga mkono kwa wazundumisionari wenzetu walioko huko"
+    },
+    {
+      "location": "Translation — phrase rendering 'homemaker' (paragraph beginning \"Kuwa mama na mchololezi wa nyumba...\")",
+      "severity": "minor",
+      "source_quote": "Being a mother and homemaker, no matter where in the world God has placed us, is a beautiful thing in itself...",
+      "suggested_fix": "Consider using a more natural Kiswahili term for 'homemaker', e.g. 'mashauri wa nyumbani', 'mkuu wa nyumba', or simply 'msimamizi wa nyumba' or 'mshauri wa moja kwa moja wa nyumba'. This is a stylistic suggestion; if you prefer a single word, 'msimamizi wa nyumba' reads naturally. Preserve HTML tags and sentence order.",
+      "translation_quote": "Kuwa mama na mchololezi wa nyumba, bila kujali wapi duniani Mungu ametuutaza, ni jambo zuri lenyewe ikiwa tunaona kweli jinsi lilivyo."
     }
   ],
+  "finished_at": "2026-10-02T11:21:05+00:00",
   "id": "0610b2ef52bc4a221571dc6c5a2476ec",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "swa",
@@ -137,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 62,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8a0658267fa9eaeafccc26ac6637cde2343d272e4862413edce341f1010a3f2c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "810e77f1e38c86de9278d0fba622dcb0789774ee530b139604475db68ad15426",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

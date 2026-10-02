@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b0a448fb-defc-4273-bc29-b0f6dddde56d",
+    "response_id": "chatcmpl-EUVadvFj3lKunfUTwiszi4LMnt3Rm",
+    "usage": {
+      "completion_tokens": 1156,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2996,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4152
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> paragraph 1 (proper names)",
+        "severity": "minor",
+        "source_quote": "Felix Mantz",
+        "suggested_fix": "源文中作者在不同处以 \"Felix Mantz\" 和一次误作 \"Feliz Mantz\" 出现。译文使用了统一的汉语音译“费利克斯·曼茨（Felix Mantz）”。为忠实反映原文，应把人名音译保留且与原文拼写一致。建议将译文注内的英文拼写统一为原文主要形式“Felix Mantz”（或如果编辑团队决定保持原文的单一拼写，应在所有处统一为源文首次出现的拼写）。",
+        "translation_quote": "费利克斯·曼茨（Felix Mantz）"
+      },
+      {
+        "location": "<figure> <img alt> / <figcaption>",
+        "severity": "minor",
+        "source_quote": "Gutenberg Bible on display at the U.S. Library of Congress",
+        "suggested_fix": "译文将 alt 与图注均译为“古登堡圣经在美国国会图书馆展出”和“古登堡圣经在美国国会图书馆展出。”这是可接受的，但图注通常为完整句式或更通顺的汉语表达。建议将 figcaption 的句子改为更自然的中文完整句，例如“古腾堡圣经，陈列于美国国会图书馆。”（同时统一“古登堡/古腾堡”的译法，建议使用常见译法“古腾堡”以提高一致性）。",
+        "translation_quote": "古登堡圣经在美国国会图书馆展出。"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

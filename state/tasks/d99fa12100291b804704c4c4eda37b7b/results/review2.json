@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "300dc65e-5677-45c7-80a2-4e3045f17e0e",
+    "response_id": "chatcmpl-EUVacCC57mta0HVCD7ItGuhys4qjb",
+    "usage": {
+      "completion_tokens": 973,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13909,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 14882
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — Genesis blockquote (titled Genesis 2:19–22)",
+        "severity": "minor",
+        "source_quote": "\"And the LORD God caused a deep sleep to fall upon Adam, and he slept: and he took one of his ribs, and closed up the flesh instead thereof;\" (Genesis 2:21–22 in context 19–22)",
+        "suggested_fix": "Adjust the Arabic phrasing to more naturally and clearly convey \"and closed up the flesh instead thereof\". For example: «فَأَخَذَ إِحْدَى أَضْلاَعِهِ، وَسَدَّ اللَّحْمَ مَكَانَهَا» (preserving the surrounding Arabic punctuation and quotation marks exactly as in the translation).",
+        "translation_quote": "«فَأَخَذَ إِحْدَى أَضْلاَعِهِ وَمَلَأَ اللَّحْمَ بِدُونِهَا.»"
+      },
+      {
+        "location": "source.html — opening paragraph (magazine name inside italics)",
+        "severity": "minor",
+        "source_quote": "\"After printing all five articles in The Heartbeat of the Remnant, we will publish them in a booklet.\"",
+        "suggested_fix": "The translation renders the magazine title and surrounding sentence correctly, but to match the source structure preserve the magazine title in the same typographic treatment if the system supports guillemets or italic tags. If not, no change is required. No doctrinal or substantive change is needed. (No change required to the Arabic wording itself unless you prefer a different conventional rendering of the magazine title.)",
+        "translation_quote": "«بعد طباعة المقالات الخمس كلها في »«نبض الباقين»«، سننشرها في كتيّب.»"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

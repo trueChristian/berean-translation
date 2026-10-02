@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "32c05b01-2d26-4dc0-9865-5a62ef6f7def",
+    "response_id": "chatcmpl-EUVbe04JlXhaJtW9KblqjDzXeH7Aw",
+    "usage": {
+      "completion_tokens": 1084,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6041,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7125
+    }
+  },
+  "received_at": "2026-10-02T11:21:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning \"By this time, the strong agricultural society...\" (English) / corresponding Greek paragraph beginning \"Μέχρι τότε, η ισχυρή αγροτική κοινωνία...\"",
+        "severity": "major",
+        "source_quote": "By this time, the strong agricultural society of the Mennonites had transformed Ukraine into a breadbasket, its vast fields sown with wheat developed specifically by the Mennonites: Turkey Red Wheat.",
+        "suggested_fix": "Translate the crop name into the target language rather than leaving the English name in parentheses. Replace the phrase \"Turkey Red Wheat\" (or the parenthetical \"(Turkey Red Wheat)\") with a fully translated form such as «Τουρκικό Κόκκινο Σιτάρι» or «το Τουρκικό Κόκκινο Σιτάρι» (preserving punctuation and surrounding HTML). Do not leave the English name unmodified inside the translated paragraph.",
+        "translation_quote": "Μέχρι τότε, η ισχυρή αγροτική κοινωνία των Μεννονιτών είχε μετατρέψει την Ουκρανία σε μια αποθήκη τροφίμων, τα απέραντα χωράφια της είχαν σπαρθεί με σιτάρι ειδικά αναπτυγμένο από τους Μεννονίτες: το λεγόμενο Τουρκίτικο Κόκκινο Σιτάρι (Turkey Red Wheat)."
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

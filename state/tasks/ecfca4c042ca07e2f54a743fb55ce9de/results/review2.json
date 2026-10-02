@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5860478f-dcff-4929-a5b4-e7cfe4d2fc6a",
+    "response_id": "chatcmpl-EUVaoWwpJazfpiVOc3SCTyoNNEGkH",
+    "usage": {
+      "completion_tokens": 918,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1548,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2466
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> — third stanza, line 3–4",
+        "severity": "minor",
+        "source_quote": "home closer draws her circle now,\nand warmer glows her light within.",
+        "suggested_fix": "Preserve the personification and feminine agreement for \"home.\" For example: \"يقرب البيت دائرته الآن،\\nويزداد ضياؤها دفئًا داخلها.\" Ensure you keep the poem HTML structure and line breaks.",
+        "translation_quote": "يضيق بيتنا دائرته الآن،\\nويزداد ضياؤه داخله دفئًا."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

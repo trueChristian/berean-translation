@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e8da9670-ff02-4d55-bd65-deda59866a27",
+    "response_id": "chatcmpl-EUVaVSGN9GG5MhElkM47LBEdh5vDi",
+    "usage": {
+      "completion_tokens": 953,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3211,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4164
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...Our document is then digitally edited and electronically sent to the printer...</p>",
+        "severity": "minor",
+        "source_quote": "Our document is then digitally edited and electronically sent to the printer.",
+        "suggested_fix": "Fix the minor spelling/typography error in Urdu: change “الیکڑانک” to the correct standard spelling “الیکٹرانک”. Preserve existing HTML and surrounding text.",
+        "translation_quote": "ہمارا دستاویز پھر ڈیجیٹل طور پر ترمیم ہوتا ہے اور الیکڑانک طور پر پرنٹر کو بھیجا جاتا ہے۔"
+      },
+      {
+        "location": "<p>...such as The Heartbeat of the Remnant...</p>",
+        "severity": "minor",
+        "source_quote": "such as The Heartbeat of the Remnant.",
+        "suggested_fix": "Either translate the magazine title into Urdu (for example: 'The Heartbeat of the Remnant' → 'دی ہارٹ بیٹ آف دا ریمننٹ' only if there is an established Urdu title, otherwise leave as an unchanged proper name). If you choose to leave it in English, consider marking it typographically (italics) in the Urdu text to show it is a title. Do not change HTML structure—only adjust the text string.",
+        "translation_quote": "مگر آج، ایسے رسالے چھاپنا، جیسا کہ The Heartbeat of the Remnant، بہت آسان ہے۔"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

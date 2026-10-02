@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "dd93bf28-5122-472d-af33-579d68ed112b",
+    "response_id": "chatcmpl-EUVaCpL25IiDK9p8hREmTmD7fntEv",
+    "usage": {
+      "completion_tokens": 1058,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1597,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2655
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\">\n  <p>'Tis winter now; the fallen snow<br>\n  has left the heavens all coldly clear;<br>\n  through leafless boughs, the sharp winds blow,<br>\n  and all the earth lies dead and drear.</p>",
+        "severity": "major",
+        "source_quote": "'Tis winter now; the fallen snow",
+        "suggested_fix": "داخلہ HTML اور موجودہ ترجمہ ڈھانچے کو برقرار رکھتے ہوئے، خراب/غیرقابلِ مطالعہ ٹیکسٹ 'گIRI' کو درست اردو فقرے سے بدلیں۔ مثال: 'اب سردیوں کا موسم ہے؛ گِری ہوئی برف' یا 'اب سردیوں کا موسم ہے؛ نیچی گِری برف'۔ پورا لائن اس طرح ٹھیک رہے: <p>اب سردیوں کا موسم ہے؛ گِری ہوئی برف<br>",
+        "translation_quote": "اب سردیوں کا موسم ہے؛ گIRI ہوئی برف"
+      },
+      {
+        "location": "<div class=\"poem\">\n  <p>And though abroad the sharp winds blow,<br>\n  and skies are chill, and frosts are keen,<br>\n  home closer draws her circle now,<br>\n  and warmer glows her light within.</p>",
+        "severity": "minor",
+        "source_quote": "home closer draws her circle now,",
+        "suggested_fix": "صفحہ کا HTML ڈھانچہ برقرار رکھیں اور 'گھر اب اپنا دائرہ تنگ کرتا ہے' میں صفتِ مؤنث برقرار رکھنے کے لیے فاعل کے مطابق فعل کو مؤنث میں بدلیں۔ مثال: 'گھر اب اپنا دائرہ تنگ کرتی ہے،' تاکہ مصنفہ کی شخصی توہین (her) برقرار رہے۔",
+        "translation_quote": "گھر اب اپنا دائرہ تنگ کرتا ہے،"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

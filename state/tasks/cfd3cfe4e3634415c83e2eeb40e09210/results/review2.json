@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e68ce3b0-1d77-43fd-8db6-09c86d966f55",
+    "response_id": "chatcmpl-EUVaTHqWxAuK8i9vOof6eTe0qPUgm",
+    "usage": {
+      "completion_tokens": 1147,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1636,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2783
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> <p> stanza 2, line 2 (\"One holy church, one army strong,\")",
+        "severity": "major",
+        "source_quote": "One holy church, one army strong,",
+        "suggested_fix": "Replace the Bengali phrase that implies \"merciless/ruthless\" with one that conveys \"strong\" or \"powerful\" without the negative connotation. For example: \"এক পবিত্র মণ্ডলী, এক শক্তিশালী বাহিনী,\" or \"এক পবিত্র মণ্ডলী, এক শক্তিশালী সেনা-দল,\" so the sense \"one army strong\" (i.e., a strong, united force) is preserved.",
+        "translation_quote": "এক পবিত্র মণ্ডলী, এক নির্মোম বাহিনী,"
+      }
+    ],
+    "passed": false,
+    "score": 83
+  }
+}

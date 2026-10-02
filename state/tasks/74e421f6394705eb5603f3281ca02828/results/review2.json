@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9ea2ccca-da3e-4b36-b6d4-9032715db622",
+    "response_id": "chatcmpl-EUVaU7vRX2fPuTfAB3DFLFJShK60V",
+    "usage": {
+      "completion_tokens": 919,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1568,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2487
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\">, stanza 3, line 1 (\"How purely hath thy speech come down from man's primaeval youth!\")",
+        "severity": "minor",
+        "source_quote": "How purely hath thy speech come down\nfrom man's primaeval youth!",
+        "suggested_fix": "Ta bort det extra pronomenet \"oss\" eller översätt mer direkt: exempelvis \"Hur rent har ditt tal nått ner från människans uråldriga ungdom!\" eller \"Hur rent har ditt tal kommit ner från människans uråldriga ungdom!\" Bevara diktens arkaiska rytm men undvik att lägga till mottagarperspektiv som inte finns i originalet.",
+        "translation_quote": "Hur rent har ditt tal nått oss ner\nfrån människans uråldriga ungdom!"
+      },
+      {
+        "location": "<div class=\"poem\">, stanza 5, line 1 (\"In vain the surge's angry shock,\")",
+        "severity": "minor",
+        "source_quote": "In vain the surge's angry shock,",
+        "suggested_fix": "Byt \"stormens\" till en mer direkt motsvarighet för \"surge\", t.ex. \"vågornas\" eller \"bränningens\" för att bättre återge havsbilden: \"Förgäves vågornas arga stöt,\" eller \"Förgäves bränningens arga stöt,\" så bibehålls bildens ursprungliga betydelse.",
+        "translation_quote": "Förgäves stormens arga slag,"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

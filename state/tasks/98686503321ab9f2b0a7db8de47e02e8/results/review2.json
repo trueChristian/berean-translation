@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "68ce59c4-5934-4f71-a799-71503fc0f66b",
+    "response_id": "chatcmpl-EUVakkNvxVXbKSbtLs0aNElJa0pXt",
+    "usage": {
+      "completion_tokens": 1096,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3885,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4981
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph: \"The Israelites, Dirk. They often complained and it did not please God,\"",
+        "severity": "major",
+        "source_quote": "The Israelites, Dirk. They often complained and it did not please God,",
+        "suggested_fix": "Replace the mistranslation with wording that conveys \"it did not please God.\" For example: \"‘בני־ישראל, דירק. הם התלוננו לעתים קרובות וזה לא מצא חן בעיני אלוהים,’\". Preserve surrounding punctuation and HTML tags.",
+        "translation_quote": "“הישראלים, Dirk. הם לעתים קרובות התלוננו וזה לא רצה את אלוהים,”"
+      },
+      {
+        "location": "source.html multiple paragraphs — character name presentation",
+        "severity": "minor",
+        "source_quote": "Dirk (multiple instances)",
+        "suggested_fix": "Render the character name consistently in Hebrew script (דירק) throughout the article for natural Modern Hebrew reading, e.g. replace \"Dirk\" with \"דירק\" in all inline text while preserving HTML tags.",
+        "translation_quote": "Dirk סרק את האולם, ... בעיניו של Dirk, ... Dirk הבחין ... כשהגיע תורו של Dirk, ... Dirk לא התמהמה ... Dirk יכל לדעת ... עקף Dirk, ... \"נו Dirk Phillips, ...\" ... ביקש מ-Dirk ... עיניו של Dirk נצצו ... Dirk הסס ... אמר Dirk ... כש-Dirk אמר תודה,"
+      },
+      {
+        "location": "source.html paragraph: \"like chickadees at a birdfeeder\"",
+        "severity": "minor",
+        "source_quote": "like chickadees at a birdfeeder",
+        "suggested_fix": "Use a natural, commonly understood Hebrew expression for small songbirds. For example: \"כמו ציפורים קטנות סביב מאכסן ציפורים\" or \"כמו ציפורים קטנות סביב מאכסן\". Replace only the translated phrase, preserving HTML tags.",
+        "translation_quote": "כמו ציצניות סביב ממלא מזון לציפורים"
+      },
+      {
+        "location": "source.html paragraph: \"Lifesavers, to be exact.\"",
+        "severity": "minor",
+        "source_quote": "Lifesavers, to be exact.",
+        "suggested_fix": "Either translate into Hebrew a generic description (e.g. \"סוכריות Lifesavers\" or \"סוכריות בצורת טבעת, מסוג Lifesavers\") or render Lifesavers in Hebrew script as a product name (לייף־סייברס / לייף־סייברס). Keep the explanatory sense: that they are Lifesavers candies. Do not leave it untranslated in English-only script inside Hebrew text. Preserve surrounding punctuation and tags.",
+        "translation_quote": "Lifesavers, אם להיות מדויקים."
+      }
+    ],
+    "passed": false,
+    "score": 68
+  }
+}

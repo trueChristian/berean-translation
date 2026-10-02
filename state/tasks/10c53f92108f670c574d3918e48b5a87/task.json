@@ -2,7 +2,6 @@
   "article_id": "deabdd90-c842-4ed6-ad15-c2fa9870b099",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,52 +61,51 @@
         },
         "total_tokens": 11147
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 869,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6253,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7122
+      }
     }
   ],
   "findings": [
     {
-      "location": "<p>Matthew Bridges föddes ... <em>Hymns of the Heart</em> (1848) och <em>The Passion of Jesus</em> (1852).</p>",
-      "severity": "critical",
-      "source_quote": "Hymns of the Heart (1848) and The Passion of Jesus (1852).",
-      "suggested_fix": "Translate the English book titles into Swedish, preserving the <em> tags and punctuation. Example: <em>Hymns of the Heart</em> → <em>Hymns of the Heart</em> (if a published Swedish title exists) or translate generically to <em>Hjärtats psalmer</em> (1848). <em>The Passion of Jesus</em> → <em>Jesu lidande</em> (1852). If the publisher prefers to keep original English titles, include a Swedish translation immediately after in parentheses, e.g. <em>The Passion of Jesus</em> (”Jesu lidande”).",
-      "translation_quote": "Härifrån fortsätter jag berättelsen genom att ge en kort historik över vår psalmförfattares kyrkoliv."
+      "location": "Paragraph: \"Mr. Bridges’ hymns are marked...\" (translation paragraph beginning 'Vi fortsätter med vår berättelse. Matthew Bridges konverterade...')",
+      "severity": "minor",
+      "source_quote": "Mr. Bridges’ hymns are marked by spirituality and genuine power.",
+      "suggested_fix": "Translate or localize the English honorific and possessive. Replace the phrase in-place preserving tags, e.g.: \"Bridges psalmer kännetecknas av andlighet och äkta kraft.\"",
+      "translation_quote": "Mr Bridges’ psalmer kännetecknas av andlighet och äkta kraft."
     },
     {
-      "location": "<p>... publicerade dem i sin <em>Hymns and Sacred Lyrics</em> 1874.</p>",
-      "severity": "critical",
-      "source_quote": "published it in his <em>Hymns and Sacred Lyrics</em> in 1874.",
-      "suggested_fix": "Translate the English book title inside the <em> tag into Swedish or provide a parenthetical Swedish rendering. Example: <em>Hymns and Sacred Lyrics</em> → <em>Psalmer och heliga lyrik</em> (1874), or keep original then add Swedish: <em>Hymns and Sacred Lyrics</em> (”Psalmer och heliga lyrik”).",
-      "translation_quote": "publicerade dem i sin <em>Hymns and Sacred Lyrics</em> 1874."
+      "location": "Lyrics (Bridges section) — multiple lines where \"Honom\" and other pronouns are capitalized (e.g., \"Krona Honom med många kronor, Lammet på sin tron;\")",
+      "severity": "minor",
+      "source_quote": "Crown Him with many crowns, the Lamb upon His throne;",
+      "suggested_fix": "Swedish convention does not capitalize pronouns for God except in some devotional styles. For a standard contemporary Swedish rendering, lowercase pronouns is preferred. Example replacement: \"Kröna honom med många kronor, lammet på sin tron;\" (apply consistently to other occurrences of Honom/Du/Ty etc.). Preserve HTML and stanza structure.",
+      "translation_quote": "Krona Honom med många kronor, Lammet på sin tron;"
     },
     {
-      "location": "<p>... som publicerats i sångboken <em>Hymns of the Church</em>, ...</p>",
-      "severity": "critical",
-      "source_quote": "as published in the <em>Hymns of the Church</em> songbook",
-      "suggested_fix": "Translate the songbook title into Swedish or add a Swedish rendering in parentheses, preserving <em> tags. Example: <em>Hymns of the Church</em> → <em>Kyrkans psalmer</em> or <em>Hymns of the Church</em> (”Kyrkans psalmer”).",
-      "translation_quote": "Psalmen, som publicerats i sångboken <em>Hymns of the Church</em>,"
-    },
-    {
-      "location": "<section class=\"lyrics\" aria-labelledby=\"bridges-lyrics\">\n    <h2 id=\"bridges-lyrics\">Crown Him with Many Crowns</h2>",
-      "severity": "critical",
-      "source_quote": "Crown Him with Many Crowns (section heading and hymn title).",
-      "suggested_fix": "Translate the hymn title used as the section heading into Swedish, preserving the <h2> tag and id attribute. Example: <h2 id=\"bridges-lyrics\">Kröna honom med många kronor</h2>. Also translate the parallel Thring section heading similarly.",
-      "translation_quote": "<h2 id=\"bridges-lyrics\">Crown Him with Many Crowns</h2>"
-    },
-    {
-      "location": "<section class=\"lyrics\" aria-labelledby=\"thring-lyrics\">\n    <h2 id=\"thring-lyrics\">Crown Him with Many Crowns</h2>",
-      "severity": "critical",
-      "source_quote": "Crown Him with Many Crowns (Thring section heading).",
-      "suggested_fix": "Translate this hymn title heading into Swedish, preserving the <h2> tag and id. Example: <h2 id=\"thring-lyrics\">Kröna honom med många kronor</h2>.",
-      "translation_quote": "<h2 id=\"thring-lyrics\">Crown Him with Many Crowns</h2>"
-    },
-    {
-      "location": "<p class=\"source-note\"><em>Sourced from: A Treasury of Hymn Stories, hymnary.org, umc-discipleship.org, FBC</em></p>",
-      "severity": "critical",
-      "source_quote": "Sourced from: A Treasury of Hymn Stories, hymnary.org, umc-discipleship.org, FBC",
-      "suggested_fix": "Translate or localize the 'Sourced from' label into Swedish and, where appropriate, translate translatable English publication titles. Preserve the <em> tag. Example: <em>Källor: A Treasury of Hymn Stories, hymnary.org, umc-discipleship.org, FBC</em>. If any source titles have established Swedish renderings, use those.",
-      "translation_quote": "<em>Sourced from: A Treasury of Hymn Stories, hymnary.org, umc-discipleship.org, FBC</em>"
+      "location": "Paragraph: \"Crown Him the Lord of heaven! One with the Father known,...\" (translation paragraph about 'triune throne')",
+      "severity": "minor",
+      "source_quote": "Crown Him the Lord of heaven! One with the Father known, And the blest Spirit, through Him given from yonder triune throne!",
+      "suggested_fix": "\"Triune\" is an English theological adjective; render it into idiomatic Swedish. Replace with \"treeniga\" or a clearer phrase such as \"treeniga tronen\" or \"den treeniga tronen\". Example: \"…och den saliga Anden, genom honom given från den treeniga tronen där borta!\" Preserve punctuation and tags.",
+      "translation_quote": "...Och den saliga Anden, genom Honom given från den triune tronen där borta!"
     }
   ],
+  "finished_at": "2026-10-02T11:21:05+00:00",
   "id": "10c53f92108f670c574d3918e48b5a87",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "swe",
@@ -151,13 +149,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/abeb1f35c1949ea978d144c1eae3a8c74b9cda2edc2ef460b0d918ec0851fa83.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "01644cf9abc17411f3b235a99895bb87e8eec445a9ac28e6394d4afb94966251",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

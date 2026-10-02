@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e0262d2f-a83e-4cb8-9d17-13b92a438610",
+    "response_id": "chatcmpl-EUVasn9bJwd2qyu6j4PdClwI5aktZ",
+    "usage": {
+      "completion_tokens": 1503,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3516,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5019
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> <p> (first paragraph) — proper name",
+        "severity": "major",
+        "source_quote": "Yet, on this momentous winter evening, Feliz Mantz, Conrad Grebel, George Blaurock, and a few others took their obedience one step further.",
+        "suggested_fix": "Preserve the printed English spelling \"Feliz Mantz\" as it appears in the authoritative English source. In the Greek translation, replace \"Felix Mantz\" with \"Feliz Mantz\" (preserving surrounding punctuation and HTML structure). Example replacement inside the same <p> element: \"... εκείνη τη μνημειώδη χειμωνιάτικη βραδιά, ο Feliz Mantz, ο Conrad Grebel, ...\"",
+        "translation_quote": "Ωστόσο, εκείνη τη μνημειώδη χειμωνιάτικη βραδιά, ο Felix Mantz, ο Conrad Grebel, ο George Blaurock και μερικοί άλλοι έκαναν την υπακοή τους ένα βήμα παραπέρα."
+      },
+      {
+        "location": "<article> <p> (third paragraph) — periodical title left in English",
+        "severity": "minor",
+        "source_quote": "... it is much easier to print a periodical magazine such as The Heartbeat of the Remnant.",
+        "suggested_fix": "The authoritative English text names the periodical; the translation should either render a conventional Greek title or present the original title with a clear Greek rendering. Do not leave the quoted substantive title untranslated without indication. Suggested fixes (choose one and apply in-place, preserving tags):\n- Translate to Greek: «... είναι πολύ ευκολότερο να τυπώσεις ένα περιοδικό όπως Ο Παλμός των Υπολειμμάτων.»\n- Or keep original and add a Greek rendering: «... ένα περιοδικό όπως The Heartbeat of the Remnant (Ο Παλμός των Υπολειμμάτων).»\nKeep punctuation and HTML intact.",
+        "translation_quote": "Αλλά σήμερα είναι πολύ ευκολότερο να τυπώσεις ένα περιοδικό όπως το The Heartbeat of the Remnant."
+      },
+      {
+        "location": "<figure> <img> alt / surrounding sentence (third paragraph) — Greek grammar",
+        "severity": "minor",
+        "source_quote": "... the printing press will print 6,000 copies in a little over 12 hours.",
+        "suggested_fix": "Fix Greek article/noun agreement and idiomatic phrasing. Replace \"το πιεστήριο θα τυπώσει 6.000 αντίτυπα\" (if present) or the current wording \"το πιεστήριο θα τυπώσει 6.000 αντίτυπα\" with the grammatically correct \"το πιεστήριο θα τυπώσει 6.000 αντίτυπα σε λίγο παραπάνω από 12 ώρες.\" Also ensure use of comma for thousands is acceptable for your house style; otherwise keep the Arabic digits unchanged. Preserve surrounding HTML.",
+        "translation_quote": "Αφού ανεβούν τα αρχεία, το πιεστήριο θα τυπώσει 6.000 αντίτυπα σε λίγο παραπάνω από 12 ώρες."
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

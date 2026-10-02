@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "27bdd1eb-663e-4b16-90ba-2ed6f9117326",
+    "response_id": "chatcmpl-EUVaVelYNZJK5kR7ZqNR4VQnysn59",
+    "usage": {
+      "completion_tokens": 1427,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12552,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13979
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> blockquote (1 Corinthians passage)",
+        "severity": "minor",
+        "source_quote": "“Art thou bound unto a wife? seek not to be loosed. Art thou loosed from a wife? seek not a wife. But and if thou marry, thou hast not sinned; and if a virgin marry, she hath not sinned. Nevertheless such shall have trouble in the flesh: but I spare you. But I would have you without carefulness. He that is unmarried careth for the things that belong to the Lord, how he may please the Lord. But he that is married careth for the things that are of the world, how he may please his wife. There is difference also between a wife and a virgin. The unmarried woman careth for the things of the Lord, that she may be holy both in body and in spirit: but she that is married careth for the things of the world, how she may please her husband” (1 Cor. 7:2–28, 32–34).",
+        "suggested_fix": "Replace Malay/variant wordings with standard Indonesian equivalents in the quoted translation text to match the target-language guidance. For example, change “perbezaan” → “perbedaan”, “isteri” → “istri”, and keep other phrasing otherwise identical. Preserve the existing HTML and punctuation.",
+        "translation_quote": "“Adakah engkau terikat kepada seorang perempuan? Jangan mencari kelepasan. Adakah engkau terlepas dari seorang perempuan? Jangan mencari isteri. Tetapi jika engkau kawin, engkau tidak berdosa; dan jika seorang perawan kawin, ia tidak berdosa. Namun demikian orang-orang yang kawin akan mengalami kesusahan dalam dagingnya, dan aku ingin menahan kamu dari itu. Tetapi aku ingin kamu tidak khawatir. Orang yang tidak kawin mengindahkan perkara-perkara yang ada pada Tuhan, bagaimana ia dapat menyenangkan Tuhan. Tetapi orang yang kawin mengindahkan perkara-perkara dunia, bagaimana ia dapat menyenangkan isterinya. Demikian pula terdapat perbezaan antara isteri dan perawan. Perempuan yang belum kawin mengindahkan perkara-perkara Tuhan supaya ia kudus baik di tubuh maupun di roh; tetapi perempuan yang kawin mengindahkan perkara-perkara dunia, bagaimana ia dapat menyenangkan suaminya.” (1 Korintus 7:2–28, 32–34)."
+      },
+      {
+        "location": "Paragraph under \"Mengembangkan karakter yang serupa Kristus\"",
+        "severity": "minor",
+        "source_quote": "“What spirit comes from me? Do I have a loud spirit or a quiet spirit? A harsh spirit or a gentle spirit? A critical spirit or a forgiving spirit? A proud spirit or a humble spirit? A selfish spirit or a servant spirit? Unkind or kind? Crude or mannerly? Tough or compassionate? Rude or respectful? Do I need to work on my character?”",
+        "suggested_fix": "Correct a likely typo in the Indonesian translation at the sentence end: change “Apakah aku perlu bekerja pada karaktermu?” to “Apakah aku perlu bekerja pada karaktermu?” should instead be “Apakah aku perlu bekerja pada karaktermu?” — but context shows the question addresses the reader (kamu). Replace the final word “karaktermu” with the correct pronoun consistency: “Apakah aku perlu bekerja pada karaktermu?” -> change to “Apakah aku perlu mengerjakan karakternya?” Wait—preserve second-person voice used throughout. The minimal corrective fix: change “karaktermu?” to “karaktermu?” (fix spacing/typo) — implement as: replace the sentence “Apakah aku perlu bekerja pada karaktermu?” with “Apakah aku perlu bekerja pada karaktermu?” ensuring correct word \"karaktermu\" (replace 'karaktermu' misspelling if present). Preserve HTML tags.",
+        "translation_quote": "Apakah aku perlu bekerja pada karaktermu?"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

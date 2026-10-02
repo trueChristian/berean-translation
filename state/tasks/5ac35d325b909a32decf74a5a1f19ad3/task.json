@@ -2,7 +2,6 @@
   "article_id": "deabdd90-c842-4ed6-ad15-c2fa9870b099",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,66 +61,59 @@
         },
         "total_tokens": 11444
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1974,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1088,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6279,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8253
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "source.html — book titles in first paragraph and later (e.g., <em>Hymns of the Heart</em>, <em>The Passion of Jesus</em>)",
-      "severity": "major",
-      "source_quote": "— <em>Hymns of the Heart</em> (1848) and <em>The Passion of Jesus</em> (1852).",
-      "suggested_fix": "Translate the quoted book titles into Afrikaans (preserve emphasis tags and dates). For example: replace <em>Hymns of the Heart</em> (1848) with <em>Gesange van die Hart</em> (1848) and <em>The Passion of Jesus</em> (1852) with <em>Jesus se Passie</em> (1852), or another natural Afrikaans rendering if the publisher uses a different conventional title. Keep the original HTML tags and attributes unchanged.",
-      "translation_quote": "—<em>Hymns of the Heart</em> (1848) en <em>The Passion of Jesus</em> (1852)."
-    },
-    {
-      "location": "source.html — sentence mentioning original title of the hymn",
-      "severity": "major",
-      "source_quote": "It first appeared in his book <em>The Passion of Jesus</em>, and was originally given the title “The Song of the Seraphs.”",
-      "suggested_fix": "Translate the quoted original title into Afrikaans and preserve punctuation and emphasis tags. For example: replace “The Song of the Seraphs” with “Die Lied van die Sefare” (keeping the quotation marks). Do not change the surrounding HTML structure.",
-      "translation_quote": "Dit het eers in sy boek <em>The Passion of Jesus</em> verskyn, en is oorspronklik die titel “The Song of the Seraphs” gegee."
-    },
-    {
-      "location": "source.html — Bridges lyrics, stanza 2",
-      "severity": "major",
-      "source_quote": "Fruit of the mystic Rose as of that Rose the Stem:\nThe Root, whence mercy ever flows—the Babe of Bethlehem!",
-      "suggested_fix": "Translate all substantive words into Afrikaans and correct mistranslations/leftover English. Preserve line breaks and tags. Example replacement (keeping stanza markup):\n\"Vrug van die mistieke Roos, en van daardie Roos die Stam:\nDie Wortel, waaruit genade altyd vloei — die Kind van Betlehem!\"\n(Ensure 'Stam' not 'Stamm' and 'Kind van Betlehem' replaces the untranslated 'Baba van Betlehem'.)",
-      "translation_quote": "Vrug van die mistieke Roos as van daardie Roos die Stamm:\nDie Wortel, waaruit genade altyd vloei—the Baba van Betlehem!"
-    },
-    {
-      "location": "source.html — Bridges lyrics, stanza 1 (\"anthems\")",
+      "location": "<blockquote> (opening verse of Romans)",
       "severity": "minor",
-      "source_quote": "Hark! how the heavenly anthems drowns all music but its own;",
-      "suggested_fix": "Use an idiomatic Afrikaans rendering for 'anthems' and adjust grammar so the sentence reads naturally. Suggested replacement while preserving tags and line breaks:\n\"Hoor! hoe oorstem die hemelse loofwysies alle ander musiek;\" or \"Hoor! hoe oorstem die hemelse lofwysies alle musiek behalwe hulle eie;\"",
-      "translation_quote": "Hoor! hoe oorstem die hemelse anthems alle musiek behalwe sy eie;"
+      "source_quote": "“O the depth of the riches both of the wisdom and knowledge of God! how unsearchable are His judgments, and his ways past finding out! For who hath known the mind of the Lord? Or who hath been his counsellor? Or who hath first given to him, and it shall be recompensed unto him again? For of Him, and through Him, and to him, are all things: to whom be glory for ever. Amen” (Rom. 11:33–36).",
+      "suggested_fix": "Adjust small stylistic wording to be idiomatic Afrikaans. For example: replace “O die diepte van die rykdom …” with “O, die diepte van die rykdom …” (insert comma and keep only one “die”) and consider rendering “the mind of the Lord” as “die verstand van die Here” for smoother idiom.",
+      "translation_quote": "“O die diepte van die rykdom van die wysheid en kennis van God! Hoe onnaspeurlik is Sy oordele, en Sy paaie onnaspeurbaar! Want wie het die raadsbesluit van die Here geken? Of wie het Sy raadsman geword? Of wie het eers aan Hom gegee, en dit sal vir hom vergoed word? Want uit Hom, deur Hom, en tot Hom is alle dinge: aan Hom sy heerlikheid tot in alle ewigheid. Amen” (Rom. 11:33–36)."
     },
     {
-      "location": "source.html — sentence about mixing of stanzas",
+      "location": "<section class=\"lyrics\"> (Bridges lyrics, stanza 2 final line)",
+      "severity": "critical",
+      "source_quote": "The Root, whence mercy ever flows—the Babe of Bethlehem!",
+      "suggested_fix": "Translate the entire line into Afrikaans; do not leave English words embedded. For example: replace “Die Wortel, waaruit genade altyd vloei—the Kind van Betlehem!” with “Die Wortel, waaruit genade altyd vloei—die Kind van Betlehem!” or better still render fully idiomatically: “Die Wortel, waaruit genade altyd vloei — die Kind van Betlehem!” (translate the English article and noun).",
+      "translation_quote": "Die Wortel, waaruit genade altyd vloei—the Kind van Betlehem!"
+    },
+    {
+      "location": "<section class=\"lyrics\"> (Bridges lyrics, stanza 5, line 2)",
+      "severity": "critical",
+      "source_quote": "Glassed in a sea of light, where everlasting waves Reflect His throne—the Infinite! Who lives—and loves—and saves.",
+      "suggested_fix": "Translate all English words remaining in the stanza. Replace the untranslated English word “realms” or any leftover English with an Afrikaans equivalent. In the translation the problematic phrase appears as “Nou in realms van lig lewe,” so change to a full Afrikaans rendering such as “Nou lewe Hy in wêrelde van lig” or “Nou in ligryk leef Hy,” depending on meter preference. Ensure no English word remains.",
+      "translation_quote": "Nou in realms van lig lewe, waar ewige golwe\n    Sy troon weerspieël—die Oneindige! Wie leef—en lief—en red."
+    },
+    {
+      "location": "opening paragraph of article body",
       "severity": "minor",
-      "source_quote": "The 12 stanzas have been mixed and matched down through the years.",
-      "suggested_fix": "The translation uses 'gemeng en gemasjineer', which is incorrect/awkward. Replace with an idiomatic Afrikaans phrase preserving HTML, for example: \"Die 12 strofes is deur die jare deurmekaar gebruik en saamgestel.\"",
-      "translation_quote": "Die 12 strofes is deur die jare gemeng en gemasjineer."
-    },
-    {
-      "location": "source.html — Thring lyrics, stanza 3, untranslated word",
-      "severity": "major",
-      "source_quote": "Who o’er a darkened world\nIn robes of glory infinite His fiery flag unfurled.\nAnd bore it raised on high, in heaven—in earth—beneath,\nTo all the sign of victory o’er Satan, sin, and death.",
-      "suggested_fix": "Translate all words including 'beneath' and render the stanza fully into natural Afrikaans. Preserve stanza line breaks and tags. Example replacement:\n\"Wie oor ’n donker wêreld\nIn gewade van oneindige heerlikheid Sy vurige vaandel ontplooi het.\nEn dit hoog gehou het, in die hemel — op aarde — benede,\nVir almal die teken van oorwinning oor Satan, sonde en die dood.\"",
-      "translation_quote": "En dit hoog gehou het, in die hemel—in die aarde—beneath,\nVir almal die teken van oorwinning oor Satan, sonde, en die dood."
-    },
-    {
-      "location": "source.html — Thring lyrics and other places: untranslated or partially-English fragments (multiple lines)",
-      "severity": "minor",
-      "source_quote": "Who died, eternal life to bring and lives that death may die. / The Lamb once slain for them who bring their praises now, / Crown Him, ye martyred saints of old, the Lamb once slain for all;",
-      "suggested_fix": "Several lines retain awkward structure or partial English sense in the translation. Render these couplets idiomatically and completely into Afrikaans while preserving stanza structure and punctuation. Example fixes:\n- \"The Lamb once slain for all;\" => \"Die Lam, eens geslaan vir almal;\"\n- \"Who died, eternal life to bring and lives that death may die.\" => \"Wat gesterf het om ewige lewe te bring en lewe wat die dood laat sterf.\"",
-      "translation_quote": "Kroon Hom, julle gemartelde heiliges van ouds, die Lam eens geslaan vir almal;\nDie Lam eens geslaan vir hulle wat nou hul lof bring,\nAs juwele vir die diadeem wat Sy heilige voorkop omring."
-    },
-    {
-      "location": "source.html — image alt text",
-      "severity": "minor",
-      "source_quote": "alt=\"Sheet music for Crown Him with Many Crowns\"",
-      "suggested_fix": "Translate the alt text into Afrikaans while preserving the img tag and attributes. Suggested replacement: alt=\"Bladspeelmusiek vir 'Crown Him with Many Crowns'\" or alt=\"Notaboekmusiek vir 'Kroon Hom met vele krone'\" depending on preferred idiom. (Current translation used 'Notaboekmusiek'; consider 'Bladspeelmusiek' or 'Bladmusiek'.)",
-      "translation_quote": "alt=\"Notaboekmusiek vir Crown Him with Many Crowns\""
+      "source_quote": "What an exuberant and expressive exclamation written by Apostle Paul! As we look at a new hymn and hymn writer again, let’s keep our minds alert and hearts open to see the hand of God at work.",
+      "suggested_fix": "Minor stylistic edit for smoother Afrikaans: consider changing “laat ons ons gedagtes wakker en ons harte oop hou” to “laat ons ons gedagtes wakker hou en ons harte oopmaak” or “laat ons waaksaam wees en ons harte oopmaak” for idiomatic flow.",
+      "translation_quote": "Watter ’n uitbundige en uitdruklike uitroep deur apostel Paulus geskryf! Terwyl ons weer na ’n nuwe gesang en ’n gesangskrywer kyk, laat ons ons gedagtes wakker en ons harte oop hou om die hand van God aan die werk te sien."
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "5ac35d325b909a32decf74a5a1f19ad3",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "afr",
@@ -165,13 +157,13 @@
     }
   },
   "protected": false,
-  "quality_score": 71,
+  "quality_score": 78,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/abeb1f35c1949ea978d144c1eae3a8c74b9cda2edc2ef460b0d918ec0851fa83.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "01644cf9abc17411f3b235a99895bb87e8eec445a9ac28e6394d4afb94966251",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

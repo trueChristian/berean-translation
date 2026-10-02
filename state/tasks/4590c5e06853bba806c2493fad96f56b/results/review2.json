@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a6263c19-f4f9-48aa-a917-a65b6a55d0bf",
+    "response_id": "chatcmpl-EUVaVNyWEOOUI2O4CjXjwlVVKSu7r",
+    "usage": {
+      "completion_tokens": 1759,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7263,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9022
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph about garden plants (source paragraph: \"There are peace lilies, roses, hibiscus...\")",
+        "severity": "minor",
+        "source_quote": "There are peace lilies, roses, hibiscus, and other bright flowers blooming, and succulents growing in delightful little pots.",
+        "suggested_fix": "Replace the literal calque «ειρηνικά κρίνα» with the established Modern Greek name for the plant (or a neutral descriptive phrase) so it reads naturally and correctly. For example: «υπάρχουν λουλούδια ειρήνης (peace lilies) / φίδι-φυτό (Spathiphyllum)» — better: «έχονται Spathiphyllum (γνωστά ως 'ειρηνόφυλλα' ή 'peace lilies'), τριαντάφυλλα, ιβίσκοι…» or simply «αυτά που στα αγγλικά ονομάζονται “peace lilies”» if a common Greek name is uncertain. Preserve the surrounding HTML and punctuation.",
+        "translation_quote": "«Υπάρχουν ειρηνικά κρίνα, τριαντάφυλλα, ιβίσκοι και άλλα φωτεινά λουλούδια που ανθίζουν, και παχύφυτα που αναπτύσσονται σε χαριτωμένες μικρές γλάστρες.»"
+      },
+      {
+        "location": "Paragraph with example replacement sentence (original: \"Get rid of the limp, ugly curtain in the schoolroom and replace it with a fresh yellow one...\")",
+        "severity": "minor",
+        "source_quote": "Get rid of the limp, ugly curtain in the schoolroom and replace it with a fresh yellow one (yes, even if it does take a few dollars to do so, I remind my penny-pinching soul).",
+        "suggested_fix": "The English author uses this as a first-person exhortation embedded in the narrator's account; the translation uses the 2nd-person imperative («Αφαίρεσε ... και βάλε»). For closer voice fidelity, render as first-person advice/decision: e.g. «Ξεφορτώνομαι την πλαδαρή, άσχημη κουρτίνα στην αίθουσα διδασκαλίας και τη αντικαθιστώ με μια φρέσκια κίτρινη...» or «Αφαιρώ την... και βάζω μια φρέσκια κίτρινη...» Keep the parenthetical aside about the penny-pinching soul in first person too. Preserve HTML tags.",
+        "translation_quote": "«Αφαίρεσε την πλαδαρή, άσχημη κουρτίνα στην αίθουσα διδασκαλίας και βάλε μια φρέσκια κίτρινη (ναι, ακόμα κι αν κοστίζει λίγα δολάρια για να το κάνεις, υπενθυμίζω στην τσιγκούνα ψυχή μου).»"
+      },
+      {
+        "location": "Paragraph about Tim returning to the village (phrase: \"to 'heap on coals of fire' by giving the angry army officer a solar panel...\")",
+        "severity": "minor",
+        "source_quote": "he left for another trip back to the village to “heap on coals of fire” by giving the angry army officer a solar panel and a transformer on top of the other things he demanded.",
+        "suggested_fix": "The quoted figurative phrase should preserve its idiomatic force in Greek. The translation «για να «στρώσει κάρβουνα»» is understandable but narrow. Use a more clearly idiomatic Biblical rendering such as «για να “ρίξει κάρβουνα φωτιάς”» or «για να “ρίξει κάρβουνα φωτιάς στο κεφάλι του”» (if space allows), matching common Greek Biblical idiom. Keep the rest of the sentence identical and preserve HTML.",
+        "translation_quote": "«για να «στρώσει κάρβουνα» δίνοντας στον θυμωμένο αξιωματικό του στρατού ένα ηλιακό πάνελ...»"
+      },
+      {
+        "location": "Source-note / publication names at article end",
+        "severity": "minor",
+        "source_quote": "The article is reprinted by request. It was first printed in The Heartbeat of the Remnant in the Autumn 2019 issue. Previously printed in Earthen Vessels.",
+        "suggested_fix": "The translation retains the English publication names (within <span> tags) but also adds Greek renderings in parentheses. This is a stylistic change rather than an error, but if the publisher prefers to preserve original metadata exactly, remove the parenthetical translations and keep the English titles only inside the <span> elements; otherwise, if translating publication titles is desired, keep as is. Make sure the <span> tags and order remain unchanged.",
+        "translation_quote": "«<em>Το άρθρο επανεκτυπώνεται μετά από αίτηση. Πρωτοεκτυπώθηκε στο </em><span>The Heartbeat of the Remnant</span><em> (Το Χτύπημα της Καρδιάς του Υπολείμματος) στο τεύχος του Φθινοπώρου 2019. Προηγουμένως δημοσιεύτηκε στο </em><span>Earthen Vessels</span><em> (Χάλκινα Αγγεία).</em>»"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

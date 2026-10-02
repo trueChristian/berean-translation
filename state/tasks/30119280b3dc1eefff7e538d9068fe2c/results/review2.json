@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "be42d992-408f-4055-ab89-d5d9de46475f",
+    "response_id": "chatcmpl-EUVaKhmtNI7WiMCLMFutFWU9hMUQ0",
+    "usage": {
+      "completion_tokens": 860,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1540,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2400
+    }
+  },
+  "received_at": "2026-10-02T11:21:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "figure > img alt",
+        "severity": "minor",
+        "source_quote": "A lone bare tree in a snowy field",
+        "suggested_fix": "Bruk et mer idiomatisk bokmålord for 'field' — for eksempel «Et ensomt bart tre på et snødekt jorde» → «Et ensomt bart tre på et snødekt åker» eller «...i et snødekt jorde» hvis dere foretrekker «jorde». Jeg anbefaler «åker» for moderne bokmål: «Et ensomt bart tre på en snødekt åker».",
+        "translation_quote": "Et ensomt bart tre på et snødekt jorde"
+      },
+      {
+        "location": "1st and 3rd stanza, line translating 'winds' (through leafless boughs, the sharp winds blow / And though abroad the sharp winds blow)",
+        "severity": "minor",
+        "source_quote": "through leafless boughs, the sharp winds blow<br>...<br>And though abroad the sharp winds blow,",
+        "suggested_fix": "'vinder' er mindre vanlig i moderne bokmål; bruk «vindene» eller «de skarpe vindene» for idiomatisk bokmål. Suggested revisions in-context: «gjennom bladløse greiner blåser de skarpe vindene» and «Og selv om ute de skarpe vindene blåser,».",
+        "translation_quote": "gjennom bladløse greiner blåser de skarpe vinder,<br>...<br>Og selv om ute de skarpe vindene blåser,"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

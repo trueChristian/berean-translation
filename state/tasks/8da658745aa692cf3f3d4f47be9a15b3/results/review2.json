@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6863dd55-a3ec-4c12-b1b5-7989502852e5",
+    "response_id": "chatcmpl-EUVaYpptsoZEPeU5NWAAQDWQ2MyOX",
+    "usage": {
+      "completion_tokens": 1256,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13459,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 14715
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph starting with \"We discussed Satan’s Snares\" (first article-note/intro area)",
+        "severity": "major",
+        "source_quote": "After printing all five articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet.",
+        "suggested_fix": "Translate the quoted publication title into Hindi (preserve the surrounding <em> tags and punctuation). For example: replace \"</em>The Heartbeat of the Remnant<em>\" with \"</em>रिम्नैंट की हार्टबीट (The Heartbeat of the Remnant)<em>\" or an appropriate Hindi rendering inside the same <em>...</em> tags so the publication title is not left as un-translated English.",
+        "translation_quote": "...सभी पांच लेखों को </em>द हार्टबीट ऑफ़ द रेम्नैंट<em> में छापने के बाद, हम इन्हें एक पुस्तिका के रूप में प्रकाशित करेंगे।"
+      },
+      {
+        "location": "source.html paragraph beginning \"And as Adam slept that deep sleep, he was wholly yielded.\" (Genesis discussion)",
+        "severity": "major",
+        "source_quote": "As Adam slept that deep sleep, he was wholly yielded.",
+        "suggested_fix": "Render the substantive English word 'yielded' into idiomatic Hindi consistent with surrounding translation. Replace the English word with the Hindi equivalent used elsewhere in the translation (e.g., \"समर्पित\" or \"पूर्णतः समर्पित था\") while preserving the original sentence structure and HTML tags.",
+        "translation_quote": "...और आदम yielded था और गहरी नींद में था बिना अपनी कोई योजना लिये।"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

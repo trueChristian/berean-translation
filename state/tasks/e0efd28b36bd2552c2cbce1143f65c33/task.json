@@ -2,7 +2,6 @@
   "article_id": "b37f8111-4563-4b5b-ab9f-1f87bcd2b46a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,31 +61,38 @@
         },
         "total_tokens": 10863
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 978,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6594,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7572
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "title",
+      "location": "<p class=\"source-note\"> (end of article, publication credits)",
       "severity": "major",
-      "source_quote": "Joy in the Crevices",
-      "suggested_fix": "Translate the title to accurately convey 'crevices' (small cracks/crevices in life). Suggested Bengali title: “চিহ্নহীন কোণে আনন্দ” or “খাঁড়ি-খানা বা ফাটলে আনন্দ” (preferably: “খাঁড়ির কল্পে আনন্দ” or better: “ফাটল-কোণে আনন্দ”). Keep it concise and idiomatic.",
-      "translation_quote": "শরিকালার খাঁড়ায় আনন্দ"
-    },
-    {
-      "location": "figure > img @alt",
-      "severity": "minor",
-      "source_quote": "Winter greenery and a pinecone arranged by a window",
-      "suggested_fix": "Correct the alt text to reflect the image meaning. Suggested Bengali: “এক জানালার ধারে সাজানো শীতের সবুজ গাছপালা এবং একটি পাইনকন” or “এক জানালার ধারে সাজানো শীতকালীন সবুজ উদ্ভিদ এবং একটি পাইনকন।”",
-      "translation_quote": "এক জানালার ধারে স্থাপিত শীতকালীন সবুজ আলো এবং একটি পাইনকন"
-    },
-    {
-      "location": "<h2>Clearing off all horizontal surfaces</h2> and its translation",
-      "severity": "minor",
-      "source_quote": "Clearing off all horizontal surfaces",
-      "suggested_fix": "Use the correct Bengali term for 'horizontal' (সমতল or অনুভূমিক) and avoid 'অনুভূতিগত' which is incorrect. Suggested heading: “সব অনুভূমিক পৃষ্ঠ পরিষ্কার রাখা” or “ঘরের সব সমতল পৃষ্ঠ পরিষ্কার রাখা।”",
-      "translation_quote": "সমস্ত অনুভূতিগত সমতল পৃষ্ঠ পরিষ্কার রাখা"
+      "source_quote": "<em>The article is reprinted by request. It was first printed in </em><span>The Heartbeat of the Remnant</span><em> in the Autumn 2019 issue. Previously printed in </em><span>Earthen Vessels</span><em>.</em>",
+      "suggested_fix": "Translate the publication titles into Bengali (preserve the surrounding HTML structure and the <span> tags). For example: <em>এই নিবন্ধটি অনুরোধে পুনঃপ্রকাশ করা হয়েছে। এটি প্রথমবার ছাপা হয়েছিল </em><span>অবশিষ্টদের হৃদস্পন্দন</span><em> এর ২০১৯ সালের শরৎ সংস্করণে। পূর্বে ছাপা হয়েছিল </em><span>মাটির পাত্র</span><em>-এ।</em> (Replace the English titles inside the <span> elements with the Bengali equivalents, keeping the <em> and <span> tags and their order/attributes unchanged.)",
+      "translation_quote": "<em>অনুরোধে নিবিড়ভাবে পুনঃপ্রকাশ করা হয়েছে। এটি প্রথমবার ছাপা হয়েছিল </em><span>The Heartbeat of the Remnant</span><em> এর ২০১৯ শরৎ সংস্করণে। পূর্বে ছাপা হয়েছিল </em><span>Earthen Vessels</span><em>-এ।</em>"
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "e0efd28b36bd2552c2cbce1143f65c33",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ben",
@@ -130,13 +136,13 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 72,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8a0658267fa9eaeafccc26ac6637cde2343d272e4862413edce341f1010a3f2c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "810e77f1e38c86de9278d0fba622dcb0789774ee530b139604475db68ad15426",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

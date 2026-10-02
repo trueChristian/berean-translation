@@ -2,7 +2,6 @@
   "article_id": "a42c5719-aea1-47ed-abad-ed0cd2571382",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,31 +61,51 @@
         },
         "total_tokens": 7128
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 926,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4171,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5097
+      }
     }
   ],
   "findings": [
     {
-      "location": "source.html ¶ (paragraph containing “No, I think it will be quite a while till he’ll feel able to be at church again. He’s very sick, Dirk,” Father said.)",
-      "severity": "major",
-      "source_quote": "“No, I think it will be quite a while till he’ll feel able to be at church again. He’s very sick, Dirk,” Father said.",
-      "suggested_fix": "Translate the whole sentence into fluent Bengali and do not mix an English word with a Bengali suffix. Example correction (preserve HTML paragraph tags and punctuation): “না, আমি মনে করি ও আবার চার্চে আসতে অনেক দিন লাগবে। সে খুব অসুস্থ, ডির্ক,” পিতা বললেন।",
-      "translation_quote": "“না, আমি মনে করিchurchে আসতে সে অনেকদিন লাগবে। সে খুব অসুস্থ, ডির্ক,” পিতা বললেন।"
+      "location": "First paragraph",
+      "severity": "minor",
+      "source_quote": "Dirk scanned the sanctuary, trying to be discreet and yet utterly failing as he twisted and turned in his seat.",
+      "suggested_fix": "Use more natural Bengali phrasing while preserving meaning. For example: replace the translation sentence with: \"ডির্ক আসনবন্দি থাকতেই গোপনে চার্চ ঘোরাঘুরি করলেন, কিন্তু আসন ঝটকানো ও বেঁকে বসার কারণে এ কাজটিতে পুরোপুরি ব্যর্থ হলেন।\" Preserve the surrounding <p> tags.",
+      "translation_quote": "ডির্ক সভাকক্ষটি অদেখাভাবেই স্ক্যান করল, কিন্তু সে চেয়ার ঘুরাচ্ছিল এবং কাতকাটতে করছিল বলে পুরোপুরি ব্যর্থ হয়ে যাচ্ছিল।"
     },
     {
-      "location": "source.title / translation.title",
-      "severity": "major",
-      "source_quote": "The Mint Man",
-      "suggested_fix": "Translate the title into standard Bengali (use Bengali script). Preserve the title as a target-language translation rather than leaving English words in Latin script. Example: \"মিন্ট ম্যান\" or better stylistic Bengali: \"মিন্ট মানব\" or \"মিন্টের মানুষ\" (choose one consistent with the publication style). Do not alter HTML structure — replace the contents of the <title> field only.",
-      "translation_quote": "দ্য মিন্ট ম্যান"
+      "location": "Sentence about the mint brand",
+      "severity": "minor",
+      "source_quote": "Lifesavers, to be exact.",
+      "suggested_fix": "Either keep the brand name as-is but mark it as a loanword in Bengali script or translate the clarifying sense. Suggested Bengali: \"ঠিক বলতে গেলে 'লাইফসেভার' ব্র্যান্ডের মিন্ট।\" This keeps the named candy clear to readers.",
+      "translation_quote": "নিখুঁতভাবে বলতে গেলে লাইফসেভারস।"
     },
     {
-      "location": "source.section / translation.section",
-      "severity": "major",
-      "source_quote": "Children’s Corner",
-      "suggested_fix": "Translate the section name into Bengali using a conventional idiom for a children's column. Example: \"শিশুদের কর্নার\" or the more natural Bengali \"শিশুদের কোণ\". Replace the translation.section value accordingly.",
-      "translation_quote": "Children’s Corner"
+      "location": "Paragraph about parents assigning Numbers 11",
+      "severity": "minor",
+      "source_quote": "Father then asked Dirk to read through Numbers 11 and copy down the sentences that showed ungratefulness and how God felt about it.",
+      "suggested_fix": "Slightly adjust wording for clarity and natural flow while keeping exact reference. Suggested Bengali: \"পিতা তখন ডির্ককে সংখ্যা 11 অধ্যায় পড়ে সেই বাক্যগুলো লিখে নিতে বললেন যা কৃতজ্ঞতাহীনতা দেখায় এবং ঈশ্বর সেই সম্পর্কে কেমন অনুভব করতেন তা নির্দেশ করে।\" Preserve the <p> tag.",
+      "translation_quote": "পিতা তখন ডির্ককে সংখ্যা 11 অধ্যায় পড়তে এবং কপি করে নোট নিতে বললেন যাতে কৃতজ্ঞতাহীনতা এবং ঈশ্বর তা সম্পর্কে কেমন অনুভব করতেন—সেই সমস্ত বাক্যগুলো লিপিবদ্ধ করা হয়।"
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "4f08c4fe8d6ce0793cdddabcfd2d4c6d",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ben",
@@ -130,13 +149,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/75a969c45055c429de95d7ac7fb5ad9ae24609ae4e6f17660c8fb6226abf6c70.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "cb49d9b32a113d5c0bf30e44cdec3451c0a5ce43ad2cf97a5830259f43dd1f79",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

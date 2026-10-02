@@ -2,7 +2,6 @@
   "article_id": "f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,73 +61,44 @@
         },
         "total_tokens": 3564
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 860,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1540,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2400
+      }
     }
   ],
   "findings": [
     {
-      "location": "<div class=\"poem\"> stanza 1, line 1–2",
+      "location": "figure > img alt",
       "severity": "minor",
-      "source_quote": "'Tis winter now; the fallen snow\n  has left the heavens all coldly clear;",
-      "suggested_fix": "Translate idiomatically and grammatically into Bokmål. For example: \"Nå er det vinter; den falne snøen\n  har gjort himmelen kaldt og klar;\" (preserve line breaks and poem HTML).",
-      "translation_quote": "Nå er det vinter; den falne snø\n  har latt himmelen kaldt og klar bli se;"
+      "source_quote": "A lone bare tree in a snowy field",
+      "suggested_fix": "Bruk et mer idiomatisk bokmålord for 'field' — for eksempel «Et ensomt bart tre på et snødekt jorde» → «Et ensomt bart tre på et snødekt åker» eller «...i et snødekt jorde» hvis dere foretrekker «jorde». Jeg anbefaler «åker» for moderne bokmål: «Et ensomt bart tre på en snødekt åker».",
+      "translation_quote": "Et ensomt bart tre på et snødekt jorde"
     },
     {
-      "location": "<div class=\"poem\"> stanza 2, line 3",
-      "severity": "major",
-      "source_quote": "his beauty paints the crimson dawn,",
-      "suggested_fix": "Remove invented word and render the image faithfully. Suggested Bokmål: \"hans skjønnhet maler daggryets røde skjær,\" (preserve line break).",
-      "translation_quote": "hans skjønnhet maler morgengryets røde porte,"
-    },
-    {
-      "location": "<div class=\"poem\"> stanza 2, line 4",
-      "severity": "major",
-      "source_quote": "and clothes each branch with glittering wreaths.",
-      "suggested_fix": "Do not add unrelated words. Translate as a natural idiom: \"og kler hver kvist med glitrende kranser.\"",
-      "translation_quote": "og kler hver kvist med glitrende krans og lem."
-    },
-    {
-      "location": "<div class=\"poem\"> stanza 2, line 2",
+      "location": "1st and 3rd stanza, line translating 'winds' (through leafless boughs, the sharp winds blow / And though abroad the sharp winds blow)",
       "severity": "minor",
-      "source_quote": "his life within the keen air breathes;",
-      "suggested_fix": "'keen air' should be reflected as 'bitende' or 'kjølig' rather than 'klar' to keep the connotation. Suggested: \"hans liv i den bitre luft ånder.\"",
-      "translation_quote": "hans liv i den klare luft ånder frem;"
-    },
-    {
-      "location": "<div class=\"poem\"> stanza 3, line 3",
-      "severity": "minor",
-      "source_quote": "home closer draws her circle now,",
-      "suggested_fix": "Correct word order and inflection in Bokmål. Suggested: \"hjemmet trekker nå sin sirkel nærmere,\" (preserve line break).",
-      "translation_quote": "trekker hjemmet sin sirkel nærmere nås,"
-    },
-    {
-      "location": "<div class=\"poem\"> stanza 3, line 4",
-      "severity": "minor",
-      "source_quote": "and warmer glows her light within.",
-      "suggested_fix": "Avoid added adjectives and awkward phrasing. Suggested: \"og varmere gløder lyset der inne.\"",
-      "translation_quote": "og varmere gløder lyset innvendig og sart."
-    },
-    {
-      "location": "<div class=\"poem\"> stanza 4, line 2",
-      "severity": "minor",
-      "source_quote": "as well as summer's joyous rays,",
-      "suggested_fix": "Correct grammar and word order: \"like så sommerens glade stråler;\" or \"liksom sommerens glade stråler.\"",
-      "translation_quote": "likeså som sommerens glade stråler gi;"
-    },
-    {
-      "location": "<div class=\"poem\"> stanza 4, line 3",
-      "severity": "major",
-      "source_quote": "you warmly in your love enfold,",
-      "suggested_fix": "Do not translate to a verb meaning 'lock' (låser). Use an appropriate verb like \"omfavner\" or \"innhyller\": \"du innhyller oss varmt i din kjærlighet,\"",
-      "translation_quote": "du varmer oss i din kjærlighet og låser,"
-    },
-    {
-      "location": "<div class=\"poem\"> stanza 4, line 4",
-      "severity": "minor",
-      "source_quote": "and keep us through life's wintry days.",
-      "suggested_fix": "Preserve 'days' (dager). Suggested: \"og bevarer oss gjennom livets vinterdager.\"",
-      "translation_quote": "og vokter oss gjennom livets vintersti."
+      "source_quote": "through leafless boughs, the sharp winds blow<br>...<br>And though abroad the sharp winds blow,",
+      "suggested_fix": "'vinder' er mindre vanlig i moderne bokmål; bruk «vindene» eller «de skarpe vindene» for idiomatisk bokmål. Suggested revisions in-context: «gjennom bladløse greiner blåser de skarpe vindene» and «Og selv om ute de skarpe vindene blåser,».",
+      "translation_quote": "gjennom bladløse greiner blåser de skarpe vinder,<br>...<br>Og selv om ute de skarpe vindene blåser,"
     }
   ],
+  "finished_at": "2026-10-02T11:21:05+00:00",
   "id": "30119280b3dc1eefff7e538d9068fe2c",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "nob",
@@ -172,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1ed33a15abc99ca0a5621844be43f6764a1df6e4da098bed1eb0cbfbb0276cbd.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

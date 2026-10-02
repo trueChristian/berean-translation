@@ -2,7 +2,6 @@
   "article_id": "21180900-6bdd-4c06-a4ed-fd0f6b8a3571",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,59 +61,44 @@
         },
         "total_tokens": 9995
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1326,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5514,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6840
+      }
     }
   ],
   "findings": [
     {
-      "location": "translation.title",
-      "severity": "major",
-      "source_quote": "A Chronicle Like to Ours",
-      "suggested_fix": "Translate the title into natural Bengali preserving meaning (e.g., \"আমাদের মতো একটি ইতিহাসচিত্র\" or \"আমাদের মতো এক ক্রনিকল\"). Maintain capitalization/format appropriate for Bengali and do not include untranslated English words.",
-      "translation_quote": "আমাদের মতোchronicle"
-    },
-    {
-      "location": "translation.section",
-      "severity": "major",
-      "source_quote": "CHURCH HISTORY",
-      "suggested_fix": "Translate the section name to idiomatic Bengali that preserves the original meaning (e.g., \"গির্জার ইতিহাস\" or \"চার্চ ইতিহাস\"). Do not use \"চর্চা ইতিহাস,\" which changes the sense.",
-      "translation_quote": "চর্চা ইতিহাস"
-    },
-    {
-      "location": "translation.html: first paragraph",
-      "severity": "critical",
-      "source_quote": "and have both experienced many of the same temptations and pitfalls, though at different times and locations.",
-      "suggested_fix": "Render the full sentence into Bengali without inserting or leaving any untranslated or foreign-script words. Replace the mixed-language phrase with a correct Bengali translation that preserves the original meaning.",
-      "translation_quote": "... এবং সময় ও স্থানের পার্থক্য সত্ত্বেও একই ধরনের বহু প্রলোভন ও падাচ্ছেদ অভিজ্ঞতাও পেয়েছি।"
-    },
-    {
-      "location": "translation.html: paragraph containing \"for example\"",
-      "severity": "major",
-      "source_quote": "for example, property ownership was seen as a crime against the people, and so the wealthier class of Russian peasants and farmers, those who most often owned property and employed the lower class of peasants, became an instant target a revolution that claimed to want to distribute all property and resources evenly amongst its citizenry.",
-      "suggested_fix": "Translate the entire clause into Bengali. Remove the English phrase \"for example\" and render it idiomatically (e.g., \"উদাহরণস্বরূপ,\"). Ensure the sentence structure matches the source and preserves the theological and historical claims without addition or omission.",
-      "translation_quote": "নাৎসি জার্মানির বিপরীতে, যেখানে কারো জাতির কারণে গ্রেফতার বা হত্যা করা হতে পারত, রাশিয়ায় একজন ব্যক্তি শ্রেণীর কারণে গ্রেফতার হতেন—for example, সম্পত্তি-অধিকারকে মানুষবিরুদ্ধ অপরাধ হিসেবে দেখা হত, এবং এজন্য সম্পদশালী শ্রেণীর রুশ কৃষক ও চাষীরা, যারা প্রায়ই সম্পত্তি ধারণ করতেন এবং নিম্নশ্রেণীর কৃষকদের চাকরি দিতেন, তারা একেবারে বিপ্লবের লক্ষ্যবস্তু হলো—ঐ বিপ্লব দাবি করেছিল যে সমস্ত সম্পত্তি ও সম্পদ সমানভাবে নাগরিকদের মধ্যে বিতরণ করা হবে।"
-    },
-    {
-      "location": "translation.html: paragraph with English fragment",
-      "severity": "critical",
-      "source_quote": "forming bands of men who fought alongside the Germans against their old neighbors.",
-      "suggested_fix": "Translate the phrase 'forming bands of men' and the entire sentence into Bengali. Do not leave any English fragment. Preserve original meaning that Mennonite men organized to fight alongside Germans against their former neighbors.",
-      "translation_quote": "forming bands of men যারা তাদের পুরনো প্রতিবেশীদের বিরুদ্ধে জার্মানদের পাশে লড়াই করল।"
-    },
-    {
-      "location": "translation.html: paragraph referencing Turkey Red Wheat",
+      "location": "Paragraph: \"By this time, the strong agricultural society...Turkey Red Wheat.\"",
       "severity": "minor",
-      "source_quote": "Turkey Red Wheat",
-      "suggested_fix": "Either translate the common name into Bengali and optionally retain the original in parentheses (e.g., \"টার্কি রেড গম (Turkey Red Wheat)\"), or, if leaving it in English, ensure consistency and typographic separation. Current parenthetical duplication is acceptable but check orthography and spacing.",
-      "translation_quote": "টার্কি রেড গম (Turkey Red Wheat)"
+      "source_quote": "By this time, the strong agricultural society of the Mennonites had transformed Ukraine into a breadbasket, its vast fields sown with wheat developed specifically by the Mennonites: Turkey Red Wheat.",
+      "suggested_fix": "Translate the named crop into Bengali (preserving emphasis if any). Either provide a full Bengali rendering (e.g., “টার্কি রেড গম”) or give the Bengali rendering first with the original English in parentheses. Preserve the original HTML tags and surrounding sentence structure. Example insertion into the translation: “...মেনোনাইটদের দ্বারা উন্নীত টার্কি রেড গম (Turkey Red Wheat)।”",
+      "translation_quote": "এই সময়ে, মেনোনাইটদের শক্তিশালী কৃষিভিত্তিক সমাজ ইউক্রেনকে একটি অনাজখাদক হিসেবে রূপান্তরিত করেছিল; তাদের বিশাল মাঠে বোনা ছিল—বিশেষ করে মেনোনাইটদের দ্বারা উন্নীত টার্কি রেড গম (Turkey Red Wheat)।"
     },
     {
-      "location": "translation.html: final paragraphs with book title and Scripture",
+      "location": "Final paragraph mentioning Solzhenitsyn and the book title",
       "severity": "minor",
-      "source_quote": "Gulag Archipelago\n\n... “Ponder the path of thy feet, and let all thy ways be established” (Proverbs 4:26).",
-      "suggested_fix": "The book title <em>Gulag Archipelago</em> may remain as an established title, but consider providing a Bengali rendering or transliteration immediately after (e.g., \"<em>Gulag Archipelago</em> (গুলাইগ আর্কিপিলেগো)\") if site style prefers. The Scripture quotation has been translated, but ensure punctuation and quotation marks are consistent with Bengali typographic norms.",
-      "translation_quote": "<em>Gulag Archipelago</em>\n\n... “তোমার পায়ের পথ চিন্তা করো, এবং তোমার সকল পথ স্থাপন করো” (প্রবচন 4:26)।"
+      "source_quote": "The atrocities of the Soviet government against its citizens are well documented in various works, most famously in the Gulag Archipelago, a book written by a Russian officer who was accused of treason.",
+      "suggested_fix": "The book title appears in English in the source and must be rendered into Bengali in the translation (the author’s rendering may retain the original in parentheses if desired). Replace or supplement the English title so the quoted substantive reference is conveyed in Bengali. Preserve the <em> tag around the title as in the source. Example: “...বিশেষত আলোকিতভাবে রবহিত হয়েছে <em>গুলাইগ আর্কিপিলেগো</em> (Gulag Archipelago), ...”",
+      "translation_quote": "সোভিয়েত সরকারের নাগরিকদের বিরুদ্ধে করা নৃশংস অত্যাচারের দলিল বহুসংখ্যক লেখায় সুপ্রতিষ্ঠিত; সবচেয়ে বিখ্যাত হলো <em>Gulag Archipelago</em> (গুলাইগ আর্কিপিলেগো), একটি বই যা একজন রুশ কর্মকর্তা, ..."
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "a9d382c198b2013bf2b1a70a3048b036",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ben",
@@ -158,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 62,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/e6d5dd4085cebb3593cea88c0c7b399e589533f4996bbdc3712184dc25845fc4.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "eb6b57cc0ff9251672705de37bad2d751542487f4ae521b68aaf1b67b286861e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

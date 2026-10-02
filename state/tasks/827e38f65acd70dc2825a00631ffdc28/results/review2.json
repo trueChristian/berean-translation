@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9c9949d7-d97c-4f25-ae4c-5f9111f039f1",
+    "response_id": "chatcmpl-EUVaW0xjdfE8Zsk6UNOWnPBRXUkhm",
+    "usage": {
+      "completion_tokens": 1006,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5985,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6991
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning \"My husband is exhausted...\" (English) / Paragraph beginning \"زوجي مُنهك...\" (Arabic)",
+        "severity": "major",
+        "source_quote": "to “heap on coals of fire” by giving the angry army officer a solar panel and a transformer on top of the other things he demanded.",
+        "suggested_fix": "Translate the quoted English idiom into Arabic rather than leaving it in English. For example: replace the English phrase with its Arabic equivalent while preserving surrounding punctuation and HTML: …غادر هذا الصباح في رحلة أخرى إلى القرية ليُقدّم، بحسب التعبير الإنجليزي، «كَمْ عُودٍ من جَمْرٍ مُشتَعِل»، بإعطاء الضابط الغاضب لوحًا شمسيًا…  (Or better, use a natural Arabic rendering: «ليضع فوق رأس الضابط الغاضب أكوامًا من الجمر» if stylistically preferable.) Ensure the English quote is removed so no substantive quoted prose remains untranslated.",
+        "translation_quote": "…غادر هذا الصباح في رحلة أخرى إلى القرية ليُقدّم حسب التعبير الإنجليزي 'heap on coals of fire' بإعطاء الضابط الغاضب لوحًا شمسيًا ومحولًا…"
+      },
+      {
+        "location": "Paragraph beginning \"This rests my mind...\" (English) / Paragraph beginning \"هذا يريح عقلي...\" (Arabic)",
+        "severity": "minor",
+        "source_quote": "It’s cold (45 degrees or colder in the morning).",
+        "suggested_fix": "Do not add an explicit temperature scale that the English did not specify. Either leave the original wording untranslated in meaning (i.e., \"بارد—45 درجة أو أقل في الصباح\") or convert to a localized scale only if the source specified it. Suggested fix: remove “فهرنهايت” so the sentence reads: \"الجو بارد (45 درجة أو أقل في الصباح).\" If you prefer to localize to Celsius, provide both forms and keep the original number as printed (e.g., \"(حوالي 7°م أو أقل؛ 45 درجة)\"), but do not invent a unit not present in the source.",
+        "translation_quote": "الجو بارد (45 درجة فهرنهايت أو أقل في الصباح)."
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c8619a1a-51b9-47ea-aa3b-ff67777c63e3",
+    "response_id": "chatcmpl-EUVb1nL2xHgJhnQVJ6N905GhyCyjG",
+    "usage": {
+      "completion_tokens": 1014,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1599,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2613
+    }
+  },
+  "received_at": "2026-10-02T11:21:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> — stanza 1, lines 3–4",
+        "severity": "major",
+        "source_quote": "The true thy chartered freemen are\nof every age and clime:",
+        "suggested_fix": "Restore the meaning of \"chartered freemen\" (people enfranchised/declared free under the city's charter) and remove the duplicated phrase. A faithful Kiswahili rendering could be: \"Wao ni kweli raia waliopata uhuru kwa hati — wa kila umri na kabila.\" Keep this text inside the same <p> tag and preserve line breaks as in the source.",
+        "translation_quote": "Wa kweli ni raia walioteuliwa, wa kila umri na eneo:\nwa kila umri na mkoa:"
+      },
+      {
+        "location": "<div class=\"poem\"> — stanza 4, line 1",
+        "severity": "minor",
+        "source_quote": "How gleam thy watch-fires through the night",
+        "suggested_fix": "Use a Kiswahili word that conveys literal watch-fires or beacons rather than \"jivuni\" (which is incorrect here). Suggested: \"Jua za walinzi\" is wrong; better: \"Mishumaa (au madhara) ya walinzi yako inating'aa katika usiku\" or more simply: \"Mishumaa yako ya ulinzi inating'aa usiku\". Preserve the same HTML line breaks.",
+        "translation_quote": "Jivuni vako vya kuangalia vinaangaza kupitia usiku"
+      },
+      {
+        "location": "<div class=\"poem\"> — stanza 3, line 1–2",
+        "severity": "minor",
+        "source_quote": "How purely hath thy speech come down\nfrom man's primaeval youth!",
+        "suggested_fix": "\"Primaeval youth\" means the earliest youth of humankind (primitive/primeval youth). The translation \"tangu utotoni pa mwanadamu\" is awkward and slightly off. Suggested Kiswahili: \"Makala yako imepitishwa vipi kwa uzuri tangu utoto wa mwanadamu wa zama za kale!\" or more succinct: \"Vipi hotuba yako imeshuka kwa usafi toka katika utoto wa mwanadamu wa kale!\" Keep original stanza structure.",
+        "translation_quote": "Kwa uzuri gani hotuba yako imetoka\ntangu utotoni pa mwanadamu!"
+      }
+    ],
+    "passed": false,
+    "score": 85
+  }
+}

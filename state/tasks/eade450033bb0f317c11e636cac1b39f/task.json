@@ -2,7 +2,6 @@
   "article_id": "21180900-6bdd-4c06-a4ed-fd0f6b8a3571",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,38 +61,51 @@
         },
         "total_tokens": 8672
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1152,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5016,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6168
+      }
     }
   ],
   "findings": [
     {
-      "location": "title",
-      "severity": "critical",
-      "source_quote": "A Chronicle Like to Ours",
-      "suggested_fix": "Translate the article title into contemporary Norwegian Bokmål, preserving HTML structure. For example: \"En krønike lik vår\" (replace the English title with the Norwegian text in the title field).",
-      "translation_quote": "A Chronicle Like to Ours"
-    },
-    {
-      "location": "<p>…after its annexation by Russia in 1783.</p>",
-      "severity": "critical",
-      "source_quote": "The group first entered Russia upon the urgings of the Viceroy Potemkin, who came into authority over the area now known as Ukraine after its annexation by Russia in 1783.",
-      "suggested_fix": "Correct the mistranslation that reverses the actor of the annexation. The target text currently reads as if Russia was annexed. Replace the sentence in Norwegian so it correctly says that the area (now Ukraine) was annexed by Russia in 1783. For example: \"Gruppen kom først inn i Russland etter påtrykk fra visekonge Potemkin, som fikk myndighet over området som i dag kalles Ukraina etter at dette området ble annektert av Russland i 1783.\"",
-      "translation_quote": "Gruppen kom først inn i Russland etter påtrykk fra visekonge Potemkin, som fikk myndighet over området som i dag kalles Ukraina etter anneksjonen av Russland i 1783."
-    },
-    {
-      "location": "<p>…“Ponder the path of thy feet, and let all thy ways be established” (Proverbs 4:26).</p>",
+      "location": "Paragraph about 1870s pressure (third full paragraph after subtitle)",
       "severity": "minor",
-      "source_quote": "“Ponder the path of thy feet, and let all thy ways be established” (Proverbs 4:26).",
-      "suggested_fix": "Use the conventional Norwegian Bokmål name for the biblical book. The translation currently renders the citation as \"Ordspørkene 4:26\" which is a nonstandard form. Replace with the conventional form (e.g., \"Ordspråkene 4:26\"). Keep the Norwegian rendering of the verse as-is if stylistically acceptable.",
-      "translation_quote": "«Betrakt dine fots vei, og la alle dine stier bli faste» (Ordspørkene 4:26)."
+      "source_quote": "The majority, however, by now quite wealthy and affluent in comparison to their Russian peasant neighbors, chose to stay and weather the storm.",
+      "suggested_fix": "Remove duplicated word and keep one instance of the adjective. E.g.: «Majoriteten, derimot, som nå var ganske velstående sammenlignet med sine russiske bonde‑naboer, valgte å bli og ri stormen av.» Preserve existing HTML and tags.",
+      "translation_quote": "Majoriteten, derimot, som nå var ganske velstående og velstående sammenlignet med sine russiske bonde-naboer, valgte å bli og ri stormen av."
     },
     {
-      "location": "<p>…the <em>Gulag Archipelago</em> …</p>",
+      "location": "Paragraph describing WWII opportunity (sentence about 'beleaguered group')",
       "severity": "minor",
-      "source_quote": "The atrocities of the Soviet government against its citizens are well documented in various works, most famously in the <em>Gulag Archipelago</em>, a book written by a Russian officer who was accused of treason.",
-      "suggested_fix": "Standardize the rendering of the book title in Norwegian. The translation uses \"<em>Gulagarkipelet</em>\" (one word). Prefer either a hyphenated or spaced form consistent with Norwegian usage, for example \"<em>Gulag-arkipelet</em>\" or keep the original English title in italics if the publication's Norwegian title differs. Make the form consistent and idiomatic.",
-      "translation_quote": "Sovjetregjeringens grusomheter mot sine borgere er godt dokumentert i ulike verk, mest berømt i <em>Gulagarkipelet</em>, en bok skrevet av en russisk offiser som ble anklaget for landsforræderi."
+      "source_quote": "to this beleaguered group of believers, this must have seemed to be a God sent miracle to deliver them from their burdensome exile.",
+      "suggested_fix": "The Norwegian translation uses the uncommon adjective «tærete» for 'beleaguered', which may read awkwardly. Replace with a more natural word such as «herjede», «plagede» or «forfulgte». E.g.: «for denne herjede gruppen troende måtte dette ha virket som et gudsendt mirakel...»",
+      "translation_quote": "for denne tærete gruppen troende måtte dette ha virket som et gudsendt mirakel for å befri dem fra deres tyngende eksil."
+    },
+    {
+      "location": "Paragraph referencing Solzhenitsyn and USSR",
+      "severity": "minor",
+      "source_quote": "those who had opposed the USSR.",
+      "suggested_fix": "Translate the English acronym 'USSR' into conventional Norwegian 'Sovjetunionen' for clarity. E.g.: «...behandlingen og eksilet av dem som hadde motsatt seg Sovjetunionen.»",
+      "translation_quote": "behandlingen og eksilet av dem som hadde motsatt seg USSR."
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "eade450033bb0f317c11e636cac1b39f",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "nob",
@@ -137,13 +149,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/e6d5dd4085cebb3593cea88c0c7b399e589533f4996bbdc3712184dc25845fc4.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "eb6b57cc0ff9251672705de37bad2d751542487f4ae521b68aaf1b67b286861e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "5a87c21f-cce9-4033-8a43-5458311bc7f0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,38 +61,29 @@
         },
         "total_tokens": 21770
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 731,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12843,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 5888
+        },
+        "total_tokens": 13574
+      }
     }
   ],
-  "findings": [
-    {
-      "location": "Paragraph quoting 2 Timothy 2:15 (Bybellesing section)",
-      "severity": "minor",
-      "source_quote": "“Study to shew thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth.”",
-      "suggested_fix": "Vertaal die vers meer natuurlik en getrou aan die Engelse sinstruktuur en betekenis. Byvoorbeeld: “Studeer om jou aan God te bewys, ’n werker wat nie skaam hoef te wees nie, wat die woord van die waarheid reg verdeel.” Behou die blokaanhalingstruktuur en plaas dit op dieselfde plek.",
-      "translation_quote": "“Streef daarna om jou te openbaar voor God ’n bekwame arbeider, wat nie beweend hoef te wees nie, die woord van die waarheid reg verdelende.”"
-    },
-    {
-      "location": "Paragraph quoting 1 Timothy 2:1–4 (Prayer section)",
-      "severity": "major",
-      "source_quote": "“I exhort therefore, that, first of all, supplications, prayers, intercessions, and giving of thanks, be made for all men; For kings, and for all that are in authority; that we may lead a quiet and peaceable life in all godliness and honesty. For this is good and acceptable in the sight of God our Saviour; Who will have all men to be saved, and to come unto the knowledge of the truth” (1 Timothy 2:1–4).",
-      "suggested_fix": "Die woord 'supplications' is onjuist as 'smering' vertaal. Vervang die verkeerde woord sodat die sin die vier elemente korrek weergee: 'smeekinge, gebede, voorbidding en danksegging' of in die tradisionele Afrikaanse formulering 'smeekinge, gebede, voorbidding en danksegging'. Herstel die hele vars Afrikaanse vertaling van die spesifieke vers: byvoorbeeld “Ek vermaan julle dus dat eers van alles smeekinge, gebede, voorbidding en danksegging vir alle mense gemaak word;... (1 Timoteus 2:1–4).” Behou die blokaanhaling.",
-      "translation_quote": "“Ek vermaan dus, dat eerste van al smering, gebede, voorbidding en danksegging vir alle mense gemaak word; vir konings en vir almal in die gesag; sodat ons ’n rustige en rustige lewe kan hê in alle godsvrug en eerbaarheid. Want dit is goed en aangenaam in die aangesig van God onse Saligmaker; wat wil hê dat alle mense verlost sal word en tot die kennis van die waarheid sal kom.”"
-    },
-    {
-      "location": "Paragraph listing the fruit of the Spirit (Developing a Christlike character)",
-      "severity": "minor",
-      "source_quote": "“Consider the fruits of the Spirit in Galatians 5:22–23. ... Love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, and temperance.”",
-      "suggested_fix": "Die korrekte Afrikaanse hulpmiddellys behoort die tradisionele vrugte te gebruik en sonder verwarrende dubbele terme. Stel dit byvoorbeeld so: “Liefde, vreugde, vrede, lankmoedigheid, sagmoedigheid, goedheid, geloof, sagtheid (of nederigheid/meegaandheid), en selfbeheersing.” Bevestig dat 'meekness' en 'temperance' duidelik onderskei word en geen ambivalente woord soos 'ywerigheid/vertroue' gebruik word nie.",
-      "translation_quote": "“Liefde, vreugde, vrede, lankmoedigheid, sagmoedigheid, goedheid, geloof, ywerigheid/vertroue, en selfbeheersing.”"
-    },
-    {
-      "location": "Introductory article-note paragraph (first paragraph)",
-      "severity": "minor",
-      "source_quote": "<em>A Christ-centered Courtship is a series of messages on godly courtship preached by Paul Hershberger. He preached these messages several times at different locations over the last ten years. Recently, we had them transcribed and abridged for reading clarity. After printing all five articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet. This is the fourth article of five.</em>",
-      "suggested_fix": "Die vertaling het onnodige ekstrakotasies rondom die hele em-tekst. Stel die Afrikaanse sin menslik en natuurlik sonder die ekstra aanhalingskrag: byvoorbeeld: “’A Christ-centered Courtship’ is ’n reeks boodskappe oor goddelike hofmaking wat deur Paul Hershberger gepreek is. Hy het hierdie boodskappe verskeie kere oor die afgelope tien jaar op verskillende plekke gepreek. Onlangs is dit getranskribeer en ingekort vir leesduidelikheid. Nadat ons al vyf artikels in The Heartbeat of the Remnant gepubliseer het, sal ons dit in ’n brosjure uitgee. Dit is die vierde artikel van vyf.” Behou die kursief (em) merkies presies soos in die bron HTML.",
-      "translation_quote": "<em>\"A Christ-centered Courtship\" is ’n reeks boodskappe oor goddelike hofmaking wat deur Paul Hershberger preek is. Hy het hierdie boodskappe verskeie kere oor die afgelope tien jaar op verskillende plekke preek. Onlangs het ons hulle getranskribeer en ingekort vir leesduidelikheid. Nadat ons al vyf artikels in </em>The Heartbeat of the Remnant<em> geplaas het, sal ons hulle in ’n brosjure publiseer. Dit is die vierde artikel van vyf.\"</em>"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "bb548cc0950a92453043d3ca7f83b6d7",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "afr",
@@ -137,13 +127,13 @@
     }
   },
   "protected": false,
-  "quality_score": 85,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0a1dcaa5cafea68d0933d4307f622a54749ce00327ed437d6329e9b9b2a36c0b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "403dccfee978e00bf41c2daf2df29e8cfa526a0ef6c19371773e58abc48734b6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

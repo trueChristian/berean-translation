@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "57132dda-c70a-44d2-b3cd-fd0a2aa99bd1",
+    "response_id": "chatcmpl-EUVakKAzkl0V8BIsLN0bnyCTRJe45",
+    "usage": {
+      "completion_tokens": 1152,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5016,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6168
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph about 1870s pressure (third full paragraph after subtitle)",
+        "severity": "minor",
+        "source_quote": "The majority, however, by now quite wealthy and affluent in comparison to their Russian peasant neighbors, chose to stay and weather the storm.",
+        "suggested_fix": "Remove duplicated word and keep one instance of the adjective. E.g.: «Majoriteten, derimot, som nå var ganske velstående sammenlignet med sine russiske bonde‑naboer, valgte å bli og ri stormen av.» Preserve existing HTML and tags.",
+        "translation_quote": "Majoriteten, derimot, som nå var ganske velstående og velstående sammenlignet med sine russiske bonde-naboer, valgte å bli og ri stormen av."
+      },
+      {
+        "location": "Paragraph describing WWII opportunity (sentence about 'beleaguered group')",
+        "severity": "minor",
+        "source_quote": "to this beleaguered group of believers, this must have seemed to be a God sent miracle to deliver them from their burdensome exile.",
+        "suggested_fix": "The Norwegian translation uses the uncommon adjective «tærete» for 'beleaguered', which may read awkwardly. Replace with a more natural word such as «herjede», «plagede» or «forfulgte». E.g.: «for denne herjede gruppen troende måtte dette ha virket som et gudsendt mirakel...»",
+        "translation_quote": "for denne tærete gruppen troende måtte dette ha virket som et gudsendt mirakel for å befri dem fra deres tyngende eksil."
+      },
+      {
+        "location": "Paragraph referencing Solzhenitsyn and USSR",
+        "severity": "minor",
+        "source_quote": "those who had opposed the USSR.",
+        "suggested_fix": "Translate the English acronym 'USSR' into conventional Norwegian 'Sovjetunionen' for clarity. E.g.: «...behandlingen og eksilet av dem som hadde motsatt seg Sovjetunionen.»",
+        "translation_quote": "behandlingen og eksilet av dem som hadde motsatt seg USSR."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

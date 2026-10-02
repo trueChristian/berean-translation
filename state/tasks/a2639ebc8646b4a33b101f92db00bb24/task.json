@@ -2,7 +2,6 @@
   "article_id": "deabdd90-c842-4ed6-ad15-c2fa9870b099",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,31 +61,58 @@
         },
         "total_tokens": 9971
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1686,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6073,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7759
+      }
     }
   ],
   "findings": [
     {
-      "location": "Paragraph: \"Nu wil ik hier tussenbeide komen... anabaptistisch perspectief\" (third full paragraph)",
-      "severity": "major",
-      "source_quote": "Now, I want to interject here that I trust his decision was made in all good conscience toward God, even though we look on today from an Anabaptist viewpoint and question his reasons for doing so.",
-      "suggested_fix": "Restore the neutral phrasing of the source. Replace the translator's more specific group name with a direct rendering of the original phrase. For example: \"Nu wil ik hier tussenbeide komen en zeggen dat ik vertrouw dat zijn beslissing in alle gewetensvolheid tegenover God werd genomen, ook al kijken wij er vandaag vanuit een anabaptistisch perspectief naar en betwijfelen wij zijn beweegredenen.\"",
-      "translation_quote": "Nu wil ik hier tussenbeide komen en zeggen dat ik vertrouw dat zijn beslissing in alle gewetensvolheid tegenover God werd genomen, ook al kijken wij er vandaag als mennonieten vanuit een anabaptistisch perspectief naar en betwijfelen wij zijn beweegredenen."
+      "location": "Paragraph: “We will continue with our story here. Matthew Bridges converted to Roman Catholicism and, wanting to share in the rich hymnic tradition of the Protestant Church, began writing original hymns. Mr. Bridges’ hymns are marked by spirituality and genuine power. One of his hymns we love and enjoy is “Rise, Glorious Conqueror.” Undoubtedly, his greatest hymn is “Crown Him with Many Crowns.”” (source.html)",
+      "severity": "minor",
+      "source_quote": "One of his hymns we love and enjoy is “Rise, Glorious Conqueror.” Undoubtedly, his greatest hymn is “Crown Him with Many Crowns.”",
+      "suggested_fix": "Translate the quoted hymn title “Rise, Glorious Conqueror” into Dutch (or render it consistently as an untranslated proper name only if editorial policy allows). Example: “Een van zijn gezangen die we liefhebben en genieten is ‘Sta op, heerlijk Overwinnaar.’ Zonder twijfel is zijn grootste gezang ‘Crown Him with Many Crowns.’” If you prefer to translate the principal hymn title as well, render “Crown Him with Many Crowns” as “Kroon Hem met vele kronen” consistently throughout the article (including headings and alt text).",
+      "translation_quote": "Een van zijn gezangen die we liefhebben en genieten is “Rise, Glorious Conqueror.” Zonder twijfel is zijn grootste gezang “Crown Him with Many Crowns.”"
     },
     {
-      "location": "Penultimate paragraph: \"wholehearted\" left in English",
+      "location": "Image alt attribute: <img alt=\"Sheet music for Crown Him with Many Crowns\"> (source.html and translation html figure)",
       "severity": "minor",
-      "source_quote": "May our congregations continue our practice of corporate, whole-hearted singing, lifting our voices in praise to the Lord in the assembly of the saints!",
-      "suggested_fix": "Translate the English word \"whole-hearted\" into Dutch to match the rest of the sentence. For example: \"Mogen onze gemeenten doorgaan met de praktijk van gezamenlijke, wholehearted zang...\" should be changed to \"Mogen onze gemeenten doorgaan met de praktijk van gezamenlijke, van harte gedragen zang, onze stemmen verheffend in lof aan de Heere in de vergadering der heiligen!\" or \"gezamenlijke, hartgrondige zang\" depending on style preference.",
-      "translation_quote": "Mogen onze gemeenten voortgaan met onze praktijk van gezamenlijke, wholehearted zang, onze stemmen verheffend in lof aan de Heere in de vergadering der heiligen!"
+      "source_quote": "Sheet music for Crown Him with Many Crowns",
+      "suggested_fix": "Translate the alt text so quoted substantive prose is in the target language. Example: alt=\"Bladmuziek voor Kroon Hem met vele kronen\" (or alt=\"Bladmuziek voor Crown Him with Many Crowns\" only if you decide to keep the hymn title in English consistently; prefer translating the hymn title). Preserve the img tag and attributes exactly otherwise.",
+      "translation_quote": "Bladmuziek voor Crown Him with Many Crowns"
     },
     {
-      "location": "Bridges stanza 6: phrase \"yonder\" untranslated",
+      "location": "Paragraph about the tune: “A great part of this song’s enduring quality is the tune it is paired with. This refrain was written especially for this song by Sir George Job Elvey in 1868 and was given the name of Diademata.” (source.html)",
       "severity": "minor",
-      "source_quote": "Crown Him the Lord of heaven! One with the Father known, And the blest Spirit, through Him given from yonder triune throne!",
-      "suggested_fix": "Translate the remaining English word \"yonder\" into Dutch. For example: replace \"van die drievoudige troon yonder\" with \"van die drievoudige troon daarboven\" or \"van die drievige troon yónder\" (preferably the natural Dutch: \"van die drievoudige troon daarboven\").",
-      "translation_quote": "Kroon Hem, de Heer van de hemel! Eén met de Vader gekend,\n    En de gezegende Geest, door Hem gegeven van die drievoudige troon yonder!"
+      "source_quote": "A great part of this song’s enduring quality is the tune it is paired with. This refrain was written especially for this song by Sir George Job Elvey in 1868 and was given the name of Diademata.",
+      "suggested_fix": "In Dutch, render 'refrain' more accurately as 'melodie' or 'muzikale zetting' to avoid implying 'refrein/chorus' if the original means 'tune' or 'setting'. Suggested revision: \"Een groot deel van de blijvende kwaliteit van dit lied is de melodie waarmee het is gecombineerd. Deze melodie werd speciaal voor dit lied geschreven door Sir George Job Elvey in 1868 en kreeg de naam Diademata.\" Preserve HTML.",
+      "translation_quote": "Dit refrein werd speciaal voor dit lied geschreven door Sir George Job Elvey in 1868 en kreeg de naam <em>Diademata</em>."
+    },
+    {
+      "location": "Paragraph citing J. R. Watson: “Hymnology scholar J. R. Watson agrees with this when he observes…” (source.html)",
+      "severity": "minor",
+      "source_quote": "Hymnology scholar J. R. Watson agrees with this when he observes, “Diademata makes a magnificent setting for the text, march-like and joyful without ever becoming mechanical or strident.”",
+      "suggested_fix": "Correct the gendered noun 'Hymnologe' in Dutch to match the English neutral 'hymnology scholar' (J. R. Watson is male). Use 'Hymnoloog' or neutral phrasing: \"Hymnologe J. R. Watson is het hiermee eens\" → \"Hymnoloog J. R. Watson is het hiermee eens\" or \"De hymnologe/hymnoloog J. R. Watson is het hiermee eens\" depending on intended gender. Preserve the quoted observation in Dutch as already translated.",
+      "translation_quote": "Hymnologe J. R. Watson is het hiermee eens wanneer hij opmerkt: “<em>Diademata</em> vormt een magnifieke omlijsting voor de tekst, marsachtig en vreugdevol zonder ooit mechanisch of schril te worden.”"
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "a2639ebc8646b4a33b101f92db00bb24",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "nld",
@@ -130,13 +156,13 @@
     }
   },
   "protected": false,
-  "quality_score": 75,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/abeb1f35c1949ea978d144c1eae3a8c74b9cda2edc2ef460b0d918ec0851fa83.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "01644cf9abc17411f3b235a99895bb87e8eec445a9ac28e6394d4afb94966251",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

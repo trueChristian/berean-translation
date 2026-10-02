@@ -2,7 +2,6 @@
   "article_id": "21180900-6bdd-4c06-a4ed-fd0f6b8a3571",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,45 +61,59 @@
         },
         "total_tokens": 9312
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1451,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5190,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6641
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "Paragraph 2 (about nomads/Cossacks)",
-      "severity": "major",
+      "location": "Paragraph: \"By this time, the strong agricultural society... Turkey Red Wheat.\" (source.html fourth paragraph of that section)",
+      "severity": "critical",
+      "source_quote": "its vast fields sown with wheat developed specifically by the Mennonites: Turkey Red Wheat.",
+      "suggested_fix": "Translate the verb correctly to reflect sowing/planting (not theft) and translate or explain the cultivar name. For example: replace the current sentence in Kiswahili with wording that preserves the original meaning: \"mashamba yake makubwa yaliwekwa/pandwa ngano iliyotengenezwa mahsusi na Mennonite: ngano aina ya 'Turkey Red'.\" Ensure the verb used is ‘kuweka’, ‘kupanda’ or ‘kupandwa’ rather than 'kuibwa'.",
+      "translation_quote": "mashamba yake makubwa yakiwa yameibwa ngano iliyotengenezwa mahsusi na Mennonites: Ngano ya Turkey Red."
+    },
+    {
+      "location": "First paragraph of historical overview (source.html): reference to 'Viceroy Potemkin'",
+      "severity": "minor",
+      "source_quote": "the urgings of the Viceroy Potemkin",
+      "suggested_fix": "Correct the Kiswahili transliteration/spelling of 'Viceroy' to a standard form. For example: use 'Viceroy Potemkin' or Kiswahili 'Mwakilishi wa Mfalme Potemkin' or 'Vicero Potemkin' consistently. Prefer 'Viceroy Potemkin' if keeping English title, or 'Mwakilishi (Viceroy) Potemkin' for clarity.",
+      "translation_quote": "Vicero Potemkin"
+    },
+    {
+      "location": "Paragraph describing 'New Russia' (source.html)",
+      "severity": "minor",
       "source_quote": "The residents of New Russia, as it was then called, were mostly nomads and Cossacks, a seminomadic group present in the steppes of Russia.",
-      "suggested_fix": "Translate the sense accurately. Replace the Kiswahili phrase that renders \"nomads\" as \"wavamizi\" (invaders) with the correct word for nomads (e.g., “wahamaji wa kabila/waimami” or “wao walikuwa wahamaji/wanahamaji”), and render \"Cossacks, a seminomadic group present in the steppes of Russia\" as “Cossack, kundi la nusu-wahamaji lililopo tambarare za Urusi.” Preserve sentence structure and HTML tags.",
-      "translation_quote": "Wakazi wa New Russia, kama ilivyokuwa ikitajwa wakati huo, waliokuwa zaidi wavamizi wa maeneo na Cossacks, kundi la nusu-wahamaji lililokuwa katika tambarare za Urusi."
+      "suggested_fix": "Translate the name 'New Russia' into Kiswahili or mark it as an English name consistently. For example: 'Wakazi wa New Russia (kama ilivyokuwa ikitajwa wakati huo) ...' The current translation already retains 'New Russia' but ensure it is presented as a name and not left ambiguous.",
+      "translation_quote": "Wakazi wa New Russia, kama ilivyokuwa ikitajwa wakati huo, waliokuwa zaidi wahamaji na Cossacks, kundi la nusu-wahamaji"
     },
     {
-      "location": "Paragraph beginning \"And so, they embraced the invading Germans.\"",
-      "severity": "major",
-      "source_quote": "And so, they embraced the invading Germans.",
-      "suggested_fix": "Correct the mistranslation of \"invading Germans.\" The Kiswahili currently uses “Wajerumani waliotovuliwa,” which falsely means \"disrobed Germans\" or is nonsensical. Replace with a correct translation such as “wakakumbatia Wajerumani waliovamia” or “walikumbatia Waarabu?\" (use the correct ethnic name). Ensure the verb conveys \"invading\" (e.g., \"waliovamia\").",
-      "translation_quote": "Na hivyo, walikumbatia Wajerumani waliotovuliwa."
-    },
-    {
-      "location": "Penultimate paragraph (anti-Communist phrase)",
+      "location": "Paragraph on kulaks (source.html)",
       "severity": "minor",
-      "source_quote": "that was vehemently anti-Communist- to this beleaguered group of believers, this must have seemed to be a God sent miracle to deliver them from their burdensome exile.",
-      "suggested_fix": "Translate the parenthetical/English phrase into Kiswahili rather than leaving an English term in parentheses. Replace “na ambayo ilikuwa kwa msimamo mkali dhidi ya Kialamu (Anti-Communist)” with a single fluent Kiswahili rendering such as “na ambayo ilikuwa dhidi ya Ukomunisti kwa msimamo mkali” or “iliyokuwa kwa msimamo mkali dhidi ya Ukomunisti.” Keep meaning and punctuation.",
-      "translation_quote": "na ambayo ilikuwa kwa msimamo mkali dhidi ya Kialamu (Anti-Communist) — kwa kundi hili la waumini walioteseka, hili lilionekana kama muujiza..."
-    },
-    {
-      "location": "Final paragraph (scripture citation)",
-      "severity": "minor",
-      "source_quote": "“Ponder the path of thy feet, and let all thy ways be established” (Proverbs 4:26).",
-      "suggested_fix": "Translate the Bible book name into conventional Kiswahili while keeping the chapter:verse numbers unchanged. Replace the English parenthetical reference “(Proverbs 4:26)” with the Kiswahili book name and the same numbers, e.g., “(Mithali 4:26).” The quoted proverb itself is already translated; ensure the book name is localized.",
-      "translation_quote": "“Tafakari njia za miguu yako, na yawe njia zako zote zimarishwe” (Proverbs 4:26)."
-    },
-    {
-      "location": "Paragraph about collectivization (\"collectivized\")",
-      "severity": "minor",
-      "source_quote": "the agricultural communities ... were collectivized and put under government control.",
-      "suggested_fix": "Do not leave the English term in parentheses. Replace “(collectivized)” with a Kiswahili equivalent (e.g., “kulikotwa umiliki wa pamoja” or “kulikokolezwa/kuunganishwa umiliki/kuwekwa katika mifumo ya umiliki wa pamoja”) and remove the English word, producing a fluent Kiswahili sentence.",
-      "translation_quote": "Ibada za kidini mara chache ziliruhusiwa, na jamii za kilimo ... zilikusanywa kanuni za umiliki wa pamoja (collectivized) na kuwekwa chini ya udhibiti wa serikali."
+      "source_quote": "It is, therefore, no surprise that when the kulaks, the wealthy class of peasants, came under persecution from the new government, the Mennonites were seen as the enemy of the people.",
+      "suggested_fix": "Reflect plurality and the conventional Kiswahili rendering of 'kulaks'. For example: 'kulaks, tabaka la wakulima matajiri, walipokumbwa na mateso...' Current translation uses singular 'kulak' — change to plural 'kulaks' or Kiswahili plural form 'kulaki' is not correct; better to keep 'kulaks' or render 'wakulima matajiri (kulaks)'.",
+      "translation_quote": "Kwa hivyo, si ajabu kwamba wakati kulak, tabaka la wakulima matajiri, likitendewa kwa ukatili na serikali mpya, Mennonites walionekana kama adui wa watu."
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "5da43191bf6af36bab7ba44aaba3ed48",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "swa",
@@ -144,13 +157,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 60,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/e6d5dd4085cebb3593cea88c0c7b399e589533f4996bbdc3712184dc25845fc4.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "eb6b57cc0ff9251672705de37bad2d751542487f4ae521b68aaf1b67b286861e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

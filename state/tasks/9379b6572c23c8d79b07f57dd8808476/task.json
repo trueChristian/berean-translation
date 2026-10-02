@@ -2,7 +2,6 @@
   "article_id": "5a87c21f-cce9-4033-8a43-5458311bc7f0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,52 +61,51 @@
         },
         "total_tokens": 20460
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1493,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1088,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12647,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14140
+      }
     }
   ],
   "findings": [
     {
+      "location": "source.html — opening paragraph (article-note)",
+      "severity": "minor",
+      "source_quote": "After printing all five articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet.",
+      "suggested_fix": "Translate the cited publication title into Swedish or mark it clearly as a proper name. If it is an English-periodical title that should remain in the original, keep it as-is but enclose it in the same emphasis tags. Suggested Swedish translation if desired: “Efter att ha tryckt alla fem artiklar i </em>The Heartbeat of the Remnant<em> publicerar vi dem i ett häfte.” (If the magazine name is to remain in English, keep exactly as in the source.)",
+      "translation_quote": "Efter att ha tryckt alla fem artiklar i </em>The Heartbeat of the Remnant<em> publicerar vi dem i ett häfte."
+    },
+    {
       "location": "source.section / translation.section",
-      "severity": "major",
+      "severity": "minor",
       "source_quote": "INSPIRATIONS FOR YOUTH",
-      "suggested_fix": "Translate the section name into contemporary Swedish (preserve case and placement). For example: \"INSPIRATION FÖR UNGA\" or simply \"Inspiration för ungdom\" depending on house style. Replace the translation.section value with the chosen Swedish rendering.",
-      "translation_quote": "INSPIRATIONS FOR YOUTH"
+      "suggested_fix": "Use the plural or a more idiomatic Swedish header. Recommended: “INSPIRATIONER FÖR UNGA” (plural) or “INSPIRATION FÖR Unga” with consistent capitalization. Update the translation.section field accordingly.",
+      "translation_quote": "INSPIRATION FÖR UNGA"
     },
     {
       "location": "source.title / translation.title",
-      "severity": "major",
+      "severity": "minor",
       "source_quote": "A Christ-Centered Courtship Series",
-      "suggested_fix": "Translate the article title into contemporary Swedish, preserving sense and theological emphasis. For example: \"En Kristuscentrerad uppvaktning — serie\" or \"En Kristuscentrerad courtship-serie\" depending on preferred terminology. Replace the translation.title value with the chosen Swedish rendering.",
-      "translation_quote": "A Christ-Centered Courtship Series"
-    },
-    {
-      "location": "source.subtitle / translation.subtitle",
-      "severity": "major",
-      "source_quote": "The Preparation Sleep",
-      "suggested_fix": "Translate the subtitle into contemporary Swedish. For example: \"Förberedelsesömnen\" or \"Preparationssömnen\" (match article body usage). Replace the translation.subtitle value with the Swedish rendering.",
-      "translation_quote": "The Preparation Sleep"
-    },
-    {
-      "location": "source.html — h2 (opening of article) / translation.html — h2",
-      "severity": "major",
-      "source_quote": "<h2>The Preparation Sleep.</h2>",
-      "suggested_fix": "Translate this heading in the article HTML to Swedish to match the rest of the translation. For example: <h2>Preparationssömnen.</h2> or <h2>Förberedelsesömnen.</h2>. Preserve the <h2> tag and punctuation.",
-      "translation_quote": "<h2>The Preparation Sleep.</h2>"
-    },
-    {
-      "location": "source.html — article-note (publication title) / translation.html — article-note",
-      "severity": "minor",
-      "source_quote": "<em>After printing all five articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet.</em>",
-      "suggested_fix": "Translate the full sentence and render the publication title according to house style. If the publication title should remain in English as a proper name, keep it but mark it as such; otherwise provide a Swedish rendering in italics or a parenthetical translation. Example: <em>Efter att ha publicerat alla fem artiklar i <em>The Heartbeat of the Remnant</em> kommer vi att ge ut dem i ett häfte.</em> or <em>Efter att ha publicerat alla fem artiklar i <em>Remnantens hjärtslag</em> kommer vi ...</em> Preserve the existing <em> tags and punctuation.",
-      "translation_quote": "<em>A Christ-centered Courtship är en serie budskap ... Efter att ha tryckt alla fem artiklar i </em>The Heartbeat of the Remnant<em> publicerar vi dem i ett häfte.</em>"
-    },
-    {
-      "location": "source.html — first paragraph translation ('hovmand')",
-      "severity": "minor",
-      "source_quote": "\"A Christ-centered Courtship is a series of messages on godly courtship preached by Paul Hershberger.\"",
-      "suggested_fix": "Consider a more idiomatic Swedish rendering for 'courtship'. Replace 'hovmand' with a standard contemporary term such as 'uppvaktning' or the established loanword 'courtship' if the publication uses it. For example: \"En Kristuscentrerad uppvaktning är en serie budskap om gudfruktig uppvaktning...\" Preserve the surrounding HTML and tags.",
-      "translation_quote": "\"A Christ-centered Courtship är en serie budskap om gudfruktig hovmand...\""
+      "suggested_fix": "Title is translated as “En Kristuscentrerad uppvaktning — serie”. For smoother, idiomatic Swedish consider: “En kristuscentrerad uppvaktning — en serie” or simply “En kristuscentrerad uppvaktningsserie”. Adjust capitalization to match site conventions.",
+      "translation_quote": "En Kristuscentrerad uppvaktning — serie"
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "9379b6572c23c8d79b07f57dd8808476",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "swe",
@@ -151,13 +149,13 @@
     }
   },
   "protected": false,
-  "quality_score": 65,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0a1dcaa5cafea68d0933d4307f622a54749ce00327ed437d6329e9b9b2a36c0b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "403dccfee978e00bf41c2daf2df29e8cfa526a0ef6c19371773e58abc48734b6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

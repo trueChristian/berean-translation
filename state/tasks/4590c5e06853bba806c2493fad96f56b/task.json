@@ -2,7 +2,6 @@
   "article_id": "b37f8111-4563-4b5b-ab9f-1f87bcd2b46a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,45 +61,58 @@
         },
         "total_tokens": 12851
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1759,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7263,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9022
+      }
     }
   ],
   "findings": [
     {
-      "location": "Translation — paragraph beginning \"Ένας από τους στόχους μου...\" (h2 'Άδειασμα των οριζόντιων επιφανειών')",
+      "location": "Paragraph about garden plants (source paragraph: \"There are peace lilies, roses, hibiscus...\")",
       "severity": "minor",
-      "source_quote": "the rush and mess and noise of a family are beautiful too.",
-      "suggested_fix": "Μεταφράστε «the rush» με την κατάλληλη λέξη για «βιασύνη»/«σφοδρή κίνηση», όχι με λέξη που σημαίνει βιασμό. Π.χ.: «η βιασύνη, η ακαταστασία και ο θόρυβος μιας οικογένειας είναι κι αυτά όμορφα.»",
-      "translation_quote": "ο βιασμός, η ακαταστασία και ο θόρυβος μιας οικογένειας είναι κι αυτά όμορφα."
+      "source_quote": "There are peace lilies, roses, hibiscus, and other bright flowers blooming, and succulents growing in delightful little pots.",
+      "suggested_fix": "Replace the literal calque «ειρηνικά κρίνα» with the established Modern Greek name for the plant (or a neutral descriptive phrase) so it reads naturally and correctly. For example: «υπάρχουν λουλούδια ειρήνης (peace lilies) / φίδι-φυτό (Spathiphyllum)» — better: «έχονται Spathiphyllum (γνωστά ως 'ειρηνόφυλλα' ή 'peace lilies'), τριαντάφυλλα, ιβίσκοι…» or simply «αυτά που στα αγγλικά ονομάζονται “peace lilies”» if a common Greek name is uncertain. Preserve the surrounding HTML and punctuation.",
+      "translation_quote": "«Υπάρχουν ειρηνικά κρίνα, τριαντάφυλλα, ιβίσκοι και άλλα φωτεινά λουλούδια που ανθίζουν, και παχύφυτα που αναπτύσσονται σε χαριτωμένες μικρές γλάστρες.»"
     },
     {
-      "location": "Translation — paragraph about mountain view (paragraph starting «Ακόμη και το βουνό που φαίνεται...» )",
+      "location": "Paragraph with example replacement sentence (original: \"Get rid of the limp, ugly curtain in the schoolroom and replace it with a fresh yellow one...\")",
       "severity": "minor",
-      "source_quote": "patchwork of gardens and fields",
-      "suggested_fix": "Αντικαταστήστε την άκομψη ή αδόκιμη λέξη «μπακλάζ» με έγκυρη απόδοση όπως «ψηφιδωτό» ή «μωσαϊκό». Π.χ.: «το όμορφο μωσαϊκό των κήπων και των χωραφιών.»",
-      "translation_quote": "το όμορφο μπακλάζ των κήπων και των χωραφιών."
+      "source_quote": "Get rid of the limp, ugly curtain in the schoolroom and replace it with a fresh yellow one (yes, even if it does take a few dollars to do so, I remind my penny-pinching soul).",
+      "suggested_fix": "The English author uses this as a first-person exhortation embedded in the narrator's account; the translation uses the 2nd-person imperative («Αφαίρεσε ... και βάλε»). For closer voice fidelity, render as first-person advice/decision: e.g. «Ξεφορτώνομαι την πλαδαρή, άσχημη κουρτίνα στην αίθουσα διδασκαλίας και τη αντικαθιστώ με μια φρέσκια κίτρινη...» or «Αφαιρώ την... και βάζω μια φρέσκια κίτρινη...» Keep the parenthetical aside about the penny-pinching soul in first person too. Preserve HTML tags.",
+      "translation_quote": "«Αφαίρεσε την πλαδαρή, άσχημη κουρτίνα στην αίθουσα διδασκαλίας και βάλε μια φρέσκια κίτρινη (ναι, ακόμα κι αν κοστίζει λίγα δολάρια για να το κάνεις, υπενθυμίζω στην τσιγκούνα ψυχή μου).»"
     },
     {
-      "location": "Translation — title element and title text",
+      "location": "Paragraph about Tim returning to the village (phrase: \"to 'heap on coals of fire' by giving the angry army officer a solar panel...\")",
       "severity": "minor",
-      "source_quote": "Joy in the Crevices",
-      "suggested_fix": "Διορθώστε τη σύνταξη και την επιλογή λέξεων στο ελληνικό τίτλο. Καλύτερες επιλογές: «Χαρά στις ρωγμές» ή «Χαρά στις ρωγμές της ζωής». (Αποφύγετε «Χαρά στις Ραγίσματα», που είναι μη φυσική σύνταξη.)",
-      "translation_quote": "Χαρά στις Ραγίσματα"
+      "source_quote": "he left for another trip back to the village to “heap on coals of fire” by giving the angry army officer a solar panel and a transformer on top of the other things he demanded.",
+      "suggested_fix": "The quoted figurative phrase should preserve its idiomatic force in Greek. The translation «για να «στρώσει κάρβουνα»» is understandable but narrow. Use a more clearly idiomatic Biblical rendering such as «για να “ρίξει κάρβουνα φωτιάς”» or «για να “ρίξει κάρβουνα φωτιάς στο κεφάλι του”» (if space allows), matching common Greek Biblical idiom. Keep the rest of the sentence identical and preserve HTML.",
+      "translation_quote": "«για να «στρώσει κάρβουνα» δίνοντας στον θυμωμένο αξιωματικό του στρατού ένα ηλιακό πάνελ...»"
     },
     {
-      "location": "Translation — paragraph 'Άδειασμα των οριζόντιων επιφανειών' first sentence",
-      "severity": "critical",
-      "source_quote": "the rush and mess and noise of a family are beautiful too.",
-      "suggested_fix": "Η λέξη «βιασμός» στο ελληνικό κείμενο είναι εντελώς ακατάλληλη και αλλοιώνει τελείως το νόημα (σημαίνει ‘rape’). Αντικαταστήστε άμεσα με «βιασύνη» ή «βοή» ανάλογα με το ύφος. Π.χ.: «η βιασύνη, η ακαταστασία και ο θόρυβος μιας οικογένειας είναι κι αυτά όμορφα.»",
-      "translation_quote": "ο βιασμός, η ακαταστασία και ο θόρυβος μιας οικογένειας είναι κι αυτά όμορφα."
-    },
-    {
-      "location": "Translation — final source-note (publication titles)",
-      "severity": "major",
-      "source_quote": "It was first printed in The Heartbeat of the Remnant in the Autumn 2019 issue. Previously printed in Earthen Vessels.",
-      "suggested_fix": "Τα ονόματα των εκδόσεων εμφανίζονται στο πρωτότυπο ως τμήμα παραπομπής/πρότασης και πρέπει να αποδοθούν στο ελληνικό κείμενο ως μεταφρασμένα ή μεταγραμμένα τίτλοι στα ελληνικά (ή σε παράθεση με ελληνικό περιβάλλον). Μπορείτε να διατηρήσετε το αγγλικό πρωτότυπο σε εισαγωγικά αν χρειάζεται, αλλά μην αφήνετε αμετάφραστα τα τμήματα που λειτουργούν ως γραπτή παραπομπή. Π.χ.: «Πρωτοεκτυπώθηκε στο τεύχος Φθινοπώρου 2019 του The Heartbeat of the Remnant (Το Χτύπημα της Καρδιάς του Υπολείμματος). Προηγουμένως δημοσιεύτηκε στο Earthen Vessels (Χάλκινα Αγγεία).»",
-      "translation_quote": "<em>Το άρθρο επανεκτυπώνεται μετά από αίτηση. Πρωτοεκτυπώθηκε στο </em><span>The Heartbeat of the Remnant</span><em> στο τεύχος του Φθινοπώρου 2019. Προηγουμένως δημοσιεύτηκε στο </em><span>Earthen Vessels</span><em>.</em>"
+      "location": "Source-note / publication names at article end",
+      "severity": "minor",
+      "source_quote": "The article is reprinted by request. It was first printed in The Heartbeat of the Remnant in the Autumn 2019 issue. Previously printed in Earthen Vessels.",
+      "suggested_fix": "The translation retains the English publication names (within <span> tags) but also adds Greek renderings in parentheses. This is a stylistic change rather than an error, but if the publisher prefers to preserve original metadata exactly, remove the parenthetical translations and keep the English titles only inside the <span> elements; otherwise, if translating publication titles is desired, keep as is. Make sure the <span> tags and order remain unchanged.",
+      "translation_quote": "«<em>Το άρθρο επανεκτυπώνεται μετά από αίτηση. Πρωτοεκτυπώθηκε στο </em><span>The Heartbeat of the Remnant</span><em> (Το Χτύπημα της Καρδιάς του Υπολείμματος) στο τεύχος του Φθινοπώρου 2019. Προηγουμένως δημοσιεύτηκε στο </em><span>Earthen Vessels</span><em> (Χάλκινα Αγγεία).</em>»"
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "4590c5e06853bba806c2493fad96f56b",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ell",
@@ -144,13 +156,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8a0658267fa9eaeafccc26ac6637cde2343d272e4862413edce341f1010a3f2c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "810e77f1e38c86de9278d0fba622dcb0789774ee530b139604475db68ad15426",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

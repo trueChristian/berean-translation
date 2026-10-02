@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "04cb5d2c-2708-4d04-ba71-1efe782efa87",
+    "response_id": "chatcmpl-EUVaDewSmZPGdQ1MyWGPlWEPfr3Ue",
+    "usage": {
+      "completion_tokens": 897,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6154,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7051
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Daar is peace lilies, roses, hibiscus ...</p> (paragraph beginning \"Maar ek het vreugde gevind in een klein plekkie grond...\")",
+        "severity": "minor",
+        "source_quote": "There are peace lilies, roses, hibiscus, and other bright flowers blooming, and succulents growing in delightful little pots.",
+        "suggested_fix": "Use the standard Afrikaans plural for \"peace lily\". Replace \"vredelelieë\" with \"vredelelies\" (or \"vredeleliese\" if you prefer a different plural form) so it reads naturally: \"Daar is vredelelies, rose, hibiskus ...\"",
+        "translation_quote": "Daar is vredelelieë, rose, hibiskus en ander helder blomme wat blom, en vetplante wat in lieflike potte groei."
+      },
+      {
+        "location": "<p>Gooi die slappe, lelike gordyn ... (paragraph in section \"Om die huis redelik skoon en behaaglik te hou\")",
+        "severity": "minor",
+        "source_quote": "(yes, even if it does take a few dollars to do so, I remind my penny-pinching soul).",
+        "suggested_fix": "\"stuursugtige siel\" is understandable but uncommon in contemporary Afrikaans. Consider a more idiomatic rendering such as \"my gierige siel\" or \"my krenterige siel\" to better reflect \"penny‑pinching soul\": \"(ja, selfs al kos dit ’n paar dollars om te doen, herinner ek my gierige siel daaraan).\"",
+        "translation_quote": "(ja, selfs al kos dit ’n paar dollars om te doen, herinner ek my stuursugtige siel daaraan)."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "bd7faa68-98b0-4f46-8000-9450a39cf3af",
+    "response_id": "chatcmpl-EUVaCGC78Z0D9kfyUhq1WvUV0rOOu",
+    "usage": {
+      "completion_tokens": 1311,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9812,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 4864
+      },
+      "total_tokens": 11123
+    }
+  },
+  "received_at": "2026-10-02T11:21:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> opening lead paragraph (first <p class=\"lead\">)",
+        "severity": "major",
+        "source_quote": "“So, what brings you in today?” I asked Ben, a 40-year-old man who was sitting across from me.",
+        "suggested_fix": "Terjemahkan seluruh kalimat ke dalam Bahasa Indonesia dan pertahankan struktur dialog. Contoh perbaikan yang menjaga makna: “Jadi, apa yang membuatmu datang hari ini?” tanya saya kepada Ben, seorang pria berusia 40 tahun yang sedang duduk di hadapan saya.",
+        "translation_quote": "“Sudah, apa yang membawamu datang hari ini?” I asked Ben, a 40-year-old man who was sitting across from me."
+      },
+      {
+        "location": "Multiple dialogue tags and narrative clauses throughout article (e.g., many lines where speaker-attribution or narrative remains in English)",
+        "severity": "major",
+        "source_quote": "Examples: “Well,” he answered. / “So, Doctor,” he told me. / “This is a lot of testing,” I said. / “I have done my research!” He told me firmly. / “Dr. Waldron,” the voice on the other end said.",
+        "suggested_fix": "Translate all English speaker-attribution and narrative clauses into Bahasa Indonesia. Do not leave English fragments embedded in otherwise translated paragraphs. Examples of corrected renderings: “Nah,” jawabnya. / “Jadi, Dokter,” katanya kepada saya. / “Ini banyak pemeriksaan,” kata saya. / “Saya sudah melakukan penelitian saya!” katanya tegas. / “Dr. Waldron,” suara di ujung sana berkata. Ensure punctuation and quotations remain as in the source HTML.",
+        "translation_quote": "“Nah,” he answered. / “So, Doctor,” he told me. / “This is a lot of testing,” I said. / “I have done my research!” He told me firmly. / “Dr. Waldron,” the voice on the other end said."
+      },
+      {
+        "location": "Paragraph near the end mentioning prayer (section 'Hikmat Sejati')",
+        "severity": "minor",
+        "source_quote": "(James 5:16)",
+        "suggested_fix": "The parenthetical Scripture reference is okay, but the translator rendered the surrounding sentence with a misspelling of 'efektif' as 'effektif'. Correct the Indonesian spelling to 'efektif' to match standard Bahasa Indonesia orthography. Suggested fix: “...melalui doa yang efektif dan bergelora dari orang-orang benar. (Yakobus 5:16)”",
+        "translation_quote": "Saya percaya bahwa terkadang Dia bekerja melalui kedokteran, tetapi di lain waktu Dia bekerja melalui doa yang effektif dan bergelora dari orang-orang benar. (Yakobus 5:16)"
+      },
+      {
+        "location": "Title and section fields / title (metadata)",
+        "severity": "minor",
+        "source_quote": "The Googlification of Medicine / A WORD FROM THE DOCTOR",
+        "suggested_fix": "Section was translated as 'SEBUAH KATA DARI DOKTER' (acceptable) but ensure consistency of title capitalization/term. The translated title currently is 'Googlifikasi Kedokteran' — acceptable; no doctrinal change. If desired, consider 'Googlifikasi Kedokteran' or 'Googlifikasi dalam Kedokteran' for naturalness. This is stylistic; not required for acceptance.",
+        "translation_quote": "Googlifikasi Kedokteran / SEBUAH KATA DARI DOKTER"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

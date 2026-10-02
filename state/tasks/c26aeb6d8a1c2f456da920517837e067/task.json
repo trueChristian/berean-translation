@@ -2,7 +2,6 @@
   "article_id": "b5ea052a-167f-45c4-bf40-cd463c4546b6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,45 +61,37 @@
         },
         "total_tokens": 11522
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 966,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6612,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7578
+      }
     }
   ],
   "findings": [
     {
-      "location": "Paragraph beginning \"Vinter\" (source.html <h2>Vinter</h2> and first paragraph under it)",
-      "severity": "major",
-      "source_quote": "Our Lord experienced the fullness of it; probably not the fullness of the natural elements that those of us in the northern climates face, but the season of apparent fruitlessness.",
-      "suggested_fix": "Translate the clause to convey \"apparent fruitlessness\" (lack or apparent absence of fruit), not \"meaningless fruitfulness.\" For example: \"Vår Herre upplevde dess fullhet; förmodligen inte den fullhet av naturens element som vi i nordliga klimat möter, utan årstiden av till synes fruktlöshet.\"",
-      "translation_quote": "Vår Herre upplevde dess fullhet; förmodligen inte fullheten av de naturliga elementen som vi som bor i nordliga klimat möter, men årstiden av uppenbar meningslös fruktsamhet."
-    },
-    {
-      "location": "Paragraph quoting 1 Kings 1:6 (section \"Förstärkning\")",
-      "severity": "critical",
-      "source_quote": "his father had not displeased him at any time in saying, Why hast thou done so? (1 Kings 1:6)",
-      "suggested_fix": "The scripture quotation must convey the original reproach meaning (that his father never reproved/ rebuked him). \"försmäktat\" is incorrect. Use a standard Swedish Bible phrasing or an accurate rendering, e.g.: \"hans fader hade aldrig fört honom tillrätta med orden: 'Varför har du gjort så?'\" or use the Swedish Bible wording (1 Kung 1:6). Keep chapter/verse unchanged.",
-      "translation_quote": "Adonijas moraliska karaktär hade eroderat, ty ”hans far hade aldrig försmäktat honom vid något tillfälle med att säga: ’Varför har du gjort så?’” (1 Kung 1:6)."
-    },
-    {
-      "location": "Heading \"Appreciation\" translated as \"Upskattning\"",
+      "location": "Paragraph beginning \"Det har funnits många förmögna män...\" (Appreciation section)",
       "severity": "minor",
-      "source_quote": "Appreciation",
-      "suggested_fix": "Use the standard Swedish word \"Uppskattning\" for the heading.",
-      "translation_quote": "Upskattning"
-    },
-    {
-      "location": "Paragraph about harvest sheaves (third paragraph)",
-      "severity": "minor",
-      "source_quote": "The bounties of harvest provide an aura of rejoicing in their sheaves, and man’s heart is still merry with the prospects of maturing life.",
-      "suggested_fix": "Correct the translation of \"sheaves\". Replace the incorrect word \"skråd\" with \"skördar\" or \"buntar\" depending on intended nuance. For example: \"Skördens rikedomar ger en aura av glädje i sina skördar.\"",
-      "translation_quote": "Skördens rikedomar ger en aura av glädje i sina skråd, och människans hjärta är fortfarande glatt inför utsikten över mognande liv."
-    },
-    {
-      "location": "First paragraph (first page) — \"cross the equinox\"",
-      "severity": "minor",
-      "source_quote": "As we cross the equinox, “the days get longer, and winter gets stronger”, states the old proverb",
-      "suggested_fix": "Replace the literal/awkward \"gå över jämviktslinjen\" with a standard Swedish rendering for \"cross the equinox\", e.g. \"när vi passerar vårdagjämningen\" (or \"när vi passerar dagjämningen\" depending on context).",
-      "translation_quote": "När vi går över jämviktslinjen, säger det gamla ordspråket att ”dagarna blir längre, och vintern blir starkare\", och det förblir skarpt riktigt."
+      "source_quote": "This indelibly embossed a permanent mark in their character that fitted them for the success that followed in its wake.",
+      "suggested_fix": "Fix the Swedish wording to be grammatical and preserve the meaning. For example: \"Detta präglade outplånligt ett bestående märke i deras karaktär som gjorde dem lämpade för den framgång som följde i dess kölvatten.\" (Preserve the surrounding HTML and tags exactly as in the translation file.)",
+      "translation_quote": "Detta präglade outplånligt en bestående märkt i deras karaktär som gjorde dem lämpade för den framgång som följde i dess kölvatten."
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "c26aeb6d8a1c2f456da920517837e067",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "swe",
@@ -144,13 +135,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/cb70a64f61d5d6ea793a28714a8210160bd2f71712162f15c2619f188dcf0e3f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "43083ba7fbaa256f5105f34da9e51d125c38a107a8d91b3864609877708b8ea8",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

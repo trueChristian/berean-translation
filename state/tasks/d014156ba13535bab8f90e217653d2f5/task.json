@@ -2,7 +2,6 @@
   "article_id": "042fce50-3724-4100-b397-093c6d081e89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,38 +61,44 @@
         },
         "total_tokens": 5985
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 953,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3211,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4164
+      }
     }
   ],
   "findings": [
     {
-      "location": "Paragraph 1 (opening sentence and phrase describing the early group)",
-      "severity": "major",
-      "source_quote": "a small group of radical Christians quietly gathered in the home of Felix Mantz in Zürich, Switzerland.",
-      "suggested_fix": "Replace the Urdu ترجمه of “radical Christians” (متشدد مسیحیوں) with a phrase that captures the historical/theological sense of “radical” (i.e., reforming/zealous/advocating fundamental change) rather than violent extremism. Suggested Urdu wording: \"ایک چھوٹے، اصلاح پسند/بنیادی تبدیلی کے خواہاں مسیحیوں کے گروہ\". Keep the rest of the sentence as translated (فیلکس مانٹز کے گھر میں خاموشی سے اجتماع کیا).",
-      "translation_quote": "سوئٹزرلینڈ کے زیورخ میں فیلکس مانٹز کے گھر میں چند متشدد مسیحیوں کے ایک چھوٹے گروہ نے خاموشی سے اجتماع کیا۔"
-    },
-    {
-      "location": "Paragraph containing the Ecclesiastes quotation",
-      "severity": "major",
-      "source_quote": "“And further, by these, my son, be admonished: of making many books there is no end; and much study is a weariness of the flesh” (Ecclesiastes 12:12).",
-      "suggested_fix": "Translate the quoted Scripture into Urdu and use the conventional Urdu book name for Ecclesiastes (جامعات). Replace the English quotation and parenthetical reference with an Urdu translation of the verse followed by the book name and verse number in parentheses. Suggested Urdu rendering: “اور مزید، اے میرے بیٹے، ان سے نصیحت لے: بہت سی کتابیں بنانے کا کوئی انتِہا نہیں؛ اور بہت زیادہ مطالعہ روحِ جسم کو تھکا دیتا ہے۔ (جامعات 12:12)”. Ensure the quotation marks and parentheses remain in the same place as in the source HTML.",
-      "translation_quote": "“اور مزید، اے میرے بیٹے، ان سے تنبیہ ہو: بہت سی کتابیں بنانے کا کوئی انت نہیں؛ اور زیادہ مطالعہ جسم کی تھکان ہے” (Ecclesiastes 12:12)。"
-    },
-    {
-      "location": "Article metadata: source.title and source.section (displayed headings)",
-      "severity": "major",
-      "source_quote": "From the Editor",
-      "suggested_fix": "Translate the display title/section into standard Urdu so the visible metadata is in the target language. Suggested translations: title: \"مدیر کا پیغام\"; section: \"مدیر سے\" (or use the same phrase for both if the site uses one). Update the translation fields source.title and source.section to those Urdu strings. Do not change the underlying HTML structure — only replace the English text that is rendered to readers.",
-      "translation_quote": "From the Editor"
-    },
-    {
-      "location": "Paragraph 3 (description of Gutenberg press)",
+      "location": "<p>...Our document is then digitally edited and electronically sent to the printer...</p>",
       "severity": "minor",
-      "source_quote": "a moveable type printing press",
-      "suggested_fix": "The Urdu phrasing متحرک حرفی طباعت is awkward/unnatural. Use a common Urdu term for movable-type printing press, for example: \"حرکت پذیر حروف کی طباعت کا آلہ\" or \"حرکت پذیر حروف والا طباعتی پریس\". Replace only that short phrase; keep the rest of the sentence unchanged.",
-      "translation_quote": "متحرک حرفی طباعت کا آلہ ایجاد کیا۔"
+      "source_quote": "Our document is then digitally edited and electronically sent to the printer.",
+      "suggested_fix": "Fix the minor spelling/typography error in Urdu: change “الیکڑانک” to the correct standard spelling “الیکٹرانک”. Preserve existing HTML and surrounding text.",
+      "translation_quote": "ہمارا دستاویز پھر ڈیجیٹل طور پر ترمیم ہوتا ہے اور الیکڑانک طور پر پرنٹر کو بھیجا جاتا ہے۔"
+    },
+    {
+      "location": "<p>...such as The Heartbeat of the Remnant...</p>",
+      "severity": "minor",
+      "source_quote": "such as The Heartbeat of the Remnant.",
+      "suggested_fix": "Either translate the magazine title into Urdu (for example: 'The Heartbeat of the Remnant' → 'دی ہارٹ بیٹ آف دا ریمننٹ' only if there is an established Urdu title, otherwise leave as an unchanged proper name). If you choose to leave it in English, consider marking it typographically (italics) in the Urdu text to show it is a title. Do not change HTML structure—only adjust the text string.",
+      "translation_quote": "مگر آج، ایسے رسالے چھاپنا، جیسا کہ The Heartbeat of the Remnant، بہت آسان ہے۔"
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "d014156ba13535bab8f90e217653d2f5",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "urd",
@@ -137,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/901933390bbab68b30ba65d224e53d69f0af822b49f3cdb694876c259f4bd250.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "a8b13667ad0bdee6e94fb75c94d958fc5f824dbcd185202cd5cc7be6e9274a4c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

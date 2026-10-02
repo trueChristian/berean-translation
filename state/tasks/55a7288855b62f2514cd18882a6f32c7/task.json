@@ -2,7 +2,6 @@
   "article_id": "f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,31 +61,45 @@
         },
         "total_tokens": 2797
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1058,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1597,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2655
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "<div class=\"poem\"> — stanza 3, line 2",
+      "location": "<div class=\"poem\">\n  <p>'Tis winter now; the fallen snow<br>\n  has left the heavens all coldly clear;<br>\n  through leafless boughs, the sharp winds blow,<br>\n  and all the earth lies dead and drear.</p>",
       "severity": "major",
-      "source_quote": "and skies are chill, and frosts are keen,",
-      "suggested_fix": "Preserve the meaning that frosts are sharp/intense rather than implying snowfall. For example, replace the second line of stanza 3 inside the same <p> block with: \n  اور آسمان ٹھنڈے ہیں، اور سخت جمی ہوئی یخ بستگی ہے،\n(keep the surrounding HTML and line-break <br> tags unchanged).",
-      "translation_quote": "اور اگر باہر تیز ہوائیں چلیں،\n  اور آسمان ٹھنڈے اور برف جھڑتی ہو،"
+      "source_quote": "'Tis winter now; the fallen snow",
+      "suggested_fix": "داخلہ HTML اور موجودہ ترجمہ ڈھانچے کو برقرار رکھتے ہوئے، خراب/غیرقابلِ مطالعہ ٹیکسٹ 'گIRI' کو درست اردو فقرے سے بدلیں۔ مثال: 'اب سردیوں کا موسم ہے؛ گِری ہوئی برف' یا 'اب سردیوں کا موسم ہے؛ نیچی گِری برف'۔ پورا لائن اس طرح ٹھیک رہے: <p>اب سردیوں کا موسم ہے؛ گِری ہوئی برف<br>",
+      "translation_quote": "اب سردیوں کا موسم ہے؛ گIRI ہوئی برف"
     },
     {
-      "location": "<title> element (source.title)",
+      "location": "<div class=\"poem\">\n  <p>And though abroad the sharp winds blow,<br>\n  and skies are chill, and frosts are keen,<br>\n  home closer draws her circle now,<br>\n  and warmer glows her light within.</p>",
       "severity": "minor",
-      "source_quote": "Winter Song",
-      "suggested_fix": "Use an idiomatic, correctly spelled Urdu title. Replace the translation title value with: \"سردیوں کا نغمہ\" (remove the extra diacritic marks and use standard spelling).",
-      "translation_quote": "سرِِِدِیوں کا نغمہ"
-    },
-    {
-      "location": "<img alt=\"...\"> attribute",
-      "severity": "minor",
-      "source_quote": "A lone bare tree in a snowy field",
-      "suggested_fix": "Prefer the more natural Urdu adjective for 'bare' when describing a tree. Replace the alt text value with: \"برف پوش میدان میں اکیلا برہنہ درخت\" (preserve the <img> tag and its attributes).",
-      "translation_quote": "برف پوش میدان میں اکیلا ننگا درخت"
+      "source_quote": "home closer draws her circle now,",
+      "suggested_fix": "صفحہ کا HTML ڈھانچہ برقرار رکھیں اور 'گھر اب اپنا دائرہ تنگ کرتا ہے' میں صفتِ مؤنث برقرار رکھنے کے لیے فاعل کے مطابق فعل کو مؤنث میں بدلیں۔ مثال: 'گھر اب اپنا دائرہ تنگ کرتی ہے،' تاکہ مصنفہ کی شخصی توہین (her) برقرار رہے۔",
+      "translation_quote": "گھر اب اپنا دائرہ تنگ کرتا ہے،"
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "55a7288855b62f2514cd18882a6f32c7",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "urd",
@@ -130,13 +143,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 82,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1ed33a15abc99ca0a5621844be43f6764a1df6e4da098bed1eb0cbfbb0276cbd.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

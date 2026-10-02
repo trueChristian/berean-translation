@@ -2,7 +2,6 @@
   "article_id": "042fce50-3724-4100-b397-093c6d081e89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,45 +61,51 @@
         },
         "total_tokens": 5484
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1270,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3032,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4302
+      }
     }
   ],
   "findings": [
     {
-      "location": "<p>Paragraph 1 (first paragraph)</p>",
-      "severity": "major",
-      "source_quote": "Feliz Mantz, Conrad Grebel, George Blaurock, and a few others",
-      "suggested_fix": "Use a single consistent, faithful transliteration of the personal names used in the English source. Replace both occurrences so they match and are consistent: e.g. \"Феликс Манц, Конрад Гребель, Георг Блаурок\" (or another conventional Russian transliteration), and ensure the same spelling appears every time the names occur.",
-      "translation_quote": "Фелиз Манц, Конрад Гребель, Георг Блаукрак и несколько других / Феликса Манца в Цюрихе, Швейцария."
-    },
-    {
-      "location": "<p>Paragraph 2 (Gutenberg sentence)</p>",
+      "location": "Paragraph 3 (source.html) / Paragraph 3 (translation.html)",
       "severity": "minor",
-      "source_quote": "a German goldsmith named Johannes Gutenberg invented a moveable type printing press.",
-      "suggested_fix": "Correct the Russian word order and case to a natural and grammatically correct phrase. For example: \"в 1436 году немецкий золотых дел мастер Иоганн Гутенберг изобрёл печатный станок с подвижными литерами\" should be rendered as \"в 1436 году немецкий золотых дел мастер Иоганн Гутенберг изобрёл печатный станок с подвижными литерами\" → better: \"в 1436 году немецкий золотых дел мастер Иоганн Гутенберг изобрёл печатный станок с подвижными литерами\" — or more idiomatically: \"в 1436 году немецкий ювелир и мастер по золоту Иоганн Гутенберг изобрёл печатный станок с подвижными литерами.\"",
-      "translation_quote": "В 1436 году немецкий золотых дел мастер Иоганн Гутенберг изобрёл печатный станок с подвижными литерами."
+      "source_quote": "The Heartbeat of the Remnant",
+      "suggested_fix": "Either leave the journal title in English as a proper name (acceptable) or provide a standard Russian rendering in italics/citation. Suggested Russian rendering: «The Heartbeat of the Remnant» (если сохраняете оригинал) или «Пульс Сбежавшего Оставшегося» — только если редакция желает перевести коммерческое/издательское имя. No change required if the editorial policy is to keep periodical names in the original.",
+      "translation_quote": "The Heartbeat of the Remnant"
     },
     {
-      "location": "<p>Paragraph 2 (timing phrase)</p>",
+      "location": "Paragraph 8 (source.html) / Paragraph 8 (translation.html)",
       "severity": "minor",
-      "source_quote": "the Reformation did not begin with them. The real catalyst for flaming the fires of revival was kindled 88 years earlier.",
-      "suggested_fix": "Make the temporal phrasing idiomatic and grammatically correct in Russian. Replace \"событие, произошедшее на 88 лет раньше\" with \"событие, случившееся на 88 лет раньше\" or better \"событие, случившееся за 88 лет до этого.\"",
-      "translation_quote": "Настоящим катализатором, разжёгшим пламя пробуждения, стало событие, произошедшее на 88 лет раньше."
+      "source_quote": "A Glorious Church by Barry Grant and Joy in the Crevices by Sheryl Zeiset were both first printed in 2019.",
+      "suggested_fix": "Either retain the original English article titles as published (acceptable) or provide Russian translations for clarity to readers. Suggested Russian renderings: «A Glorious Church» — «Славная церковь»; «Joy in the Crevices» — «Радость в трещинах». Keep the author names as transliterations or original English per house style.",
+      "translation_quote": "A Glorious Church Барри Гранта и Joy in the Crevices Шерил Зайсет были впервые напечатаны в 2019 году."
     },
     {
-      "location": "<p>Paragraph 1 (name consistency)</p>",
-      "severity": "major",
-      "source_quote": "Felix Mantz",
-      "suggested_fix": "Resolve the inconsistent transliteration of the same English name: change both occurrences to a single correct Russian form (for example, \"Феликс Манц\").",
-      "translation_quote": "Феликса Манца / Фелиз Манц"
-    },
-    {
-      "location": "<p>Paragraph 1 (surname Blaurock)</p>",
-      "severity": "major",
-      "source_quote": "George Blaurock",
-      "suggested_fix": "Use a faithful and consistent transliteration of the surname Blaurock. Replace \"Георг Блаукрак\" with a conventional transliteration such as \"Георг Блау́рок\" (or \"Джордж Блаурок\" if following English 'George') and ensure consistency throughout the article.",
-      "translation_quote": "Георг Блаукрак попросил Конрада Гребеля крестить его в истинной христианской вере"
+      "location": "Paragraph 1 (source.html) / Paragraph 1 (translation.html)",
+      "severity": "minor",
+      "source_quote": "Felix Mantz ... Feliz Mantz",
+      "suggested_fix": "The English source contains an inconsistency/typo (both \"Felix Mantz\" and \"Feliz Mantz\" appear). The translation uses the standard Russian form \"Феликс Манц,\" which corrects the typo. If strict fidelity to every original character string (including source typos) is required, revert the single occurrence that in English reads \"Feliz\" to a transliteration matching that spelling (\"Фелиз Манц\"). Otherwise, keeping the correct name \"Феликс Манц\" is appropriate.",
+      "translation_quote": "Феликс Манц, ... Феликс Манц"
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "dde6d3e7bbeca6cd9f26613949bedbae",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "rus",
@@ -144,13 +149,13 @@
     }
   },
   "protected": false,
-  "quality_score": 68,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/901933390bbab68b30ba65d224e53d69f0af822b49f3cdb694876c259f4bd250.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "a8b13667ad0bdee6e94fb75c94d958fc5f824dbcd185202cd5cc7be6e9274a4c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

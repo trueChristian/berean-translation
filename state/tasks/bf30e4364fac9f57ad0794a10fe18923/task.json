@@ -2,7 +2,6 @@
   "article_id": "5a87c21f-cce9-4033-8a43-5458311bc7f0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,31 +61,59 @@
         },
         "total_tokens": 25796
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1808,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 15259,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 17067
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "source.title / translation.title",
+      "location": "source.title",
       "severity": "major",
       "source_quote": "A Christ-Centered Courtship Series",
-      "suggested_fix": "Translate the article title into contemporary Modern Greek and preserve meaning. For example: «Σειρά: Ένας Χριστοκεντρικός Γάμος» (or simply «Ένας Χριστοκεντρικός Γάμος»). Replace the English title text with the chosen Greek rendering in the translation.title field.",
-      "translation_quote": "A Christ-Centered Courtship Series"
+      "suggested_fix": "Translate the English series title accurately into Modern Greek while preserving the original meaning 'Courtship' (not 'Marriage'). Suggestion: «Σειρά: Μια Χριστοκεντρική Προγραμματισμένη Γνωριμία» or better, «Σειρά: Χριστοκεντρική Προγαμιαία Γνωριμία» or the simpler and clearer «Σειρά: Χριστοκεντρική Προγαμιαία Γνωριμία / Γνωριμία υπό Χριστόν». Use one consistent phrasing in the title field (not 'Γάμος'), because the source title speaks of courtship, not marriage.",
+      "translation_quote": "Ένας Χριστοκεντρικός Γάμος"
     },
     {
-      "location": "source.section / translation.section",
-      "severity": "major",
-      "source_quote": "INSPIRATIONS FOR YOUTH",
-      "suggested_fix": "Translate the section name into Modern Greek, keeping the same register. For example: «ΕΜΠΝΕΥΣΕΙΣ ΓΙΑ ΝΕΟΥΣ» or «ΕΜπΝΕΥΣΕΙΣ ΓΙΑ ΤΗΝ ΝΕΟΛΑΙΑ». Replace the English section text with the chosen Greek rendering in the translation.section field.",
-      "translation_quote": "INSPIRATIONS FOR YOUTH"
+      "location": "source.html (first paragraph/masthead)",
+      "severity": "minor",
+      "source_quote": "After printing all five articles in The Heartbeat of the Remnant, we will publish them in a booklet.",
+      "suggested_fix": "Translate the publication title or render it according to the site's style rules. If publication names are routinely left in English, justify; otherwise translate or romanize consistently. Suggested fix: replace the English title with a Greek rendering or mark it as a publication title but still translated in running text, e.g. «Αφού δημοσιεύσουμε και τα πέντε άρθρα στο περιοδικό Η Καρδιά του Υπολοίπου (The Heartbeat of the Remnant), θα τα εκδώσουμε σε φυλλάδιο.» If the style requires keeping the original, keep it but add a translated explanatory rendering in parentheses.",
+      "translation_quote": "Αφού τυπώσουμε και τα πέντε άρθρα στο </em>The Heartbeat of the Remnant<em>, θα τα εκδόσουμε και σε φυλλάδιο."
     },
     {
-      "location": "source.html — Luke 3:21–23 quotation (final paragraph)",
-      "severity": "critical",
-      "source_quote": "\"And Jesus himself began to be about thirty years of age . . . \" (Luke 3:21–23).",
-      "suggested_fix": "Correct the quoted Scripture in Greek so it faithfully conveys the original English verse and preserves the chapter/verse and age number. Use a clear Modern Greek rendering that retains the verse numerals exactly as in the source. For example: «Και ο Ιησούς, όταν άρχισε το έργο Του, ήταν περίπου τριάντα ετών...» (Λουκάς 3:21–23). Replace the incorrect Greek clause «εμελέταρχεν είκοσι περίπου ετών…» with a faithful Greek rendering that reflects 'about thirty years of age' and ensure verse reference formatting remains as in the source.",
-      "translation_quote": "«Και αυτός εμελέταρχεν είκοσι περίπου ετών…» (Λουκάς 3:21–23)."
+      "location": "source.html (scripture blockquotes: 1 Timothy & Hebrews and some others)",
+      "severity": "minor",
+      "source_quote": "Blockquoted English scripture passages appear in the source HTML (for example: “I exhort therefore, that, first of all, supplications, prayers, intercessions, and giving of thanks, be made for all men; ...” — 1 Timothy 2:1–4; and Hebrews 13:15).",
+      "suggested_fix": "Scripture quotations in the translation should be rendered into contemporary Modern Greek (per project language guidance). Some blockquotes in the translation use Koine/archaic Greek forms or untranslated/awkward phrasing that read like literal Greek NT texts rather than contemporary Modern Greek suitable for readers. Please retranslate those quoted Bible passages into clear Modern Greek that conveys the authoritative English wording used in source.html, preserving the chapter:verse references exactly. For example, render 1 Timothy 2:1–4 in natural Modern Greek prose rather than NT-critical Greek forms. Ensure uniform Modern Greek style across all scripture quotations.",
+      "translation_quote": "«Παρακαλώ, συνεπώς, πρώτον πάντων, να γίνονται ικεσίες, προσευχές, ενυπαινίσεις και ευχαριστίες υπέρ πάντων των ανθρώπων· υπέρ των βασιλέων και πάντων των εν εξουσία, ίνα ημερώς καὶ ἡσύχως ἀνασκηνώμεν ἐν πάσῃ εὐσεβείᾳ και ἐπιεικεία. Τοῦτο γὰρ ἀγαθὸν καὶ εὐπρόσδεκτον ἐνώπιον τοῦ Θεοῦ τῷ Σωτῆρι ἡμῶν, ὃς θέλει πάντας τοὺς ἀνθρώπους σωθῆναι καὶ εἰς ἐπίγνωσιν ἀληθείας ἐλθεῖν» (1 Τιμόθεο 2:1–4)."
+    },
+    {
+      "location": "source.html (title element / subtitle consistency)",
+      "severity": "minor",
+      "source_quote": "The source.subtitle: The Preparation Sleep",
+      "suggested_fix": "Translation of the subtitle is correct in meaning but check capitalization and idiomatic phrasing in the site style. Current translation «Ο ύπνος της προετοιμασίας» is acceptable; consider the alternative «Ο ύπνος της προετοιμασίας» is fine. No change required unless style prefers sentence-case or title-case consistently across site.",
+      "translation_quote": "Ο ύπνος της προετοιμασίας"
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "bf30e4364fac9f57ad0794a10fe18923",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ell",
@@ -130,13 +157,13 @@
     }
   },
   "protected": false,
-  "quality_score": 62,
+  "quality_score": 70,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0a1dcaa5cafea68d0933d4307f622a54749ce00327ed437d6329e9b9b2a36c0b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "403dccfee978e00bf41c2daf2df29e8cfa526a0ef6c19371773e58abc48734b6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

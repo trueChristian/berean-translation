@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9940e148-6e1a-406e-858c-fadbf039a7b0",
+    "response_id": "chatcmpl-EUVaD53EFVREPmXYDfyg5pme7H2UF",
+    "usage": {
+      "completion_tokens": 1313,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3236,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4549
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Second paragraph, sentence beginning \"Though these three men...\"",
+        "severity": "major",
+        "source_quote": "The real catalyst for flaming the fires of revival was kindled 88 years earlier.",
+        "suggested_fix": "Replace the incorrect Hindi word \"शंकु\" with a correct translation for \"catalyst\" such as \"उद्दीपक कारण\", \"प्रेरक\" or \"उत्तेजक तत्व\". For example: \"पुनरुद्धार की आग को वास्तव में भड़काने वाला प्रेरक 88 साल पहले जला था।\" Preserve surrounding sentence structure and punctuation.",
+        "translation_quote": "पुनरुद्धार की अग्नि को वास्तव में भड़काने वाला शंकु 88 साल पहले जला था।"
+      },
+      {
+        "location": "Fifth paragraph, quoted Scripture and parenthetical reference",
+        "severity": "major",
+        "source_quote": "“And further, by these, my son, be admonished: of making many books there is no end; and much study is a weariness of the flesh” (Ecclesiastes 12:12).",
+        "suggested_fix": "Localize the book name to the conventional Hindi Bible name and keep chapter and verse numbers unchanged. Change the parenthetical \"(Ecclesiastes 12:12)\" to \"(सभोपदेशक 12:12)\" or the regionally appropriate Hindi form. Ensure the quoted verse remains translated into Hindi as it already is, but update only the book name in the reference. Example fix: “...अनेक पुस्तकें बनाने का अंत नहीं है; और अधिक अध्ययन देह को श्रम का कारण है” (सभोपदेशक 12:12)।",
+        "translation_quote": "“और आगे, मेरे पुत्र, इनसे भी सहमनित हो: अनेक पुस्तकें बनाने का अंत नहीं है; और अधिक अध्ययन देह को श्रम का कारण है” (Ecclesiastes 12:12)。"
+      }
+    ],
+    "passed": false,
+    "score": 85
+  }
+}

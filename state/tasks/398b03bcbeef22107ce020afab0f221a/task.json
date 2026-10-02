@@ -2,7 +2,6 @@
   "article_id": "f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,31 +61,29 @@
         },
         "total_tokens": 2739
       }
-    }
-  ],
-  "findings": [
-    {
-      "location": "Fourth stanza, line 4 (final line of poem) — <div class=\"poem\"> stanza 4",
-      "severity": "major",
-      "source_quote": "and keep us through life's wintry days.",
-      "suggested_fix": "Terjemahkan frasa ini agar setia pada arti bahasa Inggris: \"menjaga kami selama hari-hari musim dingin dalam hidup ini.\" Misalnya: \"dan menjaga kami selama hari-hari musim dingin dalam hidup ini.\"",
-      "translation_quote": "dan menjaga kami selama hari-hari musim dinginku hidup ini."
     },
     {
-      "location": "<figure> <img> alt attribute",
-      "severity": "minor",
-      "source_quote": "A lone bare tree in a snowy field",
-      "suggested_fix": "Gunakan susunan kata yang lebih alami dalam Bahasa Indonesia. Misalnya: \"Sebuah pohon telanjang sendirian di ladang bersalju\" atau lebih ringkas \"Sebuah pohon telanjang sendirian di ladang bersalju.\" Gantilah atribut alt sesuai contoh tanpa mengubah tag atau atribut lainnya.",
-      "translation_quote": "Sebuah pohon telanjang di ladang bersalju sendirian"
-    },
-    {
-      "location": "Third stanza, line 1 — <div class=\"poem\"> stanza 3",
-      "severity": "minor",
-      "source_quote": "And though abroad the sharp winds blow,",
-      "suggested_fix": "Pertimbangkan menyusun ulang untuk kelancaran idiomatik Bahasa Indonesia: misalnya \"Dan meskipun di luar angin tajam berhembus,\" bisa diganti dengan \"Dan meskipun di luar angin tajam terus berhembus,\" namun terjemahan saat ini dapat diterima. Tidak perlu mengubah struktur HTML.",
-      "translation_quote": "Dan meskipun di luar angin tajam berhembus,"
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 282,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 256,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1543,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 1825
+      }
     }
   ],
+  "findings": [],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "398b03bcbeef22107ce020afab0f221a",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ind",
@@ -130,13 +127,13 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1ed33a15abc99ca0a5621844be43f6764a1df6e4da098bed1eb0cbfbb0276cbd.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

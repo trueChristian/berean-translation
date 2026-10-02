@@ -2,7 +2,6 @@
   "article_id": "fbb7faf4-04de-4858-b608-09cb6aedaacf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,24 +61,58 @@
         },
         "total_tokens": 18201
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1395,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10866,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12261
+      }
     }
   ],
   "findings": [
     {
-      "location": "<article> — lead through paragraph before <h2>Get Wisdom!</h2> (opening story and discussion about internet/AI)",
-      "severity": "critical",
-      "source_quote": "“S o, what brings you in today?” I asked Ben, a 40-year-old man who was sitting across from me. “Well,” he answered. “I have a few different symptoms. The biggest one is that I am always tired, but I’ve also been gaining weight, and my knees hurt some in the mornings.” I mentally began to go through what doctors call a differential diagnosis – things that can cause the cluster of symptoms that a patient has. ... In some ways letting patients have access to this level of information is a good thing. Doctors aren’t some sort of high priests who are given special rights to access the Holiest of Holies of medical information. More than that, doctors are anything but perfect, and you have only to read online reviews to see that they don’t listen well, botch procedures, and struggle with difficult diagnoses. It can be challenging, though, when patients believe that they know more than their doctor. I have always said that if you know more than your doctor, either you need a healthy dose of humility or a new doctor— or maybe both.",
-      "suggested_fix": "Translate the entire opening section (lead paragraph and all subsequent paragraphs up to the \"Get Wisdom!\" heading) into standard contemporary Urdu in Perso‑Arabic script, preserving the existing HTML structure, tags, and attributes exactly as in the source. Ensure the patient dialogue, clinical terms (e.g., \"differential diagnosis\"), and reference to ChatGPT/USMLE remain faithful in meaning and that any quoted text is rendered into Urdu. Do not alter tag order or attributes; only replace the English text nodes with their Urdu equivalents.",
-      "translation_quote": "“S o, what brings you in today?” I asked Ben, a 40-year-old man who was sitting across from me. “Well,” he answered. “I have a few different symptoms. The biggest one is that I am always tired, but I’ve also been gaining weight, and my knees hurt some in the mornings.” I mentally began to go through what doctors call a differential diagnosis – things that can cause the cluster of symptoms that a patient has. I usually let the patient explain what symptoms he is experiencing and then ask questions to try to hone in on the specific diagnosis. Ben went on for a little while longer. Then, he proceeded to pull out a piece of paper. “So, Doctor,” he told me. “I’ve done some research into my diagnosis, and I think these are tests that I need to have done to work things up.” I looked at the list. It was pretty long and included some things I probably would have ordered anyway, like a blood count and thyroid level, but also some very odd things like a Vitamin B1 level and a DHEA level. He also wanted a CT Scan of his head, chest, and abdomen. “This is a lot of testing,” I said. “I’m not sure we need to do all of it. Can we talk a little bit more about your symptoms and then try to hone in on what testing would be best to sort it out?” Ben was not impressed. “I have done my research!” He told me firmly. “These days, with the internet, you can find out things that your doctor won’t tell you about – maybe things he doesn’t even know to test for. The problem is that I need YOU to order these things for me so my insurance will cover them. Otherwise, I wouldn’t even be here.” With that, we’ll leave Ben and his uncomfortable doctor behind. There have always been patients who brought in articles from magazines telling the reader, “Six things your doctor won’t tell you about your health” and listing testing that should be done. It does seem to have gotten worse. A lot of patients know more than their doctors. They can search for their symptoms on the web and find out all sorts of things that could cause those symptoms. Beyond that, artificial intelligence is smart. Chat GPT, an artificial intelligence platform, was able to pass the three parts of the US Medical Licensure Exam. It didn’t do terribly well— it only got just above a passing grade, but I suppose that’s good enough that it could open an office across the street from mine and start seeing patients. In some ways letting patients have access to this level of information is a good thing. Doctors aren’t some sort of high priests who are given special rights to access the Holiest of Holies of medical information. More than that, doctors are anything but perfect, and you have only to read online reviews to see that they don’t listen well, botch procedures, and struggle with difficult diagnoses. It can be challenging, though, when patients believe that they know more than their doctor. I have always said that if you know more than your doctor, either you need a healthy dose of humility or a new doctor— or maybe both."
+      "location": "Paragraph: \"...جب میں نے انہیں ایک نظر دیکھا اور جو دیکھا وہ پسند نہیں آیا۔ ایک تو وہ انتہائی فیک تھیں۔\" (near \"ڈاکٹر خطرناک صورتحال کی نشاندہی کر سکتے ہیں\")",
+      "severity": "minor",
+      "source_quote": "\"For one thing, she was extremely pale.\"",
+      "suggested_fix": "Use the conventional Urdu adjective for 'pale' and correct grammar. For example: \"ایک تو وہ انتہائی فاقِر یا پریشان معلوم ہو رہی تھیں\" is awkward; better: \"ایک تو وہ انتہائی پیلی پڑی ہوئی تھیں۔\"",
+      "translation_quote": "\"ایک تو وہ انتہائی فیک تھیں۔\""
     },
     {
-      "location": "<section class=\"references\"> — citation lines",
+      "location": "Paragraph: \"وہ اپنی بیسز میں تھیں اور کہہ رہی تھیں...\" (under 'ڈاکٹر خطرناک صورتحال کی نشاندہی کر سکتے ہیں')",
       "severity": "minor",
-      "source_quote": "<ol>\n      <li><cite>Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models - PMC (nih.gov)</cite></li>\n      <li><cite>Evaluating Internet Research Sources</cite></li>\n      <li><cite>Sale of Health-Related Products | AMA-Code (ama-assn.org)</cite></li>\n      <li><cite>65% of Americans believe they are above average in intelligence: Results of two nationally representative surveys - PMC (nih.gov)</cite></li>\n    </ol>",
-      "suggested_fix": "Translate the visible citation text (the titles of the referenced works) into Urdu while preserving the <ol>, <li>, and <cite> tags and their order. If a cited work has a conventional Urdu title or a standard translated form, use it; otherwise provide an accurate Urdu rendering of the English title. Do not change link structure or remove identifiers like (nih.gov) or (ama-assn.org).",
-      "translation_quote": "<ol>\n      <li><cite>Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models - PMC (nih.gov)</cite></li>\n      <li><cite>Evaluating Internet Research Sources</cite></li>\n      <li><cite>Sale of Health-Related Products | AMA-Code (ama-assn.org)</cite></li>\n      <li><cite>65% of Americans believe they are above average in intelligence: Results of two nationally representative surveys - PMC (nih.gov)</cite></li>\n    </ol>"
+      "source_quote": "\"She was in her 20s and said that she had a pounding sensation in her head and a lot of pressure.\"",
+      "suggested_fix": "Replace the anglicized phrasing with a standard Urdu expression for age. For example: \"وہ اپنی بیس کی دہائی میں تھیں اور کہنے لگیں کہ...\"",
+      "translation_quote": "\"وہ اپنی بیسز میں تھیں اور کہہ رہی تھیں کہ ان کے سر میں دھڑکن جیسی حس ہے اور بہت دباؤ محسوس ہو رہا ہے۔\""
+    },
+    {
+      "location": "Paragraph: \"حکمت ہمیں “علم” کے ماخذوں کی درستگی پر بھی فیصلہ کرنے دیتی ہے۔\" (section 'Get Wisdom!')",
+      "severity": "minor",
+      "source_quote": "\"Wisdom lets us judge the accuracy of the sources of “knowledge” as well.\"",
+      "suggested_fix": "Typo correction: replace 'درستگی' spelling if needed or leave but consider replacing 'درستگی' with more idiomatic 'درست ہونے' or 'درستگی کا تعین'. Suggested wording: \"حکمت ہمیں علم کے ماخذوں کی درست ہونے کا تعین کرنے دیتی ہے۔\"",
+      "translation_quote": "\"حکمت ہمیں “علم” کے ماخذوں کی درستگی پر بھی فیصلہ کرنے دیتی ہے۔\""
+    },
+    {
+      "location": "Paragraph listing CARS acronym (under 'Get Wisdom!')",
+      "severity": "minor",
+      "source_quote": "\"Credibility, past Accuracy, Reasonableness, and Supporting information\"",
+      "suggested_fix": "The translator preserved the English keywords and supplied Urdu equivalents in parentheses. That's acceptable, but for smoother Urdu flow you may invert order (Urdu term first, then the English in parentheses) or fully present the terms in Urdu while keeping the CARS label. No mandatory change required; suggestion only: e.g., \"قابلیتِ اعتبار (Credibility)، ماضی کی درستگی (Past Accuracy)...\"",
+      "translation_quote": "\"Credibility, past Accuracy, Reasonableness, and Supporting information (حمایتی معلومات)\""
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "d1dfb8ba3ec3172fa3f55d2f144ce84d",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "urd",
@@ -123,13 +156,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6a174f90d4349eed5395b954b6464250e64e874608b754c80cbaf37735556faf.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "e438e2a5dbbb36ddf11340e0d96ac331f86b42c4c964f5787972c99d3487ba67",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

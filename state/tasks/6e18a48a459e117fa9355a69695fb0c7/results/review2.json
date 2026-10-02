@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "225fe9e7-cc5e-42d3-b0be-aab2bb8b563f",
+    "response_id": "chatcmpl-EUVam0VGd31cCySALrWLmTY22NAH2",
+    "usage": {
+      "completion_tokens": 1071,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1552,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2623
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> (stanza 1, line 3)",
+        "severity": "minor",
+        "source_quote": "the true thy chartered freemen are",
+        "suggested_fix": "Consider a more idiomatic and clear rendering of \"chartered freemen\" in Portuguese while preserving the meaning (people granted rights or franchise). For example: \"os teus verdadeiros homens livres por carta\" or \"os teus verdadeiros homens livres com carta\". Keep the word order and HTML structure as in the translation.",
+        "translation_quote": "Teus verdadeiros cidadãos por carta"
+      },
+      {
+        "location": "<figure> <img alt>",
+        "severity": "minor",
+        "source_quote": "A snowy path beside bare winter trees",
+        "suggested_fix": "\"árvores de inverno sem folhas\" is understandable but somewhat awkward. A more natural, internationally intelligible option: \"um caminho nevado ao lado de árvores de inverno despidas\" or \"um caminho nevado junto a árvores invernais desfolhadas\". Preserve the alt attribute and its placement.",
+        "translation_quote": "Um caminho nevado ao lado de árvores de inverno sem folhas"
+      },
+      {
+        "location": "<div class=\"poem\"> (stanza 4, line 1)",
+        "severity": "minor",
+        "source_quote": "How gleam thy watch-fires through the night",
+        "suggested_fix": "\"watch-fires\" could be translated as \"fogueiras de vigia\" to reflect the original image of watch-fires rather than modern \"faróis\". Suggested phrasing: \"Como brilham tuas fogueiras de vigia pela noite\". Preserve HTML tags and line breaks.",
+        "translation_quote": "Como brilham teus faróis vigilantes pela noite"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

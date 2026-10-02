@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "49d97cad-7a7e-4ec2-98b8-1526a3c240de",
+    "response_id": "chatcmpl-EUVaLAbRW8BpcL8gqzJuGOkbS5d5V",
+    "usage": {
+      "completion_tokens": 1286,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6049,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7335
+    }
+  },
+  "received_at": "2026-10-02T11:21:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"source-note\">…</p> (end of article, source-note HTML)",
+        "severity": "major",
+        "source_quote": "<em>The article is reprinted by request. It was first printed in </em><span>The Heartbeat of the Remnant</span><em> in the Autumn 2019 issue. Previously printed in </em><span>Earthen Vessels</span><em>.</em>",
+        "suggested_fix": "Translate the English publication titles into Norwegian and remove the parenthesized English. Preserve the existing HTML structure and tags. For example: <p class=\"source-note\"><em>Artikkelen gjengis etter forespørsel. Den ble først trykt i </em><span>Hjerteslaget til de troende</span><em> i høstutgaven 2019. Tidligere trykt i </em><span>Jordiske beholdere</span><em>.</em></p> Ensure the span tags remain surrounding the publication names and nothing else remains in English.",
+        "translation_quote": "<p class=\"source-note\"><em>Artikkelen gjengis etter forespørsel. Den ble først trykt i </em><span>Hjerteslaget til de Troende (The Heartbeat of the Remnant)</span><em> i høstutgaven 2019. Tidligere trykt i </em><span>Jordiske Beholdere (Earthen Vessels)</span><em>.</em></p>"
+      },
+      {
+        "location": "Paragraph describing morning temperature (paragraph under \"Å bruke tid på å verdsette naturens skjønnhet\")",
+        "severity": "minor",
+        "source_quote": "It’s cold (45 degrees or colder in the morning).",
+        "suggested_fix": "Keep the original nuance '45 degrees or colder' when converting to Celsius. Suggested Norwegian wording preserving the 'or colder' qualifier: «Det er kaldt (omtrent 7 °C eller kaldere om morgenen).» Replace only the parenthetical temperature text; keep surrounding sentence as translated.",
+        "translation_quote": "Det er kaldt (rundt 7 °C om morgenen)."
+      },
+      {
+        "location": "Paragraph about Tim returning to the village (paragraph beginning \"Mannen min er utslitt…\" )",
+        "severity": "minor",
+        "source_quote": "...to “heap on coals of fire” by giving the angry army officer a solar panel and a transformer...",
+        "suggested_fix": "Render the idiom in Norwegian so the intended Christian/Scriptural allusion or idiomatic meaning ('to repay evil with kindness' / 'heap coals of fire') is clear. A suggested phrasing that keeps the idiom meaning: «...for å \"legge glødende kull på hodet\" ved å gi den sinte offiseren et solcellepanel og en transformator...» or more idiomatically: «...for å svare på fiendtlighet med godhet ved å gi den sinte offiseren et solcellepanel og en transformator...». Replace only the translated phrase for the idiom, preserving the surrounding sentence and HTML.",
+        "translation_quote": "...dro han i morges tilbake til landsbyen for å \"bære kull på hodet\" ved å gi den sinte offiseren et solcellepanel og en transformator i tillegg til de andre kravene han stilte."
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

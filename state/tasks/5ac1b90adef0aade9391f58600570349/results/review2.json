@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6bc8da29-a141-42b5-8a1e-164668eb008e",
+    "response_id": "chatcmpl-EUVaINhlXTHXPxQvMpVX8kB6UEClR",
+    "usage": {
+      "completion_tokens": 893,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12691,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13584
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html first paragraph (publication name)",
+        "severity": "major",
+        "source_quote": "After printing all five articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet.",
+        "suggested_fix": "Translate the publication title into Russian or provide a translated rendering in the same sentence, preserving the HTML structure. For example: «После печати всех пяти статей в </em>Сердцебиение Оставшихся<em> мы выпустим их в брошюре.» (keep the existing <em> tags and punctuation exactly where they appear).",
+        "translation_quote": "After printing all five articles in </em>The Heartbeat of the Remnant<em> we will publish them in a booklet. (left in English inside the translated paragraph)"
+      }
+    ],
+    "passed": false,
+    "score": 85
+  }
+}

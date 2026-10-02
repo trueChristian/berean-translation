@@ -2,7 +2,6 @@
   "article_id": "8f996405-d870-4074-947b-35190faad643",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,31 +61,29 @@
         },
         "total_tokens": 2878
       }
-    }
-  ],
-  "findings": [
-    {
-      "location": "<div class=\"poem\">, stanza 1, line 3",
-      "severity": "major",
-      "source_quote": "The true thy chartered freemen are\n  of every age and clime:",
-      "suggested_fix": "Translate the sense of \"chartered freemen\" as people who are enfranchised or formally recognized members, not as something traded. Replace \"verhandigde vryburgers\" with a phrase like \"gecharterde vryburgers\" or \"gepokte vryburgers\" (better: \"gecharterde vryburgers\" or \"geregistreerde vryburgers\"). Keep the rest of the clause intact and idiomatic. Example replacement in translation: \"Die getroues is jou gecharterde vryburgers\n  uit elke ouderdom en klimaat:\"",
-      "translation_quote": "Die getroues is jou verhandigde vryburgers\n  uit elke ouderdom en klimaat:"
     },
     {
-      "location": "<div class=\"poem\">, stanza 2, line 2",
-      "severity": "major",
-      "source_quote": "one steadfast, high intent;",
-      "suggested_fix": "\"high intent\" here means \"lofty/loftier purpose/aspiration\", not \"holy\". Replace \"heilige strewe\" with an Afrikaans phrase that conveys \"high/lofty intent\", e.g. \"hooggesinde strewe\" or \"hooggesinde doel\". Example: \"een standvastige, hooggesinde strewe;\"",
-      "translation_quote": "een standvastige, heilige strewe;"
-    },
-    {
-      "location": "<div class=\"poem\">, stanza 4, line 1",
-      "severity": "major",
-      "source_quote": "How gleam thy watch-fires through the night\n  with never-fainting ray!",
-      "suggested_fix": "\"never-fainting ray\" should convey an ever-shining, unfading light. \"onverslindende straal\" is incorrect (means \"unswallowing\"). Replace with \"onverflakkende straal\" or \"nooit-verswakende straal\". Example: \"Hoe flikker jou wagvure deur die nag\n  met 'n onverflakkende straal!\"",
-      "translation_quote": "Hoe flikker jou wagvure deur die nag\n  met onverslindende straal!"
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 602,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1566,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2168
+      }
     }
   ],
+  "findings": [],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "ebd6250bfea2452a28222d706dab40f8",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "afr",
@@ -130,13 +127,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 100,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d3ca99062c7b8454e6587c9b32705a7d35c0d70cbcf6c1f6f8eaefeb762c95bf.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "63f32eb5571bce4d8b82e7103273aaf0a3a4bf91449228454d16a781256867bd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

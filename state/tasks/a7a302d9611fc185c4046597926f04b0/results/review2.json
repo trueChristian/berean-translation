@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ce6f44ef-2fef-4ac7-b3ad-97df51e998d7",
+    "response_id": "chatcmpl-EUVawpuCn3DW5RYvikYhLPz3ye6jl",
+    "usage": {
+      "completion_tokens": 1539,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1565,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3104
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> stanza 2, line 2",
+        "severity": "minor",
+        "source_quote": "his life within the keen air breathes;",
+        "suggested_fix": "Inua maneno ndani ya <div class=\"poem\"> kwa kutumia kifupisho cha Kiswahili kinachofaa kwa 'breathes' — badala ya “uhai wake unakopevuka katika hewa yenye ukali;” tumia “uhai wake unapumua katika hewa yenye ukali;”. Preserve the surrounding HTML exactly and replace only the text of this line.",
+        "translation_quote": "uhai wake unakopevuka katika hewa yenye ukali;"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 3, line 1",
+        "severity": "minor",
+        "source_quote": "And though abroad the sharp winds blow,",
+        "suggested_fix": "Sahihisha muundo na maana bila kubadilisha muundo wa HTML. Badala ya “Na ingawa ule upepo mkali unavuma nje,” tumia “Na ingawa nje upepo mkali unavuma,” au kwa ufasiri safi wa kimuundo wa asili: “Na ingawa ule upepo mkali unavuma nje,” ⇒ recommended: “Na ingawa nje upepo mkali unavuma,”. Replace only the text of this line within the existing <div class=\"poem\">.",
+        "translation_quote": "Na ingawa ule upepo mkali unavuma nje,"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 3, line 3",
+        "severity": "minor",
+        "source_quote": "home closer draws her circle now,",
+        "suggested_fix": "Hii sentensi imepoteza ufasili wa personifikeshini ya “home” inayomaanisha nyumba/kifalme kinachokaza mduara wake. Badala ya “nyumbani sasa unazidisha ukanda wake wa karibu,” badilisha kwa: “nyumbani sasa hukaza mzunguko wake,” au “nyumbani sasa huvuta mduara wake karibu.” Preserve the HTML and replace only the text of this line.",
+        "translation_quote": "nyumbani sasa unazidisha ukanda wake wa karibu,"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 2, line 4",
+        "severity": "minor",
+        "source_quote": "and clothes each branch with glittering wreaths.",
+        "suggested_fix": "Kiswahili kilichoandikwa kinatumia kitenzi cha kuifunika kinachoweza kuleta sintofahamu (kuifunika = to cover it). Mapendekezo: badala ya “na kuifunika kila tawi kwa pete zenye kung'aa,” tumia “na kuvaa kila tawi pete zinazong'aa” au “na kuipamba kila tawi kwa pete zinazong'aa.” Preserve the HTML and replace only the text of hii line.",
+        "translation_quote": "na kuifunika kila tawi kwa pete zenye kung'aa."
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

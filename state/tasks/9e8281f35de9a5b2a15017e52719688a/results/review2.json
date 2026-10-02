@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1e5af277-a596-4391-9e44-fd775ef13a17",
+    "response_id": "chatcmpl-EUVao5MRntY0G0o8sRJcnCUXcJPwk",
+    "usage": {
+      "completion_tokens": 1009,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4135,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5144
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph 9 (\"And then Dirk started fussing.\")",
+        "severity": "major",
+        "source_quote": "And then Dirk started fussing.",
+        "suggested_fix": "Translate the verb to convey 'fussing' as whining/complaining (not 'tattling'). Replace the Urdu \"اور پھر ڈرک چغلی کرنے لگا۔\" with a faithful rendering such as: \"اور پھر ڈرک شکایت کرنے لگا۔\" or \"اور پھر ڈرک بکنے لگا۔\" Ensure the rest of the sentence/context remains unchanged and preserve existing HTML tags and paragraph structure.",
+        "translation_quote": "اور پھر ڈرک چغلی کرنے لگا۔"
+      },
+      {
+        "location": "source.html paragraph 6 (metaphor: \"like chickadees at a birdfeeder\")",
+        "severity": "minor",
+        "source_quote": "a swarm of young boys and girls began to cluster around Brother Silas like chickadees at a birdfeeder.",
+        "suggested_fix": "Either translate the simile into natural Urdu (preferred) or if keeping the English bird name, use a conventional Urdu rendering. Suggested replacement: \"بچوں کی ایک بھیڑ بھائی سائلَس کے اردگرد اکٹھی ہو گئی، جیسے پرندے دانہ کھانے کے لیے دانے کے پاس اکٹھے ہوتے ہیں۔\" Or: \"جیسے چکاڈیز (chickadees) دانہ کھانے کے پاس اکٹھے ہوتے ہیں۔\" Preserve tags and punctuation.",
+        "translation_quote": "بچوں کی ایک بھیڑ بھائی سائلَس کے اردگرد اکٹھی ہو گئی جیسے چِکاڈیز کھانے والے دانے کے پاس جمع ہوتے ہیں۔"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

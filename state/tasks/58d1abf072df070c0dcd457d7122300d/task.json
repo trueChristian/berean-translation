@@ -2,7 +2,6 @@
   "article_id": "b37f8111-4563-4b5b-ab9f-1f87bcd2b46a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,38 +61,73 @@
         },
         "total_tokens": 9997
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1601,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6012,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7613
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "<p class=\"source-note\">…</p>",
-      "severity": "critical",
-      "source_quote": "The article is reprinted by request. It was first printed in The Heartbeat of the Remnant in the Autumn 2019 issue. Previously printed in Earthen Vessels.",
-      "suggested_fix": "Translate this entire source-note into Hebrew, preserving the existing HTML structure and tags. For example replace the English text inside the <p class=\"source-note\">…</p> with a Hebrew rendering while keeping the <em> and <span> tags in place, e.g.: <p class=\"source-note\"><em>המאמר מפורסם מחדש לפי בקשה. הוא פורסם לראשונה ב־</em><span>The Heartbeat of the Remnant</span><em> בגיליון סתיו 2019. פורסם בעבר ב־</em><span>Earthen Vessels</span><em>.</em></p> (Preserve the <span> elements around the publication names and do not change the surrounding tags or attributes.)",
-      "translation_quote": "<p class=\"source-note\"><em>The article is reprinted by request. It was first printed in </em><span>The Heartbeat of the Remnant</span><em> in the Autumn 2019 issue. Previously printed in </em><span>Earthen Vessels</span><em>.</em></p> "
-    },
-    {
-      "location": "<p>...giving the angry army officer a solar panel and a transformer on top of the other things he demanded.</p> — translation sentence",
+      "location": "source.html — first paragraph",
       "severity": "minor",
-      "source_quote": "giving the angry army officer a solar panel and a transformer on top of the other things he demanded.",
-      "suggested_fix": "Correct the Hebrew word for 'transformer' to a standard term. Replace the current word במשנּה (which contains a typographic/nikkud error) with either 'משנה-מתח' or 'טרנספורמטור' depending on house style. Example: 'לתת לו פאנל סולארי ומשנה־מתח על גבי שאר הדברים שדרש.'",
-      "translation_quote": "\"על ידי מתן פאנל סולארי ומשנּה מעל ודברים נוספים שדורש.\""
+      "source_quote": "A few years ago, I was wallowing in emotional and physical burnout, trying to adjust to life outside of the African village we had called home for eight years.",
+      "suggested_fix": "Fix Hebrew verb form to match feminine subject. Change \"ניסה להתרגל\" to \"ניסיתי להתרגל\".",
+      "translation_quote": "לפני כמה שנים שקעתי בשחיקה רגשית ופיזית, ניסה להתרגל לחיים מחוץ לכפר האפריקני שקראנו לו בית במשך שמונה שנים."
     },
     {
-      "location": "<p>\"I lug heavy buckets of water to that spot\" — translation paragraph about watering backyard patch",
+      "location": "source.html — second paragraph, sentence 1",
       "severity": "minor",
-      "source_quote": "I lug heavy buckets of water to that spot and sometimes take all five of my children on the city buses to visit yet another flower garden in search of more flowers.",
-      "suggested_fix": "Consider using a stronger verb to match 'lug' (conveying effort). Replace 'אני מזיזה דליים כבדים של מים' with 'אני סוחבת/נושאת דליים כבדים של מים' to more precisely convey the sense of effort. Preserve surrounding punctuation and sentence order.",
-      "translation_quote": "\"אני מזיזה דליים כבדים של מים לאותו מקום...\""
+      "source_quote": "And honestly, we lived in a village with very little beauty to offer, the only brightness being the vibrantly colored clothing the women wore.",
+      "suggested_fix": "Correct typo \"וכנה\" → \"וכן\".",
+      "translation_quote": "וכנה, חיינו בכפר שהציע מעט מאוד יופי; הבוהק היחיד היה בבגדים הצבעוניים של הנשים."
     },
     {
-      "location": "<p>\"It’s cold (45 degrees or colder in the morning).\" — translation of temperature parenthesis",
+      "location": "source.html — \"Keeping a reasonably clean, pleasant house\" paragraph",
+      "severity": "minor",
+      "source_quote": "I try to get rid of the extras and replace the dirty, the dingy, and the ugly with something that is beautiful and lovely.",
+      "suggested_fix": "\"dingy\" was translated as \"המעורפל\" (meaning 'blurred/unclear'). Use a Hebrew equivalent for 'dingy' meaning grimy or shabby, e.g. \"המקומט/השחוק/העכור\". Example: \"להחליף את הלכלוך, את העכור ואת המכוער\".",
+      "translation_quote": "אני משתדלת להיפטר מעודפים ולהחליף את הלכלוך, את המעורפל ואת המכוער במשהו שיפה ונעים."
+    },
+    {
+      "location": "source.html — \"Serving food tastefully\" paragraph",
+      "severity": "major",
+      "source_quote": "Raid your local market and you will be surprised with what you can find in glassware and other beautiful dishes that brighten your table.",
+      "suggested_fix": "Current Hebrew \"הדליקו את השוק המקומי\" reads as \"set your local market on fire\". Replace with a faithful idiomatic rendering such as: \"בקרו את השוק המקומי ותתפלאו ממה שתמצאו\" or \"טיילו בשוק המקומי\".",
+      "translation_quote": "הדליקו את השוק המקומי ותתפסו להפתעתכם מה אפשר למצוא מזכוכית וכלים יפים אחרים שמעניקים שולחן מואר."
+    },
+    {
+      "location": "source.html — \"Spending time appreciating the beauty of nature\" paragraph",
       "severity": "minor",
       "source_quote": "It’s cold (45 degrees or colder in the morning).",
-      "suggested_fix": "Clarify the temperature unit in Hebrew. Add 'פרנהייט' or convert to Celsius to avoid ambiguity. For example: '(45°F או פחות בבוקר)' or '(כ־7°C או פחות בבוקר)'.",
-      "translation_quote": "\"קריר (45 מעלות או פחות בבוקר).\""
+      "suggested_fix": "Original gives no unit; translated text adds \"45°F\". Either remove the unit or match intended unit in context. Suggest: \"קריר (בערך 45 מעלות או פחות בוקר)\" but preferably keep unit neutral: \"קריר (כ־45 מעלות או פחות בבוקר)\" and use Celsius if target audience expects it, or omit unit.",
+      "translation_quote": "קריר (45°F או פחות בבוקר)."
+    },
+    {
+      "location": "source.html — paragraph about Tim being exhausted",
+      "severity": "critical",
+      "source_quote": "My husband is exhausted, both physically and emotionally, yet this morning he left for another trip back to the village to “heap on coals of fire” by giving the angry army officer a solar panel and a transformer on top of the other things he demanded.",
+      "suggested_fix": "Translator rendered \"My husband\" as \"אבי\" (my father), which changes the attribution and is a substantive factual error. Replace \"אבי\" with the correct Hebrew \"בעלי\" so the sentence preserves the original meaning and attribution.",
+      "translation_quote": "אבי מותש, גם פיזית וגם רגשית, ובכל זאת הבוקר הוא יצא לעוד נסיעה חזרה לכפר כדי \\\"להשליך גחלים של אש\\\" על ידי מתן פאנל סולארי ומשנה־מתח על גבי שאר הדברים שדרש."
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "58d1abf072df070c0dcd457d7122300d",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "heb",
@@ -137,13 +171,13 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 68,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8a0658267fa9eaeafccc26ac6637cde2343d272e4862413edce341f1010a3f2c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "810e77f1e38c86de9278d0fba622dcb0789774ee530b139604475db68ad15426",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5b6fa1d3-8dcf-493e-966e-1b3d0b17ef88",
+    "response_id": "chatcmpl-EUVaLYrsjxbubBpNkzZmuQQWmPu9C",
+    "usage": {
+      "completion_tokens": 1166,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12644,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 5888
+      },
+      "total_tokens": 13810
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Now, it is eighteen years later...” (Luke 3:21–23) — translation of Luke 3:21–23",
+        "severity": "minor",
+        "source_quote": "“Now when all the people were baptized, it came to pass, that Jesus also being baptized, and praying, the heaven was opened, And the Holy Ghost descended in a bodily shape like a dove upon him, and a voice came from heaven, which said, Thou art my beloved Son; in thee I am well pleased. And Jesus himself began to be about thirty years of age . . . ” (Luke 3:21–23).",
+        "suggested_fix": "Use a more idiomatic Italian rendering for “in a bodily shape like a dove” (avoid literal calque “corporativamente”). For example: “e lo Spirito Santo discese su di lui in forma corporea, come una colomba” or “e lo Spirito Santo discese su di lui in forma corporea simile a una colomba”. Preserve the rest of the verse punctuation and the Luke 3:21–23 reference.",
+        "translation_quote": "“Quando tutto il popolo fu battezzato, avvenne anche che Gesù, che era stato battezzato e che pregava, il cielo si aprì, e lo Spirito Santo discese corporativamente come una colomba su di lui, e una voce venne dal cielo, che disse: Tu sei il mio Figlio prediletto; in te mi sono compiaciuto. E Gesù stesso cominciò ad essere verso i trent'anni…” (Luca 3:21–23)."
+      },
+      {
+        "location": "Sentence starting the section that introduces Jesus’ life: “Allorchè consideriamo il sonno di preparazione...”",
+        "severity": "minor",
+        "source_quote": "“As we consider preparation sleep, let’s look at the life of Jesus when He was young. We want to look at four points from His life and make practical applications.”",
+        "suggested_fix": "Correct minor Italian orthography: replace “Allorchè” with standard Italian accenting “Allorché”. (Keep the sentence structure and meaning otherwise unchanged.)",
+        "translation_quote": "“Allorchè consideriamo il sonno di preparazione, guardiamo alla vita di Gesù quando era giovane. Vogliamo prendere quattro punti dalla Sua vita e trarre applicazioni pratiche.”"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

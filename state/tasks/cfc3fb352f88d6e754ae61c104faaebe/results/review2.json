@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "35426862-a123-475a-9437-48f7ba5bd1f5",
+    "response_id": "chatcmpl-EUVaOflxmp7gkA1wOp8VQf3p48vG6",
+    "usage": {
+      "completion_tokens": 877,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10311,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11188
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...침상 매너(bedside manner)...</p> (section: \"Not All Doctors Are Equal\")",
+        "severity": "minor",
+        "source_quote": "Most of us look for someone who exudes confidence and seems to know what they are doing.",
+        "suggested_fix": "Translate or provide a fully Korean equivalent for the parenthetical English term. For example: replace '침상 매너(bedside manner)' with '침상 매너(환자 응대 태도)' or simply '환자 응대 태도' while preserving the surrounding HTML tags and order.",
+        "translation_quote": "의사를 만날 때 우리는 보통 그들의 ‘침상 매너(bedside manner)’를 보고 판단합니다."
+      },
+      {
+        "location": "<p>...밀크위드(milkweed)...</p> (section: \"Humility is Needed\")",
+        "severity": "minor",
+        "source_quote": "The fact that your mother’s cousin took milkweed extract and felt much better from similar symptoms to yours is interesting.",
+        "suggested_fix": "Translate the plant name into Korean or use a common Korean rendering without leaving the English in parentheses. For example: replace '밀크위드(milkweed)' with '밀크위드(송악/풀이름 - if appropriate common name known)' or '밀크위드(밀크위드 추출물)' depending on editorial convention. Preserve the surrounding HTML tags and order.",
+        "translation_quote": "당신의 어머니 사촌이 밀크위드(milkweed) 추출물을 복용하고 당신과 비슷한 증상에서 훨씬 좋아졌다는 사실은 흥미롭습니다."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

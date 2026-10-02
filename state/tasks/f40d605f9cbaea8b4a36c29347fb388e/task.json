@@ -2,7 +2,6 @@
   "article_id": "8f996405-d870-4074-947b-35190faad643",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,31 +61,44 @@
         },
         "total_tokens": 2874
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1141,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1572,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2713
+      }
     }
   ],
   "findings": [
     {
-      "location": "<div class=\"poem\"> <p>Third stanza, line 2</p>",
-      "severity": "major",
-      "source_quote": "How grandly hath thine empire grown<br>\nof freedom, love, and truth!",
-      "suggested_fix": "Replace the mistranslated possessive to reflect the original second-person possessive. For example: \"Betapa megah kerajaaanmu telah berkembang<br>\natas kebebasan, kasih, dan kebenaran!\" (preserve line break and HTML tags).",
-      "translation_quote": "Betapa megah kerajaanku telah berkembang<br>\natas kebebasan, kasih, dan kebenaran!"
+      "location": "<div class=\"poem\"> — stanza 1, line 3",
+      "severity": "minor",
+      "source_quote": "The true thy chartered freemen are\n  of every age and clime:",
+      "suggested_fix": "Terjemahkan struktur kalimat dengan lebih alami dalam bahasa Indonesia sambil mempertahankan makna: misalnya, \"Warga merdeka yang tercatat sebagai milikmu adalah mereka dari segala zaman dan iklim:\" atau lebih ringkas \"Warga merdeka termasyhurmu berasal dari setiap zaman dan iklim:\". Jagalah makna bahwa frasa \"the true thy chartered freemen are\" menunjuk pada 'orang-orang yang benar-benar menjadi warga yang diberi hak (chartered freemen) oleh kota'.",
+      "translation_quote": "Warga merdeka yang tercatat adalah milikmu\n  dari setiap zaman dan iklim:"
     },
     {
-      "location": "<div class=\"poem\"> <p>First stanza, line 3</p>",
+      "location": "<div class=\"poem\"> — stanza 3, line 1 and <figure> alt text",
       "severity": "minor",
-      "source_quote": "The true thy chartered freemen are<br>\nof every age and clime:",
-      "suggested_fix": "Consider a more idiomatic rendering of \"chartered freemen\" that preserves the sense of enfranchised or registered free citizens. For example: \"Orang-orang merdeka yang tercatat adalah milikmu<br>\ndari setiap zaman dan iklim:\" or \"Warga merdeka yang diberi hak adalah milikmu<br>\ndari setiap zaman dan iklim:\" (preserve line break and HTML tags).",
-      "translation_quote": "Orang merdeka sejati adalah milikmu<br>\ndari setiap zaman dan iklim:"
-    },
-    {
-      "location": "<div class=\"poem\"> <p>Third stanza, line 1</p>",
-      "severity": "minor",
-      "source_quote": "How purely hath thy speech come down<br>\nfrom man's primaeval youth!",
-      "suggested_fix": "The literal translation \"masa kanak-kanak permulaan manusia\" is awkward. Suggest a smoother rendering that keeps the original meaning, e.g.: \"Betapa suci ucapmu telah turun<br>\ndari zaman kanak-kanak pertama manusia!\" or \"...dari masa kanak-kanak manusia purba!\" (preserve line break and HTML tags).",
-      "translation_quote": "Betapa murni ucapmu telah turun<br>\ndari masa kanak-kanak permulaan manusia!"
+      "source_quote": "How purely hath thy speech come down\n  from man's primaeval youth!",
+      "suggested_fix": "Frasa \"primaeval youth\" lebih alami diterjemahkan menjadi \"masa purba manusia\" atau \"masa paling awal manusia\". Usulkan: \"Betapa murni ucapmu turun dari masa purba manusia!\" atau \"Betapa murni ucapmu diturunkan sejak masa kanak-kanak manusia yang paling mula!\". Selain itu, pada atribut alt gambar, gantilah penghubung yang tidak perlu dan tanda hubung yang tidak lazim: gunakan \"api penjagamu\" (tanpa tanda hubung) dalam baris yang relevan jika tetap menggunakan istilah itu. Contoh terjemahan baris puisi: \"Betapa murni ucapmu diturunkan sejak masa purba manusia!\"; contoh alt gambar: \"Jalur bersalju di samping pohon-pohon musim dingin yang gundul\" (sudah bagus).",
+      "translation_quote": "Betapa suci ucapmu telah turun\n  dari masa kanak-kanak pertama manusia!\n\n...\n\nBetapa gemerlap api-penjagamu menembus malam\n  dengan sinar yang tak pernah pudar!"
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "f40d605f9cbaea8b4a36c29347fb388e",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ind",
@@ -130,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d3ca99062c7b8454e6587c9b32705a7d35c0d70cbcf6c1f6f8eaefeb762c95bf.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "63f32eb5571bce4d8b82e7103273aaf0a3a4bf91449228454d16a781256867bd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

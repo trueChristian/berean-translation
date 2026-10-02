@@ -2,7 +2,6 @@
   "article_id": "a42c5719-aea1-47ed-abad-ed0cd2571382",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,38 +61,44 @@
         },
         "total_tokens": 6734
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1338,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3993,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5331
+      }
     }
   ],
   "findings": [
     {
-      "location": "title",
-      "severity": "major",
-      "source_quote": "The Mint Man",
-      "suggested_fix": "Translate the title into contemporary standard Hindi, preserving the author's intended meaning. For example: \"मिंट वाला आदमी\" or \"मिंट मैन\" (preferably fully Hindi: \"मिंट वाला आदमी\"). Replace the current untranslated transliteration \"द मिंट मैन\" with a Hindi rendering, preserving HTML tags and attributes (none present in title field).",
-      "translation_quote": "द मिंट मैन"
+      "location": "Paragraph mentioning 'Numbers 11' (source.html paragraph beginning 'Father then asked Dirk to read through Numbers 11')",
+      "severity": "minor",
+      "source_quote": "Father then asked Dirk to read through Numbers 11 and copy down the sentences that showed ungratefulness and how God felt about it.",
+      "suggested_fix": "Use the conventional Hindi Bible book name and make the verb phrasing clearer and grammatical. For example: \"फिर पिता ने डिर्क से कहा कि वह 'गिनतियों' (नंबर्स) की पुस्तक, अध्याय 11 पढ़े और उन वाक्यों को उतारे जो असंतोष दिखाते हैं और परमेश्वर का उसके प्रति क्या भाव था।\" (Preserve HTML structure and punctuation exactly as in the translation.)",
+      "translation_quote": "फिर पिता ने डिर्क से कहा कि वह गिनती 11 को पढ़े और उन वाक्यों की नकल करे जो असंतोष को और परमेश्वर के उस पर कैसा भाव था दिखाएँ।"
     },
     {
-      "location": "html — paragraph describing children clustering (simile)",
+      "location": "Paragraph with 'sniveled' (source.html paragraph beginning '“I’m sorry. I didn’t think about it like that,” Dirk sniveled')",
       "severity": "minor",
-      "source_quote": "a swarm of young boys and girls began to cluster around Brother Silas like chickadees at a birdfeeder.",
-      "suggested_fix": "Render the simile so it conveys the original image of many small birds gathering at a feeder. A closer Hindi equivalent would be: \"जैसे चिड़ियाँ किसी पक्षी-खाना पर इकट्ठा होती हैं\" or \"जैसे पक्षी फीडर पर इकट्ठा हो जाते हैं\". Replace the current phrasing that reads \"पिंजरे पर चिड़ियों का घोंसला,\" which changes the image.",
-      "translation_quote": "लड़कों और लड़कियों का एक झुंड भाई साइलस के आसपास इकट्ठा होने लगा जैसे पिंजरे पर चिड़ियों का घोंसला।"
-    },
-    {
-      "location": "html — sentence where Dirk says 'Thank you'",
-      "severity": "minor",
-      "source_quote": "When Dirk’s turn came, he dutifully said, “Thank you,” without even thinking what he said.",
-      "suggested_fix": "Translate the nuance accurately. The source implies he said the words automatically, without thinking; it does not mean he acted selflessly. A suitable Hindi rendering: \"...उसने बिना सोचे-समझे सिर्फ 'धन्यवाद' कह दिया.\" Replace the current insertion of \"निःस्वार्थ भाव\" which adds unintended meaning.",
-      "translation_quote": "जब डिर्क की बारी आई, तो उसने बिना सोचे-समझे निःस्वार्थ भाव से कहा, “धन्यवाद।”"
-    },
-    {
-      "location": "html — reference to the book of Numbers",
-      "severity": "minor",
-      "source_quote": "read through Numbers 11",
-      "suggested_fix": "Use the conventional Hindi Bible book name without parenthetical English. Replace \"गिनती की पुस्तक (Numbers) के अध्याय 11\" with a conventional Hindi form such as \"गिनती (अध्याय 11)\" or simply \"गिनती 11\" (e.g., \"गिनती की पुस्तक, अध्याय 11 पढ़े\"). Preserve original chapter/verse numbers and punctuation.",
-      "translation_quote": "गिनती की पुस्तक (Numbers) के अध्याय 11 को पढ़े"
+      "source_quote": "“I’m sorry. I didn’t think about it like that,” Dirk sniveled, using his sleeve as a handkerchief.",
+      "suggested_fix": "Replace the nonstandard or unclear Hindi rendering \"सिंगान करते हुए\" with a clearer, idiomatic translation conveying the sniffing/teary self-pity sense of 'sniveled'. For example: \"'माफ़ करना। मैंने ऐसा नहीं सोचा,' डिर्क ने रुँध-रुँध कर कहा और अपनी आस्तीन को रुमाल की तरह इस्तेमाल किया।\" (Keep surrounding HTML tags and sentence order unchanged.)",
+      "translation_quote": "“माफ करना। मैंने ऐसा नहीं सोचा,” डिर्क ने सिंगान करते हुए अपनी आस्तीन को रुमाल की तरह इस्तेमाल किया।"
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "a6ba17b4559dce1b45bbbce8e10eb4d1",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "hin",
@@ -137,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/75a969c45055c429de95d7ac7fb5ad9ae24609ae4e6f17660c8fb6226abf6c70.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "cb49d9b32a113d5c0bf30e44cdec3451c0a5ce43ad2cf97a5830259f43dd1f79",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

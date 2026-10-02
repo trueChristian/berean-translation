@@ -2,7 +2,6 @@
   "article_id": "b5ea052a-167f-45c4-bf40-cd463c4546b6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,31 +61,29 @@
         },
         "total_tokens": 10006
       }
-    }
-  ],
-  "findings": [
-    {
-      "location": "Paragraph 3 (spring proverb sentence)",
-      "severity": "minor",
-      "source_quote": "As we cross the equinox, “the days get longer, and winter gets stronger”, states the old proverb, and it remains incisively correct.",
-      "suggested_fix": "The translation is acceptable, but consider using a more natural Spanish rendering for the proverb punctuation and flow, e.g. «Al cruzar el equinoccio, “los días se alargan y el invierno se fortalece”, dice el viejo proverbio, y sigue siendo certero.» (This is optional stylistic guidance.)",
-      "translation_quote": "Al cruzar el equinoccio, “los días se alargan y el invierno se fortalece”, dice el viejo proverbio, y sigue siendo incisivamente cierto."
     },
     {
-      "location": "Paragraph 5 (spring—robins sentence)",
-      "severity": "major",
-      "source_quote": "Northern tradition states that the robins must get snowed on three times before the full arrival of spring.",
-      "suggested_fix": "Translate 'robins' accurately into Spanish as a robin species common reference (e.g. 'petirrojos' or 'migrantes petirrojos') rather than 'tórtolas'. Suggested wording: «La tradición del norte dice que los petirrojos deben quedar cubiertos por la nieve tres veces antes de la llegada plena de la primavera.» Preserve the sense that it's the bird 'robins', not doves/turtledoves.",
-      "translation_quote": "La tradición del norte dice que las tórtolas deben ser atrapadas por la nieve tres veces antes de la llegada plena de la primavera."
-    },
-    {
-      "location": "Paragraph beginning with “There are but shallow relationships…” (Togetherness/companionship paragraph)",
-      "severity": "major",
-      "source_quote": "...while sage and simpleton pull together in the same yoke.",
-      "suggested_fix": "'Simpleton' is left untranslated and should be rendered into Spanish. Replace 'simpleton' with an appropriate Spanish equivalent used elsewhere in the translation (e.g. 'simple' or 'necio'). Suggested fix: «mientras sabio y necio reman juntos en el mismo yugo.» Ensure the parallel structure and meaning from the source are preserved.",
-      "translation_quote": "La adversidad nivela el campo de juego, mientras sabio y simpleton reman juntos en el mismo yugo."
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 602,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6295,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6897
+      }
     }
   ],
+  "findings": [],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "71a666e63af3d772ed255d242d1eb200",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "spa",
@@ -130,13 +127,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/cb70a64f61d5d6ea793a28714a8210160bd2f71712162f15c2619f188dcf0e3f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "43083ba7fbaa256f5105f34da9e51d125c38a107a8d91b3864609877708b8ea8",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

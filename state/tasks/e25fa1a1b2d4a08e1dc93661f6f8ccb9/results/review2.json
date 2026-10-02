@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "bc47f71e-71e7-45b7-ba95-26d128c73742",
+    "response_id": "chatcmpl-EUVaf9M28qUUC8MxVsscEV5AJ1lvp",
+    "usage": {
+      "completion_tokens": 1209,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1518,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2727
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Third stanza, line 4 (inside <div class=\"poem\">)",
+        "severity": "minor",
+        "source_quote": "and warmer glows her light within.",
+        "suggested_fix": "Preserve the personification and feminine possessive used in the English original. Replace the translation \"und wärmer leuchtet drinnen sein Licht.\" with a version that reflects \"her light\" (as in the source) and reads idiomatically in German, for example: \"und wärmer leuchtet drinnen ihr Licht.\" Keep the surrounding HTML unchanged.",
+        "translation_quote": "und wärmer leuchtet drinnen sein Licht."
+      },
+      {
+        "location": "Fourth stanza, line 4 (inside <div class=\"poem\">)",
+        "severity": "minor",
+        "source_quote": "and keep us through life's wintry days.",
+        "suggested_fix": "Correct the German grammar for clarity. Replace the ungrammatical phrase \"und behütest uns durch der Lebens wintrige Tage.\" with an idiomatic rendering that preserves meaning and structure, for example: \"und behütest uns durch die wintrigen Tage des Lebens.\" Keep the surrounding HTML unchanged.",
+        "translation_quote": "und behütest uns durch der Lebens wintrige Tage."
+      }
+    ],
+    "passed": false,
+    "score": 98
+  }
+}

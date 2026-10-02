@@ -2,7 +2,6 @@
   "article_id": "b37f8111-4563-4b5b-ab9f-1f87bcd2b46a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,17 +61,45 @@
         },
         "total_tokens": 9177
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 703,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 320,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5924,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6627
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "<p class=\"source-note\">…</p> (end of article)",
+      "location": "Paragraph beginning 'This rests my mind...' (translated paragraph starting 'Das beruhigt meinen Geist...')",
       "severity": "major",
-      "source_quote": "The article is reprinted by request. It was first printed in The Heartbeat of the Remnant in the Autumn 2019 issue. Previously printed in Earthen Vessels.",
-      "suggested_fix": "Translate the cited publication titles into German while preserving the surrounding HTML structure and tags. For example, replace the English spans with German renderings inside the existing <span> tags: \n- <span>The Heartbeat of the Remnant</span> → <span>Der Herzschlag des Überrests</span>\n- <span>Earthen Vessels</span> → <span>Irdene Gefäße</span>\nDo not remove or reorder the <em> and <span> tags; only replace the inner text nodes with the German translations so the metadata appears fully rendered in the target language.",
-      "translation_quote": "<p class=\"source-note\"><em>Der Artikel wurde auf Anfrage nachgedruckt. Er erschien erstmals in </em><span>The Heartbeat of the Remnant</span><em> in der Herbstausgabe 2019. Zuvor veröffentlicht in </em><span>Earthen Vessels</span><em>.</em></p>"
+      "source_quote": "It’s cold (45 degrees or colder in the morning).",
+      "suggested_fix": "The temperature must be expressed so German readers get the same meaning. The English original almost certainly means 45 °F (cold morning). Replace the German 'Es ist kalt (am Morgen 45 Grad oder kälter).' with a localized equivalent that preserves the original meaning, for example: 'Es ist kalt (morgens etwa 7 °C bzw. 45 °F).' or 'Es ist kalt (morgens etwa 7 °C, das entspricht etwa 45 °F).'. Do not leave '45 Grad' alone because it will be read as Celsius and change the intended meaning.",
+      "translation_quote": "Es ist kalt (am Morgen 45 Grad oder kälter)."
+    },
+    {
+      "location": "Paragraph beginning 'Speak cheerfully—to the laundry lady...' (translated paragraph starting 'Spreche heiter — zur Wäscherein...')",
+      "severity": "minor",
+      "source_quote": "Speak cheerfully—to the laundry lady, the house helper, or the neighbor.",
+      "suggested_fix": "'Wäscherein' is not idiomatic contemporary German for 'laundry lady.' Use a natural term such as 'die Wäschefrau', 'die Wäschereihelferin' (if meant as worker), or 'die Frau, die die Wäsche macht' depending on tone. For example: 'Sprich heiter — zur Wäschefrau, zur Haushaltshilfe oder zur Nachbarin.'",
+      "translation_quote": "Spreche heiter — zur Wäscherein, zur Haushaltshilfe oder zur Nachbarin."
     }
   ],
+  "finished_at": "2026-10-02T11:21:05+00:00",
   "id": "11af787417e95a3c7d2a0c2925558c34",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "deu",
@@ -116,13 +143,13 @@
     }
   },
   "protected": false,
-  "quality_score": 85,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8a0658267fa9eaeafccc26ac6637cde2343d272e4862413edce341f1010a3f2c.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "810e77f1e38c86de9278d0fba622dcb0789774ee530b139604475db68ad15426",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

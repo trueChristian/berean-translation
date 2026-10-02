@@ -2,7 +2,6 @@
   "article_id": "b5ea052a-167f-45c4-bf40-cd463c4546b6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,52 +61,59 @@
         },
         "total_tokens": 11406
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1438,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6778,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8216
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "<article> paragraph 3 (source: \"man and beast battle its ferocity\")",
+      "location": "source.html paragraph beginning \"The beloved disciple wasted no words...\"",
       "severity": "major",
-      "source_quote": "\"Man and beast battle its ferocity, and even the lifeless machinery rebels against winter’s adamant arrival.\"",
-      "suggested_fix": "Translate the sense correctly into Kiswahili. Replace the incorrect word \"mizoga\" (carcasses) with an appropriate word for animals/beasts. For example: \"Mwanadamu na wanyama wanapigana na ukali wake, hata mashine zisizo na uhai zinapinga kuingia kwa msimu wa baridi.\" Preserve sentence structure and HTML tags.",
-      "translation_quote": "\"Mwanadamu na mizoga huzitaka nguvu zake, na hata mashine zisizo na maisha zinopinga kuingia kwa msimu huyu mkali.\""
+      "source_quote": "The beloved disciple wasted no words when he brought us the fact that . . . it was winter.",
+      "suggested_fix": "Translate the phrase as the author intended. Replace the current translation \"Disipu maarufu hakuchelewa maneno alipowasilisha ukweli kwamba ... ilikuwa msimu wa baridi.\" with a faithful rendering such as: \"Mwanafunzi aliye mpendwa hakutaweka maneno alipotuambia ukweli kwamba... ilikuwa msimu wa baridi.\" Preserve the surrounding HTML tags and punctuation exactly.",
+      "translation_quote": "Disipu maarufu hakuchelewa maneno alipowasilisha ukweli kwamba ... ilikuwa msimu wa baridi."
     },
     {
-      "location": "<article> paragraph 3 (source: \"crack and crevice\")",
+      "location": "source.html paragraph beginning \"In the 1700s, a luthier...\"",
       "severity": "minor",
-      "source_quote": "\"Chilly drafts penetrate every crack and crevice, forcing their heartless presence into the most private chambers.\"",
-      "suggested_fix": "Replace the unclear/incorrect word \"punku\" with a standard Kiswahili equivalent such as \"mchezo\" is wrong; use \"pengo\" or \"nyufa\". Suggested sentence: \"Upepo baridi hupenya katika kila pengo na nyufa, ikiingiza uwepo wake usio na huruma hata katika vyumba vya kibinafsi zaidi.\"",
-      "translation_quote": "\"Upepo baridi hupenya katika kila mwanya na punku, kuingiza uwepo wake usio na huruma katika vyumba vya kibinafsi zaidi.\""
+      "source_quote": "In the 1700s, a luthier by the name of Stradivari created violins unequaled in their excellence for beautiful sound.",
+      "suggested_fix": "Correct the instrument term to a standard Kiswahili word. Replace \"mchongaji wa vioo\" and \"vionjo\" with a clearer rendering such as: \"mnazi wa vyio (vayolini) aitwaye Stradivari alitengeneza vayolini zisizolinganishwa kwa uzuri wa sauti.\" Keep the sentence structure and HTML unchanged.",
+      "translation_quote": "Mnamo karne ya 1700, mchongaji wa vioo aitwaye Stradivari alitengeneza vionjo ambavyo havikulinganishwa kwa urembo wa sauti."
     },
     {
-      "location": "<article> paragraph 6 (source: \"Bounties of harvest\")",
+      "location": "source.html paragraph beginning \"John the Baptist prophesied boldly...\"",
       "severity": "minor",
-      "source_quote": "\"The bounties of harvest provide an aura of rejoicing in their sheaves...\"",
-      "suggested_fix": "Avoid leaving the English loanword capitalized as \"Bounty\" and translate it into Kiswahili. Suggested: \"Mavuno ya majani huleta furaha katika vimbili vyao...\" or simply \"Mavuno yanatoa hisia za shangwe...\"",
-      "translation_quote": "\"Bounty za mavuno huleta furaha katika mizinga yao, na mioyo ya watu bado inafurahi...\""
+      "source_quote": "John the Baptist prophesied boldly while the vision was fresh and the crowds pressed around to hear him preach.",
+      "suggested_fix": "Ensure the name/title is translated idiomatically and without added or awkward modifiers. Replace \"Yohana Mtoza Anabataraji\" with the common Kiswahili form \"Yohana Mtoza\" or \"Yohana Mtoza (Mwanzo)\" as appropriate. For example: \"Yohana Mtoza alitabiri kwa ujasiri...\" Preserve HTML tags.",
+      "translation_quote": "Yohana Mtoza Anabataraji alitabiri kwa ujasiri wakati maono yalipokuwa mapya na umati ukikaza kumzunguka kusikiliza khutuba yake."
     },
     {
-      "location": "<article> paragraph 18 (source: \"a luthier by the name of Stradivari created violins\")",
-      "severity": "major",
-      "source_quote": "\"In the 1700s, a luthier by the name of Stradivari created violins unequaled in their excellence for beautiful sound.\"",
-      "suggested_fix": "Correctly translate technical terms and the object. A \"luthier\" is a maker of stringed instruments, and \"violins\" must be translated as \"fidla\" or the common Kiswahili term \"viyolini\" (or \"fidla/vyolin\" depending on style). Also fix the subsequent sentence that refers to \"violins\" (not tastes). Suggested translation: \"Mnamo karne ya 1700, fundi ala wa majembe ambaye aliitwa Stradivari alitengeneza violini visivyolinganishwa kwa uzuri wa sauti.\" Preserve HTML and surrounding paragraph structure.",
-      "translation_quote": "\"Mnamo karne ya 1700, mchongaji wa vioo aitwaye Stradivari alitengeneza vionjo ambavyo havikulinganishwa kwa urembo wa sauti.\""
-    },
-    {
-      "location": "<article> paragraph 18 (source: \"the wood of the day had been seasoned by difficult winters\")",
+      "location": "source.html multiple paragraphs — occasional awkward/unnatural phrasing",
       "severity": "minor",
-      "source_quote": "\"most have resolved that the wood of the day had been seasoned by difficult winters, producing a quality that cannot be replicated in our day.\"",
-      "suggested_fix": "If keeping the violin example, ensure 'wood' and 'seasoned' are clear. Translate as: \"mbao za wakati huo zilikuwa zimefunikwa/kuoshwa na majira magumu ya baridi, zikitoa ubora usio wezekana kurudiwa katika zama zetu.\"",
-      "translation_quote": "\"mbao za siku zake zilikuwa zimekaza kwa majira ya baridi magumu, zikatoa ubora usioweza kurudiwa katika wakati wetu.\""
-    },
-    {
-      "location": "<article> image alt attribute",
-      "severity": "minor",
-      "source_quote": "alt=\"Snow-covered evergreen trees\"",
-      "suggested_fix": "Alt text is translated correctly but ensure idiomatic Kiswahili: current alt is acceptable. No fix required unless preferred: \"Miti ya kijani-milele iliyofunikwa na theluji\".",
-      "translation_quote": "alt=\"Miti ya kijani iliyofunikwa kwa theluji\""
+      "source_quote": "Multiple idiomatic English phrases (examples: \"gave up the ghost\", \"the beloved disciple\", \"the green tree\").",
+      "suggested_fix": "Adjust a few awkward or literal phrasings to natural Kiswahili while preserving meaning. Examples: change \"alipumua, akafariki\" to \"alifariki akiwa mzee mwenye umri mzuri\" for Genesis 25:8; consider rendering \"the green tree\" contextually (e.g., \"mti wa kijani\") as already done but ensure idiom flows. These are stylistic improvements; keep original HTML structure.",
+      "translation_quote": "Various phrases such as \"Abrahamu alipumua, akafariki akiwa mzee mwenye umri mzuri\" and \"kuondolewa kwa gumu kwa mti wa kijani\"."
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "4d9fc3ffc74d3a2af99c0feb0e6390e9",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "swa",
@@ -151,13 +157,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 78,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/cb70a64f61d5d6ea793a28714a8210160bd2f71712162f15c2619f188dcf0e3f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "43083ba7fbaa256f5105f34da9e51d125c38a107a8d91b3864609877708b8ea8",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f1046791-41be-4086-9358-993e9005543b",
+    "response_id": "chatcmpl-EUVamaiSTYgt2diXnFxBGsbABq3cZ",
+    "usage": {
+      "completion_tokens": 1059,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4003,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5062
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 1 (opening sentence)",
+        "severity": "minor",
+        "source_quote": "Dirk scanned the sanctuary, trying to be discreet and yet utterly failing as he twisted and turned in his seat.",
+        "suggested_fix": "Revise the Afrikaans for grammatical fluency and natural idiom. For example, replace the current phrasing with: “Dirk het die heiligdom deurgesoek; hy probeer diskreet wees, maar dit het hom glad nie geluk nie terwyl hy in sy sitplek heen en weer gedraai het.” Preserve the surrounding <p>…</p> tags.",
+        "translation_quote": "Dirk het die heiligdom geskandeer, probeer om diskreet te wees en tog heeltemal gefaal terwyl hy in sy sitplek gedraai en gedraai het."
+      },
+      {
+        "location": "Paragraph near the end (eyes lit up)",
+        "severity": "minor",
+        "source_quote": "When he did, Dirk’s eyes lit up at the sight.",
+        "suggested_fix": "The current translation reads as if Dirk merely looked up. To preserve the original sense of delight, consider: “Toe hy dit doen, het Dirk se oë van vreugde geglinster toe hy hom sien.” Keep the <p>…</p> wrapper unchanged.",
+        "translation_quote": "Toe hy dit doen, het Dirk se oë by die gesig opgelaat."
+      },
+      {
+        "location": "Several paragraphs (vest pocket wording)",
+        "severity": "minor",
+        "source_quote": "In the pocket of that vest was something very important. In that vest pocket, there were mints.",
+        "suggested_fix": "The translation uses two different compound forms for the vest pocket (\"sak van daardie baadjie\", \"daardie baadjiesak\", \"baadjiesak\"). For consistency and clarity, use a single natural Afrikaans term throughout, for example \"die binnesak van daardie baadjie\". Make this consistent in all occurrences while preserving the original HTML structure.",
+        "translation_quote": "In die sak van daardie baadjie was iets baie belangrik. In daardie baadjiesak was pepermuntjies. ... Hy het toe in sy baadjiesak ingegrawe en ’n pepermuntjie uittrek."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

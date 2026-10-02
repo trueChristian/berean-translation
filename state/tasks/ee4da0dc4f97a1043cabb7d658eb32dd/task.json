@@ -2,7 +2,6 @@
   "article_id": "a42c5719-aea1-47ed-abad-ed0cd2571382",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0cabf89a6edc49198f585243c2192e61",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -62,31 +61,58 @@
         },
         "total_tokens": 6661
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1292,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3902,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5194
+      }
     }
   ],
   "findings": [
     {
-      "location": "Paragraph 1 (sentence: \"He was intent on locating Brother Silas before the service began.\")",
-      "severity": "major",
-      "source_quote": "he would crane his neck in search of the hoary head of the fellowship’s oldest member",
-      "suggested_fix": "Translate \"the hoary head\" to convey \"white-haired/elder\" (not \"upweke\" which means \"lonely\"). For example: \"aliweka shingo kutafuta kichwa chake chelewe kilicho na nywele za kijivu cha mwanachama mzee wa kikundi\" or more smoothly \"aliweka shingo kutafuta nywele zake za kijivu — mzee zaidi katika kikundi.\" Preserve meaning that it refers to an old/white-haired member.",
-      "translation_quote": "algekea shingo yake kutafuta kichwa cha upweke cha mwanachama mzee wa kikundi"
+      "location": "Paragraph 2 (description of mints)",
+      "severity": "minor",
+      "source_quote": "In that vest pocket, there were mints. Lifesavers, to be exact.",
+      "suggested_fix": "Translate the brand/name into standard Kiswahili rendering or mark as a loanword consistently. Replace the translation sentence with: \"Kwenye mfuko wa veste hiyo, kulikuwa na mints — Lifesavers, hasa.\" (or if you prefer fully Swahilized: \"Kwenye mfuko wa veste hiyo, kulikuwa na mints — candy aina ya ‘Lifesavers’.\") Preserve the surrounding <p>…</p> tags.",
+      "translation_quote": "Kwenye mfuko wa veste hiyo, kulikuwa na mints. Lifesavers, hasa."
     },
     {
-      "location": "Figure alt text",
+      "location": "Penultimate paragraph (brand mention)",
       "severity": "minor",
-      "source_quote": "A glass jar spilling wrapped mints beside a potted plant",
-      "suggested_fix": "Use a Kiswahili word for \"potted plant\" that is not a cooking vessel. For example: \"chupa ya glasi ikimwaga mints zilizofungwa kando ya mmea uliopandwa kwenye bakuli/katoni/utepe\" or \"...kando ya mmea uliowekwa kwenye chombo\". Also consider translating \"wrapped mints\" as \"mints zilizofunikwa\" or \"zimetengenezwa\" more naturally.",
-      "translation_quote": "Chupa ya glasi ikimwaga mints iliyofungwa kando ya mmea kwenye sufuria"
+      "source_quote": "A Lifesaver, to be exact.",
+      "suggested_fix": "Make the brand rendering consistent with the earlier rendering in Kiswahili. Replace the translation fragment with: \"Lifesaver, hasa.\" or \"Candy ya aina ya ‘Lifesaver’, hasa.\" Keep the enclosing <p>…</p> tags unchanged.",
+      "translation_quote": "Lifesaver, hasa."
     },
     {
-      "location": "Title (and repeated in metadata)",
+      "location": "Paragraph 1 (rendering of “he would crane his neck”)",
       "severity": "minor",
-      "source_quote": "The Mint Man",
-      "suggested_fix": "Consider a more natural Kiswahili rendering. \"Mtu wa Mints\" is understandable but awkward. Alternatives: \"Mwanaume wa Mints\", \"Mtu wa Mints wa Kanisa\", or a descriptive title such as \"Mwanaume wa Mints (Mtu wa Mints)\". If you wish to preserve a concise title, \"Mwanaume wa Mints\" is preferable.",
-      "translation_quote": "Mtu wa Mints"
+      "source_quote": "Every Sunday morning, he would crane his neck in search of the hoary head of the fellowship’s oldest member",
+      "suggested_fix": "Use an idiomatic Kiswahili verb for 'crane his neck' such as “aning'ama shingo” or “alikuwa akipandisha shingo” or “alikuwa akitikisa shingo kwa kutafuta”. Suggested replacement (preserving <p>…</p>): \"Kila Jumapili asubuhi, alikibwaga shingo kutafuta kichwa cha mwanachama mzee mwenye nywele za kijivu wa kikundi.\" or \"Kila Jumapili asubuhi, alibana shingo kutafuta kichwa cha mwanachama mzee mwenye nywele za kijivu wa kikundi.\"",
+      "translation_quote": "Kila Jumapili asubuhi, algekea shingo kutafuta kichwa cha mwanachama mzee mwenye nywele za kijivu wa kikundi, na kila wakati mama yake angesogeza macho kumtazama Dirk kwa mtazamo ulio maana, “Kaa kimya na tazama mbele.”"
+    },
+    {
+      "location": "Paragraph where Dirk uses his sleeve as handkerchief",
+      "severity": "minor",
+      "source_quote": "“I’m sorry. I didn’t think about it like that,” Dirk sniveled, using his sleeve as a handkerchief.",
+      "suggested_fix": "‘Sleeve’ should be translated as 'mkiuno' or better 'mshipa'/'mkembe' is not correct. Use 'mkono wake' or 'kichwani/mkia'—recommended: \"’Samahani. Sikufikiria hivyo,’ Dirk alihanikiza, akitumia mkono wake kama kitambaa cha kukausha machozi.\" Preserve surrounding <p>…</p>.",
+      "translation_quote": "“Samahani. Sikufikiria hivyo,” Dirk alihanikiza, akitumia mshipi wake kama kitambaa cha kukausha machozi."
     }
   ],
+  "finished_at": "2026-10-02T11:21:06+00:00",
   "id": "ee4da0dc4f97a1043cabb7d658eb32dd",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "swa",
@@ -130,13 +156,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/75a969c45055c429de95d7ac7fb5ad9ae24609ae4e6f17660c8fb6226abf6c70.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "cb49d9b32a113d5c0bf30e44cdec3451c0a5ce43ad2cf97a5830259f43dd1f79",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

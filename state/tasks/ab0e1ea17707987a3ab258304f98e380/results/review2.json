@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1fad295a-de45-4873-a75d-18751cb3018f",
+    "response_id": "chatcmpl-EUVaDDUCsXoTgvD64qs34hwfqPZMe",
+    "usage": {
+      "completion_tokens": 1276,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1541,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2817
+    }
+  },
+  "received_at": "2026-10-02T11:21:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> (estrofa 1, verso 3)",
+        "severity": "major",
+        "source_quote": "The true thy chartered freemen are\n  of every age and clime:",
+        "suggested_fix": "Translate “chartered freemen” to convey el sentido de ciudadanos libres con derechos garantizados por una carta o estatuto. Ejemplo de solución fiel al sentido en español: “Tus verdaderos ciudadanos con carta son / de toda edad y clima:” o “Tus verdaderos hombres libres, con derechos, son / de toda edad y clima:” Mantener la métrica y las etiquetas HTML tal como están.",
+        "translation_quote": "Tus verdaderos liberados son\n  de toda edad y clima:"
+      },
+      {
+        "location": "<div class=\"poem\"> (estrofa 2, verso 1 y 3)",
+        "severity": "minor",
+        "source_quote": "One holy church, one army strong,\n  one steadfast, high intent;\n  one working band, one harvest-song,",
+        "suggested_fix": "“One working band” se ha traducido como “una banda laboriosa”, pero en español moderno “banda” puede entenderse como grupo musical o banda armada. Recomiendo “un grupo trabajador” o “una tropa laboriosa” según el tono deseado. Ejemplo: “Una santa iglesia, un ejército fuerte, / una firme y noble intención; / un grupo trabajador, un canto de siega,”",
+        "translation_quote": "Una santa iglesia, un ejército fuerte,\n  una firme y noble intención;\n  una banda laboriosa, un canto de siega,"
+      },
+      {
+        "location": "<div class=\"poem\"> (estrofa 5, verso 3)",
+        "severity": "minor",
+        "source_quote": "unharmed upon the eternal Rock\n  the eternal city stands.",
+        "suggested_fix": "La traducción “Roca” está capitalizada (“Roca eterna”). Aunque no es necesariamente incorrecto si se pretende personificar la Roca como símbolo teológico (Cristo), la capitalización puede ser inconsistente con el resto del texto. Si no se desea personificación destacada, use “roca eterna” en minúscula. Ejemplo: “ilesa sobre la roca eterna / la ciudad eterna permanece.”",
+        "translation_quote": "ilesa sobre la Roca eterna\n  la ciudad eterna permanece."
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

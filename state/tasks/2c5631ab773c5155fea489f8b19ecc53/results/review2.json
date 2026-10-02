@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "bf14b0f0-98a7-4525-8bd9-790905e3c17b",
+    "response_id": "chatcmpl-EUVaCCs2Y3D1ENoXusnYjxGPWUMtN",
+    "usage": {
+      "completion_tokens": 806,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7807,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8613
+    }
+  },
+  "received_at": "2026-10-02T11:21:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Last paragraph before final closing (near end of article)",
+        "severity": "minor",
+        "source_quote": "Godly people throughout the ages have had their opportunity to serve the King and spread the message of the Kingdom of God, but they have moved on to eternity.",
+        "suggested_fix": "Correct the Italian typo and gender agreement. Replace “Persone pii attraverso i secoli hanno avuto la loro opportunità di servire il Re e diffondere il messaggio del Regno di Dio, ma sono passate all'eternità.” with “Persone pie, nel corso dei secoli, hanno avuto l’opportunità di servire il Re e di diffondere il messaggio del Regno di Dio, ma sono passate all’eternità.”",
+        "translation_quote": "Persone pii attraverso i secoli hanno avuto la loro opportunità di servire il Re e diffondere il messaggio del Regno di Dio, ma sono passate all'eternità."
+      },
+      {
+        "location": "Paragraph describing enlistment (boot camp)",
+        "severity": "minor",
+        "source_quote": "I remember the first day of boot camp when I joined the Marine Corps after graduating from high school.",
+        "suggested_fix": "Use a natural Italian rendering for the U.S. service name for clarity and idiom. Replace “mi arruolai nei Marine Corps” with “mi arruolai nei Marine Corps (Corpo dei Marines)” or “mi arruolai nei Marines\" so it reads idiomatically in contemporary Italian.",
+        "translation_quote": "Ricordo il primo giorno di addestramento quando mi arruolai nei Marine Corps dopo il diploma di scuola superiore."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}
