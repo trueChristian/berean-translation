@@ -193,12 +193,15 @@ class State:
                             f'{sum(t["status"] in ("not_ready","budget_blocked","source_error") for t in latest)} | '
                             f'{sum(t["status"]=="proposal" for t in latest)} |')
         recovery_policy = config.runtime.get('automatic_downstream_recovery', {})
-        allocated = sum(c.get('downstream_allocation_usd', 0) for c in self.campaigns()
-                        if c.get('downstream_recovery') and not c.get('dry_run'))
-        cap = recovery_policy.get('total_budget_usd', 0)
+        # Keep reporting on the same exact, non-recyclable ledger as acceptance.
+        # Local imports avoid the recovery modules' dependency on TERMINAL.
+        from .downstream import ledger
+        from .recovery import money
+        allocated, _ = ledger(self)
+        cap = money(recovery_policy.get('total_budget_usd', 0))
         if not recovery_policy.get('enabled'):
             recovery_status = 'Paused: new downstream recovery submissions are disabled; held work is not silently retried.'
-        elif cap - allocated < recovery_policy.get('campaign_budget_usd', 0):
+        elif allocated + money(recovery_policy.get('campaign_budget_usd', 0)) > cap:
             recovery_status = 'Budget blocked: the next hourly recovery envelope does not fit the remaining authorization.'
         else:
             recovery_status = 'Enabled: eligible held candidates can enter bounded hourly recovery; passing all gates is still required.'

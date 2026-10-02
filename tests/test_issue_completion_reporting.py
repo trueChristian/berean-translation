@@ -5,6 +5,7 @@ import unittest
 from pathlib import Path
 from berean_translation.common import ContractError, canonical
 from berean_translation.downstream import accept, ledger
+from berean_translation.recovery import money
 from berean_translation.validation import validate_repository
 from support import A, ISSUE, setup, queue, drive
 
@@ -91,3 +92,44 @@ class IssueCompletionTests(unittest.TestCase):
         text=self.state.path('STATUS.md').read_text()
         self.assertIn('2 held',text)
         self.assertEqual(len(self.state.projection(self.config)['articles']),2)
+
+    def test_recovery_report_uses_exact_lifetime_budget_boundary(self):
+        self.engine.discover()
+        self.engine.accept_request(queue(self.state))
+        # Seed two held candidates without preparing or submitting a batch.
+        for task in self.state.tasks():
+            source=self.state.source(task)
+            self.state.save_candidate(task,{'html':source['html'],
+                **{key:source['article'].get(key) for key in ('title','subtitle','section')}})
+            task.update(status='not_ready',stage='review2',failure_kind='quality_rejection',
+                        translation_model_actual=task['model'],translation_attempts=2,review_attempts=2)
+            self.state.save_task(task)
+        self.assertEqual(len(self.state.tasks()),2)
+        policy=self.config.runtime['automatic_downstream_recovery']
+        policy.update(enabled=True,total_budget_usd=.3,campaign_budget_usd=.2)
+        request={'id':'budget-boundary-first','operation':'repair','model':policy['model'],
+                 'review_model':policy['review_model'],'budget_usd':.1,'dry_run':False,'max_articles':1}
+        first=accept(self.engine,request)
+        self.assertEqual(len(first['tasks']),1)
+        self.assertEqual(ledger(self.state)[0],money('.1'))
+        before={str(path):path.read_bytes() for path in self.state.path('state').rglob('*.json')}
+        next_request={**request,'id':'budget-boundary-next','budget_usd':.2}
+
+        for cap,status in ((.299999,'Budget blocked:'),(.3,'Enabled:')):
+            with self.subTest(cap=cap):
+                policy['total_budget_usd']=cap
+                self.state.derive(self.config)
+                text=self.state.path('STATUS.md').read_text()
+                self.assertIn(status,text)
+                self.assertIn('Accepted lifetime recovery allocations: $0.100000 / $0.30.',text)
+                self.assertEqual(before,{str(path):path.read_bytes() for path in self.state.path('state').rglob('*.json')})
+                validate_repository(self.config)
+                if cap < .3:
+                    with self.assertRaisesRegex(ContractError,'lifetime spending envelope exhausted'):
+                        accept(self.engine,next_request)
+
+        second=accept(self.engine,next_request)
+        self.assertEqual(len(second['tasks']),1)
+        self.assertEqual(ledger(self.state)[0],money('.3'))
+        self.assertEqual(self.provider.create_calls,0)
+        self.assertEqual(self.provider.upload_calls,0)

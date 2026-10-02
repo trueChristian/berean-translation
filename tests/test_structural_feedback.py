@@ -165,6 +165,25 @@ class StructuralFeedbackTests(StructuralFeedbackAssertions, unittest.TestCase):
         self.assertIn('PRÈS DE LA VRAIE DIFFÉRENCE', findings[0]['translation_quote'])
         self.assertLessEqual(len(findings[0]['source_quote']), 600)
 
+    def test_unicode_and_cr_separators_before_newline_keep_exact_later_block_quotes(self):
+        # HTMLParser increments its line number only for LF. Other characters
+        # accepted by str.splitlines must remain columns within the same line.
+        for separator in ('\r', '\x85', '\u2028', '\u2029', '\v', '\f',
+                          '\x1c', '\x1d', '\x1e', '\r\n', '\n'):
+            with self.subTest(separator=repr(separator)):
+                source, candidate = documents(
+                    '<p>AAA' + separator + 'old block ' * 150 + '</p>\n'
+                    '<p>Before <em>REQUIRED</em> after.</p>',
+                    '<p>BBB' + separator + 'ancien bloc ' * 160 + '</p>\n'
+                    '<p>Avant NÉCESSAIRE après.</p>')
+                findings = self.rejected_findings(source, candidate)
+                self.assertEqual(len(findings), 1)
+                self.assertIn('/article[1]/p[2]/em[1]', findings[0]['location'])
+                self.assertEqual(findings[0]['source_quote'],
+                                 '<p>Before <em>REQUIRED</em> after.</p>')
+                self.assertEqual(findings[0]['translation_quote'],
+                                 '<p>Avant NÉCESSAIRE après.</p>')
+
     def test_excess_differences_have_one_explicit_omitted_marker(self):
         source = ''.join(f'<p id="source-{i}">Point {i}.</p>' for i in range(25))
         candidate = ''.join(f'<p id="changed-{i}">Point {i}.</p>' for i in range(25))

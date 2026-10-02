@@ -20,9 +20,10 @@ class EvidenceFragment(Fragment):
     """Record raw source spans alongside the unchanged strict parser events."""
     def __init__(self, text, article_id):
         self.raw = text
-        self.line_offsets = [0]
-        for line in text.splitlines(keepends=True):
-            self.line_offsets.append(self.line_offsets[-1] + len(line))
+        # HTMLParser.getpos() counts LF only, unlike str.splitlines(), which
+        # also treats CR and Unicode separators as line breaks. Match the
+        # parser exactly so later excerpts retain their raw-document offsets.
+        self.line_offsets = [0] + [index + 1 for index, char in enumerate(text) if char == '\n']
         self.event_offsets = []
         self.spans = {}
         self.open_offsets = {}
