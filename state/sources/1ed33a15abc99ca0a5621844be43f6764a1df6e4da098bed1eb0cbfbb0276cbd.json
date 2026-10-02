@@ -1,0 +1,57 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Samuel Longfellow"
+        }
+      ],
+      "raw": "— Samuel Longfellow"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9",
+    "images": [
+      {
+        "alt": "A lone bare tree in a snowy field",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg",
+        "repository_path": "public/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg",
+        "rights_note": "No separate credit is stated for this image on printed page 11; rely on the publisher permission reported by the project owner.",
+        "role": "poem background",
+        "sequence": 1,
+        "source_page": 11
+      }
+    ],
+    "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Poem",
+    "sequence": 5,
+    "series": null,
+    "source_pages": {
+      "end": 11,
+      "start": 11
+    },
+    "subtitle": null,
+    "title": "Winter Song",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "5b295186f35cc99546268467982c1af324a1d81ecd6ba4965e2f261f8f654bef",
+    "metadata_sha256": "f170c7b316383444353189f4ac5a1af14fe0855a25ab67d70714ab78a102706f",
+    "structure_sha256": "73e0e5e0487fd175bb9beb648e66cdcea8eb533ed51dffb34432f69659143f29",
+    "text_sha256": "fbfedca293a3b81a0575f314543ace5c1aaf86e7748a5e4ec6f07022f69c6af5",
+    "translation_metadata_sha256": "e542b16e51d60bb5cb000b57bdb01e1c8b56e5b854a9f4fe7940ac016ab5d492"
+  },
+  "html": "<article data-article-id=\"f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9\">\n<figure>\n  <img src=\"/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg\" alt=\"A lone bare tree in a snowy field\">\n</figure>\n\n<div class=\"poem\">\n  <p>'Tis winter now; the fallen snow<br>\n  has left the heavens all coldly clear;<br>\n  through leafless boughs, the sharp winds blow,<br>\n  and all the earth lies dead and drear.</p>\n\n  <p>And yet God's love is not withdrawn;<br>\n  his life within the keen air breathes;<br>\n  his beauty paints the crimson dawn,<br>\n  and clothes each branch with glittering wreaths.</p>\n\n  <p>And though abroad the sharp winds blow,<br>\n  and skies are chill, and frosts are keen,<br>\n  home closer draws her circle now,<br>\n  and warmer glows her light within.</p>\n\n  <p>O God, you give the winter's cold,<br>\n  as well as summer's joyous rays,<br>\n  you warmly in your love enfold,<br>\n  and keep us through life's wintry days.</p>\n</div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+  "translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712"
+}
