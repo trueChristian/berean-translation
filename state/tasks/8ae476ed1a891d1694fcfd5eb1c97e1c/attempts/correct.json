@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:59:50+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"ee9ff8a9-5b59-4b3e-9585-ab891c945bb5\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5-1.jpg\\\" alt=\\\"Una strada coperta di neve che serpeggia attraverso una foresta di sempreverdi\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>La vita è come un sentiero tortuoso<br>\\n    Per la moltitudine delle anime,<br>\\n    Che camminano svelte in avanti,<br>\\n    Ignare della loro meta finale.</p>\\n\\n    <p>La vita è per lo più ciò che ne facciamo,<br>\\n    Dritta o storta, una delle due;<br>\\n    Riceveremo proprio ciò che meritiamo—<br>\\n    La nostra perdita o il nostro guadagno eterno.</p>\\n\\n    <p>O care anime! sul sentiero della vita,<br>\\n    Appoggiatevi sul petto del vostro Salvatore;<br>\\n    Lì nessun nemico potrà mai molestarvi,<br>\\n    Finché non raggiungerete il riposo eterno.</p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Il sentiero della vita\"}",
+    "content_bytes": 969,
+    "content_evidence_truncated": false,
+    "content_sha256": "c5321aa7f79e944bc8d67b58d6250aeb103758116c46d857bd435f5648511db6",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 466,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2064,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2530
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

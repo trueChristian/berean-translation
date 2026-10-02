@@ -6,6 +6,12 @@
       "campaign": "gh-37007882719",
       "event": "requested",
       "task": "9cd44e1ca87c907a96f4a305fe06f8c9"
+    },
+    {
+      "at": "2026-10-02T12:59:50+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/blockquote[11]/p[1]; missing: none; extra: 12:28",
+      "task": "9cd44e1ca87c907a96f4a305fe06f8c9"
     }
   ],
   "language": "spa",

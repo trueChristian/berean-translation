@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:59:51+00:00",
+  "response": {
+    "content": "{\n  \"html\": \"<article data-article-id=\\\"ee9ff8a9-5b59-4b3e-9585-ab891c945bb5\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5-1.jpg\\\" alt=\\\"Barabara iliyofunikwa na theluji ikipinda kupitia msitu wa miti ya kijani kibichi\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Maisha ni kama njia inayopinda<br>\\n    Kwa umati wa roho,<br>\\n    Wanaoendelea kwa kasi mbele,<br>\\n    Bila kujali lengo lao la mwisho.</p>\\n\\n    <p>Maisha kwa kiasi kikubwa ni tunachokifanya,<br>\\n    Iwe nyororo au yenye kupinda, moja kati ya mbili;<br>\\n    Tutapokea tu tuliyostahili—<br>\\n    Hasara yetu au faida ya milele.</p>\\n\\n    <p>Ewe roho mpenzi! kwenye njia ya maisha,<br>\\n    Egeukeni juu ya kifua cha Mwokozi wenu;<br>\\n    Hakuna adui atakayekuudhi huko,<br>\\n    Hadi ufikie mapumziko ya milele.</p>\\n  </div>\\n</article>\\n\",\n  \"section\": null,\n  \"subtitle\": null,\n  \"title\": \"Njia ya Maisha\"\n}",
+    "content_bytes": 928,
+    "content_evidence_truncated": false,
+    "content_sha256": "4223f11583159c0b86fcc5ac3813632a478a4bfa8506f40e5720c0254a7d0ba7",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 805,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1858,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2663
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

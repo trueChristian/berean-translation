@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "source.html — first paragraph",
+      "severity": "major",
+      "source_quote": "When I was converted, I had never heard the term Anabaptist.",
+      "suggested_fix": "Translate the idea ‘when I became a Christian/was converted’ accurately. For example: \"כשהתנצרתי\" or \"כשהומרתי\". Preserve the surrounding HTML tags and order.",
+      "translation_quote": "כשאני הוספתי להאמין, מעולם לא שמעתי את המונח אנבפטיסט."
+    },
+    {
+      "location": "source.html — third paragraph (Matthew 4:23 / Matthew 9 citation)",
+      "severity": "critical",
+      "source_quote": "“And Jesus went about all Galilee, teaching in their synagogues, and preaching the gospel of the kingdom, and healing all manner of sickness and all manner of disease among the people.” Then in Matthew 9, when Jesus “saw the multitudes, he was moved with compassion on them... The harvest truly is plenteous, but the labourers are few; Pray ye therefore the Lord of the harvest, that he will send forth labourers into his harvest” (Matthew 9:36-38).",
+      "suggested_fix": "Translate the quoted Scripture accurately into Hebrew, preserving the chapter and verse numbers in their original positions. Do not invent words. For example: \"\"ויצא ישוע בכל גליליה, למד בבתי הכנסת שלהם והטיף את בשורת המלכות, ורפא כל מין מחלה וכל מין תחלואה בקרב העם\"\" and for Matthew 9:36–38 translate the quoted verses correctly and render the parenthetical reference in Hebrew form (e.g., \"(מתי ט:ל״ו–ל״ח)\" or keep numeric reference but translate surrounding text). Correct the mistranslation of 'labourers' (not 'מלאכים') to a proper Hebrew term such as 'פועלים' or 'עובדים'. Preserve HTML structure.",
+      "translation_quote": "...מצאתי פסוקים כמו מתי 4:23, \"ויצא ישוע בכל גליליה, הלמד בבתי הכנסת שלהם ובשקיע את בשורת הממלכה וירפא כל מחלה וכל תחלואה בקרב העם.\" ואז במתי 9, כאשר ישוע \"ראה את המון העם, הוא נחם עליהם, כי הם היו עייפים ומפוזרים כמו צאן שאין להם רע; אז אמר לתלמידיו, הקציר באמת רב והמלאכים מעטים; לכן תתפללו לאדון הקציר שיפיל פועלים לקצירו\" (Matthew 9:36-38)."
+    },
+    {
+      "location": "source.html — fifth paragraph (Acts quotation and English phrase)",
+      "severity": "major",
+      "source_quote": "“For we cannot but speak the things which we have seen and heard” (Acts 4:20). Later they were silenced—by death.",
+      "suggested_fix": "Translate the quoted Acts verse into Hebrew (e.g., \"כי איננו יכולים שלא לדבר את הדברים שראינו וששמענו\") and translate or remove the embedded English sentence fragment \"—the Gospel going out!\" that appears elsewhere. Ensure the chapter:verse reference (מעשי השליחים 4:20) is presented in Hebrew. Preserve HTML tags and order.",
+      "translation_quote": "אם תקראו את ספר מעשי השליחים, כמעט כל מה שרואים שם הוא—the Gospel going out! בסיפור אחד הרשויות עצרו את התלמידים ואמרו שהם יוכלו לשחררם אם רק ישתוקו. עם זאת, התלמידים אמרו שהם לא יכולים. \"כי אנחנו לא יכולים שלא לדבר את הדברים שראינו ושמענו\" (מעשי השליחים 4:20). מאוחר יותר הם הושתקו—במיתה."
+    },
+    {
+      "location": "source.html — paragraph quoting Matthew 10:22 and Romans 8:36",
+      "severity": "major",
+      "source_quote": "“And ye shall be hated of all men for my name's sake: but he that endureth to the end shall be saved” (Matt. 10:22). And in Romans 8:36, “As it is written, For thy sake we are killed all the day long; we are accounted as sheep for the slaughter.”",
+      "suggested_fix": "Translate both quoted verses accurately into Hebrew. Do not change meaning (e.g., 'killed all the day long' should be faithful: \"אנו מוצאים להרג כל היום\" or other accepted Hebrew idiom conveying continual persecution). Correct morphological errors such as 'מושחטים' which is incorrect. Preserve the verse reference positions.",
+      "translation_quote": "הם מילאו את הדברים שישו אמר, \"ואתם תושמזו על ידי כל האנשים בשמי: אבל זה שמעמיד עד הסוף הוא הניצל\" (מתי 10:22). וברומיים 8:36, \"כפי שכתוב, בשםך אנו מושחטים כל היום; נחשבים כאילנות לטבח.\""
+    },
+    {
+      "location": "source.html — paragraph about dislike from Christians",
+      "severity": "minor",
+      "source_quote": "I noticed, to my astonishment, that while many people didn’t like me, it was the people who said they were Christians who appeared to dislike me the most.",
+      "suggested_fix": "Correct the mistranslation that uses 'מסיטים' (seducers/led astray) which changes meaning. Use wording that conveys 'appeared to dislike me the most' (e.g., \"נראה שנוצרים אלה שנרשמו כאילו הם אינם מתחבבים לי כלפי חוץ יותר מכולם\" or simpler: \"נראה שהאנשים שאמרו שהם נוצרים לא אהבו אותי במיוחד\"). Preserve HTML tags and order.",
+      "translation_quote": "להפתעתי גיליתי שבזמן שרבים לא התחבבו עליי, אלה שאמרו שהם נוצרים נראו כמסיטים יותר."
+    },
+    {
+      "location": "source.html — multiple places — leftover English words/phrases",
+      "severity": "minor",
+      "source_quote": "The Martyr’s Mirror; the Gospel going out!; (Matthew 9:36-38) — English fragments appear in the English article as quoted text and references",
+      "suggested_fix": "Translate all substantive quoted phrases and ensure Scripture references use Hebrew book names and numeric references in the translated text. If a book title (like The Martyr’s Mirror) is to remain in English, confirm this is intentional; otherwise provide a Hebrew rendering or transliteration. Remove or translate isolated English exclamations such as 'the Gospel going out!'. Preserve HTML structure.",
+      "translation_quote": "הזמנתי עותק של <em>The Martyr’s Mirror</em> ונדהמתי... כמעט כל מה שרואים שם הוא—the Gospel going out!... (Matthew 9:36-38)."
+    },
+    {
+      "location": "source.html — paragraph about fleeing Anabaptists — word choice and anachronistic term",
+      "severity": "minor",
+      "source_quote": "They opened a furniture shop to support themselves, but they couldn’t sell any furniture because they were the dreaded Anabaptists.",
+      "suggested_fix": "The translation uses awkward or misleading phrasing such as 'האנבפטיסטים הנוראים' (literally 'the dreadful Anabaptists'), which adds tone not present in source. Replace with neutral phrase: \"מאחר שהיו אנבפטיסטים, לא יכלו למכור\" or \"מפני שנודעו כאנבפטיסטים, לא יכלו למכור\". Preserve HTML tags and order.",
+      "translation_quote": "...כי הם היו האנבפטיסטים הנוראים."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[3]; missing: 9:36-38; extra: none",
+  "stage": "terminal"
+}
