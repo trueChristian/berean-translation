@@ -3099,6 +3099,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
+      "html_sha256": "2fc5531369dfccd02f8d95d980021c69771960ff3ba2305c7e340e2a3ca7ac55",
+      "human_reviewed": false,
+      "id": "80e78d22-936e-48de-885a-f9a8898d5e42",
+      "images": [
+        {
+          "alt": "초록 초원을 함께 걷는 남자와 여자",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-1.jpg"
+        },
+        {
+          "alt": "갓난아기를 바라보는 아버지와 어머니",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-2.jpg"
+        },
+        {
+          "alt": "폭포 앞에 함께 서 있는 한 가족",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-3.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/80e78d22-936e-48de-885a-f9a8898d5e42.json",
+      "metadata_sha256": "4938d4ba4bdfb727baa53b0ff4e8ef95baeeb0d4ebd73d7369a607b10a7ae670",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "청소년을 위한 영감(INSPIRATIONS FOR YOUTH)",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
+      "status": "ready",
+      "subtitle": "남성과 여성에 대한 하나님의 계획",
+      "title": "그리스도를 중심으로 한 구혼",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
       "html_sha256": "bf01f43b702851153ad7f71c51d781e33749e553a6d000b3fa4f5a23abe6a939",
       "human_reviewed": false,

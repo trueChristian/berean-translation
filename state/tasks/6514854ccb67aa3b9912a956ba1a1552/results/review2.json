@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e274fe72-5063-46b0-b9db-d515d28e7a52",
+    "response_id": "chatcmpl-EUL8DSRKsBwGt0u4GWEK4HtAKSQyK",
+    "usage": {
+      "completion_tokens": 1070,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12541,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13611
+    }
+  },
+  "received_at": "2026-10-02T00:12:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "INSPIRATIONS FOR YOUTH",
+        "suggested_fix": "Make the translated section field match the source section exactly. Replace \"청소년을 위한 영감(INSPIRATIONS FOR YOUTH)\" with exactly \"INSPIRATIONS FOR YOUTH\" or, if a localized section name is required, provide only the faithful Korean equivalent without adding the original English in parentheses (e.g. \"청소년을 위한 영감\").",
+        "translation_quote": "청소년을 위한 영감(INSPIRATIONS FOR YOUTH)"
+      },
+      {
+        "location": "p (Goals) — Goal #3",
+        "severity": "minor",
+        "source_quote": "That parents would get a burden to lead each one of their children into the perfect will of God for their lives.",
+        "suggested_fix": "Edit the Korean wording to remove the redundant possessive and read more naturally while preserving the author's theology. For example: replace \"부모들이 각 자녀를 하나님의 그분의 완전한 뜻으로 인도하려는 부담을 갖게 하는 것.\" with \"부모들이 각 자녀를 하나님의 완전한 뜻으로 인도하려는 부담을 갖게 하는 것.\"",
+        "translation_quote": "부모들이 각 자녀를 하나님의 그분의 완전한 뜻으로 인도하려는 부담을 갖게 하는 것."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}
