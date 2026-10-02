@@ -1,0 +1,269 @@
+{
+  "format_version": 1,
+  "description": "Authentic minimal complete paragraph/caption excerpts from held production candidates. Text and tags inside each selected block are verbatim; only article wrappers and a figure wrapper for the caption are reconstructed. Omitted surrounding article content causes excerpt-relative paragraph paths to be renumbered. These are diagnostic regression inputs, not repaired translations.",
+  "translation_repository": "trueChristian/berean-translation",
+  "snapshot_revision": "2ef0b1a87f9cdc45cb9a83a50a599863d653fa02",
+  "cases": [
+    {
+      "id": "nero_missing_em",
+      "article_id": "22957e4c-ccce-4a76-b982-60e61ec6b998",
+      "title": "Nero: Life of an Emperor",
+      "language": "afr",
+      "source_html": "<article data-article-id=\"22957e4c-ccce-4a76-b982-60e61ec6b998\">\n<p>So, here is a man corrupt in every way. His lifestyle was deeply offensive to Christianity, and his persecution was one of the most horrible in history. How would we respond to such a ruler? How <em>did</em> Christians respond to him?</p>\n</article>",
+      "translation_html": "<article data-article-id=\"22957e4c-ccce-4a76-b982-60e61ec6b998\">\n<p>So, hier is ’n man wat in elke opsig korrup is. Sy leefstyl was diep aanstootlik vir die Christendom, en sy vervolging was een van die gruwelikste in die geskiedenis. Hoe sou ons op so ’n heerser reageer? Hoe het Christene op hom gereageer?</p>\n</article>",
+      "expected_source_paths": [
+        "/article[1]/p[1]/em[1]"
+      ],
+      "provenance": {
+        "task_id": "d099adde14dc97f1d1c72ca10cbee4c2",
+        "campaign_id": "gh-37008082026",
+        "candidate_stage": "correct",
+        "source_path": "state/sources/63e45266e1ece0020fa4e0801f2032bd095a929884b27576916c4fac6e71e266.json",
+        "result_path": "state/tasks/d099adde14dc97f1d1c72ca10cbee4c2/results/correct.json",
+        "original_source_paths": [
+          "/article[1]/p[13]"
+        ],
+        "english_repository": "trueChristian/berean-voice",
+        "english_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+        "english_url": "https://github.com/trueChristian/berean-voice/blob/7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b/content/articles/22957e4c-ccce-4a76-b982-60e61ec6b998.html",
+        "files": [
+          {
+            "path": "state/sources/63e45266e1ece0020fa4e0801f2032bd095a929884b27576916c4fac6e71e266.json",
+            "sha256": "d43b4e87fc14e98eb1716bcbce66699c1af3f41592cdfcd1b6d04d7ebb2cdad1",
+            "url": "https://github.com/trueChristian/berean-translation/blob/2ef0b1a87f9cdc45cb9a83a50a599863d653fa02/state/sources/63e45266e1ece0020fa4e0801f2032bd095a929884b27576916c4fac6e71e266.json"
+          },
+          {
+            "path": "state/tasks/d099adde14dc97f1d1c72ca10cbee4c2/task.json",
+            "sha256": "f2837988da8c6c2c4938a27ca152a077100fb3ad69ba256e97609cfd94dfb4eb",
+            "url": "https://github.com/trueChristian/berean-translation/blob/2ef0b1a87f9cdc45cb9a83a50a599863d653fa02/state/tasks/d099adde14dc97f1d1c72ca10cbee4c2/task.json"
+          },
+          {
+            "path": "state/tasks/d099adde14dc97f1d1c72ca10cbee4c2/candidate.json",
+            "sha256": "56575b95f08c7fb038527b8d249662f9857065d42f9c76add8877a81cd2dd41a",
+            "url": "https://github.com/trueChristian/berean-translation/blob/2ef0b1a87f9cdc45cb9a83a50a599863d653fa02/state/tasks/d099adde14dc97f1d1c72ca10cbee4c2/candidate.json"
+          },
+          {
+            "path": "state/tasks/d099adde14dc97f1d1c72ca10cbee4c2/results/translate.json",
+            "sha256": "2b296bedc08a8e9a305f955aacd40172415342edbdb5f1b5a5a4a6682097db3f",
+            "url": "https://github.com/trueChristian/berean-translation/blob/2ef0b1a87f9cdc45cb9a83a50a599863d653fa02/state/tasks/d099adde14dc97f1d1c72ca10cbee4c2/results/translate.json"
+          },
+          {
+            "path": "state/tasks/d099adde14dc97f1d1c72ca10cbee4c2/results/correct.json",
+            "sha256": "f162c95f0b3b72e62eb5fb7e4ff70dc67a2d3227ef40d4622d3440962ee9c691",
+            "url": "https://github.com/trueChristian/berean-translation/blob/2ef0b1a87f9cdc45cb9a83a50a599863d653fa02/state/tasks/d099adde14dc97f1d1c72ca10cbee4c2/results/correct.json"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mandarin_disjoint_emphasis",
+      "article_id": "34125090-b480-4d63-b13a-33d47470f335",
+      "title": "A Call to Holiness",
+      "language": "cmn",
+      "source_html": "<article data-article-id=\"34125090-b480-4d63-b13a-33d47470f335\">\n<p><em>And when he saw their faith, he said unto him, Man, thy sins are forgiven thee –Luke 5:20.</em> They sought healing, but Jesus saw the deeper need of this man’s soul, so He offered forgiveness. This, of course, raised the ire of the Pharisees who <em>…began to reason, saying, Who is this which speaketh blasphemies? Who can forgive sins, but God alone? –Luke 5:21.</em> They were right, only God can forgive sins, but what they did not want to believe was that Jesus was God’s Son and that thus He had did have the power to forgive sins. So, Jesus went on to say: <em>…What reason ye in your hearts? Whether is easier, to say, Thy sins be forgiven thee; or to say, Rise up and walk? <strong>But that ye may know that the Son of man hath power upon earth to forgive sins</strong>, (he said unto the sick of the palsy,) I say unto thee, Arise, and take up thy couch, and go into thine house –Luke 5:22-24.</em></p>\n<p>In Augustus Toplady’s famous hymn, <em>Rock of Ages</em> we find this line–</p>\n</article>",
+      "translation_html": "<article data-article-id=\"34125090-b480-4d63-b13a-33d47470f335\">\n<p><em>耶稣看见他们的信，就对那病人说：人哪，你的罪赦了──路加福音 5:20。</em>他们是来求医治的，但耶稣看见此人灵魂更深的需要，所以他赐下了赦罪。当然，这激怒了法利赛人，他们<em>…心里议论说，这人说僭妄的话了，谁能赦罪，只有神一位能赦──路加福音 5:21。</em>他们说得没错，只有神能赦罪，但他们不愿意相信耶稣是神的儿子，因此也不肯承认他有赦罪的权柄。于是耶稣接着说：<em>你们心里为什么这样议论呢？说：你的罪赦了，容易呢，还是说：起来行走，容易呢？但要叫你们知道人子在地上有赦罪的权柄，（就对那瘫子说，）我吩咐你起床，拿你的褥子回家去吧──路加福音 5:22-24。</em></p>\n<p>在奥古斯都·托普莱迪著名的圣诗《磐石》中，我们找到这句——</p>\n</article>",
+      "expected_source_paths": [
+        "/article[1]/p[1]/em[3]/strong[1]",
+        "/article[1]/p[2]/em[1]"
+      ],
+      "provenance": {
+        "task_id": "ecbccbf99127125ed6d3e936e24400d4",
+        "campaign_id": "gh-37008082026",
+        "candidate_stage": "translate",
+        "source_path": "state/sources/21c8641ce0ae285627965ca28d18397c39ccff0fa09ba301857fc1d0049b6b9d.json",
+        "result_path": "state/tasks/ecbccbf99127125ed6d3e936e24400d4/results/translate.json",
+        "original_source_paths": [
+          "/article[1]/p[14]",
+          "/article[1]/p[32]"
+        ],
+        "english_repository": "trueChristian/berean-voice",
+        "english_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+        "english_url": "https://github.com/trueChristian/berean-voice/blob/7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b/content/articles/34125090-b480-4d63-b13a-33d47470f335.html",
+        "files": [
+          {
+            "path": "state/sources/21c8641ce0ae285627965ca28d18397c39ccff0fa09ba301857fc1d0049b6b9d.json",
+            "sha256": "32999b656a76c63b12152662ae896a1bf80a95874a9bd93913a36d1c353efdcd",
+            "url": "https://github.com/trueChristian/berean-translation/blob/2ef0b1a87f9cdc45cb9a83a50a599863d653fa02/state/sources/21c8641ce0ae285627965ca28d18397c39ccff0fa09ba301857fc1d0049b6b9d.json"
+          },
+          {
+            "path": "state/tasks/ecbccbf99127125ed6d3e936e24400d4/task.json",
+            "sha256": "39340369ab97175a42019f650f21df07b7f9db8fc73d78d05a999c37064ed199",
+            "url": "https://github.com/trueChristian/berean-translation/blob/2ef0b1a87f9cdc45cb9a83a50a599863d653fa02/state/tasks/ecbccbf99127125ed6d3e936e24400d4/task.json"
+          },
+          {
+            "path": "state/tasks/ecbccbf99127125ed6d3e936e24400d4/candidate.json",
+            "sha256": "74d16c095fd341fe7334dfd4aaf83fb30c67099dceea3393abff82bc36ad0282",
+            "url": "https://github.com/trueChristian/berean-translation/blob/2ef0b1a87f9cdc45cb9a83a50a599863d653fa02/state/tasks/ecbccbf99127125ed6d3e936e24400d4/candidate.json"
+          },
+          {
+            "path": "state/tasks/ecbccbf99127125ed6d3e936e24400d4/results/translate.json",
+            "sha256": "2ea9937e9cb10f39f49723df92661d9272497647a1497ce2eda062fbb3343479",
+            "url": "https://github.com/trueChristian/berean-translation/blob/2ef0b1a87f9cdc45cb9a83a50a599863d653fa02/state/tasks/ecbccbf99127125ed6d3e936e24400d4/results/translate.json"
+          },
+          {
+            "path": "state/tasks/ecbccbf99127125ed6d3e936e24400d4/results/correct.json",
+            "sha256": "15dcb0894192f7b71f51797f5f32fb57d84ef8b53b2fbc410e84dfa03c3e078e",
+            "url": "https://github.com/trueChristian/berean-translation/blob/2ef0b1a87f9cdc45cb9a83a50a599863d653fa02/state/tasks/ecbccbf99127125ed6d3e936e24400d4/results/correct.json"
+          }
+        ]
+      },
+      "corrected_html": "<article data-article-id=\"34125090-b480-4d63-b13a-33d47470f335\">\n<p><em>耶稣看见他们的信，就对那病人说：人哪，你的罪赦了──路加福音 5:20。</em>他们是来求医治的，但耶稣看见此人灵魂更深的需要，所以他赐下了赦罪。当然，这激怒了法利赛人，他们<em>…心里议论说，这人说僭妄的话了，谁能赦罪，只有神一位能赦──路加福音 5:21。</em>他们说得没错，只有神能赦罪，但他们不愿意相信耶稣是神的儿子，因此也不肯承认他有赦罪的权柄。于是耶稣接着说：<em>你们心里为什么这样议论呢？说：你的罪赦了，容易呢，还是说：起来行走，容易呢？<strong>但要叫你们知道人子在地上有赦罪的权柄</strong>，（就对那瘫子说，）我吩咐你起床，拿你的褥子回家去吧──路加福音 5:22-24。</em></p>\n<p>在奥古斯都·托普莱迪著名的圣诗《磐石》中，我们找到这句——</p>\n</article>",
+      "corrected_expected_source_paths": [
+        "/article[1]/p[2]/em[1]"
+      ]
+    },
+    {
+      "id": "bicycle_race_missing_breaks",
+      "article_id": "a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3",
+      "title": "THE BICYCLE RACE",
+      "language": "urd",
+      "source_html": "<article data-article-id=\"a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3\">\n<figure><figcaption>\"PRIDE GOETH BEFORE<br>\n    DESTRUCTION, AND AN<br>\n    HAUGHTY SPIRIT BEFORE<br>\n    A FALL\"<br>\n    -PROVERBS 16:18</figcaption></figure>\n</article>",
+      "translation_html": "<article data-article-id=\"a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3\">\n<figure><figcaption>\"غرور ہلاکت سے پہلے آتا ہے،<br>\n    اور متکبر روح گِرنے سے پہلے\"<br>\n    -امثال 16:18</figcaption></figure>\n</article>",
+      "expected_source_paths": [
+        "/article[1]/figure[1]/figcaption[1]/br[3]"
+      ],
+      "provenance": {
+        "task_id": "e6e15eec72d86db0617aa2f73d4c16e6",
+        "campaign_id": "gh-37007882719",
+        "candidate_stage": "correct",
+        "source_path": "state/sources/b3f16398a20747d67e66eb67dbc050ebc81f356a674a0f664b03d16556ad5ae2.json",
+        "result_path": "state/tasks/e6e15eec72d86db0617aa2f73d4c16e6/results/correct.json",
+        "original_source_paths": [
+          "/article[1]/figure[1]/figcaption[1]"
+        ],
+        "english_repository": "trueChristian/berean-voice",
+        "english_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+        "english_url": "https://github.com/trueChristian/berean-voice/blob/7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b/content/articles/a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3.html",
+        "files": [
+          {
+            "path": "state/sources/b3f16398a20747d67e66eb67dbc050ebc81f356a674a0f664b03d16556ad5ae2.json",
+            "sha256": "f6148624892980d248d3ac61edc318ea1236316e3bad1320b0c3c0a3400e0495",
+            "url": "https://github.com/trueChristian/berean-translation/blob/2ef0b1a87f9cdc45cb9a83a50a599863d653fa02/state/sources/b3f16398a20747d67e66eb67dbc050ebc81f356a674a0f664b03d16556ad5ae2.json"
+          },
+          {
+            "path": "state/tasks/e6e15eec72d86db0617aa2f73d4c16e6/task.json",
+            "sha256": "f8b1b7be1529e17e20b5420146285c68b5c67bbb78e88b0d714e1a72eda5ff29",
+            "url": "https://github.com/trueChristian/berean-translation/blob/2ef0b1a87f9cdc45cb9a83a50a599863d653fa02/state/tasks/e6e15eec72d86db0617aa2f73d4c16e6/task.json"
+          },
+          {
+            "path": "state/tasks/e6e15eec72d86db0617aa2f73d4c16e6/candidate.json",
+            "sha256": "8ededb1366bc27753a660c38149264fc8726526376908ae85a289974ac67e6bf",
+            "url": "https://github.com/trueChristian/berean-translation/blob/2ef0b1a87f9cdc45cb9a83a50a599863d653fa02/state/tasks/e6e15eec72d86db0617aa2f73d4c16e6/candidate.json"
+          },
+          {
+            "path": "state/tasks/e6e15eec72d86db0617aa2f73d4c16e6/results/translate.json",
+            "sha256": "785820d9f715af3cdd09783d5f4b68cf43c13b437bd212640566163f7346e65e",
+            "url": "https://github.com/trueChristian/berean-translation/blob/2ef0b1a87f9cdc45cb9a83a50a599863d653fa02/state/tasks/e6e15eec72d86db0617aa2f73d4c16e6/results/translate.json"
+          },
+          {
+            "path": "state/tasks/e6e15eec72d86db0617aa2f73d4c16e6/results/correct.json",
+            "sha256": "849e274a3e2a53f2a38e1e5324301f0f56e6f111b0669dfb6d337796ba61ca3f",
+            "url": "https://github.com/trueChristian/berean-translation/blob/2ef0b1a87f9cdc45cb9a83a50a599863d653fa02/state/tasks/e6e15eec72d86db0617aa2f73d4c16e6/results/correct.json"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cancer_missing_sup",
+      "article_id": "d38bf79f-957f-413c-ad4d-a6b4fa8c8112",
+      "title": "Cancer… What Is It?",
+      "language": "ind",
+      "source_html": "<article data-article-id=\"d38bf79f-957f-413c-ad4d-a6b4fa8c8112\">\n<p>We know that before the flood, men lived to be very old—often into their 900s. Mutations must have been rare. Their DNA was closer to the original genetic specimen of mankind (and thus, to perfection) than ours is in the 21<sup>st</sup> century (AD) Therefore, the chance of genes mutating and abnormal genes popping up was much less than it is now.</p>\n</article>",
+      "translation_html": "<article data-article-id=\"d38bf79f-957f-413c-ad4d-a6b4fa8c8112\">\n<p>Kita tahu bahwa sebelum banjir, orang hidup sangat tua—sering mencapai usia 900-an. Mutasi pasti jarang. DNA mereka lebih dekat ke spesimen genetik asli umat manusia (dan dengan demikian, ke kesempurnaan) daripada DNA kita di abad ke-21 M. Oleh karena itu, kemungkinan gen bermutasi dan gen abnormal muncul jauh lebih kecil daripada sekarang.</p>\n</article>",
+      "expected_source_paths": [
+        "/article[1]/p[1]/sup[1]"
+      ],
+      "provenance": {
+        "task_id": "f232ad66dfbc5d2660aac72cb6d32a7b",
+        "campaign_id": "gh-37007803504",
+        "candidate_stage": "correct",
+        "source_path": "state/sources/c359f5eb7511bee303f2540e716a2b918a181459a9c7bd95ec949a6df55470c5.json",
+        "result_path": "state/tasks/f232ad66dfbc5d2660aac72cb6d32a7b/results/correct.json",
+        "original_source_paths": [
+          "/article[1]/p[18]"
+        ],
+        "english_repository": "trueChristian/berean-voice",
+        "english_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+        "english_url": "https://github.com/trueChristian/berean-voice/blob/7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b/content/articles/d38bf79f-957f-413c-ad4d-a6b4fa8c8112.html",
+        "files": [
+          {
+            "path": "state/sources/c359f5eb7511bee303f2540e716a2b918a181459a9c7bd95ec949a6df55470c5.json",
+            "sha256": "d9412409cfa033c8da32bd0e5e4ef3ed95e370b0c2d381c37575b0e678b55c4c",
+            "url": "https://github.com/trueChristian/berean-translation/blob/2ef0b1a87f9cdc45cb9a83a50a599863d653fa02/state/sources/c359f5eb7511bee303f2540e716a2b918a181459a9c7bd95ec949a6df55470c5.json"
+          },
+          {
+            "path": "state/tasks/f232ad66dfbc5d2660aac72cb6d32a7b/task.json",
+            "sha256": "921d34fffc82dc561b57bea2764bda00ab05a54e44bf30207889cc67f670b7ba",
+            "url": "https://github.com/trueChristian/berean-translation/blob/2ef0b1a87f9cdc45cb9a83a50a599863d653fa02/state/tasks/f232ad66dfbc5d2660aac72cb6d32a7b/task.json"
+          },
+          {
+            "path": "state/tasks/f232ad66dfbc5d2660aac72cb6d32a7b/candidate.json",
+            "sha256": "a46e11f876075cf848e09a18dd239dc440a1e979ca219bb50c3a97e6ed3e88e5",
+            "url": "https://github.com/trueChristian/berean-translation/blob/2ef0b1a87f9cdc45cb9a83a50a599863d653fa02/state/tasks/f232ad66dfbc5d2660aac72cb6d32a7b/candidate.json"
+          },
+          {
+            "path": "state/tasks/f232ad66dfbc5d2660aac72cb6d32a7b/results/translate.json",
+            "sha256": "f38c83d69af8e68356fecbc5cc6d8dd8061a00342011f528681ad7f686d3d238",
+            "url": "https://github.com/trueChristian/berean-translation/blob/2ef0b1a87f9cdc45cb9a83a50a599863d653fa02/state/tasks/f232ad66dfbc5d2660aac72cb6d32a7b/results/translate.json"
+          },
+          {
+            "path": "state/tasks/f232ad66dfbc5d2660aac72cb6d32a7b/results/correct.json",
+            "sha256": "5718d659a5055c21f41ec25db3305c4352c9ad5b428d54c51068c142f861db18",
+            "url": "https://github.com/trueChristian/berean-translation/blob/2ef0b1a87f9cdc45cb9a83a50a599863d653fa02/state/tasks/f232ad66dfbc5d2660aac72cb6d32a7b/results/correct.json"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiritual_gifts_split_strong",
+      "article_id": "e8bdb12c-2e8e-4f55-9052-07bec6e103a1",
+      "title": "Spiritual Gifts",
+      "language": "ita",
+      "source_html": "<article data-article-id=\"e8bdb12c-2e8e-4f55-9052-07bec6e103a1\">\n<p>In the case of church difficulty that seems to be due to the lack of gifting among the ordained, we need to consider the following verses. <em>Who is a wise man and endued with knowledge among you? let him shew out of <strong>a good conversation</strong> his works with <strong>meekness of wisdom</strong>. But if ye have <strong>bitter envying and strife in your hearts</strong>, glory not, and <strong>lie not against the truth</strong>. <u>This wisdom descendeth not from above, but is earthly, sensual, devilish.</u> For where envying and strife is, there is confusion and every evil work. But the wisdom that is from above is first <strong>pure</strong>, then <strong>peaceable</strong>, <strong>gentle</strong>, and <strong>easy to be intreated, full of mercy</strong> and <strong>good fruits</strong>, <strong>without partiality</strong>, and <strong>without hypocrisy</strong>. And the fruit of righteousness is sown in peace of them that make peace. –James 3:13-18. </em>Very rare is the case of church trouble involving church leadership when there is not a major lack by one or more of the ordained to be fully living out of God’s will and wisdom as defined herein.</p>\n</article>",
+      "translation_html": "<article data-article-id=\"e8bdb12c-2e8e-4f55-9052-07bec6e103a1\">\n<p>Nel caso di difficoltà della chiesa che sembrano dovute alla mancanza di doni tra gli ordinati, dobbiamo considerare i seguenti versetti. <em>Chi è tra di voi uomo saggio e dotato di conoscenza? <strong>mostrando dalla sua buona condotta</strong> le sue opere con <strong>dolcezza di sapienza</strong>. Ma se avete <strong>amare invidia e contesa nei vostri cuori</strong>, non gloriate e non <strong>mentite contro la verità</strong>. <u>Questa sapienza non discende dall’alto, ma è terrestre, sensuale, diabolica.</u> Poiché dove c’è invidia e contesa, c’è disordine e ogni opera cattiva. Ma la sapienza che viene dall’alto è prima d’ogni cosa <strong>pura</strong>, poi <strong>pacifica</strong>, <strong>mite</strong>, <strong>facile da persuadere</strong>, <strong>piena di misericordia</strong> e <strong>di buoni frutti</strong>, <strong>senza parzialità</strong> e <strong>senza ipocrisia</strong>. E il frutto della giustizia è seminato in pace per quelli che procurano pace. – Giacomo 3:13-18.</em> Molto raro è il caso di problemi nella chiesa che riguardano la leadership quando non si riscontri una mancanza grave da parte di uno o più degli ordinati nel vivere pienamente della volontà e della sapienza di Dio come qui definito.</p>\n</article>",
+      "expected_source_paths": [
+        "/article[1]/p[1]/em[1]"
+      ],
+      "provenance": {
+        "task_id": "dce03f455893408d366bc57b90f2d172",
+        "campaign_id": "gh-37007962259",
+        "candidate_stage": "correct",
+        "source_path": "state/sources/67a504cb12c02775b3a5cd8c97e9fa11f83f53d153a1c4dc8214a7a72f95aa69.json",
+        "result_path": "state/tasks/dce03f455893408d366bc57b90f2d172/results/correct.json",
+        "original_source_paths": [
+          "/article[1]/p[15]"
+        ],
+        "english_repository": "trueChristian/berean-voice",
+        "english_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+        "english_url": "https://github.com/trueChristian/berean-voice/blob/7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b/content/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.html",
+        "files": [
+          {
+            "path": "state/sources/67a504cb12c02775b3a5cd8c97e9fa11f83f53d153a1c4dc8214a7a72f95aa69.json",
+            "sha256": "b7c5d5d2590adeaa0a5c91f27a5ca7cace3781741478e3580f46e5fb09f0c354",
+            "url": "https://github.com/trueChristian/berean-translation/blob/2ef0b1a87f9cdc45cb9a83a50a599863d653fa02/state/sources/67a504cb12c02775b3a5cd8c97e9fa11f83f53d153a1c4dc8214a7a72f95aa69.json"
+          },
+          {
+            "path": "state/tasks/dce03f455893408d366bc57b90f2d172/task.json",
+            "sha256": "f6195b08854ceed90098d1c66ee940110350d0dcb0062545c39b217ea1bbdfb9",
+            "url": "https://github.com/trueChristian/berean-translation/blob/2ef0b1a87f9cdc45cb9a83a50a599863d653fa02/state/tasks/dce03f455893408d366bc57b90f2d172/task.json"
+          },
+          {
+            "path": "state/tasks/dce03f455893408d366bc57b90f2d172/candidate.json",
+            "sha256": "ee1ba4dab0b372d9bf24120e75af475356154870caa43c6e40b9751ceff5d75a",
+            "url": "https://github.com/trueChristian/berean-translation/blob/2ef0b1a87f9cdc45cb9a83a50a599863d653fa02/state/tasks/dce03f455893408d366bc57b90f2d172/candidate.json"
+          },
+          {
+            "path": "state/tasks/dce03f455893408d366bc57b90f2d172/results/translate.json",
+            "sha256": "451c90e6810065f0cd74d0d9184c3f6c55b54abf383dfc2b61ab105a9857ffa5",
+            "url": "https://github.com/trueChristian/berean-translation/blob/2ef0b1a87f9cdc45cb9a83a50a599863d653fa02/state/tasks/dce03f455893408d366bc57b90f2d172/results/translate.json"
+          },
+          {
+            "path": "state/tasks/dce03f455893408d366bc57b90f2d172/results/correct.json",
+            "sha256": "1ef34bbf35f7cf483384f9e632bc11998b61e6cbd3e50e6e612473c93f68d051",
+            "url": "https://github.com/trueChristian/berean-translation/blob/2ef0b1a87f9cdc45cb9a83a50a599863d653fa02/state/tasks/dce03f455893408d366bc57b90f2d172/results/correct.json"
+          }
+        ]
+      }
+    }
+  ]
+}

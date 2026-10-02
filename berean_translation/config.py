@@ -83,6 +83,8 @@ class Config:
                 raise ContractError('Automatic source refresh permits at most five campaigns per discovery tick')
         from .downstream import validate_policy
         validate_policy(self)
+        if self.runtime.get('structural_feedback_version') not in (None, '1'):
+            raise ContractError('Unsupported structural correction feedback version')
         if self.runtime['max_translation_attempts'] != 2:
             raise ContractError('Exactly two translation attempts are the hard limit')
         if self.runtime['quality_threshold'] != 95:

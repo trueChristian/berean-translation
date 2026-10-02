@@ -38,5 +38,6 @@
     "review_model": "gpt-6.1-sol",
     "max_output_tokens": 32768,
     "review_output_tokens": 8192
-  }
+  },
+  "structural_feedback_version": "1"
 }
