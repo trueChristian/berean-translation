@@ -1,0 +1,81 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Coshocton, OH",
+          "name": "Joel A Hostetler"
+        }
+      ],
+      "raw": "Joel A Hostetler\nCoshocton, OH"
+    },
+    "categories": {
+      "additional": [
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
+    "images": [
+      {
+        "alt": "A portrait of John Newton above a sailing ship in a storm, with Amazing Grace sheet music in the background.",
+        "caption": null,
+        "credit": "Wiki Commons",
+        "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-1.jpg",
+        "repository_path": "public/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-1.jpg",
+        "rights_note": "The page-2 masthead credits Wiki Commons for printed page 32. The complete layered opening composition was rendered from the printed page at 300 dpi, then web-quality re-encoded as a standards-normalized sRGB JPEG at unchanged 2550x3300 dimensions to fit the repository connector's binary transport ceiling; confirm any source-specific attribution or license requirements before production publication.",
+        "role": "opening illustration",
+        "sequence": 1,
+        "source_page": 32
+      },
+      {
+        "alt": "Dark waves around a steep rocky island beneath storm clouds.",
+        "caption": null,
+        "credit": "Wiki Commons",
+        "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-2.jpg",
+        "repository_path": "public/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-2.jpg",
+        "rights_note": "The page-2 masthead credits Wiki Commons for printed page 34. The clean embedded sRGB JPEG was copied byte-for-byte without transformation; confirm any source-specific attribution or license requirements before production publication.",
+        "role": "article illustration",
+        "sequence": 2,
+        "source_page": 34
+      },
+      {
+        "alt": "Sheet music for Amazing Grace, credited to John Newton, 1779, and arranged by Edwin O. Excell, 1831.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-3.png",
+        "repository_path": "public/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-3.png",
+        "rights_note": "No separate image credit or license terms are stated for the sheet music on printed page 35. The complete embedded sRGB music graphic was copied byte-for-byte without transformation; confirm any applicable music-source requirements before production publication.",
+        "role": "sheet music",
+        "sequence": 3,
+        "source_page": 35
+      }
+    ],
+    "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "HYMN HISTORY",
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 32
+    },
+    "subtitle": null,
+    "title": "Amazing Grace",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "63bfc45b7f18e77dcfeb84437418a6875512aac2f5f847d5a951153634d998fe",
+    "metadata_sha256": "38c4a3753c332b1f5db9891d370f5b55ec6ab16dd6d7b414458b9189b051b177",
+    "structure_sha256": "18c12b2cf0fedb0bc36b3bc03498115d176374dc12770f8f162210458f2950a5",
+    "text_sha256": "0f4b80fe2e1c81f61ec084abc372a89ae3c5e71d49ad5b8d2e729b04bd4d70ba",
+    "translation_metadata_sha256": "edac93847afccefd710d45c53aaa14885d8c3652ff2754b8d362d31349c6c6fb"
+  },
+  "html": "<article data-article-id=\"95aac01a-bc7b-4c4b-a8c0-0c193488e249\">\n  <figure>\n    <img src=\"/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-1.jpg\" alt=\"A portrait of John Newton above a sailing ship in a storm, with Amazing Grace sheet music in the background.\">\n  </figure>\n  <p class=\"drop-cap\">How unbelievable it is that God can take a wretched sinner, void of the fear of the Lord, and turn him into a blood-washed saint and preacher of the gospel! In this story, we see God’s life-changing power at work in our hymn writer’s life.</p>\n  <p>In the small cemetery of a churchyard in Olney, England, stands a granite tombstone with this inscription, written by Newton himself before his death:</p>\n  <blockquote><p><em>John Newton, once an infidel and libertine, a servant of slaves in Africa, was, by the rich mercy of our Lord and Savior Jesus Christ, preserved, restored, pardoned, and appointed to preach the faith he had long labored to destroy!</em></p></blockquote>\n  <p>This epitaph aptly describes the unusual and colorful life of this man, one of the great evangelical preachers of the eighteenth century. His testimony was, “By the grace of God, I am what I am!”</p>\n  <p>“Amazing Grace” was a hymn published in 1779, with words written in 1772 by the English poet and Anglican clergyman John Newton (1725–1807). “Amazing Grace” is probably the most beloved hymn of the last two centuries. This hymn is estimated to be performed 10 million times annually. It has appeared on over 11,000 albums and translated into about 60 languages. It was referenced in Harriet Beecher Stowe’s anti-slavery novel <em>Uncle Tom’s Cabin.</em> It had a surge in popularity during two of America’s greatest crises: the Civil War and the Vietnam War.</p>\n  <p>Ironically, this stirring song, closely associated with the African-American community, was written by a former slave trader, John Newton.</p>\n  <p>John was born on July 24, 1725, in Wapping, England, to a seafaring father, John Newton, Sr., and a devout Christian mother, Elizabeth Newton. His father loved him but was gone at sea most of the time. On the other hand, his mother was tender and nurturing, teaching him the Word of God. She would instruct him in memorizing the Bible whole chapters at a time and took him to church. Unfortunately, when he was almost seven, his mother died of tuberculosis. His father remarried a short time later and sent him to a boarding school. During his time at the boarding school, he made bad friends. His character disintegrated to the point that he was dismissed from one school and moved to another. By the time he was 11 years old, the boarding schools didn’t want him, so his father took him along to sea. He spent the next six years on the Atlantic Ocean with his father.</p>\n  <p>When John was 17, his father arranged to send him to Jamaica for a well-paying job overseeing a plantation. On his way, while waiting for the ship’s departure, John received an invitation to the home of some old-time friends, the Catletts. It was in this home that John’s mother had died ten years earlier. As he reacquainted himself with them, he got to know their daughter, Mary. John and Mary’s mothers were best of friends. John had been invited to stay four days, but he stayed two weeks and missed the ship to Jamaica.</p>\n  <p>At age 18, John was conscripted into the Royal Navy, and his life went from bad to worse. He wanted to return and see Mary, so he deserted the ship but was caught, publicly flogged, and laid in irons. His life on the ship was so profane that even the other ungodly sailors cringed at his curses and blasphemies. He gained the title “The Great Blasphemer” and was such an unwanted man on the ship that he was sent to work on a slave ship.</p>\n  <p>One of the owners of the slave ship where he now worked, offered John a job once they reached the African coast. However, once on shore, he was tied up and forced to work with little food, clothing, or shelter. He sent several letters back to his father during this time, pleading for help.</p>\n  <p>A ship called <em>The Greyhound</em> was sailing near the coast, which John had now called home. The captain had been instructed by John’s father to look for his son. The ship, while being almost too far from shore to trade, decided to give trading a try. A friend of John’s rowed out from shore to trade. As he turned to leave, the captain asked him whether he knew anyone named John Newton. He did to the captain’s surprise, and John was brought on board to go home.</p>\n  <p>On board the ship, Newton picked up a copy of Thomas á Kempis’s Christian classic, <em>The Imitation of Christ</em>. He had never encountered anything like it, and he began to wonder if the Christian claims might be true. That night, on March 10, 1748, a fierce storm nearly swamped the ship. Men, animals, and provisions were swept overboard. The storm awakened Newton, the ship’s rotten timbers broken by the waves and floodwater swirling into his cabin. John prayed for the first time in years.</p>\n  <p><em>The Greyhound</em> thrashed about in the North Atlantic storm for over 11 days. With little hope of survival, the sailors mechanically worked the pumps, trying to keep the vessel afloat. On the eleventh day of the storm, John was too exhausted to pump, so he was tied to the helm, where he did his best to hold the ship to its course. From one o’clock until midnight, he was at the helm. He feared he was going to die, and if the Christian faith were true, then he surely would not be forgiven. He reflected on all he had done over the past few years. His life seemed as ruined and wrecked as the battered ship he was trying to steer through the storm. During those long and grueling hours, Newton cried out to God like he never had before, and that was the turning point in his life.</p>\n  <figure>\n    <img src=\"/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-2.jpg\" alt=\"Dark waves around a steep rocky island beneath storm clouds.\" loading=\"lazy\">\n  </figure>\n  <p>That was a day John Newton remembered ever after. “On that day, the Lord sent from on high and delivered me out of deep waters.” Over 50 years later, John wrote in his diary on March 21, 1805: “Not well able to write; but I endeavor to observe the return of this day with humiliation, prayer, and praise.”</p>\n  <p>Only God’s amazing grace could take a rude, profane, slave-trading sailor and transform him into a child of God. John never ceased to stand in awe of God’s work in his life. He took an interest in prayer, reading and meditating on the Scriptures, and only speaking words pleasing to God.</p>\n  <p>On his return home, Mary and her parents recognized the change the Lord had brought in John. The two were married on February 1, 1750.</p>\n  <p>For the next four years, Newton was captain of his own slave ship. This occupation kept him separated from Mary for months at a time. While they were apart, the two corresponded constantly. In his letters, John repeatedly wrote how their love and marriage increased his thankfulness and gratefulness to the Lord. “... When I indulge myself with a particular thought of you, it usually carries me on farther and brings me upon my knees to bless the Lord for giving me such a treasure and to pray for your peace and welfare”</p>\n  <p>John endeavored to “Christianize” his slave ship by holding Sunday services for his crew of 30 sin-hardened men. He made three more voyages to bring slaves from Africa to North America. As he planned his fourth trip, he became sick with malaria. God used this sickness to end his involvement in the slave trade.</p>\n  <p>As John began a new chapter in his life, he felt called to be a minister. For more than 50 years, he preached the gospel and was one of the most influential men of his day.</p>\n  <p>John Newton often composed a hymn to go with his Sunday evening services. In 1779, 280 of these were collected and combined with 68 hymns by Newton’s friend and parishioner, William Cowper, and published as the <em>Olney Hymns</em>. The most famous of all the <em>Olney Hymns</em>, “Faith’s Review and Expectation”, grew out of David’s exclamation in 1 Chronicles 17:16-17. We know it today as “Amazing Grace”. “Amazing Grace” originally had six stanzas, and the last verse was added about a century later. Most hymnals have four or five of these verses.</p>\n  <p>As minister in the church, John continued to be more and more troubled by the slave trade that was still going on. In 1788, 34 years after he left the slave trade, He wrote a book entitled <em>Thoughts Upon the African Slave Trade</em> and sent it to all the members of parliament. This book brought an awareness to the public of the evils of the slave trade. He quotes this, “Needless to say, the capturing, selling and transporting of black slaves to the plantations in the West Indies and America was a cruel and vicious way of life.” With the help and providence of God, John saw the day, several months before his death, in 1807, when slavery was officially banned from England.</p>\n  <p>When John was in his sixties, his beloved wife Mary passed away. This was a great trial for John, and he spent the remaining 17 years of his life without her.</p>\n  <p>After John suffered a stroke and shortly before his death, a spokesman for the church encouraged Newton to consider retiring from preaching because of failing health, eyesight, and memory. John replied, “What, shall the old African blasphemer stop while he can still speak? I will continue to preach. Although my memory’s fading, I remember two things very clearly: I am a great sinner, and Christ is a great Savior.”</p>\n  <p>The last words of John Newton as he lay on his deathbed were as follows: “I am still in the land of the dying; I shall be in the land of the living soon.”</p>\n  <p>The tune “Amazing Grace” is an early American folk melody. It was first known as a plantation melody entitled “Loving Lambs”. This tune was first published in 1831 in the book <em>The Virginia Harmony</em>. The majority of hymn books published after this time included this song. In 1910, Edwin O. Excell added the last verse, which eventually replaced the last three original verses of the song. His edition of the song is most common in our hymnals today. Several other <em>Olney hymns</em> by Newton continue to be sung today, including “How Sweet the Name of Jesus Sounds” and “Glorious Things of Thee are Spoken”.</p>\n  <figure>\n    <img src=\"/images/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249-3.png\" alt=\"Sheet music for Amazing Grace, credited to John Newton, 1779, and arranged by Edwin O. Excell, 1831.\" loading=\"lazy\">\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "0caae6dc9af4c5fcda48e20d7717688ab3d59bde",
+  "translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78"
+}

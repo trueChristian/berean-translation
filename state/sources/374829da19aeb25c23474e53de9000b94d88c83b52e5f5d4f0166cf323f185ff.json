@@ -1,0 +1,59 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Holmesville, Ohio",
+          "name": "Sue Hooley"
+        }
+      ],
+      "raw": "by Sue Hooley\nHolmesville, Ohio"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "917c7782-d876-59a2-9959-e33a50d14cca"
+    },
+    "id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
+    "images": [
+      {
+        "alt": "A cup of coffee beside a spiral notebook and pencil.",
+        "caption": null,
+        "credit": "Adobe Stock",
+        "public_path": "/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg",
+        "repository_path": "public/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg",
+        "rights_note": "The page-2 masthead credits Adobe Stock for printed page 29; no separate permission notice or license terms are stated. The clean embedded sRGB JPEG was copied byte-for-byte without transformation.",
+        "role": "header image",
+        "sequence": 1,
+        "source_page": 29
+      }
+    ],
+    "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "SISTER TO SISTER",
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 29,
+      "start": 29
+    },
+    "subtitle": null,
+    "title": "Procrastination Overload",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "1f56a2f0fab3c9409006f2d1d32d7a3f2b7f09f76eb11f128736f60a8cefa8a3",
+    "metadata_sha256": "e70d872855352c526fe80a80005d8ee137317da95e77ed2c86bb1937e0918c74",
+    "structure_sha256": "ac832a9f0fb8627e6439863118f1002c5fc2bfcba8c95250b8deaf13cccbd3c6",
+    "text_sha256": "2b343df7517891202b809182cfc6609faf67e696412b3ed257f97e26bda16936",
+    "translation_metadata_sha256": "a67f47fd06ea625f82d4ef79b7b4c755083fcd495c546ad683ff52cd1dd72151"
+  },
+  "html": "<article data-article-id=\"a76ef013-7cf5-4e99-8312-3a9818d244ff\">\n  <figure>\n    <img src=\"/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg\" alt=\"A cup of coffee beside a spiral notebook and pencil.\">\n  </figure>\n  <p class=\"drop-cap\">The urgency of the last minute is something that many homemakers deal with regularly. No matter how organized we are, sometimes we put off tasks because we dislike them or wait until we are under pressure.</p>\n  <p>Habitual procrastination potentially leads to higher levels of stress. Maybe I’m odd, but it is hard for me to stay calm and collected when the pressure is mounting. By the time the last minute things are completed I’m too exhausted to enjoy the planned event.</p>\n  <h2>Toothaches and Road Trips</h2>\n  <p>It is a mystery to me why a family member ends up in a dentist chair a day or two before we leave on a trip. Maybe it hasn’t happened as often as I think, but the frustration of an unplanned trip to the dentist at an inopportune time is riveted in my mind. Now I schedule an imaginary appointment before a trip. If it is not a dental emergency, some other issue is bound to fill that time slot.</p>\n  <p>Deadlines are a normal part of life. Without them we would be unmotivated, and our days would lack purpose. Interruptions are also a normal part of life. They constantly give an unpredictable twist to our days and weeks. If we let too many tasks wait until the last minute, interruptions and deadlines collide, and chaos reigns.</p>\n  <h2>Change the Last-Minute Scenario</h2>\n  <p>Deadlines and interruptions cannot be eliminated but we can limit last-minute tasks. Sometimes it takes some honest looking back to figure out what caused our stress. Often, we blame it on interruptions and fail to realize that poor planning or procrastination might have been the culprit.</p>\n  <p>For example, if guests are coming and we plan to wash windows and make a dessert along with a dozen more tasks on the day of their arrival, there is no room for disruptions. From experience, we know interruptions will come. So, isn’t it better to “plan” for a bee sting and a stubbed toe?</p>\n  <p>Why not schedule window washing and dessert another day? That might mean some fingerprints on the windows and a simpler dessert, but isn’t that better than a great deal of stress at the last minute?</p>\n  <h2>Do some tasks ahead of time</h2>\n  <p>Deciding early in the day what to make for supper and packing the diaper bag in advance are little things that can make a big difference at the last minute. When our children were young, I started packing suitcases a day before a trip versus the day of leaving. I was better able to cope with the last-minute rush if that job was out of the way.</p>\n  <h2>Do the most important tasks first</h2>\n  <p>This approach gives freedom to skip jobs of lesser importance when up against a time crunch.</p>\n  <p>Sometimes not everything on the task list is of equal value. Dropping a task is difficult for a perfectionist, but it is possible to develop new habits.</p>\n  <h2>Break work into smaller bits</h2>\n  <p>Sometimes the enormity of a task makes it seem too huge to start. Break down the large task into smaller components. Completing a smaller task is much more manageable. Deep cleaning my kitchen is a task that I do not enjoy. If my planner says, “deep-clean kitchen,” it’s easy to ignore.</p>\n  <p>But if my planner says, “clean appliances, wipe out cupboards, and wash windows,” it seems more doable.</p>\n  <p>There are so many joyful events in life; why be hassled by procrastination? Give yourself the liberty to live life differently. A few minor changes can make the biggest difference between a blessed or stressed last minute.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "0caae6dc9af4c5fcda48e20d7717688ab3d59bde",
+  "translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1"
+}
