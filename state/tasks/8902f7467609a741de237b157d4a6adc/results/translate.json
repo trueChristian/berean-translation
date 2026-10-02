@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a0e12a07-67a8-4fcd-8eaf-764d29b0bc95",
+    "response_id": "chatcmpl-EUWqHmoUcMsXPTlOe6T6OGrchjjbx",
+    "usage": {
+      "completion_tokens": 1400,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2052,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3452
+    }
+  },
+  "received_at": "2026-10-02T12:43:54+00:00",
+  "result": {
+    "html": "<article data-article-id=\"58d3859b-42f6-4cf1-80e6-fa847d9dc4a4\">\n  <figure>\n    <img src=\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-1.jpg\" alt=\"Fournitures scolaires colorées et un stéthoscope sur un fond pâle\">\n  </figure>\n  <p class=\"drop-cap\">Quand tu es enfant, tu pourrais penser que tu ne peux pas changer la vie des gens autour de toi, mais ce n’est pas vrai ! Tes petits actes de bonté ne seront pas oubliés de sitôt. Être un vrai ami pour quelqu’un qui souffre peut changer la vie de cette personne pour toujours.</p>\n  <p>Voici l’histoire vraie de « Hadassah » (ce n’est pas son vrai nom), une jeune fille qui attendait avec beaucoup d’impatience de commencer l’école. Une fois en première année, quelle déception de découvrir que les filles de deuxième année semblaient prêtes à s’en prendre à quelqu’un. Peut‑être aurait‑il mieux valu que Hadassah leur tienne tête, mais elle ne l’a pas fait. Au lieu de cela, elle a choisi de faire comme si ça ne lui faisait pas de mal et a essayé de les ignorer. Certains jours étaient meilleurs que d’autres, mais hélas cela a duré trois ou quatre ans.</p>\n  <p>C’est vrai, il y eut aussi des bons moments, mais bien des soirs elle rentrait de l’école en pleurant presque tout le trajet et souhaitant ne pas avoir à retourner à l’école le lendemain !</p>\n  <p>Un jour, une des filles perdit son stylo. Elle était certaine que Hadassah l’avait volé. Cela bouleversa beaucoup la consciencieuse Hadassah. À la récréation suivante on l’accusa d’avoir triché sur ses cartes éclairs. Beaucoup d’autres histoires inventées circulèrent aussi entre les filles.</p>\n  <p>Cependant, il y avait une petite fille dans ce groupe de deuxième année que nous appellerons « Esther ». C’était la meilleure amie de Hadassah et elle la soutint pendant toutes ces années difficiles.</p>\n  <p>Esther était une fille très douce et agréable, et c’est surtout ce dont Hadassah se souvenait d’elle. Esther souffrait de mucoviscidose et dans les années 1970 on disposait de bien moins d’options de traitement pour cette maladie qu’aujourd’hui, si bien que ces malades mouraient généralement très jeunes. Au fur et à mesure que la maladie d’Esther empirait, les jours où elle se sentait assez bien pour être à l’école devenaient rares. Comme Esther était appréciée, les jours où elle venait en classe étaient spéciaux pour tout le monde. Peut‑être Esther savait‑elle qu’elle irait au ciel avant les autres filles—nous ne le savons pas avec certitude. Mais elle apprit aux filles une chanson, « How Far Is Heaven », que Hadassah aime encore chanter aujourd’hui !</p>\n  <p>Hadassah se souvient encore d’avoir vu l’équipe d’ambulanciers passer devant sa maison quand on emmena Esther à l’hôpital pour la dernière fois. Ce fut un groupe de collégiennes très triste lorsque Esther mourut à l’âge de 13 ans. Esther avait touché le cœur de beaucoup de gens durant sa courte vie, y compris des infirmières qui avaient pris soin d’elle pendant son séjour à l’hôpital. Hadassah se rappelle avoir vu certaines infirmières pleurer aux funérailles d’Esther. Penses‑tu que Hadassah oubliera un jour Esther ? Jamais !</p>\n  <p>Outre le fait d’être sa meilleure amie, une autre lumière pour Hadassah fut que lorsque Esther était à l’école, les autres filles n’étaient pas aussi méchantes avec elle (Hadassah). Il se trouva qu’environ en quatrième année, Esther fréquentait l’école plus souvent. Un jour elle rentra chez elle et raconta à ses parents ce dont elle avait été témoin à l’école—comment les autres filles se retournaient contre Hadassah et la traitaient si mal. Le père d’Esther aborda ce problème lors de la réunion parents/enseignants suivante. Quel changement spectaculaire commença dès le lendemain ! Une des filles vint même s’excuser auprès de Hadassah. Finalement, elles purent toutes être amies et aujourd’hui ces filles sont les « anciennes amies d’école » de Hadassah.</p>\n  <p>Il vaut la peine de se tenir aux côtés de quelqu’un qui est maltraité. Ton soutien peut être ce que Dieu utilise pour aider ton ami à traverser ses épreuves de manière constructive ! Et parle‑en à tes parents, ils peuvent aider à trouver une manière de changer le problème.</p>\n  <figure>\n    <img src=\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-2.jpg\" alt=\"Une salle de classe vide avec des rangées de pupitres\" loading=\"lazy\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-3.jpg\" alt=\"Des enfants empilant leurs mains ensemble\" loading=\"lazy\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg\" alt=\"Une ambulance roulant avec ses feux d’urgence allumés\" loading=\"lazy\">\n  </figure>\n</article>\n",
+    "section": "Coin des enfants",
+    "subtitle": null,
+    "title": "Une influence qui change la vie"
+  }
+}

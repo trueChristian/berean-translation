@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:43:54+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"58d3859b-42f6-4cf1-80e6-fa847d9dc4a4\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-1.jpg\\\" alt=\\\"Kleurige schoolspullen en een stethoscoop op een lichte achtergrond\\\">\\n  </figure>\\n  <p class=\\\"drop-cap\\\">Als kind kun je denken dat je geen verschil kunt maken in het leven van de mensen om je heen, maar dat is niet waar! Je kleine daden van vriendelijkheid worden niet snel vergeten. Een echte vriend zijn voor iemand die pijn heeft, kan iemands leven voorgoed veranderen.</p>\\n  <p>Dit is het waargebeurde verhaal van “Hadassah” (niet haar echte naam), een jong meisje dat erg uitkeek naar het begin van school. Toen ze eenmaal in de eerste klas zat, was het een teleurstelling om te merken dat de meisjes uit de tweede klas klaar leken voor iemand om gemeen tegen te doen. Misschien was het beter geweest als Hadassah voor zichzelf was opgekomen, maar dat deed ze niet. In plaats daarvan deed ze alsof het haar niet raakte en probeerde ze hen te negeren. Sommige dagen waren beter dan andere, maar helaas duurde dit drie of vier jaar voort.</p>\\n  <p>Natuurlijk waren er ook leuke tijden, maar veel avonden liep ze huilend het grootste deel van de weg naar huis en wenste ze dat ze de volgende dag niet naar school hoefde!</p>\\n  <p>Op een dag verloor een van de meisjes haar pen. Ze was ervan overtuigd dat Hadassah hem had gestolen. Dit viel zwaar voor de gewetensvolle Hadassah. Bij het volgende speelkwartiertje werd ze ervan beschuldigd vals te spelen met haar oefenkaarten. Er gingen ook veel andere verzonnen verhalen rond onder de meisjes.</p>\\n  <p>Er was echter een klein meisje in die groep van de tweede klas, dat we “Esther” zullen noemen. Zij was Hadassahs beste vriendin en steunde haar door al die moeilijke jaren heen.</p>\\n  <p>Esther was een heel zacht, lief meisje, en dat is wat Hadassah zich vooral van haar herinnerde. Esther had taaislijmziekte (cystic fibrosis) en in de jaren 1970 waren er niet zoveel behandelingsmogelijkheden als nu, zodat patiënten meestal jong overleden. Naarmate Esthers ziekte erger werd, waren de dagen dat ze zich goed genoeg voelde om naar school te gaan zeldzaam. Omdat Esther geliefd was, waren de dagen dat ze op school was voor iedereen bijzonder. Misschien besefte Esther dat ze eerder in de hemel zou zijn dan de andere meisjes — we weten het niet zeker. Maar ze leerde de meisjes een liedje, “Hoe ver is de hemel”, dat Hadassah vandaag de dag nog graag zingt!</p>\\n  <p>Hadassah herinnert zich nog dat ze het ambulancecorps langs haar huis zag rijden toen ze Esther voor de laatste keer naar het ziekenhuis brachten. Het was een heel verdrietige groep schoolmeisjes toen Esther op 13‑jarige leeftijd overleed. Esther had in haar korte leven veel harten geraakt, ook die van de verpleegkundigen die voor haar hadden gezorgd tijdens haar opname. Hadassah herinnert zich nog dat ze sommige verpleegkundigen bij Esther’s begrafenis zag huilen. Denk je dat Hadassah Esther ooit zal vergeten? Nooit!</p>\\n  <p>Naast dat ze haar beste vriendin was, was een ander lichtpunt voor Hadassah dat wanneer Esther op school was, de andere meisjes minder gemeen tegen haar (Hadassah) deden. Het gebeurde dat tegen de vierde klas Esther vaker op school was. Op een dag ging ze naar huis en vertelde haar ouders wat ze op school had gezien — hoe de andere meisjes tegen Hadassah waren en zo gemeen tegen haar deden. Esthers vader bracht dit probleem ter sprake bij de volgende ouder/leraar‑bijeenkomst. Wat een verandering begon er al de volgende dag! Een van de meisjes kwam zelfs naar Hadassah toe en bood haar verontschuldigingen aan. Eindelijk konden ze allemaal vriendinnen zijn en tegenwoordig zijn die meisjes Hadassahs “oude schoolvriendinnen”.</p>\\n  <p>Het loont om naast iemand te staan die onvriendelijk wordt behandeld. Jouw steun kan datgene zijn wat God gebruikt om je vriend(in) te helpen op een goede manier door moeilijke tijden heen te komen! En deel het met je ouders, zij kunnen helpen een manier te vinden om het probleem te veranderen.</p>\\n  <figure>\\n    <img src=\\\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-2.jpg\\\" alt=\\\"Een leeg klaslokaal met rijen bureaus\\\" loading=\\\"lazy\\\">\\n  </figure>\\n  <figure>\\n    <img src=\\\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-3.jpg\\\" alt=\\\"Kinderen die hun handen op elkaar stapelen\\\" loading=\\\"lazy\\\">\\n  </figure>\\n  <figure>\\n    <img src=\\\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg\\\" alt=\\\"Een ambulance die rijdt met zijn zwaailichten aan\\\" loading=\\\"lazy\\\">\\n  </figure>\\n</article>\\n\",\"section\":\"Kinderhoek\",\"subtitle\":null,\"title\":\"Een levensveranderende invloed\"}",
+    "content_bytes": 4723,
+    "content_evidence_truncated": false,
+    "content_sha256": "14c70304fb14756378b6ad7d1bd87f4f6506bf3131d7d7f10902b0302e1f5dbf",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1442,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2050,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3492
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

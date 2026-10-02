@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d440e093-3974-499c-b875-ccc93f4cc33b",
+    "response_id": "chatcmpl-EUWqHRZC0tI8T3EZDo3biujKYlknZ",
+    "usage": {
+      "completion_tokens": 1376,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2055,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3431
+    }
+  },
+  "received_at": "2026-10-02T12:43:54+00:00",
+  "result": {
+    "html": "<article data-article-id=\"58d3859b-42f6-4cf1-80e6-fa847d9dc4a4\">\n  <figure>\n    <img src=\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-1.jpg\" alt=\"Útiles escolares coloridos y un estetoscopio sobre un fondo pálido\">\n  </figure>\n  <p class=\"drop-cap\">Cuando eres niño, podrías pensar que no puedes marcar la diferencia en la vida de las personas que te rodean, ¡pero eso no es cierto! Tus pequeños actos de bondad no se olvidarán pronto. Ser un verdadero amigo de alguien que está sufriendo puede cambiar la vida de esa persona para siempre.</p>\n  <p>Esta es la historia real de “Hadassah” (no es su nombre real), una niña que esperaba con muchas ganas empezar la escuela. Cuando comenzó primer grado, ¡qué decepción fue descubrir que las niñas de segundo grado estaban listas para meterse con alguien, o eso parecía! Quizá habría sido mejor si Hadassah se hubiera enfrentado a ellas, pero no lo hizo. En lugar de eso, decidió actuar como si no le doliera e intentó ignorarlas. Algunos días fueron mejores que otros, pero tristemente esto continuó durante tres o cuatro años.</p>\n  <p>Claro, también hubo buenos momentos, pero muchas tardes caminaba a casa desde la escuela llorando la mayor parte del camino y deseando no tener que volver al colegio al día siguiente.</p>\n  <p>Un día, una de las niñas perdió su bolígrafo. Estaba segura de que Hadassah se lo había robado. Esto fue muy angustioso para una Hadassah muy concienzuda. En el recreo siguiente la culparon de hacer trampa con sus tarjetas de memoria. También se difundieron muchas otras historias inventadas entre las niñas.</p>\n  <p>Sin embargo, había una niña pequeña en ese grupo de segundo grado cuyo nombre diremos que era “Esther”. Ella era la mejor amiga de Hadassah y la apoyó durante todos esos años difíciles.</p>\n  <p>Esther era una niña muy dulce y cariñosa, y eso es principalmente por lo que Hadassah la recordaba. Esther tenía fibrosis quística y en los años setenta no había tantas opciones de tratamiento para esa enfermedad como las hay ahora, por lo que esos pacientes solían morir muy jóvenes. A medida que la enfermedad de Esther empeoró, los días en que se sentía lo suficiente como para estar en la escuela fueron raros. Como Esther era querida, los días en que estaba en la escuela eran especiales para todos. Quizá Esther se dio cuenta de que estaría en el cielo antes que las otras niñas—no lo sabemos con certeza. Pero les enseñó a las niñas una canción, “How Far Is Heaven”, que a Hadassah todavía le gusta cantar hoy.</p>\n  <p>Hadassah aún recuerda haber visto pasar a la ambulancia frente a su casa cuando llevaron a Esther al hospital por última vez. Fue un grupo de colegialas muy triste cuando Esther murió a la edad de 13 años. Esther conmovió el corazón de muchas personas en su corta vida, incluidas las enfermeras que la cuidaron durante su estadía en el hospital. Hadassah todavía recuerda ver a algunas de las enfermeras llorando en el funeral de Esther. ¿Crees que Hadassah olvidará alguna vez a Esther? ¡Nunca!</p>\n  <p>Aparte de ser su mejor amiga, otro rayo de luz para Hadassah fue que cuando Esther estaba en la escuela las otras niñas no eran tan crueles con ella (Hadassah). Sucedió que alrededor de cuarto grado Esther estaba en la escuela con más frecuencia. Un día se fue a casa y les contó a sus padres lo que estaba presenciando en la escuela—cómo las otras niñas estaban en contra de Hadassah y la trataban tan mal. El padre de Esther planteó este problema en la siguiente reunión de padres y maestros. ¡Qué cambio tan grande empezó desde el día siguiente! Una de las niñas incluso se acercó a Hadassah y se disculpó. Al fin, todas pudieron ser amigas y hoy esas niñas son las “viejas amigas del colegio” de Hadassah.</p>\n  <p>Vale la pena ponerse al lado de alguien que está siendo tratado con crueldad. ¡Tu apoyo puede ser lo que Dios use para ayudar a tu amigo a pasar sus tiempos difíciles de una buena manera! Y compártelo con tus padres, ellos pueden ayudar a encontrar una manera de cambiar el problema.</p>\n  <figure>\n    <img src=\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-2.jpg\" alt=\"Un aula vacía con filas de pupitres\" loading=\"lazy\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-3.jpg\" alt=\"Niños colocando sus manos unas sobre otras\" loading=\"lazy\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg\" alt=\"Una ambulancia circulando con las luces de emergencia encendidas\" loading=\"lazy\">\n  </figure>\n</article>\n",
+    "section": "Rincón de los niños",
+    "subtitle": null,
+    "title": "Una influencia que cambia la vida"
+  }
+}

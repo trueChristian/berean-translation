@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:43:55+00:00",
+  "response": {
+    "content": "{\n  \"html\": \"<article data-article-id=\\\"58d3859b-42f6-4cf1-80e6-fa847d9dc4a4\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-1.jpg\\\" alt=\\\"Material escolar colorido e um estetoscópio sobre um fundo pálido\\\">\\n  </figure>\\n  <p class=\\\"drop-cap\\\">Quando criança, você pode pensar que não consegue fazer diferença na vida das pessoas ao seu redor, mas isso não é verdade! Seus pequenos atos de bondade não serão esquecidos tão cedo. Ser um verdadeiro amigo de alguém que está sofrendo pode transformar a vida dessa pessoa para sempre.</p>\\n  <p>Esta é a história verdadeira de “Hadassah” (não é o nome real dela), uma menina que estava muito animada para começar a escola. Quando ela começou a primeira série, que decepção foi descobrir que as meninas da segunda série estavam prontas para maltratar alguém, ou pelo menos parecia assim. Talvez teria sido melhor se Hadassah tivesse enfrentado-as, mas ela não o fez. Em vez disso, escolheu agir como se não doesse e tentou ignorá-las. Alguns dias foram melhores que outros, mas infelizmente isso continuou por três ou quatro anos.</p>\\n  <p>Claro, também houve bons momentos, mas muitas noites ela voltava para casa da escola chorando na maior parte do caminho e desejando não ter que voltar para a escola no dia seguinte!</p>\\n  <p>Um dia, uma das meninas perdeu sua caneta. Ela tinha certeza de que Hadassah a havia roubado. Isso foi muito perturbador para a conscienciosa Hadassah. No recreio seguinte ela foi acusada de colar nos flash cards. Muitas outras histórias inventadas também foram espalhadas entre as meninas.</p>\\n  <p>No entanto, havia uma menininha naquele grupo de segunda série cujo nome diremos ser “Esther”. Ela era a melhor amiga de Hadassah e a apoiou durante todos aqueles anos difíceis.</p>\\n  <p>Esther era uma menina muito meiga e doce, que é principalmente como Hadassah se lembrava dela. Esther tinha fibrose cística e, na década de 1970, não havia tantas opções de tratamento para essa doença como há hoje, de modo que esses pacientes geralmente morriam muito jovens. Conforme a doença de Esther piorava, os dias em que ela se sentia bem o bastante para ir à escola tornavam-se raros. Como Esther era querida, os dias em que ela estava na escola eram especiais para todos. Talvez Esther percebera que estaria no céu antes das outras meninas—não sabemos ao certo. Mas ela ensinou às meninas uma canção, “How Far Is Heaven”, que Hadassah ainda gosta de cantar hoje!</p>\\n  <p>Hadassah ainda lembra de ver a equipe de emergência passar em frente à sua casa quando levaram Esther ao hospital pela última vez. Foi um grupo de colegiais muito triste quando Esther morreu aos 13 anos. Esther tocou o coração de muitas pessoas em sua curta vida, incluindo as enfermeiras que a cuidaram durante sua internação. Hadassah ainda se lembra de ver algumas das enfermeiras chorando no funeral de Esther. Você acha que Hadassah algum dia esquecerá Esther? Nunca!</p>\\n  <p>Além de ser sua melhor amiga, outro ponto luminoso para Hadassah era que quando Esther estava na escola as outras meninas não eram tão más com ela (Hadassah). Aconteceu que, por volta da quarta série, Esther estava mais frequentemente na escola. Um dia ela foi para casa e contou aos pais o que testemunhara na escola—como as outras meninas se voltavam contra Hadassah e eram tão cruéis com ela. O pai de Esther levou esse problema à próxima reunião de pais e professores. Que mudança de dia para noite começou já no dia seguinte! Uma das meninas até foi até Hadassah e pediu desculpas. Finalmente, todas puderam ser amigas e hoje essas meninas são as “velhas colegas de escola” de Hadassah.</p>\\n  <p>Vale a pena ficar ao lado de alguém que está sendo tratado com crueldade. Seu apoio pode ser o que Deus usa para ajudar sua amiga a passar pelos tempos difíceis de uma boa maneira! E conte isso aos seus pais; eles podem ajudar a encontrar uma forma de mudar o problema.</p>\\n  <figure>\\n    <img src=\\\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-2.jpg\\\" alt=\\\"Uma sala de aula vazia com fileiras de carteiras\\\" loading=\\\"lazy\\\">\\n  </figure>\\n  <figure>\\n    <img src=\\\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-3.jpg\\\" alt=\\\"Crianças empilhando as mãos juntas\\\" loading=\\\"lazy\\\">\\n  </figure>\\n  <figure>\\n    <img src=\\\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg\\\" alt=\\\"Uma ambulância dirigindo com as luzes de emergência acesas\\\" loading=\\\"lazy\\\">\\n  </figure>\\n</article>\\n\",\n  \"section\": \"Cantinho das Crianças\",\n  \"subtitle\": null,\n  \"title\": \"Uma influência que muda a vida\"\n}",
+    "content_bytes": 4699,
+    "content_evidence_truncated": false,
+    "content_sha256": "c63fc142602d77ba0d1f1bef7181c46dd27354dc020508ebab6e0dfbc01d7c03",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1282,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2059,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3341
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

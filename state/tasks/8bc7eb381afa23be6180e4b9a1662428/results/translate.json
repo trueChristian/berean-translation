@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e1b29a25-4f98-45e1-ab15-b877438b6296",
+    "response_id": "chatcmpl-EUWqHN3bHsOjI1FVNDtpF2JHB3M16",
+    "usage": {
+      "completion_tokens": 1592,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2062,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3654
+    }
+  },
+  "received_at": "2026-10-02T12:43:54+00:00",
+  "result": {
+    "html": "<article data-article-id=\"58d3859b-42f6-4cf1-80e6-fa847d9dc4a4\">\n  <figure>\n    <img src=\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-1.jpg\" alt=\"Fargerike skoleartikler og et stetoskop på en blek bakgrunn\">\n  </figure>\n  <p class=\"drop-cap\">Som barn kan du kanskje tro at du ikke kan gjøre en forskjell i livet til menneskene rundt deg, men det er ikke sant! Dine små vennlige handlinger blir ikke glemt med det første. Å være en ekte venn for en som har det vondt kan forandre den personens liv for alltid.</p>\n  <p>Dette er den sanne historien om “Hadassah” (ikke hennes virkelige navn), en ung jente som gledet seg veldig til å begynne på skolen. Da hun begynte i første klasse, var det en skuffelse å oppdage at jentene i andre klasse så ut til å være klare for å være slemme mot noen. Kanskje hadde det vært bedre om Hadassah hadde sagt fra til dem, men det gjorde hun ikke. I stedet valgte hun å late som om det ikke gjorde vondt og forsøkte å ignorere dem. Noen dager var bedre enn andre, men dessverre fortsatte dette i tre eller fire år.</p>\n  <p>Visst var det også gode tider, men mange kvelder gikk hun hjem fra skolen og gråt det meste av veien og håpet at hun slapp å dra tilbake til skolen neste dag!</p>\n  <p>En dag mistet en av jentene pennen sin. Hun var sikker på at Hadassah hadde stjålet den. Dette var veldig plagsomt for en samvittighetsfull Hadassah. I neste friminutt fikk hun skylden for å jukse med sine flashkort. Mange andre oppdiktede historier ble også spredd blant jentene.</p>\n  <p>Men det var en liten jente i den andreklassegruppen som vi kan kalle “Esther”. Hun var Hadassahs beste venn og sto ved hennes side gjennom de vanskelige årene.</p>\n  <p>Esther var en veldig mild, snill jente, noe Hadassah først og fremst husker henne for. Esther hadde cystisk fibrose, og på 1970-tallet fantes det ikke så mange behandlingsmuligheter for den sykdommen som det gjør nå, så disse pasientene døde vanligvis veldig unge. Etter hvert som Esthers sykdom ble verre, ble dagene hun var frisk nok til å være på skolen sjeldne. Fordi Esther var godt likt, var de dagene hun var på skolen spesielle for alle. Kanskje forsto Esther at hun ville være i himmelen før de andre jentene—we vet det ikke sikkert. Men hun lærte jentene en sang, «Hvor langt er det til himmelen», som Hadassah fortsatt liker å synge i dag!</p>\n  <p>Hadassah husker fremdeles at hun så ambulansen kjøre forbi huset deres da de tok Esther til sykehuset for siste gang. Det var en meget trist gjeng skolejenter da Esther døde, 13 år gammel. Esther hadde rørt hjertene til mange i sitt korte liv, inkludert sykepleierne som pleiet henne under sykehusoppholdet. Hadassah husker fortsatt at noen av sykepleierne gråt i begravelsen til Esther. Tror du Hadassah noen gang vil glemme Esther? Aldri!</p>\n  <p>Foruten å være hennes beste venn, var en annen lysning for Hadassah at når Esther var på skolen, var ikke de andre jentene like slemme mot henne (Hadassah). Det skjedde at omtrent i fjerde klasse var Esther oftere på skolen. En dag gikk hun hjem og fortalte foreldrene hva hun hadde vært vitne til på skolen—hvordan de andre jentene var i mot Hadassah og var så slemme mot henne. Esthers far tok opp dette problemet på neste foreldre- og lærermøte. Forandringen som startet fra neste dag var som natt og dag! En av jentene kom til og med bort til Hadassah og ba om unnskyldning. Endelig kunne de alle være venner, og i dag er disse jentene Hadassahs «gamle skolevenner».</p>\n  <p>Det er verdt å stå ved siden av noen som blir behandlet uvennlig. Din støtte kan være det Gud bruker for å hjelpe din venn til å komme gjennom de vanskelige tidene på en god måte! Og del det med foreldrene dine, de kan hjelpe til med å finne en måte å endre problemet på.</p>\n  <figure>\n    <img src=\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-2.jpg\" alt=\"Et tomt klasserom med rader av pulter\" loading=\"lazy\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-3.jpg\" alt=\"Barn som stabler hendene sine sammen\" loading=\"lazy\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg\" alt=\"En ambulanse kjører med blålysene på\" loading=\"lazy\">\n  </figure>\n</article>\n",
+    "section": "Barnas hjørne",
+    "subtitle": null,
+    "title": "En livsforvandlende innflytelse"
+  }
+}
