@@ -1,21 +1,21 @@
 # Remnant website publication notifications
 
-These notification hooks are **disabled by default**. They request a rebuild in
+These notification hooks run automatically when `REMNANT_DISPATCH_TOKEN` is
+configured. They request a rebuild in
 [`trueChristian/remnant.truechristian.church`](https://github.com/trueChristian/remnant.truechristian.church)
 only after a successfully validated, durably published display snapshot changes.
 The website receives `remnant-content-updated`, resolves current trusted source
 branches, and revalidates exports. No article wording, translation policy, or
 publication status is changed by this integration.
 
-The receiving implementation is under review in
-[website draft PR #2](https://github.com/trueChristian/remnant.truechristian.church/pull/2),
-with the project contract in
-[website issue #1](https://github.com/trueChristian/remnant.truechristian.church/issues/1).
-The receiver must be reviewed, merged and configured before activation here.
+The receiving workflow lives in the website repository. Its publication contract
+is recorded in [website issue #1](https://github.com/trueChristian/remnant.truechristian.church/issues/1).
 
-## Owner-controlled activation
+## Token-only configuration
 
-After review and separate owner authorization:
+`REMNANT_DISPATCH_TOKEN` is the only configuration prerequisite. There is no
+separate enablement variable. Existing configured tokens are used automatically;
+no credential changes are required by this code change.
 
 1. Securely configure `REMNANT_DISPATCH_TOKEN` as a repository Actions secret.
    Use an approved GitHub App installation token or fine-grained credential
@@ -24,9 +24,9 @@ After review and separate owner authorization:
    App flow; short-lived tokens need an independently approved renewal/minting
    setup. An ordinary source-repository `GITHUB_TOKEN` cannot dispatch to another
    repository. This change does not create credentials or configure access.
-2. Set the repository Actions variable `REMNANT_NOTIFICATIONS_ENABLED` to the
-   exact string `true`. Until then every notification step is skipped.
-3. Run the trusted main workflow described below and inspect its notification
+2. The next successful trusted main publication workflow described below checks
+   token presence and attempts notification when the display changes. A missing
+   token produces a warning and job summary, then skips delivery. Inspect its notification
    result, then verify the receiving website build separately. No source workflow
    deploys the website.
 
@@ -47,7 +47,9 @@ locales therefore request a website interface-validation build.
 A restored Actions cache remembers the last accepted fingerprint. The helper
 checks clean source inputs, an export manifest matching HEAD, and HEAD equal to
 current remote `main` before sending. Only HTTP 204 saves a success marker. A
-rejected/failed/uncertain request leaves the old marker in place. Cache loss can
+rejected/failed/uncertain request leaves the old marker in place. GitHub API errors
+report only the HTTP status and safe troubleshooting guidance, never the token or
+private response details. Token presence does not prove its validity. Cache loss can
 cause a safe duplicate. If a newer source commit arrives while checking, rerun
 against current main instead of notifying a stale revision.
 
@@ -78,7 +80,7 @@ The direct step is essential: runtime commits made with `GITHUB_TOKEN` normally
 do not trigger another push workflow. It does not depend on that extra workflow.
 
 Notification steps run only for collection cycles, on trusted `main`, with the
-enabling variable set. Explicit `cancel` and `resolve-absent` maintenance runs
+dispatch token configured. Explicit `cancel` and `resolve-absent` maintenance runs
 are excluded because they do not acquire an English export checkout or publish
 new display content. The next collection cycle handles current display state.
 For recovery, run `AI — Collect and discover`, operation `collect`, on `main`.

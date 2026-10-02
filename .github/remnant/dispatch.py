@@ -145,7 +145,17 @@ def notify(repository: str, checkout: Path, exported: Path, state_path: Path,
     })
     try:
         status, _ = request(req)
-    except (urllib.error.URLError, TimeoutError, OSError, ValueError) as error:
+    except urllib.error.HTTPError as error:
+        # HTTPError is also a URLError. Report only its numeric status, never
+        # response bodies, request headers, URLs, or the original exception.
+        advice = {
+            401: 'Check that REMNANT_DISPATCH_TOKEN is valid and has not expired.',
+            403: 'Check token access to the website repository and Contents: write permission.',
+            404: 'Check token access to the website repository and Contents: write permission.',
+            429: 'GitHub rate limited this request; retry the trusted source workflow later.',
+        }.get(error.code, 'Retry the trusted source workflow after resolving the GitHub API error.')
+        raise RuntimeError(f'Dispatch returned HTTP {error.code}; no success marker saved. {advice}') from None
+    except (urllib.error.URLError, TimeoutError, OSError, ValueError):
         # Do not include response bodies, request headers, or exception URLs.
         raise RuntimeError('Dispatch delivery failed; no success marker saved. Rerun trusted source workflow.') from None
     if status != 204:
