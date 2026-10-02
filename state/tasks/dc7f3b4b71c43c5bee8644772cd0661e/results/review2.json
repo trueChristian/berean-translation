@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "61fb051a-a49a-4c9d-ad11-bbe8a1ae9995",
+    "response_id": "chatcmpl-EUIKhghcT9xKBq2trq8PXyXYsyCRL",
+    "usage": {
+      "completion_tokens": 1000,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6496,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7496
+    }
+  },
+  "received_at": "2026-10-02T00:07:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning 'Seule l’incroyable grâce de Dieu...','source.html' (near middle)",
+        "severity": "major",
+        "source_quote": "Only God’s amazing grace could take a rude, profane, slave-trading sailor and transform him into a child of God. John never ceased to stand in awe of God’s work in his life.",
+        "suggested_fix": "Restore the negation to match the source: change \"John cessa jamais d’être émerveillé par l’œuvre de Dieu dans sa vie.\" to \"John ne cessa jamais d’être émerveillé par l’œuvre de Dieu dans sa vie.\"",
+        "translation_quote": "Seule l’incroyable grâce de Dieu put prendre un marin grossier, profane et négrier et le transformer en enfant de Dieu. John cessa jamais d’être émerveillé par l’œuvre de Dieu dans sa vie."
+      },
+      {
+        "location": "Paragraph beginning 'À dix‑huit ans, John fut enrôlé...' (early life section)",
+        "severity": "minor",
+        "source_quote": "and his life went from bad to worse. He wanted to return and see Mary, so he deserted the ship but was caught, publicly flogged, and laid in irons.",
+        "suggested_fix": "Fix the encoding/typo in French: change \"empirA. ... désertA le navire\" to \"empira. ... déserta le navire\" so the verbs are correctly rendered.",
+        "translation_quote": "À dix‑huit ans, John fut enrôlé de force dans la Royal Navy, et sa vie empirA. Il voulut revenir voir Mary, désertA le navire, mais fut arrêté, fouetté publiquement et mis aux fers."
+      },
+      {
+        "location": "Paragraph beginning 'The Greyhound was thrashing...' (storm paragraph)",
+        "severity": "minor",
+        "source_quote": "The Greyhound thrashed about in the North Atlantic storm for over 11 days.",
+        "suggested_fix": "Correct the typo/capitalization: change \"tumulTué\" to \"tumultué\" or better \"fut ballotté\" to be idiomatic and correct.",
+        "translation_quote": "<em>The Greyhound</em> fut tumulTué par la tempête de l’Atlantique Nord pendant plus de onze jours."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

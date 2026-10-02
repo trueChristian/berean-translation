@@ -1,0 +1,99 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "501d14dc-d9c8-4eb9-8cdc-436e18f72236",
+    "response_id": "chatcmpl-EUIKcqfECNmmP6yf9y0QvKpG8tyWN",
+    "usage": {
+      "completion_tokens": 2819,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8963,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11782
+    }
+  },
+  "received_at": "2026-10-02T00:07:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph after image 1, sentence: \"I told them about the plan, and her husband nodded vigorously, while Elise continued to stare silently at the floor.\"",
+        "severity": "critical",
+        "source_quote": "I told them about the plan, and her husband nodded vigorously, while Elise continued to stare silently at the floor.",
+        "suggested_fix": "Restore the author’s original name spelling exactly as in source: replace « Elsie » with « Elise » to match the authoritative English text. Preserve surrounding HTML and punctuation.",
+        "translation_quote": "Je leur expliquai le plan ; son mari acquiesça vigoureusement, tandis qu’Elsie continua de fixer silencieusement le sol."
+      },
+      {
+        "location": "Section “Le cynisme dans la Bible” — quote of Ecclesiastes 2:22,23",
+        "severity": "critical",
+        "source_quote": "“For what hath man of all his labour, and of the vexation of his heart, wherein he hath laboured under the sun? For all his days are sorrows, and his travail grief; yea, his heart taketh not rest in the night. This is also vanity.” (Ecclesiastes 2:22,23)",
+        "suggested_fix": "Translate the quoted English verse text into French so the target-language reader receives the same printed English verse meaning in French, while keeping the verse reference in parentheses. For example, replace the English quotation with a French rendering that conveys that exact English wording (do not substitute a different Bible version). Preserve the existing parentheses and citation: « “[French rendering of the printed English text]” (Ecclesiastes 2:22,23) ». Maintain original HTML tags around the paragraph.",
+        "translation_quote": "Au chapitre 2:17-23, Salomon décrit le travail comme futile. Il conclut en disant : “For what hath man of all his labour, and of the vexation of his heart, wherein he hath laboured under the sun? For all his days are sorrows, and his travail grief; yea, his heart taketh not rest in the night. This is also vanity.” (Ecclesiastes 2:22,23)"
+      },
+      {
+        "location": "Section “Le cynisme dans la Bible” — quote of Ecclesiastes 4:13",
+        "severity": "critical",
+        "source_quote": "“Better is a poor and a wise child than an old and foolish king, who will no more be admonished. For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor” (Ecclesiastes 4:13).",
+        "suggested_fix": "Translate the quoted English verse text into French to convey the printed English wording’s meaning in the target language, and keep the verse reference. Preserve HTML structure.",
+        "translation_quote": "Salomon alla jusqu’à dire que le pouvoir politique était dénué de sens : “Better is a poor and a wise child than an old and foolish king, who will no more be admonished. For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor” (Ecclesiastes 4:13)."
+      },
+      {
+        "location": "Section “Le cynisme dans la Bible” — quote of Ecclesiastes 6:6",
+        "severity": "critical",
+        "source_quote": "“Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?”",
+        "suggested_fix": "Translate the quoted English sentence into French so that the printed English quotation is conveyed in the target language; keep the reference formatting and surrounding HTML intact.",
+        "translation_quote": "En Ecclesiastes 6:6, il semble déprécier la longue vie. “Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?”"
+      },
+      {
+        "location": "Section “Le cynisme dans la Bible” — quote of Jeremiah 7:27",
+        "severity": "critical",
+        "source_quote": "“Therefore thou shalt speak all these words unto them; but they will not hearken to thee: thou shalt also call unto them; but they will not answer thee” (Jeremiah 7:27).",
+        "suggested_fix": "Translate the English-scripture quotation into French to convey the printed English wording’s meaning, and retain the citation (Jeremiah 7:27) exactly as in the source. Preserve paragraph HTML.",
+        "translation_quote": "Il envoya encore des prophètes, mais savait sans l’ombre d’un doute que le peuple refuserait de répondre. “Therefore thou shalt speak all these words unto them; but they will not hearken to thee: thou shalt also call unto them; but they will not answer thee” (Jeremiah 7:27)."
+      },
+      {
+        "location": "Section “Le cynisme dans la Bible” — quote of 2 Timothy 4:3",
+        "severity": "critical",
+        "source_quote": "“For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears;” (2 Timothy 4:3).",
+        "suggested_fix": "Translate the quoted English verse into French so the printed English sentence is rendered into the target language while preserving the reference (2 Timothy 4:3) and HTML. Do not substitute a different Bible version; convey the printed English wording’s meaning in French.",
+        "translation_quote": "Même dans le Nouveau Testament, Paul dit à Timothée que le temps viendrait où les gens n’écouteraient plus la saine doctrine. “For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears;” (2 Timothy 4:3)."
+      },
+      {
+        "location": "Section “L’opposé du cynisme” — quote of Romans 5:3-5",
+        "severity": "critical",
+        "source_quote": "“And not only so, but we glory in tribulations also: knowing that tribulation worketh patience; and patience, experience; and experience, hope: and hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us” (Romans 5:3-5).",
+        "suggested_fix": "Translate the English-scripture quotation into French to convey the printed English wording’s meaning (keep the reference Romans 5:3-5). Preserve punctuation and paragraph structure. Do not replace with a different Bible text; the translator should render the author’s printed English quotation into French.",
+        "translation_quote": "Il est intéressant que l’apôtre Paul ait parlé des tribulations dans l’Épître aux Romains : “And not only so, but we glory in tribulations also: knowing that tribulation worketh patience; and patience, experience; and experience, hope: and hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us” (Romans 5:3-5)."
+      },
+      {
+        "location": "Section “Chercher l’espérance aux bons endroits” — quote of Matthew 4:8",
+        "severity": "critical",
+        "source_quote": "“All these things will I give thee, if thou wilt fall down and worship me” (Matthew 4:8).",
+        "suggested_fix": "Render the quoted English temptation-verse into French to convey the printed English wording in the translation, keeping the citation (Matthew 4:8) unchanged and preserving the paragraph’s HTML.",
+        "translation_quote": "C’est ce qu’il fit en tentant Jésus : “All these things will I give thee, if thou wilt fall down and worship me” (Matthew 4:8)."
+      },
+      {
+        "location": "Section “Les petits efforts font la différence” — phrase referencing Matthew passage: “the least of these my brethren” left in English",
+        "severity": "major",
+        "source_quote": "the least of these my brethren",
+        "suggested_fix": "Translate this quoted phrase into French to convey the printed English wording meaning (e.g., « les plus petits d’entre mes frères »), keeping the surrounding sentence structure and HTML intact. Do not substitute a different biblical phrasing; convey the author’s printed English phrase in French.",
+        "translation_quote": "Jésus dit aux brebis que lorsqu’elles servent « the least of these my brethren », elles le servent lui."
+      },
+      {
+        "location": "Conclusion — song lyric left in English: “Oh to have no hope in Jesus, how dark this world must be!”",
+        "severity": "major",
+        "source_quote": "“Oh to have no hope in Jesus, how dark this world must be!”",
+        "suggested_fix": "Translate the quoted song lyric into French to convey the printed English text’s meaning (for example: « Oh, ne pas avoir d’espérance en Jésus, comme ce monde doit être sombre ! »), preserving the quotation marks and placement in the paragraph. Keep HTML tags unchanged.",
+        "translation_quote": "La chanson dit : « Oh to have no hope in Jesus, how dark this world must be! » Car Jésus est celui qui apporte la lumière..."
+      }
+    ],
+    "passed": false,
+    "score": 40
+  }
+}
