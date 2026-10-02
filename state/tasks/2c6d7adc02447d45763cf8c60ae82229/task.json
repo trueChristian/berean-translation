@@ -2,7 +2,6 @@
   "article_id": "db7b1129-282d-4f48-aefa-f839cb585426",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "83c96b2f691c4b44b5a8556a8d930a5d",
   "campaign": "gh-36910935961",
   "created_at": "2026-10-01T18:59:41+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 6673
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1078,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6422,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7500
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<p class=\"drop-cap\"> (first paragraph, brother's quote)",
+      "severity": "minor",
+      "source_quote": "“Some plant, some water, but God gives the increase.”",
+      "suggested_fix": "Use natural Dutch phrasing that preserves meaning and plurality while keeping the short, proverbial tone. For example: “Sommigen planten, sommigen geven water, maar God geeft de toename.” Replace the existing quoted text inside the same <p> tag.",
+      "translation_quote": "“Sommige plant, wat water, maar God geeft de toename.”"
+    },
+    {
+      "location": "<p> (paragraph beginning “Het woordenboek definieert humanisme zo: ...”)",
+      "severity": "minor",
+      "source_quote": "The dictionary defines humanism like this; an outlook or system of thought attaching prime importance to human rather than divine or supernatural matters.",
+      "suggested_fix": "Small punctuation/flow improvement in Dutch for readability: change the colon/semicolon construction to a fluid Dutch sentence, preserving the original meaning. For example: “Het woordenboek definieert humanisme als: een levensbeschouwing of denksysteem dat het grootste belang hecht aan menselijke in plaats van goddelijke of bovennatuurlijke zaken.” Replace the sentence text inside the same <p> tag.",
+      "translation_quote": "Het woordenboek definieert humanisme zo: een levensbeschouwing of denksysteem dat het belangrijkste belang hecht aan menselijke in plaats van goddelijke of bovennatuurlijke zaken."
+    },
+    {
+      "location": "<p> (paragraph beginning “Ik vrees dat wij in deze val...”)",
+      "severity": "minor",
+      "source_quote": "However, from outward appearances, we trust in ourselves.",
+      "suggested_fix": "The Dutch phrase is slightly awkward. Replace “Maar naar buiten af gezien vertrouwen we op onszelf.” with a more natural rendering that preserves the sense, e.g.: “Maar naar buiten toe vertrouwen we op onszelf.” Make the change inside the same <p> tag.",
+      "translation_quote": "Maar naar buiten af gezien vertrouwen we op onszelf."
+    }
+  ],
+  "finished_at": "2026-10-02T00:07:38+00:00",
   "id": "2c6d7adc02447d45763cf8c60ae82229",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "nld",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/42d37805e637e23a1692274ce1d572c4477bd83ecf5cdc4b17503daa38b35aae.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "95060c22-e2b5-4650-8fb6-7daa9a2471bd",
+    "response_id": "chatcmpl-EUIP8d0sU6fz0O1mPacWaACvrmN6g",
+    "usage": {
+      "completion_tokens": 848,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6334,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7182
+    }
+  },
+  "received_at": "2026-10-02T00:07:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph 1 (opening line)",
+        "severity": "minor",
+        "source_quote": "Our Father’s world is a world unspoiled by human invention and intervention.",
+        "suggested_fix": "Use a Dutch possessive construction without English-style apostrophe-s: replace “Onze hemelse Vader’s wereld” with “De wereld van onze hemelse Vader” to read naturally in contemporary Dutch while preserving meaning.",
+        "translation_quote": "Onze hemelse Vader’s wereld is een wereld onbescha­digd door menselijke uitvindingen en ingrepen."
+      },
+      {
+        "location": "source.html paragraph 7 (near start of paragraph)",
+        "severity": "minor",
+        "source_quote": "How little knowledge of heaven is committed to our understanding.",
+        "suggested_fix": "Fix a small typographic/diacritic issue and register: replace “Één dimensie” with “Een dimensie” (no capital acute), and consider changing “Revelations” only if source used another form (preserve as in source). Suggested corrected sentence fragment: “Een dimensie waarmee we ons kunnen verbinden is dat het een plaats vol gezang is.”",
+        "translation_quote": "Één dimensie waarmee we ons kunnen verbinden is dat het een plaats vol gezang is."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

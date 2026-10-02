@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c29db9a5-56cf-48e9-b703-3bf054ae4bd9",
+    "response_id": "chatcmpl-EUIP1eAoUtUv1kUgdFeLVlDzmU54i",
+    "usage": {
+      "completion_tokens": 840,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2936,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3776
+    }
+  },
+  "received_at": "2026-10-02T00:07:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "second paragraph, sentence: \"I brushed shoulders with well-known authors such as Katrina Hoover Lee, Johnny Miller, and Ruthann Stelfox.\"",
+        "severity": "minor",
+        "source_quote": "I brushed shoulders with well-known authors such as Katrina Hoover Lee, Johnny Miller, and Ruthann Stelfox.",
+        "suggested_fix": "Add the missing preposition to make the Dutch sentence grammatical: change \"Ik raakte bekende auteurs als Katrina Hoover Lee, Johnny Miller en Ruthann Stelfox.\" to \"Ik raakte in gesprek met bekende auteurs als Katrina Hoover Lee, Johnny Miller en Ruthann Stelfox.\" or \"Ik botste op bekende auteurs als...\" depending on intended register.",
+        "translation_quote": "Ik raakte bekende auteurs als Katrina Hoover Lee, Johnny Miller en Ruthann Stelfox."
+      },
+      {
+        "location": "second paragraph, final sentence: \"...transmit those thoughts to your hearts.\"",
+        "severity": "minor",
+        "source_quote": "...transmit those thoughts to your hearts.",
+        "suggested_fix": "Match number and register of the English \"your hearts\" (plural/general). Use a plural or neutral Dutch form: change \"uw hart\" to \"uw harten\" (formal plural) or to the informal/plural \"jullie harten\" if the text elsewhere uses familiar address. For a neutral plural formal style, use: \"...die gedachten in uw harten overbrengen.\"",
+        "translation_quote": "...en door de kracht van het geschreven woord die gedachten in uw hart overbrengen."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

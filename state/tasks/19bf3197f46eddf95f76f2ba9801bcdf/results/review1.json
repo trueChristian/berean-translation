@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9bdbe85f-5851-49be-b986-818f7c397336",
+    "response_id": "chatcmpl-EUIiRMZKzs5UXPQMEEdfzgK7t5Kcz",
+    "usage": {
+      "completion_tokens": 1894,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11750,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13644
+    }
+  },
+  "received_at": "2026-10-02T00:07:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>“Be ye not unequally yoked together with unbelievers: for what fellowship hath righteousness with unrighteousness” (2 Corinthians 6:14-15). “The wife is bound by the law as long as her husband liveth; but if her husband be dead, she is at liberty to be married to whom she will; only in the Lord” (1 Corinthians 7:39).</p>",
+        "severity": "minor",
+        "source_quote": "“Be ye not unequally yoked together with unbelievers: for what fellowship hath righteousness with unrighteousness” (2 Corinthians 6:14-15).",
+        "suggested_fix": "Replace the mistranslated phrase “gelijk aan elkaar gejokt zijn” with a correct Dutch rendering of “unequally yoked”, for example: “ongelijk verbonden” or “ongelijk juk”. Preserve the surrounding HTML and verse text.",
+        "translation_quote": "Gods plan is dat huwelijk een gelijk juk is. God zal geen Eva bij een Adam brengen in een huwelijk dat een ongelijk juk is. Laten we nadenken over verlaten en hechten, samengekleefd raken, en twee die één worden. In een huwelijk zijn die twee nu één voor God. Stel je voor in een slecht huwelijk te zitten—een gezin dat zo probeert te functioneren. Er zal geen zegen zijn.\n\nMaar een gelijk juk brengt zegen! God verlangt dat wij verenigd worden in één vlees, één hart en één verstand. Hij wil ons verenigd zien in hart, verstand en vlees—het hele wezen, één zijn. Gods plan brengt zegen."
+      },
+      {
+        "location": "<p>“There is also a need for mothers who are submissive and yielded to authority. Mothers who do not follow the women’s lib of our day but are rather content to be keepers at home.</p>",
+        "severity": "minor",
+        "source_quote": "There’s also a need for mothers who are submissive and yielded to authority. Mothers who do not follow the women’s lib of our day but are rather content to be keepers at home.",
+        "suggested_fix": "Fix duplicated/awkward phrasing and a small mistranslation: change “Geef je hart om geleid en geleid te worden?” to a single natural phrase such as “Geef je hart om geleid te worden?” and change “vrolijk onder gezag te onderwerpen” to “je vrolijk onder gezag te stellen” or “je vrolijk onder gezag te onderwerpen” → prefer: “je vrolijk onder gezag te stellen.” Preserve HTML.",
+        "translation_quote": "Jonge dames, zijn jullie bereid in te tekenen? Geef je hart om geleid en geleid te worden? Zijn jullie bereid te volgen en vrolijk onder gezag te onderwerpen? Zijn jullie bereid te dienen en je uit te geven voor je gezin? Zijn jullie bereid te dienen en je uit te geven voor JULLIE gezin? Als je ooit trouwt, zal het JOUW gezin zijn waarvoor je dient en je uitgeeft. Zijn jullie bereid pijn en ongemak te dragen? Zijn jullie bereid een helpmeet te zijn, jezelf te geven voor zijn last en visie?"
+      },
+      {
+        "location": "<p>“Children, obey your parents in the Lord: for this is right. Honor thy father and mother; which is the first commandment with promise; That it may be well with thee, and thou mayest live long on the earth” (Ephesians 6:1-3). . Children, obey your parents in the Lord is a part of the headship order. This not difficult to understand, is it? A home following the plan of God is just a blessed situation. Young people learn to be under authority. Make that your high priority. The sooner you learn to be under authority, the better you will be prepared for the responsibilities in life.</p>",
+        "severity": "minor",
+        "source_quote": "Children, obey your parents in the Lord: for this is right. Honor thy father and mother; which is the first commandment with promise; That it may be well with thee, and thou mayest live long on the earth” (Ephesians 6:1-3).",
+        "suggested_fix": "Small wording issue: change “Dit is niet moeilijk te begrijpen, is het?” to a more idiomatic Dutch phrasing such as “Dat is toch niet moeilijk te begrijpen?” Also remove duplicated period after the verse. Preserve HTML.",
+        "translation_quote": "“Children, obey your parents in the Lord: for this is right. Honor thy father and mother; which is the first commandment with promise; That it may be well with thee, and thou mayest live long on the earth” (Ephesians 6:1-3). . Children, obey your parents in the Lord is a part of the headship order. This not difficult to understand, is it? A home following the plan of God is just a blessed situation. Young people learn to be under authority. Make that your high priority. The sooner you learn to be under authority, the better you will be prepared for the responsibilities in life."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

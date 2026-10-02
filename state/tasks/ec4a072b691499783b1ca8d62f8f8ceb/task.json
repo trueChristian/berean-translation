@@ -2,7 +2,6 @@
   "article_id": "93978dae-706d-43d4-abee-6b6e011683fa",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "83c96b2f691c4b44b5a8556a8d930a5d",
   "campaign": "gh-36910935961",
   "created_at": "2026-10-01T18:59:41+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 4037
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1169,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3786,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4955
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<p>“My husband faced the disaster like a man,” says Becky. …</p>",
+      "severity": "minor",
+      "source_quote": "“My husband faced the disaster like a man,” says Becky. “His calm spirit helped me relax.",
+      "suggested_fix": "Replace the translation phrasing that reads “stond het onheil te woord als een man” with a Dutch idiom that preserves the original meaning of confronting or meeting the disaster with masculine courage. Suggested wording: “Mijn man ging als een man met het onheil om,” or “Mijn man ging moedig met het onheil om.”",
+      "translation_quote": "“Mijn man stond het onheil te woord als een man,” zegt Becky. “Zijn rustige geest hielp mij ontspannen."
+    },
+    {
+      "location": "<p>“Then he was elected to finish the last four months of secretarial duties for a brother who spent some time in Bulgaria. …”</p>",
+      "severity": "minor",
+      "source_quote": "“Then he was elected to finish the last four months of secretarial duties for a brother who spent some time in Bulgaria.",
+      "suggested_fix": "The translation uses “secretaressewerk,” which is gendered and slightly narrow. Use a neutral and idiomatic rendering of “secretarial duties,” such as “secretariële taken” or “secretariële werkzaamheden.”",
+      "translation_quote": "“Toen werd hij gekozen om de laatste vier maanden secretaressewerk af te maken voor een broer die enige tijd in Bulgarije verbleef.”"
+    },
+    {
+      "location": "<figure> <img alt=\"Ocean waves breaking along a sandy shoreline seen from above.\">",
+      "severity": "minor",
+      "source_quote": "Ocean waves breaking along a sandy shoreline seen from above.",
+      "suggested_fix": "The alt text translation “Golvende oceaangolven breken langs een zandige kustlijn gezien van boven.” is understandable but slightly awkward (redundant phrasing). Consider a smoother idiom: “Oceaangolven die breken langs een zandige kustlijn, gezien van boven.”",
+      "translation_quote": "Golvende oceaangolven breken langs een zandige kustlijn gezien van boven."
+    }
+  ],
+  "finished_at": "2026-10-02T00:07:38+00:00",
   "id": "ec4a072b691499783b1ca8d62f8f8ceb",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "nld",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6b48763402450c7e0df39647d2a787036f46aac8668dba9a3257ef7c81d3ee1a.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

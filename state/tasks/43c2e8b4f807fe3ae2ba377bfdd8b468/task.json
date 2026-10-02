@@ -2,7 +2,6 @@
   "article_id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "83c96b2f691c4b44b5a8556a8d930a5d",
   "campaign": "gh-36910935961",
   "created_at": "2026-10-01T18:59:41+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 3252
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 840,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2936,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3776
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "second paragraph, sentence: \"I brushed shoulders with well-known authors such as Katrina Hoover Lee, Johnny Miller, and Ruthann Stelfox.\"",
+      "severity": "minor",
+      "source_quote": "I brushed shoulders with well-known authors such as Katrina Hoover Lee, Johnny Miller, and Ruthann Stelfox.",
+      "suggested_fix": "Add the missing preposition to make the Dutch sentence grammatical: change \"Ik raakte bekende auteurs als Katrina Hoover Lee, Johnny Miller en Ruthann Stelfox.\" to \"Ik raakte in gesprek met bekende auteurs als Katrina Hoover Lee, Johnny Miller en Ruthann Stelfox.\" or \"Ik botste op bekende auteurs als...\" depending on intended register.",
+      "translation_quote": "Ik raakte bekende auteurs als Katrina Hoover Lee, Johnny Miller en Ruthann Stelfox."
+    },
+    {
+      "location": "second paragraph, final sentence: \"...transmit those thoughts to your hearts.\"",
+      "severity": "minor",
+      "source_quote": "...transmit those thoughts to your hearts.",
+      "suggested_fix": "Match number and register of the English \"your hearts\" (plural/general). Use a plural or neutral Dutch form: change \"uw hart\" to \"uw harten\" (formal plural) or to the informal/plural \"jullie harten\" if the text elsewhere uses familiar address. For a neutral plural formal style, use: \"...die gedachten in uw harten overbrengen.\"",
+      "translation_quote": "...en door de kracht van het geschreven woord die gedachten in uw hart overbrengen."
+    }
+  ],
+  "finished_at": "2026-10-02T00:07:38+00:00",
   "id": "43c2e8b4f807fe3ae2ba377bfdd8b468",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "nld",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1c01cd25574e3192025b4d55d265b47acaa5a5b7097269f777a351e380328175.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

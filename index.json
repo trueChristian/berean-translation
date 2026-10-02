@@ -2943,6 +2943,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
+      "html_sha256": "31707caa574f33218cb7f2b287487936804387a88fbf26cdd7b7dc8cbd79dfd4",
+      "human_reviewed": false,
+      "id": "1c75dce8-1781-427f-8099-01596d53c2a4",
+      "images": [
+        {
+          "alt": "Een kleine bruine vogel die in een groen weiland staat",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-1.jpg"
+        },
+        {
+          "alt": "Een blauw-witte vogel die op een afgezaagde tak zit tegen een groene achtergrond",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/1c75dce8-1781-427f-8099-01596d53c2a4.json",
+      "metadata_sha256": "ad8917819f86b94c0be5b38c6545beedb91a141cc8bf72acd959a7b13f158b19",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "FEATURED ARTICLE",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
+      "status": "ready",
+      "subtitle": "and ‘round me rings the music of the spheres.",
+      "title": "ALL NATURE SINGS",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/45c612ff-1966-4079-9ba5-09ab022917ea.html",
       "html_sha256": "9736db4b62ec877a24e8433e6b83709780b78d51de7c16db4b792f4f451a9363",
       "human_reviewed": false,
@@ -2970,6 +3002,34 @@
       "status": "ready",
       "subtitle": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2",
       "title": "God, The Perfection of Beauty",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
+      "html_sha256": "df4b49c7b6a0e83043f80f62dc3af5f254484d7e9a194f3670705cd8142f41a8",
+      "human_reviewed": false,
+      "id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
+      "images": [
+        {
+          "alt": "Roze en witte kroonwikke bloemen in een groen weiland",
+          "public_path": "/images/articles/52074824-2feb-4fe4-96d0-a08ec72c3565-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.json",
+      "metadata_sha256": "4f32f834cd746b9610e6f76bf3de1a5c6abfc1508227d58347007e9179327d99",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Van de REDACTIE",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Van de redacteur",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -3003,6 +3063,126 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
+      "html_sha256": "4821b62bb67a3fce66661efad5a0bb4c3f730353350be93a1a39d756d5d4c818",
+      "human_reviewed": false,
+      "id": "80e78d22-936e-48de-885a-f9a8898d5e42",
+      "images": [
+        {
+          "alt": "Een man en vrouw die samen door een groene weide lopen",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-1.jpg"
+        },
+        {
+          "alt": "Een vader en moeder die naar hun pasgeboren baby kijken",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-2.jpg"
+        },
+        {
+          "alt": "Een gezin dat samen voor een waterval staat",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-3.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/80e78d22-936e-48de-885a-f9a8898d5e42.json",
+      "metadata_sha256": "b4e36534c1f1e241aaca1047e02c05c74f27fa309239451d2089bbd38dee90a9",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "INSPIRATIONS FOR YOUTH",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
+      "status": "ready",
+      "subtitle": "God’s Plan for Male and Female",
+      "title": "A Christ-Centered Courtship",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
+      "html_sha256": "8e2d266a1bb36d6e8a64a338f0dc2c892994663756860f76dbc6bcd9984ff4fa",
+      "human_reviewed": false,
+      "id": "93978dae-706d-43d4-abee-6b6e011683fa",
+      "images": [
+        {
+          "alt": "Golvende oceaangolven breken langs een zandige kustlijn gezien van boven.",
+          "public_path": "/images/articles/93978dae-706d-43d4-abee-6b6e011683fa-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/93978dae-706d-43d4-abee-6b6e011683fa.json",
+      "metadata_sha256": "74c8ed3c4d9274ae04928e75f21ebd7a242ae105dd9432b9fe7f1762bd8f0548",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ZUSTER TOT ZUSTER",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Overbelasting door omstandigheden",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.html",
+      "html_sha256": "f2bad361a25b46c97715fed25e232c3bf10c1ac1303b6211f4b5db0d452a9b8c",
+      "human_reviewed": false,
+      "id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
+      "images": [
+        {
+          "alt": "Een kop koffie naast een spiraalnotitieboek en een potlood.",
+          "public_path": "/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.json",
+      "metadata_sha256": "b00f30a6c58b18921aea1f5be598b6639f8d92fd75a9a2640ecc4137bb902a3e",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SISTER TO SISTER",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Uitstelgedrag Overbelast",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
+      "html_sha256": "cf472346b783b582607e94c3b1bb80b93459a680ffa0cea887e5e455fa7ba219",
+      "human_reviewed": false,
+      "id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
+      "images": [
+        {
+          "alt": "Een smal pad dat door een loofbos slingert",
+          "public_path": "/images/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.json",
+      "metadata_sha256": "80edc94d8aa582bd05ddcbdc3c2f52f347db2e0fd9d27aad83d5af8e75b24f84",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Kinderhoek",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Jamin wordt wijzer",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
       "html_sha256": "546687e4cd96472233a617c20a8c5ebb5d75cce43242a6a2a1ab5bf5502d8402",
       "human_reviewed": false,
@@ -3030,6 +3210,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Ken en ik",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
+      "html_sha256": "015b34101637e14b281377049c67a9f7c8191bd8110e30c7678fa1abb9673039",
+      "human_reviewed": false,
+      "id": "db7b1129-282d-4f48-aefa-f839cb585426",
+      "images": [
+        {
+          "alt": "Een rij zaailingen die uit de aarde komen terwijl een hand ze water geeft",
+          "public_path": "/images/articles/db7b1129-282d-4f48-aefa-f839cb585426-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/db7b1129-282d-4f48-aefa-f839cb585426.json",
+      "metadata_sha256": "6d6f3f353da4ac3e518b10d3f4cd2b315e39e3c62034118e15d7c5b1547ea390",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "BEZINNINGEN VAN EEN MISSIONARIS",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "De christelijke humanist",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {

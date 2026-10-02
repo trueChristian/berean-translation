@@ -2,7 +2,6 @@
   "article_id": "1c75dce8-1781-427f-8099-01596d53c2a4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "83c96b2f691c4b44b5a8556a8d930a5d",
   "campaign": "gh-36910935961",
   "created_at": "2026-10-01T18:59:41+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 6522
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 848,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6334,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7182
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "source.html paragraph 1 (opening line)",
+      "severity": "minor",
+      "source_quote": "Our Father’s world is a world unspoiled by human invention and intervention.",
+      "suggested_fix": "Use a Dutch possessive construction without English-style apostrophe-s: replace “Onze hemelse Vader’s wereld” with “De wereld van onze hemelse Vader” to read naturally in contemporary Dutch while preserving meaning.",
+      "translation_quote": "Onze hemelse Vader’s wereld is een wereld onbescha­digd door menselijke uitvindingen en ingrepen."
+    },
+    {
+      "location": "source.html paragraph 7 (near start of paragraph)",
+      "severity": "minor",
+      "source_quote": "How little knowledge of heaven is committed to our understanding.",
+      "suggested_fix": "Fix a small typographic/diacritic issue and register: replace “Één dimensie” with “Een dimensie” (no capital acute), and consider changing “Revelations” only if source used another form (preserve as in source). Suggested corrected sentence fragment: “Een dimensie waarmee we ons kunnen verbinden is dat het een plaats vol gezang is.”",
+      "translation_quote": "Één dimensie waarmee we ons kunnen verbinden is dat het een plaats vol gezang is."
+    }
+  ],
+  "finished_at": "2026-10-02T00:07:38+00:00",
   "id": "c4914dc104e8e35f1ee885a4a7dbe564",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "nld",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/297bec5eb6130d2e5b99a1b8933e585890e109074aa572a0b93e7208618f72b4.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
