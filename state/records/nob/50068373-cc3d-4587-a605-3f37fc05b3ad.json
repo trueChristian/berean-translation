@@ -6,6 +6,12 @@
       "campaign": "gh-36992568621",
       "event": "requested",
       "task": "56569db6a3f1948ac75ef2576eda96cc"
+    },
+    {
+      "at": "2026-10-02T11:17:30+00:00",
+      "event": "not_ready",
+      "reason": "Image alt text was omitted or invented",
+      "task": "56569db6a3f1948ac75ef2576eda96cc"
     }
   ],
   "language": "nob",
