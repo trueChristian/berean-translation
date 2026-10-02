@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:02:59+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “व्यभिचार के कारण को छोड़कर”\",\"severity\":\"major\",\"source_quote\":\"“just prior” ... any outside relationship would be fornication, while “just after” ... any similar relationship would be adultery.\",\"suggested_fix\":\"इस अनुच्छेद में दोनों पदों का प्रयोग एकसार और सही भेद के साथ करें: मंगनी की अवधि में विवाह से पहले के संबंध के लिए “जारकर्म” और विवाह के बाद के संबंध के लिए “व्यभिचार” लिखें। उसी अनुसार आरंभिक वाक्य “विवाह से पहले की किसी भी प्रकार की अनैतिकता को व्यभिचार कहा गया है” को भी सुधारें।\",\"translation_quote\":\"“परमेश्वर की दृष्टि में उनके विवाहित माने जाने के समय से ठीक पहले, किसी बाहरी संबंध को व्यभिचार कहा जाएगा; जबकि उनके विवाहित माने जाने के ठीक बाद, ऐसा ही कोई संबंध जारकर्म होगा।”\"},{\"location\":\"section\",\"severity\":\"minor\",\"source_quote\":\"THE GODLY HOME\",\"suggested_fix\":\"“भक्तिपूर्ण घर” या “धर्मी परिवार” जैसा शीर्षक चुनें, ताकि “ईश्वरीय परिवार” से पैदा होने वाला अर्थ-परिवर्तन न हो।\",\"translation_quote\":\"ईश्वरीय परिवार\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 2023,
+    "content_evidence_truncated": false,
+    "content_sha256": "f5b8db3fb77f229f781ff573aacf33a0044837a0bcda1d3d2960dab6ee952e7c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1231,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 919,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11707,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11704,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12938
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

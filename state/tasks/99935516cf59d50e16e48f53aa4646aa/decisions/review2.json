@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “John 4:1-42…”",
+      "severity": "major",
+      "source_quote": "“For thou hast had five husbands; and he whom thou now hast is not thy husband”",
+      "suggested_fix": "Change ״היו לך חמישה אנשים״ to ״היו לך חמישה בעלים״ so the quotation preserves the source’s statement that she had five husbands.",
+      "translation_quote": "״שכן היו לך חמישה אנשים, והאיש שיש לך עכשיו אינו בעלך״"
+    },
+    {
+      "location": "Paragraph beginning “Sometime after Hosea marries her…”",
+      "severity": "major",
+      "source_quote": "“Gomer apparently responded”",
+      "suggested_fix": "Change ״וגומר מגיבה לכאורה״ to ״וגֹּמֶר הגיבה לכאורה״, treating Gomer as the proper name rather than the Hebrew verb גומר.",
+      "translation_quote": "״וגומר מגיבה לכאורה״"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

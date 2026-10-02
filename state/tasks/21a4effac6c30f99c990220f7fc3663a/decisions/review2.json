@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Source HTML, paragraph beginning “Instead, it seems we have many defeated people”",
+      "severity": "minor",
+      "source_quote": "“Rise up, Oh man of God! Be done with lesser things!”",
+      "suggested_fix": "«Reis deg, du Guds mann! Legg mindreverdige ting bak deg!»",
+      "translation_quote": "«Reis deg, du Guds mann! Gjør deg ferdig med mindreverdige ting!»"
+    },
+    {
+      "location": "Source HTML, second paragraph, sentence beginning “Psalms 40:4 says”",
+      "severity": "minor",
+      "source_quote": "“Psalms 40:4 says He will not respect the proud”",
+      "suggested_fix": "«Salme 40:4 sier at han ikke viser de stolte aktelse»",
+      "translation_quote": "«Salme 40:4 sier at han ikke har behag i de stolte»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

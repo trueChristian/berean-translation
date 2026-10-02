@@ -2,7 +2,6 @@
   "article_id": "5613aef3-79c5-42d4-9695-214e71989c22",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "aec4a96340a44ab68491c104d11121cc",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -45,18 +44,47 @@
         },
         "total_tokens": 4834
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 277,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3013,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3010,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3290
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Source /article[1]/blockquote[1]/p[1]/em[1]/br[1]; translation /article[1]/blockquote[1]/p[1]/em[1]",
-      "severity": "critical",
-      "source_quote": "<p><em>And we know that all things work together for good to<br>\n    them that love God, to them who are the called according<br>\n    to his purpose –Romans 8:28.</em></p>",
-      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[4:6], translation signature[4:4], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
-      "translation_quote": "<p><em>اور ہم جانتے ہیں کہ سب چیزیں مل کر اُن کے لیے بھلائی پیدا کرتی ہیں جو خدا سے محبت رکھتے ہیں، یعنی اُن کے لیے جو اُس کے ارادے کے مطابق بلائے گئے ہیں—رومیوں 8:28۔</em></p>"
+      "location": "source.html, paragraphs 7, 13, 15",
+      "severity": "major",
+      "source_quote": "“I’ll plan to send a letter to Brother Oscar Peight…”; “The letter I sent to Brother Oscar Peight!”; “If that letter would have reached Brother Oscars…”",
+      "suggested_fix": "نام کی نقل میں یکسانیت رکھتے ہوئے ان تمام مقامات پر “بھائی آسکر پیٹ” کے بجائے “بھائی آسکر پیٹ” میں surname کو اصل کے مطابق “پیائٹ” لکھیں؛ تیسرے مقام پر بھی اسی نام کی یہی صورت رکھیں۔",
+      "translation_quote": "”میں بھائی آسکر پیٹ کو خط لکھوں گا…“؛ ”وہ خط جو میں نے بھائی آسکر پیٹ کو بھیجا تھا!“؛ ”اگر وہ خط بھائی آسکر تک پہنچ جاتا…“"
+    },
+    {
+      "location": "source.html, paragraphs 7, 13, 15",
+      "severity": "major",
+      "source_quote": "Brother Oscar Peight; Brother Oscars",
+      "suggested_fix": "اصل میں نام “Oscar Peight” ہے؛ اردو میں اسے مستقل طور پر “آسکر پیائٹ” لکھیں، بشمول تیسرے ذکر کے۔",
+      "translation_quote": "آسکر پیٹ؛ آسکر"
     }
   ],
+  "finished_at": "2026-10-02T21:02:59+00:00",
   "id": "93c5521909062217a19dd8f97a2e72ea",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "urd",
@@ -145,11 +173,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/6b69ec32f3c591dde06bdc79dc3a851fd71299993e0486d80e9e5fc9fe8b1d86.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "25a342e69db1f9564c4d013f3cc21b323e97a520b0f7ad9ab9787a58881371f3",
   "translation_model_actual": "gpt-6-luna"

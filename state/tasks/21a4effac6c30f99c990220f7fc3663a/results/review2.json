@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4547d182-ddbf-413e-9c52-83fcedd4fa39",
+    "response_id": "chatcmpl-EUc9ic8dTyVEJwgFEpC2Bs2Kcyi7o",
+    "usage": {
+      "completion_tokens": 904,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 689,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8232,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8229,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9136
+    }
+  },
+  "received_at": "2026-10-02T21:02:59+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Source HTML, paragraph beginning “Instead, it seems we have many defeated people”",
+        "severity": "minor",
+        "source_quote": "“Rise up, Oh man of God! Be done with lesser things!”",
+        "suggested_fix": "«Reis deg, du Guds mann! Legg mindreverdige ting bak deg!»",
+        "translation_quote": "«Reis deg, du Guds mann! Gjør deg ferdig med mindreverdige ting!»"
+      },
+      {
+        "location": "Source HTML, second paragraph, sentence beginning “Psalms 40:4 says”",
+        "severity": "minor",
+        "source_quote": "“Psalms 40:4 says He will not respect the proud”",
+        "suggested_fix": "«Salme 40:4 sier at han ikke viser de stolte aktelse»",
+        "translation_quote": "«Salme 40:4 sier at han ikke har behag i de stolte»"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

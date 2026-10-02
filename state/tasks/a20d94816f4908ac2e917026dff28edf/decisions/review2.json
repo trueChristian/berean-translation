@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph 2",
+      "severity": "major",
+      "source_quote": "“I’ve been thinking that we could take a trip next week with school being off.”",
+      "suggested_fix": "Replace „wenn die Schule ausfällt“ with „wenn schulfrei ist“, for example: „Ich habe mir überlegt, dass wir nächste Woche, wenn schulfrei ist, einen Ausflug machen könnten“",
+      "translation_quote": "„Ich habe mir überlegt, dass wir nächste Woche, wenn die Schule ausfällt, einen Ausflug machen könnten“"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

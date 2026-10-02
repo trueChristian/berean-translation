@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:02:59+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “John 4:1-42…”\",\"severity\":\"major\",\"source_quote\":\"“For thou hast had five husbands; and he whom thou now hast is not thy husband”\",\"suggested_fix\":\"Change ״היו לך חמישה אנשים״ to ״היו לך חמישה בעלים״ so the quotation preserves the source’s statement that she had five husbands.\",\"translation_quote\":\"״שכן היו לך חמישה אנשים, והאיש שיש לך עכשיו אינו בעלך״\"},{\"location\":\"Paragraph beginning “Sometime after Hosea marries her…”\",\"severity\":\"major\",\"source_quote\":\"“Gomer apparently responded”\",\"suggested_fix\":\"Change ״וגומר מגיבה לכאורה״ to ״וגֹּמֶר הגיבה לכאורה״, treating Gomer as the proper name rather than the Hebrew verb גומר.\",\"translation_quote\":\"״וגומר מגיבה לכאורה״\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 910,
+    "content_evidence_truncated": false,
+    "content_sha256": "a5ffa76365fcc18d2c16fd5335a8ae3e107c0761d1fd7c9f5042f0a1a47cde67",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 913,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 688,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13294,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13291,
+        "cached_tokens": 0
+      },
+      "total_tokens": 14207
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

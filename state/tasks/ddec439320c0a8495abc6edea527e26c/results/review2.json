@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "303cb1a7-1b9c-4084-a560-dddafe392a31",
+    "response_id": "chatcmpl-EUc9oTONB6XvDWbeKjeFDPuaUd81t",
+    "usage": {
+      "completion_tokens": 331,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7703,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7700,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8034
+    }
+  },
+  "received_at": "2026-10-02T21:02:59+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html, paragraph beginning “It is helpful to review…”",
+        "severity": "minor",
+        "source_quote": "It is helpful to review how we, as Christians, approach end-of-life situations and try to understand where the world around us has gone so terribly wrong.",
+        "suggested_fix": "현재 번역은 전반적인 뜻을 전달합니다. 다만 ‘임종에 관한 상황’은 다소 어색하므로 ‘임종 상황을’로 다듬을 수 있습니다.",
+        "translation_quote": "그리스도인으로서 임종에 관한 상황을 어떻게 대해야 하는지 되짚어 보고, 우리 주변의 세상이 어디에서 그토록 크게 잘못되었는지 이해하려는 것은 유익하다."
+      },
+      {
+        "location": "source.html, paragraph beginning “Of course, this is challenging.”",
+        "severity": "minor",
+        "source_quote": "As always, there needs to be some balance between controlling the pain and not having so much medicine that the individual is groggy and sleepy.",
+        "suggested_fix": "‘약에 취해’는 원문에 없는 취한 상태의 뉘앙스를 더할 수 있습니다. ‘약 때문에 지나치게 몽롱하고 졸릴 정도로 약을 많이 쓰지 않도록’처럼 다듬으십시오.",
+        "translation_quote": "언제나 통증을 조절하면서도 환자가 지나치게 약에 취해 졸리고 나른해질 정도로 약을 많이 쓰지 않도록 균형을 잡아야 한다."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "aec4a96340a44ab68491c104d11121cc",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
   "events": [
@@ -45,18 +44,39 @@
         },
         "total_tokens": 17674
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1168,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 997,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11382,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11379,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12550
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Source /article[1]/p[5]/em[1]; translation /article[1]/p[5]",
-      "severity": "critical",
-      "source_quote": "<p>At least five times in the Old Testament, the <em>first marriage</em> is described by the Lord as exclusive and lifelong. This same view was supported by Jesus and the apostles in the New Testament.</p>",
-      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[22:24], translation signature[22:22], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
-      "translation_quote": "<p>Angalau mara tano katika Agano la Kale, ndoa ya kwanza inaelezwa na Bwana kuwa ya kipekee na ya maisha yote. Yesu na mitume waliunga mkono mtazamo huo katika Agano Jipya.</p>"
+      "location": "HTML, item 3 in the numbered list; commentary following Malaki 2:14–16",
+      "severity": "minor",
+      "source_quote": "To raise up a godly seed unto the Lord.",
+      "suggested_fix": "Replace the phrase with “Ili wamlee Bwana uzao unaomcha Mungu.” → “Ili wamlee Bwana uzao unaomcha Mungu” is ambiguous; use “Ili wamlee Bwana watoto wanaomcha Mungu” only if the intended meaning is raising children for the Lord, or more directly “Ili wazao wao wamche Mungu.”",
+      "translation_quote": "Ili wamlee Bwana uzao unaomcha Mungu."
     }
   ],
+  "finished_at": "2026-10-02T21:02:59+00:00",
   "id": "8084914ca1867f716412afa7ff81cab1",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "swa",
@@ -145,11 +165,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5bf38d93abdc570342545f7c449c547627f8399466dbf15d8ec8a3c68a32a342.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "898312b9e2985808962e7015203da21ff06c86a060f8b64c6111393491050496",
   "translation_model_actual": "gpt-6-luna"

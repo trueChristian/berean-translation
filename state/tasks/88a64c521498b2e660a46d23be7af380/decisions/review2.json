@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Абзац с цитатой Псалма 119:21",
+      "severity": "major",
+      "source_quote": "Thou hast rebuked the proud that are cursed, which do err from thy commandments –Psalm 119:21.",
+      "suggested_fix": "Исправить цитату так, чтобы проклятыми были названы именно надменные, уклоняющиеся от заповедей: например, «Ты укорил надменных, проклятых, уклоняющихся от заповедей Твоих — Псалом 119:21».",
+      "translation_quote": "Ты укорил надменных; прокляты уклоняющиеся от заповедей Твоих — Псалом 119:21."
+    },
+    {
+      "location": "Абзац с ответом Давида о льве и медведе (1 Царств 17:34–36)",
+      "severity": "major",
+      "source_quote": "and when he arose against me, I caught him by his beard",
+      "suggested_fix": "Заменить «за космы» на «за бороду», сохранив остальной HTML и ссылку: в цитате должно быть «а если он бросался на меня, то я хватал его за бороду»",
+      "translation_quote": "а если он бросался на меня, то я хватал его за космы"
+    },
+    {
+      "location": "Абзац о доспехах Саула (1 Царств 17:38–39)",
+      "severity": "major",
+      "source_quote": "And David girded his sword upon his armour, and he assayed to go; for he had not proved it.",
+      "suggested_fix": "Передать, что Давид препоясался мечом поверх доспехов и попытался идти, но не испытал этого оружия; например: «И опоясался Давид мечом поверх доспехов и попытался идти, ибо не испытал их».",
+      "translation_quote": "И опоясался Давид мечом его поверх одежды и начал ходить, ибо не привык к такому оружию."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

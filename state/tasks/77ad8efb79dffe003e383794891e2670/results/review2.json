@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ec1381f6-ae21-4139-acb7-cb34291c1e85",
+    "response_id": "chatcmpl-EUc9l2iu5wh0Eh0Fl666YToNExPNX",
+    "usage": {
+      "completion_tokens": 958,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 788,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11640,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11637,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12598
+    }
+  },
+  "received_at": "2026-10-02T21:02:59+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph in the Matthew 19:3-12 list item",
+        "severity": "major",
+        "source_quote": "We need to remember that it is God who has joined each marriage together in Heaven and has recorded them in the Book of Life.",
+        "suggested_fix": "Replace «اور اُن کے نام کتابِ حیات میں درج کیے ہیں» with «اور اُن شادیوں کو کتابِ حیات میں درج کیا ہے» to preserve that the source says the marriages are recorded, not the spouses’ names.",
+        "translation_quote": "ہمیں یاد رکھنا چاہیے کہ ہر شادی کو آسمان پر خدا نے جوڑا ہے اور اُن کے نام کتابِ حیات میں درج کیے ہیں۔"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:02:59+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Абзац с цитатой Псалма 119:21\",\"severity\":\"major\",\"source_quote\":\"Thou hast rebuked the proud that are cursed, which do err from thy commandments –Psalm 119:21.\",\"suggested_fix\":\"Исправить цитату так, чтобы проклятыми были названы именно надменные, уклоняющиеся от заповедей: например, «Ты укорил надменных, проклятых, уклоняющихся от заповедей Твоих — Псалом 119:21».\",\"translation_quote\":\"Ты укорил надменных; прокляты уклоняющиеся от заповедей Твоих — Псалом 119:21.\"},{\"location\":\"Абзац с ответом Давида о льве и медведе (1 Царств 17:34–36)\",\"severity\":\"major\",\"source_quote\":\"and when he arose against me, I caught him by his beard\",\"suggested_fix\":\"Заменить «за космы» на «за бороду», сохранив остальной HTML и ссылку: в цитате должно быть «а если он бросался на меня, то я хватал его за бороду»\",\"translation_quote\":\"а если он бросался на меня, то я хватал его за космы\"},{\"location\":\"Абзац о доспехах Саула (1 Царств 17:38–39)\",\"severity\":\"major\",\"source_quote\":\"And David girded his sword upon his armour, and he assayed to go; for he had not proved it.\",\"suggested_fix\":\"Передать, что Давид препоясался мечом поверх доспехов и попытался идти, но не испытал этого оружия; например: «И опоясался Давид мечом поверх доспехов и попытался идти, ибо не испытал их».\",\"translation_quote\":\"И опоясался Давид мечом его поверх одежды и начал ходить, ибо не привык к такому оружию.\"}],\"passed\":false,\"score\":87}",
+    "content_bytes": 2117,
+    "content_evidence_truncated": false,
+    "content_sha256": "e7ab5c0992194fea863bab119de195de77fa741dbc5135d7d7c1d0a943028693",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1183,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 723,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8255,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8252,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9438
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

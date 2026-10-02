@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 3",
+      "severity": "major",
+      "source_quote": "“Why don’t we plan to visit the congregation at Bethel Fellowship next Sunday then?”",
+      "suggested_fix": "Replace the transliteration with a Hebrew rendering that preserves the organization’s name, for example: ״אז למה שלא נתכנן לבקר בקהילה של בית־אל פֶּלוֹשִׁיפּ (Bethel Fellowship) ביום ראשון הבא?״",
+      "translation_quote": "״אז למה שלא נתכנן לבקר בקהילה של בית־אל פֶּלוֹשִׁיפּ ביום ראשון הבא?״"
+    },
+    {
+      "location": "Paragraph 7",
+      "severity": "major",
+      "source_quote": "“I’ll plan to send a letter to Brother Oscar Peight to let them know we’re coming.”",
+      "suggested_fix": "Use a conventional Hebrew transliteration of Peight, such as פייט, rather than פייט as currently written only if the source name is intended as pronounced /peɪt/? The current text already has פייט; no change needed.",
+      "translation_quote": "״אתכנן לשלוח מכתב לאח אוסקר פייט כדי להודיע להם שאנחנו באים.״"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

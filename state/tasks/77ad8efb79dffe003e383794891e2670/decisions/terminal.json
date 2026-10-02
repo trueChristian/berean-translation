@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph in the Matthew 19:3-12 list item",
+      "severity": "major",
+      "source_quote": "We need to remember that it is God who has joined each marriage together in Heaven and has recorded them in the Book of Life.",
+      "suggested_fix": "Replace «اور اُن کے نام کتابِ حیات میں درج کیے ہیں» with «اور اُن شادیوں کو کتابِ حیات میں درج کیا ہے» to preserve that the source says the marriages are recorded, not the spouses’ names.",
+      "translation_quote": "ہمیں یاد رکھنا چاہیے کہ ہر شادی کو آسمان پر خدا نے جوڑا ہے اور اُن کے نام کتابِ حیات میں درج کیے ہیں۔"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

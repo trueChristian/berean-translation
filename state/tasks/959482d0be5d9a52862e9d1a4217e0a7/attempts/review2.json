@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:02:59+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"लेख का अनुच्छेद 9\",\"severity\":\"major\",\"source_quote\":\"He pulled their van off the road so he could empty his stomach’s contents.\",\"suggested_fix\":\"“उसने वैन को सड़क से हटाकर रोक दिया, ताकि वह उल्टी कर सके।”\",\"translation_quote\":\"उसने गाड़ी सड़क से हटाकर रोक दी, ताकि पेट का सारा सामान उलट सके।\"},{\"location\":\"लेख का अनुच्छेद 14\",\"severity\":\"major\",\"source_quote\":\"“But this way, they did not even know we were coming to visit.”\",\"suggested_fix\":\"“लेकिन इस तरह उन्हें यह भी पता नहीं चला कि हम उनसे मिलने आ रहे थे।”\",\"translation_quote\":\"“लेकिन इस तरह उन्हें यह भी पता नहीं चला कि हम मिलने आ रहे थे।”\"},{\"location\":\"लेख का अनुच्छेद 14\",\"severity\":\"major\",\"source_quote\":\"“God had all this planned.”\",\"suggested_fix\":\"“परमेश्वर ने यह सब योजना के अनुसार किया था।”\",\"translation_quote\":\"“परमेश्वर ने यह सब पहले से तय कर रखा था।”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1495,
+    "content_evidence_truncated": false,
+    "content_sha256": "0935e667d3cc7496969112f3a4e09fc510cf7c63ce920ff4bd4a0185f0d45a26",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 248,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2963,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2960,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3211
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

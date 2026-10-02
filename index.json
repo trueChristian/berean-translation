@@ -16365,6 +16365,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/5613aef3-79c5-42d4-9695-214e71989c22.html",
+      "html_sha256": "dd8612868c0b3dcd7058cfe79a6027618a329556eb1e676bc8343c1af5decf10",
+      "human_reviewed": false,
+      "id": "5613aef3-79c5-42d4-9695-214e71989c22",
+      "images": [
+        {
+          "alt": "푸른 들판을 지나 농장 건물로 이어지는 진입로 옆의 시골 우편함",
+          "public_path": "/images/articles/5613aef3-79c5-42d4-9695-214e71989c22-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/5613aef3-79c5-42d4-9695-214e71989c22.json",
+      "metadata_sha256": "e377c5a2833fd901d1d554c756d76f7fd709a7538c403360324535b58c508bea",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "어린이 코너",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "25a342e69db1f9564c4d013f3cc21b323e97a520b0f7ad9ab9787a58881371f3",
+      "status": "ready",
+      "subtitle": null,
+      "title": "잊어버린 우표",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.html",
       "html_sha256": "730f0606b29c3f86e7573ce3be0c8a4b4fe80b537fc349e9d2f4d3a3182a5492",
       "human_reviewed": false,
@@ -16513,6 +16541,34 @@
       "subtitle": null,
       "title": "격렬히 벌어지는 전투",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/719ef93a-7242-445f-8e5b-201567145e20.html",
+      "html_sha256": "78315b8003e7530767197c10349289c81d9f68161dbe00f988a65d669c12ccda",
+      "human_reviewed": false,
+      "id": "719ef93a-7242-445f-8e5b-201567145e20",
+      "images": [
+        {
+          "alt": "의료진이 노인의 혈압을 측정하고 있다",
+          "public_path": "/images/articles/719ef93a-7242-445f-8e5b-201567145e20-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/719ef93a-7242-445f-8e5b-201567145e20.json",
+      "metadata_sha256": "c48cb2d30fdc03b8c69a2f6546c51c92209b3a4317aaabc76dcc6688cabc0968",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "의사의 한마디",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "06ba8101e7fb8f1d4f751881072ec392c3bfc45f502b45b1435199f706373e03",
+      "status": "ready",
+      "subtitle": null,
+      "title": "생의 마지막",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -17356,6 +17412,29 @@
       "subtitle": null,
       "title": "천둥, 회오리바람, 그리고 신뢰",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/f236d8e2-96e3-4d12-89e7-41dc995fa490.html",
+      "html_sha256": "dfe02166f65f9d39aa1dc025c4033d5958b596f1da3c026cf6e44edbad2caa3c",
+      "human_reviewed": false,
+      "id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
+      "images": [],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/f236d8e2-96e3-4d12-89e7-41dc995fa490.json",
+      "metadata_sha256": "3c827f475b3665681a00f5ccffb8f4097ac61f769024ee6d66cca09012002a7a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "경건한 가정",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "898312b9e2985808962e7015203da21ff06c86a060f8b64c6111393491050496",
+      "status": "ready",
+      "subtitle": null,
+      "title": "이제 둘이 아니니",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -21005,6 +21084,29 @@
       "subtitle": null,
       "title": "Gruppemoral versus guddommelig dom",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/ca5d0d5f-aedd-4e20-ab52-6a31c34a8873.html",
+      "html_sha256": "fd9546e47fcab6a18b5fa4b16957f45e6fe0fd1e511acc589331dab5452ec424",
+      "human_reviewed": false,
+      "id": "ca5d0d5f-aedd-4e20-ab52-6a31c34a8873",
+      "images": [],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/ca5d0d5f-aedd-4e20-ab52-6a31c34a8873.json",
+      "metadata_sha256": "23b6c2bb8d23eb04b8e81b700104ab760a7dfd5498e49c36c64a1311c6736d78",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "EN MISJONÆRS TANKER",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "f79eb5ccc9135a89033a237670c49d8f53fa715405c0cafcaed6156fe7c3ef84",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Stolthet eller ydmykhet?",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -28030,6 +28132,29 @@
       "subtitle": null,
       "title": "Inuka, furahini!",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/f236d8e2-96e3-4d12-89e7-41dc995fa490.html",
+      "html_sha256": "271ea7256c505f61890a9441ab5df0b7a0ba12ddd7c0cd2aa082c034c5bcb075",
+      "human_reviewed": false,
+      "id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
+      "images": [],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/f236d8e2-96e3-4d12-89e7-41dc995fa490.json",
+      "metadata_sha256": "64b67eb63e3ba93e15932c7eebb7b147d01936863a9cf322046234ee50ae2f81",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "NYUMBA YA UTAUWA",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "898312b9e2985808962e7015203da21ff06c86a060f8b64c6111393491050496",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Hawawi Wawili Tena",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,

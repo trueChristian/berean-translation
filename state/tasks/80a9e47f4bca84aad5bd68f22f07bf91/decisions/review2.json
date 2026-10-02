@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "শেষ ব্লকের উদ্ধৃতির পরের নোট",
+      "severity": "major",
+      "source_quote": "In this article, the sections in quotation marks were shared with the author by a number of anonymous widows.",
+      "suggested_fix": "~এই প্রবন্ধে উদ্ধৃতি চিহ্নের মধ্যে থাকা অংশগুলো কয়েকজন নাম-প্রকাশে অনিচ্ছুক বিধবা লেখককে এই লেখকের সঙ্গে ভাগ করে নিয়েছেন।",
+      "translation_quote": "~এই প্রবন্ধে উদ্ধৃতি চিহ্নের মধ্যে থাকা অংশগুলো কয়েকজন নাম-প্রকাশে অনিচ্ছুক বিধবা লেখকের সঙ্গে ভাগ করে নিয়েছেন।"
+    },
+    {
+      "location": "শেষ উদ্ধৃতির শেষ অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "Watch them be healed, shoulder their burden of grief, and then move on toward their heavenly home.",
+      "suggested_fix": "তাঁদের আরোগ্য পেতে দেখুন, তাঁদের শোকের ভার বহন করুন, তারপর তাঁদের স্বর্গীয় গৃহের পথে এগিয়ে যেতে সাহায্য করুন।",
+      "translation_quote": "তাঁকে আরোগ্য পেতে, শোকের ভার কাঁধে তুলে নিতে, তারপর স্বর্গীয় গৃহের পথে এগিয়ে যেতে দেখুন।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

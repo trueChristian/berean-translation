@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, item 3 in the numbered list; commentary following Malaki 2:14–16",
+      "severity": "minor",
+      "source_quote": "To raise up a godly seed unto the Lord.",
+      "suggested_fix": "Replace the phrase with “Ili wamlee Bwana uzao unaomcha Mungu.” → “Ili wamlee Bwana uzao unaomcha Mungu” is ambiguous; use “Ili wamlee Bwana watoto wanaomcha Mungu” only if the intended meaning is raising children for the Lord, or more directly “Ili wazao wao wamche Mungu.”",
+      "translation_quote": "Ili wamlee Bwana uzao unaomcha Mungu."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

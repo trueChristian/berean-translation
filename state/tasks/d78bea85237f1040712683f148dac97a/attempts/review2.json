@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:02:59+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, paragraph beginning “The head covering is a good example”\",\"severity\":\"major\",\"source_quote\":\"“A woman who desires to cover her head because of what the Bible teaches, will indeed cover her head.”\",\"suggested_fix\":\"Replace “Eine Frau, die ihr Haupt bedecken möchte, weil die Bibel es lehrt, wird ihr Haupt auch tatsächlich bedecken.” with “Eine Frau, die ihr Haupt bedecken möchte, weil die Bibel es lehrt, wird es auch tatsächlich bedecken.” The translation should preserve the source’s assertion about covering her head, not alter it to a different meaning.\",\"translation_quote\":\"“Eine Frau, die ihr Haupt bedecken möchte, weil die Bibel es lehrt, wird ihr Haupt auch tatsächlich bedecken.”\"},{\"location\":\"Article, paragraph beginning “Let us look at an example to help us understand”\",\"severity\":\"major\",\"source_quote\":\"“every day you put on your nail bag and get to work”\",\"suggested_fix\":\"Replace “schnallst du dir jeden Tag deinen Nagelbeutel um” with “legst du dir jeden Tag deinen Nagelbeutel an” to convey putting on the tool belt, rather than strapping it around oneself.\",\"translation_quote\":\"“schnallst du dir jeden Tag deinen Nagelbeutel um”\"}],\"passed\":false,\"score\":93}",
+    "content_bytes": 1267,
+    "content_evidence_truncated": false,
+    "content_sha256": "8c3ccf115fc559ba89114a7054aa228e534e6a69f85ee40b59435bb95b2a0d13",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 288,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8160,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8157,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8448
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

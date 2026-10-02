@@ -1,0 +1,72 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7d8cec32-6093-4926-ac46-10ac7b2cffbf",
+    "response_id": "chatcmpl-EUc9kWR9LR9JkOmTpAbBo6ZKCzyti",
+    "usage": {
+      "completion_tokens": 673,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7299,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7296,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7972
+    }
+  },
+  "received_at": "2026-10-02T21:02:59+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, абзац с определением самоубийства с содействием врача",
+        "severity": "major",
+        "source_quote": "“self ”-administer, thereby killing themselves",
+        "suggested_fix": "Заменить «самостоятельно» на точный смысл оригинала: получатель сам вводит или принимает лекарство. Например: «…один человек предоставляет лекарство другому, а тот затем сам вводит его себе, тем самым убивая себя».",
+        "translation_quote": "«…один человек предоставляет лекарство другому, а тот затем „самостоятельно“ принимает его, тем самым убивая себя.»"
+      },
+      {
+        "location": "HTML, абзац о ценности людей",
+        "severity": "major",
+        "source_quote": "They are not worth something because of their intelligence or talents.",
+        "suggested_fix": "Передать, что ценность людей не обусловлена их интеллектом или талантами: «Их ценность не зависит от их интеллекта или талантов».",
+        "translation_quote": "«Их ценность не определяется их интеллектом или талантами.»"
+      },
+      {
+        "location": "HTML, абзац о людях с тяжёлыми заболеваниями",
+        "severity": "major",
+        "source_quote": "Many people feel that both of these things—quality of life and dignity—decline when someone gets a severe and debilitating illness.",
+        "suggested_fix": "Сохранить смысл «тяжёлое и изнуряющее заболевание», например: «…когда человек заболевает тяжёлой, изнуряющей болезнью».",
+        "translation_quote": "«…когда человек тяжело и мучительно заболевает.»"
+      },
+      {
+        "location": "HTML, абзац о пребывании в домах престарелых в Швеции",
+        "severity": "major",
+        "source_quote": "the government made the decision that elderly residents of nursing facilities would not be treated for COVID.",
+        "suggested_fix": "Заменить «пожилых людей» на «пожилых постояльцев учреждений по уходу» или «пожилых жителей домов престарелых», чтобы сохранить указанную в оригинале группу.",
+        "translation_quote": "«…правительство решило не лечить от COVID пожилых людей, живших в учреждениях для ухода.»"
+      },
+      {
+        "location": "HTML, абзац о боли в хосписе",
+        "severity": "major",
+        "source_quote": "give the doses that patients feel that they need to control their pain",
+        "suggested_fix": "Сохранить указание на то, что речь идёт о дозах, которые пациенты считают необходимыми: «…назначить те дозы, которые пациенты считают необходимыми для контроля боли».",
+        "translation_quote": "«…смогут назначить дозы препаратов, которые, по мнению пациентов, необходимы им для контроля боли.»"
+      },
+      {
+        "location": "HTML, абзац об ограничениях из-за состояния здоровья",
+        "severity": "major",
+        "source_quote": "the limitations that their health has put upon them",
+        "suggested_fix": "Передать, что ограничения вызваны состоянием здоровья, например: «…с ограничениями, которые накладывает на него состояние здоровья».",
+        "translation_quote": "«…с ограничениями, которые наложило на него состояние здоровья.»"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

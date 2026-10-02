@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة الافتتاحية، الإحالة إلى سفر اللاويين",
+      "severity": "critical",
+      "source_quote": "In Leviticus chapters 21 and 22, a plan, called a divorce, was put in place to legally dissolve the “first love”.",
+      "suggested_fix": "استبدل «وفي الإصحاحين 21 و22 من سفر اللاويين» بـ«وفي الإصحاحين 21 و22 من سفر اللاويين»؟ لا يتضمن المصدر خطأ في اسم السفر؛ لكن الإحالة الأصلية هنا هي Leviticus، لذا يجب أن تظل «سفر اللاويين».",
+      "translation_quote": "وفي الإصحاحين 21 و22 من سفر اللاويين، وُضعت خطة، سُمّيت طلاقًا، لحل «الحب الأول» قانونيًا."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

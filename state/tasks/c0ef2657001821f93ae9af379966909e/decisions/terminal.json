@@ -1,0 +1,63 @@
+{
+  "findings": [
+    {
+      "location": "HTML، پیراگراف 1",
+      "severity": "minor",
+      "source_quote": "a nursing home in Toronto, Canada",
+      "suggested_fix": "اس مقام کے لیے «نرسنگ ہوم» یا «بزرگوں کی رہائش گاہ» جیسا واضح متبادل استعمال کریں، تاکہ «نرسنگ ہوم» کو ہسپتال نہ سمجھا جائے۔",
+      "translation_quote": "ٹورنٹو، کینیڈا کے ایک نرسنگ ہوم میں رہتی تھیں"
+    },
+    {
+      "location": "HTML، پیراگراف 3",
+      "severity": "minor",
+      "source_quote": "She was discharged to spend the next week with her family.",
+      "suggested_fix": "«انہیں رخصت کر دیا گیا» کی جگہ «انہیں نرسنگ ہوم سے جانے دیا گیا» لکھیں؛ اصل میں ہسپتال سے رخصت ہونے کا ذکر نہیں ہے۔",
+      "translation_quote": "انہیں اگلا ہفتہ اپنے خاندان کے ساتھ گزارنے کے لیے ہسپتال سے رخصت کر دیا گیا۔"
+    },
+    {
+      "location": "HTML، پیراگراف 5",
+      "severity": "major",
+      "source_quote": "one person provides medication to another person that they then “self ”-administer",
+      "suggested_fix": "«جسے وہ پھر خود اپنے آپ کو دیتا ہے» کو «جو دوسرا شخص پھر خود لیتا ہے» سے بدلیں، تاکہ دوا لینے والے اور دوا فراہم کرنے والے کا فرق واضح ہو۔",
+      "translation_quote": "ایک شخص دوسرے کو دوا فراہم کرتا ہے، جسے وہ پھر خود اپنے آپ کو دیتا ہے، اور یوں اپنی جان لے لیتا ہے۔"
+    },
+    {
+      "location": "HTML، پیراگراف 8، آیت کا اقتباس",
+      "severity": "major",
+      "source_quote": "male and female created he them",
+      "suggested_fix": "اس اقتباس کو یوں درست کریں: «نر و مادہ اُس نے اُنہیں پیدا کیا»؛ موجودہ «نر و ناری» اصل کے «male and female» کا درست مفہوم نہیں دیتا۔",
+      "translation_quote": "نر و ناری اُنہیں پیدا کیا"
+    },
+    {
+      "location": "HTML، پیراگراف 10، آیت کے بعد کی وضاحت",
+      "severity": "major",
+      "source_quote": "this verse makes it clear that every single one of us is valuable to God and worthy of His redemption",
+      "suggested_fix": "«ہم میں سے ہر ایک خدا کے نزدیک قیمتی ہے اور اُس کی مخلصی کے لائق ہے» کو «ہم میں سے ہر ایک خدا کے نزدیک قیمتی ہے اور اُس کی مخلصی کا مستحق ہے» سے بدلیں؛ «لائق» موجودہ عبارت میں نجات کے استحقاق کے بجائے اہلیت کا مفہوم دے سکتا ہے۔",
+      "translation_quote": "ہم میں سے ہر ایک خدا کے نزدیک قیمتی ہے اور اُس کی مخلصی کے لائق ہے۔"
+    },
+    {
+      "location": "HTML، پیراگراف 13",
+      "severity": "major",
+      "source_quote": "decline when someone gets a severe and debilitating illness",
+      "suggested_fix": "«جب کسی کو شدید اور کمزور کر دینے والی بیماری لاحق ہوتی ہے تو یہ دونوں چیزیں کم ہو جاتی ہیں» کی جگہ «جب کسی کو شدید اور جسم کو نڈھال کر دینے والی بیماری لاحق ہوتی ہے تو بہت سے لوگوں کے خیال میں یہ دونوں چیزیں کم ہو جاتی ہیں» لکھیں، تاکہ یہ دعویٰ مصنف کے بجائے لوگوں کا خیال رہے۔",
+      "translation_quote": "بہت سے لوگوں کو لگتا ہے کہ جب کسی کو شدید اور کمزور کر دینے والی بیماری لاحق ہوتی ہے تو یہ دونوں چیزیں—زندگی کا معیار اور وقار—کم ہو جاتی ہیں۔"
+    },
+    {
+      "location": "HTML، پیراگراف 17",
+      "severity": "minor",
+      "source_quote": "We do not believe that regardless of what we do, we are certain to die on a pre-determined day.",
+      "suggested_fix": "«ہم یہ نہیں مانتے کہ ہم جو کچھ بھی کریں، ہماری موت ایک پہلے سے مقررہ دن پر یقینی ہے» کو «ہم یہ نہیں مانتے کہ ہم کچھ بھی کریں، پھر بھی ایک پہلے سے مقررہ دن پر ہماری موت یقینی ہے» سے بدلیں، تاکہ اصل جملے میں موجود «regardless» کا مفہوم پوری طرح واضح ہو۔",
+      "translation_quote": "ہم یہ نہیں مانتے کہ ہم جو کچھ بھی کریں، ہماری موت ایک پہلے سے مقررہ دن پر یقینی ہے۔"
+    },
+    {
+      "location": "HTML، پیراگراف 42",
+      "severity": "major",
+      "source_quote": "It is important that we continue to value human life and that we glorify God in everything we face—even if we are dealing with a terminal illness.",
+      "suggested_fix": "«ہر اُس چیز میں خدا کو جلال دیں جس کا ہمیں سامنا ہو» کو «ہر اُس صورتِ حال میں خدا کو جلال دیں جس کا ہمیں سامنا ہو» سے بدلیں۔",
+      "translation_quote": "ہر اُس چیز میں خدا کو جلال دیں جس کا ہمیں سامنا ہو—چاہے ہم لاعلاج بیماری سے ہی کیوں نہ نبرد آزما ہوں۔"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

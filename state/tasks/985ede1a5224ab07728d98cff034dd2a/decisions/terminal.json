@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Hva med alle «hva om»-spørsmålene»",
+      "severity": "major",
+      "source_quote": "«The Democrats are taking the U.S. to war with Russia.»",
+      "suggested_fix": "Endre til «Demokratene drar USA inn i krig med Russland.»",
+      "translation_quote": "«Demokratene fører USA inn i krig med Russland.»"
+    },
+    {
+      "location": "HTML, paragraph beginning «Én konkret ting jeg ønsker»",
+      "severity": "major",
+      "source_quote": "«within the plain communities»",
+      "suggested_fix": "Bruk en formulering som uttrykker at det gjelder menighetene i det anabaptistiske/plain-miljøet, for eksempel «i menighetene i plain-miljøet».",
+      "translation_quote": "«i de enkle menighetene»"
+    },
+    {
+      "location": "HTML, avsnittet om spørsmålene en bør stille den som strever",
+      "severity": "minor",
+      "source_quote": "“What can I do that would be a help or an encouragement to you as you are going through this difficult experience?”",
+      "suggested_fix": "Endre «mens du går gjennom denne vanskelige opplevelsen» til «mens du går gjennom denne vanskelige tiden», som er naturlig norsk og dekker betydningen i sammenhengen.",
+      "translation_quote": "«Hva kan jeg gjøre for å hjelpe eller oppmuntre deg mens du går gjennom denne vanskelige opplevelsen?»"
+    },
+    {
+      "location": "HTML, bildetekstens alt-attributt",
+      "severity": "minor",
+      "source_quote": "Small purple flowers against soft-focus green hills",
+      "suggested_fix": "Endre til «Små lilla blomster mot grønne åser i mykt fokus».",
+      "translation_quote": "Små lilla blomster foran grønne åser i mykt fokus"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

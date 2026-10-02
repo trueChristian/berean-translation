@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:02:59+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html, blockquote > p\",\"severity\":\"major\",\"source_quote\":\"And we know that all things work together for good to them that love God, to them who are the called according to his purpose –Romans 8:28.\",\"suggested_fix\":\"<blockquote>\\n    <p><em>আর আমরা জানি, যারা ঈশ্বরকে ভালোবাসে, যারা তাঁর উদ্দেশ্য অনুসারে আহূত, তাদের মঙ্গলের জন্য সবকিছু একসঙ্গে কাজ করে—<br>\\n    রোমীয় ৮:২৮।</em></p>\\n  </blockquote>\",\"translation_quote\":\"আর আমরা জানি, যারা ঈশ্বরকে ভালোবাসে, যারা তাঁর উদ্দেশ্য অনুসারে আহূত, তাদের মঙ্গলের জন্য সবকিছু একসঙ্গে কাজ করে—<br>\\n    যারা ঈশ্বরকে ভালোবাসে, তাদের জন্য—যারা তাঁর উদ্দেশ্য অনুসারে আহূত, তাদের জন্য—<br>\\n    রোমীয় ৮:২৮।\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1250,
+    "content_evidence_truncated": false,
+    "content_sha256": "4af17d6cf371d10aa9f6f4561d8c678ccb1ced82fb410c936e63a7bfc3c938dc",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 493,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 252,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3003,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3000,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3496
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

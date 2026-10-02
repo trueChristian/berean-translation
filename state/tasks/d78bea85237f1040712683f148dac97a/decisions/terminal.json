@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “The head covering is a good example”",
+      "severity": "major",
+      "source_quote": "“A woman who desires to cover her head because of what the Bible teaches, will indeed cover her head.”",
+      "suggested_fix": "Replace “Eine Frau, die ihr Haupt bedecken möchte, weil die Bibel es lehrt, wird ihr Haupt auch tatsächlich bedecken.” with “Eine Frau, die ihr Haupt bedecken möchte, weil die Bibel es lehrt, wird es auch tatsächlich bedecken.” The translation should preserve the source’s assertion about covering her head, not alter it to a different meaning.",
+      "translation_quote": "“Eine Frau, die ihr Haupt bedecken möchte, weil die Bibel es lehrt, wird ihr Haupt auch tatsächlich bedecken.”"
+    },
+    {
+      "location": "Article, paragraph beginning “Let us look at an example to help us understand”",
+      "severity": "major",
+      "source_quote": "“every day you put on your nail bag and get to work”",
+      "suggested_fix": "Replace “schnallst du dir jeden Tag deinen Nagelbeutel um” with “legst du dir jeden Tag deinen Nagelbeutel an” to convey putting on the tool belt, rather than strapping it around oneself.",
+      "translation_quote": "“schnallst du dir jeden Tag deinen Nagelbeutel um”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

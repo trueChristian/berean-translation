@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "लेख का अनुच्छेद 9",
+      "severity": "major",
+      "source_quote": "He pulled their van off the road so he could empty his stomach’s contents.",
+      "suggested_fix": "“उसने वैन को सड़क से हटाकर रोक दिया, ताकि वह उल्टी कर सके।”",
+      "translation_quote": "उसने गाड़ी सड़क से हटाकर रोक दी, ताकि पेट का सारा सामान उलट सके।"
+    },
+    {
+      "location": "लेख का अनुच्छेद 14",
+      "severity": "major",
+      "source_quote": "“But this way, they did not even know we were coming to visit.”",
+      "suggested_fix": "“लेकिन इस तरह उन्हें यह भी पता नहीं चला कि हम उनसे मिलने आ रहे थे।”",
+      "translation_quote": "“लेकिन इस तरह उन्हें यह भी पता नहीं चला कि हम मिलने आ रहे थे।”"
+    },
+    {
+      "location": "लेख का अनुच्छेद 14",
+      "severity": "major",
+      "source_quote": "“God had all this planned.”",
+      "suggested_fix": "“परमेश्वर ने यह सब योजना के अनुसार किया था।”",
+      "translation_quote": "“परमेश्वर ने यह सब पहले से तय कर रखा था।”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

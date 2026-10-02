@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html, paragraphs 7, 13, 15",
+      "severity": "major",
+      "source_quote": "“I’ll plan to send a letter to Brother Oscar Peight…”; “The letter I sent to Brother Oscar Peight!”; “If that letter would have reached Brother Oscars…”",
+      "suggested_fix": "نام کی نقل میں یکسانیت رکھتے ہوئے ان تمام مقامات پر “بھائی آسکر پیٹ” کے بجائے “بھائی آسکر پیٹ” میں surname کو اصل کے مطابق “پیائٹ” لکھیں؛ تیسرے مقام پر بھی اسی نام کی یہی صورت رکھیں۔",
+      "translation_quote": "”میں بھائی آسکر پیٹ کو خط لکھوں گا…“؛ ”وہ خط جو میں نے بھائی آسکر پیٹ کو بھیجا تھا!“؛ ”اگر وہ خط بھائی آسکر تک پہنچ جاتا…“"
+    },
+    {
+      "location": "source.html, paragraphs 7, 13, 15",
+      "severity": "major",
+      "source_quote": "Brother Oscar Peight; Brother Oscars",
+      "suggested_fix": "اصل میں نام “Oscar Peight” ہے؛ اردو میں اسے مستقل طور پر “آسکر پیائٹ” لکھیں، بشمول تیسرے ذکر کے۔",
+      "translation_quote": "آسکر پیٹ؛ آسکر"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html, parágrafo sobre Mateus 19:3-12, citação de Mateus 19:4",
+      "severity": "major",
+      "source_quote": "“Have ye not read, that he which made them at the beginning made them male and female”",
+      "suggested_fix": "Substitua a citação por: “Não lestes que aquele que os fez no princípio os fez homem e mulher” (mantendo a referência “Mateus 19:4”).",
+      "translation_quote": "“Não lestes que aquele que os fez no princípio os fez homem e mulher”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

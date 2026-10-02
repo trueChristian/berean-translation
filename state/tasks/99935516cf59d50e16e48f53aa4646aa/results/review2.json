@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1013cf1a-3386-4ed9-b0fa-63a6f9c6fa56",
+    "response_id": "chatcmpl-EUc9rAkoqzFMV1L4ohyiSqkvbuw3z",
+    "usage": {
+      "completion_tokens": 913,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 688,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13294,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13291,
+        "cached_tokens": 0
+      },
+      "total_tokens": 14207
+    }
+  },
+  "received_at": "2026-10-02T21:02:59+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “John 4:1-42…”",
+        "severity": "major",
+        "source_quote": "“For thou hast had five husbands; and he whom thou now hast is not thy husband”",
+        "suggested_fix": "Change ״היו לך חמישה אנשים״ to ״היו לך חמישה בעלים״ so the quotation preserves the source’s statement that she had five husbands.",
+        "translation_quote": "״שכן היו לך חמישה אנשים, והאיש שיש לך עכשיו אינו בעלך״"
+      },
+      {
+        "location": "Paragraph beginning “Sometime after Hosea marries her…”",
+        "severity": "major",
+        "source_quote": "“Gomer apparently responded”",
+        "suggested_fix": "Change ״וגומר מגיבה לכאורה״ to ״וגֹּמֶר הגיבה לכאורה״, treating Gomer as the proper name rather than the Hebrew verb גומר.",
+        "translation_quote": "״וגומר מגיבה לכאורה״"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}
