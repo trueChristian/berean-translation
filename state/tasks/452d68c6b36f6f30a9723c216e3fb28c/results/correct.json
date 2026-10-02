@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4f598cbf-cbaf-4072-a4d7-36673fc8d4db",
+    "response_id": "chatcmpl-EUHnDNwW8jBNSckbcFwDbehys05CQ",
+    "usage": {
+      "completion_tokens": 764,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2281,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3045
+    }
+  },
+  "received_at": "2026-10-02T00:08:04+00:00",
+  "result": {
+    "html": "<article data-article-id=\"cdb88be0-93b0-4362-bc3b-1488aff1a76f\">\n  <figure>\n    <img src=\"/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg\" alt=\"সাদা অর্কিড, মধ্যভাগে বেগুনি রং\">\n  </figure>\n  <div class=\"poem\">\n    <p>বসন্তের মহিমা, কতই মধুর!<br>\n    নবজন্মিত জীবনের উল্লাস!<br>\n    কত আনন্দ যে সুখী পৃথিবীকে স্বাগত জানায়<br>\n    নতুন, উজ্জ্বল আবরণে সেজে!</p>\n\n    <p>দিব্য মোচক, তোমাকে আমি বন্দনা করি;<br>\n    আমি তোমার প্রস্থানকে স্বাগত জানাই;<br>\n    আমি তোমাকে ভালোবাসি এই সুন্দরীতায়—<br>\n    তোমার পুনর্নবীকৃত পৃথিবীতে।</p>\n\n    <p>কিন্তু ওহ এই অনুগ্রহের বিস্ময়গুলো,<br>\n    এই তোমার মহান কর্মগুলো,—<br>\n    এই বিস্ময়গুলো অনুসরণ করা অনেক মধুর,<br>\n    এই নবজন্মের আরও ঐশ্বর্যপূর্ণ:</p>\n\n    <p>এই নবজন্মিত বিশ্বাসের তীব্র উজ্জ্বলতা,<br>\n    এই ভালোবাসার কুঁড়ি এত সুন্দর,<br>\n    এই গানের নবজন্মিত উল্লাস,<br>\n    এবং প্রার্থনার সুগন্ধ!</p>\n\n    <p>সৃষ্টিকর্তা আত্মা, আমার মধ্যে কাজ করো<br>\n    এই মধুর বিস্ময়গুলো—তোমার;<br>\n    দিব্য মোচক, দয়ায় করো<br>\n    এই হৃদয়টিকে পুনর্নবীকরণ।</p>\n\n    <p>চিরতরে, করো নতুন জীবন আর শক্তির উদ্ভব,<br>\n    করো নতুন আনন্দ প্রদত্ত হোক;<br>\n    এবং দাও সেই আনন্দময় নতুন গানটি শুনিয়ে যাও—<br>\n    নতুন পৃথিবী ও স্বর্গ জুড়ে প্রতিধ্বনিত হোক।</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "বসন্তের মহিমা"
+  }
+}

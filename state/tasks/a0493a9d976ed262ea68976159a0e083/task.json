@@ -2,7 +2,6 @@
   "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f9768c370ba943d4813c340a2b047598",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -43,8 +42,28 @@
         },
         "total_tokens": 10176
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 4817,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 320,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9498,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14315
+      }
     }
   ],
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[42]: source /article[1]/div[1]/p[1]/strong[1]/em[1]/br[7] ('start', 'br', ()); translation /article[1]/div[1]/p[1]/strong[1]/em[1] ('end', 'em')",
   "findings": [
     {
       "location": "Paragraph about the hymn tune (near end of article)",
@@ -68,6 +87,7 @@
       "translation_quote": "\"Il mio nido appeso in nessuna foresta\nDi tutta questa sponda destinata alla morte!\""
     }
   ],
+  "finished_at": "2026-10-02T00:08:04+00:00",
   "id": "a0493a9d976ed262ea68976159a0e083",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "ita",
@@ -117,7 +137,7 @@
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c48182e3f5033a08822c2237c3e9e7faab5b80302e823695d8ba3dd0faead4e3.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

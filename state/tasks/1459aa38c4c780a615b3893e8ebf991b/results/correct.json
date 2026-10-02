@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f49742e9-d971-4486-b32c-645d61b8de23",
+    "response_id": "chatcmpl-EUHnba9f6FiDvNmqplUJphACdXNNl",
+    "usage": {
+      "completion_tokens": 896,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2317,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3213
+    }
+  },
+  "received_at": "2026-10-02T00:08:03+00:00",
+  "result": {
+    "html": "<article data-article-id=\"cdb88be0-93b0-4362-bc3b-1488aff1a76f\">\n  <figure>\n    <img src=\"/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg\" alt=\"Anggrek putih dengan pusat ungu\">\n  </figure>\n  <div class=\"poem\">\n    <p>Kemuliaan musim semi, betapa manis!<br>\n    Kehidupan yang baru lahir, betapa riang!<br>\n    Betapa sukacitanya menyambut bumi yang gembira<br>\n    Berpakaian baru yang cerah!</p>\n\n    <p>Penebus Ilahi, Aku memuji-Mu;<br>\n    Aku menyambut keluarmu;<br>\n    Kucintai Engkau dalam keelokan<br>\n    Dari bumi-Mu yang diperbaharui.</p>\n\n    <p>Namun, wahai keajaiban kasih karunia-Mu,<br>\n    Karya-Mu yang lebih mulia ini,<br>\n    Keajaiban ini yang lebih manis ditelisik,<br>\n    Kelahiran-kelahiran baru yang lebih ilahi:</p>\n\n    <p>Sinar baru iman yang begitu kuat,<br>\n    Mekar kasih yang begitu indah,<br>\n    Ekstasi nyanyian yang baru lahir,<br>\n    Dan harum doa!</p>\n\n    <p>Roh Pencipta, kerjakan dalam diriku<br>\n    Keajaiban manis-Mu ini;<br>\n    Penebus Ilahi, dengan murah hati<br>\n    Perbaharuilah hati ini.</p>\n\n    <p>Teruslah, biarkan kehidupan dan kekuatan baru memancar,<br>\n    Teruslah, biarkan sukacita baru diberikan;<br>\n    Dan anugerahkan nyanyian baru yang gembira untuk bergema<br>\n    Di seluruh bumi baru dan Surga.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Kemuliaan Musim Semi"
+  }
+}

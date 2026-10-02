@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "55cc9a11-98bd-4854-afe8-91f3d1eae5dc",
+    "response_id": "chatcmpl-EUHoMyUFj64tR2L0YUM6BmQ6BzkiI",
+    "usage": {
+      "completion_tokens": 823,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2473,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3296
+    }
+  },
+  "received_at": "2026-10-02T00:08:04+00:00",
+  "result": {
+    "html": "<article data-article-id=\"cdb88be0-93b0-4362-bc3b-1488aff1a76f\">\n  <figure>\n    <img src=\"/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg\" alt=\"Vita orkidéer med lila mitt\">\n  </figure>\n  <div class=\"poem\">\n    <p>Vårens härlighet, så ljuv!<br>\n    Nyfödd liv, så glad!<br>\n    Vad glädje jorden känner nu<br>\n    I sin nya, ljusa dräkt!</p>\n\n    <p>Gode Frälsare, Dig jag prisar;<br>\n    Jag hälsar Din utgång;<br>\n    Jag älskar Dig i skönheten på<br>\n    Din förnyade jord.</p>\n\n    <p>Men ack, de under av Din nåd,<br>\n    De högre verk av Dig,<br>\n    Dessa under, långt sötare att spåra,<br>\n    De nyfödda mer gudomliga:</p>\n\n    <p>Det nyfödda glödet av tro, så starkt,<br>\n    Den bloom av kärlek, så skön,<br>\n    Den nyfödda sångens extas,<br>\n    Och bönens doft så ren!</p>\n\n    <p>Skaparens Ande, verka i mig<br>\n    Dessa Dina ljuva under;<br>\n    Gode Frälsare, nådigt gör<br>\n    Detta hjärta nytt och rent.</p>\n\n    <p>Låt allt nytt liv och styrka spira,<br>\n    Låt ännu ny glädje fås;<br>\n    Och giv att glada nya sången klinga<br>\n    Genom den nya jord och Himlen.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Vårens härlighet"
+  }
+}

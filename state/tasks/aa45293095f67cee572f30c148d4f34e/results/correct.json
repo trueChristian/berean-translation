@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "531e3db6-c5e4-49d9-8833-4cbafb67af2c",
+    "response_id": "chatcmpl-EUHn7iZnt69UqG5SnR5x04EI1w02a",
+    "usage": {
+      "completion_tokens": 633,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1902,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2535
+    }
+  },
+  "received_at": "2026-10-02T00:08:04+00:00",
+  "result": {
+    "html": "<article data-article-id=\"cdb88be0-93b0-4362-bc3b-1488aff1a76f\">\n  <figure>\n    <img src=\"/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg\" alt=\"Orchidées blanches au centre pourpre\">\n  </figure>\n  <div class=\"poem\">\n    <p>La gloire du printemps, comme elle est douce !<br>\n    La vie nouvelle, comme elle est joyeuse !<br>\n    Quelle joie d'accueillir la terre heureuse<br>\n    Revêtue d'un éclat neuf et radieux !</p>\n\n    <p>Rédempteur divin, je Te bénis ;<br>\n    J'accueille Ton avènement ;<br>\n    Je T'aime dans la beauté ravissante<br>\n    De Ta terre renouvelée.</p>\n\n    <p>Mais, ô ces merveilles de Ta grâce,<br>\n    Ces œuvres plus nobles de Toi,<br>\n    Ces prodiges, bien plus doux à contempler,<br>\n    Ces naissances plus divines encore :</p>\n\n    <p>Ce nouvel éclat de foi si fort,<br>\n    Cette floraison d'amour si belle,<br>\n    Cette extase nouvelle du chant,<br>\n    Et le parfum de la prière !</p>\n\n    <p>Esprit créateur, opère en moi<br>\n    Ces douces merveilles qui sont Tiennes ;<br>\n    Rédempteur divin, avec grâce<br>\n    Renouvelle ce cœur qui est le mien.</p>\n\n    <p>Qu'à nouveau jaillissent vie et force,<br>\n    Qu'à nouveau s'accorde la joie ;<br>\n    Et accorde que résonne le chant<br>\n    À travers la terre nouvelle et le Ciel.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "La gloire du printemps"
+  }
+}

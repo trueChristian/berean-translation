@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "dbeb34a0-9b5e-4806-bebe-e4f833b885bb",
+    "response_id": "chatcmpl-EUHn9hkj8PXmmQDAij1riSNwpjShG",
+    "usage": {
+      "completion_tokens": 1024,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2285,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3309
+    }
+  },
+  "received_at": "2026-10-02T00:08:03+00:00",
+  "result": {
+    "html": "<article data-article-id=\"cdb88be0-93b0-4362-bc3b-1488aff1a76f\">\n  <figure>\n    <img src=\"/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg\" alt=\"Wit-orchideeë met pers sentrums\">\n  </figure>\n  <div class=\"poem\">\n    <p>Die heerlikheid van die lente, hoe soet!<br>\n    Die pasgebore lewe, hoe bly!<br>\n    Wat ’n vreugde om die gelukkige aarde te groet<br>\n    In nuwe, helder kleed beklee!</p>\n\n    <p>Goddelike Verlosser, U loof ek; <br>\n    Ek groet U in U uitgaan;<br>\n    Ek het U lief in die lieflikheid<br>\n    Van U vernieuwde aarde.</p>\n\n    <p>Maar O, hierdie wonders van U genade,<br>\n    Hierdie edeler werke van U,<br>\n    Hierdie wonderwerke wat soveel liefliker is om te volg,<br>\n    Hierdie nuwe geboortes meer goddelik:</p>\n\n    <p>Hierdie pasgebore gloed van geloof so sterk,<br>\n    Hierdie blom van liefde so pragtig,<br>\n    Hierdie pasgebore ekstase van gesang,<br>\n    En die geurigheid van gebed!</p>\n\n    <p>Skeppergees, werk in my<br>\n    Hierdie soet wonderwerke van U;<br>\n    Goddelike Verlosser, vernuwe genadiglik<br>\n    Hierdie hart van my.</p>\n\n    <p>Laat steeds nuwe lewe en krag opvlam,<br>\n    Laat steeds nuwe vreugde gegee word;<br>\n    En skenk die blye nuwe lied om te weerklink<br>\n    Deur die nuwe aarde en die Hemel.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Die Heerlikheid van die Lente"
+  }
+}

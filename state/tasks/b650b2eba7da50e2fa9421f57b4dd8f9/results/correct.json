@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "569067ac-d53e-4006-8af7-7761c768109c",
+    "response_id": "chatcmpl-EUHnEfmmf96ne1TfYYEeROEBlPTF2",
+    "usage": {
+      "completion_tokens": 706,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2230,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2936
+    }
+  },
+  "received_at": "2026-10-02T00:08:04+00:00",
+  "result": {
+    "html": "<article data-article-id=\"cdb88be0-93b0-4362-bc3b-1488aff1a76f\">\n  <figure>\n    <img src=\"/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg\" alt=\"Белые орхидеи с фиолетовыми сердцевинами\">\n  </figure>\n  <div class=\"poem\">\n    <p>Слава весны, как сладка!<br>\n    Новая жизнь, как радостна!<br>\n    Какая радость в землю взглянуть<br>\n    В обновлённой пусть одежде!</p>\n\n    <p>Божественный Искупитель, я тебя благословляю;<br>\n    Я приветствую Твоё явление;<br>\n    Я люблю Тебя в той прелести,<br>\n    Что дарит Твоя обновлённая земля.</p>\n\n    <p>Но о, эти чудеса Твоей благодати,<br>\n    Эти благороднейшие Твои дела,<br>\n    Эти дары, что милее отыскать,<br>\n    Эти рождения новее и божественнее:</p>\n\n    <p>Это новорожденное пламя веры, столь стойкое,<br>\n    Это цветок любви, столь прекрасный,<br>\n    Это новорожденный восторг песни,<br>\n    И благоухание молитвы!</p>\n\n    <p>Созидающий Дух, сотвори во мне<br>\n    Эти сладкие Твои чудеса;<br>\n    Божественный Искупитель, милостиво обнови<br>\n    это моё сердце.</p>\n\n    <p>Пусть всё же новая жизнь и сила взойдут,<br>\n    Пусть всё же новая радость дарована будет;<br>\n    И даруй, чтобы радостная новая песнь прозвучала<br>\n    Через новую землю и Небеса.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Слава весны"
+  }
+}

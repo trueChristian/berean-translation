@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5d51cd6e-4304-4f13-b870-ea252347f8ae",
+    "response_id": "chatcmpl-EUHn65183AGobARnfPboXbCB7iG32",
+    "usage": {
+      "completion_tokens": 620,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2789,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3409
+    }
+  },
+  "received_at": "2026-10-02T00:08:03+00:00",
+  "result": {
+    "html": "<article data-article-id=\"cdb88be0-93b0-4362-bc3b-1488aff1a76f\">\n  <figure>\n    <img src=\"/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg\" alt=\"بیلے کے سفید آرکِڈ جن کے مرکز بنفشی ہیں\">\n  </figure>\n  <div class=\"poem\">\n    <p>بہار کی شان، کتنی مٹھاس!<br>\n    نوخیز حیات، کتنی شادمانی!<br>\n    خوش زمین کو سلام کیسا ہے<br>\n    نئے، روشن چمکتے لباس میں!</p>\n\n    <p>اے الٰہی فدائندہ، تجھے میں برکت دیتا/دیتی ہوں؛<br>\n    میں تیری آمد کا استقبال کرتا/کرتی ہوں؛<br>\n    تیری تجدید شدہ زمین کی دلکشی میں<br>\n    میں تجھ سے محبت کرتا/کرتی ہوں۔</p>\n\n    <p>پر اے تیری عنایت کے یہ عجائبات،<br>\n    تیرے یہ اعلیٰ تر کام،<br>\n    یہ عجائب جو دریافت کرنے میں کہیں زیادہ مٹھاس ہے،<br>\n    یہ نوپیدائشیں زیادہ الٰہی ہیں:</p>\n\n    <p>ایمان کا یہ نوخیز جوش اتنا مضبوط،<br>\n    محبت کا یہ پھول اتنا خوشنما،<br>\n    گیت کی یہ نوخیز بے خودی اتنی برپاک،<br>\n    اور دعا کی خوشبو!</p>\n\n    <p>اے روحِ خالق، میرے اندر کام کر<br>\n    یہ تیرے میٹھے عجائبات؛<br>\n    الٰہی فدائندہ، مہربانی سے<br>\n    میرے اس دِل کو تجدید فرما۔</p>\n\n    <p>پھر بھی نئی زندگی اور طاقت ابھریں،<br>\n    پھر بھی نئی خوشی عطا کی جائے؛<br>\n    اور خوشی کا نیا سرود گونجے<br>\n    نئی زمین اور جنت میں۔</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "بہار کی شان"
+  }
+}

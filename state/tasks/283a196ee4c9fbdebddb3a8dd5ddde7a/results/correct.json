@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4de065c5-143c-4fb8-92e2-d4d62e2fa97c",
+    "response_id": "chatcmpl-EUHn7kC6ZNdvg6F7iLGr8JXZB35Wn",
+    "usage": {
+      "completion_tokens": 1434,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2620,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4054
+    }
+  },
+  "received_at": "2026-10-02T00:08:03+00:00",
+  "result": {
+    "html": "<article data-article-id=\"cdb88be0-93b0-4362-bc3b-1488aff1a76f\">\n  <figure>\n    <img src=\"/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg\" alt=\"Orchidi nyeupe zenye miduara ya zambarau\">\n  </figure>\n  <div class=\"poem\">\n    <p>Utukufu wa majira ya kuchipua, ni tamu mno!<br>\n    Maisha mapya yaliyozaliwa, ni furaha!<br>\n    Furaha gani kufahamu dunia yenye shangwe<br>\n    Ikiwa imevaliwa mavazi mapya, yaliyoangazwa!</p>\n\n    <p>Mkombozi Mtukufu, Ninakubariki;<br>\n    Ninakaribisha kuja Kwako;<br>\n    Nakupenda kwa uzuri<br>\n    Wa dunia Yako iliyojazwa upya.</p>\n\n    <p>Lakini ee maajabu haya ya neema Yako,<br>\n    Haya matendo yako ya heshima zaidi,<br>\n    Haya maajabu yenye kufurahisha zaidi kuyagundua,<br>\n    Haya uzazi mpya ya kimungu zaidi:</p>\n\n    <p>Hii ishara mpya ya imani yenye nguvu,<br>\n    Hii maua ya upendo yenye uzuri kiasi,<br>\n    Hii furaha mpya ya wimbo iliyozaliwa,<br>\n    Na harufu tamu ya sala!</p>\n\n    <p>Roho Muumba, nifanyie kazi<br>\n    Maajabu haya tamu yaako;<br>\n    Mkombozi wa Mungu, kwa neema<br>\n    Rudisha moyo huu wangu.</p>\n\n    <p>Baki, na ulete uzima mpya na nguvu ijenguke,<br>\n    Baki, na ulete furaha mpya itolewe;<br>\n    Na utupatie wimbo mpya wa shangwe uwe ukienea<br>\n    Kupitia dunia mpya na mbingu.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Utukufu wa Machipuo"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5d0acc5b-dad0-4766-a1ad-d4372e3426e9",
+    "response_id": "chatcmpl-EUHoAfl3GWprVQ3qMuJFp9HXcmoW9",
+    "usage": {
+      "completion_tokens": 1529,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3470,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4999
+    }
+  },
+  "received_at": "2026-10-02T00:08:04+00:00",
+  "result": {
+    "html": "<article data-article-id=\"62646d6d-87be-47a6-880f-0ade408a3402\">\n  <p class=\"drop-cap\">Våren är min favorittid på året. Allt är nytt. Hyacinter gör sitt ärliga yttersta för att pressa sina knoppar genom den vinterskylda jordens hårda grepp. Flyttfåglar för med sig nya ljud när de knorrar och kvackar sig fram till sina slutliga häckningsplatser. I år var vårens vårpinglor i vårt område ”vinterpinglor” när de svagt pipande hälsade den anländande våren i mitten av februari. Trädens knoppar sväller och väntar på att brista ut i full prakt.</p>\n\n  <p>Åh, naturens storslagenhet där Guds skapelse förenar krafter för att förkunna härligheten av nytt liv. Det måste säkert ha varit under denna yviga årstid som psalmisten skrev, \"Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity\" (Psalms 98:8-9). Denna uppvisning av nytt liv som spirar ur jorden är en vacker framställning av det nya liv som finns i Kristus Jesus. Underverken i detta nya liv som uppstår ur syndens död kan inte fullt ut visas ens av Guds skapelses bästa skådespel. Det kan bara erfaras i själen.</p>\n\n  <p>När jag skriver detta flyger jag 35 000 fot över det subsahariska ökenlandskapet i Tchad och Niger. Kontrasten mellan landskapet som beskrivs i de föregående styckena och den uttorkade ökenmarken som skyndar förbi sex miles (ca 9,7 km) under mig är nästan bortom min förståelse. Den torra jorden bönfaller om regn medan boskapen söker efter något grönt att stilla sin aptit med. Den vidsträckta torrheten proklamerar högljutt en påminnelse om de miljontals uttorkade själar som aldrig har hört talas om \"the well of water springing up into everlasting life\" (John 4:14). Miljoner som aldrig har upplevt Kristus som källan, som beskrivs i artikeln om psalmhistorik i detta nummer:</p>\n\n  <figure>\n    <img src=\"/images/articles/62646d6d-87be-47a6-880f-0ade408a3402-1.jpg\" alt=\"Vita blommor bredvid ett litet fågelbo i en skål\">\n  </figure>\n\n  <blockquote class=\"poem\">\n    <p><em>Åh! Kristus Han är källan,<br>\n    Den djupa ljuva kärleksbrunnen!<br>\n    Strömmarna jag smakat här på jorden,<br>\n    Djupare skall jag dricka där ovan:<br>\n    Där, till ett oceans fyllnad,<br>\n    Utbreder sig Hans barmhärtighet,<br>\n    Och härlighet—härlighet bor<br>\n    I Immanuels land.</em></p>\n  </blockquote>\n\n  <p>Ibland väcks en längtan i mitt hjärta att leva det avslappnade, relationsinriktade livet som finns i dessa fattiga stamgemenskaper. Familj och vänner är viktigare än kalendrar och åtaganden. Som vi läser i artikeln \"Syster till syster\" kan åtaganden och upptagenhet föra oss till brytpunkten där vi känner att vi inte orkar med något mer. Läs vidare för att lära dig hur du kan ta praktiska steg för att undvika den punkten då allt brister.</p>\n\n  <p>Majoriteten i detta område är muslimer. När jag skriver detta är muslimer mitt uppe i Ramadan, en månadslång fasteperiod. De fastar från mat och vatten varje dag från gryning till skymning, även om dagstemperaturerna överstiger 110 °F (ca 43 °C). Deras stränga fasta, tillsammans med att de upphör med sitt arbete för att be många gånger om dagen, drivs av en brinnande önskan att söka syndernas förlåtelse och skaffa sig tillräckliga meriter för att komma till himlen. Om de bara visste att sann nåd och barmhärtighet kommer från Gud genom frälsningen i hans Son, Jesus Kristus. Våra gärningar kan aldrig föra oss i rätt relation till Gud. Författaren till artikeln \"How to Increase Your Faith\" påpekar detta tydligt: \"Faith is one of the basic ingredients in getting right with God. We come into the Christian life (and receive the forgiveness of sins) through faith. . . We abandon all hope for saving ourselves by our own abilities, and instead, we put complete trust in Jesus Christ for our eternal safety.\"</p>\n\n  <p>När vi planterar våra trädgårdar och ser träden brista ut i blom, låt oss då minnas profeten Jesajas ord, \"For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations\" (Isaiah 61:11).</p>\n\n  <p>Välsignelser till er alla,</p>\n\n  <p>Edward Martin</p>\n</article>\n",
+    "section": "Från redaktören",
+    "subtitle": null,
+    "title": "Från redaktören"
+  }
+}
