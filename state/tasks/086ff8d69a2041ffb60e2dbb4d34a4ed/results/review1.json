@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a5d266f3-1ace-45c5-bedb-810a1cbce67b",
+    "response_id": "chatcmpl-EUHmDwwLf1zw3DWJnmAtxHBfwYMb2",
+    "usage": {
+      "completion_tokens": 1261,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4712,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5973
+    }
+  },
+  "received_at": "2026-10-02T00:07:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"drop-cap\"> (opening paragraph)",
+        "severity": "minor",
+        "source_quote": "Circumstantial overload might be the most difficult.",
+        "suggested_fix": "Use a more natural Modern Greek rendering for the article title/term. For example: replace «Το περιστασιακό υπερφορτωμένο φορτίο ίσως είναι το πιο δύσκολο.» with «Η υπερφόρτωση από περιστάσεις ίσως είναι η πιο δύσκολη.»",
+        "translation_quote": "Το περιστασιακό υπερφορτωμένο φορτίο ίσως είναι το πιο δύσκολο."
+      },
+      {
+        "location": "<p class=\"drop-cap\"> (opening paragraph)",
+        "severity": "minor",
+        "source_quote": "We can choose not to go to a Norwex party if we need to give our schedule some space.",
+        "suggested_fix": "Correct Greek verbal phrase to match subject and idiom. For example: change «αν χρειάζονται να δώσουμε λίγη ανάσα στο πρόγραμμα μας» to «αν χρειαστεί να δώσουμε λίγη ανάσα στο πρόγραμμά μας.» Preserve the rest of the sentence.",
+        "translation_quote": "Μπορούμε να αποφασίσουμε να μην πάμε σε ένα πάρτι Norwex αν χρειάζονται να δώσουμε λίγη ανάσα στο πρόγραμμα μας."
+      },
+      {
+        "location": "<p>«Ένιωθα σαν να είμαι ναυαγοσώστρια... ενώ παίρνω λίγο πολύ νερό ο ίδιος.</p>",
+        "severity": "minor",
+        "source_quote": "I felt like a lifeguard trying to keep a man from drowning while taking in a bit too much water myself.",
+        "suggested_fix": "Fix gender agreement to reflect the first-person female narrator. For example: change «ο ίδιος» to «η ίδια» (or better: «εγώ η ίδια») so the clause reads naturally: «...ενώ έπαιρνα λίγο παραπάνω νερό εγώ η ίδια.»",
+        "translation_quote": "Ένιωθα σαν να είμαι ναυαγοσώστρια που προσπαθεί να κρατήσει έναν άντρα από το να πνιγεί ενώ παίρνω λίγο πολύ νερό ο ίδιος."
+      },
+      {
+        "location": "<figure> <img alt=\"...\"> (image alt text)",
+        "severity": "minor",
+        "source_quote": "Ocean waves breaking along a sandy shoreline seen from above.",
+        "suggested_fix": "Improve Greek phrasing and grammar in the alt attribute. For example: replace «Κύματα του ωκεανού σπάζουν κατά μήκος μιας αμμώδους ακτής, φαινόταν από ψηλά.» with «Κύματα του ωκεανού σπάνε κατά μήκος μιας αμμώδους ακτής, φαινομένης από ψηλά.» or simpler: «Κύματα του ωκεανού που σπάνε κατά μήκος μιας αμμώδους ακτής, από ψηλά.» Preserve the <img> tag and other attributes.",
+        "translation_quote": "Κύματα του ωκεανού σπάζουν κατά μήκος μιας αμμώδους ακτής, φαινόταν από ψηλά."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

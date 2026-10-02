@@ -1,0 +1,78 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c78fdfeb-043d-4abf-9d75-aa831329d74f",
+    "response_id": "chatcmpl-EUHnibEHPataepWojyHhLvYWocAlk",
+    "usage": {
+      "completion_tokens": 1995,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1624,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3619
+    }
+  },
+  "received_at": "2026-10-02T00:07:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "Arise be glad",
+        "suggested_fix": "Use an imperative present form in Modern Greek. Replace “Σήκω και χάρηκε!” with “Σήκω και χάρε!” or better “Σήκω και χάιρε!” (preferred: “Σήκω και χάιρε!”) to match the English exhortation meaning “Arise — be glad!” and preserve the poetic imperative.",
+        "translation_quote": "Σήκω και χάρηκε!"
+      },
+      {
+        "location": "poem: stanza 1, line 6",
+        "severity": "minor",
+        "source_quote": "Give thanks and laud, for more is here!",
+        "suggested_fix": "Render the meaning idiomatically in Greek. “περισσότερο υπάρχει εδώ” is awkward and unclear. Suggested: “Ευχαριστήστε και υμνήστε· κι η περισσότερη χάρη είναι εδώ!” or simply “Ευχαριστείτε και ύμνησε· για περισσότερα είναι εδώ!” depending on singular/plural voice. Keep voice consistent with surrounding imperatives.",
+        "translation_quote": "Ευχαρίστησε και ψάλλε, διότι περισσότερο υπάρχει εδώ!"
+      },
+      {
+        "location": "poem: stanza 2, line 2 (imperative voice consistency)",
+        "severity": "minor",
+        "source_quote": "Extol and praise His worthy name!",
+        "suggested_fix": "Maintain consistent number/person for imperatives throughout the poem. The source uses second-person singular/plural inconsistently; the English reads as general imperatives. Choose one form and apply consistently. Change “Εξυμνήσατε και ψάλλετε” (plural) to a singular or a consistently plural form depending on site style, e.g. singular: “Εξύμνησον και ψάλλε τὸ ἄξιον ὄνομα αὐτοῦ” (modernized: “Εξύμνησε και ψάλλε το άξιο όνομά Του”).",
+        "translation_quote": "Εξυμνήσατε και ψάλλετε το άξιο όνομά Του!"
+      },
+      {
+        "location": "poem: stanza 2, line 4",
+        "severity": "minor",
+        "source_quote": "And showers blessings from above,",
+        "suggested_fix": "Use a natural Greek verb for “showers” in this blessing sense. “ρίπτει ευλογίες” sounds awkward/colloquial. Suggested: “και καταβρέχει ευλογίες από ψηλά,” or “και χυρίζει ευλογίες από ψηλά,” or better “και ραίνει ευλογίες από ψηλά.”",
+        "translation_quote": "Και ρίπτει ευλογίες από ψηλά,"
+      },
+      {
+        "location": "poem: stanza 3, line 2",
+        "severity": "minor",
+        "source_quote": "And worship Him with reverent praise;",
+        "suggested_fix": "Fix grammar and idiom: “Και λατρέψτε Τον με ευλαβική ύμνο·” is ungrammatical. Use “Και λατρέψτε Τον με ευλαβικό ύμνο·” or more idiomatically “Και λατρεύστε Τον με ευλαβικό ύμνο” or “Και λατρεύστε Τον με ευλάβεια και ύμνο.”",
+        "translation_quote": "Και λατρέψτε Τον με ευλαβική ύμνο·"
+      },
+      {
+        "location": "poem: stanza 3, line 4 (punctuation/meaning)",
+        "severity": "major",
+        "source_quote": "The Holiness of God is here;",
+        "suggested_fix": "Punctuation change turned a declarative statement into an interrogative, altering meaning. Replace the question mark with a semicolon or period: “Η Αγιοσύνη του Θεού είναι εδώ·” or “Η Αγιοσύνη του Θεού είναι εδώ.” to restore the original declarative sense.",
+        "translation_quote": "Η Αγιοσύνη του Θεού είναι εδώ?"
+      },
+      {
+        "location": "poem: general (lexical choice)",
+        "severity": "minor",
+        "source_quote": "The Dayspring shineth from on high,",
+        "suggested_fix": "“Dayspring” rendered as “Ημεροφώστης” is literal and uncommon in Modern Greek. Prefer an idiomatic, poetic equivalent such as “Ο Αυγερινός λάμπει από ψηλά,” or “Η αυγή λάμπει από ψηλά” to be natural while keeping poetic tone.",
+        "translation_quote": "Ο Ημεροφώστης λάμπει από ψηλά,"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

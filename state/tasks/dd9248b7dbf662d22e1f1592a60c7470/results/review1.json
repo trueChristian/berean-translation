@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d6327994-06fa-41ce-ba35-4c484e08f239",
+    "response_id": "chatcmpl-EUHmD3RbotetmibiyNN7InUYU8h13",
+    "usage": {
+      "completion_tokens": 1306,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3432,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4738
+    }
+  },
+  "received_at": "2026-10-02T00:07:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 3, author list",
+        "severity": "minor",
+        "source_quote": "I brushed shoulders with well-known authors such as Katrina Hoover Lee, Johnny Miller, and Ruthann Stelfox.",
+        "suggested_fix": "Use correct Greek article or omit it; e.g. replace \"τις Katrina Hoover Lee, Johnny Miller και Ruthann Stelfox\" with \"τους γνωστούς συγγραφείς Katrina Hoover Lee, Johnny Miller και Ruthann Stelfox\" or simply \"γνωστούς συγγραφείς όπως Katrina Hoover Lee, Johnny Miller και Ruthann Stelfox.\"",
+        "translation_quote": "Συνάντησα γνωστούς συγγραφείς όπως τις Katrina Hoover Lee, Johnny Miller και Ruthann Stelfox."
+      },
+      {
+        "location": "Paragraph about COVID-19 timing (sentence: \"This monumental event upended the vaccine debate...\")",
+        "severity": "minor",
+        "source_quote": "This monumental event upended the vaccine debate and ushered in a frenzied rush to market COVID-19 remedies, many of which were not properly tested.",
+        "suggested_fix": "Correct Greek verb usage for clearer meaning; e.g. replace \"Αυτό το ιστορικό γεγονός ανατράπηκε τη συζήτηση για τα εμβόλια...\" with \"Αυτό το γεγονός ανακάτεψε/ανατάραξε τη συζήτηση για τα εμβόλια και οδήγησε σε...\"",
+        "translation_quote": "Αλλά μετά ήρθε το 2019, φέρνοντας μαζί του τον κορονοϊό. Αυτό το ιστορικό γεγονός ανατράπηκε τη συζήτηση για τα εμβόλια και εισήγαγε έναν πυρετώδη αγώνα για την κυκλοφορία θεραπειών κατά της COVID-19 στην αγορά, πολλές από τις οποίες δεν είχαν δοκιμαστεί επαρκώς."
+      },
+      {
+        "location": "Same paragraph — word typo",
+        "severity": "minor",
+        "source_quote": "...many of which were not properly tested.",
+        "suggested_fix": "Fix typographical repetition: change \"ααποδεδειγμένα\" to \"αποδεδειγμένα\" or better to \"απροσδιόριστα/ατεκμηρίωτα\" depending on intended nuance. For 'unproven' use \"ανεπαρκώς δοκιμασμένα\" or \"ατεκμηρίωτα\".",
+        "translation_quote": "...πολλές από τις οποίες δεν είχαν δοκιμαστεί επαρκώς. Αναβάλαμε την εκτύπωση, αβέβαιοι αν θα συμπεριλάβαμε πληροφορίες για αυτά τα νέα και ααποδεδειγμένα «εμβόλια» για την COVID-19."
+      },
+      {
+        "location": "Image alt text",
+        "severity": "minor",
+        "source_quote": "Pink and white crown vetch flowers in a green meadow",
+        "suggested_fix": "Either translate the common name or present it in Greek with the English name in parentheses. For example: \"Ροζ και λευκά άνθη crown vetch (Vicia) σε ένα πράσινο λιβάδι\" or fully translate to \"Ροζ και λευκά άνθη βέτζας-κορώνας σε ένα πράσινο λιβάδι\" if an established Greek name exists.",
+        "translation_quote": "Ροζ και λευκά άνθη crown vetch σε ένα πράσινο λιβάδι"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

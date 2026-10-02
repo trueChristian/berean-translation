@@ -2,7 +2,6 @@
   "article_id": "db7b1129-282d-4f48-aefa-f839cb585426",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ba238e4c6f0a4116a12cb80e68900194",
   "campaign": "gh-36910662071",
   "created_at": "2026-10-01T18:57:44+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 7893
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1339,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7642,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8981
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<p> (paragraph with brother's quoted sentence)",
+      "severity": "major",
+      "source_quote": "“Some plant, some water, but God gives the increase.”",
+      "suggested_fix": "Replace the Greek quote with a faithful, idiomatic rendering that preserves the original clause structure and meaning. Suggested Greek: «Κάποιοι φυτεύουν, κάποιοι ποτίζουν, αλλά ο Θεός δίνει την αύξηση.» Preserve the surrounding HTML and quotation marks exactly as in source.",
+      "translation_quote": "«Μερικό φυτό, λίγο νερό, αλλά ο Θεός δίνει την αύξηση.»"
+    },
+    {
+      "location": "source.section → translation.section",
+      "severity": "minor",
+      "source_quote": "MUSINGS OF A MISSIONARY",
+      "suggested_fix": "Translate the section heading into Greek, keeping it in the same HTML field. Suggested Greek: «ΣΚΕΨΕΙΣ ΕΝΟΣ ΜΙΣΙΟΝΑΡΙΟΥ» (or «Στοχασμοί ενός ιεραποστόλου» if stylistically preferred). Do not change HTML structure; only replace the value of the section field.",
+      "translation_quote": "ΜUSINGS OF A MISSIONARY"
+    },
+    {
+      "location": "<p> (paragraph: \"Αυτή είναι η ορισμός του ανθρωπισμού.\")",
+      "severity": "minor",
+      "source_quote": "This is the definition of humanism.",
+      "suggested_fix": "Correct the Greek grammar while preserving the sentence meaning. Suggested fix: replace «Αυτή είναι η ορισμός του ανθρωπισμού.» with «Αυτός είναι ο ορισμός του ανθρωπισμού.» Keep surrounding HTML unchanged.",
+      "translation_quote": "Αυτή είναι η ορισμός του ανθρωπισμού."
+    },
+    {
+      "location": "<p> (paragraph: God looks over the earth)",
+      "severity": "minor",
+      "source_quote": "God is still looking for people today who will put their trust in Him. He is looking over all the earth for someone, somewhere, who will put aside human reasoning...",
+      "suggested_fix": "Fix escaping error and a small punctuation/escaping artifact. Replace the sequence \"Κοιτάζει πάνω απ\\\" όλη τη γη\" with \"Κοιτάζει πάνω από όλη τη γη\" (or \"Κοιτάζει σε όλη τη γη\"), preserving HTML. Do not alter meaning.",
+      "translation_quote": "Κοιτάζει πάνω απ\" όλη τη γη για κάποιον, κάπου, που θα βάλει στην άκρη την ανθρώπινη λογική και την κοινή λογική και θα υπακούσει τη φωνή από τον ουρανό."
     }
   ],
   "id": "b8e3d1ad3f01a19fe39af276c501c5b0",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a072a36e6aede6bd6978f7ac04698cebcbcce9571999d9176c58a465e0428962.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

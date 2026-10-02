@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f660594f-9f67-47d0-8bae-9f0656a25b78",
+    "response_id": "chatcmpl-EUHo7UqANCv8n4RRiLRguHzoQ9Mz2",
+    "usage": {
+      "completion_tokens": 1339,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7642,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8981
+    }
+  },
+  "received_at": "2026-10-02T00:07:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p> (paragraph with brother's quoted sentence)",
+        "severity": "major",
+        "source_quote": "“Some plant, some water, but God gives the increase.”",
+        "suggested_fix": "Replace the Greek quote with a faithful, idiomatic rendering that preserves the original clause structure and meaning. Suggested Greek: «Κάποιοι φυτεύουν, κάποιοι ποτίζουν, αλλά ο Θεός δίνει την αύξηση.» Preserve the surrounding HTML and quotation marks exactly as in source.",
+        "translation_quote": "«Μερικό φυτό, λίγο νερό, αλλά ο Θεός δίνει την αύξηση.»"
+      },
+      {
+        "location": "source.section → translation.section",
+        "severity": "minor",
+        "source_quote": "MUSINGS OF A MISSIONARY",
+        "suggested_fix": "Translate the section heading into Greek, keeping it in the same HTML field. Suggested Greek: «ΣΚΕΨΕΙΣ ΕΝΟΣ ΜΙΣΙΟΝΑΡΙΟΥ» (or «Στοχασμοί ενός ιεραποστόλου» if stylistically preferred). Do not change HTML structure; only replace the value of the section field.",
+        "translation_quote": "ΜUSINGS OF A MISSIONARY"
+      },
+      {
+        "location": "<p> (paragraph: \"Αυτή είναι η ορισμός του ανθρωπισμού.\")",
+        "severity": "minor",
+        "source_quote": "This is the definition of humanism.",
+        "suggested_fix": "Correct the Greek grammar while preserving the sentence meaning. Suggested fix: replace «Αυτή είναι η ορισμός του ανθρωπισμού.» with «Αυτός είναι ο ορισμός του ανθρωπισμού.» Keep surrounding HTML unchanged.",
+        "translation_quote": "Αυτή είναι η ορισμός του ανθρωπισμού."
+      },
+      {
+        "location": "<p> (paragraph: God looks over the earth)",
+        "severity": "minor",
+        "source_quote": "God is still looking for people today who will put their trust in Him. He is looking over all the earth for someone, somewhere, who will put aside human reasoning...",
+        "suggested_fix": "Fix escaping error and a small punctuation/escaping artifact. Replace the sequence \"Κοιτάζει πάνω απ\\\" όλη τη γη\" with \"Κοιτάζει πάνω από όλη τη γη\" (or \"Κοιτάζει σε όλη τη γη\"), preserving HTML. Do not alter meaning.",
+        "translation_quote": "Κοιτάζει πάνω απ\" όλη τη γη για κάποιον, κάπου, που θα βάλει στην άκρη την ανθρώπινη λογική και την κοινή λογική και θα υπακούσει τη φωνή από τον ουρανό."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

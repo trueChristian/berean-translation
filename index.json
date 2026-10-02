@@ -1391,6 +1391,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
+      "html_sha256": "184596115ab76241fd5e86e8afea8af6bbf5fe95ee098090cf82c4b11ce835f3",
+      "human_reviewed": false,
+      "id": "1c75dce8-1781-427f-8099-01596d53c2a4",
+      "images": [
+        {
+          "alt": "Ένα μικρό καστανό πουλάκι που στέκεται σε ένα πράσινο λιβάδι",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-1.jpg"
+        },
+        {
+          "alt": "Ένα γαλάζιο-άσπρο πουλί καθισμένο σε ένα κομμένο κλαδί μπροστά σε πράσινο φόντο",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/1c75dce8-1781-427f-8099-01596d53c2a4.json",
+      "metadata_sha256": "a7404d65d03731cbe7446d1bffae272532a6287ccc0f7f8419761a040998f5d2",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ΚΥΡΙΟ ΑΡΘΡΟ",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
+      "status": "ready",
+      "subtitle": "και γύρω μου ηχεί η μουσική των σφαιρών.",
+      "title": "ΟΛΗ Η ΦΥΣΗ ΤΡΑΓΟΥΔΑ",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
       "html_sha256": "6df50ae975760ffc5eb48815538e0e348bd5def544dd8a9423e53ea58e4d68b1",
       "human_reviewed": false,
@@ -1418,6 +1450,98 @@
       "status": "ready",
       "subtitle": null,
       "title": "Αντιμετωπίζοντας τον κυνισμό",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
+      "html_sha256": "df56eeafd5887858e481b0c6fd24ad4fa3b8bd0bf140686b93a7cd8c231e409b",
+      "human_reviewed": false,
+      "id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
+      "images": [
+        {
+          "alt": "Ροζ και λευκά άνθη crown vetch σε ένα πράσινο λιβάδι",
+          "public_path": "/images/articles/52074824-2feb-4fe4-96d0-a08ec72c3565-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.json",
+      "metadata_sha256": "2a34981cf040b0493bf293966e59936f743448d2b1b4a2565bfdb82e0fbaebb1",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Από τον ΣΥΝΤΑΚΤΗ",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Από τον Συντάκτη",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
+      "html_sha256": "7015d487ecaa6d62fbfb0b7361616c291aea42bee441b9276dadc7302d8e0182",
+      "human_reviewed": false,
+      "id": "80e78d22-936e-48de-885a-f9a8898d5e42",
+      "images": [
+        {
+          "alt": "Ένας άνδρας και μια γυναίκα περπατούν μαζί μέσα από ένα πράσινο λιβάδι",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-1.jpg"
+        },
+        {
+          "alt": "Ένας πατέρας και μια μητέρα κοιτούν το νεογέννητο μωρό τους",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-2.jpg"
+        },
+        {
+          "alt": "Μια οικογένεια στέκεται μαζί μπροστά από έναν καταρράκτη",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-3.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/80e78d22-936e-48de-885a-f9a8898d5e42.json",
+      "metadata_sha256": "694652cafa457d50355a13886a9450428f697fc7cce7024295d424d9fa32404b",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ΕΜΠΝΕΥΣΕΙΣ ΓΙΑ ΝΕΟΥΣ",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
+      "status": "ready",
+      "subtitle": "Το σχέδιο του Θεού για Άνδρα και Γυναίκα",
+      "title": "Μια Χριστοκεντρική Γνωριμία",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
+      "html_sha256": "a174d69957a2bc7c3ec9098d05cbba0c8668bfe6caea034c278196e7b4ce1aeb",
+      "human_reviewed": false,
+      "id": "93978dae-706d-43d4-abee-6b6e011683fa",
+      "images": [
+        {
+          "alt": "Κύματα του ωκεανού σπάζουν κατά μήκος μιας αμμώδους ακτής, φαινόταν από ψηλά.",
+          "public_path": "/images/articles/93978dae-706d-43d4-abee-6b6e011683fa-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/93978dae-706d-43d4-abee-6b6e011683fa.json",
+      "metadata_sha256": "503c2eccbee595e53b68264732d65f29bbd7c2bddc4826902726d0cc0bf7f492",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SISTER TO SISTER",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Υπερφόρτωση από περιστάσεις",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {

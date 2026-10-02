@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9078a650-bfa9-4a33-9d1d-d41c4719bad7",
+    "response_id": "chatcmpl-EUHni8N3FvVSIC1kqYiU0jCrW6ay7",
+    "usage": {
+      "completion_tokens": 838,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3851,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4689
+    }
+  },
+  "received_at": "2026-10-02T00:07:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>“Jamin.” It was Grandma. The porch light showed her in her old rocker. A heavy comforter lay on her shoulders.</p>",
+        "severity": "major",
+        "source_quote": "“Jamin.” It was Grandma. The porch light showed her in her old rocker. A heavy comforter lay on her shoulders.",
+        "suggested_fix": "Translate the clause to match the source: keep “on her shoulders” (not another body part). For example, replace the translated sentence with: “«Τζάμιν.» Ήταν η γιαγιά. Το φως της βεράντας την έδειχνε στην παλιά της κουνιστή πολυθρόνα. Ένας βαριός επιπλέρντης (ή «βαριά κουβέρτα») ήταν στους ώμους της.” Preserve existing HTML tags and structure.",
+        "translation_quote": "«Τζάμιν.» Ήταν η γιαγιά. Το φως της βεράντας την έδειχνε στην παλιά της κουνιστή πολυθρόνα. Μία βαριά κουβέρτα ήταν στα πόδια της."
+      },
+      {
+        "location": "<p>The fall webworms had been at work, and their web curtains shuttered from branches overhead.</p>",
+        "severity": "minor",
+        "source_quote": "The fall webworms had been at work, and their web curtains shuttered from branches overhead.",
+        "suggested_fix": "Render the English image “musky” / webworm curtains faithfully without introducing ‘mold’ if unintended. Suggested Greek phrasing: “Οι fall webworms (ή ‘οι αραχνοσκώληκες του φθινοπώρου’) είχαν δουλέψει, και οι ιστούς τους κρέμονταν σαν κουρτίνες από τα κλαδιά πάνω.” Preserve HTML tags and sentence placement.",
+        "translation_quote": "Οι κάμπιες του φθινοπώρου είχαν δουλέψει, και οι μακριές τους ιστοί κρέμονταν από τα κλαδιά πάνω."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}
