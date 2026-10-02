@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T18:16:36+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"5613aef3-79c5-42d4-9695-214e71989c22\\\">\\n  <blockquote>\\n    <p><em>Or sappiamo che tutte le cose cooperano al bene di<br>\\n    coloro che amano Dio, che sono chiamati secondo il suo<br>\\n    proposito –Romani 8:28.</em></p>\\n  </blockquote>\\n\\n  <p>«Stavo pensando che potremmo fare un viaggio la settimana prossima, visto che la scuola è chiusa», disse Arthur, appendendo il cappello al gancio nel ripostiglio e voltandosi verso sua moglie. «Che ne pensi?»</p>\\n\\n  <p>Myrtle, che era indaffarata a preparare la cena in cucina, alzò lo sguardo sorridendo. «Sarebbe fantastico, anch’io stavo pensando a qualcosa del genere. Sono sicura che anche ai bambini farebbe piacere andare in vacanza.»</p>\\n\\n  <p>«Perché allora non facciamo un programma per andare domenica prossima a visitare la congregazione di Bethel Fellowship?» continuò Arthur. «Ti andrebbe bene?»</p>\\n\\n  <p>«Sì, credo di sì», rispose Myrtle. «Mi sembra che sia passato un po’ di tempo dall’ultima volta che siamo andati a visitare un’altra congregazione. Quando pensavi di partire?»</p>\\n\\n  <p>«Non ho ancora fatto programmi definitivi», rispose Arthur, «ma pensavo di partire giovedì e tornare a casa lunedì.»</p>\\n\\n  <p>«Per me va benissimo», rispose Myrtle.</p>\\n\\n  <p>«Bene», disse Arthur. «Manderò una lettera al fratello Oscar Peight per avvertirli che stiamo arrivando.»</p>\\n\\n  <p>Il giovedì successivo, la famiglia Coblentz si mise in viaggio verso la Pennsylvania.</p>\\n\\n  <p>La famiglia viaggiò verso nord per molti chilometri senza inconvenienti. Erano ormai vicini alla loro destinazione quando Arthur si sentì improvvisamente male. Accostò il furgone per svuotare lo stomaco. La famiglia aspettò pazientemente, chiedendosi cosa fare dopo.</p>\\n\\n  <p>«Pensi che dovremmo proseguire?» chiese Myrtle. Ci sarebbe voluta un’altra ora per arrivare a casa del fratello Oscar.</p>\\n\\n  <p>«Non vedo come potrei proseguire», rispose Arthur debolmente. «Adesso mi gira molto la testa. Forse dovresti metterti alla guida tu», disse a Myrtle.</p>\\n\\n  <p>Poco dopo i due si erano scambiati di posto. Con il cuore affranto, la famiglia fece dietrofront e si diresse verso casa. Fu difficile per tutta la famiglia, soprattutto per i bambini. Avevano atteso con impazienza quel viaggio per tutta la settimana, e ora i loro programmi erano andati a monte.</p>\\n\\n  <p>Arrivata a casa, Myrtle si fermò alla cassetta della posta per ritirare la corrispondenza. Consegnò la posta ad Arthur, poi imboccò il vialetto.</p>\\n\\n  <p>«Ma… che cos’è?» balbettò Arthur, notando una busta familiare. La strappò e non poteva credere ai propri occhi. «La lettera che avevo mandato al fratello Oscar Peight!» Perché mai gliel’avevano restituita? Il cuore gli sprofondò quando girò la busta. «Di tutte le cose, mi sono dimenticato di mettere un francobollo sulla busta!» esclamò. «Che sciocco!»</p>\\n\\n  <p>Quella sera, a tavola, la famiglia tornò a parlare di quanto fosse sciocco essersi dimenticati di attaccare un francobollo sull’angolo della busta. «Eppure», si meravigliò Arthur, «Dio aveva predisposto tutto questo. Se quella lettera fosse arrivata al fratello Oscar, si sarebbero preparati per noi. Invece, così, non sapevano nemmeno che saremmo andati a trovarli.»</p>\\n\\n  <p>«Tutte le cose cooperano al bene di coloro che amano Dio», rispose Myrtle.</p>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/5613aef3-79c5-42d4-9695-214e71989c22-1.jpg\\\" alt=\\\"Una cassetta della posta in campagna accanto a un vialetto che attraversa campi verdi e conduce a edifici agricoli\\\">\\n  </figure>\\n</article>\\n\",\"section\":\"ANGOLO DEI BAMBINI\",\"subtitle\":null,\"title\":\"Il francobollo dimenticato\"}",
+    "content_bytes": 3778,
+    "content_evidence_truncated": false,
+    "content_sha256": "0bb553738adaab8cb6eee92a72f6aa842e0ec6094d3db3310b9b021945e1ac1a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1215,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 88,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1838,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1835,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3053
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

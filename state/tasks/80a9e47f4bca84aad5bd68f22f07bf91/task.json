@@ -2,10 +2,40 @@
   "article_id": "ba1df680-e125-4b7a-a6dd-6ad35433e1b5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2144db5175614f11bb15ca630de53ffd",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:43+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "translate",
+      "usage": {
+        "completion_tokens": 5234,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 19,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4592,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4589,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9826
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Source /article[1]/p[15]/strong[1]; translation /article[1]/p[15]",
+      "severity": "critical",
+      "source_quote": "<p>It reminds us of Jesus’ words about Lazarus when he said, <em>…This sickness is not unto death, but for the glory of God, that the Son of God might be glorified thereby –John 11:4.</em> Jesus is our perfect example for relating to those in sorrow. He came to Mary and Martha and listened. He cried with them even though He knew He <strong><em>could</em></strong> and then <strong><em>did</em></strong> transform the whole situation by raising Lazarus.</p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[53:61], translation signature[53:53], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>এটি লাসার সম্বন্ধে যিশুর কথা মনে করিয়ে দেয়, যখন তিনি বলেছিলেন, <em>…এই রোগ মৃত্যুর জন্য নয়, কিন্তু ঈশ্বরের মহিমার জন্য, যেন এর দ্বারা ঈশ্বরের পুত্র মহিমান্বিত হন –যোহন ১১:৪।</em> শোকার্তদের পাশে থাকার ক্ষেত্রে যিশুই আমাদের নিখুঁত আদর্শ। তিনি মরিয়ম ও মার্থার কাছে এলেন এবং তাঁদের কথা শুনলেন। তিনি তাঁদের সঙ্গে কাঁদলেন, যদিও তিনি জানতেন যে তিনি পুরো পরিস্থিতি বদলাতে পারেন—এবং তারপর লাসারকে মৃতদের মধ্য থেকে উঠিয়ে তা করলেন।</p>"
+    }
+  ],
   "id": "80a9e47f4bca84aad5bd68f22f07bf91",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ben",
@@ -97,9 +127,9 @@
   "review_attempts": 0,
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/97b81ed107719e1b3d59a5926df9439e3f25c21b973c7d37fb85d82f877dc026.json",
-  "stage": "translate",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "feee1827ca2238077cd971d14ec7a665d94024ef32a3d17913bde45491d910fb",
-  "translation_model_actual": null
+  "translation_model_actual": "gpt-6-luna"
 }

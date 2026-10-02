@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6fbe7f3f-e972-4235-bf1c-e46b53e41d39",
+    "response_id": "chatcmpl-EUc1xwtdwdFCVXdQ8U0CIKLcnzSFD",
+    "usage": {
+      "completion_tokens": 1126,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1841,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1838,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2967
+    }
+  },
+  "received_at": "2026-10-02T18:16:37+00:00",
+  "result": {
+    "html": "<article data-article-id=\"5613aef3-79c5-42d4-9695-214e71989c22\">\n  <blockquote>\n    <p><em>En ons weet dat alles ten goede meewerk vir<br>\n    dié wat God liefhet, vir dié wat volgens sy voorneme<br>\n    geroep is –Romeine 8:28.</em></p>\n  </blockquote>\n\n  <p>“Ek het gedink ons kan volgende week ’n uitstappie maak, aangesien die skool gesluit is.” Arthur het gesê terwyl hy sy hoed aan die haak in die bykamer gehang en na sy vrou gedraai het. “Wat dink jy van so ’n plan?”</p>\n\n  <p>Myrtle, wat in die kombuis besig was om aandete voor te berei, het met ’n glimlag opgekyk. “Dit sal wonderlik wees. Ek het soortgelyke gedagtes gehad. Ek is seker die kinders sal ook ’n vakansie geniet.”</p>\n\n  <p>“Waarom beplan ons dan nie om volgende Sondag die gemeente by Bethel Fellowship te besoek nie?” het Arthur voortgegaan. “Sal dit jou pas?”</p>\n\n  <p>“Ja, ek dink so,” het Myrtle geantwoord. “Dit voel asof dit ’n rukkie is sedert ons ’n ander gemeente besoek het. Wanneer het jy gedink om te vertrek?”</p>\n\n  <p>“Ek het nog nie vaste planne gemaak nie,” het Arthur geantwoord, “maar ek het gedink ons vertrek Donderdag en kom Maandag terug.”</p>\n\n  <p>“Dit klink goed vir my,” het Myrtle geantwoord.</p>\n\n  <p>“Goed,” het Arthur gesê. “Ek sal beplan om ’n brief aan broer Oscar Peight te stuur om hulle te laat weet ons kom.”</p>\n\n  <p>Die daaropvolgende Donderdag was die Coblentz-gesin op pad na Pennsilvanië.</p>\n\n  <p>Die gesin het baie kilometers sonder voorval noordwaarts gereis. Hulle was nader aan hul bestemming toe Arthur skielik siek geword het. Hy het hul bussie van die pad afgetrek sodat hy sy maaginhoud kon uitbraak. Die gesin het geduldig gewag en gewonder wat hulle volgende moes doen.</p>\n\n  <p>“Dink jy ons moet aangaan?” het Myrtle gevra. Dit sou nog ’n uur duur voordat hulle by broer Oscar se huis aankom.</p>\n\n  <p>“Ek sien nie hoe ek kan aangaan nie,” het Arthur swak geantwoord. “Ek voel nou regtig duiselig. Miskien moet jy nou oorneem met bestuur,” het hy vir Myrtle gesê.</p>\n\n  <p>Die bestuurders het gou van plek verwissel. Met teleurgestelde harte het die gesin omgedraai en huiswaarts gekeer. Dit was vir die hele gesin moeilik, veral vir die kinders. Hulle het die hele week lank na hierdie uitstappie uitgesien, en nou was hul planne in die wiele gery.</p>\n\n  <p>Toe hulle by die huis aankom, het Myrtle by die posbus stilgehou om hul pos te kry. Sy het die pos vir Arthur aangegee en toe by hul oprylaan ingery.</p>\n\n  <p>“Maar … Wat’s dit?” het Arthur verstom uitgeroep toe hy ’n bekende koevert opmerk. Hy het die koevert oopgeskeur en kon nie glo wat hy sien nie. “Die brief wat ek aan broer Oscar Peight gestuur het!” Waarom is dit dan teruggestuur? Sy hart het gesak toe hy die koevert omdraai. “Van alles, ek het vergeet om ’n seël op die koevert te plak!” het hy uitgeroep. “Hoe simpel was dit nie!”</p>\n\n  <p>Daardie aand aan die etenstafel het die gesin weer bespreek hoe dwaas dit was om te vergeet om ’n seël in die hoek van die koevert te plak. “Maar tog,” het Arthur hom verwonder, “het God dit alles so beplan. As daardie brief broer Oscar-hulle bereik het, sou hulle vir ons gereed gemaak het. Maar op hierdie manier het hulle nie eens geweet ons kom kuier nie.”</p>\n\n  <p>“Alles werk inderdaad ten goede mee vir dié wat God liefhet,” het Myrtle geantwoord.</p>\n\n  <figure>\n    <img src=\"/images/articles/5613aef3-79c5-42d4-9695-214e71989c22-1.jpg\" alt=\"’n Plattelandse posbus langs ’n oprylaan wat deur groen landerye na plaasgeboue lei\">\n  </figure>\n</article>\n",
+    "section": "KINDERSHOEK",
+    "subtitle": null,
+    "title": "Die Vergete Seël"
+  }
+}

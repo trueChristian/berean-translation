@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d040caa4-2c3a-4a49-9c5d-3b2d2ffed0f4",
+    "response_id": "chatcmpl-EUc2FOQvowUfbKDmMytj4gUVSJsiP",
+    "usage": {
+      "completion_tokens": 700,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 164,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1370,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1367,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2070
+    }
+  },
+  "received_at": "2026-10-02T18:16:35+00:00",
+  "result": {
+    "html": "<article data-article-id=\"99d9d2e9-2f6a-46ce-a06a-4635a4d484f9\">\n  <div class=\"poem\">\n    <p>Vi hör allt tal om härlighetens skönhet<br>\n    Bibeln talar och berättar sin egen historia.<br>\n    Där uppe finns en plats utan slit och strid.<br>\n    Men kyrkan kan glömma det livet,<br>\n    där Guds närvaro lyser som solen<br>\n    och den ljuva sången är för alla.<br>\n    Om himlen är verklig ställer jag en fråga:<br>\n    Varför fokuserar vi så mycket på ett liv som inte varar?<br>\n    Vi bygger våra herrgårdar här på jorden,<br>\n    vi måste ha glömt hur lite de är värda.<br>\n    Vi ser på våra ägodelar och säger att vi är välsignade,<br>\n    och glömmer att de snart ska brinna upp med allt annat.<br>\n    Skatter är värdefulla, det är vi överens om.<br>\n    Men samla dem i himlen, där de blir kvar för evigt.<br>\n    Skulle vi mista livet för den gode Herrens skull?<br>\n    Då skulle vi vinna evigheten och få del i himlen.<br>\n    Eller älska vårt liv, och Bibeln är tydlig:<br>\n    Då skulle vi gå miste om vår chans till den dyrbara himlen.<br>\n    Om himlen är verklig måste vi vara förvirrade,<br>\n    för det verkar vara det här livet som roar oss.<br>\n    Om himlen väntar och vi vet att vi ska komma dit,<br>\n    varför är vi då rädda när döden slår till?<br>\n    När nästa liv är himlen, evigheten med honom,<br>\n    då är döden början – varför är den då så dyster?<br>\n    Vårt liv är bara en dimma, säger den goda boken.<br>\n    Låt oss tänka klokt och rikta om blicken.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Om himlen är verklig"
+  }
+}

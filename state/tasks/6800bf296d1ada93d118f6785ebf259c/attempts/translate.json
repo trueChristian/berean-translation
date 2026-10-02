@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T18:16:36+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"d5891c2f-007d-4926-90e0-81c25cf67fbd\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd-1.jpg\\\" alt=\\\"Een dubbele regenboog strekt zich uit boven donkere bomen onder een stormachtige hemel\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>De storm was donker en dreigend,<br>\\n    Donkere wolken joegen boven mijn hoofd.<br>\\n    Bliksem flitste om me heen,<br>\\n    Angst greep me aan en vervulde me met vrees.</p>\\n\\n    <p>De donder rolde zijn onheilspellende boodschap uit.<br>\\n    Mijn hart voelde zwaar en verdoofd.<br>\\n    Overal om me heen woedde de storm,<br>\\n    De onrust vanbinnen sloeg me met stomheid.</p>\\n\\n    <p>Niet alleen dreigde er gevaar om me heen,<br>\\n    Ook het gevaar vanbinnen was even reëel.<br>\\n    Ik beefde terwijl ik naar de toekomst keek,<br>\\n    Niet wetend hoe ik verder moest gaan.</p>\\n\\n    <p>Wat lag er achter de mist?<br>\\n    De wind floot in mijn oren.<br>\\n    Hij riep vragen op, deed me struikelen,<br>\\n    En drukte me neer met vrees.</p>\\n\\n    <p>Deze storm had alle tekens van het pad weggevaagd,<br>\\n    Dat ik ooit dacht te kunnen zien.<br>\\n    Nu was al het vertrouwde uit mijn zicht verdwenen,<br>\\n    Elke stap zette ik aarzelend.</p>\\n\\n    <p>Toen ik niet meer verder kon, riep ik angstig uit...<br>\\n    \\\"Heer, kom tot mij! Wacht niet langer, o mijn Koning!\\\"<br>\\n    Een zware stilte heerste, ik voelde me volkomen alleen,<br>\\n    Alleen aan de hoop klampte ik me vast.</p>\\n\\n    <p>Toen klonk er een zachte, maar krachtige stem in mijn oor,<br>\\n    \\\"Mijn dierbare kind, kijk omhoog.\\\"<br>\\n    Waarom zo'n verzoek? Terwijl ik zo was overspoeld<br>\\n    Door de mist die maar niet optrok.</p>\\n    <p>Nog altijd hoopvol hief ik mijn ogen op,<br>\\n    Bevend om de donkere wolken om me heen.<br>\\n    Maar toen ik keek, zag ik nog iets meer,<br>\\n    Daar aan de hemel vond ik een schat.</p>\\n\\n    <p>Midden tussen alle donkere en dreigende wolken,<br>\\n    Daar was het! Een opening van licht!<br>\\n    Een regenboog scheen door, in de prachtigste kleuren,<br>\\n    Een baken in deze donkere nacht.</p>\\n\\n    <p>\\\"Mijn kind, wees niet bang, je was nooit alleen.<br>\\n    Geen seconde kon Ik je zijde verlaten.<br>\\n    Ook al is het pad onduidelijk en moet je veel doorstaan,<br>\\n    Twijfel er niet aan dat je bij Mij kunt schuilen.\\\"</p>\\n\\n    <p>\\\"Ja, voorlopig wandel je te midden van beproevingen,<br>\\n    Angsten bedreigen je vanbinnen en vanbuiten.<br>\\n    Je vraagt je af en piekert over wat je nu moet doen,<br>\\n    Gevaren lijken je uit te lachen en te trotseren.\\\"</p>\\n\\n    <p>\\\"Maar hier heb Ik Mijn regenboog geplaatst,<br>\\n    Zodat je midden in alle duisternis en angst<br>\\n    Kunt zien dat Mijn belofte vaststaat.<br>\\n    Ik zal je nooit verlaten, maar altijd nabij zijn.\\\"</p>\\n\\n    <p>\\\"Als je je ogen op deze belofte gericht houdt,<br>\\n    Zal Mijn licht je de weg wijzen.<br>\\n    De angsten en gevaren om je heen<br>\\n    Zullen dan op afstand worden gehouden.\\\"</p>\\n\\n    <p>\\\"Deze belofte kan je ook de geheimen onthullen<br>\\n    Die midden in de storm verborgen liggen.<br>\\n    Want Mijn kracht en macht worden zichtbaar<br>\\n    Wanneer deze zich voegen naar Mijn wil.\\\"</p>\\n\\n    <p>\\\"Kijk dus lang naar de regenboog, Mijn kind.<br>\\n    Overdenk de boodschap die hij brengt.<br>\\n    Ook al is alles om je heen woest en onstuimig,<br>\\n    Denk aan de belofte die hij bezingt.\\\"</p>\\n\\n    <p class=\\\"byline\\\">~door Adrianna Fanton</p>\\n  </div>\\n</article>\\n\",\"section\":\"Gedicht\",\"subtitle\":null,\"title\":\"Kijk naar de regenboog\"}",
+    "content_bytes": 3623,
+    "content_evidence_truncated": false,
+    "content_sha256": "e0e4b31323a5f80f7715254b21782b96e38257be86dad7e59a66bfa00bc7c092",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1237,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 99,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1911,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1908,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3148
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

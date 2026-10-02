@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T18:16:37+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"99d9d2e9-2f6a-46ce-a06a-4635a4d484f9\\\">\\n  <div class=\\\"poem\\\">\\n    <p>نسمع كل هذا الحديث، عن بهاء المجد وجماله<br>\\n    والكتاب المقدس يتكلم ويروي قصته بنفسه.<br>\\n    هناك مكان في الأعالي، لا تعب فيه ولا خصام.<br>\\n    لكن الكنيسة قد تنسى تلك الحياة،<br>\\n    إن كان حضور الله يشرق كالشمس،<br>\\n    فالترانيم العذبة تشمل الجميع.<br>\\n    إن كانت السماء حقيقة، فسأطرح سؤالًا:<br>\\n    لماذا كل هذا التركيز على حياة لن تدوم؟<br>\\n    نبني قصورنا هنا على هذه الأرض،<br>\\n    ولا بد أننا نسينا كم أن قيمتها ضئيلة.<br>\\n    ننظر إلى ما نملك ونقول إننا مباركون،<br>\\n    وننسى أنه عما قريب سيحترق مع سائر الأشياء.<br>\\n    لا خلاف على أن الكنوز جديرة بالاهتمام،<br>\\n    لكن أودعوها في السماء حيث تبقى إلى الأبد.<br>\\n    أَنَفقد حياتنا من أجل الرب الصالح؟<br>\\n    عندئذ نربح الأبدية وننعم بالسماء.<br>\\n    أم نحب حياتنا، والكتاب المقدس واضح<br>\\n    بأننا سنفقد فرصتنا في السماء الغالية.<br>\\n    إن كانت السماء حقيقة، فلا بد أننا مرتبكون،<br>\\n    إذ يبدو أن هذه الحياة هي ما يشغلنا ويُسعدنا.<br>\\n    إن كانت السماء تنتظرنا، وكنا نعلم أننا سنذهب إليها،<br>\\n    فلماذا نخاف حين يوجه الموت ضربته؟<br>\\n    حين تكون الحياة الآتية هي السماء، والأبدية معه،<br>\\n    يكون الموت بدايةً، فلماذا يبدو كئيبًا؟<br>\\n    يخبرنا الكتاب العزيز أن حياتنا ليست إلا بخارًا.<br>\\n    فلنتعقل بحكمة ونحوّل أنظارنا.</p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"إن كانت السماء حقيقة\"}",
+    "content_bytes": 2255,
+    "content_evidence_truncated": false,
+    "content_sha256": "50763ea58b93464e28f187b3522171826aa8ebbf8adb5575ed1ce33bc8441600",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 640,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 98,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1374,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1371,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2014
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

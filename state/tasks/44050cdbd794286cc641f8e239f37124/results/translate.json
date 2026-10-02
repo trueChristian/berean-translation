@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6c73bf4a-7415-468e-943a-1e0fe2c69774",
+    "response_id": "chatcmpl-EUc2IaSK54szfyu5NYxYUdih6OVtC",
+    "usage": {
+      "completion_tokens": 684,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 90,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1381,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1378,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2065
+    }
+  },
+  "received_at": "2026-10-02T18:16:36+00:00",
+  "result": {
+    "html": "<article data-article-id=\"99d9d2e9-2f6a-46ce-a06a-4635a4d484f9\">\n  <div class=\"poem\">\n    <p>我们听见种种谈论，荣耀何等美好，<br>\n    圣经开口说话，讲述自己的故事。<br>\n    那上面有一个地方，没有劳苦，也没有纷争。<br>\n    然而，教会可能忘了那样的生命，<br>\n    若上帝的同在如太阳般闪耀，<br>\n    那甜美的歌声，人人都能同唱。<br>\n    若天国是真实的，我要提出一个问题：<br>\n    为何如此专注于那不会长久的生命？<br>\n    我们在这世上为自己建造豪宅，<br>\n    必定忘了这一切价值何其微小。<br>\n    我们看着自己的财物，说自己蒙了福，<br>\n    却忘了不久之后，它们将与其余一切一同焚毁。<br>\n    珍宝确实珍贵，这一点我们都认同，<br>\n    但要把它们积攒在天上，存到永远。<br>\n    我们会为着良善的主而舍弃生命吗？<br>\n    那么我们就会得着永恒，并享有天国。<br>\n    还是爱惜自己的生命？圣经说得清楚，<br>\n    我们就会失去进入那宝贵天国的机会。<br>\n    若天国是真实的，我们必定是糊涂了，<br>\n    因为看来，令我们着迷的竟是今生。<br>\n    若天国正等候着我们，而且我们知道自己会到那里，<br>\n    那么死亡带来打击时，我们为何害怕？<br>\n    若来生就是天国，是与祂同在的永恒，<br>\n    那么死亡就是开始，为何还觉得它可怕？<br>\n    圣书告诉我们，我们的生命不过如同一缕轻烟。<br>\n    让我们明智地思量，转变目光吧。</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "若天国是真实的"
+  }
+}

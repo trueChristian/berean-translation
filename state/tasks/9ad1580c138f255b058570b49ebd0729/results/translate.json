@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "827739a7-7ad2-4233-bebc-fb6e68e2cddd",
+    "response_id": "chatcmpl-EUc27VllWyye4Ju1ATNemUxIn812g",
+    "usage": {
+      "completion_tokens": 1136,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 113,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1843,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1840,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2979
+    }
+  },
+  "received_at": "2026-10-02T18:16:36+00:00",
+  "result": {
+    "html": "<article data-article-id=\"5613aef3-79c5-42d4-9695-214e71989c22\">\n  <blockquote>\n    <p><em>Y sabemos que todas las cosas cooperan para bien de<br>\n    los que aman a Dios, de los que son llamados conforme<br>\n    a su propósito –Romanos 8:28.</em></p>\n  </blockquote>\n\n  <p>—He estado pensando que podríamos hacer un viaje la próxima semana, ya que no habrá clases —dijo Arthur, colgando su sombrero en el gancho del cuarto de servicio y volviéndose hacia su esposa—. ¿Qué te parece la idea?</p>\n\n  <p>Myrtle, que había estado ocupada preparando la cena en la cocina, levantó la vista con una sonrisa. —Sería estupendo. He estado pensando algo parecido. Estoy segura de que a los niños también les gustaría ir de vacaciones.</p>\n\n  <p>—Entonces, ¿por qué no planeamos visitar el próximo domingo a la congregación de Bethel Fellowship? —continuó Arthur—. ¿Te parece bien?</p>\n\n  <p>—Sí, creo que sí —respondió Myrtle—. Parece que hace un tiempo que no vamos de visita a otra congregación. ¿Cuándo pensabas salir?</p>\n\n  <p>—Aún no he hecho planes definitivos —respondió Arthur—, pero pensaba salir el jueves y volver a casa el lunes.</p>\n\n  <p>—Me parece bien —respondió Myrtle.</p>\n\n  <p>—De acuerdo —dijo Arthur—. Planeo enviarle una carta al hermano Oscar Peight para avisarles que vamos.</p>\n\n  <p>El jueves siguiente, la familia Coblentz se dirigió a Pensilvania.</p>\n\n  <p>Pasaron muchos kilómetros sin contratiempos mientras la familia viajaba hacia el norte. Ya estaban más cerca de su destino cuando, de repente, Arthur se enfermó. Sacó la camioneta de la carretera para poder vaciar el contenido de su estómago. La familia esperó con paciencia, preguntándose qué debían hacer a continuación.</p>\n\n  <p>—¿Crees que deberíamos seguir? —preguntó Myrtle. Faltaba otra hora para llegar a la casa del hermano Oscar.</p>\n\n  <p>—No veo cómo podría seguir —respondió Arthur con voz débil—. Ahora me siento muy mareado. Quizás deberías conducir tú —le dijo a Myrtle.</p>\n\n  <p>Pronto se cambiaron de lugar los conductores. Con el corazón apesadumbrado, la familia dio la vuelta y emprendió el regreso a casa. Fue difícil para toda la familia, especialmente para los niños. Habían esperado con ilusión ese viaje toda la semana, y ahora sus planes se habían arruinado.</p>\n\n  <p>Al llegar a casa, Myrtle se detuvo junto al buzón para recoger el correo. Le entregó el correo a Arthur y luego condujo por el camino de entrada.</p>\n\n  <p>—Pero… ¿qué es esto? —balbuceó Arthur al reconocer un sobre. Lo abrió de un tirón y no podía creer lo que veía—. ¡La carta que le envié al hermano Oscar Peight! ¿Por qué la habrían devuelto? Se le encogió el corazón al darle vuelta al sobre. —¡Por todas las cosas, olvidé ponerle un sello al sobre! —exclamó—. ¡Qué tontería!</p>\n\n  <p>Esa noche, durante la cena, la familia volvió a hablar de lo tonto que parecía haber olvidado pegar un sello en la esquina de aquel sobre. —Pero, aun así —se maravilló Arthur—, Dios tenía todo esto planeado. Si esa carta hubiera llegado a los Peight, se habrían estado preparando para recibirnos. Pero, de esta manera, ni siquiera sabían que íbamos a visitarlos.</p>\n\n  <p>—Todas las cosas cooperan para bien de los que aman a Dios —respondió Myrtle.</p>\n\n  <figure>\n    <img src=\"/images/articles/5613aef3-79c5-42d4-9695-214e71989c22-1.jpg\" alt=\"Un buzón rural junto a un camino que atraviesa campos verdes y conduce a edificios de una granja\">\n  </figure>\n</article>\n",
+    "section": "SECCIÓN INFANTIL",
+    "subtitle": null,
+    "title": "El sello olvidado"
+  }
+}

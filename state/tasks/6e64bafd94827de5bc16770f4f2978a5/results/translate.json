@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b184ee1a-142b-4ec8-a0a8-6a65ccf417a6",
+    "response_id": "chatcmpl-EUc1wHP2nzl0ShmdjetFFZsDFpsYP",
+    "usage": {
+      "completion_tokens": 650,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 90,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1371,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1368,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2021
+    }
+  },
+  "received_at": "2026-10-02T18:16:36+00:00",
+  "result": {
+    "html": "<article data-article-id=\"99d9d2e9-2f6a-46ce-a06a-4635a4d484f9\">\n  <div class=\"poem\">\n    <p>Kita mendengar semua pembicaraan, keindahan kemuliaan<br>\n    Alkitab berbicara dan mengisahkan ceritanya sendiri.<br>\n    Ada suatu tempat di sana, tanpa jerih payah atau pertikaian.<br>\n    Namun, gereja bisa melupakan kehidupan itu,<br>\n    Jika kehadiran Allah bersinar seperti matahari,<br>\n    Nyanyian yang begitu merdu mencakup semua orang.<br>\n    Jika surga itu nyata, akan kuajukan sebuah pertanyaan.<br>\n    Mengapa begitu banyak perhatian tertuju pada hidup yang takkan bertahan?<br>\n    Kita membangun rumah-rumah megah di bumi ini,<br>\n    Kita pasti lupa betapa kecil nilainya.<br>\n    Kita memandang harta benda kita dan berkata bahwa kita diberkati,<br>\n    Lupa bahwa sebentar lagi semuanya akan terbakar bersama yang lain.<br>\n    Harta adalah sesuatu yang layak diperjuangkan, kita sepakat.<br>\n    Namun, simpanlah di surga, tempatnya untuk selamanya.<br>\n    Maukah kita kehilangan nyawa demi Tuhan yang baik?<br>\n    Maka kita akan memperoleh kekekalan dan mendapat bagian di surga.<br>\n    Ataukah kita mencintai hidup kita, padahal Alkitab dengan jelas mengatakan<br>\n    Kita akan kehilangan kesempatan untuk meraih surga yang begitu berharga.<br>\n    Jika surga itu nyata, kita pasti kebingungan,<br>\n    Sebab tampaknya hidup inilah yang membuat kita terpesona.<br>\n    Jika surga menanti, dan kita tahu ke sanalah kita akan pergi,<br>\n    Lalu mengapa kita takut ketika kematian menghantam?<br>\n    Jika hidup berikutnya adalah surga, kekekalan bersama-Nya,<br>\n    Maka kematian adalah permulaan; mengapa kita menganggapnya kelam?<br>\n    Hidup kita hanyalah uap, demikian disampaikan Kitab Suci.<br>\n    Mari kita berpikir dengan bijaksana dan mengubah pandangan kita.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Jika Surga Itu Nyata"
+  }
+}

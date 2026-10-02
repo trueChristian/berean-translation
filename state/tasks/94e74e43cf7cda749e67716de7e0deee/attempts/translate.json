@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T18:16:36+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"99d9d2e9-2f6a-46ce-a06a-4635a4d484f9\\\">\\n  <div class=\\\"poem\\\">\\n    <p>영광의 아름다움에 관한 이야기를 우리는 듣고,<br>\\n    성경은 말씀하며 스스로의 이야기를 들려줍니다.<br>\\n    저 위에는 수고도 다툼도 없는 곳이 있습니다.<br>\\n    그러나 교회는 그 삶을 잊을 수 있습니다.<br>\\n    하나님의 임재가 태양처럼 빛나고,<br>\\n    달콤한 노래에 모두가 함께한다면,<br>\\n    천국이 실재한다면, 나는 한 가지 묻고 싶습니다.<br>\\n    왜 끝나고 말 삶에 그토록 집중합니까?<br>\\n    우리는 이 땅 위에 저택을 짓고,<br>\\n    그것이 얼마나 하찮은 가치인지 잊은 듯합니다.<br>\\n    우리는 가진 것을 바라보며 복을 받았다고 말하고,<br>\\n    머지않아 나머지와 함께 불타 없어질 것을 잊습니다.<br>\\n    보물은 소중하다는 데 우리 모두 동의합니다.<br>\\n    그러나 영원히 있을 하늘에 보물을 쌓아 두십시오.<br>\\n    주님의 선하심을 위해 우리의 목숨을 잃겠습니까?<br>\\n    그렇다면 영원을 얻고 천국에 참여할 것입니다.<br>\\n    아니면 우리의 삶을 사랑하겠습니까? 성경은 분명히 말합니다.<br>\\n    우리는 그토록 귀한 천국에 갈 기회를 잃을 것입니다.<br>\\n    천국이 실재한다면 우리는 혼란에 빠진 듯합니다.<br>\\n    이 삶이 우리를 즐겁게 하는 듯하니 말입니다.<br>\\n    천국이 기다리고 있고 우리가 그곳에 갈 것을 안다면,<br>\\n    죽음이 일격을 가할 때 왜 두려워합니까?<br>\\n    다음 생이 천국이고 그분과 함께하는 영원이라면,<br>\\n    죽음은 시작인데, 어찌하여 슬퍼합니까?<br>\\n    좋은 책은 우리 삶이 한낱 안개와 같다고 전합니다.<br>\\n    지혜롭게 생각하고 우리의 시선을 바꿉시다.</p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"천국이 실재한다면\"}",
+    "content_bytes": 2057,
+    "content_evidence_truncated": false,
+    "content_sha256": "e6ab23b1d3b80707bf0b56452043addbd42fa51bcc685a6229fd74bc5b70f4d1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 583,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1375,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1372,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1958
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

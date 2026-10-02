@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "996b0d51-fc93-49e6-9c57-988649ade221",
+    "response_id": "chatcmpl-EUc2RV0oZN31VPQJfUVcPEpbP1U2n",
+    "usage": {
+      "completion_tokens": 1332,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 120,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1911,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1908,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3243
+    }
+  },
+  "received_at": "2026-10-02T18:16:36+00:00",
+  "result": {
+    "html": "<article data-article-id=\"d5891c2f-007d-4926-90e0-81c25cf67fbd\">\n  <figure>\n    <img src=\"/images/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd-1.jpg\" alt=\"Un doppio arcobaleno si inarca sopra alberi scuri sotto un cielo tempestoso\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>La tempesta era buia e minacciosa,<br>\n    Nuvole scure si addensavano sopra di me.<br>\n    I lampi guizzavano tutt’intorno,<br>\n    La paura mi afferrava e mi riempiva di terrore.</p>\n\n    <p>Il tuono annunciava presagi funesti.<br>\n    Il cuore mi sembrava pesante e insensibile.<br>\n    Tutt’intorno la tempesta infuriava,<br>\n    Il tumulto dentro di me mi lasciava senza parole.</p>\n\n    <p>Il pericolo non era soltanto intorno a me,<br>\n    Ma altrettanto reale era quello dentro di me.<br>\n    Tremavo guardando al futuro,<br>\n    Senza sapere come ricominciare.</p>\n\n    <p>Che cosa si celava dietro la nebbia?<br>\n    Il vento fischiava nelle mie orecchie.<br>\n    Suscitando domande, facendomi inciampare,<br>\n    E caricandomi di paure.</p>\n\n    <p>Questa tempesta aveva cancellato ogni segno del sentiero,<br>\n    Che un tempo pensavo di poter scorgere.<br>\n    Ora ai miei occhi era scomparso tutto ciò che mi era familiare,<br>\n    E avanzavo esitando a ogni passo.</p>\n\n    <p>Giunta allo stremo, gridai impaurita...<br>\n    «Signore, vieni a me! Non tardare, o mio Re!»<br>\n    Il silenzio gravava su tutto, mi sentivo del tutto sola,<br>\n    Mi aggrappavo soltanto alla speranza.</p>\n\n    <p>Allora una voce calma, ma forte, mi parlò all’orecchio,<br>\n    «Mia preziosa figlia, alza lo sguardo.»<br>\n    Perché una simile richiesta? Mentre ero avvolta<br>\n    Nella nebbia che non voleva diradarsi.</p>\n    <p>Ancora piena di speranza, sollevai gli occhi,<br>\n    Tremando per le nuvole scure intorno.<br>\n    Eppure, guardando, vidi qualcosa di più,<br>\n    Un tesoro nel cielo si rivelò.</p>\n\n    <p>In mezzo a tutte quelle nuvole scure e minacciose,<br>\n    Eccolo! Uno squarcio di luce!<br>\n    Un arcobaleno splendeva, dai colori più belli,<br>\n    Un faro in quella notte buia.</p>\n\n    <p>«Figlia mia, non temere, non sei mai stata sola.<br>\n    Neppure per un istante ho potuto lasciarti.<br>\n    Anche se il sentiero è incerto e c’è molto da sopportare,<br>\n    Non dubitare che in Me puoi trovare rifugio.»</p>\n\n    <p>«Sì, per ora cammini in mezzo alle prove,<br>\n    Le paure minacciano dentro e fuori.<br>\n    Ti chiedi e ti domandi che cosa fare adesso,<br>\n    I pericoli sembrano deriderti e sfidarti.»</p>\n\n    <p>«Ma qui ho posto il Mio arcobaleno,<br>\n    Perché, in mezzo a tutto il buio e alla paura,<br>\n    Tu possa vedere che la Mia promessa è certa.<br>\n    Non ti abbandonerò mai, ma ti sarò sempre vicino.»</p>\n\n    <p>«Se tieni gli occhi fissi su questa promessa,<br>\n    La Mia luce guiderà il tuo cammino.<br>\n    Le paure e i pericoli che ti circondano<br>\n    Saranno allora tenuti a bada.»</p>\n\n    <p>«Questa promessa può anche svelarti<br>\n    I segreti nascosti in mezzo alla tempesta.<br>\n    Perché la Mia forza e la Mia potenza si manifestano<br>\n    Quando queste si conformano alla Mia volontà.»</p>\n\n    <p>«Dunque, figlia mia, contempla a lungo l’arcobaleno.<br>\n    Medita sul messaggio che porta.<br>\n    Anche se tutt’intorno a te tutto è furioso e selvaggio,<br>\n    Ricorda la promessa che esso canta.»</p>\n\n    <p class=\"byline\">~di Adrianna Fanton</p>\n  </div>\n</article>\n",
+    "section": "Poesia",
+    "subtitle": null,
+    "title": "Guarda l’arcobaleno"
+  }
+}

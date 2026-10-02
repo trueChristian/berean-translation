@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "10b1b357-3d0b-452d-8996-1932c70f12c1",
+    "response_id": "chatcmpl-EUc2KISCtaSBLp6jKbrZk3pZ4nQ6z",
+    "usage": {
+      "completion_tokens": 1198,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1913,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1910,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3111
+    }
+  },
+  "received_at": "2026-10-02T18:16:36+00:00",
+  "result": {
+    "html": "<article data-article-id=\"d5891c2f-007d-4926-90e0-81c25cf67fbd\">\n  <figure>\n    <img src=\"/images/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd-1.jpg\" alt=\"Un double arc-en-ciel s’arque au-dessus d’arbres sombres sous un ciel orageux\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>L’orage était sombre et menaçant,<br>\n    Des nuages noirs s’amoncelaient au-dessus de ma tête.<br>\n    Les éclairs zébraient le ciel autour de moi,<br>\n    La peur m’étreignait et me remplissait d’effroi.</p>\n\n    <p>Le tonnerre grondait, annonçant le pire.<br>\n    Mon cœur était lourd et engourdi.<br>\n    Tout autour de moi, l’orage faisait rage,<br>\n    Le tumulte intérieur me laissait sans voix.</p>\n\n    <p>Le danger ne m’entourait pas seulement,<br>\n    Le péril intérieur était tout aussi réel.<br>\n    Je tremblais en regardant vers l’avenir,<br>\n    Sans savoir comment m’y prendre ensuite.</p>\n\n    <p>Que se cachait-il derrière le brouillard ?<br>\n    Le vent sifflait à mes oreilles.<br>\n    Suscitant des questions, me faisant trébucher,<br>\n    Et m’accablant de peurs.</p>\n\n    <p>Cet orage avait effacé tous les signes du chemin,<br>\n    Que j’avais cru voir autrefois.<br>\n    À présent, tout ce qui m’était familier avait disparu à mes yeux,<br>\n    Chaque pas était hésitant.</p>\n\n    <p>À bout de forces, je criai de peur...<br>\n    « Seigneur, viens à moi ! Ne tarde pas, ô mon Roi ! »<br>\n    Le silence pesait lourd, je me sentais tout seul,<br>\n    Je m’accrochais au seul espoir.</p>\n\n    <p>Alors une voix calme, mais forte, me parla à l’oreille :<br>\n    « Mon précieux enfant, lève les yeux. »<br>\n    Pourquoi une telle demande, alors que j’étais englouti<br>\n    Dans ce brouillard qui refusait de se dissiper ?</p>\n    <p>Gardant espoir, je levai les yeux,<br>\n    Tremblant devant les nuages sombres autour de moi.<br>\n    Pourtant, en regardant, je vis quelque chose de plus,<br>\n    Un trésor se trouvait dans le ciel.</p>\n\n    <p>Au milieu de tous ces nuages sombres et menaçants,<br>\n    Le voici ! Une trouée de lumière !<br>\n    Un arc-en-ciel brillait de ses plus belles couleurs,<br>\n    Un phare au milieu de cette nuit noire.</p>\n\n    <p>« Mon enfant, n’aie pas peur, tu n’as jamais été seul.<br>\n    Pas une seconde je n’aurais pu quitter ton côté.<br>\n    Même si le chemin est obscur et qu’il y a beaucoup à endurer,<br>\n    Ne doute pas qu’en moi tu peux trouver refuge. »</p>\n\n    <p>« Oui, pour l’instant, tu avances au milieu des épreuves,<br>\n    Les peurs te menacent à l’intérieur comme à l’extérieur.<br>\n    Tu te demandes et t’interroges sur ce qu’il faut faire ensuite,<br>\n    Les dangers semblent rire et défier. »</p>\n\n    <p>« Mais j’ai placé ici mon arc-en-ciel,<br>\n    Afin qu’au milieu de toute cette obscurité et de toute cette peur,<br>\n    Tu puisses voir que ma promesse est certaine.<br>\n    Je ne t’abandonnerai jamais, je serai toujours près de toi. »</p>\n\n    <p>« Si tu gardes les yeux fixés sur cette promesse,<br>\n    Ma lumière te guidera sur ton chemin.<br>\n    Les peurs et les dangers qui t’entourent<br>\n    Seront alors tenus à distance. »</p>\n\n    <p>« Cette promesse peut aussi te révéler<br>\n    Les secrets cachés au milieu de l’orage.<br>\n    Car ma force et ma puissance se manifestent<br>\n    Lorsque celles-ci se conforment à ma volonté. »</p>\n\n    <p>« Alors, mon enfant, contemple longuement l’arc-en-ciel.<br>\n    Médite le message qu’il apporte.<br>\n    Même si tout autour de toi est furieux et déchaîné,<br>\n    Souviens-toi de la promesse qu’il chante. »</p>\n\n    <p class=\"byline\">~par Adrianna Fanton</p>\n  </div>\n</article>\n",
+    "section": "Poème",
+    "subtitle": null,
+    "title": "Regarde l’arc-en-ciel"
+  }
+}

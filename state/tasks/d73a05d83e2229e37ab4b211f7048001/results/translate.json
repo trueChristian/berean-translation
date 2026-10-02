@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0923573b-c4d3-4cf2-b123-98aaab530c34",
+    "response_id": "chatcmpl-EUc2hCdgekptqXxUSxE1YVMM49NY2",
+    "usage": {
+      "completion_tokens": 1244,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 89,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1923,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1920,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3167
+    }
+  },
+  "received_at": "2026-10-02T18:16:37+00:00",
+  "result": {
+    "html": "<article data-article-id=\"d5891c2f-007d-4926-90e0-81c25cf67fbd\">\n  <figure>\n    <img src=\"/images/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd-1.jpg\" alt=\"En dobbel regnbue spenner over mørke trær under en stormfull himmel\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Stormen var mørk og truende,<br>\n    mørke skyer veltet fram over meg.<br>\n    Lyn blinket rundt meg,<br>\n    frykten grep meg og fylte meg med redsel.</p>\n\n    <p>Tordenen rullet fram med sine varsler.<br>\n    Hjertet mitt føltes tungt og følelsesløst.<br>\n    Stormen raste rundt meg,<br>\n    uroen inni meg gjorde meg målløs.</p>\n\n    <p>Faren var ikke bare rundt meg,<br>\n    men like virkelig var faren inni meg.<br>\n    Jeg skalv mens jeg så mot framtiden,<br>\n    uten å vite hvordan jeg skulle gå videre.</p>\n\n    <p>Hva lå bak tåken?<br>\n    Vinden pep i ørene mine.<br>\n    Den stilte spørsmål, fikk meg til å snuble,<br>\n    og tynget meg ned med frykt.</p>\n\n    <p>Denne stormen hadde visket ut alle tegn på stien,<br>\n    som jeg en gang trodde jeg kunne se.<br>\n    Nå var alt det kjente borte for øynene mine,<br>\n    og jeg tok hvert skritt nølende.</p>\n\n    <p>Da jeg ikke hadde mer å gå på, ropte jeg i frykt ...<br>\n    «Herre, kom til meg! Vent ikke, min konge!»<br>\n    Stillheten lå tungt, jeg følte meg helt alene,<br>\n    og jeg klynget meg bare til håpet.</p>\n\n    <p>Da talte en stille, men sterk stemme i øret mitt,<br>\n    «Mitt dyrebare barn, se opp.»<br>\n    Hvorfor en slik oppfordring? Når jeg var oppslukt<br>\n    av tåken som nektet å lette.</p>\n    <p>Fortsatt med håp løftet jeg blikket,<br>\n    skjelvende ved synet av de mørke skyene rundt meg.<br>\n    Men da jeg så opp, fikk jeg øye på noe mer,<br>\n    en skatt på himmelen.</p>\n\n    <p>Midt blant alle de mørke og truende skyene,<br>\n    der var den! En lysning!<br>\n    En regnbue skinte gjennom, i de vakreste farger,<br>\n    et fyrlys i denne mørke natten.</p>\n\n    <p>«Mitt barn, vær ikke redd, du var aldri alene.<br>\n    Ikke et eneste sekund kunne jeg forlate din side.<br>\n    Selv om stien er uklar, og mye må utholdes,<br>\n    så tvil ikke på at du kan søke ly hos Meg.»</p>\n\n    <p>«Ja, akkurat nå går du gjennom prøvelser,<br>\n    frykten truer både innenfra og utenfra.<br>\n    Du lurer og spør hva du skal gjøre nå,<br>\n    farene ser ut til å le og håne.»</p>\n\n    <p>«Men her har jeg satt min regnbue,<br>\n    slik at du midt i alt mørket og all frykten<br>\n    kan se at løftet mitt står fast.<br>\n    Jeg vil aldri svikte deg, men alltid være nær.»</p>\n\n    <p>«Hvis du holder blikket festet på dette løftet,<br>\n    vil lyset mitt vise deg vei.<br>\n    Frykten og farene som omgir deg,<br>\n    vil da holdes på avstand.»</p>\n\n    <p>«Dette løftet kan også åpenbare for deg<br>\n    hemmelighetene som skjuler seg midt i stormen.<br>\n    For min styrke og makt blir synlige<br>\n    når disse innordner seg etter min vilje.»</p>\n\n    <p>«Så, mitt barn, se lenge på regnbuen.<br>\n    Grunn på budskapet den bringer.<br>\n    Selv om alt rundt deg er opprørt og vilt,<br>\n    så husk løftet den synger om.»</p>\n\n    <p class=\"byline\">~av Adrianna Fanton</p>\n  </div>\n</article>\n",
+    "section": "Dikt",
+    "subtitle": null,
+    "title": "Se på regnbuen"
+  }
+}

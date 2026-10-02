@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cf0789e7-b6a0-4235-af67-6b22dee28b41",
+    "response_id": "chatcmpl-EUc2rL8FdPdteVWmxfWMR4m0Wpm2v",
+    "usage": {
+      "completion_tokens": 1328,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 111,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1914,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1911,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3242
+    }
+  },
+  "received_at": "2026-10-02T18:16:37+00:00",
+  "result": {
+    "html": "<article data-article-id=\"d5891c2f-007d-4926-90e0-81c25cf67fbd\">\n  <figure>\n    <img src=\"/images/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd-1.jpg\" alt=\"’n Dubbele reënboog span bo donker bome onder ’n stormagtige hemel\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>Die storm was donker en dreigend,<br>\n    Donker wolke het bo-oor opgebol.<br>\n    Weerlig het rondom my geflits,<br>\n    Vrees het my beetgepak en met angs vervul.</p>\n\n    <p>Donder het sy onheilspellende voorspellings laat rol.<br>\n    My hart het swaar en gevoelloos gevoel.<br>\n    Oral rondom my het die storm gewoed,<br>\n    Die onstuimigheid binne-in het my sprakeloos gelaat.</p>\n\n    <p>Die gevaar was nie net rondom my nie,<br>\n    Maar die bedreiging binne-in was net so werklik.<br>\n    Ek het gebewe terwyl ek na die toekoms gekyk het,<br>\n    Sonder om te weet hoe om verder te gaan.</p>\n\n    <p>Wat het agter die mis gelê?<br>\n    Die wind het in my ore gefluit.<br>\n    Dit het vrae laat opkom, my laat struikel,<br>\n    En my met vrese belas.</p>\n\n    <p>Hierdie storm het al die tekens van die pad uitgewis,<br>\n    Wat ek eens gedink het ek kon sien.<br>\n    Nou was alles wat ek geken het, vir my oë weg,<br>\n    Elke tree is huiwerig gegee.</p>\n\n    <p>Toe ek aan die einde van myself gekom het, het ek in vrees uitgeroep...<br>\n    \"Here, kom na my toe! Vertoef nie, o my Koning!\"<br>\n    ’n Swaar stilte het geheers; ek het heeltemal alleen gevoel,<br>\n    En net aan hoop het ek vasgeklou.</p>\n\n    <p>Toe spreek ’n stil, maar sterk stem in my oor,<br>\n    \"My kosbare kind, kyk op.\"<br>\n    Waarom so ’n versoek? Terwyl ek so verswelg was<br>\n    In die mis wat geweier het om op te klaar.</p>\n    <p>Nogtans het ek in hoop my oë opgelig,<br>\n    Bewend vir die donker wolke rondom my.<br>\n    Maar toe ek kyk, sien ek iets meer,<br>\n    ’n Skat is daar in die lug gevind.</p>\n\n    <p>Te midde van al die donker en dreigende wolke,<br>\n    Daar was dit! ’n Skeur van lig!<br>\n    ’n Reënboog het deurgeskyn, van die lieflikste kleur,<br>\n    ’n Baken te midde van hierdie donker nag.</p>\n\n    <p>\"My kind, moenie vrees nie, jy was nooit alleen nie.<br>\n    Nie ’n sekonde lank kon Ek jou sy verlaat nie.<br>\n    Hoewel die pad onduidelik is en daar baie is om te verduur,<br>\n    Moenie twyfel dat jy by My kan skuil nie.\"</p>\n\n    <p>\"Ja, vir eers loop jy te midde van beproewings,<br>\n    Vrese dreig van binne sowel as buite.<br>\n    Jy wonder en vra wat jy volgende moet doen,<br>\n    Dit lyk asof gevare lag en spot.\"</p>\n\n    <p>\"Maar hier het Ek My reënboog geplaas,<br>\n    Sodat jy te midde van al die donker en vrees<br>\n    Kan sien dat My belofte seker is.<br>\n    Ek sal jou nooit verlaat nie, maar altyd naby wees.\"</p>\n\n    <p>\"As jy jou oë op hierdie belofte hou,<br>\n    Sal My lig jou pad lei.<br>\n    Die vrese en gevare wat jou omring,<br>\n    Sal dan op ’n afstand gehou word.\"</p>\n\n    <p>\"Hierdie belofte kan ook vir jou die geheime ontsluit<br>\n    Wat in die storm verborge is.<br>\n    Want My krag en mag word geopenbaar<br>\n    Wanneer hulle hulle aan My wil onderwerp.\"</p>\n\n    <p>\"Kyk dus lank na die reënboog, My kind.<br>\n    Dink na oor die boodskap wat dit bring.<br>\n    Hoewel alles rondom jou woedend en onstuimig is,<br>\n    Onthou die belofte waarvan dit sing.\"</p>\n\n    <p class=\"byline\">~deur Adrianna Fanton</p>\n  </div>\n</article>\n",
+    "section": "Gedig",
+    "subtitle": null,
+    "title": "Kyk na die reënboog"
+  }
+}

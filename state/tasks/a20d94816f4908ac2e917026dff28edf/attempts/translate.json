@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T18:16:36+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"5613aef3-79c5-42d4-9695-214e71989c22\\\">\\n  <blockquote>\\n    <p><em>Wir wissen aber, dass denen, die Gott lieben, alle Dinge<br>\\n    zum Guten dienen, denen, die nach seinem Ratschluss<br>\\n    berufen sind – Römer 8,28.</em></p>\\n  </blockquote>\\n\\n  <p>„Ich habe mir überlegt, dass wir nächste Woche, wenn die Schule ausfällt, einen Ausflug machen könnten“, sagte Arthur, während er seinen Hut an den Haken im Hauswirtschaftsraum hängte und sich zu seiner Frau umdrehte. „Was hältst du davon?“</p>\\n\\n  <p>Myrtle, die in der Küche gerade mit der Zubereitung des Abendessens beschäftigt war, sah lächelnd auf. „Das wäre toll. Ich hatte ähnliche Gedanken. Ich bin sicher, die Kinder würden sich auch über einen Urlaub freuen.“</p>\\n\\n  <p>„Warum planen wir dann nicht, nächsten Sonntag die Gemeinde von Bethel Fellowship zu besuchen?“, fuhr Arthur fort. „Würde dir das passen?“</p>\\n\\n  <p>„Ja, ich denke schon“, antwortete Myrtle. „Es ist wohl schon eine Weile her, seit wir eine andere Gemeinde besucht haben. Wann hast du vor, loszufahren?“</p>\\n\\n  <p>„Ich habe noch nichts Genaues geplant“, erwiderte Arthur, „aber ich dachte daran, am Donnerstag loszufahren und am Montag wieder nach Hause zu kommen.“</p>\\n\\n  <p>„Das klingt für mich gut“, antwortete Myrtle.</p>\\n\\n  <p>„Also gut“, sagte Arthur. „Ich werde Bruder Oscar Peight einen Brief schicken, damit sie wissen, dass wir kommen.“</p>\\n\\n  <p>Am darauffolgenden Donnerstag machte sich die Familie Coblentz auf den Weg nach Pennsylvania.</p>\\n\\n  <p>Viele Meilen vergingen ereignislos, während die Familie nach Norden fuhr. Als sie ihrem Ziel näher kamen, wurde Arthur plötzlich schlecht. Er fuhr ihren Kleinbus an den Straßenrand, damit er sich übergeben konnte. Geduldig wartete die Familie und fragte sich, was sie als Nächstes tun sollte.</p>\\n\\n  <p>„Meinst du, wir sollten weiterfahren?“, fragte Myrtle. Es würde noch eine Stunde dauern, bis sie bei Bruder Oscar ankamen.</p>\\n\\n  <p>„Ich weiß nicht, wie ich weiterfahren soll“, antwortete Arthur schwach. „Mir ist jetzt richtig schwindelig. Vielleicht solltest du jetzt das Fahren übernehmen“, sagte er zu Myrtle.</p>\\n\\n  <p>Bald hatten die beiden die Plätze getauscht. Schweren Herzens machte die Familie kehrt und fuhr wieder nach Hause. Für die ganze Familie war das schwierig, besonders für die Kinder. Sie hatten sich die ganze Woche auf diese Reise gefreut, und nun waren ihre Pläne zunichtegemacht.</p>\\n\\n  <p>Als sie zu Hause ankamen, hielt Myrtle am Briefkasten an, um ihre Post zu holen. Sie reichte Arthur die Post und fuhr dann ihre Zufahrt hinauf.</p>\\n\\n  <p>„Warum … Was ist das?“, stammelte Arthur, als er einen vertrauten Umschlag entdeckte. Er riss den Umschlag auf und konnte kaum glauben, was er sah. „Der Brief, den ich Bruder Oscar Peight geschickt habe!“ Warum war er bloß zurückgekommen? Ihm sank das Herz, als er den Umschlag umdrehte. „Ausgerechnet das habe ich vergessen: eine Briefmarke auf den Umschlag zu kleben!“, rief er aus. „Wie dumm von mir!“</p>\\n\\n  <p>An diesem Abend besprach die Familie beim Abendessen noch einmal, wie töricht es doch war, vergessen zu haben, eine Briefmarke in die Ecke des Umschlags zu kleben. „Und doch“, staunte Arthur, „hatte Gott all das so geplant. Wenn der Brief Bruder Oscar erreicht hätte, hätten sie sich auf uns vorbereitet. Aber so wussten sie nicht einmal, dass wir zu Besuch kommen würden.“</p>\\n\\n  <p>„Denen, die Gott lieben, dienen alle Dinge zum Guten“, antwortete Myrtle.</p>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/5613aef3-79c5-42d4-9695-214e71989c22-1.jpg\\\" alt=\\\"Ein ländlicher Briefkasten neben einer Zufahrt, die durch grüne Felder zu Wirtschaftsgebäuden führt\\\">\\n  </figure>\\n</article>\\n\",\"section\":\"KINDERECKE\",\"subtitle\":null,\"title\":\"Die vergessene Briefmarke\"}",
+    "content_bytes": 3948,
+    "content_evidence_truncated": false,
+    "content_sha256": "d8fe011cf9e46ff7c689b65d0201a691281010baa2cc71fab8a3832a40bd18d3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1223,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 148,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1838,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1835,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3061
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

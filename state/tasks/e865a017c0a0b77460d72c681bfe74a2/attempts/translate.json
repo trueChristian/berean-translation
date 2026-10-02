@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T18:16:37+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"d5891c2f-007d-4926-90e0-81c25cf67fbd\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd-1.jpg\\\" alt=\\\"Pelangi ganda melengkung di atas pepohonan gelap di bawah langit badai\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Badai itu gelap dan mengancam,<br>\\n    Awan-awan gelap bergulung di atas kepala.<br>\\n    Kilat menyambar di sekelilingku,<br>\\n    Ketakutan mencengkeram dan memenuhi diriku dengan kecemasan.</p>\\n\\n    <p>Guntur menggelegar membawa firasat buruk.<br>\\n    Hatiku terasa berat dan kelu.<br>\\n    Badai mengamuk di sekelilingku,<br>\\n    Gejolak di dalam diriku membuatku bungkam.</p>\\n\\n    <p>Bukan hanya bahaya di sekelilingku,<br>\\n    Bahaya di dalam diriku pun sama nyatanya.<br>\\n    Aku gemetar saat memandang masa depan,<br>\\n    Tak tahu harus mulai bagaimana selanjutnya.</p>\\n\\n    <p>Apa yang terbentang di balik kabut?<br>\\n    Angin bersiul di telingaku.<br>\\n    Mengajukan pertanyaan, membuat kakiku tersandung,<br>\\n    Dan membebaniku dengan ketakutan.</p>\\n\\n    <p>Badai ini telah menghapus semua tanda jalan,<br>\\n    Yang dahulu kukira dapat kulihat.<br>\\n    Kini, semua yang kukenal lenyap dari pandanganku,<br>\\n    Setiap langkah kutapaki dengan ragu-ragu.</p>\\n\\n    <p>Di ujung kemampuanku, aku berseru ketakutan...<br>\\n    \\\"Tuhan, datanglah kepadaku! Jangan berlambat-lambat, ya Rajaku!\\\"<br>\\n    Kesunyian terasa mencekam, aku merasa sendirian,<br>\\n    Hanya pada pengharapan aku berpegang.</p>\\n\\n    <p>Lalu suara yang lembut namun kuat berbicara di telingaku,<br>\\n    \\\"Anak-Ku yang berharga, pandanglah ke atas.\\\"<br>\\n    Mengapa permintaan seperti itu? Saat aku diliputi<br>\\n    Kabut yang tak kunjung tersibak.</p>\\n    <p>Masih dengan pengharapan, kuangkat mataku,<br>\\n    Gemetar melihat awan-awan gelap di sekelilingku.<br>\\n    Namun saat kupandang, kulihat sesuatu yang lebih,<br>\\n    Sebuah harta ditemukan di langit.</p>\\n\\n    <p>Di tengah awan-awan gelap yang mengancam,<br>\\n    Di sanalah! Sebuah celah cahaya!<br>\\n    Pelangi bersinar dengan warna yang begitu indah,<br>\\n    Sebuah suar di tengah malam yang gelap ini.</p>\\n\\n    <p>\\\"Anak-Ku, jangan takut, engkau tak pernah sendirian.<br>\\n    Tak sedetik pun Aku meninggalkan sisimu.<br>\\n    Meski jalan itu samar, dan banyak yang harus ditanggung,<br>\\n    Jangan ragu bahwa engkau dapat berlindung dalam-Ku.\\\"</p>\\n\\n    <p>\\\"Ya, untuk saat ini, engkau berjalan di tengah pencobaan,<br>\\n    Ketakutan mengancam dari dalam maupun luar.<br>\\n    Engkau bertanya-tanya dan mempertanyakan apa yang harus dilakukan selanjutnya,<br>\\n    Bahaya seolah menertawakan dan menantang.\\\"</p>\\n\\n    <p>\\\"Namun, di sini telah Kutempatkan pelangi-Ku,<br>\\n    Agar di tengah segala kegelapan dan ketakutan,<br>\\n    Engkau dapat melihat bahwa janji-Ku pasti.<br>\\n    Aku takkan pernah meninggalkanmu, tetapi selalu dekat.\\\"</p>\\n\\n    <p>\\\"Jika engkau terus memandang janji ini,<br>\\n    Cahaya-Ku akan menuntun jalanmu.<br>\\n    Ketakutan dan bahaya yang mengepungmu,<br>\\n    Akan tertahan.\\\"</p>\\n\\n    <p>\\\"Janji ini juga dapat menyingkapkan kepadamu,<br>\\n    Rahasia-rahasia yang tersembunyi di tengah badai.<br>\\n    Sebab kekuatan dan kuasa-Ku dinyatakan,<br>\\n    Ketika semua itu tunduk pada kehendak-Ku.\\\"</p>\\n\\n    <p>\\\"Maka, Anak-Ku, tataplah lama-lama pelangi itu.<br>\\n    Renungkan pesan yang dibawanya.<br>\\n    Meski segala sesuatu di sekelilingmu bergolak dan liar,<br>\\n    Ingatlah janji yang dinyanyikannya.\\\"</p>\\n\\n    <p class=\\\"byline\\\">~oleh Adrianna Fanton</p>\\n  </div>\\n</article>\\n\",\"section\":\"Puisi\",\"subtitle\":null,\"title\":\"Pandanglah Pelangi\"}",
+    "content_bytes": 3676,
+    "content_evidence_truncated": false,
+    "content_sha256": "de05c34c73b7014c518ff8b800101f44c66a23c5ff402f1456f2b39c02e3a489",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1199,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1913,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1910,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3112
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

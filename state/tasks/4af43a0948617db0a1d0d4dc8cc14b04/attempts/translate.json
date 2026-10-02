@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T18:16:36+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"99d9d2e9-2f6a-46ce-a06a-4635a4d484f9\\\">\\n  <div class=\\\"poem\\\">\\n    <p>Sentiamo parlare di tutte le bellezze della gloria<br>\\n    La Bibbia parla e racconta la sua storia.<br>\\n    Lassù c’è un luogo, senza fatica né lotta.<br>\\n    Eppure la chiesa può dimenticare quella vita,<br>\\n    Se la presenza di Dio risplende come il sole,<br>\\n    Il canto è così dolce e include tutti.<br>\\n    Se il cielo è reale, allora porrò una domanda.<br>\\n    Perché concentrarci tanto su una vita che non durerà?<br>\\n    Costruiamo qui sulla terra le nostre dimore,<br>\\n    Dobbiamo aver dimenticato quanto poco valgano.<br>\\n    Guardiamo le nostre cose e diciamo di essere benedetti,<br>\\n    Dimenticando che presto bruceranno insieme al resto.<br>\\n    I tesori hanno valore, su questo siamo d’accordo.<br>\\n    Ma accumuliamoli in cielo, dove resteranno per sempre.<br>\\n    Per amore del buon Signore, perderemmo la nostra vita?<br>\\n    Allora guadagneremmo l’eternità e prenderemmo parte al cielo.<br>\\n    Oppure ameremmo la nostra vita, mentre la Bibbia è chiara:<br>\\n    Perderemmo la nostra occasione di raggiungere il cielo tanto caro.<br>\\n    Se il cielo è reale, dobbiamo essere confusi,<br>\\n    Perché sembra che sia questa vita a divertirci.<br>\\n    Se il cielo ci attende e sappiamo che vi andremo,<br>\\n    Perché allora temiamo quando la morte ci colpisce?<br>\\n    Se la vita che ci attende è il cielo, l’eternità con Lui,<br>\\n    Allora la morte è l’inizio: perché è così cupa?<br>\\n    La nostra vita è solo un vapore, ci dice il Libro buono.<br>\\n    Ragioniamo con saggezza e cambiamo prospettiva.</p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Se il cielo è reale\"}",
+    "content_bytes": 1779,
+    "content_evidence_truncated": false,
+    "content_sha256": "5d70ffe0dea08a220a31d6e4f380537666da7944ade44ddb5ef80176ddedd353",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 671,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 126,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1369,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1366,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2040
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
