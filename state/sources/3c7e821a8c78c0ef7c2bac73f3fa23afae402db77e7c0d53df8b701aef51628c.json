@@ -1,0 +1,62 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Barry Grant"
+        }
+      ],
+      "raw": "–by Barry Grant"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "64012528-bcec-4189-96b5-32a226869815",
+    "images": [
+      {
+        "alt": "Silhouette of a person raising both hands against a warm sky",
+        "caption": null,
+        "credit": "Adobestock.com",
+        "public_path": "/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg",
+        "repository_path": "public/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg",
+        "rights_note": "The page-2 masthead credits Adobestock.com for printed page 7; no separate permission notice or license terms are stated. The clean embedded sRGB JPEG was copied byte-for-byte without transformation.",
+        "role": "poem background",
+        "sequence": 1,
+        "source_page": 7
+      }
+    ],
+    "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 3,
+    "series": null,
+    "source_pages": {
+      "end": 7,
+      "start": 7
+    },
+    "subtitle": null,
+    "title": "The Battle That Rages",
+    "topics": [
+      "4198e6fb-4793-5bd3-afc8-0b75b031cdfd",
+      "0df6eee6-8cd5-5bf6-a2e4-c440a3a2bccf"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "455a99805bfb3dd1240d5787f98814e77aa5745a6e19f31c6a9c49563f981d67",
+    "metadata_sha256": "aadb91364d9d41ddc0e6a9390f5dfcf8dff0083289d33937fbd7a03fa74410b8",
+    "structure_sha256": "0f8c7e013a9087f8c85af129be643413ac4d29faefa5a6199a8ee81eb66da5d9",
+    "text_sha256": "ea0e3daacfd5bd1ba2ff6da0cbff024fb11a69cb2a8c4b7cddd456c3af42d3b2",
+    "translation_metadata_sha256": "e12061dc2bde701c0ea33b4f1564a3bbb0acd94b80d601653998e1f7e2063f1d"
+  },
+  "html": "<article data-article-id=\"64012528-bcec-4189-96b5-32a226869815\">\n  <figure>\n    <img src=\"/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg\" alt=\"Silhouette of a person raising both hands against a warm sky\">\n  </figure>\n  <p class=\"poem\">There is coming a day when all will be well.<br>\n  The things that are bad will all be in hell.<br>\n  But we must not forget that day has not come.<br>\n  We are in a battle; we must still overcome.<br>\n  The enemy rages, his time here is short.<br>\n  He spreads all his lies, the truth to distort.<br>\n  Sin in our lives, it is his great goal.<br>\n  For he knows very well it will cost us our soul.<br>\n  It need not be big; a small sin will do.<br>\n  He’ll trick and deceive, each soul to pursue.<br>\n  The darts of the wicked come from all sides.<br>\n  When faced with God’s power, that devil—he hides!<br>\n  When God is with us, he cannot advance!<br>\n  When God is with us, sin has no chance!<br>\n  For the eyes of the Lord seek to and fro,<br>\n  To find one perfect, His power He’ll show!<br>\n  Let’s be done with the lesser and look far beyond.<br>\n  Let’s take hold of God’s power! It’s time to respond!</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+  "translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa"
+}
