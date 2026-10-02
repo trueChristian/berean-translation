@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4661abc5-b684-45ba-b23a-9eb2588642fe",
+    "response_id": "chatcmpl-EUSec3pSgg5TOSVi293pVE0faltVb",
+    "usage": {
+      "completion_tokens": 572,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7209,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7781
+    }
+  },
+  "received_at": "2026-10-02T08:41:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.title / translation.title",
+        "severity": "major",
+        "source_quote": "The Christian Humanist",
+        "suggested_fix": "Translate the article title into contemporary Urdu while preserving meaning and theology. For example: «عیسائی ہیومنسٹ». Replace the English title text in the translation with the Urdu title, preserving the same HTML element and attributes.",
+        "translation_quote": "The Christian Humanist"
+      },
+      {
+        "location": "source.section / translation.section",
+        "severity": "minor",
+        "source_quote": "MUSINGS OF A MISSIONARY",
+        "suggested_fix": "Translate the section/label into contemporary Urdu. For example: «ایک مبلغ کے خیالات» or «میشنری کے خیالات». Replace the English section string in the translation metadata with the chosen Urdu rendering.",
+        "translation_quote": "MUSINGS OF A MISSIONARY"
+      }
+    ],
+    "passed": false,
+    "score": 65
+  }
+}

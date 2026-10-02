@@ -2,7 +2,6 @@
   "article_id": "db7b1129-282d-4f48-aefa-f839cb585426",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "10d94b8ae8374aa1bcbb5aacc24d3d14",
   "campaign": "gh-36981712493",
   "created_at": "2026-10-02T08:02:17+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 7106
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1198,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6767,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7965
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html — paragraph containing Romans quotation (Romans 1:18-32)",
+      "severity": "major",
+      "source_quote": "so that they are without excuse: Because that, when they knew God, they glorified him not as God, neither were thankful; but became vain in their imaginations, and their foolish heart was darkened.",
+      "suggested_fix": "Перевести фразу так, чтобы передавалось значение «они не имеют оправдания / они без оправдания», а не «невинны». Например: «так что они не имеют оправдания: потому что, узнав Бога, они не прославили Его как Бога и не поблагодарили, но обратились в тщетные размышления, и помрачилось неразумное сердце их». Сохранить ссылку (Рим. 1:18–32) и структуру тега <p>.",
+      "translation_quote": "«так что они безвинны. Ибо, познав Бога, не прославили Его как Бога, и не поблагодарили...» (Рим. 1:18–32) — фраза «так что они безвинны» неправильно передаёт смысл оригинала."
+    },
+    {
+      "location": "source.html — paragraph: “So how can one be a humanist and believe in God?” (paragraph beginning “So how can one be a humanist and believe in God?”)",
+      "severity": "minor",
+      "source_quote": "He doesn’t believe in the true God but, in his mind, created a fictitious god that does not exist.",
+      "suggested_fix": "Исправить орфографическую ошибку «не верует» на нормативную форму «не верит». Например: «По сути, он не верит в истинного Бога, а в своём воображении создал вымышленного бога, которого нет.» Сохранить существующую разметку тега <p>.",
+      "translation_quote": "«По сути, он не верует в истинного Бога, а в своем уме создал вымышленного бога, которого нет.» (ошибочная форма «верует»)."
+    },
+    {
+      "location": "source.html — paragraph with greenhouse anecdote (first story)",
+      "severity": "minor",
+      "source_quote": "Some plant, some water, but God gives the increase.",
+      "suggested_fix": "Заменить «Некоторые посадили, полили, а возрастание дает Бог» на более естественную и понятную русскую фразу, передающую тот же смысл, например: «Кто-то посадил, кто-то полил, а Бог дает рост/урожай». Сохранить теги и порядок слов в абзаце.",
+      "translation_quote": "«Некоторые посадили, полили, а возрастание дает Бог» — передача смысла верна, но фраза звучит неестественно на русском."
     }
   ],
   "id": "d69add9b8361e20bd69159b96b311690",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/21c0a1ee01bf0c3d147452744dda149ef865e8661a303f2837c7de8616caade6.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

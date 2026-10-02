@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d5606621-33af-460e-acdf-bac96120367c",
+    "response_id": "chatcmpl-EUSdAl1VlvJK5g7hbd2kRci7DvCZ8",
+    "usage": {
+      "completion_tokens": 1059,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3058,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4117
+    }
+  },
+  "received_at": "2026-10-02T08:41:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> paragraph with phrase \"So, isn’t it better to “plan” for a bee sting and a stubbed toe?\"",
+        "severity": "major",
+        "source_quote": "So, isn’t it better to “plan” for a bee sting and a stubbed toe?",
+        "suggested_fix": "Translate the two idiomatic injuries accurately into Hindi. Preserve the rhetorical question. Example: “तो क्या बेहतर नहीं है कि हम किसी मधुमक्खी के डंक या पैर की अंगुली ठोक लेने की ‘योजना’ बना लें?” Ensure this replaces the current translated sentence but keep surrounding HTML tags and punctuation unchanged.",
+        "translation_quote": "तो क्या बेहतर नहीं है कि हम किसी तितली के काटने या उँगली ठोक लेने की “योजना” बनाएं?"
+      },
+      {
+        "location": "metadata: section field",
+        "severity": "minor",
+        "source_quote": "SISTER TO SISTER",
+        "suggested_fix": "Translate the section label into contemporary standard Hindi. For example: \"बहन से बहन\" or \"बहन से बहन के लिए\" (prefer \"बहन से बहन\"). Replace the untranslated English section string with the chosen Hindi string in the translation metadata.",
+        "translation_quote": "SISTER TO SISTER"
+      },
+      {
+        "location": "<figure> <img> alt attribute",
+        "severity": "minor",
+        "source_quote": "A cup of coffee beside a spiral notebook and pencil.",
+        "suggested_fix": "Use a more natural Hindi phrasing for “spiral notebook.” For example: “स्पाइरल-बाइंडिंग वाली नोटबुक और पेंसिल के पास एक कप कॉफी।” Replace the alt text value but keep the img tag and attributes unchanged.",
+        "translation_quote": "घुमावदार नोटबुक और पेंसिल के पास एक कप कॉफ़ी।"
+      },
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "Procrastination Overload",
+        "suggested_fix": "Consider using a fully Hindi title instead of English loanwords for better target-language idiom. Suggested replacement: \"टालमटोल का बोझ\" या \"टालमटोल अधिभार\". If retaining English loanwords is intentional, no change required. Update the translation title field accordingly.",
+        "translation_quote": "प्रोक्रास्टिनेशन ओवरलोड"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "fbd1630f-13f3-4d4a-b850-0504ec4c21ed",
+    "response_id": "chatcmpl-EUSdEsHMbWmafu9lfOmaMHOyUAK92",
+    "usage": {
+      "completion_tokens": 1871,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3009,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4880
+    }
+  },
+  "received_at": "2026-10-02T08:41:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<h2>Toothaches and Road Trips</h2>",
+        "severity": "major",
+        "source_quote": "Toothaches and Road Trips",
+        "suggested_fix": "Translate the heading as a clear, natural Kiswahili phrase. Example: <h2>Maumivu ya meno na safari</h2>",
+        "translation_quote": "<h2>Madoo ya Meno na Safari za Barabarani</h2>"
+      },
+      {
+        "location": "<p>It is a mystery to me why a family member ends up in a dentist chair a day or two before we leave on a trip.</p>",
+        "severity": "minor",
+        "source_quote": "It is a mystery to me why a family member ends up in a dentist chair a day or two before we leave on a trip.",
+        "suggested_fix": "Use a more natural Kiswahili phrasing for \"ends up in a dentist chair\" and keep register consistent. Example: \"Ni fumbo kwangu kwa nini mwanachama wa familia anamaliza akiwa kwenye kiti cha daktari wa meno siku moja au mbili kabla hatujaondoka kwenye safari.\"",
+        "translation_quote": "<p>Ni fumbo kwangu kwa nini mwanachama wa familia anafika katika kiti cha daktari wa meno siku moja au mbili kabla hatujaondoka kwenye safari.</p>"
+      },
+      {
+        "location": "Throughout article (paragraphs mentioning \"Interruptions\" and the plural elsewhere)",
+        "severity": "major",
+        "source_quote": "Interruptions are also a normal part of life. ... If we let too many tasks wait until the last minute, interruptions and deadlines collide, and chaos reigns.",
+        "suggested_fix": "Correct the mistranslation of \"interruptions\". Use \"kusumbuliwa/kuingilia\" or the plural noun \"kusumbuliwa\" or \"mizingiriko/kuingiliwa\" depending on context, or the noun \"vikatisho\". For example: \"Kuingiliwa pia ni sehemu ya kawaida ya maisha. ... tukiacha kazi nyingi zisubiri hadi dakika za mwisho, kuingiliwa na tarehe za mwisho hukutana, na vurugu zinatawala.\"",
+        "translation_quote": "<p>Mikatisho pia ni sehemu ya kawaida ya maisha. Huwapa kwa daima mabadiliko yasiyotabirika kwa siku na wiki zetu. Tukiruhusu kazi nyingi kusubiri hadi dakika za mwisho, mikatisho na tarehe za mwisho huzuriana, na vurugu zinaanza kutawala.</p>"
+      },
+      {
+        "location": "<p>So, isn’t it better to “plan” for a bee sting and a stubbed toe?</p>",
+        "severity": "minor",
+        "source_quote": "So, isn’t it better to “plan” for a bee sting and a stubbed toe?",
+        "suggested_fix": "The translation uses “miadi” for “plan” which is awkward here. Use a verb form or phrasing that conveys anticipating mishaps, e.g. \"Basi, si bora kupanga kukabiliana na kuumwa na sindano ya nyuki au kugonga kidole cha mguu?\"",
+        "translation_quote": "<p>Basi, si bora kupanga “miadi” ya kuumwa na sindano ya nyuki au kugonga mguu?</p>"
+      },
+      {
+        "location": "<p>Why not schedule window washing and dessert another day? ...</p>",
+        "severity": "minor",
+        "source_quote": "Why not schedule window washing and dessert another day?",
+        "suggested_fix": "Use a natural Kiswahili verb for \"schedule\" (e.g., \"pangia\" or \"panga\") instead of \"panga\" used appropriately; keep phrasing idiomatic: \"Kwa nini usipange kuosha madirisha na kutengeneza tamu siku nyingine?\"",
+        "translation_quote": "<p>Kwanini usipange kuosha madirisha na kutengeneza tamu siku nyingine?</p>"
+      },
+      {
+        "location": "<p>Deciding early in the day what to make for supper and packing the diaper bag in advance are little things...</p>",
+        "severity": "minor",
+        "source_quote": "Deciding early in the day what to make for supper and packing the diaper bag in advance are little things that can make a big difference at the last minute.",
+        "suggested_fix": "\"Packing the diaper bag\" is rendered as \"kufungasha mfuko wa watoto\" which is understandable but could be more idiomatic as \"kufungashia mfuko wa diaperu\" or \"kufungasha mfuko wa vifaa vya mtoto\". Suggested: \"kuamua mapema mchana nini cha kuandaa kwa chakula cha jioni na kufungashia mfuko wa vifaa vya mtoto mapema...\"",
+        "translation_quote": "<p>Kuamua mapema mchana nini cha kuandaa kwa chakula cha jioni na kufungasha mfuko wa watoto kwa wakati ni mambo madogo yanayoweza kufanya tofauti kubwa dakika za mwisho.</p>"
+      },
+      {
+        "location": "<p>When my planner says, “clean appliances, wipe out cupboards, and wash windows,” it seems more doable.</p>",
+        "severity": "major",
+        "source_quote": "When my planner says, “clean appliances, wipe out cupboards, and wash windows,” it seems more doable.",
+        "suggested_fix": "Correct the translation of \"wipe out cupboards\" which produced an incorrect phrase \"futa vyumba vya makabati\" (\"rooms of cupboards\"). Use \"futa ndani ya makabati\" or \"futa ndani ya rafu/makabati\". Keep the list structure: \"'safisha vifaa, futa ndani ya makabati, na osha madirisha.'\"",
+        "translation_quote": "<p>Lakini ikiwa mpangilio wangu unasema, “safisha vifaa, futa vyumba vya makabati, na osha madirisha,” inafaa kutekelezeka zaidi.</p>"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

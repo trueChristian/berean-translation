@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "05421d8c-af5f-4725-ab04-fbcb9fff0318",
+    "response_id": "chatcmpl-EUSf6Aoa28hdjvjsl3H9S8U04oAIk",
+    "usage": {
+      "completion_tokens": 1326,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6965,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8291
+    }
+  },
+  "received_at": "2026-10-02T08:41:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "blockquote (epitaph) in source.html (near top)",
+        "severity": "critical",
+        "source_quote": "John Newton, once an infidel and libertine, a servant of slaves in Africa, was, by the rich mercy of our Lord and Savior Jesus Christ, preserved, restored, pardoned, and appointed to preach the faith he had long labored to destroy!",
+        "suggested_fix": "Translate the entire epitaph into Korean and preserve the blockquote and emphasis tags exactly. For example: <blockquote><p><em>한때 불신자이자 방탕자였고 아프리카에서 노예를 부리는 자였던 존 뉴턴은 우리의 주 되시며 구세주이신 예수 그리스도의 풍성한 자비로 보존되고 회복되며 용서받아 오랫동안 멸하려 애썼던 그 믿음을 전하도록 부르심을 받았습니다!</em></p></blockquote>",
+        "translation_quote": "<em>John Newton, once an infidel and libertine, a servant of slaves in Africa, was, by the rich mercy of our Lord and Savior Jesus Christ, preserved, restored, pardoned, and appointed to preach the faith he had long labored to destroy!</em>"
+      },
+      {
+        "location": "multiple book/tune/work titles left in English within article body (source.html)",
+        "severity": "major",
+        "source_quote": "The Imitation of Christ; The Greyhound; Olney Hymns; Thoughts Upon the African Slave Trade; The Virginia Harmony; \"Loving Lambs\"; Olney hymns; (also instances of <em>The Imitation of Christ</em>, <em>Olney Hymns</em>, <em>Thoughts Upon the African Slave Trade</em>, <em>The Virginia Harmony</em>)",
+        "suggested_fix": "Translate or provide conventional Korean renderings for these titles (and keep emphasized/italic tags). Examples: <em>그리스도를 본받음 (토마스 아 켐피스)</em> for The Imitation of Christ; <em>그레이하운드호</em> for The Greyhound (선박명은 관례적 표기 허용); <em>올니 찬송가</em> for Olney Hymns; <em>아프리카 노예무역에 관한 생각들</em> for Thoughts Upon the African Slave Trade; <em>버지니아 하모니(The Virginia Harmony)</em> or <em>버지니아 하모니</em> for The Virginia Harmony; “Loving Lambs” should be translated as “사랑하는 어린 양들” (따옴표와 원문 표기는 선택적으로 병기). Preserve the original HTML tags (e.g., <em>...</em>) where present.",
+        "translation_quote": "Instances in translation remain in English, e.g., <em>The Imitation of Christ</em>; <em>The Greyhound</em>; <em>Olney Hymns</em>; <em>Thoughts Upon the African Slave Trade</em>; <em>The Virginia Harmony</em>; \"Loving Lambs\"."
+      },
+      {
+        "location": "phrase \"열여덟 세기\" (paragraph describing 'eighteenth century')",
+        "severity": "minor",
+        "source_quote": "one of the great evangelical preachers of the eighteenth century.",
+        "suggested_fix": "Use standard Korean numeral-based century wording: change \"열여덟 세기\" to \"18세기\" (or spelled out \"열여덟세기\" is less common). For example: \"18세기의 위대한 복음주의 설교자들 가운데 한 사람\".",
+        "translation_quote": "\"열여덟 세기의 위대한 복음주의 설교자들 가운데 한 사람이었던 이 남자\""
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

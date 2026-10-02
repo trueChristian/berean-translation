@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "03dd63f3-925b-40e6-ba24-b156e5d0d15b",
+    "response_id": "chatcmpl-EUSenGUkuNu3Rd025KVnWBVTupwwS",
+    "usage": {
+      "completion_tokens": 1640,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3393,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5033
+    }
+  },
+  "received_at": "2026-10-02T08:41:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning \"Sure enough, as the brothers hobbled back through the woods, they heard the long calling of their father...\"",
+        "severity": "major",
+        "source_quote": "\"Sure enough, as the brothers hobbled back through the woods, they heard the long calling of their father. Jamin called back, and he was by their side in a moment, seeing the ankle and scooping up Kenny like a hurt sheep.\"",
+        "suggested_fix": "Replace the corrupted phrase and make the sequence clear in Hebrew: e.g. \"כמובן, כשהאחים צעדו חבוטים חזרה דרך היער, הם שמעו את קריאתו הארוכה של אביהם. ג׳אמין קרא בחזרה, והאב היה לצדם תוך רגע, רואה את הקרסול ומרים את קני כמו כבשה פצועה.\" Preserve original meaning and sentence order.",
+        "translation_quote": "\"ועדתה, כפי שאחיהם צעדו חזרה דרך היער, שמעו את קריאה הארוכה של אביהם. ג׳אמין קרא בחזרה, והוא היה לצדם ברגע, רואה את הקרסול ומרים את קני כמו כבשה פצועה.\""
+      },
+      {
+        "location": "Paragraph with Kenny: \"If you support me, I can hobble along.\"",
+        "severity": "major",
+        "source_quote": "\"If you support me, I can hobble along.\"",
+        "suggested_fix": "Change the mistranslated verb \"אוכל לקלוע\" (which means 'I can weave/shoot') to an appropriate Hebrew verb for hobbling/limping, for example: \"אם תתמוך בי, אוכל ללכת בפיסוק/להתקדם בצעדים מצומצמים.\" A concise suggestion: \"אם תתמוך בי, אוכל לצעוד פצוע.\"",
+        "translation_quote": "\"כן. חושב שכן. אם תתמוך בי, אוכל לקלוע.\""
+      },
+      {
+        "location": "Paragraph: \"Dad and Mom disliked the proud talk... punished him whenever they walked in on one of his speeches.\"",
+        "severity": "minor",
+        "source_quote": "\"Dad and Mom disliked Kenny’s proud talk and punished him whenever they walked in on one of his speeches.\"",
+        "suggested_fix": "Fix missing connector/verb to clarify cause and effect and correct word order. Suggested Hebrew: \"אבא ואמא לא אהבו את הדיבור הגאוותני של קני, והענישו אותו בכל פעם שנתפסו שומעים אחד מנאומיו.\"",
+        "translation_quote": "\"אבא ואמא לא אהבו את הדיבור הגאוותני של קני העמידו לו עונש כל פעם שהתפסו אותו באחת מהנאומים שלו.\""
+      },
+      {
+        "location": "Paragraph: \"He went to the wash house and scrubbed his hands.\"",
+        "severity": "minor",
+        "source_quote": "\"Jamin went to the wash house and scrubbed his hands. He headed for the front door.\"",
+        "suggested_fix": "\"Wash house\" was rendered as \"מקלחת\" (shower), which changes the scene detail. Prefer a literal but natural rendering such as \"בית הכביסה\" or \"חדר הרחצה\" depending on regional idiom. Suggested: \"ג׳אמין הלך לבית הכביסה/לחדר הרחצה ושפשף את ידיו.\"",
+        "translation_quote": "\"ג׳אמין הלך למקלחת כדי לשטוף את ידיו. הוא פנה לדלת הקדמית.\""
+      }
+    ],
+    "passed": false,
+    "score": 68
+  }
+}

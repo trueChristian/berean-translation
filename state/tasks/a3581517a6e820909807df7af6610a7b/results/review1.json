@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "deb8b71e-f5dc-4037-b2da-4775475e2d0a",
+    "response_id": "chatcmpl-EUSdAFvT7J2X2CptroUPZkYiFP5Wj",
+    "usage": {
+      "completion_tokens": 1128,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12409,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13537
+    }
+  },
+  "received_at": "2026-10-02T08:41:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html — first paragraph (article-note)",
+        "severity": "major",
+        "source_quote": "After printing all six articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet.",
+        "suggested_fix": "Translate the magazine title into Russian (preserve the surrounding HTML tags and emphasis). For example: Replace \"</em>The Heartbeat of the Remnant<em>\" with \"</em>Журнал «The Heartbeat of the Remnant»<em>\" or fully translated: \"</em>«Пульс Оставшейся Церкви»<em>\" depending on editorial policy. Ensure the tag order and emphasis (<em>...</em>) remain exactly as in the source HTML.",
+        "translation_quote": "После опубликования всех шести статей в </em>The Heartbeat of the Remnant<em> мы выпустим их в брошюре."
+      },
+      {
+        "location": "translation.html — Genesis quote (Бытие 2:22-23 paragraph)",
+        "severity": "major",
+        "source_quote": "And Adam said, This is now bone of my bones, and flesh of my flesh: she shall be called Woman, because she was taken out of Man.",
+        "suggested_fix": "Restore the original referent correctly in Russian: translate \"Man\" here as the generic/historical \"человек/Адам\", not as \"муж/супруг\". For example: change \"потому что взята от мужа\" to \"потому что взята от мужа (Адама)\" or better: \"потому что взята от Адама\" or \"потому что взята от человека (Адама)\". Keep the verse reference and surrounding HTML unchanged.",
+        "translation_quote": "И сказал Адам: вот теперь кость от костей моих и плоть от плоти моей: она наречется Женой, потому что взята от мужа"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

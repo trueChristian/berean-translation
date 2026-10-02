@@ -2,7 +2,6 @@
   "article_id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "10d94b8ae8374aa1bcbb5aacc24d3d14",
   "campaign": "gh-36981712493",
   "created_at": "2026-10-02T08:02:17+00:00",
   "events": [
@@ -24,6 +23,41 @@
         },
         "total_tokens": 7979
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1071,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7257,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8328
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<p>...This hymn is estimated to be performed 10 million times annually. It has appeared on over 11,000 albums and translated into about 60 languages.</p>",
+      "severity": "major",
+      "source_quote": "It has appeared on over 11,000 albums",
+      "suggested_fix": "Correct the numeric magnitude in the Urdu translation to match the English source: replace \"ایک ہزار سے زائد البمز\" with \"گیارہ ہزار سے زائد البمز\" (or \"11,000+ البمز\") so the figure equals the source's \"over 11,000 albums.\" Preserve the surrounding Urdu sentence structure.",
+      "translation_quote": "یہ ایک ہزار سے زائد البمز پر شائع ہوا ہے اور تقریباً 60 زبانوں میں ترجمہ کیا گیا ہے۔"
+    },
+    {
+      "location": "<p>...In 1910, Edwin O. Excell added the last verse, which eventually replaced the last three original verses of the song.</p>",
+      "severity": "minor",
+      "source_quote": "Edwin O. Excell",
+      "suggested_fix": "Use a more standard Urdu transliteration of the name to match common references. Suggested change: replace \"ایڈون او۔ ایکسل\" with \"ایڈوِن او۔ ایکسل\" or \"ایڈون او۔ ایکسل (Edwin O. Excell)\" — keep the Latin-script name in parentheses only if the site style prefers it. Do not alter the fact that he added the verse in 1910.",
+      "translation_quote": "1910 میں، ایڈون او۔ ایکسل نے آخری بند شامل کیا، جس نے آخر کار گانے کے اصل تین آخری بندوں کی جگہ لے لی۔"
     }
   ],
   "id": "0034c7f03bbb8216fb7afd456a80d056",
@@ -69,11 +103,13 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3d35b8ecb8588b577294153c640355e7c22d4cbaa8d848483b220de12a351788.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

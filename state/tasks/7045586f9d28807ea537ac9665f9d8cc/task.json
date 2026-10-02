@@ -2,7 +2,6 @@
   "article_id": "80e78d22-936e-48de-885a-f9a8898d5e42",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "10d94b8ae8374aa1bcbb5aacc24d3d14",
   "campaign": "gh-36981712493",
   "created_at": "2026-10-02T08:02:17+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 12374
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1147,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12023,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13170
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html — first paragraph (article-note)",
+      "severity": "major",
+      "source_quote": "After printing all six articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet.",
+      "suggested_fix": "Translate the magazine title and surrounding English phrase into Portuguese (or at least put the whole phrase into Portuguese). Preserve the HTML emphasis tags exactly. Example replacement (preserving tags): Antes de imprimir os seis artigos em </em>O Pulsar do Remanescente<em>, publicaremos-nos em um livreto.",
+      "translation_quote": "Depois de imprimir todos os seis artigos em </em>The Heartbeat of the Remnant<em>, publicaremos eles em um livreto."
+    },
+    {
+      "location": "source.section metadata",
+      "severity": "major",
+      "source_quote": "INSPIRATIONS FOR YOUTH",
+      "suggested_fix": "Translate the section metadata into Portuguese using the same capitalization style used elsewhere in the translation. For example: \"INSPIRAÇÕES PARA JOVENS\" (or \"Inspirações para Jovens\" if sentence-style capitalization is preferred). Update the translation field source.section to the Portuguese text.",
+      "translation_quote": "INSPIRATIONS FOR YOUTH"
+    },
+    {
+      "location": "source.html — paragraph near end of section “7) A godly marriage.” (paragraph about practicing to love mother)",
+      "severity": "minor",
+      "source_quote": "Do you want to practice to love your future wife? Go ahead and love your mom.",
+      "suggested_fix": "Fix the mistranslation/typo. Replace the Portuguese word \"Amanhem\" with the correct verb \"Amem\" and keep sentence structure consistent. Example replacement: \"Querem praticar para amar a futura esposa? Amem a mãe.\"",
+      "translation_quote": "Querem praticar para amar a futura esposa? Amanhem a mãe."
+    },
+    {
+      "location": "source.html — article-note sentence grammar",
+      "severity": "minor",
+      "source_quote": "After printing all six articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet. This is the first article of six.",
+      "suggested_fix": "Correct Portuguese grammar while preserving existing HTML tags. Replace \"publicaremos eles\" with the grammatically correct \"publicaremos-no(s)\" (match gender/number and style). Because the source uses plural \"seis artigos\", use \"publicaremos-os\". Preserve emphasis tags. Example: \"Depois de imprimir todos os seis artigos em </em>O Pulsar do Remanescente<em>, publicaremos-os em um livreto.\"",
+      "translation_quote": "Depois de imprimir todos os seis artigos em </em>The Heartbeat of the Remnant<em>, publicaremos eles em um livreto."
     }
   ],
   "id": "7045586f9d28807ea537ac9665f9d8cc",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 80,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/7ffc04d7ac224ba55b0f77a841d09ea5de15bf9375508e3f183bd856843bbb61.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

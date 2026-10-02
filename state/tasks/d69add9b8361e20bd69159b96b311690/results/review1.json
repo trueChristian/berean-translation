@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "acda6835-ea5d-452a-ae3b-cd676b2223f4",
+    "response_id": "chatcmpl-EUSetyKt7MwT5lRy7JehLSjcfBBK6",
+    "usage": {
+      "completion_tokens": 1198,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6767,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7965
+    }
+  },
+  "received_at": "2026-10-02T08:41:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph containing Romans quotation (Romans 1:18-32)",
+        "severity": "major",
+        "source_quote": "so that they are without excuse: Because that, when they knew God, they glorified him not as God, neither were thankful; but became vain in their imaginations, and their foolish heart was darkened.",
+        "suggested_fix": "Перевести фразу так, чтобы передавалось значение «они не имеют оправдания / они без оправдания», а не «невинны». Например: «так что они не имеют оправдания: потому что, узнав Бога, они не прославили Его как Бога и не поблагодарили, но обратились в тщетные размышления, и помрачилось неразумное сердце их». Сохранить ссылку (Рим. 1:18–32) и структуру тега <p>.",
+        "translation_quote": "«так что они безвинны. Ибо, познав Бога, не прославили Его как Бога, и не поблагодарили...» (Рим. 1:18–32) — фраза «так что они безвинны» неправильно передаёт смысл оригинала."
+      },
+      {
+        "location": "source.html — paragraph: “So how can one be a humanist and believe in God?” (paragraph beginning “So how can one be a humanist and believe in God?”)",
+        "severity": "minor",
+        "source_quote": "He doesn’t believe in the true God but, in his mind, created a fictitious god that does not exist.",
+        "suggested_fix": "Исправить орфографическую ошибку «не верует» на нормативную форму «не верит». Например: «По сути, он не верит в истинного Бога, а в своём воображении создал вымышленного бога, которого нет.» Сохранить существующую разметку тега <p>.",
+        "translation_quote": "«По сути, он не верует в истинного Бога, а в своем уме создал вымышленного бога, которого нет.» (ошибочная форма «верует»)."
+      },
+      {
+        "location": "source.html — paragraph with greenhouse anecdote (first story)",
+        "severity": "minor",
+        "source_quote": "Some plant, some water, but God gives the increase.",
+        "suggested_fix": "Заменить «Некоторые посадили, полили, а возрастание дает Бог» на более естественную и понятную русскую фразу, передающую тот же смысл, например: «Кто-то посадил, кто-то полил, а Бог дает рост/урожай». Сохранить теги и порядок слов в абзаце.",
+        "translation_quote": "«Некоторые посадили, полили, а возрастание дает Бог» — передача смысла верна, но фраза звучит неестественно на русском."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

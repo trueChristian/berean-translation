@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a7a21e3e-7c6a-4edc-8d33-facecb6a550e",
+    "response_id": "chatcmpl-EUSdigojbBgD5raStkAH2UBu1VLTi",
+    "usage": {
+      "completion_tokens": 687,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12532,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13219
+    }
+  },
+  "received_at": "2026-10-02T08:41:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.section / translation.section",
+        "severity": "minor",
+        "source_quote": "INSPIRATIONS FOR YOUTH",
+        "suggested_fix": "Translate the section metadata into Italian. Replace the translation section value with a natural Italian equivalent, for example: \"ISPIRAZIONI PER I GIOVANI\" (or another idiomatic rendering chosen by the publisher).",
+        "translation_quote": "INSPIRATIONS FOR YOUTH"
+      }
+    ],
+    "passed": true,
+    "score": 95
+  }
+}

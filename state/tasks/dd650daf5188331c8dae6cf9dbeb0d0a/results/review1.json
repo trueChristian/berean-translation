@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "73b0cac7-19dd-4217-833f-051d3a72cae9",
+    "response_id": "chatcmpl-EUSf2pbHnooB6eC0IyPcJ5fRy53HH",
+    "usage": {
+      "completion_tokens": 1337,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9142,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10479
+    }
+  },
+  "received_at": "2026-10-02T08:41:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph quoting Ecclesiastes 4:13 (near header \"Цинизм в Библии\")",
+        "severity": "major",
+        "source_quote": "“Better is a poor and a wise child than an old and foolish king, who will no more be admonished. For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor” (Ecclesiastes 4:13).",
+        "suggested_fix": "Translate the quoted verse faithfully into Russian preserving the meaning and verse reference. A correct, idiomatic rendering would be: «Лучше бедный и мудрый сын, нежели старый и глупый царь, который уже не будет наставлен; ибо он выходит из темницы на царствование, а тот, кто родился в его царстве, станет бедным» (Екклесиаст 4:13). Replace the existing sentence with this version, keeping the verse number unchanged and preserving the same HTML structure and tags.",
+        "translation_quote": "«Лучшее от двух худо — бедный и разумный сын, нежели старый и неразумный царь, который уже не будет наставлен; ибо он из темницы выйдет на царствование, а тот, кто рожден в царстве его, сделается бедным» (Екклесиаст 4:13)."
+      },
+      {
+        "location": "Paragraph quoting 2 Timothy 4:3 (near header \"Цинизм в Библии\")",
+        "severity": "minor",
+        "source_quote": "“For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears;” (2 Timothy 4:3).",
+        "suggested_fix": "Fix a small typographical error in the Russian translation: change «Ибость настанет время, когда... » to the correct conjunction «Ибо настанет время, когда...». Keep the rest of the translated verse as is and retain the verse reference (2 Тимофею 4:3).",
+        "translation_quote": "«Ибость настанет время, когда здравого учения не стерпят, но по своим похотям соберут себе учителей, почесывающих уши» (2 Тимофею 4:3)."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

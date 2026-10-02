@@ -2,7 +2,6 @@
   "article_id": "1c75dce8-1781-427f-8099-01596d53c2a4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "10d94b8ae8374aa1bcbb5aacc24d3d14",
   "campaign": "gh-36981712493",
   "created_at": "2026-10-02T08:02:17+00:00",
   "events": [
@@ -24,6 +23,69 @@
         },
         "total_tokens": 7114
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1638,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6837,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8475
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "title",
+      "severity": "critical",
+      "source_quote": "ALL NATURE SINGS",
+      "suggested_fix": "Translate the English title into standard contemporary Swedish, preserving the author’s intent and theology. For example: \"ALLA NATUREN SJUNGER\" (or another idiomatic Swedish rendering that preserves the emphatic all-caps style if required by the site).",
+      "translation_quote": "ALL NATURE SINGS"
+    },
+    {
+      "location": "subtitle",
+      "severity": "critical",
+      "source_quote": "and ‘round me rings the music of the spheres.",
+      "suggested_fix": "Translate the subtitle into Swedish. Preserve the poetic sense of surrounding music. For example: \"och kring mig klingar sfärernas musik.\"",
+      "translation_quote": "and ‘round me rings the music of the spheres."
+    },
+    {
+      "location": "paragraph: \"Kristi brunn är en konstsprängd källa.\" (around John 4:14 and following paragraph)",
+      "severity": "major",
+      "source_quote": "The well of Christ is an artesian well.",
+      "suggested_fix": "Correct the mistranslation to a standard Swedish term. Use \"Kristi brunn är en artesisk brunn\" or \"Kristi brunn är en artesisk källa.\" Keep subsequent theological nuance (Spirit/joy) intact.",
+      "translation_quote": "Kristi brunn är en konstsprängd källa."
+    },
+    {
+      "location": "John 4:14 quotation",
+      "severity": "major",
+      "source_quote": "\"But the water that I shall give him shall be in him a well of water springing up into everlasting life\" (John 4:14).",
+      "suggested_fix": "Render the quoted Scripture naturally and accurately in Swedish, preserving verse reference unchanged. For example: \"Men det vatten jag ger honom skall i honom bli en brunn med vatten som porlar fram till evigt liv\" (Joh 4:14). Replace the current incorrect phrase.",
+      "translation_quote": "”Men den vatten jag skall ge honom ska bli i honom en brunn med vatten som väljer upp till evigt liv” (Joh 4:14)."
+    },
+    {
+      "location": "paragraph: \"Vandra nära en svalor bo\" (paragraph about swallows)",
+      "severity": "minor",
+      "source_quote": "Wander near the nest of a swallow and you will find that they have ways of expressing depreciation as well.",
+      "suggested_fix": "Fix Swedish grammar and agreement. Use: \"Vandra nära en svala's bo\" is incorrect; prefer: \"Vandra nära en svalas bo\" or better: \"Vandra nära en svalas bo, och du får se att de också har sätt att uttrycka ogillande.\"",
+      "translation_quote": "Vandra nära en svalor bo och du finner att de också har sätt att uttrycka ogillande."
+    },
+    {
+      "location": "paragraph: \"Christusinspirerad\" (paragraph about wellspring and song)",
+      "severity": "minor",
+      "source_quote": "What is a more apt outpouring to flow from a Christ-inspired wellspring than the rapture of a song?",
+      "suggested_fix": "Adjust to standard Swedish compound/spacing and orthography. Use \"Kristus‑inspirerad\" or \"Kristusinspirerad\" (no capital C in mid-sentence usually), for example: \"Vad är en mer lämplig utgjutelse att flöda från en Kristusinspirerad källa än extasen av en sång?\"",
+      "translation_quote": "Vad är en mer lämplig utgjutelse att flöda från en Christusinspirerad källa än extasen av en sång?"
     }
   ],
   "id": "280f0064204682cf0862003efadaf701",
@@ -69,11 +131,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/2581e86d93ab0c8b5c0ff1e401391960004d29e0bde4df2917ba5463742331cd.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

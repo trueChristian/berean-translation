@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "35fd7cf6-d661-4687-9ece-99882d6c0b07",
+    "response_id": "chatcmpl-EUSdAfVccNtl0ioTk0ztg7EbERUcS",
+    "usage": {
+      "completion_tokens": 1214,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6752,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7966
+    }
+  },
+  "received_at": "2026-10-02T08:41:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...My brother responded with, “Some plant, some water, but God gives the increase.”</p>",
+        "severity": "minor",
+        "source_quote": "“Some plant, some water, but God gives the increase.”",
+        "suggested_fix": "Render the idiom so the agent (people) is preserved rather than translating plant as a noun. For example: « Certains plantent, d'autres arrosent, mais c'est Dieu qui donne l'accroissement. » This keeps the original sense that people plant and water, while God gives the increase.",
+        "translation_quote": "« Quelques plantes, un peu d'eau, mais c'est Dieu qui donne l'accroissement. »"
+      },
+      {
+        "location": "<p>...The customer responded with, “No, no, don’t give the credit to God. You came out here and did all this work. You planted, watered, and fertilized all these plants, and you all deserve the credit, not God!”</p>",
+        "severity": "minor",
+        "source_quote": "“No, no, don’t give the credit to God. You came out here and did all this work. You planted, watered, and fertilized all these plants, and you all deserve the credit, not God!”",
+        "suggested_fix": "Improve fluency and clarity while preserving meaning. Suggested French: « Non, non, ne donnez pas le mérite à Dieu. Vous êtes venu ici et vous avez fait tout ce travail. Vous avez planté, arrosé et fertilisé toutes ces plantes, et c'est vous qui méritez le crédit, pas Dieu ! » This corrects 'sorti' to 'venu' and avoids the awkward repetition 'mérite le mérite'.",
+        "translation_quote": "« Non, non, ne donnez pas le mérite à Dieu. Vous êtes sorti ici et avez fait tout ce travail. Vous avez planté, arrosé et fertilisé toutes ces plantes, et c'est vous qui méritez le mérite, pas Dieu ! »"
+      },
+      {
+        "location": "<p class=\"drop-cap\">...My brother was working in the greenhouse when a customer walked in and marveled...</p>",
+        "severity": "minor",
+        "source_quote": "a customer walked in",
+        "suggested_fix": "Use idiomatic French for 'walked in' (arrived/entered). For example: « lorsqu'un client est entré » is correct; if gender/number agreement is needed elsewhere, ensure verb forms agree. (The current translation already uses « est entré », but another occurrence uses 'êtes sorti' in the quoted reply; see previous finding.)",
+        "translation_quote": "« ...lorsqu'un client est entré et s'est émerveillé... »"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "10d94b8ae8374aa1bcbb5aacc24d3d14",
   "campaign": "gh-36981712493",
   "created_at": "2026-10-02T08:02:17+00:00",
   "events": [
@@ -24,6 +23,76 @@
         },
         "total_tokens": 2421
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1864,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 960,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1762,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3626
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> — stanza 1, line 2",
+      "severity": "major",
+      "source_quote": "Rejoice and sing!",
+      "suggested_fix": "Replace \"Χαίροι και ψάλλετε!\" with \"Χαρείτε και ψάλλετε!\"",
+      "translation_quote": "Χαίροι και ψάλλετε!"
+    },
+    {
+      "location": "<div class=\"poem\"> — stanza 1, line 6",
+      "severity": "minor",
+      "source_quote": "Give thanks and laud, for more is here!",
+      "suggested_fix": "Replace \"Ευχαριστείτε και ύμνη, διότι περισσότερα είναι εδώ!\" with a fluent rendering such as \"Ευχαριστείτε και ύμνηστε, γιατί κι άλλα είναι εδώ!\" or \"Ευχαριστείτε και υμνήστε, γιατί κάτι περισσότερο έχει έρθει!\" (choose one that matches tone)",
+      "translation_quote": "Ευχαριστείτε και ύμνη, διότι περισσότερα είναι εδώ!"
+    },
+    {
+      "location": "<div class=\"poem\"> — stanza 2, line 4",
+      "severity": "minor",
+      "source_quote": "And showers blessings from above,",
+      "suggested_fix": "Consider replacing \"Και ξεχειλίζει ευλογίες από πάνω,\" with a more idiomatic phrase such as \"Και ρίπτει/χειμάζει ευλογίες από ψηλά,\" or \"Και χύνει ευλογίες από ψηλά,\" to avoid the awkward literalism of \"ξεχειλίζει\" here.",
+      "translation_quote": "Και ξεχειλίζει ευλογίες από πάνω,"
+    },
+    {
+      "location": "<div class=\"poem\"> — stanza 3, line 2",
+      "severity": "minor",
+      "source_quote": "And worship Him with reverent praise;",
+      "suggested_fix": "Replace \"Και προσκυνήστε Τον με σεβαστική ύμνο·\" with grammatically correct phrasing such as \"Και προσκυνήστε Τον με σεβαστικό ύμνο·\" or better \"Και προσκυνήστε Τον με σεβαστική λατρεία;\"",
+      "translation_quote": "Και προσκυνήστε Τον με σεβαστική ύμνο·"
+    },
+    {
+      "location": "<div class=\"poem\"> — stanza 3, line 3",
+      "severity": "minor",
+      "source_quote": "Bow down in awful, holy fear-",
+      "suggested_fix": "Replace \"Υποκλιθείτε με δέος και αγιασμένο φόβο—\" with a more natural theological phrase such as \"Υποκλιθείτε με δέος και ιερό φόβο—\"",
+      "translation_quote": "Υποκλιθείτε με δέος και αγιασμένο φόβο—"
+    },
+    {
+      "location": "<div class=\"poem\"> — stanza 3, line 5",
+      "severity": "minor",
+      "source_quote": "In wondrous beauty bend the knee;",
+      "suggested_fix": "Replace \"Σε θαυμαστή ομορφιά λυγίστε τα γόνατα;\" with a more idiomatic poetic rendering such as \"Σε θαυμαστή ομορφιά λυγώστε το γόνατο,\" or \"Σε θαυμαστή ομορφιά λυγίστε το γόνατο·\" (adjust punctuation to match stanza rhythm)",
+      "translation_quote": "Σε θαυμαστή ομορφιά λυγίστε τα γόνατα;"
+    },
+    {
+      "location": "<figure> — img alt attribute",
+      "severity": "minor",
+      "source_quote": "A small boat at the edge of calm water during a vivid sunset",
+      "suggested_fix": "Alt text is acceptable but you may prefer the more natural phrasing: replace \"Μικρό σκάφος στην άκρη ήρεμων νερών κατά την ώρα ενός έντονου ηλιοβασιλέματος\" with \"Μικρό σκάφος στην άκρη ήρεμων νερών κατά ένα εντυπωσιακό ηλιοβασίλεμα\"",
+      "translation_quote": "Μικρό σκάφος στην άκρη ήρεμων νερών κατά την ώρα ενός έντονου ηλιοβασιλέματος"
     }
   ],
   "id": "ee3e7f707eea4259ba8406586f37682d",
@@ -69,11 +138,13 @@
     }
   },
   "protected": false,
+  "quality_score": 86,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f31142ca692035934441060c7b7cb2d5d8adc75dd85fa0b4c885bd3969b8a91a.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

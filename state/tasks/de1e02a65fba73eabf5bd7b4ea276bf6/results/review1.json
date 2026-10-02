@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "579009f2-3f90-4091-af28-911831670b33",
+    "response_id": "chatcmpl-EUSdfb7DHxg6UvhzIoA6iKlww9kM1",
+    "usage": {
+      "completion_tokens": 1623,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6710,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8333
+    }
+  },
+  "received_at": "2026-10-02T08:41:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.subtitle",
+        "severity": "critical",
+        "source_quote": "and ‘round me rings the music of the spheres.",
+        "suggested_fix": "Перевести субтитр на русский и вставить вместо английского текста, сохраняя тег/поле. Например: «и вокруг меня звучит музыка сфер.» (или иная согласованная редакционная формулировка на русском).",
+        "translation_quote": "and ‘round me rings the music of the spheres."
+      },
+      {
+        "location": "first paragraph (lead) — beginning of article.html",
+        "severity": "major",
+        "source_quote": "Little children in the fresh innocence of their unsoiled morning top the ranks as a bit of heaven on earth and call all observers heavenward.",
+        "suggested_fix": "Исправить неверную передачу «неопрятного утра». Сохранить авторский смысл «unsoiled morning» = «неиспорченное/неосквернённое утро». Например: «Маленькие дети в свежей невинности своего неиспорченного утра…»",
+        "translation_quote": "Маленькие дети в свежей невинности своего неопрятного утра стоят во главе как кусочек рая на земле..."
+      },
+      {
+        "location": "paragraph about killdeer (third visible content paragraph after figure) — species name",
+        "severity": "major",
+        "source_quote": "The killdeer also has no qualms with expressing rash disfavor to those who intrude their domain, but these are not to be mistaken as songs.",
+        "suggested_fix": "Устранить неверную идентификацию вида. «Killdeer» — вид американской птицы, обычно переводится как «чайка-полевка/killdeer» или оставляется как «килдир»; не следует использовать «королёк-подорожник», это другое семейство. Предложение на русском должно именовать птицу понятным русскоязычному читателю образом (например «килдир (killdeer)» или «птица килдир»).",
+        "translation_quote": "Птица-убийца (killdeer) также без колебаний выражает резкое недовольство тем, кто вторгается в её владения..."
+      },
+      {
+        "location": "final content paragraph (near the end) — wording error",
+        "severity": "minor",
+        "source_quote": "singing and making melody in your heart to the Lord” (Eph 5:19).",
+        "suggested_fix": "Исправить опечатку/слово в русском переводе «в хвалі» → «в хвале» или переформулировать естественно: «поёте с благодарением в сердцах ваших Господу». Сохранить ссылку (Еф. 5:19).",
+        "translation_quote": "Когда мы открываем уста и тянем наши голоса в хвалі, мы исполняем благодать Божью."
+      },
+      {
+        "location": "several places — inclusion of English species/common names in parentheses",
+        "severity": "minor",
+        "source_quote": "The killdeer ... The canary ... the nightingale ...",
+        "suggested_fix": "По возможности переводить общеупотребительные названия птиц на русский или дать общепринятые русские эквиваленты; если решено сохранить оригинальное английское имя в скобках, это допустимо, но не должно оставлять английский как основной. Пример правки: «килдир (killdeer)» или «килдир»; «канарейка», «соловей» и т.д. Проверить согласованность по всему тексту.",
+        "translation_quote": "Птица-убийца (killdeer) ... Канарейка ... соловей ..."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "db7b1129-282d-4f48-aefa-f839cb585426",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "10d94b8ae8374aa1bcbb5aacc24d3d14",
   "campaign": "gh-36981712493",
   "created_at": "2026-10-02T08:02:17+00:00",
   "events": [
@@ -24,6 +23,41 @@
         },
         "total_tokens": 7611
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 572,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7209,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7781
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.title / translation.title",
+      "severity": "major",
+      "source_quote": "The Christian Humanist",
+      "suggested_fix": "Translate the article title into contemporary Urdu while preserving meaning and theology. For example: «عیسائی ہیومنسٹ». Replace the English title text in the translation with the Urdu title, preserving the same HTML element and attributes.",
+      "translation_quote": "The Christian Humanist"
+    },
+    {
+      "location": "source.section / translation.section",
+      "severity": "minor",
+      "source_quote": "MUSINGS OF A MISSIONARY",
+      "suggested_fix": "Translate the section/label into contemporary Urdu. For example: «ایک مبلغ کے خیالات» or «میشنری کے خیالات». Replace the English section string in the translation metadata with the chosen Urdu rendering.",
+      "translation_quote": "MUSINGS OF A MISSIONARY"
     }
   ],
   "id": "b780476ab434b7e86dcddb0598f7f588",
@@ -69,11 +103,13 @@
     }
   },
   "protected": false,
+  "quality_score": 65,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/21c0a1ee01bf0c3d147452744dda149ef865e8661a303f2837c7de8616caade6.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

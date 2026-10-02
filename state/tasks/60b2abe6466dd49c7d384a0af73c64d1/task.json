@@ -2,7 +2,6 @@
   "article_id": "80e78d22-936e-48de-885a-f9a8898d5e42",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "10d94b8ae8374aa1bcbb5aacc24d3d14",
   "campaign": "gh-36981712493",
   "created_at": "2026-10-02T08:02:17+00:00",
   "events": [
@@ -24,6 +23,41 @@
         },
         "total_tokens": 13053
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1130,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12585,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13715
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html — opening article-note paragraph",
+      "severity": "critical",
+      "source_quote": "<p class=\"article-note\"><em>A Christ-centered Courtship is a series of messages on godly courtship preached by Paul Hershberger. He preached these messages several times at different locations over the last ten years. Recently, we had them transcribed and abridged for reading clarity. After printing all six articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet. This is the first article of six.</em></p>",
+      "suggested_fix": "Translate the entire article-note paragraph into Swedish, preserving the HTML tags exactly. Suggested Swedish rendering (keep the surrounding <p class=\"article-note\"><em> ... </em></p>):\n<p class=\"article-note\"><em>En Kristuscentrerad förlovning är en serie predikningar om gudsfruktig förlovning av Paul Hershberger. Han predikade dessa budskap flera gånger på olika platser under de senaste tio åren. Nyligen lät vi dem transkriberas och förkorta dem för läsbarhet. Efter att ha tryckt alla sex artiklar i </em>The Heartbeat of the Remnant<em> kommer vi att ge ut dem i en broschyr. Detta är den första av sex artiklar.</em></p>\nNote: preserve the exact HTML tags, attributes and nesting; only change the inner English text to Swedish. The publication title The Heartbeat of the Remnant may remain in English if it is a proper title, but it must remain inside the same tag structure.",
+      "translation_quote": "<p class=\"article-note\"><em>A Christ-centered Courtship is a series of messages on godly courtship preached by Paul Hershberger. He preached these messages several times at different locations over the last ten years. Recently, we had them transcribed and abridged for reading clarity. After printing all six articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet. This is the first article of six.</em></p>"
+    },
+    {
+      "location": "source.section metadata",
+      "severity": "critical",
+      "source_quote": "INSPIRATIONS FOR YOUTH",
+      "suggested_fix": "Translate the section metadata into standard contemporary Swedish. Suggested translation: \"INSPIRATIONER FÖR UNGDOM\". Replace the translation's section field value with this Swedish string exactly (preserve capitalization style used on the site if needed).",
+      "translation_quote": "INSPIRATIONS FOR YOUTH"
     }
   ],
   "id": "60b2abe6466dd49c7d384a0af73c64d1",
@@ -69,11 +103,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/7ffc04d7ac224ba55b0f77a841d09ea5de15bf9375508e3f183bd856843bbb61.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a3e61fba-5a19-4b16-8c0d-c2b835c5f103",
+    "response_id": "chatcmpl-EUSjCFPgM6CEMY80Bl69n29p18y9d",
+    "usage": {
+      "completion_tokens": 1071,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7257,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8328
+    }
+  },
+  "received_at": "2026-10-02T08:41:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...This hymn is estimated to be performed 10 million times annually. It has appeared on over 11,000 albums and translated into about 60 languages.</p>",
+        "severity": "major",
+        "source_quote": "It has appeared on over 11,000 albums",
+        "suggested_fix": "Correct the numeric magnitude in the Urdu translation to match the English source: replace \"ایک ہزار سے زائد البمز\" with \"گیارہ ہزار سے زائد البمز\" (or \"11,000+ البمز\") so the figure equals the source's \"over 11,000 albums.\" Preserve the surrounding Urdu sentence structure.",
+        "translation_quote": "یہ ایک ہزار سے زائد البمز پر شائع ہوا ہے اور تقریباً 60 زبانوں میں ترجمہ کیا گیا ہے۔"
+      },
+      {
+        "location": "<p>...In 1910, Edwin O. Excell added the last verse, which eventually replaced the last three original verses of the song.</p>",
+        "severity": "minor",
+        "source_quote": "Edwin O. Excell",
+        "suggested_fix": "Use a more standard Urdu transliteration of the name to match common references. Suggested change: replace \"ایڈون او۔ ایکسل\" with \"ایڈوِن او۔ ایکسل\" or \"ایڈون او۔ ایکسل (Edwin O. Excell)\" — keep the Latin-script name in parentheses only if the site style prefers it. Do not alter the fact that he added the verse in 1910.",
+        "translation_quote": "1910 میں، ایڈون او۔ ایکسل نے آخری بند شامل کیا، جس نے آخر کار گانے کے اصل تین آخری بندوں کی جگہ لے لی۔"
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

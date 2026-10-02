@@ -2,7 +2,6 @@
   "article_id": "1c75dce8-1781-427f-8099-01596d53c2a4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "10d94b8ae8374aa1bcbb5aacc24d3d14",
   "campaign": "gh-36981712493",
   "created_at": "2026-10-02T08:02:17+00:00",
   "events": [
@@ -24,6 +23,62 @@
         },
         "total_tokens": 7049
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1623,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6710,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8333
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.subtitle",
+      "severity": "critical",
+      "source_quote": "and ‘round me rings the music of the spheres.",
+      "suggested_fix": "Перевести субтитр на русский и вставить вместо английского текста, сохраняя тег/поле. Например: «и вокруг меня звучит музыка сфер.» (или иная согласованная редакционная формулировка на русском).",
+      "translation_quote": "and ‘round me rings the music of the spheres."
+    },
+    {
+      "location": "first paragraph (lead) — beginning of article.html",
+      "severity": "major",
+      "source_quote": "Little children in the fresh innocence of their unsoiled morning top the ranks as a bit of heaven on earth and call all observers heavenward.",
+      "suggested_fix": "Исправить неверную передачу «неопрятного утра». Сохранить авторский смысл «unsoiled morning» = «неиспорченное/неосквернённое утро». Например: «Маленькие дети в свежей невинности своего неиспорченного утра…»",
+      "translation_quote": "Маленькие дети в свежей невинности своего неопрятного утра стоят во главе как кусочек рая на земле..."
+    },
+    {
+      "location": "paragraph about killdeer (third visible content paragraph after figure) — species name",
+      "severity": "major",
+      "source_quote": "The killdeer also has no qualms with expressing rash disfavor to those who intrude their domain, but these are not to be mistaken as songs.",
+      "suggested_fix": "Устранить неверную идентификацию вида. «Killdeer» — вид американской птицы, обычно переводится как «чайка-полевка/killdeer» или оставляется как «килдир»; не следует использовать «королёк-подорожник», это другое семейство. Предложение на русском должно именовать птицу понятным русскоязычному читателю образом (например «килдир (killdeer)» или «птица килдир»).",
+      "translation_quote": "Птица-убийца (killdeer) также без колебаний выражает резкое недовольство тем, кто вторгается в её владения..."
+    },
+    {
+      "location": "final content paragraph (near the end) — wording error",
+      "severity": "minor",
+      "source_quote": "singing and making melody in your heart to the Lord” (Eph 5:19).",
+      "suggested_fix": "Исправить опечатку/слово в русском переводе «в хвалі» → «в хвале» или переформулировать естественно: «поёте с благодарением в сердцах ваших Господу». Сохранить ссылку (Еф. 5:19).",
+      "translation_quote": "Когда мы открываем уста и тянем наши голоса в хвалі, мы исполняем благодать Божью."
+    },
+    {
+      "location": "several places — inclusion of English species/common names in parentheses",
+      "severity": "minor",
+      "source_quote": "The killdeer ... The canary ... the nightingale ...",
+      "suggested_fix": "По возможности переводить общеупотребительные названия птиц на русский или дать общепринятые русские эквиваленты; если решено сохранить оригинальное английское имя в скобках, это допустимо, но не должно оставлять английский как основной. Пример правки: «килдир (killdeer)» или «килдир»; «канарейка», «соловей» и т.д. Проверить согласованность по всему тексту.",
+      "translation_quote": "Птица-убийца (killdeer) ... Канарейка ... соловей ..."
     }
   ],
   "id": "de1e02a65fba73eabf5bd7b4ea276bf6",
@@ -69,11 +124,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/2581e86d93ab0c8b5c0ff1e401391960004d29e0bde4df2917ba5463742331cd.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

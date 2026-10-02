@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f4b3172a-5d77-4763-bcf6-f21914c2ebb1",
+    "response_id": "chatcmpl-EUSdAht1fmL8DbLyKqUpkVxtJbWvE",
+    "usage": {
+      "completion_tokens": 2455,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9767,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12222
+    }
+  },
+  "received_at": "2026-10-02T08:41:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>…“For what hath man of all his labour, and of the vexation of his heart, wherein he hath laboured under the sun? For all his days are sorrows, and his travail grief; yea, his heart taketh not rest in the night. This is also vanity.” (Ecclesiastes 2:22,23)</p>",
+        "severity": "critical",
+        "source_quote": "“For what hath man of all his labour, and of the vexation of his heart, wherein he hath laboured under the sun? For all his days are sorrows, and his travail grief; yea, his heart taketh not rest in the night. This is also vanity.” (Ecclesiastes 2:22,23)",
+        "suggested_fix": "Translate the quoted Scripture into Urdu (conveying the printed English meaning) and keep the reference exactly as in the source. For example (suggested Urdu rendering, preserve structure and verse numbers): “انسان کو اُس کی ساری محنت میں اور اُس دل کی چیخت میں جو اُس نے سورج تلے محنت کی ہے، کیا نصیب ہوا ہے؟ کیونکہ اُس کے سارے دن غم ہیں اور اُس کی محنت غمزہ ہے؛ ہاں، اُس کا دل رات میں استراحت نہیں پکڑتا۔ یہ بھی بیکار ہے۔” (Ecclesiastes 2:22,23). Replace the English quotation inside the same paragraph element with an Urdu translation and leave the “(Ecclesiastes 2:22,23)” reference unchanged in form and placement.",
+        "translation_quote": "“For what hath man of all his labour, and of the vexation of his heart, wherein he hath laboured under the sun? For all his days are sorrows, and his travail grief; yea, his heart taketh not rest in the night. This is also vanity.” (Ecclesiastes 2:22,23)"
+      },
+      {
+        "location": "<p>…“Better is a poor and a wise child than an old and foolish king, who will no more be admonished. For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor” (Ecclesiastes 4:13).</p>",
+        "severity": "critical",
+        "source_quote": "“Better is a poor and a wise child than an old and foolish king, who will no more be admonished. For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor” (Ecclesiastes 4:13).",
+        "suggested_fix": "Translate the quoted Scripture into Urdu and keep the verse reference intact. Example suggested Urdu rendering: “بھوکے اور عقلمند بچے کا ہونا بہتر ہے بہ نسبت بوڑھے اور احمق بادشاہ کے جو نصیحت نہ مانے۔ کیونکہ قید سے وہ آ کر حکومت کرتا ہے، جبکہ وہ بھی ہے جو اپنی بادشاہی میں پیدا ہوا ہو اور غریب بن جاتا ہے۔” (Ecclesiastes 4:13). Replace the English quotation with an Urdu translation within the same paragraph element.",
+        "translation_quote": "“Better is a poor and a wise child than an old and foolish king, who will no more be admonished. For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor” (Ecclesiastes 4:13)."
+      },
+      {
+        "location": "<p>…“Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?”</p> (labelled in translation as \"اعمالِ واعظ 6:6\")",
+        "severity": "critical",
+        "source_quote": "“Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?” (Ecclesiastes 6:6)",
+        "suggested_fix": "(A) Correct the book labeling and verse citation to match the source: it should be (Ecclesiastes 6:6) and not “اعمالِ واعظ 6:6”. (B) Translate the quoted Scripture into Urdu. Example Urdu rendering: “ہاں، اگرچہ وہ ہزار سال دو مرتبہ ہی جئے، تب بھی اُس نے کوئی بھلائی نہیں دیکھی؛ کیا سب ایک ہی جگہ کو نہیں جاتے؟” (Ecclesiastes 6:6). Make the two corrections in the same paragraph element: correct the reference text and replace the English quote with its Urdu translation.",
+        "translation_quote": "“Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?” (rendered in translation as “اعمالِ واعظ 6:6)\""
+      },
+      {
+        "location": "Multiple paragraphs containing New Testament and other Old Testament quotations left in English (Romans 5:3-5; Jeremiah 7:27; 2 Timothy 4:3; Matthew 4:8)",
+        "severity": "critical",
+        "source_quote": "“And not only so, but we glory in tribulations also: knowing that tribulation worketh patience; and patience, experience; and experience, hope: and hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us” (Romans 5:3-5).  “Therefore thou shalt speak all these words unto them; but they will not hearken to thee: thou shalt also call unto them; but they will not answer thee” (Jeremiah 7:27).  “For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears;” (2 Timothy 4:3).  “All these things will I give thee, if thou wilt fall down and worship me” (Matthew 4:8).",
+        "suggested_fix": "Translate each quoted Scripture passage into Urdu, preserving the verse references exactly as in the source and keeping them in the same place and punctuation. Examples (suggested Urdu renderings): Romans 5:3-5: “اور نہ صرف یہ بلکہ ہم مصائب میں بھی فخر کرتے ہیں؛ کیونکہ ہم جانتے ہیں کہ مصیبت صبر کو پیدا کرتی ہے؛ اور صبر امتحان کو؛ اور امتحان امید کو؛ اور امید شرمندہ نہیں کرتی، کیونکہ خدا کا محبت وہ روح القدس کے ذریعہ ہمارے دلوں میں نازل ہوئی ہے جو ہمیں دی گئی ہے۔” (Romans 5:3-5). Jeremiah 7:27 and 2 Timothy 4:3 and Matthew 4:8 should likewise be replaced by accurate Urdu translations of the quoted English passages, maintaining the parenthetical references. Replace the English quotations in their respective paragraph elements with Urdu translations.",
+        "translation_quote": "(Each of the above passages appears verbatim in English in the translation)"
+      },
+      {
+        "location": "<h2>بائبل میں سینزم</h2> and adjacent paragraph naming the book: “واعظ یعنی کتابِ اَمثال (Ecclesiastes)”",
+        "severity": "major",
+        "source_quote": "“If there is a book in the Bible that seems to have been written by a cynical man, it is the book of Ecclesiastes.”  (source uses: \"the book of Ecclesiastes\")",
+        "suggested_fix": "The translation incorrectly renders the book name and parenthetical labeling. It currently reads: “واعظ یعنی کتابِ اَمثال (Ecclesiastes)”. This is misleading: 'کتابِ امثال' is the Urdu conventional name for Proverbs, not Ecclesiastes. Correct the phrase to use the conventional Urdu name for Ecclesiastes: ‘کتابِ واعظ (Ecclesiastes)’ or simply ‘کتابِ واعظ’ and remove or adjust the parenthetical so it does not create a mismatch. Suggested replacement in that sentence: “اگر بائبل میں کوئی کتاب ہے جو… تو وہ کتابِ واعظ (Ecclesiastes) ہے۔” Keep the surrounding HTML structure unchanged.",
+        "translation_quote": "“واعظ یعنی کتابِ اَمثال (Ecclesiastes) ہے۔”"
+      },
+      {
+        "location": "source.section vs translation.section (metadata)",
+        "severity": "minor",
+        "source_quote": "Source section: \"A WORD FROM THE DOCTOR\"",
+        "suggested_fix": "The translation rendered the section as “ایک مکتوب ڈاکٹر کی طرف سے”. This is awkward in Urdu and departs from the concise tone of the source. Suggest rendering as “ڈاکٹر کی طرف سے ایک پیغام” or “ڈاکٹر کی بات” or “ڈاکٹر کی طرف سے” to better reflect the original. This change is stylistic; if you prefer a literal translation, use “ڈاکٹر کا پیغام (A WORD FROM THE DOCTOR)”. Update only the section metadata field; do not alter article HTML tags.",
+        "translation_quote": "“ایک مکتوب ڈاکٹر کی طرف سے”"
+      }
+    ],
+    "passed": false,
+    "score": 40
+  }
+}

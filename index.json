@@ -2395,6 +2395,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
+      "html_sha256": "58394f69434493cb19fa9c81ff4659248f4aa929870157c037e5992598dcc186",
+      "human_reviewed": false,
+      "id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
+      "images": [
+        {
+          "alt": "Une ampoule brillante à l’intérieur d’un lanternon sombre.",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-1.jpg"
+        },
+        {
+          "alt": "Un papillon parmi de vives fleurs sauvages et des herbes.",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.json",
+      "metadata_sha256": "45ad4c72016533306934853c4bdc9e691a13cd703804576ca469a26fcfe7c50f",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "UN MOT DU MÉDECIN",
+      "source_revision": "0caae6dc9af4c5fcda48e20d7717688ab3d59bde",
+      "source_translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Gérer le cynisme",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
       "html_sha256": "002149ed83e4c57893d72b84456d45190e86c3c45e1fba76d06e501d7b646b2d",
       "human_reviewed": false,
@@ -2718,6 +2750,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "La gloire du printemps",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
+      "html_sha256": "2188d9c3673ed4252cfc7e4a8041b09a1746e27b538baac82e19c12df9e9ce1c",
+      "human_reviewed": false,
+      "id": "db7b1129-282d-4f48-aefa-f839cb585426",
+      "images": [
+        {
+          "alt": "Une séquence de semis émergeant du sol tandis qu'une main les arrose",
+          "public_path": "/images/articles/db7b1129-282d-4f48-aefa-f839cb585426-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/db7b1129-282d-4f48-aefa-f839cb585426.json",
+      "metadata_sha256": "fc51fa8e30e70acb810cfad9b16b163dac313857ff43fb486e4b316c3afca0ca",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "RÉFLEXIONS D'UN MISSIONNAIRE",
+      "source_revision": "0caae6dc9af4c5fcda48e20d7717688ab3d59bde",
+      "source_translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "L'humaniste chrétien",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -4035,6 +4095,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
+      "html_sha256": "a76d65ba9ddfbcfba1f9604ea770a1dc6357e38a9d86477c94616294ed77ba56",
+      "human_reviewed": false,
+      "id": "80e78d22-936e-48de-885a-f9a8898d5e42",
+      "images": [
+        {
+          "alt": "Un uomo e una donna che camminano insieme attraverso un prato verde",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-1.jpg"
+        },
+        {
+          "alt": "Un padre e una madre che guardano il loro neonato",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-2.jpg"
+        },
+        {
+          "alt": "Una famiglia in piedi insieme davanti a una cascata",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-3.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/80e78d22-936e-48de-885a-f9a8898d5e42.json",
+      "metadata_sha256": "52ab35591f99592449b36d120090f18bae3f0bc4b013ba7dd8819e2d9914f53e",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "INSPIRATIONS FOR YOUTH",
+      "source_revision": "0caae6dc9af4c5fcda48e20d7717688ab3d59bde",
+      "source_translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
+      "status": "ready",
+      "subtitle": "Il piano di Dio per maschio e femmina",
+      "title": "Un corteggiamento centrato su Cristo",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
       "html_sha256": "c85eb0362b4dca55123c693274022b463bc4bad641f1bd761fbbbcac9c0a1071",
       "human_reviewed": false,
@@ -4202,6 +4298,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "La gloria della primavera",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
+      "html_sha256": "034eb8dc05bcc15920273319889f69d21df393bdabf1a6af913e49d4cfac36a3",
+      "human_reviewed": false,
+      "id": "db7b1129-282d-4f48-aefa-f839cb585426",
+      "images": [
+        {
+          "alt": "Una sequenza di piantine che emergono dal terreno mentre una mano le annaffia",
+          "public_path": "/images/articles/db7b1129-282d-4f48-aefa-f839cb585426-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/db7b1129-282d-4f48-aefa-f839cb585426.json",
+      "metadata_sha256": "a23ca36c9c1537f8c01dd294909422c58f880a983897a7e3e4a3dcb88fff77c6",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "RIFLESSIONI DI UN MISSIONARIO",
+      "source_revision": "0caae6dc9af4c5fcda48e20d7717688ab3d59bde",
+      "source_translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "L'Umanista Cristiano",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -4802,6 +4926,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "Plezier voor iedereen",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
+      "html_sha256": "a4fa586f25f058fe33944e5664cbd16c58bedaf3f4457caee12dbc32e4919cae",
+      "human_reviewed": false,
+      "id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
+      "images": [
+        {
+          "alt": "Een gloeiende gloeilamp binnenin een donker lantaarn.",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-1.jpg"
+        },
+        {
+          "alt": "Een vlinder tussen heldere wilde bloemen en grassen.",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.json",
+      "metadata_sha256": "4f57f9b23dc98e2a7b1a6a2a9df4d042c8d5bbadffb6992f337f1bc3bbe9b522",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "EEN WOORD VAN DE ARTS",
+      "source_revision": "0caae6dc9af4c5fcda48e20d7717688ab3d59bde",
+      "source_translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Omgaan met cynisme",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -6114,6 +6270,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "A glória da primavera",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
+      "html_sha256": "237106ae8fbd2c6cd7bbf94182da2800149f82b98965401efac08031ed857029",
+      "human_reviewed": false,
+      "id": "db7b1129-282d-4f48-aefa-f839cb585426",
+      "images": [
+        {
+          "alt": "Uma sequência de mudas emergindo do solo enquanto uma mão as rega",
+          "public_path": "/images/articles/db7b1129-282d-4f48-aefa-f839cb585426-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/db7b1129-282d-4f48-aefa-f839cb585426.json",
+      "metadata_sha256": "4b2ddf2fd5976ffbe1b3f45e487426a5d5e9c086fdd8d40058d0a6ab29317547",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "MUSINGS OF A MISSIONARY",
+      "source_revision": "0caae6dc9af4c5fcda48e20d7717688ab3d59bde",
+      "source_translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "O Humanista Cristão",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {

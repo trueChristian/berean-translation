@@ -2,7 +2,6 @@
   "article_id": "93978dae-706d-43d4-abee-6b6e011683fa",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "10d94b8ae8374aa1bcbb5aacc24d3d14",
   "campaign": "gh-36981712493",
   "created_at": "2026-10-02T08:02:17+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 4821
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1307,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4461,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5768
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<article> paragraph: “In time the mess was cleaned up, and Rick looked into rebuilding.”",
+      "severity": "major",
+      "source_quote": "“In time the mess was cleaned up, and Rick looked into rebuilding.”",
+      "suggested_fix": "Translate the sentence to convey that the disorder/debris was removed and Rick investigated rebuilding. Example replacement within the same paragraph tags: “সময়ক্রমে বিশৃঙ্খলা পরিষ্কার করা হল, এবং রিক পুনর্নির্মাণের বিষয়টি খতিয়ে দেখল।”",
+      "translation_quote": "“সময়ক্রমে কাচাছোঁয়া পরিষ্কার করা হল, এবং রিক পুনর্নির্মাণের বিষয়ে দেখাশোনা করল।”"
+    },
+    {
+      "location": "<article> paragraph: “I first felt the adjustment in my wallet, but I consoled myself that this was only temporary.”",
+      "severity": "major",
+      "source_quote": "“I first felt the adjustment in my wallet, but I consoled myself that this was only temporary.”",
+      "suggested_fix": "Restore the concrete meaning of ‘wallet’ (financial impact). Replace the translation with wording that clearly denotes financial strain on the wallet. Example: “প্রথমে আমি এই পরিবর্তনটি আমার পয়সাপয়সিতে অনুভব করলাম, কিন্তু নিজেকে সান্ত্বনা দিলাম যে এটা কেবল অস্থায়ী।”",
+      "translation_quote": "“আমি প্রথম পরিবর্তনটি আমার কাগজপত্রে অনুভব করলাম, কিন্তু আমি নিজেকে সান্ত্বনা দিলাম যে এটা কেবল অস্থায়ী।”"
+    },
+    {
+      "location": "<article> paragraph: “I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.”",
+      "severity": "major",
+      "source_quote": "“I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.”",
+      "suggested_fix": "Translate ‘yawning’ and the implication of sleeplessness accurately. Suggested replacement: “আমি সতর্ক হয়ে উঠলাম যখন রাতে তাকে হাই করে হাঁপাতে/জম্ভাই নিতে শুনলাম এবং বুঝলাম যে সে ঘুমাচ্ছে না।” (Better: “রাতে তার জম্ভাই নেবার শব্দ শুনে আমি চিন্তিত হয়ে পড়লাম এবং জানলাম যে সে ঘুমাচ্ছে না।” )",
+      "translation_quote": "“আমি সতর্ক হয়ে পড়েছিলাম যখন রাতে তাকে জ্বর ধরে কাশতে শুনলাম এবং জেনেছি তিনি ঘুমাচ্ছেন না।”"
     }
   ],
   "id": "9d67e5e9145545cbe57e1e506007e14c",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 40,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/289d41b17be72586f8c3c3323ad5f6ee801087e516c96b1c160fddd9a03cdf52.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

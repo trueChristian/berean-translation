@@ -2,7 +2,6 @@
   "article_id": "1c75dce8-1781-427f-8099-01596d53c2a4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "10d94b8ae8374aa1bcbb5aacc24d3d14",
   "campaign": "gh-36981712493",
   "created_at": "2026-10-02T08:02:17+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 7442
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1266,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7152,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8418
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.subtitle / translation.subtitle",
+      "severity": "critical",
+      "source_quote": "and ‘round me rings the music of the spheres.",
+      "suggested_fix": "Translate the English subtitle into Modern Standard Arabic, preserving punctuation and poetic tone. Example: «وحولِي يرنُّ موسيقا الأجرام السماوية.» (or a translator-approved equivalent). Do not leave any article metadata text in English.",
+      "translation_quote": "and ‘round me rings the music of the spheres."
+    },
+    {
+      "location": "source.html — paragraph containing Job 6:5 (second paragraph)",
+      "severity": "critical",
+      "source_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5).",
+      "suggested_fix": "Remove the extraneous word(s) inserted before the scripture quote and render the verse in idiomatic Modern Standard Arabic faithful to the printed English. A faithful rendering would be: «أأمَّا الحِمَارُ البَرِّيُّ فِيَنْهَقُ إذَا كَانَتْ لَهُ عُشْبٌ؟ أَوْ أَتَخَفُّ الثَّوْرُ لِأَكْلِهِ؟» (أيوب 6:5). Ensure the quote matches only the scripture content and the verse reference remains unchanged.",
+      "translation_quote": "«أهلًا؟ ألا ينهق الحمار البري حين يكون له عشاب؟ أو هل يخرّ البقر على طعامه؟» (أيوب 6:5)."
+    },
+    {
+      "location": "source.html — paragraph containing Psalm 22:9 and Genesis 26:15 comparison (section on Neglect)",
+      "severity": "minor",
+      "source_quote": "“But thou art he that took me out of the womb: thou didst make me hope when I was upon my mother’s breasts” (Ps 22:9).  ...  The Philistines “had filled them with earth” (Gen 26:15).",
+      "suggested_fix": "The Psalm 22:9 rendering in Arabic is acceptable but slightly non-idiomatic; consider rendering in standard liturgical/modern Arabic consistent with other scripture quotations in the translation. For Genesis 26:15, keep the quoted wording but match canonical Arabic punctuation/quotation style. Example for Psalm 22:9: «أَنْتَ أَنْتَ أَخْرَجْتَنِي مِنَ الرَّحِمِ؛ أَضَعْتَنِي عَلَى ثَدْيِ أُمِّي، فَأَمَلْتَنِي.» (مزمور 22:9). These are optional stylistic refinements — they do not change meaning.",
+      "translation_quote": "«أَنْتَ أَنْتَ أَخْرَجْتَنِي مِنَ الرَّحِمِ، جَعَلْتَنِي آمِلًا عَلَى ثَدْيِ أُمِّي» (مزمور 22:9).  ...  «مَلأَهَا الْفِلِسْطِينِيُّونَ تُرَابًا» (تكوين 26:15)."
     }
   ],
   "id": "e4b1bcba2a37b4581b6705edfaef0f4e",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/2581e86d93ab0c8b5c0ff1e401391960004d29e0bde4df2917ba5463742331cd.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

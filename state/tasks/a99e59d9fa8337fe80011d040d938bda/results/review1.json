@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f323cd7d-0b05-408e-b68d-7b9b33eab6cf",
+    "response_id": "chatcmpl-EUSdTy41qLi8Fkap7O6s0oY7pQtIX",
+    "usage": {
+      "completion_tokens": 1289,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6913,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8202
+    }
+  },
+  "received_at": "2026-10-02T08:41:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...My brother responded with, “Some plant, some water, but God gives the increase.”...</p> (opening anecdote)",
+        "severity": "minor",
+        "source_quote": "“Some plant, some water, but God gives the increase.”",
+        "suggested_fix": "Render the idiom to convey the original sense that different people perform parts of the work (someone plants, someone waters), not that there are \"some plants.\" Also use a more natural Italian phrasing for \"gives the increase\" (i.e., \"dà la crescita\" / \"fa crescere\"). Suggested translation: «Qualcuno semina, qualcuno annaffia, ma Dio dà la crescita.» Preserve the punctuation and keep this inside the same paragraph and quotation marks.",
+        "translation_quote": "«Alcune piante, un po' d'acqua, ma è Dio che dà l'aumento»"
+      },
+      {
+        "location": "<p>...This allows the human race to do as it pleases without eternal consequences....</p> (paragraph on scientific explanations)",
+        "severity": "minor",
+        "source_quote": "This allows the human race to do as it pleases without eternal consequences.",
+        "suggested_fix": "Correct the target-language agreement and idiom. The current \"fare come le pare\" uses a feminine plural clitic that reads awkwardly here. Suggested phrasing: \"ciò permette alla razza umana di fare come le pare senza conseguenze eterne\" → better: \"ciò permette alla razza umana di comportarsi come vuole senza conseguenze eterne.\"",
+        "translation_quote": "Questo permette alla razza umana di fare come le pare senza conseguenze eterne."
+      },
+      {
+        "location": "Multiple places — quotations of short idiomatic phrases",
+        "severity": "minor",
+        "source_quote": "(general idiomatic English phrases in several short quotations and phrases)",
+        "suggested_fix": "Smooth several literal or awkward literal renderings to more natural contemporary Italian while preserving meaning (examples given below). For the quoted idiom in the anecdote see the first finding. Elsewhere, e.g. \"give the credit\" rendered as \"attribuite il merito\" is acceptable; keep consistency and prefer idiomatic verbs (attribuire/riconoscere) over calques. No doctrinal content change is needed — only idiomatic improvements.",
+        "translation_quote": "Various, for example: «è Dio che dà l'aumento»; «fare come le pare»"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

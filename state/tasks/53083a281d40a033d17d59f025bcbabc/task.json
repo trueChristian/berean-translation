@@ -2,7 +2,6 @@
   "article_id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "10d94b8ae8374aa1bcbb5aacc24d3d14",
   "campaign": "gh-36981712493",
   "created_at": "2026-10-02T08:02:17+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 9123
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1031,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8911,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9942
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<figure> first image alt attribute",
+      "severity": "minor",
+      "source_quote": "<img ... alt=\"A glowing bulb inside a dark lantern.\" ...>",
+      "suggested_fix": "Adjust Dutch grammar for the alt text to use the correct adjective form and word order. For example: change to \"Een gloeiende gloeilamp in een donkere lantaarn.\" (preserve the existing alt attribute and its placement in the HTML).",
+      "translation_quote": "<img ... alt=\"Een gloeiende gloeilamp binnenin een donker lantaarn.\" ...>"
+    },
+    {
+      "location": "Paragraph: \"He is the reason we carry on.\" — section \"Remember that We Have Undeserved Hope\" (sentence: \"The only people we should give up on are the ones that our Savior has given up on as well.\")",
+      "severity": "minor",
+      "source_quote": "The only people we should give up on are the ones that our Savior has given up on as well.",
+      "suggested_fix": "Use a more idiomatic Dutch phrasing for naturalness while preserving meaning. For example: \"De enige mensen op wie we zouden moeten opgeven, zijn degenen waarop onze Redder ook heeft opgegeven.\" or better: \"De enige mensen waarop wij moeten afhaken, zijn degenen waarop onze Redder ook heeft afgehaakt.\" (keep same sentence location and punctuation).",
+      "translation_quote": "De enige mensen op wie we zouden moeten opgeven, zijn degenen waarop onze Redder ook opgegeven heeft."
+    }
+  ],
+  "finished_at": "2026-10-02T08:41:25+00:00",
   "id": "53083a281d40a033d17d59f025bcbabc",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "nld",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/b5b1f4feba0e363a96d3ad7b563e07686d3ab579326790efb2df52651280f0ba.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
