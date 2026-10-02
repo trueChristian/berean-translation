@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:59:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>…she taught the girls a song, “How Far Is Heaven”, which Hadassah still likes to sing today!</p>\",\"severity\":\"critical\",\"source_quote\":\"she taught the girls a song, “How Far Is Heaven”, which Hadassah still likes to sing today!\",\"suggested_fix\":\"Translate the quoted song title into Hebrew and keep it in quotes. For example: היא לימדה את הבנות שיר, «כמה רחוק השמיים», שהדסה עדיין אוהבת לשיר היום! Preserve the surrounding punctuation and HTML structure.\",\"translation_quote\":\"אבל היא לימדה את הבנות שיר, \\\"How Far Is Heaven\\\", שהדסה עדיין אוהבת לשיר היום!\"},{\"location\":\"First paragraph and final paragraph pronouns and address\",\"severity\":\"minor\",\"source_quote\":\"As a child, you might think you can’t make a difference in the lives of people around you... And share it with your parents, they can help find a way to change the problem.\",\"suggested_fix\":\"Resolve inconsistent gendered address in Hebrew. The translation starts with masculine singular 'כילד' but later uses feminine forms ('את חושבת', 'חברתך'). Use a single consistent, contemporary Hebrew solution: either neutral plural or inclusive form. Example fixes: change opening to 'כאשר אתה/את ילד/ה, ייתכן שתחשוב...' or use a neutral 'כשאתה או את ילדה/ילד, ייתכן שתחשוב...' or rewrite to plural 'כאשר ילדים חושבים...'. Keep HTML and tags unchanged.\",\"translation_quote\":\"<p class=\\\"drop-cap\\\">כילד, ייתכן שתחשוב שאינך יכול לשנות את חייהם של האנשים סביבך, אבל זה לא נכון! ...</p> … <p>הדסה עדיין זוכרת שראתה כמה מהאחיות בוכות בהלוויה של אסתר. האם את חושבת שהדסה אי פעם תשכח את אסתר? לעולם לא!</p> … <p>שווה לעמוד לצד מישהו שמטופל בחוסר אדיבות. התמיכה שלך עשויה להיות מה שאלוהים ישתמש בו כדי לעזור לחברתך לעבור את זמנה הקשה בדרך טובה! ושתפי את זה עם ההורים שלך — הם יכולים לעזור למצוא דרך לשנות את הבעיה.</p>\"},{\"location\":\"Paragraph about cystic fibrosis\",\"severity\":\"minor\",\"source_quote\":\"Esther had cystic fibrosis and in the 1970s they didn’t have as many treatment options available for that disease as they do now...\",\"suggested_fix\":\"Use the conventional Modern Hebrew name for the disease. Replace the transliteration 'סיסטיק פיברוזיס' with the widely used Hebrew term 'ציסטיק פיברוזיס' (or 'פיברוזיס ציסטית' if preferred). Example: 'לאסתר הייתה ציסטיק פיברוזיס ובשנות ה־70...'. Preserve punctuation and surrounding text.\",\"translation_quote\":\"לאסתר הייתה סיסטיק פיברוזיס ובשנות ה-70 לא היו אפשרויות טיפול רבות למחלה הזו כפי שיש היום, ולכן חולים אלה בדרך כלל מתו צעירים מאוד.\"}],\"passed\":false,\"score\":80}",
+    "content_bytes": 3184,
+    "content_evidence_truncated": false,
+    "content_sha256": "6f0a754f0d94004abdc0a153538c8ce8a68b5909342a0297525dddedc21974ba",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1598,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3266,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1792
+      },
+      "total_tokens": 4864
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

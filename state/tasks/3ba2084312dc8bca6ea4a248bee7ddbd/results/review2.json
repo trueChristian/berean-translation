@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "bc0a4ad3-5947-4df3-99f4-d2cc4f1ace68",
+    "response_id": "chatcmpl-EUX6ViiDQRUYC0CTnj77x16vdd9g5",
+    "usage": {
+      "completion_tokens": 1715,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6046,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7761
+    }
+  },
+  "received_at": "2026-10-02T12:59:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph starting \"Enquanto esse homem se esforçava...\" (translation html)",
+        "severity": "critical",
+        "source_quote": "While this man was endeavoring... — paragraph in source: \"His local church is a part of the descendants of the Anabaptists who were persecuted for their faith, including their desire to understand, and read the Scriptures in their native tongue—Swiss or German, instead of Latin as was required by the church leaders of their day. Yet here he is, some 500 years later, in America, possibly facing persecution from his own church which claims to be a part of the “right” church of God. Herein, his church leaders are finding themselves on the opposite side of the issue of freedom of religious worship that their forefathers suffered for, since they are insisting that the only way to learn of God’s will is through the official language of Scripture—German. This is NO different than the struggle of the original Anabaptists who were persecuted for not studying the Scriptures in the official language of their day—Latin.\"",
+        "suggested_fix": "Translate the entire English passage into Portuguese, preserving meaning, Scripture references and punctuation. For example (narrow fix; keep all HTML and surrounding paragraph intact):\n\"A igreja local dele faz parte dos descendentes dos anabatistas que foram perseguidos por sua fé, inclusive pelo desejo de entender e ler as Escrituras na sua língua nativa — suíço ou alemão — em vez do latim, como era exigido pelos líderes da igreja na época. E, no entanto, aqui está ele, cerca de 500 anos depois, na América, possivelmente enfrentando perseguição por parte de sua própria igreja, que se proclama a 'igreja certa' de Deus. Nisso, os líderes de sua igreja encontram-se do lado oposto da questão da liberdade de culto religioso pela qual seus antepassados sofreram, pois insistem que a única maneira de conhecer a vontade de Deus é pela língua oficial das Escrituras — o alemão. Isso NÃO difere da luta dos anabatistas originais, que foram perseguidos por não estudarem as Escrituras na língua oficial de sua época — o latim.\"",
+        "translation_quote": "\"Sua igreja local faz parte dos descendentes dos anabatistas que foram perseguidos por sua fé, incluindo seu desejo de entender e ler as Escrituras em sua língua nativa—suiço ou alemão—instead of Latin as was required by the church leaders of their day. Yet here he is, some 500 years later, in America, possibly facing persecution from his own church which claims to be a part of the “right” church of God. Herein, his church leaders are finding themselves on the opposite side of the issue of freedom of religious worship that their forefathers suffered for, since they are insisting that the only way to learn of God’s will is through the official language of Scripture—German. This is NO different than the struggle of the original Anabaptists who were persecuted for not studying the Scriptures in the official language of their day—Latin.\""
+      },
+      {
+        "location": "Article metadata: section and title fields (translation)",
+        "severity": "major",
+        "source_quote": "Section: \"FROM THE EDITOR\" / Title: \"From the Editor\"",
+        "suggested_fix": "Translate the section and title to correct, idiomatic Portuguese consistent with source meaning. Use 'DO EDITOR' only if that is the intended meaning; otherwise use 'DO EDITOR' with correct grammar—preferably 'DO EDITOR' is wrong. Suggested: set section to \"DA REDAÇÃO\" or \"DO EDITOR\" depending on style, and title to \"Da Redação\" or \"Do Editor\" matching the English. Ensure capitalization matches site style.",
+        "translation_quote": "Section: \"DO EDITOR\" / Title: \"Do Editor\""
+      },
+      {
+        "location": "Paragraph that first introduces 'plain' people (translation html)",
+        "severity": "minor",
+        "source_quote": "Source: \"part of a certain religious group within the plain people—those of Anabaptist heritage.\"",
+        "suggested_fix": "Render the term consistently in Portuguese. If 'plain people' is a recognized term for Plain Anabaptist communities, translate it as 'povos Plain' (if using English loan) or better 'comunidades Plain' or 'comunidades conservadoras (Plain)', and keep consistency throughout the article. Example fix in this paragraph: replace 'povos plain' with 'povos Plain (comunidades conservadoras anabatistas)' or simply 'comunidades Plain anabatistas'. Apply same translation elsewhere where 'plain' appears untranslated (e.g., 'grupos plain').",
+        "translation_quote": "\"Faz parte de um certo grupo religioso entre os povos plain—os de herança anabatista.\""
+      },
+      {
+        "location": "Paragraph: \"comprou uma Bíblia alemão/inglês.\" (translation)",
+        "severity": "minor",
+        "source_quote": "Source: \"he finally purchased a German/English Bible.\"",
+        "suggested_fix": "Correct gender/number and word order in Portuguese: use 'uma Bíblia alemã/inglês' is still awkward—prefer 'uma Bíblia alemã-inglês' or 'uma Bíblia alemão-inglês' is incorrect. Suggested: 'comprou uma Bíblia alemã-inglês' or better 'comprou uma Bíblia alemão-inglês' -> best: 'comprou uma Bíblia em alemão e inglês' or 'uma Bíblia alemão/inglês' normalized to 'uma Bíblia alemão-inglês'—recommend: 'comprou uma Bíblia em alemão e inglês.'",
+        "translation_quote": "\"finalmente comprou uma Bíblia alemão/inglês.\""
+      }
+    ],
+    "passed": false,
+    "score": 48
+  }
+}

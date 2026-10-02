@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing Ezekiel 36:26-27 (near middle of article)",
+      "severity": "critical",
+      "source_quote": "A new heart also will I give you, and a new spirit will I put within you: and I will take away the stony heart out of your flesh, and I will give you an heart of flesh. And I will put my spirit within you, and cause you to walk in my statutes, and ye shall keep my judgments, and do them –Ezekiel 36:26-27.",
+      "suggested_fix": "Translate the Ezekiel citation faithfully, preserving the meaning of \"statutes\" and \"judgments\" and the phrase \"heart of flesh.\" For example (in-place replacement): <em>Θα σας δώσω νέα καρδιά και θα βάλω μέσα σας καινούργιο πνεύμα· θα αφαιρέσω την λιθινή καρδιά από μέσα σας και θα σας δώσω καρδιά από σάρκα. Και θα βάλω το πνεύμα μου μέσα σας και θα σας κάνω να περπατήσετε στα δικαιώματά μου· θα τηρείτε τις κρίσεις μου και θα τις εκτελείτε</em> –Ιεζεκιήλ 36:26-27. (Make this replacement inside the existing HTML element; preserve <em> tags and the verse reference.)",
+      "translation_quote": "<em>Θα δώσω σε σας νέα καρδιά και νέο πνεύμα θα βάλω μέσα σας· θα αφαιρέσω την λιθινή καρδιά από τη σάρκα σας και θα σας δώσω καρδιά σαρκίνη. Και θα βάλω το πνεύμα μου μέσα σας, και θα σας κάνω να περπατήσετε στα δικαιώματά μου, και θα τηρείτε τα κρίματά μου και θα τα κάνετε</em> –Ιεζεκιήλ 36:26-27."
+    },
+    {
+      "location": "List item quoting John 9:35-38 (the list of conversion texts)",
+      "severity": "critical",
+      "source_quote": "…And Jesus said unto him, Thou hast both seen him, and it is he that talketh with thee. And he said, Lord, I believe. And he worshipped him –John 9:35-38.",
+      "suggested_fix": "Correct the Greek rendering so the quoted meaning is preserved. Replace the mistranslated word \"Ή\" with the proper pronoun and word order. For example: <em>Ο Ιησούς του είπε: Τον βλέπεις, και είναι αυτός που μιλά μαζί σου. Εκείνος είπε: Κύριε, πιστεύω· και τον προσκύνησε</em> –Ιωάννης 9:35-38. (Apply this correction inline, preserving <em> tags and verse reference.)",
+      "translation_quote": "<em>Ο Ιησούς του είπε: Βλέπεις τον Ή, και αυτός είναι που μιλά μαζί σου. Εκείνος είπε: Κύριε, πιστεύω· και τον προσκύνησε</em> –Ιωάννης 9:35-38."
+    },
+    {
+      "location": "First paragraph (sentence: \"Most, if not all, God-fearing Christians clearly see the moral decline of our land...\")",
+      "severity": "minor",
+      "source_quote": "Most, if not all, God-fearing Christians clearly see the moral decline of our land, but what about our churches?",
+      "suggested_fix": "Fix the minor grammatical article error: replace \"τη ηθική\" with the correct form \"την ηθική\" so the phrase reads naturally in Greek. (Edit only the target-language text in that sentence; preserve HTML.)",
+      "translation_quote": "Οι περισσότεροι, αν όχι όλοι, οι θεοφοβούμενοι Χριστιανοί βλέπουν καθαρά τη ηθική παρακμή της χώρας μας, αλλά τι γίνεται με τις εκκλησίες μας;"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

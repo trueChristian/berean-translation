@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2",
+      "severity": "minor",
+      "source_quote": "Maybe it would have been better if Hadassah had stood up to them, but she didn’t.",
+      "suggested_fix": "Replace the phrase “kuwakananisha” with a more natural Kiswahili verb for ‘stand up to’ such as “kuwapinga” or “kumkabili” to preserve the intended meaning and idiom.",
+      "translation_quote": "Labda ingekuwa bora kama Hadassah angehimili na kuwakananisha, lakini hakufanya hivyo."
+    },
+    {
+      "location": "First figure img alt",
+      "severity": "minor",
+      "source_quote": "An empty classroom with rows of desks",
+      "suggested_fix": "Use a natural Kiswahili phrase for “rows of desks,” for example “darasa tupu lenye safu za davi/dawati” or “darasa tupu lenye safu za madawati.” Replace “mizunguko ya dawati” with one of those.",
+      "translation_quote": "Darasa tupu lenye mizunguko ya dawati"
+    },
+    {
+      "location": "Fourth figure img alt",
+      "severity": "minor",
+      "source_quote": "An ambulance driving with its emergency lights on",
+      "suggested_fix": "Use the consistent and more accurate Kiswahili term “gari la dharura” rather than “gari la wagonjwa.” For example: “Gari la dharura likiendesha na taa zake za dharura zikiwa zinawaka.”",
+      "translation_quote": "Gari la wagonjwa likiendesha na taa zake za dharura zikiwa zinawaka"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

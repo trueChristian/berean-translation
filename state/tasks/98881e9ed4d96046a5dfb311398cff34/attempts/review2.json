@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:59:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html — list of Scriptures (1 Timothy 2:11-14)\",\"severity\":\"minor\",\"source_quote\":\"Let the woman learn in silence with all subjection. But I suffer not a woman to teach, nor to usurp authority over the man, but to be in silence. For Adam was first formed, then Eve. And Adam was not deceived, but the woman being deceived was in the transgression –1 Timothy 2:11-14.\",\"suggested_fix\":\"Translate the phrase “with all subjection” idiomatically and accurately. Replace “মহিলা নীরবভাবে সমস্ত বিতরণে শিখুক” with a rendering such as “মহিলা নীরবভাবে সমস্ত আনুগ্যতায় শিখুক” (or “সকল আনুগ্যতায়”) to reflect the intended meaning of submission/subjectness rather than “বিতরণ” (distribution). Preserve original tags and punctuation.\",\"translation_quote\":\"মহিলা নীরবভাবে সমস্ত বিতরণে শিখুক। কিন্তু আমি কোনো মহিলাকে শিক্ষা দিতে বা পুরুষের ওপর কর্তৃত্ব কেড়ে নিতে দেব না, বরং নীরব থাকতে বলি। কারণ প্রথমে আদম সৃষ্টি হল, পরে ঈভ। এবং আদম মিথ্যে ছিলেন না, কিন্তু স্ত্রী ধোঁকায় পড়ে প্রলোভনে পড়েছিল —1 তীমথিয় 2:11-14।\"},{\"location\":\"source.html — paragraph mentioning “plain churches”\",\"severity\":\"minor\",\"source_quote\":\"Ultimately, in the time that we live, we are seeing a generation that is questioning everything about God’s created order—there is gender confusion, evolution, and rebellion against authority in general. I have often wondered if perhaps the reason that we see so much rebellion in our plain churches is because of God’s order not being lived out in our homes.\",\"suggested_fix\":\"Remove or translate the stray English artifact and render the phrase fully in Bengali. Replace “হয়তো_plain চার্চগুলিতে” with a complete Bengali rendering such as “সম্মানী (plain) চার্চগুলোতে” or simply “আমাদের সাধারণ চার্চগুলোতে” depending on the publication’s preferred term for “plain churches.” Preserve HTML tags and surrounding sentence structure.\",\"translation_quote\":\"আমি প্রায়ই ভেবেছি হয়তো_plain চার্চগুলিতে এত বিদ্রোহ দেখা যায় কারণ আমাদের বাড়িতে ঈশ্বরের শৃঙ্খলা বাস্তবায়িত হচ্ছে না।\"},{\"location\":\"source.html — practical list, item about quiet house\",\"severity\":\"minor\",\"source_quote\":\"Keeping the house quiet, even with little children, when he’s trying to rest or study\",\"suggested_fix\":\"Remove the leftover English word “even” and translate the full phrase into Bengali. For example: replace “তিনি বিশ্রাম বা অধ্যয়ন করতে চাইলে—even ছোট শিশু থাকলে ও—বাড়ি নীরব রাখা” with “তিনি বিশ্রাম বা অধ্যয়ন করতে চাইলে—এমনকি ছোট শিশু থাকলেও—বাড়ি নীরব রাখা।” Preserve list item tags and punctuation.\",\"translation_quote\":\"তিনি বিশ্রাম বা অধ্যয়ন করতে চাইলে—even ছোট শিশু থাকলে ও—বাড়ি নীরব রাখা\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 3940,
+    "content_evidence_truncated": false,
+    "content_sha256": "e84c111b5a01fda21c23199281fd6a6a4f57224951e96fff210ab797e215add6",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1200,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10529,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11729
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

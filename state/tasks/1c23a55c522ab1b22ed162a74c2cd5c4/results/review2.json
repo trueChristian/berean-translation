@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "040966f5-c8ae-404b-afb7-bf4183badd5a",
+    "response_id": "chatcmpl-EUX74hsaDipWGO6APSei9Zb0igMF3",
+    "usage": {
+      "completion_tokens": 1012,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7464,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 4864
+      },
+      "total_tokens": 8476
+    }
+  },
+  "received_at": "2026-10-02T12:59:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"In reckless abandonment he stepped off her deck …and a miracle happened.\" (English source paragraph about Peter stepping off the deck)",
+        "severity": "minor",
+        "source_quote": "In reckless abandonment he stepped off her deck …and a miracle happened.",
+        "suggested_fix": "Use a Norwegian phrase that better captures the English sense of \"reckless abandonment\". Suggested wording: \"I hensynsløs overgivelse steg han av dekket…\" or \"I vill overgivelse steg han av dekket…\". Preserve the surrounding HTML and punctuation.",
+        "translation_quote": "I ukrenkelig overgivelse steg han av dekket …og et mirakel skjedde."
+      },
+      {
+        "location": "Paragraph: \"You do not need to go into foreign missions to experience the power of God released in your life.\"",
+        "severity": "minor",
+        "source_quote": "You do not need to go into foreign missions to experience the power of God released in your life.",
+        "suggested_fix": "The translation \"dra til utlendighet\" is understandable but slightly awkward in contemporary Bokmål. Suggest: \"Du trenger ikke å dra til utlandet for å erfare Guds kraft i ditt liv.\" Or, to keep the explicit mission context: \"Du trenger ikke å dra til utlandet for misjonsarbeid for å erfare Guds kraft i ditt liv.\"",
+        "translation_quote": "Du trenger ikke å dra til utlendighet for å erfare Guds utløste kraft i ditt liv."
+      },
+      {
+        "location": "Paragraph: \"He had drawn many a draught of fish over her gunwales.\"",
+        "severity": "minor",
+        "source_quote": "He had drawn many a draught of fish over her gunwales.",
+        "suggested_fix": "The phrase is slightly literal in Norwegian. Consider: \"Han hadde dradd mange fiskelass over relingen\" or \"Han hadde dradd mange fangster over rekka.\" These are more idiomatic while preserving meaning.",
+        "translation_quote": "Han hadde dradd mange fiskelaster over hennes rekker."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

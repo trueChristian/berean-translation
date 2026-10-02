@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<p>... Revelation 21:8 quote ...</p>",
+      "severity": "critical",
+      "source_quote": "...he that shall be fearful, and unbelieving, and the abominable, and murderers, and whoremongers, and sorcerers, and idolaters, and all liars, shall have their part in the lake which burneth with fire and brimstone... –Revelation 21:8.",
+      "suggested_fix": "Replace the mistranslated phrase with a faithful Hebrew rendering of the printed English. For example: «…הפחדנים והכופרים והנבזים והמרצחים והזנונים והמכשפים והמושבעים וכל השקרים—חלקם יהיה באגם הבוער באש ובגופרית… —התגלות 21:8.» Ensure the phrase \"lake which burneth with fire and brimstone\" is rendered as \"האגם הבוער באש ובגופרית\" (not \"אגם האשור\").",
+      "translation_quote": "<em>זכרו, אלה הֵמָּה <em>…הפחדנים והכופרים … [שיהיה להם] חלק באגם האשור באש ובגופרית… —התגלות 21:8.</em></p>"
+    },
+    {
+      "location": "<p>... Matthew 8:10 quote ...</p>",
+      "severity": "critical",
+      "source_quote": "When Jesus heard it, he marvelled, and said to them that followed, Verily I say unto you, I have not found so great faith, no, not in Israel –Matthew 8:10.",
+      "suggested_fix": "Correct the mistranslation of \"to them that followed\". Render the whole verse faithfully in contemporary Hebrew. Example: «וישוע, כשראה זאת, תמה ואמר לאלו שהלכו אחריו: באמת אומר אני לכם, אפילו בישראל לא מצאתי אמונה כה רבה —מתי 8:10.» Replace the incorrect word \"לממלאיו\" with «לאלו שהלכו אחריו» or «לאלה שהלכו אחריו».",
+      "translation_quote": "<em>כשאני חושב על מאמציו הקנאים של האיש הזה עולה בלבי הפסוק… <em>וישוע כששמע זאת תמה, ואמר לממלאיו, באמת אמר אני לכם, אף בישראל לא מצאתי אמונה כה גדולה —מתי 8:10.</em></p>"
+    },
+    {
+      "location": "<p>... Matthew 24:6 quote ...</p>",
+      "severity": "minor",
+      "source_quote": "And ye shall hear of wars and rumours of wars: see that ye be not troubled: for all these things must come to pass, but the end is not yet –Matthew 24:6.",
+      "suggested_fix": "Avoid the duplicated phrasing. Suggest a more natural Hebrew faithful to the English text, for example: «ושמועות על מלחמות ושמועות על מלחמות; ראו, אל תתמהו; כי כל אלה חייבים להיות, אך הקץ עדיין לא הגיע —מתי 24:6.» or simpler: «ושמועות על מלחמות ושמועות על מלחמות; ראו, אל תתמהו; כי כל אלה חייבים להיות, אך הקץ עוד לא —מתי 24:6.»",
+      "translation_quote": "<em>וכיצד עלינו לחיות כמאמינים שמאמינים בתנ\"ך? <em>ושמועות מלחמות ושמועות מלחמות; <strong>ראו אל תטרדו</strong> כי כל אלה חייבים להיות; אך קץ עוד לא עכשיו —מתי 24:6.</em>"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

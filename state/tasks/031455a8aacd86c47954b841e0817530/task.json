@@ -2,7 +2,6 @@
   "article_id": "1c698fb4-f4e6-419b-bdcc-1b25cbe2b035",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -62,39 +61,53 @@
         },
         "total_tokens": 20831
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 2268,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12028,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14296
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Main article — Scripture list (bulleted list at top)",
+      "location": "<p>Τίτος gives us sisters clear direction from God. <em>Οι ηλικιωμένες γυναίκες επίσης, να είναι … διδάσκαλοι καλών πραγμάτων· ίνα διδάσκωσι τας νεωτέρας γυναίκας νηφαλιότητα, <strong>να αγαπούν τους άνδρας των,</strong> να αγαπούν τα τέκνα των, να είναι συνετοί, εγκρατείς, οικιακαὶ, αγαθαί, <strong>υπάκουαι τοῖς ἰδίοις ἀνδράσιν,</strong> ίνα μη βλασφημείται ο λόγος του Θεού</em> –Τίτον 2:3-5.</p>",
       "severity": "critical",
-      "source_quote": "<em>Nevertheless let … the wife see that she <strong>reverence her husband</strong> –Ephesians 5:33.</em>\n    <li><em>Likewise, ye wives, <strong>be in subjection to your own husbands…</strong> –1 Peter 3:1.</em>\n    <li><em><strong>Even as Sara obeyed</strong> Abraham, calling him lord: <strong>whose daughters ye are…</strong> –1 Peter 3:6.</em>\n    <li><em><strong>Wives, submit yourselves unto your own husbands,</strong> as unto the Lord –Ephesians 5:22.</em>\n    <li><em>But I would have you know, that the head of every man is Christ; and <strong>the head of the woman is the man;</strong> and the head of Christ is God –1 Corinthians 11:3.</em>\n    <li><em><strong>Let the woman learn in silence with all subjection.</strong> But I suffer not a woman to teach, nor to usurp authority over the man, but to be in silence. For Adam was first formed, then Eve. And Adam was not deceived, but the woman being deceived was in the transgression –1 Timothy 2:11-14.</em>\n    <li><em>Therefore as the church is subject unto Christ, so <strong>let the wives be [subject] to their own husbands in every thing</strong> –Ephesians 5:24.</em>\n    <li><em><strong>Let your women keep silence in the churches:</strong> for it is not permitted unto them to speak; but they are commanded to be under obedience, as also saith the law –1 Corinthians 14:34.</em></li>",
-      "suggested_fix": "Translate each quoted Scripture verse fully into Greek, preserving the verse text meaning and leaving the reference (book name, chapter:verse) unchanged in position and numbering. For example: translate “Nevertheless let … the wife see that she reverence her husband –Ephesians 5:33.” into Greek (conventional modern Greek book name) keeping “–Ephesians 5:33” as the reference. Do this for every item in the bulleted Scripture list, preserving emphasis tags (<em>, <strong>) and punctuation and the original order and verse numbers.",
-      "translation_quote": "The translation left these entire Scripture quotations in English (italicized) rather than translating them into Greek."
+      "source_quote": "Titus gives us sisters clear direction from God. <em>The aged women likewise, that they be … teachers of good things; That they may teach the young women to be sober, <strong>to love their husbands,</strong> to love their children, To be discreet, chaste, keepers at home, good, <strong>obedient to their own husbands,</strong> that the word of God be not blasphemed –Titus 2:3-5.</em>",
+      "suggested_fix": "Translate the entire quoted Scripture passage into contemporary Modern Greek that faithfully conveys the printed English Scripture text and keep the citation “Τίτον 2:3-5.” Do not insert untranslated or altered original-language words. For example render the list fully in Greek (νηφάλιες, διδάσκουσαι αγαθά, ίνα διδάσκουσιν τας νεωτέρας γυναίκας νηφαλιότητα, να αγαπώσι τους άνδρας αυτών, να αγαπώσι τα τέκνα αυτών, να είναι σώφρονες, εγκρατείνες, οικιακαί, αγαθαί, υπάκουαι τοις ιδίοις ανδράσιν) matching the English sense and preserving the verse reference.",
+      "translation_quote": "<em>Οι ηλικιωμένες γυναίκες επίσης, να είναι … διδάσκαλοι καλών πραγμάτων· ίνα διδάσκωσι τας νεωτέρας γυναίκας νηφαλιότητα, <strong>να αγαπούν τους άνδρας των,</strong> να αγαπούν τα τέκνα των, να είναι συνετοί, εγκρατείς, οικιακαὶ, αγαθαί, <strong>υπάκουαι τοῖς ἰδίοις ἀνδράσιν,</strong> ίνα μη βλασφημείται ο λόγος του Θεού</em> –Τίτον 2:3-5."
     },
     {
-      "location": "Main article — multiple in-text Scripture quotations (body and aside)",
-      "severity": "critical",
-      "source_quote": "Examples: <em>The aged women likewise, that they be … teachers of good things; That they may teach the young women to be sober, <strong>to love their husbands,</strong> to love their children, To be discreet, chaste, keepers at home, good, <strong>obedient to their own husbands,</strong> that the word of God be not blasphemed –Titus 2:3-5.</em>\n\nAlso: <em>And the LORD God said, It is not good that the man should be alone; I will make him an help [helper, aid, supporter] meet [suitable, appropriate, complementary] for him –Genesis 2:18.</em>\n\nAlso: <em>That they may teach the young women to be sober, to love their husbands, to love their children –Titus 2:4.</em>\n\nAlso lengthy quoted passage: <em>Likewise, ye wives, be in subjection to your own husbands; ... <strong>that your prayers be not hindered</strong> –1 Peter 3:1-2 &amp; 3:6-7.</em>\n\nEditor’s Note aside: <em>Wherefore, as by one man [not one woman] sin entered into the world... <strong>death reigned from Adam</strong> [not from Eve] to Moses, ... –Romans 5:12-14.</em>",
-      "suggested_fix": "Translate every quoted Scripture passage into contemporary Modern Greek, using conventional Greek book names (Γένεση, Τίτον, Α΄ Πέτρου, Ρωμαίους, κ.λπ.). Preserve exact chapter and verse numbers and the original punctuation, bracketed commentary, and emphasis (<em>, <strong>). Ensure the translation conveys the printed English meaning (not word-for-word literal English). For bracketed glosses (e.g., [helper, aid, supporter]), translate the bracketed words into Greek within the same brackets. Do not change reference numbering or order.",
-      "translation_quote": "These quoted Scripture passages remain in English in the translation and were not rendered into Greek."
+      "location": "<p><em>Likewise, ye wives, be in subjection to your own husbands; that, if any obey not the word, they also may without the word be won by the conversation [conduct] of the wives; While they behold your chaste [modest, innocent, perfect, pure] conversation coupled with fear. Even as Sara obeyed Abraham, calling him lord: whose daughters ye are, as long as ye do well, and are not afraid with any amazement [terror]. Likewise, ye husbands, dwell with them according to knowledge, giving honour unto the wife, as unto the weaker vessel, and as being heirs together of the grace of life; <strong>that your prayers be not hindered</strong> –1 Peter 3:1-2 &amp; 3:6-7.</em></p>",
+      "severity": "major",
+      "source_quote": "<em>Likewise, ye wives, be in subjection to your own husbands... While they behold your chaste [modest, innocent, perfect, pure] conversation coupled with fear... Likewise, ye husbands, dwell with them according to knowledge, giving honour unto the wife, as unto the weaker vessel... that your prayers be not hindered –1 Peter 3:1-2 & 3:6-7.</em>",
+      "suggested_fix": "The quoted Scripture (1 Peter 3:1-2 & 3:6-7) must be rendered into clear Modern Greek that faithfully conveys the printed English passage and preserve the bracketed glosses as target-language explanations. Remove inserted or mistranslated Greek archaisms and bracket content that do not reflect the English glosses. For example, translate the bracketed glosses into Greek (e.g., [σεμνή/κόσμια] for [modest] and [φόβος/δέος] for [fear]) and present the whole verse text in contemporary Greek style while keeping the citation “Α΄ Πέτρου 3:1-2 & 3:6-7.”",
+      "translation_quote": "<em>Ομοίως, γυναίκες, υποτασσόσασθε στους δικούς σας άνδρες· ώστε, εάν τις δεν υπακούει τον λόγον, και δια της ασυλλόγου συμπεριφοράς των γυναικών νικηθείται, βλέποντες την αγνήν [στήλους, εγκρατή, αμόλυντον] συμπεριφοράν σας συν φόβου. ... <strong>ίνα μη εμποδίζωνται αι προσευχαί υμών</strong> –Α΄ Πέτρου 3:1-2 &amp; 3:6-7.</em></p> "
     },
     {
-      "location": "Aside — Editor’s Note heading",
+      "location": "<p><em>Ίνα διδάσκωσι τας νεωτέρας γυναίκας νηφαλιότητα, να αγαπούν τους άνδρας των, να αγαπούν τα τέκνα των –Τίτον 2:4.</em> Η λέξη «love» στο <em>to love their husbands</em> σημαίνει «να τρέφουν στοργική στοργή προς τον άνδρα τους» σε σύγκριση με τη λέξη «love» στο <em>to love their children</em> που σημαίνει «να έχουν μητρική στοργή προς τα παιδιά τους».</p>",
       "severity": "minor",
-      "source_quote": "<h2>Editor’s Note:</h2>",
-      "suggested_fix": "Translate the aside heading to Greek. For example: <h2>Σημείωμα Συντάκτη:</h2> or another natural Greek equivalent. Preserve the <h2> tag and its attributes.",
-      "translation_quote": "The translation left the aside heading in English: \"Editor’s Note:\"."
-    },
-    {
-      "location": "First paragraph — opening sentence grammar",
-      "severity": "minor",
-      "source_quote": "In the last couple of years, something that God has been working on in my heart is the area of submission.",
-      "suggested_fix": "Correct Greek grammar and idiom in the translation. Replace \"Τις τελευταίες δύο χρόνια, κάτι...\" with a natural contemporary Greek phrasing such as: \"Τα τελευταία δύο χρόνια, κάτι πάνω στο οποίο εργάζεται ο Θεός στην καρδιά μου είναι η υποταγή.\" (or \"Τους τελευταίους δύο χρόνους...\"), preserving meaning and tags.",
-      "translation_quote": "\"Τις τελευταίες δύο χρόνια, κάτι πάνω στο οποίο εργάζεται ο Θεός στην καρδιά μου είναι ο τομέας της υποταγής.\" (grammatically incorrect phrasing for 'the last couple of years')"
+      "source_quote": "<em>That they may teach the young women to be sober, to love their husbands, to love their children –Titus 2:4.</em> The word “love,” in to love their husbands means “to be affectionately fond of their man” as compared to the word “love” in to love their children which means “to have a maternal fondness for one’s children”.",
+      "suggested_fix": "Translate the quoted English single words and in-text quoted terms into Greek (both the Scripture citation and the explanatory occurrence of the word “love”). Replace the English word «love» with the Greek equivalent (e.g., «αγαπούν») and translate the quoted English glosses into Greek (e.g., «η λέξη “αγαπώ” στο ‘να αγαπούν τους άνδρες τους’ σημαίνει…»). Ensure all quoted material appears in Greek, matching the printed English meaning.",
+      "translation_quote": "Η λέξη «love» στο <em>to love their husbands</em> σημαίνει «να τρέφουν στοργική στοργή προς τον άνδρα τους» σε σύγκριση με τη λέξη «love» στο <em>to love their children</em> που σημαίνει «να έχουν μητρική στοργή προς τα παιδιά τους»."
     }
   ],
+  "finished_at": "2026-10-02T12:59:39+00:00",
   "id": "031455a8aacd86c47954b841e0817530",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ell",
@@ -168,13 +181,13 @@
     }
   },
   "protected": false,
-  "quality_score": 48,
+  "quality_score": 70,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1454fe6f465ec8ce9c2352c00a7a3b7b44c43055b67862782f9e04898d1cd850.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "ad61f4b9009ceb692738e67bfe8cebef4cb378ea1ea96cae5a9794b4be22a0d2",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

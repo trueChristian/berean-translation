@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<p>…Unreserved surrender</p> / paragraph containing Matthew 11:28-30",
+      "severity": "minor",
+      "source_quote": "…For my yoke is easy, and my burden is light –Matthew 11:28-30.",
+      "suggested_fix": "Translate 'yoke' with a correct, idiomatic Hindi word (e.g., 'हंसिया' is wrong — use 'जोक' is not Hindi — recommended: 'जुगा' is uncommon. Best: 'गुहार' is wrong). Use the standard Hindi rendering 'मेरा जूगा हल्का है' is awkward. Recommended fix: replace 'क्योंकि मेरा जूँ सरल है और मेरा बोझ हल्का है' with a natural, widely accepted Hindi translation such as 'क्योंकि मेरा जोड़ा हल्का है और मेरा बोझ आसान है' or better 'क्योंकि मेरा जुआ हल्का है और मेरा बोझ आसान है' — (note: choose one conventional idiomatic phrase used by the target publication). Preserve the reference '–मत्ती 11:28-30' unchanged.",
+      "translation_quote": "…क्योंकि मेरा जूँ सरल है और मेरा बोझ हल्का है –मत्ती 11:28-30।"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

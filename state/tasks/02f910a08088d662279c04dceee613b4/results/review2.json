@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "43a99d44-bd8e-44b9-9d48-c5430d4449c3",
+    "response_id": "chatcmpl-EUX64bc0WxXbStMR0IZVTeWfpJOwO",
+    "usage": {
+      "completion_tokens": 678,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9370,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10048
+    }
+  },
+  "received_at": "2026-10-02T12:59:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph mentioning the Zurich mayor (near where the mayor is first named)",
+        "severity": "minor",
+        "source_quote": "the mayor of Zurich, Rudolf Rhan;",
+        "suggested_fix": "Correct the mayor's name spelling in the translation to match the source: “Rudolf Rhan”.",
+        "translation_quote": "die burgemeester van Zürich, Rhudlof Rhan;"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

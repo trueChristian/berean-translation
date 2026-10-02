@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:59:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph containing hymn stanza 8 (line: \\\"Heaven’s morning breaks, and earth’s vain shadows flee:\\\")\",\"severity\":\"minor\",\"source_quote\":\"Heaven’s morning breaks, and earth’s vain shadows flee:\",\"suggested_fix\":\"Render 'earth’s vain shadows' with idiomatic Dutch. Replace \\\"en 's aards ijdele schaduwen vliegen weg:\\\" with \\\"en de ijdele schaduwen van de aarde verdwijnen:\\\" or \\\"en de ijdele schaduwen der aarde wijken:\\\" to be grammatical and natural.\",\"translation_quote\":\"De morgen van de hemel breekt, en 's aards ijdele schaduwen vliegen weg:\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 614,
+    "content_evidence_truncated": false,
+    "content_sha256": "95c01feb0daada5864a8d4508b8b8c257c9f6f0c6c86d5709d85b1d89b6cea13",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 997,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5460,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6457
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

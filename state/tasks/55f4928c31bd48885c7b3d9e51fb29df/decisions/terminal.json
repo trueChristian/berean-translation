@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html — first paragraph (opening line)",
+      "severity": "minor",
+      "source_quote": "As a child, you might think you can’t make a difference in the lives of people around you, but that is not true!",
+      "suggested_fix": "In the translated opening line the article’s English phrase “As a child,” was rendered incorrectly as “As kind” (missing the Afrikaans indefinite article ’n). Replace the paragraph’s opening with: <p class=\"drop-cap\">As ’n kind mag jy dink jy kan nie ’n verskil maak in die lewens van mense om jou nie, maar dit is nie waar nie!</p> — preserving the existing class attribute and surrounding tags.",
+      "translation_quote": "As kind mag jy dink jy kan nie ’n verskil maak in die lewens van mense om jou nie, maar dit is nie waar nie!"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

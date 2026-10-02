@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph: \"In reckless abandonment he stepped off her deck …and a miracle happened.\" (English source paragraph about Peter stepping off the deck)",
+      "severity": "minor",
+      "source_quote": "In reckless abandonment he stepped off her deck …and a miracle happened.",
+      "suggested_fix": "Use a Norwegian phrase that better captures the English sense of \"reckless abandonment\". Suggested wording: \"I hensynsløs overgivelse steg han av dekket…\" or \"I vill overgivelse steg han av dekket…\". Preserve the surrounding HTML and punctuation.",
+      "translation_quote": "I ukrenkelig overgivelse steg han av dekket …og et mirakel skjedde."
+    },
+    {
+      "location": "Paragraph: \"You do not need to go into foreign missions to experience the power of God released in your life.\"",
+      "severity": "minor",
+      "source_quote": "You do not need to go into foreign missions to experience the power of God released in your life.",
+      "suggested_fix": "The translation \"dra til utlendighet\" is understandable but slightly awkward in contemporary Bokmål. Suggest: \"Du trenger ikke å dra til utlandet for å erfare Guds kraft i ditt liv.\" Or, to keep the explicit mission context: \"Du trenger ikke å dra til utlandet for misjonsarbeid for å erfare Guds kraft i ditt liv.\"",
+      "translation_quote": "Du trenger ikke å dra til utlendighet for å erfare Guds utløste kraft i ditt liv."
+    },
+    {
+      "location": "Paragraph: \"He had drawn many a draught of fish over her gunwales.\"",
+      "severity": "minor",
+      "source_quote": "He had drawn many a draught of fish over her gunwales.",
+      "suggested_fix": "The phrase is slightly literal in Norwegian. Consider: \"Han hadde dradd mange fiskelass over relingen\" or \"Han hadde dradd mange fangster over rekka.\" These are more idiomatic while preserving meaning.",
+      "translation_quote": "Han hadde dradd mange fiskelaster over hennes rekker."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

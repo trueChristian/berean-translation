@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "source.title / translation.title",
+      "severity": "major",
+      "source_quote": "A Life Changing Influence",
+      "suggested_fix": "शीर्षक को लक्ष्य भाषा में अनुवादित करें। उदाहरण: \"एक जीवन बदलने वाला प्रभाव\" (या प्रकाशक की शैली निर्देश के अनुसार उपयुक्त समकक्ष)।",
+      "translation_quote": "A Life Changing Influence"
+    },
+    {
+      "location": "source.section / translation.section",
+      "severity": "major",
+      "source_quote": "Children’s Corner",
+      "suggested_fix": "सेक्शन नाम को हिन्दी में अनुवादित करें। उदाहरण: \"बच्चों का कोना\" या प्रकाशक की मानक शैली के अनुसार उपयुक्त रूप।",
+      "translation_quote": "Children’s Corner"
+    },
+    {
+      "location": "source.html — paragraph 1 (first sentence) / translation.html — paragraph 1 (first sentence)",
+      "severity": "major",
+      "source_quote": "Your little acts of kindness will not soon be forgotten.",
+      "suggested_fix": "वाक्य का अर्थ अंग्रेज़ी स्रोत के अनुरूप सटीक रूप से प्रकट करें। वर्तमान हिन्दी वाक्य \"आपकी छोटी-छोटी दयालुता की क्रियाएँ जल्द ही भुला दी जाएँगी, यह जरूरी नहीं।\" अस्पष्ट/विपरीत अर्थ दे रहा है। सुधारित अनुवाद का सुझाव: \"आपकी छोटी-छोटी दयालुता की क्रियाएँ जल्द ही भुलायी नहीं जाएँगी।\" या \"आपकी छोटी-छोटी दयालुता की क्रियाएँ जल्दी भुलायी नहीं जातीं।\"",
+      "translation_quote": "आपकी छोटी-छोटी दयालुता की क्रियाएँ जल्द ही भुला दी जाएँगी, यह जरूरी नहीं।"
+    },
+    {
+      "location": "source.html — paragraph about Esther being gentle / translation.html — same paragraph",
+      "severity": "minor",
+      "source_quote": "Esther was a very gentle, sweet girl, which is mostly what Hadassah remembered her for.",
+      "suggested_fix": "हिन्दी वाक्य में एकवचन स्त्रीलिंग के साथ सही रूप का प्रयोग करें। वर्तमान अनुवाद में \"Esther बहुत मृदु और प्यारी लड़की थीं\" में 'थीं' बहुवचन/आदर सूचक रूप है; साधारण कथा-वर्णन में 'थी' उपयुक्त होगा। सुधारित रूप: \"Esther बहुत मृदु और प्यारी लड़की थी\"।",
+      "translation_quote": "Esther बहुत मृदु और प्यारी लड़की थीं — यही वह मुख्य बात थी जिसके लिए Hadassah उन्हें याद करती है।"
+    },
+    {
+      "location": "source.html — sentence about 'a very sad group of schoolgirls' / translation.html — same sentence",
+      "severity": "minor",
+      "source_quote": "It was a very sad group of schoolgirls when Esther died at the age of 13.",
+      "suggested_fix": "अंग्रेज़ी 'schoolgirls' को हिन्दी में उपयुक्त रूप से अनूदित करें। वर्तमान में अनुवाद \"बहुत उदास स्कूलगर्ल्स का समूह था\" में अंग्रेज़ी शब्द 'स्कूलगर्ल्स' हिन्दी में ही छोड़ा गया है—पर निर्देश के अनुसार अनुवादित पाठ में उद्धरण/सारगर्भित अंग्रेज़ी शब्द अनुपयुक्त हैं। सुझाया गया सुधार: \"जब Esther की 13 वर्ष की आयु में मृत्यु हुई तो वह एक बहुत उदास छात्राओं का समूह था।\" या \"तो वहाँ बहुत उदास छात्राओं का समूह था।\"",
+      "translation_quote": "जब Esther की 13 वर्ष की आयु में मृत्यु हुई तो वह बहुत उदास स्कूलगर्ल्स का समूह था।"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

@@ -2,7 +2,6 @@
   "article_id": "71a8a627-ef21-4efb-9dd1-36d5124ac192",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -62,32 +61,30 @@
         },
         "total_tokens": 11162
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 282,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 256,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6607,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6889
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph: \"As this man has endeavored to find his way... he finally purchased a German/English Bible.\" (near middle of article)",
-      "severity": "major",
-      "source_quote": "a German/English Bible",
-      "suggested_fix": "Change the translation to use the correct adjective for the language. Replace \"Duitser/Engelse Bybel\" with \"Duits/Engelse Bybel\" to accurately render \"German/English Bible.\"",
-      "translation_quote": "Duitser/Engelse Bybel"
-    },
-    {
-      "location": "Paragraph: \"...what 1 Corinthians chapter 14 refers to as <em>tongues</em> (languages)...\"",
-      "severity": "minor",
-      "source_quote": "tongues (languages)",
-      "suggested_fix": "Preserve the source distinction between the specialized term and the explanatory parenthesis. Replace the redundant \"tale (tale)\" with \"tale (languages)\" in Afrikaans: \"tale (languages)\" should be \"tale (tale)\" is redundant; better: \"tale (tale)\" → \"tale (tale)\" is not helpful. Recommended: use \"tale (tale)\" only if intended; otherwise render as \"tale (tale)\" → correct to \"tale (tale)\" — actually, to be clear and idiomatic, change to \"tale (tale)\" → \"tale (verstaanbare tale)\" or simpler: \"tale (tale)\" → \"tale (taal)\". Concrete recommended fix: replace \"tale (tale)\" with \"tale (tale)\" — (editor: render parenthetical as \"tale (tale)\" → recommended final: \"tale (tale)\"?)",
-      "translation_quote": "tale (tale)"
-    },
-    {
-      "location": "Paragraph: \"...insurance companies still refer to certain specific events as “acts of God”.\"",
-      "severity": "minor",
-      "source_quote": "acts of God",
-      "suggested_fix": "Use a more standard Afrikaans rendering of the English idiom \"acts of God.\" Replace “handes van God” with “dades van God” or “handelinge van God” (suggestion: “dades van God” or \"handelinge van God\") to convey the idiomatic meaning \"acts of God.\"",
-      "translation_quote": "“handes van God”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T12:59:40+00:00",
   "id": "aa44f30c617f70f8306eb2b0ac9b5daa",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "afr",
@@ -161,13 +158,13 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/9bbeaa248aca4a5e53cf4e710626c35ad1fcffe1f073f387e31c0a9f5dd08124.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c8c09427567d4bc1f9b13eb8f03d2de65724d1971e30094c9e925e9045066f8d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

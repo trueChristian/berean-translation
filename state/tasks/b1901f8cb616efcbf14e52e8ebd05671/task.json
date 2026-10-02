@@ -2,7 +2,6 @@
   "article_id": "58d3859b-42f6-4cf1-80e6-fa847d9dc4a4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -62,32 +61,30 @@
         },
         "total_tokens": 5333
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 218,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 192,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3136,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3354
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "<figure> (4th image) alt attribute",
-      "severity": "major",
-      "source_quote": "<img src=\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg\" alt=\"An ambulance driving with its emergency lights on\" loading=\"lazy\">",
-      "suggested_fix": "将 alt 文本准确翻译为“警车”以外的正确目标对象。建议的修正文本：保持原有 <img ... loading=\"lazy\"> 标签不变，仅替换 alt 内容为：\"一辆救护车开启警灯行驶\"。例如：<img src=\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg\" alt=\"一辆救护车开启警灯行驶\" loading=\"lazy\">",
-      "translation_quote": "<img src=\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg\" alt=\"一辆警车开启警灯行驶\" loading=\"lazy\">"
-    },
-    {
-      "location": "Paragraph containing song title (\"How Far Is Heaven\")",
-      "severity": "major",
-      "source_quote": "But she taught the girls a song, “How Far Is Heaven”, which Hadassah still likes to sing today!",
-      "suggested_fix": "将引号内的歌曲名翻译为目标语言（中文），以符合要求：所有引用的实质性文字必须翻译。建议修正为：\"但她教给女孩们一首歌，〈天堂有多远〉，哈大沙至今仍喜欢唱这首歌！\"。在 HTML 中只替换该段落的相应英文歌名部分，保留标签和其他文本结构不变。",
-      "translation_quote": "但她教给女孩们一首歌，“How Far Is Heaven”，哈大沙至今仍喜欢唱这首歌！"
-    },
-    {
-      "location": "Paragraph: \"she chose to act as if it didn’t hurt and tried to ignore them.\"",
-      "severity": "minor",
-      "source_quote": "Instead, she chose to act as if it didn’t hurt and tried to ignore them.",
-      "suggested_fix": "修正中文表达，使其更通顺并忠实传达原意。建议将“装作这并不伤她并试图忽视那些人”改为“装作这并不会伤害她，并试图无视她们”。仅替换该句中文文本，保留 HTML 标签和段落结构。",
-      "translation_quote": "相反，她选择装作这并不伤她并试图忽视那些人。"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T12:59:40+00:00",
   "id": "b1901f8cb616efcbf14e52e8ebd05671",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "cmn",
@@ -161,13 +158,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 100,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5d9534e298cc7be7a1dc818a8adedb571eec39b9a0b591ec0dcf7ed0c48299f0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c8195cf9294d2ec905003041f1ddf8ec8c3e1c35f090d8e7010f8817b4a576d2",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

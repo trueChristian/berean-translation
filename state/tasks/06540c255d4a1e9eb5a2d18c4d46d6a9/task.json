@@ -2,7 +2,6 @@
   "article_id": "cb06f158-b3bf-41e8-9b8c-3f8490443a07",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -62,39 +61,60 @@
         },
         "total_tokens": 10741
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1472,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6226,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7698
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "<p>...In the gathering darkness Beto watched as, not thirty paces before him, the dreaded beast...</p>",
+      "location": "<article> paragraph 3",
       "severity": "major",
-      "source_quote": "In the gathering darkness Beto watched as, not thirty paces before him, the dreaded beast he so tremendously feared crept out of the bushes and turned to face him!",
-      "suggested_fix": "Preserve the original measure phrase as an equivalent expression in Kiswahili that conveys 'thirty paces' rather than converting it to metres. For example: \"...katika giza lililoanza kupanuka Beto alitazama jinsi, si umbali wa hatua thelathini mbele yake, mnyama aliokuwa anamtisha kabisa alivyotoka kwenye vichaka na kugeuka kumkabili!\" Replace the current sentence inside the same <p> element with this wording.",
-      "translation_quote": "Katika giza lililoanza kupanuka Beto alitazama jinsi, si umbali wa mita thelathini mbele yake, mnyama aliokuwa anamtisha kabisa alivyotoka kwenye vichaka na kugeuka kumkabili!"
+      "source_quote": "Hearing the padding of the wildcat’s enormous paws on the forest floor behind him, Beto tried to pump his tired legs even faster.",
+      "suggested_fix": "Replace the mistranslated phrase with a correct Kiswahili rendering that preserves the meaning of paws softly touching the ground. For example: \"Akisikia hatua laini za miwambo mikubwa ya paka wakigonga sakafu ya msitu nyuma yake, Beto alijaribu kuchochea miguu yake iliyochoka kuwa hata haraka zaidi.\" (Preserve the sentence structure and surrounding HTML.)",
+      "translation_quote": "Akisikia midomoni ya miguu ya paka huyo mkubwa ikigandamana na sakafu ya msitu nyuma yake, Beto alijaribu kuchochea miguu yake iliyochoka kuwa hata haraka zaidi."
     },
     {
-      "location": "First paragraph, opening sentence",
+      "location": "<article> paragraph 3",
+      "severity": "minor",
+      "source_quote": "As he waited, he imagined that he could hear the sound of the wildcat moving in closer, closer, closer…",
+      "suggested_fix": "Use a Kiswahili verb that conveys creeping/approaching rather than \"to jump.\" For example: \"Aliposubiri, alifikiria kwamba angeweza kusikia sauti ya paka akikaribia, karibia, karibia…\"",
+      "translation_quote": "Aliposubiri, alifikiria kwamba alikuwa anaweza kusikia sauti ya paka anayerukaruka karibu, karibu, karibu…"
+    },
+    {
+      "location": "<article> drop-cap paragraph",
       "severity": "minor",
       "source_quote": "Glancing up at the sun, Beto (a made-up name) quickened his already hurried pace as he approached the forest.",
-      "suggested_fix": "Improve idiomatic clarity while preserving meaning. Suggested revision inside the same <p class=\"drop-cap\"> element: \"Akitazama juu kuelekea jua, Beto (jina lililotengenezwa) aliongeza kasi ya hatua zake ambazo tayari zilikuwa haraka alipoelekea msituni.\"",
-      "translation_quote": "Akitazama juu kuelekea jua, Beto (jina lililotengenezwa) alikazia hatua zake ambazo zilikuwa zimemkimbiza tayari alipoelekea msituni."
+      "suggested_fix": "Polish the phrasing for natural Kiswahili word order. Suggested revision: \"Akitazama juu kuelekea jua, Beto (jina lililotengenezwa) aliongeza kasi ya hatua zake ambazo tayari zilikuwa haraka alipokaribia msitu.\" (Keep existing HTML.)",
+      "translation_quote": "Akitazama juu kuelekea jua, Beto (jina lililotengenezwa) aliongeza kasi ya hatua zake ambazo tayari zilikuwa haraka alipoelekea msituni."
     },
     {
-      "location": "<p>...he tripped on a vine and sprawled helplessly onto the ground.</p>",
+      "location": "<article> paragraph quoting Romans 8:37",
       "severity": "minor",
-      "source_quote": "Suddenly, not being able to see the path clearly in the darkness of the forest, Beto tripped on a vine and sprawled helplessly onto the ground.",
-      "suggested_fix": "The current translation \"Beto aligotwa kwenye mtende na akatanguliwa chini, bubu kabisa\" is unclear/unnatural in Kiswahili. Suggested clearer rendering inside the same <p> element: \"Ghafla, kwa sababu hakuweza kuona njia vizuri gizani, Beto aligotwa na mzizi/kiuno cha mnyororo wa mmea na akatumbukia chini, bila msaada.\" Choose \"mzizi\" or \"mnyororo wa mmea\" according to preferred idiom.",
-      "translation_quote": "Ghafla, bila kuweza kuona njia kwa uwazi katika giza la msitu, Beto aligotwa kwenye mtende na akatanguliwa chini, bubu kabisa."
-    },
-    {
-      "location": "Title and section metadata",
-      "severity": "minor",
-      "source_quote": "title: \"When You Feel Like Giving Up\"; section: \"Inspirations for Youth\"",
-      "suggested_fix": "The translated title and section are acceptable but consider a slightly more natural Kiswahili title. Current translation: \"Unapo Jihisi Kutaka Kukata Tamaa\" and section \"Mafundisho kwa Vijana\" are fine; no mandatory change required. If desired: title revision to \"Unapojihisi Kutaka Kukata Tamaa\".",
-      "translation_quote": "title: \"Unapo Jihisi Kutaka Kukata Tamaa\"; section: \"Mafundisho kwa Vijana\""
+      "source_quote": "…more than conquerors through him that loved us –Romans 8:37?",
+      "suggested_fix": "Improve grammatical fluency in Kiswahili while preserving the theological claim. For example: \"…vilevile wakashinda kwa njia ya Yule aliyetuipenda—Warumi 8:37?\" or \"…kuwa washindi waliotukuka kwa yule aliyewataka—Warumi 8:37?\" Ensure the verse citation stays unchanged.",
+      "translation_quote": "…wakishinda bila kukoma kwa yule aliye wapendacho—Warumi 8:37?"
     }
   ],
+  "finished_at": "2026-10-02T12:59:39+00:00",
   "id": "06540c255d4a1e9eb5a2d18c4d46d6a9",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "swa",
@@ -168,13 +188,13 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 78,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/bfb06c218ba9f1c1fc2af084f523761a426281e4793352fbdf7a1e712eeefda1.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "4dca0fb4064954f718edd76356f4b3252712476d53d4c6f6f30b8608493c5b94",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

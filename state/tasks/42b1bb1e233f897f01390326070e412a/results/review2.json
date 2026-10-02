@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "04df485c-0b11-47d3-9662-1c9e8eddf2c9",
+    "response_id": "chatcmpl-EUX6YIIVcrwjAq8lTVSPQYZdGNnRZ",
+    "usage": {
+      "completion_tokens": 667,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3202,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3869
+    }
+  },
+  "received_at": "2026-10-02T12:59:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"At the next recess she was blamed for cheating on her flash cards.\"",
+        "severity": "minor",
+        "source_quote": "At the next recess she was blamed for cheating on her flash cards.",
+        "suggested_fix": "Translate the idiom into a more natural Indonesian schooling term. Replace \"kartu kilat\" with \"kartu latihan\" or \"kartu soal\" (e.g., \"dituduh mencontek pada kartu latihannya\"). This keeps meaning and reads more idiomatically in Indonesian.",
+        "translation_quote": "Pada istirahat berikutnya ia dituduh mencontek pada kartu kilatnya."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph listing phobias (ol > li[4])",
+      "severity": "minor",
+      "source_quote": "Arachibutyrophobia is the fear of getting peanut butter stuck to the roof of your mouth.",
+      "suggested_fix": "Translate the technical term into standard Italian or present it in italics with an Italian explanation. For example: \"Arachibutirofobia è la paura che il burro di arachidi si attacchi al palato.\" (Preserve surrounding HTML exactly.)",
+      "translation_quote": "Arachibutyrophobia è la paura che il burro di arachidi si attacchi al palato della bocca."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

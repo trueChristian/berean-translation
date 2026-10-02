@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html — first paragraph (Mark 4:38 quote)",
+      "severity": "major",
+      "source_quote": "Master, carest thou not that we perish? –Mark 4:38.",
+      "suggested_fix": "Translate the meaning faithfully as spoken in the English: e.g. \"Tuan, tidakkah Engkau peduli bahwa kita binasa?\" or \"Tuan, tidakkah Engkau mengasihani kita sehingga kita binasa?\". Preserve the question form and the sense of 'care'/'be concerned', not 'be careful'.",
+      "translation_quote": "Tuan, tidakkah Engkau berhati-hati bahwa kita binasa? Ia bangkit lalu menegur angin itu ... –Markus 4:38."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

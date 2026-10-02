@@ -2,7 +2,6 @@
   "article_id": "3feab4dd-c830-4ead-ad57-24d853847088",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -62,39 +61,38 @@
         },
         "total_tokens": 16922
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 865,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9796,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10661
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<p>Felix Manz was the first Anabaptist to be martyred. On January 5th, 1527, not two years after his courageous re-baptism, he was drowned in the River Limmat which flowed through Zurich. His last words were: “Into thy hands, O God, I commend my spirit.”</p>",
-      "severity": "critical",
-      "source_quote": "Felix Manz was the first Anabaptist to be martyred. On January 5th, 1527, not two years after his courageous re-baptism, he was drowned in the River Limmat which flowed through Zurich. His last words were: “Into thy hands, O God, I commend my spirit.”",
-      "suggested_fix": "Translate the factual assertion faithfully into Bengali, preserving the claim that he was martyred and the date, and translate the quoted last words into Bengali. Example fix (preserve paragraph tags and inline emphasis as in source): <p>ফেলিক্স মান্‌জ প্রথম আনাবাপ্তিস্ট ছিলেন যাকে শহীদ করা হল। ১৫২৭ সালের ৫ জানুয়ারি, তাঁর সাহসী পুনর্বাপ্তিস্মের দুই বছরেরও কম সময়ের মধ্যে, তাকে জুরিখের মধ্য দিয়ে বয়ে যাওয়া লিম্মাট নদীতে ডুবিয়ে মারা হয়। তাঁর শেষ শব্দ ছিল: “তোমার হাতে, হে ঈশ্বর, আমি আমার আত্মা অর্পণ করি।”</p>",
-      "translation_quote": "<p>ফেলিক্স মান্জ প্রথম অনাবাপ্তিস্ট যিনি শান্তিতে মারা যান না; ১৫২৭ সালের ৫ জানুয়ারি, তার সাহসী পুনঃবaptism-এর দুই বছরেরও কম সময়ের মধ্যে, তিনি জুরিখের মধ্যে দিয়ে বয়ে যাওয়া লিম্মাট নদীতে ডুবিয়ে মারা যান। তাঁর শেষ শব্দ ছিল: “তোমার হাতে, হে ঈশ্বর, আমি আমার আত্মা অর্পণ করি।”</p>"
-    },
-    {
-      "location": "<p>ever learning, and never able to come to the knowledge of the truth –2 Timothy 3:7.</p> (first paragraph, italicized scripture)</p>",
+      "location": "source.html paragraph beginning \"The debates continued, with contention flaring around communion...\"",
       "severity": "minor",
-      "source_quote": "ever learning, and never able to come to the knowledge of the truth –2 Timothy 3:7.",
-      "suggested_fix": "Render the Scripture clause into natural, contemporary Bengali and correct typographical errors. Also ensure the book name uses a conventional Bengali form and chapter/verse numbers remain unchanged. Example: <em>চিরকাল শিখতে থাকা, তবু সত্যের জ্ঞান অর্জন করতে অক্ষম—২ তীমথিয়ু ৩:৭।</em>",
-      "translation_quote": "<em>চির শিক্ষিত হইয়েও, কেবলি জ্ঞানের প্রতি নাই—২ তীমথিয়ু ৩:৭।</em>"
-    },
-    {
-      "location": "Multiple places with the English/partial-English term “re-baptism”/“re-baptizer” (Felix Manz sentence and Conrad Grebel reference)",
-      "severity": "minor",
-      "source_quote": "re-baptism / re-baptizer (contextual mentions in source)",
-      "suggested_fix": "Translate the term consistently into Bengali (e.g., 'পুনর্বপ্তিস্ম' or better 'পুনর্বাপ্তিস্ম' / 'পুনর্বাপ্তকারী') and avoid leaving mixed English/Bengali words. Preserve HTML. Example: replace 're-baptism' with 'পুনর্বাপ্তিস্ম' and 're-baptizer' with 'পুনর্বাপ্তকারী'.",
-      "translation_quote": "…তার সাহসী পুনঃবaptism… and … কনরাড গ্রেবল (প্রায়শই প্রায় এক শতাব্দী পূর্বে পুনঃবaptizer-এর নামোনুসারী…) "
-    },
-    {
-      "location": "<figure> <img alt=...> </figure> (image alt text)",
-      "severity": "minor",
-      "source_quote": "A close-up of sharp thorns on weathered branches",
-      "suggested_fix": "Translate the alt text into fluent Bengali without retaining English words like 'ক্লোজ-আপ' and avoid awkward literal compounds. Example fix (preserve figure and img attributes): <figure>\n    <img src=\"/images/articles/3feab4dd-c830-4ead-ad57-24d853847088-1.jpg\" alt=\"ব্যথিত ডালপালার ওপর ধারালো কাঁটার নিকটচিত্র\">\n  </figure>",
-      "translation_quote": "<figure>\n    <img src=\"/images/articles/3feab4dd-c830-4ead-ad57-24d853847088-1.jpg\" alt=\"চামড়াজাত শাখাগুলোর উপর ধারালো কাটাকুটে কাঁটা-বিদ্যমানের ক্লোজ-আপ\">\n  </figure>"
+      "source_quote": "The debates continued, with contention flaring around communion, the examples of church leaders, and knowledge of salvation.",
+      "suggested_fix": "In the translated HTML, replace the garbled segment so 'Communion' is rendered in Bengali and separated correctly. Preserve surrounding tags and punctuation. For example, change the fragment 'where conflict flaredCommunion, চার্চ নেতাদের উদাহরণ...' to a fully Bengali rendering: 'বিতর্ক চলতে থাকল, যেখানে সংঘাত ছড়িয়ে পড়ল— প্রতিদান, চার্চ নেতাদের উদাহরণ, এবং মুক্তির জ্ঞান নিয়ে।' (Keep the same paragraph element and surrounding HTML structure.)",
+      "translation_quote": "বিতর্ক চলতে থাকল, যেখানে সংঘাত ছড়িয়ে পড়লCommunion, চার্চ নেতাদের উদাহরণ, এবং মুক্তির জ্ঞান নিয়ে।"
     }
   ],
+  "finished_at": "2026-10-02T12:59:40+00:00",
   "id": "556de9450a8f11ab20c0008d62770069",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ben",
@@ -168,13 +166,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/71da96b1e9fc7ad8418f514e41f429009d9b72f0f1b0b1b636d343ab0a681930.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "37240e01def41772640b0e9565ef16f1adfbc8d9f2aa56662e8ee18b41e3288d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

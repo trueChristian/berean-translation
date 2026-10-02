@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:59:39+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"source.section / translation.section\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"A Hymn History\",\n      \"suggested_fix\": \"Render the section heading in more natural, idiomatic Portuguese. Suggested revision: \\\"História de um hino\\\" or simply \\\"História do hino\\\" to better match Portuguese usage.\",\n      \"translation_quote\": \"Uma História de Hino\"\n    }\n  ],\n  \"passed\": true,\n  \"score\": 98\n}",
+    "content_bytes": 447,
+    "content_evidence_truncated": false,
+    "content_sha256": "395e3f0749013e1397ee3734989b280572a581b364ec47a53666811408dd58af",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 574,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5344,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5918
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

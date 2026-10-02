@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:59:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph containing Revelation 21:8 (within <article> paragraph 5)\",\"severity\":\"major\",\"source_quote\":\"Remember, it is “…the fearful, and unbelieving … [who] shall have their part in the lake which burneth with fire and brimstone… –Revelation 21:8.”\",\"suggested_fix\":\"ترجمے کو مصدقہ معنی کے مطابق درست کریں تاکہ یہ اصل انگریزی اقتباس کا وفادار ترجمہ ہو۔ تجویز: “یاد رکھو، …ڈرپوک اور بے ایمان … جن کا حصہ آگ اور گندھک جلانے والی جھیل میں ہوگا… —مکاشفہ 21:8۔” اس تبدیلی سے متن کا مطلب اصل اقتباس کے برابر ہو جائے گا۔\",\"translation_quote\":\"یاد رکھو، <em>…ڈرپوک اور بے ایمان … [جن کا] حصہ وہی ہوگا جو آگ اور گندھک کی جھیل میں جلا کرتا ہے…—مکاشفہ 21:8۔</em>\"}],\"passed\":false,\"score\":72}",
+    "content_bytes": 1000,
+    "content_evidence_truncated": false,
+    "content_sha256": "f50bd4f9fcdf21fd7334d03bcd2e138d417e2bb22226a4d67b0bdac68a5fd9db",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 698,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6813,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7511
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

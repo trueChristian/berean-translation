@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<article> paragraph 3 (sentence mentioning the hymn Lyte wrote at the dying man's bedside)",
+      "severity": "major",
+      "source_quote": "It is said that it was his encounter with God at the bedside of that dying man that prompted Lyte’s noble hymn, “Jesus, I My Cross Have Taken.”",
+      "suggested_fix": "Translate the quoted hymn title into Norwegian. Replace the English quoted title with a faithful Norwegian rendering while preserving the quotation marks and surrounding HTML. For example: “Jesus, jeg har tatt mitt kors.” (Resulting sentence: …at møtet ved den døendes seng ga opphav til Lytes velsignede hymne, «Jesus, jeg har tatt mitt kors.»)",
+      "translation_quote": "Det sies at det var hans møte med Gud ved siden av den døende mannens seng som gav opphav til Lytes velsignede hymne «Jesus, I My Cross Have Taken.»"
+    },
+    {
+      "location": "<article> paragraph with poem stanza 4 (line-ending punctuation)",
+      "severity": "minor",
+      "source_quote": "Come, Friend of sinners, and thus ‘bide with me.",
+      "suggested_fix": "The opening single quote before bide in the source appears to be a transcription artifact. Ensure the corresponding Norwegian line uses standard Norwegian punctuation and apostrophes consistently. Suggested line: «Kom, syndernes Venn, og således bli hos meg.» (No leading single quote.)",
+      "translation_quote": "Kom, syndernes Venn, og således bli hos meg."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

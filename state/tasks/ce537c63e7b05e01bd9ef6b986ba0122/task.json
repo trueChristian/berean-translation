@@ -2,7 +2,6 @@
   "article_id": "71a8a627-ef21-4efb-9dd1-36d5124ac192",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -62,39 +61,30 @@
         },
         "total_tokens": 11186
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 474,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6490,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6964
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "<p>...in the nightstand drawer he discovered a book titled “The Holy Bible”.</p>",
-      "severity": "major",
-      "source_quote": "\"in the nightstand drawer he discovered a book titled “The Holy Bible”.\"",
-      "suggested_fix": "Translate the quoted book title into standard Swedish. Preserve the punctuation and HTML. Example replacement: “Boken med titeln 'Bibeln'” or “boken med titeln 'Den heliga skrift'\" (preferably: 'Bibeln'). Do not leave the quoted title in English.",
-      "translation_quote": "\"Där, i nattdukslådan, upptäckte han en bok med titeln ”The Holy Bible”.\""
-    },
-    {
-      "location": "<p>...I also observe the current trends of some of our plain publishing houses—they have borrowed from the world’s idea (in a spiritual way, of course) ...</p>",
-      "severity": "minor",
-      "source_quote": "\"I also observe the current trends of some of our plain publishing houses—they have borrowed from the world’s idea (in a spiritual way, of course) that to sell books and reading material they need to print exhilarating stories...\"",
-      "suggested_fix": "Remove the leftover English word and render the entire clause in Swedish. Replace the English 'they' (left inside the Swedish sentence) with a Swedish pronoun or restructure. For example: \"Jag iakttar också de nuvarande tendenserna hos några av våra enkla förlagsverk – de har lånat världens idé ...\"",
-      "translation_quote": "\"Jag iakttar också de nuvarande tendenserna hos några av våra enkla förlagsverk—they har lånat världens idé (på ett andligt sätt, förstås) ...\""
-    },
-    {
-      "location": "<p>...as we follow the expository teaching from Habakkuk regarding what it means to have a real faith...</p>",
-      "severity": "minor",
-      "source_quote": "\"as we follow the expository teaching from Habakkuk regarding what it means to have a real faith that is first personal, then corporate.\"",
-      "suggested_fix": "Use the correct conventional Swedish form of the prophet's name used in Swedish Bibles and maintain spelling consistent with the English source. If Swedish convention is 'Habackuk' then retain that; if it's 'Habakkuk' (double k), match the English source's spelling. Replace the current 'Habackuk' if incorrect. Example: \"...när vi följer den expositiva undervisningen från Habakkuk ...\"",
-      "translation_quote": "\"...när vi följer den exponerande undervisningen från Habackuk om vad det betyder att ha en verklig tro...\""
-    },
-    {
-      "location": "<p>...the fearful, and unbelieving … [who] shall have their part in the lake which burneth with fire and brimstone… –Revelation 21:8.</p>",
-      "severity": "minor",
-      "source_quote": "\"…the fearful, and unbelieving … [who] shall have their part in the lake which burneth with fire and brimstone… –Revelation 21:8.\"",
-      "suggested_fix": "Religious/theological phrasing should be idiomatic and clear in Swedish. The current translation \"de fruktansvärda och otroende\" renders 'the fearful' inaccurately (\"fruktansvärda\" = frightening). Replace with a proper Swedish equivalent used in Bible translations, e.g. \"de fega och de otroende\" or the wording from the Swedish Bible version in use, e.g. \"de fruktansvärda\" only if that matches the target Bible. Preserve verse reference formatting.",
-      "translation_quote": "\"Kom ihåg att det är …de fruktansvärda och otroende … [som] skola få sin del i sjön som brinner med eld och svavel… – Uppenbarelseboken 21:8.\""
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T12:59:40+00:00",
   "id": "ce537c63e7b05e01bd9ef6b986ba0122",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "swe",
@@ -168,13 +158,13 @@
     }
   },
   "protected": false,
-  "quality_score": 85,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/9bbeaa248aca4a5e53cf4e710626c35ad1fcffe1f073f387e31c0a9f5dd08124.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c8c09427567d4bc1f9b13eb8f03d2de65724d1971e30094c9e925e9045066f8d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

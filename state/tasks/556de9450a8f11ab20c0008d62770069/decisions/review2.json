@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph beginning \"The debates continued, with contention flaring around communion...\"",
+      "severity": "minor",
+      "source_quote": "The debates continued, with contention flaring around communion, the examples of church leaders, and knowledge of salvation.",
+      "suggested_fix": "In the translated HTML, replace the garbled segment so 'Communion' is rendered in Bengali and separated correctly. Preserve surrounding tags and punctuation. For example, change the fragment 'where conflict flaredCommunion, চার্চ নেতাদের উদাহরণ...' to a fully Bengali rendering: 'বিতর্ক চলতে থাকল, যেখানে সংঘাত ছড়িয়ে পড়ল— প্রতিদান, চার্চ নেতাদের উদাহরণ, এবং মুক্তির জ্ঞান নিয়ে।' (Keep the same paragraph element and surrounding HTML structure.)",
+      "translation_quote": "বিতর্ক চলতে থাকল, যেখানে সংঘাত ছড়িয়ে পড়লCommunion, চার্চ নেতাদের উদাহরণ, এবং মুক্তির জ্ঞান নিয়ে।"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

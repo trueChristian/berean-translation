@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "984a2f7d-84a5-4d1b-888a-4aa771d3fab8",
+    "response_id": "chatcmpl-EUX6RByr9GpOR2K4N2FmddcHPWD6Y",
+    "usage": {
+      "completion_tokens": 1326,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10782,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12108
+    }
+  },
+  "received_at": "2026-10-02T12:59:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing Psalm 107:25-30 (source.html first blockquoted Psalm)",
+        "severity": "minor",
+        "source_quote": "For he commandeth, and raiseth the stormy wind, which lifteth up the waves thereof. They mount up to the heaven, they go down again to the depths: their soul is melted because of trouble. They reel to and fro, and stagger like a drunken man, and are at their wits’ end. Then they cry unto the LORD in their trouble, and he bringeth them out of their distresses. He maketh the storm a calm, so that the waves thereof are still. Then are they glad because they be quiet; so he bringeth them unto their desired haven –Psalm 107:25-30.",
+        "suggested_fix": "Render the final clauses in idiomatic, grammatically correct Modern Greek while preserving the meaning. Replace the current translation of the last lines with a clearer wording, for example: «τότε φωνάζουν προς τον Κύριο στην θλίψη τους, και αυτός τους εξάγει από τις θλίψεις τους· ποιεί τη θύελλα γαλήνη, και τα κύματα της σιώπουν· τότε χαίρονται επειδή ηρέμησαν· και τους φέρνει στον επιθυμητό λιμένα τους – Ψαλμός 107:25-30.» Preserve the <em>…</em> and tag structure exactly as in source.html.",
+        "translation_quote": "<em>Διότι διατάσσει και σηκώνει ο άνεμος της θύελλας τα κύματα αυτού· εκείνα ανεβαίνουν εις τους ουρανούς, και κατεβαίνουν εις τα βάθη· την ψυχήν τους λιώνει η θλίψις· πλανώνται και κλυδωνίζονται σαν μέθυσοι, και χάνονται ηγία· τότε φωνάζουσιν προς Κύριον εν τη θλίψει αυτών, και εκφέρει αυτούς εκ της θλίψεως αυτών· ποιεί τη θύελλαν εις γαλήνην, και τα κύματα αυτής σιγάνονται· τότε χαίρονται διότι εγαλήνευσαν· και φέρει αυτούς εις το <strong>επιθυμητόν λιμένα</strong> αυτών – Ψαλμός 107:25-30.</em>"
+      },
+      {
+        "location": "Paragraph: \"We would expect that from worshippers of Baal, Buddha, and from backsliders.\" (middle section)",
+        "severity": "minor",
+        "source_quote": "We would expect that from worshippers of Baal, Buddha, and from backsliders.",
+        "suggested_fix": "Correct the target-language rendering of “backsliders” to a conventional Modern Greek term that conveys the intended meaning (people who fall away from the faith). For example: «Θα το περιμέναμε αυτό από λατρευτές του Βάαλ, του Βούδα και από αποσταθούντες/αποστρεφθέντες/αποστάτες.» Choose one (e.g. «αποστατούντες» or «αποστάτες») that fits the magazine's usual register. Preserve surrounding punctuation and tags.",
+        "translation_quote": "«Θα το περίμενε κανείς από λατρευτές του Βάαλ, του Βούδα και από αποστρεφόμενους.»"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

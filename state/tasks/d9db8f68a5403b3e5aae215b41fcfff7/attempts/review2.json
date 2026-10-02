@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:59:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html paragraph 3 (about insurance companies)\",\"severity\":\"minor\",\"source_quote\":\"One thing that I find interesting is that even though the world does not want to retain God in their knowledge, insurance companies still refer to certain specific events as “acts of God”.\",\"suggested_fix\":\"Translate the quoted English phrase fully into Dutch and remove the untranslated English in parentheses. For example: translate to “gevallen van God” (without leaving “acts of God” in English). Preserve the surrounding punctuation and quotation marks as in the source.\",\"translation_quote\":\"Eén ding dat ik opmerkelijk vind is dat hoewel de wereld God niet in hun kennis wil houden, verzekeringsmaatschappijen toch bepaalde specifieke gebeurtenissen nog steeds aanduiden als “gevallen van God” (acts of God).\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 875,
+    "content_evidence_truncated": false,
+    "content_sha256": "ab71df29fb425c75e7e22592b0af72ade3c905cb90b953fa2bc217a24a3c55a4",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 569,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6257,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6826
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

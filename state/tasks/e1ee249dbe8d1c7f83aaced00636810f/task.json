@@ -2,7 +2,6 @@
   "article_id": "71a8a627-ef21-4efb-9dd1-36d5124ac192",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -62,25 +61,39 @@
         },
         "total_tokens": 10788
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "source.section / translation.section",
-      "severity": "major",
-      "source_quote": "FROM THE EDITOR",
-      "suggested_fix": "Translate the section name into contemporary Urdu (Perso-Arabic script). For example: \"ایڈیٹر سے\" or \"ادارۂ ایڈیٹر\" depending on site conventions. Replace the English value while preserving the field string (no HTML changes required).",
-      "translation_quote": "FROM THE EDITOR"
     },
     {
-      "location": "source.title / translation.title",
-      "severity": "major",
-      "source_quote": "From the Editor",
-      "suggested_fix": "Translate the article title into contemporary Urdu (Perso-Arabic script). A conventional rendering would be: \"ایڈیٹر سے\" or \"ایڈیٹر کا پیغام\". Replace the English title with the chosen Urdu phrase in the title field.",
-      "translation_quote": "From the Editor"
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 698,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6813,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7511
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Paragraph containing Revelation 21:8 (within <article> paragraph 5)",
+      "severity": "major",
+      "source_quote": "Remember, it is “…the fearful, and unbelieving … [who] shall have their part in the lake which burneth with fire and brimstone… –Revelation 21:8.”",
+      "suggested_fix": "ترجمے کو مصدقہ معنی کے مطابق درست کریں تاکہ یہ اصل انگریزی اقتباس کا وفادار ترجمہ ہو۔ تجویز: “یاد رکھو، …ڈرپوک اور بے ایمان … جن کا حصہ آگ اور گندھک جلانے والی جھیل میں ہوگا… —مکاشفہ 21:8۔” اس تبدیلی سے متن کا مطلب اصل اقتباس کے برابر ہو جائے گا۔",
+      "translation_quote": "یاد رکھو، <em>…ڈرپوک اور بے ایمان … [جن کا] حصہ وہی ہوگا جو آگ اور گندھک کی جھیل میں جلا کرتا ہے…—مکاشفہ 21:8۔</em>"
+    }
+  ],
+  "finished_at": "2026-10-02T12:59:41+00:00",
   "id": "e1ee249dbe8d1c7f83aaced00636810f",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "urd",
@@ -154,13 +167,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 72,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/9bbeaa248aca4a5e53cf4e710626c35ad1fcffe1f073f387e31c0a9f5dd08124.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c8c09427567d4bc1f9b13eb8f03d2de65724d1971e30094c9e925e9045066f8d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

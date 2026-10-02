@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<p class=\"drop-cap\"> (first paragraph)",
+      "severity": "minor",
+      "source_quote": "Glancing up at the sun, Beto (a made-up name) quickened his already hurried pace as he approached the forest.",
+      "suggested_fix": "Replace the Bengali phrase that reads awkwardly or contains a minor typo. Suggested Bengali: \"বেটো (একটি কাল্পনিক নাম) সূর্য দিকে এক নজর দেখে আরও দ্রুত হাঁটতে লাগল যখন সে জঙ্গলের কাছে পৌঁছাল।\" Preserve the surrounding <p class=\"drop-cap\"> tag.",
+      "translation_quote": "বেটো (একটি কাল্পনিক নাম) সূর্যকে এক ঝলক দেখেই তাড়াতাড়ি হাঁটা আরও ত্বরান্বিত করল যখন সে জঙ্গলের কাছে পৌঁছাল।"
+    },
+    {
+      "location": "3rd <p> (story paragraph)",
+      "severity": "minor",
+      "source_quote": "In the gathering darkness Beto watched as, not thirty paces before him, the dreaded beast he so tremendously feared crept out of the bushes and turned to face him!",
+      "suggested_fix": "The translation uses the nonstandard/likely-mistyped word \"মর্ধ্যমান\" for \"gathering\". Replace with a natural Bengali phrase such as \"ঢেউ খেলানোভাবে ধীরে ধীরে ঘনিয়ে আসা অন্ধকারে\" or simply \"ধীরে ধীরে ঘনিয়ে আসা অন্ধকারে\". Suggested sentence: \"ধীরে ধীরে ঘনিয়ে আসা অন্ধকারে বেটো দেখল, তার চেয়ে ত্রিশ পা দূরে নয়, সেই ভীতিকর জন্তু ঝোপ থেকে বেরিয়ে এসে তার মুখোমুখি হল!\" Keep same HTML paragraph tag.",
+      "translation_quote": "মর্ধ্যমান অন্ধকারে বেটো দেখল, ত্রিশ পা দূরেও নয়, তার বড় ভয়ংকর জন্তুটি ঝোপ থেকে সরকমে বের হয়ে তার দিকে মুখ করে দাঁড়াল!"
+    },
+    {
+      "location": "<h2>…মাফ করে দেওয়া</h2> paragraph following (first sentence)",
+      "severity": "minor",
+      "source_quote": "Unforgiveness always leads to bitterness; bitterness always shackles us. Always!",
+      "suggested_fix": "The Bengali rendering uses the word \"অক্ষমতা\" which more commonly means 'inability' and may mislead readers. Use a clearer phrase for \"Unforgiveness\" such as \"ক্ষমা না করা\". Suggested wording: \"ক্ষমা না করা সর্বদা তিক্ততা জন্মায়; তিক্ততা সবসময় আমাদের শিকলবদ্ধ করে।\" Preserve original HTML structure.",
+      "translation_quote": "অক্ষমতা সর্বদা কটুতা নিয়ে আসে; কটুতা সর্বদা আমাদের শিকলবদ্ধ করে। সর্বদা!"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

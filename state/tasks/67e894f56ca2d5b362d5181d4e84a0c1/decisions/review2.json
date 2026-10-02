@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph 1",
+      "severity": "minor",
+      "source_quote": "“It is better to wear out than to rust out.”",
+      "suggested_fix": "Translate the idiom more naturally in Hindi to preserve meaning. Example replacement (preserving punctuation and quotes): “घिस जाने से बेहतर है कि जंग लगकर बेकार हो जाएं।”",
+      "translation_quote": "“घिसने से बेहतर है सेने से खराब होना।”"
+    },
+    {
+      "location": "source.html paragraph 3 (quotation about ‘blind guides’)",
+      "severity": "minor",
+      "source_quote": "“To their mutual grief, they found themselves [both] groping for the light, veritable blind guides”.",
+      "suggested_fix": "Clarify the sentence so it conveys that both men found themselves groping for light and acting as 'veritable blind guides'. Suggested Hindi rendering preserving punctuation: “उन दोनों के दुःख के लिए, वे स्वयं प्रकाश की ओर भेदभावहीनता से टटोलते हुए पाए गए, वास्तविक 'अँधे मार्गदर्शक' की भाँति।”",
+      "translation_quote": "“उन दोनों के दुःख के लिए, वे पाते हैं कि वे दोनों ही प्रकाश की ओर गुमराह करते हुए थरथरा रहे थे, सच्चे अन्धे मार्गदर्शक।”"
+    },
+    {
+      "location": "source.html final paragraphs (quote of Dr. Breed)",
+      "severity": "major",
+      "source_quote": "“In no other writer,” says Dr. Breed (in the Treasury of Hymn Stories), “are poetry and religion more exquisitely united.”",
+      "suggested_fix": "Correct the translator's rendering of the scholar's name. The English name is 'Dr. Breed' and should be rendered in Hindi as 'डॉ. ब्रीड' (or left in Latin script 'Dr. Breed') not 'डॉ. ब्रिट'. Preserve the parenthetical reference to the book title, and translate or transliterate consistently. Example replacement (preserving tags): “कहते हैं डॉ. ब्रीड (Treasury of Hymn Stories में), ‘कविता और धर्म इतनी सुविन्यस्त रूप में किसी अन्य लेखक में नहीं मिले।’”",
+      "translation_quote": "“किसी अन्य लेखक में,” डॉ. ब्रिट (Treasury of Hymn Stories में) कहते हैं, “कविता और धर्म इतनी सुंदरता से एकीकृत नहीं हैं।”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

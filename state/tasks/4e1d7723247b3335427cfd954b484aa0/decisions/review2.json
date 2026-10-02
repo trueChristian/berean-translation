@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph 4 (names list)",
+      "severity": "minor",
+      "source_quote": "The stories of Conrad Grebel, Felix Manz, and George Blaurock are well known to many of us.",
+      "suggested_fix": "Correct the Russian rendering of \"George Blaurock\" to a conventional, grammatically appropriate transliteration. For example: «Конрад Гребель, Феликс Манц и Георг Блауэрок» (or «Георг Блаурок» depending on house style). Keep the same case/inflection as the surrounding Russian sentence (nominative here).",
+      "translation_quote": "Истории о Конраде Гребеле, Феликсе Манце и Георге Блауэроке хорошо известны многим из нас."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

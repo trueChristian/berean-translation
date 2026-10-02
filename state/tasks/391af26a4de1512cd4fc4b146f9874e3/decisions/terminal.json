@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 3 (the paragraph that begins “Several hours later, as he pushed wearily onward…” in source.html)",
+      "severity": "minor",
+      "source_quote": "tripped on a vine",
+      "suggested_fix": "Replace the Indonesian phrase that renders this as “tersandung pada seutas akar” with wording that accurately reflects a vine (a climbing/twining plant). For example: “tersandung pada seutas sulur” or “tersandung pada seutas tanaman merambat.” Preserve the surrounding HTML and punctuation when making the change.",
+      "translation_quote": "Tiba-tiba, karena tidak dapat melihat jalan dengan jelas dalam kegelapan hutan, Beto tersandung pada seutas akar dan terjerembab tak berdaya ke tanah."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

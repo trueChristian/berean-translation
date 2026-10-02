@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ea91bd7d-c2f0-4865-8c9f-7177c9d3abf3",
+    "response_id": "chatcmpl-EUX7LPwrzYO92oWa3g4HEbWUNQXCz",
+    "usage": {
+      "completion_tokens": 574,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5344,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5918
+    }
+  },
+  "received_at": "2026-10-02T12:59:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.section / translation.section",
+        "severity": "minor",
+        "source_quote": "A Hymn History",
+        "suggested_fix": "Render the section heading in more natural, idiomatic Portuguese. Suggested revision: \"História de um hino\" or simply \"História do hino\" to better match Portuguese usage.",
+        "translation_quote": "Uma História de Hino"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

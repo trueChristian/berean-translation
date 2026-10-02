@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph with Matthew 11:28-30 (near start of “…Ανεπιφύλακτη παράδοση” section)",
+      "severity": "minor",
+      "source_quote": "...For my yoke is easy, and my burden is light –Matthew 11:28-30.",
+      "suggested_fix": "Render the quoted Scripture in contemporary Modern Greek rather than in Koine/italicized ancient-style phrasing. For example: “...Ο γαρ ζυγός μου είναι εύκολος και το φορτίο μου ελαφρύ — Ματθαίος 11:28-30.” (Preserve the verse reference exactly as printed.)",
+      "translation_quote": "...Ο γαρ ζυγός μου χρηστός εστίν και το φορτίον μου ελαφρόν –Κατά Ματθαίον 11:28-30."
+    },
+    {
+      "location": "Final paragraph (closing exhortation)",
+      "severity": "minor",
+      "source_quote": "...bring your burden to the Lord, put it all in His hands, and let it go!",
+      "suggested_fix": "Fix the Greek word order/inflection to be grammatically correct and idiomatic. Replace “βάλτε το όλα στα χέρια Του” with e.g. “βάλετε όλα στα χέρια Του”, “βάλτε όλα στα χέρια Του” or “βάλετε όλο το βάρος στα χέρια Του.” Keep the rest of the sentence structure and meaning unchanged.",
+      "translation_quote": "βάλτε το όλα στα χέρια Του, και αφήστε το!"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

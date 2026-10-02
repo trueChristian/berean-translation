@@ -2,7 +2,6 @@
   "article_id": "71a8a627-ef21-4efb-9dd1-36d5124ac192",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -62,46 +61,60 @@
         },
         "total_tokens": 10845
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1715,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6046,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7761
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "translation.html — paragraph about his church local (starts with \"Sua igreja local faz parte dos descendentes...\")",
+      "location": "Paragraph starting \"Enquanto esse homem se esforçava...\" (translation html)",
       "severity": "critical",
-      "source_quote": "\"...their native tongue—Swiss or German, instead of Latin as was required by the church leaders of their day. Yet here he is, some 500 years later, in America, possibly facing persecution from his own church which claims to be a part of the “right” church of God. Herein, his church leaders are finding themselves on the opposite side of the issue of freedom of religious worship that their forefathers suffered for, since they are insisting that the only way to learn of God’s will is through the official language of Scripture—German. This is NO different than the struggle of the original Anabaptists who were persecuted for not studying the Scriptures in the official language of their day—Latin.\"",
-      "suggested_fix": "Translate the entire English passage into Portuguese, preserving punctuation and HTML structure. Suggested Portuguese rendering: \"—suiço ou alemão — em vez do latim, como exigiam os líderes eclesiásticos de seu tempo. E eis que aqui está ele, cerca de 500 anos depois, na América, podendo enfrentar perseguição por parte de sua própria igreja, que se declara a \"igreja correta\" de Deus. Nisso, os líderes de sua igreja posicionam-se do lado oposto à questão da liberdade de culto religioso pela qual seus antepassados sofreram, pois insistem que a única maneira de aprender a vontade de Deus é através da língua oficial da Escritura — o alemão. Isso NÃO é diferente da luta dos anabatistas originais, que foram perseguidos por não estudar as Escrituras na língua oficial de sua época — o latim.\"",
+      "source_quote": "While this man was endeavoring... — paragraph in source: \"His local church is a part of the descendants of the Anabaptists who were persecuted for their faith, including their desire to understand, and read the Scriptures in their native tongue—Swiss or German, instead of Latin as was required by the church leaders of their day. Yet here he is, some 500 years later, in America, possibly facing persecution from his own church which claims to be a part of the “right” church of God. Herein, his church leaders are finding themselves on the opposite side of the issue of freedom of religious worship that their forefathers suffered for, since they are insisting that the only way to learn of God’s will is through the official language of Scripture—German. This is NO different than the struggle of the original Anabaptists who were persecuted for not studying the Scriptures in the official language of their day—Latin.\"",
+      "suggested_fix": "Translate the entire English passage into Portuguese, preserving meaning, Scripture references and punctuation. For example (narrow fix; keep all HTML and surrounding paragraph intact):\n\"A igreja local dele faz parte dos descendentes dos anabatistas que foram perseguidos por sua fé, inclusive pelo desejo de entender e ler as Escrituras na sua língua nativa — suíço ou alemão — em vez do latim, como era exigido pelos líderes da igreja na época. E, no entanto, aqui está ele, cerca de 500 anos depois, na América, possivelmente enfrentando perseguição por parte de sua própria igreja, que se proclama a 'igreja certa' de Deus. Nisso, os líderes de sua igreja encontram-se do lado oposto da questão da liberdade de culto religioso pela qual seus antepassados sofreram, pois insistem que a única maneira de conhecer a vontade de Deus é pela língua oficial das Escrituras — o alemão. Isso NÃO difere da luta dos anabatistas originais, que foram perseguidos por não estudarem as Escrituras na língua oficial de sua época — o latim.\"",
       "translation_quote": "\"Sua igreja local faz parte dos descendentes dos anabatistas que foram perseguidos por sua fé, incluindo seu desejo de entender e ler as Escrituras em sua língua nativa—suiço ou alemão—instead of Latin as was required by the church leaders of their day. Yet here he is, some 500 years later, in America, possibly facing persecution from his own church which claims to be a part of the “right” church of God. Herein, his church leaders are finding themselves on the opposite side of the issue of freedom of religious worship that their forefathers suffered for, since they are insisting that the only way to learn of God’s will is through the official language of Scripture—German. This is NO different than the struggle of the original Anabaptists who were persecuted for not studying the Scriptures in the official language of their day—Latin.\""
     },
     {
-      "location": "translation.html — occurrences of the phrase \"The Holy Bible\" in paragraph about motel discovery",
+      "location": "Article metadata: section and title fields (translation)",
       "severity": "major",
-      "source_quote": "\"The Holy Bible\"",
-      "suggested_fix": "Translate the book title into Portuguese. Suggested rendering: \"A Bíblia Sagrada\" (or \"A Santa Bíblia\", if preferred by the publisher). Replace inside the same tags and punctuation: e.g. \"...na gaveta do criado‑mudo, ele descobriu um livro intitulado 'A Bíblia Sagrada'.\"",
-      "translation_quote": "\"na gaveta do criado-mudo, ele descobriu um livro intitulado “The Holy Bible”.\""
+      "source_quote": "Section: \"FROM THE EDITOR\" / Title: \"From the Editor\"",
+      "suggested_fix": "Translate the section and title to correct, idiomatic Portuguese consistent with source meaning. Use 'DO EDITOR' only if that is the intended meaning; otherwise use 'DO EDITOR' with correct grammar—preferably 'DO EDITOR' is wrong. Suggested: set section to \"DA REDAÇÃO\" or \"DO EDITOR\" depending on style, and title to \"Da Redação\" or \"Do Editor\" matching the English. Ensure capitalization matches site style.",
+      "translation_quote": "Section: \"DO EDITOR\" / Title: \"Do Editor\""
     },
     {
-      "location": "translation.html — all Scripture references (book names) and in-text verse citations",
-      "severity": "major",
-      "source_quote": "Examples: \"–Matthew 24:6.\" \"–Matthew 24:13.\" \"–Revelation 21:8.\" \"–Revelation 21:7.\" \"–Hebrews 13:17.\" \"–2 Corinthians 5:10.\" \"–Matthew 8:10.\"",
-      "suggested_fix": "Use conventional Portuguese book names for all Scripture citations and keep chapter:verse numbers unchanged. Suggested replacements: Matthew → Mateus; Revelation → Apocalipse; Hebrews → Hebreus; 2 Corinthians → 2 Coríntios. Example fixes preserving punctuation and emphasis tags: \"–Mateus 24:6.\", \"–Mateus 24:13.\", \"–Apocalipse 21:8.\", \"–Apocalipse 21:7.\", \"–Hebreus 13:17.\", \"–2 Coríntios 5:10.\", \"–Mateus 8:10.\" Apply consistently to every citation in the translation, without altering verse numbers or formatting (italics/em tags).",
-      "translation_quote": "\"–Matthew 24:6.\" \"–Matthew 24:13.\" \"–Revelation 21:8.\" \"–Revelation 21:7.\" \"–Hebrews 13:17.\" \"–2 Corinthians 5:10.\" \"–Matthew 8:10.\""
-    },
-    {
-      "location": "translation.html — term \"plain\" used untranslated in two places (\"povos plain\" and \"one of our plain groups\")",
+      "location": "Paragraph that first introduces 'plain' people (translation html)",
       "severity": "minor",
-      "source_quote": "\"plain people—those of Anabaptist heritage\" and \"one of our plain groups of conservative Anabaptists\"",
-      "suggested_fix": "Translate or choose an internationally intelligible Portuguese equivalent for \"plain\" in this cultural context. Options: \"povos 'plain'\" (with quotes if term is a self‑identifier), or better: \"povos simples\" / \"comunidades plain\" / \"grupos plain\" depending on editorial preference. Example: \"...um certo grupo religioso entre os povos plain — os de herança anabatista.\" or \"...um certo grupo religioso entre os povos simples — os de herança anabatista.\" Ensure consistent choice throughout the article.",
-      "translation_quote": "\"Faz parte de um certo grupo religioso entre os povos plain—os de herança anabatista.\" \"...direito no meio de um de nossos plain groups of conservative Anabaptists.\""
+      "source_quote": "Source: \"part of a certain religious group within the plain people—those of Anabaptist heritage.\"",
+      "suggested_fix": "Render the term consistently in Portuguese. If 'plain people' is a recognized term for Plain Anabaptist communities, translate it as 'povos Plain' (if using English loan) or better 'comunidades Plain' or 'comunidades conservadoras (Plain)', and keep consistency throughout the article. Example fix in this paragraph: replace 'povos plain' with 'povos Plain (comunidades conservadoras anabatistas)' or simply 'comunidades Plain anabatistas'. Apply same translation elsewhere where 'plain' appears untranslated (e.g., 'grupos plain').",
+      "translation_quote": "\"Faz parte de um certo grupo religioso entre os povos plain—os de herança anabatista.\""
     },
     {
-      "location": "translation.metadata — section field translated as \"DO EDITOR\"",
+      "location": "Paragraph: \"comprou uma Bíblia alemão/inglês.\" (translation)",
       "severity": "minor",
-      "source_quote": "\"FROM THE EDITOR\" (source.section)",
-      "suggested_fix": "Use a natural Portuguese section label; capitalisation consistent with site style. Suggested: \"DO EDITOR\" → \"DO EDITOR\" is acceptable if male editor, but more natural: \"DO EDITOR\" → \"DA EDITORA\" or \"DO EDITOR\" → \"DO EDITOR\" depending on gender/role. If the source uses 'From the Editor' as generic, prefer \"DO EDITOR\" (title case \"Do Editor\") or \"DA EDITORA\" if female. Confirm publisher preference. Ensure it matches title translation (title is \"Do Editor\").",
-      "translation_quote": "\"DO EDITOR\""
+      "source_quote": "Source: \"he finally purchased a German/English Bible.\"",
+      "suggested_fix": "Correct gender/number and word order in Portuguese: use 'uma Bíblia alemã/inglês' is still awkward—prefer 'uma Bíblia alemã-inglês' or 'uma Bíblia alemão-inglês' is incorrect. Suggested: 'comprou uma Bíblia alemã-inglês' or better 'comprou uma Bíblia alemão-inglês' -> best: 'comprou uma Bíblia em alemão e inglês' or 'uma Bíblia alemão/inglês' normalized to 'uma Bíblia alemão-inglês'—recommend: 'comprou uma Bíblia em alemão e inglês.'",
+      "translation_quote": "\"finalmente comprou uma Bíblia alemão/inglês.\""
     }
   ],
+  "finished_at": "2026-10-02T12:59:40+00:00",
   "id": "3ba2084312dc8bca6ea4a248bee7ddbd",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "por",
@@ -175,13 +188,13 @@
     }
   },
   "protected": false,
-  "quality_score": 45,
+  "quality_score": 48,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/9bbeaa248aca4a5e53cf4e710626c35ad1fcffe1f073f387e31c0a9f5dd08124.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c8c09427567d4bc1f9b13eb8f03d2de65724d1971e30094c9e925e9045066f8d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:59:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph: \\\"At the next recess she was blamed for cheating on her flash cards.\\\"\",\"severity\":\"minor\",\"source_quote\":\"At the next recess she was blamed for cheating on her flash cards.\",\"suggested_fix\":\"Translate the idiom into a more natural Indonesian schooling term. Replace \\\"kartu kilat\\\" with \\\"kartu latihan\\\" or \\\"kartu soal\\\" (e.g., \\\"dituduh mencontek pada kartu latihannya\\\"). This keeps meaning and reads more idiomatically in Indonesian.\",\"translation_quote\":\"Pada istirahat berikutnya ia dituduh mencontek pada kartu kilatnya.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 595,
+    "content_evidence_truncated": false,
+    "content_sha256": "5b980b12b86ea05c29a73c9d843aeea6bb763da4516331c05b2ccac8dab4f8c6",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 667,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3202,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3869
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

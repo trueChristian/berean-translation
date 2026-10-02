@@ -2,7 +2,6 @@
   "article_id": "58d3859b-42f6-4cf1-80e6-fa847d9dc4a4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -62,32 +61,45 @@
         },
         "total_tokens": 5617
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 877,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3243,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4120
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<p>…But she taught the girls a song, “How Far Is Heaven”, which Hadassah still likes to sing today!</p>",
-      "severity": "major",
-      "source_quote": "But she taught the girls a song, “How Far Is Heaven”, which Hadassah still likes to sing today!",
-      "suggested_fix": "Translate the quoted song title into Italian, preserving the quoted status and meaning. For example: «Ma insegnò alle ragazze una canzone, “Quanto è lontano il cielo”, che a Hadassah piace ancora cantare oggi!» (or «“Quanto dista il cielo”» if preferred). Keep the quotation marks and punctuation exactly as in the HTML element.",
-      "translation_quote": "Ma insegnò alle ragazze una canzone, “How Far Is Heaven”, che a Hadassah piace ancora cantare oggi!"
+      "location": "Paragraph 6 (English paragraph beginning \"One day, one of the girls lost her pen...\")",
+      "severity": "minor",
+      "source_quote": "One day, one of the girls lost her pen. She was sure that Hadassah had stolen it. This was very disturbing to a very conscientious Hadassah. At the next recess she was blamed for cheating on her flash cards.",
+      "suggested_fix": "Rendere la frase più scorrevole e naturale in italiano mantenendo il senso: ad esempio, sostituire «l’attenta Hadassah» con «la coscienziosa Hadassah» e chiarire «schede» con «schede di memoria/flashcards». Proposta esatta da inserire preservando i tag HTML: <p>Un giorno, una delle ragazze perse la penna. Era certa che l’avesse rubata Hadassah. Questo turbò molto la coscienziosa Hadassah. Alla ricreazione successiva fu accusata di barare con le sue flashcard.</p>",
+      "translation_quote": "Un giorno, una delle ragazze perse la penna. Era sicura che l’avesse rubata Hadassah. Questo fu molto angosciante per l’attenta Hadassah. Alla ricreazione successiva fu accusata di barare con le sue schede."
     },
     {
-      "location": "<figure> first img alt attribute",
+      "location": "Paragraph 11 (English paragraph beginning \"Besides being her best friend...\")",
       "severity": "minor",
-      "source_quote": "Colorful school supplies and a stethoscope around a pale background",
-      "suggested_fix": "Use a more idiomatic Italian phrasing for the image alt text. For example: \"Materiale scolastico colorato e uno stetoscopio su uno sfondo chiaro\" or \"Oggetti scolastici colorati e uno stetoscopio su uno sfondo chiaro\". Preserve the alt attribute and HTML structure.",
-      "translation_quote": "Forniture scolastiche colorate e uno stetoscopio su uno sfondo pallido"
-    },
-    {
-      "location": "<p>…What a night and day change started the very next day! …</p>",
-      "severity": "minor",
-      "source_quote": "What a night and day change started the very next day!",
-      "suggested_fix": "Smooth the Italian rendering to convey the idiom \"night and day\" more naturally. For example: \"Che cambiamento, dal giorno alla notte, iniziò già il giorno dopo!\" or \"Il cambiamento fu quasi dal giorno alla notte e cominciò il giorno dopo!\" Preserve original sentence order and punctuation within the paragraph tag.",
-      "translation_quote": "Che cambiamento giorno e notte iniziò il giorno dopo!"
+      "source_quote": "It so happened that in about the fourth grade, Esther was in school more often.",
+      "suggested_fix": "Rendere la costruzione più naturale: ad esempio «Successe che verso la quarta elementare Esther frequentava la scuola più spesso.» Sostituire la frase tradotta attuale con questa per migliorare chiarezza e scorrevolezza mantenendo il significato.",
+      "translation_quote": "Capitarono le cose che verso la quarta elementare Esther era più spesso a scuola."
     }
   ],
+  "finished_at": "2026-10-02T12:59:39+00:00",
   "id": "37244e6df6043226e8acc1eb003002d4",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ita",
@@ -161,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5d9534e298cc7be7a1dc818a8adedb571eec39b9a0b591ec0dcf7ed0c48299f0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c8195cf9294d2ec905003041f1ddf8ec8c3e1c35f090d8e7010f8817b4a576d2",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

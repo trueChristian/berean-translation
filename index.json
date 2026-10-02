@@ -59,6 +59,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/1c698fb4-f4e6-419b-bdcc-1b25cbe2b035.html",
+      "html_sha256": "6ee981d45d48473acb88eef92a6a64f67fc4148e9691f5b213ac5dc3602316f5",
+      "human_reviewed": false,
+      "id": "1c698fb4-f4e6-419b-bdcc-1b25cbe2b035",
+      "images": [],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/1c698fb4-f4e6-419b-bdcc-1b25cbe2b035.json",
+      "metadata_sha256": "d1a94e9cf39095644dc8826d0a2e688b6efaacfa39d7605b8cd8f1962325df83",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Suster tot Suster",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "ad61f4b9009ceb692738e67bfe8cebef4cb378ea1ea96cae5a9794b4be22a0d2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Begrip van Onderwerping",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
       "html_sha256": "d460557884c73a69c86e0daeb7ce136c02c0aaae16459b0d206ca9c57dc75d35",
       "human_reviewed": false,
@@ -271,6 +294,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/3feab4dd-c830-4ead-ad57-24d853847088.html",
+      "html_sha256": "aa429c63cce6cd4fa50b5b1167ea8b9238577c8b83f9a2bfeb5b9fa4ec11dbca",
+      "human_reviewed": false,
+      "id": "3feab4dd-c830-4ead-ad57-24d853847088",
+      "images": [
+        {
+          "alt": "’n klembeeld van skerp dorings op verweerde takkies",
+          "public_path": "/images/articles/3feab4dd-c830-4ead-ad57-24d853847088-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/3feab4dd-c830-4ead-ad57-24d853847088.json",
+      "metadata_sha256": "4dd9b2d688f61e71c932cb6294a5e29fe412029f3effb6110b99103789c72939",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "KERKGESKIEDENIS",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "37240e01def41772640b0e9565ef16f1adfbc8d9f2aa56662e8ee18b41e3288d",
+      "status": "ready",
+      "subtitle": "Van Zürich-boer tot Anabaptistiese martelaar",
+      "title": "Hans Landis",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/45c612ff-1966-4079-9ba5-09ab022917ea.html",
       "html_sha256": "12ecf1447615cb056606d1085e081b81041d6aa93bc6c49e0ca4cceb6d0101d0",
       "human_reviewed": false,
@@ -359,6 +410,74 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/55b18915-e213-448c-8fe1-d430e195e768.html",
+      "html_sha256": "e8380e3f6f573981698b2ce69c4ab00bbe1ede5ab09dcddfecfa33a8c5f604c8",
+      "human_reviewed": false,
+      "id": "55b18915-e213-448c-8fe1-d430e195e768",
+      "images": [
+        {
+          "alt": "Blits onder donker stormswolke oor ’n veld",
+          "public_path": "/images/articles/55b18915-e213-448c-8fe1-d430e195e768-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/55b18915-e213-448c-8fe1-d430e195e768.json",
+      "metadata_sha256": "ec4581d7788657276d88945a478f103fc25d7eab4e60773e2ec00dff85c69b97",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Christelike Dissipelskap",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "73de90ede959b89d4fd696b2e9474c165d018804ec574570e47ca5f30322f740",
+      "status": "ready",
+      "subtitle": "Die Vierde Artikel in die Dissipelskap-reeks",
+      "title": "Mans van Geloof",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.html",
+      "html_sha256": "49c716c97c24a27112ec43e99331975a4d54af4ee17b3accb57e309c624c7d98",
+      "human_reviewed": false,
+      "id": "58d3859b-42f6-4cf1-80e6-fa847d9dc4a4",
+      "images": [
+        {
+          "alt": "Kleurvolle skoolbenodigdhede en ’n stethoskoop op ’n vaal agtergrond",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-1.jpg"
+        },
+        {
+          "alt": "’n Leë klaskamer met rye lessenaar",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-2.jpg"
+        },
+        {
+          "alt": "Kinders stapel hul hande bymekaar",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-3.jpg"
+        },
+        {
+          "alt": "’n Ambulans ry met sy noodligte aan",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.json",
+      "metadata_sha256": "7e87c8c11fdea923ab5647fca36d124c78fc970e8c14d3fc5aa1eeb453b577a3",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Kinderhoek",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c8195cf9294d2ec905003041f1ddf8ec8c3e1c35f090d8e7010f8817b4a576d2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ʼn Leweveranderende Invloed",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/5a87c21f-cce9-4033-8a43-5458311bc7f0.html",
       "html_sha256": "aeabb9f120813a19bae0cd220378697fc38fe80c61c1511c1335da9eb6033e62",
       "human_reviewed": false,
@@ -439,6 +558,34 @@
       "section": "Van die Redakteur",
       "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
       "source_translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Van die Redakteur",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/71a8a627-ef21-4efb-9dd1-36d5124ac192.html",
+      "html_sha256": "6268acb7b2dfbee0f6d1e2b62f9d06f995f068bc2dc0c6b847641e69b94568cf",
+      "human_reviewed": false,
+      "id": "71a8a627-ef21-4efb-9dd1-36d5124ac192",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/71a8a627-ef21-4efb-9dd1-36d5124ac192-1.png"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/71a8a627-ef21-4efb-9dd1-36d5124ac192.json",
+      "metadata_sha256": "7d3e99d859c28eadf9daa915ba275ba94bec3f7e9d270ff35091aa04ee795f47",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "VAN DIE REDAKTEUR",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c8c09427567d4bc1f9b13eb8f03d2de65724d1971e30094c9e925e9045066f8d",
       "status": "ready",
       "subtitle": null,
       "title": "Van die Redakteur",
@@ -1349,6 +1496,46 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.html",
+      "html_sha256": "319285233f2981fae418adcdf166ff034b7da4aca4a2223182957948c3c21650",
+      "human_reviewed": false,
+      "id": "58d3859b-42f6-4cf1-80e6-fa847d9dc4a4",
+      "images": [
+        {
+          "alt": "مستلزمات مدرسية ملونة وسماعة طبية على خلفية فاتحة",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-1.jpg"
+        },
+        {
+          "alt": "فصل دراسي فارغ به صفوف من المكاتب",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-2.jpg"
+        },
+        {
+          "alt": "أطفال يضعون أيديهم فوق بعضها البعض",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-3.jpg"
+        },
+        {
+          "alt": "سيارة إسعاف تسير بأضوائها الطارئة",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.json",
+      "metadata_sha256": "a4a6784b4796996772f2b210d968bb2e3681a79f8c7f630202db3d0092b748a7",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ركن الأطفال",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c8195cf9294d2ec905003041f1ddf8ec8c3e1c35f090d8e7010f8817b4a576d2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "تأثير يغيّر الحياة",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/5a87c21f-cce9-4033-8a43-5458311bc7f0.html",
       "html_sha256": "6e74a7e40819e11ee31085726ddd92e47ee1cf4fd8e9e98951a32c363e06a522",
       "human_reviewed": false,
@@ -2060,6 +2247,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/1c698fb4-f4e6-419b-bdcc-1b25cbe2b035.html",
+      "html_sha256": "e8140d33935ba1dbdb5d96e481eedd49195558cdbf8c7702463b840158664faa",
+      "human_reviewed": false,
+      "id": "1c698fb4-f4e6-419b-bdcc-1b25cbe2b035",
+      "images": [],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/1c698fb4-f4e6-419b-bdcc-1b25cbe2b035.json",
+      "metadata_sha256": "be30839cf1e2e145fc92b3e9cbad0af631077821fde92a57e0117fc08a057c43",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "বোন থেকে বোন",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "ad61f4b9009ceb692738e67bfe8cebef4cb378ea1ea96cae5a9794b4be22a0d2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "সমর্পণ বোঝা",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
       "html_sha256": "8f23e4e489274ddc6f5cb95a75a6221c5a2d6cab80961f9a0408e5a4c61a7193",
       "human_reviewed": false,
@@ -2235,6 +2445,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/3feab4dd-c830-4ead-ad57-24d853847088.html",
+      "html_sha256": "f4f2e139cf70ba022b4c657ab6f652a3529e2fba10e924a4d7e0ac7fe2a39b5f",
+      "human_reviewed": false,
+      "id": "3feab4dd-c830-4ead-ad57-24d853847088",
+      "images": [
+        {
+          "alt": "ব্যথিত ডালপালার ওপর ধারালো কাঁটার নিকটচিত্র",
+          "public_path": "/images/articles/3feab4dd-c830-4ead-ad57-24d853847088-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/3feab4dd-c830-4ead-ad57-24d853847088.json",
+      "metadata_sha256": "2fdd0d1103dbd4dcc76b4af80d4cd79f3f947b9a4248eb88dadfdfc37826ac31",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "চার্চ ইতিহাস",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "37240e01def41772640b0e9565ef16f1adfbc8d9f2aa56662e8ee18b41e3288d",
+      "status": "ready",
+      "subtitle": "জুরিখের কৃষক থেকে আনাবাপটিস্ট শহীদ হয়ে উঠা",
+      "title": "হান্স ল্যান্ডিস",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/45c612ff-1966-4079-9ba5-09ab022917ea.html",
       "html_sha256": "a9bdb92ab6a0aab75d06da5640dc4d60309229ae4b91dea7f3ba33bdd215f209",
       "human_reviewed": false,
@@ -2290,6 +2528,46 @@
       "status": "ready",
       "subtitle": "অংশ ২",
       "title": "ক্যান্সার",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ben/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.html",
+      "html_sha256": "cf4665d9584d4b22927a120ce2b0b42f98bfc0e29495fac1388480e25cc2637c",
+      "human_reviewed": false,
+      "id": "58d3859b-42f6-4cf1-80e6-fa847d9dc4a4",
+      "images": [
+        {
+          "alt": "রঙিন স্কুল সাপ্লাই এবং হালকা পটভূমির উপর স্টেথোস্কোপ",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-1.jpg"
+        },
+        {
+          "alt": "ডেস্কের সারি নিয়ে এক খালি শ্রেণীকক্ষ",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-2.jpg"
+        },
+        {
+          "alt": "হাতগুলো একসাথে রেখে শিশুদের দল",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-3.jpg"
+        },
+        {
+          "alt": "জরুরি লাইট জ্বালিয়ে একটি অ্যাম্বুল্যান্স চলছে",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.json",
+      "metadata_sha256": "5efdeb49202d1b1007b238b7c22d6a34c0d9b25add40156cf439578420be0f78",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "শিশুদের কর্নার",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c8195cf9294d2ec905003041f1ddf8ec8c3e1c35f090d8e7010f8817b4a576d2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "একটি জীবন পরিবর্তনকারী প্রভাব",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -2465,6 +2743,29 @@
       "status": "ready",
       "subtitle": null,
       "title": "কেন এবং আমি",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ben/articles/cb06f158-b3bf-41e8-9b8c-3f8490443a07.html",
+      "html_sha256": "b00b6013a06faf6790273c3356dd6102d6a37d25ce5951a785f208d9aa3893be",
+      "human_reviewed": false,
+      "id": "cb06f158-b3bf-41e8-9b8c-3f8490443a07",
+      "images": [],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/cb06f158-b3bf-41e8-9b8c-3f8490443a07.json",
+      "metadata_sha256": "2a9751fc474263446c6cfa87981d6bf63d0d4d0a26b5c6a513e40a2fe5c5db8a",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "যুবকদের অনুপ্রেরণা",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "4dca0fb4064954f718edd76356f4b3252712476d53d4c6f6f30b8608493c5b94",
+      "status": "ready",
+      "subtitle": null,
+      "title": "যখন আপনি হাল ছেড়ে দিতে ইচ্ছা করেন",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -3015,6 +3316,46 @@
       "status": "ready",
       "subtitle": "第2部分",
       "title": "癌症",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.html",
+      "html_sha256": "ff610b2f396c7ebbb13ff153520d37d7cb1f3e7fa91c3bafeac840b919abd94f",
+      "human_reviewed": false,
+      "id": "58d3859b-42f6-4cf1-80e6-fa847d9dc4a4",
+      "images": [
+        {
+          "alt": "色彩缤纷的学习用品和围绕在浅色背景上的听诊器",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-1.jpg"
+        },
+        {
+          "alt": "一间空教室，整齐排列的课桌",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-2.jpg"
+        },
+        {
+          "alt": "孩子们把手叠在一起",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-3.jpg"
+        },
+        {
+          "alt": "一辆救护车开启警灯行驶",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.json",
+      "metadata_sha256": "acfcb18d779b084ab9ded7da55aa6c74b329eeb7da8913ec79b708421087f01a",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "儿童天地",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c8195cf9294d2ec905003041f1ddf8ec8c3e1c35f090d8e7010f8817b4a576d2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "改变生命的影响",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -5297,6 +5638,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4.html",
+      "html_sha256": "230523d2e83ed4533b9f8313b4f0ab54dd40acacaddbd67e304a12810242351a",
+      "human_reviewed": false,
+      "id": "951f56e4-2ce8-4f01-9500-bfeee209cdb4",
+      "images": [
+        {
+          "alt": "Μια φωτεινή από τον ήλιο οδός που καμπυλώνει μέσα από ένα δασώδες τοπίο",
+          "public_path": "/images/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4.json",
+      "metadata_sha256": "ef26aceb02c563716ee3102d4e9cb8efab426e13a6bccc9c0d15516a3ea01f6d",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Νικηφόρα Χριστιανική Ζωή",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "6ba0f430c997b1ea3450b766c83b9abcf64dbdc84cdd47383ef0cebf9766d0dd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Το Καταφύγιο της Ανάπαυσης",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.html",
       "html_sha256": "50df2ad7df13de6cc3f8ced89606c9fb85048b2fbf88ee77383a45dff33d9ca5",
       "human_reviewed": false,
@@ -5575,6 +5944,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/cb06f158-b3bf-41e8-9b8c-3f8490443a07.html",
+      "html_sha256": "395fee4202c2e98bf2d5add38a937ad3722d6a3d411777e4bda1f8d157dba899",
+      "human_reviewed": false,
+      "id": "cb06f158-b3bf-41e8-9b8c-3f8490443a07",
+      "images": [],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/cb06f158-b3bf-41e8-9b8c-3f8490443a07.json",
+      "metadata_sha256": "0d594bab4dfd1a9a17fe72d20162fc8eb62a4ea9ec2f2a6d38cd69db88ad5aa1",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Εμπνεύσεις για Νέους",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "4dca0fb4064954f718edd76356f4b3252712476d53d4c6f6f30b8608493c5b94",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Όταν Νιώθεις Να Τα Παρατάς",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/cc225bc9-2dda-46f3-a628-13af4fd95e7a.html",
       "html_sha256": "d28ef9dda7b1d6641a7f1abc296da1da2c79a10aef9c711ba791588dafee760b",
       "human_reviewed": false,
@@ -5621,6 +6013,29 @@
       "status": "ready",
       "subtitle": null,
       "title": "Η Δόξα της Άνοιξης",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/d38bf79f-957f-413c-ad4d-a6b4fa8c8112.html",
+      "html_sha256": "f9fc031049b8229f486c3b87c466e5b442e76737d6d2aca54f39f5bc6a2a2fc8",
+      "human_reviewed": false,
+      "id": "d38bf79f-957f-413c-ad4d-a6b4fa8c8112",
+      "images": [],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/d38bf79f-957f-413c-ad4d-a6b4fa8c8112.json",
+      "metadata_sha256": "983b0b68ae2ab94bfed708a18f7b49a78ddbb9ed16c3ccf9852428fe06807189",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Λόγια από έναν Γιατρό",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "48e3cf7ce54a82130b52527f677657d3f940e34281e04d33a0d21d610cf9910a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Καρκίνος… Τι είναι?",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -5890,6 +6305,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/1c698fb4-f4e6-419b-bdcc-1b25cbe2b035.html",
+      "html_sha256": "769420d80dc525c88f128f249dd5042dfea639b87f433cbb15a4011f8b7e77cb",
+      "human_reviewed": false,
+      "id": "1c698fb4-f4e6-419b-bdcc-1b25cbe2b035",
+      "images": [],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/1c698fb4-f4e6-419b-bdcc-1b25cbe2b035.json",
+      "metadata_sha256": "b0e2035b7d23ab855e050041e7502eee0ea975378c8d1fc37b02dfe11c2f3a0e",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Sœur à sœur",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "ad61f4b9009ceb692738e67bfe8cebef4cb378ea1ea96cae5a9794b4be22a0d2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Comprendre la soumission",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
       "html_sha256": "c68506fdd8d6dddd603c5691263b1da4dfeb29290bfcd308bf6dafd86d3dd310",
       "human_reviewed": false,
@@ -6060,6 +6498,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Une réflexion sur la première Église mennonite américaine",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/391d4642-07e2-4003-83db-fa33dc08a8ca.html",
+      "html_sha256": "b84a14218efe2f827c494f64ba3b30e1b75750d2b17f96434d324623a94621c5",
+      "human_reviewed": false,
+      "id": "391d4642-07e2-4003-83db-fa33dc08a8ca",
+      "images": [
+        {
+          "alt": "Un crocus pâle épanouissant à travers la neige fondante",
+          "public_path": "/images/articles/391d4642-07e2-4003-83db-fa33dc08a8ca-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/391d4642-07e2-4003-83db-fa33dc08a8ca.json",
+      "metadata_sha256": "2dcb14cba540affcf6bda7c4163a9148583056cd04a563ec0da039c4f9b090ea",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Réflexions d'un missionnaire",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d14a8e9ac7f4c07525900d0c21ec1a6c29c2da40405328d077639b18af091bf1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Vous devez naître de nouveau",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -6310,6 +6776,46 @@
       "status": "ready",
       "subtitle": "Le quatrième article de la série sur le discipulat",
       "title": "Hommes de foi",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.html",
+      "html_sha256": "ff64f157510f1cdb52b61cd46c1ea46a97dd1a9794aa83a513176ffbcbad2c1a",
+      "human_reviewed": false,
+      "id": "58d3859b-42f6-4cf1-80e6-fa847d9dc4a4",
+      "images": [
+        {
+          "alt": "Fournitures scolaires colorées et un stéthoscope sur un fond pâle",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-1.jpg"
+        },
+        {
+          "alt": "Une salle de classe vide avec des rangées de pupitres",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-2.jpg"
+        },
+        {
+          "alt": "Des enfants empilant leurs mains ensemble",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-3.jpg"
+        },
+        {
+          "alt": "Une ambulance roulant avec ses feux d’urgence allumés",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.json",
+      "metadata_sha256": "f75bbc546d3683e9b9187e230141405de0b977bab33fa1b19e39bb38c44f381c",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Coin des enfants",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c8195cf9294d2ec905003041f1ddf8ec8c3e1c35f090d8e7010f8817b4a576d2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Une influence qui change la vie",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -7300,6 +7806,34 @@
     },
     {
       "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/fe94355d-8741-49a7-8f66-16003daa3f89.html",
+      "html_sha256": "67786e94902fe9b313b12732234c51f59300b4624b4411128e5642fcb0902f50",
+      "human_reviewed": false,
+      "id": "fe94355d-8741-49a7-8f66-16003daa3f89",
+      "images": [
+        {
+          "alt": "Partition de Reste avec moi : tombe vite le soir, créditée à Henry F. Lyte, 1847, et William H. Monk, 1861",
+          "public_path": "/images/articles/fe94355d-8741-49a7-8f66-16003daa3f89-1.png"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/fe94355d-8741-49a7-8f66-16003daa3f89.json",
+      "metadata_sha256": "cc748d87315c2e8e81b6cf6b6dd590a976fb368d5680898e1752bd97620a11dd",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Une histoire de cantique",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Reste avec moi : tombe vite le soir",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
       "direction": "rtl",
       "html": "content/heb/articles/10933457-b503-48e1-9346-49ff54d1b6fe.html",
       "html_sha256": "fb0538f67185c79037810ff27c35f884b52ebe7879e10fc332ab65702dc69be7",
@@ -8282,6 +8816,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/cb06f158-b3bf-41e8-9b8c-3f8490443a07.html",
+      "html_sha256": "f14499970f97fc0b455a5c0a5032cb3ac8514fff044a6682af1c139909ac02c4",
+      "human_reviewed": false,
+      "id": "cb06f158-b3bf-41e8-9b8c-3f8490443a07",
+      "images": [],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/cb06f158-b3bf-41e8-9b8c-3f8490443a07.json",
+      "metadata_sha256": "1e3cc2f087299cd104905723b3590f5dd55b26ac774808b2d6e9bd1f0f771154",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "युवा प्रेरणाएँ",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "4dca0fb4064954f718edd76356f4b3252712476d53d4c6f6f30b8608493c5b94",
+      "status": "ready",
+      "subtitle": null,
+      "title": "जब आपको हार मानने जैसा लगे",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/cc225bc9-2dda-46f3-a628-13af4fd95e7a.html",
       "html_sha256": "5ca74b994d751e78caed0672c6282d9c3b1954419612d43e4c840d654fd31953",
       "human_reviewed": false,
@@ -8799,6 +9356,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/3feab4dd-c830-4ead-ad57-24d853847088.html",
+      "html_sha256": "fe6e5d29c3d4edcc7065973f1133f73aad10e30f84236178b3fd8e6d76603f5c",
+      "human_reviewed": false,
+      "id": "3feab4dd-c830-4ead-ad57-24d853847088",
+      "images": [
+        {
+          "alt": "Tampak dekat duri-duri tajam pada dahan yang lapuk",
+          "public_path": "/images/articles/3feab4dd-c830-4ead-ad57-24d853847088-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/3feab4dd-c830-4ead-ad57-24d853847088.json",
+      "metadata_sha256": "cf2f4a48633fd4d803990e0d69db2f22928ab496e8f5b8730cc7a1ae93182344",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SEJARAH GEREJA",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "37240e01def41772640b0e9565ef16f1adfbc8d9f2aa56662e8ee18b41e3288d",
+      "status": "ready",
+      "subtitle": "Dari petani Zurich menjadi martir Anabaptis",
+      "title": "Hans Landis",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/45c612ff-1966-4079-9ba5-09ab022917ea.html",
       "html_sha256": "527dafd2aad82c3a4fcd3e52b52de01893c593a0445d36086e36c765733b7930",
       "human_reviewed": false,
@@ -8994,6 +9579,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.html",
+      "html_sha256": "e3186d37b8f4c9b5cfc51f5117de5bb41a0ec15bf0355e8d8e7701ef879770fc",
+      "human_reviewed": false,
+      "id": "58d3859b-42f6-4cf1-80e6-fa847d9dc4a4",
+      "images": [
+        {
+          "alt": "Perlengkapan sekolah berwarna-warni dan stetoskop di atas latar belakang pucat",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-1.jpg"
+        },
+        {
+          "alt": "Sebuah ruang kelas kosong dengan deretan meja",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-2.jpg"
+        },
+        {
+          "alt": "Anak-anak menumpuk tangan mereka bersama",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-3.jpg"
+        },
+        {
+          "alt": "Sebuah ambulans melaju dengan lampu daruratnya menyala",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.json",
+      "metadata_sha256": "c1f7d2e31e03e726603effd528205eb37919744417b220617ed956fa0e84d437",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Sudut Anak-anak",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c8195cf9294d2ec905003041f1ddf8ec8c3e1c35f090d8e7010f8817b4a576d2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Pengaruh yang Mengubah Hidup",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/5a87c21f-cce9-4033-8a43-5458311bc7f0.html",
       "html_sha256": "cd014f5bd987821317c42b975c37a416b87fcb463fee87a794ea7f26cca4af9a",
       "human_reviewed": false,
@@ -9077,6 +9702,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Dari Editor",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/71a8a627-ef21-4efb-9dd1-36d5124ac192.html",
+      "html_sha256": "0471c295c397b9ec5cea82ec73a9fb6498be19d062237e0ba9dfad3a2981ea20",
+      "human_reviewed": false,
+      "id": "71a8a627-ef21-4efb-9dd1-36d5124ac192",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/71a8a627-ef21-4efb-9dd1-36d5124ac192-1.png"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/71a8a627-ef21-4efb-9dd1-36d5124ac192.json",
+      "metadata_sha256": "6aa836b7033876947d957dbb0a7e2aa0d4f6c6e56f6db996b79d3a769664d2dd",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "DARI REDAKSI",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c8c09427567d4bc1f9b13eb8f03d2de65724d1971e30094c9e925e9045066f8d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dari Redaksi",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -9588,6 +10241,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/cb06f158-b3bf-41e8-9b8c-3f8490443a07.html",
+      "html_sha256": "b0ebafede130a5f3a253f39efa77d67161a9a0a2ec9e83dc36ed401e8157dec0",
+      "human_reviewed": false,
+      "id": "cb06f158-b3bf-41e8-9b8c-3f8490443a07",
+      "images": [],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/cb06f158-b3bf-41e8-9b8c-3f8490443a07.json",
+      "metadata_sha256": "efddacd5af33db71c81421f1b8d12cd11dcdac1729232cf7c436a40999d43f05",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Inspirasi bagi Remaja",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "4dca0fb4064954f718edd76356f4b3252712476d53d4c6f6f30b8608493c5b94",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ketika Anda Merasa Ingin Menyerah",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/cc225bc9-2dda-46f3-a628-13af4fd95e7a.html",
       "html_sha256": "a3fc84b421964abe37e344eb7bffc8847e95f329e1664df86942640cbb6b0c3b",
       "human_reviewed": false,
@@ -9926,6 +10602,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Sindrom Kelebihan Beban",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/fe94355d-8741-49a7-8f66-16003daa3f89.html",
+      "html_sha256": "aec9ee4e8b0441fe72c6faafb46f7e44db25b2e09b2f2a465a90f682ac579c16",
+      "human_reviewed": false,
+      "id": "fe94355d-8741-49a7-8f66-16003daa3f89",
+      "images": [
+        {
+          "alt": "Notasi lagu untuk Abide With Me, Fast Falls the Eventide, dikreditkan kepada Henry F. Lyte, 1847, dan William H. Monk, 1861",
+          "public_path": "/images/articles/fe94355d-8741-49a7-8f66-16003daa3f89-1.png"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/fe94355d-8741-49a7-8f66-16003daa3f89.json",
+      "metadata_sha256": "be8d7b6d95ab552815981753b7a01c38b7a01a0d7f194757fa5cfa3d5a05d907",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Sejarah Sebuah Himne",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Tinggallah Bersamaku, Senja Cepat Menutup Hari",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -10490,6 +11194,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.html",
+      "html_sha256": "93bfe7a24b7499dc6e0adc410bc422afb94f43d123eda7c5a357a72054d29117",
+      "human_reviewed": false,
+      "id": "58d3859b-42f6-4cf1-80e6-fa847d9dc4a4",
+      "images": [
+        {
+          "alt": "Forniture scolastiche colorate e uno stetoscopio su uno sfondo pallido",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-1.jpg"
+        },
+        {
+          "alt": "Una classe vuota con file di banchi",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-2.jpg"
+        },
+        {
+          "alt": "Bambini che impilano le loro mani insieme",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-3.jpg"
+        },
+        {
+          "alt": "Un’ambulanza che procede con le luci d’emergenza accese",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.json",
+      "metadata_sha256": "a629cc38d0807d35bdd6cccb82aaad92bf5327942ef6f4835c4151549c0a12fc",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Angolo dei bambini",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c8195cf9294d2ec905003041f1ddf8ec8c3e1c35f090d8e7010f8817b4a576d2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Un’influenza che cambia la vita",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/5a87c21f-cce9-4033-8a43-5458311bc7f0.html",
       "html_sha256": "2c92eec487f9e4a23cca59b1022bbf9dcd5c7b4eb970574a95d0113a133e3566",
       "human_reviewed": false,
@@ -10721,6 +11465,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Circumstantial Overload",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4.html",
+      "html_sha256": "36fa3fe1cb1fead02b8b37a2d93389b9efccac70945e8a1a8c5057ca0512db20",
+      "human_reviewed": false,
+      "id": "951f56e4-2ce8-4f01-9500-bfeee209cdb4",
+      "images": [
+        {
+          "alt": "Una strada illuminata dal sole che serpeggia attraverso un paesaggio boscato",
+          "public_path": "/images/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4.json",
+      "metadata_sha256": "0784d56d098ec244399a04c1f50962f3fd377bc534938ad3a363b3c4d3e6c9af",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Vita cristiana vittoriosa",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "6ba0f430c997b1ea3450b766c83b9abcf64dbdc84cdd47383ef0cebf9766d0dd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Il porto del riposo",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -11240,6 +12012,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/d38bf79f-957f-413c-ad4d-a6b4fa8c8112.html",
+      "html_sha256": "3ade03dfcc523096bb39486bcf65930b631a56041d9a59756b20e9ee87c4e2ce",
+      "human_reviewed": false,
+      "id": "d38bf79f-957f-413c-ad4d-a6b4fa8c8112",
+      "images": [],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/d38bf79f-957f-413c-ad4d-a6b4fa8c8112.json",
+      "metadata_sha256": "5c6d1b9a769236959d3d6863f978bba6d88e35cca37cc00ec8aa6f6efed82b39",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Una parola da un medico",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "48e3cf7ce54a82130b52527f677657d3f940e34281e04d33a0d21d610cf9910a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Cancro… Che cos’è?",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
       "html_sha256": "034eb8dc05bcc15920273319889f69d21df393bdabf1a6af913e49d4cfac36a3",
       "human_reviewed": false,
@@ -11439,6 +12234,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "La sindrome del sovraccarico",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/fe94355d-8741-49a7-8f66-16003daa3f89.html",
+      "html_sha256": "c41685af509ad6f13656f5126012eafdc26b7756270c6b2535f7249785678a9e",
+      "human_reviewed": false,
+      "id": "fe94355d-8741-49a7-8f66-16003daa3f89",
+      "images": [
+        {
+          "alt": "Partitura di Abide With Me, Fast Falls the Eventide, attribuita a Henry F. Lyte, 1847, e William H. Monk, 1861",
+          "public_path": "/images/articles/fe94355d-8741-49a7-8f66-16003daa3f89-1.png"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/fe94355d-8741-49a7-8f66-16003daa3f89.json",
+      "metadata_sha256": "4092ecf59fdd71ad25362ec7380c944acdaf78302a9dcfc78f36e69d6455057a",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "La storia di un inno",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Resta con me: rapido cala il vespro",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -12005,6 +12828,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "편집장의 글",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/71a8a627-ef21-4efb-9dd1-36d5124ac192.html",
+      "html_sha256": "da6400190ebfd93bc2d47854a0b45b00838d6687796e9b459ef95d4dab0c70e6",
+      "human_reviewed": false,
+      "id": "71a8a627-ef21-4efb-9dd1-36d5124ac192",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/71a8a627-ef21-4efb-9dd1-36d5124ac192-1.png"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/71a8a627-ef21-4efb-9dd1-36d5124ac192.json",
+      "metadata_sha256": "936c832f62c1bfefa7bd4128791457bad9d05706618a4b89e1752321aabbce3e",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "편집자의 글",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c8c09427567d4bc1f9b13eb8f03d2de65724d1971e30094c9e925e9045066f8d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "편집자의 글",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -12689,6 +13540,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/fe94355d-8741-49a7-8f66-16003daa3f89.html",
+      "html_sha256": "823739519f4579103204f4c395b78ecc031458b3f4fa9547672a92243cc4f930",
+      "human_reviewed": false,
+      "id": "fe94355d-8741-49a7-8f66-16003daa3f89",
+      "images": [
+        {
+          "alt": "‘나와 함께 머물소서(Abide With Me, Fast Falls the Eventide)’의 악보, 작사 Henry F. Lyte, 1847, 작곡 William H. Monk, 1861",
+          "public_path": "/images/articles/fe94355d-8741-49a7-8f66-16003daa3f89-1.png"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/fe94355d-8741-49a7-8f66-16003daa3f89.json",
+      "metadata_sha256": "de50ed7940591175ea7b5775cfe1744d02e2e61b1483da4871be2808a188b749",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "찬송가의 역사",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "나와 함께 머물소서, 해질녘이 빠르게 내리다",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/02db24ae-5132-49c6-a6fd-da73417871e3.html",
       "html_sha256": "ef8375e973d0d614f173f41781dc98ff68b2c87f9b8018bb884a998cb89e8b1e",
       "human_reviewed": false,
@@ -13247,6 +14126,34 @@
       "section": "Van de REDACTEUR",
       "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
       "source_translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Van de redacteur",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/71a8a627-ef21-4efb-9dd1-36d5124ac192.html",
+      "html_sha256": "1b6595a161847327c8e2ffd3567503fbd0af54c8d7771eb4af3ec5e51cb5c028",
+      "human_reviewed": false,
+      "id": "71a8a627-ef21-4efb-9dd1-36d5124ac192",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/71a8a627-ef21-4efb-9dd1-36d5124ac192-1.png"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/71a8a627-ef21-4efb-9dd1-36d5124ac192.json",
+      "metadata_sha256": "ba4c9882dc58055c59e0f4fc1790003cfd403c7d5e3a738c99ed31561db33882",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "VAN DE REDACTEUR",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c8c09427567d4bc1f9b13eb8f03d2de65724d1971e30094c9e925e9045066f8d",
       "status": "ready",
       "subtitle": null,
       "title": "Van de redacteur",
@@ -14152,6 +15059,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/fe94355d-8741-49a7-8f66-16003daa3f89.html",
+      "html_sha256": "2ea58b0cb137652ed7ec2e50215e92f0d6cda9b0bf77f9c910b30410b72cb4cc",
+      "human_reviewed": false,
+      "id": "fe94355d-8741-49a7-8f66-16003daa3f89",
+      "images": [
+        {
+          "alt": "Bladmuziek voor Abide With Me, Fast Falls the Eventide, toegeschreven aan Henry F. Lyte, 1847, en William H. Monk, 1861",
+          "public_path": "/images/articles/fe94355d-8741-49a7-8f66-16003daa3f89-1.png"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/fe94355d-8741-49a7-8f66-16003daa3f89.json",
+      "metadata_sha256": "fa74a4ded38bf7461d1030d3b7353aef4506e15ec72577e0684a50b4c641a1e5",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Een hymnegeschiedenis",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Blijf bij mij, snel valt de avondtijd",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/02db24ae-5132-49c6-a6fd-da73417871e3.html",
       "html_sha256": "145ea6b6b1f90775146eadb190c66fa53410400c1975b54e7972aaadab987c45",
       "human_reviewed": false,
@@ -14479,6 +15414,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/391d4642-07e2-4003-83db-fa33dc08a8ca.html",
+      "html_sha256": "4e0cd435a1ae041e9b6cff885cb8f983b6e16f0de35502c1a0f15b3abdc8a426",
+      "human_reviewed": false,
+      "id": "391d4642-07e2-4003-83db-fa33dc08a8ca",
+      "images": [
+        {
+          "alt": "En blek krokus som blomstrer gjennom smeltende snø",
+          "public_path": "/images/articles/391d4642-07e2-4003-83db-fa33dc08a8ca-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/391d4642-07e2-4003-83db-fa33dc08a8ca.json",
+      "metadata_sha256": "0e5e0cc6da9ee42a76c26089660f889b91afdd22bc1b7a5a159db7d3973e7dd6",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "EN MISJONÆRS REFLEKSJONER",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d14a8e9ac7f4c07525900d0c21ec1a6c29c2da40405328d077639b18af091bf1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dere må bli født på ny",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/45c612ff-1966-4079-9ba5-09ab022917ea.html",
       "html_sha256": "103321d74b861d5fd2fb920121f96bc1e7aa4e31fdcdf1aff34b9b1e88d22705",
       "human_reviewed": false,
@@ -14622,6 +15585,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/55b18915-e213-448c-8fe1-d430e195e768.html",
+      "html_sha256": "42486d40dad7a4e4889c9f5fe4582855795053407bfdeb7b2f328b6fcd964bc8",
+      "human_reviewed": false,
+      "id": "55b18915-e213-448c-8fe1-d430e195e768",
+      "images": [
+        {
+          "alt": "Lyn under mørke stormskyer over et jorde",
+          "public_path": "/images/articles/55b18915-e213-448c-8fe1-d430e195e768-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/55b18915-e213-448c-8fe1-d430e195e768.json",
+      "metadata_sha256": "42930ccd60856c6990dcebbc715b13e19be428435d0589ae772107fedbd73cae",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Kristent disippelskap",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "73de90ede959b89d4fd696b2e9474c165d018804ec574570e47ca5f30322f740",
+      "status": "ready",
+      "subtitle": "Den fjerde artikkelen i Disippelskap-serien",
+      "title": "Troens menn",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/58963510-f56e-43e0-88dd-0eb9941ddea9.html",
       "html_sha256": "c186626fbf82779ee980632e539a7f1c8844ce789b50dd2d903d554a5d257484",
       "human_reviewed": false,
@@ -14645,6 +15636,46 @@
       "status": "ready",
       "subtitle": null,
       "title": "En herlig kirke",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.html",
+      "html_sha256": "1ec0f684bbaac334c1afd1cb062d2a2bf6ae5ac10ab88fef81a7bea045de5e76",
+      "human_reviewed": false,
+      "id": "58d3859b-42f6-4cf1-80e6-fa847d9dc4a4",
+      "images": [
+        {
+          "alt": "Fargerike skoleartikler og et stetoskop på en blek bakgrunn",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-1.jpg"
+        },
+        {
+          "alt": "Et tomt klasserom med rader av pulter",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-2.jpg"
+        },
+        {
+          "alt": "Barn som stabler hendene sine sammen",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-3.jpg"
+        },
+        {
+          "alt": "En ambulanse kjører med blålysene på",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.json",
+      "metadata_sha256": "51f73cb7f59896d2ecac01414009030aff5d7f604418442ea8ae6084412aa728",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Barnas hjørne",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c8195cf9294d2ec905003041f1ddf8ec8c3e1c35f090d8e7010f8817b4a576d2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "En livsforvandlende innflytelse",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -14724,6 +15755,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "From the Editor",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/71a8a627-ef21-4efb-9dd1-36d5124ac192.html",
+      "html_sha256": "ed5b71127aa5534bbbde02c10c1101a84dbe05fc11ce9ad26f03ea1b6943b904",
+      "human_reviewed": false,
+      "id": "71a8a627-ef21-4efb-9dd1-36d5124ac192",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/71a8a627-ef21-4efb-9dd1-36d5124ac192-1.png"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/71a8a627-ef21-4efb-9dd1-36d5124ac192.json",
+      "metadata_sha256": "4da066e83326dd7ca0a18888482b65ed4c50d442e89cd32d7e5aea35a394fede",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "FRA REDAKTØREN",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c8c09427567d4bc1f9b13eb8f03d2de65724d1971e30094c9e925e9045066f8d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Fra redaktøren",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -14872,6 +15931,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Omstendighetsbelastning",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4.html",
+      "html_sha256": "c4ba0fbbae97a7b814b8f543c0fec37892de66acc0287253a0c3bc5bd64785b6",
+      "human_reviewed": false,
+      "id": "951f56e4-2ce8-4f01-9500-bfeee209cdb4",
+      "images": [
+        {
+          "alt": "En solbelyst vei som bøyer seg gjennom et skogkledd landskap",
+          "public_path": "/images/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4.json",
+      "metadata_sha256": "6d40e5fa862255732385764026d00fe0c8683c1c7ed0cd91c7d6858c16d51a53",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Seirende kristent liv",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "6ba0f430c997b1ea3450b766c83b9abcf64dbdc84cdd47383ef0cebf9766d0dd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Havnen for hvile",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -15696,6 +16783,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/391d4642-07e2-4003-83db-fa33dc08a8ca.html",
+      "html_sha256": "360262c3de63fafd829483ad84ecdc148a69df043ec2a15fca71a74d16f85dd9",
+      "human_reviewed": false,
+      "id": "391d4642-07e2-4003-83db-fa33dc08a8ca",
+      "images": [
+        {
+          "alt": "Um açafrão pálido florescendo através da neve a derreter",
+          "public_path": "/images/articles/391d4642-07e2-4003-83db-fa33dc08a8ca-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/391d4642-07e2-4003-83db-fa33dc08a8ca.json",
+      "metadata_sha256": "a02bccd19999cab0cbf30ed9f6f746538966043b88171c96b2ea4cd0f39ee287",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "MEDITAÇÕES DE UM MISSIONÁRIO",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d14a8e9ac7f4c07525900d0c21ec1a6c29c2da40405328d077639b18af091bf1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Deveis Nascer de Novo",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/3be24d0c-4c97-452e-b3c3-177e16d990ff.html",
       "html_sha256": "652d02367d2ad3ae7147fea42f2ac805d885ddd67d916b375571ee8a02ce5063",
       "human_reviewed": false,
@@ -15914,6 +17029,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/55b18915-e213-448c-8fe1-d430e195e768.html",
+      "html_sha256": "fa758ef5fd9ff9ac4ad2989c662a8aa39b10ba70f5d4c67c7af6933f2e448737",
+      "human_reviewed": false,
+      "id": "55b18915-e213-448c-8fe1-d430e195e768",
+      "images": [
+        {
+          "alt": "Relâmpago sob nuvens escuras de tempestade sobre um campo",
+          "public_path": "/images/articles/55b18915-e213-448c-8fe1-d430e195e768-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/55b18915-e213-448c-8fe1-d430e195e768.json",
+      "metadata_sha256": "17b10aa0e7a3ae0f8063c3c99fb0c7e468ac16ecfbe4f2360c4c49f63d080c29",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Discipulado Cristão",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "73de90ede959b89d4fd696b2e9474c165d018804ec574570e47ca5f30322f740",
+      "status": "ready",
+      "subtitle": "O Quarto Artigo na Série de Discipulado",
+      "title": "Homens de Fé",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/58963510-f56e-43e0-88dd-0eb9941ddea9.html",
       "html_sha256": "6ea971b13e8da43cc36f8d06c491c45a7369516224f9a248bc78fe3945d170e5",
       "human_reviewed": false,
@@ -15937,6 +17080,46 @@
       "status": "ready",
       "subtitle": null,
       "title": "Uma Igreja Gloriosa",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.html",
+      "html_sha256": "6ab71cd1be07263ec58545a2b2ecbeb26d1cd6d5960ac0ddbac89e3ddc84ba3e",
+      "human_reviewed": false,
+      "id": "58d3859b-42f6-4cf1-80e6-fa847d9dc4a4",
+      "images": [
+        {
+          "alt": "Material escolar colorido e um estetoscópio sobre um fundo pálido",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-1.jpg"
+        },
+        {
+          "alt": "Uma sala de aula vazia com fileiras de carteiras",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-2.jpg"
+        },
+        {
+          "alt": "Crianças empilhando as mãos juntas",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-3.jpg"
+        },
+        {
+          "alt": "Uma ambulância dirigindo com as luzes de emergência acesas",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.json",
+      "metadata_sha256": "6b96d1ff59a6234343f072f850db74627ce3e9b1cfd95ba1b34efd1c2fb6d84a",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Cantinho das Crianças",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c8195cf9294d2ec905003041f1ddf8ec8c3e1c35f090d8e7010f8817b4a576d2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Uma influência que muda a vida",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -16614,6 +17797,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/cb06f158-b3bf-41e8-9b8c-3f8490443a07.html",
+      "html_sha256": "56b0ea31b4f4f83ba43ac8c735a8f212abbfa4f7c726b8e0ba1cb19dff68f024",
+      "human_reviewed": false,
+      "id": "cb06f158-b3bf-41e8-9b8c-3f8490443a07",
+      "images": [],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/cb06f158-b3bf-41e8-9b8c-3f8490443a07.json",
+      "metadata_sha256": "0ad7ce4cde0094739fbb1b07679a38603075b50865ec485bee1a83856496bca6",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Inspirações para Jovens",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "4dca0fb4064954f718edd76356f4b3252712476d53d4c6f6f30b8608493c5b94",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Quando Você Sente que Quer Desistir",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/cc225bc9-2dda-46f3-a628-13af4fd95e7a.html",
       "html_sha256": "b3fe5200f15599cbd3b8d8b1d2a53622fe9e570edfa27bb447089ad34446be82",
       "human_reviewed": false,
@@ -16975,6 +18181,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/fe94355d-8741-49a7-8f66-16003daa3f89.html",
+      "html_sha256": "e3d22677af0af3d1a9ef0a6af3b101fdb0547217b4cfc84337c1d62992658215",
+      "human_reviewed": false,
+      "id": "fe94355d-8741-49a7-8f66-16003daa3f89",
+      "images": [
+        {
+          "alt": "Partitura de 'Fica comigo: depressa cai o entardecer', creditada a Henry F. Lyte, 1847, e William H. Monk, 1861",
+          "public_path": "/images/articles/fe94355d-8741-49a7-8f66-16003daa3f89-1.png"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/fe94355d-8741-49a7-8f66-16003daa3f89.json",
+      "metadata_sha256": "d9c2c8dc37818fdbff02ef3328f62e47e6a543711fa3daf20caf1b167cda1772",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Uma História de Hino",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Fica comigo: depressa cai o entardecer",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/02db24ae-5132-49c6-a6fd-da73417871e3.html",
       "html_sha256": "7dcf51063a756973a650c84ee36cb3ba7e5a9f8c46a9866f71a0745553363ef4",
       "human_reviewed": false,
@@ -17242,6 +18476,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/3feab4dd-c830-4ead-ad57-24d853847088.html",
+      "html_sha256": "895521d726a4b01ca06817fcaa4e8ba45dc02af03bc846cdb9b7115c333cc0bc",
+      "human_reviewed": false,
+      "id": "3feab4dd-c830-4ead-ad57-24d853847088",
+      "images": [
+        {
+          "alt": "Крупный план острых шипов на выветрившихся ветвях",
+          "public_path": "/images/articles/3feab4dd-c830-4ead-ad57-24d853847088-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/3feab4dd-c830-4ead-ad57-24d853847088.json",
+      "metadata_sha256": "896f59a46ef416ebec23bfe2667c28c4c50e2810ea4b5b4b9ab16fcd2acc8395",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ИСТОРИЯ ЦЕРКВИ",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "37240e01def41772640b0e9565ef16f1adfbc8d9f2aa56662e8ee18b41e3288d",
+      "status": "ready",
+      "subtitle": "От цюрихского фермера до анабаптистского мученика",
+      "title": "Ханс Ландис",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9.html",
       "html_sha256": "bc67ac3207228179674686ad37fce1ed7e250f8ffd38a2dd8829d1f94cfd4540",
       "human_reviewed": false,
@@ -17446,6 +18708,34 @@
       "section": "От редактора",
       "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
       "source_translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
+      "status": "ready",
+      "subtitle": null,
+      "title": "От редактора",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/71a8a627-ef21-4efb-9dd1-36d5124ac192.html",
+      "html_sha256": "f34ef3b9da60d1a0a4b8af1e59f26945a032cf56ff7a9369c28159abdb9b31a3",
+      "human_reviewed": false,
+      "id": "71a8a627-ef21-4efb-9dd1-36d5124ac192",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/71a8a627-ef21-4efb-9dd1-36d5124ac192-1.png"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/71a8a627-ef21-4efb-9dd1-36d5124ac192.json",
+      "metadata_sha256": "0b99550936e128df5c1ba8ec2ad7b371308e15f02c1b3aa607aeeabed3283be5",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ОТ РЕДАКТОРА",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c8c09427567d4bc1f9b13eb8f03d2de65724d1971e30094c9e925e9045066f8d",
       "status": "ready",
       "subtitle": null,
       "title": "От редактора",
@@ -18443,6 +19733,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "¿Responde Dios la oración?",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/3feab4dd-c830-4ead-ad57-24d853847088.html",
+      "html_sha256": "f79cee6afd80758a10311983357fccf9997601a38154c455ed8cd2d52988e267",
+      "human_reviewed": false,
+      "id": "3feab4dd-c830-4ead-ad57-24d853847088",
+      "images": [
+        {
+          "alt": "Un primer plano de espinas afiladas en ramas desgastadas",
+          "public_path": "/images/articles/3feab4dd-c830-4ead-ad57-24d853847088-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/3feab4dd-c830-4ead-ad57-24d853847088.json",
+      "metadata_sha256": "ec3601c4518a20a02692b6869dd3af9b730cb2f6ef6671fe9c718198f73a23b5",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "HISTORIA DE LA IGLESIA",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "37240e01def41772640b0e9565ef16f1adfbc8d9f2aa56662e8ee18b41e3288d",
+      "status": "ready",
+      "subtitle": "De campesino de Zúrich a mártir anabaptista",
+      "title": "Hans Landis",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -19729,6 +21047,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/fe94355d-8741-49a7-8f66-16003daa3f89.html",
+      "html_sha256": "52607593a13efe1963a2b7be93e1a57c5d0dc61d7aaa2ac4246419db45640dae",
+      "human_reviewed": false,
+      "id": "fe94355d-8741-49a7-8f66-16003daa3f89",
+      "images": [
+        {
+          "alt": "Partitura de Abide With Me, Fast Falls the Eventide, acreditada a Henry F. Lyte, 1847, y William H. Monk, 1861",
+          "public_path": "/images/articles/fe94355d-8741-49a7-8f66-16003daa3f89-1.png"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/fe94355d-8741-49a7-8f66-16003daa3f89.json",
+      "metadata_sha256": "272790c28130141716a86b199ea85cefea9d7c81aede665989c7128fa17a9a67",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Una historia de un himno",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Quédate conmigo: cae veloz el crepúsculo",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
       "html_sha256": "80f2f38e98c605f5f5bee57cbac0e9c7248d508ec45145b085727d31b8d85464",
       "human_reviewed": false,
@@ -19912,6 +21258,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Kutoka kwa Mhariri",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/55b18915-e213-448c-8fe1-d430e195e768.html",
+      "html_sha256": "47eaab05e87ffef95dfb68add234d5d6c943d87a94f77ccfe4d0f864c50122a8",
+      "human_reviewed": false,
+      "id": "55b18915-e213-448c-8fe1-d430e195e768",
+      "images": [
+        {
+          "alt": "Mwangaza wa umeme chini ya mawingu meusi ya dhoruba juu ya shamba",
+          "public_path": "/images/articles/55b18915-e213-448c-8fe1-d430e195e768-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/55b18915-e213-448c-8fe1-d430e195e768.json",
+      "metadata_sha256": "d7c698c8c6bef7f4e8b64333af2db437584f47957af242630806cf986101f6b7",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Ufuasi wa Kikristo",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "73de90ede959b89d4fd696b2e9474c165d018804ec574570e47ca5f30322f740",
+      "status": "ready",
+      "subtitle": "Makala ya Nne katika Mfululizo wa Uufuzi",
+      "title": "Wanaume wa Imani",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -20672,6 +22046,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.html",
+      "html_sha256": "833280ab2e651321ffa6c841948982c902e3fec84982ab358deabed93370a4ad",
+      "human_reviewed": false,
+      "id": "58d3859b-42f6-4cf1-80e6-fa847d9dc4a4",
+      "images": [
+        {
+          "alt": "Färgglada skolmaterial och ett stetoskop på en ljus bakgrund",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-1.jpg"
+        },
+        {
+          "alt": "Ett tomt klassrum med rader av bänkar",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-2.jpg"
+        },
+        {
+          "alt": "Barn som lägger sina händer ovanpå varandra",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-3.jpg"
+        },
+        {
+          "alt": "En ambulans som kör med sina nödljus på",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.json",
+      "metadata_sha256": "872cec23fe4892316d9fe345de52e43f4dd86a7a8d6887b66147899e98e9dac2",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Barnhörnan",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c8195cf9294d2ec905003041f1ddf8ec8c3e1c35f090d8e7010f8817b4a576d2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "En livsförändrande påverkan",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/5a87c21f-cce9-4033-8a43-5458311bc7f0.html",
       "html_sha256": "25b1622852d1a4e96ced8fee3a053dd93f04c0ebd89e4792fb0496ba4a5b7450",
       "human_reviewed": false,
@@ -20724,6 +22138,34 @@
       "section": "Från redaktören",
       "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
       "source_translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Från redaktören",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/71a8a627-ef21-4efb-9dd1-36d5124ac192.html",
+      "html_sha256": "0e48f0aad69e21a1c30069b52cb160cca45fe41bdae30d3aaaf082d3f5dd203b",
+      "human_reviewed": false,
+      "id": "71a8a627-ef21-4efb-9dd1-36d5124ac192",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/71a8a627-ef21-4efb-9dd1-36d5124ac192-1.png"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/71a8a627-ef21-4efb-9dd1-36d5124ac192.json",
+      "metadata_sha256": "577f558c2fb37c62ad3f38dd296a8795daf3147d0c90ad8cf9b231304a2fd7b3",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "FRÅN REDAKTÖREN",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c8c09427567d4bc1f9b13eb8f03d2de65724d1971e30094c9e925e9045066f8d",
       "status": "ready",
       "subtitle": null,
       "title": "Från redaktören",
@@ -21915,6 +23357,46 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.html",
+      "html_sha256": "a78407ea9dab2453cfa5213e82a14bd8d07ddd9524cd106fd9e0a33a70c3b3ef",
+      "human_reviewed": false,
+      "id": "58d3859b-42f6-4cf1-80e6-fa847d9dc4a4",
+      "images": [
+        {
+          "alt": "رنگین اسکول کے سامان اور ہلکے پس منظر پر سٹیتھوسکوپ",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-1.jpg"
+        },
+        {
+          "alt": "میزوں کی قطاروں کے ساتھ خالی کلاس روم",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-2.jpg"
+        },
+        {
+          "alt": "بچّے ایک دوسرے کے ہاتھوں کو ایک ساتھ رکھتے ہوئے",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-3.jpg"
+        },
+        {
+          "alt": "ایمبولینس اپنے ایمرجنسی لائٹس کے ساتھ جا رہی ہے",
+          "public_path": "/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.json",
+      "metadata_sha256": "c710378229dc315024841b73d08adc08222c96232f7c04f904538eb5a571cfcb",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "بچّوں کا گوشہ",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c8195cf9294d2ec905003041f1ddf8ec8c3e1c35f090d8e7010f8817b4a576d2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "زندگی بدل دینے والا اثر",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/5a87c21f-cce9-4033-8a43-5458311bc7f0.html",
       "html_sha256": "7ed646af19a78a5c76d94807bea7735ed40f64e33317e3e0e3cdb4a0a1389677",
       "human_reviewed": false,
@@ -22511,6 +23993,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "طب کی گوگلائزیشن",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/fe94355d-8741-49a7-8f66-16003daa3f89.html",
+      "html_sha256": "776be80d28d4b299c280168332f7c784993531381c6895b108a17d0358942fa4",
+      "human_reviewed": false,
+      "id": "fe94355d-8741-49a7-8f66-16003daa3f89",
+      "images": [
+        {
+          "alt": "Abide With Me کے شیٹ میوزک، عنوان: Fast Falls the Eventide، مصنف: Henry F. Lyte، 1847، اور William H. Monk، 1861 کے لیے کریڈٹ",
+          "public_path": "/images/articles/fe94355d-8741-49a7-8f66-16003daa3f89-1.png"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/fe94355d-8741-49a7-8f66-16003daa3f89.json",
+      "metadata_sha256": "0ba6054f598eefb6289c010aa9f5b52823161114e5fe2e7d79e3bc13e730c5ac",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ایک حمد کی تاریخ",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "میرے ساتھ ٹھہرو، شام تیزی سے چڑھ رہی ہے",
       "translation_model": "gpt-5-mini-2025-08-07"
     }
   ],

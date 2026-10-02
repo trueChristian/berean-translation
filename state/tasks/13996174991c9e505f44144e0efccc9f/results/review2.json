@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "2b76f3e7-5fe0-4e80-bb66-df4169f98d3a",
+    "response_id": "chatcmpl-EUX744WVPHkMHvDkko8T8v3pVA0hb",
+    "usage": {
+      "completion_tokens": 1411,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1088,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9014,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10425
+    }
+  },
+  "received_at": "2026-10-02T12:59:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"It spread and grew throughout Moravia, the Netherlands, Switzerland, and the Palatinate region of Germany.\" (English source) / Paragraph: \"Den spred sig och växte i Böhmen och Mähren, Nederländerna, Schweiz och Pfalz i Tyskland.\" (translation)",
+        "severity": "major",
+        "source_quote": "It spread and grew throughout Moravia, the Netherlands, Switzerland, and the Palatinate region of Germany.",
+        "suggested_fix": "Remove the added place name 'Böhmen' (Bohemia). Translate only the places printed in the English source: \"Mähren, Nederländerna, Schweiz och Pfalz i Tyskland.\" Preserve order and meaning from the English source.",
+        "translation_quote": "Den spred sig och växte i Böhmen och Mähren, Nederländerna, Schweiz och Pfalz i Tyskland."
+      },
+      {
+        "location": "Later paragraph referencing the mayor (second occurrence): English source: \"Rhudlof Rhan\" (later occurrence) / translation: \"Rudolf Rhan\"",
+        "severity": "minor",
+        "source_quote": "Rhudlof Rhan",
+        "suggested_fix": "Match the exact printed English spelling at each occurrence. The authoritative English text uses two different spellings; preserve the printed form used at this later location. Change this translated instance to \"Rhudlof Rhan\" to mirror the English source's later appearance.",
+        "translation_quote": "Rudolf Rhan"
+      }
+    ],
+    "passed": false,
+    "score": 62
+  }
+}

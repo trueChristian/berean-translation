@@ -2,7 +2,6 @@
   "article_id": "1c698fb4-f4e6-419b-bdcc-1b25cbe2b035",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -62,18 +61,45 @@
         },
         "total_tokens": 15739
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1059,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10078,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11137
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<p> ... Wanneer ons aan onderwerping dink, wat kom by ons op? ... die realiteit is dat as ons mans foute maak, dit reg is omdat ons self ook foute maak. Ook, as ons wedergebore is, en ons met God wandel, ... die Skrifte leer dat as ons man nie in sy plek is nie, dan deur die vrou wat wandel volgens die duidelike onderrig ... die man deur haar gesprek (of deur die manier waarop sy haar lewe voer) gewen kan word.</p>",
-      "severity": "major",
-      "source_quote": "\"if we don’t allow our husbands to lead out and make decisions, we are only crippling them.\"",
-      "suggested_fix": "Replace the mistranslation that renders \"crippling\" as \"verkrag\" (which means \"to rape\") with an appropriate Afrikaans equivalent that preserves the original meaning. For example, change the phrase \"ons net hulle verkrag\" to \"ons net hulle verlam\" or \"ons maak hulle magteloos\". Concretely, in the paragraph HTML, replace: \"... maar as ons nie ons mans toelaat om leiding te neem en besluite te neem nie, ons net hulle verkrag.\" with \"... maar as ons nie ons mans toelaat om leiding te neem en besluite te neem nie, maak ons hulle net magteloos.\"",
-      "translation_quote": "\"... maar as ons nie ons mans toelaat om leiding te neem en besluite te neem nie, ons net hulle verkrag.\""
+      "location": "source.html -- bullet quoting Ephesians 5:33 (first bulleted item)",
+      "severity": "minor",
+      "source_quote": "Nevertheless let … the wife see that she reverence her husband –Ephesians 5:33.",
+      "suggested_fix": "Translate the key term \"reverence\" with a word that more closely matches the theological nuance of the English (fearful/holy respect). Replace \"respek\" with \"eerbied\" so the italicised scripture line reads: <em>Desnieteenstaande, laat … die vrou sien dat sy <strong>eerbied vir haar man het</strong> – Efesiërs 5:33.</em> (Preserve the surrounding <li><em>…</em></li> HTML structure.)",
+      "translation_quote": "Desnieteenstaande, laat … die vrou sien dat sy <strong>respek vir haar man het</strong> – Efesiërs 5:33."
+    },
+    {
+      "location": "source.html -- paragraph and quoted passage(s) rendering \"conversation\" (e.g. paragraphs discussing 1 Peter 3:1 and the longer quoted 1 Peter 3:1-2 & 3:6-7)",
+      "severity": "minor",
+      "source_quote": "...the husband can be won through her conversation (or by the way she conducts her life). ...while they behold your chaste [modest, innocent, perfect, pure] conversation coupled with fear.",
+      "suggested_fix": "The English \"conversation\" here carries the sense of conduct/behaviour rather than literal \"conversation\" or \"talk.\" In some places the translation uses \"gesprek\" (which primarily means spoken conversation). For clarity and fidelity, render these instances as \"gedrag\" or \"leefwyse\" (and keep the bracketed explanatory equivalent if desired). Example fixes while preserving HTML tags/text: replace \"gesprek (of deur die manier waarop sy haar lewe voer)\" with \"gedrag (of deur die manier waarop sy haar lewe voer)\"; and in the quoted verse replace \"gesprek\" with \"gedrag\" or \"leefwyse\" so the verse reads e.g. \"…hulle ook sonder die woord deur die gedrag [leefwyse] van die vroue gewen mag word...\"",
+      "translation_quote": "die man deur haar gesprek (of deur die manier waarop sy haar lewe voer) gewen kan word. ...terwyl hulle julle kuise [reserwe, onskuldige, volmaakte, suiwer] gesprek saam met vrees aanskou."
     }
   ],
+  "finished_at": "2026-10-02T12:59:40+00:00",
   "id": "bed4ba18a580f37324d4954ab9c30e19",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "afr",
@@ -147,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 86,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1454fe6f465ec8ce9c2352c00a7a3b7b44c43055b67862782f9e04898d1cd850.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "ad61f4b9009ceb692738e67bfe8cebef4cb378ea1ea96cae5a9794b4be22a0d2",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

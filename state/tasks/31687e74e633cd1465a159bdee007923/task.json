@@ -2,7 +2,6 @@
   "article_id": "391d4642-07e2-4003-83db-fa33dc08a8ca",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -62,67 +61,67 @@
         },
         "total_tokens": 17985
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1859,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10257,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12116
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.title",
+      "location": "source.html paragraph 1",
       "severity": "major",
-      "source_quote": "Ye Must Be Born Again",
-      "suggested_fix": "Tafsiri kichwa kuwa Kiswahili, ikizingatia mantiki na mtindo wa asili. Pendekezo: “Mnafaa Kuzaliwa Upya” au “Lazima Uzaliwe Tena.” Chagua moja inayofaa kwa muktadha wa jarida na tumia ile ile katika eneo la tafsiri.",
-      "translation_quote": "Ye Must Be Born Again"
+      "source_quote": "Most, if not all, God-fearing Christians clearly see the moral decline of our land, but what about our churches?",
+      "suggested_fix": "Translate “God-fearing Christians” correctly as a phrase that means those who revere/fear God. For example: “Wakristo wanaomcha Mungu kwa hofu/wanamcha Mungu kwa heshima” or “Wakristo wanaomtukuza Mungu”. Preserve sentence meaning and tone.",
+      "translation_quote": "Wakristo wanaomtisha Mungu wengi, ikiwa sio wote, wanaona kwa uwazi mchakato wa kimaadili wa nchi yetu, lakini je, kanisa letu linashikilia mafundisho ya kibiblia au linafuata dunia kwa mabadiliko ya taratibu na kompromisi?"
     },
     {
-      "location": "source.section",
+      "location": "source.html paragraph quoting Galatians 5:22-23",
       "severity": "major",
-      "source_quote": "MUSINGS OF A MISSIONARY",
-      "suggested_fix": "Tafsiri sehemu/section kwenda Kiswahili kwa mtiririko wa tovuti. Pendekezo: “Fikra za Misionari” au “Mawazo ya Misionari.” Tumia maneno hayo badala ya Kiingereza.",
-      "translation_quote": "MUSINGS OF A MISSIONARY"
+      "source_quote": "love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance… –Galatians 5:22-23",
+      "suggested_fix": "Render the traditional meanings of the fruit in Kiswahili so theological sense is preserved. Suggested: “upendo, furaha, amani, uvumilivu, unyenyekevu, wema, imani, upole, uzingatiaji wa nafsi (self-control)…” or use conventional translations such as in a standard Kiswahili Bible: “upendo, furaha, amani, uvumilivu, wema, wema wa moyoni/unyenyekevu, imani, upole, kujidhibiti”. Keep order and referent to Galatians 5:22-23.",
+      "translation_quote": "<em>upendo, furaha, amani, uvumilivu, unyenyekevu, wema, imani, ukomavu wa nafsi, uzembe wa tamaa… –Wagalatia 5:22-23</em>"
     },
     {
-      "location": "source.html paragraph 2",
+      "location": "source.html quoting Jeremiah 17:10",
       "severity": "major",
-      "source_quote": "Overall, the American church seems to be thriving financially. Our businesses are improving, along with our standard of living, while spiritually, many Christians seem to be losing their zeal for godliness.",
-      "suggested_fix": "Rekebisha kifungu ili kurudisha maana ya asili. Badilisho sasa limeleta neno lisilo sahihi (“Kinga moja”) na kumfanya msamiati kueleweka kwa uwiano usiokuwa wa asili. Pendekezo: “Kwa ujumla, kanisa la Marekani linaonekana kufanikiwa kifedha. Biashara zetu zinaimarika pamoja na kiwango chetu cha maisha, lakini kiroho, Wakristo wengi wanaonekana kupoteza shauku yao ya kumtii Mungu.”",
-      "translation_quote": "Kinga moja, kanisa la Marekani linaonekana kufanikiwa kifedha. Biashara zetu zinaimarika, pamoja na kiwango chetu cha maisha, ilhali kiroho, Wakristo wengi wanaonekana kupoteza msukumo wa kuwa watiifu kwa Mungu."
+      "source_quote": "I the LORD search the heart, I try the reins… –Jeremiah 17:10.",
+      "suggested_fix": "Translate the phrase so it conveys the Biblical sense: for example “Mimi BWANA ninachunguza moyo, nachekesha/kichunguza matawi/mwendelezo wa nia” is wrong. Better: “Mimi BWANA ninatafiti moyo, ninajaribu mawazo ya moyo/kujitathmini kwa mioyo” or use the standard Kiswahili Bible wording: “Mimi, BWANA, ninaangalia moyo, ninajaribu viwango vya moyo.” Preserve the parallel structure.",
+      "translation_quote": "<em>MIMI BWANA ninatafuta moyo, ninasuluhisha viungo… –Yeremia 17:10.</em>"
     },
     {
-      "location": "source.html paragraph 8",
-      "severity": "major",
-      "source_quote": "Here you have a man that may be satisfied with his life. He has possessions and good health.",
-      "suggested_fix": "Rekebisha tafsiri iliyoambatana ili iwe imara kwa maana. Tafsiri ya sasa (“ametoroka na maisha yake”) ni isiyo sahihi na inabadili ujumbe. Pendekezo: “Hapa kuna mtu ambaye huenda alikuwa ameteremka/ameshiba katika maisha yake. Ana mali na afya njema.” (Badilisha “ametoroka” kwa “ameteremka/ameshiba” au maneno sawa ya Kiswahili.)",
-      "translation_quote": "Hapa una mtu ambaye huenda alikuwa ametoroka na maisha yake. Ana mali na afya njema."
-    },
-    {
-      "location": "source.html Romans 10:9-10 (list item)",
-      "severity": "major",
-      "source_quote": "That if thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that God hath raised him from the dead, thou shalt be saved… –Romans 10:9-10.",
-      "suggested_fix": "Tafsiri mstari wa Warumi kwa uaminifu wa kiroho wa asili. Tafsiri iliyotumika (“utahifadhiwa…”) sio uwakilishi sahihi wa “thou shalt be saved.” Pendekezo: “Kwa maana ikiwa utakiri kwa mdomo wako Bwana Yesu, na ukimwamini moyoni mwako kwamba Mungu alimfufua kutoka kwa wafu, utakuwa umeokolewa… –Warumi 10:9-10.” Hifadhi neno “umeokolewa/utaokolewa” ili kuendana na maana ya Kiingereza.",
-      "translation_quote": "Kwa maana ikiwa usipokuwa ukikiri kwa mdomo wako Bwana Yesu, na ukimwamini moyoni mwako kwamba Mungu alimfufua kutoka kwa wafu, utahifadhiwa… –Warumi 10:9-10."
-    },
-    {
-      "location": "source.html Matthew 13:44 (treasure parable)",
+      "location": "source.html Matthew 7:7-8 quote in list near end",
       "severity": "minor",
-      "source_quote": "Again, the kingdom of heaven is like unto treasure hid in a field; the which when a man hath found, he hideth, and for joy thereof goeth and selleth all that he hath, and buyeth that field –Matthew 13:44.",
-      "suggested_fix": "Rekebisha lafudhi ndogo na mtiririko wa maneno. Tafsiri inayo sasa ina maneno yasiyo sehemu (mfano: “mifano ya shamba lenye hazina” badala ya “mchoro/ mfano”). Pendekezo: “Yesu anasimulia mfano wa shamba lenye hazina iliyofichwa—‘Tena ufalme wa mbinguni ni kama hazina iliyofichwa ndani ya shamba; mtu akipata, anamficha; naye kwa furaha yake aende na auze kila alicho nacho, naye anonunua shamba huo’ –Mathayo 13:44.”",
-      "translation_quote": "Yesu anasimulia mifano ya shamba lenye hazina zilizopotea au zilizofichwa—Tena ufalme wa mbinguni ni kama hazina iliyofichwa ndani ya shamba; mtu akipata, anamficha; naye kwa furaha yake aende na auze kila alicho nacho, naye anonunua shamba huo –Mathayo 13:44."
+      "source_quote": "Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you… –Matthew 7:7-8.",
+      "suggested_fix": "Use a natural and accurate Kiswahili equivalent of the verse familiar from standard Bible translations, e.g. “Muombe, mtapewa; tafuteni, mtaipata; piga mlango, mtatafuliwa/itatufunguliwa kwenu.” Ensure final clause reads “it shall be opened unto you” as “itafunguliwa kwenu” or “itafunguliwa kwenu.”",
+      "translation_quote": "<em>Muombe, mtapewa; tafuteni, mtapata; piga mlango, utakaguliwa kwenu… –Mathayo 7:7-8.</em>"
     },
     {
-      "location": "source.html John 3:3 and surrounding (Nicodemus section)",
-      "severity": "major",
-      "source_quote": "…Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God –John 3:3.",
-      "suggested_fix": "Kiswahili kinachotumika kinapaswa kuwahisha maneno yaliyo kwenye asili bila kubadilisha uzito wa mafundisho. Tafsiri iliyopo ni karibu lakini inatumia 'Ndiyo, ndiyo' kama kurudia 'Verily, verily' – ni sawa tuzo, lakini sehemu nyingine za kifungu zimepunguzwa au zimerudishwa kwa mtindo usio sawa. Pendekezo: “…Kweli, kwelikweli, nawaambia, isipokuwa mtu azaliwa tena, hawezi kuona ufalme wa Mungu –Yohana 3:3.” Hakikisha mtiririko unaendana na vifungu vilivyotumika awali.",
-      "translation_quote": "…Ndiyo, ndiyo, nawaambia, isipokuwa mtu azaliwa tena, hawezi kuona ufalme wa Mungu –Yohana 3:3."
-    },
-    {
-      "location": "source.html Romans/Hebrews/Galatians list formatting and verse fidelity",
+      "location": "source.html quoting Ezekiel 36:26-27",
       "severity": "minor",
-      "source_quote": "…the word preached did not profit them, not being mixed with faith in them that heard it –Hebrews 4:2.  But without faith it is impossible to please him… –Hebrews 11:6.  And they that are Christ’s have crucified the flesh with the affections and lusts –Galatians 5:24.",
-      "suggested_fix": "Kila aya ya Maandiko iliyoorodheshwa inapaswa kuwasilishwa kwa Kiswahili kinachoakisi maana ya Kiingereza kama ilivyo kwenye chanzo. Baadhi ya tafsiri za vifungu vimepunguzwa au kupangwa kwa mtindo tofauti; hakikisha kila nukuu inarudisha maana rasmi na mtiririko sawa. Pendekezo: rendez-vous kila nukuu kwa tafsiri: “…neno lilohubiriwa halikuwa nao faida kwao, kwa kuwa halikutanganywa na imani kwa wale waliolisikia –Waebrania 4:2.” “Bila imani haiwezekani kumpendeza Mungu… –Waebrania 11:6.” “Na wale walio wa Kristo wamekoma mwili pamoja na tamaa na matamanio yake –Wagalatia 5:24.”",
-      "translation_quote": "…neno lililohubiriwa halikuwa na faida kwao, lisikotanganywa na imani kwa wale waliolisikia –Waebrania 4:2.  Lakini bila imani haiwezekani kumpendeza yeye… –Waebrania 11:6.  …Wale wa Kristo wamekoma mwili pamoja na tamaa na tamaa zake –Wagalatia 5:24."
+      "source_quote": "A new heart also will I give you, and a new spirit will I put within you: and I will take away the stony heart out of your flesh, and I will give you an heart of flesh. And I will put my spirit within you, and cause you to walk in my statutes, and ye shall keep my judgments, and do them –Ezekiel 36:26-27.",
+      "suggested_fix": "Ensure the standard Bible phrasing and syntax in Kiswahili are used (the translation currently is close but partially literal/awkward). Suggest using a conventional Kiswahili Bible rendering, e.g. “Nitawapa moyo mpya, nami nitawatia roho mpya ndani yao; nitatoa moyo wa jiwe kutoka mwilini mwenu, nami nitawapa moyo wa nyama. Nami nitawatia roho yangu ndani yenu, nami nitawafanya mtembee kwa hukumu zangu; nanyi mtahifadhi hukumu zangu, na kuzifanya.” Preserve tags and placement.",
+      "translation_quote": "<em>Nitawapa pia moyo mpya, na roho mpya nitaweka ndani yao; nitaondoa moyo wa jiwe kutoka mwilini mwenu, nami nitawapa moyo wa unyoya. Nitaweka roho yangu ndani yenu, nami nitawafanya mtembee katika sheria zangu, ninyi mtahifadhi hukumu zangu, na kuzifanya –Ezekieli 36:26-27.</em>"
     }
   ],
+  "finished_at": "2026-10-02T12:59:39+00:00",
   "id": "31687e74e633cd1465a159bdee007923",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "swa",
@@ -196,13 +195,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 60,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/fd006f3144de976329b408867c5ed33ed80fe393c62d7c79f01f54f10a8134c7.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "d14a8e9ac7f4c07525900d0c21ec1a6c29c2da40405328d077639b18af091bf1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

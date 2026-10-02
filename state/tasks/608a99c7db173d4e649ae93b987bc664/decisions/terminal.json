@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.title → translation.title",
+      "severity": "major",
+      "source_quote": "Understanding Submission",
+      "suggested_fix": "Translate the article title into contemporary Norwegian Bokmål, preserving meaning and theology. Suggested translation: \"Forstå underordning\" or \"Å forstå underordning\". Replace the translation.title value with the chosen Norwegian title.",
+      "translation_quote": "Understanding Submission"
+    },
+    {
+      "location": "source.section → translation.section",
+      "severity": "major",
+      "source_quote": "Sister to Sister",
+      "suggested_fix": "Translate the section/column name into contemporary Norwegian Bokmål to match the rest of the translation and localize metadata. Suggested translation: \"Søster til søster\" or keep a recognizable Norwegian rendering used by the publication. Replace the translation.section value with the Norwegian phrase.",
+      "translation_quote": "Sister to Sister"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

@@ -2,7 +2,6 @@
   "article_id": "58d3859b-42f6-4cf1-80e6-fa847d9dc4a4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -62,25 +61,38 @@
         },
         "total_tokens": 5510
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 655,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3256,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3911
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph about Esther teaching the girls a song (paragraph starting \"Esther was a very gentle...\")",
-      "severity": "major",
-      "source_quote": "Perhaps Esther realized she would be in heaven before the other girls—we don’t know for sure. But she taught the girls a song, “How Far Is Heaven”, which Hadassah still likes to sing today!",
-      "suggested_fix": "Translate the entire sentence into Norwegian Bokmål and replace the English pronoun. For example: «Kanskje forsto Esther at hun ville være i himmelen før de andre jentene — vi vet det ikke sikkert. Men hun lærte jentene en sang, «Hvor langt er det til himmelen», som Hadassah fortsatt liker å synge i dag!» (Note: change the English word “we” to Norwegian “vi” and keep the em dash and punctuation as in the source.)",
-      "translation_quote": "Kanskje forsto Esther at hun ville være i himmelen før de andre jentene—we vet det ikke sikkert. Men hun lærte jentene en sang, «Hvor langt er det til himmelen», som Hadassah fortsatt liker å synge i dag!"
-    },
-    {
-      "location": "Paragraph introducing \"Esther\" (paragraph starting \"However, there was one little girl...\")",
+      "location": "<p>Foruten å være hennes beste venn, var en annen lysning for Hadassah at når Esther var på skolen, var ikke de andre jentene like slemme mot henne (Hadassah).</p>",
       "severity": "minor",
-      "source_quote": "However, there was one little girl in that second-grade group of girls whose name we’ll say was “Esther”. She was Hadassah’s best friend and supported her all through those difficult years.",
-      "suggested_fix": "Improve idiomatic clarity by slightly rephrasing to a natural Norwegian construction while preserving meaning. For example: «Men det var en liten jente i den gruppen med jenter i andre klasse som vi kan kalle “Esther”. Hun var Hadassahs beste venn og stod ved hennes side gjennom de vanskelige årene.» Replace the current \"i den andreklassegruppen\" with \"i den gruppen med jenter i andre klasse\" to improve readability.",
-      "translation_quote": "Men det var en liten jente i den andreklassegruppen som vi kan kalle “Esther”. Hun var Hadassahs beste venn og sto ved hennes side gjennom de vanskelige årene."
+      "source_quote": "Besides being her best friend, another bright spot for Hadassah was that when Esther was in school the other girls weren’t as mean to her (Hadassah).",
+      "suggested_fix": "Replace the phrasing “en annen lysning” with a more natural Norwegian idiom such as “et annet lyspunkt”. Keep the rest of the sentence unchanged and preserve the paragraph tags.",
+      "translation_quote": "Foruten å være hennes beste venn, var en annen lysning for Hadassah at når Esther var på skolen, var ikke de andre jentene like slemme mot henne (Hadassah)."
     }
   ],
+  "finished_at": "2026-10-02T12:59:40+00:00",
   "id": "8bc7eb381afa23be6180e4b9a1662428",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "nob",
@@ -154,13 +166,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5d9534e298cc7be7a1dc818a8adedb571eec39b9a0b591ec0dcf7ed0c48299f0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c8195cf9294d2ec905003041f1ddf8ec8c3e1c35f090d8e7010f8817b4a576d2",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

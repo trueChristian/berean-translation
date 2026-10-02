@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:59:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.title → translation.title\",\"severity\":\"major\",\"source_quote\":\"Understanding Submission\",\"suggested_fix\":\"Translate the article title into contemporary Norwegian Bokmål, preserving meaning and theology. Suggested translation: \\\"Forstå underordning\\\" or \\\"Å forstå underordning\\\". Replace the translation.title value with the chosen Norwegian title.\",\"translation_quote\":\"Understanding Submission\"},{\"location\":\"source.section → translation.section\",\"severity\":\"major\",\"source_quote\":\"Sister to Sister\",\"suggested_fix\":\"Translate the section/column name into contemporary Norwegian Bokmål to match the rest of the translation and localize metadata. Suggested translation: \\\"Søster til søster\\\" or keep a recognizable Norwegian rendering used by the publication. Replace the translation.section value with the Norwegian phrase.\",\"translation_quote\":\"Sister to Sister\"}],\"passed\":false,\"score\":80}",
+    "content_bytes": 937,
+    "content_evidence_truncated": false,
+    "content_sha256": "fc52b101dd203c5fd216c7c3f3d9c1a0be1d2f6964a0c9801f0dabcd1cb82d34",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 763,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9941,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10704
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

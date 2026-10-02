@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 3 (reference to Lyte's encounter and hymn title)",
+      "severity": "major",
+      "source_quote": "It is said that it was his encounter with God at the bedside of that dying man that prompted Lyte’s noble hymn, “Jesus, I My Cross Have Taken.”",
+      "suggested_fix": "Translate the quoted hymn title into Kiswahili (preserve the quotation marks and surrounding punctuation). For example: “Inasemwa kwamba mkutano wake na Mungu kitandani kwa mtu huyo aliyekufa ulisababisha wimbo wa heshima wa Lyte, “Yesu, Nimechukua Msalaba Wangu.”” Ensure the translated title appears in the same place and markup as the English title was.",
+      "translation_quote": "Inasemwa kwamba ulikuwa mkutana kwake na Mungu kitandani kwa mtu huyo aliyekufa uliyosababisha wimbo wa Lyte wenye heshima, “Jesus, I My Cross Have Taken.”"
+    },
+    {
+      "location": "Paragraph 3 (Sunday-school teachers phrase)",
+      "severity": "major",
+      "source_quote": "having a Sunday school of several hundred scholars, as well as “a splendid company of seventy or eighty teachers, personally trained by him.”",
+      "suggested_fix": "Correct the mistranslation of “personally trained by him.” The translation currently reads “waliomuondolewa nafsi kwa nafsi,” which is incorrect and changes the meaning. Replace with a Kiswahili rendering that conveys personal training/mentoring by Lyte, e.g. “shule ya Jumapili yenye wanafunzi mia kadhaa, pamoja na ‘kikundi kizuri cha walimu sabini au themanini, waliofundishwa binafsi na yeye.’” Preserve the original quotation marks around the quoted phrase.",
+      "translation_quote": "kwa ajili ya bidii na kazi zote za Henry, alipata thawabu: kuwa na shule ya Jumapili yenye wanafunzi mia kadhaa, pamoja na “kikundi kizuri cha walimu sabini au themanini, waliomuondolewa nafsi kwa nafsi.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

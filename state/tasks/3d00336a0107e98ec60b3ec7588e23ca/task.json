@@ -2,7 +2,6 @@
   "article_id": "58d3859b-42f6-4cf1-80e6-fa847d9dc4a4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -62,18 +61,30 @@
         },
         "total_tokens": 4942
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 410,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3256,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3666
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "<p> (paragraph about Esther teaching a song)",
-      "severity": "critical",
-      "source_quote": "Perhaps Esther realized she would be in heaven before the other girls—we don’t know for sure.",
-      "suggested_fix": "Översätt den engelska bisatsen till svenska, bevara meningen och tonen. Förslag: \"Kanske förstod Esther att hon skulle komma till himlen före de andra flickorna—men det vet vi inte säkert.\"",
-      "translation_quote": "Kanske förstod Esther att hon skulle komma till himlen före de andra flickorna—we know not for sure."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T12:59:40+00:00",
   "id": "3d00336a0107e98ec60b3ec7588e23ca",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "swe",
@@ -147,13 +158,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5d9534e298cc7be7a1dc818a8adedb571eec39b9a0b591ec0dcf7ed0c48299f0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c8195cf9294d2ec905003041f1ddf8ec8c3e1c35f090d8e7010f8817b4a576d2",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

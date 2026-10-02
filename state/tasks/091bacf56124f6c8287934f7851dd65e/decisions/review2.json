@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<p><em>But when he saw the wind boisterous, he was afraid; and beginning to sink, he cried, saying, Lord, save me. And immediately Jesus stretched forth his hand, and caught him, and said unto him, O thou of little faith, wherefore didst thou doubt? And when they were come into the ship, the wind ceased –Matthew 14:30-32.</em></p>",
+      "severity": "critical",
+      "source_quote": "But when he saw the wind boisterous, he was afraid; and beginning to sink, he cried, saying, Lord, save me. And immediately Jesus stretched forth his hand, and caught him, and said unto him, O thou of little faith, wherefore didst thou doubt? And when they were come into the ship, the wind ceased –Matthew 14:30-32.",
+      "suggested_fix": "Translate the quoted Scripture phrase \"Lord, save me\" literally and consistently with the rest of the Swedish biblical quotations. Replace the current translation \"Herre, hjälp mig!\" with \"Herre, rädda mig!\" or \"Herre, frälsa mig!\" so the verse faithfully conveys the original English wording. Preserve the surrounding HTML and verse reference exactly as in the source.",
+      "translation_quote": "Men när han såg hur vinden var stark, blev han förskräckt; och när han började sjunka ropade han: Herre, hjälp mig! Då sträckte Jesus genast ut sin hand, höll honom och sade till honom: Du som har liten tro, varför tvivlade du? När de nu kom in i båten tystnade vinden – Matteus 14:30–32."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

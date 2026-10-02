@@ -2,7 +2,6 @@
   "article_id": "55b18915-e213-448c-8fe1-d430e195e768",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -62,25 +61,52 @@
         },
         "total_tokens": 12083
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1012,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7464,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 4864
+        },
+        "total_tokens": 8476
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph containing Hebreerne 11:1 (source.html block: \"In Hebrews 11 we read that <em>…faith is the substance of things hoped for, the evidence of things not seen –Hebrews 11:1.</em>\")",
-      "severity": "major",
-      "source_quote": "“…faith is the substance of things hoped for, the evidence of things not seen –Hebrews 11:1.”",
-      "suggested_fix": "Replace the translated em-tagged sentence with a faithful Norwegian rendering that preserves the sense of the English as printed. For example: <em>…troen er realiteten av det som er håpet på, selve beviset for det som ikke sees –Hebreerne 11:1.</em> Preserve the existing HTML tags and citation punctuation exactly.",
-      "translation_quote": "<em>…tro er tingenes håp, sikkerhet for det som er håpet, visshet om ting som ikke sees –Hebreerne 11:1.</em> (current translation) "
+      "location": "Paragraph: \"In reckless abandonment he stepped off her deck …and a miracle happened.\" (English source paragraph about Peter stepping off the deck)",
+      "severity": "minor",
+      "source_quote": "In reckless abandonment he stepped off her deck …and a miracle happened.",
+      "suggested_fix": "Use a Norwegian phrase that better captures the English sense of \"reckless abandonment\". Suggested wording: \"I hensynsløs overgivelse steg han av dekket…\" or \"I vill overgivelse steg han av dekket…\". Preserve the surrounding HTML and punctuation.",
+      "translation_quote": "I ukrenkelig overgivelse steg han av dekket …og et mirakel skjedde."
     },
     {
-      "location": "Paragraph: “Kanskje det er bevis for at vår tro er enda <em>mindre</em> enn Peters «lille tro» og <em>tinjere</em> enn det lille sennepsfrøet?!”",
+      "location": "Paragraph: \"You do not need to go into foreign missions to experience the power of God released in your life.\"",
       "severity": "minor",
-      "source_quote": "\"Perhaps it is evidence that our faith is <em>littler</em> than Peter’s “little faith” and <em>tinier</em> than the tiny grain of mustard seed?!\"",
-      "suggested_fix": "Correct the apparent typographical/word-choice error. Replace \"tinjere\" with a correct Norwegian rendering such as \"enda mindre\" or \"mer enn smått\". For example: \"...enda <em>mindre</em> enn Peters «lille tro» og <em>enda mindre</em> enn det lille sennepsfrøet?!\" Preserve the surrounding punctuation and HTML tags.",
-      "translation_quote": "\"...enda <em>mindre</em> enn Peters «lille tro» og <em>tinjere</em> enn det lille sennepsfrøet?!\" (current translation) "
+      "source_quote": "You do not need to go into foreign missions to experience the power of God released in your life.",
+      "suggested_fix": "The translation \"dra til utlendighet\" is understandable but slightly awkward in contemporary Bokmål. Suggest: \"Du trenger ikke å dra til utlandet for å erfare Guds kraft i ditt liv.\" Or, to keep the explicit mission context: \"Du trenger ikke å dra til utlandet for misjonsarbeid for å erfare Guds kraft i ditt liv.\"",
+      "translation_quote": "Du trenger ikke å dra til utlendighet for å erfare Guds utløste kraft i ditt liv."
+    },
+    {
+      "location": "Paragraph: \"He had drawn many a draught of fish over her gunwales.\"",
+      "severity": "minor",
+      "source_quote": "He had drawn many a draught of fish over her gunwales.",
+      "suggested_fix": "The phrase is slightly literal in Norwegian. Consider: \"Han hadde dradd mange fiskelass over relingen\" or \"Han hadde dradd mange fangster over rekka.\" These are more idiomatic while preserving meaning.",
+      "translation_quote": "Han hadde dradd mange fiskelaster over hennes rekker."
     }
   ],
+  "finished_at": "2026-10-02T12:59:39+00:00",
   "id": "1c23a55c522ab1b22ed162a74c2cd5c4",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "nob",
@@ -154,13 +180,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/47641161e24a4c36535a9aad69db399a5b74987fc191a5346da200439748cac7.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "73de90ede959b89d4fd696b2e9474c165d018804ec574570e47ca5f30322f740",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "04fbe11b-6092-4964-a85a-3a153a3204f8",
+    "response_id": "chatcmpl-EUX6D4PBAueBtgW3Z63JQg7aucd6C",
+    "usage": {
+      "completion_tokens": 701,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8935,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9636
+    }
+  },
+  "received_at": "2026-10-02T12:59:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph listing phobias (ol > li[4])",
+        "severity": "minor",
+        "source_quote": "Arachibutyrophobia is the fear of getting peanut butter stuck to the roof of your mouth.",
+        "suggested_fix": "Translate the technical term into standard Italian or present it in italics with an Italian explanation. For example: \"Arachibutirofobia è la paura che il burro di arachidi si attacchi al palato.\" (Preserve surrounding HTML exactly.)",
+        "translation_quote": "Arachibutyrophobia è la paura che il burro di arachidi si attacchi al palato della bocca."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

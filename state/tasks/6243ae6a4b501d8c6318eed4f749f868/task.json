@@ -2,7 +2,6 @@
   "article_id": "58d3859b-42f6-4cf1-80e6-fa847d9dc4a4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -62,67 +61,53 @@
         },
         "total_tokens": 7078
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1598,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3266,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 1792
+        },
+        "total_tokens": 4864
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "<p class=\"drop-cap\"> (first paragraph)",
-      "severity": "major",
-      "source_quote": "Being a true friend to someone who is hurting can change that person’s life forever.",
-      "suggested_fix": "Translate meaning exactly and keep neutral wording about \"person\" (not change to \"woman\"). For example: \"להיות חברה אמתית של מישהי שסובלת יכול לשנות את חייה של אותה אדם לעד.\" (better idiomatic Hebrew: \"להיות חברה אמיתית של מי שסובלת יכול לשנות את חייה של אותה אישה לנצח.\" — but preserve 'person' vs 'woman' as in source: use \"אותו אדם\"/\"אותה אדם\" is awkward; recommended: \"את חייה של אותה אישה\" only if source meant 'woman'; since source is gender-neutral 'person' in context about a child, use \"אותו אדם\" would be unnatural — preferred correction below). Corrected proposed Hebrew preserving original meaning and gender (child): \"להיות חברה אמיתית של מי שסובלת יכול לשנות את חייה של אותה בת לנצח.\"",
-      "translation_quote": "להיות חברה אמתית של מישהי שסובלת יכול לשנות את חייה של אותה אישה לעד."
+      "location": "<p>…she taught the girls a song, “How Far Is Heaven”, which Hadassah still likes to sing today!</p>",
+      "severity": "critical",
+      "source_quote": "she taught the girls a song, “How Far Is Heaven”, which Hadassah still likes to sing today!",
+      "suggested_fix": "Translate the quoted song title into Hebrew and keep it in quotes. For example: היא לימדה את הבנות שיר, «כמה רחוק השמיים», שהדסה עדיין אוהבת לשיר היום! Preserve the surrounding punctuation and HTML structure.",
+      "translation_quote": "אבל היא לימדה את הבנות שיר, \"How Far Is Heaven\", שהדסה עדיין אוהבת לשיר היום!"
     },
     {
-      "location": "second paragraph (\"mean\")",
-      "severity": "major",
-      "source_quote": "the second-grade girls were ready for someone to be mean to, or so it seemed.",
-      "suggested_fix": "Do not leave the English adjective 'mean' untranslated. Use an appropriate Hebrew phrase conveying \"be unkind/mean to\": e.g. \"הבנות בכיתה ב' היו מוכנות להיות אכזריות כלפי מישהי, או כך זה נראה.\"",
-      "translation_quote": "הבנות בכיתה ב' היו מוכנות למישהו להיות mean אליהן, או כך זה נראה."
-    },
-    {
-      "location": "third paragraph (crying sentence)",
-      "severity": "major",
-      "source_quote": "many evenings she walked home from school, crying most of the way and wishing that she wouldn’t need to go back to school the next day!",
-      "suggested_fix": "The translation uses the unrelated word 'אחלה' which changes the meaning. Replace with a correct verb phrase: \"ואחלה\" → \"מאחלת\" is likely intended, but better: \"ורוצה שלא תצטרך לחזור לבית הספר מחר!\" or \"מאחלת שלא תצטרך לחזור לבית הספר למחרת!\" Preserve HTML tags and punctuation.",
-      "translation_quote": "אבל הרבה ערבים היא הלכה הביתה מבית הספר ובכתה ברוב הדרך ואחלה שלא תצטרך לחזור לבית הספר למחרת!"
-    },
-    {
-      "location": "fourth paragraph (flash cards)",
-      "severity": "major",
-      "source_quote": "At the next recess she was blamed for cheating on her flash cards.",
-      "suggested_fix": "\"Flash cards\" must be translated idiomatically, not as \"כרטיסי הזיכרון\" (which suggests digital memory). Use \"כרטיסיות לימוד\" or \"כרטיסיות לחזרה\". Example: \"בהפסקה הבאה האשימו אותה בכך שרימתה בשימוש בכרטיסיות הלימוד שלה.\"",
-      "translation_quote": "בהפסקה הבאה האשימו אותה ברמאות בכרטיסי הזיכרון שלה."
-    },
-    {
-      "location": "paragraph naming Esther (support)",
+      "location": "First paragraph and final paragraph pronouns and address",
       "severity": "minor",
-      "source_quote": "She was Hadassah’s best friend and supported her all through those difficult years.",
-      "suggested_fix": "The translation renders this as \"חברת הלב של הדסה ותמכה בה\" which is unnatural/incorrect. Use \"הייתה החברה הטובה ביותר של הדסה ותמכה בה לאורך כל השנים הקשות האלה.\"",
-      "translation_quote": "היא הייתה חברת הלב של הדסה ותמכה בה בכל אותן שנים קשות."
+      "source_quote": "As a child, you might think you can’t make a difference in the lives of people around you... And share it with your parents, they can help find a way to change the problem.",
+      "suggested_fix": "Resolve inconsistent gendered address in Hebrew. The translation starts with masculine singular 'כילד' but later uses feminine forms ('את חושבת', 'חברתך'). Use a single consistent, contemporary Hebrew solution: either neutral plural or inclusive form. Example fixes: change opening to 'כאשר אתה/את ילד/ה, ייתכן שתחשוב...' or use a neutral 'כשאתה או את ילדה/ילד, ייתכן שתחשוב...' or rewrite to plural 'כאשר ילדים חושבים...'. Keep HTML and tags unchanged.",
+      "translation_quote": "<p class=\"drop-cap\">כילד, ייתכן שתחשוב שאינך יכול לשנות את חייהם של האנשים סביבך, אבל זה לא נכון! ...</p> … <p>הדסה עדיין זוכרת שראתה כמה מהאחיות בוכות בהלוויה של אסתר. האם את חושבת שהדסה אי פעם תשכח את אסתר? לעולם לא!</p> … <p>שווה לעמוד לצד מישהו שמטופל בחוסר אדיבות. התמיכה שלך עשויה להיות מה שאלוהים ישתמש בו כדי לעזור לחברתך לעבור את זמנה הקשה בדרך טובה! ושתפי את זה עם ההורים שלך — הם יכולים לעזור למצוא דרך לשנות את הבעיה.</p>"
     },
     {
-      "location": "paragraph describing Esther (remembered for)",
+      "location": "Paragraph about cystic fibrosis",
       "severity": "minor",
-      "source_quote": "Esther was a very gentle, sweet girl, which is mostly what Hadassah remembered her for.",
-      "suggested_fix": "Translation is ungrammatical and wrong gender: \"וזה בעיקר מה שהדסה זוכרת אותה עבורו.\" Replace with grammatically correct Hebrew: \"אסתר הייתה ילדה עדינה ומתוקה מאוד — וזאת בעיקר מה שהדסה זוכרת אותה עבורה.\" Better: \"אסתר הייתה ילדה עדינה ומתוקה מאוד, וזה בעיקר מה שהדסה זוכרת אותה.\"",
-      "translation_quote": "אסתר הייתה ילדה עדינה ומתוקה מאוד, וזה בעיקר מה שהדסה זוכרת אותה עבורו."
-    },
-    {
-      "location": "paragraph about \"mean\" later (fourth-grade)",
-      "severity": "minor",
-      "source_quote": "when Esther was in school the other girls weren’t as mean to her (Hadassah).",
-      "suggested_fix": "Again the English 'mean' appears; translate as \"אכזריות\" or \"לא היו כל כך נזעלות/מרושעות\". Example: \"כשהאסתר הייתה בבית הספר, הבנות האחרות לא היו כל כך אכזריות כלפי הדסה.\"",
-      "translation_quote": "הבנות האחרות לא היו כל כך mean אליה (להדסה)."
-    },
-    {
-      "location": "last paragraph (God uses)",
-      "severity": "minor",
-      "source_quote": "Your support may be what God uses to help your friend to go through their hard times in a good way!",
-      "suggested_fix": "Translation used \"מה שאלוהים ישתמש בו\" — word order and article are awkward. Suggest: \"התמיכה שלך עשויה להיות מה שאלוהים ישתמש בו כדי לעזור לחברתך לעבור את זמנה הקשה בדרך טובה!\" (keep 'God' translation as 'אלוהים').",
-      "translation_quote": "התמיכה שלך עשויה להיות מה שאלוהים ישתמש בו כדי לעזור לחברתך לעבור את זמנה הקשה בדרך טובה!"
+      "source_quote": "Esther had cystic fibrosis and in the 1970s they didn’t have as many treatment options available for that disease as they do now...",
+      "suggested_fix": "Use the conventional Modern Hebrew name for the disease. Replace the transliteration 'סיסטיק פיברוזיס' with the widely used Hebrew term 'ציסטיק פיברוזיס' (or 'פיברוזיס ציסטית' if preferred). Example: 'לאסתר הייתה ציסטיק פיברוזיס ובשנות ה־70...'. Preserve punctuation and surrounding text.",
+      "translation_quote": "לאסתר הייתה סיסטיק פיברוזיס ובשנות ה-70 לא היו אפשרויות טיפול רבות למחלה הזו כפי שיש היום, ולכן חולים אלה בדרך כלל מתו צעירים מאוד."
     }
   ],
+  "finished_at": "2026-10-02T12:59:40+00:00",
   "id": "6243ae6a4b501d8c6318eed4f749f868",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "heb",
@@ -196,13 +181,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 80,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5d9534e298cc7be7a1dc818a8adedb571eec39b9a0b591ec0dcf7ed0c48299f0.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c8195cf9294d2ec905003041f1ddf8ec8c3e1c35f090d8e7010f8817b4a576d2",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

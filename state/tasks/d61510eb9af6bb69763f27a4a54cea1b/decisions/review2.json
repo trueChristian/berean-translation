@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph: \"Then, within sight of the place where Feliz Manz had given his life nearly a century prior, he knelt and bowed his head.\"",
+      "severity": "minor",
+      "source_quote": "Then, within sight of the place where Feliz Manz had given his life nearly a century prior, he knelt and bowed his head.",
+      "suggested_fix": "Replace the incorrect name \"Feliz Manz\" with the correct, previously used Spanish form \"Félix Manz\" to match the article's earlier rendering of this historical figure.",
+      "translation_quote": "Luego, a la vista del lugar donde Félix Manz dio su vida casi un siglo antes, se arrodilló e inclinó la cabeza. (currently: \"Feliz Manz\")"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

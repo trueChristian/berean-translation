@@ -2,7 +2,6 @@
   "article_id": "fe94355d-8741-49a7-8f66-16003daa3f89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -62,39 +61,53 @@
         },
         "total_tokens": 9301
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1360,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5586,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6946
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "<p>...as Lyte was about to leave to head southward, he was arrested by an “irresistible desire” to preach once more to his congregation.</p>",
-      "severity": "minor",
-      "source_quote": "“he was arrested by an “irresistible desire” to preach once more to his congregation.”",
-      "suggested_fix": "Replace the literal loanword that implies police arrest with a Swedish idiom that conveys being strongly seized/compelled: e.g. \"tog en 'oemotståndlig önskan' tag i Lyte\" or better \"fylldes Lyte den 4 september 1847 av en 'oemotståndlig önskan' att ännu en gång predika för sin församling.\" Preserve the surrounding HTML structure and punctuation.",
-      "translation_quote": "\"Även om han var mycket försvagad av sin sjukdom, arresterades Lyte den 4 september 1847, just som han skulle ge sig iväg söderut, av en ”oemotståndlig önskan” att en gång till predika för sin församling.\""
-    },
-    {
-      "location": "<p>...as they neared the end of their seven-mile walk...</p>",
+      "location": "Paragraph 3 (paragraph containing sentence about the dying clergyman)",
       "severity": "major",
-      "source_quote": "\"as they neared the end of their seven-mile walk\"",
-      "suggested_fix": "Correct the distance wording to avoid using Swedish 'mil' (10 km) which misrenders 'mile'. Use 'seven-mile' as a measure in Swedish: e.g. \"när de närmade sig slutet på sin sju miles långa vandring\" or \"när de närmade sig slutet på sin ungefär sju miles långa vandring\". Keep the sentence structure and HTML tags intact.",
-      "translation_quote": "\"När de närmade sig slutet av sin sju mil långa vandring och kom fram till byn dit de var på väg, …\""
+      "source_quote": "It is said that it was his encounter with God at the bedside of that dying man that prompted Lyte’s noble hymn, “Jesus, I My Cross Have Taken.”",
+      "suggested_fix": "Translate the quoted hymn title into Swedish (preserving it as a quoted substantive prose). For example: ”Jesus, jag har tagit mitt kors.” Insert the translated title in place of the English title, retaining punctuation and quotes.",
+      "translation_quote": "Det sägs att det var hans möte med Gud vid sängkanten till den döende mannen som föranledde Lytes ädla hymn, ”Jesus, I My Cross Have Taken.”"
     },
     {
-      "location": "<p>...where his sickness prevented his further travel.</p>",
-      "severity": "critical",
-      "source_quote": "\"Lyte make it as far as Nice, France where his sickness prevented his further travel.\"",
-      "suggested_fix": "Replace the untranslated/non‑Swedish word 'nemoc' with a correct Swedish term for 'illness' or 'sickness', preserving the sentence structure. Suggested fix: \"Lyte kom så långt som till Nice, Frankrike, där hans sjukdom hindrade fortsatt resa.\" Maintain the surrounding HTML tags exactly as in the translation file.",
-      "translation_quote": "\"Lyte kom så långt som till Nice, Frankrike, där hans nemoc hindrade fortsatt resa.\""
+      "location": "Paragraph 14 (paragraph about Monk composing other familiar hymns)",
+      "severity": "major",
+      "source_quote": "William Monk also wrote the music for other familiar hymns such as “Look, Ye Saints! The Sight Is Glorious”, and “The Strife Is O’er”.",
+      "suggested_fix": "Translate the quoted hymn titles into Swedish (they are substantive quoted prose). For example: ”Se, ni heliga! Synerna är härliga” (or a conventional Swedish title if known) and ”Striden är över”. Replace the English titles with appropriate Swedish equivalents inside the quotes.",
+      "translation_quote": "William Monk skrev även musiken till andra bekanta hymner såsom ”Look, Ye Saints! The Sight Is Glorious” och ”The Strife Is O’er”."
     },
     {
-      "location": "<p>...\"I stand here among you today...\"</p>",
-      "severity": "minor",
-      "source_quote": "\"I stand here among you today, as alive from the dead...\"",
-      "suggested_fix": "Fix the Swedish mistranslation of 'among you' (\"among\" -> 'bland') which currently reads as 'ibland' (meaning 'sometimes'). Suggested wording: \"Jag står här bland er i dag, liksom levande från de döda,...\" Preserve punctuation and tags.",
-      "translation_quote": "\"\"O bröder,\" sade han, när han steg upp i den välbekanta predikstolen för sista gången, \"jag står här ibland er idag, som levande från de döda,...\"\""
+      "location": "References section (final paragraph)",
+      "severity": "major",
+      "source_quote": "101 Hymn Stories, Treasury of Hymn Stories",
+      "suggested_fix": "Translate the reference titles into Swedish, because they are quoted/italicized substantive prose. For example: 101 Hymn Stories, Skattkammaren av hymnberättelser (or a commonly used Swedish rendering). If these are proper titles that should remain in English, then include a Swedish translation immediately following in parentheses. Ensure the structure and order of reference lines remain unchanged.",
+      "translation_quote": "101 Hymn Stories,\n    Treasury of Hymn Stories"
     }
   ],
+  "finished_at": "2026-10-02T12:59:39+00:00",
   "id": "18c85097970ba6e841133faed602c44f",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "swe",
@@ -168,13 +181,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 91,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/4edc62ec40603cbb629a5274f380a8df79d2ef113be92eb5013535a57f3d95a9.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

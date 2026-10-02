@@ -2,7 +2,6 @@
   "article_id": "951f56e4-2ce8-4f01-9500-bfeee209cdb4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -62,32 +61,45 @@
         },
         "total_tokens": 18116
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1326,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10782,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12108
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<p>…The haven Christ promotes is a harbor that is free from fretful fear and fledgling faith. This is a <em>peace … not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid –John 14:27.</em></p>",
-      "severity": "major",
-      "source_quote": "the haven Christ promotes is a harbor that is free from fretful fear and fledgling faith",
-      "suggested_fix": "Replace the mistranslation of \"fledgling faith\" (which means weak/immature faith) with a Greek phrase conveying that sense. For example: \"το λιμάνι που προωθεί ο Χριστός είναι ένα καταφύγιο ελεύθερο από αναστατωμένο φόβο και ανώριμη πίστη.\" Preserve the surrounding HTML and the quoted John 14:27 reference unchanged.",
-      "translation_quote": "το λιμάνι που προωθεί ο Χριστός είναι ένα καταφύγιο που είναι ελεύθερο από αναστατωμένο φόβο και ραγδαία πίστη."
+      "location": "Paragraph containing Psalm 107:25-30 (source.html first blockquoted Psalm)",
+      "severity": "minor",
+      "source_quote": "For he commandeth, and raiseth the stormy wind, which lifteth up the waves thereof. They mount up to the heaven, they go down again to the depths: their soul is melted because of trouble. They reel to and fro, and stagger like a drunken man, and are at their wits’ end. Then they cry unto the LORD in their trouble, and he bringeth them out of their distresses. He maketh the storm a calm, so that the waves thereof are still. Then are they glad because they be quiet; so he bringeth them unto their desired haven –Psalm 107:25-30.",
+      "suggested_fix": "Render the final clauses in idiomatic, grammatically correct Modern Greek while preserving the meaning. Replace the current translation of the last lines with a clearer wording, for example: «τότε φωνάζουν προς τον Κύριο στην θλίψη τους, και αυτός τους εξάγει από τις θλίψεις τους· ποιεί τη θύελλα γαλήνη, και τα κύματα της σιώπουν· τότε χαίρονται επειδή ηρέμησαν· και τους φέρνει στον επιθυμητό λιμένα τους – Ψαλμός 107:25-30.» Preserve the <em>…</em> and tag structure exactly as in source.html.",
+      "translation_quote": "<em>Διότι διατάσσει και σηκώνει ο άνεμος της θύελλας τα κύματα αυτού· εκείνα ανεβαίνουν εις τους ουρανούς, και κατεβαίνουν εις τα βάθη· την ψυχήν τους λιώνει η θλίψις· πλανώνται και κλυδωνίζονται σαν μέθυσοι, και χάνονται ηγία· τότε φωνάζουσιν προς Κύριον εν τη θλίψει αυτών, και εκφέρει αυτούς εκ της θλίψεως αυτών· ποιεί τη θύελλαν εις γαλήνην, και τα κύματα αυτής σιγάνονται· τότε χαίρονται διότι εγαλήνευσαν· και φέρει αυτούς εις το <strong>επιθυμητόν λιμένα</strong> αυτών – Ψαλμός 107:25-30.</em>"
     },
     {
-      "location": "<p>Somehow, we have embraced the thought that the desired haven of rest is an earthly euphoric utopia void of any storms. ...</p>",
+      "location": "Paragraph: \"We would expect that from worshippers of Baal, Buddha, and from backsliders.\" (middle section)",
       "severity": "minor",
-      "source_quote": "the desired haven of rest is an earthly euphoric utopia void of any storms",
-      "suggested_fix": "Correct the grammatical agreement in Greek: change \"μια επίγειος ευφορική ουτοπία\" to \"μια επίγεια ευφορική ουτοπία\" so gender and agreement match the noun \"ουτοπία.\" Keep surrounding HTML intact.",
-      "translation_quote": "Κάπως, έχουμε υιοθετήσει την ιδέα ότι το επιθυμητό λιμάνι της ανάπαυσης είναι μια επίγειος ευφορική ουτοπία χωρίς καμία θύελλα."
-    },
-    {
-      "location": "Heading: <h2>…Preserving our Person</h2> / corresponding translation <h2>…Φυλάσσοντας το Πρόσωπό μας</h2>",
-      "severity": "minor",
-      "source_quote": "…Preserving our Person",
-      "suggested_fix": "Render the heading in more natural contemporary Modern Greek to match the article's register and meaning. Suggested replacement: \"…Διαφυλάσσοντας τον εαυτό μας\" or \"…Διαφυλάσσοντας την προσωπικότητά μας\". Preserve the <h2> tag and ellipsis.",
-      "translation_quote": "…Φυλάσσοντας το Πρόσωπό μας"
+      "source_quote": "We would expect that from worshippers of Baal, Buddha, and from backsliders.",
+      "suggested_fix": "Correct the target-language rendering of “backsliders” to a conventional Modern Greek term that conveys the intended meaning (people who fall away from the faith). For example: «Θα το περιμέναμε αυτό από λατρευτές του Βάαλ, του Βούδα και από αποσταθούντες/αποστρεφθέντες/αποστάτες.» Choose one (e.g. «αποστατούντες» or «αποστάτες») that fits the magazine's usual register. Preserve surrounding punctuation and tags.",
+      "translation_quote": "«Θα το περίμενε κανείς από λατρευτές του Βάαλ, του Βούδα και από αποστρεφόμενους.»"
     }
   ],
+  "finished_at": "2026-10-02T12:59:40+00:00",
   "id": "9cb3dce33667e239146f53c4b881158e",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ell",
@@ -161,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 68,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a5f80ad335a5578b489f5e1ff55175ab3c10942655de5c784af044af1c73c841.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "6ba0f430c997b1ea3450b766c83b9abcf64dbdc84cdd47383ef0cebf9766d0dd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

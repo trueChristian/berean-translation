@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article body, penultimate paragraph (after 'قابلِ قدر ہے۔')",
+      "severity": "minor",
+      "source_quote": "It's worth it to stand beside someone who is being treated unkindly. Your support may be what God uses to help your friend to go through their hard times in a good way! And share it with your parents, they can help find a way to change the problem.",
+      "suggested_fix": "Insert a space after the sentence-ending punctuation and keep wording as translated: \"قابلِ قدر ہے۔ آپ کی حمایت وہ ذریعہ بن سکتی ہے جسے خدا آپ کے دوست کی سخت گھڑیوں میں بھلائی کے راستے پر رکھنے کے لیے استعمال کرتا ہے! اور اپنے والدین کے ساتھ اس کا اشتراک کریں، وہ مسئلے کو بدلنے کا راستہ ڈھونڈنے میں مدد کر سکتے ہیں۔\"",
+      "translation_quote": "قابلِ قدر ہے۔آپ کی حمایت وہ ذریعہ بن سکتی ہے جسے خدا آپ کے دوست کی سخت گھڑیوں میں بھلائی کے راستے پر رکھنے کے لیے استعمال کرتا ہے! اور اپنے والدین کے ساتھ اس کا اشتراک کریں، وہ مسئلے کو بدلنے کا راستہ ڈھونڈنے میں مدد کر سکتے ہیں۔"
+    },
+    {
+      "location": "Article body, paragraph about 'old school friends'",
+      "severity": "minor",
+      "source_quote": "Finally, they could all be friends and today those girls are Hadassah’s “old school friends”.",
+      "suggested_fix": "Consider a minor wording adjustment for smoother Urdu idiom, preserving meaning and structure: change \"حدّاسّہ کی \\\"پرانے اسکول دوست\\\" ہیں\" to \"حدّاسّہ کی 'پرانے اسکول کے دوست' ہیں\" or simply \"حدّاسّہ کی 'پرانے اسکول کی دوست' ہیں\". Either option is acceptable; keep the quoted phrase in Urdu.",
+      "translation_quote": "بالاخر وہ سب دوست بن گئیں اور آج وہ لڑکیاں حدّاسّہ کی \"پرانے اسکول دوست\" ہیں۔"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

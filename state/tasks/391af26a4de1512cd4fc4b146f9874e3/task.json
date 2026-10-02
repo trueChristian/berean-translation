@@ -2,7 +2,6 @@
   "article_id": "cb06f158-b3bf-41e8-9b8c-3f8490443a07",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -62,25 +61,38 @@
         },
         "total_tokens": 9207
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 884,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6015,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6899
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "source.title",
-      "severity": "major",
-      "source_quote": "When You Feel Like Giving Up",
-      "suggested_fix": "Translate the article title into Bahasa Indonesia. A suitable rendering preserving the author's tone and meaning is: \"Ketika Anda Merasa Ingin Menyerah\" (or alternatively \"Ketika Anda Ingin Menyerah\"). Replace the translation.title value with this Indonesian title.",
-      "translation_quote": "When You Feel Like Giving Up"
-    },
-    {
-      "location": "source.section",
-      "severity": "major",
-      "source_quote": "Inspirations for Youth",
-      "suggested_fix": "Translate the section name into Bahasa Indonesia using a conventional idiom. A suitable rendering is: \"Inspirasi bagi Remaja\". Replace the translation.section value with this Indonesian section title.",
-      "translation_quote": "Inspirations for Youth"
+      "location": "Paragraph 3 (the paragraph that begins “Several hours later, as he pushed wearily onward…” in source.html)",
+      "severity": "minor",
+      "source_quote": "tripped on a vine",
+      "suggested_fix": "Replace the Indonesian phrase that renders this as “tersandung pada seutas akar” with wording that accurately reflects a vine (a climbing/twining plant). For example: “tersandung pada seutas sulur” or “tersandung pada seutas tanaman merambat.” Preserve the surrounding HTML and punctuation when making the change.",
+      "translation_quote": "Tiba-tiba, karena tidak dapat melihat jalan dengan jelas dalam kegelapan hutan, Beto tersandung pada seutas akar dan terjerembab tak berdaya ke tanah."
     }
   ],
+  "finished_at": "2026-10-02T12:59:40+00:00",
   "id": "391af26a4de1512cd4fc4b146f9874e3",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ind",
@@ -154,13 +166,13 @@
     }
   },
   "protected": false,
-  "quality_score": 85,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/bfb06c218ba9f1c1fc2af084f523761a426281e4793352fbdf7a1e712eeefda1.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "4dca0fb4064954f718edd76356f4b3252712476d53d4c6f6f30b8608493c5b94",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph: “An example is colon cancer...” (English) / Corresponding Greek paragraph about colon cancer (near: \"Ένα παράδειγμα είναι ο καρκίνος του παχέος εντέρου...\")",
+      "severity": "minor",
+      "source_quote": "Most people who develop colon cancer have precancerous polyps several years before they get the cancer.",
+      "suggested_fix": "Replace the phrase «προ-καρκινικές πολυποειδείς αλλοιώσεις» with the more natural and accurate medical term «προ-καρκινικοί πολύποδες» or simply «πολύποδες» to reflect the source meaning and standard Greek medical usage.",
+      "translation_quote": "Οι περισσότεροι άνθρωποι που αναπτύσσουν καρκίνο του παχέος εντέρου έχουν προ-καρκινικές πολυποειδείς αλλοιώσεις αρκετά χρόνια πριν εμφανίσουν τον καρκίνο."
+    },
+    {
+      "location": "Paragraph discussing CEA and GI cancers (English: \"plenty of GI (gastrointestinal) cancers\") / Greek: \"πολλοί ΓΙ (γαστρεντερικοί) καρκίνοι\"",
+      "severity": "minor",
+      "source_quote": "plenty of GI (gastrointestinal) cancers don't make this chemical at all.",
+      "suggested_fix": "Use a clearer rendering of the abbreviation and noun in Greek. For example: «πολλοί γαστρεντερικοί (GI) καρκίνοι δεν παράγουν καθόλου αυτή την ουσία.» This preserves the original abbreviation while using the conventional Greek term first, improving readability.",
+      "translation_quote": "από την άλλη πλευρά, πολλοί ΓΙ (γαστρεντερικοί) καρκίνοι δεν παράγουν καθόλου αυτή την ουσία."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

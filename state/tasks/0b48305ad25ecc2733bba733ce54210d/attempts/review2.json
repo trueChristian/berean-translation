@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:59:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 2\",\"severity\":\"minor\",\"source_quote\":\"Maybe it would have been better if Hadassah had stood up to them, but she didn’t.\",\"suggested_fix\":\"Replace the phrase “kuwakananisha” with a more natural Kiswahili verb for ‘stand up to’ such as “kuwapinga” or “kumkabili” to preserve the intended meaning and idiom.\",\"translation_quote\":\"Labda ingekuwa bora kama Hadassah angehimili na kuwakananisha, lakini hakufanya hivyo.\"},{\"location\":\"First figure img alt\",\"severity\":\"minor\",\"source_quote\":\"An empty classroom with rows of desks\",\"suggested_fix\":\"Use a natural Kiswahili phrase for “rows of desks,” for example “darasa tupu lenye safu za davi/dawati” or “darasa tupu lenye safu za madawati.” Replace “mizunguko ya dawati” with one of those.\",\"translation_quote\":\"Darasa tupu lenye mizunguko ya dawati\"},{\"location\":\"Fourth figure img alt\",\"severity\":\"minor\",\"source_quote\":\"An ambulance driving with its emergency lights on\",\"suggested_fix\":\"Use the consistent and more accurate Kiswahili term “gari la dharura” rather than “gari la wagonjwa.” For example: “Gari la dharura likiendesha na taa zake za dharura zikiwa zinawaka.”\",\"translation_quote\":\"Gari la wagonjwa likiendesha na taa zake za dharura zikiwa zinawaka\"}],\"passed\":false,\"score\":94}",
+    "content_bytes": 1323,
+    "content_evidence_truncated": false,
+    "content_sha256": "e1a0f0fbc46ac7ee02e9f798e587f8502aef1c56ec8904c5e6a2abc59be9e23b",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1368,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3343,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1792
+      },
+      "total_tokens": 4711
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "paragraph: \"Этот человек живёт где‑то в Соединённых Штатах Америки.\" (story introduction)",
+      "severity": "minor",
+      "source_quote": "plain people—those of Anabaptist heritage",
+      "suggested_fix": "Translate the English term plain consistently into Russian rather than leaving an English word or hybrid. Replace «plain‑людей» or «plain‑народ» with a single Russian rendering such as «plain-люди» is acceptable only if the site consistently uses that transliterated term; otherwise render as «консервативные простые (plain) люди» or better «простонародье»/«консервативные анабаптистские общины» according to the publication's style. Keep the meaning (members of conservative Anabaptist plain communities).",
+      "translation_quote": "Он принадлежит к одной из религиозных групп среди plain‑людей — людей анабаптистского наследия."
+    },
+    {
+      "location": "paragraph mentioning 1 Corinthians 14",
+      "severity": "minor",
+      "source_quote": "what 1 Corinthians chapter 14 refers to as tongues (languages) and since he didn’t understand the language and since there was no interpretation given, he was not able to be edified.",
+      "suggested_fix": "Correct the rendering of the word 'tongues' to standard Russian without mixed characters/accents and render 'interpretation' clearly. For example: «соответствовало тому, о чём говорится в 1 Коринфянам 14 — «языки» (глоссолалия); и поскольку он не понимал языка и не было толкования, он не мог назидаться.» Preserve the two ideas: 'tongues' (languages) and lack of interpretation prevented edification.",
+      "translation_quote": "Всё, что он слышал, соответствовало тому, о чём говорится в 1 Коринфянам 14 — глáгoлы (языки), и поскольку он не понимал языка и не было <em>толкования</em>, он не мог назидаться."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

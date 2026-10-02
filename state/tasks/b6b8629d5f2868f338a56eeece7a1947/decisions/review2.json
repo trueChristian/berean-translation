@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>...He passed away soon after the age of 55, on November 20, 1847.</p>",
+      "severity": "minor",
+      "source_quote": "He passed away soon after the age of 55, on November 20, 1847.",
+      "suggested_fix": "Adjust the Spanish to preserve the subtle timing nuance. For example: “Falleció poco después de cumplir los 55 años, el 20 de noviembre de 1847.” Keep the surrounding paragraph and HTML unchanged.",
+      "translation_quote": "Falleció poco después, a los 55 años, el 20 de noviembre de 1847."
+    },
+    {
+      "location": "<p class=\"poem\">...And, though rebellious and perverse meanwhile,</p>",
+      "severity": "minor",
+      "source_quote": "And, though rebellious and perverse meanwhile,",
+      "suggested_fix": "Correct number/agreement in Spanish. Replace “Y, aunque rebeldes y perverso entretanto,” with “Y, aunque rebelde y perverso entretanto,” so subject–adjective agree in singular. Preserve stanza line breaks and <p class=\"poem\"> tags.",
+      "translation_quote": "Y, aunque rebeldes y perverso entretanto,"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

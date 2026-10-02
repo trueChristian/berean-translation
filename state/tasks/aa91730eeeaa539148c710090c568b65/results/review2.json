@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "996715e2-853d-4bbb-99f7-0a1ffff787e9",
+    "response_id": "chatcmpl-EUX6Z6m0MflIL9yHWquWZkkaDaRJa",
+    "usage": {
+      "completion_tokens": 1218,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9742,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10960
+    }
+  },
+  "received_at": "2026-10-02T12:59:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> › <ul> (first Scripture list) › 6th <li> (Titus 2:3-5 paragraph)",
+        "severity": "critical",
+        "source_quote": "Titus gives us sisters clear direction from God. The aged women likewise, that they be … teachers of good things; That they may teach the young women to be sober, to love their husbands, to love their children, To be discreet, chaste, keepers at home, good, obedient to their own husbands, that the word of God be not blasphemed –Titus 2:3-5.",
+        "suggested_fix": "Restore the correct positive rendering of the phrase corresponding to “to love their husbands” and the rest of the Titus clause. Keep the same HTML structure and tags. For example (in Modern Standard Arabic):\n\n<em>تيطس يُعطينا أخوات توجيهًا واضحًا من الله. النسوات الشيوخ أيضًا ليكنَّ… معلماتٍ للخير؛ لكي يعَلِّمنَ النساءَ الشاباتِ أن يكنَّ محتشماتٍ، أن يُحِبَّنَ أزواجَهُنَّ، أن يُحِبَّنَ أولادَهُنَّ، أن يكنَّ حكيماتٍ، عفيفاتٍ، مدَبِّراتِ المنزلِ، صالحاتٍ، مُطِيعَاتٍ لأزواجِهنَّ أنفسِهنَّ، لِئلّا يُسبَّ اسمُ اللهِ —تيطس 2:3-5.</em>\n\n(Ensure that the target-language wording conveys the positive infinitive “to love their husbands” and that the HTML tags and order remain unchanged.)",
+        "translation_quote": "<em>تيطس يُعطينا أخوات توجيهًا واضحًا من الله. <em>النسوات الشيوخ أيضًا ليكنَّ… معلمات للخير، لكي يعلمن النساء الشابات أن يكنَّ محتشمات، <strong>وألاّ يَحِبّْنَ أزواجهن،</strong> وأن يحببن أولادهن، أن يكنَّ حكيمات، عفيفات، مدَبِّرات للمنزل، صالحات، <strong>مُطِيعَاتٍ لأزواجهن أنفسهن،</strong> لئلا يُسبَّ اسم الله —تيطس 2:3-5.</em>"
+      },
+      {
+        "location": "<article> › paragraph beginning with \"<em>That they may teach the young women to be sober...\" (around middle of article)",
+        "severity": "critical",
+        "source_quote": "\"That they may teach the young women to be sober, to love their husbands, to love their children —Titus 2:4.\"",
+        "suggested_fix": "Translate this sentence fully into Modern Standard Arabic (do not leave it in English). Keep the same emphasis tags and place it where the English line currently appears. For example:\n\n<em>كي يعلّمنَ النساءَ الشاباتِ أن يكنَّ متعقِّلاتٍ، أن يُحِبَّنَ أَزواجَهُنَّ، أن يُحِبَّنَ أولادَهُنَّ —تيطس 2:4.</em>\n\n(Adjust wording to match the surrounding Arabic style used in the article; preserve HTML tags.)",
+        "translation_quote": "<em>That they may teach the young women to be sober, to love their husbands, to love their children —Titus 2:4.</em>"
+      }
+    ],
+    "passed": false,
+    "score": 40
+  }
+}

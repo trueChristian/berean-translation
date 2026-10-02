@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph block starting with \"References:\"",
+      "severity": "major",
+      "source_quote": "References:\n    <em>101 Hymn Stories,\n    Treasury of Hymn Stories\n    Author- Henry Francis Lyte, 1793-1847\n    Composer- William Henry Monk, 1823-1889\n    Tune Name - “Eventide”</em>",
+      "suggested_fix": "Translate the label and the metadata into Afrikaans, preserving formatting and the unchanged proper names and numbers. For example replace the English block with:\nReferences:\n    <em>101 Hymn Stories,\n    Treasury of Hymn Stories\n    Skrywer – Henry Francis Lyte, 1793–1847\n    Komponis – William Henry Monk, 1823–1889\n    Melodienaam – “Eventide”</em>",
+      "translation_quote": "References:\n    <em>101 Hymn Stories,\n    Treasury of Hymn Stories\n    Author- Henry Francis Lyte, 1793-1847\n    Composer- William Henry Monk, 1823-1889\n    Tune Name - “Eventide”</em>"
+    },
+    {
+      "location": "Paragraph that begins \"The scene behind this hymn...\" (Luke 24:28-29 sentence)",
+      "severity": "minor",
+      "source_quote": "The scene behind this hymn is that of the resurrected Christ Jesus walking on the road to Emmaus with two of His somewhat sad and discouraged disciples.",
+      "suggested_fix": "The Afrikaans uses 'verrewekte Christus' which is nonstandard/awkward. Use a standard, theologically correct phrase such as 'die opgestane Christus Jesus' to match the authoritative English meaning and standard Afrikaans usage.",
+      "translation_quote": "Die skildery agter hierdie gesang is daardie van die verrewekte Christus Jesus wat op die pad na Emmaus met twee van Sy ietwat bedroefde en moedeloos gelaat dissipels wandel."
+    },
+    {
+      "location": "First paragraph: opening sentence",
+      "severity": "minor",
+      "source_quote": "It was he who coined the phrase, “It is better to wear out than to rust out.”",
+      "suggested_fix": "The translation uses 'Hy was diegene wat die frase geskep het' (awkward phrasing). Use a more natural Afrikaans phrasing preserving meaning, e.g. 'Hy was die man wat die frase geskep het: \"Dit is beter om uit te slyt as om te roes.\"'",
+      "translation_quote": "Hy was diegene wat die frase geskep het: “Dit is beter om uit te slyt as om te roes.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "References paragraph (final paragraph)",
+      "severity": "major",
+      "source_quote": "\"Treasury of Hymn Stories\"",
+      "suggested_fix": "Translate the quoted English title into Modern Greek (or provide a bilingual rendering). Replace the English-only quoted title with its Greek equivalent, preserving the surrounding HTML and emphasis. For example: «Θησαυρός ιστοριών ύμνων (\"Treasury of Hymn Stories\")» or simply «Θησαυρός Ιστοριών Υμνων».",
+      "translation_quote": "\"Treasury of Hymn Stories\""
+    },
+    {
+      "location": "Top-level metadata: section field",
+      "severity": "minor",
+      "source_quote": "A Hymn History",
+      "suggested_fix": "Use idiomatic Modern Greek with correct diacritics and capitalization. Replace \"Ιστορία ενός Υμνου\" with \"Ιστορία ενός ύμνου\" (or \"Ιστορία ενός ύμνου\" as the site style requires). Preserve the field content only — do not alter HTML tags.",
+      "translation_quote": "Ιστορία ενός Υμνου"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

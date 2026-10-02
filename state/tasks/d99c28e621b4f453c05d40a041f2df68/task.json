@@ -2,7 +2,6 @@
   "article_id": "fe94355d-8741-49a7-8f66-16003daa3f89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -62,32 +61,45 @@
         },
         "total_tokens": 9601
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 888,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5537,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6425
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<article> <p class=\"poem\"> (eight stanzas)",
-      "severity": "critical",
-      "source_quote": "Abide with me: fast falls the eventide;\\n    The darkness deepens; Lord, with me abide:\\n    when other helpers fail, and comforts flee,\\n    Help of the helpless, O abide with me.\\n\\nSwift to its close ebbs out life’s little day;\\n    Earth’s joys grow dim, its glories pass away;\\n    Change and decay in all around I see;\\n    O Thou who changest not, abide with me.\\n\\nNot a brief glance I beg, a passing word;\\n    But, as Thou dwell’st with Thy disciples, Lord,\\n    Familiar, condescending, patient, free,\\n    Come, not to sojourn, but abide, with me.\\n\\nCome not in terrors, as the King of kings;\\n    But kind and good, with healing in Thy wings;\\n    Tears for all woes, a heart for every plea;\\n    Come, Friend of sinners, and thus ‘bide with me.\\n\\nThou on my head in early youth didst smile;\\n    And, though rebellious and perverse meanwhile,\\n    thou hast not left me, oft as I left thee:\\n    On to the close, O Lord, abide with me.\\n\\nI need Thy presence every passing hour;\\n    What but Thy grace can foil the tempter’s power?\\n    Who like Thyself my guide and stay can be?\\n    Through cloud and sunshine, O abide with me.\\n\\nI fear no foe, with Thee at hand to bless:\\n    Ills have no weight, and tears no bitterness.\\n    Where is death’s sting? Where, grave, thy victory?\\n    I triumph still, if Thou abide with me.\\n\\nHold Thou Thy cross before my closing eyes;\\n    Shine through the gloom, and point me to the skies;\\n    Heaven’s morning breaks, and earth’s vain shadows flee:\\n    In life, in death, O Lord, abide with me.",
-      "suggested_fix": "Translate all eight stanzas of the quoted hymn into Indonesian, preserving the printed theological sense and stanza structure. For example, render the first stanza coherently into Bahasa Indonesia (keeping line breaks/tags intact):\n\nAbide with me: fast falls the eventide; → Tinggallah bersamaku: senja cepat menyelimuti;\\nThe darkness deepens; Lord, with me abide: → Kegelapan semakin pekat; Tuhan, tinggallah bersamaku:\\nwhen other helpers fail, and comforts flee, → ketika penolong lain gagal dan penghiburan lenyap,\\nHelp of the helpless, O abide with me. → Penolong bagi yang tak berdaya, ya tinggallah bersamaku.\n\nApply the same faithful, idiomatic translation to each subsequent stanza, preserving the <p class=\"poem\"> tags and <br> line breaks exactly as in the source HTML (do not add, remove, or reorder tags). Ensure the hymn remains clearly marked as quoted material.",
-      "translation_quote": "(Hymn stanzas left in original English in translation) "
+      "location": "Paragraph with quote: “To their mutual grief, they found themselves [both] groping for the light, veritable blind guides”.",
+      "severity": "minor",
+      "source_quote": "“To their mutual grief, they found themselves [both] groping for the light, veritable blind guides”.",
+      "suggested_fix": "Preserve the bracketed emphasis by rendering the bracketed [both] in Indonesian as in the source or keep brackets to show the same editorial emphasis, e.g. “Untuk kesedihan bersama mereka, mereka mendapati diri mereka [keduanya] meraba-raba menuju terang, benar-benar pemimpin yang buta.”",
+      "translation_quote": "“Untuk kesedihan bersama mereka, mereka mendapati diri mereka [keduanya] meraba-raba menuju terang, benar-benar pemimpin yang buta”. (currently translated without the brackets as “... mereka mendapati diri mereka meraba-raba menuju terang...”) "
     },
     {
-      "location": "<article> <p> paragraph about death / travel",
-      "severity": "major",
-      "source_quote": "His last words were “Joy! Peace!”",
-      "suggested_fix": "Translate the quoted last words into Indonesian, preserving them as quoted substantive prose. For example: \"Kata-kata terakhirnya adalah ‘Sukacita! Damai!’\" Keep the surrounding sentence structure and the exact placement of the quotation marks as in the source HTML.",
-      "translation_quote": "Kata-kata terakhirnya adalah “Joy! Peace!”"
-    },
-    {
-      "location": "<article> <p> paragraph about William Monk and other hymns",
-      "severity": "major",
-      "source_quote": "William Monk also wrote the music for other familiar hymns such as “Look, Ye Saints! The Sight Is Glorious”, and “The Strife Is O’er”.",
-      "suggested_fix": "Translate the quoted hymn titles into Indonesian (they are quoted substantive prose). For example: “Look, Ye Saints! The Sight Is Glorious” → “Lihatlah, hai orang-orang kudus! Pemandangan itu mulia”, and “The Strife Is O’er” → “Pertempuran telah usai”. Preserve the quotation marks and the order of the titles. If the publication prefers to keep well-known hymn titles in their original language, still provide an Indonesian rendering immediately (e.g., “'Look, Ye Saints! The Sight Is Glorious' (Lihatlah… )”). Do not alter HTML tags.",
-      "translation_quote": "William Monk also wrote the music for other familiar hymns such as “Look, Ye Saints! The Sight Is Glorious”, and “The Strife Is O’er”."
+      "location": "Final quote attributed to Dr. Breed (last content paragraph)",
+      "severity": "minor",
+      "source_quote": "“In no other writer,” says Dr. Breed (in the Treasury of Hymn Stories), “are poetry and religion more exquisitely united.”",
+      "suggested_fix": "The current Indonesian rendering is understandable but slightly awkward. Suggest a smoother idiomatic rendering that preserves meaning and attribution, e.g. “'Dalam penulis lain mana pun,' kata Dr. Breed (dalam Treasury of Hymn Stories), 'puisi dan agama tidak bersatu seindah ini.'”",
+      "translation_quote": "“Dalam tidak ada penulis lain,” kata Dr. Breed (dalam Treasury of Hymn Stories), “puisi dan agama lebih indah bersatu.”"
     }
   ],
+  "finished_at": "2026-10-02T12:59:40+00:00",
   "id": "d99c28e621b4f453c05d40a041f2df68",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ind",
@@ -161,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 40,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/4edc62ec40603cbb629a5274f380a8df79d2ef113be92eb5013535a57f3d95a9.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

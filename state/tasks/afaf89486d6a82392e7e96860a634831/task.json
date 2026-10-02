@@ -2,7 +2,6 @@
   "article_id": "55b18915-e213-448c-8fe1-d430e195e768",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -62,32 +61,45 @@
         },
         "total_tokens": 11510
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 977,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7202,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8179
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<p>…He and his boat had a long relationship. It had served him well for many years.</p> (source HTML paragraph beginning \"Peter’s boat was his security.\")",
-      "severity": "critical",
-      "source_quote": "Peter’s boat was his security. He and his boat had a long relationship. It had served him well for many years.",
-      "suggested_fix": "Keep the original agent/recipient relationship: the boat served Peter. In the existing translated paragraph, reverse the verb so the boat is the subject that served him. For example (preserving tags and structure):\n<p>O barco de Pedro era sua segurança. Ele e o barco tinham uma longa relação. Ele o havia servido bem por muitos anos.</p>\n(Alternate correction if you prefer clearer Portuguese grammar while preserving meaning:)\n<p>O barco de Pedro era sua segurança. Ele e o barco tinham uma longa relação. O barco o tinha servido bem por muitos anos.</p>",
-      "translation_quote": "O barco de Pedro era sua segurança. Ele e seu barco tinham uma longa relação. Ele o havia servido bem por muitos anos."
+      "location": "source.html — paragraph: \"…straightway Jesus constrained his disciples to get into a ship... –Matthew 14:22.\"",
+      "severity": "minor",
+      "source_quote": "…straightway Jesus constrained his disciples to get into a ship, and to go before him unto the other side, while he sent the multitudes away –Matthew 14:22.",
+      "suggested_fix": "Use a clearer Portuguese verb for the sense of compelled/urged in this context. Replace \"constrangeu\" with \"compeliu\" or \"obrigou\" to match the English sense that Jesus compelled/urged them to get into the boat.",
+      "translation_quote": "…logo Jesus constrangeu os seus discípulos a entrarem no barco, e a irem adiante dele para o outro lado, até que despedisse a multidão –Mateus 14:22."
     },
     {
-      "location": "<p>…We reason away the woman’s head covering. …</p> (source HTML paragraph beginning \"So it is with many aspects of the Christian experience.\")",
+      "location": "source.html — paragraph: \"He had drawn many a draught of fish over her gunwales.\"",
       "severity": "minor",
-      "source_quote": "We reason away the woman’s head covering.",
-      "suggested_fix": "Use a natural, idiomatic Portuguese phrase for \"woman's head covering\" (not literal \"tampa da cabeça\"). Replace \"a tampa da cabeça da mulher\" with \"o véu da mulher\" or \"a cobertura da cabeça da mulher\" to preserve author intent and read naturally. Example replacement (preserving tags):\n<p>Raciocinamos o véu da mulher.</p>",
-      "translation_quote": "Raciocinamos a tampa da cabeça da mulher."
-    },
-    {
-      "location": "alt attribute of <img> (figure)",
-      "severity": "minor",
-      "source_quote": "Lightning beneath dark storm clouds over a field",
-      "suggested_fix": "The translated alt text is acceptable but slightly literal. Consider a smoother Portuguese phrasing while keeping meaning, e.g. \"Relâmpago sob nuvens escuras de tempestade sobre um campo\". Preserve the alt attribute and its placement. Example (preserve tag):\n<img ... alt=\"Relâmpago sob nuvens escuras de tempestade sobre um campo\" ...>",
-      "translation_quote": "Relâmpago sob nuvens de tempestade escuras sobre um campo"
+      "source_quote": "He had drawn many a draught of fish over her gunwales.",
+      "suggested_fix": "Use a more natural Portuguese rendering of \"draught of fish\" (a fishing haul). Replace \"remessas de peixe\" with \"grandes redes de peixe\" or \"muitas pescadas\" (e.g. \"Ele havia trazido muitas pescadas sobre os bordos\") to better convey the original meaning.",
+      "translation_quote": "Ele havia trazido muitas remessas de peixe sobre os bordos."
     }
   ],
+  "finished_at": "2026-10-02T12:59:40+00:00",
   "id": "afaf89486d6a82392e7e96860a634831",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "por",
@@ -161,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/47641161e24a4c36535a9aad69db399a5b74987fc191a5346da200439748cac7.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "73de90ede959b89d4fd696b2e9474c165d018804ec574570e47ca5f30322f740",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

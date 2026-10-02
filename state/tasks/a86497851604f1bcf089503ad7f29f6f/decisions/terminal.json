@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph describing Hans's execution (multiple paragraphs including sentencing and execution scene)",
+      "severity": "critical",
+      "source_quote": "The matter was put to a vote at noon, and a majority decision was quickly reached. Hans Landis would be publicly beheaded at once.\n\n... The sword flashed downward, then Paul Vollmar asked the ritual question: “Have I executed this man rightly?”",
+      "suggested_fix": "Replace all instances where the translation uses words meaning 'hanging' (फाँसी, फाँसी स्थल, फाँसी देने वाले, फाँसी देने वाले पॉल वोलमार, फाँसी दी जाएगी, etc.) with wording that accurately reflects the original English account of a beheading and a sword execution. For example: \n- Change “हंस लैंडिस को तत्काल सार्वजनिक रूप से फाँसी दी जाएगी।” to “हंस लैंडिस को तुरंत सार्वजनिक रूप से सिर कलम किया जाएगा।”\n- Change “फाँसी स्थल” to “सर काटे जाने की जगह/निर्वह स्थल” or “कटाई का स्थल” where appropriate.\n- Change “फाँसी देने वाले पॉल वोलमार” to “तलवार चलाने वाले पॉल वोलमार” or “हत्यारे/कटर पॉल वोलमार” (preferably “तलवार चलाने वाले पॉल वोलमार”).\n- Change related phrases such as “फाँसी देने वाले”/“फाँसी दी जाएगी”/“फाँसी स्थल के पास” to equivalents consistent with beheading (e.g., “सिर कलम करने वाले,” “सिर कलम किया जाएगा,” “कटर/तलवार चलाने वाले के समक्ष”) .\nMake only these targeted replacements in the translated paragraphs so the method of execution matches the source text (including the sword imagery and the ritual question).",
+      "translation_quote": "“हंस लैंडिस को तत्काल सार्वजनिक रूप से फाँसी दी जाएगी।” and subsequent paragraphs referring to “फाँसी,” “फाँसी स्थल,” and “फाँसी देने वाले पॉल वोलमार.”"
+    },
+    {
+      "location": "First paragraph, phrase connecting 'personal power'",
+      "severity": "minor",
+      "source_quote": "Some people search for this truth through personal power, as they attempt to hold sway over their fellow man.",
+      "suggested_fix": "Replace the Urdu-script connector 'سے' with the correct Devanagari 'से' to match contemporary Hindi orthography: change “व्यक्तिगत शक्ति سے खोजते हैं” to “व्यक्तिगत शक्ति से खोजते हैं।”",
+      "translation_quote": "“व्यक्तिगत शक्ति سے खोजते हैं”"
+    },
+    {
+      "location": "Paragraph quoting Sirach: wording of 'pitch'",
+      "severity": "minor",
+      "source_quote": "Bachman’s testimony ... ending with this quote from Sirach: “Whoever stirs in pitch will be smudged.”",
+      "suggested_fix": "Translate or, if using a loanword, render 'pitch' in standard Hindi or a commonly used Hindi biblical term rather than the transliterated 'पिच'. For example: change “जो कोई पिच में हाथ डालेगा, वह मैला हो जाएगा।” to “जो कोई काला गोंद/तेल (pitch) में हाथ डालेगा, वह मैला हो जाएगा।” or better, use a single-word Hindi equivalent appropriate to the Bible citation, e.g. “जो कोई चिकनाई/कोक में हाथ डालेगा, वह मैला हो जाएगा।” Keep the citation to Sirach unchanged.",
+      "translation_quote": "“जो कोई पिच में हाथ डालेगा, वह मैला हो जाएगा।”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

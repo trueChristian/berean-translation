@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "<p> (biography paragraph mentioning death age)",
+      "severity": "major",
+      "source_quote": "He passed away soon after the age of 55, on November 20, 1847. His last words were “Joy! Peace!”",
+      "suggested_fix": "Translate the factual age statement accurately. Replace the current Bengali phrase with a faithful rendering such as: “তিনি ৫৫ বছরের কিছু দিন অতিবাহিত করেই, ২০ নভেম্বর ১৮৪৭ সালে মৃত্যুবরণ করেন। তাঁর শেষ কথাগুলো ছিল ‘আনন্দ! শান্তি!’” Preserve the surrounding HTML tags and punctuation exactly.",
+      "translation_quote": "তিনি পঞ্চাশি বা পঞ্চান্নের আশেপাশে, ২০ নভেম্বর, ১৮৪৭ সালে মারা যান। তার শেষ কথাগুলো ছিল “আনন্দ! শান্তি!”"
+    },
+    {
+      "location": "<p> (Luke 24:28-29 quotation paragraph)</p>",
+      "severity": "major",
+      "source_quote": "…made as though he would have gone further. But they constrained him, saying, Abide with us: for it is toward evening, and the day is far spent. And he went in to tarry with them –Luke 24:28-29.",
+      "suggested_fix": "Translate the book name into conventional Bengali and keep the verse numbers unchanged. For example: replace the trailing English citation “–Luke 24:28-29.” with “–লূক ২৪:২৮-২৯।” Keep the verse text already translated, and preserve the emphasis and em tags exactly as in the source HTML.",
+      "translation_quote": "…তাঁরা যেন তিনি আরও দূর যাবেন বলিয়া করিলেন; কিন্তু তারা তাঁকে আটক করিয়া বলিল—আমাদের সঙ্গে থাকো; কারণ সন্ধ্যা আসিতেছে এবং দিন ব্যস্ত্ত হয়েছে। অতঃপর তিনি তাদের সঙ্গে ভিতরে প্রবেশ করিয়া অবস্থান করিলেন –Luke 24:28-29."
+    },
+    {
+      "location": "<p class=\"poem\"> (third stanza, final line)</p>",
+      "severity": "minor",
+      "source_quote": "Come, not to sojourn, but abide, with me.",
+      "suggested_fix": "Use a clearer, idiomatic Bengali rendering that reflects the contrast between a short visit and staying. Suggested correction: “এসো—অল্পকালের অবস্থানের জন্য নয়, বরং স্থায়ীভাবে আমার সঙ্গে থাকা।” Preserve the poem paragraph tag and line breaks.",
+      "translation_quote": "এসো, অবকাশ গ্রাহকেরূপে নয়, বরং স্থায়ী হও, আমার সঙ্গে থাকো।"
+    },
+    {
+      "location": "<p class=\"drop-cap\"> (early biography paragraph referring to his ministry)</p>",
+      "severity": "minor",
+      "source_quote": "his primary goal with his studies was to become a physician, instead, by the providence of God, he became a minister of the gospel of Jesus Christ.",
+      "suggested_fix": "Render the theological phrase more naturally and faithfully in Bengali, preserving the author's theology. Suggested text: “তাঁর প্রধান লক্ষ্য ছিল চিকিৎসক হওয়া; তবে ঈশ্বরের বিধিতে তিনি যীশু খ্রিস্টের সুসমাচার প্রচারক (পাদ্রি) হয়ে উঠলেন।” Preserve HTML structure.",
+      "translation_quote": "তার পড়াশোনার প্রধান লক্ষ্য ছিল চিকিৎসক হওয়া; তবু ঈশ্বরের বিধিতে তিনি যীশু খ্রীষ্টের সুশাসনের একজন প্রভাষক হয়ে উঠেন।"
+    },
+    {
+      "location": "<p class=\"poem\"> (first stanza, third line)</p>",
+      "severity": "minor",
+      "source_quote": "when other helpers fail, and comforts flee, Help of the helpless, O abide with me.",
+      "suggested_fix": "Adjust wording for clarity and natural Bengali rhythm. Suggested rendering: “যখন অন্য সহায়ক ব্যর্থ হয় এবং সান্ত্বনা পলায়, অক্ষমদের প্রভূ—হে আমার সঙ্গে থাকো।” Preserve stanza breaks and tags.",
+      "translation_quote": "যখন অন্য সহায়করা ব্যর্থ হয়, আর শোকনিয়ত সান্ত্বনা পালায়, অক্ষমদের সহায়, হে আমার সঙ্গে থাকো।"
+    },
+    {
+      "location": "<p> (References block at end)</p>",
+      "severity": "minor",
+      "source_quote": "101 Hymn Stories,\n    Treasury of Hymn Stories\n    Author- Henry Francis Lyte, 1793-1847\n    Composer- William Henry Monk, 1823-1889\n    Tune Name - “Eventide”",
+      "suggested_fix": "Translate or label the reference block consistently into Bengali while preserving the original titles as needed. For example: “উৎস:\n    101 Hymn Stories,\n    Treasury of Hymn Stories\n    রচয়িতা—Henry Francis Lyte (১৭৯৩–১৮৪৭)\n    সুরকার—William Henry Monk (১৮২৩–১৮৮৯)\n    সুরের নাম—‘Eventide’.” Preserve italics/em tags and line breaks exactly as in the source HTML.",
+      "translation_quote": "101 Hymn Stories,\n    Treasury of Hymn Stories\n    Author- Henry Francis Lyte, 1793-1847\n    Composer- William Henry Monk, 1823-1889\n    Tune Name - “Eventide”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

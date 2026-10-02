@@ -2,7 +2,6 @@
   "article_id": "cb06f158-b3bf-41e8-9b8c-3f8490443a07",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -62,18 +61,38 @@
         },
         "total_tokens": 8878
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 822,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5771,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6593
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<p>...We no longer need to worry about holding the offender captive. After all, he or she is not in bondage to us. We cannot choose whether or not they will be set free. Only the Lord has the power to set someone free.</p>",
-      "severity": "major",
-      "source_quote": "After all, he or she is not in bondage to us.",
-      "suggested_fix": "Render the intended meaning of \"not in bondage to us\" (i.e., not held captive or enslaved by us) rather than implying financial indebtedness. Replace the Portuguese phrase \"ele ou ela não está em dívida conosco\" with a phrase conveying lack of captivity, for example: \"afinal, ele ou ela não está em cativeiro por nossa causa\" or \"afinal, ele ou ela não está sob o nosso domínio\".",
-      "translation_quote": "Afinal, ele ou ela não está em dívida conosco."
+      "location": "<article> paragraph beginning \"In Acts 16, we read an account of Paul and Silas...\" (English) / corresponding paragraph beginning \"Em Atos 16, lemos o relato de Paulo e Silas...\" (Portuguese)",
+      "severity": "minor",
+      "source_quote": "After they had healed a demon-possessed girl they were severely beaten by the local authorities, secured in stocks, and locked in prison.",
+      "suggested_fix": "Use a more idiomatic Portuguese rendering of \"secured in stocks\". Replace \"colocados em troncos\" with a phrase that conveys the historical meaning (constraining wooden stocks). Example: \"foram severamente açoitados pelas autoridades locais, colocados em troncos (madeiras de contenção) e trancados na prisão.\" Preserve HTML structure and surrounding text; change only the Portuguese wording inside this paragraph.",
+      "translation_quote": "Depois de terem curado uma moça possuída por um demônio, foram severamente açoitados pelas autoridades locais, colocados em troncos e trancados na prisão."
     }
   ],
+  "finished_at": "2026-10-02T12:59:40+00:00",
   "id": "ade39c4cb3da155cf0d314c6239a403f",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "por",
@@ -147,13 +166,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/bfb06c218ba9f1c1fc2af084f523761a426281e4793352fbdf7a1e712eeefda1.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "4dca0fb4064954f718edd76356f4b3252712476d53d4c6f6f30b8608493c5b94",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

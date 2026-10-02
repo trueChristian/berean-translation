@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<article> paragraph beginning \"In Acts 16, we read an account of Paul and Silas...\" (English) / corresponding paragraph beginning \"Em Atos 16, lemos o relato de Paulo e Silas...\" (Portuguese)",
+      "severity": "minor",
+      "source_quote": "After they had healed a demon-possessed girl they were severely beaten by the local authorities, secured in stocks, and locked in prison.",
+      "suggested_fix": "Use a more idiomatic Portuguese rendering of \"secured in stocks\". Replace \"colocados em troncos\" with a phrase that conveys the historical meaning (constraining wooden stocks). Example: \"foram severamente açoitados pelas autoridades locais, colocados em troncos (madeiras de contenção) e trancados na prisão.\" Preserve HTML structure and surrounding text; change only the Portuguese wording inside this paragraph.",
+      "translation_quote": "Depois de terem curado uma moça possuída por um demônio, foram severamente açoitados pelas autoridades locais, colocados em troncos e trancados na prisão."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

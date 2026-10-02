@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:59:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph: \\\"It spread and grew throughout Moravia, the Netherlands, Switzerland, and the Palatinate region of Germany.\\\" (English source) / Paragraph: \\\"Den spred sig och växte i Böhmen och Mähren, Nederländerna, Schweiz och Pfalz i Tyskland.\\\" (translation)\",\"severity\":\"major\",\"source_quote\":\"It spread and grew throughout Moravia, the Netherlands, Switzerland, and the Palatinate region of Germany.\",\"suggested_fix\":\"Remove the added place name 'Böhmen' (Bohemia). Translate only the places printed in the English source: \\\"Mähren, Nederländerna, Schweiz och Pfalz i Tyskland.\\\" Preserve order and meaning from the English source.\",\"translation_quote\":\"Den spred sig och växte i Böhmen och Mähren, Nederländerna, Schweiz och Pfalz i Tyskland.\"},{\"location\":\"Later paragraph referencing the mayor (second occurrence): English source: \\\"Rhudlof Rhan\\\" (later occurrence) / translation: \\\"Rudolf Rhan\\\"\",\"severity\":\"minor\",\"source_quote\":\"Rhudlof Rhan\",\"suggested_fix\":\"Match the exact printed English spelling at each occurrence. The authoritative English text uses two different spellings; preserve the printed form used at this later location. Change this translated instance to \\\"Rhudlof Rhan\\\" to mirror the English source's later appearance.\",\"translation_quote\":\"Rudolf Rhan\"}],\"passed\":false,\"score\":62}",
+    "content_bytes": 1349,
+    "content_evidence_truncated": false,
+    "content_sha256": "c23ff095ef5aa7bd0898abf6b1614b1152c9fa70ac832a974ab55a82e1127476",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1411,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1088,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9014,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10425
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html — paragraph: \"…straightway Jesus constrained his disciples to get into a ship... –Matthew 14:22.\"",
+      "severity": "minor",
+      "source_quote": "…straightway Jesus constrained his disciples to get into a ship, and to go before him unto the other side, while he sent the multitudes away –Matthew 14:22.",
+      "suggested_fix": "Use a clearer Portuguese verb for the sense of compelled/urged in this context. Replace \"constrangeu\" with \"compeliu\" or \"obrigou\" to match the English sense that Jesus compelled/urged them to get into the boat.",
+      "translation_quote": "…logo Jesus constrangeu os seus discípulos a entrarem no barco, e a irem adiante dele para o outro lado, até que despedisse a multidão –Mateus 14:22."
+    },
+    {
+      "location": "source.html — paragraph: \"He had drawn many a draught of fish over her gunwales.\"",
+      "severity": "minor",
+      "source_quote": "He had drawn many a draught of fish over her gunwales.",
+      "suggested_fix": "Use a more natural Portuguese rendering of \"draught of fish\" (a fishing haul). Replace \"remessas de peixe\" with \"grandes redes de peixe\" or \"muitas pescadas\" (e.g. \"Ele havia trazido muitas pescadas sobre os bordos\") to better convey the original meaning.",
+      "translation_quote": "Ele havia trazido muitas remessas de peixe sobre os bordos."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

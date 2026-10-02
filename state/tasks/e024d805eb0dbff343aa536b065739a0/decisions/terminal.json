@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "From the Editor",
+      "suggested_fix": "Match capitalization style of the target-language title to source. Either use Title Case (e.g., \"Fra redaktøren\") consistently or use all-caps only if the site style requires it. Suggested: keep as \"From the Editor\" → \"Fra redaktøren\" (sentence case) or if the site displays section headings in all caps, make the title \"FRA REDAKTØREN\" to match.",
+      "translation_quote": "Fra redaktøren"
+    },
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "FROM THE EDITOR",
+      "suggested_fix": "Section was translated correctly but currently appears as all-caps in the translation. Verify site styling rules: if section headings are intended to be all-caps, keep \"FRA REDAKTØREN\"; if not, use sentence case \"Fra redaktøren\" for consistency between title and section.",
+      "translation_quote": "FRA REDAKTØREN"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

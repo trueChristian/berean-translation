@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:59:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html / paragraph 5 (\\\"was very conscientious Hadassah...\\\")\",\"severity\":\"minor\",\"source_quote\":\"This was very disturbing to a very conscientious Hadassah.\",\"suggested_fix\":\"Render the adjective in fluent Arabic word order and with correct agreement. For example: replace \\\"كان هذا أمراً مزعجًا جدًا لِـHadassah الضميرية جدًا.\\\" with \\\"كان هذا أمراً مزعجًا جدًا لـHadassah الضميرة جدًا.\\\" or better \\\"كان هذا أمراً مزعجًا جدًا لِـHadassah، التي كانت ضميرية جدًا.\\\" Preserve existing HTML tags and punctuation.\",\"translation_quote\":\"كان هذا أمراً مزعجًا جدًا لِـHadassah الضميرية جدًا.\"},{\"location\":\"source.html / final paragraph of main text (\\\"old school friends\\\")\",\"severity\":\"minor\",\"source_quote\":\"today those girls are Hadassah’s “old school friends”.\",\"suggested_fix\":\"Use a more natural Arabic rendering for the idiom \\\"old school friends\\\" while preserving meaning. For example: replace \\\"هن \\\\\\\"صديقات المدرسة القديمات\\\\\\\" لـHadassah.\\\" with \\\"هن صديقاتها من أيام المدرسة.\\\" Preserve the existing HTML structure and quotation style if desired.\",\"translation_quote\":\"واليوم تلك الفتيات هن \\\"صديقات المدرسة القديمات\\\" لـHadassah.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 1443,
+    "content_evidence_truncated": false,
+    "content_sha256": "76b30c63dfff4db7d0b0ec5ac3709aceef05cd7c84d68c03074b2d54245e78ef",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 823,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3251,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4074
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

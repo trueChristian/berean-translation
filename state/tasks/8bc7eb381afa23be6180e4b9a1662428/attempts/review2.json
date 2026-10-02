@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:59:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>Foruten å være hennes beste venn, var en annen lysning for Hadassah at når Esther var på skolen, var ikke de andre jentene like slemme mot henne (Hadassah).</p>\",\"severity\":\"minor\",\"source_quote\":\"Besides being her best friend, another bright spot for Hadassah was that when Esther was in school the other girls weren’t as mean to her (Hadassah).\",\"suggested_fix\":\"Replace the phrasing “en annen lysning” with a more natural Norwegian idiom such as “et annet lyspunkt”. Keep the rest of the sentence unchanged and preserve the paragraph tags.\",\"translation_quote\":\"Foruten å være hennes beste venn, var en annen lysning for Hadassah at når Esther var på skolen, var ikke de andre jentene like slemme mot henne (Hadassah).\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 797,
+    "content_evidence_truncated": false,
+    "content_sha256": "f06240d1100c6042a9b3a8651613eb56de7dd4e195b3b04907ff42b0f31a7644",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 655,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3256,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3911
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

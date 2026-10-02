@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8771731b-973f-4932-8c6b-313628f66071",
+    "response_id": "chatcmpl-EUX74roTNdPwrzythpT7aKZ7rNgsQ",
+    "usage": {
+      "completion_tokens": 1277,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5619,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6896
+    }
+  },
+  "received_at": "2026-10-02T12:59:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph 3 (sentence containing hymn title)",
+        "severity": "major",
+        "source_quote": "It is said that it was his encounter with God at the bedside of that dying man that prompted Lyte’s noble hymn, “Jesus, I My Cross Have Taken.”",
+        "suggested_fix": "Translate the quoted hymn title into Russian (preserving the surrounding punctuation and HTML). For example: заменить “Jesus, I My Cross Have Taken” на «Иисусе, я крест мой принял» (или другой общепринятый перевод названия), сохранив кавычки: “…побудила Лайта написать благородный гимн, «Иисусе, я крест мой принял».”",
+        "translation_quote": "Говорят, что именно его встреча с Богом у постели умирающего побудила Лайта написать благородный гимн «Jesus, I My Cross Have Taken» («Иисусе, я крест мой принял»)."
+      },
+      {
+        "location": "source.html <figure> <img> alt attribute",
+        "severity": "minor",
+        "source_quote": "alt=\"Sheet music for Abide With Me, Fast Falls the Eventide, credited to Henry F. Lyte, 1847, and William H. Monk, 1861\"",
+        "suggested_fix": "Translate the alt text into Russian, keeping names and dates but rendering the hymn title and descriptive words in Russian. For example: alt=\"Нотная запись гимна «Будь со мною: быстро падает вечер», авторы: Генри Ф. Лайт, 1847, и Уильям Х. Монк, 1861\". Preserve the img tag and other attributes unchanged.",
+        "translation_quote": "alt=\"Нотная запись гимна Abide With Me, Fast Falls the Eventide, авторы: Henry F. Lyte, 1847, и William H. Monk, 1861\""
+      },
+      {
+        "location": "source.html final References block",
+        "severity": "minor",
+        "source_quote": "<em>101 Hymn Stories,<br>\n    Treasury of Hymn Stories<br>\n    Author- Henry Francis Lyte, 1793-1847<br>\n    Composer- William Henry Monk, 1823-1889<br>\n    Tune Name - “Eventide”</em>",
+        "suggested_fix": "Translate the reference titles/labels into Russian while preserving the original work titles if needed in parentheses. For example: <em>«101 Hymn Stories»,<br>«Treasury of Hymn Stories»<br>Автор — Генри Фрэнсис Лайт, 1793–1847<br>Композитор — Уильям Генри Монк, 1823–1889<br>Название мелодии — «Eventide»</em>. Ensure any quoted substantive prose is rendered into Russian (work titles may remain in original in parentheses only if necessary).",
+        "translation_quote": "<em>101 Hymn Stories,<br>\n    Treasury of Hymn Stories<br>\n    Автор — Henry Francis Lyte, 1793-1847<br>\n    Композитор — William Henry Monk, 1823-1889<br>\n    Название мелодии — «Eventide»</em>"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

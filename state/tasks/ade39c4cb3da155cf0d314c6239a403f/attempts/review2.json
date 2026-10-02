@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:59:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<article> paragraph beginning \\\"In Acts 16, we read an account of Paul and Silas...\\\" (English) / corresponding paragraph beginning \\\"Em Atos 16, lemos o relato de Paulo e Silas...\\\" (Portuguese)\",\"severity\":\"minor\",\"source_quote\":\"After they had healed a demon-possessed girl they were severely beaten by the local authorities, secured in stocks, and locked in prison.\",\"suggested_fix\":\"Use a more idiomatic Portuguese rendering of \\\"secured in stocks\\\". Replace \\\"colocados em troncos\\\" with a phrase that conveys the historical meaning (constraining wooden stocks). Example: \\\"foram severamente açoitados pelas autoridades locais, colocados em troncos (madeiras de contenção) e trancados na prisão.\\\" Preserve HTML structure and surrounding text; change only the Portuguese wording inside this paragraph.\",\"translation_quote\":\"Depois de terem curado uma moça possuída por um demônio, foram severamente açoitados pelas autoridades locais, colocados em troncos e trancados na prisão.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 1048,
+    "content_evidence_truncated": false,
+    "content_sha256": "c074719fd6a0b7831da41c3e37586c1deb48999ae6a0d4644d4a5b837c4d2dd6",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 822,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5771,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6593
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

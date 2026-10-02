@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:59:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph discussing \\\"one Christian principle\\\" (near: \\\"principle of the headship order\\\")\",\"severity\":\"minor\",\"source_quote\":\"There was a friend of ours who told us that if there would be one Christian principle that he thought would have the most impact on the home, it would be the principle of the headship order.\",\"suggested_fix\":\"Remove the redundant parenthetical or clarify the phrase in French. For example, replace \\\"le principe de l’ordre de la tête (la tête)\\\" with \\\"le principe de l’ordre de la tête\\\" or \\\"le principe de la tête (la direction)\\\" so it reads naturally in French while preserving the original meaning.\",\"translation_quote\":\"Un ami nous a dit que s’il fallait choisir un principe chrétien qui, selon lui, aurait le plus d’impact sur la famille, ce serait le principe de l’ordre de la tête (la tête).\"}],\"passed\":true,\"score\":99}",
+    "content_bytes": 902,
+    "content_evidence_truncated": false,
+    "content_sha256": "bd40896469730aacf4077c6b47527da7f86b73e267fb9f33c97cad4271e8b669",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 723,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9969,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 4864
+      },
+      "total_tokens": 10692
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

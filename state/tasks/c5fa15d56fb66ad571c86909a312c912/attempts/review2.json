@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:59:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"References paragraph (final paragraph)\",\"severity\":\"major\",\"source_quote\":\"\\\"Treasury of Hymn Stories\\\"\",\"suggested_fix\":\"Translate the quoted English title into Modern Greek (or provide a bilingual rendering). Replace the English-only quoted title with its Greek equivalent, preserving the surrounding HTML and emphasis. For example: «Θησαυρός ιστοριών ύμνων (\\\"Treasury of Hymn Stories\\\")» or simply «Θησαυρός Ιστοριών Υμνων».\",\"translation_quote\":\"\\\"Treasury of Hymn Stories\\\"\"},{\"location\":\"Top-level metadata: section field\",\"severity\":\"minor\",\"source_quote\":\"A Hymn History\",\"suggested_fix\":\"Use idiomatic Modern Greek with correct diacritics and capitalization. Replace \\\"Ιστορία ενός Υμνου\\\" with \\\"Ιστορία ενός ύμνου\\\" (or \\\"Ιστορία ενός ύμνου\\\" as the site style requires). Preserve the field content only — do not alter HTML tags.\",\"translation_quote\":\"Ιστορία ενός Υμνου\"}],\"passed\":false,\"score\":78}",
+    "content_bytes": 1050,
+    "content_evidence_truncated": false,
+    "content_sha256": "e97e67e7ffb4a368b45249ce9e6b9ad354c360330fc23ea4aa2288388cc99fb8",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1205,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6531,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7736
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

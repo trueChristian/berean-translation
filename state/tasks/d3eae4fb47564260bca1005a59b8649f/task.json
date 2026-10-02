@@ -2,7 +2,6 @@
   "article_id": "fe94355d-8741-49a7-8f66-16003daa3f89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -62,39 +61,38 @@
         },
         "total_tokens": 9840
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 997,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5460,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6457
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "source.html paragraph 3 (sentence mentioning Lyte's encounter)",
-      "severity": "major",
-      "source_quote": "Men says that it was his encounter with God at the bedside of that dying man that prompted Lyte’s noble hymn, “Jesus, I My Cross Have Taken.”",
-      "suggested_fix": "Translate the quoted hymn title into Dutch (preserving it as a quoted title). For example: „Jezus, ik heb mijn kruis aanvaard.” or another conventional Dutch title for that hymn, keeping the quotation marks and placement unchanged in HTML.",
-      "translation_quote": "Men zegt dat het zijn ontmoeting met God aan het ziekbed van die stervende man was die Lyte ertoe bracht zijn nobele hymne, “Jesus, I My Cross Have Taken,” te schrijven."
-    },
-    {
-      "location": "source.html paragraph 14 (listing other familiar hymns)",
-      "severity": "major",
-      "source_quote": "William Monk also wrote the music for other familiar hymns such as “Look, Ye Saints! The Sight Is Glorious”, and “The Strife Is O’er”.",
-      "suggested_fix": "Translate these hymn titles into Dutch (retain quotation marks and punctuation). For example: „Zie, gij heiligen! Het aanzicht is heerlijk” and „De strijd is voorbij” (or other established Dutch titles), keeping the original punctuation and order.",
-      "translation_quote": "William Monk schreef ook de muziek voor andere bekende hymnen zoals “Look, Ye Saints! The Sight Is Glorious”, en “The Strife Is O’er”."
-    },
-    {
-      "location": "source.html final paragraph and earlier quote of a secondary work (Dr. Breed) and references block",
-      "severity": "major",
-      "source_quote": "“In no other writer,” says Dr. Breed (in the Treasury of Hymn Stories), “are poetry and religion more exquisitely united.”\n\nReferences:\n    <em>101 Hymn Stories,\n    Treasury of Hymn Stories\n    Author- Henry Francis Lyte, 1793-1847\n    Composer- William Henry Monk, 1823-1889\n    Tune Name - “Eventide”</em>",
-      "suggested_fix": "Translate the quoted book title and the references into Dutch (preserve italics and the reference formatting). For example: (in the Treasury of Hymn Stories) -> (in de Treasury of Hymn Stories) is not sufficient; translate the book title itself into Dutch: (in de Treasury of Hymn Stories) could be rendered as (in de Verzameling van Hymn Stories) only if an established Dutch title exists; otherwise render the English title in italics but provide a Dutch rendering for quoted substantive prose elsewhere. In the references block translate labels like 'Author' -> 'Auteur', 'Composer' -> 'Componist', 'Tune Name' -> 'Melodienaam' and translate (or provide established Dutch forms of) the italicized book titles. Keep HTML tags and order unchanged.",
-      "translation_quote": "“Bij geen andere schrijver,” zegt Dr. Breed (in de Treasury of Hymn Stories), “zijn poëzie en religie zo voortreffelijk verenigd.”\n\nReferenties:\n    <em>101 Hymn Stories,\n    Treasury of Hymn Stories\n    Auteur- Henry Francis Lyte, 1793-1847\n    Componist- William Henry Monk, 1823-1889\n    Melodienaam - “Eventide”</em>"
-    },
-    {
-      "location": "source.html stanza 3 (poem translation)",
+      "location": "Paragraph containing hymn stanza 8 (line: \"Heaven’s morning breaks, and earth’s vain shadows flee:\")",
       "severity": "minor",
-      "source_quote": "Not a brief glance I beg, a passing word;\n    But, as Thou dwell’st with Thy disciples, Lord,\n    Familiar, condescending, patient, free,\n    Come, not to sojourn, but abide, with me.",
-      "suggested_fix": "Render the contrast between 'not to sojourn' and 'but abide' more clearly in Dutch so it preserves the original sense (not a temporary stay but a continuing abiding). For example: \"Kom niet om slechts te verblijven, maar om te blijven bij mij.\" Replace the current line so meaning is unambiguous while keeping punctuation and stanza order unchanged in HTML.",
-      "translation_quote": "Geen vluchtige blik vraag ik, geen voorbijgaand woord;\n    Maar, zoals Gij bij Uw discipelen vertoefdet, Heer,\n    Vertrouwd, nederig, geduldig, vrij,\n    Kom, niet om te verblijven, maar blijf, bij mij."
+      "source_quote": "Heaven’s morning breaks, and earth’s vain shadows flee:",
+      "suggested_fix": "Render 'earth’s vain shadows' with idiomatic Dutch. Replace \"en 's aards ijdele schaduwen vliegen weg:\" with \"en de ijdele schaduwen van de aarde verdwijnen:\" or \"en de ijdele schaduwen der aarde wijken:\" to be grammatical and natural.",
+      "translation_quote": "De morgen van de hemel breekt, en 's aards ijdele schaduwen vliegen weg:"
     }
   ],
+  "finished_at": "2026-10-02T12:59:40+00:00",
   "id": "d3eae4fb47564260bca1005a59b8649f",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "nld",
@@ -168,13 +166,13 @@
     }
   },
   "protected": false,
-  "quality_score": 84,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/4edc62ec40603cbb629a5274f380a8df79d2ef113be92eb5013535a57f3d95a9.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

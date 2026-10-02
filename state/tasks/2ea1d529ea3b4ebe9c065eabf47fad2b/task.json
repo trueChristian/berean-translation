@@ -2,7 +2,6 @@
   "article_id": "71a8a627-ef21-4efb-9dd1-36d5124ac192",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -62,53 +61,53 @@
         },
         "total_tokens": 11696
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1513,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6405,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 2816
+        },
+        "total_tokens": 7918
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph 3 (opening of third <p>)",
-      "severity": "major",
-      "source_quote": "To the Bible-literate Christian, the end of time certainly seems to be fast approaching.",
-      "suggested_fix": "Translate the idea idiomatically into contemporary Hebrew so it conveys the original meaning (a Christian who reads and knows the Bible). For example: \"לנוצרי המכיר את כתבי הקודש נראה שהקץ מתקרב במהירות.\"",
-      "translation_quote": "לנוצרי שכתובית התנ\"ך עומדת מול עיניו, נראה שהקץ בהחלט מתקרב במהירות."
-    },
-    {
-      "location": "Multiple Scripture quotations (e.g., Matthew 24:6; Matthew 24:13; Revelation 21:8; Revelation 21:7; Hebrews 13:17; 2 Corinthians 5:10; Matthew 8:10)",
+      "location": "<p>... Revelation 21:8 quote ...</p>",
       "severity": "critical",
-      "source_quote": "See that ye be not troubled ... Matthew 24:6; ... he that shall endure unto the end ... Matthew 24:13; ... the fearful, and unbelieving ... Revelation 21:8; He that overcometh ... Revelation 21:7; Obey them that have the rule over you ... Hebrews 13:17; For we must all appear ... 2 Corinthians 5:10; When Jesus heard it, he marvelled ... Matthew 8:10.",
-      "suggested_fix": "All quoted Scripture passages must be rendered into Hebrew and the book names must use conventional Hebrew forms (e.g., 'מתי 24:6' or better 'מתי כ\"ד:ו' depending on house style). Replace the English book names (e.g., 'Matthew', 'Revelation', 'Hebrews', '2 Corinthians') with the conventional Hebrew book names (e.g., 'מתי', 'התגלות', 'איגרת אל העברים', '2 קורינתים') and keep chapter:verse numbers unchanged. Ensure the quoted text faithfully reflects the English meaning. Example for Matthew 24:6: \"ושמעתם על מלחמות ושמועות מלחמות; היזהרו—אל תתמהמהו; כי עליכם להיות דברי אלה, אבל הקץ עוד לא עכשיו. – מתי 24:6\" (adapt wording to preserve original printed English meaning).",
-      "translation_quote": "<em>ושמעו לכם מלחמות ושמועות מלחמות; <strong>ראו אל תטרדו</strong> כי כל אלה חייבים להיות; אך קץ עוד לא עכשיו –Matthew 24:6.</em>"
+      "source_quote": "...he that shall be fearful, and unbelieving, and the abominable, and murderers, and whoremongers, and sorcerers, and idolaters, and all liars, shall have their part in the lake which burneth with fire and brimstone... –Revelation 21:8.",
+      "suggested_fix": "Replace the mistranslated phrase with a faithful Hebrew rendering of the printed English. For example: «…הפחדנים והכופרים והנבזים והמרצחים והזנונים והמכשפים והמושבעים וכל השקרים—חלקם יהיה באגם הבוער באש ובגופרית… —התגלות 21:8.» Ensure the phrase \"lake which burneth with fire and brimstone\" is rendered as \"האגם הבוער באש ובגופרית\" (not \"אגם האשור\").",
+      "translation_quote": "<em>זכרו, אלה הֵמָּה <em>…הפחדנים והכופרים … [שיהיה להם] חלק באגם האשור באש ובגופרית… —התגלות 21:8.</em></p>"
     },
     {
-      "location": "Paragraph mentioning 1 Corinthians (story about 'tongues')",
+      "location": "<p>... Matthew 8:10 quote ...</p>",
       "severity": "critical",
-      "source_quote": "All that he heard was what 1 Corinthians chapter 14 refers to as tongues (languages) and since he didn’t understand the language and since there was no interpretation given, he was not able to be edified.",
-      "suggested_fix": "The scripture chapter reference must be accurate. The source cites 1 Corinthians chapter 14. Correct the Hebrew citation to the proper chapter and verse reference format and translate the surrounding quoted words into Hebrew. Example: \"כל מה ששמע היה מה שפרק 14 באיגרת הראשונה אל הקורינתים מכנה 'שפות' (לשונות), ומאחר שלא ניתנה פרשנות הוא לא היה מעודד.\"",
-      "translation_quote": "כל מה ששמע היה מה שפרק א' לקורינתים י\"ז מכנה <em>שפות</em> (לשונות), ומכיוון שהוא לא הבין את השפה וממילא לא ניתן לו <em>פירוש</em>, הוא לא היה מעודד."
+      "source_quote": "When Jesus heard it, he marvelled, and said to them that followed, Verily I say unto you, I have not found so great faith, no, not in Israel –Matthew 8:10.",
+      "suggested_fix": "Correct the mistranslation of \"to them that followed\". Render the whole verse faithfully in contemporary Hebrew. Example: «וישוע, כשראה זאת, תמה ואמר לאלו שהלכו אחריו: באמת אומר אני לכם, אפילו בישראל לא מצאתי אמונה כה רבה —מתי 8:10.» Replace the incorrect word \"לממלאיו\" with «לאלו שהלכו אחריו» or «לאלה שהלכו אחריו».",
+      "translation_quote": "<em>כשאני חושב על מאמציו הקנאים של האיש הזה עולה בלבי הפסוק… <em>וישוע כששמע זאת תמה, ואמר לממלאיו, באמת אמר אני לכם, אף בישראל לא מצאתי אמונה כה גדולה —מתי 8:10.</em></p>"
     },
     {
-      "location": "Paragraph about youth (sentence near 'The youth can take a look into their emotions...')",
-      "severity": "major",
-      "source_quote": "The youth can take a look into their emotions as they consider those times when they feel like giving up.",
-      "suggested_fix": "Translate 'feel like giving up' accurately (e.g., 'מרגישים רצון לוותר' or 'מרגישים שהם רוצים לוותר/להתייאש'). Replace the current Hebrew that renders as 'feel like neglecting'.",
-      "translation_quote": "הצעירים יכולים לבחון את רגשותיהם כשהם שוקלים את אותם זמנים שבהם הם מרגישים כמזניחים."
-    },
-    {
-      "location": "Paragraph about motel Bible (sentence with 'worship')",
-      "severity": "major",
-      "source_quote": "Although this man understood English quite well, his church had a policy that they did not want to be too worldly or too modern by reading from an English Bible so they continued their efforts of teaching God’s Word using the original language of their people.",
-      "suggested_fix": "Remove the stray English word and render the sentence idiomatically in Hebrew. For example: 'למרות שאיש זה הבין אנגלית די טוב, בכנסייתו הייתה מדיניות שלא להיות יותר מדי עולמיים או מודרניים על ידי קריאה מתנ\"ך באנגלית, ולכן המשיכו ללמד את דבר ה' בשפת המוצא של עמם.' Ensure no English words remain ('worship' must be translated).",
-      "translation_quote": "כמובן, בכנסייתו קראו או ציטטו את התנ\"ך בכל שבוע במהלך שירותי הער worship הרגילים שלהם."
-    },
-    {
-      "location": "Paragraph quoting Revelation 21:8 (phrase translation)",
+      "location": "<p>... Matthew 24:6 quote ...</p>",
       "severity": "minor",
-      "source_quote": "…the fearful, and unbelieving … [who] shall have their part in the lake which burneth with fire and brimstone… –Revelation 21:8.",
-      "suggested_fix": "Use a faithful, conventional Hebrew translation for 'the fearful, and unbelieving' (e.g., 'הפוחדים והכופרים' or 'הפחדנים והכופרים'), rather than 'אפיסת־האמונה' which shifts nuance. Keep the rest of the verse faithful to the English quoted text. Also replace the English book name with the Hebrew form.",
-      "translation_quote": "זכרו, אלה הֵמָּה <em>…הפחדנים והאפיסת־האמונה … [שתהיה להם] חלק האגם השרוף באש ובגופרית… –Revelation 21:8.</em>"
+      "source_quote": "And ye shall hear of wars and rumours of wars: see that ye be not troubled: for all these things must come to pass, but the end is not yet –Matthew 24:6.",
+      "suggested_fix": "Avoid the duplicated phrasing. Suggest a more natural Hebrew faithful to the English text, for example: «ושמועות על מלחמות ושמועות על מלחמות; ראו, אל תתמהו; כי כל אלה חייבים להיות, אך הקץ עדיין לא הגיע —מתי 24:6.» or simpler: «ושמועות על מלחמות ושמועות על מלחמות; ראו, אל תתמהו; כי כל אלה חייבים להיות, אך הקץ עוד לא —מתי 24:6.»",
+      "translation_quote": "<em>וכיצד עלינו לחיות כמאמינים שמאמינים בתנ\"ך? <em>ושמועות מלחמות ושמועות מלחמות; <strong>ראו אל תטרדו</strong> כי כל אלה חייבים להיות; אך קץ עוד לא עכשיו —מתי 24:6.</em>"
     }
   ],
+  "finished_at": "2026-10-02T12:59:39+00:00",
   "id": "2ea1d529ea3b4ebe9c065eabf47fad2b",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "heb",
@@ -182,13 +181,13 @@
     }
   },
   "protected": false,
-  "quality_score": 58,
+  "quality_score": 62,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/9bbeaa248aca4a5e53cf4e710626c35ad1fcffe1f073f387e31c0a9f5dd08124.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c8c09427567d4bc1f9b13eb8f03d2de65724d1971e30094c9e925e9045066f8d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing Matthew 17:20 (translation: paragraph starting “Jezus zei op een ander moment: …”)",
+      "severity": "critical",
+      "source_quote": "“…If ye have faith as a grain of mustard seed, ye shall say unto this mountain, Remove hence to yonder place; and it shall remove; and nothing shall be impossible unto you –Matthew 17:20.”",
+      "suggested_fix": "Translate the entire quoted Scripture into standard contemporary Dutch, replacing the leftover English word 'yonder' with the correct Dutch equivalent and making the clause idiomatic. For example: “...Indien gij geloof hebt als een mosterdzaad, zult gij tot deze berg zeggen: Ga hie vandaan en ga ynderheen? (no)”“Replace the quoted text with a faithful Dutch rendering such as: “...Indien gij geloof hebt als een mosterdzaad, zult gij tot deze berg zeggen: `Verwijder u hiertoe, en zij zal zich verwijderen; en u zal niets onmogelijk zijn' – Matteüs 17:20.” Ensure the Bible quote uses conventional Dutch wording and preserves the verse reference exactly.",
+      "translation_quote": "“…Indien gij geloof hebt als een mosterdzaad, zult gij tot deze berg zeggen: Verwijder u hiertoe yonder, en zij zal zich verwijderen; en niets zal u onmogelijk zijn – Matteüs 17:20.”"
+    },
+    {
+      "location": "Opening paragraphs — first sentence (“Volgeling zijn is niet voor lafaards...”)",
+      "severity": "minor",
+      "source_quote": "“Discipleship is not for cowards or the faint of heart, nor is it for those who demand a rationale for acts of obedience.”",
+      "suggested_fix": "Use more natural/standard contemporary Dutch for the concept 'discipleship' (e.g. “Discipelschap is niet voor lafaards…”). Replace “Volgeling zijn” with “Discipelschap” to match normal Dutch usage and preserve tone.",
+      "translation_quote": "“Mannen die Jezus volgen zijn mannen van geloof. Volgeling zijn is niet voor lafaards of zwakke van hart, noch voor hen die een rationele uitleg eisen voor daden van gehoorzaamheid.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

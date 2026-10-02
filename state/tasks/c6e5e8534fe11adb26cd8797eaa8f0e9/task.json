@@ -2,7 +2,6 @@
   "article_id": "fe94355d-8741-49a7-8f66-16003daa3f89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -62,32 +61,45 @@
         },
         "total_tokens": 10281
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1165,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5943,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7108
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph beginning “It is said that it was his encounter…” (third <p>)",
-      "severity": "major",
-      "source_quote": "It is said that it was his encounter with God at the bedside of that dying man that prompted Lyte’s noble hymn, “Jesus, I My Cross Have Taken.”",
-      "suggested_fix": "Translate the quoted hymn title into Urdu rather than leaving it in English. Preserve the quotation marks and HTML structure. For example: “…یہ کہا جاتا ہے کہ اسی مریض کے بستر پر خدا کے ساتھ ان کی ملاقات نے لائٹ کی عالی شان حمد ‘مَیں نے اپنا صلیب لیکر مسیح کو پکڑا’ (یا عام اردو متداول عنوان) تخلیق کرنے کی ترغیب دی۔” (Render the exact conventional Urdu title used for that hymn; keep the quotation marks.)",
-      "translation_quote": "کہا جاتا ہے کہ اسی مریض کے بستر پر خدا کے ساتھ ان کے اس ملاقاتی نے لائٹ کی عالی شان حمد “Jesus, I My Cross Have Taken” تخلیق کرنے کی ترغیب دی۔"
-    },
-    {
-      "location": "Poem stanza 3 (third <p class=\"poem\">)",
-      "severity": "major",
-      "source_quote": "But, as Thou dwell’st with Thy disciples, Lord, Familiar, condescending, patient, free,",
-      "suggested_fix": "'Condescending' here means humbly lowering oneself or showing condescension in the sense of compassionate humility (not 'obedient'). Render this nuance in Urdu (e.g., 'اخلاص کے ساتھ، عجز و انکساری کے ساتھ' or 'رحمدلی سے اپنے خدائی درجہ میں نازل ہو کر'). Keep meter/style sensitivity, but do not change theological meaning. Suggested Urdu line preserving tags: 'بلکہ جیسا کہ تُو اپنے شاگردوں کے ساتھ رہتا ہے، اے خداوند، مانوس، عجز و انکساری والا، صابر، فیاض,'",
-      "translation_quote": "بلکہ جیسا کہ تو اپنے شاگردوں کے ساتھ رہتا ہے، اے خداوند،\n    مانوس، فرمانبردار، صابر، بے روک ٹوک،"
-    },
-    {
-      "location": "Paragraph about William H. Monk and later paragraph listing other hymn titles (near end)",
+      "location": "Paragraph: \"He passed away soon after the age of 55, on November 20, 1847.\"",
       "severity": "minor",
-      "source_quote": "Look, Ye Saints! The Sight Is Glorious; and The Strife Is O’er.",
-      "suggested_fix": "Translate or provide conventional Urdu forms for these quoted hymn titles instead of leaving them in English, or at minimum mark them as titles in Urdu script. Preserve punctuation and placement. Example fixes in Urdu: '“اے مومنوں دیکھو! یہ منظر شاندار ہے”' and '“جنگ تمام ہو چکی ہے”' (use standard Urdu hymn-title renderings if available).",
-      "translation_quote": "جیسا کہ “Look, Ye Saints! The Sight Is Glorious”, اور “The Strife Is O’er”。"
+      "source_quote": "He passed away soon after the age of 55, on November 20, 1847.",
+      "suggested_fix": "Clarify timing to match the English nuance. Replace the Urdu sentence \"وہ 55 سال کی عمر کے قریب، 20 نومبر 1847 کو پھر جلد ہی انتقال کر گئے۔\" with a closer equivalent such as: \"وہ 55 سال کی عمر کے کچھ ہی بعد، 20 نومبر 1847 کو انتقال کر گئے۔\"",
+      "translation_quote": "وہ 55 سال کی عمر کے قریب، 20 نومبر 1847 کو پھر جلد ہی انتقال کر گئے۔"
+    },
+    {
+      "location": "Poem attribution line earlier in article: hymn title referenced as “Jesus, I My Cross Have Taken.”",
+      "severity": "minor",
+      "source_quote": "It is said that it was his encounter with God at the bedside of that dying man that prompted Lyte’s noble hymn, “Jesus, I My Cross Have Taken.”",
+      "suggested_fix": "Improve fluency of the Urdu rendering of the hymn title so it reads naturally while preserving the original meaning. Replace “اسی مریض کے بستر پر خدا کے ساتھ ان کے اس ملاقاتی نے لائٹ کی عالی شان حمد “میں نے اپنا صلیب اٹھا لیا” تخلیق کرنے کی ترغیب دی۔” with: “کہا جاتا ہے کہ اسی مریض کے بستر پر خدا کے ساتھ ان کے اس ملاقات نے لائٹ کو اُن کی عالی شان حمد 'Jesus, I My Cross Have Taken' لکھنے کی تحریک دی۔\" (If you prefer the hymn title translated into Urdu, use a natural form such as: 'اے خداوند، میں نے اپنا صلیب اٹھا لیا۔')",
+      "translation_quote": "کہا جاتا ہے کہ اسی مریض کے بستر پر خدا کے ساتھ ان کے اس ملاقاتی نے لائٹ کی عالی شان حمد “میں نے اپنا صلیب اٹھا لیا” تخلیق کرنے کی ترغیب دی۔"
     }
   ],
+  "finished_at": "2026-10-02T12:59:40+00:00",
   "id": "c6e5e8534fe11adb26cd8797eaa8f0e9",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "urd",
@@ -161,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 73,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/4edc62ec40603cbb629a5274f380a8df79d2ef113be92eb5013535a57f3d95a9.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

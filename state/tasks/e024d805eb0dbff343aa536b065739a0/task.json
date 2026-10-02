@@ -2,7 +2,6 @@
   "article_id": "71a8a627-ef21-4efb-9dd1-36d5124ac192",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -62,18 +61,45 @@
         },
         "total_tokens": 9931
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 555,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 320,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6452,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7007
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<p>...Hebreerne kapittel fire.</p> (Paragraph about magazine contents, third paragraph after Scripture citations)",
-      "severity": "major",
-      "source_quote": "Together we can consider what it really means to enter into the rest of God that is detailed in Hebrews chapter four.",
-      "suggested_fix": "Replace the mistranslation \"Guds sabbatstro\" with a faithful rendering of \"the rest of God\", for example: \"å gå inn i Guds hvile som er omtalt i Hebreerne kapittel fire.\" Preserve the existing HTML and surrounding sentence structure when applying the change.",
-      "translation_quote": "Sammen kan vi vurdere hva det virkelig betyr å gå inn i Guds sabbatstro som er detaljert i Hebreerne kapittel fire."
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "From the Editor",
+      "suggested_fix": "Match capitalization style of the target-language title to source. Either use Title Case (e.g., \"Fra redaktøren\") consistently or use all-caps only if the site style requires it. Suggested: keep as \"From the Editor\" → \"Fra redaktøren\" (sentence case) or if the site displays section headings in all caps, make the title \"FRA REDAKTØREN\" to match.",
+      "translation_quote": "Fra redaktøren"
+    },
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "FROM THE EDITOR",
+      "suggested_fix": "Section was translated correctly but currently appears as all-caps in the translation. Verify site styling rules: if section headings are intended to be all-caps, keep \"FRA REDAKTØREN\"; if not, use sentence case \"Fra redaktøren\" for consistency between title and section.",
+      "translation_quote": "FRA REDAKTØREN"
     }
   ],
+  "finished_at": "2026-10-02T12:59:41+00:00",
   "id": "e024d805eb0dbff343aa536b065739a0",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "nob",
@@ -147,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 99,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/9bbeaa248aca4a5e53cf4e710626c35ad1fcffe1f073f387e31c0a9f5dd08124.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c8c09427567d4bc1f9b13eb8f03d2de65724d1971e30094c9e925e9045066f8d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

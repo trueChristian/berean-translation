@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph mentioning the Zurich mayor (near where the mayor is first named)",
+      "severity": "minor",
+      "source_quote": "the mayor of Zurich, Rudolf Rhan;",
+      "suggested_fix": "Correct the mayor's name spelling in the translation to match the source: “Rudolf Rhan”.",
+      "translation_quote": "die burgemeester van Zürich, Rhudlof Rhan;"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

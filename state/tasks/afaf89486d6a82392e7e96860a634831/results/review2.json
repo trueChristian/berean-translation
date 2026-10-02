@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "928fca63-87f2-49a3-b0f5-9fe2154c386c",
+    "response_id": "chatcmpl-EUX6bg2FmfLa5QeWJiV7omiR6sVaH",
+    "usage": {
+      "completion_tokens": 977,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7202,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8179
+    }
+  },
+  "received_at": "2026-10-02T12:59:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph: \"…straightway Jesus constrained his disciples to get into a ship... –Matthew 14:22.\"",
+        "severity": "minor",
+        "source_quote": "…straightway Jesus constrained his disciples to get into a ship, and to go before him unto the other side, while he sent the multitudes away –Matthew 14:22.",
+        "suggested_fix": "Use a clearer Portuguese verb for the sense of compelled/urged in this context. Replace \"constrangeu\" with \"compeliu\" or \"obrigou\" to match the English sense that Jesus compelled/urged them to get into the boat.",
+        "translation_quote": "…logo Jesus constrangeu os seus discípulos a entrarem no barco, e a irem adiante dele para o outro lado, até que despedisse a multidão –Mateus 14:22."
+      },
+      {
+        "location": "source.html — paragraph: \"He had drawn many a draught of fish over her gunwales.\"",
+        "severity": "minor",
+        "source_quote": "He had drawn many a draught of fish over her gunwales.",
+        "suggested_fix": "Use a more natural Portuguese rendering of \"draught of fish\" (a fishing haul). Replace \"remessas de peixe\" with \"grandes redes de peixe\" or \"muitas pescadas\" (e.g. \"Ele havia trazido muitas pescadas sobre os bordos\") to better convey the original meaning.",
+        "translation_quote": "Ele havia trazido muitas remessas de peixe sobre os bordos."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

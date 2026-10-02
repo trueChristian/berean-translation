@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing hymn stanza 8 (line: \"Heaven’s morning breaks, and earth’s vain shadows flee:\")",
+      "severity": "minor",
+      "source_quote": "Heaven’s morning breaks, and earth’s vain shadows flee:",
+      "suggested_fix": "Render 'earth’s vain shadows' with idiomatic Dutch. Replace \"en 's aards ijdele schaduwen vliegen weg:\" with \"en de ijdele schaduwen van de aarde verdwijnen:\" or \"en de ijdele schaduwen der aarde wijken:\" to be grammatical and natural.",
+      "translation_quote": "De morgen van de hemel breekt, en 's aards ijdele schaduwen vliegen weg:"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

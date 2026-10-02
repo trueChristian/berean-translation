@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:59:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html paragraph beginning \\\"The debates continued, with contention flaring around communion...\\\"\",\"severity\":\"minor\",\"source_quote\":\"The debates continued, with contention flaring around communion, the examples of church leaders, and knowledge of salvation.\",\"suggested_fix\":\"In the translated HTML, replace the garbled segment so 'Communion' is rendered in Bengali and separated correctly. Preserve surrounding tags and punctuation. For example, change the fragment 'where conflict flaredCommunion, চার্চ নেতাদের উদাহরণ...' to a fully Bengali rendering: 'বিতর্ক চলতে থাকল, যেখানে সংঘাত ছড়িয়ে পড়ল— প্রতিদান, চার্চ নেতাদের উদাহরণ, এবং মুক্তির জ্ঞান নিয়ে।' (Keep the same paragraph element and surrounding HTML structure.)\",\"translation_quote\":\"বিতর্ক চলতে থাকল, যেখানে সংঘাত ছড়িয়ে পড়লCommunion, চার্চ নেতাদের উদাহরণ, এবং মুক্তির জ্ঞান নিয়ে।\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 1262,
+    "content_evidence_truncated": false,
+    "content_sha256": "c54876e9e60352144fc753c6398e73c277b7d51464d261c77f0993716eed008c",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 865,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9796,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10661
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

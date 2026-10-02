@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<p>Τίτος gives us sisters clear direction from God. <em>Οι ηλικιωμένες γυναίκες επίσης, να είναι … διδάσκαλοι καλών πραγμάτων· ίνα διδάσκωσι τας νεωτέρας γυναίκας νηφαλιότητα, <strong>να αγαπούν τους άνδρας των,</strong> να αγαπούν τα τέκνα των, να είναι συνετοί, εγκρατείς, οικιακαὶ, αγαθαί, <strong>υπάκουαι τοῖς ἰδίοις ἀνδράσιν,</strong> ίνα μη βλασφημείται ο λόγος του Θεού</em> –Τίτον 2:3-5.</p>",
+      "severity": "critical",
+      "source_quote": "Titus gives us sisters clear direction from God. <em>The aged women likewise, that they be … teachers of good things; That they may teach the young women to be sober, <strong>to love their husbands,</strong> to love their children, To be discreet, chaste, keepers at home, good, <strong>obedient to their own husbands,</strong> that the word of God be not blasphemed –Titus 2:3-5.</em>",
+      "suggested_fix": "Translate the entire quoted Scripture passage into contemporary Modern Greek that faithfully conveys the printed English Scripture text and keep the citation “Τίτον 2:3-5.” Do not insert untranslated or altered original-language words. For example render the list fully in Greek (νηφάλιες, διδάσκουσαι αγαθά, ίνα διδάσκουσιν τας νεωτέρας γυναίκας νηφαλιότητα, να αγαπώσι τους άνδρας αυτών, να αγαπώσι τα τέκνα αυτών, να είναι σώφρονες, εγκρατείνες, οικιακαί, αγαθαί, υπάκουαι τοις ιδίοις ανδράσιν) matching the English sense and preserving the verse reference.",
+      "translation_quote": "<em>Οι ηλικιωμένες γυναίκες επίσης, να είναι … διδάσκαλοι καλών πραγμάτων· ίνα διδάσκωσι τας νεωτέρας γυναίκας νηφαλιότητα, <strong>να αγαπούν τους άνδρας των,</strong> να αγαπούν τα τέκνα των, να είναι συνετοί, εγκρατείς, οικιακαὶ, αγαθαί, <strong>υπάκουαι τοῖς ἰδίοις ἀνδράσιν,</strong> ίνα μη βλασφημείται ο λόγος του Θεού</em> –Τίτον 2:3-5."
+    },
+    {
+      "location": "<p><em>Likewise, ye wives, be in subjection to your own husbands; that, if any obey not the word, they also may without the word be won by the conversation [conduct] of the wives; While they behold your chaste [modest, innocent, perfect, pure] conversation coupled with fear. Even as Sara obeyed Abraham, calling him lord: whose daughters ye are, as long as ye do well, and are not afraid with any amazement [terror]. Likewise, ye husbands, dwell with them according to knowledge, giving honour unto the wife, as unto the weaker vessel, and as being heirs together of the grace of life; <strong>that your prayers be not hindered</strong> –1 Peter 3:1-2 &amp; 3:6-7.</em></p>",
+      "severity": "major",
+      "source_quote": "<em>Likewise, ye wives, be in subjection to your own husbands... While they behold your chaste [modest, innocent, perfect, pure] conversation coupled with fear... Likewise, ye husbands, dwell with them according to knowledge, giving honour unto the wife, as unto the weaker vessel... that your prayers be not hindered –1 Peter 3:1-2 & 3:6-7.</em>",
+      "suggested_fix": "The quoted Scripture (1 Peter 3:1-2 & 3:6-7) must be rendered into clear Modern Greek that faithfully conveys the printed English passage and preserve the bracketed glosses as target-language explanations. Remove inserted or mistranslated Greek archaisms and bracket content that do not reflect the English glosses. For example, translate the bracketed glosses into Greek (e.g., [σεμνή/κόσμια] for [modest] and [φόβος/δέος] for [fear]) and present the whole verse text in contemporary Greek style while keeping the citation “Α΄ Πέτρου 3:1-2 & 3:6-7.”",
+      "translation_quote": "<em>Ομοίως, γυναίκες, υποτασσόσασθε στους δικούς σας άνδρες· ώστε, εάν τις δεν υπακούει τον λόγον, και δια της ασυλλόγου συμπεριφοράς των γυναικών νικηθείται, βλέποντες την αγνήν [στήλους, εγκρατή, αμόλυντον] συμπεριφοράν σας συν φόβου. ... <strong>ίνα μη εμποδίζωνται αι προσευχαί υμών</strong> –Α΄ Πέτρου 3:1-2 &amp; 3:6-7.</em></p> "
+    },
+    {
+      "location": "<p><em>Ίνα διδάσκωσι τας νεωτέρας γυναίκας νηφαλιότητα, να αγαπούν τους άνδρας των, να αγαπούν τα τέκνα των –Τίτον 2:4.</em> Η λέξη «love» στο <em>to love their husbands</em> σημαίνει «να τρέφουν στοργική στοργή προς τον άνδρα τους» σε σύγκριση με τη λέξη «love» στο <em>to love their children</em> που σημαίνει «να έχουν μητρική στοργή προς τα παιδιά τους».</p>",
+      "severity": "minor",
+      "source_quote": "<em>That they may teach the young women to be sober, to love their husbands, to love their children –Titus 2:4.</em> The word “love,” in to love their husbands means “to be affectionately fond of their man” as compared to the word “love” in to love their children which means “to have a maternal fondness for one’s children”.",
+      "suggested_fix": "Translate the quoted English single words and in-text quoted terms into Greek (both the Scripture citation and the explanatory occurrence of the word “love”). Replace the English word «love» with the Greek equivalent (e.g., «αγαπούν») and translate the quoted English glosses into Greek (e.g., «η λέξη “αγαπώ” στο ‘να αγαπούν τους άνδρες τους’ σημαίνει…»). Ensure all quoted material appears in Greek, matching the printed English meaning.",
+      "translation_quote": "Η λέξη «love» στο <em>to love their husbands</em> σημαίνει «να τρέφουν στοργική στοργή προς τον άνδρα τους» σε σύγκριση με τη λέξη «love» στο <em>to love their children</em> που σημαίνει «να έχουν μητρική στοργή προς τα παιδιά τους»."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

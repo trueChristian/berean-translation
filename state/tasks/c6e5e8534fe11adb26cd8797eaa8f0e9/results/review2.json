@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d88709ac-3aeb-4ae3-abe8-628006b9149e",
+    "response_id": "chatcmpl-EUX65KokJ1P8QhHYuxC9Q4n2tYyf5",
+    "usage": {
+      "completion_tokens": 1165,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5943,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7108
+    }
+  },
+  "received_at": "2026-10-02T12:59:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"He passed away soon after the age of 55, on November 20, 1847.\"",
+        "severity": "minor",
+        "source_quote": "He passed away soon after the age of 55, on November 20, 1847.",
+        "suggested_fix": "Clarify timing to match the English nuance. Replace the Urdu sentence \"وہ 55 سال کی عمر کے قریب، 20 نومبر 1847 کو پھر جلد ہی انتقال کر گئے۔\" with a closer equivalent such as: \"وہ 55 سال کی عمر کے کچھ ہی بعد، 20 نومبر 1847 کو انتقال کر گئے۔\"",
+        "translation_quote": "وہ 55 سال کی عمر کے قریب، 20 نومبر 1847 کو پھر جلد ہی انتقال کر گئے۔"
+      },
+      {
+        "location": "Poem attribution line earlier in article: hymn title referenced as “Jesus, I My Cross Have Taken.”",
+        "severity": "minor",
+        "source_quote": "It is said that it was his encounter with God at the bedside of that dying man that prompted Lyte’s noble hymn, “Jesus, I My Cross Have Taken.”",
+        "suggested_fix": "Improve fluency of the Urdu rendering of the hymn title so it reads naturally while preserving the original meaning. Replace “اسی مریض کے بستر پر خدا کے ساتھ ان کے اس ملاقاتی نے لائٹ کی عالی شان حمد “میں نے اپنا صلیب اٹھا لیا” تخلیق کرنے کی ترغیب دی۔” with: “کہا جاتا ہے کہ اسی مریض کے بستر پر خدا کے ساتھ ان کے اس ملاقات نے لائٹ کو اُن کی عالی شان حمد 'Jesus, I My Cross Have Taken' لکھنے کی تحریک دی۔\" (If you prefer the hymn title translated into Urdu, use a natural form such as: 'اے خداوند، میں نے اپنا صلیب اٹھا لیا۔')",
+        "translation_quote": "کہا جاتا ہے کہ اسی مریض کے بستر پر خدا کے ساتھ ان کے اس ملاقاتی نے لائٹ کی عالی شان حمد “میں نے اپنا صلیب اٹھا لیا” تخلیق کرنے کی ترغیب دی۔"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

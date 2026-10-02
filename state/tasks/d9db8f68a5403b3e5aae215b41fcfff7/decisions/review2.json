@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph 3 (about insurance companies)",
+      "severity": "minor",
+      "source_quote": "One thing that I find interesting is that even though the world does not want to retain God in their knowledge, insurance companies still refer to certain specific events as “acts of God”.",
+      "suggested_fix": "Translate the quoted English phrase fully into Dutch and remove the untranslated English in parentheses. For example: translate to “gevallen van God” (without leaving “acts of God” in English). Preserve the surrounding punctuation and quotation marks as in the source.",
+      "translation_quote": "Eén ding dat ik opmerkelijk vind is dat hoewel de wereld God niet in hun kennis wil houden, verzekeringsmaatschappijen toch bepaalde specifieke gebeurtenissen nog steeds aanduiden als “gevallen van God” (acts of God)."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

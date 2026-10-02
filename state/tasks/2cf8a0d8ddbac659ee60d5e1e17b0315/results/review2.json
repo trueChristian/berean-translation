@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ae3ea14b-5880-4c4b-a66a-25b0efb74120",
+    "response_id": "chatcmpl-EUX6GhyEx41i1ihOfl2r2iwukvHGq",
+    "usage": {
+      "completion_tokens": 844,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9911,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10755
+    }
+  },
+  "received_at": "2026-10-02T12:59:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.section / translation.section",
+        "severity": "minor",
+        "source_quote": "MUSINGS OF A MISSIONARY",
+        "suggested_fix": "Change the Norwegian section heading to correct grammar and natural phrasing. Replace \"EN MISJONÆRS REFLEKSJONER\" with \"Refleksjoner fra en misjonær\" or \"En misjonærs refleksjoner\" to avoid the current mismatch between the singular article \"En\" and the plural noun form.",
+        "translation_quote": "EN MISJONÆRS REFLEKSJONER"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

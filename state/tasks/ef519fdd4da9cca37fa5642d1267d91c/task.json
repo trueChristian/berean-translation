@@ -2,7 +2,6 @@
   "article_id": "71a8a627-ef21-4efb-9dd1-36d5124ac192",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -62,32 +61,45 @@
         },
         "total_tokens": 11748
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1116,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6475,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7591
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "source.html — multiple paragraphs containing embedded Scripture quotations (e.g. paragraph that begins \"As Bible-believing Christians how shall we then live?\" and later paragraphs quoting Revelation, Hebrews, 2 Corinthians, Matthew)",
-      "severity": "critical",
-      "source_quote": "And ye shall hear of wars and rumours of wars: see that ye be not troubled: for all these things must come to pass, but the end is not yet –Matthew 24:6.\n\n…he that shall endure unto the end, the same shall be saved –Matthew 24:13.\n\n…the fearful, and unbelieving … [who] shall have their part in the lake which burneth with fire and brimstone… –Revelation 21:8.\n\nHe that overcometh shall inherit all things; and I will be his God, and he shall be my son –Revelation 21:7.\n\nObey them that have the rule over you, and submit yourselves: for they watch for your souls, as they that must give account… –Hebrews 13:17.\n\nFor we must all appear before the judgment seat of Christ; that every one may receive the things done in his body, according to that he hath done, whether it be good or bad –2 Corinthians 5:10.\n\nWhen Jesus heard it, he marvelled, and said to them that followed, Verily I say unto you, I have not found so great faith, no, not in Israel –Matthew 8:10.",
-      "suggested_fix": "Translate each quoted Scripture passage into fluent, standard Korean while preserving the exact chapter:verse numbering and placement. For example: \"And ye shall hear... –Matthew 24:6.\" should be rendered e.g. \"또 전쟁과 전쟁의 소문을 들을 것이나 너희는 놀라지 말라 이런 일이 있어야 하되 끝은 아직 아니니라 — 마태복음 24:6.\" Apply the same approach for every quoted verse in the article, keeping verse references exactly (e.g. Matthew 24:6, Matthew 24:13, Revelation 21:8, Revelation 21:7, Hebrews 13:17, 2 Corinthians 5:10, Matthew 8:10). Do not leave the quoted Scripture text in English; the quotation must appear in Korean in the translation. Ensure the Korean conveys the printed English meaning (do not substitute a different Bible version wording beyond faithful rendering of the given English text). Replace the existing English scripture fragments inside <em> tags with the Korean translations while keeping the original HTML structure and tags unchanged.",
-      "translation_quote": "<em>And ye shall hear of wars and rumours of wars: <strong>see that ye be not troubled</strong>: for all these things must come to pass, but the end is not yet –Matthew 24:6.</em>\n\n<em>…he that shall endure unto the end, the same shall be saved –Matthew 24:13.</em>\n\n<em>…the fearful, and unbelieving … [who] shall have their part in the lake which burneth with fire and brimstone… –Revelation 21:8.</em>\n\n<em>He that overcometh shall inherit all things; and I will be his God, and he shall be my son –Revelation 21:7.</em>\n\n<em>Obey them that have the rule over you, and submit yourselves: for they watch for your souls, as they that must give account… –Hebrews 13:17.</em>\n\n<em>For we must all appear before the judgment seat of Christ; that every one may receive the things done in his body, according to that he hath done, whether it be good or bad –2 Corinthians 5:10.</em>\n\n<em>When Jesus heard it, he marvelled, and said to them that followed, Verily I say unto you, I have not found so great faith, no, not in Israel –Matthew 8:10.</em>”"
-    },
-    {
-      "location": "source.html — paragraph about motel discovery (paragraph containing book title)",
-      "severity": "critical",
-      "source_quote": "\"The Holy Bible\"",
-      "suggested_fix": "Translate the quoted book title into Korean within the translation. Replace the English title \"The Holy Bible\" with a natural Korean rendering such as \"성경\" (or \"거룩한 성경\" if preserving the 'Holy' adjective is important in context). Preserve quotation marks and the surrounding HTML structure. Example replacement: \"『성경』\" or simply \"성경\" depending on house style, but do not leave the English title unaltered in the translated text.",
-      "translation_quote": "\"The Holy Bible\""
-    },
-    {
-      "location": "source.html — paragraph discussing \"acts of God\" (insurance companies)",
+      "location": "Paragraph: \"This man is living... Anabaptist heritage.\" / Translation paragraph beginning \"이 남자는 미국 어딘가에 살고 있습니다.\"",
       "severity": "minor",
-      "source_quote": "acts of God",
-      "suggested_fix": "Render the phrase fully in Korean rather than leaving the English in parentheses or mixing languages. The translation currently reads '‘하나님의 행위(acts of God)’'. Change to a single-language expression such as '「하나님의 행위」' or '하나님의 행위' so the reader sees a coherent Korean phrase. Keep meaning equivalent to the English idiom.",
-      "translation_quote": "‘하나님의 행위(acts of God)’"
+      "source_quote": "He is part of a certain religious group within the plain people—those of Anabaptist heritage.",
+      "suggested_fix": "Use a clear, conventional Korean rendering for \"plain people\" used of conservative Anabaptist groups. Preserve meaning that these are \"Plain\"/conservative Anabaptist communities. Example: replace \"평안한 계통의 특정 종교 집단, 즉 재세례파 계통의 사람들\" with \"플레인(Plain) 계통의 한 종교 집단, 즉 재세례파(아나바프티스트) 계통의 사람들\" or \"보수적 '플레인' 공동체에 속한 재세례파 전통의 사람들\".",
+      "translation_quote": "그는 평안한 계통의 특정 종교 집단, 즉 재세례파 계통의 사람들 중 하나입니다."
+    },
+    {
+      "location": "Paragraph: \"I also observe the current trends of some of our plain publishing houses—they have borrowed...\" / Translation paragraph beginning \"이 남자의 열심을 생각할 때 나는 성경의 한 구절을 떠올립니다…\"",
+      "severity": "minor",
+      "source_quote": "I also observe the current trends of some of our plain publishing houses—they have borrowed from the world’s idea (in a spiritual way, of course) that to sell books and reading material they need to print exhilarating stories...",
+      "suggested_fix": "Smooth the Korean to clearly convey the original contrast: that some \"plain\" publishing houses borrow worldly marketing ideas (spiritually speaking) to sell books by printing sensational stories. Example revision: replace \"일부 평안 출판사들의 현재 경향을 관찰합니다—그들은 세상(물론 영적 방식으로)의 아이디어를 차용하여...\" with \"또 일부 플레인(Plain) 계열 출판사들이 세속적인 아이디어를 차용해(물론 영적인 의미에서) 사람들의 흥미를 끄는 자극적인 이야기를 인쇄함으로써 책을 팔려 한다는 경향도 보입니다.\"",
+      "translation_quote": "또한 나는 일부 평안 출판사들의 현재 경향을 관찰합니다—그들은 세상(물론 영적 방식으로)의 아이디어를 차용하여 책과 읽을거리를 팔기 위해 사람들을 긴장시켜 좌석 가장자리에 붙들어 매는 전율적인 이야기를 인쇄해야 한다고 생각합니다—오늘날의 그리스도인들이 구식으로 보이는 것에 지쳐 버렸기 때문이라는 것입니다."
     }
   ],
+  "finished_at": "2026-10-02T12:59:41+00:00",
   "id": "ef519fdd4da9cca37fa5642d1267d91c",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "kor",
@@ -161,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/9bbeaa248aca4a5e53cf4e710626c35ad1fcffe1f073f387e31c0a9f5dd08124.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c8c09427567d4bc1f9b13eb8f03d2de65724d1971e30094c9e925e9045066f8d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph discussing \"one Christian principle\" (near: \"principle of the headship order\")",
+      "severity": "minor",
+      "source_quote": "There was a friend of ours who told us that if there would be one Christian principle that he thought would have the most impact on the home, it would be the principle of the headship order.",
+      "suggested_fix": "Remove the redundant parenthetical or clarify the phrase in French. For example, replace \"le principe de l’ordre de la tête (la tête)\" with \"le principe de l’ordre de la tête\" or \"le principe de la tête (la direction)\" so it reads naturally in French while preserving the original meaning.",
+      "translation_quote": "Un ami nous a dit que s’il fallait choisir un principe chrétien qui, selon lui, aurait le plus d’impact sur la famille, ce serait le principe de l’ordre de la tête (la tête)."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

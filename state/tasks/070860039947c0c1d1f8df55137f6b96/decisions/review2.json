@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.section / translation.section",
+      "severity": "minor",
+      "source_quote": "A Hymn History",
+      "suggested_fix": "Render the section heading in more natural, idiomatic Portuguese. Suggested revision: \"História de um hino\" or simply \"História do hino\" to better match Portuguese usage.",
+      "translation_quote": "Uma História de Hino"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

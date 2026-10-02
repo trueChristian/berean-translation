@@ -2,7 +2,6 @@
   "article_id": "951f56e4-2ce8-4f01-9500-bfeee209cdb4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88525777637f4d3ba5252b7b2b7de283",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -62,39 +61,38 @@
         },
         "total_tokens": 15208
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 701,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8935,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9636
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Throughout: headings <h2> and section titles",
-      "severity": "critical",
-      "source_quote": "<h2>The Desired Haven…</h2>\n\n...<h2>…Preserving our Person</h2>\n\n...<h2>…Protecting our Property</h2>\n\n...<h2>…Perfecting our Plan</h2>\n\n...<h2>…Pleasing all People</h2>",
-      "suggested_fix": "Translate all section headings into standard contemporary Italian while preserving the HTML tags exactly. Suggested short translations (preserve the ellipses and punctuation as in source):\n- <h2>Il porto desiderato…</h2>\n- <h2>…Preservare la nostra persona</h2>\n- <h2>…Proteggere la nostra proprietà</h2>\n- <h2>…Perfezionare il nostro piano</h2>\n- <h2>…Piacere a tutti</h2>",
-      "translation_quote": "<h2>The Desired Haven…</h2>\n\n...\n\n<h2>…Preserving our Person</h2>\n\n...\n\n<h2>…Protecting our Property</h2>\n\n...\n\n<h2>…Perfecting our Plan</h2>\n\n...\n\n<h2>…Pleasing all People</h2>."
-    },
-    {
-      "location": "Scripture citations inline (book names)",
-      "severity": "major",
-      "source_quote": "Mark 4:37-41; Acts 27:20; 2 Corinthians 11:25; Acts 27:23-24; Mark 4:38; Jonah 1:6; 2 Corinthians 1:8; Psalm 107:25-30; Acts 27:12-13; John 14:27; Acts 27:14; Philippians 1:23; Mark 8:35; Luke 12:13; Acts 27:22; Matthew 19:22; Luke 10:40; Hebrews 4:9-11",
-      "suggested_fix": "Convert the English book names to their conventional Italian equivalents and keep chapter:verse numbers and formatting unchanged. Examples:\n- Mark -> Marco (es. Marco 4:37-41)\n- Acts -> Atti (es. Atti 27:20)\n- 2 Corinthians -> 2 Corinzi (es. 2 Corinzi 11:25)\n- Jonah -> Giona\n- Psalm -> Salmo (es. Salmo 107:25-30)\n- John -> Giovanni\n- Philippians -> Filippesi\n- Luke -> Luca\n- Matthew -> Matteo\n- Hebrews -> Ebrei\nApply consistently to every inline citation and to the parenthetical references inside emphasized/italic passages, preserving punctuation and italics tags exactly as in the translation HTML.",
-      "translation_quote": "Acts 27:20; 2 Corinthians 11:25; Acts 27:23-24; Mark 4:38; Jonah 1:6; 2 Corinthians 1:8; Psalm 107:25-30; Acts 27:12-13; John 14:27; Acts 27:14; Philippians 1:23; Mark 8:35; Luke 12:13; Acts 27:22; Matthew 19:22; Luke 10:40; Hebrews 4:9-11 (book names left in English in the translation)."
-    },
-    {
-      "location": "Specific quoted Scripture & book-name pairing formatting",
-      "severity": "major",
-      "source_quote": "<p class=\"drop-cap\">And there arose a great storm ... Mark 4:37-41</p>",
-      "suggested_fix": "The quoted Scripture text itself has been translated, which is correct, but the book name remains in English ('Mark'). Change the book name to Italian ('Marco 4:37-41') immediately following the translated quotation, preserving the italics/emphasis and punctuation exactly as in the translation HTML.",
-      "translation_quote": "<p class=\"drop-cap\">E sorse una grande tempesta ... Mark 4:37-41</p>"
-    },
-    {
-      "location": "Repeated untranslated English headings within article flow",
-      "severity": "major",
-      "source_quote": "Several heading phrases and transitional labels appear in English in the source's structure (e.g., 'The Desired Haven…', '...Preserving our Person') and are substantive elements of the article.",
-      "suggested_fix": "All substantive labels and headings embedded in the article must be translated into Italian. Preserve the original HTML tags and structural placement; only change the English text within each <h2> (or other heading) element to the Italian equivalents suggested in the first finding or to equivalent idiomatic Italian chosen by the translator.",
-      "translation_quote": "<h2>The Desired Haven…</h2> and <h2>…Preserving our Person</h2> (left in English)"
+      "location": "Paragraph listing phobias (ol > li[4])",
+      "severity": "minor",
+      "source_quote": "Arachibutyrophobia is the fear of getting peanut butter stuck to the roof of your mouth.",
+      "suggested_fix": "Translate the technical term into standard Italian or present it in italics with an Italian explanation. For example: \"Arachibutirofobia è la paura che il burro di arachidi si attacchi al palato.\" (Preserve surrounding HTML exactly.)",
+      "translation_quote": "Arachibutyrophobia è la paura che il burro di arachidi si attacchi al palato della bocca."
     }
   ],
+  "finished_at": "2026-10-02T12:59:40+00:00",
   "id": "8471e34df6a8232f3cfb1fa0bbcb6e12",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ita",
@@ -168,13 +166,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a5f80ad335a5578b489f5e1ff55175ab3c10942655de5c784af044af1c73c841.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "6ba0f430c997b1ea3450b766c83b9abcf64dbdc84cdd47383ef0cebf9766d0dd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

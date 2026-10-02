@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "<article> paragraph 3",
+      "severity": "major",
+      "source_quote": "Hearing the padding of the wildcat’s enormous paws on the forest floor behind him, Beto tried to pump his tired legs even faster.",
+      "suggested_fix": "Replace the mistranslated phrase with a correct Kiswahili rendering that preserves the meaning of paws softly touching the ground. For example: \"Akisikia hatua laini za miwambo mikubwa ya paka wakigonga sakafu ya msitu nyuma yake, Beto alijaribu kuchochea miguu yake iliyochoka kuwa hata haraka zaidi.\" (Preserve the sentence structure and surrounding HTML.)",
+      "translation_quote": "Akisikia midomoni ya miguu ya paka huyo mkubwa ikigandamana na sakafu ya msitu nyuma yake, Beto alijaribu kuchochea miguu yake iliyochoka kuwa hata haraka zaidi."
+    },
+    {
+      "location": "<article> paragraph 3",
+      "severity": "minor",
+      "source_quote": "As he waited, he imagined that he could hear the sound of the wildcat moving in closer, closer, closer…",
+      "suggested_fix": "Use a Kiswahili verb that conveys creeping/approaching rather than \"to jump.\" For example: \"Aliposubiri, alifikiria kwamba angeweza kusikia sauti ya paka akikaribia, karibia, karibia…\"",
+      "translation_quote": "Aliposubiri, alifikiria kwamba alikuwa anaweza kusikia sauti ya paka anayerukaruka karibu, karibu, karibu…"
+    },
+    {
+      "location": "<article> drop-cap paragraph",
+      "severity": "minor",
+      "source_quote": "Glancing up at the sun, Beto (a made-up name) quickened his already hurried pace as he approached the forest.",
+      "suggested_fix": "Polish the phrasing for natural Kiswahili word order. Suggested revision: \"Akitazama juu kuelekea jua, Beto (jina lililotengenezwa) aliongeza kasi ya hatua zake ambazo tayari zilikuwa haraka alipokaribia msitu.\" (Keep existing HTML.)",
+      "translation_quote": "Akitazama juu kuelekea jua, Beto (jina lililotengenezwa) aliongeza kasi ya hatua zake ambazo tayari zilikuwa haraka alipoelekea msituni."
+    },
+    {
+      "location": "<article> paragraph quoting Romans 8:37",
+      "severity": "minor",
+      "source_quote": "…more than conquerors through him that loved us –Romans 8:37?",
+      "suggested_fix": "Improve grammatical fluency in Kiswahili while preserving the theological claim. For example: \"…vilevile wakashinda kwa njia ya Yule aliyetuipenda—Warumi 8:37?\" or \"…kuwa washindi waliotukuka kwa yule aliyewataka—Warumi 8:37?\" Ensure the verse citation stays unchanged.",
+      "translation_quote": "…wakishinda bila kukoma kwa yule aliye wapendacho—Warumi 8:37?"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

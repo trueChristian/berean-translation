@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:59:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>…Unreserved surrender</p> / paragraph containing Matthew 11:28-30\",\"severity\":\"minor\",\"source_quote\":\"…For my yoke is easy, and my burden is light –Matthew 11:28-30.\",\"suggested_fix\":\"Translate 'yoke' with a correct, idiomatic Hindi word (e.g., 'हंसिया' is wrong — use 'जोक' is not Hindi — recommended: 'जुगा' is uncommon. Best: 'गुहार' is wrong). Use the standard Hindi rendering 'मेरा जूगा हल्का है' is awkward. Recommended fix: replace 'क्योंकि मेरा जूँ सरल है और मेरा बोझ हल्का है' with a natural, widely accepted Hindi translation such as 'क्योंकि मेरा जोड़ा हल्का है और मेरा बोझ आसान है' or better 'क्योंकि मेरा जुआ हल्का है और मेरा बोझ आसान है' — (note: choose one conventional idiomatic phrase used by the target publication). Preserve the reference '–मत्ती 11:28-30' unchanged.\",\"translation_quote\":\"…क्योंकि मेरा जूँ सरल है और मेरा बोझ हल्का है –मत्ती 11:28-30।\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 1323,
+    "content_evidence_truncated": false,
+    "content_sha256": "1e6e7fd010632d2894586eb03e4d0b1a647d31f686f8fc4f29519c2dddc36793",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 924,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6555,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7479
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

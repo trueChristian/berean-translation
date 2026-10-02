@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html / paragraph 5 (\"was very conscientious Hadassah...\")",
+      "severity": "minor",
+      "source_quote": "This was very disturbing to a very conscientious Hadassah.",
+      "suggested_fix": "Render the adjective in fluent Arabic word order and with correct agreement. For example: replace \"كان هذا أمراً مزعجًا جدًا لِـHadassah الضميرية جدًا.\" with \"كان هذا أمراً مزعجًا جدًا لـHadassah الضميرة جدًا.\" or better \"كان هذا أمراً مزعجًا جدًا لِـHadassah، التي كانت ضميرية جدًا.\" Preserve existing HTML tags and punctuation.",
+      "translation_quote": "كان هذا أمراً مزعجًا جدًا لِـHadassah الضميرية جدًا."
+    },
+    {
+      "location": "source.html / final paragraph of main text (\"old school friends\")",
+      "severity": "minor",
+      "source_quote": "today those girls are Hadassah’s “old school friends”.",
+      "suggested_fix": "Use a more natural Arabic rendering for the idiom \"old school friends\" while preserving meaning. For example: replace \"هن \\\"صديقات المدرسة القديمات\\\" لـHadassah.\" with \"هن صديقاتها من أيام المدرسة.\" Preserve the existing HTML structure and quotation style if desired.",
+      "translation_quote": "واليوم تلك الفتيات هن \"صديقات المدرسة القديمات\" لـHadassah."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

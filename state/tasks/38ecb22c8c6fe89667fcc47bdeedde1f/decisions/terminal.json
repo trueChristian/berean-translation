@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing Luke quote near end of article HTML (\"...made as though he would have gone further...\")",
+      "severity": "critical",
+      "source_quote": "Jesus …made as though he would have gone further. But they constrained him, saying, Abide with us: for it is toward evening, and the day is far spent. And he went in to tarry with them –Luke 24:28-29.",
+      "suggested_fix": "Translate the Scripture citation and surrounding book name into Hebrew and keep the reference numbers exactly as printed. For example: “... נראה כאילו היה הולך רחוק יותר. אך הם אילצו אותו ואמרו: ‘הישאר עמנו, כי הערב נוטה והיום קרב לסופו.’ והוא נכנס לשהות עימם — לוקס 24:28-29.” Ensure the book name uses the conventional Modern Hebrew form (לוקס) and keep the chapter:verse numbers unchanged.",
+      "translation_quote": "...נראה כאילו היה הולך רחוק יותר. אך הם אילצו אותו, ואמרו: 'הישאר עמנו; כי הערב נוטה והיום קרב לסופו.' והוא נכנס לשהות עימם –Luke 24:28-29."
+    },
+    {
+      "location": "Paragraph that names the hymn in English parentheses after describing inspiration (\"Jesus, I My Cross Have Taken\")",
+      "severity": "major",
+      "source_quote": "It is said that it was his encounter with God at the bedside of that dying man that prompted Lyte’s noble hymn, “Jesus, I My Cross Have Taken.”",
+      "suggested_fix": "Translate the quoted hymn title into Hebrew (preserving that it is a quoted title) rather than leaving it in English. For example: “...שנתן את ההשראה למזמור האצילי של לייט, ‘ישוע, נשאתי את צלבי’ (Jesus, I My Cross Have Taken).” Keep the original English title in parentheses only if the publisher requires the original; the Hebrew translation of the quoted prose itself must be present.",
+      "translation_quote": "...העניק את ההשראה למזמור האצילי של לייט, \"ישוע, נשאתי את צלבי\" (Jesus, I My Cross Have Taken)."
+    },
+    {
+      "location": "Image alt attribute",
+      "severity": "major",
+      "source_quote": "alt=\"Sheet music for Abide With Me, Fast Falls the Eventide, credited to Henry F. Lyte, 1847, and William H. Monk, 1861\"",
+      "suggested_fix": "Translate the alt text into Hebrew, including the song title in Hebrew (and you may keep the English original in parentheses if needed). Example: alt=\"תווים לשיר 'הישאר עמדי — במהירות נופל הערב', מיוחס להנרי פ. לייט, 1847, ולויליאם ה. מונק, 1861\"",
+      "translation_quote": "alt=\"תווים לשיר 'Abide With Me, Fast Falls the Eventide', מיוחס להנרי פ. לייט, 1847, ולויליאם ה. מונק, 1861\""
+    },
+    {
+      "location": "References section and other bibliographic mentions (end of article and inline quote of Treasury of Hymn Stories)",
+      "severity": "major",
+      "source_quote": "References: 101 Hymn Stories, Treasury of Hymn Stories Author- Henry Francis Lyte, 1793-1847 Composer- William Henry Monk, 1823-1889 Tune Name - “Eventide”",
+      "suggested_fix": "Translate the References heading and bibliographic items into Hebrew. Translate book titles into Hebrew where appropriate (or present a Hebrew rendering with the English original in parentheses). Example: \"הפניות: 101 סיפוריי מזמורים (101 Hymn Stories), אוצר סיפורי מזמורים (Treasury of Hymn Stories). מחבר - הנרי פרנסיס לייט, 1793–1847. מלחין - וויליאם הנרי מונק, 1823–1889. שם הלחן - 'איוונטייד' (Eventide).\" Preserve exact names and dates and the number/placement of references.",
+      "translation_quote": "References:<br>\n    <em>101 Hymn Stories,<br>\n    Treasury of Hymn Stories<br>\n    Author- Henry Francis Lyte, 1793-1847<br>\n    Composer- William Henry Monk, 1823-1889<br>\n    Tune Name - “Eventide”</em>"
+    },
+    {
+      "location": "Paragraph describing his reputation (sentence beginning 'לאן שרכב, אהבו והעריצו אותו מאד אנשי קהילתו.')",
+      "severity": "minor",
+      "source_quote": "Wherever he went, he was greatly loved and admired by his people.",
+      "suggested_fix": "Improve idiomatic Hebrew: replace 'לאן שרכב' with a correct target-language equivalent such as 'לאן שלא הלך' or 'בכל מקום שאליו הגיע'. Example: \"בכל מקום שאליו הגיע, אהבו והעריצו אותו אנשי קהילתו מאוד.\"",
+      "translation_quote": "לאן שרכב, אהבו והעריצו אותו מאד אנשי קהילתו."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}
