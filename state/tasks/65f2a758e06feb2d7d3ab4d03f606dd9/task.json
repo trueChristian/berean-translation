@@ -2,7 +2,6 @@
   "article_id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d2a243161d3849ac902b56d1a8ccb98d",
   "campaign": "gh-36910935961",
   "created_at": "2026-10-01T18:59:41+00:00",
   "events": [
@@ -43,17 +42,45 @@
         },
         "total_tokens": 13455
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1049,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8733,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9782
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[15]; missing: none; extra: 14:00",
-      "translation_quote": ""
+      "location": "<article> first <p class=\"drop-cap\"> (opening paragraph)",
+      "severity": "major",
+      "source_quote": "“She drinks till she passes out every night and has to have something every morning to get her started.”",
+      "suggested_fix": "Keep the meaning that Elsie loses consciousness from drinking, not that she dies. Replace the Dutch sentence inside the same <p> preserving tags: change\n\n“Ze drinkt zich elke avond dood en valt flauw en heeft elke ochtend iets nodig om op gang te komen.”\n\nto a phrasing that conveys \"passes out\" (verliest het bewustzijn) rather than \"dood\":\n\n“Ze drinkt elke avond meer en meer. Ze raakt elke avond bewusteloos en heeft elke ochtend iets nodig om op gang te komen.”",
+      "translation_quote": "“Ze drinkt zich elke avond dood en valt flauw en heeft elke ochtend iets nodig om op gang te komen.”"
+    },
+    {
+      "location": "<article> first <p class=\"drop-cap\"> (opening paragraph)",
+      "severity": "minor",
+      "source_quote": "I had never met either of the couple before and was struggling just a little to figure out what was needed from me to help her.",
+      "suggested_fix": "Correct the awkward/ungrammatical Dutch while preserving meaning. Replace the clause inside the same <p> preserving tags: change\n\n\"Ik had van het paar nog nooit eerder ontmoet en worstelde een beetje om uit te vinden wat er van mij nodig was om haar te helpen.\"\n\nto a grammatical Dutch rendering such as:\n\n\"Ik had het paar nog nooit eerder ontmoet en worstelde een beetje om uit te vinden wat er van mij nodig was om haar te helpen.\"",
+      "translation_quote": "Ik had van het paar nog nooit eerder ontmoet en worstelde een beetje om uit te vinden wat er van mij nodig was om haar te helpen."
     }
   ],
+  "finished_at": "2026-10-02T00:12:28+00:00",
   "id": "65f2a758e06feb2d7d3ab4d03f606dd9",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "nld",
@@ -97,11 +124,13 @@
     }
   },
   "protected": false,
+  "quality_score": 80,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3dca46ba6dc76cd2fae0d3c72ba7c602ffd575360bdccd409f88bbefe85fbe75.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

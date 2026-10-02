@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "51374318-d2b8-4f7a-a0ef-757bc63fbb68",
+    "response_id": "chatcmpl-EUL98REXlNFgA3rODhvF7Okzv3rBx",
+    "usage": {
+      "completion_tokens": 1049,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8733,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9782
+    }
+  },
+  "received_at": "2026-10-02T00:12:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> first <p class=\"drop-cap\"> (opening paragraph)",
+        "severity": "major",
+        "source_quote": "“She drinks till she passes out every night and has to have something every morning to get her started.”",
+        "suggested_fix": "Keep the meaning that Elsie loses consciousness from drinking, not that she dies. Replace the Dutch sentence inside the same <p> preserving tags: change\n\n“Ze drinkt zich elke avond dood en valt flauw en heeft elke ochtend iets nodig om op gang te komen.”\n\nto a phrasing that conveys \"passes out\" (verliest het bewustzijn) rather than \"dood\":\n\n“Ze drinkt elke avond meer en meer. Ze raakt elke avond bewusteloos en heeft elke ochtend iets nodig om op gang te komen.”",
+        "translation_quote": "“Ze drinkt zich elke avond dood en valt flauw en heeft elke ochtend iets nodig om op gang te komen.”"
+      },
+      {
+        "location": "<article> first <p class=\"drop-cap\"> (opening paragraph)",
+        "severity": "minor",
+        "source_quote": "I had never met either of the couple before and was struggling just a little to figure out what was needed from me to help her.",
+        "suggested_fix": "Correct the awkward/ungrammatical Dutch while preserving meaning. Replace the clause inside the same <p> preserving tags: change\n\n\"Ik had van het paar nog nooit eerder ontmoet en worstelde een beetje om uit te vinden wat er van mij nodig was om haar te helpen.\"\n\nto a grammatical Dutch rendering such as:\n\n\"Ik had het paar nog nooit eerder ontmoet en worstelde een beetje om uit te vinden wat er van mij nodig was om haar te helpen.\"",
+        "translation_quote": "Ik had van het paar nog nooit eerder ontmoet en worstelde een beetje om uit te vinden wat er van mij nodig was om haar te helpen."
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}
