@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>...“A Word From the Doctor” guides us...\",\"severity\":\"minor\",\"source_quote\":\"“A Word From the Doctor”\",\"suggested_fix\":\"将栏目名或专栏标题“A Word From the Doctor”也翻译为中文，并在 HTML 中替换括号内的英文，例如改为““医生的嘱咐”栏目（A Word From the Doctor）”或仅保留中文标题“医生的嘱咐”。保持原有 HTML 标签和结构不变。\",\"translation_quote\":\"“医生的嘱咐”（A Word From the Doctor）\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 539,
+    "content_evidence_truncated": false,
+    "content_sha256": "8416b503069a1603d94c215d3acc91075898656be5ac48e86bd920f64fd9d440",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 668,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2990,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3658
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

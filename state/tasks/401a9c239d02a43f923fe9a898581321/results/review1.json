@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ae035906-7d6b-4ba2-978f-52d3a878f5ae",
+    "response_id": "chatcmpl-EUWw2RlkacD3uyuJzSxS8qeWtFqcz",
+    "usage": {
+      "completion_tokens": 1064,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6537,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7601
+    }
+  },
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>“Shall we call 911?”</p> (source paragraph describing immediate reaction to seizure)",
+        "severity": "major",
+        "source_quote": "“Shall we call 911?”",
+        "suggested_fix": "Restore the original emergency number from the English source. Replace the localized number with the source text. Suggested French text: « On appelle le 911 ? »",
+        "translation_quote": "« On appelle le 15 ? »"
+      },
+      {
+        "location": "<header section>translation of source.section</header>",
+        "severity": "minor",
+        "source_quote": "SISTER TO SISTER",
+        "suggested_fix": "Use standard French orthography and accents for the section heading. Suggested fix: replace “DE SOEUR À SOEUR” with “De sœur à sœur” (capitalizing only the initial word if required by site style).",
+        "translation_quote": "DE SOEUR À SOEUR"
+      },
+      {
+        "location": "<title>translation of source.title</title>",
+        "severity": "minor",
+        "source_quote": "Does God Answer Prayer?",
+        "suggested_fix": "Fix French punctuation and casing for the question and hyphenation. Use a lowercase letter after the hyphen in the inversion and non‑breaking spaces according to site conventions. Suggested fix: “Dieu répond-il à la prière ?”",
+        "translation_quote": "Dieu répond-Il à la prière ?"
+      }
+    ],
+    "passed": false,
+    "score": 83
+  }
+}

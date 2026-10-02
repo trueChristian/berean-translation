@@ -1,0 +1,78 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6d1da1a5-0582-4b91-a76c-eca0486c5def",
+    "response_id": "chatcmpl-EUWw6eN40raUw58LK0ByGrDIN3ffw",
+    "usage": {
+      "completion_tokens": 2005,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9071,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11076
+    }
+  },
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph 2 (Matthew 24:10)",
+        "severity": "critical",
+        "source_quote": "Jesus mentioned that one of the signs of the end times is that “then shall many be offended . . . and shall hate one another” (Matthew 24:10).",
+        "suggested_fix": "Translate the quoted Scripture accurately into Bengali, preserving the meaning of 'offended' (skandalízō/stumble). For example: “তখন বহু লোক পথভ্রষ্ট হইবে . . . এবং একে অপরকে ঘৃণা করিবে” (Matthew 24:10)। Ensure the Bengali word conveys 'offended/stumbled' rather than 'crying' or 'weep'.",
+        "translation_quote": "যীশু বলেছেন এন্ড-টাইমের চিহ্নগুলোর মধ্যে একটি হল “তখন বহুখানি লোক কেঁদে উঠিবে . . . এবং একে অপরকে ঘৃণা করিবে” (Matthew 24:10)।"
+      },
+      {
+        "location": "source.html paragraph 3 (Mark 14:27)",
+        "severity": "critical",
+        "source_quote": "He informed the inner 12 that had stuck with Him, “All ye shall be offended because of me this night” (Mark 14:27).",
+        "suggested_fix": "Render the quoted Scripture in Bengali to reflect 'offended' or 'will stumble/offend' as in the English text. For example: “তোমাদের সকলেই আজ রাত্রে আমার কারণ হেই পথে ভ্রান্ত হইবে” (Mark 14:27) or better: “তোমাদের সকলেই আজ রাত্রে আমার বাপারে কাঁটাছেঁড়া হইবে/পথভ্রষ্ট হইবে” depending on preferred idiom. Do not translate 'offended' as 'excited' or 'অনুত্তেজিত'.",
+        "translation_quote": "তিনি তাঁর অন্তরীন বারোকে জানান যে যারা তাঁর সাথে লেগে ছিল, “তোমাদের সকলেই আজ রাত্রে আমাররূপে অনুত্তেজিত হইব” (Mark 14:27)।"
+      },
+      {
+        "location": "source.html references section (Strongs Concordance)",
+        "severity": "major",
+        "source_quote": "Strongs Concordance",
+        "suggested_fix": "Translate the reference entry into Bengali or provide a conventional localized form. For example: “স্ট্রংস কনকর্ড্যান্স” or “স্ট্রংসের কনকর্ড্যান্স” (depending on site style). Quoted bibliographic items and substantive metadata should not be left in English. Preserve the HTML structure.",
+        "translation_quote": "Strongs Concordance"
+      },
+      {
+        "location": "source.html paragraph 3 (discussion of Greek/Hebrew terms)",
+        "severity": "major",
+        "source_quote": "The Greek word is skandalízō meaning “to scandalize”. In Hebrew, it means “a stumbling block”.",
+        "suggested_fix": "Translate and explain both original-language glosses accurately in Bengali. Example: “গ্রীক শব্দটি skandalízō যার অর্থ ‘অপমানিত করা/আঘাত করা/পথভ্রষ্ট করা’। হিব্রুতে সমান ধারণাটি ‘কাঠিন্য বা পথভ্রষ্টকারী’ (stumbling block) নির্দেশ করে।” Do not introduce incorrect or unclear Bengali words (see next finding about 'কুসুম').",
+        "translation_quote": "গ্রীক শব্দটি skandalízō — যার অর্থ “স্ক্যান্ডাল সৃষ্টি করা”।<sup>1</sup> হিব্রুতে এর অর্থ “একটি বাধা, কুসুম”।"
+      },
+      {
+        "location": "source.html figure img alt attribute",
+        "severity": "minor",
+        "source_quote": "A wooden gate in a stone archway beside a wooden railing",
+        "suggested_fix": "Correct the Bengali alt text to faithfully reflect the English. For example: \"একটি পাথরের ভাঁজ-অবয়বযুক্ত চওড়া প্রাসাদের পাশে একটি কাঠের ফটক ও কাঠের রেলিং\" or more simply: \"একটি পাথরের দুয়ার-ঢালাইযুক্ত আর্চওয়েতে একটি কাঠের ফটক ও কাঠের রেলিং\". Do not render 'archway' as 'চেয়ারা' (chair). Preserve the img tag as-is and update only the alt text.",
+        "translation_quote": "একটি পাথরের চেয়ারার পাশের কাঠের ফটক এবং কাঠের রেলিং"
+      },
+      {
+        "location": "source.html paragraph 4 (sensitiv)e",
+        "severity": "minor",
+        "source_quote": "We wish to heap no condemnation upon the sensitive soul, but the word sensitive is not in the Bible. The closest word we can find there is sensual, which is very similar in its roots and means natural.",
+        "suggested_fix": "Translate 'sensitive' and 'sensual' appropriately into Bengali and avoid leaving English terms untranslated. For example: “আমরা সংবেদনশীল আত্মার উপর দোষ চাপাতে চাই না, তবে 'sensitive' শব্দটি বাইবেলে নেই। কাছাকাছি শব্দটি 'sensual' (ইন্দ্রিয়সাম্যিক/ইন্দ্রিয়গত), যা মূলত প্রাকৃতিক বা প্রাতিষ্ঠানিক অর্থ বহন করে।” Update the Bengali so both terms are rendered in Bengali script and the theological distinction remains clear.",
+        "translation_quote": "আমরা সংবেদনশীল আত্মার উপর কোনো দোষ চাপাতে চাই না, কিন্তু সংবেদনশীল শব্দটি বাইবেলে নেই। সবচেয়ে কাছাকাছি শব্দটি যা আমরা সেখানে পাই তা হলো sensual (ইন্দ্রিয়গত), যা মূলত প্রাকৃতিক এর মতোই এবং প্রাকৃতিক অর্থে বোঝায়।"
+      },
+      {
+        "location": "source.html paragraph about Michal/Michal childlessness (2 Samuel 6:23)",
+        "severity": "minor",
+        "source_quote": "... and “therefore Michal the daughter of Saul had no child unto the day of her death” (2 Samuel 6:23).",
+        "suggested_fix": "Ensure the Scripture quotation is translated in idiomatic Bengali and that any parenthetical English or untranslated words are removed. The current Bengali is acceptable in meaning but check for consistent Bible-verse rendering style (e.g., 'ততদিন পর্যন্ত' vs 'মরণের দিন পর্যন্ত'). No HTML change needed—just revise Bengali wording if desired.",
+        "translation_quote": "“অতএব মিখাল, সাউলের কন্যা, মরণের দিন পর্যন্ত কোনো সন্তান পাইনি” (2 Samuel 6:23)।"
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

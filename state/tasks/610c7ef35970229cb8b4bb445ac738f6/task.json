@@ -2,7 +2,6 @@
   "article_id": "c22883c1-1d69-4c5e-aa81-d4015bf4e473",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 3650
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1245,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3247,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4492
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>...Last week I was cleaning out our broiler houses in preparation for a new flock. ...</p>",
+      "severity": "critical",
+      "source_quote": "Last week I was cleaning out our broiler houses in preparation for a new flock.",
+      "suggested_fix": "Translate the substantive phrase accurately into Hindi. Replace the mistranslated phrase \"नए पंखे के झुंड की तैयारी में\" with a faithful translation such as \"नए झुंड (पोल्ट्री/मुर्गियों) की तैयारी के लिए\" or simply \"नए झुंड की तैयारी में\" so the meaning 'flock' (पक्षियों/मुर्गियों का झुंड) is preserved. Keep the surrounding sentence structure and HTML unchanged.",
+      "translation_quote": "पिछले सप्ताह मैं नए पंखे के झुंड की तैयारी में अपने ब्रॉयलर हाउसों की सफाई कर रहा था।"
+    },
+    {
+      "location": "<p>...as aptly pointed out by the writer of the article, “God’s Faithfulness Manifest Even in the Curse”, ...</p>",
+      "severity": "major",
+      "source_quote": "“God’s Faithfulness Manifest Even in the Curse”",
+      "suggested_fix": "Quoted substantive prose must be translated into the target language. Replace the English title with a Hindi translation while preserving the quotation marks and punctuation. For example: “शाप में भी परमेश्वर की निष्ठा प्रकट होती है”. If the original English title must be shown in addition, include it parenthetically after a full Hindi rendering, but do not leave the quoted title only in English.",
+      "translation_quote": "\"God’s Faithfulness Manifest Even in the Curse\" (शाप में भी परमेश्वर की निष्ठा प्रकट होती है) के लेखक ने उपयुक्त रूप से इंगित किया है,"
+    },
+    {
+      "location": "<p>...“For the LORD shall be thy confidence, and shall keep thy foot from being taken” (Proverbs 3:26).</p>",
+      "severity": "minor",
+      "source_quote": "(Proverbs 3:26)",
+      "suggested_fix": "Translate the book name to the conventional Hindi form while keeping chapter and verse numbers unchanged. Replace \"(Proverbs 3:26)\" with \"(नीतिवचन 3:26)\" so the reference is localized. Preserve parentheses and numbering.",
+      "translation_quote": "\"क्योंकि यहोवा तेरा आश्रय होगा, तथा वह तेरा पैर न फँसने देगा\" (Proverbs 3:26)।"
+    }
+  ],
   "id": "610c7ef35970229cb8b4bb445ac738f6",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "hin",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/16f80cc2fe1f48fad7c825ed0d1e3059568da0b548b0106a43da4f8b4d785466.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "7328fe7985535229790c376868603624111ed137e1665aff6a36b03d5b4d90fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

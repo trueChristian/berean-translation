@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<article> paragraph: \"Our precious little girl ended up having brain surgery at only three and a half years old.\" (near end of body)",
+      "severity": "major",
+      "source_quote": "Our precious little girl ended up having brain surgery at only three and a half years old.",
+      "suggested_fix": "Replace the mistranslated sentence with a faithful Urdu rendering that preserves the original age: e.g. \"ہماری قیمتی چھوٹی لڑکی بالآخر صرف تین سال اور آدھے سال کی عمر میں دماغ کے آپریشن سے گزری۔\" Ensure the surrounding HTML paragraph text and tags remain unchanged.",
+      "translation_quote": "ہماری قیمتی چھوٹی لڑکی آخر کار صرف ڈیڑھ سال بعد ہی دماغ کے آپریشن سے گزری—درست طور پر وہ تین سال اور آدھی عمر میں سرجری کرائی گئی۔"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

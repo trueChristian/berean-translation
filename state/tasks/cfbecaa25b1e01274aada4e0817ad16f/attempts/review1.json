@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph containing Genesis 3:15 (near heading “Död”)\",\"severity\":\"minor\",\"source_quote\":\"“And I will put enmity between thee and the woman, and between thy seed and her seed; it shall bruise thy head, and thou shalt bruise his heel” (Genesis 3:15).\",\"suggested_fix\":\"Replace the English parenthetical book name with the conventional Swedish form. For example: (1 Moseboken 3:15) or (Första Moseboken 3:15). Do not change the verse numbers or the quoted text itself in Swedish.\",\"translation_quote\":\"”Och jag skall sätta fiendskap mellan dig och kvinnan, mellan din säd och hennes säd; han skall stöta ditt huvud, och du skall stöta hans häl” (Genesis 3:15).\"},{\"location\":\"Blockquote containing Romans 8:19-23 (near end)\",\"severity\":\"minor\",\"source_quote\":\"“For the earnest expectation of the creature waiteth for the manifestation of the sons of God. For the creature was made subject to vanity, not willingly, but by reason of him who subjected the same in hope. Because the creature itself also shall be delivered from the bondage of corruption into the glorious liberty of the children of God. For we know that the whole creation groaneth and travaileth in pain together until now. And not only they, but ourselves also, which have the first fruits of the Spirit, even we ourselves groan within ourselves, waiting for the adoption, to wit, the redemption of our bodies” (Romans 8:19-23).\",\"suggested_fix\":\"Replace the English parenthetical book name with the conventional Swedish form. For example: (Romarbrevet 8:19–23) or abbreviated (Rom 8:19–23). Keep the verse range exactly as printed.\",\"translation_quote\":\"”Ty skapelsens väntan väntar på uppenbarelsen av Guds söner... till kroppens förlossning” (Romans 8:19-23).\"},{\"location\":\"Paragraph about life as a gestation period (under heading “Död”)\",\"severity\":\"minor\",\"source_quote\":\"In a way, life is only a gestation period for eternity.\",\"suggested_fix\":\"Use a more natural contemporary Swedish idiom. For example: \\\"På ett sätt är livet bara en graviditetstid inför evigheten.\\\" or \\\"På ett sätt är livet bara en fosterperiod inför evigheten.\\\" Replace the current compound \\\"bärare-tid\\\" which is non-idiomatic.\",\"translation_quote\":\"På ett sätt är livet bara en bärare-tid för evigheten.\"},{\"location\":\"Paragraph listing thorny medicinal plants (under heading “Dominans av törnen och tistlar”)\",\"severity\":\"minor\",\"source_quote\":\"Blessed Thistle, Milk Thistle, Teasel, Raspberry Leaf, and Blackberry roots\",\"suggested_fix\":\"Translate or give conventional Swedish common names (if available) to match the target-language style. Example: \\\"Blessed Thistle (välsignad tistel)\\\" or use commonly used Swedish names such as \\\"tistel (Blessed Thistle), mjölktistel (milk thistle), tistelväxt (teasel), hallonblad och björnbärsrot.\\\" Leaving all these plant names in English is acceptable only if intentionally retained, but preferably render them into natural Swedish.\",\"translation_quote\":\"Blessed Thistle, Milk Thistle, Teasel, hallonblad och björnbärs- rötter är bara några exempel...\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 3172,
+    "content_evidence_truncated": false,
+    "content_sha256": "458af35dd1fea88c2e1d5adf0cfcfd16f9e293000474567dfb60e6ce785c6fa6",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1468,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6971,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8439
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

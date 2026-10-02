@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2 (sentence mentioning article title)",
+      "severity": "major",
+      "source_quote": "“God’s Faithfulness Manifest Even in the Curse”",
+      "suggested_fix": "Translate the quoted English article title into Swedish (preserve quotation marks and HTML structure). For example: “Guds trofasthet manifesterad även i förbannelsen”. Replace the English title inside the quotes with the Swedish translation.",
+      "translation_quote": "”God’s Faithfulness Manifest Even in the Curse”"
+    },
+    {
+      "location": "Paragraph 3 (reference to column)",
+      "severity": "major",
+      "source_quote": "“A Word From the Doctor”",
+      "suggested_fix": "Translate the quoted column/section title into Swedish (preserve quotation marks and HTML). For example: “Ett ord från doktorn”. Replace the English phrase in quotes with the Swedish translation.",
+      "translation_quote": "”A Word From the Doctor”"
+    },
+    {
+      "location": "Paragraph 7 (broiler houses)",
+      "severity": "major",
+      "source_quote": "broiler houses",
+      "suggested_fix": "The English term refers to buildings for meat (broiler) chickens. Translate to an appropriate Swedish term such as \"broilerstall\" or \"stall för slaktkycklingar\" depending on publication style. Replace \"värphus\" with the corrected term.",
+      "translation_quote": "värphus"
+    },
+    {
+      "location": "Paragraph 1 (phrase about God)",
+      "severity": "minor",
+      "source_quote": "Almighty Creator God",
+      "suggested_fix": "Improve idiomatic Swedish: use e.g. \"allsmäktige, skaparen Gud\" or \"den allsmäktige Skaparen\" depending on house style. For instance: \"något bara den allsmäktige Skaparen kan ordna\".",
+      "translation_quote": "allsmäktig skapare Gud"
+    },
+    {
+      "location": "Paragraph 3 (\"bone tired\")",
+      "severity": "minor",
+      "source_quote": "Bone tired.",
+      "suggested_fix": "Use a natural Swedish equivalent without a hyphen, e.g. \"helt slut\", \"utmattade till benen\" or simply \"benmatt\" depending on tone. Replace \"Ben-trötta.\" with an idiomatic rendering.",
+      "translation_quote": "Ben-trötta."
+    },
+    {
+      "location": "Paragraph 1 (opening greeting grammar)",
+      "severity": "minor",
+      "source_quote": "Greetings in the worthy name of the Lord Jesus Christ.",
+      "suggested_fix": "Make the Swedish more idiomatic and grammatical, e.g. \"Hälsningar i den värdiga namnEN av Herren Jesus Kristus\" or \"Hälsningar i den värdiga namnEN, Herren Jesus Kristus.\" Adjust capitalization of 'Herre' to 'Herren' to match common usage.",
+      "translation_quote": "Hälsningar i den värdiga namnet Herre Jesus Kristus."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

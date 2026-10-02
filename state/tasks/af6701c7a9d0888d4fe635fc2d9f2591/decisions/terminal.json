@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>...These bicycles glided smoothly on the chip-and seal road without a rattle.</p>",
+      "severity": "minor",
+      "source_quote": "These bicycles glided smoothly on the chip-and seal road without a rattle.",
+      "suggested_fix": "Translate the road surface idiomatically to standard Portuguese. Replace the sentence fragment in the same paragraph, preserving tags. Example: \"Essas bicicletas deslizaram suavemente pela estrada 'chip-and-seal', sem um ruído.\" or better: \"Essas bicicletas deslizaram suavemente pela estrada com revestimento 'chip-and-seal', sem fazer barulho.\" Choose one that fits the publication's preferred phrasing.",
+      "translation_quote": "Essas bicicletas deslizaram suavemente pela estrada com preparo de pedras e asfalto sem um barulho."
+    },
+    {
+      "location": "<p>...One, two, three, GO and they were off!</p>",
+      "severity": "minor",
+      "source_quote": "One, two, three, GO and they were off!",
+      "suggested_fix": "Use a more natural Portuguese interjection for a race start. Preserve tags and structure. For example: \"Um, dois, três, já!\" or \"Um, dois, três, vai!\" Replace \"VALEU\" with one of these options.",
+      "translation_quote": "Um, dois, três, VALEU e eles partiram!"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

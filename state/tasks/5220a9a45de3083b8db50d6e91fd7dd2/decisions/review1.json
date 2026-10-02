@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph with driving analogy (original ~ halfway through article)",
+      "severity": "minor",
+      "source_quote": "It is as though you are in a vehicle traveling 90 mph, and you push the accelerator a little harder, and nothing happens.",
+      "suggested_fix": "Restore the original numeric expression or include both units to preserve the printed meaning. For example: “Es como cuando vas en un vehículo a 90 mph (aprox. 145 km/h) y pisas un poco más el acelerador y no sucede nada.”",
+      "translation_quote": "Es como cuando vas en un vehículo a 145 km/h y pisas un poco más el acelerador y no sucede nada."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

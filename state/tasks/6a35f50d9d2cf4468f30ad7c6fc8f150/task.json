@@ -2,7 +2,6 @@
   "article_id": "20914547-a133-4159-bd5b-dff81f36453b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 9943
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1400,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9664,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11064
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph quoting Romans 15:11 (source.html near Romans 15:9 blockquote)",
+      "severity": "major",
+      "source_quote": "\"And again, Praise the Lord, all ye Gentiles; and laud him, all ye people\" (Romans 15:11).",
+      "suggested_fix": "Translate the verse faithfully into Bengali, preserving meaning of \"Praise the Lord\" (i.e., call to glorify/praise God) and the address to the Gentiles/peoples. For example: “এবং পুনরায় বলে, জাতিহীনরা, প্রভুকে গৌরব কর; এবং সকল জন, তাঁকে স্তব করুন” (retain the verse reference (Romans 15:11) unchanged).",
+      "translation_quote": "“11 এবং আবার, সালাম কর মানুষ সভ্যগুলি, এবং সকল জন তুমি তাঁকে প্রশংসা কর”"
+    },
+    {
+      "location": "Article metadata — title / subtitle / section",
+      "severity": "major",
+      "source_quote": "title: \"Pathway to a Fulfilled Heart\"; subtitle: \"for the Unmarried\"; section: \"INSPIRATIONS FOR YOUTH\"",
+      "suggested_fix": "Translate the article metadata into standard contemporary Bengali. Preserve meaning and capitalization conventions appropriate for Bengali. For example: title → “পরিপূর্ণ হৃদয়ের পথ”; subtitle → “অবিবাহীদের জন্য”; section → “তরুণদের জন্য প্রেরণা” (or another equivalent consistent with house style). Do not change any HTML structure—only replace the English text with the Bengali translation in the corresponding translation fields.",
+      "translation_quote": "title: \"Pathway to a Fulfilled Heart\"; subtitle: \"for the Unmarried\"; section: \"INSPIRATIONS FOR YOUTH\""
+    },
+    {
+      "location": "Paragraph under heading \"Fulfillment starts in your relationship with God\" (source.html discussing repentance sentence)",
+      "severity": "minor",
+      "source_quote": "\"We can receive his gift of salvation through faith and repentance. Faith is simply hearing the Word of God and receiving it into our hearts.\"",
+      "suggested_fix": "Translate the term 'repentance' into Bengali (অনুত্পত্তি / পাষণ্ডতা is not appropriate), and avoid leaving the English word in parentheses. Use a clear Bengali term such as \"অনুতপ্তি\" or \"পশ্চাৎপতি\" consistent with the rest of the translation. For example: “আমরা বিশ্বাস ও পশ্চাৎপতির মাধ্যমে তাঁর রক্ষার উপহার গ্রহণ করতে পারি।”",
+      "translation_quote": "\"... আমরা বিশ্বাস ও অনুত্পত্তির (repentance) মাধ্যমে তাঁর রক্ষার উপহার গ্রহণ করতে পারি।\""
+    }
+  ],
   "id": "6a35f50d9d2cf4468f30ad7c6fc8f150",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ben",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a5fa4336ac24fe4ded7bc5c6695694845b2e95ac589cd5689bedc4b3e79ef2b1.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "2780d41d80f578475e27d5e54969bef54c79aef92fae3008a281d5b3d0e475c3",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

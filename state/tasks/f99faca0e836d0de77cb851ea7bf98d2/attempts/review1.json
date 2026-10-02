@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html — paragraph: “In the first 24 hours after birth…” (blockquote following)\",\"severity\":\"minor\",\"source_quote\":\"“She is disgruntled about being born,” I joked.\",\"suggested_fix\":\"Replace the masculine verb form with the feminine to match the narrator’s voice. Keep punctuation and tags unchanged. Suggested Russian: «Она недовольна тем, что родилась», — пошутила я.\",\"translation_quote\":\"«Она недовольна тем, что родилась», — пошутил я.\"},{\"location\":\"source.html — paragraph: “We owned a bulk food store, and many local non-Mennonite folks knew us.”\",\"severity\":\"minor\",\"source_quote\":\"We owned a bulk food store, and many local non-Mennonite folks knew us.\",\"suggested_fix\":\"Correct the adjective for “non‑Mennonite” into standard Russian spelling/wording. Suggested Russian: «мы знали многих местных неменнонитов» or «многие местные неменнониты знали нас». Preserve the sentence structure and HTML tags.\",\"translation_quote\":\"Мы владели оптовым магазином продуктов, и многие местные не‑меннониты знали нас.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 1314,
+    "content_evidence_truncated": false,
+    "content_sha256": "6f7533c9ae15013e0001054e9b2fafb81c6226e44de826122dbdd6a18c2e220a",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1043,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6507,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7550
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

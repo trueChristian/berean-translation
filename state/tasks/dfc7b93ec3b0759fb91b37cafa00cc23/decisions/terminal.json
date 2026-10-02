@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>Nelle prime 24 ore dopo la nascita, Judy grugniva e stridacchiava quasi continuamente. “È scontente per essere nata”, scherzavo.</p>",
+      "severity": "minor",
+      "source_quote": "“She is disgruntled about being born,” I joked.",
+      "suggested_fix": "Correggere l’accordo grammaticale e la scelta lessicale: sostituire con “«È scontenta di essere nata», scherzavo.” Mantenere lo stesso tag <p> e la struttura HTML.",
+      "translation_quote": "“È scontente per essere nata”, scherzavo."
+    },
+    {
+      "location": "<p>La sera arrivò e ci riunimmo nella loro chiesa con il loro pastore e alcuni membri che ci conoscevano. Prelevarono a turno la parola in preghiera e proclamarono la guarigione di Judy perché “sapevano” che era volontà di Dio guarirla.</p>",
+      "severity": "minor",
+      "source_quote": "They took turns praying and claimed God’s healing for Judy because they “knew” it was His will to heal her.",
+      "suggested_fix": "Migliorare la resa idiomatica mantenendo il significato: sostituire “Prelevarono a turno la parola in preghiera e proclamarono la guarigione di Judy” con “A turno pregarono e proclamarono la guarigione di Judy”, lasciando inalterati i tag HTML.",
+      "translation_quote": "Prelevarono a turno la parola in preghiera e proclamarono la guarigione di Judy perché “sapevano” che era volontà di Dio guarirla."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

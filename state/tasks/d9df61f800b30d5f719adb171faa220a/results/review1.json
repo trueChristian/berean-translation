@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "91a1e21a-2788-4bd0-821a-4087950757a1",
+    "response_id": "chatcmpl-EUWwSIG18C37AVaehJoTIeJWwFQA0",
+    "usage": {
+      "completion_tokens": 1053,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8402,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9455
+    }
+  },
+  "received_at": "2026-10-02T12:50:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "section.references / <ol><li> (end of article)",
+        "severity": "major",
+        "source_quote": "Strongs Concordance",
+        "suggested_fix": "Translate the reference into standard Italian and preserve the HTML structure. For example: <section class=\"references\" aria-label=\"Reference\">\\n  <ol>\\n    <li>Concordanza di Strong</li>\\n  </ol>\\n</section> Ensure only the quoted reference text is changed and keep tags, order and attributes exactly as in the translation.",
+        "translation_quote": "Strongs Concordance"
+      },
+      {
+        "location": "title element and article <h1> equivalent (metadata title)",
+        "severity": "minor",
+        "source_quote": "Nothing Shall Offend Them",
+        "suggested_fix": "Use a more natural, grammatical Italian rendering of the English title while preserving meaning. For example: \"Nulla li scandalizzerà\" or \"Nulla potrà scandalizzarli\". Replace the translation title value with the chosen form.",
+        "translation_quote": "Nulla Li Scandalerà"
+      },
+      {
+        "location": "paragraph beginning \"Grande pace hanno quelli che amano la tua legge...\" (Psalm 119:165)",
+        "severity": "minor",
+        "source_quote": "the word sensitive is not in the Bible. The closest word we can find there is sensual, which is very similar in its roots and means natural.",
+        "suggested_fix": "Clarify the register/meaning in Italian to avoid unintended 'sexual' connotation of 'sensuale'. For example: \"la parola più vicina che troviamo è 'sensuale' (dal latino sensus), intesa più come 'sensibile/naturale' nel senso etimologico, non con il significato moderno di 'di natura sessuale'.\" Keep the explanatory nuance brief and in Italian.",
+        "translation_quote": "La parola più vicina che vi possiamo trovare è sensuale, che ha radici simili e significa naturale."
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

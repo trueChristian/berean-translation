@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph quoting Romans 15:11 (source.html near Romans 15:9 blockquote)",
+      "severity": "major",
+      "source_quote": "\"And again, Praise the Lord, all ye Gentiles; and laud him, all ye people\" (Romans 15:11).",
+      "suggested_fix": "Translate the verse faithfully into Bengali, preserving meaning of \"Praise the Lord\" (i.e., call to glorify/praise God) and the address to the Gentiles/peoples. For example: “এবং পুনরায় বলে, জাতিহীনরা, প্রভুকে গৌরব কর; এবং সকল জন, তাঁকে স্তব করুন” (retain the verse reference (Romans 15:11) unchanged).",
+      "translation_quote": "“11 এবং আবার, সালাম কর মানুষ সভ্যগুলি, এবং সকল জন তুমি তাঁকে প্রশংসা কর”"
+    },
+    {
+      "location": "Article metadata — title / subtitle / section",
+      "severity": "major",
+      "source_quote": "title: \"Pathway to a Fulfilled Heart\"; subtitle: \"for the Unmarried\"; section: \"INSPIRATIONS FOR YOUTH\"",
+      "suggested_fix": "Translate the article metadata into standard contemporary Bengali. Preserve meaning and capitalization conventions appropriate for Bengali. For example: title → “পরিপূর্ণ হৃদয়ের পথ”; subtitle → “অবিবাহীদের জন্য”; section → “তরুণদের জন্য প্রেরণা” (or another equivalent consistent with house style). Do not change any HTML structure—only replace the English text with the Bengali translation in the corresponding translation fields.",
+      "translation_quote": "title: \"Pathway to a Fulfilled Heart\"; subtitle: \"for the Unmarried\"; section: \"INSPIRATIONS FOR YOUTH\""
+    },
+    {
+      "location": "Paragraph under heading \"Fulfillment starts in your relationship with God\" (source.html discussing repentance sentence)",
+      "severity": "minor",
+      "source_quote": "\"We can receive his gift of salvation through faith and repentance. Faith is simply hearing the Word of God and receiving it into our hearts.\"",
+      "suggested_fix": "Translate the term 'repentance' into Bengali (অনুত্পত্তি / পাষণ্ডতা is not appropriate), and avoid leaving the English word in parentheses. Use a clear Bengali term such as \"অনুতপ্তি\" or \"পশ্চাৎপতি\" consistent with the rest of the translation. For example: “আমরা বিশ্বাস ও পশ্চাৎপতির মাধ্যমে তাঁর রক্ষার উপহার গ্রহণ করতে পারি।”",
+      "translation_quote": "\"... আমরা বিশ্বাস ও অনুত্পত্তির (repentance) মাধ্যমে তাঁর রক্ষার উপহার গ্রহণ করতে পারি।\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

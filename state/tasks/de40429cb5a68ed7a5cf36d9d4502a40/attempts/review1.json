@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 4 (Psalm 119:165)\",\"severity\":\"minor\",\"source_quote\":\"“Great peace have they which love thy law: and nothing shall offend them” (Psalm 119:165).\",\"suggested_fix\":\"Render the second clause in natural, grammatical Bahasa Indonesia. Keep the meaning 'nothing shall cause them to be offended/stumble' and preserve verse reference. Example: “Damai besar bagi mereka yang mengasihi Taurat-Mu: mereka tidak akan tersandung.”\",\"translation_quote\":\"“Damai besar bagi mereka yang mengasihi Taurat-Mu: dan tidak akan ada yang tersandung mereka” (Mazmur 119:165).\"},{\"location\":\"Paragraph 3 (Greek gloss)\",\"severity\":\"minor\",\"source_quote\":\"The Greek word is skandalízō meaning “to scandalize”.\",\"suggested_fix\":\"Translate the gloss fully into Bahasa Indonesia and avoid leaving the English gloss in parentheses. Keep transliteration and meaning. Example: \\\"Kata Yunani adalah skandalízō yang berarti 'menjadi batu sandungan' atau 'menyinggung'.\\\"\",\"translation_quote\":\"Kata Yunani adalah skandalízō yang berarti “mencemarkan” (to scandalize).\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 1122,
+    "content_evidence_truncated": false,
+    "content_sha256": "56f01a467a7536baa471c3f2f62b24a7cd076d7bb629e1a42e9d3469f3609c05",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 854,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8409,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9263
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

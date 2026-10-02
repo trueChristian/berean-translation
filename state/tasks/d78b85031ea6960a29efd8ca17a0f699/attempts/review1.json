@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph mentioning specific plants (section: \\\"가시와 엉겅퀴의 우세\\\" / paragraph beginning \\\"아티초크는...\\\")\",\"severity\":\"minor\",\"source_quote\":\"Blessed Thistle, Milk Thistle, Teasel, Raspberry Leaf, and Blackberry roots\",\"suggested_fix\":\"Translate or consistently localize all plant names into Korean (or provide Korean name followed by the original in parentheses). For example: \\\"Blessed Thistle(블레스드 시슬/축복받은 엉겅퀴), Milk Thistle(밀크 시슬/엉겅퀴), Teasel(티슬/도깨비풀), 라즈베리 잎, 블랙베리 뿌리\\\" or provide fully Korean equivalents where conventional. Preserve order and meaning.\",\"translation_quote\":\"축복받은 엉겅퀴(Blessed Thistle), 밀크 시슬(Milk Thistle), 티슬(Teasel), 라즈베리 잎, 블랙베리 뿌리\"},{\"location\":\"Paragraph under \\\"질병\\\" (sentence: \\\"God was also faithful in designing people, plants, and animals with a regenerative microbiome (billions of helpful bacteria) and a systemic immune system, which helps us fight off diseases.\\\")\",\"severity\":\"minor\",\"source_quote\":\"regenerative microbiome (billions of helpful bacteria) and a systemic immune system\",\"suggested_fix\":\"Improve Korean idiom and clarity for 'regenerative microbiome' and 'systemic immune system.' Suggested wording: \\\"재생력을 가진 미생물군집(수십억 마리의 유익한 박테리아)과 전신성 면역체계\\\" or \\\"회복력 있는 마이크로바이옴과 전신 면역체계\\\". Preserve original meaning.\",\"translation_quote\":\"재생 가능한 마이크로바이옴(수십억의 유익한 박테리아)과 체계적인 면역체계\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 1686,
+    "content_evidence_truncated": false,
+    "content_sha256": "b42f0c6fbd69220204db3c8a3c4f0ad1fff6658172de862bc5c183e3385db786",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1209,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7135,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8344
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1ec4ad3a-ea02-4479-a8ad-34eb1c95b6c2",
+    "response_id": "chatcmpl-EUWx4LqW8wZh6MCAln5KvwIqOXene",
+    "usage": {
+      "completion_tokens": 1494,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6191,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7685
+    }
+  },
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.title -> translation.title",
+        "severity": "critical",
+        "source_quote": "When All Thy Mercies, O My God",
+        "suggested_fix": "Translate the article title into contemporary standard Hindi (Devanagari) and preserve HTML structure exactly. For example: \"तेरी सारी दयाएँ, हे मेरे परमेश्वर\". Replace the translation.title value with the Hindi text (no additional tags).",
+        "translation_quote": "When All Thy Mercies, O My God"
+      },
+      {
+        "location": "source.html (final line) -> translation.html (.source-note paragraph)",
+        "severity": "critical",
+        "source_quote": "*sourced from Wikipedia and hymnary.org",
+        "suggested_fix": "Translate the source-note into Hindi, preserving the asterisk and paragraph tag. Example: \"*स्रोत: विकिपीडिया और hymnary.org\" (or translate hymnary.org description as appropriate). Replace the content inside the <p class=\"source-note\">...</p> element only, keeping the tag and attributes unchanged.",
+        "translation_quote": "*sourced from Wikipedia and hymnary.org"
+      },
+      {
+        "location": "source.html (first paragraphs referencing the hymn) -> translation.html (paragraph that introduces the hymn title)",
+        "severity": "major",
+        "source_quote": "The hymn, \"When All Thy Mercies O My God,\" written in 1712, has been published in 994 hymnals and is to this day in the list of the best 100 hymns ever written.",
+        "suggested_fix": "Do not leave the hymn's English title un-translated as the sole visible title or embedded quoted prose. Either translate the hymn title into Hindi and (optionally) retain the original English in parentheses only if necessary, but prefer a full Hindi rendering for quoted substantive prose. For example: \"भजन, 'तेरी सारी दयाएँ, हे मेरे परमेश्वर', जो 1712 में लिखा गया था, 994 भजन-संग्रहों में प्रकाशित हुआ है...\" Update only the sentence text inside the relevant <p> element, preserving existing HTML tags and order.",
+        "translation_quote": "The hymn \"When All Thy Mercies O My God\" (जब तेरी सारी दयाएँ, हे मेरे परमेश्वर)†, जो 1712 में लिखा गया था, 994 भजन-संग्रहों में प्रकाशित हुआ है और आज भी सर्वोत्तम 100 भजनों की सूची में है।"
+      },
+      {
+        "location": "source.html (Deuteronomy reference sentence) -> translation.html (same sentence)",
+        "severity": "minor",
+        "source_quote": "The scripture says in Deuteronomy 7:9 that the mercy of God extends way past our short lives here on earth, even to a thousand generations.",
+        "suggested_fix": "Remove the stray English word 'that' and render the sentence fluently in Hindi. For example: \"वचन (व्यवस्थाविवरण 7:9) कहता है कि परमेश्वर की दया हमारी संक्षिप्त पृथ्वी-जीवन से बहुत आगे तक, यहाँ तक कि हज़ार पीढ़ियाँ तक फैली रहती है।\" Edit only the text inside the <p> element; preserve tags.",
+        "translation_quote": "वचन अनुसरणीय कहता है—व्यवस्थाविवरण 7:9 में—that परमेश्वर की दया हमारे यहाँ पृथ्वी पर संक्षिप्त जीवन से बहुत आगे तक फैली रहती है, यहाँ तक कि हज़ार पीढ़ियों तक।"
+      },
+      {
+        "location": "translation.html (lyrics, last stanza)",
+        "severity": "minor",
+        "source_quote": "Through all eternity to Thee\n    A joyful song I’ll raise;",
+        "suggested_fix": "Correct the mixed-language token 'सर्व-anant' to a proper Hindi rendering. For example: \"सार्वनंत काल में\" is awkward; better: \"सारी अनन्तता में\" or \"सर्व-काल में\". Replace only the problematic words inside the <p><em>...</em></p> stanza, preserving markup.",
+        "translation_quote": "सर्व-anant काल में तेरे लिए\n    मैं एक आनंदित गीत उठाऊँगा;"
+      }
+    ],
+    "passed": false,
+    "score": 52
+  }
+}

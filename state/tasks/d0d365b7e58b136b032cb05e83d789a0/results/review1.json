@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ee74f6b2-2563-41a5-a972-7dbac0d0d309",
+    "response_id": "chatcmpl-EUWwIs3SDWyaejYnasATQupNG302V",
+    "usage": {
+      "completion_tokens": 760,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3136,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3896
+    }
+  },
+  "received_at": "2026-10-02T12:50:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html ¶2 (\"born again\")",
+        "severity": "minor",
+        "source_quote": "I have spoken to people who do not confess to be born again, but still hope to go to heaven.",
+        "suggested_fix": "Use gender-neutral or masculine-generic French for the idiom \"born again\" to match the English generic sense. Replace \"qui ne se disent pas nées de nouveau\" with e.g. \"qui ne se disent pas nés de nouveau\" or \"qui ne se disent pas \"nés de nouveau\".\"",
+        "translation_quote": "J’ai parlé à des personnes qui ne se disent pas nées de nouveau, mais qui espèrent quand même aller au ciel."
+      },
+      {
+        "location": "source.section / translation.section",
+        "severity": "minor",
+        "source_quote": "FEATURED ARTICLE",
+        "suggested_fix": "The translated section header \"ARTICLE MIS EN AVANT\" is understandable but slightly atypical in French. Consider using the more common phrasing \"ARTICLE EN VEDETTE\" or \"ARTICLE MISE EN AVANT\" to match standard editorial French usage.",
+        "translation_quote": "ARTICLE MIS EN AVANT"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

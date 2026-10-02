@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1b77d05b-2c38-4d29-a344-e9d1c64fdedc",
+    "response_id": "chatcmpl-EUWwm6g1NohBe742faIk6kXOlOzOQ",
+    "usage": {
+      "completion_tokens": 653,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3332,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3985
+    }
+  },
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.section",
+        "severity": "major",
+        "source_quote": "FEATURED ARTICLE",
+        "suggested_fix": "Translate the section metadata to a correct Urdu equivalent (preserve HTML structure). For example: \"نمایاں مضمون\" or \"خصوصی مضمون\". Replace the translation field value while keeping it as plain text (no HTML changes required).",
+        "translation_quote": "مائیکل مضمون"
+      },
+      {
+        "location": "source.html > p (paragraph containing: “We do not work for our salvation, for Christ Himself said, “It is finished.””)",
+        "severity": "major",
+        "source_quote": "We do not work for our salvation, for Christ Himself said, “It is finished.”",
+        "suggested_fix": "Translate the quoted substantive English phrase into Urdu, preserving the surrounding punctuation and HTML. For example: “ہم اپنی نجات کے لیے کام نہیں کرتے، کیونکہ خود مسیح نے کہا، ‘یہ مکمل ہو گیا’.” Replace the English phrase “It is finished” with an Urdu rendering inside the same quotation marks and keep the enclosing <p> element unchanged.",
+        "translation_quote": "ہم اپنی نجات کے لیے کام نہیں کرتے، کیونکہ خود مسیح نے کہا، “مکمل ہو گیا” (It is finished)."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

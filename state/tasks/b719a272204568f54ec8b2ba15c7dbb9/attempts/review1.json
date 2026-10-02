@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph describing vehicle speed (near \\\"It is as though you are in a vehicle traveling 90 mph...\\\")\",\"severity\":\"minor\",\"source_quote\":\"It is as though you are in a vehicle traveling 90 mph, and you push the accelerator a little harder, and nothing happens.\",\"suggested_fix\":\"Remove the parenthetical metric conversion or render it as a parenthetical that matches the source's neutral style. Suggested Chinese fix: 将“时速90英里（约145公里/小时）”改回“时速90英里”，以保持与原文等效的叙述（或将原文中未出现的度量单位转换保留为括注，但这是翻译者增补）。\",\"translation_quote\":\"就好像你正驾驶一辆时速90英里（约145公里/小时）的车，你踩下油门却没有反应。\"},{\"location\":\"Parenthetical \\\"shalom\\\" (paragraph on technology/peace)\",\"severity\":\"minor\",\"source_quote\":\"...achieving the peace (shalom) that we both desire and need.\",\"suggested_fix\":\"This retention of the Hebrew term 'shalom' is acceptable, but if consistency with target-language idiom is preferred, translate or gloss it fully into Chinese while keeping the original in parentheses: e.g. “平安（希伯来语：shalom）”。 No change required for fidelity.\",\"translation_quote\":\"...达到我们心灵达到我们既渴望又需要的平安（shalom）的事物。\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 1388,
+    "content_evidence_truncated": false,
+    "content_sha256": "ca1b0d176656209881840b460ebb20b069dad677d95601e4ffe67325d7e1d36d",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 918,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9587,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10505
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

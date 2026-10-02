@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph containing John 6:27 (third paragraph after Romans 8:24 quote)\",\"severity\":\"major\",\"source_quote\":\"\\\"Labour not for the meat which perisheth, but for that meat which endureth unto everlasting life, which the Son of man shall give unto you: for him hath God the Father sealed\\\" (John 6:27).\",\"suggested_fix\":\"Translate the phrase \\\"that meat which endureth unto everlasting life\\\" and the final clause so they correctly convey the original sense. Suggested Indonesian rendering: “Janganlah bekerja untuk makanan yang binasa, tetapi untuk makanan yang bertahan sampai hidup yang kekal, yang akan diberikan oleh Anak Manusia kepadamu; sebab Anak Manusia telah dimeteraikan oleh Allah Bapa.” This preserves the meaning of “endureth unto everlasting life” (bertahan sampai hidup yang kekal) and clarifies that the sealing is of the Son (Anak Manusia) rather than producing a wrong idea of \\\"turun-temurun.\\\"\",\"translation_quote\":\"“Janganlah bekerja untuk makanan yang binasa, tetapi untuk makanan yang turun-temurun sampai hidup yang kekal, yang akan diberikan oleh Anak Manusia kepadamu; karena Ia telah mendapat meterai dari Allah Bapa” (Yohanes 6:27).\"}],\"passed\":false,\"score\":80}",
+    "content_bytes": 1227,
+    "content_evidence_truncated": false,
+    "content_sha256": "d60a38a9323e31433c4ccb2400e331f13223f5950c0a2b6395d1427ead654664",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 933,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3134,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4067
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

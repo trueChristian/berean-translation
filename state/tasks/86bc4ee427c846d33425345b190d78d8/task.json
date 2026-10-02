@@ -2,7 +2,6 @@
   "article_id": "c22883c1-1d69-4c5e-aa81-d4015bf4e473",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,45 @@
         },
         "total_tokens": 3663
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1088,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3068,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4156
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>...practical and Biblical solutions to avoid or recover from burnout. He writes...</p>",
+      "severity": "minor",
+      "source_quote": "giving us practical and Biblical solutions to avoid or recover from burnout. He writes, “Jesus knows our limitations.",
+      "suggested_fix": "Replace «حلولًا عملية وكتابية» with «حلولًا عملية وكتابية» or better «حلولًا عملية ومستندة إلى الكتاب المقدس» to clearly render \"Biblical\" as relating to Scripture.",
+      "translation_quote": "...معطيًا حلولًا عملية وكتابية لتجنب الاحتراق أو للتعافي منه. يكتب: «يسوع يعرف حدودنا.»"
+    },
+    {
+      "location": "<p>...that will magnify His worthy power and excellence.</p>",
+      "severity": "minor",
+      "source_quote": "which only an Almighty Creator God can arrange in such a way that will magnify His worthy power and excellence.",
+      "suggested_fix": "Adjust wording for clearer, more idiomatic Arabic. Replace «يعظّم قدرته وصلاحيته الجديرتين» with «يعظّم قدرته ومجدَه المستحقّ» or «يعظّم جلاله وقدرته المستحقَّين» to preserve the sense of \"worthy\" applying to God's power and excellence.",
+      "translation_quote": "...خطّة لا يقدر أن يرتبها إلا خالق قدير بحيث يعظّم قدرته وصلاحيته الجديرتين."
+    }
+  ],
+  "finished_at": "2026-10-02T12:50:23+00:00",
   "id": "86bc4ee427c846d33425345b190d78d8",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ara",
@@ -100,11 +135,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/16f80cc2fe1f48fad7c825ed0d1e3059568da0b548b0106a43da4f8b4d785466.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "7328fe7985535229790c376868603624111ed137e1665aff6a36b03d5b4d90fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

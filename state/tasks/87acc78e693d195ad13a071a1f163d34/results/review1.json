@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "64f56b1a-8fd3-45e0-a1d0-77d843bec3e9",
+    "response_id": "chatcmpl-EUWwGbBwviglwxl2DUPACCfnLCZc9",
+    "usage": {
+      "completion_tokens": 1028,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5618,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6646
+    }
+  },
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing Acts 4:20 (source.html third full paragraph after Matthew 9)",
+        "severity": "major",
+        "source_quote": "Later they were silenced—by death.",
+        "suggested_fix": "Restore the author’s meaning of “silenced” (i.e., rendered unable to speak because they were killed). In Afrikaans use a verb that unambiguously conveys “silenced” or “made unable to speak” (for example, “toe is hulle stilgemaak — deur die dood” or “later is hulle stilgemaak — deur die dood”). Replace the current phrasing with that wording, preserving surrounding HTML and punctuation.",
+        "translation_quote": "Later is hulle geswiep—deur die dood."
+      },
+      {
+        "location": "Paragraph quoting Romans 8:36 (source.html paragraph that begins “I ordered a copy of The Martyr’s Mirror”)",
+        "severity": "critical",
+        "source_quote": "As it is written, For thy sake we are killed all the day long; we are accounted as sheep for the slaughter.",
+        "suggested_fix": "Translate the Scripture line so it faithfully conveys the English text. The current Afrikaans phrasing “Van julle weë word ons elke dag gedood” is inaccurate. Use a standard, faithful Afrikaans rendering that preserves the sense and placement of the verse (for example: “Soos geskrywe staan, ter wille van julle word ons elke dag gedood; ons word as skape tot die slagting getel.”). Ensure the quotation marks and verse placement remain as in the source, and keep the citation notation (Romans 8:36) unchanged elsewhere in the article.",
+        "translation_quote": "“Soos geskrywe staan, Van julle weë word ons elke dag gedood; ons word as skape tot die slagter getelb.”"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

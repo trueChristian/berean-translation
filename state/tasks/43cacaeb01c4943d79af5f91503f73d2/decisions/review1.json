@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html — first paragraph",
+      "severity": "critical",
+      "source_quote": "Ministers of the Gospel today are expected to be soft and effeminate lest they offend their listeners.",
+      "suggested_fix": "Restore the doctrinal nuance by translating both adjectives. Replace the sentence in the translation with wording that preserves both senses: e.g. \"आज धर्म-प्रचारकों से अपेक्षा की जाती है कि वे नरम और स्त्रीसुलभ/नपुंसकतास्वरूप हों ताकि वे अपने श्रोताओं को आहत न कर दें।\" (choose one natural Hindi rendering for 'effeminate' such as \"स्त्रीसुलभ\" or \"नपुंसकतास्वरूप\") . Preserve the surrounding HTML tags and punctuation.",
+      "translation_quote": "आज धर्म-प्रचारक से अपेक्षा की जाती है कि वे नरम और कोमल हों ताकि वे अपने श्रोताओं को आहत न कर दें।"
+    },
+    {
+      "location": "multiple locations — inline Scripture references (parentheses)",
+      "severity": "major",
+      "source_quote": "(Matthew 24:10); (Mark 14:27); (Psalm 119:165); (Matthew 13:20-21); (James 3:2); (Ephesians 4:1-2); (Proverbs 16:18); (Isaiah 57:14-15); (Isaiah 40:31); (Ephesians 5:2-4); (Esther 6:6); (Ephesians 5:8-11); (2 Timothy 4:3-4); (John 16:1-4); (John 5:35); (Luke 7:20-23); (2 Samuel 3:15-16); (1 Peter 2:20); (Ephesians 5:15); (1 Corinthians 14:20); (2 Samuel 6:16); (2 Corinthians 5:13); (2 Samuel 6:23); (Proverbs 18:19); (1 Thessalonians 3:3)",
+      "suggested_fix": "Conform book names to conventional Hindi forms while keeping chapter and verse numbers exactly as in the source. For example replace \"(Matthew 24:10)\" with \"(मत्ती 24:10)\", \"(Mark 14:27)\" with \"(मरकुस 14:27)\", \"(Psalm 119:165)\" with \"(भजन संहिता 119:165)\", etc. Do this consistently for every parenthetical reference. Do not alter the numeric references or their placement; only localize the book names to standard Hindi usage. Preserve the surrounding HTML tags and inline punctuation.",
+      "translation_quote": "\"तब कई आहत होंगे . . . और एक-दूसरे से घृणा करेंगे\" (Matthew 24:10). … \"सब तुम मुझ से आज रात ठेस खाओगे\" (Mark 14:27). … \"जो तेरे विधान को प्रेम करते हैं उन पर महान शांति है: और कुछ ज्यों न ठेस खाये\" (Psalm 119:165). … (multiple other occurrences with English book names) "
+    },
+    {
+      "location": "source.html — Psalm 119:165 translation",
+      "severity": "minor",
+      "source_quote": "“Great peace have they which love thy law: and nothing shall offend them” (Psalm 119:165).",
+      "suggested_fix": "Improve idiomatic clarity while preserving the verse meaning and placing the translated Scripture text in Hindi. For example: \"जो तेरे विधान को प्रेम करते हैं, उन पर महान शान्ति है; और उन्हें कुछ भी ठेस न पहुँचाए।\" Keep the reference localized per the previous fix: \"(भजन संहिता 119:165)\". Preserve punctuation and HTML structure.",
+      "translation_quote": "\"जो तेरे विधान को प्रेम करते हैं उन पर महान शांति है: और कुछ ज्यों न ठेस खाये\" (Psalm 119:165)."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>...\\\"appeared weak and unlikely to live\\\"... (paragraph about Addison's birth)\",\"severity\":\"minor\",\"source_quote\":\"“appeared weak and unlikely to live\\\"\",\"suggested_fix\":\"Översättningen bör återge meningen utan att ändra innebörden. Föreslagen översättning: “sågs vara svag och sannolikt inte komma att överleva” (behåll citattecken och HTML-struktur).\",\"translation_quote\":\"”sågs vara svag och troligen inte avsedd att leva\\\"\"},{\"location\":\"<section class=\\\"lyrics\\\"> (första versen, sista rad)\",\"severity\":\"minor\",\"source_quote\":\"I’m lost In wonder, love and praise.\",\"suggested_fix\":\"Ändra till en mer idiomatisk och teologiskt trogen svensk formulering. Föreslagen översättning: “Jag försjunker i förundran, kärlek och lovsång.” (behåll <p><em>…</em></p>-taggarna och radbrytningar som i källan).\",\"translation_quote\":\"Jag förgås i förundran, kärlek och pris.\"},{\"location\":\"<p class=\\\"source-note\\\">*sourced from Wikipedia and hymnary.org</p>\",\"severity\":\"major\",\"source_quote\":\"*sourced from Wikipedia and hymnary.org\",\"suggested_fix\":\"Detta informationsstycke är del av artikeln och skall översättas till målspråket. Föreslagen översättning (behåll samma element och klass): <p class=\\\"source-note\\\">*källor: Wikipedia och hymnary.org</p>\",\"translation_quote\":\"*sourced from Wikipedia and hymnary.org\"}],\"passed\":false,\"score\":80}",
+    "content_bytes": 1420,
+    "content_evidence_truncated": false,
+    "content_sha256": "4a233711847ebaf391b08cfd144128c3c77674a8ad2638548e2dafb958c01b83",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1221,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5866,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7087
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

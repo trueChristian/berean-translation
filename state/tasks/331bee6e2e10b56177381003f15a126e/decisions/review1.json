@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph 2 (first Scripture citation)",
+      "severity": "major",
+      "source_quote": "Jesus mentioned that one of the signs of the end times is that “then shall many be offended . . . and shall hate one another” (Matthew 24:10).",
+      "suggested_fix": "החליפו את שם הספר באנגלית בשם הספר המקובל בעברית ושמרו את מספר הפרק והפסוק. למשל: “אז יִמָּאסוּ רַבִּים . . . וְיִשְׂנְאוּ אִישׁ אֶת־אִישׁ” (מתי 24:10).",
+      "translation_quote": "ישו הזכיר שאחד הסימנים של ימי הסוף הוא \"אז יִמָּאַסוּ רַבִּים . . . וְיִשְׂנְאוּ אִישׁ אֶת־אִישׁ\" (Matthew 24:10)."
+    },
+    {
+      "location": "source.html paragraph 3 (first parenthetical citations)",
+      "severity": "major",
+      "source_quote": "He informed the inner 12 that had stuck with Him, “All ye shall be offended because of me this night” (Mark 14:27). ... “Great peace have they which love thy law: and nothing shall offend them” (Psalm 119:165).",
+      "suggested_fix": "החליפו את שמות הספרים באנגלית לשמות המקובלים בעברית, שמרו את המספרים. דוגמה: \"כּוּלְּכֶם תִּמָּעֲצוּ בִּי הַלַּיְלָה הַזֶּה\" (מרקוס 14:27). \"רְוָחַת שָׁלוֹם לְאֹהֲבֵי תוֹרָתֶךָ; עֵינָם לֹא־יִמֹּעוּ\" (תהלים 119:165).",
+      "translation_quote": "\"כּוּלְּכֶם תִּמָּעֲצוּ בִּי הַלַּיְלָה הַזֶּה\" (Mark 14:27). ... \"רְוָחַת שָׁלוֹם לְאֹהֲבֵי תוֹרָתֶךָ; עֵינָם לֹא־יִמֹּעוּ\" (Psalm 119:165)."
+    },
+    {
+      "location": "multiple Scripture parenthetical citations throughout article (examples)",
+      "severity": "major",
+      "source_quote": "(Matthew 13:20-21), (James 3:2), (Ephesians 4:1-2), (Proverbs 16:18), (Isaiah 57:14-15), (Isaiah 40:31), (Ephesians 5:2-4), (Esther 6:6), (Ephesians 5:8-11), (2 Timothy 4:3-4), (John 16:1-4), (John 5:35), (Luke 7:20-23), (2 Samuel 3:15-16), (1 Peter 2:20), (Ephesians 5:15), (1 Corinthians 14:20), (2 Samuel 6:16), (2 Corinthians 5:13), (2 Samuel 6:23), (Proverbs 18:19), (1 Thessalonians 3:3)",
+      "suggested_fix": "בכל ההופעות הללו החליפו את שמות הספרים באנגלית בשמות המקובלים בעברית ושמרו על הסמנים המספריים המדויקים. לדוגמה: (מתי 13:20-21), (יעקב 3:2), (אפסיים 4:1-2) — או להשתמש בשם המקובל של האיגרת בעברית באתרכם. ודאו אחידות במיפוי (למשל Matthew->מתי, Mark->מרקוס, Luke->לוקס/לוקס? בהתאם למונחים המקובלים באתר).",
+      "translation_quote": "(Matthew 13:20-21), (James 3:2), (Ephesians 4:1-2), (Proverbs 16:18), (Isaiah 57:14-15), (Isaiah 40:31), (Ephesians 5:2-4), (Esther 6:6), (Ephesians 5:8-11), (2 Timothy 4:3-4), (John 16:1-4), (John 5:35), (Luke 7:20-23), (2 Samuel 3:15-16), (1 Peter 2:20), (Ephesians 5:15), (1 Corinthians 14:20), (2 Samuel 6:16), (2 Corinthians 5:13), (2 Samuel 6:23), (Proverbs 18:19), (1 Thessalonians 3:3)"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

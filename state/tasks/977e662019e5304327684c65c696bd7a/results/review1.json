@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a88f43dd-aa18-4de8-8097-95503b9658c3",
+    "response_id": "chatcmpl-EUWwF6K9k885uixpeySK3QTdzk7OK",
+    "usage": {
+      "completion_tokens": 814,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6697,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7511
+    }
+  },
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...Eve, although deceived by Satan in the form of the serpent, believed the lie and chose to disobey God...</p>",
+        "severity": "critical",
+        "source_quote": "Eve, although deceived by Satan in the form of the serpent, believed the lie and chose to disobey God, doing the only thing that God had lovingly asked her not to do.",
+        "suggested_fix": "Replace the mistranslation that reverses the verb meaning. Keep HTML structure and tags exactly as in the translation. For example: \"حواء، رغم أن الشيطان خدعها في صورة الأفعى، صدَّقت الكذبة واخترت عصيان الله، ففعلت الشيء الوحيد الذي طلبته منها محبةً ألا تفعله.\"",
+        "translation_quote": "حواء، رغم أن الشيطان خدعها في صورة الأفعى، صدَّت الكذبة واخترت عصيان الله، ففعلت الشيء الوحيد الذي طلبته منها محبةً ألا تفعله."
+      },
+      {
+        "location": "<p>It was the proverbial “perfect world” that Adam and Eve enjoyed daily with their Creator...</p>",
+        "severity": "critical",
+        "source_quote": "It was the proverbial “perfect world” that Adam and Eve enjoyed daily with their Creator.",
+        "suggested_fix": "Correct the mistranslation of \"proverbial\" which in Arabic must not become a false lexical item. Preserve tags. For example: \"لقد كان ذلك هو \"العالم المثالي\" المأثور الذي كان آدم وحواء يستمتعان به يوميًا مع خالقهما.\" (or: \"لقد كان ذلك هو 'العالم المثالي' المأثور...\" ). Replace the current phrase \"المثلَّية\" which in Arabic carries an unrelated meaning.",
+        "translation_quote": "لقد كانت تلك هي «العالم المثالي» المثلَّية الذي كان آدم وحواء يستمتعان به يوميًا مع خالقهما."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

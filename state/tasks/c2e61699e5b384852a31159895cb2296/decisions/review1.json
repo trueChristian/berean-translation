@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing: “...the writer of the article, “God’s Faithfulness Manifest Even in the Curse”, God has kindly provided...”",
+      "severity": "critical",
+      "source_quote": "the writer of the article, “God’s Faithfulness Manifest Even in the Curse”, God has kindly provided for humanity since the beginning of time.",
+      "suggested_fix": "Translate the English article title into Dutch (keep punctuation and placement). Example fix: vervang “God’s Faithfulness Manifest Even in the Curse” door “Gods trouw blijkt zelfs in de vloek”. Preserve the surrounding HTML and punctuation exactly as in the source.",
+      "translation_quote": "Toch heeft God, zoals de schrijver van het artikel “God’s Faithfulness Manifest Even in the Curse” zo treffend opmerkt, vriendelijk voor de mensheid gezorgd sinds het begin der tijden."
+    },
+    {
+      "location": "Paragraph containing the quoted material attributed to “A Word From the Doctor”",
+      "severity": "critical",
+      "source_quote": "He writes, “Jesus knows our limitations. He wants us to have balance, living in such a way that we not only have strength for today but also for tomorrow, next week, and next year – till He comes again.”",
+      "suggested_fix": "The quoted sentence is substantive quoted prose and must be translated into Dutch. Example fix: vervang the English quote with a faithful Dutch rendering while preserving the surrounding quotation marks and punctuation. Suggested translation: “Jezus kent onze grenzen. Hij wil dat we evenwicht hebben, zó leven dat we niet alleen kracht hebben voor vandaag, maar ook voor morgen, volgende week en volgend jaar — totdat Hij wederkomt.”",
+      "translation_quote": "In dit nummer leidt “A Word From the Doctor” ons terwijl we het doolhof van het leven betreden en geeft ons praktische en Bijbelse oplossingen om burn-out te voorkomen of ervan te herstellen. Hij schrijft: “Jesus knows our limitations. He wants us to have balance, living in such a way that we not only have strength for today but also for tomorrow, next week, and next year – till He comes again.”"
+    },
+    {
+      "location": "Poem block (hymn stanza)",
+      "severity": "critical",
+      "source_quote": "When all Thy mercies, O my God,\n    My rising soul surveys,\n    Transported with the view, I’m lost\n    In wonder, love and praise.",
+      "suggested_fix": "The hymn stanza is quoted substantive prose and must be translated into Dutch. Replace the English stanza with a faithful Dutch translation, preserving line breaks and the <div class=\"poem\"> structure and emphasis tags. Example translation: <div class=\"poem\"><p><em>Wanneer al Uw goedertierenheden, o God,<br/>\nmijn oprijzende ziel aanschouwt,<br/>\nvervuld van verwondering bij die aanschouwing, verdwijn ik<br/>\nvan verbazing, liefde en lofzang.</em></p></div> (Adjust wording to match idiomatic Dutch hymn style if desired.)",
+      "translation_quote": "<div class=\"poem\">\n    <p><em>When all Thy mercies, O my God,<br>\n    My rising soul surveys,<br>\n    Transported with the view, I’m lost<br>\n    In wonder, love and praise.</em></p>\n  </div>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

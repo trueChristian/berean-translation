@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0ad6ecc1-d4fa-4f77-9761-a040989c1262",
+    "response_id": "chatcmpl-EUWwGtVCfj6P3fjayKXJ3Nqs1DV8s",
+    "usage": {
+      "completion_tokens": 1524,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6727,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8251
+    }
+  },
+  "received_at": "2026-10-02T12:50:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Blockquote (Romans 8:19-23)",
+        "severity": "major",
+        "source_quote": "\"For the earnest expectation of the creature waiteth for the manifestation of the sons of God. For the creature was made subject to vanity, not willingly, but by reason of him who subjected the same in hope. Because the creature itself also shall be delivered from the bondage of corruption into the glorious liberty of the children of God. For we know that the whole creation groaneth and travaileth in pain together until now. And not only they, but ourselves also, which have the first fruits of the Spirit, even we ourselves groan within ourselves, waiting for the adoption, to wit, the redemption of our bodies\" (Romans 8:19-23).",
+        "suggested_fix": "Translate the quoted Scripture so it faithfully conveys the meaning of the English passage. Replace the current Indonesian rendering with a clear, idiomatic translation that preserves the scriptural sense of \"firstfruits of the Spirit.\" For example: \"Karena pengharapan makhluk menantikan penyataan anak-anak Allah. Sebab makhluk telah diperhamba­kan kepada kebinasaan, bukan karena kehendaknya, tetapi karena Dia yang memperhambakannya dengan pengharapan; supaya juga makhluk itu sendiri suatu hari nanti dibebaskan dari perbudakan kebinasaan itu dan masuk ke dalam kemerdekaan mulia anak-anak Allah. Sebab kita tahu bahwa seluruh makhluk sampai sekarang mengeluh dan merintih sebagai dalam penderitaan. Dan bukan hanya makhluk itu, tetapi kita sendiri juga yang menerima buah pertama Roh, kita ini pun dalam batin kita mengeluh sambil menantikan penebusan tubuh kita\" (Roma 8:19-23). Ensure the replacement keeps the verse numbers and placement unchanged.",
+        "translation_quote": "\"Karena pengharapan makhluk berharap dan menantikan penyataan anak-anak Allah. Sebab makhluk telah diperhamba­kan kepada kebinasaan, bukan karena kehendaknya, tetapi karena Dia yang telah memperhambakannya, dengan harapan, bahwa juga makhluk itu sendiri suatu hari nanti akan dibebaskan dari perbudakan kebinasaan itu dan masuk ke dalam kemerdekaan mulia anak-anak Allah. Sebab kita tahu, bahwa seluruh makhluk sampai sekarang mengeluh dan merintih sebagai dalam penderitaan. Dan bukan saja makhluk itu saja, tetapi kita sendiri juga yang mempunyai penyerahan Roh pertama, juga kita sendiri dalam batin kita mengeluh sambil menantikan hari yang penuh; yaitu penebusan tubuh kita\" (Roma 8:19-23)."
+      },
+      {
+        "location": "Multiple occurrences of the word 'Decomposisi'",
+        "severity": "minor",
+        "source_quote": "\"Decomposition and Decay\" / \"Decomposition and Decay are another “D” of the curse.\"",
+        "suggested_fix": "Correct the Indonesian spelling from 'Decomposisi' to the standard 'Dekomposisi' in the list and in the section heading/paragraph where it appears. Preserve the surrounding HTML and tags.",
+        "translation_quote": "\"Decomposisi dan Pembusukan\" / \"Decomposisi dan Pembusukan adalah \\\"D\\\" lain dari kutukan.\""
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

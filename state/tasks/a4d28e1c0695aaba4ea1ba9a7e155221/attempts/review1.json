@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<article> paragraph: \\\"Let us focus our attention upon prayerful Paul’s acceptance of God’s “no.”\\\"\",\"severity\":\"minor\",\"source_quote\":\"Let us focus our attention upon prayerful Paul’s acceptance of God’s “no.”\",\"suggested_fix\":\"Revise the French word order for natural idiomatic flow while preserving meaning. Replace \\\"Portons notre attention sur l’acceptation du « non » par le Paul fervent en prière.\\\" with \\\"Portons notre attention sur l’acceptation du « non » par Paul, fervent en prière.\\\"\",\"translation_quote\":\"Portons notre attention sur l’acceptation du « non » par le Paul fervent en prière.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 689,
+    "content_evidence_truncated": false,
+    "content_sha256": "e2b063f0af3c3ed10f10bdf7eb1803e29f713150e13d0357194e54dc0775196f",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1069,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5330,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6399
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

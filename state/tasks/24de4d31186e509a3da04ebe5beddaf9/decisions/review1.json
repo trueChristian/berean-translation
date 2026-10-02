@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "major",
+      "source_quote": "Burnout",
+      "suggested_fix": "Translate the English title into Urdu. For example, set translation.title to \"برن آؤٹ\" (or another consistent Urdu rendering such as \"بَرن آؤٹ\" or \"فرسودگی\" if the publication prefers). Preserve any exact capitalization or styling rules the CMS requires, but do not leave the title in English.",
+      "translation_quote": "Burnout"
+    },
+    {
+      "location": "section",
+      "severity": "major",
+      "source_quote": "A WORD FROM A DOCTOR",
+      "suggested_fix": "Translate the section/strapline into Urdu. For example, set translation.section to \"ایک ڈاکٹر کی طرف سے\" or \"ایک ڈاکٹر کا پیغام\" depending on house style. Do not leave the section label in English.",
+      "translation_quote": "A WORD FROM A DOCTOR"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

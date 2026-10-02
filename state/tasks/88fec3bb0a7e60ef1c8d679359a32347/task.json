@@ -2,7 +2,6 @@
   "article_id": "8072bb08-e7aa-4602-a3c6-f82161b740ae",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,59 @@
         },
         "total_tokens": 5619
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1923,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1088,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5212,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7135
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html paragraph with Deuteronomy 1:42 (\"And the Lord said unto me, Say unto them, Go not up, neither fight; for I am not among you; lest ye be smitten before your enemies\")",
+      "severity": "minor",
+      "source_quote": "\"And the Lord said unto me, Say unto them, Go not up, neither fight; for I am not among you; lest ye be smitten before your enemies\" (Deuteronomy 1:42).",
+      "suggested_fix": "Adjust Norwegian wording to convey the conditional/caution in the original. Suggested Norwegian rendering: «Og Herren sa til meg: Si til dem: Gå ikke opp, og kjemp ikke; for jeg er ikke blant dere; for at dere ikke skal bli slått av deres fiender.» Preserve the placement of the Scripture reference.",
+      "translation_quote": "«Og Herren sa til meg: Si til dem: Gå ikke opp, og strid ikke; for jeg er ikke blant dere; for ikke skal dere bli slått for øynene på deres fiender», men de gjorde opprør mot Hans «nei»."
+    },
+    {
+      "location": "source.html paragraph with 2 Corinthians 12:7-9 (opening clause)",
+      "severity": "minor",
+      "source_quote": "\"And lest I should be exalted above measure through the abundance of the revelations, there was given to me a thorn in the flesh...\" (2 Corinthians 12:7).",
+      "suggested_fix": "Correct odd or mistranslated Norwegian terms that obscure meaning. Replace «fordekt av de høye uppenbarelser» and similar with a clearer rendering. Suggested: «For at jeg ikke skulle bli forhøyet over mål ved de mange åpenbaringer, ble det meg gitt en torn i kjødet...» Also change «uppenbarelser» spelling to «åpenbaringer» and ensure natural Bokmål grammar.",
+      "translation_quote": "«Og for at jeg ikke skulle bli fordekt av de høye uppenbarelser, ble det gitt meg et torner i kroppen, en sendebud fra Satan for å stange meg, for at jeg ikke skulle bli forhøyet over mål.»"
+    },
+    {
+      "location": "source.html paragraph discussing \"acceptance does not mean woeful resignation\"",
+      "severity": "minor",
+      "source_quote": "\"Second, acceptance does not mean woeful resignation. Paul 'besought the Lord thrice...'\"",
+      "suggested_fix": "Fix the Norwegian loanword and word order. Replace «sørgelig resignation» with a natural Bokmål phrase such as «sørgelig resignasjon» or better: «en sørgmodig resignasjon».",
+      "translation_quote": "\"For det andre betyr aksept ikke sørgelig resignation. Paulus «bad Herren tre ganger at det måtte vike fra meg.»\""
+    },
+    {
+      "location": "source.html concluding paragraph (\"Deliverance came. No, not to Stephen and James... in unquenchable hope\")",
+      "severity": "minor",
+      "source_quote": "\"Deliverance came. No, not to Stephen and James... but it came in unquenchable hope, in the hope that maketh not ashamed.\"",
+      "suggested_fix": "The phrase translated as «ugjenkallelige håp» is inaccurate and unidiomatic for \"unquenchable hope.\" Use a more faithful, idiomatic rendering such as «et ugjendrivelig/et uutslettelig håp» or better «et håp som ikke kan slukkes»; ensure agreement and grammar: e.g. «men det kom i et uutslettelig håp, i det håp som ikke gjør oss til skamme.»",
+      "translation_quote": "\"Frelse kom. Nei, ikke til Stefanus og Jakob, heller ikke til lidende tjenere som Job, av samme dyrebare tro, men den kom i en ugjenkallelige håp, i det håp som ikke gjør oss til skamme.\""
+    }
+  ],
+  "finished_at": "2026-10-02T12:50:23+00:00",
   "id": "88fec3bb0a7e60ef1c8d679359a32347",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "nob",
@@ -100,11 +149,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/40b205584b70dea6ea3ff3f4c41c6fd1ddfe0f0185df69fefa6b9552a41d435d.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "bf998429e527907a20f711c821e9bb6ad50ba4d154d9f55d397877de1bb521c0",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

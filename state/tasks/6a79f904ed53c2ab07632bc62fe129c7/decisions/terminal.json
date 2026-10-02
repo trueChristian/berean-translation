@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<section class=\"lyrics\"> (stanza 2)",
+      "severity": "minor",
+      "source_quote": "Thy Providence my life sustained,\n    And all my wants redressed,\n    While in the silent womb I lay,\n    And hung upon the breast.",
+      "suggested_fix": "Correct the French grammar and naturalness. For example: « Ta Providence soutint ma vie, et pourvut à tous mes besoins, tandis que, dans le sein silencieux, je reposais et que je me blottissais au sein. » Preserve HTML tags and line breaks as in the translation.",
+      "translation_quote": "Ta Providence a soutenu ma vie,\n    Et tous mes besoins a‑t‑elle pourvus,\n    Pendant que, dans le sein silencieux, je reposais,\n    Et que je pendais au sein maternel."
+    },
+    {
+      "location": "<section class=\"lyrics\"> (stanza 6)",
+      "severity": "minor",
+      "source_quote": "Through hidden dangers, toils, and deaths,\n    It gently cleared my way;\n    And through the pleasing snares of vice,\n    More to be feared than they.",
+      "suggested_fix": "Clarify the comparative sense in French to match the English. A clearer rendering preserving meaning would be: « À travers dangers cachés, peines et morts, il a doucement dégagé mon chemin ; et à travers les séduisantes embûches du vice, plus redoutables qu’elles n’en ont l’air. » Keep stanza formatting inside the same <p><em>…</em></p> block.",
+      "translation_quote": "À travers dangers cachés, peines et morts,\n    Il a doucement éclairci mon chemin ;\n    Et à travers les séduisantes embûches du vice,\n    Plus à redouter qu’elles ne le paraissent."
+    },
+    {
+      "location": "<section class=\"lyrics\"> (general — several verses)",
+      "severity": "minor",
+      "source_quote": "(whole hymn text as printed in source)",
+      "suggested_fix": "Resolve a few awkward or ungrammatical phrasings introduced in the French that affect readability (for example \"a‑t‑elle pourvus\", \"je pendais au sein maternel\", \"Le glorieux thème je renouvellerai\" word order). Edit to use natural French syntax while preserving the hymn's meaning and stanza structure. Example corrections: «…et pourvut à tous mes besoins…», «je me blottissais au sein maternel», «Je renouvellerai ce glorieux cantique.» Preserve the original HTML structure.",
+      "translation_quote": "(multiple lines across the translated hymn stanzas contain awkward constructions, e.g. \"Et tous mes besoins a‑t‑elle pourvus\", \"je pendais au sein maternel\", \"Le glorieux thème je renouvellerai\")"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

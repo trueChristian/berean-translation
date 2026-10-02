@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<p>...Αυτά τα ποδήλατα γλιστρούσαν ομαλά στον δρόμο με chip-and-seal χωρίς τρέμουλο.</p>",
+      "severity": "major",
+      "source_quote": "These bicycles glided smoothly on the chip-and seal road without a rattle.",
+      "suggested_fix": "Translate the road type into idiomatic Modern Greek rather than leaving the English term. For example: «Αυτά τα ποδήλατα γλιστρούσαν ομαλά σε δρόμο με επίστρωση χαλικιού και σφραγιστικού, χωρίς τρέμουλο.» Replace the entire sentence inside the same <p> tag, preserving tags and order.",
+      "translation_quote": "Αυτά τα ποδήλατα γλιστρούσαν ομαλά στον δρόμο με chip-and-seal χωρίς τρέμουλο."
+    },
+    {
+      "location": "<figcaption>…«Η ΥΠΕΡΗΦΑΝΕΙΑ ΠΡΟΗΓΕΙΤΑΙ ΤΗΣ<br>\n    ΚΑΤΑΣΤΡΟΦΗΣ, ΚΑΙ ΤΟ<br>\n    ΥΨΗΛΟΜΕΡΕΣ ΠΝΕΥΜΑ ΠΡΟΗΓΕΙΤΑΙ<br>\n    ΤΗΣ ΠΤΩΣΗΣ»<br>\n    -Παροιμίες 16:18</figcaption>",
+      "severity": "minor",
+      "source_quote": "\"PRIDE GOETH BEFORE\n    DESTRUCTION, AND AN\n    HAUGHTY SPIRIT BEFORE\n    A FALL\" -PROVERBS 16:18",
+      "suggested_fix": "The translation should render the proverb in idiomatic Modern Greek and correct the awkward/incorrect phrase «ΥΨΗΛΟΜΕΡΕΣ ΠΝΕΥΜΑ». Suggested replacement (preserve the <figcaption> tag and line breaks): ««Η υπερηφάνεια προηγείται της καταστροφής, και το αλαζονικό πνεύμα προηγείται της πτώσης» -Παροιμίες 16:18»",
+      "translation_quote": "«Η ΥΠΕΡΗΦΑΝΕΙΑ ΠΡΟΗΓΕΙΤΑΙ ΤΗΣ\n    ΚΑΤΑΣΤΡΟΦΗΣ, ΚΑΙ ΤΟ\n    ΥΨΗΛΟΜΕΡΕΣ ΠΝΕΥΜΑ ΠΡΟΗΓΕΙΤΑΙ\n    ΤΗΣ ΠΤΩΣΗΣ» -Παροιμίες 16:18"
+    },
+    {
+      "location": "<p>Ένα, δύο, τρία, ΦΥΣΣ και ξεκίνησαν! Κατέβαιναν τον λόφο, πετώντας στα πετάλια ό,τι είχαν.</p>",
+      "severity": "minor",
+      "source_quote": "One, two, three, GO and they were off! Down the hill they came, pedaling for all they were worth.",
+      "suggested_fix": "The onomatopoeic rendering «ΦΥΣΣ» is odd in Modern Greek for the English imperative “GO!” Use a clear Greek verb to match the source tone and imperative. Suggested replacement (preserve the <p> tag): «Ένα, δύο, τρία, Πάμε! και ξεκίνησαν! Κατέβαιναν τον λόφο, ποδηλατώντας με όλη τους τη δύναμη.»",
+      "translation_quote": "Ένα, δύο, τρία, ΦΥΣΣ και ξεκίνησαν! Κατέβαιναν τον λόφο, πετώντας στα πετάλια ό,τι είχαν."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

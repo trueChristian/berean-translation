@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph 2 and subsequent scripture citations",
+      "severity": "critical",
+      "source_quote": "“. . . except a man be born again, he cannot see the kingdom of God” (John 3:3).  “... except a man be born again, he cannot see the kingdom of God” (John 3:3). “Labour not for the meat which perisheth, but for that meat which endureth unto everlasting life...” (John 6:27). “Then they said unto him, what shall we do, that we might work the works of God?” ... (John 6:28-29). ...repentance (Mark 1:15), ... “Whosoever will come after me, let him deny himself, and take up his cross and follow me” (Mark 8:34). ...“in this we groan, earnestly desiring to be clothed upon with our house which is from heaven” (2 Corinthians 5:2). ...“into him in all things, which is the head, even Christ” (Ephesians 4:15).",
+      "suggested_fix": "Translate the English book names in all Scripture citations to conventional Portuguese forms and keep the exact chapter:verse numbers unchanged. For these instances change: (John 3:3) → (João 3:3); (John 6:27) → (João 6:27); (John 6:28-29) → (João 6:28-29); (Mark 1:15) → (Marcos 1:15); (Mark 8:34) → (Marcos 8:34); (Ephesians 4:15) → (Efésios 4:15); (2 Corinthians 5:2) → (2 Coríntios 5:2). Ensure every occurrence in the translation (including parentheses after quoted verses) is updated and that the punctuation and spacing remain as in the translation HTML.",
+      "translation_quote": "“... a menos que alguém nasça de novo, não pode ver o reino de Deus” (John 3:3). “…a qual o Filho do homem vos dará; porque a este o Pai, Deus, selou” (John 6:27). “Então lhe disseram: Que faremos para executarmos as obras de Deus? Jesus respondeu e disse-lhes: Esta é a obra de Deus: que creiais naquele que ele enviou” (John 6:28-29). ...arrependimento (Mark 1:15), ... “Quem quiser vir após mim, negue-se a si mesmo, tome a sua cruz e siga-me” (Mark 8:34). ...“... gememos, desejando‑ardentemente ser revestidos com a nossa habitação, que é do céu” (2 Corinthians 5:2). ...“... nele em todas as coisas, que é a cabeça, Cristo” (Ephesians 4:15)."
+    },
+    {
+      "location": "translation.html paragraph 10 and 11 (second‑person pronouns)",
+      "severity": "minor",
+      "source_quote": "Is your hope like the one who “climbeth up some other way,” or like, “he that entereth in by the door”? Do you have a basis for your hope or is it an empty hope that has no foundation?  I trust you are growing up “. . . into him in all things, which is the head, even Christ” (Ephesians 4:15).  I hope you might grow just a little more, so your expectation of seeing Christ might grow as well.",
+      "suggested_fix": "Use a single, consistent second‑person form throughout the translation. The text currently mixes 'tens/teu' (forma 'tu') in one question with more formal 'você'/impersonal forms elsewhere. For internationally intelligible Portuguese choose either 'você' (and adjust verbs/pronouns accordingly) or 'tu' consistently. Example: change 'Tens uma base para tua esperança...' to 'Você tem uma base para sua esperança...' and 'Confio que estejas crescendo...' to 'Confio que você esteja crescendo...' (or vice versa if preferring 'tu'). Apply the same choice consistently in the two paragraphs that address the reader.",
+      "translation_quote": "“Sua esperança é como a do que “sobe por outro caminho”, ou como a do que “entra pela porta”? Tens uma base para tua esperança ou é uma esperança vazia que não tem fundamento?”  “Confio que estejas crescendo “... nele em todas as coisas, que é a cabeça, Cristo” (Ephesians 4:15).”  “Espero que possas crescer apenas um pouco mais, para que tua expectativa de ver Cristo também aumente.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

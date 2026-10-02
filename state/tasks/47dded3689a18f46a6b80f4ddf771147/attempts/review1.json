@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<div class=\\\"poem\\\"> — stanza 1, line 2\",\"severity\":\"major\",\"source_quote\":\"For the multitude of souls,\",\"suggested_fix\":\"보존된 HTML 구조를 유지하여 다음과 같이 바꾸십시오:\\n<p>삶은 구불구불한 오솔길과 같으니<br>\\n수많은 영혼들을 위한 것이라,<br>\\n부지런히 걸어 나아가는 이들,<br>\\n종국을 헤아리지 못한 채.</p>\\n\\n(즉, 두 번째 행을 “수많은 영혼들을 위한 것이라,” 또는 자연스러운 문맥을 원하면 “수많은 영혼들을 위한” 등으로 고쳐서, 원문의 서술적 의미(‘~을 위한’)가 유지되도록 하십시오.)\",\"translation_quote\":\"수많은 영혼들을 위해 있어라,\"}],\"passed\":false,\"score\":89}",
+    "content_bytes": 754,
+    "content_evidence_truncated": false,
+    "content_sha256": "7239f6bd48c1b9905356082bb9c13b5fa96176f74964713f5b8b7ef08c533ca9",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1051,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1412,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2463
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

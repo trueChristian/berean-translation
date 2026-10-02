@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "80a0d9e4-be74-4161-9749-f8b9ddaf0960",
+    "response_id": "chatcmpl-EUWw4KOOGTB7s9muZ2rRVDPHuf4eD",
+    "usage": {
+      "completion_tokens": 1435,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5645,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7080
+    }
+  },
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 1 (first article <p>)",
+        "severity": "major",
+        "source_quote": "Infancy to childhood, childhood to youth, youth to adulthood, and beyond, God's everlasting mercy is upon them that fear Him!",
+        "suggested_fix": "Replace the faulty phrase that mistranslates the sequence of life stages. Preserve HTML tags. Suggested Portuguese correction: \"Da infância à criança, da infância à juventude, da juventude à idade adulta e além, a misericórdia eterna de Deus está sobre os que O temem!\" — but better idiomatic rendering: \"Desde a infância até a infância tardia, da infância à juventude, da juventude à idade adulta e além, a misericórdia eterna de Deus está sobre os que O temem!\" or more naturally: \"Desde o berço até a infância, da infância à juventude, da juventude à vida adulta e além, a misericórdia eterna de Deus está sobre os que O temem!\". Replace the current sentence between the existing <p>...</p> tags accordingly.",
+        "translation_quote": "Da infância para a criança, da criança para a juventude, da juventude para a idade adulta e além, a misericórdia eterna de Deus está sobre os que O temem!"
+      },
+      {
+        "location": "Paragraph 2 (hymn identification sentence in same <p>)",
+        "severity": "major",
+        "source_quote": "The hymn, \"When All Thy Mercies O My God,\" written in 1712, has been published in 994 hymnals and is to this day in the list of the best 100 hymns ever written.",
+        "suggested_fix": "Remove the retained English title or present only the translated title (translated elsewhere) and ensure the quoted hymn title is in Portuguese. Preserve tags. Suggested replacement: \"O hino, 'Quando Todas as Tuas Misericórdias, Ó meu Deus', escrito em 1712, foi publicado em 994 hinários e até hoje figura na lista dos 100 melhores hinos já escritos.\" Ensure the English title \"When All Thy Mercies O My God\" is not left as an untranslated quoted substantive phrase inside the paragraph.",
+        "translation_quote": "O hino, \"When All Thy Mercies O My God\" (Quando Todas as Tuas Misericórdias, Ó Meu Deus), escrito em 1712, foi publicado em 994 hinários e até hoje figura na lista dos 100 melhores hinos já escritos."
+      },
+      {
+        "location": "Paragraph about marriage (sentence describing Charlotte)",
+        "severity": "major",
+        "source_quote": "His marriage to Charlotte, a widow of 15 years, didn’t turn out as he had anticipated.",
+        "suggested_fix": "Clarify that the English means she had been a widow for 15 years (not that she was age 15). Preserve tags. Suggested correction: \"Seu casamento com Charlotte, viúva há 15 anos, não correu como ele havia previsto.\" Replace the existing phrase 'viúva de 15 anos' with 'viúva há 15 anos'.",
+        "translation_quote": "Seu casamento com Charlotte, viúva de 15 anos, não correu como ele havia previsto."
+      }
+    ],
+    "passed": false,
+    "score": 65
+  }
+}

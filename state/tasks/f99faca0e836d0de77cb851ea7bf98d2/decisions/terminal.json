@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html — paragraph: “In the first 24 hours after birth…” (blockquote following)",
+      "severity": "minor",
+      "source_quote": "“She is disgruntled about being born,” I joked.",
+      "suggested_fix": "Replace the masculine verb form with the feminine to match the narrator’s voice. Keep punctuation and tags unchanged. Suggested Russian: «Она недовольна тем, что родилась», — пошутила я.",
+      "translation_quote": "«Она недовольна тем, что родилась», — пошутил я."
+    },
+    {
+      "location": "source.html — paragraph: “We owned a bulk food store, and many local non-Mennonite folks knew us.”",
+      "severity": "minor",
+      "source_quote": "We owned a bulk food store, and many local non-Mennonite folks knew us.",
+      "suggested_fix": "Correct the adjective for “non‑Mennonite” into standard Russian spelling/wording. Suggested Russian: «мы знали многих местных неменнонитов» or «многие местные неменнониты знали нас». Preserve the sentence structure and HTML tags.",
+      "translation_quote": "Мы владели оптовым магазином продуктов, и многие местные не‑меннониты знали нас."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

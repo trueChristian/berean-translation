@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<p>Rivolgiamo la nostra attenzione all’accettazione del “no” da parte del preghierevole Paolo.</p>",
+      "severity": "minor",
+      "source_quote": "Let us focus our attention upon prayerful Paul’s acceptance of God’s “no.”",
+      "suggested_fix": "Use an idiomatic Italian adjective or phrasing: for example, \"Rivolgiamo la nostra attenzione all’accettazione, da parte di Paolo, del \"no\" di Dio, che era uomo di preghiera.\" Or simply \"Rivolgiamo la nostra attenzione all'accettazione del 'no' di Dio da parte del Paolo, uomo di preghiera.\" Preserve the HTML tag as-is.",
+      "translation_quote": "Rivolgiamo la nostra attenzione all’accettazione del “no” da parte del preghierevole Paolo."
+    },
+    {
+      "location": "<p>Bastano il titolo a far sorgere probabilmente pensieri negativi nella tua mente. ...</p>",
+      "severity": "minor",
+      "source_quote": "Just reading the title probably brings negative thoughts to your mind.",
+      "suggested_fix": "Correct the Italian grammar and natural phrasing. For example: \"Probabilmente basta il titolo per suscitare pensieri negativi nella tua mente.\" Or: \"Solo il titolo probabilmente suscita pensieri negativi nella tua mente.\" Preserve the paragraph tag and surrounding markup.",
+      "translation_quote": "Bastano il titolo a far sorgere probabilmente pensieri negativi nella tua mente."
+    },
+    {
+      "location": "<p>“Shall not the Judge of all the earth do right?” (Genesis 18:25).</p>",
+      "severity": "minor",
+      "source_quote": "\"Shall not the Judge of all the earth do right?\" (Genesis 18:25).",
+      "suggested_fix": "The current Italian adds \"Forse\" which introduces hesitation not present in the English rhetorical question. Render more faithfully, e.g.: \"Il Giudice di tutta la terra non farà giustizia?\" or \"Il Giudice di tutta la terra non farà ciò che è giusto?\" Keep the reference unchanged and preserve punctuation and tags.",
+      "translation_quote": "“Forse il Giudice di tutta la terra non farà giustizia?” (Genesi 18:25)."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

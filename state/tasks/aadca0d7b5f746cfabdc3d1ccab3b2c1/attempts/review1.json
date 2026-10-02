@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<div class=\\\"poem\\\"> — third stanza, line 3\",\"severity\":\"minor\",\"source_quote\":\"There no foe can e’er molest you,\",\"suggested_fix\":\"Replace the current Hindi phrase with a clearer, more natural rendering that preserves the meaning (“there no foe can ever molest you”). For example: \\\"वहाँ कोई शत्रु तुम्हें कभी कष्ट नहीं पहुँचा सकेगा,\\\" or \\\"वहाँ कोई शत्रु कभी तुम्हें कष्ट नहीं पहुँचा सकेगा.\\\" Keep the surrounding HTML and line breaks unchanged.\",\"translation_quote\":\"वहाँ कोई शत्रु तुम्हें कदाचित् कष्ट नहीं दे सकेगा,\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 829,
+    "content_evidence_truncated": false,
+    "content_sha256": "094e1774506eb7acd3814eba68186b04698729c743054e02ce9ea060095943c8",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 675,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1407,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2082
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

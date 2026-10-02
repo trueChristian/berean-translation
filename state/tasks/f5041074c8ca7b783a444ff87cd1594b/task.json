@@ -2,7 +2,6 @@
   "article_id": "21853000-58b7-413f-b119-c9b1a6012369",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,45 @@
         },
         "total_tokens": 6947
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 614,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6661,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7275
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "God’s Faithfulness Manifest Even in the Curse",
+      "suggested_fix": "将标题翻译为标准书面中文，例如：\"咒诅中仍显明的上帝信实\" 或更接近原意的译法：\"在咒诅中显明的上帝信实\"。",
+      "translation_quote": "God’s Faithfulness Manifest Even in the Curse"
+    },
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "ATTRIBUTES OF GOD",
+      "suggested_fix": "将栏目名翻译为中文常用表达，例如：\"上帝的属性\"。",
+      "translation_quote": "ATTRIBUTES OF GOD"
+    }
+  ],
+  "finished_at": "2026-10-02T12:50:24+00:00",
   "id": "f5041074c8ca7b783a444ff87cd1594b",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "cmn",
@@ -100,11 +135,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/35b2c7029cc42ee53f5ba53e917d6f4f13fd2ec89b436bb9b340de5e3d8adc44.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "3526d7232367f018301aa220868e7605f6dcc0608e6b2e5d5a6771923f6938fe",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>Primero, aceptar no significa que el problema no exista. Pablo aceptó el “no” de Dios, pero aun así tuvo las infirmedades.</p>",
+      "severity": "minor",
+      "source_quote": "First, acceptance does not mean that the problem does not exist. Paul accepted God’s “no”, but still had the infirmities.",
+      "suggested_fix": "Corregir la palabra a una forma española estándar y consistente. Ejemplo: reemplazar “infirmedades” por “debilidades” o, si se desea mantener un registro más tradicional, por “enfermedades”. Mantener la elección de término de forma consistente en todo el artículo. No cambie la estructura HTML; solo sustituya el texto dentro del mismo párrafo.",
+      "translation_quote": "Primero, aceptar no significa que el problema no exista. Pablo aceptó el “no” de Dios, pero aun así tuvo las infirmedades."
+    },
+    {
+      "location": "<p>Que un “no” presente puede ser un “sí” en desarrollo. A Pablo se le dijo que iba a ir a Roma (Hechos 19:21; 23:11). Pero las rejas de la incarceración, las cadenas de la servidumbre y las fauces de la muerte parecían decir lo contrario. Dos años de confinamiento no eran prueba convincente de un viaje a Roma, ni lo fue un viaje marítimo sin esperanza (Hechos 24:27; 27:20). ¡Sin embargo, como todos sabemos, Pablo llegó a Roma (Hechos 28:16)!</p>",
+      "severity": "minor",
+      "source_quote": "That a present “no” may be a “yes” in development. Paul was told that he was going to Rome (Acts 19:21; 23:11). But the bars of incarceration, the shackles of servitude, and the jaws of death seemed to say otherwise. Two years of confinement were not convincing evidence of a trip to Rome, nor was a hopeless sea voyage (Acts 24:27; 27:20). However, as we all know, Paul went to Rome (Acts 28:16)!",
+      "suggested_fix": "Replace the nonstandard Spanish word “incarceración” with the standard “encarcelamiento”. Keep the rest of the sentence and HTML intact. Suggested replacement text: “las rejas del encarcelamiento” to match common Spanish usage.",
+      "translation_quote": "Que un “no” presente puede ser un “sí” en desarrollo. A Pablo se le dijo que iba a ir a Roma (Hechos 19:21; 23:11). Pero las rejas de la incarceración, las cadenas de la servidumbre y las fauces de la muerte parecían decir lo contrario. Dos años de confinamiento no eran prueba convincente de un viaje a Roma, ni lo fue un viaje marítimo sin esperanza (Hechos 24:27; 27:20). ¡Sin embargo, como todos sabemos, Pablo llegó a Roma (Hechos 28:16)!"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

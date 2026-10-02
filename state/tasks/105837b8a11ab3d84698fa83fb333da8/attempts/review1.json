@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>In May 2001, God blessed our family with a baby girl. ...</p> (paragraph beginning “One morning when Judy was about 18 months old, I was in the living room having my personal devotions.”)\",\"severity\":\"minor\",\"source_quote\":\"One morning when Judy was about 18 months old, I was in the living room having my personal devotions.\",\"suggested_fix\":\"Translate idiomatically as ‘আমি বসবার ঘরে ব্যক্তিগত ভজনা/প্রার্থনা করে বসে আ ছিলাম’ (avoid using ‘ভোজভাত’ which means a meal). Preserve the meaning ‘personal devotions’ as private prayer/devotional time.\",\"translation_quote\":\"এক সকাল জুডি প্রায় ১৮ মাস বয়সী ছিল, আমি ড্রইং রুমে ব্যক্তিগত ভোজভাত করছিলাম।\"},{\"location\":\"<p>In May 2001 ... (same paragraph as above)</p>\",\"severity\":\"minor\",\"source_quote\":\"living room\",\"suggested_fix\":\"Use a standard Bengali equivalent (e.g., ‘বসবার ঘর’ or ‘লিভিং রুম’) rather than the English loanword ‘ড্রইং রুমে’.\",\"translation_quote\":\"আমি ড্রইং রুমে ব্যক্তিগত ভোজভাত করছিলাম।\"},{\"location\":\"<p>When we were progressing through an EEG ...</p> (paragraph beginning “As we tried to digest all the information...” and the next paragraph describing prayers becoming earnest)\",\"severity\":\"minor\",\"source_quote\":\"our prayers were getting more earnest\",\"suggested_fix\":\"Translate ‘earnest’ directly into Bengali instead of leaving the English word in parentheses. For example: ‘আমাদের প্রার্থনাগুলো আরও গতিশীল/আর্তভাবে/অন্তহীনভাবে হয়ে উঠল’ or ‘আমাদের প্রার্থনা আরও আন্তরিক ও আর্ত হয়ে উঠল।’ Remove the stray English 'earnest (আর্ত)'.\",\"translation_quote\":\"যখন আমরা ইইজেড (মস্তিষ্ক স্ক্যান—সিজার সক্রিয়তা খোঁজার জন্য) ও আরও ডাক্তারী পরিদর্শনের মধ্য দিয়ে এগোচ্ছিলাম, আমাদের প্রার্থনা আরও earnest (আর্ত) হয়ে উঠছিল।\"},{\"location\":\"<p>We made the hour-and-a-half drive to Madison Children’s Hospital for the angiogram.</p>\",\"severity\":\"major\",\"source_quote\":\"we made the hour-and-a-half drive to Madison Children’s Hospital\",\"suggested_fix\":\"Correct the duration to match the source: translate as ‘প্রায় এক ঘণ্টা ত্রিশ মিনিটের ড্রাইভ’ or ‘আওড়া এক-থাকা-আধা ঘণ্টার ড্রাইভ’ (i.e., 1.5 hours). The current Bengali ‘আড়াই ঘণ্টার ড্রাইভ’ means 2.5 hours and changes the factual detail.\",\"translation_quote\":\"পরের দিন আমরা এঞ্জিওগ্রামের জন্য ম্যাডিসন চিলড্রেনস্ হাসপাতালে আড়াই ঘণ্টার ড্রাইভ করলাম।\"}],\"passed\":false,\"score\":72}",
+    "content_bytes": 3472,
+    "content_evidence_truncated": false,
+    "content_sha256": "035e7aebe683ebcebe439a2960e7d64cb2411695deb1a8bb662c80ac16c9a990",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1441,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7201,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8642
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2, sentence: \"...Han ønsker at vi skal ha og beholde et rent samvittighet fordi Han vet at en skyldig samvittighet kan gjøre deg syk!\"",
+      "severity": "minor",
+      "source_quote": "He wants us to have and keep our conscience clear because He knows that a guilty conscience can make you sick!",
+      "suggested_fix": "Correct Norwegian grammar: change «et rent samvittighet» to «en ren samvittighet» so the phrase reads: «Han ønsker at vi skal ha og beholde en ren samvittighet fordi Han vet at en skyldig samvittighet kan gjøre deg syk!»",
+      "translation_quote": "Han ønsker at vi skal ha og beholde et rent samvittighet fordi Han vet at en skyldig samvittighet kan gjøre deg syk!"
+    },
+    {
+      "location": "Paragraph under \"Nedbrytning og ødeleggelse\": sentence: \"Det er virkelig ondskapsfullt å tilbe den skapte verden eller noe i den. Men det er like ondskapsfullt å være utakknemlig og vårsløs med Skaperens skapelse!\"",
+      "severity": "minor",
+      "source_quote": "But it is equally wicked to be unthankful and careless with our Creator’s creation!",
+      "suggested_fix": "Fix a likely mistranslation/typo. Replace «vårsløs» with a correct Norwegian adjective such as «uvøren» or «likegyldig» to convey 'careless'. Suggested revision: «...men det er like ondskapsfullt å være utakknemlig og uvøren med Skaperens skapelse!»",
+      "translation_quote": "Men det er like ondskapsfullt å være utakknemlig og vårsløs med Skaperens skapelse!"
+    },
+    {
+      "location": "Paragraph under \"Dominans av torner og tistler\" (and the following paragraph listing specific plants): \"Tenk over det: Blessed Thistle, Milk Thistle, Teasel, bringebærblad og bjørnerot...\"",
+      "severity": "minor",
+      "source_quote": "Think about it: Blessed Thistle, Milk Thistle, Teasel, Raspberry Leaf, and Blackberry roots are only a few examples of members of these “thorny weeds” used for medicinal and other food benefits.",
+      "suggested_fix": "Harmonize and correct plant names in contemporary Bokmål. Either translate all common plant names to Norwegian or render them consistently as established English names with clarification. Also correct the mistranslation of \"Blackberry roots\" — «bjørnerot» is not a correct equivalent. Suggested revision: «Tenk over det: blessed thistle (velsignet tistel), milk thistle (mariatistel), teasel (kardeborre), bringebærblad og røtter fra bjørnebær er bare noen få eksempler...» — or translate all names plainly: «Tenk over det: velsignet tistel, mariatistel, kardeborre, bringebærblad og bjørnebærrot...»",
+      "translation_quote": "Tenk over det: Blessed Thistle, Milk Thistle, Teasel, bringebærblad og bjørnerot er bare noen få eksempler på medlemmer av disse «tornete ugressene» brukt til medisin og andre matfordeler."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

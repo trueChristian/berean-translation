@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph 1",
+      "severity": "minor",
+      "source_quote": "hoping to get out of prison one day. Even if they had a life sentence, they hoped to get out.",
+      "suggested_fix": "Use idiomatic Italian word order for leaving prison: replace “speranza di uscire un giorno di prigione. Anche se avevano l’ergastolo, speravano di uscire.” with “speranza di uscire un giorno dalla prigione. Anche se avevano l’ergastolo, speravano di uscire.”",
+      "translation_quote": "speranza di uscire un giorno di prigione. Anche se avevano l’ergastolo, speravano di uscire."
+    },
+    {
+      "location": "source.html paragraph 8",
+      "severity": "minor",
+      "source_quote": "As Christ becomes alive in us, we love Him and choose to obey Him.",
+      "suggested_fix": "Standard contemporary Italian prefers lowercase or standard clitic forms. Replace the archaic/typographic “obbedirGli” with the contemporary and grammatically regular form “obbedirgli” or rephrase “scegliamo di obbedire a lui” depending on house style for capitalizing divine pronouns.",
+      "translation_quote": "Man mano che Cristo diventa vivo in noi, Lo amiamo e scegliamo di obbedirGli."
+    },
+    {
+      "location": "source.html paragraph 5",
+      "severity": "minor",
+      "source_quote": "\"For we are saved by hope: but hope that is seen is not hope: for what a man seeth, why doth he yet hope for?\" (Romans 8:24)",
+      "suggested_fix": "The translation “la speranza vista” is understandable but slightly stiff. For clearer contemporary Italian consider “ma la speranza che si vede non è speranza” or “ma la speranza, quando è vista, non è speranza” to better reflect the conditional contrast in the English.",
+      "translation_quote": "“Poiché in speranza siamo stati salvati; ma la speranza vista non è speranza; che infatti uno vede, perché spera ancora?” (Romani 8:24)."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

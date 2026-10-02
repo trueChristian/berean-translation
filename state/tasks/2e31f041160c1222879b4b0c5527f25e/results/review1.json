@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "cf28f529-e030-41dd-b40a-9e90a2ab6411",
+    "response_id": "chatcmpl-EUWx866ozhIgyI7MUzKyvyNiHqszX",
+    "usage": {
+      "completion_tokens": 809,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1381,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2190
+    }
+  },
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> stanza 1, line 4",
+        "severity": "minor",
+        "source_quote": "Heedless of their final goal.",
+        "suggested_fix": "Replace \"sitt\" with plural possessive \"sine\" to match the plural English subject. e.g. change the line to: <p>som raskt går videre framover,<br>\nuten å tenke på sine endelige mål.</p>",
+        "translation_quote": "uten å tenke på sitt endelige mål."
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 1, line 2-3",
+        "severity": "minor",
+        "source_quote": "For the multitude of souls,\nWho are briskly walking onward,",
+        "suggested_fix": "Avoid redundant adverbs in Norwegian. Replace \"raskt går videre framover\" with a single idiomatic phrase such as \"skrittet raskt fremover\" or \"skynder seg framover\". Example: <p>for de mange sjelene,<br>\nskynder seg framover,</p>",
+        "translation_quote": "for de mange sjeler,\nsom raskt går videre framover,"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 2, line 2",
+        "severity": "minor",
+        "source_quote": "Straight or crooked, one of twain;",
+        "suggested_fix": "Use the natural Norwegian numeral/word agreement. Replace \"ett av to\" with \"en av to\" (or rephrase idiomatically). Example: <p>rett eller krokete, en av to;</p>",
+        "translation_quote": "rett eller krokete, ett av to;"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

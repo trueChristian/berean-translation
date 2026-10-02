@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph containing “cares of this world” (around “We live in the free land of America…”)\",\"severity\":\"major\",\"source_quote\":\"“Is it possible we have become deceived by our own wealth and the cares of this world?”\",\"suggested_fix\":\"Translate the substantive word “cares” into French. Replace the untranslated English word while preserving the paragraph HTML. For example: change \\\"Est-il possible que nous ayons été trompés par notre propre richesse et par les cares de ce monde ?\\\" to \\\"Est-il possible que nous ayons été trompés par notre propre richesse et par les soucis de ce monde ?\\\"\",\"translation_quote\":\"\\\"Est-il possible que nous ayons été trompés par notre propre richesse et par les cares de ce monde ?\\\"\"},{\"location\":\"Paragraph quoting Matt. 10:22 (paragraph that begins “J'ai commandé un exemplaire de <em>The Martyr’s Mirror</em>…”)\",\"severity\":\"minor\",\"source_quote\":\"“And ye shall be hated of all men for my name's sake: but he that endureth to the end shall be saved” (Matt. 10:22).\",\"suggested_fix\":\"Use the conventional French book name and consistent citation format. Replace the English abbreviation \\\"Matt. 10:22\\\" with the French form \\\"Matthieu 10:22\\\" (or keep the abbreviation consistently French). Preserve the surrounding HTML. Example change: \\\"(Matt. 10:22)\\\" → \\\"(Matthieu 10:22)\\\".\",\"translation_quote\":\"\\\"Ils accomplissaient les paroles de Jésus : « Et vous serez haïs de tous à cause de mon nom; mais celui qui persévérera jusqu'à la fin sera sauvé » (Matt. 10:22).\\\"\"}],\"passed\":false,\"score\":78}",
+    "content_bytes": 1611,
+    "content_evidence_truncated": false,
+    "content_sha256": "5518e53b5a7f46b01954ffd6f638f74526f4bb0955467a59c398b09a5883bb60",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 977,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5531,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6508
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -2,7 +2,6 @@
   "article_id": "97efa86c-46a8-499e-850a-d626dce2fd7c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:56+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 6112
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1435,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5645,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7080
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph 1 (first article <p>)",
+      "severity": "major",
+      "source_quote": "Infancy to childhood, childhood to youth, youth to adulthood, and beyond, God's everlasting mercy is upon them that fear Him!",
+      "suggested_fix": "Replace the faulty phrase that mistranslates the sequence of life stages. Preserve HTML tags. Suggested Portuguese correction: \"Da infância à criança, da infância à juventude, da juventude à idade adulta e além, a misericórdia eterna de Deus está sobre os que O temem!\" — but better idiomatic rendering: \"Desde a infância até a infância tardia, da infância à juventude, da juventude à idade adulta e além, a misericórdia eterna de Deus está sobre os que O temem!\" or more naturally: \"Desde o berço até a infância, da infância à juventude, da juventude à vida adulta e além, a misericórdia eterna de Deus está sobre os que O temem!\". Replace the current sentence between the existing <p>...</p> tags accordingly.",
+      "translation_quote": "Da infância para a criança, da criança para a juventude, da juventude para a idade adulta e além, a misericórdia eterna de Deus está sobre os que O temem!"
+    },
+    {
+      "location": "Paragraph 2 (hymn identification sentence in same <p>)",
+      "severity": "major",
+      "source_quote": "The hymn, \"When All Thy Mercies O My God,\" written in 1712, has been published in 994 hymnals and is to this day in the list of the best 100 hymns ever written.",
+      "suggested_fix": "Remove the retained English title or present only the translated title (translated elsewhere) and ensure the quoted hymn title is in Portuguese. Preserve tags. Suggested replacement: \"O hino, 'Quando Todas as Tuas Misericórdias, Ó meu Deus', escrito em 1712, foi publicado em 994 hinários e até hoje figura na lista dos 100 melhores hinos já escritos.\" Ensure the English title \"When All Thy Mercies O My God\" is not left as an untranslated quoted substantive phrase inside the paragraph.",
+      "translation_quote": "O hino, \"When All Thy Mercies O My God\" (Quando Todas as Tuas Misericórdias, Ó Meu Deus), escrito em 1712, foi publicado em 994 hinários e até hoje figura na lista dos 100 melhores hinos já escritos."
+    },
+    {
+      "location": "Paragraph about marriage (sentence describing Charlotte)",
+      "severity": "major",
+      "source_quote": "His marriage to Charlotte, a widow of 15 years, didn’t turn out as he had anticipated.",
+      "suggested_fix": "Clarify that the English means she had been a widow for 15 years (not that she was age 15). Preserve tags. Suggested correction: \"Seu casamento com Charlotte, viúva há 15 anos, não correu como ele havia previsto.\" Replace the existing phrase 'viúva de 15 anos' with 'viúva há 15 anos'.",
+      "translation_quote": "Seu casamento com Charlotte, viúva de 15 anos, não correu como ele havia previsto."
+    }
+  ],
   "id": "b0b3f9314457a4e7bdd776ec387881ec",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "por",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 65,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1f918b0ea8340bcf17f023b66bf22d08b2185fd15382de583ea5e89a31c88725.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "151c676a3a3f4de7275eee354cc0c629e172ecc2dbb372f12ae064df79d4e44e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

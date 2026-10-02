@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0a86e611-3865-43b8-984b-6e63c0c5ed81",
+    "response_id": "chatcmpl-EUWwlAVrTMhBPrjeW8toWD9rvZIie",
+    "usage": {
+      "completion_tokens": 967,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3037,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4004
+    }
+  },
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"Last week I was cleaning out our broiler houses...\" / translation paragraph beginning \"Meski kita berupaya hidup tanpa stres...\"",
+        "severity": "minor",
+        "source_quote": "Last week I was cleaning out our broiler houses in preparation for a new flock.",
+        "suggested_fix": "Use a more idiomatic and precise translation for 'broiler houses' in Indonesian. Options: 'kandang broiler', 'kandang ayam pedaging', or 'kandang ayam pedaging (broiler)'. Preserve the surrounding HTML and sentence structure.",
+        "translation_quote": "Minggu lalu aku sedang membersihkan kandang pemanas ayam sebagai persiapan untuk kawanan baru."
+      },
+      {
+        "location": "Paragraph quoting Proverbs 3:26 (ending paragraph before hymn stanza)",
+        "severity": "minor",
+        "source_quote": "For the LORD shall be thy confidence, and shall keep thy foot from being taken (Proverbs 3:26).",
+        "suggested_fix": "Consider a more natural Indonesian rendering that preserves the meaning 'keep thy foot from being taken' (i.e., prevent your foot from being trapped or caught). Possible alternatives: 'dan Ia akan menjaga kakimu supaya jangan terperangkap' or 'dan Ia akan menjaga kakimu supaya tidak tertimpa bahaya'. Any of these keep the original sense. Keep the verse reference '(Amsal 3:26)' unchanged and in parentheses.",
+        "translation_quote": "Sebab TUHAN akan menjadi pengharapanmu, dan Ia akan menjaga kakimu supaya jangan tertangkap” (Amsal 3:26)."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

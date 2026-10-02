@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<article> ¶1 (first paragraph)\",\"severity\":\"major\",\"source_quote\":\"I would sit with the condemned men and listen as they talked of their plight.\",\"suggested_fix\":\"Translate without adding the specific consequence “to death.” Use wording that reflects the English plain meaning: for example, «я сидел с осуждёнными и слушал, как они говорили о своей беде.» Preserve the surrounding HTML exactly.\",\"translation_quote\":\"я сидел с приговорёнными к смертной казни и слушал, как они говорили о своей беде.\"},{\"location\":\"<article> ¶5 (John 6:27 sentence)\",\"severity\":\"minor\",\"source_quote\":\"for him hath God the Father sealed\",\"suggested_fix\":\"Adjust Russian word order and pronoun clarity so the sentence clearly reads that the Father sealed the Son. For example: «ибо Его запечатал Бог Отец» or «ибо Отец, Бог, запечатал Его.» Keep the translated Scripture in Russian and preserve punctuation and verse reference.\",\"translation_quote\":\"ибо Сына Человеческого запечатал Отец Бог\"},{\"location\":\"<article> ¶10 (Ephesians 4:15 quotation)\",\"severity\":\"minor\",\"source_quote\":\"...into him in all things, which is the head, even Christ (Ephesians 4:15).\",\"suggested_fix\":\"Polish word order to a more idiomatic Russian rendering while preserving the meaning. For example: «...в Нём во всём, Который есть глава — Христос» or «...в Нём во всём, Который есть глава, Христос.» Leave the Scripture reference unchanged.\",\"translation_quote\":\"...в Нём во всём, который есть глава, Христос\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1837,
+    "content_evidence_truncated": false,
+    "content_sha256": "6384014f6ee80bf882f67b9ee39743c0734de70fcfeaaa0929ff68b5b03c5eb6",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1670,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1280,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3162,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4832
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

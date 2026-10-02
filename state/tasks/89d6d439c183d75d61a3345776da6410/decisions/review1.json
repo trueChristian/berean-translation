@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<p>When I entered the kitchen, Judy lay on the floor, jerking rhythmically. I had never seen anyone in a seizure before, but somehow, I just knew. She’s having a seizure!</p>",
+      "severity": "critical",
+      "source_quote": "I had never seen anyone in a seizure before, but somehow, I just knew.",
+      "suggested_fix": "Translate the English word \"somehow\" into Arabic to avoid leaving an untranslated substantive word in the body text. Example fixes that preserve meaning and tone: \"لم أرَ أحدًا في نوبة تشنج من قبل، لكن بطريقة ما عرفت ذلك فورًا.\" or \"لم أرَ أحدًا في نوبة تشنج من قبل، لكنني دون أن أعرف كيف عرفت فورًا.\" Replace the untranslated English word only, keeping the rest of the sentence as in the translation.",
+      "translation_quote": "لم أرَ أحدًا في نوبة تشنج من قبل، لكن somehow، عرفته فورًا. إنها في نوبة تشنج!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

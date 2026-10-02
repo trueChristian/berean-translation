@@ -2,7 +2,6 @@
   "article_id": "c22883c1-1d69-4c5e-aa81-d4015bf4e473",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 3266
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1116,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2990,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4106
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph 2 (second <p>)",
+      "severity": "major",
+      "source_quote": "\"God’s Faithfulness Manifest Even in the Curse\"",
+      "suggested_fix": "Translate the quoted English article title into Spanish and remove or do not leave the original English inside the article HTML. For example, replace “\"God’s Faithfulness Manifest Even in the Curse\" (La fidelidad de Dios manifiesta incluso en la maldición)” with only the Spanish translation in the same structure: «La fidelidad de Dios manifiesta incluso en la maldición». Preserve the existing HTML tags and surrounding punctuation.",
+      "translation_quote": "“God’s Faithfulness Manifest Even in the Curse” (La fidelidad de Dios manifiesta incluso en la maldición)"
+    },
+    {
+      "location": "Paragraph 3 (third <p>)",
+      "severity": "major",
+      "source_quote": "\"A Word From the Doctor\"",
+      "suggested_fix": "Translate the quoted English phrase into Spanish and remove the retained English. Replace «\"A Word From the Doctor\" (Una palabra del médico)» with only the Spanish translation in the same punctuation and tag structure: «Una palabra del médico».",
+      "translation_quote": "«A Word From the Doctor» (Una palabra del médico)"
+    },
+    {
+      "location": "Paragraph 6 (sixth <p>, tractor anecdote)",
+      "severity": "minor",
+      "source_quote": "\"broiler houses\" / \"new flock\"",
+      "suggested_fix": "Use a more natural, industry-appropriate Spanish term for 'broiler houses' and 'flock' in this context. For example, replace \"casas de cría\" with \"galpones para pollos de engorde\" and change \"nuevo rebaño\" to \"nueva parvada\" or \"nuevo lote\" depending on preferred local terminology. Keep the existing HTML and sentence order.",
+      "translation_quote": "\"casas de cría\" / \"nuevo rebaño\""
+    }
+  ],
   "id": "ffa0d88a942bcbe9e4d14e95a2bf9114",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "spa",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/16f80cc2fe1f48fad7c825ed0d1e3059568da0b548b0106a43da4f8b4d785466.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "7328fe7985535229790c376868603624111ed137e1665aff6a36b03d5b4d90fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

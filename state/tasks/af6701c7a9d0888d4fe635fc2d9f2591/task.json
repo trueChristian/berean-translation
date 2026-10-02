@@ -2,7 +2,6 @@
   "article_id": "a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,45 @@
         },
         "total_tokens": 3261
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 883,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2794,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3677
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>...These bicycles glided smoothly on the chip-and seal road without a rattle.</p>",
+      "severity": "minor",
+      "source_quote": "These bicycles glided smoothly on the chip-and seal road without a rattle.",
+      "suggested_fix": "Translate the road surface idiomatically to standard Portuguese. Replace the sentence fragment in the same paragraph, preserving tags. Example: \"Essas bicicletas deslizaram suavemente pela estrada 'chip-and-seal', sem um ruído.\" or better: \"Essas bicicletas deslizaram suavemente pela estrada com revestimento 'chip-and-seal', sem fazer barulho.\" Choose one that fits the publication's preferred phrasing.",
+      "translation_quote": "Essas bicicletas deslizaram suavemente pela estrada com preparo de pedras e asfalto sem um barulho."
+    },
+    {
+      "location": "<p>...One, two, three, GO and they were off!</p>",
+      "severity": "minor",
+      "source_quote": "One, two, three, GO and they were off!",
+      "suggested_fix": "Use a more natural Portuguese interjection for a race start. Preserve tags and structure. For example: \"Um, dois, três, já!\" or \"Um, dois, três, vai!\" Replace \"VALEU\" with one of these options.",
+      "translation_quote": "Um, dois, três, VALEU e eles partiram!"
+    }
+  ],
+  "finished_at": "2026-10-02T12:50:23+00:00",
   "id": "af6701c7a9d0888d4fe635fc2d9f2591",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "por",
@@ -100,11 +135,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/b3f16398a20747d67e66eb67dbc050ebc81f356a674a0f664b03d16556ad5ae2.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "b2d358ce80d345919a9aeec61b0c0a38e5f8adb553e707efe8d7b1d08ee3bf17",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

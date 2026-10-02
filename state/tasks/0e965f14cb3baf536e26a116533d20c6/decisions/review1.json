@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<article> paragraph: \"In conclusion, Job of old bore the lashes...\" (near end)",
+      "severity": "major",
+      "source_quote": "His faithfulness and steadfast endurance have blessed thirty centuries of sorrowing humanity.",
+      "suggested_fix": "Translate \"thirty centuries\" correctly as \"तीस सदियाँ\" or \"तीस सदी\" (both mean thirty centuries). Replace the mistranslated number phrase in the corresponding Hindi paragraph, preserving surrounding HTML tags and punctuation.",
+      "translation_quote": "\"उसकी निष्ठा और दृढ़ सहनशीलता ने तेईस सदी दुखी मानवता को आशीर्वाद दिया है।\""
+    },
+    {
+      "location": "<article> second paragraph (Deuteronomy 1:42 quote)",
+      "severity": "minor",
+      "source_quote": "\"And ye returned and wept before the Lord; but the Lord would not hearken to your voice, nor give ear unto you\" (Deuteronomy 1:45).",
+      "suggested_fix": "Replace the stray German word \"Stimme\" with an appropriate Hindi word such as \"आवाज़\" so the phrase reads: \"परन्तु यहोवा ने तुम्हारी आवाज़ पर ध्यान न दिया, और न तुम्हारी बात को सुनी।\" Preserve the structure and punctuation within the existing <p> tag.",
+      "translation_quote": "\"...परन्तु यहोवा ने तुम्हारी Stimme पर ध्यान न दिया, और न तुम्हारी बात को सुनता\" (व्यवस्थाविवरण 1:45)."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

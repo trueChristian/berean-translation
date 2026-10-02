@@ -2,7 +2,6 @@
   "article_id": "d2d95264-7df9-4ca8-9a99-01a68204d73a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:56+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 3329
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1165,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3107,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4272
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html paragraph 1",
+      "severity": "minor",
+      "source_quote": "hoping to get out of prison one day. Even if they had a life sentence, they hoped to get out.",
+      "suggested_fix": "Use idiomatic Italian word order for leaving prison: replace “speranza di uscire un giorno di prigione. Anche se avevano l’ergastolo, speravano di uscire.” with “speranza di uscire un giorno dalla prigione. Anche se avevano l’ergastolo, speravano di uscire.”",
+      "translation_quote": "speranza di uscire un giorno di prigione. Anche se avevano l’ergastolo, speravano di uscire."
+    },
+    {
+      "location": "source.html paragraph 8",
+      "severity": "minor",
+      "source_quote": "As Christ becomes alive in us, we love Him and choose to obey Him.",
+      "suggested_fix": "Standard contemporary Italian prefers lowercase or standard clitic forms. Replace the archaic/typographic “obbedirGli” with the contemporary and grammatically regular form “obbedirgli” or rephrase “scegliamo di obbedire a lui” depending on house style for capitalizing divine pronouns.",
+      "translation_quote": "Man mano che Cristo diventa vivo in noi, Lo amiamo e scegliamo di obbedirGli."
+    },
+    {
+      "location": "source.html paragraph 5",
+      "severity": "minor",
+      "source_quote": "\"For we are saved by hope: but hope that is seen is not hope: for what a man seeth, why doth he yet hope for?\" (Romans 8:24)",
+      "suggested_fix": "The translation “la speranza vista” is understandable but slightly stiff. For clearer contemporary Italian consider “ma la speranza che si vede non è speranza” or “ma la speranza, quando è vista, non è speranza” to better reflect the conditional contrast in the English.",
+      "translation_quote": "“Poiché in speranza siamo stati salvati; ma la speranza vista non è speranza; che infatti uno vede, perché spera ancora?” (Romani 8:24)."
+    }
+  ],
+  "finished_at": "2026-10-02T12:50:22+00:00",
   "id": "04ec258a86604a15040dfb34365e1964",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ita",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8a99b566d1f7a4b71f671efc977b9e895b89fc48e4520caf1214f243e2083ab5.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d21eb9a2e384c54d8451d42bc7b07528a6bfe6b701385ff6d901ec268b981022",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

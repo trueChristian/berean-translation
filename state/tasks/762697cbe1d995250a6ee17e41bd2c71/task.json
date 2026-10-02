@@ -2,7 +2,6 @@
   "article_id": "d2d95264-7df9-4ca8-9a99-01a68204d73a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:56+00:00",
   "events": [
@@ -24,9 +23,66 @@
         },
         "total_tokens": 3464
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1418,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3125,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4543
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph 2 (first sentence of that paragraph)",
+      "severity": "minor",
+      "source_quote": "This reasoning reminds me of Jesus' words in John 10:1-2 about entering the sheepfold.",
+      "suggested_fix": "Korrigera grammatik: ersätt \"Denna resonemang\" med \"Detta resonemang\".",
+      "translation_quote": "Denna resonemang påminner mig om Jesu ord i Johannesevangeliet 10:1–2 om att gå in i fårhagen."
+    },
+    {
+      "location": "Paragraph 2 (list of bases for hope)",
+      "severity": "minor",
+      "source_quote": "Some hope in their church membership.",
+      "suggested_fix": "Korrigera possessivpronomenens kongruens: ersätt \"sitt kyrkotillhörighet\" med \"sin kyrkotillhörighet\".",
+      "translation_quote": "Några hoppas på sitt kyrkotillhörighet."
+    },
+    {
+      "location": "Paragraph 2 (sentence about a 'diet' of hope)",
+      "severity": "minor",
+      "source_quote": "A diet on that kind of hope is a slim diet for sure!",
+      "suggested_fix": "Ordval/stil: överväg att byta \"En sådan diet av hopp är verkligen en klen diet\" till ett mer idiomatiskt svenskt uttryck, t.ex. \"En sådan sorts hopp är verkligen en mager kost\" eller \"Ett sådant hopp är mycket tunt.\" (behåll innebörden).",
+      "translation_quote": "En sådan diet av hopp är verkligen en klen diet!"
+    },
+    {
+      "location": "Paragraph 4 (John 6:27 quote)",
+      "severity": "minor",
+      "source_quote": "Labour not for the meat which perisheth, but for that meat which endureth unto everlasting life, which the Son of man shall give unto you: for him hath God the Father sealed (John 6:27).",
+      "suggested_fix": "Återge \"sealed\" mer idiomatiskt och tydligt på svenska. Ersätt \"ty honom har Gud Fadern betäckt med sig\" med t.ex. \"ty honom har Gud Fadern förseglat\" eller \"ty honom har Gud Fadern satt sitt sigill på.\"",
+      "translation_quote": "\"Arbeta icke för det som förgås, utan för det som består till evigt liv, vilket Människosonen skall ge er; ty honom har Gud Fadern betäckt med sig\" (Joh 6:27)."
+    },
+    {
+      "location": "Paragraph 6 (sentence about grace setting a condition)",
+      "severity": "minor",
+      "source_quote": "It is only by grace that we are saved, but as this passage suggests, grace sets a condition.",
+      "suggested_fix": "Korrigera obestämd artikelens genus/nummer: ersätt \"ställer nåden en villkor\" med \"ställer nåden ett villkor\".",
+      "translation_quote": "Det är endast genom nåd som vi blir frälsta, men som detta avsnitt antyder ställer nåden en villkor."
+    }
+  ],
+  "finished_at": "2026-10-02T12:50:23+00:00",
   "id": "762697cbe1d995250a6ee17e41bd2c71",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "swe",
@@ -100,11 +156,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8a99b566d1f7a4b71f671efc977b9e895b89fc48e4520caf1214f243e2083ab5.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d21eb9a2e384c54d8451d42bc7b07528a6bfe6b701385ff6d901ec268b981022",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

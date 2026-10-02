@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph: \"If you read the book of Acts, that’s nearly all you see—the Gospel going out!\"",
+      "severity": "major",
+      "source_quote": "If you read the book of Acts, that’s nearly all you see—the Gospel going out!",
+      "suggested_fix": "Translate the book name into standard Bengali and correct the phrasing. Example: replace \"কActs-এর বইটি পড়ো\" with \"প্রেরিতদের কাজের বইটি পড়লে\" and keep the rest of the sentence translated faithfully.",
+      "translation_quote": "\"কActs-এর বইটি পড়ো, সেখানে প্রায় সবটাই দেখবে—সুসমাচার ছড়িয়ে পড়ছে!\""
+    },
+    {
+      "location": "source.html paragraph: \"They told him he was now a father and could go home and be with his wife and son.\"",
+      "severity": "major",
+      "source_quote": "They told him he was now a father and could go home and be with his wife and son.",
+      "suggested_fix": "Correct the translation of 'infant' and the surrounding sentence. Replace the corrupted word and restore literal meaning. Example: \"তারপর তাদের শিশুটিকে জেলে নতুন বাবার কাছে নিয়ে গেল। তারা তাকে বলল যে সে এখন পিতা এবং বাড়ি ফিরে তার স্ত্রীর ও পুত্রের সঙ্গে থাকতে পারে।\"",
+      "translation_quote": "\"কেঁচোটি জেলে নতুন পিতার কাছে নিয়ে গেল। তারা তাঁকে বলল তিনি এখন বাবা এবং তিনি বাড়ি গিয়ে তাঁর স্ত্রী ও ছেলের সঙ্গে থাকতে পারেন।\""
+    },
+    {
+      "location": "source.html paragraph: \"Our prayer is that the authorities will let us live in peace, while we serve the Prince of peace.\"",
+      "severity": "major",
+      "source_quote": "Our prayer is that the authorities will let us live in peace, while we serve the Prince of peace.",
+      "suggested_fix": "Avoid translating 'pressing into the kingdom' as 'attack the kingdom.' Restore intended sense of earnest pursuit. Example: replace \"রাজ্যের প্রতি আক্রমণ করে চলা উচিত\" with \"রাজ্যের দিকে দৃঢ়ভাবে আগ্রসর হওয়া উচিত\" or \"রাজ্যের উন্নতির জন্য প্রচেষ্টা চালিয়ে যাওয়া উচিত.\"",
+      "translation_quote": "\"খ্রীষ্টানদের কথ্য প্রচার করে এবং রাজ্যের প্রতি আক্রমণ করে চলা উচিত।\""
+    },
+    {
+      "location": "source.html paragraph: \"the Gospel of the kingdom\" (Matthew 4:23 quote translated)",
+      "severity": "minor",
+      "source_quote": "...preaching the gospel of the kingdom... (Matthew 4:23)",
+      "suggested_fix": "Use the standard Bengali phrasing 'রাজ্যের সুসমাচার' rather than the nonstandard 'রাজ্যাব্দের সুসমাচার'. Example: replace \"রাজ্যাব্দের সুসমাচার\" with \"রাজ্যের সুসমাচার\" in the Matthew 4:23 translation.",
+      "translation_quote": "\"রাজ্যাব্দের সুসমাচার প্রচার করিত।\""
+    },
+    {
+      "location": "source.html paragraph: \"He also that received seed among the thorns...\" (Matthew 13:22 quote translated)",
+      "severity": "minor",
+      "source_quote": "He also that received seed among the thorns is he that heareth the word; and the care of this world, and the deceitfulness of riches, choke the word, and he becometh unfruitful (Matt. 13:22).",
+      "suggested_fix": "The translation of this verse is paraphrased and uses nonstandard phrasing (\"কাঁঠাল ও আঁশা\" for 'thorns' and awkward clause order). Render the verse more literally in standard Biblical Bengali: e.g. \"কাঁঠাল বন্দরে বপন প্রাপ্ত যে, সে সেই যে বাক্য শুনে; কিন্তু এ বিশ্বের যত্ন ও ধনসম্পদের প্রতারণা বাক্যকে গিলে ফেলে, ফলে সে অনুৎপাদ্য হয়।\"",
+      "translation_quote": "\"বীজবপনের কাহিনীতে যিশু বলেন, “কাঁঠাল ও আঁশা কোথায় বীজ পেয়েছে, সে সেই যে বাক্য শোনে; কিন্তু এই জন্মে বিশ্বাস ও সম্পদের ফাঁকি বাক্যকে চাপা দেয়, ফলে সে ফলহীন হয়” (মথি ১৩:২২)।\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

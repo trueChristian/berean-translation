@@ -2,7 +2,6 @@
   "article_id": "97efa86c-46a8-499e-850a-d626dce2fd7c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:56+00:00",
   "events": [
@@ -24,9 +23,58 @@
         },
         "total_tokens": 6145
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1420,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5859,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7279
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.title",
+      "severity": "critical",
+      "source_quote": "When All Thy Mercies, O My God",
+      "suggested_fix": "Tradurre il titolo in italiano preservando il contenuto teologico e il senso dell'originale. Esempio: sostituire il valore del campo title con \"Quando tutte le tue misericordie, o mio Dio\" (senza cambiare altri metadati o l'ordine dei tag HTML).",
+      "translation_quote": "When All Thy Mercies, O My God"
+    },
+    {
+      "location": "source.html — primo paragrafo (frase iniziale)",
+      "severity": "major",
+      "source_quote": "In your journey of life, from infancy to where you are today, have you ever taken a few minutes to meditate on the mercy God has shown you? Infancy to childhood, childhood to youth, youth to adulthood, and beyond, God's everlasting mercy is upon them that fear Him!",
+      "suggested_fix": "Correggere la sequenza delle fasi della vita per riflettere fedelmente l'originale. Sostituire la traduzione errata \"Dall'infanzia all'infanzia avanzata, dall'infanzia alla giovinezza...\" con una resa chiara e aderente all'inglese, ad es.: \"Nel tuo cammino di vita, dall'infanzia fino a dove sei oggi, ti sei mai fermato qualche minuto a meditare sulla misericordia che Dio ti ha mostrato? Dall'infanzia all'infanzia successiva, dall'infanzia alla fanciullezza, dalla giovinezza all'età adulta e oltre, la misericordia eterna di Dio è su coloro che Lo temono!\" (oppure mantenere la sequenza originale resa più naturale: \"dall'infanzia all'infanzia, dall'infanzia alla giovinezza, dalla giovinezza all'età adulta e oltre\" se si intende seguire parola per parola). Assicurarsi che il riferimento a \"them that fear Him\" sia reso come \"coloro che Lo temono\" o simile, non cambiando il soggetto teologico.",
+      "translation_quote": "Nel tuo cammino di vita, dall'infanzia fino a dove sei oggi, ti sei mai fermato qualche minuto a meditare sulla misericordia che Dio ti ha mostrato? Dall'infanzia all'infanzia avanzata, dall'infanzia alla giovinezza, dalla giovinezza all'età adulta e oltre, la misericordia eterna di Dio è su quelli che lo temono!"
+    },
+    {
+      "location": "source.html — sezione delle strofe, seconda strofa (verso 2)",
+      "severity": "minor",
+      "source_quote": "Thy Providence my life sustained, And all my wants redressed, While in the silent womb I lay, And hung upon the breast.",
+      "suggested_fix": "Rendere \"wants redressed\" con un italiano che renda il senso di \"bisogni soddisfatti/riportati a posto\" invece dell'attuale \"ridusse\". Per esempio: \"La Tua Provvidenza sostenne la mia vita, e provvide a tutti i miei bisogni, mentre giacevo nel silenzioso grembo, e pendevo dal seno.\" Sostituire nel blocco <section class=\"lyrics\"> la riga corrispondente mantenendo i tag HTML e l'ordine delle strofe.",
+      "translation_quote": "La Tua Provvidenza sostenne la mia vita,\n    E tutte le mie necessità ridusse,\n    Mentre giacevo nel silenzioso grembo,\n    E pendevo dal seno."
+    },
+    {
+      "location": "source.html — nota di fonte (p.source-note)",
+      "severity": "major",
+      "source_quote": "*sourced from Wikipedia and hymnary.org",
+      "suggested_fix": "Tradurre la nota di fonte in italiano per mantenere la coerenza linguistica dell'articolo. Ad esempio: \"*tratto da Wikipedia e hymnary.org\" oppure \"*fonte: Wikipedia e hymnary.org\". Sostituire il testo all'interno del tag <p class=\"source-note\"> senza alterare altri attributi o la struttura HTML.",
+      "translation_quote": "*sourced from Wikipedia and hymnary.org"
+    }
+  ],
   "id": "a7107e46490d5fbfb887fc2597ea5211",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ita",
@@ -100,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1f918b0ea8340bcf17f023b66bf22d08b2185fd15382de583ea5e89a31c88725.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "151c676a3a3f4de7275eee354cc0c629e172ecc2dbb372f12ae064df79d4e44e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

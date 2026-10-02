@@ -2,7 +2,6 @@
   "article_id": "d2d95264-7df9-4ca8-9a99-01a68204d73a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:56+00:00",
   "events": [
@@ -24,9 +23,65 @@
         },
         "total_tokens": 3688
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1436,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3345,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4781
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>…John 10:1-2…</p> (paragraph containing the John 10:1-2 quotation)",
+      "severity": "critical",
+      "source_quote": "“But he that entereth in by the door is the shepherd of the sheep.”",
+      "suggested_fix": "Translate the clause accurately into standard Bengali preserving the meaning “the shepherd of the sheep.” For example: “কিন্তু যে দরজা দিয়ে প্রবেশ করে, সেদিকেই ভেড়াদের চারণপাল।\" — or more idiomatically: “কিন্তু যে দরজা দিয়ে প্রবেশ করে, সে ভেড়াদের পালক।” Keep the surrounding quotation marks and the Scripture reference as in the source.",
+      "translation_quote": "“কিন্তু যে দরজা দিয়ে প্রবেশ করে, সে ভেড়ার মোহরখানা。”"
+    },
+    {
+      "location": "Paragraph containing “sealed” in John 6:27 quotation",
+      "severity": "critical",
+      "source_quote": "\"... which the Son of man shall give unto you: for him hath God the Father sealed\" (John 6:27)",
+      "suggested_fix": "Render the verb “sealed” correctly in Bengali in a way that conveys God’s authoritative confirmation. For example: “যা মানব সন্তান তোমাদের দেবে; কারণ পিতা ঈশ্বর তাঁকে সীলিত করেছেন।” Or: “কারণ পিতা ঈশ্বর তাঁকে সীলমোহর দিয়েছেন।” Preserve verse punctuation and reference.",
+      "translation_quote": "“কারণ তাকে পিতা ঈশ্বর মোমরাশিতে সীলমোহর করেছেন”"
+    },
+    {
+      "location": "Paragraph with Ephesians 4:15 quotation",
+      "severity": "critical",
+      "source_quote": "\"... into him in all things, which is the head, even Christ\" (Ephesians 4:15)",
+      "suggested_fix": "Correct the rendering of “which is the head, even Christ” so it conveys that Christ is the head. For example: “... সব কিছুর ক্ষেত্রে তাঁর মধ্যে বড় হওয়া — যিনি শির্ষ, খ্রীষ্ট।” or more smoothly: “... সব বিষয়ে তাঁর মধ্যে বড় হতে, তিনি যিনি মূলোধান—খ্রীষ্ট।” Keep the verse reference unchanged.",
+      "translation_quote": "“... সব বিষয়ে তাঁর মধ্যে বড় হচ্ছ—যিনি সিরিষ, খ্রীষ্ট—(এফিসীয়দের 4:15)।”"
+    },
+    {
+      "location": "Paragraph with 2 Corinthians 5:2 quotation (final paragraph)",
+      "severity": "major",
+      "source_quote": "\"... in this we groan, earnestly desiring to be clothed upon with our house which is from heaven\" (2 Corinthians 5:2)",
+      "suggested_fix": "Translate the clause so it reads clearly and faithfully in Bengali. Example: “... এজন্যই আমরা আকুল ধ্বনি তোলি; তীব্রভাবে ইচ্ছা করি আমাদের আসমান-থেকে আগত ঘরটি আমাদের উপরে পরিধান করা হোক।” Or: “... এ কারণেই আমরা আকুল (আকুলকায়) করুণা করি, তীব্র প্রত্যাশায় যে আকাশ থেকেই আমাদের ঘরটি পরিধান করাব।” Keep the verse reference and quotation marks.",
+      "translation_quote": "“... এতেই আমরা আকূলঢেউ খেলি, তীব্রভাবে ইচ্ছা করে আকাশ থেকে আমাদের ঘর দ্বারা পরিহিত হওয়ার জন্য”"
+    },
+    {
+      "location": "Multiple places — odd or nonstandard lexical choices (overall style)",
+      "severity": "minor",
+      "source_quote": "Full article English source (multiple idiomatic phrases and scriptural quotations)",
+      "suggested_fix": "Review the translation for several nonstandard or erroneous lexical choices that alter meaning or read awkwardly (examples flagged above). Use standard contemporary Bengali vocabulary for theological terms: e.g., ‘শির্ষ’ or ‘পালক’ for ‘head’/‘shepherd’, ‘সীলিত’ or ‘সীলমোহর দিয়েছেন’ for ‘sealed’, ‘আকুল/আকুলভাবে’ for 'groan earnestly'. Ensure all quoted Scripture verses are translated faithfully and read idiomatically in Bengali. Preserve HTML tags and verse references exactly as in source.",
+      "translation_quote": "Scattered throughout the translation (examples: “মোহরখানা”, “মোমরাশিতে”, “সিরিষ”, “আকূলঢেউ খেলি”)"
+    }
+  ],
   "id": "53d1954efa25d92a7f8acba041b1a5c1",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ben",
@@ -100,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 65,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8a99b566d1f7a4b71f671efc977b9e895b89fc48e4520caf1214f243e2083ab5.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d21eb9a2e384c54d8451d42bc7b07528a6bfe6b701385ff6d901ec268b981022",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

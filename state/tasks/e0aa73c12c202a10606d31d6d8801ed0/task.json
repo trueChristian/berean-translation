@@ -2,7 +2,6 @@
   "article_id": "d2d95264-7df9-4ca8-9a99-01a68204d73a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:56+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 3723
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 857,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3127,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3984
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.title",
+      "severity": "major",
+      "source_quote": "Saved by Hope",
+      "suggested_fix": "Translate the article title into Norwegian Bokmål. For example: \"Frelst ved håp\" or a more literal/idiomatic rendering such as \"Frelst ved håpet\". Preserve the title field as plain text (no HTML) and keep casing as desired by the publication.",
+      "translation_quote": "Saved by Hope"
+    },
+    {
+      "location": "source.section",
+      "severity": "major",
+      "source_quote": "FEATURED ARTICLE",
+      "suggested_fix": "Translate the section metadata into Norwegian Bokmål. For example: \"UTVALGT ARTIKKEL\" or \"FREMHEVET ARTIKKEL\" depending on the site's standard terminology. Replace the English label with the chosen Norwegian label in the translation.section field.",
+      "translation_quote": "FEATURED ARTICLE"
+    },
+    {
+      "location": "source.html paragraph 2 (Norwegian translation)",
+      "severity": "minor",
+      "source_quote": "This reasoning reminds me of Jesus' words in John 10:1-2 about entering the sheepfold. “But he that entereth in by the door is the shepherd of the sheep.”",
+      "suggested_fix": "Correct a Norwegian grammar error in the translation while keeping original HTML tags and structure. Replace \"Denne resonnementet minner meg om\" with the grammatically correct form \"Dette resonnementet minner meg om\". Example replacement (preserve surrounding tags):\n<p>... Dette resonnementet minner meg om Jesu ord i Johannes 10:1–2 om å gå inn i fårefolden: «Men den som går inn gjennom døren, er fårenes hyrde.» ...</p>",
+      "translation_quote": "Denne resonnementet minner meg om Jesu ord i Johannes 10:1–2 om å gå inn i fårefolden: «Men den som går inn gjennom døren, er fårenes hyrde.»"
+    }
+  ],
   "id": "e0aa73c12c202a10606d31d6d8801ed0",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "nob",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 80,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8a99b566d1f7a4b71f671efc977b9e895b89fc48e4520caf1214f243e2083ab5.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d21eb9a2e384c54d8451d42bc7b07528a6bfe6b701385ff6d901ec268b981022",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

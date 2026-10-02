@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<article> <ol> <li>4th list item</li>\",\"severity\":\"major\",\"source_quote\":\"Dominance of certain plants like thorns and thistles\",\"suggested_fix\":\"Translate the meaning 'dominance' or 'prevalence' accurately. For example: «Преобладание определённых растений, таких как шипы и колючки» (preserve the HTML structure).\",\"translation_quote\":\"Насилие определённых растений, таких как шипы и колючки\"},{\"location\":\"<article> <p>paragraph 1</p>\",\"severity\":\"minor\",\"source_quote\":\"barred from the tree of eternal life\",\"suggested_fix\":\"Correct Russian grammar while keeping the meaning. For example: «были изгнаны из сада, отстранены от древа жизни и на них было наложено проклятие…» (preserve original tag and sentence order).\",\"translation_quote\":\"изгнано из сада, отстранено от древа жизни и на него был наложен проклятие из‑за греха Адама и Евы.\"},{\"location\":\"<article> <h2>Преобладание шипов и колючек</h2> <p>paragraph about medicinal thistles</p>\",\"severity\":\"minor\",\"source_quote\":\"Blessed Thistle, Milk Thistle, Teasel, Raspberry Leaf, and Blackberry roots\",\"suggested_fix\":\"Either translate the English plant names into standard Russian only, or give the Russian name first with the English in parentheses. For example: «благословенный чертополох (Blessed Thistle), расторопша (Milk Thistle), репейник (Teasel), лист малины (Raspberry leaf) и корни ежевики (Blackberry roots)». Preserve tags and punctuation.\",\"translation_quote\":\"Blessed Thistle (благословенный чертополох), Milk Thistle (расторопша), Teasel (репейник), лист малины и корни ежевики — это лишь несколько примеров представителей этих «колючих сорняков»\"}],\"passed\":false,\"score\":82}",
+    "content_bytes": 2146,
+    "content_evidence_truncated": false,
+    "content_sha256": "5f549e631270f14deba1c4d077def8ac81b7374b8c7500ad92de42e8777e90a2",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1177,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6893,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8070
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

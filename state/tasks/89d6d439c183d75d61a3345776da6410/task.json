@@ -2,7 +2,6 @@
   "article_id": "3c581136-51cf-47b2-a38b-3d1ee1d0b864",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,37 @@
         },
         "total_tokens": 6600
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 680,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6387,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7067
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>When I entered the kitchen, Judy lay on the floor, jerking rhythmically. I had never seen anyone in a seizure before, but somehow, I just knew. She’s having a seizure!</p>",
+      "severity": "critical",
+      "source_quote": "I had never seen anyone in a seizure before, but somehow, I just knew.",
+      "suggested_fix": "Translate the English word \"somehow\" into Arabic to avoid leaving an untranslated substantive word in the body text. Example fixes that preserve meaning and tone: \"لم أرَ أحدًا في نوبة تشنج من قبل، لكن بطريقة ما عرفت ذلك فورًا.\" or \"لم أرَ أحدًا في نوبة تشنج من قبل، لكنني دون أن أعرف كيف عرفت فورًا.\" Replace the untranslated English word only, keeping the rest of the sentence as in the translation.",
+      "translation_quote": "لم أرَ أحدًا في نوبة تشنج من قبل، لكن somehow، عرفته فورًا. إنها في نوبة تشنج!"
+    }
+  ],
   "id": "89d6d439c183d75d61a3345776da6410",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ara",
@@ -100,11 +127,13 @@
     }
   },
   "protected": false,
+  "quality_score": 40,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3eb2e8fac297406d71e2a495d876bb17af55171cebc6261c77bdfbb7e9c2311e.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "f2478f0ee567de50716f2f909dafecb28388c4d5ba9651d1eee51ca0878db9fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

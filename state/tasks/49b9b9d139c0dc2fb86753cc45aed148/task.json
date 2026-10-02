@@ -2,7 +2,6 @@
   "article_id": "ee9ff8a9-5b59-4b3e-9585-ab891c945bb5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,45 @@
         },
         "total_tokens": 1595
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 875,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1384,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2259
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<figure> <img alt>",
+      "severity": "minor",
+      "source_quote": "A snow-covered road winding through an evergreen forest",
+      "suggested_fix": "将 img 的 alt 属性改为更自然、语法完整的中文短语，例如：alt=\"一条被雪覆盖的公路穿过常绿树林\"。保持其他 img 属性不变。",
+      "translation_quote": "被雪覆盖的公路穿过常绿树林"
+    },
+    {
+      "location": "<div class=\"poem\"> 第二段第一行到第二行",
+      "severity": "minor",
+      "source_quote": "Life is mostly what we make it,\n    Straight or crooked, one of twain;",
+      "suggested_fix": "将对应译文调整为更通顺的中文诗行，同时保留原意，例如将\n<p>人生多半由我们造，<br>\n    直或曲，二者之一；</p>\n改为\n<p>人生多半由我们造，<br>\n    或直或弯，皆由己定；</p>\n（在 <div class=\"poem\"> 的相应位置替换该行，保留 HTML 结构和换行 <br>）。",
+      "translation_quote": "人生多半由我们造，\n    直或曲，二者之一；"
+    }
+  ],
+  "finished_at": "2026-10-02T12:50:22+00:00",
   "id": "49b9b9d139c0dc2fb86753cc45aed148",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "cmn",
@@ -100,11 +135,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/b70a42a3055e9b0b2f7cc18e717a71e0c042b99f8312a6e4498df59b68992446.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "a0e94b1f79a0eed4b2b4fa527a207a63d01981d07be68e5cda06b45933da47fd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

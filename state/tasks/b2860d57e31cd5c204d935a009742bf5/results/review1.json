@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "70373285-0824-429c-8a60-ce8a902d496c",
+    "response_id": "chatcmpl-EUWw4lQ0hwFBUcxwJVDaOp4AJqI16",
+    "usage": {
+      "completion_tokens": 1005,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1411,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2416
+    }
+  },
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\">\n    <p>...اے عزیز جانو! زندگی کے راستے پر،\n    اپنے نجات دہندہ کی سینے سے جکو؛...",
+        "severity": "minor",
+        "source_quote": "O dear souls! upon life’s pathway,\n    Lean upon your Savior’s breast;",
+        "suggested_fix": "Correct a small typographical/orthographic error: change “جکو” to standard Urdu “جھکو”. Keep the surrounding HTML and tags unchanged.",
+        "translation_quote": "اے عزیز جانو! زندگی کے راستے پر،\n    اپنے نجات دہندہ کی سینے سے جکو؛"
+      },
+      {
+        "location": "<div class=\"poem\">\n    <p>...ہمیں بالکل وہی ملے گا جو ہم مستحق ہیں—\n    ہماری ازلی کمی یا نصیب۔</p>",
+        "severity": "minor",
+        "source_quote": "We’ll receive just what we merit—\n    Our eternal loss or gain.",
+        "suggested_fix": "Improve word choice for clarity and to better reflect the pair “loss or gain.” Suggested replacements (choose one that best fits the translator’s style) while preserving tags: • “ہمیں بالکل وہی ملے گا جو ہم مستحق ہیں— ہماری ابدی خسارہ یا فایدہ۔” • or “ہمیں بالکل وہی ملے گا جو ہم مستحق ہیں— ہمارا ابدی نقصان یا نفع۔” Do not change Scriptures or structure.",
+        "translation_quote": "ہمیں بالکل وہی ملے گا جو ہم مستحق ہیں—\n    ہماری ازلی کمی یا نصیب۔"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

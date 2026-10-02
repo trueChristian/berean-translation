@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "55cff823-0964-4e6c-8583-69428ca5ed2b",
+    "response_id": "chatcmpl-EUWw3CvExs6yMx9J6yZPkATktj5P0",
+    "usage": {
+      "completion_tokens": 948,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6821,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7769
+    }
+  },
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First blockquote, first paragraph",
+        "severity": "minor",
+        "source_quote": "Prayer lays hold of God's plan and becomes the link between His will and its accomplishment on earth. Amazing things happen, and we are given the privilege of being the channels of the Holy Spirit's prayer.",
+        "suggested_fix": "Replace the katakana/English loanword 'सリンク' with an appropriate Hindi word such as 'संबंध', 'कड़ी', or 'मध्यम' to read: \"...और उसकी इच्छा व पृथ्वी पर उसके पूर्ण होने के बीच की कड़ी बन जाती है.\"",
+        "translation_quote": "प्रार्थना परमेश्वर की योजना को पकड़ लेती है और उसकी इच्छा व पृथ्वी पर उसके पूर्ण होने के बीच का सリンク बन जाती है। अद्भुत बातें घटती हैं, और हमें पवित्र आत्मा की प्रार्थना के माध्यम बनने का सौभाग्य दिया जाता है।"
+      },
+      {
+        "location": "Paragraph beginning 'हमारी प्रार्थनाएँ ज़्यादा earnest (गहन) हो गईं'",
+        "severity": "minor",
+        "source_quote": "Our prayers were getting more earnest as we progressed through an EEG (brain scan looking for seizure activity) and more doctor visits.",
+        "suggested_fix": "Remove the leftover English word and its parenthetical note, and use fluent Hindi: e.g. \"जैसे-जैसे हम EEG (दौरे की गतिविधि देखने के लिए मस्तिष्क स्कैन) और अधिक डॉक्टर के पास गए, हमारी प्रार्थनाएँ और भी गहन हो गईं।\" Or simply: \"जैसे-जैसे हम EEG और डॉक्टर के और विज़िट से गुज़रे, हमारी प्रार्थनाएँ और भी गहन हो गईं।\"",
+        "translation_quote": "हमारी प्रार्थनाएँ ज़्यादा earnest (गहन) हो गईं जैसे ही हम EEG (दौरे की गतिविधि देखने के लिए मस्तिष्क स्कैन) और और डॉक्टर के विजिट से गुज़रे।"
+      },
+      {
+        "location": "Paragraph 'जब हमने जूडी को अगले न्यूरोसर्जन अपॉइंटमेंट पर ले जाया'",
+        "severity": "minor",
+        "source_quote": "They specifically asked that the doctors wouldn’t find anything when they did the angiogram.",
+        "suggested_fix": "Correct typographical/spelling errors for natural Hindi: change 'डॉक्तरों' to 'डॉक्टरों'. Suggest the sentence read: \"उन्होंने विशेष रूप से यह माँगा कि डॉक्टरों को एंजियोग्राम में कुछ न मिले।\"",
+        "translation_quote": "उन्होंने विशेष रूप से यह माँगा कि डॉक्तरों को एंजियोग्राम में कुछ न मिले।"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph with Matt, 11:28-30 (near end of article)",
+      "severity": "minor",
+      "source_quote": "Jesus tells us that His yoke is easy, and His burden is light (Matt, 11:28-30).",
+      "suggested_fix": "Translate the Bible book name into standard French usage and use conventional punctuation. For example: « Jésus nous dit que son joug est léger et son fardeau doux (Matthieu 11:28-30). » — or the abbreviated French form « (Matth. 11:28‑30) ». Preserve the same chapter and verse numbers and the punctuation style used elsewhere in the article.",
+      "translation_quote": "Jésus nous dit que son joug est léger et son fardeau doux (Matt, 11:28-30)."
+    },
+    {
+      "location": "Paragraph quoting 1 Samuel passage (section 'Tous ont des limites')",
+      "severity": "minor",
+      "source_quote": "“Ye shall not do so, my brethren, with that which the Lord hath given us...they shall part alike.” (I Samuel 30:23,24)",
+      "suggested_fix": "Make the citation consistent with the conventions used elsewhere in the French text. Use the French form of the book name and a consistent chapter:verse notation. For example: « (1 Samuel 30:23‑24) » is acceptable in French, but to be fully consistent with other French Bible citations in the article you may also use « (1 Samuel 30:23‑24) » or « (1 Samuel 30:23,24) » — keep spacing and hyphenation consistent with the rest of the translated citations.",
+      "translation_quote": "En réponse, David dit : « Vous ne ferez point ainsi, mes frères, envers ce que l’Éternel nous a donné...ils partageront également. » (1 Samuel 30:23,24)"
+    },
+    {
+      "location": "Paragraph with the vehicle analogy under 'Qu’est‑ce que l’épuisement professionnel ?'",
+      "severity": "minor",
+      "source_quote": "It is as though you are in a vehicle traveling 90 mph, and you push the accelerator a little harder...",
+      "suggested_fix": "Preserve the original numeric example rather than converting units. Use the original '90 mph' (or include both) to avoid introducing an unintended change in the author's example. For example: « C’est comme si vous étiez dans un véhicule roulant à 90 mph (environ 145 km/h)... » or simply « ...roulant à 90 mph... ».",
+      "translation_quote": "C’est comme si vous étiez dans un véhicule roulant à 145 km/h, que vous enfonciez un peu plus l’accélérateur, et rien ne se passe."
+    },
+    {
+      "location": "Paragraph describing kidneys 'putting out more than they were taking in' (early, patient story)",
+      "severity": "minor",
+      "source_quote": "In a sense, Mrs. Jones was dealing with kidney burnout—a situation where they were putting out more than they were taking in and suffering as a result.",
+      "suggested_fix": "Adjust French grammar and agreement so the pronoun agrees with the antecedent (les reins, feminine plural). For example: « D’une certaine façon, Mme Jones faisait face à un épuisement rénal — une situation où elles éliminent plus qu’elles n’absorbent et en souffrent. » or more idiomatically: « ...une situation où les reins éliminent plus de liquide qu’ils n’en reçoivent, et en souffrent. » (use 'ils' only if referring clearly to 'les reins' as masculine in context; better to recast to avoid gender mismatch).",
+      "translation_quote": "D’une certaine façon, Mme Jones faisait face à un épuisement rénal — une situation où ils déversent plus qu’ils n’absorbent et en souffrent."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

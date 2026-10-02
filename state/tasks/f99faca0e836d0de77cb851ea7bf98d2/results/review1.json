@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "030df2c4-7926-4c91-9871-a0083a2530d7",
+    "response_id": "chatcmpl-EUWw4bU43PhxDVSbdw5wqRnUnX9Nu",
+    "usage": {
+      "completion_tokens": 1043,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6507,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7550
+    }
+  },
+  "received_at": "2026-10-02T12:50:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph: “In the first 24 hours after birth…” (blockquote following)",
+        "severity": "minor",
+        "source_quote": "“She is disgruntled about being born,” I joked.",
+        "suggested_fix": "Replace the masculine verb form with the feminine to match the narrator’s voice. Keep punctuation and tags unchanged. Suggested Russian: «Она недовольна тем, что родилась», — пошутила я.",
+        "translation_quote": "«Она недовольна тем, что родилась», — пошутил я."
+      },
+      {
+        "location": "source.html — paragraph: “We owned a bulk food store, and many local non-Mennonite folks knew us.”",
+        "severity": "minor",
+        "source_quote": "We owned a bulk food store, and many local non-Mennonite folks knew us.",
+        "suggested_fix": "Correct the adjective for “non‑Mennonite” into standard Russian spelling/wording. Suggested Russian: «мы знали многих местных неменнонитов» or «многие местные неменнониты знали нас». Preserve the sentence structure and HTML tags.",
+        "translation_quote": "Мы владели оптовым магазином продуктов, и многие местные не‑меннониты знали нас."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

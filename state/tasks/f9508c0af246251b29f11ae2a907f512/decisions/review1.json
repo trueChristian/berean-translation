@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Throughout article — inline Scripture citations in parentheses (e.g. first occurrence in second paragraph)",
+      "severity": "major",
+      "source_quote": "… that one of the signs of the end times is that “then shall many be offended . . . and shall hate one another” (Matthew 24:10).",
+      "suggested_fix": "Replace the English book name in the parenthetical citation with the conventional German book name while keeping chapter and verse unchanged. Example: (Matthäus 24:10). Apply the same replacement consistently to every parenthetical scripture reference (e.g. (Mark 14:27) → (Markus 14:27); (Psalm 119:165) → (Psalm 119:165); (Ephesians 4:1-2) → (Epheser 4:1-2); (Proverbs 16:18) → (Sprüche 16:18); (Isaiah 57:14-15) → (Jesaja 57:14-15); (Isaiah 40:31) → (Jesaja 40:31); (Ephesians 5:2-4) → (Epheser 5:2-4); (Esther 6:6) → (Esther 6:6); (Ephesians 5:8-11) → (Epheser 5:8-11); (2 Timothy 4:3-4) → (2. Timotheus 4:3-4); (John 16:1-4) → (Johannes 16:1-4); (John 5:35) → (Johannes 5:35); (Luke 7:20-23) → (Lukas 7:20-23); (2 Samuel 3:15-16) → (2. Samuel 3:15-16); (1 Peter 2:20) → (1. Petrus 2:20); (Ephesians 5:15) → (Epheser 5:15); (1 Corinthians 14:20) → (1. Korinther 14:20); (2 Samuel 6:16) → (2. Samuel 6:16); (2 Corinthians 5:13) → (2. Korinther 5:13); (2 Samuel 6:23) → (2. Samuel 6:23); (Proverbs 18:19) → (Sprüche 18:19); (1 Thessalonians 3:3) → (1. Thessalonicher 3:3). Ensure every parenthetical Bible citation uses the conventional German book name form and that chapter:verse formatting is left unchanged.",
+      "translation_quote": "… dass „dann werden viele Anstoß nehmen … und werden einander hassen“ (Matthew 24:10)."
+    },
+    {
+      "location": "Paragraph discussing Elijah/Elijah comparison (near: \"Like his Old Testament counterpart, Elijah\")",
+      "severity": "major",
+      "source_quote": "Like his Old Testament counterpart, Elijah, these like passions provided the fodder for the flames of discouragement.",
+      "suggested_fix": "Restore the prophet name to the conventional German form and remove the bracketed form. Use 'Elija' (German) or retain the author’s original intended name if it was 'Elijah' but localized per German convention. Suggested wording: „Wie sein alttestamentlicher Gegenpart Elija …“ Replace the current reproduction \"Elisa[Elija]\" with the single correct German name (Elija) and remove the bracketed variant.",
+      "translation_quote": "Die Antwort Christi deutet darauf hin, dass dies offenbar nicht ganz den Erwartungen entsprach, die Johannes im Sinn hatte, und er rang damit, es zu akzeptieren. Wie sein alttestamentlicher Gegenpart Elisa[Elija], boten solche leidenschaftlichen Gefühle Brennstoff für die Flammen der Entmutigung."
+    },
+    {
+      "location": "Lead paragraph drop-cap and a few parenthetical glosses (e.g. lead drop-cap \"I\" and the parenthetical '(sensual)')",
+      "severity": "minor",
+      "source_quote": "<span class=\"drop-cap\">I</span> doubt that there is a soul alive… ; The closest word we can find there is sensual, which is very similar in its roots…",
+      "suggested_fix": "Localize the drop-cap letter to match the German translation (the word begins with 'Ich' so the drop-cap should be 'I' only if styling requires the initial letter of the German word; ensure the drop-cap reflects the German initial 'I' of 'Ich'). Remove or translate retained English glosses. For the parenthetical gloss '(sensual)' translate or remove the English: e.g. 'das nächste Wort … ist sinnlich, das in seinen Wurzeln sehr ähnlich ist und ‚natürlich‘ bedeutet.' Remove the extra English 'sensual' in parentheses or present it only as a German explanatory gloss if deemed necessary (e.g. 'sinnlich').",
+      "translation_quote": "<span class=\"drop-cap\">I</span>ch bezweifle, dass … ; Das nächste Wort, das wir dort finden, ist sinnlich (sensual), das in seinen Wurzeln sehr ähnlich ist …"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

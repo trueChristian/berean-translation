@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> — tercera estrofa, segundo verso después de la coma",
+      "severity": "major",
+      "source_quote": "There no foe can e’er molest you,",
+      "suggested_fix": "Mantener la misma persona gramatical que el resto del poema (segunda persona plural). Por ejemplo: “Allí ningún enemigo podrá molestaros jamás,” o, si se prefiere español de América y se opta por ustedes: ajustar toda la estrofa para usar \"ustedes\" (ver nota). Reemplace exactamente la frase traducida actual por la forma sugerida y conserve las mismas etiquetas HTML y saltos de línea.",
+      "translation_quote": "Allí ningún enemigo puede molestarnos jamás,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

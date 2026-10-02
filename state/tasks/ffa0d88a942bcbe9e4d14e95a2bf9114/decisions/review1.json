@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2 (second <p>)",
+      "severity": "major",
+      "source_quote": "\"God’s Faithfulness Manifest Even in the Curse\"",
+      "suggested_fix": "Translate the quoted English article title into Spanish and remove or do not leave the original English inside the article HTML. For example, replace “\"God’s Faithfulness Manifest Even in the Curse\" (La fidelidad de Dios manifiesta incluso en la maldición)” with only the Spanish translation in the same structure: «La fidelidad de Dios manifiesta incluso en la maldición». Preserve the existing HTML tags and surrounding punctuation.",
+      "translation_quote": "“God’s Faithfulness Manifest Even in the Curse” (La fidelidad de Dios manifiesta incluso en la maldición)"
+    },
+    {
+      "location": "Paragraph 3 (third <p>)",
+      "severity": "major",
+      "source_quote": "\"A Word From the Doctor\"",
+      "suggested_fix": "Translate the quoted English phrase into Spanish and remove the retained English. Replace «\"A Word From the Doctor\" (Una palabra del médico)» with only the Spanish translation in the same punctuation and tag structure: «Una palabra del médico».",
+      "translation_quote": "«A Word From the Doctor» (Una palabra del médico)"
+    },
+    {
+      "location": "Paragraph 6 (sixth <p>, tractor anecdote)",
+      "severity": "minor",
+      "source_quote": "\"broiler houses\" / \"new flock\"",
+      "suggested_fix": "Use a more natural, industry-appropriate Spanish term for 'broiler houses' and 'flock' in this context. For example, replace \"casas de cría\" with \"galpones para pollos de engorde\" and change \"nuevo rebaño\" to \"nueva parvada\" or \"nuevo lote\" depending on preferred local terminology. Keep the existing HTML and sentence order.",
+      "translation_quote": "\"casas de cría\" / \"nuevo rebaño\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

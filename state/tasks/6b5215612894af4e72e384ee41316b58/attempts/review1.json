@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<section class=\\\"references\\\"> <ol> <li>Strongs Concordance</li> </ol> </section>\",\"severity\":\"critical\",\"source_quote\":\"Strongs Concordance\",\"suggested_fix\":\"Traducir el nombre de la referencia al español manteniendo la identificación; por ejemplo: \\\"Concordancia de Strong\\\" o \\\"Strong's Concordance\\\" según la convención editorial del sitio. Reemplace exactamente el contenido del <li> preservando las etiquetas: <li>Concordancia de Strong</li>.\",\"translation_quote\":\"Strongs Concordance\"},{\"location\":\"<p>“Mucho paz tienen los que aman tu ley; y nada los hace tropezar” (Salmo 119:165).</p>\",\"severity\":\"major\",\"source_quote\":\"“Great peace have they which love thy law: and nothing shall offend them” (Psalm 119:165).\",\"suggested_fix\":\"Corregir la traducción bíblica para que sea idiomáticamente correcta y fiel al sentido impreso en inglés. Sugerencia que preserva la estructura de la cita: “Gran paz tienen los que aman tu ley; y nada los hará tropezar” (Salmo 119:165). Reemplace el texto entre comillas dentro del mismo <p> y mantenga la referencia de capítulo/versículo sin cambios.\",\"translation_quote\":\"“Mucho paz tienen los que aman tu ley; y nada los hace tropezar” (Salmo 119:165).\"},{\"location\":\"<p>“Caminó en amor, y multitudes “estadaban dispuestas por algún tiempo a regocijarse en su luz” (Juan 5:35).</p>\",\"severity\":\"minor\",\"source_quote\":\"“and multitudes “were willing for a season to rejoice in his light” (John 5:35).\",\"suggested_fix\":\"Corregir la forma verbal tipográfica a la forma estándar. Reemplace “estadaban” por “estaban”: “Caminó en amor, y multitudes estaban dispuestas por algún tiempo a regocijarse en su luz” (Juan 5:35). Mantener las mismas etiquetas HTML y la referencia bíblica.\",\"translation_quote\":\"Caminó en amor, y multitudes “estadaban dispuestas por algún tiempo a regocijarse en su luz” (Juan 5:35).\"}],\"passed\":false,\"score\":80}",
+    "content_bytes": 1966,
+    "content_evidence_truncated": false,
+    "content_sha256": "49ca3af83d8f2541568164aaa52ed1f581194239a1a8f1b3c33559700c148045",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1095,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7989,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9084
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

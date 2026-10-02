@@ -2,7 +2,6 @@
   "article_id": "d0395fde-712d-488d-a161-c26c87ed128b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 10536
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1514,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9876,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11390
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph: \"I Samuel 30 tells the story...\" (source.html near I Samuel 30)",
+      "severity": "major",
+      "source_quote": "David and his men had been gone three days ... they had only gone as far as the Brook Besor when a third of his men gave up. Scripture tells us they were “too faint” to cross the brook. They were physically and mentally exhausted.",
+      "suggested_fix": "Use a correct, conventional Arabic rendering of the tribal name \"Amalekites\" and of the place-name \"Brook Besor.\" Replace the translation's term \"العَمالقة\" (which reads as \"the giants\") with the standard Arabic form for the Amalekites (e.g., \"الأَمالِق\" or \"الْعَمَاليق\" consistent with the publication style) and render \"Brook Besor\" as a brook/stream (e.g., \"غدر بِصر\" or \"خُرْدَة بِصر\" / \"غدر بصير\") rather than \"نهر بِصر\". Preserve the original meaning that a third of David's men were too faint to cross the brook. Example suggested Arabic: \"... فاقتحم الأَمَالِق أرض الفلسطينيين ... لم يقطعوا مسافة طويلة حتى غدر بِصر إذ استسلم ثلث رجاله. تخبرنا الآيات أنهم «أضعفوا» عن عبور الغدر.\"",
+      "translation_quote": "تُخبرنا قصة صموئيل الأول 30 عن عودة داود إلى صِقلاق. عند وصوله اكتشف — لخيبة أمله — أن العَمالقة غزوا أرض الفلسطينيين وأحرقوا المدينة وأسروا كل الناس الذين كانوا فيها.\n...\nلم يقطعوا مسافة طويلة حتى نهر بِصر، إذ استسلم ثلث رجاله. تخبرنا الآيات أنهم «أضعفوا» عن عبور الوادي."
+    },
+    {
+      "location": "Paragraph: \"To take care of it, she would need IV fluids ... kidneys would shut down completely.\" (opening clinical vignette)",
+      "severity": "minor",
+      "source_quote": "Without that, her kidneys would shut down completely.",
+      "suggested_fix": "Correct the Arabic phrasing so it reads clearly and idiomatically: replace \"ستتوقف كُلاها تماماً\" with \"ستتوقف كليتاها تمامًا\" to unambiguously mean 'her two kidneys'.",
+      "translation_quote": "من دون ذلك ستتوقف كُلاها تماماً."
+    },
+    {
+      "location": "Paragraph: \"They had only gone as far as the Brook Besor...\" (I Samuel narrative)",
+      "severity": "minor",
+      "source_quote": "They had only gone as far as the Brook Besor when a third of his men gave up.",
+      "suggested_fix": "Render 'Brook Besor' using a term that reflects a brook/stream rather than 'نهر' (river). Consider 'غدر بصِر' or 'وادي بِصر' to convey the small watercourse implied by 'brook.'",
+      "translation_quote": "لم يقطعوا مسافة طويلة حتى نهر بِصر، إذ استسلم ثلث رجاله."
+    }
+  ],
   "id": "ab47b12941201409223dd7969c520200",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ara",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/424016ec077ce60b7ce19dc1c1e702f6403927db5e19e2310bed3e34f10db986.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "28073e361d20840e4b86554b9fb0dc665e6272c0d3acf705cd41f2c5576aaa35",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<div class=\\\"poem\\\"> stanza 1, line 2\",\"severity\":\"minor\",\"source_quote\":\"For the multitude of souls,\",\"suggested_fix\":\"Överväg ett mer idiomatiskt svenskt uttryck som bättre fångar ‘multitude’ i poetisk kontext, t.ex. »för de många själarna« eller »för mängder av själar«. Bevara versrytmen och versstruktur i samma HTML-element.\",\"translation_quote\":\"för mängden själar,\"},{\"location\":\"<div class=\\\"poem\\\"> stanza 3, line 3\",\"severity\":\"minor\",\"source_quote\":\"There no foe can e’er molest you,\",\"suggested_fix\":\"Överväg ett starkare svenskt verb som bättre motsvarar äldre/poetisk betydelse av »molest« (skada/plåga/föra illa) — t.ex. »skada er«, »plåga er« eller »göra er illa«. Exempel: »Där kan ingen fiende någonsin skada er,«. Behåll samma HTML-taggar och versbrytningar.\",\"translation_quote\":\"Där kan ingen fiende någonsin störa er,\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 944,
+    "content_evidence_truncated": false,
+    "content_sha256": "3998379213478dac502ada0ce80344868d230730ce09eb17874ea4c406f8f559",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 861,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1376,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2237
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b88c56fd-4aa6-4842-b126-18309b2b3a5f",
+    "response_id": "chatcmpl-EUWw3Hx3tgouKVLyOsTkKIZvUB3zR",
+    "usage": {
+      "completion_tokens": 1153,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2846,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3999
+    }
+  },
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...sitting on the road bank with some neighborhood boys... (first paragraph)</p>",
+        "severity": "major",
+        "source_quote": "He was sitting on the road bank with some neighborhood boys who had stopped by.",
+        "suggested_fix": "Replace the mistranslation \"naboduer\" with a correct rendering such as \"nabogutter\" so the sentence reads: \"Lille Davy satt på veikanten sammen med noen nabogutter som hadde stanset innom.\" Preserve the surrounding HTML and tags exactly.",
+        "translation_quote": "Lille Davy satt på veikanten sammen med noen naboduer som hadde stanset innom."
+      },
+      {
+        "location": "<figure> <figcaption>...PROVERBS 16:18</figcaption> (figure caption)</figure>",
+        "severity": "minor",
+        "source_quote": "\"PRIDE GOETH BEFORE\nDESTRUCTION, AND AN\nHAUGHTY SPIRIT BEFORE\nA FALL\"\n-PROVERBS 16:18",
+        "suggested_fix": "Correct the conventional Norwegian Bokmål book name. Replace \"ORDSPRØKENE 16:18\" with \"ORDSPRÅKENE 16:18\" so the caption reads: \"STOLTHET GÅR FORUT FOR\\nUNDERGANG, OG ET\\nHOVMODIG SINN FORUT FOR\\nET FALL\"\\n-ORDSPRÅKENE 16:18. Preserve line breaks and HTML tags.",
+        "translation_quote": "\"STOLTHET GÅR FORUT FOR<br>\n    UNDERGANG, OG ET<br>\n    HOVMODIG SINN FORUT FOR<br>\n    ET FALL\"<br>\n    -ORDSPRØKENE 16:18"
+      },
+      {
+        "location": "<p>«Vel,\" ... WD40 ...</p> (third paragraph)",
+        "severity": "minor",
+        "source_quote": "\"Well,\" Big David began to brag, \"With my longer legs, and freshly sprayed WD40, my bike is sure to be the fastest.\"",
+        "suggested_fix": "Translate \"freshly sprayed WD40\" more idiomatically and accurately. Replace \"nymontert WD40\" with \"nysprayet WD40\" or \"ferskt sprayet WD40\" so the sentence reads: \"«Vel,» begynte Store David og skryte, «med mine lengre ben, og ferskt sprayet WD40, er sykkelen min helt sikkert den raskeste.»\" Preserve HTML structure.",
+        "translation_quote": "«Vel,» begynte Store David og skryte, «med mine lengre ben, og nymontert WD40, er sykkelen min helt sikkert den raskeste.»"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b6f8d836-15c9-4d53-bb3d-6fb2043ed907",
+    "response_id": "chatcmpl-EUWwaFm08SGsuO1ZgZFPkVEnvzUIF",
+    "usage": {
+      "completion_tokens": 1226,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1460,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2686
+    }
+  },
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<figure> <img alt>",
+        "severity": "minor",
+        "source_quote": "A snow-covered road winding through an evergreen forest",
+        "suggested_fix": "Correct Greek grammar and idiom: use masculine article and a natural word for “evergreen.” Example: alt=\"Ένας χιονισμένος δρόμος που διασχίζει ένα αειθαλές δάσος\" (or «που διασχίζει ένα δάσος με αειθαλή έλατα» if the image shows conifers). Preserve the alt attribute within the same <img> tag.",
+        "translation_quote": "Μια χιονισμένη δρόμος που σπειροειδώς διασχίζει ένα αιωνόβιο δάσος"
+      },
+      {
+        "location": "<div class=\"poem\"> second stanza fourth line",
+        "severity": "minor",
+        "source_quote": "Our eternal loss or gain.",
+        "suggested_fix": "Fix agreement and idiomatic phrasing: change to «την αιώνια απώλεια ή το κέρδος μας.» or «την αιώνια απώλεια ή το αιώνιο κέρδος μας.» Preserve punctuation and em-dash if present.",
+        "translation_quote": "Την αιώνια απώλεια ή την κέρδη μας."
+      },
+      {
+        "location": "<div class=\"poem\"> third stanza second line",
+        "severity": "minor",
+        "source_quote": "Lean upon your Savior’s breast;",
+        "suggested_fix": "Use an imperative form and terminal punctuation that matches the English exclamation/command rather than a question mark. Example: «Γείρετε στο στήθος του Σωτήρα σας.» (replace the question mark with a period or exclamation as appropriate).",
+        "translation_quote": "Γείρετε στο στήθος του Σωτήρα σας;"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

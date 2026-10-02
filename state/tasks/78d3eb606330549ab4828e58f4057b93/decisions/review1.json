@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<p>...\"appeared weak and unlikely to live\"... (paragraph about Addison's birth)",
+      "severity": "minor",
+      "source_quote": "“appeared weak and unlikely to live\"",
+      "suggested_fix": "Översättningen bör återge meningen utan att ändra innebörden. Föreslagen översättning: “sågs vara svag och sannolikt inte komma att överleva” (behåll citattecken och HTML-struktur).",
+      "translation_quote": "”sågs vara svag och troligen inte avsedd att leva\""
+    },
+    {
+      "location": "<section class=\"lyrics\"> (första versen, sista rad)",
+      "severity": "minor",
+      "source_quote": "I’m lost In wonder, love and praise.",
+      "suggested_fix": "Ändra till en mer idiomatisk och teologiskt trogen svensk formulering. Föreslagen översättning: “Jag försjunker i förundran, kärlek och lovsång.” (behåll <p><em>…</em></p>-taggarna och radbrytningar som i källan).",
+      "translation_quote": "Jag förgås i förundran, kärlek och pris."
+    },
+    {
+      "location": "<p class=\"source-note\">*sourced from Wikipedia and hymnary.org</p>",
+      "severity": "major",
+      "source_quote": "*sourced from Wikipedia and hymnary.org",
+      "suggested_fix": "Detta informationsstycke är del av artikeln och skall översättas till målspråket. Föreslagen översättning (behåll samma element och klass): <p class=\"source-note\">*källor: Wikipedia och hymnary.org</p>",
+      "translation_quote": "*sourced from Wikipedia and hymnary.org"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

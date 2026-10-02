@@ -2,7 +2,6 @@
   "article_id": "48db8b57-eca2-4d35-a48f-13c21d68bab0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,45 @@
         },
         "total_tokens": 9476
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1536,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8933,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10469
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html — multiple scripture parenthetical citations (e.g. “(Matthew 24:10)”, “(Matthew 18:7)”, “(Mark 14:27)”, etc.)",
+      "severity": "minor",
+      "source_quote": "…Jesus mentioned that one of the signs of the end times is that “then shall many be offended . . . and shall hate one another” (Matthew 24:10). … “Woe unto the world because of offences!” (Matthew 18:7) … “All ye shall be offended because of me this night” (Mark 14:27). … “Great peace have they which love thy law: and nothing shall offend them” (Psalm 119:165). … “In many things, we offend all” (James 3:2). … (and other verse citations throughout the article)",
+      "suggested_fix": "Replace the English book names in all parenthetical Scripture references with conventional Urdu book names, preserving the exact chapter:verse numbers and punctuation and keeping them in parentheses. For example: (Matthew 24:10) → (متی 24:10); (Matthew 18:7) → (متی 18:7); (Mark 14:27) → (مرقس 14:27); (Psalm 119:165) → (مزامیر 119:165); (James 3:2) → (یعقوب 3:2). Apply the same conversion consistently for every Scripture citation in the translation (e.g., Isaiah → یسعیاہ or the site’s preferred Urdu form, Ephesians → افسیوں, Proverbs → امثال, Luke → لوقا, John → یوحنا, 2 Samuel → 2 سموئیل, 1 Peter → 1 پطرس, 2 Timothy → 2 تیموتھیس, 1 Thessalonians → 1 تھسلنیکیوں, etc.). Do not change verse numbers or the number/placement of references; only replace the English book names with their standard Urdu equivalents.",
+      "translation_quote": "…یسوع نے انتہائے زمان کے ایک نشانے کے طور پر ذکر کیا کہ “تب بہت سے لوگ ٹھوکر کھائیں گے . . . اور ایک دوسرے سے نفرت کریں گے” (Matthew 24:10)۔ … “دنیا بربادی کے لیے! کم دنوں میں تو ٹھوکر کھانے کی بنا رہے گا!” (Matthew 18:7) … “سب تم میں سے آج رات میرے سبب سے ٹھوکر کھائیں گے” (Mark 14:27)۔ … “بہت محبت کرنے والوں کو بہت سکون ہے تیرے حکم کی: اور کوئی چیز اُنہیں ٹھوکر نہ دے گی” (Psalm 119:165). … “ہم بہت سی چیزوں میں سب لوگوں کو ٹھوکر دیتے ہیں” (James 3:2). … (اور مضمون میں دیگر حوالہ جات) "
+    },
+    {
+      "location": "source.html — References section (final list item)",
+      "severity": "minor",
+      "source_quote": "Strongs Concordance",
+      "suggested_fix": "Translate or transliterate the reference title into Urdu or mark it as a proper-name transliteration consistent with the site style. Options: render as a transliteration (e.g., \"اسٹرونگز کنکورڈنس\" or \"Strongs کنکورڈنس\") or translate as appropriate if the site prefers a translated label. Keep the reference entry structure unchanged (inside the <ol><li>…</li></ol>), only replace the visible English text.",
+      "translation_quote": "Strongs Concordance"
+    }
+  ],
+  "finished_at": "2026-10-02T12:50:22+00:00",
   "id": "5789a24017727ceca8666eda6b45ac4c",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "urd",
@@ -100,11 +135,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/860ef4183736ed90ffe0410e641004cf07704736a2fe3063f1577a97a4982295.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "b25c7ba97f60cd8b593ddd3f02e4c8b5da68408268cf7ae4a26bd9922702c945",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>Nelle prime 24 ore dopo la nascita, Judy grugniva e stridacchiava quasi continuamente. “È scontente per essere nata”, scherzavo.</p>\",\"severity\":\"minor\",\"source_quote\":\"“She is disgruntled about being born,” I joked.\",\"suggested_fix\":\"Correggere l’accordo grammaticale e la scelta lessicale: sostituire con “«È scontenta di essere nata», scherzavo.” Mantenere lo stesso tag <p> e la struttura HTML.\",\"translation_quote\":\"“È scontente per essere nata”, scherzavo.\"},{\"location\":\"<p>La sera arrivò e ci riunimmo nella loro chiesa con il loro pastore e alcuni membri che ci conoscevano. Prelevarono a turno la parola in preghiera e proclamarono la guarigione di Judy perché “sapevano” che era volontà di Dio guarirla.</p>\",\"severity\":\"minor\",\"source_quote\":\"They took turns praying and claimed God’s healing for Judy because they “knew” it was His will to heal her.\",\"suggested_fix\":\"Migliorare la resa idiomatica mantenendo il significato: sostituire “Prelevarono a turno la parola in preghiera e proclamarono la guarigione di Judy” con “A turno pregarono e proclamarono la guarigione di Judy”, lasciando inalterati i tag HTML.\",\"translation_quote\":\"Prelevarono a turno la parola in preghiera e proclamarono la guarigione di Judy perché “sapevano” che era volontà di Dio guarirla.\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 1386,
+    "content_evidence_truncated": false,
+    "content_sha256": "73100fd817b6bd4d2e56de92ed73a90a950c7a88870d7678fc2f7c62185af27d",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 955,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6603,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7558
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

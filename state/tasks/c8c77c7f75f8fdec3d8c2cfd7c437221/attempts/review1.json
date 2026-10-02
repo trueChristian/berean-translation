@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<figure> <img alt>\",\"severity\":\"minor\",\"source_quote\":\"A snow-covered road winding through an evergreen forest\",\"suggested_fix\":\"Correct Greek grammar and idiom: use masculine article and a natural word for “evergreen.” Example: alt=\\\"Ένας χιονισμένος δρόμος που διασχίζει ένα αειθαλές δάσος\\\" (or «που διασχίζει ένα δάσος με αειθαλή έλατα» if the image shows conifers). Preserve the alt attribute within the same <img> tag.\",\"translation_quote\":\"Μια χιονισμένη δρόμος που σπειροειδώς διασχίζει ένα αιωνόβιο δάσος\"},{\"location\":\"<div class=\\\"poem\\\"> second stanza fourth line\",\"severity\":\"minor\",\"source_quote\":\"Our eternal loss or gain.\",\"suggested_fix\":\"Fix agreement and idiomatic phrasing: change to «την αιώνια απώλεια ή το κέρδος μας.» or «την αιώνια απώλεια ή το αιώνιο κέρδος μας.» Preserve punctuation and em-dash if present.\",\"translation_quote\":\"Την αιώνια απώλεια ή την κέρδη μας.\"},{\"location\":\"<div class=\\\"poem\\\"> third stanza second line\",\"severity\":\"minor\",\"source_quote\":\"Lean upon your Savior’s breast;\",\"suggested_fix\":\"Use an imperative form and terminal punctuation that matches the English exclamation/command rather than a question mark. Example: «Γείρετε στο στήθος του Σωτήρα σας.» (replace the question mark with a period or exclamation as appropriate).\",\"translation_quote\":\"Γείρετε στο στήθος του Σωτήρα σας;\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 1693,
+    "content_evidence_truncated": false,
+    "content_sha256": "431228d2d7cda6b22b6446b0f4c1d95705655b5217c483038688d194c7767f6b",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1226,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1460,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2686
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

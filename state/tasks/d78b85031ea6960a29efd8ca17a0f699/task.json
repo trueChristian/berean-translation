@@ -2,7 +2,6 @@
   "article_id": "21853000-58b7-413f-b119-c9b1a6012369",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:56+00:00",
   "events": [
@@ -24,9 +23,45 @@
         },
         "total_tokens": 7410
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1209,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7135,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8344
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph mentioning specific plants (section: \"가시와 엉겅퀴의 우세\" / paragraph beginning \"아티초크는...\")",
+      "severity": "minor",
+      "source_quote": "Blessed Thistle, Milk Thistle, Teasel, Raspberry Leaf, and Blackberry roots",
+      "suggested_fix": "Translate or consistently localize all plant names into Korean (or provide Korean name followed by the original in parentheses). For example: \"Blessed Thistle(블레스드 시슬/축복받은 엉겅퀴), Milk Thistle(밀크 시슬/엉겅퀴), Teasel(티슬/도깨비풀), 라즈베리 잎, 블랙베리 뿌리\" or provide fully Korean equivalents where conventional. Preserve order and meaning.",
+      "translation_quote": "축복받은 엉겅퀴(Blessed Thistle), 밀크 시슬(Milk Thistle), 티슬(Teasel), 라즈베리 잎, 블랙베리 뿌리"
+    },
+    {
+      "location": "Paragraph under \"질병\" (sentence: \"God was also faithful in designing people, plants, and animals with a regenerative microbiome (billions of helpful bacteria) and a systemic immune system, which helps us fight off diseases.\")",
+      "severity": "minor",
+      "source_quote": "regenerative microbiome (billions of helpful bacteria) and a systemic immune system",
+      "suggested_fix": "Improve Korean idiom and clarity for 'regenerative microbiome' and 'systemic immune system.' Suggested wording: \"재생력을 가진 미생물군집(수십억 마리의 유익한 박테리아)과 전신성 면역체계\" or \"회복력 있는 마이크로바이옴과 전신 면역체계\". Preserve original meaning.",
+      "translation_quote": "재생 가능한 마이크로바이옴(수십억의 유익한 박테리아)과 체계적인 면역체계"
+    }
+  ],
+  "finished_at": "2026-10-02T12:50:24+00:00",
   "id": "d78b85031ea6960a29efd8ca17a0f699",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "kor",
@@ -100,11 +135,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/35b2c7029cc42ee53f5ba53e917d6f4f13fd2ec89b436bb9b340de5e3d8adc44.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "3526d7232367f018301aa220868e7605f6dcc0608e6b2e5d5a6771923f6938fe",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

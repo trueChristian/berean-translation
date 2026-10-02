@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.html — paragraph quoting Deuteronomy 3:25,26",
+      "severity": "critical",
+      "source_quote": "“I pray thee, let me go over, and see the good land . . . But the Lord . . . would not hear me: and the Lord said unto me, Let it suffice thee; speak no more unto me of this matter” (Deuteronomy 3:25,26).",
+      "suggested_fix": "Replace the incorrect rendering with a faithful Dutch translation that preserves the quoted Scripture meaning. Suggested replacement (keep quotation marks and verse reference): “Ik bid u: laat mij toch overvaren en het goede land zien . . . Maar de HEERE luisterde niet naar mij; en de HEERE zeide tot mij: Het is genoeg voor u; spreek niet meer tot Mij over deze zaak” (Deuteronomium 3:25,26).",
+      "translation_quote": "“Ik bid u: laat mij toch overvaren en het goede land zien . . . Maar de HEERE . . . wilde mij niet bevelen; en de HEERE zeide tot mij: Het is genoeg voor u; spreek nog niet meer tot Mij over dezen zaak” (Deuteronomium 3:25,26)."
+    },
+    {
+      "location": "source.html — paragraph quoting Deuteronomy 1:42–45",
+      "severity": "major",
+      "source_quote": "“And the Lord said unto me, Say unto them, Go not up, neither fight; for I am not among you; lest ye be smitten before your enemies”, but they rebelled at His “no.” “And ye returned and wept before the Lord; but the Lord would not hearken to your voice, nor give ear unto you” (Deuteronomy 1:45).",
+      "suggested_fix": "Correct the mistranslation of the verb “wept” and the archaic/odd wording so the Scripture quote clearly renders the original meaning. Suggested replacement (keep quotation marks and verse reference): “En de HEERE zeide tot mij: Zeg hun: Gaat niet op, en strijdt niet; want Ik ben niet onder u; opdat gij niet geslagen wordt voor uw vijanden.” … “En gij keertet weder en weendet voor de HEERE; doch de HEERE wilde niet op uw stem horen, noch gaf Hij acht op u” (Deuteronomium 1:42,45). Adjust surrounding narrative accordingly if necessary.",
+      "translation_quote": "“En de HEERE zeide tot mij: Zeg hun: Gaat niet op en strijd niet; want Ik ben niet onder u; opdat gij niet geslagen wordt voor uw vijanden”, maar zij verzette zich tegen Zijn “nee.” “En gij keertet weder en waandet voor de HEERE; doch de HEERE wilde niet op uw stem horen, noch een oor voor u hebben” (Deuteronomium 1:45)."
+    },
+    {
+      "location": "source.html — paragraph opening (“Laten we onze aandacht richten op de biddende Paulus’ aanvaarding van God’s “nee.””)",
+      "severity": "minor",
+      "source_quote": "Let us focus our attention upon prayerful Paul’s acceptance of God’s “no.”",
+      "suggested_fix": "Adjust wording for natural contemporary Dutch and correct possessive punctuation. Suggested replacement: “Laten we onze aandacht richten op het biddende Paulus’ aanvaarden van Gods ‘nee’.” Alternatively: “Laten we onze aandacht richten op Paulus’ gebedsgezinde aanvaarding van Gods ‘nee’.”",
+      "translation_quote": "Laten we onze aandacht richten op de biddende Paulus’ aanvaarding van God’s “nee.”"
+    },
+    {
+      "location": "source.html — final paragraph closing quotation (“Thanks be unto God for his unspeakable gift.”)",
+      "severity": "minor",
+      "source_quote": "“Thanks be unto God for his unspeakable gift.”",
+      "suggested_fix": "Render the closing doxology in idiomatic Dutch and keep it as quoted Scripture/authoritative prose. Suggested replacement: “Dank zij God voor Zijn onuitsprekelijke geschenk.” or “Dank zij God voor Zijn onuitsprekelijk geschenk.” Ensure capitalization of divine pronouns is consistent with the rest of the translation.",
+      "translation_quote": "“Dank God voor Zijn onuitsprekelijk geschenk.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

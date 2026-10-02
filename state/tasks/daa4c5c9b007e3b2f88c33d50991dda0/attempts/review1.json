@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph: \\\"Dear brothers and sisters, I believe the fire is going out. I hear many of our Anabaptist people talking about living a quiet and peaceable life.\\\" (source.html third block starting \\\"Dear brothers and sisters...\\\")\",\"severity\":\"major\",\"source_quote\":\"Dear brothers and sisters, I believe the fire is going out.\",\"suggested_fix\":\"Translate the metaphor clearly into Hindi using an idiom that conveys the author’s meaning (the spiritual fervor is diminishing). Preserve sentence structure and HTML tags. Example: \\\"प्रिय भाइयों और बहनों, मुझे लगता है कि वह आग धीमी पड़ रही है।\\\" (or) \\\"प्रिय भाइयों और बहनों, मुझे लगता है कि हमारी आराधना की आग बुझती जा रही है।\\\"\",\"translation_quote\":\"प्रिय भाइयों और बहनों, मुझे लगता है कि आग नक्सीर हो रही है।\"},{\"location\":\"Paragraph: \\\"Many years ago, a group of Anabaptists fled persecution and moved to a country where there was less oppression.\\\" (source.html mid-article story)\",\"severity\":\"major\",\"source_quote\":\"fled persecution\",\"suggested_fix\":\"Replace the untranslated English word with an appropriate Hindi equivalent to preserve meaning. Example: \\\"कई वर्षों पहले, एक समूह अनाबाप्टिस्टों ने उत्पीड़न से भागकर...\\\" Ensure all other occurrences of the English word \\\"persecution\\\" are similarly translated.\",\"translation_quote\":\"persecution\"},{\"location\":\"Paragraph: \\\"Did he mean that we should be quiet about the gospel and never challenge a sinner?\\\" (source.html discussing 1 Timothy 2:1-2)\",\"severity\":\"minor\",\"source_quote\":\"Did he mean that we should be quiet about the gospel and never challenge a sinner?\",\"suggested_fix\":\"Correct small register and word-choice issues so the Hindi reads naturally while preserving meaning. Suggested phrasing: \\\"क्या उनका मतलब यह था कि हमें सुसमाचार के बारे में चुप रहना चाहिए और कभी पापी को चुनौती नहीं देनी चाहिए?\\\" Replace the existing sentence with this more idiomatic rendering.\",\"translation_quote\":\"क्या उसका अभिप्राय यह था कि हमें सुसमाचार के बारे में चुप रहना चाहिए और कभी पापी को चुनौती नहीं देनी चाहिए?\"},{\"location\":\"Paragraph: \\\"...something that Christ Himself never did.\\\" (source.html comparing Paul and Christ)\",\"severity\":\"major\",\"source_quote\":\"something that Christ Himself never did\",\"suggested_fix\":\"Translate 'Christ Himself' correctly into Hindi as 'खुद मसीह' or 'परमेश्वर के पुत्र मसीह' depending on authorial tone. Replace the incorrect Latinized form. Example: \\\"ऐसा कुछ जो मसीह स्वयं ने कभी नहीं किया।\\\"\",\"translation_quote\":\"Cristus ने स्वयं कभी नहीं किया।\"},{\"location\":\"Throughout article (multiple occurrences)\",\"severity\":\"minor\",\"source_quote\":\"The Martyr’s Mirror\",\"suggested_fix\":\"The title of the cited book may remain in English if the publisher's established title is intended; however if the editorial standard is to translate or transliterate titles into Hindi, provide a transliteration or note in Hindi while preserving italics and tags. Example: <em>The Martyr’s Mirror</em> → <em>The Martyr’s Mirror</em> (\\\"शहीदों का दर्पण\\\") — only if editorial style requires it.\",\"translation_quote\":\"<em>The Martyr’s Mirror</em>\"}],\"passed\":false,\"score\":72}",
+    "content_bytes": 4042,
+    "content_evidence_truncated": false,
+    "content_sha256": "54a32edec69d4ccac3f941f888c6a2dabeb688add8bbc177e4af5756f705f51b",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1247,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5805,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7052
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

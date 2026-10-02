@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "section",
+      "severity": "major",
+      "source_quote": "A WORD FROM A DOCTOR",
+      "suggested_fix": "Translate the section into Portuguese. Suggested rendering: \"UMA PALAVRA DE UM MÉDICO\" (or \"UMA MENSAGEM DE UM MÉDICO\"). Replace the current section value with the chosen Portuguese phrase.",
+      "translation_quote": "UMA WORD FROM A DOCTOR"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<div class=\\\"poem\\\"> <p>Second stanza, second line</p>\",\"severity\":\"minor\",\"source_quote\":\"Straight or crooked, one of twain;\",\"suggested_fix\":\"In the translation, replace \\\"das eine von zweien;\\\" with a more natural German phrasing that preserves meaning. For example: change the fragment inside the same <p> element from\\n\\n\\\"gerade oder krumm, das eine von zweien;\\\"\\n\\nto\\n\\n\\\"gerade oder krumm, eines von zweien;\\\"\\n\\nor more idiomatically\\n\\n\\\"gerade oder krumm, eines von beiden;\\\"\\n\\nKeep the surrounding HTML tags and punctuation unchanged.\",\"translation_quote\":\"\\\"gerade oder krumm, das eine von zweien;\\\"\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 670,
+    "content_evidence_truncated": false,
+    "content_sha256": "352676919ea550b2f1dfa2e7fb59fd5407ac48deef3d1cd29bc8731a313c7f9a",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 704,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1374,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2078
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

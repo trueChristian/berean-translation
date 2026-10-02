@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ad91d3a1-d48d-4c59-9831-ac2fc05c7659",
+    "response_id": "chatcmpl-EUWw3p3UVJ4INM4LL3WOO2sZvTcWD",
+    "usage": {
+      "completion_tokens": 1801,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6761,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8562
+    }
+  },
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"source-note\">*sourced from Wikipedia and hymnary.org</p>",
+        "severity": "major",
+        "source_quote": "*sourced from Wikipedia and hymnary.org",
+        "suggested_fix": "Μετάφρασε την σημείωση προέλευσης στα Ελληνικά, διατηρώντας το ίδιο HTML. Π.χ.: <p class=\"source-note\">*πηγή: Wikipedia και hymnary.org</p>",
+        "translation_quote": "*sourced from Wikipedia and hymnary.org"
+      },
+      {
+        "location": "<section class=\"lyrics\"> (τελευταίο τετράστιχο πριν τον επίλογο)",
+        "severity": "major",
+        "source_quote": "When nature fails, and day and night\nDivide Thy works no more,",
+        "suggested_fix": "Διόρθωσε την απόδοση ώστε να αποδώσει το νόημα «Όταν η φύση αποτύχει, και ημέρα και νύχτα δεν διαχωρίζουν πλέον τα έργα Σου». Προτεινόμενη ελληνική γραφή που διατηρεί τη δομή: <em>Όταν η φύση αποτύχει, και ημέρα και νύχτα\nΔεν θα διαχωρίζουν πλέον τα έργα Σου,</em> (κρατώντας τα ίδια HTML tags).",
+        "translation_quote": "Όταν η φύση αποτύχει, και ημέρα και νύχτα\nΔιαχωρίζουν πια τα έργα Σου που ποτέ δεν γίνονται,"
+      },
+      {
+        "location": "<blockquote> (Ψαλμός 136:26)",
+        "severity": "minor",
+        "source_quote": "\"O give thanks unto the God of heaven: for His mercy endureth for ever\" —Psalm 136:26",
+        "suggested_fix": "Βελτίωσε τη μετάφραση του ρητού ώστε να αποδώσει πιο πιστά το αγγλικό «give thanks» (ευχαριστείτε / δώστε ευχαριστίες). Π.χ.: <em>«Δοξάσατε τον Θεό των ουρανών· διότι το έλεός Του μένει αιώνιο»</em> ή <em>«Δώστε ευχαριστίες στον Θεό του ουρανού· διότι το έλεός Του μένει αιώνιο»</em>. Κράτησε τα ίδια HTML tags.",
+        "translation_quote": "«Δώστε χάρη στον Θεό του ουρανού· διότι το έλεός Του μένει αιώνιο» —Ψαλμός 136:26"
+      },
+      {
+        "location": "<section class=\"lyrics\"> (στροφή: \"Through hidden dangers, toils, and deaths...\")",
+        "severity": "minor",
+        "source_quote": "Through hidden dangers, toils, and deaths,\nIt gently cleared my way;",
+        "suggested_fix": "Διόρθωσε την ελληνική διατύπωση ώστε να είναι σαφής και φυσική. Προτεινόμενη απόδοση: <em>Μες σε κρυφούς κινδύνους, μόχθους και θανάτους,\nΕύκολα εκκαθάρισε τον δρόμο μου·</em> ή <em>Μες σε κρυφούς κινδύνους, μόχθους και θανάτους,\nΕυσπρόσδεκτα άνοιξε τον δρόμο μου·</em> (διατήρησε τα ίδια HTML tags).",
+        "translation_quote": "Μέσα από κρυφούς κινδύνους, μόχθους και θανάτους,\nΕύκολα καθάριζε τον δρόμο μου·"
+      },
+      {
+        "location": "<section class=\"lyrics\"> (στροφή: \"And through the pleasing snares of vice, More to be feared than they.\")",
+        "severity": "minor",
+        "source_quote": "And through the pleasing snares of vice,\nMore to be feared than they.",
+        "suggested_fix": "Διόρθωσε την μετάφραση ώστε να αποδίδει τη σύγκριση και την αναφορά σε «those» (the dangers): π.χ. <em>Και μέσα από τις γοητευτικές παγίδες της ανομίας,\nΠερισσότερο να φοβηθούν (ή να φοβηθούν περισσότερο) απ’ αυτές οι παγίδες.</em> Καλύτερη, πιο φυσική απόδοση: <em>Και μέσα στις γοητευτικές παγίδες της ανομίας,\nΠιο φοβερές από ό,τι φαίνονται.</em> (διατήρησε τα ίδια HTML tags).",
+        "translation_quote": "Και μέσα από τις ευχάριστες παγίδες της ανομίας,\nΠερισσότερο να φοβηθούν απ’ ό,τι εκείνοι."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "d0395fde-712d-488d-a161-c26c87ed128b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,44 @@
         },
         "total_tokens": 10171
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1007,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9704,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10711
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph containing vehicle metaphor (source.html third paragraph under “What is Burnout?”)",
+      "severity": "major",
+      "source_quote": "It is as though you are in a vehicle traveling 90 mph, and you push the accelerator a little harder, and nothing happens.",
+      "suggested_fix": "Restore the original numeric value (90 mph) or render it transparently as an equivalent with the original number preserved in parentheses. For example: “Het is alsof je in een voertuig rijdt met 90 mph (ongeveer 145 km/u) en je drukt het gaspedaal iets verder in...” Keep the original meaning and numeric reference intact.",
+      "translation_quote": "Het is alsof je in een voertuig rijdt met 145 km/u en je drukt het gaspedaal iets verder in en er gebeurt niets."
+    },
+    {
+      "location": "Paragraph quoting Mark 6:31 (source.html under “Be Intentional about Rest” / “Neem tijd apart”)",
+      "severity": "major",
+      "source_quote": "Jesus understood the human need for rest, this is why He told His disciples “Come ye yourselves apart into a desert place, and rest a while” (Mark 6:31).",
+      "suggested_fix": "Translate the quoted Scripture so it faithfully conveys the original printed English without adding or changing people or actions. Remove the added word that changes the addressee. For example: “Jezus begreep de menselijke behoefte aan rust, daarom zei Hij tegen zijn discipelen: ‘Komt gijzelf op een eenzame plaats en rust wat uit’ (Marcus 6:31).” (Or similarly: “Komt gijzelf alleen op een eenzame plaats en rust wat uit”, keeping the sense that they go apart, but do not add “met mij” or other added agents.)",
+      "translation_quote": "Jezus begreep de menselijke behoefte aan rust, daarom zei Hij tegen zijn discipelen: “Komt gijzelf met mij alleen op een eenzame plaats en rust wat uit” (Marcus 6:31)."
+    }
+  ],
   "id": "360b87f8738db259d227eb181cf0f795",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "nld",
@@ -100,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 65,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/424016ec077ce60b7ce19dc1c1e702f6403927db5e19e2310bed3e34f10db986.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "28073e361d20840e4b86554b9fb0dc665e6272c0d3acf705cd41f2c5576aaa35",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<div class=\\\"poem\\\"> first stanza, line 3-4\",\"severity\":\"major\",\"source_quote\":\"Who are briskly walking onward,\\nHeedless of their final goal.\",\"suggested_fix\":\"Use gender-neutral or mixed-gender Hebrew plural and correct person. Replace \\\"ההולכות במהירות קדימה,\\\\nשלא מודעות ליעדן הסופי.\\\" with \\\"הולכים במהירות קדימה,\\\\nבלי לשים לב אל יעדם הסופי.\\\" to match the English meaning and neutral plural.\",\"translation_quote\":\"ההולכות במהירות קדימה,\\nשלא מודעות ליעדן הסופי.\"},{\"location\":\"<div class=\\\"poem\\\"> second stanza, line 2\",\"severity\":\"minor\",\"source_quote\":\"Straight or crooked, one of twain;\",\"suggested_fix\":\"Adjust number/gender agreement and idiomatic Hebrew. Replace \\\"ישרים או מעוקלים, אחד משניים;\\\" with \\\"ישר או מעוקל — אחד משניים;\\\" or better: \\\"ישר או עקום — אחד משניים;\\\"\",\"translation_quote\":\"ישרים או מעוקלים, אחד משניים;\"},{\"location\":\"<div class=\\\"poem\\\"> third stanza, line 1\",\"severity\":\"major\",\"source_quote\":\"O dear souls! upon life’s pathway,\",\"suggested_fix\":\"Correct the vocative and word choice. Replace the incorrect particle \\\"או\\\" (which reads like 'or') with a proper interjection or omit it. For example: \\\"נשמות יקרות! על שביל החיים,\\\" or more idiomatically: \\\"הוּ! נשמות יקרות, על שביל החיים,\\\" (better: simply \\\"נשמות יקרות! על שביל החיים,\\\").\",\"translation_quote\":\"או נשמות יקרות! על שביל החיים,\"},{\"location\":\"<div class=\\\"poem\\\"> third stanza, line 2\",\"severity\":\"major\",\"source_quote\":\"Lean upon your Savior’s breast;\",\"suggested_fix\":\"Fix person/tense to match the imperative addressed to the readers. Replace \\\"נשענו אל חיק המושיע;\\\" (first-person plural past) with an imperative/command or exhortation such as \\\"השענו אל חיק המושיע;\\\" or \\\"הישענו אל חיק המושיע;\\\" (imperative plural) or more idiomatically \\\"הישענו על חיק המושיע;\\\"\",\"translation_quote\":\"נשענו אל חיק המושיע;\" }],\"passed\":false,\"score\":54}",
+    "content_bytes": 2253,
+    "content_evidence_truncated": false,
+    "content_sha256": "a3e031e568d0ea4abe80c0fdc90f7cee02d54c3f7847b5bd7dd0eb8ba1286c22",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1386,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1387,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2773
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -2,7 +2,6 @@
   "article_id": "ee9ff8a9-5b59-4b3e-9585-ab891c945bb5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,45 @@
         },
         "total_tokens": 2103
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 912,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1380,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2292
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> — stanza 3, line 2 (third stanza, second line)",
+      "severity": "minor",
+      "source_quote": "Lean upon your Savior’s breast;",
+      "suggested_fix": "Correct the typo and preserve reflexive imperative: replace \"Apoi em-se no peito do Salvador;\" with \"Apoie-se no peito do Salvador;\"",
+      "translation_quote": "Apoi em-se no peito do Salvador;"
+    },
+    {
+      "location": "<div class=\"poem\"> — stanza 2, line 2 (second stanza, second line)",
+      "severity": "minor",
+      "source_quote": "Straight or crooked, one of twain;",
+      "suggested_fix": "Adjust for natural agreement/clarity in Portuguese while preserving meaning. Two acceptable fixes: keep as-is or make agreement explicit, e.g. replace \"Reta ou tortuosa, uma das duas;\" with \"Reto ou tortuoso, um dos dois;\" or with \"Reta ou tortuosa, uma das duas;\" if keeping feminine agreement with \"vida\"/\"caminho.\" Either is acceptable; no doctrinal change.",
+      "translation_quote": "Reta ou tortuosa, uma das duas;"
+    }
+  ],
+  "finished_at": "2026-10-02T12:50:23+00:00",
   "id": "b85d121f2cd674629795342018df7872",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "por",
@@ -100,11 +135,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/b70a42a3055e9b0b2f7cc18e717a71e0c042b99f8312a6e4498df59b68992446.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "a0e94b1f79a0eed4b2b4fa527a207a63d01981d07be68e5cda06b45933da47fd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

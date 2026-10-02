@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<article> <ol> <li>4th list item</li>",
+      "severity": "major",
+      "source_quote": "Dominance of certain plants like thorns and thistles",
+      "suggested_fix": "Translate the meaning 'dominance' or 'prevalence' accurately. For example: «Преобладание определённых растений, таких как шипы и колючки» (preserve the HTML structure).",
+      "translation_quote": "Насилие определённых растений, таких как шипы и колючки"
+    },
+    {
+      "location": "<article> <p>paragraph 1</p>",
+      "severity": "minor",
+      "source_quote": "barred from the tree of eternal life",
+      "suggested_fix": "Correct Russian grammar while keeping the meaning. For example: «были изгнаны из сада, отстранены от древа жизни и на них было наложено проклятие…» (preserve original tag and sentence order).",
+      "translation_quote": "изгнано из сада, отстранено от древа жизни и на него был наложен проклятие из‑за греха Адама и Евы."
+    },
+    {
+      "location": "<article> <h2>Преобладание шипов и колючек</h2> <p>paragraph about medicinal thistles</p>",
+      "severity": "minor",
+      "source_quote": "Blessed Thistle, Milk Thistle, Teasel, Raspberry Leaf, and Blackberry roots",
+      "suggested_fix": "Either translate the English plant names into standard Russian only, or give the Russian name first with the English in parentheses. For example: «благословенный чертополох (Blessed Thistle), расторопша (Milk Thistle), репейник (Teasel), лист малины (Raspberry leaf) и корни ежевики (Blackberry roots)». Preserve tags and punctuation.",
+      "translation_quote": "Blessed Thistle (благословенный чертополох), Milk Thistle (расторопша), Teasel (репейник), лист малины и корни ежевики — это лишь несколько примеров представителей этих «колючих сорняков»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

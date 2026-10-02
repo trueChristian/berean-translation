@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing John 6:27 (source.html paragraph 5)",
+      "severity": "major",
+      "source_quote": "\"Labour not for the meat which perisheth, but for that meat which endureth unto everlasting life, which the Son of man shall give unto you: for him hath God the Father sealed\" (John 6:27).",
+      "suggested_fix": "Translate the quoted Scripture into contemporary Modern Greek, preserving the verse reference unchanged and faithfully conveying the English text. Example suggested rendering: «Μην κοπιάζετε για το ψωμί που φθείρεται, αλλά για το ψωμί που μένει προς ζωήν αιώνιον, που θα σας το δώσει ο Υιός του ανθρώπου· διότι αυτόν έχει σφραγίσει ο Θεός, ο Πατέρας» (Ιωάννης 6:27). Replace the current interlinear/ancient-form Greek quotation with a Modern Greek rendering like the one above so the quote reads naturally in the target language while keeping the verse number the same.",
+      "translation_quote": "«Μη εργάζεσθε για το ψωμί το αποθνήσκον, αλλά για το ψωμί το μένον εις ζωὴν αιώνιον, το οποίον ο Υἱός τοῦ ἀνθρώπου δώσει υμίν· διότι αυτόν εσφράγισε ὁ Θεὸς ὁ Πατήρ» (Ιωάννης 6:27)."
+    },
+    {
+      "location": "Paragraph containing Mark 8:34 (source.html paragraph 6)",
+      "severity": "major",
+      "source_quote": "\"Whosoever will come after me, let him deny himself, and take up his cross and follow me\" (Mark 8:34).",
+      "suggested_fix": "The translation currently inserts a Koine Greek quotation (original New Testament wording). The translation should present the quoted verse in contemporary Modern Greek that accurately reflects the English quotation and is idiomatic for readers. Example suggested rendering: «Όποιος θέλει να έρθει πίσω μου, να αρνηθεί τον εαυτό του, να σηκώσει τον σταυρό του και να με ακολουθήσει» (Μάρκος 8:34). Replace the existing Koine phrasing with a Modern Greek rendering while leaving the verse reference unchanged.",
+      "translation_quote": "«Ὅστις θέλει ἔλθει ὀπίσω μου, ἀπαρνησάσθω ἑαυτὸν καὶ ἀράτω τὸν σταυρὸν αὐτοῦ καὶ ἀκολουθείτω μοι» (Μάρκος 8:34)."
+    },
+    {
+      "location": "Paragraph containing 2 Corinthians 5:2 (final paragraph)",
+      "severity": "major",
+      "source_quote": "\"...in this we groan, earnestly desiring to be clothed upon with our house which is from heaven\" (2 Corinthians 5:2).",
+      "suggested_fix": "The translation currently uses an original-language Koine quotation. Replace it with a contemporary Modern Greek rendering that faithfully reflects the English wording and reads naturally for Greek readers. Example suggested rendering: «...για αυτό στενάζουμε και ποθούμε σφοδρά να ντυθούμε με την κατοικία μας που είναι από τον ουρανό» (Β΄ Κορινθίους 5:2). Keep the verse reference unchanged.",
+      "translation_quote": "«...εις τούτω στενάζομεν, ποθῶντες σφόδρα ντυθῆναι τὸ κατοικητήριόν ἡμῶν τὸ ἐξ οὐρανοῦ» (Β΄ Κορινθίους 5:2)."
+    },
+    {
+      "location": "Paragraph containing Romans 8:24 (source.html paragraph 4)",
+      "severity": "major",
+      "source_quote": "\"For we are saved by hope: but hope that is seen is not hope: for what a man seeth, why doth he yet hope for?\" (Romans 8:24).",
+      "suggested_fix": "The current Modern Greek rendering is unidiomatic and slightly alters readability of the verse (\"Διότι σε σωτηρία ελπιζόμαστε· αλλά...\"), which risks confusing theological meaning. Replace it with a clear, faithful Modern Greek rendering that preserves the English sense. Example suggested rendering: «Διότι εν τη ελπίδι σωθήκαμε· η δε ελπίς η θεωρουμένη δεν είναι ελπίς· διότι τι βλέπει κανείς; προς τι ακόμη ελπίζει;» (Ρωμαίους 8:24). Alternatively, a more idiomatic Modern Greek: «Διότι σωθήκαμε με την ελπίδα· αλλά η ελπίδα που έχει γίνει πραγματικότητα δεν είναι πια ελπίδα· διότι, αν κάποιος βλέπει, γιατί να ελπίζει ακόμα;» (Ρωμαίους 8:24). Update the translation to one of these Modern Greek renderings to keep meaning clear and natural.",
+      "translation_quote": "«Διότι σε σωτηρία ελπιζόμαστε· αλλά η ελπίδα που φαίνεται δεν είναι ελπίδα· διότι τι βλέπει ο άνθρωπος, γιατί ακόμη ελπίζει;» (Ρωμαίους 8:24)."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

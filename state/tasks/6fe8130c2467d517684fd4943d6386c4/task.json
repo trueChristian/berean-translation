@@ -2,7 +2,6 @@
   "article_id": "d2d95264-7df9-4ca8-9a99-01a68204d73a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:56+00:00",
   "events": [
@@ -24,9 +23,65 @@
         },
         "total_tokens": 3642
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1948,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3367,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5315
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html — paragraph 2 (John 10:1-2 quotation)",
+      "severity": "critical",
+      "source_quote": "“But he that entereth in by the door is the shepherd of the sheep.”",
+      "suggested_fix": "Translate the entire quoted sentence into Hindi, preserving the meaning of the English quotation exactly. Replace the corrupted text that includes Japanese はい and any other non-Hindi tokens. Example wording that preserves the author's quote: “परन्तु जो द्वार से प्रवेश करता है वही भेड़ों का चरवाहा है।”",
+      "translation_quote": "“पर जो द्वार से नहींはい वह चोर है और डाकू; परन्तु जो द्वार सेはい वह भेड़ों का चरवाहा है。”"
+    },
+    {
+      "location": "source.html — paragraph 12 (final paragraph quoting 2 Corinthians 5:2)",
+      "severity": "critical",
+      "source_quote": "“...in this we groan, earnestly desiring to be clothed upon with our house which is from heaven” (2 Corinthians 5:2).",
+      "suggested_fix": "Translate the entire quoted Scripture phrase into Hindi; do not leave any English words inside the quotation. For example: “...इसमें हम कराहते हैं, और उत्सुकतापूर्वक आकांक्षा रखते हैं कि हम स्वर्ग से प्राप्त हमारे तन को प्राप्त वस्त्र धारण करें” (or a faithful, idiomatic Hindi rendering that preserves the original English meaning). Ensure the quoted text is fully in Hindi and the verse reference remains (2 कुरिन्थियों 5:2).",
+      "translation_quote": "“...इसमें हम कराहते हैं, earnestly कि हम परिधान से आवृत्त होना चाहें जो स्वर्ग से है” (2 कुरिन्थियों 5:2)।"
+    },
+    {
+      "location": "source.html — paragraph 3 (general; repeated token occurrences)",
+      "severity": "major",
+      "source_quote": "People build their hope for heaven on many shaky things. ... The Bible, however, says, “. . . except a man be born again, he cannot see the kingdom of God” (John 3:3).",
+      "suggested_fix": "Remove the stray non-Hindi tokens and correct the surrounding sentence so the quoted Scripture appears in fluent Hindi. Specifically, replace any remaining はい tokens with the correct Hindi rendering. Ensure the sentence introducing the quotation reads naturally in Hindi and that the Scripture quotation is fully and idiomatically translated (e.g., “परन्तु जो द्वार से प्रवेश न करे वह चोर है… परन्तु जो द्वार से प्रवेश करता है वही भेड़ों का चरवाहा है।” and “...यदि कोई मनुष्य नया जन्म न पाए, तो वह परमेश्वर के राज्य को नहीं देख सकता” (यूहन्ना 3:3)).",
+      "translation_quote": "लोग स्वर्ग के लिए अपनी आशा बहुत सी अस्थिर चीज़ों पर बनाते हैं। ... पर बाइबिल कहती है, “...यदि कोई मनुष्य नया जन्म न पाए, तो वह परमेश्वर के राज्य को नहीं देख सकता” (यूहन्ना 3:3)।"
+    },
+    {
+      "location": "source.html — paragraph 4 (John 6:27 quotation)",
+      "severity": "minor",
+      "source_quote": "“Labour not for the meat which perisheth, but for that meat which endureth unto everlasting life, which the Son of man shall give unto you: for him hath God the Father sealed” (John 6:27).",
+      "suggested_fix": "The Hindi rendering of the final clause is awkward and alters nuance. Translate “for him hath God the Father sealed” into clear, theologically equivalent Hindi, for example: “क्योंकि जिसे पिता परमेश्वर ने मुहर लगा दी है” or “क्योंकि जिसे पिता परमेश्वर ने चिन्हित किया है और मुहर लगा दी है।” Preserve the verse reference (यूहन्ना 6:27).",
+      "translation_quote": "“बेकार वस्तु के लिए परिश्रम मत करो, परन्तु उस वस्तु के लिए परिश्रम करो जो अनन्त जीवन तक टिकी रहती है, जिसे मनुष्य का पुत्र तुम्हें देगा: क्योंकि जिसे पिता परमेश्वर ने चिन्हित किया है वही है” (यूहन्ना 6:27)।"
+    },
+    {
+      "location": "source.html — paragraph 9 (Romans 8:24 quotation)",
+      "severity": "minor",
+      "source_quote": "“For we are saved by hope: but hope that is seen is not hope: for what a man seeth, why doth he yet hope for?” (Romans 8:24).",
+      "suggested_fix": "The Hindi translation conveys the idea but could be smoothed for idiomatic clarity; consider rendering the rhetorical question more fluidly in Hindi. Example: “क्योंकि हम आशा द्वारा ही उद्धार पाए हुए हैं; परन्तु जो देखा जाता है वह आशा नहीं है: क्योंकि जो मनुष्य देख रहा है, फिर वह किस बात की आशा करेगा?” Ensure the verse citation remains (रोमियों 8:24).",
+      "translation_quote": "“क्योंकि हम आशा द्वारा ही उद्धार पाए हुए हैं; परन्तु जो देखा जाता है वह आशा नहीं है: क्योंकि जो मनुष्य देखने वाला है, फिर वह किसका आशा करेगा?” (रोमियों 8:24)।"
+    }
+  ],
   "id": "6fe8130c2467d517684fd4943d6386c4",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "hin",
@@ -100,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8a99b566d1f7a4b71f671efc977b9e895b89fc48e4520caf1214f243e2083ab5.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d21eb9a2e384c54d8451d42bc7b07528a6bfe6b701385ff6d901ec268b981022",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

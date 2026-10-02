@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> — stanza 3, line 2 (third stanza, second line)",
+      "severity": "minor",
+      "source_quote": "Lean upon your Savior’s breast;",
+      "suggested_fix": "Correct the typo and preserve reflexive imperative: replace \"Apoi em-se no peito do Salvador;\" with \"Apoie-se no peito do Salvador;\"",
+      "translation_quote": "Apoi em-se no peito do Salvador;"
+    },
+    {
+      "location": "<div class=\"poem\"> — stanza 2, line 2 (second stanza, second line)",
+      "severity": "minor",
+      "source_quote": "Straight or crooked, one of twain;",
+      "suggested_fix": "Adjust for natural agreement/clarity in Portuguese while preserving meaning. Two acceptable fixes: keep as-is or make agreement explicit, e.g. replace \"Reta ou tortuosa, uma das duas;\" with \"Reto ou tortuoso, um dos dois;\" or with \"Reta ou tortuosa, uma das duas;\" if keeping feminine agreement with \"vida\"/\"caminho.\" Either is acceptable; no doctrinal change.",
+      "translation_quote": "Reta ou tortuosa, uma das duas;"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

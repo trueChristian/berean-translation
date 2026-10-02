@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "section metadata",
+      "severity": "minor",
+      "source_quote": "INSPIRATIONS FOR YOUTH",
+      "suggested_fix": "Tradurre il campo section in italiano, p.es. \"ISPIRAZIONI PER I GIOVANI\" o altra resa appropriata in italiano coerente col sito. Conservare il valore tradotto nel campo translation.section.",
+      "translation_quote": "INSPIRATIONS FOR YOUTH"
+    },
+    {
+      "location": "heading in article body",
+      "severity": "minor",
+      "source_quote": "<h2>Fellowship</h2>",
+      "suggested_fix": "Tradurre l'intestazione nella lingua di destinazione. Suggerimento: sostituire <h2>Fellowship</h2> con <h2>Comunione</h2> oppure <h2>Fellowship</h2> → <h2>Comunità</h2> a seconda della terminologia editoriale del sito. Conservare i tag HTML come nell'originale.",
+      "translation_quote": "<h2>Fellowship</h2>"
+    },
+    {
+      "location": "Romans 15:9 quotation (scripture text)",
+      "severity": "minor",
+      "source_quote": "“And that the Gentiles might glorify God for his mercy; as it is written, For this cause I will confess to thee among the Gentiles, and sing unto thy name. 10 And again he saith, Rejoice, ye Gentiles, with his people. 11 And again, Praise the Lord, all ye people” (Romans 15:9).",
+      "suggested_fix": "Correggere la resa italiana della frase finale per renderla idiomatica e fedele al senso inglese. Il testo tradotto attuale contiene un'espressione scorretta/innaturale: “celebrate lo con lode”. Sostituire la frase con una resa corretta come: «…E di nuovo: Lodate il Signore, voi tutti i popoli; celebrate il suo nome» oppure «…E di nuovo: Lodate il Signore, voi tutti i popoli; rendetegli lode». Assicurarsi che la citazione biblica tradotta rimanga chiaramente riconoscibile come versetti 9–11 e conservi i numeri e la punteggiatura come nell'originale.",
+      "translation_quote": "“E perché i pagani potessero glorificare Dio per la sua misericordia; come è scritto: Per questo ti confesserò tra i pagani e canterò al tuo nome. 10 E ancora dice: Gioite, voi genti, con il suo popolo. 11 E di nuovo: Lodate il Signore, voi tutti i popoli; celebrate lo con lode” (Romani 15:9)."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html ¶2 (\"born again\")",
+      "severity": "minor",
+      "source_quote": "I have spoken to people who do not confess to be born again, but still hope to go to heaven.",
+      "suggested_fix": "Use gender-neutral or masculine-generic French for the idiom \"born again\" to match the English generic sense. Replace \"qui ne se disent pas nées de nouveau\" with e.g. \"qui ne se disent pas nés de nouveau\" or \"qui ne se disent pas \"nés de nouveau\".\"",
+      "translation_quote": "J’ai parlé à des personnes qui ne se disent pas nées de nouveau, mais qui espèrent quand même aller au ciel."
+    },
+    {
+      "location": "source.section / translation.section",
+      "severity": "minor",
+      "source_quote": "FEATURED ARTICLE",
+      "suggested_fix": "The translated section header \"ARTICLE MIS EN AVANT\" is understandable but slightly atypical in French. Consider using the more common phrasing \"ARTICLE EN VEDETTE\" or \"ARTICLE MISE EN AVANT\" to match standard editorial French usage.",
+      "translation_quote": "ARTICLE MIS EN AVANT"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -2,7 +2,6 @@
   "article_id": "ee9ff8a9-5b59-4b3e-9585-ab891c945bb5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,58 @@
         },
         "total_tokens": 1535
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1386,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1387,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2773
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> first stanza, line 3-4",
+      "severity": "major",
+      "source_quote": "Who are briskly walking onward,\nHeedless of their final goal.",
+      "suggested_fix": "Use gender-neutral or mixed-gender Hebrew plural and correct person. Replace \"ההולכות במהירות קדימה,\\nשלא מודעות ליעדן הסופי.\" with \"הולכים במהירות קדימה,\\nבלי לשים לב אל יעדם הסופי.\" to match the English meaning and neutral plural.",
+      "translation_quote": "ההולכות במהירות קדימה,\nשלא מודעות ליעדן הסופי."
+    },
+    {
+      "location": "<div class=\"poem\"> second stanza, line 2",
+      "severity": "minor",
+      "source_quote": "Straight or crooked, one of twain;",
+      "suggested_fix": "Adjust number/gender agreement and idiomatic Hebrew. Replace \"ישרים או מעוקלים, אחד משניים;\" with \"ישר או מעוקל — אחד משניים;\" or better: \"ישר או עקום — אחד משניים;\"",
+      "translation_quote": "ישרים או מעוקלים, אחד משניים;"
+    },
+    {
+      "location": "<div class=\"poem\"> third stanza, line 1",
+      "severity": "major",
+      "source_quote": "O dear souls! upon life’s pathway,",
+      "suggested_fix": "Correct the vocative and word choice. Replace the incorrect particle \"או\" (which reads like 'or') with a proper interjection or omit it. For example: \"נשמות יקרות! על שביל החיים,\" or more idiomatically: \"הוּ! נשמות יקרות, על שביל החיים,\" (better: simply \"נשמות יקרות! על שביל החיים,\").",
+      "translation_quote": "או נשמות יקרות! על שביל החיים,"
+    },
+    {
+      "location": "<div class=\"poem\"> third stanza, line 2",
+      "severity": "major",
+      "source_quote": "Lean upon your Savior’s breast;",
+      "suggested_fix": "Fix person/tense to match the imperative addressed to the readers. Replace \"נשענו אל חיק המושיע;\" (first-person plural past) with an imperative/command or exhortation such as \"השענו אל חיק המושיע;\" or \"הישענו אל חיק המושיע;\" (imperative plural) or more idiomatically \"הישענו על חיק המושיע;\"",
+      "translation_quote": "נשענו אל חיק המושיע;"
+    }
+  ],
   "id": "e6e6887f4af8f9c1c7176dc97ed5c9de",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "heb",
@@ -100,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 54,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/b70a42a3055e9b0b2f7cc18e717a71e0c042b99f8312a6e4498df59b68992446.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a0e94b1f79a0eed4b2b4fa527a207a63d01981d07be68e5cda06b45933da47fd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

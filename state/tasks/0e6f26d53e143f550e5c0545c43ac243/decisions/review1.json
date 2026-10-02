@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph (first <p>)",
+      "severity": "major",
+      "source_quote": "God was not surprised but, nevertheless, was very disappointed.",
+      "suggested_fix": "Translate the meaning correctly without introducing a negation. For example: \"ঈশ্বর অবাক হননি; তবু তিনি অত্যন্ত হতাশ হলেন।\" Preserve existing HTML tags and punctuation.",
+      "translation_quote": "ঈশ্বর দুঃখিত হননি না, তবু অত্যন্ত হতাশ হলেন।"
+    },
+    {
+      "location": "Ordered list item 6 (the <ol> list)",
+      "severity": "major",
+      "source_quote": "Decomposition and Decay",
+      "suggested_fix": "Translate both terms accurately into Bengali. For example: \"পচন এবং ক্ষয়\" or \"অবক্ষয় ও পচন\" (keep word order consistent with source). Do not use words that mean 'remorse'.",
+      "translation_quote": "পচন ও ব্যাকশোচ"
+    },
+    {
+      "location": "Paragraph in 'Death' section (one sentence)",
+      "severity": "minor",
+      "source_quote": "ashes to ashes and dust to dust",
+      "suggested_fix": "Remove the stray English token and provide a proper Bengali rendering of the phrase. For example: \"রাখ থেকে রেখে ও ধুলা থেকে ধুলা\" is awkward; better: \"চুল্লি থেকে চুল্লি এবং ধুলো থেকে ধুলো\" is still awkward—recommended: \"রাখ থেকে রাখি এবং ধুলে ধুলে\" is not idiomatic. Preferred translation: \"রাখ থেকে রাখি ও ধূলি থেকে ধূলি\" — or more idiomatically: \"রাখ থেকে রাখি, ধুলা থেকে ধুলা\". Replace the existing fragment while preserving surrounding HTML.",
+      "translation_quote": "চারের থেকে চার—and ধূলিতে ধূলি, awaiting the final resurrection."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

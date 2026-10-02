@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"section\",\"severity\":\"major\",\"source_quote\":\"A WORD FROM A DOCTOR\",\"suggested_fix\":\"Translate the section into Portuguese. Suggested rendering: \\\"UMA PALAVRA DE UM MÉDICO\\\" (or \\\"UMA MENSAGEM DE UM MÉDICO\\\"). Replace the current section value with the chosen Portuguese phrase.\",\"translation_quote\":\"UMA WORD FROM A DOCTOR\"}],\"passed\":false,\"score\":70}",
+    "content_bytes": 379,
+    "content_evidence_truncated": false,
+    "content_sha256": "28556cc9f8614f25823e70fa1559cc61dff71ce4974caf8b3254792c25056d21",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 936,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9663,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10599
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

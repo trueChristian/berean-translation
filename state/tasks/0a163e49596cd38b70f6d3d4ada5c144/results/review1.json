@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "83da5199-a62e-42b0-8993-c9e9c4b67492",
+    "response_id": "chatcmpl-EUWw23JmkbCMBiCDxrer15WxXZinH",
+    "usage": {
+      "completion_tokens": 1527,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5595,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7122
+    }
+  },
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>In Deuteronomy 1:42, God said “no” to Israel. …</p>",
+        "severity": "minor",
+        "source_quote": "but they rebelled at His “no.” “And ye returned and wept before the Lord; but the Lord would not hearken to your voice, nor give ear unto you” (Deuteronomy 1:45).",
+        "suggested_fix": "원문 의미를 그대로 살리려면 한국어에서 불필요한 부사(예: '더디게')를 제거하십시오. 권장 번역: “그러나 그들은 그의 ‘아니오’에 반역하였다. ‘너희가 돌아와서 여호와 앞에서 울었으나 여호와는 너희의 소리를 들으시지 아니하시고 너희에게 귀를 기울이지 아니하시니라’ (신명기 1:45).”",
+        "translation_quote": "그들은 그분의 “아니오”에 대항하여 더디게 반역했습니다. “너희가 돌아와서 여호와 앞에서 울었으나 여호와는 너희의 소리를 듣지 아니하시고 너희에게 귀를 기울이지 아니하시니라” (신명기 1:45)."
+      },
+      {
+        "location": "<p>That prayer has a chief purpose. Prayer should not be an attempt to manipulate the will of God. “Not my will, but thine, be done,” the suffering Savior cried, but when God says, “No,” we often forget that fact and complain in effect, “Not Thy will but mine be done.”…</p>",
+        "severity": "critical",
+        "source_quote": "“Not my will, but thine, be done,” the suffering Savior cried, but when God says, “No,” we often forget that fact and complain in effect, “Not Thy will but mine be done.”",
+        "suggested_fix": "이 부분은 원문이 예수님의 항복적 기도를 인용하여 ‘내 뜻이 아니라 아버지의 뜻이 이루어지기를’ 의미함을 분명히 해야 합니다. 현재 번역은 의미를 뒤집어 신학적으로 잘못 전달합니다. 권장 번역: “‘내 뜻대로 마시옵고 아버지의 뜻대로 되기를 원하노라’” 같은 비문적 표현 대신, 정확한 의미를 살려 “저 고난당하시는 구주께서 ‘내 뜻이 아니라 아버지의 뜻대로 되기를 원하노라’라고 기도하셨다”로 수정하십시오. (직역체 또는 문어체 선택은 편집 스타일에 맞추되, '내 뜻'과 '아버지의 뜻'의 관계가 뒤바뀌지 않도록 반드시 바로잡아야 합니다.)",
+        "translation_quote": "고난당하시는 구주가 “내 뜻대로 마시옵고 아버지의 뜻대로 되기를 원하노라”라고 외치셨지만, 하나님이 “아니오”라고 하실 때 우리는 종종 그 사실을 잊고 사실상 “아버지의 뜻이 아니라 내 뜻이 이루어지길” 불평합니다."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

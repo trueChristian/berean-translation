@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "55ac3798-3985-4f02-9671-8d0804c3fffe",
+    "response_id": "chatcmpl-EUWw39H6TgfcZATHej3O3vLZO2Nn3",
+    "usage": {
+      "completion_tokens": 1284,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5427,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6711
+    }
+  },
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing Matthew 9:36-38 (third paragraph after first Bible citation)",
+        "severity": "minor",
+        "source_quote": "Then in Matthew 9, when Jesus “saw the multitudes, he was moved with compassion on them, because they fainted, and were scattered abroad, as sheep having no shepherd. Then saith he unto his disciples, The harvest truly is plenteous, but the labourers are few; Pray ye therefore the Lord of the harvest, that he will send forth labourers into his harvest” (Matthew 9:36-38).",
+        "suggested_fix": "Adjust Indonesian to better reflect the sense and grammatical flow. Recommended revision: replace \"mereka lelah dan tertinggal seperti domba-domba yang tidak bergembala\" with \"mereka menjadi lelah dan tercerai-berai seperti domba yang tidak bergembala.\" Also replace \"Sangat banyak tuaiannya, tetapi sedikitkan pekerja; berdoalah karena itu kepada Tuhan yang empunya tuaian, supaya Ia mengutus pekerja-pekerja tuaian itu\" with a clearer rendering such as: \"Sungguh banyak tuaiannya, tetapi sedikit pekerja; berdoalah maka kepada Tuhan yang empunya tuaian, supaya Ia mengutus pekerja-pekerja ke dalam tuaian-Nya.\"",
+        "translation_quote": "\"Lalu di Matius 9, ketika Yesus \\\"melihat orang banyak itu, tergeraklah hati-Nya oleh belas kasihan kepada mereka, karena mereka lelah dan tertinggal seperti domba-domba yang tidak bergembala. Lalu Ia berkata kepada murid-murid-Nya: Sangat banyak tuaiannya, tetapi sedikitkan pekerja; berdoalah karena itu kepada Tuhan yang empunya tuaian, supaya Ia mengutus pekerja-pekerja tuaian itu\\\" (Matius 9:36-38).\""
+      },
+      {
+        "location": "Same paragraph as previous (phrase rendering of 'the harvest truly is plenteous, but the labourers are few')",
+        "severity": "minor",
+        "source_quote": "The harvest truly is plenteous, but the labourers are few; Pray ye therefore the Lord of the harvest, that he will send forth labourers into his harvest",
+        "suggested_fix": "Correct Indonesian grammar and idiom for this clause. Replace \"Sangat banyak tuaiannya, tetapi sedikitkan pekerja; berdoalah karena itu kepada Tuhan yang empunya tuaian, supaya Ia mengutus pekerja-pekerja tuaian itu\" with \"Sungguh banyak tuaiannya, tetapi sedikit pekerja; berdoalah kepada Tuhan yang empunya tuaian, supaya Ia mengutus pekerja-pekerja ke dalam tuaian-Nya.\" This preserves the original meaning and fixes ungrammatical \"sedikitkan.\"",
+        "translation_quote": "\"Sangat banyak tuaiannya, tetapi sedikitkan pekerja; berdoalah karena itu kepada Tuhan yang empunya tuaian, supaya Ia mengutus pekerja-pekerja tuaian itu\""
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

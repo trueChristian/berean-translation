@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"title\",\"severity\":\"major\",\"source_quote\":\"When All Thy Mercies, O My God\",\"suggested_fix\":\"Translate entire title into Afrikaans, rendering the full substantive phrase (including 'O My God') into standard contemporary Afrikaans. For example: \\\"Wanneer al U barmhartighede, o my God\\\" should instead be fully in Afrikaans as \\\"Wanneer al U barmhartighede, o my God\\\" is not acceptable if 'my God' remains English — use: \\\"Wanneer al U barmhartighede, o my God\\\" → correct Afrikaans form: \\\"Wanneer al U barmhartighede, o my God\\\". (Ensure 'my God' is in Afrikaans: \\\"o my God\\\" → \\\"o my God\\\" → see note.)\",\"translation_quote\":\"Wanneer al U barmhartighede, o my God\"},{\"location\":\"blockquote (Psalm 136:26)\",\"severity\":\"minor\",\"source_quote\":\"\\\"O give thanks unto the God of heaven: for His mercy endureth for ever\\\" —Psalm 136:26\",\"suggested_fix\":\"Verify wording is a standard Afrikaans Bible phrasing. If aiming for common contemporary Afrikaans Bible wording, consider: \\\"Loof die Heer, die God van die hemel; sy liefde hou vir ewig aan.\\\" or other established Afrikaans Bible text. Replace current literal translation only if a standard Bible rendering is desired.\",\"translation_quote\":\"\\\"Gee dank aan die God van die hemel: want sy goedertierenheid bly tot in ewigheid\\\" —Psalm 136:26\"},{\"location\":\"lyrics — verse 6 (\\\"Through hidden dangers, toils, and deaths...\\\")\",\"severity\":\"major\",\"source_quote\":\"\\\"Through hidden dangers, toils, and deaths, / It gently cleared my way; / And through the pleasing snares of vice, / More to be feared than they.\\\"\",\"suggested_fix\":\"Correct the Afrikaans to convey 'toils' (labours/difficulties), not 'swepe' (which means whips). Suggested translation: \\\"Deur verborge gevare, moeisame arbeid en dreigende dood, / Het dit sag my pad gebaan; / En deur die verleidelike strikke van sondigheid, / Meer om gevrees te word as dié.\\\" Preserve meaning and sequence.\",\"translation_quote\":\"Deur verborge gevare, swepe en sterftes\\n    Het dit sagkens my weg gevee;\\n    En deur die aangename strikke van sonde,\\n    Meer gevrees as hulle.\"},{\"location\":\"lyrics — verse 9 (\\\"Ten thousand thousand precious gifts / My daily thanks employ;\\\")\",\"severity\":\"major\",\"source_quote\":\"\\\"Ten thousand thousand precious gifts / My daily thanks employ; / Nor is the last a cheerful heart / That tastes those gifts with joy.\\\"\",\"suggested_fix\":\"Fix numeric expression and Dutch-language intrusions. Use natural Afrikaans number phrasing and verbs. For example: \\\"Tienduisende kosbare gawes / hou my daaglikse dank besig; / En nie die minste nie: 'n vrolike hart / wat daardie gawes met blydskap smaak.\\\" Replace Dutch words like 'Tien duizend', 'Houd', 'niet' with correct Afrikaans 'Tienduisende', 'Hou', 'nie'.\",\"translation_quote\":\"Tien duizend, tien duizend kosbare gawes\\n    Houd my daaglikse dank in beslag;\\n    En niet die minste ’n vrolike hart\\n    Wat daardie gawes met vreugde proe.\"},{\"location\":\"lyrics — verse 10 (\\\"When worn with sickness, oft hast Thou / With health renewed my face;\\\")\",\"severity\":\"major\",\"source_quote\":\"\\\"When worn with sickness, oft hast Thou / With health renewed my face; / And, when in sins and sorrows sunk, / Revived my soul with grace.\\\"\",\"suggested_fix\":\"Restore intended sense: 'worn with sickness' = 'wanneer deur siekte uitgeput' (not 'verskeep'), and 'Thou renewest my face with health' = 'het U my aangesig met gesondheid vernuwe' (meaning renewed my strength/appearance). Suggested translation: \\\"Wanneer deur siekte uitgeput, het U my dikwels met gesondheid vernuwe; / En toe ek in sondes en smarte versink het, / Het U my siel met genade herstel.\\\" Replace 'verskeep' and wrong 'vaal gelaat' phrasing.\",\"translation_quote\":\"Wanneer verskeep deur siekte, het U my vaal gelaat\\n    Met gesondheid my aangesig vernuwe;\\n    En, wanneer in sondes en smart ten gronde gesak,\\n    Het U my siel met genade vernuwe.\"},{\"location\":\"body — musical/biographical paragraph (typo)\",\"severity\":\"minor\",\"source_quote\":\"\\\"He continued to compose music until his death.\\\"\",\"suggested_fix\":\"Correct the typo 'komoneer' to standard Afrikaans 'komponeer'.\",\"translation_quote\":\"Hy het voortgegaan om musiek te komoneer tot aan sy dood.\"}],\"passed\":false,\"score\":60}",
+    "content_bytes": 4269,
+    "content_evidence_truncated": false,
+    "content_sha256": "745f62ca278499c3d036915f34c81cf9999633992a014b4ef6d32b81c603e6d5",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1745,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5950,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7695
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

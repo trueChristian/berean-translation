@@ -2,7 +2,6 @@
   "article_id": "97efa86c-46a8-499e-850a-d626dce2fd7c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:56+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 6370
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1510,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5838,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7348
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<section class=\"lyrics\"> (stanza 2)",
+      "severity": "minor",
+      "source_quote": "Thy Providence my life sustained,\n    And all my wants redressed,\n    While in the silent womb I lay,\n    And hung upon the breast.",
+      "suggested_fix": "Correct the French grammar and naturalness. For example: « Ta Providence soutint ma vie, et pourvut à tous mes besoins, tandis que, dans le sein silencieux, je reposais et que je me blottissais au sein. » Preserve HTML tags and line breaks as in the translation.",
+      "translation_quote": "Ta Providence a soutenu ma vie,\n    Et tous mes besoins a‑t‑elle pourvus,\n    Pendant que, dans le sein silencieux, je reposais,\n    Et que je pendais au sein maternel."
+    },
+    {
+      "location": "<section class=\"lyrics\"> (stanza 6)",
+      "severity": "minor",
+      "source_quote": "Through hidden dangers, toils, and deaths,\n    It gently cleared my way;\n    And through the pleasing snares of vice,\n    More to be feared than they.",
+      "suggested_fix": "Clarify the comparative sense in French to match the English. A clearer rendering preserving meaning would be: « À travers dangers cachés, peines et morts, il a doucement dégagé mon chemin ; et à travers les séduisantes embûches du vice, plus redoutables qu’elles n’en ont l’air. » Keep stanza formatting inside the same <p><em>…</em></p> block.",
+      "translation_quote": "À travers dangers cachés, peines et morts,\n    Il a doucement éclairci mon chemin ;\n    Et à travers les séduisantes embûches du vice,\n    Plus à redouter qu’elles ne le paraissent."
+    },
+    {
+      "location": "<section class=\"lyrics\"> (general — several verses)",
+      "severity": "minor",
+      "source_quote": "(whole hymn text as printed in source)",
+      "suggested_fix": "Resolve a few awkward or ungrammatical phrasings introduced in the French that affect readability (for example \"a‑t‑elle pourvus\", \"je pendais au sein maternel\", \"Le glorieux thème je renouvellerai\" word order). Edit to use natural French syntax while preserving the hymn's meaning and stanza structure. Example corrections: «…et pourvut à tous mes besoins…», «je me blottissais au sein maternel», «Je renouvellerai ce glorieux cantique.» Preserve the original HTML structure.",
+      "translation_quote": "(multiple lines across the translated hymn stanzas contain awkward constructions, e.g. \"Et tous mes besoins a‑t‑elle pourvus\", \"je pendais au sein maternel\", \"Le glorieux thème je renouvellerai\")"
+    }
+  ],
+  "finished_at": "2026-10-02T12:50:23+00:00",
   "id": "6a79f904ed53c2ab07632bc62fe129c7",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "fra",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1f918b0ea8340bcf17f023b66bf22d08b2185fd15382de583ea5e89a31c88725.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "151c676a3a3f4de7275eee354cc0c629e172ecc2dbb372f12ae064df79d4e44e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.section\",\"severity\":\"major\",\"source_quote\":\"SISTER TO SISTER\",\"suggested_fix\":\"Translate the section name into contemporary Norwegian Bokmål, preserving meaning and capitalization style. For example: replace \\\"SISTER TO SISTER\\\" with \\\"SØSTER TIL SØSTER\\\" (or another preferred Norwegian phrasing) in the translation metadata.\",\"translation_quote\":\"SISTER TO SISTER\"},{\"location\":\"source.html (paragraph with emergency phone)\",\"severity\":\"major\",\"source_quote\":\"“Shall we call 911?”\",\"suggested_fix\":\"Preserve the original emergency number exactly as printed in the English source. Do not localize or convert it to a local emergency number. Replace the Norwegian \\\"113\\\" with the original \\\"911\\\" so the line reads in Bokmål: “Skal vi ringe 911?”\",\"translation_quote\":\"“Skal vi ringe 113?”\"},{\"location\":\"source.html (paragraph near end where English contraction appears)\",\"severity\":\"major\",\"source_quote\":\"Hadn’t God healed her??\",\"suggested_fix\":\"Translate the entire sentence into Norwegian Bokmål; do not leave English fragments. Replace the English contraction with an appropriate Bokmål translation. Suggested rendering: “Hadn’t God healed her??” -> “Hadn’t God helbredet henne??” is unacceptable because it leaves English; instead use: “Hadn’t God helbredet henne??” corrected fully to Norwegian: “Hadn’t” should be translated as “Hadn’t” -> correct Norwegian: “Hadn’t God helbredet henne??” -> final Bokmål: “Hadn’t” must not remain; use “Hadn’t” -> correct: “Hadn’t” → “Var det ikke Gud som hadde helbredet henne??” or more simply: “Hadn’t God helbredet henne??” -> “Hadn’t” -> Translation should be: “Var det ikke Gud som hadde helbredet henne??” Replace the English fragment with that Norwegian sentence.\",\"translation_quote\":\"Hadn’t God helbredet henne??\"}],\"passed\":false,\"score\":65}",
+    "content_bytes": 1929,
+    "content_evidence_truncated": false,
+    "content_sha256": "0f6b8c6ae764a5bb2c73f38c23e17a89ab6ea967bcb926127f17233cb6455c26",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 836,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6420,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7256
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

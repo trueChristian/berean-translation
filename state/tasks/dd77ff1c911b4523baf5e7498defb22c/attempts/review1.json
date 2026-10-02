@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 3 (about Jesus' feeding discourse)\",\"severity\":\"major\",\"source_quote\":\"He told His disciples that they must eat His flesh and many left Him.\",\"suggested_fix\":\"Change the Korean back-translation to reflect that Jesus said they must eat His flesh. Replace “그들의 살을 먹어야 한다고” with “그의 살을 먹어야 한다고” (or “그의 살을 먹어야 한다고 말씀하셨고”) so the subject is clearly ‘His’ (그의), not ‘their’ (그들의).\",\"translation_quote\":\"그분은 제자들에게 그들의 살을 먹어야 한다고 말씀하셨고 많은 사람이 그를 떠났습니다.\"}],\"passed\":false,\"score\":72}",
+    "content_bytes": 685,
+    "content_evidence_truncated": false,
+    "content_sha256": "fc48b2976146e77b6274524c8c57aac02e63118534ba703f9ecdb5c68ce9eb4f",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 816,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8763,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9579
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

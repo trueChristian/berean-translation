@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<div class=\"poem\"><p>La vita è per lo più ciò che ne facciamo,<br>\n    Dritta o torta, una delle due;<br>\n    Riceveremo esattamente ciò che meritiamo—<br>\n    La nostra perdita o il nostro guadagno eterno.</p>",
+      "severity": "major",
+      "source_quote": "Life is mostly what we make it,\n    Straight or crooked, one of twain;\n    We’ll receive just what we merit—\n    Our eternal loss or gain.",
+      "suggested_fix": "Correct the mistranslated word and keep idiomatic Italian. Replace the stanza text (inside the same paragraph tags) with: \"La vita è per lo più ciò che ne facciamo,<br>  Dritta o storta, una delle due;<br>  Riceveremo proprio ciò che meritiamo—<br>  La nostra perdita o il nostro guadagno eterno.\"",
+      "translation_quote": "La vita è per lo più ciò che ne facciamo,\n    Dritta o torta, una delle due;\n    Riceveremo esattamente ciò che meritiamo—\n    La nostra perdita o il nostro guadagno eterno."
+    },
+    {
+      "location": "<div class=\"poem\"><p>O care anime! sul sentiero della vita,<br>\n    Appoggiatevi sul petto del vostro Salvatore;<br>\n    Lì nessun nemico potrà mai molestare voi,<br>\n    Finché non raggiungerete il riposo eterno.</p>",
+      "severity": "minor",
+      "source_quote": "O dear souls! upon life’s pathway,\n    Lean upon your Savior’s breast;\n    There no foe can e’er molest you,\n    ‘Til you reach eternal rest.",
+      "suggested_fix": "Make the Italian more idiomatic by converting the split verb form to the enclitic form and smoothing word order. Replace the stanza text (inside the same paragraph tags) with: \"O care anime! sul sentiero della vita,<br>  Appoggiatevi sul petto del vostro Salvatore;<br>  Lì nessun nemico potrà mai molestarvi,<br>  Finché non raggiungerete il riposo eterno.\"",
+      "translation_quote": "O care anime! sul sentiero della vita,\n    Appoggiatevi sul petto del vostro Salvatore;\n    Lì nessun nemico potrà mai molestare voi,\n    Finché non raggiungerete il riposo eterno."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

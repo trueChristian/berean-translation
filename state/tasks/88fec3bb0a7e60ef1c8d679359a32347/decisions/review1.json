@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph with Deuteronomy 1:42 (\"And the Lord said unto me, Say unto them, Go not up, neither fight; for I am not among you; lest ye be smitten before your enemies\")",
+      "severity": "minor",
+      "source_quote": "\"And the Lord said unto me, Say unto them, Go not up, neither fight; for I am not among you; lest ye be smitten before your enemies\" (Deuteronomy 1:42).",
+      "suggested_fix": "Adjust Norwegian wording to convey the conditional/caution in the original. Suggested Norwegian rendering: «Og Herren sa til meg: Si til dem: Gå ikke opp, og kjemp ikke; for jeg er ikke blant dere; for at dere ikke skal bli slått av deres fiender.» Preserve the placement of the Scripture reference.",
+      "translation_quote": "«Og Herren sa til meg: Si til dem: Gå ikke opp, og strid ikke; for jeg er ikke blant dere; for ikke skal dere bli slått for øynene på deres fiender», men de gjorde opprør mot Hans «nei»."
+    },
+    {
+      "location": "source.html paragraph with 2 Corinthians 12:7-9 (opening clause)",
+      "severity": "minor",
+      "source_quote": "\"And lest I should be exalted above measure through the abundance of the revelations, there was given to me a thorn in the flesh...\" (2 Corinthians 12:7).",
+      "suggested_fix": "Correct odd or mistranslated Norwegian terms that obscure meaning. Replace «fordekt av de høye uppenbarelser» and similar with a clearer rendering. Suggested: «For at jeg ikke skulle bli forhøyet over mål ved de mange åpenbaringer, ble det meg gitt en torn i kjødet...» Also change «uppenbarelser» spelling to «åpenbaringer» and ensure natural Bokmål grammar.",
+      "translation_quote": "«Og for at jeg ikke skulle bli fordekt av de høye uppenbarelser, ble det gitt meg et torner i kroppen, en sendebud fra Satan for å stange meg, for at jeg ikke skulle bli forhøyet over mål.»"
+    },
+    {
+      "location": "source.html paragraph discussing \"acceptance does not mean woeful resignation\"",
+      "severity": "minor",
+      "source_quote": "\"Second, acceptance does not mean woeful resignation. Paul 'besought the Lord thrice...'\"",
+      "suggested_fix": "Fix the Norwegian loanword and word order. Replace «sørgelig resignation» with a natural Bokmål phrase such as «sørgelig resignasjon» or better: «en sørgmodig resignasjon».",
+      "translation_quote": "\"For det andre betyr aksept ikke sørgelig resignation. Paulus «bad Herren tre ganger at det måtte vike fra meg.»\""
+    },
+    {
+      "location": "source.html concluding paragraph (\"Deliverance came. No, not to Stephen and James... in unquenchable hope\")",
+      "severity": "minor",
+      "source_quote": "\"Deliverance came. No, not to Stephen and James... but it came in unquenchable hope, in the hope that maketh not ashamed.\"",
+      "suggested_fix": "The phrase translated as «ugjenkallelige håp» is inaccurate and unidiomatic for \"unquenchable hope.\" Use a more faithful, idiomatic rendering such as «et ugjendrivelig/et uutslettelig håp» or better «et håp som ikke kan slukkes»; ensure agreement and grammar: e.g. «men det kom i et uutslettelig håp, i det håp som ikke gjør oss til skamme.»",
+      "translation_quote": "\"Frelse kom. Nei, ikke til Stefanus og Jakob, heller ikke til lidende tjenere som Job, av samme dyrebare tro, men den kom i en ugjenkallelige håp, i det håp som ikke gjør oss til skamme.\""
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

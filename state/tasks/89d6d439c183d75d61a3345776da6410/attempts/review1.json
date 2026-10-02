@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>When I entered the kitchen, Judy lay on the floor, jerking rhythmically. I had never seen anyone in a seizure before, but somehow, I just knew. She’s having a seizure!</p>\",\"severity\":\"critical\",\"source_quote\":\"I had never seen anyone in a seizure before, but somehow, I just knew.\",\"suggested_fix\":\"Translate the English word \\\"somehow\\\" into Arabic to avoid leaving an untranslated substantive word in the body text. Example fixes that preserve meaning and tone: \\\"لم أرَ أحدًا في نوبة تشنج من قبل، لكن بطريقة ما عرفت ذلك فورًا.\\\" or \\\"لم أرَ أحدًا في نوبة تشنج من قبل، لكنني دون أن أعرف كيف عرفت فورًا.\\\" Replace the untranslated English word only, keeping the rest of the sentence as in the translation.\",\"translation_quote\":\"لم أرَ أحدًا في نوبة تشنج من قبل، لكن somehow، عرفته فورًا. إنها في نوبة تشنج!\"}],\"passed\":false,\"score\":40}",
+    "content_bytes": 1024,
+    "content_evidence_truncated": false,
+    "content_sha256": "d284f73bb829c7b0c9ab7929034576d7b1fdcd782576b84da6ff6aead6b64218",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 680,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6387,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7067
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

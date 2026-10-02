@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9aba138e-9629-42d8-8676-eedc7ae592d0",
+    "response_id": "chatcmpl-EUWwEKJeiJNgTSqFyjijsXkIAZNty",
+    "usage": {
+      "completion_tokens": 730,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1394,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2124
+    }
+  },
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<figure> — img alt",
+        "severity": "minor",
+        "source_quote": "A snow-covered road winding through an evergreen forest",
+        "suggested_fix": "Use a more natural, concise Indonesian equivalent for “evergreen forest,” for example: \"Sebuah jalan bersalju yang berkelok melalui hutan hijau sepanjang tahun\" or \"Sebuah jalan bersalju yang berkelok melalui hutan hijau selamanya.\" Keep the rest of the alt text as translated.",
+        "translation_quote": "Sebuah jalan bersalju yang berkelok melalui hutan pohon hijau sepanjang tahun"
+      },
+      {
+        "location": "Poem — first stanza, second line",
+        "severity": "minor",
+        "source_quote": "For the multitude of souls,",
+        "suggested_fix": "Remove the added locational nuance \"di dunia\" to better match the original’s neutral phrasing: \"Bagi banyak jiwa,\"",
+        "translation_quote": "Bagi banyak jiwa di dunia,"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

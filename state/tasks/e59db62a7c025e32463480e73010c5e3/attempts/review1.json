@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>He who declared, “The earth is the Lord’s,” doesn’t agree with the idea that men are something other than stewards of God’s creation.</p>\",\"severity\":\"major\",\"source_quote\":\"He who declared, “The earth is the Lord’s,” doesn’t agree with the idea that men are something other than stewards of God’s creation.\",\"suggested_fix\":\"Replace the mistranslated sentence with a faithful Hindi rendering that preserves the original negation and meaning: \\\"उसने कहा, ‘पृथ्वी और उसमें वास करने वाले सब कुछ यहोवा का है।’ वह यह विचार स्वीकार नहीं करता कि मनुष्य परमेश्वर की सृष्टि के स्वामी हैं; बल्कि मनुष्य परमेश्वर की सृष्टि के व्यवस्थापक (स्टुअरड) हैं।\\\" Preserve the surrounding <p>…</p> tags and punctuation.\",\"translation_quote\":\"\\\"जिसने कहा, “पृथ्वी और उसमें वासरत सब कुछ यहोवा का है,” वह यह विचार नहीं मानता कि मनुष्य परमेश्वर की सृष्टि का ठेकेदार नहीं है।\\\"\"},{\"location\":\"<blockquote>\\n    <p>“For the earnest expectation of the creature waiteth for the manifestation of the sons of God. For the creature was made subject to vanity, not willingly, but by reason of him who subjected the same in hope. Because the creature itself also shall be delivered from the bondage of corruption into the glorious liberty of the children of God. For we know that the whole creation groaneth and travaileth in pain together until now. And not only they, but ourselves also, which have the first fruits of the Spirit, even we ourselves groan within ourselves, waiting for the adoption, to wit, the redemption of our bodies” (Romans 8:19-23).</p>\\n  </blockquote>\",\"severity\":\"minor\",\"source_quote\":\"“For the earnest expectation of the creature waiteth for the manifestation of the sons of God... (Romans 8:19-23).”\",\"suggested_fix\":\"Adjust the Hindi quotation to a more accurate, natural rendering of the KJV passage while keeping it translated: e.g. replace the blockquote text with: “क्योंकि सृष्टि की परम प्रबल आकांक्षा परमेश्वर के पुत्रों की प्रकटीकरण की प्रतीक्षा करती है। क्योंकि सृष्टि निस्फलता के अधीन रखी गई थी, न अपने अनुसार, परंतु उस कारण से जिसने उसे अधीन किया, परन्तु आशा के साथ। क्योंकि सृष्टि भी भ्रष्टि के दासत्व से मुक्ति पाकर परमेश्वर के पुत्रों की महिमामय स्वतंत्रता प्राप्त करेगी। क्योंकि हम जानते हैं कि समस्त सृष्टि अब तक एक साथ कराहती और पीड़ा में है। और केवल वे ही नहीं, पर हम भी, जिनके पास आत्मा की प्रथम फसल है, अपने-अपने भीतर कराहते हैं, प्रत्याशा करते हुए पुत्रत्व की प्राप्ति की, अर्थात् हमारे शरीरों की मुक्ति की।” Preserve the <blockquote> and <p> tags.\",\"translation_quote\":\"“क्योंकि सृष्टि की भीकट आनन्दपूर्वक परमेश्वर के पुत्रों की प्रकटीकरण की प्रतीक्षा करती है... (रोमियों 8:19-23)।”\"},{\"location\":\"<p>God was also faithful in designing people, plants, and animals with a regenerative microbiome (billions of helpful bacteria) and a systemic immune system, which helps us fight off diseases.</p>\",\"severity\":\"minor\",\"source_quote\":\"God was also faithful in designing people, plants, and animals with a regenerative microbiome (billions of helpful bacteria) and a systemic immune system, which helps us fight off diseases.\",\"suggested_fix\":\"Use a clearer, more idiomatic Hindi term for 'regenerative microbiome' and render the parenthetical note naturally, e.g. \\\"परमेश्वर ने लोगों, पौधों और पशुओं को पुनर्जीवनी माइक्रोबायोम (अरबों सहायक बैक्टीरिया) और एक प्रणालीगत प्रतिरक्षा प्रणाली के साथ भी वफादारी से बनाया, जो हमें रोगों से लड़ने में मदद करती है।\\\" Preserve the surrounding <p> tags.\",\"translation_quote\":\"\\\"परमेश्वर ने लोगों, पौधों और पशुओं को पुनरुत्पादक माइक्रोबायोम (अरबों सहायक बैक्टीरिया) और एक प्रणालीगत प्रतिरक्षा प्रणाली के साथ डिज़ाइन कर वफादारी दिखाई, जो हमें रोगों से लड़ने में मदद करती है।\\\"\"}],\"passed\":false,\"score\":82}",
+    "content_bytes": 5920,
+    "content_evidence_truncated": false,
+    "content_sha256": "d6593efaf34c917ffafec55f4dd6502e4c896085fbecf3576f4066ca43c197db",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1694,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7319,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9013
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

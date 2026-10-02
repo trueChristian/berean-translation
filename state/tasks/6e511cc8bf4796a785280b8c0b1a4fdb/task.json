@@ -2,7 +2,6 @@
   "article_id": "a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 3516
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1153,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2846,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3999
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>...sitting on the road bank with some neighborhood boys... (first paragraph)</p>",
+      "severity": "major",
+      "source_quote": "He was sitting on the road bank with some neighborhood boys who had stopped by.",
+      "suggested_fix": "Replace the mistranslation \"naboduer\" with a correct rendering such as \"nabogutter\" so the sentence reads: \"Lille Davy satt på veikanten sammen med noen nabogutter som hadde stanset innom.\" Preserve the surrounding HTML and tags exactly.",
+      "translation_quote": "Lille Davy satt på veikanten sammen med noen naboduer som hadde stanset innom."
+    },
+    {
+      "location": "<figure> <figcaption>...PROVERBS 16:18</figcaption> (figure caption)</figure>",
+      "severity": "minor",
+      "source_quote": "\"PRIDE GOETH BEFORE\nDESTRUCTION, AND AN\nHAUGHTY SPIRIT BEFORE\nA FALL\"\n-PROVERBS 16:18",
+      "suggested_fix": "Correct the conventional Norwegian Bokmål book name. Replace \"ORDSPRØKENE 16:18\" with \"ORDSPRÅKENE 16:18\" so the caption reads: \"STOLTHET GÅR FORUT FOR\\nUNDERGANG, OG ET\\nHOVMODIG SINN FORUT FOR\\nET FALL\"\\n-ORDSPRÅKENE 16:18. Preserve line breaks and HTML tags.",
+      "translation_quote": "\"STOLTHET GÅR FORUT FOR<br>\n    UNDERGANG, OG ET<br>\n    HOVMODIG SINN FORUT FOR<br>\n    ET FALL\"<br>\n    -ORDSPRØKENE 16:18"
+    },
+    {
+      "location": "<p>«Vel,\" ... WD40 ...</p> (third paragraph)",
+      "severity": "minor",
+      "source_quote": "\"Well,\" Big David began to brag, \"With my longer legs, and freshly sprayed WD40, my bike is sure to be the fastest.\"",
+      "suggested_fix": "Translate \"freshly sprayed WD40\" more idiomatically and accurately. Replace \"nymontert WD40\" with \"nysprayet WD40\" or \"ferskt sprayet WD40\" so the sentence reads: \"«Vel,» begynte Store David og skryte, «med mine lengre ben, og ferskt sprayet WD40, er sykkelen min helt sikkert den raskeste.»\" Preserve HTML structure.",
+      "translation_quote": "«Vel,» begynte Store David og skryte, «med mine lengre ben, og nymontert WD40, er sykkelen min helt sikkert den raskeste.»"
+    }
+  ],
   "id": "6e511cc8bf4796a785280b8c0b1a4fdb",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "nob",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/b3f16398a20747d67e66eb67dbc050ebc81f356a674a0f664b03d16556ad5ae2.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b2d358ce80d345919a9aeec61b0c0a38e5f8adb553e707efe8d7b1d08ee3bf17",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

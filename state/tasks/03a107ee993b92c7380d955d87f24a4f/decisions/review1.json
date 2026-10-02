@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 1 (near: \"Eve, although deceived...\")",
+      "severity": "major",
+      "source_quote": "Eve, although deceived by Satan in the form of the serpent, believed the lie and chose to disobey God, doing the only thing that God had lovingly asked her not to do.",
+      "suggested_fix": "Translate the entire clause into Greek and remove the leftover English token. For example: «Η Εύα, αν και απατήθηκε από τον Σατανά με τη μορφή του όφεως, πίστεψε το ψέμα και επέλεξε να παραβεί τον Θεό, κάνοντας το μόνο πράγμα που ο Θεός της είχε με αγάπη ζητήσει να μην κάνει.» Preserve HTML and surrounding punctuation exactly.",
+      "translation_quote": "Η Εύα, αν και απατημένη από τον Σατανά με τη μορφή του όφεως, πίστεψε το ψέμα και επέλεξε να a disobey τον Θεό, κάνοντας το μόνο πράγμα που ο Θεός της είχε με αγάπη ζητήσει να μην κάνει."
+    },
+    {
+      "location": "Figure 1 <img alt> and figcaption (paragraph with Hiroshima)",
+      "severity": "major",
+      "source_quote": "\"Ruins of Hiroshima after the atomic bombing\" / \"The destructiveness of man, through the atomic bomb in Hiroshima, Japan\"",
+      "suggested_fix": "Correct the alt text and caption to match the original meaning (atomic bomb). Suggested Greek phrasing: alt=\"Ερείπια της Χιροσίμα μετά τη ριπή της ατομικής βόμβας\" and figcaption: «Η καταστροφικότητα του ανθρώπου, μέσω της ατομικής βόμβας στη Χιροσίμα της Ιαπωνίας» (or similar). Do not introduce new theological claims; preserve original sense.",
+      "translation_quote": "alt=\"Ερείπια της Χιροσίμα μετά τη ραδιενεργή βόμβα\" / <em>Η καταστροφικότητα του ανθρώπου, μέσω της ατομικής βόμβας στη Χιροσίμα της Ιαπωνίας</em>"
+    },
+    {
+      "location": "List item 4 and related paragraphs (thorns/thistles/artichokes)",
+      "severity": "major",
+      "source_quote": "\"Dominance of certain plants like thorns and thistles\" / \"This is an artichoke plant, a member of the thistle family.\"",
+      "suggested_fix": "Ensure the target text uses accurate equivalents for \"thorns\" and \"thistles\" and does not conflate with \"artichoke\" where the source means \"thistles.\" For list item 4 use e.g. «Κυριαρχία ορισμένων φυτών όπως τα αγκάθια και οι αγκαθιές (thistles)» or simply «...όπως τα αγκάθια και οι αγκαθινάδες/τρυποκαρπίδες» depending on common Modern Greek usage. In the figcaption keep correct identification: «Αυτό είναι ένα φυτό αγριαγκινάρας (αρκεία ως αγκάθι), μέλος της οικογένειας των αγκαθωδών.» (Match the source's intent that artichoke is a thistle-family plant.) Preserve HTML structure.",
+      "translation_quote": "List: \"Kυριαρχία ορισμένων φυτών όπως τα αγκάθια και τα αγριαγκινάρες\" / figcaption: \"Αυτό είναι ένα φυτό αγριαγκινάρας, μέλος της οικογένειας των αγκαθωδών. Πολλοί άνθρωποι χρησιμοποιούν αυτό το «αγκάθι», μαζί με τον συγγενή του, την καρδούνα, ως τροφή.\""
+    },
+    {
+      "location": "Paragraph under \"Dominance of Thorns and Thistles\" (plant names)",
+      "severity": "major",
+      "source_quote": "\"Blessed Thistle, Milk Thistle, Teasel, Raspberry Leaf, and Blackberry roots\"",
+      "suggested_fix": "Translate these plant names into contemporary Modern Greek or provide accepted Greek common names in the same script. Do not leave them in English. Example: «Blessed Thistle (αγκάθι της ευλογίας ή stachys), Milk Thistle (γάλακτος αγκάθι, Silybum marianum), Teasel (δενδροβάλανος/κους-κους – use the common Greek name), φύλλο σμέουρου (φύλλο σμέουρου) και ρίζες βατόμουρου». Use accurate, commonly used Greek plant names. Preserve order and meaning.",
+      "translation_quote": "\"Blessed Thistle, Milk Thistle, Teasel, φύλλο σμέουρου και ρίζες βατόμουρου\""
+    },
+    {
+      "location": "Paragraph beginning \"Decomposition and Decay\" (first sentence)",
+      "severity": "major",
+      "source_quote": "\"A nut falls to the ground, and a sprout soon appears.\"",
+      "suggested_fix": "Correct the mistranslation of 'nut' to a natural Modern Greek equivalent (καρύδι/καρπός). Suggested translation: «Ένας καρπός (ή ένα καρύδι) πέφτει στο έδαφος, και σύντομα εμφανίζεται ένα βλαστάρι.» Preserve surrounding HTML.",
+      "translation_quote": "\"Ένα καρπόπετρο πέφτει στο έδαφος και σύντομα εμφανίζεται ένα βλαστάρι.\""
+    },
+    {
+      "location": "Paragraph 'Decomposition' (plant/soil microbes statistic)",
+      "severity": "minor",
+      "source_quote": "\"Healthy organic soil has about 8 billion soil microbes in a single tablespoon.\"",
+      "suggested_fix": "Clarify numeric phrase into idiomatic Modern Greek and correct unit if needed. Suggested fix: «Ένα κουταλάκι του γλυκού υγιούς οργανικού εδάφους περιέχει περίπου 8 δισεκατομμύρια μικροοργανισμούς.» Preserve number and meaning.",
+      "translation_quote": "\"Το υγιές οργανικό έδαφος έχει περίπου 8 δισεκατομμύρια μικροοργανισμούς σε ένα μόνο κουταλάκι του γλυκού.\""
+    },
+    {
+      "location": "Blockquote (Romans 8:19-23)",
+      "severity": "minor",
+      "source_quote": "Full Romans 8:19-23 as printed in English",
+      "suggested_fix": "The quotation has been rendered into a more archaic/formal Greek register and includes slight phrasing differences. Ensure the quotation faithfully conveys the printed English meaning in contemporary Modern Greek while keeping the verse numbers intact. If the publication style prefers a specific Bible translation note that the translator used a conventional Modern Greek Bible version equivalent phrasing. Example contemporary rendering: «Γιατί η φιλοσοφημένη προσδοκία της κτίσης προσμένει την αποκάλυψη των υιών του Θεού... (Ρωμ. 8:19–23).» Preserve scripture reference numbers.",
+      "translation_quote": "«Γιατί η φιλοσοφική προσδοκία της κτίσης προσμένει την αποκαλύψιν των υιών του Θεού... (Ρωμαίους 8:19-23).»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

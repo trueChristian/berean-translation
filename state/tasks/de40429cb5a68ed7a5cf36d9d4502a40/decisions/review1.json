@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 4 (Psalm 119:165)",
+      "severity": "minor",
+      "source_quote": "“Great peace have they which love thy law: and nothing shall offend them” (Psalm 119:165).",
+      "suggested_fix": "Render the second clause in natural, grammatical Bahasa Indonesia. Keep the meaning 'nothing shall cause them to be offended/stumble' and preserve verse reference. Example: “Damai besar bagi mereka yang mengasihi Taurat-Mu: mereka tidak akan tersandung.”",
+      "translation_quote": "“Damai besar bagi mereka yang mengasihi Taurat-Mu: dan tidak akan ada yang tersandung mereka” (Mazmur 119:165)."
+    },
+    {
+      "location": "Paragraph 3 (Greek gloss)",
+      "severity": "minor",
+      "source_quote": "The Greek word is skandalízō meaning “to scandalize”.",
+      "suggested_fix": "Translate the gloss fully into Bahasa Indonesia and avoid leaving the English gloss in parentheses. Keep transliteration and meaning. Example: \"Kata Yunani adalah skandalízō yang berarti 'menjadi batu sandungan' atau 'menyinggung'.\"",
+      "translation_quote": "Kata Yunani adalah skandalízō yang berarti “mencemarkan” (to scandalize)."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

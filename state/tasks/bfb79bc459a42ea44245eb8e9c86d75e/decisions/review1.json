@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.section",
+      "severity": "major",
+      "source_quote": "FEATURED ARTICLE",
+      "suggested_fix": "Translate the section metadata to a correct Urdu equivalent (preserve HTML structure). For example: \"نمایاں مضمون\" or \"خصوصی مضمون\". Replace the translation field value while keeping it as plain text (no HTML changes required).",
+      "translation_quote": "مائیکل مضمون"
+    },
+    {
+      "location": "source.html > p (paragraph containing: “We do not work for our salvation, for Christ Himself said, “It is finished.””)",
+      "severity": "major",
+      "source_quote": "We do not work for our salvation, for Christ Himself said, “It is finished.”",
+      "suggested_fix": "Translate the quoted substantive English phrase into Urdu, preserving the surrounding punctuation and HTML. For example: “ہم اپنی نجات کے لیے کام نہیں کرتے، کیونکہ خود مسیح نے کہا، ‘یہ مکمل ہو گیا’.” Replace the English phrase “It is finished” with an Urdu rendering inside the same quotation marks and keep the enclosing <p> element unchanged.",
+      "translation_quote": "ہم اپنی نجات کے لیے کام نہیں کرتے، کیونکہ خود مسیح نے کہا، “مکمل ہو گیا” (It is finished)."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

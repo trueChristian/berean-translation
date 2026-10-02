@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c85be00c-6700-4092-b133-4c569012115e",
+    "response_id": "chatcmpl-EUWwD2dkj0mqMTPhdjeT84qJ2pLqz",
+    "usage": {
+      "completion_tokens": 614,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6661,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7275
+    }
+  },
+  "received_at": "2026-10-02T12:50:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "God’s Faithfulness Manifest Even in the Curse",
+        "suggested_fix": "将标题翻译为标准书面中文，例如：\"咒诅中仍显明的上帝信实\" 或更接近原意的译法：\"在咒诅中显明的上帝信实\"。",
+        "translation_quote": "God’s Faithfulness Manifest Even in the Curse"
+      },
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "ATTRIBUTES OF GOD",
+        "suggested_fix": "将栏目名翻译为中文常用表达，例如：\"上帝的属性\"。",
+        "translation_quote": "ATTRIBUTES OF GOD"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

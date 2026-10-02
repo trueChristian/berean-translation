@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "<p>...He writes, “Jesus knows our limitations. He wants us to have balance, living in such a way that we not only have strength for today but also for tomorrow, next week, and next year – till He comes again.”</p>",
+      "severity": "critical",
+      "source_quote": "He writes, “Jesus knows our limitations. He wants us to have balance, living in such a way that we not only have strength for today but also for tomorrow, next week, and next year – till He comes again.”",
+      "suggested_fix": "Vertaal die sitaat volledig in Afrikaans en bewaar dit as 'n aangehaalde aanhaling binne dieselfde paragraaf en HTML. Voorstel: “Hy skryf: ‘Jesus ken ons beperkings. Hy wil hê ons moet balans hê, sodat ons nie net krag het vir vandag nie, maar ook vir môre, volgende week en volgende jaar – totdat Hy weer kom.’”",
+      "translation_quote": "Hy skryf: “Jesus knows our limitations. He wants us to have balance, living in such a way that we not only have strength for today but also for tomorrow, next week, and next year – till He comes again.”"
+    },
+    {
+      "location": "<p>...Regtig stem ek saam met Salomo, “Want die HERE sal jou vertroue wees, en hy sal jou voet daarvan bewaar dat dit geneem word” (Proverbs 3:26).</p>",
+      "severity": "major",
+      "source_quote": "“For the LORD shall be thy confidence, and shall keep thy foot from being taken” (Proverbs 3:26).",
+      "suggested_fix": "Vertaal die Bybelboeknaam na die konvensionele Afrikaans en plaas die verwysingstatus onveranderd. Voorstel: verander die eindhakies aanhaling na: “(Spreuke 3:26).” Die aangehaalde teks wat reeds in Afrikaans is, is goed; vervang net die Engelse boeknaam met 'Spreuke'.",
+      "translation_quote": "“Want die HERE sal jou vertroue wees, en hy sal jou voet daarvan bewaar dat dit geneem word” (Proverbs 3:26)."
+    },
+    {
+      "location": "<p>...“God’s Faithfulness Manifest Even in the Curse”,</p>",
+      "severity": "major",
+      "source_quote": "“God’s Faithfulness Manifest Even in the Curse”",
+      "suggested_fix": "Vertaal die Engelse artikeltitel in Afrikaans. Voorstel: “God se getrouheid openbaar selfs in die vloek” of '“God se getrouheid openbaar selfs in die vloek”' as dit by die styl pas. Hou die aanhalingstekens en die verwysing in dieselfde paragraaf.",
+      "translation_quote": "“God’s Faithfulness Manifest Even in the Curse”"
+    },
+    {
+      "location": "<p>...Ons ervaar brandpunt. In hierdie uitgawe lei “A Word From the Doctor” ons ...</p>",
+      "severity": "major",
+      "source_quote": "We face burnout. In this issue, “A Word From the Doctor” guides us ...",
+      "suggested_fix": "Vertaal 'burnout' na toepaslike Afrikaans ('uitbranding' of 'burnout' as leenwoord) en vertaal die Engelse rubriektitel. Voorstel: vervang met: “Ons ervaar uitbranding. In hierdie uitgawe lei ‘’n Woord van die Dokter’ ons ...” of hou die deur die publikasie gebruikte Afrikaanse titel as dit bestaan. Die rubriektitel moet in Afrikaans verskyn as dit deel van die artikel is.",
+      "translation_quote": "Ons ervaar brandpunt. In hierdie uitgawe lei “A Word From the Doctor” ons ..."
+    },
+    {
+      "location": "<p>Laas week het ek ons braaikuike skoongemaak ...</p>",
+      "severity": "minor",
+      "source_quote": "Last week I was cleaning out our broiler houses in preparation for a new flock.",
+      "suggested_fix": "Gebruik 'n idiomatiese en herkenbare Afrikaanse term vir 'broiler houses'. Voorstel: 'Laas week het ek ons braaikuikenshokke skoongemaak ter voorbereiding van ’n nuwe trop.' Dit verbeter begrip en spelling ('braaikuike' ➜ 'braaikuikenshokke').",
+      "translation_quote": "Laas week het ek ons braaikuike skoongemaak ter voorbereiding van ’n nuwe trop."
+    },
+    {
+      "location": "<p>...Dit is slegs deur die ontfermings van ’n alles-liefdevolle God dat ons lewe en asem het. Mag ons ons alles aan Hom en aan die werk van Sy koninkryk gee in opregte dankbaarheid vir Sy onsênde gawe.</p>",
+      "severity": "major",
+      "source_quote": "May we give our all to Him and to the work of His kingdom in heartfelt thanksgiving for His unspeakable gift.",
+      "suggested_fix": "'unspeakable gift' is mistranslated as 'onsênde gawe' (incorrect). Vertaal dit korrek as 'onuitsprekelike gawe'. Voorstel: 'Mag ons ons alles aan Hom en aan die werk van Sy koninkryk gee in opregte dankbaarheid vir Sy onuitsprekelike gawe.'",
+      "translation_quote": "Mag ons ons alles aan Hom en aan die werk van Sy koninkryk gee in opregte dankbaarheid vir Sy onsênde gawe."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

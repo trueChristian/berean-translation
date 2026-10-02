@@ -2,7 +2,6 @@
   "article_id": "a1334217-82ac-49ef-8293-563122652b89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,44 @@
         },
         "total_tokens": 5870
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 977,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5531,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6508
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph containing “cares of this world” (around “We live in the free land of America…”)",
+      "severity": "major",
+      "source_quote": "“Is it possible we have become deceived by our own wealth and the cares of this world?”",
+      "suggested_fix": "Translate the substantive word “cares” into French. Replace the untranslated English word while preserving the paragraph HTML. For example: change \"Est-il possible que nous ayons été trompés par notre propre richesse et par les cares de ce monde ?\" to \"Est-il possible que nous ayons été trompés par notre propre richesse et par les soucis de ce monde ?\"",
+      "translation_quote": "\"Est-il possible que nous ayons été trompés par notre propre richesse et par les cares de ce monde ?\""
+    },
+    {
+      "location": "Paragraph quoting Matt. 10:22 (paragraph that begins “J'ai commandé un exemplaire de <em>The Martyr’s Mirror</em>…”)",
+      "severity": "minor",
+      "source_quote": "“And ye shall be hated of all men for my name's sake: but he that endureth to the end shall be saved” (Matt. 10:22).",
+      "suggested_fix": "Use the conventional French book name and consistent citation format. Replace the English abbreviation \"Matt. 10:22\" with the French form \"Matthieu 10:22\" (or keep the abbreviation consistently French). Preserve the surrounding HTML. Example change: \"(Matt. 10:22)\" → \"(Matthieu 10:22)\".",
+      "translation_quote": "\"Ils accomplissaient les paroles de Jésus : « Et vous serez haïs de tous à cause de mon nom; mais celui qui persévérera jusqu'à la fin sera sauvé » (Matt. 10:22).\""
+    }
+  ],
   "id": "16a90f9b91389f852fc489ad826a1fe2",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "fra",
@@ -100,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/49a66e43316337366db2887d07eae4fb7d7398fb2cd2778c9d2eec656ecce583.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "22f19fd4059c839acdb0760ae4c1ea7697fd7ad4642cdb6da3779c88fc7b55d4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

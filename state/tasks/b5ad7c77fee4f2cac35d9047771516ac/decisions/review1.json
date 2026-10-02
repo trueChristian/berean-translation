@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2 (near Matthew 24:10)",
+      "severity": "critical",
+      "source_quote": "Jesus mentioned that one of the signs of the end times is that “then shall many be offended . . . and shall hate one another” (Matthew 24:10).",
+      "suggested_fix": "Translate the quoted Scripture into Norwegian Bokmål, preserving the verse reference exactly. For example: “Jesus nevnte at et av tegnene for endetiden er at «da skal mange bli forstøtt ... og hate hverandre» (Matt 24,10).” Preserve the surrounding HTML and punctuation exactly.",
+      "translation_quote": "Jesus nevnte at et av tegnene for endetiden er at «then shall many be offended . . . and shall hate one another» (Matthew 24:10)."
+    },
+    {
+      "location": "Paragraph 4 (Psalm 119:165 and Matthew 13:20-21, James 3:2)",
+      "severity": "critical",
+      "source_quote": "“Great peace have they which love thy law: and nothing shall offend them” (Psalm 119:165). ... Christ described these plants as having “not root in himself, but dureth for a while: for when tribulation or persecution ariseth because of the word, by and by he is offended” (Matthew 13:20-21). ... “In many things, we offend all” (James 3:2).",
+      "suggested_fix": "All quoted Scripture passages must be translated into Norwegian Bokmål, keeping the exact chapter:verse identifiers. Examples: “Stor fred har de som elsker din lov, og intet skal forstøtte dem” (Salme 119,165). “Men de har ikke rot i seg selv, men varer en stund; når trengsel eller forfølgelse oppstår for ordets skyld, blir han straks forstøtt” (Matt 13,20–21). “I mange henseender snubler vi alle” (Jakob 3,2). Adjust wording to contemporary Bokmål while preserving printed meaning and keep verse references unchanged in parentheses. Do not leave quoted biblical text in English.",
+      "translation_quote": "«Great peace have they which love thy law: and nothing shall offend them» (Psalm 119:165). ... «not root in himself, but dureth for a while: for when tribulation or persecution ariseth because of the word, by and by he is offended» (Matthew 13:20-21). ... «In many things, we offend all» (James 3:2)."
+    },
+    {
+      "location": "Multiple scripture quotations throughout article (examples: Ephesians 4:1-2; Isaiah 57:14-15; Isaiah 40:31; Ephesians 5:2-4; 2 Timothy 4:3-4; John 16:1-4; Luke 7:20-23; 2 Samuel 3:15-16; 1 Peter 2:20; Ephesians 5:15; 2 Samuel 6:16; 2 Samuel 6:23; Proverbs 18:19; 1 Thessalonians 3:3)",
+      "severity": "critical",
+      "source_quote": "Many verses are quoted verbatim in English throughout the article, for example: “I therefore, the prisoner of the Lord, beseech you that ye walk worthy ...” (Ephesians 4:1-2); “Cast ye up, cast ye up, prepare the way, take up the stumbling block out of the way of my people...” (Isaiah 57:14-15); “they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint” (Isaiah 40:31); etc.",
+      "suggested_fix": "Translate each quoted Scripture passage into Norwegian Bokmål in place of the English quotation, while preserving the exact verse references and the number/placement of references. Use conventional Norwegian book names (e.g., Matt for Matthew or full 'Matt'/'Matteus' consistent with the site's style) but do not change chapter/verse numbers. For example: replace “I therefore, the prisoner of the Lord, beseech you that ye walk worthy ...” (Ephesians 4:1-2) with: «Jeg, som er en fange for Herren, formaner dere til at dere vanner verdig den kallingen dere er kalt med ...» (Ef 4,1–2) — adapt wording to contemporary Bokmål while preserving the printed meaning. Ensure every English Bible quote is translated (no exceptions).",
+      "translation_quote": "Numerous full Bible quotations remain in English throughout the translation (see multiple locations), e.g. “I therefore, the prisoner of the Lord, beseech you that ye walk worthy ...” (Ephesians 4:1-2)."
+    },
+    {
+      "location": "Figure image alt attribute",
+      "severity": "minor",
+      "source_quote": "<img ... alt=\"A wooden gate in a stone archway beside a wooden railing\">",
+      "suggested_fix": "Correct the Norwegian alt text to reflect the original meaning more precisely. The current translation reads “En treport i en steinbue ved siden av et trebord” — 'trebord' means 'wooden board' while the source likely intended 'wooden railing'. Change alt to: alt=\"En treport i en steinbue ved siden av et trerekkverk\" to preserve meaning. Do not modify HTML structure other than the alt text value.",
+      "translation_quote": "<img ... alt=\"En treport i en steinbue ved siden av et trebord\">"
+    },
+    {
+      "location": "References section (Strongs Concordance)",
+      "severity": "minor",
+      "source_quote": "<li>Strongs Concordance</li>",
+      "suggested_fix": "Translate the reference entry into Norwegian Bokmål (article metadata and quoted substantive prose should not remain in English). For example: <li>Strongs konkordans</li> or follow the publication's preferred rendering of the work name in Norwegian. Preserve the <li> tag and list structure.",
+      "translation_quote": "<li>Strongs Concordance</li>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<p>… I dette nummeret leder «A Word From the Doctor» oss …</p>",
+      "severity": "major",
+      "source_quote": "In this issue, “A Word From the Doctor” guides us as we face the maze of life, giving us practical and Biblical solutions to avoid or recover from burnout.",
+      "suggested_fix": "Translate the column title into Bokmål and keep it inside the same HTML structure. For example: <p>… I dette nummeret leder «Et ord fra doktoren» oss gjennom livets labyrint …</p>",
+      "translation_quote": "I dette nummeret leder «A Word From the Doctor» oss gjennom livets labyrint og gir oss praktiske og bibelske løsninger for å unngå eller komme seg etter utbrenthet."
+    },
+    {
+      "location": "<p>… i forberedelse til en ny flock. …</p>",
+      "severity": "major",
+      "source_quote": "Last week I was cleaning out our broiler houses in preparation for a new flock.",
+      "suggested_fix": "Translate the substantive English word \"flock\" into Bokmål. Keep the surrounding sentence and tags unchanged. For example: <p>… i forberedelse til en ny flokk.</p>",
+      "translation_quote": "Forrige uke rengjorde jeg kyllingskurene våre i forberedelse til en ny flock."
+    },
+    {
+      "location": "<p>… traff foten min ved et uhell hydrosostatiske pedalen …</p>",
+      "severity": "minor",
+      "source_quote": "As I stood up, my foot accidentally hit the hydrostatic pedal, lurching the tractor forward and throwing me off-balance.",
+      "suggested_fix": "Fix the misspelling and grammatical form of \"hydrostatic pedal\" in Bokmål. For example: <p>… traff foten min ved et uhell den hydrodynamiske pedalen, eller «hydrostatpedalen», …</p> — a concise, idiomatic fix would be: <p>… traff foten min ved et uhell hydrostatpedalen, traktoren rykket fram …</p>",
+      "translation_quote": "Da jeg reiste meg, traff foten min ved et uhell hydrosostatiske pedalen, traktoren rykka fram og kastet meg ut av balanse."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

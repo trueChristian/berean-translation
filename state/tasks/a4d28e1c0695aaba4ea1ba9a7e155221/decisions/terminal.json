@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<article> paragraph: \"Let us focus our attention upon prayerful Paul’s acceptance of God’s “no.”\"",
+      "severity": "minor",
+      "source_quote": "Let us focus our attention upon prayerful Paul’s acceptance of God’s “no.”",
+      "suggested_fix": "Revise the French word order for natural idiomatic flow while preserving meaning. Replace \"Portons notre attention sur l’acceptation du « non » par le Paul fervent en prière.\" with \"Portons notre attention sur l’acceptation du « non » par Paul, fervent en prière.\"",
+      "translation_quote": "Portons notre attention sur l’acceptation du « non » par le Paul fervent en prière."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

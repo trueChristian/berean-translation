@@ -2,7 +2,6 @@
   "article_id": "3c581136-51cf-47b2-a38b-3d1ee1d0b864",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,45 @@
         },
         "total_tokens": 6871
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 819,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6660,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7479
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>...I heft myself out of my rocking chair and trudge toward the source of the sounds...</p>",
+      "severity": "minor",
+      "source_quote": "I heft myself out of my rocking chair and trudge toward the source of the sounds.",
+      "suggested_fix": "Gebruik 'skommelstoel' of 'wieghoek' of eenvoudige 'wieletstoel' in plek van 'skisstoel' om 'rocking chair' korrek in Afrikaans uit te druk. Behoud HTML-struktuur en tags.",
+      "translation_quote": "Ek het nuuskierig genoeg geword om uit my skisstoel te kom en in die rigting van die geluid te stap."
+    },
+    {
+      "location": "<p>...my feet slipped in the morning dew, and I landed halfway under the truck...</p>",
+      "severity": "minor",
+      "source_quote": "my feet slipped in the morning dew",
+      "suggested_fix": "Vertaal 'morning dew' as 'oggenddou' of 'dagdou' (bv. 'my voete het in die oggenddou wegglips') in plaas van 'oggendbram'. Behoud HTML-struktuur en tags.",
+      "translation_quote": "Terwyl ek die kort, steil heuwel afkom, het my voete in die oggendbram gely, en ek het halfpad onder die vragmotor beland..."
+    }
+  ],
+  "finished_at": "2026-10-02T12:50:22+00:00",
   "id": "08af6f2e9c50b62ee5a24a75bbac2dfe",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "afr",
@@ -100,11 +135,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3eb2e8fac297406d71e2a495d876bb17af55171cebc6261c77bdfbb7e9c2311e.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "f2478f0ee567de50716f2f909dafecb28388c4d5ba9651d1eee51ca0878db9fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

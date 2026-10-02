@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph under heading \"Heerschappij van doornen en distels\" (the paragraph beginning \"We telen de artisjok...\")",
+      "severity": "minor",
+      "source_quote": "Think about it: Blessed Thistle, Milk Thistle, Teasel, Raspberry Leaf, and Blackberry roots are only a few examples of members of these “thorny weeds” used for medicinal and other food benefits.",
+      "suggested_fix": "Translate the English plant names into Dutch to match the surrounding text and maintain reader clarity. Replace the English names with Dutch equivalents (or provide Dutch equivalents in parentheses) while preserving the HTML. For example: \"Denk erover na: heilige distel (Blessed Thistle), mariadistel (Milk Thistle), kaardebol (Teasel), frambozenblad en braamwortels zijn slechts...\"",
+      "translation_quote": "Denk erover na: Blessed Thistle, Milk Thistle, Teasel, frambozenblad en braamwortels zijn slechts enkele voorbeelden van leden van deze “stekelige onkruiden” die voor medicinale en andere voedingsvoordelen worden gebruikt."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

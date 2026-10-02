@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "blockquote (Romans 8:19-23)",
+      "severity": "critical",
+      "source_quote": "“For the earnest expectation of the creature waiteth for the manifestation of the sons of God. For the creature was made subject to vanity, not willingly, but by reason of him who subjected the same in hope. Because the creature itself also shall be delivered from the bondage of corruption into the glorious liberty of the children of God. For we know that the whole creation groaneth and travaileth in pain together until now. And not only they, but ourselves also, which have the first fruits of the Spirit, even we ourselves groan within ourselves, waiting for the adoption, to wit, the redemption of our bodies” (Romans 8:19-23).",
+      "suggested_fix": "Translate the quoted Romans 8:19-23 passage into standard contemporary Afrikaans, preserving the verse range and placement exactly and keeping it as a single quoted block. For example (illustrative only — translator should use the magazine's preferred Afrikaans style): “Want die gansche skepping verag die verlossing van die kinders van God; die skepping is onderworpe aan die nietigheid, nie uit eie wil nie, maar deur Hom wat haar daaraan onderwerp het, in die hoop; want ook die skepping self sal geopenbaar word uit die dienstbaarheid der verderving tot die vryheid der heerlikheid der kinders van God. Want ons weet dat die ganse skepping saam tot dusver diep zucht en met barensnood vergaat. En nie alleen die ganse skepping, maar ook ons wat die eerstelinge van die Gees het, zuchten in ons self en smag na die aanneming als kinders, die verlossing van ons liggaam.” (Romans 8:19-23). Replace the current Dutch/foreign wording with an appropriate Afrikaans translation, keeping the parenthetical reference “(Romans 8:19-23)” unchanged and in the same position in the blockquote.",
+      "translation_quote": "“Want die gansche schepsel sęg met lang geduld en verwachting der kinderen Gods’ openbaring; want die schepsel is onderworpen aan de ijdelheid, niet met eigen wil, maer door die wil van Hem, die het onderworpen heeft, in hope; want ook het schepsel zelf zal bevrijd worden van de dienstbaarheid der verderving tot der vrijheid der heerlijkheid der kinderen Gods. Want wij weten, dat het ganse schepsel noch alleen, maar ook wij, die de eerstelinge der Geest hebben, zuchten in onszelve en acuut verlangen de aangenome zynis, dat is, de verlossing van ons ligchaam.” (Romeine 8:19-23)."
+    },
+    {
+      "location": "Paragraph under 'Oordomsyn van dorings en distels' (sentence near end of second paragraph)",
+      "severity": "minor",
+      "source_quote": "How good of God to give us benefits in the middle of the very curse!",
+      "suggested_fix": "Correct the typographical/wording error in Afrikaans. Replace the phrase “very vloek” with the appropriate Afrikaans article and phrasing (e.g., “in die midde van die vloek” or “te midde van die vloek”) so the sentence reads naturally and faithfully: “Hoe goed van God om ons voordele te gee te midde van die vloek!”",
+      "translation_quote": "Hoe goed van God om ons voordele te gee te midde van die very vloek!"
+    },
+    {
+      "location": "Paragraph about thistles (same section)",
+      "severity": "minor",
+      "source_quote": "Think about it: Blessed Thistle, Milk Thistle, Teasel, Raspberry Leaf, and Blackberry roots are only a few examples...",
+      "suggested_fix": "Translate or localize the common plant names into Afrikaans where appropriate or add brief Afrikaans equivalents in parentheses. For example: “Dink daaraan: Blessed Thistle (gesegnde distel), Milk Thistle (melkdistel), Teasel (kardeboom), framboosblare en swartbessiewortels …” This preserves meaning and improves readability for Afrikaans speakers while keeping the original plant identities clear.",
+      "translation_quote": "Denk daaroor: Blessed Thistle, Milk Thistle, Teasel, framboseblare en swartbessiewortels is net ’n paar voorbeelde..."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

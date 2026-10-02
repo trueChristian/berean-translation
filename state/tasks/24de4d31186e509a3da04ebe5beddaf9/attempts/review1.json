@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"title\",\"severity\":\"major\",\"source_quote\":\"Burnout\",\"suggested_fix\":\"Translate the English title into Urdu. For example, set translation.title to \\\"برن آؤٹ\\\" (or another consistent Urdu rendering such as \\\"بَرن آؤٹ\\\" or \\\"فرسودگی\\\" if the publication prefers). Preserve any exact capitalization or styling rules the CMS requires, but do not leave the title in English.\",\"translation_quote\":\"Burnout\"},{\"location\":\"section\",\"severity\":\"major\",\"source_quote\":\"A WORD FROM A DOCTOR\",\"suggested_fix\":\"Translate the section/strapline into Urdu. For example, set translation.section to \\\"ایک ڈاکٹر کی طرف سے\\\" or \\\"ایک ڈاکٹر کا پیغام\\\" depending on house style. Do not leave the section label in English.\",\"translation_quote\":\"A WORD FROM A DOCTOR\"}],\"passed\":false,\"score\":80}",
+    "content_bytes": 846,
+    "content_evidence_truncated": false,
+    "content_sha256": "ca1da7791d5f86a814cdbdc8dc0a54a57c8558e8692ef083facc8f9560ee4dae",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1029,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11032,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12061
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

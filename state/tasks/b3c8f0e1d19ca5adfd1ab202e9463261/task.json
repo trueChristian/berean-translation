@@ -2,7 +2,6 @@
   "article_id": "d0395fde-712d-488d-a161-c26c87ed128b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,65 @@
         },
         "total_tokens": 12714
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2262,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12235,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14497
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html paragraph: \"One of the things that happens when we are overwhelmed is that we stop doing self-care.\" (section: \"Put First Things First\")",
+      "severity": "critical",
+      "source_quote": "...we stop spending time in prayer and devotions...",
+      "suggested_fix": "Translate the substantive English word \"devotions\" into contemporary Modern Greek (do not leave the English term). Replace 'devotions' with an idiomatic Greek rendering such as «πνευματικές ασκήσεις», «πνευματικές ασκήσεις/συστάσεις» or «πνευματικές μελέτες/αφιερώματα» consistent with the author's meaning, e.g. «...σταματάμε να περνάμε χρόνο στην προσευχή και στις πνευματικές ασκήσεις.» Preserve surrounding HTML and punctuation.",
+      "translation_quote": "...σταματάμε να περνάμε χρόνο στην προσευχή και στις devotions και σταματάμε την άσκηση."
+    },
+    {
+      "location": "source.html paragraph quoting I Samuel 30:23-24 (section: \"Everyone has Limits\")",
+      "severity": "major",
+      "source_quote": "David said, “Ye shall not do so, my brethren, with that which the Lord hath given us... For who will hearken unto you in this matter? but as his part is that goeth down to the battle, so shall his part be that tarrieth by the stuff: they shall part alike.” (I Samuel 30:23,24)",
+      "suggested_fix": "The quoted Scripture must be rendered into contemporary Modern Greek (the developer guidance requested Modern Greek, not Koine/ancient forms). The translation currently inserts a Koine/ancient Greek rendition with classical orthography and word order. Replace that quote with a clear, contemporary Modern Greek translation that faithfully conveys the printed English KJV meaning and include the same chapter/verse numbers. For example: ««Δεν θα πράξετε έτσι, αδελφοί μου, ως προς ό,τι ο Κύριος μάς έδωσε, ο οποίος μας έσωσε και παρέδωσε στον κόρφο μας τους εχθρούς που ήλθαν εναντίον μας. Ποιος, λοιπόν, θα σας ακούσει σ’ αυτό το θέμα; Όπως το μερίδιο εκείνου που κατέβηκε στη μάχη, έτσι και το μερίδιο εκείνου που έμεινε κοντά στο θησαυρό· θα μοιρασθούν εξίσου.» (Α΄ Βασιλειών 30:23–24)» Preserve the verse reference in the same place.",
+      "translation_quote": "«Ου μὴ ποιήσητε οὕτως, ἀδελφοί μου, ἐπὶ τῷ κτήματι ᾧ ἔδωκεν ἡμῖν Κύριος, ὁ σωσάμενος ἡμᾶς, καὶ ἐνετείλατο τὴν συνθροισθεῖσαν ἐπ᾽ ἡμᾶς. τίς γὰρ ὑμᾶς ἀκούσεται ἐπὶ τῷ πραγμάτι ἐν τούτῳ; ἀλλὰ καὶ ἡ μοῖρα τοῦ ἐπὶ τῷ κινδύνῳ καταβάντος, οὕτως καὶ ἡ μοῖρα τοῦ καταμένου ἐπὶ τῷ κτήματι· μέριμναν ἔσονται σὺν ἑαυτοῖς.» (Α‑Βασιλειών Α‑30:23,24)"
+    },
+    {
+      "location": "source.html paragraph quoting Mark 6:46 (section: \"Take Time Apart\")",
+      "severity": "major",
+      "source_quote": "Mark 6:46: “And when he had sent them away, he departed into a mountain to pray.”",
+      "suggested_fix": "The quoted verse has been rendered in an archaic/Koine form («Και αφού τους απέστειλεν, ανεχώρησεν εις όρος προσεύξασθαι.»). Per the instruction to use contemporary Modern Greek and to faithfully convey the English quoted text, retranslate this quoted Scripture into contemporary Greek. For example: «Και αφού τους απέστειλε, ανέβηκε σε ένα βουνό για να προσευχηθεί.» and keep the reference Mark 6:46 in the same location.",
+      "translation_quote": "«Και αφού τους απέστειλεν, ανεχώρησεν εις όρος προσεύξασθαι.»"
+    },
+    {
+      "location": "source.html paragraph: \"It is as though you are in a vehicle traveling 90 mph...\" (section: \"What is Burnout?\")",
+      "severity": "minor",
+      "source_quote": "It is as though you are in a vehicle traveling 90 mph...",
+      "suggested_fix": "The translation converted 90 mph to 145 χλμ/ώρα. While a localized unit conversion can be acceptable, the authoritative English text uses '90 mph'. If the publication policy requires preserving original numeric values, keep '90 mph' (possibly with a parenthetical metric conversion). Otherwise, make explicit that this is a localized conversion. Example fixes: either restore the numeric literal (’90 mph’) or add the conversion in parentheses: '90 mph (≈145 χλμ/ώρα)'.",
+      "translation_quote": "...είστε σε ένα όχημα που ταξιδεύει 145 χλμ/ώρα..."
+    },
+    {
+      "location": "source.title and section metadata",
+      "severity": "minor",
+      "source_quote": "Section: A WORD FROM A DOCTOR; Title: Burnout",
+      "suggested_fix": "The translation rendered the section header as «ΛΕΞΗ ΑΠΟ ΕΝΑΝ ΓΙΑΤΡΟ» (all caps) and the title as «Εξουθένωση». Confirm preferred style: use title case/capitalization consistent with target-site conventions. Also in a couple of places (e.g., 'Το Α&#x2010;Βασιλειών Α&#x2010;30') HTML-encoded hyphen entities appear in the Bible-book label; replace HTML numeric entities with normal punctuation or spacing appropriate for Greek (e.g., 'Α΄ Βασιλειών 30').",
+      "translation_quote": "section: \"ΛΕΞΗ ΑΠΟ ΕΝΑΝ ΓΙΑΤΡΟ\"; title: \"Εξουθένωση\"; in-text: \"Το Α&#x2010;Βασιλειών Α&#x2010;30\""
+    }
+  ],
   "id": "b3c8f0e1d19ca5adfd1ab202e9463261",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ell",
@@ -100,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/424016ec077ce60b7ce19dc1c1e702f6403927db5e19e2310bed3e34f10db986.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "28073e361d20840e4b86554b9fb0dc665e6272c0d3acf705cd41f2c5576aaa35",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

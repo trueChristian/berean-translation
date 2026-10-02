@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d19522e8-6b90-4aa4-bce1-7ddf85495a9d",
+    "response_id": "chatcmpl-EUWxAxX0WAqfD3ImZOASxOxvHA7ea",
+    "usage": {
+      "completion_tokens": 1174,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2876,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4050
+    }
+  },
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<figcaption>",
+        "severity": "minor",
+        "source_quote": "\"PRIDE GOETH BEFORE\n    DESTRUCTION, AND AN\n    HAUGHTY SPIRIT BEFORE\n    A FALL\"\n    -PROVERBS 16:18",
+        "suggested_fix": "Use the conventional Swedish book name form. Replace \"-ORDSPRÅKET 16:18\" with the standard Swedish form, e.g. \"-ORDSPRÅKEN 16:18\" (preserve case/style to match publication conventions). Do not alter the verse numbers.",
+        "translation_quote": "\"HÖGMOD GÅR FÖRE\n    FÖRDÄRV, OCH EN\n    HÖGMODIG ANDA FÖRE\n    ETT FALL\"\n    -ORDSPRÅKET 16:18"
+      },
+      {
+        "location": "<p>...råttterrier Nellie...</p>",
+        "severity": "minor",
+        "source_quote": "All the commotion woke up Little Davy’s rat terrier dog, Nellie.",
+        "suggested_fix": "Correct a typographical error in the breed name. Replace \"råttterrier\" with \"rat terrier\" or the Swedish-adapted spelling \"rat terrier\" (or \"råtterrier\" if preferred by the publication). Keep the surrounding punctuation and HTML unchanged.",
+        "translation_quote": "All uppståndelse väckte Lilla Davys råttterrier Nellie."
+      },
+      {
+        "location": "<p>...grus- och förseglade vägen...</p>",
+        "severity": "minor",
+        "source_quote": "These bicycles glided smoothly on the chip-and seal road without a rattle.",
+        "suggested_fix": "Improve idiomatic rendering of \"chip-and-seal road.\" Replace \"grus- och förseglade vägen\" with a clearer Swedish phrase such as \"chipseal-vägen\", \"en väg med chip-and-seal-beläggning\" or \"vägen med chip-and-seal-ytbeläggning\" depending on house style. Preserve surrounding HTML.",
+        "translation_quote": "Dessa cyklar gled lätt på den grus- och förseglade vägen utan ett skallrande ljud."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

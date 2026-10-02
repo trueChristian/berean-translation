@@ -2,7 +2,6 @@
   "article_id": "21853000-58b7-413f-b119-c9b1a6012369",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:56+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 7237
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1610,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6886,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8496
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph 2, sentence: \"...Han ønsker at vi skal ha og beholde et rent samvittighet fordi Han vet at en skyldig samvittighet kan gjøre deg syk!\"",
+      "severity": "minor",
+      "source_quote": "He wants us to have and keep our conscience clear because He knows that a guilty conscience can make you sick!",
+      "suggested_fix": "Correct Norwegian grammar: change «et rent samvittighet» to «en ren samvittighet» so the phrase reads: «Han ønsker at vi skal ha og beholde en ren samvittighet fordi Han vet at en skyldig samvittighet kan gjøre deg syk!»",
+      "translation_quote": "Han ønsker at vi skal ha og beholde et rent samvittighet fordi Han vet at en skyldig samvittighet kan gjøre deg syk!"
+    },
+    {
+      "location": "Paragraph under \"Nedbrytning og ødeleggelse\": sentence: \"Det er virkelig ondskapsfullt å tilbe den skapte verden eller noe i den. Men det er like ondskapsfullt å være utakknemlig og vårsløs med Skaperens skapelse!\"",
+      "severity": "minor",
+      "source_quote": "But it is equally wicked to be unthankful and careless with our Creator’s creation!",
+      "suggested_fix": "Fix a likely mistranslation/typo. Replace «vårsløs» with a correct Norwegian adjective such as «uvøren» or «likegyldig» to convey 'careless'. Suggested revision: «...men det er like ondskapsfullt å være utakknemlig og uvøren med Skaperens skapelse!»",
+      "translation_quote": "Men det er like ondskapsfullt å være utakknemlig og vårsløs med Skaperens skapelse!"
+    },
+    {
+      "location": "Paragraph under \"Dominans av torner og tistler\" (and the following paragraph listing specific plants): \"Tenk over det: Blessed Thistle, Milk Thistle, Teasel, bringebærblad og bjørnerot...\"",
+      "severity": "minor",
+      "source_quote": "Think about it: Blessed Thistle, Milk Thistle, Teasel, Raspberry Leaf, and Blackberry roots are only a few examples of members of these “thorny weeds” used for medicinal and other food benefits.",
+      "suggested_fix": "Harmonize and correct plant names in contemporary Bokmål. Either translate all common plant names to Norwegian or render them consistently as established English names with clarification. Also correct the mistranslation of \"Blackberry roots\" — «bjørnerot» is not a correct equivalent. Suggested revision: «Tenk over det: blessed thistle (velsignet tistel), milk thistle (mariatistel), teasel (kardeborre), bringebærblad og røtter fra bjørnebær er bare noen få eksempler...» — or translate all names plainly: «Tenk over det: velsignet tistel, mariatistel, kardeborre, bringebærblad og bjørnebærrot...»",
+      "translation_quote": "Tenk over det: Blessed Thistle, Milk Thistle, Teasel, bringebærblad og bjørnerot er bare noen få eksempler på medlemmer av disse «tornete ugressene» brukt til medisin og andre matfordeler."
+    }
+  ],
+  "finished_at": "2026-10-02T12:50:22+00:00",
   "id": "139404aa62ab866d182c422c2cb573db",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "nob",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/35b2c7029cc42ee53f5ba53e917d6f4f13fd2ec89b436bb9b340de5e3d8adc44.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "3526d7232367f018301aa220868e7605f6dcc0608e6b2e5d5a6771923f6938fe",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

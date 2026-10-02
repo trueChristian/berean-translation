@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "49158f93-f4a4-4a63-b703-f5aacade9246",
+    "response_id": "chatcmpl-EUWw461W4jZzF6TOeuladm6ldCp1j",
+    "usage": {
+      "completion_tokens": 883,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2794,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3677
+    }
+  },
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...These bicycles glided smoothly on the chip-and seal road without a rattle.</p>",
+        "severity": "minor",
+        "source_quote": "These bicycles glided smoothly on the chip-and seal road without a rattle.",
+        "suggested_fix": "Translate the road surface idiomatically to standard Portuguese. Replace the sentence fragment in the same paragraph, preserving tags. Example: \"Essas bicicletas deslizaram suavemente pela estrada 'chip-and-seal', sem um ruído.\" or better: \"Essas bicicletas deslizaram suavemente pela estrada com revestimento 'chip-and-seal', sem fazer barulho.\" Choose one that fits the publication's preferred phrasing.",
+        "translation_quote": "Essas bicicletas deslizaram suavemente pela estrada com preparo de pedras e asfalto sem um barulho."
+      },
+      {
+        "location": "<p>...One, two, three, GO and they were off!</p>",
+        "severity": "minor",
+        "source_quote": "One, two, three, GO and they were off!",
+        "suggested_fix": "Use a more natural Portuguese interjection for a race start. Preserve tags and structure. For example: \"Um, dois, três, já!\" or \"Um, dois, três, vai!\" Replace \"VALEU\" with one of these options.",
+        "translation_quote": "Um, dois, três, VALEU e eles partiram!"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

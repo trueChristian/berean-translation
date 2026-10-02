@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "737499cc-5ab2-43f8-80b2-b3f88128c86c",
+    "response_id": "chatcmpl-EUWwWFmTYRakJh6z1NJ282grvdLkY",
+    "usage": {
+      "completion_tokens": 1486,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8461,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9947
+    }
+  },
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Throughout (parenthetical Scripture references)",
+        "severity": "minor",
+        "source_quote": "(Matthew 24:10), (Mark 14:27), (Psalm 119:165), (Matthew 13:20-21), (James 3:2), (Ephesians 4:1-2), (Proverbs 16:18), (Isaiah 57:14-15), (Isaiah 40:31), (Ephesians 5:2-4), (Esther 6:6), (2 Timothy 4:3-4), (John 16:1-4), (John 5:35), (Luke 7:20-23), (1 Peter 2:20), (Ephesians 5:15), (1 Corinthians 14:20), (2 Samuel 6:16), (2 Corinthians 5:13), (2 Samuel 6:23), (Proverbs 18:19), (1 Thessalonians 3:3), (2 Samuel 3:15-16)",
+        "suggested_fix": "Use conventional Swedish book names in the parenthetical references while keeping the chapter:verse numbers unchanged. Example replacements: (Matthew 24:10) → (Matteus 24:10), (Mark 14:27) → (Markus 14:27), (Psalm 119:165) → (Psaltaren 119:165), (Ephesians 4:1-2) → (Efesierbrevet 4:1–2), (John 5:35) → (Johannes 5:35), etc. Apply consistently for every parenthetical citation in the article. Preserve spacing and punctuation and do not alter the numeric references.",
+        "translation_quote": "(Matthew 24:10), (Mark 14:27), (Psalm 119:165), (Matthew 13:20-21), (James 3:2), (Ephesians 4:1-2), (Proverbs 16:18), (Isaiah 57:14-15), (Isaiah 40:31), (Ephesians 5:2-4), (Esther 6:6), (2 Timothy 4:3-4), (John 16:1-4), (John 5:35), (Luke 7:20-23), (1 Peter 2:20), (Ephesians 5:15), (1 Corinthians 14:20), (2 Samuel 6:16), (2 Corinthians 5:13), (2 Samuel 6:23), (Proverbs 18:19), (1 Thessalonians 3:3), (2 Samuel 3:15-16)"
+      },
+      {
+        "location": "Paragraph beginning “Vi vill inte lägga någon fördömelse på den känslige själen...”",
+        "severity": "minor",
+        "source_quote": "The closest word we can find there is sensual, which is very similar in its roots and means natural.",
+        "suggested_fix": "The English word 'sensual' was carried over untranslated. Replace with an appropriate Swedish equivalent that preserves the author's meaning and tone. Suggested replacement: “Närmaste ord vi finner där är 'sensuell' (på engelska 'sensual'), vilket i sina rötter är mycket likt och betyder 'naturlig'.” or simply “Närmaste ord vi finner där är 'sensuell', vilket i sina rötter är mycket likt och betyder 'naturlig'.” Keep the explanatory intent intact.",
+        "translation_quote": "Närmaste ord vi finner där är sensual, vilket i sina rötter är mycket likt och betyder naturlig."
+      },
+      {
+        "location": "Paragraph about Haman (under 'Vandra i kärlek')",
+        "severity": "minor",
+        "source_quote": "was hung upon the gallows of his own creation.",
+        "suggested_fix": "The translation uses the English word 'gallows' untranslated in the Swedish sentence (“hängdes på sin egen gallows”). Replace with the Swedish equivalent to match target-language idiom, e.g. “hängdes på de galgar han själv hade berett” or “hängdes på sin egen galge”. Keep the metaphorical sense of poetic justice intact.",
+        "translation_quote": "hängdes på sin egen gallows."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

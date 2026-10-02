@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.section (article metadata)",
+      "severity": "minor",
+      "source_quote": "MUSINGS OF A MISSIONARY",
+      "suggested_fix": "Translate the section metadata into Portuguese to match target-language guidance and keep metadata consistent. For example: \"REFLEXÕES DE UM MISSIONÁRIO\" or \"REFLEXÕES DE UM MISSIONÁRIO\" (select preferred capitalization style used on the site). Replace the English value with the chosen Portuguese string in the translation's section field.",
+      "translation_quote": "MUSINGS OF A MISSIONARY"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

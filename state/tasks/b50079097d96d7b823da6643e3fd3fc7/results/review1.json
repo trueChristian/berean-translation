@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "dd540e2e-a616-46db-afac-9f49647d3543",
+    "response_id": "chatcmpl-EUWw4yJ7eYE2hxZywwug9BILPleSQ",
+    "usage": {
+      "completion_tokens": 1459,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6253,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7712
+    }
+  },
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph quoting Deuteronomy 1:42 (second paragraph)",
+        "severity": "major",
+        "source_quote": "\"And the Lord said unto me, Say unto them, Go not up, neither fight; for I am not among you; lest ye be smitten before your enemies\"",
+        "suggested_fix": "Translate the clause \"lest ye be smitten before your enemies\" to convey being struck/defeated by enemies (e.g., «μήπως νικηθείτε/νικηθείτε/χτυπηθείτε ενώπιον των εχθρών σας»). Also restore the stronger sense of \"they rebelled\" rather than a neutral reaction: translate \"but they rebelled at His 'no.'\" as «αλλά ανυπάκουσαν/επαναστάτησαν στο “όχι” Του.» Maintain the negative causality (they disobeyed and were punished).",
+        "translation_quote": "«Και ο Κύριος μού είπε, Πες τους: Μη ανεβείτε, μη πολεμήσετε· διότι δεν είμαι μαζί σας· μήπως εγερθείτε μπροστά στους εχθρούς σας», αλλά αντέδρασαν στο «όχι» Του."
+      },
+      {
+        "location": "source.html — second paragraph, verb choice for 'rebelled'",
+        "severity": "major",
+        "source_quote": "\"but they rebelled at His 'no.'\"",
+        "suggested_fix": "Use a Greek verb that preserves the sense of rebellion/disobedience (e.g., «αλλά ανυπάκουσαν στο “όχι” Του» or «αλλά επαναστάτησαν ενάντια στο “όχι” Του»).",
+        "translation_quote": "«... αλλά αντέδρασαν στο «όχι» Του.»"
+      },
+      {
+        "location": "source.html — overall register and select archaisms (multiple paragraphs, stylistic)",
+        "severity": "minor",
+        "source_quote": "(examples) \"My grace is sufficient for thee\", \"Thanks be unto God for his unspeakable gift.\"",
+        "suggested_fix": "The translation sometimes uses a more formal/archaic register (e.g., «Διότι», «Δόξα τω Θεώ διά το ανείπωτο αυτού δώρον»). For contemporary Modern Greek, consider modernizing a few expressions without changing theology: e.g., «γιατί/διότι» → keep sparingly, and render the final sentence as «Δόξα στον Θεό για το ανείπωτο αυτό δώρο» or «Ευχαριστούμε τον Θεό για το ανείπωτο Του δώρο.» These are stylistic suggestions — not required for doctrinal fidelity.",
+        "translation_quote": "(examples) «Η χάρη μου είναι αρκετή για σένα», «Δόξα τω Θεώ διά το ανείπωτο αυτού δώρον.»"
+      }
+    ],
+    "passed": false,
+    "score": 62
+  }
+}

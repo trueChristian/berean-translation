@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6bd538eb-3e7d-4bce-ada2-4f0bebad4851",
+    "response_id": "chatcmpl-EUWwOfr7rpEt0DLp9wCsnoNzdMwkI",
+    "usage": {
+      "completion_tokens": 668,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2990,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3658
+    }
+  },
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...“A Word From the Doctor” guides us...",
+        "severity": "minor",
+        "source_quote": "“A Word From the Doctor”",
+        "suggested_fix": "将栏目名或专栏标题“A Word From the Doctor”也翻译为中文，并在 HTML 中替换括号内的英文，例如改为““医生的嘱咐”栏目（A Word From the Doctor）”或仅保留中文标题“医生的嘱咐”。保持原有 HTML 标签和结构不变。",
+        "translation_quote": "“医生的嘱咐”（A Word From the Doctor）"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

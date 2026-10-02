@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>In the midst of the curse given to Eve, the first prophecy of the Messiah is revealed. “And I will put enmity between thee and the woman, and between thy seed and her seed; it shall bruise thy head, and thou shalt bruise his heel” (Genesis 3:15). He is the conqueror of death! Praise God for His Faithfulness.</p>",
+      "severity": "critical",
+      "source_quote": "In the midst of the curse given to Eve, the first prophecy of the Messiah is revealed. “And I will put enmity between thee and the woman, and between thy seed and her seed; it shall bruise thy head, and thou shalt bruise his heel” (Genesis 3:15). He is the conqueror of death! Praise God for His Faithfulness.",
+      "suggested_fix": "Translate the sentence to faithfully reflect the English meaning without adding or changing persons. Replace the mistranslated sentence block in the same HTML structure with a faithful Urdu rendering. Suggested Urdu text (preserve the <p> tags and the quoted Scripture reference formatting):\n\n<p>لعنت کے بیچ میں، جو ایوٰں کو دی گئی تھی، مسیح کی پہلی نبوت ظاہر ہوتی ہے۔ “اور میں تُجھ اور عورت کے درمیان، اور تیری نسل اور اس کی نسل کے درمیان دشمنی ڈالوں گا؛ وہ تیرا سر کچلے گا، اور تُو اُس کے پاش پر زور دے گا” (پیدائش 3:15)۔ وہ موت کا فاتح ہے! خدا کی وفاداری کے لیے حمد ہو۔</p>\n\nThis replaces the incorrect phrase that currently reads “عیسیٰ مریم کی ابتدا کے درمیان…” which wrongly introduces the name “عیسیٰ مریم” and changes the meaning. The suggested fix keeps the Scripture reference numeric form unchanged and uses the conventional Urdu book name (پیدائش).",
+      "translation_quote": "عیسیٰ مریم کی ابتدا کے درمیان، ایو کو دی گئی لعنت کے اندر مسیح کی پہلی نبوت ظاہر ہوتی ہے۔ \"اور میں تجھ اور عورت کے درمیان، اور تیری نسل اور اس کی نسل کے درمیان دشمنی ڈالوں گا؛ وہ تیرا سر کچلے گا، اور تُو اس کے پاش پر زور دے گا\" (پیدائش 3:15). وہ موت کا فاتح ہے! خدا کی وفاداری کے لیے حمد ہو۔"
+    },
+    {
+      "location": "<figure>\n    <img src=\"/images/articles/21853000-58b7-413f-b119-c9b1a6012369-2.jpg\" alt=\"A pile of green artichokes\" loading=\"lazy\">\n    <figcaption><em>This is an artichoke plant, a member of the thistle family. Many people use this “thistle,” along with its cousin, the Cardoon, for food.</em></figcaption>\n  </figure>",
+      "severity": "minor",
+      "source_quote": "This is an artichoke plant, a member of the thistle family. Many people use this “thistle,” along with its cousin, the Cardoon, for food.",
+      "suggested_fix": "The translation currently uses the transliteration “اٹریکاچوک” which is nonstandard and inconsistent. Replace with the conventional Urdu form or a clearer transliteration. Suggested figcaption (preserve tags):\n\n<figcaption><em>یہ آرٹیچوک (artichoke) پودا ہے، جو تھِسٹِل خاندان کا رکن ہے۔ بہت سے لوگ اس \"کانٹے\" اور اس کے رشتہ دار کارڈون کو خوراک کے طور پر استعمال کرتے ہیں۔</em></figcaption>\n\nThis keeps the meaning identical but uses the more common Urdu rendering آرٹیچوک (or include original English in parentheses) for readability and consistency.",
+      "translation_quote": "<figcaption><em>یہ ایک اٹریکاچوک پودا ہے، جو تھِسٹِل خاندان کا رکن ہے۔ بہت سے لوگ اس \"کانٹے\" کو اور اس کے رشتہ دار کارڈون کو خوراک کے طور پر استعمال کرتے ہیں۔</em></figcaption>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

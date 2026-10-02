@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b243c493-70ed-4264-a8d1-93b1d19cecd3",
+    "response_id": "chatcmpl-EUWwDIInbHtxDFfz0F2NROuJhUGL0",
+    "usage": {
+      "completion_tokens": 582,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5254,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5836
+    }
+  },
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.section (article metadata)",
+        "severity": "minor",
+        "source_quote": "MUSINGS OF A MISSIONARY",
+        "suggested_fix": "Translate the section metadata into Portuguese to match target-language guidance and keep metadata consistent. For example: \"REFLEXÕES DE UM MISSIONÁRIO\" or \"REFLEXÕES DE UM MISSIONÁRIO\" (select preferred capitalization style used on the site). Replace the English value with the chosen Portuguese string in the translation's section field.",
+        "translation_quote": "MUSINGS OF A MISSIONARY"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "fce31212-f230-449e-b40a-cbd6ba80c955",
+    "response_id": "chatcmpl-EUWwBiCFaH1mvdr3eR0qveUqQlJKp",
+    "usage": {
+      "completion_tokens": 1597,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9654,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11251
+    }
+  },
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Blockquote references throughout (e.g. first two blockquotes and all verse-parentheses)",
+        "severity": "major",
+        "source_quote": "“Thou wilt shew me the path of life: in thy presence is fulness of joy; at thy right hand there are pleasures for evermore” (Psalms 16:11).\n\n“And he shall be like a tree planted by the rivers of water, that bringeth forth his fruit in his season; his leaf also shall not wither; and whatsoever he doeth shall prosper” (Psalms 1:3).\n\n… “But whosoever drinketh of the water that I shall give him shall never thirst; but the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14).\n\n(Additional quoted passages: Romans 10:6-10; Romans 8:1; Romans 15:9; Hebrews 13:5; Acts 2:41; Philippians 2:4; Hebrews 12:1-3; Hebrews 12:12-15; Hebrews 12;28)",
+        "suggested_fix": "Translate the English Scripture book names into conventional Hindi forms in all quoted verses and all parenthetical verse citations, preserving exact chapter and verse numbers and quotation text. For example: Psalms → भजन संहिता; John → यूहन्ना; Romans → رومियों -> use the standard Hindi forms: रोमियों; Acts → प्रेरितों के काम; Hebrews → इब्रानियों; Philippians → फिलिप्पियों. Apply this consistently in every blockquote and every parenthetical reference (e.g. (Psalms 16:11) → (भजन संहिता 16:11)). Do not alter chapter:verse numbers or the quoted English-authoritative wording otherwise present in the source; only replace the English book names with Hindi conventional forms.",
+        "translation_quote": "“तू मुझे जीवन का मार्ग दिखाएगा: तेरी उपस्थिति में आनंद की पूरीता है; तेरे दाहिने हाथ में सदा के लिये आनन्द हैं” (Psalms 16:11).\n\n“किन्तु जो कोई मुझ द्वारा दी जाने वाली जल पीएगा, वह कभी तृष्णा न करेगा; परन्तु जो जल मैं उसे दूँगा वह उसके भीतर जीवन का एक कुआँ होगा जो सदा के जीवन की ओर ऊँटता रहेगा” (John 4:14).\n\n(अन्य उद्धरणों में भी अंग्रेज़ी पुस्तक नाम बने हुए हैं, जैसे (Romans 10:6-10), (Romans 8:1), (Acts 2:41), (Philippians 2:4), (Hebrews 12;28) आदि।)"
+      },
+      {
+        "location": "After Philippians blockquote where author resumes narrative",
+        "severity": "minor",
+        "source_quote": "“Look not every man on his own things, but every man also on the things of others. 5 Let this mind be in you, which was also in Christ Jesus: 6 Who, being in the form of God, thought it not robbery to be equal with God: 7 But made himself of no reputation, and took upon him the form of a servant, and was made in the likeness of men:” (Philippians 2:4)My wife and I recently celebrated our third anniversary.",
+        "suggested_fix": "Insert a space (or closing punctuation and space) between the parenthetical verse citation and the start of the following author text so the quotation and the author narrative are clearly separated. Also ensure the verse citation uses the Hindi book name (see major finding). For example: “... (Philippians 2:4). मेरी पत्नी और मैंने हाल ही में...” → “... (फिलिप्पियों 2:4). मेरी पत्नी और मैंने हाल ही में...”",
+        "translation_quote": "“हर कोई अपनी ही बात न देखे, परन्तु प्रत्येक किसी की बात दूसरों की भी देखे। 5 यह मन तुम्हारे भीतर हो जो भी मसीह यीशु में था: 6 जो परमेश्वर के स्वरूप में रहते हुए भी, परमेश्वर के बराबर होना नहीं समझा; 7 परन्तु ने अपना ही स्वाभिमान न माना, और सेवक का रूप लेकर मनुष्यों के समान बना:” (Philippians 2:4)मेरी पत्नी और मैंने हाल ही में हमारी तीसरी वर्षगांठ मनायी।"
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

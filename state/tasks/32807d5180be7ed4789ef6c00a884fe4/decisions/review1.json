@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "critical",
+      "source_quote": "Burnout",
+      "suggested_fix": "Translate the article title into Bengali, preserving the HTML structure (e.g., <h1> or title field as appropriate). Example: replace \"Burnout\" with a correct Bengali rendering such as \"ব্রেনআউট (বিবর্ণতা)\" or a context-appropriate Bengali equivalent. Do not change any other metadata formatting.",
+      "translation_quote": "Burnout"
+    },
+    {
+      "location": "section",
+      "severity": "major",
+      "source_quote": "A WORD FROM A DOCTOR",
+      "suggested_fix": "Translate the section/heading into standard contemporary Bengali while preserving the field content and capitalization rules of the CMS. Example: replace with \"একজন ডাক্তার থেকে কথা\" (or an equivalent idiomatic Bengali rendering).",
+      "translation_quote": "A WORD FROM A DOCTOR"
+    },
+    {
+      "location": "source.html — entire article body (lead paragraph and all subsequent paragraphs)",
+      "severity": "critical",
+      "source_quote": "The entire article body in English, beginning: \"The message was brief. “Dr. Waldron, would you call Mrs. Jones back about her labs?”\" and continuing through the concluding paragraph about Jesus and the final figure.",
+      "suggested_fix": "Translate the full article body into Bengali, preserving all HTML tags, order, nesting, attributes, and structural elements (paragraphs, headings, lists, figure/img tags). Ensure all substantive prose is rendered into Bengali script. Quoted Scripture and other quoted substantive prose must be translated into Bengali and presented as quoted text as in the source; retain exact chapter and verse numbers and parenthetical references (e.g., keep \"(I Samuel 30:23,24)\" unchanged). Do not leave any substantive English text inside the article content.",
+      "translation_quote": "Entire article body left in English (unchanged) starting with: \"The message was brief. “Dr. Waldron, would you call Mrs. Jones back about her labs?”\""
+    },
+    {
+      "location": "source.html — Scripture quotations and references",
+      "severity": "critical",
+      "source_quote": "Quoted Scripture lines: e.g., “Ye shall not do so, my brethren, with that which the Lord hath given us... they shall part alike.” (I Samuel 30:23,24); “And when he had sent them away, he departed into a mountain to pray.” (Mark 6:46); “Sabbath was created for man, not man for the Sabbath” (Mark 2:27); “Come ye yourselves apart into a desert place, and rest a while” (Mark 6:31); \"(I Corinthians 10:13)\", \"(Hebrews 13:5)\", and \"(Matt, 11:28-30)\".",
+      "suggested_fix": "Translate each quoted Scripture passage into Bengali, accurately conveying the meaning of the printed English text. Keep the chapter and verse citations exactly as in the source (e.g., \"(I Samuel 30:23,24)\"). Use conventional Bengali names for biblical books (e.g., \"১ শমুয়েল\" for I Samuel, \"মার্ক\" for Mark, \"১ করিন্থীয়\" for I Corinthians, \"ইব্রীয়দের\" for Hebrews, \"মথি\"/\"মথি-বার্তা\" for Matthew depending on your target convention) but do not alter the numeric citations. Ensure quoted marks remain and Scripture is clearly presented as quotation in Bengali.",
+      "translation_quote": "Scripture quotations remain in English in the translation."
+    },
+    {
+      "location": "source.html — image alt attributes",
+      "severity": "major",
+      "source_quote": "Image alts in English: \"An open Bible, a potted plant, and a cup of coffee on a dark table\" and \"A hiker with a bright green backpack standing on a mountain summit above clouds\".",
+      "suggested_fix": "Translate the image alt text into Bengali while keeping the img tags and attributes unchanged. Example translations: \"একটি খোলা বাইবেল, একটি গাছপালা রেখে দেয়া পাত্র ও একটি কফির কাপ একটি অন্ধকার টেবিলে\" and \"মেঘের উপর দিয়ে সাদা আলোয় উজ্জ্বল সবুজ ব্যাকপ্যাক পরা একজন পর্বতারোহী পাহাড়ের চূড়ায়\" (or other natural, fluent Bengali descriptions).",
+      "translation_quote": "Image alt attributes remain in English."
+    },
+    {
+      "location": "source.html — headings and subheadings (e.g., \"Everyone has Limits\", \"What is Burnout?\", etc.)",
+      "severity": "major",
+      "source_quote": "All section headings in English such as: \"Everyone has Limits\", \"What is Burnout?\", \"Understanding Burnout\", \"Identify Early Signs\", \"Make a Priority List\", \"Make First Things First\", \"Take Time Apart\", \"Put Down Technology\", \"Build Breaks into Your Day\", \"Be Intentional about Rest\", \"Don’t Buy into Myths\", \"Conclusion\".",
+      "suggested_fix": "Translate all headings and subheadings into Bengali, preserving the <h2> tags and their placement in the HTML. Example: \"Everyone has Limits\" → \"প্রতিজনকের সীমা আছে\", \"What is Burnout?\" → \"ব্রেনআউট কী?\", \"Conclusion\" → \"উপসংহার\", etc. Maintain structural tags exactly as in source.html.",
+      "translation_quote": "Headings remain in English in the translation."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

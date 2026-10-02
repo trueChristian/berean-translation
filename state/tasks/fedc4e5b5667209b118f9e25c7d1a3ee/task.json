@@ -2,7 +2,6 @@
   "article_id": "d2d95264-7df9-4ca8-9a99-01a68204d73a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:56+00:00",
   "events": [
@@ -24,9 +23,58 @@
         },
         "total_tokens": 3663
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1466,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3190,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4656
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>“Kwa maana tumefukuzwa kwa tumaini; lakini tumaini uliyoonekana sio tumaini; kwa maana kilichoonekana mtu kwa nini bado atamtegemea?” (Warumi 8:24).</p>",
+      "severity": "major",
+      "source_quote": "“For we are saved by hope: but hope that is seen is not hope: for what a man seeth, why doth he yet hope for?” (Romans 8:24).",
+      "suggested_fix": "Replace the incorrect verb \"tumefukuzwa\" with wording that faithfully renders the English meaning of being saved/justified by hope. For example: “Kwa maana tumeokolewa kwa tumaini; lakini tumaini uliyoonekana si tumaini; kwa maana kilichoonekana, kwa nini mtu bado atatumaini?” Ensure the sentence preserves the negative clause and question structure.",
+      "translation_quote": "“Kwa maana tumefukuzwa kwa tumaini; lakini tumaini uliyoonekana sio tumaini; kwa maana kilichoonekana mtu kwa nini bado atamtegemea?” (Warumi 8:24)."
+    },
+    {
+      "location": "<title>Wameokolewa kwa Matumaini</title>",
+      "severity": "minor",
+      "source_quote": "Saved by Hope",
+      "suggested_fix": "Use a title that preserves the English grammatical sense and impersonal passive, e.g. “Kuokolewa kwa Tumaini” or “Tumeokolewa kwa Tumaini” depending on intended voice. If the original treats salvation as a present reality for believers generally, prefer “Kuokolewa kwa Tumaini.”",
+      "translation_quote": "Wameokolewa kwa Matumaini"
+    },
+    {
+      "location": "<p>“Msitumie bidii kupata chakula kinachokufa, bali mfanyieni kazi kile chakula kinachodumu uzima wa milele, ambacho Mwana wa Adamu atawakabidhi; kwa maana Baba amefunga alama kwake” (Yohana 6:27).</p>",
+      "severity": "minor",
+      "source_quote": "“Labour not for the meat which perisheth, but for that meat which endureth unto everlasting life, which the Son of man shall give unto you: for him hath God the Father sealed” (John 6:27).",
+      "suggested_fix": "Adjust the Kiswahili imperative and the final clause for natural, faithful rendering. For example: “Msifanye kazi kwa ajili ya chakula kinachokufa, bali mfanye kazi kwa ajili ya chakula kinachodumu milele, ambacho Mwana wa Adamu atawapatia; kwa maana Baba amemweka alama kwake.” Alternatively, “Msitafute kwa bidii chakula kinachokufa; badala yake tumieni bidii kutafuta chakula kinachodumu uzima wa milele, ambacho Mwana wa Adamu atawakabidhi, maana Baba amemweka alama kwake.” Preserve the verse reference and sentence structure.",
+      "translation_quote": "“Msitumie bidii kupata chakula kinachokufa, bali mfanyieni kazi kile chakula kinachodumu uzima wa milele, ambacho Mwana wa Adamu atawakabidhi; kwa maana Baba amefunga alama kwake” (Yohana 6:27)."
+    },
+    {
+      "location": "<p>“Sharti la neema ni kwamba tumtumaini Yeye.”</p>",
+      "severity": "minor",
+      "source_quote": "“The condition of grace is that we believe on Him.” (context from passage)",
+      "suggested_fix": "Correct the verb phrase “tumtumaini” (not standard). Use an idiomatic Kiswahili verb for believing on Him, for example: “Sharti la neema ni kwamba tumemwamini Yeye” or “Sharti la neema ni tumwamini Yeye.”",
+      "translation_quote": "“Sharti la neema ni kwamba tumtumaini Yeye.”"
+    }
+  ],
   "id": "fedc4e5b5667209b118f9e25c7d1a3ee",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "swa",
@@ -100,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8a99b566d1f7a4b71f671efc977b9e895b89fc48e4520caf1214f243e2083ab5.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d21eb9a2e384c54d8451d42bc7b07528a6bfe6b701385ff6d901ec268b981022",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

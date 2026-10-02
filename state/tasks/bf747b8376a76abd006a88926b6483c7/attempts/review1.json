@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<section class=\\\"lyrics\\\"> (entire lyrics block)\",\"severity\":\"critical\",\"source_quote\":\"When all Thy mercies, O my God,\\nMy rising soul surveys,\\nTransported with the view,\\nI’m lost In wonder, love and praise.\\n\\nThy Providence my life sustained,\\nAnd all my wants redressed,\\nWhile in the silent womb I lay,\\nAnd hung upon the breast.\\n\\n... (all 13 original English verses shown in source)\",\"suggested_fix\":\"Translate every stanza of the hymn into Korean and replace the English text inside the existing <section class=\\\"lyrics\\\"> ... </section> element. Preserve all HTML tags, stanza breaks (<p><em>...</em></p>), and the original stanza order and punctuation. Do not substitute another English hymn text or a different Bible/poetic source. Example (illustrative only — translator should provide full stanza translations in Korean, preserving formatting):\\n<p><em>나의 하나님 그 모든 자비를<br>\\n내 거듭나는 영혼이 살펴보오며,<br>\\n그 광경에 넋을 잃고<br>\\n경이와 사랑과 찬미에 잠기나이다.</em></p>\\n...\",\"translation_quote\":\"When all Thy mercies, O my God,\\nMy rising soul surveys,\\nTransported with the view,\\nI’m lost In wonder, love and praise.\\n\\nThy Providence my life sustained,\\nAnd all my wants redressed,\\nWhile in the silent womb I lay,\\nAnd hung upon the breast.\\n\\n... (English stanzas repeated unchanged in translation) \"},{\"location\":\"<article> title and top-level metadata (translation.title and <article> title text)\",\"severity\":\"major\",\"source_quote\":\"When All Thy Mercies, O My God\",\"suggested_fix\":\"Translate the article title into Korean in the translation.title field and, if the title appears as text inside the HTML (e.g., <h1> or other title element), replace that text with the Korean title. Preserve punctuation and any HTML tags. Suggested translation style: provide a faithful Korean rendering of the hymn title (for example: “내 하나님 모든 자비 보실 때” or another faithful, idiomatic Korean hymn title chosen by the editor), but keep the original capitalization/formatting rules of the site. Do not add or remove subtitles or section labels.\",\"translation_quote\":\"When All Thy Mercies, O My God\"},{\"location\":\"<article> section / header (source.section) and section field in metadata\",\"severity\":\"major\",\"source_quote\":\"HYMN HISTORY\",\"suggested_fix\":\"Translate the section label into Korean in the translation.section field and, if that section label is rendered in the HTML, replace the English label with the Korean equivalent (for example: \\\"찬송가 역사\\\" or \\\"찬송가 이야기\\\"). Preserve any site-specific HTML markup used to render the section heading.\",\"translation_quote\":\"HYMN HISTORY\"},{\"location\":\"<p class=\\\"source-note\\\"> (provenance note)\",\"severity\":\"minor\",\"source_quote\":\"*sourced from Wikipedia and hymnary.org\",\"suggested_fix\":\"Translate the provenance/source note into Korean while preserving the <p class=\\\"source-note\\\"> element and the asterisk. For example: \\\"*출처: Wikipedia 및 hymnary.org\\\". Do not remove the note or change the cited sources' names; translate only the surrounding wording.\",\"translation_quote\":\"*sourced from Wikipedia and hymnary.org\"}],\"passed\":false,\"score\":68}",
+    "content_bytes": 3251,
+    "content_evidence_truncated": false,
+    "content_sha256": "1d234861cfb27c0901c5f6f2607c7565aa0851d336da4aa9f7855955f1f1300d",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1329,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5913,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7242
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

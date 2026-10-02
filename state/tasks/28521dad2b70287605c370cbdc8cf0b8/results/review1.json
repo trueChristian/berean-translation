@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e3e31ae3-4f79-4f0b-beb0-100738cbde6e",
+    "response_id": "chatcmpl-EUWx4g3Gu0OgsSeSrMdflPSCDRQXd",
+    "usage": {
+      "completion_tokens": 1464,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8750,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10214
+    }
+  },
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Multiple blockquote scripture quotations throughout article (e.g., Psalms 16:11; Psalms 1:3; John 4:14; Romans 10:6-10; Romans 8:1; Romans 15:9; Hebrews 13:5; Acts 2:41; Philippians 2:4; Hebrews 12:1-3; Hebrews 12:12-15; Hebrews 12:28)",
+        "severity": "critical",
+        "source_quote": "Examples from source (English quoted Scripture):\n“Thou wilt shew me the path of life: in thy presence is fulness of joy; at thy right hand there are pleasures for evermore” (Psalms 16:11).\n“And he shall be like a tree planted by the rivers of water, that bringeth forth his fruit in his season; his leaf also shall not wither; and whatsoever he doeth shall prosper” (Psalms 1:3).\n“But whosoever drinketh of the water that I shall give him shall never thirst; but the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14).\n“...That if thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that God hath raised him from the dead, thou shalt be saved. ...” (Romans 10:6-10).\n“There is therefore now no condemnation to them which are in Christ Jesus, who walk not after the flesh, but after the Spirit” (Romans 8:1).\n“And that the Gentiles might glorify God for his mercy; as it is written, For this cause I will confess to thee among the Gentiles...” (Romans 15:9).\n“Let your conversation be without covetousness; and be content with such things as ye have: for he hath said, I will never leave thee, nor forsake thee...” (Hebrews 13:5).\n“Then they that gladly received his word were baptized: and the same day there were added unto them about three thousand souls...” (Acts 2:41).\n“Look not every man on his own things, but every man also on the things of others. 5 Let this mind be in you, which was also in Christ Jesus: ...” (Philippians 2:4).\n“Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight... (Hebrews 12:1-3).”\n“Wherefore lift up the hands which hang down, and the feeble knees; 13 And make straight paths for your feet... (Hebrews 12:12-15)”\n“Wherefore we receiving a kingdom which cannot be moved, let us have grace, whereby we may serve God acceptably with reverence and godly fear” (Hebrews 12;28).",
+        "suggested_fix": "Translate every quoted Scripture passage into standard contemporary Afrikaans, preserving the exact chapter and verse references and their placement. Quoted Scripture must be rendered into Afrikaans (not left in English) and must faithfully convey the printed meaning of the authoritative English text. Keep the citation parentheses and verse numbers unchanged. For example: Psalms 16:11 => “U sal vir my die weg van die lewe openbaar: in u teenwoordigheid is die volheid van vreugde; by u regterhand is plesier vir altyd” (Psalm 16:11). Apply the same approach consistently to all blockquote scripture quotations in the article.",
+        "translation_quote": "The translation currently leaves these scripture blockquotes in English verbatim (examples shown above), rather than translating them into Afrikaans."
+      },
+      {
+        "location": "Paragraph beginning with Philippians quotation and immediately following biographical anecdote (near end of article)",
+        "severity": "minor",
+        "source_quote": "Source: “Look not every man on his own things, but every man also on the things of others. 5 Let this mind be in you, which was also in Christ Jesus: 6 Who, being in the form of God, thought it not robbery to be equal with God: 7 But made himself of no reputation, and took upon him the form of a servant, and was made in the likeness of men:” (Philippians 2:4)",
+        "suggested_fix": "Insert a space (or paragraph break) between the closing scripture citation and the start of the next sentence. In the translation the citation is immediately followed by 'My wife and I recently...' without a space. Fix by adding a space or by placing the biographical sentence in the next paragraph so the citation is not concatenated with the narrative.",
+        "translation_quote": "“(Philippians 2:4)My wife and I recently celebrated our third anniversary...” (translation currently lacks space after citation)"
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

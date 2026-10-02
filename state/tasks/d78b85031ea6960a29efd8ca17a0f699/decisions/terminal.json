@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph mentioning specific plants (section: \"가시와 엉겅퀴의 우세\" / paragraph beginning \"아티초크는...\")",
+      "severity": "minor",
+      "source_quote": "Blessed Thistle, Milk Thistle, Teasel, Raspberry Leaf, and Blackberry roots",
+      "suggested_fix": "Translate or consistently localize all plant names into Korean (or provide Korean name followed by the original in parentheses). For example: \"Blessed Thistle(블레스드 시슬/축복받은 엉겅퀴), Milk Thistle(밀크 시슬/엉겅퀴), Teasel(티슬/도깨비풀), 라즈베리 잎, 블랙베리 뿌리\" or provide fully Korean equivalents where conventional. Preserve order and meaning.",
+      "translation_quote": "축복받은 엉겅퀴(Blessed Thistle), 밀크 시슬(Milk Thistle), 티슬(Teasel), 라즈베리 잎, 블랙베리 뿌리"
+    },
+    {
+      "location": "Paragraph under \"질병\" (sentence: \"God was also faithful in designing people, plants, and animals with a regenerative microbiome (billions of helpful bacteria) and a systemic immune system, which helps us fight off diseases.\")",
+      "severity": "minor",
+      "source_quote": "regenerative microbiome (billions of helpful bacteria) and a systemic immune system",
+      "suggested_fix": "Improve Korean idiom and clarity for 'regenerative microbiome' and 'systemic immune system.' Suggested wording: \"재생력을 가진 미생물군집(수십억 마리의 유익한 박테리아)과 전신성 면역체계\" or \"회복력 있는 마이크로바이옴과 전신 면역체계\". Preserve original meaning.",
+      "translation_quote": "재생 가능한 마이크로바이옴(수십억의 유익한 박테리아)과 체계적인 면역체계"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<div class=\\\"poem\\\"> <p>…</p> <p>…</p> <p>Ewe roho mpenzi! kwenye njia ya maisha, Egekea(sic) juu ya kifua cha Mwokozi wako; Hakuna adui atakayekuudhi huko, Hadi ufikie mapumziko ya milele.</p> </div>\",\"severity\":\"major\",\"source_quote\":\"Lean upon your Savior’s breast;\",\"suggested_fix\":\"Remove the editorial parenthetical “(sic)” and use an appropriate Kiswahili imperative that matches the plural, affectionate address in the source. For example: “Tegemeni kifua cha Mwokozi wenu;” or “Egeukeni kifua cha Mwokozi wenu;”. Preserve the punctuation and line breaks inside the <p> tag.\",\"translation_quote\":\"Egekea(sic) juu ya kifua cha Mwokozi wako;\"},{\"location\":\"<div class=\\\"poem\\\"> <p>Life is like a winding pathway<br> For the multitude of souls,</p> …</div>\",\"severity\":\"minor\",\"source_quote\":\"For the multitude of souls,\",\"suggested_fix\":\"Consider a more natural Kiswahili rendering to convey the collective sense—e.g. “kwa umati wa roho nyingi,” or “kwa umati wa nafsi,”—but the current “Kwa umati wa roho,” is acceptable. No HTML changes needed.\",\"translation_quote\":\"Kwa umati wa roho,\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1185,
+    "content_evidence_truncated": false,
+    "content_sha256": "2649165b220ff7ab27f01e9320aa77bfc4a4685ec7e3efa38fa82e83527bfa42",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 791,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1401,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2192
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

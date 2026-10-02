@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning \\\"Kesimpulannya, Ayub pada zaman dahulu...\\\"\",\"severity\":\"minor\",\"source_quote\":\"Job of old bore the lashes of unparalleled human calamity and agony and torture of mind, body, and soul.\",\"suggested_fix\":\"Fix minor word choice/typo to match natural Indonesian: replace \\\"manusiaiah\\\" with \\\"manusiawi\\\" (\\\"malapetaka manusiawi yang tiada tara\\\"). Preserve HTML and surrounding punctuation.\",\"translation_quote\":\"Ayub pada zaman dahulu memikul cambukan malapetaka manusiaiah yang tiada tara dan siksaan pikiran, tubuh, dan jiwa.\"},{\"location\":\"Throughout article (references to deity names)\",\"severity\":\"minor\",\"source_quote\":\"Original English uses both \\\"God\\\" and \\\"the Lord\\\" in different contexts (e.g., \\\"God said 'no' to Paul.\\\" vs. scriptural quotes with \\\"the Lord\\\").\",\"suggested_fix\":\"For consistency with conventional Indonesian Bible and editorial style, consider standardizing references to the deity within narrative prose and quoted Scripture. For example, use \\\"Allah\\\" in narrative sentences and retain the scriptural rendered name \\\"TUHAN\\\" inside direct Scripture quotations. No content change required; this is a stylistic consistency suggestion only.\",\"translation_quote\":\"Examples: \\\"Allah berkata 'tidak' kepada Paulus.\\\" and scriptural quotes using \\\"TUHAN\\\" (kept as translated).\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 1377,
+    "content_evidence_truncated": false,
+    "content_sha256": "02cf2e3696a0959971195bac0e045b397788dd01c8a1719f385338f86febe496",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1019,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5272,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6291
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -2,7 +2,6 @@
   "article_id": "8072bb08-e7aa-4602-a3c6-f82161b740ae",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 5647
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1068,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5309,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6377
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>Rivolgiamo la nostra attenzione all’accettazione del “no” da parte del preghierevole Paolo.</p>",
+      "severity": "minor",
+      "source_quote": "Let us focus our attention upon prayerful Paul’s acceptance of God’s “no.”",
+      "suggested_fix": "Use an idiomatic Italian adjective or phrasing: for example, \"Rivolgiamo la nostra attenzione all’accettazione, da parte di Paolo, del \"no\" di Dio, che era uomo di preghiera.\" Or simply \"Rivolgiamo la nostra attenzione all'accettazione del 'no' di Dio da parte del Paolo, uomo di preghiera.\" Preserve the HTML tag as-is.",
+      "translation_quote": "Rivolgiamo la nostra attenzione all’accettazione del “no” da parte del preghierevole Paolo."
+    },
+    {
+      "location": "<p>Bastano il titolo a far sorgere probabilmente pensieri negativi nella tua mente. ...</p>",
+      "severity": "minor",
+      "source_quote": "Just reading the title probably brings negative thoughts to your mind.",
+      "suggested_fix": "Correct the Italian grammar and natural phrasing. For example: \"Probabilmente basta il titolo per suscitare pensieri negativi nella tua mente.\" Or: \"Solo il titolo probabilmente suscita pensieri negativi nella tua mente.\" Preserve the paragraph tag and surrounding markup.",
+      "translation_quote": "Bastano il titolo a far sorgere probabilmente pensieri negativi nella tua mente."
+    },
+    {
+      "location": "<p>“Shall not the Judge of all the earth do right?” (Genesis 18:25).</p>",
+      "severity": "minor",
+      "source_quote": "\"Shall not the Judge of all the earth do right?\" (Genesis 18:25).",
+      "suggested_fix": "The current Italian adds \"Forse\" which introduces hesitation not present in the English rhetorical question. Render more faithfully, e.g.: \"Il Giudice di tutta la terra non farà giustizia?\" or \"Il Giudice di tutta la terra non farà ciò che è giusto?\" Keep the reference unchanged and preserve punctuation and tags.",
+      "translation_quote": "“Forse il Giudice di tutta la terra non farà giustizia?” (Genesi 18:25)."
+    }
+  ],
+  "finished_at": "2026-10-02T12:50:23+00:00",
   "id": "8d01796bc1d9cb0069979bcd447f0337",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ita",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/40b205584b70dea6ea3ff3f4c41c6fd1ddfe0f0185df69fefa6b9552a41d435d.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "bf998429e527907a20f711c821e9bb6ad50ba4d154d9f55d397877de1bb521c0",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

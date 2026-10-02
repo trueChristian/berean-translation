@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6b9aa81d-415a-4426-a1e4-515379406ff8",
+    "response_id": "chatcmpl-EUWw2BH3WsNMoXZNcpulldTaufMwn",
+    "usage": {
+      "completion_tokens": 526,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6997,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7523
+    }
+  },
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> paragraph: \"Our precious little girl ended up having brain surgery at only three and a half years old.\" (near end of body)",
+        "severity": "major",
+        "source_quote": "Our precious little girl ended up having brain surgery at only three and a half years old.",
+        "suggested_fix": "Replace the mistranslated sentence with a faithful Urdu rendering that preserves the original age: e.g. \"ہماری قیمتی چھوٹی لڑکی بالآخر صرف تین سال اور آدھے سال کی عمر میں دماغ کے آپریشن سے گزری۔\" Ensure the surrounding HTML paragraph text and tags remain unchanged.",
+        "translation_quote": "ہماری قیمتی چھوٹی لڑکی آخر کار صرف ڈیڑھ سال بعد ہی دماغ کے آپریشن سے گزری—درست طور پر وہ تین سال اور آدھی عمر میں سرجری کرائی گئی۔"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

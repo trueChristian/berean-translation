@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning \"We read of the beautiful paradise restored...\" (English) / Paragraph beginning \"En effet, la mort n’a pas d’âge...\" (French)",
+      "severity": "critical",
+      "source_quote": "Some of the things he mentions are no sickness, no sorrow, no separation, no tears, no more suffering, and no death.",
+      "suggested_fix": "Restore the negations present in the source. Replace the current French clause that incorrectly affirms suffering and death with a faithful negative listing. For example: « Certaines des choses qu’il mentionne sont : pas de maladie, pas de chagrin, pas de séparation, pas de larmes, plus de souffrance et plus de mort. » is incorrect. Change to: « Certaines des choses qu’il mentionne sont : pas de maladie, pas de chagrin, pas de séparation, pas de larmes, plus de souffrance et pas de mort. » — better: « ... pas de maladie, pas de chagrin, pas de séparation, pas de larmes, plus de souffrance et pas de mort. » However, a clearer faithful rendering preserving all negations is: « ... pas de maladie, pas de chagrin, pas de séparation, pas de larmes, plus de souffrance et pas de mort. » (Alternatively: « ... il n’y aura plus ni maladie, ni chagrin, ni séparation, ni larmes, ni souffrance, ni mort. »). Ensure the sentence conveys the six negative items exactly as in the source.",
+      "translation_quote": "Certaines des choses qu’il mentionne sont : pas de maladie, pas de chagrin, pas de séparation, pas de larmes, plus de souffrance et plus de mort."
+    },
+    {
+      "location": "Paragraph beginning \"We grow the artichoke for its bitter leaves...\" (English) / Paragraph beginning \"Nous cultivons l’artichaut pour ses feuilles amères...\" (French)",
+      "severity": "major",
+      "source_quote": "Think about it: Blessed Thistle, Milk Thistle, Teasel, Raspberry Leaf, and Blackberry roots are only a few examples of members of these “thorny weeds” used for medicinal and other food benefits.",
+      "suggested_fix": "Translate the plant common names into French or provide commonly used French equivalents instead of leaving one name in English. For example: replace the English 'Blessed Thistle' with 'Chardon béni' or the established French common name if available. A suggested corrected French rendering: « Pensez-y : le chardon béni, le chardon‑marie, la cardère (teasel), la feuille de framboisier et les racines de mûrier ne sont que quelques exemples ... » Ensure each listed plant name is rendered into standard French botanical/common names, preserving the original list order and meaning.",
+      "translation_quote": "Réfléchissez : Blessed Thistle, chardon‑marie, teasel, feuille de framboisier et racines de mûrier ne sont que quelques exemples de membres de ces « mauvaises herbes épineuses » utilisés pour des bienfaits médicinaux et alimentaires."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

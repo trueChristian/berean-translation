@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<article> paragraph: \\\"In conclusion, Job of old bore the lashes...\\\" (near end)\",\"severity\":\"major\",\"source_quote\":\"His faithfulness and steadfast endurance have blessed thirty centuries of sorrowing humanity.\",\"suggested_fix\":\"Translate \\\"thirty centuries\\\" correctly as \\\"तीस सदियाँ\\\" or \\\"तीस सदी\\\" (both mean thirty centuries). Replace the mistranslated number phrase in the corresponding Hindi paragraph, preserving surrounding HTML tags and punctuation.\",\"translation_quote\":\"\\\"उसकी निष्ठा और दृढ़ सहनशीलता ने तेईस सदी दुखी मानवता को आशीर्वाद दिया है।\\\"\"},{\"location\":\"<article> second paragraph (Deuteronomy 1:42 quote)\",\"severity\":\"minor\",\"source_quote\":\"\\\"And ye returned and wept before the Lord; but the Lord would not hearken to your voice, nor give ear unto you\\\" (Deuteronomy 1:45).\",\"suggested_fix\":\"Replace the stray German word \\\"Stimme\\\" with an appropriate Hindi word such as \\\"आवाज़\\\" so the phrase reads: \\\"परन्तु यहोवा ने तुम्हारी आवाज़ पर ध्यान न दिया, और न तुम्हारी बात को सुनी।\\\" Preserve the structure and punctuation within the existing <p> tag.\",\"translation_quote\":\"\\\"...परन्तु यहोवा ने तुम्हारी Stimme पर ध्यान न दिया, और न तुम्हारी बात को सुनता\\\" (व्यवस्थाविवरण 1:45).\"}],\"passed\":false,\"score\":70}",
+    "content_bytes": 1668,
+    "content_evidence_truncated": false,
+    "content_sha256": "f970a3a16793ec5f12eff7960dcbc3b9d6b93aa934c25dd5a5010f0a3d2532d7",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 911,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5647,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6558
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

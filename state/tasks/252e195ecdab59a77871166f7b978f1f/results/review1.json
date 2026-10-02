@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8c20ecdd-c816-4b07-8029-bb8650a3302b",
+    "response_id": "chatcmpl-EUWwfRn2ChDEjY4ecrzoj1PQ4XuAB",
+    "usage": {
+      "completion_tokens": 936,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9663,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10599
+    }
+  },
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "section",
+        "severity": "major",
+        "source_quote": "A WORD FROM A DOCTOR",
+        "suggested_fix": "Translate the section into Portuguese. Suggested rendering: \"UMA PALAVRA DE UM MÉDICO\" (or \"UMA MENSAGEM DE UM MÉDICO\"). Replace the current section value with the chosen Portuguese phrase.",
+        "translation_quote": "UMA WORD FROM A DOCTOR"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

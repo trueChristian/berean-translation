@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph with driving analogy (original ~ halfway through article)\",\"severity\":\"minor\",\"source_quote\":\"It is as though you are in a vehicle traveling 90 mph, and you push the accelerator a little harder, and nothing happens.\",\"suggested_fix\":\"Restore the original numeric expression or include both units to preserve the printed meaning. For example: “Es como cuando vas en un vehículo a 90 mph (aprox. 145 km/h) y pisas un poco más el acelerador y no sucede nada.”\",\"translation_quote\":\"Es como cuando vas en un vehículo a 145 km/h y pisas un poco más el acelerador y no sucede nada.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 648,
+    "content_evidence_truncated": false,
+    "content_sha256": "081b05229feb1beb90e80afc0d15c3090adc3f544bc7ac89d49a9f9144f34617",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 803,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9652,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10455
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

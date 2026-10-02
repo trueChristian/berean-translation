@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.html — section.lyrics (full hymn)",
+      "severity": "critical",
+      "source_quote": "All 13 verses printed in the original English hymn text (section class=\"lyrics\"). Example: \"When all Thy mercies, O my God, / My rising soul surveys, / Transported with the view, / I’m lost In wonder, love and praise.\"",
+      "suggested_fix": "Translate the entire quoted hymn (all 13 verses) into Bahasa Indonesia, preserving the HTML structure and tags exactly (the <section class=\"lyrics\"> and nested <p><em>...</em></p> blocks). The translated text should faithfully convey the meaning of the original English hymn as printed (do not substitute a different hymn text or an English Bible variant). Keep verse breaks and the number and placement of lines unchanged.",
+      "translation_quote": "The translation left the entire hymn in English (same English stanzas reproduced unchanged inside <section class=\"lyrics\">)."
+    },
+    {
+      "location": "source.title",
+      "severity": "major",
+      "source_quote": "When All Thy Mercies, O My God",
+      "suggested_fix": "Translate the article title into standard Bahasa Indonesia. Preserve the title field text and do not alter article HTML tags. Suggested: replace with an Indonesian rendering that reflects the hymn title (e.g., \"Ketika Semua Kasih-Mu, Ya Allah\" or another idiomatic translation agreed by the editor). Do not leave the title in English in the translated article metadata.",
+      "translation_quote": "When All Thy Mercies, O My God (left in English) "
+    },
+    {
+      "location": "source.html — paragraph about marriage (sentence quoting source)",
+      "severity": "major",
+      "source_quote": "\"His marriage to Charlotte, a widow of 15 years, didn’t turn out as he had anticipated. It is said that their courtship was long and anxious.\"",
+      "suggested_fix": "Correct the mistranslation that changes the meaning. The source means Charlotte had been a widow for 15 years, not that she was '15 years older'. Replace the Indonesian sentence with an accurate rendering that conveys 'seorang janda selama 15 tahun' (or equivalent). Preserve the surrounding HTML and the quoted block structure. Example fix: “Pernikahannya dengan Charlotte, yang telah menjadi janda selama 15 tahun, tidak berjalan seperti yang ia harapkan.”",
+      "translation_quote": "\"Pernikahannya dengan Charlotte, seorang janda berusia 15 tahun lebih tua, tidak berjalan seperti yang ia harapkan.\" (changes sense to '15 years older')"
+    },
+    {
+      "location": "source.html — paragraph about father (\"his father, being a studious man himself\")",
+      "severity": "minor",
+      "source_quote": "\"He was the eldest son of Lancelot Addison, a well-learned man and minister in his church. His father, being a studious man himself, made sure his son Joseph had a good education.\"",
+      "suggested_fix": "Fix the mistranslation/typo that renders 'a studious man' incorrectly as 'pemudi'. Replace with an appropriate Indonesian phrase preserving HTML: e.g., “Ayahnya, yang sendiri seorang yang tekun belajar/berilmu, memastikan bahwa Joseph menerima pendidikan yang baik.”",
+      "translation_quote": "\"Ayahnya, yang sendiri seorang pemudi, memastikan bahwa Joseph menerima pendidikan yang baik.\" (contains incorrect word 'pemudi')"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

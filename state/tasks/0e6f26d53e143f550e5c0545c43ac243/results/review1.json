@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8d20dbbc-7291-43a9-9c03-0fec33857b34",
+    "response_id": "chatcmpl-EUWw4EOBEduz1GSfJ06Y0CS1SW9bx",
+    "usage": {
+      "completion_tokens": 852,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7595,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8447
+    }
+  },
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph (first <p>)",
+        "severity": "major",
+        "source_quote": "God was not surprised but, nevertheless, was very disappointed.",
+        "suggested_fix": "Translate the meaning correctly without introducing a negation. For example: \"ঈশ্বর অবাক হননি; তবু তিনি অত্যন্ত হতাশ হলেন।\" Preserve existing HTML tags and punctuation.",
+        "translation_quote": "ঈশ্বর দুঃখিত হননি না, তবু অত্যন্ত হতাশ হলেন।"
+      },
+      {
+        "location": "Ordered list item 6 (the <ol> list)",
+        "severity": "major",
+        "source_quote": "Decomposition and Decay",
+        "suggested_fix": "Translate both terms accurately into Bengali. For example: \"পচন এবং ক্ষয়\" or \"অবক্ষয় ও পচন\" (keep word order consistent with source). Do not use words that mean 'remorse'.",
+        "translation_quote": "পচন ও ব্যাকশোচ"
+      },
+      {
+        "location": "Paragraph in 'Death' section (one sentence)",
+        "severity": "minor",
+        "source_quote": "ashes to ashes and dust to dust",
+        "suggested_fix": "Remove the stray English token and provide a proper Bengali rendering of the phrase. For example: \"রাখ থেকে রেখে ও ধুলা থেকে ধুলা\" is awkward; better: \"চুল্লি থেকে চুল্লি এবং ধুলো থেকে ধুলো\" is still awkward—recommended: \"রাখ থেকে রাখি এবং ধুলে ধুলে\" is not idiomatic. Preferred translation: \"রাখ থেকে রাখি ও ধূলি থেকে ধূলি\" — or more idiomatically: \"রাখ থেকে রাখি, ধুলা থেকে ধুলা\". Replace the existing fragment while preserving surrounding HTML.",
+        "translation_quote": "চারের থেকে চার—and ধূলিতে ধূলি, awaiting the final resurrection."
+      }
+    ],
+    "passed": false,
+    "score": 62
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Ordered list (article body, 4th item)\",\"severity\":\"minor\",\"source_quote\":\"Dominance of certain plants like thorns and thistles\",\"suggested_fix\":\"Translate phrase using correct Kiswahili plant terms and sense. Example: “Utegemeo wa mimea fulani kama vishoka na magugu ya thistle” or better “Ukimomonyoka wa mimea fulani kama vishoka na magugu (thistles)” preserving meaning that certain thorny plants became dominant.\",\"translation_quote\":\"Utegemeo wa mimea fulani kama vishawishi na vidonge\"},{\"location\":\"Section heading (\\\"Dominance of Thorns and Thistles\\\")\",\"severity\":\"minor\",\"source_quote\":\"Dominance of Thorns and Thistles\",\"suggested_fix\":\"Use an accurate Kiswahili heading that reflects the English meaning. Example: “Uinukufu wa Visho na Magugu ya Thistle” or “Utegemeo wa Visho na Magugu (Thistles)” to convey dominance of thorny plants.\",\"translation_quote\":\"Utegemeo wa Vishawi na Vidonge\"},{\"location\":\"Paragraph under \\\"Distress and Pain\\\" (list of remedies)\",\"severity\":\"minor\",\"source_quote\":\"From ancient times, plants, herbs, and other remedies have helped people deal with pain and distress.\",\"suggested_fix\":\"Replace the incorrect word “nyanya” (tomato) with an appropriate Kiswahili word for herbs/medicinal plants. Example: “Tangu nyakati za kale, mimea, mimea ya kutibu, na tiba nyingine zimewasaidia watu kushughulikia maumivu na dhiki.”\",\"translation_quote\":\"Tangu nyakati za kale, mimea, nyanya, na tiba nyingine zimewasaidia watu kushughulikia maumivu na dhiki.\"},{\"location\":\"Figure alt text (first image)\",\"severity\":\"minor\",\"source_quote\":\"Ruins of Hiroshima after the atomic bombing\",\"suggested_fix\":\"Correct the alt-text translation to match the English. Example: “Magofu ya Hiroshima baada ya bomu la atomiki” (the original English used the plural \\\"Ruins\\\"; the current translation uses the plural but word choice could be tightened). The current translation \\\"Magofu ya Hiroshima baada ya bomu la atomiki\\\" is acceptable; if a change is desired: “Magofu ya Hiroshima baada ya upigaji bomu la atomiki.”\",\"translation_quote\":\"Magofu ya Hiroshima baada ya bomu la atomiki\"},{\"location\":\"Figure alt text (second image)\",\"severity\":\"minor\",\"source_quote\":\"A pile of green artichokes\",\"suggested_fix\":\"Translate the alt text to accurately describe the image. Current translation “Gurudumu la artichokes za kijani” is unnatural (\\\"gurudumu\\\" = wheel). Use: “Safu ya artichokes za kijani” or “Kingi ya artichokes za kijani.”\",\"translation_quote\":\"Gurudumu la artichokes za kijani\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 2606,
+    "content_evidence_truncated": false,
+    "content_sha256": "e9a301dae1da97038b62af2f24ad17849625b4e7797c6779e75859ea3b1bbd57",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1418,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7108,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8526
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

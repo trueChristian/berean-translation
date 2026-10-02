@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a697697b-c39d-4162-a23c-a64ddd0715af",
+    "response_id": "chatcmpl-EUWwFiGpto3u6OySC4nV0VVtn0N3K",
+    "usage": {
+      "completion_tokens": 912,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1380,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2292
+    }
+  },
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> — stanza 3, line 2 (third stanza, second line)",
+        "severity": "minor",
+        "source_quote": "Lean upon your Savior’s breast;",
+        "suggested_fix": "Correct the typo and preserve reflexive imperative: replace \"Apoi em-se no peito do Salvador;\" with \"Apoie-se no peito do Salvador;\"",
+        "translation_quote": "Apoi em-se no peito do Salvador;"
+      },
+      {
+        "location": "<div class=\"poem\"> — stanza 2, line 2 (second stanza, second line)",
+        "severity": "minor",
+        "source_quote": "Straight or crooked, one of twain;",
+        "suggested_fix": "Adjust for natural agreement/clarity in Portuguese while preserving meaning. Two acceptable fixes: keep as-is or make agreement explicit, e.g. replace \"Reta ou tortuosa, uma das duas;\" with \"Reto ou tortuoso, um dos dois;\" or with \"Reta ou tortuosa, uma das duas;\" if keeping feminine agreement with \"vida\"/\"caminho.\" Either is acceptable; no doctrinal change.",
+        "translation_quote": "Reta ou tortuosa, uma das duas;"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

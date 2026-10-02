@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<div class=\\\"poem\\\"> … </div> (poem block)\",\"severity\":\"major\",\"source_quote\":\"<p><em>When all Thy mercies, O my God,<br>\\n    My rising soul surveys,<br>\\n    Transported with the view, I’m lost<br>\\n    In wonder, love and praise.</em></p>\",\"suggested_fix\":\"Translate the quoted hymn stanza into Korean and preserve the existing HTML structure, tags, and line breaks. For example, replace the English lines inside the <div class=\\\"poem\\\"> with a faithful Korean rendering while keeping the <p>, <em>, and <br> tags unchanged:\\n\\n<p><em>주여 모든 자비를 내가 돌아볼 때에,<br>\\n내 일어나는 영혼이 바라볼 때에,<br>\\n그 광경에 사로잡혀 나는 잃어버리고<br>\\n경이로움과 사랑과 찬양에 잠기네.</em></p>\\n\\n(You may use a different idiomatic Korean translation that faithfully conveys the original stanza’s meaning; do not leave the quoted substantive prose in English.)\",\"translation_quote\":\"<p><em>When all Thy mercies, O my God,<br>\\n    My rising soul surveys,<br>\\n    Transported with the view, I’m lost<br>\\n    In wonder, love and praise.</em></p>\"}],\"passed\":false,\"score\":78}",
+    "content_bytes": 1168,
+    "content_evidence_truncated": false,
+    "content_sha256": "b202010173f34b1ad9b23b221312df9c1bbfc581b666904feba79b3e5be2f08b",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 711,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3182,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3893
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

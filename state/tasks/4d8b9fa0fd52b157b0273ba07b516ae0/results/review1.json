@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5e5c4f05-28c4-4b40-b280-01fd919b4b4f",
+    "response_id": "chatcmpl-EUWw3wc5976lrLqh7di2O62QXgfCh",
+    "usage": {
+      "completion_tokens": 1702,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7973,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9675
+    }
+  },
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing Isaiah 57:14-15 (source.html: paragraph beginning “Cast ye up, cast ye up, prepare the way…”)",
+        "severity": "major",
+        "source_quote": "“Cast ye up, cast ye up, prepare the way, take up the stumbling block out of the way of my people. For thus saith the high and lofty One that inhabiteth eternity, whose name is Holy; I dwell in the high and holy place, with him also that is of a contrite and humble spirit, to revive the spirit of the humble, and to revive the heart of the contrite ones” (Isaiah 57:14-15).",
+        "suggested_fix": "Replace the Portuguese quotation with a faithful rendering of the English Scripture text (keeping the reference unchanged). For example: “'Erguei uma estrada, erguei uma estrada; tirai do caminho o tropeço do meu povo. Porque assim diz o Altíssimo e Sublime, que habita na eternidade, cujo nome é Santo: eu habito no alto e no santo lugar; também com o contrito e humilde de espírito, para vivificar o espírito dos humildes, e para vivificar o coração dos contritos.' (Isaías 57:14-15).\" Use the site’s preferred Portuguese Bible wording if there is one, but do not use “Evei, evei…” which does not render the original verse meaning.",
+        "translation_quote": "“Evei, evei, preparai o caminho, tirai do caminho o tropeço do meu povo. Porque assim diz o Alto e Sublime, que habita na eternidade, cujo nome é Santo: eu habito no alto e no santo lugar, e também com o contrito e humilde de espírito, para vivificar o espírito dos humildes e vivificar o coração dos contritos” (Isaias 57:14-15)."
+      },
+      {
+        "location": "Paragraph about Phaltiel / 2 Samuel 3:15-16 (source.html: paragraph beginning “We may mean well, but our own passionate feelings are not a good gauge… Faltiéu was a dear soul…”)",
+        "severity": "minor",
+        "source_quote": "“We may mean well, but our own passionate feelings are not a good gauge of proving what is acceptable unto the Lord. Phaltiel was a dear soul who fell into such deceit. He had been given Michal by King Saul himself.… \"they sent, and took her from her husband, even from Phaltiel the son of Laish. And her husband went with her along weeping behind her” (2 Samuel 3:15-16).\"",
+        "suggested_fix": "Use the more conventional Portuguese form of the proper name as used in most Portuguese Bibles and in the rest of the article's Biblical name renderings. Replace “Faltiéu” with “Faltiel” (or the site’s standard Portuguese spelling for Phaltiel) so the name is readily recognizable as the Biblical figure and consistent with other Scripture name spellings. Keep the rest of the sentence intact and keep the Scripture reference unchanged.",
+        "translation_quote": "\"Pode ser que tenhamos boas intenções, mas nossos próprios sentimentos passionais não são um bom parâmetro… Faltiéu foi uma alma querida que caiu em tal engano. … 'mandaram buscar-na da casa de seu marido, até a casa de Faltiéu, filho de Laís. E o marido dela foi com ela, chorando, atrás dela' (2 Samuel 3:15-16).\""
+      },
+      {
+        "location": "Multiple places (e.g., paragraph on skandalízō)",
+        "severity": "minor",
+        "source_quote": "“The Greek word is skandalízō meaning “to scandalize”. In Hebrew, it means “a stumbling block”.\"",
+        "suggested_fix": "Remove the soft hyphenation or broken glyph in the Portuguese rendering of 'escan­dalizar' and ensure the compound word appears normally as 'escan­dalizar' is broken; use 'escan­dalizar' -> 'escan­dalizar' corrected to 'escandalizar' (no soft hyphen). This is a typographic/fidelity cleanup; do not change the meaning.",
+        "translation_quote": "\"A palavra grega é skandalízō, significando “escan­dalizar”.<sup>1</sup> Em hebraico, significa “uma pedra de tropeço”.\""
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

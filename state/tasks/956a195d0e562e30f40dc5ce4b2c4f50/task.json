@@ -2,7 +2,6 @@
   "article_id": "c22883c1-1d69-4c5e-aa81-d4015bf4e473",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,72 @@
         },
         "total_tokens": 3368
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1232,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3095,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4327
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph 2 (sentence mentioning article title)",
+      "severity": "major",
+      "source_quote": "“God’s Faithfulness Manifest Even in the Curse”",
+      "suggested_fix": "Translate the quoted English article title into Swedish (preserve quotation marks and HTML structure). For example: “Guds trofasthet manifesterad även i förbannelsen”. Replace the English title inside the quotes with the Swedish translation.",
+      "translation_quote": "”God’s Faithfulness Manifest Even in the Curse”"
+    },
+    {
+      "location": "Paragraph 3 (reference to column)",
+      "severity": "major",
+      "source_quote": "“A Word From the Doctor”",
+      "suggested_fix": "Translate the quoted column/section title into Swedish (preserve quotation marks and HTML). For example: “Ett ord från doktorn”. Replace the English phrase in quotes with the Swedish translation.",
+      "translation_quote": "”A Word From the Doctor”"
+    },
+    {
+      "location": "Paragraph 7 (broiler houses)",
+      "severity": "major",
+      "source_quote": "broiler houses",
+      "suggested_fix": "The English term refers to buildings for meat (broiler) chickens. Translate to an appropriate Swedish term such as \"broilerstall\" or \"stall för slaktkycklingar\" depending on publication style. Replace \"värphus\" with the corrected term.",
+      "translation_quote": "värphus"
+    },
+    {
+      "location": "Paragraph 1 (phrase about God)",
+      "severity": "minor",
+      "source_quote": "Almighty Creator God",
+      "suggested_fix": "Improve idiomatic Swedish: use e.g. \"allsmäktige, skaparen Gud\" or \"den allsmäktige Skaparen\" depending on house style. For instance: \"något bara den allsmäktige Skaparen kan ordna\".",
+      "translation_quote": "allsmäktig skapare Gud"
+    },
+    {
+      "location": "Paragraph 3 (\"bone tired\")",
+      "severity": "minor",
+      "source_quote": "Bone tired.",
+      "suggested_fix": "Use a natural Swedish equivalent without a hyphen, e.g. \"helt slut\", \"utmattade till benen\" or simply \"benmatt\" depending on tone. Replace \"Ben-trötta.\" with an idiomatic rendering.",
+      "translation_quote": "Ben-trötta."
+    },
+    {
+      "location": "Paragraph 1 (opening greeting grammar)",
+      "severity": "minor",
+      "source_quote": "Greetings in the worthy name of the Lord Jesus Christ.",
+      "suggested_fix": "Make the Swedish more idiomatic and grammatical, e.g. \"Hälsningar i den värdiga namnEN av Herren Jesus Kristus\" or \"Hälsningar i den värdiga namnEN, Herren Jesus Kristus.\" Adjust capitalization of 'Herre' to 'Herren' to match common usage.",
+      "translation_quote": "Hälsningar i den värdiga namnet Herre Jesus Kristus."
+    }
+  ],
   "id": "956a195d0e562e30f40dc5ce4b2c4f50",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "swe",
@@ -100,11 +162,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/16f80cc2fe1f48fad7c825ed0d1e3059568da0b548b0106a43da4f8b4d785466.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "7328fe7985535229790c376868603624111ed137e1665aff6a36b03d5b4d90fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

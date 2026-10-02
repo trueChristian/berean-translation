@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph containing Mark 14:27 (third paragraph)\",\"severity\":\"major\",\"source_quote\":\"He informed the inner 12 that had stuck with Him, “All ye shall be offended because of me this night” (Mark 14:27).\",\"suggested_fix\":\"Render the quoted Scripture in idiomatic, accurate Dutch preserving the original meaning and verse placement. For example: “Gij allen zult aanstoot aan mij nemen dezen nacht” (Marcus 14:27). Remove the stray word 'wegen' which alters or garbles the meaning.\",\"translation_quote\":\"Hij vertelde de binnenste twaalf die bij Hem waren gebleven: “Gij allen zult wegen over Mij aanstoot nemen deze nacht” (Marcus 14:27).\"},{\"location\":\"Paragraph containing James 3:2 (paragraph after Matthew 13:20-21)\",\"severity\":\"major\",\"source_quote\":\"“In many things, we offend all” (James 3:2).\",\"suggested_fix\":\"Translate the verse into clear, correct Dutch that preserves the Scripture sense. Replace the incorrect or nonstandard word 'misstraad' with an appropriate rendering such as: “In vele dingen struikelen wij allen” or “In veel dingen vallen wij allen in zonde” and keep the citation (Jakobus 3:2).\",\"translation_quote\":\"“In vele dingen worden wij allen misstraad” (Jakobus 3:2).\"},{\"location\":\"Multiple quoted Scripture renderings — consistency and accuracy (general)\",\"severity\":\"minor\",\"source_quote\":\"Multiple quoted verses (e.g., Psalm 119:165; Matthew 13:20-21; Ephesians 4:1-2; Isaiah 40:31; Luke 7:20-23; 2 Samuel 6:16, 6:23, etc.)\",\"suggested_fix\":\"Check all quoted Scripture passages for idiomatic Dutch, consistent Bible-book names, exact chapter:verse numbers unchanged, and natural Dutch phrasing. A few quotations use slightly archaic or uneven phrasing (e.g., 'den hoge en verhevene, Die de eeuwigheid bewoont' vs. more contemporary Dutch). Use standard contemporary Dutch while preserving the original theological meaning and verse structure. Do not alter verse numbers or omit any quoted biblical text.\",\"translation_quote\":\"Examples include: “Grote vrede hebben zij die uw wet liefhebben: en niets zal hen aanstoot geven” (Psalm 119:165); “Christus beschreef deze planten als having 'not root in himself, but dureth for a while' (Mattheüs 13:20-21)\\\" (various quotes throughout).\"},{\"location\":\"Byline/reference section (references list)\",\"severity\":\"minor\",\"source_quote\":\"Strongs Concordance\",\"suggested_fix\":\"If editorial style prefers Dutch titles for referenced works, translate or localize the reference title into Dutch (for example: 'Strongs-concordantie'), but this is optional: leaving an established reference title in English is permissible if your house style allows. Ensure consistency with the magazine's style guide.\",\"translation_quote\":\"Strongs Concordance\"}],\"passed\":false,\"score\":78}",
+    "content_bytes": 2797,
+    "content_evidence_truncated": false,
+    "content_sha256": "109eb81c1429bfdeacbc98f4749a791e124d0100457ae4058f0b92eb93a4f60b",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1307,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8257,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9564
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -2,7 +2,6 @@
   "article_id": "48db8b57-eca2-4d35-a48f-13c21d68bab0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,45 @@
         },
         "total_tokens": 8749
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 854,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8409,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9263
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph 4 (Psalm 119:165)",
+      "severity": "minor",
+      "source_quote": "“Great peace have they which love thy law: and nothing shall offend them” (Psalm 119:165).",
+      "suggested_fix": "Render the second clause in natural, grammatical Bahasa Indonesia. Keep the meaning 'nothing shall cause them to be offended/stumble' and preserve verse reference. Example: “Damai besar bagi mereka yang mengasihi Taurat-Mu: mereka tidak akan tersandung.”",
+      "translation_quote": "“Damai besar bagi mereka yang mengasihi Taurat-Mu: dan tidak akan ada yang tersandung mereka” (Mazmur 119:165)."
+    },
+    {
+      "location": "Paragraph 3 (Greek gloss)",
+      "severity": "minor",
+      "source_quote": "The Greek word is skandalízō meaning “to scandalize”.",
+      "suggested_fix": "Translate the gloss fully into Bahasa Indonesia and avoid leaving the English gloss in parentheses. Keep transliteration and meaning. Example: \"Kata Yunani adalah skandalízō yang berarti 'menjadi batu sandungan' atau 'menyinggung'.\"",
+      "translation_quote": "Kata Yunani adalah skandalízō yang berarti “mencemarkan” (to scandalize)."
+    }
+  ],
+  "finished_at": "2026-10-02T12:50:24+00:00",
   "id": "de40429cb5a68ed7a5cf36d9d4502a40",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ind",
@@ -100,11 +135,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/860ef4183736ed90ffe0410e641004cf07704736a2fe3063f1577a97a4982295.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "b25c7ba97f60cd8b593ddd3f02e4c8b5da68408268cf7ae4a26bd9922702c945",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

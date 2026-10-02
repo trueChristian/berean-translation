@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<div class=\"poem\">\n    <p>...اے عزیز جانو! زندگی کے راستے پر،\n    اپنے نجات دہندہ کی سینے سے جکو؛...",
+      "severity": "minor",
+      "source_quote": "O dear souls! upon life’s pathway,\n    Lean upon your Savior’s breast;",
+      "suggested_fix": "Correct a small typographical/orthographic error: change “جکو” to standard Urdu “جھکو”. Keep the surrounding HTML and tags unchanged.",
+      "translation_quote": "اے عزیز جانو! زندگی کے راستے پر،\n    اپنے نجات دہندہ کی سینے سے جکو؛"
+    },
+    {
+      "location": "<div class=\"poem\">\n    <p>...ہمیں بالکل وہی ملے گا جو ہم مستحق ہیں—\n    ہماری ازلی کمی یا نصیب۔</p>",
+      "severity": "minor",
+      "source_quote": "We’ll receive just what we merit—\n    Our eternal loss or gain.",
+      "suggested_fix": "Improve word choice for clarity and to better reflect the pair “loss or gain.” Suggested replacements (choose one that best fits the translator’s style) while preserving tags: • “ہمیں بالکل وہی ملے گا جو ہم مستحق ہیں— ہماری ابدی خسارہ یا فایدہ۔” • or “ہمیں بالکل وہی ملے گا جو ہم مستحق ہیں— ہمارا ابدی نقصان یا نفع۔” Do not change Scriptures or structure.",
+      "translation_quote": "ہمیں بالکل وہی ملے گا جو ہم مستحق ہیں—\n    ہماری ازلی کمی یا نصیب۔"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

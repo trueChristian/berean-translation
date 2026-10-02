@@ -2,7 +2,6 @@
   "article_id": "20914547-a133-4159-bd5b-dff81f36453b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,93 @@
         },
         "total_tokens": 8705
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2177,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8430,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10607
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Blockquote (Psalms 16:11) near start",
+      "severity": "critical",
+      "source_quote": "“Thou wilt shew me the path of life: in thy presence is fulness of joy; at thy right hand there are pleasures for evermore” (Psalms 16:11).",
+      "suggested_fix": "Translate the book name into Spanish and keep the verse reference numbers and parentheses. For example: “(Salmos 16:11).” Preserve the punctuation and place the localized book name inside the parentheses.",
+      "translation_quote": "“Me mostrarás la senda de la vida; en tu presencia hay plenitud de gozo; delicias a tu diestra para siempre” (Psalms 16:11)."
+    },
+    {
+      "location": "Blockquote (Psalms 1:3)",
+      "severity": "critical",
+      "source_quote": "“And he shall be like a tree planted by the rivers of water, that bringeth forth his fruit in his season; his leaf also shall not wither; and whatsoever he doeth shall prosper” (Psalms 1:3).",
+      "suggested_fix": "Localize the book name to Spanish while keeping chapter and verse unchanged: use “(Salmos 1:3).”",
+      "translation_quote": "“Y será como árbol plantado junto a corrientes de aguas, que da su fruto a su tiempo, y su hoja no cae; y todo lo que hace prosperará” (Psalms 1:3)."
+    },
+    {
+      "location": "Blockquote (John 4:14)",
+      "severity": "critical",
+      "source_quote": "“But whosoever drinketh of the water that I shall give him shall never thirst; but the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14).",
+      "suggested_fix": "Translate the book name to Spanish (Juan) and keep the verse reference intact: “(Juan 4:14).”",
+      "translation_quote": "“Pero el que bebiere del agua que yo le daré, no tendrá sed jamás; sino que el agua que yo le daré será en él una fuente de agua que salte para vida eterna” (John 4:14)."
+    },
+    {
+      "location": "Blockquote (Romans 10:6-10)",
+      "severity": "critical",
+      "source_quote": "“But the righteousness which is of faith speaketh on this wise... (Romans 10:6-10).”",
+      "suggested_fix": "Localize the book name to Spanish (Romanos) and preserve the chapter/verse range and parentheses: “(Romanos 10:6-10).”",
+      "translation_quote": "“Mas la justicia que es por la fe habla así: ...” (Romans 10:6-10)."
+    },
+    {
+      "location": "Multiple blockquotes and inline citations (Romans 8:1; Romans 15:9; Acts 2:41; Hebrews 13:5; Philippians 2:4; Hebrews 12:1-3; Hebrews 12:12-15; Hebrews 12;28)",
+      "severity": "critical",
+      "source_quote": "Examples: “(Romans 8:1).”, “(Romans 15:9).”, “(Acts 2:41).”, “(Hebrews 13:5).”, “(Philippians 2:4)”, “(Hebrews 12:1-3)”, “(Hebrews 12:12-15)”, “(Hebrews 12;28).”",
+      "suggested_fix": "Replace all English book names with their standard Spanish equivalents (Romanos, Hechos, Hebreos, Filipenses, etc.) while preserving exact chapter and verse numbers and the parentheses. Also correct the semicolon in “Hebrews 12;28” to a colon if the English source uses a semicolon only as in the original print keep punctuation consistent but book name must be localized: e.g. “(Romanos 8:1)”, “(Romanos 15:9)”, “(Hechos 2:41)”, “(Hebreos 13:5)”, “(Filipenses 2:4)”, “(Hebreos 12:1-3)”, “(Hebreos 12:12-15)”, “(Hebreos 12:28)”.",
+      "translation_quote": "See multiple occurrences where the English book names remain, for example: “(Romans 8:1).”, “(Romans 15:9).”, “(Acts 2:41).”, “(Hebrews 13:5).”, “(Philippians 2:4)Mi...”, “(Hebrews 12:1-3).”, “(Hebrews 12:12-15)”, “(Hebrews 12;28).”"
+    },
+    {
+      "location": "Paragraph beginning “The last step I am writing about is about purpose.”",
+      "severity": "major",
+      "source_quote": "“God has a purpose for you to fulfill. You are a part of His kingdom that you can put time and energy into.”",
+      "suggested_fix": "Restore the original agent and nuance: translate as “Dios tiene un propósito para que tú lo cumplas. Eres parte de Su reino en el que puedes invertir tiempo y energía.” This keeps the intended meaning that the purpose is for the reader to fulfill, matching the English.",
+      "translation_quote": "“Dios tiene un propósito que quieres cumplir. Eres parte de Su reino en lo que puedes invertir tiempo y energía.”"
+    },
+    {
+      "location": "Final blockquote (Hebrews 12;28) wording",
+      "severity": "minor",
+      "source_quote": "“Wherefore we receiving a kingdom which cannot be moved, let us have grace, whereby we may serve God acceptably with reverence and godly fear” (Hebrews 12;28).",
+      "suggested_fix": "Correct Spanish idiom/grammar: use “tengamos gracia” or a clearer rendering: “Por tanto, recibiendo un reino inconmovible, tengamos gracia, por la cual sirvamos a Dios de manera aceptable con reverencia y temor santo” and localize book name to “(Hebreos 12:28).”",
+      "translation_quote": "“Por tanto, recibiendo un reino inconmovible, tengamos gracias, por las cuales sirvamos a Dios agradables con reverencia y con temor” (Hebrews 12;28)."
+    },
+    {
+      "location": "Inline punctuation after Philippians citation",
+      "severity": "minor",
+      "source_quote": "“… (Philippians 2:4) My wife and I recently celebrated our third anniversary. I was 38 …”",
+      "suggested_fix": "Ensure spacing between the parenthetical citation and the following sentence, and localize the book name: “(Filipenses 2:4). Mi esposa y yo celebramos recientemente…”",
+      "translation_quote": "“(Philippians 2:4)Mi esposa y yo celebramos recientemente nuestro tercer aniversario.”"
+    },
+    {
+      "location": "Verse citation formatting consistency",
+      "severity": "minor",
+      "source_quote": "All scripture citations in English format e.g. (Psalms 16:11), (John 4:14), etc.",
+      "suggested_fix": "Consistently localize all Bible book names into Spanish throughout the article (Salmos, Juan, Romanos, Hebreos, Filipenses, Hechos, etc.) while preserving exact chapter:verse numbers and parentheses.",
+      "translation_quote": "Multiple instances throughout the translation where book names remain in English (e.g., “(Psalms 16:11)”, “(John 4:14)”, “(Romans 10:6-10)”, etc.)."
+    }
+  ],
   "id": "9cd44e1ca87c907a96f4a305fe06f8c9",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "spa",
@@ -100,11 +183,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a5fa4336ac24fe4ded7bc5c6695694845b2e95ac589cd5689bedc4b3e79ef2b1.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "2780d41d80f578475e27d5e54969bef54c79aef92fae3008a281d5b3d0e475c3",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

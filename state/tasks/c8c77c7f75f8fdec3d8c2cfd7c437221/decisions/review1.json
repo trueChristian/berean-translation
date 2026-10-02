@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<figure> <img alt>",
+      "severity": "minor",
+      "source_quote": "A snow-covered road winding through an evergreen forest",
+      "suggested_fix": "Correct Greek grammar and idiom: use masculine article and a natural word for “evergreen.” Example: alt=\"Ένας χιονισμένος δρόμος που διασχίζει ένα αειθαλές δάσος\" (or «που διασχίζει ένα δάσος με αειθαλή έλατα» if the image shows conifers). Preserve the alt attribute within the same <img> tag.",
+      "translation_quote": "Μια χιονισμένη δρόμος που σπειροειδώς διασχίζει ένα αιωνόβιο δάσος"
+    },
+    {
+      "location": "<div class=\"poem\"> second stanza fourth line",
+      "severity": "minor",
+      "source_quote": "Our eternal loss or gain.",
+      "suggested_fix": "Fix agreement and idiomatic phrasing: change to «την αιώνια απώλεια ή το κέρδος μας.» or «την αιώνια απώλεια ή το αιώνιο κέρδος μας.» Preserve punctuation and em-dash if present.",
+      "translation_quote": "Την αιώνια απώλεια ή την κέρδη μας."
+    },
+    {
+      "location": "<div class=\"poem\"> third stanza second line",
+      "severity": "minor",
+      "source_quote": "Lean upon your Savior’s breast;",
+      "suggested_fix": "Use an imperative form and terminal punctuation that matches the English exclamation/command rather than a question mark. Example: «Γείρετε στο στήθος του Σωτήρα σας.» (replace the question mark with a period or exclamation as appropriate).",
+      "translation_quote": "Γείρετε στο στήθος του Σωτήρα σας;"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

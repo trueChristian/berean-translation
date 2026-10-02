@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>...practical and Biblical solutions to avoid or recover from burnout. He writes...</p>",
+      "severity": "minor",
+      "source_quote": "giving us practical and Biblical solutions to avoid or recover from burnout. He writes, “Jesus knows our limitations.",
+      "suggested_fix": "Replace «حلولًا عملية وكتابية» with «حلولًا عملية وكتابية» or better «حلولًا عملية ومستندة إلى الكتاب المقدس» to clearly render \"Biblical\" as relating to Scripture.",
+      "translation_quote": "...معطيًا حلولًا عملية وكتابية لتجنب الاحتراق أو للتعافي منه. يكتب: «يسوع يعرف حدودنا.»"
+    },
+    {
+      "location": "<p>...that will magnify His worthy power and excellence.</p>",
+      "severity": "minor",
+      "source_quote": "which only an Almighty Creator God can arrange in such a way that will magnify His worthy power and excellence.",
+      "suggested_fix": "Adjust wording for clearer, more idiomatic Arabic. Replace «يعظّم قدرته وصلاحيته الجديرتين» with «يعظّم قدرته ومجدَه المستحقّ» or «يعظّم جلاله وقدرته المستحقَّين» to preserve the sense of \"worthy\" applying to God's power and excellence.",
+      "translation_quote": "...خطّة لا يقدر أن يرتبها إلا خالق قدير بحيث يعظّم قدرته وصلاحيته الجديرتين."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

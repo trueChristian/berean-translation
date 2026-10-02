@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Top blockquote (Psalm quotation)",
+      "severity": "minor",
+      "source_quote": "\"O give thanks unto the God of heaven: for His mercy endureth for ever\" —Psalm 136:26",
+      "suggested_fix": "The Spanish is understandable but slightly awkward. Consider a more natural, internationally intelligible rendering while preserving the Scripture: \"Dad gracias al Dios del cielo; porque su misericordia es para siempre.\"",
+      "translation_quote": "\"Dad gracias al Dios del cielo: porque su misericordia es para siempre\" —Salmo 136:26"
+    },
+    {
+      "location": "Paragraph about The Spectator (near: \"cofounded The Spectator magazine, in which this hymn was first published.\")",
+      "severity": "minor",
+      "source_quote": "they cofounded The Spectator magazine, in which this hymn was first published.",
+      "suggested_fix": "Correct the verb form to past tense in Spanish: change \"cofunden la revista The Spectator\" to \"cofundaron la revista The Spectator\" to match the past narration.",
+      "translation_quote": "\"cofunden la revista The Spectator, en la que este himno fue publicado por primera vez.\""
+    },
+    {
+      "location": "Paragraph about his birth (quote translation)",
+      "severity": "minor",
+      "source_quote": "he “appeared weak and unlikely to live\", Mr. Tyers says. And that “he was laid out for dead as soon as he was born.”",
+      "suggested_fix": "The translation is literal but stylistically awkward. For clarity and idiomatic Spanish, consider: \"apareció débil y con pocas probabilidades de vivir\", dice el señor Tyers, y \"fue dado por muerto tan pronto como nació.\"",
+      "translation_quote": "<em>“apareció débil y poco probable que viviera\"</em>, dice el señor Tyers. Y que <em>“fue dado por muerto tan pronto como nació.”</em>"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ece7fb0c-0ab1-4b32-a92d-a7405bd7f10a",
+    "response_id": "chatcmpl-EUWwPlkRWWylWIMqzghc4F0ZFtjE3",
+    "usage": {
+      "completion_tokens": 1069,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5330,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6399
+    }
+  },
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> paragraph: \"Let us focus our attention upon prayerful Paul’s acceptance of God’s “no.”\"",
+        "severity": "minor",
+        "source_quote": "Let us focus our attention upon prayerful Paul’s acceptance of God’s “no.”",
+        "suggested_fix": "Revise the French word order for natural idiomatic flow while preserving meaning. Replace \"Portons notre attention sur l’acceptation du « non » par le Paul fervent en prière.\" with \"Portons notre attention sur l’acceptation du « non » par Paul, fervent en prière.\"",
+        "translation_quote": "Portons notre attention sur l’acceptation du « non » par le Paul fervent en prière."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.section (article metadata)\",\"severity\":\"minor\",\"source_quote\":\"MUSINGS OF A MISSIONARY\",\"suggested_fix\":\"Translate the section metadata into Portuguese to match target-language guidance and keep metadata consistent. For example: \\\"REFLEXÕES DE UM MISSIONÁRIO\\\" or \\\"REFLEXÕES DE UM MISSIONÁRIO\\\" (select preferred capitalization style used on the site). Replace the English value with the chosen Portuguese string in the translation's section field.\",\"translation_quote\":\"MUSINGS OF A MISSIONARY\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 561,
+    "content_evidence_truncated": false,
+    "content_sha256": "4c6e00b2a80ae792e5f0bb11575565ff0791187923fadf03e35e51d2578be76a",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 582,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5254,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5836
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

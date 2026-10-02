@@ -2,7 +2,6 @@
   "article_id": "48db8b57-eca2-4d35-a48f-13c21d68bab0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,58 @@
         },
         "total_tokens": 8953
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1545,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8547,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10092
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Top of article — first paragraph, drop-cap and first word",
+      "severity": "major",
+      "source_quote": "<p class=\"lead\"><span class=\"drop-cap\">I</span> doubt that there is a soul alive that has not been offended at one time or another.</p>",
+      "suggested_fix": "Translate the drop-cap and first-person pronoun into Afrikaans. Replace the English letter I with an Afrikaans drop-cap for Ek and the following word: <span class=\"drop-cap\">E</span> twyfel dat daar ’n siel lewe ...",
+      "translation_quote": "<p class=\"lead\"><span class=\"drop-cap\">I</span> twyfel of daar ’n siel lewe wat nie eendag of andermaal aanstoot geneem het nie.</p>"
+    },
+    {
+      "location": "Paragraph beginning “I therefore, the prisoner of the Lord…” (Efesiërs 4:1-2)",
+      "severity": "major",
+      "source_quote": "“I therefore, the prisoner of the Lord, beseech you that ye walk worthy of the vocation wherewith ye are called...” (Ephesians 4:1-2)",
+      "suggested_fix": "Correct the mistranslation of 'prisoner'. The Afrikaans translation used 'die gevangenis van die Here' (meaning 'the prison of the Lord'). Replace with 'die gevangene van die Here' to convey the intended meaning: “Ek dan, die gevangene van die Here, beveel julle dat julle waardig wandel ...”",
+      "translation_quote": "“Ek dan, die gevangenis van die Here, beveel julle dat julle waardig wandel die roeping waarmee julle geroep is, in alle laagmoedigheid en sagmoedigheid, lankmoedigheid, verdraendheid mekaar in die liefde” (Efesiërs 4:1-2)."
+    },
+    {
+      "location": "Heading and paragraph for 'Walk Circumspectly' (Efesiërs 5:15)",
+      "severity": "major",
+      "source_quote": "<h2>Walk Circumspectly</h2>\n\n<p>“See then that ye walk circumspectly, not as fools, but as wise” (Ephesians 5:15). “Be not children in understanding: howbeit in malice be ye children, but in understanding be men” (1 Corinthians 14:20). ... Circumspect is a compound word formed from the Latin words circum (around) and spectare (to behold). ...</p>",
+      "suggested_fix": "The translated heading 'Loop Oombliklik Vooruitdenkend' and the word 'Oombliklik' are incorrect: 'oombliklik' means 'immediate(ly)'. Use 'Loop Omsigtig' or 'Wandel Omsigtig/Voorzigtig' and render the etymology and explanation accurately. For example: <h2>Loop Omsigtig</h2> and ensure the explanation reads that 'circumspect' comes from Latin circum (om) + spectare (aanskou) and means 'omsigtig' or 'voorzigtig'.",
+      "translation_quote": "<h2>Loop Oombliklik Vooruitdenkend</h2>\n\n<p>“Sien dan dat julle verstandig wandel, nie as dwase maar as wyse” (Efesiërs 5:15). ... Oombliklik is ’n saamgestelde woord gevorm uit die Latynse woorde circum (om) en spectare (aanskou).</p>"
+    },
+    {
+      "location": "References section (end of article)",
+      "severity": "minor",
+      "source_quote": "<section class=\"references\" aria-label=\"Reference\">\n    <ol>\n      <li>Strongs Concordance</li>\n    </ol>\n  </section>",
+      "suggested_fix": "Translate the reference entry into Afrikaans (quoted substantive metadata should be localized). For example: replace 'Strongs Concordance' with 'Strongs Konkordansie' or 'Strongs-Konkoransie' as appropriate for site style.",
+      "translation_quote": "<section class=\"references\" aria-label=\"Reference\">\n    <ol>\n      <li>Strongs Concordance</li>\n    </ol>\n  </section>"
+    }
+  ],
   "id": "783cfbf45c0e4be12478152fadbd258e",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "afr",
@@ -100,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/860ef4183736ed90ffe0410e641004cf07704736a2fe3063f1577a97a4982295.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b25c7ba97f60cd8b593ddd3f02e4c8b5da68408268cf7ae4a26bd9922702c945",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

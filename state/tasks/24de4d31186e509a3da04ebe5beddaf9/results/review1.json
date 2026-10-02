@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1f6d5932-3678-4fec-819d-46166fc24e29",
+    "response_id": "chatcmpl-EUWx1j5zgjpPT5TqkSGBvs8FnGPCC",
+    "usage": {
+      "completion_tokens": 1029,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11032,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12061
+    }
+  },
+  "received_at": "2026-10-02T12:50:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "major",
+        "source_quote": "Burnout",
+        "suggested_fix": "Translate the English title into Urdu. For example, set translation.title to \"برن آؤٹ\" (or another consistent Urdu rendering such as \"بَرن آؤٹ\" or \"فرسودگی\" if the publication prefers). Preserve any exact capitalization or styling rules the CMS requires, but do not leave the title in English.",
+        "translation_quote": "Burnout"
+      },
+      {
+        "location": "section",
+        "severity": "major",
+        "source_quote": "A WORD FROM A DOCTOR",
+        "suggested_fix": "Translate the section/strapline into Urdu. For example, set translation.section to \"ایک ڈاکٹر کی طرف سے\" or \"ایک ڈاکٹر کا پیغام\" depending on house style. Do not leave the section label in English.",
+        "translation_quote": "A WORD FROM A DOCTOR"
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

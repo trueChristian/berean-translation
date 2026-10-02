@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<p>...“A Word From the Doctor” guides us...",
+      "severity": "minor",
+      "source_quote": "“A Word From the Doctor”",
+      "suggested_fix": "将栏目名或专栏标题“A Word From the Doctor”也翻译为中文，并在 HTML 中替换括号内的英文，例如改为““医生的嘱咐”栏目（A Word From the Doctor）”或仅保留中文标题“医生的嘱咐”。保持原有 HTML 标签和结构不变。",
+      "translation_quote": "“医生的嘱咐”（A Word From the Doctor）"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

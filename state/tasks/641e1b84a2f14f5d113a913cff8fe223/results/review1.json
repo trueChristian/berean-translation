@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c536a193-c958-4b84-909a-c3b8ff63ebd9",
+    "response_id": "chatcmpl-EUWw3PgHsWppD8JSn9I44NFjivr1j",
+    "usage": {
+      "completion_tokens": 1006,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1376,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2382
+    }
+  },
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> — tercera estrofa, segundo verso después de la coma",
+        "severity": "major",
+        "source_quote": "There no foe can e’er molest you,",
+        "suggested_fix": "Mantener la misma persona gramatical que el resto del poema (segunda persona plural). Por ejemplo: “Allí ningún enemigo podrá molestaros jamás,” o, si se prefiere español de América y se opta por ustedes: ajustar toda la estrofa para usar \"ustedes\" (ver nota). Reemplace exactamente la frase traducida actual por la forma sugerida y conserve las mismas etiquetas HTML y saltos de línea.",
+        "translation_quote": "Allí ningún enemigo puede molestarnos jamás,"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

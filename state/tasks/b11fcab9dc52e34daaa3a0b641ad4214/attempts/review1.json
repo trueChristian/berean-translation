@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph containing “burnout” (third paragraph)\",\"severity\":\"minor\",\"source_quote\":\"We face burnout.\",\"suggested_fix\":\"Translate the term into Portuguese for clarity and consistency. For example: “Enfrentamos esgotamento (burnout).” or simply “Enfrentamos esgotamento.” Preserve the rest of the sentence and HTML tags.\",\"translation_quote\":\"Enfrentamos burnout.\"},{\"location\":\"Paragraph: “Despite God’s faithfulness... checkbook runs dry” (third paragraph)\",\"severity\":\"minor\",\"source_quote\":\"the checkbook runs dry, the children squabble and cry, and the demands of our schedules have us hopping from one event to the next.\",\"suggested_fix\":\"Use a more idiomatic Portuguese rendering for “the checkbook runs dry.” For example: “o saldo da conta fica zerado, as crianças discutem e choram, e as exigências da nossa agenda nos fazem saltar de um evento ao outro.” This preserves meaning and registers naturally in internationally intelligible Portuguese.\",\"translation_quote\":\"o saldo do banco seca, as crianças discutem e choram, e as exigências da nossa agenda nos fazem saltar de um evento ao outro.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 1187,
+    "content_evidence_truncated": false,
+    "content_sha256": "3c3293512a26fe4a5b598894a0a716f905415d08703172bba08478a8dcb44453",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1104,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2950,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4054
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

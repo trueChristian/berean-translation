@@ -2,7 +2,6 @@
   "article_id": "3c581136-51cf-47b2-a38b-3d1ee1d0b864",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 6762
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1070,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6477,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7547
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>“Shall we call 911?” Ivan headed toward the phone.</p>",
+      "severity": "major",
+      "source_quote": "“Shall we call 911?” Ivan headed toward the phone.",
+      "suggested_fix": "Restore the original emergency number 911 to match the authoritative English text. Replace the translated line with: “Ska vi ringa 911?” Ivan gick mot telefonen.",
+      "translation_quote": "”Ska vi ringa 112?” Ivan gick mot telefonen."
+    },
+    {
+      "location": "<blockquote>\n    <p>Prayer lays hold of God's plan and becomes the link between His will and its accomplishment on earth. Amazing things happen, and we are given the privilege of being the channels of the Holy Spirit's prayer.</p>\n    <p><cite>—Elisabeth Elliot</cite></p>\n  </blockquote>",
+      "severity": "minor",
+      "source_quote": "...being the channels of the Holy Spirit's prayer.",
+      "suggested_fix": "Match the singular/plural nuance of the source. Either translate the singular 'prayer' as singular in Swedish or preserve the nuance intended by the author. Suggested replacement: “...och vi får privilegiet att vara kanaler för Den Heliges bön.”",
+      "translation_quote": "...och vi får privilegiet att vara kanaler för Den Heliges böner."
+    },
+    {
+      "location": "<p>“Did you hear Ivans have a girl?” Her only sister was 14 years old, and the last five babies had been boys.</p>",
+      "severity": "minor",
+      "source_quote": "“Did you hear Ivans have a girl?”",
+      "suggested_fix": "Preserve the English sense that this refers to the family name (the Ivans) rather than the singular 'Ivan'. Suggested replacement: ”Har ni hört att familjen Ivan fått en flicka?” or ”Har ni hört att Ivans har fått en flicka?”",
+      "translation_quote": "”Har ni hört att Ivan har fått en flicka?”"
+    }
+  ],
   "id": "7cf7c1fefc90eebac62425a807754b22",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "swe",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 86,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3eb2e8fac297406d71e2a495d876bb17af55171cebc6261c77bdfbb7e9c2311e.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "f2478f0ee567de50716f2f909dafecb28388c4d5ba9651d1eee51ca0878db9fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

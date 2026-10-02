@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing I Samuel quotation (near beginning of 'У всех есть пределы')",
+      "severity": "minor",
+      "source_quote": "“Ye shall not do so, my brethren, with that which the Lord hath given us, who hath preserved us, and delivered the company that came against us into our hand. For who will hearken unto you in this matter? but as his part is that goeth down to the battle, so shall his part be that tarrieth by the stuff: they shall part alike.” (I Samuel 30:23,24)",
+      "suggested_fix": "In the parenthetical reference replace the English book name/format with the conventional Russian form while keeping chapter and verse numbers unchanged. Example: (1 Царств. 30:23,24).",
+      "translation_quote": "«Не поступайте так, братья мои, с тем, что дал нам Господь, который сохранил нас и предал в руку нашу отряд, пришедший на нас. Кто выслушает вас в этом деле? ведь как доля у того, кто идёт в поход, такова и доля у того, кто остаётся при припасах: они будут делиться поровну.» (I Samuel 30:23,24)"
+    },
+    {
+      "location": "Paragraph quoting Mark 6:46 ('Выделяйте время в одиночестве')",
+      "severity": "minor",
+      "source_quote": "After feeding the multitudes, Mark 6:46 tells of Jesus, “And when he had sent them away, he departed into a mountain to pray.”",
+      "suggested_fix": "Change the parenthetical/reference to the conventional Russian book form. For example: «…Мк. 6:46 рассказывает…» or keep full Russian name: (Марк 6:46). Keep the quoted text in its current Russian translation.",
+      "translation_quote": "После насыщения народов, Марк 6:46 рассказывает, что Иисус «и, отпустив их, отошёл на гору помолиться»."
+    },
+    {
+      "location": "Paragraph referencing Mark 2:27 and Mark 6:31 and other New Testament citations ('Будьте намеренны в отношении отдыха', 'Ставьте первое на первое', and conclusion)",
+      "severity": "minor",
+      "source_quote": "“Sabbath was created for man, not man for the Sabbath” (Mark 2:27).  “Come ye yourselves apart into a desert place, and rest a while” (Mark 6:31).  Jesus tells us that His yoke is easy, and His burden is light (Matt, 11:28-30).  I Corinthians 10:13. Hebrews 13:5.",
+      "suggested_fix": "Normalize all parenthetical Scripture citations to conventional Russian forms and abbreviations while keeping numbers unchanged. Suggested replacements: (Мк. 2:27), (Мк. 6:31), (Мф. 11:28–30) or (Матф. 11:28–30), (1 Кор. 10:13) and (Евр. 13:5). Ensure consistent use throughout the article (do not mix English abbreviations like 'Mark' or 'Matt' with Russian text).",
+      "translation_quote": "«Суббота создана для человека, а не человек для субботы» (Mark 2:27).  «Придите вы сами в уединённое место и отдохните немного» (Mark 6:31).  Иисус говорит, что Его иго легко и ноша Его легка (Matt, 11:28-30).  (I Corinthians 10:13). (Hebrews 13:5)."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

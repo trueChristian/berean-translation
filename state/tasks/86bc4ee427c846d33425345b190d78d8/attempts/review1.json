@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>...practical and Biblical solutions to avoid or recover from burnout. He writes...</p>\",\"severity\":\"minor\",\"source_quote\":\"giving us practical and Biblical solutions to avoid or recover from burnout. He writes, “Jesus knows our limitations.\",\"suggested_fix\":\"Replace «حلولًا عملية وكتابية» with «حلولًا عملية وكتابية» or better «حلولًا عملية ومستندة إلى الكتاب المقدس» to clearly render \\\"Biblical\\\" as relating to Scripture.\",\"translation_quote\":\"...معطيًا حلولًا عملية وكتابية لتجنب الاحتراق أو للتعافي منه. يكتب: «يسوع يعرف حدودنا.»\"},{\"location\":\"<p>...that will magnify His worthy power and excellence.</p>\",\"severity\":\"minor\",\"source_quote\":\"which only an Almighty Creator God can arrange in such a way that will magnify His worthy power and excellence.\",\"suggested_fix\":\"Adjust wording for clearer, more idiomatic Arabic. Replace «يعظّم قدرته وصلاحيته الجديرتين» with «يعظّم قدرته ومجدَه المستحقّ» or «يعظّم جلاله وقدرته المستحقَّين» to preserve the sense of \\\"worthy\\\" applying to God's power and excellence.\",\"translation_quote\":\"...خطّة لا يقدر أن يرتبها إلا خالق قدير بحيث يعظّم قدرته وصلاحيته الجديرتين.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 1463,
+    "content_evidence_truncated": false,
+    "content_sha256": "33c98c1bce503d948a6cc105f3949ec85478005a35f1a64120118558dad8b61f",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1088,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3068,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4156
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

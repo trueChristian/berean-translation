@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<p>While reflecting on solitary aspect paragraph (Mark 6:46) in source.html</p>",
+      "severity": "minor",
+      "source_quote": "\"It is easy to focus on the prayer aspect of this passage, and that is important, but let's focus on the solitary aspect of this experience. Jesus even left His closest followers behind during this time of seeking God’s face.\"",
+      "suggested_fix": "Replace the mistranslated word \"enebolige\" with an idiomatic Norwegian rendering that conveys \"solitary\" or \"being alone\". For example: \"la oss rette oppmerksomheten mot den ensomme siden av denne erfaringen\" or \"...mot den enslige siden av denne erfaringen.\" Preserve surrounding HTML and punctuation exactly as in the translation.",
+      "translation_quote": "\"Det er lett å fokusere på bønnaspektet i denne teksten, og det er viktig, men la oss rette oppmerksomheten mot den enebolige siden av denne erfaringen. Jesus forlot til og med sine nærmeste etterfølgere i denne tiden da han søkte Guds åsyn.\""
+    },
+    {
+      "location": "<figure> (second image alt attribute) in source.html",
+      "severity": "minor",
+      "source_quote": "<img src=\"/images/articles/d0395fde-712d-488d-a161-c26c87ed128b-2.jpg\" alt=\"A hiker with a bright green backpack standing on a mountain summit above clouds\" loading=\"lazy\">",
+      "suggested_fix": "Fix the Norwegian alt text to accurately reflect the English and use correct grammar. Suggested replacement alt: \"En fjellvandrer med en knallgrønn ryggsekk som står på en fjelltopp over skyene\". Preserve the <figure> and <img> tags and attributes other than the alt value.",
+      "translation_quote": "<img src=\"/images/articles/d0395fde-712d-488d-a161-c26c87ed128b-2.jpg\" alt=\"En fottur med en knallgrønn ryggsekk som står på et fjelltoppspå over skyene\" loading=\"lazy\">"
+    },
+    {
+      "location": "<p>Car-acceleration metaphor paragraph</p>",
+      "severity": "minor",
+      "source_quote": "\"It is as though you are in a vehicle traveling 90 mph, and you push the accelerator a little harder, and nothing happens.\"",
+      "suggested_fix": "The translation converted 90 mph into 145 km/t. While localization is permitted, to keep closer fidelity to the author's numeric example you may either (a) keep the original figure in parentheses after the localized number, e.g. \"145 km/t (ca. 90 mph)\", or (b) keep the original 90 mph as-is if the publication prefers not to convert. Make only this narrow change; do not alter the rest of the sentence. Preserve surrounding HTML.",
+      "translation_quote": "\"Det er som om du sitter i et kjøretøy som kjører i 145 km/t, du trykker litt hardere på gasspedalen og ingenting skjer.\""
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

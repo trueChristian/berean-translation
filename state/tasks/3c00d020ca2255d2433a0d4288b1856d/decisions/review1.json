@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<figure> — img alt",
+      "severity": "minor",
+      "source_quote": "A snow-covered road winding through an evergreen forest",
+      "suggested_fix": "Use a more natural, concise Indonesian equivalent for “evergreen forest,” for example: \"Sebuah jalan bersalju yang berkelok melalui hutan hijau sepanjang tahun\" or \"Sebuah jalan bersalju yang berkelok melalui hutan hijau selamanya.\" Keep the rest of the alt text as translated.",
+      "translation_quote": "Sebuah jalan bersalju yang berkelok melalui hutan pohon hijau sepanjang tahun"
+    },
+    {
+      "location": "Poem — first stanza, second line",
+      "severity": "minor",
+      "source_quote": "For the multitude of souls,",
+      "suggested_fix": "Remove the added locational nuance \"di dunia\" to better match the original’s neutral phrasing: \"Bagi banyak jiwa,\"",
+      "translation_quote": "Bagi banyak jiwa di dunia,"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -2,7 +2,6 @@
   "article_id": "48db8b57-eca2-4d35-a48f-13c21d68bab0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,79 @@
         },
         "total_tokens": 9639
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2289,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9231,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11520
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.title",
+      "severity": "major",
+      "source_quote": "Nothing Shall Offend Them",
+      "suggested_fix": "Translate the article title into Modern Standard Arabic, preserving meaning and theology. For example: «لا يَسْتَاءُونَ أَبَدًا» (or another idiomatic Arabic rendering that preserves the original sense). Replace the English title text with the Arabic translation, keeping the title field content only.",
+      "translation_quote": "Nothing Shall Offend Them"
+    },
+    {
+      "location": "source.section",
+      "severity": "minor",
+      "source_quote": "FEATURED ARTICLE",
+      "suggested_fix": "Translate the section/label into Modern Standard Arabic (conventional site label). For example: «مقال مميز». Replace the English label with the Arabic equivalent in the translation field.",
+      "translation_quote": "FEATURED ARTICLE"
+    },
+    {
+      "location": "source.html — paragraph 1 (sentence: \"Ministers of the Gospel today are expected to be soft and effeminate lest they offend their listeners.\")",
+      "severity": "major",
+      "source_quote": "Ministers of the Gospel today are expected to be soft and effeminate lest they offend their listeners.",
+      "suggested_fix": "Render the sentence in accurate, grammatical Modern Standard Arabic while preserving the author's tone and theological meaning. The current translation uses an ungrammatical/awkward plural/dual rendering «لينين ومُدَانِثِينَ». Replace with a clear, grammatical phrase such as: «يُتوقَّع اليوم من خَدَمِ الإنجيل أن يكونوا لينين ومُدَنَّثِينَ لئلا يؤذوا مستمعيهم.» (or «أن يكونوا لِينين ومُدَنَّثين»), ensuring correct agreement and register. Keep the theological assertion intact.",
+      "translation_quote": "يُتوقع اليوم من خدام الإنجيل أن يكونوا لينين ومُدَانِثِينَ لئلا يؤذوا مستمعيهم."
+    },
+    {
+      "location": "source.html — paragraph 1 (sentence: \"the bane of the modern church is not the bold and offensive minister.\")",
+      "severity": "major",
+      "source_quote": "While we certainly must meet people where they are and seek not to offend them, the bane of the modern church is not the bold and offensive minister.",
+      "suggested_fix": "The current Arabic renders this phrase incorrectly as «إن مطرودة الكنيسة الحديثة ليست الخادم الجريء المُسيء.» which changes meaning (مطرودة = 'expelled/banished'). Restore the original sense: that the modern church's problem is not the bold/offensive minister. Suggested Arabic: «بينما لا بدّ أن نلتقي بالناس حيث هم ونسعى ألا نُسيء إليهم، فإن بلاء الكنيسة الحديثة ليس الخادم الجريء المُسيء.» Replace the mistranslated word and ensure the sentence conveys the same theological judgment as the English source.",
+      "translation_quote": "بينما لا بد أن نلتقي بالناس حيث هم ونسعى ألا نُسيء إليهم، فإن مطرودة الكنيسة الحديثة ليست الخادم الجريء المُسيء."
+    },
+    {
+      "location": "source.html — paragraph 3 (Mark 14:27 quote)",
+      "severity": "major",
+      "source_quote": "He informed the inner 12 that had stuck with Him, “All ye shall be offended because of me this night” (Mark 14:27).",
+      "suggested_fix": "The translation rendered this clause inaccurately as ««كلكم اليوم يمكنك أن تتعثروا بي»», which alters both person/tense and nuance. It must faithfully render the quoted Scripture sense in Arabic and place the chapter/verse reference using the conventional Arabic book name. Suggested correction for the quote: «كلُّكم مِنْ أَجْلِي تَتَعَثَّرُونَ اللَّيْلَةَ» (or a conventional Arabic Bible wording), followed by the reference rendered as «(مرقس 14:27)». Ensure the quotation is translated as quoted Scripture in Arabic and preserves the original meaning.",
+      "translation_quote": "«كلكم اليوم يمكنك أن تتعثروا بي» (Mark 14:27)"
+    },
+    {
+      "location": "source.html — all scripture references in parentheses",
+      "severity": "major",
+      "source_quote": "(Matthew 24:10), (Matthew 18:7), (Mark 14:27), (Psalm 119:165), (Matthew 13:20-21), (James 3:2), (Ephesians 4:1-2), (Proverbs 16:18), (Isaiah 57:14-15), (Isaiah 40:31), (Ephesians 5:2-4), (Esther 6:6), (Ephesians 5:8-11), (2 Timothy 4:3-4), (John 16:1-4), (John 5:35), (Luke 7:20-23), (2 Samuel 3:15-16), (1 Peter 2:20), (Ephesians 5:15), (1 Corinthians 14:20), (2 Samuel 6:16), (2 Corinthians 5:13), (2 Samuel 6:23), (Proverbs 18:19), (1 Thessalonians 3:3)",
+      "suggested_fix": "Book names in scripture references should use conventional Modern Standard Arabic book names while keeping chapter/verse numbers and placements unchanged. The translation currently leaves the book names in English (e.g. 'Matthew', 'Mark', 'Psalm', etc.). Replace them with Arabic book names (examples: Matthew=«متى», Mark=«مرقس», Psalm=«مزمور», James=«يعقوب», Ephesians=«أفسس» or «الأفـسـس», Proverbs=«الأمثال», Isaiah=«إشعياء», Esther=«أستير» or «أستير», 2 Timothy=«تيموثاوس الثانية», John=«يوحنا», Luke=«لوقا», 2 Samuel=«صموئيل الثاني», 1 Peter=«بطرس الأولى», 1 Corinthians=«كورنثوس الأولى», 2 Corinthians=«كورنثوس الثانية», 1 Thessalonians=«تسالونيكي الأولى»). Example: (Matthew 24:10) → «(متى 24:10)». Apply consistently to all in-text references. This preserves numbering/placement and matches the requirement that book names be localized.",
+      "translation_quote": "(Matthew 24:10) etc."
+    },
+    {
+      "location": "source.html — paragraph where 'skandalízō' is explained",
+      "severity": "minor",
+      "source_quote": "The Greek word is skandalízō meaning “to scandalize”. In Hebrew, it means “a stumbling block”.",
+      "suggested_fix": "The translation rendered the Greek meaning as «تعني «يُسيئ» أو «يسقط في الزَلَّة»» which is a partial rendering but introduces ambiguity and non-idiomatic phrasing. Also the original says 'In Hebrew, it means “a stumbling block”'—Hebrew word (not provided) should be noted as meaning 'a stumbling block.' Suggested succinct Arabic rendering: «الكلمة اليونانية skandalízō تعني “تُسَيِّئ” أو “تُحْدِثِ عَثرة/تَزْلِّل”. وبالعبريّة تُشير إلى “حَجَرِ عِثْرة” (stumbling block).» Keep the lexical note but clarify idiomatically.",
+      "translation_quote": "الكلمة اليونانية هي skandalízō وتعني «يُسَيِّئ» أو «يَسْقِط في الزَلَّة».<sup>1</sup> بالعبرية تعني «حجر عثرة»."
+    }
+  ],
   "id": "8960908cca4e14332d75cea2563ef808",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ara",
@@ -100,11 +169,13 @@
     }
   },
   "protected": false,
+  "quality_score": 40,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/860ef4183736ed90ffe0410e641004cf07704736a2fe3063f1577a97a4982295.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b25c7ba97f60cd8b593ddd3f02e4c8b5da68408268cf7ae4a26bd9922702c945",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

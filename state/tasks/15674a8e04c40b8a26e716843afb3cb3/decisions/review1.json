@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "<section class=\"lyrics\"> — 4th stanza (original: \"To all my weak complaints and cries / Thy mercy lent an ear, / Ere yet my feeble thoughts had learned, / To form themselves in prayer.\")",
+      "severity": "minor",
+      "source_quote": "To all my weak complaints and cries\nThy mercy lent an ear,\nEre yet my feeble thoughts had learned,\nTo form themselves in prayer.",
+      "suggested_fix": "Keep the meaning but improve Norwegian idiom. Suggested translation: «Til alle mine svake klager og rop\ngav din miskunn øre,\nFør mine svake tanker ennå hadde lært\nå forme seg til bønn.»",
+      "translation_quote": "Til alle mine svake klager og rop\nDin miskunn gav sitt øre,\nFør mine svake tanker ennå lærte\nÅ forme seg i bønn der."
+    },
+    {
+      "location": "<section class=\"lyrics\"> — 5th stanza (original: \"Unnumbered comforts to my soul / Thy tender care bestowed, / Before my infant heart conceived / From Whom those comforts flowed.\")",
+      "severity": "major",
+      "source_quote": "Unnumbered comforts to my soul\nThy tender care bestowed,\nBefore my infant heart conceived\nFrom Whom those comforts flowed.",
+      "suggested_fix": "Current translation contains a mistranslation and an inexplicable word \"nav.\" that distorts meaning. Replace with a faithful Norwegian rendering that preserves the original sense: «Utallige trøster gav din milde omsorg min sjel,\nFør mitt spedbarnshjerte forsto\nFra hvem disse trøster strømmet.»",
+      "translation_quote": "Telløse trøster for min sjel\nDin milde omsorg gav,\nFør mitt spedbarnshjerte forstod\nFra hvem de kom og nav."
+    },
+    {
+      "location": "<p class=\"source-note\"> (end of article)",
+      "severity": "major",
+      "source_quote": "*sourced from Wikipedia and hymnary.org",
+      "suggested_fix": "Translate the source note into Norwegian (article text and metadata must be translated). Suggested translation: \"*kilder: Wikipedia og hymnary.org\"",
+      "translation_quote": "*sourced from Wikipedia and hymnary.org"
+    },
+    {
+      "location": "Paragraph that first names the hymn (second content paragraph): \"Salmen «When All Thy Mercies O My God», skrevet i 1712...\"",
+      "severity": "minor",
+      "source_quote": "The hymn, \"When All Thy Mercies O My God,\" written in 1712, has been published in 994 hymnals...",
+      "suggested_fix": "Either translate the hymn title in-line to Norwegian or present both English and Norwegian title. Suggested in-line form: «salmen «Når alle dine miskunner, min Gud» (originaltittel: \"When All Thy Mercies O My God\"), skrevet i 1712...\"",
+      "translation_quote": "Salmen «When All Thy Mercies O My God», skrevet i 1712, er blitt utgitt i 994 salmebøker..."
+    },
+    {
+      "location": "Several places — awkward or non-idiomatic Norwegian and small typos (e.g., \"Enslig\" -> should be \"Enslig\" or better \"Ugift\")",
+      "severity": "minor",
+      "source_quote": "Being single into his 40s, he had hopes of someday having a happy marriage.",
+      "suggested_fix": "Correct small typos and improve idiomatic Norwegian. E.g.: «Ugift inn i førtiårene hadde han håp om en dag å få et lykkelig ekteskap.»",
+      "translation_quote": "Enslig inn i førtiårene, hadde han håp om en dag å få et lykkelig ekteskap."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

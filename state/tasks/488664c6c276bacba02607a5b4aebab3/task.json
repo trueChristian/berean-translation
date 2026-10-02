@@ -2,7 +2,6 @@
   "article_id": "d2d95264-7df9-4ca8-9a99-01a68204d73a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:56+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 3346
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1010,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3070,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4080
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<article> first paragraph",
+      "severity": "major",
+      "source_quote": "I would sit with the condemned men and listen as they talked of their plight.",
+      "suggested_fix": "Translate the phrase to match the source meaning without adding a specific punishment. Use a neutral term like «السجناء المحكوم عليهم» or «المحكومين» instead of «المحكومين بالإعدام». Preserve sentence structure and meaning.",
+      "translation_quote": "كنت أجلس مع المحكومين بالإعدام وأستمع إليهم وهم يتحدثون عن محنتهم."
+    },
+    {
+      "location": "<article> paragraph quoting Mark 8:34",
+      "severity": "major",
+      "source_quote": "\"Whosoever will come after me, let him deny himself, and take up his cross and follow me\" (Mark 8:34).",
+      "suggested_fix": "Remove the added phrase that is not in the English source. Translate only the cited verse as printed in the source. For example: «قال لهم: إن أراد أحد أن يأتي ورائي فليُنكر نفسه ويحمل صليبه ويتبعني» or simply «إن أراد أحد أن يأتي ورائي فليُنكر نفسه ويحمل صليبه ويتبعني» while keeping the reference (مرقس 8:34).",
+      "translation_quote": "«فقال لجموع الناس ولمعلمين الناموس: إن أراد أحد أن يأتي ورائي فليُنكر نفسه ويحمل صليبه ويتبعني» (مرقس 8:34)."
+    },
+    {
+      "location": "<article> paragraph containing Romans 8:24 explanation",
+      "severity": "minor",
+      "source_quote": "This word hope means \"with anticipation or great expectation.\"",
+      "suggested_fix": "Render the explanatory gloss smoothly in Arabic without repeating the root. For example: «كلمة الرجاء هنا تعني توقّعًا كبيرًا أو ترقّبًا شديدًا.»",
+      "translation_quote": "كلمة الرجاء هنا تعني «بتوقّع أو بتوقع عظيم»."
+    }
+  ],
   "id": "488664c6c276bacba02607a5b4aebab3",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ara",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8a99b566d1f7a4b71f671efc977b9e895b89fc48e4520caf1214f243e2083ab5.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d21eb9a2e384c54d8451d42bc7b07528a6bfe6b701385ff6d901ec268b981022",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

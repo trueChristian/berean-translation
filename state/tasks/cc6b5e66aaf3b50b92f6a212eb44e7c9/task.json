@@ -2,7 +2,6 @@
   "article_id": "21853000-58b7-413f-b119-c9b1a6012369",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:56+00:00",
   "events": [
@@ -24,9 +23,66 @@
         },
         "total_tokens": 7386
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1418,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7108,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8526
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Ordered list (article body, 4th item)",
+      "severity": "minor",
+      "source_quote": "Dominance of certain plants like thorns and thistles",
+      "suggested_fix": "Translate phrase using correct Kiswahili plant terms and sense. Example: “Utegemeo wa mimea fulani kama vishoka na magugu ya thistle” or better “Ukimomonyoka wa mimea fulani kama vishoka na magugu (thistles)” preserving meaning that certain thorny plants became dominant.",
+      "translation_quote": "Utegemeo wa mimea fulani kama vishawishi na vidonge"
+    },
+    {
+      "location": "Section heading (\"Dominance of Thorns and Thistles\")",
+      "severity": "minor",
+      "source_quote": "Dominance of Thorns and Thistles",
+      "suggested_fix": "Use an accurate Kiswahili heading that reflects the English meaning. Example: “Uinukufu wa Visho na Magugu ya Thistle” or “Utegemeo wa Visho na Magugu (Thistles)” to convey dominance of thorny plants.",
+      "translation_quote": "Utegemeo wa Vishawi na Vidonge"
+    },
+    {
+      "location": "Paragraph under \"Distress and Pain\" (list of remedies)",
+      "severity": "minor",
+      "source_quote": "From ancient times, plants, herbs, and other remedies have helped people deal with pain and distress.",
+      "suggested_fix": "Replace the incorrect word “nyanya” (tomato) with an appropriate Kiswahili word for herbs/medicinal plants. Example: “Tangu nyakati za kale, mimea, mimea ya kutibu, na tiba nyingine zimewasaidia watu kushughulikia maumivu na dhiki.”",
+      "translation_quote": "Tangu nyakati za kale, mimea, nyanya, na tiba nyingine zimewasaidia watu kushughulikia maumivu na dhiki."
+    },
+    {
+      "location": "Figure alt text (first image)",
+      "severity": "minor",
+      "source_quote": "Ruins of Hiroshima after the atomic bombing",
+      "suggested_fix": "Correct the alt-text translation to match the English. Example: “Magofu ya Hiroshima baada ya bomu la atomiki” (the original English used the plural \"Ruins\"; the current translation uses the plural but word choice could be tightened). The current translation \"Magofu ya Hiroshima baada ya bomu la atomiki\" is acceptable; if a change is desired: “Magofu ya Hiroshima baada ya upigaji bomu la atomiki.”",
+      "translation_quote": "Magofu ya Hiroshima baada ya bomu la atomiki"
+    },
+    {
+      "location": "Figure alt text (second image)",
+      "severity": "minor",
+      "source_quote": "A pile of green artichokes",
+      "suggested_fix": "Translate the alt text to accurately describe the image. Current translation “Gurudumu la artichokes za kijani” is unnatural (\"gurudumu\" = wheel). Use: “Safu ya artichokes za kijani” or “Kingi ya artichokes za kijani.”",
+      "translation_quote": "Gurudumu la artichokes za kijani"
+    }
+  ],
+  "finished_at": "2026-10-02T12:50:24+00:00",
   "id": "cc6b5e66aaf3b50b92f6a212eb44e7c9",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "swa",
@@ -100,11 +156,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/35b2c7029cc42ee53f5ba53e917d6f4f13fd2ec89b436bb9b340de5e3d8adc44.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "3526d7232367f018301aa220868e7605f6dcc0608e6b2e5d5a6771923f6938fe",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

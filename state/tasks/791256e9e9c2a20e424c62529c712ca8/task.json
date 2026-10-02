@@ -2,7 +2,6 @@
   "article_id": "21853000-58b7-413f-b119-c9b1a6012369",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eef79ccf76a04ad4bffe5661b0adf2c1",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,44 @@
         },
         "total_tokens": 7263
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1304,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6924,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8228
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph beginning \"We read of the beautiful paradise restored...\" (English) / Paragraph beginning \"En effet, la mort n’a pas d’âge...\" (French)",
+      "severity": "critical",
+      "source_quote": "Some of the things he mentions are no sickness, no sorrow, no separation, no tears, no more suffering, and no death.",
+      "suggested_fix": "Restore the negations present in the source. Replace the current French clause that incorrectly affirms suffering and death with a faithful negative listing. For example: « Certaines des choses qu’il mentionne sont : pas de maladie, pas de chagrin, pas de séparation, pas de larmes, plus de souffrance et plus de mort. » is incorrect. Change to: « Certaines des choses qu’il mentionne sont : pas de maladie, pas de chagrin, pas de séparation, pas de larmes, plus de souffrance et pas de mort. » — better: « ... pas de maladie, pas de chagrin, pas de séparation, pas de larmes, plus de souffrance et pas de mort. » However, a clearer faithful rendering preserving all negations is: « ... pas de maladie, pas de chagrin, pas de séparation, pas de larmes, plus de souffrance et pas de mort. » (Alternatively: « ... il n’y aura plus ni maladie, ni chagrin, ni séparation, ni larmes, ni souffrance, ni mort. »). Ensure the sentence conveys the six negative items exactly as in the source.",
+      "translation_quote": "Certaines des choses qu’il mentionne sont : pas de maladie, pas de chagrin, pas de séparation, pas de larmes, plus de souffrance et plus de mort."
+    },
+    {
+      "location": "Paragraph beginning \"We grow the artichoke for its bitter leaves...\" (English) / Paragraph beginning \"Nous cultivons l’artichaut pour ses feuilles amères...\" (French)",
+      "severity": "major",
+      "source_quote": "Think about it: Blessed Thistle, Milk Thistle, Teasel, Raspberry Leaf, and Blackberry roots are only a few examples of members of these “thorny weeds” used for medicinal and other food benefits.",
+      "suggested_fix": "Translate the plant common names into French or provide commonly used French equivalents instead of leaving one name in English. For example: replace the English 'Blessed Thistle' with 'Chardon béni' or the established French common name if available. A suggested corrected French rendering: « Pensez-y : le chardon béni, le chardon‑marie, la cardère (teasel), la feuille de framboisier et les racines de mûrier ne sont que quelques exemples ... » Ensure each listed plant name is rendered into standard French botanical/common names, preserving the original list order and meaning.",
+      "translation_quote": "Réfléchissez : Blessed Thistle, chardon‑marie, teasel, feuille de framboisier et racines de mûrier ne sont que quelques exemples de membres de ces « mauvaises herbes épineuses » utilisés pour des bienfaits médicinaux et alimentaires."
+    }
+  ],
   "id": "791256e9e9c2a20e424c62529c712ca8",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "fra",
@@ -100,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/35b2c7029cc42ee53f5ba53e917d6f4f13fd2ec89b436bb9b340de5e3d8adc44.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "3526d7232367f018301aa220868e7605f6dcc0608e6b2e5d5a6771923f6938fe",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

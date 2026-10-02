@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html: paragraph containing \"Since Ivan was a firefighter\"",
+      "severity": "minor",
+      "source_quote": "Since Ivan was a firefighter, we had an emergency scanner in the house.",
+      "suggested_fix": "Translate the occupation fully into Hebrew and remove the leftover English. Preserve the sentence meaning. Example fix inside the same <p> element: \"מאחר שאיוון היה כבאי, היה לנו בבית סורק מצבי חירום.\"",
+      "translation_quote": "\"כשאיוון כבא firefighter, היה לנו בבית סורק מצבי חירום.\""
+    },
+    {
+      "location": "source.html: paragraph containing \"they asked specifically that the doctors wouldn’t find anything when they did the angiogram\"",
+      "severity": "minor",
+      "source_quote": "They specifically asked that the doctors wouldn’t find anything when they did the angiogram.",
+      "suggested_fix": "Remove the garbled English fragment and use the Hebrew term consistently. Example fix inside the same <p> element: \"הם בקשו במפורש שהרופאים לא ימצאו כלום באנ giogram.\" -> \"הם בקשו במפורש שהרופאים לא ימצאו כלום באנ giוגרמה.\" or better: \"הם בקשו במפורש שהרופאים לא ימצאו כלום באנגיוגרמה.\"",
+      "translation_quote": "\"הם בקשו במפורש שהרופאים לא ימצאו כלום באנ giogram.\""
+    },
+    {
+      "location": "source.html: paragraph describing Judy \"lying on the stretcher, semi-comatose\"",
+      "severity": "major",
+      "source_quote": "By the time we got into a room, Judy had finally stopped seizing. As she lay on the stretcher, semi-comatose, she went into a second, milder seizure.",
+      "suggested_fix": "The translation uses ניידת (vehicle) where the source means 'stretcher' (אלונקה). This changes the meaning and is a substantive error. Replace the word with the correct Hebrew term and retain the rest of the sentence. Example fix inside the same <p> element: \"כשהגענו לחדר, ג'ודי סוף־סוף הפסיקה את ההתקף. כשהיא שוכבה על האלונקה, בחצי־הכרה, היא חוותה התקף שני, קל יותר.\"",
+      "translation_quote": "\"כשגענו לחדר, ג'ודי סוף־סוף הפסיקה את ההתקף. כשהיא שוכבה על הניידת, בחצי־הכרה, היא נפלה להתקף שני, קל יותר.\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
