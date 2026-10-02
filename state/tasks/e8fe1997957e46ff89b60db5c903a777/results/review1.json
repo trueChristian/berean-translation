@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "03dd0aaf-f386-49a9-8b64-f7989db28220",
+    "response_id": "chatcmpl-EUIOsrSRTmgAQeHb5T1nyxetMT5pQ",
+    "usage": {
+      "completion_tokens": 1165,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3075,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4240
+    }
+  },
+  "received_at": "2026-10-02T00:07:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"drop-cap\"> (first paragraph, translation)",
+        "severity": "minor",
+        "source_quote": "I brushed shoulders with well-known authors such as Katrina Hoover Lee, Johnny Miller, and Ruthann Stelfox.",
+        "suggested_fix": "Replace the awkward literal phrasing with an idiomatic Swedish equivalent while preserving HTML structure. Example: Jag stod axel mot axel med välkända författare som Katrina Hoover Lee, Johnny Miller och Ruthann Stelfox.",
+        "translation_quote": "Jag råkade borra axlar med välkända författare som Katrina Hoover Lee, Johnny Miller och Ruthann Stelfox."
+      },
+      {
+        "location": "<p class=\"drop-cap\"> (second paragraph, translation)",
+        "severity": "minor",
+        "source_quote": "I chatted with aspiring writers and seasoned school teachers.",
+        "suggested_fix": "Remove the incorrect space in 'skol lärare' to form the idiomatic compound word 'skollärare' or preferably 'erfarna lärare'. Preserve HTML tags. Example: Jag samtalade med aspirerande skribenter och erfarna lärare.",
+        "translation_quote": "Jag samtalade med aspirerande skribenter och erfarna skol lärare."
+      },
+      {
+        "location": "<p><em>The Heartbeat of the Remnant</em> ...</p> (third paragraph, translation)",
+        "severity": "minor",
+        "source_quote": "Youth encouraging fellow youth to press toward the mark of the prize of the high calling in Christ Jesus.",
+        "suggested_fix": "Use a more natural Swedish phrasing for 'fellow youth'. Suggested replacement while preserving tags: Ungdomar som uppmuntrar andra ungdomar att sträva mot målet och priset för den höga kallelsen i Kristus Jesus.",
+        "translation_quote": "Ungdomar som uppmuntrar medungdomar att sträva mot målet och priset för den höga kallelsen i Kristus Jesus."
+      },
+      {
+        "location": "<p class=\"book-list\"> (book list paragraph, translation)",
+        "severity": "minor",
+        "source_quote": "The High Cost of Holistic Healing",
+        "suggested_fix": "Use a consistent Swedish rendering for 'holistic healing'. Either translate both words or keep the original English term consistently. Suggested fix preserving HTML: Den höga kostnaden för holistisk helande (or Den höga kostnaden för holistisk läkning).",
+        "translation_quote": "Den höga kostnaden för holistisk healing"
+      },
+      {
+        "location": "<figure> <img ... alt=\"...\"> (image alt text, translation)",
+        "severity": "minor",
+        "source_quote": "Pink and white crown vetch flowers in a green meadow",
+        "suggested_fix": "Translate or render the plant name idiomatically in Swedish for clarity, preserving the img tag and alt attribute. Example: alt=\"Rosa och vita kransvickerblommor i en grön äng\". If 'crown vetch' must be kept in English, leave as is but consider adding Swedish common name.",
+        "translation_quote": "Rosa och vita crown vetch-blommor i en grön äng"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

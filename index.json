@@ -4947,6 +4947,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
+      "html_sha256": "600faaa355844a578cdcfa4d6b130c34430145dff2d7c858f42d7ddc378a7b67",
+      "human_reviewed": false,
+      "id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
+      "images": [
+        {
+          "alt": "Rosa och vita crown vetch-blommor i en grön äng",
+          "public_path": "/images/articles/52074824-2feb-4fe4-96d0-a08ec72c3565-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.json",
+      "metadata_sha256": "7abb16ad199b6aa8e168c18e44e63be190d14bc9f0f39c693bdbd5e38ea974e1",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Från REDAKTÖREN",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Från redaktören",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.html",
       "html_sha256": "a42cbee44d0c626bbc1997d2f74cf885464e94e3f8fd43545d235e89b6f4700d",
       "human_reviewed": false,
@@ -4970,6 +4998,62 @@
       "status": "ready",
       "subtitle": null,
       "title": "The Sands of Time Are SINKING",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.html",
+      "html_sha256": "e9bab3a6f99448636ebf9c9aff73f83edeb965f1e0f723dc612f5c3b5b4c3bb9",
+      "human_reviewed": false,
+      "id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
+      "images": [
+        {
+          "alt": "En kopp kaffe bredvid ett spiralblock och en blyertspenna.",
+          "public_path": "/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.json",
+      "metadata_sha256": "b8b3efc645d353bd698ad073c4ddadca9dfc68e01e8502c24a7b76159ae7972c",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SISTER TO SISTER",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Prokrastinering överbelastning",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
+      "html_sha256": "363bacc723e7ee618be32329565652025db6f091ecc9e796a94af428ffb72cd6",
+      "human_reviewed": false,
+      "id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
+      "images": [
+        {
+          "alt": "En smal stig som slingrar genom ett lövigt skogslandskap",
+          "public_path": "/images/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.json",
+      "metadata_sha256": "7cc1eaaee025dd4f4e4b0afdbde2171d4d74def1fd6340c198ae01109c3a4a09",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Barnens hörna",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Jamin blir klokare",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -5002,6 +5086,62 @@
       "status": "ready",
       "subtitle": null,
       "title": "Ken och jag",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
+      "html_sha256": "9b4c444dffb09c90c9c818d5254eef718a45ef2dd0b58b1a5fd3eb98060019b8",
+      "human_reviewed": false,
+      "id": "db7b1129-282d-4f48-aefa-f839cb585426",
+      "images": [
+        {
+          "alt": "En följd av plantor som kommer upp ur jorden medan en hand vattnar dem",
+          "public_path": "/images/articles/db7b1129-282d-4f48-aefa-f839cb585426-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/db7b1129-282d-4f48-aefa-f839cb585426.json",
+      "metadata_sha256": "a82cd1fdf0e8944eb2e314470f8224869c795963adaf1f352b3cdd743fc2aa86",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "MUSINGS OF A MISSIONARY",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Den kristna humanisten",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.html",
+      "html_sha256": "867ad9d77770b1d489fa6f4c41fbef6a2b83151f78df0dc1c8974a430e44f3e9",
+      "human_reviewed": false,
+      "id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
+      "images": [
+        {
+          "alt": "En liten båt vid kanten av stilla vatten under en sprakande solnedgång",
+          "public_path": "/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.json",
+      "metadata_sha256": "2b28e1094426eb7f15286e599e72da28790142b6b34ef96b890425c81034ea9e",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Dikt",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Stå upp, var glad",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {

@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6915e122-f6eb-4764-887c-d69a88119a7a",
+    "response_id": "chatcmpl-EUIOaKdIam4bSbaTNuTClGAYTzWvx",
+    "usage": {
+      "completion_tokens": 1601,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12130,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13731
+    }
+  },
+  "received_at": "2026-10-02T00:07:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Adam och Eva hade aldrig haft någon följeslagare förut. Adam och Eva hade aldrig låtit hjärtats känslor gå före. Något hände i Adam och Evas hjärtan. Adam var en ”ensiktsman” och Eva var en ”ensflicka”. De gav aldrig sina hjärtas passioner till någon annan. Gud har den planen för oss också. Guds plan för med sig välsignelser.</p>",
+        "severity": "major",
+        "source_quote": "Adam was a “one-woman man,” and Eve was a “one-man woman.”",
+        "suggested_fix": "Replace the two neologisms with a clear Swedish equivalent that preserves the English idiom and meaning. For example: \"Adam var en man trogen endast en kvinna, och Eva var en kvinna trogen endast en man.\" Preserve the surrounding HTML tags and punctuation.",
+        "translation_quote": "Adam var en ”ensiktsman” och Eva var en ”ensflicka”. De gav aldrig sina hjärtas passioner till någon annan. Gud har den planen för oss också. Guds plan för med sig välsignelser."
+      },
+      {
+        "location": "<h2>Five goals for this Christ-Centered Courtship series.</h2>",
+        "severity": "minor",
+        "source_quote": "Five goals for this Christ-Centered Courtship series.",
+        "suggested_fix": "Translate the heading into Swedish to match the rest of the article. For example: \"Fem mål för denna serie om Kristuscentrerad förlovning.\" Keep the exact tag <h2> and its position unchanged.",
+        "translation_quote": "Five goals for this Christ-Centered Courtship series."
+      },
+      {
+        "location": "Multiple <h2> headings (e.g. <h2>God’s Plan for Male and Female</h2>, <h2>1) God brings Eve to Adam.</h2>, <h2>2) Leaving and cleaving in unity for life.</h2>, <h2>3) They shall be one flesh.</h2>, <h2>5) God planned for us to have children.</h2>, <h2>7) A godly marriage.</h2>, <h2>8) Being heirs together of the grace of life.</h2>, <h2>9) A blessed and secure home.</h2>, <h2>10) As Christ and the church.</h2>)",
+        "severity": "minor",
+        "source_quote": "(Various English section/subsection headings in source)",
+        "suggested_fix": "Translate these section and subsection headings into Swedish for consistency. Example translations: \"Guds plan för man och kvinna\", \"1) Gud för Eva till Adam\", \"2) Att lämna och hålla fast i livslång enhet\", \"3) De ska vara ett kött\", \"5) Gud planerade att vi skulle få barn\", \"7) Ett gudfruktigt äktenskap\", \"8) Att vara gemena arvingar av livets nåd\", \"9) Ett välsignat och tryggt hem\", \"10) Som Kristus och kyrkan\". Preserve the <h2> tags and their order.",
+        "translation_quote": "(Headings left in English throughout the translation) "
+      },
+      {
+        "location": "Various paragraph-level Bible-quotation attributions and verse references (for example paragraphs quoting Ephesians, Proverbs, Genesis etc.)",
+        "severity": "minor",
+        "source_quote": "Biblical quotations in the source are presented in English (King James-style)",
+        "suggested_fix": "The source uses English Bible quotations; the translation generally preserves those English quotations which is acceptable per instruction. However, for consistency of language in running text you may optionally add short Swedish explanatory lead-ins where currently an English Bible-book name appears in running Swedish text (for example change \"Ephesians 5:21,22,24 says\" to \"Efesierbrevet 5:21, 22, 24 säger\"), while keeping the literal quoted English verses intact. Do not alter the quoted Bible text itself. Preserve HTML structure.",
+        "translation_quote": "The translation retains the English quoted Bible verses and English book names in many places (e.g. \"Ephesians 5:21,22,24 says...\")."
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

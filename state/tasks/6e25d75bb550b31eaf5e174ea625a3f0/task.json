@@ -2,7 +2,6 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8ab2a4a25a19418ba9e3f3a7305c7dcb",
   "campaign": "gh-36910785828",
   "created_at": "2026-10-01T18:59:40+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 3366
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1127,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3178,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4305
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Paragraph: \"Jamin believed Kenny’s lectures with wide-eyed belief.\" (source.html third paragraph)",
+      "severity": "minor",
+      "source_quote": "Jamin believed Kenny’s lectures with wide-eyed belief.",
+      "suggested_fix": "Replace the Swedish word \"predikningar\" with a neutral term that matches the original tone (not religious). For example, change\n\n<p>Jamin trodde på Kennys predikningar med vidöppna ögon.</p>\n\nto\n\n<p>Jamin trodde på Kennys tillsägelser med vidöppna ögon.</p>",
+      "translation_quote": "<p>Jamin trodde på Kennys predikningar med vidöppna ögon. Kenny var tre år äldre än han, så han måste ha rätt.</p>"
+    },
+    {
+      "location": "Paragraph: \"And soon those too had faded leaving behind the musky smell of the woods.\" (source.html long descriptive paragraph about woods)",
+      "severity": "minor",
+      "source_quote": "And soon those too had faded leaving behind the musky smell of the woods.",
+      "suggested_fix": "Correct the possessive and smooth Swedish word order. Replace\n\n<p>Och snart hade även de bleknat och lämnat kvar skogen doft av mossa.</p>\n\nwith\n\n<p>Och snart hade även de bleknat och lämnat kvar skogens doft av mossa.</p>",
+      "translation_quote": "<p>Och snart hade även de bleknat och lämnat kvar skogen doft av mossa.</p>"
+    },
+    {
+      "location": "Paragraph: \"The fall webworms had been at work, and their web curtains shuttered from branches overhead.\" (source.html same woods paragraph)",
+      "severity": "minor",
+      "source_quote": "The fall webworms had been at work, and their web curtains shuttered from branches overhead.",
+      "suggested_fix": "Use a more natural Swedish rendering for \"web curtains\". Replace\n\n<p>Spindelvävssjoken hade gjort sitt, och deras väggar hängde från grenarna ovanför.</p>\n\nwith\n\n<p>Spindelnätens larver hade varit i farten, och deras spindelvävsgardiner hängde från grenarna ovanför.</p>\n\n(or the simpler: \"Spindelnäten hängde från grenarna ovanför.\")",
+      "translation_quote": "<p>Spindelvävssjoken hade gjort sitt, och deras väggar hängde från grenarna ovanför.</p>"
+    }
+  ],
+  "finished_at": "2026-10-02T00:07:47+00:00",
   "id": "6e25d75bb550b31eaf5e174ea625a3f0",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "swe",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/b596380eb43b1f61b245cbcc583535c2c6f4fd72aac508cd4987ebb85e9f1b1f.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

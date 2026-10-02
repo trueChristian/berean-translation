@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ca1fb25f-a5ab-4391-b6d2-581e29dd9a77",
+    "response_id": "chatcmpl-EUIOe921T3s03n1hXQbEMqa0B8JqI",
+    "usage": {
+      "completion_tokens": 813,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6586,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7399
+    }
+  },
+  "received_at": "2026-10-02T00:07:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"drop-cap\"> (first paragraph, brother's quote)",
+        "severity": "minor",
+        "source_quote": "Some plant, some water, but God gives the increase.",
+        "suggested_fix": "Preserve meaning in idiomatic Swedish. Replace the literal word-for-word rendering with a natural equivalent that keeps the original sense, e.g. \"Vissa planterar, vissa vattnar — men Gud ger tillväxten.\"",
+        "translation_quote": "”Viss planta, viss vatten, men Gud ger tillväxten.”"
+      },
+      {
+        "location": "<p> (paragraph about calling the banker)",
+        "severity": "minor",
+        "source_quote": "If he needs money, he goes to the banker.",
+        "suggested_fix": "Use a more natural, contemporary Swedish term. Replace \"bankiren\" with \"banken\" or \"en bank\" or \"banktjänsteman\" to match tone: e.g. \"Behöver han pengar går han till banken.\"",
+        "translation_quote": "\"Behöver han pengar går han till bankiren.\""
+      },
+      {
+        "location": "<figure> <img alt=> (image alt text)",
+        "severity": "minor",
+        "source_quote": "A sequence of seedlings emerging from soil as a hand waters them",
+        "suggested_fix": "Alt text is adequate but could be smoothed for idiomatic Swedish, e.g. \"Följe av plantor som tränger upp ur jorden medan en hand vattnar dem\" or \"Småplantor som kommer upp ur jorden när en hand vattnar dem.\" This is optional and stylistic.",
+        "translation_quote": "\"En följd av plantor som kommer upp ur jorden medan en hand vattnar dem\""
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8ab2a4a25a19418ba9e3f3a7305c7dcb",
   "campaign": "gh-36910785828",
   "created_at": "2026-10-01T18:59:40+00:00",
   "events": [
@@ -24,8 +23,65 @@
         },
         "total_tokens": 3340
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1165,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3075,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4240
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<p class=\"drop-cap\"> (first paragraph, translation)",
+      "severity": "minor",
+      "source_quote": "I brushed shoulders with well-known authors such as Katrina Hoover Lee, Johnny Miller, and Ruthann Stelfox.",
+      "suggested_fix": "Replace the awkward literal phrasing with an idiomatic Swedish equivalent while preserving HTML structure. Example: Jag stod axel mot axel med välkända författare som Katrina Hoover Lee, Johnny Miller och Ruthann Stelfox.",
+      "translation_quote": "Jag råkade borra axlar med välkända författare som Katrina Hoover Lee, Johnny Miller och Ruthann Stelfox."
+    },
+    {
+      "location": "<p class=\"drop-cap\"> (second paragraph, translation)",
+      "severity": "minor",
+      "source_quote": "I chatted with aspiring writers and seasoned school teachers.",
+      "suggested_fix": "Remove the incorrect space in 'skol lärare' to form the idiomatic compound word 'skollärare' or preferably 'erfarna lärare'. Preserve HTML tags. Example: Jag samtalade med aspirerande skribenter och erfarna lärare.",
+      "translation_quote": "Jag samtalade med aspirerande skribenter och erfarna skol lärare."
+    },
+    {
+      "location": "<p><em>The Heartbeat of the Remnant</em> ...</p> (third paragraph, translation)",
+      "severity": "minor",
+      "source_quote": "Youth encouraging fellow youth to press toward the mark of the prize of the high calling in Christ Jesus.",
+      "suggested_fix": "Use a more natural Swedish phrasing for 'fellow youth'. Suggested replacement while preserving tags: Ungdomar som uppmuntrar andra ungdomar att sträva mot målet och priset för den höga kallelsen i Kristus Jesus.",
+      "translation_quote": "Ungdomar som uppmuntrar medungdomar att sträva mot målet och priset för den höga kallelsen i Kristus Jesus."
+    },
+    {
+      "location": "<p class=\"book-list\"> (book list paragraph, translation)",
+      "severity": "minor",
+      "source_quote": "The High Cost of Holistic Healing",
+      "suggested_fix": "Use a consistent Swedish rendering for 'holistic healing'. Either translate both words or keep the original English term consistently. Suggested fix preserving HTML: Den höga kostnaden för holistisk helande (or Den höga kostnaden för holistisk läkning).",
+      "translation_quote": "Den höga kostnaden för holistisk healing"
+    },
+    {
+      "location": "<figure> <img ... alt=\"...\"> (image alt text, translation)",
+      "severity": "minor",
+      "source_quote": "Pink and white crown vetch flowers in a green meadow",
+      "suggested_fix": "Translate or render the plant name idiomatically in Swedish for clarity, preserving the img tag and alt attribute. Example: alt=\"Rosa och vita kransvickerblommor i en grön äng\". If 'crown vetch' must be kept in English, leave as is but consider adding Swedish common name.",
+      "translation_quote": "Rosa och vita crown vetch-blommor i en grön äng"
+    }
+  ],
+  "finished_at": "2026-10-02T00:07:47+00:00",
   "id": "e8fe1997957e46ff89b60db5c903a777",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "swe",
@@ -69,11 +125,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1c01cd25574e3192025b4d55d265b47acaa5a5b7097269f777a351e380328175.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

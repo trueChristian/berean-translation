@@ -2,7 +2,6 @@
   "article_id": "db7b1129-282d-4f48-aefa-f839cb585426",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8ab2a4a25a19418ba9e3f3a7305c7dcb",
   "campaign": "gh-36910785828",
   "created_at": "2026-10-01T18:59:40+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 6838
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 813,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6586,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7399
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<p class=\"drop-cap\"> (first paragraph, brother's quote)",
+      "severity": "minor",
+      "source_quote": "Some plant, some water, but God gives the increase.",
+      "suggested_fix": "Preserve meaning in idiomatic Swedish. Replace the literal word-for-word rendering with a natural equivalent that keeps the original sense, e.g. \"Vissa planterar, vissa vattnar — men Gud ger tillväxten.\"",
+      "translation_quote": "”Viss planta, viss vatten, men Gud ger tillväxten.”"
+    },
+    {
+      "location": "<p> (paragraph about calling the banker)",
+      "severity": "minor",
+      "source_quote": "If he needs money, he goes to the banker.",
+      "suggested_fix": "Use a more natural, contemporary Swedish term. Replace \"bankiren\" with \"banken\" or \"en bank\" or \"banktjänsteman\" to match tone: e.g. \"Behöver han pengar går han till banken.\"",
+      "translation_quote": "\"Behöver han pengar går han till bankiren.\""
+    },
+    {
+      "location": "<figure> <img alt=> (image alt text)",
+      "severity": "minor",
+      "source_quote": "A sequence of seedlings emerging from soil as a hand waters them",
+      "suggested_fix": "Alt text is adequate but could be smoothed for idiomatic Swedish, e.g. \"Följe av plantor som tränger upp ur jorden medan en hand vattnar dem\" or \"Småplantor som kommer upp ur jorden när en hand vattnar dem.\" This is optional and stylistic.",
+      "translation_quote": "\"En följd av plantor som kommer upp ur jorden medan en hand vattnar dem\""
+    }
+  ],
+  "finished_at": "2026-10-02T00:07:47+00:00",
   "id": "c659deb2d55032dff607c2bd384334b9",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "swe",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/42d37805e637e23a1692274ce1d572c4477bd83ecf5cdc4b17503daa38b35aae.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

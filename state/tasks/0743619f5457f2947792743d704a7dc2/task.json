@@ -2,7 +2,6 @@
   "article_id": "1c75dce8-1781-427f-8099-01596d53c2a4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8ab2a4a25a19418ba9e3f3a7305c7dcb",
   "campaign": "gh-36910785828",
   "created_at": "2026-10-01T18:59:40+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 7129
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1665,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6622,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8287
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html paragraph: \"Wander near the nest of a swallow...\" (third full paragraph)",
+      "severity": "major",
+      "source_quote": "Wander near the nest of a swallow and you will find that they have ways of expressing depreciation as well.",
+      "suggested_fix": "Translate the clause to preserve the original meaning about the nest. For example: \"Vandra nära en svalas bo så finner du att de också har sätt att uttrycka förakt.\" (Keep HTML tags and surrounding paragraph text intact.)",
+      "translation_quote": "Vandra nära en svalaunge och du finner att de också har sätt att uttrycka förakt."
+    },
+    {
+      "location": "source.html paragraph: bird-species list (paragraph beginning \"It is the nature of the birds to sing.\")",
+      "severity": "major",
+      "source_quote": "The song of the wren trumps them all for longevity and vibrancy.",
+      "suggested_fix": "Correct the bird species name to match the source (\"wren\") rather than translating to a different species. For example: replace the incorrect Swedish bird name with a correct Swedish equivalent for 'wren' (gärdsmyg) so the sentence reads: \"Gärdsmygens sång slår dem alla vad gäller livslängd och livskraft.\" (Preserve surrounding tags and punctuation.)",
+      "translation_quote": "Kungsfågelns sång slår dem alla vad gäller livslängd och livskraft."
+    },
+    {
+      "location": "source.html paragraph: paragraph about \"Neglect\" (mentions cowbird and Philistines/Gen 26:15)",
+      "severity": "major",
+      "source_quote": "The cowbird is also black (the female is brown/gray). ... The Philistines “had filled them with earth” (Gen 26:15).",
+      "suggested_fix": "Restore the correct bird name and the correct people name. 'Cowbird' should not be translated as 'cuckoo' — use an appropriate Swedish rendering (e.g., 'cowbird' can be left as 'cowbird' or described as 'cowbird (Molothrus)'; alternatively use a descriptive phrase). Also correct 'Filerna' to 'Filistéerna' (Philistines) in the Genesis citation. For example: replace \"Cuckoofågeln\" with \"cowbird (cowbird)\" or a Swedish descriptive term, and replace \"Filerna \"had filled them with earth\"\" with \"Filistéerna 'had filled them with earth' (Gen 26:15).\"",
+      "translation_quote": "Cuckoofågeln är också svart (honan är brun/grå). ... Filerna “had filled them with earth” (Gen 26:15)."
+    },
+    {
+      "location": "source.html paragraph: list of \"foul fowl\" (paragraph beginning \"Sin.\")",
+      "severity": "major",
+      "source_quote": "Of such are the worthless blackbirds, starlings, and grackles. The crows show themselves also at the roadside...",
+      "suggested_fix": "Adjust the Swedish rendering to preserve the original species and sense. The translation currently repeats 'star'/'staren' redundantly and renders species inconsistently. Use appropriate Swedish names for the English list (e.g., 'svartfåglar (blackbirds), starar (starlings) och gracklar (grackles)') or keep the English common names in italics/quotes if necessary. Ensure 'crow' is rendered as 'kråkor' as in the source. Example replacement: \"Av sådana är de värdelösa svartfåglarna, stararna och gracklarna. Kråkor visar sig också vid vägkanten...\"",
+      "translation_quote": "Av sådana är de värdelösa stararna, staren och gracklarna. Kråkor visar sig också vid vägkanten, födosökande på ruttnande kadaver."
     }
   ],
   "id": "0743619f5457f2947792743d704a7dc2",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/297bec5eb6130d2e5b99a1b8933e585890e109074aa572a0b93e7208618f72b4.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

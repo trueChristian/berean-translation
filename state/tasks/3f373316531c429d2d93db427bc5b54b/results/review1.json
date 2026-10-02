@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "453c6204-5e64-4f33-b19a-5ecbbbe453f3",
+    "response_id": "chatcmpl-EUIOuOcWdSYapdH3ghhofyxpTAmlA",
+    "usage": {
+      "completion_tokens": 733,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4017,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4750
+    }
+  },
+  "received_at": "2026-10-02T00:07:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Ibland är denna typ av överbelastning inte allmänt känd. Traumatiska händelser i våra närmaste kretsar får ofta bön, ekonomiskt stöd och veckouppdateringar om budgeten. Samtidigt lider andra troende djupt i kulisserna med liten uppriktighet eller ekonomisk hjälp.</p>",
+        "severity": "major",
+        "source_quote": "At the same time, other saints are suffering deeply on the sidelines with little recognition or financial aid.",
+        "suggested_fix": "Replace \"liten uppriktighet eller ekonomisk hjälp\" with wording that accurately reflects the source meaning: e.g. \"med lite erkännande eller ekonomisk hjälp.\" Preserve the surrounding HTML exactly as in the translation and only change the erroneous phrase.",
+        "translation_quote": "Samtidigt lider andra troende djupt i kulisserna med liten uppriktighet eller ekonomisk hjälp."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

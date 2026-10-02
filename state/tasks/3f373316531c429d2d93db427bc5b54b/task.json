@@ -2,7 +2,6 @@
   "article_id": "93978dae-706d-43d4-abee-6b6e011683fa",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8ab2a4a25a19418ba9e3f3a7305c7dcb",
   "campaign": "gh-36910785828",
   "created_at": "2026-10-01T18:59:40+00:00",
   "events": [
@@ -24,6 +23,34 @@
         },
         "total_tokens": 4268
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 733,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4017,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4750
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<p>Ibland är denna typ av överbelastning inte allmänt känd. Traumatiska händelser i våra närmaste kretsar får ofta bön, ekonomiskt stöd och veckouppdateringar om budgeten. Samtidigt lider andra troende djupt i kulisserna med liten uppriktighet eller ekonomisk hjälp.</p>",
+      "severity": "major",
+      "source_quote": "At the same time, other saints are suffering deeply on the sidelines with little recognition or financial aid.",
+      "suggested_fix": "Replace \"liten uppriktighet eller ekonomisk hjälp\" with wording that accurately reflects the source meaning: e.g. \"med lite erkännande eller ekonomisk hjälp.\" Preserve the surrounding HTML exactly as in the translation and only change the erroneous phrase.",
+      "translation_quote": "Samtidigt lider andra troende djupt i kulisserna med liten uppriktighet eller ekonomisk hjälp."
     }
   ],
   "id": "3f373316531c429d2d93db427bc5b54b",
@@ -69,11 +96,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6b48763402450c7e0df39647d2a787036f46aac8668dba9a3257ef7c81d3ee1a.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
