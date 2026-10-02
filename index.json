@@ -363,6 +363,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
+      "html_sha256": "c245d414d0af3ac915b9bacd1a53ba603e8a7a745b30ff6223707890bcd33f8f",
+      "human_reviewed": false,
+      "id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
+      "images": [
+        {
+          "alt": "زهور الكرونة البنفسجية والبيضاء في مرج أخضر",
+          "public_path": "/images/articles/52074824-2feb-4fe4-96d0-a08ec72c3565-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.json",
+      "metadata_sha256": "5409d39571558c7c729c698c17ecd9beb891803acacd61a4a806273b0eda5b49",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "من المحرر",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "من المحرر",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
       "html_sha256": "27f221f11cc2f3a4711fa28f7bd139520b3fe555667daa835cb7b6f7b56f9a2a",
       "human_reviewed": false,

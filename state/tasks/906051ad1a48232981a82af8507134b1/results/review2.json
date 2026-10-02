@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3da23e87-6ced-4d66-a1f0-9de7dbfb4314",
+    "response_id": "chatcmpl-EUINRCVtGHtqjAb6lXi0leddRyLfj",
+    "usage": {
+      "completion_tokens": 998,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2953,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3951
+    }
+  },
+  "received_at": "2026-10-02T00:07:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph 5 (The Berean Voice references)",
+        "severity": "minor",
+        "source_quote": "The Berean Voice has a goal to provide printed material that will help readers navigate through the varied and difficult seasons of life. All our material is available at no charge, but we are dependent on the donations of our supporters.",
+        "suggested_fix": "Preserve the publication name as in the English original. Replace \"صوت البِريان\" with a clearer transliteration or the original English name inside the Arabic text, for example: \"The Berean Voice\" or \"صوت بيريان (The Berean Voice)\" so readers recognize the proper title.",
+        "translation_quote": "صوت البِريان يهدف إلى تقديم مواد مطبوعة تساعد القراء على التنقل عبر فصول الحياة المتنوعة والصعبة. كل موادنا متاحة دون مقابل، لكننا نعتمد على تبرعات داعمينا."
+      },
+      {
+        "location": "source.html figure > img alt attribute",
+        "severity": "minor",
+        "source_quote": "Pink and white crown vetch flowers in a green meadow",
+        "suggested_fix": "Use a clearer, commonly accepted Arabic rendering or transliteration of the plant name. For example: \"زهور الكراون فيتش (وردية وبيضاء) في مرج أخضر\" or simply translate descriptively without inventing a plant name: \"زهور وردية وبيضاء في مرج أخضر\". Keep the alt text concise and faithful to the English.",
+        "translation_quote": "زهور الكرونة البنفسجية والبيضاء في مرج أخضر"
+      },
+      {
+        "location": "source.html paragraph 1 (place name)",
+        "severity": "minor",
+        "source_quote": "The vendors at the Green Dragon Farmer’s Market in Ephrata, PA, were trying their best to entice buyers...",
+        "suggested_fix": "Preserve the English place-name spelling or provide a standard Arabic transliteration. Replace \"إفتراتيا\" with a clearer transliteration such as \"إفراتا (Ephrata, PA)\" or keep the English name \"Ephrata, PA\" to avoid confusion.",
+        "translation_quote": "كان الباعة في سوق المزارعين جرين دراجون في إفتراتيا بولاية بنسلفانيا يحاولون جاهداً جذب المشترين..."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

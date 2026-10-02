@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "37c95f56-846f-4933-8da5-04e18a28850d",
+    "response_id": "chatcmpl-EUINUAL1929CHDM4nUwbYciC0ifBi",
+    "usage": {
+      "completion_tokens": 1470,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3173,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4643
+    }
+  },
+  "received_at": "2026-10-02T00:07:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning \"But Kenny was there.\" (section where Jamin finds Kenny in the meadow)",
+        "severity": "critical",
+        "source_quote": "But Kenny was there. As Jamin clumped into the meadow, he could see a frustrated heap to his right. The heap’s voice had a familiar ring. The heap’s face was lit in pain. The heap was Kenny. “Are you alright? What happened?” Jamin felt strange, seeing Kenny scrunched in the dirt. Kenny was smart. “Did you step in a trap?”",
+        "suggested_fix": "Use masculine pronouns and adjectives consistently for Kenny. Preserve the sentence structure and HTML tags. For example, replace the Arabic sentences that use feminine markers (ها/تلك/etc.) with masculine markers (ه/ذلك/etc.) so the paragraph reads (keeping HTML tags unchanged): «لكن كيني كان هناك. عندما دخل جامين إلى المرج، رأى هيئة مكوَّمة محبطة إلى يمينه. لصوته رنين مألوف. كان وجهه مضاءً بالألم. كانت تلك الهيئة كيني. «هل أنت بخير؟ ماذا حدث؟» شعر جامين بغرابة وهو يرى كيني مطوياً في التراب. كان كيني ذكياً. «هل خطوت على فخ؟»»",
+        "translation_quote": "لكن كيني كان هناك. عندما دخل جامين إلى المرج، رأى هيئة مكوَّمة محبطة إلى يمينه. لصوتها رنين مألوف. كان وجهها مضاءً بالألم. كانت تلك الهيئة كيني. «هل أنت بخير؟ ماذا حدث؟» شعر جامين بغرابة وهو يرى كيني مطوياً في التراب. كان كيني ذكياً. «هل خطوت على فخ؟»"
+      },
+      {
+        "location": "Paragraph: “Very well, then Jamin would be simple. Kenny would be smart.”",
+        "severity": "minor",
+        "source_quote": "Very well, then Jamin would be simple. Kenny would be smart.",
+        "suggested_fix": "The translation renders \"simple\" as «بسيطاً», which in Arabic can suggest 'plain' or 'uncomplicated' rather than 'not smart'. Use wording that clearly conveys 'not smart' or 'dull' to match the English nuance. Suggested change (preserve tags): replace «فسيبقى جامين بسيطاً.» with «فسيبقى جامين غبياً/غير ذكي.» or better: «فسيُقبَل جامين بأنه غير ذكي.» depending on intended tone.",
+        "translation_quote": "حسناً إذن، سيبقى جامين بسيطاً. سيكون كيني ذكياً."
+      },
+      {
+        "location": "Paragraph describing fall webworms",
+        "severity": "minor",
+        "source_quote": "The fall webworms had been at work, and their web curtains shuttered from branches overhead.",
+        "suggested_fix": "The translation uses «يرقة عناكب الخريف» (lit. 'spider larvae'), which is misleading. \"Fall webworms\" are caterpillars (moth larvae) that make webbed nests. Use a more accurate Arabic term such as «يرقات العنكبوت الشبكية الخريفية» is awkward; better: «يرقات العنكبوتية (التي تصنع خيوطاً) في الخريف» or «يرقات العناكب الشبكية الخريفية». Keep HTML tags and sentence order.",
+        "translation_quote": "كانت يرقة عناكب الخريف قد عملت، وستائر خيوطها تغطي الأغصان فوق الرأس."
+      },
+      {
+        "location": "Paragraph: \"The screen door banged shut as Dad swept across the porch.\"",
+        "severity": "minor",
+        "source_quote": "The odd little band hurried home, and the screen door banged shut as Dad swept across the porch.",
+        "suggested_fix": "The translation renders the action as knocking (طرق) and 'انطلق الأب عبر الشرفة' which softens the sense of the door slamming closed. To match the energetic 'banged shut' and 'swept across the porch', consider: «سارعت الفرقة الصغيرة الغريبة إلى البيت، وارتطم باب الشبك مغلقاً بينما جاب الأب الشرفة» or «وأُغلق باب الشبك بصفعة بينما عبر الأب الشرفة مسرعاً.» Preserve HTML tags.",
+        "translation_quote": "سَرَت الفرقة الصغيرة الغريبة مسرعة إلى البيت، وطرق باب الشبكُ باغِتاً بينما انطلق الأب عبر الشرفة."
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "449b58714d204d7a8d8cde3266d360ca",
   "campaign": "gh-36908432434",
   "created_at": "2026-10-01T18:40:49+00:00",
   "events": [
@@ -62,45 +61,59 @@
         },
         "total_tokens": 5876
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1470,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3173,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4643
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "Paragraph: \"As Jamin clumped into the meadow, he could see a frustrated heap to his right. The heap’s voice had a familiar ring. The heap’s face was lit in pain. The heap was Kenny.\"",
-      "severity": "major",
-      "source_quote": "a frustrated heap",
-      "suggested_fix": "Replace the Arabic 'تلة محبطة' (which means 'hill') with a phrase that conveys a person curled up or a 'mangled/defeated heap' of a person, e.g. 'كتلة محبطة' or better 'هيئة محبطة' or 'مكوَّمٌ محبط' to indicate a person collapsed/curled up. Preserve surrounding punctuation and tags.",
-      "translation_quote": "رأى تلة محبطة إلى يمينه. لصوت التلة رنين مألوف. كان وجه التلة مضاءً بالألم. كانت التلة كيني."
+      "location": "Paragraph beginning \"But Kenny was there.\" (section where Jamin finds Kenny in the meadow)",
+      "severity": "critical",
+      "source_quote": "But Kenny was there. As Jamin clumped into the meadow, he could see a frustrated heap to his right. The heap’s voice had a familiar ring. The heap’s face was lit in pain. The heap was Kenny. “Are you alright? What happened?” Jamin felt strange, seeing Kenny scrunched in the dirt. Kenny was smart. “Did you step in a trap?”",
+      "suggested_fix": "Use masculine pronouns and adjectives consistently for Kenny. Preserve the sentence structure and HTML tags. For example, replace the Arabic sentences that use feminine markers (ها/تلك/etc.) with masculine markers (ه/ذلك/etc.) so the paragraph reads (keeping HTML tags unchanged): «لكن كيني كان هناك. عندما دخل جامين إلى المرج، رأى هيئة مكوَّمة محبطة إلى يمينه. لصوته رنين مألوف. كان وجهه مضاءً بالألم. كانت تلك الهيئة كيني. «هل أنت بخير؟ ماذا حدث؟» شعر جامين بغرابة وهو يرى كيني مطوياً في التراب. كان كيني ذكياً. «هل خطوت على فخ؟»»",
+      "translation_quote": "لكن كيني كان هناك. عندما دخل جامين إلى المرج، رأى هيئة مكوَّمة محبطة إلى يمينه. لصوتها رنين مألوف. كان وجهها مضاءً بالألم. كانت تلك الهيئة كيني. «هل أنت بخير؟ ماذا حدث؟» شعر جامين بغرابة وهو يرى كيني مطوياً في التراب. كان كيني ذكياً. «هل خطوت على فخ؟»"
     },
     {
-      "location": "Paragraph: \"His golden head caught the tired beams that fled from the sun as they flickered through the trees.\"",
-      "severity": "major",
-      "source_quote": "His golden head caught the tired beams",
-      "suggested_fix": "Correct the mistranslation/typo 'احتجزت رأسه الكاْنِية' to convey 'رأسه الذهبي' or 'رأسه الأشقر' depending on intended tone. For example: 'التقطت رأسه الذهبية أشعة الشمس المتعبة...' Keep original sentence structure and punctuation.",
-      "translation_quote": "احتجزت رأسه الكاْنِية أشعة الشمس المتعبة التي كانت تهرب متقطعة عبر الأشجار."
-    },
-    {
-      "location": "Paragraph: \"Jamin bent and found an ankle firmly held in the jaws of a steel trap. Darkness stained the ground around Kenny. Quickly, Jamin’s strong arms pried open the jaws. Kenny reeled free.\"",
-      "severity": "major",
-      "source_quote": "found an ankle firmly held in the jaws of a steel trap",
-      "suggested_fix": "Fix the later sentence that describes seeing the ankle and then lifting Kenny. The current Arabic adds or jumbles words ('راجعاً الكاحل') when describing the father arriving and tending the ankle. Suggest: 'رأى الكاحل ممسوكاً بقوة في فك فخ من الفولاذ. لوّث الظلام الأرض حول كيني. بسرعة، فرَّغت ذراعا جامين القويتان الفكين. انطلق كيني حراً.' and later 'رأى الأب الكاحل وحمّل كيني كخروف مجروح.' Ensure the sequence matches source: father arrives, sees the ankle, scoops up Kenny like a hurt sheep.",
-      "translation_quote": "انحنى جامين ووجد كاحلاً ممسوكاً بقوة في فك فخ فولاذي. لوّث الظلام الأرض حول كيني. بسرعة، فتحت ذراعا جامين القويتان الفكين. انطلق كيني حراً. «هل تستطيع المشي؟» ... نادى جامين بالمقابل، فكان إلى جانبهم في لحظة، راجعا الكاحل وحاملاً كيني كخروف مجروح."
-    },
-    {
-      "location": "Paragraph: \"But Kenny had a way of avoiding earshot. So he continued mocking Jamin.\"",
+      "location": "Paragraph: “Very well, then Jamin would be simple. Kenny would be smart.”",
       "severity": "minor",
-      "source_quote": "avoiding earshot",
-      "suggested_fix": "The Arabic 'كان يجد وسيلة لتفادي السمع' is understandable but slightly awkward. Consider 'كان يجد وسيلة ليبقى خارج متناول السمع' or 'كان يتجنب أن يسمعاه' to be more natural in Arabic.",
-      "translation_quote": "لكن كيني كان يجد وسيلة لتفادي السمع. فاستمر في السخرية من جامين."
+      "source_quote": "Very well, then Jamin would be simple. Kenny would be smart.",
+      "suggested_fix": "The translation renders \"simple\" as «بسيطاً», which in Arabic can suggest 'plain' or 'uncomplicated' rather than 'not smart'. Use wording that clearly conveys 'not smart' or 'dull' to match the English nuance. Suggested change (preserve tags): replace «فسيبقى جامين بسيطاً.» with «فسيبقى جامين غبياً/غير ذكي.» or better: «فسيُقبَل جامين بأنه غير ذكي.» depending on intended tone.",
+      "translation_quote": "حسناً إذن، سيبقى جامين بسيطاً. سيكون كيني ذكياً."
     },
     {
-      "location": "Paragraph: \"He breathed the rich air and followed Kenny’s trail. Eventually, the trail would end up in a meadow...\"",
+      "location": "Paragraph describing fall webworms",
       "severity": "minor",
-      "source_quote": "He breathed the rich air and followed Kenny’s trail.",
-      "suggested_fix": "The Arabic translation is largely correct but 'استنشق الهواء الغني واتبع أثر كيني' is fine; consider 'استنشق الهواء العليل' for a more idiomatic rendering. This is stylistic and optional.",
-      "translation_quote": "استنشق الهواء الغني واتبع أثر كيني."
+      "source_quote": "The fall webworms had been at work, and their web curtains shuttered from branches overhead.",
+      "suggested_fix": "The translation uses «يرقة عناكب الخريف» (lit. 'spider larvae'), which is misleading. \"Fall webworms\" are caterpillars (moth larvae) that make webbed nests. Use a more accurate Arabic term such as «يرقات العنكبوت الشبكية الخريفية» is awkward; better: «يرقات العنكبوتية (التي تصنع خيوطاً) في الخريف» or «يرقات العناكب الشبكية الخريفية». Keep HTML tags and sentence order.",
+      "translation_quote": "كانت يرقة عناكب الخريف قد عملت، وستائر خيوطها تغطي الأغصان فوق الرأس."
+    },
+    {
+      "location": "Paragraph: \"The screen door banged shut as Dad swept across the porch.\"",
+      "severity": "minor",
+      "source_quote": "The odd little band hurried home, and the screen door banged shut as Dad swept across the porch.",
+      "suggested_fix": "The translation renders the action as knocking (طرق) and 'انطلق الأب عبر الشرفة' which softens the sense of the door slamming closed. To match the energetic 'banged shut' and 'swept across the porch', consider: «سارعت الفرقة الصغيرة الغريبة إلى البيت، وارتطم باب الشبك مغلقاً بينما جاب الأب الشرفة» or «وأُغلق باب الشبك بصفعة بينما عبر الأب الشرفة مسرعاً.» Preserve HTML tags.",
+      "translation_quote": "سَرَت الفرقة الصغيرة الغريبة مسرعة إلى البيت، وطرق باب الشبكُ باغِتاً بينما انطلق الأب عبر الشرفة."
     }
   ],
+  "finished_at": "2026-10-02T00:07:20+00:00",
   "id": "a8ac70224e1953fe030e20e03abab01b",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ara",
@@ -144,13 +157,13 @@
     }
   },
   "protected": false,
-  "quality_score": 68,
+  "quality_score": 72,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a7ca25068c1bad9f392aef90030e0bae4b2e168a2dbdfb445b23493e0ef481c1.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
