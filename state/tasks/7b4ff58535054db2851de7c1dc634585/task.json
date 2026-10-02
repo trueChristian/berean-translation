@@ -2,7 +2,6 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "23827da14d4d439c89b32ec0eedb9649",
   "campaign": "gh-36910234395",
   "created_at": "2026-10-01T18:55:44+00:00",
   "events": [
@@ -62,38 +61,29 @@
         },
         "total_tokens": 5999
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 410,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3244,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3654
+      }
     }
   ],
-  "findings": [
-    {
-      "location": "source.html ¶14 (\"The odd little band hurried home, and the screen door banged shut as Dad swept across the porch.\")",
-      "severity": "major",
-      "source_quote": "The odd little band hurried home, and the screen door banged shut as Dad swept across the porch.",
-      "suggested_fix": "Restore the sense of a small group/family hastening home. Keep the original nuance of 'band' (a small group), not 'pair'. For example: \"La piccola e strana combriccola si affrettò verso casa, e la porta a zanzariera sbatté mentre papà attraversava la veranda.\" (preserve HTML structure and punctuation).",
-      "translation_quote": "La strana coppia si affrettò verso casa, e la porta a zanzariera sbatté mentre papà attraversava la veranda."
-    },
-    {
-      "location": "source.html ¶8 (\"The fall webworms had been at work, and their web curtains shuttered from branches overhead.\")",
-      "severity": "minor",
-      "source_quote": "The fall webworms had been at work, and their web curtains shuttered from branches overhead.",
-      "suggested_fix": "Use an idiomatic and accurate Italian rendering for the insect and the webs. For example: \"I bruchi tessitori autunnali avevano lavorato, e le loro tende di ragnatela oscuravano i rami sopra la testa.\" (preserve HTML tags).",
-      "translation_quote": "I bruchi tentori avevano lavorato, e le loro tende di ragnatela oscureggiavano i rami sopra la testa."
-    },
-    {
-      "location": "source.html ¶13 (\"Jamin went to the wash house and scrubbed his hands.\")",
-      "severity": "minor",
-      "source_quote": "Jamin went to the wash house and scrubbed his hands.",
-      "suggested_fix": "'Wash house' is better rendered with a standard Italian term such as \"lavatoio\" or \"locale lavanderia\" depending on intended sense (outbuilding for washing). Suggested: \"Jamin andò al lavatoio e si strofinò le mani.\"",
-      "translation_quote": "Jamin andò alla lavanderia e si lavò le mani."
-    },
-    {
-      "location": "source.html ¶3 (\"Very well, then Jamin would be simple.\")",
-      "severity": "minor",
-      "source_quote": "Very well, then Jamin would be simple.",
-      "suggested_fix": "'Simple' here means 'simple-minded' or 'not clever'; translate in idiomatic Italian to avoid ambiguity. Suggested: \"Va bene, allora Jamin sarebbe stato sempliciotto.\" or \"...considerato un tonto.\"",
-      "translation_quote": "Molto bene, allora Jamin sarebbe stato semplice."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T00:14:33+00:00",
   "id": "7b4ff58535054db2851de7c1dc634585",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ita",
@@ -137,13 +127,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a7ca25068c1bad9f392aef90030e0bae4b2e168a2dbdfb445b23493e0ef481c1.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

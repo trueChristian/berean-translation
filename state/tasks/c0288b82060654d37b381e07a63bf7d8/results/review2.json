@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "623acd7e-cf6e-448b-9ac3-ae589be31187",
+    "response_id": "chatcmpl-EULBUCWswlrN2JJiPjcAcVaHoLrHs",
+    "usage": {
+      "completion_tokens": 2256,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6767,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9023
+    }
+  },
+  "received_at": "2026-10-02T00:14:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"drop-cap\"> (opening anecdote paragraph)",
+        "severity": "major",
+        "source_quote": "“Some plant, some water, but God gives the increase.”",
+        "suggested_fix": "Preserve the original sense and English structure in Italian. Replace the mistranslation that turned the agent into the object with a correct rendition: “Alcuni piantano, alcuni annaffiano, ma è Dio che dà l'aumento.” (keep the punctuation and surrounding HTML exactly as in source)",
+        "translation_quote": "“Alcune piante, un po' d'acqua, ma è Dio che dà l'aumento.”"
+      },
+      {
+        "location": "<p>Mio fratello stava lavorando nella serra quando un cliente entrò ...</p> (same paragraph)",
+        "severity": "minor",
+        "source_quote": "“No, no, don’t give the credit to God. You came out here and did all this work. You planted, watered, and fertilized all these plants, and you all deserve the credit, not God!”",
+        "suggested_fix": "Smooth the awkward, duplicated phrasing while preserving meaning. Replace “siete voi a meritarvi il merito, non Dio!” with “siete voi a meritare il merito, non Dio!” (preserve original punctuation and quotation marks)",
+        "translation_quote": "“No, no, non dare il merito a Dio. Siete stati voi a venire qui e a fare tutto questo lavoro. Avete piantato, annaffiato e concimato tutte queste piante, e siete voi a meritarvi il merito, non Dio!”"
+      },
+      {
+        "location": "<p>...Scienziati in tutto il mondo lavorano diligentemente... (paragraph near middle)</p>",
+        "severity": "minor",
+        "source_quote": "This allows the human race to do as it pleases without eternal consequences. This, in turn leads to a great sense of false peace.",
+        "suggested_fix": "Small fluency edit: change “fare come le pare” to the more natural Italian “fare come preferisce” or “agire come meglio crede” while keeping the original sense. Example fix: “Questo permette alla razza umana di agire come meglio crede senza conseguenze eterne.”",
+        "translation_quote": "“Questo permette alla razza umana di fare come le pare senza conseguenze eterne. Questo, a sua volta, conduce a un grande senso di falsa pace.”"
+      },
+      {
+        "location": "<figure> <img alt=\"...\" /></figure> (image alt)",
+        "severity": "minor",
+        "source_quote": "A sequence of seedlings emerging from soil as a hand waters them",
+        "suggested_fix": "Alt text is adequate but can be slightly refined for idiomatic Italian while keeping original content: e.g. “Una sequenza di piantine che emergono dal terreno mentre una mano le annaffia.” (No HTML structure changes.)",
+        "translation_quote": "\"Una sequenza di piantine che emergono dal terreno mentre una mano le annaffia\""
+      },
+      {
+        "location": "<p>Romans quotation paragraph</p>",
+        "severity": "minor",
+        "source_quote": "(full KJV Romans 1:18-32 quotation as printed in source)",
+        "suggested_fix": "The Italian translation renders the KJV passage into Italian and is largely faithful, but ensure the quoted passage conveys the precise wording and sequence of the English source. If the publication policy prefers preserving English book names, keep the parenthetical reference exactly as in source. No structural HTML change required.",
+        "translation_quote": "“Perché l'ira di Dio si rivela dal cielo contro ogni empietà e ogni ingiustizia degli uomini che tengono la verità nell'ingiustizia; poiché ciò che si può conoscere di Dio è manifesto in loro; infatti Dio lo ha mostrato loro. Le sue cose invisibili, dalla creazione del mondo, si vedono chiaramente, essendo comprese mediante le cose create; così che essi sono senza scusa: perché, pur conoscendo Dio, non lo hanno glorificato come Dio né gli hanno reso grazie, ma si sono sviati nei loro ragionamenti e il loro cuore stolto si è offuscato. Predicendosi sapienti sono diventati stolti e hanno mutato la gloria dell'Iddio incorruttibile in immagine simile a quella dell'uomo corruttibile, e a uccelli e a quadrupedi e a rettili. Perciò Dio li ha dati in preda all'impudicizia, alle concupiscenze dei loro cuori, per disonorare i loro corpi tra loro stessi; essi hanno cambiato la verità di Dio con la menzogna e hanno adorato e servito la creatura più del Creatore, che è benedetto in eterno. Amen. Perciò Dio li ha consegnati a passioni infami; poiché le loro donne hanno mutato l'uso naturale in quello contrario alla natura; e ugualmente anche gli uomini, lasciando l'uso naturale della donna, si sono accesi in lussuria gli uni per gli altri, compiendo atti sconvenienti uomini con uomini e ricevendo in se stessi la giusta ricompensa della loro deviazione. E, siccome non vollero conservare Dio nel loro sapere, Dio li ha abbandonati a una mente disposta al disprezzo, per compiere cose indegne; pieni di ogni ingiustizia, fornicazione, malvagità, cupidigia, malignità; pieni d'invidia, omicidio, contesa, frode, malignità; calunniatori, maligni, odiatori di Dio, superbi, vanagloriosi, ideatori di cose malvagie, disubbidienti ai genitori; privi d'intelligenza, infedeli al patto, senza affetto naturale, implacabili, senza misericordia; i quali, conoscendo il giudizio di Dio, che quelli che fanno tali cose sono degni di morte, non solo le fanno, ma approvano chi le pratica.” (Romans 1:18-32)."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

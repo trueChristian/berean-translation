@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "94a27141-94a2-4e9b-a272-9451ad957c81",
+    "response_id": "chatcmpl-EULCBAunX9i3n7lyiUpbnAee6lqtu",
+    "usage": {
+      "completion_tokens": 1117,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2991,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4108
+    }
+  },
+  "received_at": "2026-10-02T00:14:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<figure> <img alt=\"Pink and white crown vetch flowers in a green meadow\">",
+        "severity": "minor",
+        "source_quote": "Pink and white crown vetch flowers in a green meadow",
+        "suggested_fix": "Translate or localize the plant name while preserving the rest of the alt text and HTML structure. For example: change the img alt to \"Fiori rosa e bianchi di veccia coronata (crown vetch) in un prato verde\" — preserving the <img> tag and other attributes exactly as in the translation.",
+        "translation_quote": "Fiori rosa e bianchi di crown vetch in un prato verde"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

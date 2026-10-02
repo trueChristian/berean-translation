@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "51aa0f98-3f73-4755-b58f-b8404d8cd861",
+    "response_id": "chatcmpl-EULC1txdgySCRKIuWhgyEVNx1JxSK",
+    "usage": {
+      "completion_tokens": 1407,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6731,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8138
+    }
+  },
+  "received_at": "2026-10-02T00:14:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 3 (James 5:13)",
+        "severity": "minor",
+        "source_quote": "\"Is any merry? Let him sing psalms\" (James 5:13).",
+        "suggested_fix": "Remove or adjust the added intensifier so the translation more closely follows the plain sense of the English quote. Suggested wording: «Se qualcuno è allegro, canti salmi» (preserve existing HTML and punctuation).",
+        "translation_quote": "«Se qualcuno è veramente allegro, canti salmi» (Giacomo 5:13)."
+      },
+      {
+        "location": "Paragraph 11 (ellipsis sentence before 'Sin.')",
+        "severity": "minor",
+        "source_quote": "\"Now this should all seem plain enough to understand and easy enough to do but, alas, we find we have a constant and persistent adversary who seeks to thwart our song. We are not unaware of his devices...\"",
+        "suggested_fix": "The English phrase 'We are not unaware of his devices' means 'we know of his devices'. The translation reads 'Non ignoreremo i suoi artifici...' which reads as a future refusal to ignore rather than a present acknowledgment. Recommend: «Non siamo ignari dei suoi artifici...» to match the English sense. Preserve HTML tags.",
+        "translation_quote": "\"Non ignoreremo i suoi artifici...\""
+      },
+      {
+        "location": "Paragraph 14 (Psalm 137 and Jeremiah 29 quote integration)",
+        "severity": "minor",
+        "source_quote": "Psalm 137:2-4 and Jeremiah 29:5-7 appear in English with a specific structure in the source.",
+        "suggested_fix": "The translation renders the quoted verses in Italian paraphrase and in the Jeremiah case expands into a longer, more literal Italian NIV/DR-style quotation. While not doctrinally wrong, ensure the rendering preserves the concise phrasing and verse boundaries of the original English as printed. Suggested adjustment: render Psalm 137:2-4 and Jeremiah 29:5-7 in Italian that closely mirrors the sentence breaks and balance of the English source (keeping the current HTML structure).",
+        "translation_quote": "\"«Appendemmo le nostre cetre ai salici, infatti là quelli che ci rapirono richiedevano da noi un canto, e quelli che ci depredavano richiedevano da noi allegria, dicendo: Cantateci uno dei canti di Sion. Come canteremo il canto del Signore in terra straniera?» (Salmo 137:2-4). ... «Costruite case e abitatele; piantate giardini e mangiatene il frutto. Prendete mogli e generate figli e figlie; prendete figlie per i vostri figli e date le vostre figlie in marito, affinché abbondino e non diminuiscano. Cercate la pace della città dove io vi ho fatti deportare e pregate il Signore per essa; perché nella sua pace avrete pace» (Geremia 29:5-7).\""
+      }
+    ],
+    "passed": true,
+    "score": 95
+  }
+}

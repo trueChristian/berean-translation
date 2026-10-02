@@ -1,0 +1,28 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9c983d14-1724-4418-b75d-c609e466fd7d",
+    "response_id": "chatcmpl-EULC7UvpWnp4iKXJJpzwo4zcgLju9",
+    "usage": {
+      "completion_tokens": 410,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3244,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3654
+    }
+  },
+  "received_at": "2026-10-02T00:14:33+00:00",
+  "result": {
+    "findings": [],
+    "passed": true,
+    "score": 98
+  }
+}

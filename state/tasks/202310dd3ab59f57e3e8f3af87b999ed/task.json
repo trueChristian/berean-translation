@@ -2,7 +2,6 @@
   "article_id": "1c75dce8-1781-427f-8099-01596d53c2a4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "23827da14d4d439c89b32ec0eedb9649",
   "campaign": "gh-36910234395",
   "created_at": "2026-10-01T18:55:44+00:00",
   "events": [
@@ -62,45 +61,51 @@
         },
         "total_tokens": 12201
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1407,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6731,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8138
+      }
     }
   ],
   "findings": [
     {
-      "location": "source.html — paragraph 1 (lead)",
-      "severity": "major",
-      "source_quote": "“Doth not nature itself teach you?”",
-      "suggested_fix": "Translate the quoted English into Italian, preserving the quotation marks and surrounding HTML: replace “Doth not nature itself teach you?” with “«La natura stessa non vi insegna?»”.",
-      "translation_quote": "“Doth not nature itself teach you?”"
-    },
-    {
-      "location": "source.html — multiple paragraphs (Biblical and quoted passages left in English)",
-      "severity": "major",
-      "source_quote": "“Is any merry? Let him sing psalms” (James 5:13).  “And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3).  “But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14).  “Behold, my servants shall sing for joy of heart” (Is 65:14).  “We hanged our harps upon the willows in the midst thereof. For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion. How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4).  “… And seek the peace of the city whither I have caused you to be carried away captives, and pray unto the LORD for it: for in the peace thereof shall ye have peace” (Jer. 29:5-7).  “Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23).",
-      "suggested_fix": "The author’s printed English Bible quotations and long English scripture passages should be rendered into Italian so the translation conveys the printed English content in the target language. Replace each English quotation with an Italian rendering that preserves the original wording and all citation metadata. Example replacements (preserve punctuation and citations):\n- “Is any merry? Let him sing psalms” → “«Se qualcuno è gioioso, canti salmi» (Giacomo 5:13).”\n- “And he hath put a new song in my mouth, even praise unto our God” → “«Egli ha messo nelle mie labbra un cantico nuovo, lode al nostro Dio» (Salmo 40:3).”\n- “But the water that I shall give him shall be in him a well of water springing up into everlasting life” → “«Ma l’acqua che io darò a lui diventerà in lui una sorgente d’acqua che zampilla per la vita eterna» (Giovanni 4:14).”\n- And so on for each quoted passage. Ensure the exact sense of the original English printed quotes is preserved in Italian (do not substitute with a different Bible version’s phrasing).",
-      "translation_quote": "See translation: the listed Bible quotations and long quoted passages remain in English."
-    },
-    {
-      "location": "source.html — paragraphs describing species (multiple)",
-      "severity": "major",
-      "source_quote": "killdeer, song sparrow, rose-breasted grosbeak, wren, canary, nightingale, buntings, cowbird, starlings, grackles, crow(s) — as rendered in the English source text",
-      "suggested_fix": "Translate or localize common bird names into standard contemporary Italian, or provide accepted Italian equivalents in parentheses after the English name. Preserve the original HTML and inline structure. Examples:\n- killdeer → «killdeer (charadrius vociferus / pluvier vociante)» or if a common Italian name is preferred give the nearest equivalent «pluviero chiacchierino (killdeer)»;\n- song sparrow → «song sparrow (passero canoro)» or «passero canoro (song sparrow)»;\n- rose‑breasted grosbeak → «rose‑breasted grosbeak (cardinalide dal petto rosa)» or provide the Italian common name if available;\n- wren → «cettia/zigolo» or the appropriate Italian common name, e.g. «regolo» for wren-like species;\n- nightingale → «usignolo»;\n- bunting → «zigolo/bunt» with specific Italian common name;\n- cowbird → «cowbird (molothrus) / parasita dell’uccello»;\n- starlings → «storni»;\n- grackles → «grackles (quasi-simili al gracco)»;\n- crow(s) → «corvo/i». \n(If the translator is unsure of an exact Italian common name, include the English name in parentheses after the Italian term.)",
-      "translation_quote": "Several species’ common names are left in English in the translation (e.g., killdeer, song sparrow, rose-breasted grosbeak, bunting, cowbird, starlings, grackles)."
-    },
-    {
-      "location": "source.html — multiple paragraphs (book name and book references)",
+      "location": "Paragraph 3 (James 5:13)",
       "severity": "minor",
-      "source_quote": "Revelations (as used throughout source)",
-      "suggested_fix": "Use the standard Italian rendering for the biblical book name. Replace 'Revelations' with 'Apocalisse' (keeping capitalization consistent with the original), and ensure any in-text references to scenes 'in Revelations' read 'nell’Apocalisse' to fit Italian usage. Preserve HTML tags and punctuation.",
-      "translation_quote": "Revelations (left untranslated as 'Revelations')"
+      "source_quote": "\"Is any merry? Let him sing psalms\" (James 5:13).",
+      "suggested_fix": "Remove or adjust the added intensifier so the translation more closely follows the plain sense of the English quote. Suggested wording: «Se qualcuno è allegro, canti salmi» (preserve existing HTML and punctuation).",
+      "translation_quote": "«Se qualcuno è veramente allegro, canti salmi» (Giacomo 5:13)."
     },
     {
-      "location": "source.html — paragraph about robin and other birds",
+      "location": "Paragraph 11 (ellipsis sentence before 'Sin.')",
       "severity": "minor",
-      "source_quote": "The robin opens up the choir in early spring",
-      "suggested_fix": "Check the species name: in English 'robin' typically corresponds to 'pettirosso' in Italian, not 'tordo'. Replace 'Il tordo apre il coro' with 'Il pettirosso apre il coro' unless the author intended 'thrush' (tordo). If the original author meant the American/English robin, use 'pettirosso' (or 'robin (pettirosso)' if clarification is needed). Preserve HTML tags.",
-      "translation_quote": "“Il tordo apre il coro all’inizio della primavera”"
+      "source_quote": "\"Now this should all seem plain enough to understand and easy enough to do but, alas, we find we have a constant and persistent adversary who seeks to thwart our song. We are not unaware of his devices...\"",
+      "suggested_fix": "The English phrase 'We are not unaware of his devices' means 'we know of his devices'. The translation reads 'Non ignoreremo i suoi artifici...' which reads as a future refusal to ignore rather than a present acknowledgment. Recommend: «Non siamo ignari dei suoi artifici...» to match the English sense. Preserve HTML tags.",
+      "translation_quote": "\"Non ignoreremo i suoi artifici...\""
+    },
+    {
+      "location": "Paragraph 14 (Psalm 137 and Jeremiah 29 quote integration)",
+      "severity": "minor",
+      "source_quote": "Psalm 137:2-4 and Jeremiah 29:5-7 appear in English with a specific structure in the source.",
+      "suggested_fix": "The translation renders the quoted verses in Italian paraphrase and in the Jeremiah case expands into a longer, more literal Italian NIV/DR-style quotation. While not doctrinally wrong, ensure the rendering preserves the concise phrasing and verse boundaries of the original English as printed. Suggested adjustment: render Psalm 137:2-4 and Jeremiah 29:5-7 in Italian that closely mirrors the sentence breaks and balance of the English source (keeping the current HTML structure).",
+      "translation_quote": "\"«Appendemmo le nostre cetre ai salici, infatti là quelli che ci rapirono richiedevano da noi un canto, e quelli che ci depredavano richiedevano da noi allegria, dicendo: Cantateci uno dei canti di Sion. Come canteremo il canto del Signore in terra straniera?» (Salmo 137:2-4). ... «Costruite case e abitatele; piantate giardini e mangiatene il frutto. Prendete mogli e generate figli e figlie; prendete figlie per i vostri figli e date le vostre figlie in marito, affinché abbondino e non diminuiscano. Cercate la pace della città dove io vi ho fatti deportare e pregate il Signore per essa; perché nella sua pace avrete pace» (Geremia 29:5-7).\""
     }
   ],
+  "finished_at": "2026-10-02T00:14:33+00:00",
   "id": "202310dd3ab59f57e3e8f3af87b999ed",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ita",
@@ -144,13 +149,13 @@
     }
   },
   "protected": false,
-  "quality_score": 40,
+  "quality_score": 95,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6b4fad51874daab2b26c2a97a4e4c4aa1580e7cb9aed0a786736362fa6dfa46a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

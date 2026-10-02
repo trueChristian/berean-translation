@@ -3771,6 +3771,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
+      "html_sha256": "4bf8c206f6198d3431fe85c996c1ceb3ece761f07aa5215fbbf2acd3f100edbf",
+      "human_reviewed": false,
+      "id": "1c75dce8-1781-427f-8099-01596d53c2a4",
+      "images": [
+        {
+          "alt": "Un piccolo uccellino marrone in piedi su un prato verde",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-1.jpg"
+        },
+        {
+          "alt": "Un uccello bianco e blu appollaiato su un ramo tagliato su uno sfondo verde",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/1c75dce8-1781-427f-8099-01596d53c2a4.json",
+      "metadata_sha256": "ff99902b2f156bbb33113e1b5a0f3266d9f69680461dab1ce7370d287a24fab1",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ARTICOLO IN EVIDENZA",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
+      "status": "ready",
+      "subtitle": "e intorno a me risuona la musica delle sfere.",
+      "title": "TUTTA LA NATURA CANTA",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.html",
       "html_sha256": "c7b62a81a58b2e30b6811d7d3717d9b4798239c1ba68757756b417563dd97937",
       "human_reviewed": false,
@@ -3863,6 +3895,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
+      "html_sha256": "3e4814ea5fd0b0b3ad137f6f8e6021ab261dbafd6d583fb3f629b569f4d3af4e",
+      "human_reviewed": false,
+      "id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
+      "images": [
+        {
+          "alt": "Fiori rosa e bianchi di crown vetch in un prato verde",
+          "public_path": "/images/articles/52074824-2feb-4fe4-96d0-a08ec72c3565-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.json",
+      "metadata_sha256": "a360cc4a4f92c968ea2250f04b12452027762ca299d3f36097a9b410511b1094",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "DALL'EDITORE",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dall'Editore",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "10b87b9f1de4fd8eb020e28500df861754d0c2a75e38109d469fb925b20d9763",
       "human_reviewed": false,
@@ -3942,6 +4002,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Procrastination Overload",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
+      "html_sha256": "c0a7da966b352f0f9cacd664637e641bd5c8ea23455b75e874c346f59a563869",
+      "human_reviewed": false,
+      "id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
+      "images": [
+        {
+          "alt": "Un sentiero stretto che serpeggia tra un folto bosco",
+          "public_path": "/images/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.json",
+      "metadata_sha256": "437a37793a83e564291983417f336cfd05ae8a7cfc4bd92ebc86e4808c605a0e",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Angolo dei bambini",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Jamin si fa più saggio",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {

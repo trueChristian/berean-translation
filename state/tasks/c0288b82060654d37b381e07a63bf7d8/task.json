@@ -2,7 +2,6 @@
   "article_id": "db7b1129-282d-4f48-aefa-f839cb585426",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "23827da14d4d439c89b32ec0eedb9649",
   "campaign": "gh-36910234395",
   "created_at": "2026-10-01T18:55:44+00:00",
   "events": [
@@ -62,31 +61,66 @@
         },
         "total_tokens": 12015
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 2256,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 960,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6767,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9023
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "<p>...In Romans, we read, “For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men... (Romans 1:18-32).</p>",
+      "location": "<p class=\"drop-cap\"> (opening anecdote paragraph)",
       "severity": "major",
-      "source_quote": "For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness; Because that which may be known of God is manifest in them; for God hath shewed it unto them. For the invisible things of him from the creation of the world are clearly seen, being understood by the things that are made, even his eternal power and Godhead; so that they are without excuse: Because that, when they knew God, they glorified him not as God, neither were thankful; but became vain in their imaginations, and their foolish heart was darkened. Professing themselves to be wise, they became fools, And changed the glory of the uncorruptible God into an image made like to corruptible man, and to birds, and fourfooted beasts, and creeping things. Wherefore God also gave them up to uncleanness through the lusts of their own hearts, to dishonour their own bodies between themselves: Who changed the truth of God into a lie, and worshipped and served the creature more than the Creator, who is blessed for ever. Amen. For this cause God gave them up unto vile affections: for even their women did change the natural use into that which is against nature: And likewise also the men, leaving the natural use of the woman, burned in their lust one toward another; men with men working that which is unseemly, and receiving in themselves that recompence of their error which was meet. And even as they did not like to retain God in their knowledge, God gave them over to a reprobate mind, to do those things which are not convenient; Being filled with all unrighteousness, fornication, wickedness, covetousness, maliciousness; full of envy, murder, debate, deceit, malignity; whisperers, Backbiters, haters of God, despiteful, proud, boasters, inventors of evil things, disobedient to parents, Without understanding, covenantbreakers, without natural affection, implacable, unmerciful: Who knowing the judgment of God, that they which commit such things are worthy of death, not only do the same, but have pleasure in them that do them",
-      "suggested_fix": "Replace the English quotation with an Italian rendering that conveys the printed English text, preserving the reference “(Romans 1:18-32)”. For example, keep the surrounding HTML and substitute the English with: “Perché l'ira di Dio si rivela dal cielo contro ogni empietà e ogni ingiustizia degli uomini che tengono la verità nell'ingiustizia; poiché ciò che si può conoscere di Dio è manifesto in loro; infatti Dio lo ha mostrato loro. Le sue cose invisibili, dalla creazione del mondo, si vedono chiaramente, essendo comprese mediante le cose create; così che essi sono senza scusa: perché, pur conoscendo Dio, non lo hanno glorificato come Dio né gli hanno reso grazie, ma si sono sviati nei loro ragionamenti e il loro cuore stolto si è offuscato. Predicendosi sapienti sono diventati stolti e hanno mutato la gloria dell'Iddio incorruttibile in immagine simile a quella dell'uomo corruttibile, e a uccelli e a quadrupedi e a rettili. Perciò Dio li ha dati in preda all'impudicizia, alle concupiscenze dei loro cuori, per disonorare i loro corpi tra loro stessi; essi hanno cambiato la verità di Dio con la menzogna e hanno adorato e servito la creatura più del Creatore, che è benedetto in eterno. Amen. Perciò Dio li ha consegnati a passioni infami; poiché le loro donne hanno mutato l'uso naturale in quello contrario alla natura; e ugualmente anche gli uomini, lasciando l'uso naturale della donna, si sono accesi in lussuria gli uni per gli altri, compiendo atti sconvenienti uomini con uomini e ricevendo in se stessi la giusta ricompensa della loro deviazione. E, siccome non vollero conservare Dio nel loro sapere, Dio li ha abbandonati a una mente disposta al disprezzo, per compiere cose indegne; pieni di ogni ingiustizia, fornicazione, malvagità, cupidigia, malignità; pieni d'invidia, omicidio, contesa, frode, malignità; calunniatori, maligni, odiatori di Dio, superbi, vanagloriosi, ideatori di cose malvagie, disubbidienti ai genitori; privi d'intelligenza, infedeli al patto, senza affetto naturale, implacabili, senza misericordia; i quali, conoscendo il giudizio di Dio, che quelli che fanno tali cose sono degni di morte, non solo le fanno, ma approvano chi le pratica.” Then retain the parenthetical reference “(Romans 1:18-32)” as in the source.",
-      "translation_quote": "“For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men... (Romans 1:18-32).” (English left untranslated in the Italian article)"
+      "source_quote": "“Some plant, some water, but God gives the increase.”",
+      "suggested_fix": "Preserve the original sense and English structure in Italian. Replace the mistranslation that turned the agent into the object with a correct rendition: “Alcuni piantano, alcuni annaffiano, ma è Dio che dà l'aumento.” (keep the punctuation and surrounding HTML exactly as in source)",
+      "translation_quote": "“Alcune piante, un po' d'acqua, ma è Dio che dà l'aumento.”"
     },
     {
-      "location": "<p>...“For by him were all things created, that are in heaven, and that are in earth, visible and invisible... (Colossians 1:16). We are nothing without Him...”</p>",
-      "severity": "major",
-      "source_quote": "For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him",
-      "suggested_fix": "Replace the English quotation with an Italian rendering that conveys the printed English text, preserving the reference “(Colossians 1:16)”. For example, within the same paragraph substitute the quoted English with: “Poiché per lui sono state create tutte le cose, quelle nei cieli e quelle sulla terra, visibili e invisibili, siano esse troni o signorie o principati o potestà; tutte le cose sono state create per mezzo di lui e in vista di lui.” Then keep the parenthetical reference “(Colossians 1:16)” as in the source and the remainder of the paragraph in Italian unchanged.",
-      "translation_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (left in English in the Italian article)"
+      "location": "<p>Mio fratello stava lavorando nella serra quando un cliente entrò ...</p> (same paragraph)",
+      "severity": "minor",
+      "source_quote": "“No, no, don’t give the credit to God. You came out here and did all this work. You planted, watered, and fertilized all these plants, and you all deserve the credit, not God!”",
+      "suggested_fix": "Smooth the awkward, duplicated phrasing while preserving meaning. Replace “siete voi a meritarvi il merito, non Dio!” with “siete voi a meritare il merito, non Dio!” (preserve original punctuation and quotation marks)",
+      "translation_quote": "“No, no, non dare il merito a Dio. Siete stati voi a venire qui e a fare tutto questo lavoro. Avete piantato, annaffiato e concimato tutte queste piante, e siete voi a meritarvi il merito, non Dio!”"
     },
     {
-      "location": "<p>...“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”</p>",
-      "severity": "major",
-      "source_quote": "If the world hate you, ye know that it hated me before it hated you. (John 15:18)",
-      "suggested_fix": "Replace the English quotation with an Italian rendering that conveys the printed English text, preserving the reference “(John 15:18)”. For example, substitute the English with: “Se il mondo vi odia, sappiate che prima ha odiato me che voi.” Then keep the parenthetical reference “(John 15:18)” exactly as in the source (or use the same punctuation placement in Italian) and preserve the surrounding HTML.",
-      "translation_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)” (left in English in the Italian article)"
+      "location": "<p>...Scienziati in tutto il mondo lavorano diligentemente... (paragraph near middle)</p>",
+      "severity": "minor",
+      "source_quote": "This allows the human race to do as it pleases without eternal consequences. This, in turn leads to a great sense of false peace.",
+      "suggested_fix": "Small fluency edit: change “fare come le pare” to the more natural Italian “fare come preferisce” or “agire come meglio crede” while keeping the original sense. Example fix: “Questo permette alla razza umana di agire come meglio crede senza conseguenze eterne.”",
+      "translation_quote": "“Questo permette alla razza umana di fare come le pare senza conseguenze eterne. Questo, a sua volta, conduce a un grande senso di falsa pace.”"
+    },
+    {
+      "location": "<figure> <img alt=\"...\" /></figure> (image alt)",
+      "severity": "minor",
+      "source_quote": "A sequence of seedlings emerging from soil as a hand waters them",
+      "suggested_fix": "Alt text is adequate but can be slightly refined for idiomatic Italian while keeping original content: e.g. “Una sequenza di piantine che emergono dal terreno mentre una mano le annaffia.” (No HTML structure changes.)",
+      "translation_quote": "\"Una sequenza di piantine che emergono dal terreno mentre una mano le annaffia\""
+    },
+    {
+      "location": "<p>Romans quotation paragraph</p>",
+      "severity": "minor",
+      "source_quote": "(full KJV Romans 1:18-32 quotation as printed in source)",
+      "suggested_fix": "The Italian translation renders the KJV passage into Italian and is largely faithful, but ensure the quoted passage conveys the precise wording and sequence of the English source. If the publication policy prefers preserving English book names, keep the parenthetical reference exactly as in source. No structural HTML change required.",
+      "translation_quote": "“Perché l'ira di Dio si rivela dal cielo contro ogni empietà e ogni ingiustizia degli uomini che tengono la verità nell'ingiustizia; poiché ciò che si può conoscere di Dio è manifesto in loro; infatti Dio lo ha mostrato loro. Le sue cose invisibili, dalla creazione del mondo, si vedono chiaramente, essendo comprese mediante le cose create; così che essi sono senza scusa: perché, pur conoscendo Dio, non lo hanno glorificato come Dio né gli hanno reso grazie, ma si sono sviati nei loro ragionamenti e il loro cuore stolto si è offuscato. Predicendosi sapienti sono diventati stolti e hanno mutato la gloria dell'Iddio incorruttibile in immagine simile a quella dell'uomo corruttibile, e a uccelli e a quadrupedi e a rettili. Perciò Dio li ha dati in preda all'impudicizia, alle concupiscenze dei loro cuori, per disonorare i loro corpi tra loro stessi; essi hanno cambiato la verità di Dio con la menzogna e hanno adorato e servito la creatura più del Creatore, che è benedetto in eterno. Amen. Perciò Dio li ha consegnati a passioni infami; poiché le loro donne hanno mutato l'uso naturale in quello contrario alla natura; e ugualmente anche gli uomini, lasciando l'uso naturale della donna, si sono accesi in lussuria gli uni per gli altri, compiendo atti sconvenienti uomini con uomini e ricevendo in se stessi la giusta ricompensa della loro deviazione. E, siccome non vollero conservare Dio nel loro sapere, Dio li ha abbandonati a una mente disposta al disprezzo, per compiere cose indegne; pieni di ogni ingiustizia, fornicazione, malvagità, cupidigia, malignità; pieni d'invidia, omicidio, contesa, frode, malignità; calunniatori, maligni, odiatori di Dio, superbi, vanagloriosi, ideatori di cose malvagie, disubbidienti ai genitori; privi d'intelligenza, infedeli al patto, senza affetto naturale, implacabili, senza misericordia; i quali, conoscendo il giudizio di Dio, che quelli che fanno tali cose sono degni di morte, non solo le fanno, ma approvano chi le pratica.” (Romans 1:18-32)."
     }
   ],
+  "finished_at": "2026-10-02T00:14:33+00:00",
   "id": "c0288b82060654d37b381e07a63bf7d8",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ita",
@@ -136,7 +170,7 @@
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a072a36e6aede6bd6978f7ac04698cebcbcce9571999d9176c58a465e0428962.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
