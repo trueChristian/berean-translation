@@ -208,6 +208,70 @@ class ReferenceNotationTests(unittest.TestCase):
         self.assertEqual(self.references('um 16:30 Uhr', 'deu'), Counter({'16:30': 1}))
         self.assertEqual(self.references('4:30-31'), Counter({'4:30-31': 1}))
 
+    def test_numbered_john_identity_cannot_match_the_gospel_suffix(self):
+        for language, localized in (('deu', 'Johannes'), ('heb', 'יוחנן')):
+            for number in (1, 2, 3):
+                numbered = f'{number}. {localized}' if language == 'deu' else f'{number} {localized}'
+                with self.subTest(language=language, number=number):
+                    self.assert_changed('John 3:16', f'{numbered} 3:16', language)
+                    self.assert_changed(f'{number} John 3:16', f'{localized} 3:16', language)
+                    self.assert_equivalent(f'{number} John 1:1', f'{numbered} 1:1', language)
+                    other = number % 3 + 1
+                    self.assert_changed(f'{other} John 1:1', f'{numbered} 1:1', language)
+            self.assert_changed('John 3:16', f'4. {localized} 3:16', language)
+            self.assert_changed('John 3:16', f'IV {localized} 3:16', language)
+        for target in ('1.Johannes1:1', '1Johannes1:1', '1 Johannes 1:1'):
+            self.assert_equivalent('1John1:1', target, 'deu')
+        self.assert_equivalent('John 1:4', 'יוחנן א׳:4', 'heb')
+        self.assert_changed('1 John 1:4', 'יוחנן א׳:4', 'heb')
+        self.assert_changed('John 1:4', 'יוחנן א׳ 4', 'heb')
+        self.assert_changed('John 1:4', 'יוחנן א׳ 1:4', 'heb')
+        self.assert_changed('John 3:16', 'ב יוחנן 3:16', 'heb')
+        self.assert_equivalent('1John4:19,20', '1John4:19,20', 'heb')
+        # A preceding citation's verse is not an ordinal attached to the book.
+        self.assert_equivalent('Genesis 1:3 John 3:16', '1. Mose 1:3 Johannes 3:16', 'deu')
+
+    def test_bare_german_amounts_outside_parentheses_are_not_citations(self):
+        for target in ('(2,14) Euro', '(2,14)%', '(2,14) EUR', '(2,14) €',
+                       '(2,14) Prozent', '(2,14) kg', '€ (2,14)',
+                       'USD (2,14)', 'Preis (2,14)', '(2,14) ₹'):
+            with self.subTest(target=target):
+                self.assert_changed('(2:14)', target, 'deu')
+                self.assertEqual(self.references(target, 'deu'), Counter())
+        self.assert_equivalent('(2:14) He said', '(2,14) Er sagte', 'deu')
+
+    def test_unmarked_bare_zero_minute_clocks_are_exactly_protected(self):
+        for language in ('deu', 'heb'):
+            for clock in ('9:00', '09:00', '0:00', '00:00', '23:00', '9:01'):
+                with self.subTest(language=language, clock=clock):
+                    self.assert_equivalent(f'Meet at {clock}.', f'Treffen um {clock}.', language)
+            self.assert_changed('Meet at 9:00.', 'Treffen um 9:01.', language)
+            self.assert_changed('Meet at 9:00.', 'Treffen um 10:00.', language)
+        self.assert_changed('John 9:00', 'Johannes 9:00', 'deu')
+        self.assert_changed('John 9:0', 'Johannes 9:0', 'deu')
+        self.assert_changed('9:00', '(9,00)', 'deu')
+
+    def test_unsupported_numeric_continuations_never_truncate_to_a_valid_prefix(self):
+        for tail in ('/19', '+19', ' + 19', '//19', '=19', '*19', '~19',
+                     '^19', '|19', '⁄19', '∕19', '＋19', '.19', ';19', '; 19', '&19', '·19', '／19', '⋅19', '×19', '÷19', '≤19', '⸺19'):
+            with self.subTest(tail=tail):
+                target = f'Matthäus 1,18{tail}'
+                self.assert_changed('Matthew 1:18', target, 'deu')
+                self.assertTrue(any(key.startswith('!invalid[deu]') for key in self.references(target, 'deu')))
+        self.assert_changed('Matthew1:18', 'Matthäus1,18−19', 'deu')
+        self.assert_changed('Matthew1:18', 'מתי א׳:י״ח־י״ט', 'heb')
+        self.assert_equivalent('Matthew1:18-19', 'Matthäus1,18−19', 'deu')
+        self.assert_equivalent('Matthew1:18-19', 'מתי א׳:י״ח־י״ט', 'heb')
+        self.assert_equivalent('Matthew1:18.', 'Matthäus1,18.', 'deu')
+        self.assert_equivalent('Matthew1:18; John3:16', 'Matthäus1,18; Johannes3:16', 'deu')
+        self.assert_equivalent('Matthew1:18; 2:3', 'Matthäus1,18; 2:3', 'deu')
+        self.assert_equivalent('Romans14:17; 1 Corinthians1:2', 'Römer14,17; 1. Korinther1,2', 'deu')
+        self.assert_equivalent('Matthew1:18; 1 Peter1:2', 'Matthäus1,18; 1. Petrus1:2', 'deu')
+        self.assert_equivalent('John1:18; 1 Peter1:2', 'יוחנן א׳:18; 1 פטרוס א׳:2', 'heb')
+        self.assert_equivalent('Matthew1:18. 19 people', 'Matthäus1,18. 19 Menschen', 'deu')
+        self.assert_changed('Matthew1:18', 'מתי א׳:י״ח/י״ט', 'heb')
+        self.assert_changed('Matthew1:18', 'מתי א׳:י״ח;י״ט', 'heb')
+
     def test_unicode_digits_and_typographic_dashes_preserve_input_offsets(self):
         text = '前置 John ٣:١٦–١٨; Psalm 20:7a.'
         mentions = reference_mentions(text, 'eng')
