@@ -12,13 +12,24 @@
       "event": "complete",
       "reason": null,
       "task": "28ddd8acdbe0335e27d7c003bdca5bb6"
+    },
+    {
+      "event": "human_edit_unreviewed",
+      "evidence": {
+        "author": "Roline",
+        "commit": "6ea262964e52624ae3699b9dbcc68ee14730a182",
+        "email": "roline@vdm.io",
+        "time": "2026-10-02T14:49:48+02:00"
+      },
+      "html_sha256": "ed5985fb0a76f37b0b150112b06fc22a7dd3383a7d79dd0df374dae1d136c3c4",
+      "metadata_sha256": "7776e88a88e214752b3ff55c39a1f295e563eff07c1c101844c6577f7c467da3"
     }
   ],
   "language": "afr",
   "latest_task": "28ddd8acdbe0335e27d7c003bdca5bb6",
   "published": {
     "html_path": "content/afr/articles/02db24ae-5132-49c6-a6fd-da73417871e3.html",
-    "html_sha256": "2f099ea956417f5b64a5ae40f24b9685a568d1977920adb6883af03e12cbd419",
+    "html_sha256": "ed5985fb0a76f37b0b150112b06fc22a7dd3383a7d79dd0df374dae1d136c3c4",
     "human_review": null,
     "human_reviewed": false,
     "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
