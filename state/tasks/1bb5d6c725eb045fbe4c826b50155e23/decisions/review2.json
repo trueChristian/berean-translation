@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>…spinning around and around as that angry dog circled her, jumping in at her and nipping at her feet and legs!</p>",
+      "severity": "critical",
+      "source_quote": "“…spinning around and around as that angry dog circled her, jumping in at her and nipping at her feet and legs!”",
+      "suggested_fix": "Translate “nipping at her feet and legs” to a verb that conveys biting/forcibly biting, not kissing. For example: “وہ اُس کے اردگرد چکر لگا رہا تھا، اُس کے پاؤں اور ٹانگوں پر جھپٹ رہا اور اُنہیں ڈنک مار رہا تھا!” Preserve surrounding HTML tags and punctuation exactly.",
+      "translation_quote": "“لات مارتے اور گھومتی ہوئی، جب وہ غصّہ ور کتا اُس کے اردگرد چکر لگا رہا تھا، اُس کے پاؤں اور ٹانگوں پر جھپٹ رہا اور چومنے کی کوشش کر رہا تھا!”"
+    },
+    {
+      "location": "<p>…Mother called after us and reminded us not to loiter along the way.”</p>",
+      "severity": "minor",
+      "source_quote": "“…Mother called after us and reminded us not to loiter along the way.”",
+      "suggested_fix": "The Urdu renders the admonition imprecisely as a suggestion about not wasting time or helping (راستے میں ہاتھ بٹانے یا وقت ضائع نہ کرنے کی نصیحت). Render more closely to the English sense (“not to loiter” = نہ ٹھہرنا/کسی جگہ لڑکھڑانا). For example: “ماں نے پیچھے سے ہمیں بلا کر راستے میں ٹھہرنے یا وقت ضائع کرنے سے روکتے ہوئے کہا۔” Keep existing HTML structure.",
+      "translation_quote": "“تو ماں نے ہمیں ایک ڈھکن دار برتن دیا، اور ہم نے اپنا لمبا سا پیدل سفر شروع کیا جبکہ ماں پیچھے سے ہمیں بلا کر راستے میں ہاتھ بٹانے یا وقت ضائع نہ کرنے کی نصیحت کرتی رہی۔”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

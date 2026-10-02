@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 3 (\"Le père d'Edward...\")",
+      "severity": "minor",
+      "source_quote": "He was a descendant of a distinguished French Huguenot family who had fled to Switzerland and later to England because of the religious persecution in France.",
+      "suggested_fix": "Replace awkward phrasing with a more idiomatic French rendering while preserving meaning. For example: «Il descendait d'une illustre famille huguenote française qui avait fui vers la Suisse puis vers l'Angleterre en raison des persécutions religieuses en France.»",
+      "translation_quote": "Il descendait d'une illustre famille huguenote française qui avait fui en Suisse puis en Angleterre à cause des persécutions religieuses en France."
+    },
+    {
+      "location": "Paragraph 8 (last sentence of Perronet's last words)",
+      "severity": "minor",
+      "source_quote": "Glory to God in His all-sufficiency! Into His hands I commend my spirit.",
+      "suggested_fix": "Adjust wording to a more natural French idiom while preserving theological sense. For example: «Gloire à Dieu pour Sa toute-suffisance ! Entre Ses mains je recommande mon esprit.»",
+      "translation_quote": "Gloire à Dieu dans Sa suffisance totale! Entre Ses mains je recommande mon esprit."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

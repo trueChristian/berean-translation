@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:07:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"First article paragraph (source.html first <p>)\",\"severity\":\"major\",\"source_quote\":\"All Hail the Power of Jesus Name\",\"suggested_fix\":\"Translate the hymn title into Bengali here, preserving that it is the hymn's English title in context. For example: “যীশুর নামে সর্বশক্তিকে শ্রদ্ধা” (or place the translated title in Bengali script) — replacing the English phrase so the quoted substantive prose is rendered in the target language.\",\"translation_quote\":\"All Hail the Power of Jesus Name\"},{\"location\":\"Later narrative paragraph describing the missionary singing (source.html near the end, paragraph with the anecdote about Rev. E.P. Scott)\",\"severity\":\"major\",\"source_quote\":\"All hail the power of Jesus’ name!\",\"suggested_fix\":\"Translate the quoted hymn line into Bengali exactly where it appears in the anecdote, preserving it as quoted substantive prose. For example: “যীশুর নামে সকল শক্তিকে সম্ভাষণ করো!” Replace the English line in the translation with the Bengali rendering.\",\"translation_quote\":\"All hail the power of Jesus’ name!\"},{\"location\":\"Paragraph describing origins and editorship (source.html second paragraph)\",\"severity\":\"minor\",\"source_quote\":\"Rock of Ages\",\"suggested_fix\":\"Translate the hymn title into Bengali (or provide a conventional Bengali rendering) rather than leaving the English title in the body. E.g. use “রক অফ এজেস (Rock of Ages)” or a Bengali equivalent if the publication prefers fully translated hymn titles.\",\"translation_quote\":\"\\\"Rock of Ages\\\"\"},{\"location\":\"Paragraph about the tune 'Diadem' (source.html near tunes paragraph)\",\"severity\":\"minor\",\"source_quote\":\"layman\",\"suggested_fix\":\"Translate the descriptive word 'layman' into Bengali rather than leaving the English term. For example: 'একজন laik ব্যক্তি/সাধারণ লোক' or simply 'অধিকারভুক্ত ব্যক্তির নয়—একজন সাধারন লোক (layman)' depending on style. Keep the name James Ellor unchanged but render the descriptor in Bengali.\",\"translation_quote\":\"layman\"},{\"location\":\"Paragraph recounting John Wesley asking Perronet to preach (source.html paragraph describing pulpit episode)\",\"severity\":\"minor\",\"source_quote\":\"pulpit\",\"suggested_fix\":\"Use the Bengali equivalent for 'pulpit' instead of the English word (e.g., ' pulpit' → 'বক্তৃতাধর্মের pulpit' or better 'প্রবচনীর তকমা/বক্তৃতাগৃহ' but preferably 'ওই সকালে তিনি কাঠের > pulpitte' should be replaced with 'বক্তৃতোপদে/বক্তরাই' ). Ensure the actual Bengali term fits site style; at minimum replace the English form 'pulpitte' with 'পাল্পিট/বক্তৃতাস্হল' spelled appropriately.\",\"translation_quote\":\"pulpitte উঠলেন\"}],\"passed\":false,\"score\":82}",
+    "content_bytes": 3060,
+    "content_evidence_truncated": false,
+    "content_sha256": "89180caf283294c70f778a08c51472555bfffd5f291c3adebde8f190ca1a5574",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1262,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5866,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7128
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

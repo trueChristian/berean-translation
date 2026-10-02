@@ -2,7 +2,6 @@
   "article_id": "f82c479a-345a-4ffa-98d9-f10ddef90777",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "13ec55b413584b4e81cc1b0f52def237",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,39 +61,52 @@
         },
         "total_tokens": 14947
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1336,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8918,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10254
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<p class=\"drop-cap\"> (opening paragraph)",
+      "location": "First paragraph, greeting line",
       "severity": "minor",
-      "source_quote": "Sotegen Van Den Houte of Ghent, Holland was martyred for her faith in the Lord, Jesus Christ.",
-      "suggested_fix": "Preserve the exact printed English proper name throughout the translation. If the English printed form is “Sotegen Van Den Houte” use that same spelling consistently in the Afrikaans text (or reproduce the author’s printed variant in every occurrence).",
-      "translation_quote": "Op 27 November 1560 is Sotegen Van Den Houte van Gent, Holland, vanweë haar geloof in die Here Jesus Christus gemartel."
+      "source_quote": "Grace, peace, and mercy from God, the Father, and the Lord, Jesus Christ, to my dear children, David, Betgen, and Tanneken.",
+      "suggested_fix": "Replace “my meeste geliefde kinders” with the more idiomatic Afrikaans “my mees geliefde kinders” (or simply “my geliefde kinders”). Keep the rest of the sentence as translated.",
+      "translation_quote": "Genade, vrede en goedertierenheid van God die Vader en die Here Jesus Christus aan my dierbare kinders, David, Betgen en Tanneken. Hierdie affektueuse groet, deur julle moeder in boeie geskryf, is ’n gedenkteken van die waarheid aan julle. Ek hoop om met die hulp van die Allerhoogste deur my woorde, my lewe en my dood tot hierdie Waarheid te getuig."
     },
     {
-      "location": "<p><strong>Aanvaar vermaning.</strong> (sentence about instructors)",
-      "severity": "major",
-      "source_quote": "always allow yourselves to be instructed by those who fear the Lord.",
-      "suggested_fix": "Translate the phrase to convey the printed meaning “those who fear the Lord” (people who fear the LORD). Replace the incorrect Afrikaans phrasing “deur die vreeslike van die Here” with a natural, faithful rendering such as “deur dié wat die HERE vrees” or “deur diees wat die Here vrees”. Preserve surrounding HTML tags and punctuation exactly.",
-      "translation_quote": "laat julle altyd deur die vreeslike van die Here onderrig."
-    },
-    {
-      "location": "<p><em>’n Wyse seun <strong>lui</strong> na die vermaning van sy vader: maar ’n verhulder hoor nie bestraffing nie – Spreuke 13:1.</em>",
-      "severity": "major",
+      "location": "Paragraph with Proverbs 13:1 (’n Wyse seun ... )",
+      "severity": "minor",
       "source_quote": "A wise son heareth his father’s instruction: but a scorner heareth not rebuke –Proverbs 13:1.",
-      "suggested_fix": "The key verb in the English is “heareth” and must be translated to an Afrikaans verb meaning “hears/listens to.” Replace the incorrect word “lui” (which means “lazy”) with “luister” or “neem ter harte,” e.g. “’n wyse seun luister na die vermaning van sy vader.” Keep the Scripture reference and structure unchanged.",
-      "translation_quote": "’n Wyse seun <strong>lui</strong> na die vermaning van sy vader: maar ’n verhulder hoor nie bestraffing nie – Spreuke 13:1."
+      "suggested_fix": "Replace “’n verhulder” with the correct sense “’n spotter” or “’n minagter” (spotter/scorner) so the verse conveys the intended meaning. Suggested rendering: “’n Wyse seun luister na die vermaning van sy vader: maar ’n spotter hoor nie bestraffing nie – Spreuke 13:1.”",
+      "translation_quote": "’n Wyse seun luister na die vermaning van sy vader: maar ’n verhulder hoor nie bestraffing nie – Spreuke 13:1."
     },
     {
-      "location": "<p><em>Liegende lippe is ’n gruwel vir die HERE: maar dié wat trou betoon, is Sy welbehae –Spreuke 12:22.</em> (following sentence)",
-      "severity": "major",
-      "source_quote": "I admonish you to beware of lying, since liars have no part in the kingdom of God. –see Revelation 21:8.",
-      "suggested_fix": "The English warns about “liars” (people who lie). The Afrikaans translation incorrectly uses “leiers” (leaders). Replace “leiers” with a faithful rendering for “liars,” such as “leuenaars” or “lyeenaars.” Example fix: “Ek verman julle om op te pas vir leuen, aangesien leuenaars geen deel in die koninkryk van God het nie.” Preserve the Scripture cross-reference unchanged.",
-      "translation_quote": "Ek verman julle om op te pas vir leuen, aangesien leiers geen deel in die koninkryk van God het nie. <em>–sien Openbaring 21:8.</em>"
+      "location": "Paragraph: “Solank julle goeie vermaning en onderrig gehoorsaam, sal God julle Vader wees en julle nie as wees agterlaat nie.”",
+      "severity": "minor",
+      "source_quote": "As long as you obey good admonition and instruction, God will be your Father and not leave you as orphans.",
+      "suggested_fix": "Smooth the Afrikaans phrasing to match the English meaning and idiom. Suggested fix: “Solank julle goeie vermaning en onderrig gehoorsaam, sal God julle Vader wees en julle nie as weeskinders agterlaat nie.” (or “sal God julle Vader wees en julle nie as weeskinders agterlaat nie.”)",
+      "translation_quote": "Solank julle goeie vermaning en onderrig gehoorsaam, sal God julle Vader wees en julle nie as wees agterlaat nie."
     }
   ],
+  "finished_at": "2026-10-02T13:07:11+00:00",
   "id": "6093bf2f01c74a05646dc5796b32ba30",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "afr",
@@ -168,13 +180,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/eccdba3e3a9e4ccc5d82f838542b8fe66f04a1399c4d03991b86efac69021bc9.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "9fe63733192a6c2b1a16992f2a220dd14dbfe93f8ff3f2c18b549b1da7db5b88",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

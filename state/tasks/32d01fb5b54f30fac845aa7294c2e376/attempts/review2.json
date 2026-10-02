@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:07:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>Deze hymne was oorspronkelijk geschreven met de titel “On the Resurrection”, en er waren acht strofen, als volgt:</p>\",\"severity\":\"minor\",\"source_quote\":\"This hymn was originally written having the title, “On the Resurrection,” and there were eight stanzas, as follows:\",\"suggested_fix\":\"Vertaal de Engelse titel “On the Resurrection” naar het Nederlands of markeer het als een originele titel. Bijvoorbeeld: “oorspronkelijk met de titel ‘Over de Opstanding’” of zet het tussen aanhalingstekens en voeg ‘(originele titel)’ toe als u de Engelse vorm wilt behouden.\",\"translation_quote\":\"Deze hymne was oorspronkelijk geschreven met de titel “On the Resurrection”, en er waren acht strofen, als volgt:\"},{\"location\":\"<p>… terwijl de feestelijke melodie “Diadem”, gecomponeerd in 1838 voor deze tekst door James Ellor, een Engelse leek, vaak als koornummer wordt gebruikt. ...</p>\\n<p>Referenties:<br>\\n  ...<br>\\n  “Diadem” Tune -James Elliot, 1838<br>\\n  ...</p>\",\"severity\":\"minor\",\"source_quote\":\"“Diadem” tune, composed in 1838 for this text by James Ellor, an English layman ...\\n\\n“Diadem” Tune -James Elliot, 1838\",\"suggested_fix\":\"Corrigeer de persoonsnaamconsistentie: gebruik overal dezelfde spelling van de componistnaam. Als de juiste naam 'James Ellor' is, wijzig de referentielijst in “Diadem” Tune - James Ellor, 1838. Als het 'Elliot' moet zijn, pas de eerdere vermelding aan. Controleer de betrouwbare bron voor de correcte spelling.\",\"translation_quote\":\"“Diadem”, gecomponeerd in 1838 voor deze tekst door James Ellor, een Engelse leek, ...\\n\\n“Diadem” Tune -James Elliot, 1838\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 1710,
+    "content_evidence_truncated": false,
+    "content_sha256": "2a7ccbb3f8759ec9944a43b5a90bb88582cfef0df3b2d29c608eaed545701f2e",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1214,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5231,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6445
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

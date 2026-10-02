@@ -2,7 +2,6 @@
   "article_id": "34125090-b480-4d63-b13a-33d47470f335",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "13ec55b413584b4e81cc1b0f52def237",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:40+00:00",
   "events": [
@@ -62,53 +61,30 @@
         },
         "total_tokens": 13634
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 474,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8083,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 3840
+        },
+        "total_tokens": 8557
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph with Matthew 3:11-12 (within emphasized quote)",
-      "severity": "major",
-      "source_quote": "Whose fan is in his hand, and he will throughly purge his floor, and gather his wheat into the garner; but he will burn up the chaff with unquenchable fire –Matthew 3:11-12.",
-      "suggested_fix": "Translate the phrase 'Whose fan is in his hand' into idiomatic Dutch; replace 'Zijn wan is in Zijn hand' with 'Zijn waaier/ven (of: Zijn dorswaaier) is in Zijn hand' (choose one idiomatic rendering). Maintain the rest of the verse translation and the Scripture reference exactly as in the source.",
-      "translation_quote": "Zijn wan is in Zijn hand, en Hij zal Zijn dorsvloer grondig zuiveren en Zijn tarwe bijeenbrengen in de schuur; maar Hij zal de kaf met onblusbaar vuur verbranden –Mattheüs 3:11-12."
-    },
-    {
-      "location": "Paragraph describing those who rejected Jesus (following Matthew 3:11-12 block)",
-      "severity": "major",
-      "source_quote": "Those who rejected Him were blown away and disappeared from the narrative.",
-      "suggested_fix": "'Verwierven' is incorrect (means 'acquired'); replace 'Degenen die Hem verwierven, werden weggeblazen' with 'Degenen die Hem verwierven' -> actually should be 'Degenen die Hem verwierven' is wrong. Correct translation: 'Degenen die Hem verwerpen/verwierven' is wrong. Use: 'Degenen die Hem verwierpen, werden weggeblazen en verdwenen uit het verhaal.'",
-      "translation_quote": "Degenen die Hem verwierven, werden weggeblazen en verdwenen uit het verhaal."
-    },
-    {
-      "location": "Paragraph about Luke's account (multiple occurrences of 'Doctor Luke' / 'Artsen-Lukas')",
-      "severity": "minor",
-      "source_quote": "Doctor Luke tells us that Jesus healed her of evil spirits and infirmities.\n...Doctor Luke records an account of a man who was paralyzed.",
-      "suggested_fix": "'Doctor Luke' should be rendered idiomatically in Dutch. Replace 'Artsen-Lukas' with 'Lucas, de dokter' or 'Lucas, de arts' (e.g. 'Lucas vertelt ons dat...'). Preserve the rest of the sentence and Scripture references.",
-      "translation_quote": "Artsen-Lukas vertelt ons dat Jezus haar genas van boze geesten en ziekten.\n...In Lukas 5 geeft Artsen-Lukas een verslag..."
-    },
-    {
-      "location": "Paragraph referring to Calvary (sentence retaining English 'for my sins—for your sins.')",
-      "severity": "critical",
-      "source_quote": "…we behold our dying Lord—bleeding, dying for our sins—for my sins—for your sins.",
-      "suggested_fix": "The English words 'for my sins—for your sins' remain untranslated. Translate fully into Dutch and keep punctuation and emphasis consistent. Suggested replacement: '—bloedend, stervend voor onze zonden — voor mijn zonden — voor jouw zonden.' Ensure the entire quoted phrase appears in Dutch and preserve the punctuation and emphasis as in the source.",
-      "translation_quote": "—bloedend, stervend voor onze zonden—for mijn zonden—for jouw zonden."
-    },
-    {
-      "location": "Luke 5 quotation (phrase rendered awkwardly in Dutch)",
-      "severity": "minor",
-      "source_quote": "When he saw their faith, he said unto him, Man, thy sins are forgiven thee –Luke 5:20.\n…began to reason, saying, Who is this which speaketh blasphemies? Who can forgive sins, but God alone? –Luke 5:21.",
-      "suggested_fix": "The Dutch rendering is largely correct but contains slightly awkward register in places. Optionally smooth 'zei Hij tegen hem' → 'zei Hij'. Keep Scripture references intact. This is stylistic; no change required if idiomatic consistency is preferred.",
-      "translation_quote": "En toen Hij hun geloof zag, zei Hij tegen hem: Mens, uw zonden zijn u vergeven –Lukas 5:20.\n…begonnen te redeneren en zeiden: Wie is deze die godslasteringen spreekt? Wie kan zonden vergeven dan God alleen? –Lukas 5:21."
-    },
-    {
-      "location": "Caption/alt text for image",
-      "severity": "minor",
-      "source_quote": "Sunrise over rugged mountain peaks",
-      "suggested_fix": "Alt text translation is acceptable but consider using standard contemporary Dutch phrasing: 'Zonsopgang boven ruige bergtoppen' rather than 'ruwe bergtoppen'. This is optional and stylistic.",
-      "translation_quote": "Zonsopgang boven ruwe bergtoppen"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T13:07:11+00:00",
   "id": "a23dfded5b09f690d8e5d795f691176f",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "nld",
@@ -182,13 +158,13 @@
     }
   },
   "protected": false,
-  "quality_score": 65,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/21c8641ce0ae285627965ca28d18397c39ccff0fa09ba301857fc1d0049b6b9d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "b3a0b32450038629cf20919c69af275c4549e0b458e25e2b5d03da547dfb97f7",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

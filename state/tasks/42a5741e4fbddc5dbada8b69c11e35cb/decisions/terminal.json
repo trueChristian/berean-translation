@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "<p>We lived on an old farm, back a short lane along a dirt road. One morning, Mother called us in from our play and said she was out of sugar. She asked us to walk to Mrs. Brightbill to see if she had any sugar to spare. You see, we didn’t have telephones when I was a little girl, so she couldn’t call the neighbor and ask her.</p>",
+      "severity": "major",
+      "source_quote": "She asked us to walk to Mrs. Brightbill to see if she had any sugar to spare.",
+      "suggested_fix": "Translate the action correctly. Replace the translation phrase \"alitupa chombo, na tukaanza... Alituomba tukatembee hadi kwa Bi. Brightbill kuona kama angeweza kutushiria sukari\" with wording that conveys asking the neighbor for some sugar (to give/ spare), e.g. \"Alituomba tutembelee Bi. Brightbill kuona kama angeweza kutupa sukari\" (preserve surrounding HTML tags and order).",
+      "translation_quote": "Alituomba tukatembee hadi kwa Bi. Brightbill kuona kama angeweza kutushiria sukari."
+    },
+    {
+      "location": "<p>Every day when we walked to school, that dog frightened us terribly with his fierce barking and growling. But Mother always reminded us to pray and remember the Bible verse which says: <em>What time I am afraid, I will trust in thee –Psalm 56:3.</em> Still, we hurried by as fast as our legs could take us.</p>",
+      "severity": "major",
+      "source_quote": "that dog frightened us terribly with his fierce barking and growling.",
+      "suggested_fix": "Correct the mistranslation of \"growling.\" Replace \"mbwa huyo alitutisha sana kwa kulemaza na kupiga kelele\" with wording conveying barking and growling, e.g. \"mbwa huyo alitutisha sana kwa kubweka kwa nguvu na kunguruma.\" Preserve tags and punctuation.",
+      "translation_quote": "mbwa huyo alitutisha sana kwa kulemaza na kupiga kelele."
+    },
+    {
+      "location": "<p>Lori and I started out happily on our errand for Mother. We skipped along, watching the dust swirl beneath our feet on that warm summer morning. Everything seemed unusually quiet and still as we passed through the gully, over the rippling creek, and up the steep hill right before Neighbor Rhine’s place.</p>",
+      "severity": "critical",
+      "source_quote": "we passed through the gully, over the rippling creek, and up the steep hill",
+      "suggested_fix": "A substantive English word was left untranslated. Replace the untranslated English \"gully\" with a correct Kiswahili equivalent (for example \"mto mdogo wa mtindio/kinyamazi\" or \"kwamba tunapita kwenye mwamba uliochimbwa\" depending on intended meaning). Suggested correction: \"tulipopita kwenye bonde kidogo, kuvuka kijito kinachotiririka, na kupanda kilima chenye mteremko...\" Preserve the surrounding HTML tags and sentence order.",
+      "translation_quote": "tulipopita kwenye gully, kuvuka kijito kinachotiririka, na kupanda kilima chenye mteremko kabla kabisa ya nyumba ya jirani Rhine."
+    },
+    {
+      "location": "<p>Suddenly there was a shout! It was Pierce, with a whip in his hand. He came running around the shed and out on the road. He whipped and whipped that dog and finally got him away from Lori and back inside the fence where he belonged, as Lori and I stood there, trembling, and crying with relief.”</p>",
+      "severity": "minor",
+      "source_quote": "He whipped and whipped that dog and finally got him away from Lori and back inside the fence where he belonged",
+      "suggested_fix": "Word choice is slightly awkward but understandable. Consider rendering more idiomatically: replace \"Alimpiga fimbo mbwa huyo mara nyingi na mara nyingi hadi awasafishe kutoka kwa Lori\" with \"Alimpiga fimbo mbwa huyo mara kwa mara hadi alimtenganisha na Lori na kumrudisha ndani ya uzio.\" Preserve HTML tags.",
+      "translation_quote": "Alimpiga fimbo mbwa huyo mara nyingi na mara nyingi hadi awasafishe kutoka kwa Lori na kumrudisha ndani ya uzio pale alipotakiwa,"
+    },
+    {
+      "location": "<p>“I don’t remember if I screamed, or if I prayed. But suddenly there was a shout! ...</p>",
+      "severity": "minor",
+      "source_quote": "I don’t remember if I screamed, or if I prayed.",
+      "suggested_fix": "Translation used \"Sihukumi kama nililia, au kama niliomba,\" where \"sihukumi\" is odd/incorrect here. Suggest: replace with the clearer \"Sikumbuki kama nililia au kama niliomba.\" Preserve tags.",
+      "translation_quote": "Sihukumi kama nililia, au kama niliomba."
+    },
+    {
+      "location": "<p>It was a miracle that Lori and I were not injured. There is a verse in Psalms which says: <em>Save me from the lion’s mouth… –Psalm 22:21.</em></p>",
+      "severity": "minor",
+      "source_quote": "Save me from the lion’s mouth… –Psalm 22:21.",
+      "suggested_fix": "Preposition in Kiswahili is awkward: replace \"Niniondoshe kinywani pa simba…\" with the more natural \"Niniondoshe kinywani mwa simba…\" or \"Niniondoshe kinywani pa simba\" depending on preferred idiom. Ensure Psalms reference remains the same and tags unchanged.",
+      "translation_quote": "Niniondoshe kinywani pa simba… –Zaburi 22:21."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

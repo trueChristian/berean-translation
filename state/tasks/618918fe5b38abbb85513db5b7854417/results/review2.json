@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b78851b6-1e9c-46e8-8df7-6028604fcb91",
+    "response_id": "chatcmpl-EUXENx1ngxjN5KjV4aFRamIkc3jcW",
+    "usage": {
+      "completion_tokens": 1332,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5433,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6765
+    }
+  },
+  "received_at": "2026-10-02T13:07:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> first paragraph (first non-italic sentence)",
+        "severity": "major",
+        "source_quote": "The text of this hymn, All Hail the Power of Jesus Name, has been translated into almost every language where Christianity is known.",
+        "suggested_fix": "Translate the hymn title into Afrikaans where it appears in running text, matching the translated title used elsewhere. For example: \"Die teks van hierdie gesang, Ere aan die Naam van Jesus toe!, is in byna elke taal vertaal ...\" Preserve surrounding HTML and punctuation.",
+        "translation_quote": "Die teks van hierdie gesang, All Hail the Power of Jesus Name, is in byna elke taal vertaal waar Christusendom bekend is."
+      },
+      {
+        "location": "<figure> <img> alt attribute",
+        "severity": "major",
+        "source_quote": "alt=\"Sheet music for All Hail the Power of Jesus’ Name, tune DIADEM C. M. with Refrain\"",
+        "suggested_fix": "Translate the alt text fully into Afrikaans and use the translated hymn title. For example: alt=\"Musiekblad vir 'Ere aan die Naam van Jesus toe!', melodie DIADEM C. M. met refrein\". Preserve the img tag and other attributes exactly.",
+        "translation_quote": "alt=\"Musiekpapier vir All Hail the Power of Jesus’ Name, melodie DIADEM C. M. met Refrein\""
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

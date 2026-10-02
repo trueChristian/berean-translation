@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d43ecb26-f4ea-4984-a8aa-f5ac32d6e08b",
+    "response_id": "chatcmpl-EUXEd04GIC7qL7GBDC5mBE0hp1WHY",
+    "usage": {
+      "completion_tokens": 1336,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8918,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10254
+    }
+  },
+  "received_at": "2026-10-02T13:07:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph, greeting line",
+        "severity": "minor",
+        "source_quote": "Grace, peace, and mercy from God, the Father, and the Lord, Jesus Christ, to my dear children, David, Betgen, and Tanneken.",
+        "suggested_fix": "Replace “my meeste geliefde kinders” with the more idiomatic Afrikaans “my mees geliefde kinders” (or simply “my geliefde kinders”). Keep the rest of the sentence as translated.",
+        "translation_quote": "Genade, vrede en goedertierenheid van God die Vader en die Here Jesus Christus aan my dierbare kinders, David, Betgen en Tanneken. Hierdie affektueuse groet, deur julle moeder in boeie geskryf, is ’n gedenkteken van die waarheid aan julle. Ek hoop om met die hulp van die Allerhoogste deur my woorde, my lewe en my dood tot hierdie Waarheid te getuig."
+      },
+      {
+        "location": "Paragraph with Proverbs 13:1 (’n Wyse seun ... )",
+        "severity": "minor",
+        "source_quote": "A wise son heareth his father’s instruction: but a scorner heareth not rebuke –Proverbs 13:1.",
+        "suggested_fix": "Replace “’n verhulder” with the correct sense “’n spotter” or “’n minagter” (spotter/scorner) so the verse conveys the intended meaning. Suggested rendering: “’n Wyse seun luister na die vermaning van sy vader: maar ’n spotter hoor nie bestraffing nie – Spreuke 13:1.”",
+        "translation_quote": "’n Wyse seun luister na die vermaning van sy vader: maar ’n verhulder hoor nie bestraffing nie – Spreuke 13:1."
+      },
+      {
+        "location": "Paragraph: “Solank julle goeie vermaning en onderrig gehoorsaam, sal God julle Vader wees en julle nie as wees agterlaat nie.”",
+        "severity": "minor",
+        "source_quote": "As long as you obey good admonition and instruction, God will be your Father and not leave you as orphans.",
+        "suggested_fix": "Smooth the Afrikaans phrasing to match the English meaning and idiom. Suggested fix: “Solank julle goeie vermaning en onderrig gehoorsaam, sal God julle Vader wees en julle nie as weeskinders agterlaat nie.” (or “sal God julle Vader wees en julle nie as weeskinders agterlaat nie.”)",
+        "translation_quote": "Solank julle goeie vermaning en onderrig gehoorsaam, sal God julle Vader wees en julle nie as wees agterlaat nie."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

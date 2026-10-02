@@ -2,7 +2,6 @@
   "article_id": "f09d8cd5-b48f-470f-936f-263e6940b6bd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "13ec55b413584b4e81cc1b0f52def237",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,46 +61,53 @@
         },
         "total_tokens": 10648
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1455,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5861,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7316
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html paragraph 3 (Edward Perronet biography)",
+      "location": "<div class=\"lyrics\"> (3rd stanza, line 2) — hymn text: \"Crown Him, ye morning stars of light, / Who fixed this floating ball, / Now hail the Strength of Israel’s might, / And crown Him Lord of all!\"",
       "severity": "major",
-      "source_quote": "He was a descendant of a distinguished French Huguenot family who had fled to Switzerland and later to England because of the religious persecution in France.",
-      "suggested_fix": "Translate 'a descendant of a distinguished French Huguenot family' correctly. Replace \"وہ ایک ممتاز فرانسیسی ہیوگنوٹ خاندان کے خاندان نویس تھے\" with a faithful Urdu rendering such as: \"وہ ایک ممتاز فرانسیسی ہیوگنوٹ خاندان کے وارث/نسل سے تعلق رکھتے تھے\" (preserving HTML tags and surrounding text).",
-      "translation_quote": "وہ ایک ممتاز فرانسیسی ہیوگنوٹ خاندان کے خاندان نویس تھے جو مذہبی ظلم و ستم کے سبب سویٹزرلینڈ اور بعد میں انگلینڈ ہجرت کر گئے تھے۔"
+      "source_quote": "Now hail the Strength of Israel’s might,",
+      "suggested_fix": "Translate the English sense accurately. A faithful Urdu rendering would convey an exhortation to praise or acclaim Israel’s strong One (the Strength of Israel). Suggested Urdu: \"اُس اسرائیل کی قوت کو اب سلام کرو\" or \"اب اسرائیل کی طاقت کو سلام کرو\" — preserving the exhortation 'hail' (سلام کرو/سلام پیش کرو) rather than 'lesson' or 'سابق'.",
+      "translation_quote": "\"اب اسرائیل کی قوت کا سبق قبول کرو,\" (uses 'سبق' = 'lesson', which changes meaning and omits the exhortation to 'hail')"
     },
     {
-      "location": "source.html various (Edward Perronet name)",
-      "severity": "minor",
-      "source_quote": "Edward Perronet",
-      "suggested_fix": "Use a single consistent Urdu spelling for the name throughout the article. For example replace all variants (\"اڈورڈ پیرو نیٹ\", \"ایڈورڈ پیرو نیٹ\") with one consistent form such as \"ایڈورڈ پیرو نیٹ\" (preserve tags and positions).",
-      "translation_quote": "اڈورڈ پیرو نیٹ / ایڈورڈ پیرو نیٹ (both forms appear in the translation)."
+      "location": "<p>References: (last paragraph) — reference list entries left in English",
+      "severity": "major",
+      "source_quote": "A Treasury of Hymn Stories\n101 Hymn stories\n\"Coronation\" Tune -Oliver Holden 1765-1844\n\"Miles Lane\" Tune -William Shrubsole, 1760-1806\n\"Diadem\" Tune -James Elliot, 1838\n\"Let Us Crown Him\" Tune -James McGranahan 1840-1907",
+      "suggested_fix": "Translate or present these reference titles and any quoted descriptive lines into Urdu, since they are quoted substantive prose in the article. For example: \"A Treasury of Hymn Stories\" → \"حمدی قصّوں کا خزانہ\" (or a transliteration followed by Urdu translation in parentheses), and similarly \"101 Hymn Stories\" → \"101 حمدی قصّے\". Composer names and dates may remain in Latin script or be transliterated. Keep each reference on its own line as in the source HTML.",
+      "translation_quote": "References:\nA Treasury of Hymn Stories\n101 Hymn stories\n\"Coronation\" Tune -Oliver Holden 1765-1844\n\"Miles Lane\" Tune -William Shrubsole, 1760-1806\n\"Diadem\" Tune -James Elliot, 1838\n\"Let Us Crown Him\" Tune -James McGranahan 1840-1907 (left in English)"
     },
     {
-      "location": "source.html opening paragraphs and later (hymn title and magazine title)",
+      "location": "Opening Scripture line (first paragraph, emphasized quote)",
       "severity": "minor",
-      "source_quote": "first appearing in the November 1779 issue of Gospel Magazine\nAll Hail the Power of Jesus Name",
-      "suggested_fix": "Translate or consistently render publication and hymn-title occurrences into Urdu script. For the magazine title, use a transliteration or translated form consistently (for example \"گاسپل میگزین\" or \"Gospel Magazine\" in italics/transliteration). For the hymn title, render it in Urdu each time it appears (e.g. \"تمام سلام — ’خداوند یسوع کے نام کی طاقت کو سلام‘\"), or consistently transliterate it in Perso‑Arabic script. Do not leave some occurrences in English while others are translated. Preserve HTML tags and placement.",
-      "translation_quote": "Gospel Magazine\nAll Hail the Power of Jesus Name (left in English in several places)."
-    },
-    {
-      "location": "source.html lyrics stanzas (first verse and other lyrical lines)",
-      "severity": "minor",
-      "source_quote": "All hail the power of Jesus’ name,\nLet angels prostrate fall\nBring forth the royal diadem,\nTo crown Him Lord of all!",
-      "suggested_fix": "Render the poetic lines in clear, idiomatic Urdu that preserves the original meaning and poetic cadence. For example, replace the current lines such as \"تمام سلام، یسوع کے نام کی طاقت پر، فرشتے سجدہ کریں اور گر جائیں\" with a more natural and faithful rendering like: \"تمام سلام ہو یسوع کے نام کی شان کو، فرشتے ہوں سجدہ روئے، شاہی تاج پیش کرو، تاکہ وہ سب کا خدا تاجپوش ہو۔\" Ensure the translation of all stanzas communicates the original sense; fix obvious mistranslations (see e.g. \"اونچے جنمی سرِ فرشتے بُدھیار کو چھیڑیں\" which is unintelligible). Keep the HTML structure of the lyrics block unchanged.",
-      "translation_quote": "تمام سلام، یسوع کے نام کی طاقت پر، فرشتے سجدہ کریں اور گر جائیں\nشاہی تاج پیش کریں، تاکہ اُسے سب کا رب تخت دیا جائے!  (and other stanzas where lines like \"اونچے جنمی سرِ فرشتے بُدھیار کو چھیڑیں\" appear)."
-    },
-    {
-      "location": "source.html paragraph about Wesleys (spelling of 'Wesleys'/'Wesley')",
-      "severity": "minor",
-      "source_quote": "the Wesleys and George Whitefield\nCharles Wesley\nJohn Wesley",
-      "suggested_fix": "Use consistent and conventional Urdu renderings for 'Wesley' and 'the Wesleys'. Currently variants like \"ویژلیز\", \"ویسلی\", and \"ویژلیز کے\" appear. Choose one standard form such as \"ویسلی\" for John/Charles Wesley and \"ویسلی خاندان\" or \"ویسلی برادران\" for 'the Wesleys', and apply it everywhere. Preserve HTML tags and positions.",
-      "translation_quote": "ویژلیز / ویسلی (inconsistent forms appear)."
+      "source_quote": "for thy pleasure they are and were created",
+      "suggested_fix": "The Urdu phrase used (\"اور وہ تیرے مشنّتِ خاطر ہیں\") uses 'مشنّت' which is non-idiomatic and unclear. Use an idiomatic Urdu rendering that preserves the sense 'created for thy pleasure' such as: \"اور وہ تیرے لطف کے لیے پیدا کیے گئے ہیں\" or \"اور وہ تیرے لطف کے سبب پیدا ہوئے تھے\".",
+      "translation_quote": "\"اور وہ تیرے مشنّتِ خاطر ہیں اور پیدا ہوئیں — مکاشفہ 4:11۔\" (uses 'مشنّتِ' which is not standard Urdu and may obscure meaning)"
     }
   ],
+  "finished_at": "2026-10-02T13:07:10+00:00",
   "id": "051ca0189005ff6042543fe8ce7f26dd",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "urd",
@@ -175,13 +181,13 @@
     }
   },
   "protected": false,
-  "quality_score": 73,
+  "quality_score": 80,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6b076b1f67d6fafc1720a4ac2de4e895d6d3d4ebd14b1f3db48cc7447fd2506b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

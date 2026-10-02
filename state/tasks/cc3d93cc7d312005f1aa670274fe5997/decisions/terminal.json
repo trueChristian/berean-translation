@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 6 (English): \"Jesus did not come with violence and yet His righteous presence swept through Palestine like a winnowing breeze. Those who rejected Him were blown away and disappeared from the narrative.\"",
+      "severity": "major",
+      "source_quote": "Jesus did not come with violence and yet His righteous presence swept through Palestine like a winnowing breeze. Those who rejected Him were blown away and disappeared from the narrative.",
+      "suggested_fix": "Translate “righteous presence” as पवित्र/धार्मिकता की उपस्थिति (context prefers पवित्र उपस्थिति or धार्मिक उपस्थिति but better: 'उसकी धार्मिक उपस्थिति' → 'उसकी पवित्र उपस्थिति') and translate the English word “narrative” into Hindi (e.g., 'कथा' or 'वृत्तांत'). Preserve the full sense: \"यीशु हिंसा लेकर नहीं आए, फिर भी उनकी पवित्र उपस्थिति फिलिस्तीन में छानने जैसी हवा की तरह बह निकली। जिन्होंने उन्हें ठुकराया वे उड़ कर कथा/वृत्तांत से गायब हो गए।\" Use 'कथा' or 'वृत्तांत' consistently in place of the untranslated English word.",
+      "translation_quote": "यीशु हिंसा के साथ नहीं आए परन्तु उसकी धार्मिक उपस्थिति फिलिस्तीन में एक छानने जैसी हवा के समान बह निकली। जिन्होंने उसे ठुकराया वे उड़ कर narrative से गायब हो गए।"
+    },
+    {
+      "location": "Luke/John quoted and surrounding sentence about John the Baptist (English quote Matthew 3:11-12)",
+      "severity": "major",
+      "source_quote": "whose fan is in his hand, and he will throughly purge his floor, and gather his wheat into the garner; but he will burn up the chaff with unquenchable fire –Matthew 3:11-12.",
+      "suggested_fix": "Correctly translate agricultural images: \"whose winnowing fan is in his hand, and he will thoroughly clean his threshing‑floor, and gather his wheat into the barn; but he will burn up the chaff with unquenchable fire.\" In Hindi: \"जिसका पवनफूँक/छानने वाला पंखा उसके हाथ में है, और वह अपने तराशने/थ्रेशिंग‑फ़्लोर को पूरी तरह से साफ कर देगा, और अपना अनाज माझे/गोदाम में जमा करेगा; परन्तु वह भूसे को न बुझने वाली आग से जला देगा।\" (Preserve familiar biblical agricultural terms: 'पंखा'→'छानने वाला पंखा/विनोइंग फैन', 'threshing‑floor'→'भूमि/थ्रेशिंग‑फ्लोर/थ्रेशिंग‑फ्लोर (अर्थ: झाड़ने की थाली)' — choose a single Hindi phrasing such as 'थ्रेशिंग‑फ़्लोर' or 'खरिहन का मैदान'.) Ensure the quoted Scripture translation stays fully in Hindi and faithfully reflects the English images.",
+      "translation_quote": "जिसका पंखोला उसके हाथ में है, और वह अपने थाल को पूरी तरह झाड़ देगा, और अपना अनाज गोदाम में इकट्ठा करेगा; परन्तु वह भूसे को बुझाने योग्य आग से जला देगा –मत्ती 3:11-12."
+    },
+    {
+      "location": "Paragraph translating phrase “righteous presence” earlier (same sentence as finding 1)",
+      "severity": "minor",
+      "source_quote": "His righteous presence swept through Palestine like a winnowing breeze.",
+      "suggested_fix": "Use a closer semantic equivalent of 'righteous' rather than 'religious' (धार्मिक). Prefer 'पवित्र' or 'धर्मी/धार्मिकता' depending on tone. Suggested Hindi: 'उनकी पवित्र उपस्थिति फिलिस्तीन में छानने जैसी हवा के समान फैल गई।'",
+      "translation_quote": "उसकी धार्मिक उपस्थिति फिलिस्तीन में एक छानने जैसी हवा के समान बह निकली।"
+    },
+    {
+      "location": "Paragraph about imputation of righteousness: English: \"The blood of Jesus is the only means to the “righteousness of God”. The “righteousness of God” is imputed through forgiveness...\"",
+      "severity": "minor",
+      "source_quote": "The “righteousness of God” is imputed through forgiveness, and it is the fruit of our lives after being empowered through the Holy Spirit.",
+      "suggested_fix": "Do not leave the technical theological term 'imputed' untranslated in parentheses. Translate 'imputed' into Hindi (e.g., 'अर्पित/ऋणित/ग्रहित कहा जाता है') and choose one consistent term. Suggested Hindi: '“परमेश्वर की धार्मिकता” क्षमा द्वारा ऋणित की जाती है' or '...क्षमा के द्वारा प्रदान/ग्रहित की जाती है.' Replace 'ऋणित (imputed)' with one Hindi term and remove the English parenthetical.",
+      "translation_quote": "“परमेश्वर की धार्मिकता” क्षमा के द्वारा ऋणित (imputed) की जाती है, और यह हमारे जीवन का फल है..."
+    },
+    {
+      "location": "Metadata: section field — English: \"The New Testament Church\" → translation: \"नए नियम की कलीसिया\"",
+      "severity": "minor",
+      "source_quote": "The New Testament Church",
+      "suggested_fix": "Use the standard Hindi convention for the biblical term. Preferred: 'नव नियम की कलीसिया' or 'नए नियम की कलीसिया' — 'नया/नव नियम' both occur, but 'नव नियम' is a common biblical term. Consider revising to 'नव नियम की कलीसिया' for idiomatic fidelity.",
+      "translation_quote": "नए नियम की कलीसिया"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

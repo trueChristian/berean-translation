@@ -2,7 +2,6 @@
   "article_id": "f09d8cd5-b48f-470f-936f-263e6940b6bd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "13ec55b413584b4e81cc1b0f52def237",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,25 +61,39 @@
         },
         "total_tokens": 8524
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "<div class=\"lyrics\"> (primeiro bloco de estrofes, todas as oito estrofes em inglês)",
-      "severity": "critical",
-      "source_quote": "All hail the power of Jesus’ name,\nLet angels prostrate fall\nBring forth the royal diadem,\nTo crown Him Lord of all!\n\nLet high born seraphs tune the lyre,\nAnd, as they tune it, fall\nBefore His face who tunes their choir,\nAnd crown Him Lord of all!\n\nCrown Him, ye morning stars of light,\nWho fixed this floating ball,\nNow hail the Strength of Israel’s might,\nAnd crown Him Lord of all!\n\nCrown Him, ye martyrs of your God,\nWho from His altar call;\nExtol the stem of Jesse’s rod,\nAnd crown Him Lord of all!\n\nYe seed of Israel’s chosen race,\nYe ransomed of the fall,\nHail Him who saves you by His grace\nAnd crown Him Lord of all!\n\nHail Him, ye heirs of David’s line,\nWhom David Lord did call.\nThe God incarnate, Man divine,\nAnd crown Him Lord of all!\n\nSinners, whose love can ne’er forget\nThe wormwood and the gall,\nGo spread your trophies at His feet,\nAnd crown Him Lord of all!\n\nLet every tribe and every tongue\nThat bound creation’s call\nNow shout in universal song,\nThe crowned Lord of all!",
-      "suggested_fix": "Translate each of the eight quoted stanzas into Portuguese and replace the English stanza block, preserving the HTML structure (<div class=\"lyrics\"> and <p>...</p> with <br> line breaks). The translation must be faithful to the printed English meaning (not a different paraphrase) and must render the quoted hymn text into Portuguese. Keep stanza order, punctuation, and the same number of stanzas. Example (do not paste as required exact wording here; translator should produce an accurate Portuguese rendering):\n<div class=\"lyrics\">\n  <p>Salve o poder do nome de Jesus,<br>\n  ...</p>\n  ...\n</div>\nEnsure no lines of the substantive hymn text remain in English.",
-      "translation_quote": "All hail the power of Jesus’ name,<br>\nLet angels prostrate fall<br>\nBring forth the royal diadem,<br>\nTo crown Him Lord of all!<br>\n... (continues in English for all eight stanzas)"
     },
     {
-      "location": "Paragraph mentioning the hymn title and in the narrative where the hymn title is quoted (first paragraph and later narrative and the mission story): occurrences of the title \"All Hail the Power of Jesus Name\" and the refrain quoted in English",
-      "severity": "major",
-      "source_quote": "The text of this hymn, All Hail the Power of Jesus Name, has been translated into almost every language where Christianity is known.\n\n... began to play and sing in the native language, “All hail the power of Jesus’ name!”",
-      "suggested_fix": "Translate the hymn title and any in-text quoted occurrences of the hymn refrain into Portuguese. Replace the English phrase with the Portuguese rendering used for the article title (for consistency): e.g. replace 'All Hail the Power of Jesus Name' and the quoted refrain “All hail the power of Jesus’ name!” with the Portuguese equivalent used in the translated title (for example \"Todos Salve o Poder do Nome de Jesus\" or another faithful Portuguese rendering chosen for the hymn title). Keep the quotation marks and punctuation as in the source and preserve HTML. Do not leave the substantive quoted refrain in English.",
-      "translation_quote": "All Hail the Power of Jesus Name\n...\n“All hail the power of Jesus’ name!”"
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1050,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5137,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6187
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Paragraph: \"This hymn was originally written having the title, “On the Resurrection,” and there were eight stanzas, as follows:\"",
+      "severity": "major",
+      "source_quote": "“On the Resurrection”",
+      "suggested_fix": "Translate the quoted original title into Portuguese while preserving punctuation and HTML. Replace “On the Resurrection” with “'Sobre a Ressurreição'” (including the same quotation marks). Example replacement in context: \"Este hino foi originalmente escrito com o título 'Sobre a Ressurreição' e tinha oito estrofes, como segue:\"",
+      "translation_quote": "“On the Resurrection”"
+    }
+  ],
+  "finished_at": "2026-10-02T13:07:11+00:00",
   "id": "9f6cbf2e7eeb11d77a8e834b06effb67",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "por",
@@ -154,13 +167,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6b076b1f67d6fafc1720a4ac2de4e895d6d3d4ebd14b1f3db48cc7447fd2506b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

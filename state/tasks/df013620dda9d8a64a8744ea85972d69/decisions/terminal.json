@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2 (first sentence).",
+      "severity": "minor",
+      "source_quote": "One might wonder as to why the Anabaptists, the early church fathers, church history writers, and especially the progenitor (originator or author) of our beliefs, Christ Himself, effected such a vehement and absolute approach to a separated church and state.",
+      "suggested_fix": "Replace the mistransliterated/misspelled term \"الإناعاطيون\" with the standard Arabic term for Anabaptists and match the form used elsewhere in the translation. Suggested replacement: \"الأنابابتست\" or the fully Arabicized plural \"الأنابابتستيون\". Keep the rest of the sentence as translated.",
+      "translation_quote": "قد يتساءل المرء لماذا اتخذ الإناعاطيون والآباء الأوائل للكنيسة وكتّاب تاريخ الكنيسة، وخاصة مبتكر (مؤسس أو مؤلّف) معتقداتنا، المسيح نفسه، موقفًا صارمًا مطلقًا من فصل الكنيسة عن الدولة."
+    },
+    {
+      "location": "Throughout (references to the Mennonites).",
+      "severity": "minor",
+      "source_quote": "The Mennonites of Germany; 13,000 Russian Mennonite refugees; Mennonite churches; American Mennonites",
+      "suggested_fix": "Standardize the Arabic rendering of “Mennonites.” The translation uses both \"المينونيت\" and the adjectival/construct form \"مينونيتي\" (and once \"مَن\" typo-like). Choose one consistent form (recommended: \"المينونيت\" for the noun and e.g. \"المينونيتية\" for adjectival forms) and apply it consistently throughout the article to improve clarity and idiom. Preserve all occurrences and grammatical forms while only changing the word shape.",
+      "translation_quote": "يُعد المينونيت في ألمانيا حالة مثيرة للاهتمام... هبط 13,000 لاجئ مينونيتي روسي إلى موسكو... وصلت الكنائس المينونيتية جهودًا حربية... ساعد المينونيت الأمريكيون هؤلاء اللاجئين..."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

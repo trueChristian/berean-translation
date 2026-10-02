@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5db893c4-1ac5-4c05-a0aa-6e14061bacc6",
+    "response_id": "chatcmpl-EUXEawDk9RL7u0SdEhh7WaFfKUSY4",
+    "usage": {
+      "completion_tokens": 873,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4454,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5327
+    }
+  },
+  "received_at": "2026-10-02T13:07:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.section",
+        "severity": "minor",
+        "source_quote": "FROM THE EDITOR",
+        "suggested_fix": "Use a target-language rendering that matches the singular sense of the English section header and the translated title. Change \"DE LA REDACCIÓN\" to \"DEL EDITOR\" so the section header corresponds to the source and to the translated title.",
+        "translation_quote": "DE LA REDACCIÓN"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

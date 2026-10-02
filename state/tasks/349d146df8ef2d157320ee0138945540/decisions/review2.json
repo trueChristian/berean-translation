@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<div class=\"lyrics\"> (third stanza)",
+      "severity": "critical",
+      "source_quote": "Crown Him, ye morning stars of light,\nWho fixed this floating ball,\nNow hail the Strength of Israel’s might,\nAnd crown Him Lord of all!",
+      "suggested_fix": "Translate the full stanza into Swedish, ensuring no English words remain. For example: \"Kröna Honom, ni morgonstjärnor av ljus,\nSom fäste denna flytande kula,\nHälsa nu Israels makt och styrka,\nOch kröna Honom som Herre över allt!\" (preserve stanza order and line breaks/tags).",
+      "translation_quote": "Kröna Honom, ni morgonstjärnor av ljus,\nSom fäste denna flytande kula,\nHail nu styrkan i Israels kraft,\nOch kröna Honom Herre över allt!"
+    },
+    {
+      "location": "<div class=\"lyrics\"> (seventh stanza)",
+      "severity": "critical",
+      "source_quote": "Sinners, whose love can ne’er forget\nThe wormwood and the gall,\nGo spread your trophies at His feet,\nAnd crown Him Lord of all!",
+      "suggested_fix": "Correct the mistranslation of \"wormwood\" (meaning the bitter herb 'wormwood' = malört) and render the stanza faithfully in Swedish. Suggested translation preserving meaning: \"Syndare, vars kärlek aldrig kan glömma\nMalörtens bitterhet och gallan,\nGå sprid era troféer vid Hans fötter,\nOch kröna Honom som Herre över allt!\"",
+      "translation_quote": "Syndare, vars kärlek aldrig kan glömma\nMaskrosens bitterhet och gallan,\nGå sprid era troféer vid Hans fötter,\nOch kröna Honom Herre över allt!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -2,7 +2,6 @@
   "article_id": "9240e6d5-f395-4db7-ab6f-3b4b603d6ea0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "13ec55b413584b4e81cc1b0f52def237",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:40+00:00",
   "events": [
@@ -62,18 +61,45 @@
         },
         "total_tokens": 18703
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 560,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 256,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11776,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12336
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph beginning 'We know the story of Job’s friends.' (near heading 'Don’t Jump to Conclusions')",
-      "severity": "critical",
-      "source_quote": "We know the story of Job’s friends. They rode up to see Job after disaster fell on him and sat quietly in shock for several days upon seeing the devastation that had happened to him.",
-      "suggested_fix": "Replace the mistranslated proper name 'حزقیا' (Hezekiah) with the correct biblical name 'ایوب' (Job) and corresponding Urdu phrasing. For example: 'ہم ایوب کے دوستوں کی کہانی جانتے ہیں۔ انہوں نے تباہی کے بعد ایوب سے ملنے آئے اور وہاں ہونے والے نقصان کو دیکھ کر چند دن خاموشی سے بیٹھے رہے۔' Preserve surrounding HTML and punctuation exactly as in the translation.",
-      "translation_quote": "ہم حزقیا کے دوستوں کی کہانی جانتے ہیں۔ اُنہوں نے تباہی آنے کے بعد حزقیا سے ملنے آئے اور اس شہادت کو دیکھ کر چند دن خاموشی سے بیٹھے رہے۔"
+      "location": "First paragraph (speaker name)",
+      "severity": "minor",
+      "source_quote": "“Dr. Waldron,” the lady sitting across from me said.",
+      "suggested_fix": "Use a standard Urdu transliteration consistent with the byline (e.g., 'ڈاکٹر وَلڈرن' or 'ڈاکٹر والڈرون') rather than 'ڈاکٹر والشڈرون', or match the exact transliteration used elsewhere on the site for this author. Preserve the surrounding punctuation and HTML.",
+      "translation_quote": "“ڈاکٹر والشڈرون,” میرے سامنے بیٹھی عورت نے کہا۔ “میں حال ہی میں بہت جدوجہد کر رہی ہوں۔”"
+    },
+    {
+      "location": "Paragraph introducing Jeremiah (name repetition)",
+      "severity": "minor",
+      "source_quote": "Another one that comes to mind is the Prophet Jeremiah.",
+      "suggested_fix": "Remove the duplicated parenthetical name. For example: 'دوسرا جو میرے ذہن میں آتا ہے وہ نبی یرمیاہ ہے۔' or keep a single target-language form 'نبی یرمیاہ' without repeating '(یرمیاہ)'. Preserve surrounding sentence structure and HTML.",
+      "translation_quote": "دوسرا جو میرے ذہن میں آتا ہے وہ نبی یرمیاہ (یرمیاہ) ہے۔ یرمیاہ کو جوانی میں پکارا گیا تھا، اور اس نے..."
     }
   ],
+  "finished_at": "2026-10-02T13:07:10+00:00",
   "id": "13bd721a75f550ecd3845bf82e7d9df5",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "urd",
@@ -147,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f177e57409e960665e128f135c5d31a6b5c47dfb179f4bf630790d509d4b9294.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "5dadc96220966a62c190dc496511f1659046db2b2d97b2ce157a164fa768d4e2",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

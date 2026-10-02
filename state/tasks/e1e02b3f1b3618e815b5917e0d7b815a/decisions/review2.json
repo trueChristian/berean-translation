@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph: \"এই ostensibly লাভজনক সম্পর্কের কারণে চার্চ আরও দুর্বল হয়ে পড়ল।\",\"source_quote\":\"This ostensibly beneficial relationship, the church further weakened under these seemingly beneficial relations.\",\"translation_quote\":\"এই ostensibly লাভজনক সম্পর্কের কারণে চার্চ আরও দুর্বল হয়ে পড়ল।\",\"severity\":\"major\",\"suggested_fix\":\"Translate the English adverb 'ostensibly' into Bengali and keep sentence structure. For example: 'এই প্রতিফলিতভাবে/প্রতিপন্নভাবে লাভজনক সম্পর্কের ফলে চার্চ আরও দুর্বল হয়ে পড়ল।' (Preserve the existing HTML and surrounding Bengali text.)\"},{",
+      "severity": "major",
+      "source_quote": "Source:\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction",
+      "suggested_fix": "Translate the label 'Source:' into Bengali (e.g., 'সূত্র:') while leaving the URL unchanged. For example: 'সূত্র:\\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction' (Preserve the line break and surrounding HTML.)",
+      "translation_quote": "Source:\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph: \"This hymn was originally written having the title, “On the Resurrection,” and there were eight stanzas, as follows:\"",
+      "severity": "major",
+      "source_quote": "“On the Resurrection”",
+      "suggested_fix": "Translate the quoted original title into Portuguese while preserving punctuation and HTML. Replace “On the Resurrection” with “'Sobre a Ressurreição'” (including the same quotation marks). Example replacement in context: \"Este hino foi originalmente escrito com o título 'Sobre a Ressurreição' e tinha oito estrofes, como segue:\"",
+      "translation_quote": "“On the Resurrection”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

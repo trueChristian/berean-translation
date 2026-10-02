@@ -2,7 +2,6 @@
   "article_id": "9240e6d5-f395-4db7-ab6f-3b4b603d6ea0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "13ec55b413584b4e81cc1b0f52def237",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:40+00:00",
   "events": [
@@ -62,46 +61,74 @@
         },
         "total_tokens": 19920
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 2403,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11553,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13956
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html — Genesis 1:31 quoted passage (first paragraph containing Scripture)",
-      "severity": "critical",
-      "source_quote": "<em>And God saw every thing that he had made, and, behold, it was very good… –Genesis 1:31.</em>",
-      "suggested_fix": "Translate the quoted Scripture into Hindi, preserving the verse reference exactly. For example, replace the English quoted text with a faithful Hindi rendering of Genesis 1:31 (keeping the citation “–Genesis 1:31.”). Do not change the chapter:verse numbering or add/omit any part of the quoted verse.",
-      "translation_quote": "<em>And God saw every thing that he had made, and, behold, it was very good… –Genesis 1:31.</em>"
-    },
-    {
-      "location": "source.html — Genesis 3:12-13 and Genesis 3:16-19 quoted passages",
-      "severity": "critical",
-      "source_quote": "<em>And the man said, <strong>The woman whom thou gavest to be with me, she gave me of the tree</strong>, and I did eat. And the LORD God said unto the woman, What is this that thou hast done? And the woman said, <strong>The serpent beguiled me, and I did</strong> eat –Genesis 3:12-13.</em>\n...\n<em>Unto the woman he said, I will greatly multiply thy sorrow and thy conception; in sorrow thou shalt bring forth children; and thy desire shall be to thy husband, and he shall rule over thee. And unto Adam he said, Because thou hast hearkened unto the voice of thy wife, and hast eaten of the tree, of which I commanded thee, saying, Thou shalt not eat of it: cursed is the ground for thy sake; in sorrow shalt thou eat of it all the days of thy life; Thorns also and thistles shall it bring forth to thee; and thou shalt eat the herb of the field; In the sweat of thy face shalt thou eat bread, till thou return unto the ground; for out of it wast thou taken: for dust thou art, and unto dust shalt thou return –Genesis 3:16-19.</em>",
-      "suggested_fix": "These entire quoted biblical passages must be translated into Hindi (faithfully reflecting the printed English meaning) and the verse citations retained unchanged. Replace the English quotations with accurate Hindi translations of Genesis 3:12–13 and Genesis 3:16–19, preserving the exact verse numbers in the citation.",
-      "translation_quote": "<em>And the man said, <strong>The woman whom thou gavest to be with me, she gave me of the tree</strong>, and I did eat. And the LORD God said unto the woman, What is this that thou hast done? And the woman said, <strong>The serpent beguiled me, and I did</strong> eat –Genesis 3:12-13.</em>\n...\n<em>Unto the woman he said, I will greatly multiply thy sorrow and thy conception; in sorrow thou shalt bring forth children; and thy desire shall be to thy husband, and he shall rule over thee. And unto Adam he said, Because thou hast hearkened unto the voice of thy wife, and hast eaten of the tree, of which I commanded thee, saying, Thou shalt not eat of it: cursed is the ground for thy sake; in sorrow shalt thou eat of it all the days of thy life; Thorns also and thistles shall it bring forth to thee; and thou shalt eat the herb of the field; In the sweat of thy face shalt thou eat bread, till thou return unto the ground; for out of it wast thou taken: for dust thou art, and unto dust shalt thou return –Genesis 3:16-19.</em>"
-    },
-    {
-      "location": "source.html — Other Scripture quotations left in English (Ruth 1:20-21; Ruth 4:14-16; Jeremiah 20:14-18; James 5:16; Psalm 32 reference formatting)",
-      "severity": "critical",
-      "source_quote": "Examples:\n<em>…Call me not Naomi [pleasant], call me Mara [bitter]: for the Almighty hath dealt very bitterly with me. I went out full, and the LORD hath brought me home again empty: why then call ye me Naomi, seeing the LORD hath testified against me, and the Almighty hath afflicted me? –Ruth 1:20-21.</em>\n\n<em>And the women said unto Naomi, Blessed be the LORD, which hath not left thee this day without a kinsman... –Ruth 4:14-16.</em>\n\n<em>Cursed be the day wherein I was born... –Jeremiah 20:14-18.</em>\n\n<em>…The effectual fervent prayer of a righteous man availeth much –James 5:16.</em>\n\n(Also note earlier in the article the parenthetical reference “(See Psalm chapter 32)” in the source.)",
-      "suggested_fix": "All quoted Scripture passages must be translated into Hindi while keeping the exact chapter:verse citations unchanged. Replace each English-block quotation (Ruth 1:20–21, Ruth 4:14–16, Jeremiah 20:14–18, James 5:16, etc.) with faithful Hindi translations. Also render biblical book names, when appearing in running text as references (e.g., “See Galatians 6:2”, “See Proverbs 27:17”, “See 2 Corinthians 10:12”), into conventional Hindi forms (e.g., “गलातियों 6:2”, “नीतिवचन 27:17”, “2 कुरिन्थियों 10:12”) while preserving the numeric citations exactly.",
-      "translation_quote": "Same English biblical quotations appear in translation, e.g.:\n<em>…Call me not Naomi [pleasant], call me Mara [bitter]: for the Almighty hath dealt very bitterly with me... –Ruth 1:20-21.</em>\n\n<em>And the women said unto Naomi, Blessed be the LORD... –Ruth 4:14-16.</em>\n\n<em>Cursed be the day wherein I was born... –Jeremiah 20:14-18.</em>\n\n<em>…The effectual fervent prayer of a righteous man availeth much –James 5:16.</em>"
-    },
-    {
-      "location": "source.html — image alt text",
+      "location": "source.html — Genesis 1:31, Genesis 3:12-13, Genesis 3:16-19 (inline scripture citations)",
       "severity": "major",
-      "source_quote": "alt=\"A misty autumn forest reflected in a calm lake\"",
-      "suggested_fix": "The translation’s alt attribute is incorrect and includes the unrelated word 'शराबी'. Replace the alt text with an accurate Hindi rendering of the original English alt text, preserving the same meaning. Suggested alt: alt=\"एक शांत झील में परावर्तित धुंधले पतझड़ के जंगल का दृश्य\" (or similar idiomatic Hindi conveying 'a misty autumn forest reflected in a calm lake').",
-      "translation_quote": "alt=\"एक शांत झील में परावर्तित धुंधला शराबी शरद् वनों का दृश्य\""
+      "source_quote": "…And God saw every thing that he had made, and, behold, it was very good… –Genesis 1:31.\n\n…And the man said, The woman whom thou gavest to be with me, she gave me of the tree, and I did eat. And the LORD God said unto the woman, What is this that thou hast done? And the woman said, The serpent beguiled me, and I did eat –Genesis 3:12-13.\n\nUnto the woman he said, I will greatly multiply thy sorrow… and unto Adam he said… –Genesis 3:16-19.",
+      "suggested_fix": "Replace the English book name \"Genesis\" in each inline citation with the conventional Hindi Bible name \"उत्पत्ति\" while keeping chapter and verse unchanged. Example: change \"–Genesis 1:31.\" to \"–उत्पत्ति 1:31.\" Do the same for 3:12-13 and 3:16-19. Preserve the surrounding punctuation and HTML markup exactly as in the translation.",
+      "translation_quote": "<em>और परमेश्वर ने देखा कि उसने जो कुछ बनाया था वह सब बहुत ही अच्छा था… –Genesis 1:31.</em>\n\n<em>और मनुष्य ने कहा, <strong>वह स्त्री जिसे तूने मेरे साथ रहने के लिए दी थी, उसने मुझे उस वृक्ष का दिया</strong>, और मैंने खाया। तब यहोवा परमेश्वर ने स्त्री से कहा, यह तूने क्या किया? और स्त्री ने कहा, <strong>साँप ने मुझे फुसला दिया और मैंने</strong> खाया –Genesis 3:12-13.</em>\n\n<em>और उसने स्त्री से कहा, मैं तेरा श्रम और तेरा गर्भ अत्यधिक बढ़ाऊँगा;… –Genesis 3:16-19.</em> "
     },
     {
-      "location": "source.html — Bible book names used in running references (examples: \"Galatians 6:2\", \"Proverbs 27:17\", \"2 Corinthians 10:12\")",
+      "location": "source.html — Ruth 1:20-21 and Ruth 4:14-16 (inline scripture citations)",
       "severity": "major",
-      "source_quote": "(See Galatians 6:2)\n(See Proverbs 27:17)\n(See 2 Corinthians 10:12)",
-      "suggested_fix": "Use conventional Hindi forms for biblical book names in running text and parenthetical references. For example: \"(देखें गलातियों 6:2)\", \"(देखें नीतिवचन 27:17)\", \"(देखें 2 कुरिन्थियों 10:12)\". Keep chapter and verse numbers identical and in the same positions.",
-      "translation_quote": "Translator left these references as English words: \"(देखें Galatians 6:2)\", \"(देखें Proverbs 27:17)\", \"(देखें 2 Corinthians 10:12)\" (note: some appear untranslated or inconsistent)"
+      "source_quote": "…Call me not Naomi [pleasant], call me Mara [bitter]: for the Almighty hath dealt very bitterly with me… –Ruth 1:20-21.\n\nAnd the women said unto Naomi, Blessed be the LORD, which hath not left thee this day without a kinsman… –Ruth 4:14-16.",
+      "suggested_fix": "Replace the English book name \"Ruth\" in inline citations with the conventional Hindi Bible name \"रूत\" while keeping chapter and verse unchanged. Example: change \"–Ruth 1:20-21.\" to \"–रूत 1:20-21.\" Preserve punctuation and HTML markup exactly.",
+      "translation_quote": "<em>…मुझको नाओमी [सुखद] न कहा करो, मुझे मारा [कड़वा] कहा करो: क्योंकि सर्वशक्तिमान ने मेरे साथ बहुत कड़वी तुक्की की है… –Ruth 1:20-21.</em>\n\n<em>तब स्त्रियाँ नाओमी से कहने लगीं, धन्य हो वह यहोवा, जिसने आज तुझे एक नाते वाला न छोड़ा… –Ruth 4:14-16.</em> "
+    },
+    {
+      "location": "source.html — Jeremiah 20:14-18 (inline scripture citation)",
+      "severity": "major",
+      "source_quote": "Cursed be the day wherein I was born: let not the day wherein my mother bare me be blessed… –Jeremiah 20:14-18.",
+      "suggested_fix": "Replace the English book name \"Jeremiah\" in the inline citation with the conventional Hindi Bible name \"यिर्मयाह\" (chapter and verse unchanged). Example: change \"–Jeremiah 20:14-18.\" to \"–यिर्मयाह 20:14-18.\" Preserve surrounding punctuation and HTML markup.",
+      "translation_quote": "<em>शापित हो वह दिन जिसमें मैं जन्मा; वह दिन जिसमें मेरी माता ने मुझे जन्म दिया, धन्य न हो… –Jeremiah 20:14-18.</em> "
+    },
+    {
+      "location": "source.html — James 5:16 (two occurrences)",
+      "severity": "major",
+      "source_quote": "…The effectual fervent prayer of a righteous man availeth much –James 5:16.\n\nConfess your faults one to another, and pray one for another, that ye may be healed… –James 5:16.",
+      "suggested_fix": "Replace the English book name \"James\" in both inline citations with the conventional Hindi Bible name \"याकूब\" (or the target site's preferred Hindi form for James) while keeping chapter and verse unchanged. Example: change \"–James 5:16.\" to \"–याकूब 5:16.\" Keep punctuation and HTML markup as in the translation.",
+      "translation_quote": "<em>…धर्मी पुरुष की प्रभावशाली, उग्र प्रार्थना बहुत कुछ कर सकती है –James 5:16.</em>\n\n<em>एक दूसरे से अपने अपराध स्वीकार करो, और एक दूसरे के लिए प्रार्थना करो, कि तुम स्वास्थ्य पाओ… –James 5:16.</em> "
+    },
+    {
+      "location": "source.html — several other inline citations left partially anglicized or inconsistent (overall scripture citation consistency)",
+      "severity": "minor",
+      "source_quote": "Original English used conventional English book names for citations such as \"Genesis,\" \"Ruth,\" \"Jeremiah,\" and \"James.\"",
+      "suggested_fix": "Ensure consistency across the article by converting all inline scripture citation book names to their conventional Hindi equivalents (उत्पत्ति, रूत, यिर्मयाह, याकूब, भजन/नीतिवचन/2 कुरिन्थियों already appear correctly). Verify the site’s preferred Hindi forms for book names and apply them uniformly. Do not change chapter or verse numbers or the placement/format of the citations.",
+      "translation_quote": "The translation has mixed Hindi and English book names (e.g. Nीतिवचन and 2 कुरिन्थियों are in Hindi, but Genesis/Ruth/Jeremiah/James remain in English in the inline citations)."
+    },
+    {
+      "location": "source.html — paragraph about Jeremiah (typo/garbled text)",
+      "severity": "minor",
+      "source_quote": "Jeremiah’s life was constantly under threat. At one time, he was thrown into a dungeon full of mud and was only rescued at the last minute. Jerusalem was besieged three different times before the Babylonians razed it. Through his decades of ministry, Jeremiah told the people what God was asking of them, and the people constantly ignored it.",
+      "suggested_fix": "Correct the garbled name fragment in the Hindi translation where the author name is corrupted. Replace the incorrect sequence \"यरम Jerem ने\" with the correct Hindi rendering of the name and verb: e.g. \"यरमयाह ने लोगों को बताया कि...\" Ensure spacing and diacritics are correct.",
+      "translation_quote": "\"यरमियम का जीवन सदैव खतरे में था... अपनी दशकों लंबी सेवा के दौरान, यरम Jerem ने लोगों को बताया कि परमेश्वर उनसे क्या माँग रहा है...\" (contains the erroneous fragment \"यरम Jerem\")"
     }
   ],
+  "finished_at": "2026-10-02T13:07:11+00:00",
   "id": "b3c27c13b4ffc7e28d30e1a611c4b24e",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "hin",
@@ -175,13 +202,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 80,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f177e57409e960665e128f135c5d31a6b5c47dfb179f4bf630790d509d4b9294.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "5dadc96220966a62c190dc496511f1659046db2b2d97b2ce157a164fa768d4e2",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

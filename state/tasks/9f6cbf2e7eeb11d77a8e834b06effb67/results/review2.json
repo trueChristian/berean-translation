@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5c7f572d-a4f3-45d0-9b11-7627ac888517",
+    "response_id": "chatcmpl-EUXENSKVNd5DQjHARR7BRyX7pzgrg",
+    "usage": {
+      "completion_tokens": 1050,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5137,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6187
+    }
+  },
+  "received_at": "2026-10-02T13:07:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"This hymn was originally written having the title, “On the Resurrection,” and there were eight stanzas, as follows:\"",
+        "severity": "major",
+        "source_quote": "“On the Resurrection”",
+        "suggested_fix": "Translate the quoted original title into Portuguese while preserving punctuation and HTML. Replace “On the Resurrection” with “'Sobre a Ressurreição'” (including the same quotation marks). Example replacement in context: \"Este hino foi originalmente escrito com o título 'Sobre a Ressurreição' e tinha oito estrofes, como segue:\"",
+        "translation_quote": "“On the Resurrection”"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

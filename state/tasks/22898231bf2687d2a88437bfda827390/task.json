@@ -2,7 +2,6 @@
   "article_id": "9240e6d5-f395-4db7-ab6f-3b4b603d6ea0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "13ec55b413584b4e81cc1b0f52def237",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:40+00:00",
   "events": [
@@ -62,32 +61,38 @@
         },
         "total_tokens": 16190
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 917,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10550,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11467
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "source.title",
-      "severity": "major",
-      "source_quote": "Depression",
-      "suggested_fix": "Translate the English title into Dutch. Replace the translation title text with a natural Dutch rendering such as: \"Depressie\".",
-      "translation_quote": "Depression"
-    },
-    {
-      "location": "source.section",
-      "severity": "major",
-      "source_quote": "A Word From A Doctor",
-      "suggested_fix": "Translate the section/strapline into Dutch. Replace the translation section text with a natural Dutch rendering such as: \"Een woord van een (huis)arts\" or \"Een woord van een dokter\" (consistent with site style).",
-      "translation_quote": "A Word From A Doctor"
-    },
-    {
-      "location": "article body — paragraph mentioning Job’s friends",
+      "location": "Paragraph with James quote (near heading “Bid\")",
       "severity": "minor",
-      "source_quote": "We know the story of Job’s friends.",
-      "suggested_fix": "Fix the English-style possessive in Dutch. Replace “Job’s vrienden” with the standard Dutch form without an apostrophe, e.g. \"Jobs vrienden\" or rephrase to \"We kennen het verhaal van de vrienden van Job.\"",
-      "translation_quote": "We kennen het verhaal van Job’s vrienden."
+      "source_quote": "…The effectual fervent prayer of a righteous man availeth much –James 5:16.",
+      "suggested_fix": "Correct the Dutch grammar while preserving the sense and the verse reference. For example: \"…Het krachtige, vurige gebed van een rechtvaardige vermag veel –Jakobus 5:16.\" Preserve the HTML tags and placement.",
+      "translation_quote": "…De effectieve, vurige gebed van een rechtvaardige vermag veel –Jakobus 5:16."
     }
   ],
+  "finished_at": "2026-10-02T13:07:10+00:00",
   "id": "22898231bf2687d2a88437bfda827390",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "nld",
@@ -161,13 +166,13 @@
     }
   },
   "protected": false,
-  "quality_score": 85,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f177e57409e960665e128f135c5d31a6b5c47dfb179f4bf630790d509d4b9294.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "5dadc96220966a62c190dc496511f1659046db2b2d97b2ce157a164fa768d4e2",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

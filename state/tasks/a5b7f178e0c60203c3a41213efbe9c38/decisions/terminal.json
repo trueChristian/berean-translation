@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph: \"In the natural world our “old man” has the tendency...\" (third paragraph under \"Church History and Should A Christian Vote\")",
+      "severity": "major",
+      "source_quote": "In the natural world our “old man” has the tendency to think that we must “do something” if we expect things to go in a “right” direction.",
+      "suggested_fix": "Translate the theological term “old man” with a standard Kiswahili equivalent that preserves the Pauline meaning (the sinful self/old nature). For example: “Katika ulimwengu wa kawaida tabia ya mwanadamu wetu wa zamani (au ‘mwili wetu wa zamani’/‘asili yetu ya zamani ya dhambi’) ni kufikiri kwamba tunapaswa ‘kufanya jambo’…” Ensure the phrase conveys the biblical sense of the believer’s old sinful nature rather than simply ‘mwanamme wa zamani’.",
+      "translation_quote": "Kwenye ulimwengu wa kawaida, mwanaume wetu wa zamani ana tabia ya kufikiri kwamba lazima “tufanye jambo” tukitarajia mambo yaende kwa mwelekeo “sahihi”."
+    },
+    {
+      "location": "Paragraph containing Daniel quotation (same paragraph as Proverbs)",
+      "severity": "critical",
+      "source_quote": "…That the most High ruleth in the kingdom of men, and giveth it to whomsoever he will –Daniel 4:31-32.",
+      "suggested_fix": "The translation changes the meaning: ‘giveth it to whomsoever he will’ was rendered as ‘humzika kwa yeyote atakayemtaka’ (which implies ‘buries’). This is a substantive mistranslation and must be corrected. Use a faithful Kiswahili rendering preserving the sense ‘hutawaza/humpa kwa yeyote atakayemtaka’ or the conventional Bible phrasing: “Kwa maana Aliye juu mno hutawala katika ufalme wa wanadamu, na humpa yule atakayemtaka.” Replace the incorrect verb “humzika” with “humpa” or another accurate equivalent.",
+      "translation_quote": "<em>…Kwa kuwa Aliye juu mno hutawala katika ufalme wa wanadamu, na humzika kwa yeyote atakayemtaka – Danieli 4:31-32.</em>"
+    },
+    {
+      "location": "Paragraph with Matthew quotation (paragraph about prayer and faith)",
+      "severity": "major",
+      "source_quote": "And Jesus said unto them … verily I say unto you, If ye have faith as a grain of mustard seed, ye shall say unto this mountain, Remove hence to yonder place; and it shall remove; and nothing shall be impossible unto you –Matthew 17:20.",
+      "suggested_fix": "The translation renders ‘verily I say unto you’ incorrectly as “kwa kweli nawapongeza” (I praise you). This changes the meaning and must be corrected to a faithful rendering such as “nimwambia kweli” or “kwa kweli nawaambia ninyi”. Also keep the rest of the verse idiomatic and accurate: e.g. “Na Yesu akawaambia: Ta, kwa kweli nawaambia, Ikiwa mtakuwa na imani kama chembe ya haradali, mtasema mlima huu, Hamia hapa pale; nao utahama; wala hakuna kitakachokuwa kisichowezekana kwenu.”",
+      "translation_quote": "<em>Na Yesu akawaambia … kwa kweli nawapongeza, Ikiwa mtakuwa na imani kana kwamba chembe ya haradali, mtasema mlima huu, Hama hapa mkale pale; nao watahama; wala hakuna kitakachokuwa kikizuilika kwenu – Mathayo 17:20.</em>"
+    },
+    {
+      "location": "Paragraph quoting Hebrews 11:13-16 (same paragraph as two-kingdom principle)",
+      "severity": "major",
+      "source_quote": "…strangers and pilgrims on the earth. [While we] …declare plainly that [we] seek a country …a better country, that is, an heavenly: wherefore God is not ashamed to be called [our] God: for he hath prepared for [us] a city –Hebrews 11:13-16.",
+      "suggested_fix": "The translation contains an awkward and inaccurate phrase “wageni na wapanda-famba duniani.” This distorts the meaning. Use standard Kiswahili phrasing for ‘strangers and pilgrims’: e.g. “wageni na wapita-kwenyafuta/waombolezaji wa dunia’ is wrong — better: “wageni na wapita njia duniani” or preferably the conventional Bible wording: “wageni na wapita njia duniani.” Revise to: “…tuchukue kuwa wageni na wapita- njia duniani… kwa hiyo Mungu hakudharau kuitwa Mungu wetu; kwa maana ametuandalia mji.”",
+      "translation_quote": "<em>…wageni na wapanda-famba duniani. [Wakati] …tunatangaza wazi kwamba [tunasubiri] nchi …nchi iliyo bora, yaani, ile ya mbinguni: kwa hiyo Mungu hakudharau kuitwa Mungu wetu: kwa kuwa ametuandalia mji – Waebrania 11:13-16.</em>"
+    },
+    {
+      "location": "Paragraph quoting 2 Corinthians 6:17 (same paragraph as Hebrews)",
+      "severity": "minor",
+      "source_quote": "In all things involving political involvement, it is our encouragement that New Testament believers should obey the command to <em>…come out from among them, and be ye separate… –2 Corinthians 6:17.</em>",
+      "suggested_fix": "The translation renders the English sentence awkwardly and introduces a grammatical error: “ni wanihimiza wetu kwamba waumini…” should be grammatical Kiswahili and preserve that this is the magazine’s encouragement. Suggest: “Katika mambo yote yanayohusiana na ushiriki wa kisiasa, tunawahimiza waumini wa Agano Jipya kuwa watiifu kwa amri ya…” or “ni upendo wetu kuwaelimisha…” Replace “ni wanihimiza wetu” with “tunawahimiza” or “ni wito wetu kuwaelimisha”.",
+      "translation_quote": "<em>Katika mambo yote yanayohusiana na ushiriki wa kisiasa, ni wanihimiza wetu kwamba waumini wa Agano Jipya watii amri ya <em>…tokeeni katikati yao, na wajitofautishe… – 2 Wakorintho 6:17.</em></em>"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

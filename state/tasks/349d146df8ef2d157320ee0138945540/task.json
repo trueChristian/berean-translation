@@ -2,7 +2,6 @@
   "article_id": "f09d8cd5-b48f-470f-936f-263e6940b6bd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "13ec55b413584b4e81cc1b0f52def237",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,53 +61,46 @@
         },
         "total_tokens": 9122
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1130,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5326,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6456
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "<p><em> (opening scripture paragraph)",
+      "location": "<div class=\"lyrics\"> (third stanza)",
       "severity": "critical",
-      "source_quote": "Thou art worthy, O Lord, to receive glory and honour and power: for thou hast created all things, and for thy pleasure they are and were created –Revelation 4:11.",
-      "suggested_fix": "Translate the verse faithfully to Swedish, preserving its sense (\"for thy pleasure they are and were created\" = \"för ditt behag/behagets skull blev de skapade och är till\"). Keep the citation formatting and the em tag unchanged. Example: <em>Du är värdig, Herre, att ta emot härlighet och ära och makt; ty du har skapat allt, och för ditt behag blev de skapade och är till – Uppenbarelseboken 4:11.</em>",
-      "translation_quote": "Du är värdig, Herre, att ta emot härlighet och ära och makt; ty du har skapat allt, och därigenom, att de finns till och blev skapade – Uppenbarelseboken 4:11."
+      "source_quote": "Crown Him, ye morning stars of light,\nWho fixed this floating ball,\nNow hail the Strength of Israel’s might,\nAnd crown Him Lord of all!",
+      "suggested_fix": "Translate the full stanza into Swedish, ensuring no English words remain. For example: \"Kröna Honom, ni morgonstjärnor av ljus,\nSom fäste denna flytande kula,\nHälsa nu Israels makt och styrka,\nOch kröna Honom som Herre över allt!\" (preserve stanza order and line breaks/tags).",
+      "translation_quote": "Kröna Honom, ni morgonstjärnor av ljus,\nSom fäste denna flytande kula,\nHail nu styrkan i Israels kraft,\nOch kröna Honom Herre över allt!"
     },
     {
-      "location": "<div class=\"lyrics\"> (eight original hymn stanzas)",
+      "location": "<div class=\"lyrics\"> (seventh stanza)",
       "severity": "critical",
-      "source_quote": "All hail the power of Jesus’ name, Let angels prostrate fall Bring forth the royal diadem, To crown Him Lord of all! ... (all 8 English stanzas)",
-      "suggested_fix": "All quoted substantive hymn text must be translated into Swedish and remain inside the same <div class=\"lyrics\"> tag, preserving <p> and <br> structure and order. Provide a faithful Swedish rendering of each stanza. Do not leave the English lyrics. Example: translate the stanza headings and lines into Swedish, e.g. \"Hyll honom, Jesu namn så högt / Låt änglar falla i djupets ro...\" (translator should produce a literal-faithful Swedish version consistent with the hymn meaning).",
-      "translation_quote": "All hail the power of Jesus’ name,\n    Let angels prostrate fall\n    Bring forth the royal diadem,\n    To crown Him Lord of all! ... (all 8 English stanzas remain untranslated)"
-    },
-    {
-      "location": "Second <div class=\"lyrics\"> (added stanza by John Rippon)",
-      "severity": "critical",
-      "source_quote": "Oh, that with yonder sacred throng We at His feet may fall; We’ll join the everlasting song, And crown Him Lord of all.",
-      "suggested_fix": "Translate this added stanza into Swedish and keep it within the same <div class=\"lyrics\"> structure and <p> tag. Ensure it is rendered as quoted hymn text in Swedish, preserving stanza order and punctuation. Example: translate to Swedish equivalent: \"Ack att vi med den heliga hopen / vid hans fötter falla ner; / Vi sluter oss till evighetens sång, / och kröner honom Herre över allt.\"",
-      "translation_quote": "Oh, that with yonder sacred throng\n    We at His feet may fall;\n    We’ll join the everlasting song,\n    And crown Him Lord of all."
-    },
-    {
-      "location": "source.title and top title element",
-      "severity": "major",
-      "source_quote": "All Hail the Power of Jesus Name",
-      "suggested_fix": "Translate the article title into standard contemporary Swedish, preserving meaning. The title is quoted substantive prose and should be rendered in the target language (or provide a conventional Swedish rendering used in hymnals). Example: \"Hyll Jesu namn\" or a conventional Swedish hymn title equivalent such as \"Hosianna åt Jesu namn\" (consult editorial style). Keep the title element unchanged otherwise.",
-      "translation_quote": "All Hail the Power of Jesus Name"
-    },
-    {
-      "location": "Throughout article — hymn title occurrences and quoted English phrases (e.g. “All Hail the Power of Jesus Name”, quoted within paragraphs and story)",
-      "severity": "major",
-      "source_quote": "The text of this hymn, All Hail the Power of Jesus Name, has been translated into almost every language... \"All hail the power of Jesus’ name!\" (in narrative and quotes)",
-      "suggested_fix": "Render quoted hymn title and any quoted English hymn lines inside narrative paragraphs into Swedish. Quoted substantive prose must be translated; maintain HTML structure and citations. For example: translate the inline title to the Swedish form chosen for the article title, and translate any short quotes of hymn lines into Swedish as well.",
-      "translation_quote": "All Hail the Power of Jesus Name; \"All hail the power of Jesus’ name!\""
-    },
-    {
-      "location": "References list — untranslated book titles",
-      "severity": "minor",
-      "source_quote": "A Treasury of Hymn Stories\n101 Hymn stories",
-      "suggested_fix": "Translate or provide Swedish bibliographic rendering for referenced book titles if editorial policy requires translating quoted substantive bibliographic titles. At minimum, keep them consistently formatted; if translated, preserve original title in parentheses. Ensure line breaks and <br> tags are unchanged.",
-      "translation_quote": "A Treasury of Hymn Stories\n101 Hymn stories"
+      "source_quote": "Sinners, whose love can ne’er forget\nThe wormwood and the gall,\nGo spread your trophies at His feet,\nAnd crown Him Lord of all!",
+      "suggested_fix": "Correct the mistranslation of \"wormwood\" (meaning the bitter herb 'wormwood' = malört) and render the stanza faithfully in Swedish. Suggested translation preserving meaning: \"Syndare, vars kärlek aldrig kan glömma\nMalörtens bitterhet och gallan,\nGå sprid era troféer vid Hans fötter,\nOch kröna Honom som Herre över allt!\"",
+      "translation_quote": "Syndare, vars kärlek aldrig kan glömma\nMaskrosens bitterhet och gallan,\nGå sprid era troféer vid Hans fötter,\nOch kröna Honom Herre över allt!"
     }
   ],
+  "finished_at": "2026-10-02T13:07:11+00:00",
   "id": "349d146df8ef2d157320ee0138945540",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "swe",
@@ -182,13 +174,13 @@
     }
   },
   "protected": false,
-  "quality_score": 55,
+  "quality_score": 68,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6b076b1f67d6fafc1720a4ac2de4e895d6d3d4ebd14b1f3db48cc7447fd2506b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "paragraph 2 (translation)",
+      "severity": "minor",
+      "source_quote": "Still others think the bride will be raptured before this, hence nothing for us to be concerned with.",
+      "suggested_fix": "Replace the awkward phrase “die bruidegom se bruid sal voor dit verhef word” with a natural rendering of the English meaning, e.g. “die bruid sal hieraan vooraf verhef word” so it reads that some believe ‘the bride’ (the church) will be raptured before these events.",
+      "translation_quote": "Weer ander dink die bruidegom se bruid sal voor dit verhef word, dus is daar niks om oor bekommerd te wees nie."
+    },
+    {
+      "location": "paragraph 3 (translation)",
+      "severity": "minor",
+      "source_quote": "One of the things you will notice in this writing is that I don’t call the Covid shot a ‘vaccine’.",
+      "suggested_fix": "Correct the punctuation/extra quote around the Afrikaans word for vaccine. For example: change “die Covid-inspuiting nie ’n '-entstof' noem nie.” to “die Covid-inspuiting nie ’n entstof noem nie.” (preserve surrounding HTML tags).",
+      "translation_quote": "Een van die dinge wat u in hierdie stuk sal opmerk, is dat ek die Covid-inspuiting nie ’n '-entstof' noem nie."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

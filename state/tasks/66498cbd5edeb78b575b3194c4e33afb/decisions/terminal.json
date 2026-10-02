@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html — opening paragraph/phrase",
+      "severity": "minor",
+      "source_quote": "Now Moses kept the flock of Jethro his father-in-law, the priest of Midian: and he led the flock to the backside of the desert, and came to the mountain of God, even to Horeb –Exodus 3:1.",
+      "suggested_fix": "Consider using a more idiomatic Italian rendering of “the backside of the desert.” The current translation uses «Il retro del deserto», which is understandable but slightly literal. Suggest: «la parte posteriore del deserto» or «lato posteriore del deserto» to sound more natural in contemporary Italian. Preserve the surrounding tags and punctuation.",
+      "translation_quote": "<em>Ora Mosè pascolava il gregge di Ietro, suo suocero, sacerdote di Madian; e condusse il gregge dietro il deserto, e venne al monte di Dio, a Horeb –Esodo 3:1.</em>"
+    },
+    {
+      "location": "figure > img @alt",
+      "severity": "minor",
+      "source_quote": "A broad desert valley beneath layered mountains and clouds",
+      "suggested_fix": "Alt text is translated and accurate, but could be made more idiomatic and fluent in Italian. Suggest: «Una vasta valle desertica sotto montagne stratificate e nuvole» to match register and natural phrasing. Edit only the alt attribute value.",
+      "translation_quote": "alt=\"Una ampia valle desertica sotto montagne stratificate e nuvole\""
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

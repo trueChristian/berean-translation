@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.section",
+      "severity": "minor",
+      "source_quote": "FROM THE EDITOR",
+      "suggested_fix": "Use a target-language rendering that matches the singular sense of the English section header and the translated title. Change \"DE LA REDACCIÓN\" to \"DEL EDITOR\" so the section header corresponds to the source and to the translated title.",
+      "translation_quote": "DE LA REDACCIÓN"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

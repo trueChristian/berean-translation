@@ -2,7 +2,6 @@
   "article_id": "f09d8cd5-b48f-470f-936f-263e6940b6bd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "13ec55b413584b4e81cc1b0f52def237",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,39 +61,53 @@
         },
         "total_tokens": 9290
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1585,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5538,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7123
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html — paragraph 2 (sentence mentioning the hymn title)",
+      "location": "end of article — References list",
       "severity": "major",
-      "source_quote": "The text of this hymn, All Hail the Power of Jesus Name, has been translated into almost every language where Christianity is known.",
-      "suggested_fix": "Translate the hymn's English title into Russian in-line (preserve it as a title), e.g. «текст этого гимна, «Да здравствует власть Иисусова Имени», был переведён...». Do not leave the substantive quoted title in English.",
-      "translation_quote": "Текст этого гимна, All Hail the Power of Jesus Name, был переведён почти на все языки, где известна христианская вера."
+      "source_quote": "References:\n  A Treasury of Hymn Stories\n  101 Hymn stories\n  “Coronation” Tune -Oliver Holden 1765-1844\n  “Miles Lane” Tune -William Shrubsole, 1760-1806\n  “Diadem” Tune -James Elliot, 1838\n  “Let Us Crown Him” Tune -James McGranahan 1840-1907",
+      "suggested_fix": "Translate the non-proper-book titles into Russian (or mark them as original‑language titles consistently if intentionally left untranslated). At minimum, render the two book titles into Russian while preserving tune names and composer names as proper nouns. Example: «Ссылки:\\nСокровищница историй гимнов (A Treasury of Hymn Stories)\\n101 история гимнов (101 Hymn Stories)\\n“Coronation” — Оливер Холден 1765–1844\\n“Miles Lane” — Уильям Шрубсол (William Shrubsole) 1760–1806\\n“Diadem” — Джеймс Эллор 1838\\n“Let Us Crown Him” — Джеймс МакГрэхан 1840–1907»",
+      "translation_quote": "Ссылки:<br>\n  A Treasury of Hymn Stories<br>\n  101 Hymn stories<br>\n  “Coronation” Tune -Oliver Holden 1765-1844<br>\n  “Miles Lane” Tune -William Shrubsole, 1760-1806<br>\n  “Diadem” Tune -James Elliot, 1838<br>\n  “Let Us Crown Him” Tune -James McGranahan 1840-1907"
     },
     {
-      "location": "source.html — <figure> img alt attribute",
-      "severity": "major",
-      "source_quote": "Sheet music for All Hail the Power of Jesus’ Name, tune DIADEM C. M. with Refrain",
-      "suggested_fix": "Translate the entire alt text into Russian and translate the hymn title portion as well. For example: \"Нотная запись гимна «Да здравствует власть Иисусова Имени», мелодия DIADEM C. M. с припевом\" — i.e., replace the English hymn title with the Russian title used in the article.",
-      "translation_quote": "Нотная запись гимна All Hail the Power of Jesus’ Name, мелодия DIADEM C. M. с припевом"
-    },
-    {
-      "location": "source.html — occurrences of the hymn title in running text",
-      "severity": "major",
-      "source_quote": "All Hail the Power of Jesus Name (appears twice in source running text)",
-      "suggested_fix": "Replace the in-text English hymn title with its Russian rendering used for the article title («Да здравствует власть Иисусова Имени»). Quoted substantive prose must be translated into the target language; keep the original as a parenthetical only if the editor requires both-language display, but the authoritative English must be presented in translated form in the article body.",
-      "translation_quote": "All Hail the Power of Jesus Name (appears untranslated in the Russian article text)"
-    },
-    {
-      "location": "source.html — various occurrences of author name Perronet (spelling variants)",
+      "location": "paragraph naming the hymn editor/Toplady",
       "severity": "minor",
-      "source_quote": "Edward Perronet (source uses single consistent spelling 'Perronet')",
-      "suggested_fix": "Use a single consistent Russian transliteration throughout. For example, standardize on «Перронет» (no diacritic) or «Перроне́т» but apply it consistently. Update all occurrences to match chosen form.",
-      "translation_quote": "Эдвард Перроне́т / Перронет (both forms appear in the translation)"
+      "source_quote": "It was edited by Augustus Toplady, who is also the author of another well-known hymn, “Rock of Ages”.",
+      "suggested_fix": "Prefer the conventional Russian transliteration of the name Augustus Toplady. Use «Огастус Топледи» or «Огастас Топлэди» only if supported by the publication’s style; otherwise use the common Russian form «Огастас Топледи» or simply «Аугустус Топлади». Ensure consistency throughout the article. Example replacement: «Редактировал текст Огастас Топледи, также являющийся автором другого хорошо известного гимна „Скала веков“ (Rock of Ages).»",
+      "translation_quote": "Редактировал текст Огастус Топлади, также являющийся автором другого хорошо известного гимна «Скала веков» (Rock of Ages)."
+    },
+    {
+      "location": "references — composer William Shrubsole transliteration",
+      "severity": "minor",
+      "source_quote": "“Miles Lane” Tune -William Shrubsole, 1760-1806",
+      "suggested_fix": "Adjust the transliteration of the composer William Shrubsole to a more conventional Russian form (e.g., «Уильям Шрубсол» or «Уильям Шрабсол»). Ensure consistency with other name transliterations in the article. Example: «„Miles Lane“ — Уильям Шрубсол, 1760–1806.»",
+      "translation_quote": "“Miles Lane”, составленная Уильямом Шрабсолом, — самая популярная в Великобритании."
     }
   ],
+  "finished_at": "2026-10-02T13:07:11+00:00",
   "id": "bcbfa859ef8f2393e84eaf41658f9423",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "rus",
@@ -168,13 +181,13 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 72,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6b076b1f67d6fafc1720a4ac2de4e895d6d3d4ebd14b1f3db48cc7447fd2506b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

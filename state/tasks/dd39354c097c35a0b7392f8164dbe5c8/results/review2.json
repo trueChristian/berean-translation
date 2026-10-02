@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b58b1bc8-9f6d-4cf1-b202-f49d734f8fc1",
+    "response_id": "chatcmpl-EUXEdt9EDVe6g8ufv3WE8XEdOOpoT",
+    "usage": {
+      "completion_tokens": 736,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3965,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4701
+    }
+  },
+  "received_at": "2026-10-02T13:07:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph containing “loiter along the way.” (English) / translation html same paragraph",
+        "severity": "minor",
+        "source_quote": "So, mother gave us a container, and we started out on our long walk as Mother called after us and reminded us not to loiter along the way.",
+        "suggested_fix": "Remove the parenthetical rendering and use a single idiomatic phrase in Hindi. For example: “तो माँ ने हमें एक डिब्बा दिया, और हम अपनी लंबी टहल पर निकल पड़े, और माँ हमारे पीछे चिल्लाई और रास्ते में आलस्य न करने की चेतावनी देती रही।” (Preserve the HTML and punctuation as in the translation.)",
+        "translation_quote": "तो माँ ने हमें एक डिब्बा दिया, और हम अपनी लंबी टहल पर निकल पड़े, और माँ हमारे पीछे चिल्लाई और रास्ते में टहलने (आलस्य करने) से मना करना याद दिलाती रही।"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

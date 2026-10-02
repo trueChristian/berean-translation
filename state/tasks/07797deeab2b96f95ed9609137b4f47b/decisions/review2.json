@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph defining 'Plaiting' (near \"Nå la oss se på noen flere av ordene...\")",
+      "severity": "minor",
+      "source_quote": "Plaiting: folding, doubling, braiding.",
+      "suggested_fix": "'Plaiting' bør oversettes med en tydelig ekvivalent som først og fremst betyr fletting/braiding. Forslag: «Fletting: å flette; sammenflette, flette hår.» Behold gjerne én eller to forklarende synonymer, men unngå 'å brette, doble' som kan gi feil inntrykk.",
+      "translation_quote": "Fletting: å brette, doble, flette."
+    },
+    {
+      "location": "Paragraph \"The ornaments of modesty...\" (near Isaiah 61:10)",
+      "severity": "minor",
+      "source_quote": "The ornaments of modesty, shamefacedness, sobriety, faith, charity, peace, righteousness, meekness, and quietness are truly jewels of great price.",
+      "suggested_fix": "Det norske «Prydene av beskjedenhet...» er forståelig men litt uidiomatisk. Forslag: «Prydene av beskjedenhet, skamfullhet, edruelighet, tro, kjærlighet, fred, rettferdighet, mildhet og stillhet er virkelig perler av stor verdi.» (bruk 'edruelighet' eller 'besinnelse' konsekvent med tidligere bruk).",
+      "translation_quote": "Prydene av beskjedenhet, skamfullhet, edruelighet, tro, kjærlighet, fred, rettferdighet, mildhet og stillhet er virkelig perler av stor verdi."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

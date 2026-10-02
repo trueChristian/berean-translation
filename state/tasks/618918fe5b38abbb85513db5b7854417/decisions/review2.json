@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<article> first paragraph (first non-italic sentence)",
+      "severity": "major",
+      "source_quote": "The text of this hymn, All Hail the Power of Jesus Name, has been translated into almost every language where Christianity is known.",
+      "suggested_fix": "Translate the hymn title into Afrikaans where it appears in running text, matching the translated title used elsewhere. For example: \"Die teks van hierdie gesang, Ere aan die Naam van Jesus toe!, is in byna elke taal vertaal ...\" Preserve surrounding HTML and punctuation.",
+      "translation_quote": "Die teks van hierdie gesang, All Hail the Power of Jesus Name, is in byna elke taal vertaal waar Christusendom bekend is."
+    },
+    {
+      "location": "<figure> <img> alt attribute",
+      "severity": "major",
+      "source_quote": "alt=\"Sheet music for All Hail the Power of Jesus’ Name, tune DIADEM C. M. with Refrain\"",
+      "suggested_fix": "Translate the alt text fully into Afrikaans and use the translated hymn title. For example: alt=\"Musiekblad vir 'Ere aan die Naam van Jesus toe!', melodie DIADEM C. M. met refrein\". Preserve the img tag and other attributes exactly.",
+      "translation_quote": "alt=\"Musiekpapier vir All Hail the Power of Jesus’ Name, melodie DIADEM C. M. met Refrein\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

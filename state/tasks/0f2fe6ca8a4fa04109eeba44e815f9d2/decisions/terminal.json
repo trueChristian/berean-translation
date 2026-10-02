@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>…So, mother gave us a container, and we started out on our long walk…</p>",
+      "severity": "minor",
+      "source_quote": "So, mother gave us a container, and we started out on our long walk as Mother called after us and reminded us not to loiter along the way.",
+      "suggested_fix": "Replace the Korean word 용기 (which more commonly reads as 'courage') with a clearer container word such as '그릇' or '용기(그릇)' to unambiguously convey that they were given a container for sugar. Example: “그래서 엄마는 그릇 하나를 주시고 우리가 길게 걸어가게 되었지.” Preserve the surrounding HTML and punctuation.",
+      "translation_quote": "그래서 엄마는 용기를 하나 주시고 우리가 길게 걸어가게 되었지."
+    },
+    {
+      "location": "<figure> <img ... alt=\"A brindle dog wearing a chain collar\" ...>",
+      "severity": "minor",
+      "source_quote": "A brindle dog wearing a chain collar",
+      "suggested_fix": "The parenthetical '브린들' is a transliteration that may be unfamiliar to general Korean readers. Consider using only the descriptive Korean adjective or add a short clarifying phrase: e.g., '줄무늬(브린들) 개' or '얼룩무늬(브린들) 개' so the meaning is immediately clear. Preserve the alt attribute structure.",
+      "translation_quote": "사슬 목걸이를 한 호랑이무늬(브린들) 개"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

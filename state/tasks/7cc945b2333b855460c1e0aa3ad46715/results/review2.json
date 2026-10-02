@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "87226622-e7e6-49ea-b6f6-9031cbdad20d",
+    "response_id": "chatcmpl-EUXEX1VyjKZpSGYKqwbxXX4If3CSG",
+    "usage": {
+      "completion_tokens": 1805,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5352,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7157
+    }
+  },
+  "received_at": "2026-10-02T13:07:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"lyrics\"> (first stanza block), 3rd stanza source lines: \"Crown Him, ye morning stars of light, / Who fixed this floating ball, / Now hail the Strength of Israel’s might, / And crown Him Lord of all!\"",
+        "severity": "major",
+        "source_quote": "Crown Him, ye morning stars of light,\nWho fixed this floating ball,\nNow hail the Strength of Israel’s might,\nAnd crown Him Lord of all!",
+        "suggested_fix": "Gjenoversett denne strofen slik den gjengir forfatterens betydning: for eksempel «Kron Ham, dere morgenstjerner av lys, / Som fastsatte denne flytende klode, / Hyl nå Israels styrke og kraft, / Og krone Ham til Herre for alt!» Behold setningsstruktur og bibelsk bilde (»Israel’s might») — ikke innfør nye navn eller meningsforskyvninger. Behold linjedeling og HTML-taggene som i kilden.",
+        "translation_quote": "Kron Ham, dere morgenstjerner så klare,\nSom fastla dette flytende klodeball,\nGni nå Israels styrkes navn og prise Ham fare,\nOg krone Ham til Herre for alt!"
+      },
+      {
+        "location": "<div class=\"lyrics\"> (first stanza block), 4th stanza source lines: \"Crown Him, ye martyrs of your God, / Who from His altar call; / Extol the stem of Jesse’s rod, / And crown Him Lord of all!\"",
+        "severity": "critical",
+        "source_quote": "Crown Him, ye martyrs of your God,\nWho from His altar call;\nExtol the stem of Jesse’s rod,\nAnd crown Him Lord of all!",
+        "suggested_fix": "Korriger feilaktig navn og meningsforvrengning. Den engelske teksten sier «Jesse», ikke «Jesaja». Oversett trofast: f.eks. «Kron Ham, dere martyrer for deres Gud, / Som påkaller Ham fra Hans alter; / Forherlig Jesse-stammen, rettferdets rot, / Og krone Ham til Herre for alt!» Eller mer idiomatisk: «Forherlig Jesse-stammens grein» — behold referansen til Jesse (David far) og bibelsk betydning. Ikke erstatt Jesse med Jesaja eller andre ukorrekte ord. Behold HTML/linjeskift.",
+        "translation_quote": "Kron Ham, dere martyrer for Gud,\nSom fra Hans alter kaller;\nForherlig Jesajas stamme, roden brud,\nOg krone Ham til Herre for alt!"
+      },
+      {
+        "location": "<article> mission story paragraph containing quoted hymn line",
+        "severity": "major",
+        "source_quote": "At once the missionary drew out the violin that he always carried with him and began to play and sing in the native language, “All hail the power of Jesus’ name!”",
+        "suggested_fix": "Oversett den siterte salmeteksten (substantivt sitat) til norsk i-line, i samme HTML-plassering. For eksempel: «han tok straks fram fiolinen … og begynte å spille og synge på morsmålet: «Hyll kraften i Jesu navn!»» Sitérsalmen skal være oversatt, og behold anførselstegn rundt den. Ikke la original-engelske linjer stå uoversatt i teksten.",
+        "translation_quote": "Med en gang tok misjonæren fram fiolinen ... og begynte å spille og synge på morsmålet: «All hail the power of Jesus’ name!»"
+      },
+      {
+        "location": "<p>References: list of tune/composer lines",
+        "severity": "minor",
+        "source_quote": "“Diadem” Tune -James Ellor, 1838",
+        "suggested_fix": "Korriger navnet til samsvar med kildeteksten (James Ellor) dersom kildens stavemåte er autoritativ. I HTML-behold linjen som i kilden: «“Diadem” Tune -James Ellor, 1838». Hvis utgaven krever en norsk formatering av navn, behold originalt navnstavemåte uendret. Ikke introduser en feilaktig stavemåte («Elliot») som avviker fra kilden.",
+        "translation_quote": "«Diadem» Tune -James Elliot, 1838"
+      },
+      {
+        "location": "<div class=\"lyrics\"> (multiple lines), various theological/idiomatic mistranslations: e.g. \"God incarnate, Man divine\" -> \"Gud inkarnert, Menneske guddommelig vekt\"; \"Sinners, whose love can ne’er forget / The wormwood and the gall\" -> badly rendered",
+        "severity": "major",
+        "source_quote": "Sinners, whose love can ne’er forget\nThe wormwood and the gall,\nGo spread your trophies at His feet,\nAnd crown Him Lord of all!\n...\nThe God incarnate, Man divine,",
+        "suggested_fix": "Gjenoversett disse linjene slik at de bevarer forfatterens mening og bibelske tone. Forslag: «Syndere, hvis kjærlighet aldri kan glemme / Bitre malurt og gallens sår, / Spre deres troféer ved Hans føtter, / Og krone Ham til Herre for alt!» og «Gud inkarnert, Menneske og Gud, / Og krone Ham til Herre for alt!» Eller «Gud inkarnert, Mann guddommelig» — men unngå meningsløse eller ordrette feil («guddommelig vekt»). Behold linjedeling og HTML-struktur.",
+        "translation_quote": "Synderes kjærlighet som aldri glemmer\nBittere sorgens, gallens kval,\nSpre deres troféer ved Hans føtter frem,\nOg krone Ham til Herre for alt!\n...\nGud inkarnert, Menneske guddommelig vekt,\nOg krone Ham til Herre for alt!"
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

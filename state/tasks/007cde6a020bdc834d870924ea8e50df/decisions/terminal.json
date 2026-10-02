@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>“Oh, it was about half a mile to our closest neighbor, the Rhine’s place, and then about another quarter of a mile to the Brightbills,” replied Grandma.</p>",
+      "severity": "major",
+      "source_quote": "“Oh, it was about half a mile to our closest neighbor, the Rhine’s place, and then about another quarter of a mile to the Brightbills,” replied Grandma.",
+      "suggested_fix": "Translate the distances fully into Norwegian and remove the leftover English parenthetical. For example: «Åh, det var omtrent en halv mile til vår nærmeste nabo, Rhine-familien, og så omtrent en kvart mile til Brightbill-familien,» svarte bestemor. (If you prefer metric, render both consistently, e.g. «omtrent 0,8 km» and «omtrent 0,4 km», but keep the original meaning and relative proportions.)",
+      "translation_quote": "«Åh, det var omtrent en halv mile (half a mile) til vår nærmeste nabo, Rhine-familien, og så omtrent en kvart mile til Brightbill-familien,» svarte bestemor."
+    },
+    {
+      "location": "<figure>\n    <img src=\"/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-1.png\" alt=\"A brindle dog wearing a chain collar\" loading=\"lazy\">\n  </figure>",
+      "severity": "minor",
+      "source_quote": "A brindle dog wearing a chain collar",
+      "suggested_fix": "Translate the English adjective 'brindle' into natural Norwegian. For example: alt=\"En tigrert hund med kjettinghalsbånd\" or alt=\"En stripet (brindle) hund med kjettinghalsbånd\" so the alt-tekst is fully in Bokmål and idiomatic.",
+      "translation_quote": "En brindle hund som har et kjettinghalsbånd"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

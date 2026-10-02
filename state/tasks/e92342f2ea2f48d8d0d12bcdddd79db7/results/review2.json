@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "56bf0839-8fdd-919f-99e8-c7ed70605889",
+    "response_id": "chatcmpl-EUXEI73oZ0PV7Th8yFUsNHLPlpLV8",
+    "usage": {
+      "completion_tokens": 1761,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5017,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6778
+    }
+  },
+  "received_at": "2026-10-02T13:07:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>…As we take a look at the life of Jonah, we glean glimpses of “The God Who Will Not Let Go”.</p> (source.html, paragraph about Jonah)",
+        "severity": "major",
+        "source_quote": "As we take a look at the life of Jonah, we glean glimpses of “The God Who Will Not Let Go”.",
+        "suggested_fix": "Translate the proper name 'Jonah' correctly into Bengali and fix the surrounding phrasing. Preserve the HTML paragraph structure. For example: replace the translated sentence with Bengali that renders the name as যোনাহ and conveys the original meaning. Keep the rest of the paragraph tags unchanged.",
+        "translation_quote": "আমরা যখন ইউনার জীবনের দিকে তাকাই, তখন আমরা “ঈশ্বর যিনি ছাড়েন না”—এর ঝলক দেখতে পাই।"
+      },
+      {
+        "location": "<p>…God will do this through hardening the hearts of ungodly men in positions of power, just like Pharaoh of old…</p> (source.html, paragraph about God hardening hearts)",
+        "severity": "critical",
+        "source_quote": "God will do this through hardening the hearts of ungodly men in positions of power, just like Pharaoh of old, to accomplish His sovereign will for the world.",
+        "suggested_fix": "Correct the mistranslation of the proper name 'Pharaoh' (which in English refers to the ancient Egyptian ruler). The Bengali must reflect Pharaoh (e.g., ফারাও or প্রাচীন ফারাও) rather than 'ফরাসী' or 'French'. Preserve the original sentence meaning and HTML. Example fix (in Bengali): “ঈশ্বর বিশ্বের প্রতি তাঁর সার্বভৌম ইচ্ছা সিদ্ধির জন্য ক্ষমতায় থাকা অনাধর্মীদের হৃদয় প্রাচীন ফারাওয়ের ন্যায় শক্ত করে দেবেন।”",
+        "translation_quote": "ঈশ্বর পবিত্ররূপে অশুভ পুরুষদের হৃদয় শক্ত করে দেবে যারা ক্ষমতাসীন অবস্থানে আছে—প্রাচীন ফরাসীর মত—তাঁর সার্বভৌম ইচ্ছা সাধনের জন্য।"
+      },
+      {
+        "location": "<p>Proverbs 21:1 quotation</p> (source.html, paragraph beginning \"In the natural world…\")",
+        "severity": "minor",
+        "source_quote": "The king’s heart is in the hand of the LORD, as the rivers of water: he turneth it whithersoever he will –Proverbs 21:1.",
+        "suggested_fix": "The Bengali rendering contains odd wording ('রাজার অন্ত্য: করুণাময় রবের হাতে; সে নদীর জলের মতো তাকে...'). Render the verse in fluent, conventional Bengali while keeping the scripture reference and verse placement. Example replacement preserving sense: “রাজার হৃদয়প্রভুর হাতে, সে যেখানেই ইচ্ছে নষ্ট করে দেন; সে যেন নদীর জল—যেখানে ইচ্ছে পাঠায়। — নীতিবচন 21:1.” Keep the <em> tags as in source.",
+        "translation_quote": "আধ্যাত্মিক সত্য হলো: <em>রাজার অন্ত্য: করুণাময় রবের হাতে; সে নদীর জলের মতো তাকে যেখানে ইচ্ছে ফিরিয়ে দেয়। – নীতিবচন 21:1।</em>"
+      },
+      {
+        "location": "<p>Romans 13:1-4 quotation paragraph</p> (source.html, paragraph beginning \"Let’s always cultivate a right attitude…\")",
+        "severity": "minor",
+        "source_quote": "Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God … For he is the minister of God to thee… –Romans 13:1-4.",
+        "suggested_fix": "There is a typographical/spacing error immediately before the quotation attribution in Bengali ('যখন তিনিোপস্টল পল-এর মাধ্যমে আমাদেরকে বলেন:'). Fix the typo so it reads clearly (e.g., 'যখন তিনি — অ্যাপোস্টল পল-এর মাধ্যমে আমাদেরকে বলেন:'). Preserve HTML and the quoted scripture formatting.",
+        "translation_quote": "চলুন আমাদের হৃদয়ে সর্বদা একটি সঠিক মনোভাব চাষ করি যেন আমাদের কথা ও কর্ম ঈশ্বরের দৃষ্টিভঙ্গি প্রতিফলিত করে যখন তিনিোপাস্টল পল-এর মাধ্যমে আমাদেরকে বলেন: <em>প্রতিটি প্রাণ উচ্চতর শাসকদের অধীন হোক। কারণ কোনো শাসন নেই যা ঈশ্বরের কাছ থেকে নয়: যে সমস্ত শাসন আছে সেগুলো ঈশ্বর দ্বারা প্রতিষ্ঠিত … কারণ সে তোমার প্রতি ঈশ্বরের মন্ত্রী … – রোমীয় 13:1-4।</em>"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

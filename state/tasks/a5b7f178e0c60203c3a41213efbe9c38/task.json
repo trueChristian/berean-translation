@@ -2,7 +2,6 @@
   "article_id": "dce3d3b3-8b56-4be5-9674-e682b97d3b43",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "13ec55b413584b4e81cc1b0f52def237",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,39 +61,67 @@
         },
         "total_tokens": 8633
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 2072,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4741,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6813
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph: \"In the natural world our “old man” has the tendency...\"",
+      "location": "Paragraph: \"In the natural world our “old man” has the tendency...\" (third paragraph under \"Church History and Should A Christian Vote\")",
       "severity": "major",
       "source_quote": "In the natural world our “old man” has the tendency to think that we must “do something” if we expect things to go in a “right” direction.",
-      "suggested_fix": "Translate the phrase “our ‘old man’” to standard Kiswahili theological terminology (do not render it as “neno letu la kale”). For example: “Katika ulimwengu wa kawaida, ‘mwanaume wetu wa zamani’ au ‘mwenye uasi ndani yetu’ huwa na tabia ya kufikiri…” — preserve meaning that this is the inner sinful self. Keep the rest of the sentence consistent with the source.",
-      "translation_quote": "Kwenye ulimwengu wa kawaida neno letu la kale lina tabia ya kudhani kwamba lazima “tufanye jambo” tukitarajia mambo yaende kwa mwelekeo “sahihi”."
+      "suggested_fix": "Translate the theological term “old man” with a standard Kiswahili equivalent that preserves the Pauline meaning (the sinful self/old nature). For example: “Katika ulimwengu wa kawaida tabia ya mwanadamu wetu wa zamani (au ‘mwili wetu wa zamani’/‘asili yetu ya zamani ya dhambi’) ni kufikiri kwamba tunapaswa ‘kufanya jambo’…” Ensure the phrase conveys the biblical sense of the believer’s old sinful nature rather than simply ‘mwanamme wa zamani’.",
+      "translation_quote": "Kwenye ulimwengu wa kawaida, mwanaume wetu wa zamani ana tabia ya kufikiri kwamba lazima “tufanye jambo” tukitarajia mambo yaende kwa mwelekeo “sahihi”."
     },
     {
-      "location": "Paragraph: sentence that refers to “Abba Father”",
+      "location": "Paragraph containing Daniel quotation (same paragraph as Proverbs)",
+      "severity": "critical",
+      "source_quote": "…That the most High ruleth in the kingdom of men, and giveth it to whomsoever he will –Daniel 4:31-32.",
+      "suggested_fix": "The translation changes the meaning: ‘giveth it to whomsoever he will’ was rendered as ‘humzika kwa yeyote atakayemtaka’ (which implies ‘buries’). This is a substantive mistranslation and must be corrected. Use a faithful Kiswahili rendering preserving the sense ‘hutawaza/humpa kwa yeyote atakayemtaka’ or the conventional Bible phrasing: “Kwa maana Aliye juu mno hutawala katika ufalme wa wanadamu, na humpa yule atakayemtaka.” Replace the incorrect verb “humzika” with “humpa” or another accurate equivalent.",
+      "translation_quote": "<em>…Kwa kuwa Aliye juu mno hutawala katika ufalme wa wanadamu, na humzika kwa yeyote atakayemtaka – Danieli 4:31-32.</em>"
+    },
+    {
+      "location": "Paragraph with Matthew quotation (paragraph about prayer and faith)",
       "severity": "major",
-      "source_quote": "Let’s allow this article to help us to become rooted and grounded in the biblical Truth of Abba Father—a Father who cares for His children.",
-      "suggested_fix": "Correct the mistranslation “Kiarabu cha Abba Baba”, which wrongly reads as “Arabic of Abba Father”. Render the phrase to convey the intended theological idea in Kiswahili, e.g.: “Tuache makala hii itusaidie kuota mizizi na kuwa na msingi katika Kweli ya Kibaiblia ya ‘Abba Baba’ — Baba anayejali watoto wake.”",
-      "translation_quote": "Tuzie makala hii izatusaidie kuzaliwa mizizi na kuwa na msingi katika Kweli ya Kiarabu cha Abba Baba—Baba anayejali watoto wake."
+      "source_quote": "And Jesus said unto them … verily I say unto you, If ye have faith as a grain of mustard seed, ye shall say unto this mountain, Remove hence to yonder place; and it shall remove; and nothing shall be impossible unto you –Matthew 17:20.",
+      "suggested_fix": "The translation renders ‘verily I say unto you’ incorrectly as “kwa kweli nawapongeza” (I praise you). This changes the meaning and must be corrected to a faithful rendering such as “nimwambia kweli” or “kwa kweli nawaambia ninyi”. Also keep the rest of the verse idiomatic and accurate: e.g. “Na Yesu akawaambia: Ta, kwa kweli nawaambia, Ikiwa mtakuwa na imani kama chembe ya haradali, mtasema mlima huu, Hamia hapa pale; nao utahama; wala hakuna kitakachokuwa kisichowezekana kwenu.”",
+      "translation_quote": "<em>Na Yesu akawaambia … kwa kweli nawapongeza, Ikiwa mtakuwa na imani kana kwamba chembe ya haradali, mtasema mlima huu, Hama hapa mkale pale; nao watahama; wala hakuna kitakachokuwa kikizuilika kwenu – Mathayo 17:20.</em>"
     },
     {
-      "location": "Heading and paragraph: reference to Moses / Musa",
+      "location": "Paragraph quoting Hebrews 11:13-16 (same paragraph as two-kingdom principle)",
+      "severity": "major",
+      "source_quote": "…strangers and pilgrims on the earth. [While we] …declare plainly that [we] seek a country …a better country, that is, an heavenly: wherefore God is not ashamed to be called [our] God: for he hath prepared for [us] a city –Hebrews 11:13-16.",
+      "suggested_fix": "The translation contains an awkward and inaccurate phrase “wageni na wapanda-famba duniani.” This distorts the meaning. Use standard Kiswahili phrasing for ‘strangers and pilgrims’: e.g. “wageni na wapita-kwenyafuta/waombolezaji wa dunia’ is wrong — better: “wageni na wapita njia duniani” or preferably the conventional Bible wording: “wageni na wapita njia duniani.” Revise to: “…tuchukue kuwa wageni na wapita- njia duniani… kwa hiyo Mungu hakudharau kuitwa Mungu wetu; kwa maana ametuandalia mji.”",
+      "translation_quote": "<em>…wageni na wapanda-famba duniani. [Wakati] …tunatangaza wazi kwamba [tunasubiri] nchi …nchi iliyo bora, yaani, ile ya mbinguni: kwa hiyo Mungu hakudharau kuitwa Mungu wetu: kwa kuwa ametuandalia mji – Waebrania 11:13-16.</em>"
+    },
+    {
+      "location": "Paragraph quoting 2 Corinthians 6:17 (same paragraph as Hebrews)",
       "severity": "minor",
-      "source_quote": "In “Moses in Midian”, we take a walk in Moses’ footsteps during the mid-section of his life.",
-      "suggested_fix": "The translation is inconsistent: the heading kept the English name “Moses” while the paragraph uses the Swahili form “Musa”. Make the name consistent and use the conventional Kiswahili form throughout. For example, change the heading “Moses katika Midiani” to “Musa katika Midiani” (or keep “Moses” in both places if the publisher prefers English proper names), ensuring consistency.",
-      "translation_quote": "Kwenye “Moses katika Midiani”, tunatembea katika nyayo za Musa wakati wa sehemu ya kati ya maisha yake."
-    },
-    {
-      "location": "Paragraph quoting Romans 13:1-4",
-      "severity": "major",
-      "source_quote": "Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God … For he is the minister of God to thee… –Romans 13:1-4.",
-      "suggested_fix": "The Kiswahili rendering introduces an incorrect subject and meaning: “Mwili wote utii mamlakani juu yako” is inaccurate and distorts the apostolic imperative. Render in normal Kiswahili Bible-style phrasing that preserves the original sense, for example: “Kila nafsi iitee serikali za juu; kwa maana hakuna mamlaka isipokuwa ile iliyo kutokana na Mungu; mamlaka zilizopo zimewekwa na Mungu… Kwa maana ni mtumishi wa Mungu kwako…” Ensure the quotation matches the authoritative English meaning and keeps verse numbers unchanged.",
-      "translation_quote": "Tuwe na mtazamo mwafaka moyoni mwetu ili maneno na matendo yetu yaonyeshe mtazamo wa Mungu kuhusu jambo hili wakati Yeye kupitia Mtume Paulo anatuelimisha: <em>Mwili wote utii mamlakani juu yako. Kwa maana hapana mamlaka ila ya Mungu; mamlaka zilizopo zimetengwa na Mungu … Kwa maana yeye ni mtumishi wa Mungu kwako… – Warumi 13:1-4.</em>"
+      "source_quote": "In all things involving political involvement, it is our encouragement that New Testament believers should obey the command to <em>…come out from among them, and be ye separate… –2 Corinthians 6:17.</em>",
+      "suggested_fix": "The translation renders the English sentence awkwardly and introduces a grammatical error: “ni wanihimiza wetu kwamba waumini…” should be grammatical Kiswahili and preserve that this is the magazine’s encouragement. Suggest: “Katika mambo yote yanayohusiana na ushiriki wa kisiasa, tunawahimiza waumini wa Agano Jipya kuwa watiifu kwa amri ya…” or “ni upendo wetu kuwaelimisha…” Replace “ni wanihimiza wetu” with “tunawahimiza” or “ni wito wetu kuwaelimisha”.",
+      "translation_quote": "<em>Katika mambo yote yanayohusiana na ushiriki wa kisiasa, ni wanihimiza wetu kwamba waumini wa Agano Jipya watii amri ya <em>…tokeeni katikati yao, na wajitofautishe… – 2 Wakorintho 6:17.</em></em>"
     }
   ],
+  "finished_at": "2026-10-02T13:07:11+00:00",
   "id": "a5b7f178e0c60203c3a41213efbe9c38",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "swa",
@@ -168,13 +195,13 @@
     }
   },
   "protected": false,
-  "quality_score": 65,
+  "quality_score": 62,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c16edd05d12043a927f45367071112d6f71c0042bc3d1b02d0bfb5b8d330f1e2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "d0410b3ae98c7c6c4b8643e82b8513a58f4f423e430db25e79b18dc18a3fab41",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

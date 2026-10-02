@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:07:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"paragraph 2 (translation)\",\"severity\":\"minor\",\"source_quote\":\"Still others think the bride will be raptured before this, hence nothing for us to be concerned with.\",\"suggested_fix\":\"Replace the awkward phrase “die bruidegom se bruid sal voor dit verhef word” with a natural rendering of the English meaning, e.g. “die bruid sal hieraan vooraf verhef word” so it reads that some believe ‘the bride’ (the church) will be raptured before these events.\",\"translation_quote\":\"Weer ander dink die bruidegom se bruid sal voor dit verhef word, dus is daar niks om oor bekommerd te wees nie.\"},{\"location\":\"paragraph 3 (translation)\",\"severity\":\"minor\",\"source_quote\":\"One of the things you will notice in this writing is that I don’t call the Covid shot a ‘vaccine’.\",\"suggested_fix\":\"Correct the punctuation/extra quote around the Afrikaans word for vaccine. For example: change “die Covid-inspuiting nie ’n '-entstof' noem nie.” to “die Covid-inspuiting nie ’n entstof noem nie.” (preserve surrounding HTML tags).\",\"translation_quote\":\"Een van die dinge wat u in hierdie stuk sal opmerk, is dat ek die Covid-inspuiting nie ’n '-entstof' noem nie.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 1227,
+    "content_evidence_truncated": false,
+    "content_sha256": "a4eb7cc157fece97d7048c1a6c5cd4b9d9e73331b68276a55a80a903e902d213",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 885,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6031,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6916
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

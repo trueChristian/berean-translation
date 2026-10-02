@@ -2,7 +2,6 @@
   "article_id": "f09d8cd5-b48f-470f-936f-263e6940b6bd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "13ec55b413584b4e81cc1b0f52def237",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,39 +61,67 @@
         },
         "total_tokens": 10009
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1262,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5866,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7128
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "First paragraph (Scripture reference) in source.html",
-      "severity": "major",
-      "source_quote": "Revelation 4:11.",
-      "suggested_fix": "Use the conventional Bengali book name for Revelation and keep the chapter:verse unchanged. For example: \"প্রকাশিত বাক্য ৪:১১।\" Replace the current rendering with that form in the same emphasized paragraph.",
-      "translation_quote": "প্রকাশিতবর্ণনা ৪:১১।"
-    },
-    {
-      "location": "Multiple <div class=\"lyrics\"> blocks (full hymn stanzas) in source.html",
-      "severity": "critical",
-      "source_quote": "All hail the power of Jesus’ name,\nLet angels prostrate fall\nBring forth the royal diadem,\nTo crown Him Lord of all! ... (entire English hymn stanzas as printed in source)",
-      "suggested_fix": "Translate all quoted hymn stanzas into Bengali, preserving stanza breaks and the enclosing <div class=\"lyrics\"> and <p> tags exactly as in the source. Quoted substantive prose (the hymn text) must be rendered into the target language and should faithfully convey the printed English meaning and stanza order. Do not leave the stanzas in English; replace the English lines with a faithful Bengali rendering inside the same tags.",
-      "translation_quote": "All hail the power of Jesus’ name,<br>\nLet angels prostrate fall<br>\nBring forth the royal diadem,<br>\nTo crown Him Lord of all! ... (English left unchanged in the translation)"
-    },
-    {
-      "location": "title field (source.title)",
+      "location": "First article paragraph (source.html first <p>)",
       "severity": "major",
       "source_quote": "All Hail the Power of Jesus Name",
-      "suggested_fix": "Translate the article title into Bengali (use a natural, idiomatic title that preserves the theology of the original). For example: \"যীশুর নামে সর্বশক্তিকে শ্রদ্ধা\" or another faithful Bengali equivalent. Do not leave the authoritative English title untranslated in the title metadata.",
+      "suggested_fix": "Translate the hymn title into Bengali here, preserving that it is the hymn's English title in context. For example: “যীশুর নামে সর্বশক্তিকে শ্রদ্ধা” (or place the translated title in Bengali script) — replacing the English phrase so the quoted substantive prose is rendered in the target language.",
       "translation_quote": "All Hail the Power of Jesus Name"
     },
     {
-      "location": "<img> alt attribute in source.html",
+      "location": "Later narrative paragraph describing the missionary singing (source.html near the end, paragraph with the anecdote about Rev. E.P. Scott)",
       "severity": "major",
-      "source_quote": "Sheet music for All Hail the Power of Jesus’ Name, tune DIADEM C. M. with Refrain",
-      "suggested_fix": "Replace the current alt text with a faithful Bengali rendering that conveys the same information and retains the hymn identification, tune name and 'with Refrain'. Example: \"All Hail the Power of Jesus’ Name-এর সীট মিউজিক — সুর 'DIADEM (C. M.)' রিফ্রেইনসহ\" Keep the alt attribute inside the <img> tag and preserve other tag attributes.",
-      "translation_quote": "All Hail the Power of Jesus’ Name-র খাব্যবস্থার সুর DIADEM C. M. রিফ্রেইনের সঙ্গে-এর পিয়ানো সীট"
+      "source_quote": "All hail the power of Jesus’ name!",
+      "suggested_fix": "Translate the quoted hymn line into Bengali exactly where it appears in the anecdote, preserving it as quoted substantive prose. For example: “যীশুর নামে সকল শক্তিকে সম্ভাষণ করো!” Replace the English line in the translation with the Bengali rendering.",
+      "translation_quote": "All hail the power of Jesus’ name!"
+    },
+    {
+      "location": "Paragraph describing origins and editorship (source.html second paragraph)",
+      "severity": "minor",
+      "source_quote": "Rock of Ages",
+      "suggested_fix": "Translate the hymn title into Bengali (or provide a conventional Bengali rendering) rather than leaving the English title in the body. E.g. use “রক অফ এজেস (Rock of Ages)” or a Bengali equivalent if the publication prefers fully translated hymn titles.",
+      "translation_quote": "\"Rock of Ages\""
+    },
+    {
+      "location": "Paragraph about the tune 'Diadem' (source.html near tunes paragraph)",
+      "severity": "minor",
+      "source_quote": "layman",
+      "suggested_fix": "Translate the descriptive word 'layman' into Bengali rather than leaving the English term. For example: 'একজন laik ব্যক্তি/সাধারণ লোক' or simply 'অধিকারভুক্ত ব্যক্তির নয়—একজন সাধারন লোক (layman)' depending on style. Keep the name James Ellor unchanged but render the descriptor in Bengali.",
+      "translation_quote": "layman"
+    },
+    {
+      "location": "Paragraph recounting John Wesley asking Perronet to preach (source.html paragraph describing pulpit episode)",
+      "severity": "minor",
+      "source_quote": "pulpit",
+      "suggested_fix": "Use the Bengali equivalent for 'pulpit' instead of the English word (e.g., ' pulpit' → 'বক্তৃতাধর্মের pulpit' or better 'প্রবচনীর তকমা/বক্তৃতাগৃহ' but preferably 'ওই সকালে তিনি কাঠের > pulpitte' should be replaced with 'বক্তৃতোপদে/বক্তরাই' ). Ensure the actual Bengali term fits site style; at minimum replace the English form 'pulpitte' with 'পাল্পিট/বক্তৃতাস্হল' spelled appropriately.",
+      "translation_quote": "pulpitte উঠলেন"
     }
   ],
+  "finished_at": "2026-10-02T13:07:11+00:00",
   "id": "83c904f6df8faa8a452b9511ce572704",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ben",
@@ -168,13 +195,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 82,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6b076b1f67d6fafc1720a4ac2de4e895d6d3d4ebd14b1f3db48cc7447fd2506b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

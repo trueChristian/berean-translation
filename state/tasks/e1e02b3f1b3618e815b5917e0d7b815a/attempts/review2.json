@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:07:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph: \\\"এই ostensibly লাভজনক সম্পর্কের কারণে চার্চ আরও দুর্বল হয়ে পড়ল।\\\",\\\"source_quote\\\":\\\"This ostensibly beneficial relationship, the church further weakened under these seemingly beneficial relations.\\\",\\\"translation_quote\\\":\\\"এই ostensibly লাভজনক সম্পর্কের কারণে চার্চ আরও দুর্বল হয়ে পড়ল।\\\",\\\"severity\\\":\\\"major\\\",\\\"suggested_fix\\\":\\\"Translate the English adverb 'ostensibly' into Bengali and keep sentence structure. For example: 'এই প্রতিফলিতভাবে/প্রতিপন্নভাবে লাভজনক সম্পর্কের ফলে চার্চ আরও দুর্বল হয়ে পড়ল।' (Preserve the existing HTML and surrounding Bengali text.)\\\"},{\"\n\n\n\n\n\n,\"severity\":\"major\",\"source_quote\":\"Source:\\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction\",\"suggested_fix\":\"Translate the label 'Source:' into Bengali (e.g., 'সূত্র:') while leaving the URL unchanged. For example: 'সূত্র:\\\\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction' (Preserve the line break and surrounding HTML.)\",\"translation_quote\":\"Source:\\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction\"}],\"passed\":false,\"score\":70}",
+    "content_bytes": 1489,
+    "content_evidence_truncated": false,
+    "content_sha256": "d7aa7fcfbf94ad9d59b60affd080122919f3956b0642855c7637ccdfe7450f52",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1143,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5814,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6957
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

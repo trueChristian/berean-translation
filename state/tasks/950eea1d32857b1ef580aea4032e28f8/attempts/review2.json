@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:07:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<div class=\\\"lyrics\\\"> stanza 2 (lyrics)</div>\",\"severity\":\"major\",\"source_quote\":\"Let high born seraphs tune the lyre,\\nAnd, as they tune it, fall\\nBefore His face who tunes their choir,\",\"suggested_fix\":\"ترجمة العبارة يجب أن تنقل الفعل الإنجليزي \\\"who tunes their choir\\\" بدقة. اقترح استبدال النص الحالي بجملة عربية واضحة نحويًا ووفية للمعنى، مع الحفاظ على علامات HTML كما هي، مثلاً:\\n<p>لتعزفِ السرافيمُ القيثارةَ العاليةُ النسبِ،<br>\\nوعندما تعزفُها تسجدُ وتخرُّ،<br>\\nأمام وجهِ الذي يُنظِّمُ جَوقَهم،</p>\\nهذا يحفظ المعنى (أن الله هو الذي \\\"يضبط/ينظم\\\" جوقهم) ويصحّح الانقطاع النحوي الموجود في الترجمة الحالية.\",\"translation_quote\":\"لتعزف السرافيم ذواتُ النسبِ القيثارة،\\nوإذا عزفنها سجدن،\\nأمام وجهِ الذي يصوِّبُ جَوقَهم,\"},{\"location\":\"<div class=\\\"lyrics\\\"> stanza 1 (lyrics)</div>\",\"severity\":\"minor\",\"source_quote\":\"All hail the power of Jesus’ name,\",\"suggested_fix\":\"النص العربي الحالي \\\"ليهلّل سلطانُ اسمِ يسوع\\\" جيد ويحافظ على المعنى العام، لكن ترتيب الكلمات شِعريًا ونحويًا قد يربك القارئ العربي. اقتراح بديل نحويًا أكثر سلاسة وهو أيضًا شِعري: \\\"هلّلوا سلطانَ اسمِ يسوع\\\" أو \\\"ليهلّلِ سلطانُ اسمِ يسوعُ\\\" — مع مراعاة نمط الترانيم في السياق. لا تغيير في HTML.\",\"translation_quote\":\"ليهلّل سلطانُ اسمِ يسوع,\"},{\"location\":\"References list (end of article)\",\"severity\":\"major\",\"source_quote\":\"\\\"Let Us Crown Him\\\" Tune -James McGranahan 1840-1907\",\"suggested_fix\":\"عنوان اللحن المُقتبس يجب ترجمته أو نقله بشكلٍ صحيح إلى العربية بدل العبارة المشتتة الحالية. اقترح استبدال السطر المحجوز بهذا المثال (مع بقاء علامات السطر <br> كما هي):\\n<p>لحن «فلنُتَوَّجه» - جيمس ماكغرانهان 1840-1907</p>\\nأو إن أردتم حرفية أقرب: <p>لحن «Let Us Crown Him» - جيمس ماكغرانهان 1840-1907</p>، لكن القاعدة المطلوب تطبيقها في هذه مراجعة هي ترجمة المقاطع المقتبسة إلى اللغة الهدف.\",\"translation_quote\":\"لحن «لنسهِّم له التتويج» - جيمس ماكغرانهان 1840-1907\"},{\"location\":\"<div class=\\\"lyrics\\\"> stanza 2 (lyrics)</div>\",\"severity\":\"minor\",\"source_quote\":\"Let high born seraphs tune the lyre,\",\"suggested_fix\":\"الترجمة الحالية \\\"لتعزف السرافيم ذواتُ النسبِ القيثارة\\\" غير سليمة نحويًا (الفعل والفاعل مرتبا بشكل مربك) واقترح ضبطها لتصبح واضحة ومتماسكة نحويًا، مثل:\\n<p>لتعزفِ السرافيمُ القيثارةَ، يا اصحابَ الرفعةِ،</p>\\nأو أبسط: <p>لتعزفِ السرافيمُ القيثارةَ الساميةَ،</p>\\nمع الحفاظ على علامات HTML الأصلية.\",\"translation_quote\":\"لتعزف السرافيم ذواتُ النسبِ القيثارة,\"}],\"passed\":false,\"score\":70}",
+    "content_bytes": 3592,
+    "content_evidence_truncated": false,
+    "content_sha256": "f32725ff09530da91a6426c6b8f2baca6d5f328ea8feede8964f46576a541aed",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 2074,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1216,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5443,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7517
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph (Psalm 34:7)",
+      "severity": "minor",
+      "source_quote": "The angel of the LORD encampeth round about them that fear him, and delivereth them –Psalm 34:7.",
+      "suggested_fix": "Render the English printed meaning more naturally in Modern Standard Arabic as a faithful equivalent of “them that fear him” (i.e., those who fear the LORD). Suggested wording: «مَلاكُ الرَّبِّ يَحُطُّ حَوْلَ الْمُخِيفِينَ لَهُ، وَيُنَجِّيهِمْ – مزمور 34:7.» or better: «مَلاكُ الرَّبِّ يَحُطُّ حَوْلَ الَّذِينَ يَخَافُونَهُ، وَيُنَجِّيهِمْ – مزمور 34:7.» Preserve verse reference exactly.",
+      "translation_quote": "مَلَكُ الرَّبِّ يَحُطُّ حَوْلَ مُرْتَعِدِيهِ، وَيُنَجِّيهمْ – مزمور 34:7."
+    },
+    {
+      "location": "Paragraph about the Rhine family (sentence about Pierce's dog)",
+      "severity": "minor",
+      "source_quote": "His name was Pierce, and he had a very fierce dog; at least he acted very fierce! He was kept behind a high wire fence connected to an old shed.",
+      "suggested_fix": "Clarify the subtle nuance in the English: the dog was very fierce, or at least appeared fierce. The current Arabic «كان لديه كلب شرس جدًا؛ على الأقل كان يتصرّف بوحشيّة!» is understandable but slightly awkward. Suggested minor rewording to match the printed English nuance while remaining idiomatic: «كان اسمه بيرس، وكان لديه كلب شرس جدًّا — على الأقل بدا شديد الشراسة! كان محبوسًا خلف سياج سلكي عالٍ متصل بمستودعٍ قديم.»",
+      "translation_quote": "كان اسمه بيرس، وكان لديه كلب شرس جدًا؛ على الأقل كان يتصرّف بوحشيّة! كان يُحبَس خلف سياج سلكي عالٍ متصل بمستودع قديم."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

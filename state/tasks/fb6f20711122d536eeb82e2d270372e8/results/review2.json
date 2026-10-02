@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "157b7ef6-9833-4b72-bf16-9bea91127f49",
+    "response_id": "chatcmpl-EUXEQgBD6yQBMPMH36WdXzU9mC2dJ",
+    "usage": {
+      "completion_tokens": 1640,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4596,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6236
+    }
+  },
+  "received_at": "2026-10-02T13:07:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>В «Моисее в Мадиане» мы идём по стопам Моисея в средней части его жизни. Его вырвали из комфортного образа жизни в Египте, где он был усыновлённой частью царской семьи, и затем Бог послал его в пустыню, чтобы он усвоил жизненно важные уроки в дальнейшей подготовке к служению Богу.</p>",
+        "severity": "minor",
+        "source_quote": "He was uprooted from his comfortable lifestyle in Egypt as an adopted son of royalty and was then sent by God into the desert to learn some much-needed lessons in further preparation towards becoming God’s servant.",
+        "suggested_fix": "Исправить неудачную конструкцию и согласование. Предлагаем заменить перевод предложения на: «Его вырвали из комфортной жизни в Египте, где он был усыновлён как член царской семьи, а затем Бог послал его в пустыню, чтобы он усвоил жизненно важные уроки в дальнейшей подготовке к служению Господу.» Сохраните существующие HTML-теги и расположение абзаца.",
+        "translation_quote": "Его вырвали из комфортного образа жизни в Египте, где он был усыновлённой частью царской семьи, и затем Бог послал его в пустыню, чтобы он усвоил жизненно важные уроки в дальнейшей подготовке к служению Богу."
+      },
+      {
+        "location": "<p>...мы осознаём, что должны функционировать как <em>…странники и пришельцы на земле. [While we] …declare plainly that [we] seek a country …a better country, that is, an heavenly: wherefore God is not ashamed to be called [our] God: for he hath prepared for [us] a city –Hebrews 11:13-16.</em>...</p>",
+        "severity": "minor",
+        "source_quote": "…declare plainly that [we] seek a country …a better country, that is, an heavenly: wherefore God is not ashamed to be called [our] God: for he hath prepared for [us] a city –Hebrews 11:13-16.",
+        "suggested_fix": "Используйте общепринятое русское имя библейской книги в форме, принятой в ссылках (как и в других ссылках в статье). Замените «Евреи 11:13-16» на «Евреям 11:13-16». Сохраните форматирование и HTML-теги абзаца и выделение <em>.",
+        "translation_quote": "…поэтому Бог не стыдится называться Богом их: ибо Он приготовил им град — Евреи 11:13-16."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

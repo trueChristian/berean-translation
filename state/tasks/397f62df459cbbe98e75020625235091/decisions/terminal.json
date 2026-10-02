@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "<div class=\"lyrics\"> (first stanza and subsequent hymn stanzas)",
+      "severity": "major",
+      "source_quote": "All hail the power of Jesus’ name,\nLet angels prostrate fall\nBring forth the royal diadem,\nTo crown Him Lord of all!",
+      "suggested_fix": "Translate the hymn stanzas accurately and idiomatically into Modern Greek, preserving the theological meaning and poetic force. For example, render these lines consistently with the body lyric elsewhere: «Χαίρετε τη δύναμη του ονόματος του Ιησού· / Ας πέσουν οι άγγελοι προπέφτοντες· / Φέρτε το βασιλικό διάδημα· / Να Τον στεφανώσουμε Κύριο όλων!» Ensure the same wording is used for repeated phrases (e.g., “crown Him Lord of all”) throughout the hymn stanzas.",
+      "translation_quote": "Χαίρετε τη δύναμη του ονόματος του Ιησού,\nΑς πέσουν προπέφτοντες οι άγγελοι,\nΦέρτε το βασιλικό διάδημα,\nΝα Τον στέψουμε Κύριο όλων!"
+    },
+    {
+      "location": "Third stanza in lyrics (\"Who fixed this floating ball\")",
+      "severity": "major",
+      "source_quote": "Crown Him, ye morning stars of light,\nWho fixed this floating ball,\nNow hail the Strength of Israel’s might,\nAnd crown Him Lord of all!",
+      "suggested_fix": "Correct the verb form and phrasing to convey the original sense: the Creator who established the revolving globe. A better Greek rendering: «Στεφανώστε Τον, αστέρες του πρωινού φωτός, / Εσείς που στερεώσατε αυτήν την πλανώμενη σφαίρα, / Χαρείτε τώρα τη Δύναμη του Ισραήλ, / Και στεφανώστε Τον Κύριο όλων!» (use στερεώσατε, not στερέωσας). Preserve person and tense matching the English.",
+      "translation_quote": "Στεφάνωσέ Τον, αστέρες του πρωινού φωτός,\nΕσείς που στερέωσας αυτήν την πλανώμενη σφαίρα,\nΧαίρετε τώρα τη Δύναμη του Ισραήλ,\nΚαι να Τον στέψετε Κύριο όλων!"
+    },
+    {
+      "location": "Fourth stanza in lyrics (\"Extol the stem of Jesse’s rod\")",
+      "severity": "major",
+      "source_quote": "Crown Him, ye martyrs of your God,\nWho from His altar call;\nExtol the stem of Jesse’s rod,\nAnd crown Him Lord of all!",
+      "suggested_fix": "The phrase \"stem of Jesse's rod\" refers to the lineage/root of Jesse (Messianic reference), not a 'rose' or 'ρόδο'. Render it faithfully as «επαινετέ τη ρίζα του ὑιού (ή της ροής) του Ιεσσαί» or better «εξυμνήσατε τον βλαμόν/κλόνον του Ιεσσαί». Suggested Greek: «Στεφανώστε Τον, μάρτυρες του Θεού σας, / Εσείς που καλείτε από το θυσιαστήριό Του· / Εξυμνήσατε τον βλαστό/κλώνο του Ιεσσαί, / Και στεφανώστε Τον Κύριο όλων!» Use «βλαστός/κλώνος» for \"stem\" (βλαστός is preferable).",
+      "translation_quote": "Στεφάνωσέ Τον, μάρτυρες του Θεού σας,\nΕσείς που καλείτε από το θυσιαστήριό Του;\nΕπαινετέ τη ρίζα του ρόδου του Ιεσσαί,\nΚαι να Τον στέψετε Κύριο όλων!"
+    },
+    {
+      "location": "Seventh stanza in lyrics (\"wormwood and the gall\")",
+      "severity": "major",
+      "source_quote": "Sinners, whose love can ne’er forget\nThe wormwood and the gall,\nGo spread your trophies at His feet,\nAnd crown Him Lord of all!",
+      "suggested_fix": "\"Wormwood and the gall\" are metaphors for bitterness and suffering; the translation must reflect that, not introduce unrelated botanical terms. Suggested rendering: «Αμαρτωλοί, των οποίων η ψυχική αγάπη δεν μπορεί ποτέ να λησμονήσει / Το πικρό και τη χολή, / Σπεύσατε να απλώσετε τα τρόπαιά σας στα πόδια Του, / Και στεφανώστε Τον Κύριο όλων!» or «το πικρό και τη χολή»—do not invent «χόρτο του πικραμύγδαλου».",
+      "translation_quote": "Αμαρτωλοί, των οποίων η αγάπη δεν μπορεί να λησμονήσει ποτέ\nΤο χόρτο του πικραμύγδαλου και το χολή,\nΣπεύσατε να απλώσετε τα τρόπαιά σας στα πόδια Του,\nΚαι να Τον στέψετε Κύριο όλων!"
+    },
+    {
+      "location": "Title field",
+      "severity": "major",
+      "source_quote": "All Hail the Power of Jesus Name",
+      "suggested_fix": "Make the article title linguistically and theologically match the hymn title as rendered in the body. Use a concise Modern Greek title that matches the hymn translation used in the article body and lyric headings. For example: «Χαίρετε τη δύναμη του ονόματος του Ιησού» (no comma, include «του ονόματος»). Replace the current title «Χαίρετε, η Δύναμη του Ονόματος του Ιησού» with this form so title and text are consistent.",
+      "translation_quote": "Χαίρετε, η Δύναμη του Ονόματος του Ιησού"
+    },
+    {
+      "location": "References list and some tune names (final paragraph and references)",
+      "severity": "minor",
+      "source_quote": "References:\nA Treasury of Hymn Stories\n101 Hymn stories\n“Coronation” Tune -Oliver Holden 1765-1844\n“Miles Lane” Tune -William Shrubsole, 1760-1806\n“Diadem” Tune -James Elliot, 1838\n“Let Us Crown Him” Tune -James McGranahan 1840-1907",
+      "suggested_fix": "Translate or localize reference list headings and, where appropriate, render descriptive labels into Greek while preserving original work titles (which may remain in original language if they are established titles). For example: «Αναφορές: / A Treasury of Hymn Stories; 101 Hymn Stories. Μελωδίες: 'Coronation' — Oliver Holden (1765–1844); 'Miles Lane' — William Shrubsole (1760–1806); 'Diadem' — James Elliot (1838); 'Let Us Crown Him' — James McGranahan (1840–1907).» Ensure consistency of language in labels (e.g., «Αναφορές:»).",
+      "translation_quote": "Αναφορές:\nA Treasury of Hymn Stories\n101 Hymn stories\n“Coronation” Tune -Oliver Holden 1765-1844\n“Miles Lane” Tune -William Shrubsole, 1760-1806\n“Diadem” Tune -James Elliot, 1838\n“Let Us Crown Him” Tune -James McGranahan 1840-1907"
+    },
+    {
+      "location": "<figure> alt attribute",
+      "severity": "minor",
+      "source_quote": "Sheet music for All Hail the Power of Jesus’ Name, tune DIADEM C. M. with Refrain",
+      "suggested_fix": "Translate the alt text fully into Modern Greek, including the hymn title in Greek consistent with the article. For example: «Νότες για το 'Χαίρετε τη δύναμη του ονόματος του Ιησού', μελωδία DIADEM C.M. με ρεφραίν». If you prefer to keep the tune name in English, leave it, but ensure the hymn title is translated and consistent with the article.",
+      "translation_quote": "Νότες για το All Hail the Power of Jesus’ Name, μελωδία DIADEM C. M. με Ρεφρέν"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

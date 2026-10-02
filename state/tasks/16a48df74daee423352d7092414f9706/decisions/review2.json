@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html — paragraph 2 (phrase: \"the progenitor (originator or author) of our beliefs\")",
+      "severity": "minor",
+      "source_quote": "the progenitor (originator or author) of our beliefs",
+      "suggested_fix": "Translate 'progenitor' without introducing an incorrect sense of 'specialist'. Use wording that preserves authorship/origin meaning, e.g. replace the current phrase in the translation with: \"asili (muanzilishi au mwandishi) wa imani zetu\". Preserve the surrounding <p> tags and punctuation.",
+      "translation_quote": "mwanzo (mtaalamu au mwanzilishi) wa imani zetu"
+    },
+    {
+      "location": "source.html — paragraph 9 (phrase: \"The Great Depression\")",
+      "severity": "minor",
+      "source_quote": "The Great Depression",
+      "suggested_fix": "Use the conventional historical name in Kiswahili or a standard calque rather than a generic description. Replace the translated phrase \"Shida kubwa ya uchumi\" with \"Mgogoro Mkubwa wa Kiuchumi (The Great Depression)\" or simply \"Mgogoro Mkubwa wa Kiuchumi\" to make the historical reference explicit. Preserve the surrounding <p> tags.",
+      "translation_quote": "Shida kubwa ya uchumi"
+    },
+    {
+      "location": "source.html — paragraph 13 (word: \"propogandists\" / \"propaganda departments\")",
+      "severity": "minor",
+      "source_quote": "state propaganda departments",
+      "suggested_fix": "Correct the Kiswahili phrasing for 'propaganda departments' to a clearer idiomatic form, e.g. \"vibao vya idara za propaganda za serikali\" or simply \"idara za propaganda za serikali\". Update the translation text inside the same <p> element.",
+      "translation_quote": "wapigaji propaganda wa Nazi"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

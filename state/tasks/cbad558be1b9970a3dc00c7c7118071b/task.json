@@ -2,7 +2,6 @@
   "article_id": "f09d8cd5-b48f-470f-936f-263e6940b6bd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "13ec55b413584b4e81cc1b0f52def237",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,32 +61,52 @@
         },
         "total_tokens": 8850
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1257,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5387,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6644
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<p>...After eight years of co-operation with the Wesleys, Perronet’s strong-mindedness and free spirit caused a division between them, as he disagreed with some of their regulations. They continued, however, to esteem and love each other.</p>",
-      "severity": "major",
-      "source_quote": "\"After eight years of co-operation with the Wesleys, Perronet’s strong-mindedness and free spirit caused a division between them, as he disagreed with some of their regulations.\"",
-      "suggested_fix": "Rendere il senso di \"strong-mindedness\" come \"determinazione\" o \"fermezza di carattere\" invece di \"incostanza\", che inverte il significato. Esempio di correzione mantenendo i tag HTML: <p>Dopo otto anni di collaborazione con i Wesley, la fermezza di carattere e lo spirito libero di Perronet causarono una divisione tra loro, poiché egli non era d’accordo con alcune loro regolamentazioni. Tuttavia continuarono a stimarsi e ad amarsi reciprocamente.</p>",
-      "translation_quote": "\"Dopo otto anni di collaborazione con i Wesley, l’incostanza e lo spirito libero di Perronet causarono una divisione tra loro, poiché egli non era d’accordo con alcune loro regolamentazioni. Tuttavia continuarono a stimarsi e ad amarsi reciprocamente.\""
+      "location": "<p class=\"drop-cap\"> (first paragraph)",
+      "severity": "minor",
+      "source_quote": "This hymn, often called the “National Anthem of Christendom,” is perhaps one of the greatest of hymns of all time.",
+      "suggested_fix": "Correct the Italian word for 'Christendom' and keep idiomatic phrasing. For example: replace “l’“Inno nazionale della Cristiandà”” with “l'‘Inno nazionale della Cristianità’”. Preserve the surrounding HTML and punctuation exactly.",
+      "translation_quote": "Questo inno, spesso chiamato l’“Inno nazionale della Cristiandà”, è forse uno dei più grandi inni di tutti i tempi."
     },
     {
-      "location": "<div class=\"lyrics\"> (first stanza)",
+      "location": "<p> (paragraph with Perronet's last words)",
       "severity": "minor",
-      "source_quote": "\"Bring forth the royal diadem,\"",
-      "suggested_fix": "\"royal diadem\" è reso in modo colloquiale con l’aggettivo dopo il sostantivo in italiano più naturale. Correzione suggerita all'interno del blocco lyrics: <p>Portate il diadema reale,<br>\nPer incoronarlo Signore di tutti!</p>",
-      "translation_quote": "\"Portate il reale diadema,\""
+      "source_quote": "“Glory to God in the height of His divinity! Glory to God in the depth of His humanity! Glory to God in His all-sufficiency! Into His hands I commend my spirit.”",
+      "suggested_fix": "Fix Italian contraction/grammar for smoother/standard Italian: change “Gloria a Dio nella altezza della Sua divinità!” to “Gloria a Dio nell'altezza della Sua divinità!” (and similarly check spacing/apostrophe). Preserve the quoted structure and punctuation in HTML.",
+      "translation_quote": "“Gloria a Dio nella altezza della Sua divinità! Gloria a Dio nella profondità della Sua umanità! Gloria a Dio nella Sua autosufficienza! Nelle Sue mani raccomando il mio spirito.”"
     },
     {
-      "location": "<div class=\"lyrics\"> (second stanza)",
+      "location": "Paragraph mentioning the hymn title in running text (second paragraph)",
       "severity": "minor",
-      "source_quote": "\"Let high born seraphs tune the lyre,\"",
-      "suggested_fix": "La resa \"serafini nati in alto\" suona innaturale e non rispetta il registro poetico dell'originale. Suggerisco: <p>Lasciate che i serafini, d’alta nascita, accordino la lira,<br>\nE, mentre l’accordano, cadano</p> (mantenendo i tag HTML).",
-      "translation_quote": "\"Lasciate che i serafini nati in alto accordino la lira,\""
+      "source_quote": "The text of this hymn, All Hail the Power of Jesus Name, has been translated into almost every language where Christianity is known.",
+      "suggested_fix": "Translate or render the English hymn title in Italian or mark it clearly as the original title. For example: replace “All Hail the Power of Jesus Name” with «All Hail the Power of Jesus' Name» (italicized) or provide an Italian rendering immediately: “(All Hail the Power of Jesus' Name)” → “(All Hail the Power of Jesus' Name — Salve al potere del nome di Gesù)”. This keeps the original title visible while providing the Italian equivalent. Do not alter surrounding HTML.",
+      "translation_quote": "Il testo di questo inno, All Hail the Power of Jesus Name, è stato tradotto in quasi tutte le lingue in cui il cristianesimo è conosciuto."
     }
   ],
+  "finished_at": "2026-10-02T13:07:11+00:00",
   "id": "cbad558be1b9970a3dc00c7c7118071b",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ita",
@@ -161,13 +180,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6b076b1f67d6fafc1720a4ac2de4e895d6d3d4ebd14b1f3db48cc7447fd2506b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

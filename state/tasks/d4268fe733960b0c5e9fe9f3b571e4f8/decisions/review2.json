@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph: \"...received the same maquillage patriotic...\" (translation paragraph about propaganda makeover)",
+      "severity": "minor",
+      "source_quote": "these churches welcomed the Nazi attention, going so far as to send Hitler a letter thanking him for being the “savior of the German peoples” and pledging their support to his government.",
+      "suggested_fix": "Replace the non-idiomatic French loanword \"maquillage\" with a standard Italian phrase. Example: \"ricevettero lo stesso maquillage patriottico dai propagandisti nazisti\" -> \"ricevettero lo stesso maquliaggio patriottico\" is awkward; better: \"ricevettero lo stesso ritocco patriottico\" or \"ricevettero la stessa immagine patriottica\". Keep the surrounding HTML and punctuation unchanged.",
+      "translation_quote": "c'erano anche comunità fiorenti e consolidate che ricevettero lo stesso maquillage patriottico dai propagandisti nazisti."
+    },
+    {
+      "location": "Paragraph: \"...handed Hitler the office of prime minister...\" (paragraph about Hitler attaining office)",
+      "severity": "minor",
+      "source_quote": "their political might handed Hitler the office of prime minister.",
+      "suggested_fix": "\"Prime minister\" is a literal rendering but in the German/Weimar context the more common Italian term is \"cancelliere\" (or keep \"primo ministro\" if the publisher prefers). Suggest changing \"primo ministro\" to \"cancelliere\" for greater historical precision. Preserve surrounding tags and punctuation.",
+      "translation_quote": "A lungo andare il loro potere politico consegnò a Hitler l'ufficio di primo ministro."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

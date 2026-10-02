@@ -2,7 +2,6 @@
   "article_id": "dce3d3b3-8b56-4be5-9674-e682b97d3b43",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "13ec55b413584b4e81cc1b0f52def237",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,25 +61,60 @@
         },
         "total_tokens": 8622
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph containing Proverbs quote (source.html second paragraph of political discussion / translation paragraph 6)",
-      "severity": "critical",
-      "source_quote": "The spiritual Truth is this: The king’s heart is in the hand of the LORD, as the rivers of water: he turneth it whithersoever he will –Proverbs 21:1.",
-      "suggested_fix": "Replace the incorrect Bengali book name \"গীতসংহিতা 21:1\" with the correct Bengali name for Proverbs, e.g. \"নীতিবচন 21:1\". Keep the verse number and the translated verse text. Example corrected translation fragment: \"আধ্যাত্মিক সত্য হলো: ... – নীতিবচন 21:1।\"",
-      "translation_quote": "আধ্যাত্মিক সত্য হলো: <em>রাজার অন্ত্য: করুণাময় রবের হাতে; সে নদীর জলের মতো তাকে যেখানে ইচ্ছে ফিরিয়ে দেয়। – গীতসংহিতা 21:1।</em>"
     },
     {
-      "location": "Heading and paragraph about \"Moses in Midian\" (source.html paragraph starting 'In “Moses in Midian”' / translation paragraph 5 and the quoted title)",
-      "severity": "minor",
-      "source_quote": "In “Moses in Midian”, we take a walk in Moses’ footsteps during the mid-section of his life.",
-      "suggested_fix": "Correct the target-language rendering of the proper name Moses and the article title. Replace \"মধ্যিয়ানে মোসস\" and other instances of \"মোসস\" with a conventional Bengali form such as \"মোশে\" (or \"মূসা\" if the publication's style prefers that). Example: \"“মধ্যিয়ানে মোশে”\" and \"মোশে\" in running text.",
-      "translation_quote": "“মধ্যিয়ানে মোসস” লেখায় আমরা তাঁর জীবনের মধ্যাংশে মোসসের পদচারণায় হাঁটছি।"
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1761,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5017,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6778
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "<p>…As we take a look at the life of Jonah, we glean glimpses of “The God Who Will Not Let Go”.</p> (source.html, paragraph about Jonah)",
+      "severity": "major",
+      "source_quote": "As we take a look at the life of Jonah, we glean glimpses of “The God Who Will Not Let Go”.",
+      "suggested_fix": "Translate the proper name 'Jonah' correctly into Bengali and fix the surrounding phrasing. Preserve the HTML paragraph structure. For example: replace the translated sentence with Bengali that renders the name as যোনাহ and conveys the original meaning. Keep the rest of the paragraph tags unchanged.",
+      "translation_quote": "আমরা যখন ইউনার জীবনের দিকে তাকাই, তখন আমরা “ঈশ্বর যিনি ছাড়েন না”—এর ঝলক দেখতে পাই।"
+    },
+    {
+      "location": "<p>…God will do this through hardening the hearts of ungodly men in positions of power, just like Pharaoh of old…</p> (source.html, paragraph about God hardening hearts)",
+      "severity": "critical",
+      "source_quote": "God will do this through hardening the hearts of ungodly men in positions of power, just like Pharaoh of old, to accomplish His sovereign will for the world.",
+      "suggested_fix": "Correct the mistranslation of the proper name 'Pharaoh' (which in English refers to the ancient Egyptian ruler). The Bengali must reflect Pharaoh (e.g., ফারাও or প্রাচীন ফারাও) rather than 'ফরাসী' or 'French'. Preserve the original sentence meaning and HTML. Example fix (in Bengali): “ঈশ্বর বিশ্বের প্রতি তাঁর সার্বভৌম ইচ্ছা সিদ্ধির জন্য ক্ষমতায় থাকা অনাধর্মীদের হৃদয় প্রাচীন ফারাওয়ের ন্যায় শক্ত করে দেবেন।”",
+      "translation_quote": "ঈশ্বর পবিত্ররূপে অশুভ পুরুষদের হৃদয় শক্ত করে দেবে যারা ক্ষমতাসীন অবস্থানে আছে—প্রাচীন ফরাসীর মত—তাঁর সার্বভৌম ইচ্ছা সাধনের জন্য।"
+    },
+    {
+      "location": "<p>Proverbs 21:1 quotation</p> (source.html, paragraph beginning \"In the natural world…\")",
+      "severity": "minor",
+      "source_quote": "The king’s heart is in the hand of the LORD, as the rivers of water: he turneth it whithersoever he will –Proverbs 21:1.",
+      "suggested_fix": "The Bengali rendering contains odd wording ('রাজার অন্ত্য: করুণাময় রবের হাতে; সে নদীর জলের মতো তাকে...'). Render the verse in fluent, conventional Bengali while keeping the scripture reference and verse placement. Example replacement preserving sense: “রাজার হৃদয়প্রভুর হাতে, সে যেখানেই ইচ্ছে নষ্ট করে দেন; সে যেন নদীর জল—যেখানে ইচ্ছে পাঠায়। — নীতিবচন 21:1.” Keep the <em> tags as in source.",
+      "translation_quote": "আধ্যাত্মিক সত্য হলো: <em>রাজার অন্ত্য: করুণাময় রবের হাতে; সে নদীর জলের মতো তাকে যেখানে ইচ্ছে ফিরিয়ে দেয়। – নীতিবচন 21:1।</em>"
+    },
+    {
+      "location": "<p>Romans 13:1-4 quotation paragraph</p> (source.html, paragraph beginning \"Let’s always cultivate a right attitude…\")",
+      "severity": "minor",
+      "source_quote": "Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God … For he is the minister of God to thee… –Romans 13:1-4.",
+      "suggested_fix": "There is a typographical/spacing error immediately before the quotation attribution in Bengali ('যখন তিনিোপস্টল পল-এর মাধ্যমে আমাদেরকে বলেন:'). Fix the typo so it reads clearly (e.g., 'যখন তিনি — অ্যাপোস্টল পল-এর মাধ্যমে আমাদেরকে বলেন:'). Preserve HTML and the quoted scripture formatting.",
+      "translation_quote": "চলুন আমাদের হৃদয়ে সর্বদা একটি সঠিক মনোভাব চাষ করি যেন আমাদের কথা ও কর্ম ঈশ্বরের দৃষ্টিভঙ্গি প্রতিফলিত করে যখন তিনিোপাস্টল পল-এর মাধ্যমে আমাদেরকে বলেন: <em>প্রতিটি প্রাণ উচ্চতর শাসকদের অধীন হোক। কারণ কোনো শাসন নেই যা ঈশ্বরের কাছ থেকে নয়: যে সমস্ত শাসন আছে সেগুলো ঈশ্বর দ্বারা প্রতিষ্ঠিত … কারণ সে তোমার প্রতি ঈশ্বরের মন্ত্রী … – রোমীয় 13:1-4।</em>"
+    }
+  ],
+  "finished_at": "2026-10-02T13:07:11+00:00",
   "id": "e92342f2ea2f48d8d0d12bcdddd79db7",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ben",
@@ -154,13 +188,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 78,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c16edd05d12043a927f45367071112d6f71c0042bc3d1b02d0bfb5b8d330f1e2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "d0410b3ae98c7c6c4b8643e82b8513a58f4f423e430db25e79b18dc18a3fab41",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

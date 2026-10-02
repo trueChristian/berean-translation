@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<div class=\"lyrics\"> (3rd stanza, line 2) — hymn text: \"Crown Him, ye morning stars of light, / Who fixed this floating ball, / Now hail the Strength of Israel’s might, / And crown Him Lord of all!\"",
+      "severity": "major",
+      "source_quote": "Now hail the Strength of Israel’s might,",
+      "suggested_fix": "Translate the English sense accurately. A faithful Urdu rendering would convey an exhortation to praise or acclaim Israel’s strong One (the Strength of Israel). Suggested Urdu: \"اُس اسرائیل کی قوت کو اب سلام کرو\" or \"اب اسرائیل کی طاقت کو سلام کرو\" — preserving the exhortation 'hail' (سلام کرو/سلام پیش کرو) rather than 'lesson' or 'سابق'.",
+      "translation_quote": "\"اب اسرائیل کی قوت کا سبق قبول کرو,\" (uses 'سبق' = 'lesson', which changes meaning and omits the exhortation to 'hail')"
+    },
+    {
+      "location": "<p>References: (last paragraph) — reference list entries left in English",
+      "severity": "major",
+      "source_quote": "A Treasury of Hymn Stories\n101 Hymn stories\n\"Coronation\" Tune -Oliver Holden 1765-1844\n\"Miles Lane\" Tune -William Shrubsole, 1760-1806\n\"Diadem\" Tune -James Elliot, 1838\n\"Let Us Crown Him\" Tune -James McGranahan 1840-1907",
+      "suggested_fix": "Translate or present these reference titles and any quoted descriptive lines into Urdu, since they are quoted substantive prose in the article. For example: \"A Treasury of Hymn Stories\" → \"حمدی قصّوں کا خزانہ\" (or a transliteration followed by Urdu translation in parentheses), and similarly \"101 Hymn Stories\" → \"101 حمدی قصّے\". Composer names and dates may remain in Latin script or be transliterated. Keep each reference on its own line as in the source HTML.",
+      "translation_quote": "References:\nA Treasury of Hymn Stories\n101 Hymn stories\n\"Coronation\" Tune -Oliver Holden 1765-1844\n\"Miles Lane\" Tune -William Shrubsole, 1760-1806\n\"Diadem\" Tune -James Elliot, 1838\n\"Let Us Crown Him\" Tune -James McGranahan 1840-1907 (left in English)"
+    },
+    {
+      "location": "Opening Scripture line (first paragraph, emphasized quote)",
+      "severity": "minor",
+      "source_quote": "for thy pleasure they are and were created",
+      "suggested_fix": "The Urdu phrase used (\"اور وہ تیرے مشنّتِ خاطر ہیں\") uses 'مشنّت' which is non-idiomatic and unclear. Use an idiomatic Urdu rendering that preserves the sense 'created for thy pleasure' such as: \"اور وہ تیرے لطف کے لیے پیدا کیے گئے ہیں\" or \"اور وہ تیرے لطف کے سبب پیدا ہوئے تھے\".",
+      "translation_quote": "\"اور وہ تیرے مشنّتِ خاطر ہیں اور پیدا ہوئیں — مکاشفہ 4:11۔\" (uses 'مشنّتِ' which is not standard Urdu and may obscure meaning)"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

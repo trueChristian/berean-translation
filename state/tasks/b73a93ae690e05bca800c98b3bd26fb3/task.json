@@ -2,7 +2,6 @@
   "article_id": "6080d813-75a2-4123-9552-3c4f75c81219",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "13ec55b413584b4e81cc1b0f52def237",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:40+00:00",
   "events": [
@@ -62,25 +61,45 @@
         },
         "total_tokens": 8727
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 698,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 320,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5682,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6380
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "source.title",
-      "severity": "major",
-      "source_quote": "Why I Have Not Gotten the Covid Shot",
-      "suggested_fix": "Translate the English title into standard Bahasa Indonesia and preserve meaning. Suggested translation: \"Mengapa Saya Belum Mendapat Suntikan Covid\" (or \"Mengapa Saya Belum Disuntik Covid\"). Replace the translation.title value with the chosen Indonesian title.",
-      "translation_quote": "Why I Have Not Gotten the Covid Shot"
+      "location": "Paragraph 3 (smallpox/polio anecdote)",
+      "severity": "minor",
+      "source_quote": "I remember some years later when the whole community gathered at our local public school for the sugar cube treatment which was an oral vaccination against polio.",
+      "suggested_fix": "Consider a more idiomatic rendering of “sugar cube treatment” in Indonesian to improve clarity for readers unfamiliar with the term, e.g. “perlakuan gula kubus” or “pemberian vaksin oral dengan gula kubus”. Keep the surrounding HTML and punctuation unchanged.",
+      "translation_quote": "Saya ingat beberapa tahun kemudian ketika seluruh komunitas berkumpul di sekolah umum setempat untuk perawatan gula kubus yang merupakan vaksin oral terhadap polio."
     },
     {
-      "location": "source.section",
-      "severity": "major",
-      "source_quote": "Issues Facing the Church",
-      "suggested_fix": "Translate the English section name into standard Bahasa Indonesia. Suggested translation: \"Isu yang Dihadapi Gereja\" or \"Isu yang Dihadapi Jemaat\". Replace the translation.section value with the chosen Indonesian section name.",
-      "translation_quote": "Issues Facing the Church"
+      "location": "Paragraph 15 (sentence about reasons to take the shot)",
+      "severity": "minor",
+      "source_quote": "There are all kinds of good reasons we will go ahead with it—it makes good sense, it defies science not to, I’ve even heard we can be better witnesses if we have had it, and the list goes on.",
+      "suggested_fix": "The phrase “it defies science not to” is idiomatic and a bit ambiguous. The current translation “ilmu pengetahuan tidak membantahnya” shifts nuance. Consider rendering to match the English sense more closely, e.g. “secara ilmiah sulit untuk menolaknya” or “secara ilmiah sulit untuk tidak setuju” while preserving surrounding HTML.",
+      "translation_quote": "Ada berbagai alasan bagus mengapa kita akan melakukannya—masuk akal, ilmu pengetahuan tidak membantahnya, saya bahkan dengar kita bisa menjadi saksi yang lebih baik jika kita telah menerimanya, dan daftar terus berlanjut."
     }
   ],
+  "finished_at": "2026-10-02T13:07:11+00:00",
   "id": "b73a93ae690e05bca800c98b3bd26fb3",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ind",
@@ -154,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 85,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/733eeaa1a812b6193e133350be5a00b31e3585142bda55cfaea2f725f3dda88f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "f7d8a08704733486f924816fbfd515b7c40bf25c984ecd111bf0fe403aaa2dde",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

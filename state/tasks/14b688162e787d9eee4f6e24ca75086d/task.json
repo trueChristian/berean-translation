@@ -2,7 +2,6 @@
   "article_id": "9b13e502-993c-4536-a32d-ae1a62c36db5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "13ec55b413584b4e81cc1b0f52def237",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,39 +61,30 @@
         },
         "total_tokens": 6437
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 666,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3758,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4424
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Translation paragraph containing Psalm 56:3 (around middle of article)",
-      "severity": "major",
-      "source_quote": "But Mother always reminded us to pray and remember the Bible verse which says: What time I am afraid, I will trust in thee –Psalm 56:3.",
-      "suggested_fix": "Correct the Swedish translation of the quoted Scripture so it faithfully conveys the verse. Replace “När jag är rädd, skall jag sätta min lit till dig –Psalm 56:3.” with a clear Swedish rendering such as “När jag är rädd, skall jag sätta min lit till dig – Psalm 56:3.” or more correctly “När jag är rädd, skall jag sätta min förtröstan till dig – Psalm 56:3.” (preserve spacing and the exact reference “Psalm 56:3”).",
-      "translation_quote": "Men mamma påminde oss alltid att be och komma ihåg bibelversen som säger: När jag är rädd, skall jag sätta min lit till dig –Psalm 56:3."
-    },
-    {
-      "location": "Image 1 alt attribute (first figure)",
-      "severity": "minor",
-      "source_quote": "A brindle dog wearing a chain collar",
-      "suggested_fix": "Use a natural Swedish phrase and correct word order. Replace alt text “En tigerbrindlad hund med halsband av kedja” with e.g. “En brindlad hund med kedjehalsband” or “En brindlad hund med halsband av kedja” (preferred: “En brindlad hund med kedjehalsband”).",
-      "translation_quote": "En tigerbrindlad hund med halsband av kedja"
-    },
-    {
-      "location": "Paragraph describing Pierce’s dog behaviour",
-      "severity": "minor",
-      "source_quote": "he had a very fierce dog; at least he acted very fierce!",
-      "suggested_fix": "Fix the adjective form and idiom. Replace “han hade en mycket ilsk hund; åtminstone uppförde den sig mycket ilsket!” with “han hade en mycket ilsken hund; åtminstone uppförde den sig mycket ilsket!”",
-      "translation_quote": "han hette Pierce, och han hade en mycket ilsk hund; åtminstone uppförde den sig mycket ilsket!"
-    },
-    {
-      "location": "Paragraph giving distances (“half a mile” and “quarter of a mile”)",
-      "severity": "minor",
-      "source_quote": "Oh, it was about half a mile to our closest neighbor, the Rhine’s place, and then about another quarter of a mile to the Brightbills,",
-      "suggested_fix": "Translate or normalize the English distance unit consistently into Swedish usage. Replace “en halv mile” and “en fjärdedels mile” with e.g. “ungefär en halv mile” (if keeping “mile”) or convert to kilometres: “ungefär 0,8 kilometer” and “ytterligare cirka 0,4 kilometer” depending on style rules. Preserve the original numeric meaning and keep the phrasing natural.",
-      "translation_quote": "Åh, det var ungefär en halv mile till vår närmaste granne, Rhines ställe, och sedan ungefär en fjärdedels mile till Brightbills,"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T13:07:10+00:00",
   "id": "14b688162e787d9eee4f6e24ca75086d",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "swe",
@@ -168,13 +158,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/024b14cea96a528a42f66f77d442fb07d0e5035a02e35254ae96bf4fcc0c193f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

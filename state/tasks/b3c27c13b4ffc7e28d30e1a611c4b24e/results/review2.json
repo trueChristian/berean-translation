@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c785a10e-1156-4d6b-b4db-4a0fc4563f26",
+    "response_id": "chatcmpl-EUXElcYHVVpDpecCEkoymfMeqSkbL",
+    "usage": {
+      "completion_tokens": 2403,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11553,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13956
+    }
+  },
+  "received_at": "2026-10-02T13:07:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — Genesis 1:31, Genesis 3:12-13, Genesis 3:16-19 (inline scripture citations)",
+        "severity": "major",
+        "source_quote": "…And God saw every thing that he had made, and, behold, it was very good… –Genesis 1:31.\n\n…And the man said, The woman whom thou gavest to be with me, she gave me of the tree, and I did eat. And the LORD God said unto the woman, What is this that thou hast done? And the woman said, The serpent beguiled me, and I did eat –Genesis 3:12-13.\n\nUnto the woman he said, I will greatly multiply thy sorrow… and unto Adam he said… –Genesis 3:16-19.",
+        "suggested_fix": "Replace the English book name \"Genesis\" in each inline citation with the conventional Hindi Bible name \"उत्पत्ति\" while keeping chapter and verse unchanged. Example: change \"–Genesis 1:31.\" to \"–उत्पत्ति 1:31.\" Do the same for 3:12-13 and 3:16-19. Preserve the surrounding punctuation and HTML markup exactly as in the translation.",
+        "translation_quote": "<em>और परमेश्वर ने देखा कि उसने जो कुछ बनाया था वह सब बहुत ही अच्छा था… –Genesis 1:31.</em>\n\n<em>और मनुष्य ने कहा, <strong>वह स्त्री जिसे तूने मेरे साथ रहने के लिए दी थी, उसने मुझे उस वृक्ष का दिया</strong>, और मैंने खाया। तब यहोवा परमेश्वर ने स्त्री से कहा, यह तूने क्या किया? और स्त्री ने कहा, <strong>साँप ने मुझे फुसला दिया और मैंने</strong> खाया –Genesis 3:12-13.</em>\n\n<em>और उसने स्त्री से कहा, मैं तेरा श्रम और तेरा गर्भ अत्यधिक बढ़ाऊँगा;… –Genesis 3:16-19.</em> "
+      },
+      {
+        "location": "source.html — Ruth 1:20-21 and Ruth 4:14-16 (inline scripture citations)",
+        "severity": "major",
+        "source_quote": "…Call me not Naomi [pleasant], call me Mara [bitter]: for the Almighty hath dealt very bitterly with me… –Ruth 1:20-21.\n\nAnd the women said unto Naomi, Blessed be the LORD, which hath not left thee this day without a kinsman… –Ruth 4:14-16.",
+        "suggested_fix": "Replace the English book name \"Ruth\" in inline citations with the conventional Hindi Bible name \"रूत\" while keeping chapter and verse unchanged. Example: change \"–Ruth 1:20-21.\" to \"–रूत 1:20-21.\" Preserve punctuation and HTML markup exactly.",
+        "translation_quote": "<em>…मुझको नाओमी [सुखद] न कहा करो, मुझे मारा [कड़वा] कहा करो: क्योंकि सर्वशक्तिमान ने मेरे साथ बहुत कड़वी तुक्की की है… –Ruth 1:20-21.</em>\n\n<em>तब स्त्रियाँ नाओमी से कहने लगीं, धन्य हो वह यहोवा, जिसने आज तुझे एक नाते वाला न छोड़ा… –Ruth 4:14-16.</em> "
+      },
+      {
+        "location": "source.html — Jeremiah 20:14-18 (inline scripture citation)",
+        "severity": "major",
+        "source_quote": "Cursed be the day wherein I was born: let not the day wherein my mother bare me be blessed… –Jeremiah 20:14-18.",
+        "suggested_fix": "Replace the English book name \"Jeremiah\" in the inline citation with the conventional Hindi Bible name \"यिर्मयाह\" (chapter and verse unchanged). Example: change \"–Jeremiah 20:14-18.\" to \"–यिर्मयाह 20:14-18.\" Preserve surrounding punctuation and HTML markup.",
+        "translation_quote": "<em>शापित हो वह दिन जिसमें मैं जन्मा; वह दिन जिसमें मेरी माता ने मुझे जन्म दिया, धन्य न हो… –Jeremiah 20:14-18.</em> "
+      },
+      {
+        "location": "source.html — James 5:16 (two occurrences)",
+        "severity": "major",
+        "source_quote": "…The effectual fervent prayer of a righteous man availeth much –James 5:16.\n\nConfess your faults one to another, and pray one for another, that ye may be healed… –James 5:16.",
+        "suggested_fix": "Replace the English book name \"James\" in both inline citations with the conventional Hindi Bible name \"याकूब\" (or the target site's preferred Hindi form for James) while keeping chapter and verse unchanged. Example: change \"–James 5:16.\" to \"–याकूब 5:16.\" Keep punctuation and HTML markup as in the translation.",
+        "translation_quote": "<em>…धर्मी पुरुष की प्रभावशाली, उग्र प्रार्थना बहुत कुछ कर सकती है –James 5:16.</em>\n\n<em>एक दूसरे से अपने अपराध स्वीकार करो, और एक दूसरे के लिए प्रार्थना करो, कि तुम स्वास्थ्य पाओ… –James 5:16.</em> "
+      },
+      {
+        "location": "source.html — several other inline citations left partially anglicized or inconsistent (overall scripture citation consistency)",
+        "severity": "minor",
+        "source_quote": "Original English used conventional English book names for citations such as \"Genesis,\" \"Ruth,\" \"Jeremiah,\" and \"James.\"",
+        "suggested_fix": "Ensure consistency across the article by converting all inline scripture citation book names to their conventional Hindi equivalents (उत्पत्ति, रूत, यिर्मयाह, याकूब, भजन/नीतिवचन/2 कुरिन्थियों already appear correctly). Verify the site’s preferred Hindi forms for book names and apply them uniformly. Do not change chapter or verse numbers or the placement/format of the citations.",
+        "translation_quote": "The translation has mixed Hindi and English book names (e.g. Nीतिवचन and 2 कुरिन्थियों are in Hindi, but Genesis/Ruth/Jeremiah/James remain in English in the inline citations)."
+      },
+      {
+        "location": "source.html — paragraph about Jeremiah (typo/garbled text)",
+        "severity": "minor",
+        "source_quote": "Jeremiah’s life was constantly under threat. At one time, he was thrown into a dungeon full of mud and was only rescued at the last minute. Jerusalem was besieged three different times before the Babylonians razed it. Through his decades of ministry, Jeremiah told the people what God was asking of them, and the people constantly ignored it.",
+        "suggested_fix": "Correct the garbled name fragment in the Hindi translation where the author name is corrupted. Replace the incorrect sequence \"यरम Jerem ने\" with the correct Hindi rendering of the name and verb: e.g. \"यरमयाह ने लोगों को बताया कि...\" Ensure spacing and diacritics are correct.",
+        "translation_quote": "\"यरमियम का जीवन सदैव खतरे में था... अपनी दशकों लंबी सेवा के दौरान, यरम Jerem ने लोगों को बताया कि परमेश्वर उनसे क्या माँग रहा है...\" (contains the erroneous fragment \"यरम Jerem\")"
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

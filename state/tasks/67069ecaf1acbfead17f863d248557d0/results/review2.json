@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e3e79209-eb9d-4b28-bd16-4c5a486d31f8",
+    "response_id": "chatcmpl-EUXEkzMSK6HdPEq1mmGXgSdvN3CKh",
+    "usage": {
+      "completion_tokens": 1614,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1088,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4835,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6449
+    }
+  },
+  "received_at": "2026-10-02T13:07:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "All inline Scripture references (inline verses and verse tags)",
+        "severity": "major",
+        "source_quote": "–Proverbs 21:1. … –Daniel 4:31-32. … –John 18:36. … –Hebrews 11:13-16. … –2 Corinthians 6:17. … –Romans 13:1-4. … 1 Timothy 2:1-2. … –Matthew 17:20. … –James 5:16.",
+        "suggested_fix": "Localize the Bible book names to standard contemporary Hindi forms while keeping the chapter:verse numbers and punctuation exactly as in the English source. Do not change verse numbers or bracketed punctuation. Example replacements to use consistently: Proverbs → नीतिवचन; Daniel → दानिय्येल; John → यूहन्ना; Hebrews → इब्रानियों; 2 Corinthians → 2 कुरिन्थियों; Romans → रोमियों; 1 Timothy → 1 तिमुथियुस (or 1 तिमोथियुस if your publication uses that convention); Matthew → मत्ती; James → याकोब/याकूब (use the magazine's usual convention). Apply these replacements in every occurrence so each inline citation appears in Hindi (for example: “–नीतिवचन 21:1.”).",
+        "translation_quote": "–Proverbs 21:1. … –Daniel 4:31-32. … –John 18:36. … –Hebrews 11:13-16. … –2 Corinthians 6:17. … –Romans 13:1-4. … 1 Timothy 2:1-2. … –Matthew 17:20. … –James 5:16."
+      },
+      {
+        "location": "Second figure img alt attribute (end of article)",
+        "severity": "major",
+        "source_quote": "alt=\"A straight road through a misty autumn forest\"",
+        "suggested_fix": "Translate the alt text so it faithfully conveys the original meaning. The current translation renders “straight” incorrectly as “कुशल”. Replace the alt attribute text with a correct Hindi rendering such as: alt=\"कोहरे से भरे शरदकालीन वन से होकर जाने वाली एक सीधी सड़क\". Preserve the img tag and its other attributes exactly.",
+        "translation_quote": "alt=\"एक कुशल मार्ग जो कोहरे भरे शरद्-वन से होकर जाता है\""
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

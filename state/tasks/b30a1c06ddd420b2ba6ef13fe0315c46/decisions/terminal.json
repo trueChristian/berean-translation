@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph: \"In the natural world our “old man” has the tendency...\" (source.html) / Corresponding Urdu paragraph beginning \"قدرتی دنیا میں ہمارا \\\"پرانا آدمی\\\"...\" (translation.html)",
+      "severity": "minor",
+      "source_quote": "Throughout the history of the Anabaptist people there have been varied opinions on this matter, however, it is our wish to lift up the perspective that Jesus said …My kingdom is not of this world… –John 18:36.",
+      "suggested_fix": "Unify the transliteration of “Anabaptist” in the Urdu text. The translation currently uses two different forms: \"انا بپٹسٹس\" (earlier) and \"انا بپٹسٹسٹ لوگوں\" (later). Choose a single consistent, conventional Urdu form (for example, \"انا بپٹِسٹ\" or \"انا بپٹسٹس\") and apply it throughout the article. Example fix for affected HTML: replace occurrences of \"انا بپٹسٹس\" and \"انا بپٹسٹسٹ\" with the chosen form, preserving surrounding HTML and punctuation.",
+      "translation_quote": "انا بپٹسٹسٹ لوگوں کی تاریخ میں اس معاملے پر مختلف آراء رہی ہیں، تاہم ہماری خواہش یہ ہے..."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

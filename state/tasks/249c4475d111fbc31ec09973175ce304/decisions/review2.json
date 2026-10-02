@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph 9 (Revelation quote)",
+      "severity": "minor",
+      "source_quote": "And he causeth all, both small and great, rich and poor, free and bond, to receive a mark in their right hand, or in their foreheads: And that no man might buy or sell, save he that had the mark, or the name of the beast, or the number of his name –Revelation 13:16-17.",
+      "suggested_fix": "Use contemporary Swedish wording for the quoted Scripture to match the target-language guidance. Replace the archaic verb form \"hava\" with the modern form \"har\" and keep the rest of the verse translation equivalent. Preserve the HTML structure and emphasis tags exactly as in the translation. Example replacement (inside the same <p> and <em>/<strong> tags): “Och han förmår alla, båda små och stora, rika och fattiga, fria och trälar, att taga ett märke i deras högra hand, eller i deras pannor: <strong>Och att ingen må kunna köpa eller sälja, utom han som</strong> har märket, eller odjurets namn, eller namnets tal –Uppenbarelseboken 13:16-17.”",
+      "translation_quote": "Och han förmår alla, båda små och stora, rika och fattiga, fria och trälar, att taga ett märke i deras högra hand, eller i deras pannor: <strong>Och att ingen må kunna köpa eller sälja, utom han som</strong> hava märket, eller odjurets namn, eller namnets tal –Uppenbarelseboken 13:16-17."
+    },
+    {
+      "location": "source.html paragraph 6 (weed name)",
+      "severity": "minor",
+      "source_quote": "Today, every farmer knows about ‘Palmer amaranth Pigweed’. You can almost ‘pour’ glyphosate on it, and still it thrives.",
+      "suggested_fix": "Either present the plant name consistently with Swedish usage or format the common name clearly. For contemporary Swedish, consider rendering the English common name in parentheses or italics, or use a Swedish common name if available. Suggested small change (keep HTML): “Idag känner varje bonde till ’Palmer amaranth’ (pigweed). Man kan nästan ’hälla’ glyfosat på det, och ändå frodas det.”",
+      "translation_quote": "Idag känner varje bonde till ’Palmer amaranth Pigweed’. Man kan nästan ’hälla’ glyfosat på det, och ändå frodas det."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 3 (smallpox/polio anecdote)",
+      "severity": "minor",
+      "source_quote": "I remember some years later when the whole community gathered at our local public school for the sugar cube treatment which was an oral vaccination against polio.",
+      "suggested_fix": "Consider a more idiomatic rendering of “sugar cube treatment” in Indonesian to improve clarity for readers unfamiliar with the term, e.g. “perlakuan gula kubus” or “pemberian vaksin oral dengan gula kubus”. Keep the surrounding HTML and punctuation unchanged.",
+      "translation_quote": "Saya ingat beberapa tahun kemudian ketika seluruh komunitas berkumpul di sekolah umum setempat untuk perawatan gula kubus yang merupakan vaksin oral terhadap polio."
+    },
+    {
+      "location": "Paragraph 15 (sentence about reasons to take the shot)",
+      "severity": "minor",
+      "source_quote": "There are all kinds of good reasons we will go ahead with it—it makes good sense, it defies science not to, I’ve even heard we can be better witnesses if we have had it, and the list goes on.",
+      "suggested_fix": "The phrase “it defies science not to” is idiomatic and a bit ambiguous. The current translation “ilmu pengetahuan tidak membantahnya” shifts nuance. Consider rendering to match the English sense more closely, e.g. “secara ilmiah sulit untuk menolaknya” or “secara ilmiah sulit untuk tidak setuju” while preserving surrounding HTML.",
+      "translation_quote": "Ada berbagai alasan bagus mengapa kita akan melakukannya—masuk akal, ilmu pengetahuan tidak membantahnya, saya bahkan dengar kita bisa menjadi saksi yang lebih baik jika kita telah menerimanya, dan daftar terus berlanjut."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

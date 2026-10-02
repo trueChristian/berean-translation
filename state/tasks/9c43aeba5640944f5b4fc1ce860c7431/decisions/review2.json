@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 5 (translation) — sentence about new categories",
+      "severity": "minor",
+      "source_quote": "And one on Hymn Histories being written by one of our board members, a middle-aged married man, who is also from our church.",
+      "suggested_fix": "Use a plural or more direct equivalent for the English plural title “Hymn Histories.” Replace «salmetradisjon» with «salmehistorier» or «salmenes historie» to match the plural sense of the source.",
+      "translation_quote": "Og en om salmetradisjon som blir skrevet av et av våre styremedlemmer, en middelaldrende gift mann, som også er fra vår kirke."
+    },
+    {
+      "location": "Section opening paragraph (translation) — first sentence",
+      "severity": "minor",
+      "source_quote": "One of our goals for this issue is burdened with the awareness that the country in which we live (the U.S.) is approaching mid-term elections in November of this year and that there will be a strong push for many conservative Anabaptists to become involved in the voting process to ensure a proper outcome for the good of their perceived cause or goals.",
+      "suggested_fix": "Correct the Norwegian indefinite article typo «Ett» to the Bokmål form «Et».",
+      "translation_quote": "Ett av våre mål for denne utgaven er preget av vissheten om at landet vi bor i (USA) nærmer seg mellomvalg i november i år, og at det vil være et sterkt press for mange konservative anabaptister om å engasjere seg i stemmegivningsprosessen for å sikre et «riktig» utfall til det de oppfatter som sin sak eller sine mål."
+    },
+    {
+      "location": "Paragraph about new categories (translation) — phrasing",
+      "severity": "minor",
+      "source_quote": "One on Church History that is being written by two young brothers from our church.",
+      "suggested_fix": "Consider changing «En om kirkens historie som blir skrevet av to unge brødre fra vår kirke» to the slightly smoother Bokmål phrasing «Én om kirkens historie, skrevet av to unge brødre fra vår kirke.» This preserves meaning and improves flow while keeping the same content.",
+      "translation_quote": "Som tidligere nevnt inkluderer vi flere nye kategorier i denne utgaven. En om kirkens historie som blir skrevet av to unge brødre fra vår kirke. Og en om salmetradisjon som blir skrevet av et av våre styremedlemmer, en middelaldrende gift mann, som også er fra vår kirke."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

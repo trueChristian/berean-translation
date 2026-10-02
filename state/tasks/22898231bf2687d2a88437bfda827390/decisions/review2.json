@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph with James quote (near heading “Bid\")",
+      "severity": "minor",
+      "source_quote": "…The effectual fervent prayer of a righteous man availeth much –James 5:16.",
+      "suggested_fix": "Correct the Dutch grammar while preserving the sense and the verse reference. For example: \"…Het krachtige, vurige gebed van een rechtvaardige vermag veel –Jakobus 5:16.\" Preserve the HTML tags and placement.",
+      "translation_quote": "…De effectieve, vurige gebed van een rechtvaardige vermag veel –Jakobus 5:16."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

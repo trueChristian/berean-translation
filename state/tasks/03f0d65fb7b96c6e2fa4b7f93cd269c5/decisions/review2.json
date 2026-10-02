@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph quoting 2 Corinthians 6:17 (near discussion of political involvement)",
+      "severity": "major",
+      "source_quote": "“…come out from among them, and be ye separate… –2 Corinthians 6:17.”",
+      "suggested_fix": "Render only the printed English excerpt into Greek without adding extra clauses. Replace the current Greek rendering with a faithful translation of the printed excerpt, preserving verse citation and ellipses. Suggested Greek: “…βγείτε έξω από ανάμεσά τους, και διαχωριστείτε… –2 Κορ. 6:17.”",
+      "translation_quote": "“…βγείτε έξω από ανάμεσά τους, και διαχωριστείτε· μην αγγίζετε τίποτα ακάθαρτο· και εγώ θα σας δεχθώ. —2 Κορ. 6:17.”"
+    },
+    {
+      "location": "Paragraph describing the author of 'Hymn Histories' (third content paragraph)",
+      "severity": "minor",
+      "source_quote": "\"one of our board members, a middle-aged married man, who is also from our church.\"",
+      "suggested_fix": "Fix grammatical agreement and natural wording in Greek. The current phrase uses an inconsistent article/particle with masculine noun. Suggested correction (preserving meaning): “ένα από τα μέλη του διοικητικού μας συμβουλίου, ένας μεσήλικας παντρεμένος άνδρας, που προέρχεται επίσης από την εκκλησία μας.”",
+      "translation_quote": "“μία για Ιστορίες Ύμνων που γράφεται από ένα από τα μέλη του διοικητικού μας συμβουλίου, έναν μεσήλικα έγγαμο άνδρα, ο οποίος επίσης προέρχεται από την εκκλησία μας.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

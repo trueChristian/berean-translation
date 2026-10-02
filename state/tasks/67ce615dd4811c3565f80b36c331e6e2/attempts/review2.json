@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:07:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 3 (\\\"Le père d'Edward...\\\")\",\"severity\":\"minor\",\"source_quote\":\"He was a descendant of a distinguished French Huguenot family who had fled to Switzerland and later to England because of the religious persecution in France.\",\"suggested_fix\":\"Replace awkward phrasing with a more idiomatic French rendering while preserving meaning. For example: «Il descendait d'une illustre famille huguenote française qui avait fui vers la Suisse puis vers l'Angleterre en raison des persécutions religieuses en France.»\",\"translation_quote\":\"Il descendait d'une illustre famille huguenote française qui avait fui en Suisse puis en Angleterre à cause des persécutions religieuses en France.\"},{\"location\":\"Paragraph 8 (last sentence of Perronet's last words)\",\"severity\":\"minor\",\"source_quote\":\"Glory to God in His all-sufficiency! Into His hands I commend my spirit.\",\"suggested_fix\":\"Adjust wording to a more natural French idiom while preserving theological sense. For example: «Gloire à Dieu pour Sa toute-suffisance ! Entre Ses mains je recommande mon esprit.»\",\"translation_quote\":\"Gloire à Dieu dans Sa suffisance totale! Entre Ses mains je recommande mon esprit.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 1231,
+    "content_evidence_truncated": false,
+    "content_sha256": "73a44275b2ea755a3f39dd9994bc2baeca3a2b1927bab123b4fc16ebcb3439d3",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1117,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5334,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6451
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

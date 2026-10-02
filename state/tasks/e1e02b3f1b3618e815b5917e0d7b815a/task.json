@@ -2,7 +2,6 @@
   "article_id": "5fc18c0d-013c-40d0-aabb-e8f7c7c404eb",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "13ec55b413584b4e81cc1b0f52def237",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,32 +61,39 @@
         },
         "total_tokens": 10597
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1143,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5814,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6957
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph: \"The beginnings of the 20th century brought about the first World War...\"",
-      "severity": "critical",
-      "source_quote": "The beginnings of the 20th century brought about the first World War, which ended with the defeat of Germany and its allies. The resulting peace treaties were structured to humiliate and crush Germany, saddling it with an almost unpayable war debt, and restricting its rights to build a military.",
-      "suggested_fix": "Translate the entire sentence into Bengali, removing the embedded English word. For example, replace the sentence in the translation with a faithful Bengali rendering that preserves meaning and scripture/reference fidelity and keeps HTML structure unchanged. Preserve the clause order and meaning: “২০শ শতাব্দীর শুরুতে প্রথম বিশ্বযুদ্ধ সংঘটিত হয়, যা জার্মানি ও তার মিত্রদের পরাজয়ে শেষ হয়। ফলশ্রুতির স্বরূপ যে শান্তি চুক্তিগুলো করা হয়েছিল, সেগুলো জার্মানিকে লজ্জিত ও দমন করার লক্ষ্যে রচিত ছিল; তাতে তাদের প্রায় অনাদেয় যুদ্ধঋণ চাপিয়ে দেওয়া হয় এবং সামরিক বাহিনী গঠনের অধিকার সীমিত করা হয়।”",
-      "translation_quote": "resulting শান্তি চুক্তিগুলো জার্মানিকে আপত্তিজনকভাবে লজ্জিত ও سحق করার মতভাবে রচিত হয়েছিল, তাদের প্রায় অপ্রতিদেয় যুদ্ধ দেনায় বেঁধে, এবং তাদের সামরিক নির্মাণের অধিকার সীমাবদ্ধ করে।"
-    },
-    {
-      "location": "Paragraph: “If a group who originally held beliefs identical to our own could stray…” (paragraph beginning “If a group who originally…”)",
-      "severity": "critical",
-      "source_quote": "“Are we seeing their folly for what it was?” Why did the churches of Danzig accept the advances of what, in retrospect, was a clearly un-biblical, un-Christlike movement?",
-      "suggested_fix": "Translate all English words, including the embedded English adjective, into Bengali. Replace the mixed-language phrase with fully translated Bengali such as: “রেট্রোস্পেকটিভ” should be rendered in Bengali (e.g., “পূর্বদৃষ্টিতে” or “পশ্চাদ্ধাবনায়”) — do not leave the English word intact. Suggested translation: “তুমি কি তাদের ভুলটাকে যেমন ছিল তেমনভাবেই দেখতে পারছ?” কেন দানজিগের চার্চগুলো, পশ্চাদ্ধাবনায় দেখা গেলে, স্পষ্টতই বাইবেলের বিরুদ্ধে ও খ্রিষ্ট-সদৃশ নয় এমন আন্দোলনের অগ্রগতিগুলো গ্রহণ করেছিল?”",
-      "translation_quote": "retrospective দৃষ্টিতে স্পষ্টভাবে অন-বাইবেলীয়, অন-খ্রিস্টীয় আন্দোলনের অগ্রগতিগুলো গ্রহণ করেছিল?"
-    },
-    {
-      "location": "First paragraph after opening scripture and the word “Anabaptists” in opening sentence",
-      "severity": "minor",
-      "source_quote": "One might wonder as to why the Anabaptists, the early church fathers, church history writers, and especially the progenitor (originator or author) of our beliefs, Christ Himself, effected such a vehement and absolute approach to a separated church and state.",
-      "suggested_fix": "The transliteration of “Anabaptists” in Bengali should use a standard form for this theological term. Replace “অনাবাপ্তিস্টরা” with a conventional Bengali transliteration, e.g., “অনাবাপ্টিস্টরা” or “অ্যানাবাপটিস্টরা,” consistent with the publication's usual terminology. Keep surrounding HTML and sentence structure unchanged.",
-      "translation_quote": "অনাবাপ্তিস্টরা, প্রাচীন চার্চ ফাদাররা, চার্চ ইতিহাস লেখকরা, এবং বিশেষত আমাদের বিশ্বাসের উৎপাদক (উদ্ভাবক বা রচয়িতা), খ্রিস্ট স্বয়ং, একটি পৃথক চার্চ ও রাষ্ট্র সম্পর্কে এত তীব্র ও পরমপন্থী মনোভাব পোষণ করেছিলেন।"
+      "location": "Paragraph: \"এই ostensibly লাভজনক সম্পর্কের কারণে চার্চ আরও দুর্বল হয়ে পড়ল।\",\"source_quote\":\"This ostensibly beneficial relationship, the church further weakened under these seemingly beneficial relations.\",\"translation_quote\":\"এই ostensibly লাভজনক সম্পর্কের কারণে চার্চ আরও দুর্বল হয়ে পড়ল।\",\"severity\":\"major\",\"suggested_fix\":\"Translate the English adverb 'ostensibly' into Bengali and keep sentence structure. For example: 'এই প্রতিফলিতভাবে/প্রতিপন্নভাবে লাভজনক সম্পর্কের ফলে চার্চ আরও দুর্বল হয়ে পড়ল।' (Preserve the existing HTML and surrounding Bengali text.)\"},{",
+      "severity": "major",
+      "source_quote": "Source:\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction",
+      "suggested_fix": "Translate the label 'Source:' into Bengali (e.g., 'সূত্র:') while leaving the URL unchanged. For example: 'সূত্র:\\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction' (Preserve the line break and surrounding HTML.)",
+      "translation_quote": "Source:\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction"
     }
   ],
+  "finished_at": "2026-10-02T13:07:11+00:00",
   "id": "e1e02b3f1b3618e815b5917e0d7b815a",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ben",
@@ -161,13 +167,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 70,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1bdcb7e456b7a6b0faa951b73ad2e9f64625a3dfb5338112d027e556e66e5f0a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "f30546ec55676f8dd6c74177eaa70932f9093041fab1ceced906b186d9df3a00",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

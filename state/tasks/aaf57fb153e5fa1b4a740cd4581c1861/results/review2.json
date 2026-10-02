@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1e57cb57-9a48-42b2-a24c-25b175dcddd8",
+    "response_id": "chatcmpl-EUXEZB2HLaeG1Nx7OJkTBbtHXYUWn",
+    "usage": {
+      "completion_tokens": 1501,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4115,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5616
+    }
+  },
+  "received_at": "2026-10-02T13:07:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>“Tell us a story, Grandma,” begged two eager children as they crowded around her rocking chair.</p>",
+        "severity": "minor",
+        "source_quote": "rocking chair",
+        "suggested_fix": "রচিং চেয়ার বা দোলানো চেয়ার বোঝানোর জন্য 'দোলনা চেয়ারে' বা 'দোলানো চেয়ারে' ব্যবহার করুন। উদাহরণ: “...তাঁর দোলনা চেয়ারের চারপাশে জড়ো হয়ে…”",
+        "translation_quote": "তাঁর কোলাকুলি চেয়ারে জড়ো হয়ে"
+      },
+      {
+        "location": "<p>One morning, Mother called us in from our play and said she was out of sugar.</p>",
+        "severity": "minor",
+        "source_quote": "called us in from our play",
+        "suggested_fix": "'play' = 'খেলা' হওয়া উচিত। অনুচ্ছেদে 'মা আমাদের খেলায় থেকে ডাকলেন' লিখুন ('খেলনা' শব্দটি পরিবর্তন করুন)।",
+        "translation_quote": "মা আমাদের খেলনা থেকে ডাকলেন"
+      },
+      {
+        "location": "<p>Mother called after us and reminded us not to loiter along the way.”</p>",
+        "severity": "minor",
+        "source_quote": "not to loiter along the way",
+        "suggested_fix": "'loiter' এর জন্য উপযুক্ত বাংলা হতে পারে 'থামতে বা অলসভাবে চারপাশে ঘোরাঘুরি করতে না'। প্রস্তাব: \"পথে থামতে বা ঘোরাঘুরি করতে যেন না\"।",
+        "translation_quote": "পথে ঢাণ্ডা না করে চলে যেতে"
+      },
+      {
+        "location": "<p>His name was Pierce, and he had a very fierce dog; at least he acted very fierce!</p>",
+        "severity": "minor",
+        "source_quote": "very fierce dog; at least he acted very fierce",
+        "suggested_fix": "'fierce' এর অনুবাদ হিসেবে 'ভয়ঙ্কর' বা 'ঝাঁপিয়ে পড়বার মতো' যথার্থ। প্রস্তাব: \"তাঁর একটি খুব ভয়ঙ্কর কুকুর ছিল; অন্তত দেখতে সে খুবই ভয়ঙ্কর আচরণ করত।\"",
+        "translation_quote": "তাঁর একটি খুব জোরালো কুকুর ছিল; অন্তত সে খুব রৌদ্র আচরণ করত!"
+      },
+      {
+        "location": "<p>The next moment, I realized she had fallen down and was sitting in the middle of the dirt road, with her hands behind her on the hard packed gravel, feet and legs in the air, kicking and kicking, spinning around and around...</p>",
+        "severity": "minor",
+        "source_quote": "sitting in the middle of the dirt road, with her hands behind her on the hard packed gravel, feet and legs in the air, kicking and kicking, spinning around and around",
+        "suggested_fix": "এই বাক্যটি বাংলায় স্বচ্ছভাবে অনুবাদ করুন; 'hard packed gravel' এর উপযুক্ত অনুবাদ 'কঠিনভাবে উপচানো বালি-ময়লা' বা 'ঘন কণিকাবিশিষ্ট কল্পিত পাথুরে মাটি' নয়—সহজ: 'কঠিনভাবে চিপকে থাকা জলের নিচের পাথুরে মাটি' না। প্রস্তাব: \"সে মাটির রাস্তার মাঝখানে বসে রয়ে গিয়েছিল, পিছনে হাতে কড়া প্যাক হওয়া কংক্রিটের মতো কচকানো কাঁকড়ার ওপর ঠেকিয়ে, পা ও লেগ আকাশের দিকে উঁচু করে লাথি দিচ্ছিল, বারবার ঘুরছিল।\" (সামঞ্জস্য রেখে সংশোধন করুন)।",
+        "translation_quote": "পড়ে গিয়েছে এবং কাচ্চা রাস্তার মাঝখানে বসে আছে, তার হাত পিছনে শক্ত জমাট কুঁচকে রাখা মাটি টাইপে টেকা, পা ও লেগ আকাশের দিকে উঁচু করে লাথি দিচ্ছে, বৃত্ত কেটে ঘুরছে"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

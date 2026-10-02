@@ -2,7 +2,6 @@
   "article_id": "9b13e502-993c-4536-a32d-ae1a62c36db5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "13ec55b413584b4e81cc1b0f52def237",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,60 +61,66 @@
         },
         "total_tokens": 7788
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1501,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4115,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5616
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<figure> <img src=\"/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-1.png\" alt>",
+      "location": "<p>“Tell us a story, Grandma,” begged two eager children as they crowded around her rocking chair.</p>",
       "severity": "minor",
-      "source_quote": "alt=\"A brindle dog wearing a chain collar\"",
-      "suggested_fix": "Replace the alt text with an accurate, idiomatic Bengali rendering of 'a brindle dog wearing a chain collar' while preserving the img tag and attributes. For example: alt=\"চেইন কলার পরিহিত ব্রিন্ডল রঙের একটি কুকুর\"",
-      "translation_quote": "alt=\"একটি খাঁচাবাঁধা কলারের কুকুর\""
+      "source_quote": "rocking chair",
+      "suggested_fix": "রচিং চেয়ার বা দোলানো চেয়ার বোঝানোর জন্য 'দোলনা চেয়ারে' বা 'দোলানো চেয়ারে' ব্যবহার করুন। উদাহরণ: “...তাঁর দোলনা চেয়ারের চারপাশে জড়ো হয়ে…”",
+      "translation_quote": "তাঁর কোলাকুলি চেয়ারে জড়ো হয়ে"
     },
     {
-      "location": "<figure> <img src=\"/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-2.jpg\" alt>",
-      "severity": "major",
-      "source_quote": "alt=\"Farm fields and buildings across a rolling rural valley in autumn\"",
-      "suggested_fix": "Correct the season and produce an idiomatic Bengali alt text that matches the English source without changing the img tag. For example: alt=\"শস্যক্ষেত্র ও ভবনসমূহ, শরৎকালে এক ঢালু গ্রামীণ উপত্যকার ওপর থেকে দেখা\"",
-      "translation_quote": "alt=\"শুষ্কগ্রাম্যে একটি ঢালে শস্যক্ষেত্র ও ভবনসমূহ পর্ভূমিতে শীতে\""
-    },
-    {
-      "location": "<p>…“He whipped and whipped that dog and finally got him away from Lori and back inside the fence where he belonged, as Lori and I stood there, trembling, and crying with relief.”</p>",
-      "severity": "major",
-      "source_quote": "He whipped and whipped that dog and finally got him away from Lori and back inside the fence where he belonged, as Lori and I stood there, trembling, and crying with relief.",
-      "suggested_fix": "Restore the original meaning: translate 'whipped and whipped' and 'trembling, and crying with relief' accurately into Bengali. Preserve the paragraph tags and order. For example: \"তিনি বারবার সেই কুকুরটিকে লাঠি মারলেন এবং অবশেষে লরির কাছ থেকে তাকে দূরে করে বেড়ার ভित्रে ফিরিয়ে দিলেন যেখানে সে থাকা উচিত ছিল, আর আমরা লরি এবং আমি সেখানে দাঁড়িয়ে কাঁপছিলাম এবং মুক্তি পেয়ে কাঁদছিলাম।\"",
-      "translation_quote": "\"তিনি লাঠি নিয়ে সেই কুকুরটিকে বারবার মারলেন এবং অবশেষে লরি থেকে কুকুরটিকে দূরে নিয়ে বেড়ার ভিতরে ফিরিয়ে দিলেন যেখানে সে থাকা উচিৎ ছিল, আর আমরা লরি ও আমি সেখানে দাঁড়িয়ে কাঁপছিলাম এবং প্রভুর প্রতি কৃতজ্ঞতায় রোজ পানি ফেলছিলাম।\""
-    },
-    {
-      "location": "<p>…“It was Pierce, with a whip in his hand.”</p>",
-      "severity": "major",
-      "source_quote": "It was Pierce, with a whip in his hand.",
-      "suggested_fix": "Translate 'with a whip in his hand' clearly and idiomatically; the current translation implies a different object. Preserve the p tag. For example: \"সেটি ছিল পিয়ার্স—একটি চাবুক হাতে করে সে সেখানে এসেছিল।\"",
-      "translation_quote": "\"সেটি ছিল পিয়ার্স, হাতে চেইন লাগানো লাঠি নিয়ে।\""
-    },
-    {
-      "location": "Multiple inline dialogue paragraphs (near “Wow!” / “Baha!”)",
+      "location": "<p>One morning, Mother called us in from our play and said she was out of sugar.</p>",
       "severity": "minor",
-      "source_quote": "“Wow!” exclaimed Sharon.",
-      "suggested_fix": "Translate or render the verb 'exclaimed' into Bengali while preserving punctuation and the p element. For example: \"“বাহ!” শ্যারন উচ্ছ্বাস করে বলল।\"",
-      "translation_quote": "“বাহ!” শ্যারন exclaimed।"
+      "source_quote": "called us in from our play",
+      "suggested_fix": "'play' = 'খেলা' হওয়া উচিত। অনুচ্ছেদে 'মা আমাদের খেলায় থেকে ডাকলেন' লিখুন ('খেলনা' শব্দটি পরিবর্তন করুন)।",
+      "translation_quote": "মা আমাদের খেলনা থেকে ডাকলেন"
     },
     {
-      "location": "<p>“We lived on an old farm, back a short lane along a dirt road.”</p>",
+      "location": "<p>Mother called after us and reminded us not to loiter along the way.”</p>",
       "severity": "minor",
-      "source_quote": "We lived on an old farm, back a short lane along a dirt road.",
-      "suggested_fix": "Use a clearer, idiomatic Bengali phrase for 'back a short lane along a dirt road' that preserves the meaning and sentence structure. Preserve the p tag. For example: \"আমরা একটি পুরনো খামারে থাকতাম, মাটির রাস্তার ধারের একটি ছোট লেনের ওপাশে।\"",
-      "translation_quote": "“আমরা একটি পুরনো খামারে থাকতাম, কাঁটাচামচের রাস্তার পাশে একটি ছোট লেনে।”"
+      "source_quote": "not to loiter along the way",
+      "suggested_fix": "'loiter' এর জন্য উপযুক্ত বাংলা হতে পারে 'থামতে বা অলসভাবে চারপাশে ঘোরাঘুরি করতে না'। প্রস্তাব: \"পথে থামতে বা ঘোরাঘুরি করতে যেন না\"।",
+      "translation_quote": "পথে ঢাণ্ডা না করে চলে যেতে"
     },
     {
-      "location": "Multiple locations (dialogue punctuation and a stray English word)",
+      "location": "<p>His name was Pierce, and he had a very fierce dog; at least he acted very fierce!</p>",
       "severity": "minor",
-      "source_quote": "“Wow!” exclaimed Sharon.",
-      "suggested_fix": "Remove stray English words and ensure all verbs in dialogue are translated into Bengali. Keep HTML structure identical. Example fix shown above.",
-      "translation_quote": "“বাহ!” শ্যারন exclaimed।"
+      "source_quote": "very fierce dog; at least he acted very fierce",
+      "suggested_fix": "'fierce' এর অনুবাদ হিসেবে 'ভয়ঙ্কর' বা 'ঝাঁপিয়ে পড়বার মতো' যথার্থ। প্রস্তাব: \"তাঁর একটি খুব ভয়ঙ্কর কুকুর ছিল; অন্তত দেখতে সে খুবই ভয়ঙ্কর আচরণ করত।\"",
+      "translation_quote": "তাঁর একটি খুব জোরালো কুকুর ছিল; অন্তত সে খুব রৌদ্র আচরণ করত!"
+    },
+    {
+      "location": "<p>The next moment, I realized she had fallen down and was sitting in the middle of the dirt road, with her hands behind her on the hard packed gravel, feet and legs in the air, kicking and kicking, spinning around and around...</p>",
+      "severity": "minor",
+      "source_quote": "sitting in the middle of the dirt road, with her hands behind her on the hard packed gravel, feet and legs in the air, kicking and kicking, spinning around and around",
+      "suggested_fix": "এই বাক্যটি বাংলায় স্বচ্ছভাবে অনুবাদ করুন; 'hard packed gravel' এর উপযুক্ত অনুবাদ 'কঠিনভাবে উপচানো বালি-ময়লা' বা 'ঘন কণিকাবিশিষ্ট কল্পিত পাথুরে মাটি' নয়—সহজ: 'কঠিনভাবে চিপকে থাকা জলের নিচের পাথুরে মাটি' না। প্রস্তাব: \"সে মাটির রাস্তার মাঝখানে বসে রয়ে গিয়েছিল, পিছনে হাতে কড়া প্যাক হওয়া কংক্রিটের মতো কচকানো কাঁকড়ার ওপর ঠেকিয়ে, পা ও লেগ আকাশের দিকে উঁচু করে লাথি দিচ্ছিল, বারবার ঘুরছিল।\" (সামঞ্জস্য রেখে সংশোধন করুন)।",
+      "translation_quote": "পড়ে গিয়েছে এবং কাচ্চা রাস্তার মাঝখানে বসে আছে, তার হাত পিছনে শক্ত জমাট কুঁচকে রাখা মাটি টাইপে টেকা, পা ও লেগ আকাশের দিকে উঁচু করে লাথি দিচ্ছে, বৃত্ত কেটে ঘুরছে"
     }
   ],
+  "finished_at": "2026-10-02T13:07:11+00:00",
   "id": "aaf57fb153e5fa1b4a740cd4581c1861",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ben",
@@ -189,13 +194,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/024b14cea96a528a42f66f77d442fb07d0e5035a02e35254ae96bf4fcc0c193f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

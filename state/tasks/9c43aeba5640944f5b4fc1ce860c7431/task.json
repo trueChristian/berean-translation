@@ -2,7 +2,6 @@
   "article_id": "dce3d3b3-8b56-4be5-9674-e682b97d3b43",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "13ec55b413584b4e81cc1b0f52def237",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,46 +61,52 @@
         },
         "total_tokens": 8609
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1255,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4649,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5904
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<p>Hilsener til hver enkelt i den verdige navn Jesus Kristus, vår Frelser og vår Forløser.</p>",
+      "location": "Paragraph 5 (translation) — sentence about new categories",
       "severity": "minor",
-      "source_quote": "Greetings to each one in the worthy name of Jesus Christ, our Saviour, and our Redeemer.",
-      "suggested_fix": "Korriger norsk grammatikk og idiom: «Hilsener til hver enkelt i det verdige navn av Jesus Kristus, vår Frelser og vår Forløser.» Alternativt mer idiomatisk: «Hilsener til hver enkelt i Jesu Kristi, vår Frelser og Forløser, verdige navn.»",
-      "translation_quote": "Hilsener til hver enkelt i den verdige navn Jesus Kristus, vår Frelser og vår Forløser."
+      "source_quote": "And one on Hymn Histories being written by one of our board members, a middle-aged married man, who is also from our church.",
+      "suggested_fix": "Use a plural or more direct equivalent for the English plural title “Hymn Histories.” Replace «salmetradisjon» with «salmehistorier» or «salmenes historie» to match the plural sense of the source.",
+      "translation_quote": "Og en om salmetradisjon som blir skrevet av et av våre styremedlemmer, en middelaldrende gift mann, som også er fra vår kirke."
     },
     {
-      "location": "<p>Han ble rykket opp fra sitt komfortable liv i Egypt som adoptert sønn av kongelighet og ble så sendt av Gud ut i ørkenen...</p>",
+      "location": "Section opening paragraph (translation) — first sentence",
       "severity": "minor",
-      "source_quote": "He was uprooted from his comfortable lifestyle in Egypt as an adopted son of royalty and was then sent by God into the desert...",
-      "suggested_fix": "«adopted son of royalty» bør gjengis mer idiomatisk: «adoptert sønn i kongelighet» eller bedre «adoptert sønn av kongelige» eller «adoptert sønn i en kongelig familie.» Foreslått rettelse: «Han ble rykket opp fra sitt komfortable liv i Egypt som adoptert sønn i en kongelig familie…»",
-      "translation_quote": "Han ble rykket opp fra sitt komfortable liv i Egypt som adoptert sønn av kongelighet og ble så sendt av Gud ut i ørkenen for å lære noen høyst nødvendige lekser..."
+      "source_quote": "One of our goals for this issue is burdened with the awareness that the country in which we live (the U.S.) is approaching mid-term elections in November of this year and that there will be a strong push for many conservative Anabaptists to become involved in the voting process to ensure a proper outcome for the good of their perceived cause or goals.",
+      "suggested_fix": "Correct the Norwegian indefinite article typo «Ett» to the Bokmål form «Et».",
+      "translation_quote": "Ett av våre mål for denne utgaven er preget av vissheten om at landet vi bor i (USA) nærmer seg mellomvalg i november i år, og at det vil være et sterkt press for mange konservative anabaptister om å engasjere seg i stemmegivningsprosessen for å sikre et «riktig» utfall til det de oppfatter som sin sak eller sine mål."
     },
     {
-      "location": "<p>Når vi ser på Jonas’ liv, får vi glimt av «Den Gud som ikke gir slipp». ... men sannheten er denne—bibelen Gud slipper oss ikke bare, eller vender ryggen til oss, det øyeblikket vi tar et feilskritt eller snur feil vei.</p>",
+      "location": "Paragraph about new categories (translation) — phrasing",
       "severity": "minor",
-      "source_quote": "Often a struggling believer loses sight of the Truth of God because they believe the lie that no one cares, yet the truth of the matter is this—the God of the Bible doesn’t just drop us, or turn His back on us, the instant that we take a wrong turn or a misstep.",
-      "suggested_fix": "Setningen har grammatikk- og stilfeil som kan forstyrre meningsforståelsen. Forslag: «...men sannheten er denne — Gud i Bibelen slipper oss ikke bare, eller vender ryggen til oss i det øyeblikk vi tar et feilskritt eller snur feil vei.» Sørg for stor forbokstav i «Bibelen» og at «Gud i Bibelen» står som en enhet.",
-      "translation_quote": "Ofte mister en troende i kamp synet av Guds sannhet fordi vedkommende tror løgnen om at ingen bryr seg, men sannheten er denne—bibelen Gud slipper oss ikke bare, eller vender ryggen til oss, det øyeblikket vi tar et feilskritt eller snur feil vei."
-    },
-    {
-      "location": "<p>«…fremmede og fremmede på jorden. [Mens vi] …bekjenner åpenlyst at [vi] søker et land …et bedre land, det vil si et himmelsk: hvorfore Gud er ikke skammer seg for å kalles [vår] Gud: for han har beredt for [oss] en by – Hebreerne 11:13-16.»</p>",
-      "severity": "major",
-      "source_quote": "...we must function as ...strangers and pilgrims on the earth. [While we] ...declare plainly that [we] seek a country ...a better country, that is, an heavenly: wherefore God is not ashamed to be called [our] God: for he hath prepared for [us] a city –Hebrews 11:13-16.",
-      "suggested_fix": "Den norske versjonen gjengir «strangers and pilgrims» som «fremmede og fremmede», som er en feiloversettelse (repetisjon). Forslag til korrekt, trofast gjengivelse: «…fremmede og pilegrimer på jorden. [Mens vi] …bekjenner åpenlyst at [vi] søker et land …et bedre land, det vil si et himmelsk: derfor skammer ikke Gud seg for å kalles [vår] Gud: for han har beredt for [oss] en by – Hebreerne 11:13-16.» Behold hakeparenteser og vershenvisning som i originalen.",
-      "translation_quote": "Når vi forstår og utvikler et personlig verdensbilde som er grunnfestet på prinsippet om to riker, innser vi at vi må fungere som <em>…fremmede og fremmede på jorden. [Mens vi] …bekjenner åpenlyst at [vi] søker et land …et bedre land, det vil si et himmelsk: hvorfore Gud er ikke skammer seg for å kalles [vår] Gud: for han har beredt for [oss] en by – Hebreerne 11:13-16.</em>"
-    },
-    {
-      "location": "<p>...La oss alltid minne oss om at <em>…Den rettferdiges bønner som er virksom og varmt bedt, står i mye—Jakob 5:16.</em></p>",
-      "severity": "major",
-      "source_quote": "Let us always remember that <em>…The effectual fervent prayer of a righteous man availeth much –James 5:16.</em>",
-      "suggested_fix": "Norsk setning er grammatikalsk og meningsmessig feil («står i mye»). Behold bibelhenvisningen, men gjengi verset på norsk på en klar og trofast måte. Foreslått rettelse (naturlig bokmål): «La oss alltid huske at …Den virksomme, inderlige bønn fra en rettferdig rykker meget fram – Jakob 5:16.» Alternativ mer idiomatisk: «…Den virksomme forbønnen fra en rettferdig har stor kraft – Jakob 5:16.»",
-      "translation_quote": "La oss alltid minne oss om at <em>…Den rettferdiges bønner som er virksom og varmt bedt, står i mye—Jakob 5:16.</em>"
+      "source_quote": "One on Church History that is being written by two young brothers from our church.",
+      "suggested_fix": "Consider changing «En om kirkens historie som blir skrevet av to unge brødre fra vår kirke» to the slightly smoother Bokmål phrasing «Én om kirkens historie, skrevet av to unge brødre fra vår kirke.» This preserves meaning and improves flow while keeping the same content.",
+      "translation_quote": "Som tidligere nevnt inkluderer vi flere nye kategorier i denne utgaven. En om kirkens historie som blir skrevet av to unge brødre fra vår kirke. Og en om salmetradisjon som blir skrevet av et av våre styremedlemmer, en middelaldrende gift mann, som også er fra vår kirke."
     }
   ],
+  "finished_at": "2026-10-02T13:07:11+00:00",
   "id": "9c43aeba5640944f5b4fc1ce860c7431",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "nob",
@@ -175,13 +180,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c16edd05d12043a927f45367071112d6f71c0042bc3d1b02d0bfb5b8d330f1e2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d0410b3ae98c7c6c4b8643e82b8513a58f4f423e430db25e79b18dc18a3fab41",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

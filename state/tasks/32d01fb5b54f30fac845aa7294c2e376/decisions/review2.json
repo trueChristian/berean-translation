@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>Deze hymne was oorspronkelijk geschreven met de titel “On the Resurrection”, en er waren acht strofen, als volgt:</p>",
+      "severity": "minor",
+      "source_quote": "This hymn was originally written having the title, “On the Resurrection,” and there were eight stanzas, as follows:",
+      "suggested_fix": "Vertaal de Engelse titel “On the Resurrection” naar het Nederlands of markeer het als een originele titel. Bijvoorbeeld: “oorspronkelijk met de titel ‘Over de Opstanding’” of zet het tussen aanhalingstekens en voeg ‘(originele titel)’ toe als u de Engelse vorm wilt behouden.",
+      "translation_quote": "Deze hymne was oorspronkelijk geschreven met de titel “On the Resurrection”, en er waren acht strofen, als volgt:"
+    },
+    {
+      "location": "<p>… terwijl de feestelijke melodie “Diadem”, gecomponeerd in 1838 voor deze tekst door James Ellor, een Engelse leek, vaak als koornummer wordt gebruikt. ...</p>\n<p>Referenties:<br>\n  ...<br>\n  “Diadem” Tune -James Elliot, 1838<br>\n  ...</p>",
+      "severity": "minor",
+      "source_quote": "“Diadem” tune, composed in 1838 for this text by James Ellor, an English layman ...\n\n“Diadem” Tune -James Elliot, 1838",
+      "suggested_fix": "Corrigeer de persoonsnaamconsistentie: gebruik overal dezelfde spelling van de componistnaam. Als de juiste naam 'James Ellor' is, wijzig de referentielijst in “Diadem” Tune - James Ellor, 1838. Als het 'Elliot' moet zijn, pas de eerdere vermelding aan. Controleer de betrouwbare bron voor de correcte spelling.",
+      "translation_quote": "“Diadem”, gecomponeerd in 1838 voor deze tekst door James Ellor, een Engelse leek, ...\n\n“Diadem” Tune -James Elliot, 1838"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

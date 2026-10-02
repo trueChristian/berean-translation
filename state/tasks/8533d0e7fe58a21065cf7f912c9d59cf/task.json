@@ -2,7 +2,6 @@
   "article_id": "34125090-b480-4d63-b13a-33d47470f335",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "13ec55b413584b4e81cc1b0f52def237",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:40+00:00",
   "events": [
@@ -62,32 +61,30 @@
         },
         "total_tokens": 13914
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 730,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8137,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8867
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph with Matthew 3:11-12 (third paragraph of article body)",
-      "severity": "critical",
-      "source_quote": "Whose fan is in his hand, and he will throughly purge his floor, and gather his wheat into the garner; but he will burn up the chaff with unquenchable fire –Matthew 3:11-12.",
-      "suggested_fix": "Replace the garbled phrase with a clear Norwegian rendering that preserves the scriptural image: e.g. «Hans vifte er i hans hånd, og han skal gjennomtrenge sin åker og samle sitt korn i låven; men agnet skal han brenne opp med en ild som ikke kan slukkes – Matteus 3:11-12.» Preserve the chapter:verse formatting and surrounding emphasis tags.",
-      "translation_quote": "Hans whelv er i hans hånd, og han skal renske sin åker grundig, og samle sitt korn i låven; men agnet skal han brenne opp med en ild som ikke kan slukkes – Matteus 3:11-12."
-    },
-    {
-      "location": "Paragraph with Luke 8:1-3 (the passage listing Mary Magdalene and others)",
-      "severity": "minor",
-      "source_quote": "And certain women, which had been healed of evil spirits and infirmities, Mary called Magdalene, out of whom went seven devils, And Joanna the wife of Chuza Herod's steward, and Susanna, and many others, which ministered unto him of their substance –Luke 8:1-3.",
-      "suggested_fix": "Correct the proper name spelling to match the English source (Chuza). Use the conventional Norwegian form for Joanna (Johanna) is acceptable, but retain the biblical/English name spelling for Chuza as 'Chuza' (not 'Khuza'). Example fix: «Maria kalt Magdalena, av hvem det gikk ut syv demoner, og Johanna, Chuza — Herodes' forvalters hustru, og Susanna, og mange andre, som betjente ham av sine midler – Lukas 8:1-3.»",
-      "translation_quote": "Maria kalt Magdalena, av hvem det gikk ut syv demoner, og Johanna, Khuza Herodes' forvalters hustru, og Susanna, og mange andre, som betjente ham av sine midler – Lukas 8:1-3."
-    },
-    {
-      "location": "Final stanza / hymn reference (ending of article)",
-      "severity": "minor",
-      "source_quote": "In Augustus Toplady’s famous hymn, Rock of Ages we find this line–",
-      "suggested_fix": "Translate the hymn title or add a translated equivalent in Norwegian so quoted substantive prose is rendered in the target language. For example: «I Augustus Topladys kjente salme 'Rock of Ages' (Klippens sal) finner vi denne linjen –» or translate the quoted line while keeping the original title in italics if the title is retained: «I Augustus Topladys kjente salme, 'Rock of Ages', finner vi denne linjen –». Ensure the quoted hymn title and the following line are presented in Norwegian consistent with the rest of the translation.",
-      "translation_quote": "I Augustus Topladys kjente salme, <em>Rock of Ages</em> finner vi denne linjen–"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T13:07:11+00:00",
   "id": "8533d0e7fe58a21065cf7f912c9d59cf",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "nob",
@@ -161,13 +158,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/21c8641ce0ae285627965ca28d18397c39ccff0fa09ba301857fc1d0049b6b9d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "b3a0b32450038629cf20919c69af275c4549e0b458e25e2b5d03da547dfb97f7",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

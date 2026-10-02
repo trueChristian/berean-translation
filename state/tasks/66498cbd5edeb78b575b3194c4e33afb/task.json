@@ -2,7 +2,6 @@
   "article_id": "53e8b534-1f5e-4d9d-b191-99707a404256",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "13ec55b413584b4e81cc1b0f52def237",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,32 +61,45 @@
         },
         "total_tokens": 14169
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 910,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9002,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 7936
+        },
+        "total_tokens": 9912
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "source.title / translation.title",
-      "severity": "major",
-      "source_quote": "Moses in Midian",
-      "suggested_fix": "Translate the English title into Italian while preserving HTML structure. For example: replace <title> or the title field content with \"Mosè in Madian\" (note: use Italian conventional forms for names). Do not alter other tags or attributes.",
-      "translation_quote": "Moses in Midian"
-    },
-    {
-      "location": "source.section / translation.section",
-      "severity": "major",
-      "source_quote": "CHARACTER STUDIES",
-      "suggested_fix": "Translate the section label into standard contemporary Italian, preserving the field content structure. For example replace \"CHARACTER STUDIES\" with \"STUDI SUL CARATTERE\" (or another equivalent idiomatic rendering). Do not change HTML tags or attributes.",
-      "translation_quote": "CHARACTER STUDIES"
-    },
-    {
-      "location": "source.html paragraph about Egyptian offender (near \"With the sword he had overcome an Egyptian offender...\")",
+      "location": "source.html — opening paragraph/phrase",
       "severity": "minor",
-      "source_quote": "With the sword he had overcome an Egyptian offender, but with the rod he overcame the entire forces of Egypt.",
-      "suggested_fix": "Adjust the Italian phrasing for clarity and idiomatic grammar while preserving meaning and HTML. For example, change \"offender Egiziano\" to \"un egiziano offensore\" or better: \"un egiziano\" or \"un oppressore egiziano\" so the sentence reads naturally: \"Con la spada aveva vinto un egiziano oppressore, ma con il bastone sconfisse le intere forze d’Egitto.\" Preserve italics/emphasis tags as in the source where present.",
-      "translation_quote": "Con la spada aveva vinto un offender Egiziano, ma con il bastone sconfisse le forze intere d’Egitto."
+      "source_quote": "Now Moses kept the flock of Jethro his father-in-law, the priest of Midian: and he led the flock to the backside of the desert, and came to the mountain of God, even to Horeb –Exodus 3:1.",
+      "suggested_fix": "Consider using a more idiomatic Italian rendering of “the backside of the desert.” The current translation uses «Il retro del deserto», which is understandable but slightly literal. Suggest: «la parte posteriore del deserto» or «lato posteriore del deserto» to sound more natural in contemporary Italian. Preserve the surrounding tags and punctuation.",
+      "translation_quote": "<em>Ora Mosè pascolava il gregge di Ietro, suo suocero, sacerdote di Madian; e condusse il gregge dietro il deserto, e venne al monte di Dio, a Horeb –Esodo 3:1.</em>"
+    },
+    {
+      "location": "figure > img @alt",
+      "severity": "minor",
+      "source_quote": "A broad desert valley beneath layered mountains and clouds",
+      "suggested_fix": "Alt text is translated and accurate, but could be made more idiomatic and fluent in Italian. Suggest: «Una vasta valle desertica sotto montagne stratificate e nuvole» to match register and natural phrasing. Edit only the alt attribute value.",
+      "translation_quote": "alt=\"Una ampia valle desertica sotto montagne stratificate e nuvole\""
     }
   ],
+  "finished_at": "2026-10-02T13:07:11+00:00",
   "id": "66498cbd5edeb78b575b3194c4e33afb",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ita",
@@ -161,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/365d9282d87d4aa677224ff762d700ce731f7082e9ff05f45c1ca235035b1881.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "fa6973e1c0869cf8ea44c825b0af02960182750ad2e2fbf60dce9af0c7f03feb",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

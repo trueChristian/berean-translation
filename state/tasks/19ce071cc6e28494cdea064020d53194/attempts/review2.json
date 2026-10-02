@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:07:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph: \\\"The Great Depression brought the catalyst for the Nazi’s rise to power...\\\" (Hebrew paragraph beginning \\\"חוסר החשיבות לא האריך ימים. המיתון הגדול הביא את הגירעון לעליית הנאצים לשלטון.\\\")\",\"severity\":\"major\",\"source_quote\":\"The Great Depression brought the catalyst for the Nazi’s rise to power.\",\"suggested_fix\":\"Replace the Hebrew phrase that mistranslates the English. Use wording that faithfully renders \\\"brought the catalyst\\\" or \\\"created the catalyst/impetus\\\" rather than introducing the unrelated noun \\\"גירעון\\\" (deficit). For example: \\\"המשבר הכלכלי הגדול היווה את הזרז לעליית הנאצים לשלטון.\\\"\",\"translation_quote\":\"חוסר החשיבות לא האריך ימים. המיתון הגדול הביא את הגירעון לעליית הנאצים לשלטון.\"},{\"location\":\"Paragraph: \\\"...their political might handed Hitler the office of prime minister.\\\" (Hebrew paragraph ending \\\"בטווח הארוך כוחם הפוליטי הביא את היטלר לתפקיד קנצלר.\\\")\",\"severity\":\"minor\",\"source_quote\":\"their political might handed Hitler the office of prime minister.\",\"suggested_fix\":\"The English says \\\"prime minister.\\\" The translation uses the German-specific title \\\"קנצלר\\\" (Chancellor). To preserve the original wording, either translate as \\\"ראש הממשלה\\\" (prime minister) or keep the original English title only if the publication style prefers it. Suggested Hebrew rendering: \\\"הביא את היטלר לתפקיד ראש הממשלה.\\\"\",\"translation_quote\":\"בטווח הארוך כוחם הפוליטי הביא את היטלר לתפקיד קנצלר.\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1797,
+    "content_evidence_truncated": false,
+    "content_sha256": "d0ef6e88514caf9b3277e8b96a87a9d449e1357d407df814c8801fb71142a5ca",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1026,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5432,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6458
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -2,7 +2,6 @@
   "article_id": "f09d8cd5-b48f-470f-936f-263e6940b6bd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "13ec55b413584b4e81cc1b0f52def237",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,46 +61,46 @@
         },
         "total_tokens": 9708
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1332,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1024,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5433,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6765
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "<div class=\"lyrics\"> (first lyrics block) — repeated throughout the lyric stanzas",
+      "location": "<article> first paragraph (first non-italic sentence)",
       "severity": "major",
-      "source_quote": "All hail the power of Jesus’ name, Let angels prostrate fall ...",
-      "suggested_fix": "Translate the entire quoted hymn stanzas into Afrikaans with no English words left inside the quoted lyrics. Use the same Afrikaans wording already used elsewhere in the translation (for example, replace English \"Hail\" with \"Ere aan\" or the phrasing used in your translation such as \"Ere aan die Naam van Jesus toe!\" consistently). Preserve stanza breaks and HTML structure exactly.",
-      "translation_quote": "Ere aan die Naam van Jesus toe!<br>\nLaat engele nederig val,<br>\nBring die koninklike diadeem voort,<br>\nOm Hom te kroon, Here van almal! ... (but several lines still contain English words such as \"Hail\" and \"trophies\")"
+      "source_quote": "The text of this hymn, All Hail the Power of Jesus Name, has been translated into almost every language where Christianity is known.",
+      "suggested_fix": "Translate the hymn title into Afrikaans where it appears in running text, matching the translated title used elsewhere. For example: \"Die teks van hierdie gesang, Ere aan die Naam van Jesus toe!, is in byna elke taal vertaal ...\" Preserve surrounding HTML and punctuation.",
+      "translation_quote": "Die teks van hierdie gesang, All Hail the Power of Jesus Name, is in byna elke taal vertaal waar Christusendom bekend is."
     },
     {
-      "location": "Paragraph describing the missionary singing (source.html paragraph beginning \"As soon as he reached their mountain home...\")",
+      "location": "<figure> <img> alt attribute",
       "severity": "major",
-      "source_quote": "he began to play and sing in the native language, “All hail the power of Jesus’ name!”",
-      "suggested_fix": "Translate the quoted sung phrase into Afrikaans (do not leave it in English). Use the same translation used for the hymn text above, for example: “Ere aan die Naam van Jesus toe!” Ensure the quotation marks and punctuation remain as in the HTML.",
-      "translation_quote": "begin om te speel en sing in die plaaslike taal, “All hail the power of Jesus’ name!”"
-    },
-    {
-      "location": "First content paragraph (\"This hymn, often called...\") — opening sentence in translation",
-      "severity": "minor",
-      "source_quote": "This hymn, often called the “National Anthem of Christendom,” is perhaps one of the greatest of hymns of all time.",
-      "suggested_fix": "Correct the typographic/wording error: change \"Hierdie hy lied\" to a proper Afrikaans rendering such as \"Hierdie gesang\" or \"Hierdie hymlied\" (commonly \"gesang\" or \"lied'').",
-      "translation_quote": "Hierdie hy lied, dikwels die “Nasionale Volkslied van die Christendom” genoem, is miskien een van die grootste liedere van alle tye."
-    },
-    {
-      "location": "Paragraph describing the Sermon on the Mount (\"He then read the Sermon on the Mount...\")",
-      "severity": "minor",
-      "source_quote": "He then read the Sermon on the Mount and sat down without comment.",
-      "suggested_fix": "Translate the phrase correctly as \"die Bergrede\" (or \"die Bergpredikant\" is incorrect). Replace \"Bergpredikant\" with \"Bergrede\" or \"die Bergrede\" to match the conventional Afrikaans term for that sermon.",
-      "translation_quote": "Hy het toe die Bergpredikant gelees en sonder kommentaar gaan sit."
-    },
-    {
-      "location": "Paragraph naming Oliver Holden (\"Coronation, composed by Oliver Holden — a Massachusetts carpenter...\")",
-      "severity": "minor",
-      "source_quote": "Oliver Holden, a Massachusetts carpenter, self-taught musician, and respected singing-school teacher",
-      "suggested_fix": "Correct the spelling of \"Massachusetts\" in Afrikaans. For example: \"’n Massachusetts-houtbewerker\" or the Afrikaans convention \"’n houtbewerker uit Massachusetts\". Preserve the existing punctuation and tag structure.",
-      "translation_quote": "’n Massachusets-houtbewerker, selfopgeleide musikant en gerespekteerde sangskoolonderwyser"
+      "source_quote": "alt=\"Sheet music for All Hail the Power of Jesus’ Name, tune DIADEM C. M. with Refrain\"",
+      "suggested_fix": "Translate the alt text fully into Afrikaans and use the translated hymn title. For example: alt=\"Musiekblad vir 'Ere aan die Naam van Jesus toe!', melodie DIADEM C. M. met refrein\". Preserve the img tag and other attributes exactly.",
+      "translation_quote": "alt=\"Musiekpapier vir All Hail the Power of Jesus’ Name, melodie DIADEM C. M. met Refrein\""
     }
   ],
+  "finished_at": "2026-10-02T13:07:11+00:00",
   "id": "618918fe5b38abbb85513db5b7854417",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "afr",
@@ -175,13 +174,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 70,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6b076b1f67d6fafc1720a4ac2de4e895d6d3d4ebd14b1f3db48cc7447fd2506b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

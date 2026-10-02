@@ -2,7 +2,6 @@
   "article_id": "6080d813-75a2-4123-9552-3c4f75c81219",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "13ec55b413584b4e81cc1b0f52def237",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:40+00:00",
   "events": [
@@ -62,32 +61,45 @@
         },
         "total_tokens": 9857
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 948,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5869,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 2816
+        },
+        "total_tokens": 6817
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph 3 (parenthetical remark)",
-      "severity": "major",
-      "source_quote": "(The pock mark is still there)",
-      "suggested_fix": "Translate the parenthetical correctly to Swedish, preserving the original meaning that the author still has the smallpox scar. For example: \"(Ärren från vattkopporna finns fortfarande kvar)\" or \"(Ärrmärket finns fortfarande kvar)\" — keep it as a short parenthesis and preserve italics/bold only if present in source HTML.",
-      "translation_quote": "(Kulan finns kvar än)"
+      "location": "source.html paragraph 9 (Revelation quote)",
+      "severity": "minor",
+      "source_quote": "And he causeth all, both small and great, rich and poor, free and bond, to receive a mark in their right hand, or in their foreheads: And that no man might buy or sell, save he that had the mark, or the name of the beast, or the number of his name –Revelation 13:16-17.",
+      "suggested_fix": "Use contemporary Swedish wording for the quoted Scripture to match the target-language guidance. Replace the archaic verb form \"hava\" with the modern form \"har\" and keep the rest of the verse translation equivalent. Preserve the HTML structure and emphasis tags exactly as in the translation. Example replacement (inside the same <p> and <em>/<strong> tags): “Och han förmår alla, båda små och stora, rika och fattiga, fria och trälar, att taga ett märke i deras högra hand, eller i deras pannor: <strong>Och att ingen må kunna köpa eller sälja, utom han som</strong> har märket, eller odjurets namn, eller namnets tal –Uppenbarelseboken 13:16-17.”",
+      "translation_quote": "Och han förmår alla, båda små och stora, rika och fattiga, fria och trälar, att taga ett märke i deras högra hand, eller i deras pannor: <strong>Och att ingen må kunna köpa eller sälja, utom han som</strong> hava märket, eller odjurets namn, eller namnets tal –Uppenbarelseboken 13:16-17."
     },
     {
-      "location": "Paragraph 20 (quotation of 2 Corinthians 6:17)",
+      "location": "source.html paragraph 6 (weed name)",
       "severity": "minor",
-      "source_quote": "Wherefore come out from among them, and be ye separate, saith the Lord, and touch not the unclean thing; and I will receive you –2 Corinthians 6:17.",
-      "suggested_fix": "Restore a fluent, standard contemporary Swedish rendering that clearly conveys the imperative sense. The current translation begins with \"Varför:\" which reads as the question word 'why' rather than a rendering of 'Wherefore'/'Therefore'. Suggested correction: replace \"Varför: Gå ut från dem och skilj er, säger Herren; rör icke vid det orena, så skall jag taga er till mig –2 Korinthierbrevet 6:17.\" Ensure the verse reference number remains unchanged.",
-      "translation_quote": "<em>Varför: <strong>Gå ut från dem och skilj er, säger Herren; rör icke vid det orena</strong>, så skall jag taga er till mig –2 Korinthierbrevet 6:17.</em>"
-    },
-    {
-      "location": "Paragraph 22 (quote rendered as \"ända är ännu icke\")",
-      "severity": "minor",
-      "source_quote": "He said along with this, ‘the end is not yet’.",
-      "suggested_fix": "Use a clear contemporary Swedish equivalent for 'the end is not yet'. The current phrase \"ända är ännu icke\" is awkward/archaic. Suggested fix: \"han sade samtidigt: 'ändock är ännu icke slutet'\" or \"han sade också: 'ändå är slutet ännu inte'\" — keep the meaning equivalent to the English source.",
-      "translation_quote": "\"ända är ännu icke\""
+      "source_quote": "Today, every farmer knows about ‘Palmer amaranth Pigweed’. You can almost ‘pour’ glyphosate on it, and still it thrives.",
+      "suggested_fix": "Either present the plant name consistently with Swedish usage or format the common name clearly. For contemporary Swedish, consider rendering the English common name in parentheses or italics, or use a Swedish common name if available. Suggested small change (keep HTML): “Idag känner varje bonde till ’Palmer amaranth’ (pigweed). Man kan nästan ’hälla’ glyfosat på det, och ändå frodas det.”",
+      "translation_quote": "Idag känner varje bonde till ’Palmer amaranth Pigweed’. Man kan nästan ’hälla’ glyfosat på det, och ändå frodas det."
     }
   ],
+  "finished_at": "2026-10-02T13:07:10+00:00",
   "id": "249c4475d111fbc31ec09973175ce304",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "swe",
@@ -161,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/733eeaa1a812b6193e133350be5a00b31e3585142bda55cfaea2f725f3dda88f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "f7d8a08704733486f924816fbfd515b7c40bf25c984ecd111bf0fe403aaa2dde",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

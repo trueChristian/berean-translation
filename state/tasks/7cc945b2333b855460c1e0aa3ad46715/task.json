@@ -2,7 +2,6 @@
   "article_id": "f09d8cd5-b48f-470f-936f-263e6940b6bd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "13ec55b413584b4e81cc1b0f52def237",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -62,39 +61,67 @@
         },
         "total_tokens": 9454
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1805,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5352,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7157
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "<div class=\"lyrics\"> (first occurrence) — English hymn stanzas (all eight original stanzas)",
+      "location": "<div class=\"lyrics\"> (first stanza block), 3rd stanza source lines: \"Crown Him, ye morning stars of light, / Who fixed this floating ball, / Now hail the Strength of Israel’s might, / And crown Him Lord of all!\"",
+      "severity": "major",
+      "source_quote": "Crown Him, ye morning stars of light,\nWho fixed this floating ball,\nNow hail the Strength of Israel’s might,\nAnd crown Him Lord of all!",
+      "suggested_fix": "Gjenoversett denne strofen slik den gjengir forfatterens betydning: for eksempel «Kron Ham, dere morgenstjerner av lys, / Som fastsatte denne flytende klode, / Hyl nå Israels styrke og kraft, / Og krone Ham til Herre for alt!» Behold setningsstruktur og bibelsk bilde (»Israel’s might») — ikke innfør nye navn eller meningsforskyvninger. Behold linjedeling og HTML-taggene som i kilden.",
+      "translation_quote": "Kron Ham, dere morgenstjerner så klare,\nSom fastla dette flytende klodeball,\nGni nå Israels styrkes navn og prise Ham fare,\nOg krone Ham til Herre for alt!"
+    },
+    {
+      "location": "<div class=\"lyrics\"> (first stanza block), 4th stanza source lines: \"Crown Him, ye martyrs of your God, / Who from His altar call; / Extol the stem of Jesse’s rod, / And crown Him Lord of all!\"",
       "severity": "critical",
-      "source_quote": "All hail the power of Jesus’ name,\n    Let angels prostrate fall\n    Bring forth the royal diadem,\n    To crown Him Lord of all!\n\nLet high born seraphs tune the lyre,\n    And, as they tune it, fall\n    Before His face who tunes their choir,\n    And crown Him Lord of all!\n\nCrown Him, ye morning stars of light,\n    Who fixed this floating ball,\n    Now hail the Strength of Israel’s might,\n    And crown Him Lord of all!\n\nCrown Him, ye martyrs of your God,\n    Who from His altar call;\n    Extol the stem of Jesse’s rod,\n    And crown Him Lord of all!\n\nYe seed of Israel’s chosen race,\n    Ye ransomed of the fall,\n    Hail Him who saves you by His grace\n    And crown Him Lord of all!\n\nHail Him, ye heirs of David’s line,\n    Whom David Lord did call.\n    The God incarnate, Man divine,\n    And crown Him Lord of all!\n\nSinners, whose love can ne’er forget\n    The wormwood and the gall,\n    Go spread your trophies at His feet,\n    And crown Him Lord of all!\n\nLet every tribe and every tongue\n    That bound creation’s call\n    Now shout in universal song,\n    The crowned Lord of all!",
-      "suggested_fix": "Translate these quoted hymn stanzas into contemporary Norwegian Bokmål, preserving stanza breaks and the hymn’s theological content. Keep the surrounding <div class=\"lyrics\"> and <p> tags exactly as in the source HTML and replace only the English text with the Norwegian translation (do not remove or alter HTML structure or attributes). For example, replace each English line with an accurate Norwegian rendering that conveys the printed English meaning and retains the same chapter/verse and hymn structure.",
-      "translation_quote": "All hail the power of Jesus’ name,\n    Let angels prostrate fall\n    Bring forth the royal diadem,\n    To crown Him Lord of all!\n\nLet high born seraphs tune the lyre,\n    And, as they tune it, fall\n    Before His face who tunes their choir,\n    And crown Him Lord of all!\n\nCrown Him, ye morning stars of light,\n    Who fixed this floating ball,\n    Now hail the Strength of Israel’s might,\n    And crown Him Lord of all!\n\nCrown Him, ye martyrs of your God,\n    Who from His altar call;\n    Extol the stem of Jesse’s rod,\n    And crown Him Lord of all!\n\nYe seed of Israel’s chosen race,\n    Ye ransomed of the fall,\n    Hail Him who saves you by His grace\n    And crown Him Lord of all!\n\nHail Him, ye heirs of David’s line,\n    Whom David Lord did call.\n    The God incarnate, Man divine,\n    And crown Him Lord of all!\n\nSinners, whose love can ne’er forget\n    The wormwood and the gall,\n    Go spread your trophies at His feet,\n    And crown Him Lord of all!\n\nLet every tribe and every tongue\n    That bound creation’s call\n    Now shout in universal song,\n    The crowned Lord of all!"
+      "source_quote": "Crown Him, ye martyrs of your God,\nWho from His altar call;\nExtol the stem of Jesse’s rod,\nAnd crown Him Lord of all!",
+      "suggested_fix": "Korriger feilaktig navn og meningsforvrengning. Den engelske teksten sier «Jesse», ikke «Jesaja». Oversett trofast: f.eks. «Kron Ham, dere martyrer for deres Gud, / Som påkaller Ham fra Hans alter; / Forherlig Jesse-stammen, rettferdets rot, / Og krone Ham til Herre for alt!» Eller mer idiomatisk: «Forherlig Jesse-stammens grein» — behold referansen til Jesse (David far) og bibelsk betydning. Ikke erstatt Jesse med Jesaja eller andre ukorrekte ord. Behold HTML/linjeskift.",
+      "translation_quote": "Kron Ham, dere martyrer for Gud,\nSom fra Hans alter kaller;\nForherlig Jesajas stamme, roden brud,\nOg krone Ham til Herre for alt!"
     },
     {
-      "location": "<div class=\"lyrics\"> (second occurrence) — added stanza by John Rippon",
-      "severity": "critical",
-      "source_quote": "Oh, that with yonder sacred throng\n    We at His feet may fall;\n    We’ll join the everlasting song,\n    And crown Him Lord of all.",
-      "suggested_fix": "Translate this added stanza (John Rippon’s insertion) into contemporary Norwegian Bokmål and replace the English text inside the existing <div class=\"lyrics\">/<p> tags. Preserve the HTML structure and stanza lineation exactly as in the source.",
-      "translation_quote": "Oh, that with yonder sacred throng\n    We at His feet may fall;\n    We’ll join the everlasting song,\n    And crown Him Lord of all."
+      "location": "<article> mission story paragraph containing quoted hymn line",
+      "severity": "major",
+      "source_quote": "At once the missionary drew out the violin that he always carried with him and began to play and sing in the native language, “All hail the power of Jesus’ name!”",
+      "suggested_fix": "Oversett den siterte salmeteksten (substantivt sitat) til norsk i-line, i samme HTML-plassering. For eksempel: «han tok straks fram fiolinen … og begynte å spille og synge på morsmålet: «Hyll kraften i Jesu navn!»» Sitérsalmen skal være oversatt, og behold anførselstegn rundt den. Ikke la original-engelske linjer stå uoversatt i teksten.",
+      "translation_quote": "Med en gang tok misjonæren fram fiolinen ... og begynte å spille og synge på morsmålet: «All hail the power of Jesus’ name!»"
     },
     {
-      "location": "Introductory paragraph — hymn title left in English",
+      "location": "<p>References: list of tune/composer lines",
       "severity": "minor",
-      "source_quote": "The text of this hymn, All Hail the Power of Jesus Name, has been translated into almost every language where Christianity is known.",
-      "suggested_fix": "Translate the hymn title into Norwegian Bokmål in running text (consistent with the translated article title). For example: replace 'All Hail the Power of Jesus Name' with «Hyll kraften i Jesu navn» (or keep the original in italics alongside the Norwegian title if the editor prefers both forms). Do not change surrounding HTML tags.",
-      "translation_quote": "Teksten til denne salmen, All Hail the Power of Jesus Name, er blitt oversatt til nesten alle språk hvor kristendommen er kjent."
+      "source_quote": "“Diadem” Tune -James Ellor, 1838",
+      "suggested_fix": "Korriger navnet til samsvar med kildeteksten (James Ellor) dersom kildens stavemåte er autoritativ. I HTML-behold linjen som i kilden: «“Diadem” Tune -James Ellor, 1838». Hvis utgaven krever en norsk formatering av navn, behold originalt navnstavemåte uendret. Ikke introduser en feilaktig stavemåte («Elliot») som avviker fra kilden.",
+      "translation_quote": "«Diadem» Tune -James Elliot, 1838"
     },
     {
-      "location": "References list",
-      "severity": "minor",
-      "source_quote": "A Treasury of Hymn Stories\n  101 Hymn stories\n  “Coronation” Tune -Oliver Holden 1765-1844\n  “Miles Lane” Tune -William Shrubsole, 1760-1806\n  “Diadem” Tune -James Elliot, 1838\n  “Let Us Crown Him” Tune -James McGranahan 1840-1907",
-      "suggested_fix": "Either translate the English reference titles into Norwegian Bokmål (while preserving work titles and author names) or mark them as original-language titles (e.g., italicize) but ensure they are presented consistently with the rest of the translated metadata. Do not alter HTML structure—only replace or annotate the textual reference lines as appropriate.",
-      "translation_quote": "A Treasury of Hymn Stories\n  101 Hymn stories\n  «Coronation» Tune -Oliver Holden 1765-1844\n  «Miles Lane» Tune -William Shrubsole, 1760-1806\n  «Diadem» Tune -James Elliot, 1838\n  «Let Us Crown Him» Tune -James McGranahan 1840-1907"
+      "location": "<div class=\"lyrics\"> (multiple lines), various theological/idiomatic mistranslations: e.g. \"God incarnate, Man divine\" -> \"Gud inkarnert, Menneske guddommelig vekt\"; \"Sinners, whose love can ne’er forget / The wormwood and the gall\" -> badly rendered",
+      "severity": "major",
+      "source_quote": "Sinners, whose love can ne’er forget\nThe wormwood and the gall,\nGo spread your trophies at His feet,\nAnd crown Him Lord of all!\n...\nThe God incarnate, Man divine,",
+      "suggested_fix": "Gjenoversett disse linjene slik at de bevarer forfatterens mening og bibelske tone. Forslag: «Syndere, hvis kjærlighet aldri kan glemme / Bitre malurt og gallens sår, / Spre deres troféer ved Hans føtter, / Og krone Ham til Herre for alt!» og «Gud inkarnert, Menneske og Gud, / Og krone Ham til Herre for alt!» Eller «Gud inkarnert, Mann guddommelig» — men unngå meningsløse eller ordrette feil («guddommelig vekt»). Behold linjedeling og HTML-struktur.",
+      "translation_quote": "Synderes kjærlighet som aldri glemmer\nBittere sorgens, gallens kval,\nSpre deres troféer ved Hans føtter frem,\nOg krone Ham til Herre for alt!\n...\nGud inkarnert, Menneske guddommelig vekt,\nOg krone Ham til Herre for alt!"
     }
   ],
+  "finished_at": "2026-10-02T13:07:11+00:00",
   "id": "7cc945b2333b855460c1e0aa3ad46715",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "nob",
@@ -174,7 +201,7 @@
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6b076b1f67d6fafc1720a4ac2de4e895d6d3d4ebd14b1f3db48cc7447fd2506b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

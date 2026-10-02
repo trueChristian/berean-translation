@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<p>…They sought healing, but Jesus saw the deeper need… —Luke 5:21.</p> (paragraph containing Pharisees quote)",
+      "severity": "critical",
+      "source_quote": "“…began to reason, saying, Who is this which speaketh blasphemies? Who can forgive sins, but God alone? –Luke 5:21.”",
+      "suggested_fix": "Translate the English word “blasphemies” into Bengali and render the entire quoted sentence in Bengali. Preserve verse numbers and punctuation. Example: “...তারা যুক্তি বলল, ‘এই কে যে অবমাননাকর কথা বলছে? কে পাপ ক্ষমা করতে পারে, যদি না একমাত্র ঈশ্বরই?’ –লূক 5:21.”",
+      "translation_quote": "“…তারা যুক্তি শুরু করল, বলে, এই কেবল মূর্খ, কে এই যে blasphemies বলছে? কে পাপ ক্ষমা করতে পারে, কিন্তু একমাত্র ঈশ্বর?—লূক 5:21।”"
+    },
+    {
+      "location": "Opening quoted Matthew passage (first paragraph)",
+      "severity": "minor",
+      "source_quote": "“And he saith unto them, Follow me, and I will make you fishers of men. And they straightway left their nets, and followed him.” (Matthew 4:19-20)",
+      "suggested_fix": "The translation renders the disciples as having ‘অনুগ্রহ করলো’ (showed favor) rather than following. Use a verb that matches the source meaning (follow/they followed). Suggested wording: “তিনি তাদের বললেন, ‘আমার অনুরোধে এসো’ বা ‘আমাকে অনুসরণ করো’ এবং তারা তৎক্ষণাৎ তাদের জাল ছেড়ে তাঁর পিছু চলল।”",
+      "translation_quote": "“তারা তৎক্ষণাৎ তাদের জাল ছেড়ে তাকে অনুগ্রহ করলো।” "
+    },
+    {
+      "location": "Ephesians citation paragraph",
+      "severity": "minor",
+      "source_quote": "“In whom we have redemption through his blood, the forgiveness of sins, according to the riches of his grace –Ephesians 1:7.”",
+      "suggested_fix": "The book name is rendered as “এপেষীয় 1:7”, an uncommon form in Bengali. Use a conventional Bengali form (e.g., “ইফিসীয়” or “এফিশীয়ান্স” depending on the publication’s style). Ensure the book name is consistently rendered throughout the article.",
+      "translation_quote": "“…—এপেষীয় 1:7।”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

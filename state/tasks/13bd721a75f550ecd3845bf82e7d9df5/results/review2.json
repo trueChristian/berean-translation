@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9e42c81a-41d5-46fc-a7b5-594a20cb21aa",
+    "response_id": "chatcmpl-EUXEjjL7OxuyDZJrUPM8wvgW9x0yJ",
+    "usage": {
+      "completion_tokens": 560,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11776,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12336
+    }
+  },
+  "received_at": "2026-10-02T13:07:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph (speaker name)",
+        "severity": "minor",
+        "source_quote": "“Dr. Waldron,” the lady sitting across from me said.",
+        "suggested_fix": "Use a standard Urdu transliteration consistent with the byline (e.g., 'ڈاکٹر وَلڈرن' or 'ڈاکٹر والڈرون') rather than 'ڈاکٹر والشڈرون', or match the exact transliteration used elsewhere on the site for this author. Preserve the surrounding punctuation and HTML.",
+        "translation_quote": "“ڈاکٹر والشڈرون,” میرے سامنے بیٹھی عورت نے کہا۔ “میں حال ہی میں بہت جدوجہد کر رہی ہوں۔”"
+      },
+      {
+        "location": "Paragraph introducing Jeremiah (name repetition)",
+        "severity": "minor",
+        "source_quote": "Another one that comes to mind is the Prophet Jeremiah.",
+        "suggested_fix": "Remove the duplicated parenthetical name. For example: 'دوسرا جو میرے ذہن میں آتا ہے وہ نبی یرمیاہ ہے۔' or keep a single target-language form 'نبی یرمیاہ' without repeating '(یرمیاہ)'. Preserve surrounding sentence structure and HTML.",
+        "translation_quote": "دوسرا جو میرے ذہن میں آتا ہے وہ نبی یرمیاہ (یرمیاہ) ہے۔ یرمیاہ کو جوانی میں پکارا گیا تھا، اور اس نے..."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}
