@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "56251121-bcd8-46fa-a71c-5cd26a6fa2d0",
+    "response_id": "chatcmpl-EUTIpRgFaQLGe8Fk2tDCgDTeeVLtO",
+    "usage": {
+      "completion_tokens": 565,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1263,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1828
+    }
+  },
+  "received_at": "2026-10-02T09:56:15+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9\">\n<figure>\n  <img src=\"/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg\" alt=\"Sebuah pohon telanjang di ladang bersalju sendirian\">\n</figure>\n\n<div class=\"poem\">\n  <p>Musim dingin kini; salju yang gugur<br>\n  telah membuat langit begitu jernih dan dingin;<br>\n  melalui dahan tanpa daun, angin tajam berhembus,<br>\n  dan seluruh bumi tampak mati dan muram.</p>\n\n  <p>Namun kasih Allah tidak ditarik kembali;<br>\n  hidup-Nya bernafas dalam udara yang menusuk;<br>\n  keelokan-Nya melukis fajar kemerahan,<br>\n  dan menghias setiap cabang dengan karangan berkilau.</p>\n\n  <p>Dan meskipun di luar angin tajam berhembus,<br>\n  dan langit dingin, dan embun beku menusuk,<br>\n  rumah menarik lingkarannya lebih dekat kini,<br>\n  dan cahayanya bersinar lebih hangat di dalam.</p>\n\n  <p>Ya Allah, Engkau memberi dinginnya musim dingin,<br>\n  sama seperti sinar ceria musim panas,<br>\n  Engkau memeluk kami dengan hangat dalam kasih-Mu,<br>\n  dan menjaga kami selama hari-hari musim dinginku hidup ini.</p>\n</div>\n</article>\n",
+    "section": "Puisi",
+    "subtitle": null,
+    "title": "Lagu Musim Dingin"
+  }
+}

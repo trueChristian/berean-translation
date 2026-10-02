@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5d212454-338c-44dd-b89f-95204e053cd8",
+    "response_id": "chatcmpl-EUTIBha8sHCNYJJdspGmekefmiQ6W",
+    "usage": {
+      "completion_tokens": 542,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1287,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1829
+    }
+  },
+  "received_at": "2026-10-02T09:56:15+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8f996405-d870-4074-947b-35190faad643\">\n<figure>\n  <img src=\"/images/articles/8f996405-d870-4074-947b-35190faad643-1.jpg\" alt=\"Un sendero nevado junto a árboles invernales desnudos\">\n</figure>\n\n<div class=\"poem\">\n  <p>Ciudad de Dios, ¡qué vasta y ancha<br>\n  se alzan tus muros sublimes!<br>\n  Tus verdaderos ciudadanos son<br>\n  de toda era y climas:</p>\n\n  <p>Una santa iglesia, un ejército fuerte,<br>\n  una firme y noble intención;<br>\n  una sola labor, un mismo canto de siega,<br>\n  un Rey omnipotente en unión.</p>\n\n  <p>¡Qué pura ha llegado tu palabra<br>\n  desde la juventud primera del hombre!<br>\n  ¡Qué grande ha crecido tu imperio<br>\n  de libertad, amor y verdad! </p>\n\n  <p>¡Cómo brillan tus hogueras de guardia<br>\n  durante la noche con rayo inextinguible!<br>\n  ¡Cómo se alzan tus torres, serenas y claras,<br>\n  para recibir el día naciente!</p>\n\n  <p>En vano el choque airado de la ola,<br>\n  en vano las arenas que se desplazan:<br>\n  ilesa sobre la Roca eterna<br>\n  la ciudad eterna permanece.</p>\n</div>\n</article>\n",
+    "section": "Poema",
+    "subtitle": null,
+    "title": "Ciudad de Dios"
+  }
+}

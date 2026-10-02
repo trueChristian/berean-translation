@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "67fd7187-6263-4ff1-9673-9c8f1b85c5cd",
+    "response_id": "chatcmpl-EUTBSxCBmvHXQIsAmP65dfBvrVne8",
+    "usage": {
+      "completion_tokens": 652,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1288,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1940
+    }
+  },
+  "received_at": "2026-10-02T09:56:14+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8f996405-d870-4074-947b-35190faad643\">\n<figure>\n  <img src=\"/images/articles/8f996405-d870-4074-947b-35190faad643-1.jpg\" alt=\"שביל מושלג לצד עצי חורף ערומים\">\n</figure>\n\n<div class=\"poem\">\n  <p>עיר האלוהים, כמה רחבה ורחוקה<br>\n  חומותייך המהודרות פרושות!<br>\n  הנאמנים האמתיים הם אזרחייך המוסמכים<br>\n  מכל דור ומכל אקלים:</p>\n\n  <p>כנסייה אחת קדושה, צבא אחד חזק,<br>\n  כוונה אחת איתנה ונשגבה;<br>\n  חבורה אחת פועלת, שיר קציר אחד,<br>\n  מלך אחד אדיר היכולת.</p>\n\n  <p>כמה טהורה נפלה דיבורך מלפני<br>\n  נעוריו הראשוניים של האדם!<br>\n  כמה מרחיבה אימפרייתך צמחה<br>\n  של חירות, אהבה ואמת!</p>\n\n  <p>כמה ניצוצות משמרותיך ניצבים בלילה<br>\n  בקרן אור שאינה דועכת!<br>\n  איך צומחות המגדלים שלך, שלוות ובהירות,<br>\n  לקראת יום הזריחה!</p>\n\n  <p>ריקם זעמם של הגלים, לשוא תקפת הזרם,<br>\n  לשוא חול הנודד:<br>\n  ללא פגע על הסלע הנצחי<br>\n  העיר הנצחית עומדת.</p>\n</div>\n</article>\n",
+    "section": "שיר",
+    "subtitle": null,
+    "title": "עיר האלוהים"
+  }
+}

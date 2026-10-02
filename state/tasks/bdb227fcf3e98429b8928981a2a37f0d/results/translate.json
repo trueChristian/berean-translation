@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "095c94b5-c637-4a4e-b1f0-7c758d5798b7",
+    "response_id": "chatcmpl-EUT9byhkXIWcVY5zN7ZVz423cORP1",
+    "usage": {
+      "completion_tokens": 1361,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1909,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3270
+    }
+  },
+  "received_at": "2026-10-02T09:56:15+00:00",
+  "result": {
+    "html": "<article data-article-id=\"042fce50-3724-4100-b397-093c6d081e89\">\n<p>Der 21. Januar 1525 war der 500. Jahrestag des Täufertums. Vor fünfhundert Jahren ereignete sich ein monumentales Ereignis in der Geschichte der christlichen Kirche. Eine kleine Gruppe radikaler Christen versammelte sich leise im Haus von Felix Mantz in Zürich, Schweiz. Die staatliche Kirchenregierung von Zürich hatte die Eltern angewiesen, ihre Säuglinge taufen zu lassen oder andernfalls aus ihren Häusern verbannt zu werden. Sich zu Bibelstudien und Gebetstreffen zu versammeln war ebenfalls verboten. Und doch gingen an diesem bedeutenden Winterabend Feliz Mantz, Conrad Grebel, George Blaurock und einige andere einen Schritt weiter in ihrem Gehorsam. Nachdem sie gebetet und sich verpflichtet hatten, Gott treu zu dienen, bat George Blaurock Conrad Grebel, ihn im wahren christlichen Glauben zu taufen, was Conrad tat. Die anderen baten ebenfalls um die Taufe, und George taufte sie wiederum. So entstand das Täufertum, wie wir es kennen.</p>\n\n<p>Obwohl diese drei Männer eine Schlüsselrolle in der täuferischen Geschichte spielten, begann die Reformation nicht mit ihnen. Der eigentliche Auslöser, der die Flammen der Erweckung entfachte, wurde 88 Jahre früher gezündet. Im Jahr 1436 erfand ein deutscher Goldschmied namens Johannes Gutenberg eine Druckerpresse mit beweglichen Lettern. Dies verbesserte das Drucken dramatisch, und Bücher konnten in größerer Menge gedruckt werden. Statt einiger weniger Bücher, die nur den Wohlhabenden gehörten, konnte sich nun die einfache Bevölkerung Bücher leisten. Die ersten Bücher, die auf der Gutenberg-Presse gedruckt wurden, waren Bibeln. Als das einfache Volk begann, Bibeln zu kaufen und zu lesen, erkannten sie, dass die Dunkelheit religiöser Unterdrückung sie daran hinderte, das wahre Licht von Gottes Wort zu verstehen. Und so wurde die Reformation geboren.</p>\n\n<p>Spulen wir 588 Jahre vor. Gedrucktes Papier inspiriert noch immer Männer und Frauen. Heute ist es jedoch viel einfacher, eine Zeitschrift wie The Heartbeat of the Remnant zu drucken. Wir nehmen einfach Feder oder Tastatur zur Hand und schreiben. Unser Dokument wird dann digital redigiert und elektronisch an die Druckerei gesendet. Nachdem die Dateien hochgeladen sind, druckt die Druckerpresse in etwas mehr als zwölf Stunden 6.000 Exemplare. Dann ist es fertig und wird in 51 Länder der Welt und viele US-Bundesstaaten verschickt. Das Drucken hat seit 1436, als jede Seite einzeln eingerichtet und gedruckt werden musste, einen weiten Weg zurückgelegt.</p>\n\n<figure>\n  <img src=\"/images/articles/042fce50-3724-4100-b397-093c6d081e89-1.jpg\" alt=\"Gutenberg-Bibel ausgestellt in der U.S. Library of Congress\">\n  <figcaption><em>Gutenberg-Bibel ausgestellt in der U.S. Library of Congress.</em></figcaption>\n</figure>\n\n<p>Laut einem Google-Projekt von 2010 wurden weltweit knapp 130 Millionen Bücher veröffentlicht. Seitdem schätzt die UNESCO, dass jährlich etwa 2,2 Millionen neue Titel erscheinen. Addiert man diese jährlichen Veröffentlichungen zum Anfangswert, kann man abschätzen, dass es 2024 mehr als 160 Millionen unterschiedliche Bücher auf der Welt gibt. Diese Zahl berücksichtigt nicht Bücher, die seit ihrer Erstveröffentlichung vergriffen oder eingestellt worden sein mögen. Der weise Prediger hatte recht, als er schrieb: „Und ferner, mein Sohn, lass dir's raten: Bei der Herstellung vieler Bücher ist kein Ende; und viel Studium ermüdet den Leib“ (Prediger 12,12).</p>\n\n<p>Lassen Sie uns diese Pressefreiheit zu Gottes Ruhm nutzen, solange wir die Chance dazu haben. Ich arbeite für Christian Aid Ministries, und wir hören regelmäßig Zeugnisse von Christen in geschlossenen und eingeschränkten Ländern, die außerordentlich gesegnet sind, christliche Literatur zu erhalten. Eine Person aus einem nicht näher benannten Ort schrieb: „. . . wir lesen alle abwechselnd die Zeitschrift in der Kirche. Eine sehr erbauliche Zeitschrift. Gott segne euch! Gottes Segen.“ Solche Zeugnisse zu hören macht mich dankbarer für das, was wir haben. Aber ich bin sicher, dass Menschen in verfolgten Ländern ihre christliche Literatur höher schätzen als wir, die wir in Fülle Bibeln und christliche Literatur besitzen.</p>\n\n<p>In dieser Ausgabe haben wir auf Anfrage zwei Artikel nachgedruckt. A Glorious Church von Barry Grant und Joy in the Crevices von Sheryl Zeiset wurden beide erstmals 2019 veröffentlicht. Mögen unsere Kirchen die Tugenden zeigen und unsere Häuser die Schönheit ausstrahlen, die in diesen zeitlosen Artikeln dargestellt wird.</p>\n\n<p>Segenswünsche an alle,</p>\n\n<p>Edward Martin</p>\n</article>\n",
+    "section": "Aus der REDAKTION",
+    "subtitle": null,
+    "title": "Aus der Redaktion"
+  }
+}

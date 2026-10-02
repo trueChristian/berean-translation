@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d6b47c3a-700d-45e5-916a-2dd79b86a526",
+    "response_id": "chatcmpl-EUTH0knUrbGl25vc9V0qKGFEPQS5q",
+    "usage": {
+      "completion_tokens": 825,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1261,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2086
+    }
+  },
+  "received_at": "2026-10-02T09:56:16+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9\">\n<figure>\n  <img src=\"/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg\" alt=\"Одинокое голое дерево в заснеженном поле\">\n</figure>\n\n<div class=\"poem\">\n  <p>Сейчас зима; упавший снег<br>\n  оставил небо таким прозрачным и холодным;<br>\n  сквозь безлистые ветви свистят резкие ветры,<br>\n  и вся земля лежит мертвая и унылая.</p>\n\n  <p>И всё же Божья любовь не отнята;<br>\n  Его жизнь в пронизывающем воздухе дышит;<br>\n  Его красота красит багровый рассвет,<br>\n  и украшает каждую ветку сверкающими венками.</p>\n\n  <p>И хоть снаружи свищут резкие ветры,<br>\n  и небо холодно, и морозы суровы,<br>\n  дом теснее смыкает свой круг ныне,<br>\n  и свет в нём теплее горит изнутри.</p>\n\n  <p>О Боже, Ты даруешь зимний холод,<br>\n  как и летние радостные лучи;<br>\n  Ты тепло в любви Своей обвиваешь нас,<br>\n  и хранишь нас в житейские зимние дни.</p>\n</div>\n</article>\n",
+    "section": "Стихотворение",
+    "subtitle": null,
+    "title": "Зимняя песнь"
+  }
+}

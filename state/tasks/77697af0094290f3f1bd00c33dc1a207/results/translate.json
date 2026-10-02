@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "cee2ea8b-545c-4de2-ac9f-a58af82da6f1",
+    "response_id": "chatcmpl-EUTGmglozYWNtZdHLGFlwFVWsdytn",
+    "usage": {
+      "completion_tokens": 875,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1284,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2159
+    }
+  },
+  "received_at": "2026-10-02T09:56:15+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8f996405-d870-4074-947b-35190faad643\">\n<figure>\n  <img src=\"/images/articles/8f996405-d870-4074-947b-35190faad643-1.jpg\" alt=\"Un chemin enneigé à côté d'arbres d'hiver nus\">\n</figure>\n\n<div class=\"poem\">\n  <p>Cité de Dieu, comme sont vastes et lointaines<br>\n  tes murailles étendues et sublimes !<br>\n  Les vrais, tes hommes affranchis, sont<br>\n  de tout âge et de tout climat :</p>\n\n  <p>Une sainte Église, une armée puissante,<br>\n  une ferme et haute intention ;<br>\n  une même cohorte laborieuse, un seul chant de moisson,<br>\n  un seul Roi tout-puissant.</p>\n\n  <p>Comme ta parole est descendue purement<br>\n  de la prime jeunesse de l'homme !<br>\n  Comme ton empire a grandi avec grandeur<br>\n  de liberté, d'amour et de vérité !</p>\n\n  <p>Comme brillent tes feux de veille à travers la nuit<br>\n  d'un rayon ne faiblissant jamais !<br>\n  Comme s'élèvent tes tours, sereines et lumineuses,<br>\n  pour accueillir le jour naissant !</p>\n\n  <p>En vain le choc furieux des flots,<br>\n  en vain les sables mouvants :<br>\n  indemne sur le Rocher éternel<br>\n  la cité éternelle demeure.</p>\n</div>\n</article>\n",
+    "section": "Poème",
+    "subtitle": null,
+    "title": "Cité de Dieu"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b7a3af66-7910-4334-8738-4e3839a8be95",
+    "response_id": "chatcmpl-EUTE713PPe7OwJTPE8ivfvsOH9TZS",
+    "usage": {
+      "completion_tokens": 605,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1266,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1871
+    }
+  },
+  "received_at": "2026-10-02T09:56:14+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9\">\n<figure>\n  <img src=\"/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg\" alt=\"একাকী খামের গাছতলা তুষারে ঢাকা একটি মাঠে\">\n</figure>\n\n<div class=\"poem\">\n  <p>এখন শীত; পড়া তুষার<br>\n  আকাশটাকে করে দিয়েছে সকল ঠাণ্ডা পরিশুদ্ধ;<br>\n  পাতাহীন ডালপালা দিয়ে কাঁটালো হাওয়া বয়ে যায়,<br>\n  এবং সমস্ত পৃথিবী শোকাকুলি মৃত ও বিষণ্ণ পড়ে আছে।</p>\n\n  <p>তবুও ঈশ্বরের প্রেম অনেক দূরে যায়নি;<br>\n  তাঁর জীবন তীক্ষ্ণ বাতাসে শ্বাস নিতে থাকে;<br>\n  তাঁর সৌন্দর্য লালাভ ভোরকে রাঙায়,<br>\n  এবং প্রতিটি ডালকে ঝলমলে মালায় সজ্জিত করে।</p>\n\n  <p>এবং যদিও বাইরে কাঁটালো হাওয়া বইছে,<br>\n  এবং আকাশ ঠান্ডা, এবং তুষার তীক্ষ্ণ,<br>\n  বাড়ি এখন আরও ঘন হয় তার বৃত্ত,<br>\n  এবং ভেতরে তার আলো আরও উষ্ণাভ হয়ে জ্বলজ্বল করে।</p>\n\n  <p>হে ঈশ্বর, আপনি শীতের ঠাণ্ডা দেন,<br>\n  যেমনদিন দেন গ্রীষ্মের আনন্দময় রোশনি,<br>\n  আপনি আপনার প্রেমে আমাদের উষ্ণভাবে আবদ্ধ করেন,<br>\n  এবং জীবনের শীতল দিনগুলোর মধ্যে আমাদের রক্ষা করেন।</p>\n</div>\n</article>\n",
+    "section": "কবিতা",
+    "subtitle": null,
+    "title": "শীতের গান"
+  }
+}

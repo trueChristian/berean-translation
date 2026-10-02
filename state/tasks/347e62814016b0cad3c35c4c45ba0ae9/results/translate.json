@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6e3d694f-69f8-4a46-b663-0cb9da2caa45",
+    "response_id": "chatcmpl-EUTI10zDOfBZXHUeZgJsT9sjFYeRd",
+    "usage": {
+      "completion_tokens": 557,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1261,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1818
+    }
+  },
+  "received_at": "2026-10-02T09:56:14+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9\">\n<figure>\n  <img src=\"/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg\" alt=\"Un albero spoglio solitario in un campo innevato\">\n</figure>\n\n<div class=\"poem\">\n  <p>È inverno ormai; la neve caduta<br>\n  ha reso i cieli freddi e limpidi;<br>\n  tra rami spogli, soffia il vento tagliente,<br>\n  e tutta la terra giace morta e mesta.</p>\n\n  <p>Eppure l'amore di Dio non si ritira;<br>\n  la sua vita nell'aria pungente respira;<br>\n  la sua bellezza dipinge l'alba cremisi,<br>\n  e veste ogni ramo di corone scintillanti.</p>\n\n  <p>E benché fuori il vento tagliente soffi,<br>\n  e i cieli siano freddi, e le gelate acute,<br>\n  il focolare stringe ora il suo cerchio più vicino,<br>\n  e più caldo arde la sua luce dentro.</p>\n\n  <p>O Dio, tu doni il freddo dell'inverno,<br>\n  così come i raggi gioiosi dell'estate,<br>\n  ci avvolgi calorosamente nel tuo amore,<br>\n  e ci custodisci nei giorni invernali della vita.</p>\n</div>\n</article>\n",
+    "section": "Poesia",
+    "subtitle": null,
+    "title": "Canto d'inverno"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "35cfc537-f9b2-47da-b965-e3c8ff3e3b75",
+    "response_id": "chatcmpl-EUTEzcPQVBKltPR6n9qvsPYKOQ44b",
+    "usage": {
+      "completion_tokens": 541,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1266,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1807
+    }
+  },
+  "received_at": "2026-10-02T09:56:14+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9\">\n<figure>\n  <img src=\"/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg\" alt=\"Un árbol solitario y desnudo en un campo nevado\">\n</figure>\n\n<div class=\"poem\">\n  <p>Es invierno ya; la nieve caída<br>\n  ha dejado los cielos fríos y claros;<br>\n  por ramas sin hojas sopla el viento agudo,<br>\n  y toda la tierra yace muerta y sombría.</p>\n\n  <p>Y sin embargo el amor de Dios no se retira;<br>\n  su vida en el aire cortante respira;<br>\n  su belleza pinta la aurora encarnada,<br>\n  y viste cada rama con guirnaldas brillantes.</p>\n\n  <p>Y aunque afuera soplen los vientos agudos,<br>\n  y los cielos estén fríos, y las heladas severas,<br>\n  el hogar ahora cierra más su círculo,<br>\n  y más cálida resplandece su luz interior.</p>\n\n  <p>Oh Dios, das el frío del invierno,<br>\n  así como los gozosos rayos del verano,<br>\n  nos envuelves con calor en tu amor,<br>\n  y nos sostienes durante los días invernales de la vida.</p>\n</div>\n</article>\n",
+    "section": "Poema",
+    "subtitle": null,
+    "title": "Canto de invierno"
+  }
+}

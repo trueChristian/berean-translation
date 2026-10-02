@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0721fb15-953f-4162-8ad1-0573d216314a",
+    "response_id": "chatcmpl-EUTEOxg4GaNjuam02357AdJcXBp8Y",
+    "usage": {
+      "completion_tokens": 581,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1267,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1848
+    }
+  },
+  "received_at": "2026-10-02T09:56:14+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9\">\n<figure>\n  <img src=\"/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg\" alt=\"눈 덮인 들판에 홀로 선 나목\">\n</figure>\n\n<div class=\"poem\">\n  <p>지금은 겨울이네; 내린 눈이<br>\n  하늘을 차갑게 맑게 남겨두었고;<br>\n  잎 없는 가지 사이로 매서운 바람이 불고,<br>\n  온 땅이 죽고 쓸쓸히 누워 있구나.</p>\n\n  <p>그런데도 하나님의 사랑은 사라지지 않고;<br>\n  그의 생명이 차가운 공기 속에 숨 쉬며;<br>\n  그의 아름다움이 붉은 새벽을 물들이고,<br>\n  반짝이는 화관으로 모든 가지를 입히네.</p>\n\n  <p>밖에는 매서운 바람이 불고,<br>\n  하늘은 차갑고 서리는 매섭지만,<br>\n  가정은 이제 더 가까이 원을 그리며 모여들고,<br>\n  그 안의 빛은 더 따뜻하게 빛나네.</p>\n\n  <p>오 주님, 당신은 겨울의 추위도 주시고,<br>\n  여름의 기쁜 햇살도 주시네,<br>\n  당신의 사랑으로 우리를 따뜻하게 감싸며,<br>\n  인생의 겨운 날들을 지켜 주시네.</p>\n</div>\n</article>\n",
+    "section": "시",
+    "subtitle": null,
+    "title": "겨울 노래"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c996db78-225f-4912-b282-52bc7d9c1013",
+    "response_id": "chatcmpl-EUTNDD79JRKBiQw7CGcCSf8xf99NL",
+    "usage": {
+      "completion_tokens": 627,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1287,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1914
+    }
+  },
+  "received_at": "2026-10-02T09:56:16+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8f996405-d870-4074-947b-35190faad643\">\n<figure>\n  <img src=\"/images/articles/8f996405-d870-4074-947b-35190faad643-1.jpg\" alt=\"नग्न सर्दियों के पेड़ों के बगल में बर्फ़ से ढका एक रास्ता\">\n</figure>\n\n<div class=\"poem\">\n  <p>ईश्वर का नगर, कितना विस्तृत और विशाल<br>\n  फैले तेरे प्राचण्ड दीवारें!<br>\n  सच्चे तेरे चार्टर्ड मुक्तिग्राही हैं<br>\n  हर युग और हर देश के लोग:</p>\n\n  <p>एक पवित्र सभा, एक शक्तिशाली सेना,<br>\n  एक अडिग, उच्च उद्देश्य;<br>\n  एक कर्मठ संघ, एक कटैत्‍न-गान की फसल,<br>\n  एक सर्वशक्तिमान राजा।</p>\n\n  <p>कितनी शुद्धता से उतरी है तेरी वाणी<br>\n  मनुष्य की प्रथम युवा अवस्था से!<br>\n  कितनी महानता से बढ़ा है तेरा साम्राज्य<br>\n  स्वतंत्रता, प्रेम और सत्य का!</p>\n\n  <p>कितने चमकते हैं तेरे प्रहरी-प्रज्वलित दीप रात में<br>\n  कभी कम न पड़ने वाली किरण के साथ!<br>\n  कितनी ऊँची उभरती हैं तेरी मीनारें, शांत और उज्जवल,<br>\n  भोर के दिन से मिलने के लिए!</p>\n\n  <p>निष्फल है समुद्र के क्रुद्ध आघात,<br>\n  निष्फल हैं बहते रेत के ढेर:<br>\n  अनन्त चट्टान पर अक्षित है वह अनन्त नगर<br>\n  जो अटल रूप से खड़ा है।</p>\n</div>\n</article>\n",
+    "section": "कविता",
+    "subtitle": null,
+    "title": "ईश्वर का नगर"
+  }
+}

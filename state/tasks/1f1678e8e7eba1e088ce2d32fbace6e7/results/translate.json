@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "33ed7355-49ad-4c1f-ac8f-65962d780ccd",
+    "response_id": "chatcmpl-EUTCuYjpLmGCizrHBRiTM2JZbORa9",
+    "usage": {
+      "completion_tokens": 1550,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1909,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3459
+    }
+  },
+  "received_at": "2026-10-02T09:56:14+00:00",
+  "result": {
+    "html": "<article data-article-id=\"042fce50-3724-4100-b397-093c6d081e89\">\n<p>21 gennaio 1525 fu il 500° anniversario dell’anabattesimo. Cinquecento anni fa ebbe luogo un evento monumentale nella storia della chiesa cristiana. Un piccolo gruppo di cristiani radicali si radunò discretamente nella casa di Felix Mantz a Zurigo, Svizzera. Il governo della chiesa di Stato di Zurigo aveva ordinato ai genitori di far battezzare i propri bambini o di affrontare l’esilio dalle loro case. Era vietato anche riunirsi per studi biblici e incontri di preghiera. Eppure, in quella memorabile sera d’inverno, Feliz Mantz, Conrad Grebel, George Blaurock e alcuni altri portarono la loro obbedienza un passo più avanti. Dopo aver pregato e aver deciso di servire fedelmente Dio, George Blaurock chiese a Conrad Grebel di battezzarlo nella vera fede cristiana, cosa che Conrad fece. Anche gli altri chiesero il battesimo e George, a sua volta, li battezzò. E così nacque l’anabattesimo come lo conosciamo.</p>\n\n<p>Pur avendo questi tre uomini avuto un ruolo chiave nella storia anabattista, la Riforma non ebbe inizio con loro. Il vero catalizzatore che accese i fuochi del risveglio era stato acceso 88 anni prima. Nel 1436 un orafo tedesco di nome Johannes Gutenberg inventò una pressa tipografica a caratteri mobili. Questo migliorò drasticamente la stampa, e i libri poterono essere stampati in quantità maggiori. Anziché pochi libri solo nelle mani dei ricchi, la persona comune poteva ora permettersi di comprarli. I primi libri stampati con la pressa di Gutenberg furono Bibbie. Quando la gente comune cominciò a comprare e a leggere le Bibbie, si rese conto che l’oscurità dell’oppressione religiosa li privava della comprensione della vera luce della Parola di Dio. E così nacque la Riforma.</p>\n\n<p>Avanti veloce di 588 anni. La carta stampata continua a ispirare uomini e donne. Ma oggi è molto più semplice stampare un periodico come The Heartbeat of the Remnant. Prendiamo semplicemente la penna o la tastiera e scriviamo. Il nostro documento viene poi editato digitalmente e inviato elettronicamente alla tipografia. Dopo che i file sono stati caricati, la macchina da stampa produrrà 6.000 copie in poco più di 12 ore. Poi è pronto per essere spedito in 51 paesi del mondo e in molti stati degli Stati Uniti. La stampa ha fatto molta strada dal 1436, quando ogni pagina doveva essere impostata e stampata singolarmente.</p>\n\n<figure>\n  <img src=\"/images/articles/042fce50-3724-4100-b397-093c6d081e89-1.jpg\" alt=\"Bibbia di Gutenberg esposta alla Biblioteca del Congresso degli Stati Uniti\">\n  <figcaption><em>Bibbia di Gutenberg esposta alla Biblioteca del Congresso degli Stati Uniti.</em></figcaption>\n</figure>\n\n<p>Secondo un progetto di Google del 2010, furono pubblicati a livello globale poco meno di 130 milioni di libri. Da allora, l’UNESCO stima che ogni anno vengano pubblicati circa 2,2 milioni di nuovi titoli. Aggiungendo queste pubblicazioni annue al conteggio iniziale, possiamo stimare che nel 2024 ci siano più di 160 milioni di libri unici nel mondo. Questo numero non tiene conto dei libri che possono essere andati fuori stampa o essere stati interrotti dalla loro pubblicazione iniziale. Il saggio predicatore aveva ragione quando scrisse: “Ancora questo, figlio mio: sii ammonito; non c’è fine di libri, e molto studio affatica la carne” (Ecclesiaste 12:12).</p>\n\n<p>Usiamo questa libertà di stampa per la gloria di Dio finché ne abbiamo l’opportunità. Lavoro per Christian Aid Ministries e regolarmente riceviamo testimonianze da cristiani in paesi chiusi e sotto restrizione che sono estremamente benedetti nel ricevere letteratura cristiana. Una persona da una località non divulgata scrisse: “...facciamo tutti a turno a leggere la rivista in chiesa. Una rivista molto edificante. Dio vi benedica! Benedizioni di Dio.” Sentire testimonianze come questa mi rende più grato per ciò che abbiamo. Ma sono sicuro che le persone nei paesi perseguitati apprezzano la loro letteratura cristiana più di noi che abbiamo Bibbie e letteratura cristiana in abbondanza.</p>\n\n<p>In questo numero abbiamo ristampato due articoli su richiesta. A Glorious Church di Barry Grant e Joy in the Crevices di Sheryl Zeiset sono stati entrambi pubblicati per la prima volta nel 2019. Possa le nostre chiese dimostrare le virtù e le nostre case irradiare la bellezza ritratta in questi articoli senza tempo.</p>\n\n<p>Benedizioni a tutti,</p>\n\n<p>Edward Martin</p>\n</article>\n",
+    "section": "Dal direttore",
+    "subtitle": null,
+    "title": "Dalla redazione"
+  }
+}

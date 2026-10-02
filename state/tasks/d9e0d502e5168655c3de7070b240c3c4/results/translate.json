@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "fab53fd9-12b7-4b2d-ba42-f13575d42c6e",
+    "response_id": "chatcmpl-EUTQ06CRR6sJE3Rv04YunxvVGPO7N",
+    "usage": {
+      "completion_tokens": 1384,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1294,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2678
+    }
+  },
+  "received_at": "2026-10-02T09:56:16+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8f996405-d870-4074-947b-35190faad643\">\n<figure>\n  <img src=\"/images/articles/8f996405-d870-4074-947b-35190faad643-1.jpg\" alt=\"En snødekt sti ved nakne vintertrær\">\n</figure>\n\n<div class=\"poem\">\n  <p>Guds by, hvor vid og fjern<br>\n  utfolder dine høye murer!<br>\n  De virkelig frie, dine borgere er<br>\n  fra alle tider og land:</p>\n\n  <p>En hellig kirke, en mektig hær,<br>\n  ett fast, høyt mål;<br>\n  én arbeidende flokk, én høst-sang,<br>\n  én allmektig Konge.</p>\n\n  <p>Hvor rent har ditt ord falt ned<br>\n  fra menneskets opprinnelige ungdom!<br>\n  Hvor storslått har ditt rike vokst<br>\n  i frihet, kjærlighet og sannhet!</p>\n\n  <p>Hvor skinner dine vakthavende bål gjennom natten<br>\n  med aldri falmende glans!<br>\n  Hvor stiger dine tårn, rolige og lyse,<br>\n  for å møte daggryet!</p>\n\n  <p>Forgjeves bølgens vrede støt,<br>\n  forgjeves drivsandene:<br>\n  uskadd på den evige Klippen<br>\n  den evige byen står.</p>\n</div>\n</article>\n",
+    "section": "Dikt",
+    "subtitle": null,
+    "title": "Guds by"
+  }
+}

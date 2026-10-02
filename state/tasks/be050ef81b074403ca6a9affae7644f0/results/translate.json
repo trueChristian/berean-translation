@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ccca1953-1158-4e24-9c9c-eb0111b2237a",
+    "response_id": "chatcmpl-EUT9nKQt2vudr076E9MEDOeIYBkov",
+    "usage": {
+      "completion_tokens": 570,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1282,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1852
+    }
+  },
+  "received_at": "2026-10-02T09:56:15+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8f996405-d870-4074-947b-35190faad643\">\n<figure>\n  <img src=\"/images/articles/8f996405-d870-4074-947b-35190faad643-1.jpg\" alt=\"Заснеженная тропа рядом с голыми зимними деревьями\">\n</figure>\n\n<div class=\"poem\">\n  <p>Город Божий, как широк и далёк<br>\n  раскинулись стены твои возвышенные!<br>\n  Истинно свободны в нём твои граждане<br>\n  всех времен и земель:</p>\n\n  <p>Одна святая церковь, одна сильная армия,<br>\n  одно твёрдое, высокое стремление;<br>\n  одна трудящаяся толпа, одна песнь жатвы,<br>\n  один Вседержитель Царь.</p>\n\n  <p>Как чисто сыпалась к тебе речь<br>\n  из прастарой юности человека!<br>\n  Как величаво росла твоя держава<br>\n  свободы, любви и истины!</p>\n\n  <p>Как мерцают твои дозорные огни в ночи<br>\n  неувядающим лучом!<br>\n  Как возносятся твои башни, безмятежные и светлые,<br>\n  чтобы встретить рассветный день!</p>\n\n  <p>Напрасен бурный удар прибоя,<br>\n  напрасен бег песков:<br>\n  неповреждённый на Вечной Скале<br>\n  стоит град вечный.</p>\n</div>\n</article>\n",
+    "section": "Стихотворение",
+    "subtitle": null,
+    "title": "Город Божий"
+  }
+}

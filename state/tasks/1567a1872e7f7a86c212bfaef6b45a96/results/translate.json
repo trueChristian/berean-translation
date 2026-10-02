@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3177b5bf-dd1d-48f0-a464-09932ab0e827",
+    "response_id": "chatcmpl-EUTDz9y1QFPGhiHvs00FVGs9D1FTN",
+    "usage": {
+      "completion_tokens": 581,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1261,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1842
+    }
+  },
+  "received_at": "2026-10-02T09:56:14+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9\">\n<figure>\n  <img src=\"/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg\" alt=\"Een eenzame kale boom in een besneeuwd veld\">\n</figure>\n\n<div class=\"poem\">\n  <p>Het is winter nu; de gevallen sneeuw<br>\n  heeft de hemel kil en helder gemaakt;<br>\n  door bladloze takken waait de scherpe wind,<br>\n  en heel de aarde ligt dood en grauw.</p>\n\n  <p>En toch is Gods liefde niet onttrokken;<br>\n  zijn leven ademt in de scherpe lucht;<br>\n  zijn schoonheid schildert de karmozijne dageraad,<br>\n  en tooit elke tak met fonkelende kransen.</p>\n\n  <p>En hoewel buiten de scherpe winden waaien,<br>\n  en hemelen kil zijn, en vorst bijt scherp,<br>\n  trekt het huis nu zijn kring nauwer samen,<br>\n  en warmer gloeit het licht binnenin.</p>\n\n  <p>O God, U geeft de winterse koude,<br>\n  evenals de zomerse blije stralen,<br>\n  U omhult ons warm in uw liefde,<br>\n  en bewaart ons door levens winterse dagen.</p>\n</div>\n</article>\n",
+    "section": "Gedicht",
+    "subtitle": null,
+    "title": "Winterslied"
+  }
+}

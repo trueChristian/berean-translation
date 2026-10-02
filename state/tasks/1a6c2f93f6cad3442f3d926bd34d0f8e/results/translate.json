@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c8e61668-a74e-4f87-84ed-120b5dc5fe04",
+    "response_id": "chatcmpl-EUTEFi59nJ0AWy0NSe1FUBBTE0BI7",
+    "usage": {
+      "completion_tokens": 628,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1282,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1910
+    }
+  },
+  "received_at": "2026-10-02T09:56:14+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8f996405-d870-4074-947b-35190faad643\">\n<figure>\n  <img src=\"/images/articles/8f996405-d870-4074-947b-35190faad643-1.jpg\" alt=\"Un sentiero innevato accanto ad alberi invernali spogli\">\n</figure>\n\n<div class=\"poem\">\n  <p>Città di Dio, quanto ampia e lontana<br>\n  si spande la tua sublime cinta!<br>\n  Veri tuoi cittadini sono gli uomini<br>\n  di ogni età e clima:</p>\n\n  <p>Una santa chiesa, un esercito forte,<br>\n  un fermo, alto intento;<br>\n  una schiera che opera, un unico canto di mietitura,<br>\n  un Re onnipotente.</p>\n\n  <p>Con quanto pudore la tua parola è discesa<br>\n  dalla primigenia giovinezza dell'uomo!<br>\n  Quanto grandemente è cresciuto il tuo impero<br>\n  di libertà, amore e verità!</p>\n\n  <p>Come brillano i tuoi fuochi di vedetta nella notte<br>\n  con raggio che mai si affievolisce!<br>\n  Come sorgono le tue torri, serene e luminose,<br>\n  a incontrare il giorno che nasce!</p>\n\n  <p>Invano lo schianto dell'onda furente,<br>\n  invano le sabbie vaganti:<br>\n  intatta sulla Roccia eterna<br>\n  la città eterna sta.</p>\n</div>\n</article>\n",
+    "section": "Poesia",
+    "subtitle": null,
+    "title": "Città di Dio"
+  }
+}
