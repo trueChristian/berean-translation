@@ -2,7 +2,6 @@
   "article_id": "80e78d22-936e-48de-885a-f9a8898d5e42",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "70fff8bad6fe417ea488f00a5e8f943a",
   "campaign": "gh-36909750062",
   "created_at": "2026-10-01T18:51:43+00:00",
   "events": [
@@ -43,17 +42,52 @@
         },
         "total_tokens": 19810
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1431,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12484,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13915
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[4]: source /article[1]/p[1]/em[2] ('start', 'em', ()); translation /article[1]/p[1] ('end', 'p')",
-      "translation_quote": ""
+      "location": "translation.title",
+      "severity": "major",
+      "source_quote": "A Christ-Centered Courtship",
+      "suggested_fix": "Replace the mistranslated/transliterated title with an accurate Urdu rendering preserving meaning and the original HTML tag structure. For example: title=\"خدا پر مرکوز یک مسیحی محاورت (A Christ-Centered Courtship)\" or more naturally title=\"مسیحی عقیدت پر مبنی رشتہ (A Christ-Centered Courtship)\" — keep the original English in parentheses only if you wish to retain the English form exactly as in source.",
+      "translation_quote": "خدا پر مرکوز دادنیشن (A Christ-Centered Courtship)"
+    },
+    {
+      "location": "translation.html — multiple occurrences (goals #5, heading 7, several paragraphs)",
+      "severity": "minor",
+      "source_quote": "Godly fathers and godly mothers / a godly marriage / Godly Home (phrases meaning 'God-fearing' or 'godly')",
+      "suggested_fix": "Correct the mixed-language rendering where English 'God' or 'fearful' remains attached to Urdu (e.g. 'خداfearful', 'خداfearful باپ', 'خداfearful ماں', 'Godly Home') to fluent Urdu. For example: replace 'خداfearful' with 'خدا خوف رکھنے والے' or more idiomatically 'خداپرست' or 'پرہیزگار' and 'Godly Home' with 'خداپرست گھر' or 'پرہیزگار گھر'. Preserve all HTML tags and their nesting/attributes exactly as in the translation file when making replacements.",
+      "translation_quote": "مقصد #5۔ کہ نوجوان مرد اور نوجوان عورتیں خداfearful باپ اور خداfearful ماں بنیں، اور ایک اور خداfearful نسل کو پروان چڑھانے کا وژن رکھیں، تاکہ یسوع مسیح کی خوشخبری جاری رہے۔"
+    },
+    {
+      "location": "translation.html — opening paragraph and headings",
+      "severity": "minor",
+      "source_quote": "A Christ-centered Courtship is a series of messages on godly courtship...",
+      "suggested_fix": "Consider rendering 'Christ-centered Courtship' and other repeated English terms fully in Urdu for clarity and idiomatic flow (e.g., 'مسیح مرکزِ رشتہ سازی' or 'مسیحی بنیاد پر محبت کی تلاش / محاورت'). If the publication prefers to keep the English term, ensure spacing and script consistency (use Urdu script or kept English consistently). Do not change HTML structure: operate only on text nodes.",
+      "translation_quote": "ایک Christ-centered Courtship پیغامات کی ایک سیریز ہے جو پال ہرشبرگر کی جانب سے خدا پر مرکوز courting کے بارے میں دیے گئے خداپرست پیغامات پر مشتمل ہے۔"
     }
   ],
+  "finished_at": "2026-10-02T00:07:28+00:00",
   "id": "2c2ff3a55344873d83184de672d0333c",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "urd",
@@ -97,11 +131,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1813629ba31cec5f42c8546808ad86fd17dc2aca775e7cb43f2368f4a4530061.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

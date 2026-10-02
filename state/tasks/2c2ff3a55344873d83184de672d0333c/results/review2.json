@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d1cea853-5c3c-45d0-8558-4c086ac8c2e8",
+    "response_id": "chatcmpl-EUINpOsLy41LEQJE8iRUqBU3OdpAQ",
+    "usage": {
+      "completion_tokens": 1431,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12484,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13915
+    }
+  },
+  "received_at": "2026-10-02T00:07:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.title",
+        "severity": "major",
+        "source_quote": "A Christ-Centered Courtship",
+        "suggested_fix": "Replace the mistranslated/transliterated title with an accurate Urdu rendering preserving meaning and the original HTML tag structure. For example: title=\"خدا پر مرکوز یک مسیحی محاورت (A Christ-Centered Courtship)\" or more naturally title=\"مسیحی عقیدت پر مبنی رشتہ (A Christ-Centered Courtship)\" — keep the original English in parentheses only if you wish to retain the English form exactly as in source.",
+        "translation_quote": "خدا پر مرکوز دادنیشن (A Christ-Centered Courtship)"
+      },
+      {
+        "location": "translation.html — multiple occurrences (goals #5, heading 7, several paragraphs)",
+        "severity": "minor",
+        "source_quote": "Godly fathers and godly mothers / a godly marriage / Godly Home (phrases meaning 'God-fearing' or 'godly')",
+        "suggested_fix": "Correct the mixed-language rendering where English 'God' or 'fearful' remains attached to Urdu (e.g. 'خداfearful', 'خداfearful باپ', 'خداfearful ماں', 'Godly Home') to fluent Urdu. For example: replace 'خداfearful' with 'خدا خوف رکھنے والے' or more idiomatically 'خداپرست' or 'پرہیزگار' and 'Godly Home' with 'خداپرست گھر' or 'پرہیزگار گھر'. Preserve all HTML tags and their nesting/attributes exactly as in the translation file when making replacements.",
+        "translation_quote": "مقصد #5۔ کہ نوجوان مرد اور نوجوان عورتیں خداfearful باپ اور خداfearful ماں بنیں، اور ایک اور خداfearful نسل کو پروان چڑھانے کا وژن رکھیں، تاکہ یسوع مسیح کی خوشخبری جاری رہے۔"
+      },
+      {
+        "location": "translation.html — opening paragraph and headings",
+        "severity": "minor",
+        "source_quote": "A Christ-centered Courtship is a series of messages on godly courtship...",
+        "suggested_fix": "Consider rendering 'Christ-centered Courtship' and other repeated English terms fully in Urdu for clarity and idiomatic flow (e.g., 'مسیح مرکزِ رشتہ سازی' or 'مسیحی بنیاد پر محبت کی تلاش / محاورت'). If the publication prefers to keep the English term, ensure spacing and script consistency (use Urdu script or kept English consistently). Do not change HTML structure: operate only on text nodes.",
+        "translation_quote": "ایک Christ-centered Courtship پیغامات کی ایک سیریز ہے جو پال ہرشبرگر کی جانب سے خدا پر مرکوز courting کے بارے میں دیے گئے خداپرست پیغامات پر مشتمل ہے۔"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

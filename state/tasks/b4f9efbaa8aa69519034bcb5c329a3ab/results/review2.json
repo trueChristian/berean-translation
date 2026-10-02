@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a15b2e1c-4956-4e57-9c72-97509afc117d",
+    "response_id": "chatcmpl-EUINk4b2Xr3Jl80qIywLKDmA0Zh7i",
+    "usage": {
+      "completion_tokens": 1145,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4239,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5384
+    }
+  },
+  "received_at": "2026-10-02T00:07:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>“Then he was elected to finish the last four months of secretarial duties for a brother who spent some time in Bulgaria. That night he came home and wept. ‘Doesn’t anyone understand what I’m going through? ...”</p>",
+        "severity": "major",
+        "source_quote": "Then he was elected to finish the last four months of secretarial duties for a brother who spent some time in Bulgaria.",
+        "suggested_fix": "Translate the sense of \"secretarial duties\" (i.e., duties of a secretary or filling a secretary's term) rather than rendering it as \"رازدارانہ فرائض\" (which reads as \"confidential/secretive duties\"). For example: \"پھر اسے ایک بھائی کے لیے سکریٹری کے فرائض کے آخری چار ماہ پورے کرنے کے لیے منتخب کیا گیا۔\" Preserve the surrounding HTML tags and punctuation exactly as in the translation.",
+        "translation_quote": "پھر اسے ایک بھائی کے لیے رازدارانہ فرائض کے آخری چار ماہ پورے کرنے کے لیے منتخب کیا گیا، جو کچھ وقت بلغاریہ میں گزار رہا تھا۔"
+      },
+      {
+        "location": "<p>‘The boys want to go fishing, you need a new clothesline, and the chicken house needs to be finished in six months! ...’</p>",
+        "severity": "minor",
+        "source_quote": "The boys want to go fishing, you need a new clothesline, and the chicken house needs to be finished in six months!",
+        "suggested_fix": "Correct the mistranslation of \"clothesline.\" The translation \"کپڑوں کا رسیلا\" is wrong (\"رسیلا\" means moist). Use a natural Urdu equivalent such as \"نئی کپڑوں کی رسی\" or \"نیا کپڑوں کا رسیلا لائن\" (preferably \"نئی کپڑوں کی رسی\"). Preserve the punctuation and HTML tags.",
+        "translation_quote": "لڑکے ماہی گیری کرنا چاہتے ہیں، تمہیں ایک نیا کپڑوں کا رسیلا چاہیے، اور مرغی کا گھر چھ ماہ میں مکمل ہونا ہے!"
+      },
+      {
+        "location": "<p>“I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.”</p>",
+        "severity": "minor",
+        "source_quote": "I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.",
+        "suggested_fix": "The translation uses \"جمبھائی لیتے سنا\" for \"yawning.\" That term is uncommon/awkward in contemporary Urdu. Use a more natural phrase such as \"رات کے بیچ میں اسے جمائی لیتے سنا\" or \"رات کے بیچ اسے جمائی لیتے ہوئے سنا\" while preserving surrounding quotes and HTML tags.",
+        "translation_quote": "جب میں نے رات کے بیچ میں اس کو جمبھائی لیتے سنا تو میں گھبرا گئی اور جان گئی کہ وہ سو نہیں رہا۔"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}
