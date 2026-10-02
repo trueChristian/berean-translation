@@ -172,6 +172,7 @@ class Engine:
                     'status':'planned' if dry_run else 'active','languages':languages,'issues':selected,
                     'model':model,'review_model':review_model,'models':copy.deepcopy(self.config.models),
                     'prompt_version':self.config.runtime['prompt_version'],
+                    'structural_feedback_version':self.config.runtime.get('structural_feedback_version'),
                     'prompts':{name:self.config.prompt(name) for name in ('translation','review')},
                     'language_settings':{lang:copy.deepcopy(self.config.languages[lang]) for lang in languages},
                     'glossaries':read_json(self.config.root/'config/glossaries.json')['languages'],
@@ -342,10 +343,19 @@ class Engine:
                 try:
                     validate_translation(self.state.source(task),result)
                 except ContractError as exc:
-                    decision(self.state, task, stage, 'structural_rejection', str(exc))
+                    diagnostic_findings = None
+                    if (stage == 'translate' and not task.get('downstream_recovery')
+                            and campaign.get('structural_feedback_version') == '1'):
+                        from .structural_feedback import correction_findings
+                        diagnostic_findings = correction_findings(self.state.source(task), result, exc)
+                    decision(self.state, task, stage, 'structural_rejection', str(exc), diagnostic_findings)
                     if stage == 'translate' and not task.get('downstream_recovery'):
-                        task['findings'] = [{'severity':'critical','location':'HTML/metadata contract',
-                                             'source_quote':'','translation_quote':'','suggested_fix':str(exc)}]
+                        if diagnostic_findings is not None:
+                            task['findings'] = diagnostic_findings
+                        else:
+                            # Frozen legacy campaigns retain their original correction request bytes.
+                            task['findings'] = [{'severity':'critical','location':'HTML/metadata contract',
+                                                 'source_quote':'','translation_quote':'','suggested_fix':str(exc)}]
                         task['stage'],task['status'] = 'correct','queued'
                         task.pop('batch',None)
                         self.state.save_task(task)
