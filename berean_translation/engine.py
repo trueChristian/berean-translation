@@ -176,7 +176,7 @@ class Engine:
                     'language_settings':{lang:copy.deepcopy(self.config.languages[lang]) for lang in languages},
                     'glossaries':read_json(self.config.root/'config/glossaries.json')['languages'],
                     'max_output_tokens':self.config.runtime['max_output_tokens'],
-                    'review_output_tokens':self.config.runtime['review_output_tokens'],
+                    'review_output_tokens':self.config.review_output_limit(review_model),
                     'quality_threshold':self.config.runtime['quality_threshold']}
         if refresh:
             campaign.update(source_refresh=True,source_translation_keys=copy.deepcopy(refresh_keys),

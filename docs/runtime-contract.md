@@ -142,3 +142,24 @@ Batch stage completion can take up to its provider processing window. A collecto
 Provider observations retain `remote_*_at` lifecycle timestamps (Unix seconds), request counts, status, and `last_polled_at`. `collected_at` is local terminal-results pickup time; `completed_at` remains its legacy local-time alias. Do not infer provider timings for older records without those fields. Failed rows and provider failures remain terminal or safely recoverable under the existing rules; telemetry never authorizes a retry.
 
 Successful state checkpoints are real commits. The report in `state/heartbeat.json` records actual successful discovery counts, source revision and pending tasks. It refreshes on meaningful snapshot changes and at least once per UTC day, so same-day completion is visible without meaningless idle keepalive changes.
+## Reasoning-review output headroom
+
+New ordinary campaigns freeze a model-aware review completion limit when they are
+accepted: 3,000 tokens for non-reasoning reviewers, and at least 8,192 for a
+registered reviewer with reasoning enabled, bounded by that model's output limit.
+`review_output_tokens` remains the ordinary base; `reasoning_review_output_tokens`
+is the finite reasoning-review floor. The downstream recovery policy retains its
+separate explicit 8,192-token review limit. Reasoning and visible JSON share the
+completion cap, so this provides headroom, not guaranteed JSON completion.
+
+The acceptance rule also covers newly accepted exact-candidate re-reviews and
+authorized source-refresh campaigns; downstream repair keeps its separate policy.
+Queued requests not yet accepted use the policy in force at acceptance. Already
+accepted campaigns, their recorded limits, request bytes, attempts and
+reservations are unchanged. No failed work is replayed. The full resolved limit
+is included in context checks and conservative reservations before submission.
+Campaign dollar caps are never raised: the larger reservation can leave fewer
+reviews affordable in a fixed-budget campaign. At the registered GPT-5-mini Batch
+output rate, 8,192 instead of 3,000 increases the output reservation by $0.005192
+per review. Truncation, refusals, malformed responses and quality failures still
+fail closed; no automatic fallback or extra attempt is introduced.

@@ -13,6 +13,7 @@
   "default_budget_usd": 5,
   "max_output_tokens": 16384,
   "review_output_tokens": 3000,
+  "reasoning_review_output_tokens": 8192,
   "max_source_html_bytes": 120000,
   "max_result_bytes": 1000000,
   "max_batches_per_tick": 20,
