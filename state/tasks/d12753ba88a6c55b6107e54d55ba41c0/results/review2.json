@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3d686ff9-2638-4403-a59f-0fdb6f7515a4",
+    "response_id": "chatcmpl-EUL90Wi2CgYLyabX1RFS51aDDDDia",
+    "usage": {
+      "completion_tokens": 1042,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1550,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2592
+    }
+  },
+  "received_at": "2026-10-02T00:12:01+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html <figure> <img> alt",
+        "severity": "minor",
+        "source_quote": "A small boat at the edge of calm water during a vivid sunset",
+        "suggested_fix": "Consider keeping the same specific image sense. Replace with: \"خاموش پانی کے کنارے، شاندار غروب آفتاب کے دوران ایک چھوٹی کشتی\" to mirror \"calm water\" + \"vivid sunset\".",
+        "translation_quote": "غروب آفتاب کے حسین منظر کے دوران خاموش پانی کے کنارے ایک چھوٹی کشتی"
+      },
+      {
+        "location": "source.html poem stanza 1 line 3",
+        "severity": "minor",
+        "source_quote": "The Dayspring shineth from on high,",
+        "suggested_fix": "\"Dayspring\" is a theologically evocative poetic word (often referring to Christ). A closer Urdu poetic equivalent could be: \"نورِ صبح اوپر سے درخشاں ہے,\" which keeps the poetic/theological nuance.",
+        "translation_quote": "اوپر سے دن کا تجلی نمودار ہے،"
+      },
+      {
+        "location": "source.html poem stanza 3 final line",
+        "severity": "minor",
+        "source_quote": "Adore th’ almighty King of Kings!",
+        "suggested_fix": "For \"almighty\" a more conventional Urdu theological term is \"قادرِ مطلق\". Suggested phrasing: \"بادشاہِ بادشاہوں کے قادرِ مطلق بادشاہ کی عبادت کرو!\"",
+        "translation_quote": "بادشاہِ بادشاہوں کے عظیم بادشاہ کی عبادت کرو!"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

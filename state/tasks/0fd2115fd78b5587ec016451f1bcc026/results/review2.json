@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "21158bb9-0a9d-4215-912f-1e108aa73b9c",
+    "response_id": "chatcmpl-EUL8efyVVzDHKo1Gmd8uk5jCyeaDy",
+    "usage": {
+      "completion_tokens": 1072,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7002,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8074
+    }
+  },
+  "received_at": "2026-10-02T00:12:01+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph that begins \"When the Christian does something supernatural, something the humanist or atheist cannot do, then we have something that will confound the wise.\" (around the Colossians 1:16 paragraph)",
+        "severity": "major",
+        "source_quote": "\"When the Christian does something supernatural, something the humanist or atheist cannot do, then we have something that will confound the wise.\"",
+        "suggested_fix": "Translate or correct the word for \"atheist\". Replace the mistranslation \"ناشتہ پسند\" with the correct Urdu term for \"atheist\" (e.g., \"ملحد\") so the sentence reads preserving the original meaning. Keep surrounding HTML and punctuation intact.",
+        "translation_quote": "\"... جو ہیومنسٹ یا ناشتہ پسند نہیں کر سکتا ...\""
+      },
+      {
+        "location": "First paragraphs referencing the greenhouse (occurrences: opening anecdote and later comparisons)",
+        "severity": "minor",
+        "source_quote": "\"greenhouse\" (\"My brother was working in the greenhouse...\")",
+        "suggested_fix": "Use a standard Urdu rendering for \"greenhouse.\" Replace \"گراس ہاؤس\" with a conventional term such as \"گرین ہاؤس\" (Urdu loanword) or the fully Urdu \"شیشہ خانہ\" depending on site style. Preserve HTML tags and attributes.",
+        "translation_quote": "\"گراس ہاؤس\""
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

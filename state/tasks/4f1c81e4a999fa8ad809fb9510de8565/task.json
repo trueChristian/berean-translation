@@ -2,7 +2,6 @@
   "article_id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "238a4eb4db2b4edcb610587dca60c1f5",
   "campaign": "gh-36909750062",
   "created_at": "2026-10-01T18:51:43+00:00",
   "events": [
@@ -62,24 +61,45 @@
         },
         "total_tokens": 15587
       }
-    }
-  ],
-  "findings": [
-    {
-      "location": "<p>…اعمال 6:6 میں، وہ بظاہر طویل عمر کو کم اہمیت دیتا ہے۔ “Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?”</p>",
-      "severity": "critical",
-      "source_quote": "\"In Ecclesiastes 6:6, he seems to disparage long life. “Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?”\"",
-      "suggested_fix": "Replace the incorrect book name in the translation with the correct Urdu rendering of 'Ecclesiastes' and keep the quoted English verse exactly as in the source. For example: \"<p>واعظ 6:6 میں، وہ بظاہر طویل عمر کو کم اہمیت دیتا ہے۔ “Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?”</p>\" Preserve the existing HTML tags and punctuation exactly as in the translation except for the book name change.",
-      "translation_quote": "“اعمال 6:6 میں، وہ بظاہر طویل عمر کو کم اہمیت دیتا ہے۔ “Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?””"
     },
     {
-      "location": "<title>…\"سنجیدگی سے نمٹنا\"</title>\n\n<h2>سنجیدگی</h2>",
-      "severity": "minor",
-      "source_quote": "\"Dealing with Cynicism\"; section heading: \"Cynicism\"",
-      "suggested_fix": "The translation consistently uses the Urdu word 'سنجیدگی' which commonly reads as 'seriousness' rather than the intended English meaning 'cynicism' or 'cynical attitude.' Consider using a more accurate Urdu term for 'cynicism' in both the title and the H2 heading. Suggested replacements (choose one consistent option):\n- Title: \"بدگمانی سے نمٹنا\" and H2: \"بدگمانی\" or\n- Title: \"نفسِ بدگمانی سے نمٹنا\" and H2: \"بدگمانی (Cynicism)\"\nApply the chosen term in both the <title> element and the corresponding <h2> to preserve consistency. Keep all HTML structure and other text unchanged.",
-      "translation_quote": "\"سنجیدگی سے نمٹنا\"; \"سنجیدگی\""
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1154,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9501,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10655
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "findings": [
+    {
+      "location": "<p>“At the rate at which you are drinking, you will kill yourself within a year – maybe two at best – if you don’t give up alcohol entirely,” I told her. “If you want to, I will try to find you an inpatient program to detox you and get you off of alcohol.”</p>",
+      "severity": "major",
+      "source_quote": "“At the rate at which you are drinking, you will kill yourself within a year – maybe two at best – if you don’t give up alcohol entirely,” I told her.",
+      "suggested_fix": "Replace the translated phrase that explicitly says 'خودکشی' with wording that preserves the original English sense of 'you will kill yourself' as used idiomatically to mean 'you will die (from drinking)' rather than necessarily implying intentional suicide. For example: “اس رفتار سے پینے پر تم ایک سال کے اندر—شاید بہترین حالت میں دو سال کے اندر—اپنی جان کھو دؤ گی، اگر تم پوری طرح شراب ترک نہ کرو گی۔” (preserve HTML tags and surrounding punctuation exactly).",
+      "translation_quote": "“اس رفتار سے پینے پر تم ایک سال کے اندر—شاید بہترین حالت میں دو سال کے اندر—خودکشی کر لو گی، اگر تم پوری طرح شراب ترک نہ کرو گی،” میں نے اسے بتایا۔"
+    },
+    {
+      "location": "Throughout article (example: paragraph comparing human change to a chipmunk mastering calculus)",
+      "severity": "minor",
+      "source_quote": "It seems there is little point of investing ourselves in the people around us. They are full of woe and are as likely to change as a chipmunk is to master differential calculus.",
+      "suggested_fix": "The translation uses a phonetic transliteration “چپس منک” which is understandable but nonstandard in Urdu. Consider using a standard Urdu rendering or a widely-recognized transliteration like “چِپمنک” or paraphrase to an idiomatic Urdu expression (e.g., “اتنا ہی امکان ہے جتنا ایک چِپمنک کے لیے تفریقِی حساب میں مہارت حاصل کرنا”) while preserving meaning and HTML context.",
+      "translation_quote": "“وہ دکھ سے بھرے ہیں اور ان کے بدلنے کا امکان اتنا ہی کم ہے جتنا ایک چپس منک کا تفریقِی کیلکولس میں ماہر بننے کا۔”"
+    }
+  ],
+  "finished_at": "2026-10-02T00:12:01+00:00",
   "id": "4f1c81e4a999fa8ad809fb9510de8565",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "urd",
@@ -123,13 +143,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 80,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3451f84582c4785f9b0f645d0fa02d45fddc1b092b1b316a6c04206ec4c9dba9.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -5423,6 +5423,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
+      "html_sha256": "5fbe0975dd276d37835238f32cfc90a83e96b6a214f006d9707861d526105a7d",
+      "human_reviewed": false,
+      "id": "1c75dce8-1781-427f-8099-01596d53c2a4",
+      "images": [
+        {
+          "alt": "ایک سبز مرغزار میں کھڑا ایک چھوٹا بھورا پرندہ",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-1.jpg"
+        },
+        {
+          "alt": "سبز پس منظر کے سامنے ایک کٹے ہوئے شاخ پر بیٹھا نیلا اور سفید پرندہ",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/1c75dce8-1781-427f-8099-01596d53c2a4.json",
+      "metadata_sha256": "a039212435c93ca5761eac123cb5b301ef465108ce3ab844c7381b83f382b554",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "نمایاں مضمون",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
+      "status": "ready",
+      "subtitle": "اور میرے اردگرد فلک کی موسیقی گونجتی ہے۔",
+      "title": "تمام فطرت گاتی ہے",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
       "html_sha256": "8083b34ce5253c0cce93a8974dda978819eff5a15db0834b1935e09c4474c2e3",
       "human_reviewed": false,
@@ -5511,6 +5543,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.html",
+      "html_sha256": "ed34304a88739c2713842178b23c672b2fa030313371b44940c1a734e98e98d7",
+      "human_reviewed": false,
+      "id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
+      "images": [
+        {
+          "alt": "ایک اسپائرل نوٹ بک اور پنسل کے پاس کافی کا کپ۔",
+          "public_path": "/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.json",
+      "metadata_sha256": "65eff85240b775c746c7e258d22fcb0966babad43d777ce80831d9a33b039288",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "بہن بہن کے درمیان",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ٹال مٹول کا بوجھ",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
       "html_sha256": "9404cee4953b422cf9289efbf409895c8afbc22a1c18845fc960aa7d17058fea",
       "human_reviewed": false,
@@ -5562,6 +5622,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "ایک بگاڑے ہوئے معاشرے میں اخلاقی طور پر پاک",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.html",
+      "html_sha256": "d2a48419ce13adfabe0e43066f3e9d39ed1395e6c39504013c7732e57938276d",
+      "human_reviewed": false,
+      "id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
+      "images": [
+        {
+          "alt": "غروب آفتاب کے حسین منظر کے دوران خاموش پانی کے کنارے ایک چھوٹی کشتی",
+          "public_path": "/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.json",
+      "metadata_sha256": "e979a82e62158e65ff0a6c31f3803f13c4dbea783f9826c3d83492887cb09f8a",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "نظم",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "اُٹھو، خوش ہو جاؤ",
       "translation_model": "gpt-5-mini-2025-08-07"
     }
   ],

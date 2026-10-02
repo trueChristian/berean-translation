@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3cc50fdc-0b3b-4069-ae3b-557d2d473c7e",
+    "response_id": "chatcmpl-EUL8ydZJyxeWIimZrqvb6GjC1Euyq",
+    "usage": {
+      "completion_tokens": 1154,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9501,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10655
+    }
+  },
+  "received_at": "2026-10-02T00:12:01+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>“At the rate at which you are drinking, you will kill yourself within a year – maybe two at best – if you don’t give up alcohol entirely,” I told her. “If you want to, I will try to find you an inpatient program to detox you and get you off of alcohol.”</p>",
+        "severity": "major",
+        "source_quote": "“At the rate at which you are drinking, you will kill yourself within a year – maybe two at best – if you don’t give up alcohol entirely,” I told her.",
+        "suggested_fix": "Replace the translated phrase that explicitly says 'خودکشی' with wording that preserves the original English sense of 'you will kill yourself' as used idiomatically to mean 'you will die (from drinking)' rather than necessarily implying intentional suicide. For example: “اس رفتار سے پینے پر تم ایک سال کے اندر—شاید بہترین حالت میں دو سال کے اندر—اپنی جان کھو دؤ گی، اگر تم پوری طرح شراب ترک نہ کرو گی۔” (preserve HTML tags and surrounding punctuation exactly).",
+        "translation_quote": "“اس رفتار سے پینے پر تم ایک سال کے اندر—شاید بہترین حالت میں دو سال کے اندر—خودکشی کر لو گی، اگر تم پوری طرح شراب ترک نہ کرو گی،” میں نے اسے بتایا۔"
+      },
+      {
+        "location": "Throughout article (example: paragraph comparing human change to a chipmunk mastering calculus)",
+        "severity": "minor",
+        "source_quote": "It seems there is little point of investing ourselves in the people around us. They are full of woe and are as likely to change as a chipmunk is to master differential calculus.",
+        "suggested_fix": "The translation uses a phonetic transliteration “چپس منک” which is understandable but nonstandard in Urdu. Consider using a standard Urdu rendering or a widely-recognized transliteration like “چِپمنک” or paraphrase to an idiomatic Urdu expression (e.g., “اتنا ہی امکان ہے جتنا ایک چِپمنک کے لیے تفریقِی حساب میں مہارت حاصل کرنا”) while preserving meaning and HTML context.",
+        "translation_quote": "“وہ دکھ سے بھرے ہیں اور ان کے بدلنے کا امکان اتنا ہی کم ہے جتنا ایک چپس منک کا تفریقِی کیلکولس میں ماہر بننے کا۔”"
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

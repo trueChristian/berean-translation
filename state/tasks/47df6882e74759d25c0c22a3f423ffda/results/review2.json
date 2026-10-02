@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9446f188-df9a-4689-a7d8-f2e70b711429",
+    "response_id": "chatcmpl-EUL7ZkRum1atBWpSVYgmcnvNRN7Lj",
+    "usage": {
+      "completion_tokens": 1184,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6868,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8052
+    }
+  },
+  "received_at": "2026-10-02T00:12:01+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 4 (sentence with idiom)",
+        "severity": "minor",
+        "source_quote": "The expression “happy as a lark” is so common a term that it is used by people who have never even ventured to the meadow to see or hear a lark.",
+        "suggested_fix": "Use a standard Urdu rendering for 'lark' (e.g., 'لارک' or 'لارک پرندہ') instead of 'لکڑیا', which commonly denotes a different bird in Urdu. Preserve the idiom: «محاورہ 'happy as a lark' کو اردو میں 'لارک کی طرح خوش' یا 'لارک کی طرح مسرور' لکھیں.»",
+        "translation_quote": "اظہارِ “خوش جیسے لکڑیا” اتنا عام محاورہ ہے کہ اسے وہ لوگ بھی استعمال کرتے ہیں جنہوں نے کبھی میدان میں جا کر لکڑیا کو دیکھا یا سنا ہی نہیں۔"
+      },
+      {
+        "location": "Multiple paragraphs (bird species names)",
+        "severity": "minor",
+        "source_quote": "song sparrow; rose-breasted grosbeak; wren; canary; nightingale; robins; buntings; killdeer; cowbird",
+        "suggested_fix": "Ensure consistent treatment of English bird common names. Either transliterate all consistently into Urdu script (e.g., 'سانگ سپیرو', 'روز-بریسٹیڈ گروس بیک', 'رین/ورن' etc.) or provide widely-recognized Urdu common names where available. Current translation mixes untranslated English names in quotes and varied transliterations (e.g., 'song sparrow' left in English, 'wren' as 'رین', 'robins' as 'روبن'). Make the choice consistent throughout the article without altering theological meaning.",
+        "translation_quote": "'song sparrow' (سنگ اسپراو) اور پھر 'rose-breasted grosbeak' (روز بریسٹیڈ گروس بیک) ... 'wren' (رین) ... 'canary' ... 'nightingale' ... 'robins' ... 'buntings' ... 'killdeer' ... 'cowbird' (گائے کا پرندہ بھی سیاہ ہوتا ہے)"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

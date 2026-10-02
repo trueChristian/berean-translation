@@ -2,7 +2,6 @@
   "article_id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "238a4eb4db2b4edcb610587dca60c1f5",
   "campaign": "gh-36909750062",
   "created_at": "2026-10-01T18:51:43+00:00",
   "events": [
@@ -62,31 +61,29 @@
         },
         "total_tokens": 5267
       }
-    }
-  ],
-  "findings": [
-    {
-      "location": "<article> <h2>Change the Last-Minute Scenario</h2> <p>…</p> (paragraph containing the sentence about planning for a bee sting and a stubbed toe)",
-      "severity": "major",
-      "source_quote": "So, isn’t it better to “plan” for a bee sting and a stubbed toe?",
-      "suggested_fix": "Replace the mistranslated phrase with an accurate Urdu rendering of \"bee sting\": e.g., change “ایک مکھن کھانے یا انگلی چوٹ لگنے کے لیے “منصوبہ” بنائیں؟” to “مکھی کے ڈنک یا انگلی کو ٹھوکر لگنے کے لیے \"منصوبہ\" بنائیں؟” or more naturally “مکھی کے ڈنک یا انگلی چوٹ لگنے کے لیے ‘منصوبہ’ بنائیں؟” Preserve surrounding punctuation and HTML tags.",
-      "translation_quote": "تو کیا بہتر نہیں کہ ہم ایک مکھن کھانے یا انگلی چوٹ لگنے کے لیے “منصوبہ” بنائیں؟"
     },
     {
-      "location": "<article> <p>Deadlines are a normal part of life. ...</p>",
-      "severity": "minor",
-      "source_quote": "Deadlines are a normal part of life.",
-      "suggested_fix": "The translation uses \"معمولی حصہ\" which reads as \"a trivial part\" rather than \"a normal/ordinary part.\" Change “ڈیڈ لائنز زندگی کا معمولی حصہ ہیں۔” to “ڈیڈ لائنز زندگی کا معمول حصہ ہیں۔” (or “زندگی کا ایک معمولی حصہ” is ambiguous; prefer “معمول حصہ”). Preserve HTML tags and sentence boundaries.",
-      "translation_quote": "ڈیڈ لائنز زندگی کا معمولی حصہ ہیں۔"
-    },
-    {
-      "location": "<article> <h2>Break work into smaller bits</h2> <p>But if my planner says, “clean appliances, wipe out cupboards, and wash windows,” it seems more doable.</p>",
-      "severity": "minor",
-      "source_quote": "clean appliances",
-      "suggested_fix": "The translation uses “الیکٹرانکس صاف کریں” (electronics). A more accurate and idiomatic rendering is “برقی آلات صاف کریں” or simply “برتن/آلات صاف کریں” depending on intended meaning (kitchen appliances). Suggest replacing “الیکٹرانکس صاف کریں” with “برقی آلات صاف کریں” or “آلات صاف کریں”. Preserve HTML and commas.",
-      "translation_quote": "“الیکٹرانکس صاف کریں، الماریوں کو پونچھیں، اور کھڑکیاں دھویں,”"
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 346,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 320,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2982,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3328
+      }
     }
   ],
+  "findings": [],
+  "finished_at": "2026-10-02T00:12:01+00:00",
   "id": "fd2c04456fe832f74d5ec67f1ff33de2",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "urd",
@@ -130,13 +127,13 @@
     }
   },
   "protected": false,
-  "quality_score": 85,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5fd263b236cc5e1da73816f24d29564842c820fa1abbcc53a271dfa0bf31493f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
