@@ -2,7 +2,7 @@
 
 Generated from the pinned source catalogue and durable work records. No API call is made by this report.
 
-Observed English revision: `b84d1a64b063e0cb31472e81323b4fa7335c65d2`
+Observed English revision: `c420d39b6e323f1706b11781213f77488f2c8b8b`
 
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
@@ -87,31 +87,35 @@ Observed English revision: `b84d1a64b063e0cb31472e81323b4fa7335c65d2`
 | `heartbeat-remnant-2004-01` | 11 | 0 / 220 | 0 | 0 | 0 |
 | `heartbeat-remnant-2003-11` | 10 | 0 / 200 | 0 | 0 | 0 |
 | `heartbeat-remnant-2003-09` | 11 | 0 / 220 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-07` | 10 | 0 / 200 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-05` | 10 | 0 / 200 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-03` | 12 | 0 / 240 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-01` | 11 | 0 / 220 | 0 | 0 | 0 |
 
 ## Language readiness
 
 | Language | Ready / source articles | Human reviewed | Active candidates | Not-ready candidates | Corrected candidates |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 43 / 928 | 0 | 0 | 54 | 71 |
-| `hin` (hi) | 50 / 928 | 0 | 0 | 47 | 75 |
-| `spa` (es) | 78 / 928 | 0 | 0 | 19 | 49 |
-| `ara` (ar) | 41 / 928 | 0 | 0 | 56 | 77 |
-| `fra` (fr) | 75 / 928 | 0 | 0 | 22 | 51 |
-| `ben` (bn) | 40 / 928 | 0 | 0 | 57 | 89 |
-| `por` (pt) | 77 / 928 | 0 | 0 | 20 | 55 |
-| `ind` (id) | 72 / 928 | 0 | 0 | 25 | 61 |
-| `urd` (ur) | 53 / 928 | 0 | 0 | 44 | 74 |
-| `rus` (ru) | 56 / 928 | 0 | 0 | 41 | 70 |
-| `deu` (de) | 43 / 928 | 0 | 0 | 54 | 78 |
-| `nld` (nl) | 72 / 928 | 0 | 0 | 25 | 58 |
-| `afr` (af) | 57 / 928 | 0 | 0 | 40 | 69 |
-| `swa` (sw) | 24 / 928 | 0 | 0 | 73 | 91 |
-| `kor` (ko) | 56 / 928 | 0 | 0 | 41 | 66 |
-| `ita` (it) | 76 / 928 | 0 | 0 | 21 | 52 |
-| `heb` (he) | 12 / 928 | 0 | 0 | 85 | 93 |
-| `ell` (el) | 48 / 928 | 0 | 0 | 49 | 78 |
-| `swe` (sv) | 61 / 928 | 0 | 0 | 36 | 67 |
-| `nob` (nb) | 65 / 928 | 0 | 0 | 32 | 68 |
+| `cmn` (zh-Hans) | 43 / 971 | 0 | 0 | 54 | 71 |
+| `hin` (hi) | 50 / 971 | 0 | 0 | 47 | 75 |
+| `spa` (es) | 78 / 971 | 0 | 0 | 19 | 49 |
+| `ara` (ar) | 41 / 971 | 0 | 0 | 56 | 77 |
+| `fra` (fr) | 75 / 971 | 0 | 0 | 22 | 51 |
+| `ben` (bn) | 40 / 971 | 0 | 0 | 57 | 89 |
+| `por` (pt) | 77 / 971 | 0 | 0 | 20 | 55 |
+| `ind` (id) | 72 / 971 | 0 | 0 | 25 | 61 |
+| `urd` (ur) | 53 / 971 | 0 | 0 | 44 | 74 |
+| `rus` (ru) | 56 / 971 | 0 | 0 | 41 | 70 |
+| `deu` (de) | 43 / 971 | 0 | 0 | 54 | 78 |
+| `nld` (nl) | 72 / 971 | 0 | 0 | 25 | 58 |
+| `afr` (af) | 57 / 971 | 0 | 0 | 40 | 69 |
+| `swa` (sw) | 24 / 971 | 0 | 0 | 73 | 91 |
+| `kor` (ko) | 56 / 971 | 0 | 0 | 41 | 66 |
+| `ita` (it) | 76 / 971 | 0 | 0 | 21 | 52 |
+| `heb` (he) | 12 / 971 | 0 | 0 | 85 | 93 |
+| `ell` (el) | 48 / 971 | 0 | 0 | 49 | 78 |
+| `swe` (sv) | 61 / 971 | 0 | 0 | 36 | 67 |
+| `nob` (nb) | 65 / 971 | 0 | 0 | 32 | 68 |
 
 ## Issue / language work
 
