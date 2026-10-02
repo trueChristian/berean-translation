@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "30999cf2-c1d0-4705-86c1-ec1a13c6e521",
+    "response_id": "chatcmpl-EUIFasPOmUG97TfLAvTfviitTNkkb",
+    "usage": {
+      "completion_tokens": 739,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2729,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3468
+    }
+  },
+  "received_at": "2026-10-02T00:07:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "Procrastination Overload",
+        "suggested_fix": "Replace translation title with a more idiomatic German compound or phrasing. For example: \"Prokrastination-Überlastung\" or better \"Zu viel Prokrastination\". Preserve the title field only.",
+        "translation_quote": "Prokrastination Überlastung"
+      },
+      {
+        "location": "source.html > p (second paragraph)",
+        "severity": "minor",
+        "source_quote": "Habitual procrastination potentially leads to higher levels of stress.",
+        "suggested_fix": "Use a more idiomatic German rendering for \"higher levels of stress\". For example replace \"Gewohnheitsmäßiges Aufschieben führt möglicherweise zu höheren Stresswerten.\" with \"Gewohnheitsmäßiges Aufschieben führt möglicherweise zu erhöhtem Stress.\" or \"...zu einem höheren Stressniveau.\" Preserve the paragraph tag and its surrounding HTML.",
+        "translation_quote": "Gewohnheitsmäßiges Aufschieben führt möglicherweise zu höheren Stresswerten."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

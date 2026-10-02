@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3cd67672-3967-4ce1-80b2-86d8147505e2",
+    "response_id": "chatcmpl-EUIFL1Vd81VRme7FVRM6XIJuMGDZK",
+    "usage": {
+      "completion_tokens": 1217,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6543,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7760
+    }
+  },
+  "received_at": "2026-10-02T00:07:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 2 (dialogue)",
+        "severity": "minor",
+        "source_quote": "“Some plant, some water, but God gives the increase.”",
+        "suggested_fix": "Render the idiomatic English clearly in German while preserving the author’s meaning. Replace “Einige pflanzen, einige gießen, aber Gott gibt das Wachstum.” with a clearer equivalent such as: „Der eine pflanzt, der andere gießt; aber Gott gibt das Wachsen.“ (keep within the same <p> tag and do not alter other HTML).",
+        "translation_quote": "„Einige pflanzen, einige gießen, aber Gott gibt das Wachstum.“"
+      },
+      {
+        "location": "Paragraph defining humanism (word choice)",
+        "severity": "minor",
+        "source_quote": "Humanist beliefs stress the potential value and goodness of human beings, emphasize common human needs, and seek solely rational ways of solving human problems.",
+        "suggested_fix": "Minor orthographic/word-choice improvement: change “potentiellen” to the more common German spelling “potenziellen” to improve idiomatic clarity: “Humanistische Überzeugungen betonen den potenziellen Wert und die Güte des Menschen” → “betonen den potenziellen Wert und die Güte des Menschen.” Preserve tag structure.",
+        "translation_quote": "\"Humanistische Überzeugungen betonen den potentiellen Wert und die Güte des Menschen, heben gemeinsame menschliche Bedürfnisse hervor und suchen ausschließlich rationale Wege zur Lösung menschlicher Probleme.\""
+      },
+      {
+        "location": "Paragraph quoting John 15:18",
+        "severity": "minor",
+        "source_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”",
+        "suggested_fix": "Remove the stray backslash and ensure closing quotation mark is correct. Replace the paragraph's end from\n… „Wenn die Welt euch hasst, so wisset, dass sie mich vor euch gehasst hat. (Johannes 15:18)\" \nto\n… „Wenn die Welt euch hasst, so wisset, dass sie mich vor euch gehasst hat. (Johannes 15:18)“\n(Keep the paragraph entirely unchanged except for the corrected closing quote character and removal of the backslash.)",
+        "translation_quote": "„Wenn die Welt euch hasst, so wisset, dass sie mich vor euch gehasst hat. (Johannes 15:18)\\\""
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

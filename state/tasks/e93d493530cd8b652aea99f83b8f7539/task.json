@@ -2,7 +2,6 @@
   "article_id": "db7b1129-282d-4f48-aefa-f839cb585426",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "87ff455544594a06a280e6f51dd71416",
   "campaign": "gh-36909855802",
   "created_at": "2026-10-01T18:52:56+00:00",
   "events": [
@@ -62,45 +61,51 @@
         },
         "total_tokens": 11429
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1217,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6543,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7760
+      }
     }
   ],
   "findings": [
     {
-      "location": "source.html — paragraph containing Romans 1:18-32 (long quoted block)",
-      "severity": "critical",
-      "source_quote": "“For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness; Because that which may be known of God is manifest in them; for God hath shewed it unto them. For the invisible things of him from the creation of the world are clearly seen, being understood by the things that are made, even his eternal power and Godhead; so that they are without excuse: Because that, when they knew God, they glorified him not as God, neither were thankful; but became vain in their imaginations, and their foolish heart was darkened. Professing themselves to be wise, they became fools, And changed the glory of the uncorruptible God into an image made like to corruptible man, and to birds, and fourfooted beasts, and creeping things. Wherefore God also gave them up to uncleanness through the lusts of their own hearts, to dishonour their own bodies between themselves: Who changed the truth of God into a lie, and worshipped and served the creature more than the Creator, who is blessed for ever. Amen. For this cause God gave them up unto vile affections: for even their women did change the natural use into that which is against nature: And likewise also the men, leaving the natural use of the woman, burned in their lust one toward another; men with men working that which is unseemly, and receiving in themselves that recompence of their error which was meet. And even as they did not like to retain God in their knowledge, God gave them over to a reprobate mind, to do those things which are not convenient; Being filled with all unrighteousness, fornication, wickedness, covetousness, maliciousness; full of envy, murder, debate, deceit, malignity; whisperers, Backbiters, haters of God, despiteful, proud, boasters, inventors of evil things, disobedient to parents, Without understanding, covenantbreakers, without natural affection, implacable, unmerciful: Who knowing the judgment of God, that they which commit such things are worthy of death, not only do the same, but have pleasure in them that do them” (Romans 1:18-32).",
-      "suggested_fix": "The long Scripture quotation from Romans 1:18-32 in the English source is left in English in the German translation. This is a substantive untranslated passage and must be rendered so that the printed English wording is conveyed in the target-language article. Replace the English block with a faithful German rendering that accurately conveys the exact clauses and theological assertions of the English source (preserve sentence structure and meaning as in the source). For example, render the entire quoted block into German sentence-for-sentence, matching the source's scope and theological content, or place an accurate German translation immediately followed by the original English in parentheses if style requires. Do not substitute a different Bible version than the printed English text—ensure the German wording corresponds to the English clauses quoted in the source.",
-      "translation_quote": "In the translation the entire Romans passage remains in English verbatim and is not translated."
+      "location": "Paragraph 2 (dialogue)",
+      "severity": "minor",
+      "source_quote": "“Some plant, some water, but God gives the increase.”",
+      "suggested_fix": "Render the idiomatic English clearly in German while preserving the author’s meaning. Replace “Einige pflanzen, einige gießen, aber Gott gibt das Wachstum.” with a clearer equivalent such as: „Der eine pflanzt, der andere gießt; aber Gott gibt das Wachsen.“ (keep within the same <p> tag and do not alter other HTML).",
+      "translation_quote": "„Einige pflanzen, einige gießen, aber Gott gibt das Wachstum.“"
     },
     {
-      "location": "source.html — paragraph quoting Colossians 1:16",
-      "severity": "critical",
-      "source_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (Colossians 1:16).",
-      "suggested_fix": "The Colossians 1:16 quotation is left in English in the German article. This is a substantive scriptural quotation that must be conveyed in the translation. Replace the English verse with a German rendering that faithfully conveys the printed English wording and theological claims of the source verse (or include the German rendering immediately accompanied by the original English in parentheses). Avoid substituting a different English wording or an alternative Bible version; the translation must reflect the source's printed English content.",
-      "translation_quote": "The Colossians 1:16 verse appears in the translation still in English: “For by him were all things created… for him” (Colossians 1:16)."
+      "location": "Paragraph defining humanism (word choice)",
+      "severity": "minor",
+      "source_quote": "Humanist beliefs stress the potential value and goodness of human beings, emphasize common human needs, and seek solely rational ways of solving human problems.",
+      "suggested_fix": "Minor orthographic/word-choice improvement: change “potentiellen” to the more common German spelling “potenziellen” to improve idiomatic clarity: “Humanistische Überzeugungen betonen den potenziellen Wert und die Güte des Menschen” → “betonen den potenziellen Wert und die Güte des Menschen.” Preserve tag structure.",
+      "translation_quote": "\"Humanistische Überzeugungen betonen den potentiellen Wert und die Güte des Menschen, heben gemeinsame menschliche Bedürfnisse hervor und suchen ausschließlich rationale Wege zur Lösung menschlicher Probleme.\""
     },
     {
-      "location": "source.html — paragraph quoting John 15:18",
-      "severity": "major",
+      "location": "Paragraph quoting John 15:18",
+      "severity": "minor",
       "source_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”",
-      "suggested_fix": "The John 15:18 quotation remains in English in the German translation. Scriptural quotations should be rendered so the printed English in the source is conveyed in the target-language article. Translate this verse into German in a way that preserves the wording and theological emphasis of the English source, or include the German rendering immediately followed by the original English in parentheses. Ensure punctuation and verse reference remain intact.",
-      "translation_quote": "In the German translation the John 15:18 quotation is left in English: “If the world hate you, ye know that it hated me before it hated you. (John 15:18)”."
-    },
-    {
-      "location": "source.section and source.html — section heading",
-      "severity": "minor",
-      "source_quote": "MUSINGS OF A MISSIONARY",
-      "suggested_fix": "The English section header \"MUSINGS OF A MISSIONARY\" is translated as \"GEISTLICHE ERINNERUNGEN EINES MISSIONARS.\" This rendering shifts nuance: \"musings\" is closer to \"Gedanken\", \"Reflexionen\" or \"Betrachtungen\"; \"Geistliche Erinnerungen\" reads as \"spiritual memories/recollections,\" which changes tone. Suggest revising to a more literal and idiomatic German section heading such as \"Gedanken eines Missionars\" or \"Betrachtungen eines Missionars\" to better match the source meaning while using contemporary German.",
-      "translation_quote": "Translated section heading appears as: \"GEISTLICHE ERINNERUNGEN EINES MISSIONARS\"."
-    },
-    {
-      "location": "source.html — greenhouse anecdote quote: “Some plant, some water, but God gives the increase.”",
-      "severity": "minor",
-      "source_quote": "Some plant, some water, but God gives the increase.",
-      "suggested_fix": "The translation renders the line as “Einige Pflanze, etwas Wasser, aber Gott gibt den Zuwachs.” This is awkward and not idiomatic German. Suggest a clearer, faithful rendering that preserves the source meaning and rhythm, e.g. \"Man pflanzt, man gießt, aber Gott gibt das Wachstum.\" or \"Einige pflanzen, einige gießen, aber Gott gibt das Wachstum.\" Replace the current sentence with one of these idiomatic alternatives while preserving the original's theological meaning.",
-      "translation_quote": "The translation currently has: “Einige Pflanze, etwas Wasser, aber Gott gibt den Zuwachs.”"
+      "suggested_fix": "Remove the stray backslash and ensure closing quotation mark is correct. Replace the paragraph's end from\n… „Wenn die Welt euch hasst, so wisset, dass sie mich vor euch gehasst hat. (Johannes 15:18)\" \nto\n… „Wenn die Welt euch hasst, so wisset, dass sie mich vor euch gehasst hat. (Johannes 15:18)“\n(Keep the paragraph entirely unchanged except for the corrected closing quote character and removal of the backslash.)",
+      "translation_quote": "„Wenn die Welt euch hasst, so wisset, dass sie mich vor euch gehasst hat. (Johannes 15:18)\\\""
     }
   ],
+  "finished_at": "2026-10-02T00:07:41+00:00",
   "id": "e93d493530cd8b652aea99f83b8f7539",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "deu",
@@ -144,13 +149,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a072a36e6aede6bd6978f7ac04698cebcbcce9571999d9176c58a465e0428962.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

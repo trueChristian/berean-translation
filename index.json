@@ -1011,6 +1011,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
+      "html_sha256": "72a875c4c895894ef5360a59f527d328af559f6f58408e4f4e40f6f44e3554a6",
+      "human_reviewed": false,
+      "id": "1c75dce8-1781-427f-8099-01596d53c2a4",
+      "images": [
+        {
+          "alt": "Ein kleiner brauner Vogel steht auf einer grünen Wiese",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-1.jpg"
+        },
+        {
+          "alt": "Ein blau-weißer Vogel sitzt auf einem abgeschnittenen Ast vor grünem Hintergrund",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/1c75dce8-1781-427f-8099-01596d53c2a4.json",
+      "metadata_sha256": "54e1c32aa3e7f7306c06d2b20542bb6ed6ad1b5020fcd8b49aef6dae49d1ddac",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "AUSGEWÄHLTER ARTIKEL",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
+      "status": "ready",
+      "subtitle": "und um mich schwingt die Musik der Sphären.",
+      "title": "ALLE NATUR SINGT",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.html",
       "html_sha256": "d33b3bd955a5e93652f8125467ac6403c2557b84d32d21d58a7c4cc129d582bb",
       "human_reviewed": false,
@@ -1187,6 +1219,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.html",
+      "html_sha256": "723294fc5b3c2e52a000f88b6f9d8460dd71b2f08ff5b5cd40026385bbffc52a",
+      "human_reviewed": false,
+      "id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
+      "images": [
+        {
+          "alt": "Eine Tasse Kaffee neben einem Spiralnotizbuch und einem Bleistift.",
+          "public_path": "/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.json",
+      "metadata_sha256": "18bd6e5f0d93a99ec75e096ff27b636edf602c034a94c1b6371ae22af6b7b1dc",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SISTER TO SISTER",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Prokrastination Überlastung",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
       "html_sha256": "6d79f479b23062be46f54c1d951569a3d16373c06c26ebf532797a4bdb6f986f",
       "human_reviewed": false,
@@ -1238,6 +1298,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Der Ruhm des Frühlings",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
+      "html_sha256": "4a58a5b0cc60386bcb56ffa96befa69d2842c3dcc5e44f5de127cd3bed000ae4",
+      "human_reviewed": false,
+      "id": "db7b1129-282d-4f48-aefa-f839cb585426",
+      "images": [
+        {
+          "alt": "Eine Abfolge von Setzlingen, die aus dem Boden hervorkommen, während eine Hand sie gießt",
+          "public_path": "/images/articles/db7b1129-282d-4f48-aefa-f839cb585426-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/db7b1129-282d-4f48-aefa-f839cb585426.json",
+      "metadata_sha256": "bc2b6c2a6d3a5405aad45a79230c9eb93d9edf1a360352560032c9587c4df0ac",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Betrachtungen eines Missionars",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Der christliche Humanist",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {

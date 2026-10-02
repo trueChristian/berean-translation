@@ -2,7 +2,6 @@
   "article_id": "1c75dce8-1781-427f-8099-01596d53c2a4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "87ff455544594a06a280e6f51dd71416",
   "campaign": "gh-36909855802",
   "created_at": "2026-10-01T18:52:56+00:00",
   "events": [
@@ -62,24 +61,51 @@
         },
         "total_tokens": 10331
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1951,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1152,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6477,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8428
+      }
     }
   ],
   "findings": [
     {
-      "location": "source.html — first paragraph (lead)",
-      "severity": "critical",
-      "source_quote": "Our Father’s world is a world unspoiled by human invention and intervention.",
-      "suggested_fix": "Translate the phrase without altering theological attribution. Replace the German sentence that begins the lead paragraph with a rendering that preserves 'Our Father' (i.e. God the Father). Example fix (preserve surrounding tags): <p class=\"lead\"><span class=\"drop-cap\">O</span>Die Welt unseres Vaters ist eine Welt, die von menschlicher Erfindung und Eingriffe unverdorben geblieben ist.</p> (Or: <p class=\"lead\"><span class=\"drop-cap\">O</span>Die Welt unseres Vaters ist eine Welt, die durch menschliche Erfindungen und Eingriffe nicht verdorben ist.</p>)",
-      "translation_quote": "Unsere himmlische Welt ist eine Welt, die von menschlicher Erfindung und Intervention unverdorben geblieben ist."
+      "location": "<p class=\"lead\"> (Anfang des Artikels)",
+      "severity": "minor",
+      "source_quote": "<span class=\"drop-cap\">O</span>ur Father’s world is a world unspoiled by human invention and intervention.",
+      "suggested_fix": "Füge ein Leerzeichen nach dem Drop‑Cap ein, so dass der deutsche Text korrekt lesbar ist. Beispiel: <span class=\"drop-cap\">O</span> Die Welt unseres Vaters ist eine Welt, ... (oder alternativ das Drop‑Cap auf das erste Buchstabenwort anwenden: <span class=\"drop-cap\">D</span>ie Welt unseres Vaters ...). Bewahre dabei das bestehende <span class=\"drop-cap\">-</span>-Tag unverändert.",
+      "translation_quote": "<span class=\"drop-cap\">O</span>Die Welt unseres Vaters ist eine Welt, die durch menschliche Erfindungen und Eingriffe nicht verdorben ist."
     },
     {
-      "location": "source.html — paragraph about the canary (Undankbarkeit paragraph)",
+      "location": "Absatz, Listing verschiedener Vogelarten (etwa: \"The robin opens up the choir ... the song sparrow ... rose-breasted grosbeak\")",
       "severity": "minor",
-      "source_quote": "If the canary were to refuse to sing in captivity, few of us would ever have heard his rollicking melody.",
-      "suggested_fix": "Correct German grammar and agreement while preserving sense. Replace the clause in-place, preserving tags. Example: “Würde der Kanarienvogel sich im Käfig weigern zu singen, hätten nur wenige von uns jemals seine ausgelassene Melodie gehört.”",
-      "translation_quote": "Würde die Kanarienvogel im Käfig sich weigern zu singen, hätten nur wenige von uns jemals seine ausgelassene Melodie gehört."
+      "source_quote": "The robin opens up the choir in early spring, but his song is soon surpassed in beauty by the song sparrow and again by the rose-breasted grosbeak. The song of the wren trumps them all for longevity and vibrancy.",
+      "suggested_fix": "Die Artenbezeichnungen sollten konsistent und für deutschsprachige Leser verständlich sein. Entweder alle gebräuchlichen englischen Artennamen belassen (mit Kursivierung) oder die üblichen deutschen Namen verwenden. Beispielvorschlag (bewahre HTML unverändert): „Die Amsel eröffnet den Chor im frühen Frühling, doch ihr Gesang wird schnell vom Singdrossel (song sparrow) und wieder vom rosenbrustigen Grosbeak (rose‑breasted grosbeak) in Schönheit übertroffen. Der Gesang des Zaunkönigs übertrumpft sie alle ...\" oder vollständig deutsch: „Die Amsel eröffnet den Chor ..., doch ihr Gesang wird bald von der Singammer und wieder vom Rosenbrust‑Dickenfink übertroffen. Der Gesang des Zaunkönigs ...\" (wähle die biologisch passenden deutschen Namen, ohne den theologisch intendierten Sinn zu verändern).",
+      "translation_quote": "Die Amsel eröffnet den Chor im frühen Frühling, doch ihr Gesang wird schnell in Schönheit übertroffen vom Song Sparrow und wieder vom Rose-breasted Grosbeak. Der Gesang der Zaunkönige übertrumpft sie alle an Länge und Lebendigkeit."
+    },
+    {
+      "location": "Absatz über \"Sünde\" / Aufzählung schwarzer Vögel",
+      "severity": "minor",
+      "source_quote": "...the worthless blackbirds, starlings, and grackles.",
+      "suggested_fix": "Der übersetzte Ausdruck „wertlose Amseln, Stare und Grackeln\" misführt ein wenig, weil im vorigen Absatz bereits Amsel für 'robin' verwendet wurde. Prüfe die beabsichtigte Art(en) im englischen Original und passe die deutschen Bezeichnungen konsistent an (z. B. 'Drosseln/Starre/Grackeln' oder 'Stare und Grackeln' mit passenden deutschen Entsprechungen). Ersetze die deutsche Benennung so, dass sie nicht mit vorheriger Benennung kollidiert, z. B. „die wertlosen Schwarzvögel (blackbirds), Stare und Grackeln“ oder verwende durchgängig englische Artnamen in Klammern.",
+      "translation_quote": "Zu solchen gehören die wertlosen Amseln, Stare und Grackeln."
     }
   ],
+  "finished_at": "2026-10-02T00:07:41+00:00",
   "id": "e9915de349ef3d3a4277b6d485e17cad",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "deu",
@@ -123,13 +149,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6b4fad51874daab2b26c2a97a4e4c4aa1580e7cb9aed0a786736362fa6dfa46a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "330222c8-e32f-44aa-bea9-64b09d9d80fd",
+    "response_id": "chatcmpl-EUIFqFjenFH0xzkctkBtS8QaAvPN3",
+    "usage": {
+      "completion_tokens": 1951,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1152,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6477,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8428
+    }
+  },
+  "received_at": "2026-10-02T00:07:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"lead\"> (Anfang des Artikels)",
+        "severity": "minor",
+        "source_quote": "<span class=\"drop-cap\">O</span>ur Father’s world is a world unspoiled by human invention and intervention.",
+        "suggested_fix": "Füge ein Leerzeichen nach dem Drop‑Cap ein, so dass der deutsche Text korrekt lesbar ist. Beispiel: <span class=\"drop-cap\">O</span> Die Welt unseres Vaters ist eine Welt, ... (oder alternativ das Drop‑Cap auf das erste Buchstabenwort anwenden: <span class=\"drop-cap\">D</span>ie Welt unseres Vaters ...). Bewahre dabei das bestehende <span class=\"drop-cap\">-</span>-Tag unverändert.",
+        "translation_quote": "<span class=\"drop-cap\">O</span>Die Welt unseres Vaters ist eine Welt, die durch menschliche Erfindungen und Eingriffe nicht verdorben ist."
+      },
+      {
+        "location": "Absatz, Listing verschiedener Vogelarten (etwa: \"The robin opens up the choir ... the song sparrow ... rose-breasted grosbeak\")",
+        "severity": "minor",
+        "source_quote": "The robin opens up the choir in early spring, but his song is soon surpassed in beauty by the song sparrow and again by the rose-breasted grosbeak. The song of the wren trumps them all for longevity and vibrancy.",
+        "suggested_fix": "Die Artenbezeichnungen sollten konsistent und für deutschsprachige Leser verständlich sein. Entweder alle gebräuchlichen englischen Artennamen belassen (mit Kursivierung) oder die üblichen deutschen Namen verwenden. Beispielvorschlag (bewahre HTML unverändert): „Die Amsel eröffnet den Chor im frühen Frühling, doch ihr Gesang wird schnell vom Singdrossel (song sparrow) und wieder vom rosenbrustigen Grosbeak (rose‑breasted grosbeak) in Schönheit übertroffen. Der Gesang des Zaunkönigs übertrumpft sie alle ...\" oder vollständig deutsch: „Die Amsel eröffnet den Chor ..., doch ihr Gesang wird bald von der Singammer und wieder vom Rosenbrust‑Dickenfink übertroffen. Der Gesang des Zaunkönigs ...\" (wähle die biologisch passenden deutschen Namen, ohne den theologisch intendierten Sinn zu verändern).",
+        "translation_quote": "Die Amsel eröffnet den Chor im frühen Frühling, doch ihr Gesang wird schnell in Schönheit übertroffen vom Song Sparrow und wieder vom Rose-breasted Grosbeak. Der Gesang der Zaunkönige übertrumpft sie alle an Länge und Lebendigkeit."
+      },
+      {
+        "location": "Absatz über \"Sünde\" / Aufzählung schwarzer Vögel",
+        "severity": "minor",
+        "source_quote": "...the worthless blackbirds, starlings, and grackles.",
+        "suggested_fix": "Der übersetzte Ausdruck „wertlose Amseln, Stare und Grackeln\" misführt ein wenig, weil im vorigen Absatz bereits Amsel für 'robin' verwendet wurde. Prüfe die beabsichtigte Art(en) im englischen Original und passe die deutschen Bezeichnungen konsistent an (z. B. 'Drosseln/Starre/Grackeln' oder 'Stare und Grackeln' mit passenden deutschen Entsprechungen). Ersetze die deutsche Benennung so, dass sie nicht mit vorheriger Benennung kollidiert, z. B. „die wertlosen Schwarzvögel (blackbirds), Stare und Grackeln“ oder verwende durchgängig englische Artnamen in Klammern.",
+        "translation_quote": "Zu solchen gehören die wertlosen Amseln, Stare und Grackeln."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}
