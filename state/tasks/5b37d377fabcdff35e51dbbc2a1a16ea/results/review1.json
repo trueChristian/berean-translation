@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "aa831321-4179-4c75-b432-d500cc1c4e6f",
+    "response_id": "chatcmpl-EUURGXLCnWagoEpqgh0SCECRZM9xm",
+    "usage": {
+      "completion_tokens": 686,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1599,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2285
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> <div class=\"poem\"> <p>سطر: \"جتنا زیادہ ہمارے پاس ہوتا ہے، اتنا ہی زیادہ ہمیں چاہیے؛<br>\n    محبتِِِ پیسہ ایک بیج سے شروع ہوتی ہے۔</p>\"",
+        "severity": "minor",
+        "source_quote": "The more we have, the more we need;\n    The love of money starts with a seed.",
+        "suggested_fix": "Correct the typographic rendering of the ezāfe/diacritics and spacing. Replace \"محبتِِِ پیسہ\" with a normal, idiomatic form such as \"محبتِ پیسہ\" or better \"پیسے کی محبت\". Preserve HTML structure.",
+        "translation_quote": "جتنا زیادہ ہمارے پاس ہوتا ہے، اتنا ہی زیادہ ہمیں چاہیے؛\n    محبتِِِ پیسہ ایک بیج سے شروع ہوتی ہے۔"
+      },
+      {
+        "location": "<article> <div class=\"poem\"> <p>سطر: \"ہم سب بائبل جانتے ہیں — نہ کام، نہ کھانا۔\"</p>",
+        "severity": "minor",
+        "source_quote": "We all know the Bible—no work, no eat.",
+        "suggested_fix": "The English line is idiomatic and the Urdu translation is intelligible, but consider a more idiomatic Urdu rendering that conveys the proverbial sense: e.g. \"ہم سب بائبل جانتے ہیں — جو کام نہ کرے وہ نہ کھائے۔\" If the translator prefers to keep a short, literal rendering, that's acceptable. Preserve HTML.",
+        "translation_quote": "ہم سب بائبل جانتے ہیں — نہ کام، نہ کھانا۔"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

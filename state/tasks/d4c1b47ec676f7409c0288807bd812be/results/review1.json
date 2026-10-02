@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3d5494e7-8b7a-45d3-a4b7-1602b53fe87d",
+    "response_id": "chatcmpl-EUUSQYGMQdmbZ56ESjfnbaQ0P8ZSz",
+    "usage": {
+      "completion_tokens": 737,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1524,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2261
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> / <div class=\"poem\"> / 2nd <p> (line 2)",
+        "severity": "minor",
+        "source_quote": "They trade their lives, with no reason why.",
+        "suggested_fix": "Use the correct plural verb to match the English plural subject. Replace \"Scambia la vita, senza un vero perché.\" with \"Scambiano la vita, senza un vero perché.\"",
+        "translation_quote": "Scambia la vita, senza un vero perché."
+      },
+      {
+        "location": "<article> / <div class=\"poem\"> / 4th <p> (line 1)",
+        "severity": "minor",
+        "source_quote": "We spend all our days chasing the dollar.",
+        "suggested_fix": "Restore the English emphasis on \"all\" days. Replace \"Passiamo i giorni inseguendo il dollaro.\" with \"Passiamo tutti i giorni inseguendo il dollaro.\"",
+        "translation_quote": "Passiamo i giorni inseguendo il dollaro."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

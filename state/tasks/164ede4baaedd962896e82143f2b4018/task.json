@@ -2,7 +2,6 @@
   "article_id": "b6a6823e-0f2a-4354-aebb-5c37ad85937a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,6 +23,62 @@
         },
         "total_tokens": 5366
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1532,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5091,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6623
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Paragraph mentioning Boston Peace Jubilee (source.html third paragraph after hymn block, begins \"Many very interesting accounts...\")",
+      "severity": "major",
+      "source_quote": "this hymn, “Nearer, My God to Thee”, was sung by 50,000 voices.",
+      "suggested_fix": "Translate the hymn title into Spanish to match the translated hymn text and to avoid leaving quoted substantive prose in English. Replace with: “este himno, «Más cerca, mi Dios, de Ti», fue cantado por 50.000 voces.” Preserve punctuation and numeric style consistent with the target publication.",
+      "translation_quote": "este himno, “Nearer, My God to Thee”, fue cantado por 50,000 voces."
+    },
+    {
+      "location": "Same paragraph (1871 Palestine anecdote)",
+      "severity": "major",
+      "source_quote": "singing in Arabic ‘Nearer, my God, to Thee,’",
+      "suggested_fix": "Translate the quoted hymn title into Spanish. Replace with: «cantando en árabe ‘Más cerca, mi Dios, de Ti’». Keep the note that they sang it in Arabic, but the hymn title itself must be translated.",
+      "translation_quote": "cantando en árabe ‘Nearer, my God, to Thee’."
+    },
+    {
+      "location": "Johnstown Flood paragraph",
+      "severity": "major",
+      "source_quote": "she ended up with prayer and by singing “Nearer, my God, to Thee,”",
+      "suggested_fix": "Translate the quoted hymn title into Spanish. Replace with: “terminó con oración y cantando «Más cerca, mi Dios, de Ti», en la que se unió la multitud...”.",
+      "translation_quote": "terminó con oración y cantando “Nearer, my God, to Thee”, en la que se unió la multitud afligida y compasiva."
+    },
+    {
+      "location": "Titanic paragraph",
+      "severity": "major",
+      "source_quote": "the hymn “Nearer, my God to Thee” was the final song played",
+      "suggested_fix": "Translate the quoted hymn title into Spanish. Replace with: “el himno «Más cerca, mi Dios, de Ti» fue la última canción tocada…”.",
+      "translation_quote": "el himno “Nearer, my God to Thee” fue la última canción tocada antes de que..."
+    },
+    {
+      "location": "Paragraph listing other hymns by Lowell Mason",
+      "severity": "minor",
+      "source_quote": "Other hymns by Mason include “From Greenland’s Icy Mountains”, “When I Survey the Wondrous Cross”, “A Charge to Keep I Have”, “Joy to the World”, “My Faith Looks Up to Thee”, and “O Day of Rest and Gladness”.",
+      "suggested_fix": "These are quoted hymn titles (substantive prose). For fidelity, translate the titles into Spanish or provide conventional Spanish titles used in hymnals, keeping the original authorship attribution. Suggested translations (publishers may adjust to preferred established titles): «Desde los montes helados de Groenlandia», «Al contemplar la cruz maravillosa», «Un encargo que debo custodiar», «Gozo al mundo», «Mi fe mira hacia Ti», «Oh día de descanso y gozo». Alternatively, if this publication prefers to keep well-known English titles for recognition, mark them as titles but be aware this leaves substantive English quoted prose.",
+      "translation_quote": "Otros himnos de Mason incluyen “From Greenland’s Icy Mountains”, “When I Survey the Wondrous Cross”, “A Charge to Keep I Have”, “Joy to the World”, “My Faith Looks Up to Thee”, y “O Day of Rest and Gladness”."
     }
   ],
   "id": "164ede4baaedd962896e82143f2b4018",
@@ -69,11 +124,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/bdacc95910a7433231bb636adde27ced309ebbaf33d26f4288193a37ef1ecead.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "529627b867a50e286116891ac48830f9194ac5c383794aa0c674aa93ff18825d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

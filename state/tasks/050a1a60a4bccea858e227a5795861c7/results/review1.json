@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0e4b7c87-156f-4e07-a71a-479bd84cb3cc",
+    "response_id": "chatcmpl-EUURyurVT6C6TrqJeAx3HzWKaOwjm",
+    "usage": {
+      "completion_tokens": 2030,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3501,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5531
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first paragraph (\"The Church History article focuses...\")",
+        "severity": "major",
+        "source_quote": "The Church History article focuses on Bible prophecy pertaining to the end times and some various ways that over the years certain elements of the church got off track from the Biblical teaching as it pertained to their everyday life.",
+        "suggested_fix": "Translate the phrase \"The Church History article\" and the rest of the sentence so the subject is clearly the magazine's Church History article. Replace the incorrect \"সংস্থা ইতিহাস\" with \"চর্চা ইতিহাস\" or better \"চার্চ হিস্ট্রি (Church History) বিভাগের প্রবন্ধ\" (or simply \"চর্চ্চ ইতিহাস সম্পর্কে প্রবন্ধ\"), and remove the stray word \"জায়\" later in the sentence. Example revision (preserving tags):\n\n<p>চর্চ্চ ইতিহাস বিভাগের প্রবন্ধটি শেষ সময় সম্পর্কিত বাইবেলীয় ভবিষ্যদ্বাণী এবং বছরের পর বছর ধরে গির্জার কিছু উপাদান কীভাবে তাদের দৈনন্দিন জীবনের ব্যাপারে বাইবেলীয় শিক্ষার পথভ্রষ্ট হয়ে পড়েছিল—এ ধরনের বিভিন্ন উপায় নিয়ে কেন্দ্রিত।</p>",
+        "translation_quote": "সংস্থা ইতিহাস সম্পর্কিত প্রবন্ধটি শেষ সময় সম্পর্কিত বাইবেলের ভবিষ্যদ্বাণী এবং বছরের পর বছর ধরে জায় কিছু উপাদান কীভাবে বাইবেলের শিক্ষার থেকে তাদের দৈনন্দিন জীবনের প্রাসঙ্গিকতায় পথভ্রষ্ট হয়েছে—এই ধরনের বিভিন্ন উপায় সম্পর্কে কেন্দ্র করে।"
+      },
+      {
+        "location": "source.html — first paragraph (\"In his article, Donny Brechbill...\")",
+        "severity": "minor",
+        "source_quote": "In his article, Donny Brechbill, who together with his wife teaches multiple marriage seminars each year, endeavors to zone in on a challenging subject—some of the root problems that they see with women who are struggling in the church.",
+        "suggested_fix": "Minor wording/clarity issue: the translation is generally faithful but awkwardly phrased. Suggest smoothing Bengali word order and removing literal calques like \"কেন্দ্র করে\" and \"কাজ করার চেষ্টা করছেন\". Example revision (preserving tags):\n\n<p>তাঁর প্রবন্ধে, ডনি ব্রেচবিল—যিনি তাঁর স্ত্রীকে নিয়ে প্রতি বছর একাধিক বিবাহবিষয়ক সেমিনার করেন—একটি চ্যালেঞ্জিং বিষয়কে কেন্দ্র করে যা গির্জায় সংগ্রামরত নারীদের ক্ষেত্রে তারা যে কিছু মূল সমস্যাগুলো দেখে সেগুলোর দিকে মনোযোগ দেয়ার চেষ্টা করছেন।</p>",
+        "translation_quote": "তাঁর প্রবন্ধে ডনি ব্রেচবিল, যিনি তাঁর স্ত্রীর সঙ্গে মিলিয়ে প্রতি বছর বহু বিবাহ সেমিনার শেখান, একটি চ্যালেঞ্জিং বিষয়কে কেন্দ্র করে কাজ করার চেষ্টা করছেন—গির্জায় সংগ্রামরত নারীদের সঙ্গে তারা যে কিছু মূল সমস্যাগুলো দেখে সেগুলো।"
+      },
+      {
+        "location": "source.html — paragraph with Hebrews 7:12 quote",
+        "severity": "minor",
+        "source_quote": "For the priesthood being changed, there is made of necessity a change also of the law –Hebrews 7:12.",
+        "suggested_fix": "The verse is present and the reference number is unchanged, but the Bengali wording is awkward and contains a likely typo \"আলে\". Suggest a clearer Bengali rendering that preserves the printed meaning and verse number. Example revision (preserving tags):\n\n<em>পদপ্রথা পরিবর্তিত হওয়ায় বাধ্যতামূলকভাবে আইনেও পরিবর্তন আনা হয়েছে—হিব্রু ৭:১২।</em>",
+        "translation_quote": "ইহুদীদের লেখক বলেছেন যে <em>পাদ্রিব্যবস্থায় পরিবর্তন আলে, অবশ্যই ধরণেও পরিবর্তন আনা হয়—হিব্রু ৭:১২।</em>"
+      },
+      {
+        "location": "source.html — paragraph with Ephesians 4:14 quote",
+        "severity": "major",
+        "source_quote": "That we [should] henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine… –Ephesians 4:14.",
+        "suggested_fix": "The translation changes the clause meaning and is unidiomatic: \"অতএব আমরা আর শিশুপুল কইরে নাও থাকা উচিত, যা প্রত্যেক শিক্ষার বাতাসে উড়ে বেড়ায়…\" is confusing and misrenders 'no more children, tossed to and fro, and carried about with every wind of doctrine'. This could affect reader understanding. Replace with a faithful Bengali rendering that keeps verse sense and reference. Example revision (preserving tags):\n\n<em>অতএব আমরা আর শিশুরা বিভ্রান্ত বা দোলায়িত হওয়া উচিত নয়, যেন প্রত্যেক শিক্ষার বাতাসে দুলে যায়…—এফেসীয় ৪:১৪।</em>",
+        "translation_quote": "কিন্তু প্রবক্তা পল বলেছেন <em>অতএব আমরা আর শিশুপুল কইরে নাও থাকা উচিত, যা প্রত্যেক শিক্ষার বাতাসে উড়ে বেড়ায়…—এফেসীয় ৪:১৪।</em>"
+      },
+      {
+        "location": "source.html — various places (style/idiom/typos)",
+        "severity": "minor",
+        "source_quote": "Multiple English source sentences throughout (editorial paragraphs)",
+        "suggested_fix": "Several Bengali phrases are unidiomatic or contain typographical errors (examples: \"জায়\" in first paragraph, \"সিটবেল্ট\" paragraph has awkward constructions, \"রিয়ার-হুইল ড্রাইভ\" left untranslated as transliteration might be acceptable but consider conventional Bengali terms). These are style/clarity issues rather than meaning changes. Fix typos and smooth sentences for contemporary standard Bengali while preserving original meaning. Provide specific small edits (e.g., replace \"জায়\" with nothing; change \"শিশুপুল কইরে নাও থাকা উচিত\" to \"শিশু-সদৃশ না থাকা উচিত\" or the revision suggested above).",
+        "translation_quote": "multiple phrases, e.g., \"জায় কিছু উপাদান\", \"শিশুপুল কইরে নাও থাকা উচিত\", \"পাদ্রিব্যবস্থায় পরিবর্তন আলে\""
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

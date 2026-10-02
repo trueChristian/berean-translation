@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5b8b3a5e-d2f7-4a1f-8ec7-0174a2b861ca",
+    "response_id": "chatcmpl-EUURG9zbrW835aSBBBGIst9zl1rEI",
+    "usage": {
+      "completion_tokens": 1160,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8294,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9454
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — opening scripture quote paragraph",
+        "severity": "minor",
+        "source_quote": "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2 Timothy 1:4-7.",
+        "suggested_fix": "Use a more natural Portuguese rendering of \"sound mind\" (sã mente / espírito sóbrio) rather than \"moderação\", which can be ambiguous. For example: \"mas de poder, de amor e de uma sã mente –2 Timóteo 1:4-7.\" Preserve existing tags and punctuation.",
+        "translation_quote": "Porque Deus não nos deu o espírito de temor, mas de poder, de amor e de moderação –2 Timóteo 1:4-7."
+      },
+      {
+        "location": "source.html — paragraph quoting Matthew 26:12 (unguent/ointment)",
+        "severity": "minor",
+        "source_quote": "For in that she hath poured this ointment on my body, she did it for my burial –Matthew 26:12.",
+        "suggested_fix": "Update the archaic spelling \"ungüento\" to the current standard Portuguese spelling (\"unguento\" or better: \"unguento\" is acceptable). Make no other alterations to wording or tags.",
+        "translation_quote": "Jesus lhes disse: <em>Porque, deixando isto, ela o fez para sepultura de mim –Mateus 26:12.</em> (context uses 'ungüento' earlier in the paragraph)"
+      },
+      {
+        "location": "source.html — paragraphs using the English loanword \"stress\"",
+        "severity": "minor",
+        "source_quote": "Stress and anxiety will melt away in the presence of Jesus.",
+        "suggested_fix": "Prefer the standard Portuguese term \"estresse\" (or 'tensão/ansiedade') instead of the English loanword \"Stress\" for consistency and clarity. E.g.: \"O estresse e a ansiedade desaparecerão na presença de Jesus.\" Keep existing HTML structure.",
+        "translation_quote": "<p>Stress e ansiedade se dissiparão na presença de Jesus. Deus fala conosco por Seu Espírito Santo através de Sua Palavra.</p>"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

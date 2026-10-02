@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "85e43a62-d9c4-4cdb-a36c-cc92611b39f6",
+    "response_id": "chatcmpl-EUURSyxwaKvtLlO9606t1lUSyaev0",
+    "usage": {
+      "completion_tokens": 2141,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1216,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9384,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11525
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening paragraph (second sentence)",
+        "severity": "major",
+        "source_quote": "“Oh God, give us mothers like Eunice and grandmothers like Lois. Give us women who are women of faith. Give us women who know how to stand for truth against the tide of human rationalization that is destroying the lives of so many well-meaning people. Give us women who are unwavering in their loyalty to Jesus Christ, to their husbands, and to their calling to represent the spirit of Jesus in all of life. Amen”.",
+        "suggested_fix": "Restore the meaning of “well-meaning people” (भले इरादे वाले लोग). Revise the Hindi to reflect “well-meaning” rather than “selfless”. For example: “मानव तर्कसंग्रह की बाढ़ के विरुद्ध जो इतने भले-इरादे वाले लोगों के जीवन को नष्ट कर रही है।”",
+        "translation_quote": "“हे परमेश्वर, हमें यूनिका जैसी माताएँ और लोइस जैसी दादियाँ दे। हमें ऐसी स्त्रियाँ दे जो विश्वास की महिलाएँ हों। हमें ऐसी महिलाएँ दे जो बहुत-इरादे से सच्चाई के लिये खड़ी हों, उस मानव तर्कसंग्रह की बाढ़ के विरुद्ध जो इतने निःस्वार्थ लोगों के जीवन को नष्ट कर रही है। हमें ऐसी महिलाएँ दे जो यीशु मसीह, अपने पतियों, और पूरे जीवन में यीशु की आत्मा का प्रतिनिधित्व करने की अपनी बुलाहट के प्रति अडिग निष्ठावान हों। आमीन।”"
+      },
+      {
+        "location": "All quoted Scripture references (throughout article)",
+        "severity": "minor",
+        "source_quote": "2 Timothy 1:4-7; Genesis 3:16; 1 Timothy 2:14; 1 Peter 3:6; Hebrews 13:6; Luke 10:38-42; Matthew 26:12; Genesis 12:13; Hebrews 11",
+        "suggested_fix": "Use conventional Hindi/Devanagari forms of the Biblical book names while keeping chapter and verse numbers unchanged. For example: 2 Timothy → 2 तिमोथियुस (or commonly used Hindi form), Genesis → उत्पत्ति, 1 Timothy → 1 तीमथियुस (or तीमथियुस), 1 Peter → 1 पतरस, Hebrews → इब्रानियों, Luke → लूका, Matthew → मत्ती. Update each citation consistently (e.g., “2 तिमोथियुस 1:4-7”, “उत्पत्ति 3:16”, “1 तीमथियुस 2:14”, “1 पतरस 3:6”, “इब्रानियों 13:6”, “लूका 10:38-42”, “मत्ती 26:12”, “उत्पत्ति 12:13”, “इब्रानियों 11”).",
+        "translation_quote": "References appear as English book names with chapter/verse numbers (e.g., “2 Timothy 1:4-7.”, “Genesis 3:16”, “1 Timothy 2:14”, “1 Peter 3:6”, “Hebrews 13:6”, “Luke 10:38-42”, “Matthew 26:12”, “Genesis 12:13”, “Hebrews 11”)."
+      },
+      {
+        "location": "Paragraph mentioning 'Anabaptist' (Identity section)",
+        "severity": "minor",
+        "source_quote": "Young women, especially in our Anabaptist communities, are largely at the mercy of the prominent men in their lives to define their identity.",
+        "suggested_fix": "Use a clearer, conventional transliteration or established Hindi term for “Anabaptist”. For example: “अνάबप्तिस्ट” is nonstandard—prefer “अनाबाप्तिस्ट समुदायों” → better: “अनाबप्तिस्ट (Anabaptist) समुदायों” or simply retain the English in parentheses for clarity: “अनाबप्तिस्ट (Anabaptist) समुदायों” or a commonly used Hindi transliteration “अना-बप्तिस्ट समुदायों”. Ensure consistent spelling throughout.",
+        "translation_quote": "“युवा महिलाएँ, विशेषकर हमारे अनाबाप्तिस्ट समुदायों में, प्रायः अपनी पहचान को परिभाषित करने में अपने जीवन के प्रमुख पुरुषों पर आधारित रहती हैं।”"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

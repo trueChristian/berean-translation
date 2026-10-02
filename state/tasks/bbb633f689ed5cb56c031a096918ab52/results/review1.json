@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9a4f7740-7de6-4cd2-b882-d1161cc007c6",
+    "response_id": "chatcmpl-EUURH4UcLa0h66vqflaIxkKr11byT",
+    "usage": {
+      "completion_tokens": 777,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4909,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5686
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> first paragraph (Ephesians quote)",
+        "severity": "minor",
+        "source_quote": "Ephesians 1:17-18.",
+        "suggested_fix": "Replace the corrupted book name escape sequence with the correct Dutch book name. Preserve punctuation and spacing. For example: \"–Efeziën 1:17-18.\"",
+        "translation_quote": "–Efezi\u000en 1:17-18."
+      },
+      {
+        "location": "<article> paragraph containing Hebrews quote (Hebrews 12:1-2)",
+        "severity": "minor",
+        "source_quote": "Hebrews 12:1-2.",
+        "suggested_fix": "Replace the corrupted book name escape sequence with the correct Dutch book name. Preserve punctuation and spacing. For example: \"–Hebreeën 12:1-2.\"",
+        "translation_quote": "–Hebree\u000en 12:1-2."
+      },
+      {
+        "location": "<article> paragraph listing family, coworkers, customers (line break in word)",
+        "severity": "minor",
+        "source_quote": "It might be your family, coworkers, customers, or people you meet while away from home.",
+        "suggested_fix": "Remove the stray newline and correct the apostrophe placement in the plural of 'collega' so it reads idiomatically: \"...je familie, collega’s, klanten of mensen...\". Preserve surrounding punctuation and HTML tags.",
+        "translation_quote": "Het kan je familie zijn, collega\n's, klanten of mensen die je tegenkomt wanneer je van huis weg bent."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

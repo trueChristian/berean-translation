@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "59edc828-de51-4bc4-9a37-a42949ada927",
+    "response_id": "chatcmpl-EUUS3JzqvHLJ6kHRUtrUFOSL3KfoZ",
+    "usage": {
+      "completion_tokens": 1164,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8091,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9255
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html (paragraph mentioning Munser / Münster)",
+        "severity": "minor",
+        "source_quote": "The Jans moved to Munser in early 1534, and began sending out prophets and messengers, who called all “Anabaptists” to congregate at this “New Jerusalem”.",
+        "suggested_fix": "Preserve the author's original spelling (Munser) or mark it as a typo in an editorial note. If you choose to normalize to the historically correct placename, ensure it is consistent with other occurrences (Münster). Suggested translation: \"Los Janes se mudaron a Munser (Münster) a principios de 1534...\" so the change is explicit.",
+        "translation_quote": "Los Janes se mudaron a Münster a principios de 1534 y comenzaron a enviar profetas y mensajeros, que llamaban a todos los “anabautistas” a congregarse en esta “Nueva Jerusalén”."
+      },
+      {
+        "location": "source.html (paragraph mentioning Muensterites / muensteritas)",
+        "severity": "minor",
+        "source_quote": "In a matter more recently related to us as Anabaptists, the tale of the infamous Muensterites gives us a further example of the perils of misinterpreting prophecy, especially the prophecy regarding the second coming of Christ.",
+        "suggested_fix": "The translation has rendered the English coined demonym \"Muensterites\" as Spanish \"muensteritas,\" which is acceptable as an idiomatic rendering. If editorial consistency with the author’s original English coinage is required, consider retaining the English form in italics or quotes (e.g., “Muensterites”) while still providing the Spanish demonym in parentheses. Suggested translation variant: \"...la historia de los infames Muensterites (muensteritas) nos ofrece...\"",
+        "translation_quote": "En un asunto más cercano a nosotros, relacionado con los anabautistas, la historia de los infames muensteritas nos ofrece un ejemplo adicional de los peligros de malinterpretar la profecía, especialmente la profecía referente a la segunda venida de Cristo."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

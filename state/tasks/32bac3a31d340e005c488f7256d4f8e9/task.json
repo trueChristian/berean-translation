@@ -2,7 +2,6 @@
   "article_id": "b9a7b1b8-0a23-4e53-b835-31bf5a42dc33",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 8210
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 862,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7924,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8786
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Paragraph mentioning Menno/Philips (around the paragraph: \"This would be the church of Menno Simmons, and the root of the Mennonite churches of today.\")",
+      "severity": "minor",
+      "source_quote": "This would be the church of Menno Simmons, and the root of the Mennonite churches of today.",
+      "suggested_fix": "Preserve the author’s exact printed proper name as in the authoritative English source. Replace \"Menno Simons\" with the same spelling used in the English source: \"Menno Simmons.\"",
+      "translation_quote": "Esta seria a igreja de Menno Simons, e a raiz das igrejas menonitas de hoje."
+    },
+    {
+      "location": "Final paragraph with Matthew citation (last paragraph): \"...and then shall the end come –Matthew 24:14.\"",
+      "severity": "minor",
+      "source_quote": "...and then shall the end come –Matthew 24:14.",
+      "suggested_fix": "Use conventional capitalization for the book name consistent with the target-language conventions and the author’s original punctuation spacing. Change \"mateus 24:14\" to \"Mateus 24:14.\" (Preserve the placement and punctuation exactly as in the source.)",
+      "translation_quote": "...e então virá o fim – mateus 24:14."
+    }
+  ],
+  "finished_at": "2026-10-02T11:17:42+00:00",
   "id": "32bac3a31d340e005c488f7256d4f8e9",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "por",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1b89de23229eb76f45635f4ff8dcdc61cf2a0af8d7f5b597cc9c5c560ef20e62.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d586dd43ac554896b8fef04467efcb67fca005c8dae5313bc95967b13d0bd0fc",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

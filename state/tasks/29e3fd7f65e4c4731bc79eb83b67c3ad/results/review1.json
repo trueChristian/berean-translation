@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a6852614-2ea0-499d-8067-a9f5e6247e02",
+    "response_id": "chatcmpl-EUURQYKvCmqMa50vcDSuihmYOXFKy",
+    "usage": {
+      "completion_tokens": 1317,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5072,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6389
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"Muitos relatos muito interessantes...\" (third paragraph after hymn lyrics)",
+        "severity": "minor",
+        "source_quote": "In the Boston Peace Jubilee of 1872, which commemorated the end of the civil war, this hymn, “Nearer, My God to Thee”, was sung by 50,000 voices.",
+        "suggested_fix": "Translate the hymn title into Portuguese consistently with the translated lyrics. Replace “Nearer, My God to Thee” with “Mais perto, meu Deus, de Ti” (including the same quotation marks). Example revision: '...este hino, “Mais perto, meu Deus, de Ti”, foi cantado por 50.000 vozes.'",
+        "translation_quote": "No Boston Peace Jubilee de 1872, que comemorou o fim da guerra civil, este hino, “Nearer, My God, to Thee”, foi cantado por 50.000 vozes."
+      },
+      {
+        "location": "Paragraph: \"Um dia, enquanto as duas irmãs...\" (paragraph describing the pastor's remark)",
+        "severity": "minor",
+        "source_quote": "One day as the two sisters were pressing into the task at hand, the pastor remarked that he wished he could have a hymn written to conclude a sermon he was preparing to preach on the account of Jacob and Esau.",
+        "suggested_fix": "Fix the Portuguese grammar/idiom: change 'que preparava pregar' to 'que estava a preparar para pregar' or 'que preparava para pregar'. Example: '...o pastor comentou que desejava ter um hino para encerrar um sermão que estava a preparar para pregar sobre a história de Jacó e Esaú.'",
+        "translation_quote": "Um dia, enquanto as duas irmãs se dedicavam à tarefa, o pastor comentou que desejava ter um hino para encerrar um sermão que preparava pregar sobre a história de Jacó e Esaú."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "f21c4f39-9508-4f75-9e0c-0c68468c41f8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 4393
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1535,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4118,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5653
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Paragraph: \"The neighbor men tried desperately to rescue what cattle they could, but in the end, many of the steers could not be saved.\" (about Melvin's barn collapse)",
+      "severity": "critical",
+      "source_quote": "his barn had collapsed on top of dozens of cattle and then a fire had broken out. The neighbor men tried desperately to rescue what cattle they could, but in the end, many of the steers could not be saved.",
+      "suggested_fix": "Translate the quantity word faithfully. Replace “सैंकड़ों मवेशियों” with a faithful rendering of “dozens of cattle” such as “दर्जनों मवेशियों” so the numeric magnitude matches the English source. Preserve surrounding sentence structure and HTML tags.",
+      "translation_quote": "उसकी शेड सैंकड़ों मवेशियों के ऊपर ढह गई और फिर आग लग गई। पड़ोसी पुरुष हताश होकर जितनी मवेशियाँ बचा सके उन्हें बचाने की कोशिश करते रहे, पर अंत में कई बैल बच नहीं सके।"
+    },
+    {
+      "location": "Paragraph: \"I think it's part of the garage roof,\" said Dad in disbelief while peering cautiously through the windows.",
+      "severity": "minor",
+      "source_quote": "“I think it’s part of the garage roof,” said Dad in disbelief while peering cautiously through the windows.",
+      "suggested_fix": "Remove the stray non‑Hindi character and render the whole phrase smoothly in Hindi. Replace “खिड़कियों越 से झाँका।” with “खिड़कियों越 से झाँका।” corrected to “खिड़कियों से सावधानी से झाँकते हुए कहा।” (or simply: “खिड़कियों से सावधानी से झाँकते हुए कहा।”), preserving sentence meaning and context.",
+      "translation_quote": "“मुझे लगता है यह गैराज की छत का हिस्सा है,” पिताजी ने आश्चर्य से कहा और सावधानी से खिड़कियों越 से झाँका।"
+    },
+    {
+      "location": "Paragraph: \"Great sheets of rain were being driven against the windows and Ellie wondered if it was possible that it was raining hard enough to break the glass.\"",
+      "severity": "minor",
+      "source_quote": "Great sheets of rain were being driven against the windows and Ellie wondered if it was possible that it was raining hard enough to break the glass.",
+      "suggested_fix": "Avoid adding a simile not present in the source. Replace “खिड़कियों पर मिट्टी की तरह टकरा रही थीं” with a faithful rendering like “खिड़कियों पर जोरदार बारिश की परतें पटक रही थीं” or “खिड़कियों पर भारी पानी की परतें झेल रही थीं” to match the original imagery without adding 'like dirt'.",
+      "translation_quote": "भारी बारिश की परतें खिड़कियों पर मिट्टी की तरह टकरा रही थीं और एली सोचने लगी कि क्या इतनी तेज़ बारिश काँच तोड़ सकती है।"
+    },
+    {
+      "location": "Opening paragraph: “My, it’s warm!” exclaimed Mom. “A nice, good rain is what we need to cool things off a bit.”",
+      "severity": "minor",
+      "source_quote": "“My, it’s warm!” exclaimed Mom. “A nice, good rain is what we need to cool things off a bit.”",
+      "suggested_fix": "The English phrase “a nice, good rain” implies a refreshing/moderate rain rather than necessarily a 'fast/violent' rain. Consider replacing “एक अच्छी, तेज़ बारिश” with “एक अच्छी, ठंडी या सुखद बारिश” or “एक अच्छी, बरसाती बारिश” to better match the source nuance.",
+      "translation_quote": "“अरे, कितना गरम है!” माँ ने कहा। “हमें थोड़ा ठंडा करने के लिए एक अच्छी, तेज़ बारिश की ज़रूरत थी।”"
     }
   ],
   "id": "e1b6cb66ac777415cd5dd76565b33f55",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1896269e1d50cee8808d069728099a272936b67afb461b50cf790049cb1e46b5.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "ea6f4c2c1d99d58d1a9f3a20171db73a83fd2eecbd0478f01bb5f8591bf41415",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

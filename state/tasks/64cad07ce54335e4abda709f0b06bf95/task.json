@@ -2,7 +2,6 @@
   "article_id": "02db24ae-5132-49c6-a6fd-da73417871e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,6 +23,41 @@
         },
         "total_tokens": 5287
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 997,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5000,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5997
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.section / translation.section",
+      "severity": "major",
+      "source_quote": "INSPIRATIONS FOR YOUTH",
+      "suggested_fix": "Restore the correct target-language rendering of the English section. Replace the translation field value with a faithful Swedish equivalent of \"INSPIRATIONS FOR YOUTH\", for example: \"INSPIRATIONER FÖR UNGDOM\" (or \"INSPIRATIONER FÖR UNGDOMAR\" if your style guide prefers). Do not use wording that implies adults (e.g. \"UPPVAXNA\").",
+      "translation_quote": "INSPIRATIONER FÖR UPPVAXNA"
+    },
+    {
+      "location": "source.html (near end of paragraph beginning \"I början av artikeln frågade jag vad du eftersträvar.\") / translation.html",
+      "severity": "minor",
+      "source_quote": "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Ghost –Romans 15:13.",
+      "suggested_fix": "Remove the duplicated word so the sentence is grammatically correct in Swedish. Change \"Visar ditt liv att att uppfylla Guds vilja är din högsta prioritet\" to \"Visar ditt liv att uppfylla Guds vilja är din högsta prioritet\" or better: \"Visar ditt liv att uppfyllandet av Guds vilja är din högsta prioritet\" depending on your house style.",
+      "translation_quote": "Visar ditt liv att att uppfylla Guds vilja är din högsta prioritet, eller finns det något annat som tar den platsen?"
     }
   ],
   "id": "64cad07ce54335e4abda709f0b06bf95",
@@ -69,11 +103,13 @@
     }
   },
   "protected": false,
+  "quality_score": 80,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d4096c8e219a9ff87d56f7ba5b34e9e5d1258bfb4281edd00108b01120b10b28.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "e60beaba9e12466f123cfd1ae7a96811ce97cb1cb87bf5ed6c8de7f6afdd6660",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f090a82c-bd86-49a2-8ca8-87fb658a00c1",
+    "response_id": "chatcmpl-EUURWrvvLYMPQdIZyPX6OXBz9DDtY",
+    "usage": {
+      "completion_tokens": 988,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3081,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4069
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> paragraph containing Hebrews 7:12 (near end)",
+        "severity": "major",
+        "source_quote": "For the priesthood being changed, there is made of necessity a change also of the law –Hebrews 7:12.",
+        "suggested_fix": "Translate the clause without adding a conditional 'si' that changes the original assertion. A faithful Spanish rendering preserving the original meaning: \"Porque cambiado el sacerdocio, es necesario que haya también cambio de la ley — Hebreos 7:12.\" (Preserve the <em> tags around the verse as in the source.)",
+        "translation_quote": "Porque si cambia el sacerdocio, es necesario que haya también cambio de ley – Hebreos 7:12."
+      },
+      {
+        "location": "<article> paragraph containing Ephesians 4:14 (preceding final paragraph)",
+        "severity": "minor",
+        "source_quote": "That we [should] henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine… –Ephesians 4:14.",
+        "suggested_fix": "Restore the parallel sense 'tossed to and fro, and carried about' so the Spanish conveys both ideas. Suggested faithful rendering: \"para que ya no seamos niños, sacudidos y llevados de acá para allá por todo viento de doctrina… — Efesios 4:14.\" (Keep the <em> tags around the verse as in the source.)",
+        "translation_quote": "para que ya no seamos niños, sacudidos por todo viento de doctrina… – Efesios 4:14."
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

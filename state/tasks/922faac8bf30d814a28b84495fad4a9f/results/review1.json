@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "cefd5099-9c00-4d14-b4bc-dd3920a7d041",
+    "response_id": "chatcmpl-EUURRB3r8W8LTg1bNVICftSn4Hdz9",
+    "usage": {
+      "completion_tokens": 740,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3927,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4667
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "critical",
+        "source_quote": "Group Morality vs Godly Judgment",
+        "suggested_fix": "Translate the article title into Bahasa Indonesia while preserving the original meaning and theological emphasis. Suggested translation: \"Moralitas Kelompok vs Penghakiman Ilahi\" or \"Moralitas Kelompok vs Penghakiman Allah\".",
+        "translation_quote": "Group Morality vs Godly Judgment"
+      },
+      {
+        "location": "section",
+        "severity": "critical",
+        "source_quote": "Featured Article",
+        "suggested_fix": "Translate the section/series name into Bahasa Indonesia. Suggested translation: \"Artikel Unggulan\" (or another site-consistent rendering of \"Featured Article\").",
+        "translation_quote": "Featured Article"
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "02db24ae-5132-49c6-a6fd-da73417871e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 6543
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1817,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5948,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7765
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "First paragraph (html)",
+      "severity": "minor",
+      "source_quote": "As Anabaptist people, we are known to possess a solid work ethic; but that is not all there is to living the Christian life.",
+      "suggested_fix": "Correct Greek adjective agreement and contemporary wording. For example: replace \"Ως αναβαπτιστικό λαός, είναι γνωστό ότι έχουμε γερή εργασιακή ηθική·\" with \"Ως αναβαπτιστικός λαός, είμαστε γνωστοί για την ισχυρή εργασιακή μας ηθική·\" (preserve surrounding <p> tags).",
+      "translation_quote": "Ως αναβαπτιστικό λαός, είναι γνωστό ότι έχουμε γερή εργασιακή ηθική· αλλά αυτό δεν είναι όλο ό,τι έχει η χριστιανική ζωή."
+    },
+    {
+      "location": "Paragraph that translates John/Hebrews quotation and the line before it (html)",
+      "severity": "minor",
+      "source_quote": "Then… Go, and sin no more!  —Hebrews 12:1-2.  (and preceding quote ending with \"run with patience the race that is set before us, Looking unto Jesus the author and finisher of our faith...\")",
+      "suggested_fix": "Fix the modern-Greek idiom and the short exhortation translation. Replace the exhortation sentence \"Έπειτα… Πηγαίνετε, και αμάρτητα πια!\" with a contemporary, grammatical rendering that preserves the printed sense, e.g. \"Έπειτα… Πηγαίνετε, και να μην αμαρτάνετε πια!\" or \"Έπειτα… Πηγαίνετε, και μη πλέον αμαρτάνετε!\". Also consider rendering the Hebrews 12:1-2 quotation in contemporary Greek instead of the current archaic/katharevousa style (see suggested modern wording below) while keeping the verse numbers unchanged: \"Διαπιστώνοντας ότι είμαστε περικυκλωμένοι από τόσο μεγάλο σύννεφο μαρτύρων, ας αποθέσουμε κάθε βάρος και την αμαρτία που εύκολα μας συσκοτίζει, και ας τρέξουμε με υπομονή τον αγώνα που έχουμε απέναντί μας· κρατώντας τα μάτια μας στον Ιησού, τον αρχηγό και τελειωτή της πίστης μας... –Εβραίους 12:1-2.\" (preserve <p><em>…</em></p>).",
+      "translation_quote": "<em>Διότι έχοντες περιτριγυρισμένους εφ’ ημάς τόσον μέγαν σύννεφον μαρτύρων, ας αποθέσωμεν παν βάρος και την εύκολα εμπλεκομένην προς την αμαρτίαν, και ας τρέχωμεν με υπομονήν τον αγώναν τον τεθειμένον ημίν· προσβλέποντες εις τον Ιησούν, τον αρχηγόν και τελειωτήν της πίστεώς ημών· όντι χάριν της προκειμένης εις αυτόν χαράς υπέμεινε τον σταυρόν, αγνοήσας την ατίμιαν, και εστάθη εκ δεξιών του θρόνου του Θεού –Εβραίους 12:1-2.</em>\n...\nΈπειτα… Πηγαίνετε, και αμάρτητα πια!"
+    },
+    {
+      "location": "General — scripture quotations (multiple locations)",
+      "severity": "minor",
+      "source_quote": "Quoted Scripture passages (Ephesians 1:17-18 excerpt, Luke 19:12-13, Matthew 5:13, Hebrews 12:1-2, Romans 15:13) as printed in the source",
+      "suggested_fix": "Use contemporary Modern Greek register for quoted Scripture so translations read naturally to modern readers, while preserving all verse numbers and placement. For example, consider modernized renderings for the longer quotations (keep each quotation inside the existing <em>...</em> tags). This is a stylistic/clarity change only and does not alter theological content (no HTML tag changes required).",
+      "translation_quote": "Various verses are rendered mostly faithfully but in a mix of modern and archaic/katharevousa Greek (e.g. Hebrews and Romans quotations use older forms such as \"έχοντες... ας αποθέσωμεν\", \"δεηθεί να σας γεμίσει πάσαν χαράν\" rather than contemporary equivalents)."
+    }
+  ],
+  "finished_at": "2026-10-02T11:17:43+00:00",
   "id": "ba87dbf7cd1117d713676b7f3b22f7c6",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "ell",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d4096c8e219a9ff87d56f7ba5b34e9e5d1258bfb4281edd00108b01120b10b28.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e60beaba9e12466f123cfd1ae7a96811ce97cb1cb87bf5ed6c8de7f6afdd6660",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

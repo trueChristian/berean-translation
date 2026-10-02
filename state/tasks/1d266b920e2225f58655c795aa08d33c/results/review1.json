@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "eb18d79c-6023-46ca-979b-e3cc3f087583",
+    "response_id": "chatcmpl-EUURb9tvPq7bx1Xy0ttZIjMBDgTnd",
+    "usage": {
+      "completion_tokens": 700,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9840,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10540
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.section / translation.section",
+        "severity": "minor",
+        "source_quote": "A Word From A Doctor",
+        "suggested_fix": "Vertaal de sectienaam zodat deze overeenkomt met het Nederlands en de rest van de vertaling. Voorstel: \"Een woord van een dokter\" of \"Een woord van een arts\" (houd dezelfde hoofdlettergebruikstijl als in de Nederlandse site).",
+        "translation_quote": "A Word From A Doctor"
+      },
+      {
+        "location": "source.subtitle / translation.subtitle",
+        "severity": "minor",
+        "source_quote": "PART 2",
+        "suggested_fix": "Vertaal de subtitel naar het Nederlands om consistentie met de hoofdtekst en Nederlandse lezers te behouden. Voorstel: \"DEEL 2\" of \"Deel 2\" afhankelijk van de huisstijl.",
+        "translation_quote": "PART 2"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

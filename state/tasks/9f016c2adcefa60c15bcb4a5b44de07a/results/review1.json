@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "16d08833-5fca-4bdf-9c66-92d1fce59aff",
+    "response_id": "chatcmpl-EUURWf6zTixjNCjhW4ea6AHVGppi7",
+    "usage": {
+      "completion_tokens": 1403,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3917,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5320
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 11 (English): “I think it’s part of the garage roof,” said Dad in disbelief while peering cautiously through the windows.",
+        "severity": "critical",
+        "source_quote": "“I think it’s part of the garage roof,” said Dad in disbelief while peering cautiously through the windows.",
+        "suggested_fix": "Translate the whole clause into idiomatic Hebrew and correct the noun for 'garage' and 'roof' (do not leave English words). For example: “אני חושב שזה חלק מגג המוסך,” אמר אבא בחוסר אמון כשהביט בזהירות דרך החלונות. Preserve punctuation and sentence order in HTML.",
+        "translation_quote": "“אני חושב שזה חלק ממסת הגרראז,” אמר אבא בחוסר אמון כשהסתכל בזהירות דרך החלונות."
+      },
+      {
+        "location": "Paragraph 13 (English): “Put away your toys; it’s about to storm!”",
+        "severity": "minor",
+        "source_quote": "“Quickly, children!” called Mom. “Put away your toys; it’s about to storm!”",
+        "suggested_fix": "Use a correct Hebrew verb for 'put away' (e.g., 'שימו/סדרו את הצעצועים' or 'אחסנו את הצעצועים'). Also render the exclamation 'Quickly, children!' idiomatically: “מהרו, ילדים! שימו את הצעצועים; עומדת להגיע סופה!”",
+        "translation_quote": "“מהר, ילדים!” קראה אמא. “אפו את הצעצועים; עומד להיות סופה!”"
+      },
+      {
+        "location": "Paragraph 3 (English): 'seek relief from the heat'",
+        "severity": "minor",
+        "source_quote": "while the rest of the family tried to find the most comfortable place to seek relief from the heat.",
+        "suggested_fix": "Use the correct Hebrew verb for 'seek relief'/'cool off', e.g. 'להתקרר' or 'לקבל הקלה מהחום': 'בעוד שיתר בני המשפחה ניסו למצוא את המקום הנוח ביותר כדי להתקרר מהחום.' Preserve sentence structure.",
+        "translation_quote": "...ניסו למצוא את המקום הכי נוח להתקייד מהחום."
+      },
+      {
+        "location": "Paragraph 4 (English): 'and the thunder rumbled in the distance.'",
+        "severity": "minor",
+        "source_quote": "Lightning started to flash across the sky and the thunder rumbled in the distance.",
+        "suggested_fix": "Render 'thunder rumbled in the distance' into natural Hebrew, e.g. 'ורעם רעם במרחק' or 'ורעם נשמע במרחק.'",
+        "translation_quote": "ברקים החלו להבהב בשמיים ורעם הפעם בוחש במרחק."
+      },
+      {
+        "location": "Paragraph 1 (English): '“My, it’s warm!” exclaimed Mom.'",
+        "severity": "minor",
+        "source_quote": "“My, it’s warm!” exclaimed Mom.",
+        "suggested_fix": "Correct gender/number agreement: use 'איזה חום!' not 'איזו חום!'. Example: “איזה חום!” קראה אמא.",
+        "translation_quote": "“איזו חום!” קראה אמא."
+      },
+      {
+        "location": "Paragraph 18 (English): 'The wail of sirens could be heard in the distance'",
+        "severity": "minor",
+        "source_quote": "The wail of sirens could be heard in the distance and as they looked around the neighborhood, they could see smoke just beyond some trees.",
+        "suggested_fix": "Translate 'the wail of sirens' idiomatically as 'נהמת הסירנות נשמעה במרחק' or 'צווחות הסירנות נשמעו במרחק'. Replace the incorrect word 'צריח' with the correct noun.",
+        "translation_quote": "צריח הסירנות נשמע במרחק וכשהביטו סביב בשכונה, הם ראו עשן מעבר לעצים."
+      }
+    ],
+    "passed": false,
+    "score": 65
+  }
+}

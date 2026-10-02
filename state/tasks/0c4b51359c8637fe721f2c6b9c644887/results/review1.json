@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6be73ca4-deae-4529-8159-0316597b50db",
+    "response_id": "chatcmpl-EUURfop3YZZDWAyQznSRk0OkKj3zO",
+    "usage": {
+      "completion_tokens": 1249,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11054,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12303
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — Psalm 103:2-3 (paragraph with quoted Scripture)",
+        "severity": "major",
+        "source_quote": "Bless the LORD, O my soul, and forget not all his benefits: Who forgiveth all thine iniquities; who healeth all thy diseases –Psalm 103:2-3.",
+        "suggested_fix": "Translate the verse faithfully into Hindi without adding or changing meaning. Replace the current corrupted line with a correct Hindi rendering that preserves the verse content and chapter/verse numbers. For example (preserve HTML tags and emphasis as in source): <em>प्रभु की स्तुति कर, मेरी आत्मा, और उसकी सारी भलों को न भुला: जिसने तेरे सारे अपराधों को क्षमा किया; जिसने तेरे सारे रोग चंगा किए – भजन संहिता 103:2-3.</em>",
+        "translation_quote": "<em>प्रभु की स्तुति कर, मेरी आत्मा, और उसकी सारी भलों को न भुला: जिसने तेरी सारी कोरोना की बातें क्षमा की; जिसने तेरे सारे रोग चंगा किए – भजन संहिता 103:2-3।</em>"
+      },
+      {
+        "location": "source.html — paragraph about exploratory surgery (one sentence)",
+        "severity": "minor",
+        "source_quote": "Many people do seem to get sicker after having an exploratory surgery when their cancer is being diagnosed.",
+        "suggested_fix": "Translate the phrase 'exploratory surgery' into Hindi or provide a commonly used transliteration with an explanatory Hindi term, rather than leaving a mixed-language phrase. Example replacement (preserve HTML): \"कई लोग ऐसा प्रतीत करते हैं कि जब उनके कैंसर का निदान हो रहा होता है तो खोजी शल्यक्रिया (exploratory surgery) के बाद वे और भी अधिक अस्वस्थ हो जाते हैं।\" Or fully Hindi: \"खोजी शल्यक्रिया के बाद...\"",
+        "translation_quote": "... कई लोग Exploratory सर्जरी के बाद अस्वस्थ प्रतीत होते हैं ..."
+      },
+      {
+        "location": "source.title, source.subtitle, source.section",
+        "severity": "minor",
+        "source_quote": "Title: Cancer\nSubtitle: PART 2\nSection: A Word From A Doctor",
+        "suggested_fix": "Translate the title, subtitle and section into standard Hindi (contemporary Devanagari) or use appropriate conventional Hindi renderings. Preserve the exact field values (not HTML) but replace with translated text. Suggested translations: title: \"कैंसर\"; subtitle: \"भाग 2\" or \"भाग-दो\" (keep formatting consistent with site style); section: \"डॉक्टर से एक शब्द\" or \"डॉक्टर का शब्द\". Do not change other metadata structure.",
+        "translation_quote": "title: \"Cancer\"; subtitle: \"PART 2\"; section: \"A Word From A Doctor\""
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

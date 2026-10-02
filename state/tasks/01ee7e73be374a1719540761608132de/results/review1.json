@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ca03941b-dc21-4b2b-82c9-3020fecd4bca",
+    "response_id": "chatcmpl-EUURlGicSezgOUTTRbF32ubTGPlGp",
+    "usage": {
+      "completion_tokens": 1058,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6676,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7734
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first paragraph (quoted commands)",
+        "severity": "major",
+        "source_quote": "“bless them that persecute you” and “love your enemies”.",
+        "suggested_fix": "Translate both quoted commands into natural, accurate Hindi and replace the garbled/partly-English rendering. For example: “जो तुम्हें सताते हैं, उन्हें आशीर्वाद दो” और “अपने शत्रुओं से प्रेम करो”。 Preserve the quotation marks and punctuation exactly as in the source HTML.",
+        "translation_quote": "\"आवspraak करने वालों को आशीर्वाद दो\" और \"अपने शत्रुओं से प्रेम करो\"।"
+      },
+      {
+        "location": "source.html — paragraph about crop rotation / legumes (third and fourth paragraphs)",
+        "severity": "minor",
+        "source_quote": "Another major improvement was the introduction of the legume, clover.",
+        "suggested_fix": "Render 'legume' and 'clover' accurately in Hindi. For example: \"एक और प्रमुख सुधार फलियों के पौधे का परिचय था, विशेषकर क्लोवर।\" Keep punctuation and placement inside the paragraph unchanged.",
+        "translation_quote": "एक और प्रमुख सुधार चौड़ाई फलियों का परिचय था, विशेषकर क्लोवर।"
+      },
+      {
+        "location": "source.section (metadata)",
+        "severity": "minor",
+        "source_quote": "Victorious Christian Living",
+        "suggested_fix": "Translate the section name into contemporary standard Hindi instead of transliterating. For example: \"विजयी ईसाई जीवन\" (or another site-preferred Hindi rendering). Update the translation field value for section accordingly.",
+        "translation_quote": "विक्टोरियस क्रिश्चियन लिविंग"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

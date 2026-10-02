@@ -2,7 +2,6 @@
   "article_id": "b3c8e9e3-2b81-4f91-846f-23e68fbd5b70",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 9791
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1362,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9441,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10803
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html — first <p> (drop-cap verse block)",
+      "severity": "minor",
+      "source_quote": "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2 Timothy 1:4-7.",
+      "suggested_fix": "The translation currently renders صوابدیدی فکر for “sound mind,” which is understandable but non-idiomatic in Urdu. Use a more natural phrase such as ‘صحت مند عقل’ or ‘صحیح فکر’ while preserving the verse formatting and tags.",
+      "translation_quote": "...کیونکہ خدا نے ہمیں خوف کا روح نہیں دیا، بلکہ قوت و محبت اور صوابدیدی فکر کا روح دیا ہے۔ –2 تِموتھی 1:4-7۔"
+    },
+    {
+      "location": "source.html — paragraph beginning “Jesus has come to meet that heart longing.”",
+      "severity": "major",
+      "source_quote": "Jesus has come to meet that heart longing.",
+      "suggested_fix": "The translation renders this sentence incorrectly as “یسوع نے ان دل کی خواہشات کو پورا کرنے کے لئے آیات کیا۔” which is garbled and changes meaning. Replace with a clear Urdu rendering preserving meaning, e.g.: “یسوع ان دل کی خواہشات کو پورا کرنے کے لیے آئے ہیں۔” Keep the same HTML tag and position.",
+      "translation_quote": "یسوع نے ان دل کی خواہشات کو پورا کرنے کے لئے آیات کیا۔"
+    },
+    {
+      "location": "source.html — paragraph about Sarah being Abraham’s half-sister (Genesis 12:13 paragraph)",
+      "severity": "critical",
+      "source_quote": "Sarah was indeed Abraham’s half-sister. They had the same father, but not the same mother.",
+      "suggested_fix": "The translation renders ‘half-sister’ incorrectly as “کنیز بہن” (which reads as ‘servant sister’ or is nonsensical here), changing the factual relationship stated in the source. This is a substantive factual error and must be corrected. Replace with an accurate Urdu phrase such as “سارہ درحقیقت ابراہیم کی آدھی بہن تھیں۔ ان کے باپ ایک ہی تھے مگر ماں مختلف تھی۔” Preserve punctuation and HTML tags.",
+      "translation_quote": "سارہ واقعی ابراہیم کی کنیز بہن تھی۔ ان کے باپ ایک ہی تھے مگر ماں علیحدہ تھی۔"
+    },
+    {
+      "location": "source.html — paragraph quoting 1 Peter 3:6 (Sarah obeyed Abraham)",
+      "severity": "major",
+      "source_quote": "…Sara obeyed Abraham, calling him lord: whose daughters ye are, as long as ye do well, and are not afraid with any amazement –1 Peter 3:6.",
+      "suggested_fix": "The translation’s rendering is garbled and alters sense: “…سارہ ابراہیم کا اطاعت کرتی تھی، اسے رب کہتی تھی: تمہارے بیٹیاں ہو، جب تک تم بھلا کر رہی اور کسی قسم کے ڈر سے غافل نہ ہو—1 پطرس 3:6.” Re-translate the verse phrase faithfully in idiomatic Urdu, e.g.: “اور سارہ ابراہیم کی اطاعت کرتی تھی، اسے ‘خُداوند’ کہتی تھی۔ تم اسی حال میں اس کی بیٹیاں ہو جب تک تم بھلائی کرو اور کسی چیز کے سبب نہ ڈرو۔ –1 پطرس 3:6.” Keep the verse formatting and tags.",
+      "translation_quote": "...سارہ ابراہیم کا اطاعت کرتی تھی، اسے رب کہتی تھی: تمہارے بیٹیاں ہو، جب تک تم بھلا کر رہی اور کسی قسم کے ڈر سے غافل نہ ہو—1 پطرس 3:6."
     }
   ],
   "id": "0bd06dc99d8995a87ad7267ab13f603a",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 62,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8cfe76a75d2704a515e0bc44af297afb5a26a042a45e137da71cec303c344e97.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "84afe7c1fae039864478445557b2cd71f3647f31db181086b533ee7c5b51637a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

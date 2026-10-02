@@ -2,7 +2,6 @@
   "article_id": "2b07502a-cbf0-4b92-8bb8-7910a5557f84",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:09+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 6216
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1156,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6005,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7161
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "source.html paragraph 2 (\"In some places, like the Palatinate...\")",
+      "severity": "minor",
+      "source_quote": "In the mid-1600s, the local Prince, Elector Ludwig, invited the exiled Swiss Brethren into the Palatinate to help rebuild the farms because of their reputation as excellent husbandmen and tillers of the soil.",
+      "suggested_fix": "Capitalize the sentence-initial letter in the corresponding translation paragraph so it reads \"A mediados de 1600, el príncipe local, el elector Ludwig, invitó...\" (preserve existing HTML tags and attributes).",
+      "translation_quote": "a mediados de 1600, el príncipe local, el elector Ludwig, invitó a los Hermanos Suizos exiliados al Palatinado para ayudar a reconstruir las granjas debido a su reputación como excelentes agricultores y labradores de la tierra."
+    },
+    {
+      "location": "source.html paragraph 7 (\"Also elk, timber bison, and whitetail deer...\")",
+      "severity": "minor",
+      "source_quote": "There were also elk, timber bison, and whitetail deer in abundance (which were glad to eat whatever the settlers planted).",
+      "suggested_fix": "Use a more natural Spanish rendering of \"timber bison\"—for example, \"bisonte de las madera\" is also awkward; better: \"bisonte norteño\" or \"bisonte\" depending on target readership. Suggested translated phrase: \"También abundaban alces, bisontes y ciervos de cola blanca (los cuales estaban más que dispuestos a comer lo que los colonos plantaban).\" Preserve HTML tags and paragraph structure.",
+      "translation_quote": "También había alces, bisonte de madera y ciervos de cola blanca en abundancia (los cuales estaban más que dispuestos a comer lo que los colonos plantaran)."
+    },
+    {
+      "location": "source.html paragraph 7 (\"Huge walnut, hickory, chestnuts, maples...\")",
+      "severity": "minor",
+      "source_quote": "Huge walnut, hickory, chestnuts, maples, white pines, and oaks, some six feet in diameter and over 100 feet tall, covered much of their new lands",
+      "suggested_fix": "\"Hickory\" was translated as \"nogalinas\", an uncommon term in Spanish. Use a more standard Spanish name such as \"nogal\" or \"hickory\" (kept as loanword) depending on audience. Suggested translation: \"Enormes nogales, hickory (o nogalinas), castaños, arces, pinos blancos y robles...\" Preserve HTML tags and attributes.",
+      "translation_quote": "Enormes nogales, nogalinas, castaños, arces, pinos blancos y robles, algunos de seis pies de diámetro y más de 100 pies de altura, cubrían gran parte de sus nuevas tierras (excepto algunos prados abiertos, dejados por los nativos americanos, y humedales)."
+    }
+  ],
+  "finished_at": "2026-10-02T11:17:44+00:00",
   "id": "dcbbf73c2042e1b25ed97b8b5422064a",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "spa",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/589bbbf06d53e840c1b02c16b5a0e9d55ee78fbc01185cea481271c35d6c3b97.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "b3e43e634638cbb2acbfd582a6dcb7a3f9f4e2dc77e578bc59a693261f0aa67b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

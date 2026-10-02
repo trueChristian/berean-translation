@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d5b0f97b-9f12-4713-bfcf-db30cd2847fc",
+    "response_id": "chatcmpl-EUURSXruMi9esohLw7TEYkvC6KspA",
+    "usage": {
+      "completion_tokens": 1305,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8676,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9981
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 3 (opening of third paragraph): \"Now, two thousand years since Christ gave that promise...\" and repeated elsewhere (e.g., final section \"In our time, the end seems imminent...\")",
+        "severity": "major",
+        "source_quote": "Now, two thousand years since Christ gave that promise, His soon return seems just as imminent as it did to the first century believers.",
+        "suggested_fix": "Replace the Afrikaans word 'onminlik' (which means 'unpleasant') with a correct rendering of 'imminent'—for example 'onmiddel­lik' or 'nabysk'—so the intended meaning ('soon/near') is preserved. Example correction: 'Nou, tweeduisend jaar sedert Christus daardie belofte gegee het, lyk Sy spoedige wederkoms net so onafwendbaar (or 'onmiddellik') soos dit vir die gelowiges van die eerste eeu gelyk het.'",
+        "translation_quote": "Nou, tweeduisend jaar sedert Christus daardie belofte gegee het, lyk Sy spoedige wederkoms net so onminlik soos dit vir die gelowiges van die eerste eeu gedoen het."
+      },
+      {
+        "location": "Paragraph describing Menno and the Anabaptists (around the paragraph that begins 'The first, led by the two Philips brothers...')",
+        "severity": "major",
+        "source_quote": "This would be the church of Menno Simmons, and the root of the Mennonite churches of today.",
+        "suggested_fix": "Correct the proper name to the authoritative form used in the source: 'Menno Simons' (not 'Menno Simmons'). Preserve spelling and diacritics appropriate for Afrikaans if needed, but do not alter the author's cited proper name. Example correction: 'Dit sou die kerk van Menno Simons wees, en die wortel van die Mennonitiese kerke van vandag.'",
+        "translation_quote": "Dit sou die kerk van Menno Simmons wees, en die wortel van die Mennonitiese kerke van vandag."
+      },
+      {
+        "location": "Paragraph with the quoted John 21:22 near the opening (first paragraph): the quoted Scripture",
+        "severity": "critical",
+        "source_quote": "<em>If I will that he [John] tarry till I come, what is that to thee? follow thou me. John 21:22.</em>",
+        "suggested_fix": "Restore a faithful Afrikaans rendering of the quoted Scripture that preserves the original grammatical force and meaning. The translation currently changes the imperative 'follow thou me' into a question. Provide an authoritative literal translation that reflects the command: for example, 'As ek wil dat hy bly totdat ek kom, wat is dit vir jou? Volg my.' or 'As ek wil dat hy bly totdat ek kom, wat het dit met jou te doen? Volg my.' Ensure punctuation and verse reference remain as in the source and that the quoted text is rendered as quoted Scripture in Afrikaans.",
+        "translation_quote": "<em>As ek wil dat hy bly totdat ek kom, wat is dit vir jou? Volg jy my. Johannes 21:22.</em>"
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

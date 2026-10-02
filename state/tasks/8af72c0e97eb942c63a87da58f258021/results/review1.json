@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b29ce65e-7308-44bf-9772-58e5246e6a74",
+    "response_id": "chatcmpl-EUURGPEaKGidD7NW6v87cFwaHCCLs",
+    "usage": {
+      "completion_tokens": 1160,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5161,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6321
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<figure> <figcaption> (scripture line)",
+        "severity": "major",
+        "source_quote": "Draw nigh to God, and he will draw nigh to you. -Jas. 4:8",
+        "suggested_fix": "Translate the Scripture verse into standard contemporary Dutch, preserving meaning and the reference: e.g. \"Nader tot God, en Hij zal tot u naderen. -Jak. 4:8\" (use conventional Dutch book name abbreviation Jak. and keep verse numbers unchanged). Replace the current line with that translation and preserve the exact figcaption HTML structure.",
+        "translation_quote": "Naad u tot God, en Hij zal tot u naderen. -Jas. 4:8"
+      },
+      {
+        "location": "Throughout article (mentions of hymn title in running text and quoted accounts)",
+        "severity": "major",
+        "source_quote": "\"Nearer, My God, to Thee\" (multiple occurrences in source HTML)",
+        "suggested_fix": "Translate all quoted substantive English hymn titles and quoted lines into Dutch in-line (not only the hymn text block). The source repeatedly quotes the hymn title in English; these must be rendered in Dutch consistently (for example: \"Nader, mijn God, tot U\" or another consistent contemporary Dutch rendering decided by editor). Preserve quotation marks and the number and placement of references; do not leave the quoted substantive prose in English.",
+        "translation_quote": "\"Nearer, My God, to Thee\" (left in English in several paragraphs)"
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

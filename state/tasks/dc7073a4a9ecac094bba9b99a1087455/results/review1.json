@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3cc8fa84-d438-4e1a-8f5a-f98b31cd3931",
+    "response_id": "chatcmpl-EUURHutFH3nYqRitgl7j8mVOVRTwd",
+    "usage": {
+      "completion_tokens": 953,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6578,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7531
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning \"Eunice was a Jewess...\" (source.html) — proper name",
+        "severity": "major",
+        "source_quote": "We read that unfeigned faith was first wrought in her mother Lois, and that affected Eunice.",
+        "suggested_fix": "Restore the mother's name to match the authoritative English: translate \"Lois\" as \"Lois\" (use conventional Spanish spelling only if the author used it; here the author printed \"Lois\"). Example revision (preserve surrounding HTML tags):\n\n...Leemos que la fe sincera fue primeramente obrada en su madre Lois, y eso afectó a Eunice.",
+        "translation_quote": "Leemos que la fe sincera fue primeramente obrada en su madre Loida, y eso afectó a Eunice."
+      },
+      {
+        "location": "Second paragraph after lead (source.html) — grammar/word-choice",
+        "severity": "minor",
+        "source_quote": "Our impotency is not caused due to the lack of God’s power, but because our dim understanding is infested and infiltrated with the influences of this present world.",
+        "suggested_fix": "Correct target-language grammatical agreement and natural phrasing. Replace \"nuestra entendimiento tenue\" with \"nuestro entendimiento tenue\" or preferably \"nuestro entendimiento limitado\" for clarity. Example revision (preserve surrounding HTML tags):\n\nNuestra impotencia no se debe a la falta del poder de Dios, sino a que nuestro entendimiento limitado está infestado e infiltrado por las influencias de este mundo presente.",
+        "translation_quote": "Nuestra impotencia no se debe a la falta del poder de Dios, sino a que nuestra entendimiento tenue está infestado e infiltrado por las influencias de este mundo presente."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

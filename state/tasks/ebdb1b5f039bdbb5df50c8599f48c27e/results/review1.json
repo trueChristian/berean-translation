@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5626b615-9d2c-4d5e-8623-89b38dafabf9",
+    "response_id": "chatcmpl-EUURHlCWeQIH19gg3TF1VdDXh5MUW",
+    "usage": {
+      "completion_tokens": 534,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3822,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4356
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html ¶10 (\"Then it began to rain. Great sheets of rain were being driven against the windows...\")",
+        "severity": "minor",
+        "source_quote": "Then it began to rain. Great sheets of rain were being driven against the windows and Ellie wondered if it was possible that it was raining hard enough to break the glass.",
+        "suggested_fix": "Use a Dutch phrase that more closely conveys heavy, driving rain. For example: \"Toen begon het te regenen. Grote regenvlagen sloegen tegen de ramen...\" or \"...Dikke regenvlagen dreven tegen de ramen...\" Replace the current sentence in the translation with one of these alternatives to better match the image of heavy sheets of rain.",
+        "translation_quote": "Toen begon het te regenen. Grote plassen regen sloegen tegen de ramen en Ellie vroeg zich af of het mogelijk was dat de regen zo hard was dat het glas zou breken."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

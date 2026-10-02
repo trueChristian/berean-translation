@@ -6,9 +6,32 @@
       "campaign": "gh-36992568621",
       "event": "requested",
       "task": "fbec8653f2aee9ff9dbf2fb79e728d27"
+    },
+    {
+      "at": "2026-10-02T11:17:44+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "fbec8653f2aee9ff9dbf2fb79e728d27"
     }
   ],
   "language": "kor",
   "latest_task": "fbec8653f2aee9ff9dbf2fb79e728d27",
-  "published": null
+  "published": {
+    "html_path": "content/kor/articles/f21c4f39-9508-4f75-9e0c-0c68468c41f8.html",
+    "html_sha256": "cac0e607601502d0593bf5aa593c82ffc48c0eff39e14cfa78a337f7a57a06bb",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
+    "metadata_path": "content/kor/articles/f21c4f39-9508-4f75-9e0c-0c68468c41f8.json",
+    "metadata_sha256": "93f572bec35be6c82ea7e5b23a8488086c9d4a8d84697ed8bd1f8cd700039796",
+    "model": "gpt-5-mini-2025-08-07",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"ko\" dir=\"ltr\" role=\"note\">\n  <p>이 글은 OpenAI의 인공지능(모델: gpt-5-mini-2025-08-07)으로 번역되었으며 아직 사람의 검토를 거치지 않았습니다. 영어 원문이 권위 있는 기준입니다. 의미가 불확실한 경우 영어 원문을 확인해 주십시오. <a href=\"/en/articles/f21c4f39-9508-4f75-9e0c-0c68468c41f8/\" data-source-article-id=\"f21c4f39-9508-4f75-9e0c-0c68468c41f8\" hreflang=\"en\">영어 원문</a></p>\n</aside>",
+    "published_at": "2026-10-02T11:17:44+00:00",
+    "quality_score": 97,
+    "review_model": "gpt-5-mini-2025-08-07",
+    "source_revision": "9e6e1db340e802f71c7018950dc820482ecc4e5e",
+    "source_snapshot": "state/sources/1896269e1d50cee8808d069728099a272936b67afb461b50cf790049cb1e46b5.json",
+    "task": "fbec8653f2aee9ff9dbf2fb79e728d27",
+    "translation_key": "ea6f4c2c1d99d58d1a9f3a20171db73a83fd2eecbd0478f01bb5f8591bf41415"
+  }
 }

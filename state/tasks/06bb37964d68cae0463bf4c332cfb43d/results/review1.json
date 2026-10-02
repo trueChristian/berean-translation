@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a4856dc4-879b-47f5-9afb-78b81ba164f1",
+    "response_id": "chatcmpl-EUURJ2ccRvuJgyNLhCgiDdK31w6X0",
+    "usage": {
+      "completion_tokens": 1713,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8183,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9896
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.title / translation.title",
+        "severity": "major",
+        "source_quote": "Drift",
+        "suggested_fix": "Translate the title as a natural Bengali equivalent of the English title that preserves the meaning (not a literal compound). Replace the translated title value with: বিচ্যুতি",
+        "translation_quote": "প্রবাহ-বিচ্যুতি"
+      },
+      {
+        "location": "source.html paragraph containing Matthew quotation / translation same paragraph",
+        "severity": "major",
+        "source_quote": "For whosoever will save his life shall lose it: and whosoever will lose his life for my sake shall find it –Matthew 16:25.",
+        "suggested_fix": "Use a conventional Bengali book name for the Gospel of Matthew. Replace the book name token only (keep the chapter:verse unchanged). For example: “—ম্যাথিউ 16:25।” (or “—মথি 16:25।” depending on your publication’s house style). Do not change the quoted English verse numbers or punctuation.",
+        "translation_quote": "—উপদেশক 16:25।"
+      },
+      {
+        "location": "source.html Dress section paragraph 1 / translation Dress section paragraph 1",
+        "severity": "major",
+        "source_quote": "This is the most obvious, but also the most overlooked. The worldly church says, “It’s the heart that counts, so how we appear on the outside doesn’t matter”. Are the Anabaptists falling for this? The world used to dress modestly, but television and Hollywood began to promote a focus on the human body. Surely the church wouldn’t follow Hollywood. But what is the difference—a woman of the world who is obviously dressed immodestly, or a woman of the church dressed with a cape dress that is form-fitting, and with a little covering hanging skimpily on the back of her head? There is little difference, except the one claims to be a Christian and the other one doesn’t. Dear ones, the world is laughing at us.",
+        "suggested_fix": "Remove the corrupted non‑Bengali characters and re‑render the sentence idiomatically in Bengali. Replace the corrupted phrase and the sentence around it with a clean Bengali rendering that preserves the source meaning. Example replacement (preserve HTML tags and paragraph boundaries): “এটি সবচেয়ে স্পষ্ট, কিন্তু একই সঙ্গে সবচেয়ে প্রশ্রয়হীনভাবে উপেক্ষিত। জগতীয় চার্চ বলে, ‘হৃদয়ই গুরুত্বপূর্ণ, বাইরের চেহারা গুরুত্বপূর্ণ নয়।’ অনাবাপটিস্টরা কি এটাতে ভুগছে? বিশ্ব আগে লাজুকভাবে পোশাক پہنت—কিন্তু টেলিভিশন ও হলিউড মানুষের দেহকে কেন্দ্র করে সাজসজ্জাকে প্রচার করে।”",
+        "translation_quote": "এটি সবচেয়ে স্পষ্ট, কিন্তু একই সঙ্গে সবচেয়ে নজরকাড়া ভাবে উপেক্ষিত। светান্দ্ব——বিশ্বদৃশ্যে চার্চ বলে, “মনে হলো হৃদয়ই গণ্য, তাই বাইরের দেখায় কেমন তা ব্যাপার না”। অনাবাপটিস্টরা কি এতে হারাচ্ছে?"
+      },
+      {
+        "location": "source.html first paragraph (handsaw sentence) / translation first paragraph",
+        "severity": "minor",
+        "source_quote": "He tried to casually guide the old handsaw back towards the line, while continuing to talk with the men, not making a big deal of it.",
+        "suggested_fix": "Translate 'handsaw' with a standard Bengali noun and remove awkward hyphenation. For example: 'পুরনো হাতকাঠোর (handsaw)' should be rendered idiomatically as 'পুরনো হাত লাগনার করাত' or simply 'পুরনো করাত' depending on style. Keep the sentence structure and HTML tags unchanged.",
+        "translation_quote": "তিনি আলপথে পুরনো হ্যান্ডস-সা কে রেখায় ফিরিয়ে আনতে চেস্টা করলেন, কথা বলতেই থাকলেন, এটাকে বড় করে দেখালেন না।"
+      },
+      {
+        "location": "source.html multiple Scripture references / translation corresponding paragraphs",
+        "severity": "minor",
+        "source_quote": "John 14:15; 1 John 2:4; John 13:35; James 5:5-6; Luke 8:14; 2 Timothy 3:1-5; Revelation 3:15-16; Ephesians 4:11-13; 1 Corinthians 5 (numbers and positions)",
+        "suggested_fix": "Book names should use conventional Bengali forms consistently (for example, use ইপিফেসিয়ান or এফিসীয়ান for Ephesians depending on house style). Verify all book name renderings for consistency and replace any nonstandard or awkward forms (e.g., 'ইওহান্না' and 'ইওহান্না' are acceptable for John; choose one form and use it consistently). Do not alter chapter and verse numbers or their placement. Ensure the book names are in Bengali script and idiomatic.",
+        "translation_quote": "—ইওহান্না 14:15। ... —1 ইউহান্না 2:4। ... —ইওহান্না 13:35। ... —যাকোব 5:5-6। ... —লুকা 8:14। ... —2 তিমথিয়ু 3:1-5। ... —প্রকাশিত বাক্য 3:15-16। ... —এফিসিয়ান 4:11-13। ... (1 করিন্থীয় 5)"
+      }
+    ],
+    "passed": false,
+    "score": 62
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "3be24d0c-4c97-452e-b3c3-177e16d990ff",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 8252
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1816,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8039,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9855
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<p>Paragraph beginning “Eunice was a Jewess…” (source.html third-to-last paragraph before the 1 Timothy 4:5 inline quote)",
+      "severity": "critical",
+      "source_quote": "Eunice was a Jewess, who, upon embracing faith in Christ, found herself in an unequal yoke with a Greek. We read that unfeigned faith was first wrought in her mother Lois, and that affected Eunice. This, in turn, had a sanctifying effect on young Timothy, who was then prepared for the work of the Lord. We have no record that his father was added to the faith, but one can only imagine the initial turmoil within the breast of this young Jewess as she reverently honored her head and circumcised not her son but rather committed him to prayer.",
+      "suggested_fix": "Render the whole sentence faithfully in contemporary Modern Greek, preserving the meaning that Eunice reverently honoured her husband (her head) and did not circumcise her son but instead committed him to prayer. Fix the corrupted token and the altered sense. For example (replace only the inner text, keep HTML tags):\n\nΕυνίκη ήταν Ιουδαία, που, όταν ασπάστηκε την πίστη στον Χριστό, βρέθηκε σε άνιση ένωση με έναν Έλληνα. Διαβάζουμε ότι η αληθινή πίστη πρώτα ενεργήθηκε στη μητέρα της, Λωΐς, και αυτό επηρέασε την Ευνίκη. Τούτο με τη σειρά του άσκησε αγιάζουσα επίδραση στον νεαρό Τιμόθεο, που τότε ετοιμάστηκε για το έργο του Κυρίου. Δεν έχουμε καταγραφή ότι ο πατέρας του προστέθηκε στην πίστη, αλλά μπορούμε να φανταστούμε την αρχική αναταραχή στην ψυχή αυτής της νεαρής Ιουδαίας καθώς ευλαβικά τιμούσε τον άνδρα της ως κεφαλή και δεν περιέκοψε (circumcised) τον γιο της, αλλά τον παρέδωσε στην προσευχή.\n\n(Adjust wording to match the publication's style; do not change HTML structure.)",
+      "translation_quote": "Η Ευνίκη ήταν Ιουδαία, η οποία, αφού ασπάστηκε την πίστη στον Χριστό, βρέθηκε σε άνισο ζυγό με έναν Έλληνα. Διαβάζουμε ότι αληθινή πίστη πρώτα δούλευε στη μητέρα της Λωΐδα, και αυτό επηρέασε την Ευνίκη. Αυτό, με τη σειρά του, είχε αγιάζουσα επίδραση στον νεαρό Τιμόθεο, που τότε ετοιμάστηκε για το έργο του Κυρίου. Δεν έχουμε καταγραφή ότι ο πατέρας του προστέθηκε στην πίστη, αλλά μπορεί κανείς να φανταστεί τα αρχικά αναταραχή στην ψυχή αυτής της νεαρής Ιουδαίας καθώς τίμησε ευλαβικά την προϊσταμένη της θέση και δεν περιέcircμως τον γιο της αλλά τον παρέδωσε στην προσευχή."
+    },
+    {
+      "location": "<article>opening blockquote and multiple in-text scripture quotations (source.html blockquotes and inline italic scripture quotes)",
+      "severity": "major",
+      "source_quote": "All blockquoted and inline Scripture quotations as printed in the authoritative English article (examples: “For the unbelieving husband is sanctified by the wife... –1 Corinthians 7:14-16.”; multiple other NT/OT citations)",
+      "suggested_fix": "The translation uses several archaic/Koine-style forms and diacritics (e.g., presence of polytonic characters like initial rough breathing marks and forms such as ἁγία, usage of clause punctuation and syntactic archaisms) which conflict with the project's instruction to use contemporary Modern Greek. Revise the Scripture translations and any inline quoted scripture passages to contemporary Modern Greek orthography and idiom (monotonic accentuation, modern vocabulary and syntax) while preserving the exact chapter:verse references and the printed meaning. Example: replace «ἁγία …» with «αγία …», and remove polytonic diacritics throughout scripture quotes. Do not alter verse numbers or the order/placement of quotations. Keep HTML tags unchanged.",
+      "translation_quote": "Examples include: «…τώρα όμως είναι ἁγία …» (1 Corinthians quote) and Greek-archaic particles/diacritics and wordforms present across blockquotes (e.g., in John 17:6-17 blockquote)."
+    },
+    {
+      "location": "<p>Paragraph that begins “The inside sanctified by faith and prayer” — sentence quoting Proverbs 4:23 inline (source.html inline scripture after that paragraph)</p>",
+      "severity": "minor",
+      "source_quote": "…for out of it are the issues of life –Proverbs 4:23.",
+      "suggested_fix": "The inline rendering of Proverbs 4:23 in the translation is correct in sense but should use contemporary, idiomatic Modern Greek phrasing and monotonic accents. For fidelity and readability, render the verse in a natural Modern Greek version equivalent (keeping verse numbers unchanged). Example replacement (preserve HTML tags): «…γιατί αφ' ὧν ἐκπορεύονται τὰ ῥεύματα τῆς ζωῆς –Παροιμίες 4:23.» → better contemporary: «…γιατί από αυτήν προέρχονται οι πηγές της ζωής –Παροιμίες 4:23.»",
+      "translation_quote": "«…διότι από αυτήν εξέρχονται οι πηγές της ζωής –Παροιμίες 4:23.»"
     }
   ],
   "id": "736b8dbed712e63138b23fa35c82534e",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 68,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/54ee0eee893e8f116003f464d27484aec73d193d6d0149063d036fb9fd416e93.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "70ee1b1d710de512ea89ec934930eb1c2b6800a8dcbc40df2712b76ac2d1b4e0",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9843e84c-8cb1-4ff9-8017-f724157181be",
+    "response_id": "chatcmpl-EUURJhYxlbk71G1jzyV9JXjoib9vW",
+    "usage": {
+      "completion_tokens": 1519,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8696,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10215
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 1 (John quotation)",
+        "severity": "major",
+        "source_quote": "If I will that he [John] tarry till I come, what is that to thee? follow thou me. John 21:22.",
+        "suggested_fix": "Translate the quoted Scripture accurately into Kiswahili preserving the meaning of 'follow thou me'. For example: «Ikiwa nitamtaka yeye [Yohana] abaki hadi nitakaporudi, hilo linekugushe vipi? Mfuate mimi. Yohana 21:22.» Ensure the verb clearly means 'follow' (e.g., 'Mfuate mimi' or 'Mfuate mimi wewe').",
+        "translation_quote": "<em>Ikiwa nitahitaji yeye [Yohana] abaki hadi nitakaporudi, nini hilo lako? Umanike mimi. Yohana 21:22.</em>"
+      },
+      {
+        "location": "Paragraph 1 (phrase referring to those who call Jesus 'Lord')",
+        "severity": "major",
+        "source_quote": "by those who called Him Lord.",
+        "suggested_fix": "Use a standard Kiswahili rendering for 'Lord' here that preserves the theological sense (e.g., 'Bwana' or 'Mwana Bwana' depending on style). Replace 'Mwana-Koti' with 'Bwana' or 'Mwenye Bwana' as appropriate to the publication's usage. Example: 'na wale waliomwita Bwana.'",
+        "translation_quote": "na wale waliomwita Mwana-Koti."
+      },
+      {
+        "location": "Near end, Luke quotation (verb choice)",
+        "severity": "minor",
+        "source_quote": "...The days will come, when ye shall desire to see one of the days of the Son of man, and ye shall not see it. And they shall say to you, See here; or, see there: go not after them, nor follow them –Luke 17: 22-23.",
+        "suggested_fix": "Use a more idiomatic Kiswahili verb for 'desire' (e.g., 'mtatamani' or 'mtaumwa kutamani') and check punctuation/capitalization. Suggested rendering: «…Zitakuja siku mtakatamani kuona moja ya siku za Mwana wa Adamu, wala hamtaiona. Wataleta kwenu, ‘Tazama hapa’; au, ‘tazama pale’: msimfuate, wala msimwendee. — Luka 17:22-23.»",
+        "translation_quote": "<em>…Zitakuja siku, mtakazorota kuona moja ya siku za Mwana wa Adamu, wala hamtaiona. Wataleta kwenu, Tazama hapa; au, tazama pale: msimfuatie, wala msimfuate –Luka 17:22-23.</em>"
+      },
+      {
+        "location": "Paragraph beginning 'K katika mifano hii yote ...' (unexpected character)",
+        "severity": "minor",
+        "source_quote": "In all three of these examples, the prophecy contained in God’s Word was twisted into results that strayed far from the will of God for His children.",
+        "suggested_fix": "Remove stray character 'K' at start of paragraph and confirm first word begins the Kiswahili translation of the English sentence. For example: begin the paragraph with 'Katika mifano hii yote mitatu,...'",
+        "translation_quote": "<p>K katika mifano hii yote mitatu, unabii ulio katika Neno la Mungu uligeuzwa hadi matokeo yaliyorudia mbali na mapenzi ya Mungu kwa watoto Wake.</p>"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

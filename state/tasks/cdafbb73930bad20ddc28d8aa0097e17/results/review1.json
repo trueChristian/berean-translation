@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "500db46a-3005-4478-8fef-dcc89d430f71",
+    "response_id": "chatcmpl-EUURpowtauIXgbQWWhWBgX524H9OL",
+    "usage": {
+      "completion_tokens": 678,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1578,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2256
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> .poem p (stanza 3, line 1)",
+        "severity": "minor",
+        "source_quote": "The bills pile up for comforts and ease;",
+        "suggested_fix": "Replace the corrupted mixed-script word with a correct Bengali word. For example: \"বিলগুলো আরাম আর স্বস্তির জন্য জমে যায়;\" (keep the surrounding <p> tags and line break).",
+        "translation_quote": "আরাম আর স편তার জন্য বিল জমে যায়;"
+      },
+      {
+        "location": "<article> .poem p (stanza 4, line 1)",
+        "severity": "minor",
+        "source_quote": "We spend all our days chasing the dollar.",
+        "suggested_fix": "Replace the Urdu/mixed-script word with Bengali. For example: \"আমরা সব দিন কেবল ডলারের পিছু দৌড়াই।\" (preserve punctuation and <br> tag).",
+        "translation_quote": "ہمরা সব দিন কেবল ডলারের পিছু দৌড়াই।"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "2b07502a-cbf0-4b92-8bb8-7910a5557f84",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:09+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 6806
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1265,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6506,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7771
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Paragraph 2 (\"local Prince, Elector Ludwig\")",
+      "severity": "major",
+      "source_quote": "In the mid-1600s, the local Prince, Elector Ludwig, invited the exiled Swiss Brethren into the Palatinate to help rebuild the farms...",
+      "suggested_fix": "Translate the title accurately. Replace \"Mfalme mteule Ludwig\" with a phrase that conveys Elector rather than king (e.g., \"Waziri Mfalme mteule/Alimkaribia Mfalme mteule\" is incorrect). Use a Kiswahili phrase such as \"Mfalme mteule (Elector) Ludwig\" or better: \"Mfalme mteule (Elector) Ludwig\" is still confusing—recommended: \"Mchaguzi (Elector) Ludwig\" or \"Ludwig, Mchaguzi (Elector)\" so the historical office 'Elector' is preserved. Maintain the name order and keep the original historical term in parentheses if helpful: \"Mchaguzi (Elector) Ludwig\".",
+      "translation_quote": "Katikati za miaka ya 1600, Mkuu wa eneo hilo, Mfalme mteule Ludwig, alimkaribisha Wabrethreni waliotawanywa katika Pfaltzland ili kusaidia..."
+    },
+    {
+      "location": "Paragraph about Germantown (sentence: \"It seems that here is where the Swiss Brethren first became known as Mennists or Mennonites.\")",
+      "severity": "minor",
+      "source_quote": "It seems that here is where the Swiss Brethren first became known as Mennists or Mennonites.",
+      "suggested_fix": "Correct the mixed-language term. Replace \"Mennists au Mennonites\" with a Kiswahili rendering such as \"Mennists au Mennonites\" is mixing French; use \"Mennists au\" -> \"Mennists au\" should be fully Kiswahili/English: e.g., \"walianza kuitwa Mennists au Mennonites\" or better simply \"walipoanza kuitwa Mennonites (Mennists)\". Ensure only Kiswahili words or conventional names remain.",
+      "translation_quote": "Inaonekana hapa ndipo Wabrethreni wa Uswisi walipoanza kuitwa Mennists au Mennonites."
+    },
+    {
+      "location": "Paragraph beginning \"That is the background...\" (sentence including 'possibly they planned...')",
+      "severity": "minor",
+      "source_quote": "Possibly they planned to have him get settled in over there and then come back for her.",
+      "suggested_fix": "Remove the stray English word and make sentence idiomatic Kiswahili. Replace \"walipanga that Hans aangalie\" with \"inawezekana walipanga Hans aangalie kwanza huko, kisha arudi kumchukua\" or similar fluent Kiswahili.",
+      "translation_quote": "Inawezekana walipanga that Hans aangalie kabla ili kisha kurudi kumchukua."
     }
   ],
   "id": "e6f709be64a53a288b8f22da63a935fe",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 80,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/589bbbf06d53e840c1b02c16b5a0e9d55ee78fbc01185cea481271c35d6c3b97.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b3e43e634638cbb2acbfd582a6dcb7a3f9f4e2dc77e578bc59a693261f0aa67b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

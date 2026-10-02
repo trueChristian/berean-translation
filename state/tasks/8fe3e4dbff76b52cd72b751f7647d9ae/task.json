@@ -2,7 +2,6 @@
   "article_id": "cc225bc9-2dda-46f3-a628-13af4fd95e7a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 3419
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1158,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3080,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4238
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Paragraph about tractors (source.html third paragraph starting \"Forty-plus years ago...\")",
+      "severity": "minor",
+      "source_quote": "This causes most farmers to rely on the expertise of specialized repairmen which also cost a lot of money.",
+      "suggested_fix": "Translate or replace the English loanword with a natural Portuguese equivalent. For example: \"Isso faz com que a maioria dos agricultores dependa da especialização de reparadores especializados, o que também custa muito dinheiro.\" or \"...dependa da competência de reparadores especializados...\"",
+      "translation_quote": "Isso faz com que a maioria dos agricultores dependa da expertise de reparadores especializados, o que também custa muito dinheiro."
+    },
+    {
+      "location": "Paragraph about the Amish (source.html paragraph beginning \"Then there is the issue of cell phones and E-bikes.\")",
+      "severity": "minor",
+      "source_quote": "From my vantage point observing the Amish of Holmes County, these two items...",
+      "suggested_fix": "Capitalize the ethnonym to follow Portuguese conventions for proper names: \"Amish\" should be capitalized. For example: \"...observando os Amish do Condado de Holmes, esses dois itens...\"",
+      "translation_quote": "Do meu ponto de observação dos amish do Condado de Holmes, esses dois itens fizeram..."
+    },
+    {
+      "location": "Paragraph on losing \"saltiness\" (source.html paragraph beginning \"Then there was Covid.\")",
+      "severity": "minor",
+      "source_quote": "Let’s check our own interactions to ensure that we are still being God’s “light” and “salt” to this dark world, and that we are not losing our “saltiness”.",
+      "suggested_fix": "Consider a more idiomatic Portuguese rendering for \"saltiness\" to improve clarity. For example: \"...e que não estamos perdendo a nossa 'salgadura' (ou simplesmente 'o nosso sal').\" Either keep \"salgadura\" and add note/alternative, or use \"o nosso sal\" for smoother idiom.",
+      "translation_quote": "...e que não estamos perdendo nossa “salgadura”. Além disso, há sinais de procura de empregados por toda parte."
+    }
+  ],
+  "finished_at": "2026-10-02T11:17:43+00:00",
   "id": "8fe3e4dbff76b52cd72b751f7647d9ae",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "por",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/75bf9f86ddf02e207a89e1a74e3d26989515704eae85bcbc97e911af15e7ea76.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "1d62440b3aaa33963e8085784efc020cfa0cf8cb3b508148be95c55907a09059",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

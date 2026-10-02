@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "dc42e790-ca14-4a5d-8665-8092b0325807",
+    "response_id": "chatcmpl-EUURHi5AN6ZcE2d0ohj3BYOCYIVRS",
+    "usage": {
+      "completion_tokens": 854,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1549,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2403
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html / stanza 7 (\"We all know the Bible—no work, no eat.\")",
+        "severity": "major",
+        "source_quote": "We all know the Bible—no work, no eat.",
+        "suggested_fix": "Translate \"the Bible\" as \"الكتاب المقدس\" (not \"الإنجيل\") to preserve the original reference to the entire Bible. Example: \"كلنا نعرف الكتاب المقدس — من لا يعمل لا يأكل.\"",
+        "translation_quote": "كلنا نعرف الإنجيل — من لا يعمل لا يأكل،"
+      },
+      {
+        "location": "source.html / stanza 2 (\"They trade their lives, with no reason why.\")",
+        "severity": "minor",
+        "source_quote": "They trade their lives, with no reason why.",
+        "suggested_fix": "Avoid adding words that alter nuance. Translate more literally and idiomatically as \"يبيعون/يصرّفون حياتهم بلا سبب\" or \"يبيعون حياتهم دون سبب\". Example: \"يبيعون حياتهم بلا سبب.\"",
+        "translation_quote": "يبادلون حياتهم بلا سبب وبدون حدود."
+      },
+      {
+        "location": "source.html / stanza 8 (\"The love of money starts with a seed.\")",
+        "severity": "minor",
+        "source_quote": "The love of money starts with a seed.",
+        "suggested_fix": "Remove the extra phrase \"هكذا الحالة\" which adds an interpretation not present in the source. A faithful translation: \"حب المال يبدأ ببذرة.\"",
+        "translation_quote": "حب المال يبدأ ببذرةٍ صغيرةٍ، هكذا الحالة."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

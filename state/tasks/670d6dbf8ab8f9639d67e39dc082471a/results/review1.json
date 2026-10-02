@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "24629130-e05c-47a6-ae3b-203692cb4e9a",
+    "response_id": "chatcmpl-EUURFy2H9TiKyDBawORm7ibrM68Bq",
+    "usage": {
+      "completion_tokens": 637,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3996,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4633
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph 4 (lightning sentence)",
+        "severity": "minor",
+        "source_quote": "Lightning started to flash across the sky and the thunder rumbled in the distance.",
+        "suggested_fix": "Replace the verb 'flämta' with a natural Swedish verb for lightning, e.g. 'blixtarna började slå över himlen' or 'blixtarna började blixtra över himlen'.",
+        "translation_quote": "Blixtar började flämta över himlen och åskan mullrade i fjärran."
+      },
+      {
+        "location": "source.html paragraph 17 (garage roof / south wall)",
+        "severity": "minor",
+        "source_quote": "“Look!” said Dad. “The garage roof is gone and so is the south wall!”",
+        "suggested_fix": "Correct the grammatical article and word order to 'Garagetaket är borta och den södra väggen också!' or more smoothly 'Garagetaket är borta, och även den södra väggen!'.",
+        "translation_quote": "“Titta!” sade pappa. “Garagetaket är borta och det södra väggen också!”"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

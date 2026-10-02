@@ -2,7 +2,6 @@
   "article_id": "f21c4f39-9508-4f75-9e0c-0c68468c41f8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 4470
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1315,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4195,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5510
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<p>“That’s got to be Melvin’s barn burning!” exclaimed Dad. “I’m going to go see what I can do to help.”</p>",
+      "severity": "major",
+      "source_quote": "“That’s got to be Melvin’s barn burning!” exclaimed Dad.",
+      "suggested_fix": "ترجمے میں اس جملے کو واضح، فطری اردو میں درست کریں اور 'barn' کا مناسب ترجمہ استعمال کریں۔ مثال درست ترجمہ: “وہ تو میلون کا اصطبل جل رہا ہے!” یا “وہ میلون کی کھلیاں/آشیانہ جل رہا ہے!” (یہاں 'barn' کے لیے 'اصطبل' عام اور مناسب اصطلاح ہے).",
+      "translation_quote": "“وہ تو میلون کے کھیت کا عمار جل رہا ہے!” باپ نے کہا۔ “میں دیکھنے جا رہا ہوں کہ میں کیسے مدد کر سکتا ہوں۔”"
+    },
+    {
+      "location": "<p>The neighbor men tried desperately to rescue what cattle they could, but in the end, many of the steers could not be saved.</p>",
+      "severity": "critical",
+      "source_quote": "The neighbor men tried desperately to rescue what cattle they could, but in the end, many of the steers could not be saved.",
+      "suggested_fix": "یہاں 'steers' (نر چھوٹے بیل/گوشت کے لیے پالے گئے بیل) کو درست اردو میں ترجمہ کریں۔ 'بانسریاں' غلط اور معنی بدل دیتی ہے۔ درست ترجمہ کی مثال: “پڑوسی مرد مویشوں کو بچانے کی جان لڑا گئے، مگر آخر کار بہت سے بیل بچائے نہیں جا سکے۔” یا “...مگر آخرکار کئی اسٹیر/نر بیل بچائے نہیں جا سکے۔” ('بیل' یا 'نَر بیل' مناسب ہیں).",
+      "translation_quote": "پڑوسی مرد مویشوں کو بچانے کی کوشش میں جان لگاتے رہے، مگر آخرکار بہت سے بانسریاں بچائی نہیں جاسکیں۔"
+    },
+    {
+      "location": "<p>Indeed, the roof had been cleanly stripped away and the gable ends stoically stood there, holding up nothing.</p>",
+      "severity": "major",
+      "source_quote": "Indeed, the roof had been cleanly stripped away and the gable ends stoically stood there, holding up nothing.",
+      "suggested_fix": "'gable ends' اور اس جملے کا عمومی معنٰی درست اور فصیح اردو میں بحال کریں۔ مثلاً: “درحقیقت چھت بالکل اچھی طرح اتر چکی تھی اور گمبہ نما سلاخیں/چھت کے سِروں جیسی عمودی ساختیں بے جان کھڑی تھیں، جن کا کوئی سہارا نہیں تھا۔” یہاں 'gable ends' کے لیے 'گبلی حصے' یا 'چھت کے چوٹی والے سرے' استعمال کیا جا سکتا ہے۔",
+      "translation_quote": "واقعی، چھت صاف طور پر اتر گئی تھی اور گبل اینڈ بے تکلف کھڑے تھے، جو کچھ بھی سہارا دینے کے لیے کچھ نہیں رکھ رہے تھے۔"
     }
   ],
   "id": "70b604106d903decd9e39a8c7e413ab0",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1896269e1d50cee8808d069728099a272936b67afb461b50cf790049cb1e46b5.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "ea6f4c2c1d99d58d1a9f3a20171db73a83fd2eecbd0478f01bb5f8591bf41415",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

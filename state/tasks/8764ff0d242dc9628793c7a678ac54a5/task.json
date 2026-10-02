@@ -2,7 +2,6 @@
   "article_id": "2b07502a-cbf0-4b92-8bb8-7910a5557f84",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:09+00:00",
   "events": [
@@ -24,8 +23,58 @@
         },
         "total_tokens": 6701
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1463,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6298,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7761
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Paragraph: \"Huge walnut, hickory, chestnuts, maples, white pines, and oaks...\" (English source)",
+      "severity": "minor",
+      "source_quote": "Huge walnut, hickory, chestnuts, maples, white pines, and oaks, some six feet in diameter and over 100 feet tall, covered much of their new lands",
+      "suggested_fix": "Correct the tree list and ordering to reflect the English. Preserve sentence structure and measurements. For example: «Огромные ореховые (walnut), хикори (hickory), каштаны, клёны, белые сосны и дубы, некоторые диаметром около шести футов и высотой более 100 футов, покрывали большую часть их новых земель». Use conventional Russian names (e.g., «ореховое дерево» → «орехи/ореховые», or better «ореховые (walnut)», and render “hickory” as «хикори»).",
+      "translation_quote": "«Огромные клены, ореховые, каштаны, клены, белые сосны и дубы, некоторые диаметром в шесть футов и более 100 футов в высоту, покрывали... »"
+    },
+    {
+      "location": "Paragraph listing early settlers: \"Wendell Bowman & the Funks to name a few\"",
+      "severity": "minor",
+      "source_quote": "Wendell Bowman & the Funks to name a few",
+      "suggested_fix": "Correct the family name transliteration. Render 'the Funks' in a conventional Russian transliteration such as «Фанкс» or «семья Фанкс/Фанксов», depending on house style. For example: «Венделл Боуман и семья Фанкс, чтобы назвать некоторых».",
+      "translation_quote": "«Венделл Боуман и Фанки, чтобы назвать некоторых»"
+    },
+    {
+      "location": "Paragraph: description of first wife's role as local medical caregiver",
+      "severity": "minor",
+      "source_quote": "she was possibly the closest one to being a doctor for many miles around",
+      "suggested_fix": "Use idiomatic Russian phrasing to convey the intended meaning: e.g., «по-видимому, она была ближайшей к врачу персоной на многие мили вокруг» → «по-видимому, она была ближайшим к врачу человеком на многие мили вокруг» or better «по-видимому, она была единственным человеком, близким по уровню знаний до врача, на многие мили вокруг».",
+      "translation_quote": "«Возможно, она была ближайшей к врачу персоной на многие мили вокруг.»"
+    },
+    {
+      "location": "First paragraph: account of persecution/martyrdom",
+      "severity": "minor",
+      "source_quote": "Many were arrested, imprisoned, tortured mercilessly and finally, many were martyred for not recanting their faith.",
+      "suggested_fix": "Avoid the redundant repetition and keep the meaning faithful. Suggested Russian wording: «Многие были арестованы, заключены в тюрьмы, беспощадно подвергались пыткам и, в конце концов, многие были замучены до смерти за то, что не отреклись от веры.» (or remove duplication: «и в конце концов многие были замучены до смерти...»).",
+      "translation_quote": "«Многие были арестованы, заключены в тюрьму, беспощадно замучены, и в конце концов многие были замучены до смерти за то, что не отреклись от веры.»"
+    }
+  ],
+  "finished_at": "2026-10-02T11:17:43+00:00",
   "id": "8764ff0d242dc9628793c7a678ac54a5",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "rus",
@@ -69,11 +118,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/589bbbf06d53e840c1b02c16b5a0e9d55ee78fbc01185cea481271c35d6c3b97.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "b3e43e634638cbb2acbfd582a6dcb7a3f9f4e2dc77e578bc59a693261f0aa67b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

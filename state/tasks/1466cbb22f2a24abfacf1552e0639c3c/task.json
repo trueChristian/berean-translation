@@ -2,7 +2,6 @@
   "article_id": "b3c8e9e3-2b81-4f91-846f-23e68fbd5b70",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,6 +23,41 @@
         },
         "total_tokens": 8829
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 832,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8617,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9449
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.subtitle",
+      "severity": "minor",
+      "source_quote": "THE DISCIPLESHIP SERIES",
+      "suggested_fix": "Translate the subtitle into Bahasa Indonesia to match the authoritative English metadata. For example: \"SERIAL PEMURIDAN\" (or another appropriate Indonesian rendering) and keep it in the subtitle field. Do not change casing or HTML structure; only replace the English text with the Indonesian equivalent.",
+      "translation_quote": "THE DISCIPLESHIP SERIES"
+    },
+    {
+      "location": "source.html — paragraph containing 1 Peter 3:6 (Sarah/ Sara passage)",
+      "severity": "major",
+      "source_quote": "...Sara obeyed Abraham, calling him lord: whose daughters ye are, as long as ye do well, and are not afraid with any amazement –1 Peter 3:6.",
+      "suggested_fix": "The translation of the quoted Scripture (1 Peter 3:6) is garbled and does not render the meaning of the English verse. Replace the current Indonesian rendering with a faithful Indonesian translation of the cited verse text as printed in the English source, preserving the verse numbers and punctuation. A close, readable Indonesian rendering preserving the printed meaning would be: \"…Sara taat kepada Abraham dan menyebutnya tuan. Kamu adalah anak-anaknya, selama kamu berbuat baik dan janganlah takut terhadap sesuatu yang menakjubkan – 1 Petrus 3:6.\" Insert this in the same paragraph and preserve the surrounding HTML markup (emphasis tags, punctuation, and verse dash) exactly as in the source.",
+      "translation_quote": "...Sara taat kepada Abraham, menyapanya: Hai tuan; terhadap anak-anakmu engkaulah anak-anaknya, selama kamu berbuat baik dan tidak takut akan sesuatu yang mengejutkan – 1 Petrus 3:6."
     }
   ],
   "id": "1466cbb22f2a24abfacf1552e0639c3c",
@@ -69,11 +103,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8cfe76a75d2704a515e0bc44af297afb5a26a042a45e137da71cec303c344e97.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "84afe7c1fae039864478445557b2cd71f3647f31db181086b533ee7c5b51637a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

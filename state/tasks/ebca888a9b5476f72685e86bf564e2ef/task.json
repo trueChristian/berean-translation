@@ -2,7 +2,6 @@
   "article_id": "a6ab0f33-e20a-4b19-ae47-f094395a54f8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 1760
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 854,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1549,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2403
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html / stanza 7 (\"We all know the Bible—no work, no eat.\")",
+      "severity": "major",
+      "source_quote": "We all know the Bible—no work, no eat.",
+      "suggested_fix": "Translate \"the Bible\" as \"الكتاب المقدس\" (not \"الإنجيل\") to preserve the original reference to the entire Bible. Example: \"كلنا نعرف الكتاب المقدس — من لا يعمل لا يأكل.\"",
+      "translation_quote": "كلنا نعرف الإنجيل — من لا يعمل لا يأكل،"
+    },
+    {
+      "location": "source.html / stanza 2 (\"They trade their lives, with no reason why.\")",
+      "severity": "minor",
+      "source_quote": "They trade their lives, with no reason why.",
+      "suggested_fix": "Avoid adding words that alter nuance. Translate more literally and idiomatically as \"يبيعون/يصرّفون حياتهم بلا سبب\" or \"يبيعون حياتهم دون سبب\". Example: \"يبيعون حياتهم بلا سبب.\"",
+      "translation_quote": "يبادلون حياتهم بلا سبب وبدون حدود."
+    },
+    {
+      "location": "source.html / stanza 8 (\"The love of money starts with a seed.\")",
+      "severity": "minor",
+      "source_quote": "The love of money starts with a seed.",
+      "suggested_fix": "Remove the extra phrase \"هكذا الحالة\" which adds an interpretation not present in the source. A faithful translation: \"حب المال يبدأ ببذرة.\"",
+      "translation_quote": "حب المال يبدأ ببذرةٍ صغيرةٍ، هكذا الحالة."
     }
   ],
   "id": "ebca888a9b5476f72685e86bf564e2ef",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1de56fab2737a3548fafa046f54e8b49fd10031dc8824cc6696d1a638910abcb.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "e5687feec796faa59fb2c84ea91a33a13b26784033d8d71bfc9aba932005e757",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

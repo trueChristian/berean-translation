@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "51eb8be5-a69b-4cf8-ad1d-d542c9afe5ba",
+    "response_id": "chatcmpl-EUURZ3OHRxu60gSGwEfcQsmbQJEkD",
+    "usage": {
+      "completion_tokens": 1497,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8143,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9640
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing John 14:15 and 1 John 2:4 (near middle of article)",
+        "severity": "major",
+        "source_quote": "If ye love me, keep my commandments –John 14:15. And, He that saith, I know him, and keepeth not his commandments, is a liar, and the truth is not in him –1 John 2:4.",
+        "suggested_fix": "Translate the two verses accurately and separately without adding or omitting sense. Replace the current Urdu rendering with a faithful translation that preserves the imperative sense of \"keep my commandments\" (i.e., obey/keep) and does not introduce extra qualifiers. For example: \"اگر تم مجھ سے محبت رکھتے ہو تو میرے حکموں کی پابندی کرو — یوحنا 14:15۔ اور جو کہتا ہے 'میں اُسے جانتا ہوں' اور اپنے حکموں کی پابندی نہیں کرتا، وہ جھوٹا ہے، اور سچائی اُس کے اندر نہیں ہے — 1 یوحنا 2:4.\" (Preserve article HTML tags and punctuation exactly as in source.)",
+        "translation_quote": "کلامِ مقدس کو یاد رکھو: <em>اگر تم مجھ سے محبت رکھتے ہو تو میری حکموں کو نہ صرف مانو—یوحنا 14:15۔ اور، جو کہتا ہے، میں اسے جانتا ہوں، اور اس کے حکموں کی پابندی نہیں کرتا، وہ جھوٹا ہے، اور سچائی اُس کے اندر نہیں ہے—1 یوحنا 2:4۔</em>"
+      },
+      {
+        "location": "Title element",
+        "severity": "minor",
+        "source_quote": "Drift",
+        "suggested_fix": "Translate the title into Urdu and avoid leaving the original English in parentheses unless the publication style requires retaining the English. Either use the translated title alone (e.g., \"بہاؤ\") or, if both are required by style, keep but place the Urdu first without parentheses. Preserve the title field HTML/structure.",
+        "translation_quote": "بہاؤ (Drift)"
+      },
+      {
+        "location": "Paragraph describing battlefield sacrifice (paragraph under \"Brotherly love\")",
+        "severity": "minor",
+        "source_quote": "Some of the greatest acts of showing love for one another have happened on the battlefield. Men have jumped on grenades, and they have jumped in front of bullets to save their comrades.",
+        "suggested_fix": "Restore the clear battlefield imagery by translating \"jumped on grenades\" and \"jumped in front of bullets\" literally and idiomatically in Urdu. For example: \"میدانِ جنگ میں ایک دوسرے کے لیے محبت کے کچھ عظیم ترین کردار وقوع پذیر ہوئے ہیں۔ مردوں نے اپنے ساتھیوں کی جان بچانے کے لیے گرانڈ (یا دستی بم) پر چھلانگ لگائی ہے، اور گولیوں کے سامنے کود گئے ہیں۔\" Keep HTML tags as in source.",
+        "translation_quote": "بھائی چارہ دکھانے کے کچھ عظیم ترین اعمال میدانِ جنگ میں ہوئے ہیں۔ مرد نے ہملے پر چھلانگ لگائی ہے، اور اپنے ساتھی کی جان بچانے کے لیے گولیوں کے سامنے کود گئے ہیں۔"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a99707e1-82cf-49cf-9a0c-a674867e891a",
+    "response_id": "chatcmpl-EUURGC5i5X22Z2Tz0nUW9oyPFlVn8",
+    "usage": {
+      "completion_tokens": 1296,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4055,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5351
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing Romans 2:5-6 (near middle of article)",
+        "severity": "critical",
+        "source_quote": "…the righteous judgment of God; Who will render to every man according to his deeds –Romans 2:5-6.",
+        "suggested_fix": "Tradurre la citazione biblica in italiano preservando il contenuto e il riferimento (nomi dei libri in forma convenzionale italiana, numeri di capitolo/versetto invariati). Esempio suggerito da inserire nello stesso punto e mantenendo i tag HTML: <em>…il giusto giudizio di Dio; Egli renderà a ciascuno secondo le sue opere –Romani 2:5-6.</em>",
+        "translation_quote": "<em>…the righteous judgment of God; Who will render to every man <strong>according to his <u>deeds</u></strong> –Romans 2:5-6.</em>"
+      },
+      {
+        "location": "Final paragraphs containing Jude 1:3 (near end of article)",
+        "severity": "critical",
+        "source_quote": "…the faith which was once delivered unto the saints –Jude 1:3.",
+        "suggested_fix": "Tradurre la citazione biblica in italiano preservando il contenuto e il riferimento. Inserire la resa italiana mantenendo i tag HTML esistenti. Esempio suggerito: <em>…la fede che una volta è stata consegnata ai santi –Giuda 1:3.</em>",
+        "translation_quote": "<em>…the faith which was once delivered unto the saints –Jude 1:3.</em>"
+      },
+      {
+        "location": "Paragraph about 'establishment' becoming enemy of the group (second paragraph)",
+        "severity": "minor",
+        "source_quote": "If they joined a group whose focus was to have fun and they believed that the “established” rules, facts, and truth were what stood in the way of fulfilling their carnal desires, then the establishment and their rules became the enemy of the group.",
+        "suggested_fix": "Usare un termine italiano idiomatico per 'establishment' (non lasciare l'anglicismo) o spiegare in parole italiane. Esempio: \"allora l'establishment e le sue regole\" → \"allora l'ordine costituito e le sue regole\" oppure \"allora l'establishment (l'ordine costituito) e le sue regole\". Mantenere il resto del paragrafo invariato e rispettare i tag HTML.",
+        "translation_quote": "...allora l’establishment e le sue regole diventavano il nemico del gruppo."
+      },
+      {
+        "location": "Paragraph about church explaining away biblical concepts (later paragraph)",
+        "severity": "minor",
+        "source_quote": "...or it can explain away the Bible’s concepts of good and evil.",
+        "suggested_fix": "Il verbo italiano 'spiegare via' usato nella traduzione è innaturale. Sostituire con una formulazione idiomatica come \"minimizzare\", \"svuotare\", \"giustificare\", o \"rimettere in discussione\" a seconda dell'intento. Esempio suggerito: \"oppure può cercare di sminuire i concetti biblici di bene e male.\"",
+        "translation_quote": "...oppure può spiegare via i concetti biblici del bene e del male."
+      }
+    ],
+    "passed": false,
+    "score": 65
+  }
+}

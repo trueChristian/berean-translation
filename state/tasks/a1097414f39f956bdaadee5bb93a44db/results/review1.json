@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3469b3ad-8c6f-4553-a8f5-fbecf8c0028d",
+    "response_id": "chatcmpl-EUURcUo5RzHQFUhtkja14woDhx7Sn",
+    "usage": {
+      "completion_tokens": 1504,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8431,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9935
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first paragraph (John quote)",
+        "severity": "major",
+        "source_quote": "<em>If I will that he [John] tarry till I come, what is that to thee? follow thou me. John 21:22.</em>",
+        "suggested_fix": "Translate the quoted Scripture into contemporary Norwegian Bokmål, preserving the verse reference and punctuation inside the same <em>…</em> tag and not altering HTML structure. Example: <em>«Om jeg vil at han [Johannes] skal vente til jeg kommer, hva angår det deg? Du skal følge meg.» Johannesevangeliet 21:22.</em>",
+        "translation_quote": "<em>If I will that he [John] tarry till I come, what is that to thee? follow thou me. John 21:22.</em>"
+      },
+      {
+        "location": "source.html — final paragraph (Luke quote)",
+        "severity": "major",
+        "source_quote": "<em>…The days will come, when ye shall desire to see one of the days of the Son of man, and ye shall not see it. And they shall say to you, See here; or, see there: go not after them, nor follow them –Luke 17: 22-23.</em>",
+        "suggested_fix": "Translate the quoted Scripture into contemporary Norwegian Bokmål, preserving the verse reference and placement inside the <em>…</em> tag and the exact chapter/verse numbers. Example: <em>«Det skal komme dager da dere ønsker å se én av Menneskesønnens dager, men dere skal ikke få se det. Og de skal si til dere: Se her! eller: Se der! Gå ikke ut og følg dem.» Lukas 17:22-23.</em>",
+        "translation_quote": "<em>…The days will come, when ye shall desire to see one of the days of the Son of man, and ye shall not see it. And they shall say to you, See here; or, see there: go not after them, nor follow them –Luke 17: 22-23.</em>"
+      },
+      {
+        "location": "source.html — final paragraph (Matthew quote)",
+        "severity": "major",
+        "source_quote": "<em>and then shall the end come –Matthew 24:14.</em>",
+        "suggested_fix": "Translate this quoted Scripture into contemporary Norwegian Bokmål, preserving the verse reference and placement inside the <em>…</em> tag and exact chapter/verse numbers. Example: <em>«Og da skal evangeliet om riket bli forkynt i hele verden til et vitnesbyrd for alle folkeslag. Og da skal enden komme.» Matteus 24:14.</em> (Keep the verse number 24:14 as in the source.)",
+        "translation_quote": "<em>and then shall the end come –Matthew 24:14.</em>"
+      },
+      {
+        "location": "source.html — paragraph with phrase 'continued earnest expectation' (near start of 3rd paragraph)",
+        "severity": "minor",
+        "source_quote": "\"continued earnest expectation\" (source phrase in English context)",
+        "suggested_fix": "Replace the leftover English word with a Norwegian equivalent matching tone and register. For example: change \"vedvarende earnest forventningen\" to \"vedvarende oppriktige forventningen\" or better: \"den vedvarende, oppriktige forventningen\". Keep original HTML tags and punctuation.",
+        "translation_quote": "\"vedvarende earnest forventningen\""
+      },
+      {
+        "location": "source.html — paragraph about Menno (Menno Simmons)",
+        "severity": "minor",
+        "source_quote": "\"Menno Simmons\"",
+        "suggested_fix": "Preserve the author's original printed name spelling. If the English source used \"Menno Simmons,\" restore that exact form in the Norwegian translation (do not 'correct' to a different historical spelling). Replace the current translation text \"Menno Simons’ kirke\" with \"Menno Simmons’ kirke\" keeping the apostrophe and surrounding HTML as is.",
+        "translation_quote": "\"Menno Simons’ kirke\""
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

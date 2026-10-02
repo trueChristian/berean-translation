@@ -1,0 +1,78 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ab33703e-e1d0-406e-9563-7983c4160f19",
+    "response_id": "chatcmpl-EUURYnKU67vT4voBOqvVvwu0B8yoR",
+    "usage": {
+      "completion_tokens": 1917,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10166,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12083
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — multiple <em> Scripture quotations (James 1:5, Psalm 103:2-3, James 5:16, James 2:15-16, 1 Corinthians 12:26, Philippians 1:21)",
+        "severity": "critical",
+        "source_quote": "<em>If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him –James 1:5.</em>\n\n...\n\n<em>Bless the LORD, O my soul, and forget not all his benefits: Who forgiveth all thine iniquities; who healeth all thy diseases –Psalm 103:2-3.</em>\n\n...\n\n<em>…The effectual fervent prayer of a righteous man availeth much –James 5:16.</em>\n\n...\n\n<blockquote>\n  <p><em>If a brother or sister be naked, and destitute of daily food, And one of you say unto them, Depart in peace, be ye warmed and filled; notwithstanding ye give them not those things which are needful to the body; what doth it profit? –James 2:15-16.</em></p>\n</blockquote>\n\n...\n\n<em>…اشتكى عضو اشتكى معه سائر الأعضاء… –1 Corinthians 12:26.</em>\n\n...\n\n<em>For to me to live is Christ, and to die is gain –Philippians 1:21.</em>",
+        "suggested_fix": "Translate every quoted Scripture passage into Modern Standard Arabic, preserving the exact chapter:verse citations and placement. Keep the surrounding HTML (<em>, <blockquote>, etc.) unchanged. Example fixes (replace English inner text with Arabic):\n- Replace <em>If any of you lack wisdom... –James 1:5.</em> with <em>«وإن كان لأحد منكم نقص حكمة فليطلب من الله ... يُعطى له» – يعقوب 1:5.</em> (render the verse in Arabic S. Standard phrasing preserving citation).\n- Replace the Psalm quote with an Arabic rendering: <em>«بارك يا نفسي الرب، ولا تنس كل مزاياه: الذي يغفر كل آثامك، الذي يشفي كل أمراضك» – مزمور 103:2-3.</em>\n- Replace James 5:16, James 2:15-16, 1 Corinthians 12:26, Philippians 1:21 with appropriate Arabic translations of those quoted lines, preserving punctuation and the original citation placement.\n(Do not change tags, do not alter verse numbers or their placement; only replace the English quoted text with faithful Arabic translations.)",
+        "translation_quote": "Same quoted passages left in English in the translation (<em>...</em>), e.g. <em>If any of you lack wisdom... –James 1:5.</em>, <em>Bless the LORD, O my soul... –Psalm 103:2-3.</em>, etc."
+      },
+      {
+        "location": "source.subtitle / translation.subtitle",
+        "severity": "major",
+        "source_quote": "PART 2",
+        "suggested_fix": "Translate the subtitle text into Arabic. For example: replace \"PART 2\" with \"الجزء 2\" (keep exact HTML placement/attributes).",
+        "translation_quote": "PART 2"
+      },
+      {
+        "location": "source.section / translation.section",
+        "severity": "major",
+        "source_quote": "A Word From A Doctor",
+        "suggested_fix": "Translate the section metadata into Arabic. For example: replace \"A Word From A Doctor\" with \"كلمة من طبيب\" (or an equivalent MSA phrase). Do not alter other metadata structure.",
+        "translation_quote": "A Word From A Doctor"
+      },
+      {
+        "location": "source.html — heading for endnotes",
+        "severity": "major",
+        "source_quote": "<h2><em>Endnotes:</em></h2>",
+        "suggested_fix": "Translate the endnotes heading into Arabic while preserving tags. For example: <h2><em>الملاحظات الختامية:</em></h2> or <h2><em>ملاحظات ختامية:</em></h2>. Keep the <em> and <h2> tags unchanged.",
+        "translation_quote": "<h2><em>Endnotes:</em></h2>"
+      },
+      {
+        "location": "source.html — untranslated quoted blocks left in English inside body (multiple places)",
+        "severity": "major",
+        "source_quote": "Several other short quoted English strings remain in the translation, e.g. in the conclusion: <em>For to me to live is Christ, and to die is gain –Philippians 1:21.</em> (as above), and a few inline quoted phrases.",
+        "suggested_fix": "All quoted substantive English phrases that are part of the article's content (especially Scripture quotations and any other quoted sentence-length text) must be translated into Arabic. Preserve the exact citations and HTML tags. Do not leave any quoted Scripture or authorial quoted sentences in English.",
+        "translation_quote": "Same English quoted phrases left untranslated (examples repeated as above)."
+      },
+      {
+        "location": "source.html — wording/clause in Arabic translation (stylistic/clarity)",
+        "severity": "minor",
+        "source_quote": "Many of the things that increase the risk of cancer are things that (hopefully) we, as Christian people, are already avoiding.",
+        "suggested_fix": "The translation rendered this as: \"العديد من الأشياء التي تزيد من خطر الإصابة بالسرطان هي أمور نتجنّبها نحن، كمسيحيين، على أمل أن نكون بالفعل نتجنبها.\" This duplicates 'نتجنبها' and reads awkwardly. Suggest: \"العديد من الأشياء التي تزيد من خطر الإصابة بالسرطان هي أمور نتجنّبها نحن كمسيحيين، على أمل أننا نفعل ذلك بالفعل.\" Keep HTML unchanged.",
+        "translation_quote": "\"العديد من الأشياء التي تزيد من خطر الإصابة بالسرطان هي أمور نتجنّبها نحن، كمسيحيين، على أمل أن نكون بالفعل نتجنبها.\""
+      },
+      {
+        "location": "source.html — punctuation/casing small error",
+        "severity": "minor",
+        "source_quote": "\"a normal white cell count is between 4,000 and 10,000. but during cancer treatments I have seen patient’s white cell count drop down to 200.\"",
+        "suggested_fix": "In the translation this became two sentences with a lowercase 'but' in English fragment context previously. Ensure Arabic punctuation and sentence casing are correct. For instance: \"قد يكون عدد الخلايا البيضاء الطبيعي بين 4,000 و10,000، لكن أثناء علاجات السرطان رأيت أعدادًا تنخفض إلى 200.\" Preserve numerical values and HTML.",
+        "translation_quote": "\"قد يكون عدد الخلايا البيضاء الطبيعي بين 4,000 و10,000، لكن أثناء علاجات السرطان رأيت أعدادًا تنخفض إلى 200.\""
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

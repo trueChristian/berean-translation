@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "806d11a8-a5dd-47f1-a2cb-4fde39bb4dca",
+    "response_id": "chatcmpl-EUURsmYlMnNXbM6385UU69MZ4p6mZ",
+    "usage": {
+      "completion_tokens": 1315,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4195,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5510
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>“That’s got to be Melvin’s barn burning!” exclaimed Dad. “I’m going to go see what I can do to help.”</p>",
+        "severity": "major",
+        "source_quote": "“That’s got to be Melvin’s barn burning!” exclaimed Dad.",
+        "suggested_fix": "ترجمے میں اس جملے کو واضح، فطری اردو میں درست کریں اور 'barn' کا مناسب ترجمہ استعمال کریں۔ مثال درست ترجمہ: “وہ تو میلون کا اصطبل جل رہا ہے!” یا “وہ میلون کی کھلیاں/آشیانہ جل رہا ہے!” (یہاں 'barn' کے لیے 'اصطبل' عام اور مناسب اصطلاح ہے).",
+        "translation_quote": "“وہ تو میلون کے کھیت کا عمار جل رہا ہے!” باپ نے کہا۔ “میں دیکھنے جا رہا ہوں کہ میں کیسے مدد کر سکتا ہوں۔”"
+      },
+      {
+        "location": "<p>The neighbor men tried desperately to rescue what cattle they could, but in the end, many of the steers could not be saved.</p>",
+        "severity": "critical",
+        "source_quote": "The neighbor men tried desperately to rescue what cattle they could, but in the end, many of the steers could not be saved.",
+        "suggested_fix": "یہاں 'steers' (نر چھوٹے بیل/گوشت کے لیے پالے گئے بیل) کو درست اردو میں ترجمہ کریں۔ 'بانسریاں' غلط اور معنی بدل دیتی ہے۔ درست ترجمہ کی مثال: “پڑوسی مرد مویشوں کو بچانے کی جان لڑا گئے، مگر آخر کار بہت سے بیل بچائے نہیں جا سکے۔” یا “...مگر آخرکار کئی اسٹیر/نر بیل بچائے نہیں جا سکے۔” ('بیل' یا 'نَر بیل' مناسب ہیں).",
+        "translation_quote": "پڑوسی مرد مویشوں کو بچانے کی کوشش میں جان لگاتے رہے، مگر آخرکار بہت سے بانسریاں بچائی نہیں جاسکیں۔"
+      },
+      {
+        "location": "<p>Indeed, the roof had been cleanly stripped away and the gable ends stoically stood there, holding up nothing.</p>",
+        "severity": "major",
+        "source_quote": "Indeed, the roof had been cleanly stripped away and the gable ends stoically stood there, holding up nothing.",
+        "suggested_fix": "'gable ends' اور اس جملے کا عمومی معنٰی درست اور فصیح اردو میں بحال کریں۔ مثلاً: “درحقیقت چھت بالکل اچھی طرح اتر چکی تھی اور گمبہ نما سلاخیں/چھت کے سِروں جیسی عمودی ساختیں بے جان کھڑی تھیں، جن کا کوئی سہارا نہیں تھا۔” یہاں 'gable ends' کے لیے 'گبلی حصے' یا 'چھت کے چوٹی والے سرے' استعمال کیا جا سکتا ہے۔",
+        "translation_quote": "واقعی، چھت صاف طور پر اتر گئی تھی اور گبل اینڈ بے تکلف کھڑے تھے، جو کچھ بھی سہارا دینے کے لیے کچھ نہیں رکھ رہے تھے۔"
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

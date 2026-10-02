@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ff9f195c-49f9-4621-aad3-75f3e7a7f4d0",
+    "response_id": "chatcmpl-EUURMHQ8SMUU1R5sq8T15yrf38vWR",
+    "usage": {
+      "completion_tokens": 891,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8129,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9020
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.section / translation.section",
+        "severity": "minor",
+        "source_quote": "MUSINGS OF A MISSIONARY",
+        "suggested_fix": "Use a grammatically correct and idiomatic Arabic phrase for the section header. Replace \"خواطر مبشّر\" with \"خواطر مبشّر\" corrected to \"خواطر مبشر\" or better \"خواطر المبشّر\" (preferred: \"خواطر المبشّر\"). Preserve capitalization and spacing as plain text.",
+        "translation_quote": "خواطر مبشّر"
+      },
+      {
+        "location": "paragraph beginning \"The early Anabaptists met as many times as they could...\" (source) / corresponding paragraph in translation",
+        "severity": "minor",
+        "source_quote": "The early Anabaptists met as many times as they could, and that was usually out in the weather, in some woods somewhere.",
+        "suggested_fix": "Fix the inaccurate/inconsistent Arabic phrase for \"the early Anabaptists\". Replace \"الأنابابتيستيات الأُولَى\" with a grammatically correct masculine plural form such as \"الأنابابتيستيون الأوائل\" or \"الأنابابتيستيون الأوّلون\" to match the English meaning and standard Arabic usage.",
+        "translation_quote": "الاجتماع كثيرًا ما فعلته الأنابابتيستيات الأُولَى، وكان ذلك عادة في العراء، في بعض الغابات في مكان ما."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

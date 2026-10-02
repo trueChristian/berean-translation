@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ab629e50-3c4f-4b4d-94d9-c53276611a12",
+    "response_id": "chatcmpl-EUURPeYmpanbuqVglflndzFelL2Y4",
+    "usage": {
+      "completion_tokens": 862,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7924,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8786
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph mentioning Menno/Philips (around the paragraph: \"This would be the church of Menno Simmons, and the root of the Mennonite churches of today.\")",
+        "severity": "minor",
+        "source_quote": "This would be the church of Menno Simmons, and the root of the Mennonite churches of today.",
+        "suggested_fix": "Preserve the author’s exact printed proper name as in the authoritative English source. Replace \"Menno Simons\" with the same spelling used in the English source: \"Menno Simmons.\"",
+        "translation_quote": "Esta seria a igreja de Menno Simons, e a raiz das igrejas menonitas de hoje."
+      },
+      {
+        "location": "Final paragraph with Matthew citation (last paragraph): \"...and then shall the end come –Matthew 24:14.\"",
+        "severity": "minor",
+        "source_quote": "...and then shall the end come –Matthew 24:14.",
+        "suggested_fix": "Use conventional capitalization for the book name consistent with the target-language conventions and the author’s original punctuation spacing. Change \"mateus 24:14\" to \"Mateus 24:14.\" (Preserve the placement and punctuation exactly as in the source.)",
+        "translation_quote": "...e então virá o fim – mateus 24:14."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

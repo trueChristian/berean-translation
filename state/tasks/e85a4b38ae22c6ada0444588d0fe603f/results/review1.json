@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f9838617-7060-4b07-ae32-4a1a802d3f1d",
+    "response_id": "chatcmpl-EUURiw5dfhNUhqJLCWYOLryb7CoBx",
+    "usage": {
+      "completion_tokens": 1083,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3124,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4207
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 2 (opening sentence): \"Plus, more interesting topics. Enjoy.\"",
+        "severity": "minor",
+        "source_quote": "Plus, more interesting topics. Enjoy.",
+        "suggested_fix": "Terjemahkan 'Plus' ke bahasa Indonesia agar tidak ada kata bahasa Inggris yang tersisa dalam kalimat. Ganti dengan: \"Selain itu, topik-topik menarik lainnya. Selamat menikmati.\"",
+        "translation_quote": "Plus, topik-topik menarik lainnya. Selamat menikmati."
+      },
+      {
+        "location": "Paragraph 3: \"If you are edified or encouraged by any of the authors’ content, it would be a blessing for you to respond to us by mail or email.\"",
+        "severity": "minor",
+        "source_quote": "If you are edified or encouraged by any of the authors’ content, it would be a blessing for you to respond to us by mail or email.",
+        "suggested_fix": "Perbaiki pilihan kata agar makna 'edified' (dibangun rohani) tersampaikan secara idiomatik dalam Bahasa Indonesia. Ganti frasa awal menjadi: \"Jika Anda dibangun atau didorong oleh isi salah satu penulis, akan menjadi berkat bagi kami bila Anda memberi tanggapan melalui surat atau surel.\"",
+        "translation_quote": "Jika Anda dipakai untuk membangun atau didorong oleh isi salah satu penulis, akan menjadi berkat bagi kami bila Anda memberi tanggapan melalui surat atau surel."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

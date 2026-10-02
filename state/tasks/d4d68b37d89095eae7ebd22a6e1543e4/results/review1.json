@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "53a0911a-f029-4ebd-8a34-048a926685c8",
+    "response_id": "chatcmpl-EUURH9HZSqSLOAVXaPSxVsp1S6mY8",
+    "usage": {
+      "completion_tokens": 1253,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1538,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2791
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> poem, stanza 3, line 2 (source: “What about our wives, or children to please?”)",
+        "severity": "major",
+        "source_quote": "“What about our wives, or children to please?”",
+        "suggested_fix": "Translate the plural \"wives\" as plural in Kiswahili. Replace “Mke zetu” with “Wake zetu” to preserve the original plural. Keep the rest of the line structure intact within the same HTML tag.",
+        "translation_quote": "“Na mke zetu, au watoto ili kuwafurahisha?”"
+      },
+      {
+        "location": "<article> poem, stanza 6, line 2 (source: “But money will bind us until death we meet.”)",
+        "severity": "major",
+        "source_quote": "But money will bind us until death we meet.",
+        "suggested_fix": "Preserve the sense of being bound/enslaved by money. Replace “Lakini pesa zitatuweka mnyonge hadi tufike mwisho wa maisha.” with a Kiswahili rendering that conveys being bound/enslaved (e.g., “Lakini pesa zitatufunga/zatufunga hadi tufike kwenye kichawi cha kufa” is wrong — use neutral wording). A good fix: “Lakini pesa zitatufunga hadi tufike kifo.” or “Lakini pesa zitatutia mkatani hadi tufike kifo.” Keep this inside the same paragraph tag.",
+        "translation_quote": "“Lakini pesa zitatuweka mnyonge hadi tufike mwisho wa maisha.”"
+      },
+      {
+        "location": "<article> poem, stanza 4, line 1 (source: “We spend all our days chasing the dollar.”)",
+        "severity": "minor",
+        "source_quote": "We spend all our days chasing the dollar.",
+        "suggested_fix": "Fix capitalization and smooth wording to idiomatic Kiswahili. Replace “Tunatumia Siku zetu zote kuikimbiza dola.” with “Tunatumia siku zetu zote tukimkimbilia dola.” Preserve HTML tag.",
+        "translation_quote": "“Tunatumia Siku zetu zote kuikimbiza dola.”"
+      },
+      {
+        "location": "<article> poem, stanza 5, line 2 (source: “Maybe less time at work could surely do.”)",
+        "severity": "minor",
+        "source_quote": "Maybe less time at work could surely do.",
+        "suggested_fix": "Improve idiomatic phrasing: replace “Labda muda mdogo kazini ungetosha bila shida.” with a more natural Kiswahili like “Labda kupungua kwa muda kazini kungefaa.” Keep same paragraph tag.",
+        "translation_quote": "“Labda muda mdogo kazini ungetosha bila shida.”"
+      },
+      {
+        "location": "<article> poem, stanza 8, line 2 (source: “The love of money starts with a seed.”)",
+        "severity": "minor",
+        "source_quote": "The love of money starts with a seed.",
+        "suggested_fix": "Make phrasing more idiomatic: replace “Upendo wa pesa unaanza na mbegu.” with “Upendo wa pesa huanza kwa mbegu.” (or “huanza kama mbegu”). Preserve HTML tag.",
+        "translation_quote": "“Upendo wa pesa unaanza na mbegu.”"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

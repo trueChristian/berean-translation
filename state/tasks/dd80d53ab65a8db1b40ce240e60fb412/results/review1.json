@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1d45c7ef-d6f6-4731-84e6-0d5399c8fd90",
+    "response_id": "chatcmpl-EUURSDR2nsAEKq380jHkKmHo5cN6o",
+    "usage": {
+      "completion_tokens": 1219,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5272,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6491
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — opening emphasized Scripture (Ephesians 1:17-18)",
+        "severity": "critical",
+        "source_quote": "That the God of our Lord Jesus Christ, the Father of glory, may give unto you the spirit of wisdom and revelation in the knowledge of him: The eyes of your understanding being enlightened; that ye may know what is the hope of his calling… –Ephesians 1:17-18.",
+        "suggested_fix": "Translate the quoted Scripture into contemporary standard Hindi, preserving the verse numbers and the meaning of the printed English. Example (rendered as quoted Scripture in Hindi): \"हमारे प्रभु यीशु मसीह के परमेश्वर, महिमा के पिता, आपको उसकी ज्ञान में ज्ञान और प्रकाश के आत्मा दें, कि आपके समझ के नेत्र प्रकाशित हों; कि आप जानें कि उसकी बुलाहट की क्या आशा है… —एफ़िसियों 1:17-18.\" (Place the Hindi translation exactly where the English scripture currently appears, keeping the italic/emphasis tags and the verse reference.)",
+        "translation_quote": "That the God of our Lord Jesus Christ, the Father of glory, may give unto you the spirit of wisdom and revelation in the knowledge of him: The eyes of your understanding being enlightened; that ye may know what is the hope of his calling… –Ephesians 1:17-18."
+      },
+      {
+        "location": "translation metadata — title field",
+        "severity": "critical",
+        "source_quote": "The Hope of Your Calling",
+        "suggested_fix": "Translate the article title into contemporary standard Hindi (preserving the article-title role and not changing HTML structure). Suggested translation: \"आपकी बुलाहट की आशा\" or \"तुम्हारी बुलाहट की आशा\" depending on publication style (use respectful/plural 'आपकी' if the magazine uses formal address). Replace the English title text with the chosen Hindi text in the translation title field.",
+        "translation_quote": "The Hope of Your Calling"
+      },
+      {
+        "location": "translation metadata — section field",
+        "severity": "critical",
+        "source_quote": "INSPIRATIONS FOR YOUTH",
+        "suggested_fix": "Translate the section name into contemporary standard Hindi and replace the English section text. Suggested translation: \"युवाओं के लिए प्रेरणाएँ\". Ensure the translated section string replaces the English exactly in the translation.section field.",
+        "translation_quote": "INSPIRATIONS FOR YOUTH"
+      },
+      {
+        "location": "translation metadata — subtitle field",
+        "severity": "minor",
+        "source_quote": "LIVING AS YOUTH WITH AN ETERNAL PERSPECTIVE",
+        "suggested_fix": "Fully translate the subtitle into Hindi and remove the remaining English word 'YOUTH'. The translation already provided is close but contains the English word. Suggested subtitle: \"युवा के रूप में अनन्त परिप्रेक्ष्य के साथ जीना\" or more idiomatically \"युवाओं के लिए: अनन्त परिप्रेक्ष्य के साथ जीना\". Replace the translation.subtitle value with the fully Hindi string.",
+        "translation_quote": "YOUTH के रूप में अनन्त परिप्रेक्ष्य के साथ जीना"
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

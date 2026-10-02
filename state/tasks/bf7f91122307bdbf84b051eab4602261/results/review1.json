@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "827c3b4a-5bbb-48d1-88dd-9b952c61e7c6",
+    "response_id": "chatcmpl-EUURHVqFnBHhm1WTmTsmhRKWs8mPL",
+    "usage": {
+      "completion_tokens": 1227,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8228,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9455
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first paragraph (John quote) and final paragraph (Luke and Matthew quotes)",
+        "severity": "critical",
+        "source_quote": "<em>If I will that he [John] tarry till I come, what is that to thee? follow thou me. John 21:22.</em>\n...\n<em>…The days will come, when ye shall desire to see one of the days of the Son of man, and ye shall not see it. And they shall say to you, See here; or, see there: go not after them, nor follow them –Luke 17: 22-23.</em>\n...\n<em>and then shall the end come –Matthew 24:14.</em>",
+        "suggested_fix": "Translate each quoted Scripture passage into Dutch, preserving the exact chapter and verse numbers, punctuation, italics, and placement. For example: \n- Replace the John quote with a faithful Dutch rendering and keep \"John 21:22.\" (e.g. \"<em>Indien ik wil dat hij [Johannes] blijft totdat ik kom, wat gaat dat jou aan? Volg mij. Johannes 21:22.</em>\") — use a natural, faithful translation of the quoted text. \n- Replace the Luke quote with a Dutch rendering and keep \"Luke 17:22-23.\" (e.g. \"<em>...Er zullen dagen komen, waarin gij begeert één van de dagen des Mensenzoons te zien, en gij zult het niet zien. En zij zullen tot u zeggen: Zie hier, of zie daar; gaat niet daarheen, volgt ze niet — Lukas 17:22-23.</em>\") \n- Replace the Matthew quote with a Dutch rendering and keep \"Matthew 24:14.\" (e.g. \"<em>en dan zal het einde komen — Mattheüs 24:14.</em>\").\nDo not leave the quoted Biblical prose in English. Keep the HTML tags, italics, and the exact verse references as in the source.",
+        "translation_quote": "<em>If I will that he [John] tarry till I come, what is that to thee? follow thou me. John 21:22.</em>\n...\n<em>…The days will come, when ye shall desire to see one of the days of the Son of man, and ye shall not see it. And they shall say to you, See here; or, see there: go not after them, nor follow them –Luke 17: 22-23.</em>\n...\n<em>and then shall the end come –Matthew 24:14.</em>"
+      },
+      {
+        "location": "source.html — paragraph mentioning Menno Simmons / Menno Simons",
+        "severity": "major",
+        "source_quote": "This would be the church of Menno Simmons, and the root of the Mennonite churches of today.",
+        "suggested_fix": "Restore the author’s exact proper-name spelling from the English source. Replace the translated name with the original \"Menno Simmons\" to match the authoritative English text. Preserve surrounding punctuation and HTML structure. (Do not change other correct Dutch renderings surrounding the name.)",
+        "translation_quote": "Dit zou de kerk van Menno Simons zijn en de wortel van de hedendaagse doopsgezinde kerken."
+      }
+    ],
+    "passed": false,
+    "score": 40
+  }
+}

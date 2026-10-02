@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1ae05c1f-ee44-4d9d-a6e6-b67e5cde29f8",
+    "response_id": "chatcmpl-EUURQ33WbvDdr8gIWtxqJ8KaMFpVj",
+    "usage": {
+      "completion_tokens": 722,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10327,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11049
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — <section class=\"endnotes\"> <h2><em>Endnotes:</em></h2>",
+        "severity": "minor",
+        "source_quote": "<h2><em>Endnotes:</em></h2>",
+        "suggested_fix": "Translate the Endnotes heading into Korean while preserving the HTML structure. For example: <h2><em>각주:</em></h2> (keep the <h2> and <em> tags and their attributes unchanged).",
+        "translation_quote": "<h2><em>Endnotes:</em></h2>"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

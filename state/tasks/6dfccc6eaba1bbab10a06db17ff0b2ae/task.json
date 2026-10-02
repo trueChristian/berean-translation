@@ -2,7 +2,6 @@
   "article_id": "2b07502a-cbf0-4b92-8bb8-7910a5557f84",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:09+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 6930
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 911,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6719,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7630
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "source.html, paragraph 2 (\"Europe had just gone through...\")",
+      "severity": "minor",
+      "source_quote": "In some places, like the Palatinate (Pfaltzland) in Germany, as many as 70% of the inhabitants had died of either war or disease.",
+      "suggested_fix": "일관된 표기를 사용하세요. 현재 번역에서는 같은 지명에 대해 '팔츠(Pfaltzland)'와 '팔츠랜드(Pfaltzland)'의 두 표기가 혼재합니다. 하나의 표현으로 통일(예: '팔츠(Pfaltzland)' 또는 '팔츠랜드(Pfaltzland)')하세요.",
+      "translation_quote": "독일의 팔츠(Pfaltzland)와 같은 일부 지역에서는 주민의 최대 70%가 전쟁이나 질병으로 사망했을 정도였습니다."
+    },
+    {
+      "location": "source.html, paragraph 4 (\"Another major improvement was the introduction of the legume, clover.\")",
+      "severity": "minor",
+      "source_quote": "...the Dutch Mennonites gifted to them. After about 50 years, the difference the Swiss had made in agriculture was noticeable enough that some frustrated German neighbors accused them of “Ferhexing” (the Pennsylvania Dutch term for witchcraft) the ground (which of course was not true).",
+      "suggested_fix": "'Ferhexing' 용어는 펜실베이니아 독일어 용어임을 한국어로 명확히 설명해 주세요. 예: 'Ferhexing(펜실베이니아 독일어로 '마법'을 의미하는 말)'처럼 괄호 안 설명을 조금 더 명확하게 하시면 독자 이해에 도움이 됩니다.",
+      "translation_quote": "약 50년 후, 스위스인들이 농업에 끼친 차이는 눈에 띄게 되어 일부 좌절한 독일인 이웃들은 그들이 땅을 ‘Ferhexing’(펜실베이니아 독일어로 ‘마법’이라는 뜻)했다고 비난하기도 했습니다(물론 사실이 아니었습니다)."
+    }
+  ],
+  "finished_at": "2026-10-02T11:17:43+00:00",
   "id": "6dfccc6eaba1bbab10a06db17ff0b2ae",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "kor",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/589bbbf06d53e840c1b02c16b5a0e9d55ee78fbc01185cea481271c35d6c3b97.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "b3e43e634638cbb2acbfd582a6dcb7a3f9f4e2dc77e578bc59a693261f0aa67b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

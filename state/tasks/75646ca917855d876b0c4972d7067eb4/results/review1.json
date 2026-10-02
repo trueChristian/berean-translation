@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6df56852-2474-4085-84c7-79147e8f5d1f",
+    "response_id": "chatcmpl-EUURGmEfuiOmS16Sq1PTezK9bvrhz",
+    "usage": {
+      "completion_tokens": 1117,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8266,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9383
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph mentioning the roots of the Mennonite churches (paragraph beginning “The first, led by the two Philips brothers…”).",
+        "severity": "minor",
+        "source_quote": "This would be the church of Menno Simmons, and the root of the Mennonite churches of today.",
+        "suggested_fix": "Preserve the author’s original proper name spelling. Replace “Menno Simons” in the translation with the author’s original wording “Menno Simmons” (respecting the surrounding HTML and tags).",
+        "translation_quote": "Ce fut l’Église de Menno Simons et la racine des églises mennonites d’aujourd’hui."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

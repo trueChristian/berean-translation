@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f046a83e-4a60-42f1-b1db-0f2c1c7eaefc",
+    "response_id": "chatcmpl-EUURqQPeuLPA9UuByb7j70XXlqVEE",
+    "usage": {
+      "completion_tokens": 1156,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1529,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2685
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> first stanza, second line",
+        "severity": "major",
+        "source_quote": "They trade their lives, with no reason why.",
+        "suggested_fix": "Translate the meaning literally as in the source: keep the sense of 'for no good reason' / 'without knowing why'. For example: \"Ze ruilen hun leven, zonder te weten waarom.\" Preserve the existing HTML tags and line break.",
+        "translation_quote": "Ze ruilen hun leven, zonder reden te hopen."
+      },
+      {
+        "location": "<div class=\"poem\"> third stanza, second line",
+        "severity": "major",
+        "source_quote": "“What about our wives, or children to please?”",
+        "suggested_fix": "Render the rhetorical sense 'to please' (i.e., 'to satisfy' or 'to make happy') rather than 'make them smooth/ glad' (niet idiomatisch). Suggested translation: \"‘En onze vrouwen, of kinderen — om hen te behagen?’\" Keep the punctuation and tags as in the source.",
+        "translation_quote": "“En onze vrouwen, of kinderen—wie maakt hen glad?”"
+      },
+      {
+        "location": "<div class=\"poem\"> seventh stanza, first line",
+        "severity": "major",
+        "source_quote": "We all know the Bible—no work, no eat.",
+        "suggested_fix": "Do not add extraneous qualifiers like 'als wet'. Translate the line simply and directly to convey the proverbial/biblical phrase. Suggested: \"We kennen de Bijbel — wie niet werkt, zal niet eten.\" (This preserves the proverbial form in Dutch.)",
+        "translation_quote": "We kennen de Bijbel—geen werk, geen eten als wet."
+      },
+      {
+        "location": "<div class=\"poem\"> seventh stanza, second line",
+        "severity": "major",
+        "source_quote": "But money will bind us until death we meet.",
+        "suggested_fix": "Avoid adding words that alter tone or introduce unclear rhyme words ('zo hard en net'). Translate the plain meaning: for example, \"Maar geld bindt ons tot we de dood ontmoeten.\" Preserve original spacing and tags.",
+        "translation_quote": "Maar geld zal ons binden tot we de dood tegemoet treden, zo hard en net."
+      },
+      {
+        "location": "<div class=\"poem\"> ninth stanza, second line (final line)",
+        "severity": "major",
+        "source_quote": "“Freedom, or bondage?” is the question I bring.",
+        "suggested_fix": "Translate the clause to preserve the author's stated action of posing the question. For example: \"‘Vrijheid, of slavernij?’ is de vraag die ik stel.\" Do not add unrelated phrasing such as 'aan elkaar paar'. Keep HTML structure unchanged.",
+        "translation_quote": "“Vrijheid, of slavernij?” is de vraag die ik daar aan elkaar paar."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

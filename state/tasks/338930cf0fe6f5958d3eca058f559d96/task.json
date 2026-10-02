@@ -2,7 +2,6 @@
   "article_id": "c16663c4-9436-466b-bffd-dd954a5f3442",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 7555
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 893,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7204,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8097
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Translation paragraph referencing social media (paragraph starting “我们生活在一个“以我为中心”的时代”)",
+      "severity": "minor",
+      "source_quote": "The conservative, Anabaptist people are getting tangled up in social media, selfies, tweeting, Facebook, and you name it.",
+      "suggested_fix": "Use more standard/idiomatic Mandarin for modern social terms. Replace 自照相 with 自拍, 推文 with 推特/发推 or 发布推文, and consider using 社交媒体（如自拍、推特、脸书等）for natural flow.",
+      "translation_quote": "保守的门诺派（安那巴普蒂斯特）人正在被社交媒体、自照相、推文、脸书以及其它各种东西纠缠上。"
+    },
+    {
+      "location": "Translation of “Anabaptist” (multiple occurrences)",
+      "severity": "minor",
+      "source_quote": "The conservative, Anabaptist people ...; many Anabaptists are losing their children ...; the early Anabaptists met ...",
+      "suggested_fix": "Maintain a single, conventional Chinese rendering for “Anabaptist” for consistency. Either use “再洗礼派/再洗者派（Anabaptist）” or the more commonly used “安那巴普蒂斯特/再洗派”，or if the intended referent is Mennonites use “门诺派/门诺教会”。 Keep one term throughout.",
+      "translation_quote": "保守的门诺派（安那巴普蒂斯特）人……许多安那巴普蒂斯特人把孩子输给黑暗国度的原因……早期的安那巴普蒂斯特人尽可能多地聚会……"
+    }
+  ],
+  "finished_at": "2026-10-02T11:17:42+00:00",
   "id": "338930cf0fe6f5958d3eca058f559d96",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "cmn",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/930958d5d08150faddf8cc6d4ba6c22ee28be341e3250f81368856d9c75f0afc.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "8dd5d606c1d8d9cf5603a40e68a843196a12e272a0bd52717b5de07e6983516a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,85 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ea138526-7a4d-48af-86b6-999d28fc34ec",
+    "response_id": "chatcmpl-EUURi93difCPMd11LfqxcUhP9VrMb",
+    "usage": {
+      "completion_tokens": 2510,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4931,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7441
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — opening epigraph (Ephesians 1:17-18)",
+        "severity": "major",
+        "source_quote": "That the God of our Lord Jesus Christ, the Father of glory, may give unto you the spirit of wisdom and revelation in the knowledge of him: The eyes of your understanding being enlightened; that ye may know what is the hope of his calling… –Ephesians 1:17-18.",
+        "suggested_fix": "Terjemahkan kutipan Alkitab ke dalam Bahasa Indonesia. Contoh penggantian yang setia pada makna: «supaya Allah Tuhan kita Yesus Kristus, Bapa kemuliaan, memberi kepada kamu roh hikmat dan wahyu dalam pengenalan akan Dia; supaya Ia menerangkan mata hati kamu, sehingga kamu mengerti, apakah pengharapan dari panggilan-Nya… –Efesus 1:17-18.» Ganti teks Inggris yang sekarang dengan versi Bahasa Indonesia di dalam tag <em> seperti aslinya.",
+        "translation_quote": "That the God of our Lord Jesus Christ, the Father of glory, may give unto you the spirit of wisdom and revelation in the knowledge of him: The eyes of your understanding being enlightened; that ye may know what is the hope of his calling… –Ephesians 1:17-18."
+      },
+      {
+        "location": "source.html — Luke 19 parable quote (Luke 19:12-13)",
+        "severity": "major",
+        "source_quote": "He said therefore, A certain nobleman went into a far country to receive for himself a kingdom, and to return. And he called his ten servants, and delivered them ten pounds, and said unto them, Occupy till I come –Luke 19:12-13.",
+        "suggested_fix": "Kutipan ayat harus diterjemahkan ke Bahasa Indonesia. Contoh penggantian: «Lalu ia berkata: Seorang bangsawan pergi ke negeri yang jauh untuk menerima bagi dirinya suatu kerajaan dan pulang kembali. Ia memanggil hamba-hambanya yang sepuluh orang, memberi mereka sepuluh pound dan berkata kepada mereka: Berusahalah kamu sampai aku datang. –Lukas 19:12-13.» Pertahankan tag <em> dan rujukan ayatnya.",
+        "translation_quote": "He said therefore, A certain nobleman went into a far country to receive for himself a kingdom, and to return. And he called his ten servants, and delivered them ten pounds, and said unto them, Occupy till I come –Luke 19:12-13."
+      },
+      {
+        "location": "source.html — inline English phrase left untranslated in body: “occupy till the Lord returns”",
+        "severity": "major",
+        "source_quote": "occupy till the Lord returns",
+        "suggested_fix": "Frasa substantif ini merupakan bagian penting dari makna dan harus diterjemahkan ke Bahasa Indonesia. Ganti dengan frasa setia seperti: “mengusahakan sampai Tuhan datang” atau “berusahalah sampai Tuhan datang”. Pastikan tata letak dan tanda kutip/italik aslinya dipertahankan.",
+        "translation_quote": "occupy till the Lord returns"
+      },
+      {
+        "location": "source.html — Matthew 5:13 quotation",
+        "severity": "major",
+        "source_quote": "Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted? it is thenceforth good for nothing, but to be cast out, and to be trodden under foot of men –Matthew 5:13.",
+        "suggested_fix": "Terjemahkan kutipan Alkitab tersebut ke Bahasa Indonesia. Contoh: «Kamu adalah garam dunia. Jika garam itu menjadi tawar, dengan apakah ia akan diasinkan? Tidak ada gunanya lagi selain dibuang dan diinjak orang. –Matius 5:13.» Ganti teks Inggris saat ini dengan terjemahan Bahasa Indonesia di dalam tag <em> sesuai posisi aslinya.",
+        "translation_quote": "Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted? it is thenceforth good for nothing, but to be cast out, and to be trodden under foot of men –Matthew 5:13."
+      },
+      {
+        "location": "source.html — Hebrews 12:1-2 quotation",
+        "severity": "major",
+        "source_quote": "Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight, and the sin which doth so easily beset us, and let us run with patience the race that is set before us, Looking unto Jesus the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God –Hebrews 12:1-2.",
+        "suggested_fix": "Kutipan ini harus diterjemahkan ke Bahasa Indonesia. Contoh penggantian yang setia: «Karena kita mempunyai begitu banyak saksi, marilah kita menanggalkan setiap beban dan dosa yang mudah merintangi kita, dan marilah kita berlari dengan tekun dalam perlombaan yang diwajibkan kepada kita, sambil menatap kepada Yesus, yang memimpin dan menyempurnakan iman kita. Ia yang oleh sukacita yang ditentukan bagi-Nya telah tahan menanggung salib, dan memandang hina kehormatan, dan duduk di sebelah kanan takhta Allah. –Ibrani 12:1-2.» Gantikan kutipan Inggris saat ini dengan versi Bahasa Indonesia dalam tag <em> sesuai aslinya.",
+        "translation_quote": "Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight, and the sin which doth so easily beset us, and let us run with patience the race that is set before us, Looking unto Jesus the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God –Hebrews 12:1-2."
+      },
+      {
+        "location": "source.html — Romans 15:13 quotation at article end",
+        "severity": "major",
+        "source_quote": "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Ghost –Romans 15:13.",
+        "suggested_fix": "Kutipan Alkitab ini harus diterjemahkan ke Bahasa Indonesia. Contoh penggantian: «Dan sekarang Allah sumber pengharapan memenuhi kamu dengan segala sukacita dan damai sejahtera dalam iman, supaya oleh kekuatan Roh Kudus kamu berlimpah dalam pengharapan. –Roma 15:13.» Ganti teks Inggris saat ini dengan versi Bahasa Indonesia di dalam tag <em> seperti aslinya.",
+        "translation_quote": "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Ghost –Romans 15:13."
+      },
+      {
+        "location": "source.title, source.subtitle, source.section metadata",
+        "severity": "major",
+        "source_quote": "title: The Hope of Your Calling\nsubtitle: LIVING AS YOUTH WITH AN ETERNAL PERSPECTIVE\nsection: INSPIRATIONS FOR YOUTH",
+        "suggested_fix": "Metadata yang berperan sebagai teks artikel harus diterjemahkan ke Bahasa Indonesia. Contoh: title → \"Pengharapan Panggilanmu\" (atau \"Harapan Panggilanmu\"); subtitle → \"Menjadi Pemuda dengan Perspektif Kekal\"; section → \"INSPIRASI UNTUK PEMUDA\" (atau \"Inspirasi bagi Pemuda\"). Ganti nilai metadata Inggris dengan padanan Bahasa Indonesia yang tepat, mempertahankan huruf besar/kecil sesuai pedoman situs jika perlu.",
+        "translation_quote": "title: The Hope of Your Calling\nsubtitle: LIVING AS YOUTH WITH AN ETERNAL PERSPECTIVE\nsection: INSPIRATIONS FOR YOUTH"
+      },
+      {
+        "location": "source.html — sentence translating “Confess it. Repent of it.”",
+        "severity": "major",
+        "source_quote": "Confess it. Repent of it. Then… Go, and sin no more!",
+        "suggested_fix": "Kalimat terjemahan saat ini salah alih-wicara: teks Inggris memerintahkan pembaca, bukan penulis. Ganti terjemahan dengan perintah yang setia: «Akuilah itu. Bertobatlah darinya. Lalu... Pergilah, dan jangan berbuat dosa lagi!» atau «Akuilah dosamu. Bertobatlah. Lalu pergilah dan jangan berbuat dosa lagi!» Pastikan kata ganti dan imperatif diarahkan kepada pembaca (kamu/anda), bukan menjadi pernyataan penulis \"Aku mengaku itu.\"",
+        "translation_quote": "Aku mengaku itu. Bertobatlah darinya. Lalu… Pergilah, dan jangan berbuat dosa lagi!"
+      }
+    ],
+    "passed": false,
+    "score": 40
+  }
+}

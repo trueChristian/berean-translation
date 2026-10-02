@@ -2,7 +2,6 @@
   "article_id": "b6a6823e-0f2a-4354-aebb-5c37ad85937a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 5665
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1308,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 960,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5198,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6506
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Top of article / section field",
+      "severity": "minor",
+      "source_quote": "section: \"Hymn History\"",
+      "suggested_fix": "Use consistent Indonesian spelling/wording for the section heading. Replace \"Sejarah Hymne\" with \"Sejarah Himne\" to match the article body which uses \"himne.\" Preserve HTML tags and attributes (no change to structure).",
+      "translation_quote": "section: \"Sejarah Hymne\""
+    },
+    {
+      "location": "Occurrences of the hymn title in running text and image alt/figcaption",
+      "severity": "minor",
+      "source_quote": "Several occurrences in source: the hymn title appears as English phrase e.g. “Nearer, My God to Thee” (quoted in paragraphs and image alt/figcaption).",
+      "suggested_fix": "For consistency and full localization, consider translating or providing the Indonesian title form in-line where the hymn title appears in running text and in the image alt, e.g. replace occurrences of “Nearer, My God to Thee” in paragraph quotations and the image alt with the translated title \"Lebih Dekat, Ya Tuhanku Kepadamu\" (keep the original English title in parentheses if desired). Do not change HTML structure or attributes.",
+      "translation_quote": "Paragraphs and image alt/figcaption frequently show the English hymn title (e.g. “Nearer, My God to Thee”)—the translation already uses the Indonesian title as the article title but retains the English hymn title in several quoted occurrences and the img alt: \"Notasi lagu untuk Nearer, My God, to Thee\"."
+    }
+  ],
+  "finished_at": "2026-10-02T11:17:44+00:00",
   "id": "e36aa9ddd27c5b5c2bd821971f154562",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "ind",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/bdacc95910a7433231bb636adde27ced309ebbaf33d26f4288193a37ef1ecead.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "529627b867a50e286116891ac48830f9194ac5c383794aa0c674aa93ff18825d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

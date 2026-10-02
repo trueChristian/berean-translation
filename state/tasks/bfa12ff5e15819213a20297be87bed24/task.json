@@ -2,7 +2,6 @@
   "article_id": "c16663c4-9436-466b-bffd-dd954a5f3442",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 7502
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1095,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7098,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8193
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<article> second full paragraph (translation)",
+      "severity": "major",
+      "source_quote": "Since fighting against drift is not popular, men in the church don’t want to do it.",
+      "suggested_fix": "Replace the mistranslated verb so the sentence reads that some “don’t want the church to drift” (derivar), not “derrote” (derrotar). For example: \"Como combater a deriva não é popular, os homens na igreja não querem fazê‑lo.\"",
+      "translation_quote": "Há outros que não querem que a igreja derrote, mas têm seus próprios problemas—amor ao dinheiro, cobiça e amor ao prazer."
+    },
+    {
+      "location": "<article> paragraph mentioning smiling and saying you love Jesus (translation)",
+      "severity": "minor",
+      "source_quote": "And, unfortunately, since the modern church has thrown off all forms of discipline and structure, everyone can stay in the church and pollute it with their worldly ideas (at least as long as you smile and say you love Jesus.)",
+      "suggested_fix": "Adjust the awkward/archaic phrasing \"sorris e disseres\" to a more natural modern Portuguese phrasing while preserving meaning. For example: \"(pelo menos enquanto você sorri e diz que ama a Jesus).\"",
+      "translation_quote": "(pelo menos enquanto sorris e disseres que amas a Jesus)."
+    },
+    {
+      "location": "<article> paragraph about a woman’s dress (translation)",
+      "severity": "minor",
+      "source_quote": "Surely the church wouldn’t follow Hollywood. But what is the difference—a woman of the world who is obviously dressed immodestly, or a woman of the church dressed with a cape dress that is form-fitting, and with a little covering hanging skimpily on the back of her head?",
+      "suggested_fix": "The phrase \"trajada de maneira imodesta\" is acceptable, but consider a slightly clearer wording for \"vestida com um vestido capa que é justo ao corpo\" to match the original phrasing about a \"cape dress that is form-fitting\" — e.g., \"vestida com um vestido tipo capa que é justo ao corpo\" — to avoid any ambiguity about 'cape dress'.",
+      "translation_quote": "Mas qual é a diferença—uma mulher do mundo visivelmente trajeada de maneira imodesta, ou uma mulher da igreja vestida com um vestido capa que é justo ao corpo, e com um pequeno véu pousando escasso atrás da cabeça?"
     }
   ],
   "id": "bfa12ff5e15819213a20297be87bed24",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/930958d5d08150faddf8cc6d4ba6c22ee28be341e3250f81368856d9c75f0afc.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "8dd5d606c1d8d9cf5603a40e68a843196a12e272a0bd52717b5de07e6983516a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

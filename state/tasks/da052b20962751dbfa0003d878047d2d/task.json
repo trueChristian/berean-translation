@@ -2,7 +2,6 @@
   "article_id": "b9a7b1b8-0a23-4e53-b835-31bf5a42dc33",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,8 +23,65 @@
         },
         "total_tokens": 9153
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1892,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8876,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10768
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "source.html — paragraph 2 (\"The rapid expansion of Christianity...\")",
+      "severity": "minor",
+      "source_quote": "The rapid expansion of Christianity, the complete moral depravity of the Roman culture, and the increasing intensity of persecution against them seemed to point to a swift and triumphant return of their Lord.",
+      "suggested_fix": "Replace the translator's phrase “ईसाइयत का तीव्र विस्तार” with a more natural and correct Hindi phrase such as “ईसाई धर्म का तीव्र प्रसार” (or “ईसाई धर्म का तीव्र प्रसार/विस्तार”).",
+      "translation_quote": "ईसाइयत का तीव्र विस्तार, रोमन संस्कृति की पूर्ण नैतिक गिरावट, और उन पर बढ़ती प्रताड़ना की तीव्रता ऐसा प्रतीत होती थी कि उनके प्रभु की शीघ्र और विजयशाली वापसी निकट है।"
+    },
+    {
+      "location": "source.html — multiple paragraphs discussing priest/high priest (e.g., paragraph beginning \"The priests, once chosen by God...\")",
+      "severity": "minor",
+      "source_quote": "the high priest’s office, where God had ordained one high priest to serve the people throughout his life.",
+      "suggested_fix": "The translator uses the nonstandard/misspelled term “महाप्रहर्य”. Recommend replacing with the conventional Hindi ecclesiastical term “महायाजक” or “राष्ट्रीय महायाजक” or at minimum the correctly spelled “महाप्रहरी”.",
+      "translation_quote": "...विशेषकर महाप्रहर्य का पद, जिसे परमेश्वर ने एक महाप्रहर्य को उसके जीवनकाल में लोगों की सेवा के लिए नियुक्त किया था।"
+    },
+    {
+      "location": "source.html — paragraph beginning \"This unsavory backdrop...\"",
+      "severity": "minor",
+      "source_quote": "This unsavory backdrop gives even more clarity to Jesus’ feelings on the religious leaders of His day.",
+      "suggested_fix": "The translation renders this as “यह काइली परिदृश्य”, which is unclear/incorrect in Hindi. Replace with a clear idiomatic rendering such as “यह अस्वच्छ/अनुचित पृष्ठभूमि” or “यह अपरीचित/बेहूदे पृष्ठभूमि” — e.g. “यह अस्वच्छ पृष्ठभूमि यीशु की उन दिनों के धार्मिक नेताओं के प्रति भावनाओं को और स्पष्ट करती है।”",
+      "translation_quote": "यह काइली परिदृश्य यीशु की अपने दिनों के धार्मिक नेताओं के प्रति भावनाओं को और भी स्पष्ट कर देता है।"
+    },
+    {
+      "location": "source.html — paragraph describing Diocletian's persecution (\"The year was 306...\")",
+      "severity": "minor",
+      "source_quote": "one of the most brutal persecutors of Christians in the Roman Empire",
+      "suggested_fix": "The translator used “प्रलाप किए थे” earlier as a rendering of persecute/persecutions elsewhere (e.g., “ईसाइयों पर सबसे भयंकर प्रलाप किए थे”), which is an incorrect word choice in Hindi (प्रलाप = nonsense). Suggest replacing with “उत्पीड़क/उत्पीड़न करने वाले” or “सबसे भयंकर उत्पीड़क” or rephrase as “...ने ईसाइयों पर सबसे भयानक उत्पीड़न किया था।”",
+      "translation_quote": "डियोक्लेशियन—जिसने रोमन साम्राज्य में ईसाइयों पर सबसे भयंकर प्रलाप किए थे—ने सीज़र के पद से त्याग दिया था。"
+    },
+    {
+      "location": "source.html — minor typographical/spacing issues around Munster section (e.g., broken word and name forms)",
+      "severity": "minor",
+      "source_quote": "The Jans moved to Munser in early 1534, and began sending out prophets and messengers...",
+      "suggested_fix": "There are a few small typographical or broken-line issues (for example “Munser” appears broken: “जाने मुन्स्टर में 1534 की शुरुआत में आए” and earlier forms like “Muensterites” rendered as “मुन्स्टरवादियों”). Standardize the place-name to a consistent Hindi form “मुन्स्टर” and ensure surrounding verbs/phrases are grammatically joined (e.g., “जान्स मुन्स्टर में 1534 की शुरुआत में आए और...” or “वे मुन्स्टर में 1534 की शुरुआत में आए और...”).",
+      "translation_quote": "जाने मुन्स्टर में 1534 की शुरुआत में आए और संदेशवाहकों और भविष्यद्वक्ताओं को भेजना शुरू किया, जो सभी “अनाबप्तिस्टों” को इस “नई यरूशलेम” में एकत्र होने की बुलाहट दे रहे थे।"
+    }
+  ],
+  "finished_at": "2026-10-02T11:17:44+00:00",
   "id": "da052b20962751dbfa0003d878047d2d",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "hin",
@@ -69,11 +125,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1b89de23229eb76f45635f4ff8dcdc61cf2a0af8d7f5b597cc9c5c560ef20e62.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d586dd43ac554896b8fef04467efcb67fca005c8dae5313bc95967b13d0bd0fc",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

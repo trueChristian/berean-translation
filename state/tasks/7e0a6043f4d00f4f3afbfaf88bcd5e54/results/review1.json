@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "cf71d3e3-337f-4f03-80fb-6c2780cd90aa",
+    "response_id": "chatcmpl-EUURSo37NIA3tjmSTOn2hQ4zgPzPV",
+    "usage": {
+      "completion_tokens": 651,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3058,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3709
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph containing Ephesians 4:14 (penultimate paragraph)",
+        "severity": "major",
+        "source_quote": "That we [should] henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine… –Ephesians 4:14.",
+        "suggested_fix": "将“被各样的风俗所吹动”改为更忠实于英文经文的汉语表述，例如“被各样的教导之风所吹动”或“被各样的教义之风所吹动”。请在保持原有 <em> 标签和句子结构的前提下替换文本。",
+        "translation_quote": "叫我们不再作小孩子，随波逐流，被各样的风俗所吹动。——以弗所书 4:14。"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

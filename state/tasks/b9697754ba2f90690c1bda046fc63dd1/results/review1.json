@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "69b2c29b-7487-4efb-94e7-2c2f21279c6b",
+    "response_id": "chatcmpl-EUURSVWA4DRPhNQLIWKWFBsANLBDV",
+    "usage": {
+      "completion_tokens": 664,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7254,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7918
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<blockquote> (Ephesians quote block)",
+        "severity": "minor",
+        "source_quote": "Husbands, love your wives, even as Christ also loved the church, and gave himself for it; That he might sanctify and cleanse it with the washing of water by the word, That he might present it to himself a glorious church, not having spot, or wrinkle, or any such thing; but that it should be holy and without blemish –Ephesians 5:25-27.",
+        "suggested_fix": "Remove the stray Latin letter before the Urdu vocative. Preserve the existing Urdu rendering but delete the leading 'A' so it reads 'اے شوہرو!'.",
+        "translation_quote": "<em>Aے شوہرو! اپنی بیویوں سے محبت کرو، جیسے مسیح نے کلیسا سے محبت کی اور اس کے لیے خود کو دے دیا؛ تاکہ وہ کلام کے ذریعہ پانی کی دھلائی سے اُسے مقدَّس اور صاف کر سکے؛ تاکہ وہ اپنے لیے ایک شاندار کلیسا پیش کر سکے، جس میں داغ، جھری، یا ایسی کوئی بات نہ ہو؛ بلکہ وہ مقدَّس اور بے عیب ہو –افسیوں 5:25-27۔</em>"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3f496773-5a8d-411f-9d52-8b9b09048704",
+    "response_id": "chatcmpl-EUURsluqyWmoaWZBBk9eMU5SxXxgq",
+    "usage": {
+      "completion_tokens": 2136,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1088,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5323,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7459
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Second paragraph (cause of death)",
+        "severity": "major",
+        "source_quote": "When she was five years old, her mother died of consumption, known today as tuberculosis.",
+        "suggested_fix": "Translate 'consumption' correctly as 'tuberkulose' (or explicitly: 'wat vandag tuberkulose genoem word'), not 'vertering'. Preserve the parenthetical clarification 'known today as tuberculosis'.",
+        "translation_quote": "Toe sy vyf jaar oud was, is haar moeder aan vertering, wat vandag tuberkulose genoem word, oorlede."
+      },
+      {
+        "location": "Lyrics block, fourth stanza, line 5",
+        "severity": "major",
+        "source_quote": "So by my woes to be",
+        "suggested_fix": "Translate the substantive word 'woes' into Afrikaans (for example 'smae', 'sorge', or 'ongemak' depending on preferred register) and make the phrasing natural in the stanza: e.g. 'Sodat ek deur my smarte sal wees' or 'Sodat ek deur my smarte nader sal wees'. Do not leave the English word 'woes'.",
+        "translation_quote": "Sodat deur my woes ek sal wees"
+      },
+      {
+        "location": "Multiple narrative paragraphs (references to the hymn and other hymn titles)",
+        "severity": "major",
+        "source_quote": "Nearer, My God, to Thee; From Greenland’s Icy Mountains; When I Survey the Wondrous Cross; A Charge to Keep I Have; Joy to the World; My Faith Looks Up to Thee; O Day of Rest and Gladness",
+        "suggested_fix": "Translate or localize repeated references to the hymn title and other hymn titles consistently into Afrikaans (or present them as translated titles in italics), or at minimum translate the descriptive clause when the English title is cited in running text. Ensure quoted substantive prose is rendered into the target language rather than left in English. For example, render 'Nearer, My God, to Thee' as 'Nader, my God, tot U' consistently when referenced outside the lyrics block.",
+        "translation_quote": "… hierdie lied, „Nearer, My God to Thee”, … ander liedere deur Mason sluit in „From Greenland’s Icy Mountains”, „When I Survey the Wondrous Cross”, „A Charge to Keep I Have”, „Joy to the World”, „My Faith Looks Up to Thee”, en „O Day of Rest and Gladness”. (appears in multiple places)"
+      },
+      {
+        "location": "Johnstown flood paragraph — phrasing and grammar",
+        "severity": "minor",
+        "source_quote": "an unfortunate railroad train rushed into the swirling flood waters. A young woman, prepared to be a missionary, and on her way to the far east, became one of those trapped in a railroad car which was turned up on end.",
+        "suggested_fix": "Correct Afrikaans grammar and idiom: e.g. '… het ’n spoorweghoop/trein in die kolkende vloedwaters ingespoed. ’n Jong vrou, voorberei om ’n sendingwerker te wees en op pad na die verre Ooste, was een van dié wat in ’n spoorwa gevang was wat op sy kant gedraai het.' Preserve factual content but improve noun choice and agreement ('spoorwa' not 'spoorwagons wa').",
+        "translation_quote": "Tydens die Johnstown-stadvloede van 31 Mei 1889 … het ’n ongelukkige spoorwegtrein die draai in die kolkende vloedwaters ingespoed. ’n Jong vrou, voorberei om ’n sendingwerker te wees en op pad na die verre ooste, het een van diegene geword wat in ’n spoorwagons wa vasgevang was wat op sy einde gedraai is."
+      },
+      {
+        "location": "Lyrics block, fifth stanza, line 2",
+        "severity": "minor",
+        "source_quote": "Cleaving the sky",
+        "suggested_fix": "Replace 'deur die lug verwarm' (which implies 'heated') with an Afrikaans equivalent that captures 'cleaving' or 'cleaving the sky', e.g. 'deursny die lug' or 'deur die lug vlerke deurboor' depending on desired poetic tone.",
+        "translation_quote": "Of as op vreugdevolle vlerke\n    Deur die lug verwarm,"
+      },
+      {
+        "location": "Figure figcaption translation of James 4:8",
+        "severity": "minor",
+        "source_quote": "Draw nigh to God, and he will draw nigh to you. -Jas. 4:8",
+        "suggested_fix": "The provided Afrikaans 'Nader tot God, en Hy sal tot julle nader kom.' is acceptable, but consider matching register and pronoun number to the rest of the article: e.g. 'Nader tot God, en Hy sal tot julle naderkom.' Ensure spacing/punctuation around the verse reference follows house style.",
+        "translation_quote": "<em>Nader tot God, en Hy sal tot julle nader kom.</em> -Jas. 4:8"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

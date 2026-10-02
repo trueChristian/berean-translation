@@ -2,7 +2,6 @@
   "article_id": "2b07502a-cbf0-4b92-8bb8-7910a5557f84",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:09+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 7022
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 898,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6668,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7566
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "source.html — first paragraph (\"Anabaptists\")",
+      "severity": "minor",
+      "source_quote": "Their enemies called them “Anabaptists” because they rejected infant baptism.",
+      "suggested_fix": "Use a single consistent, standard Urdu rendering for the term throughout the article (for example: \"انابپٹسٹس\" or \"انی بپٹسٹس\") and apply it consistently in every occurrence. Do not change the English name; provide one Urdu transliteration and use it everywhere.",
+      "translation_quote": "انہوں نے انہیں \"انی بپٹسٹس\" کہا کیونکہ انہوں نے بچوں کے بپتسمہ کو رد کیا تھا۔"
+    },
+    {
+      "location": "translation.html — throughout (\"Pennsylvania\" spelling inconsistency)",
+      "severity": "minor",
+      "source_quote": "Pennsylvania",
+      "suggested_fix": "Use one consistent Urdu spelling for 'Pennsylvania' everywhere (e.g., \"پنسلوانیا\") and update any differing instances to match.",
+      "translation_quote": "1682 میں، ولیم پین کو پنسلوانیا کالونی دی گئی تھی اور وہ اپنے کہے ہوئے \"مقدس تجربے\" کو چلانا چاہتا تھا۔"
+    }
+  ],
+  "finished_at": "2026-10-02T11:17:42+00:00",
   "id": "1cc0904639804e9eb09506795b0cef27",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "urd",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/589bbbf06d53e840c1b02c16b5a0e9d55ee78fbc01185cea481271c35d6c3b97.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "b3e43e634638cbb2acbfd582a6dcb7a3f9f4e2dc77e578bc59a693261f0aa67b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

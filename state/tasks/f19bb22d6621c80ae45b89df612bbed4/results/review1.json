@@ -1,0 +1,92 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0d398a16-87c6-4e97-8af7-c16bcfc0cd6a",
+    "response_id": "chatcmpl-EUURcGQr0xUQHPWmWIrtg1p17aXgx",
+    "usage": {
+      "completion_tokens": 2457,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7355,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9812
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph with Matthew 16:25 (near start)",
+        "severity": "major",
+        "source_quote": "For whosoever will save his life shall lose it: and whosoever will lose his life for my sake shall find it –Matthew 16:25.",
+        "suggested_fix": "Replace the English book name with the conventional German form while keeping the verse text translation and the chapter/verse unchanged. For example: “Denn wer sein Leben retten will, wird es verlieren; wer aber sein Leben verliert um meinetwillen, der wird es finden –Matthäus 16:25.”",
+        "translation_quote": "Denn wer sein Leben retten will, wird es verlieren; wer aber sein Leben verliert um meinetwillen, der wird es finden –Matthew 16:25."
+      },
+      {
+        "location": "Paragraph quoting John 14:15 and 1 John 2:4 (middle)",
+        "severity": "major",
+        "source_quote": "If ye love me, keep my commandments –John 14:15. And, He that saith, I know him, and keepeth not his commandments, is a liar, and the truth is not in him –1 John 2:4.",
+        "suggested_fix": "Change the English book names to their German equivalents (Johannes, 1 Johannes) and keep the translated verse text and the chapter/verse numbers unchanged. Example: “Wenn ihr mich liebt, so haltet meine Gebote –Johannes 14:15. Und: Wer sagt: Ich kenne ihn, und hält seine Gebote nicht, der ist ein Lügner, und die Wahrheit ist nicht in dem –1 Johannes 2:4.”",
+        "translation_quote": "Wenn ihr mich liebt, so haltet meine Gebote –John 14:15. Und: Wer sagt: Ich kenne ihn, und hält seine Gebote nicht, der ist ein Lügner, und die Wahrheit ist nicht in dem –1 John 2:4."
+      },
+      {
+        "location": "Section 'Brüderliche Liebe' (John 13:35)",
+        "severity": "major",
+        "source_quote": "By this shall all men know that ye are my disciples, if ye have love one to another –John 13:35.",
+        "suggested_fix": "Replace the English book name with the German form (Johannes) while preserving the translated verse text and chapter/verse. Example: “Daran wird jedermann erkennen, dass ihr meine Jünger seid, wenn ihr Liebe untereinander habt –Johannes 13:35.”",
+        "translation_quote": "Daran wird jedermann erkennen, dass ihr meine Jünger seid, wenn ihr Liebe untereinander habt –John 13:35."
+      },
+      {
+        "location": "Pleasure section (James 5:5-6, Luke 8:14, 2 Timothy 3:1-5)",
+        "severity": "major",
+        "source_quote": "Ye have lived in pleasure on the earth... –James 5:5-6. ...that which fell among thorns are they... –Luke 8:14. This know also, that in the last days... –2 Timothy 3:1-5.",
+        "suggested_fix": "Convert English book names to German conventions (Jakobus, Lukas, 2 Timotheus) and leave the translated verse text and verse numbers unchanged. Examples: “Ihr habt euer Leben in Wollust auf Erden geführt... –Jakobus 5:5-6.” “…die unter die Dornen fielen … –Lukas 8:14.” “Und das wisse, dass in den letzten Tagen gefährliche Zeiten eintreten werden… –2 Timotheus 3:1-5.”",
+        "translation_quote": "Ihr habt euer Leben in Wollust auf Erden geführt und habt euch gemästet wie an einem Tag des Schlachtens... –James 5:5-6. ...und von den Sorgen und dem Reichtum und den Lustbarkeiten dieses Lebens erstickt werden... –Luke 8:14. ...in den letzten Tagen gefährliche Zeiten eintreten werden... –2 Timothy 3:1-5."
+      },
+      {
+        "location": "Revelation 3:15-16 quotation (near end of Pleasure section)",
+        "severity": "major",
+        "source_quote": "I know thy works, that thou art neither cold nor hot: I would thou wert cold or hot. So then because thou art lukewarm... –Revelation 3:15-16.",
+        "suggested_fix": "Replace the English book name with the German conventional name (Offenbarung) while keeping the translated verse text and the chapter/verse unchanged. Example: “Ich kenne deine Werke... –Offenbarung 3:15-16.”",
+        "translation_quote": "Ich kenne deine Werke, dass du weder kalt noch warm bist; wäre du doch kalt oder warm! Weil du aber lau bist und weder warm noch kalt, so will ich dich ausspeien aus meinem Munde –Revelation 3:15-16."
+      },
+      {
+        "location": "Parenthetical reference to 1 Corinthians 5 (after mention of leaven)",
+        "severity": "major",
+        "source_quote": "Remember a little leaven leavens the lump. (1 Corinthians 5)",
+        "suggested_fix": "Change the English book name to the German standard (1 Korinther) while keeping the parenthetical reference. Example: “Denkt daran: ein wenig Sauerteig durchsäuert den ganzen Teig. (1 Korinther 5)”",
+        "translation_quote": "Denkt daran: ein wenig Sauerteig durchsäuert den ganzen Teig. (1 Corinthians 5)"
+      },
+      {
+        "location": "Ephesians 4:11-13 quotation",
+        "severity": "major",
+        "source_quote": "And he gave some, apostles; and some, prophets; and some, evangelists; and some, pastors and teachers... – Ephesians 4:11-13.",
+        "suggested_fix": "Replace the English book name with the German form (Epheser) while preserving the translated verse text and the verse numbers. Example: “Und er hat einige gegeben: Apostel... –Epheser 4:11-13.”",
+        "translation_quote": "Und er hat einige gegeben: Apostel, einige Propheten, einige Evangelisten, einige Pastoren und Lehrer... – Ephesians 4:11-13."
+      },
+      {
+        "location": "Multiple scripture citations (general)",
+        "severity": "major",
+        "source_quote": "All Scripture citations in the authoritative English use English book names (Matthew, John, 1 John, James, Luke, 2 Timothy, Revelation, 1 Corinthians, Ephesians).",
+        "suggested_fix": "Use the conventional German Bible book names consistently for every quoted Scripture citation while keeping the translated verse text and the original chapter/verse numbers unchanged. (Examples: Matthew → Matthäus; John → Johannes; 1 John → 1 Johannes; James → Jakobus; Luke → Lukas; 2 Timothy → 2 Timotheus; Revelation → Offenbarung; 1 Corinthians → 1 Korinther; Ephesians → Epheser.)",
+        "translation_quote": "Numerous Scripture references throughout the translation retain the English book names (e.g., Matthew 16:25, John 14:15, 1 John 2:4, James 5:5-6, Luke 8:14, 2 Timothy 3:1-5, Revelation 3:15-16, 1 Corinthians 5, Ephesians 4:11-13)."
+      },
+      {
+        "location": "Opening paragraph: measurement unit",
+        "severity": "minor",
+        "source_quote": "After he was several inches off, one of his friends tried to point it out...",
+        "suggested_fix": "Use a direct, idiomatic translation of the measure; either keep 'inches' as 'Zoll' or use a neutral phrase like 'einige Zoll' instead of 'mehrere Zentimeter' to avoid an unnecessary unit conversion. For example: “Nachdem er mehrere Zoll daneben gesägt hatte, versuchte einer seiner Freunde, ihn darauf hinzuweisen...”",
+        "translation_quote": "Nachdem er mehrere Zentimeter abgewichen war, versuchte einer seiner Freunde, ihn darauf hinzuweisen, doch er tat so, als höre er es nicht."
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

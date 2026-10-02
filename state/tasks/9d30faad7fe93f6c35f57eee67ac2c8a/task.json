@@ -2,7 +2,6 @@
   "article_id": "c7009feb-1e58-4c54-a5e9-ae0bf90ed9cf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 4492
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1091,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4014,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5105
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Paragraph mentioning Hitler Youth (source.html paragraph starting \"Adolf Hitler made very effective use of group dynamics...\")",
+      "severity": "minor",
+      "source_quote": "Adolf Hitler made very effective use of group dynamics with his Hitler Youth groups.",
+      "suggested_fix": "Use a natural Norwegian form for the historical organization name. Options: \"Adolf Hitler gjorde svært effektiv bruk av gruppedynamikk med Hitlerjugend-gruppene.\" or \"Adolf Hitler gjorde svært effektiv bruk av gruppedynamikk med sine ungdomsorganisasjoner (Hitlerjugend).\" Preserve the sentence structure and HTML tags as in the translation.",
+      "translation_quote": "Adolf Hitler gjorde svært effektiv bruk av gruppedynamikk med sine Hitleryouth-grupper. Ikke bare klarte han å gi dem en følelse av tilhørighet og en sak å støtte, han klarte også å effektivt endre ungdommens moralske kompass i hans tid."
+    },
+    {
+      "location": "Final paragraph quoting Jude (source.html paragraph containing \"…the faith which was once delivered unto the saints –Jude 1:3.\")",
+      "severity": "minor",
+      "source_quote": "…the faith which was once delivered unto the saints –Jude 1:3.",
+      "suggested_fix": "Use the conventional Norwegian book name or a conventional Norwegian abbreviation for the epistle. Example: \"…den tro som en gang ble overgitt til de hellige – Judas 1:3.\" or keep short form as \"–Jud 1:3\" but ensure consistency with other Bible-reference styles used on the site. Do not change the verse numbers or wording. Preserve the surrounding HTML tags and emphasis.",
+      "translation_quote": "…den tro som en gang ble overgitt til de hellige –Jud 1:3."
+    }
+  ],
+  "finished_at": "2026-10-02T11:17:43+00:00",
   "id": "9d30faad7fe93f6c35f57eee67ac2c8a",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "nob",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/007fc316198faf474d16a29be6ce55b2d1edd73a2740466b844468e370ef99fd.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "1f7c34bc947a663a71aab745b050e25b087d38fd1ef4f605c7cdf8255d9c68b7",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

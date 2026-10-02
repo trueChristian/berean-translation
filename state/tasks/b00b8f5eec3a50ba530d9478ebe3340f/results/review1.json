@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8d95759d-a12d-47c4-a976-9b5cfc886b65",
+    "response_id": "chatcmpl-EUURJccGzrb064iIFK4tfbz47UghQ",
+    "usage": {
+      "completion_tokens": 670,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4819,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5489
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph containing Luke 19:12-13",
+        "severity": "minor",
+        "source_quote": "And he called his ten servants, and delivered them ten pounds, and said unto them, Occupy till I come –Luke 19:12-13.",
+        "suggested_fix": "Use a target-language term that clearly corresponds to the unit named in the English source while preserving the scriptural sense. Either retain a literal equivalent of “ten pounds” (for example, “diez libras”) or add a clarifying parenthetical (for example, “diez minas (equivalente de la moneda mencionada en la parábola)”) so readers see the same unit concept present in the English citation. Keep the verse numbers unchanged and keep the citation in the same place.",
+        "translation_quote": "Y llamando a sus diez siervos, les entregó diez minas y les dijo: Negocia hasta que yo vuelva –Lucas 19:12-13."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

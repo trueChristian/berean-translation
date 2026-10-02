@@ -2,7 +2,6 @@
   "article_id": "b3c8e9e3-2b81-4f91-846f-23e68fbd5b70",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,6 +23,62 @@
         },
         "total_tokens": 10911
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1880,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 320,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10635,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12515
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html — opening blockquote (2 Timothy quotation)",
+      "severity": "major",
+      "source_quote": "Greatly desiring to see thee, being mindful of thy tears, that I may be filled with joy; When I call to remembrance the unfeigned faith that is in thee, which dwelt first in thy grandmother Lois, and thy mother Eunice; and I am persuaded that in thee also. Wherefore I put thee in remembrance that thou stir up the gift of God, which is in thee by the putting on of my hands. For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2 Timothy 1:4-7.",
+      "suggested_fix": "Translate the quoted Scripture into contemporary Modern Greek (not Koine). Preserve the exact verse range and place the book name in conventional Modern Greek (ΔΕΥΤΕΡΗ ΠΡΟΣ ΤΟΝ ΤΙΜΟΘΕΟΝ or simply Β΄ Τιμοθέου) with the unchanged chapter:verse numerals. Example (not required verbatim): «Μεγάλη επιθυμία έχω να σε ιδώ, ανακαλώντας στη μνήμη μου τους δακρύους σου, για να γεμίσω με χαρά. Μνημονεύω την αληθινή πίστιν που είναι μέσα σου, η οποία πρώτα κατοίκησε στην γιαγιά σου Λωΐδα καί στην μητέρα σου Ευνίκη· και είμαι βεβαίως ότι είναι και μέσα σου. Τούτο δε σού υπενθυμίζω, να αναζωπυρώσης το χάρισμα του Θεού που είναι μέσα σου δια της επιθέσεως των χειρών μου. Οὐ γὰρ ὁ Θεὸς ἔδωκεν ἡμῖν πνεῦμα φόβου, ἀλλὰ δύναμιν, καί ἀγάπην, καί σώφρονα διάνοιαν» — Β΄ Τιμοθέου 1:4-7. (Use Modern Greek wording; do not keep the Koine/archaic phrasing used in the translation.)",
+      "translation_quote": "<em>Πολύ επιθυμών να σε ιδώ, αναλογιζόμενος τους δακρύους σου, ώστε να γεμίσω με χαρά· όταν ανακαλώ στη μνήμη μου την ακέραιη πίστιν που εστίν εν σοί, η οποία πρώτῳ εσκήνωσεν εν τηγεία σου Λωΐς και τη μητρί σου Ευνίκη· και εγώ πιστεύω ότι είναι και εν σοί. Διά τούτο υπενθυμίζω σε να αναζωπυρώσης το χάρισμα του Θεού, το οποίο εστίν εν σοί διὰ της επιθέσεως των χειρών μου. Οὐ γὰρ ὁ Θεὸς ἔδωκεν ἡμῖν πνεῦμα φόβου, ἀλλὰ δὲ δυνάμεως καὶ ἀγάπης καὶ σωφρονισμοῦ —2 Timothy 1:4-7.</em>"
+    },
+    {
+      "location": "source.title / translation.title",
+      "severity": "minor",
+      "source_quote": "Women of Faith",
+      "suggested_fix": "Title translation is acceptable as «Γυναίκες της Πίστης» and was provided as «Γυναίκες της Πίστης». No change required for the title itself. (No corrective action needed.)",
+      "translation_quote": "Γυναίκες της Πίστης"
+    },
+    {
+      "location": "source.subtitle / translation.subtitle",
+      "severity": "minor",
+      "source_quote": "THE DISCIPLESHIP SERIES",
+      "suggested_fix": "Translate the subtitle into Modern Greek to match the source metadata. For example: «Η ΣΕΙΡΑ ΜΑΘΗΤΕΙΑΣ» or «ΣΕΙΡΑ: ΜΑΘΗΤΕΙΑ» while preserving uppercase styling if desired. The current translation left the subtitle in English.",
+      "translation_quote": "THE DISCIPLESHIP SERIES"
+    },
+    {
+      "location": "multiple inline Scripture references (parenthetical and inline)",
+      "severity": "major",
+      "source_quote": "—2 Timothy 1:4-7.; …thy desire shall be to thy husband, and he shall rule over thee –Genesis 3:16; (see 1 Timothy 2:14); …The Lord is my helper, and I will not fear what man shall do unto me –Hebrews 13:6.; (See Luke 10:38-42); …hath chosen that good part, which shall not be taken away from her –Luke 10:42.; …For in that she hath poured this ointment on my body, she did it for my burial –Matthew 26:12.; etc.",
+      "suggested_fix": "Replace English book names with their conventional Modern Greek forms throughout the article while keeping chapter and verse numbers unchanged and leave parenthetical references in Greek. Examples: \"2 Timothy\" → \"Β΄ Τιμοθέου\" or \"Β΄ προς Τιμόθεον\"; \"Genesis\" → \"Γένεσις\"; \"1 Timothy\" → \"Α΄ Τιμοθέου\"; \"Hebrews\" → \"Εβραίους\"; \"Luke\" → \"Λουκάν\"; \"Matthew\" → \"Κατά Ματθαίον\". Ensure any inline quoted Scripture passages are translated into Modern Greek (not left in English) and that book names in citations are in Greek. Do not change numerals or verse ranges.",
+      "translation_quote": "Examples in translation where English book names or English reference conventions remain: \"—2 Timothy 1:4-7.\", \"–Genesis 3:16\", \"1 Timothy 2:14\", \"—Hebrews 13:6.\", \"(See Luke 10:38-42)\", \"—Matthew 26:12.\""
+    },
+    {
+      "location": "source.html — use of archaic/Koine-style Greek throughout (stylistic register)",
+      "severity": "major",
+      "source_quote": "(entire translation uses Koine/archaic forms in many biblical quotations and some narrative, e.g. uses \"Ποία ειμί;\", \"Διά τούτο υπενθυμίζω σε να αναζωπυρώσης\", \"εστίν\", \"εσκήνωσεν\", and retains English book names)",
+      "suggested_fix": "The translation must use contemporary Modern Greek per the language guidance. Convert archaic/Koine verb endings, vocabulary and syntax to natural Modern Greek equivalents throughout (especially in all Scripture quotations and any liturgical-sounding lines). Examples: replace \"Ποία ειμί;\" with «Ποια είμαι;», \"Διά τούτο\" → «Γιʼ αυτό», verb forms like \"εστίν/εσκήνωσεν\" → «είναι/κατοίκησε», and revise clauses to modern idiom while preserving the original theological meaning. Keep the author's theology and sentence structure order unchanged where possible, but render every substantive quoted passage and narrative sentence in idiomatic Modern Greek.",
+      "translation_quote": "Instances: opening paragraph and many inline quotations and narrative sentences use archaic forms (see full translation)."
     }
   ],
   "id": "a6c55f1064cf576211bc2d6562323ff8",
@@ -69,11 +124,13 @@
     }
   },
   "protected": false,
+  "quality_score": 64,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8cfe76a75d2704a515e0bc44af297afb5a26a042a45e137da71cec303c344e97.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "84afe7c1fae039864478445557b2cd71f3647f31db181086b533ee7c5b51637a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

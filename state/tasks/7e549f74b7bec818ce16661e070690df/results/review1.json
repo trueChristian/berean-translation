@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "2f00b942-ab24-4fc6-8c77-0a9406d5fd87",
+    "response_id": "chatcmpl-EUURXGCeZs0S3jAKMTItCpBbXNs7K",
+    "usage": {
+      "completion_tokens": 1418,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4024,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5442
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>“My, it’s warm!” exclaimed Mom. “A nice, good rain is what we need to cool things off a bit.”</p>",
+        "severity": "major",
+        "source_quote": "“A nice, good rain is what we need to cool things off a bit.”",
+        "suggested_fix": "Translate the meaning faithfully rather than adding 'light'. Replace “’n Goeie, ligte reën is wat ons nodig het om dit ’n bietjie af te koel.” with something like “’n Goeie reën is wat ons nodig het om dit ’n bietjie af te koel.” or “’n lekker, goeie reën is wat ons nodig het om dit ’n bietjie af te koel.”",
+        "translation_quote": "“’n Goeie, ligte reën is wat ons nodig het om dit ’n bietjie af te koel.”"
+      },
+      {
+        "location": "<p>Of special interest was our neighbor Melvin. His barn had collapsed on top of dozens of cattle and then a fire had broken out. ... many of the steers could not be saved.</p>",
+        "severity": "minor",
+        "source_quote": "many of the steers could not be saved.",
+        "suggested_fix": "Use a correct, idiomatic Afrikaans word for 'steers' (plural of young castrated bulls / male cattle). Replace “bulte” (unidiomatic) with “bulle” or “stiers” depending on intended nuance. Suggested: “maar uiteindelik kon baie van die bulle nie gered word nie.”",
+        "translation_quote": "“... uiteindelik kon baie van die bulte nie gespaar word nie.”"
+      },
+      {
+        "location": "<p>Sunday came, but no one went to church. The morning was spent over at Melvin’s, hauling away dead cattle, clearing away burnt hay, and simply just being there for one another.</p>",
+        "severity": "minor",
+        "source_quote": "hauling away dead cattle, clearing away burnt hay, and simply just being there for one another.",
+        "suggested_fix": "Correct the mistranslation of 'hauling away'—'uitruilend' is incorrect. Use an appropriate verb phrase such as “wat die oggend by Melvin deurgebring is om die dooie beeste weg te laai, verbrand hooi uit te ruim en net daar vir mekaar te wees.”",
+        "translation_quote": "“Die oggend is by Melvin deurgebring, doodbeeste uitruilend, verbrand hooi wegruimend, en net daar wees vir mekaar.”"
+      },
+      {
+        "location": "<title>“Thunder, Twisters, and Trust”</title>",
+        "severity": "minor",
+        "source_quote": "Thunder, Twisters, and Trust",
+        "suggested_fix": "Consider standard Afrikaans plural punctuation for 'tornadoes'. The translator used “Tornado’s” (with apostrophe). Use either “Tornado’s” if following common usage, or more standard Afrikaans plurals like “Tornados” or “tornado’s” consistently. Suggested: “Donder, Tornados en Vertroue” or “Donder, tornado's en Vertroue” depending on house style. (This is a punctuation/style note, not a change of meaning.)",
+        "translation_quote": "\"Donder, Tornado’s en Vertroue\""
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

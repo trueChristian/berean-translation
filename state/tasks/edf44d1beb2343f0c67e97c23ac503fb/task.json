@@ -2,7 +2,6 @@
   "article_id": "b6a6823e-0f2a-4354-aebb-5c37ad85937a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 6078
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1518,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5407,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6925
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Second paragraph (sentence about cause of mother's death)",
+      "severity": "major",
+      "source_quote": "When she was five years old, her mother died of consumption, known today as tuberculosis.",
+      "suggested_fix": "Translate the original meaning: indicate that the mother died of 'consumption' (the historical term) and that this illness is known today as tuberculosis. For example, replace the translated sentence with: «Когда ей было пять лет, её мать умерла от чахотки (в настоящее время называемой туберкулёзом).» Preserve surrounding HTML tags and punctuation.",
+      "translation_quote": "Когда ей было пять лет, её мать умерла от туберкулёза, известного тогда как «чахотка»."
+    },
+    {
+      "location": "Paragraph about Syrian students (quote inside paragraph)",
+      "severity": "major",
+      "source_quote": "Drawing near, to their amazement, they saw fifty Syrian students standing under some trees in a circle, and singing in Arabic ‘Nearer, my God, to Thee,’ Professor Hitchcock...",
+      "suggested_fix": "Translate the quoted English hymn phrase into Russian, as other quoted substantive prose is translated elsewhere. Replace the English quoted phrase ‘Nearer, my God, to Thee’ with its Russian rendering used in the article (e.g. «Ближе, Господи, ко Тебе»), preserving punctuation and quote marks. Example replacement for the clause: «...и поющих по-арабски «Ближе, Господи, ко Тебе».»",
+      "translation_quote": "«Подойдя ближе, к их изумлению, они увидели пятьдесят сирийских студентов, стоявших под деревьями в кругу и поющих по-арабски ‘Nearer, my God, to Thee’.»"
+    },
+    {
+      "location": "Paragraph naming other hymns by Lowell Mason",
+      "severity": "minor",
+      "source_quote": "Other hymns by Mason include “From Greenland’s Icy Mountains”, “When I Survey the Wondrous Cross”, “A Charge to Keep I Have”, “Joy to the World”, “My Faith Looks Up to Thee”, and “O Day of Rest and Gladness”.",
+      "suggested_fix": "Translate or provide conventional Russian titles for the cited hymn titles (they are quoted substantive items). Replace the English titles with commonly used Russian equivalents (or transliterate if no accepted translation), for example: «К другим гимнам Мэйсона относятся „Из ледяных гор Гренландии“, „Когда я созерцаю дивный крест“, „Надежный долг хранить обязан“ (use established Russian hymn titles where available), „Радость миру“, „Веру мою к Тебе возношу“ и „День покоя и радости“.» Keep the original English titles only if there is a clear, established convention to retain them; otherwise provide the translation. Preserve punctuation and HTML.",
+      "translation_quote": "«Among other hymns by Mason — «From Greenland’s Icy Mountains», «When I Survey the Wondrous Cross», «A Charge to Keep I Have», «Joy to the World», «My Faith Looks Up to Thee» и «O Day of Rest and Gladness».»"
     }
   ],
   "id": "edf44d1beb2343f0c67e97c23ac503fb",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/bdacc95910a7433231bb636adde27ced309ebbaf33d26f4288193a37ef1ecead.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "529627b867a50e286116891ac48830f9194ac5c383794aa0c674aa93ff18825d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

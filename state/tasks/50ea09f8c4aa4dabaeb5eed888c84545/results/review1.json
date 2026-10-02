@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "efb8867a-2f49-4d8f-a774-271eaaedf228",
+    "response_id": "chatcmpl-EUURKqvYEiblW9AmJgFrBwEsRTnSK",
+    "usage": {
+      "completion_tokens": 1607,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8885,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10492
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph containing John 21:22 (first paragraph)",
+        "severity": "critical",
+        "source_quote": "If I will that he [John] tarry till I come, what is that to thee? follow thou me. John 21:22.",
+        "suggested_fix": "Translate the quoted Scripture into Urdu and render the book name and verse number in conventional Urdu form. Example replacement (preserve the surrounding <em> tags and punctuation): <em>اگر میں چاہوں کہ وہ میرے آنے تک ٹھہر جائے تو تم سے کیا تعلق؟ تو میرے پیچھے چلے جانا۔ — یوحنا 21:22.</em>",
+        "translation_quote": "<em>If I will that he [John] tarry till I come, what is that to thee? follow thou me. John 21:22.</em>"
+      },
+      {
+        "location": "source.html — final paragraph containing Luke 17:22-23",
+        "severity": "critical",
+        "source_quote": "…The days will come, when ye shall desire to see one of the days of the Son of man, and ye shall not see it. And they shall say to you, See here; or, see there: go not after them, nor follow them –Luke 17: 22-23.",
+        "suggested_fix": "Translate the quoted Scripture into Urdu and render the book name and verse range in conventional Urdu form. Preserve emphasis tags. Example replacement: <em>…آنے والے دن ہوں گے جب تم انسان کے بیٹے کے ایک دن کو دیکھنے کی تمنا کرو گے اور تم اسے نہیں دیکھوگے۔ اور وہ تم سے کہیں گے، یہاں دیکھو؛ یا وہاں دیکھو: ان کے پیچھے نہ جاؤ، نہ ہی ان کی پیروی کرو۔ — لوقا 17:22-23.</em>",
+        "translation_quote": "<em>…The days will come, when ye shall desire to see one of the days of the Son of man, and ye shall not see it. And they shall say to you, See here; or, see there: go not after them, nor follow them –Luke 17: 22-23.</em>"
+      },
+      {
+        "location": "source.html — final paragraph containing Matthew 24:14 (same paragraph as Luke quote)",
+        "severity": "critical",
+        "source_quote": "and then shall the end come –Matthew 24:14.",
+        "suggested_fix": "Translate the quoted Scripture phrase into Urdu and render the book name and verse in conventional Urdu form. Preserve ellipsis/spacing and emphasis tags. Example replacement (continuing the sentence): <em>…اور پھر انجام آئے گا۔ — متی 24:14.</em>",
+        "translation_quote": "<em>and then shall the end come –Matthew 24:14.</em>"
+      },
+      {
+        "location": "source.html — paragraph discussing Roman rule and century reference (paragraph starting “This was not the last time an oppressed people would be deceived… The year was 306”)",
+        "severity": "major",
+        "source_quote": "This time, the teachings of Jesus and the words of His disciples would be misinterpreted to fit the changing political and religious landscape of fourth century Rome. The year was 306, and Diocletian...",
+        "suggested_fix": "Correct the century reference in the translation. The English specifies 'fourth century' and the year 306 (which is in the fourth century). In the Urdu translation this was rendered as 'تیسری صدی میں' which is incorrect. Replace with 'چوتھی صدی میں' (or otherwise align the century wording with 'چوتھی صدی' and retain the year 306).",
+        "translation_quote": "\"اس آخری مثال نہیں تھی جب کوئی مظلوم قوم دھوکہ کھائے گی، کیونکہ رومی حکومت تیسری صدی میں خدا کے لوگوں کی اجتماعی تعبیرات میں ایک اور بڑی غلط فہمی کا مشاہدہ کرے گی۔ اس بار عیسیٰ کی تعلیمات... سن 306 تھی, ...\""
+      }
+    ],
+    "passed": false,
+    "score": 65
+  }
+}

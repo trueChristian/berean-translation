@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "036e6d98-39c4-4cd7-8c1c-e6b774ccd10f",
+    "response_id": "chatcmpl-EUURHOzlCImsu0SMOegbAgA0UsYdL",
+    "usage": {
+      "completion_tokens": 1672,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8379,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10051
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>… <em>فَإِنْ شِئْتُ أَنَّهُ يَبْقَى إِلَى مَجِيئِي، فَمَا لَكَ؟ اتَّبِعْ أَنَا. يوحنا 21:22.</em></p>",
+        "severity": "major",
+        "source_quote": "<em>If I will that he [John] tarry till I come, what is that to thee? follow thou me. John 21:22.</em>",
+        "suggested_fix": "الاقتباس هنا خاطئ لغوياً ويغير بنية الأمر الأصلي. استبدِل العبارة العربية بنقل ولغوٍ سليم للاقتباس الإنجليزي وحفظ صيغة المخاطب: مثلاً: <em>إِنْ شِئْتُ أَنْ يَبْقَى هُوَ إِلَى مَجِيئِي، فَمَا لَكَ؟ اتَّبِعْنِي. يوحنا 21:22.</em> (أو بدقة أقرب لنسخة الترجمة المتداولة: <em>فإن شئت أن يَبْقَى إلى مجيي فمالَكَ؟ اتبعني.</em>) نظرًا لأن القواعد العربية تتطلب ضمير مفعول متصل صحيح \"اتبعني\" بدلاً من \"اتبع أنا\"، وهذا يحفظ معنى وسياق النص الأصلي.",
+        "translation_quote": "<em>فَإِنْ شِئْتُ أَنَّهُ يَبْقَى إِلَى مَجِيئِي، فَمَا لَكَ؟ اتَّبِعْ أَنَا. يوحنا 21:22.</em>"
+      },
+      {
+        "location": "throughout article (Munster / Muensterites mentions)",
+        "severity": "minor",
+        "source_quote": "\"Muensterites\" / \"Munster\" / earlier English variants (e.g. \"Munser\" in source) — references to the 16th-century Münster episode",
+        "suggested_fix": "ترجمة أسماء المدينة والجماعة غير متسقة في النص العربي (ظهرت صيغ مثل \"منستريين\" و\"المنستريين\" و\"مونستر\"). اقترح توحيد الترجمة إلى شكل واحد واضح في جميع المواضع: استخدم \"مونستر\" لاسم المدينة و\"المنسترِيون\" أو \"المنستريين\" كاسم الجماعة حسب اختيار موقع النشر، وطبق الشكل نفسه في جميع المواضع. مثال اقتراحي: استبدل كل ظهورات الأشكال المختلفة بـ\"مونستر\" لاسم المدينة و\"المنستريين\" (أو \"المنسترِيين\") لجماعة المونستر.",
+        "translation_quote": "أمثلة من الترجمة: \"المنستريين\" / \"منستريين\" / \"مونستر\""
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

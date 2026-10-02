@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "424873f2-76ec-4865-9443-3123e1dc2b17",
+    "response_id": "chatcmpl-EUURQqB28xHsLYtQa8Ue3xt8njjF5",
+    "usage": {
+      "completion_tokens": 910,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10209,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11119
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Aujourd'hui, les oncologues testent les cellules cancéreuses prélevées au biopsie pour y rechercher des marqueurs génétiques.</p>",
+        "severity": "minor",
+        "source_quote": "These days, cancer doctors test the biopsied cancer cells for genetic markers.",
+        "suggested_fix": "Change the phrase « prélevées au biopsie » to correct French phrasing, e.g. « prélevées par biopsie » or « prélevées lors d'une biopsie ». Preserve the surrounding HTML tags and sentence structure.",
+        "translation_quote": "Aujourd'hui, les oncologues testent les cellules cancéreuses prélevées au biopsie pour y rechercher des marqueurs génétiques."
+      },
+      {
+        "location": "<p>Typiquement, lorsqu'une tumeur est enlevée, les ganglions lymphatiques voisins sont prélevés pour voir s'ils contiennent des cellules cancéreuses. Cette présence ou absence de cellules aide au « stadification » du cancer (par exemple « stade 3 » ou « stade 4 ») et fournira des indications pour un traitement ultérieur afin de prévenir un risque de récidive.</p>",
+        "severity": "minor",
+        "source_quote": "This presence, or absence, of cells helps with the “staging” of the cancer (such as “stage 3” or “stage 4”) and will provide insight for further treatment to prevent a chance of recurrence.",
+        "suggested_fix": "« Stadification » is understandable but non‑idiomatic in French. Use a more conventional term such as « stadification » → « stadification (ou classification) » or replace with « stadification » → « stadification (mise en stade) » or better simply « le classement » or « la stadification (classification) ». Example fix: « ...aide à la stadification (classification) du cancer... ». Keep the surrounding HTML intact.",
+        "translation_quote": "Cette présence ou absence de cellules aide au « stadification » du cancer (par exemple « stade 3 » ou « stade 4 ») et fournira des indications pour un traitement ultérieur afin de prévenir un risque de récidive."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

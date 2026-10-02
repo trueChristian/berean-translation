@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "2a15a507-4e29-4fd8-918b-e46d1109e295",
+    "response_id": "chatcmpl-EUURXA1f10btYcPs0phj5Z1cWrUcJ",
+    "usage": {
+      "completion_tokens": 1308,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5198,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6506
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Top of article / section field",
+        "severity": "minor",
+        "source_quote": "section: \"Hymn History\"",
+        "suggested_fix": "Use consistent Indonesian spelling/wording for the section heading. Replace \"Sejarah Hymne\" with \"Sejarah Himne\" to match the article body which uses \"himne.\" Preserve HTML tags and attributes (no change to structure).",
+        "translation_quote": "section: \"Sejarah Hymne\""
+      },
+      {
+        "location": "Occurrences of the hymn title in running text and image alt/figcaption",
+        "severity": "minor",
+        "source_quote": "Several occurrences in source: the hymn title appears as English phrase e.g. “Nearer, My God to Thee” (quoted in paragraphs and image alt/figcaption).",
+        "suggested_fix": "For consistency and full localization, consider translating or providing the Indonesian title form in-line where the hymn title appears in running text and in the image alt, e.g. replace occurrences of “Nearer, My God to Thee” in paragraph quotations and the image alt with the translated title \"Lebih Dekat, Ya Tuhanku Kepadamu\" (keep the original English title in parentheses if desired). Do not change HTML structure or attributes.",
+        "translation_quote": "Paragraphs and image alt/figcaption frequently show the English hymn title (e.g. “Nearer, My God to Thee”)—the translation already uses the Indonesian title as the article title but retains the English hymn title in several quoted occurrences and the img alt: \"Notasi lagu untuk Nearer, My God, to Thee\"."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

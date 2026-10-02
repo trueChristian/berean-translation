@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "93879696-2283-4a11-bafd-d9c2dd052e49",
+    "response_id": "chatcmpl-EUURvhbojtOHq6lASImKxTF4yUkNf",
+    "usage": {
+      "completion_tokens": 1349,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11346,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12695
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<h2>Chemotherapy</h2> (heading)",
+        "severity": "minor",
+        "source_quote": "<h2>Chemotherapy</h2>",
+        "suggested_fix": "Translate the heading into Urdu, preserving the tag and attributes. For example: <h2>کیموتھراپی</h2>",
+        "translation_quote": "<h2>Chemotherapy</h2>"
+      },
+      {
+        "location": "<h2>Surgery</h2> (heading)",
+        "severity": "minor",
+        "source_quote": "<h2>Surgery</h2>",
+        "suggested_fix": "Translate the heading into Urdu, preserving the tag and attributes. For example: <h2>سرجری</h2>",
+        "translation_quote": "<h2>Surgery</h2>"
+      },
+      {
+        "location": "<h2>Immunotherapy</h2> (heading)",
+        "severity": "minor",
+        "source_quote": "<h2>Immunotherapy</h2>",
+        "suggested_fix": "Translate the heading into Urdu, preserving the tag and attributes. For example: <h2>امیونو تھراپی</h2>",
+        "translation_quote": "<h2>Immunotherapy</h2>"
+      },
+      {
+        "location": "Paragraph containing “exploratory surgery”",
+        "severity": "minor",
+        "source_quote": "exploratory surgery",
+        "suggested_fix": "Translate the parenthetical explanatory phrase into Urdu and keep it in parentheses. For example: (تفتیشی جراحی) or (جراحیِ تفتیشی). Preserve original punctuation and HTML structure.",
+        "translation_quote": "(exploratory surgery)"
+      },
+      {
+        "location": "Paragraph about voice box",
+        "severity": "minor",
+        "source_quote": "voice box",
+        "suggested_fix": "Translate the parenthetical explanatory term into Urdu and keep it in parentheses. For example: (وائس بکس/آواز کی ڈبی) or preferably the descriptive Urdu term: (آواز کی نالی). Preserve punctuation and HTML.",
+        "translation_quote": "(voice box)"
+      },
+      {
+        "location": "Multiple occurrences of English medical terms in parentheses: “remission” and “neutropenic fever”",
+        "severity": "minor",
+        "source_quote": "remission; neutropenic fever",
+        "suggested_fix": "Translate these parenthetical medical terms into Urdu while preserving parentheses. Examples: (remission) → (بہتری/ریکشن) — keep the same nuance as the source; better: (remission) → (رِیمِشن / مرض کی کشادگی) or simply (بہتری). For neutropenic fever: (neutropenic fever) → (نیوٹروپینک بخار). Preserve HTML and punctuation.",
+        "translation_quote": "(remission); \"neutropenic fever\" (neutropenic fever)"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

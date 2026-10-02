@@ -2,7 +2,6 @@
   "article_id": "02db24ae-5132-49c6-a6fd-da73417871e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,6 +23,76 @@
         },
         "total_tokens": 5585
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2092,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4989,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7081
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html — opening epigraph (Ephesians 1:17-18)",
+      "severity": "critical",
+      "source_quote": "That the God of our Lord Jesus Christ, the Father of glory, may give unto you the spirit of wisdom and revelation in the knowledge of him: The eyes of your understanding being enlightened; that ye may know what is the hope of his calling… –Ephesians 1:17-18.",
+      "suggested_fix": "Translate the entire epigraph (all quoted scripture) into contemporary Modern Hebrew, preserving the chapter and verse numbers exactly and using conventional Hebrew book-name forms. For example, render the quoted text in Hebrew (do not leave it in English) and keep the reference “–Ephesians 1:17-18.” Use the conventional Hebrew name for Ephesians.",
+      "translation_quote": "<em>That the God of our Lord Jesus Christ, the Father of glory, may give unto you the spirit of wisdom and revelation in the knowledge of him: The eyes of your understanding being enlightened; <strong>that ye may know what is the hope of his calling…</strong> –Ephesians 1:17-18.</em>"
+    },
+    {
+      "location": "source.html — Luke 19 parable paragraph (embedded quote)",
+      "severity": "critical",
+      "source_quote": "He said therefore, A certain nobleman went into a far country to receive for himself a kingdom, and to return. And he called his ten servants, and delivered them ten pounds, and said unto them, Occupy till I come –Luke 19:12-13.",
+      "suggested_fix": "Translate the quoted Scripture (Luke 19:12–13) fully into contemporary Modern Hebrew, preserving the verse numbering and using the conventional Hebrew book name for Luke. Do not leave the Bible quotation in English. Also correct any transliteration errors in the running text (see separate minor finding).",
+      "translation_quote": "<em>He said therefore, A certain nobleman went into a far country to receive for himself a kingdom, and to return. And he called his ten servants, and delivered them ten pounds, and said unto them, Occupy till I come –Luke 19:12-13.</em>"
+    },
+    {
+      "location": "source.html — Matthew 5:13 quotation",
+      "severity": "critical",
+      "source_quote": "Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted? it is thenceforth good for nothing, but to be cast out, and to be trodden under foot of men –Matthew 5:13.",
+      "suggested_fix": "Translate the Matthew 5:13 quotation into contemporary Modern Hebrew, preserving the chapter:verse numbers and using the conventional Hebrew book name for Matthew. The scripture must appear in Hebrew rather than English.",
+      "translation_quote": "<em>Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted? it is thenceforth good for nothing, but to be cast out, and to be trodden under foot of men –Matthew 5:13.</em>"
+    },
+    {
+      "location": "source.html — Hebrews 12:1-2 quotation",
+      "severity": "critical",
+      "source_quote": "Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight, and the sin which doth so easily beset us, and let us run with patience the race that is set before us, Looking unto Jesus the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God –Hebrews 12:1-2.",
+      "suggested_fix": "Translate the Hebrews 12:1–2 quotation into contemporary Modern Hebrew, keeping the chapter and verse numbers and using the conventional Hebrew book name for Hebrews. Quoted scripture must be in the target language.",
+      "translation_quote": "<em>Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight, and the sin which doth so easily beset us, and let us run with patience the race that is set before us, Looking unto Jesus the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God –Hebrews 12:1-2.</em>"
+    },
+    {
+      "location": "source.html — Romans 15:13 quotation (near end)",
+      "severity": "critical",
+      "source_quote": "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Ghost –Romans 15:13.",
+      "suggested_fix": "Translate Romans 15:13 into contemporary Modern Hebrew, preserving the verse numbers and using the conventional Hebrew name for Romans. Do not leave the scripture quotation in English.",
+      "translation_quote": "<em>Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Ghost –Romans 15:13.</em>"
+    },
+    {
+      "location": "source.title, source.subtitle, source.section",
+      "severity": "major",
+      "source_quote": "Title: The Hope of Your Calling\nSubtitle: LIVING AS YOUTH WITH AN ETERNAL PERSPECTIVE\nSection: INSPIRATIONS FOR YOUTH",
+      "suggested_fix": "Translate the article title, subtitle, and section name into contemporary Modern Hebrew. Use idiomatic Hebrew phrasing that preserves the author’s theology and emphasis (for example, translate the title and subtitle into Hebrew while keeping capitalization/typography conventions appropriate for the site). The section label should also be rendered in Hebrew.",
+      "translation_quote": "Title: The Hope of Your Calling\nSubtitle: LIVING AS YOUTH WITH AN ETERNAL PERSPECTIVE\nSection: INSPIRATIONS FOR YOUTH"
+    },
+    {
+      "location": "source.html — running text: reference to “Luke” rendered as \"בלוקס\"",
+      "severity": "minor",
+      "source_quote": "In Luke 19 is the parable of the nobleman giving his servants talents to invest. Consider the charge he gave his servants in verse 13.",
+      "suggested_fix": "Correct the Hebrew running-text reference to the Gospel of Luke. Use the conventional Hebrew book name form and correct spacing/prefix: e.g. 'בְּלוקס פרק 19' should be revised to 'בביקור לוקס פרק 19' or preferably 'בברית לוקס פרק 19' depending on site style — better: 'בבשורת לוקס, פרק 19' or simply 'בבשורת לוקס, פרק 19' (use the site's conventional book-name rendering). Ensure consistency with the way Bible books are rendered elsewhere in the site.",
+      "translation_quote": "בלוקס פרק 19 היא משל האציל שנותן למשרתו כישורים להשקעה."
     }
   ],
   "id": "1b67d4e616b5a8e62b68b3b29b4ea278",
@@ -69,11 +138,13 @@
     }
   },
   "protected": false,
+  "quality_score": 30,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d4096c8e219a9ff87d56f7ba5b34e9e5d1258bfb4281edd00108b01120b10b28.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "e60beaba9e12466f123cfd1ae7a96811ce97cb1cb87bf5ed6c8de7f6afdd6660",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

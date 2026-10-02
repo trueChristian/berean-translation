@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "be09487c-13c9-4cd1-931f-c6630da54f0e",
+    "response_id": "chatcmpl-EUURM38UbtREBCvcXcdsnJVbxgbxi",
+    "usage": {
+      "completion_tokens": 1139,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8670,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9809
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — opening paragraph (2 Timothy quote and names)",
+        "severity": "major",
+        "source_quote": "When I call to remembrance the unfeigned faith that is in thee, which dwelt first in thy grandmother Lois, and thy mother Eunice; and I am persuaded that in thee also. — 2 Timothy 1:5 (reference in opening paragraph)",
+        "suggested_fix": "Restore the proper name as printed in the authoritative English: translate Eunice as the conventional Norwegian form \"Eunike\" (or keep \"Eunice\" only if that is the publication's standard), and ensure Lois is likewise rendered as \"Lois\" or the conventional Norwegian form. Keep the rest of the verse translation intact and maintain the Scripture reference. Preserve the surrounding <p class=\"drop-cap\"><em>…</em></p> tags and punctuation.",
+        "translation_quote": "...som først bodde i din bestemor Lois og i din mor Evnis, og jeg har visshet om at den også bor i deg. Derfor minner jeg deg om å vekke opp Guds nådegave... — 2 Timoteus 1:4-7."
+      },
+      {
+        "location": "source.html — multiple occurrences of Eve (original \"Eve\")",
+        "severity": "major",
+        "source_quote": "As with their mother Eve, many of these voices appeal to her feminine spirit, but as their mother Eve discovered, unless it is the voice of God, it leads to death and destruction.",
+        "suggested_fix": "Translate the biblical proper name consistently as the conventional Norwegian form \"Eva\" (not \"Evva\"). Update every occurrence in the article where the English \"Eve\" appears to \"Eva\", preserving punctuation and sentence structure. Do not alter the theological content. Preserve original HTML tags.",
+        "translation_quote": "Som med deres mor Evva appellerer mange av disse stemmene til hennes kvinnelige ånd, men som deres mor Evva oppdaget, ..."
+      },
+      {
+        "location": "source.subtitle (metadata)",
+        "severity": "major",
+        "source_quote": "THE DISCIPLESHIP SERIES (subtitle in English)",
+        "suggested_fix": "Translate the subtitle into Norwegian Bokmål to match the other translated metadata fields. A suitable translation is: \"DISIPPELSKAPSEN\" or preferably \"DISIPPELSKAPSSERIEN\" depending on house style. Replace the English subtitle value while preserving the field structure. Do not change HTML article body tags (metadata lives outside source.html).",
+        "translation_quote": "THE DISCIPLESHIP SERIES"
+      },
+      {
+        "location": "source.title (metadata)",
+        "severity": "minor",
+        "source_quote": "Women of Faith (article title)",
+        "suggested_fix": "Prefer the idiomatic Norwegian rendering that preserves the author's repeated theological phrase. Suggested title: \"Troens kvinner\" (rather than \"Kvinner i tro\"). Replace title field text accordingly. This preserves theology and the phrase used repeatedly in the body. Do not change HTML tags or order.",
+        "translation_quote": "Kvinner i tro"
+      }
+    ],
+    "passed": false,
+    "score": 62
+  }
+}

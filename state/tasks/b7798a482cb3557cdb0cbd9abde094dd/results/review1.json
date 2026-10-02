@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "550608ad-9181-4750-a434-aba7c3aa6c14",
+    "response_id": "chatcmpl-EUURW7uP4EwSu0qxVgJF510wANt1n",
+    "usage": {
+      "completion_tokens": 800,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3967,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4767
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"...every time tordenen rullet or she heard the words «tornado warning»,...\"",
+        "severity": "major",
+        "source_quote": "every time the rumble of thunder was heard or she heard the words “tornado warning”, her heart would beat faster",
+        "suggested_fix": "Translate the quoted substantive phrase into contemporary Bokmål and keep it inside quotation marks. For example: «tornado warning» → «tornado-varsel» or «tornadovarsel». Replace only the quoted phrase and preserve surrounding punctuation and HTML structure.",
+        "translation_quote": "Gjennom den sommeren og i mange somre etterpå, hver gang tordenen rullet eller hun hørte ordene «tornado warning», slo hjertet hennes raskere, og en klump satte seg i magen."
+      },
+      {
+        "location": "Paragraph: \"“What was that?” exclaimed Mom as suddenly, a sheet of tin whizzed past the sunporch windows...\"",
+        "severity": "minor",
+        "source_quote": "a sheet of tin whizzed past the sunporch windows",
+        "suggested_fix": "Use a natural Norwegian rendering for “a sheet of tin” (a flat fragment/sheet of metal) rather than a compound that implies a pipe/tube. Suggested alternatives: «et stykke blikktak», «et stykke blikplate», «en blikplate», or «et stykke tinnplate» depending on desired register. Keep the rest of the sentence as translated.",
+        "translation_quote": "da et blikkplaterør suste forbi solverandavinduene og forsvant bortover hagen."
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

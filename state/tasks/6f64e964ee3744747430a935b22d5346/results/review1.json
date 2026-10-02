@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "31eb143e-a895-4bfa-820b-0af8092ecdc9",
+    "response_id": "chatcmpl-EUURlrp10XQkNv7csXDeFx6gQKvVN",
+    "usage": {
+      "completion_tokens": 1212,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3192,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4404
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...In his article, Donny Brechbill... endeavors to zone in on a challenging subject—some of the root problems...</p>",
+        "severity": "minor",
+        "source_quote": "endeavors to zone in on a challenging subject—some of the root problems that they see with women who are struggling in the church.",
+        "suggested_fix": "Replace the anglicism \"att zooma in på\" with a more idiomatic Swedish expression, for example: \"försöker fokusera på ett utmanande ämne — några av de grundläggande problem...\". Preserve the original HTML tags and punctuation.",
+        "translation_quote": "I sin artikel försöker Donny Brechbill, som tillsammans med sin fru håller flera äktenskapsseminarier varje år, att zooma in på ett utmanande ämne—några av de grundläggande problem som han ser hos kvinnor som kämpar i församlingen."
+      },
+      {
+        "location": "<p>...From my vantage point observing the Amish of Holmes County...</p>",
+        "severity": "minor",
+        "source_quote": "From my vantage point observing the Amish of Holmes County, these two items have done more to change a people and a culture in a more major way than almost anything else has in recent times.",
+        "suggested_fix": "Capitalize the ethnonym for consistency with Swedish orthography for proper names: change \"amishfolket i Holmes County\" to \"Amishfolket i Holmes County\". Preserve tags and sentence structure.",
+        "translation_quote": "Ur mitt perspektiv när jag iakttar amishfolket i Holmes County har dessa två föremål förändrat ett folk och en kultur mer i grunden än nästan något annat på senare tid."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

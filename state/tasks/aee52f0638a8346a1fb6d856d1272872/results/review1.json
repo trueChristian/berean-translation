@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "61865b79-767f-42cf-8839-2e285194bd0c",
+    "response_id": "chatcmpl-EUURGTArnjYFU32Qt3qFYyf6KsaOR",
+    "usage": {
+      "completion_tokens": 873,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1519,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2392
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> stanza 3, line 2 (\"What about our wives, or children to please?\")",
+        "severity": "major",
+        "source_quote": "“What about our wives, or children to please?”",
+        "suggested_fix": "Translate the rhetorical question about pleasing family members. For example: «А как же наши жёны и дети — чтобы угодить им?» or «А как же наши жёны и дети, ради которых мы стараемся?» Preserve the interrogative tone and idea of 'to please' (угодить/ради них), not 'for pay'.",
+        "translation_quote": "«А как же жёны наши, дети — ради мзды?»"
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

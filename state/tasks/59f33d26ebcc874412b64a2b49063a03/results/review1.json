@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5c677955-c01a-4602-a887-e53ab139f7b2",
+    "response_id": "chatcmpl-EUURj24CQeSRVX97HbWlAYR9nzIxw",
+    "usage": {
+      "completion_tokens": 1740,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5151,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6891
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — leading epigraph (Ephesians 1:17-18)",
+        "severity": "critical",
+        "source_quote": "That the God of our Lord Jesus Christ, the Father of glory, may give unto you the spirit of wisdom and revelation in the knowledge of him: The eyes of your understanding being enlightened; that ye may know what is the hope of his calling… –Ephesians 1:17-18.",
+        "suggested_fix": "Translate the quoted Scripture into Korean, preserving the verse reference and sense of the authoritative English text. Keep the existing HTML structure (the <p><em>…</em></p>) unchanged and replace only the English text with a faithful Korean rendering. Suggested Korean rendering (replace inside the <em> element):\n\n“우리 주 예수 그리스도의 하나님 곧 영광의 아버지께서 너희에게 지혜와 계시의 성령을 주사 그를 알게 하시고 너희 마음의 눈을 밝히사 그의 부르심의 소망이 무엇인지 알게 하시기를 바라노라 –에베소서 1:17-18.”\n\n(If the publication uses a particular Korean Bible naming convention, use conventional Korean book name '에베소서' and keep verse numbers unchanged.)",
+        "translation_quote": "<em>That the God of our Lord Jesus Christ, the Father of glory, may give unto you the spirit of wisdom and revelation in the knowledge of him: The eyes of your understanding being enlightened; <strong>that ye may know what is the hope of his calling…</strong> –Ephesians 1:17-18.</em>"
+      },
+      {
+        "location": "source.html — Hebrews quotation (Hebrews 12:1-2)",
+        "severity": "major",
+        "source_quote": "Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight, and the sin which doth so easily beset us, and let us run with patience the race that is set before us, Looking unto Jesus the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God –Hebrews 12:1-2.",
+        "suggested_fix": "The current Korean rendering is distorted and contains duplicated or incorrect phrasing (e.g., “하자자 바라보자”), which changes readability and may obscure meaning. Replace the quoted Scripture with a faithful Korean translation that preserves the English sense and the verse reference, inside the existing <p><em>…</em></p> element. Suggested Korean rendering:\n\n“이러므로 우리도 이렇게 많은 증인들이 둘러싼 것을 둘러보고 모든 무거운 것과 쉽게 얽매이는 죄를 벗어 버리고 인내로써 우리 앞에 놓인 경주를 하자, 우리의 믿음의 주요 또 온전케 하시는 이인 예수를 바라보자; 그는 앞에 놓인 기쁨을 위하여 십자가를 참으사 부끄러움을 게이치 아니하시고 하나님의 보좌 우편에 앉으셨느니라 –히브리서 12:1-2.”\n\n(Keep HTML tags intact; only replace the inner text of the <em> element. Use conventional Korean book name '히브리서' and preserve verse numbers.)",
+        "translation_quote": "<em>이러므로 우리도 이처럼 많은 증인들이 둘러싼 것을 보았으니 모든 무거운 것과 얽매이기 쉬운 죄를 벗어 버리고 인내로서 우리 앞에 놓인 경주를 하자자 바라보자 우리의 믿음의 주되 온전케 하시는 이인 예수를 바라며 그가 앞에 두신 즐거움을 위하여 십자가를 참으사 부끄러움을 게이치 아니하시고 하나님의 보좌 우편에 앉으시니라 –히브리서 12:1-2.</em>"
+      },
+      {
+        "location": "source.title, source.subtitle, source.section (metadata fields)",
+        "severity": "major",
+        "source_quote": "title: \"The Hope of Your Calling\"\nsubtitle: \"LIVING AS YOUTH WITH AN ETERNAL PERSPECTIVE\"\nsection: \"INSPIRATIONS FOR YOUTH\"",
+        "suggested_fix": "These metadata fields remain in English in the translation. Per instructions, title, subtitle, and section must be translated into the target language. Provide Korean equivalents while preserving the original meaning and register. Suggested translations (replace the corresponding translation metadata fields):\n\n- title: \"네 부르심의 소망\"\n- subtitle: \"영원한 관점으로 살아가는 청년\"\n- section: \"청년을 위한 영감\"\n\n(If the publisher prefers '청소년' instead of '청년', adjust consistently. Do not alter other metadata structure.)",
+        "translation_quote": "title: \"The Hope of Your Calling\"\nsubtitle: \"LIVING AS YOUTH WITH AN ETERNAL PERSPECTIVE\"\nsection: \"INSPIRATIONS FOR YOUTH\""
+      }
+    ],
+    "passed": false,
+    "score": 43
+  }
+}

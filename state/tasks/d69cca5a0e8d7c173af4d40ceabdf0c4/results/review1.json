@@ -1,0 +1,78 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1b944779-0e65-44b7-8116-8fc7c56f49a5",
+    "response_id": "chatcmpl-EUURHwis9pFQW69gJyjxD8lTAMJlJ",
+    "usage": {
+      "completion_tokens": 1871,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1525,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3396
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> <p>Regningene hoper seg opp for komfort og fred;<br>\n    “Hva med våre koner, eller barna til glede?”</p>",
+        "severity": "minor",
+        "source_quote": "The bills pile up for comforts and ease;\n    “What about our wives, or children to please?”",
+        "suggested_fix": "Bevar meningen \"comforts and ease\" og \"to please\" på idiomatisk bokmål. Forslag: «Regningene hoper seg opp for komfort og bekvemmelighet; \\n    «Hva med våre koner eller barna — hvordan skal vi glede dem?»»",
+        "translation_quote": "Regningene hoper seg opp for komfort og fred;\n    “Hva med våre koner, eller barna til glede?”"
+      },
+      {
+        "location": "<div class=\"poem\"> <p>Vi bruker alle dager på å jage dollar.<br>\n    Djevelen smiler mens han strammer vårt krave.</p>",
+        "severity": "minor",
+        "source_quote": "We spend all our days chasing the dollar.\n    The devil smiles as he tightens our collar.",
+        "suggested_fix": "Ret stavefeil og idiomatikk. Forslag: «Vi bruker alle dager på å jage dollar.\\n    Djevelen smiler mens han strammer kragen rundt oss.»",
+        "translation_quote": "Vi bruker alle dager på å jage dollar.\n    Djevelen smiler mens han strammer vårt krave."
+      },
+      {
+        "location": "<div class=\"poem\"> <p>Vi trenger tid for Gud, og for familiene våre også.<br>\n    Kanskje mindre tid på jobb ville gjøre oss tro.</p>",
+        "severity": "major",
+        "source_quote": "We need time for God, and our families too.\n    Maybe less time at work could surely do.",
+        "suggested_fix": "Den oversatte andre linjen endrer meningen («could surely do» betyr \"kunne være nok\" eller \"kunne hjelpe\", ikke \"gjøre oss tro\"). Rettelsen bør gjengi forfatterens tanke om at mindre jobbtid ville hjelpe til med tid til Gud/familien. Forslag: «Vi trenger tid for Gud, og for familiene våre også.\\n    Kanskje ville mindre tid på jobb være tilstrekkelig.»",
+        "translation_quote": "Vi trenger tid for Gud, og for familiene våre også.\n    Kanskje mindre tid på jobb ville gjøre oss tro."
+      },
+      {
+        "location": "<div class=\"poem\"> <p>Har vi tid for den stille røst ennå?<br>\n    Eller snakker pengene våre og gir oss ingen valg å gå?</p>",
+        "severity": "minor",
+        "source_quote": "Do we have time for that still small voice?\n    Or does our money talk, and give us no choice?",
+        "suggested_fix": "Stave- og idiomatikkforbedring. «stille røst» er stavet feil og \"give us no choice\" bør lyde mer naturlig. Forslag: «Har vi tid til den stille stemmen ennå?\\n    Eller taler pengene våre, så vi ikke har noe valg?»",
+        "translation_quote": "Har vi tid for den stille røst ennå?\n    Eller snakker pengene våre og gir oss ingen valg å gå?"
+      },
+      {
+        "location": "<div class=\"poem\"> <p>Vi kjenner Bibelen—ingen arbeid, ingen mat.<br>\n    Men penger binder oss til døden vi møt.</p>",
+        "severity": "minor",
+        "source_quote": "We all know the Bible—no work, no eat.\n    But money will bind us until death we meet.",
+        "suggested_fix": "Stavefeil og bøyning: «møt» er feil. Forslag: «Vi kjenner Bibelen — ingen arbeid, ingen mat.\\n    Men pengene binder oss til vi møter døden.»",
+        "translation_quote": "Vi kjenner Bibelen—ingen arbeid, ingen mat.\n    Men penger binder oss til døden vi møt."
+      },
+      {
+        "location": "<div class=\"poem\"> <p>Jo mer vi har, jo mer vi trenger;<br>\n    Kjærligheten til penger begynner fra et frø som svinger.</p>",
+        "severity": "major",
+        "source_quote": "The more we have, the more we need;\n    The love of money starts with a seed.",
+        "suggested_fix": "Tillegget «som svinger» er oppfunnet og forvansker meningen. Behold enkel metafor om et frø som «starter» kjærligheten til penger. Forslag: «Jo mer vi har, jo mer vi trenger;\\n    Kjærligheten til penger begynner som et frø.»",
+        "translation_quote": "Jo mer vi har, jo mer vi trenger;\n    Kjærligheten til penger begynner fra et frø som svinger."
+      },
+      {
+        "location": "<div class=\"poem\"> <p>Å lyve for seg selv er en dum ting—<br>\n    “Frihet, eller trelldom?” er spørsmålet jeg bringer.</p>",
+        "severity": "minor",
+        "source_quote": "Lying to yourself is a foolish thing—\n    “Freedom, or bondage?” is the question I bring.",
+        "suggested_fix": "«jeg bringer» er forståelig, men litt stivt/ikke idiomatisk bokmål. Forslag: «Å lyve for seg selv er en tåpelig ting—\\n    «Frihet eller trelldom?» er spørsmålet jeg reiser.»",
+        "translation_quote": "Å lyve for seg selv er en dum ting—\n    “Frihet, eller trelldom?” er spørsmålet jeg bringer."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

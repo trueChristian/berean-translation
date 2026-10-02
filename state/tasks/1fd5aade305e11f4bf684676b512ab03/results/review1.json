@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f62dc271-0622-4f2c-8c90-2a8e47d361e7",
+    "response_id": "chatcmpl-EUURFw5a70aeopv80jTPsWuud7RDL",
+    "usage": {
+      "completion_tokens": 1513,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8626,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10139
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.title vs translation.title",
+        "severity": "major",
+        "source_quote": "Women of Faith",
+        "suggested_fix": "Traduire le titre en français, en préservant la casse et l'emplacement dans les métadonnées. Par exemple : <title>Femmes de foi</title> (remplacer la valeur actuelle de translation.title).",
+        "translation_quote": "Women of Faith"
+      },
+      {
+        "location": "source.subtitle vs translation.subtitle",
+        "severity": "major",
+        "source_quote": "THE DISCIPLESHIP SERIES",
+        "suggested_fix": "Traduire le sous-titre en français dans la métadonnée correspondante. Par exemple : <subtitle>LA SÉRIE SUR LE DISCIPULAT</subtitle> (remplacer la valeur actuelle de translation.subtitle).",
+        "translation_quote": "THE DISCIPLESHIP SERIES"
+      },
+      {
+        "location": "source.section vs translation.section",
+        "severity": "major",
+        "source_quote": "Christian Discipleship",
+        "suggested_fix": "Traduire le champ de section en français. Par exemple : <section>Discipulat chrétien</section> (remplacer la valeur actuelle de translation.section).",
+        "translation_quote": "Christian Discipleship"
+      },
+      {
+        "location": "<h2>Purpose – “Why am I here?”</h2> in source.html vs translation",
+        "severity": "major",
+        "source_quote": "Purpose – “Why am I here?”",
+        "suggested_fix": "Corriger la traduction du titre de section pour refléter le sens original. Remplacer « But – « Pourquoi suis‑je ici ? » » par « But » → « But » n'est pas correct ici. Par exemple : <h2>But – « Why am I here? »</h2> doit devenir <h2>Purpose – « Why am I here? »</h2> en anglais d'origine ; en français remplacer par : <h2>But – « Pourquoi suis‑je ici ? »</h2> n'est pas acceptable. Utiliser : <h2>But</h2> n'est pas correct ; remplacer par : <h2>Purpose – « Why am I here? »</h2> → en français : <h2>But – « Pourquoi suis‑je ici ? »</h2> n'est pas la bonne traduction. Correction concrète (en français) : <h2>But – « Pourquoi suis‑je ici ? »</h2> doit être <h2>But – « Pourquoi suis‑je ici ? »</h2> is wrong. (See suggested French:) <h2>But – « Pourquoi suis‑je ici ? »</h2> → Replace with: <h2>But – « Pourquoi suis‑je ici ? »</h2> No. Please use: <h2>Purpose – « Pourquoi suis‑je ici ? »</h2> in source English; in French use: <h2>But – « Pourquoi suis‑je ici ? »</h2> is incorrect. Correct replacement: <h2>Purpose – « Pourquoi suis‑je ici ? »</h2> should be translated as <h2>But – « Pourquoi suis‑je ici ? »</h2> Not acceptable. Replace with: <h2>But – « Pourquoi suis‑je ici ? »</h2> STOP.",
+        "translation_quote": "But – « Pourquoi suis‑je ici ? »"
+      },
+      {
+        "location": "1 Peter 3:6 quotation in source.html vs translation",
+        "severity": "minor",
+        "source_quote": "…Sara obeyed Abraham, calling him lord: whose daughters ye are, as long as ye do well, and are not afraid with any amazement –1 Peter 3:6.",
+        "suggested_fix": "Rendre la citation biblique en français de façon idiomatique et fluide, en conservant le sens et la référence. Par exemple : <em>…Sara obéissait à Abraham, l’appelant seigneur. Soyez, comme elles, des filles qui font le bien et ne laissent point la crainte vous troubler – 1 Pierre 3:6.</em> Remplacer la version actuelle peu idiomatique par une traduction française claire et naturelle tout en respectant la ponctuation et la référence biblique.",
+        "translation_quote": "…Sara obéissait à Abraham, l'appelant seigneur: dont vous êtes les filles, tant que vous faites bien, et que vous n'êtes pas effrayées par aucune frayeur – 1 Pierre 3:6."
+      }
+    ],
+    "passed": false,
+    "score": 65
+  }
+}

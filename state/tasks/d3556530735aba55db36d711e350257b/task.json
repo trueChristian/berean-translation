@@ -2,7 +2,6 @@
   "article_id": "a6ab0f33-e20a-4b19-ae47-f094395a54f8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 1913
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1098,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1510,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2608
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Poem, stanza 4 (line: \"The devil smiles as he tightens our collar.\")",
+      "severity": "minor",
+      "source_quote": "The devil smiles as he tightens our collar.",
+      "suggested_fix": "Translate collar idiomatically. Replace \"aperta nosso colar\" with \"aperta nosso colarinho\" or \"aperta nosso pescoço\" (depending on tone). A good fix: \"O diabo sorri enquanto aperta nosso colarinho.\"",
+      "translation_quote": "O diabo sorri enquanto aperta nosso colar."
+    },
+    {
+      "location": "Poem, stanza 7 (line: \"But money will bind us until death we meet.\")",
+      "severity": "major",
+      "source_quote": "But money will bind us until death we meet.",
+      "suggested_fix": "Preserve the straightforward sense: that money binds us until we die. Replace the current translation with an idiomatic equivalent that does not add or alter meaning. Suggested fix: \"Mas o dinheiro nos prende até encontrarmos a morte.\" or better: \"Mas o dinheiro nos prende até a morte.\"",
+      "translation_quote": "Mas o dinheiro nos prende até encontrarmos a morte ao morrer."
+    },
+    {
+      "location": "Poem, stanza 8 (line: \"The more we have, the more we need; / The love of money starts with a seed.\")",
+      "severity": "major",
+      "source_quote": "The more we have, the more we need;\nThe love of money starts with a seed.",
+      "suggested_fix": "Do not add actors or causation not in the original. Remove the added phrase \"que semeamos.\" Use a faithful, natural rendering such as: \"Quanto mais temos, mais precisamos; / O amor ao dinheiro começa com uma semente.\"",
+      "translation_quote": "Quanto mais temos, mais precisamos;\nO amor ao dinheiro começa com uma semente que semeamos."
+    },
+    {
+      "location": "Poem, stanza 9 (final line: \"'Freedom, or bondage?' is the question I bring.\")",
+      "severity": "major",
+      "source_quote": "\"Freedom, or bondage?\" is the question I bring.",
+      "suggested_fix": "Do not introduce unrelated context (\"à escola\"). Translate the line simply and literally in Portuguese. Suggested fix: \"'Liberdade, ou escravidão?' é a pergunta que trago.\"",
+      "translation_quote": "“Liberdade, ou escravidão?” é a pergunta que trago à escola."
     }
   ],
   "id": "d3556530735aba55db36d711e350257b",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 68,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1de56fab2737a3548fafa046f54e8b49fd10031dc8824cc6696d1a638910abcb.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "e5687feec796faa59fb2c84ea91a33a13b26784033d8d71bfc9aba932005e757",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

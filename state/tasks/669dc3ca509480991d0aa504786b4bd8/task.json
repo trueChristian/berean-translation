@@ -2,7 +2,6 @@
   "article_id": "50068373-cc3d-4587-a605-3f37fc05b3ad",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,6 +23,69 @@
         },
         "total_tokens": 10050
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1887,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9698,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11585
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Paragraph containing James 1:5 (near 'Choosing Wisely' section)",
+      "severity": "critical",
+      "source_quote": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him –James 1:5.",
+      "suggested_fix": "Translate the quoted Scripture into Chinese and keep the reference and placement unchanged, preserving the <em> tag. For example: <em>你们中间若有缺少智慧的，应当求那厚赐与众人也不斥责人的神，主必赐给他。——雅各书 1:5。</em>",
+      "translation_quote": "<em>If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him –James 1:5.</em>"
+    },
+    {
+      "location": "Paragraph containing Psalm 103:2-3 (shortly after 'Choosing Wisely')",
+      "severity": "critical",
+      "source_quote": "Bless the LORD, O my soul, and forget not all his benefits: Who forgiveth all thine iniquities; who healeth all thy diseases –Psalm 103:2-3.",
+      "suggested_fix": "Translate the quoted Scripture into Chinese and keep the reference and placement unchanged, preserving the <em> tag. For example: <em>我的心哪，你要称颂耶和华，不可忘记他的一切恩惠。他赦免你的一切罪孽，医治你的一切疾病。——诗篇 103:2-3。</em>",
+      "translation_quote": "<em>Bless the LORD, O my soul, and forget not all his benefits: Who forgiveth all thine iniquities; who healeth all thy diseases –Psalm 103:2-3.</em>"
+    },
+    {
+      "location": "Blockquote containing James 2:15-16 (in 'Do Small Chores' section)",
+      "severity": "critical",
+      "source_quote": "If a brother or sister be naked, and destitute of daily food, And one of you say unto them, Depart in peace, be ye warmed and filled; notwithstanding ye give them not those things which are needful to the body; what doth it profit? –James 2:15-16.",
+      "suggested_fix": "Translate the quoted Scripture into Chinese and keep the reference and placement unchanged, preserving the <blockquote> and <em> structure. For example: <blockquote><p><em>若弟兄或姊妹赤身露体，缺了日用的饮食；你们中有人对他们说：平平安安地去吧，愿你们暖和得饱；却不给他们身体所需用的东西，有什么益处呢？——雅各书 2:15-16。</em></p></blockquote>",
+      "translation_quote": "<blockquote>\n    <p><em>If a brother or sister be naked, and destitute of daily food, And one of you say unto them, Depart in peace, be ye warmed and filled; notwithstanding ye give them not those things which are needful to the body; what doth it profit? –James 2:15-16.</em></p>\n  </blockquote> "
+    },
+    {
+      "location": "Paragraph containing James 5:16 (in 'Pray' section)",
+      "severity": "critical",
+      "source_quote": "…The effectual fervent prayer of a righteous man availeth much –James 5:16.",
+      "suggested_fix": "Translate the quoted Scripture into Chinese and keep the reference and placement unchanged, preserving the <em> tag. For example: <em>义人祈祷所发的力量是大有功效的。——雅各书 5:16。</em>",
+      "translation_quote": "<em>…The effectual fervent prayer of a righteous man availeth much –James 5:16.</em>"
+    },
+    {
+      "location": "Paragraph near the end containing Philippians 1:21",
+      "severity": "critical",
+      "source_quote": "For to me to live is Christ, and to die is gain –Philippians 1:21.",
+      "suggested_fix": "Translate the quoted Scripture into Chinese and keep the reference and placement unchanged, preserving the <em> tag. For example: <em>因为我活着就是基督，我死了就有益处。——腓立比书 1:21。</em>",
+      "translation_quote": "<em>For to me to live is Christ, and to die is gain –Philippians 1:21.</em>"
+    },
+    {
+      "location": "All h2 headings (e.g., 'Lifestyle Changes to Prevent Cancers', 'Chemotherapy', 'Surgery', 'Immunotherapy', 'Future Treatments', 'Choosing Wisely', 'Cancer Takes Energy', 'Hesitate to Give Advice', 'Listen', 'Pray', 'Do Small Chores', 'Be Willing to Keep Your Distance', 'Conclusion')",
+      "severity": "major",
+      "source_quote": "Lifestyle Changes to Prevent Cancers\nChemotherapy\nSurgery\nImmunotherapy\nFuture Treatments\nChoosing Wisely\nCancer Takes Energy\nHesitate to Give Advice\nListen\nPray\nDo Small Chores\nBe Willing to Keep Your Distance\nConclusion",
+      "suggested_fix": "Translate each English heading into standard written Chinese and preserve the original <h2> tags and their order. Suggested translations: \"预防癌症的生活方式改变\"；\"化疗\"；\"手术\"；\"免疫治疗\"；\"未来的治疗\"；\"明智选择\"；\"癌症消耗精力\"；\"慎于给予建议\"；\"倾听\"；\"祷告\"；\"做些小家务\"；\"愿意保持距离\"；\"结论\"。 Replace the English headings in the corresponding <h2> elements with these Chinese equivalents.",
+      "translation_quote": "(Headings remain in English throughout the translated HTML, e.g. <h2>Lifestyle Changes to Prevent Cancers</h2>, <h2>Chemotherapy</h2>, etc.)"
     }
   ],
   "id": "669dc3ca509480991d0aa504786b4bd8",
@@ -69,11 +131,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ca58532aaa94c358a76e9a6922849fbf4aab671b6f2fafb891db698c9be52b26.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "ba22efc6cb9233faebc78cea85896092801ad5d430d2342a669d196dab4937e6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

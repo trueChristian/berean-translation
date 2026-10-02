@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "98cac208-657e-47b3-9b3a-0c6acedbd12c",
+    "response_id": "chatcmpl-EUURMrgBjQqfAgv8fSiVqyLYU2STu",
+    "usage": {
+      "completion_tokens": 687,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1643,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2330
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> / <div class=\"poem\"> / third <p> (lines: \"The bills pile up for comforts and ease; / “What about our wives, or children to please?”\")",
+        "severity": "minor",
+        "source_quote": "The bills pile up for comforts and ease;\n“What about our wives, or children to please?”",
+        "suggested_fix": "Restore the original sentence sense in the first line as a statement rather than a question. Replace the translation of the first line with a declarative Greek sentence (no question mark) to match the English. For example: «Οι λογαριασμοί σωρεύονται για ανέσεις και ευκολία.» Remove the question mark after ευκολία and keep the following line as the rhetorical question as translated.",
+        "translation_quote": "Οι λογαριασμοί σωρεύονται για ανέσεις και ευκολία;\n«Τι να κάνουμε με τις συζύγους μας ή τα παιδιά, για να τα ευχαριστήσουμε;»"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

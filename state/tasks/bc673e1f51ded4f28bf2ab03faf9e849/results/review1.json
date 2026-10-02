@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d0b5330b-79e4-4be3-af82-fbe0eeea8410",
+    "response_id": "chatcmpl-EUURKWd8wu3uZC1NRBUVMUk1mXU8N",
+    "usage": {
+      "completion_tokens": 862,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5640,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6502
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "I Will Hide God’s Word in My (Child’s) Heart",
+        "suggested_fix": "Translate the parenthetical smoothly into French. For example: \"Je cacherai la Parole de Dieu dans le cœur de mon enfant\" or, to preserve the optional nuance, \"Je cacherai la Parole de Dieu dans le cœur de mon (en)fant.\" Replace the title content inside the <title> element accordingly, preserving tags and attributes.",
+        "translation_quote": "Je cacherai la Parole de Dieu dans le cœur de mon (mon) enfant"
+      },
+      {
+        "location": "paragraph: \"We do many things by habit...\" (English) / corresponding paragraph in French",
+        "severity": "minor",
+        "source_quote": "We brush our teeth, comb our hair, eat breakfast, and do many other things.",
+        "suggested_fix": "Correct the verb for 'comb our hair' to the appropriate French verb. Replace \"nous peignons les cheveux\" with \"nous peignons nos cheveux\" is wrong (peindre = to paint). Use \"nous peignons nos cheveux\" only if you mean 'paint'; instead change the phrase to \"nous nous peignons les cheveux\" is still not idiomatic. Preferred correction: \"Nous nous brossons les dents, nous nous peignons (or better: nous peignons nos cheveux -> replace with) nous nous peignons les cheveux\" — best: \"Nous nous brossons les dents, nous nous peignons les cheveux, prenons le petit‑déjeuner...\" or more idiomatic: \"Nous nous brossons les dents, nous nous peignons les cheveux, prenons le petit‑déjeuner...\" Update the sentence in the <p> element accordingly, preserving HTML structure.",
+        "translation_quote": "Nous nous brossons les dents, nous peignons les cheveux, prenons le petit-déjeuner et faisons bien d'autres choses."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

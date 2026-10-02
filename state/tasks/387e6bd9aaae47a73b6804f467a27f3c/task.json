@@ -2,7 +2,6 @@
   "article_id": "cc225bc9-2dda-46f3-a628-13af4fd95e7a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,8 +23,79 @@
         },
         "total_tokens": 3530
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1494,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3256,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4750
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "source.title / translation.title",
+      "severity": "minor",
+      "source_quote": "From the Editor",
+      "suggested_fix": "Translate title using standard contemporary Afrikaans spelling: \"Van die Redakteur\" (translation already uses this). No change needed if publication prefers this form.",
+      "translation_quote": "Van die Redakteur"
+    },
+    {
+      "location": "first paragraph, parenthetical date",
+      "severity": "minor",
+      "source_quote": "(Summer 2023)",
+      "suggested_fix": "Use standard Afrikaans word for the season: replace \"Sommer 2023\" with \"Somer 2023\" inside the existing parentheses, preserving HTML and punctuation.",
+      "translation_quote": "(Sommer 2023)…"
+    },
+    {
+      "location": "first paragraph, phrase for 'zone in on'",
+      "severity": "minor",
+      "source_quote": "endeavors to zone in on a challenging subject—some of the root problems that they see with women who are struggling in the church.",
+      "suggested_fix": "Use an idiomatic Afrikaans phrase. Replace \"om in te zoem op ’n uitdagende onderwerp—’n paar van die wortelprobleme...\" with e.g. \"poog om op ’n uitdagende onderwerp te fokus—’n paar van die wortelprobleme...\" (preserve the dash and punctuation).",
+      "translation_quote": "om in te zoem op ’n uitdagende onderwerp—’n paar van die wortelprobleme wat hulle by vroue sien wat in die kerk sukkel."
+    },
+    {
+      "location": "first paragraph, 'expository teaching'",
+      "severity": "minor",
+      "source_quote": "an unapologetic approach in his effort to share some expository teaching on practical ways to have a sanctified home.",
+      "suggested_fix": "Correct Afrikaans term for 'expository' and smooth the phrasing. Replace \"ekspositoriese lering\" with \"ekspositoriese lering\" or \"eksposisionele lering\" (preferred: \"ekspositoriese lering\").",
+      "translation_quote": "ekspositoriese lering te deel oor praktiese maniere om ’n geheiligde huis te hê."
+    },
+    {
+      "location": "paragraph about responses by mail or email",
+      "severity": "minor",
+      "source_quote": "We pass this along to our writers for their benefit.",
+      "suggested_fix": "Make the Afrikaans phrasing more idiomatic. Replace \"Ons gee dit aan ons skrywers deur tot hul voordeel.\" with \"Ons gee dit aan ons skrywers vir hul voordeel.\" (preserve sentence position and punctuation).",
+      "translation_quote": "Ons gee dit aan ons skrywers deur tot hul voordeel."
+    },
+    {
+      "location": "paragraph about Covid and work ethic, 'help wanted signs'",
+      "severity": "minor",
+      "source_quote": "Also, there are help wanted signs everywhere.",
+      "suggested_fix": "Use an idiomatic Afrikaans rendering. Replace \"Daarbenewens is daar hulp-gewens-borde oral.\" with \"Daarbenewens is daar oral tekens wat sê 'hulp benodig'\" or \"Daar is oral advertensies vir werk\" depending on preferred register. Preserve punctuation.",
+      "translation_quote": "Daarbenewens is daar hulp-gewens-borde oral."
+    },
+    {
+      "location": "paragraph describing 'zone of tractors', 'recovered' phrasing",
+      "severity": "minor",
+      "source_quote": "finally, praise the Lord, I have mostly recovered from most of the long-term effects of Covid.",
+      "suggested_fix": "Use more natural Afrikaans: replace \"het ek oor die algemeen herstel van die meeste langtermyn-effekte van Covid\" with \"het ek, prys die Here, grotendeels herstel van die meeste langtermyn-effekte van Covid.\" Preserve emphasis and order.",
+      "translation_quote": "uiteindelik, prys die Here, het ek oor die algemeen herstel van die meeste langtermyn-effekte van Covid."
+    }
+  ],
+  "finished_at": "2026-10-02T11:17:42+00:00",
   "id": "387e6bd9aaae47a73b6804f467a27f3c",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "afr",
@@ -69,11 +139,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/75bf9f86ddf02e207a89e1a74e3d26989515704eae85bcbc97e911af15e7ea76.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "1d62440b3aaa33963e8085784efc020cfa0cf8cb3b508148be95c55907a09059",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

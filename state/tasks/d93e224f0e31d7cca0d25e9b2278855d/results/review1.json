@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "09f85c94-34bb-4baf-902a-6b4587590588",
+    "response_id": "chatcmpl-EUURPrEXkDsdxSqt1owjqT2Im3l2K",
+    "usage": {
+      "completion_tokens": 1234,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8380,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9614
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph 1 (Scripture quote)",
+        "severity": "minor",
+        "source_quote": "Wherefore I put thee in remembrance that thou stir up the gift of God, which is in thee by the putting on of my hands.",
+        "suggested_fix": "In the translation the phrase «that thou stir up the gift of God» is rendered as “dat gij het vuur van Gods gave ontvlammt…”. The Dutch verb form and the added image of “vuur” changes register and uses an incorrect verb form (ontvlammt is present-tense singular). Suggest a more literal and idiomatically correct rendering that preserves the author’s metaphor: e.g. “dat gij de gave Gods die in u is door het opleggen van mijn handen ontvlamt” or “dat gij de gave Gods die in u is door het opleggen van mijn handen aanwakert”. Use “ontvlamt” → “ontvlamt” is archaic; prefer “ontvlamt” corrected to “ontvlamt” only if matching surrounding style, otherwise “aanwakert”. Ensure the surrounding tags remain unchanged.",
+        "translation_quote": "“Daarom herinner ik u erom, dat gij het vuur van Gods gave ontvlammt, dat in u is door het opleggen van mijn handen.”"
+      },
+      {
+        "location": "source.html — paragraph beginning “Hebt u het geloof…” (Security section)",
+        "severity": "minor",
+        "source_quote": "Are you willing to trust God to overrule where your husband may be weak or even rebellious against God or the church?",
+        "suggested_fix": "The translation currently reads “Bent u bereid God te vertrouwen te overrulen waar uw man zwak is of zelfs rebels tegenover God of de kerk?” This ordering makes the phrase awkward and risks the unintended meaning that one should ‘trust God to be overruled’. Recommend rephrasing to a clear Dutch equivalent that preserves the original sense: e.g. “Bent u bereid God te vertrouwen zodat Hij ingrijpt waar uw man zwak is of zelfs rebels tegenover God of de kerk?” or “Bent u bereid te vertrouwen dat God zal ingrijpen waar uw man zwak is of zelfs rebels tegenover God of de kerk?” Preserve the HTML tags.",
+        "translation_quote": "“Hebt u het geloof te geloven dat God groter is dan uw man of uw vader? Bent u bereid God te vertrouwen te overrulen waar uw man zwak is of zelfs rebels tegenover God of de kerk?”"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

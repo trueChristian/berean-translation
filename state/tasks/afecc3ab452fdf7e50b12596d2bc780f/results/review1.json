@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6bf6efb0-0015-49dd-82de-d71b40aaa359",
+    "response_id": "chatcmpl-EUURHLp7d9Q2iyYZQrl4e4x6orDKk",
+    "usage": {
+      "completion_tokens": 1358,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9348,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10706
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 4 (source.html first body paragraphs) — sentence: 'As with their mother Eve... as their mother Eve discovered'",
+        "severity": "major",
+        "source_quote": "“As with their mother Eve, many of these voices appeal to her feminine spirit, but as their mother Eve discovered, unless it is the voice of God, it leads to death and destruction.”",
+        "suggested_fix": "Correct the mistaken phrase '이브의 어머니가 발견한 것처럼' (Eve's mother discovered) to reflect the original meaning '그들의 어머니인 이브가 발견한 것처럼' or simply '그들의 어머니 이브가 발견한 것처럼'. Preserve surrounding Korean wording and punctuation.",
+        "translation_quote": "“그 목소리들은 그들의 조상 이브처럼 여성적 영혼에 호소하는 경우가 많지만, 이브의 어머니가 발견한 것처럼 그것이 하나님의 음성이 아니라면 죽음과 파멸로 이끈다.”"
+      },
+      {
+        "location": "Opening epigraph (source.html first <p class=\"drop-cap\">) — proper name Eunice",
+        "severity": "minor",
+        "source_quote": "\"...which dwelt first in thy grandmother Lois, and thy mother Eunice;...\" (2 Timothy 1:5)",
+        "suggested_fix": "Consider using the more common Korean transliteration '유니게' or '에우니케' for 'Eunice' if that matches the publication's style; if the publication prefers a literal transliteration, confirm '에우니게' is intended. Ensure consistency across the article for this name.",
+        "translation_quote": "\"...이것이 먼저 네 조모 로이스와 네 모 에우니게 속에 거하였고...\" (디모데후서 1:4-7)"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

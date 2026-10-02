@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b7f9a838-5816-40ac-8128-c11a2d04651a",
+    "response_id": "chatcmpl-EUURLbzS0JIJnrvG8KeqKEX8gszXO",
+    "usage": {
+      "completion_tokens": 1417,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4134,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5551
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph 4 (\"Lightning started to flash across the sky and the thunder rumbled in the distance.\")",
+        "severity": "major",
+        "source_quote": "Lightning started to flash across the sky and the thunder rumbled in the distance.",
+        "suggested_fix": "Translate the meteorological phenomena accurately into Kiswahili. For example: \"Radi zalianza kung'aa angani na mimbi ya radi (kasi za radi) zililia kwa umbali.\" (Preserve natural Kiswahili for 'lightning' = radi, 'thunder rumbled' = mimbi ya radi/zilizilia kwa umbali.)",
+        "translation_quote": "\"Umeme ulianza kung'aa angani na radi ikalizia mbali, ikikaanga mbawa kwa umbali.\""
+      },
+      {
+        "location": "source.html paragraph 15 (\"His barn had collapsed on top of dozens of cattle and then a fire had broken out.\")",
+        "severity": "major",
+        "source_quote": "His barn had collapsed on top of dozens of cattle and then a fire had broken out.",
+        "suggested_fix": "Correct the quantifier to match the source (\"dozens of cattle\"). Use \"kulegea juu ya ng'ombe kadhaa\" or \"juu ya ng'ombe kadhaa (kumi au zaidi)\" rather than \"mamia\". For example: \"Banda lake lilikuwa limeanguka juu ya ng'ombe kadhaa, kisha moto ukaanza.\"",
+        "translation_quote": "\"Banda lake lilikuwa limejikunja juu ya ng'ombe mamia kadhaa na kisha moto ukaanza.\""
+      },
+      {
+        "location": "source.html final content paragraph (\"Knowing that God is the Master of the wind is still a comfort and an assurance to her.\")",
+        "severity": "critical",
+        "source_quote": "Knowing that God is the Master of the wind is still a comfort and an assurance to her.",
+        "suggested_fix": "This is a theological statement and must preserve the author's intent. The translation currently says \"Mwana wa upepo\" (\"child of the wind\"), which changes the meaning and is theologically incorrect. Use an appropriate Kiswahili rendering that preserves the original: e.g. \"Kujua kwamba Mungu ndiye MwanaFala/Mwenye/ Mwenye nguvu wa upepo\" — preferred: \"Kujua kwamba Mungu ndiye Mwenza/Mwenye upepo\" or better: \"Kujua kwamba Mungu ndiye Bwana wa upepo ni faraja na hakikisho kwake.\" (Use \"Bwana wa upepo\" to preserve the author's metaphor of mastery.)",
+        "translation_quote": "\"Kujua kwamba Mungu ndiye Mwana wa upepo bado ni faraja na hakikisho kwake.\""
+      },
+      {
+        "location": "source.html paragraph 4 (phrase-level, thunder clause in translation)",
+        "severity": "major",
+        "source_quote": "and the thunder rumbled in the distance.",
+        "suggested_fix": "Remove the nonsensical phrase and render the thunder action idiomatically. Replace \"ikikaanga mbawa\" (nonsense) with \"radi zililia kwa umbali\" or \"kasi za radi ziliripuka kwa umbali.\"",
+        "translation_quote": "\"...na radi ikalizia mbali, ikikaanga mbawa kwa umbali.\""
+      },
+      {
+        "location": "source.html paragraph 18 (\"tornado warning\")",
+        "severity": "minor",
+        "source_quote": "\"tornado warning\"",
+        "suggested_fix": "Prefer a Kiswahili equivalent rather than retaining the English word. Suggestion: \"onyo la kimbunga\" or \"taarifa ya kimbunga\" so the phrase reads: “onyo la kimbunga”.",
+        "translation_quote": "\"onyo la tornado\""
+      }
+    ],
+    "passed": false,
+    "score": 40
+  }
+}

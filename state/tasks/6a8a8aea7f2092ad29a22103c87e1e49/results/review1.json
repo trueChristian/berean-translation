@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "2f020437-6901-423f-9dcb-47b0be965404",
+    "response_id": "chatcmpl-EUURUgezUjp3HOchYo32CvI8hze5s",
+    "usage": {
+      "completion_tokens": 649,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9816,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10465
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — section with endnotes header (<section class=\"endnotes\"> <h2><em>Endnotes:</em></h2>)",
+        "severity": "major",
+        "source_quote": "<h2><em>Endnotes:</em></h2>",
+        "suggested_fix": "Translate the endnotes header into Spanish while preserving the HTML structure and emphasis tag. For example: <h2><em>Notas finales:</em></h2>",
+        "translation_quote": "<h2><em>Endnotes:</em></h2>"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

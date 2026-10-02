@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "99898a38-a2b5-48a8-b328-be8528740600",
+    "response_id": "chatcmpl-EUURgEntsdjxFG2keuj95b8qi7Ftj",
+    "usage": {
+      "completion_tokens": 1015,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3900,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4915
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>“What was that?” ...</p> (paragraph describing object that whizzed past the sunporch)",
+        "severity": "minor",
+        "source_quote": "“What was that?” exclaimed Mom as suddenly, a sheet of tin whizzed past the sunporch windows and disappeared beyond the garden.",
+        "suggested_fix": "Translate the concrete noun accurately. Replace “ein Blechdach” with a phrase that conveys a sheet/panel of tin (e.g., „eine Blechplatte“ or „ein Stück Blech“), keeping the rest of the sentence unchanged and preserving HTML tags.",
+        "translation_quote": "„Was war das?“ rief Mama, als plötzlich ein Blechdach entlang der Veranda vorbeisauste und jenseits des Gartens verschwand."
+      },
+      {
+        "location": "<p>paragraph about barn collapse and animals (two sentences within same paragraph)",
+        "severity": "minor",
+        "source_quote": "His barn had collapsed on top of dozens of cattle and then a fire had broken out. The neighbor men tried desperately to rescue what cattle they could, but in the end, many of the steers could not be saved.",
+        "suggested_fix": "Make the animal terms consistent and faithful to the English. Use the same general term for cattle throughout (e.g., \"Rinder\") and translate \"steers\" with a matching German term (\"Jungstiere\" or keep \"Rinder\" for general fidelity). For example: „...auf dutzende Rinder ... viele der Jungstiere konnten nicht gerettet werden.“ Preserve HTML tags and sentence order.",
+        "translation_quote": "Besonders betroffen war unser Nachbar Melvin. Seine Scheune war auf dutzende Rinder eingestürzt und dann hatte ein Brand ausgebrochen. Die Männer aus der Nachbarschaft versuchten verzweifelt, die Rinder zu retten, die sie noch retten konnten, aber am Ende konnten viele der Ochsen nicht gerettet werden."
+      },
+      {
+        "location": "source.section and corresponding translation",
+        "severity": "minor",
+        "source_quote": "Children’s Corner",
+        "suggested_fix": "Use the more idiomatic single-word German section title \"Kinderecke\" (without a hyphen) if the publication prefers common usage. If the publication consistently uses hyphenation, no change is necessary. This is stylistic rather than a fidelity error.",
+        "translation_quote": "Kinder-Ecke"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

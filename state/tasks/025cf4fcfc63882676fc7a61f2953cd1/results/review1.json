@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6452a235-ef5a-4ad6-84c0-00fef286a7b0",
+    "response_id": "chatcmpl-EUURsnKjWSI7W51x6dl2TjuvDfkU2",
+    "usage": {
+      "completion_tokens": 840,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10250,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11090
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph under 'Gör små sysslor' (near: \"Det kan vara att de behöver skjuts till en kemoterapiavtal.\")",
+        "severity": "minor",
+        "source_quote": "...It could be that they need transportation to a chemotherapy appointment.",
+        "suggested_fix": "Change the awkward/incorrect Swedish phrase 'kemoterapiavtal' to a natural expression such as 'kemoterapibesök', 'en kemoterapisession' or 'till kemoterapin'. Preserve surrounding HTML and punctuation.",
+        "translation_quote": "Det kan vara att de behöver skjuts till en kemoterapiavtal."
+      },
+      {
+        "location": "Paragraph under 'Kemoterapi' (near: \"använde en derivat av kvävemustard\")",
+        "severity": "minor",
+        "source_quote": "It was first used in the 1940s when doctors used a derivative of nitrogen mustard to treat lymphoma.",
+        "suggested_fix": "Adjust wording for natural Swedish: replace 'en derivat av kvävemustard' with 'en derivat av kvävemustard' → better: 'en derivat av kvävemustard' is acceptable, but consider 'en derivat av kvävemustard' → preferred: 'en derivat av kvävemustard' or more naturally 'en kvävemustarderivat'. Update only the phrase to improve idiom without changing meaning.",
+        "translation_quote": "Det användes första gången på 1940-talet då läkare använde en derivat av kvävemustard för att behandla lymfom."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

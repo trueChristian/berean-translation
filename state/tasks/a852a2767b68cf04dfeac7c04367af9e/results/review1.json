@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "679167b8-4861-4045-ae9c-2e5dec73a764",
+    "response_id": "chatcmpl-EUUSHSq3yVZiYIC64nIZ7QuqdIiOO",
+    "usage": {
+      "completion_tokens": 1066,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8468,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9534
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph mentioning Menno Simmons (near middle)",
+        "severity": "major",
+        "source_quote": "This would be the church of Menno Simmons, and the root of the Mennonite churches of today.",
+        "suggested_fix": "Restore the author’s original spelling from the English source. Replace the translation sentence so it names the person exactly as in the source English: “Detta skulle bli Menno Simmons kyrka, och roten till dagens mennonitiska kyrkor.” Preserve HTML tags and surrounding markup.",
+        "translation_quote": "Detta skulle bli Menno Simons kyrka, och roten till dagens mennonitiska kyrkor."
+      },
+      {
+        "location": "source.html — final paragraph (scripture attribution)",
+        "severity": "minor",
+        "source_quote": "Luke has recorded the instructions of Jesus on this point: …Luke 17: 22-23.",
+        "suggested_fix": "Correct the Swedish book name to the conventional form. Replace “Lukus” with “Lukas” so the sentence reads: “Lukas har nedtecknat Jesu instruktioner i denna fråga: … <em>…Dagarna skall komma ... – Luk 17:22–23.</em>” Preserve HTML and em tags.",
+        "translation_quote": "Lukus har nedtecknat Jesu instruktioner i denna fråga: <em>…Dagarna skall komma då ni skall ha önskan att få se en av Människo Sonens dagar, men ni skall inte få se det. Man skall säga till er: Se här! eller: Se där! Gå inte efter dem och följ dem inte – Luk 17:22–23.</em>"
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

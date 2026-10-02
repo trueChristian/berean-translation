@@ -2,7 +2,6 @@
   "article_id": "b6a6823e-0f2a-4354-aebb-5c37ad85937a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,8 +23,65 @@
         },
         "total_tokens": 5929
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1660,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1088,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5259,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6919
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "source.html > first paragraph",
+      "severity": "minor",
+      "source_quote": "whose “exalted character always made a deep impression upon all who knew her”.",
+      "suggested_fix": "Correct the Norwegian phrasing to remove the redundant possessive. For example: replace \"en person hvis \\\"sitt hevede vesen alltid gjorde dypt inntrykk på alle som kjente henne\\\"\" with \"en person hvis hevede vesen alltid gjorde dypt inntrykk på alle som kjente henne.\"",
+      "translation_quote": "en person hvis \"sitt hevede vesen alltid gjorde dypt inntrykk på alle som kjente henne\"."
+    },
+    {
+      "location": "source.html > lyrics stanza 2 (first line)",
+      "severity": "minor",
+      "source_quote": "Though like the wanderer,",
+      "suggested_fix": "Use a more idiomatic Norwegian rendering of the English phrasing. Replace \"Om lik en vandrer,\" with \"Som en vandrer,\" to match the source meaning and standard Bokmål usage.",
+      "translation_quote": "Om lik en vandrer,"
+    },
+    {
+      "location": "source.html > lyrics stanza 5 (second line)",
+      "severity": "minor",
+      "source_quote": "Cleaving the sky,",
+      "suggested_fix": "Translate the verb to convey the idea of 'cleaving through' or 'cutting through' the sky. Replace \"Splittende mot himmelen\" with \"Skjærende gjennom himmelen\" or \"som skjærer gjennom himmelen\" for clearer fidelity to the original image.",
+      "translation_quote": "Splittende mot himmelen,"
+    },
+    {
+      "location": "source.title",
+      "severity": "minor",
+      "source_quote": "Nearer, My God, to Thee",
+      "suggested_fix": "Make title capitalization and reverential pronoun consistent with the hymn text. Either capitalize the pronoun to match the hymn lyrics (\"Nærmere, min Gud, til Deg\") or keep all lowercase consistently. Suggested: \"Nærmere, min Gud, til Deg\" (capitalized \"Deg\") to mirror the hymn's reverential form in the lyrics.",
+      "translation_quote": "Nærmere, min Gud, til deg"
+    },
+    {
+      "location": "source.html > img alt attribute",
+      "severity": "minor",
+      "source_quote": "Sheet music for Nearer, My God, to Thee",
+      "suggested_fix": "Translate the alt text fully into Bokmål, including the hymn title. For example: replace \"Notskrift for Nearer, My God, to Thee\" with \"Notskrift for 'Nærmere, min Gud, til Deg'\" (or with the same capitalization choice as the title/lyrics).",
+      "translation_quote": "Notskrift for Nearer, My God, to Thee"
+    }
+  ],
+  "finished_at": "2026-10-02T11:17:43+00:00",
   "id": "c8378307b200ce0695dce02a6ade5146",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "nob",
@@ -69,11 +125,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/bdacc95910a7433231bb636adde27ced309ebbaf33d26f4288193a37ef1ecead.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "529627b867a50e286116891ac48830f9194ac5c383794aa0c674aa93ff18825d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a4562884-42e3-4f91-a759-0d851f5ae7a3",
+    "response_id": "chatcmpl-EUURoUOOnErFdP434DGssAJI2Imea",
+    "usage": {
+      "completion_tokens": 794,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7319,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8113
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"Some of the greatest acts...\" (military example)",
+        "severity": "major",
+        "source_quote": "Men have jumped on grenades, and they have jumped in front of bullets to save their comrades.",
+        "suggested_fix": "Vertaal de beeldspraak letterlijk en nauwkeurig: vervang \"granaatscherven\" door \"granaten\" zodat de zin weergeeft dat mannen zich op granaten wierpen. Bijvoorbeeld: \"Mannen hebben zich op granaten geworpen, en zij hebben zich voor kogels geworpen om hun kameraden te redden.\"",
+        "translation_quote": "Mannen hebben zich voor granaatscherven geworpen en zich voor kogels geworpen om hun kameraden te redden."
+      },
+      {
+        "location": "Paragraph: \"Many Americans go on short-term missions.\"",
+        "severity": "minor",
+        "source_quote": "Many Americans go on short-term missions.",
+        "suggested_fix": "Gebruik een idiomatische en grammaticaal correcte Nederlandse term voor \"short-term missions\", bij voorkeur als samenstelling of gangbare uitdrukking: bijvoorbeeld \"Veel Amerikanen gaan op kortetermijnzendingen\" of \"Veel Amerikanen gaan op korte termijn op zendingswerk.\"",
+        "translation_quote": "Veel Amerikanen gaan op korte termijn zendingswerk."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

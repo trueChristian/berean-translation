@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e4c80043-e204-4ae6-b115-fe9767250e64",
+    "response_id": "chatcmpl-EUURL29eYZJocymPWVRhSavGgbh4W",
+    "usage": {
+      "completion_tokens": 1578,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1152,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4194,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5772
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"drop-cap\">… (कर्ट लेविन, ए सोशियोलॉजी ऑफ एजुकेशन में)।</p>",
+        "severity": "minor",
+        "source_quote": "“The child takes on the characteristic behavior of the group in which he is placed … he reflects the behavior patterns which are set by the … leader of the group” (Kurt Lewin, in A Sociology of Education).",
+        "suggested_fix": "Translate or present the cited work title in Hindi (or provide both Hindi and original in parentheses). Example replacement preserving tags: “(कर्ट लेविन, पुस्तक 'A Sociology of Education' में)।” or “(कर्ट लेविन, ‹शिक्षा का समाजशास्त्र› में)।” Ensure the change keeps the HTML structure unchanged.",
+        "translation_quote": "“बच्चा उस समूह के विशिष्ट व्यवहार को अपनाता है जिसमें उसे रखा जाता है … वह उन व्यवहार पैटर्नों को प्रतिबिंबित करता है जो समूह के … नेता द्वारा निर्धारित किए जाते हैं” (कर्ट लेविन, ए सोशियोलॉजी ऑफ एजुकेशन में)।"
+      },
+      {
+        "location": "<p>… केवल कारण का एक योगदानकर्ता समर्थक बन जाना ही उन्हें “सहीपन” और belonging की भावना देता था। …</p>\n",
+        "severity": "minor",
+        "source_quote": "“It gave a sense of “rightness” and belonging, just to be a contributing supporter of the cause.”",
+        "suggested_fix": "Translate the English word 'belonging' into Hindi for clarity and consistency. Example replacement: “यह केवल कारण का एक योगदानकर्ता समर्थक बन जाने पर ही उन्हें ‘सहीपन’ और ‘सम्बद्धता’/‘अपनापन’ की भावना देता था।” Maintain the surrounding HTML and punctuation.",
+        "translation_quote": "“केवल कारण का एक योगदानकर्ता समर्थक बन जाना ही उन्हें “सहीपन” और belonging की भावना देता था।”"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "dc9938ba-fbe9-437d-8124-34b1675fe7de",
+    "response_id": "chatcmpl-EUURM3cHfsGhVRboy4xfnmzBMo1BT",
+    "usage": {
+      "completion_tokens": 1238,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4987,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6225
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph containing Luke 19:12-13 (the quoted Scripture)",
+        "severity": "critical",
+        "source_quote": "He said therefore, A certain nobleman went into a far country to receive for himself a kingdom, and to return. And he called his ten servants, and delivered them ten pounds, and said unto them, Occupy till I come –Luke 19:12-13.",
+        "suggested_fix": "Replace the translated Bible quotation with a faithful Norwegian Bokmål rendering that preserves the meaning and verse numbering. For example (keeping the <em> tag and surrounding HTML structure identical):\n\n<em>Han sa derfor: En viss adelsmann drog bort til et fjernt land for å få seg et kongedømme og for å komme igjen. Og han kalte de ti tjenerne sine til seg og gav dem ti pund og sa til dem: Forvalt dem til jeg kommer –Lukas 19:12-13.</em>\n\n(Or use another idiomatic Bokmål phrasing that accurately conveys “Occupy till I come”, e.g. “Forvalt dem inntil jeg kommer” or “Forvalt dem til jeg kommer”, but do not use the current incorrect form “Forhånd dem til jeg kommer”.)",
+        "translation_quote": "<em>Han sa derfor: En viss adelsmann drog bort til et fjernt land for å få seg et kongedømme og for å komme igjen. Og han kalte de ti tjenerne sine til seg og gav dem ti pund og sa til dem: Forhånd dem til jeg kommer –Lukas 19:12-13.</em>"
+      },
+      {
+        "location": "source.title, source.subtitle, source.section metadata fields",
+        "severity": "major",
+        "source_quote": "title: The Hope of Your Calling\nsubtitle: LIVING AS YOUTH WITH AN ETERNAL PERSPECTIVE\nsection: INSPIRATIONS FOR YOUTH",
+        "suggested_fix": "Translate these metadata fields into contemporary Norwegian Bokmål to match the article translation and target-language guidance. Suggested translations (preserve the JSON/string fields exactly):\n\n\"title\": \"Håpet i ditt kall\"\n\"subtitle\": \"Å være ung med et evighetsperspektiv\"\n\"section\": \"INSPIRASJON FOR UNGDOM\"  \n\n(If you prefer a different wording for the section heading, ensure it is idiomatic Bokmål and consistent with site style. Do not change HTML structure — only replace the English text in the respective metadata fields.)",
+        "translation_quote": "title: The Hope of Your Calling\nsubtitle: LIVING AS YOUTH WITH AN ETERNAL PERSPECTIVE\nsection: INSPIRATIONS FOR YOUTH"
+      },
+      {
+        "location": "source.html — quoted phrase of Luke 19 verse appears in translation (wording error)",
+        "severity": "major",
+        "source_quote": "Occupy till I come –Luke 19:12-13.",
+        "suggested_fix": "Correct the single-word mistranslation “Forhånd” which is not appropriate here. Use an accurate verb such as “forvalt” or the phrase “forvalt dem til jeg kommer” or “hold dem til jeg kommer” depending on preferred diction. Ensure the correction appears inside the existing <em>…</em> tag and keeps the verse reference unchanged.",
+        "translation_quote": "Forhånd dem til jeg kommer –Lukas 19:12-13."
+      }
+    ],
+    "passed": false,
+    "score": 40
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8c49f764-2e3e-4bf2-bd8f-2098cad75dc6",
+    "response_id": "chatcmpl-EUURFr6kjHYxOpkrUqQjyR6sJcTaT",
+    "usage": {
+      "completion_tokens": 958,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3079,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4037
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph about Lee Rufener (source.html third sentence)",
+        "severity": "minor",
+        "source_quote": "Lee Rufener takes an unapologetic approach in his effort to share some expository teaching on practical ways to have a sanctified home.",
+        "suggested_fix": "Replace \"onbevreesde aanpak\" and \"expositieleer\" with more idiomatic Dutch that preserves the nuance: e.g. \"Lee Rufener kiest voor een onbevooroordeelde/zonder excuses aanpak in zijn poging expository onderricht te delen over praktische manieren om een geheiligd huis te hebben.\" Or better: \"Lee Rufener kiest voor een onverbloemde aanpak in zijn poging expositioneel onderricht te geven over praktische manieren om een geheiligd huis te hebben.\" Preserve the HTML tags and surrounding text exactly.",
+        "translation_quote": "Lee Rufener kiest voor een onbevreesde aanpak in zijn poging expositieleer te delen over praktische manieren om een geheiligd huis te hebben."
+      },
+      {
+        "location": "Opening of Scripture quote attribution (Hebrews)",
+        "severity": "minor",
+        "source_quote": "For the priesthood being changed, there is made of necessity a change also of the law –Hebrews 7:12.",
+        "suggested_fix": "Use a more natural Dutch rendering of the clause that retains the original meaning. Suggested replacement: \"Want bij verandering van het priesterschap is noodzakelijkerwijs ook een verandering van de wet gekomen – Hebreeën 7:12.\" Keep the <em> tags and verse number placement as in the source HTML.",
+        "translation_quote": "\"Bij verandering van het priesterschap is ook een noodzakelijke verandering van de wet opgetreden\" – Hebreeën 7:12."
+      },
+      {
+        "location": "Reference to the author of Hebrews (same paragraph)",
+        "severity": "minor",
+        "source_quote": "The Hebrew writer says that",
+        "suggested_fix": "Use the conventional Dutch phrase for the author of the Epistle to the Hebrews: replace \"De Hebreeën-schrijver zegt dat\" with \"De schrijver aan de Hebreeën zegt dat\". This is a more standard idiomatic rendering in Dutch and preserves meaning. Maintain the surrounding punctuation and HTML.",
+        "translation_quote": "De Hebreeën-schrijver zegt dat <em>\"Bij verandering van het priesterschap is ook een noodzakelijke verandering van de wet opgetreden\" – Hebreeën 7:12.</em>"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

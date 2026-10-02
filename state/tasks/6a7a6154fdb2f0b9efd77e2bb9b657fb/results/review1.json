@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "bf73e12b-1ed6-47bd-a8cb-78d6e7508b81",
+    "response_id": "chatcmpl-EUURRYVutSuEiafhwoQaYF8fhZl81",
+    "usage": {
+      "completion_tokens": 1275,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6326,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7601
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html ¶1 (lead)",
+        "severity": "minor",
+        "source_quote": "they began confiscating the believer’s homes, farms, and belongings, then exiled them from Switzerland.",
+        "suggested_fix": "Replace the Afrikaans phrase “te verbanning” with the correct verb form “te verban”. Keep HTML tags and punctuation unchanged.",
+        "translation_quote": "hulle begin om die gelowiges se huise, plase en besittings te konfiskeer en hulle uit Switserland te verbanning."
+      },
+      {
+        "location": "source.html ¶2",
+        "severity": "minor",
+        "source_quote": "Hoffs (house/barn fort enclosures)",
+        "suggested_fix": "Use an accurate Afrikaans rendering for the parenthetical gloss. For example: “Hoffs (huise/skuur-omheinings)” or simply “Hoffs (huis/skuur-omheinings)”. Preserve the original parentheses and spacing.",
+        "translation_quote": "Hoffs (huis/bostoe-enklawes)"
+      },
+      {
+        "location": "source.html ¶11",
+        "severity": "minor",
+        "source_quote": "They would need to be cut down by hand with axes and two-man saws.",
+        "suggested_fix": "Correct the tools vocabulary. Replace “bye en tweetand saagtes” with a correct Afrikaans equivalent: e.g. “byls (of byle) en tweeman-saag (twee‑man saag)” or “met bye en tweeman-saag” while preserving punctuation and HTML tags.",
+        "translation_quote": "moes met die hand afgekap word met bye en tweetand saagtes."
+      },
+      {
+        "location": "source.html ¶11",
+        "severity": "minor",
+        "source_quote": "Free to love and witness to their neighbors—the Conestoga tribe and French traders.",
+        "suggested_fix": "Remove the stray English article and render the whole phrase in Afrikaans, e.g. replace “—the Conestoga-stam and Franse handelaars” with “—die Conestoga‑stam en Franse handelaars”. Preserve the em dash and spacing as in the HTML.",
+        "translation_quote": "Vry om te liefhê en getuig aan hulle naaste—the Conestoga-stam en Franse handelaars."
+      },
+      {
+        "location": "source.html ¶1 (lead)",
+        "severity": "minor",
+        "source_quote": "obeying Christ’s commands to “bless them that persecute you” and “love your enemies”.",
+        "suggested_fix": "Use more idiomatic Afrikaans for the quoted imperatives while keeping them as quotations. For example: replace “seën te spreek oor hulle wat julle vervolg” with “’seën hul wat julle vervolg’” and replace “jul vyande te lief te hê” with “’het julle vyande lief’” (or similar idiomatic quotations). Ensure the quotation marks remain and that the Afrikaans wording clearly conveys the English commands.",
+        "translation_quote": "Christus se gebooie nagekom om “seën te spreek oor hulle wat julle vervolg” en “jul vyande te lief te hê”."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

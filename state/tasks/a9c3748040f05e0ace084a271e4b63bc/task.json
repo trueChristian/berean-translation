@@ -2,7 +2,6 @@
   "article_id": "a6ab0f33-e20a-4b19-ae47-f094395a54f8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 1753
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 991,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1542,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2533
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<article> <div class=\"poem\"> <p> stanza 2 (lines 1–2)",
+      "severity": "major",
+      "source_quote": "People love things that money can buy,\nThey trade their lives, with no reason why.",
+      "suggested_fix": "Replace the mistranslated phrase with a clear Hebrew equivalent that preserves the meaning: \"אנשים אוהבים דברים שכסף יכול לקנות,\\nהם סוחרים בחייהם, בלי סיבה למה.\" — i.e. change \"בלי סיבה לנגיד.\" to \"בלי סיבה למה.\"",
+      "translation_quote": "אנשים אוהבים דברים שכסף יכול לקנות,\nהם סוחרים בחייהם, בלי סיבה לנגיד."
+    },
+    {
+      "location": "<article> <div class=\"poem\"> <p> stanza 7 (lines 1–2)",
+      "severity": "major",
+      "source_quote": "We all know the Bible—no work, no eat.\nBut money will bind us until death we meet.",
+      "suggested_fix": "Correct the verb that changes meaning. Replace \"הכסף יכריע אותנו עד המוות יבוא.\" with wording that conveys \"bind\" or \"enslave\": for example \"אבל הכסף יכבול/ישעבד אותנו עד שניפגש עם המוות.\" A concise suggested line: \"אבל הכסף יעבד אותנו עד שניפגש עם המוות.\"",
+      "translation_quote": "כולנו מכירים את התנ\"ך—אין עבודה, אין אכילה.\nאבל הכסף יכריע אותנו עד המוות יבוא."
+    },
+    {
+      "location": "<article> <div class=\"poem\"> <p> final stanza (line 2)",
+      "severity": "minor",
+      "source_quote": "“Freedom, or bondage?” is the question I bring.",
+      "suggested_fix": "Use a more natural Hebrew phrasing for \"is the question I bring.\" Suggested replacement: \"'חירות, או עבדות?' זו השאלה שאני שואל.\" Replace \"זו השאלה שאני מביא.\" with \"זו השאלה שאני שואל.\"",
+      "translation_quote": "\"חירות, או עבדות?\" זו השאלה שאני מביא."
     }
   ],
   "id": "a9c3748040f05e0ace084a271e4b63bc",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1de56fab2737a3548fafa046f54e8b49fd10031dc8824cc6696d1a638910abcb.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "e5687feec796faa59fb2c84ea91a33a13b26784033d8d71bfc9aba932005e757",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

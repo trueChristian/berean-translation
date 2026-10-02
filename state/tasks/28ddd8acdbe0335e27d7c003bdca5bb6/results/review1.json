@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d52050b3-bb80-4af8-b3cb-60a8e8db0e3d",
+    "response_id": "chatcmpl-EUURFv576hLLVuaJu71XOVRDih7Ou",
+    "usage": {
+      "completion_tokens": 1059,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5173,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6232
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph (opening sentence about Anabaptist people)",
+        "severity": "minor",
+        "source_quote": "As Anabaptist people, we are known to possess a solid work ethic;",
+        "suggested_fix": "Use a plural phrasing that matches the English meaning. Replace the translated fragment “staan ons bekend as iemand met ’n sterk werksetiek” with “staan ons bekend as mense met ’n sterk werksetiek” so it reads as a characterization of the group rather than of an individual.",
+        "translation_quote": "As Anabapistiese mense staan ons bekend as iemand met ’n sterk werksetiek;"
+      },
+      {
+        "location": "Paragraph beginning “’n Geruime tyd gelede...” (sentence about leaving the shop)",
+        "severity": "minor",
+        "source_quote": "He was within talking distance of multiple other individuals that would have been able to answer his question.",
+        "suggested_fix": "Lowercase the common noun and remove the unintended emphasis by changing “Winkel” to “winkel”. Suggested replacement: “Hy was binne geselsafstand van verskeie ander persone wat sy vraag sou kon beantwoord.”",
+        "translation_quote": "Hy was binne geselsafstand van verskeie ander persone wat sy vraag sou kon beantwoord. As ek terugdink, het ek besef dat ek ’n geleentheid gehad het ... Hy het ernstige persoonlike ..."
+      },
+      {
+        "location": "Hebrews 12:1-2 translation (phrase about sin that besets us)",
+        "severity": "minor",
+        "source_quote": "let us lay aside every weight, and the sin which doth so easily beset us,",
+        "suggested_fix": "The current phrasing “die sonde wat ons so maklik innig omvou” is awkward and introduces the adverb “innig” (inwardly) which is not in the English and changes tone. Replace with a clearer, faithful rendering such as: “en die sonde wat ons so maklik omvou” or “en die sonde wat ons so maklik omring” so the meaning matches the English text without added nuance.",
+        "translation_quote": "laat ons alle omweg en die sonde wat ons so maklik innig omvou, afwerp, en laat ons met volharding die wedloop hardloop wat voor ons lê,"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

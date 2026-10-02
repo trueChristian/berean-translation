@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "15c0aefe-2aec-45da-ade7-d6ef91f78d03",
+    "response_id": "chatcmpl-EUURSU93UuHLq8xrAAhGPbhojVrl8",
+    "usage": {
+      "completion_tokens": 851,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3880,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4731
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: “Indeed, the roof had been cleanly stripped away and the gable ends stoically stood there, holding up nothing.”",
+        "severity": "major",
+        "source_quote": "Indeed, the roof had been cleanly stripped away and the gable ends stoically stood there, holding up nothing.",
+        "suggested_fix": "Translate “gable ends” accurately and remove the incorrect word “cerobong”. Suggested wording in Indonesian: “Memang, atap itu tersingkap bersih dan ujung-ujung gonjong (gable) berdiri kokoh, tak menyangga apa pun.” or “Memang, atap itu tersingkap bersih dan ujung-ujung atap (gable) berdiri tegak tanpa menahan apa pun.” Preserve the surrounding HTML and paragraph order.",
+        "translation_quote": "Memang, atap itu tersingkap bersih dan ujung-ujung cerobong berdiri tegak menahan apa pun."
+      },
+      {
+        "location": "Paragraph: “Mom directed the children to stand by the cellar door.”",
+        "severity": "minor",
+        "source_quote": "Mom directed the children to stand by the cellar door.",
+        "suggested_fix": "Replace the anglicism “pintu cellar” with a natural Indonesian equivalent, for example: “pintu ruang bawah tanah” or simply “pintu ke ruang bawah tanah”. Preserve HTML tags and paragraph structure.",
+        "translation_quote": "Mendengar itu, Ibu menyuruh anak-anak berdiri di dekat pintu cellar. Kalau keadaan memburuk, turunlah mereka ke bawah!"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

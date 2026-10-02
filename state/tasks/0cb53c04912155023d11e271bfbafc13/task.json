@@ -2,7 +2,6 @@
   "article_id": "a6ab0f33-e20a-4b19-ae47-f094395a54f8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 1748
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1239,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1537,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2776
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<article> poem, stanza 1, line 2",
+      "severity": "minor",
+      "source_quote": "Or are they the same; can someone see?",
+      "suggested_fix": "Replace “kan iemand dit lees?” with “kan iemand dit sien?” to match the English meaning of “see.” Preserve HTML tags and punctuation.",
+      "translation_quote": "Of is dit dieselfde; kan iemand dit lees?"
+    },
+    {
+      "location": "<article> poem, stanza 5, line 2",
+      "severity": "minor",
+      "source_quote": "Maybe less time at work could surely do.",
+      "suggested_fix": "Change “Miskien sou minder werk darem genoeg sin maak.” to “Miskien sou minder tyd by die werk darem volstaan.” This preserves the English sense of spending less time at work (not doing less work). Keep the HTML structure unchanged.",
+      "translation_quote": "Miskien sou minder werk darem genoeg sin maak."
+    },
+    {
+      "location": "<article> poem, stanza 7, line 2",
+      "severity": "major",
+      "source_quote": "But money will bind us until death we meet.",
+      "suggested_fix": "Correct the ungrammatical/unclear rendering “Maar geld sal ons bind tot ons by die dood ontmoet.” to a clear Afrikaans equivalent such as “Maar geld sal ons bind tot ons die dood ontmoet.” or “Maar geld sal ons bind tot die dood ons bereik.” Ensure the sentence conveys “until we meet death” and keep the HTML tags and line break as in the translation.",
+      "translation_quote": "Maar geld sal ons bind tot ons by die dood ontmoet."
     }
   ],
   "id": "0cb53c04912155023d11e271bfbafc13",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 85,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1de56fab2737a3548fafa046f54e8b49fd10031dc8824cc6696d1a638910abcb.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "e5687feec796faa59fb2c84ea91a33a13b26784033d8d71bfc9aba932005e757",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

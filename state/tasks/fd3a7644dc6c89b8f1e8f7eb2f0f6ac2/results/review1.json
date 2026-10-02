@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b94be558-9441-4bf9-b4f1-f6dbdd0c78a4",
+    "response_id": "chatcmpl-EUURNwkTIoa9c2yQLoTGIULenlwAE",
+    "usage": {
+      "completion_tokens": 1756,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7417,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9173
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "In-article blockquote opening (first quoted Scripture)",
+        "severity": "major",
+        "source_quote": "For the unbelieving husband is sanctified by the wife, and the unbelieving wife is sanctified by the husband: else were your children unclean; but now are they holy … For what knowest thou, O wife, whether thou shalt save thy husband? or how knowest thou, O man, whether thou shalt save thy wife? –1 Corinthians 7:14-16.",
+        "suggested_fix": "Translate the book name into standard Bengali and keep the verse numbers unchanged. For example: “–১ করিন্থীয়দের 7:14-16।” Ensure the whole quoted Scripture is rendered in idiomatic Bengali (already done) and only the book name/locator is changed as shown.",
+        "translation_quote": "অবিশ্বাসী স্বামী স্ত্রী দ্বারা পবিত্র হয়, এবং অবিশ্বাসী স্ত্রী স্বামী দ্বারা পবিত্র হয়; নচেৎ তোমাদের সন্তানরা অপবিত্র হতো; কিন্তু এখন তারা পবিত্র … স্ত্রী, তুমি কী জানো, তোমার স্বামীকে তুমি কি উদ্ধার করবে? অথবা পুরুষ, তুমি কী জানো, তোমার স্ত্রীকে তুমি কি উদ্ধার করবে? –1 Corinthians 7:14-16."
+      },
+      {
+        "location": "Heading: \"The Inside Sanctified by Faith and Prayer\" (h2)",
+        "severity": "major",
+        "source_quote": "The Inside Sanctified by Faith and Prayer",
+        "suggested_fix": "Translate this heading into Bengali and place it in the same h2 tag. For example: <h2>বিশ্বাস ও প্রার্থণায় ভিতরের অংশ পবিত্র হয়</h2>. Preserve the tag and its placement.",
+        "translation_quote": "<h2>The Inside Sanctified by Faith and Prayer</h2>"
+      },
+      {
+        "location": "Multiple Scripture citations throughout (e.g., “–Matthew 23:25-26.”, “–Proverbs 4:23.”, “–1 Peter 3:1-7.”, “–1 Timothy 4:5.”, “–2 Timothy 3:15-16.”, “–Ephesians 5:25-27.”, “–Psalm 1:1.”, “–John 17:6-17.”)",
+        "severity": "major",
+        "source_quote": "Examples: \"… –Matthew 23:25-26.\", \"… –Proverbs 4:23.\", \"… –1 Peter 3:1-7.\", \"… –1 Timothy 4:5.\", \"… –2 Timothy 3:15-16.\", \"… –Ephesians 5:25-27.\", \"… –Psalm 1:1.\", \"… –John 17:6-17.\"",
+        "suggested_fix": "Convert all English book names to conventional Bengali forms while keeping chapter and verse numbers unchanged. Suggested conversions (apply consistently to each citation):\n- Matthew → মাথিউ (or more common: মথি/মথি is uncommon; recommended: মথি is not standard in Bengali; prefer 'মথি' is rare) Better: use commonly accepted Bengali Bible book names. Examples:\n  - Matthew → মথি or মথিউ (use the publication's established style). If you choose 'মথি', produce: “–মথি 23:25-26.”\n  - Proverbs → নীতিবচন (e.g., “–নীতিবচন 4:23.”)\n  - 1 Peter → 1 পিতরুচের/১ পিতরদের (recommended: “১ পেত্রের 3:1-7.”)\n  - 1 Timothy → ১ তীত্বীয় 4:5 (or common: “১ তীমোথিয়ু 4:5.”)\n  - 2 Timothy → ২ তীমোথিয়ু 3:15-16\n  - Ephesians → ইফিসীয়দের 5:25-27\n  - Psalm → গীতসংহিতা 1:1 (or 'গীত 1:1')\n  - John → যোহন 17:6-17\n\n(Use the target publication’s established Bengali book-name set; the essential requirement is that the book names are in Bengali script and conventional.) Replace each English citation accordingly, keeping the hyphen/dash and verse numbers unchanged.",
+        "translation_quote": "Throughout the translation the citations remain in English script, e.g., “–Matthew 23:25-26.”, “–Proverbs 4:23.”, “–1 Peter 3:1-7.”, “–1 Timothy 4:5.”, “–2 Timothy 3:15-16.”, “–Ephesians 5:25-27.”, “–Psalm 1:1.”, “–John 17:6-17.”"
+      },
+      {
+        "location": "John 17 quotation block (inside that long quoted passage)",
+        "severity": "critical",
+        "source_quote": "Sanctify them through thy truth: thy word is truth –John 17:6-17.",
+        "suggested_fix": "Translate the book name and ensure all words inside the quotation are translated. In the current Bengali rendering an English word remains inside the quoted Scripture: “world” is left as English. Replace the full citation and any remaining English words. For example, render the closing line and citation as: “তাদের তুমি তোমার সত্য দ্বারা পবিত্র কর: তোমার বাক্যই সত্য –যোহন 17:6-17.” Also scan the entire blockquote to eliminate any residual English words (e.g., 'world') and render them into correct Bengali (e.g., 'বিশ্ব'). Preserve the blockquote tags and internal structure.",
+        "translation_quote": "In the translation block the sentence reads: “আমি প্রার্থনা করি না যে তুমি তাদেরকে world থেকে তুলে নেবে, কিন্তু যে তুমি তাদেরকে বদ থেকে রক্ষা করো। ... তাদেরকে তোমার সত্য দ্বারা পবিত্র কর: তোমার বাক্যই সত্য –John 17:6-17.” — note the untranslated English word “world” and the English book name in the citation."
+      }
+    ],
+    "passed": false,
+    "score": 65
+  }
+}

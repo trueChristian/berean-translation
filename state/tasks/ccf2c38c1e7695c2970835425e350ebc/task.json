@@ -2,7 +2,6 @@
   "article_id": "c16663c4-9436-466b-bffd-dd954a5f3442",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,6 +23,41 @@
         },
         "total_tokens": 7738
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 794,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7319,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8113
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Paragraph: \"Some of the greatest acts...\" (military example)",
+      "severity": "major",
+      "source_quote": "Men have jumped on grenades, and they have jumped in front of bullets to save their comrades.",
+      "suggested_fix": "Vertaal de beeldspraak letterlijk en nauwkeurig: vervang \"granaatscherven\" door \"granaten\" zodat de zin weergeeft dat mannen zich op granaten wierpen. Bijvoorbeeld: \"Mannen hebben zich op granaten geworpen, en zij hebben zich voor kogels geworpen om hun kameraden te redden.\"",
+      "translation_quote": "Mannen hebben zich voor granaatscherven geworpen en zich voor kogels geworpen om hun kameraden te redden."
+    },
+    {
+      "location": "Paragraph: \"Many Americans go on short-term missions.\"",
+      "severity": "minor",
+      "source_quote": "Many Americans go on short-term missions.",
+      "suggested_fix": "Gebruik een idiomatische en grammaticaal correcte Nederlandse term voor \"short-term missions\", bij voorkeur als samenstelling of gangbare uitdrukking: bijvoorbeeld \"Veel Amerikanen gaan op kortetermijnzendingen\" of \"Veel Amerikanen gaan op korte termijn op zendingswerk.\"",
+      "translation_quote": "Veel Amerikanen gaan op korte termijn zendingswerk."
     }
   ],
   "id": "ccf2c38c1e7695c2970835425e350ebc",
@@ -69,11 +103,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/930958d5d08150faddf8cc6d4ba6c22ee28be341e3250f81368856d9c75f0afc.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "8dd5d606c1d8d9cf5603a40e68a843196a12e272a0bd52717b5de07e6983516a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

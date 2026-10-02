@@ -2,7 +2,6 @@
   "article_id": "2b07502a-cbf0-4b92-8bb8-7910a5557f84",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:09+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 6450
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1727,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6174,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7901
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Paragraph 2; Paragraph 10; Paragraph 11 (distances)",
+      "severity": "major",
+      "source_quote": "about seven miles north of Philadelphia in that day; 60 miles west of Germantown and civilization; The closest doctor, apothecary, hardware, or general store was 60 miles away.",
+      "suggested_fix": "Bevara avståndsenheterna tydligt och konsekvent. Antingen skriv 'miles' översatt som 'miles' med ett förtydligande på svenska (t.ex. 'about seven miles (ca 7 miles)') eller ange en korrekt svensk enhet (t.ex. 'cirka 7 miles (ca 11 km)' eller 'cirka 60 miles (ca 96 km)'). Undvik att ersätta 'miles' med svenska 'mil' utan förklaring, eftersom 'mil' i svenskan normalt betyder 10 km och förändrar den tänkta faktiska distansen. Exempelfix för varje passage:\n- \"about seven miles north of Philadelphia in that day\" → \"ungefär sju miles norr om Philadelphia (cirka 11 km)\" or \"ungefär 7 miles (cirka 11 km) norr om Philadelphia\".\n- \"60 miles west of Germantown and civilization\" → \"cirka 60 miles (cirka 96 km) väster om Germantown och civilisationen\".\n- \"The closest doctor... was 60 miles away.\" → \"Närmaste doktor ... låg cirka 60 miles (cirka 96 km) bort.\"",
+      "translation_quote": "ungefär sju mil norr om Philadelphia på den tiden; 60 mil väster om Germantown och civilisationen; Närmaste doktor, apotekare, järnaffär eller varuhus låg 60 mil bort."
+    },
+    {
+      "location": "Paragraph 2 (term 'Hoffs' )",
+      "severity": "minor",
+      "source_quote": "Many of the Hoffs (house/barn fort enclosures) were burned out",
+      "suggested_fix": "Den engelska termen 'Hoffs' bör antingen återges med en tydlig svensk förklaring eller översättas till vedertagna svenska uttryck för den beskrivna anläggningen. Förslag: \"Många av 'hoffs' (hus- och ladugårdsanläggningar med försvar) brändes ut\" eller \"Många gårdsanläggningar (hus/ladugårds‑fortifikationer) brändes ut.\" Bevara gärna citationstecken kring 'Hoffs' om termen är specifik/historisk.",
+      "translation_quote": "Många hovar (hus/ladugårds‑fortifikationer) brändes ut"
+    },
+    {
+      "location": "Paragraph 11 (unit 'feet')",
+      "severity": "minor",
+      "source_quote": "some six feet in diameter and over 100 feet tall",
+      "suggested_fix": "Överväg att klargöra enheten eller ge metrisk motsvarighet för svensk läsare, t.ex. \"vissa sex feet (cirka 1,8 m) i diameter och över 100 feet (över 30 m) höga\" eller \"vissa cirka 6 feet (cirka 1,8 m) i diameter och över 100 feet (över 30 m) höga\". Nuvarande översättning behåller 'fot' men utan förklaring av vad 'fot' avser.",
+      "translation_quote": "vissa sex fot i diameter och över 100 fot höga"
     }
   ],
   "id": "f1a689469aada6cb612c319e10b95430",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 80,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/589bbbf06d53e840c1b02c16b5a0e9d55ee78fbc01185cea481271c35d6c3b97.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b3e43e634638cbb2acbfd582a6dcb7a3f9f4e2dc77e578bc59a693261f0aa67b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9cd3e646-4ac4-4b99-b165-baddd4151baf",
+    "response_id": "chatcmpl-EUURHuVyNeYrthH3k6aPOtnsKnoxw",
+    "usage": {
+      "completion_tokens": 1204,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8751,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9955
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning 'Lukas ger oss... berättelsen om Jesu besök i Maria och Marias hus (se Lukas 10:38-42).",
+        "severity": "major",
+        "source_quote": "Luke gives us some insight into this in the account of Jesus’ visit to the home of Mary and Martha. (See Luke 10:38-42)",
+        "suggested_fix": "Preserve both names Mary and Martha. Replace the duplicated 'Maria och Maria' with 'Maria och Marta'. Keep the parenthetical reference unchanged. Suggested Swedish rendering: \"berättelsen om Jesu besök i Maria och Marta hus (se Lukas 10:38–42).\"",
+        "translation_quote": "berättelsen om Jesu besök i Maria och Marias hus (se Lukas 10:38-42)."
+      },
+      {
+        "location": "Paragraph beginning 'Berättelsens kärna ligger i utgången. På grund av Saras tro...' (Abraham/Sarah story)",
+        "severity": "major",
+        "source_quote": "Because of Sarah’s faith, she was delivered from the hand of Pharaoh, the most powerful world ruler of the day.",
+        "suggested_fix": "'World ruler' was mistranslated as 'världsråd' (world council). Restore the meaning 'ruler' or 'hereskare'. Suggested Swedish rendering: \"... blev hon befriad från Faraos hand, dåtidens mäktigaste härskare.\"",
+        "translation_quote": "På grund av Saras tro blev hon befriad från Faraos hand, dåtidens mäktigaste världsråd."
+      },
+      {
+        "location": "Final summary paragraph under 'För dina barns välbefinnande:'",
+        "severity": "minor",
+        "source_quote": "Young Timothy was influenced by the unfeigned faith of his mother and of his grandmother.",
+        "suggested_fix": "The English 'unfeigned faith' means sincere or genuine faith. The translation 'opåverkade tron' reads as 'unaffected faith' and changes nuance. Use 'uppriktiga tro' or 'sann tro' to match the source. Suggested Swedish: \"Den unge Timoteus påverkades av den uppriktiga tron hos sin mor och sin mormor.\"",
+        "translation_quote": "Den unge Timoteus påverkades av den opåverkade tron hos sin mor och sin mormor."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "64b59721-1fb8-472b-9ab9-aafdc8d83bfd",
+    "response_id": "chatcmpl-EUURqAQ70YSYYTnESoGztG5jSmyK1",
+    "usage": {
+      "completion_tokens": 1593,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7492,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9085
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "major",
+        "source_quote": "Mennonites, Misunderstandings, and Herbal Medicines",
+        "suggested_fix": "Translate the English title into Modern Greek while preserving meaning and theology. Example: «Μεννονίτες, Παρεξηγήσεις και Φυτικά Φάρμακα». Preserve any HTML structure exactly.",
+        "translation_quote": "Mennonites, Misunderstandings, and Herbal Medicines"
+      },
+      {
+        "location": "subtitle",
+        "severity": "major",
+        "source_quote": "MENNONITE LIFE IN THE CONESTOGA VALLEY OF COLONIAL PENNSYLVANIA",
+        "suggested_fix": "Translate the English subtitle into Modern Greek. Example: «Η ΖΩΗ ΤΩΝ ΜΕΝΝΟΝΙΤΩΝ ΣΤΗΝ ΚΟΙΛΑΔΑ CONESTOGA ΣΤΗΝ ΑΠΟΙΚΙΑΚΗ ΠΕΝΣΥΛΒΑΝΙΑ». Preserve uppercase style if intended and keep HTML tags unchanged.",
+        "translation_quote": "MENNONITE LIFE IN THE CONESTOGA VALLEY OF COLONIAL PENNSYLVANIA"
+      },
+      {
+        "location": "section",
+        "severity": "major",
+        "source_quote": "Victorious Christian Living",
+        "suggested_fix": "Translate the section name into Modern Greek. Example: «Νικηφόρη Χριστιανική Ζωή» or another appropriate idiomatic rendering. Do not change HTML structure.",
+        "translation_quote": "Victorious Christian Living"
+      },
+      {
+        "location": "paragraph 6 (wildlife list)",
+        "severity": "major",
+        "source_quote": "Wolves, bears, panthers, bobcats and other predators abounded.",
+        "suggested_fix": "Correct mistranslations of animal names. \"Bobcats\" must be translated as «bobcat» => «λύγκας/λύγκες» or the standard Modern Greek for bobcat (often «κάτω-κούναβος» is not used — prefer «λύγκας»). Revise the whole list idiomatically, e.g. «Λύκοι, αρκούδες, πάνθηρες, λύγκες και άλλα αρπακτικά αφθονούσαν.» Preserve sentence meaning and tone.",
+        "translation_quote": "Λύκοι, αρκούδες, πάνθηρες, βομβίνοι και άλλα αρπακτικά αφθονούσαν."
+      },
+      {
+        "location": "paragraph 6 (tree species)",
+        "severity": "major",
+        "source_quote": "Huge walnut, hickory, chestnuts, maples, white pines, and oaks, some six feet in diameter and over 100 feet tall",
+        "suggested_fix": "Fix incorrect plant translations. \"Hickory\" was mistranslated as «χικόρι» (chicory). Replace with the correct tree name «χικόρι» is nonstandard — better to use «χικόρι» transliteration or «χεϊκόρι/χίκκορι» is uncommon; prefer the commonly used Greek transliteration «χίκκορι» or simply «είδη χικόρι (hickory)». A clear fix: «Τεράστιες καρυδιές, χικκόρι, κάστανα, σφεντάμια, λευκές πεύκες και βελανιδιές…»",
+        "translation_quote": "Τεράστια καρυδιές, χικόρι, κάστανα, σφεντάμια, λευκές πεύκες και βελανιδιές"
+      },
+      {
+        "location": "paragraph 8 (Ferhexing)",
+        "severity": "minor",
+        "source_quote": "“Ferhexing” (the Pennsylvania Dutch term for witchcraft)",
+        "suggested_fix": "Either translate the parenthetical explanation into Greek and keep the term in quotes, or provide a Greek transliteration plus the explanation. Example: ««Ferhexing» (ο όρος των Πενσυλβανών Γερμανών για μαγεία)». If keeping the original term, render it in Greek script or italics consistently.",
+        "translation_quote": "«Ferhexing» (ο όρος των Πενσυλβανών Γερμανών για μαγεία)"
+      },
+      {
+        "location": "paragraph 10 (Mennists/Mennonites mention)",
+        "severity": "minor",
+        "source_quote": "it seems that here is where the Swiss Brethren first became known as Mennists or Mennonites.",
+        "suggested_fix": "Translate the group names consistently into Greek. Replace English 'Mennists or Mennonites' with «Μεννίτες ή Μεννονίτες» (or simply «Μεννονίτες» if that is the established Greek form) to match earlier usage («Μεννονίτες»).",
+        "translation_quote": "Mennists or Mennonites"
+      },
+      {
+        "location": "overall (metadata consistency)",
+        "severity": "minor",
+        "source_quote": "(title, subtitle, section are in English metadata fields in the source)",
+        "suggested_fix": "Ensure all article metadata fields (title, subtitle, section) are translated into Modern Greek and that in-article references to group names and terms are rendered consistently in Greek. Preserve HTML tags/attributes exactly.",
+        "translation_quote": "title and subtitle and section left in English"
+      }
+    ],
+    "passed": false,
+    "score": 65
+  }
+}

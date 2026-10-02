@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "78d90620-3c4d-42a2-859e-18d0368d07e0",
+    "response_id": "chatcmpl-EUURepRLcGLc0HWM3kgcHzcUWuoMQ",
+    "usage": {
+      "completion_tokens": 1535,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4118,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5653
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"The neighbor men tried desperately to rescue what cattle they could, but in the end, many of the steers could not be saved.\" (about Melvin's barn collapse)",
+        "severity": "critical",
+        "source_quote": "his barn had collapsed on top of dozens of cattle and then a fire had broken out. The neighbor men tried desperately to rescue what cattle they could, but in the end, many of the steers could not be saved.",
+        "suggested_fix": "Translate the quantity word faithfully. Replace “सैंकड़ों मवेशियों” with a faithful rendering of “dozens of cattle” such as “दर्जनों मवेशियों” so the numeric magnitude matches the English source. Preserve surrounding sentence structure and HTML tags.",
+        "translation_quote": "उसकी शेड सैंकड़ों मवेशियों के ऊपर ढह गई और फिर आग लग गई। पड़ोसी पुरुष हताश होकर जितनी मवेशियाँ बचा सके उन्हें बचाने की कोशिश करते रहे, पर अंत में कई बैल बच नहीं सके।"
+      },
+      {
+        "location": "Paragraph: \"I think it's part of the garage roof,\" said Dad in disbelief while peering cautiously through the windows.",
+        "severity": "minor",
+        "source_quote": "“I think it’s part of the garage roof,” said Dad in disbelief while peering cautiously through the windows.",
+        "suggested_fix": "Remove the stray non‑Hindi character and render the whole phrase smoothly in Hindi. Replace “खिड़कियों越 से झाँका।” with “खिड़कियों越 से झाँका।” corrected to “खिड़कियों से सावधानी से झाँकते हुए कहा।” (or simply: “खिड़कियों से सावधानी से झाँकते हुए कहा।”), preserving sentence meaning and context.",
+        "translation_quote": "“मुझे लगता है यह गैराज की छत का हिस्सा है,” पिताजी ने आश्चर्य से कहा और सावधानी से खिड़कियों越 से झाँका।"
+      },
+      {
+        "location": "Paragraph: \"Great sheets of rain were being driven against the windows and Ellie wondered if it was possible that it was raining hard enough to break the glass.\"",
+        "severity": "minor",
+        "source_quote": "Great sheets of rain were being driven against the windows and Ellie wondered if it was possible that it was raining hard enough to break the glass.",
+        "suggested_fix": "Avoid adding a simile not present in the source. Replace “खिड़कियों पर मिट्टी की तरह टकरा रही थीं” with a faithful rendering like “खिड़कियों पर जोरदार बारिश की परतें पटक रही थीं” or “खिड़कियों पर भारी पानी की परतें झेल रही थीं” to match the original imagery without adding 'like dirt'.",
+        "translation_quote": "भारी बारिश की परतें खिड़कियों पर मिट्टी की तरह टकरा रही थीं और एली सोचने लगी कि क्या इतनी तेज़ बारिश काँच तोड़ सकती है।"
+      },
+      {
+        "location": "Opening paragraph: “My, it’s warm!” exclaimed Mom. “A nice, good rain is what we need to cool things off a bit.”",
+        "severity": "minor",
+        "source_quote": "“My, it’s warm!” exclaimed Mom. “A nice, good rain is what we need to cool things off a bit.”",
+        "suggested_fix": "The English phrase “a nice, good rain” implies a refreshing/moderate rain rather than necessarily a 'fast/violent' rain. Consider replacing “एक अच्छी, तेज़ बारिश” with “एक अच्छी, ठंडी या सुखद बारिश” or “एक अच्छी, बरसाती बारिश” to better match the source nuance.",
+        "translation_quote": "“अरे, कितना गरम है!” माँ ने कहा। “हमें थोड़ा ठंडा करने के लिए एक अच्छी, तेज़ बारिश की ज़रूरत थी।”"
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d2cfcd18-7bfb-4c38-bb5f-41ec01887e67",
+    "response_id": "chatcmpl-EUURFUO3YPMCASvTUfsd5zut15oCX",
+    "usage": {
+      "completion_tokens": 893,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7204,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8097
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Translation paragraph referencing social media (paragraph starting “我们生活在一个“以我为中心”的时代”)",
+        "severity": "minor",
+        "source_quote": "The conservative, Anabaptist people are getting tangled up in social media, selfies, tweeting, Facebook, and you name it.",
+        "suggested_fix": "Use more standard/idiomatic Mandarin for modern social terms. Replace 自照相 with 自拍, 推文 with 推特/发推 or 发布推文, and consider using 社交媒体（如自拍、推特、脸书等）for natural flow.",
+        "translation_quote": "保守的门诺派（安那巴普蒂斯特）人正在被社交媒体、自照相、推文、脸书以及其它各种东西纠缠上。"
+      },
+      {
+        "location": "Translation of “Anabaptist” (multiple occurrences)",
+        "severity": "minor",
+        "source_quote": "The conservative, Anabaptist people ...; many Anabaptists are losing their children ...; the early Anabaptists met ...",
+        "suggested_fix": "Maintain a single, conventional Chinese rendering for “Anabaptist” for consistency. Either use “再洗礼派/再洗者派（Anabaptist）” or the more commonly used “安那巴普蒂斯特/再洗派”，or if the intended referent is Mennonites use “门诺派/门诺教会”。 Keep one term throughout.",
+        "translation_quote": "保守的门诺派（安那巴普蒂斯特）人……许多安那巴普蒂斯特人把孩子输给黑暗国度的原因……早期的安那巴普蒂斯特人尽可能多地聚会……"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "cc225bc9-2dda-46f3-a628-13af4fd95e7a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,6 +23,83 @@
         },
         "total_tokens": 3571
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1848,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3232,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5080
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html — paragraph containing Hebrews 7:12 (near end)",
+      "severity": "critical",
+      "source_quote": "For the priesthood being changed, there is made of necessity a change also of the law –Hebrews 7:12.",
+      "suggested_fix": "Translate the entire quoted Scripture into Hebrew, preserving the book name and chapter: e.g. «כִּי שֻׁנָּה הַכְּהוּנָּה, יֵצֵא בִּצְרִיכוּת שִׁנּוּי גַּם בַּחֹק» —העברים 7:12. (Use conventional modern-Hebrew book name \"העברים\" and keep the reference \"7:12\" unchanged.) Preserve the surrounding <em> tags and punctuation.",
+      "translation_quote": "<em>For the priesthood being changed, there is made of necessity a change also of the law –Hebrews 7:12.</em>"
+    },
+    {
+      "location": "source.html — paragraph containing Ephesians 4:14",
+      "severity": "critical",
+      "source_quote": "That we [should] henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine… –Ephesians 4:14.",
+      "suggested_fix": "Translate the quoted Scripture into Hebrew and keep the reference: e.g. «כְּלָכִי לֹא נְהִי יַתְמוּמִים עוֹד, נָעוּ בְּכָל־רוּחַ בְּתוֹרָה» —אפסים 4:14. (Use modern-Hebrew book name \"אפסים\" and keep the verse numbering exactly.) Retain the <em> tags.",
+      "translation_quote": "<em>That we [should] henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine… –Ephesians 4:14.</em>"
+    },
+    {
+      "location": "source.html — paragraph containing Matthew 24:12-13",
+      "severity": "critical",
+      "source_quote": "And because iniquity shall abound, the love of many shall wax cold. But he that shall endure unto the end, the same shall be saved –Matthew 24:12-13.",
+      "suggested_fix": "Translate the quoted Scripture into Hebrew and keep the reference: e.g. «וְיֶחֱשֵׁף רָעָה רְבָבָה, וְיָקָר תִּתְקַרֵרָּה אַהֲבַת רַבִּים; וְהַמַּהֲדֶה עַד־הַסּוֹף, הוּא יִנָּצֵל.» —מתי 24:12-13. (Use modern-Hebrew book name \"מתי\" and keep verse numbers unchanged.)",
+      "translation_quote": "<em>And because iniquity shall abound, the love of many shall wax cold. But he that shall endure unto the end, the same shall be saved –Matthew 24:12-13.</em>"
+    },
+    {
+      "location": "source.section and translation.section metadata",
+      "severity": "major",
+      "source_quote": "FROM THE EDITOR",
+      "suggested_fix": "Section label should match the English meaning. Replace the translated section value with the correct Hebrew equivalent: \"מאת העורך\" (or if an editorial heading is preferred, \"מאת העורך / מֵעֶרֵךְ\"). Do not use \"מֵעֵדִית\" which is incorrect/garbled.",
+      "translation_quote": "\"מֵעֵדִית\""
+    },
+    {
+      "location": "source.html — paragraph about carburetor and injector pump",
+      "severity": "major",
+      "source_quote": "most farmers had gas-powered tractors with a carburetor or a diesel tractor with a manually powered injector pump.",
+      "suggested_fix": "Correct technical terms in Hebrew. Translate 'carburetor' accurately as \"קרבורטור\" or \"מְצַרֵת\" (modern Hebrew often uses \"קרבורטור\"), and keep 'injector pump' as \"משאבת הזרקה\". Example: \"לרוב החקלאים היו טרקטורים עם מנוע בנזין וקרבורטור, או טרקטור דיזל עם משאבת הזרקה ידנית.\"",
+      "translation_quote": "\"טרקטורים עם מנוע בנזין עם מצמד או טרקטור דיזל עם משאבת הזרקה ידנית.\""
+    },
+    {
+      "location": "source.html — paragraph about vehicle drivetrains",
+      "severity": "minor",
+      "source_quote": "All vehicles used to be rear-wheel drive or four-wheel drive.",
+      "suggested_fix": "Render drivetrain terms idiomatically: e.g. \"בדרך כלל המכוניות היו עם הנעה אחורית או הנעה לכל ארבעת הגלגלים.\" Replace \"ארבע גלגלים\" with \"הנעה לכל ארבעת הגלגלים\" or \"הנעה כפולה\" depending on meaning.",
+      "translation_quote": "\"כל המכוניות היו בעבר עם הנעה אחורית או ארבע גלגלים.\""
+    },
+    {
+      "location": "source.html — paragraph about Amish in Holmes County",
+      "severity": "major",
+      "source_quote": "From my vantage point observing the Amish of Holmes County, these two items have done more to change a people and a culture...",
+      "suggested_fix": "Properly render the place and group name in Hebrew and fix the garbled phrase. Suggestion: \"מנקודת מבטי, בהתבוננות על האמיש במחוז הולמס, שני הפריטים האלה שינו קבוצה ותרבות באופן נרחב יותר כמעט מכל דבר אחר בזמן האחרון.\" Keep 'Holmes County' as \"מחוז הולמס\" and 'Amish' as \"האמיש\".",
+      "translation_quote": "\"בעמיש בני קאונתי הולמס\""
+    },
+    {
+      "location": "source.html — paragraph with phrase 'paused in quiet reminiscence'",
+      "severity": "minor",
+      "source_quote": "As I paused in quiet reminiscence, I was surprised by all the things that have changed...",
+      "suggested_fix": "The Hebrew phrasing is awkward and partly mistranslated: replace \"השתתקפתי בפֶּנִים וזכרתי ברוך\" with a natural idiom such as \"כשעצרתי להרהור שקט, הופתעתי...\"",
+      "translation_quote": "\"כשהשתתקפתי בפֶּנִים וזכרתי ברוך\""
     }
   ],
   "id": "f35b47c587d1f009fdde824535065452",
@@ -69,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/75bf9f86ddf02e207a89e1a74e3d26989515704eae85bcbc97e911af15e7ea76.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "1d62440b3aaa33963e8085784efc020cfa0cf8cb3b508148be95c55907a09059",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

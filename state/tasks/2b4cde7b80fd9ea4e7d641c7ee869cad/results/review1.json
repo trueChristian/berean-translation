@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "fb1be07c-4b07-4353-bb4d-07e8c6851a34",
+    "response_id": "chatcmpl-EUURbZMmitSoFLJABCMrAZ09CuETw",
+    "usage": {
+      "completion_tokens": 1131,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4721,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5852
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"The winds had been so strong that some electric poles were blown over causing the electricity to be disconnected so there were no lights or fans.\" (English source paragraph begins \"The winds had been so strong...\")",
+        "severity": "major",
+        "source_quote": "The winds had been so strong that some electric poles were blown over causing the electricity to be disconnected so there were no lights or fans.",
+        "suggested_fix": "Translate neutrally without adding a specific utility name. Replace «κάποιοι στύλοι της ΔΕΗ ξηλώθηκαν με αποτέλεσμα να κοπεί το ρεύμα» with a faithful rendering such as: «Οι άνεμοι είχαν γίνει τόσο ισχυροί που κάποιοι στύλοι ηλεκτροδότησης έπεσαν, με αποτέλεσμα να κοπεί το ρεύμα, οπότε δεν υπήρχαν φώτα ούτε ανεμιστήρες.» Preserve the surrounding HTML and paragraph order.",
+        "translation_quote": "Οι άνεμοι είχαν γίνει τόσο ισχυροί που κάποιοι στύλοι της ΔΕΗ ξηλώθηκαν με αποτέλεσμα να κοπεί το ρεύμα, οπότε δεν υπήρχαν φώτα ούτε ανεμιστήρες."
+      },
+      {
+        "location": "Paragraph: \"Lightning started to flash across the sky and the thunder rumbled in the distance.\" (English source paragraph begins \"As the afternoon moved into early evening...\")",
+        "severity": "minor",
+        "source_quote": "Lightning started to flash across the sky and the thunder rumbled in the distance.",
+        "suggested_fix": "Use a natural, idiomatic Greek phrase for thunder rumbling. Replace «ο βροντοκόπος ακούγονταν μακριά» with «η βροντή ακούγονταν μακριά» or «οι βροντές ακούγονταν μακριά» to avoid the uncommon/awkward noun «βροντοκόπος».",
+        "translation_quote": "Αστραπές άρχισαν να διαγράφονται στον ουρανό και ο βροντοκόπος ακούγονταν μακριά."
+      },
+      {
+        "location": "Paragraph: \"Indeed, the roof had been cleanly stripped away and the gable ends stoically stood there, holding up nothing.\" (English source paragraph begins \"Why does Gerald’s house look so strange?\")",
+        "severity": "minor",
+        "source_quote": "Indeed, the roof had been cleanly stripped away and the gable ends stoically stood there, holding up nothing.",
+        "suggested_fix": "The phrase for \"gable ends\" is awkward and may confuse readers. Use a clearer, conventional rendering such as «τα τρίγωνα των αετωμάτων» or «τα αετώματα» and avoid «ανώφλια» which usually means door lintels. For example: «Πράγματι, η στέγη είχε καθαρά ξεκολληθεί και τα αετώματα στέκονταν εκεί, να μην στηρίζουν τίποτα.»",
+        "translation_quote": "Πράγματι, η στέγη είχε καθαρά ξεκουμπωθεί και τα ανώφλια του αετώματος στέκονταν εκεί, να κρατούν το τίποτα."
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

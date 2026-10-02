@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0499a3e5-5849-4e81-af74-72adb4b99c28",
+    "response_id": "chatcmpl-EUUSAmVJqY08Vqbgupmh5X9lPHl5v",
+    "usage": {
+      "completion_tokens": 905,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5577,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6482
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "I Will Hide God’s Word in My (Child’s) Heart",
+        "suggested_fix": "Use a natural, grammatically correct Indonesian rendering without extra spacing in the possessive: replace the translation value with \"Aku Akan Menyimpan Firman Tuhan dalam Hatiku (Anak)\" or better depending on style guide: \"Aku Akan Menyimpan Firman Tuhan dalam Hatiku (Anak)\" (remove the space in \"Hatiku\"). Preserve the parentheses if the parenthetical \"(Child)\" is intended.",
+        "translation_quote": "Aku Akan Menyimpan Firman Tuhan dalam Hati Ku (Anak)"
+      },
+      {
+        "location": "translation.html — paragraph about cheap purchases (\"Garage sale\" and \"Diskon kembali-sekolah\")",
+        "severity": "minor",
+        "source_quote": "Yard sales and thrift stores are places to purchase items cheaply. Back-to-school sales are nice as well since most children like to have a new pack of crayons or a cute eraser.",
+        "suggested_fix": "Translate idiomatic commercial terms into natural Indonesian. Replace \"Garage sale dan toko barang bekas adalah tempat untuk membeli barang murah. Diskon kembali-sekolah juga menyenangkan\" with a smoother phrasing such as: \"Garage sale dan toko barang bekas adalah tempat untuk membeli barang murah. Penjualan kembali ke sekolah juga menyenangkan\" or fully localized: \"Jualan halaman/tukar barang dan toko barang bekas adalah tempat untuk membeli barang murah. Promo/obral menjelang tahun ajaran baru juga menyenangkan\". Keep the rest of the sentence unchanged.",
+        "translation_quote": "Garage sale dan toko barang bekas adalah tempat untuk membeli barang murah. Diskon kembali-sekolah juga menyenangkan karena kebanyakan anak suka paket krayon baru atau penghapus lucu."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

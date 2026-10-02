@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "cb4a5cba-7490-4d79-b8be-9c18be74c8d0",
+    "response_id": "chatcmpl-EUURFlbJKop19ppjpqrfSVXLcWUh7",
+    "usage": {
+      "completion_tokens": 898,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6668,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7566
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first paragraph (\"Anabaptists\")",
+        "severity": "minor",
+        "source_quote": "Their enemies called them “Anabaptists” because they rejected infant baptism.",
+        "suggested_fix": "Use a single consistent, standard Urdu rendering for the term throughout the article (for example: \"انابپٹسٹس\" or \"انی بپٹسٹس\") and apply it consistently in every occurrence. Do not change the English name; provide one Urdu transliteration and use it everywhere.",
+        "translation_quote": "انہوں نے انہیں \"انی بپٹسٹس\" کہا کیونکہ انہوں نے بچوں کے بپتسمہ کو رد کیا تھا۔"
+      },
+      {
+        "location": "translation.html — throughout (\"Pennsylvania\" spelling inconsistency)",
+        "severity": "minor",
+        "source_quote": "Pennsylvania",
+        "suggested_fix": "Use one consistent Urdu spelling for 'Pennsylvania' everywhere (e.g., \"پنسلوانیا\") and update any differing instances to match.",
+        "translation_quote": "1682 میں، ولیم پین کو پنسلوانیا کالونی دی گئی تھی اور وہ اپنے کہے ہوئے \"مقدس تجربے\" کو چلانا چاہتا تھا۔"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

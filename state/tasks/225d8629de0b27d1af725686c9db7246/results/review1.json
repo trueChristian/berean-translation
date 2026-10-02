@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "cbe658ef-93c8-44bb-8cb8-c5da33dc8cb4",
+    "response_id": "chatcmpl-EUURFAAIEAJ1WS50IFYKMIxPBxSiC",
+    "usage": {
+      "completion_tokens": 1146,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7419,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8565
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Jeg så på mens en mann prøvde å sage en stor plate finer i to.</p>",
+        "severity": "minor",
+        "source_quote": "I watched as a man attempted to cut a large sheet of plywood in half.",
+        "suggested_fix": "I stedet for «plate finer» anbefal \"en stor plate finer\" blir bedre som «en stor plate finer» er uvanlig formulering på norsk. Forslå: behold taggen og endre første setning til: <p>Jeg så på mens en mann prøvde å sage en stor finerplate i to.</p>",
+        "translation_quote": "Jeg så på mens en mann prøvde å sage en stor plate finer i to."
+      },
+      {
+        "location": "<p>Jeg la merke til at han fortsatte å sage lenger og lenger bort fra linjen han hadde riper i fineren med en spiker.</p>",
+        "severity": "minor",
+        "source_quote": "I noticed that he continued to cut further and further from the line that he had scratched into the piece of plywood with a nail.",
+        "suggested_fix": "Frasen «riper i fineren med en spiker» er noe klumpete. Behold taggen og endre til klarere norsk: <p>Jeg la merke til at han fortsatte å sage lenger og lenger bort fra linjen han hadde skrapet inn i finérplaten med en spiker.</p>",
+        "translation_quote": "Jeg la merke til at han fortsatte å sage lenger og lenger bort fra linjen han hadde riper i fineren med en spiker."
+      },
+      {
+        "location": "<p>Han prøvde å tilfeldig føre den gamle håndsagen tilbake mot linjen, samtidig som han fortsatte å snakke med mennene, uten å gjøre noe stort nummer av det.</p>",
+        "severity": "minor",
+        "source_quote": "He tried to casually guide the old handsaw back towards the line, while continuing to talk with the men, not making a big deal of it.",
+        "suggested_fix": "«tilfeldig føre» gir inntrykk av «random», mens originalen betyr «casually»/«nonchalantly». Behold taggen og endre for rette nyansen: <p>Han forsøkte nonchalant å føre den gamle håndsagen tilbake mot linjen, samtidig som han fortsatte å snakke med mennene, uten å gjøre noe stort nummer av det.</p>",
+        "translation_quote": "Han prøvde å tilfeldig føre den gamle håndsagen tilbake mot linjen, samtidig som han fortsatte å snakke med mennene, uten å gjøre noe stort nummer av det."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

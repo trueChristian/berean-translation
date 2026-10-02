@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "112b45f9-dd20-42ba-8d60-cdb944301746",
+    "response_id": "chatcmpl-EUURFzFXp7c53fbsbgn1DnL1wzqWg",
+    "usage": {
+      "completion_tokens": 843,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3932,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4775
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p> (second paragraph)",
+        "severity": "minor",
+        "source_quote": "Right and wrong are determined by the consensus of the group in respect to its goals. If the goal is pleasure, “It isn’t right for (any authority or any rule) to interfere.”",
+        "suggested_fix": "Replace the phrase \"het consensus\" with the grammatically correct Dutch article: \"de consensus\" so the sentence reads: \"Juist en onjuist worden bepaald door de consensus van de groep ten aanzien van haar doelen.\"",
+        "translation_quote": "Juist en onjuist worden bepaald door het consensus van de groep ten aanzien van haar doelen. Als het doel plezier is: “Het is niet juist dat (enige autoriteit of regel) zich ermee bemoeit.”"
+      },
+      {
+        "location": "<p> (penultimate paragraph)",
+        "severity": "minor",
+        "source_quote": "But the Christian’s obedience to the church is secondary and a result of his obedience to Jesus, not the other way around.",
+        "suggested_fix": "Correct the punctuation and possessive form to standard Dutch: replace \"christen’s gehoorzaamheid\" with \"de gehoorzaamheid van de christen\". Suggested wording: \"Maar de gehoorzaamheid van de christen aan de kerk is secundair en een gevolg van zijn gehoorzaamheid aan Jezus, niet andersom.\"",
+        "translation_quote": "Maar de christen’s gehoorzaamheid aan de kerk is secundair en een gevolg van zijn gehoorzaamheid aan Jezus, niet andersom."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

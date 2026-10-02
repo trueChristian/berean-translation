@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9a025eda-2ef3-46a7-86cc-2b60d20aab03",
+    "response_id": "chatcmpl-EUURKi81kOsQkNWu4oF50Nl3NbRMh",
+    "usage": {
+      "completion_tokens": 998,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3883,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4881
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>La propia iglesia cristiana es un grupo, influyendo y cambiando las perspectivas y la moralidad de los individuos para bien o para mal. Dependiendo de las convicciones del grupo y de sus líderes, la iglesia puede ser una influencia de moralidad piadosa, o puede justificar los conceptos bíblicos de lo bueno y lo malo.</p>",
+        "severity": "major",
+        "source_quote": "The Christian church itself is a group, influencing and changing the perspectives and morality of individuals for the right or the wrong. Dependent on the convictions of the group and its leaders, the church can be an influence of godly morality, or it can explain away the Bible’s concepts of good and evil.",
+        "suggested_fix": "Preserve the original meaning “explain away” (i.e., to dismiss, neutralize or undermine) rather than “justify.” Replace the clause after the comma with wording that conveys undermining or dismissing the Bible’s concepts. For example: \"Dependiendo de las convicciones del grupo y de sus líderes, la iglesia puede ser una influencia de moralidad piadosa, o puede desacreditar/neutralizar los conceptos bíblicos de lo bueno y lo malo.\" Keep the surrounding HTML exactly as in the translation.",
+        "translation_quote": "La propia iglesia cristiana es un grupo, influyendo y cambiando las perspectivas y la moralidad de los individuos para bien o para mal. Dependiendo de las convicciones del grupo y de sus líderes, la iglesia puede ser una influencia de moralidad piadosa, o puede justificar los conceptos bíblicos de lo bueno y lo malo."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

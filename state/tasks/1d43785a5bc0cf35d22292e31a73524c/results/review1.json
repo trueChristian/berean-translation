@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "fbd330d1-e52b-4264-b712-9a0618ad2721",
+    "response_id": "chatcmpl-EUURgKOpMZ9b6nFuzWRNEG7TgFsUm",
+    "usage": {
+      "completion_tokens": 1018,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1581,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2599
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> <div class=\"poem\"> <p> (fourth stanza, second line)",
+        "severity": "major",
+        "source_quote": "The devil smiles as he tightens our collar.",
+        "suggested_fix": "Replace the Hindi phrase that mistranslates “collar.” Use an idiomatic Hindi rendering that preserves the image of constriction around the neck, for example: “शैतान मुस्कुराता है जब वह हमारी कॉलर कसता है।” or more idiomatically, “शैतान मुस्कुराता है जब वह हमारी गर्दन कस देता है।” Keep the surrounding HTML tags and line structure unchanged.",
+        "translation_quote": "शैतान मुस्कुराता है जब वह हमारी खोल कसता है।"
+      },
+      {
+        "location": "<article> <div class=\"poem\"> <p> (final stanza, second line)",
+        "severity": "minor",
+        "source_quote": "“Freedom, or bondage?” is the question I bring.",
+        "suggested_fix": "Adjust the tense/idiom so the speaker’s present rhetorical action is preserved. Suggested fixes: ““स्वतंत्रता, या दासत्व?” यही प्रश्न मैं लाता हूँ।” or more formal/idiomatic: ““स्वतंत्रता, या दासत्व?” यही प्रश्न मैं प्रस्तुत करता हूँ।” Preserve the poem structure and HTML.",
+        "translation_quote": "“स्वतंत्रता, या दासत्व?” यही प्रश्न मैं लाया हूँ।"
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

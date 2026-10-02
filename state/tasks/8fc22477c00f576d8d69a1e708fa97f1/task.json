@@ -2,7 +2,6 @@
   "article_id": "47fbbdc9-6663-49d8-96d7-b5a6ecb8d689",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 5624
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1112,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5413,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6525
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.title",
+      "severity": "major",
+      "source_quote": "I Will Hide God’s Word in My (Child’s) Heart",
+      "suggested_fix": "Keep the parenthetical sense and avoid introducing a singular, gendered word. Suggested Portuguese rendering: \"Vou Esconder a Palavra de Deus no Coração do Meu Filho(a)\" or better for international Portuguese: \"Vou Esconder a Palavra de Deus no Coração do Meu Filho(a)\" (preserve the parenthetical indication that child may be any child). Replace the translation title text node with this exact phrasing, preserving the title element.",
+      "translation_quote": "Eu Esconderei a Palavra de Deus no Coração do Meu Filho"
+    },
+    {
+      "location": "/article/p[@class=\"lead\"]",
+      "severity": "minor",
+      "source_quote": "Most of the verses that I memorized were taught during a vacation Bible School which I attended each summer.",
+      "suggested_fix": "Fix a typographical capitalization error in the translated paragraph: change \"memorizeI\" to \"memorizei\" so the Portuguese reads correctly. Edit only the text inside the <p class=\"lead\"> element.",
+      "translation_quote": "A maioria dos versículos que memorizeI foi ensinada durante uma Escola Bíblica de Férias que eu frequentava todos os verões."
+    },
+    {
+      "location": "/article//p[13]",
+      "severity": "minor",
+      "source_quote": "Yard sales and thrift stores are places to purchase items cheaply.",
+      "suggested_fix": "Correct the misspelled/ad hoc hyphenation in Portuguese. Replace \"barata‑mente\" with the single word \"baratamente\" inside that <p> element.",
+      "translation_quote": "Feiras de garagem e brechós são lugares para comprar itens barata‑mente."
+    },
+    {
+      "location": "/article//p[7] and elsewhere",
+      "severity": "minor",
+      "source_quote": "At the beginning of a new passage, I read the scripture out loud.",
+      "suggested_fix": "Capitalization consistency for the rendering of the Bible/Scripture: the English uses 'Scripture' occasionally capitalized as a theological term. For consistency with other occurrences in this translation (which use 'Escrituras' capitalized), consider capitalizing here to 'Escritura' or use 'Escritura(s)' consistently. Update the text node in the relevant <p> to \"leio a Escritura em voz alta.\" This is a style/consistency suggestion, not a doctrinal change.",
+      "translation_quote": "No início de uma nova passagem, eu leio a escritura em voz alta."
     }
   ],
   "id": "8fc22477c00f576d8d69a1e708fa97f1",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f34407a6165fb7e7a04ea7f397fc8013deb4a8e803dafc6f028dc9f7c426249a.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "acee92c005287a538cca2ea8301c5c01a8922523349a8b855f3e2b33bcddbab6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

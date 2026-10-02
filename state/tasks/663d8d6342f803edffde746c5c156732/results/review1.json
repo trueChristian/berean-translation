@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c10aedee-350f-47ea-89cb-3fb31f6c456f",
+    "response_id": "chatcmpl-EUURL1pZ5TFrcTCw1q0dhdrXpFqyE",
+    "usage": {
+      "completion_tokens": 1415,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10014,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11429
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...Рекомендуется съедать по крайней мере два порции фруктов и пять порций овощей в день.</p>",
+        "severity": "minor",
+        "source_quote": "It is recommended to eat at least two servings of fruit and five servings of vegetables per day.",
+        "suggested_fix": "Исправить согласование числа: «по крайней мере две порции фруктов и пять порций овощей в день.»",
+        "translation_quote": "Рекомендуется съедать по крайней мере два порции фруктов и пять порций овощей в день."
+      },
+      {
+        "location": "<p>...Кроме того фрукты и овощи богаты антиоксидантами, витаминами и минералами и поддерживают здоровую иммунную систему.</p>",
+        "severity": "minor",
+        "source_quote": "Additionally, fruits and vegetables are rich in antioxidants, vitamins, and minerals and are supportive of a healthy immune system.",
+        "suggested_fix": "Добавить запятую для улучшения читабельности: «Кроме того, фрукты и овощи богаты антиоксидантами, витаминами и минералами и поддерживают здоровую иммунную систему.»",
+        "translation_quote": "Кроме того фрукты и овощи богаты антиоксидантами, витаминами и минералами и поддерживают здоровую иммунную систему."
+      },
+      {
+        "location": "<p><em>Если же у кого из вас недостает мудрости, да просит у Бога, дающего всем просто и без упрёка, и дастся ему — Иакова 1:5.</em></p>",
+        "severity": "minor",
+        "source_quote": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him –James 1:5.",
+        "suggested_fix": "Заменить слово «просто» на более подходящее соответствие английскому 'liberally' — «щедро»: «...да просит у Бога, дающего всем щедро и без упрёка, и дастся ему — Иакова 1:5.»",
+        "translation_quote": "Если же у кого из вас недостает мудрости, да просит у Бога, дающего всем просто и без упрёка, и дастся ему — Иакова 1:5."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

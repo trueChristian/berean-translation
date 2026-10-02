@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0df63357-2c7f-439f-a409-349e2c0fd00e",
+    "response_id": "chatcmpl-EUURGeSW5VygSoxJF0Ke9cLTvLcNQ",
+    "usage": {
+      "completion_tokens": 2385,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4089,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6474
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph mentioning Acts 14:1 and Acts 19 (\"In Acts 14:1... Acts 19 tells...\")",
+        "severity": "critical",
+        "source_quote": "In Acts 14:1, we see the group ready to offer sacrifices to Paul as a god, and in the next verse they stoned him. Acts 19 tells of a group yelling “Great is Diana of the Ephesians” for hours. Verse 32 says that most of the people didn’t even know what the fuss was about...",
+        "suggested_fix": "Correct the Hebrew rendering of the book name “Acts” (the Book of Acts / Acts of the Apostles). Replace the incorrect \"עמוסים\" with the conventional Hebrew title for Acts (e.g., \"מעשי השליחים\" or \"מעשי השליחים פרק 14:1\" and \"מעשי השליחים פרק 19\"), and keep the verse numbers exactly as in the source. Example fix (preserving HTML):\n\n<p>…בתנ\"ך גם מתועד… ב-<em>מעשי השליחים</em> פרק 14:1 אנו רואים … ובעמ' הבא הם האבן אותו. <em>מעשי השליחים</em> פרק 19 מתאר קבוצה שצועקת \"גדולה היא דיאנה של האפסיים\" במשך שעות…</p>\n\n(Adjust the rest of the sentence wording as needed to integrate the corrected book name.)",
+        "translation_quote": "בעמוסים פרק 14:1, אנו רואים את הקבוצה מוכנה להקריב לפול את פאולוס כאל, ובפסוק הבא הם האבן אותו. עובדות 19 מתארות קבוצה שצועקת \"גדולה היא דיאנה האפיאית\" במשך שעות. פסוק 32 אומר שרוב האנשים אפילו לא ידעו מה הרעש הזה, אבל הם היו מוכנים להרוג למענה."
+      },
+      {
+        "location": "source.html — paragraph ending with “...the faith which was once delivered unto the saints –Jude 1:3.”",
+        "severity": "critical",
+        "source_quote": "...the church will remain sound in ...the faith which was once delivered unto the saints –Jude 1:3.",
+        "suggested_fix": "Translate the English adjective \"sound\" into Hebrew rather than leaving the English word. Use an appropriate Hebrew equivalent that preserves the theological sense, e.g., \"תקינה\"/\"בריאה\"/\"נאמנה\"/\"יציבה\". Keep the scripture reference as rendered elsewhere. Example fix (preserving HTML):\n\n<p>…והכנסייה תישאר נאמנה ב<em>…האמונה אשר נמסרה פעם לקדושים –יהודה 1:3.</em></p>",
+        "translation_quote": "הכנסייה תישאר sound ב<em>…האמונה אשר נמסרה פעם לקדושים –יהודה 1:3.</em>"
+      },
+      {
+        "location": "source.html — paragraph beginning \"The Christian church itself is a group...\"",
+        "severity": "minor",
+        "source_quote": "The Christian church itself is a group, influencing and changing the perspectives and morality of individuals for the right or the wrong.",
+        "suggested_fix": "Fix ungrammatical Hebrew phrasing. Replace \"עצמו של הכנסייה הנוצרית היא קבוצה\" with a grammatically correct equivalent such as \"הכנסייה הנוצרית עצמה היא קבוצה\". Preserve surrounding sentence structure and HTML. Example fix:\n\n<p>הכנסייה הנוצרית עצמה היא קבוצה, המשפיעה ומשנה את נקודות המבט והמוסר של יחידים לטובה או לרעה.</p>",
+        "translation_quote": "עצמו של הכנסייה הנוצרית היא קבוצה, המשפיעה ומשנה את נקודות המבט והמוסר של יחידים לטובה או לרעה."
+      },
+      {
+        "location": "source.html — paragraph about \"unscriptural modern doctrines\"",
+        "severity": "major",
+        "source_quote": "A church that is successful in turning its members’ faith and focus to Jesus as revealed in His Word, these members will then be unwilling to allow the church to accept unscriptural modern doctrines, and the church will remain sound in …the faith which was once delivered unto the saints –Jude 1:3.",
+        "suggested_fix": "The Hebrew translation alters the meaning by rendering \"unscriptural modern doctrines\" as \"תורות מודרניות שאינן תורתיות\" (\"modern doctrines that are not doctrinal\"), which is inaccurate. Replace with wording that clearly conveys \"unscriptural\" (i.e., doctrines not in accordance with Scripture). Suggested wording: \"תורות מודרניות שאינן תואמות את כתבי הקודש\" or \"תורות מודרניות שאינן מן הכתובים/שאינן תואמות את השריעה/הכתובים\". Preserve the rest of the sentence and the HTML. Example fix:\n\n<p>…חברי הכנסייה לא יאפשרו לכנסייה לקבל תורות מודרניות שאינן תואמות את כתבי הקודש, והכנסייה תישאר נאמנה ב…</p>",
+        "translation_quote": "אותם חברים לא יאפשרו לכנסייה לקבל תורות מודרניות שאינן תורתיות, והכנסייה תישאר sound ב<em>…האמונה אשר נמסרה פעם לקדושים –יהודה 1:3.</em>"
+      },
+      {
+        "location": "source.html — paragraph mentioning \"as revealed in His Word\"",
+        "severity": "minor",
+        "source_quote": "The Christian church is a group for the express purpose of turning people’s allegiance and faith to Jesus Christ as revealed in His Word, rather than to the group itself.",
+        "suggested_fix": "The phrase \"as revealed in His Word\" is rendered awkwardly as \"כפי שהוא מגלה במכתבו ובדברו\" (\"as he reveals in his letter and in his word\"), which is unclear in Hebrew. Replace with a clearer, idiomatic equivalent such as \"כפי שנגלה בדברו/בכתביו/בכתב הקודש\". Example fix:\n\n<p>הכנסייה הנוצרית היא קבוצה שמטרתה המוצהרת היא להפנות את נאמנותם ואמונתם של אנשים לישוע המשיח כפי שהוא נגלה בדברו ובכתבי הקודש, ולא לקבוצה עצמה.</p>",
+        "translation_quote": "הכנסייה הנוצרית היא קבוצה שמטרתה המוצהרת היא להפנות את נאמנותם ואמונתם של אנשים לישוע המשיח כפי שהוא מגלה במכתבו ובדברו, ולא לקבוצה עצמה."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

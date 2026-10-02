@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a358ac2d-77d1-4e94-bdef-27bb220586bf",
+    "response_id": "chatcmpl-EUURGNVNGgnZbj0tDlT9MRIscTURd",
+    "usage": {
+      "completion_tokens": 1046,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5050,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6096
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing Luke 19 quotation (source.html paragraph with “He said therefore…” / translation paragraph with “Il leur dit donc : Un certain homme de haute naissance…” )",
+        "severity": "minor",
+        "source_quote": "He said therefore, A certain nobleman went into a far country to receive for himself a kingdom, and to return. And he called his ten servants, and delivered them ten pounds, and said unto them, Occupy till I come –Luke 19:12-13.",
+        "suggested_fix": "For consistency and natural French, render the opening phrase of the quotation and the noun for “nobleman” uniformly. Either use « Un homme de haute naissance » in both places where the English uses “nobleman/noble man”, or use « un noble » consistently. Also consider translating “Occupy till I come” as « Occupez‑vous jusqu’à ce que je revienne » to mirror the English verbal nuance of “occupy.” Preserve the chapter/verse citation as is.",
+        "translation_quote": "Il leur dit donc : Un certain homme de haute naissance alla dans un pays lointain pour recevoir pour lui un royaume et revenir. Il appela dix de ses serviteurs, et leur remit dix mines, et leur dit : Travaillez jusqu’à ce que je revienne. –Luc 19:12-13."
+      },
+      {
+        "location": "Same Luke 19 quotation — monetary unit",
+        "severity": "minor",
+        "source_quote": "...delivered them ten pounds...",
+        "suggested_fix": "The translation uses « dix mines », which is an acceptable traditional Bible rendering in French. If the publication prefers a closer literal equivalence to the English phrasing “pounds,” consider using « dix livres » instead. This is stylistic; no doctrinal change. Do not change verse numbers or remove the citation.",
+        "translation_quote": "...et leur remit dix mines..."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "47fbbdc9-6663-49d8-96d7-b5a6ecb8d689",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,6 +23,83 @@
         },
         "total_tokens": 6036
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2252,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5634,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7886
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html — blockquote (Psalm 119:9-11)",
+      "severity": "critical",
+      "source_quote": "<em>Wherewithal shall a young man cleanse his way? by taking heed thereto according to thy word. With my whole heart have I sought thee: O let me not wander from thy commandments. Thy word have I hid in mine heart, that I might not sin against thee –Psalm 119:9-11.</em>",
+      "suggested_fix": "Translate the quoted Scripture into Swedish and preserve the chapter and verse numbers exactly. Replace the English text inside the same HTML structure. Example (one acceptable rendering using conventional modern Swedish wording): <em>Hur skall en ung man hålla sin väg ren? Genom att följa ditt ord. Med hela mitt hjärta har jag sökt dig; låt mig inte vandra från dina bud. Ditt ord har jag gömt i mitt hjärta, för att jag inte skall synda mot dig –Psalm 119:9-11.</em>",
+      "translation_quote": "<em>Wherewithal shall a young man cleanse his way? by taking heed thereto according to thy word. With my whole heart have I sought thee: O let me not wander from thy commandments. Thy word have I hid in mine heart, that I might not sin against thee –Psalm 119:9-11.</em>"
+    },
+    {
+      "location": "source.html — paragraph containing Deuteronomy 6:5-7 quotation",
+      "severity": "critical",
+      "source_quote": "<em>And <strong>thou shalt love the LORD thy God</strong> with all thine heart, and with all thy soul, and with all thy might. And <strong>these words, which I command thee this day, shall be in thine heart:</strong> And <strong>thou shalt teach them diligently unto thy children,</strong> and shalt talk of them when thou sittest in thy house, and when thou walkest by the way, and when thou liest down, and when thou risest up –Deuteronomy 6:5-7.</em>",
+      "suggested_fix": "Translate the quoted Scripture into Swedish and keep the chapter and verse numbers. Example replacement (in the same HTML tags): <em>Och du skall älska HERREN, din Gud, av allt ditt hjärta och av all din själ och av all din kraft. Och dessa ord, som jag idag bjuder dig, skola vara i ditt hjärta; och du skall inpränta dem i dina barn, och tala om dem, när du sitter i ditt hus och när du vandrar på vägen, när du ligger ner och när du står upp –Femte Moseboken 6:5-7.</em>",
+      "translation_quote": "<em>And <strong>thou shalt love the LORD thy God</strong> with all thine heart, and with all thy soul, and with all thy might. And <strong>these words, which I command thee this day, shall be in thine heart:</strong> And <strong>thou shalt teach them diligently unto thy children,</strong> and shalt talk of them when thou sittest in thy house, and when thou walkest by the way, and when thou liest down, and when thou risest up –Deuteronomy 6:5-7.</em>"
+    },
+    {
+      "location": "source.html — blockquote (Psalm 1:1-3)",
+      "severity": "critical",
+      "source_quote": "<em>Blessed is the man that walketh not in the counsel of the ungodly, nor standeth in the way of sinners, nor sitteth in the seat of the scornful. But his delight is in the law of the LORD; and in his law doth he meditate day and night. And he shall be like a tree planted by the rivers of water, that bringeth forth his fruit in his season; his leaf also shall not wither; and whatsoever he doeth shall prosper –Psalm 1:1-3.</em>",
+      "suggested_fix": "Translate the quoted Scripture into Swedish and keep verse numbers. Example replacement: <em>Salig är mannen som inte vandrar efter ogudligas råd, som inte står på syndares väg och inte sitter bland spotthånarna, utan har sin glädje i HERRENS lag, och i hans lag mediterar han dag och natt. Han skall vara lik ett träd planterat vid bäckar med vatten, som ger sin frukt i rätt tid, och vars blad inte vissnar; och allt vad han gör skall lyckas –Psalm 1:1-3.</em>",
+      "translation_quote": "<em>Blessed is the man that walketh not in the counsel of the ungodly, nor standeth in the way of sinners, nor sitteth in the seat of the scornful. But his delight is in the law of the LORD; and in his law doth he meditate day and night. And he shall be like a tree planted by the rivers of water, that bringeth forth his fruit in his season; his leaf also shall not wither; and whatsoever he doeth shall prosper –Psalm 1:1-3.</em>"
+    },
+    {
+      "location": "source.html — blockquote (Galatians 6:9)",
+      "severity": "critical",
+      "source_quote": "<em>And let us not be weary in well doing: for in due season we shall reap, if we faint not –Galatians 6:9.</em>",
+      "suggested_fix": "Translate the quoted Scripture into Swedish and preserve the verse reference. Example: <em>Låt oss inte tröttna att göra gott; i rätt tid skall vi skörda, om vi inte ger upp –Galaterbrevet 6:9.</em>",
+      "translation_quote": "<em>And let us not be weary in well doing: for in due season we shall reap, if we faint not –Galatians 6:9.</em>"
+    },
+    {
+      "location": "source.html — multiple inline Scripture quotations left in English (general)",
+      "severity": "major",
+      "source_quote": "All quoted biblical passages appear in English (Psalm 119:9-11; Deuteronomy 6:5-7; Psalm 1:1-3; Galatians 6:9) while the surrounding article is in Swedish.",
+      "suggested_fix": "All quoted Scripture must be rendered into Swedish. Replace each English quotation with a faithful Swedish rendering (using conventional target-language book names and preserving chapter and verse numbers exactly). Keep the existing HTML tags and punctuation around the quotes.",
+      "translation_quote": "See multiple English scripture blockquotes in translation (unchanged from source)."
+    },
+    {
+      "location": "translation.html — lead paragraph wording",
+      "severity": "minor",
+      "source_quote": "As sisters in the Lord and born-again believers, I am sure we would all agree that memorizing scripture is important to our spiritual health.",
+      "suggested_fix": "Improve idiomatic Swedish and register. Suggested Swedish: \"Som systrar i Herren och som pånyttfödda troende är jag säker på att vi alla instämmer i att det är viktigt för vår andliga hälsa att lära oss Skriften utantill.\"",
+      "translation_quote": "Som systrar i Herren och födda-på-nytt-troende är jag säker på att vi alla kan instämma i att bibelversminne är viktigt för vår andliga hälsa."
+    },
+    {
+      "location": "translation.html — word choice consistency (memorize)",
+      "severity": "minor",
+      "source_quote": "memorizing scripture / memorized / memorize",
+      "suggested_fix": "Use a consistent, natural Swedish verb throughout. Prefer \"memorera\" or the phrase \"lära sig utantill\". For example, change occurrences of \"memorisera\" and \"memorera\" to one form and replace \"bibelversminne\" with \"att memorera bibelverser\" or \"att lära sig bibelverser utantill.\"",
+      "translation_quote": "Text uses both \"memorera/memoriserade/memorera\" and \"memorera\" inconsistently (e.g., \"bibelversminne\", \"memorisera\")."
+    },
+    {
+      "location": "translation.html — phrase \"Syster till syster\" (section)",
+      "severity": "minor",
+      "source_quote": "Sister to Sister",
+      "suggested_fix": "Consider the idiomatic editorial heading used by the publication; \"Syster till syster\" is literally correct but if the magazine uses \"Syster till syster\" elsewhere this is fine. No fix required if this matches house style.",
+      "translation_quote": "Syster till syster"
     }
   ],
   "id": "afbd22557e4af1cce54696e48bf6a084",
@@ -69,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f34407a6165fb7e7a04ea7f397fc8013deb4a8e803dafc6f028dc9f7c426249a.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "acee92c005287a538cca2ea8301c5c01a8922523349a8b855f3e2b33bcddbab6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

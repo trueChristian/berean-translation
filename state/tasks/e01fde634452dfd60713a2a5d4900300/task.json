@@ -2,7 +2,6 @@
   "article_id": "a6ab0f33-e20a-4b19-ae47-f094395a54f8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 1790
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 788,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1505,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2293
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> — stanza 5, second line",
+      "severity": "minor",
+      "source_quote": "We need time for God, and our families too.\n    Maybe less time at work could surely do.",
+      "suggested_fix": "Make the second line more natural Spanish. For example: «Quizá menos tiempo en el trabajo podría ser suficiente.» or «Quizá menos tiempo en el trabajo bastaría.» Preserve line break and tags.",
+      "translation_quote": "Necesitamos tiempo para Dios y para la familia también.\n    Quizá menos tiempo en el trabajo podría bastar bien."
+    },
+    {
+      "location": "<div class=\"poem\"> — stanza 7, second line",
+      "severity": "minor",
+      "source_quote": "We all know the Bible—no work, no eat.\n    But money will bind us until death we meet.",
+      "suggested_fix": "Smooth the phrasing so it reads naturally in Spanish while preserving meaning. Suggested: «Pero el dinero nos ata hasta que la muerte nos alcance.» or «Pero el dinero nos ata hasta que nos encontremos con la muerte.»",
+      "translation_quote": "Todos conocemos la Biblia—si no trabajas, no comes.\n    Pero el dinero nos ata hasta que encontremos la muerte."
+    }
+  ],
+  "finished_at": "2026-10-02T11:17:44+00:00",
   "id": "e01fde634452dfd60713a2a5d4900300",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "spa",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1de56fab2737a3548fafa046f54e8b49fd10031dc8824cc6696d1a638910abcb.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e5687feec796faa59fb2c84ea91a33a13b26784033d8d71bfc9aba932005e757",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "2fa5d4ae-c7cd-4fa8-a578-c1c8bec15d52",
+    "response_id": "chatcmpl-EUURFMdfezdg6YkqKzgtWYoAS1zBU",
+    "usage": {
+      "completion_tokens": 784,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3845,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4629
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> paragraph: \"Indeed, the roof had been cleanly stripped away and the gable ends stoically stood there, holding up nothing.\"",
+        "severity": "minor",
+        "source_quote": "Indeed, the roof had been cleanly stripped away and the gable ends stoically stood there, holding up nothing.",
+        "suggested_fix": "Preserve meaning and correct the anatomical term. Replace the translated clause that reads \"e as hastes do alpendre permaneciam ali, firmes, sustentando nada.\" with a clearer, accurate phrasing such as: \"e as empenas (ou as extremidades do frontão) permaneceram ali, imponentes, sem sustentar nada.\" Keep original HTML structure and order.",
+        "translation_quote": "De fato, o telhado havia sido arrancado completamente e as hastes do alpendre permaneciam ali, firmes, sustentando nada."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

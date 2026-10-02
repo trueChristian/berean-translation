@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a785173e-6aae-4502-abb0-735d339d18a0",
+    "response_id": "chatcmpl-EUURF6nYNdyymaNgs954JxVnGoogD",
+    "usage": {
+      "completion_tokens": 891,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4073,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4964
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "paragraph: \"Indeed, the roof had been cleanly stripped away and the gable ends stoically stood there, holding up nothing.\"",
+        "severity": "minor",
+        "source_quote": "Indeed, the roof had been cleanly stripped away and the gable ends stoically stood there, holding up nothing.",
+        "suggested_fix": "Tradurre \"gable ends\" con un termine italiano naturale per le estremità del tetto a capanna (ad es. \"le pareti del frontone\" o \"le teste a capanna\"). Esempio: «Infatti, il tetto era stato completamente portato via e le pareti del frontone restavano lì, stoiche, a reggere il vuoto.»",
+        "translation_quote": "Infatti, il tetto era stato spogliato via nettezza e le testate a tempo restavano lì, stoiche, a reggere il vuoto."
+      },
+      {
+        "location": "paragraph: \"The neighbor men tried desperately to rescue what cattle they could, but in the end, many of the steers could not be saved.\"",
+        "severity": "minor",
+        "source_quote": "The neighbor men tried desperately to rescue what cattle they could, but in the end, many of the steers could not be saved.",
+        "suggested_fix": "\"Steers\" (bovini castrati/giovani bovini da macello) non corrisponde esattamente a \"tori\" (maschi adulti/fertili). Usare un termine generico e coerente con l'uso precedente come \"bovini\" o, se si vuole specificare, \"manzi\". Esempio: «...ma alla fine molti dei bovini non poterono essere salvati.»",
+        "translation_quote": "Gli uomini del vicinato tentarono disperatamente di salvare i bovini che potevano, ma in fin dei conti molti dei tori non poterono essere salvati."
+      },
+      {
+        "location": "paragraph: \"The wail of sirens could be heard in the distance\"",
+        "severity": "minor",
+        "source_quote": "The wail of sirens could be heard in the distance",
+        "suggested_fix": "La traduzione \"il vagito delle sirene\" è innaturale in italiano (\"vagito\" si riferisce solitamente a neonati). Usare un termine più naturale come \"il lamento delle sirene\", \"il suono/ululato delle sirene\" o \"il grido delle sirene\". Esempio: «Si poteva sentire il lamento delle sirene in lontananza...»",
+        "translation_quote": "Si poteva sentire il vagito delle sirene in lontananza"
+      }
+    ],
+    "passed": true,
+    "score": 95
+  }
+}

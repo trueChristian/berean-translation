@@ -6,9 +6,32 @@
       "campaign": "gh-36992568621",
       "event": "requested",
       "task": "cce63245d143616157eeeb82e2982f0d"
+    },
+    {
+      "at": "2026-10-02T11:17:44+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "cce63245d143616157eeeb82e2982f0d"
     }
   ],
   "language": "deu",
   "latest_task": "cce63245d143616157eeeb82e2982f0d",
-  "published": null
+  "published": {
+    "html_path": "content/deu/articles/f21c4f39-9508-4f75-9e0c-0c68468c41f8.html",
+    "html_sha256": "d7ff5d97ced8c69a05dd6e7c4f8b063b1ad881d3cdeaca03f9b04d4b73b3eda4",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
+    "metadata_path": "content/deu/articles/f21c4f39-9508-4f75-9e0c-0c68468c41f8.json",
+    "metadata_sha256": "c7ca37409df1e65ba1ac17cf9b3d7012a10fdf4d85d318f93b26455f523b8519",
+    "model": "gpt-5-mini-2025-08-07",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"de\" dir=\"ltr\" role=\"note\">\n  <p>Dieser Artikel wurde mit künstlicher Intelligenz von OpenAI (Modell: gpt-5-mini-2025-08-07) übersetzt und noch nicht von einem Menschen überprüft. Maßgeblich ist das englische Original. Bei Unklarheiten über die Bedeutung ziehen Sie bitte das englische Original heran. <a href=\"/en/articles/f21c4f39-9508-4f75-9e0c-0c68468c41f8/\" data-source-article-id=\"f21c4f39-9508-4f75-9e0c-0c68468c41f8\" hreflang=\"en\">Englisches Original</a></p>\n</aside>",
+    "published_at": "2026-10-02T11:17:44+00:00",
+    "quality_score": 97,
+    "review_model": "gpt-5-mini-2025-08-07",
+    "source_revision": "9e6e1db340e802f71c7018950dc820482ecc4e5e",
+    "source_snapshot": "state/sources/1896269e1d50cee8808d069728099a272936b67afb461b50cf790049cb1e46b5.json",
+    "task": "cce63245d143616157eeeb82e2982f0d",
+    "translation_key": "ea6f4c2c1d99d58d1a9f3a20171db73a83fd2eecbd0478f01bb5f8591bf41415"
+  }
 }

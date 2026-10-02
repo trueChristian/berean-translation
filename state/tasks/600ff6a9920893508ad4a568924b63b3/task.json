@@ -2,7 +2,6 @@
   "article_id": "2b07502a-cbf0-4b92-8bb8-7910a5557f84",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:09+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 6506
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1175,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6294,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7469
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<p class=\"lead\">...</p> (lead paragraph)",
+      "severity": "minor",
+      "source_quote": "This story starts in Switzerland, in the 1500s.",
+      "suggested_fix": "Use contemporary Italian phrasing that clearly conveys the century: replace with «Questa storia inizia in Svizzera, nel XVI secolo.» Preserve the surrounding <p class=\"lead\"> tags.",
+      "translation_quote": "Questa storia inizia in Svizzera, nel 1500."
+    },
+    {
+      "location": "<p>...Enormi noci americane, noce, castagni, aceri, pini bianchi e querce...</p> (paragraph about trees)",
+      "severity": "minor",
+      "source_quote": "Huge walnut, hickory, chestnuts, maples, white pines, and oaks, some six feet in diameter and over 100 feet tall, covered much of their new lands",
+      "suggested_fix": "Remove duplication and use idiomatic Italian names in the same order: replace the phrase with «Enormi noci, piante di hickory, castagni, aceri, pini bianchi e querce, alcune di sei piedi di diametro e oltre 100 piedi di altezza, coprivano...». Keep the original HTML paragraph tags.",
+      "translation_quote": "Enormi noci americane, noce, castagni, aceri, pini bianchi e querce, alcune di sei piedi di diametro e oltre 100 piedi di altezza, coprivano gran parte delle loro nuove terre"
+    },
+    {
+      "location": "<p>...Accolse Quaccheri dall'Inghilterra, ugonotti dalla Francia, mennoniti dall'Olanda, battisti tedeschi, schwenkfelder e pietisti dalla Germania, così come Fratelli svizzeri e ebrei da ovunque stessero soggiornando e/o soffrendo.</p>",
+      "severity": "minor",
+      "source_quote": "He welcomed Quakers from England, Huguenots from France, Mennonites from Holland, German Baptist, Schwenkfelders and Pietists from Germany, as well as Swiss Brethren and Jews from wherever they were sojourning and/or suffering.",
+      "suggested_fix": "Remove the duplicated conjunction and smooth the Italian: replace «Fratelli svizzeri e ebrei» with «Fratelli svizzeri ed ebrei». Preserve the HTML paragraph tags.",
+      "translation_quote": "Accolse Quaccheri dall'Inghilterra, ugonotti dalla Francia, mennoniti dall'Olanda, battisti tedeschi, schwenkfelder e pietisti dalla Germania, così come Fratelli svizzeri e ebrei da ovunque stessero soggiornando e/o soffrendo."
+    }
+  ],
+  "finished_at": "2026-10-02T11:17:42+00:00",
   "id": "600ff6a9920893508ad4a568924b63b3",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "ita",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/589bbbf06d53e840c1b02c16b5a0e9d55ee78fbc01185cea481271c35d6c3b97.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "b3e43e634638cbb2acbfd582a6dcb7a3f9f4e2dc77e578bc59a693261f0aa67b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

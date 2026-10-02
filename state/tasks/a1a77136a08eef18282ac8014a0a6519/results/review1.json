@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9dbe1250-9073-4ba4-a724-e77f5d8f9fbb",
+    "response_id": "chatcmpl-EUURcNsasWkpuzNZISKah1Jx9BSwx",
+    "usage": {
+      "completion_tokens": 1332,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5267,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6599
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Throughout article body (multiple paragraphs)",
+        "severity": "major",
+        "source_quote": "“Nearer, My God to Thee” (appears in original English in paragraphs about the Boston Peace Jubilee, Syrian students, Johnstown flood, and Titanic)",
+        "suggested_fix": "Translate every in-text mention and quoted occurrence of the hymn title/line into Swedish to match the translated hymn text and the article title. For example: replace “Nearer, My God to Thee” and “Nearer, my God, to Thee” with “Närmare, min Gud, till Dig”. In the paragraph describing Syrian students singing in Arabic, preserve the detail that they sang in Arabic but present the hymn line in Swedish inside quotes (e.g.: ...såg de femtio syriska studenter stå under några träd i en cirkel och sjunga på arabiska ”Närmare, min Gud, till Dig”.). Do this for every occurrence so no substantive quoted prose remains in English.",
+        "translation_quote": "”Nearer, My God to Thee” / ”Nearer, my God, to Thee” (left in English in multiple places in the translation)"
+      },
+      {
+        "location": "Paragraph about contributions to the hymnal (fourth paragraph)",
+        "severity": "minor",
+        "source_quote": "“Together, they contributed thirteen texts and sixty-two new tunes.”",
+        "suggested_fix": "Use natural Swedish number order: change “tretton texter och två och sextio nya melodier.” to “tretton texter och sextiotvå nya melodier.”",
+        "translation_quote": "”Tillsammans bidrog de med tretton texter och två och sextio nya melodier.”"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

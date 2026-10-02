@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a4be43b7-6136-4298-840c-cf21fc0339de",
+    "response_id": "chatcmpl-EUURGaN9F9sQiDTPybqejhaM8NWum",
+    "usage": {
+      "completion_tokens": 1162,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10335,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11497
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first paragraph (John 21:22 quote)",
+        "severity": "major",
+        "source_quote": "<em>If I will that he [John] tarry till I come, what is that to thee? follow thou me. John 21:22.</em>",
+        "suggested_fix": "Translate the verse into contemporary Modern Greek as a faithful rendering of the printed English quotation and preserve the reference. Replace the current Koine-style/incorrect Greek with a modern-Greek translation. For example (preserve the surrounding <em> tags and the verse number): <em>Αν θέλω να μείνει αυτός μέχρι να έλθω, τί πρὸς σένα; εσύ ἄκολούθει μοι.—Ιωάννης 21:22.</em> Or, in contemporary Modern Greek without archaisms: <em>Εάν θέλω να μείνει αυτός μέχρι να έρθω, τί σε αφορά; εσύ ακολούθα με. — Ιωάννης 21:22.</em> Ensure the chosen rendering is in contemporary Modern Greek and the chapter:verse notation remains exactly “Ιωάννης 21:22.”",
+        "translation_quote": "<em>Εἰ δὸν θέλω αὐτὸν μεῖναι μέχρι ἧς ἔρχομαι, τί πρὸς σὲ; Ἀκολούθει μοι.—Ιωάννης 21:22.</em>"
+      },
+      {
+        "location": "source.html — third paragraph (sentence about imminence of Christ's return)",
+        "severity": "major",
+        "source_quote": "Now, two thousand years since Christ gave that promise, His soon return seems just as imminent as it did to the first century believers.",
+        "suggested_fix": "The translation changed the meaning by rendering 'soon return' as ««στενή» επιστροφή Του», which is incorrect and alters the sense. Replace with a contemporary-Greek rendering that preserves the original meaning about the return seeming 'soon' or 'imminent'. Suggested replacement sentence in Greek: «Τώρα, δύο χιλιάδες χρόνια αφότου ο Χριστός έδωσε αυτή την υπόσχεση, η επικείμενη επιστροφή Του φαίνεται εξίσου άμεση όπως και για τους πιστούς του πρώτου αιώνα.» Keep the rest of the paragraph unchanged and preserve HTML tags.",
+        "translation_quote": "<p>Τώρα, δύο χιλιάδες χρόνια αφότου ο Χριστός έδωσε αυτή την υπόσχεση, η «στενή» επιστροφή Του φαίνεται εξίσου επικείμενη όπως και στους πιστούς του πρώτου αιώνα.</p>"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

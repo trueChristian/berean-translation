@@ -2,7 +2,6 @@
   "article_id": "2b07502a-cbf0-4b92-8bb8-7910a5557f84",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:09+00:00",
   "events": [
@@ -24,6 +23,69 @@
         },
         "total_tokens": 6162
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1404,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5950,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7354
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.title / translation.title",
+      "severity": "major",
+      "source_quote": "Mennonites, Misunderstandings, and Herbal Medicines",
+      "suggested_fix": "Terjemahkan judul ke Bahasa Indonesia. Contoh yang setia pada arti: \"Mennonite, Kesalahpahaman, dan Obat-Obatan Herbal\" atau \"Kehidupan Mennonite: Kesalahpahaman dan Pengobatan Herbal\". Perbaiki saja teks dalam atribut title tanpa mengubah tag HTML lainnya.",
+      "translation_quote": "Mennonites, Misunderstandings, and Herbal Medicines"
+    },
+    {
+      "location": "source.subtitle / translation.subtitle",
+      "severity": "major",
+      "source_quote": "MENNONITE LIFE IN THE CONESTOGA VALLEY OF COLONIAL PENNSYLVANIA",
+      "suggested_fix": "Terjemahkan subjudul ke Bahasa Indonesia. Contoh terjemahan yang setia: \"KEHIDUPAN MENNONITE DI LEMBAH CONESTOGA PADA MASA KOLONIAL PENNSYLVANIA\". Simpan huruf besar/kecil sesuai gaya situs bila perlu, tapi jangan biarkan subjudul tetap berbahasa Inggris.",
+      "translation_quote": "MENNONITE LIFE IN THE CONESTOGA VALLEY OF COLONIAL PENNSYLVANIA"
+    },
+    {
+      "location": "source.section / translation.section",
+      "severity": "major",
+      "source_quote": "Victorious Christian Living",
+      "suggested_fix": "Terjemahkan nama seksi/section ke Bahasa Indonesia. Contoh: \"Kehidupan Kristen yang Menang\" atau jika situs memakai gaya singkat: \"Kehidupan Kristen\". Ganti nilai field section pada terjemahan agar bukan teks bahasa Inggris.",
+      "translation_quote": "Victorious Christian Living"
+    },
+    {
+      "location": "source.html paragraph containing phrase '\"Holy Experiment\"' / translation.html same paragraph",
+      "severity": "major",
+      "source_quote": "he wanted to conduct what he called the \"Holy Experiment\".",
+      "suggested_fix": "Terjemahkan frasa kutipan yang bermakna (bukan nama merek tidak diterjemahkan). Ganti \"Holy Experiment\" dengan padanan Bahasa Indonesia yang setia pada makna, mis. \"Eksperimen Suci\" atau \"’Eksperimen Suci’\" dalam konteks kalimat. Jangan biarkan frasa kutipan utama artikel tetap dalam bahasa Inggris.",
+      "translation_quote": "ia ingin menjalankan apa yang ia sebut \"Holy Experiment\"."
+    },
+    {
+      "location": "source.html paragraph containing 'Mennists or Mennonites' / translation.html same paragraph",
+      "severity": "major",
+      "source_quote": "it seems that here is where the Swiss Brethren first became known as Mennists or Mennonites.",
+      "suggested_fix": "Terjemahkan istilah-istilah pengenal kelompok ke Bahasa Indonesia agar pembaca target memahami konteks. Ganti \"Mennists or Mennonites\" dengan \"Mennist atau Mennonite\" atau cukup \"Mennonite\" jika itu istilah yang tepat dalam Bahasa Indonesia. Jangan biarkan istilah inti tetap berbahasa Inggris.",
+      "translation_quote": "Tampaknya di sinilah Swiss Brethren pertama kali dikenal sebagai Mennists atau Mennonites."
+    },
+    {
+      "location": "source.html paragraph with 'Palatinate (Pfaltzland)' / translation.html same paragraph",
+      "severity": "minor",
+      "source_quote": "the Palatinate (Pfaltzland) in Germany",
+      "suggested_fix": "Perbaiki ejaan yang sesuai dengan sumber. Sumber memberi 'Pfaltzland' dalam tanda kurung; terjemahan memakai 'Pfalzland (Palatinate)'. Sesuaikan supaya mencerminkan sumber dan/atau gunakan bentuk yang paling dikenal dalam bahasa Indonesia: mis. \"Palatinate (Pfaltzland)\" atau cukup \"Palatinate (Pfalzland)\" jika itu ejaan yang digunakan dalam rujukan. Pastikan konsistensi ejaan dengan sumber asli.",
+      "translation_quote": "Pfalzland (Palatinate) di Jerman"
     }
   ],
   "id": "b68934019720f41096187ee3974056b5",
@@ -69,11 +131,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/589bbbf06d53e840c1b02c16b5a0e9d55ee78fbc01185cea481271c35d6c3b97.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b3e43e634638cbb2acbfd582a6dcb7a3f9f4e2dc77e578bc59a693261f0aa67b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

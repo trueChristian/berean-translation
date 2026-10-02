@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7d581f25-653e-42da-afad-5dbf57aa3103",
+    "response_id": "chatcmpl-EUURGEjPmKpzxOUhF4WVnKu08sHao",
+    "usage": {
+      "completion_tokens": 1549,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6129,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7678
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "blockquote.lyrics — stanza 3, line 'Angels to beckon me'",
+        "severity": "critical",
+        "source_quote": "Angels to beckon me",
+        "suggested_fix": "Translate the line faithfully into Greek conveying the meaning 'Angels to beckon me' (i.e., angels summoning/beckoning the singer nearer). Preserve the hymn sense and meter but do not introduce new actions (such as killing). Example: «Άγγελοι να με κελεύσουν» or «Άγγελοι να με προσκαλέσουν». Replace the existing incorrect text: «Άγγελοι να με σκοτώσουν—όχι––να με κινήσουν— να με καλούν» with a faithful translation like «Άγγελοι να μου γνέψουν».",
+        "translation_quote": "Άγγελοι να με σκοτώσουν—όχι––να με κινήσουν— να με καλούν"
+      },
+      {
+        "location": "multiple paragraphs quoting hymn title (e.g., 'Nearer, My God to Thee' in Boston Peace Jubilee paragraph and elsewhere)",
+        "severity": "major",
+        "source_quote": "Nearer, my God, to Thee",
+        "suggested_fix": "Quoted substantive English prose (including hymn titles that are part of the printed authoritative text) must be translated into the target language. Replace the English title occurrences with a faithful Greek rendering used consistently throughout the article (for example: «Κοντύτερα, Θεέ μου, σε Σένα» or another literal, idiomatic Greek equivalent). Ensure every instance of the hymn title and any other quoted English substantive phrases are translated.",
+        "translation_quote": "«Nearer, My God to Thee»; «Nearer, my God, to Thee,»"
+      },
+      {
+        "location": "first content paragraph 'consumption' translation",
+        "severity": "minor",
+        "source_quote": "her mother died of consumption, known today as tuberculosis",
+        "suggested_fix": "The translator rendered 'consumption' as 'καχεξία, γνωστή σήμερα ως φυματίωση', which implies cachexia and is misleading. Use a phrasing that correctly identifies 'consumption' as tuberculosis in modern terms, for example: «πέθανε από την ασθένεια που τότε ονομάζονταν 'consumption' — σήμερα γνωστή ως φυματίωση.» Or simply: «πέθανε από φυματίωση (τότε ονομάζονταν 'consumption').»",
+        "translation_quote": "πέθανε από καχεξία, γνωστή σήμερα ως φυματίωση"
+      },
+      {
+        "location": "blockquote.lyrics — stanza 1 punctuation and stanza 4 'Bethel I’ll raise' translation",
+        "severity": "minor",
+        "source_quote": "E’en though it be a cross\nThat raiseth me;",
+        "suggested_fix": "Remove the question mark which alters tone and possibly meaning. Render without interrogative punctuation and ensure 'That raiseth me' is translated as causative (that lifts or exalts me). Example: «Ακόμη κι αν είναι σταυρός / Που με ανυψώνει,» (with a comma). For 'Bethel I'll raise' ensure idiomatic Greek capturing the idea 'I will raise a Bethel (a memorial) out of my stony griefs' — e.g., «Από τις πετρώδεις λύπες μου θα υψώσω ένα Βηθὲλ» rather than the current phrasing with a question mark and ‹Θα ανυψώσω ένα Βηθέλ;› punctuation.",
+        "translation_quote": "Ακόμη κι αν είναι ένας σταυρός\nΠου με ανυψώνει; / Θα ανυψώσω ένα Βηθέλ;"
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

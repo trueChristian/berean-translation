@@ -2,7 +2,6 @@
   "article_id": "b6a6823e-0f2a-4354-aebb-5c37ad85937a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,6 +23,41 @@
         },
         "total_tokens": 5745
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1332,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 960,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5267,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6599
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Throughout article body (multiple paragraphs)",
+      "severity": "major",
+      "source_quote": "“Nearer, My God to Thee” (appears in original English in paragraphs about the Boston Peace Jubilee, Syrian students, Johnstown flood, and Titanic)",
+      "suggested_fix": "Translate every in-text mention and quoted occurrence of the hymn title/line into Swedish to match the translated hymn text and the article title. For example: replace “Nearer, My God to Thee” and “Nearer, my God, to Thee” with “Närmare, min Gud, till Dig”. In the paragraph describing Syrian students singing in Arabic, preserve the detail that they sang in Arabic but present the hymn line in Swedish inside quotes (e.g.: ...såg de femtio syriska studenter stå under några träd i en cirkel och sjunga på arabiska ”Närmare, min Gud, till Dig”.). Do this for every occurrence so no substantive quoted prose remains in English.",
+      "translation_quote": "”Nearer, My God to Thee” / ”Nearer, my God, to Thee” (left in English in multiple places in the translation)"
+    },
+    {
+      "location": "Paragraph about contributions to the hymnal (fourth paragraph)",
+      "severity": "minor",
+      "source_quote": "“Together, they contributed thirteen texts and sixty-two new tunes.”",
+      "suggested_fix": "Use natural Swedish number order: change “tretton texter och två och sextio nya melodier.” to “tretton texter och sextiotvå nya melodier.”",
+      "translation_quote": "”Tillsammans bidrog de med tretton texter och två och sextio nya melodier.”"
     }
   ],
   "id": "a1a77136a08eef18282ac8014a0a6519",
@@ -69,11 +103,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/bdacc95910a7433231bb636adde27ced309ebbaf33d26f4288193a37ef1ecead.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "529627b867a50e286116891ac48830f9194ac5c383794aa0c674aa93ff18825d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

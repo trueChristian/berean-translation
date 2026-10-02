@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "189f125a-dcb4-4be3-9b72-8d14df6cb7e4",
+    "response_id": "chatcmpl-EUURZBuHiU7Tn9Qg0SEfUfKwyIL9J",
+    "usage": {
+      "completion_tokens": 1001,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5594,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6595
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.title",
+        "severity": "major",
+        "source_quote": "Nearer, My God, to Thee",
+        "suggested_fix": "Translate the article title into standard contemporary Urdu (Perso‑Arabic script) and preserve it in the title field. For example: \"میرے خدائے قریب‌تر\" (or another equivalent idiomatic Urdu rendering). Do not change HTML structure — only replace the title text in the translation metadata.",
+        "translation_quote": "Nearer, My God, to Thee"
+      },
+      {
+        "location": "source.section",
+        "severity": "major",
+        "source_quote": "Hymn History",
+        "suggested_fix": "Translate the section name into standard contemporary Urdu (Perso‑Arabic script). For example: \"نغمات کی تاریخ\" or \"ہمن کی تاریخ\". Replace the English section value with the selected Urdu phrase in the translation metadata.",
+        "translation_quote": "Hymn History"
+      },
+      {
+        "location": "<p>“Together, they contributed thirteen texts and sixty-two new tunes.”</p>",
+        "severity": "minor",
+        "source_quote": "“Together, they contributed thirteen texts and sixty-two new tunes.”",
+        "suggested_fix": "Fix the typographical/wording error in the translation where the number phrase appears. Replace the incorrect token \"باسان نئی دھنیں\" with the correct Urdu phrase that clearly corresponds to \"sixty‑two new tunes\", for example: \"تیرہ متون اور باسٹھ نئی دھنیں فراہم کیں۔\" Preserve the numbers (13 and 62) as in the source and keep any surrounding punctuation and HTML unchanged.",
+        "translation_quote": "\"انہوں نے مل کر تیرہ متن اور باسان نئی دھنیں فراہم کیں۔\""
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

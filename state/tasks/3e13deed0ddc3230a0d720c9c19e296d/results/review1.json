@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "026fb589-85ad-435d-9ac5-ca40b16d65c9",
+    "response_id": "chatcmpl-EUUROOliE58ey4g8EiS8fYS6l6LfW",
+    "usage": {
+      "completion_tokens": 817,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6034,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6851
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph 2",
+        "severity": "minor",
+        "source_quote": "In some places, like the Palatinate (Pfaltzland) in Germany, as many as 70% of the inhabitants had died of either war or disease.",
+        "suggested_fix": "Keep the original parenthetical spelling exactly as in the source or use one consistent Dutch form. Replace “Palts (Pfaltzland)” with either “Palts (Pfaltzland)” consistently throughout, or use the conventional Dutch name “Paltz” / “Pfaltzland” consistently. Example: in the translation paragraph, change “Palts (Pfaltzland)” to “Palts (Pfaltzland)” (or consistently use “Pfaltzland”).",
+        "translation_quote": "Op sommige plaatsen, zoals de Palts (Pfaltzland) in Duitsland, was tot 70% van de inwoners gestorven door oorlog of ziekte."
+      },
+      {
+        "location": "source.html — paragraph 4",
+        "severity": "minor",
+        "source_quote": "Many of the Hoffs (house/barn fort enclosures) were burned out and the fields were left uncultivated for years.",
+        "suggested_fix": "Use a clearer Dutch verb for “burned out” such as “uitgebrand” or “verbrand”. Replace “uitgestookt” with “uitgebrand” to better reflect the original meaning. Example: change “Veel hoven (huis/schuur vestingen) waren uitgestookt” to “Veel hoven (huis-/schuurvestingen) waren uitgebrand.”",
+        "translation_quote": "Veel hoven (huis/schuur vestingen) waren uitgestookt en de velden bleven jarenlang ongecultiveerd."
+      },
+      {
+        "location": "source.html — paragraph 10",
+        "severity": "minor",
+        "source_quote": "Free to love and witness to their neighbors—the Conestoga tribe and French traders.",
+        "suggested_fix": "Translate the English article “the” into Dutch to avoid leaving an English article inside the Dutch sentence. Replace “—the Conestoga-stam en Franse handelaars.” with “—de Conestoga-stam en Franse handelaars.”",
+        "translation_quote": "Vrij om liefde te tonen en getuigenis te geven aan hun buren—the Conestoga-stam en Franse handelaars."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

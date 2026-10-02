@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1cd0059b-d46b-444f-9843-b107134318dc",
+    "response_id": "chatcmpl-EUURLnLEWJqZo5MC8A29FbAMbhbIM",
+    "usage": {
+      "completion_tokens": 826,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3179,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4005
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"Then there is the issue of cell phones and E-bikes...\" (the paragraph that begins \"Then there is the issue of cell phones and E-bikes.\")",
+        "severity": "minor",
+        "source_quote": "Also, there are help wanted signs everywhere.",
+        "suggested_fix": "Replace the incorrect rendering « panneaux “aide‑vouée” » with a natural French equivalent. Suggested fixes (choose one that fits the house style): « il y a des panneaux “On embauche” partout. », « il y a partout des panneaux “Recherche d’emploi” », or « il y a partout des panneaux “Aide demandée” ». Preserve surrounding HTML and punctuation.",
+        "translation_quote": "De plus, il y a des panneaux « aide‑vouée » partout."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

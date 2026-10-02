@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ad42cc05-a2c6-4dda-a0ac-0790286639c8",
+    "response_id": "chatcmpl-EUURa6XISa39CMMiG2VHRJwx6iivC",
+    "usage": {
+      "completion_tokens": 952,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7610,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8562
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...Finalement, après qu’il fut à plus de trente centimètres, il s’arrêta.</p>",
+        "severity": "minor",
+        "source_quote": "After he was more than a foot off, he stopped.",
+        "suggested_fix": "Restore the author's original unit sense or use a neutral phrasing. Replace \"après qu’il fut à plus de trente centimètres\" with \"finalement, après s’être écarté de plus d’un pied, il s’arrêta.\" or use a unit‑neutral phrasing: \"finalement, après s’être écarté d’un peu plus d’un pied, il s’arrêta.\"",
+        "translation_quote": "Finalement, après qu’il fut à plus de trente centimètres, il s’arrêta."
+      },
+      {
+        "location": "<p>... (du moins tant que tu souris et dis que tu aimes Jésus.) ...</p>",
+        "severity": "minor",
+        "source_quote": "(at least as long as you smile and say you love Jesus.)",
+        "suggested_fix": "Use the formal/plural register consistent with the rest of the article. Replace \"(du moins tant que tu souris et dis que tu aimes Jésus.)\" with \"(du moins tant que vous souriez et dites que vous aimez Jésus.)\"",
+        "translation_quote": "(du moins tant que tu souris et dis que tu aimes Jésus.)"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

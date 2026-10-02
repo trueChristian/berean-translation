@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b9066221-9d3a-4c85-8fac-e18d008cf34a",
+    "response_id": "chatcmpl-EUURi6oWuv7lvR0UHOoyzAhRo1VNx",
+    "usage": {
+      "completion_tokens": 997,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5000,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5997
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.section / translation.section",
+        "severity": "major",
+        "source_quote": "INSPIRATIONS FOR YOUTH",
+        "suggested_fix": "Restore the correct target-language rendering of the English section. Replace the translation field value with a faithful Swedish equivalent of \"INSPIRATIONS FOR YOUTH\", for example: \"INSPIRATIONER FÖR UNGDOM\" (or \"INSPIRATIONER FÖR UNGDOMAR\" if your style guide prefers). Do not use wording that implies adults (e.g. \"UPPVAXNA\").",
+        "translation_quote": "INSPIRATIONER FÖR UPPVAXNA"
+      },
+      {
+        "location": "source.html (near end of paragraph beginning \"I början av artikeln frågade jag vad du eftersträvar.\") / translation.html",
+        "severity": "minor",
+        "source_quote": "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Ghost –Romans 15:13.",
+        "suggested_fix": "Remove the duplicated word so the sentence is grammatically correct in Swedish. Change \"Visar ditt liv att att uppfylla Guds vilja är din högsta prioritet\" to \"Visar ditt liv att uppfylla Guds vilja är din högsta prioritet\" or better: \"Visar ditt liv att uppfyllandet av Guds vilja är din högsta prioritet\" depending on your house style.",
+        "translation_quote": "Visar ditt liv att att uppfylla Guds vilja är din högsta prioritet, eller finns det något annat som tar den platsen?"
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

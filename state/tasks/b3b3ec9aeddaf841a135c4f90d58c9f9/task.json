@@ -2,7 +2,6 @@
   "article_id": "f21c4f39-9508-4f75-9e0c-0c68468c41f8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 4484
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 868,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3890,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4758
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Paragraph: \"As abruptly as the storm began, it calmed. The wind stopped, the rain slowed, and very soon the sun was shining again.\"",
+      "severity": "minor",
+      "source_quote": "As abruptly as the storm began, it calmed. The wind stopped, the rain slowed, and very soon the sun was shining again.",
+      "suggested_fix": "Adjust Arabic phrasing for naturalness and clarity while preserving meaning. For example: «بقدر ما بدأت العاصفة فجأة، فكذلك هدأت فجأة. توقفت الرياح، خفّ المطر، وسرعان ما أشرقت الشمس مجدداً.» Ensure punctuation and word order remain inside the same paragraph tags.",
+      "translation_quote": "بقدر ما بدأت العاصفة فجأة، هدأت بنفس الفجاءة. توقفت الرياح، خفّ المطر، وسرعان ما سطع الشمس مجدداً."
+    },
+    {
+      "location": "Paragraph: \"Throughout that summer and for many summers after, every time the rumble of thunder was heard or she heard the words “tornado warning”, her heart would beat faster, and a knot would settle in her stomach.\"",
+      "severity": "minor",
+      "source_quote": "Throughout that summer and for many summers after, every time the rumble of thunder was heard or she heard the words “tornado warning”, her heart would beat faster, and a knot would settle in her stomach.",
+      "suggested_fix": "Use a more idiomatic Arabic expression for “many summers after” (avoid \"صيفيات\"). For example: «طوال ذلك الصيف وفي غضون صيفيات عديدة تلت ذلك» or better: «طوال ذلك الصيف ولكثير من السنوات الصيفية التي تلت،» so the sentence reads naturally: «طوال ذلك الصيف ولعدة صيفيات لاحقة، في كل مرة يسمع فيها دوي رعد أو تسمع عبارة «تحذير من زوبعة»، كان قلبها يخفق أسرع ويتكوّن عقد في معدتها.»",
+      "translation_quote": "طوال ذلك الصيف ولعدة صيفيات تالية، في كل مرة يُسمع فيها رعد أو تسمع عبارة «تحذير من زوبعة»، كان قلبها يخفق أسرع ويتكون عقد في معدتها."
+    }
+  ],
+  "finished_at": "2026-10-02T11:17:43+00:00",
   "id": "b3b3ec9aeddaf841a135c4f90d58c9f9",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "ara",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1896269e1d50cee8808d069728099a272936b67afb461b50cf790049cb1e46b5.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ea6f4c2c1d99d58d1a9f3a20171db73a83fd2eecbd0478f01bb5f8591bf41415",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7dd2b827-5735-41a2-849b-0345680560e5",
+    "response_id": "chatcmpl-EUUSWucMxUkNCuGSUbh1V9C96vofw",
+    "usage": {
+      "completion_tokens": 853,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3297,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4150
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.title",
+        "severity": "minor",
+        "source_quote": "From the Editor",
+        "suggested_fix": "제목의 뉘앙스 차이를 줄이기 위해 '편집장의 글' 대신에 '편집자의 글' 또는 섹션과 일치하도록 제목을 '편집자의 글'로 바꾸는 것을 제안합니다. (둘 다 문법적으로 허용되지만 사이트에서 섹션과 제목을 일관되게 표기하는 것이 권장됩니다.)",
+        "translation_quote": "편집장의 글"
+      },
+      {
+        "location": "source.html (paragraph: \"If you are edified or encouraged...\")",
+        "severity": "minor",
+        "source_quote": "If you are edified or encouraged by any of the authors’ content, it would be a blessing for you to respond to us by mail or email. We pass this along to our writers for their benefit.",
+        "suggested_fix": "한국어가 더 자연스럽고 공손하게 읽히도록 문장을 다듬을 것을 제안합니다. 예: \"만약 어떤 저자의 글이 여러분을 세우거나 격려했다면, 우편이나 이메일로 회신해 주시면 큰 은혜가 될 것입니다. 우리는 그 회신을 저자들에게 전달하여 저자들에게 유익이 되게 합니다.\" 기존 HTML 태그와 순서는 유지하십시오.",
+        "translation_quote": "만약 어떤 저자의 글이 여러분을 세우거나 격려했다면, 우편이나 이메일로 응답해 주시면 은혜가 될 것입니다. 우리는 그것을 글쓴이들에게 전달하여 그들에게 유익을 끼칩니다."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

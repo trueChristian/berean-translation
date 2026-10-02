@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "38335264-d2de-457e-95a2-ee2218d5c909",
+    "response_id": "chatcmpl-EUURF3NxN8NmCXCtTgxFbe59tEiVy",
+    "usage": {
+      "completion_tokens": 1290,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3419,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4709
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "major",
+        "source_quote": "From the Editor",
+        "suggested_fix": "Translate the article title into standard Urdu. For example: \"ایڈیٹر سے\" or \"مدیر کا پیغام\" (choose one and keep it in the title field).",
+        "translation_quote": "From the Editor"
+      },
+      {
+        "location": "section",
+        "severity": "major",
+        "source_quote": "FROM THE EDITOR",
+        "suggested_fix": "Translate the section name into standard Urdu to match the translated article. For example: \"ایڈیٹر سے\" or \"مدیر کا پیغام\" (use the same phrasing chosen for the title field).",
+        "translation_quote": "FROM THE EDITOR"
+      },
+      {
+        "location": "source.html — first paragraph (parenthetical metadata)",
+        "severity": "minor",
+        "source_quote": "(Summer 2023)",
+        "suggested_fix": "Translate or localize the parenthetical publication date/issue label into Urdu. For example: \"(گرمیوں 2023)\" or \"(Summer 2023 — گرمیوں 2023)\". Keep the parentheses and punctuation unchanged in the HTML.",
+        "translation_quote": "(Summer 2023)…"
+      },
+      {
+        "location": "source.html — paragraph containing Ephesians quotation",
+        "severity": "minor",
+        "source_quote": "That we [should] henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine… –Ephesians 4:14.",
+        "suggested_fix": "Adjust the Urdu rendering of \"every wind of doctrine\" for clearer, idiomatic theological Urdu. Replace \"ہر سیکھ کی ہوا\" with a more accurate phrase such as \"ہر تعلیم کی ہوا\" or \"ہر عقیدے کی ہوا\" so the verse reads naturally: e.g. \"اب ہم وہ بچے نہ رہیں جو ہر تعلیم کی ہوا سے بہہ لئے جاتے اور ہر تبلیغ کی لہر کے ساتھ لے جایا جاتے ہیں… —Ephesians 4:14۔\"",
+        "translation_quote": "اب ہم بچے نہ رہیں جو ہر سیکھ کی ہوا سے بہہ لئے جاتے اور ہر تبلیغ کی لہر کے ساتھ لے جایا جاتے ہیں…—Ephesians 4:14۔"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

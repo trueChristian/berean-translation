@@ -1,0 +1,85 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f6aa4fcc-bbe2-4b2c-b5fb-3fc60939d49a",
+    "response_id": "chatcmpl-EUURU2D2Jh4M1S1FiE0P8zUYeafPd",
+    "usage": {
+      "completion_tokens": 2363,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12604,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 14967
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph containing James 1:5 (around: \"If any of you lack wisdom...\")",
+        "severity": "major",
+        "source_quote": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him –James 1:5.",
+        "suggested_fix": "Translate the quoted Scripture into contemporary Modern Greek (not Koine/Ancient Greek). Replace the existing Greek quotation text node only, preserving the surrounding <em> tags and punctuation. Suggested contemporary Modern Greek rendering: «Εάν δε κανείς από εσάς εκλείπει τη σοφία, ας την αιτηθεί από τον Θεό, που δίνει σε όλους γενναιόδωρα χωρίς ψόγο· και θα του δοθεί. — Ιάκωβος 1:5.»",
+        "translation_quote": "<em>Εἰ δὲν ἔχετε σοφίαν, αἰτήσατε τῷ θεῷ, ὁ διδούς ἔνδον παντὶ ἁπλῶς καὶ οὐ ὀνειδίζων, καὶ δοθήσεται αὐτῷ — Ιάκωβος 1:5.</em>"
+      },
+      {
+        "location": "source.html paragraph containing James 5:16 (around: \"The effectual fervent prayer...\")",
+        "severity": "major",
+        "source_quote": "…The effectual fervent prayer of a righteous man availeth much –James 5:16.",
+        "suggested_fix": "Translate the quoted Scripture into contemporary Modern Greek (not Koine/Ancient Greek). Preserve <em> tags and punctuation. Suggested rendering: «…Η αποτελεσματική, θερμή προσευχή του δικαίου ωφελεί πολύ. — Ιάκωβος 5:16.»",
+        "translation_quote": "<em>…ἡ ἐνεργὴ πίστις βοηθεῖ πολὺ ὁ δικαίος τῇ προσευχῇ — Ιάκωβος 5:16.</em>"
+      },
+      {
+        "location": "source.html paragraph containing Psalm 103:2-3 (around: \"Bless the LORD, O my soul...\")",
+        "severity": "major",
+        "source_quote": "Bless the LORD, O my soul, and forget not all his benefits: Who forgiveth all thine iniquities; who healeth all thy diseases –Psalm 103:2-3.",
+        "suggested_fix": "Quoted Scripture must be in contemporary Modern Greek. Replace the current Koine/Ancient Greek rendering inside the <em> tag with a Modern Greek rendering. Suggested rendering: «Ευλόγησον, ψυχή μου, τον Κύριο, και μη λησμονήσεις όλα τα αγαθά Του· ο οποίος ἀφῆκεiς ἁμαρτίας σου, ὁ ἰᾶται πάντα τὰ νόσημά σου — Ψαλμός 103:2-3.» (use conventional Modern Greek forms for book name and modernized wording). Preserve tags.",
+        "translation_quote": "<em>Ευλόγει τὸν Κύριον, ὁ ἔμψυχός μου, καὶ μὴ ἐπιλανθάνου παντὸς τῶν ἀγαθῶν αὐτοῦ· ὁ ἀπολύων τὰς ἁμαρτίας σου· ὁ ἰάομενος πάντα τὰς νόσους σου — Ψαλμός 103:2-3.</em>"
+      },
+      {
+        "location": "source.html paragraph containing James 2:15-16 blockquote (around: \"If a brother or sister be naked...\")",
+        "severity": "major",
+        "source_quote": "If a brother or sister be naked, and destitute of daily food, And one of you say unto them, Depart in peace, be ye warmed and filled; notwithstanding ye give them not those things which are needful to the body; what doth it profit? –James 2:15-16.",
+        "suggested_fix": "Replace the quoted Scripture inside the <em> tag with a contemporary Modern Greek translation. Preserve the blockquote and <em> tags. Suggested rendering: «Εάν κάποιος αδελφός ή αδελφή είναι ανήμποροι, χωρίς άρτο καθημερινόν, και κάποιος σας πει, Φύγετε με ειρήνη, θερμανθείτε και χορτάστε, και δεν τους δώσετε τα απαραίτητα του σώματος, τι όφελος; — Ιάκωβος 2:15-16.»",
+        "translation_quote": "<em>Εἰ δὲν ἔχει ἀδελφὸς ἢ ἀδελφὴ ῥῦχον καὶ ἀνεπαρκή τῇ καθ᾿ ἡμέραν τροφῇ, καὶ εἷς ἐξ ὑμῶν εἴπῃ αὐτοῖς, Ἔιρηκε ὑπάγετε εἰρήνην, θερμαίθητε καὶ χορτασθήτε, καὶ μὴ δῶτε αὐτοῖς τὰ ἀναγκαῖα τοῦ σώματος, ποίῳ ὠφελεῖ; — Ιάκωβος 2:15-16.</em>"
+      },
+      {
+        "location": "source.html paragraph containing 1 Corinthians 12:26 (around: \"…one member suffer[s], all the members suffer with it…\")",
+        "severity": "major",
+        "source_quote": "…one member suffer[s], all the members suffer with it… –1 Corinthians 12:26.",
+        "suggested_fix": "The quoted Scripture should be in contemporary Modern Greek. Replace the inline <em> quotation with a Modern Greek rendering, preserving tags. Suggested: «…όταν ένα μέλος πάσχει, όλα τα μέλη συμμετέχουν στην ταλαιπωρία του… — 1 Κορινθίους 12:26.»",
+        "translation_quote": "<em>…ὃς ἄν μέλος πάσχει, πάντα τὰ μέλη συμπάσχουν—1 Κορινθίους 12:26.</em>"
+      },
+      {
+        "location": "source.html paragraph containing Philippians 1:21 (around: \"For to me to live is Christ...\")",
+        "severity": "major",
+        "source_quote": "For to me to live is Christ, and to die is gain –Philippians 1:21.",
+        "suggested_fix": "Translate the quoted Scripture into contemporary Modern Greek and preserve <em> tags. Suggested rendering: «Εμοί το ζην Χριστός, και το αποθανείν κέρδος — Φιλιππησίους 1:21.» (use Modern Greek orthography and book name).",
+        "translation_quote": "<em>Εμοὶ γὰρ τὸ ζῆν Χριστός, καὶ τὸ ἀποθανεῖν κέρδος — Φιλιππησίους 1:21.</em>"
+      },
+      {
+        "location": "source.html paragraph: \"As a family doctor, I see these reports...\"",
+        "severity": "minor",
+        "source_quote": "As a family doctor, I see these reports but, since I am not a specialist in this field, I find them somewhat confusing.",
+        "suggested_fix": "The translation renders the author role awkwardly as «Ως παθολόγος οικογενειακός ιατρός». Use a clearer, idiomatic Modern Greek phrase preserving sentence structure and meaning. Suggested replacement for that clause: «Ως οικογενειακός ιατρός, βλέπω αυτές τις αναφορές αλλά, επειδή δεν είμαι ειδικός σε αυτόν τον τομέα, τις βρίσκω κάπως συγκεχυμένες.»",
+        "translation_quote": "Ως παθολόγος οικογενειακός ιατρός, βλέπω αυτές τις αναφορές αλλά, επειδή δεν είμαι ειδικός σε αυτόν τον τομέα, τις βρίσκω κάπως συγκεχυμένες."
+      },
+      {
+        "location": "source.title / source.section",
+        "severity": "minor",
+        "source_quote": "source.section: A Word From A Doctor\nsource.title: Cancer",
+        "suggested_fix": "Section and title translations are acceptable but could be more idiomatic. For the section, consider «Λόγος από έναν γιατρό» or «Μήνυμα από έναν γιατρό» instead of «Λόγος Από Έναν Γιατρό». For the title 'Καρκίνος' is correct. These are stylistic improvements only and not required for acceptance.",
+        "translation_quote": "section: \"Λόγος Από Έναν Γιατρό\" subtitle: \"ΜΕΡΟΣ 2\" title: \"Καρκίνος\""
+      }
+    ],
+    "passed": false,
+    "score": 86
+  }
+}

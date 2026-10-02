@@ -2,7 +2,6 @@
   "article_id": "50068373-cc3d-4587-a605-3f37fc05b3ad",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,8 +23,72 @@
         },
         "total_tokens": 11558
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1349,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11346,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12695
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<h2>Chemotherapy</h2> (heading)",
+      "severity": "minor",
+      "source_quote": "<h2>Chemotherapy</h2>",
+      "suggested_fix": "Translate the heading into Urdu, preserving the tag and attributes. For example: <h2>کیموتھراپی</h2>",
+      "translation_quote": "<h2>Chemotherapy</h2>"
+    },
+    {
+      "location": "<h2>Surgery</h2> (heading)",
+      "severity": "minor",
+      "source_quote": "<h2>Surgery</h2>",
+      "suggested_fix": "Translate the heading into Urdu, preserving the tag and attributes. For example: <h2>سرجری</h2>",
+      "translation_quote": "<h2>Surgery</h2>"
+    },
+    {
+      "location": "<h2>Immunotherapy</h2> (heading)",
+      "severity": "minor",
+      "source_quote": "<h2>Immunotherapy</h2>",
+      "suggested_fix": "Translate the heading into Urdu, preserving the tag and attributes. For example: <h2>امیونو تھراپی</h2>",
+      "translation_quote": "<h2>Immunotherapy</h2>"
+    },
+    {
+      "location": "Paragraph containing “exploratory surgery”",
+      "severity": "minor",
+      "source_quote": "exploratory surgery",
+      "suggested_fix": "Translate the parenthetical explanatory phrase into Urdu and keep it in parentheses. For example: (تفتیشی جراحی) or (جراحیِ تفتیشی). Preserve original punctuation and HTML structure.",
+      "translation_quote": "(exploratory surgery)"
+    },
+    {
+      "location": "Paragraph about voice box",
+      "severity": "minor",
+      "source_quote": "voice box",
+      "suggested_fix": "Translate the parenthetical explanatory term into Urdu and keep it in parentheses. For example: (وائس بکس/آواز کی ڈبی) or preferably the descriptive Urdu term: (آواز کی نالی). Preserve punctuation and HTML.",
+      "translation_quote": "(voice box)"
+    },
+    {
+      "location": "Multiple occurrences of English medical terms in parentheses: “remission” and “neutropenic fever”",
+      "severity": "minor",
+      "source_quote": "remission; neutropenic fever",
+      "suggested_fix": "Translate these parenthetical medical terms into Urdu while preserving parentheses. Examples: (remission) → (بہتری/ریکشن) — keep the same nuance as the source; better: (remission) → (رِیمِشن / مرض کی کشادگی) or simply (بہتری). For neutropenic fever: (neutropenic fever) → (نیوٹروپینک بخار). Preserve HTML and punctuation.",
+      "translation_quote": "(remission); \"neutropenic fever\" (neutropenic fever)"
+    }
+  ],
+  "finished_at": "2026-10-02T11:17:42+00:00",
   "id": "03e858852b3155740fc40c138951953b",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "urd",
@@ -69,11 +132,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ca58532aaa94c358a76e9a6922849fbf4aab671b6f2fafb891db698c9be52b26.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ba22efc6cb9233faebc78cea85896092801ad5d430d2342a669d196dab4937e6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

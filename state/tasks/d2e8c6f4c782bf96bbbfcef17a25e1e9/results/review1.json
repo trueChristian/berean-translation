@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c1c2cdce-fe3f-4ea0-aed5-73933f22fde0",
+    "response_id": "chatcmpl-EUURukmq8dicFV652Li00GU0TNOhZ",
+    "usage": {
+      "completion_tokens": 975,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1532,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2507
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening couplet (first stanza)",
+        "severity": "minor",
+        "source_quote": "Freedom, or bondage—which will it be?\n    Or are they the same; can someone see?",
+        "suggested_fix": "Use more natural French phrasing for the question and for “are they the same”. For example: « Liberté ou servitude — laquelle sera-t-elle ?\n    Ou sont-elles identiques ; qui pourrait le dire ? »",
+        "translation_quote": "Liberté, ou servitude — que sera-t-il ?\n    Ou sont-elles pareilles ; qui peut le voir ?"
+      },
+      {
+        "location": "Second stanza, line 2",
+        "severity": "minor",
+        "source_quote": "They trade their lives, with no reason why.",
+        "suggested_fix": "Phrase the cause more idiomatically in French. For example: « Ils vendent leur vie, sans raison apparente. » Or « Ils troquent leur vie sans savoir pourquoi. »",
+        "translation_quote": "Ils vendent leur vie, sans raison d'expliquer."
+      },
+      {
+        "location": "Third stanza, line 2 (question)",
+        "severity": "minor",
+        "source_quote": "“What about our wives, or children to please?”",
+        "suggested_fix": "Render the rhetorical sense of pleasing/looking after family more clearly. For example: « Et nos épouses, nos enfants ? Pour les satisfaire ? » or « Et nos épouses et nos enfants : qu’en est‑il d’eux ? » Avoid « réjouissance » here, which is unnatural in context.",
+        "translation_quote": "« Et nos épouses, et nos enfants pour réjouissance ? »"
+      },
+      {
+        "location": "Fifth stanza, line 2",
+        "severity": "minor",
+        "source_quote": "Maybe less time at work could surely do.",
+        "suggested_fix": "Use a more idiomatic French rendering such as: « Peut‑être que travailler moins suffirait. » or « Peut‑être que moins de temps de travail suffirait. »",
+        "translation_quote": "Peut-être que moins de travail pourrait y suffire."
+      },
+      {
+        "location": "Final stanza, line 2",
+        "severity": "minor",
+        "source_quote": "“Freedom, or bondage?” is the question I bring.",
+        "suggested_fix": "Use a more natural verb for posing a question in French: for example « « Liberté ou servitude ? » est la question que je pose. » rather than « apporte ».",
+        "translation_quote": "« Liberté, ou servitude ? » est la question que j'apporte."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

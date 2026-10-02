@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e18d38da-ec1e-459e-b5c9-91b6cc5fb748",
+    "response_id": "chatcmpl-EUURHyEsf2K7GerWFa8rrxAkKePEs",
+    "usage": {
+      "completion_tokens": 1565,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6298,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7863
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph 1 (scripture quotes)",
+        "severity": "critical",
+        "source_quote": "obeying Christ’s commands to “bless them that persecute you” and “love your enemies”.",
+        "suggested_fix": "Render both quoted phrases accurately in Arabic. The current first quote «باركوا لاعنيكم» is incorrect (it reads as \"bless those who curse you\" or is misspelled) and changes the meaning. Replace the pair with faithful translations that preserve the original English meaning and quotation marks, for example: «أَمِنُّوا الّذين يضطهدونكم» is awkward — better: «باركوا الّذين يَضطَهِدونَكم» و«أَحبّوا أَعْدَاءَكُمْ». Keep them as quoted text in the same paragraph and punctuation structure.",
+        "translation_quote": "«باركوا لاعنيكم» و«أحبوا أعداءكم»"
+      },
+      {
+        "location": "source.html — paragraph 5 (William Penn / Quakers sentence)",
+        "severity": "major",
+        "source_quote": "Sometime after this, William Penn and the Quakers heard of the plight of these Swiss Anabaptists. In 1682, William Penn had been granted the colony of Pennsylvania and wanted to conduct what he called the “Holy Experiment”.",
+        "suggested_fix": "Clarify and correct the Arabic rendering of \"William Penn and the Quakers\" and the following clause. The translation currently reads: «بعد ذلك بفترة، سمع ويليام بن والكوكرز عن محنة هؤلاء المعمدانيين السويسريين. في 1682، مُنح ويليام بن...» which is awkward and misspells/transliterates \"Quakers\" as «الكوكرز». Replace with a clear phrase, e.g.: «بعد ذلك بفترة، سمع ويليام بنّ والكوويكرز (الكويكرز) عن محنة هؤلاء المعمدانيين السويسريين. ففي عام 1682 منحت ولاية بنسلفانيا لويليام بنّ، وكان يرغب...» — or use the conventional Arabic name for Quakers «الكويكرز» (or «الكوكرز» consistently) and separate the clauses so it reads naturally. Preserve dates and order as in the source.",
+        "translation_quote": "«بعد ذلك بفترة، سمع ويليام بن والكوكرز عن محنة هؤلاء المعمدانيين السويسريين. في 1682، مُنح ويليام بن مستعمرة بنسلفانيا...»"
+      },
+      {
+        "location": "source.html — paragraph 3 (Reformed Church translation)",
+        "severity": "minor",
+        "source_quote": "There were three official Churches recognized by the Germans: Catholic, Lutheran, and Reformed.",
+        "suggested_fix": "The word translated as «المصلحة (Reformed)» is awkward and non-idiomatic in Arabic. Use the conventional Arabic term for the Reformed (Calvinist) churches, e.g. «المصلحة» is unclear — replace with «المصلحة (الكنيسة المصلحة)» or better yet use «الكنيسة الإصلاحية (Reformed)» or «الكنيسة المصلحة (Reformed)» consistently. Keep the parenthetical English name only if required by house style.",
+        "translation_quote": "«الكاثوليكية واللوثرية والمصلحة (Reformed).»"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "fda8223a-f68a-4822-9559-f256f4494321",
+    "response_id": "chatcmpl-EUURbYRzWOeY9WXlMMUSjVs3FHH1L",
+    "usage": {
+      "completion_tokens": 1103,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5391,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6494
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>…Consider the charge he gave his servants in verse 13. <em>He said therefore, A certain nobleman went into a far country…</em></p>",
+        "severity": "minor",
+        "source_quote": "He said therefore, A certain nobleman went into a far country to receive for himself a kingdom, and to return.",
+        "suggested_fix": "ترجمے میں آیت کی ابتدا میں مطلوبہ نظم برقرار رکھیں۔ موجودہ ترجمہ میں 'پس اُس نے کہا، ایک شریف آدمی دور ملک کو گیا…' آیا ہے؛ بہتر ادبی روانی کے لیے مشورہ ہے: 'ایک شریف آدمی دور ملک گیا تاکہ اپنے لیے بادشاہی وصول کرے اور لوٹے۔' یا اگر حرفِ ربط شامل رکھنا مقصود ہے تو 'پس وہ کہنے لگا: ایک شریف آدمی دور ملک گیا…' جیسے ترتیب استعمال کریں تاکہ انگریزی جملے کے معنی اور بہاؤ واضح رہیں۔",
+        "translation_quote": "پس اُس نے کہا، ایک شریف آدمی دور ملک کو گیا تاکہ اپنے لئے بادشاہی وصول کرے اور لوٹے۔"
+      },
+      {
+        "location": "<p>…<em>Now the God of hope fill you with all joy and peace in believing…</em></p>",
+        "severity": "minor",
+        "source_quote": "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Ghost –Romans 15:13.",
+        "suggested_fix": "آخری جملے کا اردو ترجمہ معنی میں درست ہے مگر ترتیب و فصاحت میں معمولی بہتری کی گنجائش ہے۔ موجودہ: 'اور امید کے خدا تمہیں ایمان میں تمام خوشی اور امن سے بھر دے تاکہ تم روح القدس کے زور کے وسیلے سے امید میں بھرپور ہو جاؤ –رومیوں 15:13۔' تجویز: 'اور امید کا خدا تمہیں ایمان میں تمام خوشی اور امن سے بھر دے تاکہ تم روح القدس کی قوت سے امید میں بھرپور ہو سکو۔ –رومیوں 15:13' (مختصر تبدیلیاں معنی کو تبدیل نہیں کرتیں بلکہ فصاحت بڑھاتی ہیں)۔",
+        "translation_quote": "اور امید کے خدا تمہیں ایمان میں تمام خوشی اور امن سے بھر دے تاکہ تم روح القدس کے زور کے وسیلے سے امید میں بھرپور ہو جاؤ –رومیوں 15:13۔"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

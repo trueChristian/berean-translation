@@ -2,7 +2,6 @@
   "article_id": "50068373-cc3d-4587-a605-3f37fc05b3ad",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 11819
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1730,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11412,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13142
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<p>…those foods will reduce the risk of colon cancer</p> (source paragraph about diet — English source: \"It is recommended to eat at least two servings of fruit and five servings of vegetables per day.\" and following sentence)",
+      "severity": "major",
+      "source_quote": "On the positive side of things, healthy eating habits, such as consuming lots of fruits and vegetables and avoiding highly processed foods, will reduce the risk of colon cancer.<sup>ii</sup> Fiber seems to be a key here and higher levels of dietary fiber are helpful.",
+      "suggested_fix": "Translate the disease name into Bengali (e.g., \"বowel\" is incorrect/partly romanized). Replace the romanized/Latin fragment with the proper Bengali term. Example fix: replace \"বowel ক্যান্সারের ঝুঁকি কমবে\" with \"বowel\" → \"উৎরকোষ্ঠর ক্যান্সারের (বড়ান্তভাবে 'কোলোরেক্টাল ক্যান্সার' বা স্থানীয় আদলে 'বঙ্গোপথ ক্যান্সার' অনুসারে প্রাসঙ্গিক) ঝুঁকি কমবে\". More simply: \"এর ফলে বৃক্কপথ/বড়ান্ত অন্ত্রের (colorectal) ক্যান্সারের ঝুঁকি কমে।\" Ensure the chosen Bengali term consistently matches conventional usage across the article.",
+      "translation_quote": "ইতিবাচক দিক থেকে, প্রচুর ফল-মূল ও সবজি খাওয়া এবং অত্যন্ত প্রক্রিয়াজাত খাবার এড়িয়ে সুস্থ খাওয়ার অভ্যাস গড়লে বowel ক্যান্সারের ঝুঁকি কমবে।<sup>ii</sup> ফাইবার এখানে একটি মূল ভূমিকা পালন করে বলে মনে হয় এবং খাদ্যগত ফাইবারের উচ্চ মাত্রা সহায়ক।"
+    },
+    {
+      "location": "<p>Parenthetical reference to John 16:13 near article end</p>",
+      "severity": "major",
+      "source_quote": "(see John 16:13)",
+      "suggested_fix": "The book name 'John' must be translated to the conventional Bengali Bible book name. Replace the incorrect \"যুগো: ১৬:১৩\" with the correct Bengali form for John, e.g. \"যোহন ১৬:১৩\" or \"ইউহান্না ১৬:১৩\" depending on the target Bible naming convention used by the publication. Keep the chapter and verse numbers unchanged and in the same position: \"(দেখো যোহন ১৬:১৩)\".",
+      "translation_quote": "(দেখো যুগো: ১৬:১৩)"
+    },
+    {
+      "location": "<p>Paragraph about family doctor seeing genetic marker reports</p>",
+      "severity": "major",
+      "source_quote": "These days, cancer doctors test the biopsied cancer cells for genetic markers. As a family doctor, I see these reports but, since I am not a specialist in this field, I find them somewhat confusing.",
+      "suggested_fix": "The translation changed the sense by rendering the testing purpose incorrectly as pathogen/microbe detection. Restore the original meaning about genetic markers. Suggested Bengali rendering: \"বর্তমানে অনকোলজিস্টরা বায়োপসির মাধ্যমে সংগৃহীত ক্যান্সার কোষগুলোর জেনেটিক মার্কার পরীক্ষা করেন। একজন পারিবারিক চিকিৎসক হিসেবে আমি এই রিপোর্টগুলো দেখি, কিন্তু আমি এই ক্ষেত্রে বিশেষজ্ঞ নই; তাই এগুলো আমাকে একটু বিভ্রান্তিকর লাগে.\" Replace the existing incorrect phrase \"জীবাণু নির্ণয়ের জন্য\" with wording that clearly states \"জেনেটিক মার্কার পরীক্ষা\".",
+      "translation_quote": "একালকার ক্যান্সার চিকিৎসকরা জীবাণু নির্ণয়ের জন্য ক্যান্সার বায়োপসি করা কোষগুলোর জেনেটিক মার্কার পরীক্ষা করে। একজন পরিবারের ডাক্তার হিসেবে আমি এই রিপোর্টগুলো দেখি, কিন্তু আমি এই ক্ষেত্রে বিশেষজ্ঞ না হওয়ায় এগুলো আমাকে কিছুটা বিভ্রান্ত করে।"
+    },
+    {
+      "location": "",
+      "severity": "major",
+      "source_quote": "...we are not alone, but we will feel alone unless we have brothers and sisters around us who help us as they are able and who pray for us in our valleys and rejoice with us in our times of victory.",
+      "suggested_fix": "A small but substantive untranslated English word \"who\" appears inside a Bengali sentence and must be translated. Replace the embedded English with Bengali. Suggested fix: change \"...যারা তাদের সামর্থ্য অনুযায়ী আমাদের সাহায্য করে এবং who আমাদের উপরে প্রার্থনা করে...\" to \"...যারা তাদের সামর্থ্য অনুযায়ী আমাদের সাহায্য করে এবং আমাদের জন্য প্রার্থনা করে...\"",
+      "translation_quote": "...যারা তাদের সামর্থ্য অনুযায়ী আমাদের সাহায্য করে এবং who আমাদের উপরে প্রার্থনা করে যখন আমরা মর্মরন্ধ্রে আছি এবং আমাদের সাফল্যের সময়ে আমাদের সঙ্গে আনন্দ করে।"
     }
   ],
   "id": "385333240dc0b1709ab6997c9b21f3ec",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ca58532aaa94c358a76e9a6922849fbf4aab671b6f2fafb891db698c9be52b26.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "ba22efc6cb9233faebc78cea85896092801ad5d430d2342a669d196dab4937e6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

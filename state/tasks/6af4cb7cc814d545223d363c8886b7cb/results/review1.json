@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ac11b362-167f-44c3-a621-8402f5d7d890",
+    "response_id": "chatcmpl-EUURbeMsyS5G8GyaWgOpSoJS9LnXm",
+    "usage": {
+      "completion_tokens": 723,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10553,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11276
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p> in section <h2>Chemoterapie</h2> (paragraph about side effects causing hair loss)",
+        "severity": "minor",
+        "source_quote": "Due to the fact that they attack cells that are rapidly multiplying, many of these drugs tend to make a person’s hair fall out since hair cells are of the rapidly multiplying type.",
+        "suggested_fix": "Correct the target-language spelling of 'hair cells' to standard Afrikaans. Replace \"hairselle\" with \"haarselle\" in the sentence so it reads: \"... aangesien haarselle van die vinnig deelende tipe is.\" Preserve HTML tags and surrounding punctuation.",
+        "translation_quote": "As gevolg van die feit dat hulle selle aanval wat vinnig deel, het baie van hierdie dwelms 'n neiging om 'n persoon se hare te laat uitval aangesien hairselle van die vinnig deelende tipe is."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

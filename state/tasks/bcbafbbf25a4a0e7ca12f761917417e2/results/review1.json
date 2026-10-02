@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ebd81595-f100-4060-b26f-7de302f21dc6",
+    "response_id": "chatcmpl-EUUROfDF6GJrVlK9ZuKpLMJhvBPAJ",
+    "usage": {
+      "completion_tokens": 1381,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8856,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10237
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — opening epigraph and all Scripture references throughout article",
+        "severity": "critical",
+        "source_quote": "2 Timothy 1:4-7; Genesis 3:16; 1 Timothy 2:14; 1 Peter 3:6; Hebrews chapter 11; Hebrews 13:6; Matthew 26:12; Luke 10:38-42; Ephesians chapter five; Genesis 12:13; Matthew 26:12; Luke 10:42",
+        "suggested_fix": "Translate and localize the Bible book names to standard contemporary Afrikaans forms while keeping chapter and verse numbers unchanged. Replace each English book name with the conventional Afrikaans equivalent. Examples: \"2 Timothy 1:4-7\" -> \"2 Timoteus 1:4-7\"; \"Genesis 3:16\" remains \"Genesis 3:16\" (Genesis is correct); \"1 Timothy 2:14\" -> \"1 Timoteus 2:14\"; \"1 Peter 3:6\" -> \"1 Petrus 3:6\"; \"Hebrews\" -> \"Hebreërs\" so \"Hebrews chapter 11\" -> \"Hebreërs hoofstuk 11\" and \"Hebrews 13:6\" -> \"Hebreërs 13:6\"; \"Matthew 26:12\" -> \"Matteus 26:12\"; \"Luke 10:38-42\" -> \"Lukas 10:38-42\"; \"Ephesians chapter five\" -> \"Efesiërs hoofstuk vyf\"; \"Genesis 12:13\" remains \"Genesis 12:13\". Apply these replacements in the translation HTML exactly where the references appear, preserving tags and italics.",
+        "translation_quote": "2 Timothy 1:4-7; Genesis 3:16; 1 Timothy 2:14; 1 Peter 3:6; Hebrews chapter 11; Hebrews 13:6; Matthew 26:12; Luke 10:38-42; Ephesians chapter five; Genesis 12:13; Matthew 26:12; Luke 10:42"
+      },
+      {
+        "location": "source.title / translation.title",
+        "severity": "minor",
+        "source_quote": "Women of Faith",
+        "suggested_fix": "Title is correctly translated as \"Vroue van Geloof\". No change needed.",
+        "translation_quote": "Vroue van Geloof"
+      },
+      {
+        "location": "source.subtitle / translation.subtitle",
+        "severity": "minor",
+        "source_quote": "THE DISCIPLESHIP SERIES",
+        "suggested_fix": "Correct the Afrikaans compound noun for \"series\": replace \"DIE NAVOLGINGSREEDS\" with \"DIE NAVOLGINGSREES\" or better \"DIE NAVOLGINGSREEKS\" (preferred). Keep all-caps styling if that is part of the site style.",
+        "translation_quote": "DIE NAVOLGINGSREEDS"
+      },
+      {
+        "location": "source.html — paragraph near the end (\"podsendinge\")",
+        "severity": "minor",
+        "source_quote": "books, podcasts, social media, and seminars",
+        "suggested_fix": "Use a more idiomatic Afrikaans term for \"podcasts\". Replace \"podsendinge\" with \"podsustes/podcasts\" or \"podcasts\" (many Afrikaans publications accept the loanword). Suggested: \"boeke, podcasts, sosiale media en seminare.\" Preserve the list order and punctuation.",
+        "translation_quote": "boeke, podsendinge, sosiale media en seminare"
+      },
+      {
+        "location": "source.html — several instances of English book names left unchanged in inline scripture citations (example context)",
+        "severity": "major",
+        "source_quote": "For example: \"…The Lord is my helper, and I will not fear what man shall do unto me –Hebrews 13:6.\" and \"For in that she hath poured this ointment on my body, she did it for my burial –Matthew 26:12.\"",
+        "suggested_fix": "Replace the English book names in-inline with Afrikaans equivalents, preserving the punctuation and verse numbering and the surrounding emphasis tags. Example corrections: \"–Hebrews 13:6.\" -> \"–Hebreërs 13:6.\" and \"–Matthew 26:12.\" -> \"–Matteus 26:12.\" Ensure every inline citation in italics is updated similarly.",
+        "translation_quote": "–Hebrews 13:6.; –Matthew 26:12.; (and others)"
+      }
+    ],
+    "passed": false,
+    "score": 65
+  }
+}

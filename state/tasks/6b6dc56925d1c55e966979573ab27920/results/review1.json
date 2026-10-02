@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d433e9d7-b98b-4741-ac03-59d9b0bcbba5",
+    "response_id": "chatcmpl-EUURefAx9gYz4SO7jlkz2p1QI51Nt",
+    "usage": {
+      "completion_tokens": 1853,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8735,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10588
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — opening verse paragraph and scattered Scripture citations",
+        "severity": "major",
+        "source_quote": "2 Timothy 1:4-7; Genesis 3:16; 1 Timothy 2:14; Genesis 12:13; 1 Peter 3:6; Hebrews 13:6; Luke 10:38-42; Matthew 26:12; Luke 10:42; Hebrews 11: (implicit)",
+        "suggested_fix": "Translate all Bible book names into conventional Modern Hebrew forms and keep the exact chapter:verse numbers unchanged. Use a consistent Hebrew naming convention throughout (examples below). Replace English forms in the HTML while preserving tags and verse numbers. Suggested standard Hebrew forms: 2 Timothy -> \"טימותאוס ב'\" (or \"איגרת טימותאוס השנייה\") ; Genesis -> \"בראשית\" ; 1 Timothy -> \"טימותאוס א'\" (or \"איגרת טימותאוס הראשונה\") ; 1 Peter -> \"איגרת פטרוס א'\" or \"פטרוס א'\" ; Hebrews -> \"איגרת אל העברים\" (or \"אל העברים\") ; Luke -> \"לוקס\" (או \"לוקס\"/\"לוקס\" as used locally) ; Matthew -> \"מתי\"; Hebrews (chapter 11 ref) -> \"אל העברים\" ; Note: keep the numeric references exactly as in the source (e.g., \"טימותאוס ב' 1:4-7\"). Ensure every instance (including parenthetical \"see\" notes and inline references) is updated. Example replacement in the first paragraph: replace \"– 2 Timothy 1:4-7.\" with \"– טימותאוס ב' 1:4–7.\"",
+        "translation_quote": "… – 2 Timothy 1:4-7. … – Genesis 3:16 … (see 1 Timothy 2:14). … – Genesis 12:13. … – 1 Peter 3:6. … – Hebrews 13:6. (See Luke 10:38-42) … – Matthew 26:12. … – Luke 10:42. … (Hebrews chapter 11) "
+      },
+      {
+        "location": "source.html — metadata fields (section, subtitle)",
+        "severity": "minor",
+        "source_quote": "section: \"Christian Discipleship\"; subtitle: \"THE DISCIPLESHIP SERIES\"",
+        "suggested_fix": "Use idiomatic, natural Hebrew renderings for section and subtitle while preserving their roles as metadata. Suggestions: section -> \"חניכה נוצרית\" or \"דיסציפלשיפ נוצרי\"; subtitle -> \"סדרת החניכה\" or \"סדרת הדיסיפלשיפ\" (prefer \"סדרת החניכה\" if you prefer a Hebrew word for 'discipleship'). Update source.section and source.subtitle fields (leave article HTML tags unchanged).",
+        "translation_quote": "section: \"נצרות ומיקוד תלמידות\"; subtitle: \"סדרת הדיסציפלשיפ\""
+      },
+      {
+        "location": "source.html — proper names: Lois and Eunice; Anabaptist; some transliterations",
+        "severity": "minor",
+        "source_quote": "Lois; Eunice; Anabaptist",
+        "suggested_fix": "Standardize transliteration or use the conventional Hebrew Bible/heritage forms for proper names. Suggested forms: Lois -> \"לוֹאיס\" (or \"לואיס\" but prefer vocalized \"לוֹאיס\"); Eunice -> \"יוניקה\"/\"יוניקי\"/\"אוּניקֶה\" (common Hebrew Bibles use \"יוניקה\" or \"יוניקה׳); Anabaptist -> use an accepted Hebrew term such as \"אנאבאפטיסטי\" or explainatically \"קהילות אנאבפטיסטיות\". Ensure consistency across the article. Preserve HTML structure when making replacements.",
+        "translation_quote": "\"לואיס\" and \"אונייס\" (in the opening paragraph as rendered); \"אונאבאפטיסטיות\" (used for \"Anabaptist\")"
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

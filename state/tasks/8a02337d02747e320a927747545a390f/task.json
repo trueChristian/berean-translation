@@ -2,7 +2,6 @@
   "article_id": "b6a6823e-0f2a-4354-aebb-5c37ad85937a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,6 +23,83 @@
         },
         "total_tokens": 5736
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2237,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5383,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7620
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<blockquote class=\"lyrics\"> — first stanza, first line",
+      "severity": "critical",
+      "source_quote": "Nearer, my God, to Thee,",
+      "suggested_fix": "Translate the address correctly into Hebrew so it preserves the original English meaning (the singer moves closer to God). For example: \"קרוב אליך, אלוהי,\" or more idiomatically, \"להיות קרוב אליך, אלוהי\" — replace the current line while keeping the HTML structure.",
+      "translation_quote": "קרוב אלי, אלוהי,"
+    },
+    {
+      "location": "<p>paragraph mentioning mother's cause of death</p>",
+      "severity": "major",
+      "source_quote": "When she was five years old, her mother died of consumption, known today as tuberculosis.",
+      "suggested_fix": "Replace the incorrect Hebrew disease term with the correct modern equivalent. For example: \"כשנולדה היתה בת חמש, אמה נפטרה ממחלת הצרעת הריאה, המכונה היום שחפת\" is incorrect. Use: \"כשבהייתה בת חמש, אמה נפטרה ממחלת ה'קונסום' (consumption), המוכרת היום כשחפת.\" Better in Hebrew: \"כשנולדה הייתה בת חמש, אמה נפטרה מצרעת ריאה\" is still wrong — correct to: \"כשבת חמש, אמה נפטרה ממחלת ה'קונסמפשן' — היום שחפת (טוברגולוזיס).\" More simply: \"כשבת חמש, אמה נפטרה מצרעת ריאה, המכונה היום שחפת\" should be replaced with: \"כשבת חמש, אמה נפטרה מחלת הצרעת (consumption), המוכרת היום כשחפת.\"",
+      "translation_quote": "אמה נפטרה מצרעת ריאה, המכונה היום שחפת."
+    },
+    {
+      "location": "<figcaption> — Scripture line (figcaption)",
+      "severity": "major",
+      "source_quote": "Draw nigh to God, and he will draw nigh to you.",
+      "suggested_fix": "Provide an accurate, idiomatic Hebrew rendering of the verse that preserves meaning and grammatical sense. For example: \"התקרבו אל האלוהים, והוא יתקרב אליכם.\" Replace the current garbled Hebrew text with that rendering, preserving the <em> tag and surrounding HTML.",
+      "translation_quote": "הִתְקָרוֹב אֶל־הָאֱלֹהִים וְהִתְקָרוֹב יִתְקָרוֹב אֵלֶיךָ."
+    },
+    {
+      "location": "<p>third paragraph and related phrase about Rev. Fox (several occurrences)</p>",
+      "severity": "major",
+      "source_quote": "prepared by Rev. Fox, the hymn writer’s pastor.",
+      "suggested_fix": "Correct the gender/role wording to match the source (Rev. Fox is male). Example replacement: \" שאותו ערך הכומר פוקס, כומר המזמור.\" or \" שאותו ערך הכומר ויליאם ג'ונסון פוקס, כומר הכנסייה שלה.\" Keep HTML tags intact.",
+      "translation_quote": "אותו ערך הכומר פוקס, פסטורית המזמור."
+    },
+    {
+      "location": "<p>paragraph about pastor asking sisters to help — stray word</p>",
+      "severity": "minor",
+      "source_quote": "their pastor, the Rev. William Johnson Fox, asked these two exceptional sisters if they would help him",
+      "suggested_fix": "Remove the Cyrillic/foreign fragment and replace with correct Hebrew word 'הכומר' or 'הפוסק/הרב' to match the source. For example: replace 'пастוריהן' with 'פסטור' or better 'כומר'.",
+      "translation_quote": "יום אחד пасторияן, הכומר ויליאם ג'ונסון פוקס, ביקש משתי האחיות המיוחדות האלה..."
+    },
+    {
+      "location": "<p>paragraph listing other hymns by Lowell Mason</p>",
+      "severity": "minor",
+      "source_quote": "Other hymns by Mason include “From Greenland’s Icy Mountains”, “When I Survey the Wondrous Cross”, “A Charge to Keep I Have”, “Joy to the World”, “My Faith Looks Up to Thee”, and “O Day of Rest and Gladness”.",
+      "suggested_fix": "Translate quoted hymn titles into Hebrew (quoted prose must be translated). Either provide accepted Hebrew titles where they exist, or render transliterated/translated titles in Hebrew quotation marks. Example: '\"When I Survey the Wondrous Cross\" → \"כאשר אביט על הצלב המופלא\"' (or use established Hebrew hymn titles if known). Preserve punctuation and order.",
+      "translation_quote": "מזמורים נוספים של מייסון כוללים \"From Greenland's Icy Mountains\", \"When I Survey the Wondrous Cross\", \"A Charge to Keep I Have\", \"Joy to the World\", \"My Faith Looks Up to Thee\", ו־\"O Day of Rest and Gladness\"."
+    },
+    {
+      "location": "<p>paragraph about publication — phrase 'did not become well known for another 12 years'</p>",
+      "severity": "minor",
+      "source_quote": "In 1844, Rev. James Freeman Clarke introduced the hymn in America, but it did not become well known for another 12 years.",
+      "suggested_fix": "Adjust Hebrew phrasing for clarity and correctness while keeping meaning: e.g. replace 'אך הוא לא הפך ידוע עוד 12 שנה' with 'אך הוא לא הפך להיות ידוע עד עוד 12 שנה אחר כך' or 'אך הוא לא זכה לפרסום עד כעבור 12 שנה'.",
+      "translation_quote": "אך הוא לא הפך ידוע עוד 12 שנה."
+    },
+    {
+      "location": "<p>first paragraph — proper name spelling</p>",
+      "severity": "minor",
+      "source_quote": "Sarah Flower Adam was born at Harlow, England on February 22, 1805, to Benjamin and Eliza Flower.",
+      "suggested_fix": "Preserve the author's printed English name spelling transliterated consistently. The source prints 'Sarah Flower Adam' (no final 's'); the translation uses 'שרה פאוור אדמס' (with 's'). Use 'שרה פאוור אדאם' or 'שרה פלאוור אדם' to match the authorial spelling, or if the English source intended 'Adams' then note and keep the exact original spelling. Keep transliteration consistent across the article.",
+      "translation_quote": "שרה פאוור אדמס נולדה בהארלו, אנגליה ב־22 בפברואר 1805, לבנימין ואליזה פאוור."
     }
   ],
   "id": "8a02337d02747e320a927747545a390f",
@@ -69,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 52,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/bdacc95910a7433231bb636adde27ced309ebbaf33d26f4288193a37ef1ecead.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "529627b867a50e286116891ac48830f9194ac5c383794aa0c674aa93ff18825d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

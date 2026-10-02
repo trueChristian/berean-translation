@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c05da9dd-7ffa-4730-b031-6a020a40a463",
+    "response_id": "chatcmpl-EUURVRnmZGXpEeYmwpSwPEZPIf8DB",
+    "usage": {
+      "completion_tokens": 848,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4759,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5607
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Body, multiple paragraphs (tone/pronoun usage)",
+        "severity": "minor",
+        "source_quote": "(English uses consistent second-person phrasing: “Do you have purpose? … What are the things you are pursuing, and do you have a specific goal in mind? … Start by asking God to help you see areas where you can serve others in everyday life. …”)",
+        "suggested_fix": "Make the target-language second-person usage consistent. Choose either the informal 'tu/te' or the more neutral 'você/seu' form and apply it throughout. For example, change 'Comece pedindo a Deus que te ajude...' to 'Comece pedindo a Deus que o/a ajude...' or change nearby 'Você tem a oportunidade...' to 'Tu tens a oportunidade...' to match the chosen register.",
+        "translation_quote": "Paragraphs mix 'Você' and 'te' forms: e.g. 'Comece pedindo a Deus que te ajude a ver...' and later 'Você tem a oportunidade de impactar...'."
+      },
+      {
+        "location": "Luke quotation (Luke 19:12-13)",
+        "severity": "minor",
+        "source_quote": "\"He said therefore, A certain nobleman went into a far country to receive for himself a kingdom, and to return. And he called his ten servants, and delivered them ten pounds, and said unto them, Occupy till I come –Luke 19:12-13.\"",
+        "suggested_fix": "'Pounds' was rendered as 'minas', which is an acceptable and common Portuguese equivalent for this parable. No doctrinal change is present. If you prefer a closer literal match to the English word 'pounds', replace 'minas' with 'libras' or keep 'minas' as-is. No mandatory change required; consider editorial preference.",
+        "translation_quote": "'<em>Disse, pois: Um certo homem de nobre nascimento foi para uma terra distante receber para si um reino e voltar. E chamando os seus dez servos, deu-lhes dez minas e disse-lhes: Negociai até que eu venha –Lucas 19:12-13.</em>'"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

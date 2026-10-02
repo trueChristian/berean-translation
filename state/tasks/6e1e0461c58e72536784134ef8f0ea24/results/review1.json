@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "2be5102f-3e8f-49a3-9195-3698f34fe5d2",
+    "response_id": "chatcmpl-EUURjHOYo6IeKWpMuBhS3eNBAQBL8",
+    "usage": {
+      "completion_tokens": 850,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8947,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9797
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>…Matthew quote (source.html)</p>",
+        "severity": "critical",
+        "source_quote": "For in that she hath poured this ointment on my body, she did it for my burial –Matthew 26:12.",
+        "suggested_fix": "Translate the quoted Matthew 26:12 faithfully into Kiswahili, preserving that it explains the anointing was done preparing Jesus for burial. Example fix (preserve <em> tags and punctuation): <em>Kwa maana alipoteka mafuta haya kwenye mwili wangu, alifanya hivyo kwa ajili ya mazishi yangu – Mathayo 26:12.</em>",
+        "translation_quote": "<em>Kwa maana alipotaka kumwacha huyo, alinifanya tayari kwa maziko yangu – Mathayo 26:12.</em>"
+      },
+      {
+        "location": "Paragraph beginning \"Did Paul not say in Ephesians...\" (source.html)",
+        "severity": "minor",
+        "source_quote": "Did Paul not say in Ephesians chapter five that the husband is “the savior of the body”?",
+        "suggested_fix": "Correct the translator's rendering of the apostle Paul's name to standard Kiswahili form. Replace “Paolo” with “Paulo”. Example fix (preserve surrounding HTML): \"Je, Paulo hakusema katika Waefeso sura tano kwamba mume ni 'mkombozi wa mwili'?\"",
+        "translation_quote": "\"Je, Paolo hakusema katika Waefeso sura tano kwamba mume ni “mkombozi wa mwili”?\""
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

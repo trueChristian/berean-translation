@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c5f78929-9437-4534-82e4-4256c16b1115",
+    "response_id": "chatcmpl-EUURQNWAStsjNnBbBNqxQk90ogUrl",
+    "usage": {
+      "completion_tokens": 880,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5047,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5927
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...Consider the charge he gave his servants in verse 13. <em>Disse dunque: Un certo uomo nobile partì per un paese lontano, per ricevere per sé la dignità di re e ritornare. E chiamò i suoi dieci servi, e diede loro dieci mine, e disse loro: Occupatevi del mio patrimonio finché io torni –Luca 19:12-13.</em></p>",
+        "severity": "minor",
+        "source_quote": "He said therefore, A certain nobleman went into a far country to receive for himself a kingdom, and to return. And he called his ten servants, and delivered them ten pounds, and said unto them, Occupy till I come –Luke 19:12-13.",
+        "suggested_fix": "Render the quoted clause more literally and without adding “del mio patrimonio.” For example: «Disse dunque: Un certo uomo nobile partì per un paese lontano, per ricevere per sé un regno e tornare. E chiamò i suoi dieci servi, diede loro dieci mine e disse loro: ‘Occupate fino al mio ritorno’ –Luca 19:12-13.» Preserve the punctuation and verse reference as in the source.",
+        "translation_quote": "Disse dunque: Un certo uomo nobile partì per un paese lontano, per ricevere per sé la dignità di re e ritornare. E chiamò i suoi dieci servi, e diede loro dieci mine, e disse loro: Occupatevi del mio patrimonio finché io torni –Luca 19:12-13."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "44bb2a82-527a-4f35-85f1-c24cd638cedf",
+    "response_id": "chatcmpl-EUURK4nZFgmnHPdl5FOVPW1uDLRRU",
+    "usage": {
+      "completion_tokens": 868,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3890,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4758
+    }
+  },
+  "received_at": "2026-10-02T11:17:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"As abruptly as the storm began, it calmed. The wind stopped, the rain slowed, and very soon the sun was shining again.\"",
+        "severity": "minor",
+        "source_quote": "As abruptly as the storm began, it calmed. The wind stopped, the rain slowed, and very soon the sun was shining again.",
+        "suggested_fix": "Adjust Arabic phrasing for naturalness and clarity while preserving meaning. For example: «بقدر ما بدأت العاصفة فجأة، فكذلك هدأت فجأة. توقفت الرياح، خفّ المطر، وسرعان ما أشرقت الشمس مجدداً.» Ensure punctuation and word order remain inside the same paragraph tags.",
+        "translation_quote": "بقدر ما بدأت العاصفة فجأة، هدأت بنفس الفجاءة. توقفت الرياح، خفّ المطر، وسرعان ما سطع الشمس مجدداً."
+      },
+      {
+        "location": "Paragraph: \"Throughout that summer and for many summers after, every time the rumble of thunder was heard or she heard the words “tornado warning”, her heart would beat faster, and a knot would settle in her stomach.\"",
+        "severity": "minor",
+        "source_quote": "Throughout that summer and for many summers after, every time the rumble of thunder was heard or she heard the words “tornado warning”, her heart would beat faster, and a knot would settle in her stomach.",
+        "suggested_fix": "Use a more idiomatic Arabic expression for “many summers after” (avoid \"صيفيات\"). For example: «طوال ذلك الصيف وفي غضون صيفيات عديدة تلت ذلك» or better: «طوال ذلك الصيف ولكثير من السنوات الصيفية التي تلت،» so the sentence reads naturally: «طوال ذلك الصيف ولعدة صيفيات لاحقة، في كل مرة يسمع فيها دوي رعد أو تسمع عبارة «تحذير من زوبعة»، كان قلبها يخفق أسرع ويتكوّن عقد في معدتها.»",
+        "translation_quote": "طوال ذلك الصيف ولعدة صيفيات تالية، في كل مرة يُسمع فيها رعد أو تسمع عبارة «تحذير من زوبعة»، كان قلبها يخفق أسرع ويتكون عقد في معدتها."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

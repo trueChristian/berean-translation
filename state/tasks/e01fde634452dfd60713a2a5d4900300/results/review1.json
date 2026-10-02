@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9f98eefc-afcb-4d62-af6e-895b00a3816b",
+    "response_id": "chatcmpl-EUURHflVSvbXJdaXJGCUH8hXu7nDx",
+    "usage": {
+      "completion_tokens": 788,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1505,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2293
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> — stanza 5, second line",
+        "severity": "minor",
+        "source_quote": "We need time for God, and our families too.\n    Maybe less time at work could surely do.",
+        "suggested_fix": "Make the second line more natural Spanish. For example: «Quizá menos tiempo en el trabajo podría ser suficiente.» or «Quizá menos tiempo en el trabajo bastaría.» Preserve line break and tags.",
+        "translation_quote": "Necesitamos tiempo para Dios y para la familia también.\n    Quizá menos tiempo en el trabajo podría bastar bien."
+      },
+      {
+        "location": "<div class=\"poem\"> — stanza 7, second line",
+        "severity": "minor",
+        "source_quote": "We all know the Bible—no work, no eat.\n    But money will bind us until death we meet.",
+        "suggested_fix": "Smooth the phrasing so it reads naturally in Spanish while preserving meaning. Suggested: «Pero el dinero nos ata hasta que la muerte nos alcance.» or «Pero el dinero nos ata hasta que nos encontremos con la muerte.»",
+        "translation_quote": "Todos conocemos la Biblia—si no trabajas, no comes.\n    Pero el dinero nos ata hasta que encontremos la muerte."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

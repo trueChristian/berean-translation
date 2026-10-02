@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5dceafd3-28c8-4bc1-b058-0c7dd10ad80d",
+    "response_id": "chatcmpl-EUURFZl8Z1n7r2QorF0Tg7G08DiSA",
+    "usage": {
+      "completion_tokens": 906,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4340,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5246
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "critical",
+        "source_quote": "Thunder, Twisters, and Trust",
+        "suggested_fix": "Translate the English title into Bengali. For example: “বজ্র, ঘূর্ণিঝড় ও বিশ্বাস” (or another idiomatic Bengali title). Preserve this as the <title> field value in the translation metadata.",
+        "translation_quote": "Thunder, Twisters, and Trust"
+      },
+      {
+        "location": "section",
+        "severity": "major",
+        "source_quote": "Children’s Corner",
+        "suggested_fix": "Translate the section name into standard Bengali. For example: “শিশুদের কোণ” or “শিশু কোণ” and place that translated string in the translation 'section' field.",
+        "translation_quote": "Children’s Corner"
+      },
+      {
+        "location": "article paragraph (\"playthings... hurried into the house\")",
+        "severity": "major",
+        "source_quote": "She quickly gathered up her playthings and hurried into the house.",
+        "suggested_fix": "Correct the mistranslation that uses a wrong word (\"মধ্যবিত্তে\"). Use a natural Bengali rendering that preserves meaning, e.g.: \"সে দ্রুত তার খেলনা কান্ডাস্ট করে বাড়ির ভেতরে ছুটে ঢুকল।\" (Keep original HTML paragraph tags unchanged.)",
+        "translation_quote": "সে দ্রুত তার খেলনা তুলে নিয়ে বাড়ির মধ্যবিত্তে দৌড়ে ঢুকল।"
+      },
+      {
+        "location": "article paragraph (\"break the glass\")",
+        "severity": "major",
+        "source_quote": "Ellie wondered if it was possible that it was raining hard enough to break the glass.",
+        "suggested_fix": "Remove the added word that changes meaning (\"শয়তানের\"). Translate faithfully, e.g.: \"এলি ভাবল, বৃষ্টি কি এত প্রবল যে জানালার কাচ ভেঙে যাবে?\" (Preserve the same paragraph <p> tags.)",
+        "translation_quote": "এলি ভেবে উঠল—এত জোরে বৃষ্টি হচ্ছে যে শয়তানের কাচও ভেঙে যেতে পারে কি না।"
+      },
+      {
+        "location": "article paragraph (\"humidity and heat had returned making the night hot and muggy\")",
+        "severity": "major",
+        "source_quote": "After the storm had passed the humidity and heat had returned making the night hot and muggy.",
+        "suggested_fix": "Correct the mistranslation that renders 'heat' as 'শীতলতা' (coldness). Use a faithful Bengali equivalent, e.g.: \"ঝড় কাটার পর আর্দ্রতা ও তাপ ফিরে আসে, রাতটি আবার গরম ও চাপলা হয়ে গেল।\"",
+        "translation_quote": "ঝড় কেটে যাওয়ার পর আর্দ্রতা ও শীতলতা ফিরে এসেছিল, রাতটি পুনরায় গরম ও আর্দ্র হয়ে উঠল।"
+      }
+    ],
+    "passed": false,
+    "score": 75
+  }
+}

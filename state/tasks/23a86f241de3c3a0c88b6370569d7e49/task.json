@@ -2,7 +2,6 @@
   "article_id": "c16663c4-9436-466b-bffd-dd954a5f3442",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,6 +23,41 @@
         },
         "total_tokens": 7767
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1904,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7492,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9396
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html — inline Scripture references (multiple locations: Matthew 16:25; John 14:15; 1 John 2:4; John 13:35; James 5:5-6; Luke 8:14; 2 Timothy 3:1-5; Revelation 3:15-16; 1 Corinthians 5; Ephesians 4:11-13)",
+      "severity": "major",
+      "source_quote": "...Jesus said: For whosoever will save his life shall lose it: and whosoever will lose his life for my sake shall find it –Matthew 16:25.... Remember the Scriptures: If ye love me, keep my commandments –John 14:15. And, He that saith, I know him, and keepeth not his commandments, is a liar, and the truth is not in him –1 John 2:4.... By this shall all men know that ye are my disciples, if ye have love one to another –John 13:35.... Ye have lived in pleasure on the earth... –James 5:5-6.... And that which fell among thorns are they... –Luke 8:14.... This know also, that in the last days perilous times shall come... lovers of pleasures more than lovers of God... –2 Timothy 3:1-5.... I know thy works... I will spue thee out of my mouth –Revelation 3:15-16.... Remember a little leaven leavens the lump. (1 Corinthians 5).... And he gave some, apostles; and some, prophets... – Ephesians 4:11-13.",
+      "suggested_fix": "Translate or localize the book names of the cited Scriptures into standard contemporary Russian (keep the chapter and verse numbers unchanged). Replace each English book name token with the conventional Russian form appropriate for citation, e.g.: \"Matthew 16:25\" → \"Матфея 16:25\"; \"John 14:15\" → \"Иоанна 14:15\"; \"1 John 2:4\" → \"1 Иоанна 2:4\"; \"John 13:35\" → \"Иоанна 13:35\"; \"James 5:5-6\" → \"Иакова 5:5-6\"; \"Luke 8:14\" → \"Луки 8:14\"; \"2 Timothy 3:1-5\" → \"2 Тимофею 3:1-5\"; \"Revelation 3:15-16\" → \"Откровение 3:15-16\" (or \"Откровение Иоанна 3:15-16\" if preferred by the publication); \"1 Corinthians 5\" → \"1 Коринфянам 5\"; \"Ephesians 4:11-13\" → \"Ефесянам 4:11-13\". Make these replacements in the translated HTML exactly where the English reference currently appears, preserving surrounding punctuation and italic tags. (The verse texts are already translated into Russian; only the book names/reference labels need localization.)",
+      "translation_quote": "...Иисус сказал: Ибо всякий, кто хочет спасти свою жизнь, тот потеряет её; а кто потеряет жизнь мою ради, тот найдёт её –Matthew 16:25.... Помните Писание: Если вы любите Меня, соблюдите Мои заповеди –John 14:15. И: Кто говорит: Я познал Его, и не соблюдает заповедей Его, тот лжец, и истины в нём нет –1 John 2:4.... По тому узнают все, что вы Мои ученики, если будете иметь любовь между собою –John 13:35.... Вы жили в удовольствии на земле... –James 5:5-6.... А что упало среди терний... –Luke 8:14.... Знай ещё, что в последние дни наступят времена тяжелые... –2 Timothy 3:1-5.... Я знаю дела твои: ты ни холоден, ни горяч... –Revelation 3:15-16.... Помните: малая закваска заквашивает всё тесто. (1 Corinthians 5).... И Он поставил одних Апостолами... – Ephesians 4:11-13."
+    },
+    {
+      "location": "source.section (metadata)",
+      "severity": "major",
+      "source_quote": "MUSINGS OF A MISSIONARY",
+      "suggested_fix": "Translate the section/series name into standard contemporary Russian to match the rest of the translated metadata. Suggested renderings: \"Размышления миссионера\" or \"Мысли миссионера\" (choose the publication's preferred style). Replace the English section string with the chosen Russian phrase in the translation metadata (preserve capitalization/HTML structure as required by the CMS).",
+      "translation_quote": "MUSINGS OF A MISSIONARY"
     }
   ],
   "id": "23a86f241de3c3a0c88b6370569d7e49",
@@ -69,11 +103,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/930958d5d08150faddf8cc6d4ba6c22ee28be341e3250f81368856d9c75f0afc.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "8dd5d606c1d8d9cf5603a40e68a843196a12e272a0bd52717b5de07e6983516a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

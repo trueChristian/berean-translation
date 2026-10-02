@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "50401568-dd69-4a70-a8c6-59f653d10213",
+    "response_id": "chatcmpl-EUURsBsicDKX5Rqh28I4Kfu56Qqc6",
+    "usage": {
+      "completion_tokens": 1104,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6186,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7290
+    }
+  },
+  "received_at": "2026-10-02T11:17:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "subtitle",
+        "severity": "minor",
+        "source_quote": "MENNONITE LIFE IN THE CONESTOGA VALLEY OF COLONIAL PENNSYLVANIA",
+        "suggested_fix": "Translate the place-name phrase into French while preserving the place name if desired. Example replacement (preserving HTML structure): \"VIE MENNONITE DANS LA VALLÉE DE CONESTOGA DE LA PENNSYLVANIE COLONIALE\" or, if you prefer to retain the English place name as a proper noun, add a French preposition: \"VIE MENNONITE DANS LA Conestoga Valley DE LA PENNSYLVANIE COLONIALE\". Apply the chosen wording to the subtitle field.",
+        "translation_quote": "VIE MENNONITE DANS LA CONESTOGA VALLEY DE LA PENNSYLVANIE COLONIALE"
+      },
+      {
+        "location": "paragraph: farming paragraph (sentence with 'Ferhexing')",
+        "severity": "minor",
+        "source_quote": "After about 50 years, the difference the Swiss had made in agriculture was noticeable enough that some frustrated German neighbors accused them of “Ferhexing” (the Pennsylvania Dutch term for witchcraft) the ground (which of course was not true).",
+        "suggested_fix": "Correct the mistranscription 'pa Dutch' to 'Pennsylvanie Dutch' (or the French equivalent 'Pennsylvanie Dutch' / 'le terme pennsylvanien en dialecte Pennsylvania Dutch'). Suggested corrected French rendering: « ... les accusèrent d’avoir « Ferhexing » (le terme Pennsylvania Dutch de Pennsylvanie pour la sorcellerie) ... » or « ... (le terme pennsylvanien en Pennsylvania Dutch pour la sorcellerie) ... » Replace only the few words shown to preserve surrounding translation.",
+        "translation_quote": "Après environ 50 ans, la différence que les Suisses avaient apportée en agriculture était suffisamment notable pour que certains voisins allemands frustrés les accusent d’avoir « Ferhexing » (le terme pa Dutch de Pennsylvanie pour la sorcellerie) le sol (ce qui bien sûr n’était pas vrai)."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

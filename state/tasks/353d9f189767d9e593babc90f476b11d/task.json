@@ -2,7 +2,6 @@
   "article_id": "a6ab0f33-e20a-4b19-ae47-f094395a54f8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,6 +23,69 @@
         },
         "total_tokens": 1729
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1203,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1518,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2721
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> first stanza, line 2",
+      "severity": "major",
+      "source_quote": "Or are they the same; can someone see?",
+      "suggested_fix": "Översättningen bör återge meningen tydligt och idiomatiskt på svenska. Föreslagen fix: \"Eller är de samma — kan någon se det?\" (ersätt \"kan någon se det?\" om redan närvarande, men behåll bindestreck/paus).",
+      "translation_quote": "Eller är de samma; kan någon se det?"
+    },
+    {
+      "location": "<div class=\"poem\"> second stanza, line 2",
+      "severity": "major",
+      "source_quote": "They trade their lives, with no reason why.",
+      "suggested_fix": "Den svenska texten ändrar och blir oklart: \"utan skäl som ber\" är felaktigt och obegripligt. Föreslagen fix: \"De säljer sina liv, utan någon anledning.\" eller \"De byter bort sina liv, utan skäl.\"",
+      "translation_quote": "De byter sina liv, utan skäl som ber."
+    },
+    {
+      "location": "<div class=\"poem\"> fourth stanza, line 2",
+      "severity": "major",
+      "source_quote": "The devil smiles as he tightens our collar.",
+      "suggested_fix": "Översättningen använder det felaktiga och nonsensordet \"halskragehål\". Använd en idiomatisk och begriplig svensk formulering som bevarar bilden: \"Djävulen ler när han stramar åt vår krage.\" eller \"...när han drar åt vår krage.\"",
+      "translation_quote": "Djävulen ler när han stramar vårt halskragehål."
+    },
+    {
+      "location": "<div class=\"poem\"> seventh stanza, line 1",
+      "severity": "major",
+      "source_quote": "We all know the Bible—no work, no eat.",
+      "suggested_fix": "Grammatiken i översättningen är felaktig (\"ingen arbete\"). Använd korrekt svenskt könsneutralt uttryck: \"ingen arbetare, ingen mat\" skulle förändra meningen; bättre: \"Ingen arbetar, ingen äter.\" eller mer troget originalets proverbiala form: \"Ingen arbetar — ingen äter.\"",
+      "translation_quote": "Vi känner alla Bibeln—ingen arbete, ingen mat."
+    },
+    {
+      "location": "<div class=\"poem\"> eighth stanza, line 2",
+      "severity": "major",
+      "source_quote": "The love of money starts with a seed.",
+      "suggested_fix": "Översättningen förändrar satsens konstruktion och blir klumpig: \"Känslan för pengar börjar från ett litet frö i sig.\" Föreslagen fix: \"Kärleken till pengar börjar som ett litet frö.\" eller \"Kärleken till pengar börjar som ett frö.\"",
+      "translation_quote": "Känslan för pengar börjar från ett litet frö i sig."
+    },
+    {
+      "location": "<div class=\"poem\"> ninth stanza, line 2 (final line)",
+      "severity": "major",
+      "source_quote": "“Freedom, or bondage?” is the question I bring.",
+      "suggested_fix": "\"bring\" är felaktigt översatt som \"bring\" i svenskan. Använd ett idiomatiskt svenskt verb som bevarar meningen: \"'Frihet eller träldom?' är frågan jag ställer.\" eller \"...är frågan jag för fram.\"",
+      "translation_quote": "”Frihet eller träldom?” är frågan jag bring."
     }
   ],
   "id": "353d9f189767d9e593babc90f476b11d",
@@ -69,11 +131,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1de56fab2737a3548fafa046f54e8b49fd10031dc8824cc6696d1a638910abcb.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "e5687feec796faa59fb2c84ea91a33a13b26784033d8d71bfc9aba932005e757",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

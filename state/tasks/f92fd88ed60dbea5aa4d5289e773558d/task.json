@@ -2,7 +2,6 @@
   "article_id": "2b07502a-cbf0-4b92-8bb8-7910a5557f84",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:09+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 6218
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1185,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5994,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7179
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Paragraph: \"Medicine\" (article body) — place name",
+      "severity": "major",
+      "source_quote": "She lived in a little house, with a small barn (possibly built by Hans for her) on top of a steep hill overlooking Farmersville, called “Cat’s Back Hill”.",
+      "suggested_fix": "Übersetzen Sie den Ortsnamen ins Deutsche oder kennzeichnen Sie ihn als übersetzten Eigennamen. Beispiel: „sie lebte in einem kleinen Haus mit einer kleinen Scheune (möglicherweise von Hans für sie gebaut) auf einem steilen Hügel oberhalb von Farmersville, genannt ‚Cat’s Back Hill‘.“ Falls Sie den Namen völlig eindeutschten wollen: „‚Cats Rücken-Hügel‘“ (oder eine andere inhaltstreue deutsche Wiedergabe). Behalten Sie unbedingt die Anführungszeichen und die Reihenfolge der HTML-Tags bei.",
+      "translation_quote": "Sie lebte in einem kleinen Haus mit einer kleinen Scheune (möglicherweise von Hans für sie gebaut) auf einem steilen Hügel mit Blick auf Farmersville, genannt “Cat’s Back Hill”. "
+    },
+    {
+      "location": "Several paragraphs — forms of address",
+      "severity": "minor",
+      "source_quote": "a woman showed up in the community and introduced herself as Mrs. Hans Groff.",
+      "suggested_fix": "Übersetzen Sie die Anrede ins Deutsche, z. B. „stellte sich als Frau Hans Groff vor.“ Behalten Sie die Satzstruktur und vorhandene HTML-Tags bei.",
+      "translation_quote": "Jahre später tauchte eine Frau in der Gemeinde auf und stellte sich als Mrs. Hans Groff vor."
+    },
+    {
+      "location": "Paragraph about Hoffs (early history) — technical term retained",
+      "severity": "minor",
+      "source_quote": "Many of the Hoffs (house/barn fort enclosures) were burned out and the fields were left uncultivated for years.",
+      "suggested_fix": "‚Hoffs‘ ist im Englischen belassen; das ist akzeptabel, da die Übersetzung die erläuternde Klammer („Haus-/Scheunenbefestigungen“) liefert. Wenn Sie dennoch vollständig einheitlich übersetzen wollen, ersetzen Sie ‚Hoffs‘ durch ‚Höfe‘ oder ‚Hofbefestigungen‘ und behalten Sie die Erklärung in Klammern bei. Beispiel: „Viele Hoffs (Haus-/Scheunenbefestigungen) wurden ausgebrannt…“",
+      "translation_quote": "Viele Hoffs (Haus-/Scheunenbefestigungen) waren ausgebrannt, und die Felder blieben jahrelang unbestellt."
     }
   ],
   "id": "f92fd88ed60dbea5aa4d5289e773558d",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 80,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/589bbbf06d53e840c1b02c16b5a0e9d55ee78fbc01185cea481271c35d6c3b97.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b3e43e634638cbb2acbfd582a6dcb7a3f9f4e2dc77e578bc59a693261f0aa67b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

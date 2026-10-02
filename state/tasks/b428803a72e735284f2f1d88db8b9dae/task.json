@@ -2,7 +2,6 @@
   "article_id": "cc225bc9-2dda-46f3-a628-13af4fd95e7a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d90b83dac2e44f90add09e8fe7b02194",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -24,8 +23,37 @@
         },
         "total_tokens": 3646
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 826,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3179,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4005
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Paragraph: \"Then there is the issue of cell phones and E-bikes...\" (the paragraph that begins \"Then there is the issue of cell phones and E-bikes.\")",
+      "severity": "minor",
+      "source_quote": "Also, there are help wanted signs everywhere.",
+      "suggested_fix": "Replace the incorrect rendering « panneaux “aide‑vouée” » with a natural French equivalent. Suggested fixes (choose one that fits the house style): « il y a des panneaux “On embauche” partout. », « il y a partout des panneaux “Recherche d’emploi” », or « il y a partout des panneaux “Aide demandée” ». Preserve surrounding HTML and punctuation.",
+      "translation_quote": "De plus, il y a des panneaux « aide‑vouée » partout."
+    }
+  ],
+  "finished_at": "2026-10-02T11:17:43+00:00",
   "id": "b428803a72e735284f2f1d88db8b9dae",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "fra",
@@ -69,11 +97,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/75bf9f86ddf02e207a89e1a74e3d26989515704eae85bcbc97e911af15e7ea76.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "1d62440b3aaa33963e8085784efc020cfa0cf8cb3b508148be95c55907a09059",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

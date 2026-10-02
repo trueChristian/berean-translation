@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7adc3bf6-d847-4de8-a8ef-b0a3b802b934",
+    "response_id": "chatcmpl-EUURFoMZAFqu0dlIJZSsKPJitnZbl",
+    "usage": {
+      "completion_tokens": 1323,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7339,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8662
+    }
+  },
+  "received_at": "2026-10-02T11:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning \"Eunice was a Jewess...\" (source.html)",
+        "severity": "major",
+        "source_quote": "Eunice was a Jewess, who, upon embracing faith in Christ, found herself in an unequal yoke with a Greek. We read that unfeigned faith was first wrought in her mother Lois, and that affected Eunice. This, in turn, had a sanctifying effect on young Timothy, who was then prepared for the work of the Lord. We have no record that his father was added to the faith, but one can only imagine the initial turmoil within the breast of this young Jewess as she reverently honored her head and circumcised not her son but rather committed him to prayer.",
+        "suggested_fix": "Translate the full passage so it preserves the original meaning and relationships, use consistent and conventional Korean forms for the proper names (Eunice = '유니게' or '에우니게', Lois = '로이스'), and render 'honored her head' clearly as honoring her husband and 'circumcised not her son but rather committed him to prayer' faithfully. Example (preserve HTML tags and punctuation):\n\n\"유니게는 유대 여인이었는데, 그리스도를 믿게 되었을 때 그리스인과 불균형한 멍에를 지게 되었습니다. 우리는 참된 믿음이 먼저 그의 어머니 로이스에게서 역사했고 그것이 유니게에게 영향을 주었다고 읽습니다. 이것은 다시 어린 디모데에게 거룩하게 하는 영향을 주어 그가 주의 일에 준비되게 했습니다. 그의 아버지가 믿음에 더해졌다는 기록은 없습니다. 그러나 이 젊은 유대 여인이 처음 느꼈을 혼란을 상상할 수 있습니다. 그녀는 경외함으로 남편을 공경하였고, 아들을 할례시키지는 못했으나 오히려 그를 기도에 맡겼습니다.\"",
+        "translation_quote": "\"율니게는 유대 여성이었는데 그리스도를 믿을 때 불균형한 멍에를 지는 이와 동거하게 되었습니다. 우리는 참된 믿음이 먼저 그의 어머니 로이스에게서 역사했고 그것이 유니게에게 영향을 주었다고 읽습니다. 이것은 다시 어린 디모데에게 거룩하게 하는 영향을 주어 그가 주의 일에 준비되게 했습니다. 그의 아버지가 믿음에 더해졌다는 기록은 없으나, 이 어린 유대 여인의 가슴 속에 처음 일어났을 혼란을 상상할 수밖에 없습니다. 그녀는 경외심으로 그 위에 존경을 표하며 아들을 할례하지 아니하고 오히려 그를 기도에 맡겼습니다.\""
+      },
+      {
+        "location": "Same paragraph, proper-name consistency (source.title/source.html)",
+        "severity": "minor",
+        "source_quote": "Eunice ... Lois",
+        "suggested_fix": "Use a single, conventional Korean transliteration for the proper name 'Eunice' throughout the translation and ensure 'Lois' is consistently rendered. Recommended: Eunice = '유니게' or '에우니게' (pick one) and Lois = '로이스'. Update all occurrences to the chosen spellings to avoid confusion.",
+        "translation_quote": "The translation uses both \"율니게\" and \"유니게\" for Eunice, and \"로이스\" for Lois in other places."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}
