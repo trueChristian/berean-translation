@@ -144,6 +144,8 @@ class State:
         entries = {(e['language'],e['id']):e for e in index['articles']}
         rows = ['# Translation status','',
                 'Generated from the pinned source catalogue and durable work records. No API call is made by this report.',
+                '', 'Ready means source-compatible and exportable here; live deployment is verified separately.',
+                'Finished means processing has stopped, not that every requested translation passed. Held items still need action.',
                 '',f'Observed English revision: `{source["revision"] or "not yet discovered"}`','',
                 '| Issue selector | Articles | Ready / target | Active | Not ready | Stale |',
                 '| --- | ---: | ---: | ---: | ---: | ---: |']
@@ -190,19 +192,45 @@ class State:
                             f'{sum(t["status"] not in TERMINAL for t in latest)} | '
                             f'{sum(t["status"] in ("not_ready","budget_blocked","source_error") for t in latest)} | '
                             f'{sum(t["status"]=="proposal" for t in latest)} |')
+        recovery_policy = config.runtime.get('automatic_downstream_recovery', {})
+        allocated = sum(c.get('downstream_allocation_usd', 0) for c in self.campaigns()
+                        if c.get('downstream_recovery') and not c.get('dry_run'))
+        cap = recovery_policy.get('total_budget_usd', 0)
+        if not recovery_policy.get('enabled'):
+            recovery_status = 'Paused: new downstream recovery submissions are disabled; held work is not silently retried.'
+        elif cap - allocated < recovery_policy.get('campaign_budget_usd', 0):
+            recovery_status = 'Budget blocked: the next hourly recovery envelope does not fit the remaining authorization.'
+        else:
+            recovery_status = 'Enabled: eligible held candidates can enter bounded hourly recovery; passing all gates is still required.'
+        rows += ['', '## Held-work recovery', '', recovery_status,
+                 f'Accepted lifetime recovery allocations: ${allocated:.6f} / ${cap:.2f}. '
+                 'Allocations are not recycled after failure or cancellation.',
+                 'Policy refusals, unknown legacy outcomes, source changes and exhausted per-source attempts remain held for owner attention.',
+                 'A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.']
         errors = sorted((self.root/'state/queue-errors').glob('*.json'))
         if errors:
             rows += ['', '## Rejected requests', '', 'These requests did not start a paid campaign. Inspect the recorded validation error before submitting a new request.', '']
             for path in errors:
                 relative = path.relative_to(self.root).as_posix()
                 rows.append(f'- [`{path.stem}`]({relative})')
-        rows += ['', '## Campaigns', '', '| Request | Trigger | Operation | Status | Tasks | Reported usage (USD) | Reserved ceiling (USD) | Report |',
-                 '| --- | --- | --- | --- | ---: | ---: | ---: | --- |']
+        rows += ['', '## Campaigns', '', '| Request | Trigger | Operation | Processing state | Tasks | Outcomes | Reported usage (USD) | Reserved ceiling (USD) | Report |',
+                 '| --- | --- | --- | --- | ---: | --- | ---: | ---: | --- |']
         for campaign in self.campaigns():
-            trigger = ('exact recovery' if campaign.get('recovery_of_campaign') else
+            outcomes = {'complete':0, 'held':0, 'active':0, 'proposal':0, 'cancelled':0, 'unknown':0}
+            for identity in campaign.get('tasks', []):
+                task = task_by_id.get(identity)
+                status = task.get('status') if task else None
+                category = ('held' if status in ('not_ready','budget_blocked','source_error') else
+                            'active' if status in ('queued','in_batch') else
+                            status if status in ('complete','proposal','cancelled') else 'unknown')
+                outcomes[category] += 1
+            summary = ', '.join(f'{count} {label}' for label,count in outcomes.items() if count) or 'no task work'
+            trigger = ('hourly recovery' if campaign.get('downstream_request', {}).get('scheduled_hour') else
+                       'manual recovery' if campaign.get('downstream_recovery') else
+                       'exact recovery' if campaign.get('recovery_of_campaign') else
                        'source refresh' if campaign.get('source_refresh') else 'manual')
             rows.append(f'| `{campaign["id"]}` | {trigger} | {campaign["operation"]} | {campaign["status"]} | {len(campaign.get("tasks",[]))} | '
-                        f'{campaign.get("reported_usage_usd",0):.8f} | '
+                        f'{summary} | {campaign.get("reported_usage_usd",0):.8f} | '
                         f'{campaign.get("reserved_usd",0):.6f} / {campaign["budget_usd"]:.2f} | '
                         f'[state](state/campaigns/{campaign["id"]}.json) |')
         batches = self.batches()
