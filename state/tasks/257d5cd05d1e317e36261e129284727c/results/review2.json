@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e12e1c52-15bd-4848-90b1-3a88950b2ca6",
+    "response_id": "chatcmpl-EUWyAijrFfLzJyyegzwRZD9PJ2QH3",
+    "usage": {
+      "completion_tokens": 917,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8291,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9208
+    }
+  },
+  "received_at": "2026-10-02T12:50:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<section class=\"references\"> <ol> <li>Strongs Concordance</li> </ol> </section>",
+        "severity": "minor",
+        "source_quote": "Strongs Concordance",
+        "suggested_fix": "Translate the reference title into French or provide the conventional French form. For example: \"Concordance de Strong\". Preserve HTML structure exactly.",
+        "translation_quote": "Strongs Concordance"
+      },
+      {
+        "location": "<p>… Paltiel …</p> (2 Samuel paragraph)",
+        "severity": "minor",
+        "source_quote": "Phaltiel",
+        "suggested_fix": "Use the same transliteration as the English source for this proper name (\"Phaltiel\") or confirm the target-language conventional form. Preserve HTML tags and placement.",
+        "translation_quote": "Paltiel"
+      },
+      {
+        "location": "<p>« Une grande paix ont ceux qui aiment ta loi : et rien ne les scandalise » (Psaume 119:165).</p>",
+        "severity": "minor",
+        "source_quote": "\"Great peace have they which love thy law: and nothing shall offend them\" (Psalm 119:165).",
+        "suggested_fix": "The translation \"rien ne les scandalise\" is understandable and faithful, but consider a more idiomatic French rendering for clarity while preserving meaning, e.g. \"et rien ne les fait trébucher\" or \"et rien ne les scandalise\" is acceptable. No HTML changes.",
+        "translation_quote": "« Une grande paix ont ceux qui aiment ta loi : et rien ne les scandalise » (Psaume 119:165)."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

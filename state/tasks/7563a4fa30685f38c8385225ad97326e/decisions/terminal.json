@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "<blockquote> (paragraph quoting reconciliation in source.html near \"Christ came to this earth to reconcile us to God.\")",
+      "severity": "major",
+      "source_quote": "Christ came to this earth to reconcile us to God. He paid the price of our sin and guilt.",
+      "suggested_fix": "Translate the sentence to Greek preserving the theological meaning of 'reconcile' (to restore right relationship). Replace the current Greek wording with a faithful rendering such as: «Ο Χριστός ήλθε σε αυτή τη γη για να μας αποκαταστήσει στη σχέση με τον Θεό (να μας συμφιλιώσει με τον Θεό). Πλήρωσε το τίμημα της αμαρτίας και της ενοχής μας.» Preserve surrounding HTML and punctuation.",
+      "translation_quote": "«Ο Χριστός ήλθε σ’ αυτόν τον κόσμο για να μας συμμαζέψει με τον Θεό. Πλήρωσε το τίμημα της αμαρτίας και της ενοχής μας.»"
+    },
+    {
+      "location": "<h2>Αρρητότητα (Contentment)</h2>",
+      "severity": "major",
+      "source_quote": "Contentment",
+      "suggested_fix": "The English header 'Contentment' must be rendered into contemporary Modern Greek with correct meaning. Replace the heading and parenthetical with a single Modern Greek word or short phrase, e.g.: <h2>Ικανοποίηση (Contentment)</h2> or simply <h2>Ικανοποίηση</h2>. Do not use 'Αρρητότητα' (which means 'ineffability' and is incorrect). Preserve the tag and position.",
+      "translation_quote": "<h2>Αρρητότητα (Contentment)</h2>"
+    },
+    {
+      "location": "first paragraph <p> of translation (opening questions)",
+      "severity": "minor",
+      "source_quote": "Can I have a fulfilled heart if there is a vision, a hope, and or a dream in my life that lies barren and unrealized? Must I go through life carrying a cross of pain and loneliness while God answers the prayers of my friends and gives them the desires of their hearts?",
+      "suggested_fix": "Fix punctuation and a slightly awkward register in Modern Greek. For example: «Μπορώ να έχω μια πλήρη καρδιά αν υπάρχει στη ζωή μου ένα όραμα, μια ελπίδα ή ένα όνειρο που παραμένει έρημο και ανεκπλήρωτο; Πρέπει να περνάω τη ζωή κουβαλώντας σταυρό πόνου και μοναξιάς, ενώ ο Θεός απαντά στις προσευχές των φίλων μου και τους δίνει τις επιθυμίες της καρδιάς τους;» Preserve HTML tags and sentence order.",
+      "translation_quote": "<p>Μπορώ να έχω μια πλήρης καρδιά αν υπάρχει στην ζωή μου ένα όραμα, μια ελπίδα ή ένα όνειρο που μένει έρημο και ανεπιτελεσμένο; Πρέπει να περνώ τη ζωή μου κουβαλώντας έναν σταυρό πόνου και μοναξιάς ενώ ο Θεός απαντά στις προσευχές των φίλων μου και τους δίνει τις επιθυμίες της καρδιάς τους; ...</p>"
+    },
+    {
+      "location": "paragraph about author's wife and midwifery (personal testimony)",
+      "severity": "minor",
+      "source_quote": "Jena pursued midwifery and sacrificed a lot to serve mothers and babies.",
+      "suggested_fix": "Use a more natural, contemporary Greek rendering for 'pursued midwifery' (meaning she practiced / trained as a midwife). Suggested wording: «Η Jena εξασκήθηκε ως μαία (ή σπούδασε μαιευτική) και θυσίασε πολλά για να υπηρετήσει μητέρες και βρέφη.» Preserve the paragraph HTML and surrounding sentences.",
+      "translation_quote": "Η Jena ασχολήθηκε με τη μαίας και θυσίασε πολλά για να υπηρετήσει μητέρες και βρέφη."
+    },
+    {
+      "location": "multiple Scripture blockquotes (throughout)",
+      "severity": "minor",
+      "source_quote": "All Scripture blockquote texts as printed in source.html (e.g., “Thou wilt shew me the path of life: in thy presence is fulness of joy; at thy right hand there are pleasures for evermore” (Psalms 16:11). etc.)",
+      "suggested_fix": "The quoted Scripture translations are rendered in archaic/Koine-style language in Greek. The review guidance asked for contemporary Modern Greek. Unless the editorial policy requires a particular liturgical/registeral form, update the Scripture quotations into clear contemporary Modern Greek while preserving the exact verse numbers, ranges and the number and placement of references. Example: Psalms 16:11 could read: «Θα μου δείξεις το μονοπάτι της ζωής· ενώπιον σου υπάρχει πλήρης αγαλλίασης· στα δεξιά σου υπάρχουν ευχάριστες χαρές για πάντα» (Ψαλμοί 16:11). Keep HTML tags unchanged.",
+      "translation_quote": "All blockquoted Scripture passages are translated into an older/Koine-style Greek (e.g., «Θα μου δείξεις την οδόν της ζωής· ενώπιον σου είναι πλήθος αγαλλιάσεως· στο δε δεξιόν σου ηδοναί εις το πλείστον» (Ψαλμοί 16:11).)"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

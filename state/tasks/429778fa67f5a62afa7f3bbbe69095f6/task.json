@@ -2,7 +2,6 @@
   "article_id": "8072bb08-e7aa-4602-a3c6-f82161b740ae",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cb37f274b6fa45918b621106710bd92c",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -43,18 +42,52 @@
         },
         "total_tokens": 8375
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1458,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5295,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6753
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[16]; missing: 55:8; extra: 55:8-9",
-      "translation_quote": ""
+      "location": "<p>…\"достаточна для тебя благодати Моя\" (2-е Коринфянам 12:7–9).</p>)",
+      "severity": "minor",
+      "source_quote": "\"My grace is sufficient for thee: for my strength is made perfect in weakness.\" (2 Corinthians 12:9)",
+      "suggested_fix": "Предлагаю более естественную современную формулировку, сохраняющую смысл: «Достаточна тебе благодать Моя; ибо сила Моя совершается в немощи». Замените внутри того же абзаца только текст цитаты на предложенный вариант, сохранив кавычки и ссылку на стих.",
+      "translation_quote": "«достаточна для тебя благодати Моя; ибо сила Моя совершается в немощи.» (перевод в тексте: «достаточна для тебя благодати Моя; ибо сила Моя совершается в немощи.») "
+    },
+    {
+      "location": "<p>…\"И потому с большей охотою буду хвалиться в немощах своих, да соблюдет надо мною сила Христова\" (2-е Коринфянам 12:7–9).</p>)",
+      "severity": "minor",
+      "source_quote": "\"Most gladly therefore will I glory in my infirmities, that the power of Christ may rest upon me.\" (2 Corinthians 12:9)",
+      "suggested_fix": "Фраза «да соблюдет надо мною сила Христова» звучит архаично и не совсем понятна. Предложение более ясного современного варианта: «и потому охотно буду хвалиться в немощах своих, чтобы сила Христова покоилась на мне». Замените только текст цитаты в абзаце, сохранив ссылку на стих и общий смысл оригинала.",
+      "translation_quote": "«И потому с большей охотою буду хвалиться в немощах своих, да соблюдет надо мною сила Христова» (в тексте переведено так)."
+    },
+    {
+      "location": "<p>…\"Thanks be unto God for his unspeakable gift.\"</p>",
+      "severity": "minor",
+      "source_quote": "\"Thanks be unto God for his unspeakable gift.\"",
+      "suggested_fix": "Перевод «Благодарение Богу за дар неизреченный Его» грамматически и стилистически неловок для современного русского. Предлагаю: «Благодарение Богу за несказанный дар Его» или более распространённо: «Благодарение Богу за Его несказанный дар». Замените фразу на один из предложенных вариантов, сохранив заключительную цитату в кавычках.",
+      "translation_quote": "«Благодарение Богу за дар неизреченный Его» (текущее оформление в переводе)."
     }
   ],
+  "finished_at": "2026-10-02T12:50:15+00:00",
   "id": "429778fa67f5a62afa7f3bbbe69095f6",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "rus",
@@ -128,11 +161,13 @@
     }
   },
   "protected": false,
+  "quality_score": 95,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/40b205584b70dea6ea3ff3f4c41c6fd1ddfe0f0185df69fefa6b9552a41d435d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "bf998429e527907a20f711c821e9bb6ad50ba4d154d9f55d397877de1bb521c0",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

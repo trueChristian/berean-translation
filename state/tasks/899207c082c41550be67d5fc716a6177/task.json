@@ -2,7 +2,6 @@
   "article_id": "a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cb37f274b6fa45918b621106710bd92c",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -43,18 +42,30 @@
         },
         "total_tokens": 4899
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 346,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 320,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2821,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3167
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[33]: source /article[1]/figure[1]/figcaption[1]/br[2] ('start', 'br', ()); translation /article[1]/figure[1]/figcaption[1] ('end', 'figcaption')",
-      "translation_quote": ""
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T12:50:15+00:00",
   "id": "899207c082c41550be67d5fc716a6177",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "cmn",
@@ -128,11 +139,13 @@
     }
   },
   "protected": false,
+  "quality_score": 100,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/b3f16398a20747d67e66eb67dbc050ebc81f356a674a0f664b03d16556ad5ae2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "b2d358ce80d345919a9aeec61b0c0a38e5f8adb553e707efe8d7b1d08ee3bf17",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

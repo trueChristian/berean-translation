@@ -2,7 +2,6 @@
   "article_id": "a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cb37f274b6fa45918b621106710bd92c",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -43,18 +42,39 @@
         },
         "total_tokens": 4403
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1839,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1024,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2786,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4625
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[33]: source /article[1]/figure[1]/figcaption[1]/br[2] ('start', 'br', ()); translation /article[1]/figure[1]/figcaption[1] ('end', 'figcaption')",
-      "translation_quote": ""
+      "location": "Final narrative paragraph (near end): \"Although Little Davy now a grandpa...\",\"source.html\":\"Although Little Davy is now a grandpa, he has not forgotten the bicycle race on that long ago Sunday afternoon, when Big David and Paul learned that bragging and showing off usually comes to a crashing end.\",\"translation.html\":\"Hoewel Little Davy nu opa is, is hij de fietswedstrijd van die lang vervlogen zondagnamiddag niet vergeten, toen Grote David en Paul leerden dat opscheppen en pronken meestal met een klap eindigt.\",\"severity\":\"minor\",\"suggested_fix\":\"Consistently translate the nickname. Earlier in the translation the author used 'Kleine Davy'. Change this occurrence 'Little Davy' to 'Kleine Davy' (or make all occurrences 'Little Davy' if you prefer to keep the English nickname, but be consistent). Example fix in Dutch: 'Hoewel Kleine Davy nu opa is, is hij de fietswedstrijd ... niet vergeten.'\"},{\"location\":\"Paragraph after the crash: question from boys to injured pair\",\"source.html\":\"The other boys stood on the bank with their mouths open. Quickly, they ran to the two big boys lying by their new bicycles. 'Are you okay?' they asked.\",\"translation.html\":\"De andere jongens stonden op de wal met open monden. Snel renden ze naar de twee grote jongens die bij hun nieuwe fietsen lagen. \\\"Gaan jullie wel?\\\" vroegen ze.\",\"severity\":\"minor\",\"suggested_fix\":\"The Dutch 'Gaan jullie wel?' is awkward and does not idiomatically convey the English 'Are you okay?'. Replace with a natural equivalent such as 'Gaat het met jullie?' or 'Zijn jullie oké?' For example: '\\\"Gaat het met jullie?\\\" vroegen ze.'\"},{\"location\":\"Paragraph describing the descent: 'One, two, three, GO...'\",\"source.html\":\"One, two, three, GO and they were off! Down the hill they came, pedaling for all they were worth.\",\"translation.html\":\"Een, twee, drie, GA en ze waren weg! Heen en weer roetsjten ze de heuvel af, trampend alsof hun leven ervan afhing.\",\"severity\":\"minor\",\"suggested_fix\":\"The added phrase 'Heen en weer' introduces a 'back-and-forth' meaning not present in the source. Remove 'Heen en weer' to match the original. Suggested phrasing: 'Een, twee, drie, GA en ze waren weg! Roetsjten ze de heuvel af, trampend alsof hun leven ervan afhing.' or more idiomatically: '... en ze schoten de heuvel af, trappend alsof hun leven ervan afhing.'\"}], ",
+      "severity": "minor",
+      "source_quote": "(unused)",
+      "suggested_fix": "(unused)",
+      "translation_quote": "(unused)"
     }
   ],
+  "finished_at": "2026-10-02T12:50:15+00:00",
   "id": "94302bf15ffb2dd551eab222b881e36e",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "nld",
@@ -128,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 90,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/b3f16398a20747d67e66eb67dbc050ebc81f356a674a0f664b03d16556ad5ae2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "b2d358ce80d345919a9aeec61b0c0a38e5f8adb553e707efe8d7b1d08ee3bf17",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

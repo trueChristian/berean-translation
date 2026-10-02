@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final paragraph, quoted Scripture (2 Corinthians 5:2)\",\"severity\":\"major\",\"source_quote\":\"“. . . in this we groan, earnestly desiring to be clothed upon with our house which is from heaven” (2 Corinthians 5:2).\",\"suggested_fix\":\"Translate the quoted Scripture to preserve the original image of being clothed with a ‘house which is from heaven’. Replace the current phrasing with a faithful German rendering such as: „... in diesem seufzen wir und sehnen uns ernstlich danach, mit unserem Haus, das von dem Himmel ist, bekleidet zu werden“ or more idiomatically: „... in diesem seufzen wir und sehnen uns ernstlich danach, mit unserem himmlischen Wohnhaus bekleidet zu werden“ (keep the verse reference and punctuation as in source). Ensure the HTML structure and surrounding sentence remain unchanged.\",\"translation_quote\":\"„... in diesem seufzen wir und sehnen uns ernstlich danach, mit unserem himmlischen Kleid überkleidet zu werden“ (2. Korinther 5:2).\"},{\"location\":\"Paragraph quoting Romans 5:5\",\"severity\":\"minor\",\"source_quote\":\"Once we receive the Lord Jesus as Saviour, then “hope maketh not ashamed” (Romans 5:5).\",\"suggested_fix\":\"The translation „dann ‚versagt die Hoffnung nicht‘ (Römer 5:5)\\\" is understandable but awkward in German and slightly departs from the idiom of the original. Use a more natural, faithful rendering such as: „dann ‚die Hoffnung lässt uns nicht zuschanden werden‘ (Römer 5:5)\\\" or „dann ‚die Hoffnung macht uns nicht zuschanden‘ (Römer 5:5)\\\". Preserve verse reference and punctuation.\",\"translation_quote\":\"Sobald wir den Herrn Jesus als Retter empfangen, dann „versagt die Hoffnung nicht“ (Römer 5:5).\"}],\"passed\":false,\"score\":85}",
+    "content_bytes": 1751,
+    "content_evidence_truncated": false,
+    "content_sha256": "24741445c56accb65175c3839ba036e2138ce2f0b7d93794c4a4b8abf6bbd88d",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1273,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3093,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4366
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

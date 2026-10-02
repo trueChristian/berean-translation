@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph containing: \"I ordered a copy of <em>The Martyr’s Mirror</em>\"",
+      "severity": "major",
+      "source_quote": "I ordered a copy of <em>The Martyr’s Mirror</em> and was astounded when I read about these people who lived like the disciples.",
+      "suggested_fix": "Translate the book title into Dutch (or provide the conventional Dutch title) and preserve the surrounding HTML and emphasis. Example: vervang <em>The Martyr’s Mirror</em> door <em>De Martelspiegels</em> (of de gebruikelijke Nederlandse editionele titel), keeping the <em> tag unchanged.",
+      "translation_quote": "Ik bestelde een exemplaar van <em>The Martyr’s Mirror</em> en was verbaasd toen ik las over deze mensen die leefden als de discipelen."
+    },
+    {
+      "location": "translation.html first paragraph: opening sentence",
+      "severity": "minor",
+      "source_quote": "When I was converted, I had never heard the term Anabaptist.",
+      "suggested_fix": "Capitalize the translator's rendering of the group name consistently to match the source's proper-name usage. Change \"anabaptist\" to \"Anabaptist\" (or \"Anabaptisten\" depending on house style) in the first instance to match later usages and treat it as a proper noun.",
+      "translation_quote": "Toen ik bekeerd werd, had ik de term anabaptist nog nooit gehoord."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

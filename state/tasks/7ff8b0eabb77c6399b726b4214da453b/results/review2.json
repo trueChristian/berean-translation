@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4b181416-4944-4ae9-be49-ed1f76508b98",
+    "response_id": "chatcmpl-EUWyG7fQBRdAYvAFTlwjDUBj3UpOs",
+    "usage": {
+      "completion_tokens": 1255,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5202,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6457
+    }
+  },
+  "received_at": "2026-10-02T12:50:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>... (Deuteronomy 3:25,26) ...</p>",
+        "severity": "major",
+        "source_quote": "“I pray thee, let me go over, and see the good land . . . But the Lord . . . would not hear me: and the Lord said unto me, Let it suffice thee; speak no more unto me of this matter” (Deuteronomy 3:25,26).",
+        "suggested_fix": "Translate the cited Deuteronomy passage faithfully into Arabic, preserving the meaning of the English quotation. Do not paraphrase or replace clauses. A faithful rendering could be: «اسمع يا سيدي، اسمح لي أن أعبر وأنظر الأرض الجيدة ... فأما الرب فلم يَسْمَعْ لي: فقال لي الرب: اِكتَفِك؛ لا تُكلِّمني بعد بهذا الأمر» (تثنية 3:25،26). Insert this wording in place of the current mistranslation, keeping the existing <p> tag and surrounding HTML unchanged.",
+        "translation_quote": "«فقلت أسترح قليلاً على الطريق وأبصر أرضا جيدة. فأبَدَّ لي الرب عن الكلام، فقال لي الرب: اِكتفِ—لا تُكلِّمْني بعد بهذا الأمر» (تثنية 3:25،26)."
+      },
+      {
+        "location": "<p>Let us focus our attention upon prayerful Paul’s acceptance of God’s “no.”</p>",
+        "severity": "major",
+        "source_quote": "Let us focus our attention upon prayerful Paul’s acceptance of God’s “no.”",
+        "suggested_fix": "Correct the adjective translating 'prayerful' to convey 'المُصلِّي' or 'المُتضرِّع' rather than 'الصائم في الصلاة' which implies fasting. Replace the sentence in Arabic with: «لنركِّز انتباهنا على قبول بولس المصلِّي لرفض الله («لا» الله).» Preserve the paragraph <p> tags.",
+        "translation_quote": "«لنركِّز انتباهنا على قبول بولس الصائم في الصلاة لـ«لا» الله.»"
+      },
+      {
+        "location": "Throughout (added/changed pronoun and possessive in Deuteronomy 1:42 paragraph)",
+        "severity": "minor",
+        "source_quote": "“And the Lord said unto me, Say unto them, Go not up, neither fight; for I am not among you; lest ye be smitten before your enemies”, but they rebelled at His “no.”",
+        "suggested_fix": "The translation insertsّ «إلههم» (their God) where the English has 'His' referring to the Lord. To preserve the author's original wording and theological attribution, render the clause as «لكنهم تمردوا على 'لا'ه» or better «لكنهم تمردوا على 'لا' الرب». Replace only that phrase; keep surrounding Arabic unchanged.",
+        "translation_quote": "«فقال لي الرب: قُل لهُم لا تُصعِدوا ولا تُقاتلوا، لأنِي لست معكم لئلا تُضْرَبوا أمام أعدائكم»، لكنهم تمردوا على «لا» إِلههم."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

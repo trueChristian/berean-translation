@@ -2,7 +2,6 @@
   "article_id": "20914547-a133-4159-bd5b-dff81f36453b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cb37f274b6fa45918b621106710bd92c",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -43,18 +42,67 @@
         },
         "total_tokens": 13492
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1816,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8663,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10479
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
+      "location": "Hebrews 12:1-3 block (near end of article)",
       "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/blockquote[11]/p[1]; missing: none; extra: 12:28",
-      "translation_quote": ""
+      "source_quote": "“Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight, and the sin which doth so easily beset us, and let us run with patience the race that is set before us, 2 Looking unto Jesus the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God. 3 For consider him that endured such contradiction of sinners against himself, lest ye be wearied and faint in your minds . . . (Hebrews 12:1-3).”",
+      "suggested_fix": "Restore an accurate Dutch rendering of the quoted passage, preserving the meaning and verse numbering. For example, replace the corrupted phrase and ensure 'Looking unto Jesus' is correctly translated (e.g. “2 Ziet naar Jezus, de Leidsman en Voleinder van het geloof; die, terwille van de vreugde die Hem voorgehouden was, het kruis heeft verdragen, de schande verachtende, en gezeten is aan de rechterhand van de troon Gods.”) Keep the original punctuation and the parenthetical citation “(Hebreeën 12:1-3).”",
+      "translation_quote": "“Daarom wij ook nu, daar wij omringd zijn met zo een grote wolk getuigen, laten wij afleggen alle last en de zonde, die ons zo gemakkelijk omstrengelt, en laten wij met geduld lopen de wedloop, die voor ons is uitgestrekt, 2 zrndende op Jezus, den ervarenen en voleinder des geloofs; Die, om de vreugde, die voor Hem gelegd was, het kruis heeft verdragen, de schande verachtende, en gezeten is aan de rechterhand des troons Gods. 3 Want denkt aan Hem, die zulk een tegenstelling van zondaars tegen Zichzelven heeft verdragen, opdat gij niet vermoeid wordt, en uw hart niet bezwijkt . . . (Hebreeën 12:1-3).”"
+    },
+    {
+      "location": "Hebrews 13:5 block (earlier in article)",
+      "severity": "critical",
+      "source_quote": "“Let your conversation be without covetousness; and be content with such things as ye have: for he hath said, I will never leave thee, nor forsake thee. 6 So that we may boldly say, The Lord is my helper, and I will not fear what man shall do unto me” (Hebrews 13:5).",
+      "suggested_fix": "Correct the Dutch quotation so it faithfully renders the two clauses “I will never leave thee, nor forsake thee” (do not repeat the same verb). For example: “want Hij heeft gezegd: Ik zal u niet begeven, en Ik zal u niet verlaten.” Preserve the verse citation “(Hebreeën 13:5).”",
+      "translation_quote": "“Uw wandel zij zonder geldgierigheid; wees tevreden met hetgeen gij hebt; want Hij heeft gezegd: Ik zal u niet begeven, en Ik zal u niet begeven. 6 Zodat wij met vrijmoedigheid zeggen kunnen: De Heere is mijn helper; ik zal niet vrezen; wat zou mij een mens doen?” (Hebreeën 13:5)."
+    },
+    {
+      "location": "Final Hebrews citation block",
+      "severity": "major",
+      "source_quote": "“Wherefore we receiving a kingdom which cannot be moved, let us have grace, whereby we may serve God acceptably with reverence and godly fear” (Hebrews 12;28).",
+      "suggested_fix": "Translate the verse faithfully into Dutch and preserve the citation. Ensure semicolon/colon matches source style if required by editorial policy; keep the quoted text consistent with the Bible rendering used throughout the article (e.g. “(Hebreeën 12:28)”).",
+      "translation_quote": "“Daarom wij, een onbewogen rijk ontvangen hebbende, laten wij genade hebben, waardoor wij God mogen dienen welgevallig, met ontzag en godsvrucht” (Hebreeën 12;28)."
+    },
+    {
+      "location": "Section metadata (source.section vs translation.section)",
+      "severity": "major",
+      "source_quote": "INSPIRATIONS FOR YOUTH",
+      "suggested_fix": "Translate the source.section accurately into Dutch while preserving its intended meaning and register. If the original is an editorial section title meaning \"Inspirations for Youth\", a faithful Dutch rendering would be e.g. “Inspiratie voor jongeren” (or the publisher’s established Dutch section title). Replace the current translation section value which incorrectly reads “voor Ongehuwden.”",
+      "translation_quote": "voor Ongehuwden"
+    },
+    {
+      "location": "Second figure alt text",
+      "severity": "minor",
+      "source_quote": "alt=\"A tree with snow-covered reddish-brown leaves\"",
+      "suggested_fix": "Adjust the Dutch alt text to preserve the original meaning 'snow-covered' rather than 'snow-white'. For example: alt=\"Een boom met roodbruine bladeren bedekt met sneeuw\".",
+      "translation_quote": "alt=\"Een boom met sneeuwwitte, roodbruine bladeren\""
     }
   ],
+  "finished_at": "2026-10-02T12:50:15+00:00",
   "id": "f8008e84520521a33e8ed0fca1c7c127",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "nld",
@@ -128,11 +176,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a5fa4336ac24fe4ded7bc5c6695694845b2e95ac589cd5689bedc4b3e79ef2b1.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "2780d41d80f578475e27d5e54969bef54c79aef92fae3008a281d5b3d0e475c3",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

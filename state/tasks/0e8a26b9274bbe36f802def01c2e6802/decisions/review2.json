@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "<p>Even though Little Davy is now a grandpa, he has not forgotten the bicycle race on that long ago Sunday afternoon, when Big David and Paul learned that bragging and showing off usually comes to a crashing end.</p>",
+      "severity": "major",
+      "source_quote": "Even though Little Davy is now a grandpa, he has not forgotten the bicycle race on that long ago Sunday afternoon, when Big David and Paul learned that bragging and showing off usually comes to a crashing end.",
+      "suggested_fix": "Translate the meaning \"grandpa\" (i.e., grandfather) accurately into Afrikaans. Replace the current sentence in the translation with an Afrikaans sentence that preserves the original meaning: for example: \"Al is Klein Davy nou ‘n grootpappa, het hy die fietswedren op daardie langverlede Sondagnamiddag steeds nie vergeet nie, toe Groot David en Paul geleer het dat spog en pronk gewoonlik in ’n verpletterende einde uitloop.\" Ensure the HTML paragraph tags and order are unchanged.",
+      "translation_quote": "Al is Klein Davy nou ’n grootjie, het hy die fietswedren op daardie langverlede Sondagnamiddag steeds nie vergeet nie, toe Groot David en Paul geleer het dat spog en pronk gewoonlik in ’n verpletterende einde uitloop."
+    },
+    {
+      "location": "<p>“No,” challenged Paul, “my shorter legs can pump faster, and Schwinn’s high-test bicycle oil by far outperforms WD40, which really is only for squeaks.”</p>",
+      "severity": "major",
+      "source_quote": "Schwinn’s high-test bicycle oil by far outperforms WD40, which really is only for squeaks.",
+      "suggested_fix": "Render \"high-test\" as \"high-test\" meaning high-quality or high-performance. Replace the phrase with a correct Afrikaans equivalent that conveys superior performance, for example: \"en Schwinn se hoëprestasie-fietsolie oortref WD40 met kop en skouers, wat eintlik net vir piepings is.\" Keep surrounding punctuation and tags as in the source.",
+      "translation_quote": "my korter bene kan vinniger pomp, en Schwinn se hoëbekwame fietsolie presteer ver bo WD40, wat eintlik net vir piepies is."
+    },
+    {
+      "location": "<p>All the commotion woke up Little Davy’s rat terrier dog, Nellie. Yapping loudly, Nellie zoomed around the silo as fast as her four little legs could carry her.</p>",
+      "severity": "minor",
+      "source_quote": "Little Davy’s rat terrier dog, Nellie.",
+      "suggested_fix": "Use a conventional Afrikaans form for the dog breed. Suggested fix: change \"ratte-terriër-hond, Nellie\" to \"Klein Davy se ratterriër, Nellie\" or \"Klein Davy se rat-terriër, Nellie\" (and keep punctuation and tag structure).",
+      "translation_quote": "Klein Davy se ratte-terriër-hond, Nellie, wakker gemaak."
+    },
+    {
+      "location": "<p>One, two, three, GO and they were off! Down the hill they came, pedaling for all they were worth.</p>",
+      "severity": "minor",
+      "source_quote": "pedaling for all they were worth.",
+      "suggested_fix": "Correct the Afrikaans idiomatic rendering. Replace \"trapend met alles wat hulle werd was\" with \"trapend met al wat hulle waard was\" or \"trapend met alles wat in hulle was\" to preserve meaning and correct word choice.",
+      "translation_quote": "trapend met alles wat hulle werd was."
+    },
+    {
+      "location": "<figure> <figcaption>\"PRIDE GOETH BEFORE<br>\n    DESTRUCTION, AND AN<br>\n    HAUGHTY SPIRIT BEFORE<br>\n    A FALL\"<br>\n    -PROVERBS 16:18</figcaption>",
+      "severity": "minor",
+      "source_quote": "\"PRIDE GOETH BEFORE DESTRUCTION, AND AN HAUGHTY SPIRIT BEFORE A FALL\" -PROVERBS 16:18",
+      "suggested_fix": "The caption translation is good in meaning, but check spelling/diacritics consistency: consider using a standard Afrikaans Bible book name and apostrophe style already used. Current translation \"HOOGMOED GAAT VOOR\\n    VERWOESTING, EN ’N\\n    ARROGANTE GEES VOOR\\n    ’N VAL\" -SPREUKE 16:18 is acceptable; no change necessary unless you prefer \"Spreuke\" capitalization consistent with other site usage. No HTML structure change required.",
+      "translation_quote": "\"HOOGMOED GAAT VOOR<br>\n    VERWOESTING, EN ’N<br>\n    ARROGANTE GEES VOOR<br>\n    ’N VAL\"<br>\n    -SPREUKE 16:18"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

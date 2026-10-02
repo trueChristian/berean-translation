@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing the sentence beginning “We’ll start at the top of Billy’s hill…” (translation: ““हम बिल्ली की ढलान के ऊपर से शुरू करेंगे…”).",
+      "severity": "major",
+      "source_quote": "“We’ll start at the top of Billy’s hill and race all the way down to the bottom,” he said, pointing to the road bank where the other boys were sitting.",
+      "suggested_fix": "Preserve the proper name Billy as a proper-name transliteration rather than the common noun 'बिल्ली' (cat). Change “हम बिल्ली की ढलान के ऊपर से शुरू करेंगे” to “हम बिली की ढलान के ऊपर से शुरू करेंगे” (or “हम बBilly की ढलान से शुरू करेंगे” using a clear transliteration). Ensure the rest of the clause remains unchanged: “और नीचे तक दौड़ेंगे,” followed by the same pointing clause.",
+      "translation_quote": "“हम बिल्ली की ढलान के ऊपर से शुरू करेंगे और नीचे तक दौड़ेंगे,” उसने कहा, और उस सड़क की किनार की ओर इशारा किया जहाँ बाकी लड़के बैठे थे।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

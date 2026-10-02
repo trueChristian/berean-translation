@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c6fa4a72-1ffb-4708-9ac5-cb2b1c19b75a",
+    "response_id": "chatcmpl-EUWyFbLm1bSganwx7MpYgHksNZ1rh",
+    "usage": {
+      "completion_tokens": 1185,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9919,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11104
+    }
+  },
+  "received_at": "2026-10-02T12:50:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...The Dead Sea... (paragraph beginning \"As I was thinking about this, my mind went to the Dead Sea.\") in source.html",
+        "severity": "major",
+        "source_quote": "The Dead Sea is “Dead” because it has such a high level of minerals and salts that very few, other than a few microorganisms, can survive.",
+        "suggested_fix": "Translate the entire sentence into German and remove the leftover English word. Keep meaning: the Dead Sea is called 'dead' because its salinity prevents most life other than some microorganisms. For example (in German, preserving HTML structure):\n\n<p>Das Tote Meer ist „tot“, weil es einen so hohen Gehalt an Mineralien und Salzen hat, dass dort außer einigen Mikroorganismen nur sehr wenige Lebewesen überleben können.</p>",
+        "translation_quote": "Das Tote Meer ist „tot“, weil es so viele Mineralien und Salze enthält, dass dort nur very wenige Lebewesen überleben können, abgesehen von einigen Mikroorganismen."
+      },
+      {
+        "location": "<p>...vehicle metaphor... (paragraph beginning \"It is as though you are in a vehicle traveling 90 mph...\") in source.html",
+        "severity": "major",
+        "source_quote": "It is as though you are in a vehicle traveling 90 mph, and you push the accelerator a little harder, and nothing happens.",
+        "suggested_fix": "Do not change the original numeric value. Restore the original speed (90 mph) in the translation or, if localization is required, present both values (keeping the original numeric reference intact). Replace the altered number. Example correction (German):\n\n<p>Es ist, als säßen Sie in einem Fahrzeug, das 90 mph fährt, und Sie drücken das Gaspedal noch ein wenig weiter – ohne Wirkung.</p>\n\n(or) keep metric in addition but keep 90 mph explicitly: \"(90 mph, ca. 145 km/h)\". Preserve the original figure '90 mph' exactly as printed in the source.",
+        "translation_quote": "Es ist, als säßen Sie in einem Fahrzeug, das 140 km/h fährt, und Sie drücken das Gaspedal noch ein wenig weiter – ohne Wirkung."
+      },
+      {
+        "location": "<p>Conclusion paragraph near end (\"Jesus tells us that His yoke is easy...\") in source.html",
+        "severity": "minor",
+        "source_quote": "Jesus tells us that His yoke is easy, and His burden is light (Matt, 11:28-30).",
+        "suggested_fix": "The translation adds the adjective \"wunderbar\" (wonderfully) to \"light\", which is an addition not present in the English source. Remove the added qualifier so the German mirrors the source meaning and tone. For example:\n\n<p>Jesus sagt, sein Joch sei leicht und seine Last sei leicht (Matthäus 11:28–30).</p>\n\n(or use the more natural German idiom preserving source sense: \"sein Joch ist leicht und seine Last ist leicht\").",
+        "translation_quote": "Jesus sagt, sein Joch sei leicht und seine Last sei wunderbar leicht (Matthäus 11:28–30)."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

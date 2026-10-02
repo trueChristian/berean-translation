@@ -2,7 +2,6 @@
   "article_id": "20914547-a133-4159-bd5b-dff81f36453b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cb37f274b6fa45918b621106710bd92c",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -43,18 +42,60 @@
         },
         "total_tokens": 13856
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1616,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8955,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10571
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
+      "location": "<blockquote> (Psalm 1:3)",
       "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Forbidden HTML element: p;",
-      "translation_quote": ""
+      "source_quote": "“And he shall be like a tree planted by the rivers of water, that bringeth forth his fruit in his season; his leaf also shall not wither; and whatsoever he doeth shall prosper” (Psalms 1:3).",
+      "suggested_fix": "Badilisha mstari uliotafsiriwa ndani ya <blockquote><p> kwa tafsiri inayofanana na Kiingereza awali. Pendekezo: “Na atakuwa kama mti uliopandwa kando ya mito ya maji, ambao hutoa matunda yake kwa msimu wake; jani lake halitauka; na atakayefanya atafanikiwa.” (Zaburi 1:3).",
+      "translation_quote": "“Na atakuwa kama mti uliopandwa kando ya mito ya maji, ambao hutoa matunda yake kwa msimu wake; jani lake halitauka; na atakaye kosa atafanikiwa” (Zaburi 1:3)."
+    },
+    {
+      "location": "<p> (discussion of 1 John 1:9)",
+      "severity": "major",
+      "source_quote": "“In 1 John 1:9 God has said that if we confess our sins, He will forgive us.”",
+      "suggested_fix": "Sahihisha sentensi ndani ya <p> ili kuonyesha maana sahihi ya Kiingereza. Pendekezo: “Katika 1 Yohana 1:9 Mungu amesema kwamba ikiwa tutatamka/tukatambua dhambi zetu (tukatuhumu dhambi zetu kwa uwazi) atatusamehe.” Au, kwa ufupisho na usahihi wa moja kwa moja: “Katika 1 Yohana 1:9 Mungu amesema kwamba tukitubu na kukiri dhambi zetu, atatusamehe.” (Tumia neno “kukiri” au “kutitaja” badala ya “kutuhumiwa”.)",
+      "translation_quote": "“Katika 1 Yohana 1:9 Mungu amesema kwamba tukituhumiwa dhambi zetu, atatusamehe.”"
+    },
+    {
+      "location": "<p> (sentence: “It is impossible for God to lie, therefore his Word...”)",
+      "severity": "major",
+      "source_quote": "“It is impossible for God to lie, therefore his Word and promises can always be trusted.”",
+      "suggested_fix": "Sahihisha tafsiri ili iwe na maana sawa ya Kiingereza. Pendekezo ndani ya <p>: “Ni jambo lisilowezekana kwa Mungu kulipuuzia uaminifu au kusema uongo; kwa hivyo Neno lake na ahadi zake daima zinaweza kuaminiwa.” Au kwa ufasaha zaidi: “Mungu hawezi kusema uongo; kwa hivyo Neno lake na ahadi zake daima zinaaminika.”",
+      "translation_quote": "“Ni vigumu kwa Mungu kulegeza uwongo, kwa hiyo Neno lake na ahadi zake daima zinaweza kuaminiwa.”"
+    },
+    {
+      "location": "<blockquote> (John 4:14)",
+      "severity": "minor",
+      "source_quote": "“But whosoever drinketh of the water that I shall give him shall never thirst; but the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14).",
+      "suggested_fix": "Ruhusu tafsiri ya mstari wa maandiko iwe wazi na kamilifu. Pendekezo kisichobadilisha ujumbe: “Lakini yeye yeyote atakayekunywa maji nitakayompa hatakasirika kamwe; bali maji nitakayompa yatakuwa ndani yake kisima cha maji kinachomiminika hadi uzima wa milele.” (Yohana 4:14). (Sahihisha maneno madogo kama “yeyote”/“yeyule” na msamiati ili kufuata idiomu ya Kiswahili.)",
+      "translation_quote": "“Lakini yeyote anayekunywa maji nitakayompa hatakasirika kamwe; bali maji nitakayompa yatakuwa ndani yake kisima cha maji kinachomiminika hadi uzima wa milele” (Yohana 4:14)."
     }
   ],
+  "finished_at": "2026-10-02T12:50:15+00:00",
   "id": "c849ed25bd7a14f2f052885d49a4d960",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "swa",
@@ -128,11 +169,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a5fa4336ac24fe4ded7bc5c6695694845b2e95ac589cd5689bedc4b3e79ef2b1.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "2780d41d80f578475e27d5e54969bef54c79aef92fae3008a281d5b3d0e475c3",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

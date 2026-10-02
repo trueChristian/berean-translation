@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>To take care of it, she would need IV fluids – once or twice a week – to keep up with the fluids she was losing. Without that, her kidneys would shut down completely.</p>",
+      "severity": "major",
+      "source_quote": "Without that, her kidneys would shut down completely.",
+      "suggested_fix": "Replace the mistranslated phrase in the corresponding translated paragraph so it conveys the original meaning that the kidneys would 'shut down completely' (stop functioning). For example: \"Sonder dit sou haar niere heeltemal ophou funksioneer.\" Preserve the surrounding HTML and punctuation exactly as in the translation.",
+      "translation_quote": "Sonder dit sou haar niere heeltemal volstaan en stop."
+    },
+    {
+      "location": "<p>The reason for this is that the Dead Sea has no outlet. The Jordan River drains into it, carrying fresh water, and then sits in a basin. Some of the water evaporates, and what remains are the salts and minerals in the water.</p>",
+      "severity": "minor",
+      "source_quote": "The Dead Sea is “Dead” because it has such a high level of minerals and salts that very few, other than a few microorganisms, can survive.",
+      "suggested_fix": "Correct the typographic rendering of 'microorganisms' to a conventional Afrikaans form. Replace \"mikroörganismes\" with \"mikro-organismes\" (or \"mikro-organismes\") to match standard contemporary Afrikaans orthography. Preserve HTML.",
+      "translation_quote": "... baie min lewende dinge, anders as ’n paar mikroörganismes, daar kan oorleef."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

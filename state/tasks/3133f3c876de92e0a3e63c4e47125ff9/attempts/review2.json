@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>Ilikuwa moja ya ile jioni za Jumapili mwishoni mwa spring wakati jua hatimaye lilikuwa likangaza kwa joto.</p>\",\"severity\":\"major\",\"source_quote\":\"It was one of those Sunday afternoons in late spring when the sun was finally shining warmly.\",\"suggested_fix\":\"Tafsiri 'spring' kwa Kiswahili. Badilisha sentensi kuwa: \\\"Ilikuwa moja ya ile jioni za Jumapili mwishoni mwa spring\\\" → \\\"Ilikuwa moja ya ile jioni za Jumapili mwishoni mwa spring (msimu wa kuchipua)\\\" au, kwa kiswahili sanifu: \\\"Ilikuwa moja ya ile jioni za Jumapili mwishoni mwa msimu wa kuchipua, wakati jua hatimaye lilikuwa likangaza kwa joto.\\\" (Pendelea: 'msimu wa kuchipua' au 'mwishoni mwa masika' kulingana na muktadha wa kawaida wa Kiswahili.)\",\"translation_quote\":\"Ilikuwa moja ya ile jioni za Jumapili mwishoni mwa spring wakati jua hatimaye lilikuwa likangaza kwa joto.\"},{\"location\":\"<p>“I’ll be okay,” Paul said slowly, “but no more races. Who even cares whose bike is the fastest.”</p>\",\"severity\":\"major\",\"source_quote\":\"“I’ll be okay,” Paul said slowly, “but no more races. Who even cares whose bike is the fastest.”\",\"suggested_fix\":\"Tafsiri maana sahihi ya 'I'll be okay' (si 'Nitagona'). Badilisha kwa Kiswahili: \\\"Nitakuwa sawa\\\" au \\\"Nitakuwa imara\\\". Jumla ya sentensi itakua: \\\"Nitakuwa sawa,\\\" Paul alisema taratibu, \\\"lakini hakuna mbio tena. Nani anayejali hata baiskeli ya nani ni ya kasi zaidi?\\\"\",\"translation_quote\":\"“Nitagona,” Paul alisema taratibu, “lakini hakuna mbio tena. Nani anayejali hata baiskeli ya nani ni ya kasi zaidi.”\"},{\"location\":\"<title>MBIO ZA BAIKELI</title>\",\"severity\":\"minor\",\"source_quote\":\"THE BICYCLE RACE\",\"suggested_fix\":\"Jina la kitengo linapotokana na 'bicycle' tafsiri sahihi ni 'baiskeli'. Rekebisha kichwa kuwa: \\\"MBIO ZA BAISIKELI\\\".\",\"translation_quote\":\"MBIO ZA BAIKELI\"},{\"location\":\"<p>Kwa mabeji mapya ya ngoma, zilienda kwa kasi bila kuhitaji juhudi nyingi kupiga mguu kwenye pedal.</p>\",\"severity\":\"minor\",\"source_quote\":\"With new ball bearings, they whizzed along with hardly any effort being applied to the pedals.\",\"suggested_fix\":\"Tumia maneno ya kawaida ya Kiswahili kwa 'ball bearings' na 'whizzed along'. Badilisha kwa: \\\"Kwa mabeji mapya (ball bearings), zilienda kwa kasi kwa karibu bila juhudi nyingi za kupiga pedali.\\\" au \\\"Kwa mabeji mapya, zilikuwa zinakimbia kwa urahisi bila juhudi nyingi za kupiga pedali.\\\"\",\"translation_quote\":\"Kwa mabeji mapya ya ngoma, zilienda kwa kasi bila kuhitaji juhudi nyingi kupiga mguu kwenye pedal.\"},{\"location\":\"<p>“Hapana,” Paul alipingana, “miguu yangu mifupi inaweza kupiga kwa kasi zaidi, na mafuta ya baiskeli ya Schwinn yanafanya kazi bora kuliko WD40, ambayo kwa kweli ni kwa midundo tu.”</p>\",\"severity\":\"minor\",\"source_quote\":\"“No,” challenged Paul, “my shorter legs can pump faster, and Schwinn’s high-test bicycle oil by far outperforms WD40, which really is only for squeaks.”\",\"suggested_fix\":\"'only for squeaks' imetafsiriwa vibaya kama 'kwa midundo tu'. Badilisha kuwa: \\\"WD‑40, ambayo kwa kawaida hutumika tu kuondoa kikorokoro (kuueza kelele).\\\" Au: \\\"WD‑40, ambayo kwa kawaida ni kwa ajili ya kutuliza sehemu zinazochora (squeaks).\\\"\",\"translation_quote\":\"“Hapana,” Paul alipingana, “miguu yangu mifupi inaweza kupiga kwa kasi zaidi, na mafuta ya baiskeli ya Schwinn yanafanya kazi bora kuliko WD40, ambayo kwa kweli ni kwa midundo tu.”}],\"            \t\n \t\t\t}                \t\n   ,{\"location\":\"<figure> <figcaption>“KIBURI KINAENDA MBELE<br>\\n    KWA Uharibifu, NA ROHO<br>\\n    YENYE KIJAMII KABLA<br>\\n    YA KUANGUKA”<br>\\n    - METHALI 16:18</figcaption>\",\"severity\":\"minor\",\"source_quote\":\"\\\"PRIDE GOETH BEFORE\\n    DESTRUCTION, AND AN\\n    HAUGHTY SPIRIT BEFORE\\n    A FALL\\\"\\n    -PROVERBS 16:18\",\"suggested_fix\":\"Figcaption imekamilika na neno la Biblia limebadilishwa kwa Kiswahili, lakini kuna kifupi/maandishi yasiyoyarahisi (kwa mfano 'ROHO YENYE KIJAMII' haijaendana na 'a haughty spirit'). Badilisha maneno kuwa wazi: \\\"KIBURI KINAENDA MBELE KWA UHARIBIFU, NA ROHO YA KIBURI KABLA YA KUANGUKA. - METHALI 16:18\\\" (hifadhi muundo wa HTML.)\",\"translation_quote\":\"“KIBURI KINAENDA MBELE<br>\\n    KWA Uharibifu, NA ROHO<br>\\n    YENYE KIJAMII KABLA<br>\\n    YA KUANGUKA”<br>\\n    - METHALI 16:18\"}],\"passed\":false,\"score\":70}",
+    "content_bytes": 4333,
+    "content_evidence_truncated": false,
+    "content_sha256": "feb065738ef56c7cda48ce041309818b6e66972e92562c1efa16e5ab6e996ed1",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1956,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2990,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4946
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

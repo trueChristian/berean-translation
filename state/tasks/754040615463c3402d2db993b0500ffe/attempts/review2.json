@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.title → translation.title\",\"severity\":\"major\",\"source_quote\":\"When All Thy Mercies, O My God\",\"suggested_fix\":\"Translate the article title into Urdu (Perso‑Arabic script) preserving meaning and tone. Example: \\\"اے میرے خدا، تیری تمام رحمتیں\\\". Replace the translation.title value with the Urdu rendering, keeping any surrounding metadata structure unchanged.\",\"translation_quote\":\"When All Thy Mercies, O My God\"},{\"location\":\"source.section → translation.section\",\"severity\":\"major\",\"source_quote\":\"HYMN HISTORY\",\"suggested_fix\":\"Translate the section label into Urdu. Example translations: \\\"ترانے کی تاریخ\\\" or \\\"حمد/ترانے کی تاریخ\\\". Replace the translation.section value with the chosen Urdu phrase (Perso‑Arabic script), preserving the metadata field.\",\"translation_quote\":\"HYMN HISTORY\"},{\"location\":\"source.html (lyrics: second stanza) → translation.html (lyrics)\",\"severity\":\"minor\",\"source_quote\":\"Thy Providence my life sustained,\\nAnd all my wants redressed,\\nWhile in the silent womb I lay,\\nAnd hung upon the breast.\",\"suggested_fix\":\"Render the fourth line to clearly reflect the English idiom of an infant at the mother's breast. Suggested Urdu phrasing for the two lines: \\\"جب میں خاموش رحم میں پڑا تھا،\\nماں کے سینے سے لٹکا ہوا تھا۔\\\" or more naturally: \\\"جب میں خاموش رحم میں پڑا تھا،\\nاور دودھ پیتے ہوئے ماں کے سینے سے چمٹا ہوا تھا۔\\\" Update the corresponding <p><em>…</em></p> stanza HTML with the chosen Urdu lines, preserving tags and line breaks.\",\"translation_quote\":\"تیری محافظت نے میری زندگی کو برقرار رکھا،\\nاور میری تمام ضروریات پوری کیں،\\nجب میں خاموش رحم میں پڑا تھا،\\nاور سینی پر جھلا تھا۔\"},{\"location\":\"source.html (metadata note) → translation.html (source-note)\",\"severity\":\"minor\",\"source_quote\":\"*sourced from Wikipedia and hymnary.org\",\"suggested_fix\":\"Provide a faithful Urdu rendering of the source note while keeping the asterisk and HTML structure. Suggested Urdu: \\\"*ماخذ: وِکِپیڈیا اور hymnary.org\\\" (if keeping hymnary.org in English as a proper title) or translate both names' context but leave established site names as-is. Replace the content of <p class=\\\\\\\"source-note\\\\\\\"> accordingly.\",\"translation_quote\":\"*مآخذ: وِکِپیڈیا اور hymnary.org\"}],\"passed\":false,\"score\":80}",
+    "content_bytes": 2557,
+    "content_evidence_truncated": false,
+    "content_sha256": "1e549762ae075c580c33fc6149b4973f7785c1b1b12e5db0d28845abc9497044",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1137,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6265,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7402
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

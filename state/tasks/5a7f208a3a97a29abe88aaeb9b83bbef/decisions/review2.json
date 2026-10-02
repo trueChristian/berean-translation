@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing collision onomatopoeia (source.html third paragraph after Nellie description)",
+      "severity": "critical",
+      "source_quote": "Thump, the passing bicycle hit the dog! Crash, bang, the two bicycles ran into each other!",
+      "suggested_fix": "Translate the onomatopoeic words into Italian and keep punctuation/spacing. For example: \"Tonfo! La bicicletta che sorpassava colpì il cane! Schianto, botto! Le due biciclette si scontrarono!\" Replace the English words only, preserving the rest of the sentence and surrounding HTML.",
+      "translation_quote": "Thump, la bicicletta che sorpassava colpì il cane! Crash, bang, le due biciclette si scontrarono!"
+    },
+    {
+      "location": "Paragraph containing interjection after fall (source.html paragraph with exclamations)",
+      "severity": "critical",
+      "source_quote": "“Hey – aye!” Oooff! Two boys flew over the handlebars and landed hard on the road.",
+      "suggested_fix": "Translate the interjection \"Oooff!\" into Italian while preserving the preceding quoted exclamation as translated. For example: \"“Ehi – ahi!” Uff! Due ragazzi volarono oltre il manubrio e caddero pesantemente sulla strada.\" Keep the original punctuation and sentence structure unchanged beyond replacing the English onomatopoeia.",
+      "translation_quote": "“Ehi – ahi!” Oooff! Due ragazzi volarono oltre il manubrio e caddero pesantemente sulla strada."
+    },
+    {
+      "location": "Figcaption (source.title/figure)",
+      "severity": "minor",
+      "source_quote": "\"PRIDE GOETH BEFORE<br>\n    DESTRUCTION, AND AN<br>\n    HAUGHTY SPIRIT BEFORE<br>\n    A FALL\"<br>\n    -PROVERBS 16:18",
+      "suggested_fix": "Correct the typo in Italian translation of the verse. Replace \"L'ORGOGLIO VENE PRIMA\" with \"L'ORGOGLIO VIENE PRIMA\" so the Italian reads: \"L'ORGOGLIO VIENE PRIMA<br>DELLA DISTRUZIONE, E UNO<br>SPIRITO SUPERBO PRIMA<br>DI UNA CADUTA\" -PROVERBI 16:18. Preserve line breaks and capitalization as in the translated figcaption.",
+      "translation_quote": "\"L'ORGOGLIO VENE PRIMA<br>\n    DELLA DISTRUZIONE, E UNO<br>\n    SPIRITO SUPERBO PRIMA<br>\n    DI UNA CADUTA\"<br>\n    -PROVERBI 16:18"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

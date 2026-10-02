@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html (paragraph containing book title)",
+      "severity": "major",
+      "source_quote": "I ordered a copy of <em>The Martyr’s Mirror</em> and was astounded when I read about these people who lived like the disciples.",
+      "suggested_fix": "Translate the cited book title into Arabic (preserve the <em> tag). For example: I ordered a copy of <em>مرآة الشهداء</em> and was astounded when I read about these people who lived like the disciples. Ensure the <em> tag and surrounding HTML remain unchanged.",
+      "translation_quote": "طلبت نسخة من <em>The Martyr’s Mirror</em> وذهلت عندما قرأت عن هؤلاء الناس الذين عاشوا مثل التلاميذ."
+    },
+    {
+      "location": "source.section",
+      "severity": "minor",
+      "source_quote": "MUSINGS OF A MISSIONARY",
+      "suggested_fix": "Use a more idiomatic rendering for 'of a missionary' in Modern Standard Arabic. For example change the translated section value from \"تأملات مُرسَل\" to \"تأملات مبشر\" (keeping capitalization/formatting rules of the site).",
+      "translation_quote": "تأملات مُرسَل"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

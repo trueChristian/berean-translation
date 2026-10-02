@@ -2,7 +2,6 @@
   "article_id": "8072bb08-e7aa-4602-a3c6-f82161b740ae",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cb37f274b6fa45918b621106710bd92c",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -43,18 +42,53 @@
         },
         "total_tokens": 8106
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1255,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5202,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6457
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[3]; missing: none; extra: 12:10",
-      "translation_quote": ""
+      "location": "<p>... (Deuteronomy 3:25,26) ...</p>",
+      "severity": "major",
+      "source_quote": "“I pray thee, let me go over, and see the good land . . . But the Lord . . . would not hear me: and the Lord said unto me, Let it suffice thee; speak no more unto me of this matter” (Deuteronomy 3:25,26).",
+      "suggested_fix": "Translate the cited Deuteronomy passage faithfully into Arabic, preserving the meaning of the English quotation. Do not paraphrase or replace clauses. A faithful rendering could be: «اسمع يا سيدي، اسمح لي أن أعبر وأنظر الأرض الجيدة ... فأما الرب فلم يَسْمَعْ لي: فقال لي الرب: اِكتَفِك؛ لا تُكلِّمني بعد بهذا الأمر» (تثنية 3:25،26). Insert this wording in place of the current mistranslation, keeping the existing <p> tag and surrounding HTML unchanged.",
+      "translation_quote": "«فقلت أسترح قليلاً على الطريق وأبصر أرضا جيدة. فأبَدَّ لي الرب عن الكلام، فقال لي الرب: اِكتفِ—لا تُكلِّمْني بعد بهذا الأمر» (تثنية 3:25،26)."
+    },
+    {
+      "location": "<p>Let us focus our attention upon prayerful Paul’s acceptance of God’s “no.”</p>",
+      "severity": "major",
+      "source_quote": "Let us focus our attention upon prayerful Paul’s acceptance of God’s “no.”",
+      "suggested_fix": "Correct the adjective translating 'prayerful' to convey 'المُصلِّي' or 'المُتضرِّع' rather than 'الصائم في الصلاة' which implies fasting. Replace the sentence in Arabic with: «لنركِّز انتباهنا على قبول بولس المصلِّي لرفض الله («لا» الله).» Preserve the paragraph <p> tags.",
+      "translation_quote": "«لنركِّز انتباهنا على قبول بولس الصائم في الصلاة لـ«لا» الله.»"
+    },
+    {
+      "location": "Throughout (added/changed pronoun and possessive in Deuteronomy 1:42 paragraph)",
+      "severity": "minor",
+      "source_quote": "“And the Lord said unto me, Say unto them, Go not up, neither fight; for I am not among you; lest ye be smitten before your enemies”, but they rebelled at His “no.”",
+      "suggested_fix": "The translation insertsّ «إلههم» (their God) where the English has 'His' referring to the Lord. To preserve the author's original wording and theological attribution, render the clause as «لكنهم تمردوا على 'لا'ه» or better «لكنهم تمردوا على 'لا' الرب». Replace only that phrase; keep surrounding Arabic unchanged.",
+      "translation_quote": "«فقال لي الرب: قُل لهُم لا تُصعِدوا ولا تُقاتلوا، لأنِي لست معكم لئلا تُضْرَبوا أمام أعدائكم»، لكنهم تمردوا على «لا» إِلههم."
     }
   ],
+  "finished_at": "2026-10-02T12:50:15+00:00",
   "id": "7ff8b0eabb77c6399b726b4214da453b",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ara",
@@ -128,11 +162,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/40b205584b70dea6ea3ff3f4c41c6fd1ddfe0f0185df69fefa6b9552a41d435d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "bf998429e527907a20f711c821e9bb6ad50ba4d154d9f55d397877de1bb521c0",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "48db8b57-eca2-4d35-a48f-13c21d68bab0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cb37f274b6fa45918b621106710bd92c",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -43,18 +42,52 @@
         },
         "total_tokens": 12829
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 917,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8291,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9208
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[8]: source /article[1]/p[3]/sup[1] ('start', 'sup', ()); translation /article[1]/p[3] ('end', 'p')",
-      "translation_quote": ""
+      "location": "<section class=\"references\"> <ol> <li>Strongs Concordance</li> </ol> </section>",
+      "severity": "minor",
+      "source_quote": "Strongs Concordance",
+      "suggested_fix": "Translate the reference title into French or provide the conventional French form. For example: \"Concordance de Strong\". Preserve HTML structure exactly.",
+      "translation_quote": "Strongs Concordance"
+    },
+    {
+      "location": "<p>… Paltiel …</p> (2 Samuel paragraph)",
+      "severity": "minor",
+      "source_quote": "Phaltiel",
+      "suggested_fix": "Use the same transliteration as the English source for this proper name (\"Phaltiel\") or confirm the target-language conventional form. Preserve HTML tags and placement.",
+      "translation_quote": "Paltiel"
+    },
+    {
+      "location": "<p>« Une grande paix ont ceux qui aiment ta loi : et rien ne les scandalise » (Psaume 119:165).</p>",
+      "severity": "minor",
+      "source_quote": "\"Great peace have they which love thy law: and nothing shall offend them\" (Psalm 119:165).",
+      "suggested_fix": "The translation \"rien ne les scandalise\" is understandable and faithful, but consider a more idiomatic French rendering for clarity while preserving meaning, e.g. \"et rien ne les fait trébucher\" or \"et rien ne les scandalise\" is acceptable. No HTML changes.",
+      "translation_quote": "« Une grande paix ont ceux qui aiment ta loi : et rien ne les scandalise » (Psaume 119:165)."
     }
   ],
+  "finished_at": "2026-10-02T12:50:15+00:00",
   "id": "257d5cd05d1e317e36261e129284727c",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "fra",
@@ -128,11 +161,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/860ef4183736ed90ffe0410e641004cf07704736a2fe3063f1577a97a4982295.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "b25c7ba97f60cd8b593ddd3f02e4c8b5da68408268cf7ae4a26bd9922702c945",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

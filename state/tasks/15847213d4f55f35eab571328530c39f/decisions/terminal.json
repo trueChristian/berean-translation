@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph 3 (\"Looking back at God's faithfulness...\")",
+      "severity": "major",
+      "source_quote": "God’s Faithfulness Manifest Even in the Curse",
+      "suggested_fix": "Replace the translated article title phrase to preserve the English author's meaning. Change “Imani ya Mungu Inaonekana Hata Katika Laana” to “Uaminifu wa Mungu Unaonekana Hata Katika Laana” so that “Faithfulness” (uaminifu) rather than “faith” (imani) is rendered.",
+      "translation_quote": "“Imani ya Mungu Inaonekana Hata Katika Laana”"
+    },
+    {
+      "location": "source.html paragraph 4 (\"Despite God’s faithfulness to us, the effects of the fall...\")",
+      "severity": "major",
+      "source_quote": "Family members get sick",
+      "suggested_fix": "Restore the intended meaning by replacing the incorrect word for \"family members.\" Change “Wajukuu wanaugua” to “Wanafamilia/wanajamii wanaugua” (suggested: “Wanafamilia wanaugua”) so it reads that family members (not grandchildren) get sick.",
+      "translation_quote": "“Wajukuu wanaugua”"
+    },
+    {
+      "location": "source.html paragraph 3 (\"We become weary. Bone tired. Exhausted to the point when even thinking hurts...\")",
+      "severity": "minor",
+      "source_quote": "Exhausted to the point when even thinking hurts.",
+      "suggested_fix": "The current Swahili sentence uses an incorrect word (“Tunanusiwa”) that does not convey exhaustion. Replace the sentence “Tunanusiwa hadi kiwango ambacho hata kufikiri kunadhuru.” with a clear equivalent such as “Tumechoka kiasi kwamba hata kufikiri kunadhuru.” or “Tumechoka hadi kiwango ambacho hata kufikiri kunadhuru.”",
+      "translation_quote": "“Tunanusiwa hadi kiwango ambacho hata kufikiri kunadhuru.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

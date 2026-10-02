@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final narrative paragraph (near end): \"Although Little Davy now a grandpa...\",\"source.html\":\"Although Little Davy is now a grandpa, he has not forgotten the bicycle race on that long ago Sunday afternoon, when Big David and Paul learned that bragging and showing off usually comes to a crashing end.\",\"translation.html\":\"Hoewel Little Davy nu opa is, is hij de fietswedstrijd van die lang vervlogen zondagnamiddag niet vergeten, toen Grote David en Paul leerden dat opscheppen en pronken meestal met een klap eindigt.\",\"severity\":\"minor\",\"suggested_fix\":\"Consistently translate the nickname. Earlier in the translation the author used 'Kleine Davy'. Change this occurrence 'Little Davy' to 'Kleine Davy' (or make all occurrences 'Little Davy' if you prefer to keep the English nickname, but be consistent). Example fix in Dutch: 'Hoewel Kleine Davy nu opa is, is hij de fietswedstrijd ... niet vergeten.'\"},{\"location\":\"Paragraph after the crash: question from boys to injured pair\",\"source.html\":\"The other boys stood on the bank with their mouths open. Quickly, they ran to the two big boys lying by their new bicycles. 'Are you okay?' they asked.\",\"translation.html\":\"De andere jongens stonden op de wal met open monden. Snel renden ze naar de twee grote jongens die bij hun nieuwe fietsen lagen. \\\"Gaan jullie wel?\\\" vroegen ze.\",\"severity\":\"minor\",\"suggested_fix\":\"The Dutch 'Gaan jullie wel?' is awkward and does not idiomatically convey the English 'Are you okay?'. Replace with a natural equivalent such as 'Gaat het met jullie?' or 'Zijn jullie oké?' For example: '\\\"Gaat het met jullie?\\\" vroegen ze.'\"},{\"location\":\"Paragraph describing the descent: 'One, two, three, GO...'\",\"source.html\":\"One, two, three, GO and they were off! Down the hill they came, pedaling for all they were worth.\",\"translation.html\":\"Een, twee, drie, GA en ze waren weg! Heen en weer roetsjten ze de heuvel af, trampend alsof hun leven ervan afhing.\",\"severity\":\"minor\",\"suggested_fix\":\"The added phrase 'Heen en weer' introduces a 'back-and-forth' meaning not present in the source. Remove 'Heen en weer' to match the original. Suggested phrasing: 'Een, twee, drie, GA en ze waren weg! Roetsjten ze de heuvel af, trampend alsof hun leven ervan afhing.' or more idiomatically: '... en ze schoten de heuvel af, trappend alsof hun leven ervan afhing.'\"}], ",
+      "severity": "minor",
+      "source_quote": "(unused)",
+      "suggested_fix": "(unused)",
+      "translation_quote": "(unused)"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -2,7 +2,6 @@
   "article_id": "a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cb37f274b6fa45918b621106710bd92c",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -43,18 +42,67 @@
         },
         "total_tokens": 4656
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1634,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2916,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4550
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[33]: source /article[1]/figure[1]/figcaption[1]/br[2] ('start', 'br', ()); translation /article[1]/figure[1]/figcaption[1] ('end', 'figcaption')",
-      "translation_quote": ""
+      "location": "<p>Even though Little Davy is now a grandpa, he has not forgotten the bicycle race on that long ago Sunday afternoon, when Big David and Paul learned that bragging and showing off usually comes to a crashing end.</p>",
+      "severity": "major",
+      "source_quote": "Even though Little Davy is now a grandpa, he has not forgotten the bicycle race on that long ago Sunday afternoon, when Big David and Paul learned that bragging and showing off usually comes to a crashing end.",
+      "suggested_fix": "Translate the meaning \"grandpa\" (i.e., grandfather) accurately into Afrikaans. Replace the current sentence in the translation with an Afrikaans sentence that preserves the original meaning: for example: \"Al is Klein Davy nou ‘n grootpappa, het hy die fietswedren op daardie langverlede Sondagnamiddag steeds nie vergeet nie, toe Groot David en Paul geleer het dat spog en pronk gewoonlik in ’n verpletterende einde uitloop.\" Ensure the HTML paragraph tags and order are unchanged.",
+      "translation_quote": "Al is Klein Davy nou ’n grootjie, het hy die fietswedren op daardie langverlede Sondagnamiddag steeds nie vergeet nie, toe Groot David en Paul geleer het dat spog en pronk gewoonlik in ’n verpletterende einde uitloop."
+    },
+    {
+      "location": "<p>“No,” challenged Paul, “my shorter legs can pump faster, and Schwinn’s high-test bicycle oil by far outperforms WD40, which really is only for squeaks.”</p>",
+      "severity": "major",
+      "source_quote": "Schwinn’s high-test bicycle oil by far outperforms WD40, which really is only for squeaks.",
+      "suggested_fix": "Render \"high-test\" as \"high-test\" meaning high-quality or high-performance. Replace the phrase with a correct Afrikaans equivalent that conveys superior performance, for example: \"en Schwinn se hoëprestasie-fietsolie oortref WD40 met kop en skouers, wat eintlik net vir piepings is.\" Keep surrounding punctuation and tags as in the source.",
+      "translation_quote": "my korter bene kan vinniger pomp, en Schwinn se hoëbekwame fietsolie presteer ver bo WD40, wat eintlik net vir piepies is."
+    },
+    {
+      "location": "<p>All the commotion woke up Little Davy’s rat terrier dog, Nellie. Yapping loudly, Nellie zoomed around the silo as fast as her four little legs could carry her.</p>",
+      "severity": "minor",
+      "source_quote": "Little Davy’s rat terrier dog, Nellie.",
+      "suggested_fix": "Use a conventional Afrikaans form for the dog breed. Suggested fix: change \"ratte-terriër-hond, Nellie\" to \"Klein Davy se ratterriër, Nellie\" or \"Klein Davy se rat-terriër, Nellie\" (and keep punctuation and tag structure).",
+      "translation_quote": "Klein Davy se ratte-terriër-hond, Nellie, wakker gemaak."
+    },
+    {
+      "location": "<p>One, two, three, GO and they were off! Down the hill they came, pedaling for all they were worth.</p>",
+      "severity": "minor",
+      "source_quote": "pedaling for all they were worth.",
+      "suggested_fix": "Correct the Afrikaans idiomatic rendering. Replace \"trapend met alles wat hulle werd was\" with \"trapend met al wat hulle waard was\" or \"trapend met alles wat in hulle was\" to preserve meaning and correct word choice.",
+      "translation_quote": "trapend met alles wat hulle werd was."
+    },
+    {
+      "location": "<figure> <figcaption>\"PRIDE GOETH BEFORE<br>\n    DESTRUCTION, AND AN<br>\n    HAUGHTY SPIRIT BEFORE<br>\n    A FALL\"<br>\n    -PROVERBS 16:18</figcaption>",
+      "severity": "minor",
+      "source_quote": "\"PRIDE GOETH BEFORE DESTRUCTION, AND AN HAUGHTY SPIRIT BEFORE A FALL\" -PROVERBS 16:18",
+      "suggested_fix": "The caption translation is good in meaning, but check spelling/diacritics consistency: consider using a standard Afrikaans Bible book name and apostrophe style already used. Current translation \"HOOGMOED GAAT VOOR\\n    VERWOESTING, EN ’N\\n    ARROGANTE GEES VOOR\\n    ’N VAL\" -SPREUKE 16:18 is acceptable; no change necessary unless you prefer \"Spreuke\" capitalization consistent with other site usage. No HTML structure change required.",
+      "translation_quote": "\"HOOGMOED GAAT VOOR<br>\n    VERWOESTING, EN ’N<br>\n    ARROGANTE GEES VOOR<br>\n    ’N VAL\"<br>\n    -SPREUKE 16:18"
     }
   ],
+  "finished_at": "2026-10-02T12:50:14+00:00",
   "id": "0e8a26b9274bbe36f802def01c2e6802",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "afr",
@@ -128,11 +176,13 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/b3f16398a20747d67e66eb67dbc050ebc81f356a674a0f664b03d16556ad5ae2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "b2d358ce80d345919a9aeec61b0c0a38e5f8adb553e707efe8d7b1d08ee3bf17",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

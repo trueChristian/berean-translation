@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html paragraph: \\\"It is as though you are in a vehicle traveling 90 mph...\\\" (English) / translation.html paragraph: \\\"Det är som om du sitter i ett fordon som kör i 140 km/h...\\\" (Swedish)\",\"severity\":\"minor\",\"source_quote\":\"It is as though you are in a vehicle traveling 90 mph, and you push the accelerator a little harder, and nothing happens.\",\"suggested_fix\":\"Either keep the original numeric example literal (e.g., \\\"90 mph\\\") or convert it precisely (90 mph ≈ 145 km/h). For Swedish readership a conversion is acceptable, but preserve equivalence. Suggested Swedish wording: \\\"Det är som om du sitter i ett fordon som kör i cirka 145 km/h och du trycker gaspedalen lite hårdare…\\\"\",\"translation_quote\":\"Det är som om du sitter i ett fordon som kör i 140 km/h och du trycker gaspedalen lite hårdare, men inget händer.\"},{\"location\":\"source.html paragraph: \\\"In a sense, Mrs. Jones was dealing with kidney burnout—a situation where they were putting out more than they were taking in and suffering as a result.\\\" / translation.html paragraph: \\\"I viss mening handlade fru Jones om njurutmattning – en situation där de gör av med mer än de får in och lider till följd av det.\\\"\",\"severity\":\"minor\",\"source_quote\":\"In a sense, Mrs. Jones was dealing with kidney burnout—a situation where they were putting out more than they were taking in and suffering as a result.\",\"suggested_fix\":\"Clarify subject and make wording idiomatic Swedish while keeping meaning. Suggested Swedish wording: \\\"I viss mening handlade det om njurutmattning hos fru Jones – ett tillstånd där njurarna gör av med mer vätska än de får in och därigenom skadas.\\\"\",\"translation_quote\":\"I viss mening handlade fru Jones om njurutmattning – en situation där de gör av med mer än de får in och lider till följd av det.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 1892,
+    "content_evidence_truncated": false,
+    "content_sha256": "95f4062525ffe652f6a4ed788207d66cc1d7cce73a2d04145093fea76d6c6c94",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1290,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10104,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11394
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html (paragraph containing book title)\",\"severity\":\"major\",\"source_quote\":\"I ordered a copy of <em>The Martyr’s Mirror</em> and was astounded when I read about these people who lived like the disciples.\",\"suggested_fix\":\"Translate the cited book title into Arabic (preserve the <em> tag). For example: I ordered a copy of <em>مرآة الشهداء</em> and was astounded when I read about these people who lived like the disciples. Ensure the <em> tag and surrounding HTML remain unchanged.\",\"translation_quote\":\"طلبت نسخة من <em>The Martyr’s Mirror</em> وذهلت عندما قرأت عن هؤلاء الناس الذين عاشوا مثل التلاميذ.\"},{\"location\":\"source.section\",\"severity\":\"minor\",\"source_quote\":\"MUSINGS OF A MISSIONARY\",\"suggested_fix\":\"Use a more idiomatic rendering for 'of a missionary' in Modern Standard Arabic. For example change the translated section value from \\\"تأملات مُرسَل\\\" to \\\"تأملات مبشر\\\" (keeping capitalization/formatting rules of the site).\",\"translation_quote\":\"تأملات مُرسَل\"}],\"passed\":false,\"score\":80}",
+    "content_bytes": 1141,
+    "content_evidence_truncated": false,
+    "content_sha256": "4cf51adb686e83852c8bc2cb60db09d218f3ec588662db211e5045c6ba1b4fbe",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 911,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5485,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6396
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

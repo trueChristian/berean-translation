@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "<blockquote> (Psalm 1:3)",
+      "severity": "critical",
+      "source_quote": "“And he shall be like a tree planted by the rivers of water, that bringeth forth his fruit in his season; his leaf also shall not wither; and whatsoever he doeth shall prosper” (Psalms 1:3).",
+      "suggested_fix": "Badilisha mstari uliotafsiriwa ndani ya <blockquote><p> kwa tafsiri inayofanana na Kiingereza awali. Pendekezo: “Na atakuwa kama mti uliopandwa kando ya mito ya maji, ambao hutoa matunda yake kwa msimu wake; jani lake halitauka; na atakayefanya atafanikiwa.” (Zaburi 1:3).",
+      "translation_quote": "“Na atakuwa kama mti uliopandwa kando ya mito ya maji, ambao hutoa matunda yake kwa msimu wake; jani lake halitauka; na atakaye kosa atafanikiwa” (Zaburi 1:3)."
+    },
+    {
+      "location": "<p> (discussion of 1 John 1:9)",
+      "severity": "major",
+      "source_quote": "“In 1 John 1:9 God has said that if we confess our sins, He will forgive us.”",
+      "suggested_fix": "Sahihisha sentensi ndani ya <p> ili kuonyesha maana sahihi ya Kiingereza. Pendekezo: “Katika 1 Yohana 1:9 Mungu amesema kwamba ikiwa tutatamka/tukatambua dhambi zetu (tukatuhumu dhambi zetu kwa uwazi) atatusamehe.” Au, kwa ufupisho na usahihi wa moja kwa moja: “Katika 1 Yohana 1:9 Mungu amesema kwamba tukitubu na kukiri dhambi zetu, atatusamehe.” (Tumia neno “kukiri” au “kutitaja” badala ya “kutuhumiwa”.)",
+      "translation_quote": "“Katika 1 Yohana 1:9 Mungu amesema kwamba tukituhumiwa dhambi zetu, atatusamehe.”"
+    },
+    {
+      "location": "<p> (sentence: “It is impossible for God to lie, therefore his Word...”)",
+      "severity": "major",
+      "source_quote": "“It is impossible for God to lie, therefore his Word and promises can always be trusted.”",
+      "suggested_fix": "Sahihisha tafsiri ili iwe na maana sawa ya Kiingereza. Pendekezo ndani ya <p>: “Ni jambo lisilowezekana kwa Mungu kulipuuzia uaminifu au kusema uongo; kwa hivyo Neno lake na ahadi zake daima zinaweza kuaminiwa.” Au kwa ufasaha zaidi: “Mungu hawezi kusema uongo; kwa hivyo Neno lake na ahadi zake daima zinaaminika.”",
+      "translation_quote": "“Ni vigumu kwa Mungu kulegeza uwongo, kwa hiyo Neno lake na ahadi zake daima zinaweza kuaminiwa.”"
+    },
+    {
+      "location": "<blockquote> (John 4:14)",
+      "severity": "minor",
+      "source_quote": "“But whosoever drinketh of the water that I shall give him shall never thirst; but the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14).",
+      "suggested_fix": "Ruhusu tafsiri ya mstari wa maandiko iwe wazi na kamilifu. Pendekezo kisichobadilisha ujumbe: “Lakini yeye yeyote atakayekunywa maji nitakayompa hatakasirika kamwe; bali maji nitakayompa yatakuwa ndani yake kisima cha maji kinachomiminika hadi uzima wa milele.” (Yohana 4:14). (Sahihisha maneno madogo kama “yeyote”/“yeyule” na msamiati ili kufuata idiomu ya Kiswahili.)",
+      "translation_quote": "“Lakini yeyote anayekunywa maji nitakayompa hatakasirika kamwe; bali maji nitakayompa yatakuwa ndani yake kisima cha maji kinachomiminika hadi uzima wa milele” (Yohana 4:14)."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

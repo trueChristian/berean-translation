@@ -2,7 +2,6 @@
   "article_id": "d2d95264-7df9-4ca8-9a99-01a68204d73a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cb37f274b6fa45918b621106710bd92c",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:56+00:00",
   "events": [
@@ -43,18 +42,60 @@
         },
         "total_tokens": 3931
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1647,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3135,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4782
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
+      "location": "translation.html — paragraph 6 (sentence quoting 'It is finished.')",
       "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Expected one complete outer article element",
-      "translation_quote": ""
+      "source_quote": "We do not work for our salvation, for Christ Himself said, “It is finished.”",
+      "suggested_fix": "Translate the quoted words \"It is finished.\" accurately and literally into contemporary Modern Hebrew (preserving the quotation marks). For example: \"איננו עובדים עבור הישועתנו, שכן המשיח עצמו אמר, 'נשלם.'\" (or the more common liturgical rendering: 'הושלם' / 'נשׁלמה' — choose one consistent, literal rendering). Do not add extra words such as \"העבודה.\" Preserve the original short exclamation as quoted.",
+      "translation_quote": "איננו עובדים עבור הישועתנו, שכן המשיח עצמו אמר, \"נשלמה העבודה.\""
+    },
+    {
+      "location": "translation.html — paragraph 3 (John 6:27 verse translation)",
+      "severity": "major",
+      "source_quote": "for him hath God the Father sealed (John 6:27)",
+      "suggested_fix": "Render 'God the Father' faithfully as in the source text. Replace the current phrase 'אב־הכל' with a direct, standard Hebrew equivalent of 'God the Father' such as 'הָאֵל הָאָב' or 'הָאֵל הָאָב (הָאֱלֹהִים הָאָב)'. Preserve the verse punctuation and place the verse reference unchanged. Example fix: \"...כִּי אוֹתוֹ חָתַם הָאֵל הָאָב\" (place inside the existing quote structure).",
+      "translation_quote": "\"אל תעבדו למאכל האובֶד, אלא לעבוד למאכל הנשאר לחיי עולם, אשר ייתן לכם בן־האדם; כי אותו חתם אב־הכל\" (יוחנן 6:27)."
+    },
+    {
+      "location": "translation.html — metadata/first paragraphs (occupational title)",
+      "severity": "minor",
+      "source_quote": "When I worked in a prison as an assistant chaplain, I would sit with the condemned men...",
+      "suggested_fix": "Preserve the original occupational role without introducing an unintended gender. The English 'assistant chaplain' is gender-neutral; translate as a gender-neutral Hebrew phrase such as 'סגן הכומר' or better 'עוזר הקפellan/הרב/הכומר' depending on denominational style. Example: 'כאשר עבדתי בכלא כעוזר הכומר' or 'כמשמיע-משמעת/עוזר רועה-רוחני' (choose 'עוזר הכומר' or 'סגן הכומר').",
+      "translation_quote": "\"...כשהייתי עובד בכלא כסגנית כומר, ישבתי עם הגברים שהורשעו...\""
+    },
+    {
+      "location": "translation.html — scripture reference parentheticals (Ephesians reference)",
+      "severity": "minor",
+      "source_quote": "we are saved by grace through faith (Ephesians 2:8).",
+      "suggested_fix": "Use the conventional Hebrew book name for the citation and ensure standard spelling. Replace 'אפסיים' with the standard Hebrew form for 'Ephesians' (commonly 'אפסיים' is a transliteration but inconsistent); preferable forms: 'אל הטבעים' is incorrect — correct is 'אֶפֶסִים' is not standard either. The standard in modern Hebrew Bibles is 'אֶפֵּסִים' is rare; the safest is 'אפסיים' only if the publication consistently uses it — confirm style. If following common use, use 'אפסיים' only if consistent; otherwise prefer 'אִף־סִים' is incorrect. Suggested: 'אפסיים' → 'אפסיים' corrected spelling or use the Hebrew title 'אפסיים' if this is the publication's convention. (If unsure, use the canonical Hebrew name 'אֶפֶסִים' or 'אפסיים' consistently.)",
+      "translation_quote": "\"(אפסיים 2:8)\""
     }
   ],
+  "finished_at": "2026-10-02T12:50:15+00:00",
   "id": "51c79e795d7eec6c19420c318feeb58d",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "heb",
@@ -128,11 +169,13 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8a99b566d1f7a4b71f671efc977b9e895b89fc48e4520caf1214f243e2083ab5.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "d21eb9a2e384c54d8451d42bc7b07528a6bfe6b701385ff6d901ec268b981022",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

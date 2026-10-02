@@ -2,7 +2,6 @@
   "article_id": "20914547-a133-4159-bd5b-dff81f36453b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cb37f274b6fa45918b621106710bd92c",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -43,18 +42,52 @@
         },
         "total_tokens": 13936
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1301,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8917,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10218
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/blockquote[11]/p[1]; missing: none; extra: 12:28",
-      "translation_quote": ""
+      "location": "source.html — paragraph containing 'a great cloud of witnesses' (Hebrews 12:1-3) and its translation",
+      "severity": "minor",
+      "source_quote": "“Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight... (Hebrews 12:1-3).”",
+      "suggested_fix": "Correct the Swedish word for 'witnesses' to standard spelling. Replace \"vittnesskare\" with \"vittneskare\" so the phrase reads naturally in contemporary Swedish.",
+      "translation_quote": "”Därför, eftersom vi är omgivna av ett så stort vittnesskare, låt oss kasta av oss allt som tynger ...”"
+    },
+    {
+      "location": "source.html — paragraph with 'to the praise of his glory' (Ephesians 1 reference)",
+      "severity": "minor",
+      "source_quote": "“You are accepted by God, and you are to be ‘to the praise of his glory!’”",
+      "suggested_fix": "Use a more natural, idiomatic Swedish rendering while preserving the theological meaning. Consider changing “till 'hans lof'!” to “till hans pris!” or “till hans ära!”",
+      "translation_quote": "\"Du är accepterad av Gud, och du är till ”hans lof”!\""
+    },
+    {
+      "location": "source.section",
+      "severity": "minor",
+      "source_quote": "INSPIRATIONS FOR YOUTH",
+      "suggested_fix": "The translated section heading is acceptable, but for idiomatic Swedish consider pluralization/capitalization consistent with site conventions: \"INSPIRATIONER FÖR UNGDOM\" is valid. No change required unless the site prefers title case or singular form (e.g. \"INSPIRATION FÖR UNGDOM\").",
+      "translation_quote": "INSPIRATIONER FÖR UNGDOM"
     }
   ],
+  "finished_at": "2026-10-02T12:50:15+00:00",
   "id": "ce1dee4650f103f0427e8cd6007f683b",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "swe",
@@ -128,11 +161,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a5fa4336ac24fe4ded7bc5c6695694845b2e95ac589cd5689bedc4b3e79ef2b1.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "2780d41d80f578475e27d5e54969bef54c79aef92fae3008a281d5b3d0e475c3",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

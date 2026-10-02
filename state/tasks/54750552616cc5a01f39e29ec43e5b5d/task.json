@@ -2,7 +2,6 @@
   "article_id": "d2d95264-7df9-4ca8-9a99-01a68204d73a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cb37f274b6fa45918b621106710bd92c",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:56+00:00",
   "events": [
@@ -43,18 +42,46 @@
         },
         "total_tokens": 4998
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1273,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3093,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4366
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[2]; missing: 10:1-2, 3:3; extra: none",
-      "translation_quote": ""
+      "location": "Final paragraph, quoted Scripture (2 Corinthians 5:2)",
+      "severity": "major",
+      "source_quote": "“. . . in this we groan, earnestly desiring to be clothed upon with our house which is from heaven” (2 Corinthians 5:2).",
+      "suggested_fix": "Translate the quoted Scripture to preserve the original image of being clothed with a ‘house which is from heaven’. Replace the current phrasing with a faithful German rendering such as: „... in diesem seufzen wir und sehnen uns ernstlich danach, mit unserem Haus, das von dem Himmel ist, bekleidet zu werden“ or more idiomatically: „... in diesem seufzen wir und sehnen uns ernstlich danach, mit unserem himmlischen Wohnhaus bekleidet zu werden“ (keep the verse reference and punctuation as in source). Ensure the HTML structure and surrounding sentence remain unchanged.",
+      "translation_quote": "„... in diesem seufzen wir und sehnen uns ernstlich danach, mit unserem himmlischen Kleid überkleidet zu werden“ (2. Korinther 5:2)."
+    },
+    {
+      "location": "Paragraph quoting Romans 5:5",
+      "severity": "minor",
+      "source_quote": "Once we receive the Lord Jesus as Saviour, then “hope maketh not ashamed” (Romans 5:5).",
+      "suggested_fix": "The translation „dann ‚versagt die Hoffnung nicht‘ (Römer 5:5)\" is understandable but awkward in German and slightly departs from the idiom of the original. Use a more natural, faithful rendering such as: „dann ‚die Hoffnung lässt uns nicht zuschanden werden‘ (Römer 5:5)\" or „dann ‚die Hoffnung macht uns nicht zuschanden‘ (Römer 5:5)\". Preserve verse reference and punctuation.",
+      "translation_quote": "Sobald wir den Herrn Jesus als Retter empfangen, dann „versagt die Hoffnung nicht“ (Römer 5:5)."
     }
   ],
+  "finished_at": "2026-10-02T12:50:15+00:00",
   "id": "54750552616cc5a01f39e29ec43e5b5d",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "deu",
@@ -128,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 85,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8a99b566d1f7a4b71f671efc977b9e895b89fc48e4520caf1214f243e2083ab5.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "d21eb9a2e384c54d8451d42bc7b07528a6bfe6b701385ff6d901ec268b981022",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<section class=\"references\"> <ol> <li>Strongs Concordance</li> </ol> </section>",
+      "severity": "minor",
+      "source_quote": "Strongs Concordance",
+      "suggested_fix": "Translate the reference title into French or provide the conventional French form. For example: \"Concordance de Strong\". Preserve HTML structure exactly.",
+      "translation_quote": "Strongs Concordance"
+    },
+    {
+      "location": "<p>… Paltiel …</p> (2 Samuel paragraph)",
+      "severity": "minor",
+      "source_quote": "Phaltiel",
+      "suggested_fix": "Use the same transliteration as the English source for this proper name (\"Phaltiel\") or confirm the target-language conventional form. Preserve HTML tags and placement.",
+      "translation_quote": "Paltiel"
+    },
+    {
+      "location": "<p>« Une grande paix ont ceux qui aiment ta loi : et rien ne les scandalise » (Psaume 119:165).</p>",
+      "severity": "minor",
+      "source_quote": "\"Great peace have they which love thy law: and nothing shall offend them\" (Psalm 119:165).",
+      "suggested_fix": "The translation \"rien ne les scandalise\" is understandable and faithful, but consider a more idiomatic French rendering for clarity while preserving meaning, e.g. \"et rien ne les fait trébucher\" or \"et rien ne les scandalise\" is acceptable. No HTML changes.",
+      "translation_quote": "« Une grande paix ont ceux qui aiment ta loi : et rien ne les scandalise » (Psaume 119:165)."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:50:15+00:00",
+  "response": {
+    "content": "{\"findings\":[],\"passed\":true,\"score\":99}",
+    "content_bytes": 40,
+    "content_evidence_truncated": false,
+    "content_sha256": "2fcdbbda3b894cabb35656b2115655e93f4df30886d1dd4c1f9af13613ff0cd5",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 730,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8780,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9510
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

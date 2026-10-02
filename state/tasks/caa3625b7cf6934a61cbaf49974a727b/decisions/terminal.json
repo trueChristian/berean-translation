@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 1 (lead)",
+      "severity": "major",
+      "source_quote": "Ministers of the Gospel today are expected to be soft and effeminate lest they offend their listeners.",
+      "suggested_fix": "Translate the clause to preserve the English meaning “soft and effeminate”. Use a Kiswahili phrase that conveys the implication of 'effeminate' in the original context (e.g., “wavivu na wavivu kimwili/wanastahili kama wanawake” only if that exactly matches editorial policy — better: “wa laini na waliolindwa kimwenyekiti/waangalifu kiasi cha kuonekana dhaifu” ) while preserving the author's theology. Keep the structure of the sentence and surrounding HTML tags unchanged.",
+      "translation_quote": "Wao wa Injili leo wanatarajiwa kuwa laini na wa kifalme ili wasiwachukize wasikilizaji wao."
+    },
+    {
+      "location": "All inline Scripture citations and parenthetical references (throughout the article)",
+      "severity": "major",
+      "source_quote": "(Matthew 24:10), (Matthew 18:7), (Mark 14:27), (Psalm 119:165), (Matthew 13:20-21), (James 3:2), (Ephesians 4:1-2), (Proverbs 16:18), (Isaiah 57:14-15), (Isaiah 40:31), (Ephesians 5:2-4), (Esther 6:6), (2 Timothy 4:3-4), (John 16:1-4), (John 5:35), (Luke 7:20-23), (2 Samuel 3:15-16), (1 Peter 2:20), (Ephesians 5:15), (1 Corinthians 14:20), (2 Samuel 6:16), (2 Corinthians 5:13), (2 Samuel 6:23), (Proverbs 18:19), (1 Thessalonians 3:3)",
+      "suggested_fix": "Replace the English book names in parentheses with conventional Kiswahili book names while preserving the exact chapter:verse numbers and punctuation. For example: (Mathayo 24:10), (Mathayo 18:7), (Marko 14:27), (Zaburi 119:165), (Mathayo 13:20-21), (Yakobo 3:2), (Waefeso 4:1-2), (Methali 16:18), (Isaya 57:14-15), (Isaya 40:31), (Waefeso 5:2-4), (Estheri 6:6), (2 Timotheo 4:3-4), (Yohana 16:1-4), (Yohana 5:35), (Luka 7:20-23), (2 Samweli 3:15-16), (1 Petro 2:20), (Waefeso 5:15), (1 Wakorintho 14:20), (2 Samweli 6:16), (2 Wakorintho 5:13), (2 Samweli 6:23), (Methali 18:19), (1 Wathesalonike 3:3). Do this consistently for every parenthetical Scripture citation in the article. Preserve the existing punctuation and HTML.",
+      "translation_quote": "(Ephesians 4:1-2), (Methali 16:18), (Isaiah 57:14-15), (Isaiah 40:31), (Ephesians 5:2-4), (Esther 6:6), (2 Timothy 4:3-4), (John 16:1-4), (John 5:35), (Luke 7:20-23), (2 Samuel 3:15-16), (1 Peter 2:20), (Ephesians 5:15), (1 Corinthians 14:20), (2 Samuel 6:16), (2 Corinthians 5:13), (2 Samuel 6:23), (Proverbs 18:19), (1 Thessalonians 3:3) (and others left in English)"
+    },
+    {
+      "location": "Quoted Scripture passages (e.g., Psalm 119:165 and others)",
+      "severity": "major",
+      "source_quote": "“Great peace have they which love thy law: and nothing shall offend them” (Psalm 119:165).",
+      "suggested_fix": "Provide a faithful Kiswahili translation of the quoted Scripture passage that preserves the meaning printed in the English source. Use conventional Bible phrasing in Kiswahili (for example, from a standard Kiswahili Bible translation used by the publication) while keeping the same verse numbers and quotation marks. Do not substitute or omit the quote. For this verse an acceptable rendering would be: “Amani tele wapendao sheria yako; wala hakuna aweza kuwachukiza.” Insert the Kiswahili book name in the parenthetical reference: (Zaburi 119:165). Apply the same treatment to every passage of quoted Scripture in the article.",
+      "translation_quote": "“Amani kuu watakayo wapenda sheria yako: wala wala watadhalilishwa” (Zaburi 119:165)."
+    },
+    {
+      "location": "Reference list / endnotes",
+      "severity": "major",
+      "source_quote": "Strongs Concordance",
+      "suggested_fix": "Translate the reference entry into Kiswahili or provide a conventional localized rendering while preserving the cited work's identity. For example: “Strongs Concordance” could be left as a proper title but presented consistently (e.g., “Strongs Concordance” in italics or as a title) or translated to “Kisanduku cha Marejeleo cha Strong” if the publication's style requires translation. At minimum, the label 'Reference'/'References' heading has been localized in the article; apply the same localization or clear rendering to the entry to avoid leaving substantive metadata in English. Preserve HTML structure.",
+      "translation_quote": "Strongs Concordance"
+    },
+    {
+      "location": "Matthew 13:20-21 quotation (paraphrase)",
+      "severity": "minor",
+      "source_quote": "Christ described these plants as having “not root in himself, but dureth for a while: for when tribulation or persecution ariseth because of the word, by and by he is offended” (Matthew 13:20-21).",
+      "suggested_fix": "Adjust the Kiswahili quotation to match the meaning of the English source more closely and use standard Kiswahili Bible phrasing. A suggested rendering: “Naye ni ile isiyekuwa na mzizi ndani yake, bali huchukua muda; lakini utakapoanguka kwa shinikizo au perushani kwa ajili ya neno, mara moja atachukizwa.” Also replace the parenthetical reference with Kiswahili book name: (Mathayo 13:20-21). Preserve HTML.",
+      "translation_quote": "Kristo alielezea mimea hii kuwa haina mzizi ndani yake, “bali husema kwa muda, kwa maana tafrani au mateso yakitokea kwa ajili ya neno, mara tu anachukizwa” (Mathayo 13:20-21)."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

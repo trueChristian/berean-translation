@@ -2,7 +2,6 @@
   "article_id": "8072bb08-e7aa-4602-a3c6-f82161b740ae",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cb37f274b6fa45918b621106710bd92c",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -43,18 +42,60 @@
         },
         "total_tokens": 8642
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 2114,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5466,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7580
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
+      "location": "source.html — paragraph 1 (Deuteronomy 3:25,26 quote)",
       "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[2]; missing: 1:42; extra: none",
-      "translation_quote": ""
+      "source_quote": "“I pray thee, let me go over, and see the good land . . . But the Lord . . . would not hear me: and the Lord said unto me, Let it suffice thee; speak no more unto me of this matter” (Deuteronomy 3:25,26).",
+      "suggested_fix": "درست معنی بحال کریں۔ اقتباس کا اردو ترجمہ اصل انگریزی معنی کے عین مطابق ہونا چاہیے اور حوالہ کتاب کے نام کو اردو کے متعارف شدہ صورت میں لکھا جانا چاہیے۔ مثالِ تجویز (HTML ٹیگز برقرار رہتے ہوئے):\n\n“میں التجا کرتا ہوں کہ مجھے پار ہونے دے کہ میں وہ اچھی سرزمین دیکھوں۔۔۔ مگر خداوند نے میری بات نہ سنی: اور خداوند نے مجھ سے کہا، تجھ کے واسطے بس کر؛ اب مجھ سے اس بات کا اور کچھ نہ کہنا” (تثنیہ 3:25،26).",
+      "translation_quote": "“میں التجا کرتا ہوں کہ مجھے پار ہونے دے کہ میں وہ اچھی سرزمین دیکھوں۔۔۔ مگر یہوداہ کا خدا میری بات نہ سنے: اور خدا نے مجھ سے کہا، تیرے واسطے بس کر؛ مجھ سے اب اس بات کی طرف کچھ نہ کہہ” (Deuteronomy 3:25,26)."
+    },
+    {
+      "location": "source.html — all parenthetical Scripture references and abbreviated citations",
+      "severity": "major",
+      "source_quote": "(Deuteronomy 3:25,26), Deuteronomy 1:42, (Deuteronomy 1:45), (2 Corinthians 12:7-9), (cf. Luke 18:1-8), (2 Corinthians 12:10), (cf. 2 Co 4:7-11; Gal 4:13,14; 6:14,17), (Acts 19:21; 23:11), (Acts 24:27; 27:20), (Acts 28:16), (Deuteronomy 32:4), (Genesis 18:25), (Isaiah 55:8,9), (Psalms 139:6), (Matthew 5:45; Acts 14:17; 1 Timothy 5:23), (Acts 7; 12)",
+      "suggested_fix": "تمام حوالہ شدہ کتابوں کے نام اور بائبل حوالہ کی صورتِ حوالہ کو فارسی-عربی رسمِ خط میں عام اردو مستعمل کتابی ناموں سے بدل دیں (مثلاً Deuteronomy → تثنیہ، Luke → لوقا، 2 Corinthians → 2 کرنثیوں یا دوسری کرنتھیوں، Psalms → زبور وغیرہ)۔ نمبر و فصل/آیت شکلیں ویسی ہی رہیں۔ مثالیں (HTML ٹیگز برقرار رہتے ہوئے):\n\n- (تثنیہ 3:25،26)\n- (تثنیہ 1:42)\n- (دوسری کرنتھیوں 12:7-9)\n- (ملاحظہ کریں لوقا 18:1-8)\n- (دوسری کرنتھیوں 12:10)\n- (ملاحظہ کریں 2 کر 4:7-11؛ گلتیوں 4:13,14؛ 6:14,17)\n- (اعمال 19:21؛ 23:11)\n- (اعمال 24:27؛ 27:20)\n- (اعمال 28:16)\n- (تثنیہ 32:4)\n- (پیدائش 18:25)\n- (اشعیا 55:8،9)\n- (زبور 139:6)\n- (متی 5:45؛ اعمال 14:17؛ پہلی تیموتھی 5:23)\n- (اعمال 7؛ 12)\n\nیہ تبدیلیاں ضروری ہیں کیونکہ ہدایتِ جائزہ کے مطابق حوالہ شدہ مقدس مقامات کی کتابی نامیں معیاری ہدفِ زبان کے ناموں میں ہونی چاہئیں۔",
+      "translation_quote": "حوالہ جات متن میں انگلش میں جوں کے توں رہے ہیں، مثلاً (Deuteronomy 3:25,26)، (cf. Luke 18:1-8)، (2 Co 4:7-11; Gal 4:13,14; 6:14,17) وغیرہ۔"
+    },
+    {
+      "location": "source.html — paragraph where \"the Lord ... would not hear me\" is translated as \"یہوداہ کا خدا میری بات نہ سنے\"",
+      "severity": "major",
+      "source_quote": "“But the Lord . . . would not hear me: and the Lord said unto me, Let it suffice thee; speak no more unto me of this matter” (Deuteronomy 3:25,26).",
+      "suggested_fix": "یہ جملہ غلط طور پر \"یہوداہ کا خدا\" میں بدل دیا گیا جو مضمون کی نسبت اور مطلب بدل دیتا ہے۔ درست، وفادار اردو ترجمہ درج ذیل کی مانند ہونا چاہیے (HTML ٹیگز برقرار رکھتے ہوئے):\n\n“مگر خداوند نے میری بات نہ سنی: اور خداوند نے مجھ سے کہا، تجھ کے واسطے بس کر؛ اب مجھ سے اس بات کا اور کچھ نہ کہنا” (تثنیہ 3:25،26).",
+      "translation_quote": "“مگر یہوداہ کا خدا میری بات نہ سنے: اور خدا نے مجھ سے کہا، تیرے واسطے بس کر؛ مجھ سے اب اس بات کی طرف کچھ نہ کہہ” (Deuteronomy 3:25,26)."
+    },
+    {
+      "location": "source.html — instance of untranslated abbreviation and mixed-language citation \"2 Co 4:7-11; Gal 4:13,14; 6:14,17\"",
+      "severity": "minor",
+      "source_quote": "(cf. 2 Co 4:7-11; Gal 4:13,14; 6:14,17)",
+      "suggested_fix": "استعمال شدہ حوالہ ابریوییشن (2 Co, Gal) معیاری اردو/فارسی-عربی شکل میں تبدیل کریں اور 'cf.' کو مناسب اردو الفاظ (مثلاً 'ملاحظہ کریں' یا 'مقابلہ کریں') سے بدل دیں۔ مثال: (ملاحظہ کریں 2 کرنتھیوں 4:7-11؛ گلتیوں 4:13,14؛ 6:14,17)",
+      "translation_quote": "(موازنت ملاحظہ کریں 2 Co 4:7-11; Gal 4:13,14; 6:14,17)."
     }
   ],
+  "finished_at": "2026-10-02T12:50:15+00:00",
   "id": "630796db9a0a24543b64d98922f3a488",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "urd",
@@ -128,11 +169,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/40b205584b70dea6ea3ff3f4c41c6fd1ddfe0f0185df69fefa6b9552a41d435d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "bf998429e527907a20f711c821e9bb6ad50ba4d154d9f55d397877de1bb521c0",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

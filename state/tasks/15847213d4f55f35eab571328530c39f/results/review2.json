@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5a945462-64d8-4f1a-826d-3453b8aaefd5",
+    "response_id": "chatcmpl-EUWy9puNFZLjVPL6CyWH95iDZyLT5",
+    "usage": {
+      "completion_tokens": 1379,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3183,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4562
+    }
+  },
+  "received_at": "2026-10-02T12:50:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph 3 (\"Looking back at God's faithfulness...\")",
+        "severity": "major",
+        "source_quote": "God’s Faithfulness Manifest Even in the Curse",
+        "suggested_fix": "Replace the translated article title phrase to preserve the English author's meaning. Change “Imani ya Mungu Inaonekana Hata Katika Laana” to “Uaminifu wa Mungu Unaonekana Hata Katika Laana” so that “Faithfulness” (uaminifu) rather than “faith” (imani) is rendered.",
+        "translation_quote": "“Imani ya Mungu Inaonekana Hata Katika Laana”"
+      },
+      {
+        "location": "source.html paragraph 4 (\"Despite God’s faithfulness to us, the effects of the fall...\")",
+        "severity": "major",
+        "source_quote": "Family members get sick",
+        "suggested_fix": "Restore the intended meaning by replacing the incorrect word for \"family members.\" Change “Wajukuu wanaugua” to “Wanafamilia/wanajamii wanaugua” (suggested: “Wanafamilia wanaugua”) so it reads that family members (not grandchildren) get sick.",
+        "translation_quote": "“Wajukuu wanaugua”"
+      },
+      {
+        "location": "source.html paragraph 3 (\"We become weary. Bone tired. Exhausted to the point when even thinking hurts...\")",
+        "severity": "minor",
+        "source_quote": "Exhausted to the point when even thinking hurts.",
+        "suggested_fix": "The current Swahili sentence uses an incorrect word (“Tunanusiwa”) that does not convey exhaustion. Replace the sentence “Tunanusiwa hadi kiwango ambacho hata kufikiri kunadhuru.” with a clear equivalent such as “Tumechoka kiasi kwamba hata kufikiri kunadhuru.” or “Tumechoka hadi kiwango ambacho hata kufikiri kunadhuru.”",
+        "translation_quote": "“Tunanusiwa hadi kiwango ambacho hata kufikiri kunadhuru.”"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

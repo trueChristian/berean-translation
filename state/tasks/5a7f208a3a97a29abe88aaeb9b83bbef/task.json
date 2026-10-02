@@ -2,7 +2,6 @@
   "article_id": "a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cb37f274b6fa45918b621106710bd92c",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -43,18 +42,53 @@
         },
         "total_tokens": 4512
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1403,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2874,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4277
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
+      "location": "Paragraph containing collision onomatopoeia (source.html third paragraph after Nellie description)",
       "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[32]: source /article[1]/figure[1]/figcaption[1]/br[1] ('start', 'br', ()); translation /article[1]/figure[1]/figcaption[1] ('end', 'figcaption')",
-      "translation_quote": ""
+      "source_quote": "Thump, the passing bicycle hit the dog! Crash, bang, the two bicycles ran into each other!",
+      "suggested_fix": "Translate the onomatopoeic words into Italian and keep punctuation/spacing. For example: \"Tonfo! La bicicletta che sorpassava colpì il cane! Schianto, botto! Le due biciclette si scontrarono!\" Replace the English words only, preserving the rest of the sentence and surrounding HTML.",
+      "translation_quote": "Thump, la bicicletta che sorpassava colpì il cane! Crash, bang, le due biciclette si scontrarono!"
+    },
+    {
+      "location": "Paragraph containing interjection after fall (source.html paragraph with exclamations)",
+      "severity": "critical",
+      "source_quote": "“Hey – aye!” Oooff! Two boys flew over the handlebars and landed hard on the road.",
+      "suggested_fix": "Translate the interjection \"Oooff!\" into Italian while preserving the preceding quoted exclamation as translated. For example: \"“Ehi – ahi!” Uff! Due ragazzi volarono oltre il manubrio e caddero pesantemente sulla strada.\" Keep the original punctuation and sentence structure unchanged beyond replacing the English onomatopoeia.",
+      "translation_quote": "“Ehi – ahi!” Oooff! Due ragazzi volarono oltre il manubrio e caddero pesantemente sulla strada."
+    },
+    {
+      "location": "Figcaption (source.title/figure)",
+      "severity": "minor",
+      "source_quote": "\"PRIDE GOETH BEFORE<br>\n    DESTRUCTION, AND AN<br>\n    HAUGHTY SPIRIT BEFORE<br>\n    A FALL\"<br>\n    -PROVERBS 16:18",
+      "suggested_fix": "Correct the typo in Italian translation of the verse. Replace \"L'ORGOGLIO VENE PRIMA\" with \"L'ORGOGLIO VIENE PRIMA\" so the Italian reads: \"L'ORGOGLIO VIENE PRIMA<br>DELLA DISTRUZIONE, E UNO<br>SPIRITO SUPERBO PRIMA<br>DI UNA CADUTA\" -PROVERBI 16:18. Preserve line breaks and capitalization as in the translated figcaption.",
+      "translation_quote": "\"L'ORGOGLIO VENE PRIMA<br>\n    DELLA DISTRUZIONE, E UNO<br>\n    SPIRITO SUPERBO PRIMA<br>\n    DI UNA CADUTA\"<br>\n    -PROVERBI 16:18"
     }
   ],
+  "finished_at": "2026-10-02T12:50:15+00:00",
   "id": "5a7f208a3a97a29abe88aaeb9b83bbef",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ita",
@@ -128,11 +162,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/b3f16398a20747d67e66eb67dbc050ebc81f356a674a0f664b03d16556ad5ae2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "b2d358ce80d345919a9aeec61b0c0a38e5f8adb553e707efe8d7b1d08ee3bf17",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

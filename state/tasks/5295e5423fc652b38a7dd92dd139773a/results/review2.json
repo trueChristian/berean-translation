@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "88c91228-39b5-403a-97e1-699ad297449f",
+    "response_id": "chatcmpl-EUWy4dBMVlG3bgYM9XJQI9LBAzjSS",
+    "usage": {
+      "completion_tokens": 1423,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5805,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7228
+    }
+  },
+  "received_at": "2026-10-02T12:50:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "blockquote (opening Psalm quote)",
+        "severity": "major",
+        "source_quote": "\"O give thanks unto the God of heaven: for His mercy endureth for ever\" —Psalm 136:26",
+        "suggested_fix": "Translate the verse into natural Kiswahili preserving the scripture reference and meaning. Example: \"Mpe shukrani Mungu wa mbinguni; maana neema yake ni ya milele\" —Zaburi 136:26. Keep the same HTML structure and the citation exactly as in the source.",
+        "translation_quote": "\"Mwaminipe shukrani Mungu wa mbinguni: kwa maana neema yake ni ya milele\" —Zaburi 136:26"
+      },
+      {
+        "location": "<section class=\"lyrics\"> (entire hymn block of 13 verses)",
+        "severity": "critical",
+        "source_quote": "Full original hymn text beginning: \"When all Thy mercies, O my God, My rising soul surveys,...\" (13 original English verses)",
+        "suggested_fix": "Translate the entire quoted hymn (all 13 verses) into Kiswahili. Quoted substantive prose must be rendered into the target language while preserving verse order and the number of verses. Do not leave the original English text in place. Maintain the <section class=\"lyrics\"> and paragraph (<p><em>...</em></p>) HTML tags unchanged; replace only the English inner text with an accurate Kiswahili rendering of each verse.",
+        "translation_quote": "(All 13 hymn verses remain in English inside the <section class=\"lyrics\"> block) \"When all Thy mercies, O my God,...\""
+      },
+      {
+        "location": "Paragraph: \"The hymn, \\\"When All Thy Mercies O My God,\\\" written in 1712, has been published in 994 hymnals...\"",
+        "severity": "major",
+        "source_quote": "\"The hymn, \\\"When All Thy Mercies O My God,\\\" written in 1712, has been published in 994 hymnals and is to this day in the list of the best 100 hymns ever written.\"",
+        "suggested_fix": "Correct the mistranslation of 'has been published' (source) which was rendered as 'ulilipwa' (translation wrongly means 'was paid'). Use a Kiswahili verb that means 'published' or 'appears in hymnals' (e.g., 'imechapishwa' or 'imejumuishwa katika nyimbo za kidini'). Suggested text preserving structure: \"Wimbo huo, 'When All Thy Mercies O My God,' uliandikwa 1712, umechapishwa katika nyimbo za kidini 994 na hadi leo umeorodheshwa miongoni mwa nyimbo 100 bora zilizowahi kuandikwa.\" Keep HTML paragraph tags intact.",
+        "translation_quote": "\"Wimbo, \\\"When All Thy Mercies O My God,\\\" ulioandikwa mwaka 1712, umechapishwa katika nyimbo za kidini 994 na hadi leo uko katika orodha ya nyimbo 100 bora zaidi zilizowahi kuandikwa.\""
+      },
+      {
+        "location": "Paragraph: \"he was laid out for dead as soon as he was born.\"",
+        "severity": "minor",
+        "source_quote": "\"he was laid out for dead as soon as he was born.\"",
+        "suggested_fix": "Improve the Kiswahili idiom to convey the intended meaning (that he was thought to be dead at birth). Suggested wording: \"aliachwa kama mtu aliyekufa mara tu alipozaliwa\" or \"aliwekwa kama amekufa mara tu alipozaliwa.\" Preserve HTML tags.",
+        "translation_quote": "\"alilipwa mkao wa maiti mara tu alipozaliwa.\""
+      }
+    ],
+    "passed": false,
+    "score": 35
+  }
+}

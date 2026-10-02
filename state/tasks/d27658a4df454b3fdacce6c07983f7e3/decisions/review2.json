@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph containing Matthew 4:23, Matthew 9:36-38, and surrounding verses",
+      "severity": "major",
+      "source_quote": "“And Jesus went about all Galilee, teaching in their synagogues, and preaching the gospel of the kingdom, and healing all manner of sickness and all manner of disease among the people.” … “Then saith he unto his disciples, The harvest truly is plenteous, but the labourers are few; Pray ye therefore the Lord of the harvest, that he will send forth labourers into his harvest” (Matthew 4:23; Matt. 9:36-38).",
+      "suggested_fix": "Translate the quoted Scripture into contemporary Modern Greek (not Koine or literal ancient Greek), preserving the KJV meaning and the exact chapter:verse citations as printed. For example, render Matthew 4:23 and Matthew 9:36-38 in clear Modern Greek that faithfully conveys the KJV text. Keep the scripture reference numbers unchanged and in the same place. Do not use archaic/Koine orthography or vocabulary; use everyday Modern Greek phrasing that communicates the same theological content.",
+      "translation_quote": "«Και περιήρχετο ο Ἰησοῦς εις όλην την Γαλιλαίαν, διδάσκων εν ταῖς συναγωγαῖς αυτών, κηρύσσων το ευαγγέλιον της βασιλείας, και θεραπεύων πάσαν νόσον και πάσαν νόσον εν τω λαώ.» … «Τότε λέγει προς τους μαθητάς αυτού· Η θερισμός ωστόσο πολύς, οι δε εργαζόμενοι ολίγοι· δεήθητε ουν προς τον κύριον του θερισμού, ίνα εκβάλῃ εργαζομένους εις τον θερισμόν αυτού» (Ματθ. 9:36-38)."
+    },
+    {
+      "location": "source.html paragraph quoting various Bible verses (Matthew 13:22, Matthew 10:22, Romans 8:36, Acts 4:20, 1 Timothy 2:1-2, 1 Peter 4:14)",
+      "severity": "major",
+      "source_quote": "Quoted Scripture throughout the article, e.g. Acts 4:20 “For we cannot but speak the things which we have seen and heard”; Matt. 13:22; Matt. 10:22; Rom. 8:36; 1 Tim. 2:1-2; 1 Pet. 4:14.",
+      "suggested_fix": "All quoted Scripture passages must be rendered into contemporary Modern Greek (per user language guidance), faithfully conveying the English authoritative text as printed (KJV phrasing and meaning), while preserving the exact chapter and verse numbers as in the source. Replace archaic/Koine wording with clear Modern Greek equivalents that retain the original meaning and theological nuance. Example: render Acts 4:20 in Modern Greek equivalent to the KJV sentence, and do likewise for the other cited verses. Maintain verse citations in their original positions.",
+      "translation_quote": "«Ου δύναται δε ημείς μη λαλήσαι τα όσα εωράκαμεν και ηκούσαμεν» (Πράξεις 4:20); «Ο δε ελθόν εις τας ακανθάς…» (Ματθ. 13:22); «και μισηθήσεσθε υπό πάντων δι’ το όνομα μου…» (Ματθ. 10:22); «καθώς γέγραπται· Δι’ εσέ κατακτείνεσμέν τε καθ’ ημέραν…» (Ρωμ. 8:36); «Παρακαλώ ουν πρώτον απαραιτήτως…» (1 Τιμ. 2:1-2); «Εάν δε υμείς καυχώσθαι επί το όνομα του Χριστού…» (1 Πέτρ. 4:14)."
+    },
+    {
+      "location": "source.html paragraph mentioning the book title",
+      "severity": "minor",
+      "source_quote": "I ordered a copy of The Martyr’s Mirror and was astounded when I read about these people who lived like the disciples.",
+      "suggested_fix": "Either translate the book title into a conventional Modern Greek rendering (if commonly translated) or leave it in English but mark it consistently as a foreign title. Since the guidelines permit unchanged established titles, confirm that leaving <em>The Martyr’s Mirror</em> in English is intentional; otherwise provide a Modern Greek rendering (for instance: «Το Καθρέφτη των Μαρτύρων»), preserving the emphasis tags (<em>) and HTML structure exactly as in the translation.",
+      "translation_quote": "Παρήγγειλα ένα αντίτυπο του <em>The Martyr’s Mirror</em> και έμεινα κατάπληκτος όταν διάβαζα για αυτούς τους ανθρώπους που ζούσαν όπως οι μαθητές."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

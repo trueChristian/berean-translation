@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing Matthew 18:7 (third paragraph)",
+      "severity": "major",
+      "source_quote": "“Woe unto the world because of offences!” (Matthew 18:7)",
+      "suggested_fix": "Translate the quoted Scripture faithfully into standard Russian, preserving the meaning of \"offences\" (σκάνδαλα/ἀφορμαὶ) rather than substituting a different word. For example: «Горе миру от оступлений!» (Матфея 18:7) or «Горе миру от преград и соблазнов!» (Матфея 18:7), matching the sense of \"offences\" in the English source. Keep the verse reference (Matthew 18:7) unchanged and formatted as in the translation.",
+      "translation_quote": "«Горе миру от искушений!» (Матфея 18:7)"
+    },
+    {
+      "location": "Paragraph discussing \"molehill becomes a mountain\" (third paragraph)",
+      "severity": "major",
+      "source_quote": "The problem is that many today will stumble over the slightest obstruction in their path and the molehill becomes a mountain.",
+      "suggested_fix": "Restore the intended English idiom meaning in natural Russian. Replace the current erroneous/odd phrase with a correct rendering of \"molehill becomes a mountain\", e.g. «Проблема в том, что многие сегодня спотыкаются из-за малейшего препятствия, и из мухи делают слона» or «и из куриной горки делают гору» is wrong — use «и из мелкой преграды вздувают гору» or the idiomatic «и из мухи делают слона».",
+      "translation_quote": "«Проблема в том, что многие сегодня спотыкаются из‑за малейшего препятствия на пути, и куриная грудка становится горой.»"
+    },
+    {
+      "location": "References section (last section)",
+      "severity": "minor",
+      "source_quote": "Strongs Concordance",
+      "suggested_fix": "Translate or transliterate the reference into standard Russian. If keeping the established work title, provide a Russian rendering. For example: «Стронгс. Словарь (Strongs Concordance)» or simply «Конкорданс Стронга». Preserve the list structure and placement.",
+      "translation_quote": "Strongs Concordance"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -2,7 +2,6 @@
   "article_id": "c22883c1-1d69-4c5e-aa81-d4015bf4e473",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cb37f274b6fa45918b621106710bd92c",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -43,18 +42,67 @@
         },
         "total_tokens": 5964
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1726,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3572,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5298
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
+      "location": "source.html — quoted article title in paragraph 2",
       "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Forbidden HTML element: pυποθέτω",
-      "translation_quote": ""
+      "source_quote": "“God’s Faithfulness Manifest Even in the Curse”",
+      "suggested_fix": "Translate the quoted English article title into Modern Greek, preserving the quotation marks and placement. Example: «Η Πιστότητα του Θεού που Εκδηλώνεται Ακόμη και στην Κατάρα» (exact wording may follow the translator's style), and remove or avoid leaving the original English inside the Greek quotation. Keep the surrounding punctuation and HTML unchanged.",
+      "translation_quote": "«God’s Faithfulness Manifest Even in the Curse» (Η Πιστότητα του Θεού που Εκδηλώνεται Ακόμη και στην Κατάρα)"
+    },
+    {
+      "location": "source.html — hymn poem block (div.poem)",
+      "severity": "critical",
+      "source_quote": "When all Thy mercies, O my God,\n    My rising soul surveys,\n    Transported with the view, I’m lost\n    In wonder, love and praise.",
+      "suggested_fix": "The hymn lines are quoted substantive prose and must be translated into Modern Greek. Replace the English lines inside the <div class=\"poem\">...</div> with a faithful Greek rendering of the hymn stanza, preserving the <div class=\"poem\"> and inner <p><em>...</em></p> structure and line breaks (<br>). Do not leave the English text. Example (illustrative): <div class=\"poem\"><p><em>Όταν όλες οι οικτιρμοί Σου, ω Θεέ μου,<br>η ψυχή μου που ανέρχεται θεωρεί,<br>με τη θέα μεταφέρονται, χάνoμαι<br>σε θαυμασμό, αγάπη και ύμνο.</em></p></div> — translator may adjust wording for meter/idiom but must convey the original meaning.",
+      "translation_quote": "<div class=\"poem\">\n    <p><em>When all Thy mercies, O my God,<br>\n    My rising soul surveys,<br>\n    Transported with the view, I’m lost<br>\n    In wonder, love and praise.</em></p>\n  </div>"
+    },
+    {
+      "location": "source.html — reference to section/column title “A Word From the Doctor”",
+      "severity": "major",
+      "source_quote": "“A Word From the Doctor”",
+      "suggested_fix": "Translate the column/section title into Greek and keep it in quotation marks as in the source. For example: «Λόγος από τον Γιατρό» or «Μια Στήλη από τον Γιατρό», matching the publication's established terminology. Replace the English title in the running text while preserving surrounding punctuation and HTML.",
+      "translation_quote": "«A Word From the Doctor»"
+    },
+    {
+      "location": "source.html — paragraph describing farm work (\"broiler houses\" / \"flock\")",
+      "severity": "major",
+      "source_quote": "Last week I was cleaning out our broiler houses in preparation for a new flock.",
+      "suggested_fix": "Correctly translate 'broiler houses' (refers to poultry rearing houses) and fix the gender/number agreement for 'a new flock'. Suggested Greek: «Την περασμένη εβδομάδα καθάριζα τα σφαγεία που ανατρέφουν κοτόπουλα (σπίτια εκτροφής κότας) προετοιμάζοντας ένα νέο κοπάδι/σμήνος» — more natural: «Την περασμένη εβδομάδα καθάριζα τα κοτέτσια/εκτροφές μας προετοιμάζοντας ένα νέο κοπάδι.» Ensure correct article and adjective agreement: «ένα νέο κοπάδι». Preserve HTML and sentence structure.",
+      "translation_quote": "Την περασμένη εβδομάδα καθάριζα τα θερμοκήπια ανατροφής μας προετοιμάζοντας μια νέα κοπάδι."
+    },
+    {
+      "location": "source.html — paragraph describing exhaustion (\"Bone tired. Exhausted to the point when even thinking hurts.\")",
+      "severity": "minor",
+      "source_quote": "Bone tired. Exhausted to the point when even thinking hurts.",
+      "suggested_fix": "The translator used 'Νυσταγμένοι μέχρι τα κόκκαλα' which reads as 'very sleepy' rather than 'bone-tired' (deep physical exhaustion). Use a phrase conveying deeper exhaustion, e.g. 'Εξαντλημένοι μέχρι τα κόκκαλα. Εξαντλημένοι σε σημείο που ακόμα και το να σκεφτόμαστε πονάει.' Preserve sentence breaks and emphasis.",
+      "translation_quote": "Γινόμαστε κουρασμένοι. Νυσταγμένοι μέχρι τα κόκκαλα. Εξαντλημένοι σε σημείο που ακόμα και το σκέφτεσθαι πονάει."
     }
   ],
+  "finished_at": "2026-10-02T12:50:15+00:00",
   "id": "9f08ca462434157f37c3b3c72a059043",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ell",
@@ -128,11 +176,13 @@
     }
   },
   "protected": false,
+  "quality_score": 62,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/16f80cc2fe1f48fad7c825ed0d1e3059568da0b548b0106a43da4f8b4d785466.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "7328fe7985535229790c376868603624111ed137e1665aff6a36b03d5b4d90fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

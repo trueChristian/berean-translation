@@ -2,7 +2,6 @@
   "article_id": "a1334217-82ac-49ef-8293-563122652b89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cb37f274b6fa45918b621106710bd92c",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -43,18 +42,53 @@
         },
         "total_tokens": 10891
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1840,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6639,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8479
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[13]: source /article[1]/p[5]/em[1] ('start', 'em', ()); translation /article[1]/p[5] ('end', 'p')",
-      "translation_quote": ""
+      "location": "source.html paragraph containing Matthew 4:23, Matthew 9:36-38, and surrounding verses",
+      "severity": "major",
+      "source_quote": "“And Jesus went about all Galilee, teaching in their synagogues, and preaching the gospel of the kingdom, and healing all manner of sickness and all manner of disease among the people.” … “Then saith he unto his disciples, The harvest truly is plenteous, but the labourers are few; Pray ye therefore the Lord of the harvest, that he will send forth labourers into his harvest” (Matthew 4:23; Matt. 9:36-38).",
+      "suggested_fix": "Translate the quoted Scripture into contemporary Modern Greek (not Koine or literal ancient Greek), preserving the KJV meaning and the exact chapter:verse citations as printed. For example, render Matthew 4:23 and Matthew 9:36-38 in clear Modern Greek that faithfully conveys the KJV text. Keep the scripture reference numbers unchanged and in the same place. Do not use archaic/Koine orthography or vocabulary; use everyday Modern Greek phrasing that communicates the same theological content.",
+      "translation_quote": "«Και περιήρχετο ο Ἰησοῦς εις όλην την Γαλιλαίαν, διδάσκων εν ταῖς συναγωγαῖς αυτών, κηρύσσων το ευαγγέλιον της βασιλείας, και θεραπεύων πάσαν νόσον και πάσαν νόσον εν τω λαώ.» … «Τότε λέγει προς τους μαθητάς αυτού· Η θερισμός ωστόσο πολύς, οι δε εργαζόμενοι ολίγοι· δεήθητε ουν προς τον κύριον του θερισμού, ίνα εκβάλῃ εργαζομένους εις τον θερισμόν αυτού» (Ματθ. 9:36-38)."
+    },
+    {
+      "location": "source.html paragraph quoting various Bible verses (Matthew 13:22, Matthew 10:22, Romans 8:36, Acts 4:20, 1 Timothy 2:1-2, 1 Peter 4:14)",
+      "severity": "major",
+      "source_quote": "Quoted Scripture throughout the article, e.g. Acts 4:20 “For we cannot but speak the things which we have seen and heard”; Matt. 13:22; Matt. 10:22; Rom. 8:36; 1 Tim. 2:1-2; 1 Pet. 4:14.",
+      "suggested_fix": "All quoted Scripture passages must be rendered into contemporary Modern Greek (per user language guidance), faithfully conveying the English authoritative text as printed (KJV phrasing and meaning), while preserving the exact chapter and verse numbers as in the source. Replace archaic/Koine wording with clear Modern Greek equivalents that retain the original meaning and theological nuance. Example: render Acts 4:20 in Modern Greek equivalent to the KJV sentence, and do likewise for the other cited verses. Maintain verse citations in their original positions.",
+      "translation_quote": "«Ου δύναται δε ημείς μη λαλήσαι τα όσα εωράκαμεν και ηκούσαμεν» (Πράξεις 4:20); «Ο δε ελθόν εις τας ακανθάς…» (Ματθ. 13:22); «και μισηθήσεσθε υπό πάντων δι’ το όνομα μου…» (Ματθ. 10:22); «καθώς γέγραπται· Δι’ εσέ κατακτείνεσμέν τε καθ’ ημέραν…» (Ρωμ. 8:36); «Παρακαλώ ουν πρώτον απαραιτήτως…» (1 Τιμ. 2:1-2); «Εάν δε υμείς καυχώσθαι επί το όνομα του Χριστού…» (1 Πέτρ. 4:14)."
+    },
+    {
+      "location": "source.html paragraph mentioning the book title",
+      "severity": "minor",
+      "source_quote": "I ordered a copy of The Martyr’s Mirror and was astounded when I read about these people who lived like the disciples.",
+      "suggested_fix": "Either translate the book title into a conventional Modern Greek rendering (if commonly translated) or leave it in English but mark it consistently as a foreign title. Since the guidelines permit unchanged established titles, confirm that leaving <em>The Martyr’s Mirror</em> in English is intentional; otherwise provide a Modern Greek rendering (for instance: «Το Καθρέφτη των Μαρτύρων»), preserving the emphasis tags (<em>) and HTML structure exactly as in the translation.",
+      "translation_quote": "Παρήγγειλα ένα αντίτυπο του <em>The Martyr’s Mirror</em> και έμεινα κατάπληκτος όταν διάβαζα για αυτούς τους ανθρώπους που ζούσαν όπως οι μαθητές."
     }
   ],
+  "finished_at": "2026-10-02T12:50:15+00:00",
   "id": "d27658a4df454b3fdacce6c07983f7e3",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ell",
@@ -128,11 +162,13 @@
     }
   },
   "protected": false,
+  "quality_score": 75,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/49a66e43316337366db2887d07eae4fb7d7398fb2cd2778c9d2eec656ecce583.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "22f19fd4059c839acdb0760ae4c1ea7697fd7ad4642cdb6da3779c88fc7b55d4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

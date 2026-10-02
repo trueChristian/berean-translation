@@ -2,7 +2,6 @@
   "article_id": "48db8b57-eca2-4d35-a48f-13c21d68bab0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cb37f274b6fa45918b621106710bd92c",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -43,18 +42,60 @@
         },
         "total_tokens": 17670
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1249,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10714,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11963
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[8]: source /article[1]/p[3]/sup[1] ('start', 'sup', ()); translation /article[1]/p[3] ('end', 'p')",
-      "translation_quote": ""
+      "location": "Paragraph containing Matthew 13:20-21 (around \"Χριστός περιέγραψε...\")",
+      "severity": "major",
+      "source_quote": "Christ described these plants as having “not root in himself, but dureth for a while: for when tribulation or persecution ariseth because of the word, by and by he is offended” (Matthew 13:20-21).",
+      "suggested_fix": "Translate the quoted Scripture into contemporary Modern Greek (not retain or embed English). Render the whole verse in idiomatic Modern Greek and keep the chapter:verse numbers unchanged. For example, replace the entire quoted English passage with a Modern Greek translation that conveys the printed authoritative English text.",
+      "translation_quote": "Ο Χριστός περιέγραψε αυτά τα φυτά ως μη έχοντα ρίζα μέσα τους, «ἀλλ’ ἐστὶν ἄχρι and for a while: because when tribulation or persecution ariseth because of the word, by and by he is offended» (Ματθαίος 13:20-21)."
+    },
+    {
+      "location": "Multiple quoted Scripture passages throughout article (e.g. Ephesians, Isaiah, Psalm, Mark, Luke, John, Proverbs, James, 1 Peter, 2 Samuel, 2 Timothy, 1 Corinthians)",
+      "severity": "major",
+      "source_quote": "Examples: “Great peace have they which love thy law: and nothing shall offend them” (Psalm 119:165). “I therefore, the prisoner of the Lord, beseech you that ye walk worthy… ” (Ephesians 4:1-2). “Cast ye up, cast ye up…” (Isaiah 57:14-15). Others as printed in the authoritative English article.",
+      "suggested_fix": "The article requires Scripture quotations rendered into the target language in contemporary Modern Greek. Many quoted verses in the translation are presented in Koine/ancient biblical Greek (or in some places left as English), which fails the instruction to use contemporary Modern Greek. Replace each quoted verse with a faithful Modern Greek rendering that preserves the printed meaning and retains the same chapter:verse citations and punctuation. Do not mix Koine or literal ancient phrasing; use idiomatic Modern Greek suitable for readers today.",
+      "translation_quote": "Multiple verses are given in Koine/ancient Greek (e.g. «Μέγας εἰρήνη τοῖς ἀγαπῶσιν τὸν νόμον σου· καὶ οὐ μὴ σκανδαλισθῶσιν» (Ψαλμός 119:165); «Οὐχ οὖν ἐγώ ὁ δεσμώτης τοῦ Κυρίου παρακαλῶ ὑμᾶς ἵνα ἀξίως περιπατῆτε…» (Εφεσίους 4:1-2); etc.)."
+    },
+    {
+      "location": "Reference list (section.references)",
+      "severity": "minor",
+      "source_quote": "Strongs Concordance",
+      "suggested_fix": "Translate the reference title into natural Modern Greek while preserving the identifier. A better rendering would be: «Κατάλογος Strong» or «Συμφωνία του Strong (Strong's Concordance)» depending on house style; keep it in Greek and avoid an awkward literal calque.",
+      "translation_quote": "Συμφωνία του Strong"
+    },
+    {
+      "location": "General register and Scripture style throughout article",
+      "severity": "minor",
+      "source_quote": "Authoritative English uses modern literary English and quotes Scripture in the English rendering printed in the source article.",
+      "suggested_fix": "The translation mixes registers: general article text is in Modern Greek but Bible quotations are in Koine/ancient Greek (or occasionally left partially in English). The requirement from the reviewer/developer guidance is to use contemporary Modern Greek (not Koine or Ancient Greek). Update all quoted Scripture to contemporary Modern Greek translations (idiomatic, readable) while preserving verse numbers and the printed theological meaning.",
+      "translation_quote": "Examples of mixed register: modern Greek article text interspersed with Koine biblical quotations (see many scripture blocks throughout the translation)."
     }
   ],
+  "finished_at": "2026-10-02T12:50:14+00:00",
   "id": "01f88f36183cd62686524b83a34e7338",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ell",
@@ -128,11 +169,13 @@
     }
   },
   "protected": false,
+  "quality_score": 52,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/860ef4183736ed90ffe0410e641004cf07704736a2fe3063f1577a97a4982295.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "b25c7ba97f60cd8b593ddd3f02e4c8b5da68408268cf7ae4a26bd9922702c945",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

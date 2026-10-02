@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4c5463ac-6225-43fe-a305-9934723f5629",
+    "response_id": "chatcmpl-EUWy4R8fOKPfjdKGgVyxVQ8BINpip",
+    "usage": {
+      "completion_tokens": 807,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2863,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3670
+    }
+  },
+  "received_at": "2026-10-02T12:50:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — proper name in running text",
+        "severity": "minor",
+        "source_quote": "Two older boys, Big David and Paul, showed up with brand-new bicycles.",
+        "suggested_fix": "Use a more natural Indonesian ordering for the epithet while preserving meaning and the author's tone. For example: \"Dua anak laki-laki yang lebih besar, David si Besar dan Paul, muncul...\" or \"Dua anak laki-laki yang lebih besar, David yang besar dan Paul, muncul...\" Replace exactly the running-text phrase; keep surrounding HTML unchanged.",
+        "translation_quote": "Dua anak laki-laki yang lebih besar, David Besar dan Paul, muncul dengan sepeda baru."
+      },
+      {
+        "location": "source.html — phrase describing road surface",
+        "severity": "minor",
+        "source_quote": "These bicycles glided smoothly on the chip-and seal road without a rattle.",
+        "suggested_fix": "Preserve the sense of the specific road surface. Consider translating \"chip-and-seal road\" more literally, e.g. \"jalan yang berlapis kerikil dan pelapis (chip-and-seal)\" or \"jalur chip-and-seal\" if a technical name is intended. Replace only the clause in the paragraph.",
+        "translation_quote": "Sepeda-sepeda ini meluncur mulus di jalan beraspal tanpa bergetar."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

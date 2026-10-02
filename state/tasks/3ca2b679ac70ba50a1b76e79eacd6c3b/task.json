@@ -2,7 +2,6 @@
   "article_id": "c22883c1-1d69-4c5e-aa81-d4015bf4e473",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cb37f274b6fa45918b621106710bd92c",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -43,18 +42,46 @@
         },
         "total_tokens": 4577
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1090,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3017,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4107
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[5]; missing: 3:26; extra: none",
-      "translation_quote": ""
+      "location": "Paragraph: \"Last week I was cleaning out our broiler houses...\" (third-to-last <p>)",
+      "severity": "major",
+      "source_quote": "Last week I was cleaning out our broiler houses in preparation for a new flock.",
+      "suggested_fix": "Replace the mistranslation 'Bruthäuser' with a term that matches 'broiler houses' (i.e., buildings for raising broiler chickens). For contemporary German, use 'Masthähnchenställe' or 'Broilerställe'. Preserve surrounding HTML and punctuation. Example replacement: \"Letzte Woche habe ich unsere Masthähnchenställe ausgeräumt, um mich auf eine neue Herde vorzubereiten.\"",
+      "translation_quote": "Letzte Woche habe ich unsere Bruthäuser ausgeräumt, um mich auf eine neue Herde vorzubereiten."
+    },
+    {
+      "location": "Paragraph introducing the hymn: \"As we navigate through this year, let’s join the hymnwriter in worship...\"",
+      "severity": "major",
+      "source_quote": "As we navigate through this year, let’s join the hymnwriter in worship, where he writes:",
+      "suggested_fix": "Remove the added specification 'im Gotteslob' which is not in the source and introduces an unprovided attribution. Translate the phrase more literally as e.g. \"Während wir uns durch dieses Jahr bewegen, lasst uns dem Kirchenliederdichter im Lobpreis zustimmen, wo er schreibt:\" or simply \"lasst uns dem Dichter im Lobpreis zustimmen, wo er schreibt:\" (preserving the author's general reference to 'the hymnwriter'). Preserve HTML structure.",
+      "translation_quote": "Während wir uns durch dieses Jahr bewegen, lasst uns dem Dichter im Gotteslob im Lobpreis zustimmen, wo er schreibt:"
     }
   ],
+  "finished_at": "2026-10-02T12:50:15+00:00",
   "id": "3ca2b679ac70ba50a1b76e79eacd6c3b",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "deu",
@@ -128,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/16f80cc2fe1f48fad7c825ed0d1e3059568da0b548b0106a43da4f8b4d785466.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "7328fe7985535229790c376868603624111ed137e1665aff6a36b03d5b4d90fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
