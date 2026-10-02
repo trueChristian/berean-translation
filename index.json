@@ -2143,6 +2143,62 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
+      "html_sha256": "c85eb0362b4dca55123c693274022b463bc4bad641f1bd761fbbbcac9c0a1071",
+      "human_reviewed": false,
+      "id": "93978dae-706d-43d4-abee-6b6e011683fa",
+      "images": [
+        {
+          "alt": "Onde dell'oceano che si infrangono lungo una riva sabbiosa viste dall'alto.",
+          "public_path": "/images/articles/93978dae-706d-43d4-abee-6b6e011683fa-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/93978dae-706d-43d4-abee-6b6e011683fa.json",
+      "metadata_sha256": "eba838f7a6f3f5967923bb35aa536da73bc531fb5dd3806dc663f763ccb2e1dc",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SISTER TO SISTER",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Circumstantial Overload",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.html",
+      "html_sha256": "8a8f5ceeed73931889c775d6e05a2266ea09685bf6f9de2aa941d85ea43b7f8f",
+      "human_reviewed": false,
+      "id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
+      "images": [
+        {
+          "alt": "Una tazza di caffè accanto a un quaderno a spirale e una matita.",
+          "public_path": "/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.json",
+      "metadata_sha256": "eb8d39ca18e6af3c4e63180e3cf3afdb8580585e71ba0aa228fe3aeeeb5113a4",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SISTER TO SISTER",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Procrastination Overload",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f.html",
       "html_sha256": "132d51d724529bdbd5904aee937e1589e90bcef7812d06cebe7688093dd79266",
       "human_reviewed": false,
@@ -2166,6 +2222,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "La gloria della primavera",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.html",
+      "html_sha256": "ded3e46e45f7b512df6dc7d732bbae84b24d5ea386ea784ddb5f18572a55ea1a",
+      "human_reviewed": false,
+      "id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
+      "images": [
+        {
+          "alt": "Una piccola barca sul bordo di acque calme durante un tramonto vivido",
+          "public_path": "/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.json",
+      "metadata_sha256": "27dec0d168ca3465664e081e548c9114969cbe50909d34f0793fcb2d722ef54b",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Poesia",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Sorgi, sii lieto!",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {

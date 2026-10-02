@@ -2,7 +2,6 @@
   "article_id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2aa45245153e4fa38e372963ca132581",
   "campaign": "gh-36910234395",
   "created_at": "2026-10-01T18:55:44+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 3439
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1519,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2985,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4504
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Paragraph 3 (reference to Nelson Mandela quote)",
+      "severity": "major",
+      "source_quote": "Nelson Mandela, former president of South Africa wrote, “Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”",
+      "suggested_fix": "Translate the entire sentence into Italian, preserving punctuation and the quoted text. Example: \"Nelson Mandela, ex presidente del Sudafrica, scrisse: «Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?»\" OR fully translate the quotation into Italian if the publisher's style permits: \"... scrisse: «Il fallimento è un maestro, e alla fine della tua vita, cosa pensi che ti farà sentire peggio: fallire o non aver mai provato?»\". Keep the surrounding HTML and italics/quotes unchanged.",
+      "translation_quote": "Vi incoraggio, fratelli credenti, a provarci. Nelson Mandela, ex presidente del Sud Africa, scrisse: “Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”"
+    },
+    {
+      "location": "Title mention and body: \"Annual Writers’ Conference\"",
+      "severity": "minor",
+      "source_quote": "I had the privilege of attending Christian Aid Ministries’ first Annual Writers’ Conference.",
+      "suggested_fix": "Either translate the event name into Italian or indicate it as an English proper name consistently. Suggested translation preserving meaning: \"Ho avuto il privilegio di partecipare al primo Congresso annuale degli scrittori di Christian Aid Ministries.\" If keeping the official English name, add italics or quotes consistently: \"... al primo 'Annual Writers' Conference' di Christian Aid Ministries.\" Maintain original HTML tags and punctuation.",
+      "translation_quote": "Ho avuto il privilegio di partecipare al primo Annual Writers’ Conference di Christian Aid Ministries."
+    },
+    {
+      "location": "Multiple mentions: name of periodical \"The Heartbeat of the Remnant\"",
+      "severity": "minor",
+      "source_quote": "<em>The Heartbeat of the Remnant</em> is a means to communicate inspirational thoughts to eager readers scattered across the globe.",
+      "suggested_fix": "Ensure a consistent treatment of the periodical title throughout the translation. Either translate it consistently (e.g. \"<em>Il Battito del Residuo</em>\") or keep the English title everywhere. Currently the translation uses the Italian title in some places but leaves English titles elsewhere (see book-list paragraph where English is used for The Berean Voice). Make the choice consistent across the article. Preserve HTML tags.",
+      "translation_quote": "<em>Il Battito del Residuo</em> è un mezzo per comunicare pensieri ispiratori a lettori desiderosi sparsi nel mondo."
+    },
+    {
+      "location": "Figure > img alt attribute",
+      "severity": "minor",
+      "source_quote": "alt=\"Pink and white crown vetch flowers in a green meadow\"",
+      "suggested_fix": "Translate or clarify the plant common name into Italian rather than leaving the English common name 'crown vetch'. Example: alt=\"Fiori rosa e bianchi di crown vetch (Securigera varia) in un prato verde\" or alt=\"Fiori rosa e bianchi di Securigera varia in un prato verde\". Preserve the img tag and its other attributes exactly.",
+      "translation_quote": "alt=\"Fiori rosa e bianchi di crown vetch in un prato verde\""
     }
   ],
   "id": "b0c4597e49781fe79158974a0da524b3",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/bfd32875bae1c5d468e2e36f74da09a376963ebbef7c9772d51528cb0cd0f755.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2aa45245153e4fa38e372963ca132581",
   "campaign": "gh-36910234395",
   "created_at": "2026-10-01T18:55:44+00:00",
   "events": [
@@ -24,8 +23,65 @@
         },
         "total_tokens": 1677
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 991,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1490,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2481
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "First stanza, line 6 (source HTML: first <p> strong block)",
+      "severity": "minor",
+      "source_quote": "Give thanks and laud, for more is here!",
+      "suggested_fix": "<p><strong>Give thanks and laud, for more is here!</strong></p> -> <p><strong>Rendete grazie e lodatelo: c'è ancora di più!</strong></p>",
+      "translation_quote": "Rendete grazie e inni, per c'è di più qui!"
+    },
+    {
+      "location": "First stanza, line 1 (title/first line)",
+      "severity": "minor",
+      "source_quote": "Arise be glad!",
+      "suggested_fix": "<p><strong>Arise be glad!</strong></p> -> <p><strong>Sorgi, sii gioioso!</strong></p>",
+      "translation_quote": "Sorgi, sii lieto!"
+    },
+    {
+      "location": "Second stanza, line 2",
+      "severity": "minor",
+      "source_quote": "Extol and praise His worthy name!",
+      "suggested_fix": "<p><strong>Extol and praise His worthy name!</strong></p> -> <p><strong>Esalta e loda il Suo nome degno!</strong></p>",
+      "translation_quote": "Esalta e loda il Suo nome degno!"
+    },
+    {
+      "location": "Second stanza, line 5 (end-of-line hyphen)",
+      "severity": "minor",
+      "source_quote": "His mercy reaches down to men-",
+      "suggested_fix": "<p><strong>His mercy reaches down to men-</strong></p> -> <p><strong>La Sua misericordia si estende fino agli uomini—</strong></p>",
+      "translation_quote": "La Sua misericordia si estende fino agli uomini-"
+    },
+    {
+      "location": "Third stanza, line 3-4 (phrase rhythm and tone)",
+      "severity": "minor",
+      "source_quote": "Bow down in awful, holy fear-",
+      "suggested_fix": "<p><strong>Bow down in awful, holy fear-</strong></p> -> <p><strong>Inchinati nel tremendo e santo timore—</strong></p>",
+      "translation_quote": "Inchinatevi in tremendo, santo timore-"
+    }
+  ],
+  "finished_at": "2026-10-02T00:07:08+00:00",
   "id": "1535c7d7052811aacbf2914d0ba3ba08",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ita",
@@ -69,11 +125,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/106121576068d9bdf697518dbfe2c70eff09e46a5d060eef756de2cfcb440b7f.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

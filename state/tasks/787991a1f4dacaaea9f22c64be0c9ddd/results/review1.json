@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "28398424-701d-47ed-9eb2-1229beafc871",
+    "response_id": "chatcmpl-EUIDmzi9YIE53YNxQDQEbd1M4pkz6",
+    "usage": {
+      "completion_tokens": 715,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2786,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3501
+    }
+  },
+  "received_at": "2026-10-02T00:07:08+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...Quindi, non è meglio \"prevedere\" una puntura d'ape e un dito storta?</p>",
+        "severity": "minor",
+        "source_quote": "So, isn’t it better to “plan” for a bee sting and a stubbed toe?",
+        "suggested_fix": "Correggere l'accordo di genere/numero e la formulazione idiomatica: \"Quindi, non è meglio 'prevedere' una puntura d'ape e un dito storto?\" oppure \"Quindi, non è meglio 'prevedere' una puntura d'ape e un dito slogato?\" Mantenere le virgolette come nell'originale se desiderato.",
+        "translation_quote": "Quindi, non è meglio \"prevedere\" una puntura d'ape e un dito storta?"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

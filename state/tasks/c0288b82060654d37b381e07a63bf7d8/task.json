@@ -2,7 +2,6 @@
   "article_id": "db7b1129-282d-4f48-aefa-f839cb585426",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2aa45245153e4fa38e372963ca132581",
   "campaign": "gh-36910234395",
   "created_at": "2026-10-01T18:55:44+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 6944
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2213,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6683,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8896
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<p>...In Romans, we read, “For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men... (Romans 1:18-32).</p>",
+      "severity": "major",
+      "source_quote": "For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who hold the truth in unrighteousness; Because that which may be known of God is manifest in them; for God hath shewed it unto them. For the invisible things of him from the creation of the world are clearly seen, being understood by the things that are made, even his eternal power and Godhead; so that they are without excuse: Because that, when they knew God, they glorified him not as God, neither were thankful; but became vain in their imaginations, and their foolish heart was darkened. Professing themselves to be wise, they became fools, And changed the glory of the uncorruptible God into an image made like to corruptible man, and to birds, and fourfooted beasts, and creeping things. Wherefore God also gave them up to uncleanness through the lusts of their own hearts, to dishonour their own bodies between themselves: Who changed the truth of God into a lie, and worshipped and served the creature more than the Creator, who is blessed for ever. Amen. For this cause God gave them up unto vile affections: for even their women did change the natural use into that which is against nature: And likewise also the men, leaving the natural use of the woman, burned in their lust one toward another; men with men working that which is unseemly, and receiving in themselves that recompence of their error which was meet. And even as they did not like to retain God in their knowledge, God gave them over to a reprobate mind, to do those things which are not convenient; Being filled with all unrighteousness, fornication, wickedness, covetousness, maliciousness; full of envy, murder, debate, deceit, malignity; whisperers, Backbiters, haters of God, despiteful, proud, boasters, inventors of evil things, disobedient to parents, Without understanding, covenantbreakers, without natural affection, implacable, unmerciful: Who knowing the judgment of God, that they which commit such things are worthy of death, not only do the same, but have pleasure in them that do them",
+      "suggested_fix": "Replace the English quotation with an Italian rendering that conveys the printed English text, preserving the reference “(Romans 1:18-32)”. For example, keep the surrounding HTML and substitute the English with: “Perché l'ira di Dio si rivela dal cielo contro ogni empietà e ogni ingiustizia degli uomini che tengono la verità nell'ingiustizia; poiché ciò che si può conoscere di Dio è manifesto in loro; infatti Dio lo ha mostrato loro. Le sue cose invisibili, dalla creazione del mondo, si vedono chiaramente, essendo comprese mediante le cose create; così che essi sono senza scusa: perché, pur conoscendo Dio, non lo hanno glorificato come Dio né gli hanno reso grazie, ma si sono sviati nei loro ragionamenti e il loro cuore stolto si è offuscato. Predicendosi sapienti sono diventati stolti e hanno mutato la gloria dell'Iddio incorruttibile in immagine simile a quella dell'uomo corruttibile, e a uccelli e a quadrupedi e a rettili. Perciò Dio li ha dati in preda all'impudicizia, alle concupiscenze dei loro cuori, per disonorare i loro corpi tra loro stessi; essi hanno cambiato la verità di Dio con la menzogna e hanno adorato e servito la creatura più del Creatore, che è benedetto in eterno. Amen. Perciò Dio li ha consegnati a passioni infami; poiché le loro donne hanno mutato l'uso naturale in quello contrario alla natura; e ugualmente anche gli uomini, lasciando l'uso naturale della donna, si sono accesi in lussuria gli uni per gli altri, compiendo atti sconvenienti uomini con uomini e ricevendo in se stessi la giusta ricompensa della loro deviazione. E, siccome non vollero conservare Dio nel loro sapere, Dio li ha abbandonati a una mente disposta al disprezzo, per compiere cose indegne; pieni di ogni ingiustizia, fornicazione, malvagità, cupidigia, malignità; pieni d'invidia, omicidio, contesa, frode, malignità; calunniatori, maligni, odiatori di Dio, superbi, vanagloriosi, ideatori di cose malvagie, disubbidienti ai genitori; privi d'intelligenza, infedeli al patto, senza affetto naturale, implacabili, senza misericordia; i quali, conoscendo il giudizio di Dio, che quelli che fanno tali cose sono degni di morte, non solo le fanno, ma approvano chi le pratica.” Then retain the parenthetical reference “(Romans 1:18-32)” as in the source.",
+      "translation_quote": "“For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men... (Romans 1:18-32).” (English left untranslated in the Italian article)"
+    },
+    {
+      "location": "<p>...“For by him were all things created, that are in heaven, and that are in earth, visible and invisible... (Colossians 1:16). We are nothing without Him...”</p>",
+      "severity": "major",
+      "source_quote": "For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him",
+      "suggested_fix": "Replace the English quotation with an Italian rendering that conveys the printed English text, preserving the reference “(Colossians 1:16)”. For example, within the same paragraph substitute the quoted English with: “Poiché per lui sono state create tutte le cose, quelle nei cieli e quelle sulla terra, visibili e invisibili, siano esse troni o signorie o principati o potestà; tutte le cose sono state create per mezzo di lui e in vista di lui.” Then keep the parenthetical reference “(Colossians 1:16)” as in the source and the remainder of the paragraph in Italian unchanged.",
+      "translation_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (left in English in the Italian article)"
+    },
+    {
+      "location": "<p>...“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”</p>",
+      "severity": "major",
+      "source_quote": "If the world hate you, ye know that it hated me before it hated you. (John 15:18)",
+      "suggested_fix": "Replace the English quotation with an Italian rendering that conveys the printed English text, preserving the reference “(John 15:18)”. For example, substitute the English with: “Se il mondo vi odia, sappiate che prima ha odiato me che voi.” Then keep the parenthetical reference “(John 15:18)” exactly as in the source (or use the same punctuation placement in Italian) and preserve the surrounding HTML.",
+      "translation_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)” (left in English in the Italian article)"
     }
   ],
   "id": "c0288b82060654d37b381e07a63bf7d8",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a072a36e6aede6bd6978f7ac04698cebcbcce9571999d9176c58a465e0428962.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

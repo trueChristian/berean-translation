@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "96c5d5fc-52ab-465d-8ce3-e52827c59494",
+    "response_id": "chatcmpl-EUIDpQ2sphFG4lQFgxpqYF97X6l1g",
+    "usage": {
+      "completion_tokens": 2173,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6546,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8719
+    }
+  },
+  "received_at": "2026-10-02T00:07:08+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph 1 (lead)",
+        "severity": "major",
+        "source_quote": "“Doth not nature itself teach you?”",
+        "suggested_fix": "Translate the quoted English into Italian, preserving the quotation marks and surrounding HTML: replace “Doth not nature itself teach you?” with “«La natura stessa non vi insegna?»”.",
+        "translation_quote": "“Doth not nature itself teach you?”"
+      },
+      {
+        "location": "source.html — multiple paragraphs (Biblical and quoted passages left in English)",
+        "severity": "major",
+        "source_quote": "“Is any merry? Let him sing psalms” (James 5:13).  “And he hath put a new song in my mouth, even praise unto our God” (Ps 40:3).  “But the water that I shall give him shall be in him a well of water springing up into everlasting life” (John 4:14).  “Behold, my servants shall sing for joy of heart” (Is 65:14).  “We hanged our harps upon the willows in the midst thereof. For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion. How shall we sing the LORD’S song in a strange land?” (Ps 137:2-4).  “… And seek the peace of the city whither I have caused you to be carried away captives, and pray unto the LORD for it: for in the peace thereof shall ye have peace” (Jer. 29:5-7).  “Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord … And whatsoever ye do, do it heartily, as to the Lord, and not unto men” (Col 3:16, 23).",
+        "suggested_fix": "The author’s printed English Bible quotations and long English scripture passages should be rendered into Italian so the translation conveys the printed English content in the target language. Replace each English quotation with an Italian rendering that preserves the original wording and all citation metadata. Example replacements (preserve punctuation and citations):\n- “Is any merry? Let him sing psalms” → “«Se qualcuno è gioioso, canti salmi» (Giacomo 5:13).”\n- “And he hath put a new song in my mouth, even praise unto our God” → “«Egli ha messo nelle mie labbra un cantico nuovo, lode al nostro Dio» (Salmo 40:3).”\n- “But the water that I shall give him shall be in him a well of water springing up into everlasting life” → “«Ma l’acqua che io darò a lui diventerà in lui una sorgente d’acqua che zampilla per la vita eterna» (Giovanni 4:14).”\n- And so on for each quoted passage. Ensure the exact sense of the original English printed quotes is preserved in Italian (do not substitute with a different Bible version’s phrasing).",
+        "translation_quote": "See translation: the listed Bible quotations and long quoted passages remain in English."
+      },
+      {
+        "location": "source.html — paragraphs describing species (multiple)",
+        "severity": "major",
+        "source_quote": "killdeer, song sparrow, rose-breasted grosbeak, wren, canary, nightingale, buntings, cowbird, starlings, grackles, crow(s) — as rendered in the English source text",
+        "suggested_fix": "Translate or localize common bird names into standard contemporary Italian, or provide accepted Italian equivalents in parentheses after the English name. Preserve the original HTML and inline structure. Examples:\n- killdeer → «killdeer (charadrius vociferus / pluvier vociante)» or if a common Italian name is preferred give the nearest equivalent «pluviero chiacchierino (killdeer)»;\n- song sparrow → «song sparrow (passero canoro)» or «passero canoro (song sparrow)»;\n- rose‑breasted grosbeak → «rose‑breasted grosbeak (cardinalide dal petto rosa)» or provide the Italian common name if available;\n- wren → «cettia/zigolo» or the appropriate Italian common name, e.g. «regolo» for wren-like species;\n- nightingale → «usignolo»;\n- bunting → «zigolo/bunt» with specific Italian common name;\n- cowbird → «cowbird (molothrus) / parasita dell’uccello»;\n- starlings → «storni»;\n- grackles → «grackles (quasi-simili al gracco)»;\n- crow(s) → «corvo/i». \n(If the translator is unsure of an exact Italian common name, include the English name in parentheses after the Italian term.)",
+        "translation_quote": "Several species’ common names are left in English in the translation (e.g., killdeer, song sparrow, rose-breasted grosbeak, bunting, cowbird, starlings, grackles)."
+      },
+      {
+        "location": "source.html — multiple paragraphs (book name and book references)",
+        "severity": "minor",
+        "source_quote": "Revelations (as used throughout source)",
+        "suggested_fix": "Use the standard Italian rendering for the biblical book name. Replace 'Revelations' with 'Apocalisse' (keeping capitalization consistent with the original), and ensure any in-text references to scenes 'in Revelations' read 'nell’Apocalisse' to fit Italian usage. Preserve HTML tags and punctuation.",
+        "translation_quote": "Revelations (left untranslated as 'Revelations')"
+      },
+      {
+        "location": "source.html — paragraph about robin and other birds",
+        "severity": "minor",
+        "source_quote": "The robin opens up the choir in early spring",
+        "suggested_fix": "Check the species name: in English 'robin' typically corresponds to 'pettirosso' in Italian, not 'tordo'. Replace 'Il tordo apre il coro' with 'Il pettirosso apre il coro' unless the author intended 'thrush' (tordo). If the original author meant the American/English robin, use 'pettirosso' (or 'robin (pettirosso)' if clarification is needed). Preserve HTML tags.",
+        "translation_quote": "“Il tordo apre il coro all’inizio della primavera”"
+      }
+    ],
+    "passed": false,
+    "score": 40
+  }
+}

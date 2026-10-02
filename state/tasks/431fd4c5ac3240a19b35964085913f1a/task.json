@@ -2,7 +2,6 @@
   "article_id": "80e78d22-936e-48de-885a-f9a8898d5e42",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2aa45245153e4fa38e372963ca132581",
   "campaign": "gh-36910234395",
   "created_at": "2026-10-01T18:55:44+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 12418
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1484,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12167,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13651
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Paragraphs containing Bible quotations (multiple locations: near \"Ecclesiastes 12:1\"; Genesis quotes; Genesis 1:26-28; Genesis 2:18; Mark 10:8-9; 2 Corinthians 6:14-15; 1 Corinthians 7:39; many later Ephesians and 1 Peter quotes)",
+      "severity": "critical",
+      "source_quote": "All printed English Scripture quotations as they appear in source.html, for example: “And the LORD God said, It is not good that the man should be alone; I will make him an help meet for him... and they shall be one flesh” (Genesis 2:18-24). (Also other quotes such as Genesis 1:26-28, Mark 10:8-9, 2 Corinthians 6:14-15, 1 Corinthians 7:39, Ephesians 5:21-29, 1 Peter 3:7, Psalm 144:12, Proverbs 3:1-2, etc.)",
+      "suggested_fix": "Translate each printed English Scripture quotation into natural, accurate contemporary Italian that conveys the exact wording and theological sense of the authoritative English text printed in the source (do not substitute a different English Bible version). Keep the verse references (Genesis 2:18-24, Genesis 1:26-28, Mark 10:8-9, etc.) as in the source. Replace the untranslated English scripture passages in the translation HTML with their Italian renderings, preserving all HTML tags and their positions. Example fix for the Genesis 2:18-24 block: replace the English block with an Italian sentence that faithfully renders the English wording (while keeping the parenthetical citation “(Genesis 2:18-24)”). Ensure every occurrence of an English Scripture quotation in the translation is rendered into Italian, not left in English.",
+      "translation_quote": "The translation leaves the Scripture quotations in English verbatim, e.g. “And the LORD God said, It is not good that the man should be alone; I will make him an help meet for him... and they shall be one flesh” (Genesis 2:18-24)."
+    },
+    {
+      "location": "Throughout translation: instances of the untranslated English word “courtship” (article-note paragraph, section headings, and elsewhere)",
+      "severity": "major",
+      "source_quote": "\"A Christ-centered Courtship is a series of messages...\" (source.article-note opening)",
+      "suggested_fix": "Use a consistent, idiomatic Italian equivalent for the repeated English term “courtship.” Replace the English occurrences with \"corteggiamento\" (or another preferred Italian term consistent with the magazine's style) throughout the translation so the same concept is rendered consistently. Preserve surrounding HTML, punctuation, and emphasis tags. For example, change “Una courtship centrata su Cristo” to “Un corteggiamento centrato su Cristo” or similar, keeping <em> tags unchanged.",
+      "translation_quote": "The translation mixes English term “courtship” into Italian text (e.g. “Una courtship centrata su Cristo è una serie...”), creating inconsistency."
+    },
+    {
+      "location": "Paragraph under heading \"3) They shall be one flesh.\" — sentence with fused words and typo: \"bringsagony,pain,travail, and hurt\" in source and irregular concatenation in translation",
+      "severity": "minor",
+      "source_quote": "Source: \"Pulling apart is no blessing at all but bringsagony,pain,travail, and hurt. There is no blessing in separation. But God’s plan brings blessing.\"",
+      "suggested_fix": "In the Italian translation, correct the rendering and spacing/punctuation to separate concatenated words and provide a natural Italian translation. Preserve the meaning and tone. For example, render as: “La separazione non è affatto una benedizione, ma porta angoscia, dolore, travaglio e ferite.” Keep the HTML structure unchanged.",
+      "translation_quote": "Translation currently renders the sentence but still shows signs of the original concatenation and inconsistent spacing/punctuation (e.g. “Separarsi non è affatto una benedizione ma porta agonia, dolore, travaglio e ferite.”)."
+    },
+    {
+      "location": "Paragraph under heading \"4) Not an unequal yoke.\" — concatenated word \"fleashthe\" in source and translation issue",
+      "severity": "minor",
+      "source_quote": "Source: \"He wants to see us joined in heart, mind, and fleashthe whole being, being one.\"",
+      "suggested_fix": "Fix the concatenation and translate into idiomatic Italian. For example: “Desidera vederci uniti in cuore, mente e carne — l'essere intero, essere uno.” Maintain HTML tags and verse references.",
+      "translation_quote": "Translation shows the same idea but should correct the phrasing that reflects the source's typo/concatenation and render it idiomatically in Italian."
     }
   ],
   "id": "431fd4c5ac3240a19b35964085913f1a",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1813629ba31cec5f42c8546808ad86fd17dc2aca775e7cb43f2368f4a4530061.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
