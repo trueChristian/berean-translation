@@ -2,7 +2,6 @@
   "article_id": "93978dae-706d-43d4-abee-6b6e011683fa",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "bae56518e5c441c89c52a3fb7cd782ac",
   "campaign": "gh-36981712493",
   "created_at": "2026-10-02T08:02:17+00:00",
   "events": [
@@ -43,17 +42,52 @@
         },
         "total_tokens": 6969
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 886,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4424,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5310
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Forbidden or valueless HTML attribute: دانستہ",
-      "translation_quote": ""
+      "location": "source.html — first paragraph",
+      "severity": "major",
+      "source_quote": "We can choose not to go to a Norwex party if we need to give our schedule some space.",
+      "suggested_fix": "Translate the affirmative ability to choose not to attend. Replace the mistranslated clause with: \"اگر ہمیں اپنے شیڈول کو کچھ جگہ دینے کی ضرورت ہو تو ہم کسی Norwex پارٹی میں نہ جانے کا انتخاب کر سکتے ہیں۔\"",
+      "translation_quote": "اگر ہمیں اپنے شیڈول کو کچھ جگہ دینے کی ضرورت ہو تو ہم کسی Norwex پارٹی میں جانے کا انتخاب نہ کر سکتے ہیں۔"
+    },
+    {
+      "location": "source.section",
+      "severity": "minor",
+      "source_quote": "SISTER TO SISTER",
+      "suggested_fix": "Translate the section name into Urdu using a standard, natural rendering appropriate for the audience. For example: \"بہن بہن\" or \"بہن سے بہن تک\" (choose one consistent form). Update the translation.section field accordingly.",
+      "translation_quote": "SISTER TO SISTER"
+    },
+    {
+      "location": "source.html — heading \"Find routine\"",
+      "severity": "minor",
+      "source_quote": "Find routine",
+      "suggested_fix": "Use a more natural Urdu rendering for this heading. Replace \"دَورِ کار تلاش کریں\" with \"معمول تلاش کریں\" or \"روٹین تلاش کریں\" to convey the intended meaning clearly.",
+      "translation_quote": "دَورِ کار تلاش کریں"
     }
   ],
+  "finished_at": "2026-10-02T08:47:58+00:00",
   "id": "c3720c215d7da90685727c16539e9c92",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "urd",
@@ -97,11 +131,13 @@
     }
   },
   "protected": false,
+  "quality_score": 68,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/289d41b17be72586f8c3c3323ad5f6ee801087e516c96b1c160fddd9a03cdf52.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

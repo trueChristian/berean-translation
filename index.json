@@ -511,6 +511,42 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
+      "html_sha256": "800e9183c2cafcf985b02ac7b6876c49477097a176216d659d96cba2bfce0bea",
+      "human_reviewed": false,
+      "id": "80e78d22-936e-48de-885a-f9a8898d5e42",
+      "images": [
+        {
+          "alt": "رجل وامرأة يمشيان معًا عبر مرج أخضر",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-1.jpg"
+        },
+        {
+          "alt": "أب وأم ينظران إلى طفلهما المولود",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-2.jpg"
+        },
+        {
+          "alt": "أسرة تقف معًا أمام شلال",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-3.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/80e78d22-936e-48de-885a-f9a8898d5e42.json",
+      "metadata_sha256": "983a9fa6f5d9e7d5f4745423ff84f183d3648f418f4b324865ae902c97719701",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "إلهامات للشباب",
+      "source_revision": "0caae6dc9af4c5fcda48e20d7717688ab3d59bde",
+      "source_translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
+      "status": "ready",
+      "subtitle": "خطة الله للرجل والمرأة",
+      "title": "خِطبة تتمحور حول المسيح",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
       "html_sha256": "27f221f11cc2f3a4711fa28f7bd139520b3fe555667daa835cb7b6f7b56f9a2a",
       "human_reviewed": false,
@@ -7462,6 +7498,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Mimi na Ken",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
+      "html_sha256": "d77f05132803b18b57e581f88042fc1cf2fdceeb6cc1b32c5cab56b2b582432a",
+      "human_reviewed": false,
+      "id": "db7b1129-282d-4f48-aefa-f839cb585426",
+      "images": [
+        {
+          "alt": "Mfululizo wa miche ikitokea ardhini huku mkono ukimwaga maji",
+          "public_path": "/images/articles/db7b1129-282d-4f48-aefa-f839cb585426-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/db7b1129-282d-4f48-aefa-f839cb585426.json",
+      "metadata_sha256": "a0b913276c86d7a28637ea2ae609cd01a54263b5e25d535e3ad73747fb767cc4",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Mawazo ya Misionari",
+      "source_revision": "0caae6dc9af4c5fcda48e20d7717688ab3d59bde",
+      "source_translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Mwanadamu-Anayetukana Mkristo",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {

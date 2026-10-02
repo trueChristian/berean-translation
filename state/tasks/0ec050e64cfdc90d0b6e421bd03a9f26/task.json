@@ -2,7 +2,6 @@
   "article_id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "bae56518e5c441c89c52a3fb7cd782ac",
   "campaign": "gh-36981712493",
   "created_at": "2026-10-02T08:02:17+00:00",
   "events": [
@@ -43,17 +42,52 @@
         },
         "total_tokens": 13547
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1776,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1024,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7910,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9686
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[17]: source /article[1]/p[4]/em[1] ('start', 'em', ()); translation /article[1]/p[4] ('end', 'p')",
-      "translation_quote": ""
+      "location": "First paragraph (source.html first <p>)",
+      "severity": "major",
+      "source_quote": "How unbelievable it is that God can take a wretched sinner, void of the fear of the Lord, and turn him into a blood-washed saint and preacher of the gospel!",
+      "suggested_fix": "Replace the mistranslation of “blood-washed” with wording that preserves the theological meaning (cleansing by Christ’s blood). For example: «Πόσο απίστευτο είναι ότι ο Θεός μπορεί να πάρει έναν αξιοθρήνητο αμαρτωλό, χωρίς φόβο Κυρίου, και να τον μετατρέψει σε έναν άγιο πλυμένο με το αίμα και κήρυκα του ευαγγελίου!» (or more fully: «…σε έναν άγιο πλυμένο με το αίμα του Χριστού…»).",
+      "translation_quote": "Πόσο απίστευτο είναι ότι ο Θεός μπορεί να πάρει έναν αξιοθρήνητο αμαρτωλό, χωρίς φόβο Κυρίου, και να τον μετατρέψει σε έναν σαρκικά λουσμένο άγιο και κήρυκα του ευαγγελίου!"
+    },
+    {
+      "location": "Epitaph blockquote (source.html <blockquote>)",
+      "severity": "minor",
+      "source_quote": "John Newton, once an infidel and libertine, a servant of slaves in Africa, was, by the rich mercy of our Lord and Savior Jesus Christ, preserved, restored, pardoned, and appointed to preach the faith he had long labored to destroy!",
+      "suggested_fix": "Correct the definite article and preserve original syntax/order. Change «να κηρύξει τη πίστη» to «να κηρύξει την πίστη» (τη -> την).",
+      "translation_quote": "<em>John Newton, κάποτε άθεος και άσωτος, υπηρέτης σκλάβων στην Αφρική, διατηρήθηκε, αποκαταστάθηκε, συγχωρήθηκε και ορίστηκε, με το πλούσιο έλεος του Κυρίου και Σωτήρα μας Ιησού Χριστού, να κηρύξει τη πίστη που εδώ και καιρό προσπάθησε να καταστρέψει!</em>"
+    },
+    {
+      "location": "Paragraph about Olney Hymns / 1 Chronicles reference (paragraph mentioning “Faith’s Review and Expectation”)",
+      "severity": "minor",
+      "source_quote": "The most famous of all the Olney Hymns, “Faith’s Review and Expectation”, grew out of David’s exclamation in 1 Chronicles 17:16-17.",
+      "suggested_fix": "The rendering of “exclamation” as «εξομολόγηση» is misleading. Use a closer Greek equivalent such as «έκφραση», «κραυγή» or «εξομολόγηση» only if meant as confession; best: «έκφραση». Suggested wording: «Ο πιο διάσημος από όλους τους Olney Hymns, “Faith’s Review and Expectation”, προέκυψε από την έκφραση του Δαβίδ στα 1 Παραλειπομένων 17:16-17.»",
+      "translation_quote": "Ο πιο διάσημος από όλους τους <em>Olney Hymns</em>, «Faith’s Review and Expectation», προέκυψε από την εξομολόγηση του Δαβίδ σε 1 Παραλειπομένων 17:16-17."
     }
   ],
+  "finished_at": "2026-10-02T08:47:58+00:00",
   "id": "0ec050e64cfdc90d0b6e421bd03a9f26",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ell",
@@ -97,11 +131,13 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3d35b8ecb8588b577294153c640355e7c22d4cbaa8d848483b220de12a351788.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

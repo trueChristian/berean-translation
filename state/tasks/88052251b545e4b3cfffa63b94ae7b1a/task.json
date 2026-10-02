@@ -2,7 +2,6 @@
   "article_id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "bae56518e5c441c89c52a3fb7cd782ac",
   "campaign": "gh-36981712493",
   "created_at": "2026-10-02T08:02:17+00:00",
   "events": [
@@ -43,17 +42,38 @@
         },
         "total_tokens": 14534
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 743,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9133,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9876
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[25]; missing: 2:17-23, 2:22; extra: none",
-      "translation_quote": ""
+      "location": "Paragraph 3 (opening narrative) — sentence reporting Elsie’s drinking behavior",
+      "severity": "major",
+      "source_quote": "“She drinks till she passes out every night and has to have something every morning to get her started.”",
+      "suggested_fix": "Replace the mistranslation that implies death with wording that matches the English meaning: e.g. \"Sie trinkt jede Nacht so viel, bis sie bewusstlos wird, und braucht jeden Morgen etwas, um in den Tag zu kommen.\" Preserve tone and register; keep the rest of the sentence as translated.",
+      "translation_quote": "„Sie trinkt sich jede Nacht zu Tode und muss jeden Morgen etwas haben, um in den Tag zu kommen.“"
     }
   ],
+  "finished_at": "2026-10-02T08:47:58+00:00",
   "id": "88052251b545e4b3cfffa63b94ae7b1a",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "deu",
@@ -97,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/b5b1f4feba0e363a96d3ad7b563e07686d3ab579326790efb2df52651280f0ba.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

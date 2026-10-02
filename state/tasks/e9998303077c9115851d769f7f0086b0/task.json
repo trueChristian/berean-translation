@@ -2,7 +2,6 @@
   "article_id": "db7b1129-282d-4f48-aefa-f839cb585426",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "bae56518e5c441c89c52a3fb7cd782ac",
   "campaign": "gh-36981712493",
   "created_at": "2026-10-02T08:02:17+00:00",
   "events": [
@@ -43,17 +42,58 @@
         },
         "total_tokens": 11363
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1169,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7212,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8381
+      }
     }
   ],
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Forbidden HTML element: p;",
-      "translation_quote": ""
+      "location": "Paragraph 1 (first sentence)",
+      "severity": "minor",
+      "source_quote": "Do you believe in the supernatural?",
+      "suggested_fix": "Replace the phrase that mistranslates \"supernatural\" with a clear Kiswahili equivalent such as \"isiyo ya asili\" or simply \"mambo ya kiroho isiyo ya asili\" to preserve the meaning.",
+      "translation_quote": "Je, unaamini kwa mambo ya ulimwengu wa roho?"
+    },
+    {
+      "location": "Paragraph beginning \"The dictionary defines humanism like this;\"",
+      "severity": "minor",
+      "source_quote": "an outlook or system of thought attaching prime importance to human rather than divine or supernatural matters",
+      "suggested_fix": "The translation uses \"kimungu au ya kimataifa ya kiroho\", which is unclear and misleading. Replace with a clearer rendering: e.g. \"kwamba umuhimu mkuu unaotolewa kwa mambo ya binadamu badala ya yale ya kimungu au isiyo ya asili (kiroho).\"",
+      "translation_quote": "mtazamo au mfumo wa mawazo unaoweka umuhimu mkuu kwa mambo ya binadamu badala ya yale ya kimungu au ya kimataifa ya kiroho."
+    },
+    {
+      "location": "Paragraph with greenhouse anecdote (second paragraph)",
+      "severity": "minor",
+      "source_quote": "Some plant, some water, but God gives the increase.",
+      "suggested_fix": "The translation is acceptable but slightly altered phrasing. For closer fidelity keep the speaker's simple structure: e.g. “Walimua, walimwaga maji, lakini Mungu ndiye anayetoa uzalishaji.”",
+      "translation_quote": "“Mtu alifanya mimea, mtu alileta maji, lakini Mungu ndiye anayetoa uzalishaji.”"
+    },
+    {
+      "location": "Paragraph beginning \"His neighbor, an atheistic humanist, also planted a garden.\"",
+      "severity": "minor",
+      "source_quote": "His neighbor, an atheistic humanist, also planted a garden.",
+      "suggested_fix": "The translation expands/changes the original by adding the phrases \"mtupu wa Mungu (mkanushi wa Mungu)\". This is an interpretive addition. Prefer a closer equivalent such as \"mwanadamu-anayetukana asiye na imani\" or \"mwanadamu-anayetukana mkanushi wa Mungu\" to match the English wording without extra labels.",
+      "translation_quote": "Jirani yake, mwanadamu-anayetukana ambaye ni mtupu wa Mungu (mkanushi wa Mungu), pia alipanda bustani."
     }
   ],
+  "finished_at": "2026-10-02T08:47:58+00:00",
   "id": "e9998303077c9115851d769f7f0086b0",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "swa",
@@ -97,11 +137,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/21c0a1ee01bf0c3d147452744dda149ef865e8661a303f2837c7de8616caade6.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

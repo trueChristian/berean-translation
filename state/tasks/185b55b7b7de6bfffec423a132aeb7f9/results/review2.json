@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f4fe4b12-7830-4704-8826-65dee9d5d36a",
+    "response_id": "chatcmpl-EUT97KV0yuHmu8CiKIwLiD1UcaXBX",
+    "usage": {
+      "completion_tokens": 1936,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12710,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 14646
+    }
+  },
+  "received_at": "2026-10-02T08:47:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "article-note (top paragraph in source.html)",
+        "severity": "major",
+        "source_quote": "<em>A Christ-centered Courtship is a series of messages on godly courtship preached by Paul Hershberger. He preached these messages several times at different locations over the last ten years. Recently, we had them transcribed and abridged for reading clarity. After printing all six articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet. This is the first article of six.</em>",
+        "suggested_fix": "Translate the entire article-note paragraph (including the portion now in English and the publication title if the title has an established translation in Swahili). Preserve the original HTML/em tags and the English publication title only if there is a conventional Swahili form; otherwise translate the whole sentence. Example (keeping tags): <em>Mahusiano ya Kabla ya Ndoa Yenye Kristo Katikati ni mfululizo wa ujumbe kuhusu mahusiano mema uliotangazwa na Paul Hershberger. Alitangaza ujumbe huu mara kadhaa katika maeneo mbalimbali katika miaka kumi iliyopita. Hivi karibuni tulikuwa tumelitafsiri na kulifupisha kwa uwazi wa kusoma. Baada ya kuchapa makala zote sita katika <em>The Heartbeat of the Remnant</em>, tutazichapisha katika kitabu kidogo. Hii ni makala ya kwanza kati ya sita.</em> (Preserve the outer paragraph and em tags exactly as in source HTML.)",
+        "translation_quote": "<em>A Christ-centered Courtship is a series of messages on godly courtship preached by Paul Hershberger. He preached these messages several times at different locations over the last ten years. Recently, we had them transcribed and abridged for reading clarity. After printing all six articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet. This is the first article of six.</em>"
+      },
+      {
+        "location": "Genesis passages and repeated narrative about Eve (source.html paragraphs quoting Genesis 2:21-23 and explanatory sentences)",
+        "severity": "critical",
+        "source_quote": "\"And the rib, which the LORD God had taken from man, made he a woman, and brought her unto the man. And Adam said, This is now bone of my bones, and flesh of my flesh...\" (Genesis 2:22-23) and accompanying narrative: \"God caused Adam to fall into a deep sleep. Then God created Eve and brought her to Adam.\"",
+        "suggested_fix": "Correct the mistranslation of the English word 'rib' to the accurate Swahili term (e.g., 'kiuno' is not correct — use 'mfupa wa ubavu' or 'ubavu' / 'mfupa wa ubavu' or simply 'mfupa' as appropriate in context). Replace every instance where 'rib' was rendered as 'upepo' (which means 'wind') with the correct biblical term. Keep the surrounding narrative meaning intact and preserve HTML tags/structure. Example fix for the quoted verse rendering: \"'Na mfupa wa ubavu ambao Bwana Mungu alikuwa amemchukua kwa mtu, akamtengeneza mwanamke, akamuleta kwa mtu. Na Adamu akasema, Hii sasa ni mifupa ya mifupa yangu, na nyama ya nyama yangu...' (Mwanzo 2:22-23).\" Also update the explanatory sentences that repeat the same mistranslation (e.g., change 'Mungu akaleta Adamu usingizini wa ndani. Kisha Mungu akamtengeneza Hawa...' but ensure any phrase that previously used 'upepo' to refer to 'rib/side' is corrected to 'mfupa wa ubavu' or 'mfuatano wa ubavu', keeping natural Swahili idiom).",
+        "translation_quote": "\"\\\"Na upepo ambao Bwana Mungu alikuwa amemchukua kwa mtu, akamtengeneza mwanamke, akamuleta kwa mtu. Na Adamu akasema, Hii sasa ni mifupa ya mifupa yangu, na nyama ya nyama yangu: itaitwa Mwanamke; kwa maana imechukuliwa kwa Mtu\\\" (Mwanzo 2:22-23).\" and repeated forms like \"Mungu akaleta Adamu usingizini wa ndani. Kisha Mungu akamtengeneza Hawa... Adamu alifuata usingizi and akagundua, \\\"Huyu ni wangu!\\\"\""
+      },
+      {
+        "location": "Goals heading (source.subtitle and list)",
+        "severity": "minor",
+        "source_quote": "\"Five goals for this Christ-Centered Courtship series.\" and \"Goal #4. That young people would get a burden to seek after God, find fulfillment and purpose in walking with God, and you would seek maturity in your manners and in your character.\"",
+        "suggested_fix": "Fix small lexical and typographical issues and a grammatical person mismatch. Change the heading word 'Malisia matano' to 'Malengo matano' and correct 'mttafute' to 'mtatafuta' or 'mtamtafute' depending on intended subject. Also adjust phrasing to consistent person: in Goal #4 use 'waiwe na shinikizo la kumtafuta Mungu, kupata ukamilifu na kusudi katika kutembea na Mungu, na watajitahidi kukomaa katika adabu na tabia zao.' Ensure wording is natural Kiswahili and consistent with the original meaning.",
+        "translation_quote": "\"Malisia matano ya mfululizo huu wa Mahusiano yenye Kristo katikati.\" and \"...na mttafute ukuaji katika adabu zenu na tabia zenu.\""
+      },
+      {
+        "location": "Paragraph referencing Genesis 1:26-28 (wording about 'evolved' ideas)",
+        "severity": "minor",
+        "source_quote": "\"It takes a lot of blind faith to believe that we evolved perfectly as male and female. The creation of male and female is God’s plan.\"",
+        "suggested_fix": "Language is preserved but improve idiomatic Swahili: replace 'EVO' (appears as 'EVO' in translation) with a clear word such as 'uzalishaji wa mabadiliko (evolution)' or 'teoria ya mabadiliko (evolution)'. The sentence currently reads 'Inahitaji imani yenye uzito kuona kwamba tulibadilika kwa njia ya EVO' — change 'EVO' to 'teoria ya mabadiliko' or 'mchakato wa mabadiliko (evolution)'.",
+        "translation_quote": "\"Inahitaji imani yenye uzito kuona kwamba tulibadilika kwa njia ya EVO na kuwa kamili kama mwanaume na mwanamke.\""
+      }
+    ],
+    "passed": false,
+    "score": 64
+  }
+}

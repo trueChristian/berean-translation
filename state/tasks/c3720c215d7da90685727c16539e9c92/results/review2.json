@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6cdb507d-c663-4161-ad58-c4cd8592089a",
+    "response_id": "chatcmpl-EUTBUMxit2hw7ZrNNa40sSpFwWQ2T",
+    "usage": {
+      "completion_tokens": 886,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4424,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5310
+    }
+  },
+  "received_at": "2026-10-02T08:47:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first paragraph",
+        "severity": "major",
+        "source_quote": "We can choose not to go to a Norwex party if we need to give our schedule some space.",
+        "suggested_fix": "Translate the affirmative ability to choose not to attend. Replace the mistranslated clause with: \"اگر ہمیں اپنے شیڈول کو کچھ جگہ دینے کی ضرورت ہو تو ہم کسی Norwex پارٹی میں نہ جانے کا انتخاب کر سکتے ہیں۔\"",
+        "translation_quote": "اگر ہمیں اپنے شیڈول کو کچھ جگہ دینے کی ضرورت ہو تو ہم کسی Norwex پارٹی میں جانے کا انتخاب نہ کر سکتے ہیں۔"
+      },
+      {
+        "location": "source.section",
+        "severity": "minor",
+        "source_quote": "SISTER TO SISTER",
+        "suggested_fix": "Translate the section name into Urdu using a standard, natural rendering appropriate for the audience. For example: \"بہن بہن\" or \"بہن سے بہن تک\" (choose one consistent form). Update the translation.section field accordingly.",
+        "translation_quote": "SISTER TO SISTER"
+      },
+      {
+        "location": "source.html — heading \"Find routine\"",
+        "severity": "minor",
+        "source_quote": "Find routine",
+        "suggested_fix": "Use a more natural Urdu rendering for this heading. Replace \"دَورِ کار تلاش کریں\" with \"معمول تلاش کریں\" or \"روٹین تلاش کریں\" to convey the intended meaning clearly.",
+        "translation_quote": "دَورِ کار تلاش کریں"
+      }
+    ],
+    "passed": false,
+    "score": 68
+  }
+}

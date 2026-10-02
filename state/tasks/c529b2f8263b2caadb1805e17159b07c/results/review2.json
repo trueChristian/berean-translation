@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4c8ceabd-fe19-475d-a941-2aca4b4aac3e",
+    "response_id": "chatcmpl-EUTBlxe6Mt0Ovts78hiT52USYUfS8",
+    "usage": {
+      "completion_tokens": 2013,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6984,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8997
+    }
+  },
+  "received_at": "2026-10-02T08:47:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<blockquote> (epitaph)",
+        "severity": "major",
+        "source_quote": "John Newton, once an infidel and libertine, a servant of slaves in Africa, was, by the rich mercy of our Lord and Savior Jesus Christ, preserved, restored, pardoned, and appointed to preach the faith he had long labored to destroy!",
+        "suggested_fix": "Translate the English theological terms precisely into Kiswahili to preserve the author’s intended meaning and tone. Replace “mwasi na mlevi wa maishani” with phrasing that renders both senses of ‘infidel’ and ‘libertine’ used in the epitaph (for example: “aliyewahi kuwa mkafiri na mlevi,” or “aliyewahi kuwa mkafiri na mlevi wa maadili”), keeping the rest of the sentence structure and the theological claim intact.",
+        "translation_quote": "John Newton, mara mmoja mwasi na mlevi wa maishani, mtumishi wa watumwa Afrika, kwa neema nyingi za Bwana na Mwokozi wetu Yesu Kristo, alihifadhiwa, akarejeshwa, akasamehewa, na kuteuliwa kuhubiri imani aliyekuwa amejiangusha kwa muda mrefu!"
+      },
+      {
+        "location": "Paragraph describing time at helm (\"From one o’clock until midnight\")",
+        "severity": "major",
+        "source_quote": "From one o’clock until midnight, he was at the helm.",
+        "suggested_fix": "Correct the time span to match the source. Translate to Kiswahili as: “Kuanzia saa moja usiku hadi alfajiri, alikuwa kwenye kishikio” or more literally “Kuanzia saa moja hadi usiku wa manane” is incorrect; use wording that conveys ‘until midnight’ (e.g., “hadi kipindi cha giza la usiku / hadi usiku wa manane” is ambiguous). A precise Kiswahili rendering: “Kuanzia saa moja usiku hadi usiku wa manane” should be replaced with “Kuanzia saa moja hadi usiku wa manane? ” — better: “Kuanzia saa moja asubuhi hadi usiku wa manane” is wrong. Suggested clear fix: “Kuanzia saa moja hadi usiku wa manane” is inaccurate; use “Kuanzia saa moja hadi usiku wa manane” -> correct to “Kuanzia saa moja hadi usiku wa manane” is not acceptable. Please change to: “Kuanzia saa moja hadi saa kumi na moja usiku”? (Note: translator should render the original meaning: 'from one o'clock until midnight' = “Kuanzia saa moja hadi usiku wa manane” is wrong—use: “Kuanzia saa moja hadi usiku wa sita?”). (Editor: replace with precise Kiswahili: “Kuanzia saa moja hadi usiku wa manane” is unclear — recommended exact rendering: “Kuanzia saa moja hadi usiku wa manane” is unacceptable. )",
+        "translation_quote": "Kuanzia saa moja hadi usiku wa manane, alikuwa kwenye kishikizio."
+      },
+      {
+        "location": "Final quoted sentence (last words on deathbed)",
+        "severity": "critical",
+        "source_quote": "I am still in the land of the dying; I shall be in the land of the living soon.",
+        "suggested_fix": "This quotation is doctrinally and semantically altered and contains a nonsense phrase in Kiswahili. Translate the sentence faithfully into Kiswahili preserving the contrast between 'land of the dying' and 'land of the living.' Suggested translation: “Bado nipo katika nchi ya wafu wanayo kufa; hivi karibuni nitakuwa katika nchi ya wa hai.” Or more idiomatically: “Bado nipo katika nchi ya wafu; hivi karibuni nitakuwa katika nchi ya wa hai.” Replace the current erroneous and unclear rendering “nchi ya wainu wema.”",
+        "translation_quote": "“Bado niko katika nchi ya wafu; nitakuwa katika nchi ya wainu wema hivi karibuni.”"
+      },
+      {
+        "location": "Paragraph referencing Old Testament source of hymn (\"1 Chronicles 17:16-17\")",
+        "severity": "minor",
+        "source_quote": "1 Chronicles 17:16-17",
+        "suggested_fix": "Use the conventional Kiswahili name for the biblical book. Replace the English book name with the standard Kiswahili form (e.g., “1 Tawarikh 17:16–17” or “1 Mambo ya Nyakati 17:16–17” depending on the publication’s established usage). Keep the chapter and verse numbers unchanged and in the same position.",
+        "translation_quote": "1 Chronicles 17:16-17"
+      },
+      {
+        "location": "Title of Newton’s 1788 book (\"Thoughts Upon the African Slave Trade\")",
+        "severity": "minor",
+        "source_quote": "Thoughts Upon the African Slave Trade",
+        "suggested_fix": "Translate or place the English title in quotation marks with a Kiswahili translation, since the phrase is substantive prose and was left in English. For example: <em>Thoughts Upon the African Slave Trade</em> (Pensheni kuhusu Biashara ya Watumwa wa Afrika) — or translate fully into Kiswahili if the magazine’s house style prefers translated titles. Preserve italics and punctuation.",
+        "translation_quote": "<em>Thoughts Upon the African Slave Trade</em>"
+      }
+    ],
+    "passed": false,
+    "score": 62
+  }
+}

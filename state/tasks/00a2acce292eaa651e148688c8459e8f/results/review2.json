@@ -1,0 +1,92 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "435b3fec-3200-443c-a7b5-a3812f3e3b32",
+    "response_id": "chatcmpl-EUT8LVS24BvLvJuVWa8r1OtG95e4T",
+    "usage": {
+      "completion_tokens": 1856,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3500,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5356
+    }
+  },
+  "received_at": "2026-10-02T08:47:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "critical",
+        "source_quote": "Jamin Smartens Up",
+        "suggested_fix": "Translate title to convey the intended meaning of the English title (becoming wiser/confident). Suggested Kiswahili: “Jamin Anakuwa Mwerevu” or “Jamin Awachemka” depending on tone. Preserve title in the article title field.",
+        "translation_quote": "Jamin Anawajua Wengine"
+      },
+      {
+        "location": "html > p[6] (paragraph beginning “He breathed the rich air…”)",
+        "severity": "critical",
+        "source_quote": "His golden head caught the tired beams that fled from the sun as they flickered through the trees.",
+        "suggested_fix": "Correct the mistranslation that turned 'his golden head' into 'knife'. Render as: “Kichwa chake cha dhahabu kilimwona mwanga mvivu uliotoroka kutoka jua ulipong'aa kati ya miti.” or similar natural Kiswahili preserving the image of his golden hair/head.",
+        "translation_quote": "Kisu chake cha dhahabu kilimwaga mionzi iliyochoka iliyokimbia kutoka jua ilipong'aa katikati ya miti."
+      },
+      {
+        "location": "html > p[14] (paragraph beginning “\"You can walk?\"”)",
+        "severity": "critical",
+        "source_quote": "If you support me, I can hobble along.",
+        "suggested_fix": "This sentence was mistranslated to nonsense (mentions vomiting). Translate to mean physical support and limping: “Ikiwa utanigusa/ukunishikilia, nitaweza kutapika polepole” is wrong. Use: “Ikiwa utanishikilia, nitaweza kutembea kwa kugonga kwa polepole.” Better: “Ikiwa utanishikilia, nitaweza kutembea polepole.”",
+        "translation_quote": "Ndio. Nahisi hivyo. Ukinitulia, nitaweza kutapika polepole."
+      },
+      {
+        "location": "html > p[10] (paragraph beginning “Dad and Mom disliked Kenny’s proud talk…”)",
+        "severity": "major",
+        "source_quote": "Dad and Mom disliked Kenny’s proud talk and punished him whenever they walked in on one of his speeches.",
+        "suggested_fix": "The English means the parents disliked Kenny's proud talk and disciplined/punished him when they overheard it. The translation 'wangehubiri kumwadhibu' misrenders the action (hubiri = preach). Suggested Kiswahili: “Baba na Mama hawakupendea maneno yake ya kiburi na walimwadhibu kila walipomkuta akizungumza hivyo.”",
+        "translation_quote": "Baba na Mama hawakupendea maneno ya kiburi ya Kenny na wangehubiri kumwadhibu kila walipomkuta akizungumza."
+      },
+      {
+        "location": "html > p[4] (paragraph: Grandma on the porch)",
+        "severity": "major",
+        "source_quote": "Grandma Otto watched these trials from her rocker on the porch. She was a quiet old lady.",
+        "suggested_fix": "'Porch' should be translated as veranda/kinyago (e.g., 'taranzi' or 'ukiti wa veranda'), not 'korido'. Suggest: “Bibi Otto alitazama majaribu haya akiwa kwenye kiti chake cha mduko kwenye veranda.” Or simply: “Bibi Otto alitazama yote akiwa kwenye kiti chake cha kuzungusha kwenye veranda.”",
+        "translation_quote": "Bibi Otto alitazama majaribu haya kutoka kwenye kiti chake cha kuzungusha kwenye korido."
+      },
+      {
+        "location": "html > p[18] (paragraph: wash house and front door)",
+        "severity": "major",
+        "source_quote": "Jamin went to the wash house and scrubbed his hands. He headed for the front door.",
+        "suggested_fix": "'Wash house' was mistranslated as 'chumbini' (which suggests a bedroom). Use 'sehemu ya kuosha mikono' or 'majani ya kuosha' or 'chumba cha kuosha' / 'sehemu ya kuosha' — e.g., “Jamin alikwenda kwenye chumba cha kuosha mikono na akayafuata.” Then: “Alielekea kwenye mlango wa mbele.”",
+        "translation_quote": "Jamin alikwenda chumbini kuoshea mikono yake. Alielekea kwenye mlango wa mbele."
+      },
+      {
+        "location": "html > figure > img alt and section/title metadata",
+        "severity": "minor",
+        "source_quote": "Children’s Corner",
+        "suggested_fix": "Section translated as 'Sehemu ya Watoto' is acceptable but consider the established magazine label; if the publication uses 'Corner' as a fixed section title, consider 'Kona ya Watoto' for closer match. Ensure consistency with site style.",
+        "translation_quote": "Sehemu ya Watoto"
+      },
+      {
+        "location": "html > figure > img alt attribute",
+        "severity": "minor",
+        "source_quote": "A narrow path winding through a leafy woodland",
+        "suggested_fix": "Alt text is translated correctly in sense, but use more natural Kiswahili: “Njia nyembamba inayoyooka kupitia msitu wenye matawi na majani” or keep as is. This is minor and optional.",
+        "translation_quote": "Njia nyembamba inayoyooka kupitia msitu wenye majani"
+      },
+      {
+        "location": "html > p[20] (Grandma’s comforter description)",
+        "severity": "major",
+        "source_quote": "The porch light showed her in her old rocker. A heavy comforter lay on her shoulders.",
+        "suggested_fix": "The translation uses 'korido' for porch (see earlier) and translates 'comforter' as 'jasi' (wrong). 'Comforter' here is a heavy blanket/coverlet — translate as 'blanketi nzito' or 'mashuka nzito'. Suggested: “Taa ya veranda ilimuonyesha akiwa kwenye kiti chake cha kuzungusha. Blanketi nzito lilikuwa zimemfunika mabega yake.”",
+        "translation_quote": "Taa ya korido ilimuonyesha akiwa kwenye kiti chake cha kuzungusha. Jasi nzito lilikuwa juu ya mabega yake."
+      }
+    ],
+    "passed": false,
+    "score": 51
+  }
+}

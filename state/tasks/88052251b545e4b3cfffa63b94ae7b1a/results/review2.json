@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "eda8eabc-d572-4a0b-b4a7-467687609a26",
+    "response_id": "chatcmpl-EUT9VBeo8nP4zuJErs8BI3t0VIgpH",
+    "usage": {
+      "completion_tokens": 743,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9133,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9876
+    }
+  },
+  "received_at": "2026-10-02T08:47:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 3 (opening narrative) — sentence reporting Elsie’s drinking behavior",
+        "severity": "major",
+        "source_quote": "“She drinks till she passes out every night and has to have something every morning to get her started.”",
+        "suggested_fix": "Replace the mistranslation that implies death with wording that matches the English meaning: e.g. \"Sie trinkt jede Nacht so viel, bis sie bewusstlos wird, und braucht jeden Morgen etwas, um in den Tag zu kommen.\" Preserve tone and register; keep the rest of the sentence as translated.",
+        "translation_quote": "„Sie trinkt sich jede Nacht zu Tode und muss jeden Morgen etwas haben, um in den Tag zu kommen.“"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

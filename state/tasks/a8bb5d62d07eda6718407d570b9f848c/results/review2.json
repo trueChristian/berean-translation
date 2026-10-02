@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "089423eb-d936-45a3-90c6-7f6cbb918261",
+    "response_id": "chatcmpl-EUT9kINwb68unD2Znv7KyZdSRQ2sX",
+    "usage": {
+      "completion_tokens": 1041,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12033,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13074
+    }
+  },
+  "received_at": "2026-10-02T08:47:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first <p class=\"article-note\"> (publication title)",
+        "severity": "minor",
+        "source_quote": "After printing all six articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet.",
+        "suggested_fix": "Translate the publication title into Arabic or present it in an Arabic typographic form. Preserve the surrounding HTML tags and order. For example: replace 'The Heartbeat of the Remnant' with 'نبض الباقين' (or another authorized Arabic title if the publication has an established Arabic name). Keep the em tags intact: بعد طباعة المقالات الست كلها في </em>نبض الباقين<em>، سننشرها في كتيب.",
+        "translation_quote": "بعد طباعة المقالات الست كلها في </em>The Heartbeat of the Remnant<em>، سننشرها في كتيب."
+      },
+      {
+        "location": "source.html — paragraph citing Proverbs (near “My son, forget not my law…” in English source)",
+        "severity": "minor",
+        "source_quote": "\"My son, forget not my law; but let thine heart keep my commandments: For length of days, and long life, and peace, shall they add to thee\" (Proverbs 3:1-2).",
+        "suggested_fix": "Correct the Arabic rendering for clarity and idiomatic accuracy while preserving Scripture reference and HTML. Replace the current phrase «يا ابني لا تنس تعليمي، ويحفظ قلبك وصاياي، لأن طول الأيام، والسنة الحيات، والسلام، يزيدونك» with a clearer Modern Standard Arabic translation that conveys the printed English author's sense. For example: «يا بُنَيَّ لا تنس تعليمي، فلتَحفظ قَلبُكَ وصاياي. فإطالة الأيام وطول الحياة والسلام يُزادان لك» (أمثال 3:1-2).",
+        "translation_quote": "«يا ابني لا تنس تعليمي، ويحفظ قلبك وصاياي، لأن طول الأيام، والسنة الحيات، والسلام، يزيدونك» (أمثال 3:1-2)."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

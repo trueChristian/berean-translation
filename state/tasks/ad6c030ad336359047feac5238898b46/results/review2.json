@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a1f8e7f2-9dd6-4145-a0d1-d0d80cdc9e83",
+    "response_id": "chatcmpl-EUTA69yHl5OWEyeJI0V1FmLHLLtJE",
+    "usage": {
+      "completion_tokens": 1848,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12859,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 14707
+    }
+  },
+  "received_at": "2026-10-02T08:47:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — article-note (first paragraph)",
+        "severity": "major",
+        "source_quote": "After printing all six articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet.",
+        "suggested_fix": "Translate the magazine title and surrounding clause into Hebrew (preserve HTML tags). For example, inside the same <em>...</em> tags replace the English with a Hebrew rendering: 'לאחר שנפרסם את כל ששת המאמרים ב\"ה״רטביט של השארית\" (או שם המגזין בתרגום מקובל), נפרסם אותם גם בחוברת.' Ensure the printed magazine title is translated into Hebrew or given a conventional Hebrew rendering; do not leave the English title as untranslated prose.",
+        "translation_quote": "<em>After printing all six articles in</em> The Heartbeat of the Remnant<em>, we will publish them in a booklet.</em> (left in English inside the Hebrew paragraph)"
+      },
+      {
+        "location": "source.html — Genesis 1:26-28 quotation paragraph",
+        "severity": "major",
+        "source_quote": "\"And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea...\" (Genesis 1:26-28).",
+        "suggested_fix": "Correct the Hebrew rendering to faithfully convey 'let them have dominion' and the sequence of clauses. Preserve the verse reference. For example: '\"ויאמר אלהים נעשה אדם בצלמנו כדמותנו וירדפו בדגת הים ובעוף השמים ובבהמה ובכל־הארץ...\"' is still awkward — replace with an accurate modern Hebrew translation that conveys dominion/authority such as: '\"ויאמר אלהים: נעשה אדם בצלמנו כדמותנו וירדו בדגת הים ובעוף השמים ובבהמה ובכל־הארץ ובכל־הרמשים הרומשים על־הארץ. ויבראם אלהים בצלמו, זכר ונקבה בראם; ויברך אתם אלהים ויאמר להם פרו ורבו ומלאו את־הארץ וכבשה ורדו בדגת הים ובעוף השמים ובכל־חיה הרמשת על־הארץ.\"' (use a clear, idiomatic Hebrew rendering).",
+        "translation_quote": "\"ויאמר אלהים נעשה אדם בצלמנו כדמותנו ויירדוף בדגת הים ובעוף השמים ובבהמה...\" (Hebrew translation uses the incorrect verb form 'ויירדוף' and otherwise misrenders the dominion clause)."
+      },
+      {
+        "location": "source.html — multiple occurrences of \"they shall be one flesh\" (Genesis 2:24, Mark 10:8-9, repeated)",
+        "severity": "major",
+        "source_quote": "\"and they shall be one flesh\" (Genesis 2:24) / \"And they twain shall be one flesh...\" (Mark 10:8-9).",
+        "suggested_fix": "Replace the mistranslated/typo Hebrew 'ששׂ גוף אחד' with the correct phrase 'לבשר אחד' or better idiomatic Hebrew 'לבשר אחד' / 'בשר אחד' as used in Hebrew Bible translations. Preserve the verse references and apply the correction in every place this phrase appears in the translation (headings and body text).",
+        "translation_quote": "\"והיו לששׂ גוף אחד\" / \"יהפכו לששׂ גוף אחד\" (uses 'ששׂ' instead of the correct 'בשר' – appears multiple times)."
+      },
+      {
+        "location": "source.html — 2 Corinthians 6:14-15 and 1 Corinthians 7:39 quotations",
+        "severity": "major",
+        "source_quote": "\"Be ye not unequally yoked together with unbelievers: for what fellowship hath righteousness with unrighteousness\" (2 Corinthians 6:14-15).  \"The wife is bound by the law as long as her husband liveth... only in the Lord\" (1 Corinthians 7:39).",
+        "suggested_fix": "Restore accurate, idiomatic Hebrew translations of these New Testament quotations, keeping the verse numbers. The current Hebrew lines are mangled and do not convey the original meaning. For example, 2 Corinthians 6:14 could be rendered: '\"אל־תתאחדו עם תלמידי בלהות; כי מה יש לשיתוף בין צדק לאפיקורוס?\"' (use a conventional and accurate translation: '\"אל־תתאחדו עם בלתי־מאמינים; מה־לעול צדק עם אי־צדק?\"' — or better, follow a standard modern Hebrew NT phrasing). For 1 Corinthians 7:39 render as: '\"האשה קשורה בחוק כל עוד בעלה חי; אך אם ימות בעלה, חפשי היא להתחתן עם מי שתחפוץ—רק בתוך־אדוננו.\"' (or equivalent idiomatic Hebrew); ensure the theological force matches the source. Replace the current garbled Hebrew quotations accordingly.",
+        "translation_quote": "\"וּבְלֹא‑תִתְּנוּ עִמָּם בַּעֲבוּר אֲשֶׁר אֵין‑לָכֶם יְחִידוּת...\" and \"הָאִשָּׁה‑תִּהְיֶה בְּתוֹר הַחֹק...\" (current Hebrew text is garbled and does not accurately reflect the cited NT verses)."
+      }
+    ],
+    "passed": false,
+    "score": 40
+  }
+}

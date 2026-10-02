@@ -2,7 +2,6 @@
   "article_id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "bae56518e5c441c89c52a3fb7cd782ac",
   "campaign": "gh-36981712493",
   "created_at": "2026-10-02T08:02:17+00:00",
   "events": [
@@ -43,17 +42,52 @@
         },
         "total_tokens": 14600
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1550,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9479,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11029
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
+      "location": "<p>“I sighed as I reentered her exam room. I had been afraid that I wouldn’t find anywhere for her to go.”</p>",
       "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Duplicate HTML attribute",
-      "translation_quote": ""
+      "source_quote": "“I sighed as I reentered her exam room. I had been afraid that I wouldn’t find anywhere for her to go.”",
+      "suggested_fix": "Translate the verb of emotion/gesture accurately. Replace the current translation sentence \"Nikongojea niliporudi chumbani kwake. Nilikuwa nikiona kuwa nisingeweza kupata mahali pa kumpeleka.\" with wording that preserves the original meaning: for example, \"Nilitoa pumzi niliporudi chumbani kwake. Nilikuwa nimeogopa kwamba singeweza kupata mahali pa kumpeleka.\" Keep surrounding HTML tags and order unchanged.",
+      "translation_quote": "\"Nikongojea niliporudi chumbani kwake. Nilikuwa nikiona kuwa nisingeweza kupata mahali pa kumpeleka.\""
+    },
+    {
+      "location": "<p>Around 2 pm, I got a call from the rehab facility.</p>",
+      "severity": "critical",
+      "source_quote": "\"Around 2 pm, I got a call from the rehab facility.\"",
+      "suggested_fix": "Correct the localized time so it matches the English original. Replace the current translation \"Katikati ya saa nane mchana, nilipokea simu kutoka kituo cha kurekebisha tabia.\" with a clear Kiswahili equivalent of 2:00 p.m.: for example, \"Karibu saa 2 asubuhi\" is incorrect; use \"Karibu saa 2 jioni\" only if you intend 2 a.m./p.m. precisely. The simplest clear correction is: \"Karibu saa 2 mchana, nilipokea simu kutoka kituo cha kurekebisha tabia.\" (or \"Muda takriban saa 2 mchana, nilipokea simu...\"). Keep the HTML structure intact.",
+      "translation_quote": "\"Katikati ya saa nane mchana, nilipokea simu kutoka kituo cha kurekebisha tabia.\""
+    },
+    {
+      "location": "<p>My nurse called the rehab facility and told them the bad news, and I sat down in my chair, stunned.</p>",
+      "severity": "major",
+      "source_quote": "\"My nurse called the rehab facility and told them the bad news, and I sat down in my chair, stunned.\"",
+      "suggested_fix": "Restore the original physical detail (chair) and the intended meaning. Replace the current translation \"Nurse wangu alipigia simu kituo hicho na kuwaambia habari mbaya, na nikakaa kitandani changu, nikishtuka.\" with a correct rendering such as: \"Nurse wangu alipigia simu kituo hicho na kuwaambia habari mbaya, na niliketi kwenye kiti changu, nikishtuka.\" Preserve HTML tags and sentence order.",
+      "translation_quote": "\"Nurse wangu alipigia simu kituo hicho na kuwaambia habari mbaya, na nikakaa kitandani changu, nikishtuka.\""
     }
   ],
+  "finished_at": "2026-10-02T08:47:58+00:00",
   "id": "125e5381e72e57d8ad1b2528ad85c738",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "swa",
@@ -97,11 +131,13 @@
     }
   },
   "protected": false,
+  "quality_score": 65,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/b5b1f4feba0e363a96d3ad7b563e07686d3ab579326790efb2df52651280f0ba.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

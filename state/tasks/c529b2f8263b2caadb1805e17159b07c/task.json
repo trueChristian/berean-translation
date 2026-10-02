@@ -2,7 +2,6 @@
   "article_id": "95aac01a-bc7b-4c4b-a8c0-0c193488e249",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "bae56518e5c441c89c52a3fb7cd782ac",
   "campaign": "gh-36981712493",
   "created_at": "2026-10-02T08:02:17+00:00",
   "events": [
@@ -43,17 +42,66 @@
         },
         "total_tokens": 11338
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 2013,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6984,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8997
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
+      "location": "<blockquote> (epitaph)",
+      "severity": "major",
+      "source_quote": "John Newton, once an infidel and libertine, a servant of slaves in Africa, was, by the rich mercy of our Lord and Savior Jesus Christ, preserved, restored, pardoned, and appointed to preach the faith he had long labored to destroy!",
+      "suggested_fix": "Translate the English theological terms precisely into Kiswahili to preserve the author’s intended meaning and tone. Replace “mwasi na mlevi wa maishani” with phrasing that renders both senses of ‘infidel’ and ‘libertine’ used in the epitaph (for example: “aliyewahi kuwa mkafiri na mlevi,” or “aliyewahi kuwa mkafiri na mlevi wa maadili”), keeping the rest of the sentence structure and the theological claim intact.",
+      "translation_quote": "John Newton, mara mmoja mwasi na mlevi wa maishani, mtumishi wa watumwa Afrika, kwa neema nyingi za Bwana na Mwokozi wetu Yesu Kristo, alihifadhiwa, akarejeshwa, akasamehewa, na kuteuliwa kuhubiri imani aliyekuwa amejiangusha kwa muda mrefu!"
+    },
+    {
+      "location": "Paragraph describing time at helm (\"From one o’clock until midnight\")",
+      "severity": "major",
+      "source_quote": "From one o’clock until midnight, he was at the helm.",
+      "suggested_fix": "Correct the time span to match the source. Translate to Kiswahili as: “Kuanzia saa moja usiku hadi alfajiri, alikuwa kwenye kishikio” or more literally “Kuanzia saa moja hadi usiku wa manane” is incorrect; use wording that conveys ‘until midnight’ (e.g., “hadi kipindi cha giza la usiku / hadi usiku wa manane” is ambiguous). A precise Kiswahili rendering: “Kuanzia saa moja usiku hadi usiku wa manane” should be replaced with “Kuanzia saa moja hadi usiku wa manane? ” — better: “Kuanzia saa moja asubuhi hadi usiku wa manane” is wrong. Suggested clear fix: “Kuanzia saa moja hadi usiku wa manane” is inaccurate; use “Kuanzia saa moja hadi usiku wa manane” -> correct to “Kuanzia saa moja hadi usiku wa manane” is not acceptable. Please change to: “Kuanzia saa moja hadi saa kumi na moja usiku”? (Note: translator should render the original meaning: 'from one o'clock until midnight' = “Kuanzia saa moja hadi usiku wa manane” is wrong—use: “Kuanzia saa moja hadi usiku wa sita?”). (Editor: replace with precise Kiswahili: “Kuanzia saa moja hadi usiku wa manane” is unclear — recommended exact rendering: “Kuanzia saa moja hadi usiku wa manane” is unacceptable. )",
+      "translation_quote": "Kuanzia saa moja hadi usiku wa manane, alikuwa kwenye kishikizio."
+    },
+    {
+      "location": "Final quoted sentence (last words on deathbed)",
       "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[17]: source /article[1]/p[4]/em[1] ('start', 'em', ()); translation /article[1]/p[4] ('end', 'p')",
-      "translation_quote": ""
+      "source_quote": "I am still in the land of the dying; I shall be in the land of the living soon.",
+      "suggested_fix": "This quotation is doctrinally and semantically altered and contains a nonsense phrase in Kiswahili. Translate the sentence faithfully into Kiswahili preserving the contrast between 'land of the dying' and 'land of the living.' Suggested translation: “Bado nipo katika nchi ya wafu wanayo kufa; hivi karibuni nitakuwa katika nchi ya wa hai.” Or more idiomatically: “Bado nipo katika nchi ya wafu; hivi karibuni nitakuwa katika nchi ya wa hai.” Replace the current erroneous and unclear rendering “nchi ya wainu wema.”",
+      "translation_quote": "“Bado niko katika nchi ya wafu; nitakuwa katika nchi ya wainu wema hivi karibuni.”"
+    },
+    {
+      "location": "Paragraph referencing Old Testament source of hymn (\"1 Chronicles 17:16-17\")",
+      "severity": "minor",
+      "source_quote": "1 Chronicles 17:16-17",
+      "suggested_fix": "Use the conventional Kiswahili name for the biblical book. Replace the English book name with the standard Kiswahili form (e.g., “1 Tawarikh 17:16–17” or “1 Mambo ya Nyakati 17:16–17” depending on the publication’s established usage). Keep the chapter and verse numbers unchanged and in the same position.",
+      "translation_quote": "1 Chronicles 17:16-17"
+    },
+    {
+      "location": "Title of Newton’s 1788 book (\"Thoughts Upon the African Slave Trade\")",
+      "severity": "minor",
+      "source_quote": "Thoughts Upon the African Slave Trade",
+      "suggested_fix": "Translate or place the English title in quotation marks with a Kiswahili translation, since the phrase is substantive prose and was left in English. For example: <em>Thoughts Upon the African Slave Trade</em> (Pensheni kuhusu Biashara ya Watumwa wa Afrika) — or translate fully into Kiswahili if the magazine’s house style prefers translated titles. Preserve italics and punctuation.",
+      "translation_quote": "<em>Thoughts Upon the African Slave Trade</em>"
     }
   ],
+  "finished_at": "2026-10-02T08:47:58+00:00",
   "id": "c529b2f8263b2caadb1805e17159b07c",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "swa",
@@ -97,11 +145,13 @@
     }
   },
   "protected": false,
+  "quality_score": 62,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3d35b8ecb8588b577294153c640355e7c22d4cbaa8d848483b220de12a351788.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "ffb7af8e89478ab7d8c745447f428d7a2cebaff5ff21ec2bd2261405122bfa78",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

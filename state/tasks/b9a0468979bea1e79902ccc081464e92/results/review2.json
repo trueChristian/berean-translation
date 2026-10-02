@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "aadc7c4b-d45d-47d4-b207-6fed9fc7caed",
+    "response_id": "chatcmpl-EUTB3X9YsD0YYdIx0GTbB2tuQv63s",
+    "usage": {
+      "completion_tokens": 1475,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13196,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 14671
+    }
+  },
+  "received_at": "2026-10-02T08:47:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — opening paragraph/article-note (first <p>)",
+        "severity": "major",
+        "source_quote": "A Christ-centered Courtship is a series of messages on godly courtship preached by Paul Hershberger. ... After printing all six articles in The Heartbeat of the Remnant, we will publish them in a booklet.",
+        "suggested_fix": "Translate the English book title and the English noun 'Courtship' into Urdu (preserve the HTML/em tags). For example, replace the English phrase within the em tags with a fully Urdu rendering that preserves the surrounding <em>...</em> structure. Example fix (in-place, preserving tags): <em>ایک مسیحی مرکزِ سہیلیت (مسیح مرکز نکاح) ایک سلسلہ ہے جو پول ہرشبرگر نے خدا تر نکاح کے بارے میں دیا...</em> and translate “The Heartbeat of the Remnant” into Urdu inside the same <em> tag (for example: «بقایا کے دل کی دھڑکن») rather than leaving it in English.",
+        "translation_quote": "<em>ایک مسیح مرکزِ دَلعشق Courtship حضرت پاول ہرشبرگر کے ذریعہ...</em>The Heartbeat of the Remnant<em> میں چھوں مضامین شائع کرنے کے بعد ...</em>"
+      },
+      {
+        "location": "source.html — opening sentence of main text (Ecclesiastes quotation)",
+        "severity": "critical",
+        "source_quote": "Ecclesiastes 12:1 says, “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them.”",
+        "suggested_fix": "Correct the book name in the Urdu translation. The source cites Ecclesiastes 12:1 (the book of Qoheleth/ Ecclesiastes). The translation incorrectly renders the book as 'امثال' (Proverbs). Replace 'امثال 12:1' with the conventional Urdu name for Ecclesiastes (e.g., 'واعظ' or commonly used form) and ensure the quoted verse text is translated to Urdu matching the source English meaning. Preserve the verse numbering '12:1' unchanged.",
+        "translation_quote": "امثال 12:1 میں لکھا ہے، “اپنے خالق کو اپنی شباب کے ایام میں یاد کر، جب تک برّے دن نہ آئیں اور سال قریب نہ ہوں، جب تو کہے گا کہ مجھے ان سے کوئی خوشی نہیں۔”"
+      },
+      {
+        "location": "source.html — repeated occurrences of the English word “Courtship” (title and throughout text)",
+        "severity": "major",
+        "source_quote": "Title and repeated phrase: \"A Christ-Centered Courtship\"; within body: \"A Christ-centered courtship is a period...\"",
+        "suggested_fix": "Translate the term 'Courtship' consistently into standard Urdu wherever it appears (title, subtitle, body, headings, and the article-note). Do not leave the English word. Preserve HTML tags and attributes. Example: change the article title and the occurrences in text to use a single consistent Urdu term such as 'نکاح کی مسیحی تیاری' or 'مسیحی مرکزِ رفاقت' according to publisher's preferred terminology, e.g., <h1>ایک مسیح مرکزِ نکاح</h1> and update the article-note accordingly.",
+        "translation_quote": "\"ایک مسیح مرکز Courtship\" (title) and in article-note: \"ایک مسیح مرکزِ دَلعشق Courtship حضرت پاول...\""
+      },
+      {
+        "location": "source.html — paragraph under “1) God brings Eve to Adam.”",
+        "severity": "minor",
+        "source_quote": "Adam was a “one-woman man,” and Eve was a “one-man woman.”",
+        "suggested_fix": "Fix the mistranslated phrase in Urdu that currently reads 'ایک آدمار عورت' (typo/incorrect). Render the idiom clearly and idiomatically in Urdu, e.g., 'آدم ایک \"ایک عورت والا آدمی\" تھا، اور حوا ایک \"ایک آدمی والی عورت\" تھی۔' Preserve surrounding tags and sentence order.",
+        "translation_quote": "آدم ایک “ایک بیوی والا آدمی” تھا، اور حوا “ایک آدمار عورت” تھی۔"
+      }
+    ],
+    "passed": false,
+    "score": 62
+  }
+}

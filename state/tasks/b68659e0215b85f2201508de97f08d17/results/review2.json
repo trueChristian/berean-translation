@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c48555da-0c26-4bb3-ae64-617266dcea6d",
+    "response_id": "chatcmpl-EUTAdAq29Kgfq25rdrNqclUAmsstC",
+    "usage": {
+      "completion_tokens": 1887,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6703,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8590
+    }
+  },
+  "received_at": "2026-10-02T08:47:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing: \"a copy of Thomas á Kempis’s Christian classic, The Imitation of Christ.\"",
+        "severity": "major",
+        "source_quote": "\"a copy of Thomas á Kempis’s Christian classic, The Imitation of Christ.\"",
+        "suggested_fix": "Translate the book title into Italian using the conventional title. Preserve surrounding HTML and emphasis tag. For example: replace <em>The Imitation of Christ</em> with <em>L'Imitazione di Cristo</em>.",
+        "translation_quote": "\"una copia del classico cristiano di Thomas à Kempis, <em>The Imitation of Christ</em>.\""
+      },
+      {
+        "location": "Paragraph containing: \"anti-slavery novel Uncle Tom’s Cabin.\"",
+        "severity": "major",
+        "source_quote": "\"anti-slavery novel Uncle Tom’s Cabin.\"",
+        "suggested_fix": "Translate the book title into conventional Italian. Replace <em>Uncle Tom’s Cabin</em> with <em>La capanna dello zio Tom</em>, preserving the emphasis tag. Example: \"...il romanzo anti-schiavista di Harriet Beecher Stowe, <em>La capanna dello zio Tom</em>.\"",
+        "translation_quote": "\"il romanzo anti-schiavismo di Harriet Beecher Stowe, <em>Uncle Tom’s Cabin</em>.\""
+      },
+      {
+        "location": "Paragraph containing: \"wrote a book entitled Thoughts Upon the African Slave Trade\"",
+        "severity": "major",
+        "source_quote": "\"wrote a book entitled Thoughts Upon the African Slave Trade\"",
+        "suggested_fix": "Translate the English book title into Italian, using a literal, conventional rendering while keeping the emphasis tag. For example: replace <em>Thoughts Upon the African Slave Trade</em> with <em>Pensieri sul commercio degli schiavi africani</em>. Keep the surrounding sentence and HTML unchanged.",
+        "translation_quote": "\"scrisse un libro intitolato <em>Thoughts Upon the African Slave Trade</em> e lo inviò a tutti i membri del parlamento.\""
+      },
+      {
+        "location": "Paragraph containing: \"first published in 1831 in the book The Virginia Harmony.\"",
+        "severity": "major",
+        "source_quote": "\"first published in 1831 in the book The Virginia Harmony.\"",
+        "suggested_fix": "Translate the book title into Italian while preserving the emphasis tag. For example replace <em>The Virginia Harmony</em> with <em>La Virginia Harmony</em> or <em>The Virginia Harmony</em> rendered as <em>The Virginia Harmony</em> with Italian explanatory phrase if no established Italian title exists; preferred: <em>The Virginia Harmony</em> → <em>The Virginia Harmony</em> is acceptable only if no Italian rendering exists, but better to render as <em>The Virginia Harmony</em> → <em>The Virginia Harmony</em>. (Preferably: <em>The Virginia Harmony</em> → <em>The Virginia Harmony</em> should be changed to an Italian form: <em>The Virginia Harmony</em> → <em>The Virginia Harmony</em>.)\nNote: If an established Italian title exists, use it (e.g. <em>The Virginia Harmony</em> → <em>The Virginia Harmony</em> is a proper name — if no Italian equivalent is used by scholars, consider adding an Italian rendering in the text while keeping the original in parentheses).",
+        "translation_quote": "\"Questa melodia fu pubblicata per la prima volta nel 1831 nel libro <em>The Virginia Harmony</em>.\""
+      },
+      {
+        "location": "Multiple paragraphs containing: \"Olney Hymns\" / \"Olney hymns\"",
+        "severity": "major",
+        "source_quote": "\"Olney Hymns\" and later \"Olney hymns\"",
+        "suggested_fix": "Use a consistent Italian rendering for the collection title. Replace <em>Olney Hymns</em> and any lowercase variants with <em>Inni di Olney</em> (preserving the emphasis tags and pluralization), or if the publisher prefers keeping the English title, include the Italian rendering followed by the English title in parentheses. Example: <em>Olney Hymns</em> → <em>Inni di Olney</em>.",
+        "translation_quote": "\"pubblicati come <em>Olney Hymns</em>.\" and later \"Il più famoso di tutti gli <em>Olney Hymns</em>, “Faith’s Review and Expectation”, nacque...\""
+      },
+      {
+        "location": "Opening paragraph: \"In the small cemetery of a churchyard in Olney, England, stands a granite tombstone\" → Italian: \"Nel piccolo cimitero di un camposanto a Olney\"",
+        "severity": "minor",
+        "source_quote": "\"In the small cemetery of a churchyard in Olney, England, stands a granite tombstone\"",
+        "suggested_fix": "The Italian text uses redundant wording \"cimitero di un camposanto\" (both mean cemetery/ churchyard). For clarity and idiomatic Italian, replace with \"Nel piccolo cimitero della chiesa di Olney\" or \"Nel piccolo cimitero della chiesa parrocchiale di Olney\". Preserve original HTML structure.",
+        "translation_quote": "\"Nell piccolo cimitero di un camposanto a Olney, in Inghilterra, si trova una lapide di granito...\""
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}
