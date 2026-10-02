@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e93ddc40-bba5-4f91-8601-76917413e50c",
+    "response_id": "chatcmpl-EULC6FIAqf9IPSA6QNRhzybWyz2CU",
+    "usage": {
+      "completion_tokens": 842,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1470,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2312
+    }
+  },
+  "received_at": "2026-10-02T00:14:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> <p> stanza 3, line 5",
+        "severity": "minor",
+        "source_quote": "In wondrous beauty bend the knee;",
+        "suggested_fix": "Replace the Dutch sentence while preserving tags: change\n<p><strong>...<br>\n    In wonderlijke schoonheid buig het knieval;<br>\n    ...</strong></p>\nto a more idiomatic rendering, for example:\n<p><strong>...<br>\n    In wonderlijke schoonheid buig het knielend;<br>\n    ...</strong></p>\nor better:\n<p><strong>...<br>\n    In wonderlijke schoonheid breng het knieval;<br>\n    ...</strong></p>\n(Any of these keeps the HTML structure and conveys the original meaning more naturally.)",
+        "translation_quote": "In wonderlijke schoonheid buig het knieval;"
+      },
+      {
+        "location": "<div class=\"poem\"> <p> stanza 1, line 3",
+        "severity": "minor",
+        "source_quote": "The Dayspring shineth from on high,",
+        "suggested_fix": "Use a more natural modern Dutch phrasing while keeping HTML tags. For example replace\n<p><strong>...<br>\n    De Morgenster schijnt van hoogten neer,<br>\n    ...</strong></p>\nwith\n<p><strong>...<br>\n    De Morgenster straalt van boven neer,<br>\n    ...</strong></p>\nor simply\n<p><strong>...<br>\n    De Morgenster straalt van hoogten neer,<br>\n    ...</strong></p>\n(the first option is the most idiomatic).",
+        "translation_quote": "De Morgenster schijnt van hoogten neer,"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -5083,6 +5083,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.html",
+      "html_sha256": "a85ce694048cc0c5e5f7a64c27849a64687b122d1d0f47c7e1bcb28cb62fd1c6",
+      "human_reviewed": false,
+      "id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
+      "images": [
+        {
+          "alt": "Een kleine boot aan de rand van kalm water tijdens een levendige zonsondergang",
+          "public_path": "/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.json",
+      "metadata_sha256": "ab79d07f21a617ab259a09ecd3a48c27aefe18cf9e3a772f11ba98e783a3eb67",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Gedicht",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Sta op, wees blij!",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/fbfb182b-bb05-434f-a664-b74c68153e61.html",
       "html_sha256": "5c111cc0e2d096cecadc4c1c0421b9a848567bbe31c56047a84aa19e82223821",
       "human_reviewed": false,
