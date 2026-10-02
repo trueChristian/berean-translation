@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "<section class=\"lyrics\"> (verse: \"Ten thousand thousand precious gifts / My daily thanks employ;\")",
+      "severity": "major",
+      "source_quote": "Ten thousand thousand precious gifts\nMy daily thanks employ;",
+      "suggested_fix": "Translate number and verbs into standard contemporary Afrikaans. Replace Dutch forms with Afrikaans: e.g. \"Tien duisend, tien duisend kosbare gawes / Besig my daaglikse dank;\" or better: \"Tien duisend maal tien duisend kosbare gawes / Besig my daaglikse dank;\" and change \"Houd my daaglikse dank in beslag;\" to \"Besig my daaglikse dank;\" Ensure consistent Afrikaans words: 'duisend' (not Dutch 'duizend') and 'besig' or 'vul' instead of Dutch 'Houd'.",
+      "translation_quote": "Tien duizend, tien duizend kosbare gawes\nHoud my daaglikse dank in beslag;"
+    },
+    {
+      "location": "<section class=\"lyrics\"> (verse: \"To all my weak complaints and cries / Thy mercy lent an ear,\")",
+      "severity": "minor",
+      "source_quote": "To all my weak complaints and cries\nThy mercy lent an ear,",
+      "suggested_fix": "Improve idiomatic Afrikaans and clarity. Suggested rendering: \"Aan al my swak klagtes en kreetes\nhet U barmhartigheid aandag gegee,\" or \"het U na my swak klagtes en kreetes geluister.\" Preserve meaning that mercy 'listened' or 'lent an ear'.",
+      "translation_quote": "Aan al my swak klagtes en trane\nHet U barmhartigheid ’n oor gegee;"
+    },
+    {
+      "location": "<p>Paragraph about tunes: \"...he continued to compose music until his death.\"",
+      "severity": "minor",
+      "source_quote": "He continued to compose music until his death.",
+      "suggested_fix": "Correct typographical error in Afrikaans translation: change \"komoneer\" to \"komponeer\" (or use \"skryf\"/\"componeer\" consistently in Afrikaans spelling).",
+      "translation_quote": "Hy het voortgegaan om musiek te komoneer tot aan sy dood."
+    },
+    {
+      "location": "Throughout translation (word-choice and register)",
+      "severity": "minor",
+      "source_quote": "(General: original English article prose and hymn text)",
+      "suggested_fix": "Address several non-idiomatic or Dutch-influenced word choices and awkward constructions (e.g., 'oproewende siel', 'flou gedagtes', 'vaal gelaat', 'vernuwe' in places that read awkward). Revise to standard contemporary Afrikaans idiom while preserving theological meaning and sentence structure. Examples: 'my rising soul surveys' -> 'wanneer my opkomende siel die aanskouing beskou'; 'my feeble thoughts' -> 'my flou/gewoontelike gedagtes' depending on nuance. Ensure consistent register in both narrative and poetic sections.",
+      "translation_quote": "(multiple lines across the translation, e.g., \"My oprowende siel oorsien\", \"Nog eer my flou gedagtes geleer het\", \"Met gesondheid my aangesig vernuwe;\")"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

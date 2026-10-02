@@ -2,7 +2,6 @@
   "article_id": "ee9ff8a9-5b59-4b3e-9585-ab891c945bb5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,25 +61,38 @@
         },
         "total_tokens": 2530
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 779,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1388,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2167
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<div class=\"poem\"><p>La vita è per lo più ciò che ne facciamo,<br>\n    Dritta o torta, una delle due;<br>\n    Riceveremo esattamente ciò che meritiamo—<br>\n    La nostra perdita o il nostro guadagno eterno.</p>",
-      "severity": "major",
-      "source_quote": "Life is mostly what we make it,\n    Straight or crooked, one of twain;\n    We’ll receive just what we merit—\n    Our eternal loss or gain.",
-      "suggested_fix": "Correct the mistranslated word and keep idiomatic Italian. Replace the stanza text (inside the same paragraph tags) with: \"La vita è per lo più ciò che ne facciamo,<br>  Dritta o storta, una delle due;<br>  Riceveremo proprio ciò che meritiamo—<br>  La nostra perdita o il nostro guadagno eterno.\"",
-      "translation_quote": "La vita è per lo più ciò che ne facciamo,\n    Dritta o torta, una delle due;\n    Riceveremo esattamente ciò che meritiamo—\n    La nostra perdita o il nostro guadagno eterno."
-    },
-    {
-      "location": "<div class=\"poem\"><p>O care anime! sul sentiero della vita,<br>\n    Appoggiatevi sul petto del vostro Salvatore;<br>\n    Lì nessun nemico potrà mai molestare voi,<br>\n    Finché non raggiungerete il riposo eterno.</p>",
+      "location": "<article> <div class=\"poem\"> <p> prima strofa, seconda riga (\"Who are briskly walking onward,\")",
       "severity": "minor",
-      "source_quote": "O dear souls! upon life’s pathway,\n    Lean upon your Savior’s breast;\n    There no foe can e’er molest you,\n    ‘Til you reach eternal rest.",
-      "suggested_fix": "Make the Italian more idiomatic by converting the split verb form to the enclitic form and smoothing word order. Replace the stanza text (inside the same paragraph tags) with: \"O care anime! sul sentiero della vita,<br>  Appoggiatevi sul petto del vostro Salvatore;<br>  Lì nessun nemico potrà mai molestarvi,<br>  Finché non raggiungerete il riposo eterno.\"",
-      "translation_quote": "O care anime! sul sentiero della vita,\n    Appoggiatevi sul petto del vostro Salvatore;\n    Lì nessun nemico potrà mai molestare voi,\n    Finché non raggiungerete il riposo eterno."
+      "source_quote": "Who are briskly walking onward,",
+      "suggested_fix": "Sostituire la frase tradotta \"Che camminano svelte in avanti,\" con una resa idiomatica e corretta in italiano. Esempi: \"Che procedono di fretta,\" oppure \"Che camminano in fretta avanti.\" Mantenere la struttura HTML così com'è, ad esempio:\n<p>La vita è come un sentiero tortuoso<br>\nPer la moltitudine delle anime,<br>\nChe procedono di fretta,<br>\nIgnare della loro meta finale.</p>",
+      "translation_quote": "Che camminano svelte in avanti,"
     }
   ],
+  "finished_at": "2026-10-02T13:03:21+00:00",
   "id": "8ae476ed1a891d1694fcfd5eb1c97e1c",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ita",
@@ -154,13 +166,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/b70a42a3055e9b0b2f7cc18e717a71e0c042b99f8312a6e4498df59b68992446.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "a0e94b1f79a0eed4b2b4fa527a207a63d01981d07be68e5cda06b45933da47fd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "a1334217-82ac-49ef-8293-563122652b89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,46 +61,60 @@
         },
         "total_tokens": 10180
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1328,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5885,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7213
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html paragraph: \"If you read the book of Acts, that’s nearly all you see—the Gospel going out!\"",
+      "location": "Paragraph containing Romans 8:36 (near “And in Romans 8:36”)",
       "severity": "major",
-      "source_quote": "If you read the book of Acts, that’s nearly all you see—the Gospel going out!",
-      "suggested_fix": "Translate the book name into standard Bengali and correct the phrasing. Example: replace \"কActs-এর বইটি পড়ো\" with \"প্রেরিতদের কাজের বইটি পড়লে\" and keep the rest of the sentence translated faithfully.",
-      "translation_quote": "\"কActs-এর বইটি পড়ো, সেখানে প্রায় সবটাই দেখবে—সুসমাচার ছড়িয়ে পড়ছে!\""
+      "source_quote": "And in Romans 8:36, “As it is written, For thy sake we are killed all the day long; we are accounted as sheep for the slaughter.”",
+      "suggested_fix": "Correct the Bengali to preserve the passive sense of the English. For example: “আর রোমীয়দের ৮:৩৬-এ, ‘যেমন লেখা আছে, তোমার কারণে আমরা সারাদিন ধরে হত্যা করা হয়; আমরা কোরবানি ভোগের জন্য পশুর মত গণ্য।’” Ensure the verb reflects that they are killed (passive), not that they do the killing.",
+      "translation_quote": "এবং রোমীয়দের ৮:৩৬-এ, “যেমন লেখা আছে, তোমার কারণেই আমরা সারাদিন হত্যা করি; আমরা কোরবানি ভোগের জন্য পশুর মত গণ্য।”"
     },
     {
-      "location": "source.html paragraph: \"They told him he was now a father and could go home and be with his wife and son.\"",
-      "severity": "major",
-      "source_quote": "They told him he was now a father and could go home and be with his wife and son.",
-      "suggested_fix": "Correct the translation of 'infant' and the surrounding sentence. Replace the corrupted word and restore literal meaning. Example: \"তারপর তাদের শিশুটিকে জেলে নতুন বাবার কাছে নিয়ে গেল। তারা তাকে বলল যে সে এখন পিতা এবং বাড়ি ফিরে তার স্ত্রীর ও পুত্রের সঙ্গে থাকতে পারে।\"",
-      "translation_quote": "\"কেঁচোটি জেলে নতুন পিতার কাছে নিয়ে গেল। তারা তাঁকে বলল তিনি এখন বাবা এবং তিনি বাড়ি গিয়ে তাঁর স্ত্রী ও ছেলের সঙ্গে থাকতে পারেন।\""
-    },
-    {
-      "location": "source.html paragraph: \"Our prayer is that the authorities will let us live in peace, while we serve the Prince of peace.\"",
-      "severity": "major",
-      "source_quote": "Our prayer is that the authorities will let us live in peace, while we serve the Prince of peace.",
-      "suggested_fix": "Avoid translating 'pressing into the kingdom' as 'attack the kingdom.' Restore intended sense of earnest pursuit. Example: replace \"রাজ্যের প্রতি আক্রমণ করে চলা উচিত\" with \"রাজ্যের দিকে দৃঢ়ভাবে আগ্রসর হওয়া উচিত\" or \"রাজ্যের উন্নতির জন্য প্রচেষ্টা চালিয়ে যাওয়া উচিত.\"",
-      "translation_quote": "\"খ্রীষ্টানদের কথ্য প্রচার করে এবং রাজ্যের প্রতি আক্রমণ করে চলা উচিত।\""
-    },
-    {
-      "location": "source.html paragraph: \"the Gospel of the kingdom\" (Matthew 4:23 quote translated)",
+      "location": "First paragraph first sentence",
       "severity": "minor",
-      "source_quote": "...preaching the gospel of the kingdom... (Matthew 4:23)",
-      "suggested_fix": "Use the standard Bengali phrasing 'রাজ্যের সুসমাচার' rather than the nonstandard 'রাজ্যাব্দের সুসমাচার'. Example: replace \"রাজ্যাব্দের সুসমাচার\" with \"রাজ্যের সুসমাচার\" in the Matthew 4:23 translation.",
-      "translation_quote": "\"রাজ্যাব্দের সুসমাচার প্রচার করিত।\""
+      "source_quote": "When I was converted, I had never heard the term Anabaptist.",
+      "suggested_fix": "Fix the Bengali typographical error: change “আমি বিশ্বাসে এলোম” to the correct form “আমি বিশ্বাসে এলাম”.",
+      "translation_quote": "যখন আমি বিশ্বাসে এলোম, তখন আমি কখনও অনাবাপ্তিস্ট (Anabaptist) শব্দটি শুনিনি।"
     },
     {
-      "location": "source.html paragraph: \"He also that received seed among the thorns...\" (Matthew 13:22 quote translated)",
+      "location": "Paragraph about fleeing persecution (sentence: “they fled persecution and moved to a country where there was less oppression”)",
       "severity": "minor",
-      "source_quote": "He also that received seed among the thorns is he that heareth the word; and the care of this world, and the deceitfulness of riches, choke the word, and he becometh unfruitful (Matt. 13:22).",
-      "suggested_fix": "The translation of this verse is paraphrased and uses nonstandard phrasing (\"কাঁঠাল ও আঁশা\" for 'thorns' and awkward clause order). Render the verse more literally in standard Biblical Bengali: e.g. \"কাঁঠাল বন্দরে বপন প্রাপ্ত যে, সে সেই যে বাক্য শুনে; কিন্তু এ বিশ্বের যত্ন ও ধনসম্পদের প্রতারণা বাক্যকে গিলে ফেলে, ফলে সে অনুৎপাদ্য হয়।\"",
-      "translation_quote": "\"বীজবপনের কাহিনীতে যিশু বলেন, “কাঁঠাল ও আঁশা কোথায় বীজ পেয়েছে, সে সেই যে বাক্য শোনে; কিন্তু এই জন্মে বিশ্বাস ও সম্পদের ফাঁকি বাক্যকে চাপা দেয়, ফলে সে ফলহীন হয়” (মথি ১৩:২২)।\""
+      "source_quote": "Many years ago, a group of Anabaptists fled persecution and moved to a country where there was less oppression.",
+      "suggested_fix": "Translate the English word left in the Bengali sentence. Replace the English word “oppression” with a Bengali equivalent such as “অত্যাচার” so the sentence reads naturally (e.g., “…যেখানে অত্যাচার কম ছিল”).",
+      "translation_quote": "অনেক বছর আগে, একদল অনাবাপ্তিস্ট অত্যাচার থেকে পালিয়ে এমন একটি দেশে গিয়েছিল যেখানে oppression কম ছিল।"
+    },
+    {
+      "location": "Paragraph starting “Today it’s easy to be a Christian…” (word with control-character corruption)",
+      "severity": "minor",
+      "source_quote": "Today it’s easy to be a Christian when you settle down and live a quiet and peaceable life, never challenging a sinner or correcting a brother.",
+      "suggested_fix": "Remove the stray control-character and correct the word to standard Bengali. Replace “আজকা\\u001eল” with “আজকাল” so the clause reads naturally.",
+      "translation_quote": "আজকা\u001eল যদি তুমি বসে আর শান্ত ও সংগতজীবন যাপন করে ধর্মোপাসনা করো, কখনো পাপীকে চ্যালেঞ্জ না করে বা ভ্রাতাকে সংশোধন না করে খ্রীষ্টান হওয়া সহজ।"
     }
   ],
+  "finished_at": "2026-10-02T13:03:21+00:00",
   "id": "c88fbe6263960324f671f3f0dd233bc1",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ben",
@@ -181,7 +194,7 @@
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/49a66e43316337366db2887d07eae4fb7d7398fb2cd2778c9d2eec656ecce583.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "22f19fd4059c839acdb0760ae4c1ea7697fd7ad4642cdb6da3779c88fc7b55d4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

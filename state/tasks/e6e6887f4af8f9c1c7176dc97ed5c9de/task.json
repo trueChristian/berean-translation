@@ -2,7 +2,6 @@
   "article_id": "ee9ff8a9-5b59-4b3e-9585-ab891c945bb5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,39 +61,45 @@
         },
         "total_tokens": 2513
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 984,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1385,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2369
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<div class=\"poem\"> first stanza, line 3-4",
-      "severity": "major",
-      "source_quote": "Who are briskly walking onward,\nHeedless of their final goal.",
-      "suggested_fix": "Use gender-neutral or mixed-gender Hebrew plural and correct person. Replace \"ההולכות במהירות קדימה,\\nשלא מודעות ליעדן הסופי.\" with \"הולכים במהירות קדימה,\\nבלי לשים לב אל יעדם הסופי.\" to match the English meaning and neutral plural.",
-      "translation_quote": "ההולכות במהירות קדימה,\nשלא מודעות ליעדן הסופי."
-    },
-    {
-      "location": "<div class=\"poem\"> second stanza, line 2",
+      "location": "<figure> <img alt>",
       "severity": "minor",
-      "source_quote": "Straight or crooked, one of twain;",
-      "suggested_fix": "Adjust number/gender agreement and idiomatic Hebrew. Replace \"ישרים או מעוקלים, אחד משניים;\" with \"ישר או מעוקל — אחד משניים;\" or better: \"ישר או עקום — אחד משניים;\"",
-      "translation_quote": "ישרים או מעוקלים, אחד משניים;"
+      "source_quote": "A snow-covered road winding through an evergreen forest",
+      "suggested_fix": "Translate to a more natural, idiomatic Hebrew alt text and avoid awkward phrasing. Example replacement (preserving the img tag and its attributes): <img src=\"/images/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5-1.jpg\" alt=\"דרך מכוסה שלג המתפתלת בין עצי־מחט תמיד ירוקים\">",
+      "translation_quote": "דרך מכוסה שלג המתפתלת דרך יער של עצי חורש תמידי"
     },
     {
-      "location": "<div class=\"poem\"> third stanza, line 1",
-      "severity": "major",
-      "source_quote": "O dear souls! upon life’s pathway,",
-      "suggested_fix": "Correct the vocative and word choice. Replace the incorrect particle \"או\" (which reads like 'or') with a proper interjection or omit it. For example: \"נשמות יקרות! על שביל החיים,\" or more idiomatically: \"הוּ! נשמות יקרות, על שביל החיים,\" (better: simply \"נשמות יקרות! על שביל החיים,\").",
-      "translation_quote": "או נשמות יקרות! על שביל החיים,"
-    },
-    {
-      "location": "<div class=\"poem\"> third stanza, line 2",
-      "severity": "major",
-      "source_quote": "Lean upon your Savior’s breast;",
-      "suggested_fix": "Fix person/tense to match the imperative addressed to the readers. Replace \"נשענו אל חיק המושיע;\" (first-person plural past) with an imperative/command or exhortation such as \"השענו אל חיק המושיע;\" or \"הישענו אל חיק המושיע;\" (imperative plural) or more idiomatically \"הישענו על חיק המושיע;\"",
-      "translation_quote": "נשענו אל חיק המושיע;"
+      "location": "<div class=\"poem\"> third stanza, line 3",
+      "severity": "minor",
+      "source_quote": "There no foe can e’er molest you,",
+      "suggested_fix": "Adjust word order to be more natural and idiomatic Hebrew while preserving the meaning. Suggested correction for the specific line within the same <p> paragraph: \"שם לא יטריד אתכם אויב\" or \"שם אויב לא יפריע לכם\". Ensure the HTML paragraph tags and structure remain unchanged.",
+      "translation_quote": "שם לא יפריע לכם אויב לעולם"
     }
   ],
+  "finished_at": "2026-10-02T13:03:21+00:00",
   "id": "e6e6887f4af8f9c1c7176dc97ed5c9de",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "heb",
@@ -168,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 54,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/b70a42a3055e9b0b2f7cc18e717a71e0c042b99f8312a6e4498df59b68992446.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "a0e94b1f79a0eed4b2b4fa527a207a63d01981d07be68e5cda06b45933da47fd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

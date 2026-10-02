@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "362b8b94-825a-4121-a722-d264c2f9f680",
+    "response_id": "chatcmpl-EUXAbOf3wzDWPW3ckAWr7jNpYNnlM",
+    "usage": {
+      "completion_tokens": 749,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3134,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3883
+    }
+  },
+  "received_at": "2026-10-02T13:03:21+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> paragraph 2 (\"...A diet on that kind of hope is a slim diet for sure!\")",
+        "severity": "minor",
+        "source_quote": "A diet on that kind of hope is a slim diet for sure!",
+        "suggested_fix": "Translate the metaphor more idiomatically into Norwegian Bokmål. Replace «Et kosthold basert på den slags håp er et magert kosthold, helt klart!» with something like «Et slikt håp gir mager næring» or «Et slikt håp gir dårlig næring» to preserve the metaphor while sounding natural.",
+        "translation_quote": "Et kosthold basert på den slags håp er et magert kosthold, helt klart!"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

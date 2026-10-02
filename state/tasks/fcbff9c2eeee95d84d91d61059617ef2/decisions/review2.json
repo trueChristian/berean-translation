@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<div class=\"poem\">…</div> — hymn stanza",
+      "severity": "minor",
+      "source_quote": "When all Thy mercies, O my God,\n    My rising soul surveys,\n    Transported with the view, I’m lost\n    In wonder, love and praise.",
+      "suggested_fix": "Перевести последние две строки более буквально и без добавления слова «безмолвной», чтобы ближе соответствовать английскому: например, «Восхищённый видом, я теряюсь в изумлении, любви и хвале.» (или другой естественный вариант без слова «безмолвной»). Сохраняйте HTML-теги и порядок строк.",
+      "translation_quote": "Когда все милости Твои, о Боже мой,\n    Дух мой восходит и обозревает,\n    Восхищённый видом, я теряюсь в чуде,\n    В любви и хвале безмолвной."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

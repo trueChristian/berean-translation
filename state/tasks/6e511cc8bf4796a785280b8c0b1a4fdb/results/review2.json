@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "344a34e2-099b-4ccc-8069-60c2ebaacf4b",
+    "response_id": "chatcmpl-EUXAgMHV8ZARMWGat5H8BCX0IKpWc",
+    "usage": {
+      "completion_tokens": 903,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2846,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3749
+    }
+  },
+  "received_at": "2026-10-02T13:03:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...zoomed around the silo as fast as her four little legs could carry her.</p>",
+        "severity": "minor",
+        "source_quote": "\"She zoomed around the silo as fast as her four little legs could carry her.\"",
+        "suggested_fix": "Translate 'silo' accurately to Norwegian Bokmål as 'silo' (or 'siloen' in context) rather than 'låven' (which means 'the barn'). Keep surrounding sentence structure and HTML unchanged. Example replacement inside the same <p>: \"Bjeffende høyt suste Nellie rundt siloen så fort de fire små beina kunne bære henne.\"",
+        "translation_quote": "\"Bjeffende høyt suste Nellie rundt låven så fort de fire små beina kunne bære henne.\""
+      },
+      {
+        "location": "<p>...glided smoothly on the chip-and seal road without a rattle.</p>",
+        "severity": "minor",
+        "source_quote": "\"These bicycles glided smoothly on the chip-and seal road without a rattle.\"",
+        "suggested_fix": "'Chip-and-seal road' is a specific road surface type (loose stone sealed with tar) and should not be rendered simply as 'asfalterte veien' (asphalted road). Use a closer Norwegian rendering such as 'veien som var lagt med pukk og forseglet med tjære' or simply 'pukk- og forseglet vei' to preserve the nuance. Keep HTML unchanged. Example: \"Disse syklene suste jevnt nedover den pukk- og forseglede veien uten å riste.\"",
+        "translation_quote": "\"Disse syklene suste jevnt nedover den asfalterte veien uten å riste.\""
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "c22883c1-1d69-4c5e-aa81-d4015bf4e473",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,46 +61,45 @@
         },
         "total_tokens": 5680
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 894,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3097,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3991
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph 2 (source.html) — internal quoted article title",
-      "severity": "critical",
-      "source_quote": "“God’s Faithfulness Manifest Even in the Curse”",
-      "suggested_fix": "Translate the quoted English article title into Italian, preserving the quotation marks and placement inside the paragraph. Example: “La fedeltà di Dio manifestata anche nella maledizione”.",
-      "translation_quote": "“God’s Faithfulness Manifest Even in the Curse”"
+      "location": "Paragraph with Proverbs quotation (source.html paragraph with Solomon quote)",
+      "severity": "minor",
+      "source_quote": "“For the LORD shall be thy confidence, and shall keep thy foot from being taken” (Proverbs 3:26).",
+      "suggested_fix": "Translate into natural, idiomatic Italian while preserving the meaning exactly. Example: “Poiché il SIGNORE sarà la tua fiducia e proteggerà il tuo piede dal cadere” (Proverbi 3:26). Or keep closer to the existing literal wording but correct idiom: “Poiché il SIGNORE sarà la tua fiducia e terrà il tuo piede dal venir preso” (Proverbi 3:26).",
+      "translation_quote": "“Poiché il SIGNORE sarà la tua fiducia e terrà il tuo piede dal venire preso” (Proverbi 3:26)."
     },
     {
-      "location": "Paragraph 3 (source.html) — section/feature name in quotes",
-      "severity": "critical",
-      "source_quote": "“A Word From the Doctor”",
-      "suggested_fix": "Translate the quoted feature/section name into Italian, preserving the quotation marks and the original HTML structure. Example: “Una parola dal medico”.",
-      "translation_quote": "“A Word From the Doctor”"
-    },
-    {
-      "location": "Poem block (source.html) — hymn quotation",
-      "severity": "critical",
+      "location": "Poem block (the hymn stanza in the <div class=\"poem\">)",
+      "severity": "minor",
       "source_quote": "When all Thy mercies, O my God,\n    My rising soul surveys,\n    Transported with the view, I’m lost\n    In wonder, love and praise.",
-      "suggested_fix": "Translate the quoted hymn stanza into Italian and keep it inside the same <div class=\"poem\"> block and <em> tag. Example translation: <div class=\"poem\">\\n    <p><em>Quando tutte le Tue misericordie, o mio Dio,<br>    la mia anima nascente contempla,<br>    Trasportata da quella vista, rimango smarrito<br>    in stupore, amore e lode.</em></p>\\n  </div>",
-      "translation_quote": "When all Thy mercies, O my God,\n    My rising soul surveys,\n    Transported with the view, I’m lost\n    In wonder, love and praise."
-    },
-    {
-      "location": "Paragraph 6 (source.html) — farming vocabulary",
-      "severity": "minor",
-      "source_quote": "cleaning out our broiler houses in preparation for a new flock.",
-      "suggested_fix": "Use a more natural Italian rendering for poultry buildings and flock. Suggested fix preserving meaning: \"pulivo i nostri pollai in preparazione per un nuovo gruppo di polli\" or \"pulivo i nostri capannoni per pollame in vista di un nuovo gruppo di animali\".",
-      "translation_quote": "stavo pulendo le nostre stalle per i polli in preparazione per un nuovo gregge."
-    },
-    {
-      "location": "Paragraph 1 (source.html) — \"rioting\" translation nuance",
-      "severity": "minor",
-      "source_quote": "Will the losing party resort to protests and rioting?",
-      "suggested_fix": "Consider translating \"rioting\" with a word that better captures violent civil unrest in Italian, e.g. \"sommossa\" or \"disordini\" rather than \"saccheggi\", which specifically means looting. Example: \"Il partito sconfitto ricorrerà a proteste e disordini?\"",
-      "translation_quote": "Il partito sconfitto ricorrerà a proteste e saccheggi?"
+      "suggested_fix": "The current translation conveys the words but reads awkwardly in Italian. Provide a smoother, idiomatic rendering that preserves the poetic sense and lineation. Suggested replacement keeping line breaks and meaning: “Quando tutte le Tue misericordie, o mio Dio,\n    la mia anima che si desta contempla;\n    Trasportato da quel quadro, rimango perduto\n    in stupore, amore e lode.” Replace within the same <div class=\"poem\"> structure and preserve <em> and <br> tags.",
+      "translation_quote": "<em>Quando tutte le Tue misericordie, o mio Dio,<br>\n    la mia anima che sorge contempla,<br>\n    Trasportato da quella vista, rimango smarrito<br>\n    in stupore, amore e lode.</em>"
     }
   ],
+  "finished_at": "2026-10-02T13:03:21+00:00",
   "id": "8cfadda51df3a5fce0eb7a05c04d1ead",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ita",
@@ -175,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/16f80cc2fe1f48fad7c825ed0d1e3059568da0b548b0106a43da4f8b4d785466.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "7328fe7985535229790c376868603624111ed137e1665aff6a36b03d5b4d90fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

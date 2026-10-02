@@ -2,7 +2,6 @@
   "article_id": "d0395fde-712d-488d-a161-c26c87ed128b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,25 +61,45 @@
         },
         "total_tokens": 17446
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 912,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11034,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11946
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "title",
-      "severity": "major",
-      "source_quote": "Burnout",
-      "suggested_fix": "Translate the English title into Urdu. For example, set translation.title to \"برن آؤٹ\" (or another consistent Urdu rendering such as \"بَرن آؤٹ\" or \"فرسودگی\" if the publication prefers). Preserve any exact capitalization or styling rules the CMS requires, but do not leave the title in English.",
-      "translation_quote": "Burnout"
+      "location": "Paragraph: \"To take care of it, she would need IV fluids – once or twice a week...\" (translated paragraph beginning: \"اس کا علاج کرنے کے لیے، اسے وریدی مائعات (IV fluids) کی ضرورت ہوگی\")",
+      "severity": "minor",
+      "source_quote": "To take care of it, she would need IV fluids – once or twice a week – to keep up with the fluids she was losing.",
+      "suggested_fix": "Keep the clinical term fully localized or consistently present the Urdu with the English abbreviation in parentheses. For example: “اس کے علاج کے لیے اسے وریدی سیال (Intravenous fluids) یا مختصراً وریدی مائع (IV) ہفتے میں ایک یا دو بار درکار ہوں گے۔” This preserves the Urdu term first and keeps the abbreviation in parentheses.",
+      "translation_quote": "اس کا علاج کرنے کے لیے، اسے وریدی مائعات (IV fluids) کی ضرورت ہوگی — ہفتے میں ایک یا دو بار — تاکہ وہ گم ہونے والے سیالات کو پورا رکھ سکے۔"
     },
     {
-      "location": "section",
-      "severity": "major",
-      "source_quote": "A WORD FROM A DOCTOR",
-      "suggested_fix": "Translate the section/strapline into Urdu. For example, set translation.section to \"ایک ڈاکٹر کی طرف سے\" or \"ایک ڈاکٹر کا پیغام\" depending on house style. Do not leave the section label in English.",
-      "translation_quote": "A WORD FROM A DOCTOR"
+      "location": "Throughout (multiple occurrences of 'burnout' wording)",
+      "severity": "minor",
+      "source_quote": "burnout (multiple occurrences: “burnout leads…”, “What is Burnout?”, etc.)",
+      "suggested_fix": "Use a single consistent Urdu transliteration or translation for the English term 'burnout' throughout the article. For example, choose either 'برن آؤٹ' or 'بَرنا آؤٹ' or translate as 'جذباتی/نفسیاتی تھکن' and apply it consistently. Update the inconsistent instances to match the chosen form.",
+      "translation_quote": "Various forms appear such as \"بَرنا آؤٹ\" and \"برن آؤٹ\" and \"برن آؤٹ کی\" in different places."
     }
   ],
+  "finished_at": "2026-10-02T13:03:20+00:00",
   "id": "24de4d31186e509a3da04ebe5beddaf9",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "urd",
@@ -154,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/424016ec077ce60b7ce19dc1c1e702f6403927db5e19e2310bed3e34f10db986.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "28073e361d20840e4b86554b9fb0dc665e6272c0d3acf705cd41f2c5576aaa35",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

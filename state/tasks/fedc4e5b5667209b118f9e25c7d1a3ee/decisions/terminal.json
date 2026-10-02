@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<p>“Wakasema kwake, basi tufanye nini, ili tufanye kazi za Mungu?” Yesu akajibu akawaambia, “Hii ndiyo kazi ya Mungu, tumemwamini Yeye aliyemtuma” (Yohana 6:28-29).</p>",
+      "severity": "major",
+      "source_quote": "“Then they said unto him, what shall we do, that we might work the works of God?” Jesus answered and said unto them, “this is the work of God, that ye believe on him whom he hath sent” (John 6:28-29).",
+      "suggested_fix": "Replace the translated quoted verse with a faithful Kiswahili rendering that preserves the original meaning (present/imperative sense: 'that ye believe'). For example: “Wakasema kwake, basi tufanye nini, ili tufanye kazi za Mungu?” Yesu akajibu akawaambia, “Hii ndio kazi ya Mungu, kwamba mumuamini Yeye aliyemtuma” (Yohana 6:28-29). Do not change HTML structure or verse reference.",
+      "translation_quote": "“Wakasema kwake, basi tufanye nini, ili tufanye kazi za Mungu?” Yesu akajibu akawaambia, “Hii ndiyo kazi ya Mungu, tumemwamini Yeye aliyemtuma” (Yohana 6:28-29)."
+    },
+    {
+      "location": "<p>Nimeshaongea na watu ambao hawaambiwi kuwa wamezaliwa upya, lakini bado wana matumaini ya kwenda mbinguni. Watu hawa hawatamtoa matumaini yao. Tumaini lao linatokana na matumaini yao wenyewe! Lishe kwenye aina hiyo ya matumaini ni lishe nyembamba kabisa!</p>",
+      "severity": "minor",
+      "source_quote": "I have spoken to people who do not confess to be born again, but still hope to go to heaven. These people dare not leave off hoping. Their hope is based upon their own hope! A diet on that kind of hope is a slim diet for sure!",
+      "suggested_fix": "Edit the second sentence to reflect the original meaning 'dare not leave off hoping' (they are unwilling to stop hoping). Suggested wording: “Watu hawa hawawezi kuacha kuota matumaini.” Keep surrounding HTML unchanged.",
+      "translation_quote": "Nimeshaongea na watu ambao hawaambiwi kuwa wamezaliwa upya, lakini bado wana matumaini ya kwenda mbinguni. Watu hawa hawatamtoa matumaini yao. Tumaini lao linatokana na matumaini yao wenyewe! Lishe kwenye aina hiyo ya matumaini ni lishe nyembamba kabisa!"
+    },
+    {
+      "location": "metadata and internal Scripture references (in-text abbreviations)",
+      "severity": "minor",
+      "source_quote": "Ephesians 2:8; Ephesians 4:15",
+      "suggested_fix": "Consider using the conventional Kiswahili book name forms consistently (commonly 'Waefeso' for 'Ephesians') to match target-language Bible conventions. For example, replace 'Epeso 2:8' and 'Epeso 4:15' with 'Waefeso 2:8' and 'Waefeso 4:15' if that aligns with the publication's style. This is stylistic and optional; no HTML changes required.",
+      "translation_quote": "(Epeso 2:8) ... “. . . ndani yake katika mambo yote, ambaye ni kichwa, yaani Kristo” (Epeso 4:15)."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

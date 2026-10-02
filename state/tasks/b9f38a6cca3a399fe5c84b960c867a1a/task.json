@@ -2,7 +2,6 @@
   "article_id": "c22883c1-1d69-4c5e-aa81-d4015bf4e473",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,32 +61,38 @@
         },
         "total_tokens": 5834
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 672,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3223,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3895
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<p>… Looking back at God’s faithfulness to man over the centuries, we have no reason to doubt God will do the same for us in 2024.</p>",
-      "severity": "critical",
-      "source_quote": "Looking back at God’s faithfulness to man over the centuries, we have no reason to doubt God will do the same for us in 2024.",
-      "suggested_fix": "ترجمے کے اس جملے میں منفی (نہ) شامل کر دیا گیا ہے، جو اصل متن کے معنی کو الٹا کر دیتا ہے۔ اسے مصدقہ انگریزی مطلب کے مطابق درست کریں۔ مثال کے طور پر: \"صدیوں میں خدا کی انسان کے ساتھ وفاداری کو دیکھتے ہوئے ہمارے پاس یہ شک کرنے کی کوئی وجہ نہیں کہ وہ 2024 میں بھی ہمارے لیے ویسا ہی کرے گا۔\" (یعنی \"نہیں\" ہٹا دیں)۔ یاد رکھیں HTML پیراگراف، ٹیگ اور ترتیب تبدیل نہ کریں۔",
-      "translation_quote": "صدیوں سے خدا کی انسان کے ساتھ وفاداری کو دیکھتے ہوئے ہمارے پاس یہ شک کرنے کی کوئی وجہ نہیں کہ وہ 2024 میں بھی ہمارے لئے ویسا ہی نہیں کرے گا۔"
-    },
-    {
-      "location": "<p>… Last week I was cleaning out our broiler houses in preparation for a new flock. I leaned across the tractor fender to push a partly opened door out of the way. …</p>",
-      "severity": "minor",
-      "source_quote": "Last week I was cleaning out our broiler houses in preparation for a new flock. I leaned across the tractor fender to push a partly opened door out of the way.",
-      "suggested_fix": "ترجمے میں فاعل-فعل کی مطابقت میں غلطی ہے اور لفظی بناوٹ غیر فصیح ہے۔ تجویز: \"پچھلے ہفتے میں نئے ریوڑ کی تیاری میں اپنے برائلر ہاؤسز صاف کر رہا تھا۔ میں ٹریکٹر کے فینڈر کے پار جھک کر جزوی طور پر کھلے دروازے کو ہٹانے کی کوشش کر رہا تھا۔\" اس طرح جملے کا معنوی فلو بہتر ہوگا اور واحد/جمع شکل درست رہے گی۔ HTML ٹیگز برقرار رہیں۔",
-      "translation_quote": "پچھلے ہفتے میں نے نئے ریوڑ کی تیاری میں اپنے برائلر گھر صاف کر رہے تھے۔ میں ٹریکٹر کے فینڈر کے پار جھک کر جزوی طور پر کھلے دروازے کو ہٹانے کی کوشش کر رہا تھا۔"
-    },
-    {
-      "location": "<p>… “For the LORD shall be thy confidence, and shall keep thy foot from being taken” (Proverbs 3:26).</p>",
+      "location": "<p>... (paragraph containing Proverbs 3:26)</p>",
       "severity": "minor",
       "source_quote": "“For the LORD shall be thy confidence, and shall keep thy foot from being taken” (Proverbs 3:26).",
-      "suggested_fix": "آیاتِ کتابِ حکمت سے اقتباس کا مقصدی ترجمہ برقرار رکھیں لیکن حاضر اردو پڑھنے والوں کے لئے معمولی اسلوبی بہتری کی تجویز: موجودہ ترجمہ \"کیونکہ خداوند تمہاری امید ہوگا، اور تمہارے قدم کو پھنسنے سے بچائے گا\" سے بہتر، زیادہ بلیغ متبادل ہو سکتا ہے: \"خداوند تمہاری پناہ ہوگی، اور وہ تمہارے قدم کو پھنسنے سے بچائے گا۔\" اگر مترجم چاہیں تو حوالہ بندی (امثال 3:26) اسی طرح برقرار رکھیں۔ HTML ساخت تبدیل نہ کریں۔",
-      "translation_quote": "میں سلیمان کے ساتھ مکمل اتفاق کرتا ہوں، \"کیونکہ خداوند تمہاری امید ہوگا، اور تمہارے قدم کو پھنسنے سے بچائے گا\" (امثال 3:26)。"
+      "suggested_fix": "تجویز: کسی قاری کے لیے انگریزی کے اصل مفہوم کے مزید واضح عکاسی کے لیے آیت کا متبادل اردو ترجمہ پیش کریں، مثلاً: “کیونکہ خداوند تمہاری پناہ ہوگا، اور وہ تمہارے قدم کو پھنسنے سے بچائے گا۔” اس اصلاح کے ضمن میں HTML ٹیگ تبدیل نہ کریں؛ موجودہ پیراگراف کے اندر آیت کو متبادل اردو الفاظ سے بدل دیا جائے۔",
+      "translation_quote": "“کیونکہ خداوند تمہاری امید ہوگا، اور تمہارے قدم کو پھنسنے سے بچائے گا” (امثال 3:26)۔"
     }
   ],
+  "finished_at": "2026-10-02T13:03:21+00:00",
   "id": "b9f38a6cca3a399fe5c84b960c867a1a",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "urd",
@@ -161,13 +166,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/16f80cc2fe1f48fad7c825ed0d1e3059568da0b548b0106a43da4f8b4d785466.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "7328fe7985535229790c376868603624111ed137e1665aff6a36b03d5b4d90fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "21853000-58b7-413f-b119-c9b1a6012369",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,25 +61,52 @@
         },
         "total_tokens": 10875
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1143,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6695,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7838
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<p>...Eve, although deceived by Satan in the form of the serpent, believed the lie and chose to disobey God...</p>",
-      "severity": "critical",
-      "source_quote": "Eve, although deceived by Satan in the form of the serpent, believed the lie and chose to disobey God, doing the only thing that God had lovingly asked her not to do.",
-      "suggested_fix": "Replace the mistranslation that reverses the verb meaning. Keep HTML structure and tags exactly as in the translation. For example: \"حواء، رغم أن الشيطان خدعها في صورة الأفعى، صدَّقت الكذبة واخترت عصيان الله، ففعلت الشيء الوحيد الذي طلبته منها محبةً ألا تفعله.\"",
-      "translation_quote": "حواء، رغم أن الشيطان خدعها في صورة الأفعى، صدَّت الكذبة واخترت عصيان الله، ففعلت الشيء الوحيد الذي طلبته منها محبةً ألا تفعله."
+      "location": "Paragraph mentioning digestive bitters (under 'Dominance of Thorns and Thistles')",
+      "severity": "minor",
+      "source_quote": "We grow the artichoke for its bitter leaves, which are used to make digestive bitters.",
+      "suggested_fix": "Translate 'digestive bitters' accurately into Arabic (e.g., «مرّات هضمية» or «مستحضرات مُرَّة للهضم»). Also change 'مراهم هضمية' (which means 'digestive ointments') to one of those correct renderings so the meaning of ingestion/taste-based bitters is preserved.",
+      "translation_quote": "نزرع الخرشوف من أجل أوراقه المرّة التي تُستخدم لصنع مراهم هضمية مرّة."
     },
     {
-      "location": "<p>It was the proverbial “perfect world” that Adam and Eve enjoyed daily with their Creator...</p>",
-      "severity": "critical",
-      "source_quote": "It was the proverbial “perfect world” that Adam and Eve enjoyed daily with their Creator.",
-      "suggested_fix": "Correct the mistranslation of \"proverbial\" which in Arabic must not become a false lexical item. Preserve tags. For example: \"لقد كان ذلك هو \"العالم المثالي\" المأثور الذي كان آدم وحواء يستمتعان به يوميًا مع خالقهما.\" (or: \"لقد كان ذلك هو 'العالم المثالي' المأثور...\" ). Replace the current phrase \"المثلَّية\" which in Arabic carries an unrelated meaning.",
-      "translation_quote": "لقد كانت تلك هي «العالم المثالي» المثلَّية الذي كان آدم وحواء يستمتعان به يوميًا مع خالقهما."
+      "location": "Same paragraph listing related plants (under 'Dominance of Thorns and Thistles')",
+      "severity": "minor",
+      "source_quote": "Blessed Thistle, Milk Thistle, Teasel, Raspberry Leaf, and Blackberry roots",
+      "suggested_fix": "Render plant names in conventional Modern Standard Arabic where appropriate or provide an acceptable Arabic transliteration without implying an incorrect meaning. For example: «الشوك المبارك (Blessed Thistle)»، «شوك الحليب (Milk Thistle)»، «نبات التيزل (Teasel)» or «التيزل»، «أوراق توت العليق (Raspberry leaf)»، «جذور التوت الأسود (Blackberry roots)». Avoid literal renderings that convey the wrong common noun (e.g., 'نبات الديزل').",
+      "translation_quote": "فكّر في هذا: الشوك المبارك، شوك الحليب، نبات الديزل (Teasel)، أوراق توت العليق، وجذور التوت الأسود كلها أمثلة قليلة على أفراد هذه «الأعشاب الشوكية» المستخدمة لفوائد طبية وغذائية أخرى."
+    },
+    {
+      "location": "Title of section metadata (source.section -> translation.section)",
+      "severity": "minor",
+      "source_quote": "ATTRIBUTES OF GOD",
+      "suggested_fix": "'ATTRIBUTES OF GOD' is translated as «مَلامِحُ الله». This is understandable, but consider using the more standard theological phrase «صفات الله» unless the publisher prefers the current wording. No doctrinal change—stylistic suggestion only.",
+      "translation_quote": "مَلامِحُ الله"
     }
   ],
+  "finished_at": "2026-10-02T13:03:21+00:00",
   "id": "977e662019e5304327684c65c696bd7a",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ara",
@@ -154,13 +180,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/35b2c7029cc42ee53f5ba53e917d6f4f13fd2ec89b436bb9b340de5e3d8adc44.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "3526d7232367f018301aa220868e7605f6dcc0608e6b2e5d5a6771923f6938fe",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

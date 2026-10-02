@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "cb7c0bd3-6c69-4c4a-84cc-8b5b4b232449",
+    "response_id": "chatcmpl-EUXArYtKFmqcrBKJDff8FwvtfYNfG",
+    "usage": {
+      "completion_tokens": 873,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6741,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7614
+    }
+  },
+  "received_at": "2026-10-02T13:03:21+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning \"Friends, family, and acquaintances all joined us in prayer.\"",
+        "severity": "major",
+        "source_quote": "Friends, family, and acquaintances all joined us in prayer.",
+        "suggested_fix": "Replace the mistranslation 'wajane' with an appropriate Kiswahili word or phrase for 'acquaintances', for example: \"Marafiki, familia, na watu tuliowajua wote walitushirikisha kwa sala.\" Preserve the sentence structure and surrounding HTML tags.",
+        "translation_quote": "Marafiki, familia, na wajane wote walitushirikisha kwa sala."
+      },
+      {
+        "location": "Paragraph beginning \"Since Ivan was a firefighter, we had an emergency scanner in the house.\"",
+        "severity": "minor",
+        "source_quote": "Since Ivan was a firefighter, we had an emergency scanner in the house.",
+        "suggested_fix": "Use a more natural Kiswahili term for 'firefighter' such as 'mzimaji moto' or 'mfukuaji moto' to avoid the literal-sounding 'mwanajeshi wa zima moto'. Example fix: \"Kwa kuwa Ivan alikuwa mzima moto, tulikuwa na redio ya dharura nyumbani.\" Preserve HTML structure.",
+        "translation_quote": "Kwa kuwa Ivan alikuwa mwanajeshi wa zima moto, tulikuwa na redio ya dharura nyumbani."
+      }
+    ],
+    "passed": false,
+    "score": 87
+  }
+}

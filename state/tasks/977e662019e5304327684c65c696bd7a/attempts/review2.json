@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:21+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph mentioning digestive bitters (under 'Dominance of Thorns and Thistles')\",\"severity\":\"minor\",\"source_quote\":\"We grow the artichoke for its bitter leaves, which are used to make digestive bitters.\",\"suggested_fix\":\"Translate 'digestive bitters' accurately into Arabic (e.g., «مرّات هضمية» or «مستحضرات مُرَّة للهضم»). Also change 'مراهم هضمية' (which means 'digestive ointments') to one of those correct renderings so the meaning of ingestion/taste-based bitters is preserved.\",\"translation_quote\":\"نزرع الخرشوف من أجل أوراقه المرّة التي تُستخدم لصنع مراهم هضمية مرّة.\"},{\"location\":\"Same paragraph listing related plants (under 'Dominance of Thorns and Thistles')\",\"severity\":\"minor\",\"source_quote\":\"Blessed Thistle, Milk Thistle, Teasel, Raspberry Leaf, and Blackberry roots\",\"suggested_fix\":\"Render plant names in conventional Modern Standard Arabic where appropriate or provide an acceptable Arabic transliteration without implying an incorrect meaning. For example: «الشوك المبارك (Blessed Thistle)»، «شوك الحليب (Milk Thistle)»، «نبات التيزل (Teasel)» or «التيزل»، «أوراق توت العليق (Raspberry leaf)»، «جذور التوت الأسود (Blackberry roots)». Avoid literal renderings that convey the wrong common noun (e.g., 'نبات الديزل').\",\"translation_quote\":\"فكّر في هذا: الشوك المبارك، شوك الحليب، نبات الديزل (Teasel)، أوراق توت العليق، وجذور التوت الأسود كلها أمثلة قليلة على أفراد هذه «الأعشاب الشوكية» المستخدمة لفوائد طبية وغذائية أخرى.\"},{\"location\":\"Title of section metadata (source.section -> translation.section)\",\"severity\":\"minor\",\"source_quote\":\"ATTRIBUTES OF GOD\",\"suggested_fix\":\"'ATTRIBUTES OF GOD' is translated as «مَلامِحُ الله». This is understandable, but consider using the more standard theological phrase «صفات الله» unless the publisher prefers the current wording. No doctrinal change—stylistic suggestion only.\",\"translation_quote\":\"مَلامِحُ الله\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 2305,
+    "content_evidence_truncated": false,
+    "content_sha256": "3021dc77e24df416904e4e2356162148ff0f1d9bc763002ffabd24d1435a04d1",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1143,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6695,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7838
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

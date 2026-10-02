@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "164f98e8-3204-4b8c-a08e-cd026700d0d4",
+    "response_id": "chatcmpl-EUXB4b0Vj15cQ0L5q4JmMO6pwg7Ti",
+    "usage": {
+      "completion_tokens": 986,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6425,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7411
+    }
+  },
+  "received_at": "2026-10-02T13:03:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: “That summer, we weaned her off her seizure medications...” (occurrence in source.html and translation.html)",
+        "severity": "minor",
+        "source_quote": "That summer, we weaned her off her seizure medications, and she appeared to be healthy.",
+        "suggested_fix": "Use past tense to match the narrative tense in the English source. Replace the current Norwegian sentence while preserving tags and surrounding structure. For example: \"Den sommeren trappet vi henne av anfallsmedisinene, og hun virket frisk.\"",
+        "translation_quote": "Den sommeren trapper vi henne av anfallsmedisinene, og hun virket frisk."
+      },
+      {
+        "location": "Paragraph: “One morning when Judy was about 18 months old...” — rendering of onomatopoeic sound",
+        "severity": "minor",
+        "source_quote": "we heard an odd noise—a rhythmical scratch-thunk.",
+        "suggested_fix": "The onomatopoeic phrase should be rendered in idiomatic Norwegian. Replace the fragment with a clearer, idiomatic rendering while keeping tags intact. For example: \"vi hørte en merkelig lyd — en rytmisk skrap-dunk.\"",
+        "translation_quote": "vi hørte en merkelig lyd—en rytmisk klore-thump."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

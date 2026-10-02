@@ -2,7 +2,6 @@
   "article_id": "20914547-a133-4159-bd5b-dff81f36453b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,25 +61,39 @@
         },
         "total_tokens": 14799
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Throughout article and metadata (scripture citations and section)",
-      "severity": "major",
-      "source_quote": "(Psalms 16:11), (Psalms 1:3), (John 4:14), (Romans 10:6-10), (1 John 1:9), (Romans 8:1), (Romans 15:9), (Hebrews 13:5), (Acts 2:41), (Philippians 2:4), (Hebrews 12:1-3), (Hebrews 12:12-15), (Hebrews 12;28) and source.section: INSPIRATIONS FOR YOUTH",
-      "suggested_fix": "Translate the English Bible book names and the section heading into standard Bahasa Indonesia book names and Indonesian for the section. Replace each parenthetical reference with the conventional Indonesian book name while keeping chapter and verse numbers unchanged (do not alter verse numbers, ranges, or ordering). Examples: Psalms -> Mazmur; John -> Yohanes; Romans -> Roma; 1 John -> 1 Yohanes; Hebrews -> Ibrani; Acts -> Kisah Para Rasul; Philippians -> Filipi. Also translate the section value 'INSPIRATIONS FOR YOUTH' into Indonesian (for example, 'INSPIRASI UNTUK KAUM MUDA' or site-preferred equivalent). Apply these replacements everywhere they occur (both inside verse-parentheses and in standalone parenthetical citations).",
-      "translation_quote": "(Psalms 16:11), (Psalms 1:3), (John 4:14), (Romans 10:6-10), (1 John 1:9), (Romans 8:1), (Romans 15:9), (Hebrews 13:5), (Acts 2:41), (Philippians 2:4), (Hebrews 12:1-3), (Hebrews 12:12-15), (Hebrews 12;28) and section: INSPIRATIONS FOR YOUTH"
     },
     {
-      "location": "Paragraph beginning with the Philippians quotation near 'Philippians 2:4' and immediately following parenthesis",
-      "severity": "minor",
-      "source_quote": "“Look not every man on his own things, but every man also on the things of others. 5 Let this mind be in you, which was also in Christ Jesus: 6 Who, being in the form of God, thought it not robbery to be equal with God: 7 But made himself of no reputation, and took upon him the form of a servant, and was made in the likeness of men:” (Philippians 2:4)My wife and I recently celebrated our third anniversary.",
-      "suggested_fix": "Insert a space or paragraph break after the closing parenthesis and before 'My' so the sentence reads '...(Filipi 2:4) Istri saya...' preserving HTML structure. Ensure the Bible-book name is translated as noted above (Philippians -> Filipi).",
-      "translation_quote": "“... sama dengan manusia:” (Philippians 2:4) Istri saya dan saya baru-baru ini merayakan ulang tahun pernikahan kami yang ketiga."
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1154,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8861,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10015
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Paragraph quoting Romans 15:9 (near \"Sing praises to God!\")",
+      "severity": "major",
+      "source_quote": "“And that the Gentiles might glorify God for his mercy; as it is written, For this cause I will confess to thee among the Gentiles, and sing unto thy name. 10 And again he saith, Rejoice, ye Gentiles, with his people. 11 And again, Praise the Lord, all ye Gentiles; and laud him, all ye people” (Romans 15:9).",
+      "suggested_fix": "Translate the verse to convey the original affirmative purpose clause. Replace the current rendering with a faithful Indonesian equivalent such as: “Dan supaya bangsa-bangsa memuliakan Allah karena kemurahan-Nya; seperti ada tertulis: Oleh sebab itu Aku akan menyanyi bagi Engkau di antara bangsa-bangsa, dan menyanyikan nama-Mu. 10 Dan lagi Ia berkata: Bersukacitalah, hai bangsa-bangsa, bersama umat-Nya. 11 Dan lagi: Pujilah Tuhan, hai segala bangsa; pujilah Dia, hai sekalian bangsa” (Roma 15:9). Preserve verse numbering and punctuation as in source.",
+      "translation_quote": "“Dan supaya bangsa-bangsa bukanlah tidak memuliakan Allah karena kemurahan-Nya; seperti ada tertulis: Oleh sebab itu Aku akan menyanyi bagi Engkau di antara bangsa-bangsa, dan menyanyikan nama-Mu. 10 Dan lagi Ia berkata: Bersukacitalah, hai bangsa-bangsa, bersama umat-Nya. 11 Dan lagi: Pujilah Tuhan, hai segala bangsa; pujilah Dia, hai sekalian bangsa” (Roma 15:9)."
+    }
+  ],
+  "finished_at": "2026-10-02T13:03:20+00:00",
   "id": "32e80e17a1172cec8588f42d90e474d2",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ind",
@@ -154,13 +167,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 85,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a5fa4336ac24fe4ded7bc5c6695694845b2e95ac589cd5689bedc4b3e79ef2b1.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "2780d41d80f578475e27d5e54969bef54c79aef92fae3008a281d5b3d0e475c3",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

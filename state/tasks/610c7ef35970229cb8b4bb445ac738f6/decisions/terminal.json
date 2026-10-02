@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>... \"A Word From the Doctor\" ...</p>",
+      "severity": "major",
+      "source_quote": "In this issue, “A Word From the Doctor” guides us as we face the maze of life, giving us practical and Biblical solutions to avoid or recover from burnout.",
+      "suggested_fix": "Translate the quoted section title into Hindi, preserving the surrounding HTML and punctuation. For example: In this paragraph replace “A Word From the Doctor” with its Hindi equivalent (inside the same quotation marks) such as “\"डॉक्टर की एक बात\"” or another agreed Hindi rendering. Keep the rest of the sentence unchanged and retain the quotation marks and HTML tags exactly as in the translation.",
+      "translation_quote": "इस अंक में, \"A Word From the Doctor\" हमें जीवन के भूलभुलैया का सामना करते हुए मार्गदर्शन देता है, बर्नआउट से बचने या उससे उबरने के व्यावहारिक और बाइबिलिक समाधान देता है। वह लिखते हैं, \"यीशु हमारी सीमाओं को जानता है।\""
+    },
+    {
+      "location": "<p>... \"प्रवीन्स/प्रोविडेंस\" ...</p>",
+      "severity": "minor",
+      "source_quote": "It was nothing other than the providence of God that prevented a freak incident from becoming a bad accident.",
+      "suggested_fix": "Use a more natural, commonly used Hindi rendering for 'providence of God'. Replace the phrase \"परमेश्वर की आयोजनशीलता\" with a more idiomatic expression such as \"परमेश्वर की व्यवस्था\" or \"परमेश्वर की परवाह/प्रोविडेंस\" so the meaning is clear to Hindi readers. Preserve the rest of the sentence and the surrounding HTML.",
+      "translation_quote": "यह कोई और नहीं बल्कि परमेश्वर की आयोजनशीलता थी जिसने एक अजीब घटना को बुरे हादसे होने से रोका।"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

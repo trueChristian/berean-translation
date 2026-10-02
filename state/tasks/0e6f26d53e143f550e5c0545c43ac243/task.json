@@ -2,7 +2,6 @@
   "article_id": "21853000-58b7-413f-b119-c9b1a6012369",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:56+00:00",
   "events": [
@@ -62,32 +61,52 @@
         },
         "total_tokens": 12572
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1766,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1024,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7584,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9350
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "First paragraph (first <p>)",
-      "severity": "major",
-      "source_quote": "God was not surprised but, nevertheless, was very disappointed.",
-      "suggested_fix": "Translate the meaning correctly without introducing a negation. For example: \"ঈশ্বর অবাক হননি; তবু তিনি অত্যন্ত হতাশ হলেন।\" Preserve existing HTML tags and punctuation.",
-      "translation_quote": "ঈশ্বর দুঃখিত হননি না, তবু অত্যন্ত হতাশ হলেন।"
-    },
-    {
-      "location": "Ordered list item 6 (the <ol> list)",
-      "severity": "major",
-      "source_quote": "Decomposition and Decay",
-      "suggested_fix": "Translate both terms accurately into Bengali. For example: \"পচন এবং ক্ষয়\" or \"অবক্ষয় ও পচন\" (keep word order consistent with source). Do not use words that mean 'remorse'.",
-      "translation_quote": "পচন ও ব্যাকশোচ"
-    },
-    {
-      "location": "Paragraph in 'Death' section (one sentence)",
+      "location": "Paragraph under 'Dominance of Thorns and Thistles' (translation HTML near phrase 'medicinal')",
       "severity": "minor",
-      "source_quote": "ashes to ashes and dust to dust",
-      "suggested_fix": "Remove the stray English token and provide a proper Bengali rendering of the phrase. For example: \"রাখ থেকে রেখে ও ধুলা থেকে ধুলা\" is awkward; better: \"চুল্লি থেকে চুল্লি এবং ধুলো থেকে ধুলো\" is still awkward—recommended: \"রাখ থেকে রাখি এবং ধুলে ধুলে\" is not idiomatic. Preferred translation: \"রাখ থেকে রাখি ও ধূলি থেকে ধূলি\" — or more idiomatically: \"রাখ থেকে রাখি, ধুলা থেকে ধুলা\". Replace the existing fragment while preserving surrounding HTML.",
-      "translation_quote": "চারের থেকে চার—and ধূলিতে ধূলি, awaiting the final resurrection."
+      "source_quote": "Think about it: Blessed Thistle, Milk Thistle, Teasel, Raspberry Leaf, and Blackberry roots are only a few examples of members of these “thorny weeds” used for medicinal and other food benefits.",
+      "suggested_fix": "Translate the English word 'medicinal' into standard Bengali to avoid leaving substantive English in the translation. For example, replace “medicinal” with “ঔষধীয়” so the sentence reads (preserving surrounding HTML):\n\n... “ব্লেসড থিস্টল, মিল্ক থিস্টল, টীসল, রাস্পবেরি পাতা এবং ব্ল্যাকবেরি শিকড়—এইগুলো কী ঔষধীয় এবং অন্যান্য খাদ্যগত সুবিধার জন্য ব্যবহৃত ‘কাঁটা ঝোপ’ সদস্যদের কয়েকটি উদাহরণ মাত্র।”",
+      "translation_quote": "ভাবুন তো: ব্লেসড থিস্টল, মিল্ক থিস্টল, টীসল, রাস্পবেরি পাতা এবং ব্ল্যাকবেরি শিকড়—এইগুলো কী medicinal এবং অন্যান্য খাদ্যগত সুবিধার জন্য ব্যবহৃত “কাঁটা ঝোপ” সদস্যদের কয়েকটি উদাহরণ মাত্র।"
+    },
+    {
+      "location": "Multiple occurrences: word for 'artichoke' (translation HTML: figcaption and earlier paragraph)",
+      "severity": "minor",
+      "source_quote": "This is an artichoke plant, a member of the thistle family. Many people use this “thistle,” along with its cousin, the Cardoon, for food.\n\nWe grow the artichoke for its bitter leaves, which are used to make digestive bitters.",
+      "suggested_fix": "Correct minor typographical inconsistencies in the Bengali rendering of 'artichoke' for consistency and idiomatic usage. Use a single standard form such as “আর্টিশক” (or Bengali common form “আর্টিচক”) throughout. Example fixes (preserve HTML):\n\n- In the figcaption: replace “এটি একটি আর্টিশকক উদ্ভিদ” with “এটি একটি আর্টিশক উদ্ভিদ”\n- In the paragraph: replace “আমরা আর্টিশকক এর তিক্ত পাতা উৎপন্ন করি” with “আমরা আর্টিশকের তিক্ত পাতা উৎপন্ন করি”",
+      "translation_quote": "... আর্টিশকক উদ্ভিদ ...\n\nআমরা আর্টিশকক এর তিক্ত পাতা উৎপন্ন করি, যা হজমশক্তির ব্যাটার্স তৈরিতে ব্যবহৃত হয়।"
+    },
+    {
+      "location": "Paragraph mentioning Noah’s flood (translation HTML: 'নোহর মহাপ্রলয়')",
+      "severity": "minor",
+      "source_quote": "Have you ever considered the great flood of Noah?",
+      "suggested_fix": "Adjust the Bengali form of 'Noah' to the more common or Biblical Bengali form to match target-language idiom and standard scripture naming (preserve HTML). For example, replace “নোহর মহাপ্রলয়” with “নোয়াহের মহাপ্রলয়” or the customary Bengali Bible name “নূহের মহাপ্রলয়” depending on the site's usual Bible name convention. Ensure consistency with other Biblical names used on the site.",
+      "translation_quote": "আপনি কি কখনো নোহর মহাপ্রলয় নিয়ে ভেবেছেন?"
     }
   ],
+  "finished_at": "2026-10-02T13:03:20+00:00",
   "id": "0e6f26d53e143f550e5c0545c43ac243",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ben",
@@ -161,13 +180,13 @@
     }
   },
   "protected": false,
-  "quality_score": 62,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/35b2c7029cc42ee53f5ba53e917d6f4f13fd2ec89b436bb9b340de5e3d8adc44.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "3526d7232367f018301aa220868e7605f6dcc0608e6b2e5d5a6771923f6938fe",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html — paragraph mentioning The Martyr’s Mirror",
+      "severity": "minor",
+      "source_quote": "I ordered a copy of <em>The Martyr’s Mirror</em> and was astounded when I read about these people who lived like the disciples.",
+      "suggested_fix": "Either (a) translate the book title into French (La Glace des Martyrs or the established French title if one exists) while keeping the original in italics, or (b) mark it clearly as a foreign-title proper name by keeping it in italics but optionally adding a brief French explanatory phrase. Example: « J'ai commandé un exemplaire de <em>The Martyr’s Mirror</em> (Le Miroir des martyrs) » — preserve the HTML tags exactly as in the translation.",
+      "translation_quote": "J'ai commandé un exemplaire de <em>The Martyr’s Mirror</em> et j'ai été stupéfait quand j'ai lu ces personnes qui vivaient comme les disciples."
+    },
+    {
+      "location": "translation.html — paragraph “We live in the free land of America where money seems easy to obtain.”",
+      "severity": "minor",
+      "source_quote": "We live in the free land of America where money seems easy to obtain.",
+      "suggested_fix": "Smooth the French idiom to improve clarity while preserving the meaning and theological tone. Suggested minimal change in-place: replace « Nous vivons dans le pays libre d'Amérique où l'argent semble facile à obtenir. » with « Nous vivons dans le pays libre d'Amérique, où l'argent semble facile à obtenir. » or more natural: « Nous vivons dans ce pays libre qu'est l'Amérique, où l'argent semble facile à obtenir. » — keep tags/structure unchanged.",
+      "translation_quote": "Nous vivons dans le pays libre d'Amérique où l'argent semble facile à obtenir."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

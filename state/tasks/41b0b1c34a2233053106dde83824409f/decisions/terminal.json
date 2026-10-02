@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html — paragraph starting \"As we take a look at the history behind this hymn...\"",
+      "severity": "major",
+      "source_quote": "The hymn, \"When All Thy Mercies O My God,\" written in 1712, has been published in 994 hymnals and is to this day in the list of the best 100 hymns ever written.",
+      "suggested_fix": "Replace the English hymn title inside the Greek paragraph with the translated title already used for the article. For example: «Ο ύμνος «Όταν όλα τα ελέη Σου, ω Θεέ μου», γραμμένος το 1712, έχει δημοσιευτεί σε 994 υμνολόγια…». Preserve surrounding punctuation and HTML.",
+      "translation_quote": "Ο ύμνος «When All Thy Mercies O My God», γραμμένος το 1712, έχει δημοσιευτεί σε 994 υμνολόγια και μέχρι σήμερα περιλαμβάνεται στη λίστα με τους 100 καλύτερους ύμνους που γράφτηκαν ποτέ."
+    },
+    {
+      "location": "source.html — final paragraph listing other hymns by Joseph Addison",
+      "severity": "major",
+      "source_quote": "Other hymns by Joseph Addison include \"The Lord my Pasture Shall Prepare\" and \"The Spacious Firmament.\"",
+      "suggested_fix": "Translate the quoted hymn titles into Greek (they are quoted substantive prose and must be translated). Suggested Greek renderings (literal and conservative) you can use: «Ο Κύριος θα ετοιμάσει τον βοσκήνα μου» for \"The Lord my Pasture Shall Prepare\" and «Το απέραντο στερέωμα» for \"The Spacious Firmament.\" Insert them in place of the English titles and keep surrounding punctuation/HTML. If there is a conventional Greek hymn title used by the target readership, prefer that conventional title instead of the suggestions above.",
+      "translation_quote": "Άλλοι ύμνοι του Joseph Addison περιλαμβάνουν το «The Lord my Pasture Shall Prepare» και το «The Spacious Firmament.»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

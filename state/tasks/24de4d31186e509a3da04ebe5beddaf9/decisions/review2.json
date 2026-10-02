@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph: \"To take care of it, she would need IV fluids – once or twice a week...\" (translated paragraph beginning: \"اس کا علاج کرنے کے لیے، اسے وریدی مائعات (IV fluids) کی ضرورت ہوگی\")",
+      "severity": "minor",
+      "source_quote": "To take care of it, she would need IV fluids – once or twice a week – to keep up with the fluids she was losing.",
+      "suggested_fix": "Keep the clinical term fully localized or consistently present the Urdu with the English abbreviation in parentheses. For example: “اس کے علاج کے لیے اسے وریدی سیال (Intravenous fluids) یا مختصراً وریدی مائع (IV) ہفتے میں ایک یا دو بار درکار ہوں گے۔” This preserves the Urdu term first and keeps the abbreviation in parentheses.",
+      "translation_quote": "اس کا علاج کرنے کے لیے، اسے وریدی مائعات (IV fluids) کی ضرورت ہوگی — ہفتے میں ایک یا دو بار — تاکہ وہ گم ہونے والے سیالات کو پورا رکھ سکے۔"
+    },
+    {
+      "location": "Throughout (multiple occurrences of 'burnout' wording)",
+      "severity": "minor",
+      "source_quote": "burnout (multiple occurrences: “burnout leads…”, “What is Burnout?”, etc.)",
+      "suggested_fix": "Use a single consistent Urdu transliteration or translation for the English term 'burnout' throughout the article. For example, choose either 'برن آؤٹ' or 'بَرنا آؤٹ' or translate as 'جذباتی/نفسیاتی تھکن' and apply it consistently. Update the inconsistent instances to match the chosen form.",
+      "translation_quote": "Various forms appear such as \"بَرنا آؤٹ\" and \"برن آؤٹ\" and \"برن آؤٹ کی\" in different places."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

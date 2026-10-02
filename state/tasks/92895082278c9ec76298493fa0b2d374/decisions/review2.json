@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html → list of six D’s / translation.html → ordered list",
+      "severity": "minor",
+      "source_quote": "Decomposition and Decay",
+      "suggested_fix": "Use a more standard, widely understood Urdu term for 'Decomposition' such as 'پتھّرنا/تجزیہ' or combine for clarity: 'گلن اور تحلیل (Decomposition and Decay)' — preserve surrounding HTML exactly.",
+      "translation_quote": "اپخوری اور بوسیدگی"
+    },
+    {
+      "location": "source.html → paragraph about artichoke and thistles / translation.html → corresponding paragraph",
+      "severity": "minor",
+      "source_quote": "Cardoon",
+      "suggested_fix": "'Cardoon' is a translatable/common plant name; prefer a conventional Urdu transliteration or parenthetical English as needed. Suggested fix: replace 'کارڈون' with 'کارڈون (Cardoon)' or a more common local name if available — preserve HTML.",
+      "translation_quote": "کارڈون"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

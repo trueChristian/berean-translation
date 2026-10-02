@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>... \\\"A Word From the Doctor\\\" ...</p>\",\"severity\":\"major\",\"source_quote\":\"In this issue, “A Word From the Doctor” guides us as we face the maze of life, giving us practical and Biblical solutions to avoid or recover from burnout.\",\"suggested_fix\":\"Translate the quoted section title into Hindi, preserving the surrounding HTML and punctuation. For example: In this paragraph replace “A Word From the Doctor” with its Hindi equivalent (inside the same quotation marks) such as “\\\"डॉक्टर की एक बात\\\"” or another agreed Hindi rendering. Keep the rest of the sentence unchanged and retain the quotation marks and HTML tags exactly as in the translation.\",\"translation_quote\":\"इस अंक में, \\\"A Word From the Doctor\\\" हमें जीवन के भूलभुलैया का सामना करते हुए मार्गदर्शन देता है, बर्नआउट से बचने या उससे उबरने के व्यावहारिक और बाइबिलिक समाधान देता है। वह लिखते हैं, \\\"यीशु हमारी सीमाओं को जानता है।\\\"\"},{\"location\":\"<p>... \\\"प्रवीन्स/प्रोविडेंस\\\" ...</p>\",\"severity\":\"minor\",\"source_quote\":\"It was nothing other than the providence of God that prevented a freak incident from becoming a bad accident.\",\"suggested_fix\":\"Use a more natural, commonly used Hindi rendering for 'providence of God'. Replace the phrase \\\"परमेश्वर की आयोजनशीलता\\\" with a more idiomatic expression such as \\\"परमेश्वर की व्यवस्था\\\" or \\\"परमेश्वर की परवाह/प्रोविडेंस\\\" so the meaning is clear to Hindi readers. Preserve the rest of the sentence and the surrounding HTML.\",\"translation_quote\":\"यह कोई और नहीं बल्कि परमेश्वर की आयोजनशीलता थी जिसने एक अजीब घटना को बुरे हादसे होने से रोका।\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 2263,
+    "content_evidence_truncated": false,
+    "content_sha256": "509c833c32811fad6c3172bef4f71795f225bf70d016e4bdbddef910bda55102",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1055,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3234,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4289
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

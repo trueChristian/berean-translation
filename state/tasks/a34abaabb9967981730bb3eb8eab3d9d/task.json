@@ -2,7 +2,6 @@
   "article_id": "c22883c1-1d69-4c5e-aa81-d4015bf4e473",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,18 +61,45 @@
         },
         "total_tokens": 5096
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1109,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3204,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4313
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<div class=\"poem\"> … </div> (poem block)",
-      "severity": "major",
-      "source_quote": "<p><em>When all Thy mercies, O my God,<br>\n    My rising soul surveys,<br>\n    Transported with the view, I’m lost<br>\n    In wonder, love and praise.</em></p>",
-      "suggested_fix": "Translate the quoted hymn stanza into Korean and preserve the existing HTML structure, tags, and line breaks. For example, replace the English lines inside the <div class=\"poem\"> with a faithful Korean rendering while keeping the <p>, <em>, and <br> tags unchanged:\n\n<p><em>주여 모든 자비를 내가 돌아볼 때에,<br>\n내 일어나는 영혼이 바라볼 때에,<br>\n그 광경에 사로잡혀 나는 잃어버리고<br>\n경이로움과 사랑과 찬양에 잠기네.</em></p>\n\n(You may use a different idiomatic Korean translation that faithfully conveys the original stanza’s meaning; do not leave the quoted substantive prose in English.)",
-      "translation_quote": "<p><em>When all Thy mercies, O my God,<br>\n    My rising soul surveys,<br>\n    Transported with the view, I’m lost<br>\n    In wonder, love and praise.</em></p>"
+      "location": "<p>...“Jesus knows our limitations. He wants us to have balance, living in such a way that we not only have strength for today but also for tomorrow, next week, and next year – till He comes again.”</p>",
+      "severity": "minor",
+      "source_quote": "“Jesus knows our limitations. He wants us to have balance, living in such a way that we not only have strength for today but also for tomorrow, next week, and next year – till He comes again.”",
+      "suggested_fix": "의미는 그대로인데 한국어 표현을 더 자연스럽게 다듬으십시오. 예: “예수님은 우리의 한계를 아십니다. 그분은 오늘뿐 아니라 내일과 다음 주, 그리고 내년까지 — 곧 다시 오실 때까지 — 견딜 수 있는 힘을 얻도록 균형 있게 살기를 바라십니다.” (원문의 의미와 성경적·목회적 어조 보존).",
+      "translation_quote": "“예수님은 우리의 한계를 아십니다. 그분은 우리가 오늘뿐 아니라 내일, 다음 주, 내년까지 — 그분이 다시 오실 때까지 — 쓸 수 있는 힘을 갖고 균형 있게 살기를 바라십니다.”"
+    },
+    {
+      "location": "<div class=\"poem\">...hymn stanza</div>",
+      "severity": "minor",
+      "source_quote": "When all Thy mercies, O my God,\n    My rising soul surveys,\n    Transported with the view, I’m lost\n    In wonder, love and praise.",
+      "suggested_fix": "현재 번역은 시어체로 잘 옮겼으나 일부 어구가 다소 직역적이거나 어색합니다. 선택적 수정 예: “오 하나님, 주의 모든 자비를 내가 돌아볼 때에 / 내 일어나는 영혼이 그 광경을 바라보면 / 그 형상에 사로잡혀 나는 잃어버리고 / 경이와 사랑과 찬양에 잠깁니다.” (원시의 시적 리듬과 의미 보존).",
+      "translation_quote": "<em>주여 모든 자비를 내가 돌아볼 때에,\n    내 일어나는 영혼이 바라볼 때에,\n    그 광경에 사로잡혀 나는 잃어버리고\n    경이로움과 사랑과 찬양에 잠기네.</em>"
     }
   ],
+  "finished_at": "2026-10-02T13:03:21+00:00",
   "id": "a34abaabb9967981730bb3eb8eab3d9d",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "kor",
@@ -147,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/16f80cc2fe1f48fad7c825ed0d1e3059568da0b548b0106a43da4f8b4d785466.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "7328fe7985535229790c376868603624111ed137e1665aff6a36b03d5b4d90fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

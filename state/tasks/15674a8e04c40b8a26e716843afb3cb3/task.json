@@ -2,7 +2,6 @@
   "article_id": "97efa86c-46a8-499e-850a-d626dce2fd7c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:56+00:00",
   "events": [
@@ -62,46 +61,60 @@
         },
         "total_tokens": 9820
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1439,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5783,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7222
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "<section class=\"lyrics\"> — 4th stanza (original: \"To all my weak complaints and cries / Thy mercy lent an ear, / Ere yet my feeble thoughts had learned, / To form themselves in prayer.\")",
-      "severity": "minor",
-      "source_quote": "To all my weak complaints and cries\nThy mercy lent an ear,\nEre yet my feeble thoughts had learned,\nTo form themselves in prayer.",
-      "suggested_fix": "Keep the meaning but improve Norwegian idiom. Suggested translation: «Til alle mine svake klager og rop\ngav din miskunn øre,\nFør mine svake tanker ennå hadde lært\nå forme seg til bønn.»",
-      "translation_quote": "Til alle mine svake klager og rop\nDin miskunn gav sitt øre,\nFør mine svake tanker ennå lærte\nÅ forme seg i bønn der."
-    },
-    {
-      "location": "<section class=\"lyrics\"> — 5th stanza (original: \"Unnumbered comforts to my soul / Thy tender care bestowed, / Before my infant heart conceived / From Whom those comforts flowed.\")",
+      "location": "lyrics (verse 5)",
       "severity": "major",
-      "source_quote": "Unnumbered comforts to my soul\nThy tender care bestowed,\nBefore my infant heart conceived\nFrom Whom those comforts flowed.",
-      "suggested_fix": "Current translation contains a mistranslation and an inexplicable word \"nav.\" that distorts meaning. Replace with a faithful Norwegian rendering that preserves the original sense: «Utallige trøster gav din milde omsorg min sjel,\nFør mitt spedbarnshjerte forsto\nFra hvem disse trøster strømmet.»",
-      "translation_quote": "Telløse trøster for min sjel\nDin milde omsorg gav,\nFør mitt spedbarnshjerte forstod\nFra hvem de kom og nav."
+      "source_quote": "\"When in the slippery paths of youth\nWith heedless steps I ran,\nThine arm unseen conveyed me safe,\nAnd led me up to man.\"",
+      "suggested_fix": "Translate the final line to convey 'led me up to man' as 'førte meg fram til modenhet' or 'førte meg frem til voksenlivet'. Preserve the sense of being led to adulthood.",
+      "translation_quote": "\"Da jeg på ungdommens glatte sti\nMed tankeløse skritt fór fram,\nDin usette arm bar meg i sikkerhet,\nOg førte meg til mannens ham.\""
     },
     {
-      "location": "<p class=\"source-note\"> (end of article)",
+      "location": "lyrics (verse 7)",
       "severity": "major",
-      "source_quote": "*sourced from Wikipedia and hymnary.org",
-      "suggested_fix": "Translate the source note into Norwegian (article text and metadata must be translated). Suggested translation: \"*kilder: Wikipedia og hymnary.org\"",
-      "translation_quote": "*sourced from Wikipedia and hymnary.org"
+      "source_quote": "\"O how shall words with equal warmth\nThe gratitude declare,\nThat glows within my ravished heart?\nBut thou canst read it there.\"",
+      "suggested_fix": "The English 'ravished heart' means a heart enraptured or filled with delight. Replace the incorrect 'forrykte hjerte' (which means deranged/crazy) with a correct Norwegian rendering such as 'mit henrykte hjerte', 'mitt henrykte hjerte', or 'mitt oppglødde hjerte' to preserve the positive devotional sense.",
+      "translation_quote": "\"Å, hvordan skal ord med like varm glød\nUttrykke takknemligheten klar,\nSom brenner i mitt forrykte hjerte?\nMen du kan lese det der.\""
     },
     {
-      "location": "Paragraph that first names the hymn (second content paragraph): \"Salmen «When All Thy Mercies O My God», skrevet i 1712...\"",
-      "severity": "minor",
-      "source_quote": "The hymn, \"When All Thy Mercies O My God,\" written in 1712, has been published in 994 hymnals...",
-      "suggested_fix": "Either translate the hymn title in-line to Norwegian or present both English and Norwegian title. Suggested in-line form: «salmen «Når alle dine miskunner, min Gud» (originaltittel: \"When All Thy Mercies O My God\"), skrevet i 1712...\"",
-      "translation_quote": "Salmen «When All Thy Mercies O My God», skrevet i 1712, er blitt utgitt i 994 salmebøker..."
+      "location": "lyrics (verse 10)",
+      "severity": "major",
+      "source_quote": "\"When worn with sickness, oft hast Thou\nWith health renewed my face;\nAnd, when in sins and sorrows sunk,\nRevived my soul with grace.\"",
+      "suggested_fix": "Verse contains several translation errors and an untranslated English word. Line 1 should convey 'When worn with sickness, oft hast Thou / With health renewed my face' — e.g. 'Når jeg, tynget av sykdom, ofte, har Du med helbred fornyet mitt ansikt.' The translator must also render 'Revived my soul with grace' into Norwegian (e.g. 'og, når jeg, sunket i synd og sorg, Du gjenopplivet min sjel med nåde'). Remove the stray English 'Revived' and the unclear word 'røye'.",
+      "translation_quote": "\"Når tære av sykdom ofte deg\nMed nytt helbred har kledt mitt øie;\nOg når i synder og sorg sunket ned,\nRevived min sjel ved nådens røye.\""
     },
     {
-      "location": "Several places — awkward or non-idiomatic Norwegian and small typos (e.g., \"Enslig\" -> should be \"Enslig\" or better \"Ugift\")",
+      "location": "paragraph about hymn title (second paragraph)",
       "severity": "minor",
-      "source_quote": "Being single into his 40s, he had hopes of someday having a happy marriage.",
-      "suggested_fix": "Correct small typos and improve idiomatic Norwegian. E.g.: «Ugift inn i førtiårene hadde han håp om en dag å få et lykkelig ekteskap.»",
-      "translation_quote": "Enslig inn i førtiårene, hadde han håp om en dag å få et lykkelig ekteskap."
+      "source_quote": "\"When All Thy Mercies O My God,\"",
+      "suggested_fix": "Either translate the parenthetical 'original title' fully into Norwegian or mark the original English title clearly as the original title. If you keep the English title, present it as a quoted original title (e.g. originaltittel: «When All Thy Mercies O My God») but consider translating the in-text rendered title to Norwegian and treating the English as the original in italics or quotes. This is a minor consistency issue rather than a fidelity error.",
+      "translation_quote": "\"Salmen «Når alle dine miskunner, min Gud» (originaltittel: \"When All Thy Mercies O My God\"),"
     }
   ],
+  "finished_at": "2026-10-02T13:03:20+00:00",
   "id": "15674a8e04c40b8a26e716843afb3cb3",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "nob",
@@ -175,13 +188,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 78,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1f918b0ea8340bcf17f023b66bf22d08b2185fd15382de583ea5e89a31c88725.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "151c676a3a3f4de7275eee354cc0c629e172ecc2dbb372f12ae064df79d4e44e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

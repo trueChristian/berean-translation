@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:21+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<div class=\\\"poem\\\">…</div> — hymn stanza\",\"severity\":\"minor\",\"source_quote\":\"When all Thy mercies, O my God,\\n    My rising soul surveys,\\n    Transported with the view, I’m lost\\n    In wonder, love and praise.\",\"suggested_fix\":\"Перевести последние две строки более буквально и без добавления слова «безмолвной», чтобы ближе соответствовать английскому: например, «Восхищённый видом, я теряюсь в изумлении, любви и хвале.» (или другой естественный вариант без слова «безмолвной»). Сохраняйте HTML-теги и порядок строк.\",\"translation_quote\":\"Когда все милости Твои, о Боже мой,\\n    Дух мой восходит и обозревает,\\n    Восхищённый видом, я теряюсь в чуде,\\n    В любви и хвале безмолвной.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 1091,
+    "content_evidence_truncated": false,
+    "content_sha256": "f09c7efabc6b3f1e45e5131753712c14ddcf51146bbe9269e5ca135aeee3bca9",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1000,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3078,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4078
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

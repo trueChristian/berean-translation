@@ -2,7 +2,6 @@
   "article_id": "8072bb08-e7aa-4602-a3c6-f82161b740ae",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,25 +61,45 @@
         },
         "total_tokens": 9450
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 838,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5646,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6484
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<article> paragraph: \"In conclusion, Job of old bore the lashes...\" (near end)",
-      "severity": "major",
-      "source_quote": "His faithfulness and steadfast endurance have blessed thirty centuries of sorrowing humanity.",
-      "suggested_fix": "Translate \"thirty centuries\" correctly as \"तीस सदियाँ\" or \"तीस सदी\" (both mean thirty centuries). Replace the mistranslated number phrase in the corresponding Hindi paragraph, preserving surrounding HTML tags and punctuation.",
-      "translation_quote": "\"उसकी निष्ठा और दृढ़ सहनशीलता ने तेईस सदी दुखी मानवता को आशीर्वाद दिया है।\""
+      "location": "Paragraph beginning \"Second, acceptance does not mean woeful resignation.\"",
+      "severity": "minor",
+      "source_quote": "Second, acceptance does not mean woeful resignation.",
+      "suggested_fix": "Translate the substantive English word 'resignation' into Hindi and keep the sentence idiomatic. For example: \"दूसरा, स्वीकार करना निराशाजनक आत्मसमर्पण नहीं है।\" Preserve the surrounding <p> tags and punctuation.",
+      "translation_quote": "दूसरा, स्वीकार करना हताश resign होना नहीं है।"
     },
     {
-      "location": "<article> second paragraph (Deuteronomy 1:42 quote)",
+      "location": "Final paragraph before figure: \"Deliverance came. No, not to Stephen and James, nor to suffering servants such as Job, of like precious faith, but it came in unquenchable hope, in the hope that maketh not ashamed. It came through Him that is able to deliver us who, through fear of death, were subject to bondage. “Thanks be unto God for his unspeakable gift.”\"",
       "severity": "minor",
-      "source_quote": "\"And ye returned and wept before the Lord; but the Lord would not hearken to your voice, nor give ear unto you\" (Deuteronomy 1:45).",
-      "suggested_fix": "Replace the stray German word \"Stimme\" with an appropriate Hindi word such as \"आवाज़\" so the phrase reads: \"परन्तु यहोवा ने तुम्हारी आवाज़ पर ध्यान न दिया, और न तुम्हारी बात को सुनी।\" Preserve the structure and punctuation within the existing <p> tag.",
-      "translation_quote": "\"...परन्तु यहोवा ने तुम्हारी Stimme पर ध्यान न दिया, और न तुम्हारी बात को सुनता\" (व्यवस्थाविवरण 1:45)."
+      "source_quote": "“Thanks be unto God for his unspeakable gift.”",
+      "suggested_fix": "Make the Hindi rendering more natural and idiomatic while preserving meaning. For example: “हम उस परमेश्वर का धन्यवाद करें जिसके पास हमारी व्याख्या से परे अनकथनीय उपहार है।” or more simply: “हमें उस परमेश्वर का धन्यवाद करना चाहिए जिसने हमें अपना अनकथनीय वरदान दिया।” Keep the quotation marks and paragraph tags intact.",
+      "translation_quote": "“परमेश्वर का अनकथनीय वरदान के लिए धन्यवाद。”"
     }
   ],
+  "finished_at": "2026-10-02T13:03:20+00:00",
   "id": "0e965f14cb3baf536e26a116533d20c6",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "hin",
@@ -154,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/40b205584b70dea6ea3ff3f4c41c6fd1ddfe0f0185df69fefa6b9552a41d435d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "bf998429e527907a20f711c821e9bb6ad50ba4d154d9f55d397877de1bb521c0",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html — first blockquote paragraph",
+      "severity": "minor",
+      "source_quote": "Prayer lays hold of God's plan and becomes the link between His will and its accomplishment on earth. Amazing things happen, and we are given the privilege of being the channels of the Holy Spirit's prayer.",
+      "suggested_fix": "In the translation, fix the word order and article agreement so the sentence reads naturally in Dutch while preserving meaning. For example, replace the translated blockquote paragraph with: <blockquote>\n    <p>Het gebed grijpt Gods plan vast en wordt de schakel tussen Zijn wil en de uitvoering daarvan op aarde. Verbazingwekkende dingen gebeuren, en het is ons gegeven de eer de kanalen van het gebed van de Heilige Geest te zijn.</p>\n    <p><cite>—Elisabeth Elliot</cite></p>\n  </blockquote>",
+      "translation_quote": "Het gebed grijpt Gods plan vast en wordt de schakel tussen Zijn wil en de uitvoering daarvan op aarde. Verbazingwekkende dingen gebeuren, en het is ons gegeven de eer de kanalen te zijn van de gebed van de Heilige Geest."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

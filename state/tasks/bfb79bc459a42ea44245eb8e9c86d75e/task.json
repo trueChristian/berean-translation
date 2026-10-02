@@ -2,7 +2,6 @@
   "article_id": "d2d95264-7df9-4ca8-9a99-01a68204d73a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:56+00:00",
   "events": [
@@ -62,25 +61,45 @@
         },
         "total_tokens": 5527
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 977,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3326,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4303
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "source.section",
-      "severity": "major",
-      "source_quote": "FEATURED ARTICLE",
-      "suggested_fix": "Translate the section metadata to a correct Urdu equivalent (preserve HTML structure). For example: \"نمایاں مضمون\" or \"خصوصی مضمون\". Replace the translation field value while keeping it as plain text (no HTML changes required).",
-      "translation_quote": "مائیکل مضمون"
+      "location": "Paragraph quoting Ephesians 4:15 (final paragraphs)",
+      "severity": "minor",
+      "source_quote": "\"... into him in all things, which is the head, even Christ\" (Ephesians 4:15).",
+      "suggested_fix": "Translate the verse more literally to mirror the English structure and clear theological sense: \"'... اس میں سب باتوں میں بڑھتے ہوئے، جو سر ہے، یعنی مسیح' (افسیوں 4:15).\" Preserve the existing HTML tags and placement.",
+      "translation_quote": "\"... سب چیزوں میں اُس کی طرف بڑھو، جو سر ہے، یعنی مسیح\" (افسیوں 4:15)."
     },
     {
-      "location": "source.html > p (paragraph containing: “We do not work for our salvation, for Christ Himself said, “It is finished.””)",
-      "severity": "major",
-      "source_quote": "We do not work for our salvation, for Christ Himself said, “It is finished.”",
-      "suggested_fix": "Translate the quoted substantive English phrase into Urdu, preserving the surrounding punctuation and HTML. For example: “ہم اپنی نجات کے لیے کام نہیں کرتے، کیونکہ خود مسیح نے کہا، ‘یہ مکمل ہو گیا’.” Replace the English phrase “It is finished” with an Urdu rendering inside the same quotation marks and keep the enclosing <p> element unchanged.",
-      "translation_quote": "ہم اپنی نجات کے لیے کام نہیں کرتے، کیونکہ خود مسیح نے کہا، “مکمل ہو گیا” (It is finished)."
+      "location": "First occurrence of the phrase \"born again\" in paragraph 2",
+      "severity": "minor",
+      "source_quote": "I have spoken to people who do not confess to be born again, but still hope to go to heaven.",
+      "suggested_fix": "Consider using a more common Urdu ecclesiastical term for 'born again' to match typical theological usage while preserving meaning — e.g. 'روانی طور پر دوبارہ پیدا ہوئے' is too literal; better options include 'قلبِ نو' or 'روحانی طور پر دوبارہ پیدا شدہ'. If preferring 'نوزائیدہ', confirm it is acceptable in the publication's style. No HTML changes needed.",
+      "translation_quote": "میں نے ایسے لوگوں سے بات کی ہے جو دعویٰ نہیں کرتے کہ وہ نوزائیدہ ہیں، مگر پھر بھی جنت جانے کی امید رکھتے ہیں۔"
     }
   ],
+  "finished_at": "2026-10-02T13:03:21+00:00",
   "id": "bfb79bc459a42ea44245eb8e9c86d75e",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "urd",
@@ -154,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8a99b566d1f7a4b71f671efc977b9e895b89fc48e4520caf1214f243e2083ab5.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d21eb9a2e384c54d8451d42bc7b07528a6bfe6b701385ff6d901ec268b981022",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

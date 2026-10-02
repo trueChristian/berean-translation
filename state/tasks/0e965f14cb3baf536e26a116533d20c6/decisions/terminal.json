@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning \"Second, acceptance does not mean woeful resignation.\"",
+      "severity": "minor",
+      "source_quote": "Second, acceptance does not mean woeful resignation.",
+      "suggested_fix": "Translate the substantive English word 'resignation' into Hindi and keep the sentence idiomatic. For example: \"दूसरा, स्वीकार करना निराशाजनक आत्मसमर्पण नहीं है।\" Preserve the surrounding <p> tags and punctuation.",
+      "translation_quote": "दूसरा, स्वीकार करना हताश resign होना नहीं है।"
+    },
+    {
+      "location": "Final paragraph before figure: \"Deliverance came. No, not to Stephen and James, nor to suffering servants such as Job, of like precious faith, but it came in unquenchable hope, in the hope that maketh not ashamed. It came through Him that is able to deliver us who, through fear of death, were subject to bondage. “Thanks be unto God for his unspeakable gift.”\"",
+      "severity": "minor",
+      "source_quote": "“Thanks be unto God for his unspeakable gift.”",
+      "suggested_fix": "Make the Hindi rendering more natural and idiomatic while preserving meaning. For example: “हम उस परमेश्वर का धन्यवाद करें जिसके पास हमारी व्याख्या से परे अनकथनीय उपहार है।” or more simply: “हमें उस परमेश्वर का धन्यवाद करना चाहिए जिसने हमें अपना अनकथनीय वरदान दिया।” Keep the quotation marks and paragraph tags intact.",
+      "translation_quote": "“परमेश्वर का अनकथनीय वरदान के लिए धन्यवाद。”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

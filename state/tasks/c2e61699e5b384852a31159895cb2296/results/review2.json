@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8a61ef19-7674-4327-948f-08e0cef98aa5",
+    "response_id": "chatcmpl-EUXAn8ErnAAWnG3Fc8Nljr0GZKQU5",
+    "usage": {
+      "completion_tokens": 1246,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3015,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4261
+    }
+  },
+  "received_at": "2026-10-02T13:03:21+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 2 (English quote of article title)",
+        "severity": "major",
+        "source_quote": "“God’s Faithfulness Manifest Even in the Curse”",
+        "suggested_fix": "Translate the quoted article title into Dutch and preserve quotation marks. For example: “Gods trouw blijkt zelfs in de vloek”. Replace the English title exactly where it appears in the paragraph, preserving surrounding HTML and punctuation.",
+        "translation_quote": "“Gods trouw blijkt zelfs in de vloek” (currently rendered in English as “God’s Faithfulness Manifest Even in the Curse”) "
+      },
+      {
+        "location": "Paragraph 3 (internal article-section title)",
+        "severity": "major",
+        "source_quote": "“A Word From the Doctor”",
+        "suggested_fix": "Translate the quoted section/article title into Dutch and preserve quotation marks and capitalization appropriate for Dutch. For example: “Een woord van de dokter” or the magazine's usual Dutch rendering of that section title. Replace the English phrase in-line, preserving HTML structure.",
+        "translation_quote": "“A Word From the Doctor” (left in English inside the paragraph)"
+      },
+      {
+        "location": "Poem block (stanza translation)",
+        "severity": "minor",
+        "source_quote": "When all Thy mercies, O my God,\n    My rising soul surveys,\n    Transported with the view, I’m lost\n    In wonder, love and praise.",
+        "suggested_fix": "The Dutch stanza currently repeats the word \"verwondering\" twice, producing redundancy and a slightly awkward rhythm. Offer a smoother, idiomatic Dutch rendering that preserves the meaning and poetic tone. Example revision: \"Wanneer al Uw goedertierenheden, o mijn God,\n    mijn opreizende ziel aanschouwt,\n    vervuld van ontroering bij dat aanschouwen,\n    verdwijn ik in verwondering, liefde en lofprijzing.\" Replace the poem text within the <div class=\"poem\"> block, preserving tags and emphasis markup.",
+        "translation_quote": "<em>Wanneer al Uw goedertierenheden, o mijn God,\n    mijn oprijzende ziel aanschouwt,\n    vervuld van verwondering door die aanschouwing, raak ik verloren\n    in verwondering, liefde en lofprijzing.</em>"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

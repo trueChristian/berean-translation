@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f0dd100f-5961-4f38-a122-ca797bcfb93d",
+    "response_id": "chatcmpl-EUXAazbYA705MKnWQvjbyY1Lk6Y0s",
+    "usage": {
+      "completion_tokens": 991,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6566,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7557
+    }
+  },
+  "received_at": "2026-10-02T13:03:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph under “Dominância de Espinhos e Cardos” (paragraph listing specific plants)",
+        "severity": "minor",
+        "source_quote": "Think about it: Blessed Thistle, Milk Thistle, Teasel, Raspberry Leaf, and Blackberry roots are only a few examples of members of these “thorny weeds” used for medicinal and other food benefits.",
+        "suggested_fix": "The translation should avoid introducing additional identifying details that are not present in the English original (e.g., scientific names or uncommon local common names) or else mark them clearly as editorial additions. Either remove the parenthetical scientific name or render the plant names without added taxonomic identifiers. Suggested Portuguese rendering keeps only the plant names corresponding to the English source: “Pense nisso: cardo-bendito, cardo-mariano, teasel, folha de framboesa e raízes de amora são apenas alguns exemplos…”",
+        "translation_quote": "Pense nisso: cardo-bendito (Cnicus benedictus), cardo-mariano (Silybum marianum), cabacinha (Dipsacus fullonum), folha de framboesa e raízes de amora são apenas alguns exemplos de integrantes dessas “ervas espinhosas” usadas para fins medicinais e outros benefícios alimentares."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

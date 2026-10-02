@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>...forfatteren av artikkelen «Gods trofasthet manifesterer seg selv også i forbannelsen», ha...</p>",
+      "severity": "minor",
+      "source_quote": "“God’s Faithfulness Manifest Even in the Curse”",
+      "suggested_fix": "Beholdn oversettelsen av tittelen bør bruke korrekt norsk possessivform og mer naturlig ordstilling. Erstatt «Gods trofasthet manifesterer seg selv også i forbannelsen» med ««Guds trofasthet manifesterer seg også i forbannelsen»». (Behold anførselstegnene og plasseringen uendret.)",
+      "translation_quote": "«Gods trofasthet manifesterer seg selv også i forbannelsen»"
+    },
+    {
+      "location": "<div class=\"poem\">…</div>",
+      "severity": "minor",
+      "source_quote": "When all Thy mercies, O my God,\n    My rising soul surveys,\n    Transported with the view, I'm lost\n    In wonder, love and praise.",
+      "suggested_fix": "Diktet er oversatt ordrett og lyder uidiomatisk på norsk. Forslag til mer naturlig og meningsbevarende oversettelse: «Når alle dine barmhjertigheter, o min Gud,\n    Min sjel som våkner skuer dem,\n    Fylt av det synet blir jeg henført,\n    Tapt i undring, kjærlighet og pris.» Erstatt teksten inne i <div class=\"poem\"> med dette, behold <em>, <br> og annen HTML uendret.",
+      "translation_quote": "<em>Når alle dine barmhjertigheter, o min Gud,<br>\n    Min oppvoksende sjel betrakter,<br>\n    Fører synet meg i ekstase, jeg blir tapt<br>\n    I undring, kjærlighet og pris.</em>"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

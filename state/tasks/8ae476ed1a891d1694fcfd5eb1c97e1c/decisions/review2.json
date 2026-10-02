@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<article> <div class=\"poem\"> <p> prima strofa, seconda riga (\"Who are briskly walking onward,\")",
+      "severity": "minor",
+      "source_quote": "Who are briskly walking onward,",
+      "suggested_fix": "Sostituire la frase tradotta \"Che camminano svelte in avanti,\" con una resa idiomatica e corretta in italiano. Esempi: \"Che procedono di fretta,\" oppure \"Che camminano in fretta avanti.\" Mantenere la struttura HTML così com'è, ad esempio:\n<p>La vita è come un sentiero tortuoso<br>\nPer la moltitudine delle anime,<br>\nChe procedono di fretta,<br>\nIgnare della loro meta finale.</p>",
+      "translation_quote": "Che camminano svelte in avanti,"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

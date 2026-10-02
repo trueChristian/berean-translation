@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph 1 (opening sentence)",
+      "severity": "minor",
+      "source_quote": "When I was converted, I had never heard the term Anabaptist.",
+      "suggested_fix": "Use a more natural, commonly used Hindi rendering of \"converted\" to match style and readability while preserving meaning. For example: \"जब मैंने प्रभु को स्वीकार किया था,\" or \"जब मैं ईमान लाया/विश्वास में आया,\" instead of \"जब मेरा जीर्णोद्धार हुआ,\". Preserve the rest of the sentence as translated.",
+      "translation_quote": "जब मेरा जीर्णोद्धार हुआ, तब मैंने कभी शब्द \"अनाबाप्टिस्ट\" नहीं सुना था।"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

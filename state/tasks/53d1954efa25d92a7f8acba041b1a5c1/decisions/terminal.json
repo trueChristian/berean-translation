@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing Ephesians 4:15 (near end)",
+      "severity": "minor",
+      "source_quote": "I trust you are growing up “. . . into him in all things, which is the head, even Christ” (Ephesians 4:15).",
+      "suggested_fix": "Translate the quoted Scripture more literally and smoothly into Bengali while preserving meaning: \"আমি বিশ্বাস করি তুমি '. . . সমস্ত বিষয়ে তার মধ্যে বৃদ্ধি পাচ্ছ, —তাঁই শির্ষ, অর্থাৎ খ্রীষ্ট—' (এফিসীয়দের 4:15)।\" Keep the same HTML tags and placement.",
+      "translation_quote": "আমি বিশ্বাস করি তুমি “... সব বিষয়ে তাঁর মধ্যে বড় হতে—যিনি শির্ষ, খ্রীষ্ট—” (এফিসীয়দের 4:15)।"
+    },
+    {
+      "location": "Final paragraph quoting 2 Corinthians 5:2",
+      "severity": "minor",
+      "source_quote": "The testimony of this expectation is, “. . . in this we groan, earnestly desiring to be clothed upon with our house which is from heaven” (2 Corinthians 5:2).",
+      "suggested_fix": "Render the verse quote in clearer, more natural Bengali that preserves the original sense: \"এই প্রত্যাশার স্বাক্ষ্য হ'ল, '... এ জন্য আমরাও শাঁশ করে খুব চাই যে আমরা আমাদের আকাশ থেকে আসা গৃহে পরিবেষ্টিত হবো'\" (২ করিন্থীয়দের 5:2). Maintain the same HTML tags and placement.",
+      "translation_quote": "এই প্রত্যাশার সাক্ষ্য হল, “... এ কারণেই আমরা আকুল ধ্বনি তুলি; তীব্রভাবে প্রত্যাশা করি যে আমাদের আকাশ থেকে আসা ঘরটি আমাদের দ্বারা পরিহিত করা হবে” (২ করিন্থীয়দের 5:2)."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

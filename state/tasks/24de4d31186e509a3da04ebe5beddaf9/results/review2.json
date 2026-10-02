@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7a8b6a67-1e3b-4d71-b5f1-6c24b5604e99",
+    "response_id": "chatcmpl-EUXAhoYj6v69VCt0mxzPhoSJErC1k",
+    "usage": {
+      "completion_tokens": 912,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11034,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11946
+    }
+  },
+  "received_at": "2026-10-02T13:03:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"To take care of it, she would need IV fluids – once or twice a week...\" (translated paragraph beginning: \"اس کا علاج کرنے کے لیے، اسے وریدی مائعات (IV fluids) کی ضرورت ہوگی\")",
+        "severity": "minor",
+        "source_quote": "To take care of it, she would need IV fluids – once or twice a week – to keep up with the fluids she was losing.",
+        "suggested_fix": "Keep the clinical term fully localized or consistently present the Urdu with the English abbreviation in parentheses. For example: “اس کے علاج کے لیے اسے وریدی سیال (Intravenous fluids) یا مختصراً وریدی مائع (IV) ہفتے میں ایک یا دو بار درکار ہوں گے۔” This preserves the Urdu term first and keeps the abbreviation in parentheses.",
+        "translation_quote": "اس کا علاج کرنے کے لیے، اسے وریدی مائعات (IV fluids) کی ضرورت ہوگی — ہفتے میں ایک یا دو بار — تاکہ وہ گم ہونے والے سیالات کو پورا رکھ سکے۔"
+      },
+      {
+        "location": "Throughout (multiple occurrences of 'burnout' wording)",
+        "severity": "minor",
+        "source_quote": "burnout (multiple occurrences: “burnout leads…”, “What is Burnout?”, etc.)",
+        "suggested_fix": "Use a single consistent Urdu transliteration or translation for the English term 'burnout' throughout the article. For example, choose either 'برن آؤٹ' or 'بَرنا آؤٹ' or translate as 'جذباتی/نفسیاتی تھکن' and apply it consistently. Update the inconsistent instances to match the chosen form.",
+        "translation_quote": "Various forms appear such as \"بَرنا آؤٹ\" and \"برن آؤٹ\" and \"برن آؤٹ کی\" in different places."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

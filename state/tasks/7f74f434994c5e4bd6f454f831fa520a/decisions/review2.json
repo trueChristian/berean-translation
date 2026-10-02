@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<article> first <p> (opening paragraph)",
+      "severity": "critical",
+      "source_quote": "Must I go through life carrying a cross of pain and loneliness while God answers the prayers of my friends and gives them the desires of their hearts? Is something wrong with me? Is my faith too weak? Have I not prayed enough, surrendered enough, been obedient enough?",
+      "suggested_fix": "Replace the Urdu sentence that mistranslates \"been obedient enough\" with a faithful rendering of the original question. Suggested Urdu: \"کیا میں نے کافی دعائیں نہیں کیں، یا کافی سرنڈر نہیں کیا، یا کافی فرمانبردار نہیں رہا؟\" (preserve punctuation and surrounding HTML).",
+      "translation_quote": "\"کیا میرے ساتھ کچھ غلط ہے؟ کیا میری ایمان کمزور ہے؟ کیا میں نے کافی دعائیں نہیں کیں، یا کافی سرنڈر نہیں کیا، یا کافی نافرمانی نہیں کی؟\""
+    },
+    {
+      "location": "<article> paragraph that begins \"You should never think that Christ is in some unapproachable place\" (paragraph mentioning unbelief, sin, disobedience, and unforgiveness)",
+      "severity": "major",
+      "source_quote": "Unbelief, sin, disobedience, and unforgiveness to others can keep you from experiencing his love and grace.",
+      "suggested_fix": "Translate the parenthetical/term \"unforgiveness\" into Urdu (do not leave it in English). Suggested Urdu replacement for the clause: \"بےایمانی، گناہ، نافرمانی، اور دوسروں کے لیے بخش نہ دینے کی حالت تمہیں اُس کی محبت اور فضل کا تجربہ کرنے سے روک سکتی ہے۔\" Replace the English word \"(unforgiveness)\" with the Urdu phrase \"بخش نہ دینا\" or \"دوسروں کو نہ بخشنا\" as appropriate, preserving punctuation and HTML.",
+      "translation_quote": "\"بےایمانی، گناہ، نافرمانی، اور دوسروں کے لیے بےبخشی (unforgiveness) تمہیں اس کی محبت اور فضل کا تجربہ کرنے سے روک سکتے ہیں۔\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

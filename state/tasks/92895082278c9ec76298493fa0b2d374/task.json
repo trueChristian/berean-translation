@@ -2,7 +2,6 @@
   "article_id": "21853000-58b7-413f-b119-c9b1a6012369",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:56+00:00",
   "events": [
@@ -62,25 +61,45 @@
         },
         "total_tokens": 12310
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 860,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7279,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8139
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<p>In the midst of the curse given to Eve, the first prophecy of the Messiah is revealed. “And I will put enmity between thee and the woman, and between thy seed and her seed; it shall bruise thy head, and thou shalt bruise his heel” (Genesis 3:15). He is the conqueror of death! Praise God for His Faithfulness.</p>",
-      "severity": "critical",
-      "source_quote": "In the midst of the curse given to Eve, the first prophecy of the Messiah is revealed. “And I will put enmity between thee and the woman, and between thy seed and her seed; it shall bruise thy head, and thou shalt bruise his heel” (Genesis 3:15). He is the conqueror of death! Praise God for His Faithfulness.",
-      "suggested_fix": "Translate the sentence to faithfully reflect the English meaning without adding or changing persons. Replace the mistranslated sentence block in the same HTML structure with a faithful Urdu rendering. Suggested Urdu text (preserve the <p> tags and the quoted Scripture reference formatting):\n\n<p>لعنت کے بیچ میں، جو ایوٰں کو دی گئی تھی، مسیح کی پہلی نبوت ظاہر ہوتی ہے۔ “اور میں تُجھ اور عورت کے درمیان، اور تیری نسل اور اس کی نسل کے درمیان دشمنی ڈالوں گا؛ وہ تیرا سر کچلے گا، اور تُو اُس کے پاش پر زور دے گا” (پیدائش 3:15)۔ وہ موت کا فاتح ہے! خدا کی وفاداری کے لیے حمد ہو۔</p>\n\nThis replaces the incorrect phrase that currently reads “عیسیٰ مریم کی ابتدا کے درمیان…” which wrongly introduces the name “عیسیٰ مریم” and changes the meaning. The suggested fix keeps the Scripture reference numeric form unchanged and uses the conventional Urdu book name (پیدائش).",
-      "translation_quote": "عیسیٰ مریم کی ابتدا کے درمیان، ایو کو دی گئی لعنت کے اندر مسیح کی پہلی نبوت ظاہر ہوتی ہے۔ \"اور میں تجھ اور عورت کے درمیان، اور تیری نسل اور اس کی نسل کے درمیان دشمنی ڈالوں گا؛ وہ تیرا سر کچلے گا، اور تُو اس کے پاش پر زور دے گا\" (پیدائش 3:15). وہ موت کا فاتح ہے! خدا کی وفاداری کے لیے حمد ہو۔"
+      "location": "source.html → list of six D’s / translation.html → ordered list",
+      "severity": "minor",
+      "source_quote": "Decomposition and Decay",
+      "suggested_fix": "Use a more standard, widely understood Urdu term for 'Decomposition' such as 'پتھّرنا/تجزیہ' or combine for clarity: 'گلن اور تحلیل (Decomposition and Decay)' — preserve surrounding HTML exactly.",
+      "translation_quote": "اپخوری اور بوسیدگی"
     },
     {
-      "location": "<figure>\n    <img src=\"/images/articles/21853000-58b7-413f-b119-c9b1a6012369-2.jpg\" alt=\"A pile of green artichokes\" loading=\"lazy\">\n    <figcaption><em>This is an artichoke plant, a member of the thistle family. Many people use this “thistle,” along with its cousin, the Cardoon, for food.</em></figcaption>\n  </figure>",
+      "location": "source.html → paragraph about artichoke and thistles / translation.html → corresponding paragraph",
       "severity": "minor",
-      "source_quote": "This is an artichoke plant, a member of the thistle family. Many people use this “thistle,” along with its cousin, the Cardoon, for food.",
-      "suggested_fix": "The translation currently uses the transliteration “اٹریکاچوک” which is nonstandard and inconsistent. Replace with the conventional Urdu form or a clearer transliteration. Suggested figcaption (preserve tags):\n\n<figcaption><em>یہ آرٹیچوک (artichoke) پودا ہے، جو تھِسٹِل خاندان کا رکن ہے۔ بہت سے لوگ اس \"کانٹے\" اور اس کے رشتہ دار کارڈون کو خوراک کے طور پر استعمال کرتے ہیں۔</em></figcaption>\n\nThis keeps the meaning identical but uses the more common Urdu rendering آرٹیچوک (or include original English in parentheses) for readability and consistency.",
-      "translation_quote": "<figcaption><em>یہ ایک اٹریکاچوک پودا ہے، جو تھِسٹِل خاندان کا رکن ہے۔ بہت سے لوگ اس \"کانٹے\" کو اور اس کے رشتہ دار کارڈون کو خوراک کے طور پر استعمال کرتے ہیں۔</em></figcaption>"
+      "source_quote": "Cardoon",
+      "suggested_fix": "'Cardoon' is a translatable/common plant name; prefer a conventional Urdu transliteration or parenthetical English as needed. Suggested fix: replace 'کارڈون' with 'کارڈون (Cardoon)' or a more common local name if available — preserve HTML.",
+      "translation_quote": "کارڈون"
     }
   ],
+  "finished_at": "2026-10-02T13:03:21+00:00",
   "id": "92895082278c9ec76298493fa0b2d374",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "urd",
@@ -154,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 40,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/35b2c7029cc42ee53f5ba53e917d6f4f13fd2ec89b436bb9b340de5e3d8adc44.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "3526d7232367f018301aa220868e7605f6dcc0608e6b2e5d5a6771923f6938fe",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

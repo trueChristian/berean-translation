@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph discussing the word \"sensitive/sensual\" (source.html third paragraph and translation corresponding paragraph)",
+      "severity": "minor",
+      "source_quote": "The closest word we can find there is sensual, which is very similar in its roots and means natural.",
+      "suggested_fix": "Remove the added etymological/clarifying parenthetical that is not in the source and slightly alters tone. Preserve the author's original sentence by translating only what is printed in English. For example: \"La parola più vicina che vi possiamo trovare è sensuale, che ha radici simili e significa naturale.\"",
+      "translation_quote": "La parola più vicina che vi possiamo trovare è sensuale, che ha radici simili e significa naturale (dal latino sensus), intesa più come \"sensibile/naturale\" nel senso etimologico, non con il significato moderno di \"di natura sessuale\"."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

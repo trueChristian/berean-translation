@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph quoting Ephesians 4:15 (final paragraphs)",
+      "severity": "minor",
+      "source_quote": "\"... into him in all things, which is the head, even Christ\" (Ephesians 4:15).",
+      "suggested_fix": "Translate the verse more literally to mirror the English structure and clear theological sense: \"'... اس میں سب باتوں میں بڑھتے ہوئے، جو سر ہے، یعنی مسیح' (افسیوں 4:15).\" Preserve the existing HTML tags and placement.",
+      "translation_quote": "\"... سب چیزوں میں اُس کی طرف بڑھو، جو سر ہے، یعنی مسیح\" (افسیوں 4:15)."
+    },
+    {
+      "location": "First occurrence of the phrase \"born again\" in paragraph 2",
+      "severity": "minor",
+      "source_quote": "I have spoken to people who do not confess to be born again, but still hope to go to heaven.",
+      "suggested_fix": "Consider using a more common Urdu ecclesiastical term for 'born again' to match typical theological usage while preserving meaning — e.g. 'روانی طور پر دوبارہ پیدا ہوئے' is too literal; better options include 'قلبِ نو' or 'روحانی طور پر دوبارہ پیدا شدہ'. If preferring 'نوزائیدہ', confirm it is acceptable in the publication's style. No HTML changes needed.",
+      "translation_quote": "میں نے ایسے لوگوں سے بات کی ہے جو دعویٰ نہیں کرتے کہ وہ نوزائیدہ ہیں، مگر پھر بھی جنت جانے کی امید رکھتے ہیں۔"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

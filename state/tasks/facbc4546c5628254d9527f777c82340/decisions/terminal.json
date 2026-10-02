@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing Romans 5:5 (near: \"Once we receive the Lord Jesus as Saviour, then “hope maketh not ashamed” (Romans 5:5).\")",
+      "severity": "minor",
+      "source_quote": "Once we receive the Lord Jesus as Saviour, then \"hope maketh not ashamed\" (Romans 5:5).",
+      "suggested_fix": "Translate the quoted Scripture in a wording that is a more natural, theologically conventional Portuguese rendering of Romans 5:5 (Almeida/commonly used idiom). Suggested replacement inside the same HTML paragraph: “...uma vez que recebemos o Senhor Jesus como Salvador, então ‘a esperança não nos envergonha’ (Romanos 5:5).” Preserve the verse reference exactly as printed.",
+      "translation_quote": "\"Uma vez que recebemos o Senhor Jesus como Salvador, então “a esperança não confunde” (Romanos 5:5).\""
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

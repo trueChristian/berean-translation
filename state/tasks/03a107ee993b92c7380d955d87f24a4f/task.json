@@ -2,7 +2,6 @@
   "article_id": "21853000-58b7-413f-b119-c9b1a6012369",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:56+00:00",
   "events": [
@@ -62,60 +61,46 @@
         },
         "total_tokens": 14692
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1859,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8198,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10057
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
-    {
-      "location": "Paragraph 1 (near: \"Eve, although deceived...\")",
-      "severity": "major",
-      "source_quote": "Eve, although deceived by Satan in the form of the serpent, believed the lie and chose to disobey God, doing the only thing that God had lovingly asked her not to do.",
-      "suggested_fix": "Translate the entire clause into Greek and remove the leftover English token. For example: «Η Εύα, αν και απατήθηκε από τον Σατανά με τη μορφή του όφεως, πίστεψε το ψέμα και επέλεξε να παραβεί τον Θεό, κάνοντας το μόνο πράγμα που ο Θεός της είχε με αγάπη ζητήσει να μην κάνει.» Preserve HTML and surrounding punctuation exactly.",
-      "translation_quote": "Η Εύα, αν και απατημένη από τον Σατανά με τη μορφή του όφεως, πίστεψε το ψέμα και επέλεξε να a disobey τον Θεό, κάνοντας το μόνο πράγμα που ο Θεός της είχε με αγάπη ζητήσει να μην κάνει."
-    },
-    {
-      "location": "Figure 1 <img alt> and figcaption (paragraph with Hiroshima)",
-      "severity": "major",
-      "source_quote": "\"Ruins of Hiroshima after the atomic bombing\" / \"The destructiveness of man, through the atomic bomb in Hiroshima, Japan\"",
-      "suggested_fix": "Correct the alt text and caption to match the original meaning (atomic bomb). Suggested Greek phrasing: alt=\"Ερείπια της Χιροσίμα μετά τη ριπή της ατομικής βόμβας\" and figcaption: «Η καταστροφικότητα του ανθρώπου, μέσω της ατομικής βόμβας στη Χιροσίμα της Ιαπωνίας» (or similar). Do not introduce new theological claims; preserve original sense.",
-      "translation_quote": "alt=\"Ερείπια της Χιροσίμα μετά τη ραδιενεργή βόμβα\" / <em>Η καταστροφικότητα του ανθρώπου, μέσω της ατομικής βόμβας στη Χιροσίμα της Ιαπωνίας</em>"
-    },
-    {
-      "location": "List item 4 and related paragraphs (thorns/thistles/artichokes)",
-      "severity": "major",
-      "source_quote": "\"Dominance of certain plants like thorns and thistles\" / \"This is an artichoke plant, a member of the thistle family.\"",
-      "suggested_fix": "Ensure the target text uses accurate equivalents for \"thorns\" and \"thistles\" and does not conflate with \"artichoke\" where the source means \"thistles.\" For list item 4 use e.g. «Κυριαρχία ορισμένων φυτών όπως τα αγκάθια και οι αγκαθιές (thistles)» or simply «...όπως τα αγκάθια και οι αγκαθινάδες/τρυποκαρπίδες» depending on common Modern Greek usage. In the figcaption keep correct identification: «Αυτό είναι ένα φυτό αγριαγκινάρας (αρκεία ως αγκάθι), μέλος της οικογένειας των αγκαθωδών.» (Match the source's intent that artichoke is a thistle-family plant.) Preserve HTML structure.",
-      "translation_quote": "List: \"Kυριαρχία ορισμένων φυτών όπως τα αγκάθια και τα αγριαγκινάρες\" / figcaption: \"Αυτό είναι ένα φυτό αγριαγκινάρας, μέλος της οικογένειας των αγκαθωδών. Πολλοί άνθρωποι χρησιμοποιούν αυτό το «αγκάθι», μαζί με τον συγγενή του, την καρδούνα, ως τροφή.\""
-    },
-    {
-      "location": "Paragraph under \"Dominance of Thorns and Thistles\" (plant names)",
-      "severity": "major",
-      "source_quote": "\"Blessed Thistle, Milk Thistle, Teasel, Raspberry Leaf, and Blackberry roots\"",
-      "suggested_fix": "Translate these plant names into contemporary Modern Greek or provide accepted Greek common names in the same script. Do not leave them in English. Example: «Blessed Thistle (αγκάθι της ευλογίας ή stachys), Milk Thistle (γάλακτος αγκάθι, Silybum marianum), Teasel (δενδροβάλανος/κους-κους – use the common Greek name), φύλλο σμέουρου (φύλλο σμέουρου) και ρίζες βατόμουρου». Use accurate, commonly used Greek plant names. Preserve order and meaning.",
-      "translation_quote": "\"Blessed Thistle, Milk Thistle, Teasel, φύλλο σμέουρου και ρίζες βατόμουρου\""
-    },
-    {
-      "location": "Paragraph beginning \"Decomposition and Decay\" (first sentence)",
-      "severity": "major",
-      "source_quote": "\"A nut falls to the ground, and a sprout soon appears.\"",
-      "suggested_fix": "Correct the mistranslation of 'nut' to a natural Modern Greek equivalent (καρύδι/καρπός). Suggested translation: «Ένας καρπός (ή ένα καρύδι) πέφτει στο έδαφος, και σύντομα εμφανίζεται ένα βλαστάρι.» Preserve surrounding HTML.",
-      "translation_quote": "\"Ένα καρπόπετρο πέφτει στο έδαφος και σύντομα εμφανίζεται ένα βλαστάρι.\""
-    },
-    {
-      "location": "Paragraph 'Decomposition' (plant/soil microbes statistic)",
-      "severity": "minor",
-      "source_quote": "\"Healthy organic soil has about 8 billion soil microbes in a single tablespoon.\"",
-      "suggested_fix": "Clarify numeric phrase into idiomatic Modern Greek and correct unit if needed. Suggested fix: «Ένα κουταλάκι του γλυκού υγιούς οργανικού εδάφους περιέχει περίπου 8 δισεκατομμύρια μικροοργανισμούς.» Preserve number and meaning.",
-      "translation_quote": "\"Το υγιές οργανικό έδαφος έχει περίπου 8 δισεκατομμύρια μικροοργανισμούς σε ένα μόνο κουταλάκι του γλυκού.\""
-    },
     {
       "location": "Blockquote (Romans 8:19-23)",
       "severity": "minor",
-      "source_quote": "Full Romans 8:19-23 as printed in English",
-      "suggested_fix": "The quotation has been rendered into a more archaic/formal Greek register and includes slight phrasing differences. Ensure the quotation faithfully conveys the printed English meaning in contemporary Modern Greek while keeping the verse numbers intact. If the publication style prefers a specific Bible translation note that the translator used a conventional Modern Greek Bible version equivalent phrasing. Example contemporary rendering: «Γιατί η φιλοσοφημένη προσδοκία της κτίσης προσμένει την αποκάλυψη των υιών του Θεού... (Ρωμ. 8:19–23).» Preserve scripture reference numbers.",
-      "translation_quote": "«Γιατί η φιλοσοφική προσδοκία της κτίσης προσμένει την αποκαλύψιν των υιών του Θεού... (Ρωμαίους 8:19-23).»"
+      "source_quote": "“For the earnest expectation of the creature waiteth for the manifestation of the sons of God. For the creature was made subject to vanity, not willingly, but by reason of him who subjected the same in hope. Because the creature itself also shall be delivered from the bondage of corruption into the glorious liberty of the children of God. For we know that the whole creation groaneth and travaileth in pain together until now. And not only they, but ourselves also, which have the first fruits of the Spirit, even we ourselves groan within ourselves, waiting for the adoption, to wit, the redemption of our bodies” (Romans 8:19-23).",
+      "suggested_fix": "Render the quoted Scripture into contemporary Modern Greek (not Katharevousa/archaic forms) while preserving verse numbers and the meaning of the printed English (KJV). Example (not prescriptive wording but to show style): «Διότι η επιποθήσις της κτίσης προσμένει την αποκάλυψιν των υιών του Θεού. Διότι η κτίσις ετέθη υπό ματαιότητα όχι εκουσίως αλλά δι’ αυτού που την υπέταξε, με σκοπό την ελπίδα· επειδή και η ίδια η κτίσις θέλει λυτρωθεί από τη δουλεία της φθοράς για να λάβει την ελευθερία της δόξας των παιδιών του Θεού. Διότι γνωρίζουμε ότι όλη η κτίση στενάζει και υποφέρει μαζί έως τώρα. Και όχι μόνο αυτή, αλλά και εμείς που έχουμε τα πρώτα δώρα του Πνεύματος, στενάζουμε μέσα μας και προσδοκούμε την υιοθεσία, τη λύτρωση των σωμάτων μας» (Ρωμαίους 8:19-23). Replace the current blockquote with a Modern Greek translation in similar register to the rest of the article, preserving the verse reference in parentheses.",
+      "translation_quote": "«Γιατί η φιλοπόθητη προσδοκία της κτίσεως προσμένει την αποκατάστασιν των υιών του Θεού. Διότι η κτίσις ετέθη υπό ματαιότητα, ου χρισθείσα εκ ιδίας θελήσεως, αλλά διά εκείνου που την υπέταξε εν ελπίδι· επεί και η ίδια η κτίσις θέλει λυτρωθή από την δουλείαν της φθοράς εις την δόξα της ελευθερίας των τέκνων του Θεού. Διότι γνωρίζομεν ότι όλη η κτίσις στέναζε και συνεπαραστενάζει μέχρι της σήμερον. Και όχι μόνον αυτή, αλλά και ημείς οι ίδιοι, οι έχοντες τα πρώτα καρποφόρα του Πνεύματος, στενάζομεν εντός ημών και προσδοκούμεν την υιοθεσίαν, την λύτρωσιν των σωμάτων ημών» (Ρωμαίους 8:19-23)."
+    },
+    {
+      "location": "Paragraph on thistles (term list and inside paragraph)",
+      "severity": "minor",
+      "source_quote": "Blessed Thistle, Milk Thistle, Teasel, Raspberry Leaf, and Blackberry roots",
+      "suggested_fix": "Translate the common plant names into contemporary Modern Greek (or provide conventional Greek common names) rather than leaving any English name unchanged. Keep the order and the items but render them idiomatically. Example suggestions: «Αγκάθιο το Ευλογημένο (Blessed thistle)» should be replaced by a Modern Greek common-name equivalent (or the Latin name if the article prefers), and similarly render \"Milk Thistle\" as «Γαϊδουράγκαθο» or «Γαϊδουροτσίχλαρο» (commonly «Γαϊδουράγκαθο»), \"Teasel\" as «σπάρτο/τείζελ» with the commonly used Greek term, \"Raspberry leaf\" as «φύλλο σμέουρου», and \"Blackberry roots\" as «ρίζες βατόμουρου». Update the parenthetical English-only labels so no substantive plant names remain in English alone.",
+      "translation_quote": "Αγκάθι της Ευλογίας (Blessed Thistle), Γάλακτος Αγκάθι (Milk Thistle), Διπλή Κεντρίδα (Teasel), φύλλο σμέουρου και ρίζες βατόμουρου είναι μόνο μερικά παραδείγματα ..."
     }
   ],
+  "finished_at": "2026-10-02T13:03:20+00:00",
   "id": "03a107ee993b92c7380d955d87f24a4f",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ell",
@@ -189,13 +174,13 @@
     }
   },
   "protected": false,
-  "quality_score": 68,
+  "quality_score": 93,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/35b2c7029cc42ee53f5ba53e917d6f4f13fd2ec89b436bb9b340de5e3d8adc44.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "3526d7232367f018301aa220868e7605f6dcc0608e6b2e5d5a6771923f6938fe",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

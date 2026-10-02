@@ -2,7 +2,6 @@
   "article_id": "c22883c1-1d69-4c5e-aa81-d4015bf4e473",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,32 +61,53 @@
         },
         "total_tokens": 5173
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1246,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3015,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4261
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph containing: “...the writer of the article, “God’s Faithfulness Manifest Even in the Curse”, God has kindly provided...”",
-      "severity": "critical",
-      "source_quote": "the writer of the article, “God’s Faithfulness Manifest Even in the Curse”, God has kindly provided for humanity since the beginning of time.",
-      "suggested_fix": "Translate the English article title into Dutch (keep punctuation and placement). Example fix: vervang “God’s Faithfulness Manifest Even in the Curse” door “Gods trouw blijkt zelfs in de vloek”. Preserve the surrounding HTML and punctuation exactly as in the source.",
-      "translation_quote": "Toch heeft God, zoals de schrijver van het artikel “God’s Faithfulness Manifest Even in the Curse” zo treffend opmerkt, vriendelijk voor de mensheid gezorgd sinds het begin der tijden."
+      "location": "Paragraph 2 (English quote of article title)",
+      "severity": "major",
+      "source_quote": "“God’s Faithfulness Manifest Even in the Curse”",
+      "suggested_fix": "Translate the quoted article title into Dutch and preserve quotation marks. For example: “Gods trouw blijkt zelfs in de vloek”. Replace the English title exactly where it appears in the paragraph, preserving surrounding HTML and punctuation.",
+      "translation_quote": "“Gods trouw blijkt zelfs in de vloek” (currently rendered in English as “God’s Faithfulness Manifest Even in the Curse”) "
     },
     {
-      "location": "Paragraph containing the quoted material attributed to “A Word From the Doctor”",
-      "severity": "critical",
-      "source_quote": "He writes, “Jesus knows our limitations. He wants us to have balance, living in such a way that we not only have strength for today but also for tomorrow, next week, and next year – till He comes again.”",
-      "suggested_fix": "The quoted sentence is substantive quoted prose and must be translated into Dutch. Example fix: vervang the English quote with a faithful Dutch rendering while preserving the surrounding quotation marks and punctuation. Suggested translation: “Jezus kent onze grenzen. Hij wil dat we evenwicht hebben, zó leven dat we niet alleen kracht hebben voor vandaag, maar ook voor morgen, volgende week en volgend jaar — totdat Hij wederkomt.”",
-      "translation_quote": "In dit nummer leidt “A Word From the Doctor” ons terwijl we het doolhof van het leven betreden en geeft ons praktische en Bijbelse oplossingen om burn-out te voorkomen of ervan te herstellen. Hij schrijft: “Jesus knows our limitations. He wants us to have balance, living in such a way that we not only have strength for today but also for tomorrow, next week, and next year – till He comes again.”"
+      "location": "Paragraph 3 (internal article-section title)",
+      "severity": "major",
+      "source_quote": "“A Word From the Doctor”",
+      "suggested_fix": "Translate the quoted section/article title into Dutch and preserve quotation marks and capitalization appropriate for Dutch. For example: “Een woord van de dokter” or the magazine's usual Dutch rendering of that section title. Replace the English phrase in-line, preserving HTML structure.",
+      "translation_quote": "“A Word From the Doctor” (left in English inside the paragraph)"
     },
     {
-      "location": "Poem block (hymn stanza)",
-      "severity": "critical",
+      "location": "Poem block (stanza translation)",
+      "severity": "minor",
       "source_quote": "When all Thy mercies, O my God,\n    My rising soul surveys,\n    Transported with the view, I’m lost\n    In wonder, love and praise.",
-      "suggested_fix": "The hymn stanza is quoted substantive prose and must be translated into Dutch. Replace the English stanza with a faithful Dutch translation, preserving line breaks and the <div class=\"poem\"> structure and emphasis tags. Example translation: <div class=\"poem\"><p><em>Wanneer al Uw goedertierenheden, o God,<br/>\nmijn oprijzende ziel aanschouwt,<br/>\nvervuld van verwondering bij die aanschouwing, verdwijn ik<br/>\nvan verbazing, liefde en lofzang.</em></p></div> (Adjust wording to match idiomatic Dutch hymn style if desired.)",
-      "translation_quote": "<div class=\"poem\">\n    <p><em>When all Thy mercies, O my God,<br>\n    My rising soul surveys,<br>\n    Transported with the view, I’m lost<br>\n    In wonder, love and praise.</em></p>\n  </div>"
+      "suggested_fix": "The Dutch stanza currently repeats the word \"verwondering\" twice, producing redundancy and a slightly awkward rhythm. Offer a smoother, idiomatic Dutch rendering that preserves the meaning and poetic tone. Example revision: \"Wanneer al Uw goedertierenheden, o mijn God,\n    mijn opreizende ziel aanschouwt,\n    vervuld van ontroering bij dat aanschouwen,\n    verdwijn ik in verwondering, liefde en lofprijzing.\" Replace the poem text within the <div class=\"poem\"> block, preserving tags and emphasis markup.",
+      "translation_quote": "<em>Wanneer al Uw goedertierenheden, o mijn God,\n    mijn oprijzende ziel aanschouwt,\n    vervuld van verwondering door die aanschouwing, raak ik verloren\n    in verwondering, liefde en lofprijzing.</em>"
     }
   ],
+  "finished_at": "2026-10-02T13:03:21+00:00",
   "id": "c2e61699e5b384852a31159895cb2296",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "nld",
@@ -161,13 +181,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 78,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/16f80cc2fe1f48fad7c825ed0d1e3059568da0b548b0106a43da4f8b4d785466.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "7328fe7985535229790c376868603624111ed137e1665aff6a36b03d5b4d90fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

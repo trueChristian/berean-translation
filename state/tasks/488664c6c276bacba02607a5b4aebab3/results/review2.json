@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e232cd41-bf56-48da-9dc2-dca614ef6476",
+    "response_id": "chatcmpl-EUXAaEFhcb2h29lqzUUcrwz2usaGu",
+    "usage": {
+      "completion_tokens": 867,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3060,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3927
+    }
+  },
+  "received_at": "2026-10-02T13:03:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 1 (source.html first <p>)",
+        "severity": "minor",
+        "source_quote": "Almost without exception, all spoke of hoping to get out of prison one day.",
+        "suggested_fix": "Use a more natural Arabic rendering of \"Almost without exception\". Replace \"وبالكاد باستثناءٍ، كلهم تحدثوا\" with a clearer phrase such as: \"تقريبًا دون استثناء، تحدث جميعهم\" (preserve surrounding HTML).",
+        "translation_quote": "وبالكاد باستثناءٍ، كلهم تحدثوا عن الأمل في الخروج من السجن يومًا ما."
+      },
+      {
+        "location": "Paragraph 7 (source.html seventh <p>)",
+        "severity": "minor",
+        "source_quote": "We do not work for our salvation, for Christ Himself said, “It is finished.”",
+        "suggested_fix": "The quoted phrase \"It is finished.\" is doctrinally fine but the Arabic «كملت» is slightly terse/colloquial in some registers. If a slightly more formal/standard phrasing is preferred, consider: «قَد أُكْمِلَت» or «قَد أَتَمَّ» while preserving the quotation marks and HTML structure.",
+        "translation_quote": "نحن لا نعمل من أجل خلاصنا، لأن المسيح نفسه قال: «كملت»."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

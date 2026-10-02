@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "<blockquote> (Psalm 16:11)",
+      "severity": "major",
+      "source_quote": "“Thou wilt shew me the path of life: in thy presence is fulness of joy; at thy right hand there are pleasures for evermore” (Psalms 16:11).",
+      "suggested_fix": "Replace the quoted verse with a faithful, natural Norwegian translation that preserves the original sense. Example: “Du vil vise meg livets vei; i ditt nærvær er det fulle glede; ved din høyre hånd er fryd for alltid” (Salme 16:11). Keep the blockquote and verse reference tags as in the source HTML.",
+      "translation_quote": "“Du vil gjøre meg kjent livet vei; i ditt nærvær er glede i overflod; ved din høyre hånd er fryd for alltid” (Salme 16:11)."
+    },
+    {
+      "location": "<h2>Contentment</h2> and following paragraph",
+      "severity": "major",
+      "source_quote": "Contentment",
+      "suggested_fix": "The English heading \"Contentment\" should be translated to a Norwegian word that conveys the meaning of 'being content' or 'satisfaction in God's will', e.g. “Tilfredshet”. Replace the <h2> text accordingly and ensure the following paragraph's wording matches that sense (e.g. first sentence: “Et annet stort skritt på veien til et oppfylt hjerte er tilfredshet.”). Preserve HTML structure.",
+      "translation_quote": "<h2>Innhold</h2>\n\n  <p>Et annet stort skritt på veien til et oppfylt hjerte er innhold. Du kan aldri være oppfylt hvis du ikke er fornøyd med å vite at du er i Guds vilje.</p> "
+    },
+    {
+      "location": "Paragraph immediately after Philippians quote (end of blockquote into narrative)",
+      "severity": "minor",
+      "source_quote": "“Look not every man on his own things, but every man also on the things of others. 5 Let this mind be in you, which was also in Christ Jesus: 6 Who, being in the form of God, thought it not robbery to be equal with God: 7 But made himself of no reputation, and took upon him the form of a servant, and was made in the likeness of men:” (Philippians 2:4)My wife and I recently celebrated our third anniversary.",
+      "suggested_fix": "Insert a space or paragraph break between the closing verse reference and the start of the narrative. Preserve the HTML structure. For example: “(Filipperne 2:4). Min kone og jeg feiret nylig vårt tredje jubileum.” Ensure punctuation is a period and a space before the narrative starts.",
+      "translation_quote": "“Se ikke hver og en bare på sitt, men også hver og en på andres ting. 5 La denne sinn være i dere som også var i Kristus Jesus: 6 han, som var i Guds skikkelse, anså det ikke som et rov å være like med Gud; 7 men han gav avkall på det og tok en tjeners skikkelse på seg, og ble menneskenes like” (Filipperne 2:4) Min kone og jeg feiret nylig vårt tredje jubileum."
+    },
+    {
+      "location": "Final blockquote citation (Hebrews 12;28)",
+      "severity": "minor",
+      "source_quote": "“Wherefore we receiving a kingdom which cannot be moved, let us have grace, whereby we may serve God acceptably with reverence and godly fear” (Hebrews 12;28).",
+      "suggested_fix": "Use a colon between chapter and verse as in the source canonical form (Hebrews 12:28). Adjust the translation to match: “(Hebreerne 12:28).” Preserve the blockquote and punctuation.",
+      "translation_quote": "“Derfor, siden vi får et rike som ikke kan rokkes, la oss ha takk, ved hvilken vi tjener Gud behagelig med ærefrykt og gudsfrykt” (Hebreerne 12;28)."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

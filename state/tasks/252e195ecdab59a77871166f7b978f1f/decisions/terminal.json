@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<h2>Identifique os Sinais Precoce</h2>",
+      "severity": "minor",
+      "source_quote": "<h2>Identify Early Signs</h2>",
+      "suggested_fix": "Change the heading to grammatically agree in Portuguese: <h2>Identifique os Sinais Precoces</h2>",
+      "translation_quote": "<h2>Identifique os Sinais Precoce</h2>"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

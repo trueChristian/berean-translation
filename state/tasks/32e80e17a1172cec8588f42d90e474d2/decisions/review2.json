@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph quoting Romans 15:9 (near \"Sing praises to God!\")",
+      "severity": "major",
+      "source_quote": "“And that the Gentiles might glorify God for his mercy; as it is written, For this cause I will confess to thee among the Gentiles, and sing unto thy name. 10 And again he saith, Rejoice, ye Gentiles, with his people. 11 And again, Praise the Lord, all ye Gentiles; and laud him, all ye people” (Romans 15:9).",
+      "suggested_fix": "Translate the verse to convey the original affirmative purpose clause. Replace the current rendering with a faithful Indonesian equivalent such as: “Dan supaya bangsa-bangsa memuliakan Allah karena kemurahan-Nya; seperti ada tertulis: Oleh sebab itu Aku akan menyanyi bagi Engkau di antara bangsa-bangsa, dan menyanyikan nama-Mu. 10 Dan lagi Ia berkata: Bersukacitalah, hai bangsa-bangsa, bersama umat-Nya. 11 Dan lagi: Pujilah Tuhan, hai segala bangsa; pujilah Dia, hai sekalian bangsa” (Roma 15:9). Preserve verse numbering and punctuation as in source.",
+      "translation_quote": "“Dan supaya bangsa-bangsa bukanlah tidak memuliakan Allah karena kemurahan-Nya; seperti ada tertulis: Oleh sebab itu Aku akan menyanyi bagi Engkau di antara bangsa-bangsa, dan menyanyikan nama-Mu. 10 Dan lagi Ia berkata: Bersukacitalah, hai bangsa-bangsa, bersama umat-Nya. 11 Dan lagi: Pujilah Tuhan, hai segala bangsa; pujilah Dia, hai sekalian bangsa” (Roma 15:9)."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

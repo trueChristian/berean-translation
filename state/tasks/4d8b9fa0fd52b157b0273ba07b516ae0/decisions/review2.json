@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph referencing Phaltiel / 2 Samuel 3:15-16",
+      "severity": "minor",
+      "source_quote": "Phaltiel",
+      "suggested_fix": "Restore the English author’s transliteration 'Phaltiel' (with 'Ph') or use the conventional Portuguese form if the publication prefers consistent Bible-name spellings. Either keep the author’s original spelling or apply a single, documented orthographic convention throughout the article.",
+      "translation_quote": "Faltiel"
+    },
+    {
+      "location": "References section / footnote",
+      "severity": "minor",
+      "source_quote": "Strongs Concordance",
+      "suggested_fix": "If you intend a conventional Portuguese rendering of the reference title, consider 'Concordância de Strong' (as translated) OR keep the original English title 'Strong's Concordance' if the house style retains untranslated work titles. Ensure the choice is applied consistently in metadata and footnotes.",
+      "translation_quote": "Concordância de Strong"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

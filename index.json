@@ -142,6 +142,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/20914547-a133-4159-bd5b-dff81f36453b.html",
+      "html_sha256": "5191d2c73c215a20280f325d8cd3a65a95c1ea35474921c92ef897e840c39ef3",
+      "human_reviewed": false,
+      "id": "20914547-a133-4159-bd5b-dff81f36453b",
+      "images": [
+        {
+          "alt": "’n Vrou in ’n rooi rok wat wegstap langs ’n sneeubedekte bospaadjie",
+          "public_path": "/images/articles/20914547-a133-4159-bd5b-dff81f36453b-1.jpg"
+        },
+        {
+          "alt": "’n Boom met sneeubedekte rooi-bruin blare",
+          "public_path": "/images/articles/20914547-a133-4159-bd5b-dff81f36453b-2.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/20914547-a133-4159-bd5b-dff81f36453b.json",
+      "metadata_sha256": "a5b90571638a9b9768490d7744d4c80f61766ce1fd9fef5f1c1b4f7d5365f644",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "INSPIRASIES VIR JEUG",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "2780d41d80f578475e27d5e54969bef54c79aef92fae3008a281d5b3d0e475c3",
+      "status": "ready",
+      "subtitle": "vir Ongetroudes",
+      "title": "Pad na ’n vervulde hart",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571.html",
       "html_sha256": "6208014d51dba5df6c0046c9b3d6031ed54a6dab12c23076a2cb8e7b3555e021",
       "human_reviewed": false,
@@ -797,6 +829,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/a1334217-82ac-49ef-8293-563122652b89.html",
+      "html_sha256": "72c1b6588ddbd6729d309031a90e304134d4da94d8f5c743cd90aaef10380e5a",
+      "human_reviewed": false,
+      "id": "a1334217-82ac-49ef-8293-563122652b89",
+      "images": [
+        {
+          "alt": "Lugfoto van ’n dorp onder ’n oranje sonondergang",
+          "public_path": "/images/articles/a1334217-82ac-49ef-8293-563122652b89-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/a1334217-82ac-49ef-8293-563122652b89.json",
+      "metadata_sha256": "b790c2d7d7e2d90a4671ef1c44461cf8f0b8d6ee7c670462af76bc9c37fbc512",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "MUSINGS OF A MISSIONARY",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "22f19fd4059c839acdb0760ae4c1ea7697fd7ad4642cdb6da3779c88fc7b55d4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "’n Stil en Vreedsaam Lewe?",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.html",
       "html_sha256": "79a59a38fea41b61b0a2a76ae7297addd41b9a62e5d87154c9ef05c973e57aba",
       "human_reviewed": false,
@@ -1400,6 +1460,42 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/21853000-58b7-413f-b119-c9b1a6012369.html",
+      "html_sha256": "fcbfa539ba1bbf2dccb890d7ae98d032e48f9363e52af5c9d52c91b304443e72",
+      "human_reviewed": false,
+      "id": "21853000-58b7-413f-b119-c9b1a6012369",
+      "images": [
+        {
+          "alt": "أطلال هيروشيما بعد قصفها بالقنبلة الذرية",
+          "public_path": "/images/articles/21853000-58b7-413f-b119-c9b1a6012369-1.jpg"
+        },
+        {
+          "alt": "كومة من الخرشوف الأخضر",
+          "public_path": "/images/articles/21853000-58b7-413f-b119-c9b1a6012369-2.jpg"
+        },
+        {
+          "alt": "صف من شواهد القبور المتآكلة",
+          "public_path": "/images/articles/21853000-58b7-413f-b119-c9b1a6012369-3.png"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/21853000-58b7-413f-b119-c9b1a6012369.json",
+      "metadata_sha256": "2bcb1d0c30384596353bb925f2a09f7dc5dd4150b2dc9d53cdd02caf254564a5",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "مَلامِحُ الله",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "3526d7232367f018301aa220868e7605f6dcc0608e6b2e5d5a6771923f6938fe",
+      "status": "ready",
+      "subtitle": null,
+      "title": "تجلِّي أمانة الله حتى في اللعنة",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
       "html_sha256": "f66d80693c253e50b888f4fd01bb8201c784c17ab9ba2892cfbe22a5d9967bbb",
       "human_reviewed": false,
@@ -1482,6 +1578,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "تأمل في الكنيسة المينونايتية الأمريكية المبكرة",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.html",
+      "html_sha256": "a9d57645b09813923ca9be983184404d53a2d551023cba7c0605f31c979c32a3",
+      "human_reviewed": false,
+      "id": "3c581136-51cf-47b2-a38b-3d1ee1d0b864",
+      "images": [
+        {
+          "alt": "طفل حديث الولادة نائم يرتدي عصابة رأس رقيقة",
+          "public_path": "/images/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864-1.jpg"
+        },
+        {
+          "alt": "يد رضيع تمسك إصبع شخص بالغ",
+          "public_path": "/images/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864-2.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.json",
+      "metadata_sha256": "7174c67afbce3e3205e1a0ab234cd00bb1b306cdca41e66e7695a4cce219fc24",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "أخت إلى أخت",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "f2478f0ee567de50716f2f909dafecb28388c4d5ba9651d1eee51ca0878db9fa",
+      "status": "ready",
+      "subtitle": null,
+      "title": "هل يُجيب الله الصلاة؟",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -2008,6 +2136,29 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/d2d95264-7df9-4ca8-9a99-01a68204d73a.html",
+      "html_sha256": "8afce04c0fed4f3a0f26b57c900babce75176ff4e552c9b2a559bef755c94bfd",
+      "human_reviewed": false,
+      "id": "d2d95264-7df9-4ca8-9a99-01a68204d73a",
+      "images": [],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/d2d95264-7df9-4ca8-9a99-01a68204d73a.json",
+      "metadata_sha256": "779a60e0011922fc11838c6a02f2090bed6cfafabf845807af3ecdf8088db05b",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "مَقَالَة مُميزة",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d21eb9a2e384c54d8451d42bc7b07528a6bfe6b701385ff6d901ec268b981022",
+      "status": "ready",
+      "subtitle": null,
+      "title": "مُخلَّص بالرجاء",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/d38bf79f-957f-413c-ad4d-a6b4fa8c8112.html",
       "html_sha256": "678f7463b9dab1f7176c400d6259d1e7028cc7f76e3134631a5db1fd59f15ff5",
       "human_reviewed": false,
@@ -2465,6 +2616,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/20914547-a133-4159-bd5b-dff81f36453b.html",
+      "html_sha256": "62b318586c0c2a4c3d22399df7646be56891aeeb9553b014413028b0b5a196f4",
+      "human_reviewed": false,
+      "id": "20914547-a133-4159-bd5b-dff81f36453b",
+      "images": [
+        {
+          "alt": "একজন লাল পোশাক পরা মহিলা তুষারবৃত্ত বনভূমির পথে দূরে চলছে",
+          "public_path": "/images/articles/20914547-a133-4159-bd5b-dff81f36453b-1.jpg"
+        },
+        {
+          "alt": "তুষার আচ্ছাদিত লালচে বাদামী পাতা সহ একটি গাছ",
+          "public_path": "/images/articles/20914547-a133-4159-bd5b-dff81f36453b-2.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/20914547-a133-4159-bd5b-dff81f36453b.json",
+      "metadata_sha256": "eeee2092d07f18d6e37382ad720761be254b6c181de956dd3d0ce6019663ee95",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "তরুণদের জন্য প্রেরণা",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "2780d41d80f578475e27d5e54969bef54c79aef92fae3008a281d5b3d0e475c3",
+      "status": "ready",
+      "subtitle": "অবিবাহীদের জন্য",
+      "title": "পরিপূর্ণ হৃদয়ের পথ",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571.html",
       "html_sha256": "8853448cc141e87a099f534cc626910a3413a91b352fa951fc4afa5a2d2ef916",
       "human_reviewed": false,
@@ -2488,6 +2671,42 @@
       "status": "ready",
       "subtitle": null,
       "title": "আমাদের মতো এক ক্রনিকল",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ben/articles/21853000-58b7-413f-b119-c9b1a6012369.html",
+      "html_sha256": "9e864a262adcc7e551c2ff94867fd2365b46a39cb575f1248d1221f5da2d4250",
+      "human_reviewed": false,
+      "id": "21853000-58b7-413f-b119-c9b1a6012369",
+      "images": [
+        {
+          "alt": "হিরোসিমায় পারমাণবিক বোমাবর্ষণের পরে ধ্বংসাবশেষ",
+          "public_path": "/images/articles/21853000-58b7-413f-b119-c9b1a6012369-1.jpg"
+        },
+        {
+          "alt": "সবুজ আর্টিশককের একটি গুচ্ছ",
+          "public_path": "/images/articles/21853000-58b7-413f-b119-c9b1a6012369-2.jpg"
+        },
+        {
+          "alt": "এক সার ধুলো-ছেঁড়া কবরফলক",
+          "public_path": "/images/articles/21853000-58b7-413f-b119-c9b1a6012369-3.png"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/21853000-58b7-413f-b119-c9b1a6012369.json",
+      "metadata_sha256": "fed0adfb77c3c0f1e3d234112b14e7ab1660e5c053f8649c13991c0b7f08bddf",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ঈশ্বরের বৈশিষ্ট্য",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "3526d7232367f018301aa220868e7605f6dcc0608e6b2e5d5a6771923f6938fe",
+      "status": "ready",
+      "subtitle": null,
+      "title": "অভিশাপের মধ্যেও প্রকাশিত ঈশ্বরের বিশ্বস্ততা",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -2731,6 +2950,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "সম্পাদকের অভিমত",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ben/articles/8072bb08-e7aa-4602-a3c6-f82161b740ae.html",
+      "html_sha256": "d6aec2a74ea6cafc21728d51c8bed9e26ea632f724497248b02648b22334e229",
+      "human_reviewed": false,
+      "id": "8072bb08-e7aa-4602-a3c6-f82161b740ae",
+      "images": [
+        {
+          "alt": "বরফে ঢাকা একটি মাঠে একটি পুরনো বাড়ি ও পাতা ঝরা গাছ",
+          "public_path": "/images/articles/8072bb08-e7aa-4602-a3c6-f82161b740ae-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/8072bb08-e7aa-4602-a3c6-f82161b740ae.json",
+      "metadata_sha256": "13d571eed440a72722ca32aeb8701f46bd1aad5f06582921e7cf4a9fd717b746",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "বাইবেলীয় শিক্ষাদর্শন",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "bf998429e527907a20f711c821e9bb6ad50ba4d154d9f55d397877de1bb521c0",
+      "status": "ready",
+      "subtitle": null,
+      "title": "যখন ঈশ্বর বলেন না",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -3008,6 +3255,29 @@
       "status": "ready",
       "subtitle": null,
       "title": "বসন্তের মহিমা",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ben/articles/d2d95264-7df9-4ca8-9a99-01a68204d73a.html",
+      "html_sha256": "3b13b24c4dcc53a68f28051e2f82cac5cc4875ded4fa9a866772e6272fcc3dbc",
+      "human_reviewed": false,
+      "id": "d2d95264-7df9-4ca8-9a99-01a68204d73a",
+      "images": [],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/d2d95264-7df9-4ca8-9a99-01a68204d73a.json",
+      "metadata_sha256": "7d257469a22ddc8856cadb1d7123fc0ecc7efef10d0902e63a6e693bd5a96a32",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ফিচার করা নিবন্ধ",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d21eb9a2e384c54d8451d42bc7b07528a6bfe6b701385ff6d901ec268b981022",
+      "status": "ready",
+      "subtitle": null,
+      "title": "আশায় রক্ষা",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -4606,6 +4876,34 @@
       "status": "ready",
       "subtitle": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2",
       "title": "Gott, die Vollkommenheit der Schönheit",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/48db8b57-eca2-4d35-a48f-13c21d68bab0.html",
+      "html_sha256": "b1ba667018a88bdff20bd3ba88a9a6d3bfe040caea3596c195ae1a358c41f556",
+      "human_reviewed": false,
+      "id": "48db8b57-eca2-4d35-a48f-13c21d68bab0",
+      "images": [
+        {
+          "alt": "Ein Holztor in einem Steinbogen neben einem hölzernen Geländer",
+          "public_path": "/images/articles/48db8b57-eca2-4d35-a48f-13c21d68bab0-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/48db8b57-eca2-4d35-a48f-13c21d68bab0.json",
+      "metadata_sha256": "60a93dddbfbd4348f46ad2feadcfcd130fc3343c0de5c53cea24ea6ceb99b697",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "HERAUSGEHOBENER ARTIKEL",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "b25c7ba97f60cd8b593ddd3f02e4c8b5da68408268cf7ae4a26bd9922702c945",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Nichts wird sie anstoßen",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -6747,6 +7045,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/21853000-58b7-413f-b119-c9b1a6012369.html",
+      "html_sha256": "28974cfc91643074c3bcd4e4f52f32cc8bcc429968f4de77fabb4f636c63e1c9",
+      "human_reviewed": false,
+      "id": "21853000-58b7-413f-b119-c9b1a6012369",
+      "images": [
+        {
+          "alt": "Ruines d'Hiroshima après le bombardement atomique",
+          "public_path": "/images/articles/21853000-58b7-413f-b119-c9b1a6012369-1.jpg"
+        },
+        {
+          "alt": "Un tas d'artichauts verts",
+          "public_path": "/images/articles/21853000-58b7-413f-b119-c9b1a6012369-2.jpg"
+        },
+        {
+          "alt": "Une rangée de pierres tombales usées par le temps",
+          "public_path": "/images/articles/21853000-58b7-413f-b119-c9b1a6012369-3.png"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/21853000-58b7-413f-b119-c9b1a6012369.json",
+      "metadata_sha256": "100f14339a8345bab23e97f670ef989dc509b4ee669017db0a9c384102ba3ea4",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ATTRIBUTS DE DIEU",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "3526d7232367f018301aa220868e7605f6dcc0608e6b2e5d5a6771923f6938fe",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La fidélité de Dieu se manifeste même dans la malédiction",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
       "html_sha256": "58394f69434493cb19fa9c81ff4659248f4aa929870157c037e5992598dcc186",
       "human_reviewed": false,
@@ -6857,6 +7191,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "Vous devez naître de nouveau",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.html",
+      "html_sha256": "431995f06668103a7fea2ce143f70448505527fd01ad3e8fd0fa62d1970c3a5f",
+      "human_reviewed": false,
+      "id": "3c581136-51cf-47b2-a38b-3d1ee1d0b864",
+      "images": [
+        {
+          "alt": "Un bébé nouveau-né endormi portant un fin bandeau",
+          "public_path": "/images/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864-1.jpg"
+        },
+        {
+          "alt": "La main d'un bébé tenant un doigt d'adulte",
+          "public_path": "/images/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864-2.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.json",
+      "metadata_sha256": "e956b3bac531ccce78c35648edc4c09d2ec4acba326a69a21737894c85d93584",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "De sœur à sœur",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "f2478f0ee567de50716f2f909dafecb28388c4d5ba9651d1eee51ca0878db9fa",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dieu répond-il à la prière ?",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -7518,6 +7884,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/a1334217-82ac-49ef-8293-563122652b89.html",
+      "html_sha256": "3181df4857cd9dc6bd91f1b22ffaf84a02a6228d375a4404c7f31a8406bcd5a4",
+      "human_reviewed": false,
+      "id": "a1334217-82ac-49ef-8293-563122652b89",
+      "images": [
+        {
+          "alt": "Vue aérienne d'une ville sous un coucher de soleil orange",
+          "public_path": "/images/articles/a1334217-82ac-49ef-8293-563122652b89-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/a1334217-82ac-49ef-8293-563122652b89.json",
+      "metadata_sha256": "f553b9b63e5b5445443abb11bde85c5922a8309ff94291461305759e672450f5",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "RÉFLEXIONS D'UN MISSIONNAIRE",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "22f19fd4059c839acdb0760ae4c1ea7697fd7ad4642cdb6da3779c88fc7b55d4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Une vie paisible et tranquille ?",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.html",
       "html_sha256": "9f4623dad97f5be56975eabe35cc8a8f232f48639a28a047ebd267a5e997fae9",
       "human_reviewed": false,
@@ -7815,6 +8209,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Dérive",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473.html",
+      "html_sha256": "c9146f4fc8111501485855ccbcc0520c1f4b1fe4a366a93b5d999bfe62c5c523",
+      "human_reviewed": false,
+      "id": "c22883c1-1d69-4c5e-aa81-d4015bf4e473",
+      "images": [
+        {
+          "alt": "Une forêt de conifères enveloppée de brume dans un paysage montagneux",
+          "public_path": "/images/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473.json",
+      "metadata_sha256": "77e3071d7660a599ca8090ae2829237a301bda0f711b9072efec93cc1707b798",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "De la RÉDACTION",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "7328fe7985535229790c376868603624111ed137e1665aff6a36b03d5b4d90fa",
+      "status": "ready",
+      "subtitle": null,
+      "title": "De la rédaction",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -8463,6 +8885,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5.html",
+      "html_sha256": "4b57b1fcfdab8e23df353412b1116da026d591483757cc055bfd3cdc1b27badf",
+      "human_reviewed": false,
+      "id": "ee9ff8a9-5b59-4b3e-9585-ab891c945bb5",
+      "images": [
+        {
+          "alt": "דרך מכוסה שלג המתפתלת דרך יער של עצי חורש תמידי",
+          "public_path": "/images/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5.json",
+      "metadata_sha256": "adf7b2f3b3740a85010c34d137c72a69ea2cf6f8aecea0589a686139f7fcfe17",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "a0e94b1f79a0eed4b2b4fa527a207a63d01981d07be68e5cda06b45933da47fd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "שביל החיים",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.html",
       "html_sha256": "74650346290bdd3661272238005747d341dd328e18a6bb0c99a253eed7b1396e",
       "human_reviewed": false,
@@ -8611,6 +9061,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/20914547-a133-4159-bd5b-dff81f36453b.html",
+      "html_sha256": "d000398dd11381a4a6a5c0363ca4a56c3cc1a94996d3cf748df130e4c538282d",
+      "human_reviewed": false,
+      "id": "20914547-a133-4159-bd5b-dff81f36453b",
+      "images": [
+        {
+          "alt": "एक लाल ड्रेस में एक महिला बर्फीले जंगल के रास्ते पर दूर चलती हुई",
+          "public_path": "/images/articles/20914547-a133-4159-bd5b-dff81f36453b-1.jpg"
+        },
+        {
+          "alt": "एक पेड़ जिसके भूरे-लाल पत्तों पर बर्फ जमी हुई है",
+          "public_path": "/images/articles/20914547-a133-4159-bd5b-dff81f36453b-2.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/20914547-a133-4159-bd5b-dff81f36453b.json",
+      "metadata_sha256": "cc76cb13709725bd5588dc37131907d045e6d63c99e31fc968ae43c4c340e7f6",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "युवा प्रेरणाएँ",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "2780d41d80f578475e27d5e54969bef54c79aef92fae3008a281d5b3d0e475c3",
+      "status": "ready",
+      "subtitle": "अविवाहितों के लिए",
+      "title": "एक परिपूर्ण हृदय का मार्ग",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571.html",
       "html_sha256": "c43b529745c274d5dc9eabaef8dcb06bc692711245bc5b963a0c0052db1bfca1",
       "human_reviewed": false,
@@ -8634,6 +9116,42 @@
       "status": "ready",
       "subtitle": null,
       "title": "हमारे समान एक इतिहास",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/21853000-58b7-413f-b119-c9b1a6012369.html",
+      "html_sha256": "a3708da8110d177f449e51fa071723634d6e924dd61e617e5c2cd283cec2d64d",
+      "human_reviewed": false,
+      "id": "21853000-58b7-413f-b119-c9b1a6012369",
+      "images": [
+        {
+          "alt": "हिरोशिमा में परमाणु बमबारी के बाद के अवशेष",
+          "public_path": "/images/articles/21853000-58b7-413f-b119-c9b1a6012369-1.jpg"
+        },
+        {
+          "alt": "एक ढेर हरे आर्टिचोक्स",
+          "public_path": "/images/articles/21853000-58b7-413f-b119-c9b1a6012369-2.jpg"
+        },
+        {
+          "alt": "एक पंक्ति में मौसम से क्षीण श्मशान-शिलाएँ",
+          "public_path": "/images/articles/21853000-58b7-413f-b119-c9b1a6012369-3.png"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/21853000-58b7-413f-b119-c9b1a6012369.json",
+      "metadata_sha256": "5615301648fc0a90756e7ecb8f3072990f78a224fe257b045b35f47005ac1867",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "परमेश्वर के गुण",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "3526d7232367f018301aa220868e7605f6dcc0608e6b2e5d5a6771923f6938fe",
+      "status": "ready",
+      "subtitle": null,
+      "title": "शाप में भी परमेश्वर की वफादारी प्रकट होती है",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -8949,6 +9467,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/8072bb08-e7aa-4602-a3c6-f82161b740ae.html",
+      "html_sha256": "e159b9a15fddadb4ce7434bf02bf1e5ad467348844550d1f07f171565c153236",
+      "human_reviewed": false,
+      "id": "8072bb08-e7aa-4602-a3c6-f82161b740ae",
+      "images": [
+        {
+          "alt": "एक बर्फ़ीले मैदान में एक पुराना घर और नंगा पेड़",
+          "public_path": "/images/articles/8072bb08-e7aa-4602-a3c6-f82161b740ae-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/8072bb08-e7aa-4602-a3c6-f82161b740ae.json",
+      "metadata_sha256": "0a403f64c87158edc9c0dc76f901e12d3d9810cb1fa7c041edcfe62ca7b96871",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "बाइबिल सिद्धांत",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "bf998429e527907a20f711c821e9bb6ad50ba4d154d9f55d397877de1bb521c0",
+      "status": "ready",
+      "subtitle": null,
+      "title": "जब परमेश्वर 'नहीं' कहते हैं",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
       "html_sha256": "4bd6c7968de5c0adf0d955dcd6767b627c9b5c0ad2948a5387715b601ea3d649",
       "human_reviewed": false,
@@ -9008,6 +9554,62 @@
       "status": "ready",
       "subtitle": null,
       "title": "परिस्थितिजन्य अतिभार",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/97efa86c-46a8-499e-850a-d626dce2fd7c.html",
+      "html_sha256": "bba548b9b6ac7e6e1658f4a0237753361201ddc23a769b5a6019419b872cd45e",
+      "human_reviewed": false,
+      "id": "97efa86c-46a8-499e-850a-d626dce2fd7c",
+      "images": [
+        {
+          "alt": "एक झील में परावर्तित एक धुंधली सदाबहार वन",
+          "public_path": "/images/articles/97efa86c-46a8-499e-850a-d626dce2fd7c-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/97efa86c-46a8-499e-850a-d626dce2fd7c.json",
+      "metadata_sha256": "6712f6aad27afecd5e45d7302ce5254593c0126f12a980fc25b6ca8b978c9c99",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "भजन इतिहास",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "151c676a3a3f4de7275eee354cc0c629e172ecc2dbb372f12ae064df79d4e44e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "तेरी सारी दयाएँ, हे मेरे परमेश्वर",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/a1334217-82ac-49ef-8293-563122652b89.html",
+      "html_sha256": "4bac62bc68462876385c40838f090f03ec9f7f2d1d83cd46ff6dc660580af111",
+      "human_reviewed": false,
+      "id": "a1334217-82ac-49ef-8293-563122652b89",
+      "images": [
+        {
+          "alt": "नारंगी सूर्यास्त के नीचे एक शहर का हवाई दृश्य",
+          "public_path": "/images/articles/a1334217-82ac-49ef-8293-563122652b89-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/a1334217-82ac-49ef-8293-563122652b89.json",
+      "metadata_sha256": "6e0050780c739b32ed4c9fd096a6044f3e4f6755351855d24895bc92d13b3f09",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "एक मिशनरी के विचार",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "22f19fd4059c839acdb0760ae4c1ea7697fd7ad4642cdb6da3779c88fc7b55d4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "क्या शांत और शांतिपूर्ण जीवन?",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -9726,6 +10328,42 @@
       "status": "ready",
       "subtitle": null,
       "title": "Kesenangan untuk Semua",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/21853000-58b7-413f-b119-c9b1a6012369.html",
+      "html_sha256": "8b13fc78d6b1457f2fc90f00fc29fa020763b0199a77ac548468d5c708782b70",
+      "human_reviewed": false,
+      "id": "21853000-58b7-413f-b119-c9b1a6012369",
+      "images": [
+        {
+          "alt": "Reruntuhan Hiroshima setelah pengeboman atom",
+          "public_path": "/images/articles/21853000-58b7-413f-b119-c9b1a6012369-1.jpg"
+        },
+        {
+          "alt": "Tumpukan artichoke hijau",
+          "public_path": "/images/articles/21853000-58b7-413f-b119-c9b1a6012369-2.jpg"
+        },
+        {
+          "alt": "Barisan batu nisan yang lapuk oleh cuaca",
+          "public_path": "/images/articles/21853000-58b7-413f-b119-c9b1a6012369-3.png"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/21853000-58b7-413f-b119-c9b1a6012369.json",
+      "metadata_sha256": "7107e7da6b94fb1b9512a68b6cbfd1236918024ae17bc956f4cee06739d234cf",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SIFAT-SIFAT TUHAN",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "3526d7232367f018301aa220868e7605f6dcc0608e6b2e5d5a6771923f6938fe",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kesetiaan Allah Terpancar Bahkan dalam Kutukan",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -10484,6 +11122,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/97efa86c-46a8-499e-850a-d626dce2fd7c.html",
+      "html_sha256": "984224d05d58778046493eb2e6a10d44587a6ef89a1c9ab3fa6eb664143719f8",
+      "human_reviewed": false,
+      "id": "97efa86c-46a8-499e-850a-d626dce2fd7c",
+      "images": [
+        {
+          "alt": "Hutan konifer berkabut tercermin di sebuah danau",
+          "public_path": "/images/articles/97efa86c-46a8-499e-850a-d626dce2fd7c-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/97efa86c-46a8-499e-850a-d626dce2fd7c.json",
+      "metadata_sha256": "442e5e71918523ad78321c2210c7b9a8de183b90f6793461925ccb847f6c66aa",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "HYMN HISTORY",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "151c676a3a3f4de7275eee354cc0c629e172ecc2dbb372f12ae064df79d4e44e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ketika Semua Kasih‑Mu, Ya Allah",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.html",
       "html_sha256": "4a36de764c0468ef33a7714f066bf21063e372aab7e05643865cf9b5c22bf273",
       "human_reviewed": false,
@@ -10971,6 +11637,29 @@
       "status": "ready",
       "subtitle": null,
       "title": "Kelelahan",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/d2d95264-7df9-4ca8-9a99-01a68204d73a.html",
+      "html_sha256": "315188c5ad85baa539206845d8fa94f9b9c9265b3e92ffdbdc599d58e39565f2",
+      "human_reviewed": false,
+      "id": "d2d95264-7df9-4ca8-9a99-01a68204d73a",
+      "images": [],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/d2d95264-7df9-4ca8-9a99-01a68204d73a.json",
+      "metadata_sha256": "8a2080ec48f66ca9f9ac740727774973cfcfd2c7fd2955873f0caf978c3a653d",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ARTIKEL PILIHAN",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d21eb9a2e384c54d8451d42bc7b07528a6bfe6b701385ff6d901ec268b981022",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Diselamatkan oleh Harapan",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -11679,6 +12368,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/48db8b57-eca2-4d35-a48f-13c21d68bab0.html",
+      "html_sha256": "586d9253e7a9f0d7c2aedc4fc17c4aca37cb6ba3cf7724d9ea80665f9bb4efd6",
+      "human_reviewed": false,
+      "id": "48db8b57-eca2-4d35-a48f-13c21d68bab0",
+      "images": [
+        {
+          "alt": "Un cancello di legno in un arco di pietra accanto a una ringhiera di legno",
+          "public_path": "/images/articles/48db8b57-eca2-4d35-a48f-13c21d68bab0-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/48db8b57-eca2-4d35-a48f-13c21d68bab0.json",
+      "metadata_sha256": "4a9773c6c7c484c0bfa329949a1eb6157e2a9a65309debbbc8a5df21ca7ffa79",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ARTICOLO IN EVIDENZA",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "b25c7ba97f60cd8b593ddd3f02e4c8b5da68408268cf7ae4a26bd9922702c945",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Nulla li scandalizzerà",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9.html",
       "html_sha256": "1db43c948734892c3e3b89dd8004e53eefdcf3afc4299454f45df269240b9690",
       "human_reviewed": false,
@@ -12239,6 +12956,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/97efa86c-46a8-499e-850a-d626dce2fd7c.html",
+      "html_sha256": "566769d186ad7b1b1eddeff5a18468d30b97c3affc679c0274df7471ab324518",
+      "human_reviewed": false,
+      "id": "97efa86c-46a8-499e-850a-d626dce2fd7c",
+      "images": [
+        {
+          "alt": "Una foresta sempreverde avvolta nella nebbia riflessa in un lago",
+          "public_path": "/images/articles/97efa86c-46a8-499e-850a-d626dce2fd7c-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/97efa86c-46a8-499e-850a-d626dce2fd7c.json",
+      "metadata_sha256": "2f386df2f77f10326192786d1bb8b847638cf47c0775d68e9b8f9f8a43612e73",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "STORIA DELL'INNO",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "151c676a3a3f4de7275eee354cc0c629e172ecc2dbb372f12ae064df79d4e44e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Quando tutte le tue misericordie, o mio Dio",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.html",
       "html_sha256": "888d68eadcedf392d8b5e93b7a55e979a5e0471e539b37593bfbf5e4f7ee0f6d",
       "human_reviewed": false,
@@ -12652,6 +13397,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473.html",
+      "html_sha256": "10c76e0a32a3227cc203397f0962b4c3c4c19cf3d212a5b82d8de678d7fd4c89",
+      "human_reviewed": false,
+      "id": "c22883c1-1d69-4c5e-aa81-d4015bf4e473",
+      "images": [
+        {
+          "alt": "Una foresta di sempreverdi avvolta nella nebbia in un paesaggio montano",
+          "public_path": "/images/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473.json",
+      "metadata_sha256": "8674aa9b6d13d1a66939e3afcc0033479828f401d3a8e25748583ebe88f6dbec",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Dal direttore",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "7328fe7985535229790c376868603624111ed137e1665aff6a36b03d5b4d90fa",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dal direttore",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/cb06f158-b3bf-41e8-9b8c-3f8490443a07.html",
       "html_sha256": "dc14549098cdbf6d904edfce1ea4d6cf97fe5368bfa11bdf0656eff4ea4e65ce",
       "human_reviewed": false,
@@ -12887,6 +13660,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Incoronalo di molte corone",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5.html",
+      "html_sha256": "910331a3795c9e4c119bd8638b5bd6eeffffafb87bf7bab4ed611366095bc600",
+      "human_reviewed": false,
+      "id": "ee9ff8a9-5b59-4b3e-9585-ab891c945bb5",
+      "images": [
+        {
+          "alt": "Una strada coperta di neve che serpeggia attraverso una foresta di sempreverdi",
+          "public_path": "/images/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5.json",
+      "metadata_sha256": "614b513b5005a12b016a77624fad08bbff662db1969daa5af083ea986d4977d1",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "a0e94b1f79a0eed4b2b4fa527a207a63d01981d07be68e5cda06b45933da47fd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Il sentiero della vita",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -13658,6 +14459,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/8072bb08-e7aa-4602-a3c6-f82161b740ae.html",
+      "html_sha256": "c32839f021affaf7620cbae2a7ff160c22d0fc7efa46dc8012b287e36183aa0e",
+      "human_reviewed": false,
+      "id": "8072bb08-e7aa-4602-a3c6-f82161b740ae",
+      "images": [
+        {
+          "alt": "눈 덮인 들판의 오래된 집과 앙상한 나무들",
+          "public_path": "/images/articles/8072bb08-e7aa-4602-a3c6-f82161b740ae-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/8072bb08-e7aa-4602-a3c6-f82161b740ae.json",
+      "metadata_sha256": "315fd4e3ff13147126013b39b71bc0cd3a7ec122ea72aceb52baeb8de7e73355",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "성경 교리",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "bf998429e527907a20f711c821e9bb6ad50ba4d154d9f55d397877de1bb521c0",
+      "status": "ready",
+      "subtitle": null,
+      "title": "하나님이 '아니오'라고 하실 때",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
       "html_sha256": "2fc5531369dfccd02f8d95d980021c69771960ff3ba2305c7e340e2a3ca7ac55",
       "human_reviewed": false,
@@ -14083,6 +14912,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473.html",
+      "html_sha256": "bd929050af76c76c467bdd0b4fd25ddb7277d2315ba3b9673bef86411b9203f0",
+      "human_reviewed": false,
+      "id": "c22883c1-1d69-4c5e-aa81-d4015bf4e473",
+      "images": [
+        {
+          "alt": "안개 낀 상록수 숲이 있는 산악 풍경",
+          "public_path": "/images/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473.json",
+      "metadata_sha256": "b68a090b8543a41000acf6a600fa49bad7405435535788a82683eabc80a924c1",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "편집장으로부터",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "7328fe7985535229790c376868603624111ed137e1665aff6a36b03d5b4d90fa",
+      "status": "ready",
+      "subtitle": null,
+      "title": "편집장의 글",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/c7009feb-1e58-4c54-a5e9-ae0bf90ed9cf.html",
       "html_sha256": "d78317151b9bcf408266b75565e0ffca9b97fee7b252aabc305491c9562e284b",
       "human_reviewed": false,
@@ -14240,6 +15097,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "편집장의 글",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5.html",
+      "html_sha256": "bfea5403f5278a383325dbb36c974e6364bae49603d7801f4189829344e88609",
+      "human_reviewed": false,
+      "id": "ee9ff8a9-5b59-4b3e-9585-ab891c945bb5",
+      "images": [
+        {
+          "alt": "상록수림을 지나 구불구불 이어진 눈 덮인 길",
+          "public_path": "/images/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5.json",
+      "metadata_sha256": "9f719c3cc4f75a9b8c0eac14ca7021bea555a8a7a5a10d531c72d30c48fa47f5",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "a0e94b1f79a0eed4b2b4fa527a207a63d01981d07be68e5cda06b45933da47fd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "삶의 길",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -14664,6 +15549,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.html",
+      "html_sha256": "77338827e880aebcd5fd55f275cc3005cee91e027b7783da06dcb728c7093a74",
+      "human_reviewed": false,
+      "id": "3c581136-51cf-47b2-a38b-3d1ee1d0b864",
+      "images": [
+        {
+          "alt": "Een slapende pasgeboren baby met een dun haarbandje",
+          "public_path": "/images/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864-1.jpg"
+        },
+        {
+          "alt": "Een babyhandje dat een volwassen vinger vasthoudt",
+          "public_path": "/images/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864-2.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.json",
+      "metadata_sha256": "ffa6669a683ceeccdafc423f191aed9113ed357a69a6ed1af51d92aa92567cb3",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ZUSTER AAN ZUSTER",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "f2478f0ee567de50716f2f909dafecb28388c4d5ba9651d1eee51ca0878db9fa",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Beantwoordt God gebeden?",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/45c612ff-1966-4079-9ba5-09ab022917ea.html",
       "html_sha256": "9736db4b62ec877a24e8433e6b83709780b78d51de7c16db4b792f4f451a9363",
       "human_reviewed": false,
@@ -14714,6 +15631,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Ik zal Gods Woord in het hart van mijn (kind) verbergen",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/48db8b57-eca2-4d35-a48f-13c21d68bab0.html",
+      "html_sha256": "cc2f12300821ba76649bf018e161263b96c608ddd3ff6d7b5fa1b7030a24cb22",
+      "human_reviewed": false,
+      "id": "48db8b57-eca2-4d35-a48f-13c21d68bab0",
+      "images": [
+        {
+          "alt": "Een houten poort in een stenen boog naast een houten leuning",
+          "public_path": "/images/articles/48db8b57-eca2-4d35-a48f-13c21d68bab0-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/48db8b57-eca2-4d35-a48f-13c21d68bab0.json",
+      "metadata_sha256": "a0873d67d9e4a40356d26559d62e57beb490802fa6ed4b685b2eefb0e6cb5e58",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "FEATURED ARTICLE",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "b25c7ba97f60cd8b593ddd3f02e4c8b5da68408268cf7ae4a26bd9922702c945",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Niets Zal Hen Aanstoot Geven",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -15191,6 +16136,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/97efa86c-46a8-499e-850a-d626dce2fd7c.html",
+      "html_sha256": "9aadc9afe9edf8e603cbd3820294308d1a7940e89f963373c2ec8db3cfb86e0d",
+      "human_reviewed": false,
+      "id": "97efa86c-46a8-499e-850a-d626dce2fd7c",
+      "images": [
+        {
+          "alt": "Een nevelig naaldbos weerspiegeld in een meer",
+          "public_path": "/images/articles/97efa86c-46a8-499e-850a-d626dce2fd7c-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/97efa86c-46a8-499e-850a-d626dce2fd7c.json",
+      "metadata_sha256": "e7578870f113e250afc6b0d91bd66a6bd52d451975e908053116d8115bd518da",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "LIEDGESCHIEDENIS",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "151c676a3a3f4de7275eee354cc0c629e172ecc2dbb372f12ae064df79d4e44e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Wanneer al Uw barmhartigheden, o mijn God",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.html",
       "html_sha256": "d860b785195be5fa3de17bf8ed02c33fe27f1bc96e711e34ad241f9ad44267e6",
       "human_reviewed": false,
@@ -15617,6 +16590,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "Van de redacteur",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/d0395fde-712d-488d-a161-c26c87ed128b.html",
+      "html_sha256": "4f6614a2d8e1183727a72af714e166d27f3123d11e29d14bd6bac19d13f95c01",
+      "human_reviewed": false,
+      "id": "d0395fde-712d-488d-a161-c26c87ed128b",
+      "images": [
+        {
+          "alt": "Een open Bijbel, een kamerplant in een pot en een kop koffie op een donkere tafel",
+          "public_path": "/images/articles/d0395fde-712d-488d-a161-c26c87ed128b-1.jpg"
+        },
+        {
+          "alt": "Een wandelaar met een felgroen rugzakje staand op een bergtop boven de wolken",
+          "public_path": "/images/articles/d0395fde-712d-488d-a161-c26c87ed128b-2.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/d0395fde-712d-488d-a161-c26c87ed128b.json",
+      "metadata_sha256": "de6ab1beb3d51efe80e89afc65a9f7c99a386df8d6f7bc352d8fb48afc38ea0e",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "EEN WOORD VAN EEN ARTS",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "28073e361d20840e4b86554b9fb0dc665e6272c0d3acf705cd41f2c5576aaa35",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Burn-out",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -16351,6 +17356,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.html",
+      "html_sha256": "43d02b54050eccf6a8e32ffc5b7178d419132d9ecb91675733da45f27dd6ac5e",
+      "human_reviewed": false,
+      "id": "3c581136-51cf-47b2-a38b-3d1ee1d0b864",
+      "images": [
+        {
+          "alt": "En sovende nyfødt baby som har på seg et tynt hodebånd",
+          "public_path": "/images/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864-1.jpg"
+        },
+        {
+          "alt": "En babys hånd som holder en voksen finger",
+          "public_path": "/images/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864-2.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.json",
+      "metadata_sha256": "382598516b06236ce49f2f35ccc641f7d95408719e62227594ebc7e4b5f5a1e1",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SØSTER TIL SØSTER",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "f2478f0ee567de50716f2f909dafecb28388c4d5ba9651d1eee51ca0878db9fa",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Svarer Gud på bønn?",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/45c612ff-1966-4079-9ba5-09ab022917ea.html",
       "html_sha256": "103321d74b861d5fd2fb920121f96bc1e7aa4e31fdcdf1aff34b9b1e88d22705",
       "human_reviewed": false,
@@ -16929,6 +17966,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3.html",
+      "html_sha256": "25e61533667f39d1d5334fb435c5dd0ed9b793434bb6cb44355194ce7cb4f47f",
+      "human_reviewed": false,
+      "id": "a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3",
+      "images": [
+        {
+          "alt": "To gutter som sykler nedover bakken mens en liten hund løper ut i veien",
+          "public_path": "/images/articles/a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3.json",
+      "metadata_sha256": "6bbf6b70c72e2b9225ac84fe48f6ff13c8f86f274e461f7376ce358c7b91fc53",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Barnas hjørne",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "b2d358ce80d345919a9aeec61b0c0a38e5f8adb553e707efe8d7b1d08ee3bf17",
+      "status": "ready",
+      "subtitle": null,
+      "title": "SYKKELKAPPLØPET",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/a6ab0f33-e20a-4b19-ae47-f094395a54f8.html",
       "html_sha256": "c90df7286320ae6eacf50b0aec7d88da4287334946af59062d12edf6f98825f8",
       "human_reviewed": false,
@@ -17142,6 +18207,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473.html",
+      "html_sha256": "cfa4ed1660c3f0775f4a5567d4094c3c7afb24662f78ecc8f5442b898468555d",
+      "human_reviewed": false,
+      "id": "c22883c1-1d69-4c5e-aa81-d4015bf4e473",
+      "images": [
+        {
+          "alt": "En tåkete eviggrønn skog i et fjellandskap",
+          "public_path": "/images/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473.json",
+      "metadata_sha256": "7a6d6ba0a3c48433a71f6deb3113dc3190bb7511d8bd02403c250bdc258f886f",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Fra redaktøren",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "7328fe7985535229790c376868603624111ed137e1665aff6a36b03d5b4d90fa",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Fra redaktøren",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/c7009feb-1e58-4c54-a5e9-ae0bf90ed9cf.html",
       "html_sha256": "a10e7df3119c7c5e590ab9c4b5f117a3e42a226b0b56ae7dfb25506ae0b2040e",
       "human_reviewed": false,
@@ -17248,6 +18341,29 @@
       "status": "ready",
       "subtitle": null,
       "title": "Utbrenthet",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/d2d95264-7df9-4ca8-9a99-01a68204d73a.html",
+      "html_sha256": "7a550629758b8d96a15ba6d99b2cc50793dd1d7109934780e6fcd02e858bff3e",
+      "human_reviewed": false,
+      "id": "d2d95264-7df9-4ca8-9a99-01a68204d73a",
+      "images": [],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/d2d95264-7df9-4ca8-9a99-01a68204d73a.json",
+      "metadata_sha256": "245f81d3e24a74e5cbdae627be921d6fe12496510db0524692a6b4cacd514c7b",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "UTVALGT ARTIKKEL",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d21eb9a2e384c54d8451d42bc7b07528a6bfe6b701385ff6d901ec268b981022",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Frelst ved håp",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -17605,6 +18721,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/21853000-58b7-413f-b119-c9b1a6012369.html",
+      "html_sha256": "e828f655269410994257d678066e2bc4cde6b7da23b1934e47f2a78008cae1b6",
+      "human_reviewed": false,
+      "id": "21853000-58b7-413f-b119-c9b1a6012369",
+      "images": [
+        {
+          "alt": "Ruínas de Hiroshima após o bombardeio atômico",
+          "public_path": "/images/articles/21853000-58b7-413f-b119-c9b1a6012369-1.jpg"
+        },
+        {
+          "alt": "Um monte de alcachofras verdes",
+          "public_path": "/images/articles/21853000-58b7-413f-b119-c9b1a6012369-2.jpg"
+        },
+        {
+          "alt": "Uma fileira de lápides desgastadas pelo tempo",
+          "public_path": "/images/articles/21853000-58b7-413f-b119-c9b1a6012369-3.png"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/21853000-58b7-413f-b119-c9b1a6012369.json",
+      "metadata_sha256": "d321b3448a83325cbd10027af0eb06d876661ff183d1ba62ee51b8e40b23708a",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ATRIBUTOS DE DEUS",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "3526d7232367f018301aa220868e7605f6dcc0608e6b2e5d5a6771923f6938fe",
+      "status": "ready",
+      "subtitle": null,
+      "title": "A fidelidade de Deus manifesta-se mesmo na maldição",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
       "html_sha256": "aea003e16ee06ab86c45da1fae3cb02f86e3abb4b3302c83933d2498c67bf53f",
       "human_reviewed": false,
@@ -17877,6 +19029,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Vou Esconder a Palavra de Deus no Coração do Meu Filho(a)",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/48db8b57-eca2-4d35-a48f-13c21d68bab0.html",
+      "html_sha256": "60e0a92617669840b93a54708542c8bc688fae3bc8d63dbf5a9d602eb1faf6fd",
+      "human_reviewed": false,
+      "id": "48db8b57-eca2-4d35-a48f-13c21d68bab0",
+      "images": [
+        {
+          "alt": "Um portão de madeira em um arco de pedra ao lado de um corrimão de madeira",
+          "public_path": "/images/articles/48db8b57-eca2-4d35-a48f-13c21d68bab0-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/48db8b57-eca2-4d35-a48f-13c21d68bab0.json",
+      "metadata_sha256": "4cf7e9d9c57ff9c0133d3b5e47b319c6feb808eccd9c7d7b3c889a155399cad2",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ARTIGO DE DESTAQUE",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "b25c7ba97f60cd8b593ddd3f02e4c8b5da68408268cf7ae4a26bd9922702c945",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Nada os Fará Tropeçar",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -18405,6 +19585,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/97efa86c-46a8-499e-850a-d626dce2fd7c.html",
+      "html_sha256": "c4d380a48c2ffc8e6d257195fe8418fcf53121d4e9eaa61876e90d802d20758e",
+      "human_reviewed": false,
+      "id": "97efa86c-46a8-499e-850a-d626dce2fd7c",
+      "images": [
+        {
+          "alt": "Uma floresta perene enevoada refletida num lago",
+          "public_path": "/images/articles/97efa86c-46a8-499e-850a-d626dce2fd7c-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/97efa86c-46a8-499e-850a-d626dce2fd7c.json",
+      "metadata_sha256": "1c90f178eecc83adbcad1bfc34e7d39ef509ec5da98d898703a3b6142fbdc64d",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "HISTÓRIA DO HINO",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "151c676a3a3f4de7275eee354cc0c629e172ecc2dbb372f12ae064df79d4e44e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Quando Todas as Tuas Misericórdias, Ó meu Deus",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.html",
       "html_sha256": "cd0f28d8fc6c5fed964a1de7ace6b2adf49987be7b62de21b4f42d793cc6a790",
       "human_reviewed": false,
@@ -18892,6 +20100,61 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/d0395fde-712d-488d-a161-c26c87ed128b.html",
+      "html_sha256": "c174b5db59f2dc9e6f1254999442871c1cb359afee2df1a839e9113cd3c2d9ce",
+      "human_reviewed": false,
+      "id": "d0395fde-712d-488d-a161-c26c87ed128b",
+      "images": [
+        {
+          "alt": "Uma Bíblia aberta, uma planta em vaso e uma xícara de café sobre uma mesa escura",
+          "public_path": "/images/articles/d0395fde-712d-488d-a161-c26c87ed128b-1.jpg"
+        },
+        {
+          "alt": "Um caminhante com uma mochila verde brilhante em pé no cume de uma montanha acima das nuvens",
+          "public_path": "/images/articles/d0395fde-712d-488d-a161-c26c87ed128b-2.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/d0395fde-712d-488d-a161-c26c87ed128b.json",
+      "metadata_sha256": "87ec67453f3c159de9003b8080beda240c90f68375eeb38320145f5b2940d083",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "UMA PALAVRA DE UM MÉDICO",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "28073e361d20840e4b86554b9fb0dc665e6272c0d3acf705cd41f2c5576aaa35",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Esgotamento",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/d2d95264-7df9-4ca8-9a99-01a68204d73a.html",
+      "html_sha256": "c180ff9f1ab087c992e866d8b5cfc02606101f44550e9c7c2e01c2c55c62d761",
+      "human_reviewed": false,
+      "id": "d2d95264-7df9-4ca8-9a99-01a68204d73a",
+      "images": [],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/d2d95264-7df9-4ca8-9a99-01a68204d73a.json",
+      "metadata_sha256": "76687abc726779c71397ad76e6b1c8d6064ccaf391217d8a5bace8541214303a",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ARTIGO EM DESTAQUE",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d21eb9a2e384c54d8451d42bc7b07528a6bfe6b701385ff6d901ec268b981022",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Salvos pela Esperança",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/d38bf79f-957f-413c-ad4d-a6b4fa8c8112.html",
       "html_sha256": "80987ccea7612057472f2afa900207ba3b0dc406def339cd37e978feefecbcdf",
       "human_reviewed": false,
@@ -19373,6 +20636,42 @@
       "status": "ready",
       "subtitle": null,
       "title": "Весело для всех",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/21853000-58b7-413f-b119-c9b1a6012369.html",
+      "html_sha256": "25ae514b1a1cff5f8960171971521d114bd592c653aa784ccdf41764e823f4c2",
+      "human_reviewed": false,
+      "id": "21853000-58b7-413f-b119-c9b1a6012369",
+      "images": [
+        {
+          "alt": "Развалины Хиросимы после атомной бомбардировки",
+          "public_path": "/images/articles/21853000-58b7-413f-b119-c9b1a6012369-1.jpg"
+        },
+        {
+          "alt": "Куча зелёных артишоков",
+          "public_path": "/images/articles/21853000-58b7-413f-b119-c9b1a6012369-2.jpg"
+        },
+        {
+          "alt": "Ряд выветшалых надгробий",
+          "public_path": "/images/articles/21853000-58b7-413f-b119-c9b1a6012369-3.png"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/21853000-58b7-413f-b119-c9b1a6012369.json",
+      "metadata_sha256": "9f796bfcb01512cd91e37f60305c4457f8f01c0e2eaecb4c99ddf278aa36226d",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "СВОЙСТВА БОГА",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "3526d7232367f018301aa220868e7605f6dcc0608e6b2e5d5a6771923f6938fe",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Верность Божья проявляется даже в проклятии",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -19969,6 +21268,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/a1334217-82ac-49ef-8293-563122652b89.html",
+      "html_sha256": "cfd8fd9a7fc7f2cbd33d2a1ca817e04023bb64e68f3a9780cb474d8191ddf571",
+      "human_reviewed": false,
+      "id": "a1334217-82ac-49ef-8293-563122652b89",
+      "images": [
+        {
+          "alt": "Вид с воздуха на город под оранжевым закатом",
+          "public_path": "/images/articles/a1334217-82ac-49ef-8293-563122652b89-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/a1334217-82ac-49ef-8293-563122652b89.json",
+      "metadata_sha256": "35d5dbb1fe4a8d43baec3e3c26d67b901473b4ecc49900b2a5516a6f487b126d",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "РАЗМЫШЛЕНИЯ МИССИОНЕРА",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "22f19fd4059c839acdb0760ae4c1ea7697fd7ad4642cdb6da3779c88fc7b55d4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Тихая и мирная жизнь?",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.html",
       "html_sha256": "580e7436020f38d36bd352860cfe7ace7b9a76d4c79a33b0119f392f6fe5cadf",
       "human_reviewed": false,
@@ -20243,6 +21570,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473.html",
+      "html_sha256": "7f0bd9b29d25139ed7c4744670deea9d397a7fb554e471e16f8b7210aca83a77",
+      "human_reviewed": false,
+      "id": "c22883c1-1d69-4c5e-aa81-d4015bf4e473",
+      "images": [
+        {
+          "alt": "Туманная хвойная роща в горном ландшафте",
+          "public_path": "/images/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473.json",
+      "metadata_sha256": "67a824c0300dd7b3f1703c7a8c0fcc5b83164b1b076d46253066cc2354eb5eed",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "От редактора",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "7328fe7985535229790c376868603624111ed137e1665aff6a36b03d5b4d90fa",
+      "status": "ready",
+      "subtitle": null,
+      "title": "От редактора",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/c7009feb-1e58-4c54-a5e9-ae0bf90ed9cf.html",
       "html_sha256": "7d15109bd70bc8b3071d1020b029c8f92402c1efa7bae773f2538c85ae85f6e2",
       "human_reviewed": false,
@@ -20372,6 +21727,29 @@
       "status": "ready",
       "subtitle": null,
       "title": "Выгорание",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/d2d95264-7df9-4ca8-9a99-01a68204d73a.html",
+      "html_sha256": "cf2b8d7b35f79022b84e0dbc411fc6cf7d091342f4e10d55d9ea783e0a941d61",
+      "human_reviewed": false,
+      "id": "d2d95264-7df9-4ca8-9a99-01a68204d73a",
+      "images": [],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/d2d95264-7df9-4ca8-9a99-01a68204d73a.json",
+      "metadata_sha256": "e67d5ed0a7e7a41c201eb8dd0234db7820292bb7adbb1b42acffa76be4f77857",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ИЗБРАННАЯ СТАТЬЯ",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d21eb9a2e384c54d8451d42bc7b07528a6bfe6b701385ff6d901ec268b981022",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Спасённые надеждой",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -20866,6 +22244,34 @@
       "status": "ready",
       "subtitle": "De campesino de Zúrich a mártir anabaptista",
       "title": "Hans Landis",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/48db8b57-eca2-4d35-a48f-13c21d68bab0.html",
+      "html_sha256": "2e9a4f6fcdd011021df2744e9af5e79cf6a2c41334b760143babfd35d21518f5",
+      "human_reviewed": false,
+      "id": "48db8b57-eca2-4d35-a48f-13c21d68bab0",
+      "images": [
+        {
+          "alt": "Una puerta de madera en un arco de piedra junto a una barandilla de madera",
+          "public_path": "/images/articles/48db8b57-eca2-4d35-a48f-13c21d68bab0-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/48db8b57-eca2-4d35-a48f-13c21d68bab0.json",
+      "metadata_sha256": "80920c9a69e7c3f1d3d36bc1cf02c0c560965cbda3eef9349bdb63f23ea6dd8e",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ARTÍCULO DESTACADO",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "b25c7ba97f60cd8b593ddd3f02e4c8b5da68408268cf7ae4a26bd9922702c945",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Nada los ofenderá",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -21871,6 +23277,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473.html",
+      "html_sha256": "808efad681cdf251fe639a277ebedd1715570ad88eebfd6c48f5fa1b34ed495a",
+      "human_reviewed": false,
+      "id": "c22883c1-1d69-4c5e-aa81-d4015bf4e473",
+      "images": [
+        {
+          "alt": "Un bosque de coníferas cubierto de niebla en un paisaje montañoso",
+          "public_path": "/images/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473.json",
+      "metadata_sha256": "9dc8eed75d527cf69e4eeea74d6365a033052969501090f48c6b32f897396002",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Del editor",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "7328fe7985535229790c376868603624111ed137e1665aff6a36b03d5b4d90fa",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Del editor",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/c7009feb-1e58-4c54-a5e9-ae0bf90ed9cf.html",
       "html_sha256": "d5da1c13e0378b825036f9d41b5bc0c2509a22667f155cc785fe32d1d87422d7",
       "human_reviewed": false,
@@ -22079,6 +23513,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Coronadle con muchas coronas",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5.html",
+      "html_sha256": "5914fac2073c41d34a8e3a15d40390618999be613c7a38ae86c680f49e8ef059",
+      "human_reviewed": false,
+      "id": "ee9ff8a9-5b59-4b3e-9585-ab891c945bb5",
+      "images": [
+        {
+          "alt": "Un camino cubierto de nieve serpenteando por un bosque de coníferas",
+          "public_path": "/images/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/ee9ff8a9-5b59-4b3e-9585-ab891c945bb5.json",
+      "metadata_sha256": "5a15f71d72af8d3bbfd2c68143714a7271b0c05df186f3daf0bd228ceaf94cf8",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": null,
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "a0e94b1f79a0eed4b2b4fa527a207a63d01981d07be68e5cda06b45933da47fd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "El camino de la vida",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -23091,6 +24553,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.html",
+      "html_sha256": "e1a7d7e69c779af14af37d6069160fb97f4b23186f29f12773811dd974248bff",
+      "human_reviewed": false,
+      "id": "3c581136-51cf-47b2-a38b-3d1ee1d0b864",
+      "images": [
+        {
+          "alt": "En sovande nyfödd bebis som har ett tunt pannband",
+          "public_path": "/images/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864-1.jpg"
+        },
+        {
+          "alt": "Ett barns hand som håller ett vuxet finger",
+          "public_path": "/images/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864-2.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.json",
+      "metadata_sha256": "48fd5773da6b1a178faaf3e1d0cf50277eee49e401dedad369cb2a75c28b73c4",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SYSTER TILL SYSTER",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "f2478f0ee567de50716f2f909dafecb28388c4d5ba9651d1eee51ca0878db9fa",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Svarar Gud på bön?",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/3f679973-e351-4fe3-8930-e08d9fba23a5.html",
       "html_sha256": "2a0c6beb0172f50f191326ed162cf3c1cc753cfdb5d1a283a1d156fc5906a39e",
       "human_reviewed": false,
@@ -23554,6 +25048,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/97efa86c-46a8-499e-850a-d626dce2fd7c.html",
+      "html_sha256": "6e3a7774f01c4b397c2daf5f369741108906138c334af55fcc00f68c0986c9f9",
+      "human_reviewed": false,
+      "id": "97efa86c-46a8-499e-850a-d626dce2fd7c",
+      "images": [
+        {
+          "alt": "En disig barrskog som speglas i en sjö",
+          "public_path": "/images/articles/97efa86c-46a8-499e-850a-d626dce2fd7c-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/97efa86c-46a8-499e-850a-d626dce2fd7c.json",
+      "metadata_sha256": "650039a6fa6a0a672a581c2850cf1cfc57f300f5680758d34bf76b23eefc7e30",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Hymnhistoria",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "151c676a3a3f4de7275eee354cc0c629e172ecc2dbb372f12ae064df79d4e44e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "När alla dina nåder, o min Gud",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.html",
       "html_sha256": "7b65d589c14eae0f8c23056f865a21cb2eae3c03611e0eb8cff4bef316e0c6b0",
       "human_reviewed": false,
@@ -23851,6 +25373,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Avdrift",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473.html",
+      "html_sha256": "a1c3f7f45e8e906354de0f92375e018b62f98f6efb4a6adcb6d441cb4b3f83d5",
+      "human_reviewed": false,
+      "id": "c22883c1-1d69-4c5e-aa81-d4015bf4e473",
+      "images": [
+        {
+          "alt": "En dimmig barrskog i ett bergslandskap",
+          "public_path": "/images/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473.json",
+      "metadata_sha256": "7abb16ad199b6aa8e168c18e44e63be190d14bc9f0f39c693bdbd5e38ea974e1",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Från REDAKTÖREN",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "7328fe7985535229790c376868603624111ed137e1665aff6a36b03d5b4d90fa",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Från redaktören",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -24403,6 +25953,42 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/21853000-58b7-413f-b119-c9b1a6012369.html",
+      "html_sha256": "43856c6959accfd83f2f1ac8d5ada07dafb0b3adfc3b7602076527fe43e807cb",
+      "human_reviewed": false,
+      "id": "21853000-58b7-413f-b119-c9b1a6012369",
+      "images": [
+        {
+          "alt": "ہیروشیما پر جوہری بمباری کے بعد کے کھنڈر",
+          "public_path": "/images/articles/21853000-58b7-413f-b119-c9b1a6012369-1.jpg"
+        },
+        {
+          "alt": "سبز اٹریکاچوکز کا ڈھیر",
+          "public_path": "/images/articles/21853000-58b7-413f-b119-c9b1a6012369-2.jpg"
+        },
+        {
+          "alt": "پتھریلے قبرستان کی ایک صف",
+          "public_path": "/images/articles/21853000-58b7-413f-b119-c9b1a6012369-3.png"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/21853000-58b7-413f-b119-c9b1a6012369.json",
+      "metadata_sha256": "e1709c8d42980ec8a075f8c476ec94ab3324c708b4c05eee86fe6a531eef8388",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "خُدا کی صفات",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "3526d7232367f018301aa220868e7605f6dcc0608e6b2e5d5a6771923f6938fe",
+      "status": "ready",
+      "subtitle": null,
+      "title": "لعنت میں بھی خُدا کی وفاداری کا اظہار",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/2b07502a-cbf0-4b92-8bb8-7910a5557f84.html",
       "html_sha256": "598da2990d02589f1780c2dc4d178bbcbafba44b59ea75d3c4d3f342aba3ecdf",
       "human_reviewed": false,
@@ -24476,6 +26062,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "ایک مقدس گھر",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.html",
+      "html_sha256": "e485eb7b6bb73746ffdd33d559c9f7d03c8ca94a1cb9964383b7ddcb681e801b",
+      "human_reviewed": false,
+      "id": "3c581136-51cf-47b2-a38b-3d1ee1d0b864",
+      "images": [
+        {
+          "alt": "ایک نیند میں لپٹا نوزائیدہ بچہ پتلی ہیڈ بینڈ پہنے ہوئے",
+          "public_path": "/images/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864-1.jpg"
+        },
+        {
+          "alt": "ایک بچے کا ہاتھ بالغ کی انگلی پکڑے ہوئے",
+          "public_path": "/images/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864-2.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.json",
+      "metadata_sha256": "1ea804f0cd77b1389e1a82c9b4477d0ab27a71271469c14c9fbddc3f22cf50c1",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "بہن برائے بہن",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "f2478f0ee567de50716f2f909dafecb28388c4d5ba9651d1eee51ca0878db9fa",
+      "status": "ready",
+      "subtitle": null,
+      "title": "کیا خدا دعا کا جواب دیتا ہے؟",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -25221,6 +26839,89 @@
       "status": "ready",
       "subtitle": null,
       "title": "بہاؤ (Drift)",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473.html",
+      "html_sha256": "53a8060238b246321ea9eee39bc6dd7520a4bec7d85fb477673d60ad62276b06",
+      "human_reviewed": false,
+      "id": "c22883c1-1d69-4c5e-aa81-d4015bf4e473",
+      "images": [
+        {
+          "alt": "پہاڑی منظر میں دھندلا سبز جنگل",
+          "public_path": "/images/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473-1.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473.json",
+      "metadata_sha256": "2d2cf85f13ea56996c0c023388d9f42dc80db959680ceb91fdb12202b755ce75",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ایڈیٹر سے",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "7328fe7985535229790c376868603624111ed137e1665aff6a36b03d5b4d90fa",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ایڈیٹر سے",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/d0395fde-712d-488d-a161-c26c87ed128b.html",
+      "html_sha256": "db28b550e23b4c1efd09520b75e1100c9c359fd475d1083b584fb5bf6102b1b7",
+      "human_reviewed": false,
+      "id": "d0395fde-712d-488d-a161-c26c87ed128b",
+      "images": [
+        {
+          "alt": "ایک کھلا بائبل، ایک گملے والا پودا، اور ایک کافی کا کپ ایک سیاہ میز پر",
+          "public_path": "/images/articles/d0395fde-712d-488d-a161-c26c87ed128b-1.jpg"
+        },
+        {
+          "alt": "بادلوں کے اوپر پہاڑی چوٹی پر کھڑا روشن سبز بیگ رکھے ایک ہائیکر",
+          "public_path": "/images/articles/d0395fde-712d-488d-a161-c26c87ed128b-2.jpg"
+        }
+      ],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/d0395fde-712d-488d-a161-c26c87ed128b.json",
+      "metadata_sha256": "3923317ee793d126c62e88dbaef2d03365d60bb2e397ae85fad4e5912284947f",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ایک ڈاکٹر کی طرف سے",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "28073e361d20840e4b86554b9fb0dc665e6272c0d3acf705cd41f2c5576aaa35",
+      "status": "ready",
+      "subtitle": null,
+      "title": "برن آؤٹ",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/d2d95264-7df9-4ca8-9a99-01a68204d73a.html",
+      "html_sha256": "45486c13883bd04dd8b60f122aa164590307dd8f2c316d47541e4f2bb4ea6934",
+      "human_reviewed": false,
+      "id": "d2d95264-7df9-4ca8-9a99-01a68204d73a",
+      "images": [],
+      "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/d2d95264-7df9-4ca8-9a99-01a68204d73a.json",
+      "metadata_sha256": "38f049b43a6c8f3870613717a05dcd061ca02a56bcf288fa5ca7f651db6024fb",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "نمایاں مضمون",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d21eb9a2e384c54d8451d42bc7b07528a6bfe6b701385ff6d901ec268b981022",
+      "status": "ready",
+      "subtitle": null,
+      "title": "امید کے ذریعے نجات",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {

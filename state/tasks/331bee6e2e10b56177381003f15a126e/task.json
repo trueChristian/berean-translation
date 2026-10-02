@@ -2,7 +2,6 @@
   "article_id": "48db8b57-eca2-4d35-a48f-13c21d68bab0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,32 +61,60 @@
         },
         "total_tokens": 17839
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1880,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9609,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11489
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html paragraph 2 (first Scripture citation)",
-      "severity": "major",
-      "source_quote": "Jesus mentioned that one of the signs of the end times is that “then shall many be offended . . . and shall hate one another” (Matthew 24:10).",
-      "suggested_fix": "החליפו את שם הספר באנגלית בשם הספר המקובל בעברית ושמרו את מספר הפרק והפסוק. למשל: “אז יִמָּאסוּ רַבִּים . . . וְיִשְׂנְאוּ אִישׁ אֶת־אִישׁ” (מתי 24:10).",
-      "translation_quote": "ישו הזכיר שאחד הסימנים של ימי הסוף הוא \"אז יִמָּאַסוּ רַבִּים . . . וְיִשְׂנְאוּ אִישׁ אֶת־אִישׁ\" (Matthew 24:10)."
+      "location": "Paragraph quoting Ephesians 4:1-2 (source.html near \"Walk Worthy\")",
+      "severity": "critical",
+      "source_quote": "\"I therefore, the prisoner of the Lord, beseech you that ye walk worthy of the vocation wherewith ye are called, with all lowliness and meekness, with longsuffering, forbearing one another in love\" (Ephesians 4:1-2).",
+      "suggested_fix": "Translate the quoted Scripture faithfully into natural Modern Hebrew using the conventional Hebrew book name and retain the chapter:verse numbers. Do not add or alter sense. For example (one acceptable rendering): \"‎\"אני, אסיר ה׳, מבקש מכם — שתתנהגו באופן הראוי לקריאה שבה נקראתם: בכל ענוה וענוות־רוח, בסבלנות, ומתאפקים זה כלפי זה באהבה\"‎ (אפסיים 4:1-2).\" Preserve the article's HTML structure and the verse reference in parentheses exactly as in the source.",
+      "translation_quote": "\"אֲנִי עָנִי בַּאֲדֹנָי, אֲנַהֵג אֶתְכֶם לִלְכֹּד בְּעֵת־יִשְׁתַּמֵּשׁוּ כְּשֵׁם־קְרִיאָתְכֶם בְּכָל־עֶנְוָה וְעָנָוּת וּסְבִיבוּת, סוֹבְלוּ אֶת־אֶחָד אֶת־אֶחָד בְּאַהֲבָה\" (אפסיים 4:1-2)."
     },
     {
-      "location": "source.html paragraph 3 (first parenthetical citations)",
+      "location": "Multiple quoted Scripture renderings (general; e.g., Matthew 13:20-21, Mark 14:27, Luke 7:20-23, Isaiah, Psalms, Proverbs, 2 Samuel, 1 Peter, etc.)",
       "severity": "major",
-      "source_quote": "He informed the inner 12 that had stuck with Him, “All ye shall be offended because of me this night” (Mark 14:27). ... “Great peace have they which love thy law: and nothing shall offend them” (Psalm 119:165).",
-      "suggested_fix": "החליפו את שמות הספרים באנגלית לשמות המקובלים בעברית, שמרו את המספרים. דוגמה: \"כּוּלְּכֶם תִּמָּעֲצוּ בִּי הַלַּיְלָה הַזֶּה\" (מרקוס 14:27). \"רְוָחַת שָׁלוֹם לְאֹהֲבֵי תוֹרָתֶךָ; עֵינָם לֹא־יִמֹּעוּ\" (תהלים 119:165).",
-      "translation_quote": "\"כּוּלְּכֶם תִּמָּעֲצוּ בִּי הַלַּיְלָה הַזֶּה\" (Mark 14:27). ... \"רְוָחַת שָׁלוֹם לְאֹהֲבֵי תוֹרָתֶךָ; עֵינָם לֹא־יִמֹּעוּ\" (Psalm 119:165)."
+      "source_quote": "Various direct Scripture quotations: e.g., \"All ye shall be offended because of me this night\" (Mark 14:27); \"He that loveth thy law...\" (Psalm 119:165); Matthew 13:20-21; Luke 7:20-23; Isaiah 57:14-15; Isaiah 40:31; Proverbs 16:18; 2 Samuel passages; 1 Peter 2:20; Proverbs 18:19; etc.",
+      "suggested_fix": "Every quoted Scripture passage must be translated into natural Modern Hebrew in a way that faithfully preserves the meaning of the printed English passage and use conventional Hebrew book names. Avoid invented words, mistranslations, or added phrases. Re-render each verse so it clearly corresponds to the English quotation and chapter:verse marker in the source. Examples of corrections (apply similarly to every quoted passage): - Mark 14:27: \"וַיֹּאמֶר לָהֶם: 'כָּלְכֶם תִּמָּעֲצוּ בִּי הַלַּיְלָה הַזֹּאת'\" (מרקוס 14:27). - Psalm 119:165: \"שָׁלוֹם רָב לְאֹהֲבֵי תוֹרָתְךָ; אַל־יִמּוֹטוּם כָּל־רוּחַ\" (תהילים 119:165) or another faithful Hebrew liturgical rendering. Keep the source's quoted sense and verse numbering. Maintain HTML structure.",
+      "translation_quote": "Various Hebrew renderings in the translation that mis-render or awkwardly phrase the scriptural quotations (examples shown throughout the translation)."
     },
     {
-      "location": "multiple Scripture parenthetical citations throughout article (examples)",
+      "location": "Opening of Ephesians quotation and surrounding translation (first line begins '\"אֲנִי עָנִי בַּאֲדֹנָי, אֲנַהֵג...')",
       "severity": "major",
-      "source_quote": "(Matthew 13:20-21), (James 3:2), (Ephesians 4:1-2), (Proverbs 16:18), (Isaiah 57:14-15), (Isaiah 40:31), (Ephesians 5:2-4), (Esther 6:6), (Ephesians 5:8-11), (2 Timothy 4:3-4), (John 16:1-4), (John 5:35), (Luke 7:20-23), (2 Samuel 3:15-16), (1 Peter 2:20), (Ephesians 5:15), (1 Corinthians 14:20), (2 Samuel 6:16), (2 Corinthians 5:13), (2 Samuel 6:23), (Proverbs 18:19), (1 Thessalonians 3:3)",
-      "suggested_fix": "בכל ההופעות הללו החליפו את שמות הספרים באנגלית בשמות המקובלים בעברית ושמרו על הסמנים המספריים המדויקים. לדוגמה: (מתי 13:20-21), (יעקב 3:2), (אפסיים 4:1-2) — או להשתמש בשם המקובל של האיגרת בעברית באתרכם. ודאו אחידות במיפוי (למשל Matthew->מתי, Mark->מרקוס, Luke->לוקס/לוקס? בהתאם למונחים המקובלים באתר).",
-      "translation_quote": "(Matthew 13:20-21), (James 3:2), (Ephesians 4:1-2), (Proverbs 16:18), (Isaiah 57:14-15), (Isaiah 40:31), (Ephesians 5:2-4), (Esther 6:6), (Ephesians 5:8-11), (2 Timothy 4:3-4), (John 16:1-4), (John 5:35), (Luke 7:20-23), (2 Samuel 3:15-16), (1 Peter 2:20), (Ephesians 5:15), (1 Corinthians 14:20), (2 Samuel 6:16), (2 Corinthians 5:13), (2 Samuel 6:23), (Proverbs 18:19), (1 Thessalonians 3:3)"
+      "source_quote": "\"I therefore, the prisoner of the Lord, beseech you that ye walk worthy ...\" (Ephesians 4:1).",
+      "suggested_fix": "The English phrase 'the prisoner of the Lord' was mistranslated as 'אני ענִי באדוניי' (which reads 'I poor one in my Lord' / garbled). Replace with a faithful Hebrew equivalent for 'the prisoner' (אסיר/אסירו של ה׳) and render the exhortation to 'walk worthy' naturally and accurately. Preserve the verse reference (אפסיים 4:1-2).",
+      "translation_quote": "\"אֲנִי עָנִי בַּאֲדֹנָי, אֲנַהֵג אֶתְכֶם לִלְכֹּד...\""
+    },
+    {
+      "location": "Book names and some proper names (e.g., 'לוקס' for Luke, 'אפסיים' for Ephesians, 'קונקורדןציה של סטרונג')",
+      "severity": "minor",
+      "source_quote": "Book names in English in source: (Ephesians, Matthew, Mark, Luke, Isaiah, Psalm, Proverbs, James, 2 Timothy, 1 Peter, 2 Samuel, etc.). Reference note 'Strongs Concordance'.",
+      "suggested_fix": "Use the conventional and widely recognized Modern Hebrew names for the biblical books and for 'Strong's Concordance' (commonly 'קונקורדנציה של סטרונג' or 'הקונקורדנציה של סטרונג'). Ensure consistency across the article. For Luke, prefer 'לוקס' is uncommon — use 'לוקס' only if style guide allows; otherwise 'לוקס' could be left as 'לוקס' but verify convention (common Hebrew Bible usage: 'לוקס' is less common than 'לוקוס'—better: 'לוקס' is a transliteration but ensure consistency). Maintain chapter:verse numeration as in the source.",
+      "translation_quote": "Occurrences like 'לוקס 7:20-23', 'אפסיים 5:8-11', and the reference 'קונקורדןציה של סטרונג' (some forms present in the translation)."
     }
   ],
+  "finished_at": "2026-10-02T13:03:20+00:00",
   "id": "331bee6e2e10b56177381003f15a126e",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "heb",
@@ -161,13 +188,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 40,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/860ef4183736ed90ffe0410e641004cf07704736a2fe3063f1577a97a4982295.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "b25c7ba97f60cd8b593ddd3f02e4c8b5da68408268cf7ae4a26bd9922702c945",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

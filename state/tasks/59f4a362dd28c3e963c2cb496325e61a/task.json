@@ -2,7 +2,6 @@
   "article_id": "3c581136-51cf-47b2-a38b-3d1ee1d0b864",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,32 +61,45 @@
         },
         "total_tokens": 10324
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 986,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6425,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7411
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "source.section",
-      "severity": "major",
-      "source_quote": "SISTER TO SISTER",
-      "suggested_fix": "Translate the section name into contemporary Norwegian Bokmål, preserving meaning and capitalization style. For example: replace \"SISTER TO SISTER\" with \"SØSTER TIL SØSTER\" (or another preferred Norwegian phrasing) in the translation metadata.",
-      "translation_quote": "SISTER TO SISTER"
+      "location": "Paragraph: “That summer, we weaned her off her seizure medications...” (occurrence in source.html and translation.html)",
+      "severity": "minor",
+      "source_quote": "That summer, we weaned her off her seizure medications, and she appeared to be healthy.",
+      "suggested_fix": "Use past tense to match the narrative tense in the English source. Replace the current Norwegian sentence while preserving tags and surrounding structure. For example: \"Den sommeren trappet vi henne av anfallsmedisinene, og hun virket frisk.\"",
+      "translation_quote": "Den sommeren trapper vi henne av anfallsmedisinene, og hun virket frisk."
     },
     {
-      "location": "source.html (paragraph with emergency phone)",
-      "severity": "major",
-      "source_quote": "“Shall we call 911?”",
-      "suggested_fix": "Preserve the original emergency number exactly as printed in the English source. Do not localize or convert it to a local emergency number. Replace the Norwegian \"113\" with the original \"911\" so the line reads in Bokmål: “Skal vi ringe 911?”",
-      "translation_quote": "“Skal vi ringe 113?”"
-    },
-    {
-      "location": "source.html (paragraph near end where English contraction appears)",
-      "severity": "major",
-      "source_quote": "Hadn’t God healed her??",
-      "suggested_fix": "Translate the entire sentence into Norwegian Bokmål; do not leave English fragments. Replace the English contraction with an appropriate Bokmål translation. Suggested rendering: “Hadn’t God healed her??” -> “Hadn’t God helbredet henne??” is unacceptable because it leaves English; instead use: “Hadn’t God helbredet henne??” corrected fully to Norwegian: “Hadn’t” should be translated as “Hadn’t” -> correct Norwegian: “Hadn’t God helbredet henne??” -> final Bokmål: “Hadn’t” must not remain; use “Hadn’t” -> correct: “Hadn’t” → “Var det ikke Gud som hadde helbredet henne??” or more simply: “Hadn’t God helbredet henne??” -> “Hadn’t” -> Translation should be: “Var det ikke Gud som hadde helbredet henne??” Replace the English fragment with that Norwegian sentence.",
-      "translation_quote": "Hadn’t God helbredet henne??"
+      "location": "Paragraph: “One morning when Judy was about 18 months old...” — rendering of onomatopoeic sound",
+      "severity": "minor",
+      "source_quote": "we heard an odd noise—a rhythmical scratch-thunk.",
+      "suggested_fix": "The onomatopoeic phrase should be rendered in idiomatic Norwegian. Replace the fragment with a clearer, idiomatic rendering while keeping tags intact. For example: \"vi hørte en merkelig lyd — en rytmisk skrap-dunk.\"",
+      "translation_quote": "vi hørte en merkelig lyd—en rytmisk klore-thump."
     }
   ],
+  "finished_at": "2026-10-02T13:03:20+00:00",
   "id": "59f4a362dd28c3e963c2cb496325e61a",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "nob",
@@ -161,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 65,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3eb2e8fac297406d71e2a495d876bb17af55171cebc6261c77bdfbb7e9c2311e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "f2478f0ee567de50716f2f909dafecb28388c4d5ba9651d1eee51ca0878db9fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

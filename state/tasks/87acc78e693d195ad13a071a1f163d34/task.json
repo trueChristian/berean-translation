@@ -2,7 +2,6 @@
   "article_id": "a1334217-82ac-49ef-8293-563122652b89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,25 +61,52 @@
         },
         "total_tokens": 9138
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1143,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5618,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6761
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph containing Acts 4:20 (source.html third full paragraph after Matthew 9)",
-      "severity": "major",
-      "source_quote": "Later they were silenced—by death.",
-      "suggested_fix": "Restore the author’s meaning of “silenced” (i.e., rendered unable to speak because they were killed). In Afrikaans use a verb that unambiguously conveys “silenced” or “made unable to speak” (for example, “toe is hulle stilgemaak — deur die dood” or “later is hulle stilgemaak — deur die dood”). Replace the current phrasing with that wording, preserving surrounding HTML and punctuation.",
-      "translation_quote": "Later is hulle geswiep—deur die dood."
+      "location": "Paragraph 1 (baseball sentence)",
+      "severity": "minor",
+      "source_quote": "We decided to go to a major league baseball game.",
+      "suggested_fix": "Use a more natural Afrikaans rendering such as \"'n Major League‑bonds‑basebalwedstryd\" or simply \"'n wedstryd van die Major League\". Preserve HTML tags and spacing.",
+      "translation_quote": "Ons het besluit om na ’n grootliga-basebalwedstryd te gaan."
     },
     {
-      "location": "Paragraph quoting Romans 8:36 (source.html paragraph that begins “I ordered a copy of The Martyr’s Mirror”)",
-      "severity": "critical",
-      "source_quote": "As it is written, For thy sake we are killed all the day long; we are accounted as sheep for the slaughter.",
-      "suggested_fix": "Translate the Scripture line so it faithfully conveys the English text. The current Afrikaans phrasing “Van julle weë word ons elke dag gedood” is inaccurate. Use a standard, faithful Afrikaans rendering that preserves the sense and placement of the verse (for example: “Soos geskrywe staan, ter wille van julle word ons elke dag gedood; ons word as skape tot die slagting getel.”). Ensure the quotation marks and verse placement remain as in the source, and keep the citation notation (Romans 8:36) unchanged elsewhere in the article.",
-      "translation_quote": "“Soos geskrywe staan, Van julle weë word ons elke dag gedood; ons word as skape tot die slagter getelb.”"
+      "location": "Paragraph with 1 Peter 4:14 (register inconsistency)",
+      "severity": "minor",
+      "source_quote": "If ye be reproached for the name of Christ, happy are ye; for the spirit of glory and of God resteth upon you: on their part he is evil spoken of, but on your part he is glorified.",
+      "suggested_fix": "Make the personal pronoun register consistent with the rest of the translation (which uses the informal \"jy/julle\"): e.g. \"As jy om die naam van Christus bespot word, is jy gelukkig; want die Gees van heerlikheid en God rus op jou: aan hulle kant word Hy kwaad gepraat, maar aan jou kant is Hy verheerlik.\" Preserve verse punctuation and quotation marks.",
+      "translation_quote": "1 Petrus 4:14 sê, “As u om die naam van Christus bespot word, is u gelukkig; want die gees van heerlikheid en God rus op u: aan hulle kant word Hy kwaad gepraat, maar aan u kant is Hy verheerlik.”"
+    },
+    {
+      "location": "Reference to The Martyr’s Mirror (book title)",
+      "severity": "minor",
+      "source_quote": "I ordered a copy of The Martyr’s Mirror and was astounded when I read about these people who lived like the disciples.",
+      "suggested_fix": "Leaving the book title in English is acceptable for a proper title, but if a translation is preferred for Afrikaans readers consider: \"Ek het ’n eksemplaar van The Martyr’s Mirror (Die Martelare‑Spieël) bestel...\" — otherwise no change required. Preserve italics/HTML marking.",
+      "translation_quote": "Ek het ’n eksemplaar van <em>The Martyr’s Mirror</em> bestel en was verstom toe ek lees van hierdie mense wat soos die dissipels geleef het."
     }
   ],
+  "finished_at": "2026-10-02T13:03:21+00:00",
   "id": "87acc78e693d195ad13a071a1f163d34",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "afr",
@@ -154,13 +180,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/49a66e43316337366db2887d07eae4fb7d7398fb2cd2778c9d2eec656ecce583.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "22f19fd4059c839acdb0760ae4c1ea7697fd7ad4642cdb6da3779c88fc7b55d4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

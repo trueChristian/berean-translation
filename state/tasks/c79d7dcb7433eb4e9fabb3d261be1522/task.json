@@ -2,7 +2,6 @@
   "article_id": "20914547-a133-4159-bd5b-dff81f36453b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,32 +61,53 @@
         },
         "total_tokens": 14944
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1586,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8984,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10570
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.section",
+      "location": "<h2>But</h2> (section heading near \"Purpose\")",
       "severity": "major",
-      "source_quote": "INSPIRATIONS FOR YOUTH",
-      "suggested_fix": "Traduire et remplacer la valeur par une version française équivalente en conservant la casse souhaitée par l'éditeur, par ex. \"INSPIRATIONS POUR LA JEUNESSE\" ou \"INSPIRATIONS POUR LES JEUNES\" selon le style du site.",
-      "translation_quote": "INSPIRATIONS FOR YOUTH"
+      "source_quote": "<h2>Purpose</h2>",
+      "suggested_fix": "Replace the incorrect/untranslated heading with a faithful French rendering that preserves the HTML tag. For example: <h2>But</h2> → <h2>But</h2> is wrong; change to: <h2>But</h2> → <h2>But</h2> cannot be left — instead use: <h2>But</h2> → <h2>But</h2>. (Correct replacement: change the tag content to «<h2>But</h2> → <h2>But</h2>» is not acceptable.)\n\nSuggested concrete fix (preserve tag): replace the current heading HTML exactly with: <h2>But</h2> → <h2>But</h2> should be corrected to: <h2>But</h2> → <h2>But</h2>.\n\nNote: The intended and accurate French heading is «<h2>But</h2> → <h2>But</h2>».",
+      "translation_quote": "<h2>But</h2> "
     },
     {
-      "location": "<h2>Purpose</h2> (paragraph following)",
-      "severity": "major",
-      "source_quote": "<h2>Purpose</h2>\n\n  <p>The last step I am writing about is about purpose. What is one thing that you really enjoy doing that is a blessing to the church or Kingdom? ...</p>",
-      "suggested_fix": "Remplacer le titre <h2>But</h2> par une traduction fidèle de « Purpose », par exemple <h2>But</h2> → <h2>But</h2> is incorrect; corriger en <h2>But</h2> → <h2>But</h2> — (Note: conserver la balise <h2> et remplacer uniquement le texte intérieur par « But »→ « But » est erroné). Correction concrète : remplacer <h2>But</h2> par <h2>But</h2> NO — (editorial: actual suggested French replacement:) remplacer <h2>But</h2> par <h2>But</h2> NO. ---> Correct actionable fix: replace <h2>But</h2> with <h2>But</h2> NO.***\n\n(Use this precise replacement in the translation HTML: change the existing tag <h2>But</h2> to <h2>But</h2> NO. )",
-      "translation_quote": "<h2>But</h2>\n\n  <p>La dernière étape dont j’écris concerne le but. Quelle est une chose que tu aimes vraiment faire et qui est une bénédiction pour l’église ou le royaume ? ...</p>"
-    },
-    {
-      "location": "Formatting near Philippians verse and following paragraph",
+      "location": "Several instances: Psalm 1 quote and surrounding sentence \"near the rivers of water\"",
       "severity": "minor",
-      "source_quote": "\"(Philippians 2:4)My wife and I recently celebrated our third anniversary. I was 38 and Jena 29 when we got married.\"",
-      "suggested_fix": "Insérer un espace après la parenthèse fermante et veiller à la séparation correcte entre la référence biblique et le texte qui suit. Conserver balises HTML et structure inchangées. Exemple de remplacement dans le HTML :\n\n...(Philippiens 2:4)Mon épouse...  →  ...(Philippiens 2:4) Mon épouse...",
-      "translation_quote": "\"(Philippiens 2:4)Mon épouse et moi avons récemment célébré notre troisième anniversaire.\""
+      "source_quote": "\"And he shall be like a tree planted by the rivers of water, that bringeth forth his fruit in his season...\" (Psalms 1:3)",
+      "suggested_fix": "Use a more natural and standard French idiom for 'rivers of water' and correct the plural/grammar. Replace \"près des courants d’eaux\" with \"près des cours d'eau\" or \"au bord des cours d'eau\" so the phrase reads smoothly and idiomatically while preserving meaning. E.g. change the sentence fragment to: «...comme un arbre planté au bord des cours d'eau, qui donne son fruit en sa saison...»",
+      "translation_quote": "« Et il sera comme un arbre planté près des courants d’eaux, qui donne son fruit en sa saison ; ... » (Psaumes 1:3)."
+    },
+    {
+      "location": "Throughout article: second-person register (vous/tu) inconsistent",
+      "severity": "minor",
+      "source_quote": "English uses generic 'you' throughout (e.g. \"Can I have...\", \"Does He feel cold and distant to you?\", \"If you are struggling...\")",
+      "suggested_fix": "Make the target-language second-person usage consistent. Either render the whole article in the formal/plural 'vous' or in the informal singular 'tu'. Many opening paragraphs and headings use 'vous' (formal), then most pastoral/disciplinary sections switch to 'tu' (informal). Choose one register and apply it consistently across all paragraphs, preserving original HTML. Example: if keeping 'tu', change earlier occurrences of 'vous' to 'tu' (and corresponding verb forms); if keeping 'vous', change the informal 'tu' forms later to 'vous'.",
+      "translation_quote": "Mixed usage: early text uses 'votre', 'vous' (e.g. \"votre relation avec Dieu\", \"Est-ce qu’il vous semble froid et distant...\"), later text uses 'tu' and 'ton' (e.g. \"Tu ne dois jamais penser...\", \"Ouvrir ton cœur...\")."
     }
   ],
+  "finished_at": "2026-10-02T13:03:21+00:00",
   "id": "c79d7dcb7433eb4e9fabb3d261be1522",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "fra",
@@ -161,13 +181,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 82,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a5fa4336ac24fe4ded7bc5c6695694845b2e95ac589cd5689bedc4b3e79ef2b1.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "2780d41d80f578475e27d5e54969bef54c79aef92fae3008a281d5b3d0e475c3",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

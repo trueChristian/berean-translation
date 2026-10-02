@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "86b17684-d4b5-4d0f-afe7-99c975a43ade",
+    "response_id": "chatcmpl-EUXAg54DK90xDo947rkMzIWhOzraG",
+    "usage": {
+      "completion_tokens": 864,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7336,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8200
+    }
+  },
+  "received_at": "2026-10-02T13:03:21+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning 'He who declared, “The earth is the Lord’s,”' (section 'Deterioration and destruction')",
+        "severity": "minor",
+        "source_quote": "He who declared, “The earth is the Lord’s,” doesn’t agree with the idea that men are something other than stewards of God’s creation.",
+        "suggested_fix": "Preserve the original phrasing more closely. For example: \"जिसने कहा, 'पृथ्वी यहोवा की है,' वह यह विचार स्वीकार नहीं करता कि मनुष्य परमेश्वर की सृष्टि के मालकिन/मालिक हैं; वे इसकी दृष्टि में इसके व्यवस्थापक (stewards) हैं.\" (Keep the quoted phrase aligned with the English and avoid adding words not present in the source.)",
+        "translation_quote": "उसने कहा, ‘पृथ्वी और जिसमें वास करने वाले सब कुछ यहोवा का है।’ वह यह विचार स्वीकार नहीं करता कि मनुष्य परमेश्वर की सृष्टि के स्वामी हैं; बल्कि मनुष्य परमेश्वर की सृष्टि के व्यवस्थापक (स्टुअरड) हैं।"
+      },
+      {
+        "location": "Single word transliteration in same paragraph ('स्टुअरड')",
+        "severity": "minor",
+        "source_quote": "stewards",
+        "suggested_fix": "Use a conventional Hindi term or a standard transliteration. Suggested: \"व्यवस्थापक (stewards)\" or simply \"व्यवस्थापक\". Avoid nonstandard Latin-to-Devanagari transliterations like 'स्टुअरड'.",
+        "translation_quote": "व्यवस्थापक (स्टुअरड) हैं।"
+      }
+    ],
+    "passed": true,
+    "score": 95
+  }
+}

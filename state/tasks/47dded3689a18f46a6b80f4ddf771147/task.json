@@ -2,7 +2,6 @@
   "article_id": "ee9ff8a9-5b59-4b3e-9585-ab891c945bb5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,18 +61,30 @@
         },
         "total_tokens": 2293
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 218,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 192,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1412,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 1630
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "<div class=\"poem\"> — stanza 1, line 2",
-      "severity": "major",
-      "source_quote": "For the multitude of souls,",
-      "suggested_fix": "보존된 HTML 구조를 유지하여 다음과 같이 바꾸십시오:\n<p>삶은 구불구불한 오솔길과 같으니<br>\n수많은 영혼들을 위한 것이라,<br>\n부지런히 걸어 나아가는 이들,<br>\n종국을 헤아리지 못한 채.</p>\n\n(즉, 두 번째 행을 “수많은 영혼들을 위한 것이라,” 또는 자연스러운 문맥을 원하면 “수많은 영혼들을 위한” 등으로 고쳐서, 원문의 서술적 의미(‘~을 위한’)가 유지되도록 하십시오.)",
-      "translation_quote": "수많은 영혼들을 위해 있어라,"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T13:03:20+00:00",
   "id": "47dded3689a18f46a6b80f4ddf771147",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "kor",
@@ -147,13 +158,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/b70a42a3055e9b0b2f7cc18e717a71e0c042b99f8312a6e4498df59b68992446.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "a0e94b1f79a0eed4b2b4fa527a207a63d01981d07be68e5cda06b45933da47fd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

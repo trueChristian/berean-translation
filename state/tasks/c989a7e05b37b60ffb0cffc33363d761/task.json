@@ -2,7 +2,6 @@
   "article_id": "3c581136-51cf-47b2-a38b-3d1ee1d0b864",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,60 +61,46 @@
         },
         "total_tokens": 11762
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 873,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6741,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7614
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "section",
+      "location": "Paragraph beginning \"Friends, family, and acquaintances all joined us in prayer.\"",
       "severity": "major",
-      "source_quote": "SISTER TO SISTER",
-      "suggested_fix": "Use the correct target-language equivalent preserving the meaning: replace \"KAKA KWA KAKA\" with \"DADA KWA DADA\".",
-      "translation_quote": "KAKA KWA KAKA"
+      "source_quote": "Friends, family, and acquaintances all joined us in prayer.",
+      "suggested_fix": "Replace the mistranslation 'wajane' with an appropriate Kiswahili word or phrase for 'acquaintances', for example: \"Marafiki, familia, na watu tuliowajua wote walitushirikisha kwa sala.\" Preserve the sentence structure and surrounding HTML tags.",
+      "translation_quote": "Marafiki, familia, na wajane wote walitushirikisha kwa sala."
     },
     {
-      "location": "First paragraph after blockquote (paragraph describing the odd noise)",
-      "severity": "major",
-      "source_quote": "we heard an odd noise—a rhythmical scratch-thunk.",
-      "suggested_fix": "Render the onomatopoeic description intelligibly in Kiswahili while preserving the original sense of an odd, rhythmic mechanical-sounding noise. For example: \"tulisikia kelele isiyo ya kawaida — mlukumo wa kelele za kuteleza kwa mpangilio\" or simply \"tulisikia kelele isiyo ya kawaida — mluku-muku wa kuuma-na-kugonga kwa mpangilio.\" Do not introduce unrelated meanings such as 'kuumwa kwa pua'.",
-      "translation_quote": "tuliposikia kelele isiyo ya kawaida—mluku-muku wa kuumwa kwa pua."
-    },
-    {
-      "location": "Same paragraph (description of Judy's physical seizure)",
-      "severity": "major",
-      "source_quote": "When I entered the kitchen, Judy lay on the floor, jerking rhythmically. I had never seen anyone in a seizure before, but somehow, I just knew. She’s having a seizure!",
-      "suggested_fix": "Translate the clinical description clearly and accurately. Suggested Kiswahili: \"Nilipoingia jikoni, Judy alilala sakafuni, akitikisa kwa mpangilio. Sikuwa nimwahi kumuona mtu akipata kitanzi kabla, lakini kwa namna fulani nilijua—Anapata kitanzi!\" Replace the current garbled phrasing.",
-      "translation_quote": "Nilipoingia jikoni, Judy alilala sakafuni, akikokotolewa kwa mpangilio wa kidonda. Sikuwa nimewahi kumuona mtu akiwa na kitanzi cha mshtuko, lakini kwa namna fulani, nilijua. Anapitia kitanzi!"
-    },
-    {
-      "location": "Paragraph describing Ivan as a firefighter and scanner",
+      "location": "Paragraph beginning \"Since Ivan was a firefighter, we had an emergency scanner in the house.\"",
       "severity": "minor",
       "source_quote": "Since Ivan was a firefighter, we had an emergency scanner in the house.",
-      "suggested_fix": "Translate 'firefighter' idiomatically as 'mwendeshi doria wa zima moto' or 'mwanajeshi wa zima moto' is understandable but awkward. Prefer 'zima moto' phrasing: e.g., \"Kwa kuwa Ivan alikuwa mwanajeshi wa zima moto\" → better: \"Kwa kuwa Ivan alikuwa mvulana/zima moto (firefighter)\". Also ensure 'emergency scanner' is clear: 'redio ya dharura' is acceptable.",
+      "suggested_fix": "Use a more natural Kiswahili term for 'firefighter' such as 'mzimaji moto' or 'mfukuaji moto' to avoid the literal-sounding 'mwanajeshi wa zima moto'. Example fix: \"Kwa kuwa Ivan alikuwa mzima moto, tulikuwa na redio ya dharura nyumbani.\" Preserve HTML structure.",
       "translation_quote": "Kwa kuwa Ivan alikuwa mwanajeshi wa zima moto, tulikuwa na redio ya dharura nyumbani."
-    },
-    {
-      "location": "Paragraph describing falling under the truck",
-      "severity": "minor",
-      "source_quote": "For an instant, I thought I had broken my leg, but after a stunned second or two, I got to my feet, gathered my precious burden, and struggled into the pickup.",
-      "suggested_fix": "Correct awkward phrasing to natural Kiswahili while preserving meaning: e.g., \"Kwa muda mfupi nilidhani nilivunja mguu, lakini baada ya sekunde moja au mbili za mshangao, nilinuka, nikakamata mzigo wangu wa thamani, na nikajitahidi kupanda kwenye lori.\" Update the translation to match this.",
-      "translation_quote": "Kwa muda mchache, nilidhani nilivunja mguu, lakini baada ya sekunde moja au mbili ya kushangaa, nilisimama, nikakamata mzigo wangu wa thamani, na nikapanda kwa juhudi katika lori."
-    },
-    {
-      "location": "Paragraph about the angiogram results (timing error)",
-      "severity": "major",
-      "source_quote": "Two days later we got a phone call from the doctor’s office. The nurse on the line told us the angiogram hadn’t shown anything!",
-      "suggested_fix": "Maintain the original timing and meaning. The translation incorrectly renders the time as 'Miaka miwili baadaye' (two years later). It should be 'Siku mbili baadaye' or 'Baada ya siku mbili' to match the source. Replace 'Miaka miwili baadaye' with 'Siku mbili baadaye' to preserve factual accuracy.",
-      "translation_quote": "Miaka miwili baadaye tulipokea simu kutoka ofisini kwa daktari. Muuguzi kwenye laini alituambia angiogram haikuonyesha chochote!"
-    },
-    {
-      "location": "Paragraph where the narrator states her conclusion about God's answers",
-      "severity": "minor",
-      "source_quote": "So, does God always answer prayer? I say yes, He does. Sometimes He says, “Yes,” ... Sometimes, He whispers, “Wait”, ...",
-      "suggested_fix": "Minor wording: ensure punctuation and spacing around quoted words are correct in Kiswahili, and preserve the threefold answer pattern. Current translation preserves content but ensure quotes and capitalization are appropriate: e.g., \"Basi, je, Mungu daima anajibu sala? Nasema ndiyo, Anaifanya. Wakati mwingine Anasema, 'Ndiyo,' ... Wakati mwingine, jibu lake ni 'Hapana,' ... Wakati mwingine, Anatinong'oneza, 'Subiri,' ...\"",
-      "translation_quote": "Basi, je, Mungu daima anajibu sala? Nasema ndiyo, Anaifanya. Wakati mwingine Anasema, “Ndiyo,” na tunapata tunachotaka; wakati mwingine, jibu lake ni “Hapana,” na hatupati kile tunaomba. Wakati mwingine, Anatinong’onyeza, “Subiri”, na kwa wakati wake na kwa njia Yake, Anaturuhusu kila tamaa ya moyo wetu."
     }
   ],
+  "finished_at": "2026-10-02T13:03:21+00:00",
   "id": "c989a7e05b37b60ffb0cffc33363d761",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "swa",
@@ -189,13 +174,13 @@
     }
   },
   "protected": false,
-  "quality_score": 55,
+  "quality_score": 87,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3eb2e8fac297406d71e2a495d876bb17af55171cebc6261c77bdfbb7e9c2311e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "f2478f0ee567de50716f2f909dafecb28388c4d5ba9651d1eee51ca0878db9fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

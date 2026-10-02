@@ -2,7 +2,6 @@
   "article_id": "21853000-58b7-413f-b119-c9b1a6012369",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:56+00:00",
   "events": [
@@ -62,25 +61,38 @@
         },
         "total_tokens": 10954
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 991,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6566,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7557
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<figure> (second image) — figcaption",
-      "severity": "major",
-      "source_quote": "This is an artichoke plant, a member of the thistle family. Many people use this “thistle,” along with its cousin, the Cardoon, for food.",
-      "suggested_fix": "Translate the full caption into Portuguese and remove the leftover English. For example (preserve existing HTML structure and tags): <figcaption><em>Esta é uma planta de alcachofra, membro da família dos cardos. Muitas pessoas usam este “cardo”, juntamente com seu parente, o cardo-branco (cardoon), como alimento.</em></figcaption> — or better, use the commonly used Portuguese name for 'Cardoon' if available (e.g., 'cardo-branco' or the scientific name) and keep the translation wholly in Portuguese.",
-      "translation_quote": "<figcaption><em>Esta é uma planta de alcachofra, membro da família dos cardos. Muitas pessoas usam este “cardo”, junto com seu parente, o Cardo (Cardoon), como alimento.</em></figcaption>"
-    },
-    {
-      "location": "Paragraph under 'Dominância de Espinhos e Cardos' (list of example plants)",
-      "severity": "major",
+      "location": "Paragraph under “Dominância de Espinhos e Cardos” (paragraph listing specific plants)",
+      "severity": "minor",
       "source_quote": "Think about it: Blessed Thistle, Milk Thistle, Teasel, Raspberry Leaf, and Blackberry roots are only a few examples of members of these “thorny weeds” used for medicinal and other food benefits.",
-      "suggested_fix": "Translate the proper names of the plants into Portuguese (or provide established Portuguese common names or Latin binomials). Preserve the original meaning and keep them in the same order. Example suggestion: 'Pense nisso: cardo-bendito (Blessed Thistle), cardo-mariano (Milk Thistle), scabiosa/teasel (teasel), folha de framboesa (Raspberry Leaf) e raízes de amora (Blackberry roots) são apenas alguns exemplos...' — or use scientific names in parentheses if a direct common-language equivalent is uncertain. Keep the sentence otherwise unchanged and preserve HTML tags.",
-      "translation_quote": "Cultivamos a alcachofra por suas folhas amargas, que são usadas para fazer amargos digestivos. Pense nisso: Blessed Thistle, Milk Thistle, Teasel, folha de framboesa e raízes de amora são apenas alguns exemplos de integrantes dessas “ervas espinhosas” usadas para fins medicinais e outros benefícios alimentares."
+      "suggested_fix": "The translation should avoid introducing additional identifying details that are not present in the English original (e.g., scientific names or uncommon local common names) or else mark them clearly as editorial additions. Either remove the parenthetical scientific name or render the plant names without added taxonomic identifiers. Suggested Portuguese rendering keeps only the plant names corresponding to the English source: “Pense nisso: cardo-bendito, cardo-mariano, teasel, folha de framboesa e raízes de amora são apenas alguns exemplos…”",
+      "translation_quote": "Pense nisso: cardo-bendito (Cnicus benedictus), cardo-mariano (Silybum marianum), cabacinha (Dipsacus fullonum), folha de framboesa e raízes de amora são apenas alguns exemplos de integrantes dessas “ervas espinhosas” usadas para fins medicinais e outros benefícios alimentares."
     }
   ],
+  "finished_at": "2026-10-02T13:03:20+00:00",
   "id": "574a4a63be43ce6a2da04c6cbd0c4fe2",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "por",
@@ -154,13 +166,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/35b2c7029cc42ee53f5ba53e917d6f4f13fd2ec89b436bb9b340de5e3d8adc44.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "3526d7232367f018301aa220868e7605f6dcc0608e6b2e5d5a6771923f6938fe",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

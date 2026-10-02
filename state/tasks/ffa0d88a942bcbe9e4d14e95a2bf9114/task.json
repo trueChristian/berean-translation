@@ -2,7 +2,6 @@
   "article_id": "c22883c1-1d69-4c5e-aa81-d4015bf4e473",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,32 +61,52 @@
         },
         "total_tokens": 5017
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1304,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2975,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4279
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph 2 (second <p>)",
-      "severity": "major",
-      "source_quote": "\"God’s Faithfulness Manifest Even in the Curse\"",
-      "suggested_fix": "Translate the quoted English article title into Spanish and remove or do not leave the original English inside the article HTML. For example, replace “\"God’s Faithfulness Manifest Even in the Curse\" (La fidelidad de Dios manifiesta incluso en la maldición)” with only the Spanish translation in the same structure: «La fidelidad de Dios manifiesta incluso en la maldición». Preserve the existing HTML tags and surrounding punctuation.",
-      "translation_quote": "“God’s Faithfulness Manifest Even in the Curse” (La fidelidad de Dios manifiesta incluso en la maldición)"
-    },
-    {
-      "location": "Paragraph 3 (third <p>)",
-      "severity": "major",
-      "source_quote": "\"A Word From the Doctor\"",
-      "suggested_fix": "Translate the quoted English phrase into Spanish and remove the retained English. Replace «\"A Word From the Doctor\" (Una palabra del médico)» with only the Spanish translation in the same punctuation and tag structure: «Una palabra del médico».",
-      "translation_quote": "«A Word From the Doctor» (Una palabra del médico)"
-    },
-    {
-      "location": "Paragraph 6 (sixth <p>, tractor anecdote)",
+      "location": "<article> paragraph 1",
       "severity": "minor",
-      "source_quote": "\"broiler houses\" / \"new flock\"",
-      "suggested_fix": "Use a more natural, industry-appropriate Spanish term for 'broiler houses' and 'flock' in this context. For example, replace \"casas de cría\" with \"galpones para pollos de engorde\" and change \"nuevo rebaño\" to \"nueva parvada\" or \"nuevo lote\" depending on preferred local terminology. Keep the existing HTML and sentence order.",
-      "translation_quote": "\"casas de cría\" / \"nuevo rebaño\""
+      "source_quote": "and everything else in between, which only an Almighty Creator God can arrange in such a way that will magnify His worthy power and excellence.",
+      "suggested_fix": "Replace the awkward phrase \"todo lo demás intermedio\" with a more natural Spanish rendering that preserves the meaning. Suggested fix (preserve tags and punctuation): \"y todo lo demás que hay entre ambos, que sólo un Dios Creador Todopoderoso puede disponer de tal manera que magnifique Su poderosa y digna excelencia.\"",
+      "translation_quote": "y todo lo demás intermedio, que solo un Dios Creador Todopoderoso puede disponer de tal manera que magnifique Su digna potestad y excelencia."
+    },
+    {
+      "location": "<article> paragraph quoting Proverbs 3:26",
+      "severity": "minor",
+      "source_quote": "“For the LORD shall be thy confidence, and shall keep thy foot from being taken” (Proverbs 3:26).",
+      "suggested_fix": "The Spanish translation is understandable but awkward/unnatural: \"guardará tu pie de ser atrapado\". Suggest a more idiomatic rendering that preserves the Scripture sense and the original emphasis on LORD (uppercase as in source). Suggested fix: \"Porque el SEÑOR será tu confianza, y guardará tu pie para que no tropieces\" (or \"para que no sea sorprendido\"). Keep the verse reference unchanged and preserve the quotation marks and parentheses.",
+      "translation_quote": "“Porque el SEÑOR será tu confianza, y guardará tu pie de ser atrapado” (Proverbios 3:26)."
+    },
+    {
+      "location": "<article> poem block",
+      "severity": "minor",
+      "source_quote": "When all Thy mercies, O my God,\n    My rising soul surveys,\n    Transported with the view, I’m lost\n    In wonder, love and praise.",
+      "suggested_fix": "The stanza is translated with several grammatical and idiomatic problems (\"Mi alma que se eleva las examina\", \"Transportado con la vista\"). Provide a fluent, faithful Spanish rendering that preserves the poetic sense. Suggested fix (preserve poem markup and emphasis tags): <div class=\"poem\"> <p><em>Cuando contemplo todas Tus misericordias, oh Dios mío,<br>\nMi alma en ascenso las contempla,<br>\nTransportado por la visión, me pierdo<br>\nEn maravilla, amor y alabanza.</em></p> </div>",
+      "translation_quote": "<em>Cuando contemplo todas Tus misericordias, oh Dios mío,<br>\n    Mi alma que se eleva las examina,<br>\n    Transportado con la vista, me pierdo<br>\n    En maravilla, amor y alabanza.</em>"
     }
   ],
+  "finished_at": "2026-10-02T13:03:21+00:00",
   "id": "ffa0d88a942bcbe9e4d14e95a2bf9114",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "spa",
@@ -161,13 +180,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/16f80cc2fe1f48fad7c825ed0d1e3059568da0b548b0106a43da4f8b4d785466.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "7328fe7985535229790c376868603624111ed137e1665aff6a36b03d5b4d90fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

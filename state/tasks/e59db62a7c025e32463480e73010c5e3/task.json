@@ -2,7 +2,6 @@
   "article_id": "21853000-58b7-413f-b119-c9b1a6012369",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,32 +61,45 @@
         },
         "total_tokens": 12581
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 864,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7336,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8200
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<p>He who declared, “The earth is the Lord’s,” doesn’t agree with the idea that men are something other than stewards of God’s creation.</p>",
-      "severity": "major",
+      "location": "Paragraph beginning 'He who declared, “The earth is the Lord’s,”' (section 'Deterioration and destruction')",
+      "severity": "minor",
       "source_quote": "He who declared, “The earth is the Lord’s,” doesn’t agree with the idea that men are something other than stewards of God’s creation.",
-      "suggested_fix": "Replace the mistranslated sentence with a faithful Hindi rendering that preserves the original negation and meaning: \"उसने कहा, ‘पृथ्वी और उसमें वास करने वाले सब कुछ यहोवा का है।’ वह यह विचार स्वीकार नहीं करता कि मनुष्य परमेश्वर की सृष्टि के स्वामी हैं; बल्कि मनुष्य परमेश्वर की सृष्टि के व्यवस्थापक (स्टुअरड) हैं।\" Preserve the surrounding <p>…</p> tags and punctuation.",
-      "translation_quote": "\"जिसने कहा, “पृथ्वी और उसमें वासरत सब कुछ यहोवा का है,” वह यह विचार नहीं मानता कि मनुष्य परमेश्वर की सृष्टि का ठेकेदार नहीं है।\""
+      "suggested_fix": "Preserve the original phrasing more closely. For example: \"जिसने कहा, 'पृथ्वी यहोवा की है,' वह यह विचार स्वीकार नहीं करता कि मनुष्य परमेश्वर की सृष्टि के मालकिन/मालिक हैं; वे इसकी दृष्टि में इसके व्यवस्थापक (stewards) हैं.\" (Keep the quoted phrase aligned with the English and avoid adding words not present in the source.)",
+      "translation_quote": "उसने कहा, ‘पृथ्वी और जिसमें वास करने वाले सब कुछ यहोवा का है।’ वह यह विचार स्वीकार नहीं करता कि मनुष्य परमेश्वर की सृष्टि के स्वामी हैं; बल्कि मनुष्य परमेश्वर की सृष्टि के व्यवस्थापक (स्टुअरड) हैं।"
     },
     {
-      "location": "<blockquote>\n    <p>“For the earnest expectation of the creature waiteth for the manifestation of the sons of God. For the creature was made subject to vanity, not willingly, but by reason of him who subjected the same in hope. Because the creature itself also shall be delivered from the bondage of corruption into the glorious liberty of the children of God. For we know that the whole creation groaneth and travaileth in pain together until now. And not only they, but ourselves also, which have the first fruits of the Spirit, even we ourselves groan within ourselves, waiting for the adoption, to wit, the redemption of our bodies” (Romans 8:19-23).</p>\n  </blockquote>",
+      "location": "Single word transliteration in same paragraph ('स्टुअरड')",
       "severity": "minor",
-      "source_quote": "“For the earnest expectation of the creature waiteth for the manifestation of the sons of God... (Romans 8:19-23).”",
-      "suggested_fix": "Adjust the Hindi quotation to a more accurate, natural rendering of the KJV passage while keeping it translated: e.g. replace the blockquote text with: “क्योंकि सृष्टि की परम प्रबल आकांक्षा परमेश्वर के पुत्रों की प्रकटीकरण की प्रतीक्षा करती है। क्योंकि सृष्टि निस्फलता के अधीन रखी गई थी, न अपने अनुसार, परंतु उस कारण से जिसने उसे अधीन किया, परन्तु आशा के साथ। क्योंकि सृष्टि भी भ्रष्टि के दासत्व से मुक्ति पाकर परमेश्वर के पुत्रों की महिमामय स्वतंत्रता प्राप्त करेगी। क्योंकि हम जानते हैं कि समस्त सृष्टि अब तक एक साथ कराहती और पीड़ा में है। और केवल वे ही नहीं, पर हम भी, जिनके पास आत्मा की प्रथम फसल है, अपने-अपने भीतर कराहते हैं, प्रत्याशा करते हुए पुत्रत्व की प्राप्ति की, अर्थात् हमारे शरीरों की मुक्ति की।” Preserve the <blockquote> and <p> tags.",
-      "translation_quote": "“क्योंकि सृष्टि की भीकट आनन्दपूर्वक परमेश्वर के पुत्रों की प्रकटीकरण की प्रतीक्षा करती है... (रोमियों 8:19-23)।”"
-    },
-    {
-      "location": "<p>God was also faithful in designing people, plants, and animals with a regenerative microbiome (billions of helpful bacteria) and a systemic immune system, which helps us fight off diseases.</p>",
-      "severity": "minor",
-      "source_quote": "God was also faithful in designing people, plants, and animals with a regenerative microbiome (billions of helpful bacteria) and a systemic immune system, which helps us fight off diseases.",
-      "suggested_fix": "Use a clearer, more idiomatic Hindi term for 'regenerative microbiome' and render the parenthetical note naturally, e.g. \"परमेश्वर ने लोगों, पौधों और पशुओं को पुनर्जीवनी माइक्रोबायोम (अरबों सहायक बैक्टीरिया) और एक प्रणालीगत प्रतिरक्षा प्रणाली के साथ भी वफादारी से बनाया, जो हमें रोगों से लड़ने में मदद करती है।\" Preserve the surrounding <p> tags.",
-      "translation_quote": "\"परमेश्वर ने लोगों, पौधों और पशुओं को पुनरुत्पादक माइक्रोबायोम (अरबों सहायक बैक्टीरिया) और एक प्रणालीगत प्रतिरक्षा प्रणाली के साथ डिज़ाइन कर वफादारी दिखाई, जो हमें रोगों से लड़ने में मदद करती है।\""
+      "source_quote": "stewards",
+      "suggested_fix": "Use a conventional Hindi term or a standard transliteration. Suggested: \"व्यवस्थापक (stewards)\" or simply \"व्यवस्थापक\". Avoid nonstandard Latin-to-Devanagari transliterations like 'स्टुअरड'.",
+      "translation_quote": "व्यवस्थापक (स्टुअरड) हैं।"
     }
   ],
+  "finished_at": "2026-10-02T13:03:21+00:00",
   "id": "e59db62a7c025e32463480e73010c5e3",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "hin",
@@ -161,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 95,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/35b2c7029cc42ee53f5ba53e917d6f4f13fd2ec89b436bb9b340de5e3d8adc44.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "3526d7232367f018301aa220868e7605f6dcc0608e6b2e5d5a6771923f6938fe",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

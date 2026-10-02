@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<article> paragraph beginning \"Christ forewarned His disciples\" (around John 16:1-4)",
+      "severity": "major",
+      "source_quote": "Christ forewarned His disciples that they would be put out of the synagogues so that when it happened, they “should not be offended” (John 16:1-4).",
+      "suggested_fix": "Replace the incorrect Arabic rendering «لا يَحْتَرِقُوا» with a faithful translation conveying “should not be offended” (e.g., «ألا يَتَعَثَّرُوا» or «كي لا يَتَعَثَّروا/لا يتعثروا»). Preserve surrounding HTML and punctuation. Example fix (Arabic): «حذّر المسيح تلاميذه أن يُخرَجوا من المجامع، حتى إذا حصل ذلك ‹لا يَتَعَثَّروا›» (يوحنا 16:1-4).",
+      "translation_quote": "حذر المسيح تلاميذه أن يُطْرَدوا من المجامع، حتى إذا حدث ذلك، «لا يَحْتَرِقُوا» (يوحنا 16:1-4)."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

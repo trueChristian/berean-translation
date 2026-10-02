@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 3 (\"...the checkbook runs dry...\")",
+      "severity": "minor",
+      "source_quote": "the checkbook runs dry",
+      "suggested_fix": "Use a more idiomatic Swedish rendering. Replace “kontot tar slut” with “kontot blir nästan tomt” or “kontot sinar” to better convey the English meaning.",
+      "translation_quote": "kontot tar slut"
+    },
+    {
+      "location": "Paragraph 7 (tractor anecdote)",
+      "severity": "minor",
+      "source_quote": "the hydrostatic pedal",
+      "suggested_fix": "Correct spelling of the technical term. Replace “den hydostatiska pedalen” with “den hydrostatiska pedalen.”",
+      "translation_quote": "den hydostatiska pedalen"
+    },
+    {
+      "location": "Section and title metadata / page headings",
+      "severity": "minor",
+      "source_quote": "From the EDITOR (section) / From the Editor (title)",
+      "suggested_fix": "Use consistent, natural Swedish capitalization. Prefer “Från redaktören” (sentence case) for both the title and section unless the site style intentionally uses all-caps for section headings. If the site requires an all-caps section header, keep “FRÅN REDAKTÖREN”; otherwise change “Från REDAKTÖREN” to “Från redaktören.”",
+      "translation_quote": "Från REDAKTÖREN / Från redaktören"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

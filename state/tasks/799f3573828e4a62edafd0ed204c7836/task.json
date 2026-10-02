@@ -2,7 +2,6 @@
   "article_id": "3c581136-51cf-47b2-a38b-3d1ee1d0b864",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,32 +61,60 @@
         },
         "total_tokens": 10604
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1353,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6447,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7800
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html: paragraph containing \"Since Ivan was a firefighter\"",
-      "severity": "minor",
-      "source_quote": "Since Ivan was a firefighter, we had an emergency scanner in the house.",
-      "suggested_fix": "Translate the occupation fully into Hebrew and remove the leftover English. Preserve the sentence meaning. Example fix inside the same <p> element: \"מאחר שאיוון היה כבאי, היה לנו בבית סורק מצבי חירום.\"",
-      "translation_quote": "\"כשאיוון כבא firefighter, היה לנו בבית סורק מצבי חירום.\""
-    },
-    {
-      "location": "source.html: paragraph containing \"they asked specifically that the doctors wouldn’t find anything when they did the angiogram\"",
-      "severity": "minor",
-      "source_quote": "They specifically asked that the doctors wouldn’t find anything when they did the angiogram.",
-      "suggested_fix": "Remove the garbled English fragment and use the Hebrew term consistently. Example fix inside the same <p> element: \"הם בקשו במפורש שהרופאים לא ימצאו כלום באנ giogram.\" -> \"הם בקשו במפורש שהרופאים לא ימצאו כלום באנ giוגרמה.\" or better: \"הם בקשו במפורש שהרופאים לא ימצאו כלום באנגיוגרמה.\"",
-      "translation_quote": "\"הם בקשו במפורש שהרופאים לא ימצאו כלום באנ giogram.\""
-    },
-    {
-      "location": "source.html: paragraph describing Judy \"lying on the stretcher, semi-comatose\"",
+      "location": "<article> <p>“Shall we call 911?” …</p> (paragraph describing first phone/appointment timing)",
       "severity": "major",
-      "source_quote": "By the time we got into a room, Judy had finally stopped seizing. As she lay on the stretcher, semi-comatose, she went into a second, milder seizure.",
-      "suggested_fix": "The translation uses ניידת (vehicle) where the source means 'stretcher' (אלונקה). This changes the meaning and is a substantive error. Replace the word with the correct Hebrew term and retain the rest of the sentence. Example fix inside the same <p> element: \"כשהגענו לחדר, ג'ודי סוף־סוף הפסיקה את ההתקף. כשהיא שוכבה על האלונקה, בחצי־הכרה, היא חוותה התקף שני, קל יותר.\"",
-      "translation_quote": "\"כשגענו לחדר, ג'ודי סוף־סוף הפסיקה את ההתקף. כשהיא שוכבה על הניידת, בחצי־הכרה, היא נפלה להתקף שני, קל יותר.\""
+      "source_quote": "An appointment with a neurosurgeon had been made for two days later.",
+      "suggested_fix": "Replace the mistranslated timing with the correct interval matching the English source. Keep HTML structure. For example: \"נקבע תור לנוירוכירורג לשבועיים\" should be corrected to \"נקבע תור לנוירוכירורג לשני ימים לאחר מכן\" (or simply \"נקבע תור לנוירוכירורג לשני ימים אחרי כן\").",
+      "translation_quote": "\"נקבע תור לנוירוכירורג לשבועיים לאחר מכן.\""
+    },
+    {
+      "location": "<article> <p>\"When I entered the kitchen, Judy lay on the floor, jerking rhythmically. I had never seen anyone in a seizure before...\"</p>",
+      "severity": "major",
+      "source_quote": "When I entered the kitchen, Judy lay on the floor, jerking rhythmically. I had never seen anyone in a seizure before, but somehow, I just knew. She’s having a seizure!",
+      "suggested_fix": "Correct the single-word mistranslation that changes the medical meaning. Replace \"בסיבוך\" with the standard Hebrew for 'seizure' used elsewhere in the translation (\"בהתקף\" or \"התקף\"). Preserve tags. Example fix: change \"מעולם לא ראיתי מישהו בסיבוך קודם\" to \"מעולם לא ראיתי מישהו בהתקף קודם\".",
+      "translation_quote": "\"מעולם לא ראיתי מישהו בסיבוך קודם, אבל איכשהו ידעתי. היא עברה התקף!\""
+    },
+    {
+      "location": "<article> <p>\"I was in the living room having my personal devotions.\"</p>",
+      "severity": "minor",
+      "source_quote": "I was in the living room having my personal devotions.",
+      "suggested_fix": "Use a natural contemporary Hebrew rendering for 'personal devotions'. Replace the unclear phrase \"עבודת הזמירה האישית שלי\" with a standard phrase such as \"הייתי בסלון בהתבודדות שלי\" or \"בזמן ההתבודדות האישית שלי\". Keep HTML tags intact.",
+      "translation_quote": "\"הייתי בסלון בעבודת הזמירה האישית שלי.\""
+    },
+    {
+      "location": "<article> multiple paragraphs describing the drive/arrival at hospital",
+      "severity": "minor",
+      "source_quote": "We had a straight drive to the hospital, and Ivan pulled right up to the emergency entrance.",
+      "suggested_fix": "The phrase \"נסיעת קרקע ישרה\" is awkward and unclear in Hebrew. Use a fluent idiom such as \"היה לנו נהגון ישיר אל בית החולים\" or better \"נסיעה ישירה לבית החולים\". Preserve tags.",
+      "translation_quote": "\"היה לנו נסיעת קרקע ישרה לבית החולים, ואיוון עצר ממש בכניסה לחדר המיון.\""
     }
   ],
+  "finished_at": "2026-10-02T13:03:20+00:00",
   "id": "799f3573828e4a62edafd0ed204c7836",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "heb",
@@ -161,13 +188,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 70,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3eb2e8fac297406d71e2a495d876bb17af55171cebc6261c77bdfbb7e9c2311e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "f2478f0ee567de50716f2f909dafecb28388c4d5ba9651d1eee51ca0878db9fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

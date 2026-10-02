@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7ab27bbd-a02d-4ca9-96e3-7f4f18abcc81",
+    "response_id": "chatcmpl-EUXAaDMXRKgFUPBjsm3Y0w2LcB5d1",
+    "usage": {
+      "completion_tokens": 863,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9681,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10544
+    }
+  },
+  "received_at": "2026-10-02T13:03:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<blockquote> (Romans 10:6-10 quote)",
+        "severity": "minor",
+        "source_quote": "“But what saith it? The word is nigh thee, even in thy mouth, and in thy heart: that is, the word of faith, which we preach; 9 That if thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that God hath raised him from the dead, thou shalt be saved.” (Romans 10:8-9)",
+        "suggested_fix": "Use a more literal, consistent rendering of “the Lord Jesus” as used elsewhere in the translation. Replace “यहोवा यीशु” with “प्रभु यीशु” (or simply “प्रभु यीशु”) to match the tone and terminology used elsewhere and to avoid introducing the divine name ‘यहोवा’ where the English has ‘the Lord’. Keep the rest of the sentence as translated.",
+        "translation_quote": "“कि यदि तू अपने मुँह से यहोवा यीशु को स्वीकृत करेगा, और अपने हृदय में विश्वास करेगा कि परमेश्वर ने उसे मृतों में से जिंदा किया, तो तू उद्धार पाएगा।” (रोमियों 10:6-10)."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

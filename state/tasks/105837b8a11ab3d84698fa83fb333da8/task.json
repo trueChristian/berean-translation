@@ -2,7 +2,6 @@
   "article_id": "3c581136-51cf-47b2-a38b-3d1ee1d0b864",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,39 +61,60 @@
         },
         "total_tokens": 12307
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1481,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7206,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8687
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "<p>In May 2001, God blessed our family with a baby girl. ...</p> (paragraph beginning “One morning when Judy was about 18 months old, I was in the living room having my personal devotions.”)",
-      "severity": "minor",
-      "source_quote": "One morning when Judy was about 18 months old, I was in the living room having my personal devotions.",
-      "suggested_fix": "Translate idiomatically as ‘আমি বসবার ঘরে ব্যক্তিগত ভজনা/প্রার্থনা করে বসে আ ছিলাম’ (avoid using ‘ভোজভাত’ which means a meal). Preserve the meaning ‘personal devotions’ as private prayer/devotional time.",
-      "translation_quote": "এক সকাল জুডি প্রায় ১৮ মাস বয়সী ছিল, আমি ড্রইং রুমে ব্যক্তিগত ভোজভাত করছিলাম।"
-    },
-    {
-      "location": "<p>In May 2001 ... (same paragraph as above)</p>",
-      "severity": "minor",
-      "source_quote": "living room",
-      "suggested_fix": "Use a standard Bengali equivalent (e.g., ‘বসবার ঘর’ or ‘লিভিং রুম’) rather than the English loanword ‘ড্রইং রুমে’.",
-      "translation_quote": "আমি ড্রইং রুমে ব্যক্তিগত ভোজভাত করছিলাম।"
-    },
-    {
-      "location": "<p>When we were progressing through an EEG ...</p> (paragraph beginning “As we tried to digest all the information...” and the next paragraph describing prayers becoming earnest)",
-      "severity": "minor",
-      "source_quote": "our prayers were getting more earnest",
-      "suggested_fix": "Translate ‘earnest’ directly into Bengali instead of leaving the English word in parentheses. For example: ‘আমাদের প্রার্থনাগুলো আরও গতিশীল/আর্তভাবে/অন্তহীনভাবে হয়ে উঠল’ or ‘আমাদের প্রার্থনা আরও আন্তরিক ও আর্ত হয়ে উঠল।’ Remove the stray English 'earnest (আর্ত)'.",
-      "translation_quote": "যখন আমরা ইইজেড (মস্তিষ্ক স্ক্যান—সিজার সক্রিয়তা খোঁজার জন্য) ও আরও ডাক্তারী পরিদর্শনের মধ্য দিয়ে এগোচ্ছিলাম, আমাদের প্রার্থনা আরও earnest (আর্ত) হয়ে উঠছিল।"
-    },
-    {
-      "location": "<p>We made the hour-and-a-half drive to Madison Children’s Hospital for the angiogram.</p>",
+      "location": "<p>When I entered the kitchen, Judy lay on the floor, jerking rhythmically. I had never seen anyone in a seizure before, but somehow, I just knew. She’s having a seizure!</p>",
       "severity": "major",
-      "source_quote": "we made the hour-and-a-half drive to Madison Children’s Hospital",
-      "suggested_fix": "Correct the duration to match the source: translate as ‘প্রায় এক ঘণ্টা ত্রিশ মিনিটের ড্রাইভ’ or ‘আওড়া এক-থাকা-আধা ঘণ্টার ড্রাইভ’ (i.e., 1.5 hours). The current Bengali ‘আড়াই ঘণ্টার ড্রাইভ’ means 2.5 hours and changes the factual detail.",
-      "translation_quote": "পরের দিন আমরা এঞ্জিওগ্রামের জন্য ম্যাডিসন চিলড্রেনস্ হাসপাতালে আড়াই ঘণ্টার ড্রাইভ করলাম।"
+      "source_quote": "When I entered the kitchen, Judy lay on the floor, jerking rhythmically.",
+      "suggested_fix": "Translate the physical description of the seizure to convey involuntary convulsive movements. For example: «{জানো} যখন আমি রান্নাঘরে ঢুকলাম, জুডি মেঝেতে শুয়ে ছট করে কাঁপছিল।» or «…মেঝেতে শুয়ে ছটফট করে কাঁপছিল।» (preserve surrounding HTML).",
+      "translation_quote": "যখন আমি রান্নাঘরে ঢুকলাম, জুডি মেঝেতে শুয়ে ছন্দময়ভাবে পলকাচ্ছিল।"
+    },
+    {
+      "location": "<p>By the time we got into a room, Judy had finally stopped seizing. As she lay on the stretcher, semi-comatose, she went into a second, milder seizure.</p>",
+      "severity": "minor",
+      "source_quote": "As she lay on the stretcher, semi-comatose, she went into a second, milder seizure.",
+      "suggested_fix": "The phrase “semi-comatose” should be rendered in natural Bengali conveying reduced consciousness rather than the current unclear wording. Suggestion: «স্ট্রেচারে শুয়ে অর্ধকমায় অবস্থায় থাকাকালীন, ও একটি দ্বিতীয়, সামান্য সিজার করল।» or «স্ট্রেচারে শুয়ে অর্ধ-কোমায় ছিল; তখনও ও একটি দ্বিতীয়, হালকা সিজার করল।»",
+      "translation_quote": "স্ট্রেচারে শুইয়ে আংশিক কমাতে ডুবে থাকা অবস্থায় ও আরও একটি হালকা সিজার করল।"
+    },
+    {
+      "location": "<p>The first 24 hours after birth, Judy grunted and squawked almost continuously. “She is disgruntled about being born,” I joked.</p>",
+      "severity": "minor",
+      "source_quote": "The first 24 hours after birth, Judy grunted and squawked almost continuously.",
+      "suggested_fix": "The English conveys baby vocalizations (grunted and squawked). The translation's «অচেনা শাব্দ করতে ও কাঁকড়া কাঁকড়া ধরনের শব্দ করত» is awkward and unclear. Suggest a clearer Bengali rendering, e.g.: «জন্মের প্রথম ২৪ ঘণ্টায় জুডি প্রায় অবিরাম গরগর ও চেঁচামেচি ন্য়ের কণ্ঠ করছিল।» or «…প্রায় অবিরত গম্বুজানো ও চেঁচামেচি স্বরে কণ্ঠরত ছিল।»",
+      "translation_quote": "জন্মের প্রথম ২৪ ঘণ্টায়, জুডি প্রায় অবিরাম অচেনা শাব্দ করতে ও কাঁকড়া কাঁকড়া ধরনের শব্দ করত।"
+    },
+    {
+      "location": "section and title metadata",
+      "severity": "minor",
+      "source_quote": "section: SISTER TO SISTER\ntitle: Does God Answer Prayer?",
+      "suggested_fix": "Section and title translations are acceptable, but check capitalization/idiom if desired. Current translations («বোন থেকে বোন», «ঈশ্বর কি প্রার্থনার উত্তর দেন?») are clear and idiomatic; no mandatory change required.",
+      "translation_quote": "section: বোন থেকে বোন\ntitle: ঈশ্বর কি প্রার্থনার উত্তর দেন?"
     }
   ],
+  "finished_at": "2026-10-02T13:03:20+00:00",
   "id": "105837b8a11ab3d84698fa83fb333da8",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ben",
@@ -168,13 +188,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 78,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3eb2e8fac297406d71e2a495d876bb17af55171cebc6261c77bdfbb7e9c2311e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "f2478f0ee567de50716f2f909dafecb28388c4d5ba9651d1eee51ca0878db9fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

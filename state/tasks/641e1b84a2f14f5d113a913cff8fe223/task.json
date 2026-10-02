@@ -2,7 +2,6 @@
   "article_id": "ee9ff8a9-5b59-4b3e-9585-ab891c945bb5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,18 +61,45 @@
         },
         "total_tokens": 2317
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 707,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1377,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2084
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<div class=\"poem\"> — tercera estrofa, segundo verso después de la coma",
-      "severity": "major",
-      "source_quote": "There no foe can e’er molest you,",
-      "suggested_fix": "Mantener la misma persona gramatical que el resto del poema (segunda persona plural). Por ejemplo: “Allí ningún enemigo podrá molestaros jamás,” o, si se prefiere español de América y se opta por ustedes: ajustar toda la estrofa para usar \"ustedes\" (ver nota). Reemplace exactamente la frase traducida actual por la forma sugerida y conserve las mismas etiquetas HTML y saltos de línea.",
-      "translation_quote": "Allí ningún enemigo puede molestarnos jamás,"
+      "location": "<div class=\"poem\"> <p> (segunda estrofa, verso 2)",
+      "severity": "minor",
+      "source_quote": "Straight or crooked, one of twain;",
+      "suggested_fix": "Rephrase to a more natural, idiomatic Spanish while preserving the poem and HTML structure. For example: \"Recta o torcida, una u otra;\" or \"Recta o torcida, cualquiera de las dos;\" Replace only the text between the <p> tags.",
+      "translation_quote": "Recta o torcida, una de dos;"
+    },
+    {
+      "location": "<article> <figure> <img alt=\"...\">",
+      "severity": "minor",
+      "source_quote": "A snow-covered road winding through an evergreen forest",
+      "suggested_fix": "Use a more idiomatic rendering of \"winding\" in Spanish. For example: \"Un camino cubierto de nieve serpenteante por un bosque de coníferas\" or \"Un camino cubierto de nieve que serpentea por un bosque de coníferas\". Change only the alt attribute value.",
+      "translation_quote": "Un camino cubierto de nieve serpenteando por un bosque de coníferas"
     }
   ],
+  "finished_at": "2026-10-02T13:03:20+00:00",
   "id": "641e1b84a2f14f5d113a913cff8fe223",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "spa",
@@ -147,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/b70a42a3055e9b0b2f7cc18e717a71e0c042b99f8312a6e4498df59b68992446.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "a0e94b1f79a0eed4b2b4fa527a207a63d01981d07be68e5cda06b45933da47fd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing 2 Timothy 4:3-4 (section 'Caminar como hijos de luz')",
+      "severity": "minor",
+      "source_quote": "There are those who have “itching ears; and they shall turn away their ears from the truth, and shall be turned unto fables” (2 Timothy 4:3-4).",
+      "suggested_fix": "Render the quoted Scripture in natural, established Spanish phrasing that conveys the English meaning. Replace “oídos que se escogen; y se apartarán de la verdad, y se volverán a fábulas” with a more accurate translation such as: “tendrán deseos de oír cosas agradables; apartarán de la verdad sus oídos, y se volverán a fábulas” (or another conventional Spanish phrasing for 2 Timoteo 4:3-4). Preserve the verse numbers and punctuation as in the source.",
+      "translation_quote": "Hay quienes tienen “oídos que se escogen; y se apartarán de la verdad, y se volverán a fábulas” (2 Timoteo 4:3-4)."
+    },
+    {
+      "location": "Paragraph referencing the 'inner 12' (third paragraph)",
+      "severity": "minor",
+      "source_quote": "He informed the inner 12 that had stuck with Him, “All ye shall be offended because of me this night” (Mark 14:27).",
+      "suggested_fix": "The phrase “the inner 12 that had stuck with Him” is translated awkwardly as “los doce interiores que se habían quedado con Él.” Suggest a more natural rendering that preserves the original meaning, for example: “les informó a los doce más íntimos que se habían quedado con Él: ‘Todos vosotros os escandalizaréis de mí esta noche’ (Marcos 14:27).” Keep the quote and verse numbering unchanged.",
+      "translation_quote": "Informó a los doce interiores que se habían quedado con Él: “Todos vosotros os escandalizaréis de mí esta noche” (Marcos 14:27)."
+    },
+    {
+      "location": "Paragraphs referring to Michal / Mical (several occurrences)",
+      "severity": "minor",
+      "source_quote": "Michal (as spelled in source): “In her early years, Michal loved David...\" and later \"‘As the ark of the LORD came into the city of David, Michal, Saul's daughter looked through a window...” (2 Samuel 6:16).",
+      "suggested_fix": "The English source uses the spelling “Michal.” The translation mostly uses the variant “Mical.” For consistency with the source proper name and to avoid an unintended change in a biblical name, use the same conventional Spanish spelling as appears in the English source or a standard Spanish Bible form (e.g., Mical or Mical / Mícal depending on preferred Spanish Bible tradition). If choosing to keep 'Mical', ensure consistency across the translation; if aligning with the source, change instances of “Mical” to “Michal.”",
+      "translation_quote": "En sus primeros años, Mical amó a David con lealtad profunda... “Y cuando el arca de Jehová entró en la ciudad de David, Mical, hija de Saúl, miró por la ventana...” (2 Samuel 6:16)."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph: 'They had only gone as far as the Brook Besor when a third of his men gave up.' (I Samuel 30 section)",
+      "severity": "major",
+      "source_quote": "They had only gone as far as the Brook Besor when a third of his men gave up. Scripture tells us they were “too faint” to cross the brook.",
+      "suggested_fix": "Render the place name and the reported condition faithfully. For example: «لم يقطعوا إلا حتى خور بيسور حين استسلم ثلث رجاله. وتخبرنا الكتابات أنّهم كانوا «ضعفاء جدًا» بحيث لا يستطيعون عبور الخور.» — or «خور بيسور» for 'Brook Besor' and a clear rendering of “too faint” as ضعفوا عن عبور الخور / كانوا شديدي الضعف عن عبور الخور. Preserve the verse citation (صموئيل الأول 30:23،24) as is.",
+      "translation_quote": "لم يقطعوا مسافة طويلة حتى غدر بِصر، إذ استسلم ثلث رجاله. تخبرنا الآيات أنهم «أضعفوا» عن عبور الوادي."
+    },
+    {
+      "location": "Intro paragraph referencing 'my patient' (lab section)",
+      "severity": "minor",
+      "source_quote": "Quickly my eye went to my patient’s kidney function and stopped. Her kidney function had declined a huge amount in the last week.",
+      "suggested_fix": "Match grammatical gender for 'my patient' in Arabic to the female referent. For example: «توجهت عيناي سريعًا إلى وظائف الكلى لمريضتي فتوقفت. لقد تدهورت وظيفة كليتها بصورة كبيرة خلال الأسبوع الماضي.»",
+      "translation_quote": "سرعة توقفت عيناي عند وظيفة الكلى لدى مريضي. لقد تدهورت وظيفة كليتها بشكل كبير خلال الأسبوع الماضي."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

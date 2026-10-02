@@ -2,7 +2,6 @@
   "article_id": "97efa86c-46a8-499e-850a-d626dce2fd7c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:56+00:00",
   "events": [
@@ -62,39 +61,52 @@
         },
         "total_tokens": 10115
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 960,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5863,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6823
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "source.title",
-      "severity": "critical",
-      "source_quote": "When All Thy Mercies, O My God",
-      "suggested_fix": "Tradurre il titolo in italiano preservando il contenuto teologico e il senso dell'originale. Esempio: sostituire il valore del campo title con \"Quando tutte le tue misericordie, o mio Dio\" (senza cambiare altri metadati o l'ordine dei tag HTML).",
-      "translation_quote": "When All Thy Mercies, O My God"
-    },
-    {
-      "location": "source.html — primo paragrafo (frase iniziale)",
-      "severity": "major",
-      "source_quote": "In your journey of life, from infancy to where you are today, have you ever taken a few minutes to meditate on the mercy God has shown you? Infancy to childhood, childhood to youth, youth to adulthood, and beyond, God's everlasting mercy is upon them that fear Him!",
-      "suggested_fix": "Correggere la sequenza delle fasi della vita per riflettere fedelmente l'originale. Sostituire la traduzione errata \"Dall'infanzia all'infanzia avanzata, dall'infanzia alla giovinezza...\" con una resa chiara e aderente all'inglese, ad es.: \"Nel tuo cammino di vita, dall'infanzia fino a dove sei oggi, ti sei mai fermato qualche minuto a meditare sulla misericordia che Dio ti ha mostrato? Dall'infanzia all'infanzia successiva, dall'infanzia alla fanciullezza, dalla giovinezza all'età adulta e oltre, la misericordia eterna di Dio è su coloro che Lo temono!\" (oppure mantenere la sequenza originale resa più naturale: \"dall'infanzia all'infanzia, dall'infanzia alla giovinezza, dalla giovinezza all'età adulta e oltre\" se si intende seguire parola per parola). Assicurarsi che il riferimento a \"them that fear Him\" sia reso come \"coloro che Lo temono\" o simile, non cambiando il soggetto teologico.",
-      "translation_quote": "Nel tuo cammino di vita, dall'infanzia fino a dove sei oggi, ti sei mai fermato qualche minuto a meditare sulla misericordia che Dio ti ha mostrato? Dall'infanzia all'infanzia avanzata, dall'infanzia alla giovinezza, dalla giovinezza all'età adulta e oltre, la misericordia eterna di Dio è su quelli che lo temono!"
-    },
-    {
-      "location": "source.html — sezione delle strofe, seconda strofa (verso 2)",
+      "location": "<p>...si assicurò che suo figlio Joseph ricevessse una buona istruzione. Iniziò gli studi nella sua città natale...",
       "severity": "minor",
-      "source_quote": "Thy Providence my life sustained, And all my wants redressed, While in the silent womb I lay, And hung upon the breast.",
-      "suggested_fix": "Rendere \"wants redressed\" con un italiano che renda il senso di \"bisogni soddisfatti/riportati a posto\" invece dell'attuale \"ridusse\". Per esempio: \"La Tua Provvidenza sostenne la mia vita, e provvide a tutti i miei bisogni, mentre giacevo nel silenzioso grembo, e pendevo dal seno.\" Sostituire nel blocco <section class=\"lyrics\"> la riga corrispondente mantenendo i tag HTML e l'ordine delle strofe.",
-      "translation_quote": "La Tua Provvidenza sostenne la mia vita,\n    E tutte le mie necessità ridusse,\n    Mentre giacevo nel silenzioso grembo,\n    E pendevo dal seno."
+      "source_quote": "He commenced his studies in his hometown of Milston, in Wiltshire, England.",
+      "suggested_fix": "Fix a typographical error: change \"ricevessse\" to \"ricevesse\" to correct Italian spelling.",
+      "translation_quote": "si assicurò che suo figlio Joseph ricevessse una buona istruzione. Iniziò gli studi nella sua città natale di Milston, nel Wiltshire, Inghilterra."
     },
     {
-      "location": "source.html — nota di fonte (p.source-note)",
-      "severity": "major",
-      "source_quote": "*sourced from Wikipedia and hymnary.org",
-      "suggested_fix": "Tradurre la nota di fonte in italiano per mantenere la coerenza linguistica dell'articolo. Ad esempio: \"*tratto da Wikipedia e hymnary.org\" oppure \"*fonte: Wikipedia e hymnary.org\". Sostituire il testo all'interno del tag <p class=\"source-note\"> senza alterare altri attributi o la struttura HTML.",
-      "translation_quote": "*sourced from Wikipedia and hymnary.org"
+      "location": "<section class=\"lyrics\"> stanza 9",
+      "severity": "minor",
+      "source_quote": "Ten thousand thousand precious gifts\nMy daily thanks employ;",
+      "suggested_fix": "The literal rendering \"Diecimila diecimila doni preziosi\" is awkward in Italian. Suggest a more idiomatic translation that preserves emphasis, e.g. \"Diecimila per diecimila doni preziosi\" or \"Innumerevoli doni preziosi\" depending on desired level of literalness.",
+      "translation_quote": "Diecimila diecimila doni preziosi\nLe mie grazie quotidiane occupano;"
+    },
+    {
+      "location": "<p>...il giovane autore dell'inno di 13 anni incontrò e divenne il migliore amico di Richard Steele...",
+      "severity": "minor",
+      "source_quote": "While in school around 1685, the 13-year-old hymn writer met and became best of friends with Richard Steele, the two of them being only a few months apart in age.",
+      "suggested_fix": "The Italian phrasing \"il giovane autore dell'inno di 13 anni incontrò\" is slightly awkward. Suggest rephrasing for clarity, e.g. \"Mentre era a scuola, intorno al 1685, il giovane autore dell'inno, allora quattordicenne (o 'di 13 anni'), incontrò e divenne il migliore amico di Richard Steele...\" (keep the age as 13 as in source).",
+      "translation_quote": "Mentre era a scuola, intorno al 1685, il giovane autore dell'inno di 13 anni incontrò e divenne il migliore amico di Richard Steele, i due essendo separati da pochi mesi di età."
     }
   ],
+  "finished_at": "2026-10-02T13:03:21+00:00",
   "id": "a7107e46490d5fbfb887fc2597ea5211",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ita",
@@ -168,13 +180,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1f918b0ea8340bcf17f023b66bf22d08b2185fd15382de583ea5e89a31c88725.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "151c676a3a3f4de7275eee354cc0c629e172ecc2dbb372f12ae064df79d4e44e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

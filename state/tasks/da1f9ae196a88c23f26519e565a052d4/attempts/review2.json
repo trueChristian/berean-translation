@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:21+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p class=\\\"lead\\\"> (first paragraph)\",\"severity\":\"minor\",\"source_quote\":\"Ministers of the Gospel today are expected to be soft and effeminate lest they offend their listeners.\",\"suggested_fix\":\"Use standard contemporary Dutch wording. Replace 'effeminé' with 'effeminerend' or better 'effeminé' → 'effeminé' is French and uncommon in Dutch; suggested: 'zacht en effeminé' → 'zacht en effeminé' is odd. Recommended correction: \\\"zacht en vrouwelijk (om anderen niet te kwetsen)\\\" or simply \\\"zacht en effeminerend\\\". Keep original HTML structure and do not alter tags.\",\"translation_quote\":\"Tegenwoordige predikanten van het Evangelie worden verondersteld zacht en effeminé te zijn, opdat zij hun luisteraars niet zouden kwetsen.\"},{\"location\":\"Multiple Bible quotations (style)\",\"severity\":\"minor\",\"source_quote\":\"Bible quotations use a variety of registers (e.g. Psalm 119:165: “Great peace have they which love thy law: and nothing shall offend them”).\",\"suggested_fix\":\"The translation preserves the quotations but mixes contemporary Dutch with archaic/older Bible-language forms (e.g. 'des Heren', 'den hoge', 'Gij', 'Mij', 'wierd', 'lenspeld'). For consistency and readability in standard contemporary Dutch, consider using a single register for all scripture quotations (modern Dutch Bible phrasing) while preserving chapter and verse numbering exactly. Do not change HTML structure; only adjust the quoted text inside existing <p> elements.\",\"translation_quote\":\"“Grote vrede hebben zij die uw wet liefhebben: en niets zal hen aanstoot geven” (Psalm 119:165). … “Ik dan, de gevangene des Heren, smeek u, dat gij wandelt waardig naar de roeping waarmee gij geroepen zijt…” (Efeziërs 4:1-2).\"},{\"location\":\"<section class=\\\"references\\\">\",\"severity\":\"minor\",\"source_quote\":\"Strongs Concordance\",\"suggested_fix\":\"The source's reference title was 'Strongs Concordance'. The translation uses 'Strongs-concordantie' with a hyphen and lowercase 'concordantie'. For fidelity, render the cited work title in conventional Dutch typography but keep it clearly identifiable; suggested: 'Strongs Concordantie' or 'Strong's Concordance' (if the publication's conventional title uses an apostrophe/s). Preserve the <li> text and tags.\",\"translation_quote\":\"Strongs-concordantie\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 2351,
+    "content_evidence_truncated": false,
+    "content_sha256": "5c7b1eba81bbef405a94b7cb573ea5006aa01f7cb49e397f37e7543153f1ace2",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1334,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8255,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9589
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

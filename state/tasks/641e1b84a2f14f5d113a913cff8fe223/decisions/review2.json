@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> <p> (segunda estrofa, verso 2)",
+      "severity": "minor",
+      "source_quote": "Straight or crooked, one of twain;",
+      "suggested_fix": "Rephrase to a more natural, idiomatic Spanish while preserving the poem and HTML structure. For example: \"Recta o torcida, una u otra;\" or \"Recta o torcida, cualquiera de las dos;\" Replace only the text between the <p> tags.",
+      "translation_quote": "Recta o torcida, una de dos;"
+    },
+    {
+      "location": "<article> <figure> <img alt=\"...\">",
+      "severity": "minor",
+      "source_quote": "A snow-covered road winding through an evergreen forest",
+      "suggested_fix": "Use a more idiomatic rendering of \"winding\" in Spanish. For example: \"Un camino cubierto de nieve serpenteante por un bosque de coníferas\" or \"Un camino cubierto de nieve que serpentea por un bosque de coníferas\". Change only the alt attribute value.",
+      "translation_quote": "Un camino cubierto de nieve serpenteando por un bosque de coníferas"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

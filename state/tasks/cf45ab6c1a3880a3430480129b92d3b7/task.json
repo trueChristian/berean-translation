@@ -2,7 +2,6 @@
   "article_id": "8072bb08-e7aa-4602-a3c6-f82161b740ae",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,46 +61,52 @@
         },
         "total_tokens": 10139
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 809,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5758,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6567
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Final paragraph, quoted sentence",
-      "severity": "critical",
-      "source_quote": "“Thanks be unto God for his unspeakable gift.”",
-      "suggested_fix": "Translate the quoted sentence faithfully into Bengali, preserving that it is a direct quotation. For example: “ঈশ্বরকে ধন্যবাদ তাহার অক্তব্য অনূৎসর্গের জন্য।” or better: “ঈশ্বরকে ধন্যবাদ তাঁর অস্মরণীয় দানের জন্য।” (Place the chosen Bengali rendering inside the same quotation marks as in the source.)",
-      "translation_quote": "“তার অ কণ্ঠে কৃতজ্ঞতা।”"
-    },
-    {
-      "location": "First paragraph, sentence about cause of “no”",
-      "severity": "major",
-      "source_quote": "Sometimes we bring the “no” upon ourselves because of disobedience, such as when God said “no” to Moses.",
-      "suggested_fix": "Restore the causal meaning that the author claims humans sometimes bring God's “no” upon themselves by their own disobedience. A closer Bengali rendering: “কখনও কখনও আমরা অবাধ্যতার জন্য নিজেদের ওপরেই ঈশ্বরের ‘না’ টেনে আনি—যেমন ঈশ্বর মোশেকে ‘না’ বলেছিলেন।”",
-      "translation_quote": "“কখনও কখনও আমরা অজ্ঞাত বাধ্যতায়ই “না” পাই—অবলম্বনে অবাধ্য হওয়ার কারণে—যেমন ঈশ্বর মোশেকে “না” বলেছিলেন।”"
-    },
-    {
-      "location": "Image alt text in translation (figure img alt)",
-      "severity": "major",
-      "source_quote": "An old house and bare trees in a snowy field",
-      "suggested_fix": "Translate the full alt text into idiomatic Bengali and remove any non-Bengali insertion. For example: “বরফে ঢাকা একটি মাঠে একটি পুরনো বাড়ি ও পাতা ঝরা গাছ” (replace the current alt attribute value with this Bengali text).",
-      "translation_quote": "\"বরফে ঢাকা поля-তে একটি পুরনো বাড়ি ও পাতা ঝরা গাছ\""
-    },
-    {
-      "location": "Paragraph quoting Deuteronomy 32:4 (“He is … a God of truth and without iniquity, just and right is he”)",
+      "location": "source.title → translation.title",
       "severity": "minor",
-      "source_quote": "He is … a God of truth and without iniquity, just and right is he (Deuteronomy 32:4).",
-      "suggested_fix": "Improve idiomatic clarity while preserving the scripture's meaning. Suggested Bengali: “তিনি ... সত্যের ঈশ্বর, অনপাপ; তিনি ন্যায়পরায়ণ এবং ন্যায্য।” Replace the current phrasing “অধিকার সংবলিত” with a standard Bengali rendering for “just and right is he.”",
-      "translation_quote": "“তিনি … সত্যের ঈশ্বর এবং পাপহীন, তিনি ন্যায্য এবং অধিকার সংবলিত” (বিধিবাক্য 32:4)."
+      "source_quote": "When God Says No",
+      "suggested_fix": "Use a more natural Bengali word order and idiom for the title. Replace “যখন ঈশ্বর বলেন না” with “ঈশ্বর যখন ‘না’ বলেন” (preserves meaning and reads idiomatically).",
+      "translation_quote": "যখন ঈশ্বর বলেন না"
     },
     {
-      "location": "Psalm citation and surrounding phrasing (Psalms 139:6)",
+      "location": "source.html paragraph containing 2 Corinthians 12:7-9 → corresponding translation paragraph",
       "severity": "minor",
-      "source_quote": "“Such knowledge is too wonderful for me; it is high, I cannot attain unto it” (Psalms 139:6).",
-      "suggested_fix": "Use the conventional Bengali name for Psalms and slightly adjust phrasing for naturalness. For example: “এমন জ্ঞান আমার জন্য অতিশয় বিস্ময়কর; তা উচ্চ, আমি তাতে পৌঁছাই না” (গীতসংহিতা 139:6). Replace “গীৎ 139:6” with “গীতসংহিতা 139:6.”",
-      "translation_quote": "“এমন জ্ঞান আমার জন্য অতিশয় বিস্ময়কর; তা উচ্চ, আমি তাতে পৌঁছাই না” (গীৎ 139:6)."
+      "source_quote": "For this thing I besought the Lord thrice, that it might depart from me.",
+      "suggested_fix": "Correct the Bengali rendering of “thrice” to the standard form. Replace “তিসরবার” with “তিনবার” so the sentence reads: “এ ব্যাপারে আমি প্রভুকে তিনবারে প্রার্থনা করিলাম, যাহা যেন আমার থেকে বিচ্ছিন্ন হয়।”",
+      "translation_quote": "এ ব্যাপারে আমি প্রভুকে তিনবারে প্রার্থনা করিলাম, যাহা যেন আমার থেকে বিচ্ছিন্ন হয়।"
+    },
+    {
+      "location": "source.section → translation.section",
+      "severity": "minor",
+      "source_quote": "BIBLE DOCTRINES",
+      "suggested_fix": "Section title is acceptable but may be rendered with a more conventional Bengali phrase. Optional replacement: “বাইবেলীয় শিক্ষাদর্শন” → “বাইবেলীয় দৃষ্টিভঙ্গি” or “বাইবেলের শিক্ষাবলি” if the publisher prefers a different register. (This is optional; no doctrinal change.)",
+      "translation_quote": "বাইবেলীয় শিক্ষাদর্শন"
     }
   ],
+  "finished_at": "2026-10-02T13:03:21+00:00",
   "id": "cf45ab6c1a3880a3430480129b92d3b7",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ben",
@@ -175,13 +180,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/40b205584b70dea6ea3ff3f4c41c6fd1ddfe0f0185df69fefa6b9552a41d435d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "bf998429e527907a20f711c821e9bb6ad50ba4d154d9f55d397877de1bb521c0",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

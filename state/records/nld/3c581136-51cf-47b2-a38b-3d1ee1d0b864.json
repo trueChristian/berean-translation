@@ -6,9 +6,32 @@
       "campaign": "gh-37007882719",
       "event": "requested",
       "task": "77ee2c28bd2b575df913b94d7e4505dc"
+    },
+    {
+      "at": "2026-10-02T13:03:20+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "77ee2c28bd2b575df913b94d7e4505dc"
     }
   ],
   "language": "nld",
   "latest_task": "77ee2c28bd2b575df913b94d7e4505dc",
-  "published": null
+  "published": {
+    "html_path": "content/nld/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.html",
+    "html_sha256": "77338827e880aebcd5fd55f275cc3005cee91e027b7783da06dcb728c7093a74",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+    "metadata_path": "content/nld/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.json",
+    "metadata_sha256": "ffa6669a683ceeccdafc423f191aed9113ed357a69a6ed1af51d92aa92567cb3",
+    "model": "gpt-5-mini-2025-08-07",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"nl\" dir=\"ltr\" role=\"note\">\n  <p>Dit artikel is vertaald met kunstmatige intelligentie van OpenAI (model: gpt-5-mini-2025-08-07) en is nog niet door een mens gecontroleerd. Het Engelse origineel is de gezaghebbende versie. Raadpleeg bij twijfel over de betekenis het Engelse origineel. <a href=\"/en/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864/\" data-source-article-id=\"3c581136-51cf-47b2-a38b-3d1ee1d0b864\" hreflang=\"en\">Engels origineel</a></p>\n</aside>",
+    "published_at": "2026-10-02T13:03:20+00:00",
+    "quality_score": 97,
+    "review_model": "gpt-5-mini-2025-08-07",
+    "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+    "source_snapshot": "state/sources/3eb2e8fac297406d71e2a495d876bb17af55171cebc6261c77bdfbb7e9c2311e.json",
+    "task": "77ee2c28bd2b575df913b94d7e4505dc",
+    "translation_key": "f2478f0ee567de50716f2f909dafecb28388c4d5ba9651d1eee51ca0878db9fa"
+  }
 }

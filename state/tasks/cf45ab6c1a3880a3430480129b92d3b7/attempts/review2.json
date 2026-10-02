@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:21+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.title → translation.title\",\"severity\":\"minor\",\"source_quote\":\"When God Says No\",\"suggested_fix\":\"Use a more natural Bengali word order and idiom for the title. Replace “যখন ঈশ্বর বলেন না” with “ঈশ্বর যখন ‘না’ বলেন” (preserves meaning and reads idiomatically).\",\"translation_quote\":\"যখন ঈশ্বর বলেন না\"},{\"location\":\"source.html paragraph containing 2 Corinthians 12:7-9 → corresponding translation paragraph\",\"severity\":\"minor\",\"source_quote\":\"For this thing I besought the Lord thrice, that it might depart from me.\",\"suggested_fix\":\"Correct the Bengali rendering of “thrice” to the standard form. Replace “তিসরবার” with “তিনবার” so the sentence reads: “এ ব্যাপারে আমি প্রভুকে তিনবারে প্রার্থনা করিলাম, যাহা যেন আমার থেকে বিচ্ছিন্ন হয়।”\",\"translation_quote\":\"এ ব্যাপারে আমি প্রভুকে তিনবারে প্রার্থনা করিলাম, যাহা যেন আমার থেকে বিচ্ছিন্ন হয়।\"},{\"location\":\"source.section → translation.section\",\"severity\":\"minor\",\"source_quote\":\"BIBLE DOCTRINES\",\"suggested_fix\":\"Section title is acceptable but may be rendered with a more conventional Bengali phrase. Optional replacement: “বাইবেলীয় শিক্ষাদর্শন” → “বাইবেলীয় দৃষ্টিভঙ্গি” or “বাইবেলের শিক্ষাবলি” if the publisher prefers a different register. (This is optional; no doctrinal change.)\",\"translation_quote\":\"বাইবেলীয় শিক্ষাদর্শন\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 1928,
+    "content_evidence_truncated": false,
+    "content_sha256": "5cba9f73e5edda9340274b73599afce83778a48269d97174220393faae91057d",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 809,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5758,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6567
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

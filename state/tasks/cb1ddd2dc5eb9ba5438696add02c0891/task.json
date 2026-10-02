@@ -2,7 +2,6 @@
   "article_id": "a1334217-82ac-49ef-8293-563122652b89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,32 +61,45 @@
         },
         "total_tokens": 9098
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 912,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5520,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6432
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "source.html paragraph: \"I ordered a copy of <em>The Martyr’s Mirror</em> and was astounded...\",\"translation.html paragraph: corresponding paragraph",
+      "location": "source.html -- paragraph: \"One day I was visiting with an older man who said he had been a Christian most of his life.\"",
       "severity": "minor",
-      "source_quote": "I ordered a copy of <em>The Martyr’s Mirror</em> and was astounded when I read about these people who lived like the disciples.",
-      "suggested_fix": "Translate or present the cited work title in Russian (or provide a parenthetical Russian rendering). For example: «Я заказал экземпляр <em>«Зеркало мучеников» (The Martyr’s Mirror)</em> и был поражён…» — preserve the <em> tag and its placement.",
-      "translation_quote": "Я заказал экземпляр <em>The Martyr’s Mirror</em> и был поражён, читая о людях, которые жили, как ученики."
+      "source_quote": "One day I was visiting with an older man who said he had been a Christian most of his life.",
+      "suggested_fix": "In the corresponding <p> element, replace the phrase «со старшим мужчиной, который сказал, что долгие годы был христианином» with a grammatically correct Russian phrasing that preserves the meaning and HTML structure. Example fix (preserve surrounding <p> tags):\n<p>Однажды я беседовал со старым человеком, который сказал, что долгие годы был христианином. …</p>",
+      "translation_quote": "Однажды я беседовал со старшим мужчиной, который сказал, что долгие годы был христианином. В ходе беседы он показал вверх на лампочку и сказал: «Видишь ту лампочку? Она не говорит». Я был шокирован."
     },
     {
-      "location": "source.html paragraph quoting Matthew 10:22: \"And ye shall be hated of all men for my name's sake...\",\"translation.html same paragraph",
-      "severity": "critical",
-      "source_quote": "“And ye shall be hated of all men for my name's sake: but he that endureth to the end shall be saved” (Matt. 10:22).",
-      "suggested_fix": "Correct the mistranslation of the quoted Scripture. The translation currently reads «…за имя Мёе…» which is a mistranscription and changes the wording of the verse. Replace with a faithful Russian rendering of the printed English quotation, preserving citation and quotation marks. For example: «„И будете ненавидимы всеми за имя Мое: но терпящий до конца спасётся“ (Матф. 10:22).» — ensure chapter/verse format and quotation placement match the source.",
-      "translation_quote": "«И будете ненавидимы всеми за имя Мёе: но терпящий до конца спасётся» (Матф. 10:22)."
-    },
-    {
-      "location": "source.html paragraph: \"He was telling me that, yes, while Jesus says we are the light of the world, lights are supposed to shine quietly. They don’t speak.\",\"translation.html corresponding paragraph",
+      "location": "source.html -- paragraph: \"They opened a furniture shop to support themselves, but they couldn’t sell any furniture because they were the dreaded Anabaptists.\"",
       "severity": "minor",
-      "source_quote": "He was telling me that, yes, while Jesus says we are the light of the world, lights are supposed to shine quietly. They don’t speak.",
-      "suggested_fix": "Clarify grammatical agreement to reflect plural reference (\"lights\") in Russian or make explicit reference to the implied plural. For example: change «Он не говорит.» to «Они не говорят.» or rephrase: «Они не говорят, они должны тихо светить.»",
-      "translation_quote": "Он хотел сказать, что да, хотя Иисус говорит, что мы — свет мира, свет должен тихо сиять. Он не говорит."
+      "source_quote": "They opened a furniture shop to support themselves, but they couldn’t sell any furniture because they were the dreaded Anabaptists.",
+      "suggested_fix": "In the corresponding <p> element, improve the Russian idiom and clarity while preserving meaning and HTML. Replace «они были опасаемыми анабаптистами» with a clearer phrase, for example (preserve <p> tags):\n<p>Они открыли мебельный магазин, чтобы прокормиться, но не могли продать ни одной вещи, потому что люди боялись анабаптистов.</p>",
+      "translation_quote": "Они открыли мебельный магазин, чтобы прокормиться, но не могли продать никакой мебели, потому что были опасаемыми анабаптистами. Вскоре ситуация стала отчаянной: у них не было денег, чтобы купить еду."
     }
   ],
+  "finished_at": "2026-10-02T13:03:21+00:00",
   "id": "cb1ddd2dc5eb9ba5438696add02c0891",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "rus",
@@ -161,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 40,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/49a66e43316337366db2887d07eae4fb7d7398fb2cd2778c9d2eec656ecce583.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "22f19fd4059c839acdb0760ae4c1ea7697fd7ad4642cdb6da3779c88fc7b55d4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

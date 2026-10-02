@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "679d68ce-6ae1-495a-a32a-dc92b843407a",
+    "response_id": "chatcmpl-EUXAjPBgkHI78qEmxFblzWiNgsgTN",
+    "usage": {
+      "completion_tokens": 672,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3223,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3895
+    }
+  },
+  "received_at": "2026-10-02T13:03:21+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>... (paragraph containing Proverbs 3:26)</p>",
+        "severity": "minor",
+        "source_quote": "“For the LORD shall be thy confidence, and shall keep thy foot from being taken” (Proverbs 3:26).",
+        "suggested_fix": "تجویز: کسی قاری کے لیے انگریزی کے اصل مفہوم کے مزید واضح عکاسی کے لیے آیت کا متبادل اردو ترجمہ پیش کریں، مثلاً: “کیونکہ خداوند تمہاری پناہ ہوگا، اور وہ تمہارے قدم کو پھنسنے سے بچائے گا۔” اس اصلاح کے ضمن میں HTML ٹیگ تبدیل نہ کریں؛ موجودہ پیراگراف کے اندر آیت کو متبادل اردو الفاظ سے بدل دیا جائے۔",
+        "translation_quote": "“کیونکہ خداوند تمہاری امید ہوگا، اور تمہارے قدم کو پھنسنے سے بچائے گا” (امثال 3:26)۔"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

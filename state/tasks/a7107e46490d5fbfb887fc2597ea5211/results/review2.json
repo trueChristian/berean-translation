@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5581bdc1-3b20-4a6d-a10c-ebd0fd66c391",
+    "response_id": "chatcmpl-EUXB3qMRlSVdsDSLxtAAVO5e3bAcn",
+    "usage": {
+      "completion_tokens": 960,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5863,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6823
+    }
+  },
+  "received_at": "2026-10-02T13:03:21+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...si assicurò che suo figlio Joseph ricevessse una buona istruzione. Iniziò gli studi nella sua città natale...",
+        "severity": "minor",
+        "source_quote": "He commenced his studies in his hometown of Milston, in Wiltshire, England.",
+        "suggested_fix": "Fix a typographical error: change \"ricevessse\" to \"ricevesse\" to correct Italian spelling.",
+        "translation_quote": "si assicurò che suo figlio Joseph ricevessse una buona istruzione. Iniziò gli studi nella sua città natale di Milston, nel Wiltshire, Inghilterra."
+      },
+      {
+        "location": "<section class=\"lyrics\"> stanza 9",
+        "severity": "minor",
+        "source_quote": "Ten thousand thousand precious gifts\nMy daily thanks employ;",
+        "suggested_fix": "The literal rendering \"Diecimila diecimila doni preziosi\" is awkward in Italian. Suggest a more idiomatic translation that preserves emphasis, e.g. \"Diecimila per diecimila doni preziosi\" or \"Innumerevoli doni preziosi\" depending on desired level of literalness.",
+        "translation_quote": "Diecimila diecimila doni preziosi\nLe mie grazie quotidiane occupano;"
+      },
+      {
+        "location": "<p>...il giovane autore dell'inno di 13 anni incontrò e divenne il migliore amico di Richard Steele...",
+        "severity": "minor",
+        "source_quote": "While in school around 1685, the 13-year-old hymn writer met and became best of friends with Richard Steele, the two of them being only a few months apart in age.",
+        "suggested_fix": "The Italian phrasing \"il giovane autore dell'inno di 13 anni incontrò\" is slightly awkward. Suggest rephrasing for clarity, e.g. \"Mentre era a scuola, intorno al 1685, il giovane autore dell'inno, allora quattordicenne (o 'di 13 anni'), incontrò e divenne il migliore amico di Richard Steele...\" (keep the age as 13 as in source).",
+        "translation_quote": "Mentre era a scuola, intorno al 1685, il giovane autore dell'inno di 13 anni incontrò e divenne il migliore amico di Richard Steele, i due essendo separati da pochi mesi di età."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

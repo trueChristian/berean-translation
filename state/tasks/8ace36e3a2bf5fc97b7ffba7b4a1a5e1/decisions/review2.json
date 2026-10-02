@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<section class=\"lyrics\"> stanza 2 (source.html) / corresponding stanza in translation",
+      "severity": "minor",
+      "source_quote": "\"While in the silent womb I lay, And hung upon the breast.\"",
+      "suggested_fix": "Translate the phrase into correct, idiomatic Dutch. Replace the current rendering with e.g.: \"Terwijl ik in de stille moederschoot lag, en aan de borst hing.\"",
+      "translation_quote": "\"Terwijl ik in de stille moederwijd lag,<br>\n    En hing aan de borst.\""
+    },
+    {
+      "location": "<p> beginning \"Terwijl we proberen het leven...\" (translation) corresponding to paragraph starting \"As we endeavor to understand the life...\" (source.html)",
+      "severity": "minor",
+      "source_quote": "\"As we endeavor to understand the life and story of the hymnologist, let's take a short look at some disappointments he faced.\"",
+      "suggested_fix": "Use a standard Dutch term for 'hymnologist' or simply 'liedschrijver' to preserve clarity and idiom. Replace \"hymnost\" with e.g. \"liedschrijver\" so the sentence begins: \"Terwijl we proberen het leven en verhaal van de liedschrijver te begrijpen,...\"",
+      "translation_quote": "\"Terwijl we proberen het leven en verhaal van de hymnost te begrijpen, bekijken we kort enkele teleurstellingen waarmee hij geconfronteerd werd.\""
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

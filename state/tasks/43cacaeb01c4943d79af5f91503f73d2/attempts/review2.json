@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Walk as children of light” (Ephesians 5:8-11)\",\"severity\":\"major\",\"source_quote\":\"\\\"And walk in love, as Christ also hath loved us... And have no fellowship with the unfruitful works of darkness, but rather reprove them\\\" (Ephesians 5:8-11).\",\"suggested_fix\":\"Translate 'but rather reprove them' to convey the original sense of exposing, rebuking, or reproof (not declaring innocent). Replace the incorrect \\\"बल्कि उन्हें निर्दोष ठहराओ\\\" with a phrase such as \\\"बल्कि उन्हें उजागर करो\\\" or \\\"बल्कि उनका निन्दा करो/उन्हें ताड़ो\\\" so the meaning matches the English 'reprove'. Preserve surrounding punctuation and tags.\",\"translation_quote\":\"\\\"और जो प्रभु को स्वीकार्य है उसका परीक्षण करो। और अन्धकार के निष्फल कामों में संगति न करो, बल्कि उन्हें निर्दोष ठहराओ\\\" (इफिसियों 5:8-11).\"},{\"location\":\"Paragraph discussing 'sensitive' and related terms (paragraph quoting Psalm 119:165 and Matthew 13:20-21)\",\"severity\":\"minor\",\"source_quote\":\"\\\"We wish to heap no condemnation upon the sensitive soul, but the word sensitive is not in the Bible. The closest word we can find there is sensual, which is very similar in its roots and means natural.\\\"\",\"suggested_fix\":\"The English contrasts 'sensitive' with 'sensual'. The translator rendered 'sensual' as 'संवेगशील', which in Hindi reads like 'sensitive/emotional' rather than 'sensual' (relating to the senses/physical). For clarity and fidelity, replace 'संवेगशील' with a more accurate Hindi equivalent, e.g. 'इंद्रियासंबंधी', 'कामवासना संबंधी', or explicitly note 'sensual (इंद्रियासंबंधी)'.\",\"translation_quote\":\"\\\"हम संवेदनशील आत्मा पर कोई निंदा नहीं ढोना चाहते, पर बाइबिल में 'संवेदनशील' शब्द नहीं है। वहाँ निकटतम शब्द 'संवेगशील' है, जो अपनी जड़ों में बहुत समान है और प्राकृतिक का अर्थ बताता है।\\\"\"}],\"passed\":false,\"score\":78}",
+    "content_bytes": 2575,
+    "content_evidence_truncated": false,
+    "content_sha256": "ad79349911609741389a4973a09b92548f7e22b52c2c38e075dcb25ca4716be3",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1334,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8848,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10182
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

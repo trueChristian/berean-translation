@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 1 (baseball sentence)",
+      "severity": "minor",
+      "source_quote": "We decided to go to a major league baseball game.",
+      "suggested_fix": "Use a more natural Afrikaans rendering such as \"'n Major League‑bonds‑basebalwedstryd\" or simply \"'n wedstryd van die Major League\". Preserve HTML tags and spacing.",
+      "translation_quote": "Ons het besluit om na ’n grootliga-basebalwedstryd te gaan."
+    },
+    {
+      "location": "Paragraph with 1 Peter 4:14 (register inconsistency)",
+      "severity": "minor",
+      "source_quote": "If ye be reproached for the name of Christ, happy are ye; for the spirit of glory and of God resteth upon you: on their part he is evil spoken of, but on your part he is glorified.",
+      "suggested_fix": "Make the personal pronoun register consistent with the rest of the translation (which uses the informal \"jy/julle\"): e.g. \"As jy om die naam van Christus bespot word, is jy gelukkig; want die Gees van heerlikheid en God rus op jou: aan hulle kant word Hy kwaad gepraat, maar aan jou kant is Hy verheerlik.\" Preserve verse punctuation and quotation marks.",
+      "translation_quote": "1 Petrus 4:14 sê, “As u om die naam van Christus bespot word, is u gelukkig; want die gees van heerlikheid en God rus op u: aan hulle kant word Hy kwaad gepraat, maar aan u kant is Hy verheerlik.”"
+    },
+    {
+      "location": "Reference to The Martyr’s Mirror (book title)",
+      "severity": "minor",
+      "source_quote": "I ordered a copy of The Martyr’s Mirror and was astounded when I read about these people who lived like the disciples.",
+      "suggested_fix": "Leaving the book title in English is acceptable for a proper title, but if a translation is preferred for Afrikaans readers consider: \"Ek het ’n eksemplaar van The Martyr’s Mirror (Die Martelare‑Spieël) bestel...\" — otherwise no change required. Preserve italics/HTML marking.",
+      "translation_quote": "Ek het ’n eksemplaar van <em>The Martyr’s Mirror</em> bestel en was verstom toe ek lees van hierdie mense wat soos die dissipels geleef het."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

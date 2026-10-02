@@ -2,7 +2,6 @@
   "article_id": "c22883c1-1d69-4c5e-aa81-d4015bf4e473",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,53 +61,30 @@
         },
         "total_tokens": 6010
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 538,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3070,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3608
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "<div class=\"poem\"> … </div> (poem stanza)",
-      "severity": "critical",
-      "source_quote": "<div class=\"poem\">\n    <p><em>When all Thy mercies, O my God,<br>\n    My rising soul surveys,<br>\n    Transported with the view, I’m lost<br>\n    In wonder, love and praise.</em></p>\n  </div>",
-      "suggested_fix": "Translate the entire quoted hymn stanza into French (preserve the poem HTML structure and tags). Replace the English stanza inside the existing <div class=\"poem\">…</div> with a faithful French rendering that conveys the original meaning. Example (keep tags exactly as in source):\n<div class=\"poem\">\n  <p><em>Quand je parcours, ô mon Dieu, tes bontés sans nombre,<br>\n  Mon âme s'élève, ravie à leur aspect ;<br>\n  Transporté par la vue, je m'évanouis<br>\n  En admiration, amour et louange.</em></p>\n</div>\n(You may use any faithful French translation, but it must be fully in French and preserve the HTML tags and line breaks.)",
-      "translation_quote": "<div class=\"poem\">\n    <p><em>When all Thy mercies, O my God,<br>\n    My rising soul surveys,<br>\n    Transported with the view, I’m lost<br>\n    In wonder, love and praise.</em></p>\n  </div>"
-    },
-    {
-      "location": "Paragraph referencing the article title (second paragraph)",
-      "severity": "minor",
-      "source_quote": "Yet, as it is so aptly pointed out by the writer of the article, “God’s Faithfulness Manifest Even in the Curse”, God has kindly provided for humanity since the beginning of time.",
-      "suggested_fix": "Either translate the cited article title into French or indicate it as an untranslated English title consistently (publisher style). If you choose translation, keep the quotes and structure. Suggested French rendering:\n« Comme le souligne si pertinemment l’auteur de l’article « La fidélité de Dieu manifestée même dans la malédiction », Dieu a bienveillamment pourvu à l’humanité dès le commencement des temps. »",
-      "translation_quote": "Pourtant, comme le souligne si pertinemment l’auteur de l’article « God’s Faithfulness Manifest Even in the Curse », Dieu a bienveillamment pourvu à l’humanité dès le commencement des temps."
-    },
-    {
-      "location": "Paragraph about the doctor’s piece (third paragraph)",
-      "severity": "minor",
-      "source_quote": "In this issue, “A Word From the Doctor” guides us as we face the maze of life, giving us practical and Biblical solutions to avoid or recover from burnout.",
-      "suggested_fix": "Either translate the section title into French or indicate it consistently as an English title. Suggested translation (preserve quotes): « Dans ce numéro, « Un mot du médecin » nous guide… » or keep « “A Word From the Doctor” » if publication style prefers original titles. Preserve the quotes and punctuation exactly where they appear in the source.",
-      "translation_quote": "Dans ce numéro, « A Word From the Doctor » nous guide alors que nous affrontons le labyrinthe de la vie, nous donnant des solutions pratiques et bibliques pour éviter ou se remettre du burn‑out."
-    },
-    {
-      "location": "<figure> <img alt=...> (image alt text)",
-      "severity": "minor",
-      "source_quote": "<img src=\"/images/articles/...-1.jpg\" alt=\"A misty evergreen forest in a mountainous landscape\">",
-      "suggested_fix": "Use a natural French term for 'evergreens' (do not anglicize). Replace the alt text with a fluent French rendering, preserving the alt attribute and its value. Suggested replacement: alt=\"Une forêt de conifères enveloppée de brume dans un paysage montagneux\"",
-      "translation_quote": "<img src=\"/images/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473-1.jpg\" alt=\"Une forêt d’évergreens dans la brume, dans un paysage montagneux\">"
-    },
-    {
-      "location": "Paragraph describing cleaning broiler houses",
-      "severity": "minor",
-      "source_quote": "Last week I was cleaning out our broiler houses in preparation for a new flock.",
-      "suggested_fix": "Use a more idiomatic French term for poultry/broiler context instead of 'nouveau troupeau'. Suggested rendering: «La semaine dernière, je nettoyais nos bâtiments d’élevage en préparation d’un nouveau lot (ou d’un nouveau troupeau de poulets).» Keep the HTML paragraph tags unchanged.",
-      "translation_quote": "La semaine dernière, je nettoyais nos poulaillers en préparation d’un nouveau troupeau."
-    },
-    {
-      "location": "Final paragraph before closing (sentence about giving to God)",
-      "severity": "minor",
-      "source_quote": "May we give our all to Him and to the work of His kingdom in heartfelt thanksgiving for His unspeakable gift.",
-      "suggested_fix": "Fix the missing preposition and capitalization error. Replace the incorrect fragment with a grammatically correct French sentence preserving meaning. Suggested correction: «Puissions‑nous Lui donner tout de nous et à l’œuvre de Son royaume, dans une reconnaissance sincère pour Son don ineffable.» Ensure the HTML paragraph remains unchanged.",
-      "translation_quote": "Puissions‑nous Lui donner tout de nous et Œuvre de Son royaume dans une reconnaissance sincère pour Son don ineffable."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T13:03:20+00:00",
   "id": "608b62eda061184960db321e5b0f8472",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "fra",
@@ -182,13 +158,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/16f80cc2fe1f48fad7c825ed0d1e3059568da0b548b0106a43da4f8b4d785466.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "7328fe7985535229790c376868603624111ed137e1665aff6a36b03d5b4d90fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

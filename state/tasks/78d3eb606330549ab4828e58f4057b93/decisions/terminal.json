@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<article> paragraph 4 (intro referencing the hymn title)",
+      "severity": "minor",
+      "source_quote": "The hymn, \"When All Thy Mercies O My God,\" written in 1712, has been published in 994 hymnals and is to this day in the list of the best 100 hymns ever written.",
+      "suggested_fix": "Translate the hymn title into Swedish to match the article's target-language rendering of other titles, or mark it clearly as an original-title in English. e.g. replace \"When All Thy Mercies O My God,\" with \"'När alla dina nåder, o min Gud,' (eng. 'When All Thy Mercies O My God')\" while preserving the existing HTML tags and order.",
+      "translation_quote": "Sången, \"When All Thy Mercies O My God,\" skriven 1712, har utgivits i 994 sångböcker och finns än i dag med på listan över de 100 bästa sånger som någonsin skrivits."
+    },
+    {
+      "location": "<section class=\"lyrics\"> first stanza, line 2",
+      "severity": "minor",
+      "source_quote": "My rising soul surveys,",
+      "suggested_fix": "Use a more idiomatic Swedish rendering for 'My rising soul surveys' that preserves the sense of the soul lifted or rising to behold God's mercies. Suggested phrasing: \"Min upplyfta själ betraktar\" or \"Min uppstigande själ ser\". Keep the same HTML structure for the stanza.",
+      "translation_quote": "Min stigande själ genomgår,"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

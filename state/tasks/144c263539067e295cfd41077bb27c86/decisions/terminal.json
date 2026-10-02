@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning \"Despite the effects of the fall...\" (third paragraph)",
+      "severity": "major",
+      "source_quote": "Despite the effects of the fall of man are still evident. Family members get sick, church and relationship struggles rob us of sleep, the checkbook runs dry, the children squabble and cry, and the demands of our schedules have us hopping from one event to the next.",
+      "suggested_fix": "Replace the mistranslated/fused word with a clear, conventional Afrikaans term for \"family members\". Suggested correction: \"Ten spyte van God se getrouheid aan ons, is die gevolge van die val van die mens steeds sigbaar. Familienlede raak siek, kerk- en verhoudingstryd beroof ons van slaap, die tjekboek raak leeg, die kinders baklei en huil, en die eise van ons skedules laat ons van een gebeurtenis na die volgende spring.\" Preserve punctuation and sentence order as in the translation.",
+      "translation_quote": "Familieny word siek, kerk- en verhoudingstryd beroof ons van slaap, die tjekboek raak leeg, die kinders baklei en huil, en die eise van ons skedules laat ons van een gebeurtenis na die volgende spring."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

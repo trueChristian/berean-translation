@@ -2,7 +2,6 @@
   "article_id": "a1334217-82ac-49ef-8293-563122652b89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,46 +61,38 @@
         },
         "total_tokens": 10253
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 614,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5817,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6431
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph: \"Dear brothers and sisters, I believe the fire is going out. I hear many of our Anabaptist people talking about living a quiet and peaceable life.\" (source.html third block starting \"Dear brothers and sisters...\")",
-      "severity": "major",
-      "source_quote": "Dear brothers and sisters, I believe the fire is going out.",
-      "suggested_fix": "Translate the metaphor clearly into Hindi using an idiom that conveys the author’s meaning (the spiritual fervor is diminishing). Preserve sentence structure and HTML tags. Example: \"प्रिय भाइयों और बहनों, मुझे लगता है कि वह आग धीमी पड़ रही है।\" (or) \"प्रिय भाइयों और बहनों, मुझे लगता है कि हमारी आराधना की आग बुझती जा रही है।\"",
-      "translation_quote": "प्रिय भाइयों और बहनों, मुझे लगता है कि आग नक्सीर हो रही है।"
-    },
-    {
-      "location": "Paragraph: \"Many years ago, a group of Anabaptists fled persecution and moved to a country where there was less oppression.\" (source.html mid-article story)",
-      "severity": "major",
-      "source_quote": "fled persecution",
-      "suggested_fix": "Replace the untranslated English word with an appropriate Hindi equivalent to preserve meaning. Example: \"कई वर्षों पहले, एक समूह अनाबाप्टिस्टों ने उत्पीड़न से भागकर...\" Ensure all other occurrences of the English word \"persecution\" are similarly translated.",
-      "translation_quote": "persecution"
-    },
-    {
-      "location": "Paragraph: \"Did he mean that we should be quiet about the gospel and never challenge a sinner?\" (source.html discussing 1 Timothy 2:1-2)",
+      "location": "source.html paragraph 1 (opening sentence)",
       "severity": "minor",
-      "source_quote": "Did he mean that we should be quiet about the gospel and never challenge a sinner?",
-      "suggested_fix": "Correct small register and word-choice issues so the Hindi reads naturally while preserving meaning. Suggested phrasing: \"क्या उनका मतलब यह था कि हमें सुसमाचार के बारे में चुप रहना चाहिए और कभी पापी को चुनौती नहीं देनी चाहिए?\" Replace the existing sentence with this more idiomatic rendering.",
-      "translation_quote": "क्या उसका अभिप्राय यह था कि हमें सुसमाचार के बारे में चुप रहना चाहिए और कभी पापी को चुनौती नहीं देनी चाहिए?"
-    },
-    {
-      "location": "Paragraph: \"...something that Christ Himself never did.\" (source.html comparing Paul and Christ)",
-      "severity": "major",
-      "source_quote": "something that Christ Himself never did",
-      "suggested_fix": "Translate 'Christ Himself' correctly into Hindi as 'खुद मसीह' or 'परमेश्वर के पुत्र मसीह' depending on authorial tone. Replace the incorrect Latinized form. Example: \"ऐसा कुछ जो मसीह स्वयं ने कभी नहीं किया।\"",
-      "translation_quote": "Cristus ने स्वयं कभी नहीं किया।"
-    },
-    {
-      "location": "Throughout article (multiple occurrences)",
-      "severity": "minor",
-      "source_quote": "The Martyr’s Mirror",
-      "suggested_fix": "The title of the cited book may remain in English if the publisher's established title is intended; however if the editorial standard is to translate or transliterate titles into Hindi, provide a transliteration or note in Hindi while preserving italics and tags. Example: <em>The Martyr’s Mirror</em> → <em>The Martyr’s Mirror</em> (\"शहीदों का दर्पण\") — only if editorial style requires it.",
-      "translation_quote": "<em>The Martyr’s Mirror</em>"
+      "source_quote": "When I was converted, I had never heard the term Anabaptist.",
+      "suggested_fix": "Use a more natural, commonly used Hindi rendering of \"converted\" to match style and readability while preserving meaning. For example: \"जब मैंने प्रभु को स्वीकार किया था,\" or \"जब मैं ईमान लाया/विश्वास में आया,\" instead of \"जब मेरा जीर्णोद्धार हुआ,\". Preserve the rest of the sentence as translated.",
+      "translation_quote": "जब मेरा जीर्णोद्धार हुआ, तब मैंने कभी शब्द \"अनाबाप्टिस्ट\" नहीं सुना था।"
     }
   ],
+  "finished_at": "2026-10-02T13:03:21+00:00",
   "id": "daa4c5c9b007e3b2f88c33d50991dda0",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "hin",
@@ -175,13 +166,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/49a66e43316337366db2887d07eae4fb7d7398fb2cd2778c9d2eec656ecce583.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "22f19fd4059c839acdb0760ae4c1ea7697fd7ad4642cdb6da3779c88fc7b55d4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

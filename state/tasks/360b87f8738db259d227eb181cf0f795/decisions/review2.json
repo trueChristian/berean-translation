@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph with speed metaphor (source.html paragraph: \"It is as though you are in a vehicle traveling 90 mph...\")",
+      "severity": "minor",
+      "source_quote": "It is as though you are in a vehicle traveling 90 mph, and you push the accelerator a little harder, and nothing happens.",
+      "suggested_fix": "Remove the added parenthetical conversion or make it verbatim to the source. Either delete \"(ongeveer 145 km/u)\" or move it outside the quoted metaphor as an editorial note, preserving the original phrasing without numeric conversion.",
+      "translation_quote": "Het is alsof je in een voertuig rijdt met 90 mph (ongeveer 145 km/u) en je drukt het gaspedaal iets verder in en er gebeurt niets."
+    },
+    {
+      "location": "Scripture reference to Samuel heading (source.title/section context and corresponding paragraph)",
+      "severity": "minor",
+      "source_quote": "I Samuel 30 tells the story of David returning to Ziklag.",
+      "suggested_fix": "Use the same book numbering style as the source for clarity. Change \"1 Samuel 30\" back to the source style \"I Samuel 30\" if the publication prefers Roman numerals; if Arabic numerals are the house style, no change is needed. This is an editorial consistency suggestion rather than a theological correction.",
+      "translation_quote": "1 Samuel 30 vertelt het verhaal van David die terugkeert naar Ziklag."
+    },
+    {
+      "location": "Article title (source.title)",
+      "severity": "minor",
+      "source_quote": "Burnout",
+      "suggested_fix": "Match the author's original orthography for the title. Change the translated title from \"Burn-out\" to \"Burnout\" unless the publication's Dutch house style requires the hyphen.",
+      "translation_quote": "Burn-out"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<div class=\\\"poem\\\"> <p> (segunda estrofa, verso 2)\",\"severity\":\"minor\",\"source_quote\":\"Straight or crooked, one of twain;\",\"suggested_fix\":\"Rephrase to a more natural, idiomatic Spanish while preserving the poem and HTML structure. For example: \\\"Recta o torcida, una u otra;\\\" or \\\"Recta o torcida, cualquiera de las dos;\\\" Replace only the text between the <p> tags.\",\"translation_quote\":\"Recta o torcida, una de dos;\"},{\"location\":\"<article> <figure> <img alt=\\\"...\\\">\",\"severity\":\"minor\",\"source_quote\":\"A snow-covered road winding through an evergreen forest\",\"suggested_fix\":\"Use a more idiomatic rendering of \\\"winding\\\" in Spanish. For example: \\\"Un camino cubierto de nieve serpenteante por un bosque de coníferas\\\" or \\\"Un camino cubierto de nieve que serpentea por un bosque de coníferas\\\". Change only the alt attribute value.\",\"translation_quote\":\"Un camino cubierto de nieve serpenteando por un bosque de coníferas\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 987,
+    "content_evidence_truncated": false,
+    "content_sha256": "4f51860c779ce870f2ac73d24db9da300ebb010d2030c2fceccb843b17d288db",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 707,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1377,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2084
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

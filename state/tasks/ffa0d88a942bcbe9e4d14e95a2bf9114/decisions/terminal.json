@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<article> paragraph 1",
+      "severity": "minor",
+      "source_quote": "and everything else in between, which only an Almighty Creator God can arrange in such a way that will magnify His worthy power and excellence.",
+      "suggested_fix": "Replace the awkward phrase \"todo lo demás intermedio\" with a more natural Spanish rendering that preserves the meaning. Suggested fix (preserve tags and punctuation): \"y todo lo demás que hay entre ambos, que sólo un Dios Creador Todopoderoso puede disponer de tal manera que magnifique Su poderosa y digna excelencia.\"",
+      "translation_quote": "y todo lo demás intermedio, que solo un Dios Creador Todopoderoso puede disponer de tal manera que magnifique Su digna potestad y excelencia."
+    },
+    {
+      "location": "<article> paragraph quoting Proverbs 3:26",
+      "severity": "minor",
+      "source_quote": "“For the LORD shall be thy confidence, and shall keep thy foot from being taken” (Proverbs 3:26).",
+      "suggested_fix": "The Spanish translation is understandable but awkward/unnatural: \"guardará tu pie de ser atrapado\". Suggest a more idiomatic rendering that preserves the Scripture sense and the original emphasis on LORD (uppercase as in source). Suggested fix: \"Porque el SEÑOR será tu confianza, y guardará tu pie para que no tropieces\" (or \"para que no sea sorprendido\"). Keep the verse reference unchanged and preserve the quotation marks and parentheses.",
+      "translation_quote": "“Porque el SEÑOR será tu confianza, y guardará tu pie de ser atrapado” (Proverbios 3:26)."
+    },
+    {
+      "location": "<article> poem block",
+      "severity": "minor",
+      "source_quote": "When all Thy mercies, O my God,\n    My rising soul surveys,\n    Transported with the view, I’m lost\n    In wonder, love and praise.",
+      "suggested_fix": "The stanza is translated with several grammatical and idiomatic problems (\"Mi alma que se eleva las examina\", \"Transportado con la vista\"). Provide a fluent, faithful Spanish rendering that preserves the poetic sense. Suggested fix (preserve poem markup and emphasis tags): <div class=\"poem\"> <p><em>Cuando contemplo todas Tus misericordias, oh Dios mío,<br>\nMi alma en ascenso las contempla,<br>\nTransportado por la visión, me pierdo<br>\nEn maravilla, amor y alabanza.</em></p> </div>",
+      "translation_quote": "<em>Cuando contemplo todas Tus misericordias, oh Dios mío,<br>\n    Mi alma que se eleva las examina,<br>\n    Transportado con la vista, me pierdo<br>\n    En maravilla, amor y alabanza.</em>"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

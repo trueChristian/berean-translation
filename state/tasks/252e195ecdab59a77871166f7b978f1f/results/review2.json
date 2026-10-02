@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "95149256-bf66-4caa-a110-422fffc6af48",
+    "response_id": "chatcmpl-EUXAh9MYDIRPMZ19decToNKyIMJp5",
+    "usage": {
+      "completion_tokens": 1204,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1088,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9666,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10870
+    }
+  },
+  "received_at": "2026-10-02T13:03:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<h2>Identifique os Sinais Precoce</h2>",
+        "severity": "minor",
+        "source_quote": "<h2>Identify Early Signs</h2>",
+        "suggested_fix": "Change the heading to grammatically agree in Portuguese: <h2>Identifique os Sinais Precoces</h2>",
+        "translation_quote": "<h2>Identifique os Sinais Precoce</h2>"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

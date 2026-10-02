@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "SISTER TO SISTER",
+      "suggested_fix": "Use a more idiomatic/standard Arabic rendering of the section title. Consider \"أخت لأخت\" or \"من أخت إلى أخت\" to better mirror the English idiom and read more naturally in Modern Standard Arabic.",
+      "translation_quote": "أخت إلى أخت"
+    },
+    {
+      "location": "paragraph mentioning AVM",
+      "severity": "minor",
+      "source_quote": "The neurosurgeon said Judy had an AVM",
+      "suggested_fix": "Clarify the Arabic technical term for AVM (arteriovenous malformation) to a more standard medical phrasing in Arabic. For example: \"يوجد لديها تشوه شرياني وريدي خلقي (AVM)\" or \"تَشَوُّه شِرْيَانِي-وارِيدي (AVM)\". This preserves the acronym while providing the conventional Arabic medical term.",
+      "translation_quote": "قال جراح الأعصاب إن لدى جودي تشابكا وعائياً شريانيًا وريديًا (AVM) وحاول أن يشرح ما هو ذلك"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

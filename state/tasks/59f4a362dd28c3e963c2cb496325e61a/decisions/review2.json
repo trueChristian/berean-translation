@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph: “That summer, we weaned her off her seizure medications...” (occurrence in source.html and translation.html)",
+      "severity": "minor",
+      "source_quote": "That summer, we weaned her off her seizure medications, and she appeared to be healthy.",
+      "suggested_fix": "Use past tense to match the narrative tense in the English source. Replace the current Norwegian sentence while preserving tags and surrounding structure. For example: \"Den sommeren trappet vi henne av anfallsmedisinene, og hun virket frisk.\"",
+      "translation_quote": "Den sommeren trapper vi henne av anfallsmedisinene, og hun virket frisk."
+    },
+    {
+      "location": "Paragraph: “One morning when Judy was about 18 months old...” — rendering of onomatopoeic sound",
+      "severity": "minor",
+      "source_quote": "we heard an odd noise—a rhythmical scratch-thunk.",
+      "suggested_fix": "The onomatopoeic phrase should be rendered in idiomatic Norwegian. Replace the fragment with a clearer, idiomatic rendering while keeping tags intact. For example: \"vi hørte en merkelig lyd — en rytmisk skrap-dunk.\"",
+      "translation_quote": "vi hørte en merkelig lyd—en rytmisk klore-thump."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -2,7 +2,6 @@
   "article_id": "48db8b57-eca2-4d35-a48f-13c21d68bab0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,18 +61,39 @@
         },
         "total_tokens": 13842
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 929,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8762,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9691
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph 3 (about Jesus' feeding discourse)",
-      "severity": "major",
-      "source_quote": "He told His disciples that they must eat His flesh and many left Him.",
-      "suggested_fix": "Change the Korean back-translation to reflect that Jesus said they must eat His flesh. Replace “그들의 살을 먹어야 한다고” with “그의 살을 먹어야 한다고” (or “그의 살을 먹어야 한다고 말씀하셨고”) so the subject is clearly ‘His’ (그의), not ‘their’ (그들의).",
-      "translation_quote": "그분은 제자들에게 그들의 살을 먹어야 한다고 말씀하셨고 많은 사람이 그를 떠났습니다."
+      "location": "<h2>Walk Circumspectly</h2> — paragraph quoting Ephesians 5:15",
+      "severity": "critical",
+      "source_quote": "“See then that ye walk circumspectly, not as fools, but as wise” (Ephesians 5:15).",
+      "suggested_fix": "Translate the quoted Scripture faithfully into standard written Korean, preserving the verse reference exactly and conveying the meaning of the printed English. For example, render Ephesians 5:15 as something equivalent to: “그러므로 주의하라 악을 본 받지 말고 지혜 있는 자같이 행하라(에베소서 5:15).” Keep the original HTML structure and replace only the Korean text of the quoted verse. (Do not change the verse number.)",
+      "translation_quote": "“그러므로 주의 뜻이 무엇인지 하여 알라 주의 뜻은 무엇인지 살피라”(에베소서 5:15)."
     }
   ],
+  "finished_at": "2026-10-02T13:03:21+00:00",
   "id": "dd77ff1c911b4523baf5e7498defb22c",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "kor",
@@ -147,13 +167,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 80,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/860ef4183736ed90ffe0410e641004cf07704736a2fe3063f1577a97a4982295.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "b25c7ba97f60cd8b593ddd3f02e4c8b5da68408268cf7ae4a26bd9922702c945",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

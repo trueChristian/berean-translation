@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<h2>Walk Circumspectly</h2> — paragraph quoting Ephesians 5:15",
+      "severity": "critical",
+      "source_quote": "“See then that ye walk circumspectly, not as fools, but as wise” (Ephesians 5:15).",
+      "suggested_fix": "Translate the quoted Scripture faithfully into standard written Korean, preserving the verse reference exactly and conveying the meaning of the printed English. For example, render Ephesians 5:15 as something equivalent to: “그러므로 주의하라 악을 본 받지 말고 지혜 있는 자같이 행하라(에베소서 5:15).” Keep the original HTML structure and replace only the Korean text of the quoted verse. (Do not change the verse number.)",
+      "translation_quote": "“그러므로 주의 뜻이 무엇인지 하여 알라 주의 뜻은 무엇인지 살피라”(에베소서 5:15)."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

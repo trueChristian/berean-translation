@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph quoting Deuteronomy 32:4 (near middle)",
+      "severity": "minor",
+      "source_quote": "“He is … a God of truth and without iniquity, just and right is he” (Deuteronomy 32:4).",
+      "suggested_fix": "Replace the pronoun '저는…' with a more natural third-person reference such as '그는…' or '그분은…' to match the English subject and standard Korean usage. Preserve the rest of the translated verse and the reference.",
+      "translation_quote": "“저는… 진실의 하나님이시며 죄가 없으시고 공정하신 이시니라” (신명기 32:4)."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

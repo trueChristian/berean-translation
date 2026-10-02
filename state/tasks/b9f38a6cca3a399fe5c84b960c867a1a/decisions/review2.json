@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<p>... (paragraph containing Proverbs 3:26)</p>",
+      "severity": "minor",
+      "source_quote": "“For the LORD shall be thy confidence, and shall keep thy foot from being taken” (Proverbs 3:26).",
+      "suggested_fix": "تجویز: کسی قاری کے لیے انگریزی کے اصل مفہوم کے مزید واضح عکاسی کے لیے آیت کا متبادل اردو ترجمہ پیش کریں، مثلاً: “کیونکہ خداوند تمہاری پناہ ہوگا، اور وہ تمہارے قدم کو پھنسنے سے بچائے گا۔” اس اصلاح کے ضمن میں HTML ٹیگ تبدیل نہ کریں؛ موجودہ پیراگراف کے اندر آیت کو متبادل اردو الفاظ سے بدل دیا جائے۔",
+      "translation_quote": "“کیونکہ خداوند تمہاری امید ہوگا، اور تمہارے قدم کو پھنسنے سے بچائے گا” (امثال 3:26)۔"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

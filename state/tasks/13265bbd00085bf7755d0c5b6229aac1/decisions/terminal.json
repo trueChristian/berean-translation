@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<blockquote> (Romans 10:6-10 quote)",
+      "severity": "minor",
+      "source_quote": "“But what saith it? The word is nigh thee, even in thy mouth, and in thy heart: that is, the word of faith, which we preach; 9 That if thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that God hath raised him from the dead, thou shalt be saved.” (Romans 10:8-9)",
+      "suggested_fix": "Use a more literal, consistent rendering of “the Lord Jesus” as used elsewhere in the translation. Replace “यहोवा यीशु” with “प्रभु यीशु” (or simply “प्रभु यीशु”) to match the tone and terminology used elsewhere and to avoid introducing the divine name ‘यहोवा’ where the English has ‘the Lord’. Keep the rest of the sentence as translated.",
+      "translation_quote": "“कि यदि तू अपने मुँह से यहोवा यीशु को स्वीकृत करेगा, और अपने हृदय में विश्वास करेगा कि परमेश्वर ने उसे मृतों में से जिंदा किया, तो तू उद्धार पाएगा।” (रोमियों 10:6-10)."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

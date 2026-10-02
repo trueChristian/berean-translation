@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7bbead4f-87b5-4801-a9ec-38bc77ff9067",
+    "response_id": "chatcmpl-EUXAsW1YTD7WTD3m3qDX4uzEOqUD1",
+    "usage": {
+      "completion_tokens": 1271,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3321,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4592
+    }
+  },
+  "received_at": "2026-10-02T13:03:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> paragraph 2 (second <p>)",
+        "severity": "critical",
+        "source_quote": "Looking back at God’s faithfulness to man over the centuries, we have no reason to doubt God will do the same for us in 2024.",
+        "suggested_fix": "Translate the affirmation without negation. Replace the translated sentence with: \"শতাব্দী জুড়ে মানুষের প্রতি ঈশ্বরের বিশ্বস্ততার দিকে ফিরে তাকালে আমাদের কোনো কারণ নেই সন্দেহ করার যে তিনিই ২০২4-এও আমাদের জন্য একইভাবে করবেন।\"",
+        "translation_quote": "শতাব্দী জুড়ে মানুষের প্রতি ঈশ্বরের বিশ্বস্ততার দিকে ফিরে তাকালে আমাদের কোনো কারণ নেই সন্দেহ করার যে তিনিই ২০২4-এও আমাদের জন্য একই করবেন না।"
+      },
+      {
+        "location": "<article> paragraph with tractor anecdote (fifth <p>)",
+        "severity": "major",
+        "source_quote": "It was nothing other than the providence of God that prevented a freak incident from becoming a bad accident.",
+        "suggested_fix": "Render 'providence' correctly in Bengali and avoid introducing an English parenthetical or wrong Bengali word. Replace the clause with: \"এটি কিছুই ছিল না — ঈশ্বরের প্রভুত্ব/পরিচর্যার (providence) আলোকেই একটি অদ্ভুত ঘটনার খারাপ দুর্ঘটনায় পরিণত হওয়া রুদ্ধ হলো।\" (Preferably use a single Bengali term such as 'ঈশ্বরের পরিচর্যা' or 'ঈশ্বরের প্রভুশক্তি' and remove the English parenthesis.)",
+        "translation_quote": "অদ্ভুত একটা ঘটনা খারাপ দুর্ঘটনায় পরিণত হওয়া থেকে রোধ করাটা কিছু ছাড়া ঈশ্বরের প্রার্থনা (providence) ছিল না।"
+      },
+      {
+        "location": "<article> first <p>",
+        "severity": "minor",
+        "source_quote": "...and everything else in between, which only an Almighty Creator God can arrange in such a way that will magnify His worthy power and excellence.",
+        "suggested_fix": "Fix the garbled token and smooth idiom. Replace the fragment \"—এবং এ দু’পkyn্যর মধ্যকার সবকিছু থাকবে\" with \"—এবং এ দুয়ের মধ্যকার সবকিছু থাকবে\" or \"এবং এ দুটির মধ্যে থাকা সব কিছুই থাকবে\".",
+        "translation_quote": "নিঃসন্দেহে এতে আনন্দ এবং দুঃখ, উত্তেজনা এবং বিষণ্ণতা, হাসি এবং অশ্রু—এবং এ দু’পkyn্যর মধ্যকার সবকিছু থাকবে, যেটা শুধুমাত্র সর্বশক্তিমান স্রষ্টা ঈশ্বর এমনভাবে ব্যবস্থা করতে পারেন...\""
+      },
+      {
+        "location": "<article> paragraph before hymn stanza (second-to-last content <p>)",
+        "severity": "minor",
+        "source_quote": "As we navigate through this year, let’s join the hymnwriter in worship, where he writes:",
+        "suggested_fix": "The translator rendered 'hymnwriter' awkwardly as “হিমনকারকে”. Use a conventional Bengali term such as 'ভজনরচয়ী' or 'ভজনকার' and make the sentence: \"আমরা যখন এই বছরটি অতিক্রম করবো, চল ভজনরচয়ীর সঙ্গে মিলিত হয়ে বন্দনা করি, যেখানে তিনি লিখেছেন:\"",
+        "translation_quote": "আমরা যখন এই বছরটি অতিক্রম করবো, চল হিমনকারকে সঙ্গে মিলিত হয়ে বন্দনারত হওয়া যাক, যেখানে তিনি লিখেছেন:"
+      }
+    ],
+    "passed": false,
+    "score": 58
+  }
+}

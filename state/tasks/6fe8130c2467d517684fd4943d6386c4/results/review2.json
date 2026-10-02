@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ee6ce7af-080b-4579-9c3f-1a71b4363303",
+    "response_id": "chatcmpl-EUXAho78GDLQME0KJ4R4BPOq2lfUt",
+    "usage": {
+      "completion_tokens": 915,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3369,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4284
+    }
+  },
+  "received_at": "2026-10-02T13:03:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph 1 (\"When I worked in a prison as an assistant chaplain, I would sit with the condemned men...\")",
+        "severity": "major",
+        "source_quote": "When I worked in a prison as an assistant chaplain, I would sit with the condemned men and listen as they talked of their plight.",
+        "suggested_fix": "Replace the translation of \"the condemned men\" with a phrase that accurately conveys prisoners who have been sentenced/are serving sentences. Recommended Hindi fixes (choose one that fits the intended nuance):\n- \"दंडित कैदियों के साथ बैठता\"  \n- \"सजा पाए हुए पुरुषों के साथ बैठता\"  \n- If context implies death sentence specifically: \"मृत्युदण्ड पाए पुरुषों के साथ बैठता\"  \nSo the full sentence could read: \"जब मैं एक जेल में सह-चैपलिन के रूप में काम करता था, तो मैं दंडित कैदियों के साथ बैठता और उनकी कठिनाइयों के बारे में सुनता था।\"",
+        "translation_quote": "मैं निंदा किए गए पुरुषों के साथ बैठता और उनकी कठिनाईयों के बारे में सुनता था।"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

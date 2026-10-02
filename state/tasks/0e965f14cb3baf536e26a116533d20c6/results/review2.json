@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "eb30c2ad-ce8b-48f1-81c4-62099ee4e059",
+    "response_id": "chatcmpl-EUXC2twUzkxbZqdUl0NXcBPv9vS1E",
+    "usage": {
+      "completion_tokens": 838,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5646,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6484
+    }
+  },
+  "received_at": "2026-10-02T13:03:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning \"Second, acceptance does not mean woeful resignation.\"",
+        "severity": "minor",
+        "source_quote": "Second, acceptance does not mean woeful resignation.",
+        "suggested_fix": "Translate the substantive English word 'resignation' into Hindi and keep the sentence idiomatic. For example: \"दूसरा, स्वीकार करना निराशाजनक आत्मसमर्पण नहीं है।\" Preserve the surrounding <p> tags and punctuation.",
+        "translation_quote": "दूसरा, स्वीकार करना हताश resign होना नहीं है।"
+      },
+      {
+        "location": "Final paragraph before figure: \"Deliverance came. No, not to Stephen and James, nor to suffering servants such as Job, of like precious faith, but it came in unquenchable hope, in the hope that maketh not ashamed. It came through Him that is able to deliver us who, through fear of death, were subject to bondage. “Thanks be unto God for his unspeakable gift.”\"",
+        "severity": "minor",
+        "source_quote": "“Thanks be unto God for his unspeakable gift.”",
+        "suggested_fix": "Make the Hindi rendering more natural and idiomatic while preserving meaning. For example: “हम उस परमेश्वर का धन्यवाद करें जिसके पास हमारी व्याख्या से परे अनकथनीय उपहार है।” or more simply: “हमें उस परमेश्वर का धन्यवाद करना चाहिए जिसने हमें अपना अनकथनीय वरदान दिया।” Keep the quotation marks and paragraph tags intact.",
+        "translation_quote": "“परमेश्वर का अनकथनीय वरदान के लिए धन्यवाद。”"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

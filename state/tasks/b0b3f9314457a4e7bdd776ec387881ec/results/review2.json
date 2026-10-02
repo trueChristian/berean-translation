@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "344eebef-b3cf-4450-b41b-5e385a1370ac",
+    "response_id": "chatcmpl-EUXB6doQbqJMOPdl9RzPbzxwjkYuJ",
+    "usage": {
+      "completion_tokens": 966,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5635,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6601
+    }
+  },
+  "received_at": "2026-10-02T13:03:21+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<section class=\"lyrics\"> stanza: \"Through hidden dangers, toils, and deaths, / It gently cleared my way;\"",
+        "severity": "minor",
+        "source_quote": "\"Through hidden dangers, toils, and deaths, / It gently cleared my way;\"",
+        "suggested_fix": "Consider a more idiomatic Portuguese rendering for 'toils' (e.g. 'fadigas' or 'labores') to improve naturalness while preserving meaning: \"Através de perigos ocultos, fadigas e mortes, / Ele suavemente abriu meu caminho;\". Keep HTML structure and tags unchanged.",
+        "translation_quote": "\"Através de perigos ocultos, trabalhos e mortes, / Ele suavemente desobstruiu meu caminho;\""
+      },
+      {
+        "location": "<p>paragraph that mentions burial location: \"He is buried in the Poet's Corner of Westminster Abbey.\"",
+        "severity": "minor",
+        "source_quote": "\"He is buried in the Poet's Corner of Westminster Abbey.\"",
+        "suggested_fix": "'Poet's Corner' is an established proper name in English and may be left untranslated, but for readers who prefer Portuguese localization you could render it as 'Poet's Corner (Canto dos Poetas) da Abadia de Westminster' or 'no Poet's Corner da Abadia de Westminster' to clarify. This is optional and not required for fidelity. Preserve tags and sentence structure.",
+        "translation_quote": "\"Está enterrado no Poet's Corner da Abadia de Westminster.\""
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

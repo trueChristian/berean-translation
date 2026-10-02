@@ -2,7 +2,6 @@
   "article_id": "20914547-a133-4159-bd5b-dff81f36453b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,46 +61,46 @@
         },
         "total_tokens": 16326
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1095,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9522,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10617
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html — multiple verse citations (inline parentheses)",
-      "severity": "major",
-      "source_quote": "“(Psalms 16:11)”, “(Psalms 1:3)”, “(John 4:14)”, “(Romans 10:6-10)”, “(Romans 8:1)”, “(Romans 15:9)”, “(Hebrews 13:5)”, “(Acts 2:41)”, “(Philippians 2:4)”, “(Hebrews 12:1-3)”, “(Hebrews 12:12-15)”, “(Hebrews 12;28)”",
-      "suggested_fix": "Translate the book names into standard contemporary Urdu conventional forms while keeping the exact chapter:verse numbers and parenthetical placement unchanged. For example: (زبور 16:11), (زبور 1:3), (یوحنا 4:14), (رومیوں 10:6-10), (رومیوں 8:1), (رومیوں 15:9), (عبرانیوں 13:5), (اعمال 2:41), (فلپیوں 2:4), (عبرانیوں 12:1-3), (عبرانیوں 12:12-15), (عبرانیوں 12:28). Preserve original parentheses and punctuation exactly as in source HTML.",
-      "translation_quote": "“(Psalms 16:11).”, “(Psalms 1:3).”, “(John 4:14).”, “(Romans 10:6-10).”, “(Romans 8:1).”, “(Romans 15:9).”, “(Hebrews 13:5).”, “(Acts 2:41).”, “(Philippians 2:4).”, “(Hebrews 12:1-3).”, “(Hebrews 12:12-15).”, “(Hebrews 12;28).”"
+      "location": "<article> first <p> (opening paragraph)",
+      "severity": "critical",
+      "source_quote": "Must I go through life carrying a cross of pain and loneliness while God answers the prayers of my friends and gives them the desires of their hearts? Is something wrong with me? Is my faith too weak? Have I not prayed enough, surrendered enough, been obedient enough?",
+      "suggested_fix": "Replace the Urdu sentence that mistranslates \"been obedient enough\" with a faithful rendering of the original question. Suggested Urdu: \"کیا میں نے کافی دعائیں نہیں کیں، یا کافی سرنڈر نہیں کیا، یا کافی فرمانبردار نہیں رہا؟\" (preserve punctuation and surrounding HTML).",
+      "translation_quote": "\"کیا میرے ساتھ کچھ غلط ہے؟ کیا میری ایمان کمزور ہے؟ کیا میں نے کافی دعائیں نہیں کیں، یا کافی سرنڈر نہیں کیا، یا کافی نافرمانی نہیں کی؟\""
     },
     {
-      "location": "source.html — paragraph about unbelief, unforgiveness (single paragraph)",
+      "location": "<article> paragraph that begins \"You should never think that Christ is in some unapproachable place\" (paragraph mentioning unbelief, sin, disobedience, and unforgiveness)",
       "severity": "major",
-      "source_quote": "\"Unbelief, sin, disobedience, and unforgiveness to others can keep you from experiencing his love and grace.\"",
-      "suggested_fix": "Translate the parenthetical/inline English term 'unforgiveness' into Urdu and/or replace the English parenthetical with the Urdu equivalent so the entire substantive phrase is in Urdu. For example: 'بےایمانی، گناہ، نافرمانی، اور دوسروں کے لیے معاف نہ کرنا تمہیں اس کی محبت اور فضل کا تجربہ کرنے سے روک سکتے ہیں۔' Preserve sentence meaning and HTML tags.",
+      "source_quote": "Unbelief, sin, disobedience, and unforgiveness to others can keep you from experiencing his love and grace.",
+      "suggested_fix": "Translate the parenthetical/term \"unforgiveness\" into Urdu (do not leave it in English). Suggested Urdu replacement for the clause: \"بےایمانی، گناہ، نافرمانی، اور دوسروں کے لیے بخش نہ دینے کی حالت تمہیں اُس کی محبت اور فضل کا تجربہ کرنے سے روک سکتی ہے۔\" Replace the English word \"(unforgiveness)\" with the Urdu phrase \"بخش نہ دینا\" or \"دوسروں کو نہ بخشنا\" as appropriate, preserving punctuation and HTML.",
       "translation_quote": "\"بےایمانی، گناہ، نافرمانی، اور دوسروں کے لیے بےبخشی (unforgiveness) تمہیں اس کی محبت اور فضل کا تجربہ کرنے سے روک سکتے ہیں۔\""
-    },
-    {
-      "location": "source.title and source.html — Philippians quotation and following sentence (paragraph boundary)",
-      "severity": "minor",
-      "source_quote": "“Look not every man on his own things, but every man also on the things of others. 5 Let this mind be in you, which was also in Christ Jesus: 6 Who, being in the form of God, thought it not robbery to be equal with God: 7 But made himself of no reputation, and took upon him the form of a servant, and was made in the likeness of men:” (Philippians 2:4)My wife and I recently celebrated our third anniversary.",
-      "suggested_fix": "There is missing spacing/punctuation between the closing verse parenthesis and the following sentence (the English original had the same run-on). Ensure a space or appropriate punctuation separates the verse citation from the ensuing sentence, and translate the book name as noted above. Example fix inside HTML: '... (فلپیوں 2:4). میری بیوی اور میں نے حال ہی میں...' Preserve existing tag structure.",
-      "translation_quote": "\"(Philippians 2:4)میری بیوی اور میں نے حال ہی میں اپنی تیسری سالگرہ منائی۔\""
-    },
-    {
-      "location": "source.html — 'breaking of bread' verse translation (Acts 2:41 quote)",
-      "severity": "minor",
-      "source_quote": "\"... and in breaking of bread, and in prayers\" (Acts 2:41).",
-      "suggested_fix": "The translator rendered 'breaking of bread' as 'نان بریکنگ' (mix of Urdu and English). Replace with an idiomatic Urdu rendering such as 'نان ٹوٹنے' is not correct; better: 'کھانے کے اشتراک' or more literal/common Urdu Christian phrasing 'نان تقسیم کرنے' or 'نِان کے شئرنگ' is awkward. Preferred: 'اور نان کے تقسیم کرنے میں' or more natural 'اور نان کے ٹوٹنے میں' — choose a conventional Urdu church phrase (e.g., 'اور نان کے تقسیم و اشتراک میں'). Keep the rest of the verse translation intact and translate the book name to 'اعمال' in the citation.",
-      "translation_quote": "\"... اور وہ رسولوں کی تعلیم اور ملاپ اور نان بریکنگ اور دعاؤں میں ثابت قدم رہے\" (Acts 2:41)."
-    },
-    {
-      "location": "source.section metadata",
-      "severity": "minor",
-      "source_quote": "INSPIRATIONS FOR YOUTH",
-      "suggested_fix": "Translate the section name into Urdu (contemporary, idiomatic). For example: 'نوجوانوں کے لیے الہامی مضامین' or 'نوجوانوں کے لیے ترغیبات' depending on site style. Preserve exact source.section placement in metadata and do not alter HTML body tags.",
-      "translation_quote": "INSPIRATIONS FOR YOUTH"
     }
   ],
+  "finished_at": "2026-10-02T13:03:21+00:00",
   "id": "7f74f434994c5e4bd6f454f831fa520a",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "urd",
@@ -175,13 +174,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 70,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a5fa4336ac24fe4ded7bc5c6695694845b2e95ac589cd5689bedc4b3e79ef2b1.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "2780d41d80f578475e27d5e54969bef54c79aef92fae3008a281d5b3d0e475c3",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

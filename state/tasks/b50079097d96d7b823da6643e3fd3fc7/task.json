@@ -2,7 +2,6 @@
   "article_id": "8072bb08-e7aa-4602-a3c6-f82161b740ae",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,32 +61,46 @@
         },
         "total_tokens": 10709
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1260,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6254,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7514
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "source.html — paragraph quoting Deuteronomy 1:42 (second paragraph)",
+      "location": "Paragraphs discussing Paul’s ongoing condition (paragraphs: “First, acceptance...”, “Fifth, Paul’s infirmity...”, “Fourth, Paul’s weakness...” and related lines)",
       "severity": "major",
-      "source_quote": "\"And the Lord said unto me, Say unto them, Go not up, neither fight; for I am not among you; lest ye be smitten before your enemies\"",
-      "suggested_fix": "Translate the clause \"lest ye be smitten before your enemies\" to convey being struck/defeated by enemies (e.g., «μήπως νικηθείτε/νικηθείτε/χτυπηθείτε ενώπιον των εχθρών σας»). Also restore the stronger sense of \"they rebelled\" rather than a neutral reaction: translate \"but they rebelled at His 'no.'\" as «αλλά ανυπάκουσαν/επαναστάτησαν στο “όχι” Του.» Maintain the negative causality (they disobeyed and were punished).",
-      "translation_quote": "«Και ο Κύριος μού είπε, Πες τους: Μη ανεβείτε, μη πολεμήσετε· διότι δεν είμαι μαζί σας· μήπως εγερθείτε μπροστά στους εχθρούς σας», αλλά αντέδρασαν στο «όχι» Του."
+      "source_quote": "First, acceptance does not mean that the problem does not exist. Paul accepted God’s “no”, but still had the infirmities.\n...\nFourth, Paul’s weakness, as a result of God’s “no,” made him strong. “Therefore I take pleasure in infirmities... for when I am weak, then am I strong” (2 Corinthians 12:10).\n...\nFifth, Paul’s infirmity allowed the power of Christ to rest upon him.",
+      "suggested_fix": "Replace translations that render the English infirmities as disease/illness (Greek «ασθένειες» or «ασθένεια») with a wording that preserves the English sense of weakness/limitations (suggested Greek: «αδυναμίες», «ασθενείες» only if clearly intended as illnesses, or better «ασθένειες/αδυναμίες» consistently if the author intends both). Adjust every sentence where the translator used «ασθένειες» or «η ασθένεια» so it reads «αδυναμίες» (e.g. “Ο Παύλος αποδέχτηκε το ‘όχι’ του Θεού, αλλά εξακολούθησε να είχε τις αδυναμίες.” “Πέμπτον, η αδυναμία του Παύλου επέτρεψε…”). This preserves the theological nuance that Paul’s “thorn” and the Apostle’s repeated language refer to weakness or affliction permitting God’s power to be displayed, rather than strictly medical illness.",
+      "translation_quote": "Ο Παύλος αποδέχτηκε το «όχι» του Θεού, αλλά εξακολούθησε να έχει τις ασθένειες.\n...\n«Γι’ αυτό ευχαρίστως αρκούμαι στις αδυναμίες... διότι όταν είμαι αδύναμος, τότε είμαι δυνατός» (2 Κορινθίους 12:10).\n...\nΠέμπτον, η ασθένεια του Παύλου επέτρεψε στη δύναμη του Χριστού να κατοικήσει επάνω του."
     },
     {
-      "location": "source.html — second paragraph, verb choice for 'rebelled'",
-      "severity": "major",
-      "source_quote": "\"but they rebelled at His 'no.'\"",
-      "suggested_fix": "Use a Greek verb that preserves the sense of rebellion/disobedience (e.g., «αλλά ανυπάκουσαν στο “όχι” Του» or «αλλά επαναστάτησαν ενάντια στο “όχι” Του»).",
-      "translation_quote": "«... αλλά αντέδρασαν στο «όχι» Του.»"
-    },
-    {
-      "location": "source.html — overall register and select archaisms (multiple paragraphs, stylistic)",
+      "location": "Opening sentence",
       "severity": "minor",
-      "source_quote": "(examples) \"My grace is sufficient for thee\", \"Thanks be unto God for his unspeakable gift.\"",
-      "suggested_fix": "The translation sometimes uses a more formal/archaic register (e.g., «Διότι», «Δόξα τω Θεώ διά το ανείπωτο αυτού δώρον»). For contemporary Modern Greek, consider modernizing a few expressions without changing theology: e.g., «γιατί/διότι» → keep sparingly, and render the final sentence as «Δόξα στον Θεό για το ανείπωτο αυτό δώρο» or «Ευχαριστούμε τον Θεό για το ανείπωτο Του δώρο.» These are stylistic suggestions — not required for doctrinal fidelity.",
-      "translation_quote": "(examples) «Η χάρη μου είναι αρκετή για σένα», «Δόξα τω Θεώ διά το ανείπωτο αυτού δώρον.»"
+      "source_quote": "Just reading the title probably brings negative thoughts to your mind.",
+      "suggested_fix": "The current Greek «Μόνο ο τίτλος ίσως φέρνει αρνητικές σκέψεις στο μυαλό σας.» is understandable but slightly awkward in register. Consider: «Μόνο που διαβάζετε τον τίτλο ίσως φέρνει αρνητικές σκέψεις στο μυαλό σας.» or «Το ίδιο μόνος ο τίτλος πιθανώς φέρνει...» to more closely mirror the colloquial English cadence. This is optional stylistic polishing, not a doctrinal change.",
+      "translation_quote": "Μόνο ο τίτλος ίσως φέρνει αρνητικές σκέψεις στο μυαλό σας."
     }
   ],
+  "finished_at": "2026-10-02T13:03:21+00:00",
   "id": "b50079097d96d7b823da6643e3fd3fc7",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ell",
@@ -161,13 +174,13 @@
     }
   },
   "protected": false,
-  "quality_score": 62,
+  "quality_score": 82,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/40b205584b70dea6ea3ff3f4c41c6fd1ddfe0f0185df69fefa6b9552a41d435d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "bf998429e527907a20f711c821e9bb6ad50ba4d154d9f55d397877de1bb521c0",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "48db8b57-eca2-4d35-a48f-13c21d68bab0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,39 +61,52 @@
         },
         "total_tokens": 13592
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1334,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8255,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9589
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph containing Mark 14:27 (third paragraph)",
-      "severity": "major",
-      "source_quote": "He informed the inner 12 that had stuck with Him, “All ye shall be offended because of me this night” (Mark 14:27).",
-      "suggested_fix": "Render the quoted Scripture in idiomatic, accurate Dutch preserving the original meaning and verse placement. For example: “Gij allen zult aanstoot aan mij nemen dezen nacht” (Marcus 14:27). Remove the stray word 'wegen' which alters or garbles the meaning.",
-      "translation_quote": "Hij vertelde de binnenste twaalf die bij Hem waren gebleven: “Gij allen zult wegen over Mij aanstoot nemen deze nacht” (Marcus 14:27)."
-    },
-    {
-      "location": "Paragraph containing James 3:2 (paragraph after Matthew 13:20-21)",
-      "severity": "major",
-      "source_quote": "“In many things, we offend all” (James 3:2).",
-      "suggested_fix": "Translate the verse into clear, correct Dutch that preserves the Scripture sense. Replace the incorrect or nonstandard word 'misstraad' with an appropriate rendering such as: “In vele dingen struikelen wij allen” or “In veel dingen vallen wij allen in zonde” and keep the citation (Jakobus 3:2).",
-      "translation_quote": "“In vele dingen worden wij allen misstraad” (Jakobus 3:2)."
-    },
-    {
-      "location": "Multiple quoted Scripture renderings — consistency and accuracy (general)",
+      "location": "<p class=\"lead\"> (first paragraph)",
       "severity": "minor",
-      "source_quote": "Multiple quoted verses (e.g., Psalm 119:165; Matthew 13:20-21; Ephesians 4:1-2; Isaiah 40:31; Luke 7:20-23; 2 Samuel 6:16, 6:23, etc.)",
-      "suggested_fix": "Check all quoted Scripture passages for idiomatic Dutch, consistent Bible-book names, exact chapter:verse numbers unchanged, and natural Dutch phrasing. A few quotations use slightly archaic or uneven phrasing (e.g., 'den hoge en verhevene, Die de eeuwigheid bewoont' vs. more contemporary Dutch). Use standard contemporary Dutch while preserving the original theological meaning and verse structure. Do not alter verse numbers or omit any quoted biblical text.",
-      "translation_quote": "Examples include: “Grote vrede hebben zij die uw wet liefhebben: en niets zal hen aanstoot geven” (Psalm 119:165); “Christus beschreef deze planten als having 'not root in himself, but dureth for a while' (Mattheüs 13:20-21)\" (various quotes throughout)."
+      "source_quote": "Ministers of the Gospel today are expected to be soft and effeminate lest they offend their listeners.",
+      "suggested_fix": "Use standard contemporary Dutch wording. Replace 'effeminé' with 'effeminerend' or better 'effeminé' → 'effeminé' is French and uncommon in Dutch; suggested: 'zacht en effeminé' → 'zacht en effeminé' is odd. Recommended correction: \"zacht en vrouwelijk (om anderen niet te kwetsen)\" or simply \"zacht en effeminerend\". Keep original HTML structure and do not alter tags.",
+      "translation_quote": "Tegenwoordige predikanten van het Evangelie worden verondersteld zacht en effeminé te zijn, opdat zij hun luisteraars niet zouden kwetsen."
     },
     {
-      "location": "Byline/reference section (references list)",
+      "location": "Multiple Bible quotations (style)",
+      "severity": "minor",
+      "source_quote": "Bible quotations use a variety of registers (e.g. Psalm 119:165: “Great peace have they which love thy law: and nothing shall offend them”).",
+      "suggested_fix": "The translation preserves the quotations but mixes contemporary Dutch with archaic/older Bible-language forms (e.g. 'des Heren', 'den hoge', 'Gij', 'Mij', 'wierd', 'lenspeld'). For consistency and readability in standard contemporary Dutch, consider using a single register for all scripture quotations (modern Dutch Bible phrasing) while preserving chapter and verse numbering exactly. Do not change HTML structure; only adjust the quoted text inside existing <p> elements.",
+      "translation_quote": "“Grote vrede hebben zij die uw wet liefhebben: en niets zal hen aanstoot geven” (Psalm 119:165). … “Ik dan, de gevangene des Heren, smeek u, dat gij wandelt waardig naar de roeping waarmee gij geroepen zijt…” (Efeziërs 4:1-2)."
+    },
+    {
+      "location": "<section class=\"references\">",
       "severity": "minor",
       "source_quote": "Strongs Concordance",
-      "suggested_fix": "If editorial style prefers Dutch titles for referenced works, translate or localize the reference title into Dutch (for example: 'Strongs-concordantie'), but this is optional: leaving an established reference title in English is permissible if your house style allows. Ensure consistency with the magazine's style guide.",
-      "translation_quote": "Strongs Concordance"
+      "suggested_fix": "The source's reference title was 'Strongs Concordance'. The translation uses 'Strongs-concordantie' with a hyphen and lowercase 'concordantie'. For fidelity, render the cited work title in conventional Dutch typography but keep it clearly identifiable; suggested: 'Strongs Concordantie' or 'Strong's Concordance' (if the publication's conventional title uses an apostrophe/s). Preserve the <li> text and tags.",
+      "translation_quote": "Strongs-concordantie"
     }
   ],
+  "finished_at": "2026-10-02T13:03:21+00:00",
   "id": "da1f9ae196a88c23f26519e565a052d4",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "nld",
@@ -168,13 +180,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/860ef4183736ed90ffe0410e641004cf07704736a2fe3063f1577a97a4982295.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "b25c7ba97f60cd8b593ddd3f02e4c8b5da68408268cf7ae4a26bd9922702c945",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

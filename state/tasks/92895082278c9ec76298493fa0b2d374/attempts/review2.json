@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:21+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html → list of six D’s / translation.html → ordered list\",\"severity\":\"minor\",\"source_quote\":\"Decomposition and Decay\",\"suggested_fix\":\"Use a more standard, widely understood Urdu term for 'Decomposition' such as 'پتھّرنا/تجزیہ' or combine for clarity: 'گلن اور تحلیل (Decomposition and Decay)' — preserve surrounding HTML exactly.\",\"translation_quote\":\"اپخوری اور بوسیدگی\"},{\"location\":\"source.html → paragraph about artichoke and thistles / translation.html → corresponding paragraph\",\"severity\":\"minor\",\"source_quote\":\"Cardoon\",\"suggested_fix\":\"'Cardoon' is a translatable/common plant name; prefer a conventional Urdu transliteration or parenthetical English as needed. Suggested fix: replace 'کارڈون' with 'کارڈون (Cardoon)' or a more common local name if available — preserve HTML.\",\"translation_quote\":\"کارڈون\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 948,
+    "content_evidence_truncated": false,
+    "content_sha256": "dc9a0f411a58cd33440abffa4e5457a564fec335f32fe74f868d30a52cfa1580",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 860,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7279,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8139
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

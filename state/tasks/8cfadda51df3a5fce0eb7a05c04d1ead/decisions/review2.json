@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph with Proverbs quotation (source.html paragraph with Solomon quote)",
+      "severity": "minor",
+      "source_quote": "“For the LORD shall be thy confidence, and shall keep thy foot from being taken” (Proverbs 3:26).",
+      "suggested_fix": "Translate into natural, idiomatic Italian while preserving the meaning exactly. Example: “Poiché il SIGNORE sarà la tua fiducia e proteggerà il tuo piede dal cadere” (Proverbi 3:26). Or keep closer to the existing literal wording but correct idiom: “Poiché il SIGNORE sarà la tua fiducia e terrà il tuo piede dal venir preso” (Proverbi 3:26).",
+      "translation_quote": "“Poiché il SIGNORE sarà la tua fiducia e terrà il tuo piede dal venire preso” (Proverbi 3:26)."
+    },
+    {
+      "location": "Poem block (the hymn stanza in the <div class=\"poem\">)",
+      "severity": "minor",
+      "source_quote": "When all Thy mercies, O my God,\n    My rising soul surveys,\n    Transported with the view, I’m lost\n    In wonder, love and praise.",
+      "suggested_fix": "The current translation conveys the words but reads awkwardly in Italian. Provide a smoother, idiomatic rendering that preserves the poetic sense and lineation. Suggested replacement keeping line breaks and meaning: “Quando tutte le Tue misericordie, o mio Dio,\n    la mia anima che si desta contempla;\n    Trasportato da quel quadro, rimango perduto\n    in stupore, amore e lode.” Replace within the same <div class=\"poem\"> structure and preserve <em> and <br> tags.",
+      "translation_quote": "<em>Quando tutte le Tue misericordie, o mio Dio,<br>\n    la mia anima che sorge contempla,<br>\n    Trasportato da quella vista, rimango smarrito<br>\n    in stupore, amore e lode.</em>"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

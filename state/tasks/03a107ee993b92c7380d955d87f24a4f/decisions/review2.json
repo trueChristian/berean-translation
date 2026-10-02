@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Blockquote (Romans 8:19-23)",
+      "severity": "minor",
+      "source_quote": "“For the earnest expectation of the creature waiteth for the manifestation of the sons of God. For the creature was made subject to vanity, not willingly, but by reason of him who subjected the same in hope. Because the creature itself also shall be delivered from the bondage of corruption into the glorious liberty of the children of God. For we know that the whole creation groaneth and travaileth in pain together until now. And not only they, but ourselves also, which have the first fruits of the Spirit, even we ourselves groan within ourselves, waiting for the adoption, to wit, the redemption of our bodies” (Romans 8:19-23).",
+      "suggested_fix": "Render the quoted Scripture into contemporary Modern Greek (not Katharevousa/archaic forms) while preserving verse numbers and the meaning of the printed English (KJV). Example (not prescriptive wording but to show style): «Διότι η επιποθήσις της κτίσης προσμένει την αποκάλυψιν των υιών του Θεού. Διότι η κτίσις ετέθη υπό ματαιότητα όχι εκουσίως αλλά δι’ αυτού που την υπέταξε, με σκοπό την ελπίδα· επειδή και η ίδια η κτίσις θέλει λυτρωθεί από τη δουλεία της φθοράς για να λάβει την ελευθερία της δόξας των παιδιών του Θεού. Διότι γνωρίζουμε ότι όλη η κτίση στενάζει και υποφέρει μαζί έως τώρα. Και όχι μόνο αυτή, αλλά και εμείς που έχουμε τα πρώτα δώρα του Πνεύματος, στενάζουμε μέσα μας και προσδοκούμε την υιοθεσία, τη λύτρωση των σωμάτων μας» (Ρωμαίους 8:19-23). Replace the current blockquote with a Modern Greek translation in similar register to the rest of the article, preserving the verse reference in parentheses.",
+      "translation_quote": "«Γιατί η φιλοπόθητη προσδοκία της κτίσεως προσμένει την αποκατάστασιν των υιών του Θεού. Διότι η κτίσις ετέθη υπό ματαιότητα, ου χρισθείσα εκ ιδίας θελήσεως, αλλά διά εκείνου που την υπέταξε εν ελπίδι· επεί και η ίδια η κτίσις θέλει λυτρωθή από την δουλείαν της φθοράς εις την δόξα της ελευθερίας των τέκνων του Θεού. Διότι γνωρίζομεν ότι όλη η κτίσις στέναζε και συνεπαραστενάζει μέχρι της σήμερον. Και όχι μόνον αυτή, αλλά και ημείς οι ίδιοι, οι έχοντες τα πρώτα καρποφόρα του Πνεύματος, στενάζομεν εντός ημών και προσδοκούμεν την υιοθεσίαν, την λύτρωσιν των σωμάτων ημών» (Ρωμαίους 8:19-23)."
+    },
+    {
+      "location": "Paragraph on thistles (term list and inside paragraph)",
+      "severity": "minor",
+      "source_quote": "Blessed Thistle, Milk Thistle, Teasel, Raspberry Leaf, and Blackberry roots",
+      "suggested_fix": "Translate the common plant names into contemporary Modern Greek (or provide conventional Greek common names) rather than leaving any English name unchanged. Keep the order and the items but render them idiomatically. Example suggestions: «Αγκάθιο το Ευλογημένο (Blessed thistle)» should be replaced by a Modern Greek common-name equivalent (or the Latin name if the article prefers), and similarly render \"Milk Thistle\" as «Γαϊδουράγκαθο» or «Γαϊδουροτσίχλαρο» (commonly «Γαϊδουράγκαθο»), \"Teasel\" as «σπάρτο/τείζελ» with the commonly used Greek term, \"Raspberry leaf\" as «φύλλο σμέουρου», and \"Blackberry roots\" as «ρίζες βατόμουρου». Update the parenthetical English-only labels so no substantive plant names remain in English alone.",
+      "translation_quote": "Αγκάθι της Ευλογίας (Blessed Thistle), Γάλακτος Αγκάθι (Milk Thistle), Διπλή Κεντρίδα (Teasel), φύλλο σμέουρου και ρίζες βατόμουρου είναι μόνο μερικά παραδείγματα ..."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

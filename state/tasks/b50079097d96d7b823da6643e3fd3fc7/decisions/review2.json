@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraphs discussing Paul’s ongoing condition (paragraphs: “First, acceptance...”, “Fifth, Paul’s infirmity...”, “Fourth, Paul’s weakness...” and related lines)",
+      "severity": "major",
+      "source_quote": "First, acceptance does not mean that the problem does not exist. Paul accepted God’s “no”, but still had the infirmities.\n...\nFourth, Paul’s weakness, as a result of God’s “no,” made him strong. “Therefore I take pleasure in infirmities... for when I am weak, then am I strong” (2 Corinthians 12:10).\n...\nFifth, Paul’s infirmity allowed the power of Christ to rest upon him.",
+      "suggested_fix": "Replace translations that render the English infirmities as disease/illness (Greek «ασθένειες» or «ασθένεια») with a wording that preserves the English sense of weakness/limitations (suggested Greek: «αδυναμίες», «ασθενείες» only if clearly intended as illnesses, or better «ασθένειες/αδυναμίες» consistently if the author intends both). Adjust every sentence where the translator used «ασθένειες» or «η ασθένεια» so it reads «αδυναμίες» (e.g. “Ο Παύλος αποδέχτηκε το ‘όχι’ του Θεού, αλλά εξακολούθησε να είχε τις αδυναμίες.” “Πέμπτον, η αδυναμία του Παύλου επέτρεψε…”). This preserves the theological nuance that Paul’s “thorn” and the Apostle’s repeated language refer to weakness or affliction permitting God’s power to be displayed, rather than strictly medical illness.",
+      "translation_quote": "Ο Παύλος αποδέχτηκε το «όχι» του Θεού, αλλά εξακολούθησε να έχει τις ασθένειες.\n...\n«Γι’ αυτό ευχαρίστως αρκούμαι στις αδυναμίες... διότι όταν είμαι αδύναμος, τότε είμαι δυνατός» (2 Κορινθίους 12:10).\n...\nΠέμπτον, η ασθένεια του Παύλου επέτρεψε στη δύναμη του Χριστού να κατοικήσει επάνω του."
+    },
+    {
+      "location": "Opening sentence",
+      "severity": "minor",
+      "source_quote": "Just reading the title probably brings negative thoughts to your mind.",
+      "suggested_fix": "The current Greek «Μόνο ο τίτλος ίσως φέρνει αρνητικές σκέψεις στο μυαλό σας.» is understandable but slightly awkward in register. Consider: «Μόνο που διαβάζετε τον τίτλο ίσως φέρνει αρνητικές σκέψεις στο μυαλό σας.» or «Το ίδιο μόνος ο τίτλος πιθανώς φέρνει...» to more closely mirror the colloquial English cadence. This is optional stylistic polishing, not a doctrinal change.",
+      "translation_quote": "Μόνο ο τίτλος ίσως φέρνει αρνητικές σκέψεις στο μυαλό σας."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

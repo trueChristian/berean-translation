@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:03:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<article> <p>“Shall we call 911?” …</p> (paragraph describing first phone/appointment timing)\",\"severity\":\"major\",\"source_quote\":\"An appointment with a neurosurgeon had been made for two days later.\",\"suggested_fix\":\"Replace the mistranslated timing with the correct interval matching the English source. Keep HTML structure. For example: \\\"נקבע תור לנוירוכירורג לשבועיים\\\" should be corrected to \\\"נקבע תור לנוירוכירורג לשני ימים לאחר מכן\\\" (or simply \\\"נקבע תור לנוירוכירורג לשני ימים אחרי כן\\\").\",\"translation_quote\":\"\\\"נקבע תור לנוירוכירורג לשבועיים לאחר מכן.\\\"\"},{\"location\":\"<article> <p>\\\"When I entered the kitchen, Judy lay on the floor, jerking rhythmically. I had never seen anyone in a seizure before...\\\"</p>\",\"severity\":\"major\",\"source_quote\":\"When I entered the kitchen, Judy lay on the floor, jerking rhythmically. I had never seen anyone in a seizure before, but somehow, I just knew. She’s having a seizure!\",\"suggested_fix\":\"Correct the single-word mistranslation that changes the medical meaning. Replace \\\"בסיבוך\\\" with the standard Hebrew for 'seizure' used elsewhere in the translation (\\\"בהתקף\\\" or \\\"התקף\\\"). Preserve tags. Example fix: change \\\"מעולם לא ראיתי מישהו בסיבוך קודם\\\" to \\\"מעולם לא ראיתי מישהו בהתקף קודם\\\".\",\"translation_quote\":\"\\\"מעולם לא ראיתי מישהו בסיבוך קודם, אבל איכשהו ידעתי. היא עברה התקף!\\\"\"},{\"location\":\"<article> <p>\\\"I was in the living room having my personal devotions.\\\"</p>\",\"severity\":\"minor\",\"source_quote\":\"I was in the living room having my personal devotions.\",\"suggested_fix\":\"Use a natural contemporary Hebrew rendering for 'personal devotions'. Replace the unclear phrase \\\"עבודת הזמירה האישית שלי\\\" with a standard phrase such as \\\"הייתי בסלון בהתבודדות שלי\\\" or \\\"בזמן ההתבודדות האישית שלי\\\". Keep HTML tags intact.\",\"translation_quote\":\"\\\"הייתי בסלון בעבודת הזמירה האישית שלי.\\\"\"},{\"location\":\"<article> multiple paragraphs describing the drive/arrival at hospital\",\"severity\":\"minor\",\"source_quote\":\"We had a straight drive to the hospital, and Ivan pulled right up to the emergency entrance.\",\"suggested_fix\":\"The phrase \\\"נסיעת קרקע ישרה\\\" is awkward and unclear in Hebrew. Use a fluent idiom such as \\\"היה לנו נהגון ישיר אל בית החולים\\\" or better \\\"נסיעה ישירה לבית החולים\\\". Preserve tags.\",\"translation_quote\":\"\\\"היה לנו נסיעת קרקע ישרה לבית החולים, ואיוון עצר ממש בכניסה לחדר המיון.\\\"\"}],\"passed\":false,\"score\":70}",
+    "content_bytes": 2880,
+    "content_evidence_truncated": false,
+    "content_sha256": "a9934528a0927c3e15cce4d08a87f6eddd6f3f9abb15710efae9539fcb4fbd8b",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1353,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6447,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7800
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

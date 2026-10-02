@@ -2,7 +2,6 @@
   "article_id": "c22883c1-1d69-4c5e-aa81-d4015bf4e473",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,32 +61,45 @@
         },
         "total_tokens": 5464
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1132,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3101,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4233
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<p>… I dette nummeret leder «A Word From the Doctor» oss …</p>",
-      "severity": "major",
-      "source_quote": "In this issue, “A Word From the Doctor” guides us as we face the maze of life, giving us practical and Biblical solutions to avoid or recover from burnout.",
-      "suggested_fix": "Translate the column title into Bokmål and keep it inside the same HTML structure. For example: <p>… I dette nummeret leder «Et ord fra doktoren» oss gjennom livets labyrint …</p>",
-      "translation_quote": "I dette nummeret leder «A Word From the Doctor» oss gjennom livets labyrint og gir oss praktiske og bibelske løsninger for å unngå eller komme seg etter utbrenthet."
-    },
-    {
-      "location": "<p>… i forberedelse til en ny flock. …</p>",
-      "severity": "major",
-      "source_quote": "Last week I was cleaning out our broiler houses in preparation for a new flock.",
-      "suggested_fix": "Translate the substantive English word \"flock\" into Bokmål. Keep the surrounding sentence and tags unchanged. For example: <p>… i forberedelse til en ny flokk.</p>",
-      "translation_quote": "Forrige uke rengjorde jeg kyllingskurene våre i forberedelse til en ny flock."
-    },
-    {
-      "location": "<p>… traff foten min ved et uhell hydrosostatiske pedalen …</p>",
+      "location": "<p>...forfatteren av artikkelen «Gods trofasthet manifesterer seg selv også i forbannelsen», ha...</p>",
       "severity": "minor",
-      "source_quote": "As I stood up, my foot accidentally hit the hydrostatic pedal, lurching the tractor forward and throwing me off-balance.",
-      "suggested_fix": "Fix the misspelling and grammatical form of \"hydrostatic pedal\" in Bokmål. For example: <p>… traff foten min ved et uhell den hydrodynamiske pedalen, eller «hydrostatpedalen», …</p> — a concise, idiomatic fix would be: <p>… traff foten min ved et uhell hydrostatpedalen, traktoren rykket fram …</p>",
-      "translation_quote": "Da jeg reiste meg, traff foten min ved et uhell hydrosostatiske pedalen, traktoren rykka fram og kastet meg ut av balanse."
+      "source_quote": "“God’s Faithfulness Manifest Even in the Curse”",
+      "suggested_fix": "Beholdn oversettelsen av tittelen bør bruke korrekt norsk possessivform og mer naturlig ordstilling. Erstatt «Gods trofasthet manifesterer seg selv også i forbannelsen» med ««Guds trofasthet manifesterer seg også i forbannelsen»». (Behold anførselstegnene og plasseringen uendret.)",
+      "translation_quote": "«Gods trofasthet manifesterer seg selv også i forbannelsen»"
+    },
+    {
+      "location": "<div class=\"poem\">…</div>",
+      "severity": "minor",
+      "source_quote": "When all Thy mercies, O my God,\n    My rising soul surveys,\n    Transported with the view, I'm lost\n    In wonder, love and praise.",
+      "suggested_fix": "Diktet er oversatt ordrett og lyder uidiomatisk på norsk. Forslag til mer naturlig og meningsbevarende oversettelse: «Når alle dine barmhjertigheter, o min Gud,\n    Min sjel som våkner skuer dem,\n    Fylt av det synet blir jeg henført,\n    Tapt i undring, kjærlighet og pris.» Erstatt teksten inne i <div class=\"poem\"> med dette, behold <em>, <br> og annen HTML uendret.",
+      "translation_quote": "<em>Når alle dine barmhjertigheter, o min Gud,<br>\n    Min oppvoksende sjel betrakter,<br>\n    Fører synet meg i ekstase, jeg blir tapt<br>\n    I undring, kjærlighet og pris.</em>"
     }
   ],
+  "finished_at": "2026-10-02T13:03:21+00:00",
   "id": "cd2d77a0b407eb4720758c7588a6eeb4",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "nob",
@@ -161,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/16f80cc2fe1f48fad7c825ed0d1e3059568da0b548b0106a43da4f8b4d785466.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "7328fe7985535229790c376868603624111ed137e1665aff6a36b03d5b4d90fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

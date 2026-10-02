@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "097e596b-07e1-4698-a6ec-8180b9f2c080",
+    "response_id": "chatcmpl-EUXC2YSizOqXTRYwQfQBCuKSNiKFR",
+    "usage": {
+      "completion_tokens": 1766,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7584,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9350
+    }
+  },
+  "received_at": "2026-10-02T13:03:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph under 'Dominance of Thorns and Thistles' (translation HTML near phrase 'medicinal')",
+        "severity": "minor",
+        "source_quote": "Think about it: Blessed Thistle, Milk Thistle, Teasel, Raspberry Leaf, and Blackberry roots are only a few examples of members of these “thorny weeds” used for medicinal and other food benefits.",
+        "suggested_fix": "Translate the English word 'medicinal' into standard Bengali to avoid leaving substantive English in the translation. For example, replace “medicinal” with “ঔষধীয়” so the sentence reads (preserving surrounding HTML):\n\n... “ব্লেসড থিস্টল, মিল্ক থিস্টল, টীসল, রাস্পবেরি পাতা এবং ব্ল্যাকবেরি শিকড়—এইগুলো কী ঔষধীয় এবং অন্যান্য খাদ্যগত সুবিধার জন্য ব্যবহৃত ‘কাঁটা ঝোপ’ সদস্যদের কয়েকটি উদাহরণ মাত্র।”",
+        "translation_quote": "ভাবুন তো: ব্লেসড থিস্টল, মিল্ক থিস্টল, টীসল, রাস্পবেরি পাতা এবং ব্ল্যাকবেরি শিকড়—এইগুলো কী medicinal এবং অন্যান্য খাদ্যগত সুবিধার জন্য ব্যবহৃত “কাঁটা ঝোপ” সদস্যদের কয়েকটি উদাহরণ মাত্র।"
+      },
+      {
+        "location": "Multiple occurrences: word for 'artichoke' (translation HTML: figcaption and earlier paragraph)",
+        "severity": "minor",
+        "source_quote": "This is an artichoke plant, a member of the thistle family. Many people use this “thistle,” along with its cousin, the Cardoon, for food.\n\nWe grow the artichoke for its bitter leaves, which are used to make digestive bitters.",
+        "suggested_fix": "Correct minor typographical inconsistencies in the Bengali rendering of 'artichoke' for consistency and idiomatic usage. Use a single standard form such as “আর্টিশক” (or Bengali common form “আর্টিচক”) throughout. Example fixes (preserve HTML):\n\n- In the figcaption: replace “এটি একটি আর্টিশকক উদ্ভিদ” with “এটি একটি আর্টিশক উদ্ভিদ”\n- In the paragraph: replace “আমরা আর্টিশকক এর তিক্ত পাতা উৎপন্ন করি” with “আমরা আর্টিশকের তিক্ত পাতা উৎপন্ন করি”",
+        "translation_quote": "... আর্টিশকক উদ্ভিদ ...\n\nআমরা আর্টিশকক এর তিক্ত পাতা উৎপন্ন করি, যা হজমশক্তির ব্যাটার্স তৈরিতে ব্যবহৃত হয়।"
+      },
+      {
+        "location": "Paragraph mentioning Noah’s flood (translation HTML: 'নোহর মহাপ্রলয়')",
+        "severity": "minor",
+        "source_quote": "Have you ever considered the great flood of Noah?",
+        "suggested_fix": "Adjust the Bengali form of 'Noah' to the more common or Biblical Bengali form to match target-language idiom and standard scripture naming (preserve HTML). For example, replace “নোহর মহাপ্রলয়” with “নোয়াহের মহাপ্রলয়” or the customary Bengali Bible name “নূহের মহাপ্রলয়” depending on the site's usual Bible name convention. Ensure consistency with other Biblical names used on the site.",
+        "translation_quote": "আপনি কি কখনো নোহর মহাপ্রলয় নিয়ে ভেবেছেন?"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

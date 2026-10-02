@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "53cae50b-72e0-4b45-a506-a23425e7e858",
+    "response_id": "chatcmpl-EUXAbmmypi7btU64hHIonBuoSq3tk",
+    "usage": {
+      "completion_tokens": 614,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5817,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6431
+    }
+  },
+  "received_at": "2026-10-02T13:03:21+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph 1 (opening sentence)",
+        "severity": "minor",
+        "source_quote": "When I was converted, I had never heard the term Anabaptist.",
+        "suggested_fix": "Use a more natural, commonly used Hindi rendering of \"converted\" to match style and readability while preserving meaning. For example: \"जब मैंने प्रभु को स्वीकार किया था,\" or \"जब मैं ईमान लाया/विश्वास में आया,\" instead of \"जब मेरा जीर्णोद्धार हुआ,\". Preserve the rest of the sentence as translated.",
+        "translation_quote": "जब मेरा जीर्णोद्धार हुआ, तब मैंने कभी शब्द \"अनाबाप्टिस्ट\" नहीं सुना था।"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "3c581136-51cf-47b2-a38b-3d1ee1d0b864",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -62,18 +61,45 @@
         },
         "total_tokens": 9913
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 640,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6387,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7027
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<p>When I entered the kitchen, Judy lay on the floor, jerking rhythmically. I had never seen anyone in a seizure before, but somehow, I just knew. She’s having a seizure!</p>",
-      "severity": "critical",
-      "source_quote": "I had never seen anyone in a seizure before, but somehow, I just knew.",
-      "suggested_fix": "Translate the English word \"somehow\" into Arabic to avoid leaving an untranslated substantive word in the body text. Example fixes that preserve meaning and tone: \"لم أرَ أحدًا في نوبة تشنج من قبل، لكن بطريقة ما عرفت ذلك فورًا.\" or \"لم أرَ أحدًا في نوبة تشنج من قبل، لكنني دون أن أعرف كيف عرفت فورًا.\" Replace the untranslated English word only, keeping the rest of the sentence as in the translation.",
-      "translation_quote": "لم أرَ أحدًا في نوبة تشنج من قبل، لكن somehow، عرفته فورًا. إنها في نوبة تشنج!"
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "SISTER TO SISTER",
+      "suggested_fix": "Use a more idiomatic/standard Arabic rendering of the section title. Consider \"أخت لأخت\" or \"من أخت إلى أخت\" to better mirror the English idiom and read more naturally in Modern Standard Arabic.",
+      "translation_quote": "أخت إلى أخت"
+    },
+    {
+      "location": "paragraph mentioning AVM",
+      "severity": "minor",
+      "source_quote": "The neurosurgeon said Judy had an AVM",
+      "suggested_fix": "Clarify the Arabic technical term for AVM (arteriovenous malformation) to a more standard medical phrasing in Arabic. For example: \"يوجد لديها تشوه شرياني وريدي خلقي (AVM)\" or \"تَشَوُّه شِرْيَانِي-وارِيدي (AVM)\". This preserves the acronym while providing the conventional Arabic medical term.",
+      "translation_quote": "قال جراح الأعصاب إن لدى جودي تشابكا وعائياً شريانيًا وريديًا (AVM) وحاول أن يشرح ما هو ذلك"
     }
   ],
+  "finished_at": "2026-10-02T13:03:21+00:00",
   "id": "89d6d439c183d75d61a3345776da6410",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ara",
@@ -147,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 40,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/3eb2e8fac297406d71e2a495d876bb17af55171cebc6261c77bdfbb7e9c2311e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "f2478f0ee567de50716f2f909dafecb28388c4d5ba9651d1eee51ca0878db9fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

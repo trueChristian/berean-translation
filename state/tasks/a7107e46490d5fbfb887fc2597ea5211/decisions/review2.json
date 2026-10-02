@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<p>...si assicurò che suo figlio Joseph ricevessse una buona istruzione. Iniziò gli studi nella sua città natale...",
+      "severity": "minor",
+      "source_quote": "He commenced his studies in his hometown of Milston, in Wiltshire, England.",
+      "suggested_fix": "Fix a typographical error: change \"ricevessse\" to \"ricevesse\" to correct Italian spelling.",
+      "translation_quote": "si assicurò che suo figlio Joseph ricevessse una buona istruzione. Iniziò gli studi nella sua città natale di Milston, nel Wiltshire, Inghilterra."
+    },
+    {
+      "location": "<section class=\"lyrics\"> stanza 9",
+      "severity": "minor",
+      "source_quote": "Ten thousand thousand precious gifts\nMy daily thanks employ;",
+      "suggested_fix": "The literal rendering \"Diecimila diecimila doni preziosi\" is awkward in Italian. Suggest a more idiomatic translation that preserves emphasis, e.g. \"Diecimila per diecimila doni preziosi\" or \"Innumerevoli doni preziosi\" depending on desired level of literalness.",
+      "translation_quote": "Diecimila diecimila doni preziosi\nLe mie grazie quotidiane occupano;"
+    },
+    {
+      "location": "<p>...il giovane autore dell'inno di 13 anni incontrò e divenne il migliore amico di Richard Steele...",
+      "severity": "minor",
+      "source_quote": "While in school around 1685, the 13-year-old hymn writer met and became best of friends with Richard Steele, the two of them being only a few months apart in age.",
+      "suggested_fix": "The Italian phrasing \"il giovane autore dell'inno di 13 anni incontrò\" is slightly awkward. Suggest rephrasing for clarity, e.g. \"Mentre era a scuola, intorno al 1685, il giovane autore dell'inno, allora quattordicenne (o 'di 13 anni'), incontrò e divenne il migliore amico di Richard Steele...\" (keep the age as 13 as in source).",
+      "translation_quote": "Mentre era a scuola, intorno al 1685, il giovane autore dell'inno di 13 anni incontrò e divenne il migliore amico di Richard Steele, i due essendo separati da pochi mesi di età."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

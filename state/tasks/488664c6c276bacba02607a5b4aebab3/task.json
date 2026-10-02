@@ -2,7 +2,6 @@
   "article_id": "d2d95264-7df9-4ca8-9a99-01a68204d73a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b05469873874dfab0507935a66bfc42",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:56+00:00",
   "events": [
@@ -62,32 +61,45 @@
         },
         "total_tokens": 4975
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 867,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3060,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3927
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "<article> first paragraph",
-      "severity": "major",
-      "source_quote": "I would sit with the condemned men and listen as they talked of their plight.",
-      "suggested_fix": "Translate the phrase to match the source meaning without adding a specific punishment. Use a neutral term like «السجناء المحكوم عليهم» or «المحكومين» instead of «المحكومين بالإعدام». Preserve sentence structure and meaning.",
-      "translation_quote": "كنت أجلس مع المحكومين بالإعدام وأستمع إليهم وهم يتحدثون عن محنتهم."
-    },
-    {
-      "location": "<article> paragraph quoting Mark 8:34",
-      "severity": "major",
-      "source_quote": "\"Whosoever will come after me, let him deny himself, and take up his cross and follow me\" (Mark 8:34).",
-      "suggested_fix": "Remove the added phrase that is not in the English source. Translate only the cited verse as printed in the source. For example: «قال لهم: إن أراد أحد أن يأتي ورائي فليُنكر نفسه ويحمل صليبه ويتبعني» or simply «إن أراد أحد أن يأتي ورائي فليُنكر نفسه ويحمل صليبه ويتبعني» while keeping the reference (مرقس 8:34).",
-      "translation_quote": "«فقال لجموع الناس ولمعلمين الناموس: إن أراد أحد أن يأتي ورائي فليُنكر نفسه ويحمل صليبه ويتبعني» (مرقس 8:34)."
-    },
-    {
-      "location": "<article> paragraph containing Romans 8:24 explanation",
+      "location": "Paragraph 1 (source.html first <p>)",
       "severity": "minor",
-      "source_quote": "This word hope means \"with anticipation or great expectation.\"",
-      "suggested_fix": "Render the explanatory gloss smoothly in Arabic without repeating the root. For example: «كلمة الرجاء هنا تعني توقّعًا كبيرًا أو ترقّبًا شديدًا.»",
-      "translation_quote": "كلمة الرجاء هنا تعني «بتوقّع أو بتوقع عظيم»."
+      "source_quote": "Almost without exception, all spoke of hoping to get out of prison one day.",
+      "suggested_fix": "Use a more natural Arabic rendering of \"Almost without exception\". Replace \"وبالكاد باستثناءٍ، كلهم تحدثوا\" with a clearer phrase such as: \"تقريبًا دون استثناء، تحدث جميعهم\" (preserve surrounding HTML).",
+      "translation_quote": "وبالكاد باستثناءٍ، كلهم تحدثوا عن الأمل في الخروج من السجن يومًا ما."
+    },
+    {
+      "location": "Paragraph 7 (source.html seventh <p>)",
+      "severity": "minor",
+      "source_quote": "We do not work for our salvation, for Christ Himself said, “It is finished.”",
+      "suggested_fix": "The quoted phrase \"It is finished.\" is doctrinally fine but the Arabic «كملت» is slightly terse/colloquial in some registers. If a slightly more formal/standard phrasing is preferred, consider: «قَد أُكْمِلَت» or «قَد أَتَمَّ» while preserving the quotation marks and HTML structure.",
+      "translation_quote": "نحن لا نعمل من أجل خلاصنا، لأن المسيح نفسه قال: «كملت»."
     }
   ],
+  "finished_at": "2026-10-02T13:03:20+00:00",
   "id": "488664c6c276bacba02607a5b4aebab3",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ara",
@@ -161,13 +173,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8a99b566d1f7a4b71f671efc977b9e895b89fc48e4520caf1214f243e2083ab5.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d21eb9a2e384c54d8451d42bc7b07528a6bfe6b701385ff6d901ec268b981022",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

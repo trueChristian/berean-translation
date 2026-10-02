@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b1107db9-6197-4a45-b42a-e43d0277c056",
+    "response_id": "chatcmpl-EUXAbNaWMhxpzBCll7ZJ9GjUKyNQ0",
+    "usage": {
+      "completion_tokens": 691,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8324,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9015
+    }
+  },
+  "received_at": "2026-10-02T13:03:21+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> first <p class=\"lead\">",
+        "severity": "minor",
+        "source_quote": "I doubt that there is a soul alive that has not been offended at one time or another.",
+        "suggested_fix": "Render the idiom more naturally in contemporary German while preserving meaning. Suggested German: \"Ich bezweifle, dass es eine lebende Seele gibt, die nicht irgendwann einmal beleidigt worden ist.\" Replace text inside the same paragraph element.",
+        "translation_quote": "Ich bezweifle, dass es eine lebende Seele gibt, die nicht einmal mehr oder weniger beleidigt worden ist."
+      },
+      {
+        "location": "<title> and <article> headings",
+        "severity": "minor",
+        "source_quote": "Nothing Shall Offend Them",
+        "suggested_fix": "Use a more idiomatic, theologically neutral German title that preserves the English sense. Suggested German: \"Nichts wird ihnen Anstoß geben\" or \"Nichts soll ihnen Anstoß sein\". Replace the content of the <title> element and the article's top-level title text accordingly.",
+        "translation_quote": "Nichts wird sie anstoßen"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

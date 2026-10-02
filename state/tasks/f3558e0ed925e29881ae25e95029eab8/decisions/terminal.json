@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph under 'Преобладание шипов и колючек' (paragraph listing example plants)",
+      "severity": "minor",
+      "source_quote": "Blessed Thistle, Milk Thistle, Teasel, Raspberry Leaf, and Blackberry roots",
+      "suggested_fix": "Translate or localize the English plant names (or remove the redundant English in parentheses). For example: «чертополох благословенный (Blessed Thistle)» → «чертополох благословенный» OR «чертополох (Blessed Thistle)» — preferably render all names in standard Russian equivalents or keep only Russian names consistently.",
+      "translation_quote": "чертополох благословенный (Blessed Thistle), расторопша (Milk Thistle), репейник (Teasel), лист малины (Raspberry Leaf) и корни ежевики (Blackberry roots)"
+    },
+    {
+      "location": "Paragraph under 'Болезни' (sentence about guilt and conscience)",
+      "severity": "minor",
+      "source_quote": "God never designed mankind to bear guilt. He wants us to have and keep our conscience clear because He knows that a guilty conscience can make you sick!",
+      "suggested_fix": "Improve idiomatic flow in Russian while preserving meaning. For example: replace «Бог никогда не сделал людей для того, чтобы они несли вину.» with «Бог не создал человека для того, чтобы он жил во греховной вине.» or «Бог не предназначил человека для того, чтобы он носил в себе вину.» This preserves theology but reads more naturally in contemporary Russian.",
+      "translation_quote": "Бог никогда не сделал людей для того, чтобы они несли вину. Он хочет, чтобы мы имели и сохраняли чистую совесть, потому что Он знает, что виновная совесть может сделать тебя больным!"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

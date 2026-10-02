@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<section class=\"lyrics\"> stanza: \"Through hidden dangers, toils, and deaths, / It gently cleared my way;\"",
+      "severity": "minor",
+      "source_quote": "\"Through hidden dangers, toils, and deaths, / It gently cleared my way;\"",
+      "suggested_fix": "Consider a more idiomatic Portuguese rendering for 'toils' (e.g. 'fadigas' or 'labores') to improve naturalness while preserving meaning: \"Através de perigos ocultos, fadigas e mortes, / Ele suavemente abriu meu caminho;\". Keep HTML structure and tags unchanged.",
+      "translation_quote": "\"Através de perigos ocultos, trabalhos e mortes, / Ele suavemente desobstruiu meu caminho;\""
+    },
+    {
+      "location": "<p>paragraph that mentions burial location: \"He is buried in the Poet's Corner of Westminster Abbey.\"",
+      "severity": "minor",
+      "source_quote": "\"He is buried in the Poet's Corner of Westminster Abbey.\"",
+      "suggested_fix": "'Poet's Corner' is an established proper name in English and may be left untranslated, but for readers who prefer Portuguese localization you could render it as 'Poet's Corner (Canto dos Poetas) da Abadia de Westminster' or 'no Poet's Corner da Abadia de Westminster' to clarify. This is optional and not required for fidelity. Preserve tags and sentence structure.",
+      "translation_quote": "\"Está enterrado no Poet's Corner da Abadia de Westminster.\""
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

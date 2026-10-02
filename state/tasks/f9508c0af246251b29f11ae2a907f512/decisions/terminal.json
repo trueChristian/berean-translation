@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<article> first <p class=\"lead\">",
+      "severity": "minor",
+      "source_quote": "I doubt that there is a soul alive that has not been offended at one time or another.",
+      "suggested_fix": "Render the idiom more naturally in contemporary German while preserving meaning. Suggested German: \"Ich bezweifle, dass es eine lebende Seele gibt, die nicht irgendwann einmal beleidigt worden ist.\" Replace text inside the same paragraph element.",
+      "translation_quote": "Ich bezweifle, dass es eine lebende Seele gibt, die nicht einmal mehr oder weniger beleidigt worden ist."
+    },
+    {
+      "location": "<title> and <article> headings",
+      "severity": "minor",
+      "source_quote": "Nothing Shall Offend Them",
+      "suggested_fix": "Use a more idiomatic, theologically neutral German title that preserves the English sense. Suggested German: \"Nichts wird ihnen Anstoß geben\" or \"Nichts soll ihnen Anstoß sein\". Replace the content of the <title> element and the article's top-level title text accordingly.",
+      "translation_quote": "Nichts wird sie anstoßen"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
