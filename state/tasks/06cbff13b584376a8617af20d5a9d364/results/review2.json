@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3e6d4b43-2609-9fa9-8d76-4ebcb5c6bd31",
+    "response_id": "chatcmpl-EUL87Ip5CrB7pxMBSprhMjdpiQS9j",
+    "usage": {
+      "completion_tokens": 1157,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6631,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7788
+    }
+  },
+  "received_at": "2026-10-02T00:12:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing Colossians quote (near middle of article)",
+        "severity": "critical",
+        "source_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible, whether they be thrones, or dominions, or principalities, or powers: all things were created by him, and for him” (Colossians 1:16).",
+        "suggested_fix": "Replace the current Russian rendering of the Colossians quotation with a faithful translation of the exact English text printed in the source (KJV wording). For example, preserve the HTML paragraph tags and replace only the inner quoted text with a literal Russian rendering of the KJV line, keeping the verse reference in parentheses. Suggested replacement text (exactly inside the same <p>…</p> where the quote appears):\n\n“Ибо им созданы все вещи, что на небесах и что на земле, видимые и невидимые, — либо престолы, либо господства, либо начальства, либо власти; всё им и для Него создано” (Colossians 1:16).\n\n(Keep the surrounding <p> tags and the parenthetical verse citation exactly as in the source.)",
+        "translation_quote": "“Всем через Него и для Него создано, и Он — прежде всех, и всё во Нём держится” (Colossians 1:16)."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

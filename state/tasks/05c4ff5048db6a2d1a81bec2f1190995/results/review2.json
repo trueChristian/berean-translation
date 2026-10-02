@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "53b2a96c-716a-4b7e-8fc2-fe5d8e12b659",
+    "response_id": "chatcmpl-EUL82f8mCAUGVg0iaKkEtJEyVIqgg",
+    "usage": {
+      "completion_tokens": 1592,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1088,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6645,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8237
+    }
+  },
+  "received_at": "2026-10-02T00:12:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing John 4 quotation (near John 4:14)",
+        "severity": "major",
+        "source_quote": "“Jews have no dealings with the Samaritans.”",
+        "suggested_fix": "Replace the corrupted Russian phrase with an accurate translation. For example: «Иудеи не имеют общения с самаритянами.» Preserve punctuation and include the parenthetical English if required by the publisher: («Jews have no dealings with the Samaritans.»).",
+        "translation_quote": "«Иудеи не имеют соскобов общения с самарянами» («Jews have no dealings with the Samaritans.»)."
+      },
+      {
+        "location": "Paragraph quoting Job 6:5 (Job 6:5)",
+        "severity": "minor",
+        "source_quote": "“Doth the wild ass bray when he hath grass? Or loweth the ox over his fodder?” (Job 6:5)",
+        "suggested_fix": "Use the standard Russian verb for the donkey's cry to avoid misleading imagery. For example: replace «ржёт» with «ревёт» or «иѐр» (more literary: «осёл ревёт» or «осёл икает/реет» depending on preferred style). A recommended rendering: «Разве дикий осёл ревёт, имея траву? Или мычит вол, питаясь?»",
+        "translation_quote": "«Разве дикий осёл ржёт, имея траву? Или мычит вол, питаясь?» (Job 6:5)."
+      },
+      {
+        "location": "Paragraph about the cowbird (cowbird)",
+        "severity": "minor",
+        "source_quote": "“The cowbird is also black (the female is brown/gray). She will be found sitting on a high vantage…”",
+        "suggested_fix": "Consider using a more idiomatic Russian common name for cowbird (e.g. «американская коровушка» or «кукушечник» if the editorial style prefers a conventional ornithological name). If literal form is preferred, keep «коровий воробей», but ensure consistency with other bird names in the article.",
+        "translation_quote": "«Коровий воробей (cowbird) тоже чёрная (самка — коричнево-серая). Её можно найти на высокой точке обзора…»"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

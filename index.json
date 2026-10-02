@@ -4387,6 +4387,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
+      "html_sha256": "89b2103a296a48e6de29d0a379e20d944a208cec41652746670b7c438bf0d27c",
+      "human_reviewed": false,
+      "id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
+      "images": [
+        {
+          "alt": "Розовые и белые цветы вики корончатой на зелёном лугу",
+          "public_path": "/images/articles/52074824-2feb-4fe4-96d0-a08ec72c3565-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.json",
+      "metadata_sha256": "67a824c0300dd7b3f1703c7a8c0fcc5b83164b1b076d46253066cc2354eb5eed",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "От редактора",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "От редактора",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.html",
       "html_sha256": "1b19c2742bbcd8e798e9939ab97401989f55a091a70390d49591fc8ea795b572",
       "human_reviewed": false,
