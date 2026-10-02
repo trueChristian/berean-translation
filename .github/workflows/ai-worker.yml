@@ -25,7 +25,7 @@ on:
     # the top of the hour; GitHub does not guarantee scheduled start times.
     - cron: '7,22,37,52 * * * *'
   workflow_run:
-    workflows: ["AI — OpenAI", "AI — Review"]
+    workflows: ["AI — OpenAI", "AI — Review", "AI — Recover candidates"]
     types: [completed]
   push:
     branches: [main]

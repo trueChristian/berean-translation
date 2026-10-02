@@ -68,6 +68,23 @@ class GitStore:
             parent = remote
         raise ContractError('Main kept advancing; no external API side effect may proceed without a durable checkpoint')
 
+    def require_published_checkpoint(self) -> None:
+        """Read-only confirmation for terminal abort retries with no new diff.
+
+        A failed push can leave an already-created local commit. Ordinary
+        checkpoint() has no staged change to retry in that case; never report a
+        terminal abort as durable unless origin contains that exact commit.
+        """
+        if not self.publish:
+            return
+        self.git('fetch', 'origin', 'main')
+        head = self.git('rev-parse', 'HEAD').stdout.strip()
+        remote = self.git('rev-parse', 'origin/main').stdout.strip()
+        if self.git('merge-base', '--is-ancestor', head, remote, check=False).returncode:
+            raise ContractError('Terminal abort checkpoint is still local, not published on origin/main. '
+                                'Run cancel for the same campaign from a fresh main checkout; '
+                                'retain the failed checkout for audit. No allocation was released.')
+
     def human_edit_evidence(self, relative: str) -> dict:
         result = self.git('log','-1','--format=%H%n%an%n%ae%n%cI','--',relative).stdout.splitlines()
         if len(result) != 4 or '[bot]' in (result[1] + result[2]).lower():

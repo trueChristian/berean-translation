@@ -199,7 +199,8 @@ class State:
         rows += ['', '## Campaigns', '', '| Request | Trigger | Operation | Status | Tasks | Reported usage (USD) | Reserved ceiling (USD) | Report |',
                  '| --- | --- | --- | --- | ---: | ---: | ---: | --- |']
         for campaign in self.campaigns():
-            trigger = 'source refresh' if campaign.get('source_refresh') else 'manual'
+            trigger = ('exact recovery' if campaign.get('recovery_of_campaign') else
+                       'source refresh' if campaign.get('source_refresh') else 'manual')
             rows.append(f'| `{campaign["id"]}` | {trigger} | {campaign["operation"]} | {campaign["status"]} | {len(campaign.get("tasks",[]))} | '
                         f'{campaign.get("reported_usage_usd",0):.8f} | '
                         f'{campaign.get("reserved_usd",0):.6f} / {campaign["budget_usd"]:.2f} | '
