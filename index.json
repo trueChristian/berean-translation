@@ -3507,6 +3507,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
+      "html_sha256": "e52c9a9bd0ea2f2bd6bd03e51115f079b6e5d241ab0dbe4a6bd0e01f677e62e9",
+      "human_reviewed": false,
+      "id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
+      "images": [
+        {
+          "alt": "Un sendero estrecho serpenteando por un bosque frondoso",
+          "public_path": "/images/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.json",
+      "metadata_sha256": "2795c07cf397a6d5bb47db0aca1e1f97b30899381ccfcb2172a56f21595baeeb",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Rincón Infantil",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Jamin se vuelve listo",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f.html",
       "html_sha256": "2a2f8dd9c81b0046be00a436e05afd01a31ed7c0ed247271fb25b32e56b41004",
       "human_reviewed": false,
@@ -3530,6 +3558,62 @@
       "status": "ready",
       "subtitle": null,
       "title": "La gloria de la primavera",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
+      "html_sha256": "12883f776ba6820bb361afa1d79946fe3b99d8ca786863a7ed50adb6b66e804e",
+      "human_reviewed": false,
+      "id": "db7b1129-282d-4f48-aefa-f839cb585426",
+      "images": [
+        {
+          "alt": "Una secuencia de plántulas emergiendo del suelo mientras una mano las riega",
+          "public_path": "/images/articles/db7b1129-282d-4f48-aefa-f839cb585426-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/db7b1129-282d-4f48-aefa-f839cb585426.json",
+      "metadata_sha256": "61fb5bd1544f8b5b10d9dbea9f2c7c3818aea22df0f57d2b8248e27a5f5ede49",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "REFLEXIONES DE UN MISIONERO",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "El humanista cristiano",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.html",
+      "html_sha256": "d373f02b331211cf0346ccfbb970cc7c0e89d06567d201474b169b0796fba656",
+      "human_reviewed": false,
+      "id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
+      "images": [
+        {
+          "alt": "Un pequeño bote en el borde de aguas calmadas durante una atardecer vívido",
+          "public_path": "/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.json",
+      "metadata_sha256": "9d800032cf2b13a48516d5b9d4931b74b0b49c74aa35f9e7d007d33ffa63beb8",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Poema",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Levantaos y alegraos",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
