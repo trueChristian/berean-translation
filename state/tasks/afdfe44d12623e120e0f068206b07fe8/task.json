@@ -2,7 +2,6 @@
   "article_id": "62646d6d-87be-47a6-880f-0ade408a3402",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:44+00:00",
   "events": [
@@ -62,31 +61,66 @@
         },
         "total_tokens": 6333
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1795,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3343,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5138
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "<p> ... Καθώς γράφω αυτό, οι Μουσουλμάνοι βρίσκονται στη μέση του Ραμαζανιού, ενός μηνιαίου τέμένους νηστείας. Νηστεύουν ...</p>",
+      "location": "Second paragraph — Psalm quotation",
       "severity": "major",
-      "source_quote": "As I write this, Muslims are in the middle of Ramadan, a month-long season of fasting.",
-      "suggested_fix": "Replace the mistranslated phrase with a correct rendering. Example: \"Καθώς γράφω αυτό, οι Μουσουλμάνοι βρίσκονται στη μέση του Ραμαζανιού, μιας μηνιαίας περιόδου νηστείας.\" Preserve existing HTML tags and attributes.",
-      "translation_quote": "Καθώς γράφω αυτό, οι Μουσουλμάνοι βρίσκονται στη μέση του Ραμαζανιού, ενός μηνιαίου τέμένους νηστείας."
+      "source_quote": "“Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9).",
+      "suggested_fix": "Render the quoted English verse into contemporary Modern Greek while preserving the exact reference (Psalms 98:8-9). Keep the surrounding HTML and punctuation unchanged. Example (do not insert this verbatim if you prefer equivalent wording): “Ας χειροκροτήσουν τα νερά· ας αγαλλιάσουν μαζί οι λόφοι ενώπιον του ΚΥΡΙΟΥ· επειδή έρχεται ο Κύριος να κρίνει τη γη· με δικαιοσύνη θα κρίνει τον κόσμο, και τους λαούς με ευθύτητα” (Psalms 98:8-9). Ensure the translation conveys the printed English wording and leaves the citation unchanged.",
+      "translation_quote": "“Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9)."
     },
     {
-      "location": "<p class=\"drop-cap\">Η άνοιξη ... Τα «άνοιξήρικα» βατραχάκια ...</p>",
-      "severity": "minor",
-      "source_quote": "This year the spring peepers in our area were “winter peepers” as they feebly squeaked their greetings to the arriving spring in mid-February.",
-      "suggested_fix": "Use an established Modern Greek term or a clear descriptive translation for 'spring peepers' instead of the coined form «άνοιξήρικα». Example: \"Φέτος τα μικρά ανοιξιάτικα βατραχάκια (spring peepers) στην περιοχή μας ήταν...\" — or simply \"...τα μικρά βατραχάκια της άνοιξης...\" Preserve the HTML structure.",
-      "translation_quote": "Φέτος τα «άνοιξήρικα» βατραχάκια στην περιοχή μας ήταν «χειμωνιάτικα βατραχάκια», καθώς ασθενικά τσίριζαν τους χαιρετισμούς τους στην επερχόμενη άνοιξη στα μέσα Φεβρουαρίου."
+      "location": "Third paragraph — John quotation",
+      "severity": "major",
+      "source_quote": "“well of water springing up into everlasting life” (John 4:14).",
+      "suggested_fix": "Translate the quoted English phrase into contemporary Modern Greek while preserving the citation (John 4:14). Preserve the surrounding HTML and punctuation. Example: “πηγή ύδατος που αναβλύζει για ζωή αιώνια” (John 4:14). Ensure the translation conveys the printed English wording.",
+      "translation_quote": "“well of water springing up into everlasting life” (John 4:14)."
     },
     {
-      "location": "<p class=\"drop-cap\">Η άνοιξη ... Τα μεταναστευτικά υδρόβια πουλιά φέρνουν νέους ήχους καθώς κορνάρουν και βγάζουν ενοχλητικούς ήχους ...</p>",
-      "severity": "minor",
-      "source_quote": "Migrating waterfowl bring new sounds as they honk and quack their way to their final nesting places.",
-      "suggested_fix": "Translate the onomatopoeic verbs more precisely to reflect 'honk and quack' rather than the general 'ενοχλητικούς ήχους'. Example: \"...καθώς κορνάρουν και κουάκ-κουάκ κάνουν στο δρόμο τους...\" or \"...καθώς κορνάρουν και κουρούνουν (quack) καθ' οδόν προς τις τελικές φωλιές τους.\" Preserve tags.",
-      "translation_quote": "Τα μεταναστευτικά υδρόβια πουλιά φέρνουν νέους ήχους καθώς κορνάρουν και βγάζουν ενοχλητικούς ήχους στο δρόμο τους προς τους τελικούς τόπους φωλιάσματος."
+      "location": "Poem blockquote — hymn text",
+      "severity": "major",
+      "source_quote": "Oh! Christ He is the foutain,\n    The deep sweet well of Love!\n    The streams on earth I’ve tasted,\n    More deep I’ll drink above:\n    There, to an ocean fullness,\n    His mercy doth expand,\n    And glory—glory dwelleth\n    In Immanuel’s land.",
+      "suggested_fix": "Translate the hymn stanza into contemporary Modern Greek (preserving lineation and the blockquote element) while keeping the original rhyme/poetic structure as much as idiomatic Greek allows. Do not alter the HTML tags. Example (illustrative): «Ω! Ο Χριστός είναι η πηγή,\n    Το βαθύ γλυκό πηγάδι της Αγάπης!\n    Τα ρεύματα στη γη που γεύτηκα,\n    Βαθύτερα θα πιω στον ουρανό:\n    Εκεί, σε ωκεάνια πληρότητα,\n    Η έλεός Του απλώνεται,\n    Και δόξα—δόξα κατοικεί\n    Στην γη του Εμμανουήλ.»",
+      "translation_quote": "Oh! Christ He is the foutain,\n    The deep sweet well of Love!\n    The streams on earth I’ve tasted,\n    More deep I’ll drink above:\n    There, to an ocean fullness,\n    His mercy doth expand,\n    And glory—glory dwelleth\n    In Immanuel’s land."
+    },
+    {
+      "location": "Paragraph quoting article “How to Increase Your Faith”",
+      "severity": "major",
+      "source_quote": "“Faith is one of the basic ingredients in getting right with God. We come into the Christian life (and receive the forgiveness of sins) through faith. . . We abandon all hope for saving ourselves by our own abilities, and instead, we put complete trust in Jesus Christ for our eternal safety.”",
+      "suggested_fix": "Translate the quoted English passage into contemporary Modern Greek, preserving the quotation marks and the attribution to the article title. Keep HTML structure intact. Example rendering should convey the exact assertions about faith and salvation (doctrinal content must be preserved).",
+      "translation_quote": "“Faith is one of the basic ingredients in getting right with God. We come into the Christian life (and receive the forgiveness of sins) through faith. . . We abandon all hope for saving ourselves by our own abilities, and instead, we put complete trust in Jesus Christ for our eternal safety.”"
+    },
+    {
+      "location": "Penultimate paragraph — Isaiah quotation",
+      "severity": "major",
+      "source_quote": "“For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11).",
+      "suggested_fix": "Translate the quoted English verse into contemporary Modern Greek while preserving the citation (Isaiah 61:11). Keep surrounding HTML and punctuation unchanged. Example: “Καθώς η γη βγάζει το βλαστό της, και ο κήπος φέρνει τα σπέρματα που σπέρθηκαν σ’ αυτόν· έτσι ο Κύριος Κύριος θα προκαλέσει τη δικαιοσύνη και τον έπαινο να αναβλύσουν ενώπιον όλων των εθνών” (Isaiah 61:11). Ensure the translation conveys the printed English meaning and leaves the scripture reference intact.",
+      "translation_quote": "“For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11)."
     }
   ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "afdfe44d12623e120e0f068206b07fe8",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "ell",
@@ -130,13 +164,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 60,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5455d2cd09d57a9e870ea92c4b7c08c9a0c8a2c68c077d639797bdc8f61c6072.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

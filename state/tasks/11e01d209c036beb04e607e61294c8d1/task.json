@@ -2,7 +2,6 @@
   "article_id": "cdb88be0-93b0-4362-bc3b-1488aff1a76f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:46+00:00",
   "events": [
@@ -62,38 +61,51 @@
         },
         "total_tokens": 3309
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1351,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1566,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2917
+      }
     }
   ],
   "findings": [
     {
-      "location": "<div class=\"poem\"> second stanza, line 2",
-      "severity": "major",
-      "source_quote": "I greet Thy going forth;",
-      "suggested_fix": "Translate the phrase idiomatically and grammatically in Afrikaans to convey the original meaning (greeting the Redeemer’s going forth). For example: \"Ek groet U in U uitgaan;\" or more smoothly, \"Ek groet U se uitgaan\" or \"Ek groet U se uitgaan (U wat te voorskyn treed)\" depending on intended nuance. Preserve the sense of greeting the Redeemer's going/coming forth rather than the current literal tokenization.",
-      "translation_quote": "Ek groet U uitgaan;"
+      "location": "<p>Goddelike Verlosser, U loof ek; <br>\n    Ek groet U in U uitgaan;<br>\n    Ek het U lief in die lieflikheid<br>\n    Van U vernieuwde aarde.</p>",
+      "severity": "minor",
+      "source_quote": "Divine Redeemer, Thee I bless;\n    I greet Thy going forth;\n    I love Thee in the loveliness\n    Of Thy renewed earth.",
+      "suggested_fix": "Prefer a more idiomatic rendering of “Thy going forth” in Afrikaans. For example: replace the second line with “Ek groet U in U optog” or “Ek groet U in U uitkoms” depending on intended nuance. Preserve HTML tags and line breaks.",
+      "translation_quote": "Goddelike Verlosser, U loof ek; \n    Ek groet U in U uitgaan;\n    Ek het U lief in die lieflikheid\n    Van U vernieuwde aarde."
     },
     {
-      "location": "<div class=\"poem\"> third stanza, line 1–3",
+      "location": "<p>Maar O, hierdie wonders van U genade,<br>\n    Hierdie edeler werke van U,<br>\n    Hierdie wonderwerke wat soveel liefliker is om te volg,<br>\n    Hierdie nuwe geboortes meer goddelik:</p>",
       "severity": "minor",
-      "source_quote": "But O these wonders of Thy grace,\nThese nobler works of Thine,\nThese marvels sweeter far to trace,",
-      "suggested_fix": "Smooth the Afrikaans phrasing and avoid repeating 'wonders/wonderwerke' twice. A clearer rendering: \"Maar o, hierdie wonders van U genade, hierdie edeler werke van U, hierdie wonders wat soveel liefliker is om na te volg,\" or \"... hierdie wonders wat soveel liefliker is om op te spoor.\" Preserve the meaning while improving idiom.",
-      "translation_quote": "Maar O, hierdie wonders van U genade,\nHierdie edeler werke van U,\nHierdie wonderwerke wat soveel liefliker is om te volg,"
+      "source_quote": "But O these wonders of Thy grace,\n    These nobler works of Thine,\n    These marvels sweeter far to trace,\n    These new births more divine:",
+      "suggested_fix": "Line 3 is somewhat awkward in Afrikaans. A clearer alternative that preserves meaning: “Hierdie wonderwerke, veel liefliker om na te volg,” or “Hierdie wondezake, soveel liefliker om te beskryf.” Keep original HTML structure.",
+      "translation_quote": "Maar O, hierdie wonders van U genade,\n    Hierdie edeler werke van U,\n    Hierdie wonderwerke wat soveel liefliker is om te volg,\n    Hierdie nuwe geboortes meer goddelik:"
     },
     {
-      "location": "<div class=\"poem\"> fifth stanza, line 2–3",
+      "location": "<p>Hierdie pasgebore ekstase van gesang,<br>\n    En die geurigheid van gebed!</p>",
       "severity": "minor",
-      "source_quote": "Creator Spirit, work in me\nThese wonders sweet of Thine;",
-      "suggested_fix": "Improve word order and register for natural Afrikaans. For example: \"Skeppergees, werk in my hierdie soete wonders van U;\" or \"Skeppergees, werk in my hierdie lieflike wonders van U.\" Keep 'Skeppergees' and 'werk in my' and preserve the appeal to the Spirit.",
-      "translation_quote": "Skepper-Gees, werk in my\nHierdie soet wonderwerke van U;"
-    },
-    {
-      "location": "<div class=\"poem\"> fifth stanza, line 4",
-      "severity": "minor",
-      "source_quote": "Divine Redeemer, graciously\nRenew this heart of mine.",
-      "suggested_fix": "Correct Afrikaans word order and placement of 'genadig' (or use 'genadiglik' or comma). For example: \"Goddelike Verlosser, vernuwe genadiglik hierdie hart van my.\" Or: \"Goddelike Verlosser, vernuwe hierdie hart van my, genadig.\" This will read more naturally while preserving meaning.",
-      "translation_quote": "Goddelike Verlosser, vernuwe genadig\nHierdie hart van my."
+      "source_quote": "This new-born ecstasy of song,\n    And fragrancy of prayer!",
+      "suggested_fix": "“Geurigheid” is uncommon in contemporary Afrikaans; consider “geur” or “ruik” for a more natural idiom, e.g. “En die geur van gebed!” Preserve the tags and line break.",
+      "translation_quote": "Hierdie pasgebore ekstase van gesang,\n    En die geurigheid van gebed!"
     }
   ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "11e01d209c036beb04e607e61294c8d1",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "afr",
@@ -137,13 +149,13 @@
     }
   },
   "protected": false,
-  "quality_score": 86,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/77e936fd3992ec154fecd4e753dcaf1c210f965f21cd72ac0e78032ca820afc1.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "15ac9c1b97edbe073ae811f5fd305d02a68542aeb9f44f03ca5e9732f904625a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

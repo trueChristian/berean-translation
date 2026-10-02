@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5c315e1b-13fe-408d-a793-56da6efec24c",
+    "response_id": "chatcmpl-EULAOgzNWFMaar64DtTZ93NrXLf4K",
+    "usage": {
+      "completion_tokens": 1198,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1628,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2826
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Divine Redeemer, Thee I bless; I greet Thy going forth; I love Thee in the loveliness Of Thy renewed earth.</p>",
+        "severity": "minor",
+        "source_quote": "Divine Redeemer, Thee I bless; I greet Thy going forth; I love Thee in the loveliness Of Thy renewed earth.",
+        "suggested_fix": "Use a more idiomatic and theologically natural Bengali rendering for “Divine Redeemer” and for “loveliness.” Preserve the original meaning and tone. Suggested change: replace “দিব্য মোচক” with “দিব্য মুক্তিদাতা” or “দিব্য মোচনকর্তা”, and replace “এই সুন্দরীতায়—” with “এই সৌন্দর্যে—”. Keep the surrounding HTML and line breaks unchanged.",
+        "translation_quote": "দিব্য মোচক, আপনাকে আমি বন্দনা করি; আমি আপনার প্রস্থানকে স্বাগত জানাই; আমি আপনাকে ভালোবাসি এই সুন্দরীতায়— আপনার পুনর্নবীকৃত পৃথিবীতে।"
+      },
+      {
+        "location": "<p>Still, let new life and strength upspring, Still, let new joy be given; And grant the glad new song to ring Through the new earth and Heaven.</p>",
+        "severity": "minor",
+        "source_quote": "Still, let new life and strength upspring, Still, let new joy be given; And grant the glad new song to ring Through the new earth and Heaven.",
+        "suggested_fix": "“Still” here conveys continuation or recurrence rather than the sense of “forever.” Replace “চিরতরে” with a word or phrase that preserves the sense of continuation such as “এখনও” or “তবে/তবু” (or “আবারও”) depending on preferred tone. For example: “অবশ্যই, করো নতুন জীবন ও শক্তির উদ্ভব” or “এখনও করো নতুন জীবন ও শক্তির উদ্ভব”. Keep HTML structure unchanged.",
+        "translation_quote": "চিরতরে, করো নতুন জীবন আর শক্তির উদ্ভব, করো নতুন আনন্দ প্রদত্ত হোক; এবং দাও সেই আনন্দময় নতুন গানটি শুনিয়ে যাও—নতুন পৃথিবী ও স্বর্গ জুড়ে প্রতিধ্বনিত হোক।"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "cc8100cf-88f7-48b6-af4c-8e15c3531d51",
+    "response_id": "chatcmpl-EUL9wzehO42KASoWl1FMpGt4fHojs",
+    "usage": {
+      "completion_tokens": 1357,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8315,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9672
+    }
+  },
+  "received_at": "2026-10-02T00:14:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning \"Satan is cruel. In John 10:10, Jesus said\" (source.html) / Paragraph beginning \"Сатана жесток. В 1 Иоанна 10:10 Иисус сказал\" (translation.html)",
+        "severity": "major",
+        "source_quote": "Satan is cruel. In John 10:10, Jesus said, “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy” all godly relationships.",
+        "suggested_fix": "Correct the Scripture citation in the translation to match the source. Replace the phrase “В 1 Иоанна 10:10 Иисус сказал” with a rendering that cites the Gospel of John (chapter 10, verse 10). Preserve HTML and surrounding text exactly. For example: \"В Евангелии от Иоанна 10:10 Иисус сказал: «вор приходит...\" or if keeping the original English book name style used elsewhere: \"В John 10:10 Иисус сказал: ...\" Ensure the citation refers to John 10:10 (Иоанна 10:10), not 1 John.",
+        "translation_quote": "Сатана жесток. В 1 Иоанна 10:10 Иисус сказал: “дьявол старается похищать, убивать и губить; он хочет украсть вашу чистоту, погубить ваш характер и разрушить” все богобоязненные отношения."
+      },
+      {
+        "location": "Throughout article (multiple Scripture citations)",
+        "severity": "minor",
+        "source_quote": "Examples: “Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent...”(Philippians 1:10). “Keep thyself pure” (1Timothy 5:22). \"Cleanse first the inside of the cup...\" (Matthew 23:26). Hebrews 4:13; Numbers 32:23; James 1:15; etc.",
+        "suggested_fix": "Normalize the presentation of biblical book names and references so they consistently reflect the source's printed form. The source uses English book names in parentheses (e.g. \"(Matthew 5:8)\", \"(Philippians 1:10)\", \"(1Timothy 5:22)\"). The translation mixes English-form citations (Matthew, Philippians, 1Timothy) with fully Russianized references (Матфея, 1 Иоанна, Матфея, Евреям, Числа, Иаков). Choose one consistent approach that preserves the source's printed citations. If you localize book names to Russian, ensure every citation is converted accurately (e.g. Matthew → Матфея; Philippians → Филиппийцам; 1Timothy → 1 Тимофею; Hebrews → Евреям; Numbers → Числа; James → Иакова) and that no chapter/verse numbers are altered. Alternatively, keep the English book names exactly as in the source. Update all instances to the chosen consistent form while preserving HTML and surrounding punctuation.",
+        "translation_quote": "Examples of mixed forms in the translation: “Блаженны чистые сердцем” (Matthew 5:8). “Чтобы вы различали благо...”(Philippians 1:10). “Храни себя чистым” (1Timothy 5:22). И далее: Иисус учил в Матфея 23:26; Евреям 4:13; Числа 32:23; Иаков 1:15."
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

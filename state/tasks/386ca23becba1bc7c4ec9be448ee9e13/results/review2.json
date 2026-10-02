@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "36fc0943-d15d-4a73-8765-f869d6e42f54",
+    "response_id": "chatcmpl-EULADomVCo7YDr3hZOJv1Wfv2cDAp",
+    "usage": {
+      "completion_tokens": 1157,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9224,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10381
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "major",
+        "source_quote": "The Sands of Time Are SINKING",
+        "suggested_fix": "Translate the image of 'sands of time' literally/idiomatically. For example, replace title text node with: The Sands of Time Are SINKING -> \"Mchanga wa Nyakati Unazama\" (preserve capitalization style used on site). Do not change HTML tags or attributes; only replace the title text.",
+        "translation_quote": "Mwangaza wa Muda Unazama"
+      },
+      {
+        "location": "source.html — hymn stanza 1 (opening line)",
+        "severity": "major",
+        "source_quote": "The sands of time are sinking,",
+        "suggested_fix": "Render the opening hymn line to preserve the 'sands of time' image. Replace the stanza's first line text node with: \"The sands of time are sinking,\" -> \"Mchanga wa nyakati unazama,\" (preserve stanza tags and emphasis/strong markup).",
+        "translation_quote": "Mwangaza wa nyakati unazama,"
+      },
+      {
+        "location": "source.html — life anecdote (rescue from well)",
+        "severity": "minor",
+        "source_quote": "\"A bonny white man came and drew me out of the well.\"",
+        "suggested_fix": "Use a natural Kiswahili verb for 'drew me out' (meaning rescued/extracted). Replace the quoted translation with: \"'Mtu mweupe mzuri alikuja akaninutoa kwenye kisima.'\" (preserve the quotation marks and paragraph tags).",
+        "translation_quote": "\"Mtu mweupe mzuri alikuja akaninogoa kutoka kwenye kisima.\""
+      },
+      {
+        "location": "source.html — opening paragraph (phrase meaning)",
+        "severity": "minor",
+        "source_quote": "He uses the weak things to confound the wise; the base things to bring to nothing the wisdom of earthly wise men.",
+        "suggested_fix": "The translation uses an unusual/incorrect word (\"uzingo\") that obscures meaning. Replace the phrase rendering with a clearer Kiswahili equivalent such as: \"Anatumia vitu dhaifu kuwachanganya wenye hekima; vitu vya chini kufanya hekima ya wanaume wa dunia kuwa bure.\" (preserve paragraph tags).",
+        "translation_quote": "Anatumia vitu dhaifu kuwachanganya wenye hekima; vitu vya chini kuufanya uzingo wa wana watu wenye hekima wa dunia kutokuwa na thamani."
+      }
+    ],
+    "passed": false,
+    "score": 68
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -62,31 +61,59 @@
         },
         "total_tokens": 10934
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1488,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6445,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7933
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "Paragraph beginning “Ken was 13 years old, and his life was no better…” (source and translation mid-article)",
+      "location": "<p>…Sy skoolvriend was ’n hippie, en sy ouers het baie gereis. Hulle is genoem Sjipeiese. Hy het gehoor hulle was op pad na Kalifornië. So, Ken vertel vir hulle van sy terrible lewe en vra of hulle hom kan oppik. Hulle was bly om te help.</p>",
       "severity": "major",
+      "source_quote": "So, Ken told them about his terrible life and asked if they would give him a ride.",
+      "suggested_fix": "Replace the partly untranslated/incorrect phrase with an appropriate Afrikaans rendering preserving meaning. For example: “So, Ken het vir hulle van sy verskriklike lewe vertel en gevra of hulle hom 'n rit na Kalifornië sou gee.” Preserve existing HTML tags and attributes exactly.",
+      "translation_quote": "So, Ken vertel vir hulle van sy terrible lewe en vra of hulle hom kan oppik. Hulle was bly om te help."
+    },
+    {
+      "location": "<p>…Sy skoolvriend was ’n hippie, en sy ouers het baie gereis. Hulle is genoem Sjipeiese.</p>",
+      "severity": "minor",
       "source_quote": "His school friend was a hippie, and his parents traveled a lot. They were called Gypsies.",
-      "suggested_fix": "Replace the mistranslated word with an appropriate Afrikaans equivalent for 'Gypsies' (e.g., 'sjipiese' or 'sirkusfamilies' depending on intended nuance). Preserve surrounding HTML and punctuation. Example: \"Sy skoolvriend was ’n hippie, en sy ouers het baie gereis. Hulle is genoem Sjipeiese.\"",
-      "translation_quote": "Sy skoolvriend was ’n hippie, en sy ouers het baie gereis. Hulle is genoem Sypieste."
+      "suggested_fix": "Replace the incorrect/awkward rendering “Sjipeiese” with a correct Afrikaans term. Suggested: “Hul­le is bekend as Sygane.” or “Hulle is genoem Sygane.” Keep original HTML tags and punctuation.",
+      "translation_quote": "Hulle is genoem Sjipeiese."
     },
     {
-      "location": "Paragraph near top describing the pawn shop leaving scene (first paragraph and subsequent sentence about leaving the pawn shop)",
-      "severity": "major",
-      "source_quote": "With slumped shoulders and downcast eyes, I turned to escape the confines of his dingy, pawn shop, his ever-crescendoing voice drowning the last hope of respite.",
-      "suggested_fix": "'Dingy' was mistranslated as 'nuuskierige' (which means 'curious'). Replace with an Afrikaans adjective that conveys 'dingy' (e.g., 'donker', 'verval', 'armagtig', or 'slordig') and preserve HTML tags. Example: \"... draai ek om en vlug die benoude grense van sy benoude, rookgeplote pandjieswinkel binne; sy stem wat steeds harder word, oorstroom die laaste hoop op rustigheid.\"",
-      "translation_quote": "Met geslote skouers en neergeslagte oë draai ek om en vlug die benoude grense van sy beknopte pandjieswinkel binne; sy stem wat steeds harder word, oorstroom die laaste hoop op rustigheid."
+      "location": "<p>…Dit is hoekom ons steeds die donker, rookgeplote winkel besoek het…</p>",
+      "severity": "minor",
+      "source_quote": "That is why we were still visiting the dingy, smoke-stained shop after six years of very little apparent success.",
+      "suggested_fix": "Correct the mistranslation/typo “rookgeplote” to a standard Afrikaans rendering such as “rookgeplakte” or “deur rook gesteekte” (suggested: “rookgeplakte”). Example: “Dit is hoekom ons steeds die donker, rookgeplakte winkel besoek het na ses jaar van baie min skynbare sukses.” Preserve HTML structure.",
+      "translation_quote": "Dit is hoekom ons steeds die donker, rookgeplote winkel besoek het ná ses jaar van baie min skynbare sukses."
     },
     {
-      "location": "Paragraph describing the beanie and reactions after the failed Bible study (early in article)",
-      "severity": "major",
-      "source_quote": "What lay behind those flashing eyes, and what memories are stored beneath his ever-crowning beanie?",
-      "suggested_fix": "The phrase 'ever-crowning beanie' is obscure but should not be turned into 'altyd-opgedrukte muts' (which implies 'always-pressed-down beanie'). Use a neutral, idiomatic rendering that preserves sense (for example, 'sy altyd-draende muts' or 'sy altyd-opgedraaide muts' if referring to a constantly-worn beanie). Preserve HTML. Example: \"Wat lê agter daardie flitsende oë, en watter herinneringe lê onder sy altyd-draende muts?\"",
-      "translation_quote": "Wat lê agter daardie flitsende oë, en watter herinneringe lê onder sy altyd-opgedrukte muts?"
+      "location": "<p>…In plaas daarvan om hom te verstaan en lief te hê, het elke nuwe gesin geskrik, haat en slae gebring.</p>",
+      "severity": "minor",
+      "source_quote": "Instead of understanding and loving him, each new family brought more yelling, hatred, and beating.",
+      "suggested_fix": "The translation reads “geskrik” (frightened) which changes meaning of “yelling”. Replace with “meer geskreeu” or “meer geskrik” → use “meer geskreeu” to match source meaning. For example: “In plaas daarvan om hom te verstaan en lief te hê, het elke nuwe gesin meer geskreeu, haat en slae gebring.” Preserve HTML tags.",
+      "translation_quote": "In plaas daarvan om hom te verstaan en lief te hê, het elke nuwe gesin geskrik, haat en slae gebring."
     }
   ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "01508c36f758a48b6f5cf497e3948af9",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "afr",
@@ -130,13 +157,13 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 78,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0c059a0312fc4bb7c1d9113fe70aaa013f3daaefdb55449ee68204bcbaa1c79e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

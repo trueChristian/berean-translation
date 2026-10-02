@@ -1,0 +1,78 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "70b13628-43fc-4977-8756-7e4b419cc995",
+    "response_id": "chatcmpl-EULANnfx1EnPsYxZhT7BBup6wMpP3",
+    "usage": {
+      "completion_tokens": 1503,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9032,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10535
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning \"In 1627...\" (source.html) — quoted commission sentence",
+        "severity": "major",
+        "source_quote": "\"I have received the commission from the royal and princely Master, my Lord Jesus, to preach Christ to the people.\"",
+        "suggested_fix": "Translate the entire quoted sentence into Afrikaans, preserving it as a quotation and keeping surrounding HTML tags unchanged. For example: \"Ek het die opdrag ontvang van die koninklike en prinslike Meester, my Here Jesus, om Christus aan die volk te preek.\"",
+        "translation_quote": "\"I have received the commission from the royal and princely Master, my Lord Jesus, to preach Christ to the people.\""
+      },
+      {
+        "location": "Paragraph beginning \"My removal from my flock is so heavy...\" (source.html) — quoted sentence",
+        "severity": "major",
+        "source_quote": "\"My removal from my flock is so heavy to me, that it maketh my life a burden to me, I had never such a longing for death. The Lord help and hold up this sad clay.\"",
+        "suggested_fix": "Translate the full quotation into Afrikaans, keeping it as a single quoted passage and preserving HTML. Example: \"My verwydering van my kudde is so swaar vir my, dat dit my lewe 'n las maak; ek het nog nooit so 'n verlange na die dood gehad nie. Die Here help en hou hierdie droewe klei op.\"",
+        "translation_quote": "\"My removal from my flock is so heavy to me, that it maketh my life a burden to me, I had never such a longing for death. The Lord help and hold up this sad clay.\""
+      },
+      {
+        "location": "Paragraph beginning \"Rutherford continued to be an influential leader...\" (source.html) — quoted summons sentence",
+        "severity": "major",
+        "source_quote": "\"I have a summons already from a superior Judge, and I behoove to answer my first summons and when your day arrives I shall be where few Kings and great folks come.\"",
+        "suggested_fix": "Translate the quotation into Afrikaans, preserving it as a quotation. Example: \"Ek het reeds 'n dagvaarding van 'n hoër Regter, en ek behoort my eerste dagvaarding te beantwoord; en wanneer julle dag aanbreek, sal ek wees waar min konings en grootmense kom.\"",
+        "translation_quote": "\"I have a summons already from a superior Judge, and I behoove to answer my first summons and when your day arrives I shall be where few Kings and great folks come.\""
+      },
+      {
+        "location": "Hymn stanza 4 (The Lamb with His fair army...)",
+        "severity": "major",
+        "source_quote": "\"The Lamb with His fair army, Doth on Mount Zion stand;\"",
+        "suggested_fix": "Correct the Afrikaans to reflect the original meaning \"fair army\" (i.e., a noble/beautiful host), not a fearful or terrible army. For example: \"Die Lam met Sy lieflike leër, Staan op Sion se berg;\" (or \"Die Lam met Sy pragtige leër\"). Preserve the stanza HTML and formatting.",
+        "translation_quote": "\"Die Lam met Sy vreeslike leër, Staan op Sion se berg;\""
+      },
+      {
+        "location": "Hymn stanza 1, line 3 (\"The summer morn I’ve sighed for\")",
+        "severity": "minor",
+        "source_quote": "\"The summer morn I’ve sighed for\"",
+        "suggested_fix": "Adjust the Afrikaans verb to 'gesug het' (sighed) rather than 'gesuig het' (sucked). Example: \"Die somermôre waarna ek gesug het,\" Preserve stanza tags and emphasis.",
+        "translation_quote": "\"Die somermôre waarop ek gesuig het,\""
+      },
+      {
+        "location": "Paragraph about the tune (near end) — refrain left in English",
+        "severity": "minor",
+        "source_quote": "\"And glory—glory dwelleth in Immanuel's land.\"",
+        "suggested_fix": "Either translate the quoted refrain into Afrikaans in that narrative sentence or place a parallel translated version in parentheses right after the English refrain, to reflect the printed English while giving an Afrikaans rendering. Example: \"... die refrein—'En heerlikheid, heerlikheid woon in Immanuel se land.'\"",
+        "translation_quote": "\"And glory, glory dwelleth in Immanuel's land.\""
+      },
+      {
+        "location": "Final paragraph — closing quote left in English",
+        "severity": "minor",
+        "source_quote": "\"They lose nothing who gain Christ.\"",
+        "suggested_fix": "Translate this closing quotation into Afrikaans while preserving it as a quotation. Example: \"Hulle verloor niks wat Christus gewen het nie.\"",
+        "translation_quote": "\"They lose nothing who gain Christ.\""
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "10933457-b503-48e1-9346-49ff54d1b6fe",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -62,31 +61,44 @@
         },
         "total_tokens": 12414
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1288,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7222,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8510
+      }
     }
   ],
   "findings": [
     {
-      "location": "source.html — first paragraph",
-      "severity": "major",
-      "source_quote": "A happy, normal two-year-old girl fell desperately ill with a strange fever.",
-      "suggested_fix": "Replace the mistranslated phrase \"todagers jente\" with a correct rendering that preserves the original meaning and age: \"en glad, normal to år gammel jente\" (keep surrounding HTML tags and sentence structure).",
-      "translation_quote": "En glad, normal todagers jente ble fortvilet syk med en merkelig feber."
-    },
-    {
-      "location": "source.html — first paragraph",
-      "severity": "major",
-      "source_quote": "and a new day dawned upon the family with a blind daughter.",
-      "suggested_fix": "Correct the typographical mistranslation \"gryte for familien\" to a proper Norwegian rendering of the English image: \"en ny dag gryte for familien\" should be changed to \"en ny dag gryte for familien\" is wrong — replace with \"en ny dag gryte for familien\" → actually correct: \"en ny dag gryte for familien\" is wrong. Suggested fix (exact replacement text): replace the clause with \"og en ny dag gryte for familien med en blind datter.\" — This is unclear. Please replace the erroneous word \"gryte\" with the proper verb: \"gryte\" → \"gry\". Final suggested sentence: \"... og en ny dag gryde for familien med en blind datter.\" This is still incorrect. Provide a clear fix: change \"gryte for familien\" to \"grodde for familien\"?\"",
-      "translation_quote": "Etterfølgende forsøk ga ingen resultat, og en ny dag gryte for familien med en blind datter."
-    },
-    {
-      "location": "source.html — headings and some inline phrases",
+      "location": "Paragraph mentioning Ahab (near \"It was faithless Ahab who was told...\")",
       "severity": "minor",
-      "source_quote": "Prayer Begets Power / \"the Spirit, which maketh intercession for us with groanings which cannot be uttered.\" (Job 23:1-6 and other quotations appear in English in the source)",
-      "suggested_fix": "Consistently translate section headings and any non-scriptural English phrases into contemporary Bokmål to match the rest of the translation. For example, change the heading \"Prayer Begets Power\" to \"Bønn gir kraft\" and render the mixed English phrase into Norwegian while preserving quoted Scripture exactly as in the source (or keep the original English Scripture wording where the source used it). Ensure HTML heading tag <h3> text is replaced but tag structure unchanged.",
-      "translation_quote": "<h3>Prayer Begets Power</h3>\n...\neller <em>Ånden,</em> som <em>maketh intercession for us with groanings which cannot be uttered.</em>"
+      "source_quote": "It was faithless Ahab who was told to ask of God a sign in the heavens or earth.",
+      "suggested_fix": "Use the standard English spelling \"Ahab\" to match the source and avoid altering a biblical name's spelling. Replace the translated word keeping HTML structure unchanged, e.g. change \"Akab\" to \"Ahab\" in the corresponding paragraph text.",
+      "translation_quote": "Det var den vantro Akab som ble bedt om å be Gud om et tegn i himmelen eller på jorden."
+    },
+    {
+      "location": "Multiple paragraphs (use of \"sundt\" and awkward idiom)",
+      "severity": "minor",
+      "source_quote": "...and of a sound mind.\" (2 Timothy 1:7)\n\n...the spirit of love and peace will carry us through...\n\n...a sound mind...",
+      "suggested_fix": "Use contemporary Bokmål vocabulary and smoother idioms. Replace archaic \"sundt\" with modern \"sunt\" in phrases such as \"et sundt sinn\" -> \"et sunt sinn\" and consider rephrasing awkward literalisms (e.g., \"edruelig spenne sinnets liv opp og øve dem\") to a clearer construction preserving meaning. Example fixes (preserving HTML tags and order):\n- Change \"et sundt sinn\" to \"et sunt sinn\" everywhere.\n- Change \"edruelig spenne sinnets liv opp og øve dem\" to \"holde sinnet edru og trene det\" or similar context-appropriate phrasing.\nApply these as direct text replacements in the translated HTML.",
+      "translation_quote": "...kraft, kjærlighet og sundt sinn, til det «rotfaste» — bønn, fred og takknemlighet.\n\n...Takknemlighet gir et sundt sinn\n\n...men vi må edruelig spenne sinnets liv opp og øve dem hvis vi noen gang håper å oppnå “the grace...\""
     }
   ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "211ae8f4222b219ba14cc85295c23eb7",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "nob",
@@ -130,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 95,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/26b7a664a367b633bc68dce4ce41099ba34f55c7da13d83df0ec0180ed003d97.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "b862596e1902f47704d5b4543248cd118dbbf01a8d05be354c99504278ee33ab",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

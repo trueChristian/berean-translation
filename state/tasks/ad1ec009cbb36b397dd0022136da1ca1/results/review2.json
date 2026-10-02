@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "243c331d-0b78-4a3f-9678-f3148f69cb75",
+    "response_id": "chatcmpl-EUL9pIsIqsxoMRbqXmPCipLu884rR",
+    "usage": {
+      "completion_tokens": 1667,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9097,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10764
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<h2>La démence dans la Bible</h2> — paragraph quoting Ecclesiastes 12:1-7",
+        "severity": "critical",
+        "source_quote": "“Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”",
+        "suggested_fix": "Replace the French Bible rendering with the exact English scripture text from the source (Ecclesiastes 12:1-7) as printed in the authoritative English article, preserving punctuation and quotation marks and leaving surrounding translated commentary intact. For example, put the original English passage verbatim in this paragraph (within the same HTML tags).",
+        "translation_quote": "« Souviens-toi de ton Créateur pendant les jours de ta jeunesse, avant que les jours mauvais arrivent et que s'approchent les années auxquelles tu diras: Je n'y prends point de plaisir; avant que le soleil, la lumière, la lune et les étoiles ne s'obscurcissent, et que les nuages reviennent après la pluie; au jour où les gardiens de la maison trembleront, et où les hommes forts se fléchiront, et où les meules cesseront parce qu'ils sont peu nombreux, et où ceux qui regardent par les fenêtres seront obscurcis, et où les portes seront fermées dans les rues, lorsque l'on entendra le petit bruit du moulin, et que l'homme se lèvera au son de l'oiseau, et que toutes les filles du chant seront abaissées; lorsque l'on aura peur de ce qui est haut, et que les frayeurs seront dans les sentiers, lorsque l'amandier fleurira, et que la sauterelle deviendra un fardeau, et que le désir défaudra; car l'homme s'en va à sa demeure éternelle, et les pleureurs font les rondes dans les rues; avant que la corde d'argent ne se rompe, ou que la coupe d'or ne soit brisée, ou que la cruche ne soit brisée à la source, ou que la roue ne soit brisée au puits. Alors la poussière retournera à la terre comme elle y était, et l'esprit retournera à Dieu qui l'a donné. »"
+      },
+      {
+        "location": "Paragraph quoting Deuteronomy 6:7 (in discussion of remembering God)",
+        "severity": "major",
+        "source_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7).",
+        "suggested_fix": "Restore the exact English wording of Deuteronomy 6:7 as it appears in the authoritative English article (inside the same parenthetical reference). Replace the current French rendering of the verse with that exact English text so the translated article conveys the printed English quotation. Keep the (Deuteronomy 6:7) citation as in the source.",
+        "translation_quote": "« Et tu les enseigneras fidèlement à tes enfants, et tu en parleras quand tu seras assis dans ta maison, et quand tu marcheras en chemin, et quand tu te coucheras, et quand tu te lèveras » (Deuteronomy 6:7)."
+      },
+      {
+        "location": "Conclusion paragraph quoting Galatians 5:22-23",
+        "severity": "major",
+        "source_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23).",
+        "suggested_fix": "Replace the French rendering of the Galatians quotation with the exact English wording as printed in the source (Galatians 5:22-23). Preserve the verse reference in parentheses exactly as in the English article. Do not substitute an independent Bible translation for the quoted English text.",
+        "translation_quote": "« Mais le fruit de l'Esprit, c'est l'amour, la joie, la paix, la patience, la bonté, la bienveillance, la foi, la douceur, la tempérance: contre de telles choses il n'y a point de loi » (Galatians 5:22-23)."
+      }
+    ],
+    "passed": false,
+    "score": 62
+  }
+}

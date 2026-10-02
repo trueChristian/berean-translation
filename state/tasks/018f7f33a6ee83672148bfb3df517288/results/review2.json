@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "2caa3db6-78e9-4184-914f-b6f0972883c7",
+    "response_id": "chatcmpl-EULAFr0KHRbP9ktYWwGlenNyAW5jq",
+    "usage": {
+      "completion_tokens": 702,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6356,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7058
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> first narrative paragraph (after drop-cap) — sentence describing lingering smell",
+        "severity": "minor",
+        "source_quote": "The lingering smell of smoke and the echo of his angry voice joined the troubled thoughts of my emotionally overwrought mind, as I slowly walked up the street.",
+        "suggested_fix": "Replace «запах табака» with «запах дыма», e.g.: «Отвисающий запах дыма и эхо его сердитого голоса…» — preserves the original \"smell of smoke\" rather than specifying tobacco.",
+        "translation_quote": "Отвисающий запах табака и эхо его сердитого голоса слились с тревожными мыслями моего эмоционально измотанного ума, когда я медленно шла по улице."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

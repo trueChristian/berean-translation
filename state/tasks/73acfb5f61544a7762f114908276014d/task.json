@@ -2,7 +2,6 @@
   "article_id": "62646d6d-87be-47a6-880f-0ade408a3402",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:44+00:00",
   "events": [
@@ -62,24 +61,44 @@
         },
         "total_tokens": 4999
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 784,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3000,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3784
+      }
     }
   ],
   "findings": [
     {
-      "location": "Paragraph beginning \"As I write this, I am flying 35,000 feet...\"",
-      "severity": "major",
-      "source_quote": "\"The stark contrast between the landscape described in the previous paragraphs and the parched desert land hurrying by six miles below me is nearly beyond my comprehension.\"",
-      "suggested_fix": "Translate the original distance without introducing Swedish 'mil' (10 km). Use a literal rendering such as: \"...och den uttorkade ökenmarken som skyndar förbi sex miles under mig är nästan bortom min förståelse.\" Alternatively give a metric conversion in parentheses: \"sex miles (ca 9,7 km) under mig\". Preserve the original numeric value and unit meaning.",
-      "translation_quote": "\"...den uttorkade ökenmarken som skyndar förbi sex mil under mig är nästan bortom min förståelse.\""
+      "location": "<p> (third paragraph)",
+      "severity": "minor",
+      "source_quote": "six miles below me",
+      "suggested_fix": "Remove the added metric conversion so the translation matches the source wording. For example: \"sex miles under mig.\" Or, if a localized conversion is required by house style, keep the original English phrase and add the conversion in parentheses immediately after it: \"sex miles (ca 9,7 km) under mig.\"",
+      "translation_quote": "sex miles (ca 9,7 km) under mig"
     },
     {
-      "location": "Paragraph beginning \"Most people in this area are Muslims.\"",
-      "severity": "major",
-      "source_quote": "\"They fast from food and water every day from dawn to dusk, even though daytime temperatures exceed 110 degrees.\"",
-      "suggested_fix": "Clarify the temperature unit so it does not change the factual meaning. The source implies Fahrenheit; do not leave it as ambiguous Swedish 'grader' (which is normally interpreted as Celsius). Suggest one of: 1) Keep the unit explicit: \"...även om dagstemperaturerna överstiger 110 °F (ca 43 °C).\" 2) Convert accurately and state the converted value: \"...även om dagstemperaturerna överstiger cirka 43 °C (110 °F).\" Preserve the original numeric magnitude and indicate units.",
-      "translation_quote": "\"...även om dagstemperaturerna överstiger 110 grader.\""
+      "location": "<p> (paragraph about Ramadan)",
+      "severity": "minor",
+      "source_quote": "daytime temperatures exceed 110 degrees",
+      "suggested_fix": "Match the source phrasing by leaving the temperature as in the English source without specifying units or adding a Celsius conversion. For example: \"dagstemperaturerna överstiger 110 grader.\" If a unit must be supplied by style, use the same numeric value and unit type as the source (e.g., \"överstiger 110 °F\"), or include the unit only in parentheses after the original phrasing.",
+      "translation_quote": "dagstemperaturerna överstiger 110 °F (ca 43 °C)"
     }
   ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "73acfb5f61544a7762f114908276014d",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "swe",
@@ -123,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5455d2cd09d57a9e870ea92c4b7c08c9a0c8a2c68c077d639797bdc8f61c6072.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

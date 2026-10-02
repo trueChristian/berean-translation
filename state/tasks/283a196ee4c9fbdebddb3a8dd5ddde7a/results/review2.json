@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "672fc19c-e29f-4ac4-9667-943705eaec36",
+    "response_id": "chatcmpl-EULA2HbLFZvRMBTZ7IcaYE11ldhpb",
+    "usage": {
+      "completion_tokens": 1399,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1592,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2991
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> first stanza, line 2",
+        "severity": "minor",
+        "source_quote": "The newborn life, how glad!",
+        "suggested_fix": "Translate as a direct expression of gladness about new life, e.g. replace “Maisha mapya yaliyozaliwa, ni furaha!” with “Maisha mapya yaliyozaliwa, ni furaha tele!” or “Maisha mapya yaliyozaliwa, ni furaha tele!” to better reflect the exclamatory quality.",
+        "translation_quote": "Maisha mapya yaliyozaliwa, ni furaha!"
+      },
+      {
+        "location": "<div class=\"poem\"> second stanza, line 2",
+        "severity": "minor",
+        "source_quote": "I greet Thy going forth;",
+        "suggested_fix": "Preserve the sense of the Redeemer's going forth (outgoing action). Suggested rendering: “Ninakukaribisha kutoka Kwako” is still not ideal; better: “Ninauchukulia uelekezaji/kuenda Kwako kwa shukrani” or more simply “Ninakusujudia wewe ukitoka” depending on poetic tone. Keep original sense of 'going forth' rather than 'coming'.",
+        "translation_quote": "Ninakaribisha kuja Kwako;"
+      },
+      {
+        "location": "<div class=\"poem\"> fourth stanza, line 1",
+        "severity": "minor",
+        "source_quote": "This new-born glow of faith so strong,",
+        "suggested_fix": "“Glow” is translated as “ishara” (‘sign’), which weakens the image. Suggested fix: use a Kiswahili word for glow/gleam such as “mwangaza mpya wa imani wenye nguvu” or “mng’ao mpya wa imani wenye nguvu”.",
+        "translation_quote": "Hii ishara mpya ya imani yenye nguvu;"
+      },
+      {
+        "location": "<div class=\"poem\"> fifth stanza, line 2",
+        "severity": "minor",
+        "source_quote": "These wonders sweet of Thine;",
+        "suggested_fix": "Typographical/spacing correction and slight grammatical smoothing: change “Maajabu haya tamu yaako;” to “Maajabu haya tamu yako;” (separate words and correct possessive).",
+        "translation_quote": "Maajabu haya tamu yaako;"
+      },
+      {
+        "location": "<div class=\"poem\"> sixth stanza, lines 1–2",
+        "severity": "minor",
+        "source_quote": "Still, let new life and strength upspring,\nStill, let new joy be given;",
+        "suggested_fix": "The translation uses “Baki, na ulete…” where “Baki” (‘remain’) does not convey the English optative/request sense (“Let … upspring / be given”). Suggested alternatives: “Nawe, na uzima mpya na nguvu viibuke,” or “Na uache uzima mpya na nguvu vichipue,” and for the second line “Na upeleke furaha mpya itolewe” → better: “Na ufungue furaha mpya itolewe” or “Na ulete furaha mpya” to match the petition/request tone. Preserve poetic brevity.",
+        "translation_quote": "Baki, na ulete uzima mpya na nguvu ijenguke,\nBaki, na ulete furaha mpya itolewe;"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

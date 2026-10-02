@@ -2,7 +2,6 @@
   "article_id": "1ec0f654-0dd1-48f3-9a68-3b15189e6704",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:46+00:00",
   "events": [
@@ -62,17 +61,51 @@
         },
         "total_tokens": 5921
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1167,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3643,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4810
+      }
     }
   ],
   "findings": [
     {
-      "location": "Paragraphs 2–3 (temperature lines near start)",
-      "severity": "major",
-      "source_quote": "“Probably about 50.” Adrianna glanced lazily at the thermometer. “Hey, it’s 65 degrees! Mom, may we eat lunch outside?”",
-      "suggested_fix": "Preserve the original numeric values as presented in the English source. Replace the translated sentences with a literal rendering that keeps the numbers 50 and 65 (and does not convert them to Celsius). For example: «Наверное где-то 50 градусов». Адрианна лениво взглянула на термометр. «Ой, 65 градусов! Мама, можно нам пообедать на улице?» If a unit indication is desired for the target audience, add the same unit marker used in the source (or explicitly note the conversion in parentheses) rather than replacing the numbers.",
-      "translation_quote": "«Наверное где-то градусов 10.» Адрианна лениво взглянула на термометр. «Ого, 18 градусов! Мама, можно нам пообедать на улице?»"
+      "location": "Paragraph: “You can just have your playhouse.” (source.html near: \"She picked up her shopping bag and put her sandwich and cookie bags into it. She threw her apple core to the dogs and started for the house.\")",
+      "severity": "minor",
+      "source_quote": "\"You can just have your playhouse.\"",
+      "suggested_fix": "Replace the translated sentence with a closer, neutral rendering that preserves the original tone and meaning without adding negativity or changing nuance. Suggested replacement (preserving paragraph structure): «Вы можете просто оставить себе домик для игр.»",
+      "translation_quote": "«Ваш домик — остаётся ваш проблемой.»"
+    },
+    {
+      "location": "Same paragraph (grammatical agreement)",
+      "severity": "minor",
+      "source_quote": "\"You can just have your playhouse.\"",
+      "suggested_fix": "Fix agreement in Russian: change «Ваш домик — остаётся ваш проблемой.» to «Ваш домик — остаётся вашей проблемой.» or better to the suggested neutral rendering above.",
+      "translation_quote": "«Ваш домик — остаётся ваш проблемой.»"
+    },
+    {
+      "location": "Paragraph: \"Resolutely, she walked out of the pasture to find Asher and the girls.\"",
+      "severity": "minor",
+      "source_quote": "\"Resolutely, she walked out of the pasture to find Asher and the girls.\"",
+      "suggested_fix": "The translation adds an explicit motive (“решив помочь”) that is an interpretive expansion. For closer fidelity, render without adding motive, e.g. replace «Полностью решив помочь, она вышла на луг в поисках Эшера и девочек.» with «Решительно она вышла на луг, чтобы найти Эшера и девочек.»",
+      "translation_quote": "«Полностью решив помочь, она вышла на луг в поисках Эшера и девочек.»"
     }
   ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "62b0523abf6356085c5eafab8d1123b7",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "rus",
@@ -116,13 +149,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d59e6cc034714ade3629f9e4dd10e75a09cff16eb5d3255ed698b76288fda97d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "dcfff2a5364081c6a6817377a0d3ad1649eaec0276399a4b9a70adc9f0fe19d1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

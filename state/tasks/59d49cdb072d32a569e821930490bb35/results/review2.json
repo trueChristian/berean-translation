@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "57195a77-f1c3-431f-a0d1-317cb15077d2",
+    "response_id": "chatcmpl-EULAPSRlzo29B34GY6VejzBrB7hXZ",
+    "usage": {
+      "completion_tokens": 774,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3890,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4664
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html — paragraph starting \"سب نے دوپہر کے کھانے تک محنت سے کام کیا۔\"",
+        "severity": "minor",
+        "source_quote": "They each packed their lunch in a shopping bag and went out to their picnic spot, a big, flat rock in a clearing in the woods.",
+        "suggested_fix": "Replace the redundant phrase to read: \"ہر ایک نے اپنا لنچ ایک شاپنگ بیگ میں رکھا اور جنگل کی ایک صفائی میں پڑے بڑے، ہموار پتھر کے پاس اپنی پکنک جگہ کی طرف گئے۔\" Preserve existing HTML tags and attributes.",
+        "translation_quote": "انہوں نے ہر ایک نے اپنا لنچ ایک شاپنگ بیگ میں رکھا اور جنگل کی ایک صفائی میں پڑے بڑے، ہموار پتھر کے پاس اپنی پکنک جگہ کی طرف گئے۔"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

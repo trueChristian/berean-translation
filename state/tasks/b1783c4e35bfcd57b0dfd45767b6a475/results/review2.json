@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "30922725-2406-453c-a55a-5de168e13962",
+    "response_id": "chatcmpl-EULAJdKox81RtJfnY1X3XaQ2YXwQe",
+    "usage": {
+      "completion_tokens": 1476,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6619,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8095
+    }
+  },
+  "received_at": "2026-10-02T00:14:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph under heading \"Through Music and Sound\" (Revelation reference sentence)",
+        "severity": "critical",
+        "source_quote": "\"and the new song by the one hundred and forty four thousand.\"",
+        "suggested_fix": "Correct the numerals to match the English source: render as \"il nuovo canto dei centoquarantaquattromila.\" Preserve surrounding punctuation and HTML.",
+        "translation_quote": "\"il nuovo canto dei centocinquantaquattromila.\""
+      },
+      {
+        "location": "Throughout article (book-name parenthetical citations)",
+        "severity": "minor",
+        "source_quote": "(Isaiah 33:17)  (Psalm 27:4)  (2 Corinthians 4:4-6)  (1 Corinthians 13:12)  (Isaiah 61:3)  (Psalm 19:1)  (Romans 1:20)  (Revelation 14:2)  (Psalm 48:1-2)  (Revelation 21:2-3)  (Hebrews 12:12)  (Psalm 37:4)",
+        "suggested_fix": "For consistency and target-language idiom, render the parenthetical book names in Italian to match the rest of the translation (for example, replace \"(Isaiah 33:17)\" with \"(Isaia 33:17)\"). Do not change verse numbers or punctuation. Alternatively, if the publication standard is to keep English book names, make them consistent throughout. Preserve existing parentheses and spacing.",
+        "translation_quote": "(Isaiah 33:17)  (Psalm 27:4)  (2 Corinthians 4:4-6)  (1 Corinthians 13:12)  (Isaiah 61:3)  (Psalm 19:1)  (Romans 1:20)  (Revelation 14:2)  (Psalm 48:1-2)  (Revelation 21:2-3)  (Hebrews 12:12)  (Psalm 37:4)"
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "afdbb159-2c3c-42fa-9250-db8dcc3fbd54",
+    "response_id": "chatcmpl-EULAVNKO3LBQPnhws3pm0wkM7LPoV",
+    "usage": {
+      "completion_tokens": 682,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5597,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6279
+    }
+  },
+  "received_at": "2026-10-02T00:14:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...wasking... (paragraph under \"De ernst van een zuivere kerk\")",
+        "severity": "minor",
+        "source_quote": "They taught that the Spirit affects the spiritual washing and cleansing that will be made apparent in a changed state of thought and action in the believer.",
+        "suggested_fix": "Replace \"wasking\" with the correct Dutch word \"wassing\" so the phrase reads: \"de Geest de geestelijke wassing en reiniging bewerkt\" (preserve surrounding HTML).",
+        "translation_quote": "Zij leerden dat de Geest de geestelijke wasking en reiniging bewerkt die zichtbaar zal worden in een veranderde staat van denken en handelen bij de gelovige."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

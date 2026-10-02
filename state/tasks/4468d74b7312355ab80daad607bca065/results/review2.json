@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8e7f3e08-dfb7-4445-8bcb-bfd0abe5b617",
+    "response_id": "chatcmpl-EULANIPOVPhcSagRZKb0dGTuJ6ZGC",
+    "usage": {
+      "completion_tokens": 1855,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6929,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8784
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 3 (around the first scripture quotation)",
+        "severity": "major",
+        "source_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.” (2 Timothy 1:7)",
+        "suggested_fix": "Translate the quoted Scripture into Portuguese so it conveys the authoritative English text’s sense in the target language, and keep the verse reference. For example, replace the English quotation with a Portuguese rendering that preserves the original wording’s theology and structure, followed by the same parenthetical reference: “Porque Deus não nos deu o espírito de temor, mas de poder, de amor e de moderação.” (2 Timóteo 1:7) — or another Portuguese rendering that closely follows the printed English wording used in the source, while retaining the verse citation.",
+        "translation_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.” (2 Timothy 1:7)"
+      },
+      {
+        "location": "Multiple paragraphs (examples: paragraph starting “O medo é o ominoso adversário...” and paragraph mentioning Paul)",
+        "severity": "major",
+        "source_quote": "“A dreadful sound is in his ears: in prosperity the destroyer shall come upon him. He believeth not that he shall return out of darkness, and he is waited for of the sword.” (Job 15:21, 22)\n\n...“troubled on every side; without were fightings, within were fears.” (2 Corinthians 7:5)",
+        "suggested_fix": "Translate all embedded Scripture quotations into Portuguese so they convey the printed English passage’s meaning and theology, keeping each verse citation intact. For each quoted passage currently left in English, provide a Portuguese rendering that preserves the sense of the authoritative English text and leave the parenthetical reference unchanged (or localized to Portuguese book names if that is the publication’s normal practice).",
+        "translation_quote": "“A dreadful sound is in his ears: in prosperity the destroyer shall come upon him. He believeth not that he shall return out of darkness, and he is waited for of the sword.” (Job 15:21, 22)\n\n...“troubled on every side; without were fightings, within were fears.” (2 Corinthians 7:5)"
+      },
+      {
+        "location": "Paragraph beginning with “É então que devemos confiar...” (Prayer section)",
+        "severity": "major",
+        "source_quote": "Original English: “perhaps the Spirit, which maketh intercession for us with groanings which cannot be uttered.”",
+        "suggested_fix": "There is an introduced duplication and grammatical error in the Portuguese rendering: “...ou talvez <em>no Espírito,</em> que <em>o Espírito, que intercede por nós com gemidos inexprimíveis.</em>” Remove the duplicated phrase so it reads smoothly and conveys the source meaning. Suggested correction that preserves the author’s theology and sentence structure: “...ou talvez <em>no Espírito,</em> que <em>intercede por nós com gemidos inexprimíveis.</em>”",
+        "translation_quote": "\"...ou talvez <em>no Espírito,</em> que <em>o Espírito, que intercede por nós com gemidos inexprimíveis.</em>\""
+      },
+      {
+        "location": "Several quotations of New Testament and Old Testament verses later in the article (examples: Job 23:1-6 block; Psalm 142:2; 1 John 4:18; Philippians 4:6 7; Philippians 4:7, 8 block)",
+        "severity": "major",
+        "source_quote": "Examples from source: “Then Job answered and said, Even to day is my complaint bitter: my stroke is heavier than my groaning...” (Job 23:1-6)\n\n“...there is no fear in love; but perfect love casteth out fear: because fear hath torment. He that feareth is not made perfect in love.” (1 John 4:18)\n\n“Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God. And the peace of God, which passeth all understanding, shall keep your hearts and minds through Christ Jesus.” (Philippians 4:6 7)\n\nBlock quote: (Philippians 4:7, 8)",
+        "suggested_fix": "All of these Scripture quotations appear in English in the translation. They must be rendered into Portuguese so they convey the printed English text’s content and theology. Replace each English quotation with an accurate Portuguese rendering that preserves the sense and theological assertions of the authoritative English text, and retain the verse references. For the long block quotation, provide a Portuguese rendering equivalent to the printed English passage and keep the reference “(Philippians 4:7, 8)” at the end.",
+        "translation_quote": "The translation contains the English quotations verbatim, e.g. “Then Job answered and said, Even to day is my complaint bitter: my stroke is heavier than my groaning...” (Job 23:1-6) and other English verses as shown."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

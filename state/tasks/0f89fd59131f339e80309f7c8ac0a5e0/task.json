@@ -2,7 +2,6 @@
   "article_id": "b43320f3-e4e8-450b-865c-099ef704149c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -62,31 +61,59 @@
         },
         "total_tokens": 15260
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1935,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8196,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10131
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "source.html — section starting at <h2>How can we live a morally pure life?</h2> and following paragraphs",
-      "severity": "critical",
-      "source_quote": "<h2>How can we live a morally pure life?</h2>\n\n  <p><strong>Be Humble.</strong> James 5 says, “Confess your faults one to another that ye may be healed.” It takes humility and brokenness to acknowledge our needs, but brokenness is the key to victory. I Peter 5:5 tells us that God gives grace to the humble. One of the most comprehensive definitions of grace is unmerited divine assistance given to humans for regeneration and sanctification. Regeneration is 'redeeming grace,' and sanctification is 'transforming grace.' The truth of this is that God gives 'transforming grace' to the humble. This grace changes us from the inside out making us holy. This aspect of grace must be desired and sought after as much as redeeming grace was when God saved us. This is probably the single most important step in overcoming addictions of any kind. Be humble enough to make it a daily prayer to God for His transforming grace. Jesus taught in Matthew 23:26, where He said, \"First clean the inside of the cup, so that the outside may be clean also.\"</p>\n\n  <p><strong>Be Honest.</strong> Examine your thoughts, actions, temptations, the things you struggle with, anger, lust, pride, bitterness, etc. Are you as spiritual as you portray yourself to be on the outside? Strip the veneer and admit the need for help.</p>\n\n  <p><strong>Be transparent.</strong> Romans 2:16 tells of the day when God will judge the secrets of men. We are so foolish to think we can hide evil. We can hide for a while, but someday our actions will stand naked before an all-knowing God. Why would we try to hide something now? Those hidden things can be sent before to judgment, and a guilt-free life can be a reality today. Be transparent; it must be a working goal.</p>\n\n  <p><strong>Tell yourself the truth.</strong> When you are tempted, consider the end of your lustful desire. Will you get what you want? Will this craving be satisfied, or will it only crave more? If you saw your brother doing what you are going after, how would it look? How will it look thirty years down the road if you follow your evil desire? Will it bring joy or sorrow? Will it be a help to someone, or will someone else be scared? Tell yourself the truth before you become intoxicated and unable to make rational judgments.</p>\n\n  <p><strong>Teach your eyes to bounce.</strong> You can't help what you look at the first time, but you can control what you look at twice. Make it a practice till it becomes a habit to turn your eyes in a different direction whenever you see a sight that leads to impure thoughts.</p>\n\n  <p><strong>Teaching our children.</strong> This should be heavy on our hearts from early childhood. If we don’t teach our children that God made us in the image of Himself, which needs to be kept pure, someone else will teach them to be secretive and make them feel impure. Stay close to your children and teach them as they mature.</p>\n\n  <p><strong>Keep your emotions.</strong> This is a safety in our corrupt society. The further you get from this, the more vulnerable you will be to corruption. Keep your spouse first in life, the one you share with and are tied to emotionally.</p>\n\n  <p><strong>Flee lust and fornication.</strong> Run from it! These cravings are addictions that must be broken. Remember, what you feed grows, and what you starve dies. These addictions can be broken, but you will need to feed the relationships that God has given and starve the hurtful ones.</p>",
-      "suggested_fix": "Translate the entire section beginning with the <h2>How can we live a morally pure life?</h2> and all following <p> elements into Hebrew. Preserve all original HTML tags, attributes and nesting. For example, replace the English <h2> element text with its Hebrew equivalent and translate each <p> content into contemporary Modern Hebrew while leaving embedded Scripture quotations exactly as they appear in the source English (e.g., “Confess your faults one to another that ye may be healed.” and verse references). Do not remove or alter HTML structure: keep the same <h2>, <p>, and <strong> tags and their order.",
-      "translation_quote": "<h2>How can we live a morally pure life?</h2>\n\n  <p><strong>Be Humble.</strong> James 5 says, “Confess your faults one to another that ye may be healed.” It takes humility and brokenness to acknowledge our needs, but brokenness is the key to victory. I Peter 5:5 tells us that God gives grace to the humble. One of the most comprehensive definitions of grace is unmerited divine assistance given to humans for regeneration and sanctification. Regeneration is 'redeeming grace,' and sanctification is 'transforming grace.' The truth of this is that God gives 'transforming grace' to the humble. This grace changes us from the inside out making us holy. This aspect of grace must be desired and sought after as much as redeeming grace was when God saved us. This is probably the single most important step in overcoming addictions of any kind. Be humble enough to make it a daily prayer to God for His transforming grace. Jesus taught in Matthew 23:26, where He said, \"First clean the inside of the cup, so that the outside may be clean also.\"</p>\n\n  <p><strong>Be Honest.</strong> Examine your thoughts, actions, temptations, the things you struggle with, anger, lust, pride, bitterness, etc. Are you as spiritual as you portray yourself to be on the outside? Strip the veneer and admit the need for help.</p>\n\n  <p><strong>Be transparent.</strong> Romans 2:16 tells of the day when God will judge the secrets of men. We are so foolish to think we can hide evil. We can hide for a while, but someday our actions will stand naked before an all-knowing God. Why would we try to hide something now? Those hidden things can be sent before to judgment, and a guilt-free life can be a reality today. Be transparent; it must be a working goal.</p>\n\n  <p><strong>Tell yourself the truth.</strong> When you are tempted, consider the end of your lustful desire. Will you get what you want? Will this craving be satisfied, or will it only crave more? If you saw your brother doing what you are going after, how would it look? How will it look thirty years down the road if you follow your evil desire? Will it bring joy or sorrow? Will it be a help to someone, or will someone else be scared? Tell yourself the truth before you become intoxicated and unable to make rational judgments.</p>\n\n  <p><strong>Teach your eyes to bounce.</strong> You can't help what you look at the first time, but you can control what you look at twice. Make it a practice till it becomes a habit to turn your eyes in a different direction whenever you see a sight that leads to impure thoughts.</p>\n\n  <p><strong>Teaching our children.</strong> This should be heavy on our hearts from early childhood. If we don’t teach our children that God made us in the image of Himself, which needs to be kept pure, someone else will teach them to be secretive and make them feel impure. Stay close to your children and teach them as they mature.</p>\n\n  <p><strong>Keep your emotions.</strong> This is a safety in our corrupt society. The further you get from this, the more vulnerable you will be to corruption. Keep your spouse first in life, the one you share with and are tied to emotionally.</p>\n\n  <p><strong>Flee lust and fornication.</strong> Run from it! These cravings are addictions that must be broken. Remember, what you feed grows, and what you starve dies. These addictions can be broken, but you will need to feed the relationships that God has given and starve the hurtful ones.</p>"
-    },
-    {
-      "location": "source.title",
+      "location": "<article> paragraph 2 (scripture list)",
       "severity": "major",
-      "source_quote": "Morally Pure In a Corrupt Society",
-      "suggested_fix": "Adjust the Hebrew title to be idiomatic and grammatically natural. Preserve the title string only (do not change HTML structure). Suggested Hebrew options: \"טהורים מוסרית בחברה מושחתת\" → better: \"טהורים מבחינה מוסרית בחברה מושחתת\" or more natural: \"טוהרים מבחינה מוסרית בחברה מושחתת\" or \"נשארים טהורים בחברה מושחתת\". Replace the translation.title value with one of these forms to reflect the English meaning and Hebrew idiom.",
-      "translation_quote": "\"טהורים מוסרית בחברה מושחתת\""
+      "source_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”",
+      "suggested_fix": "Translate each quoted Bible phrase into Hebrew so it conveys the exact printed English wording (not substituting another Bible version). Keep the verse references in parentheses as in the source. Example: replace the English quotes with Hebrew equivalents that closely render the printed English lines, e.g. “אשרי הטהורים בלבם” (Matthew 5:8); “שאתם תבחינו המשובים... שתהיו תמימים (=pure) וללא מעלה עד יום המשיח” (render each phrase carefully to match the original English meaning), and keep the parenthetical references unchanged.",
+      "translation_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”"
     },
     {
-      "location": "source.html — poems and a few scripture quotations left in English",
-      "severity": "minor",
-      "source_quote": "<blockquote class=\"poem\">\n    <p><em>Two forces lie within my breast,<br>\n    The one I love, the one I hate.<br>\n    But the one I feed will dominate.</em></p>\n    <p><em>—The author’s dad</em></p>\n  </blockquote>\n\n  <blockquote class=\"poem\">\n    <p><em>The more honestly I name<br>\n    what is true about myself,<br>\n    The less I need to hide and defend,<br>\n    and posture and pretend.</em></p>\n    <p><em>—Dan Allender</em></p>\n  </blockquote>",
-      "suggested_fix": "Either translate these poem blocks into Hebrew (preserving <blockquote class=\"poem\">, <p>, and <em> tags) or clearly mark them as intentionally left in the original language (e.g., add an attribute or note). Also check consistency for Scripture quotations left in English elsewhere; if the source printed English is to be preserved, keep them exactly as in source. If the intent was to render everything into Hebrew, translate these poems into contemporary Modern Hebrew while preserving the HTML structure.",
-      "translation_quote": "(poems remain in English in the translation as shown)"
+      "location": "Multiple paragraphs with quoted Bible verses and named-verse sentences (e.g., paragraphs containing “I John 1:6 says...”, “John 10:10”, “Hebrews 4:13 says...”, “Numbers 32:23 is still very true...”, “James 1:15...”, etc.)",
+      "severity": "major",
+      "source_quote": "I John 1:6 says, “if we say that we have fellowship with Him and walk in darkness (light on the outside and darkness on the inside), we lie and do not practice the truth.”\n...\nIn John 10:10, Jesus said, “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy” all godly relationships.\n...\nHebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).”\n...\nNumbers 32:23 is still very true, saying, “Be sure your sin will find you out.”\n...\nJames 1:15 happens: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” Verse 16 says, “Do not (be deceived) my beloved brethren.”",
+      "suggested_fix": "Translate each quoted scripture sentence/phrase into Hebrew so it conveys the same printed English meaning. Retain the verse references. Do not leave the quoted biblical material in English. For example, render I John 1:6 quoted phrase into Hebrew that conveys “if we say that we have fellowship with Him and walk in darkness... we lie and do not practice the truth.” Apply the same approach to John 10:10, Hebrews 4:13, Numbers 32:23, James 1:15–16, and all other inline quoted scripture lines.",
+      "translation_quote": "I John 1:6 says, “if we say that we have fellowship with Him and walk in darkness (light on the outside and darkness on the inside), we lie and do not practice the truth.”\n...\nIn John 10:10, Jesus said, “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy” all godly relationships.\n...\nHebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).”\n...\nNumbers 32:23 is still very true, saying, “Be sure your sin will find you out.”\n...\nJames 1:15 happens: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” Verse 16 says, “Do not (be deceived) my beloved brethren.”"
+    },
+    {
+      "location": "Paragraph near end: “A question to ponder, Is it worth it? Of course, the answer is a resounding NO!”",
+      "severity": "major",
+      "source_quote": "A question to ponder, Is it worth it? Of course, the answer is a resounding NO!",
+      "suggested_fix": "Restore the emphatic negative meaning in Hebrew. The current translation renders this as “התשובה היא לא מוחלטת!” which changes the meaning to “not absolute.” Replace with a Hebrew rendering that preserves the source’s force, for example: “שאלה למחשבה: האם זה שווה את זה? כמובן שהתשובה היא פה-אחד — לא!” or “...התשובה נחרצת: לא!”",
+      "translation_quote": "שאלה למחשבה: האם זה שווה את זה? כמובן שהתשובה היא לא מוחלטת!"
+    },
+    {
+      "location": "End of article — two short poems in blockquotes",
+      "severity": "major",
+      "source_quote": "Two forces lie within my breast,\nThe one I love, the one I hate.\nBut the one I feed will dominate.\n\n—The author’s dad\n\nThe more honestly I name\nwhat is true about myself,\nThe less I need to hide and defend,\nand posture and pretend.\n\n—Dan Allender",
+      "suggested_fix": "Translate the two short poems (and the attributions) into Hebrew so readers of the Hebrew article receive those substantive lines in the target language. Keep the blockquote and <em> tags and the same HTML structure. For example, render the first poem into Hebrew preserving meter/meaning, and render the attributions (e.g., “—The author’s dad” → “—אביו של המחבר”) and the second (—Dan Allender) as a transliterated or Hebrew-rendered name.",
+      "translation_quote": "<p><em>Two forces lie within my breast,<br>\n    The one I love, the one I hate.<br>\n    But the one I feed will dominate.</em></p>\n    <p><em>—The author’s dad</em></p>\n...\n<p><em>The more honestly I name<br>\n    what is true about myself,<br>\n    The less I need to hide and defend,<br>\n    and posture and pretend.</em></p>\n    <p><em>—Dan Allender</em></p>"
     }
   ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "0f89fd59131f339e80309f7c8ac0a5e0",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "heb",
@@ -130,13 +157,13 @@
     }
   },
   "protected": false,
-  "quality_score": 55,
+  "quality_score": 65,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6e098ac8eb342eaa406de38f5a002ad3b708959025887f49dfe6141d191cd700.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "f7304b582e2d69344173a19198f46ca88b1132d0c44e0b4021e5c3668c34cd95",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

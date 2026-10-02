@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "61d0c45b-c19b-4db9-b6bc-55f026360366",
+    "response_id": "chatcmpl-EULA03rz2L0k6VrtNKacJyIbeTE9R",
+    "usage": {
+      "completion_tokens": 1526,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6246,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7772
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>“And I heard a voice from heaven, as the voice of many waters, and as the voice of a great thunder: and I heard the voice of harpers harping with their harps” (Revelation 14:2) Según el libro de Apocalipsis, el trono de Dios está rodeado de sonido: truenos y relámpagos; alabanzas que fluyen de los ángeles, las cuatro criaturas y los veinticuatro ancianos, y la gran multitud que nadie puede contar; y el nuevo cántico de los ciento cuarenta y cuatro mil.</p>",
+        "severity": "major",
+        "source_quote": "\"...the four beasts and twenty elders, and the great multitude which no man can number; and the new song by the one hundred and forty four thousand.\"",
+        "suggested_fix": "Preserve the original numeral phrase from the authoritative English source. Replace \"las cuatro criaturas y los veinticuatro ancianos\" with \"las cuatro bestias y veinte ancianos\" (or keep the original English phrase in quotes if style requires). Ensure the translation does not alter or correct Scripture-related numerals. Maintain the surrounding HTML exactly as in the translation when applying the change.",
+        "translation_quote": "\"...las cuatro criaturas y los veinticuatro ancianos, y la gran multitud que nadie puede contar; y el nuevo cántico de los ciento cuarenta y cuatro mil.\""
+      },
+      {
+        "location": "<p>El sentido de realización que proviene de un trabajo bien hecho tiene su origen en la creación, donde Dios miró Su obra y la declaró buena. ... ¿Cómo deberíamos, como instrumentos sonoros, reflejar la belleza de Dios mediante el sonido? Siempre deberíamos procurar escuchar y asemejarnos a los sonidos y armonías del cielo. ... La persona que ama a Dios será atraída hacia Él siempre que sea serenateada por sonidos agradables: ...</p>",
+        "severity": "minor",
+        "source_quote": "\"...the people of God singing the songs of Zion, the prayers of the saints, the wind whispering through the treetops, the songbird praising its Maker, the rumble of thunder, or the simple patter of rain on the roof.\"",
+        "suggested_fix": "Correct the nonstandard Spanish verb form \"serenateada\" to a natural Spanish phrasing that preserves meaning. Suggested replacement: \"sea serenada por sonidos agradables\" or \"sea cautivada por sonidos agradables\". Keep the HTML tags and surrounding text unchanged.",
+        "translation_quote": "\"La persona que ama a Dios será atraída hacia Él siempre que sea serenateada por sonidos agradables: el pueblo de Dios cantando los cánticos de Sion, ...\""
+      },
+      {
+        "location": "<p>David experimentó el placer que proviene de conocer y experimentar a Dios en toda su plenitud. ¿Cómo expresa Dios Su Belleza?</p>",
+        "severity": "minor",
+        "source_quote": "\"How does God express His Beauty?\"",
+        "suggested_fix": "Fix capitalization for natural Spanish: change \"Su Belleza\" to \"su belleza\" so it reads: \"¿Cómo expresa Dios su belleza?\" Preserve paragraph tags and order.",
+        "translation_quote": "\"¿Cómo expresa Dios Su Belleza?\""
+      }
+    ],
+    "passed": false,
+    "score": 86
+  }
+}

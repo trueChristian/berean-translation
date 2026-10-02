@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8d684af5-05d6-42ee-950c-0ee1e1d4de3c",
+    "response_id": "chatcmpl-EULA69hJFHLFK54pRyQj5RqiUVkQM",
+    "usage": {
+      "completion_tokens": 1170,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6857,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8027
+    }
+  },
+  "received_at": "2026-10-02T00:14:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph about the Ascension (source paragraph: \"We see a beautiful scene at the Mount of Olives forty days later...\")",
+        "severity": "minor",
+        "source_quote": "...wistfully gazed into the sky, watching as their risen Lord disappeared into the heavens.",
+        "suggested_fix": "Fix the Urdu wording to correctly render 'wistfully gazed' and the rest of the clause. Replace the phrase \"دل میں لوانگے لے کر آسمان کی طرف دیکھ رہے تھے، دیکھتے ہوئے کہ اُن کا جی اُٹھا ہوا آقا آسمانوں میں غائب ہو رہا ہے۔\" with a clear idiomatic Urdu equivalent that preserves the author’s tone and meaning, for example: \"چالیس دن بعد ہم نے اولیو کے پہاڑ پر ایک خوبصورت منظر دیکھا جب وہی شاگرد دلگیر نظروں سے آسمان کی طرف گھور رہے تھے اور دیکھ رہے تھے کہ ان کا جی اُٹھا ہوا آقا آسمانوں میں غائب ہو رہا ہے۔\"",
+        "translation_quote": "چالیس دن بعد ہم نے اولیو کے پہاڑ پر ایک خوبصورت منظر دیکھا جب وہی شاگرد دل میں لوانگے لے کر آسمان کی طرف دیکھ رہے تھے، دیکھتے ہوئے کہ اُن کا جی اُٹھا ہوا آقا آسمانوں میں غائب ہو رہا ہے۔"
+      },
+      {
+        "location": "Paragraph on Revelation (sentence about the 144,000)",
+        "severity": "minor",
+        "source_quote": "...and the new song by the one hundred and forty four thousand.",
+        "suggested_fix": "Preserve the original agentive meaning 'by the one hundred and forty four thousand.' Replace the Urdu phrase \"اور وہ ایک سو چونتالیس ہزار کے لیے نیا گانا۔\" with a phrase that keeps 'by' (i.e., that the 144,000 sing the new song), for example: \"اور ایک سو چونتالیس ہزار کے ذریعے گایا جانے والا نیا گانا۔\" or \"اور ایک سو چونتالیس ہزار کا نیا گانا۔\"",
+        "translation_quote": "اور وہ ایک سو چونتالیس ہزار کے لیے نیا گانا۔"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

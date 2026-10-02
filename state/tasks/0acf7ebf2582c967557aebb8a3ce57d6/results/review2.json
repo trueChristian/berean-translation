@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "fed5bd6d-0c9e-4927-b3f7-04505cd6e3ed",
+    "response_id": "chatcmpl-EUL9otC7f081rjyP1yiLOIG7ewFNi",
+    "usage": {
+      "completion_tokens": 737,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3912,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4649
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "Fun for Everyone",
+        "suggested_fix": "Translate the English title into standard contemporary Bengali to match the rest of the translation and the target-language guidance. Suggested Bengali title: \"সবাইদের জন্য মজা\" (or \"সবাইকে উপভোগের খেলায়\"). Preserve the title field only; do not alter source HTML tags.",
+        "translation_quote": "Fun for Everyone"
+      },
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "Children’s Corner",
+        "suggested_fix": "Translate the section label into Bengali to match target-language usage. Suggested Bengali section: \"শিশুদের কোণ\". Keep the section field unchanged in structure—only change the text value.",
+        "translation_quote": "Children’s Corner"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

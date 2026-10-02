@@ -2,7 +2,6 @@
   "article_id": "e848a36d-36eb-4f7d-aea7-e17ab34a8870",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -62,31 +61,52 @@
         },
         "total_tokens": 14702
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1608,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9129,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10737
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "Entire article — section and h2 headings",
-      "severity": "minor",
-      "source_quote": "<h2>Dementia in the Bible</h2> ... <h2>What Dementia is</h2> <h2>Diagnosing Dementia</h2> <h2>Eliminate Medications</h2> <h2>Medical Treatments</h2> <h2>Non-medication Therapies</h2> <h2>Caring For Someone with Dementia</h2> <h2>Get Others to Help</h2> <h2>Conclusion</h2>",
-      "suggested_fix": "Translate the English H2 headings into Korean while preserving the exact HTML tags and attributes. For example replace <h2>Dementia in the Bible</h2> with <h2>성경에서 본 치매</h2>, <h2>What Dementia is</h2> with <h2>치매란 무엇인가</h2>, and so on. Do not alter tag order, nesting, or attributes.",
-      "translation_quote": "<h2>Dementia in the Bible</h2> ... <h2>What Dementia is</h2> <h2>Diagnosing Dementia</h2> <h2>Eliminate Medications</h2> <h2>Medical Treatments</h2> <h2>Non-medication Therapies</h2> <h2>Caring For Someone with Dementia</h2> <h2>Get Others to Help</h2> <h2>Conclusion</h2>"
+      "location": "source.html — paragraph beginning with \"Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process.\"",
+      "severity": "major",
+      "source_quote": "Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”",
+      "suggested_fix": "Translate this entire quoted passage into Korean so the Korean translation conveys the exact content of the printed English quotation (or include a faithful Korean rendering that mirrors the English wording). Do not omit or alter the quoted biblical text. Keep the surrounding sentence in Korean as currently translated.",
+      "translation_quote": "Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”"
     },
     {
-      "location": "Paragraph — source: “I thought that was what was going on.”",
-      "severity": "minor",
-      "source_quote": "“I thought that was what was going on,” I replied.",
-      "suggested_fix": "Render the meaning more closely to the English original. Suggested Korean: “그게 무슨 일인지라고 생각했습니다.” or “그게 바로 그런 상황인 줄 알았어요.” Keep surrounding HTML identical.",
-      "translation_quote": "“그게 무슨 일인가 싶었어요.” 나는 대답했다."
+      "location": "source.html — paragraph containing Deuteronomy quotation (paragraph after \"This is not the only place in Scripture...\")",
+      "severity": "major",
+      "source_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7).",
+      "suggested_fix": "Render this quoted Deuteronomy verse into Korean so it conveys the printed English quotation's content (a faithful Korean rendering of the quoted English). Preserve the citation (Deuteronomy 6:7). Do not leave the English text untranslated in the Korean article.",
+      "translation_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7)."
     },
     {
-      "location": "Final paragraphs — closing two sentences",
-      "severity": "minor",
-      "source_quote": "It is only through the Holy Spirit’s power that we can provide the care that is needed for someone whose body is strong, but who no longer even recognizes you.",
-      "suggested_fix": "Combine or tighten the two Korean sentences that duplicate the original thought so they reflect the single English sentence. Suggested Korean (preserve p tags): \"오직 성령의 능력을 통해서만, 몸은 건장하나 더 이상 당신을 알아보지 못하는 사람에게 필요한 돌봄을 제공할 수 있습니다.\"",
-      "translation_quote": "온전한 돌봄을 제공할 수 있는 것은 오직 성령의 능력뿐이다. 신체는 강하지만 더 이상 당신을 알아보지 못하는 사람을 돌보는 데 필요한 것은 성령의 능력이다."
+      "location": "source.html — paragraph in Conclusion containing Galatians quotation",
+      "severity": "major",
+      "source_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23).",
+      "suggested_fix": "Translate this Galatians quotation into Korean so the article conveys the printed English quotation's content in Korean (a faithful Korean rendering of the quoted English). Preserve the scripture reference (Galatians 5:22-23). Do not leave the English quotation unchanged in the translated article.",
+      "translation_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23)."
     }
   ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "3376b7c7bb13eeed5599953b299818e4",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "kor",
@@ -130,13 +150,13 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 70,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

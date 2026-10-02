@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "26b0db28-6582-4350-9317-b04ef5ee5f23",
+    "response_id": "chatcmpl-EUL9xoRphm0nsdXxXpyGbxmK4fGpg",
+    "usage": {
+      "completion_tokens": 942,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1549,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2491
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> (second stanza, line 2)",
+        "severity": "minor",
+        "source_quote": "I greet Thy going forth;",
+        "suggested_fix": "Translate the phrase with a more natural Norwegian rendering of “going forth,” e.g. “Jeg hilser Din utferd;” or “Jeg hilser Din utferd/utgang” to avoid the slightly odd noun “utgang.” Preserve capitalization of divine pronouns as in the rest of the poem (see other fixes).",
+        "translation_quote": "Jeg hilser Din utgang;"
+      },
+      {
+        "location": "<div class=\"poem\"> (fifth stanza, line 2)",
+        "severity": "minor",
+        "source_quote": "Creator Spirit, work in me\nThese wonders sweet of Thine;",
+        "suggested_fix": "Capitalize the divine pronoun for consistency with earlier lines addressing God (e.g. change “dine” to “Dine”): “Skaperens Ånd, arbeid i meg\nDisse Dine søte undere;”",
+        "translation_quote": "Skaperens Ånd, arbeid i meg\nDisse dine søte undere;"
+      },
+      {
+        "location": "<div class=\"poem\"> (third stanza, line 4)",
+        "severity": "minor",
+        "source_quote": "These new births more divine:",
+        "suggested_fix": "Remove the comma and smooth word order for Norwegian naturalness while preserving meaning, e.g. “Disse mer guddommelige nyfødte fødsler:” or better “Disse mer guddommelige nyfødsler:”",
+        "translation_quote": "Disse nyfødte, mer guddommelige fødsler:"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

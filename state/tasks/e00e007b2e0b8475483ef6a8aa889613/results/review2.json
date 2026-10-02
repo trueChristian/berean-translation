@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5bfa7105-bef1-4a3f-aca3-82c083cab391",
+    "response_id": "chatcmpl-EUL9xewsS4LkDgQRRFZPbgn5J8Nux",
+    "usage": {
+      "completion_tokens": 1728,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8247,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9975
+    }
+  },
+  "received_at": "2026-10-02T00:14:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>…Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.” …</p>",
+        "severity": "major",
+        "source_quote": "Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”",
+        "suggested_fix": "Translate the two-sentence unit to convey the same content as the source. Keep the question-and-answer structure and the wording equivalent to the English source. For example (preserving HTML tags and punctuation):\n\n<p>...Psalm 24:3-4 frågar “Who shall see God?” Svaret är “he that hath clean hands and a pure heart.” …</p>\n\n(Or, if preferred in Swedish while preserving the source sense exactly: “Psalm 24:3–4 frågar ‘Vem skall se Gud?’ Svaret är ‘Den som har rena händer och ett rent hjärta.’”)",
+        "translation_quote": "I Uppenbarelseboken 19 står det “De renhjärtade skola se Gud.” Psalm 24:3-4 frågar “Vem får träda in i Herrens högtid?” Svaret är “Den som har rena händer och ett rent hjärta.” Med andra ord, det är de som är rena både inifrån och ut som skall se Gud och träda in i Hans närhet."
+      },
+      {
+        "location": "throughout article: inline scripture references in parentheses (e.g., “(Matthew 5:8)”, “(Philippians 1:10)”, “(Philippians 4:8)”, “(1Timothy 5:22)”, “(Matthew 23:26)”)",
+        "severity": "minor",
+        "source_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Jesus said, “Cleanse first the inside of the cup and platter that the outside may be clean also” (Matthew 23:26).",
+        "suggested_fix": "Make the book/verse citations consistent with the source. The authoritative English metadata uses English book names (e.g., Matthew, Philippians, 1Timothy). In the translation some citations remain English while others were rendered into Swedish in other places. Choose one approach and follow the source: preserve the same book-name strings as in the source HTML (e.g., use “(Matthew 5:8)”, “(Philippians 1:10)”, etc.), or consistently translate all book names but ensure every citation conveys the same verse anchors. Do not change verse numbers. Preserve HTML tags and surrounding punctuation exactly.",
+        "translation_quote": "Lägg märke till vad Skriften säger om att vara ren. “Saliga är de renhjärtade” (Matthew 5:8). “Så att ni må pröva vad som är gott, så att ni må vara uppriktiga (rena) och utan skam inför Kristi dag” (Philippians 1:10). “Tänk på det som är rent” (Philippians 4:8). “Håll dig ren” (1Timothy 5:22). ... Jesus sade, “Rengör först bägaren inifrån, så blir också utsidan ren” (Matthew 23:26)."
+      },
+      {
+        "location": "<blockquote class=\"poem\">Poem: first stanza—“Ju ärligare jag namnger…”",
+        "severity": "minor",
+        "source_quote": "Two forces lie within my breast,\n    The one I love, the one I hate.\n    But the one I feed will dominate.",
+        "suggested_fix": "Improve idiomatic Swedish while preserving the original sense and the HTML structure. For example replace the first line with a more natural rendering: \n\n<p><em>Två krafter bor i mitt bröst,<br>\nDen ena jag älskar, den ena jag hatar.<br>\nMen den jag ger näring åt skall härska.</em></p>\n\nThis keeps meaning and meter while using idiomatic Swedish verbs (’ger näring åt’ instead of ’ger näring åt skall’ if needed). Ensure the tag structure and author attribution remain unchanged.",
+        "translation_quote": "<p><em>Två krafter bor i mitt bröst,<br>\n    Den ena jag älskar, den ena jag hatar.<br>\n    Men den jag ger näring åt skall härska.</em></p>"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

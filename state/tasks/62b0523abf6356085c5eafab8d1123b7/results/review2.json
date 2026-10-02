@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1c381721-643f-407b-b55b-6f3a8083a1b6",
+    "response_id": "chatcmpl-EULATXJ5dar0Ux6o9RTHk6hEfhI3T",
+    "usage": {
+      "completion_tokens": 1167,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3643,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4810
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: “You can just have your playhouse.” (source.html near: \"She picked up her shopping bag and put her sandwich and cookie bags into it. She threw her apple core to the dogs and started for the house.\")",
+        "severity": "minor",
+        "source_quote": "\"You can just have your playhouse.\"",
+        "suggested_fix": "Replace the translated sentence with a closer, neutral rendering that preserves the original tone and meaning without adding negativity or changing nuance. Suggested replacement (preserving paragraph structure): «Вы можете просто оставить себе домик для игр.»",
+        "translation_quote": "«Ваш домик — остаётся ваш проблемой.»"
+      },
+      {
+        "location": "Same paragraph (grammatical agreement)",
+        "severity": "minor",
+        "source_quote": "\"You can just have your playhouse.\"",
+        "suggested_fix": "Fix agreement in Russian: change «Ваш домик — остаётся ваш проблемой.» to «Ваш домик — остаётся вашей проблемой.» or better to the suggested neutral rendering above.",
+        "translation_quote": "«Ваш домик — остаётся ваш проблемой.»"
+      },
+      {
+        "location": "Paragraph: \"Resolutely, she walked out of the pasture to find Asher and the girls.\"",
+        "severity": "minor",
+        "source_quote": "\"Resolutely, she walked out of the pasture to find Asher and the girls.\"",
+        "suggested_fix": "The translation adds an explicit motive (“решив помочь”) that is an interpretive expansion. For closer fidelity, render without adding motive, e.g. replace «Полностью решив помочь, она вышла на луг в поисках Эшера и девочек.» with «Решительно она вышла на луг, чтобы найти Эшера и девочек.»",
+        "translation_quote": "«Полностью решив помочь, она вышла на луг в поисках Эшера и девочек.»"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

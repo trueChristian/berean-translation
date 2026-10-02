@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8e91d03d-b20a-45c8-9442-1dac35bce637",
+    "response_id": "chatcmpl-EUL9pWazCSLViXnLFujMfQ672svrd",
+    "usage": {
+      "completion_tokens": 1631,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6429,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8060
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — multiple Bible quotations (Isaiah 33:17, Psalm 27:4, 2 Corinthians 4:4-6, 1 Corinthians 13:12, Isaiah 61:3, Psalm 19:1, Romans 1:20, Psalm 48:1-2, 2 Chronicles 7:1, Revelation 21:2-3, Hebrews 12:12, Psalm 37:4, Revelation 14:2, Psalm 19:1 etc.)",
+        "severity": "critical",
+        "source_quote": "“Thine eyes shall see the king in his beauty: they shall behold the land that is very far off” (Isaiah 33:17). ... “One thing have I desired of the LORD, that will I seek after; that I may dwell in the house of the LORD all the days of my life, to behold the beauty of the LORD, and to inquire in his temple” (Psalm 27:4). ... “In whom the god of this world hath blinded the minds of them which believe not, lest the light of the glorious gospel of Christ, who is the image of God, should shine unto them. For we preach not ourselves, but Christ Jesus the Lord; and ourselves your servants for Jesus' sake. For God, who commanded the light to shine out of darkness, hath shined in our hearts, to give the light of the knowledge of the glory of God in the face of Jesus Christ” (2 Corinthians 4:4-6). ... “For now we see through a glass, darkly; but then face to face: now I know in part; but then shall I know even as also I am known” (1 Corinthians 13:12). ... (additional quoted verses appear throughout the article in the same English wording).",
+        "suggested_fix": "Translate each printed English Bible quotation into Russian so the translation conveys the exact meaning of the printed English quotes used in the source. Preserve the verse citations in parentheses immediately following each quotation. Do not substitute a differently worded Bible version; render the English lines into contemporary Russian while keeping punctuation and verse numbers as in the source. For example, replace “Thine eyes shall see the king in his beauty: they shall behold the land that is very far off” (Isaiah 33:17) with a faithful Russian rendering of that exact English sentence, preserving the citation (Isaiah 33:17). Ensure all quoted Scripture passages in source.html are rendered into Russian consistently.",
+        "translation_quote": "Many of the same Bible quotations remain in English inside the translated article (for example: “Thine eyes shall see the king in his beauty: they shall behold the land that is very far off” (Isaiah 33:17); “One thing have I desired of the LORD...” (Psalm 27:4); the long quotation from 2 Corinthians 4:4-6; and others)."
+      },
+      {
+        "location": "source.html — image alt text for first figure",
+        "severity": "minor",
+        "source_quote": "alt=\"A yellow flower against green leaves\"",
+        "suggested_fix": "The translation alt is fine semantically but could be made more natural Russian: use \"Желтый цветок на фоне зелёных листьев\" (note suggested accent and adjective agreement). Preserve HTML attribute structure.",
+        "translation_quote": "alt=\"Желтый цветок на фоне зеленых листьев\""
+      },
+      {
+        "location": "source.html — paragraph describing 'redwood' in Creation section",
+        "severity": "minor",
+        "source_quote": "\"a towering redwood\"",
+        "suggested_fix": "Use the common Russian name 'секвойя' (or 'высокая секвойя') instead of the literalized 'секвойядендрон' to sound natural: e.g. replace 'возвышенный секвойядендрон' with 'возвышенная секвойя' or 'высокая секвойя'. Preserve original HTML tags.",
+        "translation_quote": "\"возвышенный секвойядендрон\""
+      },
+      {
+        "location": "source.html — alt text for final figure (puffball fungus)",
+        "severity": "minor",
+        "source_quote": "alt=\"A puffball fungus growing on a mossy forest floor\"",
+        "suggested_fix": "Use a more idiomatic Russian noun phrase: replace 'Пуховик-гриб, растущий на мшистом лесном полу' with 'Пуховик (гриб), растущий на мшистом лесном покрове' or 'Гриб-пуховик на мшистом лесном полу'. Preserve the img alt attribute and HTML structure.",
+        "translation_quote": "alt=\"Пуховик-гриб, растущий на мшистом лесном полу\""
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

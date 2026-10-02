@@ -2,7 +2,6 @@
   "article_id": "31ea7041-cab6-4ccd-9ead-04cc949321a6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:45+00:00",
   "events": [
@@ -62,52 +61,44 @@
         },
         "total_tokens": 9514
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 737,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5824,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6561
+      }
     }
   ],
   "findings": [
     {
-      "location": "<h2>The Doctrine of Nonresistance</h2>",
-      "severity": "major",
-      "source_quote": "<h2>The Doctrine of Nonresistance</h2>",
-      "suggested_fix": "Translate the heading text into Korean while preserving the tag, e.g. <h2>비저항 교리</h2>",
-      "translation_quote": "<h2>The Doctrine of Nonresistance</h2>"
+      "location": "<figure> first img alt attribute in source.html",
+      "severity": "minor",
+      "source_quote": "An open Bible with pages turning",
+      "suggested_fix": "Replace the alt text value in the <img> tag with a more natural Korean phrasing while preserving the element and attributes. For example: <img src=\"/images/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6-1.jpg\" alt=\"페이지가 넘기는 펼쳐진 성경\">",
+      "translation_quote": "넘겨지는 장을 가진 펼쳐진 성경책"
     },
     {
-      "location": "<h2>The Emphasis of Biblical Foundations</h2>",
-      "severity": "major",
-      "source_quote": "<h2>The Emphasis of Biblical Foundations</h2>",
-      "suggested_fix": "Translate the heading text into Korean while preserving the tag, e.g. <h2>성경적 기초의 강조</h2>",
-      "translation_quote": "<h2>The Emphasis of Biblical Foundations</h2>"
-    },
-    {
-      "location": "<h2>Importance of Practical Salvation</h2>",
-      "severity": "major",
-      "source_quote": "<h2>Importance of Practical Salvation</h2>",
-      "suggested_fix": "Translate the heading text into Korean while preserving the tag, e.g. <h2>실천적 구원의 중요성</h2>",
-      "translation_quote": "<h2>Importance of Practical Salvation</h2>"
-    },
-    {
-      "location": "<h2>The Seriousness of a Pure Church</h2>",
-      "severity": "major",
-      "source_quote": "<h2>The Seriousness of a Pure Church</h2>",
-      "suggested_fix": "Translate the heading text into Korean while preserving the tag, e.g. <h2>거룩한 교회의 엄중함</h2>",
-      "translation_quote": "<h2>The Seriousness of a Pure Church</h2>"
-    },
-    {
-      "location": "<h2>The Teachings of Practical Christianity</h2>",
-      "severity": "major",
-      "source_quote": "<h2>The Teachings of Practical Christianity</h2>",
-      "suggested_fix": "Translate the heading text into Korean while preserving the tag, e.g. <h2>실천적 기독교의 가르침</h2>",
-      "translation_quote": "<h2>The Teachings of Practical Christianity</h2>"
-    },
-    {
-      "location": "<h2>Conclusion</h2>",
-      "severity": "major",
-      "source_quote": "<h2>Conclusion</h2>",
-      "suggested_fix": "Translate the heading text into Korean while preserving the tag, e.g. <h2>결론</h2>",
-      "translation_quote": "<h2>Conclusion</h2>"
+      "location": "Paragraph that begins \"Thus, a pure church is a surrendered...\" (near the phrase \"we can see the Christian life in shoe leather.\")",
+      "severity": "minor",
+      "source_quote": "In this way, we can see the Christian life in shoe leather.",
+      "suggested_fix": "Provide a more natural Korean idiom while preserving the paragraph and tags. For example replace the sentence inside the same <p> element with: \"이런 식으로 우리는 실천적 그리스도인의 삶을 일상에서 확인할 수 있다.\" Do not alter surrounding HTML tags.",
+      "translation_quote": "이런 식으로 우리는 실천적 그리스도인의 삶을 구두 밑에서 본다."
     }
   ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "95846e4f4363f1559ad312314036e509",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "kor",
@@ -151,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/89fccb1e579c0ea7c2e8e4f5bade339b25251e139570b39f442b2c1c8ea4bc11.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "9001af1f34c52b235af4ae22af79ba7fa0d5cf2bf7273485ec1e06a8188fc9a6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

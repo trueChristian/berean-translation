@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9bf507bd-2944-4064-880c-e2ccc7d1d96f",
+    "response_id": "chatcmpl-EULAA4PUpPTeZQf42AI7lT7ZyQugf",
+    "usage": {
+      "completion_tokens": 1313,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3006,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4319
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>…il Salmista scrisse, «Sia applaudano i fiumi, e tutte le colline esultino insieme davanti al SIGNORE;…» (Psalms 98:8-9)</p>",
+        "severity": "minor",
+        "source_quote": "“Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9).",
+        "suggested_fix": "Correct the Italian grammar of the translation while preserving the original meaning and the printed-English reference. Replace «Sia applaudano i fiumi, e tutte le colline esultino insieme davanti al SIGNORE;» with «Che applaudano i fiumi e tutte le colline esultino insieme davanti al SIGNORE;» or «Siano applaudano i fiumi e tutte le colline esultino insieme davanti al SIGNORE;». Maintain the (Psalms 98:8-9) citation exactly as in the source.",
+        "translation_quote": "«Sia applaudano i fiumi, e tutte le colline esultino insieme davanti al SIGNORE; perché egli viene a giudicare la terra: con giustizia giudicherà il mondo, e i popoli con rettitudine» (Psalms 98:8-9)."
+      },
+      {
+        "location": "<p>…Quest'anno le piccole rane corritrici della nostra zona sono state “rane invernali”…</p>",
+        "severity": "minor",
+        "source_quote": "This year the spring peepers in our area were “winter peepers” as they feebly squeaked their greetings to the arriving spring in mid-February.",
+        "suggested_fix": "Render the common name idiomatically in Italian. Replace «piccole rane corritrici» with a more natural Italian equivalent such as «le spring peepers (piccole rane primaverili)» or «le spring peepers (piccole rane primaverili, dette 'peepers')» to avoid the awkward literal calque. Keep the nuance that they were unusually active in winter (\"sono state “rane invernali\"\"), as in the source.",
+        "translation_quote": "Quest'anno le piccole rane corritrici della nostra zona sono state “rane invernali”, mentre gracchiavano debolmente i loro saluti all'arrivo della primavera a metà febbraio."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

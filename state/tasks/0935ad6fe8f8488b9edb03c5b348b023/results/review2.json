@@ -1,0 +1,78 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "226032c2-85c3-48dc-8287-d846813ddbfd",
+    "response_id": "chatcmpl-EULAUijEGChmx9XO1AxpnWTGZw6lG",
+    "usage": {
+      "completion_tokens": 2028,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3178,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5206
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 2 — Psalm quotation (Psalms 98:8-9)",
+        "severity": "critical",
+        "source_quote": "“Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9).",
+        "suggested_fix": "Render the printed English quotation exactly as it appears in the authoritative English article (or include that exact English quotation verbatim) rather than substituting a Hebrew wording. For example, include the full English quote exactly: “Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9). Preserve the existing surrounding HTML and punctuation.",
+        "translation_quote": "“יְרַעֲמוּ הַמַּיִם וְהָרִים יָשִׂישׂוּ יַחְדָּו לִפְנֵי יְהוָה; כִּי־הוּא בָא לִשְׁפֹּט הָאָרֶץ: בַּצֶּדֶק יִשְׁפֹּט הָעוֹלָם, וּבְמִשְׁפָּט לְעַמִּים־לָעוֹלָם” (Psalms 98:8-9)."
+      },
+      {
+        "location": "Paragraph 4 — John quotation (John 4:14)",
+        "severity": "critical",
+        "source_quote": "“well of water springing up into everlasting life” (John 4:14).",
+        "suggested_fix": "Preserve the exact printed English wording from the authoritative article for the Scripture quotation (or include that English quotation verbatim) rather than replacing it with a Hebrew rendering. For example: “well of water springing up into everlasting life” (John 4:14). Keep surrounding HTML unchanged.",
+        "translation_quote": "\"המעיין של מים הזורמים אל־חיי עולם\" (John 4:14)."
+      },
+      {
+        "location": "Paragraph 9 — Isaiah quotation (Isaiah 61:11)",
+        "severity": "critical",
+        "source_quote": "“For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11).",
+        "suggested_fix": "Use the exact printed English quotation from the authoritative article (or include it verbatim) instead of substituting a Hebrew translation. Example to include: “For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11). Preserve HTML structure.",
+        "translation_quote": "\"כִּי־כַּאֲשֶׁר הָאָרֶץ תּוֹצִיא נֵצֶרָּהּ, וּכְגַן הַמּוֹצִיא אֶת־הַנִּזְרָעוֹת אֲשֶׁר־בוֹ; כֵּן יְהוָה אֱלֹהִים יָבִיא צֶדֶק וּתְהִלָּה לִפְנֵי כָּל־הַגּוֹיִם\" (Isaiah 61:11)."
+      },
+      {
+        "location": "Paragraph 4 — \"Hymn History\" reference and subsequent poem attribution",
+        "severity": "minor",
+        "source_quote": "\"Hymn History article in this issue:\" (and the following quoted hymn in English in source HTML)",
+        "suggested_fix": "If the authoritative English article left the Hymn History title in English, this may be acceptable. If the guideline is to translate article titles, choose either to leave the title exactly as in the source English (preferred to preserve author intent) or translate consistently. Also ensure the printed English hymn lines from the authoritative article are preserved exactly if they were originally printed in English; if the authoritative English included the hymn in English, include that English wording verbatim in the translation, or explicitly preserve the original English hymn lines in addition to any Hebrew rendering.",
+        "translation_quote": "\"המעיין של ישוע כמתואר במאמר ה\\\"Hymn History\\\" בגיליון זה:\" and the hymn is rendered into Hebrew rather than preserving the original printed English."
+      },
+      {
+        "location": "Paragraph 7 — Untranslated article titles inside quotes (\"Sister to Sister\", \"How to Increase Your Faith\")",
+        "severity": "minor",
+        "source_quote": "\"Sister to Sister\" and \"How to Increase Your Faith\" (article titles in the source HTML)",
+        "suggested_fix": "Preserve the exact formatting of the English article titles only if that matches the authoritative English source. If the source left them in English, retain those exact English strings. If the authoritative English used them in English within the article, include them verbatim or translate consistently across the publication. Maintain existing HTML structure.",
+        "translation_quote": "\"Sister to Sister\" and \"How to Increase Your Faith\" remain in English in the translation; consider preserving or consistently translating titles according to project style."
+      },
+      {
+        "location": "Paragraph 6 — Temperature unit",
+        "severity": "minor",
+        "source_quote": "\"110 degrees.\"",
+        "suggested_fix": "The translation added the unit label \"פרנהייט\". If the authoritative English did not specify the unit, remove the added unit or match the source's presentation (e.g., leave as \"110 degrees\" without specifying Fahrenheit) unless localization rules require conversion. Preserve meaning without introducing a unit not present in the source.",
+        "translation_quote": "\"הטמפרטורות במהלך היום עולות על 110 מעלות פרנהייט.\""
+      },
+      {
+        "location": "Paragraph 1 — \"spring peepers\" term",
+        "severity": "minor",
+        "source_quote": "\"spring peepers\"",
+        "suggested_fix": "\"Spring peepers\" was transliterated as \"ה\\\"פיפרים\\\" של האביב\" and then \"\\\"פיפרי חורף\\\"\" for \"winter peepers.\" Consider using a natural Hebrew equivalent or a consistent transliteration without unnecessary quotes, e.g., \"צופרי האביב\" or include the original common name in parentheses. This is stylistic; adjust only if preferred by editorial style.",
+        "translation_quote": "\"ה\\\"פיפרים\\\" של האביב\" and \"\\\"פיפרי חורף\\\" כשהם זמזמו...\""
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

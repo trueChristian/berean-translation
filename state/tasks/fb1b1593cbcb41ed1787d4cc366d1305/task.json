@@ -2,7 +2,6 @@
   "article_id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -62,24 +61,45 @@
         },
         "total_tokens": 9907
       }
-    }
-  ],
-  "findings": [
-    {
-      "location": "<p>...“Jesus loves the little children, all the children of the world.”...</p> (paragraph describing the Sunday school song)",
-      "severity": "major",
-      "source_quote": "“Jesus loves the little children, all the children of the world.”",
-      "suggested_fix": "Translate the quoted song line into Indonesian to match the surrounding translation and avoid leaving a substantive passage untranslated. For example: “'Yesus mengasihi anak-anak kecil, semua anak di seluruh dunia.'\" Replace the existing English-line text between the same quotation marks and preserve surrounding HTML and attributes.",
-      "translation_quote": "“Jesus loves the little children, all the children of the world.”"
     },
     {
-      "location": "Throughout article (consistency): English 'Jesus' inside the quoted song vs Indonesian 'Yesus' elsewhere",
-      "severity": "minor",
-      "source_quote": "(source uses English proper name 'Jesus' only in the quoted song; elsewhere the English text uses 'God' and 'Jesus' as in English)",
-      "suggested_fix": "Make the rendering of the name for Jesus consistent in the translation. Either translate the quoted song so the name appears as 'Yesus' to match the rest of the Indonesian text, or if keeping the song in English is preferred, consistently retain 'Jesus' elsewhere (but current translation already uses 'Yesus' elsewhere). Prefer changing the quoted song to Indonesian (see major suggestion) to resolve inconsistency.",
-      "translation_quote": "The translation currently keeps the song line as English 'Jesus' while later paragraphs use 'Yesus' (e.g., “Ia telah mengalami kasih Tuhan yang tak bersyarat.” and later references to Yesus)."
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1158,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6259,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7417
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "findings": [
+    {
+      "location": "<p>…placed in different foster homes.</p> (third paragraph after first <hr>)",
+      "severity": "major",
+      "source_quote": "\"He had heard them fighting a lot, but he didn’t know that it was possible for Mom and Dad to separate. It crushed his heart and confused his innocent soul. He did not know how to handle the stress and change that was tossed on his peaceful life.\" ... \"His mom was not able to properly care for him and his siblings, and so the children were placed in different foster homes.\"",
+      "suggested_fix": "Translate \"placed in different foster homes\" so it preserves the meaning of placement with different foster families, not an institutional orphanage. For example: \"sehingga anak-anak itu ditempatkan di keluarga asuh yang berbeda.\" Keep the surrounding HTML and tags unchanged.",
+      "translation_quote": "\"Ibunya tidak mampu merawat dia dan saudara-saudaranya dengan benar, sehingga anak-anak itu ditempatkan di panti asuhan yang berbeda.\""
+    },
+    {
+      "location": "<p>\"Ken lived on the beach for a year and a half and then hitchhiked to Arizona.\" (paragraph later in middle section)",
+      "severity": "major",
+      "source_quote": "\"Ken lived on the beach for a year and a half and then hitchhiked to Arizona. There he found a home in a homeless shelter and got a job.\"",
+      "suggested_fix": "Restore the intended meaning of \"hitchhiked\" (i.e., traveled by hitchhiking) rather than \"strolled/walked around.\" Also ensure the two clauses \"found a home in a homeless shelter and got a job\" are both present. For example: \"Ken tinggal di pantai selama satu setengah tahun lalu menumpang mobil (hitchhike) ke Arizona. Di sana ia menemukan tempat di penampungan tunawisma dan mendapat pekerjaan.\" Preserve the HTML tags and order.",
+      "translation_quote": "\"Ken tinggal di pantai selama satu setengah tahun lalu berjalan-jalan ke Arizona. Di sana ia menemukan tempat di penampungan tunawisma dan mendapat pekerjaan.\""
+    }
+  ],
+  "finished_at": "2026-10-02T00:14:30+00:00",
   "id": "fb1b1593cbcb41ed1787d4cc366d1305",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "ind",
@@ -123,13 +143,13 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 70,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0c059a0312fc4bb7c1d9113fe70aaa013f3daaefdb55449ee68204bcbaa1c79e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

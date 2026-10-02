@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7ea9a0ca-aa66-47d1-8fbf-67dd0f0f12ee",
+    "response_id": "chatcmpl-EULBH2PDUg6iPGTjc3NbLrgfJhkR0",
+    "usage": {
+      "completion_tokens": 1935,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8196,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10131
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> paragraph 2 (scripture list)",
+        "severity": "major",
+        "source_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”",
+        "suggested_fix": "Translate each quoted Bible phrase into Hebrew so it conveys the exact printed English wording (not substituting another Bible version). Keep the verse references in parentheses as in the source. Example: replace the English quotes with Hebrew equivalents that closely render the printed English lines, e.g. “אשרי הטהורים בלבם” (Matthew 5:8); “שאתם תבחינו המשובים... שתהיו תמימים (=pure) וללא מעלה עד יום המשיח” (render each phrase carefully to match the original English meaning), and keep the parenthetical references unchanged.",
+        "translation_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”"
+      },
+      {
+        "location": "Multiple paragraphs with quoted Bible verses and named-verse sentences (e.g., paragraphs containing “I John 1:6 says...”, “John 10:10”, “Hebrews 4:13 says...”, “Numbers 32:23 is still very true...”, “James 1:15...”, etc.)",
+        "severity": "major",
+        "source_quote": "I John 1:6 says, “if we say that we have fellowship with Him and walk in darkness (light on the outside and darkness on the inside), we lie and do not practice the truth.”\n...\nIn John 10:10, Jesus said, “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy” all godly relationships.\n...\nHebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).”\n...\nNumbers 32:23 is still very true, saying, “Be sure your sin will find you out.”\n...\nJames 1:15 happens: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” Verse 16 says, “Do not (be deceived) my beloved brethren.”",
+        "suggested_fix": "Translate each quoted scripture sentence/phrase into Hebrew so it conveys the same printed English meaning. Retain the verse references. Do not leave the quoted biblical material in English. For example, render I John 1:6 quoted phrase into Hebrew that conveys “if we say that we have fellowship with Him and walk in darkness... we lie and do not practice the truth.” Apply the same approach to John 10:10, Hebrews 4:13, Numbers 32:23, James 1:15–16, and all other inline quoted scripture lines.",
+        "translation_quote": "I John 1:6 says, “if we say that we have fellowship with Him and walk in darkness (light on the outside and darkness on the inside), we lie and do not practice the truth.”\n...\nIn John 10:10, Jesus said, “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy” all godly relationships.\n...\nHebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).”\n...\nNumbers 32:23 is still very true, saying, “Be sure your sin will find you out.”\n...\nJames 1:15 happens: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” Verse 16 says, “Do not (be deceived) my beloved brethren.”"
+      },
+      {
+        "location": "Paragraph near end: “A question to ponder, Is it worth it? Of course, the answer is a resounding NO!”",
+        "severity": "major",
+        "source_quote": "A question to ponder, Is it worth it? Of course, the answer is a resounding NO!",
+        "suggested_fix": "Restore the emphatic negative meaning in Hebrew. The current translation renders this as “התשובה היא לא מוחלטת!” which changes the meaning to “not absolute.” Replace with a Hebrew rendering that preserves the source’s force, for example: “שאלה למחשבה: האם זה שווה את זה? כמובן שהתשובה היא פה-אחד — לא!” or “...התשובה נחרצת: לא!”",
+        "translation_quote": "שאלה למחשבה: האם זה שווה את זה? כמובן שהתשובה היא לא מוחלטת!"
+      },
+      {
+        "location": "End of article — two short poems in blockquotes",
+        "severity": "major",
+        "source_quote": "Two forces lie within my breast,\nThe one I love, the one I hate.\nBut the one I feed will dominate.\n\n—The author’s dad\n\nThe more honestly I name\nwhat is true about myself,\nThe less I need to hide and defend,\nand posture and pretend.\n\n—Dan Allender",
+        "suggested_fix": "Translate the two short poems (and the attributions) into Hebrew so readers of the Hebrew article receive those substantive lines in the target language. Keep the blockquote and <em> tags and the same HTML structure. For example, render the first poem into Hebrew preserving meter/meaning, and render the attributions (e.g., “—The author’s dad” → “—אביו של המחבר”) and the second (—Dan Allender) as a transliterated or Hebrew-rendered name.",
+        "translation_quote": "<p><em>Two forces lie within my breast,<br>\n    The one I love, the one I hate.<br>\n    But the one I feed will dominate.</em></p>\n    <p><em>—The author’s dad</em></p>\n...\n<p><em>The more honestly I name<br>\n    what is true about myself,<br>\n    The less I need to hide and defend,<br>\n    and posture and pretend.</em></p>\n    <p><em>—Dan Allender</em></p>"
+      }
+    ],
+    "passed": false,
+    "score": 65
+  }
+}

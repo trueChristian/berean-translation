@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ae88c042-c48e-47f6-a858-adeb8d859723",
+    "response_id": "chatcmpl-EULAKv4ZcqqYNHUIo3FUXLUaYdY10",
+    "usage": {
+      "completion_tokens": 1396,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6363,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7759
+    }
+  },
+  "received_at": "2026-10-02T00:14:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Quella sera, Ken si rannicchiò nel suo grande, strano letto, già singhiozzando nella solitudine, quando sentì la madre urlare. Saltò giù dal letto e, con le gambe tremanti, si nascose dietro la porta. Lei salì le scale sbraitando furiosamente, e Ken era certo che avrebbe avuto guai. Con sollievo, lei proseguì lungo il corridoio. Era ancora troppo spaventato per lasciare il suo nascondiglio per timore di ricevere una sculacciata. Si asciugò le lacrime mentre cominciava a cantare sottovoce una canzone che aveva sentito alla scuola domenicale: “Gesù ama i bambini, tutti i bambini del mondo.” Si fermò a riflettere, e il pianto cessò. “Allora perché sono qui?” si chiese. “Ho forse fatto qualcosa di sbagliato? Dio non ama i bambini. Quella canzone non è vera! Se Dio mi amasse non sarei qui!” Con quella conclusione scoppiò in lacrime e perse la speranza in Dio. Si svegliò la mattina dopo, ancora nascosto dietro la porta.</p>",
+        "severity": "minor",
+        "source_quote": "He was still too scared to leave his hiding place for fear of receiving a beating.",
+        "suggested_fix": "In questo paragrafo la resa italiana usa «sculacciata», che è meno forte e coerente rispetto all’uso precedente di «percosse». Per preservare il tono e la coerenza lessicale, sostituire «per timore di ricevere una sculacciata» con «per timore di subire percosse». Mantieni invariati i tag HTML.",
+        "translation_quote": "Era ancora troppo spaventato per lasciare il suo nascondiglio per timore di ricevere una sculacciata."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

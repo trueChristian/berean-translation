@@ -2,7 +2,6 @@
   "article_id": "e848a36d-36eb-4f7d-aea7-e17ab34a8870",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -62,24 +61,122 @@
         },
         "total_tokens": 16119
       }
-    }
-  ],
-  "findings": [
-    {
-      "location": "<p>“Seizure medications may make thinking ability worse as well. Having a seizure disorder seems to increase the risk of dementia, but certain older medications like valproate and gabapentin seem to make it harder for older people to think clearly, and shifting to lower-risk seizure medications is in order (if possible) for older people.”</p>",
-      "severity": "major",
-      "source_quote": "Seizure medications may make thinking ability worse as well. Having a seizure disorder seems to increase the risk of dementia, but certain older medications like valproate and gabapentin seem to make it harder for older people to think clearly, and shifting to lower-risk seizure medications is in order (if possible) for older people.",
-      "suggested_fix": "Translate the sentence accurately to convey 'seizure medications' and the relationship to seizure disorder. Preserve HTML tags and punctuation. For example: <p>Seizure medications may make thinking ability worse as well. Having a seizure disorder seems to increase the risk of dementia, but certain older medications like valproate and gabapentin seem to make it harder for older people to think clearly, and shifting to lower-risk seizure medications is in order (if possible) for older people.</p> → <p>জড়তা বা মৃগী-রোগের জন্য ব্যবহৃত ওষুধগুলোও চিন্তা করার ক্ষমতা খারাপ করতে পারে। মৃগী বা সিজার রোগ থাকার ফলে ডিমেনশিয়ার ঝুঁকি বাড়ার মতো দেখায়, কিন্তু ভ্যালপ্রোয়েট এবং গ্যাবাপেন্টিনের মতো কিছু পুরনো ওষুধ বয়স্ক মানুষের জন্য চিন্তা স্পষ্টভাবে কষ্টসাধ্য করে তোলে, তাই (সম্ভব হলে) বয়স্কদের ক্ষেত্রে কম ঝুঁকিযুক্ত মৃগী-উপচারক ওষুধে পরিবর্তন করা উচিত।</p>",
-      "translation_quote": "<p>মদ্রাক্ষেত্রের ওষুধগুলোও চিন্তার ক্ষমতা খারাপ করতে পারে। সিজার (চক্রাঘাত) রোগ থাকা ডিমেনশিয়ার ঝুঁকি বাড়ায় বলে মনে হয়, তবে কিছু পুরনো ওষুধ যেমন ভ্যালপ্রোয়েট এবং গ্যাবাপেন্টিন বয়স্কদের স্পষ্টভাবে চিন্তা করতে কষ্ট দেয়, তাই (সম্ভব হলে) বয়স্কদের জন্য কম ঝুঁকির সিজার ওষুধে পরিবর্তন করা উচিত।</p>"
     },
     {
-      "location": "<p>Diagnosing Dementia section — first sentence</p>",
-      "severity": "minor",
-      "source_quote": "If family members suspect someone is developing memory loss, the best thing is to bring them to their primary care provider for an evaluation.",
-      "suggested_fix": "Fix the garbled or mistranslated phrase so it reads naturally in Bengali and preserves the meaning. Preserve HTML tags. For example: <p>If family members suspect someone is developing memory loss, the best thing is to bring them to their primary care provider for an evaluation.</p> → <p>পরিবারের সদস্যরা যদি সন্দেহ করেন যে কারো স্মৃতিশক্তি কমছে, তাহলে সেরা কাজ হলো তাঁকে মূল্যায়নের জন্য তাদের প্রাথমিক পরিচর্যা প্রদানকারীর কাছে নেওয়া।</p>",
-      "translation_quote": "<p>পরিবারের সদস্যরা যদি সন্দেহ করেন যে কারো স্মৃতিশক্তি কমছে, তাহলে সেরথিন হচ্ছে তাদের প্রাইমারি কেয়ার প্রদানকারীর কাছে নিয়ে যাওয়া মূল্যায়নের জন্য।</p>"
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 2247,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9636,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11883
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "findings": [
+    {
+      "location": "<h2>Dementia in the Bible</h2> (heading)",
+      "severity": "major",
+      "source_quote": "<h2>Dementia in the Bible</h2>",
+      "suggested_fix": "Translate the heading into Bengali while preserving the surrounding <h2> tags. Example: <h2>বাইবেলে ডিমেনশিয়া</h2>",
+      "translation_quote": "<h2>Dementia in the Bible</h2>"
+    },
+    {
+      "location": "Ecclesiastes 12:1-7 paragraph (first long quoted Scripture)",
+      "severity": "major",
+      "source_quote": "Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; … Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”",
+      "suggested_fix": "Render the full quoted Scripture passage into Bengali conveying the printed English wording (do not substitute a different Bible version). Keep the same punctuation and place the translated quotation inside the same <p> tag. E.g., translate the English quotation text into Bengali while leaving the introductory English sentence 'Ecclesiastes 12:1-7 gives...' translated as appropriate.",
+      "translation_quote": "Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; ... Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”"
+    },
+    {
+      "location": "Paragraph quoting Deuteronomy 6:7",
+      "severity": "major",
+      "source_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7).",
+      "suggested_fix": "Translate this quoted Scripture sentence into Bengali, conveying the printed English wording (do not substitute a different Bible version). Keep the verse citation in parentheses. Place the translated quotation in the same <p> element.",
+      "translation_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7)."
+    },
+    {
+      "location": "Section heading: <h2>What Dementia is</h2>",
+      "severity": "major",
+      "source_quote": "<h2>What Dementia is</h2>",
+      "suggested_fix": "Translate the heading into Bengali preserving the <h2> tag. Example: <h2>ডিমেনশিয়া কী</h2>",
+      "translation_quote": "<h2>What Dementia is</h2>"
+    },
+    {
+      "location": "Section heading: <h2>Diagnosing Dementia</h2>",
+      "severity": "major",
+      "source_quote": "<h2>Diagnosing Dementia</h2>",
+      "suggested_fix": "Translate the heading into Bengali preserving the <h2> tag. Example: <h2>ডিমেনশিয়া নির্ণয়</h2>",
+      "translation_quote": "<h2>Diagnosing Dementia</h2>"
+    },
+    {
+      "location": "Paragraph in Diagnosing Dementia with untranslated sentence",
+      "severity": "major",
+      "source_quote": "Along with doing a physical exam, the doctor will typically do things like have the patient draw a clock and do a mini mental status exam, which asks the patient to answer a lot of simple questions and do some short-term recall of items.",
+      "suggested_fix": "Translate this entire English sentence into Bengali and keep it inside the same <p> element so the paragraph is fully in Bengali.",
+      "translation_quote": "Along with doing a physical exam, the doctor will typically do things like have the patient draw a clock and do a mini mental status exam, which asks the patient to answer a lot of simple questions and do some short-term recall of items."
+    },
+    {
+      "location": "Section heading: <h2>Eliminate Medications</h2>",
+      "severity": "major",
+      "source_quote": "<h2>Eliminate Medications</h2>",
+      "suggested_fix": "Translate the heading into Bengali preserving the <h2> tag. Example: <h2>ওষুধ কমানো/বর্জন করা</h2>",
+      "translation_quote": "<h2>Eliminate Medications</h2>"
+    },
+    {
+      "location": "Section heading: <h2>Medical Treatments</h2>",
+      "severity": "major",
+      "source_quote": "<h2>Medical Treatments</h2>",
+      "suggested_fix": "Translate the heading into Bengali preserving the <h2> tag. Example: <h2>চিকিৎসা পদ্ধতি</h2>",
+      "translation_quote": "<h2>Medical Treatments</h2>"
+    },
+    {
+      "location": "Section heading: <h2>Non-medication Therapies</h2>",
+      "severity": "major",
+      "source_quote": "<h2>Non-medication Therapies</h2>",
+      "suggested_fix": "Translate the heading into Bengali preserving the <h2> tag. Example: <h2>অ-ঔষধগত থেরাপি</h2>",
+      "translation_quote": "<h2>Non-medication Therapies</h2>"
+    },
+    {
+      "location": "Section heading: <h2>Caring For Someone with Dementia</h2>",
+      "severity": "major",
+      "source_quote": "<h2>Caring For Someone with Dementia</h2>",
+      "suggested_fix": "Translate the heading into Bengali preserving the <h2> tag. Example: <h2>ডিমেনশিয়াযুক্ত কারো যত্ন</h2>",
+      "translation_quote": "<h2>Caring For Someone with Dementia</h2>"
+    },
+    {
+      "location": "Section heading: <h2>Get Others to Help</h2>",
+      "severity": "major",
+      "source_quote": "<h2>Get Others to Help</h2>",
+      "suggested_fix": "Translate the heading into Bengali preserving the <h2> tag. Example: <h2>অন্যদের সহায়তা নিন</h2>",
+      "translation_quote": "<h2>Get Others to Help</h2>"
+    },
+    {
+      "location": "Section heading: <h2>Conclusion</h2>",
+      "severity": "major",
+      "source_quote": "<h2>Conclusion</h2>",
+      "suggested_fix": "Translate the heading into Bengali preserving the <h2> tag. Example: <h2>উপসংহার</h2>",
+      "translation_quote": "<h2>Conclusion</h2>"
+    },
+    {
+      "location": "Paragraph quoting Galatians 5:22-23",
+      "severity": "major",
+      "source_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23).",
+      "suggested_fix": "Translate the quoted Scripture into Bengali conveying the printed English wording (do not substitute a different Bible version). Keep the verse citation in parentheses and keep the quotation punctuation, inside the same <p> element.",
+      "translation_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23)."
+    }
+  ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "8cc862cc33850bc052c62846216a27da",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "ben",
@@ -123,13 +220,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 70,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "974d152b-0c5a-4614-b010-1a618831b72d",
+    "response_id": "chatcmpl-EUL9xetlWA15X0FdibuRGxzf6TKge",
+    "usage": {
+      "completion_tokens": 727,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1565,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2292
+    }
+  },
+  "received_at": "2026-10-02T00:14:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> — stanza 1, line 4",
+        "severity": "minor",
+        "source_quote": "In new, bright raiment clad!",
+        "suggested_fix": "В новой, светлой одежде!  — замените «В обновлённой пусть одежде!» на «В новой, светлой одежде!» (сохранить строковые разрывы и теги <p> / <br>)",
+        "translation_quote": "В обновлённой пусть одежде!"
+      },
+      {
+        "location": "<div class=\"poem\"> — stanza 5, line 2",
+        "severity": "minor",
+        "source_quote": "Renew this heart of mine.",
+        "suggested_fix": "Заменить строчку «это моё сердце.» на «Это моё сердце.» — исправить заглавную букву «Это» (сохранить теги и разрыв строки).",
+        "translation_quote": "это моё сердце."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

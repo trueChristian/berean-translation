@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d9d0304d-d731-4455-b821-e4da7efbec16",
+    "response_id": "chatcmpl-EULAPYRKlIAmjKgTXgAWY9VsxEvGJ",
+    "usage": {
+      "completion_tokens": 1388,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8225,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9613
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph quoting Philippians 1:10 (source.html first paragraph containing Philippians 1:10)",
+        "severity": "minor",
+        "source_quote": "\"That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ\" (Philippians 1:10).",
+        "suggested_fix": "Render the phrase \"approve things that are excellent\" with a closer equivalent to the sense of 'approve' or 'recognize what is excellent' (rather than only 'membedakan apa yang utama') to preserve the evaluative nuance. For example: “Supaya kamu dapat menyetujui perkara-perkara yang utama/baik (apa yang utama), supaya kamu tulus (suci) dan tidak bercacat sampai pada hari Kristus.” Preserve original punctuation and parentheses around (pure) as in source.",
+        "translation_quote": "“Supaya kamu dapat membedakan apa yang utama, supaya kamu tulus (suci) dan tidak bercacat sampai pada hari Kristus” (Filipi 1:10)."
+      },
+      {
+        "location": "Paragraph discussing Satan perverting what God made (paragraph beginning \"Remember, Satan has never invented a pleasure; he only takes what God made to be pure and good, perverts it, and offers it back in its perverted form.\")",
+        "severity": "minor",
+        "source_quote": "\"Remember, Satan has never invented a pleasure; he only takes what God made to be pure and good, perverts it, and offers it back in its perverted form.\"",
+        "suggested_fix": "The translation uses the phrase \"memperjalin keburukan\" which is awkward and could obscure the intended meaning 'perverts it.' Suggest a clearer rendering such as “ia hanya mengambil apa yang Tuhan ciptakan murni dan baik, merusaknya, lalu menawarkannya kembali dalam bentuk yang tercemar.” Preserve sentence structure and emphasis.",
+        "translation_quote": "\"Ingat, Setan tidak pernah menciptakan kenikmatan; ia hanya mengambil apa yang Tuhan ciptakan murni dan baik, memperjalin keburukan padanya, dan menawarkan kembali dalam bentuk yang tercemar.\""
+      },
+      {
+        "location": "img alt attribute (figure near end of article)",
+        "severity": "minor",
+        "source_quote": "alt=\"An orange-and-black butterfly perched beside red berries\"",
+        "suggested_fix": "The translation's alt text is acceptable but contains a hyphenated color phrase 'oranye-dan-hitam' which is slightly nonstandard in Indonesian. Suggest a small wording tweak to read: alt=\"Seekor kupu-kupu oranye dan hitam bertengger di samping buah beri merah\" (remove hyphens). Preserve the alt attribute and surrounding <figure> and <img> tags exactly.",
+        "translation_quote": "alt=\"Seekor kupu-kupu oranye-dan-hitam bertengger di samping buah beri merah\""
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

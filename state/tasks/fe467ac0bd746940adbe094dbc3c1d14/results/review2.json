@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9ae7e8fd-372b-4b90-b96d-3423abea572a",
+    "response_id": "chatcmpl-EULA2qS9l8X0xxg7Z47AlXaEyqInA",
+    "usage": {
+      "completion_tokens": 2252,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8954,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11206
+    }
+  },
+  "received_at": "2026-10-02T00:14:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “Remember now thy Creator in the days of thy youth, ...</p>",
+        "severity": "major",
+        "source_quote": "Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”",
+        "suggested_fix": "Restore the exact English Bible quotation and surrounding clause as in the authoritative source. Replace the Russian-rendered Bible text with the original English text exactly as it appears in source.html, keeping punctuation and quotations intact. If you wish, add a Russian translation after the English quotation but keep the original English quotation unchanged and clearly delimited (for example: English quotation followed by Russian translation in brackets).",
+        "translation_quote": "Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “Помни́ же Твоего Тво́ра в дни́ ю́ности твоей, доколе не приидут дни злые и не приближаются годы, когда скажешь: не имею в них услады; доколе не помрачатся солнце, и свет, и луна, и звезды, и не возвратятся облака после дождя; в день, когда дрожат стражи дома и мужественные склоняются, и точильщики прекращают работу от того, что их мало, и те, кои смотрят в окна, темнеют; и запираются двери на улицах, когда тонок звук молотьбы, и подымается он по гласу птицы, и все дочери песни смолкнут, и боятся они высоты, и ужас на пути, и цветет миндальное дерево, и грузит саранча, и не рад желаемое, ибо идет человек в вечное жилище свое, и плакуны ходят по улицам; прежде нежели разорвется серебряная нить, или разобьется золотая чаша, или разобьется кувшин у источника, или разобьется колесо у колодца, — тогда прах возвратится в землю, как был, и дух возвратится к Богу, Который дал его.”"
+      },
+      {
+        "location": "<p>“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, ...” (Deuteronomy 6:7).</p>",
+        "severity": "major",
+        "source_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7).",
+        "suggested_fix": "Preserve the original English Scripture quotation exactly as in source.html, including the English book name and verse reference format. Replace the current Russian rendering of the verse with the exact English wording from the source. If a Russian rendering is desired for readers, place it after the preserved English quotation, clearly separated, but do not substitute or alter the original English quotation.",
+        "translation_quote": "«И внушай их детям твоим, и говори о них сидя в доме твоем, и идя дорогою, и ложась и встав» (Deuteronomy 6:7)."
+      },
+      {
+        "location": "<p>“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23).</p>",
+        "severity": "major",
+        "source_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23).",
+        "suggested_fix": "Restore the exact English Scripture quotation and reference as printed in the source. Replace the Russian translation of Galatians 5:22-23 with the original English wording exactly as in source.html. Again, if a Russian translation is useful for readers, it may follow the preserved English quotation, but do not replace the printed English.",
+        "translation_quote": "“Плод же Духа: любовь, радость, мир, долготерпение, благость, милосердие, вера, кротость, воздержание; на таковых нет закона” (Galatians 5:22-23)."
+      },
+      {
+        "location": "Throughout article — book names/references left in English in some places or rendered inconsistently (Ecclesiastes, Deuteronomy, Galatians).",
+        "severity": "minor",
+        "source_quote": "Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. … “And thou shalt teach them diligently unto thy children …” (Deuteronomy 6:7). … “But the fruit of the Spirit is …” (Galatians 5:22-23).",
+        "suggested_fix": "Ensure consistency with the authoritative English source: retain the English book names and verse references exactly as they appear in source.html where they are part of or adjacent to Bible quotations. If translating narrative text that references those passages, translate the surrounding prose but leave the printed English Scripture citations and quotations unchanged. Do not mix English and Russian forms of the same citation within a paragraph.",
+        "translation_quote": "В переводе встречается сочетание английских названий книг/ссылок и русских переводов стихов (см. Ecclesiastes 12:1-7, (Deuteronomy 6:7), (Galatians 5:22-23))."
+      }
+    ],
+    "passed": false,
+    "score": 40
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "70e81e08-c8fc-49b8-9a6f-383b9e804187",
+    "response_id": "chatcmpl-EULAZ43Ls1Mygwf631Jd0Vx6QbUtX",
+    "usage": {
+      "completion_tokens": 980,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5557,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6537
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: 'The Emphasis of Biblical Foundations' (translation paragraph 3)",
+        "severity": "minor",
+        "source_quote": "This emphasis comes through strongly in their works, as they quote Scripture extensively.",
+        "suggested_fix": "Use a natural Arabic phrasing preserving meaning: e.g., «يظهر هذا التأكيد بقوة في أعمالهم إذ كانوا يقتبسون من الكتاب المقدس على نطاق واسع.» (preserve sentence structure and keep 'يقتبسون من' instead of 'يقتبسون الكتاب المقدس' if desired).",
+        "translation_quote": "يظهر هذا التأكيد بقوة في أعمالهم، إذ يقتبسون الكتاب المقدس على نطاق واسع."
+      },
+      {
+        "location": "Paragraph: 'Importance of Practical Salvation' (translation paragraph 2)",
+        "severity": "minor",
+        "source_quote": "The inward is affected first through the working of the Holy Spirit in the willful sinner’s life. It is an important distinction that the sinner is willful.",
+        "suggested_fix": "Correct a small Arabic grammatical mismatch: change «فهذا الموقف» or «كانت هذه الموقف» to grammatically correct gender/number agreement. For example: «وكان هذا الموقف مخالفًا لغالبية الكنائس الراسخة الأكبر في ذلك الوقت.»",
+        "translation_quote": "كانت هذه الموقف مخالفة لغالبية الكنائس الأكبر الراسخة في ذلك الوقت."
+      },
+      {
+        "location": "Paragraph: 'A Pure Church' / 'regeneration' section (translation paragraph about Spirit filling believer)",
+        "severity": "minor",
+        "source_quote": "...the Spirit will fill the believer until the nature of sin becomes the dominated instead of the dominant.",
+        "suggested_fix": "Clarify the intended contrast in Arabic to match the English sense (that sin becomes dominated, not the dominator). E.g.: «...يملأ الروح المؤمن حتى تصبح طبيعة الخطيئة مهيَمَنة عليه بدلاً من أن تكون هي المسيطرة.» or «...حتى تُسَيَّطَر الطبيعة الخاطئة بدلًا من أن تسيطر هي على المؤمن.»",
+        "translation_quote": "يملأ الروح المؤمن حتى تصبح طبيعة الخطيئة مهيمنة بدلاً من أن تكون المسيطرة."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

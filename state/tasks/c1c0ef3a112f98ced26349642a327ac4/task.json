@@ -2,7 +2,6 @@
   "article_id": "b43320f3-e4e8-450b-865c-099ef704149c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -62,31 +61,45 @@
         },
         "total_tokens": 14548
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1357,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8315,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9672
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "Throughout article — from heading <h2>How can we live a morally pure life? and the following sections through end of article",
-      "severity": "critical",
-      "source_quote": "<h2>How can we live a morally pure life?</h2>\n\n  <p><strong>Be Humble.</strong> James 5 says, “Confess your faults one to another that ye may be healed.” ... Jesus taught in Matthew 23:26, where He said, \"First clean the inside of the cup, so that the outside may be clean also.\"</p>\n\n  <p><strong>Be Honest.</strong> Examine your thoughts, actions, temptations, the things you struggle with, anger, lust, pride, bitterness, etc. ...</p>\n\n  <p><strong>Be transparent.</strong> Romans 2:16 tells of the day when God will judge the secrets of men. ...</p>\n\n  (and continuing through the remainder of the article until the final paragraphs and the image)",
-      "suggested_fix": "Translate this entire section (the heading and all subsequent paragraphs and subheadings) into Russian, preserving the original theological meaning and the author's phrasing. Keep the Scripture citations (book, chapter, verse numbers) exactly as in the source (e.g., James 5, Matthew 23:26, Romans 2:16) but render quoted Scripture text into Russian so it conveys the printed English quotation's content. Preserve HTML structure and tags exactly and do not alter tag attributes or nesting.",
-      "translation_quote": "<h2>How can we live a morally pure life?</h2>\n\n  <p><strong>Be Humble.</strong> James 5 says, “Confess your faults one to another that ye may be healed.” It takes humility and brokenness to acknowledge our needs, but brokenness is the key to victory. I Peter 5:5 tells us that God gives grace to the humble. ... Jesus taught in Matthew 23:26, where He said, \"First clean the inside of the cup, so that the outside may be clean also.\"</p>\n\n  <p><strong>Be Honest.</strong> Examine your thoughts, actions, temptations, the things you struggle with, anger, lust, pride, bitterness, etc. Are you as spiritual as you portray yourself to be on the outside? Strip the veneer and admit the need for help.</p>\n\n  <p><strong>Be transparent.</strong> Romans 2:16 tells of the day when God will judge the secrets of men. We are so foolish to think we can hide evil. We can hide for a while, but someday our actions will stand naked before an all-knowing God. Why would we try to hide something now? Those hidden things can be sent before to judgment, and a guilt-free life can be a reality today. Be transparent; it must be a working goal.</p>\n\n  (section left largely in English in the translation) "
+      "location": "Paragraph beginning \"Satan is cruel. In John 10:10, Jesus said\" (source.html) / Paragraph beginning \"Сатана жесток. В 1 Иоанна 10:10 Иисус сказал\" (translation.html)",
+      "severity": "major",
+      "source_quote": "Satan is cruel. In John 10:10, Jesus said, “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy” all godly relationships.",
+      "suggested_fix": "Correct the Scripture citation in the translation to match the source. Replace the phrase “В 1 Иоанна 10:10 Иисус сказал” with a rendering that cites the Gospel of John (chapter 10, verse 10). Preserve HTML and surrounding text exactly. For example: \"В Евангелии от Иоанна 10:10 Иисус сказал: «вор приходит...\" or if keeping the original English book name style used elsewhere: \"В John 10:10 Иисус сказал: ...\" Ensure the citation refers to John 10:10 (Иоанна 10:10), not 1 John.",
+      "translation_quote": "Сатана жесток. В 1 Иоанна 10:10 Иисус сказал: “дьявол старается похищать, убивать и губить; он хочет украсть вашу чистоту, погубить ваш характер и разрушить” все богобоязненные отношения."
     },
     {
-      "location": "Multiple paragraphs earlier in article — inline Scripture quotations and verse lines",
-      "severity": "major",
-      "source_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”\n\nI John 1:6 says, “if we say that we have fellowship with Him and walk in darkness (light on the outside and darkness on the inside), we lie and do not practice the truth.”\n\nJohn 10:10, Jesus said: “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy” all godly relationships.\n\nHebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).”\n\nNumbers 32:23 is still very true, saying, “Be sure your sin will find you out.”\n\nJames 1:15: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” Verse 16 says, “Do not (be deceived) my beloved brethren.”",
-      "suggested_fix": "Render these quoted Scripture lines and the quoted verse clauses into Russian so they convey the printed English quotations from the source. Keep the verse references (book, chapter, verse numbers) unchanged and directly next to the quotation as in the source. For example, replace the English phrase “Blessed are the pure in heart” (Matthew 5:8) with an accurate Russian rendering that reflects that exact printed English sentence (do not substitute a different named Bible translation). Preserve punctuation and placement of verse references in parentheses.",
-      "translation_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Откровение 19 говорит: “The pure in heart shall see God.” Псалом 24:3-4 спрашивает: “Who shall see God?” Ответ: “he that hath clean hands and a pure heart.”\n\nI John 1:6 says, “if we say that we have fellowship with Him and walk in darkness (light on the outside and darkness on the inside), we lie and do not practice the truth.”\n\nВ John 10:10 Иисус сказал: “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy” все благочестивые отношения.\n\nHebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).”\n\nNumbers 32:23 по‑прежнему верно говорит: “Be sure your sin will find you out.”\n\nJames 1:15: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” Verse 16 says, “Do not (be deceived) my beloved brethren.” (these remain in English in translation) "
-    },
-    {
-      "location": "End of article — two poem blockquotes",
-      "severity": "major",
-      "source_quote": "<blockquote class=\"poem\">\n    <p><em>Two forces lie within my breast,<br>\n    The one I love, the one I hate.<br>\n    But the one I feed will dominate.</em></p>\n    <p><em>—The author’s dad</em></p>\n  </blockquote>\n\n  <blockquote class=\"poem\">\n    <p><em>The more honestly I name<br>\n    what is true about myself,<br>\n    The less I need to hide and defend,<br>\n    and posture and pretend.</em></p>\n    <p><em>—Dan Allender</em></p>\n  </blockquote>",
-      "suggested_fix": "Translate the two short poems (and the attributions) into Russian, preserving meter and meaning as closely as possible and keeping the <blockquote class=\"poem\"> structure and inner tags unchanged. If the publisher prefers to keep original-language poems, mark that explicitly; otherwise provide a faithful Russian rendering next to the original or in place of it per the site's style. Do not alter HTML element order or attributes.",
-      "translation_quote": "<blockquote class=\"poem\">\n    <p><em>Two forces lie within my breast,<br>\n    The one I love, the one I hate.<br>\n    But the one I feed will dominate.</em></p>\n    <p><em>—The author’s dad</em></p>\n  </blockquote>\n\n  <blockquote class=\"poem\">\n    <p><em>The more honestly I name<br>\n    what is true about myself,<br>\n    The less I need to hide and defend,<br>\n    and posture and pretend.</em></p>\n    <p><em>—Dan Allender</em></p>\n  </blockquote>"
+      "location": "Throughout article (multiple Scripture citations)",
+      "severity": "minor",
+      "source_quote": "Examples: “Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent...”(Philippians 1:10). “Keep thyself pure” (1Timothy 5:22). \"Cleanse first the inside of the cup...\" (Matthew 23:26). Hebrews 4:13; Numbers 32:23; James 1:15; etc.",
+      "suggested_fix": "Normalize the presentation of biblical book names and references so they consistently reflect the source's printed form. The source uses English book names in parentheses (e.g. \"(Matthew 5:8)\", \"(Philippians 1:10)\", \"(1Timothy 5:22)\"). The translation mixes English-form citations (Matthew, Philippians, 1Timothy) with fully Russianized references (Матфея, 1 Иоанна, Матфея, Евреям, Числа, Иаков). Choose one consistent approach that preserves the source's printed citations. If you localize book names to Russian, ensure every citation is converted accurately (e.g. Matthew → Матфея; Philippians → Филиппийцам; 1Timothy → 1 Тимофею; Hebrews → Евреям; Numbers → Числа; James → Иакова) and that no chapter/verse numbers are altered. Alternatively, keep the English book names exactly as in the source. Update all instances to the chosen consistent form while preserving HTML and surrounding punctuation.",
+      "translation_quote": "Examples of mixed forms in the translation: “Блаженны чистые сердцем” (Matthew 5:8). “Чтобы вы различали благо...”(Philippians 1:10). “Храни себя чистым” (1Timothy 5:22). И далее: Иисус учил в Матфея 23:26; Евреям 4:13; Числа 32:23; Иаков 1:15."
     }
   ],
+  "finished_at": "2026-10-02T00:14:30+00:00",
   "id": "c1c0ef3a112f98ced26349642a327ac4",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "rus",
@@ -130,13 +143,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 80,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6e098ac8eb342eaa406de38f5a002ad3b708959025887f49dfe6141d191cd700.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "f7304b582e2d69344173a19198f46ca88b1132d0c44e0b4021e5c3668c34cd95",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

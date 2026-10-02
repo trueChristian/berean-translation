@@ -6,9 +6,32 @@
       "campaign": "gh-36911235156",
       "event": "requested",
       "task": "b0a6ba4c3fb4870812f185d324e70686"
+    },
+    {
+      "at": "2026-10-02T00:14:30+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "b0a6ba4c3fb4870812f185d324e70686"
     }
   ],
   "language": "urd",
   "latest_task": "b0a6ba4c3fb4870812f185d324e70686",
-  "published": null
+  "published": {
+    "html_path": "content/urd/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.html",
+    "html_sha256": "36323eb03590e0cdf7c9a2d883dd2f1bbdcea6d92abc8f34fd968cce3bf1635a",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+    "metadata_path": "content/urd/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e.json",
+    "metadata_sha256": "a20119cf2fed897d2695be9e8142dab20ffbebb739099229d1e45c9af4c7a148",
+    "model": "gpt-5-mini-2025-08-07",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"ur\" dir=\"rtl\" role=\"note\">\n  <p>اس مضمون کا ترجمہ OpenAI (ماڈل: gpt-5-mini-2025-08-07) کی مصنوعی ذہانت سے کیا گیا ہے اور ابھی کسی انسان نے اس کا جائزہ نہیں لیا۔ اصل انگریزی متن ہی مستند نسخہ ہے۔ مفہوم کے بارے میں شک ہو تو براہِ کرم اصل انگریزی متن سے رجوع کریں۔ <a href=\"/en/articles/52b9a1f9-4f4d-419d-9b36-797dfc3cb10e/\" data-source-article-id=\"52b9a1f9-4f4d-419d-9b36-797dfc3cb10e\" hreflang=\"en\">اصل انگریزی متن</a></p>\n</aside>",
+    "published_at": "2026-10-02T00:14:30+00:00",
+    "quality_score": 96,
+    "review_model": "gpt-5-mini-2025-08-07",
+    "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+    "source_snapshot": "state/sources/c48182e3f5033a08822c2237c3e9e7faab5b80302e823695d8ba3dd0faead4e3.json",
+    "task": "b0a6ba4c3fb4870812f185d324e70686",
+    "translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4"
+  }
 }

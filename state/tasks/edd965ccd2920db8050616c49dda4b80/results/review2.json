@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d7ef66c3-b906-4de7-bef6-25b7d0e2e915",
+    "response_id": "chatcmpl-EULA23NulpX7fEL0TUfFTNVGS5eay",
+    "usage": {
+      "completion_tokens": 1206,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8921,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10127
+    }
+  },
+  "received_at": "2026-10-02T00:14:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"Late in the afternoon of the last day...\" (English source) / Corresponding Hebrew paragraph beginning \"מאוחר אחרי־הצהריים של יום מותו...\"",
+        "severity": "major",
+        "source_quote": "This night shall close the door, and put my anchor within the veil, and I shall go away in a sleep by five of the clock in the morning.",
+        "suggested_fix": "Translate the clause to convey the original metaphor correctly. For example: \"הלילה הזה ייסגר הדלת, ועוגני יונח מאחורי הפרוכת, ואני אלך לישון בשעה חמש בבוקר.\" (preserve HTML and surrounding punctuation as in the translation).",
+        "translation_quote": "\"הלילה הזה ייסגר הדלפק, וישים עוגני בתוך הפרוכת, ואלך לישון בשעה חמש בבוקר.\""
+      },
+      {
+        "location": "Paragraph: \"Nearly two centuries later, Annie Ross Cousin, a Scottish poet and hymn writer and the wife of a minister...\" / Corresponding Hebrew paragraph beginning \"כמעט מאתיים שנים לאחר מכן, אנה רוס קאוזין...\"",
+        "severity": "major",
+        "source_quote": "Annie Ross Cousin, a Scottish poet and hymn writer and the wife of a minister, was inspired by the life and writings of Samuel Rutherford.",
+        "suggested_fix": "Correct the mistranslation of \"the wife of a minister.\" Do not render as \"אשת רב\" (which means wife of a rabbi). Use a neutral/accurate term such as \"אשת כומר\" or \"אשת כומר/משרת דתי\" or simply \"אשתו של כומר\". Example: \"אנה רוס קאוזין, משוררת ומלחינת מזמורים סקוטית ואשתו של כומר, הושפעה...\"",
+        "translation_quote": "\"אנה רוס קאוזין, משוררת ומלחינת המנונים סקוטית ואשת רב, הושפעה מחייו וכתביו של שמואל רתרפורד.\""
+      },
+      {
+        "location": "Paragraph: final hymn-history paragraph and composer mention / Corresponding Hebrew paragraph beginning \"המנגינה המשלימה העדינה...\"",
+        "severity": "minor",
+        "source_quote": "...composed in the early 1800s by a French musician, Chretien D`Urhan.",
+        "suggested_fix": "Review transliteration of the composer's name to better match the source. Use a more accurate Hebrew transliteration of the French name (for example: \"כריסטיאן ד'אוראן\" or preserve the source spelling \"Chretien D'Urhan\" in Latin script).",
+        "translation_quote": "\"...על ידי מוזיקאי צרפתי, כריסטיאן ד'אורן.\""
+      },
+      {
+        "location": "Title metadata (source.title vs translation.title)",
+        "severity": "minor",
+        "source_quote": "The Sands of Time Are SINKING",
+        "suggested_fix": "Translate the title into Hebrew to match target-language guidance. For example: \"חול הזמן שוקע\" (preserve capitalization or formatting rules of the site). Ensure translation.title field is updated (do not change HTML tags).",
+        "translation_quote": "The Sands of Time Are SINKING"
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

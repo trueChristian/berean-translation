@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3576e661-d5ca-4920-bfaa-a7dd2e61304b",
+    "response_id": "chatcmpl-EULANmp9fCYJAhC34TANETcu4GYlk",
+    "usage": {
+      "completion_tokens": 895,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4093,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4988
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"drop-cap\">(second sentence, paragraph 2)",
+        "severity": "critical",
+        "source_quote": "“Probably about 50.” Adrianna glanced lazily at the thermometer. “Hey, it’s 65 degrees! Mom, may we eat lunch outside?”",
+        "suggested_fix": "Translate the entire quoted speech into Greek; do not leave English in the text. Preserve HTML tags and sentence order. For example, replace the mixed-language sentence with a full Greek rendering such as: «Πιθανότατα γύρω στους 50.» Η Αντριάνα κοίταξε νωχελικά το θερμόμετρο. «Ω, είναι 65 βαθμοί! Μαμά, μπορούμε να φάμε έξω;»",
+        "translation_quote": "«Πιθανότατα γύρω στο 50.» Η Αντριάνα κοίταξε νωχελικά το θερμόμετρο. «Hey, it’s 65 degrees! Μαμά, μπορούμε να φάμε έξω;»"
+      },
+      {
+        "location": "<p>(...they each packed their lunch...)</p> (paragraph mentioning apple)",
+        "severity": "major",
+        "source_quote": "They each packed their lunch in a shopping bag and went out to their picnic spot, a big, flat rock in a clearing in the woods.",
+        "suggested_fix": "Correct the subsequent sentence that describes what Adrianna did with the apple core. The source later says she \"threw her apple core to the dogs.\" Ensure the word for 'apple core' is translated as 'κουκούτσι/κοτσάνι του μήλου' (or 'σπόρος/κορμός του μήλου') rather than 'φλούδι' (apple peel). For example, replace the Greek wording in the paragraph where Adrianna 'threw the apple core to the dogs' with: «Έριξε το κουκούτσι του μήλου στους σκύλους» while preserving tags and order.",
+        "translation_quote": "Ο καθένας πακετάρισε το φαγητό του σε μια σακούλα αγορών και πήγαν στο σημείο του πικνίκ, μια μεγάλη, επίπεδη πέτρα σε ένα ξέφωτο στο δάσος. ... Έριξε το φλούδι του μήλου στους σκύλους και ξεκίνησε για το σπίτι."
+      }
+    ],
+    "passed": false,
+    "score": 48
+  }
+}

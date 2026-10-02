@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "142b725c-5dd2-4600-9529-b8f98a531fa6",
+    "response_id": "chatcmpl-EUL9oFwdSriw7xsgleCjQEcyXa5MT",
+    "usage": {
+      "completion_tokens": 1029,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5868,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6897
+    }
+  },
+  "received_at": "2026-10-02T00:14:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<h2>Die Leer van Nie-Weerstandigheid</h2>",
+        "severity": "minor",
+        "source_quote": "The Doctrine of Nonresistance",
+        "suggested_fix": "Make the heading term consistent and idiomatic. Use \"Die Leer van Nie‑weerstand\" or match the body term (suggested: \"Die Leer van Nie‑weerstand\"). Preserve tag: <h2>Die Leer van Nie‑weerstand</h2>",
+        "translation_quote": "Die Leer van Nie-Weerstandigheid"
+      },
+      {
+        "location": "<p>…Daar is ook ’n ander kleuring van die “onwillig verlos” interpretasie…</p>",
+        "severity": "minor",
+        "source_quote": "There is also another flavoring of the “unwillingly saved” interpretation",
+        "suggested_fix": "Use an idiomatic noun phrase that reflects the English meaning. Replace “onwillig verlos” with “onwillige verlossing” or “die interpretasie van ’n onwillige verlossing”. Preserve tag and surrounding text. Example: <p>…Daar is ook ’n ander kleuring van die “onwillige verlossing”‑interpretasie…</p>",
+        "translation_quote": "Daar is ook ’n ander kleuring van die “onwillig verlos” interpretasie"
+      },
+      {
+        "location": "<p>…tot die Gees die gelowige vul totdat die aard van sonde die gedomineerde in plaas van die dominante geword het.</p>",
+        "severity": "minor",
+        "source_quote": "until the nature of sin becomes the dominated instead of the dominant",
+        "suggested_fix": "Clarify the intended contrast in idiomatic Afrikaans. Replace “die gedomineerde” with a clearer rendering such as “ondergeskik” or rephrase to: “…tot die aard van sonde ondergeskik is in plaas van dominant te wees.” Preserve tag and sentence order.",
+        "translation_quote": "tot die Gees die gelowige vul totdat die aard van sonde die gedomineerde in plaas van die dominante geword het."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

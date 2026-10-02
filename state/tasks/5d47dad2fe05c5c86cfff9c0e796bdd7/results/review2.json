@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "372f43bc-7c20-4e40-9947-d4c1ae798c80",
+    "response_id": "chatcmpl-EULARmjLPbXuYsBrrdA2uV3iRoZEr",
+    "usage": {
+      "completion_tokens": 865,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6350,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7215
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Near end, paragraph: \"God had a plan for Ken and I. God wanted to show Ken that He loved him and that He would be there for him even when Josh turned his back on Him.\"",
+        "severity": "minor",
+        "source_quote": "\"God had a plan for Ken and I. God wanted to show Ken that He loved him and that He would be there for him even when Josh turned his back on Him.\"",
+        "suggested_fix": "Change the French verb mood/tense to match the past sense of the English source. For example, replace « même lorsque Josh détournerait le dos » with « même lorsque Josh lui tourna le dos » or « même si Josh lui tourna le dos ». Preserve surrounding HTML and punctuation exactly.",
+        "translation_quote": "\"Dieu avait un plan pour Ken et pour moi. Dieu voulait montrer à Ken qu’Il l’aimait et qu’Il serait là pour lui même lorsque Josh détournerait le dos.\""
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

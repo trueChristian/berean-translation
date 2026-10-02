@@ -2,7 +2,6 @@
   "article_id": "cdb88be0-93b0-4362-bc3b-1488aff1a76f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:46+00:00",
   "events": [
@@ -62,52 +61,66 @@
         },
         "total_tokens": 3296
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1560,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 960,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1545,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3105
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "<div class=\"poem\"> <p>Second stanza, line 1–2</p>",
+      "location": "<div class=\"poem\"> stanza 4, line 2",
       "severity": "major",
-      "source_quote": "Divine Redeemer, Thee I bless; I greet Thy going forth;",
-      "suggested_fix": "Replace with: \"Gode Frälsare, Dig jag prisar; Jag hälsar Din utgångs färd;\" — or better: \"Gode Frälsare, Dig jag prisar; Jag hälsar Din utgång/utmarsch;\" (preferably use 'Frälsare' instead för 'Förlossare' and render 'going forth' as 'utgång' or 'utgångsfärd' for clarity). Preserve the surrounding <p>…</p> tags.",
-      "translation_quote": "Gode Förlossare, Dig jag prisar;<br>\n    Jag hälsar Din uppgångs färd;"
+      "source_quote": "This bloom of love so fair,",
+      "suggested_fix": "Replace with Swedish equivalent and correct noun: \"Detta kärleksflor, så skönt,\" or \"Denna kärleks blomning, så skön,\" preserving meter as needed.",
+      "translation_quote": "Den bloom av kärlek, så skön"
     },
     {
-      "location": "<div class=\"poem\"> <p>Second stanza, line 3–4</p>",
-      "severity": "major",
-      "source_quote": "I love Thee in the loveliness Of Thy renewed earth.",
-      "suggested_fix": "Replace with: \"Jag älskar Dig i skönheten på Din förnyade jord.\" Preserve the <br> and <p> tags.",
-      "translation_quote": "Jag älskar Dig i skönhetens dar<br>\n    På Din förnyade jord."
-    },
-    {
-      "location": "<div class=\"poem\"> <p>Third stanza, line 3</p>",
-      "severity": "major",
-      "source_quote": "These marvels sweeter far to trace,",
-      "suggested_fix": "Replace with: \"Dessa under, långt sötare att spåra,\" or \"Dessa under, så mycket sötare att upptäcka,\" preserving the <p> and <br> tags.",
-      "translation_quote": "De under sötare att spåra nog,"
-    },
-    {
-      "location": "<div class=\"poem\"> <p>Fourth stanza, line 1</p>",
-      "severity": "major",
-      "source_quote": "This new-born glow of faith so strong,",
-      "suggested_fix": "Replace with: \"Det nyfödda glödet av tro, så starkt,\" or \"Det nyfödda tronglödet, så starkt,\" preserving tags.",
-      "translation_quote": "Densamma nya tron, så stark,"
-    },
-    {
-      "location": "<div class=\"poem\"> <p>Fifth stanza, line 1</p>",
+      "location": "<div class=\"poem\"> stanza 2, line 2",
       "severity": "minor",
-      "source_quote": "Creator Spirit, work in me",
-      "suggested_fix": "Consider replacing 'Skapelsens Ande' with the more idiomatic 'Skaparens Ande' and use the verb 'verka' for clarity: \"Skaparens Ande, verka i mig\". Preserve tags.",
-      "translation_quote": "Skapelsens Ande, ver i mig"
+      "source_quote": "I greet Thy going forth;",
+      "suggested_fix": "Use an idiomatic Swedish rendering that preserves the sense of greeting Christ's appearing or going forth, e.g. \"Jag hälsar Din uppenbarelse\" or \"Jag hälsar Din utgång/framträdande\"; avoid the archaic or literal \"Din utgång\" if it sounds odd in Swedish context.",
+      "translation_quote": "Jag hälsar Din utgång;"
     },
     {
-      "location": "<div class=\"poem\"> <p>General — register, grammar and idiom across poem</p>",
-      "severity": "major",
-      "source_quote": "Whole poem (poetic diction and phrase choices)",
-      "suggested_fix": "Revise several lines to correct grammatical errors and restore the poem's original meaning and register. Specific recommendations above: use 'Frälsare' for 'Redeemer', correct 'skönhetens dar' → 'skönheten', fix 'uppgångs färd' → 'utgångs- / utgångsfärd' or 'utgång', replace ungrammatical constructions ('Densamma nya tron') with idiomatic Swedish that mirrors the English sense, and correct word order and inflection in the 3rd stanza (e.g., 'sötare att spåra' → 'så mycket sötare att upptäcka'). Preserve all original HTML tags and structure when applying fixes.",
-      "translation_quote": "Multiple lines throughout the provided translation exhibit non-idiomatic word choice, grammatical issues, and some shifts in meaning (examples shown above)."
+      "location": "<div class=\"poem\"> stanza 6, lines 3–4",
+      "severity": "minor",
+      "source_quote": "And grant the glad new song to ring\nThrough the new earth and Heaven.",
+      "suggested_fix": "Make the syntax natural and grammatical in Swedish, preserving plea/request sense. For example: \"Och låt den glada, nya sången klinga\nGenom den nya jorden och himlen.\" or \"Och skänk att den glada nya sången får klinga\nGenom den nya jord och himlen.\"",
+      "translation_quote": "Och giv att glada nya sången klinga\nGenom den nya jord och Himlen."
+    },
+    {
+      "location": "<div class=\"poem\"> stanza 6, line 1",
+      "severity": "minor",
+      "source_quote": "Still, let new life and strength upspring,",
+      "suggested_fix": "Avoid adding words not present in the original and keep register consistent. Suggested: \"Låt nytt liv och ny styrka spira\" or \"Låt nytt liv och styrka ännu spira.\" Remove the added word \"allt\" unless author intended emphasis.",
+      "translation_quote": "Låt allt nytt liv och styrka spira,"
+    },
+    {
+      "location": "<div class=\"poem\"> stanza 2, line 4</location>",
+      "severity": "minor",
+      "source_quote": "I love Thee in the loveliness\nOf Thy renewed earth.",
+      "suggested_fix": "Adjust preposition for idiomatic Swedish: e.g. \"Jag älskar Dig i skönheten hos Din förnyade jord\" or \"Jag älskar Dig i skönheten i Din förnyade jord.\" Preserve the sense that the speaker loves Christ manifested in the renewed earth.",
+      "translation_quote": "Jag älskar Dig i skönheten på\nDin förnyade jord."
     }
   ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "83fa3aa2d49f4044b421d7a2c87509c2",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "swe",
@@ -151,13 +164,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 80,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/77e936fd3992ec154fecd4e753dcaf1c210f965f21cd72ac0e78032ca820afc1.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "15ac9c1b97edbe073ae811f5fd305d02a68542aeb9f44f03ca5e9732f904625a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

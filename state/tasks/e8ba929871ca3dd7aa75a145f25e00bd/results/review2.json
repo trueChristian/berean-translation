@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "277025d4-04a4-4f64-bd80-12c3c4eb9431",
+    "response_id": "chatcmpl-EULA1C4p04SJYkz7Ydqg8MtZvVyIZ",
+    "usage": {
+      "completion_tokens": 1928,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3585,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5513
+    }
+  },
+  "received_at": "2026-10-02T00:14:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: “She lifted her blue kayak off the rack and hauled it down to the pond.” (near the middle of the article)",
+        "severity": "major",
+        "source_quote": "She lifted her blue kayak off the rack and hauled it down to the pond.",
+        "suggested_fix": "Change the Hebrew word for 'lake' (אגם) back to 'pond' in the paragraph to match the source. For example: “היא הורידה את הקאייק הכחול מהמדף והניעה/שילחה אותו אל הבריכה/האֹגם הקטן (or: אל הָפאר, אם רוצים מונח מקומי)”. Preserve the original HTML tags and punctuation.",
+        "translation_quote": "היא הורידה את הקאייק הכחול מהמדף והסיעה אותו אל האגם."
+      },
+      {
+        "location": "Figure img alt attribute",
+        "severity": "major",
+        "source_quote": "A child paddling a blue kayak on a pond",
+        "suggested_fix": "Restore the neutral noun and 'pond' in the alt text. For example: alt=\"ילד/ה מחתיר/ה בקאייק כחול על בריכת-מים\" or better: alt=\"ילד או ילדה מחתרים בקאייק כחול על הבריכה\" — but keep it concise. Use the Hebrew equivalent of 'pond' (e.g., 'בריכה', 'אגמון') rather than 'אגם'. Preserve the img tag and its src attribute exactly.",
+        "translation_quote": "ילד מחתור בקאייק כחול על אגם"
+      },
+      {
+        "location": "Paragraph: “She heard Asher and the girls laughing and shouting as they played.”",
+        "severity": "minor",
+        "source_quote": "She heard Asher and the girls laughing and shouting as they played.",
+        "suggested_fix": "Replace the Hebrew verb 'צופרים' (which implies honking) with a verb meaning 'shouting' or 'calling', e.g. 'צוחקים וצורחים' or 'צוחקים וקוראים'. Suggested corrected Hebrew: “היא שמעה את אשר והבנות צוחקות וצורחות בזמן ששיחקו.” Preserve surrounding punctuation and tags.",
+        "translation_quote": "היא שמעה את אשר והבנות צוחקים וצופרים בזמן ששיחקו."
+      },
+      {
+        "location": "Opening paragraph line with temperature: “Probably about 50.”",
+        "severity": "minor",
+        "source_quote": "“Probably about 50.”\n\n“Hey, it’s 65 degrees! Mom, may we eat lunch outside?”",
+        "suggested_fix": "Include the word 'מעלות' with the first temperature to match the source's explicit 'degrees'. For example: “כנראה בערך 50 מעלות.” (If the intended unit is Fahrenheit and that should be indicated for the target audience, keep it consistent with the source; otherwise keep 'מעלות'.) Preserve punctuation and tags.",
+        "translation_quote": "“כנראה בערך 50.”\n\n“היי, זה 65 מעלות! אמא, אפשר לאכול ארוחת צהריים בחוץ?”"
+      },
+      {
+        "location": "Very first paragraph: description of doing school",
+        "severity": "minor",
+        "source_quote": "He and Adrianna were sitting at the table doing school with their siblings Emily and Kianna.",
+        "suggested_fix": "Remove the slash and choose a single idiomatic phrasing in contemporary Modern Hebrew, preserving HTML. For example: “הוא ואדריאנה ישבו ליד השולחן ולמדו שיעורים עם אחיותיהם, אמילי וקיאנה.” or “הוא ואדריאנה ישבו ליד השולחן ועשו שיעורים עם אחיותיהם, אמילי וקיאנה.”",
+        "translation_quote": "הוא ואדריאנה ישבו ליד השולחן ולמדו/עשו שיעורים עם אחיותיהם, אמילי וקיאנה."
+      },
+      {
+        "location": "Paragraph: “She stepped out of the kayak, pulled it out of the water, and flipped it over to dry.”",
+        "severity": "minor",
+        "source_quote": "She stepped out of the kayak, pulled it out of the water, and flipped it over to dry.",
+        "suggested_fix": "Fix the Hebrew infinitive/wording to be grammatical. For example: “היא יצאה מהקאייק, משכה אותו אל החוף והפכה אותו כדי לייבש אותו.” or more idiomatically: “היא יצאה מהקאייק, משכה אותו אל החוף והפכה אותו לייבוש.” Preserve tags and punctuation.",
+        "translation_quote": "היא יצאה מהקאייק, משכה אותו אל החוף והפכה אותו כדי ליבש."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -62,24 +61,29 @@
         },
         "total_tokens": 11057
       }
-    }
-  ],
-  "findings": [
-    {
-      "location": "translation.html — first <p class=\"drop-cap\"> paragraph (\"his dingy, pawn shop\")",
-      "severity": "major",
-      "source_quote": "his dingy, pawn shop",
-      "suggested_fix": "Replace the Hindi phrase \"जुआ की दुकान\" with a correct rendering of \"pawn shop,\" e.g. \"बंधक की दुकान\" or \"पॉन शॉप\". Preserve the surrounding HTML and punctuation. Example replacement within the same paragraph: \"...मैं उसके गंदे, बन्धक की दुकान की सीमाओं से बाहर भागने के लिए मुड़ी...\"",
-      "translation_quote": "उसके गंदे, जुआ की दुकान की सीमाओं से बाहर भागने के लिए मुड़ी"
     },
     {
-      "location": "translation.html — paragraph that begins \"Now Ken is sitting in his pawn shop, alone, hurt, sad, and hiding.\"",
-      "severity": "major",
-      "source_quote": "Now Ken is sitting in his pawn shop, alone, hurt, sad, and hiding.",
-      "suggested_fix": "Replace the Hindi rendering \"जुआ-नुमा दुकान\" with a correct equivalent for \"pawn shop,\" e.g. \"बंधक की दुकान\" or \"पॉन शॉप,\" keeping the rest of the sentence intact and preserving HTML. Example: \"अब केन अपनी बंधक की दुकान में बैठा है—अकेला, आहत, दुखी और छिपा हुआ।\"",
-      "translation_quote": "अब केन अपनी जुआ-नुमा दुकान में बैठा है—अकेला, आहत, दुखी और छिपा हुआ।"
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 346,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 320,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6749,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7095
+      }
     }
   ],
+  "findings": [],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "8752296e2406acb07670c99b65d13f88",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "hin",
@@ -123,13 +127,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 100,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0c059a0312fc4bb7c1d9113fe70aaa013f3daaefdb55449ee68204bcbaa1c79e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

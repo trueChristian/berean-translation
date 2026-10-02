@@ -2,7 +2,6 @@
   "article_id": "1ec0f654-0dd1-48f3-9a68-3b15189e6704",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:46+00:00",
   "events": [
@@ -62,24 +61,44 @@
         },
         "total_tokens": 6202
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1034,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3721,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4755
+      }
     }
   ],
   "findings": [
     {
-      "location": "<p>She threw her apple core to the dogs and started for the house.</p>",
-      "severity": "major",
+      "location": "<p>…She threw her apple core to the dogs and started for the house.</p>",
+      "severity": "minor",
       "source_quote": "She threw her apple core to the dogs and started for the house.",
-      "suggested_fix": "Preserve the original meaning by translating “apple core” as 사과 심지/사과 속 (or 사과 심) rather than 사과 껍질. Example replacement inside the same paragraph: “그녀는 사과 심을 개들에게 던져 주고 집으로 향했다.” Do not change HTML tags or structure—only replace the Korean text between the paragraph tags.",
-      "translation_quote": "그녀는 쇼핑백을 집어 샌드위치와 쿠키 봉지를 넣었다. 사과 껍질을 개들에게 던져 주고 집으로 향했다."
+      "suggested_fix": "Preserve meaning with natural Korean wording for \"apple core.\" Replace the phrase in the translation with: \"사과 심을 개들에게 던져주고 집으로 향했다.\" or more naturally \"사과 심(속)을 개들에게 던져주고 집으로 향했다.\" (Preserve surrounding HTML tags and structure.)",
+      "translation_quote": "사과 심을 개들에게 던져 주고 집으로 향했다."
     },
     {
-      "location": "<p>“If you do a good job with your school until then, you may,” she told them. “And if you get your school done before lunch, you may play outside for a while this afternoon.”</p>",
+      "location": "<p>…She snapped the paddle together, hopped into the seat, and pushed the kayak onto the smooth surface of the water.</p>",
       "severity": "minor",
-      "source_quote": "“If you do a good job with your school until then, you may,” she told them. “And if you get your school done before lunch, you may play outside for a while this afternoon.”",
-      "suggested_fix": "Render the permission phrasing more naturally while staying faithful: replace “점심 시간까지 숙제를 잘 하면 그래도 된다.” with “점심 시간까지 숙제를 잘 하면 밖에서 점심을 먹어도 돼.” and ensure the second sentence mirrors the original: “그리고 점심 전에 숙제를 끝내면 오늘 오후에 잠깐 밖에서 놀아도 돼.” Keep the same HTML tags and order; only change the Korean text inside this paragraph.",
-      "translation_quote": "“점심 시간까지 숙제를 잘 하면 그래도 된다.” 그녀가 말했다. “그리고 점심 전에 숙제를 끝내면 오후에 잠깐 밖에서 놀아도 돼.”"
+      "source_quote": "She snapped the paddle together, hopped into the seat, and pushed the kayak onto the smooth surface of the water.",
+      "suggested_fix": "Use a more natural or standard Korean term for \"paddle\" (노). Suggested replacement keeping HTML: \"노를 조립하고 좌석에 올라타 연못의 고요한 물 위로 카약을 밀어 넣었다.\" Or include both terms if preferred: \"패들을(노를) 조립하고…\"",
+      "translation_quote": "패들을 조립하고 좌석에 올라타 연못의 고요한 물 위로 카약을 밀어 넣었다."
     }
   ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "1537650c18071bb6c02b2508c5c0de23",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "kor",
@@ -123,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d59e6cc034714ade3629f9e4dd10e75a09cff16eb5d3255ed698b76288fda97d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "dcfff2a5364081c6a6817377a0d3ad1649eaec0276399a4b9a70adc9f0fe19d1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

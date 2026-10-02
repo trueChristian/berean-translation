@@ -2,7 +2,6 @@
   "article_id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -62,38 +61,37 @@
         },
         "total_tokens": 12496
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 843,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7026,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7869
+      }
     }
   ],
   "findings": [
     {
-      "location": "<article> paragraph 3 (source.html) — “Jesus loves the little children, all the children of the world.”",
+      "location": "<figure> (first image) — img alt attribute",
       "severity": "minor",
-      "source_quote": "“Jesus loves the little children, all the children of the world.”",
-      "suggested_fix": "Render the English quotation meaningfully in Bengali while preserving sense. For example, replace the translated Bengali inside the paragraph but keep HTML tags: “যীশু বিশ্বের সমস্ত ছোট শিশুদের ভালোবাসেন।” Ensure it reads naturally rather than literal word choices that change tone.",
-      "translation_quote": "“যীশু বিশ্বের সমস্ত ছোট শিশুকে ভালোবাসেন।”"
-    },
-    {
-      "location": "<article> paragraph 6 (source.html) — “musty bedroom…moldy ceiling”",
-      "severity": "major",
-      "source_quote": "In his musty bedroom at their little, dingy apartment, he lay staring at the moldy ceiling, wondering endlessly what had gone so wrong.",
-      "suggested_fix": "Correct the mistranslation that introduced an unrelated Bengali word. Preserve HTML tags and sentence order. Suggested Bengali rendering: “তাদের ছোট, অবশ্যই ভাঙাচোরা অ্যাপার্টমেন্টের ভেজা গন্ধে ভরা শোবার ঘরে সে মোল্ড-জরা ছাদ তাকিয়ে আর ভাবছিল কোথায় এত ভুল হল।” (Replace only the paragraph text inside the <p> tag.)",
-      "translation_quote": "তার ছোট, গৃহচবচটি অ্যাপার্টমেন্টের খারাপ বাতাস-জড়িত শয়নকক্ষে কপট ছাদ তাকিয়ে সে অদ্ভুতভাবে ভাবত কি ভুল হয়ে গেল।"
-    },
-    {
-      "location": "<article> paragraph about California (translation html) — stray English token",
-      "severity": "critical",
-      "source_quote": "He had his fellow beach bums, but he was still alone inside. His heart was still empty. He longed for love.",
-      "suggested_fix": "Remove the stray English token and translate fully into Bengali while preserving article HTML. For example replace the sentence segment in the <p> text with: “তার সৈকতের বন্ধু ছিল, কিন্তু ভিতরে সে এখনও একা ছিল। তার হৃদয় তখনও শূন্য ছিল। সে ভালোবাসা খুঁজে ফিরছিল।”",
-      "translation_quote": "তার সৈকতের বন্ধু ছিল, কিন্তু ভিতরে সে এখনও একা ছিল। তার হৃদয় তবুও খাঁ.empty. সে ভালোবাসা খুঁজে ফিরছিল।"
-    },
-    {
-      "location": "<article> opening paragraph (source.html) — “unbidden tears”",
-      "severity": "minor",
-      "source_quote": "I blinked back the unbidden tears, realizing that once more, I had to leave this man that I loved.",
-      "suggested_fix": "Use a Bengali phrase that matches the English nuance of involuntary/sudden tears rather than implying 'unnecessary'. Suggested replacement (inside the same <p> tag): “আমি আকস্মিক অশ্রু পিছু চেপে ধরে রাখলাম, এবং বুঝতে পারলাম আবারও আমাকে সেই মানুষটাকে ছেড়ে যেতে হবে।”",
-      "translation_quote": "অপ্রয়োজনীয় অশ্রু গলিয়ে ফেলতে বাধা দিতে চোখ ঝাপসা করতেছিল, বুঝতে পারলাম আবারও আমাকে এই মানুষটি — যাকে আমি ভালোবাসতাম — ছেড়ে চলে যেতে হবে।"
+      "source_quote": "alt=\"An urban storefront with a red door and a streetlamp\"",
+      "suggested_fix": "Change the translated alt text to a natural Bengali rendering while preserving the img tag and its attributes. Example replacement: alt=\"একটি শহুরে দোকানের সামনে লাল দরজা এবং একটি রাস্তার বাতি\"",
+      "translation_quote": "alt=\"একটি শহুরে দোকানের সামনে লাল দরজা এবং রাস্তার পশলকতর আলো\""
     }
   ],
+  "finished_at": "2026-10-02T00:14:30+00:00",
   "id": "d45da8ebe2d4c0f1b3d9066888efdbf4",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "ben",
@@ -137,13 +135,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0c059a0312fc4bb7c1d9113fe70aaa013f3daaefdb55449ee68204bcbaa1c79e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

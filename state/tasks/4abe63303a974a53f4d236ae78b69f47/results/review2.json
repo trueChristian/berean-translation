@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "db6c8361-093c-4e05-baee-fce7ff3de60d",
+    "response_id": "chatcmpl-EULAKY2pzrwoz6aILqF5p2coQTbSd",
+    "usage": {
+      "completion_tokens": 836,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4926,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5762
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>When I told my husband about the frustration, he simply said, “Why don’t you explain the issue and quit being so uptight about it?” Good point. Proactively seeking solutions works for many problem areas.</p>",
+        "severity": "major",
+        "source_quote": "When I told my husband about the frustration, he simply said, “Why don’t you explain the issue and quit being so uptight about it?” Good point. Proactively seeking solutions works for many problem areas.",
+        "suggested_fix": "Preserve the original meaning of the husband’s remark and the following sentence. Replace the translated block while keeping HTML tags and punctuation. Suggested replacement (keep <p>...</p>): \"Nilipoambia mume wangu kuhusu kukasirika kwangu, alisema tu, “Kwa nini usieleze tatizo na kuacha kuwa mkali kuhusu hilo?” Hoja nzuri. Kutafuta suluhisho kwa ujasiri/kwa utaratibu hufanya kazi kwa maeneo mengi ya shida.\" Use either \"kwa ujasiri\" or \"kwa utaratibu\" for \"proactively\" (both fit idiomatically).",
+        "translation_quote": "Nilipoambia mume wangu kuhusu kukasirika kwangu, alisema tu, “Kwa nini usieleze tatizo na kuacha kuwa mkali kuhusu hilo?” Hoja nzuri. Kutafuta suluhisho kwa wepesi hufanya kazi kwa maeneo mengi ya shida."
+      },
+      {
+        "location": "<p>Proactively seeking solutions works for many problem areas.</p>",
+        "severity": "minor",
+        "source_quote": "Proactively seeking solutions works for many problem areas.",
+        "suggested_fix": "Translate \"proactively\" with an idiom that carries the sense of taking initiative or acting deliberately (not \"kwa wepesi\" which implies doing something lightly). Replace the phrase while preserving surrounding tags and punctuation. Suggested replacement: \"Kutafuta suluhisho kwa ujasiri/kwa utaratibu hufanya kazi kwa maeneo mengi ya shida.\"",
+        "translation_quote": "Kutafuta suluhisho kwa wepesi hufanya kazi kwa maeneo mengi ya shida."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

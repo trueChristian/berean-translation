@@ -2,7 +2,6 @@
   "article_id": "62646d6d-87be-47a6-880f-0ade408a3402",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:44+00:00",
   "events": [
@@ -62,31 +61,59 @@
         },
         "total_tokens": 5277
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1561,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2909,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4470
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "<p> paragraph 2 (Psalm quotation)",
-      "severity": "major",
-      "source_quote": "“Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9).",
-      "suggested_fix": "Replace the English quotation with an Arabic rendering that directly conveys the printed English wording (do not substitute a different Bible version). Suggested Arabic text to insert (keeping the parenthetical reference unchanged): “لتصفق الفياض، لتبتهج التلال جميعًا أمام الرب، لأنّه آتٍ ليدين الأرض. بِالبِرّ يَدِين العالم، والشعوب بِقِسطٍ” (Psalms 98:8-9).",
-      "translation_quote": "“Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9)."
+      "location": "Paragraph 1 (first sentence)",
+      "severity": "minor",
+      "source_quote": "Hyacinths are trying their noble best to poke their buds through the cold constraint of the winter-bound earth.",
+      "suggested_fix": "Use a correct, idiomatic Arabic word for “hyacinths.” Replace \"تحاول زهور الزيزيون\" with \"تحاول زهور الهياسينث\" or \"تحاول أزهار الزنبق (الهِياسِنْث)\" to convey the plant name accurately while keeping natural Arabic.",
+      "translation_quote": "تحاول زهور الزيزيون بذل قصارى جهدها لتبرز براعمها من خلال قسوة الأرض المحكومة بالشتاء."
     },
     {
-      "location": "<p> paragraph 4 (John quotation)",
-      "severity": "major",
-      "source_quote": "“well of water springing up into everlasting life” (John 4:14).",
-      "suggested_fix": "Translate the quoted English phrase into Arabic so it conveys the printed English wording (preserve the verse reference in English). Suggested Arabic text to insert: «بئر ماء يَنابيع إلى حياة أبدية» (John 4:14). Alternatively use a fluent Arabic rendering that follows the English phrasing: «بِئْر ماء يَنبُع إلى حياة أبدية» (John 4:14).",
-      "translation_quote": "\"well of water springing up into everlasting life\" (John 4:14)."
+      "location": "Paragraph 1 (birds phrase)",
+      "severity": "minor",
+      "source_quote": "Migrating waterfowl bring new sounds as they honk and quack their way to their final nesting places.",
+      "suggested_fix": "Render the onomatopoeia with verbs that match the English meaning. For example: replace \"وهي تنقنق وتزمجر\" with \"وهي تُصدر أصواتَ النّقنقة والبطّحة\" or \"وهي تزقزق وتزمجر\" depending on intended birds; or better: \"وهي تُصدر أصواتَ الزقزقة والنّقنقة\". Choose verbs that correctly reflect honking/quacking rather than \"تزمجر\" (which implies roaring).",
+      "translation_quote": "تجلب الطيور المائية المهاجرة أصواتًا جديدة وهي تنقنق وتزمجر في طريقها إلى مواضع تعشيشها النهائية."
     },
     {
-      "location": "<blockquote class=\"poem\"> (hymn stanza)",
+      "location": "Paragraph with faith-article quote (near end of Ramadan paragraph)",
       "severity": "major",
-      "source_quote": "Oh! Christ He is the foutain, The deep sweet well of Love! The streams on earth I’ve tasted, More deep I’ll drink above: There, to an ocean fullness, His mercy doth expand, And glory—glory dwelleth In Immanuel’s land.",
-      "suggested_fix": "The translation introduces the phrase \"يا روح\" and rephrases the hymn in a way that alters the original authorial statement \"Christ He is the fountain\". Preserve the original sense and personal subject (Christ) without adding \"يا روح\". Suggested correction (Arabic preserving the hymn sense): «يا! المسيح هو الينبوع، البئر العميق الحلو للمحبة! التيارات على الأرض قد ذقتها، أعمق سأشرب فوق: هناك، إلى فيض المحيط، رحمتُه تتسع، والمجد — المجد يسكن في أرض عمانوئيل.» Ensure the line breaks/HTML remain identical to the source block.",
-      "translation_quote": "<em>يا روح المسيح هو الينبوع،\n    البئر العميق الحلو للمحبة!<br>\n    التيارات على الأرض ذقتها،\n    أعمق سأشرب فوق:<br>\n    هناك، إلى فيض المحيط،\n    رحمته تتسع،\n    والمجد—المجد يسكن\n    في أرض عمانوئيل.</em>"
+      "source_quote": "“Faith is one of the basic ingredients in getting right with God. We come into the Christian life (and receive the forgiveness of sins) through faith. . . We abandon all hope for saving ourselves by our own abilities, and instead, we put complete trust in Jesus Christ for our eternal safety.”",
+      "suggested_fix": "Translate this entire quoted passage into Arabic (preserving punctuation and quotation marks) rather than leaving it in English. For example: “الإيمان هو أحد المكونات الأساسية لنيل الصِحّة لدى الله. ندخل الحياة المسيحية (وننال مغفرة الخطايا) بالإيمان... نتخلى عن كل رجاء في خلاص أنفسنا بقدراتنا الخاصة، وبدلاً من ذلك نضع ثقة كاملة في يسوع المسيح لخلاصنا الأبدي.” Keep the quote markup exactly as in source HTML (no tag changes).",
+      "translation_quote": "كاتب المقال \"How to Increase Your Faith\" يوضح هذا بجلاء: “Faith is one of the basic ingredients in getting right with God. We come into the Christian life (and receive the forgiveness of sins) through faith. . . We abandon all hope for saving ourselves by our own abilities, and instead, we put complete trust in Jesus Christ for our eternal safety.”"
+    },
+    {
+      "location": "Isaiah quotation paragraph (last scripture quote)",
+      "severity": "minor",
+      "source_quote": "“For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11).",
+      "suggested_fix": "Either translate the printed English quotation into Arabic consistently with the other scripture rendering in the article, or include an explicit note that the original English quotation is being shown in Arabic translation. Suggested Arabic rendering preserving the sense: “كما تُنبِت الأرض برعمها، وكما يُنجِب البستان ما زُرِع فيه؛ هكذا يُنبت الرب الإله البِرّ والمديح أمام جميع الأمم” (Isaiah 61:11). Keep the parenthetical citation exactly as in the source (no change to the citation).",
+      "translation_quote": "بينما نزرع حدائقنا ونراقب الأشجار تتفتح، فلنذكر بكلمات النبي أشعيا، “For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11)."
     }
   ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "732f22e667d40922f692b9b1a657e964",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "ara",
@@ -130,13 +157,13 @@
     }
   },
   "protected": false,
-  "quality_score": 52,
+  "quality_score": 78,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5455d2cd09d57a9e870ea92c4b7c08c9a0c8a2c68c077d639797bdc8f61c6072.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

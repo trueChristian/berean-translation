@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "47361e5f-1190-4cc4-ac8d-a5ad4e4cdbb3",
+    "response_id": "chatcmpl-EUL9o6OYyok3m8KajTRGMRDr4rSZ0",
+    "usage": {
+      "completion_tokens": 706,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6850,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7556
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"Ken was born on a country farm in the rolling hills of Schuylkill, Pennsylvania, a splendid place for a curious and adventurous little boy to live.\"",
+        "severity": "minor",
+        "source_quote": "Schuylkill, Pennsylvania",
+        "suggested_fix": "Use a more standard Urdu transliteration for the Pennsylvania county name to preserve recognizability. For example: \"شُوئِل کل\" or \"شُکِل کِل\" depending on the publication's usual style. Keep it in Perso‑Arabic script and retain the original English name in parentheses if preferred (e.g., شُوئِل کل (Schuylkill), پینسلوینیا).",
+        "translation_quote": "شُائلکل کے لہراتی پہاڑی علاقوں کے ایک دیہاتی فارم میں"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

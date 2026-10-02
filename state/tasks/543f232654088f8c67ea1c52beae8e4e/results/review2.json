@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "2dfe35af-2abb-4614-ad56-ef1f517d393d",
+    "response_id": "chatcmpl-EULAX67EtNf7XQ6NAbPr3RVVHzpgB",
+    "usage": {
+      "completion_tokens": 1369,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9048,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10417
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p> (Demens i Bibeln section, paragraph after Ecclesiastes quote)",
+        "severity": "major",
+        "source_quote": "What is certain is that the passage begins with a command: “Remember!”",
+        "suggested_fix": "Translate the sentence and the quoted command into Swedish, preserving the paragraph tag. For example, replace the current paragraph text with: \"Det som är säkert är att avsnittet börjar med en befallning: »Kom ihåg!«\" (keep the same <p> wrapper and its class/attributes).",
+        "translation_quote": "Det som är säkert är att avsnittet börjar med en befallning: “Remember!”"
+      },
+      {
+        "location": "<p> (Demens i Bibeln section, Deuteronomy quotation paragraph)",
+        "severity": "major",
+        "source_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7).",
+        "suggested_fix": "Translate the English quotation into Swedish in place, preserving the original HTML paragraph. Suggested Swedish rendering consistent with the rest of the translation: \"’Du skall lägga dem på ditt hjärta och ge dem akt, och du skall undervisa dem omsorgsfullt åt dina barn och tala om dem när du sitter i ditt hus och när du går på vägen, när du lägger dig ner och när du står upp.’ (5 Mosebok 6:7).\" Keep the same <p> wrapper and the parenthetical Scripture reference.",
+        "translation_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7)."
+      },
+      {
+        "location": "<p> (Conclusion section, parenthetical Scripture reference)",
+        "severity": "minor",
+        "source_quote": "(Galatians 5:22-23)",
+        "suggested_fix": "Localize the book name in the parenthetical reference to Swedish to match the rest of the translation (while preserving the numeric reference). For example use: \"(Galaterbrevet 5:22–23)\". Keep the same parentheses and placement inside the existing <p> tag.",
+        "translation_quote": "(Galatians 5:22-23)"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

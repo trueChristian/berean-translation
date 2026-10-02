@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b1de587d-0dfa-4dc3-bb2d-8229478a41a2",
+    "response_id": "chatcmpl-EUL9oDh8rPqMnc2OWtN9r83Wm4qLE",
+    "usage": {
+      "completion_tokens": 971,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7980,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8951
+    }
+  },
+  "received_at": "2026-10-02T00:14:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Throughout article (voice/pronoun usage)",
+        "severity": "minor",
+        "source_quote": "(original English uses second-person singular mostly as 'you' throughout)",
+        "suggested_fix": "Choose a single Dutch second-person register and apply it consistently (either informal 'je/jouw' or formal 'u/uw') throughout the translation. For example, change sentences using 'je' to 'u' or vice versa to match the chosen tone. Specific examples: change \"Je kunt vrij zijn!\" to \"U kunt vrij zijn!\" if you adopt 'u', or change \"Houd uw emoties.\" to \"Behoud je emoties.\" if you adopt 'je'.",
+        "translation_quote": "The translation switches between 'je' (e.g., \"Je kunt vrij zijn!\") and 'u/uw' (e.g., \"Houd uw emoties.\")."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

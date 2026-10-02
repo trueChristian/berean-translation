@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "44f8c0bb-fcf1-4943-8f0d-43e9b37050ab",
+    "response_id": "chatcmpl-EUL9yIu9AJ3PReA3clTwP8aIRag5i",
+    "usage": {
+      "completion_tokens": 1288,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7222,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8510
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph mentioning Ahab (near \"It was faithless Ahab who was told...\")",
+        "severity": "minor",
+        "source_quote": "It was faithless Ahab who was told to ask of God a sign in the heavens or earth.",
+        "suggested_fix": "Use the standard English spelling \"Ahab\" to match the source and avoid altering a biblical name's spelling. Replace the translated word keeping HTML structure unchanged, e.g. change \"Akab\" to \"Ahab\" in the corresponding paragraph text.",
+        "translation_quote": "Det var den vantro Akab som ble bedt om å be Gud om et tegn i himmelen eller på jorden."
+      },
+      {
+        "location": "Multiple paragraphs (use of \"sundt\" and awkward idiom)",
+        "severity": "minor",
+        "source_quote": "...and of a sound mind.\" (2 Timothy 1:7)\n\n...the spirit of love and peace will carry us through...\n\n...a sound mind...",
+        "suggested_fix": "Use contemporary Bokmål vocabulary and smoother idioms. Replace archaic \"sundt\" with modern \"sunt\" in phrases such as \"et sundt sinn\" -> \"et sunt sinn\" and consider rephrasing awkward literalisms (e.g., \"edruelig spenne sinnets liv opp og øve dem\") to a clearer construction preserving meaning. Example fixes (preserving HTML tags and order):\n- Change \"et sundt sinn\" to \"et sunt sinn\" everywhere.\n- Change \"edruelig spenne sinnets liv opp og øve dem\" to \"holde sinnet edru og trene det\" or similar context-appropriate phrasing.\nApply these as direct text replacements in the translated HTML.",
+        "translation_quote": "...kraft, kjærlighet og sundt sinn, til det «rotfaste» — bønn, fred og takknemlighet.\n\n...Takknemlighet gir et sundt sinn\n\n...men vi må edruelig spenne sinnets liv opp og øve dem hvis vi noen gang håper å oppnå “the grace...\""
+      }
+    ],
+    "passed": true,
+    "score": 95
+  }
+}

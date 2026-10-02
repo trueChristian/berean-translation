@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f45c984b-3835-40c3-84c0-c5651a46c253",
+    "response_id": "chatcmpl-EULAXpZDV7DJ3JBro6d2siInCeQfd",
+    "usage": {
+      "completion_tokens": 1331,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6322,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7653
+    }
+  },
+  "received_at": "2026-10-02T00:14:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>…The inward is affected first through the working of the Holy Spirit in the willful sinner’s life…</p> (paragraph under “Importance of Practical Salvation” in source.html)",
+        "severity": "minor",
+        "source_quote": "\"The inward is affected first through the working of the Holy Spirit in the willful sinner’s life.\"",
+        "suggested_fix": "Replace the Bengali phrase that translates \"willful sinner\" (currently “অভিলাষী পাপকেই”) with a more accurate rendering such as “স্বেচ্ছাচারী পাপীর” or “সেটাই ছিল যে পাপী স্বেচ্ছাচারী” so the meaning \"willful sinner\" is preserved. Example replacement: \"অভ্যন্তরীণ পরিবর্তন প্রথমে পবিত্র আত্মার কার্যক্রমের মাধ্যমে স্বেচ্ছাচারী পাপীর জীবনে ঘটে।\"",
+        "translation_quote": "\"অভ্যন্তরীণ পরিবর্তন প্রথমে পবিত্র আত্মার কার্যক্রমের মাধ্যমে অভিলাষী পাপকেই প্রভাবিত করে।\""
+      },
+      {
+        "location": "<p>To these serious-minded Christians, there was no difference in importance between the religious belief expressed on Sundays and the mundane actions of the rest of the week. This is evidenced by their general abstinence from political matters…</p> (paragraph under “The Teachings of Practical Christianity” in source.html)",
+        "severity": "minor",
+        "source_quote": "\"In his book, “Pride and Humility,” John M. Brenneman maintains that the outward appearance of a person is directly related to his inward heart…\"",
+        "suggested_fix": "The verb translated as “maintains” should be corrected. The translation currently uses “রক্ষা করেন” which means “saves/protects” rather than \"maintains/argues.\" Replace “রক্ষা করেন যে” with “দাবি করেন যে” or “বলেছেন যে”. Example: \"তার বই 'Pride and Humility'-এ জন এম. ব্রেনেম্যান বলেন যে একজন ব্যক্তির বাহ্যিক চেহারা সরাসরি তাঁর অভ্যন্তরীণ হৃদয়ের সঙ্গে সম্পর্কিত।\"",
+        "translation_quote": "\"তাঁর বই “Pride and Humility” (\\\"গর্ব ও বিনয়\\\") তে, জন এম. ব্রেনেম্যান রক্ষা করেন যে একজন ব্যক্তির বাহ্যিক চেহারা সরাসরি তাঁর অভ্যন্তরীণ হৃদয়ের সাথে সম্পর্কিত…\""
+      },
+      {
+        "location": "<p>…This leads to a lack of counting the cost of Christianity, which is a death of oneself, a death of pride, and a death of favor with man.</p> (paragraph under “Importance of Practical Salvation” in source.html)",
+        "severity": "minor",
+        "source_quote": "\"…a death of oneself, a death of pride, and a death of favor with man.\"",
+        "suggested_fix": "There is a typographical and phrasing issue in the Bengali rendering of \"a death of favor with man.\" The translation currently reads “মানুষের অনুকম্পার মৃ্ত্যু” (note misspelling and awkward phrasing). Replace with a clearer, correctly spelled phrase such as “মানুষের মতপ্রশস্তি/মানুষের আনুকূল্যের মৃত্যু” or “মানুষের অনুকম্পা/মর্যাদার মৃত্যু.” Example: \"এটি খ্রিস্টীয়তায় ব্যয় গণনা না করার দিকে নিয়ে যায়—যা নিজেকে মরে ফেলা, অহংকারের মৃত্যু, এবং মানুষের আনুকূল্যের মৃত্যু।\"",
+        "translation_quote": "\"এটি খ্রিস্টীয়তায় ব্যয় গণনা না করার দিকে নিয়ে যায়—যা নিজেকে মরে ফেলা, অহংকারের মৃত্যু, এবং মানুষের অনুকম্পার মৃ্ত্যু।\""
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

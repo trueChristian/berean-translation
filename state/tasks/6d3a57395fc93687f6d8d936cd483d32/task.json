@@ -2,7 +2,6 @@
   "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -62,38 +61,44 @@
         },
         "total_tokens": 14483
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 852,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8943,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9795
+      }
     }
   ],
   "findings": [
     {
-      "location": "Paragraph: \"The government eventually changed hands...\" (source.html)",
-      "severity": "major",
-      "source_quote": "The government eventually changed hands, which gave more liberty to the non-conformist Covenanters.",
-      "suggested_fix": "Translate without adding an extra denominational label. Preserve the original meaning: e.g. « Le gouvernement changea finalement de mains, ce qui donna plus de liberté aux non-conformist Covenanters. » or « …donna plus de liberté aux Covenanters non-conformistes. » (keep the term Covenanters untranslated or clearly marked as the English name in parentheses if needed). Do not add “presbytériens”.",
-      "translation_quote": "Le gouvernement changea finalement de mains, ce qui donna plus de liberté aux presbytériens non-conformistes (les Covenanters)."
-    },
-    {
-      "location": "Hymn stanza 2 (inside <div class=\"hymn\">)",
-      "severity": "major",
-      "source_quote": "Yea, let the vain world vanish,\nAs from the ship the strand,",
-      "suggested_fix": "Correct the stanza so it conveys the original sense. A closer rendering could be: « Oui, que le monde vain s'évanouisse,\nComme la côte se détache du navire, » or better idiomatic French: « Oui, que le monde vain s'évanouisse,\nComme un rivage abandonné par le navire, » (preserve hymn line breaks and HTML tags).",
-      "translation_quote": "Oui, que le monde vain s'évanouisse,\nComme on jette du bord le fardiau,"
-    },
-    {
-      "location": "Hymn stanza 14 (inside <div class=\"hymn\">)",
+      "location": "<div class=\"hymn\"> — stanza 1 (first line after <strong><em>)",
       "severity": "minor",
-      "source_quote": "Soon shall the cup of glory\nWash down earth’s bitterest woes,",
-      "suggested_fix": "Remove the stray bracketed marker and render the verb correctly. For example: « Bientôt la coupe de gloire\nLavera les plus amères douleurs de la terre, » (delete the inserted \"[a]\"). Preserve stanza formatting and tags.",
-      "translation_quote": "Bientôt la coupe de gloire\nLaver[a] les plus amères douleurs de la terre,"
+      "source_quote": "The summer morn I’ve sighed for,",
+      "suggested_fix": "Replace the French phrase « Le matin d'été que j'ai soupiré » by a clearer idiomatic rendering that preserves the original sense, for example: « Le matin d'été pour lequel j'ai soupiré, » — keep original HTML tags and structure.",
+      "translation_quote": "Le matin d'été que j'ai soupiré,"
     },
     {
-      "location": "Final paragraph discussing the tune (source.html)",
+      "location": "<div class=\"hymn\"> — stanza 2 (lines 3–4)",
       "severity": "minor",
-      "source_quote": "The rising melodic line of the last phrase perfectly matches the anticipated joy expressed by the refrain—\"And glory—glory dwelleth in Immanuel's land.\"",
-      "suggested_fix": "For consistency, either translate the quoted refrain into French (to match the translated hymn) or explicitly indicate that the refrain is being quoted in the original English. Suggested: « …la joie anticipée exprimée par le refrain — « Et la gloire, la gloire habite dans la terre d'Emmanuel. » » or « …le refrain (en anglais) : “And glory—glory dwelleth in Immanuel's land.” »",
-      "translation_quote": "La ligne mélodique ascendante de la dernière phrase correspond parfaitement à la joie anticipée exprimée par le refrain—« And glory, glory dwelleth in Immanuel's land.\""
+      "source_quote": "My nest hung in no forest\nOf all this death-doomed shore!",
+      "suggested_fix": "Revise the French to convey the idiomatic sense of the original (that the speaker's home was not located in any life-doomed forest). Suggested wording: « Mon nid n'était suspendu dans aucune forêt / De tout ce rivage voué à la mort ! » — preserve HTML tags and stanza structure.",
+      "translation_quote": "Mon nid ne fut pas accroché\nDans quelque forêt de ce rivage voué à la mort !"
     }
   ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "6d3a57395fc93687f6d8d936cd483d32",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "fra",
@@ -137,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c48182e3f5033a08822c2237c3e9e7faab5b80302e823695d8ba3dd0faead4e3.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

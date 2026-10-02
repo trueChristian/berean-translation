@@ -2,7 +2,6 @@
   "article_id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -62,31 +61,29 @@
         },
         "total_tokens": 10293
       }
-    }
-  ],
-  "findings": [
-    {
-      "location": "<p>…he began to sing under his breath a song he had heard in Sunday school, “Jesus loves the little children, all the children of the world.” He stopped to think, and his crying quit.</p>",
-      "severity": "critical",
-      "source_quote": "…he began to sing under his breath a song he had heard in Sunday school, “Jesus loves the little children, all the children of the world.” He stopped to think, and his crying quit.",
-      "suggested_fix": "Translate the quoted hymn line into German (preserve the HTML structure and surrounding sentence). Replace the English hymn line within the existing <p> exactly where it appears. Example replacement preserving tags and punctuation: …begann leise ein Lied zu summen, das er im Sonntagsschulunterricht gehört hatte: „Jesus liebt die kleinen Kinder, alle Kinder dieser Welt.“ Er hielt inne zum Nachdenken, und sein Weinen verstummte.",
-      "translation_quote": "Er wischte seine Tränen weg und begann leise ein Lied zu summen, das er im Sonntagsschulunterricht gehört hatte: „Jesus loves the little children, all the children of the world.“ Er hielt inne zum Nachdenken, und sein Weinen verstummte."
     },
     {
-      "location": "<p>That was even worse than leaving Dad! …</p> (paragraph about foster homes)",
-      "severity": "minor",
-      "source_quote": "That was even worse than leaving Dad!",
-      "suggested_fix": "Translate the English personal term to the German equivalent used elsewhere in the article for consistency. Replace 'Dad' with 'Vater' in this sentence, preserving HTML and punctuation. Example: \"Das war noch schlimmer, als den Vater zu verlassen!\"",
-      "translation_quote": "Das war noch schlimmer, als Dad zu verlassen!"
-    },
-    {
-      "location": "<p>His school friend was a hippie, and his parents traveled a lot. They were called Gypsies.</p>",
-      "severity": "minor",
-      "source_quote": "They were called Gypsies.",
-      "suggested_fix": "The translation uses the German term \"Zigeuner\", which is a literal rendering but can be derogatory in contemporary usage. Suggest revising to a more neutral German expression (preserving the HTML). Options: replace with 'reisende Leute' or 'fahrende Leute' or add a clarifying phrase if the English original's term should be kept, e.g. \"Man nannte sie ,Zigeuner'.\" Example neutral replacement: \"Man nannte sie reisende Leute (oft ,Zigeuner' genannt).\"",
-      "translation_quote": "Sie wurden „Zigeuner\" genannt."
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 410,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6259,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6669
+      }
     }
   ],
+  "findings": [],
+  "finished_at": "2026-10-02T00:14:30+00:00",
   "id": "ff82bc5518a95debcaae2a393e4137a1",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "deu",
@@ -130,13 +127,13 @@
     }
   },
   "protected": false,
-  "quality_score": 62,
+  "quality_score": 100,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0c059a0312fc4bb7c1d9113fe70aaa013f3daaefdb55449ee68204bcbaa1c79e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

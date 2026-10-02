@@ -2,7 +2,6 @@
   "article_id": "cdb88be0-93b0-4362-bc3b-1488aff1a76f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:46+00:00",
   "events": [
@@ -62,52 +61,66 @@
         },
         "total_tokens": 4054
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1399,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1592,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2991
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "source.html (poem, stanza 5, line 1) — \"Creator Spirit, work in me\"",
-      "severity": "critical",
-      "source_quote": "Creator Spirit, work in me",
-      "suggested_fix": "Replace the mistranslation with a faithful rendering that preserves the theological identity of the phrase and the verb sense. For example: \"Roho Muumba, nifanyie kazi\" (or \"Roho Muumba, nifanye kazi ndani yangu\"). Preserve HTML structure exactly (inside the same <p> element).",
-      "translation_quote": "Mwokozi wa Muumba, nifanyie kazi"
-    },
-    {
-      "location": "source.html (poem, stanza 2, line 1-2) — \"Divine Redeemer, Thee I bless; / I greet Thy going forth;\"",
-      "severity": "major",
-      "source_quote": "Divine Redeemer, Thee I bless;\nI greet Thy going forth;",
-      "suggested_fix": "Avoid changing \"bless\" to a stronger term like \"abudu\" (worship). Use a closer equivalent such as \"Ninakubariki\" or \"Nakupongeza\"; render the second line without added sense (do not add \"kwa nguvu zako\"). Example replacement (preserve HTML): \"Mkombozi Mtukufu, Ninakubariki; / Ninakukaribisha ukatoke wako;\" or better: \"Mkombozi Mtukufu, Ninakubariki; / Ninakaribisha kuja Kwako.\" Keep capitalization and tag structure as in the translation.",
-      "translation_quote": "Mkombozi wa Mbinguni, Ninakuabudu;\nNa kukukaribisha ukatoke kwa nguvu zako;"
-    },
-    {
-      "location": "source.html (poem, stanza 3, line 4) — \"These new births more divine:\"",
-      "severity": "major",
-      "source_quote": "These new births more divine:",
-      "suggested_fix": "The translation \"Haya uzazi mpya wenye Mungu zaidi:\" changes nuance and is awkward. Use a closer phrasing such as \"Haya uzazi mpya yaliyo takatifu zaidi:\" or \"Haya uzazi mpya yaliyo ya kimungu zaidi:\" depending on the author's intent. Preserve HTML structure.",
-      "translation_quote": "Haya uzazi mpya wenye Mungu zaidi:"
-    },
-    {
-      "location": "source.html (poem, stanza 2, line 3-4) — \"I love Thee in the loveliness / Of Thy renewed earth.\"",
+      "location": "<div class=\"poem\"> first stanza, line 2",
       "severity": "minor",
-      "source_quote": "I love Thee in the loveliness\nOf Thy renewed earth.",
-      "suggested_fix": "Smooth wording and correct small errors: \"Nakupenda Kwako\" is awkwardly capitalized and doubled. Suggest: \"Nakupenda kwa uzuri / Wa dunia Yako iliyojazwa upya.\" (Preserve case-sensitivity consistent with style guide.)",
-      "translation_quote": "Nakupenda Kwako katika uzuri wake\nWa dunia yako iliyojazwa upya."
+      "source_quote": "The newborn life, how glad!",
+      "suggested_fix": "Translate as a direct expression of gladness about new life, e.g. replace “Maisha mapya yaliyozaliwa, ni furaha!” with “Maisha mapya yaliyozaliwa, ni furaha tele!” or “Maisha mapya yaliyozaliwa, ni furaha tele!” to better reflect the exclamatory quality.",
+      "translation_quote": "Maisha mapya yaliyozaliwa, ni furaha!"
     },
     {
-      "location": "source.html (poem, stanza 4, line 3) — \"This new-born ecstasy of song,\"",
+      "location": "<div class=\"poem\"> second stanza, line 2",
       "severity": "minor",
-      "source_quote": "This new-born ecstasy of song,",
-      "suggested_fix": "The phrase \"Hili furaha jipya la wimbo lililozaliwa\" is grammatically inconsistent (gender/number and demonstrative). Suggest: \"Hii furaha mpya ya wimbo iliyozaliwa\" or \"Hii ekstasi mpya ya wimbo.\" Preserve HTML.",
-      "translation_quote": "Hili furaha jipya la wimbo lililozaliwa,"
+      "source_quote": "I greet Thy going forth;",
+      "suggested_fix": "Preserve the sense of the Redeemer's going forth (outgoing action). Suggested rendering: “Ninakukaribisha kutoka Kwako” is still not ideal; better: “Ninauchukulia uelekezaji/kuenda Kwako kwa shukrani” or more simply “Ninakusujudia wewe ukitoka” depending on poetic tone. Keep original sense of 'going forth' rather than 'coming'.",
+      "translation_quote": "Ninakaribisha kuja Kwako;"
     },
     {
-      "location": "source.html (poem, stanza 6, line 3-4) — \"And grant the glad new song to ring / Through the new earth and Heaven.\"",
+      "location": "<div class=\"poem\"> fourth stanza, line 1",
       "severity": "minor",
-      "source_quote": "And grant the glad new song to ring\nThrough the new earth and Heaven.",
-      "suggested_fix": "Translation is mostly acceptable but consider smoother phrasing: replace \"Na utupatie wimbo wa shangwe mpya uwe ukienea / Kupitia dunia mpya na Mbingu.\" with \"Na utupatie wimbo mpya wa shangwe uwe ukienea / Kupitia dunia mpya nambingu.\" Also correct spacing/capitalization for \"Mbingu\" if style requires lower-case. Preserve tags.",
-      "translation_quote": "Na utupatie wimbo wa shangwe mpya uwe ukienea\nKupitia dunia mpya na Mbingu."
+      "source_quote": "This new-born glow of faith so strong,",
+      "suggested_fix": "“Glow” is translated as “ishara” (‘sign’), which weakens the image. Suggested fix: use a Kiswahili word for glow/gleam such as “mwangaza mpya wa imani wenye nguvu” or “mng’ao mpya wa imani wenye nguvu”.",
+      "translation_quote": "Hii ishara mpya ya imani yenye nguvu;"
+    },
+    {
+      "location": "<div class=\"poem\"> fifth stanza, line 2",
+      "severity": "minor",
+      "source_quote": "These wonders sweet of Thine;",
+      "suggested_fix": "Typographical/spacing correction and slight grammatical smoothing: change “Maajabu haya tamu yaako;” to “Maajabu haya tamu yako;” (separate words and correct possessive).",
+      "translation_quote": "Maajabu haya tamu yaako;"
+    },
+    {
+      "location": "<div class=\"poem\"> sixth stanza, lines 1–2",
+      "severity": "minor",
+      "source_quote": "Still, let new life and strength upspring,\nStill, let new joy be given;",
+      "suggested_fix": "The translation uses “Baki, na ulete…” where “Baki” (‘remain’) does not convey the English optative/request sense (“Let … upspring / be given”). Suggested alternatives: “Nawe, na uzima mpya na nguvu viibuke,” or “Na uache uzima mpya na nguvu vichipue,” and for the second line “Na upeleke furaha mpya itolewe” → better: “Na ufungue furaha mpya itolewe” or “Na ulete furaha mpya” to match the petition/request tone. Preserve poetic brevity.",
+      "translation_quote": "Baki, na ulete uzima mpya na nguvu ijenguke,\nBaki, na ulete furaha mpya itolewe;"
     }
   ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "283a196ee4c9fbdebddb3a8dd5ddde7a",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "swa",
@@ -151,13 +164,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/77e936fd3992ec154fecd4e753dcaf1c210f965f21cd72ac0e78032ca820afc1.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "15ac9c1b97edbe073ae811f5fd305d02a68542aeb9f44f03ca5e9732f904625a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

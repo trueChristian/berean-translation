@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "39d991a9-c67c-49ba-bd65-e722fc486048",
+    "response_id": "chatcmpl-EULAC3advOx8wFvTdJT9yvQc3IqDY",
+    "usage": {
+      "completion_tokens": 1561,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2909,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4470
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 1 (first sentence)",
+        "severity": "minor",
+        "source_quote": "Hyacinths are trying their noble best to poke their buds through the cold constraint of the winter-bound earth.",
+        "suggested_fix": "Use a correct, idiomatic Arabic word for “hyacinths.” Replace \"تحاول زهور الزيزيون\" with \"تحاول زهور الهياسينث\" or \"تحاول أزهار الزنبق (الهِياسِنْث)\" to convey the plant name accurately while keeping natural Arabic.",
+        "translation_quote": "تحاول زهور الزيزيون بذل قصارى جهدها لتبرز براعمها من خلال قسوة الأرض المحكومة بالشتاء."
+      },
+      {
+        "location": "Paragraph 1 (birds phrase)",
+        "severity": "minor",
+        "source_quote": "Migrating waterfowl bring new sounds as they honk and quack their way to their final nesting places.",
+        "suggested_fix": "Render the onomatopoeia with verbs that match the English meaning. For example: replace \"وهي تنقنق وتزمجر\" with \"وهي تُصدر أصواتَ النّقنقة والبطّحة\" or \"وهي تزقزق وتزمجر\" depending on intended birds; or better: \"وهي تُصدر أصواتَ الزقزقة والنّقنقة\". Choose verbs that correctly reflect honking/quacking rather than \"تزمجر\" (which implies roaring).",
+        "translation_quote": "تجلب الطيور المائية المهاجرة أصواتًا جديدة وهي تنقنق وتزمجر في طريقها إلى مواضع تعشيشها النهائية."
+      },
+      {
+        "location": "Paragraph with faith-article quote (near end of Ramadan paragraph)",
+        "severity": "major",
+        "source_quote": "“Faith is one of the basic ingredients in getting right with God. We come into the Christian life (and receive the forgiveness of sins) through faith. . . We abandon all hope for saving ourselves by our own abilities, and instead, we put complete trust in Jesus Christ for our eternal safety.”",
+        "suggested_fix": "Translate this entire quoted passage into Arabic (preserving punctuation and quotation marks) rather than leaving it in English. For example: “الإيمان هو أحد المكونات الأساسية لنيل الصِحّة لدى الله. ندخل الحياة المسيحية (وننال مغفرة الخطايا) بالإيمان... نتخلى عن كل رجاء في خلاص أنفسنا بقدراتنا الخاصة، وبدلاً من ذلك نضع ثقة كاملة في يسوع المسيح لخلاصنا الأبدي.” Keep the quote markup exactly as in source HTML (no tag changes).",
+        "translation_quote": "كاتب المقال \"How to Increase Your Faith\" يوضح هذا بجلاء: “Faith is one of the basic ingredients in getting right with God. We come into the Christian life (and receive the forgiveness of sins) through faith. . . We abandon all hope for saving ourselves by our own abilities, and instead, we put complete trust in Jesus Christ for our eternal safety.”"
+      },
+      {
+        "location": "Isaiah quotation paragraph (last scripture quote)",
+        "severity": "minor",
+        "source_quote": "“For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11).",
+        "suggested_fix": "Either translate the printed English quotation into Arabic consistently with the other scripture rendering in the article, or include an explicit note that the original English quotation is being shown in Arabic translation. Suggested Arabic rendering preserving the sense: “كما تُنبِت الأرض برعمها، وكما يُنجِب البستان ما زُرِع فيه؛ هكذا يُنبت الرب الإله البِرّ والمديح أمام جميع الأمم” (Isaiah 61:11). Keep the parenthetical citation exactly as in the source (no change to the citation).",
+        "translation_quote": "بينما نزرع حدائقنا ونراقب الأشجار تتفتح، فلنذكر بكلمات النبي أشعيا، “For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11)."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

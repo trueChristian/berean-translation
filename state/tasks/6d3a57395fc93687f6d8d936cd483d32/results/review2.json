@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "570405af-210b-4711-8109-9ba88be39fa9",
+    "response_id": "chatcmpl-EUL9oxACCk3oM2W7265kRLY2g6PX3",
+    "usage": {
+      "completion_tokens": 852,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8943,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9795
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"hymn\"> — stanza 1 (first line after <strong><em>)",
+        "severity": "minor",
+        "source_quote": "The summer morn I’ve sighed for,",
+        "suggested_fix": "Replace the French phrase « Le matin d'été que j'ai soupiré » by a clearer idiomatic rendering that preserves the original sense, for example: « Le matin d'été pour lequel j'ai soupiré, » — keep original HTML tags and structure.",
+        "translation_quote": "Le matin d'été que j'ai soupiré,"
+      },
+      {
+        "location": "<div class=\"hymn\"> — stanza 2 (lines 3–4)",
+        "severity": "minor",
+        "source_quote": "My nest hung in no forest\nOf all this death-doomed shore!",
+        "suggested_fix": "Revise the French to convey the idiomatic sense of the original (that the speaker's home was not located in any life-doomed forest). Suggested wording: « Mon nid n'était suspendu dans aucune forêt / De tout ce rivage voué à la mort ! » — preserve HTML tags and stanza structure.",
+        "translation_quote": "Mon nid ne fut pas accroché\nDans quelque forêt de ce rivage voué à la mort !"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

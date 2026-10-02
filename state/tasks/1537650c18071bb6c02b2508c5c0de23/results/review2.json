@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c0fab8ee-57cf-4195-a98e-ebceb4a6f4fb",
+    "response_id": "chatcmpl-EUL9xZIQN2jVvRwJ1vcrIgDSAph2I",
+    "usage": {
+      "completion_tokens": 1034,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3721,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4755
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>…She threw her apple core to the dogs and started for the house.</p>",
+        "severity": "minor",
+        "source_quote": "She threw her apple core to the dogs and started for the house.",
+        "suggested_fix": "Preserve meaning with natural Korean wording for \"apple core.\" Replace the phrase in the translation with: \"사과 심을 개들에게 던져주고 집으로 향했다.\" or more naturally \"사과 심(속)을 개들에게 던져주고 집으로 향했다.\" (Preserve surrounding HTML tags and structure.)",
+        "translation_quote": "사과 심을 개들에게 던져 주고 집으로 향했다."
+      },
+      {
+        "location": "<p>…She snapped the paddle together, hopped into the seat, and pushed the kayak onto the smooth surface of the water.</p>",
+        "severity": "minor",
+        "source_quote": "She snapped the paddle together, hopped into the seat, and pushed the kayak onto the smooth surface of the water.",
+        "suggested_fix": "Use a more natural or standard Korean term for \"paddle\" (노). Suggested replacement keeping HTML: \"노를 조립하고 좌석에 올라타 연못의 고요한 물 위로 카약을 밀어 넣었다.\" Or include both terms if preferred: \"패들을(노를) 조립하고…\"",
+        "translation_quote": "패들을 조립하고 좌석에 올라타 연못의 고요한 물 위로 카약을 밀어 넣었다."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

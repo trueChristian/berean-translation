@@ -2,7 +2,6 @@
   "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -62,52 +61,59 @@
         },
         "total_tokens": 15700
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1206,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8921,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10127
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "<div class=\"hymn\"> — first stanza (hymn opening line)",
+      "location": "Paragraph: \"Late in the afternoon of the last day...\" (English source) / Corresponding Hebrew paragraph beginning \"מאוחר אחרי־הצהריים של יום מותו...\"",
       "severity": "major",
-      "source_quote": "The sands of time are sinking,",
-      "suggested_fix": "Translate the phrase literally and accurately as: \"חול הזמן שוקע,\" (or other clear Hebrew for 'the sands of time are sinking') preserving the sense of 'sands' (חול) rather than 'חולי'. Keep the surrounding HTML tags and markup unchanged.",
-      "translation_quote": "חולי הזמן שוקעים,"
+      "source_quote": "This night shall close the door, and put my anchor within the veil, and I shall go away in a sleep by five of the clock in the morning.",
+      "suggested_fix": "Translate the clause to convey the original metaphor correctly. For example: \"הלילה הזה ייסגר הדלת, ועוגני יונח מאחורי הפרוכת, ואני אלך לישון בשעה חמש בבוקר.\" (preserve HTML and surrounding punctuation as in the translation).",
+      "translation_quote": "\"הלילה הזה ייסגר הדלפק, וישים עוגני בתוך הפרוכת, ואלך לישון בשעה חמש בבוקר.\""
     },
     {
-      "location": "<p>…רתרפורד המשיך להיות מנהיג…</p> (paragraph about Rutherford after children paragraph)",
-      "severity": "minor",
-      "source_quote": "Rutherford continued to be an influential leader in the non-conformist movement in Scotland for the next 20 years until 1660.",
-      "suggested_fix": "Correct the personal name spelling in-place to match the source: replace \"רץפורד\" with \"רתרפורד\". Preserve the paragraph's HTML tags and punctuation.",
-      "translation_quote": "רץפורד המשיך להיות מנהיג בעל השפעה בתנועת הלא־התאמה בסקוטלנד במשך כ־20 השנים הבאות עד 1660."
-    },
-    {
-      "location": "Hymn stanzas — various lines (example: stanza 2 first line)",
+      "location": "Paragraph: \"Nearly two centuries later, Annie Ross Cousin, a Scottish poet and hymn writer and the wife of a minister...\" / Corresponding Hebrew paragraph beginning \"כמעט מאתיים שנים לאחר מכן, אנה רוס קאוזין...\"",
       "severity": "major",
-      "source_quote": "Oh! well it is forever, Oh! well forevermore",
-      "suggested_fix": "Re-render stanza 2 and other hymn lines to convey the printed English meaning faithfully. For stanza 2 a suitable Hebrew preserving the sense would be e.g. \"אוי! מה טוב הדבר לעד, אוי! טוב לעד ולעד\". Review all 19 original verses for sense-accurate Hebrew equivalents and correct mistranslations such as 'My nest hung in no forest' (do not render as 'קנוני לא היו בקן ביער') — use a phrase conveying 'My nest was not hung in any forest of this death-doomed shore.' Keep all hymn HTML tags intact.",
-      "translation_quote": "2. אוי! טוב זאת לעד,\n    אוי! טוב לעד ולעד\n    קנוני לא היו בקן ביער\n    של כל החוף הזה הנידון למות!"
+      "source_quote": "Annie Ross Cousin, a Scottish poet and hymn writer and the wife of a minister, was inspired by the life and writings of Samuel Rutherford.",
+      "suggested_fix": "Correct the mistranslation of \"the wife of a minister.\" Do not render as \"אשת רב\" (which means wife of a rabbi). Use a neutral/accurate term such as \"אשת כומר\" or \"אשת כומר/משרת דתי\" or simply \"אשתו של כומר\". Example: \"אנה רוס קאוזין, משוררת ומלחינת מזמורים סקוטית ואשתו של כומר, הושפעה...\"",
+      "translation_quote": "\"אנה רוס קאוזין, משוררת ומלחינת המנונים סקוטית ואשת רב, הושפעה מחייו וכתביו של שמואל רתרפורד.\""
     },
     {
-      "location": "<figure> <img alt=\"...\">",
+      "location": "Paragraph: final hymn-history paragraph and composer mention / Corresponding Hebrew paragraph beginning \"המנגינה המשלימה העדינה...\"",
       "severity": "minor",
-      "source_quote": "A star-filled night sky above a mountain lake",
-      "suggested_fix": "Use a natural Hebrew rendering of the original English alt text such as: \"שמיים ליליים מלאי כוכבים מעל אגם הררי\". Replace the current alt text in-place and preserve the <img> tag and attributes.",
-      "translation_quote": "שמי לילה מלאים בכוכבים מעל אגם הררי"
+      "source_quote": "...composed in the early 1800s by a French musician, Chretien D`Urhan.",
+      "suggested_fix": "Review transliteration of the composer's name to better match the source. Use a more accurate Hebrew transliteration of the French name (for example: \"כריסטיאן ד'אוראן\" or preserve the source spelling \"Chretien D'Urhan\" in Latin script).",
+      "translation_quote": "\"...על ידי מוזיקאי צרפתי, כריסטיאן ד'אורן.\""
     },
     {
-      "location": "Last paragraph before sources — closing Samuel Rutherford quote",
+      "location": "Title metadata (source.title vs translation.title)",
       "severity": "minor",
-      "source_quote": "\"They lose nothing who gain Christ.\"",
-      "suggested_fix": "Render the short quotation more idiomatically and clearly while keeping the original meaning, for example: \"הם לא מפסידים דבר שזוכים במשיח.\" Keep the quotation marks and surrounding HTML unchanged.",
-      "translation_quote": "\"האינם מפסידים כלום שהם מרוויחים את המשיח.\""
-    },
-    {
-      "location": "Multiple hymn stanzas — fidelity and idiom (examples: stanza 6, stanza 9)",
-      "severity": "major",
-      "source_quote": "6. E’en Anwoth was not heaven—E’en preaching was not Christ; ...\n9. The little birds of Anwoth, used to count them blest,—",
-      "suggested_fix": "Revise these stanzas to accurately reflect the printed English sense. For stanza 6 a clearer Hebrew might be: \"אפילו אנוות' לא הייתה גן עדן — אפילו הדרשה אינה המשיח; ...\" For stanza 9: \"ציפורי אנוות' הקטנות, שהיו נחשבות מבורכות —\". Carefully correct mistranslations that alter meaning (e.g. avoid rendering 'preaching was not Christ' as 'ההטפה לא היתה המשיח' without context that makes the negative correctly idiomatic). Preserve the hymn <div> and <p> tags.",
-      "translation_quote": "<em>6. אף אנוות' לא הייתה השמיים—<br>\n    אף ההטפה לא הייתה המשיח;<br>\n    ובכלאי הים הנוטש שלי<br>\n    אדוני ואני קבענו מפגש:<br>\n    ותמיד ענן הסערה האפל שלי<br>\n    נתפס על ידי קשת־קשת;<br>\n    נתפס מתהילת השכינה<br>\n    בארץ עמנואל.</em>\n...\n<em>9. הציפורים הקטנות של אנוות',<br>\n    נהגו לספור את עצמן מבורכות,—<br>\n    כעת, ליד מזבחות מאושרים יותר,<br>\n    הולכות לבנות את קניי:<br>\n    מעליהן אין שורה דממה,<br>\n    אין קברים עומדים סביבהן,<br>\n    כי תהילה, אינה מתה, שורה<br>\n    בארץ עמנואל.</em>"
+      "source_quote": "The Sands of Time Are SINKING",
+      "suggested_fix": "Translate the title into Hebrew to match target-language guidance. For example: \"חול הזמן שוקע\" (preserve capitalization or formatting rules of the site). Ensure translation.title field is updated (do not change HTML tags).",
+      "translation_quote": "The Sands of Time Are SINKING"
     }
   ],
+  "finished_at": "2026-10-02T00:14:30+00:00",
   "id": "edd965ccd2920db8050616c49dda4b80",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "heb",
@@ -151,13 +157,13 @@
     }
   },
   "protected": false,
-  "quality_score": 58,
+  "quality_score": 60,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c48182e3f5033a08822c2237c3e9e7faab5b80302e823695d8ba3dd0faead4e3.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b6b485ec-71f3-4755-a126-7327c9e847e6",
+    "response_id": "chatcmpl-EUL9wuuy3jaKsjxIiFb5f9lRHd1ba",
+    "usage": {
+      "completion_tokens": 1166,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9642,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10808
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>In 1627...to the small church of Anwoth.</p> (paragraph describing his ministry and zeal)",
+        "severity": "minor",
+        "source_quote": "His passion was for the conversion of the people, and it is said that he seemed to be always praying, always preaching, always visiting the sick, always teaching and instructing, always writing or studying.",
+        "suggested_fix": "Replace the phrase that renders 'preaching' as 'سچ بولنے' with a phrase conveying 'preaching the gospel' to match the original meaning. For example, change 'سچ بولنے' to 'خوشخبری سنانے/تبلیغ کرنے' while preserving the surrounding HTML and tags.",
+        "translation_quote": "...کہا جاتا ہے کہ وہ ہمیشہ دعا گو، ہمیشہ تبلیغ کرنے والا، ہمیشہ بیماروں کے پاس جانے والا، ہمیشہ تعلیم دینے والا اور ہدایت کرنے والا، اور ہمیشہ لکھنے یا مطالعہ کرنے والا نظر آتا تھا۔"
+      },
+      {
+        "location": "<p>Rutherford ... was summoned to appear before the judge and charged with high treason...</p> (paragraph about his trial and imprisonment)",
+        "severity": "minor",
+        "source_quote": "He was summoned to appear before the judge and charged with high treason against the government for preaching the truth.",
+        "suggested_fix": "Adjust the translation wording that currently reads 'سچ بولنے پر' to explicitly read 'خوشخبری سنانے/خُدا کی سچائی تبلیغ کرنے کے جرم میں' or simply 'خوشخبری سنانے کے جرم میں' to retain the original sense 'for preaching the truth.' Preserve the existing HTML tags and structure.",
+        "translation_quote": "...عدالت میں پیش ہونے کا حکم دیا گیا اور سچ بولنے پر حکومت کے خلاف اعلیٰ غداری کا الزام عائد کیا گیا۔"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

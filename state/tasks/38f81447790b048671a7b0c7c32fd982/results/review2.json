@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "bc119320-15c7-491d-804d-6ab758107b27",
+    "response_id": "chatcmpl-EULAD7z02R0tfP7fm38tC0LpwpKfm",
+    "usage": {
+      "completion_tokens": 1119,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7031,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8150
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph 1 (first sentence)",
+        "severity": "minor",
+        "source_quote": "although we know that our wildest imaginations will be exceeded.",
+        "suggested_fix": "Replace অনুচ্ছেদে 'বিচ্ছিন্ন হবে' with a Bengali phrase that matches 'will be exceeded' (e.g., 'ছাড়িয়ে যাবে') while preserving HTML and surrounding text.",
+        "translation_quote": "যদিও আমরা জানি আমাদের সর্বাধিক কল্পনাও বিচ্ছিন্ন হবে।"
+      },
+      {
+        "location": "source.html — paragraph 3 (Mary and disciples around the cross)",
+        "severity": "minor",
+        "source_quote": "There is beauty in weeping of Mary and the disciples around the cross that held the lifeless body of their beloved Master.",
+        "suggested_fix": "Change 'অকর্মণ্য দেহ' to a clearer equivalent of 'lifeless body' such as 'নিষ্প্রাণ দেহ' to better match the source meaning.",
+        "translation_quote": "মেরি এবং শিষ্যদের ক্রুশের চারপাশে তাদের প্রিয় গুরু-র অকর্মণ্য দেহের সামনে কাঁদায় সৌন্দর্য আছে।"
+      },
+      {
+        "location": "source.html — figure 1 alt attribute",
+        "severity": "minor",
+        "source_quote": "A yellow flower against green leaves",
+        "suggested_fix": "Adjust alt text to more directly match the original English phrasing (e.g., 'সবুজ পল্লবের বিরুদ্ধে একটি হলুদ ফুল') while preserving the img tag and attributes.",
+        "translation_quote": "সবজি পল্লবের সামনে একটি হলুদ ফুল"
+      },
+      {
+        "location": "source.html — section/metadata mapping",
+        "severity": "minor",
+        "source_quote": "ATTRIBUTES OF GOD",
+        "suggested_fix": "Section translated as 'ঈশ্বরের বৈশিষ্ট্যসমূহ' is acceptable; no change required. (This entry retained as confirmation; no corrective action necessary.)",
+        "translation_quote": "ঈশ্বরের বৈশিষ্ট্যসমূহ"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

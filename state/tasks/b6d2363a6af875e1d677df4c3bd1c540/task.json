@@ -2,7 +2,6 @@
   "article_id": "62646d6d-87be-47a6-880f-0ade408a3402",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:44+00:00",
   "events": [
@@ -62,52 +61,29 @@
         },
         "total_tokens": 5779
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 794,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2978,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3772
+      }
     }
   ],
-  "findings": [
-    {
-      "location": "<p> (second paragraph, Psalms 98:8-9)</p>",
-      "severity": "critical",
-      "source_quote": "“Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9).",
-      "suggested_fix": "Translate the quoted verse text into German to convey the printed English meaning while preserving the citation and HTML structure. For example: “Lasst die Fluten klatschen; lasst die Hügel miteinander vor dem HERRN frohlocken; denn er kommt, die Erde zu richten; mit Gerechtigkeit wird er die Welt richten und die Völker mit Treue” (Psalms 98:8-9). Replace only the quoted text, keep the parentheses and citation unchanged.",
-      "translation_quote": "“Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9)."
-    },
-    {
-      "location": "<p> (third paragraph, John 4:14)</p>",
-      "severity": "critical",
-      "source_quote": "“well of water springing up into everlasting life” (John 4:14)",
-      "suggested_fix": "Translate the quoted phrase into German to match the printed English meaning and retain the Scripture reference. For example: “Brunnen lebendigen Wassers, der in das ewige Leben quillt” (John 4:14). Replace only the quoted phrase, preserving punctuation and the parenthetical reference.",
-      "translation_quote": "“well of water springing up into everlasting life” (John 4:14)"
-    },
-    {
-      "location": "<p> (ninth paragraph, quotation from “How to Increase Your Faith”)</p>",
-      "severity": "critical",
-      "source_quote": "“Faith is one of the basic ingredients in getting right with God. We come into the Christian life (and receive the forgiveness of sins) through faith. . . We abandon all hope for saving ourselves by our own abilities, and instead, we put complete trust in Jesus Christ for our eternal safety.”",
-      "suggested_fix": "Translate the quoted passage into German so it conveys the printed English meaning, preserving the quotation marks and exact punctuation. Example translation: “Glaube ist eine der grundlegenden Zutaten, um mit Gott ins Reine zu kommen. Durch den Glauben treten wir in das christliche Leben ein (und empfangen die Vergebung der Sünden). … Wir geben alle Hoffnung auf, uns durch unsere eigenen Fähigkeiten zu retten, und vertrauen stattdessen voll und ganz auf Jesus Christus für unsere ewige Sicherheit.” Replace only the quoted passage; keep the article title in English as it appears.",
-      "translation_quote": "“Faith is one of the basic ingredients in getting right with God. We come into the Christian life (and receive the forgiveness of sins) through faith. . . We abandon all hope for saving ourselves by our own abilities, and instead, we put complete trust in Jesus Christ for our eternal safety.”"
-    },
-    {
-      "location": "<p> (tenth paragraph, Isaiah 61:11)</p>",
-      "severity": "critical",
-      "source_quote": "“For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11).",
-      "suggested_fix": "Translate the quoted verse into German to convey the printed English meaning while preserving the citation. Example: “Denn wie die Erde ihren Sproß hervorbringt und wie der Garten die gesäten Dinge hervorwachsen lässt, so wird der HERR, Gott, Gerechtigkeit und Lob vor allen Völkern sprießen lassen” (Isaiah 61:11). Replace only the quoted text, keep the citation and punctuation.",
-      "translation_quote": "“For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11)."
-    },
-    {
-      "location": "<figure> <img alt=\"...\"> (image alt text)",
-      "severity": "minor",
-      "source_quote": "alt=\"White blossoms beside a small bird nesting in a bowl\"",
-      "suggested_fix": "Correct the German alt attribute for grammar and gender agreement. For example: alt=\"Weiße Blüten neben einem kleinen Vogel, der in einer Schale nistet\". Preserve the img tag and other attributes unchanged.",
-      "translation_quote": "alt=\"Weiße Blüten neben einem kleinen Vogel, das in einer Schale nistet\""
-    },
-    {
-      "location": "<p> (fifth paragraph, poem block)</p>",
-      "severity": "minor",
-      "source_quote": "<em>Oh! Christ He is the foutain,<br>\n    The deep sweet well of Love!<br>\n    The streams on earth I’ve tasted,<br>\n    More deep I’ll drink above:<br>\n    There, to an ocean fullness,<br>\n    His mercy doth expand,<br>\n    And glory—glory dwelleth<br>\n    In Immanuel’s land.</em>",
-      "suggested_fix": "The poem in the source contains the misspelling “foutain.” The translation correctly preserved the original poem text; note this is intentional to keep the author’s exact wording. No change required unless an editorial decision is made to correct the original English poem. If correction is desired, change only the typo to “fountain” and preserve all line breaks and HTML markup.",
-      "translation_quote": "<em>Oh! Christ He is the foutain,<br>\n    The deep sweet well of Love!<br>\n    The streams on earth I’ve tasted,<br>\n    More deep I’ll drink above:<br>\n    There, to an ocean fullness,<br>\n    His mercy doth expand,<br>\n    And glory—glory dwelleth<br>\n    In Immanuel’s land.</em>"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T00:14:30+00:00",
   "id": "b6d2363a6af875e1d677df4c3bd1c540",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "deu",
@@ -151,13 +127,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5455d2cd09d57a9e870ea92c4b7c08c9a0c8a2c68c077d639797bdc8f61c6072.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

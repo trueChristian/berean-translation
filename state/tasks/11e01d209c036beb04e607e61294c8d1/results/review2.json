@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f2870666-4bdc-401e-8994-ac6fe482ffaa",
+    "response_id": "chatcmpl-EUL9odVHjaO6052KrDibt1ag94vaE",
+    "usage": {
+      "completion_tokens": 1351,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1566,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2917
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Goddelike Verlosser, U loof ek; <br>\n    Ek groet U in U uitgaan;<br>\n    Ek het U lief in die lieflikheid<br>\n    Van U vernieuwde aarde.</p>",
+        "severity": "minor",
+        "source_quote": "Divine Redeemer, Thee I bless;\n    I greet Thy going forth;\n    I love Thee in the loveliness\n    Of Thy renewed earth.",
+        "suggested_fix": "Prefer a more idiomatic rendering of “Thy going forth” in Afrikaans. For example: replace the second line with “Ek groet U in U optog” or “Ek groet U in U uitkoms” depending on intended nuance. Preserve HTML tags and line breaks.",
+        "translation_quote": "Goddelike Verlosser, U loof ek; \n    Ek groet U in U uitgaan;\n    Ek het U lief in die lieflikheid\n    Van U vernieuwde aarde."
+      },
+      {
+        "location": "<p>Maar O, hierdie wonders van U genade,<br>\n    Hierdie edeler werke van U,<br>\n    Hierdie wonderwerke wat soveel liefliker is om te volg,<br>\n    Hierdie nuwe geboortes meer goddelik:</p>",
+        "severity": "minor",
+        "source_quote": "But O these wonders of Thy grace,\n    These nobler works of Thine,\n    These marvels sweeter far to trace,\n    These new births more divine:",
+        "suggested_fix": "Line 3 is somewhat awkward in Afrikaans. A clearer alternative that preserves meaning: “Hierdie wonderwerke, veel liefliker om na te volg,” or “Hierdie wondezake, soveel liefliker om te beskryf.” Keep original HTML structure.",
+        "translation_quote": "Maar O, hierdie wonders van U genade,\n    Hierdie edeler werke van U,\n    Hierdie wonderwerke wat soveel liefliker is om te volg,\n    Hierdie nuwe geboortes meer goddelik:"
+      },
+      {
+        "location": "<p>Hierdie pasgebore ekstase van gesang,<br>\n    En die geurigheid van gebed!</p>",
+        "severity": "minor",
+        "source_quote": "This new-born ecstasy of song,\n    And fragrancy of prayer!",
+        "suggested_fix": "“Geurigheid” is uncommon in contemporary Afrikaans; consider “geur” or “ruik” for a more natural idiom, e.g. “En die geur van gebed!” Preserve the tags and line break.",
+        "translation_quote": "Hierdie pasgebore ekstase van gesang,\n    En die geurigheid van gebed!"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "b43320f3-e4e8-450b-865c-099ef704149c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -62,24 +61,51 @@
         },
         "total_tokens": 13698
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1388,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8225,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9613
+      }
     }
   ],
   "findings": [
     {
-      "location": "source.html — multiple scripture quotations (paragraph 2 and elsewhere)",
-      "severity": "major",
-      "source_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.” (also I John 1:6 and other verse quotations appear throughout)",
-      "suggested_fix": "Translate each quoted Scripture phrase into standard Bahasa Indonesia while preserving the original verse citations and the article's printed English wording intent. For example, replace “Blessed are the pure in heart” (Matthew 5:8) with a faithful Indonesian rendering such as “Berbahagialah orang yang suci hatinya” (Matius 5:8). Do this for every quoted Bible phrase (Philippians/Philipi, 1 Timothy/1 Timotius, John/Yohanes, Revelation/Wahyu, Psalm/Mazmur, James/Yakobus, Hebrews/Ibrani, Numbers/Bilangan, etc.). Keep the existing HTML structure and tags unchanged; only replace the inner quoted English text with the Indonesian translation. Ensure the translated quotations clearly reflect the printed English sense rather than substituting a different Bible version wording.",
-      "translation_quote": "Many verse quotations remain in English in the translation (for example: “Blessed are the pure in heart” (Matthew 5:8), “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10), etc.)."
+      "location": "Paragraph quoting Philippians 1:10 (source.html first paragraph containing Philippians 1:10)",
+      "severity": "minor",
+      "source_quote": "\"That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ\" (Philippians 1:10).",
+      "suggested_fix": "Render the phrase \"approve things that are excellent\" with a closer equivalent to the sense of 'approve' or 'recognize what is excellent' (rather than only 'membedakan apa yang utama') to preserve the evaluative nuance. For example: “Supaya kamu dapat menyetujui perkara-perkara yang utama/baik (apa yang utama), supaya kamu tulus (suci) dan tidak bercacat sampai pada hari Kristus.” Preserve original punctuation and parentheses around (pure) as in source.",
+      "translation_quote": "“Supaya kamu dapat membedakan apa yang utama, supaya kamu tulus (suci) dan tidak bercacat sampai pada hari Kristus” (Filipi 1:10)."
     },
     {
-      "location": "source.html — poem blockquote (first poem)",
+      "location": "Paragraph discussing Satan perverting what God made (paragraph beginning \"Remember, Satan has never invented a pleasure; he only takes what God made to be pure and good, perverts it, and offers it back in its perverted form.\")",
       "severity": "minor",
-      "source_quote": "Two forces lie within my breast,\n    The one I love, the one I hate.\n    But the one I feed will dominate.",
-      "suggested_fix": "Correct the Indonesian rendering to faithfully convey the meaning and tone. Current translation: “Dua kekuatan terletak dalam dadaku,\\n    Satu yang kucintai, satu yang kusekali.\\n    Tetapi yang kuberi makan akan menguasai.” Replace “satu yang kusekali” (which is ungrammatical/incorrect) with “satu yang kubenci” or “satu yang ku benci” to reflect “the one I hate.” Preserve the HTML structure in the <blockquote> and <p><em> tags; only change the text content inside the tags.",
-      "translation_quote": "“Dua kekuatan terletak dalam dadaku,\\n    Satu yang kucintai, satu yang kusekali.\\n    Tetapi yang kuberi makan akan menguasai.”"
+      "source_quote": "\"Remember, Satan has never invented a pleasure; he only takes what God made to be pure and good, perverts it, and offers it back in its perverted form.\"",
+      "suggested_fix": "The translation uses the phrase \"memperjalin keburukan\" which is awkward and could obscure the intended meaning 'perverts it.' Suggest a clearer rendering such as “ia hanya mengambil apa yang Tuhan ciptakan murni dan baik, merusaknya, lalu menawarkannya kembali dalam bentuk yang tercemar.” Preserve sentence structure and emphasis.",
+      "translation_quote": "\"Ingat, Setan tidak pernah menciptakan kenikmatan; ia hanya mengambil apa yang Tuhan ciptakan murni dan baik, memperjalin keburukan padanya, dan menawarkan kembali dalam bentuk yang tercemar.\""
+    },
+    {
+      "location": "img alt attribute (figure near end of article)",
+      "severity": "minor",
+      "source_quote": "alt=\"An orange-and-black butterfly perched beside red berries\"",
+      "suggested_fix": "The translation's alt text is acceptable but contains a hyphenated color phrase 'oranye-dan-hitam' which is slightly nonstandard in Indonesian. Suggest a small wording tweak to read: alt=\"Seekor kupu-kupu oranye dan hitam bertengger di samping buah beri merah\" (remove hyphens). Preserve the alt attribute and surrounding <figure> and <img> tags exactly.",
+      "translation_quote": "alt=\"Seekor kupu-kupu oranye-dan-hitam bertengger di samping buah beri merah\""
     }
   ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "4a0d1072da092b422b176e9e35182454",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "ind",
@@ -123,13 +149,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6e098ac8eb342eaa406de38f5a002ad3b708959025887f49dfe6141d191cd700.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "f7304b582e2d69344173a19198f46ca88b1132d0c44e0b4021e5c3668c34cd95",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

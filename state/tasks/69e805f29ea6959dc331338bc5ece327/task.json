@@ -2,7 +2,6 @@
   "article_id": "31ea7041-cab6-4ccd-9ead-04cc949321a6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:45+00:00",
   "events": [
@@ -62,38 +61,29 @@
         },
         "total_tokens": 12130
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 282,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 256,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6889,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7171
+      }
     }
   ],
-  "findings": [
-    {
-      "location": "<h2>The Doctrine of Nonresistance</h2>",
-      "severity": "minor",
-      "source_quote": "The Doctrine of Nonresistance",
-      "suggested_fix": "Replace with Greek definite neuter form and natural phrasing: \"Το δόγμα της μη αντίστασης\" (preserve <h2>...</h2> tags).",
-      "translation_quote": "<h2>Η Δόγμα της Μη Αντίστασης</h2>"
-    },
-    {
-      "location": "<p>...Christ typified the acceptable response to violence and ill-will: gentleness, meekness, as befitted one who is called a Lamb.</p>",
-      "severity": "minor",
-      "source_quote": "Christ typified the acceptable response to violence and ill-will: gentleness, meekness, as befitted one who is called a Lamb.",
-      "suggested_fix": "Change awkward verb «τύπωσε» to a more accurate Greek rendering of \"typified\", e.g. \"Ο Χριστός υπήρξε το πρότυπο/υποδείκνυε την αποδεκτή απάντηση στη βία και την κακοβουλία: πραότητα, πραότητα/ταπεινότητα, όπως αρμόζει σε αυτόν που καλείται Αρνίον.\" Preserve original sentence structure and tags.",
-      "translation_quote": "Ο Χριστός τύπωσε την αποδεκτή απάντηση στη βία και την κακοβουλία: πραότητα, ταπεινότητα, όπως αρμόζει σε αυτόν που καλείται Αρνίον."
-    },
-    {
-      "location": "Paragraph: \"We will look at how they navigated these challenges by studying several of their doctrines and practices.\"",
-      "severity": "minor",
-      "source_quote": "doctrines and practices",
-      "suggested_fix": "Use a more natural lexical choice for \"doctrines\" in Greek, e.g. \"διδασκαλίες και πρακτικές\" or \"δόγματα και πρακτικές\" to match the source meaning. Preserve sentence punctuation and tags.",
-      "translation_quote": "δοξασίες και τις πρακτικές τους"
-    },
-    {
-      "location": "<figure> second image alt attribute</figure>",
-      "severity": "minor",
-      "source_quote": "A fresh green leaf budding from a twig",
-      "suggested_fix": "Fix grammatical gender/number and verb choice in the alt text. Suggested: alt=\"Ένα φρέσκο πράσινο φύλλο που βλαστάνει από ένα κλαδάκι\" (preserve <img ... alt=\"...\"> structure and other attributes).",
-      "translation_quote": "alt=\"Ένας φρέσκος πράσινος φύλλος που ανθίζει από ένα κλαδάκι\""
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "69e805f29ea6959dc331338bc5ece327",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "ell",
@@ -137,13 +127,13 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/89fccb1e579c0ea7c2e8e4f5bade339b25251e139570b39f442b2c1c8ea4bc11.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "9001af1f34c52b235af4ae22af79ba7fa0d5cf2bf7273485ec1e06a8188fc9a6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

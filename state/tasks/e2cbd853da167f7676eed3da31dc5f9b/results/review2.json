@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "fcef7016-6ea4-44b6-a7d3-1fba0ebc9243",
+    "response_id": "chatcmpl-EUL9oiFItCRSccENKMQVNZJEke6pw",
+    "usage": {
+      "completion_tokens": 992,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3479,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4471
+    }
+  },
+  "received_at": "2026-10-02T00:14:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph 3 & translation.html paragraph 3 (Mom line)",
+        "severity": "minor",
+        "source_quote": "Mom looked up from the sink. “If you do a good job with your school until then, you may,” she told them. “And if you get your school done before lunch, you may play outside for a while this afternoon.”",
+        "suggested_fix": "Use a consistent rendering of the address term for the mother throughout the translation. Replace the occurrence of \"haar moeder\" with \"Mam\" to match the other instances, preserving HTML tags and punctuation. For example: replace\n\n<p>Ze hoorde de stem van haar moeder. “Wacht, Adrianna, wat is er aan de hand? Je gezicht lijkt wel een onweerswolk!”</p>\n\nwith\n\n<p>Ze hoorde de stem van Mam. “Wacht, Adrianna, wat is er aan de hand? Je gezicht lijkt wel een onweerswolk!”</p>\n\n(This preserves the original meaning while keeping the form of address consistent.)",
+        "translation_quote": "Ze hoorde de stem van haar moeder. “Wacht, Adrianna, wat is er aan de hand? Je gezicht lijkt wel een onweerswolk!”"
+      },
+      {
+        "location": "source.html opening paragraphs (thermometer lines) & translation.html opening paragraphs",
+        "severity": "minor",
+        "source_quote": "“Probably about 50.” Adrianna glanced lazily at the thermometer. “Hey, it’s 65 degrees! Mom, may we eat lunch outside?”",
+        "suggested_fix": "Make the temperature phrasing consistent. The source gives a numeric estimate followed by a specific reading with the unit spelled out as \"65 degrees.\" In the translation the first number appears as \"50\" without a unit and the second as \"65 graden.\" To avoid ambiguity, render both with the same unit word. For example, change\n\n<p>“Waarschijnlijk zo’n 50.” Adrianna keek loom naar de thermometer. “Hé, het is 65 graden! Mam, mogen we buiten lunchen?”</p>\n\nto\n\n<p>“Waarschijnlijk zo’n 50 graden.” Adrianna keek loom naar de thermometer. “Hé, het is 65 graden! Mam, mogen we buiten lunchen?”</p>\n\n(This keeps the original meaning and parallelism.)",
+        "translation_quote": "“Waarschijnlijk zo’n 50.” Adrianna keek loom naar de thermometer. “Hé, het is 65 graden! Mam, mogen we buiten lunchen?”"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

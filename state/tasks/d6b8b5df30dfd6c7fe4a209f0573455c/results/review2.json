@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9b7614bb-53e6-4fa7-9e9a-3df065560720",
+    "response_id": "chatcmpl-EULA3yM4Jiypd7v4DMw5hiLyj96iQ",
+    "usage": {
+      "completion_tokens": 811,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9931,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10742
+    }
+  },
+  "received_at": "2026-10-02T00:14:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>... This passage begins with a command: “Remember!”</p> (Ecclesiastes 12:1-7 paragraph)",
+        "severity": "minor",
+        "source_quote": "\"Remember now thy Creator in the days of thy youth...\" (passage begins with a command: “Remember!”)",
+        "suggested_fix": "Replace the lone English word “Remember!” with an Urdu rendering that conveys the same printed English command while keeping the translated passage. For example, use “یاد رکھ!” (preserve the surrounding sentence punctuation and spacing).",
+        "translation_quote": "\"... جو بات یقینی ہے وہ یہ ہے کہ عبارت ایک حکم کے ساتھ شروع ہوتی ہے: “Remember!”\""
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

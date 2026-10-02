@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "27f5e1f6-d55c-493e-88bd-dba2ba0525fd",
+    "response_id": "chatcmpl-EULADHtnfoOvy7YFD1WkN3l1QA8O2",
+    "usage": {
+      "completion_tokens": 807,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1548,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2355
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<figure> <img alt>",
+        "severity": "minor",
+        "source_quote": "alt=\"White orchids with purple centers\"",
+        "suggested_fix": "Preserve meaning and plurality; change the alt text value to a natural French plural: alt=\"Orchidées blanches aux centres pourpres\"",
+        "translation_quote": "alt=\"Orchidées blanches au centre pourpre\""
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

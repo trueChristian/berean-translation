@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c163739d-eb53-4344-b8ef-139eec5da88e",
+    "response_id": "chatcmpl-EUL9v14bSxh1IjGwYchx85MyvdUrp",
+    "usage": {
+      "completion_tokens": 1472,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7747,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9219
+    }
+  },
+  "received_at": "2026-10-02T00:14:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Multiple scripture quotations throughout article (e.g., opening paragraphs, John 10:10 passage, Hebrews 4:13, James 1:15, etc.)",
+        "severity": "critical",
+        "source_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” ... In John 10:10, Jesus said, “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy” ... Hebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).” ... James 1:15: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” ... James 1:16: “Do not (be deceived) my beloved brethren.”",
+        "suggested_fix": "Replace each translated scripture quotation in the Portuguese translation with the exact printed English scripture text from the authoritative English source, preserving punctuation and verse punctuation exactly, followed by the original parenthetical reference. Examples: use “Blessed are the pure in heart” (Matthew 5:8). use “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” (James 1:15). Do this for every place the English article quotes the Bible so the translation reproduces the printed English scripture quotations rather than translating them into Portuguese.",
+        "translation_quote": "“Bem-aventurados os limpos de coração” (Matthew 5:8). “Para que possais aprovar as coisas excelentes; para que sejais sinceros (puros) e sem ofensa até o dia de Cristo” (Philippians 1:10). “Pensai nas coisas que são puras” (Philippians 4:8). “Guarda-te puro” (1Timothy 5:22). Revelation 19 diz “Os limpos de coração verão a Deus.” ... Em John 10:10, Jesus disse, “o diabo vem para roubar, matar e destruir. Ele quer roubar a tua pureza, matar o teu caráter e destruir” ... Hebrews 4:13 diz, “E não há criatura alguma encoberta perante ele; antes, todas as coisas estão nuas e patentes aos olhos daquele com quem temos de tratar.” ... James 1:15 acontece: “Então, havendo a concupiscência concebido, gera o pecado; e o pecado, sendo consumado, gera a morte” ... O versículo 16 diz, “Meus amados irmãos, não vos enganeis.”"
+      },
+      {
+        "location": "Final blockquote attribution (first poem)",
+        "severity": "minor",
+        "source_quote": "—The author’s dad",
+        "suggested_fix": "Translate the attribution to Portuguese to match the target-language style while preserving the original HTML structure. For example: replace the English line with “—O pai do autor” inside the same <p><em>…</em></p> element so the attribution appears in the target language.",
+        "translation_quote": "—The author’s dad"
+      }
+    ],
+    "passed": false,
+    "score": 52
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "31ea7041-cab6-4ccd-9ead-04cc949321a6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:44+00:00",
   "events": [
@@ -62,66 +61,51 @@
         },
         "total_tokens": 10080
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1029,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5868,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6897
+      }
     }
   ],
   "findings": [
     {
-      "location": "source.html > h2 (first heading)",
-      "severity": "major",
-      "source_quote": "The Doctrine of Nonresistance",
-      "suggested_fix": "Translate the heading to Afrikaans and keep the same tag, e.g. <h2>Die Leer van Nie-Weerstandigheid</h2>.",
-      "translation_quote": "<h2>The Doctrine of Nonresistance</h2>"
-    },
-    {
-      "location": "source.html > h2 (second heading)",
-      "severity": "major",
-      "source_quote": "The Emphasis of Biblical Foundations",
-      "suggested_fix": "Translate the heading to Afrikaans and keep the same tag, e.g. <h2>Die Beklemtoning van Bybelse Grondslag</h2>.",
-      "translation_quote": "<h2>The Emphasis of Biblical Foundations</h2>"
-    },
-    {
-      "location": "source.html > h2 (third heading)",
-      "severity": "major",
-      "source_quote": "Importance of Practical Salvation",
-      "suggested_fix": "Translate the heading to Afrikaans and keep the same tag, e.g. <h2>Die Belang van Praktiese Verlossing</h2>.",
-      "translation_quote": "<h2>Importance of Practical Salvation</h2>"
-    },
-    {
-      "location": "source.html > h2 (fourth heading)",
-      "severity": "major",
-      "source_quote": "The Seriousness of a Pure Church",
-      "suggested_fix": "Translate the heading to Afrikaans and keep the same tag, e.g. <h2>Die Ernstigheid van 'n Suiwer Kerk</h2>.",
-      "translation_quote": "<h2>The Seriousness of a Pure Church</h2>"
-    },
-    {
-      "location": "source.html > h2 (fifth heading)",
-      "severity": "major",
-      "source_quote": "The Teachings of Practical Christianity",
-      "suggested_fix": "Translate the heading to Afrikaans and keep the same tag, e.g. <h2>Die Leerstellings van Praktiese Kristenskap</h2>.",
-      "translation_quote": "<h2>The Teachings of Practical Christianity</h2>"
-    },
-    {
-      "location": "source.html > h2 (conclusion heading)",
-      "severity": "major",
-      "source_quote": "Conclusion",
-      "suggested_fix": "Translate the heading to Afrikaans and keep the same tag, e.g. <h2>Gevolgtrekking</h2>.",
-      "translation_quote": "<h2>Conclusion</h2>"
-    },
-    {
-      "location": "source.html > paragraph about 'maturing of a Christian' (third paragraph under 'Importance of Practical Salvation')",
-      "severity": "major",
-      "source_quote": "This maturing of a Christian is emphasized in writings ranging from those of Menno Simons up to Abraham Goshalk.",
-      "suggested_fix": "Correct the Afrikaans rendering to convey 'this maturing' (maturation/spiritual growth). Replace 'Hierdie veroudering van ’n Christen' with a phrase such as 'Hierdie geestelike volwassenwording van ’n Christen' while preserving the surrounding HTML paragraph tags.",
-      "translation_quote": "Hierdie veroudering van ’n Christen word beklemtoon in geskrifte wat wissel van dié van Menno Simons tot by Abraham Goshalk."
-    },
-    {
-      "location": "source.html > paragraph comparing marriage as symbol (paragraph beginning 'To aid our minds')",
+      "location": "<h2>Die Leer van Nie-Weerstandigheid</h2>",
       "severity": "minor",
-      "source_quote": "To aid our minds in answering such a question, let us consider the earthly symbol of this heavenly union: that of a man and a woman joined together for life.",
-      "suggested_fix": "The Afrikaans uses 'weeroor' (typo/concatenation) earlier in the paragraph and 'soo dikwels' later appears odd. Recommend correcting 'Hier weeroor moet ons' to 'Hier weereens moet ons' and 'soo dikwels' to 'sodat' or rephrase for idiomatic clarity, preserving HTML. E.g. replace 'Hier weeroor moet ons die karakter...' with 'Hier weereens moet ons die karakter...' and 'soo dikwels dat die huwelik' with 'sodat die huwelik'.",
-      "translation_quote": "Hier weeroor moet ons die karakter van Christus in gedagte hou. ... Dit skilder vir ons aardse gedagtes duidelik die gees van Christus, soo dikwels dat die huwelik ’n simbool is van Christus en Sy bruid."
+      "source_quote": "The Doctrine of Nonresistance",
+      "suggested_fix": "Make the heading term consistent and idiomatic. Use \"Die Leer van Nie‑weerstand\" or match the body term (suggested: \"Die Leer van Nie‑weerstand\"). Preserve tag: <h2>Die Leer van Nie‑weerstand</h2>",
+      "translation_quote": "Die Leer van Nie-Weerstandigheid"
+    },
+    {
+      "location": "<p>…Daar is ook ’n ander kleuring van die “onwillig verlos” interpretasie…</p>",
+      "severity": "minor",
+      "source_quote": "There is also another flavoring of the “unwillingly saved” interpretation",
+      "suggested_fix": "Use an idiomatic noun phrase that reflects the English meaning. Replace “onwillig verlos” with “onwillige verlossing” or “die interpretasie van ’n onwillige verlossing”. Preserve tag and surrounding text. Example: <p>…Daar is ook ’n ander kleuring van die “onwillige verlossing”‑interpretasie…</p>",
+      "translation_quote": "Daar is ook ’n ander kleuring van die “onwillig verlos” interpretasie"
+    },
+    {
+      "location": "<p>…tot die Gees die gelowige vul totdat die aard van sonde die gedomineerde in plaas van die dominante geword het.</p>",
+      "severity": "minor",
+      "source_quote": "until the nature of sin becomes the dominated instead of the dominant",
+      "suggested_fix": "Clarify the intended contrast in idiomatic Afrikaans. Replace “die gedomineerde” with a clearer rendering such as “ondergeskik” or rephrase to: “…tot die aard van sonde ondergeskik is in plaas van dominant te wees.” Preserve tag and sentence order.",
+      "translation_quote": "tot die Gees die gelowige vul totdat die aard van sonde die gedomineerde in plaas van die dominante geword het."
     }
   ],
+  "finished_at": "2026-10-02T00:14:30+00:00",
   "id": "d1e8ce9c70d79c4d6ec75d5848f0eeae",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "afr",
@@ -165,13 +149,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/89fccb1e579c0ea7c2e8e4f5bade339b25251e139570b39f442b2c1c8ea4bc11.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "9001af1f34c52b235af4ae22af79ba7fa0d5cf2bf7273485ec1e06a8188fc9a6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

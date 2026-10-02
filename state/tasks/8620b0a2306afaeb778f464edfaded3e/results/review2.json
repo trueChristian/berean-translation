@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "dc90d59d-736e-490d-a1a0-0943252637ac",
+    "response_id": "chatcmpl-EULAMupy6pPDzZLQ5Cumhin5BkRk5",
+    "usage": {
+      "completion_tokens": 1376,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8135,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9511
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p> paragraph containing Psalm 24:3-4 (around third paragraph)</p>",
+        "severity": "major",
+        "source_quote": "Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”",
+        "suggested_fix": "Replace the translated sentences with a faithful rendering of the source lines. Preserve HTML structure. For example: \"Revelation 19 sagt: ‚Die Reinen im Herzen werden Gott sehen.‘ Psalm 24:3–4 fragt: ‚Wer wird sehen den Herrn?‘ Die Antwort ist: ‚Der reiner Hände und reinen Herzens ist.‘\" Ensure the translation reflects the original meaning and sequence exactly and does not substitute different Psalm wording.",
+        "translation_quote": "Revelation 19 sagt: „Die Reinen im Herzen werden Gott sehen.“ Psalm 24:3-4 fragt: „Wer wird wohnen in deinem Zelt? Wer wird wohnen auf deinem heiligen Berge?“ Die Antwort ist: „Der reiner Hände und reinen Herzens ist.“ Mit anderen Worten: Es sind die Menschen, die innen und außen rein sind, die Gott sehen und in Seine Gegenwart eintreten werden."
+      },
+      {
+        "location": "<p> paragraph containing Numbers 32:23 (Hebrews/Numbers paragraph)</p>",
+        "severity": "minor",
+        "source_quote": "Numbers 32:23 is still very true, saying, “Be sure your sin will find you out.”",
+        "suggested_fix": "Correct the German grammar and wording to faithfully render the English source. For example: \"Numbers 32:23 ist noch immer sehr wahr und sagt: ‚Sei gewiss, deine Sünde wird dich finden.‘\" (or the more idiomatic: \"Sei gewiss: deine Sünde wird dich einholen.\") Preserve original HTML tags and placement.",
+        "translation_quote": "Numbers 32:23 ist weiterhin sehr wahr und sagt: „Siehe, dein Missetat wird dich finden.“ Gott liebt dich zu sehr, um dir zu erlauben, weiterhin zu verbergen, was hervorgebracht und vergeben werden muss."
+      },
+      {
+        "location": "<blockquote class=\"poem\"> first poem blockquote</blockquote>",
+        "severity": "minor",
+        "source_quote": "—The author’s dad",
+        "suggested_fix": "Preserve the author-provided attribution wording and gender-neutrality of the source. If the original English reads \"—The author’s dad\", render it literally in German as \"—Der Vater der Autorin\" only if the source author was explicitly female. Otherwise, to avoid introducing a gender assumption, use a faithful neutral rendering that mirrors the original structure, e.g. \"—Der Vater der Verfasserin\" (if author female) or better yet, preserve the literal relationship as in English: \"—Der Vater der Autorin\" only after confirming the source's author identity. If the site normally translates this phrase literally, use \"—Der Vater der Autor/in\" is not acceptable; instead match the source's intended meaning exactly. Preserve blockquote and em tags.",
+        "translation_quote": "—Der Vater der Autorin"
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

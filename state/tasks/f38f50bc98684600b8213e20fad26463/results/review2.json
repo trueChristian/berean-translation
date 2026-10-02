@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5752aa15-6d41-45d9-b757-d7ee8e7cf8c5",
+    "response_id": "chatcmpl-EULA1B8wJTA7HESXFJiitVmOk2ers",
+    "usage": {
+      "completion_tokens": 1244,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6439,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7683
+    }
+  },
+  "received_at": "2026-10-02T00:14:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"Here is where many a saint has given His very life's blood for the Gospel.\" (church section, English source)",
+        "severity": "minor",
+        "source_quote": "Here is where many a saint has given His very life's blood for the Gospel.",
+        "suggested_fix": "Preserve tense and article structure; insert missing auxiliary verb and correct noun form while keeping source HTML tags. For example: \"Her har mange en hellig gitt sitt livs blod for evangeliet.\" → better: \"Her har mange en hellig gitt sitt livs blod for evangeliet.\" (If you prefer clearer Bokmål: \"Her har mange en hellig [eller 'mange helgener'] gitt sitt livs blod for evangeliet.\")",
+        "translation_quote": "Her har mange en hellig gitt sitt livs blod for evangeliet."
+      },
+      {
+        "location": "Final figure alt text: English source alt=\"A puffball fungus growing on a mossy forest floor\"",
+        "severity": "minor",
+        "source_quote": "A puffball fungus growing on a mossy forest floor",
+        "suggested_fix": "Ensure the Norwegian alt text is an accurate, natural rendering. Current alt uses 'En slørsopp som vokser på en mosegrodd skogbunn' which is acceptable, but you may prefer a more common term: \"En kule-sopp som vokser på en mosegrodd skogbunn\" or \"En ballformet sopp som vokser på en mosegrodd skogbunn.\"",
+        "translation_quote": "En slørsopp som vokser på en mosegrodd skogbunn"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

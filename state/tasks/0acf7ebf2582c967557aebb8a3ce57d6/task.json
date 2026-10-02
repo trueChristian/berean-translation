@@ -2,7 +2,6 @@
   "article_id": "1ec0f654-0dd1-48f3-9a68-3b15189e6704",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:46+00:00",
   "events": [
@@ -62,52 +61,44 @@
         },
         "total_tokens": 7686
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 737,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3912,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4649
+      }
     }
   ],
   "findings": [
     {
-      "location": "translation.html near paragraph starting \"“I can help you find something,” Adrianna told them.\" (end of article paragraph)",
-      "severity": "critical",
-      "source_quote": "They hunted in the woods and the shed for boards and logs to finish the house. When suppertime came and they went in for supper, Adrianna was very happy.",
-      "suggested_fix": "Restore the missing/corrupted Bengali sentence(s) replacing the inserted garbage. Keep existing HTML tags and structure. For example: \"তারা একসাথে বন ও শেডে বোর্ড ও খুঁটি-গাছের লম্বা টুকরা খুঁজল যাতে প্লেহাউস পুরো করা যায়। যখন ডিনারের সময় এল এবং তারা ভোজের জন্য ঘরে ঢুকল, অ্যাড্রিয়ানা খুব খুশি ছিল।\" (Preserve surrounding <p>…</p> tags.)",
-      "translation_quote": "তারা একসাথে বন ও শেডে বোর্ড ও ডা\u001f\n\n_logs\",\"end_of_line\":\"LF\",\"exclude_globs\":[\"**/.git/**\",\"**/node_modules/**\",\"**/target/**\",\"**/.cache/**\"],\"exclude_files\":[],\"ignore_untracked\":true} when hunting for উপকরণ। যখন ডিনার টাইম এলো এবং তারা ভোজের জন্য ঘরে ঢুকল, অ্যাড্রিয়ানা খুব খুশি ছিল। মা ঠিক বলেছিলেন, সে ভাবল। নিজের পথ ছেড়ে দিয়ে সবাই যা চায় তাই করলে একসাথে খেলায় আরো মজা হয়।"
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "Fun for Everyone",
+      "suggested_fix": "Translate the English title into standard contemporary Bengali to match the rest of the translation and the target-language guidance. Suggested Bengali title: \"সবাইদের জন্য মজা\" (or \"সবাইকে উপভোগের খেলায়\"). Preserve the title field only; do not alter source HTML tags.",
+      "translation_quote": "Fun for Everyone"
     },
     {
-      "location": "translation.html first paragraph of article (character/word level)",
+      "location": "section",
       "severity": "minor",
-      "source_quote": "Adrianna glanced lazily at the thermometer.",
-      "suggested_fix": "Correct typo and idiom: replace \"আলসো\" with \"আলসে\" or better \"আলসে ভঙ্গিতে\". Preserve <p> tag. Example: \"অ্যাড্রিয়ানা আলসে ভঙ্গিতে থার্মোমিটারের দিকে তাকাল।\"",
-      "translation_quote": "অ্যাড্রিয়ানা আলসো থার্মোমিটারের দিকে তাকাল।"
-    },
-    {
-      "location": "translation.html paragraph where Adrianna throws apple core",
-      "severity": "minor",
-      "source_quote": "She threw her apple core to the dogs",
-      "suggested_fix": "Use an appropriate Bengali word for \"apple core\" (e.g., \"আপেলের গোঁড়া\" or \"আপেলের কোর\"). Example: replace \"তার আপেলের গুঁড়ো\" with \"তার আপেলের কোর\". Preserve <p> tag.",
-      "translation_quote": "তিনি কুকুরদের কাছে তার আপেলের গুঁড়ো ছুঁড়ে দিল"
-    },
-    {
-      "location": "translation.html paragraph where Emily begs",
-      "severity": "minor",
-      "source_quote": "“Adrianna, can you please take ours too?” begged Emily.",
-      "suggested_fix": "Use a natural Bengali verb for \"begged\"—e.g., \"বিনীতভাবে অনুরোধ করে\" or simply \"অনুরোধ করে\" instead of \"ভিকলভাবে অনুনয় করল\". Example: replace \"ভিকলভাবে অনুনয় করল\" with \"বিনীতভাবে অনুরোধ করল\". Preserve <p> tag.",
-      "translation_quote": "“অ্যাড্রিয়ানা, তুমি কি আমাদেরগুলোকেও নিয়ে যেতে পারো?” এমিলি ভিকলভাবে অনুনয় করল।"
-    },
-    {
-      "location": "translation.html sentence containing English word 'somehow'",
-      "severity": "minor",
-      "source_quote": "Somehow it wasn’t as fun this time.",
-      "suggested_fix": "Translate the English word rather than leaving it in English. Replace \"somehow\" with \"কিছুভাবে\" or \"কেন জানি না\". Example: \"কিন্তু এইবার কেন জানি না এটা আগের মতো মজা লাগল না।\" Preserve <p> tag.",
-      "translation_quote": "এবার somehow এটা আগের মতো মজা লাগছে না।"
-    },
-    {
-      "location": "translation.html <figure> alt attribute",
-      "severity": "minor",
-      "source_quote": "alt=\"A child paddling a blue kayak on a pond\"",
-      "suggested_fix": "Correct typo in Bengali alt text: replace \"কায়াকে\" with \"কায়াক\" and make phrasing natural: e.g., alt=\"একটি শিশুমাত্রা নীল কায়াকে পুকুরে প্যাডেল চালাচ্ছে\" → better: \"একটি শিশু নীল কায়াকে পুকুরে প্যাডেল চালাচ্ছে\". Update only the alt attribute string.",
-      "translation_quote": "alt=\"একটি বাচ্চা নীল কায়াকে পুকুরে প্যাডেল চালাচ্ছে\""
+      "source_quote": "Children’s Corner",
+      "suggested_fix": "Translate the section label into Bengali to match target-language usage. Suggested Bengali section: \"শিশুদের কোণ\". Keep the section field unchanged in structure—only change the text value.",
+      "translation_quote": "Children’s Corner"
     }
   ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "0acf7ebf2582c967557aebb8a3ce57d6",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "ben",
@@ -151,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 40,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d59e6cc034714ade3629f9e4dd10e75a09cff16eb5d3255ed698b76288fda97d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "dcfff2a5364081c6a6817377a0d3ad1649eaec0276399a4b9a70adc9f0fe19d1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "12ccfe51-0aff-4056-a804-587c26985631",
+    "response_id": "chatcmpl-EULAAl3UIdfmvzANLG2pAC9TP9UPX",
+    "usage": {
+      "completion_tokens": 1788,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2991,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4779
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"drop-cap\"> (first paragraph)",
+        "severity": "major",
+        "source_quote": "\"Migrating waterfowl bring new sounds as they honk and quack their way to their final nesting places. This year the spring peepers in our area were “winter peepers” as they feebly squeaked their greetings to the arriving spring in mid-February.\"",
+        "suggested_fix": "Translate the animal references accurately and idiomatically. Preserve the meaning that waterfowl honk and quack and that \"spring peepers\" are small frogs whose calls sound like peeps. For example (preserving tags/structure):\n<p class=\"drop-cap\">Majira ya vuli ni kipindi ninachokipenda zaidi mwaka mzima. Kila kitu kipya. Hyacinths zinafanya bidii yao kuu kusukuma vichanja vyao kupitia ukandamizaji wa baridi wa dunia iliyofungwa kwa msimu wa baridi. Ndege wa maji wanaoelea hutoa sauti mpya wanapopiga honi na kupiga kikwazo cha kuangua wakielekea sehemu zao za mwisho za kuota. Mwaka huu, vipeperu-wa-chemchemi (frog spring peepers) katika eneo letu walikuwa “vipeperu vya-msimu wa-baridi,” wakipiga sauti dhaifu za kuwakaribisha chemchemi katikati ya Februari.</p>\n(Adjust wording to use the Swahili term for frogs (e.g., \"chura mdogo/vipeperu-wa-chemchemi\") rather than \"vipeperu\" which commonly means butterflies.)",
+        "translation_quote": "\"Ndege wa maji wanaoelea hutoa sauti mpya wanapopiga honi na kuangua kwaya wakielekea sehemu zao za mwisho za kuota. Mwaka huu vipeperu wa chemchemi katika eneo letu vilikuwa “vipeperu vya baridi” vikikifaulu kwa kupiga sauti dhaifu kuwatakia salamu za kuwasili kwa chemchemi katikati ya Februari.\""
+      },
+      {
+        "location": "<figure> <img alt=\"...\"> (image alt text)",
+        "severity": "minor",
+        "source_quote": "alt=\"White blossoms beside a small bird nesting in a bowl\"",
+        "suggested_fix": "Correct Swahili word order and natural phrasing in the alt attribute while preserving the HTML element. Example replacement alt text (keeping tag and attributes unchanged):\n<img src=\"/images/articles/62646d6d-87be-47a6-880f-0ade408a3402-1.jpg\" alt=\"Maua meupe kando ya ndege mdogo anayejenga kiota ndani ya bakuli\">",
+        "translation_quote": "alt=\"Umeupe wa maua kando ya ndege mdogo anayejenga kiota ndani ya bakuli\""
+      },
+      {
+        "location": "<p> (third paragraph)",
+        "severity": "minor",
+        "source_quote": "\"As I write this, I am flying 35,000 feet over the sub-Saharan desert land of Chad and Niger.\"",
+        "suggested_fix": "Use a more natural Swahili verb for flying to convey the sense of being aboard an aircraft. Preserve the numeric and geographic details. For example: \"Ninapoandika haya, ninaelea kwa urefu wa futi 35,000 nikiruka juu ya nchi kavu za jangwa za Chadi na Nijeri za Afrika ya Kusini mwa Jangwa la Sahara.\" (Or \"ninaruka\" instead of \"ninaelea\" if preferred for naturalness.)",
+        "translation_quote": "\"Ninapoandika haya, ninaelea kwa urefu wa futi 35,000 juu ya nchi za jangwa za Chadi na Nijeri za Afrika ya subsahara.\""
+      },
+      {
+        "location": "<p> (second paragraph)",
+        "severity": "minor",
+        "source_quote": "\"This display of new life springing from the earth is a beautiful representation of new life found in Christ Jesus.\"",
+        "suggested_fix": "Small wording clarity: render \"representation of new life found in Christ Jesus\" clearly in Swahili without changing theology. Example: \"Maonyesho haya ya uzima mpya unaotoka ardhini ni picha nzuri ya uzima mpya unaopatikana katika Kristo Yesu.\"",
+        "translation_quote": "\"Maonyesho haya ya uzima mpya unaotoka ardhini ni mwonekano mzuri wa uzima mpya ulio kwenye Kristo Yesu.\""
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

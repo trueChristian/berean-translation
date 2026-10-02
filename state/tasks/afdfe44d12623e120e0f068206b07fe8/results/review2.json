@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "fca2ee55-d91e-41d4-accb-f4b846c89d6e",
+    "response_id": "chatcmpl-EUL9oBhmfNFaAkzwjqrpSAphIvwBc",
+    "usage": {
+      "completion_tokens": 1795,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3343,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5138
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Second paragraph — Psalm quotation",
+        "severity": "major",
+        "source_quote": "“Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9).",
+        "suggested_fix": "Render the quoted English verse into contemporary Modern Greek while preserving the exact reference (Psalms 98:8-9). Keep the surrounding HTML and punctuation unchanged. Example (do not insert this verbatim if you prefer equivalent wording): “Ας χειροκροτήσουν τα νερά· ας αγαλλιάσουν μαζί οι λόφοι ενώπιον του ΚΥΡΙΟΥ· επειδή έρχεται ο Κύριος να κρίνει τη γη· με δικαιοσύνη θα κρίνει τον κόσμο, και τους λαούς με ευθύτητα” (Psalms 98:8-9). Ensure the translation conveys the printed English wording and leaves the citation unchanged.",
+        "translation_quote": "“Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9)."
+      },
+      {
+        "location": "Third paragraph — John quotation",
+        "severity": "major",
+        "source_quote": "“well of water springing up into everlasting life” (John 4:14).",
+        "suggested_fix": "Translate the quoted English phrase into contemporary Modern Greek while preserving the citation (John 4:14). Preserve the surrounding HTML and punctuation. Example: “πηγή ύδατος που αναβλύζει για ζωή αιώνια” (John 4:14). Ensure the translation conveys the printed English wording.",
+        "translation_quote": "“well of water springing up into everlasting life” (John 4:14)."
+      },
+      {
+        "location": "Poem blockquote — hymn text",
+        "severity": "major",
+        "source_quote": "Oh! Christ He is the foutain,\n    The deep sweet well of Love!\n    The streams on earth I’ve tasted,\n    More deep I’ll drink above:\n    There, to an ocean fullness,\n    His mercy doth expand,\n    And glory—glory dwelleth\n    In Immanuel’s land.",
+        "suggested_fix": "Translate the hymn stanza into contemporary Modern Greek (preserving lineation and the blockquote element) while keeping the original rhyme/poetic structure as much as idiomatic Greek allows. Do not alter the HTML tags. Example (illustrative): «Ω! Ο Χριστός είναι η πηγή,\n    Το βαθύ γλυκό πηγάδι της Αγάπης!\n    Τα ρεύματα στη γη που γεύτηκα,\n    Βαθύτερα θα πιω στον ουρανό:\n    Εκεί, σε ωκεάνια πληρότητα,\n    Η έλεός Του απλώνεται,\n    Και δόξα—δόξα κατοικεί\n    Στην γη του Εμμανουήλ.»",
+        "translation_quote": "Oh! Christ He is the foutain,\n    The deep sweet well of Love!\n    The streams on earth I’ve tasted,\n    More deep I’ll drink above:\n    There, to an ocean fullness,\n    His mercy doth expand,\n    And glory—glory dwelleth\n    In Immanuel’s land."
+      },
+      {
+        "location": "Paragraph quoting article “How to Increase Your Faith”",
+        "severity": "major",
+        "source_quote": "“Faith is one of the basic ingredients in getting right with God. We come into the Christian life (and receive the forgiveness of sins) through faith. . . We abandon all hope for saving ourselves by our own abilities, and instead, we put complete trust in Jesus Christ for our eternal safety.”",
+        "suggested_fix": "Translate the quoted English passage into contemporary Modern Greek, preserving the quotation marks and the attribution to the article title. Keep HTML structure intact. Example rendering should convey the exact assertions about faith and salvation (doctrinal content must be preserved).",
+        "translation_quote": "“Faith is one of the basic ingredients in getting right with God. We come into the Christian life (and receive the forgiveness of sins) through faith. . . We abandon all hope for saving ourselves by our own abilities, and instead, we put complete trust in Jesus Christ for our eternal safety.”"
+      },
+      {
+        "location": "Penultimate paragraph — Isaiah quotation",
+        "severity": "major",
+        "source_quote": "“For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11).",
+        "suggested_fix": "Translate the quoted English verse into contemporary Modern Greek while preserving the citation (Isaiah 61:11). Keep surrounding HTML and punctuation unchanged. Example: “Καθώς η γη βγάζει το βλαστό της, και ο κήπος φέρνει τα σπέρματα που σπέρθηκαν σ’ αυτόν· έτσι ο Κύριος Κύριος θα προκαλέσει τη δικαιοσύνη και τον έπαινο να αναβλύσουν ενώπιον όλων των εθνών” (Isaiah 61:11). Ensure the translation conveys the printed English meaning and leaves the scripture reference intact.",
+        "translation_quote": "“For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11)."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

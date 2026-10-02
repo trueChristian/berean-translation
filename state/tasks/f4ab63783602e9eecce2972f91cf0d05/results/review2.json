@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "74b411df-f947-4db5-b9ce-e67b8235bd75",
+    "response_id": "chatcmpl-EULA33ypR0KghYffR2RxQdoMwl6aS",
+    "usage": {
+      "completion_tokens": 1341,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8397,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9738
+    }
+  },
+  "received_at": "2026-10-02T00:14:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing Philippians 1:10 (second paragraph)",
+        "severity": "major",
+        "source_quote": "“That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10).",
+        "suggested_fix": "Translate the verse meaning faithfully without changing sense. A closer Afrikaans rendering preserving the English meaning: “sodat julle die uitstekende dinge kan onderskei; dat julle opreg (rein) en onberispelik mag wees tot die dag van Christus” (Filippense 1:10). Replace the current sentence in the paragraph with this suggested rendering (preserve HTML tags and punctuation).",
+        "translation_quote": "“Sodat julle die wysheid kan onderskei van die uitstekende dinge, sodat julle opreg (rein) en onberispelik mag wees tot die dag van Christus” (Philippians 1:10)."
+      },
+      {
+        "location": "Final blockquote (poem attribution)",
+        "severity": "critical",
+        "source_quote": "—The author’s dad",
+        "suggested_fix": "Restore the original attribution exactly as in the source. Replace “—Die oupa van die skrywer” with “—Die pa van die skrywer” (or preserve the exact English structure if site renders attributions in English). Keep the surrounding HTML and tags unchanged.",
+        "translation_quote": "—Die oupa van die skrywer"
+      },
+      {
+        "location": "Paragraph quoting John 10:10 (paragraph beginning “Satan is cruel.”)",
+        "severity": "minor",
+        "source_quote": "“the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy”",
+        "suggested_fix": "Use a closer lexical match for 'the devil' to keep the specific biblical referent. Replace “Die vyand” with “Die duiwel” in the quoted sentence (preserve punctuation and tags).",
+        "translation_quote": "“Die vyand kom net om te steel, te slag en te verderf. Hy kom om jou suiwerheid te steel, jou karakter te vernietig, en alle vrome verhoudings te verderf.”"
+      },
+      {
+        "location": "Multiple references to the book of James (several paragraphs)",
+        "severity": "minor",
+        "source_quote": "James 1:15; references as “James”",
+        "suggested_fix": "Use the standard Afrikaans Bible name for the New Testament book. Replace occurrences of “Jakob” with “Jakobus” (e.g., “Jakobus 1:15”) to match common Afrikaans Bible usage. Preserve verse numbers and punctuation.",
+        "translation_quote": "“Jakob 1:15” and other uses of “Jakob”"
+      }
+    ],
+    "passed": false,
+    "score": 65
+  }
+}

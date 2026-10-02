@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "11b8fba7-41c3-4647-a629-934766bae089",
+    "response_id": "chatcmpl-EULAFN4OsiYvq2BR6rWJgGUqTEXHZ",
+    "usage": {
+      "completion_tokens": 784,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3000,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3784
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p> (third paragraph)",
+        "severity": "minor",
+        "source_quote": "six miles below me",
+        "suggested_fix": "Remove the added metric conversion so the translation matches the source wording. For example: \"sex miles under mig.\" Or, if a localized conversion is required by house style, keep the original English phrase and add the conversion in parentheses immediately after it: \"sex miles (ca 9,7 km) under mig.\"",
+        "translation_quote": "sex miles (ca 9,7 km) under mig"
+      },
+      {
+        "location": "<p> (paragraph about Ramadan)",
+        "severity": "minor",
+        "source_quote": "daytime temperatures exceed 110 degrees",
+        "suggested_fix": "Match the source phrasing by leaving the temperature as in the English source without specifying units or adding a Celsius conversion. For example: \"dagstemperaturerna överstiger 110 grader.\" If a unit must be supplied by style, use the same numeric value and unit type as the source (e.g., \"överstiger 110 °F\"), or include the unit only in parentheses after the original phrasing.",
+        "translation_quote": "dagstemperaturerna överstiger 110 °F (ca 43 °C)"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "45c612ff-1966-4079-9ba5-09ab022917ea",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -62,24 +61,52 @@
         },
         "total_tokens": 9842
       }
-    }
-  ],
-  "findings": [
-    {
-      "location": "source.subtitle (metadata)",
-      "severity": "critical",
-      "source_quote": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2",
-      "suggested_fix": "Translate the subtitle into Spanish and preserve punctuation and scripture citation. For example: \"Desde Sion salió la hermosura perfecta; Dios se manifestó. Salmos 50:2\" (replace only the textual content inside the subtitle field, do not change HTML structure or attributes).",
-      "translation_quote": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2"
     },
     {
-      "location": "source.html — headings (h2 elements)",
-      "severity": "major",
-      "source_quote": "Through the Gospel\n\nThrough Creation\n\nThrough Music and Sound\n\nThrough the Church:",
-      "suggested_fix": "Translate each h2 heading into Spanish inside the same h2 tags, preserving HTML structure and attributes. Suggested translations: \"A través del Evangelio\"; \"A través de la Creación\"; \"A través de la Música y el Sonido\"; \"A través de la Iglesia:\". Replace only the heading text, leaving tags and punctuation unchanged.",
-      "translation_quote": "Through the Gospel\n\nThrough Creation\n\nThrough Music and Sound\n\nThrough the Church:"
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1526,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6246,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7772
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "findings": [
+    {
+      "location": "<p>“And I heard a voice from heaven, as the voice of many waters, and as the voice of a great thunder: and I heard the voice of harpers harping with their harps” (Revelation 14:2) Según el libro de Apocalipsis, el trono de Dios está rodeado de sonido: truenos y relámpagos; alabanzas que fluyen de los ángeles, las cuatro criaturas y los veinticuatro ancianos, y la gran multitud que nadie puede contar; y el nuevo cántico de los ciento cuarenta y cuatro mil.</p>",
+      "severity": "major",
+      "source_quote": "\"...the four beasts and twenty elders, and the great multitude which no man can number; and the new song by the one hundred and forty four thousand.\"",
+      "suggested_fix": "Preserve the original numeral phrase from the authoritative English source. Replace \"las cuatro criaturas y los veinticuatro ancianos\" with \"las cuatro bestias y veinte ancianos\" (or keep the original English phrase in quotes if style requires). Ensure the translation does not alter or correct Scripture-related numerals. Maintain the surrounding HTML exactly as in the translation when applying the change.",
+      "translation_quote": "\"...las cuatro criaturas y los veinticuatro ancianos, y la gran multitud que nadie puede contar; y el nuevo cántico de los ciento cuarenta y cuatro mil.\""
+    },
+    {
+      "location": "<p>El sentido de realización que proviene de un trabajo bien hecho tiene su origen en la creación, donde Dios miró Su obra y la declaró buena. ... ¿Cómo deberíamos, como instrumentos sonoros, reflejar la belleza de Dios mediante el sonido? Siempre deberíamos procurar escuchar y asemejarnos a los sonidos y armonías del cielo. ... La persona que ama a Dios será atraída hacia Él siempre que sea serenateada por sonidos agradables: ...</p>",
+      "severity": "minor",
+      "source_quote": "\"...the people of God singing the songs of Zion, the prayers of the saints, the wind whispering through the treetops, the songbird praising its Maker, the rumble of thunder, or the simple patter of rain on the roof.\"",
+      "suggested_fix": "Correct the nonstandard Spanish verb form \"serenateada\" to a natural Spanish phrasing that preserves meaning. Suggested replacement: \"sea serenada por sonidos agradables\" or \"sea cautivada por sonidos agradables\". Keep the HTML tags and surrounding text unchanged.",
+      "translation_quote": "\"La persona que ama a Dios será atraída hacia Él siempre que sea serenateada por sonidos agradables: el pueblo de Dios cantando los cánticos de Sion, ...\""
+    },
+    {
+      "location": "<p>David experimentó el placer que proviene de conocer y experimentar a Dios en toda su plenitud. ¿Cómo expresa Dios Su Belleza?</p>",
+      "severity": "minor",
+      "source_quote": "\"How does God express His Beauty?\"",
+      "suggested_fix": "Fix capitalization for natural Spanish: change \"Su Belleza\" to \"su belleza\" so it reads: \"¿Cómo expresa Dios su belleza?\" Preserve paragraph tags and order.",
+      "translation_quote": "\"¿Cómo expresa Dios Su Belleza?\""
+    }
+  ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "23e73bbe1d2897092aa58b556dc89c7f",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "spa",
@@ -123,13 +150,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 86,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8ff6615d88d56d991342498ce45e0382ed69e4ee6f5e71d66558a915bc80e645.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "307ff3dcec107109e8c031e07835839a270150b1f8308d14b1a8b6811fd4f56d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -62,17 +61,37 @@
         },
         "total_tokens": 9893
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 702,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6356,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7058
+      }
     }
   ],
   "findings": [
     {
-      "location": "Paragraph near end: \"I’m so glad that God brought Ken into my life.\" paragraph (source.html)",
-      "severity": "major",
-      "source_quote": "\"God wanted to show Ken that He loved him and that He would be there for him even when Josh turned his back on Him.\"",
-      "suggested_fix": "Restore the original past-tense meaning. Replace the Russian sentence \"Бог хотел показать Кену, что Он любит его и что Он будет рядом с ним даже тогда, когда Джош отвернётся от Него.\" with: \"Бог хотел показать Кену, что Он любит его и что Он будет рядом с ним даже тогда, когда Джош отвернулся от Него.\" (preserve existing HTML tags and surrounding text exactly).",
-      "translation_quote": "\"Бог хотел показать Кену, что Он любит его и что Он будет рядом с ним даже тогда, когда Джош отвернётся от Него.\""
+      "location": "<article> first narrative paragraph (after drop-cap) — sentence describing lingering smell",
+      "severity": "minor",
+      "source_quote": "The lingering smell of smoke and the echo of his angry voice joined the troubled thoughts of my emotionally overwrought mind, as I slowly walked up the street.",
+      "suggested_fix": "Replace «запах табака» with «запах дыма», e.g.: «Отвисающий запах дыма и эхо его сердитого голоса…» — preserves the original \"smell of smoke\" rather than specifying tobacco.",
+      "translation_quote": "Отвисающий запах табака и эхо его сердитого голоса слились с тревожными мыслями моего эмоционально измотанного ума, когда я медленно шла по улице."
     }
   ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "018f7f33a6ee83672148bfb3df517288",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "rus",
@@ -116,13 +135,13 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0c059a0312fc4bb7c1d9113fe70aaa013f3daaefdb55449ee68204bcbaa1c79e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

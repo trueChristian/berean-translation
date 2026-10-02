@@ -2,7 +2,6 @@
   "article_id": "10933457-b503-48e1-9346-49ff54d1b6fe",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -62,45 +61,52 @@
         },
         "total_tokens": 12606
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1748,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1088,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7381,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9129
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "<p>...God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.” (2 Timothy 1:7)</p>",
+      "location": "<p>La mente umana ... (2 Timothy 1:7)</p>",
       "severity": "critical",
       "source_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.” (2 Timothy 1:7)",
-      "suggested_fix": "Translate the quoted Bible text into Italian while preserving the exact meaning and quotation punctuation and keep the Scripture citation unchanged. For example (preserve the paragraph and tag structure): <p>“Dio infatti non ci ha dato uno spirito di timidezza, ma di forza, d'amore e di autocontrollo.” (2 Timothy 1:7)</p> — or render the KJV wording into Italian equivalent that faithfully conveys the original English wording used in the source article. Do not replace the citation number.",
-      "translation_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.” (2 Timothy 1:7)"
+      "suggested_fix": "Translate the verse so it preserves the printed English meaning. For example, replace the Italian sentence with: “Dio infatti non ci ha dato uno spirito di timore, ma di potenza, d'amore e di una mente sobria.” (2 Timothy 1:7) — preserving the scripture reference. Do not change 'sound mind' to 'autocontrollo' or 'spirit of fear' to 'spirito di timidezza', which alter the doctrinal meaning.",
+      "translation_quote": "“Dio infatti non ci ha dato uno spirito di timidezza, ma di forza, d'amore e di autocontrollo.” (2 Timothy 1:7)"
     },
     {
-      "location": "<p>...he maketh intercession for us with groanings which cannot be uttered.</em></p>",
-      "severity": "critical",
-      "source_quote": "<em>the Spirit,</em> which <em>maketh intercession for us with groanings which cannot be uttered.</em>",
-      "suggested_fix": "Translate this English clause into Italian within the existing <em> tags, preserving tag structure and meaning. Example: <em>lo Spirito,</em> che <em>intercede per noi con sospiri inesprimibili.</em>",
-      "translation_quote": "<em>the Spirit,</em> which <em>makes intercession for us with groanings which cannot be uttered.</em>"
-    },
-    {
-      "location": "Multiple Bible quotations and inline verse blocks throughout the article (Job 15:21-22, 2 Corinthians 7:5, Philippians 4:6-7, Job 23:1-6, Psalm 142:2, 1 Samuel 1:16, Lamentations 3:15, Ruth 1:20, Isaiah 38:12, Matthew 27:46, 1 John 4:18, Psalm 119:165, 1 John 4:19-20, Isaiah 8:12-13, 1 Peter 1:13, Philippians 4:7-8 blockquote)",
-      "severity": "critical",
-      "source_quote": "Examples from source: “A dreadful sound is in his ears: in prosperity the destroyer shall come upon him. He believeth not that he shall return out of darkness, and he is waited for of the sword.” (Job 15:21, 22); “troubled on every side; without were fightings, within were fears.” (2 Corinthians 7:5); “Be careful for nothing; but in every thing by prayer...”(Philippians 4:6 7); full Philippians 4:7,8 blockquote in English; Job 23:1-6 in English; many other verse quotations all in English in the translation.",
-      "suggested_fix": "Each quoted Scripture passage must be rendered into Italian in a way that faithfully conveys the exact printed English wording used in the authoritative source (do not substitute a different English Bible version). Keep all punctuation, verse citations and HTML tags as in the source. For example replace the English Job quote with an Italian rendering faithful to the source English text, wrapped exactly as the original paragraph and citation: <p>“Un terribile suono è nelle sue orecchie: nella prosperità gli verrà addosso il distruttore. Egli non pensa che tornerà dalle tenebre, ed è atteso dalla spada.” (Job 15:21, 22)</p> Apply the same treatment to every Scripture quotation and the full Philippians 4:7-8 blockquote, preserving the blockquote tags and the citation line.",
-      "translation_quote": "(Multiple places) Bible quotations remain in English rather than being rendered into Italian (e.g., “A dreadful sound is in his ears...” (Job 15:21, 22); “Be careful for nothing; but in every thing by prayer...” (Philippians 4:6 7); full Philippians 4:7,8 blockquote, Job 23:1-6, etc.)"
-    },
-    {
-      "location": "<p>...Paolo non si dichiarò esente, poiché era “troubled on every side; without were fightings, within were fears.” (2 Corinthians 7:5)</p>",
-      "severity": "major",
-      "source_quote": "“troubled on every side; without were fightings, within were fears.” (2 Corinthians 7:5)",
-      "suggested_fix": "Translate the quoted verse text into Italian within the paragraph, preserving the citation and keeping the meaning identical to the printed English source. Example: “era tribolato da ogni parte, all’esterno c’erano pericoli, all’interno timori.” (2 Corinthians 7:5)",
-      "translation_quote": "“troubled on every side; without were fightings, within were fears.” (2 Corinthians 7:5)"
-    },
-    {
-      "location": "<p>...This is no pointed accusation at any individuals... Paolo claimed no exemption, for he was “troubled on every side; without were fightings, within were fears.” (2 Corinthians 7:5)</p>",
+      "location": "<ul>\\n    <li>David —“I poured out my complaint before him; I shewed before him my trouble.” (Psalm 142:2)</li></ul>",
       "severity": "minor",
-      "source_quote": "Original English surrounding explanatory phrases and the Paul citation.",
-      "suggested_fix": "The explanatory Italian rendering is generally acceptable, but ensure any quoted Scripture text is translated as noted above. No change required to surrounding prose beyond fixing the quoted verse text.",
-      "translation_quote": "Paolo non si dichiarò esente, poiché era “troubled on every side; without were fightings, within were fears.” (2 Corinthians 7:5)"
+      "source_quote": "I poured out my complaint before him; I shewed before him my trouble. (Psalm 142:2)",
+      "suggested_fix": "Correct the Italian to accurately reflect the English wording. For example: “David — “Ho riversato il mio lamento davanti a lui; ho mostrato davanti a lui la mia angoscia.” (Psalm 142:2)” — keep the surrounding <li> tags and the scripture reference as in source.",
+      "translation_quote": "David —“Ho riversato il mio lamento davanti a lui; ho manifestato davanti a lui il mio afflitto.” (Psalm 142:2)"
+    },
+    {
+      "location": "<p>... “... neither fear ye their fear, nor be afraid. Sanctify the LORD of hosts himself; and let him be your fear, and let him be your dread.” (Isaiah 8:12, 13)</p>",
+      "severity": "minor",
+      "source_quote": "“... neither fear ye their fear, nor be afraid. Sanctify the LORD of hosts himself; and let him be your fear, and let him be your dread.” (Isaiah 8:12, 13)",
+      "suggested_fix": "Translate the embedded English quotation into Italian to match the rest of the translation while preserving the original meaning. For example: “... non temete il loro timore, e non avete paura. Santificate l'Eterno degli eserciti; egli stesso sia il vostro timore e sia il vostro spavento.” (Isaiah 8:12, 13). Keep the scripture reference and original HTML paragraph tags unchanged.",
+      "translation_quote": "“... neither fear ye their fear, nor be afraid. Sanctify the LORD of hosts himself; and let him be your fear, and let him be your dread.” (Isaiah 8:12, 13)"
     }
   ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "428bdeffc0d792806ddc095e135a0b2a",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "ita",
@@ -144,13 +150,13 @@
     }
   },
   "protected": false,
-  "quality_score": 40,
+  "quality_score": 80,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/26b7a664a367b633bc68dce4ce41099ba34f55c7da13d83df0ec0180ed003d97.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "b862596e1902f47704d5b4543248cd118dbbf01a8d05be354c99504278ee33ab",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

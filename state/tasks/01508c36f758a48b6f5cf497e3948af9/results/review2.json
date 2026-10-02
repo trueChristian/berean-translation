@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e0917510-51e7-4982-a3bc-2c6e2703daf5",
+    "response_id": "chatcmpl-EULA8A96uO4DXTWNZ3gnO34RaA6sL",
+    "usage": {
+      "completion_tokens": 1488,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6445,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7933
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>…Sy skoolvriend was ’n hippie, en sy ouers het baie gereis. Hulle is genoem Sjipeiese. Hy het gehoor hulle was op pad na Kalifornië. So, Ken vertel vir hulle van sy terrible lewe en vra of hulle hom kan oppik. Hulle was bly om te help.</p>",
+        "severity": "major",
+        "source_quote": "So, Ken told them about his terrible life and asked if they would give him a ride.",
+        "suggested_fix": "Replace the partly untranslated/incorrect phrase with an appropriate Afrikaans rendering preserving meaning. For example: “So, Ken het vir hulle van sy verskriklike lewe vertel en gevra of hulle hom 'n rit na Kalifornië sou gee.” Preserve existing HTML tags and attributes exactly.",
+        "translation_quote": "So, Ken vertel vir hulle van sy terrible lewe en vra of hulle hom kan oppik. Hulle was bly om te help."
+      },
+      {
+        "location": "<p>…Sy skoolvriend was ’n hippie, en sy ouers het baie gereis. Hulle is genoem Sjipeiese.</p>",
+        "severity": "minor",
+        "source_quote": "His school friend was a hippie, and his parents traveled a lot. They were called Gypsies.",
+        "suggested_fix": "Replace the incorrect/awkward rendering “Sjipeiese” with a correct Afrikaans term. Suggested: “Hul­le is bekend as Sygane.” or “Hulle is genoem Sygane.” Keep original HTML tags and punctuation.",
+        "translation_quote": "Hulle is genoem Sjipeiese."
+      },
+      {
+        "location": "<p>…Dit is hoekom ons steeds die donker, rookgeplote winkel besoek het…</p>",
+        "severity": "minor",
+        "source_quote": "That is why we were still visiting the dingy, smoke-stained shop after six years of very little apparent success.",
+        "suggested_fix": "Correct the mistranslation/typo “rookgeplote” to a standard Afrikaans rendering such as “rookgeplakte” or “deur rook gesteekte” (suggested: “rookgeplakte”). Example: “Dit is hoekom ons steeds die donker, rookgeplakte winkel besoek het na ses jaar van baie min skynbare sukses.” Preserve HTML structure.",
+        "translation_quote": "Dit is hoekom ons steeds die donker, rookgeplote winkel besoek het ná ses jaar van baie min skynbare sukses."
+      },
+      {
+        "location": "<p>…In plaas daarvan om hom te verstaan en lief te hê, het elke nuwe gesin geskrik, haat en slae gebring.</p>",
+        "severity": "minor",
+        "source_quote": "Instead of understanding and loving him, each new family brought more yelling, hatred, and beating.",
+        "suggested_fix": "The translation reads “geskrik” (frightened) which changes meaning of “yelling”. Replace with “meer geskreeu” or “meer geskrik” → use “meer geskreeu” to match source meaning. For example: “In plaas daarvan om hom te verstaan en lief te hê, het elke nuwe gesin meer geskreeu, haat en slae gebring.” Preserve HTML tags.",
+        "translation_quote": "In plaas daarvan om hom te verstaan en lief te hê, het elke nuwe gesin geskrik, haat en slae gebring."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

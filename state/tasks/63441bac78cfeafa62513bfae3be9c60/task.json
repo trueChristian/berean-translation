@@ -2,7 +2,6 @@
   "article_id": "31ea7041-cab6-4ccd-9ead-04cc949321a6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:46+00:00",
   "events": [
@@ -62,17 +61,29 @@
         },
         "total_tokens": 9344
       }
-    }
-  ],
-  "findings": [
+    },
     {
-      "location": "<p> paragraph in section \"Viktigheten av praktisk frelse\" (around the sentence about \"milk of the Word\")",
-      "severity": "major",
-      "source_quote": "\"While this form of conversion may be genuine at the beginning, it does not often progress beyond the milk of the Word to the meat of which a mature Christian must partake.\"",
-      "suggested_fix": "Replace the mistranslated phrase \"Ormens melk\" with a correct rendering of \"the milk of the Word\", for example: \"går den ofte ikke lenger enn melk fra Ordet før den når det kjøtt som en moden kristen må ta del i.\" Keep the surrounding HTML and sentence structure unchanged except for this phrase.",
-      "translation_quote": "\"Selv om denne formen for omvendelse kan være genuin i begynnelsen, går den ofte ikke lenger enn til Ormens melk enn til det kjøtt som en moden kristen må ta del i.\""
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 410,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5774,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6184
+      }
     }
   ],
+  "findings": [],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "63441bac78cfeafa62513bfae3be9c60",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "nob",
@@ -116,13 +127,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/89fccb1e579c0ea7c2e8e4f5bade339b25251e139570b39f442b2c1c8ea4bc11.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "9001af1f34c52b235af4ae22af79ba7fa0d5cf2bf7273485ec1e06a8188fc9a6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

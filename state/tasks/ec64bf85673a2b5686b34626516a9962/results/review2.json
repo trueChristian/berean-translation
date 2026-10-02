@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f7e2f45e-996f-4f8a-8f90-201ea1808ab4",
+    "response_id": "chatcmpl-EULAAPxfiEhGeD8Sf8utIEepDQSqj",
+    "usage": {
+      "completion_tokens": 1343,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8367,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9710
+    }
+  },
+  "received_at": "2026-10-02T00:14:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph",
+        "severity": "major",
+        "source_quote": "Purity is being free from moral fault or guilt, marked by chastity, which is personal integrity.",
+        "suggested_fix": "Translate 'chastity' correctly (e.g., 'uzuri wa adabu' or 'utakatifu wa kimapenzi') and preserve the author’s intended positive meaning. For example: \"Usafi ni kuwa huru kutokana na kosa la kimaadili au hatia, unaoneshwa kwa utii wa kimapenzi (chastity) na uadilifu wa kibinafsi.\" Preserve the HTML tags and punctuation exactly where present.",
+        "translation_quote": "Usafi ni kuwa huru kutokana na kosa la kimaadili au hatia, unaoonyeshwa kwa uzuri wa uzinzi na uadilifu wa kibinafsi."
+      },
+      {
+        "location": "Be Humble paragraph (heading and paragraph about Scripture)",
+        "severity": "major",
+        "source_quote": "I Peter 5:5 tells us that God gives grace to the humble.",
+        "suggested_fix": "Correct the referenced book and translate it consistently. The translation currently reads 'Yohana wa kwanza 5:5' (1 John 5:5) which misattributes the verse. It should read the Kiswahili equivalent of 'I Peter 5:5' (e.g., 'Warumi' is Romans, 'Petro wa Kwanza' for 1 Peter). Replace 'Yohana wa kwanza 5:5' with 'Petro wa Kwanza 5:5' (or the established site style for 1 Peter). Example fix inside the paragraph: \"Petro wa Kwanza 5:5 anatueleza kwamba Mungu huwapa wanyenyekevu neema.\" Preserve surrounding HTML and punctuation.",
+        "translation_quote": "Yohana wa kwanza 5:5 anatueleza kwamba Mungu huwapa wanyenyekevu neema."
+      },
+      {
+        "location": "Paragraph about Promise Keepers and addiction statistics",
+        "severity": "minor",
+        "source_quote": "Promise Keepers said 65% of men in their survey were addicted.",
+        "suggested_fix": "Translate 'were addicted' clearly (e.g., 'walikuwa wakiangukia uraibu' or 'walikuwa wakiathiriwa na uraibu') rather than 'walikuwa wageni wa uraibu huo', which reads awkwardly or incorrectly in Kiswahili. Example: \"Promise Keepers alisema 65% ya wanaume katika utafiti wao walikuwa wakiathiriwa na uraibu huo.\" Preserve punctuation and HTML.",
+        "translation_quote": "Promise Keepers alisema 65% ya wanaume katika utafiti wao walikuwa wageni wa uraibu huo."
+      }
+    ],
+    "passed": false,
+    "score": 64
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "1ec0f654-0dd1-48f3-9a68-3b15189e6704",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:46+00:00",
   "events": [
@@ -62,17 +61,44 @@
         },
         "total_tokens": 5388
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 756,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3446,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4202
+      }
     }
   ],
   "findings": [
     {
-      "location": "<p class=\"drop-cap\">“Adrianna, qual é a temperatura lá fora?” perguntou Asher.",
-      "severity": "major",
+      "location": "Paragraph 2 (temperature line)",
+      "severity": "minor",
       "source_quote": "“Probably about 50.” Adrianna glanced lazily at the thermometer. “Hey, it’s 65 degrees! Mom, may we eat lunch outside?”",
-      "suggested_fix": "Restore the original numeric temperature values exactly as printed in the English text. Replace “Provavelmente uns 10.” and “Ei, está 18 graus!” with the numbers from the source: “Provavelmente uns 50.” followed immediately by “Ei, está 65 graus! Mãe, podemos almoçar lá fora?” (or, if a unit is needed, preserve the original unitless English presentation by keeping the numbers 50 and 65 without adding a different unit). Ensure both temperature figures match the source and remain consistent with one another.",
-      "translation_quote": "“Provavelmente uns 10.” Adrianna olhou preguiçosamente para o termômetro. “Ei, está 18 graus! Mãe, podemos almoçar lá fora?”"
+      "suggested_fix": "Add the unit word “graus” after the temperature in the translation to match the English: change “Ei, está 65!” to “Ei, está 65 graus!” (preserve the surrounding HTML and punctuation).",
+      "translation_quote": "“Provavelmente uns 50.” Adrianna olhou preguiçosamente para o termômetro. “Ei, está 65! Mãe, podemos almoçar lá fora?”"
+    },
+    {
+      "location": "Paragraph 18 (apple core)",
+      "severity": "minor",
+      "source_quote": "She threw her apple core to the dogs and started for the house.",
+      "suggested_fix": "Render “apple core” more precisely in Portuguese. Replace “Jogou o caroço da maçã para os cachorros” with “Jogou o resto da maçã/miolo da maçã para os cachorros” (either “resto da maçã” or “miolo da maçã” preserves meaning better than “caroço”). Preserve HTML tags and surrounding sentence punctuation.",
+      "translation_quote": "Jogou o caroço da maçã para os cachorros e se dirigiu para a casa."
     }
   ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "6b6fcbd570d5fe3428fd4e428b9c7792",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "por",
@@ -116,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 85,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d59e6cc034714ade3629f9e4dd10e75a09cff16eb5d3255ed698b76288fda97d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "dcfff2a5364081c6a6817377a0d3ad1649eaec0276399a4b9a70adc9f0fe19d1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

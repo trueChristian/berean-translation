@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "939ea08a-d1a2-4383-a615-23af4fd4534f",
+    "response_id": "chatcmpl-EULAIGvLB654yf1ntbicrAgFo9dD5",
+    "usage": {
+      "completion_tokens": 1502,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8258,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9760
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>…(Matteo 5:8). «Affinché riconosciate… (Filippesi 1:10).</p>",
+        "severity": "minor",
+        "source_quote": "“That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10).",
+        "suggested_fix": "Correct the small typographic break inside the parenthetical word so it reads «sinceri (puri)» (no space inside 'puri'). Preserve original tags and punctuation.",
+        "translation_quote": "«Affinché riconosciate le cose eccellenti; affinché siate sinceri (pu ri) e senza offesa fino al giorno di Cristo» (Filippesi 1:10)."
+      },
+      {
+        "location": "<p><strong>Sii umile.</strong> Giacomo 5 dice: «Confessate dunque i vostri peccati…</p>",
+        "severity": "minor",
+        "source_quote": "\"It takes humility and brokenness to acknowledge our needs, but brokenness is the key to victory.\"",
+        "suggested_fix": "The Italian uses the uncommon or incorrect term 'sdradicamento'. Replace that token with a more natural rendering such as 'umiltà e cuore spezzato' or 'umiltà e serenità di cuore' while keeping the surrounding HTML intact. Example: 'Ci vuole umiltà e cuore spezzato per riconoscere i nostri bisogni, ma la rottura è la chiave della vittoria.'",
+        "translation_quote": "\"Ci vuole umiltà e sdradicamento per riconoscere i nostri bisogni, ma la rottura è la chiave della vittoria.\""
+      },
+      {
+        "location": "<p>…Il Salmo 24:3-4 domanda: «Chi salirà al monte del Signore? Chi ha le mani innocenti e il cuore puro?»…</p>",
+        "severity": "minor",
+        "source_quote": "\"Revelation 19 says 'The pure in heart shall see God.' Psalm 24:3-4 asks 'Who shall see God?' The answer is 'he that hath clean hands and a pure heart.'\"",
+        "suggested_fix": "The translation renders Psalm 24:3-4 with the more usual liturgical question 'Chi salirà al monte del Signore?' rather than the source text's explicit 'Who shall see God?'. This is acceptable as an idiomatic rendering, but if fidelity to the exact English wording is desired, change to: «Il Salmo 24:3-4 chiede: “Chi vedrà il Signore?” La risposta è “colui che ha mani innocenti e cuore puro.”» Preserve tags.",
+        "translation_quote": "«In Apocalisse 19 si dice: «I puri di cuore vedranno Dio.» Il Salmo 24:3-4 domanda: «Chi salirà al monte del Signore? Chi ha le mani innocenti e il cuore puro?» In altre parole, sono le persone pulite dentro e fuori che vedranno Dio ed entreranno nella Sua presenza.»"
+      }
+    ],
+    "passed": true,
+    "score": 95
+  }
+}

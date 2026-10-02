@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f44b2c94-0199-489f-b2c7-7b143231daf2",
+    "response_id": "chatcmpl-EULANos6VD78EDxYHF37zRl2LixTJ",
+    "usage": {
+      "completion_tokens": 1748,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1088,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7381,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9129
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>La mente umana ... (2 Timothy 1:7)</p>",
+        "severity": "critical",
+        "source_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.” (2 Timothy 1:7)",
+        "suggested_fix": "Translate the verse so it preserves the printed English meaning. For example, replace the Italian sentence with: “Dio infatti non ci ha dato uno spirito di timore, ma di potenza, d'amore e di una mente sobria.” (2 Timothy 1:7) — preserving the scripture reference. Do not change 'sound mind' to 'autocontrollo' or 'spirit of fear' to 'spirito di timidezza', which alter the doctrinal meaning.",
+        "translation_quote": "“Dio infatti non ci ha dato uno spirito di timidezza, ma di forza, d'amore e di autocontrollo.” (2 Timothy 1:7)"
+      },
+      {
+        "location": "<ul>\\n    <li>David —“I poured out my complaint before him; I shewed before him my trouble.” (Psalm 142:2)</li></ul>",
+        "severity": "minor",
+        "source_quote": "I poured out my complaint before him; I shewed before him my trouble. (Psalm 142:2)",
+        "suggested_fix": "Correct the Italian to accurately reflect the English wording. For example: “David — “Ho riversato il mio lamento davanti a lui; ho mostrato davanti a lui la mia angoscia.” (Psalm 142:2)” — keep the surrounding <li> tags and the scripture reference as in source.",
+        "translation_quote": "David —“Ho riversato il mio lamento davanti a lui; ho manifestato davanti a lui il mio afflitto.” (Psalm 142:2)"
+      },
+      {
+        "location": "<p>... “... neither fear ye their fear, nor be afraid. Sanctify the LORD of hosts himself; and let him be your fear, and let him be your dread.” (Isaiah 8:12, 13)</p>",
+        "severity": "minor",
+        "source_quote": "“... neither fear ye their fear, nor be afraid. Sanctify the LORD of hosts himself; and let him be your fear, and let him be your dread.” (Isaiah 8:12, 13)",
+        "suggested_fix": "Translate the embedded English quotation into Italian to match the rest of the translation while preserving the original meaning. For example: “... non temete il loro timore, e non avete paura. Santificate l'Eterno degli eserciti; egli stesso sia il vostro timore e sia il vostro spavento.” (Isaiah 8:12, 13). Keep the scripture reference and original HTML paragraph tags unchanged.",
+        "translation_quote": "“... neither fear ye their fear, nor be afraid. Sanctify the LORD of hosts himself; and let him be your fear, and let him be your dread.” (Isaiah 8:12, 13)"
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

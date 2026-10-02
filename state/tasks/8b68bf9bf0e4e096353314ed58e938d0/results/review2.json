@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8e2082f0-81a7-45f0-8cc4-4d6ae9c5f11e",
+    "response_id": "chatcmpl-EULA45L0s2FInUliXvi9ahQKRQNC5",
+    "usage": {
+      "completion_tokens": 2260,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1152,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7134,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9394
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>“The heavens declare the glory of God; and the firmament showeth His handy work” (Psalm 19:1).</p> — source.html",
+        "severity": "major",
+        "source_quote": "“The heavens declare the glory of God; and the firmament showeth His handy work” (Psalm 19:1).",
+        "suggested_fix": "Render the scripture phrase with an accurate Arabic equivalent for 'firmament' and ensure the quotation matches the source English meaning. For example, replace the Arabic quoted sentence text only (keep HTML tags) with: «السَّمَاوَاتُ تُخْبِرُ بِمَجْدِ اللهِ، وَقُبَّتُهُ تُظْهِرُ صَنْعَ يَدَيْهِ» (Psalm 19:1).",
+        "translation_quote": "«السَّمَاوَاتُ تُخْبِرُ بِمَجْدِ اللهِ، وَالْقُبَّعَةُ تُخْبِرُ بِعَمَلِ يَدَيْهِ» (Psalm 19:1)."
+      },
+      {
+        "location": "<p>“Great is the LORD, and greatly to be praised in the city of our God, in the mountain of His holiness. Beautiful for situation, the joy of the whole earth, is Mount Zion, on the sides of the north, the city of the great King” (Psalm 48:1-2).</p> — source.html",
+        "severity": "major",
+        "source_quote": "“Great is the LORD, and greatly to be praised in the city of our God, in the mountain of His holiness. Beautiful for situation, the joy of the whole earth, is Mount Zion, on the sides of the north, the city of the great King” (Psalm 48:1-2).",
+        "suggested_fix": "Correct the Arabic rendering of the quoted verses so they convey the same sense as the English source. Preserve the HTML and citation. For example, replace the Arabic quote text only with: «عَظِيمٌ الرَّبُّ وَمَسْبُوحٌ جِدًّا فِي مَدِينَةِ إِلَهِنَا، فِي جَبَلِ قُدْسِهِ. جَمِيلَةٌ مَوْضِعًا، فَرَحُ كُلِّ الأَرْضِ، هِيَ صِهْيَوْنُ، أَقَالِيمُ الشِّمَالِ، مَدِينَةُ الْمَلِكِ الْعَظِيمِ» (Psalm 48:1-2).",
+        "translation_quote": "«عَظِيمٌ الرَّبُّ وَمَسْبُوحٌ جِدًّا فِي مَدِينَةِ إِلَهِنَا، فِي جَبَلِ قُدْسِهِ. سَوْقٌ جَمِيلٌ لِلسَّكَنِ، فَرَحُ كُلِّ الأَرْضِ، جَبَلُ صِهْيَوْنِ، أَقَالِيمُ الشِّمَالِ، مَدِينَةُ الْمَلِكِ الْعَظِيمِ» (Psalm 48:1-2)."
+      },
+      {
+        "location": "<p>“In whom the god of this world hath blinded the minds of them which believe not, lest the light of the glorious gospel of Christ, who is the image of God, should shine unto them. ...” (2 Corinthians 4:4-6).</p> — source.html",
+        "severity": "minor",
+        "source_quote": "“In whom the god of this world hath blinded the minds of them which believe not, lest the light of the glorious gospel of Christ, who is the image of God, should shine unto them.” (2 Corinthians 4:4-6)",
+        "suggested_fix": "Fix the Arabic word order/grammar in the quoted translation to clearly convey the English meaning without changing content. Preserve the HTML. For example, change the Arabic quote text only to: «الَّذِي فِيهِ أَعْمَىٰ إِلَهُ هَذَا الْعَالَمِ أُفْهُومَ الَّذِينَ لا يُؤْمِنُونَ، لِئَلَّا يُضِيءَهُمْ نُورُ إِنْجِيلِ مَجْدِ الْمَسِيحِ، الَّذِي هُوَ صُورَةُ اللهِ.»",
+        "translation_quote": "«الَّذِي فِيهِ أَعْمَى إِلَهُ هَذَا الْعَالَمِ أَفْهَامَ الْغَيْرِ مُؤْمِنِينَ لِئَلَّا يُضِيءَهُمْ نُورُ إِنْجِيلِ مَجْدِ الْمَسِيحِ، الَّذِي هُوَ صُورَةُ اللهِ.» (2 Corinthians 4:4-6)."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

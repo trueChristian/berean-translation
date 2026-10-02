@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4387376d-226e-4b6e-81df-a2ab6b1c5b4e",
+    "response_id": "chatcmpl-EUL9orOjTr08NivNFogtp7c26sWos",
+    "usage": {
+      "completion_tokens": 2017,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6187,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8204
+    }
+  },
+  "received_at": "2026-10-02T00:14:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Throughout article — inline Bible quotations (examples in multiple paragraphs)",
+        "severity": "major",
+        "source_quote": "“Thine eyes shall see the king in his beauty: they shall behold the land that is very far off” (Isaiah 33:17).  “One thing have I desired of the LORD, that will I seek after; that I may dwell in the house of the LORD all the days of my life, to behold the beauty of the LORD, and to inquire in his temple” (Psalm 27:4).  “In whom the god of this world hath blinded the minds of them which believe not ...” (2 Corinthians 4:4-6).  “For now we see through a glass, darkly; but then face to face: now I know in part; but then shall I know even as also I am known” (1 Corinthians 13:12).  “To appoint unto them that mourn in Zion, to give unto them beauty for ashes ...” (Isaiah 61:3).  “The heavens declare the glory of God; and the firmament showeth His handy work” (Psalm 19:1).  “For the invisible things of Him from the creation of the world are clearly seen . . .” (Romans 1:20).  “And I heard a voice from heaven, as the voice of many waters, and as the voice of a great thunder: and I heard the voice of harpers harping with their harps” (Revelation 14:2).  “Great is the LORD, and greatly to be praised in the city of our God ...” (Psalm 48:1-2).  “And I John saw the holy city, New Jerusalem ...” (Revelation 21:2-3).  “the hands which hang down and the feeble knees” (Hebrews 12:12).  “Delight thyself also in the LORD; and He shall give thee the desires of thine heart” (Psalm 37:4).",
+        "suggested_fix": "Translate each printed English Bible quotation into Portuguese so it conveys the exact printed English wording in the target language. Do not substitute a different Bible version or remove the quotation. Preserve original punctuation and verse references in parentheses. Example corrections (replace the English text inside the same HTML elements):\n- “Thine eyes shall see the king in his beauty: they shall behold the land that is very far off” (Isaiah 33:17).  → “Seus olhos verão o rei em sua beleza; eles contemplarão a terra que está muito distante” (Isaías 33:17).\n- “One thing have I desired of the LORD, that will I seek after; that I may dwell in the house of the LORD all the days of my life, to behold the beauty of the LORD, and to inquire in his temple” (Psalm 27:4). → “Uma coisa pedi ao SENHOR, e a buscarei: que eu possa habitar na casa do SENHOR todos os dias da minha vida, para contemplar a beleza do SENHOR e indagar no seu templo” (Salmo 27:4).\n- Apply the same approach for every remaining inline quotation (2 Cor 4:4-6; 1 Cor 13:12; Isa 61:3; Salmo 19:1; Rm 1:20; Apoc 14:2; Sl 48:1-2; Apoc 21:2-3; Hb 12:12; Sl 37:4).  (Keep the verse references in English-scripture format but localized to Portuguese book names as in the examples above.)  \nKeep all translations inside the same paragraph and HTML tags where the English quotations currently appear.",
+        "translation_quote": "Multiple Bible quotations are left in English throughout the translated article (see examples above)."
+      },
+      {
+        "location": "Paragraph under heading \"Por meio da Música e do Som\" (Revelation quotation sentence)",
+        "severity": "major",
+        "source_quote": "\"And I heard a voice from heaven, as the voice of many waters, and as the voice of a great thunder: and I heard the voice of harpers harping with their harps\" … \"the four beasts and twenty elders\" (Revelation paragraph in source).",
+        "suggested_fix": "Correct the numeric alteration: the English source refers to \"twenty elders\" (20). In the Portuguese translation this was rendered as \"vinte e quatro anciãos\" (24), which changes the number. Replace the incorrect Portuguese number with a faithful rendering of the source: e.g., \"as quatro criaturas e os vinte anciãos\" or, more idiomatically, \"as quatro criaturas e os vinte anciãos\", keeping the rest of the sentence intact and translate the surrounding Bible quotation into Portuguese as specified in the other finding. Ensure the book reference and surrounding punctuation remain as in the source.",
+        "translation_quote": "\"Segundo o livro do Apocalipse, o trono de Deus é rodeado por som: trovões e relâmpagos; louvores fluindo dos anjos, das quatro criaturas e dos vinte e quatro anciãos, e da grande multidão...\" (translation contains \"vinte e quatro anciãos\")."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

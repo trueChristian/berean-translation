@@ -2,7 +2,6 @@
   "article_id": "62646d6d-87be-47a6-880f-0ade408a3402",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:44+00:00",
   "events": [
@@ -62,52 +61,44 @@
         },
         "total_tokens": 6220
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1313,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3006,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4319
+      }
     }
   ],
   "findings": [
     {
-      "location": "source.html — paragraph 2 (Psalm quotation)",
-      "severity": "major",
+      "location": "<p>…il Salmista scrisse, «Sia applaudano i fiumi, e tutte le colline esultino insieme davanti al SIGNORE;…» (Psalms 98:8-9)</p>",
+      "severity": "minor",
       "source_quote": "“Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9).",
-      "suggested_fix": "Translate the quoted English verse into standard contemporary Italian while keeping the scripture reference (Psalms 98:8-9) unchanged and preserving the surrounding punctuation and HTML. For example: “«Sia applaudono i fiumi, e tutte le colline esultino insieme davanti al SIGNORE; perché egli viene a giudicare la terra: con giustizia giudicherà il mondo, e i popoli con rettitudine» (Salmi 98:8-9).”",
-      "translation_quote": "“Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9)."
+      "suggested_fix": "Correct the Italian grammar of the translation while preserving the original meaning and the printed-English reference. Replace «Sia applaudano i fiumi, e tutte le colline esultino insieme davanti al SIGNORE;» with «Che applaudano i fiumi e tutte le colline esultino insieme davanti al SIGNORE;» or «Siano applaudano i fiumi e tutte le colline esultino insieme davanti al SIGNORE;». Maintain the (Psalms 98:8-9) citation exactly as in the source.",
+      "translation_quote": "«Sia applaudano i fiumi, e tutte le colline esultino insieme davanti al SIGNORE; perché egli viene a giudicare la terra: con giustizia giudicherà il mondo, e i popoli con rettitudine» (Psalms 98:8-9)."
     },
     {
-      "location": "source.html — paragraph 4 (John 4:14 reference)",
-      "severity": "major",
-      "source_quote": "“well of water springing up into everlasting life” (John 4:14).",
-      "suggested_fix": "Translate the quoted English phrase into Italian, keeping the scripture reference (John 4:14) unchanged and preserving surrounding punctuation. Example: “«pozzo d’acqua che zampilla per vita eterna» (Giovanni 4:14).”",
-      "translation_quote": "“well of water springing up into everlasting life” (John 4:14)."
-    },
-    {
-      "location": "source.html — paragraph 7 (quoted article title and paragraph in English)",
-      "severity": "major",
-      "source_quote": "The writer of the article “How to Increase Your Faith” clearly points this out “Faith is one of the basic ingredients in getting right with God. We come into the Christian life (and receive the forgiveness of sins) through faith. . . We abandon all hope for saving ourselves by our own abilities, and instead, we put complete trust in Jesus Christ for our eternal safety.”",
-      "suggested_fix": "Translate the quoted article title and the quoted English paragraph into Italian, preserving quotation marks and punctuation. Translate the title “How to Increase Your Faith” (e.g., «Come aumentare la tua fede») and the English quoted sentences into idiomatic Italian while keeping the meaning identical to the source. For example: “L’autore dell’articolo «Come aumentare la tua fede» lo evidenzia chiaramente: «La fede è uno degli ingredienti fondamentali per mettersi in regola con Dio. Entriamo nella vita cristiana (e riceviamo il perdono dei peccati) mediante la fede... Abbandoniamo ogni speranza di salvarci con le nostre capacità e invece riponiamo completa fiducia in Gesù Cristo per la nostra salvezza eterna.»”",
-      "translation_quote": "The writer of the article “How to Increase Your Faith” clearly points this out “Faith is one of the basic ingredients in getting right with God. We come into the Christian life (and receive the forgiveness of sins) through faith. . . We abandon all hope for saving ourselves by our own abilities, and instead, we put complete trust in Jesus Christ for our eternal safety.”"
-    },
-    {
-      "location": "source.html — paragraph 10 (Isaiah quotation)",
-      "severity": "major",
-      "source_quote": "“For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11).",
-      "suggested_fix": "Translate the quoted English verse into Italian while keeping the scripture reference (Isaiah 61:11) unchanged and preserving surrounding punctuation. For example: “«Poiché come la terra produce il suo germoglio, e come il giardino fa nascere ciò che vi è seminato, così il Signore DIO farà germogliare la giustizia e la lode davanti a tutte le nazioni» (Isaia 61:11).”",
-      "translation_quote": "“For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11)."
-    },
-    {
-      "location": "source.html — paragraph 1 (\"honk and quack\")",
+      "location": "<p>…Quest'anno le piccole rane corritrici della nostra zona sono state “rane invernali”…</p>",
       "severity": "minor",
-      "source_quote": "\"...Migrating waterfowl bring new sounds as they honk and quack their way to their final nesting places.\"",
-      "suggested_fix": "Correct the verb translation so it conveys the original onomatopoeic sounds. Replace the erroneous \"onorano\" with verbs appropriate to the bird sounds (e.g., \"emettendo fischi e starnazzi\" or \"emettendo schiamazzi e starnazzi\"), keeping the surrounding Italian phrasing. Example revision: \"...Gli anatidi migratori portano nuovi suoni mentre emettono fischi e starnazzi nel loro cammino verso i luoghi di nidificazione finali.\"",
-      "translation_quote": "\"Gli anatidi migratori portano nuovi suoni mentre onorano e starnazzano il loro cammino verso i luoghi di nidificazione finali.\""
-    },
-    {
-      "location": "source.html — paragraph 1 (\"spring peepers\")",
-      "severity": "minor",
-      "source_quote": "\"This year the spring peepers in our area were “winter peepers” as they feebly squeaked their greetings to the arriving spring in mid-February.\"",
-      "suggested_fix": "Adjust the animal identification to the more accurate Italian equivalent (spring peepers are small chorus frogs). Replace \"piccoli grilli primaverili\" with \"piccole rane corritrici\" or \"piccole rane del genere spring peeper\" or the common Italian name if appropriate. Keep the rest of the sentence idiomatic. Example: \"Quest'anno le rane primavera della nostra zona sono state 'rane invernali', mentre cinguettavano debolmente...\"",
-      "translation_quote": "\"Quest'anno i piccoli grilli primaverili della nostra zona sono stati “grilli invernali”, mentre gracchiavano debolmente i loro saluti all'arrivo della primavera a metà febbraio.\""
+      "source_quote": "This year the spring peepers in our area were “winter peepers” as they feebly squeaked their greetings to the arriving spring in mid-February.",
+      "suggested_fix": "Render the common name idiomatically in Italian. Replace «piccole rane corritrici» with a more natural Italian equivalent such as «le spring peepers (piccole rane primaverili)» or «le spring peepers (piccole rane primaverili, dette 'peepers')» to avoid the awkward literal calque. Keep the nuance that they were unusually active in winter (\"sono state “rane invernali\"\"), as in the source.",
+      "translation_quote": "Quest'anno le piccole rane corritrici della nostra zona sono state “rane invernali”, mentre gracchiavano debolmente i loro saluti all'arrivo della primavera a metà febbraio."
     }
   ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "71c663955a48325037f6ba0d67663bc4",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "ita",
@@ -151,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 68,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5455d2cd09d57a9e870ea92c4b7c08c9a0c8a2c68c077d639797bdc8f61c6072.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

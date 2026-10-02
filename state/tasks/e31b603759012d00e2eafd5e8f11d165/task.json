@@ -2,7 +2,6 @@
   "article_id": "fbfb182b-bb05-434f-a664-b74c68153e61",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -62,31 +61,58 @@
         },
         "total_tokens": 8799
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1125,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5189,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6314
+      }
     }
   ],
   "findings": [
     {
-      "location": "<article> <h3>Concepts that contribute to overload</h3> (Part 1, paragraph beginning \"Playing multiple roles...\")",
-      "severity": "major",
-      "source_quote": "Playing multiple roles can be stressful.",
-      "suggested_fix": "Translate the sense of \"stressful\" accurately. For example: \"একাধিক ভূমিকায় থাকা চাপের কারণ হতে পারে।\" (Replace the current sentence while preserving surrounding HTML and tags.)",
-      "translation_quote": "একাধিক ভূমিকায় থাকা উত্তেজনাপূর্ণ হতে পারে।"
+      "location": "<p>For Alice, life is exasperating. Each day feels like an endless grind. ...</p> (opening paragraph of Part 1)",
+      "severity": "minor",
+      "source_quote": "For Alice, life is exasperating. Each day feels like an endless grind.",
+      "suggested_fix": "Use a more natural Bengali phrasing for “exasperating” and “endless grind.” Preserve tags and surrounding HTML. For example: replace the sentence inside the same <p> with: \"অ্যালিসের জন্য জীবন অতীব ক্লান্তিকর। প্রতিটি দিন যেন এক অবিরাম কষ্টের চালচিত্র।\"",
+      "translation_quote": "অ্যালিসের জন্য জীবন অতিভাগে বিরক্তিকর। প্রতিটি দিন যেন এক অবিরাম কসরত।"
     },
     {
-      "location": "<article> <h3>Accept your limits</h3> (Part 1, paragraph beginning \"That means if you are an avid bread maker...\")",
-      "severity": "major",
-      "source_quote": "That means if you are an avid bread maker, it’s all right to toss a few loaves of bread into your shopping cart.",
-      "suggested_fix": "Correct the food item to match the source \"bread\" and use appropriate Bengali wording. For example: \"এর মানে, যদি আপনি রুটি বানাতে উৎসাহী হন, তাহলে আপনার শপিং কার্টে কয়েকটা রুটির লোফ রেখে দেওয়াও ঠিক আছে।\" (Replace the current sentence; preserve HTML tags and surrounding structure.)",
-      "translation_quote": "এর মানে যদি আপনি নাড়ু বানাতে ভালোবাসেন, তাহলে আপনার শপিং কার্টে কয়েকটি লোফ পাউরুটি ছুড়ে দেওয়াও ঠিক আছে।"
+      "location": "<p>Everyone differs when it comes to how much we can handle. ...</p> (end of Part 1)",
+      "severity": "minor",
+      "source_quote": "Everyone differs when it comes to how much we can handle.",
+      "suggested_fix": "Current Bengali reads as if about 'use capacity' rather than personal limits. Preserve tags and replace the sentence with a clearer equivalent, e.g.: \"কতটা সামলাতে পারি তা ব্যক্তিভেদে ভিন্ন।\"",
+      "translation_quote": "ব্যবহার ক্ষমতার কথা প্রতিটি ব্যক্তির ক্ষেত্রে আলাদা।"
     },
     {
-      "location": "",
-      "severity": "major",
-      "source_quote": "...Overload tends to drain our energy, dull our senses, and deaden our joy.",
-      "suggested_fix": "Remove encoding corruption and restore plain Bengali that matches the source. For example: \"...অতিরিক্তভার সাধারণত আমাদের শক্তি চুষে নেয়, আমাদের ইন্দ্রিয়কে鈥�鈥�...\" should be replaced with \"...অতিরিক্তভার সাধারণত আমাদের শক্তি শুষে নেয়, আমাদের ইন্দ্রিয়কে কুন্দ করে এবং আমাদের আনন্দকে মার্জিত করে।\" Preserve HTML tags and paragraph boundaries when making the correction.",
-      "translation_quote": "অতিরিক্তভার আমাদের শক্তি শুষে নেয়, আমাদের ইন্দ্রিয়কে鈥�鈥�鈥�鈥�鈥�鈥�鈥�鈥�鈥�鈥�鈥�鈥�鈥�鈥�鈥�dull করা এবং আমাদের আনন্দকে নিঃসঙ্গ করে দেয়।"
+      "location": "<p>No one can overextend themselves indefinitely. ...</p> (Part 2, paragraph listing symptoms)",
+      "severity": "minor",
+      "source_quote": "Symptoms of overload can include lack of sleep, strained relationships, procrastination, fear of failure, and a susceptible immune system.",
+      "suggested_fix": "Translate 'strained relationships' into Bengali rather than leaving the English word. Preserve tags and replace the fragment with, for example: \"ঘুমের অভাব, টানাপোড়েনপূর্ণ সম্পর্ক, কাজ পিছিয়ে রাখা, ব্যর্থতার ভয়, এবং দুর্বল রোগপ্রতিরোধ ক্ষমতা।\"",
+      "translation_quote": "ঘুমের অভাব, strained সম্পর্ক, কাজ পিছিয়ে রাখা, ব্যর্থতার ভয়, এবং দুর্বল প্রতিরোধ ক্ষমতা।"
+    },
+    {
+      "location": "<p>This is saved me a great deal of stress... (Part 2: Let an idea or request gel before committing) </p>",
+      "severity": "minor",
+      "source_quote": "With practice, you can learn how to pull back before reaching the overload point.",
+      "suggested_fix": "The sentence is correctly translated but a minor wording polish would improve naturalness. Preserve tags and consider: \"চর্চার মাধ্যমে আপনি অতিভারণের সীমায় পৌঁছানোর আগে কিভাবে পিছিয়ে আসতে হয় তা শিখতে পারবেন।\" (optional)",
+      "translation_quote": "চর্চার সঙ্গে, আপনি অতিভারণের সীমায় পৌঁছানোর আগে পিছিয়ে আসা শিখতে পারেন।"
     }
   ],
+  "finished_at": "2026-10-02T00:14:30+00:00",
   "id": "e31b603759012d00e2eafd5e8f11d165",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "ben",
@@ -130,13 +156,13 @@
     }
   },
   "protected": false,
-  "quality_score": 68,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/57473773ac5b1974a223c6159a928ec4b7d4781abd867e42854e5f7e38041953.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

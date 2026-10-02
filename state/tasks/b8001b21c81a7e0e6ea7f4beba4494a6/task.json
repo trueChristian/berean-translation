@@ -2,7 +2,6 @@
   "article_id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -62,31 +61,37 @@
         },
         "total_tokens": 10556
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1396,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 960,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6363,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7759
+      }
     }
   ],
   "findings": [
     {
-      "location": "<p>…He stopped to think, and his crying quit. “Then why am I here? \" he wondered. “Have I done something wrong? God must not love little children. That song is not true! If God loved me I would not be here!\" With that conclusion, he burst into tears and lost hope in God. He woke the next morning, still hidden behind the door.</p>",
-      "severity": "major",
-      "source_quote": "“Jesus loves the little children, all the children of the world.”",
-      "suggested_fix": "Translate the quoted hymn line into Italian (conveying the exact printed English sentence) and keep it inside the same paragraph and punctuation. Example replacement (preserving tags): “Gesù ama i bambini, tutti i bambini del mondo.”",
-      "translation_quote": "“Jesus loves the little children, all the children of the world.”"
-    },
-    {
-      "location": "<p>L’odore persistente di fumo … “Cosa ne pensi, Josh?” chiesi al mio fedele, silenzioso amico.</p>\n  <p>“Non lo so,” rispose, e ricadiamo nel silenzio angosciato per l’esito del nostro presunto studio biblico, cercando una spiegazione per la terribile reazione.</p>",
+      "location": "<p>Quella sera, Ken si rannicchiò nel suo grande, strano letto, già singhiozzando nella solitudine, quando sentì la madre urlare. Saltò giù dal letto e, con le gambe tremanti, si nascose dietro la porta. Lei salì le scale sbraitando furiosamente, e Ken era certo che avrebbe avuto guai. Con sollievo, lei proseguì lungo il corridoio. Era ancora troppo spaventato per lasciare il suo nascondiglio per timore di ricevere una sculacciata. Si asciugò le lacrime mentre cominciava a cantare sottovoce una canzone che aveva sentito alla scuola domenicale: “Gesù ama i bambini, tutti i bambini del mondo.” Si fermò a riflettere, e il pianto cessò. “Allora perché sono qui?” si chiese. “Ho forse fatto qualcosa di sbagliato? Dio non ama i bambini. Quella canzone non è vera! Se Dio mi amasse non sarei qui!” Con quella conclusione scoppiò in lacrime e perse la speranza in Dio. Si svegliò la mattina dopo, ancora nascosto dietro la porta.</p>",
       "severity": "minor",
-      "source_quote": "“I don’t know, \" he responded, and we fell back into silent anguish at the outcome of our supposed Bible study, grasping for an explanation for the terrible response.",
-      "suggested_fix": "Keep past tense to match the source narrative. Replace \"ricadiamo\" with past tense \"ricademmo\" (or \"siamo ricaduti\" depending on register) while preserving surrounding punctuation and tags. Example: “Non lo so,” rispose, e ricademmo nel silenzio angosciato per l’esito del nostro presunto studio biblico...",
-      "translation_quote": "“Non lo so,” rispose, e ricadiamo nel silenzio angosciato per l’esito del nostro presunto studio biblico, cercando una spiegazione per la terribile reazione."
-    },
-    {
-      "location": "<p>Fratelli cristiani, aprite le vostre vite all’opera di Dio. … Amate fino a che non fa così male che non sapete più cosa fare, e allora volgente a Gesù, che è lì per aiutarvi.</p>",
-      "severity": "minor",
-      "source_quote": "Love until it hurts so badly that you don’t know what to do, and then turn to Jesus, who is there to help you through.",
-      "suggested_fix": "Correct the verb form and spelling to an imperative addressing the reader. Replace \"volgente a Gesù\" with \"volgetevi a Gesù\" (or \"rivolgetevi a Gesù\") to match the source meaning, preserving the paragraph tags. Example: \"...e allora rivolgetevi a Gesù, che è lì per aiutarvi.\"",
-      "translation_quote": "Amate fino a che non fa così male che non sapete più cosa fare, e allora volgente a Gesù, che è lì per aiutarvi."
+      "source_quote": "He was still too scared to leave his hiding place for fear of receiving a beating.",
+      "suggested_fix": "In questo paragrafo la resa italiana usa «sculacciata», che è meno forte e coerente rispetto all’uso precedente di «percosse». Per preservare il tono e la coerenza lessicale, sostituire «per timore di ricevere una sculacciata» con «per timore di subire percosse». Mantieni invariati i tag HTML.",
+      "translation_quote": "Era ancora troppo spaventato per lasciare il suo nascondiglio per timore di ricevere una sculacciata."
     }
   ],
+  "finished_at": "2026-10-02T00:14:30+00:00",
   "id": "b8001b21c81a7e0e6ea7f4beba4494a6",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "ita",
@@ -130,13 +135,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0c059a0312fc4bb7c1d9113fe70aaa013f3daaefdb55449ee68204bcbaa1c79e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

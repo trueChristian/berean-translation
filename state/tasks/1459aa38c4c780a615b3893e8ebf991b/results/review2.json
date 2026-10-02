@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "619096f6-33bf-4ec2-a9ff-c8ad81693150",
+    "response_id": "chatcmpl-EUL9xfFX2YUlQGOe2aoxUDFC7C4Dt",
+    "usage": {
+      "completion_tokens": 1024,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1565,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2589
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Divine Redeemer, Thee I bless;<br>\n    I greet Thy going forth;<br>\n    I love Thee in the loveliness<br>\n    Of Thy renewed earth.</p>",
+        "severity": "minor",
+        "source_quote": "I greet Thy going forth;",
+        "suggested_fix": "Preserve the sense of 'going forth' more idiomatically in Indonesian. Suggest: \"Aku menyambut keluarnya-Mu;\" or better, to sound natural and retain the archaic/poetic tone, \"Aku menyambut keluarmu itu;\" or \"Aku menyambut keluarmu, wahai Penebus.\" Keep punctuation and tags unchanged.",
+        "translation_quote": "Aku menyambut keluarmu;"
+      },
+      {
+        "location": "<p>And fragrancy of prayer!</p>",
+        "severity": "minor",
+        "source_quote": "And fragrancy of prayer!",
+        "suggested_fix": "Use a more natural Indonesian rendering of 'fragrancy' to convey the poetic image. Suggest: \"Dan keharuman doa!\" or \"Dan harumnya doa!\" Preserve the HTML paragraph and line-break tags.",
+        "translation_quote": "Dan harum doa!"
+      },
+      {
+        "location": "<p>Creator Spirit, work in me<br>\n    These wonders sweet of Thine;<br>\n    Divine Redeemer, graciously<br>\n    Renew this heart of mine.</p>",
+        "severity": "minor",
+        "source_quote": "Creator Spirit, work in me",
+        "suggested_fix": "Add an Indonesian imperative particle to match the English imperative tone. Suggest: \"Roh Pencipta, kerjakanlah dalam diriku\" (keeping other lines and tags unchanged).",
+        "translation_quote": "Roh Pencipta, kerjakan dalam diriku"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

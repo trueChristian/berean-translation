@@ -2,7 +2,6 @@
   "article_id": "e848a36d-36eb-4f7d-aea7-e17ab34a8870",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -62,38 +61,52 @@
         },
         "total_tokens": 15188
       }
-    }
-  ],
-  "findings": [
-    {
-      "location": "<p>Predikaren 12:1-7 ...</p> (Demens i Bibeln section)",
-      "severity": "critical",
-      "source_quote": "“Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”",
-      "suggested_fix": "Translate this quoted Ecclesiastes passage so it accurately conveys the exact printed English wording in Swedish and replace the English block inside the existing <p> element. Preserve the existing HTML tags and punctuation. For example, replace the English text between the paragraph tags with a Swedish rendering that mirrors the English wording and keeps the quotation marks and punctuation intact.",
-      "translation_quote": "“Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them; While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain: In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened, And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low; Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets: Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern. Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”"
     },
     {
-      "location": "<p>“And thou shalt teach them diligently unto thy children... (Deuteronomy 6:7)</p>",
-      "severity": "critical",
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1369,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9048,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10417
+      }
+    }
+  ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "findings": [
+    {
+      "location": "<p> (Demens i Bibeln section, paragraph after Ecclesiastes quote)",
+      "severity": "major",
+      "source_quote": "What is certain is that the passage begins with a command: “Remember!”",
+      "suggested_fix": "Translate the sentence and the quoted command into Swedish, preserving the paragraph tag. For example, replace the current paragraph text with: \"Det som är säkert är att avsnittet börjar med en befallning: »Kom ihåg!«\" (keep the same <p> wrapper and its class/attributes).",
+      "translation_quote": "Det som är säkert är att avsnittet börjar med en befallning: “Remember!”"
+    },
+    {
+      "location": "<p> (Demens i Bibeln section, Deuteronomy quotation paragraph)",
+      "severity": "major",
       "source_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7).",
-      "suggested_fix": "Translate the Deuteronomy 6:7 quotation so it accurately conveys the exact printed English wording into Swedish and replace the English phrase inside the existing <p> element, preserving the parenthetical reference “(Deuteronomy 6:7)” and all HTML tags.",
+      "suggested_fix": "Translate the English quotation into Swedish in place, preserving the original HTML paragraph. Suggested Swedish rendering consistent with the rest of the translation: \"’Du skall lägga dem på ditt hjärta och ge dem akt, och du skall undervisa dem omsorgsfullt åt dina barn och tala om dem när du sitter i ditt hus och när du går på vägen, när du lägger dig ner och när du står upp.’ (5 Mosebok 6:7).\" Keep the same <p> wrapper and the parenthetical Scripture reference.",
       "translation_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7)."
     },
     {
-      "location": "<p>“But the fruit of the Spirit is love, joy, peace... (Galatians 5:22-23).” (Conclusion section)",
-      "severity": "critical",
-      "source_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23).",
-      "suggested_fix": "Translate this Galatians quotation so it accurately conveys the exact printed English wording into Swedish and replace the English text inside the existing <p> element. Keep the parenthetical reference “(Galatians 5:22-23)” and the current HTML structure intact.",
-      "translation_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23)."
-    },
-    {
-      "location": "<p>“His wife of 48 years... ”</p> (early narrative paragraph)",
-      "severity": "major",
-      "source_quote": "We moved on to talking about other things, but I could tell that Al’s heart was breaking. His wife of 48 years looked the same as ever on the outside and yet, she was a completely different person.",
-      "suggested_fix": "Correct the Swedish phrasing so it preserves the intended meaning that they had been married for 48 years. Replace “Hans fru på 48 år” with a phrase such as “hans fru i 48 år” or “hans fru sedan 48 år tillbaka” inside the same <p> element, preserving HTML tags and order.",
-      "translation_quote": "Hans fru på 48 år såg likadan ut som alltid utvändigt och ändå var hon en helt annan person."
+      "location": "<p> (Conclusion section, parenthetical Scripture reference)",
+      "severity": "minor",
+      "source_quote": "(Galatians 5:22-23)",
+      "suggested_fix": "Localize the book name in the parenthetical reference to Swedish to match the rest of the translation (while preserving the numeric reference). For example use: \"(Galaterbrevet 5:22–23)\". Keep the same parentheses and placement inside the existing <p> tag.",
+      "translation_quote": "(Galatians 5:22-23)"
     }
   ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "543f232654088f8c67ea1c52beae8e4e",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "swe",
@@ -137,13 +150,13 @@
     }
   },
   "protected": false,
-  "quality_score": 62,
+  "quality_score": 82,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/43cc3e5c6f701952f74f3d1ad1d881f79bc1975344ec41e066e1a331f0a6a602.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

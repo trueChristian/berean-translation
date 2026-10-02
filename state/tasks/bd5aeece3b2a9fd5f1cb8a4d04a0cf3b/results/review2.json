@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b53f4a14-68f1-4ff7-8928-0593802cbfee",
+    "response_id": "chatcmpl-EUL9oMiL64fEKUNrXtsDiinLVwwPa",
+    "usage": {
+      "completion_tokens": 1860,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9800,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11660
+    }
+  },
+  "received_at": "2026-10-02T00:14:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “अब अपने स्रष्टा को अपने बाल्यकाल के दिनों में याद कर, ...</p>",
+        "severity": "major",
+        "source_quote": "\"Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “Remember now thy Creator in the days of thy youth... Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”\"",
+        "suggested_fix": "Replace the translated Hindi rendition of the Ecclesiastes quotation with the exact English text as in the authoritative source. The paragraph should reproduce the source English quotation verbatim (including the opening English sentence and the quoted KJV passage) and preserve surrounding HTML tags and structure.",
+        "translation_quote": "\"Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process. “अब अपने स्रष्टा को अपने बाल्यकाल के दिनों में याद कर, जब तक विपत्तिपूर्ण दिन न आएँ... तब धूल उसी प्रकार पृथ्वी को लौटेगी जैसी वह थी: और आत्मा उसी परमेश्वर के पास लौटेगी जिसने उसे दी।”\""
+      },
+      {
+        "location": "<p>“और तू उन्हें अपने पुत्रों को मन से पढ़ाएगा, ...” (Deuteronomy 6:7).</p>",
+        "severity": "major",
+        "source_quote": "\"And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up\" (Deuteronomy 6:7).",
+        "suggested_fix": "Restore the Deuteronomy quotation to the exact English wording used in the authoritative source. Replace the Hindi translation of the Bible quotation with the original English quotation, keeping the parenthetical reference (Deuteronomy 6:7) as in the source. Preserve the existing HTML tags and order.",
+        "translation_quote": "\"“और तू उन्हें अपने पुत्रों को मन से पढ़ाएगा, और जब तू अपने घर में बैठे तब उन पर बात करेगा, और जब तू मार्ग पर चलेगा तब भी, और जब तू लेटेगा तब भी, और जब तू उठेगा तब भी।” (Deuteronomy 6:7).\""
+      },
+      {
+        "location": "<p>“परन्तु आत्मा का फल प्रेम, आनंद, शान्ति, दीर्घधैर्य, कोमलता, भलाई, विश्वास, नम्रता, संयम है: इन चीज़ों के विरुद्ध कोई नियम नहीं है।” (Galatians 5:22-23).</p>",
+        "severity": "major",
+        "source_quote": "\"But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law\" (Galatians 5:22-23).",
+        "suggested_fix": "Replace the Hindi translation of the Galatians quotation with the exact English quotation as printed in the authoritative source. Keep the parenthetical reference (Galatians 5:22-23) and preserve the HTML paragraph tags and placement.",
+        "translation_quote": "\"“परन्तु आत्मा का फल प्रेम, आनंद, शान्ति, दीर्घधैर्य, कोमलता, भलाई, विश्वास, नम्रता, संयम है: इन चीज़ों के विरुद्ध कोई नियम नहीं है।” (Galatians 5:22-23).\""
+      },
+      {
+        "location": "<p>Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process.</p>",
+        "severity": "minor",
+        "source_quote": "\"Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process.\"",
+        "suggested_fix": "The initial clause 'Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process.' was left in English in the translated article. Either render this short introductory sentence into natural Hindi (while still keeping the Bible quotation in English as required), or keep it in English only if site style requires untranslated book references. Suggested Hindi rendering: \"सभोपदेशक 12:1-7 बुढ़ापे की प्रक्रिया के बारे में एक कुछ निराशाजनक दृष्टि देता है।\" Preserve the surrounding HTML tags.",
+        "translation_quote": "\"Ecclesiastes 12:1-7 gives a somewhat dismal view of the aging process.\""
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

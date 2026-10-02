@@ -2,7 +2,6 @@
   "article_id": "cdb88be0-93b0-4362-bc3b-1488aff1a76f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:46+00:00",
   "events": [
@@ -62,45 +61,66 @@
         },
         "total_tokens": 3443
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 2069,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1152,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1558,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3627
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "<div class=\"poem\"> stanza 4, line 3",
+      "location": "<div class=\"poem\"> stanza 2 (lines 2–4)",
+      "severity": "minor",
+      "source_quote": "Divine Redeemer, Thee I bless;\nI greet Thy going forth;\nI love Thee in the loveliness\nOf Thy renewed earth.",
+      "suggested_fix": "Preserve the direct address and natural Hebrew idiom: replace the three lines inside the <p> with: \"גואל אלוהי, אני מברך אותך; אני מברך את צאתך; אני אוהב אותך ביופיה של אדמתך המתחדשת.\" (If you prefer more natural Hebrew for \"I greet Thy going forth\": \"אני מקבל את צאתך בברכה\".)",
+      "translation_quote": "גואל אלוהי, אני מברך אותך;\nאני מברך את יציאתך;\nאני אוהב אותך ביופיה של אדמתך המתחדשת."
+    },
+    {
+      "location": "<div class=\"poem\"> stanza 3 (line 3)",
+      "severity": "minor",
+      "source_quote": "These marvels sweeter far to trace,",
+      "suggested_fix": "\"sweeter far to trace\" should be rendered idiomatically. Suggested Hebrew: \"אלה פלאים יותר מתוקים לעקוב אחריהם\" or better: \"אלה פלאים המתוקים כל־כך לגלותם\". Replace the phrase to avoid the literal and awkward \"למעקב.\"",
+      "translation_quote": "פלאים שהם מתוקים יותר למעקב"
+    },
+    {
+      "location": "<div class=\"poem\"> stanza 4 (lines 1–4)</p>",
+      "severity": "minor",
+      "source_quote": "This new-born glow of faith so strong,\nThis bloom of love so fair,\nThis new-born ecstasy of song,\nAnd fragrancy of prayer!",
+      "suggested_fix": "Improve idiomatic and grammatical Hebrew. Suggested rendering: \"זהו זוהר אמונה שנולד מחדש, כה עז; פריחת אהבה כה יפה; אופוריה שירית שנולדה; וניחוח התפילה!\" or \"זה הזוהר החדש של אמונה כה חזקה; פרח האהבה כה נאה; התלהבות שירית שנולדה; וניחוח תפילה!\" Replace the current lines to correct grammar and natural phrasing.",
+      "translation_quote": "זהו הזוהר החדש של אמונה כה חזקה,\nזה פרח האהבה כה נאה,\nזו התלהבות השיר שנולדה,\nוניחוח התפילה!"
+    },
+    {
+      "location": "<div class=\"poem\"> stanza 5 (lines 1–4)",
       "severity": "major",
-      "source_quote": "This new-born ecstasy of song,",
-      "suggested_fix": "Replace the phrase with a translation that keeps \"song\" as the domain of the ecstasy. Example: \"התלהבות שיר חדשה,\" or more idiomatically \"התלהבות השיר החדש\" (preserving noun 'song' rather than inserting 'creation'). Keep original HTML structure and tags.",
-      "translation_quote": "זה התלהבות היצירה בשיר החדש,"
+      "source_quote": "Creator Spirit, work in me\nThese wonders sweet of Thine;\nDivine Redeemer, graciously\nRenew this heart of mine.",
+      "suggested_fix": "This stanza contains grammatical and word-choice errors and an added word that changes the phrasing. Do not add the extra noun \"חסד.\" Preserve the imperative to the Spirit and the plea to the Redeemer. Suggested correction (preserving line breaks and HTML): \"רוח היוצר, פעל/פעלי בי את הנפלאות המתוקות האלה ששלך; גואל אלוהי, ברחמיך חֲדֵשׁ/חָדְשִׁי לבי הזה.\" (Use \"פעל בי\" or feminine/imperative agreement if desired; \"ברחמיך חֲדֵשׁ לבי\" keeps the intended sense without inserting \"חסד\"). Replace the current stanza accordingly.",
+      "translation_quote": "רוח היוצר, עבוד בי\nאת הנפלאות המתוקות הללו שלך;\nגואל אלוהי, ברחמיך חסד\nחדש את לבי הזה."
     },
     {
-      "location": "<div class=\"poem\"> stanza 5, line 2-3",
-      "severity": "major",
-      "source_quote": "Divine Redeemer, graciously\nRenew this heart of mine.",
-      "suggested_fix": "Render the plea as a request to renew the heart rather than to 'bless'. Example: \"גואל אלוהי, ברחמיך חסד\nחדש את לבי הזה.\" or \"גואל אלוהי, ברוח רחמזך חנני וחדש את לבי.\" Preserve the original vocative order and HTML tags.",
-      "translation_quote": "גואל אלוהי, ברך בחסד\nוחדש לב זה שלי."
-    },
-    {
-      "location": "<div class=\"poem\"> stanza 2, line 2",
+      "location": "<figure> <img alt>",
       "severity": "minor",
-      "source_quote": "I greet Thy going forth;",
-      "suggested_fix": "Use a more natural Hebrew rendering for 'I greet Thy going forth' that preserves the sense of welcoming the Redeemer's coming, e.g. \"אני מברך את יציאתך\" or \"אני מקדם את צאתך\" rather than \"אני מקבל את צאתך\". Keep HTML tags as in source.",
-      "translation_quote": "אני מקבל את צאתך;"
-    },
-    {
-      "location": "<div class=\"poem\"> stanza 1, line 2",
-      "severity": "minor",
-      "source_quote": "The newborn life, how glad!",
-      "suggested_fix": "Prefer singular/collective rendering closer to the English singular 'life' (\"החיים שנולדו\" is plural). Suggest: \"החיים שנולדו, כמה עליזים/עליזה!\" or better: \"החיים החדשים, כמה עליזים!\" Adjust gender/number to match Hebrew idiom while keeping meaning.",
-      "translation_quote": "החיים שנולדו, כמה עליזים!"
-    },
-    {
-      "location": "<div class=\"poem\"> stanza 2, line 4",
-      "severity": "minor",
-      "source_quote": "I love Thee in the loveliness\nOf Thy renewed earth.",
-      "suggested_fix": "Avoid adding 'מתוק' or changing 'earth' to 'world'. Suggested: \"אני אוהב אותך ביופיה של אדמתך המתחדשת.\" or \"אני אוהב אותך ביופיו של עולמך המתחדש\" only if 'world' intended; prefer 'אדמתך' to match 'earth'. Preserve tags.",
-      "translation_quote": "אני אוהב אותך ביופיו המתוק של עולמך המתחדש."
+      "source_quote": "alt=\"White orchids with purple centers\"",
+      "suggested_fix": "Alt text is correct but for natural Hebrew idiom consider plural agreement: \"סחלבים לבנים עם מרכזים סגולים\" if the image shows multiple orchids. If a single orchid, keep singular: \"סחלב לבן עם מרכזים סגולים.\"",
+      "translation_quote": "alt=\"סחלב לבן עם מרכזים סגולים\""
     }
   ],
+  "finished_at": "2026-10-02T00:14:30+00:00",
   "id": "e4758afefaef20125f0b3a727a46948a",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "heb",
@@ -144,13 +164,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/77e936fd3992ec154fecd4e753dcaf1c210f965f21cd72ac0e78032ca820afc1.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "15ac9c1b97edbe073ae811f5fd305d02a68542aeb9f44f03ca5e9732f904625a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

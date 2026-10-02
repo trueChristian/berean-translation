@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c55e1a49-ed16-43e6-ad3b-eb54deadebbe",
+    "response_id": "chatcmpl-EULA7fa0lvg6T2Ama1dAQep7XgQRz",
+    "usage": {
+      "completion_tokens": 2409,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7985,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10394
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p> paragraph after drop-cap (scripture list)",
+        "severity": "critical",
+        "source_quote": "“That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”",
+        "suggested_fix": "Translate the quoted English Scripture/quotation strings into Arabic while preserving the original English sense as printed in the source. For example, inside the same <p> tag replace the English quotations with Arabic renderings that mirror the source wording, and keep the parenthetical verse references unchanged. Do not remove or change the HTML tag structure. Example replacements (keep exact punctuation as in source): «لكي تميزوا الأشياء التي هي أفضل؛ لكي تكونوا مخلصين (طاهرين) وبلا عثرة إلى يوم المسيح» (Philippians 1:10). «فكروا في الأشياء الطاهرة» (Philippians 4:8). «احفظ نفسك طاهراً» (1Timothy 5:22). «الطاهرون القلب يُبصرون الله.» (Revelation 19). «من الذي يبصر الله؟» «الذي له يدايان طاهرتان وقلب طاهر.» (Psalm 24:3-4).",
+        "translation_quote": "«لكي تميّزوا الأشياء التي هي أفضل؛ لكي تكونوا مخلصين (أمناء) وبلا عثرة إلى يوم المسيح» (Philippians 1:10). «فكروا في الأشياء الطاهرة» (Philippians 4:8). «احفظ نفسك طاهرًا» (1Timothy 5:22). Revelation 19 says «The pure in heart shall see God.» Psalm 24:3-4 asks «Who shall see God?» The answer is «he that hath clean hands and a pure heart.»"
+      },
+      {
+        "location": "Paragraph containing I John 1:6",
+        "severity": "critical",
+        "source_quote": "I John 1:6 says, “if we say that we have fellowship with Him and walk in darkness (light on the outside and darkness on the inside), we lie and do not practice the truth.”",
+        "suggested_fix": "Translate the quoted Scripture text into Arabic to reflect the English wording used in the source while keeping the verse reference intact. Preserve the <p> tag exactly. Suggested replacement: «1 يوحنا 1:6 يقول: 'إن قلنا إن لنا شركة معه وسرنا في الظلمة (نور خارجي وظلمة داخليّة)، نكذب ولا نعمل الحق.'»",
+        "translation_quote": "I John 1:6 says, «if we say that we have fellowship with Him and walk in darkness (light on the outside and darkness on the inside), we lie and do not practice the truth.»"
+      },
+      {
+        "location": "Paragraph describing John 10:10 and Satan",
+        "severity": "major",
+        "source_quote": "In John 10:10, Jesus said, “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy” all godly relationships.",
+        "suggested_fix": "Translate the quoted clause fully into Arabic, keeping the verse reference. Preserve the same HTML <p> tag. For example: «في يوحنا 10:10 قال يسوع: 'إِنَّ السَّارِقَ لاَ يَأْتِي إِلاَّ لِيَسْرِقَ وَيَقْتُلَ وَيُهْلِكَ.'» Then continue the explanatory sentence in Arabic mirroring the English source. Do not leave the quoted clause in English.",
+        "translation_quote": "في يوحنا 10:10 قال يسوع، «the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy» all godly relationships."
+      },
+      {
+        "location": "Paragraph with Hebrews 4:13 and Numbers 32:23",
+        "severity": "critical",
+        "source_quote": "Hebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).” How can we be so naive and foolish to think we can hide anything from God? Or take it a step further: Why would we want to hide something from Him? Numbers 32:23 is still very true, saying, “Be sure your sin will find you out.”",
+        "suggested_fix": "Translate the quoted Scripture texts into Arabic consistent with the source English wording, keeping the verse references unchanged. Preserve the HTML structure of the <p> tag. Example replacements: «العبرانيين 4:13 يقول: 'ولا يوجد مخلوق غير ظاهر أمامه، بل كل شيء عريان ومكشوف لأعين الذي لنا أن نُجَبْ عنه.'» and «العدد 32:23 يقول: 'فتأكد أن خطيئتك ستجدك.'» Ensure the translation does not leave the English quotations in place.",
+        "translation_quote": "يبدو أننا ننسى بسهولة مدى عبثية محاولة الاختباء من الله. Hebrews 4:13 says, «Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).» How can we be so naive and foolish to think we can hide anything from God? Or take it a step further: Why would we want to hide something from Him? Numbers 32:23 is still very true, saying, «Be sure your sin will find you out.»"
+      },
+      {
+        "location": "Section 'Be Humble.' paragraph (James 5 / I Peter 5:5)",
+        "severity": "major",
+        "source_quote": "<strong>Be Humble.</strong> James 5 says, “Confess your faults one to another that ye may be healed.” It takes humility and brokenness to acknowledge our needs, but brokenness is the key to victory. I Peter 5:5 tells us that God gives grace to the humble. One of the most comprehensive definitions of grace is unmerited divine assistance given to humans for regeneration and sanctification. Regeneration is 'redeeming grace,' and sanctification is 'transforming grace.' The truth of this is that God gives 'transforming grace' to the humble. This grace changes us from the inside out making us holy. This aspect of grace must be desired and sought after as much as redeeming grace was when God saved us. This is probably the single most important step in overcoming addictions of any kind. Be humble enough to make it a daily prayer to God for His transforming grace. Jesus taught in Matthew 23:26, where He said, \"First clean the inside of the cup, so that the outside may be clean also.\"",
+        "suggested_fix": "The paragraph contains long stretches left in English (explanatory theological statements and Scripture quotation in English). Translate all remaining English sentences into Arabic, preserving theological nuance and the original author's assertions (do not alter theology). Keep the <p> and <strong> tags and any verse references intact. For example, render the theological definitions and statements in Arabic consistent with the English source and translate the Matthew 23:26 quotation into Arabic while preserving its quoted sense and punctuation.",
+        "translation_quote": "<strong>كُن متواضعًا.</strong> «Confess your faults one to another that ye may be healed.» (James 5) يتطلب الاعتراف باحتياجاتنا تواضعًا وتحطيمًا، لكن التحطيم هو مفتاح النصر. I Peter 5:5 tells us that God gives grace to the humble. One of the most comprehensive definitions of grace is unmerited divine assistance given to humans for regeneration and sanctification. Regeneration is 'redeeming grace,' and sanctification is 'transforming grace.' The truth of this is that God gives 'transforming grace' to the humble. This grace changes us from the inside out making us holy. This aspect of grace must be desired and sought after as much as redeeming grace was when God saved us. This is probably the single most important step in overcoming addictions of any kind. Be humble enough to make it a daily prayer to God for His transforming grace. Jesus taught in Matthew 23:26, where He said, \"First clean the inside of the cup, so that the outside may be clean also.\""
+      }
+    ],
+    "passed": false,
+    "score": 52
+  }
+}

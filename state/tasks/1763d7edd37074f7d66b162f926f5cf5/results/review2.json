@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c9c61c57-4f1d-4a87-a020-ee37a8240b00",
+    "response_id": "chatcmpl-EUL9yi92O4z7c9g8OAx1XnmsAdcMK",
+    "usage": {
+      "completion_tokens": 1180,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1614,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2794
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"><p> (second stanza, first two lines)",
+        "severity": "major",
+        "source_quote": "Divine Redeemer, Thee I bless;\nI greet Thy going forth;",
+        "suggested_fix": "Preserve the sense of \"going forth\" (i.e., Thy departure/going out) rather than translating it as \"arrival.\" For example: \"اے الٰہی فدائندہ، تجھے میں برکت دیتا/دیتی ہوں؛ میں تیری رفتگی/رخصتی کا استقبال کرتا/کرتی ہوں؛\" — or choose a single gender form and keep the word for 'going forth' as رفتگی/رخصتی (not آمد). Keep the original HTML structure and line breaks.",
+        "translation_quote": "اے الٰہی فدائندہ، تجھے میں برکت دیتا/دیتی ہوں؛\nمیں تیری آمد کا استقبال کرتا/کرتی ہوں؛"
+      },
+      {
+        "location": "<figure><img alt=\"...\">",
+        "severity": "minor",
+        "source_quote": "<img src=\"/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg\" alt=\"White orchids with purple centers\">",
+        "suggested_fix": "Correct the Urdu alt text to a natural, accurate rendering of the English. For example: alt=\"بنفشی مرکز والے سفید آرکَڈ\" or alt=\"سفید آرکِڈ جن کے مرکز بنفشی ہیں\". Preserve the img tag and other attributes.",
+        "translation_quote": "<img src=\"/images/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f-1.jpg\" alt=\"بیلے کے سفید آرکِڈ جن کے مرکز بنفشی ہیں\">"
+      },
+      {
+        "location": "<div class=\"poem\"><p> (throughout poem)</severity>",
+        "severity": "minor",
+        "source_quote": "(poem uses first‑person lines like \"Thee I bless; I greet Thy going forth; I love Thee...\")",
+        "suggested_fix": "Pick and use a single grammatical gender for the speaker throughout (masculine or feminine) rather than giving both forms with slashes. For example: \"...تَجھے میں برکت دیتا ہوں؛ میں تیری رفتگی کا استقبال کرتا ہوں؛ ... میں تجھ سے محبت کرتا ہوں۔\" or use feminine consistently. Keep the HTML unchanged except for replacing the dual forms with the chosen single forms.",
+        "translation_quote": "اے الٰہی فدائندہ، تجھے میں برکت دیتا/دیتی ہوں؛\nمیں تیری آمد کا استقبال کرتا/کرتی ہوں؛\n...\nمیں تجھ سے محبت کرتا/کرتی ہوں۔"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

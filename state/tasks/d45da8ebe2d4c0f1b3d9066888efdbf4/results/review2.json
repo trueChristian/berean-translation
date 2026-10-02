@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "86e99cb7-a3b3-4855-a031-d1cba13dea0e",
+    "response_id": "chatcmpl-EULAPbTSCtuIAdMzHTfuP6uEc4xca",
+    "usage": {
+      "completion_tokens": 843,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7026,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7869
+    }
+  },
+  "received_at": "2026-10-02T00:14:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<figure> (first image) — img alt attribute",
+        "severity": "minor",
+        "source_quote": "alt=\"An urban storefront with a red door and a streetlamp\"",
+        "suggested_fix": "Change the translated alt text to a natural Bengali rendering while preserving the img tag and its attributes. Example replacement: alt=\"একটি শহুরে দোকানের সামনে লাল দরজা এবং একটি রাস্তার বাতি\"",
+        "translation_quote": "alt=\"একটি শহুরে দোকানের সামনে লাল দরজা এবং রাস্তার পশলকতর আলো\""
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "059a6ed4-5384-4e92-8c7f-208b50a28d89",
+    "response_id": "chatcmpl-EULAXKp4QleZNDUU7cZm6drl1k5pA",
+    "usage": {
+      "completion_tokens": 963,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8682,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9645
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>De meest voorkomende oorzaak van dementie is demente Alzheimer — minstens 70 procent van de mensen met progressief geheugenverlies heeft Alzheimerdementie.</p>",
+        "severity": "minor",
+        "source_quote": "The most common cause of dementia is Alzheimer’s dementia – at least 70 percent of people who have progressive memory loss have Alzheimer’s dementia.",
+        "suggested_fix": "Render the phrase so the noun and modifier ordering in Dutch reads naturally and matches the source meaning. For example, change “demente Alzheimer” to “Alzheimerdementie” or “de ziekte van Alzheimer (Alzheimerdementie)” while preserving the sentence structure and statistic.",
+        "translation_quote": "De meest voorkomende oorzaak van dementie is demente Alzheimer — minstens 70 procent van de mensen met progressief geheugenverlies heeft Alzheimerdementie."
+      },
+      {
+        "location": "<p>“En gij zult ze nauwkeurig onderrichten uw kinderen, en van hen spreken, wanneer gij zit in uw huis, en wanneer gij wandelt op den weg, en wanneer gij gaat liggen, en wanneer gij opstaat” (Deuteronomy 6:7).</p>",
+        "severity": "minor",
+        "source_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7).",
+        "suggested_fix": "The Dutch translation of the verse is acceptable, but the Bible-book name in the parenthetical remains the English form “Deuteronomy.” For consistency with Dutch text, consider using the Dutch book name (Deuteronomium) only if that matches the publication's style. If the site keeps original English book names, no change is needed.",
+        "translation_quote": "“En gij zult ze nauwkeurig onderrichten uw kinderen, en van hen spreken, wanneer gij zit in uw huis, en wanneer gij wandelt op den weg, en wanneer gij gaat liggen, en wanneer gij opstaat” (Deuteronomy 6:7)."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -6,9 +6,32 @@
       "campaign": "gh-36911235156",
       "event": "requested",
       "task": "f38f50bc98684600b8213e20fad26463"
+    },
+    {
+      "at": "2026-10-02T00:14:30+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "f38f50bc98684600b8213e20fad26463"
     }
   ],
   "language": "nob",
   "latest_task": "f38f50bc98684600b8213e20fad26463",
-  "published": null
+  "published": {
+    "html_path": "content/nob/articles/45c612ff-1966-4079-9ba5-09ab022917ea.html",
+    "html_sha256": "103321d74b861d5fd2fb920121f96bc1e7aa4e31fdcdf1aff34b9b1e88d22705",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+    "metadata_path": "content/nob/articles/45c612ff-1966-4079-9ba5-09ab022917ea.json",
+    "metadata_sha256": "f78ebac44c7b5cf66d3d69e3906fca62bd09669d267e256f83dd2167fb3515ce",
+    "model": "gpt-5-mini-2025-08-07",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"nb\" dir=\"ltr\" role=\"note\">\n  <p>Denne artikkelen er oversatt med kunstig intelligens fra OpenAI (modell: gpt-5-mini-2025-08-07) og er ennå ikke gjennomgått av et menneske. Den engelske originalen er den autoritative versjonen. Ved tvil om meningen, se den engelske originalen. <a href=\"/en/articles/45c612ff-1966-4079-9ba5-09ab022917ea/\" data-source-article-id=\"45c612ff-1966-4079-9ba5-09ab022917ea\" hreflang=\"en\">Engelsk original</a></p>\n</aside>",
+    "published_at": "2026-10-02T00:14:30+00:00",
+    "quality_score": 97,
+    "review_model": "gpt-5-mini-2025-08-07",
+    "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+    "source_snapshot": "state/sources/8ff6615d88d56d991342498ce45e0382ed69e4ee6f5e71d66558a915bc80e645.json",
+    "task": "f38f50bc98684600b8213e20fad26463",
+    "translation_key": "307ff3dcec107109e8c031e07835839a270150b1f8308d14b1a8b6811fd4f56d"
+  }
 }

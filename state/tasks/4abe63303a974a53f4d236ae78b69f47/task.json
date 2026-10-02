@@ -2,7 +2,6 @@
   "article_id": "fbfb182b-bb05-434f-a664-b74c68153e61",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -62,45 +61,45 @@
         },
         "total_tokens": 8722
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 836,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4926,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5762
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
       "location": "<p>When I told my husband about the frustration, he simply said, “Why don’t you explain the issue and quit being so uptight about it?” Good point. Proactively seeking solutions works for many problem areas.</p>",
       "severity": "major",
-      "source_quote": "“Why don’t you explain the issue and quit being so uptight about it?”",
-      "suggested_fix": "Translate the husband's quoted line to preserve the original meaning: e.g. “Mbona huwaelezi suala na kuacha kuwa mkali kuhusu hilo?” or the existing Kiswahili literal equivalent that keeps the sense of “quit being so uptight/stop being so uptight.” Ensure it does not change to a different meaning such as “I won’t be disappointed.”",
-      "translation_quote": "“Kwa nini usieleze tatizo na kuacha kuwa mkali kuhusu hilo?” Hoja nzuri. Kutafuta suluhisho kwa wepesi hufanya kazi kwa maeneo mengi ya shida."
+      "source_quote": "When I told my husband about the frustration, he simply said, “Why don’t you explain the issue and quit being so uptight about it?” Good point. Proactively seeking solutions works for many problem areas.",
+      "suggested_fix": "Preserve the original meaning of the husband’s remark and the following sentence. Replace the translated block while keeping HTML tags and punctuation. Suggested replacement (keep <p>...</p>): \"Nilipoambia mume wangu kuhusu kukasirika kwangu, alisema tu, “Kwa nini usieleze tatizo na kuacha kuwa mkali kuhusu hilo?” Hoja nzuri. Kutafuta suluhisho kwa ujasiri/kwa utaratibu hufanya kazi kwa maeneo mengi ya shida.\" Use either \"kwa ujasiri\" or \"kwa utaratibu\" for \"proactively\" (both fit idiomatically).",
+      "translation_quote": "Nilipoambia mume wangu kuhusu kukasirika kwangu, alisema tu, “Kwa nini usieleze tatizo na kuacha kuwa mkali kuhusu hilo?” Hoja nzuri. Kutafuta suluhisho kwa wepesi hufanya kazi kwa maeneo mengi ya shida."
     },
     {
-      "location": "<h3>Dhana zinazochangia kuzidiwa</h3>\n  <p>Playing multiple roles can be stressful. Overloading yourself with responsibilities and commitments can make you forget what is most important. It is easy to equate busyness with self-worth. By default, we start believing that:</p>",
+      "location": "<p>Proactively seeking solutions works for many problem areas.</p>",
       "severity": "minor",
-      "source_quote": "Playing multiple roles can be stressful.",
-      "suggested_fix": "Use a more natural Kiswahili rendering that matches the author's meaning. For example: “Kujihusisha katika nyimbo/kwenye nafasi nyingi za majukumu kunaweza kuwa na msongo.” Prefer: “Kuchukua nyimbo/cheo nyingi za majukumu kunaweza kusababisha msongo wa mawazo.” Keep the rest of the paragraph structure intact.",
-      "translation_quote": "Kucheza nyenzo nyingi za majukumu kunaweza kuwa na msongo."
-    },
-    {
-      "location": "<ul>\n    <li>Homemakers are capable of handling everything.</li>\n    <li>Homemakers, especially godly homemakers, are never frustrated.</li>\n    <li>A homemaker should anticipate all her family’s needs.</li>\n  </ul>",
-      "severity": "minor",
-      "source_quote": "Homemakers, especially godly homemakers, are never frustrated.",
-      "suggested_fix": "Avoid the awkward repetition and preserve the sense. Suggested Kiswahili: “Wenye kuendesha nyumba, hasa wale waliomcha Mungu, hawawahi kukasirika.” Or simply: “Wenye kuendesha nyumba, hasa wawe wa kiroho/waliomcha Mungu, hawawahi kukasirika.” Keep other list items consistent with the translator’s style for “homemaker.”",
-      "translation_quote": "Wenye kuendesha nyumba, hasa wenye kuendesha nyumba wema, hawawahi kukasirika."
-    },
-    {
-      "location": "<h3>Let an idea or request gel before committing</h3>\n  <p>This has saved me a great deal of stress. ... Consider waiting a few hours before incorporating new ideas and requests.</p>",
-      "severity": "minor",
-      "source_quote": "Let an idea or request gel before committing",
-      "suggested_fix": "Translate the idiom into clearer Kiswahili that conveys ‘wait before saying yes,’ e.g. “Ruhusu wazo au ombi lipate muda wa kufikiri kabla ya kukubali” or “Usikubali mara moja; ngoja wazo/ombi lipitie muda.” Preserve the author’s counsel to delay committing rather than wording that implies abandoning the idea permanently.",
-      "translation_quote": "Ruhusu wazo au ombi lipitie muda kabla ya kujitoa"
-    },
-    {
-      "location": "<h3>Evaluate your schedule regularly</h3>\n  <p>Keep a detailed calendar to have a picture of past, present, and future events. ...</p>",
-      "severity": "minor",
-      "source_quote": "Keep a detailed calendar to have a picture of past, present, and future events.",
-      "suggested_fix": "Improve natural phrasing: e.g. “Hifadhi kalenda ya kina ili upate picha ya matukio ya zamani, ya sasa, na yajayo.” (This retains the sense but reads more idiomatically.)",
-      "translation_quote": "Hifadhi kalenda ya kina ili kupata picha ya matukio ya zamani, sasa, na yajayo."
+      "source_quote": "Proactively seeking solutions works for many problem areas.",
+      "suggested_fix": "Translate \"proactively\" with an idiom that carries the sense of taking initiative or acting deliberately (not \"kwa wepesi\" which implies doing something lightly). Replace the phrase while preserving surrounding tags and punctuation. Suggested replacement: \"Kutafuta suluhisho kwa ujasiri/kwa utaratibu hufanya kazi kwa maeneo mengi ya shida.\"",
+      "translation_quote": "Kutafuta suluhisho kwa wepesi hufanya kazi kwa maeneo mengi ya shida."
     }
   ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "4abe63303a974a53f4d236ae78b69f47",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "swa",
@@ -144,13 +143,13 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 70,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/57473773ac5b1974a223c6159a928ec4b7d4781abd867e42854e5f7e38041953.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

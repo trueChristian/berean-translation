@@ -2,7 +2,6 @@
   "article_id": "62646d6d-87be-47a6-880f-0ade408a3402",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:44+00:00",
   "events": [
@@ -62,45 +61,80 @@
         },
         "total_tokens": 5945
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 2028,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3178,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5206
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "<p>...Psalm quote...</p> (paragraph with Psalms 98:8-9)",
+      "location": "Paragraph 2 — Psalm quotation (Psalms 98:8-9)",
       "severity": "critical",
       "source_quote": "“Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9).",
-      "suggested_fix": "Translate the quoted English verse into Hebrew so the translation conveys the original printed English in Hebrew wording and preserve the citation. For example (preserve paragraph tags and punctuation): “יְרַעֲמוּ הַמַּיִם וְהָרִים יָשִׂישׂוּ יַחְדָּו לִפְנֵי יְהוָה; כִּי־הוּא בָא לִשְׁפֹּט הָאָרֶץ: בַּצֶּדֶק יִשְׁפֹּט הָעוֹלָם, וּבְמִשְׁפָּט לְעַמִּים־לָעוֹלָם” (Psalms 98:8-9). Replace the English text inside the paragraph with the Hebrew rendering and keep the parenthetical citation.”",
-      "translation_quote": "“Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9)."
+      "suggested_fix": "Render the printed English quotation exactly as it appears in the authoritative English article (or include that exact English quotation verbatim) rather than substituting a Hebrew wording. For example, include the full English quote exactly: “Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9). Preserve the existing surrounding HTML and punctuation.",
+      "translation_quote": "“יְרַעֲמוּ הַמַּיִם וְהָרִים יָשִׂישׂוּ יַחְדָּו לִפְנֵי יְהוָה; כִּי־הוּא בָא לִשְׁפֹּט הָאָרֶץ: בַּצֶּדֶק יִשְׁפֹּט הָעוֹלָם, וּבְמִשְׁפָּט לְעַמִּים־לָעוֹלָם” (Psalms 98:8-9)."
     },
     {
-      "location": "<p>...John 4:14 reference...</p> (paragraph mentioning the well)",
+      "location": "Paragraph 4 — John quotation (John 4:14)",
       "severity": "critical",
       "source_quote": "“well of water springing up into everlasting life” (John 4:14).",
-      "suggested_fix": "Render the quoted phrase into Hebrew reproducing the English verse sense, and keep the citation. Example: “המעיין של מים הזורמים אל־חיי עולם” (John 4:14). Replace the English fragment with a Hebrew rendering that reflects the original printed English quotation and retain the parenthetical reference.”",
-      "translation_quote": "\"well of water springing up into everlasting life\" (John 4:14)."
+      "suggested_fix": "Preserve the exact printed English wording from the authoritative article for the Scripture quotation (or include that English quotation verbatim) rather than replacing it with a Hebrew rendering. For example: “well of water springing up into everlasting life” (John 4:14). Keep surrounding HTML unchanged.",
+      "translation_quote": "\"המעיין של מים הזורמים אל־חיי עולם\" (John 4:14)."
     },
     {
-      "location": "<p>...Isaiah 61:11 quote...</p> (final scripture paragraph)",
+      "location": "Paragraph 9 — Isaiah quotation (Isaiah 61:11)",
       "severity": "critical",
       "source_quote": "“For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11).",
-      "suggested_fix": "Translate the quoted English verse into Hebrew so it conveys the printed English in Hebrew and keep the citation. For example: “כִּי־כַּאֲשֶׁר הָאָרֶץ תּוֹצִיא נֵצֶרָּהּ, וּכְגַן הַמּוֹצִיא אֶת־הַנִּזְרָעוֹת אֲשֶׁר־בוֹ; כֵּן יְהוָה אֱלֹהִים יָבִיא צֶדֶק וּתְהִלָּה לִפְנֵי כָּל־הַגּוֹיִם” (Isaiah 61:11). Insert this Hebrew rendering in place of the English quotation while preserving the parenthetical citation.”",
-      "translation_quote": "“For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11)."
+      "suggested_fix": "Use the exact printed English quotation from the authoritative article (or include it verbatim) instead of substituting a Hebrew translation. Example to include: “For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11). Preserve HTML structure.",
+      "translation_quote": "\"כִּי־כַּאֲשֶׁר הָאָרֶץ תּוֹצִיא נֵצֶרָּהּ, וּכְגַן הַמּוֹצִיא אֶת־הַנִּזְרָעוֹת אֲשֶׁר־בוֹ; כֵּן יְהוָה אֱלֹהִים יָבִיא צֶדֶק וּתְהִלָּה לִפְנֵי כָּל־הַגּוֹיִם\" (Isaiah 61:11)."
     },
     {
-      "location": "<article>opening paragraph (\"sub-Saharan\" phrase)</article>",
+      "location": "Paragraph 4 — \"Hymn History\" reference and subsequent poem attribution",
       "severity": "minor",
-      "source_quote": "\"the sub-Saharan desert land of Chad and Niger\"",
-      "suggested_fix": "Use the standard Hebrew geographic adjective for 'sub-Saharan'. Replace \"המדבר הדרום־סהרוויות\" with a more idiomatic rendering such as \"אדמות המדבר שבדרום הסהרה\" or \"אזור המדבר בדרום הסהרה של צ'אד וניג'ר\" to correct gender/idiom while preserving meaning and HTML structure.",
-      "translation_quote": "\"המדבר הדרום־סהרוויות של צ'אד וניג'ר\""
+      "source_quote": "\"Hymn History article in this issue:\" (and the following quoted hymn in English in source HTML)",
+      "suggested_fix": "If the authoritative English article left the Hymn History title in English, this may be acceptable. If the guideline is to translate article titles, choose either to leave the title exactly as in the source English (preferred to preserve author intent) or translate consistently. Also ensure the printed English hymn lines from the authoritative article are preserved exactly if they were originally printed in English; if the authoritative English included the hymn in English, include that English wording verbatim in the translation, or explicitly preserve the original English hymn lines in addition to any Hebrew rendering.",
+      "translation_quote": "\"המעיין של ישוע כמתואר במאמר ה\\\"Hymn History\\\" בגיליון זה:\" and the hymn is rendered into Hebrew rather than preserving the original printed English."
     },
     {
-      "location": "<p>paragraph about Ramadan (temperature)</p>",
+      "location": "Paragraph 7 — Untranslated article titles inside quotes (\"Sister to Sister\", \"How to Increase Your Faith\")",
       "severity": "minor",
-      "source_quote": "\"even though daytime temperatures exceed 110 degrees.\"",
-      "suggested_fix": "Clarify the temperature unit in Hebrew or keep the same ambiguity as source by indicating units. Suggestion: change to \"אף על פי שהטמפרטורות במהלך היום עולות על 110 מעלות פרנהייט\" if Fahrenheit intended, or convert to Celsius with a note. Preserve the paragraph tags and surrounding text.",
-      "translation_quote": "\"הטמפרטורות במהלך היום עולות על 110 מעלות.\""
+      "source_quote": "\"Sister to Sister\" and \"How to Increase Your Faith\" (article titles in the source HTML)",
+      "suggested_fix": "Preserve the exact formatting of the English article titles only if that matches the authoritative English source. If the source left them in English, retain those exact English strings. If the authoritative English used them in English within the article, include them verbatim or translate consistently across the publication. Maintain existing HTML structure.",
+      "translation_quote": "\"Sister to Sister\" and \"How to Increase Your Faith\" remain in English in the translation; consider preserving or consistently translating titles according to project style."
+    },
+    {
+      "location": "Paragraph 6 — Temperature unit",
+      "severity": "minor",
+      "source_quote": "\"110 degrees.\"",
+      "suggested_fix": "The translation added the unit label \"פרנהייט\". If the authoritative English did not specify the unit, remove the added unit or match the source's presentation (e.g., leave as \"110 degrees\" without specifying Fahrenheit) unless localization rules require conversion. Preserve meaning without introducing a unit not present in the source.",
+      "translation_quote": "\"הטמפרטורות במהלך היום עולות על 110 מעלות פרנהייט.\""
+    },
+    {
+      "location": "Paragraph 1 — \"spring peepers\" term",
+      "severity": "minor",
+      "source_quote": "\"spring peepers\"",
+      "suggested_fix": "\"Spring peepers\" was transliterated as \"ה\\\"פיפרים\\\" של האביב\" and then \"\\\"פיפרי חורף\\\"\" for \"winter peepers.\" Consider using a natural Hebrew equivalent or a consistent transliteration without unnecessary quotes, e.g., \"צופרי האביב\" or include the original common name in parentheses. This is stylistic; adjust only if preferred by editorial style.",
+      "translation_quote": "\"ה\\\"פיפרים\\\" של האביב\" and \"\\\"פיפרי חורף\\\" כשהם זמזמו...\""
     }
   ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "0935ad6fe8f8488b9edb03c5b348b023",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "heb",
@@ -144,13 +178,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 60,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5455d2cd09d57a9e870ea92c4b7c08c9a0c8a2c68c077d639797bdc8f61c6072.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

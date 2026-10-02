@@ -2,7 +2,6 @@
   "article_id": "52b9a1f9-4f4d-419d-9b36-797dfc3cb10e",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -62,38 +61,59 @@
         },
         "total_tokens": 14828
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1157,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9224,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10381
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "source.html paragraph 7 (quote)",
+      "location": "title",
       "severity": "major",
-      "source_quote": "\"I have received the commission from the royal and princely Master, my Lord Jesus, to preach Christ to the people.\"",
-      "suggested_fix": "Translate the phrase accurately and respectfully, preserving 'royal and princely' meaning. Example replacement (preserve surrounding HTML): \"\\\"Nimepokea mamlaka kutoka kwa Mwalimu wa kifalme na wa kifalme mwenye heshima, Bwana wangu Yesu, kuhubiri Kristo kwa watu.\\\"\"",
-      "translation_quote": "\"Nimepokea mamlaka kutoka kwa Mwalimu wa kifalme na wa kijinga, Bwana wangu Yesu, kuhubiri Kristo kwa watu.\""
+      "source_quote": "The Sands of Time Are SINKING",
+      "suggested_fix": "Translate the image of 'sands of time' literally/idiomatically. For example, replace title text node with: The Sands of Time Are SINKING -> \"Mchanga wa Nyakati Unazama\" (preserve capitalization style used on site). Do not change HTML tags or attributes; only replace the title text.",
+      "translation_quote": "Mwangaza wa Muda Unazama"
     },
     {
-      "location": "source.html — hymn block (entire hymn stanzas)",
-      "severity": "critical",
-      "source_quote": "All 19 original hymn stanzas (The sands of time are sinking ... In Immanuel’s land.)",
-      "suggested_fix": "The hymn text in source.html is a substantive passage. If the target-language article is intended to be fully translated into Kiswahili, translate the hymn stanzas into Kiswahili (or explicitly preserve the original English only if that is the publisher's policy). Provide the translated stanza text while preserving the exact HTML structure (the <div class=\"hymn\"> and <p><em>/<strong><em> tags). Example: replace the English lines inside the <div class=\"hymn\"> with their Kiswahili equivalents, keeping tags and line breaks unchanged.",
-      "translation_quote": "(Hymn left entirely in English inside the <div class=\"hymn\"> block; e.g., \"The sands of time are sinking, The dawn of heaven breaks, ... In Immanuel’s land.\")"
+      "location": "source.html — hymn stanza 1 (opening line)",
+      "severity": "major",
+      "source_quote": "The sands of time are sinking,",
+      "suggested_fix": "Render the opening hymn line to preserve the 'sands of time' image. Replace the stanza's first line text node with: \"The sands of time are sinking,\" -> \"Mchanga wa nyakati unazama,\" (preserve stanza tags and emphasis/strong markup).",
+      "translation_quote": "Mwangaza wa nyakati unazama,"
     },
     {
-      "location": "source.html paragraph 5 (well incident)",
+      "location": "source.html — life anecdote (rescue from well)",
       "severity": "minor",
-      "source_quote": "\"When they returned, they found a very wet Samuel sitting on the grass beside the well.\"",
-      "suggested_fix": "Correct the Kiswahili to convey that Samuel was wet (from being pulled out of the well) rather than 'carrying water'. Suggested fix (preserve HTML): replace the sentence with: \"Waliporudi, walimpata Samuel akiwa na mwili umechafuka na maji, amekaa kwenye nyasi karibu na kisima.\"",
-      "translation_quote": "\"Waliporudi, walimpata Samuel akiwa amebeba maji karibu na kisima.\""
+      "source_quote": "\"A bonny white man came and drew me out of the well.\"",
+      "suggested_fix": "Use a natural Kiswahili verb for 'drew me out' (meaning rescued/extracted). Replace the quoted translation with: \"'Mtu mweupe mzuri alikuja akaninutoa kwenye kisima.'\" (preserve the quotation marks and paragraph tags).",
+      "translation_quote": "\"Mtu mweupe mzuri alikuja akaninogoa kutoka kwenye kisima.\""
     },
     {
-      "location": "source.html paragraph 11 (Rutherford quoted line)",
-      "severity": "major",
-      "source_quote": "\"O but Christ hath a saving eye. When He first looked on me I was saved. It cost Him but a look to make hell quit to me.\"",
-      "suggested_fix": "Render the quoted English sense faithfully into Kiswahili, preserving the force of the original. For example (preserve surrounding HTML/quote marks): \"\\\"Ee, lakini Kristo ana jicho la kuokoa. Aliponitazama mara ya kwanza nilikuokoka. Ilimgharimu tu kuangalia moja kumfanya kuzimu kuniondolee.\\\"\" Replace the garbled Kiswahili with a clear, equivalent rendering of the English quote.",
-      "translation_quote": "\"Alisema, \\\"Ee lakini Kristo ana jicho la kuokoa. Alipolitania kwangu mara ya kwanza nilikuokoka. Ilimgharimu tu kuangalia kufanya kuzimu kuninyooshea.\\\"\""
+      "location": "source.html — opening paragraph (phrase meaning)",
+      "severity": "minor",
+      "source_quote": "He uses the weak things to confound the wise; the base things to bring to nothing the wisdom of earthly wise men.",
+      "suggested_fix": "The translation uses an unusual/incorrect word (\"uzingo\") that obscures meaning. Replace the phrase rendering with a clearer Kiswahili equivalent such as: \"Anatumia vitu dhaifu kuwachanganya wenye hekima; vitu vya chini kufanya hekima ya wanaume wa dunia kuwa bure.\" (preserve paragraph tags).",
+      "translation_quote": "Anatumia vitu dhaifu kuwachanganya wenye hekima; vitu vya chini kuufanya uzingo wa wana watu wenye hekima wa dunia kutokuwa na thamani."
     }
   ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "386ca23becba1bc7c4ec9be448ee9e13",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "swa",
@@ -137,13 +157,13 @@
     }
   },
   "protected": false,
-  "quality_score": 62,
+  "quality_score": 68,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c48182e3f5033a08822c2237c3e9e7faab5b80302e823695d8ba3dd0faead4e3.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "cd18d5fc7f7fd47ee706d00362265a4cee23ac0316d015c15a44e23fb67dbfe4",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

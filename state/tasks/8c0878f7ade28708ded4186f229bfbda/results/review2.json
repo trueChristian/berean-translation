@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c9760e93-8184-4974-bf38-62c6d280915f",
+    "response_id": "chatcmpl-EUL9oHv40pmluMZT0WkFaFprEvGQu",
+    "usage": {
+      "completion_tokens": 1662,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7584,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9246
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.subtitle",
+        "severity": "minor",
+        "source_quote": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2",
+        "suggested_fix": "Use a more idiomatic Modern Greek rendering of the phrase while preserving the scripture citation exactly as printed. For example: change the subtitle text node to: \"Εκ του Σιών, η τελειότητα της ομορφιάς, ο Θεός ελάμψε. Psalms 50:2\" (preserve the existing spacing and the exact \"Psalms 50:2\" citation). Do not alter HTML tags or attributes.",
+        "translation_quote": "Από το Σιών, η τελειότητα της ομορφιάς, ο Θεός ελάμψε. Psalms 50:2"
+      },
+      {
+        "location": "<p>…“And I heard a voice from heaven, as the voice of many waters, and as the voice of a great thunder: and I heard the voice of harpers harping with their harps” (Revelation 14:2) Σύμφωνα με το βιβλίο της Αποκάλυψης, ο θρόνος του Θεού περιβάλλεται από ήχους: βροντές και αστραπές; ύμνοι που αναβλύζουν από τους αγγέλους, τα τέσσερα ζώα και τους είκοσι τέσσερις πρεσβύτερους, και το μεγάλο πλήθος που κανείς δεν μπορεί να αριθμήσει; και το νέο τραγούδι από τους εκατόν σαράντα τέσσερις χιλιάδες.</p>",
+        "severity": "minor",
+        "source_quote": "“And I heard a voice from heaven, as the voice of many waters, and as the voice of a great thunder: and I heard the voice of harpers harping with their harps” (Revelation 14:2) According to the book of Revelation, God's throne is surrounded by sound: thundering and lightning; praises flowing from the angels, the four beasts and twenty elders, and the great multitude which no man can number; and the new song by the one hundred and forty four thousand.",
+        "suggested_fix": "Fix punctuation to reflect the original sentence structure and improve flow in Greek while preserving the English scripture quote exactly. Example replace the Greek sentence node with: \"Σύμφωνα με το βιβλίο της Αποκάλυψης, ο θρόνος του Θεού περιβάλλεται από ήχους: βροντές και αστραπές, ύμνοι που αναβλύζουν από τους αγγέλους, τα τέσσερα ζώα και τους είκοσι τέσσερις πρεσβύτερους, και το μεγάλο πλήθος που κανείς δεν μπορεί να αριθμήσει, και το νέο τραγούδι από τους εκατόν σαράντα τέσσερις χιλιάδες.\" (Do not change the English quote or its placement; only adjust Greek punctuation and wording.)",
+        "translation_quote": "“And I heard a voice from heaven, as the voice of many waters, and as the voice of a great thunder: and I heard the voice of harpers harping with their harps” (Revelation 14:2) Σύμφωνα με το βιβλίο της Αποκάλυψης, ο θρόνος του Θεού περιβάλλεται από ήχους: βροντές και αστραπές; ύμνοι που αναβλύζουν από τους αγγέλους, τα τέσσερα ζώα και τους είκοσι τέσσερις πρεσβύτερους, και το μεγάλο πλήθος που κανείς δεν μπορεί να αριθμήσει; και το νέο τραγούδι από τους εκατόν σαράντα τέσσερις χιλιάδες."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

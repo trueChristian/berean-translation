@@ -2,7 +2,6 @@
   "article_id": "b43320f3-e4e8-450b-865c-099ef704149c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -62,31 +61,45 @@
         },
         "total_tokens": 13503
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1472,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7747,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9219
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "Entire article (multiple paragraphs)",
-      "severity": "major",
-      "source_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.” I John 1:6 says, “if we say that we have fellowship with Him and walk in darkness (light on the outside and darkness on the inside), we lie and do not practice the truth.” John 10:10, Jesus said, “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy” all godly relationships. Hebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).” Numbers 32:23 is still very true, saying, “Be sure your sin will find you out.” James 1:15: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” Verse 16 says, “Do not (be deceived) my beloved brethren.”",
-      "suggested_fix": "Translate each quoted Scripture clause and quoted verse text into Portuguese, preserving the exact sense and punctuation of the printed English quotations used in the source. For example, replace “Blessed are the pure in heart” (Matthew 5:8) with a Portuguese rendering that conveys that same printed English wording (e.g., “Bem-aventurados os limpos de coração”), and do the same consistently for every quotation of Scripture in the article (Matthew 5:8; Philippians 1:10; Philippians 4:8; 1 Timothy 5:22; Revelation 19; Psalm 24:3–4; 1 John 1:6; John 10:10; Hebrews 4:13; Numbers 32:23; James 1:15–16; Matthew 23:26; etc.). Keep the verse references (book and chapter:verse) as they appear, but ensure the quoted verse text is rendered into Portuguese. Preserve original HTML tags and order.",
-      "translation_quote": "Repare no que as Escrituras dizem sobre ser puro. “Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.” ... I John 1:6 says, “if we say that we have fellowship with Him and walk in darkness (light on the outside and darkness on the inside), we lie and do not practice the truth.” ... Em John 10:10, Jesus disse, “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy” all godly relationships. ... Hebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).” ... Numbers 32:23 is still very true, saying, “Be sure your sin will find you out.” ... then James 1:15 happens: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” Verse 16 says, “Do not (be deceived) my beloved brethren.”"
+      "location": "Multiple scripture quotations throughout article (e.g., opening paragraphs, John 10:10 passage, Hebrews 4:13, James 1:15, etc.)",
+      "severity": "critical",
+      "source_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” ... In John 10:10, Jesus said, “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy” ... Hebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).” ... James 1:15: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” ... James 1:16: “Do not (be deceived) my beloved brethren.”",
+      "suggested_fix": "Replace each translated scripture quotation in the Portuguese translation with the exact printed English scripture text from the authoritative English source, preserving punctuation and verse punctuation exactly, followed by the original parenthetical reference. Examples: use “Blessed are the pure in heart” (Matthew 5:8). use “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” (James 1:15). Do this for every place the English article quotes the Bible so the translation reproduces the printed English scripture quotations rather than translating them into Portuguese.",
+      "translation_quote": "“Bem-aventurados os limpos de coração” (Matthew 5:8). “Para que possais aprovar as coisas excelentes; para que sejais sinceros (puros) e sem ofensa até o dia de Cristo” (Philippians 1:10). “Pensai nas coisas que são puras” (Philippians 4:8). “Guarda-te puro” (1Timothy 5:22). Revelation 19 diz “Os limpos de coração verão a Deus.” ... Em John 10:10, Jesus disse, “o diabo vem para roubar, matar e destruir. Ele quer roubar a tua pureza, matar o teu caráter e destruir” ... Hebrews 4:13 diz, “E não há criatura alguma encoberta perante ele; antes, todas as coisas estão nuas e patentes aos olhos daquele com quem temos de tratar.” ... James 1:15 acontece: “Então, havendo a concupiscência concebido, gera o pecado; e o pecado, sendo consumado, gera a morte” ... O versículo 16 diz, “Meus amados irmãos, não vos enganeis.”"
     },
     {
-      "location": "Paragraphs containing poetic blockquotes at article end",
-      "severity": "major",
-      "source_quote": "<p><em>Two forces lie within my breast,<br>\n    The one I love, the one I hate.<br>\n    But the one I feed will dominate.</em></p>\n    <p><em>—The author’s dad</em></p>\n\n... \n\n<p><em>The more honestly I name<br>\n    what is true about myself,<br>\n    The less I need to hide and defend,<br>\n    and posture and pretend.</em></p>\n    <p><em>—Dan Allender</em></p>",
-      "suggested_fix": "Translate the two poem blockquotes into Portuguese, preserving line breaks and the quoted English content's meaning and tone. Keep the attribution lines (—The author’s dad; —Dan Allender) intact but translated if desired (e.g., —Pai do autor), only if this preserves the author's original attributions; otherwise retain exact attribution text. Ensure the translated poems remain inside the same <blockquote class=\"poem\"> structure and preserve HTML tags.",
-      "translation_quote": "<blockquote class=\"poem\">\n    <p><em>Two forces lie within my breast,<br>\n    The one I love, the one I hate.<br>\n    But the one I feed will dominate.</em></p>\n    <p><em>—The author’s dad</em></p>\n  </blockquote>\n\n  <blockquote class=\"poem\">\n    <p><em>The more honestly I name<br>\n    what is true about myself,<br>\n    The less I need to hide and defend,<br>\n    and posture and pretend.</em></p>\n    <p><em>—Dan Allender</em></p>\n  </blockquote>"
-    },
-    {
-      "location": "Paragraphs quoting Bible verses and theological instructions (mixed English and Portuguese)",
+      "location": "Final blockquote attribution (first poem)",
       "severity": "minor",
-      "source_quote": "Jesus said, “Cleanse first the inside of the cup and platter that the outside may be clean also” (Matthew 23:26). ... James 5 says, “Confess your faults one to another that ye may be healed.” ... Jesus taught in Matthew 23:26, where He said, \"First clean the inside of the cup, so that the outside may be clean also.\"",
-      "suggested_fix": "There are multiple occurrences where the same scripture is quoted more than once in English or partially in English and partially in Portuguese. Remove duplication of the same verse in English; instead render the verse text into Portuguese consistently for every occurrence. For example, choose a clear Portuguese rendering of Matthew 23:26 and use it each time the verse is quoted. Preserve HTML structure and verse references.",
-      "translation_quote": "Jesus disse, “Cleanse first the inside of the cup and platter that the outside may be clean also” (Matthew 23:26). ... <strong>Seja Humilde.</strong> James 5 says, “Confess your faults one to another that ye may be healed.” ... Jesus ensinou em Matthew 23:26, onde disse, \"First clean the inside of the cup, so that the outside may be clean also.\""
+      "source_quote": "—The author’s dad",
+      "suggested_fix": "Translate the attribution to Portuguese to match the target-language style while preserving the original HTML structure. For example: replace the English line with “—O pai do autor” inside the same <p><em>…</em></p> element so the attribution appears in the target language.",
+      "translation_quote": "—The author’s dad"
     }
   ],
+  "finished_at": "2026-10-02T00:14:30+00:00",
   "id": "e40bdf3ff7a7262cfc5f79a2762d2a70",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "por",
@@ -130,13 +143,13 @@
     }
   },
   "protected": false,
-  "quality_score": 65,
+  "quality_score": 52,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6e098ac8eb342eaa406de38f5a002ad3b708959025887f49dfe6141d191cd700.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "f7304b582e2d69344173a19198f46ca88b1132d0c44e0b4021e5c3668c34cd95",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

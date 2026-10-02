@@ -2,7 +2,6 @@
   "article_id": "1ec0f654-0dd1-48f3-9a68-3b15189e6704",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19e17028bd4944f2b9009bf77d47a9b1",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -62,24 +61,52 @@
         },
         "total_tokens": 5749
       }
-    }
-  ],
-  "findings": [
-    {
-      "location": "source.html — first two paragraphs (temperature lines)",
-      "severity": "major",
-      "source_quote": "“Probably about 50.” Adrianna glanced lazily at the thermometer. “Hey, it’s 65 degrees! Mom, may we eat lunch outside?”",
-      "suggested_fix": "Preserve the original numeric readings instead of converting them to Celsius, or else show both the original numbers and a localized conversion in parentheses. For example, keep the text as: “Kanske omkring 50.” Adrianna tittade slött på termometern. “Hej, det är 65 grader! Mamma, får vi äta lunch ute?” — or, if you want a Celsius conversion, render: “Kanske omkring 50 (ca 10 °C).” Adrianna tittade slött på termometern. “Hej, det är 65 (ca 18 °C)!” Mamma, får vi äta lunch ute?",
-      "translation_quote": "\"Kanske runt 10 grader.\" Adrianna tittade slött på termometern. \"Hej, det är 18 grader! Mamma, får vi äta lunch ute?\""
     },
     {
-      "location": "source.html — near end: “out of the pasture” sentence",
-      "severity": "minor",
-      "source_quote": "She stepped out of the kayak, pulled it out of the water, and flipped it over to dry. Resolutely, she walked out of the pasture to find Asher and the girls.",
-      "suggested_fix": "The translation uses plural 'hagarnas' (out of the pastures) — a minor idiomatic change. Use the singular 'hagen' to match the English singular 'pasture', unless the original setting has multiple pastures. Suggested wording: 'Bestämt gick hon ut ur hagen för att hitta Asher och flickorna.'",
-      "translation_quote": "Bestämt gick hon ut ur hagarna för att hitta Asher och flickorna."
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1067,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3537,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4604
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "findings": [
+    {
+      "location": "Paragraph 2 (opening of second <p>)",
+      "severity": "critical",
+      "source_quote": "“Probably about 50.” Adrianna glanced lazily at the thermometer. “Hey, it’s 65 degrees! Mom, may we eat lunch outside?”",
+      "suggested_fix": "Translate the entire sentence into Swedish and preserve meaning and punctuation. For example (preserving HTML tags and structure):\n\n\"\"\"<p>\"Antagligen omkring 50.\" Adrianna tittade slött på termometern. \"Åh, det är 65 grader! Mamma, kan vi äta lunch ute?\"</p>\"\"\"\n\n(Do not leave any of the original English text inside this paragraph.)",
+      "translation_quote": "\"Probably about 50.\" Adrianna tittade slött på termometern. \"Hey, it’s 65 degrees! Mom, may we eat lunch outside?\""
+    },
+    {
+      "location": "Paragraph 3 (permission phrasing)",
+      "severity": "minor",
+      "source_quote": "“If you do a good job with your school until then, you may,” she told them. “And if you get your school done before lunch, you may play outside for a while this afternoon.”",
+      "suggested_fix": "The Swedish sentence \"Om ni gör ett bra jobb med skolarbetet tills dess får ni det,\" is unclear/awkward and could imply something different. Preserve the permission meaning by rephrasing to natural Swedish while keeping original meaning. Suggested replacement (preserve tags):\n\n\"\"\"<p>Mamma tittade upp från diskhon. \"Om ni gör ett bra jobb med skolarbetet tills dess får ni gå ut och äta lunch,\" sa hon. \"Och om ni blir klara före lunch får ni leka ute en stund i eftermiddag.\"</p>\"\"\"\n\n(Ensure the permission \"you may\" is clearly rendered as granting leave to eat/play.)",
+      "translation_quote": "\"Om ni gör ett bra jobb med skolarbetet tills dess får ni det,\" sa hon. \"Och om ni blir klara före lunch får ni leka ute en stund i eftermiddag.\""
+    },
+    {
+      "location": "Multiple paragraphs (\"shopping bag\" translation)",
+      "severity": "minor",
+      "source_quote": "They each packed their lunch in a shopping bag and went out to their picnic spot, a big, flat rock in a clearing in the woods.",
+      "suggested_fix": "The translation uses the literal \"handelsväska,\" which is unusual in contemporary Swedish. Use a more natural word such as \"kasse\" (e.g. \"varsin kasse\") to match conversational tone and clarity while keeping meaning intact. Preserve HTML tags and surrounding text.",
+      "translation_quote": "De packade varsin lunch i en handelsväska och gick ut till sin picknickplats, en stor, platt sten i en glänta i skogen."
+    }
+  ],
+  "finished_at": "2026-10-02T00:14:29+00:00",
   "id": "144030ef17a462418d4679934e382037",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "swe",
@@ -123,13 +150,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 60,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d59e6cc034714ade3629f9e4dd10e75a09cff16eb5d3255ed698b76288fda97d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "dcfff2a5364081c6a6817377a0d3ad1649eaec0276399a4b9a70adc9f0fe19d1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

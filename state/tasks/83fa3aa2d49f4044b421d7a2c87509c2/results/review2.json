@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0cae42cb-d57c-4992-815c-d9f440c1c9b7",
+    "response_id": "chatcmpl-EULAL87w5URf2FEFIKzoPLNzhrmv2",
+    "usage": {
+      "completion_tokens": 1560,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1545,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3105
+    }
+  },
+  "received_at": "2026-10-02T00:14:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> stanza 4, line 2",
+        "severity": "major",
+        "source_quote": "This bloom of love so fair,",
+        "suggested_fix": "Replace with Swedish equivalent and correct noun: \"Detta kärleksflor, så skönt,\" or \"Denna kärleks blomning, så skön,\" preserving meter as needed.",
+        "translation_quote": "Den bloom av kärlek, så skön"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 2, line 2",
+        "severity": "minor",
+        "source_quote": "I greet Thy going forth;",
+        "suggested_fix": "Use an idiomatic Swedish rendering that preserves the sense of greeting Christ's appearing or going forth, e.g. \"Jag hälsar Din uppenbarelse\" or \"Jag hälsar Din utgång/framträdande\"; avoid the archaic or literal \"Din utgång\" if it sounds odd in Swedish context.",
+        "translation_quote": "Jag hälsar Din utgång;"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 6, lines 3–4",
+        "severity": "minor",
+        "source_quote": "And grant the glad new song to ring\nThrough the new earth and Heaven.",
+        "suggested_fix": "Make the syntax natural and grammatical in Swedish, preserving plea/request sense. For example: \"Och låt den glada, nya sången klinga\nGenom den nya jorden och himlen.\" or \"Och skänk att den glada nya sången får klinga\nGenom den nya jord och himlen.\"",
+        "translation_quote": "Och giv att glada nya sången klinga\nGenom den nya jord och Himlen."
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 6, line 1",
+        "severity": "minor",
+        "source_quote": "Still, let new life and strength upspring,",
+        "suggested_fix": "Avoid adding words not present in the original and keep register consistent. Suggested: \"Låt nytt liv och ny styrka spira\" or \"Låt nytt liv och styrka ännu spira.\" Remove the added word \"allt\" unless author intended emphasis.",
+        "translation_quote": "Låt allt nytt liv och styrka spira,"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 2, line 4</location>",
+        "severity": "minor",
+        "source_quote": "I love Thee in the loveliness\nOf Thy renewed earth.",
+        "suggested_fix": "Adjust preposition for idiomatic Swedish: e.g. \"Jag älskar Dig i skönheten hos Din förnyade jord\" or \"Jag älskar Dig i skönheten i Din förnyade jord.\" Preserve the sense that the speaker loves Christ manifested in the renewed earth.",
+        "translation_quote": "Jag älskar Dig i skönheten på\nDin förnyade jord."
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}
