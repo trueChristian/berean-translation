@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph quoting Acts 27:20 (within second main paragraph)",
+      "severity": "minor",
+      "source_quote": "...when neither sun nor stars in many days appeared, and no small tempest lay on us, all hope that we should be saved was then taken away –Acts 27:20.",
+      "suggested_fix": "Correct the Spanish word 'tempestade' to the standard Spanish 'tempestad' so the quoted Scripture reads naturally and accurately in Spanish: '...se vino una fuerte tempestad; y habíamos ya perdido toda esperanza de ser salvados –Hechos 27:20.'",
+      "translation_quote": "...cuando ni el sol ni las estrellas aparecieron por muchos días, y sobre nosotros se vino un fuerte tempestade; y habíamos ya perdido toda esperanza de ser salvados –Hechos 27:20."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

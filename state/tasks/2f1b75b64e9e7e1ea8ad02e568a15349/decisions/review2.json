@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph about pre-flood lifespans (source paragraph: \"We know that before the flood, men lived to be very old—often into their 900s. ... 21st century (AD)\")",
+      "severity": "minor",
+      "source_quote": "their DNA was closer to the original genetic specimen of mankind (and thus, to perfection) than ours is in the 21st century (AD)",
+      "suggested_fix": "Remove the literal HTML artifact and render the century phrase idiomatically in Arabic. For example: «... مما هو عليه الآن في القرن الحادي والعشرين (الميلادي).» (i.e., delete the spurious '<sup>st</sup>' text). Preserve existing surrounding HTML tags and order.",
+      "translation_quote": "كان حمضهم النووي أقرب إلى العينة الوراثية الأصلية للإنسان (وبالتالي إلى الكمال) مما هو عليه في القرن الحادي والعشرين<sup>st</sup> (الميلادي)."
+    },
+    {
+      "location": "Paragraph about Epstein-Barr/infectious mononucleosis (source paragraph: \"Epstein Barr virus, which causes infectious mononucleosis, has been associated with certain kinds of lymphoma.\")",
+      "severity": "minor",
+      "source_quote": "Epstein Barr virus, which causes infectious mononucleosis, has been associated with certain kinds of lymphoma.",
+      "suggested_fix": "Translate the clinical name accurately into Modern Standard Arabic. Replace «داء التلاميذ المعدي (التهاب الغدد)» with a standard medical term such as «داء كثرة الوحيدات المعدي (التهاب الغدد)» or «التهاب الغدد الصدغية العدوائي (داء كثرة الوحيدات)» depending on the target site's preferred terminology. Preserve the surrounding sentence structure and HTML.",
+      "translation_quote": "فيروس إبشتاين-بار، الذي يسبب داء التلاميذ المعدي (التهاب الغدد)، ارتبط بأنواع معينة من اللمفوما."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

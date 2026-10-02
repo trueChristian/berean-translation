@@ -2,7 +2,6 @@
   "article_id": "fe94355d-8741-49a7-8f66-16003daa3f89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "75a0fdcac1c547d5ab399727152007ad",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -43,18 +42,53 @@
         },
         "total_tokens": 8687
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1671,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5528,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7199
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[57]: source /article[1]/p[15]/em[1] ('start', 'em', ()); translation /article[1]/p[15] ('end', 'p')",
-      "translation_quote": ""
+      "location": "<article> paragraph containing Luke 24:28-29 (near end)",
+      "severity": "major",
+      "source_quote": "“...made as though he would have gone further. But they constrained him, saying, Abide with us: for it is toward evening, and the day is far spent. And he went in to tarry with them –Luke 24:28-29.”",
+      "suggested_fix": "Translate the quoted Scripture accurately into Modern Standard Arabic, preserving the meaning and clause order of the printed English and indicating the reference. A faithful rendering would be, for example: «…تظاهر أنه أراد أن يذهب أبعد. فأقاماه قائلين: ‚أبق معنا، لأن المساء قد اقترب والنهار يكاد ينقضي.‘ فدخل ليبقى معهم. – لوقا 24:28-29.» Replace the current Arabic quotation with a corrected Arabic translation that conveys the same clauses and sequence as the English source.",
+      "translation_quote": "«…تظاهر أنه أراد أن يذهب أبعد. فجَعلوه قائلين له: أبقَ معنا لأن النهار قد مضى وقد قرُب المساء. فدخل ليباعد معهم» – لوقا 24:28-29."
+    },
+    {
+      "location": "<article> poem stanzas (third stanza and elsewhere)",
+      "severity": "major",
+      "source_quote": "\"Not a brief glance I beg, a passing word; But, as Thou dwell’st with Thy disciples, Lord, Familiar, condescending, patient, free, Come, not to sojourn, but abide, with me.\"",
+      "suggested_fix": "Correct the mistranslated words into clear, idiomatic Modern Standard Arabic while preserving the original meaning and line structure. For example: «لا أطلب لمحة عابرة، ولا كلمة عابرة؛ بل كما سكنتَ مع تلاميذك، يا رب، ودوداً، متواضعاً، صبوراً، كريماً، تعال، لا للنزول فقط، بل أبقَ معي.» Replace the current corrupted rendering (see translation_quote) with a faithful Arabic version that renders 'familiar, condescending, patient, free' and the sense 'not to sojourn, but abide' properly.",
+      "translation_quote": "«لا أطلب لمحة عابرة، ولا كلمة مروَّضة؛\\n    بل كما سكنت مع تلاميذك، يا رب،\\n    ألف، متضاءل، صبور، كريم،\\n    تعال، لا لتقيم نُزلاً، بل أبقَ، معي.»"
+    },
+    {
+      "location": "<article> final References block (emphasized block)",
+      "severity": "major",
+      "source_quote": "101 Hymn Stories,\nTreasury of Hymn Stories\nAuthor- Henry Francis Lyte, 1793-1847\nComposer- William Henry Monk, 1823-1889\nTune Name - “Eventide”",
+      "suggested_fix": "Translate the reference block into Arabic (metadata is translatable per instructions). Preserve the order, the italicized/emphasized structure, and keep names and dates but rendered where appropriate into Arabic script or conventional target-language forms. Example: «101 قصص الأناشيد،\\nكنز قصص الأناشيد\\nالمؤلف - هنري فرانسيس لايت، 1793-1847\\nالملحّن - ويليام هنري مونك، 1823-1889\\nاسم اللحن - «إيفنتايد»» Replace the English-only block with an Arabic rendering while keeping the same content and sequence.",
+      "translation_quote": "<em>101 Hymn Stories,<br>\nTreasury of Hymn Stories<br>\nAuthor- Henry Francis Lyte, 1793-1847<br>\nComposer- William Henry Monk, 1823-1889<br>\nTune Name - “Eventide”</em>"
     }
   ],
+  "finished_at": "2026-10-02T12:55:27+00:00",
   "id": "c6827c24150edc36cc93915a3504cccd",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ara",
@@ -128,11 +162,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/4edc62ec40603cbb629a5274f380a8df79d2ef113be92eb5013535a57f3d95a9.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

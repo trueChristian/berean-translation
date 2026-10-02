@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:27+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph containing Revelation 21:8 (source.html second paragraph with quoted Scripture)\",\"severity\":\"major\",\"source_quote\":\"\\\"...the fearful, and unbelieving … [who] shall have their part in the lake which burneth with fire and brimstone… –Revelation 21:8.\\\"\",\"suggested_fix\":\"Translate the quoted Scripture into contemporary Modern Greek (not Koine/Ancient Greek). Preserve the verse number exactly. For example: «…οἱ δειλοὶ καὶ οἱ ἄπιστοι… [οἵτινες] ἔσονται τμήμα αὐτῶν τῆς λίμνης τῆς καιομένης πυρί καὶ θείῳ… —Αποκάλυψις 21:8.» should be rendered in Modern Greek along the lines of: «…οι δειλοί και οι άπιστοι… θα έχουν το μερίδιό τους στη λίμνη που καίγεται με φωτιά και θειάφι… —Αποκάλυψη 21:8.» (Use the conventional Modern Greek book name “Αποκάλυψη”, keep the verse reference unchanged.) Ensure all other Scripture quotations follow the same Modern Greek register rather than Koine forms currently present.\",\"translation_quote\":\"«…οἱ δεῖλοι καὶ οἱ ἄπιστοι … [οἵτινες] ἔσονται τμήμα αὐτῶν en τῇ λίμνῃ τῇ καιομένῃ πυρί καὶ θείῳ… —Αποκάλυψις 21:8.»\"},{\"location\":\"Same Revelation 21:8 translation (mixed-language token)\",\"severity\":\"critical\",\"source_quote\":\"\\\"...the lake which burneth with fire and brimstone… –Revelation 21:8.\\\"\",\"suggested_fix\":\"Remove the mixed-language token 'en' (Latin-script) and render the entire quotation in correct Modern Greek. The current translation accidentally inserts 'en' into a quoted verse, creating a substantive untranslated/misplaced element. Replace the fragment 'en τῇ λίμνῃ' with an idiomatic Modern Greek equivalent, for example: 'στη λίμνη' so the full Modern Greek rendering reads: «…οι δειλοί και οι άπιστοι… θα έχουν το μερίδιό τους στη λίμνη που καίγεται με φωτιά και θειάφι… —Αποκάλυψη 21:8.»\",\"translation_quote\":\"«…οἱ δεῖλοι καὶ οἱ ἄπιστοι … [οἵτινες] ἔσονται τμήμα αὐτῶν en τῇ λίμνῃ τῇ καιομένῃ πυρί καὶ θείῳ… —Αποκάλυψις 21:8.»\"},{\"location\":\"All quoted Scripture passages throughout the article (e.g., Matthew 24:6; Matthew 24:13; Hebrews 13:17; 2 Corinthians 5:10; Matthew 8:10)\",\"severity\":\"major\",\"source_quote\":\"Examples: \\\"And ye shall hear of wars and rumours of wars: see that ye be not troubled... –Matthew 24:6.\\\" \\\"...he that shall endure unto the end, the same shall be saved –Matthew 24:13.\\\" \\\"Obey them that have the rule over you, and submit yourselves: for they watch for your souls... –Hebrews 13:17.\\\"\",\"suggested_fix\":\"The translation currently renders these quotations using an archaic/Koine Greek register (ancient vocabulary and grammar). The user requested contemporary Modern Greek. Convert each quoted Scripture to natural Modern Greek while preserving the exact chapter:verse citations and keeping the meaning faithful to the English source. Use conventional Modern Greek book names (e.g., Κατά Ματθαίον -> Κατά Ματθαίο or simply Ματθαίος as per house style; consistency required) and idiomatic Modern Greek wording. Example for Matthew 24:6: source quote -> «And ye shall hear of wars and rumours of wars: see that ye be not troubled...»; suggested Modern Greek rendering: «Θα ακούσετε για πολέμους και φήμες πολέμων· να προσέχετε να μη ταραχθείτε· —Ματθαίος 24:6.» Ensure all scripture quotes throughout the article are revised similarly.\",\"translation_quote\":\"Examples in text such as: «Και θέλετε νὰ ἀκούσετε περὶ πολέμων καὶ ἀκοὰς πολέμων· <strong>βλέπετε μὴ θραυωγοηθῆτε</strong>· ἀνὰ γὰρ πάντα ταῦτα δεῖ γίνεσθαι, ἀλλ᾽ ἔτι οὐκ ἐστὶν τὸ τέλος· —Κατά Ματθαῖον 24:6.» and other verses rendered in an archaic/Koine style.\"}],\"passed\":false,\"score\":78}",
+    "content_bytes": 4390,
+    "content_evidence_truncated": false,
+    "content_sha256": "bb3b8315587f39e3236cb2351938fd587012d963ad894c3b3ff6c4ad1d9ac389",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1879,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7997,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9876
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

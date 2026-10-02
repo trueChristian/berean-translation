@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning \"An example of a bad test, in this respect, is the CEA-125.\" / corresponding translated paragraph about CA-125",
+      "severity": "major",
+      "source_quote": "An example of a bad test, in this respect, is the CEA-125. CEA-125 is a chemical that is made by some types of cancer. Oncologists use this level to track a patient’s response to chemotherapy.",
+      "suggested_fix": "Restore the author’s original identifier exactly as printed in the English source. Replace “CA-125” in the French translation with “CEA-125” in the two places it appears so the translation faithfully matches the authoritative English text.",
+      "translation_quote": "Un exemple d’un test médiocre à cet égard est le CA-125. Le CA-125 est une substance chimique produite par certains types de cancer. Les oncologues utilisent ce taux pour suivre la réponse d’un patient à la chimiothérapie."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

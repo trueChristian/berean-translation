@@ -2,7 +2,6 @@
   "article_id": "d38bf79f-957f-413c-ad4d-a6b4fa8c8112",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "75a0fdcac1c547d5ab399727152007ad",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -43,18 +42,39 @@
         },
         "total_tokens": 12961
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 733,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8268,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9001
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[44]: source /article[1]/p[18]/sup[1] ('start', 'sup', ()); translation /article[1]/p[18] ('end', 'p')",
-      "translation_quote": ""
+      "location": "Paragraph beginning \"An example of a bad test, in this respect, is the CEA-125.\" / corresponding translated paragraph about CA-125",
+      "severity": "major",
+      "source_quote": "An example of a bad test, in this respect, is the CEA-125. CEA-125 is a chemical that is made by some types of cancer. Oncologists use this level to track a patient’s response to chemotherapy.",
+      "suggested_fix": "Restore the author’s original identifier exactly as printed in the English source. Replace “CA-125” in the French translation with “CEA-125” in the two places it appears so the translation faithfully matches the authoritative English text.",
+      "translation_quote": "Un exemple d’un test médiocre à cet égard est le CA-125. Le CA-125 est une substance chimique produite par certains types de cancer. Les oncologues utilisent ce taux pour suivre la réponse d’un patient à la chimiothérapie."
     }
   ],
+  "finished_at": "2026-10-02T12:55:27+00:00",
   "id": "deaf6175cb1901d7f85fe2f894a2e670",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "fra",
@@ -128,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 80,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c359f5eb7511bee303f2540e716a2b918a181459a9c7bd95ec949a6df55470c5.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "48e3cf7ce54a82130b52527f677657d3f940e34281e04d33a0d21d610cf9910a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

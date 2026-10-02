@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8cd7a60a-1cea-4bf7-8724-bb8f2eee7483",
+    "response_id": "chatcmpl-EUX24VbinmGg35gCq0FrLZsPueTkt",
+    "usage": {
+      "completion_tokens": 733,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8268,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9001
+    }
+  },
+  "received_at": "2026-10-02T12:55:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning \"An example of a bad test, in this respect, is the CEA-125.\" / corresponding translated paragraph about CA-125",
+        "severity": "major",
+        "source_quote": "An example of a bad test, in this respect, is the CEA-125. CEA-125 is a chemical that is made by some types of cancer. Oncologists use this level to track a patient’s response to chemotherapy.",
+        "suggested_fix": "Restore the author’s original identifier exactly as printed in the English source. Replace “CA-125” in the French translation with “CEA-125” in the two places it appears so the translation faithfully matches the authoritative English text.",
+        "translation_quote": "Un exemple d’un test médiocre à cet égard est le CA-125. Le CA-125 est une substance chimique produite par certains types de cancer. Les oncologues utilisent ce taux pour suivre la réponse d’un patient à la chimiothérapie."
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

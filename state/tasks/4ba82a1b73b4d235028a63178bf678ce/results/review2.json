@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8c68f5a2-86e3-482d-a754-2d7332f23f7a",
+    "response_id": "chatcmpl-EUX20JBz1mLOlLZKR8BDpEBx6lptx",
+    "usage": {
+      "completion_tokens": 1096,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6613,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7709
+    }
+  },
+  "received_at": "2026-10-02T12:55:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph 1 (mentions \"Anabaptist\") and multiple other paragraphs",
+        "severity": "major",
+        "source_quote": "a somewhat obscure, yet influential leader of the early Anabaptist movement in Switzerland",
+        "suggested_fix": "Translate the denominational term accurately. Replace \"الإنعام\"/\"الإنعاميين\" with a standard Arabic rendering of Anabaptist such as \"الأنابابتست\" or \"المعمدانيون المعادون\" consistently (e.g., \"حركة الأنابابتست المبكرة في سويسرا\", \"أحفاد الأنابابتست\"). Ensure the chosen term is used throughout the article in all occurrences.",
+        "translation_quote": "قائدٍ ربما يكون غامضًا بعض الشيء، لكنه كان ذا تأثير في حركة الإنعام الأولى في سويسرا. ... العديد من أحفاد الإنعاميين اليوم. ... العديد من الناس الإنعاميين المحافظين اليوم ..."
+      },
+      {
+        "location": "source.html paragraph 20 (\"I finally purchased a German/English Bible\")",
+        "severity": "major",
+        "source_quote": "he finally purchased a German/English Bible.",
+        "suggested_fix": "Preserve the original third-person narration. Change the mistranslated first-person to third-person: e.g., \"في نهاية المطاف اشترى لنفسه إنجيلًا ألمانيًا/إنجليزيًا.\" or \"وأخيرًا اشترى إنجيلًا ألمانيًا/إنجليزيًا.\"",
+        "translation_quote": "اشترىتُ له في النهاية إنجيلًا ألمانيًا/إنجليزيًا."
+      },
+      {
+        "location": "source.html paragraph 4 (\"acts of God\")",
+        "severity": "minor",
+        "source_quote": "insurance companies still refer to certain specific events as “acts of God”.",
+        "suggested_fix": "Translate the quoted phrase into Arabic rather than leaving it in English. For example: \"لا تزال شركات التأمين تشير إلى بعض الأحداث المحددة بأنها 'أعمال الله'.\"",
+        "translation_quote": "…إلا أن شركات التأمين لا تزال تُشير إلى أحداث محددة بأنها \"أعمال الله\"."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

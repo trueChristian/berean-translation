@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning \"Se estamos saudáveis, e se as coisas vão bem...\" (Preservando nossa Pessoa section)",
+      "severity": "minor",
+      "source_quote": "All good and perfect gifts come from God, but a debilitating storm can fall under that category as well. Our personal surroundings are temporal while our soul is eternal.",
+      "suggested_fix": "In the translated paragraph a single English word was left in brackets. Replace the bracketed English word with the correct Portuguese equivalent to make the sentence fully in the target language and preserve flow. For example: change \"displeasure [desaprovação]\" to simply \"desaprovação\".",
+      "translation_quote": "É um erro crer que navegação fácil é sinal do favor de Deus, e que problemas são sinal de Sua displeasure [desaprovação]."
+    },
+    {
+      "location": "Paragraph beginning \"Como humanos, temos a capacidade divina...\" (earlier in same section about faith failing when anxiety escalates)",
+      "severity": "minor",
+      "source_quote": "We faithfully launch our prayers upward, but the heavens seem brazenly silent.",
+      "suggested_fix": "Replace the untranslated English adverb with a Portuguese equivalent so the sentence is fully translated and idiomatic. For example: change \"os céus parecem brazenly silenciosos\" to \"os céus parecem descaradamente silenciosos\" or \"os céus parecem absolutamente silenciosos.\"",
+      "translation_quote": "Lançamos fielmente nossas orações para cima, mas os céus parecem brazenly silenciosos."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

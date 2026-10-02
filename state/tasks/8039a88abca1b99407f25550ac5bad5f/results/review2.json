@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b31bb15d-3250-4717-9479-b8531757be89",
+    "response_id": "chatcmpl-EUX1jRNHuLB2Sv2aG7IQFyXmvrZW0",
+    "usage": {
+      "completion_tokens": 1430,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10065,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11495
+    }
+  },
+  "received_at": "2026-10-02T12:55:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 1 (first <p>)",
+        "severity": "minor",
+        "source_quote": "Each trip back to the U.S. has been challenging as we have observed the changes—changes in culture, in technology, in values, etc.",
+        "suggested_fix": "Adjust Swedish wording for naturalness and grammar: replace “Under de senaste åren har vi lagt ner mycket av vår tid i Haiti i tjänst på missionsfältet.” (keeps meaning) and in the next sentence change “Varje resa tillbaka till USA har varit utmanande när vi sett förändringarna—förändringar i kultur, i teknik, i värderingar osv.” to “Varje resa tillbaka till USA har varit utmanande eftersom vi har sett förändringarna — i kultur, teknik, värderingar med mera.” Preserve existing HTML tags and order.",
+        "translation_quote": "Under de senaste åren har vi lagt ner mycket av vår tid i Haiti i tjänst på missionsfältet. Då och då har vi återvänt till USA för besök av varierande längd och anledning. Varje resa tillbaka till USA har varit utmanande när vi sett förändringarna—förändringar i kultur, i teknik, i värderingar osv."
+      },
+      {
+        "location": "Paragraph 12 (paragraph starting “Denne man besitter nu något...”)",
+        "severity": "minor",
+        "source_quote": "Here you have a man that may be satisfied with his life. ... He will keep it forever, he will never part with it, no matter the cost.",
+        "suggested_fix": "Typo and register: change “Denne man” to standard modern Swedish “Denna man”. This preserves meaning and theology. Keep HTML tags.",
+        "translation_quote": "Denne man besitter nu något inom sig varifrån det flyter <em>kärlek, glädje, frid, tålamod, vänlighet, godhet, tro, ödmjukhet, självbehärskning… –Galaterbrevet 5:22-23</em>, vilket är Andens frukt."
+      },
+      {
+        "location": "Paragraph 30 (Ezekiel quote paragraph)",
+        "severity": "minor",
+        "source_quote": "A new heart also will I give you, and a new spirit will I put within you: and I will take away the stony heart out of your flesh, and I will give you an heart of flesh. And I will put my spirit within you, and cause you to walk in my statutes, and ye shall keep my judgments, and do them –Ezekiel 36:26-27.",
+        "suggested_fix": "Quotation is translated and present, but Swedish punctuation and capitalization in the verse could be smoothed: consider rendering initial capital consistently (current translation is acceptable). No theological change; this is a minor stylistic suggestion only.",
+        "translation_quote": "<em>Ett nytt hjärta skall jag ock giva er, och en ny Ande skall jag lägga inom er; och jag skall taga bort stenhjärtat ur edert kött, och giva eder ett hjärta av kött. Och min Ande skall jag lägga inom er, och göra att I vandra i mina stadgar, och att I hålla mina domar och göra dem –Esekiel 36:26-27.</em>"
+      },
+      {
+        "location": "Paragraph 51 (final question)",
+        "severity": "minor",
+        "source_quote": "Twenty first century Christian, what will you do?",
+        "suggested_fix": "Small modern Swedish fix for flow: change “Tjugoförsta århundradets kristne, vad ska du göra?” to “Kristusföljare i det tjugoförsta århundradet — vad ska du göra?” if preferred. This is stylistic; no theological change. Preserve tags.",
+        "translation_quote": "Tjugoförsta århundradets kristne, vad ska du göra?"
+      },
+      {
+        "location": "Overall, small register and grammar issues (several places)",
+        "severity": "minor",
+        "source_quote": "(multiple small English source phrases — e.g. “he must sell all”, “light exposes darkness”, “the old man must die” )",
+        "suggested_fix": "Several Swedish phrases are slightly non-idiomatic (examples: “Tydligt nog tar det onda kontroll.” → “Tydligt nog tar det onda överhanden.”; “Men gamle mannen måste dö” → “Men den gamle mannen måste dö.”). These are minor copyedits to improve fluency while preserving meaning and theology. Make edits in place without changing HTML structure.",
+        "translation_quote": "Examples throughout translation (e.g. “Tydligt nog tar det onda kontroll.”; “Men gamle mannen måste dö—hans stolthet…”)"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

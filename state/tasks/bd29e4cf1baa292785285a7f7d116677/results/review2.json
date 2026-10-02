@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "10eaae3e-81c1-40e8-823a-8b6bc7be05a6",
+    "response_id": "chatcmpl-EUX1uumhNSueI1EaHatkG1hA8VS8u",
+    "usage": {
+      "completion_tokens": 1647,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7588,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9235
+    }
+  },
+  "received_at": "2026-10-02T12:55:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — multiple scripture quotations (e.g., opening blockquote and many inline verse quotations)",
+        "severity": "critical",
+        "source_quote": "“And Peter answered him and said, Lord, if it be thou, bid me come unto thee on the water. And he said, Come. And when Peter was come down out of the ship, he walked on the water, to go to Jesus –Matthew 14:28-29.” (and other quoted verses throughout: Matthew 14:22; Matthew 14:25-27; Luke 9:3; Luke 22:35; Matthew 14:30-32; Hebrews 11:1; John 1:1; John 16:13; 1 Corinthians 2:14; Matthew 14:31; Matthew 17:20; Matthew 14:32; Matthew 14:33; Galatians 6:2)",
+        "suggested_fix": "Translate every quoted Scripture passage into contemporary Modern Hebrew, preserving the exact chapter and verse numbers and the number and placement of references. Do not leave the English biblical text inside the Hebrew article. Use conventional Hebrew book names (see next finding) only for the reference tag if necessary, but the quoted biblical sentences themselves must be rendered fully in Hebrew. For example, translate the opening blockquote to Hebrew text that conveys Matthew 14:28–29 in the target language and keep the verse tag “–מתי 14:28–29” (or the publisher's chosen conventional Hebrew book name) at the end. Repeat for every inline and block Scripture quotation present in source.html. Ensure punctuation, quotation marks and italics from the source are preserved in their current HTML tag positions.",
+        "translation_quote": "Many quoted scripture passages are left in English inside the Hebrew article, e.g. “–Matthew 14:28-29.” and larger English quotations such as “And in the fourth watch of the night Jesus went unto them, walking on the sea...” remain untranslated."
+      },
+      {
+        "location": "source.html — inline book names and verse attributions (throughout body: e.g., “–Matthew 14:22.”, “–Luke 9:3.”, “–Hebrews 11:1.”, other verse tags)",
+        "severity": "major",
+        "source_quote": "Verse attributions in the English source: e.g., “–Matthew 14:22.”, “–Luke 9:3.”, “–Hebrews 11:1.”, “–John 1:1.”, etc.",
+        "suggested_fix": "Use conventional Hebrew forms for biblical book names in verse attributions (for example: Matthew = מתי, Luke = לוקס or לוקה depending on house style; Hebrews = לעברים or עבריים — use the publication’s standard; John = יוחנן; 1 Corinthians = א׳ לקורינתים). Replace the English book names in the attributions with the publisher’s chosen Hebrew book name while keeping the chapter:verse numerals and the dash (e.g., “–מתי 14:22.”). If the publisher prefers anglicized names spelled in Hebrew letters, follow that convention, but do not leave the English names in Latin script.",
+        "translation_quote": "Attributions and bracketed book names remain in English (Latin script) in the translation, e.g., “–Matthew 14:22.”, “–Luke 9:3.”, “–Hebrews 11:1.”, and others."
+      },
+      {
+        "location": "source.html — image alt attribute",
+        "severity": "minor",
+        "source_quote": "alt=\"Lightning beneath dark storm clouds over a field\"",
+        "suggested_fix": "Translate the image alt text into contemporary Modern Hebrew so that it communicates the same description to Hebrew readers and to assistive technologies. For example: alt=\"ברק מתחת לענני סערה כהים מעל שדה\" (or another natural-sounding Hebrew rendering). Preserve the alt attribute and other img tag attributes as-is.",
+        "translation_quote": "alt=\"Lightning beneath dark storm clouds over a field\" (left in English in the translated HTML)."
+      },
+      {
+        "location": "source.section",
+        "severity": "minor",
+        "source_quote": "Christian Discipleship",
+        "suggested_fix": "Consider a more idiomatic Hebrew rendering for the section header. The translation uses “דיסציפלינות נוצריות” which is literal and somewhat awkward in Modern Hebrew. Suggested alternatives: “תלמידות נוצרית” or “חיי תלמידות נוצרית” depending on the website’s preferred register. If the site prefers a literal cognate, keep “דיסציפלינות נוצריות”; otherwise replace with the chosen idiomatic form.",
+        "translation_quote": "\"דיסציפלינות נוצריות\" (current translated section header)."
+      }
+    ],
+    "passed": false,
+    "score": 65
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph",
+      "severity": "minor",
+      "source_quote": "Greetings to one and all in our dear Saviour’s name, Jesus Christ.",
+      "suggested_fix": "Translate smoothly into standard Bengali without leaving awkward or non-idiomatic phrasing. For example: \"আমাদের প্রিয় ত্রাণকর্তা যীশু খ্রীষ্টের নামে সকলকে শুভেচ্ছা।\" Preserve punctuation and HTML structure.",
+      "translation_quote": "প্রভু আমাদের মহৎ উপাশদের নাম—ইশু খ্রীষ্ট—নিয়ে প্রত্যেককে শুভেচ্ছা।"
+    },
+    {
+      "location": "First paragraph (line 2)",
+      "severity": "minor",
+      "source_quote": "Many are waiting with bated breath, anticipating what this new year will bring forth.",
+      "suggested_fix": "Remove the untranslated English word and render idiomatically in Bengali. For example: \"অনেকে শ্বাস কাঁপিয়ে অপেক্ষা করছেন, কী নিয়ে আসবে এই নতুন বছর তা জানার আকাঙ্ক্ষায়।\"",
+      "translation_quote": "অনেকে শ্বাস held করে অপেক্ষা করছেন, এই নতুন বছর কী আনবে তা জানার আকাঙ্ক্ষায়।"
+    },
+    {
+      "location": "Second paragraph (AI example)",
+      "severity": "minor",
+      "source_quote": "Then at the end of the meeting, with the push of a button, the artificial intelligence will produce detailed minutes of that meeting with a fair degree of accuracy.",
+      "suggested_fix": "Avoid leaving the English loanword 'minutes' untranslated; use a Bengali equivalent such as \"মিটিং-এর বিস্তারিত কার্যবিবরণী\" or \"মিটিং-এর মিনিটস (কার্যবিবরণী)\" if a transliteration note is desired. Keep meaning intact.",
+      "translation_quote": "তারপর মিটিংয়ের শেষে এক বোতাম চাপলেই কৃত্রিম বুদ্ধিমত্তা ওই মিটিং-এর বিস্তারিত মিনিটস যথেষ্ট সঠিকতার সঙ্গে তৈরি করে দেবে।"
+    },
+    {
+      "location": "Paragraph about the motel nightstand",
+      "severity": "major",
+      "source_quote": "There, in the nightstand drawer he discovered a book titled “The Holy Bible”.",
+      "suggested_fix": "Correct the piece of furniture to match the source. The source says \"nightstand drawer\". Translate as \"রাতের টেবিলের আলমারি/ড্রয়ারে\" or \"বিছানার পাশে রাখার টেবিলের ড্রয়ারে\" (consistent Bengali for 'nightstand drawer'). Do not change to other furniture. Preserve HTML tags and order.",
+      "translation_quote": "তবে সেখানে, টেবিলচেয়ার ড্রয়ারে তিনি একটি বই পেলেন—শিরোনাম “পবিত্র বাইবেল”।"
+    },
+    {
+      "location": "Paragraph quoting Hebrews 13:17",
+      "severity": "minor",
+      "source_quote": "Obey them that have the rule over you, and submit yourselves: for they watch for your souls, as they that must give account… –Hebrews 13:17.",
+      "suggested_fix": "Remove or replace the untranslated/non-Bengali token 'poslu' and render the verse phrase idiomatically in Bengali consistent with the rest of the translation. For example: \"যাদের দ্বারা তোমাদের শাসিত করা হয়, তাদের আজ্ঞাকর এবং আত্মসমর্পণ কর; কারণ তারা তোমাদের আত্মার যত্ন করে, এবং তাদেরকে হিসাব দিতে হবে… —হিব্রু ১৩:১৭।\" Keep chapter and verse as in source.",
+      "translation_quote": "<em>“তোমাদের যাঁদের দ্বারা শাসিত করাও, তাঁদের poslu কর এবং আত্মসমর্পন কর; কারণ তাঁরা তোমাদের আত্মার যত্ন রাখে, যাঁদেরকে হিসাব দিতে হবেই” —হিব্রু ১৩:১৭।</em>"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

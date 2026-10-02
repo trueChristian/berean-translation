@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "<p>...कैंसर क्या है?</p> (paragraph containing Bible quote Isaiah 41:10)",
+      "severity": "major",
+      "source_quote": "Fear thou not; for I am with thee: be not dismayed; for I am thy God: I will strengthen thee; yea, I will help thee; yea, I will uphold thee with the right hand of my righteousness –Isaiah 41:10.",
+      "suggested_fix": "Replace the English book name with the conventional Hindi form and keep the chapter/verse numbers unchanged. E.g.: “–यशायाह 41:10.” (Preserve the dash and spacing as in source.)",
+      "translation_quote": "<em>डर मत; क्योंकि मैं तुम्हारे साथ हूँ: घबराओ मत; क्योंकि मैं तुम्हारा परमेश्वर हूँ: मैं तुझे दृढ़ करूँगा; हाँ, मैं तुझे सहायक बनूँगा; हाँ, मैं अपनी धार्मिकता के दाहिने हाथ से तुझको संभालूँगा –Isaiah 41:10.</em>"
+    },
+    {
+      "location": "<p>...अंतिम विचार</p> (paragraph containing Matthew quotation)",
+      "severity": "major",
+      "source_quote": "Therefore take no thought, saying, What shall we eat? or, What shall we drink? or, Wherewithal shall we be clothed? ... Sufficient unto the day is the evil thereof –Matthew 6:31-34.",
+      "suggested_fix": "Replace the English book name with the conventional Hindi form while keeping chapter and verse numbers unchanged. E.g.: “–मत्ती 6:31-34.” (Preserve punctuation/placement.)",
+      "translation_quote": "<em>सो निश्चिन्त हो जाओ, कहकर, हम क्या खाएँगे? ... प्रतिदिन के लिये अपने बुरे की मात्रा पर्याप्त है –Matthew 6:31-34.</em>"
+    },
+    {
+      "location": "<h2>कैंसर क्या है?</h2>\n\n  <p>...वापस trace कर सकते हैं।</p>",
+      "severity": "minor",
+      "source_quote": "we can trace the beginnings of cancer back to the fall of man in the Garden of Eden.",
+      "suggested_fix": "Translate the English word 'trace' into natural Hindi. E.g.: 'हम कैंसर की शुरुआत को मानव के पतन तक, एडेन के बगीचे में लौटकर... अनुसरण कर सकते हैं' or 'पहुँचा सकते हैं/पता लगा सकते हैं'. Keep sentence meaning and structure.",
+      "translation_quote": "कई चीजों की तरह, हम कैंसर की शुरुआत को मानव के पतन तक, एडेन् के बगीचे में वापस trace कर सकते हैं।"
+    },
+    {
+      "location": "<p>...CEA-125 ... GI (gastrointestinal) cancers ...</p>",
+      "severity": "minor",
+      "source_quote": "GI (gastrointestinal) cancers",
+      "suggested_fix": "Translate the parenthetical explanatory phrase into Hindi or provide a Hindi equivalent while retaining the original acronym if desired. E.g.: 'GI (गैस्ट्रोइंटेस्टाइनल) कैंसर' or 'पाचन तंत्र (गैस्ट्रोइंटेस्टाइनल) कैंसर'.",
+      "translation_quote": "बहुत से GI (गैस्ट्रोइंटेस्टाइनल) कैंसर यह रसायन बिल्कुल नहीं बनाते।"
+    },
+    {
+      "location": "<p>...21st century (AD) ...</p>",
+      "severity": "minor",
+      "source_quote": "21st century (AD)",
+      "suggested_fix": "Localize the era abbreviation into Hindi conventional usage while preserving the parenthetical note. E.g.: '21वीं सदी (ईस्वी)' or '21वीं शताब्दी (ईस्वी)' instead of '(AD)'.",
+      "translation_quote": "... 21<sup>st</sup> सदी (AD) में हमारा है।"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

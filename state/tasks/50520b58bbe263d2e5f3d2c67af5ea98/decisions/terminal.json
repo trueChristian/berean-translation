@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph that mentions the pre‑Flood lifespan (near: \"their DNA was closer to the original genetic specimen... 21st century (AD)\")",
+      "severity": "minor",
+      "source_quote": "their DNA was closer to the original genetic specimen of mankind (and thus, to perfection) than ours is in the 21<sup>st</sup> century (AD)",
+      "suggested_fix": "Translate the English ordinal/superscript into proper Portuguese usage. Replace the untranslated \"21st\" with \"século 21\" (or \"século XXI\") and keep the parenthetical \"(d.C.)\". For example: \"...do que o nosso está no século 21 (d.C.).\" Preserve the surrounding HTML and tags.",
+      "translation_quote": "O DNA deles estava mais próximo do espécime genético original da humanidade (e, portanto, da perfeição) do que o nosso está no século 21<sup>st</sup> (d.C.)."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

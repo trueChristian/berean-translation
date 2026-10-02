@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>Remember, it is <em>…the fearful, and unbelieving … [who] shall have their part in the lake which burneth with fire and brimstone… –Revelation 21:8.</em></p>",
+      "severity": "major",
+      "source_quote": "“…the fearful, and unbelieving … [who] shall have their part in the lake which burneth with fire and brimstone… –Revelation 21:8.”",
+      "suggested_fix": "Translate the English theological term 'unbelieving' as a standard Hindi equivalent that preserves the doctrinal sense (अविश्वासी). Replace 'अस्वस्थदिल' with 'अविश्वासी'. Keep the rest of the verse translation intact. Example fix (within the existing HTML and tags): <em>…भयभीत और अविश्वासी … [जिनका भाग वह झील है जो आग और सल्फर से जलती है] — प्रकाशितवाक्य 21:8।</em>",
+      "translation_quote": "“…भयभीत और अस्वस्थदिल … [जिनका भाग वह झील है जो आग और सल्फर से जलती है] — प्रकाशितवाक्य 21:8।”"
+    },
+    {
+      "location": "<p>The story paragraph referencing 1 Corinthians 14 and being 'edified'</p>",
+      "severity": "minor",
+      "source_quote": "“All that he heard was what 1 Corinthians chapter 14 refers to as tongues (languages) and since he didn’t understand the language and since there was no interpretation given, he was not able to be edified.”",
+      "suggested_fix": "The English 'edified' (theological term meaning 'built up' or 'benefited spiritually') should be rendered by a clearer Hindi theological equivalent. Replace 'वह निर्मित नहीं हो सका' with 'वह लाभ नहीं उठा सका' or 'वह आध्यात्मिक रूप से निर्मित/उन्नत नहीं हो सका'. Example: 'वह उस भाषा को न समझने तथा कोई व्याख्या न होने के कारण आध्यात्मिक रूप से पोषित/उन्नत नहीं हो सका।' Preserve HTML tags and surrounding sentence structure.",
+      "translation_quote": "“जो कुछ वह सुनता था वह 1 कुरिन्थियों अध्याय 14 में वर्णित भाषाएँ थीं और चूँकि वह उस भाषा को नहीं समझता था और न ही कोई व्याख्या दी जाती थी, वह निर्मित नहीं हो सका।”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

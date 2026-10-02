@@ -2,7 +2,6 @@
   "article_id": "71a8a627-ef21-4efb-9dd1-36d5124ac192",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "75a0fdcac1c547d5ab399727152007ad",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -43,18 +42,53 @@
         },
         "total_tokens": 10374
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1096,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6613,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7709
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[12]: source /article[1]/p[4]/em[1]/strong[1] ('start', 'strong', ()); translation /article[1]/p[4]/em[1] ('end', 'em')",
-      "translation_quote": ""
+      "location": "source.html paragraph 1 (mentions \"Anabaptist\") and multiple other paragraphs",
+      "severity": "major",
+      "source_quote": "a somewhat obscure, yet influential leader of the early Anabaptist movement in Switzerland",
+      "suggested_fix": "Translate the denominational term accurately. Replace \"الإنعام\"/\"الإنعاميين\" with a standard Arabic rendering of Anabaptist such as \"الأنابابتست\" or \"المعمدانيون المعادون\" consistently (e.g., \"حركة الأنابابتست المبكرة في سويسرا\", \"أحفاد الأنابابتست\"). Ensure the chosen term is used throughout the article in all occurrences.",
+      "translation_quote": "قائدٍ ربما يكون غامضًا بعض الشيء، لكنه كان ذا تأثير في حركة الإنعام الأولى في سويسرا. ... العديد من أحفاد الإنعاميين اليوم. ... العديد من الناس الإنعاميين المحافظين اليوم ..."
+    },
+    {
+      "location": "source.html paragraph 20 (\"I finally purchased a German/English Bible\")",
+      "severity": "major",
+      "source_quote": "he finally purchased a German/English Bible.",
+      "suggested_fix": "Preserve the original third-person narration. Change the mistranslated first-person to third-person: e.g., \"في نهاية المطاف اشترى لنفسه إنجيلًا ألمانيًا/إنجليزيًا.\" or \"وأخيرًا اشترى إنجيلًا ألمانيًا/إنجليزيًا.\"",
+      "translation_quote": "اشترىتُ له في النهاية إنجيلًا ألمانيًا/إنجليزيًا."
+    },
+    {
+      "location": "source.html paragraph 4 (\"acts of God\")",
+      "severity": "minor",
+      "source_quote": "insurance companies still refer to certain specific events as “acts of God”.",
+      "suggested_fix": "Translate the quoted phrase into Arabic rather than leaving it in English. For example: \"لا تزال شركات التأمين تشير إلى بعض الأحداث المحددة بأنها 'أعمال الله'.\"",
+      "translation_quote": "…إلا أن شركات التأمين لا تزال تُشير إلى أحداث محددة بأنها \"أعمال الله\"."
     }
   ],
+  "finished_at": "2026-10-02T12:55:26+00:00",
   "id": "4ba82a1b73b4d235028a63178bf678ce",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ara",
@@ -128,11 +162,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/9bbeaa248aca4a5e53cf4e710626c35ad1fcffe1f073f387e31c0a9f5dd08124.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c8c09427567d4bc1f9b13eb8f03d2de65724d1971e30094c9e925e9045066f8d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

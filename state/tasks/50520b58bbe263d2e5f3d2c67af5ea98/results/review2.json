@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0267fbf8-d0b2-4178-8f22-3d6623d66e98",
+    "response_id": "chatcmpl-EUX20F5RnG6o0HbLgyQyDaBPY2veI",
+    "usage": {
+      "completion_tokens": 867,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7893,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8760
+    }
+  },
+  "received_at": "2026-10-02T12:55:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph that mentions the pre‑Flood lifespan (near: \"their DNA was closer to the original genetic specimen... 21st century (AD)\")",
+        "severity": "minor",
+        "source_quote": "their DNA was closer to the original genetic specimen of mankind (and thus, to perfection) than ours is in the 21<sup>st</sup> century (AD)",
+        "suggested_fix": "Translate the English ordinal/superscript into proper Portuguese usage. Replace the untranslated \"21st\" with \"século 21\" (or \"século XXI\") and keep the parenthetical \"(d.C.)\". For example: \"...do que o nosso está no século 21 (d.C.).\" Preserve the surrounding HTML and tags.",
+        "translation_quote": "O DNA deles estava mais próximo do espécime genético original da humanidade (e, portanto, da perfeição) do que o nosso está no século 21<sup>st</sup> (d.C.)."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

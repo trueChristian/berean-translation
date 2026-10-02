@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.html: paragraph 2 (\"We can believe that He is Master of the wind and seas, and they must bow at His command...\")",
+      "severity": "critical",
+      "source_quote": "We can believe that He is Master of the wind and seas, and they must bow at His command, but does He expect us to do the same?",
+      "suggested_fix": "Translate the theological claim faithfully. Replace the incorrect word \"Mwana\" with a Kiswahili term that accurately reflects the English \"Master\" (for example \"Mkuu\" or \"Mwenye mamlaka\"). Preserve the rest of the sentence. Example (Kiswahili): \"Tunaweza kuamini kwamba Yeye ndiye Mwenye mamlaka juu ya upepo na bahari, na zinapaswa kumtii kwa amri Yake, lakini je, anatarajia sisi tufanye vivyo hivyo?\" Ensure the fix keeps HTML structure and tags unchanged.",
+      "translation_quote": "Tunaweza kuamini kwamba Yeye ndiye Mwana wa upepo na bahari, na lazima zikubali kwa amri Yake, lakini je, anatarajia sisi tufanye vivyo hivyo?"
+    },
+    {
+      "location": "source.html: paragraph 6 (\"Paul was comforted and commended while the disciples received rebuke.\")",
+      "severity": "major",
+      "source_quote": "Paul was comforted and commended while the disciples received rebuke.",
+      "suggested_fix": "Correct the Kiswahili verb to convey that Paul received comfort and encouragement. Replace the unclear or incorrect \"alifasiriwa\" with a clear rendering such as \"alipata faraja na kukubalika\" or \"alifarajiwa na kupongezwa\". Example: \"Paulo alifarajiwa na kupongezwa wakati mitume walipopokea kibarua (au: kibaraka/kakemezo).\" Keep tags and order unchanged.",
+      "translation_quote": "Paulo alifasiriwa na kupewa faraja wakati mitume walipokea kibaraka."
+    },
+    {
+      "location": "source.html: paragraph 15 (reference to the wind name)",
+      "severity": "minor",
+      "source_quote": "…a tempestuous wind, called Euroclydon –Acts 27:14.",
+      "suggested_fix": "Preserve the exact proper name spelling from the authoritative English text. Change \"Euroclidon\" to the exact form \"Euroclydon\" (or a conventional localized form if that is authoritative) within the translated HTML. Do not alter surrounding punctuation or tags.",
+      "translation_quote": "…upepo wa dhoruba, ulioitwa Euroclidon –Matendo 27:14."
+    },
+    {
+      "location": "source.html: multiple paragraphs (formatting/capitalization and odd word choice: \"malalo Ya kimungu\")",
+      "severity": "minor",
+      "source_quote": "...while Christ continues in His divine slumber, waiting until we recognize the source of our anxiety and call out in faith.",
+      "suggested_fix": "Fix capitalization, spacing and word choice to be idiomatic Kiswahili and preserve meaning. Replace \"malalo Ya kimungu\" with an idiomatic phrase such as \"usingizi wake wa kimungu\" or \"malalo yake ya kimungu\" and correct accidental internal capitalization. Example: \"...wakati Kristo anaendelea katika usingizi wake wa kimungu, akisubiri...\" Preserve tags and sentence order.",
+      "translation_quote": "...wakati Kristo anaendelea katika malalo Ya kimungu, akisubiri hadi tutambue chanzo cha wasiwasi wetu na tupige kelele kwa imani."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

@@ -2,7 +2,6 @@
   "article_id": "d38bf79f-957f-413c-ad4d-a6b4fa8c8112",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "75a0fdcac1c547d5ab399727152007ad",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -43,18 +42,67 @@
         },
         "total_tokens": 14248
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1396,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8850,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10246
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[44]: source /article[1]/p[18]/sup[1] ('start', 'sup', ()); translation /article[1]/p[18] ('end', 'p')",
-      "translation_quote": ""
+      "location": "<p>...कैंसर क्या है?</p> (paragraph containing Bible quote Isaiah 41:10)",
+      "severity": "major",
+      "source_quote": "Fear thou not; for I am with thee: be not dismayed; for I am thy God: I will strengthen thee; yea, I will help thee; yea, I will uphold thee with the right hand of my righteousness –Isaiah 41:10.",
+      "suggested_fix": "Replace the English book name with the conventional Hindi form and keep the chapter/verse numbers unchanged. E.g.: “–यशायाह 41:10.” (Preserve the dash and spacing as in source.)",
+      "translation_quote": "<em>डर मत; क्योंकि मैं तुम्हारे साथ हूँ: घबराओ मत; क्योंकि मैं तुम्हारा परमेश्वर हूँ: मैं तुझे दृढ़ करूँगा; हाँ, मैं तुझे सहायक बनूँगा; हाँ, मैं अपनी धार्मिकता के दाहिने हाथ से तुझको संभालूँगा –Isaiah 41:10.</em>"
+    },
+    {
+      "location": "<p>...अंतिम विचार</p> (paragraph containing Matthew quotation)",
+      "severity": "major",
+      "source_quote": "Therefore take no thought, saying, What shall we eat? or, What shall we drink? or, Wherewithal shall we be clothed? ... Sufficient unto the day is the evil thereof –Matthew 6:31-34.",
+      "suggested_fix": "Replace the English book name with the conventional Hindi form while keeping chapter and verse numbers unchanged. E.g.: “–मत्ती 6:31-34.” (Preserve punctuation/placement.)",
+      "translation_quote": "<em>सो निश्चिन्त हो जाओ, कहकर, हम क्या खाएँगे? ... प्रतिदिन के लिये अपने बुरे की मात्रा पर्याप्त है –Matthew 6:31-34.</em>"
+    },
+    {
+      "location": "<h2>कैंसर क्या है?</h2>\n\n  <p>...वापस trace कर सकते हैं।</p>",
+      "severity": "minor",
+      "source_quote": "we can trace the beginnings of cancer back to the fall of man in the Garden of Eden.",
+      "suggested_fix": "Translate the English word 'trace' into natural Hindi. E.g.: 'हम कैंसर की शुरुआत को मानव के पतन तक, एडेन के बगीचे में लौटकर... अनुसरण कर सकते हैं' or 'पहुँचा सकते हैं/पता लगा सकते हैं'. Keep sentence meaning and structure.",
+      "translation_quote": "कई चीजों की तरह, हम कैंसर की शुरुआत को मानव के पतन तक, एडेन् के बगीचे में वापस trace कर सकते हैं।"
+    },
+    {
+      "location": "<p>...CEA-125 ... GI (gastrointestinal) cancers ...</p>",
+      "severity": "minor",
+      "source_quote": "GI (gastrointestinal) cancers",
+      "suggested_fix": "Translate the parenthetical explanatory phrase into Hindi or provide a Hindi equivalent while retaining the original acronym if desired. E.g.: 'GI (गैस्ट्रोइंटेस्टाइनल) कैंसर' or 'पाचन तंत्र (गैस्ट्रोइंटेस्टाइनल) कैंसर'.",
+      "translation_quote": "बहुत से GI (गैस्ट्रोइंटेस्टाइनल) कैंसर यह रसायन बिल्कुल नहीं बनाते।"
+    },
+    {
+      "location": "<p>...21st century (AD) ...</p>",
+      "severity": "minor",
+      "source_quote": "21st century (AD)",
+      "suggested_fix": "Localize the era abbreviation into Hindi conventional usage while preserving the parenthetical note. E.g.: '21वीं सदी (ईस्वी)' or '21वीं शताब्दी (ईस्वी)' instead of '(AD)'.",
+      "translation_quote": "... 21<sup>st</sup> सदी (AD) में हमारा है।"
     }
   ],
+  "finished_at": "2026-10-02T12:55:27+00:00",
   "id": "d43599ee7a3e2119152e04878734bcf1",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "hin",
@@ -128,11 +176,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c359f5eb7511bee303f2540e716a2b918a181459a9c7bd95ec949a6df55470c5.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "48e3cf7ce54a82130b52527f677657d3f940e34281e04d33a0d21d610cf9910a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

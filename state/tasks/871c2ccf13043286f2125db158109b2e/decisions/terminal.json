@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html — paragraph beginning \"We know that before the flood, men lived to be very old—often into their 900s.\"",
+      "severity": "minor",
+      "source_quote": "their DNA was closer to the original genetic specimen of mankind (and thus, to perfection) than ours is in the 21st century (AD) Therefore, the chance of genes mutating and abnormal genes popping up was much less than it is now.",
+      "suggested_fix": "Use the standard Korean rendering for the ordinal and century. Preserve meaning but format idiomatically: e.g. \"...우리 21세기(서기) 사람들보다...\" Keep the parenthetical \"(서기)\". Do not alter the theological claim.",
+      "translation_quote": "\"그들의 DNA는 원래 인류의 유전적 표본(따라서 완전성)에 더 가까웠으며, 우리 21st세기(서기) 사람들보다 더 완전에 가까웠다. 따라서 유전자가 돌연변이로 변하고 비정상적인 유전자가 생겨날 확률은 지금보다 훨씬 적었다.\""
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

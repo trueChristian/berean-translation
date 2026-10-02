@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "<ul> (first list item, Ephesians 5:33)",
+      "severity": "major",
+      "source_quote": "Nevertheless let … the wife see that she reverence her husband –Ephesians 5:33.",
+      "suggested_fix": "Translate the verse phrase to standard Dutch wording that preserves the meaning (reverence/respect), and keep HTML tags intact. For example: <li><em>Doch laat de vrouw blijken dat zij <strong>ontzag heeft voor haar man</strong> –Efeziërs 5:33.</em></li>",
+      "translation_quote": "<li><em>Doch laat de vrouw zien dat zij <strong>vresing voor haar man</strong> heeft –Efeziërs 5:33.</em></li>"
+    },
+    {
+      "location": "<aside><h2>Editor’s Note:</h2> (aside heading)",
+      "severity": "critical",
+      "source_quote": "Editor’s Note:",
+      "suggested_fix": "Translate the aside heading into Dutch. Preserve the <h2> tag and content order. Example: <aside>\n    <h2>Redactionele noot:</h2>",
+      "translation_quote": "<h2>Editor’s Note:</h2>"
+    },
+    {
+      "location": "Multiple places (English typo in body)",
+      "severity": "major",
+      "source_quote": "Would we appreciate our husbands talking about our faults to other people?",
+      "suggested_fix": "Correct the English-to-Dutch rendering and typographical error. Replace 'Woulden' with correct Dutch interrogative phrasing 'Zouden we'. For example: \"Zouden we het op prijs stellen als onze mannen over onze fouten met andere mensen spraken?\" Ensure punctuation and surrounding sentence remain inside the same <p> element.",
+      "translation_quote": "Woulden we het op prijs stellen als onze mannen over onze fouten met andere mensen spraken?"
+    },
+    {
+      "location": "Titus quotation and rendered clause (Titus 2:3-5)",
+      "severity": "minor",
+      "source_quote": "The aged women likewise, that they be ... teachers of good things; That they may teach the young women to be sober, to love their husbands, to love their children, To be discreet, chaste, keepers at home, good, obedient to their own husbands, that the word of God be not blasphemed –Titus 2:3-5.",
+      "suggested_fix": "Render the opening clause consistently and idiomatically in Dutch so the meaning of 'aged women likewise, that they be ... teachers of good things' is clear. Keep <em> and <strong> tags as in source. Example: <em>De oudere vrouwen evenzo: dat zij in het leven staan en leraressen in goede dingen zijn; zij moeten de jonge vrouwen leren zich sober te gedragen, <strong>hun mannen lief te hebben,</strong> ... –Titus 2:3-5.</em>",
+      "translation_quote": "<em>De ouder vrouwen evenzo, dat zij in het leven staan, als moeders; Zij moeten de jonge vrouwen bijbrengen zich sober te gedragen, <strong>hun mannen lief te hebben,</strong> hun kinderen lief te hebben, discreet, kuis, huishoudelijk, goed, <strong>gehoorzaam aan hun eigen mannen,</strong> opdat het Woord van God niet lasterlijk gesproken wordt –Titus 2:3-5.</em>"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

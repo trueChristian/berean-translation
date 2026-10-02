@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph mentioning the Münsterites (near description of peasant uprisings)",
+      "severity": "minor",
+      "source_quote": "Events such as the Muensterites and their violent interpretations of Scripture remained a clear warning of religious zeal gone awry.",
+      "suggested_fix": "Render the English name consistently and idiomatically in German. Use a standard German form such as „Münsteraner“ (or keep the untranslated English form if the editorial style prefers). Example fix in German: „Ereignisse wie die Münsteraner und ihre gewalttätigen Auslegungen der Schrift blieben eine deutliche Warnung …“",
+      "translation_quote": "Ereignisse wie die Münsterischen und ihre gewalttätigen Auslegungen der Schrift blieben eine deutliche Warnung vor religiösem Eifer, der aus dem Ruder läuft."
+    },
+    {
+      "location": "Paragraph listing Zurich officials (first introduction) — mayor's name",
+      "severity": "minor",
+      "source_quote": "including the mayor of Zurich, Rudolf Rhan; his chief of police, Conrad Grebel",
+      "suggested_fix": "Correct the mayor's name to match the English source spelling. The translation uses a different spelling. Change „Rhudlof Rhan“ (if present later) back to the source form „Rudolf Rhan“ wherever it appears. (Do not change other mentions that already match.)",
+      "translation_quote": "Rhudlof Rhan und Conrad Grebel setzten die Verfolgung der verbliebenen Täufer fort …"
+    },
+    {
+      "location": "Paragraph describing those who visited Hans in prison (\"Officer Grebel, the Protestant clergy, and various others\")",
+      "severity": "minor",
+      "source_quote": "Officer Grebel, the Protestant clergy, and various others spent much time in discussion with Hans in his prison cell, but to no avail.",
+      "suggested_fix": "Use an idiomatic German term instead of the English loanword \"Officer\". Replace with \"Beamter Grebel\", \"Amtmann Grebel\" or \"Offizier Grebel\" according to context. Example: „Beamter Grebel, die protestantischen Geistlichen und mehrere andere besuchten Hans …“",
+      "translation_quote": "Officer Grebel, die protestantischen Geistlichen und mehrere andere suchten Hans in seiner Zelle immer wieder zum Gespräch auf, jedoch ohne Erfolg."
+    },
+    {
+      "location": "Paragraph describing where Felix Manz died (near execution scene)",
+      "severity": "minor",
+      "source_quote": "Then, within sight of the place where Feliz Manz had given his life nearly a century prior, he knelt and bowed his head.",
+      "suggested_fix": "The English source uses the spelling \"Feliz\" at this point. The German translation renders the name as „Felix Manz“. Preserve the source's printed spelling unless editorial policy allows correction. If you follow the printed source literally, change to „Feliz Manz“. If editorial correction is acceptable, keep „Felix Manz\" but document that this is a correction of the English spelling.",
+      "translation_quote": "Dann kniete er, in Sichtweite der Stelle, an der fast ein Jahrhundert zuvor Felix Manz sein Leben gelassen hatte, und neigte sein Haupt."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

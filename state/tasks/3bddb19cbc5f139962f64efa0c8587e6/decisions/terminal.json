@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "<p>…For my yoke is easy, and my burden is light –Matthew 11:28-30.</p>",
+      "severity": "critical",
+      "source_quote": "…For my yoke is easy, and my burden is light –Matthew 11:28-30.",
+      "suggested_fix": "Translate the exact quoted English passage into Arabic, preserving the verse reference unchanged and keeping it inside the same <em>…</em> structure. For example: <em>…نيره هين وحمله خفيف — متى 11:28-30.</em> (Place the Arabic quotation text exactly where the current Arabic scripture text appears, and keep the surrounding HTML tags and punctuation unchanged.)",
+      "translation_quote": "<em>…لأني وديع ومتواضع القلب. تعالوا إليّ أنتم جميع المتعبين والثقال الأحمال، وأنا أريحكم — متى 11:28-30.</em>"
+    },
+    {
+      "location": "<article> ... <p class=\"drop-cap\">Glancing up at the sun, Beto (a made-up name) quickened his already hurried pace as he approached the forest. ...</p>",
+      "severity": "minor",
+      "source_quote": "Entering the cool shade of the forest, Beto paused just long enough for a refreshing drink of water from the creek that meandered across the footpath.",
+      "suggested_fix": "Render the nuance “paused just long enough” (brief pause sufficient for a drink) rather than “طويلاً”. Suggested Arabic: \"توقف بيتو لحظة بالكاد تكفي ليرشف رشفة منعشة من الماء من الجدول الذي يجري عبر الممر.\" Preserve the same <p> tag and class.",
+      "translation_quote": "وعند دخوله ظل الغابة البارد، توقف بيتو طويلاً بما يكفي ليتناول رشفة منعشة من الماء من الجدول الذي يجري عبر الممر."
+    },
+    {
+      "location": "<p>In Acts 16, we read an account of Paul and Silas ... secured in stocks, and locked in prison.</p>",
+      "severity": "minor",
+      "source_quote": "secured in stocks, and locked in prison.",
+      "suggested_fix": "The Arabic word «الأكباش» is incorrect here (it means rams). Use a correct rendering for 'secured in stocks' such as «وصُلبا بالأغلال» or «وكُبّلا بالسلاسل/بالأغلال»، keeping the sentence structure and punctuation. Example: «تعرضا للضرب بشدة من السلطات المحلية، وكُبّلا بالأغلال، وأُقفلا في السجن.»",
+      "translation_quote": "بعد أن شفىا فتاة ممسوسة، تعرّضا للضرب بشدة من السلطات المحلية، وكبّلا بالأكباش، وأُقفلا في السجن."
+    },
+    {
+      "location": "source.section",
+      "severity": "minor",
+      "source_quote": "Inspirations for Youth",
+      "suggested_fix": "Translate the section name into Modern Standard Arabic. For example: \"إلهام للشباب\" or \"خواطر للشباب\" (choose the publisher's preferred conventional rendering). Keep the source.section field value exactly replaced with the Arabic text.",
+      "translation_quote": "Inspirations for Youth"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

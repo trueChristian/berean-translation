@@ -2,7 +2,6 @@
   "article_id": "3feab4dd-c830-4ead-ad57-24d853847088",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "75a0fdcac1c547d5ab399727152007ad",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -43,18 +42,46 @@
         },
         "total_tokens": 18151
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1273,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10937,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12210
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[20]: source /article[1]/p[9]/em[1] ('start', 'em', ()); translation /article[1]/p[9] ('end', 'p')",
-      "translation_quote": ""
+      "location": "<article> paragraph 2 (source.html beginning third line)",
+      "severity": "major",
+      "source_quote": "Time and time again, throughout history, the collective thought of man has turned to something greater than themselves. Religions rise, and religions fall, empires are founded and crumble, philosophies develop and fall apart.",
+      "suggested_fix": "Replace the mistranslated verb that changes meaning. Suggested Greek rendering that preserves the original meaning: «Ξανά και ξανά, διαχρονικά, η συλλογική σκέψη του ανθρώπου στρέφεται σε κάτι μεγαλύτερο από τον ίδιο. Θρησκείες αναδύονται και παύουν να υπάρχουν, αυτοκρατορίες ιδρύονται και καταρρέουν, φιλοσοφίες αναπτύσσονται και διαλύονται.» (or more idiomatically: «Θρησκείες αναδύονται και παύουν να υπάρχουν» or «Θρησκείες αναδύονται και εξαφανίζονται»). Do not use «θυσιάζονται», which means “are sacrificed” and alters the author's meaning.",
+      "translation_quote": "Ξανά και ξανά, διαχρονικά, η συλλογική σκέψη του ανθρώπου στρέφεται σε κάτι μεγαλύτερο από τον ίδιο. Θρησκείες αναδύονται και θυσιάζονται, αυτοκρατορίες ιδρύονται και καταρρέουν, φιλοσοφίες αναπτύσσονται και διαλύονται."
+    },
+    {
+      "location": "multiple (term for 'separatists' in council quotation)",
+      "severity": "minor",
+      "source_quote": "the separatists should “not misuse the patience and graciousness of the lords.”",
+      "suggested_fix": "The translation uses the transliterated loanword «σεπαρατιστές». For better target-language idiom and clarity, use «αποσχιστές» or «αποσχιστικές ομάδες» so the meaning (those who separated) is clear to Modern Greek readers. Suggested replacement within the existing HTML structure: replace «σεπαρατιστές» with «αποσχιστές».",
+      "translation_quote": "...αλλά ότι οι σεπαρατιστές δεν έπρεπε «να καταχρώνται την υπομονή και την ευσπλαχνία των κυρίων.»"
     }
   ],
+  "finished_at": "2026-10-02T12:55:26+00:00",
   "id": "367c31ca093743535116fc9f36c7a1b8",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ell",
@@ -128,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 68,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/71da96b1e9fc7ad8418f514e41f429009d9b72f0f1b0b1b636d343ab0a681930.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "37240e01def41772640b0e9565ef16f1adfbc8d9f2aa56662e8ee18b41e3288d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

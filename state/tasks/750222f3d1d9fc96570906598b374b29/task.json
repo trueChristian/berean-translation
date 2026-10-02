@@ -2,7 +2,6 @@
   "article_id": "951f56e4-2ce8-4f01-9500-bfeee209cdb4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "75a0fdcac1c547d5ab399727152007ad",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -43,18 +42,81 @@
         },
         "total_tokens": 14489
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 2256,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9066,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11322
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[27]: source /article[1]/p[7]/em[1]/strong[1] ('start', 'strong', ()); translation /article[1]/p[7]/em[1] ('end', 'em')",
-      "translation_quote": ""
+      "location": "First paragraph (Mark 4:37-41 quoted passage)",
+      "severity": "major",
+      "source_quote": "And he arose, and rebuked the wind, and said unto the sea, Peace, be still. And the wind ceased, and there was a great calm. And he said unto them, Why are ye so fearful? how is it that ye have no faith?",
+      "suggested_fix": "Translate the quoted passage to natural, faithful Swedish preserving the meaning and punctuation. For example: “Då stod han upp och tillrättavisade vinden och sade till havet: ‘Tyst, var stilla.’ Vinden lade sig, och det blev stor stillhet. Och han sade till dem: ‘Varför är ni så rädda? Har ni ingen tro?’” (Keep the Scripture reference Mark 4:37-41 immediately after the quotation as in the source.)",
+      "translation_quote": "Då stod han upp, förtalde vinden och sade till havet: Tyst, bli stilla. Då upphörde vinden, och det blev stor stillhet. Och han sade till dem: Varför är ni så fruktansvärda? Har ni inte något tro?"
+    },
+    {
+      "location": "Psalm quotation (Psalm 107:25-30)",
+      "severity": "major",
+      "source_quote": "For he commandeth, and raiseth the stormy wind, which lifteth up the waves thereof. They mount up to the heaven, they go down again to the depths: their soul is melted because of trouble. They reel to and fro, and stagger like a drunken man, and are at their wits’ end. Then they cry unto the LORD in their trouble, and he bringeth them out of their distresses. He maketh the storm a calm, so that the waves thereof are still. Then are they glad because they be quiet; so he bringeth them unto their desired haven –Psalm 107:25-30.",
+      "suggested_fix": "Render the full quoted Scripture passage into accurate Swedish that preserves the English meaning. In particular translate “raiseth the stormy wind, which lifteth up the waves thereof” as “väcker stormvind som höjer dess vågor” (or similar), not “skapar … som hejdar dess vågor.” Keep the verse numbers and the emphasized phrase (desired haven) translated consistently. Example: “Ty han befaller och väcker stormande vind, som lyfter dess vågor. De stiga upp till himmelen och fara ned igen i djupet; deras själ smälter bort genom bekymmer. De vackla och slingra sig som en berusad och är vid sina sinnens ände. Då ropa de till HERREN i sin nöd, och han för dem ut ur deras umbäranden. Han gör stormen stilla, så att dess vågor är tysta. Då glädja de sig, att det är stilla; och han för dem till deras önskade hamn – Psalm 107:25-30.”",
+      "translation_quote": "Ty han befaller och skapar stormig vind, som hejdar dess vågor. De resa sig upp till himmelen, de fara ned igen i djupet; deras själ smälter bort på grund av bedrövelse; de vackla och slingra sig som en berusad, och är vid sina sinnens ände. Då ropa de till HERREN i sin nöd, och han för dem ut ur deras umbäranden. Han gör stormen stilla, så att dess vågor är tysta. Då glädja de sig, att det är stilla; och han för dem till deras önskade hamn – Psalm 107:25-30."
+    },
+    {
+      "location": "Acts 27:14 quotation (reference to Euroclydon)",
+      "severity": "major",
+      "source_quote": "…a tempestuous wind, called Euroclydon –Acts 27:14.",
+      "suggested_fix": "Keep the quoted Scripture and the specific wind name faithful to the English authoritative text while translating the surrounding words. If the English uses “Euroclydon,” the Swedish rendering of the quoted Scripture should either transliterate the same name or use the conventional Swedish form if established; do not substitute a different form unless it matches the authoritative source. Suggested: “…en stormig vind som kallas Euroclydon – Apostlagärningarna 27:14.”",
+      "translation_quote": "…en vind, stormig, som kallas Euraquilo – Apostlagärningarna 27:14."
+    },
+    {
+      "location": "Multiple Scripture quotes: grammatical/idiomatic errors (general)",
+      "severity": "major",
+      "source_quote": "Examples: \"…when neither sun nor stars in many days appeared… –Acts 27:20.\"; \"…there stood by me this night the angel of God… –Acts 27:23-24.\"",
+      "suggested_fix": "Review all quoted Scripture passages and render them into fluent, natural Swedish that preserves the authoritative English meaning and scripture references exactly. Fix literal/awkward renderings and grammatical mistakes (e.g., use idiomatic Swedish word order and negatives: \"Har ni ingen tro?\", not \"Har ni inte något tro?\").",
+      "translation_quote": "…när varken solen eller stjärnorna visade sig på många dagar, och ingen liten storm låg över oss, då togs allt hopp att vi skulle bli räddade – Apostlagärningarna 27:20.; …stodi hos mig i denna natt en Guds ängel, vars jag är och hvilken jag tjänar, och sade: Var inte rädd, Paulus… – Apostlagärningarna 27:23-24."
+    },
+    {
+      "location": "First paragraph — typo/article gender (non-scripture)",
+      "severity": "minor",
+      "source_quote": "How could Christ sleep in such a storm, much less in a boat filling with water?",
+      "suggested_fix": "Fix the Swedish indefinite article for 'båt' to agree: change “i ett båt” to “i en båt”.",
+      "translation_quote": "Hur kunde Kristus sova i en sådan storm, än mindre i ett båt som fylldes med vatten?"
+    },
+    {
+      "location": "First paragraph — word choice in rebuke verb (scripture translation)",
+      "severity": "minor",
+      "source_quote": "and rebuked the wind",
+      "suggested_fix": "Use an appropriate Swedish verb for Jesus’ action that matches both the English nuance and common Swedish Bible translations (e.g. “tillrättavisade vinden”, “tuktade vinden” or “befallde vinden”). Avoid archaic or obscure verbs like “förtalde” which distorts meaning.",
+      "translation_quote": "förtalde vinden"
+    },
+    {
+      "location": "Throughout — register and awkward calques",
+      "severity": "minor",
+      "source_quote": "Original non-scripture prose (multiple instances)",
+      "suggested_fix": "Smooth idiomatic Swedish phrasing in several sentences (e.g., “relationella formen av Gudomen” → “en relationell person inom Treenigheten” or simply “en relationell aspekt av Gud”) and reduce clumsy literal calques (\"sovande i vår båt\" is okay, but review other passages for unnatural constructions). These are style/clarity fixes, not doctrinal changes.",
+      "translation_quote": "den relationella formen av Gudomen; Kristus, sovande i vår båt. Sovande… precis när vi behöver honom som mest."
     }
   ],
+  "finished_at": "2026-10-02T12:55:27+00:00",
   "id": "750222f3d1d9fc96570906598b374b29",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "swe",
@@ -128,11 +190,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a5f80ad335a5578b489f5e1ff55175ab3c10942655de5c784af044af1c73c841.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "6ba0f430c997b1ea3450b766c83b9abcf64dbdc84cdd47383ef0cebf9766d0dd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

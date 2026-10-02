@@ -2,7 +2,6 @@
   "article_id": "d38bf79f-957f-413c-ad4d-a6b4fa8c8112",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "75a0fdcac1c547d5ab399727152007ad",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -43,18 +42,45 @@
         },
         "total_tokens": 13145
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1133,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8399,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9532
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[44]: source /article[1]/p[18]/sup[1] ('start', 'sup', ()); translation /article[1]/p[18] ('end', 'p')",
-      "translation_quote": ""
+      "location": "Paragraph about pre-flood lifespans (source paragraph: \"We know that before the flood, men lived to be very old—often into their 900s. ... 21st century (AD)\")",
+      "severity": "minor",
+      "source_quote": "their DNA was closer to the original genetic specimen of mankind (and thus, to perfection) than ours is in the 21st century (AD)",
+      "suggested_fix": "Remove the literal HTML artifact and render the century phrase idiomatically in Arabic. For example: «... مما هو عليه الآن في القرن الحادي والعشرين (الميلادي).» (i.e., delete the spurious '<sup>st</sup>' text). Preserve existing surrounding HTML tags and order.",
+      "translation_quote": "كان حمضهم النووي أقرب إلى العينة الوراثية الأصلية للإنسان (وبالتالي إلى الكمال) مما هو عليه في القرن الحادي والعشرين<sup>st</sup> (الميلادي)."
+    },
+    {
+      "location": "Paragraph about Epstein-Barr/infectious mononucleosis (source paragraph: \"Epstein Barr virus, which causes infectious mononucleosis, has been associated with certain kinds of lymphoma.\")",
+      "severity": "minor",
+      "source_quote": "Epstein Barr virus, which causes infectious mononucleosis, has been associated with certain kinds of lymphoma.",
+      "suggested_fix": "Translate the clinical name accurately into Modern Standard Arabic. Replace «داء التلاميذ المعدي (التهاب الغدد)» with a standard medical term such as «داء كثرة الوحيدات المعدي (التهاب الغدد)» or «التهاب الغدد الصدغية العدوائي (داء كثرة الوحيدات)» depending on the target site's preferred terminology. Preserve the surrounding sentence structure and HTML.",
+      "translation_quote": "فيروس إبشتاين-بار، الذي يسبب داء التلاميذ المعدي (التهاب الغدد)، ارتبط بأنواع معينة من اللمفوما."
     }
   ],
+  "finished_at": "2026-10-02T12:55:26+00:00",
   "id": "2f1b75b64e9e7e1ea8ad02e568a15349",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ara",
@@ -128,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c359f5eb7511bee303f2540e716a2b918a181459a9c7bd95ec949a6df55470c5.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "48e3cf7ce54a82130b52527f677657d3f940e34281e04d33a0d21d610cf9910a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

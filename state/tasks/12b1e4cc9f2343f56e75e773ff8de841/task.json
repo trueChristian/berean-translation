@@ -2,7 +2,6 @@
   "article_id": "951f56e4-2ce8-4f01-9500-bfeee209cdb4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "75a0fdcac1c547d5ab399727152007ad",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -43,18 +42,60 @@
         },
         "total_tokens": 14781
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1457,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9176,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10633
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
+      "location": "source.html: paragraph 2 (\"We can believe that He is Master of the wind and seas, and they must bow at His command...\")",
       "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[27]: source /article[1]/p[7]/em[1]/strong[1] ('start', 'strong', ()); translation /article[1]/p[7]/em[1] ('end', 'em')",
-      "translation_quote": ""
+      "source_quote": "We can believe that He is Master of the wind and seas, and they must bow at His command, but does He expect us to do the same?",
+      "suggested_fix": "Translate the theological claim faithfully. Replace the incorrect word \"Mwana\" with a Kiswahili term that accurately reflects the English \"Master\" (for example \"Mkuu\" or \"Mwenye mamlaka\"). Preserve the rest of the sentence. Example (Kiswahili): \"Tunaweza kuamini kwamba Yeye ndiye Mwenye mamlaka juu ya upepo na bahari, na zinapaswa kumtii kwa amri Yake, lakini je, anatarajia sisi tufanye vivyo hivyo?\" Ensure the fix keeps HTML structure and tags unchanged.",
+      "translation_quote": "Tunaweza kuamini kwamba Yeye ndiye Mwana wa upepo na bahari, na lazima zikubali kwa amri Yake, lakini je, anatarajia sisi tufanye vivyo hivyo?"
+    },
+    {
+      "location": "source.html: paragraph 6 (\"Paul was comforted and commended while the disciples received rebuke.\")",
+      "severity": "major",
+      "source_quote": "Paul was comforted and commended while the disciples received rebuke.",
+      "suggested_fix": "Correct the Kiswahili verb to convey that Paul received comfort and encouragement. Replace the unclear or incorrect \"alifasiriwa\" with a clear rendering such as \"alipata faraja na kukubalika\" or \"alifarajiwa na kupongezwa\". Example: \"Paulo alifarajiwa na kupongezwa wakati mitume walipopokea kibarua (au: kibaraka/kakemezo).\" Keep tags and order unchanged.",
+      "translation_quote": "Paulo alifasiriwa na kupewa faraja wakati mitume walipokea kibaraka."
+    },
+    {
+      "location": "source.html: paragraph 15 (reference to the wind name)",
+      "severity": "minor",
+      "source_quote": "…a tempestuous wind, called Euroclydon –Acts 27:14.",
+      "suggested_fix": "Preserve the exact proper name spelling from the authoritative English text. Change \"Euroclidon\" to the exact form \"Euroclydon\" (or a conventional localized form if that is authoritative) within the translated HTML. Do not alter surrounding punctuation or tags.",
+      "translation_quote": "…upepo wa dhoruba, ulioitwa Euroclidon –Matendo 27:14."
+    },
+    {
+      "location": "source.html: multiple paragraphs (formatting/capitalization and odd word choice: \"malalo Ya kimungu\")",
+      "severity": "minor",
+      "source_quote": "...while Christ continues in His divine slumber, waiting until we recognize the source of our anxiety and call out in faith.",
+      "suggested_fix": "Fix capitalization, spacing and word choice to be idiomatic Kiswahili and preserve meaning. Replace \"malalo Ya kimungu\" with an idiomatic phrase such as \"usingizi wake wa kimungu\" or \"malalo yake ya kimungu\" and correct accidental internal capitalization. Example: \"...wakati Kristo anaendelea katika usingizi wake wa kimungu, akisubiri...\" Preserve tags and sentence order.",
+      "translation_quote": "...wakati Kristo anaendelea katika malalo Ya kimungu, akisubiri hadi tutambue chanzo cha wasiwasi wetu na tupige kelele kwa imani."
     }
   ],
+  "finished_at": "2026-10-02T12:55:26+00:00",
   "id": "12b1e4cc9f2343f56e75e773ff8de841",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "swa",
@@ -128,11 +169,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a5f80ad335a5578b489f5e1ff55175ab3c10942655de5c784af044af1c73c841.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "6ba0f430c997b1ea3450b766c83b9abcf64dbdc84cdd47383ef0cebf9766d0dd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

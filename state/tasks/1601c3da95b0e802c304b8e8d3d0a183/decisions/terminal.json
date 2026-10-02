@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 7 (Psalm quotation block)",
+      "severity": "major",
+      "source_quote": "For he commandeth, and raiseth the stormy wind, which lifteth up the waves thereof... Psalm 107:25-30.",
+      "suggested_fix": "Replace the incorrect book name 'নিয়ামক' with the conventional Bengali form 'গীতসংহিতা' so the citation reads '...—গীতসংহিতা 107:25-30.' Preserve the existing translated biblical text but change only the book name token.",
+      "translation_quote": "...তিনি ঝড়কে শান্ত করেন, যাতে তাহার ঢেউ নীরব হয়। তখন তারা আনন্দ করে, কারণ তিনি তাদের নির্ঝঞ্ঝাট করেন; তিনি তাদেরকে তাদের <strong>কাঙ্খিত আশ্রয়</strong>ে নিয়ে যান—নিয়ামক 107:25-30।"
+    },
+    {
+      "location": "Paragraph beginning with 'পল একই হতাশা ভোগ করেছিলেন...' (immediately after that paragraph)",
+      "severity": "major",
+      "source_quote": "yet he carried within his breast a visionary anchor for his soul.",
+      "suggested_fix": "The English metaphor 'visionary anchor' (or 'anchor') was left partially untranslated and appears as 'দ্যৈব_anchor'. Translate this phrase into Bengali consistently with the surrounding style. Suggested substitution: 'তবু তিনি তাঁর হৃদয়ে আত্মার জন্য এক দৈব নোঙর ধারণ করতেন।' or 'তবু তিনি তাঁর হৃদয়ে আত্মার জন্য এক ঐশ্বরিক নোঙর ধারণ করতেন।' Replace the mixed-language token 'দ্যৈব_anchor' with one of these Bengali renderings.",
+      "translation_quote": "তবু তিনি তাঁর হৃদয়ে একটি দ্যৈব_anchor ধারণ করতেন।"
+    },
+    {
+      "location": "Paragraph 2 (opening long paragraph)",
+      "severity": "minor",
+      "source_quote": "These probing questions are disturbing, for we all would hope that our faith in Him is strong enough to secure our salvation, yet experience has taught us that our own walk through the troublesome pastures of life has produced nothing more noble than the harrowing bleating of the disciples.",
+      "suggested_fix": "Fix the evident typographical / encoding error 'খুঁত Sik' and render the phrase idiomatically in Bengali. Suggested correction: 'এসব খোঁচা করা প্রশ্ন বিরক্তিকর, কারণ আমরা সবাই আশা করি...' Replace the garbled token 'খুঁত Sik' with 'খোঁচা করা' or 'চলমান' as fits the sentence.",
+      "translation_quote": "এসব খুঁত Sik প্রশ্ন সবচেয়ে বিরক্তিকর, কারণ আমরা সবাই আশা করবো যে তাঁর প্রতি আমাদের বিশ্বাস..."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

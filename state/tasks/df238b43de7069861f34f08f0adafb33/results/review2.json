@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5c004284-d926-4a1a-8570-eec7a5d3e8fc",
+    "response_id": "chatcmpl-EUX27vm8Jkmbrsk2tpHzprNPdtMFm",
+    "usage": {
+      "completion_tokens": 1275,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8939,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10214
+    }
+  },
+  "received_at": "2026-10-02T12:55:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — multiple inline Scripture citations (e.g. Acts 27:20; 2 Corinthians 11:25; Acts 27:23-24; Jonah 1:6; 2 Corinthians 1:8; Psalm 107:25-30; Acts 27:12-13; John 14:27; Acts 27:14; Philippians 1:23; Mark 4:38; Mark 8:35; Luke 12:13; Acts 27:22; Matthew 19:22; Luke 10:40; Hebrews 4:9-11)",
+        "severity": "major",
+        "source_quote": "Examples from the authoritative English: \"Acts 27:20\", \"2 Corinthians 11:25\", \"Acts 27:23-24\", \"Jonah 1:6\", \"2 Corinthians 1:8\", \"Psalm 107:25-30\", \"Acts 27:12-13\", \"John 14:27\", \"Acts 27:14\", \"Philippians 1:23\", \"Mark 4:38\", \"Mark 8:35\", \"Luke 12:13\", \"Acts 27:22\", \"Matthew 19:22\", \"Luke 10:40\", \"Hebrews 4:9-11\"",
+        "suggested_fix": "Translate the printed book names into standard French forms while leaving chapter and verse numbers and punctuation unchanged. For example: \"Acts\" → \"Actes\", \"2 Corinthians\" → \"2 Corinthiens\", \"Jonah\" → \"Jonas\", \"Psalm\" → \"Psaume\", \"John\" → \"Jean\", \"Philippians\" → \"Philippiens\", \"Mark\" → \"Marc\", \"Luke\" → \"Luc\", \"Hebrews\" → \"Hébreux\", \"Matthew\" → \"Matthieu\". Apply this consistently to every in-text Scripture citation (e.g. change \"Acts 27:20\" to \"Actes 27:20\", \"2 Corinthians 11:25\" to \"2 Corinthiens 11:25\", \"Jonah 1:6\" to \"Jonas 1:6\", \"Psalm 107:25-30\" to \"Psaume 107:25-30\", \"Mark 8:35\" to \"Marc 8:35\", etc.). Ensure the translated book names appear inside the same markup/emphasis tags as in the translation (italics, strong, etc.).",
+        "translation_quote": "The translation leaves the English book names intact in the citations (examples: \"Acts 27:20\", \"2 Corinthians 11:25\", \"Acts 27:23-24\", \"Jonah 1:6\", \"2 Corinthians 1:8\", \"Psalm 107:25-30\", \"Acts 27:12-13\", \"John 14:27\", \"Acts 27:14\", \"Philippians 1:23\", \"Mark 4:38\", \"Mark 8:35\", \"Luke 12:13\", \"Acts 27:22\", \"Matthew 19:22\", \"Luke 10:40\", \"Hebrews 4:9-11\")."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

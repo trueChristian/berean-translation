@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "<article> — poem stanzas (multiple <p class=\"poem\"> blocks)",
+      "severity": "critical",
+      "source_quote": "Abide with me: fast falls the eventide; The darkness deepens; Lord, with me abide: when other helpers fail, and comforts flee, Help of the helpless, O abide with me. ... (all eight English stanzas as printed in source.html)",
+      "suggested_fix": "Translate the entire hymn text (all eight stanzas) into contemporary German, preserving stanza breaks and the order exactly. Do not leave the quoted hymn in English. The translated stanzas should convey the printed authoritative English meaning and keep any hymn-specific proper names or tune names as appropriate in German usage.",
+      "translation_quote": "Abide with me: fast falls the eventide;<br>    The darkness deepens; Lord, with me abide:<br>    when other helpers fail, and comforts flee,<br>    Help of the helpless, O abide with me. ... (all eight English stanzas remain in the translation) "
+    },
+    {
+      "location": "<article> — Luke 24:28-29 quotation (italicized inline)",
+      "severity": "critical",
+      "source_quote": "…made as though he would have gone further. But they constrained him, saying, Abide with us: for it is toward evening, and the day is far spent. And he went in to tarry with them –Luke 24:28-29.",
+      "suggested_fix": "Translate the quoted Scripture passage into German (e.g. a conventional, contemporary German rendering that faithfully conveys the printed English meaning), and retain the Scripture reference (Luke 24:28-29) unchanged. For example: „…er schien, als wollte er weitergehen. Da drängten sie ihn und sprachen: Bleibe bei uns; denn es will Abend werden und der Tag hat sich geneigt. Und er ging hinein, um bei ihnen zu bleiben – Lukas 24,28–29.“",
+      "translation_quote": "<em>…made as though he would have gone further. But they constrained him, saying, Abide with us: for it is toward evening, and the day is far spent. And he went in to tarry with them –Luke 24:28-29.</em>"
+    },
+    {
+      "location": "<article> — References block at end",
+      "severity": "minor",
+      "source_quote": "References: 101 Hymn Stories, Treasury of Hymn Stories Author- Henry Francis Lyte, 1793-1847 Composer- William Henry Monk, 1823-1889 Tune Name - “Eventide”",
+      "suggested_fix": "Translate the 'References:' heading and the bibliographic/metadata lines into German, preserving the exact items, numbers, names, and the tune name. For example: „Quellen:\" plus translated labels (Autor, Komponist, Melodiename) while keeping the English book titles only if you wish, or translating them if appropriate for the target audience.",
+      "translation_quote": "References:<br>    <em>101 Hymn Stories,<br>    Treasury of Hymn Stories<br>    Author- Henry Francis Lyte, 1793-1847<br>    Composer- William Henry Monk, 1823-1889<br>    Tune Name - “Eventide”</em>"
+    },
+    {
+      "location": "<article> — paragraph about William H. Monk (word \"inspiriet\")",
+      "severity": "minor",
+      "source_quote": "It is said that Monk, being “inspired by the beauty of a glorious sunset while yet experiencing a deep personal sorrow,” composed (in only 10 minutes) the tune, Eventide, for the song, “Abide With Me, Fast Falls The Eventide”.",
+      "suggested_fix": "Correct the German spelling to \"inspiriert\" and keep the rest of the sentence idiomatic and faithful to the source meaning.",
+      "translation_quote": "Es heißt, Monk sei „inspiriet durch die Schönheit eines herrlichen Sonnenuntergangs, während er zugleich tiefe persönliche Trauer erlebte,“ und habe in nur 10 Minuten die Melodie „Eventide“ für das Lied „Abide With Me, Fast Falls The Eventide“ komponiert."
+    },
+    {
+      "location": "translation metadata — title element",
+      "severity": "minor",
+      "source_quote": "Abide With Me, Fast Falls The Eventide (source.title)",
+      "suggested_fix": "Provide a German rendering of the title in translation.title (contemporary German idiom), for example: \"Bleib bei mir — Wenn die Abendstunde naht\" or another faithful German title that preserves the hymn identity and the sense of the English title. If the publisher prefers to keep the original hymn title in English, include a German title or subtitle translation alongside it.",
+      "translation_quote": "Abide With Me, Fast Falls The Eventide (translation.title remains in English)"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

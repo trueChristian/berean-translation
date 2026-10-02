@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<article> paragraph containing Luke 24:28-29 (near end)",
+      "severity": "major",
+      "source_quote": "“...made as though he would have gone further. But they constrained him, saying, Abide with us: for it is toward evening, and the day is far spent. And he went in to tarry with them –Luke 24:28-29.”",
+      "suggested_fix": "Translate the quoted Scripture accurately into Modern Standard Arabic, preserving the meaning and clause order of the printed English and indicating the reference. A faithful rendering would be, for example: «…تظاهر أنه أراد أن يذهب أبعد. فأقاماه قائلين: ‚أبق معنا، لأن المساء قد اقترب والنهار يكاد ينقضي.‘ فدخل ليبقى معهم. – لوقا 24:28-29.» Replace the current Arabic quotation with a corrected Arabic translation that conveys the same clauses and sequence as the English source.",
+      "translation_quote": "«…تظاهر أنه أراد أن يذهب أبعد. فجَعلوه قائلين له: أبقَ معنا لأن النهار قد مضى وقد قرُب المساء. فدخل ليباعد معهم» – لوقا 24:28-29."
+    },
+    {
+      "location": "<article> poem stanzas (third stanza and elsewhere)",
+      "severity": "major",
+      "source_quote": "\"Not a brief glance I beg, a passing word; But, as Thou dwell’st with Thy disciples, Lord, Familiar, condescending, patient, free, Come, not to sojourn, but abide, with me.\"",
+      "suggested_fix": "Correct the mistranslated words into clear, idiomatic Modern Standard Arabic while preserving the original meaning and line structure. For example: «لا أطلب لمحة عابرة، ولا كلمة عابرة؛ بل كما سكنتَ مع تلاميذك، يا رب، ودوداً، متواضعاً، صبوراً، كريماً، تعال، لا للنزول فقط، بل أبقَ معي.» Replace the current corrupted rendering (see translation_quote) with a faithful Arabic version that renders 'familiar, condescending, patient, free' and the sense 'not to sojourn, but abide' properly.",
+      "translation_quote": "«لا أطلب لمحة عابرة، ولا كلمة مروَّضة؛\\n    بل كما سكنت مع تلاميذك، يا رب،\\n    ألف، متضاءل، صبور، كريم،\\n    تعال، لا لتقيم نُزلاً، بل أبقَ، معي.»"
+    },
+    {
+      "location": "<article> final References block (emphasized block)",
+      "severity": "major",
+      "source_quote": "101 Hymn Stories,\nTreasury of Hymn Stories\nAuthor- Henry Francis Lyte, 1793-1847\nComposer- William Henry Monk, 1823-1889\nTune Name - “Eventide”",
+      "suggested_fix": "Translate the reference block into Arabic (metadata is translatable per instructions). Preserve the order, the italicized/emphasized structure, and keep names and dates but rendered where appropriate into Arabic script or conventional target-language forms. Example: «101 قصص الأناشيد،\\nكنز قصص الأناشيد\\nالمؤلف - هنري فرانسيس لايت، 1793-1847\\nالملحّن - ويليام هنري مونك، 1823-1889\\nاسم اللحن - «إيفنتايد»» Replace the English-only block with an Arabic rendering while keeping the same content and sequence.",
+      "translation_quote": "<em>101 Hymn Stories,<br>\nTreasury of Hymn Stories<br>\nAuthor- Henry Francis Lyte, 1793-1847<br>\nComposer- William Henry Monk, 1823-1889<br>\nTune Name - “Eventide”</em>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph 1 (mentions \"Anabaptist\") and multiple other paragraphs",
+      "severity": "major",
+      "source_quote": "a somewhat obscure, yet influential leader of the early Anabaptist movement in Switzerland",
+      "suggested_fix": "Translate the denominational term accurately. Replace \"الإنعام\"/\"الإنعاميين\" with a standard Arabic rendering of Anabaptist such as \"الأنابابتست\" or \"المعمدانيون المعادون\" consistently (e.g., \"حركة الأنابابتست المبكرة في سويسرا\", \"أحفاد الأنابابتست\"). Ensure the chosen term is used throughout the article in all occurrences.",
+      "translation_quote": "قائدٍ ربما يكون غامضًا بعض الشيء، لكنه كان ذا تأثير في حركة الإنعام الأولى في سويسرا. ... العديد من أحفاد الإنعاميين اليوم. ... العديد من الناس الإنعاميين المحافظين اليوم ..."
+    },
+    {
+      "location": "source.html paragraph 20 (\"I finally purchased a German/English Bible\")",
+      "severity": "major",
+      "source_quote": "he finally purchased a German/English Bible.",
+      "suggested_fix": "Preserve the original third-person narration. Change the mistranslated first-person to third-person: e.g., \"في نهاية المطاف اشترى لنفسه إنجيلًا ألمانيًا/إنجليزيًا.\" or \"وأخيرًا اشترى إنجيلًا ألمانيًا/إنجليزيًا.\"",
+      "translation_quote": "اشترىتُ له في النهاية إنجيلًا ألمانيًا/إنجليزيًا."
+    },
+    {
+      "location": "source.html paragraph 4 (\"acts of God\")",
+      "severity": "minor",
+      "source_quote": "insurance companies still refer to certain specific events as “acts of God”.",
+      "suggested_fix": "Translate the quoted phrase into Arabic rather than leaving it in English. For example: \"لا تزال شركات التأمين تشير إلى بعض الأحداث المحددة بأنها 'أعمال الله'.\"",
+      "translation_quote": "…إلا أن شركات التأمين لا تزال تُشير إلى أحداث محددة بأنها \"أعمال الله\"."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}
