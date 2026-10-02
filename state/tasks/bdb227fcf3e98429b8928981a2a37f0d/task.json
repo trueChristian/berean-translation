@@ -2,7 +2,6 @@
   "article_id": "042fce50-3724-4100-b397-093c6d081e89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "79952ec8f26149ac8dea913aa338dd38",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,8 +23,28 @@
         },
         "total_tokens": 3270
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 1413,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 256,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3114,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4527
+      }
     }
   ],
+  "failure": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[4]; missing: 12:12; extra: none",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -35,6 +54,7 @@
       "translation_quote": ""
     }
   ],
+  "finished_at": "2026-10-02T10:02:03+00:00",
   "id": "bdb227fcf3e98429b8928981a2a37f0d",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "deu",
@@ -82,7 +102,7 @@
   "review_model": "gpt-5-mini",
   "source_snapshot": "state/sources/901933390bbab68b30ba65d224e53d69f0af822b49f3cdb694876c259f4bd250.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a8b13667ad0bdee6e94fb75c94d958fc5f824dbcd185202cd5cc7be6e9274a4c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

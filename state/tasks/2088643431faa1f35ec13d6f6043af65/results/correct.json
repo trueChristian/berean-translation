@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3e1e880d-31ba-4fee-9333-e7880b708ac0",
+    "response_id": "chatcmpl-EUUInxrpKGO1xzFWn110zmemcXwbV",
+    "usage": {
+      "completion_tokens": 556,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1799,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2355
+    }
+  },
+  "received_at": "2026-10-02T10:02:02+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8f996405-d870-4074-947b-35190faad643\">\n<figure>\n  <img src=\"/images/articles/8f996405-d870-4074-947b-35190faad643-1.jpg\" alt=\"ممر ثلجي بجانب أشجار شتوية عارية\">\n</figure>\n\n<div class=\"poem\">\n  <p>يا مدينة الله، كم رحبتي وامتدت جدرانكِ السامية!<br>\n  مواطنوكَ الأحرار الحقيقيون هم<br>\n  من كل عصر ومناخ:</p>\n\n  <p>كنيسة واحدة مقدسة، جيش واحد قوي،<br>\n  قصدٌ راسخٌ سامٍ؛<br>\n  فريق عمل واحد، نشيد حصاد واحد،<br>\n  ملك واحد قادِر مطلق.</p>\n\n  <p>كم نزل خطابكِ نقيًا<br>\n  من شباب الإنسان البدائي!<br>\n  وكم نما ملككِ بعظمة<br>\n  في الحرية والمحبة والحق!</p>\n\n  <p>كيف تتلألأ نيران حراستكِ في الليل<br>\n  بشعاع لا يضعف أبدًا!<br>\n  كيف تعلو أبراجكِ، هادئة ومشرقة،<br>\n  لاستقبال يوم الفجر!</p>\n\n  <p>باطلٌ تهاطل الصدْمات الغاضبة للمدِّ،<br>\n  باطلة رمال الانجراف:<br>\n  سالمَة على الصخرة الأبدية<br>\n  تقف المدينة الأبدية.</p>\n</div>\n</article>\n",
+    "section": "قصيدة",
+    "subtitle": null,
+    "title": "مدينة الله"
+  }
+}
