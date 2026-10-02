@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "bef7c816-a170-4a33-b937-7c0800848d33",
+    "response_id": "chatcmpl-EUL8ukdLz2DFnaBUO9rKk4WeH02t5",
+    "usage": {
+      "completion_tokens": 1669,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6467,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8136
+    }
+  },
+  "received_at": "2026-10-02T00:12:37+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first paragraph (lead)",
+        "severity": "major",
+        "source_quote": "Paul pleaded with the Corinthian church, “Doth not nature itself teach you?”",
+        "suggested_fix": "Translate the quoted English phrase into Hebrew (preserve the surrounding punctuation and tags). For example: replace “Doth not nature itself teach you?” with “הלא הטבע עצמו לא מלמד אתכם?” inside the existing <p class=\"lead\">...</p>. Do not remove or alter the original HTML tags or their attributes.",
+        "translation_quote": "פולוס התחנן אל כנסיית קורינתוס, “Doth not nature itself teach you?”"
+      },
+      {
+        "location": "source.html — paragraph about bird species (paragraph starting “It is the nature of the birds to sing.”)",
+        "severity": "major",
+        "source_quote": "The robin opens up the choir in early spring, but his song is soon surpassed in beauty by the song sparrow and again by the rose-breasted grosbeak. The song of the wren trumps them all for longevity and vibrancy. The canary sings in a cage, while the nightingale sings in the dark. The robins sing in the rain. The buntings fill in the heat of the day when other birds are silent.",
+        "suggested_fix": "Translate the bird common names into contemporary Modern Hebrew (or provide accepted Hebrew common names) rather than leaving English names untranslated. Preserve the sentence structure and HTML tags. For example: replace “robin” with “רובין (שירון)”, “song sparrow” with “ציפורי שיר—שפר/ספארו(שם עברי מתאים)”, “rose-breasted grosbeak” with the Hebrew common name (or a parenthetical explanatory translation), “wren” with “שרקרק/וורן (wren)”, “canary” with “קנרי”, “nightingale” with “זמיר” (or the locally accepted name), “buntings” with “באנטים/ציפורי buntings (השם העברי המקובל)”. Keep original punctuation and tags.",
+        "translation_quote": "הרובין (robin) פותח את המקהלה בתחילת האביב, אך שירתו מוחלפת במהרה ביופייה על ידי ה־song sparrow ושוב על ידי ה־rose-breasted grosbeak. שירת ה־wren גוברת על כולם באורכה ובחיותה. הקנרי שר בכלוב, בעוד הזמיר שר בחשיכה. הרובינים שרים בגשם. ה־buntings ממלאים את חום היום..."
+      },
+      {
+        "location": "source.html — paragraph about sinners/foul birds (paragraph starting “Sin. Not all birds sing.”)",
+        "severity": "major",
+        "source_quote": "Of such are the worthless blackbirds, starlings, and grackles. The crows show themselves also at the roadside...",
+        "suggested_fix": "Translate the bird names (blackbirds, starlings, grackles, crows) into Hebrew rather than leaving English names or leaving them untranslated. For example: replace “starlings” with “שחפים/דרורים־כוכבים (starling — שוב: התרגום המקובל לעברית)”, “grackles” with the accepted Hebrew common name or a descriptive phrase, and “crows” with “עורבים”. Preserve HTML tags and the original sequence.",
+        "translation_quote": "...הקולמניים השחורים החסרי ערך, ה־starlings וה־grackles. העורבים גם הם מופיעים על שפת הדרך..."
+      },
+      {
+        "location": "source.html — paragraph about cowbird/neglect (paragraph starting “Neglect. The cowbird is also black”)",
+        "severity": "major",
+        "source_quote": "The cowbird is also black (the female is brown/gray).",
+        "suggested_fix": "Translate the species name “cowbird” into Hebrew (or provide the accepted common name) and keep the parenthetical color description in Hebrew. For example: replace “cowbird” with “עורב־פרה/cowbird (שם עברי מקובל)” or the established Hebrew name, and render “(the female is brown/gray)” as “(הנקבה חומה/אפרפרה)\" in Hebrew — preserving the parenthetical format.",
+        "translation_quote": "ה־cowbird גם הוא שחור (הנקבה חומה/אפרפרה)."
+      },
+      {
+        "location": "metadata — subtitle (source.subtitle)",
+        "severity": "minor",
+        "source_quote": "and ‘round me rings the music of the spheres.",
+        "suggested_fix": "The translated subtitle renders “music of the spheres” as “מוזיקת הגלגלים,” which is a literalized phrasing. Consider a more idiomatic Modern Hebrew rendering that preserves the poetic sense (e.g., “וסביבי מהדהדת מוזיקת השמיים” or “וסביבי מהדהדת מוזיקת העולמות השמימיים”) while keeping the existing subtitle field and HTML tags unchanged.",
+        "translation_quote": "וסביבי מהדהדת מוזיקת הגלגלים."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

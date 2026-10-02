@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3e1b6570-28d8-4cfa-bd38-fa6410a99e15",
+    "response_id": "chatcmpl-EUL8neGbjUPCxMB4GnUZVcmVVFKdt",
+    "usage": {
+      "completion_tokens": 822,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1469,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2291
+    }
+  },
+  "received_at": "2026-10-02T00:12:37+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "article > div.poem > p:nth-of-type(1)",
+        "severity": "minor",
+        "source_quote": "The Dayspring shineth from on high,",
+        "suggested_fix": "Preserve the poetic proper name and sense. Consider translating as: \"הִדְּרִיחַ הַבֹּקֶר מִמַּעַל\" or keep a more literal poetic rendering like \"זריחת הימים זורחת מִמַּעַל\" to reflect the original poetic title (Dayspring) shining from above.",
+        "translation_quote": "זריחת היום זורחת מעלה,"
+      },
+      {
+        "location": "article > div.poem > p:nth-of-type(2)",
+        "severity": "minor",
+        "source_quote": "His mercy reaches down to men-",
+        "suggested_fix": "Use a more natural Hebrew preposition and phrasing, e.g. \"רחמיו יורדים אל־האדם\" or \"רחמיו יורדים אל־האנשים\" instead of \"יורדים לעבר האנשים\"",
+        "translation_quote": "רחמיו יורדים לעבר האנשים—"
+      },
+      {
+        "location": "article > div.poem > p:nth-of-type(3)",
+        "severity": "minor",
+        "source_quote": "Adore th’ almighty King of Kings!",
+        "suggested_fix": "Use a Hebrew verb that conveys worship/adoration rather than admiration. Suggested: \"השתחוו בפני מלך המלכים האדיר!\" or \"הערצו\" -> \"השתחוו\"/\"העריצו\" -> \"עבדו\" depending on intended tone. Retain worship sense.",
+        "translation_quote": "העריצו את מלך המלכים האדיר!"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

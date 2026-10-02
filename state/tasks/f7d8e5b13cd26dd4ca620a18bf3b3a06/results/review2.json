@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8aa01f5a-f98a-49ac-bda0-051d809817ec",
+    "response_id": "chatcmpl-EUL8QfswBhUZBw2keFpGTDigB64y1",
+    "usage": {
+      "completion_tokens": 1006,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3020,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4026
+    }
+  },
+  "received_at": "2026-10-02T00:12:37+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "From the Editor",
+        "suggested_fix": "Translate the title to more direct equivalent of the source: replace the title text node with \"מהעורך\" (preserve article HTML exactly). Example change: <title>From the Editor</title> → <title>From the Editor</title> (rendered text should be \"מהעורך\").",
+        "translation_quote": "מאת העורך"
+      },
+      {
+        "location": "paragraph with Nelson Mandela quote (third paragraph)",
+        "severity": "minor",
+        "source_quote": "Nelson Mandela, former president of South Africa wrote, “Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”",
+        "suggested_fix": "Translate the quoted English sentence into contemporary Hebrew to match the rest of the translation while keeping the attribution in English if desired. Preserve HTML tags and punctuation. Example replacement (text-only): “כישלון הוא מורה, ובסוף חייך, מה לדעתך יכביד עליך יותר — להיכשל או מעולם לא לנסות?”",
+        "translation_quote": "נלסון מנדלה, נשיא דרום־אפריקה לשעבר, כתב: “Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”"
+      },
+      {
+        "location": "paragraph describing fathers watching the world (third paragraph)",
+        "severity": "minor",
+        "source_quote": "Fathers who with a concerned eye watch the world pressing in on the Christian homes.",
+        "suggested_fix": "Correct Hebrew grammar and idiom for plural, and preserve meaning. Suggested text-only fix: \"לאבות שמתבוננים בדאגה בעולמנו הלוחץ על הבתים הנוצריים.\" Replace the current sentence text while preserving surrounding HTML tags.",
+        "translation_quote": "לאבות שמתבוננים בדאגה בעולמנו הלוחץ על בתי־נוצרי."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

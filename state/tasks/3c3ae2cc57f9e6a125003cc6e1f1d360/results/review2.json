@@ -1,0 +1,85 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3fde506a-8817-4dd2-b3e3-78e38bd88101",
+    "response_id": "chatcmpl-EUL8yL1dEQ0P59MI6aBJPUULK5QIM",
+    "usage": {
+      "completion_tokens": 1800,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3275,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5075
+    }
+  },
+  "received_at": "2026-10-02T00:12:37+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> paragraph 2 (source first sentence: “Jamin, you will never be smart”, Kenny said.)",
+        "severity": "major",
+        "source_quote": "“Jamin, you will never be smart”, Kenny said. Deep inside Jamin felt resigned to a life of muddled trip-ups.",
+        "suggested_fix": "Translate the sense of resignation and the idiom correctly. For example: “«ג'מין, אתה לעולם לא תהיה חכם», אמר קני. עמוק בלבו הרגיש ג'מין שהוא נידון לחיים של שגיאות מבולבלות ולחוסר הצלחה.” Preserve the article HTML tags and placement.",
+        "translation_quote": "“ג'מין, אתה לעולם לא תהיה חכם”, אמר קני. עמוק בלבו הרגיש ג'מין מסור לאריכות חיים של מהלכים מבולבלים."
+      },
+      {
+        "location": "<article> paragraph 3 (wide-eyed belief)",
+        "severity": "major",
+        "source_quote": "Jamin believed Kenny’s lectures with wide-eyed belief. Kenny was three years older than him, so he must be right.",
+        "suggested_fix": "Replace the literal/incorrect phrasing with a natural Hebrew equivalent that preserves meaning, e.g. “ג'מין האמין בהרצאותיו של קני באמונה תמימה/בעיניים קורנות פקוחה”, followed by the explanation that Kenny was three years older so Jamin assumed he was right. Keep tags/order.",
+        "translation_quote": "ג'מין האמין להרצאות של קני באמונה עיניים נוקשות. קני היה גדול ממנו בשלוש שנים, אז בוודאי שהוא צודק."
+      },
+      {
+        "location": "<article> paragraph 9 (Did you step in a trap?)",
+        "severity": "critical",
+        "source_quote": "“Did you step in a trap?”",
+        "suggested_fix": "This line was mistranslated to mean “were you insulted (נעלבת)”. It must reflect the physical action. Correct translation should be: “האם נסתקלת במלכודה?” or “נכנסת למלכודה?” or more simply “נכנסת למלכודה?” Preserve punctuation and tags.",
+        "translation_quote": "“האם נעלבת במלכודה?”"
+      },
+      {
+        "location": "<article> paragraph 11 (pried open the jaws)",
+        "severity": "major",
+        "source_quote": "Quickly, Jamin’s strong arms pried open the jaws. Kenny reeled free.",
+        "suggested_fix": "The verb must convey opening the steel-trap’s jaws. Use a standard Hebrew verb: “במהירות זרועותיו החזקות של ג'מין פתחו את לסתות המלכודה” or “פרצו את לסתות המלכודה”. Keep sentence order and tags.",
+        "translation_quote": "במהירות, זרועותיו החזקות של ג'מין פשקו את הפיות. קני השתחרר."
+      },
+      {
+        "location": "<article> paragraph 12 (If you support me...)",
+        "severity": "major",
+        "source_quote": "“Yes. I think so. If you support me, I can hobble along.”",
+        "suggested_fix": "Fix the duplicated clause and produce a natural Hebrew rendering, e.g. “כן, נראה לי. אם תתמוך בי, אוכל לצעוד בצעדים קלים/להתקדם בקושי.” Preserve punctuation and tags.",
+        "translation_quote": "“כן. אני חושב שכן. אם תתמוך בי, אוכל לצעוד בקושי אם תתמוך בי.”"
+      },
+      {
+        "location": "<article> paragraph 6 (tramped up over the lawn)",
+        "severity": "minor",
+        "source_quote": "There was a chill in the air as he tramped up over the lawn, and the sun was growing old as he crossed the border of the woods.",
+        "suggested_fix": "The Hebrew uses incorrect word choice/typo “ביקר”. Replace with natural phrasing, e.g. “היה קר באוויר כשהוא פסע על הדשא, והשמש הזדקנה כשהוא חצה את גבול היער.” Preserve original tags and order.",
+        "translation_quote": "היה קר באוויר כשהוא פסע ביקר אל הדשא, והשמש הזדקנה כשהוא חצה את גבול היער."
+      },
+      {
+        "location": "<article> paragraph 8 (fall webworms / web curtains)",
+        "severity": "minor",
+        "source_quote": "The fall webworms had been at work, and their web curtains shuttered from branches overhead.",
+        "suggested_fix": "“תולעי הרשת של הסתיו” and “וילונות הרשת שלהם קרסו” are intelligible but awkward. Suggest smoother Hebrew: “תולעי הרשת של הסתיו עבדו, ורשתותיהן התפקעו/התנופפו מענפים מעל.” Keep tags/orders.",
+        "translation_quote": "תולעי הרשת של הסתיו עבדו, ווילונות הרשת שלהם קרסו מענפים מעל."
+      },
+      {
+        "location": "<article> paragraph 15 (grandma question and boy’s reaction)",
+        "severity": "minor",
+        "source_quote": "“That’s what Kenny says.” Jamin squirmed.",
+        "suggested_fix": "Translation uses an unclear verb “התמתח בקסניחות”. Suggest natural: “‘זה מה שקני אומר,’ ג'מין חיפש לשנות את תנוחתו/התחבט.” or simply “ג'מין נבוך.” Keep tags.",
+        "translation_quote": "“זה מה שקני אומר.” ג'מין התמתח בקסניחות."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

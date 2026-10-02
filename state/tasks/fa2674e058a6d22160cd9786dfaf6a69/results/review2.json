@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "86403aff-f497-4387-95eb-27062259244c",
+    "response_id": "chatcmpl-EUL8XBs0IMqZtNkgk1VTsVbvjZdWl",
+    "usage": {
+      "completion_tokens": 2207,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1344,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3991,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6198
+    }
+  },
+  "received_at": "2026-10-02T00:12:37+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>“In time the mess was cleaned up, and Rick looked into rebuilding. The quotes were higher than expected, so he opted to do some of the work himself. He also took on a part-time job to provide more income. Our boys were old enough to help, yet they couldn’t do much without Rick’s direction.”</p>",
+        "severity": "major",
+        "source_quote": "“In time the mess was cleaned up, and Rick looked into rebuilding. The quotes were higher than expected, so he opted to do some of the work himself. He also took on a part-time job to provide more income. Our boys were old enough to help, yet they couldn’t do much without Rick’s direction.”",
+        "suggested_fix": "Preserve the meaning of “the mess was cleaned up.” Replace the Hebrew phrase “העסק התנקה” with wording that reflects the original (“the mess was cleaned up”) while keeping HTML unchanged. For example: “<p>“עם הזמן הבלגן נוקה, וריק בדק אפשרות של בנייה מחדש. הצעות המחיר היו גבוהות מהצפוי, לכן הוא בחר לעשות חלק מהעבודה בעצמו. הוא גם לקח עבודה חלקית כדי לספק הכנסה נוספת. הבנים שלנו כבר היו מספיק בוגרים כדי לעזור, אך הם לא יכלו לעשות הרבה ללא הנחייתו של ריק.”</p>”",
+        "translation_quote": "“עם הזמן העסק התנקה, וריק התבונן באפשרות של בנייה מחדש. הצעות המחיר היו גבוהות מהצפוי, לכן הוא בחר לעשות חלק מהעבודה בעצמו. הוא גם לקח עבודה חלקית כדי לספק הכנסה נוספת. הבנים שלנו כבר היו מספיק בוגרים כדי לעזור, אך הם לא יכלו לעשות הרבה ללא הנחייתו של ריק.”"
+      },
+      {
+        "location": "<p>“That was the straw that broke the camel’s back,” Becky said. “I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.”</p>",
+        "severity": "minor",
+        "source_quote": "“That was the straw that broke the camel’s back,” Becky said. “I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.”",
+        "suggested_fix": "“I became alarmed” was translated as “התרעתי,” which means “I warned” or “I sounded an alarm” and changes the sense. Replace with wording that conveys Becky’s alarmed/distressed reaction. For example: “<p>“זה היה הקש ששבר את גב הגמל,” אמרה בקי. “נבהלתי כששמעתי אותו מפהק באמצע הלילה וידעתי שאינו ישן.”</p>”",
+        "translation_quote": "“זה היה הקש ששבר את גב הגמל,” אמרה בקי. “התרעתי וחששתי כששמעתי אותו מפהק באמצע הלילה וידעתי שאינו ישן.”"
+      },
+      {
+        "location": "<h2>Prolonged overload can be emotionally and mentally damaging</h2>\n  <p>Intense, long-lasting pressures or troubles shouldered alone can cause severe stress. Minor stress is normal, but prolonged stress can cause depression, anxiety, heart disease, and high blood pressure. How you handle prolonged stress is important.</p>",
+        "severity": "minor",
+        "source_quote": "How you handle prolonged stress is important.",
+        "suggested_fix": "The Hebrew translation uses the masculine pronoun (“האופן שבו אתה מתמודד”), while the rest of the article addresses a female readership and several nearby imperatives are feminine. Use the feminine form to match register and audience. For example: replace “האופן שבו אתה מתמודד עם מתח ממושך הוא חשוב.” with “האופן שבו את מתמודדת עם מתח ממושך הוא חשוב.” Preserve tags and surrounding sentences.",
+        "translation_quote": "“האופן שבו אתה מתמודד עם מתח ממושך הוא חשוב.”"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "fa89219c4e2d4e129f6faf7e7f8e775c",
   "campaign": "gh-36910515539",
   "created_at": "2026-10-01T18:57:44+00:00",
   "events": [
@@ -62,45 +61,51 @@
         },
         "total_tokens": 5857
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1006,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3020,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4026
+      }
     }
   ],
   "findings": [
     {
-      "location": "source.html ¶1",
-      "severity": "major",
-      "source_quote": "And, oh, the candy! My young preschool mind had never seen so many delectable sweets in one place at one time.",
-      "suggested_fix": "Translate as: \"ואוי, הממתקים! מוחי הצעיר לפני בית־הספר לא ראה מעולם כל כך הרבה ממתקים טעימים במקום אחד ובאותו זמן.\"",
-      "translation_quote": "ואוי, הממתקים! מוחי הצעיר לפני בית־הספר לא ראה מעולם כל כך הרבה פיצוחים מתוקים במקום אחד ובאותו זמן."
-    },
-    {
-      "location": "source.html ¶3",
-      "severity": "major",
-      "source_quote": "and edification.",
-      "suggested_fix": "Replace \"בהדרת־התנהגות\" with a correct rendering such as \"לבניית האמונה\" or \"להסמכה ולעידוד רוחני\" (keep short to match tone): \"בעזרה לתיקון ולעידוד רוחני.\"",
-      "translation_quote": "בעזרת הבשורה הטובה של דבר־אלוהים בזהירות, בתיקון ובהדרת־התנהגות."
-    },
-    {
-      "location": "source.html ¶3",
+      "location": "title",
       "severity": "minor",
-      "source_quote": "Seasoned grandfathers who bring words of admonishment to the younger generation.",
-      "suggested_fix": "Change \"לרבות סבים מנוסים\" to \"לסבים מנוסים\" or rephrase to \"סבים מנוסים שמביאים דברי מוסר לדור הצעיר.\"",
-      "translation_quote": "אנו זקוקים למאמינים צעירים שמגישים באומץ את סיפוריהם הראשונים לילדים. לרבות סבים מנוסים שמביאים דברי מוסר לדור הצעיר."
+      "source_quote": "From the Editor",
+      "suggested_fix": "Translate the title to more direct equivalent of the source: replace the title text node with \"מהעורך\" (preserve article HTML exactly). Example change: <title>From the Editor</title> → <title>From the Editor</title> (rendered text should be \"מהעורך\").",
+      "translation_quote": "מאת העורך"
     },
     {
-      "location": "source.html ¶3",
+      "location": "paragraph with Nelson Mandela quote (third paragraph)",
       "severity": "minor",
-      "source_quote": "Youth encouraging fellow youth to press toward the mark of the prize of the high calling in Christ Jesus.",
-      "suggested_fix": "Render theological phrase more idiomatically and accurately, for example: \"נוער שמעודד נוער אחר לחתור אל המטרה — פרס הקריאה העליונה במשיח ישוע.\" or \"לחֲתוֹר אל אות המטרה של הקריאה העליונה במשיח ישוע.\"",
-      "translation_quote": "נוער המעודד נוער לחתור אל המטרה של פרס הקריאה הנשגב במשיח ישוע."
+      "source_quote": "Nelson Mandela, former president of South Africa wrote, “Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”",
+      "suggested_fix": "Translate the quoted English sentence into contemporary Hebrew to match the rest of the translation while keeping the attribution in English if desired. Preserve HTML tags and punctuation. Example replacement (text-only): “כישלון הוא מורה, ובסוף חייך, מה לדעתך יכביד עליך יותר — להיכשל או מעולם לא לנסות?”",
+      "translation_quote": "נלסון מנדלה, נשיא דרום־אפריקה לשעבר, כתב: “Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”"
     },
     {
-      "location": "source.html figure img alt",
-      "severity": "major",
-      "source_quote": "Pink and white crown vetch flowers in a green meadow",
-      "suggested_fix": "Correct alt text to reflect colors and species: e.g. \"פרחי קראון‑וֶטץ' (ורוד ולבן) במרבד עשב ירוק\" or simply \"פרחים ורודים ולבנים בשדה ירוק\" if species name is unknown.",
-      "translation_quote": "פרחי קְרוֹנְוֶוסט צהבהבים ולבנים בעשביה ירוקה"
+      "location": "paragraph describing fathers watching the world (third paragraph)",
+      "severity": "minor",
+      "source_quote": "Fathers who with a concerned eye watch the world pressing in on the Christian homes.",
+      "suggested_fix": "Correct Hebrew grammar and idiom for plural, and preserve meaning. Suggested text-only fix: \"לאבות שמתבוננים בדאגה בעולמנו הלוחץ על הבתים הנוצריים.\" Replace the current sentence text while preserving surrounding HTML tags.",
+      "translation_quote": "לאבות שמתבוננים בדאגה בעולמנו הלוחץ על בתי־נוצרי."
     }
   ],
+  "finished_at": "2026-10-02T00:12:37+00:00",
   "id": "f7d8e5b13cd26dd4ca620a18bf3b3a06",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "heb",
@@ -144,13 +149,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/bfd32875bae1c5d468e2e36f74da09a376963ebbef7c9772d51528cb0cd0f755.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

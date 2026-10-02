@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e5ff1891-d33e-4720-8bfa-3a7b79782ad2",
+    "response_id": "chatcmpl-EUL95c36bp1o33VxQmTYYTWdCVZmn",
+    "usage": {
+      "completion_tokens": 955,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2817,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3772
+    }
+  },
+  "received_at": "2026-10-02T00:12:37+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>…So, isn’t it better to “plan” for a bee sting and a stubbed toe?</p>",
+        "severity": "minor",
+        "source_quote": "So, isn’t it better to “plan” for a bee sting and a stubbed toe?",
+        "suggested_fix": "Replace the awkward Hebrew phrase with a more natural rendering while preserving HTML structure. For example: \"אז, האם לא עדיף 'לתכנן' עקיצת דבורה והתנגשויות בבוהן?\" or better: \"אז, האם לא עדיף 'לתכנן' עקיצת דבורה ופגיעה בבוהן?\"",
+        "translation_quote": "אז, האם לא עדיף \"לתכנן\" עקיצת דבורה ולחבטת בהונות?"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

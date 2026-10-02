@@ -2,7 +2,6 @@
   "article_id": "93978dae-706d-43d4-abee-6b6e011683fa",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "fa89219c4e2d4e129f6faf7e7f8e775c",
   "campaign": "gh-36910515539",
   "created_at": "2026-10-01T18:57:44+00:00",
   "events": [
@@ -62,52 +61,52 @@
         },
         "total_tokens": 7470
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 2207,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1344,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3991,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6198
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "Paragraph: “That was the straw that broke the camel’s back,” Becky said. “I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.”",
+      "location": "<p>“In time the mess was cleaned up, and Rick looked into rebuilding. The quotes were higher than expected, so he opted to do some of the work himself. He also took on a part-time job to provide more income. Our boys were old enough to help, yet they couldn’t do much without Rick’s direction.”</p>",
       "severity": "major",
-      "source_quote": "\"I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.\"",
-      "suggested_fix": "Translate the sentence to convey the original meaning: e.g. replace the Hebrew with: \"התרעתי וחששתי כששמעתי אותו מפהק באמצע הלילה וידעתי שאינו ישן.\" (preserve surrounding HTML tags and punctuation).",
-      "translation_quote": "“התרתי דאגה כשהקשבתי לו מצנן באמצע הלילה וידעתי שהוא לא ישן.”"
+      "source_quote": "“In time the mess was cleaned up, and Rick looked into rebuilding. The quotes were higher than expected, so he opted to do some of the work himself. He also took on a part-time job to provide more income. Our boys were old enough to help, yet they couldn’t do much without Rick’s direction.”",
+      "suggested_fix": "Preserve the meaning of “the mess was cleaned up.” Replace the Hebrew phrase “העסק התנקה” with wording that reflects the original (“the mess was cleaned up”) while keeping HTML unchanged. For example: “<p>“עם הזמן הבלגן נוקה, וריק בדק אפשרות של בנייה מחדש. הצעות המחיר היו גבוהות מהצפוי, לכן הוא בחר לעשות חלק מהעבודה בעצמו. הוא גם לקח עבודה חלקית כדי לספק הכנסה נוספת. הבנים שלנו כבר היו מספיק בוגרים כדי לעזור, אך הם לא יכלו לעשות הרבה ללא הנחייתו של ריק.”</p>”",
+      "translation_quote": "“עם הזמן העסק התנקה, וריק התבונן באפשרות של בנייה מחדש. הצעות המחיר היו גבוהות מהצפוי, לכן הוא בחר לעשות חלק מהעבודה בעצמו. הוא גם לקח עבודה חלקית כדי לספק הכנסה נוספת. הבנים שלנו כבר היו מספיק בוגרים כדי לעזור, אך הם לא יכלו לעשות הרבה ללא הנחייתו של ריק.”"
     },
     {
-      "location": "Paragraph: “My darkest day came when I was accused of being selfish with my time because I declined the food committee request.”",
-      "severity": "critical",
-      "source_quote": "\"My darkest day came when I was accused of being selfish with my time because I declined the food committee request.\"",
-      "suggested_fix": "This must convey that Becky was accused by others. Replace with correct Hebrew reflecting passive accusation, e.g.: \"היום האפל ביותר שלי הגיע כשהאשימו אותי שאני אנוכית בזמני כי סירבתי לבקשת ועדת המזון.\" (preserve exact HTML tags and punctuation).",
-      "translation_quote": "\"היום האפל ביותר שלי הגיע כשאיששתי שאני אנוכית עם זמני כי סירבתי לבקשת ועדת המזון.\""
-    },
-    {
-      "location": "Paragraph: “I felt like a lifeguard trying to keep a man from drowning while taking in a bit too much water myself.”",
+      "location": "<p>“That was the straw that broke the camel’s back,” Becky said. “I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.”</p>",
       "severity": "minor",
-      "source_quote": "\"I felt like a lifeguard trying to keep a man from drowning while taking in a bit too much water myself.\"",
-      "suggested_fix": "Use an idiomatic Hebrew that preserves the metaphor without changing agency: e.g. \"הרגשתי כמו מציל שמנסה למנוע מאדם לטבוע, תוך כך שגם אני נכנסת קצת למים.\"",
-      "translation_quote": "\"הרגשתי כמו מציל שמנסה למנוע מאדם לטבוע בזמן שגם אני נושאת קצת מים בפה.\""
+      "source_quote": "“That was the straw that broke the camel’s back,” Becky said. “I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.”",
+      "suggested_fix": "“I became alarmed” was translated as “התרעתי,” which means “I warned” or “I sounded an alarm” and changes the sense. Replace with wording that conveys Becky’s alarmed/distressed reaction. For example: “<p>“זה היה הקש ששבר את גב הגמל,” אמרה בקי. “נבהלתי כששמעתי אותו מפהק באמצע הלילה וידעתי שאינו ישן.”</p>”",
+      "translation_quote": "“זה היה הקש ששבר את גב הגמל,” אמרה בקי. “התרעתי וחששתי כששמעתי אותו מפהק באמצע הלילה וידעתי שאינו ישן.”"
     },
     {
-      "location": "Paragraph: “The boys were old enough to help, yet they couldn’t do much without Rick’s direction.”",
+      "location": "<h2>Prolonged overload can be emotionally and mentally damaging</h2>\n  <p>Intense, long-lasting pressures or troubles shouldered alone can cause severe stress. Minor stress is normal, but prolonged stress can cause depression, anxiety, heart disease, and high blood pressure. How you handle prolonged stress is important.</p>",
       "severity": "minor",
-      "source_quote": "\"The boys were old enough to help, yet they couldn’t do much without Rick’s direction.\"",
-      "suggested_fix": "Smooth Hebrew wording while preserving meaning, e.g.: \"הבנים שלנו כבר היו מספיק בוגרים כדי לעזור, אך הם לא יכלו לעשות הרבה ללא הנחייתו של ריק.\"",
-      "translation_quote": "\"הבנים שלנו היו בני גיל המסוגלים לעזור, אך לא יכלו לעשות הרבה בלי הנחייתו של ריק.\""
-    },
-    {
-      "location": "Heading: \"Believe that God cares\" and following paragraph with Psalm 30:5",
-      "severity": "minor",
-      "source_quote": "\"Believe that God cares\" and: \"Believe “Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).\"",
-      "suggested_fix": "Heading tone in Hebrew uses feminine forms elsewhere; keep consistent with article voice (addressing female reader). Also consider translating the Psalm citation into the same presentation as in English (the translation currently preserves the English quote — acceptable but note consistency). If you want Hebrew rendering of heading: \"האמיני שאלוהים דואג\". If keeping as is, no change required.",
-      "translation_quote": "\"אחרי המאמץ — האמונה שמשמעותה שהאל דואג\" and \"האמיני “Weeping may endure for a night, but joy cometh in the morning” (Psalm 30:5).\""
-    },
-    {
-      "location": "Final paragraph with Psalm 71:1 quote",
-      "severity": "minor",
-      "source_quote": "\"And say with the Psalmist, “In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).\"",
-      "suggested_fix": "The Hebrew text addresses a female reader elsewhere; consider keeping imperative gender consistent (e.g. \"ואמרי עם המזמור-הזמר:\"). The Hebrew currently leaves the verse in English — that is acceptable per guidance; if desired, keep the English quote but ensure surrounding Hebrew verbs match second-person feminine if addressing the same audience.",
-      "translation_quote": "\"ואמרי עם מזמור-הזמר, “In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).\""
+      "source_quote": "How you handle prolonged stress is important.",
+      "suggested_fix": "The Hebrew translation uses the masculine pronoun (“האופן שבו אתה מתמודד”), while the rest of the article addresses a female readership and several nearby imperatives are feminine. Use the feminine form to match register and audience. For example: replace “האופן שבו אתה מתמודד עם מתח ממושך הוא חשוב.” with “האופן שבו את מתמודדת עם מתח ממושך הוא חשוב.” Preserve tags and surrounding sentences.",
+      "translation_quote": "“האופן שבו אתה מתמודד עם מתח ממושך הוא חשוב.”"
     }
   ],
+  "finished_at": "2026-10-02T00:12:37+00:00",
   "id": "fa2674e058a6d22160cd9786dfaf6a69",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "heb",
@@ -151,13 +150,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 70,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/655f2b893d535149fb7f0e71fcdd48b885970929ae2439021fc6d8de3cd6b11b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

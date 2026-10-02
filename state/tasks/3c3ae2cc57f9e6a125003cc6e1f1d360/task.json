@@ -2,7 +2,6 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "fa89219c4e2d4e129f6faf7e7f8e775c",
   "campaign": "gh-36910515539",
   "created_at": "2026-10-01T18:57:44+00:00",
   "events": [
@@ -62,52 +61,87 @@
         },
         "total_tokens": 6152
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1800,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3275,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5075
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "<p class=\"drop-cap\"> (first paragraph)",
-      "severity": "minor",
-      "source_quote": "Eight-year-old Jamin wasn’t very smart.",
-      "suggested_fix": "Translate idiomatically to Modern Hebrew: replace with \"ג'מין בן שמונה לא היה מאוד חכם.\" and keep the surrounding <p class=\"drop-cap\"> tags unchanged.",
-      "translation_quote": "גיל  שמונה, ג'מין לא היה מאוד חכם."
-    },
-    {
-      "location": "<p>Grandma Otto watched these trials from her rocker on the porch. She was a quiet old lady.</p>",
-      "severity": "minor",
-      "source_quote": "Grandma Otto watched these trials from her rocker on the porch. She was a quiet old lady.",
-      "suggested_fix": "Use a correct Hebrew term for 'rocker' and fix word order: e.g. \"סבתא אוטו צפתה בניסיונות הללו מכיסא הנדנדה שלה על המרפסת. היא הייתה אישה זקנה ושקטה.\" Preserve the <p> tag.",
-      "translation_quote": "סבתא אוטו צפתה בניסיונות האלה משנדנתה על המרפסת. היא הייתה אישה זקנה ושקטה."
-    },
-    {
-      "location": "<p>“Yes. I think so. If you support me, I can hobble along.”</p>",
+      "location": "<article> paragraph 2 (source first sentence: “Jamin, you will never be smart”, Kenny said.)",
       "severity": "major",
-      "source_quote": "Yes. I think so. If you support me, I can hobble along.",
-      "suggested_fix": "Restore the original meaning of 'hobble along' (to walk with difficulty). For example: \"כן, אני חושב כן. אם תתמוך בי, אוכל לעקוב בקושי.\" or \"... אוכל לצעוד בקושי אם תתמוך בי.\" Keep the <p> tag and surrounding punctuation.",
-      "translation_quote": "“כן. אני חושב שכן. אם תתמוך בי, אני אוכל לקפוץ הלאה.”"
+      "source_quote": "“Jamin, you will never be smart”, Kenny said. Deep inside Jamin felt resigned to a life of muddled trip-ups.",
+      "suggested_fix": "Translate the sense of resignation and the idiom correctly. For example: “«ג'מין, אתה לעולם לא תהיה חכם», אמר קני. עמוק בלבו הרגיש ג'מין שהוא נידון לחיים של שגיאות מבולבלות ולחוסר הצלחה.” Preserve the article HTML tags and placement.",
+      "translation_quote": "“ג'מין, אתה לעולם לא תהיה חכם”, אמר קני. עמוק בלבו הרגיש ג'מין מסור לאריכות חיים של מהלכים מבולבלים."
     },
     {
-      "location": "<p>“Jamin.” It was Grandma. The porch light showed her in her old rocker. A heavy comforter lay on her shoulders.</p>",
-      "severity": "minor",
-      "source_quote": "The porch light showed her in her old rocker. A heavy comforter lay on her shoulders.",
-      "suggested_fix": "Fix idiomatic rendering and verb tense: e.g. \"אור המרפסת גילה אותה בכיסא הנדנדה הישן שלה. שמיכה כבדה שככה על כתפיה.\" (or \"מונחת על כתפיה\"). Preserve the <p> tag.",
-      "translation_quote": "“ג'מין.” זו הייתה סבתא. אור המרפסת הראה אותה בכיסא שלה. שמיכה כבדה שוכבת על כתפיה."
+      "location": "<article> paragraph 3 (wide-eyed belief)",
+      "severity": "major",
+      "source_quote": "Jamin believed Kenny’s lectures with wide-eyed belief. Kenny was three years older than him, so he must be right.",
+      "suggested_fix": "Replace the literal/incorrect phrasing with a natural Hebrew equivalent that preserves meaning, e.g. “ג'מין האמין בהרצאותיו של קני באמונה תמימה/בעיניים קורנות פקוחה”, followed by the explanation that Kenny was three years older so Jamin assumed he was right. Keep tags/order.",
+      "translation_quote": "ג'מין האמין להרצאות של קני באמונה עיניים נוקשות. קני היה גדול ממנו בשלוש שנים, אז בוודאי שהוא צודק."
     },
     {
-      "location": "<p>The odd little band hurried home, and the screen door banged shut as Dad swept across the porch.</p>",
-      "severity": "minor",
-      "source_quote": "The odd little band hurried home, and the screen door banged shut as Dad swept across the porch.",
-      "suggested_fix": "Use an idiomatic Hebrew verb for 'banged shut' (נעצרה/נטרקה/נעלתה בחבטה) and choose one that fits tone, e.g. \"דלת המסך נטרקה\". Preserve the <p> tag.",
-      "translation_quote": "ההרכב הקטן והמשונה חזר הביתה במהירות, ודלת המסך נסתה בחבטה כשהאבא חצה את המרפסת."
+      "location": "<article> paragraph 9 (Did you step in a trap?)",
+      "severity": "critical",
+      "source_quote": "“Did you step in a trap?”",
+      "suggested_fix": "This line was mistranslated to mean “were you insulted (נעלבת)”. It must reflect the physical action. Correct translation should be: “האם נסתקלת במלכודה?” or “נכנסת למלכודה?” or more simply “נכנסת למלכודה?” Preserve punctuation and tags.",
+      "translation_quote": "“האם נעלבת במלכודה?”"
     },
     {
-      "location": "<p>He breathed the rich air and followed Kenny’s trail.</p>",
+      "location": "<article> paragraph 11 (pried open the jaws)",
+      "severity": "major",
+      "source_quote": "Quickly, Jamin’s strong arms pried open the jaws. Kenny reeled free.",
+      "suggested_fix": "The verb must convey opening the steel-trap’s jaws. Use a standard Hebrew verb: “במהירות זרועותיו החזקות של ג'מין פתחו את לסתות המלכודה” or “פרצו את לסתות המלכודה”. Keep sentence order and tags.",
+      "translation_quote": "במהירות, זרועותיו החזקות של ג'מין פשקו את הפיות. קני השתחרר."
+    },
+    {
+      "location": "<article> paragraph 12 (If you support me...)",
+      "severity": "major",
+      "source_quote": "“Yes. I think so. If you support me, I can hobble along.”",
+      "suggested_fix": "Fix the duplicated clause and produce a natural Hebrew rendering, e.g. “כן, נראה לי. אם תתמוך בי, אוכל לצעוד בצעדים קלים/להתקדם בקושי.” Preserve punctuation and tags.",
+      "translation_quote": "“כן. אני חושב שכן. אם תתמוך בי, אוכל לצעוד בקושי אם תתמוך בי.”"
+    },
+    {
+      "location": "<article> paragraph 6 (tramped up over the lawn)",
       "severity": "minor",
-      "source_quote": "He breathed the rich air and followed Kenny’s trail.",
-      "suggested_fix": "Minor stylistic: correct Hebrew verb forms and missing pronoun: e.g. \"נשף את האוויר העשיר ועקב אחרי שבילו של קני.\" or better \"נשם את האוויר העשיר ועקב אחרי שבילו של קני.\" Preserve the <p> tag.",
-      "translation_quote": "נשם את האוויר העשיר ועקב אחרי שבبلو של קני."
+      "source_quote": "There was a chill in the air as he tramped up over the lawn, and the sun was growing old as he crossed the border of the woods.",
+      "suggested_fix": "The Hebrew uses incorrect word choice/typo “ביקר”. Replace with natural phrasing, e.g. “היה קר באוויר כשהוא פסע על הדשא, והשמש הזדקנה כשהוא חצה את גבול היער.” Preserve original tags and order.",
+      "translation_quote": "היה קר באוויר כשהוא פסע ביקר אל הדשא, והשמש הזדקנה כשהוא חצה את גבול היער."
+    },
+    {
+      "location": "<article> paragraph 8 (fall webworms / web curtains)",
+      "severity": "minor",
+      "source_quote": "The fall webworms had been at work, and their web curtains shuttered from branches overhead.",
+      "suggested_fix": "“תולעי הרשת של הסתיו” and “וילונות הרשת שלהם קרסו” are intelligible but awkward. Suggest smoother Hebrew: “תולעי הרשת של הסתיו עבדו, ורשתותיהן התפקעו/התנופפו מענפים מעל.” Keep tags/orders.",
+      "translation_quote": "תולעי הרשת של הסתיו עבדו, ווילונות הרשת שלהם קרסו מענפים מעל."
+    },
+    {
+      "location": "<article> paragraph 15 (grandma question and boy’s reaction)",
+      "severity": "minor",
+      "source_quote": "“That’s what Kenny says.” Jamin squirmed.",
+      "suggested_fix": "Translation uses an unclear verb “התמתח בקסניחות”. Suggest natural: “‘זה מה שקני אומר,’ ג'מין חיפש לשנות את תנוחתו/התחבט.” or simply “ג'מין נבוך.” Keep tags.",
+      "translation_quote": "“זה מה שקני אומר.” ג'מין התמתח בקסניחות."
     }
   ],
+  "finished_at": "2026-10-02T00:12:37+00:00",
   "id": "3c3ae2cc57f9e6a125003cc6e1f1d360",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "heb",
@@ -151,13 +185,13 @@
     }
   },
   "protected": false,
-  "quality_score": 62,
+  "quality_score": 60,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a7ca25068c1bad9f392aef90030e0bae4b2e168a2dbdfb445b23493e0ef481c1.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
