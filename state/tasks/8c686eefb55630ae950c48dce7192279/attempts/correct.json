@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:09:59+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"99d9d2e9-2f6a-46ce-a06a-4635a4d484f9\\\">\\n  <div class=\\\"poem\\\">\\n    <p>Wir hören all das Gerede, all die Schönheit der Herrlichkeit<br>\\n    Die Bibel spricht und erzählt ihre eigene Geschichte.<br>\\n    Dort oben gibt es einen Ort, ohne Mühe und Streit.<br>\\n    Doch die Kirche kann dieses Leben vergessen,<br>\\n    Wenn Gottes Gegenwart wie die Sonne scheint,<br>\\n    schließt der so süße Gesang alle ein.<br>\\n    Wenn es den Himmel wirklich gibt, stelle ich nun eine Frage:<br>\\n    Warum richtet sich so viel auf ein Leben, das nicht währt?<br>\\n    Wir bauen unsere Herrenhäuser hier auf Erden,<br>\\n    Wir müssen vergessen haben, wie wenig es wert ist.<br>\\n    Wir sehen unsere Besitztümer an und sagen, wir seien gesegnet,<br>\\n    Und vergessen, dass sie bald mit allem anderen verbrennen werden.<br>\\n    Schätze sind wertvoll, darin sind wir uns einig.<br>\\n    Doch legt sie im Himmel nieder, wo sie für immer bleiben werden.<br>\\n    Würden wir unser Leben um des guten Herrn willen verlieren?<br>\\n    Dann gewännen wir die Ewigkeit und hätten Anteil am Himmel.<br>\\n    Oder lieben wir unser Leben, obwohl die Bibel klar sagt:<br>\\n    Wir würden unsere Chance auf den so kostbaren Himmel verlieren.<br>\\n    Wenn es den Himmel wirklich gibt, müssen wir verwirrt sein,<br>\\n    Denn es scheint, als fessele uns dieses Leben.<br>\\n    Wenn der Himmel auf uns wartet und wir wissen, dass wir dorthin kämen,<br>\\n    warum fürchten wir uns dann, wenn der Tod zuschlägt?<br>\\n    Wenn das nächste Leben der Himmel ist, die Ewigkeit mit Ihm,<br>\\n    dann ist der Tod der Anfang – warum also ist er so düster?<br>\\n    Unser Leben ist nur ein Hauch, so verkündet es das gute Buch.<br>\\n    Lasst uns weise nachdenken und unseren Blickwinkel ändern.</p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Wenn es den Himmel wirklich gibt\"}",
+    "content_bytes": 1930,
+    "content_evidence_truncated": false,
+    "content_sha256": "c2722a940fb57b9c4c17fe96dfc245cc8d1f727beedd78c0e74d3e31325c0273",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1018,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 486,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2650,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2647,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3668
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

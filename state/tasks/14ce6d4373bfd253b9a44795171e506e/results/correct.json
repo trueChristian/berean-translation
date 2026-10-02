@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6aaa7b17-2804-4c81-a344-f35f970cd42f",
+    "response_id": "chatcmpl-EUejf6a77Rt4fqWJvCHklvVhkoNLA",
+    "usage": {
+      "completion_tokens": 1306,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 181,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3345,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3342,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4651
+    }
+  },
+  "received_at": "2026-10-02T21:09:59+00:00",
+  "result": {
+    "html": "<article data-article-id=\"d5891c2f-007d-4926-90e0-81c25cf67fbd\">\n  <figure>\n    <img src=\"/images/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd-1.jpg\" alt=\"Un arcoíris doble se extiende sobre árboles oscuros bajo un cielo tormentoso\">\n  </figure>\n\n  <div class=\"poem\">\n    <p>La tormenta era oscura y amenazante,<br>\n    Nubes negras se arremolinaban sobre mí.<br>\n    Los relámpagos brillaban a mi alrededor,<br>\n    El temor me atrapó y me llenó de espanto.</p>\n\n    <p>Los truenos anunciaban malos presagios.<br>\n    Sentía el corazón pesado y entumecido.<br>\n    A mi alrededor, la tormenta arreciaba,<br>\n    La agitación interior me dejó sin palabras.</p>\n\n    <p>No solo me rodeaba el peligro,<br>\n    También era real el que llevaba dentro.<br>\n    Temblé al mirar hacia el futuro,<br>\n    Sin saber cómo seguir.</p>\n\n    <p>¿Qué había más allá de la niebla?<br>\n    El viento silbaba en mis oídos,<br>\n    Sugiriendo preguntas, haciéndome tropezar,<br>\n    Y cargándome de temores.</p>\n\n    <p>Esta tormenta había borrado todas las señales del camino,<br>\n    Que una vez pensé que podía ver.<br>\n    Ahora, todo lo familiar había desaparecido de mi vista,<br>\n    Y daba cada paso con vacilación.</p>\n\n    <p>Al llegar al límite de mis fuerzas, grité con miedo...<br>\n    «¡Señor, ven a mí! ¡No tardes, oh Rey mío!»<br>\n    Reinó un silencio abrumador; me sentí sin compañía,<br>\n    Y solo a la esperanza me aferré.</p>\n\n    <p>Entonces una voz suave, pero firme, me habló al oído:<br>\n    «Criatura preciosa, mira hacia arriba».<br>\n    ¿Por qué pedir eso, si yo estaba tan inmerso<br>\n    En la niebla que se negaba a disiparse?</p>\n    <p>Aún con esperanza, alcé la mirada,<br>\n    Temblando ante las nubes oscuras que me rodeaban.<br>\n    Pero al mirar, vi algo más:<br>\n    Allí en el cielo encontré un tesoro.</p>\n\n    <p>En medio de todas aquellas nubes oscuras y amenazantes,<br>\n    ¡Allí estaba! ¡Una abertura de luz!<br>\n    Un arcoíris brillaba con los colores más hermosos,<br>\n    Un faro en medio de aquella noche oscura.</p>\n\n    <p>«Criatura mía, no temas; nunca estuviste sin compañía.<br>\n    Ni por un segundo me aparté de tu lado.<br>\n    Aunque el camino sea incierto y haya mucho que soportar,<br>\n    No dudes de que puedes refugiarte en Mí».</p>\n\n    <p>«Sí, por ahora caminas entre pruebas,<br>\n    Los temores te amenazan por dentro y por fuera.<br>\n    Te preguntas y dudas sobre lo que debes hacer,<br>\n    Los peligros parecen reírse y desafiarte».</p>\n\n    <p>«Pero aquí he puesto Mi arcoíris,<br>\n    Para que, en medio de toda la oscuridad y el temor,<br>\n    puedas ver que Mi promesa es segura.<br>\n    Nunca te abandonaré; siempre estaré cerca».</p>\n\n    <p>«Si mantienes la mirada fija en esta promesa,<br>\n    Mi luz guiará tu camino.<br>\n    Los temores y peligros que te rodean<br>\n    quedarán entonces a raya».</p>\n\n    <p>«Esta promesa también puede revelarte<br>\n    los secretos ocultos en medio de la tormenta.<br>\n    Pues Mi fuerza y Mi poder se manifiestan<br>\n    cuando estas cosas se someten a Mi voluntad».</p>\n\n    <p>«Así que, criatura mía, contempla largamente el arcoíris.<br>\n    Medita en el mensaje que trae.<br>\n    Aunque todo a tu alrededor sea furioso y violento,<br>\n    recuerda la promesa que anuncia».</p>\n\n    <p class=\"byline\">~por Adrianna Fanton</p>\n  </div>\n</article>\n",
+    "section": "Poema",
+    "subtitle": null,
+    "title": "Mira el arcoíris"
+  }
+}

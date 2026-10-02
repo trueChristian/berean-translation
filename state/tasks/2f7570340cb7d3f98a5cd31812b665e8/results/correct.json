@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a910ca46-9f23-4bc4-aa58-0e76b9d34ea8",
+    "response_id": "chatcmpl-EUej8pxu1OzITUiauRguHNCauiwXL",
+    "usage": {
+      "completion_tokens": 736,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 162,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2077,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2074,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2813
+    }
+  },
+  "received_at": "2026-10-02T21:09:59+00:00",
+  "result": {
+    "html": "<article data-article-id=\"99d9d2e9-2f6a-46ce-a06a-4635a4d484f9\">\n  <div class=\"poem\">\n    <p>Tunasikia mazungumzo yote, uzuri wa utukufu<br>\n    Biblia hunena na kusimulia hadithi yake yenyewe.<br>\n    Kuna mahali kule juu, pasipo taabu wala ugomvi.<br>\n    Hata hivyo, kanisa linaweza kusahau maisha hayo,<br>\n    Ikiwa uwepo wa Mungu unang'aa kama jua,<br>\n    Uimbaji ni mtamu sana, na kila mtu anajumuishwa.<br>\n    Ikiwa mbingu ni halisi, basi nauliza swali.<br>\n    Kwa nini kuzingatia sana maisha yasiyodumu?<br>\n    Tunajenga majumba yetu hapa duniani,<br>\n    Lazima tumesahau jinsi thamani yake ilivyo ndogo.<br>\n    Tunatazama vitu vyetu, na kusema tumebarikiwa,<br>\n    Tukisahau kwamba hivi karibuni vitaungua pamoja na vingine vyote.<br>\n    Tunakubaliana kwamba hazina zina thamani.<br>\n    Lakini ziweke mbinguni, ambako zitadumu milele.<br>\n    Je, tungeutoa uhai wetu kwa ajili ya Bwana mwema?<br>\n    Basi tungepata umilele, na kushiriki mbingu.<br>\n    Au tukipenda maisha yetu, Biblia iko wazi:<br>\n    Tungepoteza nafasi yetu ya kupata mbingu hiyo yenye thamani.<br>\n    Ikiwa mbingu ni halisi, lazima tumechanganyikiwa,<br>\n    Kwa maana inaonekana maisha haya ndiyo yanayotuburudisha.<br>\n    Ikiwa mbingu inatungoja, na tunajua kwamba tutaenda huko,<br>\n    Basi kwa nini tunaogopa kifo kinapotupiga?<br>\n    Ikiwa maisha yajayo ni mbinguni, umilele pamoja Naye,<br>\n    Basi kifo ni mwanzo, kwa nini basi kinakutisha?<br>\n    Biblia inatufundisha kwamba maisha yetu ni mvuke tu.<br>\n    Tufikiri kwa hekima na tubadilishe mtazamo wetu.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Ikiwa Mbingu Ni Halisi"
+  }
+}

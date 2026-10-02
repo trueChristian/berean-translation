@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, poem, lines 3–6",
+      "severity": "major",
+      "source_quote": "There’s a place up there, no toil or strife. However, the church, can forget of that life, If the presence of God, shines as the sun, The singing so sweet, includes everyone.",
+      "suggested_fix": "Preserve the contrast and conditional meaning in Dutch, for example: “Daarboven is een plaats, zonder zwoegen of strijd. Toch kan de kerk dat leven vergeten: als Gods aanwezigheid straalt als de zon, omvat het zoete gezang iedereen.”",
+      "translation_quote": "Daarboven is een plaats, zonder zwoegen of strijd. Toch kan de kerk dat leven vergeten, Als Gods aanwezigheid straalt als de zon, omvat het zoete gezang iedereen."
+    },
+    {
+      "location": "HTML, poem, line 9",
+      "severity": "major",
+      "source_quote": "We build our mansions here on this earth,",
+      "suggested_fix": "Translate “mansions” as “herenhuizen” or another suitable Dutch equivalent for large houses, rather than “herenhuizen” only if the intended sense is preserved; avoid implying more than the source states.",
+      "translation_quote": "We bouwen hier op aarde onze herenhuizen,"
+    },
+    {
+      "location": "HTML, poem, lines 23–24",
+      "severity": "major",
+      "source_quote": "When the next life is heaven, eternity with Him, Then death is the beginning, so why is it grim?",
+      "suggested_fix": "Use Dutch phrasing that retains the question about why death is grim, such as: “Als het volgende leven de hemel is, de eeuwigheid bij Hem, dan is de dood het begin—waarom is dat dan zo somber?”",
+      "translation_quote": "Als het volgende leven de hemel is, de eeuwigheid bij Hem, Dan is de dood het begin; waarom is hij dan zo somber?"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[26]: source /article[1]/div[1]/p[1]/br[24] ('start', 'br', ()); translation /article[1]/div[1]/p[1] ('end', 'p')",
+  "stage": "terminal"
+}

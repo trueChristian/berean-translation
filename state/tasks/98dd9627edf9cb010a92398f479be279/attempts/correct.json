@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:09:59+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"d5891c2f-007d-4926-90e0-81c25cf67fbd\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd-1.jpg\\\" alt=\\\"Ein doppelter Regenbogen spannt sich über dunkle Bäume unter einem stürmischen Himmel\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>Der Sturm war dunkel und bedrohlich,<br>\\n    Dunkle Wolken türmten sich über mir auf.<br>\\n    Blitze zuckten rings um mich,<br>\\n    Angst packte mich und erfüllte mich mit Schrecken.</p>\\n\\n    <p>Der Donner rollte seine Warnungen heran.<br>\\n    Mein Herz fühlte sich schwer und taub an.<br>\\n    Ringsum tobte der Sturm,<br>\\n    Der Aufruhr in mir verschlug mir die Sprache.</p>\\n\\n    <p>Nicht nur die Gefahr um mich herum,<br>\\n    auch die Gefahr in meinem Innern war ebenso wirklich.<br>\\n    Zitternd blickte ich in die Zukunft,<br>\\n    ohne zu wissen, wie es weitergehen sollte.</p>\\n\\n    <p>Was lag hinter dem Nebel?<br>\\n    Der Wind pfiff mir um die Ohren.<br>\\n    Er warf Fragen auf, ließ mich stolpern<br>\\n    und belastete mich mit Ängsten.</p>\\n\\n    <p>Dieser Sturm hatte alle Zeichen des Weges beseitigt,<br>\\n    den ich einst zu erkennen geglaubt hatte.<br>\\n    Nun war alles Vertraute meinen Augen entschwunden,<br>\\n    jeder Schritt zögerlich gesetzt.</p>\\n\\n    <p>Am Ende meiner Kräfte rief ich voller Angst ...<br>\\n    „Herr, komm zu mir! Säume nicht, o mein König!“<br>\\n    Schwer lastete die Stille, ich fühlte mich ganz allein,<br>\\n    nur an die Hoffnung klammerte ich mich.</p>\\n\\n    <p>Da sprach eine leise, doch kräftige Stimme an mein Ohr:<br>\\n    „Mein liebes Kind, schau auf.“<br>\\n    Warum eine solche Bitte? Wo ich doch so tief versunken war<br>\\n    in dem Nebel, der sich nicht lichten wollte.</p>\\n    <p>Noch immer voller Hoffnung hob ich meine Augen,<br>\\n    zitternd angesichts der dunklen Wolken ringsum.<br>\\n    Doch als ich hinsah, erblickte ich noch etwas anderes,<br>\\n    einen Schatz am Himmel.</p>\\n\\n    <p>Inmitten all der dunklen und bedrohlichen Wolken<br>\\n    war er da! Ein Spalt aus Licht!<br>\\n    Ein Regenbogen leuchtete hindurch, in herrlichsten Farben,<br>\\n    ein Leuchtfeuer in dieser dunklen Nacht.</p>\\n\\n    <p>„Mein Kind, fürchte dich nicht, du warst nie allein.<br>\\n    Nicht eine Sekunde lang konnte ich dich verlassen.<br>\\n    Auch wenn der Weg unklar ist und es viel zu ertragen gibt,<br>\\n    zweifle nicht daran, dass du bei Mir Zuflucht finden kannst.“</p>\\n\\n    <p>„Ja, im Moment gehst du durch Prüfungen,<br>\\n    Ängste bedrohen dich von innen und außen.<br>\\n    Du fragst dich und überlegst, was als Nächstes zu tun ist,<br>\\n    Gefahren scheinen zu spotten und zu trotzen.“</p>\\n\\n    <p>„Doch hier habe ich Meinen Regenbogen hingestellt,<br>\\n    damit du inmitten all der Dunkelheit und Angst<br>\\n    erkennen kannst, dass Meine Verheißung gewiss ist.<br>\\n    Ich werde dich niemals verlassen, sondern immer nahe sein.“</p>\\n\\n    <p>„Wenn du den Blick auf diese Verheißung gerichtet hältst,<br>\\n    wird Mein Licht dir den Weg weisen.<br>\\n    Die Ängste und Gefahren, die dich umgeben,<br>\\n    werden dich dann nicht überwältigen.“</p>\\n\\n    <p>„Diese Verheißung kann dir auch<br>\\n    die Geheimnisse erschließen, die sich im Sturm verbergen.<br>\\n    Denn Meine Kraft und Macht werden offenbar,<br>\\n    wenn sich diese Meinem Willen fügen.“</p>\\n\\n    <p>„Also, Mein Kind, betrachte den Regenbogen lange.<br>\\n    Denke über die Botschaft nach, die er bringt.<br>\\n    Auch wenn rings um dich alles wütend und wild ist,<br>\\n    erinnere dich an die Verheißung, von der er kündet.“</p>\\n\\n    <p class=\\\"byline\\\">~von Adrianna Fanton</p>\\n  </div>\\n</article>\\n\",\"section\":\"Gedicht\",\"subtitle\":null,\"title\":\"Sieh den Regenbogen\"}",
+    "content_bytes": 3820,
+    "content_evidence_truncated": false,
+    "content_sha256": "71748b6939632c67b50caf69dbe99b4e85f9d2f52d77ed47c8f5319d3053ec35",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1403,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 236,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3234,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3231,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4637
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

@@ -6,6 +6,12 @@
       "campaign": "gh-37045474073",
       "event": "requested",
       "task": "7c209f9527d176f1447ba807180c77c5"
+    },
+    {
+      "at": "2026-10-02T21:09:59+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[2]; missing: !invalid[eng] Psalm 119:  ; extra: none",
+      "task": "7c209f9527d176f1447ba807180c77c5"
     }
   ],
   "language": "heb",

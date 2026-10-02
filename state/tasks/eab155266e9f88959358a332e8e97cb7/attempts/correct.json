@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:10:00+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"99d9d2e9-2f6a-46ce-a06a-4635a4d484f9\\\">\\n  <div class=\\\"poem\\\">\\n    <p>Ons hoor al die praatjies, die heerlikhede van glorie<br>\\n    Die Bybel spreek en vertel sy eie storie.<br>\\n    Daar bo is ’n plek sonder swoeg of stryd.<br>\\n    Tog kan die kerk daardie lewe vergeet,<br>\\n    as God se teenwoordigheid soos die son skyn,<br>\\n    en die sang so lieflik is dat almal deelneem.<br>\\n    As die hemel werklik is, wil ek ’n vraag stel.<br>\\n    Waarom soveel fokus op ’n lewe wat nie sal hou nie?<br>\\n    Ons bou ons herehuise hier op hierdie aarde,<br>\\n    Ons moes vergeet het hoe min dit werd is.<br>\\n    Ons kyk na ons besittings en sê ons is geseën,<br>\\n    En vergeet dat dit binnekort saam met die res sal verbrand.<br>\\n    Skatte is waardevol, daaroor stem ons saam.<br>\\n    Maar vergaar hulle in die hemel, waar hulle vir altyd sal bly.<br>\\n    Sou ons ons lewe ter wille van die goeie Here verloor?<br>\\n    Dan sou ons die ewigheid wen en deel hê aan die hemel.<br>\\n    Of het ons ons lewe lief, terwyl die Bybel dit duidelik stel:<br>\\n    Ons sou ons kans op die kosbare hemel verloor.<br>\\n    As die hemel werklik is, moet ons verward wees,<br>\\n    Want dit lyk asof hierdie lewe ons bekoor.<br>\\n    As die hemel op ons wag en ons weet ons sal daarheen gaan,<br>\\n    Waarom vrees ons dan wanneer die dood toeslaan?<br>\\n    As die volgende lewe die hemel is, die ewigheid saam met Hom,<br>\\n    Dan is die dood die begin—waarom is dit dan so somber?<br>\\n    Ons lewe is maar ’n damp, sê die Goeie Boek.<br>\\n    Laat ons met wysheid redeneer en ons blik verander.</p>\\n  </div>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"As die hemel werklik is\"}",
+    "content_bytes": 1740,
+    "content_evidence_truncated": false,
+    "content_sha256": "83ded4b54dfa4c461717e4b7a1c9fea1be8e89b52572f68e19583ea11245fb14",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 810,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 270,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2427,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2424,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3237
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

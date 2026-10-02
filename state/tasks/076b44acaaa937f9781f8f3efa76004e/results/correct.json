@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "50caf755-8713-45c0-9b40-127ae9f8ee56",
+    "response_id": "chatcmpl-EUejGybKxJkxQKlSHhetQT3XYZu9A",
+    "usage": {
+      "completion_tokens": 638,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 139,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2248,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2245,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2886
+    }
+  },
+  "received_at": "2026-10-02T21:09:58+00:00",
+  "result": {
+    "html": "<article data-article-id=\"99d9d2e9-2f6a-46ce-a06a-4635a4d484f9\">\n  <div class=\"poem\">\n    <p>We horen al die praat, de schoonheid van de heerlijkheid<br>\n    De Bijbel spreekt en vertelt zijn eigen verhaal.<br>\n    Daarboven is een plaats, zonder zwoegen of strijd.<br>\n    Toch kan de kerk dat leven vergeten: als Gods aanwezigheid straalt als de zon, omvat het zoete gezang iedereen.<br>\n    Als de hemel echt is, stel ik een vraag.<br>\n    Waarom zoveel aandacht voor een leven dat niet blijft bestaan?<br>\n    We bouwen hier op aarde onze grote huizen,<br>\n    We moeten vergeten zijn hoe weinig ze waard zijn.<br>\n    We kijken naar onze spullen en zeggen dat we gezegend zijn,<br>\n    Vergetend dat ze straks met de rest zullen verbranden.<br>\n    Schatten zijn waardevol, daar zijn we het over eens.<br>\n    Maar leg ze in de hemel, waar ze voor altijd zullen zijn.<br>\n    Zouden we ons leven verliezen omwille van de goede Heer?<br>\n    Dan zouden we de eeuwigheid winnen en deelhebben aan de hemel.<br>\n    Of houden we van ons leven, waarvan de Bijbel duidelijk zegt<br>\n    dat we onze kans op de dierbare hemel zouden verliezen.<br>\n    Als de hemel echt is, moeten we in de war zijn,<br>\n    Want het lijkt erop dat juist dit leven ons vermaakt.<br>\n    Als de hemel ons wacht, en we weten dat we daarheen gaan,<br>\n    Waarom zijn we dan bang als de dood toeslaat?<br>\n    Als het volgende leven de hemel is, de eeuwigheid bij Hem,<br>\n    dan is de dood het begin—waarom is dat dan zo somber?<br>\n    Ons leven is maar een damp, zo vertelt het Goede Boek.<br>\n    Laten we wijs nadenken en onze blik veranderen.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Als de hemel echt is"
+  }
+}

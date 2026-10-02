@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1633f7fc-6b62-4e79-b616-70f46013916f",
+    "response_id": "chatcmpl-EUej92KC9pdoMNh8WmORQFSl5PYlC",
+    "usage": {
+      "completion_tokens": 570,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 59,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2101,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2098,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2671
+    }
+  },
+  "received_at": "2026-10-02T21:09:59+00:00",
+  "result": {
+    "html": "<article data-article-id=\"99d9d2e9-2f6a-46ce-a06a-4635a4d484f9\">\n  <div class=\"poem\">\n    <p>Oímos hablar de las glorias y su esplendor;<br>\n    la Biblia habla y cuenta su propia historia.<br>\n    Allí arriba hay un lugar sin trabajo ni aflicción.<br>\n    Sin embargo, la iglesia puede olvidar esa vida,<br>\n    si la presencia de Dios brilla como el sol,<br>\n    y el canto, tan dulce, incluye a todos.<br>\n    Si el cielo es real, me atrevo a preguntar:<br>\n    ¿por qué centrarnos tanto en una vida que no durará?<br>\n    Construimos aquí en la tierra nuestras mansiones;<br>\n    debemos haber olvidado cuán poco valen.<br>\n    Miramos nuestras cosas y decimos que somos bendecidos,<br>\n    olvidando que pronto arderán junto con todo lo demás.<br>\n    Que los tesoros valen, eso lo admitimos.<br>\n    Pero guardémoslos en el cielo, donde estarán para siempre.<br>\n    ¿Perderíamos la vida por amor al buen Señor?<br>\n    Entonces ganaríamos la eternidad y participaríamos del cielo.<br>\n    ¿O amaríamos nuestra vida, cuando la Biblia deja claro<br>\n    que perderíamos nuestra oportunidad de alcanzar el cielo tan amado?<br>\n    Si el cielo es real, debemos estar confundidos,<br>\n    pues parece que esta vida es la que nos divierte.<br>\n    Si nos espera el cielo y sabemos que allí iremos,<br>\n    ¿por qué tememos cuando la muerte nos golpea?<br>\n    Si la vida que viene es el cielo, la eternidad con Él,<br>\n    entonces la muerte es el comienzo; ¿por qué nos parece sombría?<br>\n    Nuestra vida no es más que vapor, nos enseña el Libro Sagrado.<br>\n    Razonemos con sabiduría y cambiemos nuestra mirada.</p>\n  </div>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Si el cielo es real"
+  }
+}

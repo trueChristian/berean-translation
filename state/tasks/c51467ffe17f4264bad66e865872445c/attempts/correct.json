@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-02T21:09:59+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"d5891c2f-007d-4926-90e0-81c25cf67fbd\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd-1.jpg\\\" alt=\\\"Um arco-íris duplo se curva sobre árvores escuras sob um céu tempestuoso\\\">\\n  </figure>\\n\\n  <div class=\\\"poem\\\">\\n    <p>A tempestade era escura e ameaçadora,<br>\\n    Nuvens escuras se acumulavam sobre mim.<br>\\n    Relâmpagos brilhavam ao meu redor,<br>\\n    O medo me dominava e me enchia de pavor.</p>\\n\\n    <p>O trovão anunciava maus presságios.<br>\\n    Meu coração parecia pesado e entorpecido.<br>\\n    Ao redor, a tempestade rugia,<br>\\n    A agitação dentro de mim me deixou sem palavras.</p>\\n\\n    <p>O perigo não estava apenas ao meu redor,<br>\\n    O risco dentro de mim era igualmente real.<br>\\n    Tremi ao olhar para o futuro,<br>\\n    Sem saber como recomeçar.</p>\\n\\n    <p>O que havia além da névoa?<br>\\n    O vento assobiava em meus ouvidos.<br>\\n    Sugerindo perguntas, fazendo-me tropeçar,<br>\\n    E me sobrecarregando de medos.</p>\\n\\n    <p>Esta tempestade apagou todos os sinais do caminho,<br>\\n    Que certa vez pensei conseguir enxergar.<br>\\n    Agora, tudo o que me era familiar desaparecera,<br>\\n    E eu avançava a cada passo, hesitante.</p>\\n\\n    <p>No limite das minhas forças, clamei com medo...<br>\\n    \\\"Senhor, vem a mim! Não demores, ó meu Rei!\\\"<br>\\n    O silêncio pesava, senti-me totalmente só,<br>\\n    E me agarrei apenas à esperança.</p>\\n\\n    <p>Então, uma voz suave, mas firme, falou ao meu ouvido,<br>\\n    \\\"Minha preciosa criança, olha para cima.\\\"<br>\\n    Por que esse pedido? Quando eu estava tão envolvida<br>\\n    Na névoa que se recusava a se dissipar.</p>\\n    <p>Ainda com esperança, ergui os olhos,<br>\\n    Tremendo diante das nuvens escuras ao redor.<br>\\n    Mas, ao olhar, vi algo mais,<br>\\n    Um tesouro que se encontrava no céu.</p>\\n\\n    <p>Em meio a todas aquelas nuvens escuras e ameaçadoras,<br>\\n    Lá estava! Uma fresta de luz!<br>\\n    Um arco-íris brilhava, de tonalidade belíssima,<br>\\n    Um farol em meio àquela noite escura.</p>\\n\\n    <p>\\\"Minha criança, não temas, nunca estiveste só.<br>\\n    Nem por um segundo deixei de estar ao teu lado.<br>\\n    Embora o caminho seja obscuro e haja muito a suportar,<br>\\n    Não duvides de que podes encontrar refúgio em mim.\\\"</p>\\n\\n    <p>\\\"Sim, por enquanto, caminhas em meio a provações,<br>\\n    Os medos ameaçam por dentro e por fora.<br>\\n    Perguntas e te questionas sobre o que fazer em seguida,<br>\\n    Os perigos parecem rir e zombar.\\\"</p>\\n\\n    <p>\\\"Mas foi aqui que coloquei o meu arco-íris,<br>\\n    Para que, em meio a toda a escuridão e ao medo,<br>\\n    Possas ver que a minha promessa é certa.<br>\\n    Nunca te abandonarei, mas estarei sempre por perto.\\\"</p>\\n\\n    <p>\\\"Se mantiveres os olhos nesta promessa,<br>\\n    A minha luz guiará o teu caminho.<br>\\n    Os medos e perigos ao teu redor<br>\\n    Serão então mantidos à distância.\\\"</p>\\n\\n    <p>\\\"Esta promessa também pode revelar-te<br>\\n    Os segredos ocultos em meio à tempestade.<br>\\n    Pois o meu poder e a minha força se manifestam<br>\\n    Quando estes se conformam à minha vontade.\\\"</p>\\n\\n    <p>\\\"Portanto, minha criança, contempla longamente o arco-íris.<br>\\n    Pondera a mensagem que ele traz.<br>\\n    Embora tudo ao teu redor esteja revolto e furioso,<br>\\n    Lembra-te da promessa que ele anuncia.\\\"</p>\\n\\n    <p class=\\\"byline\\\">~por Adrianna Fanton</p>\\n  </div>\\n</article>\\n\",\"section\":\"Poema\",\"subtitle\":null,\"title\":\"Olha para o arco-íris\"}",
+    "content_bytes": 3619,
+    "content_evidence_truncated": false,
+    "content_sha256": "fb5a0a314caf856737afb91776dd117d6c0cf401c33700da175b34aba6989974",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1234,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 98,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3276,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3273,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4510
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}
