@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4967ae41-ff53-4f69-bc2f-2f310a1142d0",
+    "response_id": "chatcmpl-EUWxPjChwmpENafbiHjD3mnxQssMe",
+    "usage": {
+      "completion_tokens": 733,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1369,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2102
+    }
+  },
+  "received_at": "2026-10-02T12:54:59+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df\">\n  <figure>\n    <img src=\"/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg\" alt=\"Voie lactée et étoiles au‑dessus de montagnes sombres et d'une étendue d'eau\">\n  </figure>\n  <div class=\"poem\">\n    <p>Quand toi, mon ami, tu te tiens sur cette terre<br>\n    Et que tu fixes le firmament<br>\n    Où s'étend tout l'espace, que vois‑tu ?<br>\n    Une grande couverture noire étendue sur tout le ciel<br>\n    Avec quelque part des lumières, mystères éparpillés ?<br>\n    Ou peux‑tu percevoir ces distances si grandes<br>\n    Qui étirent l'esprit presque jusqu'à la rupture<br>\n    Et te font sentir quelle est ta véritable dimension ?<br>\n    Dans le silence immobile du vaste ciel,<br>\n    Les planètes lointaines semblent presque à portée<br>\n    Comparées à la grande distance qui sépare les étoiles.<br>\n    Le croissant de lune est encore plus près de toi,<br>\n    Et pourtant il a fallu trois jours à l'homme pour atteindre<br>\n    Cette petite sphère si proche à portée de main.<br>\n    Mais ce que tu vois en levant les yeux vers les hauteurs<br>\n    Que tu ne peux commencer à comprendre<br>\n    N'est qu'un trait de toute l'immensité<br>\n    Au‑delà de la connaissance de cette race humaine.<br>\n    Et ainsi, mon ami, j'espère que tu ressentiras<br>\n    Cette grandeur, cette vasteté, ce vide de l'espace<br>\n    Que notre Créateur a façonné pour nous afin que nous<br>\n    Puissions percevoir Sa grandeur et Sa tendre amour<br>\n    Et humblement incliner nos têtes et L'adorer.</p>\n  </div>\n  <p><em>–par Daniel Kaufman</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Que vois‑tu ?"
+  }
+}

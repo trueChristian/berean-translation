@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1432f132-ce04-4cee-8411-b5987542f24a",
+    "response_id": "chatcmpl-EUWweEqif7CgltdBhCz4T1kTOJDqc",
+    "usage": {
+      "completion_tokens": 512,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1311,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1823
+    }
+  },
+  "received_at": "2026-10-02T12:54:59+00:00",
+  "result": {
+    "html": "<article data-article-id=\"64012528-bcec-4189-96b5-32a226869815\">\n  <figure>\n    <img src=\"/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg\" alt=\"Silhueta de uma pessoa erguendo ambas as mãos contra um céu quente\">\n  </figure>\n  <p class=\"poem\">Virá um dia em que tudo estará bem.<br>\n  As coisas más ficarão todas no além.<br>\n  Mas não devemos esquecer que esse dia não veio ainda.<br>\n  Estamos numa batalha; ainda precisamos vencer na vida vindoura.<br>\n  O inimigo enfurece-se, seu tempo aqui é curto.<br>\n  Espalha todas as suas mentiras, a verdade distorce por insulto.<br>\n  O pecado em nossas vidas é o seu grande alvo, afinal.<br>\n  Pois sabe muito bem que isso nos custará a alma imortal.<br>\n  Não precisa ser grande; um pequeno pecado basta.<br>\n  Ele enganará e iludirá, perseguindo cada vida com casta.<br>\n  As setas dos ímpios vêm de todos os lados a voar.<br>\n  Quando defronte ao poder de Deus, esse diabo—ele se põe a ocultar!<br>\n  Quando Deus está conosco, ele não pode avançar!<br>\n  Quando Deus está conosco, o pecado não tem lugar para ficar!<br>\n  Pois os olhos do Senhor procuram de um lado ao outro,<br>\n  Para achar um perfeito; Seu poder então mostrará com gosto.<br>\n  Cessemos as coisas menores e olhemos muito além.<br>\n  Tomemos o poder de Deus! É tempo de responder, amém!</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "A Batalha que Ruge"
+  }
+}

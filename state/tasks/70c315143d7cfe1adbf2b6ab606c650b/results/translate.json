@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "86049ac1-734c-4b79-b14a-015b1a0882bf",
+    "response_id": "chatcmpl-EUWwdq76nOeMLpIN8CzppXzz9y0Rd",
+    "usage": {
+      "completion_tokens": 734,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1379,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2113
+    }
+  },
+  "received_at": "2026-10-02T12:54:58+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df\">\n  <figure>\n    <img src=\"/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg\" alt=\"Melkeveien og stjerner over mørke fjell og vann\">\n  </figure>\n  <div class=\"poem\">\n    <p>Når du, min venn, står på denne jord<br>\n    Og stirrer opp i himmelhvelvingen<br>\n    Hvor hele verdensrommet strekker seg, hva ser du?<br>\n    Et stort svart teppe strakt over hele himmelen<br>\n    Med mange gåtefulle lys et sted der oppe?<br>\n    Eller kan du skimte de avstander så store<br>\n    Som strekker tanken nesten til bristepunktet<br>\n    Og får deg til å kjenne hvor liten du egentlig er?<br>\n    I den stille stillheten i den vide himmel,<br>\n    Virker de fjerne planetene nesten innen rekkevidde<br>\n    Sammenlignet med den enorme avstanden til stjernene.<br>\n    Den voksende månen er enda nærmere deg,<br>\n    Og likevel tok det mennesket hele tre dager å nå<br>\n    Den lille sfæren så nær for hånden.<br>\n    Men det du ser når du stirrer opp mot høydene<br>\n    Som du ikke kan begynne å fatte<br>\n    Er bare en stripe av hele det enorme rommet<br>\n    Utenfor denne menneskeslektens kjennskap.<br>\n    Og så, min venn, håper jeg at du vil kjenne<br>\n    Den storhet, vidde, tomhet i rommet<br>\n    Som vår Skaper gjorde for oss så vi<br>\n    Kan føle Hans storhet og Hans ømme kjærlighet<br>\n    Og ydmykt bøye våre hoder og tilbe Ham.</p>\n  </div>\n  <p><em>– av Daniel Kaufman</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Hva ser du?"
+  }
+}

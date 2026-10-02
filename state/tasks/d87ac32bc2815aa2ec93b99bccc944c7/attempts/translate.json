@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:54:59+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg\\\" alt=\\\"अँधेरी पर्वतों और पानी के ऊपर आकाशगंगा और तारे\\\">\\n  </figure>\\n  <div class=\\\"poem\\\">\\n    <p>जब तुम, मेरे मित्र, इस धरती पर खड़े होते हो<br>\\n    और तप्त नभ में ऊपर ताकते हो<br>\\n    जहाँ फैलता है सारा आकाश, तो तुम क्या देखते हो?<br>\\n    एक बड़ी काली चादर जो पूरे आकाश पर फैली हो<br>\\n    और कहीं ऊपर कई रहस्यमय रोशनियाँ?<br>\\n    या क्या तुम उन अत्यंत दूरस्थ दूरीों को देख पाते हो<br>\\n    जो विचार को लगभग तोड़ देती हैं<br>\\n    और तुम्हें तुम्हारी असली कद-काठी का अहसास कराती हैं?<br>\\n    विशाल आकाश की शान्ति में,<br>\\n    दूर स्थित ग्रह लगभग पहुंच में लगते हैं<br>\\n    उन तारों की महान दूरियों के मुकाबले.<br>\\n    अर्धचंद्राकार चाँद तुमसे और भी निकट है,<br>\\n    और फिर भी इंसान को वहाँ पहुँचने में पूरे तीन दिन लगे थे<br>\\n    उस नन्हे गोल धब्बे तक जो हाथ के बहुत पास था.<br>\\n    पर जो तुम देख पाते हो जब ऊँचाइयों की ओर निहारते हो<br>\\n    जिन्हें तुम समझना भी शुरू नहीं कर सकते—<br>\\n    वह तो मात्र एक धार है उस विशाल विस्तार की<br>\\n    जो इस मानव जाति के ज्ञान से परे है.<br>\\n    और इसलिए, मेरे मित्र, मैं आशा करता हूँ कि तुम महसूस करोगे<br>\\n    वह महानता, वह विशालता, वह रिक्तता जो अन्तरिक्ष की है<br>\\n    जिसे हमारे सृजनकर्ता ने हमारे लिए बनाया ताकि हम<br>\\n    उसकी महानता और उसकी कोमल प्रेम को महसूस कर सकें<br>\\n    और नमन कर सिर झुकाकर उसकी पूजा कर सकें।</p>\\n  </div>\\n  <p><em>–द्वारा Daniel Kaufman</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"तुम क्या देखते हो?\"}",
+    "content_bytes": 3226,
+    "content_evidence_truncated": false,
+    "content_sha256": "3c9fdd8df1f0dd00fd57fca11df494b46aecb9a467f5b58fc69d2cfd421ce439",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1031,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1372,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2403
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

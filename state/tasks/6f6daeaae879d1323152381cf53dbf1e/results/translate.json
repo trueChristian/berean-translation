@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "46156d79-77cd-42be-96de-8bdb04118e08",
+    "response_id": "chatcmpl-EUWwd8YgUEqIv7BJtBTYRa3jc7Ahk",
+    "usage": {
+      "completion_tokens": 832,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1379,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2211
+    }
+  },
+  "received_at": "2026-10-02T12:54:58+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df\">\n  <figure>\n    <img src=\"/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg\" alt=\"银河与群星在黑暗的山峦和水面上空\">\n  </figure>\n  <div class=\"poem\">\n    <p>当你，我的朋友，站在这片大地上时<br>\n    仰望那苍穹之际你看见什么？<br>\n    那无限空间在何处伸展，你可见？<br>\n    一块巨大的黑色毯子横亘满天吗，<br>\n    隐约有些光点在上头闪烁着玄秘？<br>\n    还是你能看见那极遥的距离，<br>\n    伸展得几乎撕裂思绪的边界，<br>\n    使你切身体会自己的渺小？<br>\n    在这宽广苍穹的寂静中，<br>\n    那遥远的行星似乎触手可及，<br>\n    与星辰相比它们近得多；<br>\n    新月更近于你些许，<br>\n    然而人类却花了整整三天才抵达，<br>\n    那看似如此近在眼前的微小天体。<br>\n    但当你仰望那不可企及的高处时，<br>\n    所见不过是浩瀚之一线，<br>\n    超越这人类种族知识的广大无垠。<br>\n    因此，我的朋友，我盼望你能感受到<br>\n    那伟大、辽阔、空旷的广袤，<br>\n    这是我们造物主为我们所造，叫我们<br>\n    能感知他的伟大与温柔的爱，<br>\n    谦卑低首来敬拜他。</p>\n  </div>\n  <p><em>–作者：Daniel Kaufman</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "你看见了什么？"
+  }
+}

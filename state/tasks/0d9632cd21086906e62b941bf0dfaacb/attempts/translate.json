@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:54:57+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"60de3363-d9fc-4137-ad60-dee9097b154b\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/60de3363-d9fc-4137-ad60-dee9097b154b-1.png\\\" alt=\\\"\\\">\\n  </figure>\\n  <p>Salutations d'amour au nom béni de notre Seigneur et Sauveur, Jésus-Christ. De nombreux chrétiens ont traversé une période d'épreuve et de mise à l'épreuve au cours des dernières années, et pourtant nous faisons confiance que chacun peut dire avec Paul… <em>Je ne dis pas cela parce que je manque; car j'ai appris à être content, dans l'état où je me trouve –Philippians 4:11.</em></p>\\n  <p>L'été est à nos portes, avec la chaleur et l'humidité qui accompagnent les étés ici dans l'Ohio. Le printemps, avec la saison normale des semailles, a été particulièrement long et étiré. Mais, à présent, la plupart de ce que l'on appelle localement «the spring work» est terminé. Les récoltes des fermiers et les herbes des jardiniers percent la terre fraîche et vont vers la chaleur et la lumière du soleil.</p>\\n  <p>Dans ce numéro, vous pouvez vous promener sur le chemin d'Emmaüs et tenter de vous mettre dans les sandales des disciples de Jésus pendant qu'ils s'interrogeaient sur le tournant soudain des événements entourant la mort, l'ensevelissement et la prétendue «résurrection» du Christ. Vous pouvez essayer de vous imaginer aux côtés du vieux Daniel alors qu'il choisissait de continuer à prier comme d'habitude à sa fenêtre ouverte, tout en sachant parfaitement que cet acte simple pouvait fort bien changer sa vie pour toujours. Vous pouvez vous émerveiller avec la petite «Ellie» de la manière dont Dieu a satisfait «les désirs de son cœur» même avant qu'elle sache que les choses ne se passaient pas comme prévu.</p>\\n  <p>Quelque chose de nouveau dans ce numéro est le début d'une série du frère Donald Brechbill sur le «discipulat». Disciple a presque la même orthographe que discipline. Pour beaucoup, la discipline porte une connotation négative, ce qui, espérons-le, n'empêchera pas le lecteur d'être attiré par ce que le frère Donald a à partager. Rappelons que Jésus a donné l'exemple personnel du modèle de discipulat — Il a choisi et appelé des «disciples» à le suivre et à apprendre de Lui. Plus tard, Il les envoya deux par deux pour enseigner et faire d'autres disciples. Et lorsque He donna la «Grande Commission», c'était à Ses disciples de l'époque, et à tous les futurs disciples — l'Église de Jésus-Christ. Nous espérons que chacun pourra être inspiré par cette série.</p>\\n  <p>À venir dans les prochains numéros, nous prévoyons d'avoir un «Chant du trimestre» et une rubrique sur divers aspects de «l'histoire de l'Église». Vous pouvez prier pour nous alors que nous continuons d'avancer dans notre ministère et notre magazine.</p>\\n  <p>Juste un petit rappel amical… Nous encourageons les retours de nos lecteurs. Si un article vous a particulièrement béni, un retour nous est utile en tant que conseil d'administration, et il est encourageant pour nos auteurs. De plus, si quelqu'un souhaite voir quelque chose de spécifique inclus dans de futurs numéros, nous accueillons cette contribution. Cela nous aide à fournir des idées au conseil lorsque nous choisissons des articles et que nous demandons aux auteurs d'écrire.</p>\\n  <p>Au printemps 2022, nous avons apporté quelques changements à notre ministère dans nos efforts pour faire avancer l'œuvre de The Berean Voice vers l'avenir. Changements de personnel :</p>\\n  <p>Le frère Andrew (notre designer) est devenu de plus en plus occupé en tant que jeune père d'une famille grandissante et en tant que diacre de notre congrégation d'église locale. Face à ce défi, le conseil a décidé de soutenir le désir d'Andrew de trouver quelqu'un pour l'aider (pour l'instant) avec la majeure partie du travail de conception de chaque numéro de notre magazine — The Heartbeat of the Remnant. Ainsi, il se peut qu'il y ait quelques légères variations de «style» de conception dans les prochains numéros.</p>\\n  <p>Au printemps 2022, il a été décidé de chercher plusieurs nouveaux membres du conseil pour remplacer d'autres qui avaient quitté au cours des dernières années en raison de responsabilités personnelles. Après avoir prié pour la sagesse et la direction du Seigneur, et après consultation avec la direction de notre église, les frères Joe Mast et Sheldon Bower ont été choisis pour remplir les postes vacants au conseil. Ces frères ont tous deux accepté gracieusement cet appel et permettent déjà à Dieu d'utiliser leurs dons spirituels pour faire une différence</p>\\n  <p>Le frère Joe Tindall a été membre du conseil de The Berean Voice depuis nos débuts en juin 2016. En raison de son âge (83 ans), le frère Joe a demandé à être relevé de ses fonctions de membre du conseil. Lors de notre réunion mensuelle du conseil en mai 2022, le conseil a honoré la demande du frère Joe. Sa sagesse tranquille nous manquera lors de nos réunions de conseil et durant notre processus de sélection des articles. Veuillez vous joindre à nous dans la prière pour le frère Joe et sa famille alors qu'il et sa femme font face à la fin de leur vie et à tout ce que comporte cette saison de la vie — afin qu'ils demeurent fidèles et courageux.</p>\\n  <p>Que Dieu bénisse et garde chacun.</p>\\n  <p>Curvin L Wenger</p>\\n</article>\\n\",\"section\":\"De la rédaction\",\"subtitle\":null,\"title\":\"Message du rédacteur\"}",
+    "content_bytes": 5551,
+    "content_evidence_truncated": false,
+    "content_sha256": "c1350a3172a41fe6fc139b32c2b6fbdb3fa8aeb1826bbe88f7a13fea07ad624e",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1693,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2029,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3722
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:54:57+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"60de3363-d9fc-4137-ad60-dee9097b154b\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/60de3363-d9fc-4137-ad60-dee9097b154b-1.png\\\" alt=\\\"\\\">\\n  </figure>\\n  <p>Saluti d'amore nel benedetto nome del nostro Signore e Salvatore, Gesù Cristo. Molti cristiani hanno attraversato un tempo di prova e di tentazione negli ultimi anni, eppure confidiamo che ciascuno possa dire con Paolo… <em>Non dico questo perché sia nel bisogno; ho imparato ad essere contento qualunque sia la mia condizione. —Filippesi 4:11.</em></p>\\n  <p>L'estate è qui con noi, insieme al caldo e all'umidità che accompagnano le estati qui in Ohio. La primavera, insieme alla normale stagione della semina, è stata particolarmente lunga e protratta. Ma, a questo punto, la maggior parte di ciò che localmente è noto come “i lavori di primavera” è stata completata. I raccolti dei contadini e le erbe degli orticoltori stanno spingendo attraverso il terreno fresco verso il calore e la luce del sole.</p>\\n  <p>In questo numero potete fare una passeggiata sulla strada per Emmaus e cercare di mettervi nei sandali dei discepoli di Gesù mentre si interrogavano sul brusco svolgersi degli eventi attorno alla morte, alla sepoltura e alla presunta “resurrezione” di Cristo. Potete cercare di immaginarvi con il vecchio Daniele mentre sceglieva di continuare a pregare come di consueto alla sua finestra aperta, pur sapendo bene che questo semplice atto poteva molto probabilmente cambiarne la vita per sempre. Potete meravigliarvi insieme alla piccola “Ellie” di come Dio abbia soddisfatto i “desideri del suo cuore” ancor prima che lei capisse che le cose non stavano andando secondo i suoi piani.</p>\\n  <p>Una novità in questo numero è l'inizio di una serie del fratello Donald Brechbill su “discepolato”. Discepolo ha quasi la stessa grafia di disciplina. Per molti, disciplina porta con sé una connotazione negativa, che si spera non ostacolerà il lettore nell'essere attratto da ciò che il fratello Donald ha da condividere. Ricordiamo che Gesù diede l'esempio personale del modello del discepolato—Egli scelse e chiamò “discepoli” perché Lo seguissero e imparassero da Lui. Più tardi li inviò a due a due per insegnare e fare altri discepoli. E quando diede la “Grande Commissione” fu ai Suoi discepoli in quel tempo, e a tutti i futuri discepoli—la Chiesa di Gesù Cristo. Confidiamo che ciascuno possa essere ispirato da questa serie.</p>\\n  <p>Nei numeri futuri, stiamo pianificando di avere un “Canto del Trimestre” e una sezione su vari aspetti della “Storia della Chiesa”. Potete pregare per noi mentre continuiamo ad andare avanti con il nostro ministero e con la nostra rivista.</p>\\n  <p>Solo un promemoria amichevole… Incoraggiamo i feedback dai nostri lettori. Se siete stati particolarmente benedetti da un certo articolo, un riscontro è utile per noi come comitato e incoraggiante per i nostri scrittori. Inoltre, se c'è qualcosa di specifico che qualcuno desidera vedere incluso nei futuri numeri della rivista, accogliamo volentieri il contributo. Questo aiuta a fornire idee a noi come comitato nella scelta degli articoli e nel chiedere agli autori di scrivere.</p>\\n  <p>Nella primavera del 2022, abbiamo effettuato alcuni cambiamenti nel nostro ministero nei nostri sforzi per mantenere il lavoro di The Berean Voice in cammino verso il futuro. Cambiamenti di personale:</p>\\n  <p>Il fratello Andrew (il nostro designer) è diventato sempre più impegnato come giovane padre con una famiglia in crescita e come diacono della nostra congregazione locale. Considerando questa sfida, il comitato ha deciso di sostenere il desiderio di Andrew di trovare qualcuno che lo aiutasse (per ora) con la maggior parte del lavoro di design per ogni numero della nostra rivista—The Heartbeat of the Remnant. Di conseguenza, potrebbero esserci lievi cambiamenti nello “stile” del design nei prossimi numeri.</p>\\n  <p>Nella primavera del 2022, è stata presa la decisione di cercare diversi nuovi membri del comitato per sostituire alcuni altri che avevano lasciato negli ultimi anni a causa di responsabilità personali. Dopo aver pregato per la sapienza e la direzione del Signore e dopo consultazione con la guida della nostra chiesa, il fratello Joe Mast e il fratello Sheldon Bower sono stati scelti per riempire i posti vacanti nel comitato. Questi fratelli hanno entrambi accettato con grazia questa chiamata e stanno già permettendo a Dio di usare i loro doni spirituali per fare la differenza</p>\\n  <p>Il fratello Joe Tindall è stato membro del comitato di The Berean Voice fin dall'inizio, nel giugno 2016. A causa della sua età (83) il fratello Joe ha chiesto di essere sollevato dai suoi doveri come membro del comitato. Alla nostra riunione mensile del comitato nel maggio 2022, il comitato ha onorato la richiesta del fratello Joe. Sentiremo la mancanza della stabilità della sua quieta saggezza nelle nostre riunioni del comitato e durante il processo di selezione degli articoli. Vi preghiamo di unirvi a noi in preghiera per il fratello Joe e la sua famiglia mentre lui e sua moglie affrontano la fine della loro vita e tutto ciò che accompagna quella stagione della vita—affinché possano rimanere fedeli e coraggiosi.</p>\\n  <p>Che Dio benedica e custodisca ciascuno.</p>\\n  <p>Curvin L Wenger</p>\\n</article>\\n\",\"section\":\"Dall'Editore\",\"subtitle\":null,\"title\":\"Dall'Editore\"}",
+    "content_bytes": 5485,
+    "content_evidence_truncated": false,
+    "content_sha256": "8a33fadc9954f7d8611c097393b354e081f3fbd8864e7ad9ed197913b840ebcb",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1659,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2027,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3686
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

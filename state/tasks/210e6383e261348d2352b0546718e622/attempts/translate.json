@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:54:57+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg\\\" alt=\\\"Milchstraße und Sterne über dunklen Bergen und Wasser\\\">\\n  </figure>\\n  <div class=\\\"poem\\\">\\n    <p>Wenn du, mein Freund, auf dieser Erde stehst<br>\\n    Und hinaufschaust in das Firmament<br>\\n    Wo sich der ganze Raum ausbreitet, was siehst du?<br>\\n    Eine große schwarze Decke, übers Himmelszelt gespannt<br>\\n    Mit manchem Licht, ein Rätsel irgendwo dort oben?<br>\\n    Oder siehst du die Entfernungen so gewaltig<br>\\n    Die den Verstand fast bis zur Grenze dehnen<br>\\n    Und dich deine wahre Größe fühlen lassen?<br>\\n    In der stillen Weite des weiten Himmels,<br>\\n    Scheinen die fernsten Planeten fast greifbar nah<br>\\n    Im Vergleich zur großen Distanz der Sterne.<br>\\n    Der Sichelmond ist dir noch näher,<br>\\n    Und doch brauchte der Mensch volle drei Tage,<br>\\n    Um jene winzige Kugel zu erreichen, so nah am Griff.<br>\\n    Aber was du siehst, wenn du hinaufschaust zu Höhen<br>\\n    Die du nicht einmal beginnen kannst zu erfassen<br>\\n    Ist nur ein Streifen all der ungeheuren Weite<br>\\n    Jenseits des Wissens dieser Menschheit.<br>\\n    Und so, mein Freund, hoffe ich, dass du fühlen wirst<br>\\n    Diese Größe, Weite, Leere des Raums<br>\\n    Die unser Schöpfer für uns geschaffen hat, damit wir<br>\\n    Seine Majestät und seine zärtliche Liebe spüren<br>\\n    Und demütig unser Haupt senken und ihn anbeten.</p>\\n  </div>\\n  <p><em>–von Daniel Kaufman</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Was siehst du?\"}",
+    "content_bytes": 1673,
+    "content_evidence_truncated": false,
+    "content_sha256": "47b81c2dfe521eb2d4ab725b1a91980c69f42be35a90ce8db89fa1980fb4fc97",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 654,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1367,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2021
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

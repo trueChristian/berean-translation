@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a7c4f997-c497-4ecd-89c5-0d9079f489db",
+    "response_id": "chatcmpl-EUWy1mYYJzNBlXRztlkpvhKruq1vG",
+    "usage": {
+      "completion_tokens": 528,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1302,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1830
+    }
+  },
+  "received_at": "2026-10-02T12:54:59+00:00",
+  "result": {
+    "html": "<article data-article-id=\"64012528-bcec-4189-96b5-32a226869815\">\n  <figure>\n    <img src=\"/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg\" alt=\"Sagoma di una persona con entrambe le mani alzate contro un cielo caldo\">\n  </figure>\n  <p class=\"poem\">Verrà un giorno in cui tutto andrà bene.<br>\n  Le cose cattive saranno tutte all'inferno.<br>\n  Ma non dobbiamo dimenticare che quel giorno non è arrivato.<br>\n  Siamo in battaglia; dobbiamo ancora vincere.<br>\n  Il nemico infuria, il suo tempo qui è breve.<br>\n  Diffonde tutte le sue menzogne, per distorcere la verità.<br>\n  Il peccato nelle nostre vite è il suo grande obiettivo.<br>\n  Perché sa bene che ci costerebbe l'anima.<br>\n  Non deve essere grande; basta un piccolo peccato.<br>\n  Ingannerà e ingannerà, per perseguire ogni anima.<br>\n  I dardi degli empi vengono da ogni lato.<br>\n  Di fronte al potere di Dio, quel diavolo—si nasconde!<br>\n  Quando Dio è con noi, non può avanzare!<br>\n  Quando Dio è con noi, il peccato non ha alcuna possibilità!<br>\n  Perché gli occhi del Signore scrutano avanti e indietro,<br>\n  Per trovare uno perfetto, la Sua potenza mostrerà!<br>\n  Diamoci pace con il minore e guardiamo molto più lontano.<br>\n  Afferriamo il potere di Dio! È tempo di rispondere!</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "La battaglia che infuria"
+  }
+}

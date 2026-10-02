@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:54:59+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"64012528-bcec-4189-96b5-32a226869815\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg\\\" alt=\\\"Zilhouet van een persoon die beide handen opheft tegen een warme lucht\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">Er komt een dag waarop alles goed zal zijn.<br>\\n  Wat slecht is, zal dan in de hel verdwijnen.<br>\\n  Maar we mogen niet vergeten: die dag is nog niet hier.<br>\\n  We zitten in een strijd; we moeten nog overwinnen, hier.<br>\\n  De vijand woedt, zijn tijd is kort.<br>\\n  Hij verspreidt leugens, vervormt de waarheid met iedere woord.<br>\\n  Zonde in ons leven is zijn grote doel.<br>\\n  Want hij weet maar al te goed: het kost ons de ziel.<br>\\n  Het hoeft niet groot te zijn; een kleine zonde volstaat.<br>\\n  Hij verleidt en bedriegt, elke ziel wordt belaagd.<br>\\n  De pijlen van de boze komen van alle kanten neer.<br>\\n  Wanneer hij Gods kracht tegenkomt, vlucht die duivel zeer!<br>\\n  Wanneer God met ons is, kan hij niet vooruitgaan!<br>\\n  Wanneer God met ons is, heeft zonde geen kans bestaan!<br>\\n  Want de ogen des Heren speuren heen en weer,<br>\\n  Om één volmaakt te vinden; Zijn macht toont Hij dan zeer!<br>\\n  Laten we afrekenen met het kleine en verder kijken dan vandaag.<br>\\n  Grijp Gods kracht! Het is tijd om te reageren, kom in beweging!</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"De Strijd die Woedt\"}",
+    "content_bytes": 1426,
+    "content_evidence_truncated": false,
+    "content_sha256": "c7fe8927b818725f63cffc7bbdb5d7e52162511656c2fe6fa7f8329783b2f3cd",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 511,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1302,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1813
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f6be73f1-a56d-45e3-928f-0f1d913e1e8f",
+    "response_id": "chatcmpl-EUWwdGGio2KUNxQ8CrgTbvLjqCzZR",
+    "usage": {
+      "completion_tokens": 696,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1372,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2068
+    }
+  },
+  "received_at": "2026-10-02T12:54:58+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df\">\n  <figure>\n    <img src=\"/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg\" alt=\"Vía Láctea y estrellas sobre montañas oscuras y agua\">\n  </figure>\n  <div class=\"poem\">\n    <p>Cuando tú, amigo mío, estás de pie en esta tierra<br>\n    Y miras hacia arriba al firmamento<br>\n    Donde se extiende todo el espacio, ¿qué ves?<br>\n    ¿Una gran manta negra tendida sobre todo el cielo<br>\n    Con muchas luces misteriosas en algún lugar allí arriba?<br>\n    ¿O puedes ver las distancias tan grandes<br>\n    Que estiran la mente casi hasta romperla<br>\n    Y te hacen sentir el tamaño que realmente tienes?<br>\n    En el silencio inmóvil del espacioso cielo,<br>\n    Los planetas lejanos parecen casi al alcance<br>\n    En comparación con la gran distancia a las estrellas.<br>\n    La luna creciente está aún más cerca de ti,<br>\n    Y, sin embargo, al hombre le llevó tres días enteros llegar<br>\n    A esa diminuta esfera tan próxima a la mano.<br>\n    Pero lo que ves mientras contemplas las alturas<br>\n    Que no puedes empezar a comprender<br>\n    No es más que una franja de toda la vasta extensión<br>\n    Más allá del conocimiento de esta raza humana.<br>\n    Y así, amigo mío, espero que sientas<br>\n    Esa grandeza, inmensidad, vacío del espacio<br>\n    Que nuestro Creador hizo para que nosotros<br>\n    Pudiéramos sentir Su grandeza y Su tierno amor<br>\n    Y humildemente inclinar nuestras cabezas y adorarlo.</p>\n  </div>\n  <p><em>—por Daniel Kaufman</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "¿Qué ves?"
+  }
+}

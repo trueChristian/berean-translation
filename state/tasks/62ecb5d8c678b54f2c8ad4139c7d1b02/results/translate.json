@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "33b6ea6d-8b77-4993-a190-326c255162c5",
+    "response_id": "chatcmpl-EUWx7fG6TKV6exvWk1HosWe0kQvlC",
+    "usage": {
+      "completion_tokens": 644,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1372,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2016
+    }
+  },
+  "received_at": "2026-10-02T12:54:58+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df\">\n  <figure>\n    <img src=\"/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg\" alt=\"درب التبانة والنجوم فوق جبال مظلمة ومياه\">\n  </figure>\n  <div class=\"poem\">\n    <p>عندما تقف أنت، يا صديقي، على هذه الأرض<br>\n    وتنظر إلى الأفق المتين أعلاه<br>\n    حيث يمتد كل الفضاء، ماذا ترى؟<br>\n    بطانية سوداء عظيمة ممتدة عبر السماء كلها<br>\n    وبها نور غامض هنا وهناك؟<br>\n    أم هل ترى المسافات الشاسعة جداً<br>\n    التي تمتد بالعقل حتى تكاد تنكسر<br>\n    وتجعلانك تشعر بحجمك الحقيقي؟<br>\n    في سكون السمو الواسع والصامت،<br>\n    تبدو الكواكب البعيدة كأنها قريبة المنال<br>\n    مقارنةً بالبعد العظيم للنجوم.<br>\n    القمر الهلال أقرب إليك بعد،<br>\n    ومع ذلك استغرق البشر ثلاثة أيام كاملة<br>\n    للوصول إلى تلك الكرة الصغيرة القريبة للغاية.<br>\n    لكن ما تراه حين تنظر إلى العلاء<br>\n    الذي لا تستطيع أن تبدأ في فهمه<br>\n    ليس إلا شريطًا من كل الامتداد الشاسع<br>\n    الذي يتجاوز معرفة هذا الجنس البشري.<br>\n    ولذلك، يا صديقي، آمل أن تشعر<br>\n    بتلك العظمة، والاتساع، وفراغ المكان<br>\n    الذي خلقه خالقنا لنا لكي<br>\n    نشعر بعظمته ومحبته الرقيقة<br>\n    وننحني برؤوسنا بخشوع ونعبده.</p>\n  </div>\n  <p><em>–بقلم Daniel Kaufman</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "ماذا ترى؟"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:54:59+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"64012528-bcec-4189-96b5-32a226869815\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg\\\" alt=\\\"একজন ব্যক্তি উষ্ণ আকাশের বিরুদ্ধে দু'হাত উঁচু করছে\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">একদিন এমন একটি দিন আসবে যখন সব কিছু ভালোই হবে।<br>\\n  যে সব জিনিস খারাপ, সবই নরকেই যাবে।<br>\\n  কিন্তু আমাদের ভুলে না যেতে হবে সেই দিন এখনও আসে নি।<br>\\n  আমরা একটি যুদ্ধে আছি; আমাদের এখনও জয়ী হতে হবে।<br>\\n  শত্রু ক্রোধ করছে, এখানে তার সময় অল্পই।<br>\\n  সে সমস্ত মিথ্যা ছড়ায়, সত্যকে বিকৃত করতে থাকি।<br>\\n  আমাদের জীবনে পাপই তার প্রধান লক্ষ্\\u000214।<br>\\n  কারণ সে খুব ভালো জানে এটা আমাদের প্রাণই ছিনিয়ে নেবে।<br>\\n  বড় কিছুই হতে হবে না; একটি ছোট পাপই চলবে।<br>\\n  সে প্রতারণা করবে, প্রতিটি প্রাণকে সতর্ক করবে।<br>\\n  প wickedদের তীর সব দিক থেকেই আসে।<br>\\n  যখন ঈশ্বরের শক্তির সামনে আসে, সেই দুষ্ট—লুকিয়ে পড়ে!<br>\\n  যখন ঈশ্বর আমাদের সঙ্গে থাকেন, সে অগ্রসর হতে পারে না!<br>\\n  যখন ঈশ্বর আমাদের সঙ্গে থাকেন, পাপের কোনো সুযোগ নেই!<br>\\n  কারণ প্রভুর চোখে চারদিকে খোঁজা আছে,<br>\\n  একজন পরিপূর্ণকে খুঁজে পেলে, তিনি তাঁর শক্তি প্রদর্শন করবেন!<br>\\n  ছোটটায় বন্দী হয়ে যেও না, আরো দূর দৃষ্টि রাখো।<br>\\n  ঈশ্বরের শক্তি ধরো! প্রতিক্রিয়া জানানোর সময় এসে গেছে!</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"যুদ্ধ যা তীব্রভাবে চলছে\"}",
+    "content_bytes": 2770,
+    "content_evidence_truncated": false,
+    "content_sha256": "3c8175c273b0a436e9704f5558632e7b9045cea59954bdd750e48fe6355f49ef",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 641,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1307,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1948
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

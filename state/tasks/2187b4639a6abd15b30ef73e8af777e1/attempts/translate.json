@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:54:57+00:00",
+  "response": {
+    "content": "{\n  \"html\": \"<article data-article-id=\\\"64012528-bcec-4189-96b5-32a226869815\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg\\\" alt=\\\"Silhouette einer Person, die mit beiden Händen gegen einen warmen Himmel streckt\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">Es kommt ein Tag, an dem alles gut sein wird.<br>\\n  Die bösen Dinge werden alle in der Hölle sein.<br>\\n  Doch dürfen wir nicht vergessen: Dieser Tag ist noch nicht gekommen.<br>\\n  Wir sind in einem Kampf; wir müssen ihn noch bestehen.<br>\\n  Der Feind tobt, seine Zeit hier ist kurz.<br>\\n  Er verbreitet all seine Lügen, die Wahrheit zu verzerren.<br>\\n  Sünde in unserem Leben ist sein großes Ziel.<br>\\n  Denn er weiß ganz genau, sie wird uns die Seele kosten.<br>\\n  Es muss nicht groß sein; eine kleine Sünde tut es auch.<br>\\n  Er wird täuschen und betrügen, jede Seele zu verfolgen.<br>\\n  Die Pfeile der Gottlosen treffen von allen Seiten.<br>\\n  Angesichts der Macht Gottes verbirgt sich jener Teufel—er flieht!<br>\\n  Wenn Gott mit uns ist, kann er nicht vorrücken!<br>\\n  Wenn Gott mit uns ist, hat die Sünde keine Chance!<br>\\n  Denn die Augen des Herrn suchen hin und her,<br>\\n  Um einen perfekten zu finden, wird Er seine Macht zeigen!<br>\\n  Lasst uns das Geringere hinter uns lassen und weit darüber hinausblicken.<br>\\n  Lasst uns Gottes Kraft ergreifen! Es ist Zeit zu antworten!</p>\\n</article>\\n\",\n  \"section\": null,\n  \"subtitle\": null,\n  \"title\": \"Der Kampf, der tobt\"\n}",
+    "content_bytes": 1507,
+    "content_evidence_truncated": false,
+    "content_sha256": "b65f9cf13830646e59322482280e28cbdf3fe061e51af0e3ba0196759b1c116f",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 519,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1302,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1821
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

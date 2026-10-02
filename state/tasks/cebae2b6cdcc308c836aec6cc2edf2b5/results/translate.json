@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "47df2b52-659c-454f-a960-1e223e434fd3",
+    "response_id": "chatcmpl-EUWx7HFQ21htwubbeoiTcxvL90M8P",
+    "usage": {
+      "completion_tokens": 579,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1314,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1893
+    }
+  },
+  "received_at": "2026-10-02T12:54:59+00:00",
+  "result": {
+    "html": "<article data-article-id=\"64012528-bcec-4189-96b5-32a226869815\">\n  <figure>\n    <img src=\"/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg\" alt=\"Siluett av en person som løfter begge hender mot en varm himmel\">\n  </figure>\n  <p class=\"poem\">Det kommer en dag når alt blir godt.<br>\n  Det som er ondt, vil være i rov og rot.<br>\n  Men vi må ikke glemme at dagen ennå ikke er her.<br>\n  Vi kjemper i strid; vi må vise mot og være nær.<br>\n  Fienden raser, hans tid her er kort.<br>\n  Han sprer alle løgner for å forvrenge vårt ord.<br>\n  Synd i våre liv er hans store mål.<br>\n  For han vet svært godt at den kan røve vår sjel så sår.<br>\n  Det trenger ikke være stort; en liten synd vil du se.<br>\n  Han lurer og bedrar for hver sjel å få med.<br>\n  De onde piler kommer fra alle kanter.<br>\n  Når han møter Guds kraft, da flykter hans tanker!<br>\n  Når Gud er med oss, kan han ikke gå frem!<br>\n  Når Gud er med oss, har synden ingen hjem!<br>\n  For Herrens øyne leter hit og dit,<br>\n  For å finne en fullkommen — Hans kraft vil bli vist!<br>\n  La oss gi slipp på det små og se langt forbi.<br>\n  La oss gripe Guds kraft! Nå er det tid til å bli fri!</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Kampen som raser"
+  }
+}

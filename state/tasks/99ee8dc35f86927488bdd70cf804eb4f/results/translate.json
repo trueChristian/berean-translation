@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "68ccf806-e0c4-429c-882e-71ad413d1ff8",
+    "response_id": "chatcmpl-EUWxoDQM2Dgax4dl5pd8kxcN0TeWj",
+    "usage": {
+      "completion_tokens": 761,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1367,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2128
+    }
+  },
+  "received_at": "2026-10-02T12:54:58+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df\">\n  <figure>\n    <img src=\"/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg\" alt=\"Melkweg en sterren boven donkere bergen en water\">\n  </figure>\n  <div class=\"poem\">\n    <p>Wanneer jij, mijn vriend, op deze aarde staat<br>\n    En omhoog tuurt in het firmament<br>\n    Waar zich de ruimte uitstrekt, wat zie je dan?<br>\n    Een grote zwarte deken over heel de lucht gespannen<br>\n    Met hier en daar een mysterieus licht daarboven?<br>\n    Of kun je de afstanden zien, zo immens groot<br>\n    Dat ze de geest bijna doen bezwijken<br>\n    En je laten voelen hoe nietig je werkelijk bent?<br>\n    In de stille stilte van de ruime hemel,<br>\n    Lijken de verre planeten bijna binnen handbereik<br>\n    Vergeleken met de enorme afstand naar de sterren.<br>\n    De sikkelmaan is nog dichterbij jou,<br>\n    En toch kostte het de mens drie volle dagen om te bereiken<br>\n    Die kleine bol zo heel dichtbij.<br>\n    Maar wat je ziet terwijl je omhoog staart naar hoogten<br>\n    Die je niet eens kunt beginnen te bevatten<br>\n    Is slechts een streep van al die uitgestrektheid<br>\n    Ver buiten het weten van dit mensenras.<br>\n    En zo, mijn vriend, hoop ik dat je zult voelen<br>\n    Die grootsheid, uitgestrektheid, leegte van de ruimte<br>\n    Die onze Schepper voor ons maakte zodat wij<br>\n    Zijn grootheid en Zijn tedere liefde kunnen voelen<br>\n    En nederig ons hoofd buigen en Hem aanbidden.</p>\n  </div>\n  <p><em>–door Daniel Kaufman</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Wat zie je?"
+  }
+}

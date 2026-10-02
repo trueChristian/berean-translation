@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:54:59+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg\\\" alt=\\\"Via Lattea e stelle sopra montagne scure e acqua\\\">\\n  </figure>\\n  <div class=\\\"poem\\\">\\n    <p>Quando tu, amico mio, stai in piedi su questa terra<br>\\n    E guardi in alto nel firmamento<br>\\n    Dove si apre tutto lo spazio, cosa vedi?<br>\\n    Una grande coperta nera stesa su tutto il cielo<br>\\n    Con qualche luce misteriosa là in alto?<br>\\n    O riesci a scorgere le distanze così immense<br>\\n    Che spingono la mente quasi oltre il limite<br>\\n    E ti fanno sentire la tua vera piccolezza?<br>\\n    Nel silenzio immobile dell'ampio cielo,<br>\\n    I pianeti lontani paiono quasi a portata di mano<br>\\n    Rispetto alla smisurata distanza delle stelle.<br>\\n    Il falce di luna è ancora più vicino a te,<br>\\n    Eppure all'uomo serviron tre giorni interi per raggiungere<br>\\n    Quella piccola sfera così vicina.<br>\\n    Ma ciò che vedi guardando verso le altezze<br>\\n    Che non puoi neppure cominciare a comprendere<br>\\n    È solo una striscia di tutto l'immenso vasto<br>\\n    Oltre la conoscenza di questa razza umana.<br>\\n    E così, amico mio, spero che sentirai<br>\\n    Quella grandezza, vastità, vuoto di spazio<br>\\n    Che il nostro Creatore ha fatto per noi così che<br>\\n    Possiamo sentire la Sua grandezza e il Suo tenero amore<br>\\n    E chinare umilmente i nostri capi e adorarlo.</p>\\n  </div>\\n  <p><em>–di Daniel Kaufman</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Cosa vedi?\"}",
+    "content_bytes": 1624,
+    "content_evidence_truncated": false,
+    "content_sha256": "98a60ed0d3d59d599fb6cec14222a8ad4fa001bacad42553f4303200d13ff9c7",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 727,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1367,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2094
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

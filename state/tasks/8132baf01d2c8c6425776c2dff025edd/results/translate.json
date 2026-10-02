@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c010f12e-682a-44ec-9618-9228be3f563b",
+    "response_id": "chatcmpl-EUWxulX8v6vTFikOcTxAyAvoShzLx",
+    "usage": {
+      "completion_tokens": 572,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1307,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1879
+    }
+  },
+  "received_at": "2026-10-02T12:54:58+00:00",
+  "result": {
+    "html": "<article data-article-id=\"64012528-bcec-4189-96b5-32a226869815\">\n  <figure>\n    <img src=\"/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg\" alt=\"Silueta de una persona levantando ambas manos contra un cielo cálido\">\n  </figure>\n  <p class=\"poem\">Vendrá un día en que todo irá bien.<br>\n  Lo malo estará todo en el infierno, también.<br>\n  Pero no debemos olvidar que ese día no ha llegado aún.<br>\n  Estamos en una batalla; aún debemos vencer, ¡pues aún!<br>\n  El enemigo enfurece; su tiempo aquí es corto.<br>\n  Esparce todas sus mentiras para distorsionar el monto.<br>\n  El pecado en nuestras vidas es su gran ambición.<br>\n  Porque sabe muy bien que nos costará la salvación.<br>\n  No tiene que ser grande; un pecado pequeño bastará.<br>\n  Engañará y falsificará, cada alma perseguirá.<br>\n  Las saetas del impío vienen de todos los lados.<br>\n  Cuando se enfrenta al poder de Dios, ¡ese diablo—se esconde a ratos!<br>\n  ¡Cuando Dios está con nosotros, no puede avanzar!<br>\n  ¡Cuando Dios está con nosotros, el pecado no tiene oportunidad ya!<br>\n  Porque los ojos del Señor escudriñan de un lado a otro,<br>\n  Para encontrar uno perfecto, ¡su poder Él mostrará con arrojo!<br>\n  Dejemos lo menor y miremos mucho más allá.<br>\n  ¡Tomemos el poder de Dios! ¡Es hora de responder ya!</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "La batalla que hace estragos"
+  }
+}

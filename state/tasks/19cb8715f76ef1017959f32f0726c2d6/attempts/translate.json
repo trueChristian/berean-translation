@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:54:57+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"64012528-bcec-4189-96b5-32a226869815\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg\\\" alt=\\\"ایک شخص کا سائے نما نقشہ جو دونوں ہاتھ آسمان کی جانب اٹھائے ہوئے ہے\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">ایک دن آئے گا جب سب کچھ ٹھیک ہوگا۔<br>\\n  جو برا ہے وہ سب دوزخ میں ہوگا۔<br>\\n  مگر ہمیں نہیں بھولنا چاہیے کہ وہ دن ابھی نہیں آیا۔<br>\\n  ہم ایک جنگ میں ہیں؛ ہمیں ابھی بھی فتح پانا ہے۔<br>\\n  دشمن غصہ میں ہے، اُس کا وقت یہاں کم ہے۔<br>\\n  وہ اپنی ساری جھوٹ پھیلاتا ہے، سچ کو مروڑنے کے لیے۔<br>\\n  ہماری زندگیاں گناہ میں ہوں، یہ اس کا عظیم مقصد ہے۔<br>\\n  کیونکہ وہ بہت اچھے جانتا ہے کہ یہ ہمیں جان سے محروم کردے گا۔<br>\\n  یہ بڑا ہونا ضروری نہیں؛ ایک چھوٹا گناہ بھی چل جائے گا۔<br>\\n  وہ فریب دے گا اور دھوکہ دے گا، ہر جان کا پیچھا کرنے کے لیے۔<br>\\n  بدکاروں کی تیر اندازیاں ہر طرف سے آتی ہیں۔<br>\\n  خدا کی طاقت کے سامنے وہ شیطان—وہ چھپ جاتا ہے!<br>\\n  جب خدا ہمارے ساتھ ہوتا ہے، تو وہ آگے نہیں بڑھ سکتا!<br>\\n  جب خدا ہمارے ساتھ ہوتا ہے، گناہ کا کوئی موقع نہیں ہوتا!<br>\\n  کیونکہ خدا کی نگاہیں ادھر ادھر تلاش کرتی ہیں،<br>\\n  ایک کامل کو پانے کے لیے وہ اپنی قوت دکھائے گا!<br>\\n  آئیں ہم چھوٹے سے چھوٹے سے نجات پائیں اور آگے دیکھیں۔<br>\\n  آئیں ہم خدا کی قوت کو تھامیں! جواب دینے کا وقت ہے!</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"وہ لڑائی جو جاری ہے\"}",
+    "content_bytes": 2093,
+    "content_evidence_truncated": false,
+    "content_sha256": "c52c4271f566e34078693e1eba73da258f68ea686d824a427305ed9679746cdf",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 707,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1310,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2017
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

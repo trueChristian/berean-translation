@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0b720f20-c201-4926-bc17-3dbace7868da",
+    "response_id": "chatcmpl-EUWwdgheP4OhOuEHnVxQ17gZC1jLE",
+    "usage": {
+      "completion_tokens": 696,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1305,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2001
+    }
+  },
+  "received_at": "2026-10-02T12:54:58+00:00",
+  "result": {
+    "html": "<article data-article-id=\"64012528-bcec-4189-96b5-32a226869815\">\n  <figure>\n    <img src=\"/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg\" alt=\"Umbo la mtu akiinua mikono miwili dhidi ya anga ya joto\">\n  </figure>\n  <p class=\"poem\">Kuna siku itakayotokea yote yatakuwa sawa.<br>\n  Mambo mabaya yatawekwa milele motoni moto wa maafa.<br>\n  Lakini tusisahau kuwa siku hiyo bado haijafika.<br>\n  Tuko katika vita; bado lazima tushinde kwa nguvu za Kristo.<br>\n  Adui anakasirika, muda wake hapa mfupi ni.<br>\n  Anasambaza uongo wake wote, ukweli kugeuza ni moyo wake.<br>\n  Dhambi katika maisha yetu, hilo ndilo lengo lake kuu.<br>\n  Kwa maana anajua vizuri itatugharimu nafsi yetu kwa yote tulio nao.<br>\n  Haihitaji kuwa kubwa; hata dhambi ndogo itatosha.<br>\n  Atatufanya udanganyifu, kufuata nafsi kila mmoja atatoa mtego.<br>\n  Misumari ya mabi kwa pande zote hutupiga kwa giza.<br>\n  Tukikabiliwa na nguvu za Mungu, yule shetani—anaficha uso wake kwa hasira!<br>\n  Wakati Mungu yuko pamoja nasi, hawezi kusonga mbele!<br>\n  Wakati Mungu yuko pamoja nasi, dhambi haina nafasi!<br>\n  Kwa kuwa macho ya Bwana yanatafuta kwa makini,<br>\n  Ili aweze kumtafuta mmoja kamili, nguvu zake zionyeshwe kwa wazi!<br>\n  Tuwache yale madogo na tuangalie mbali zaidi ya sasa.<br>\n  Tuchukue nguvu za Mungu! Ni wakati wa kujibu kwa imani na matendo!</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Mapigano Yanayoendelea"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:54:58+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg\\\" alt=\\\"Млечный Путь и звёзды над тёмными горами и водой\\\">\\n  </figure>\\n  <div class=\\\"poem\\\">\\n    <p>Когда ты, мой друг, стоишь на этой земле<br>\\n    И смотришь в небосвод в вышине,<br>\\n    Где простирается весь простор, что видишь ты?<br>\\n    Большое чёрное одеяло, натянутое над небом,<br>\\n    С множеством загадочных огоньков где‑то там?<br>\\n    Или видишь ты гигантские расстояния,<br>\\n    Что ум почти доводят до предела и ломают,<br>\\n    И заставляют ощущать, какой ты на самом деле мал?<br>\\n    В тишине безбрежного, просторного неба<br>\\n    Далёкие планеты кажутся почти в досягаемости<br>\\n    По сравнению с огромной далью звёзд.<br>\\n    Серп луны ближе ещё к тебе,<br>\\n    И всё же человеку потребовалось три целых дня,<br>\\n    Чтобы достигнуть той крошечной сферы, так близко лежащей.<br>\\n    Но то, что ты видишь, глядя вверх на ту высоту,<br>\\n    Которую ты не в силах даже начать понять,<br>\\n    — лишь полоска от всего этого безбрежья<br>\\n    За пределами познания этого человеческого рода.<br>\\n    И потому, мой друг, я надеюсь, что ты ощутишь<br>\\n    Величие то, необъятность, пустоту пространства,<br>\\n    Которые наш Творец создал для нас, чтобы мы<br>\\n    Могли почувствовать Его величие и Его нежную любовь<br>\\n    И смиренно склонить головы наши и поклониться Ему.</p>\\n  </div>\\n  <p><em>— Дэниел Кауфман</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Что ты видишь?\"}",
+    "content_bytes": 2482,
+    "content_evidence_truncated": false,
+    "content_sha256": "dbe81b8dbcb57d4c307f03b27cd5b70c622f15761eac2e25f25facea94f00c8d",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 896,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1367,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2263
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
