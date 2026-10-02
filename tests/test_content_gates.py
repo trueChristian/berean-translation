@@ -133,6 +133,42 @@ class ContentGateTests(unittest.TestCase):
             with self.subTest(source=source, target=target), self.assertRaisesRegex(ContractError, 'Scripture'):
                 self.validate(f'<p>{source}.</p>', f'<p>{target}.</p>')
 
+    def test_unicode_hyphens_preserve_complete_reference_ranges(self):
+        for dash in ('\u2010', '\u2011'):
+            for source, target in (
+                ('Psalm 24:3-4', f'Psaume 24:3{dash}4'),
+                ('Genesis 2:18-24', f'Gênesis 2:18{dash}24'),
+                (f'John 3:16{dash}18', '约翰福音３:１６–１８'),
+                ('John 3:16-18 and 3:16-18', f'مرقس٣:١٦{dash}١٨ و٣:١٦{dash}١٨'),
+            ):
+                with self.subTest(dash=dash, source=source, target=target):
+                    self.validate(f'<p>{source}.</p>', f'<p>{target}.</p>')
+            self.assertEqual(reference_numbers(f'John 3:16{dash}18; Psalm 24:3{dash}4'),
+                             Counter({'3:16-18': 1, '24:3-4': 1}))
+
+    def test_unicode_hyphens_do_not_hide_reference_changes_or_multiplicity(self):
+        for dash in ('\u2010', '\u2011'):
+            for source, target in (
+                ('John 3:16-18', f'Jean 3:16{dash}19'),
+                ('John 3:16-18', 'Jean 3:16'),
+                (f'John 3:16{dash}18', 'Jean 3:16'),
+                ('John 3:16', f'Jean 3:16{dash}18'),
+                ('John 3:16-18', f'Jean 3:16{dash}18 et 3:16{dash}18'),
+                ('John 3:16-18 and 3:16-18', f'Jean 3:16{dash}18'),
+                ('John 3:16-18 and 4:7', f'Jean 3:16{dash}18'),
+                ('Around 2 pm', f'Om 14:00{dash}03'),
+                (f'John 3:16{dash}2 pm', 'Om 14:00'),
+            ):
+                with self.subTest(dash=dash, source=source, target=target), \
+                        self.assertRaisesRegex(ContractError, 'Scripture'):
+                    self.validate(f'<p>{source}.</p>', f'<p>{target}.</p>')
+
+    def test_unicode_hyphen_ranges_cannot_move_between_blocks(self):
+        for dash in ('\u2010', '\u2011'):
+            with self.subTest(dash=dash), self.assertRaisesRegex(ContractError, r'/p\[1\]'):
+                self.validate('<p>John 3:16-18.</p><p>Conclusion.</p>',
+                              f'<p>Conclusion.</p><p>Jean 3:16{dash}18.</p>')
+
     def test_unexplained_or_ambiguous_clock_shaped_numbers_remain_protected(self):
         for source, translated in (
             ('A call came.', 'Omstreeks 14:00 het ’n oproep gekom.'),
