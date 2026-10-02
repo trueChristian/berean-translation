@@ -1,0 +1,76 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Myerstown, PA",
+          "name": "Louella H. Burkholder"
+        }
+      ],
+      "raw": "Louella H. Burkholder\nMyerstown, PA"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc",
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "78d8ed5b-bad4-58ae-ae10-a49f738e29d8"
+    },
+    "id": "9b13e502-993c-4536-a32d-ae1a62c36db5",
+    "images": [
+      {
+        "alt": "A brindle dog wearing a chain collar",
+        "caption": null,
+        "credit": "Adobestock.com",
+        "public_path": "/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-1.png",
+        "repository_path": "public/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-1.png",
+        "rights_note": "The page-2 masthead credits Adobestock.com for printed pages 18 and 19; no separate permission notice or licence terms are stated. The complete transparent dog illustration was reconstructed from its page-18 main object and narrow page-19 continuation at the exact spread join.",
+        "role": "opening story illustration",
+        "sequence": 1,
+        "source_page": 18
+      },
+      {
+        "alt": "Farm fields and buildings across a rolling rural valley in autumn",
+        "caption": null,
+        "credit": "Adobestock.com",
+        "public_path": "/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-2.jpg",
+        "repository_path": "public/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-2.jpg",
+        "rights_note": "The page-2 masthead credits Adobestock.com for printed pages 18 and 19; no separate permission notice or licence terms are stated. The two clean 854-by-672 masked landscape panels were joined at their exact spread boundary, flattened against white, and baseline-encoded in sRGB without article text.",
+        "role": "two-page story-setting landscape photograph",
+        "sequence": 2,
+        "source_page": 18
+      }
+    ],
+    "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Children’s Corner",
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 19,
+      "start": 18
+    },
+    "subtitle": null,
+    "title": "Saved From the “Lion’s” Mouth",
+    "topics": [
+      "ccdcfb82-dfbd-5f30-b4e5-e4b2e94a3081",
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e",
+      "e586bda8-3e92-56c9-9629-4bbed47922f3",
+      "f763c5ea-8687-5101-974e-3d016826bf73"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "9d332a84ee3d8b08c776b9d35f4eb089ee992995ae2a8f3cf40563380178e57e",
+    "metadata_sha256": "d860ababd2b182d21a014e825db5ef55ee5ac3d0fa0d482677ab9c34aca8371d",
+    "structure_sha256": "02b2a0e3d31c3ebe3afecde788dcd8ca728a5e8563df39634fc28e0cd24ec90e",
+    "text_sha256": "def545f250c6b343fad7df59b51ae1d440dd5c96139d2643beb45e5b6d3015ea",
+    "translation_metadata_sha256": "3ba0f42819b96765ffb2479dbe4a1fd4c23bc668dd61ea95d0cf80a1804ea7cd"
+  },
+  "html": "<article data-article-id=\"9b13e502-993c-4536-a32d-ae1a62c36db5\">\n  <p><em>The angel of the LORD encampeth round about them that fear him, and delivereth them –Psalm 34:7.</em></p>\n  <figure>\n    <img src=\"/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-1.png\" alt=\"A brindle dog wearing a chain collar\" loading=\"lazy\">\n  </figure>\n  <p>“Tell us a story, Grandma,” begged two eager children as they crowded around her rocking chair.</p>\n  <p>“My, my, you children like to hear stories, don’t you?” replied Grandma, with a twinkle in her eye. “All right, I’ll tell you about a time when I was about eight years old, and my sister Lori was nine.</p>\n  <p>We lived on an old farm, back a short lane along a dirt road. One morning, Mother called us in from our play and said she was out of sugar. She asked us to walk to Mrs. Brightbill to see if she had any sugar to spare. You see, we didn’t have telephones when I was a little girl, so she couldn’t call the neighbor and ask her. Neighbors often shared back and forth because we didn’t go shopping at the store very often either. So, mother gave us a container, and we started out on our long walk as Mother called after us and reminded us not to loiter along the way.”</p>\n  <figure>\n    <img src=\"/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-2.jpg\" alt=\"Farm fields and buildings across a rolling rural valley in autumn\" loading=\"lazy\">\n  </figure>\n  <p>“How far was it to the Brightbills?” asked Sharon.</p>\n  <p>“Oh, it was about half a mile to our closest neighbor, the Rhine’s place, and then about another quarter of a mile to the Brightbills,” replied Grandma.</p>\n  <p>“Oh, that’s far. Mother won’t let us walk on the road at all,” added Micah.</p>\n  <p>“I’m sure you are right,” agreed Grandma. “And I hope you never walk on the road without your parents’ permission. But things were much different when I was a little girl. We also walked every day to school, which was quite a bit further than the Brightbill farm. So, the little errand we were doing on this morning for Mother seemed like fun. There was only one problem though. The Rhine family had an old man living in their summer house. His name was Pierce, and he had a very fierce dog; at least he acted very fierce! He was kept behind a high wire fence connected to an old shed.</p>\n  <p>Every day when we walked to school, that dog frightened us terribly with his fierce barking and growling. But Mother always reminded us to pray and remember the Bible verse which says: <em>What time I am afraid, I will trust in thee –Psalm 56:3.</em> Still, we hurried by as fast as our legs could take us.</p>\n  <p>Lori and I started out happily on our errand for Mother. We skipped along, watching the dust swirl beneath our feet on that warm summer morning. Everything seemed unusually quiet and still as we passed through the gully, over the rippling creek, and up the steep hill right before Neighbor Rhine’s place. There before us was the old shed, and on the other side was the high fence which kept in Pierce’s mean dog. My heart began to thump rapidly. ‘Maybe that bad dog hadn’t seen us yet,’ I thought gratefully as I whispered once more to myself, ‘I will trust and not be afraid.’</p>\n  <p>Suddenly, the air was shattered by the ferocious barking of that mean dog as he sprang around the corner of the old shed! Lori and I froze in our tracks! As that angry dog raced toward us, Lori screamed. The next moment, I realized she had fallen down and was sitting in the middle of the dirt road, with her hands behind her on the hard packed gravel, feet and legs in the air, kicking and kicking, spinning around and around as that angry dog circled her, jumping in at her and nipping at her feet and legs! I was so scared. I just stood frozen to the spot. I don’t remember if I screamed, or if I prayed. But suddenly there was a shout! It was Pierce, with a whip in his hand. He came running around the shed and out on the road. He whipped and whipped that dog and finally got him away from Lori and back inside the fence where he belonged, as Lori and I stood there, trembling, and crying with relief.”</p>\n  <p>“Wow!” exclaimed Sharon. “That was really scary, wasn’t it?”</p>\n  <p>“Did Pierce need to get rid of his dog?” asked Micah.</p>\n  <p>“Yes, Sharon, it was very scary,” answered Grandma. “And no, Micah, Pierce did not get rid of his dog. We children needed to keep trusting the good Lord to keep us safe every day.”</p>\n  <p>“I don’t remember what happened after Pierce got the dog away that day, or if we ever got Mother’s sugar, but I will never forget what happened that day.</p>\n  <p>It was a miracle that Lori and I were not injured. There is a verse in Psalms which says: <em>Save me from the lion’s mouth… –Psalm 22:21.</em> How thankful we were to be delivered from the dog’s mouth! I like to think that the Lord’s angel had his sword drawn in front of that dog’s mouth every time he leaped at my dear sister.”</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+  "translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037"
+}

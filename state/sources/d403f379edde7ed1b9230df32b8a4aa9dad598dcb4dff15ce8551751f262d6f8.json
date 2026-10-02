@@ -1,0 +1,73 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Dalton, OH",
+          "name": "Eileen Wenger"
+        }
+      ],
+      "raw": "by Eileen Wenger\nDalton, OH"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+    },
+    "id": "4ab4f655-4a17-4f5c-9623-e9085bd401f9",
+    "images": [
+      {
+        "alt": "A child whittling a stick with a small red-handled knife",
+        "caption": null,
+        "credit": "Pixabay.com",
+        "public_path": "/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-1.png",
+        "repository_path": "public/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-1.png",
+        "rights_note": "The page-2 masthead credits Pixabay.com for printed page 20; no separate license terms are stated. The embedded image and its PDF soft mask were combined without changing the published crop or orientation.",
+        "role": "story opener illustration",
+        "sequence": 1,
+        "source_page": 20
+      },
+      {
+        "alt": "A rope swing hanging from a large tree",
+        "caption": null,
+        "credit": "AdobeStock.com",
+        "public_path": "/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-2.jpg",
+        "repository_path": "public/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-2.jpg",
+        "rights_note": "The page-2 masthead credits AdobeStock.com for printed page 21; no separate permission notice or license terms are stated. The embedded asset was copied byte-for-byte without transformation.",
+        "role": "closing story illustration",
+        "sequence": 2,
+        "source_page": 21
+      }
+    ],
+    "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Children’s Corner",
+    "sequence": 7,
+    "series": null,
+    "source_pages": {
+      "end": 21,
+      "start": 20
+    },
+    "subtitle": null,
+    "title": "Mother Was Right",
+    "topics": [
+      "d94be34d-7eb9-5e9b-9902-d42cc6c36aae",
+      "862c3071-6aee-5a28-ae7b-356175f29db1"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "0f18bf8ccea5b8cc81d816ce6ce36f7f92c7e75e531beadfcc199040d0535a0c",
+    "metadata_sha256": "8830102fd5b164fa3a81c478f48089e90ef879fd03c620a8df73ebbb18774e2a",
+    "structure_sha256": "3204d2522c150f5878d6b2fd1ed9234964f0463cc2972b9302a36f1626d209f7",
+    "text_sha256": "39e27b0af718afcf567bcf2c8ca0cc4b7f46b465947bd4b51839dcb50582a19e",
+    "translation_metadata_sha256": "accedea5e2cb3b42451b85f3d4e476af082bfb0d7974a8e91bb1ec802e0bc1c3"
+  },
+  "html": "<article data-article-id=\"4ab4f655-4a17-4f5c-9623-e9085bd401f9\">\n  <figure>\n      <img src=\"/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-1.png\" alt=\"A child whittling a stick with a small red-handled knife\" loading=\"lazy\">\n    </figure>\n\n  <p>Lunchtime was over and it was that delightful hour of the day when mom said it was time for a break. Since Ellie was ten, she wasn’t required to take a daily nap anymore, so she set about trying to decide just how she would spend this free time. She loved being outdoors, so the sunny skies and fresh air of this particularly lovely summer day fairly pulled her outside.</p>\n\n  <p>“I know!” she thought to herself. “This would be a perfect time to try some whittling with that knife Paul gave me.”</p>\n\n  <p>She had spent a week with her aunt and uncle who lived several counties over from hers and while there, her cousin Paul had given her a knife that he had made. It had a short, round handle and he had inserted a small piece of steel into one end. He then honed the blade to a nice sharp edge. He could carve the funniest little faces on small blocks of wood and Ellie was always eager to see what he would create next. She tried to copy him, but it didn’t seem as if she would be turning out anything very exciting any time soon. Still, it was fun to try, so she got the knife from her drawer in her bedroom and headed outside.</p>\n\n  <p>The large maple tree in front of their old stone farmhouse beckoned to her. Its low hanging branches seemed like the perfect place to perch and try out that knife again. Ellie selected a few large twigs and then hoisted herself up into the cool shade of the tree. Once situated, she began cutting and picking away at her pieces of wood. She still couldn’t make eyes and a nose appear, but she had fun carving notches and shaving off small pieces of bark. It was a relaxing thing with which to be occupied while enjoying the quietness of the afternoon. She was so glad this tree was in their yard, and she was so glad that Paul had given her that whittling knife.</p>\n\n  <p>After a time, the branch Ellie was sitting on began to feel rough and hard, and the twigs she was whittling had nearly disappeared. “I should go see what the boys are doing,” she thought. She shifted to the lowest branch and sat poised, ready to jump down like she always did to get out of the tree.</p>\n\n  <p>She paused, looking at the knife in her hand. “Never jump down from anywhere while holding a knife in your hand!” her mother’s voice rang in her memory. “It is a very dangerous thing to do. You could get cut very badly.” Ellie sat thinking about that for a little.</p>\n\n  <p>“Yes, I know that’s probably true,” she told herself. “But I think if I am very careful, I could jump down and it will be fine,” she reasoned.</p>\n\n  <p>She firmly grasped the knife in her right hand, then quickly jumped the distance to the ground. Just as she landed, her ankle turned and gave way under her. She fell awkwardly onto her left leg. And, oh no! That little knife had plunged into her left wrist as she was trying to keep her balance. She quickly pulled it out and watched, with her heart beating rapidly, as the blood welled up, dark and warm. It was a small cut, only about one quarter of an inch long, but it had gone in rather deeply.</p>\n\n  <p>What should she do now? Yes, there was no doubt about it, her mom had been right after all! In her heart, she knew the right thing to do would be to go directly to her mother and tell her what she had done. But she felt guilty and ashamed. She had known better than to jump down with that knife, yet she had gone ahead and done it anyway. Guiltily, she quickly pressed her thumb on top of the wound and slipped into the house. The bleeding soon stopped, and after finding a little bandage and placing it on her cut, she quietly put her knife away and found a book to read. She never told her mom what she had done until many years later when she was a grown woman.</p>\n\n  <p>Today, as she looks at that scar, which is still visible from 40 years ago, she wonders why God had protected her. She had been a foolish little girl to not go immediately to her mother and confess what she had done. She could have gotten a severe infection from getting cut with a dirty, slightly rusty knife. Even though she acted foolishly, she is grateful that God protected her, but she still wishes she had confessed her disobedience to her mother.</p>\n\n  <p>It is never wise to hide anything from your parents. They need to know those wrong things you do, no matter how embarrassed or ashamed you might feel. Parents need to know all the things that happen to their children It is God’s design for fathers and mothers to be there for their children, to help you when you get hurt, and to guide and teach you as you learn how to be good, obedient children. God’s way is always the best.</p>\n\n  <figure>\n      <img src=\"/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-2.jpg\" alt=\"A rope swing hanging from a large tree\" loading=\"lazy\">\n    </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+  "translation_key": "bea4c0be47f056e7707aebabc8049992e7243ac83fcd337c2189cd783f263083"
+}
