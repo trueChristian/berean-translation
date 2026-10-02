@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f662657c-f7d9-4a13-a528-6410054a9084",
+    "response_id": "chatcmpl-EULA0MdHASUp1YeIJGfFccrEeW5ns",
+    "usage": {
+      "completion_tokens": 852,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3002,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3854
+    }
+  },
+  "received_at": "2026-10-02T00:14:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 3 (inside <p> starting with <em>The Heartbeat of the Remnant</em>)",
+        "severity": "minor",
+        "source_quote": "Youth encouraging fellow youth to press toward the mark of the prize of the high calling in Christ Jesus.",
+        "suggested_fix": "Replace the Norwegian phrase \"Ungdom som oppmuntrer medungdom til å presse seg mot målet om å motta prisen for det høye kall i Kristus Jesus.\" with a clearer idiomatic rendering that preserves the source meaning, for example: \"Ungdom som oppmuntrer andre ungdom til å strekke seg mot målet og prisen for det høye kall i Kristus Jesus.\"",
+        "translation_quote": "Ungdom som oppmuntrer medungdom til å presse seg mot målet om å motta prisen for det høye kall i Kristus Jesus."
+      },
+      {
+        "location": "Paragraph 3 (Nelson Mandela quotation)",
+        "severity": "minor",
+        "source_quote": "Nelson Mandela, former president of South Africa wrote, “Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”",
+        "suggested_fix": "Either translate the quotation into Bokmål to match the rest of the article, or explicitly mark it as an untranslated English quotation if that was intentional. Suggested Bokmål translation preserving the quoted thought: replace the English quote text with: «Feil er en lærer, og ved slutten av livet, hva tror du du vil føle dårligst for — å ha mislykkes eller å aldri ha prøvd?» Ensure the surrounding punctuation remains unchanged in the HTML.",
+        "translation_quote": "Nelson Mandela, tidligere president i Sør-Afrika, skrev: «Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?»"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

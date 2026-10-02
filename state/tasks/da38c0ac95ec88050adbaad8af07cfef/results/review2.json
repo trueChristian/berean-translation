@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3acf9647-dfdd-4c70-8c30-68b83f20f71c",
+    "response_id": "chatcmpl-EULBrsDBn1VNbcB0V24K0MRnymMcx",
+    "usage": {
+      "completion_tokens": 1399,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12195,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13594
+    }
+  },
+  "received_at": "2026-10-02T00:14:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Metadata: section header",
+        "severity": "minor",
+        "source_quote": "INSPIRATIONS FOR YOUTH",
+        "suggested_fix": "Use a natural contemporary Bokmål rendering that preserves plural sense and register, for example: \"INSPIRASJONER FOR UNGE\" or keep the original English if the site standard is to leave section headings in English.",
+        "translation_quote": "INSPIRASJON FOR UNGE"
+      },
+      {
+        "location": "Paragraph under heading “4) Not an unequal yoke.” — translation of sentence \"God’s plan is that marriage is an equal yoke.\"",
+        "severity": "minor",
+        "source_quote": "God’s plan is that marriage is an equal yoke.",
+        "suggested_fix": "Correct the Norwegian to clearly render \"equal yoke\". Suggested correction preserving HTML/text structure: replace \"Guds plan er at ekteskapet er en lik tore.\" with \"Guds plan er at ekteskapet er et likt åk.\"",
+        "translation_quote": "Guds plan er at ekteskapet er en lik tore."
+      },
+      {
+        "location": "Same paragraph, later sentence \"If they are equally yoked and God blesses them with children...\"",
+        "severity": "minor",
+        "source_quote": "If they are equally yoked and God blesses them with children, it becomes a joyful haven where God can dwell.",
+        "suggested_fix": "Correct wording to natural Bokmål and consistent term for \"equally yoked\". For example: replace \"Hvis de er likt åkede og Gud velsigner dem med barn, blir det et gledelig tilfluktssted hvor Gud kan bo.\" with \"Hvis de er likt åkekoblede (eller: 'likåkede') og Gud velsigner dem med barn, blir det et gledelig tilfluktssted hvor Gud kan bo.\" Preserve original punctuation and tags.",
+        "translation_quote": "Hvis de er likt åkede og Gud velsigner dem med barn, blir det et gledelig tilfluktssted hvor Gud kan bo."
+      },
+      {
+        "location": "Paragraph quoting Ecclesiastes 12:1 — book name language mix",
+        "severity": "minor",
+        "source_quote": "Ecclesiastes 12:1 says, “Remember now thy Creator... ”",
+        "suggested_fix": "For consistency with the source, keep the original book-name form used in English source. Either retain 'Ecclesiastes 12:1' (as in the source) or consistently translate all book names to Norwegian throughout. Example fix: change \"Forkynneren 12:1 says,\" to \"Ecclesiastes 12:1 says,\" or else translate the full quote attribution consistently to Bokmål: \"Forkynneren 12,1 sier:\"",
+        "translation_quote": "Forkynneren 12:1 says, “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them.”"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}
