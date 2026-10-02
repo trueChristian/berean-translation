@@ -2,7 +2,6 @@
   "article_id": "80e78d22-936e-48de-885a-f9a8898d5e42",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d0c5bb52ed4840698c74f6940d3a4fa0",
   "campaign": "gh-36910515539",
   "created_at": "2026-10-01T18:57:44+00:00",
   "events": [
@@ -43,8 +42,28 @@
         },
         "total_tokens": 13652
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 8451,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 256,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13221,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 21672
+      }
     }
   ],
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[117]: source /article[1]/p[43] ('start', 'p', ()); translation /article[1]/h2[12] ('start', 'h2', ())",
   "findings": [
     {
       "location": "source.html article-note (opening paragraph)",
@@ -89,6 +108,7 @@
       "translation_quote": "חתונה שממוקדת במשיח היא תקופת זמן בין חיים בעודה רווקים לבין חיים נשואים."
     }
   ],
+  "finished_at": "2026-10-02T00:07:58+00:00",
   "id": "bc0802c8ce2e6d3973c2ca7e2ab91282",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "heb",
@@ -138,7 +158,7 @@
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1813629ba31cec5f42c8546808ad86fd17dc2aca775e7cb43f2368f4a4530061.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
