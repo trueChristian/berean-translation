@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 6 (sentence mentioning the party name)\",\"severity\":\"minor\",\"source_quote\":\"the National Socialist German Workers Party (or the Nazi Party)\",\"suggested_fix\":\"Restore correct proper name/term in Dutch. Use \\\"Nationaalsocialistische Duitse Arbeiderspartij (de NSDAP of de Nazi-partij)\\\" or simply \\\"de Nazi-partij\\\" consistently. Remove the erroneous \\\"Nazio- partij\\\" spelling.\",\"translation_quote\":\"Nationaalsocialistische Duitse Arbeiderspartij (of de Nazio- partij) was in 1919 opgericht\"},{\"location\":\"Paragraph 12 (use of an acronym not present in source)\",\"severity\":\"minor\",\"source_quote\":\"The party was founded in 1919, and Hitler was amongst its first members. He quickly assumed party leadership...\",\"suggested_fix\":\"Do not introduce new identifiers that are not in the source. Replace \\\"NSDAP\\\" with the phrasing used earlier in the translation (e.g., \\\"de partij\\\" or \\\"de Nazi-partij\\\").\",\"translation_quote\":\"De duizenden nieuwe leden van de NSDAP stelden de partij in staat...\"},{\"location\":\"Metadata: section field\",\"severity\":\"minor\",\"source_quote\":\"CHURCH HISTORY\",\"suggested_fix\":\"Use conventional Dutch rendering with consistent casing: e.g. \\\"KERKGESCHIEDENIS\\\" or \\\"Kerkgeschiedenis\\\" to match style of other translated metadata. Current \\\"KERKgeschiedenis\\\" mixes casing.\",\"translation_quote\":\"KERKgeschiedenis\"},{\"location\":\"Paragraph 5 (hyphenation and phrasing)\",\"severity\":\"minor\",\"source_quote\":\"The resultering peace treaties were structured to humiliate and crush Germany, saddling it with an almost unpayable war debt, and restricting its rights to build a military.\",\"suggested_fix\":\"Adjust hyphenation and word choices for natural Dutch: e.g., change \\\"opzadeldend\\\" to \\\"opzadelden\\\" and \\\"oorlogs-schuld\\\" to \\\"oorlogsschuld\\\" so wording reads smoothly and matches the source meaning.\",\"translation_quote\":\"De resulterende vredesverdragen waren zodanig gestructureerd dat ze Duitsland vernederden en knevelden, hen opzadeldend met een bijna onbetaalbare oorlogs-schuld en het beperken van hun recht om een leger op te bouwen.\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 2123,
+    "content_evidence_truncated": false,
+    "content_sha256": "ec66e8b8d9fc6f4ed9fe8b3af5d39a1550fef6d952b49c4a2abdd94d6964cc9d",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1080,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5187,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6267
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

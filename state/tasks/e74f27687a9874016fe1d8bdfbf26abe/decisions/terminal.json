@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph 1 (opening sentence)",
+      "severity": "minor",
+      "source_quote": "I have enjoyed listening to, and even taking part in, discussions about the Covid shot—about why someone has, and why the other has not, received it.",
+      "suggested_fix": "Use the translator's consistent preferred rendering for the author's recurring choice to avoid the word “vaccine.” Either render the opening reference as injeção contra a Covid or Covid shot (injeção/Covid) so it matches the author’s later explicit statement that he does not call it a 'vacina'. Suggested wording: \"Tenho gostado de ouvir, e até de participar, de discussões sobre a injeção contra a Covid — sobre por que alguém a recebeu e por que outro não.\"",
+      "translation_quote": "Tenho gostado de ouvir, e até de participar, de discussões sobre a vacina contra a Covid — sobre por que alguém a recebeu e por que outro não."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

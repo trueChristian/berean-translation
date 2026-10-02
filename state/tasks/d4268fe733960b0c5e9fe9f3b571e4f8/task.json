@@ -2,7 +2,6 @@
   "article_id": "5fc18c0d-013c-40d0-aabb-e8f7c7c404eb",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,44 @@
         },
         "total_tokens": 5610
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 886,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5335,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6221
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Final paragraph before figure (Source line) in source.html",
+      "severity": "major",
+      "source_quote": "Source:\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction",
+      "suggested_fix": "Translate the word 'Source:' into Italian while preserving the URL. For example: \"Fonte:<br>anabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction\". Preserve the existing HTML tags and line break.",
+      "translation_quote": "Source:<br>anabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction"
+    },
+    {
+      "location": "Paragraph describing Hitler's rise (paragraph mentioning office in source.html)",
+      "severity": "major",
+      "source_quote": "their political might handed Hitler the office of prime minister.",
+      "suggested_fix": "Keep the original English sense. The source text uses 'prime minister'; preserve that sense in Italian rather than rendering it as 'cancelliere' which changes the office naming. Suggested Italian rendering: \"il loro potere politico consegnò a Hitler l'ufficio di primo ministro.\" Replace the sentence in that paragraph accordingly, preserving HTML.",
+      "translation_quote": "A lungo andare il loro potere politico consegnò a Hitler l'ufficio di cancelliere."
+    }
+  ],
   "id": "d4268fe733960b0c5e9fe9f3b571e4f8",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ita",
@@ -100,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1bdcb7e456b7a6b0faa951b73ad2e9f64625a3dfb5338112d027e556e66e5f0a.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "f30546ec55676f8dd6c74177eaa70932f9093041fab1ceced906b186d9df3a00",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

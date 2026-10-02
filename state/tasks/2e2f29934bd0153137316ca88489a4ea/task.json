@@ -2,7 +2,6 @@
   "article_id": "dce3d3b3-8b56-4be5-9674-e682b97d3b43",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,45 @@
         },
         "total_tokens": 4931
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 707,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4645,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5352
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.title",
+      "severity": "minor",
+      "source_quote": "From the Editor",
+      "suggested_fix": "Translate the English title into standard contemporary Italian, preserving the same capitalization style if desired. For example: \"Dall'editore\" or \"Dalla redazione\". Replace the value of the translation title field (translation.title) with the chosen Italian rendering.",
+      "translation_quote": "From the Editor"
+    },
+    {
+      "location": "source.section",
+      "severity": "minor",
+      "source_quote": "FROM THE EDITOR",
+      "suggested_fix": "Translate the English section label into standard contemporary Italian, preserving emphasis/capitalization if required by the site. For example: \"DALL'EDITORE\" or \"DALLA REDAZIONE\". Replace the value of the translation section field (translation.section) with the chosen Italian rendering.",
+      "translation_quote": "FROM THE EDITOR"
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:17+00:00",
   "id": "2e2f29934bd0153137316ca88489a4ea",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ita",
@@ -100,11 +135,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c16edd05d12043a927f45367071112d6f71c0042bc3d1b02d0bfb5b8d330f1e2.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d0410b3ae98c7c6c4b8643e82b8513a58f4f423e430db25e79b18dc18a3fab41",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

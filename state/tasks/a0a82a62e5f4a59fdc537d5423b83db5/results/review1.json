@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "62e1b4e3-ca1f-443b-91ab-9c8f6a280bc5",
+    "response_id": "chatcmpl-EUX3phlIn5XkzGU4nGOW9PMnE2wfn",
+    "usage": {
+      "completion_tokens": 978,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10929,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11907
+    }
+  },
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: Causes of Depression (near sentence about external stressors)",
+        "severity": "minor",
+        "source_quote": "It can be the death of a close friend or family member, or it can be a financial misfortune. It is important to remember that even good events can produce large amounts of stress. Mothers with newborns are often functioning on very little sleep, even while they have large physical changes taking place in their bodies.",
+        "suggested_fix": "Translate the parenthetical English term into Italian or remove the parenthesis. Replace “(discouragement)” with “(scoraggiamento)” or remove the parenthetical English term so the sentence reads naturally in Italian.",
+        "translation_quote": "Questi stress esterni sono spesso la causa scatenante di questi sentimenti (discouragement). Può trattarsi della morte di un amico o familiare stretto, oppure di una disgrazia finanziaria."
+      },
+      {
+        "location": "Paragraph: Deal With Issues Early (sentence about medical terms)",
+        "severity": "minor",
+        "source_quote": "We use terms like “burn-out” and “compassion fatigue” in the medical field when people are heading in the wrong direction.",
+        "suggested_fix": "Translate or italize the English technical term for consistency. Replace the English \"burnout\" with Italian “burnout” (if considered a loanword) or the translated term “esaurimento”/“esaurimento da lavoro”; ensure “compassion fatigue” is translated consistently (e.g. “esaurimento emotivo/da compassione”). Example: “Nel campo medico usiamo termini come “esaurimento” (burnout) e “fatica da compassione” quando…”",
+        "translation_quote": "Nel campo medico usiamo termini come “burnout” e “fatica da compassione” quando le persone stanno andando nella direzione sbagliata."
+      }
+    ],
+    "passed": true,
+    "score": 95
+  }
+}

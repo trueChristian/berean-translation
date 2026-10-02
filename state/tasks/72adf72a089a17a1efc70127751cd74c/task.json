@@ -2,7 +2,6 @@
   "article_id": "6080d813-75a2-4123-9552-3c4f75c81219",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:40+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 6121
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 762,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5782,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6544
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html -- paragraph 3 (childhood vaccination anecdote)",
+      "severity": "minor",
+      "source_quote": "(The pock mark is still there)",
+      "suggested_fix": "Translate parenthetical remark into idiomatic French punctuation/placement. Suggested French: « (La cicatrice est encore là.) » — include a period inside the parenthesis to match French conventions and keep it as a parenthetical remark.",
+      "translation_quote": "(La cicatrice est encore là)"
+    },
+    {
+      "location": "source.html -- multiple places (phrasing)",
+      "severity": "minor",
+      "source_quote": "I will hasten to say that I don’t think this is the ‘mark of the beast’",
+      "suggested_fix": "The literal rendering 'Je me hâte de dire' is understandable but non‑idiomatic in French. Suggest a more idiomatic phrasing that preserves meaning, e.g. « Je tiens à dire rapidement que je ne crois pas que ceci soit la ‘marque de la bête’ ». Apply similar smoothing where 'I will hasten to say' recurs.",
+      "translation_quote": "Je me hâte de dire que je ne pense pas que ceci soit la « marque de la bête »"
+    },
+    {
+      "location": "source.html -- paragraph 5 (terminology)",
+      "severity": "minor",
+      "source_quote": "for clarity it is better to call it a flu shot.",
+      "suggested_fix": "The translation uses « vaccin antigrippal ». That is accurate, but consider matching the source's informal 'flu shot' register with « le vaccin contre la grippe » or « l’antigrippal » if tighter register is desired. Either is acceptable; no doctrinal change is needed.",
+      "translation_quote": "il vaut mieux l’appeler un vaccin antigrippal"
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:18+00:00",
   "id": "72adf72a089a17a1efc70127751cd74c",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "fra",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/733eeaa1a812b6193e133350be5a00b31e3585142bda55cfaea2f725f3dda88f.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "f7d8a08704733486f924816fbfd515b7c40bf25c984ecd111bf0fe403aaa2dde",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

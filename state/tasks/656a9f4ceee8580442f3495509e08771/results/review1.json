@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "bf034da2-69ea-4a11-aa9c-f105a10f7695",
+    "response_id": "chatcmpl-EUX3YxCNqbLvBu4IC7jgT0fjXa9JC",
+    "usage": {
+      "completion_tokens": 1188,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5230,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6418
+    }
+  },
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph describing Otto Andres / Danzig (translation paragraph containing \"Otto Andres devint le naz i le mieux classé après le premier dans la région de Dantzig...\")",
+        "severity": "minor",
+        "source_quote": "Otto Andres became the second-highest ranked Nazi of the Danzig area",
+        "suggested_fix": "Correct the garbled phrase and render the rank clearly in French while preserving meaning. For example: \"Otto Andres devint le deuxième nazi le mieux classé dans la région de Dantzig\" or \"Otto Andres devint le deuxième dirigeant nazi le mieux classé dans la région de Dantzig.\" Preserve placement and tags.",
+        "translation_quote": "Otto Andres devint le naz i le mieux classé après le premier dans la région de Dantzig, et des dizaines des 6 000 croyants des congrégations environnantes rejoignirent diverses organisations nazies."
+      },
+      {
+        "location": "Source line at end of article",
+        "severity": "minor",
+        "source_quote": "Source:\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction",
+        "suggested_fix": "Translate the label 'Source:' into French to match target-language conventions. For example: \"Source : anabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction\" (leave the URL unchanged).",
+        "translation_quote": "Source:\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

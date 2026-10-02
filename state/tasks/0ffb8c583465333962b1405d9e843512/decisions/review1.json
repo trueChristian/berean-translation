@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "major",
+      "source_quote": "Saved From the “Lion’s” Mouth",
+      "suggested_fix": "Translate the title to accurately reflect the English meaning and tone. Suggested Arabic titles: «النّجاة من فمِ ",
+      "translation_quote": "خُصِّصَتْ حمايتنا من \"فَمِ الأسد\""
+    },
+    {
+      "location": "paragraph: \"Every day when we walked to school, that dog frightened us...\",\"severity\":\"minor\",\"source_quote\":\"Every day when we walked to school, that dog frightened us terribly with his fierce barking and growling.\",\"translation_quote\":\"كل يوم عندما كنا نمشي إلى المدرسة، كان ذلك الكلب يرعبنا بشدة بنباحه وصهيله المرعب.\",\"suggested_fix\":\"Replace 'صهيل' (typically the sound of a horse) with a more accurate Arabic rendering of 'growling' (e.g., 'زئيره' or 'شحجه'). Suggested phrasing: 'كان ذلك الكلب يرعبنا بشدة بنباحه وزئيره.'\"}],",
+      "severity": "major",
+      "source_quote": "Saved From the “Lion’s” Mouth",
+      "suggested_fix": "Translate the title to accurately reflect the English meaning and tone. Suggested Arabic titles: «النّجاة من فمِ \"الأسد\"» or «النّجاة من فم \"الأسد\"»; update the translation.title field to one of these. Ensure the quotation marks around \"Lion's\" are preserved as in the English.",
+      "translation_quote": "خُصِّصَتْ حمايتنا من \"فَمِ الأسد\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

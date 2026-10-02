@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Opening emphasized verse (first <p>)",
+      "severity": "minor",
+      "source_quote": "The angel of the LORD encampeth round about them that fear him, and delivereth them –Psalm 34:7.",
+      "suggested_fix": "Use a more natural, accurate Kiswahili phrasing for “them that fear him.” Replace \"Malaika wa Bwana huweka kambi karibu na wale wamnaye hofu, na kuwaokoa –Zaburi 34:7.\" with for example: \"Malaika wa Bwana hupanua makambi karibu na wale wanaomcha kwa hofu, nao huwaokoa – Zaburi 34:7.\" Preserve the same HTML tag and punctuation.",
+      "translation_quote": "Malaika wa Bwana huweka kambi karibu na wale wamnaye hofu, na kuwaokoa –Zaburi 34:7."
+    },
+    {
+      "location": "Paragraph describing the dog (paragraph mentioning 'mean dog' and repeated elsewhere)",
+      "severity": "major",
+      "source_quote": "He had a very fierce dog; at least he acted very fierce!... Every day when we walked to school, that dog frightened us terribly with his fierce barking and growling.",
+      "suggested_fix": "The translation uses \"mbwa mwenye hasira kali\" in one place but later uses \"mbwa huyo mchafu\" which changes the meaning (\"mchafu\" = dirty). For fidelity, all instances should consistently render \"very fierce/mean dog\" as \"mbwa mkali\" or \"mbwa mwovu/mene\". Example replacement (preserve paragraph tags): change \"mbwa huyo mchafu\" to \"mbwa huyo mkali\" (or \"mbwa huyo mwovu\").",
+      "translation_quote": "Jina lake lilikuwa Pierce, na alikuwa na mbwa mwenye hasira kali; angalau hufanya kiwoga!... Ghafula, anga likavunjika kwa mkwavyo mkali wa mbwa huyo mchafu aliporuka..."
+    },
+    {
+      "location": "Paragraph describing Lori falling (paragraph with hands behind her on the hard packed gravel)",
+      "severity": "major",
+      "source_quote": "The next moment, I realized she had fallen down and was sitting in the middle of the dirt road, with her hands behind her on the hard packed gravel, feet and legs in the air, kicking and kicking, spinning around and around ...",
+      "suggested_fix": "The translation renders this clause unclearly and partly nonsensically as \"akiwa mikononi nyuma kwenye lulu ya changarawe ngumu\" (\"lulu\" is incorrect and alters meaning). Restore the correct physical description in Kiswahili, e.g.: \"...alikuwa ameporomoka chini na kukaa katikati ya barabara ya udongo, akiwa mikono yake nyuma kwake kwenye changarawe zilizosagwa kwa nguvu, miguu na miguu angani, akikanyaga na akikanyaga, akizunguka...\" Keep existing HTML tags.",
+      "translation_quote": "Wakati uliofuata, nilitambua alikuwa ameporomoka chini na kukaa katikati ya barabara ya udongo, akiwa mikononi nyuma kwenye lulu ya changarawe ngumu, miguu na mabega juu angani, akiruka na kuruka, akizunguka kwa mviringo..."
+    },
+    {
+      "location": "Image alt text for first figure",
+      "severity": "minor",
+      "source_quote": "A brindle dog wearing a chain collar",
+      "suggested_fix": "The translation \"Mbwa mwenye rangi ya mchanganyiko amevaa mshipi wa mnyororo\" is awkward and could be clearer and more idiomatic. Suggest: \"Mbwa mwenye rangi mchanganyiko akiwa amevaa mkufu wa mnyororo\" or \"Mbwa mwenye rangi mchanganyiko aliyevalia mkufu wa mnyororo\". Preserve the img tag and alt attribute.",
+      "translation_quote": "Mbwa mwenye rangi ya mchanganyiko amevaa mshipi wa mnyororo"
+    },
+    {
+      "location": "Verse translation of Psalm 56:3",
+      "severity": "minor",
+      "source_quote": "What time I am afraid, I will trust in thee –Psalm 56:3.",
+      "suggested_fix": "The translation says: \"Iwapo nitakuwa na hofu, nitakuamini –Zaburi 56:3.\" This is understandable but slightly literal and could be more natural: e.g. \"Nakati ninapokuwa na hofu, nitakuamini — Zaburi 56:3.\" This is optional wording improvement; not required for doctrinal fidelity. Preserve the emphasized tag.",
+      "translation_quote": "Iwapo nitakuwa na hofu, nitakuamini –Zaburi 56:3."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

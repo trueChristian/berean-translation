@@ -2,7 +2,6 @@
   "article_id": "9b13e502-993c-4536-a32d-ae1a62c36db5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,44 @@
         },
         "total_tokens": 4352
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 841,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4013,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4854
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "title",
+      "severity": "major",
+      "source_quote": "Saved From the “Lion’s” Mouth",
+      "suggested_fix": "Translate the title into Korean while preserving the author’s theology and sense. Suggested Korean rendering: \"\"사자의\" 입에서 구원받음\" (or \"사자의 입에서 구원받음\"). Ensure the quotation marks around “Lion” remain as in English title if stylistic, but render the words in Korean.",
+      "translation_quote": "Saved From the “Lion’s” Mouth"
+    },
+    {
+      "location": "/article p (final quoted scripture) — Psalm 22:21",
+      "severity": "major",
+      "source_quote": "Save me from the lion’s mouth… –Psalm 22:21.",
+      "suggested_fix": "Render the quoted Scripture passage faithfully into Korean without added explanatory words. A faithful translation of the printed English fragment would be: \"사자의 입에서 나를 건져 주소서… — 시편 22:21.\" Replace the current translated phrase that inserts additional parenthetical wording.",
+      "translation_quote": "<em>내가 사자(사나운 입)로부터 나를 건지소서… — 시편 22:21.</em>"
+    }
+  ],
   "id": "0f2fe6ca8a4fa04109eeba44e815f9d2",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "kor",
@@ -100,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/024b14cea96a528a42f66f77d442fb07d0e5035a02e35254ae96bf4fcc0c193f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

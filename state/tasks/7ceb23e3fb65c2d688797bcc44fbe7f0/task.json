@@ -2,7 +2,6 @@
   "article_id": "dce3d3b3-8b56-4be5-9674-e682b97d3b43",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,37 @@
         },
         "total_tokens": 4665
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1158,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4454,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5612
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph containing Hebrews 11:13-16 (near \"When we understand...\")",
+      "severity": "major",
+      "source_quote": "...declare plainly that [we] seek a country …a better country, that is, an heavenly: wherefore God is not ashamed to be called [our] God: for he hath prepared for [us] a city –Hebrews 11:13-16.",
+      "suggested_fix": "Render the bracketed first-person plural pronouns as first-person plural in Spanish to preserve the author's inclusive meaning. For example: \"…declaramos públicamente que buscamos una patria… una mejor patria, es decir, celestial; por lo cual Dios no se avergüenza de ser llamado nuestro Dios: porque nos ha preparado una ciudad —Hebreos 11:13-16.\" Preserve the verse numbers and HTML structure exactly as in the translation.",
+      "translation_quote": "…declaramos públicamente que buscamos una patria… una mejor patria, es decir, celestial; por lo cual Dios no se avergüenza de ser llamado su Dios: porque les ha preparado una ciudad —Hebreos 11:13-16."
+    }
+  ],
   "id": "7ceb23e3fb65c2d688797bcc44fbe7f0",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "spa",
@@ -100,11 +127,13 @@
     }
   },
   "protected": false,
+  "quality_score": 74,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c16edd05d12043a927f45367071112d6f71c0042bc3d1b02d0bfb5b8d330f1e2.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d0410b3ae98c7c6c4b8643e82b8513a58f4f423e430db25e79b18dc18a3fab41",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

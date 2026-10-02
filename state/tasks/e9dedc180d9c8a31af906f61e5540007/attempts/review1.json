@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.section\",\"severity\":\"minor\",\"source_quote\":\"Inspirations for Youth\",\"suggested_fix\":\"Translate the section metadata into standard contemporary Swedish. For example: \\\"Inspiration för ungdomar\\\" (or \\\"Inspiration för unga\\\"), preserving capitalization style used on the site.\",\"translation_quote\":\"Inspirations for Youth\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 383,
+    "content_evidence_truncated": false,
+    "content_sha256": "6d14b2c1436f5afef6c48022be7f5f92c13738b2e50c5b0d364f024af5b5ffab",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 540,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8978,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9518
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

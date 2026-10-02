@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<p class=\"drop-cap\"> (second sentence)",
+      "severity": "minor",
+      "source_quote": "The text of this hymn, All Hail the Power of Jesus Name, has been translated into almost every language where Christianity is known.",
+      "suggested_fix": "Translate the hymn title into Indonesian or mark it as a title in Indonesian. Preserve the sentence structure and HTML. For example: replace 'All Hail the Power of Jesus Name' with 'Hormatlah kepada Kuasa Nama Yesus' so the sentence reads (in-place):\n\nThe text of this hymn, Hormatlah kepada Kuasa Nama Yesus, telah diterjemahkan ke hampir setiap bahasa...",
+      "translation_quote": "Teks himne ini, All Hail the Power of Jesus Name, telah diterjemahkan ke hampir setiap bahasa tempat Kekristenan dikenal."
+    },
+    {
+      "location": "<div class=\"lyrics\"> (seventh stanza of first lyrics block)",
+      "severity": "minor",
+      "source_quote": "Sinners, whose love can ne’er forget\n    The wormwood and the gall,",
+      "suggested_fix": "The current translation is awkward and has a mid-sentence capitalization and semantic looseness. Render the meaning more faithfully into Indonesian, keeping HTML and stanza structure. Suggested replacement (in-place):\n\nOrang-orang berdosa, yang kasihnya tak pernah melupakan\n    pahit dan racun,\n\nor better preserving the idiom: \n\nOrang-orang berdosa, yang tak pernah melupakan\n    kepahitan dan racun,",
+      "translation_quote": "Orang-orang berdosa, yang kasihnya tak pernah lupa\n    Pahit dan racun,"
+    },
+    {
+      "location": "Metadata/title (translation.title)",
+      "severity": "minor",
+      "source_quote": "All Hail the Power of Jesus Name",
+      "suggested_fix": "Consider a more idiomatic Indonesian hymn title. Current translation 'Hormatlah kepada Kuasa Nama Yesus' is acceptable but could be smoothed to 'Segala Hormat bagi Kuasa Nama Yesus' or 'Hormatlah atas Kuasa Nama Yesus' depending on house style. If keeping current title, no change required; if preferred, replace translation.title value accordingly while preserving HTML structure.",
+      "translation_quote": "Hormatlah kepada Kuasa Nama Yesus"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

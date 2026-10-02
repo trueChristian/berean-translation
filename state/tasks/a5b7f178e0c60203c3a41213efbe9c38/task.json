@@ -2,7 +2,6 @@
   "article_id": "dce3d3b3-8b56-4be5-9674-e682b97d3b43",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,58 @@
         },
         "total_tokens": 5140
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1501,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4735,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6236
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph: \"In the natural world our “old man” has the tendency...\"",
+      "severity": "major",
+      "source_quote": "In the natural world our “old man” has the tendency to think that we must “do something” if we expect things to go in a “right” direction.",
+      "suggested_fix": "Translate the phrase “our ‘old man’” to standard Kiswahili theological terminology (do not render it as “neno letu la kale”). For example: “Katika ulimwengu wa kawaida, ‘mwanaume wetu wa zamani’ au ‘mwenye uasi ndani yetu’ huwa na tabia ya kufikiri…” — preserve meaning that this is the inner sinful self. Keep the rest of the sentence consistent with the source.",
+      "translation_quote": "Kwenye ulimwengu wa kawaida neno letu la kale lina tabia ya kudhani kwamba lazima “tufanye jambo” tukitarajia mambo yaende kwa mwelekeo “sahihi”."
+    },
+    {
+      "location": "Paragraph: sentence that refers to “Abba Father”",
+      "severity": "major",
+      "source_quote": "Let’s allow this article to help us to become rooted and grounded in the biblical Truth of Abba Father—a Father who cares for His children.",
+      "suggested_fix": "Correct the mistranslation “Kiarabu cha Abba Baba”, which wrongly reads as “Arabic of Abba Father”. Render the phrase to convey the intended theological idea in Kiswahili, e.g.: “Tuache makala hii itusaidie kuota mizizi na kuwa na msingi katika Kweli ya Kibaiblia ya ‘Abba Baba’ — Baba anayejali watoto wake.”",
+      "translation_quote": "Tuzie makala hii izatusaidie kuzaliwa mizizi na kuwa na msingi katika Kweli ya Kiarabu cha Abba Baba—Baba anayejali watoto wake."
+    },
+    {
+      "location": "Heading and paragraph: reference to Moses / Musa",
+      "severity": "minor",
+      "source_quote": "In “Moses in Midian”, we take a walk in Moses’ footsteps during the mid-section of his life.",
+      "suggested_fix": "The translation is inconsistent: the heading kept the English name “Moses” while the paragraph uses the Swahili form “Musa”. Make the name consistent and use the conventional Kiswahili form throughout. For example, change the heading “Moses katika Midiani” to “Musa katika Midiani” (or keep “Moses” in both places if the publisher prefers English proper names), ensuring consistency.",
+      "translation_quote": "Kwenye “Moses katika Midiani”, tunatembea katika nyayo za Musa wakati wa sehemu ya kati ya maisha yake."
+    },
+    {
+      "location": "Paragraph quoting Romans 13:1-4",
+      "severity": "major",
+      "source_quote": "Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God … For he is the minister of God to thee… –Romans 13:1-4.",
+      "suggested_fix": "The Kiswahili rendering introduces an incorrect subject and meaning: “Mwili wote utii mamlakani juu yako” is inaccurate and distorts the apostolic imperative. Render in normal Kiswahili Bible-style phrasing that preserves the original sense, for example: “Kila nafsi iitee serikali za juu; kwa maana hakuna mamlaka isipokuwa ile iliyo kutokana na Mungu; mamlaka zilizopo zimewekwa na Mungu… Kwa maana ni mtumishi wa Mungu kwako…” Ensure the quotation matches the authoritative English meaning and keeps verse numbers unchanged.",
+      "translation_quote": "Tuwe na mtazamo mwafaka moyoni mwetu ili maneno na matendo yetu yaonyeshe mtazamo wa Mungu kuhusu jambo hili wakati Yeye kupitia Mtume Paulo anatuelimisha: <em>Mwili wote utii mamlakani juu yako. Kwa maana hapana mamlaka ila ya Mungu; mamlaka zilizopo zimetengwa na Mungu … Kwa maana yeye ni mtumishi wa Mungu kwako… – Warumi 13:1-4.</em>"
+    }
+  ],
   "id": "a5b7f178e0c60203c3a41213efbe9c38",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "swa",
@@ -100,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 65,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c16edd05d12043a927f45367071112d6f71c0042bc3d1b02d0bfb5b8d330f1e2.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d0410b3ae98c7c6c4b8643e82b8513a58f4f423e430db25e79b18dc18a3fab41",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

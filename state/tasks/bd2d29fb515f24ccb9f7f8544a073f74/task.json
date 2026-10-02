@@ -2,7 +2,6 @@
   "article_id": "9240e6d5-f395-4db7-ab6f-3b4b603d6ea0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:40+00:00",
   "events": [
@@ -24,9 +23,44 @@
         },
         "total_tokens": 11322
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1393,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10982,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12375
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>…And the man said, <strong>The woman whom thou gavest to be with me, she gave me of the tree</strong>, and I did eat. And the LORD God said unto the woman, What is this that thou hast done? And the woman said, <strong>The serpent beguiled me, and I did</strong> eat –Genesis 3:12-13.</p>",
+      "severity": "major",
+      "source_quote": "…And the man said, The woman whom thou gavest to be with me, she gave me of the tree, and I did eat. And the LORD God said unto the woman, What is this that thou hast done? And the woman said, The serpent beguiled me, and I did eat –Genesis 3:12-13.",
+      "suggested_fix": "Replace the current Swedish rendering of Genesis 3:12–13 with a faithful translation that preserves the quoted Scripture meaning without added parenthetical text. For example: «Och mannen sade: 'Kvinnan som du gav mig att vara hos mig, hon gav mig av trädet, och jag åt.' Och HERREN Gud frågade kvinnan: 'Vad är detta som du har gjort?' Och kvinnan svarade: 'Ormen förledde mig, och jag åt.' – 1 Mosebok 3:12–13.» Ensure the replacement preserves the original HTML tags and the emphasis/strong tags around the same phrases as in the source.",
+      "translation_quote": "Och mannen sade: <strong>Kvinnan som du gav mig till (varde henne), hon gav mig av trädet</strong>, och jag åt. Och HERREN Gud frågade kvinnan: Vad har du gjort? Och kvinnan svarade: <strong>Ormen förrådde mig, och jag åt</strong> – 1 Mosebok 3:12–13."
+    },
+    {
+      "location": "same paragraph as above (Genesis 3:12-13 quote)",
+      "severity": "minor",
+      "source_quote": "And the woman said, The serpent beguiled me, and I did eat –Genesis 3:12-13.",
+      "suggested_fix": "Use a more accurate Swedish equivalent of 'beguiled' in the quoted Scripture (suggestion: 'förledde' or 'lurade') rather than 'förrådde', which carries a different nuance. Example replacement within the suggested corrected verse: 'Ormen förledde mig, och jag åt.'",
+      "translation_quote": "Ormen förrådde mig, och jag åt – 1 Mosebok 3:12–13."
+    }
+  ],
   "id": "bd2d29fb515f24ccb9f7f8544a073f74",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "swe",
@@ -100,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f177e57409e960665e128f135c5d31a6b5c47dfb179f4bf630790d509d4b9294.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "5dadc96220966a62c190dc496511f1659046db2b2d97b2ce157a164fa768d4e2",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

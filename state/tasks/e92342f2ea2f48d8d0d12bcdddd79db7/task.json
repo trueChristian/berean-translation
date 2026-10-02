@@ -2,7 +2,6 @@
   "article_id": "dce3d3b3-8b56-4be5-9674-e682b97d3b43",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,44 @@
         },
         "total_tokens": 5371
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1371,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5018,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6389
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph containing Proverbs quote (source.html second paragraph of political discussion / translation paragraph 6)",
+      "severity": "critical",
+      "source_quote": "The spiritual Truth is this: The king’s heart is in the hand of the LORD, as the rivers of water: he turneth it whithersoever he will –Proverbs 21:1.",
+      "suggested_fix": "Replace the incorrect Bengali book name \"গীতসংহিতা 21:1\" with the correct Bengali name for Proverbs, e.g. \"নীতিবচন 21:1\". Keep the verse number and the translated verse text. Example corrected translation fragment: \"আধ্যাত্মিক সত্য হলো: ... – নীতিবচন 21:1।\"",
+      "translation_quote": "আধ্যাত্মিক সত্য হলো: <em>রাজার অন্ত্য: করুণাময় রবের হাতে; সে নদীর জলের মতো তাকে যেখানে ইচ্ছে ফিরিয়ে দেয়। – গীতসংহিতা 21:1।</em>"
+    },
+    {
+      "location": "Heading and paragraph about \"Moses in Midian\" (source.html paragraph starting 'In “Moses in Midian”' / translation paragraph 5 and the quoted title)",
+      "severity": "minor",
+      "source_quote": "In “Moses in Midian”, we take a walk in Moses’ footsteps during the mid-section of his life.",
+      "suggested_fix": "Correct the target-language rendering of the proper name Moses and the article title. Replace \"মধ্যিয়ানে মোসস\" and other instances of \"মোসস\" with a conventional Bengali form such as \"মোশে\" (or \"মূসা\" if the publication's style prefers that). Example: \"“মধ্যিয়ানে মোশে”\" and \"মোশে\" in running text.",
+      "translation_quote": "“মধ্যিয়ানে মোসস” লেখায় আমরা তাঁর জীবনের মধ্যাংশে মোসসের পদচারণায় হাঁটছি।"
+    }
+  ],
   "id": "e92342f2ea2f48d8d0d12bcdddd79db7",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ben",
@@ -100,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c16edd05d12043a927f45367071112d6f71c0042bc3d1b02d0bfb5b8d330f1e2.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d0410b3ae98c7c6c4b8643e82b8513a58f4f423e430db25e79b18dc18a3fab41",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "<p class=\"drop-cap\"> (first paragraph after drop-cap) and elsewhere (multiple occurrences)",
+      "severity": "major",
+      "source_quote": "The text of this hymn, All Hail the Power of Jesus Name, has been translated into almost every language where Christianity is known.",
+      "suggested_fix": "Translate the hymn title and any quoted hymn refrain/lines into Dutch where they appear as quoted substantive prose. For example, replace the English title All Hail the Power of Jesus Name with the Dutch rendering used in the translated title (e.g. \"Alle hulde aan de Naam van Jezus\") and translate the quoted refrain in the missionary story (\"All hail the power of Jesus’ name!\") into Dutch (\"Alle hulde aan de naam van Jezus!\"). Preserve the surrounding HTML and punctuation exactly.",
+      "translation_quote": "De tekst van deze hymn, All Hail the Power of Jesus Name, is in bijna elke taal waarin het christendom bekend is vertaald."
+    },
+    {
+      "location": "Missionary story paragraph (near the end of article) — quoted hymn line",
+      "severity": "major",
+      "source_quote": "He began to play and sing in the native language, “All hail the power of Jesus’ name!”",
+      "suggested_fix": "Translate the quoted hymn line into Dutch. For example: replace “All hail the power of Jesus’ name!” with “Alle hulde aan de naam van Jezus!” (keep the quotation marks and surrounding punctuation). Do not leave the quoted substantive line in English.",
+      "translation_quote": "begon te spelen en te zingen in de moederstaal: “All hail the power of Jesus’ name!”"
+    },
+    {
+      "location": "<p>“Who fixed this floating ball,” (lyrics 3rd stanza) translation of that line",
+      "severity": "minor",
+      "source_quote": "Who fixed this floating ball,",
+      "suggested_fix": "Fix verb/person agreement and natural Dutch idiom. Replace \"Die deze zwerfbol hebt vastgezet\" with a correct third-person singular Dutch rendering such as \"Die deze rondzwevende bol heeft vastgezet\" or \"Die deze rondzwevende bol heeft geplaatst\". Preserve the lyric block's tags and line breaks.",
+      "translation_quote": "Die deze zwerfbol hebt vastgezet,"
+    },
+    {
+      "location": "Several occurrences: use of English loanword \"hymn\" instead of standard Dutch \"hymne\" or \"hymne/gezang\"",
+      "severity": "minor",
+      "source_quote": "This hymn, often called the “National Anthem of Christendom,” is perhaps one of the greatest of hymns of all time.",
+      "suggested_fix": "Use the standard Dutch word \"hymne\" (or \"gezang\" where more idiomatic) instead of the English loanword \"hymn\". E.g. replace \"Deze hymn, vaak de “Nationale Hymne van het Christendom” genoemd\" with \"Deze hymne, vaak de 'nationale hymne van het christendom' genoemd\". Preserve existing HTML and emphasis/quotes.",
+      "translation_quote": "Deze hymn, vaak de “Nationale Hymne van het Christendom” genoemd, is misschien een van de grootste hymnen aller tijden."
+    },
+    {
+      "location": "Paragraph beginning \"De laatste jaren van Perronet bracht hij door...\"",
+      "severity": "minor",
+      "source_quote": "The last years of Perronet were spent at Canterbury, where he was pastor of an independent church, and where he died in 1792, at the age of sixty-six.",
+      "suggested_fix": "Correct Dutch word order to avoid the duplicated subject and to read naturally. For example: replace \"De laatste jaren van Perronet bracht hij door in Canterbury...\" with \"Perronet bracht zijn laatste jaren door in Canterbury, waar hij predikant was van een onafhankelijke kerk en waar hij in 1792 op zesenzestigjarige leeftijd stierf.\" Keep paragraph tags unchanged.",
+      "translation_quote": "De laatste jaren van Perronet bracht hij door in Canterbury, waar hij predikant was van een onafhankelijke kerk, en waar hij in 1792 op zesenzestigjarige leeftijd stierf."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

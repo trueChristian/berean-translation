@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph about resistant weeds (source.html paragraph starting \\\"Sure, farmers had several good years...\\\")\",\"severity\":\"minor\",\"source_quote\":\"Today, every farmer knows about ‘Palmer amaranth Pigweed’. You can almost ‘pour’ glyphosate on it, and still it thrives.\",\"suggested_fix\":\"Option A (preferred): Preserve the original proper name but add the conventional target-language botanical/common form in parentheses to aid Spanish readers, e.g. “Palmer amaranth (amaranthus palmeri, conocida como pigweed o ‘Palmer amaranth Pigweed’)”. Option B (minimal): Leave the English name but add a brief Spanish label: “la ‘Palmer amaranth Pigweed’ (una maleza conocida como amaranthus palmeri)”. This keeps the untranslated proper name while giving a clear Spanish reference.\",\"translation_quote\":\"Hoy, todo agricultor conoce la «Palmer amaranth Pigweed». Casi puede uno «verter» glifosato sobre ella y aun así prospera.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 998,
+    "content_evidence_truncated": false,
+    "content_sha256": "74fb91104342a0dd191a9a02ffb807282797b77dbb121ed35efd265474a0693f",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 689,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5570,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6259
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

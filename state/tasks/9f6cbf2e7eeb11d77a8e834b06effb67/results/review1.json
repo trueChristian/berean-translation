@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "15ecdb1e-7269-4bc6-88c7-1023587583d8",
+    "response_id": "chatcmpl-EUX3b6HWQUH7owKXt14PVjzpTtETS",
+    "usage": {
+      "completion_tokens": 1393,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5065,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6458
+    }
+  },
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"lyrics\"> (primeiro bloco de estrofes, todas as oito estrofes em inglês)",
+        "severity": "critical",
+        "source_quote": "All hail the power of Jesus’ name,\nLet angels prostrate fall\nBring forth the royal diadem,\nTo crown Him Lord of all!\n\nLet high born seraphs tune the lyre,\nAnd, as they tune it, fall\nBefore His face who tunes their choir,\nAnd crown Him Lord of all!\n\nCrown Him, ye morning stars of light,\nWho fixed this floating ball,\nNow hail the Strength of Israel’s might,\nAnd crown Him Lord of all!\n\nCrown Him, ye martyrs of your God,\nWho from His altar call;\nExtol the stem of Jesse’s rod,\nAnd crown Him Lord of all!\n\nYe seed of Israel’s chosen race,\nYe ransomed of the fall,\nHail Him who saves you by His grace\nAnd crown Him Lord of all!\n\nHail Him, ye heirs of David’s line,\nWhom David Lord did call.\nThe God incarnate, Man divine,\nAnd crown Him Lord of all!\n\nSinners, whose love can ne’er forget\nThe wormwood and the gall,\nGo spread your trophies at His feet,\nAnd crown Him Lord of all!\n\nLet every tribe and every tongue\nThat bound creation’s call\nNow shout in universal song,\nThe crowned Lord of all!",
+        "suggested_fix": "Translate each of the eight quoted stanzas into Portuguese and replace the English stanza block, preserving the HTML structure (<div class=\"lyrics\"> and <p>...</p> with <br> line breaks). The translation must be faithful to the printed English meaning (not a different paraphrase) and must render the quoted hymn text into Portuguese. Keep stanza order, punctuation, and the same number of stanzas. Example (do not paste as required exact wording here; translator should produce an accurate Portuguese rendering):\n<div class=\"lyrics\">\n  <p>Salve o poder do nome de Jesus,<br>\n  ...</p>\n  ...\n</div>\nEnsure no lines of the substantive hymn text remain in English.",
+        "translation_quote": "All hail the power of Jesus’ name,<br>\nLet angels prostrate fall<br>\nBring forth the royal diadem,<br>\nTo crown Him Lord of all!<br>\n... (continues in English for all eight stanzas)"
+      },
+      {
+        "location": "Paragraph mentioning the hymn title and in the narrative where the hymn title is quoted (first paragraph and later narrative and the mission story): occurrences of the title \"All Hail the Power of Jesus Name\" and the refrain quoted in English",
+        "severity": "major",
+        "source_quote": "The text of this hymn, All Hail the Power of Jesus Name, has been translated into almost every language where Christianity is known.\n\n... began to play and sing in the native language, “All hail the power of Jesus’ name!”",
+        "suggested_fix": "Translate the hymn title and any in-text quoted occurrences of the hymn refrain into Portuguese. Replace the English phrase with the Portuguese rendering used for the article title (for consistency): e.g. replace 'All Hail the Power of Jesus Name' and the quoted refrain “All hail the power of Jesus’ name!” with the Portuguese equivalent used in the translated title (for example \"Todos Salve o Poder do Nome de Jesus\" or another faithful Portuguese rendering chosen for the hymn title). Keep the quotation marks and punctuation as in the source and preserve HTML. Do not leave the substantive quoted refrain in English.",
+        "translation_quote": "All Hail the Power of Jesus Name\n...\n“All hail the power of Jesus’ name!”"
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

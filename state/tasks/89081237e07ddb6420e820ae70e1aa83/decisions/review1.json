@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph beginning with 'Source:' (source.html)",
+      "severity": "minor",
+      "source_quote": "Source:\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction",
+      "suggested_fix": "Translate the label “Source:” into Hindi to match the target-language rendering of the rest of the article while keeping the URL unchanged. For example: “स्रोत:\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction”",
+      "translation_quote": "Source:\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -2,7 +2,6 @@
   "article_id": "9b13e502-993c-4536-a32d-ae1a62c36db5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,44 @@
         },
         "total_tokens": 4196
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2418,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 960,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3856,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6274
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "title",
+      "severity": "major",
+      "source_quote": "Saved From the “Lion’s” Mouth",
+      "suggested_fix": "Translate the title to accurately reflect the English meaning and tone. Suggested Arabic titles: «النّجاة من فمِ ",
+      "translation_quote": "خُصِّصَتْ حمايتنا من \"فَمِ الأسد\""
+    },
+    {
+      "location": "paragraph: \"Every day when we walked to school, that dog frightened us...\",\"severity\":\"minor\",\"source_quote\":\"Every day when we walked to school, that dog frightened us terribly with his fierce barking and growling.\",\"translation_quote\":\"كل يوم عندما كنا نمشي إلى المدرسة، كان ذلك الكلب يرعبنا بشدة بنباحه وصهيله المرعب.\",\"suggested_fix\":\"Replace 'صهيل' (typically the sound of a horse) with a more accurate Arabic rendering of 'growling' (e.g., 'زئيره' or 'شحجه'). Suggested phrasing: 'كان ذلك الكلب يرعبنا بشدة بنباحه وزئيره.'\"}],",
+      "severity": "major",
+      "source_quote": "Saved From the “Lion’s” Mouth",
+      "suggested_fix": "Translate the title to accurately reflect the English meaning and tone. Suggested Arabic titles: «النّجاة من فمِ \"الأسد\"» or «النّجاة من فم \"الأسد\"»; update the translation.title field to one of these. Ensure the quotation marks around \"Lion's\" are preserved as in the English.",
+      "translation_quote": "خُصِّصَتْ حمايتنا من \"فَمِ الأسد\""
+    }
+  ],
   "id": "0ffb8c583465333962b1405d9e843512",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ara",
@@ -100,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/024b14cea96a528a42f66f77d442fb07d0e5035a02e35254ae96bf4fcc0c193f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

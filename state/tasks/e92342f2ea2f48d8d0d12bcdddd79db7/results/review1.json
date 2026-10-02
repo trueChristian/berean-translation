@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "66884b76-b0d0-417a-b7de-a9d92988e0b3",
+    "response_id": "chatcmpl-EUX3p2LAquafLmi7W7CXpq0hvnmFH",
+    "usage": {
+      "completion_tokens": 1371,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5018,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6389
+    }
+  },
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing Proverbs quote (source.html second paragraph of political discussion / translation paragraph 6)",
+        "severity": "critical",
+        "source_quote": "The spiritual Truth is this: The king’s heart is in the hand of the LORD, as the rivers of water: he turneth it whithersoever he will –Proverbs 21:1.",
+        "suggested_fix": "Replace the incorrect Bengali book name \"গীতসংহিতা 21:1\" with the correct Bengali name for Proverbs, e.g. \"নীতিবচন 21:1\". Keep the verse number and the translated verse text. Example corrected translation fragment: \"আধ্যাত্মিক সত্য হলো: ... – নীতিবচন 21:1।\"",
+        "translation_quote": "আধ্যাত্মিক সত্য হলো: <em>রাজার অন্ত্য: করুণাময় রবের হাতে; সে নদীর জলের মতো তাকে যেখানে ইচ্ছে ফিরিয়ে দেয়। – গীতসংহিতা 21:1।</em>"
+      },
+      {
+        "location": "Heading and paragraph about \"Moses in Midian\" (source.html paragraph starting 'In “Moses in Midian”' / translation paragraph 5 and the quoted title)",
+        "severity": "minor",
+        "source_quote": "In “Moses in Midian”, we take a walk in Moses’ footsteps during the mid-section of his life.",
+        "suggested_fix": "Correct the target-language rendering of the proper name Moses and the article title. Replace \"মধ্যিয়ানে মোসস\" and other instances of \"মোসস\" with a conventional Bengali form such as \"মোশে\" (or \"মূসা\" if the publication's style prefers that). Example: \"“মধ্যিয়ানে মোশে”\" and \"মোশে\" in running text.",
+        "translation_quote": "“মধ্যিয়ানে মোসস” লেখায় আমরা তাঁর জীবনের মধ্যাংশে মোসসের পদচারণায় হাঁটছি।"
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

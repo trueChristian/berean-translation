@@ -2,7 +2,6 @@
   "article_id": "6080d813-75a2-4123-9552-3c4f75c81219",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:40+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 5918
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1132,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5695,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6827
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.title",
+      "severity": "major",
+      "source_quote": "Why I Have Not Gotten the Covid Shot",
+      "suggested_fix": "Translate the English title into standard contemporary Dutch, preserving meaning and tone. For example: \"Waarom ik de covidprik niet heb genomen\" or \"Waarom ik de Covid-prik niet heb laten zetten.\" Replace the current English title text with the chosen Dutch rendering.",
+      "translation_quote": "Why I Have Not Gotten the Covid Shot"
+    },
+    {
+      "location": "source.section",
+      "severity": "major",
+      "source_quote": "Issues Facing the Church",
+      "suggested_fix": "Translate the English section label into Dutch. Use a natural, standard rendering that fits the website's tone. For example: \"Vraagstukken voor de kerk\" or \"Kwesties waarmee de kerk wordt geconfronteerd.\" Replace the current English section text with the chosen Dutch rendering.",
+      "translation_quote": "Issues Facing the Church"
+    },
+    {
+      "location": "<article> paragraph: \"This is the way our Maker designed us. One of the first people I personally knew that had Covid was told they would have six months of immunity. I wondered how they figured that out so quickly.\"",
+      "severity": "minor",
+      "source_quote": "This is the way our Maker designed us. One of the first people I personally knew that had Covid was told they would have six months of immunity. I wondered how they figured that out so quickly. This was a new virus, and we had no experience to draw on for this virus. Also, the viruses we were familiar with gave lifetime immunity to that strain. So what science was behind this?",
+      "suggested_fix": "Correct the grammatical gender/relative pronoun for \"stam\" in Dutch. Replace \"ons lichaam immuniteit tegen dat stam opbouwde\" with \"ons lichaam immuniteit tegen die stam opbouwde.\" (Keep tags and paragraph structure unchanged.)",
+      "translation_quote": "Zo heeft onze Schepper ons ontworpen. Een van de eerste mensen die ik persoonlijk kende die Covid had, werd verteld dat ze zes maanden immuniteit zouden hebben. Ik vroeg me af hoe ze dat zo snel konden uitrekenen. Dit was een nieuw virus, en we hadden geen ervaring om op terug te vallen voor dit virus. Ook gaven de virussen die we kenden levenslange immuniteit tegen dat stam. Dus op welke wetenschap was dit gebaseerd?"
+    }
+  ],
   "id": "f65c7b69d8f4dd30314846d7d27f7bf7",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "nld",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/733eeaa1a812b6193e133350be5a00b31e3585142bda55cfaea2f725f3dda88f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "f7d8a08704733486f924816fbfd515b7c40bf25c984ecd111bf0fe403aaa2dde",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

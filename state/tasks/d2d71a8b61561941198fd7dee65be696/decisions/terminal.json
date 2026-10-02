@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html — paragraph mentioning postwar trials (\"the Nuremburg trials\")",
+      "severity": "minor",
+      "source_quote": "the justice that was to come through the Nuremburg trials",
+      "suggested_fix": "Use the same proper-name orthography as the English source or a consistent target-language convention. Either restore the English spelling \"Nuremburg\" or keep the Spanish conventional form \"Núremberg\"—but be consistent with house style. Example fix (keeping Spanish convention): conservar \"juicios de Núremberg\" tal como ya aparece en la traducción.",
+      "translation_quote": "la justicia que se avecinaba con los juicios de Núremberg"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

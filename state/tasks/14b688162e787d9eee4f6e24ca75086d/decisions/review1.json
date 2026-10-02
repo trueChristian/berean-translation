@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Translation paragraph containing Psalm 56:3 (around middle of article)",
+      "severity": "major",
+      "source_quote": "But Mother always reminded us to pray and remember the Bible verse which says: What time I am afraid, I will trust in thee –Psalm 56:3.",
+      "suggested_fix": "Correct the Swedish translation of the quoted Scripture so it faithfully conveys the verse. Replace “När jag är rädd, skall jag sätta min lit till dig –Psalm 56:3.” with a clear Swedish rendering such as “När jag är rädd, skall jag sätta min lit till dig – Psalm 56:3.” or more correctly “När jag är rädd, skall jag sätta min förtröstan till dig – Psalm 56:3.” (preserve spacing and the exact reference “Psalm 56:3”).",
+      "translation_quote": "Men mamma påminde oss alltid att be och komma ihåg bibelversen som säger: När jag är rädd, skall jag sätta min lit till dig –Psalm 56:3."
+    },
+    {
+      "location": "Image 1 alt attribute (first figure)",
+      "severity": "minor",
+      "source_quote": "A brindle dog wearing a chain collar",
+      "suggested_fix": "Use a natural Swedish phrase and correct word order. Replace alt text “En tigerbrindlad hund med halsband av kedja” with e.g. “En brindlad hund med kedjehalsband” or “En brindlad hund med halsband av kedja” (preferred: “En brindlad hund med kedjehalsband”).",
+      "translation_quote": "En tigerbrindlad hund med halsband av kedja"
+    },
+    {
+      "location": "Paragraph describing Pierce’s dog behaviour",
+      "severity": "minor",
+      "source_quote": "he had a very fierce dog; at least he acted very fierce!",
+      "suggested_fix": "Fix the adjective form and idiom. Replace “han hade en mycket ilsk hund; åtminstone uppförde den sig mycket ilsket!” with “han hade en mycket ilsken hund; åtminstone uppförde den sig mycket ilsket!”",
+      "translation_quote": "han hette Pierce, och han hade en mycket ilsk hund; åtminstone uppförde den sig mycket ilsket!"
+    },
+    {
+      "location": "Paragraph giving distances (“half a mile” and “quarter of a mile”)",
+      "severity": "minor",
+      "source_quote": "Oh, it was about half a mile to our closest neighbor, the Rhine’s place, and then about another quarter of a mile to the Brightbills,",
+      "suggested_fix": "Translate or normalize the English distance unit consistently into Swedish usage. Replace “en halv mile” and “en fjärdedels mile” with e.g. “ungefär en halv mile” (if keeping “mile”) or convert to kilometres: “ungefär 0,8 kilometer” and “ytterligare cirka 0,4 kilometer” depending on style rules. Preserve the original numeric meaning and keep the phrasing natural.",
+      "translation_quote": "Åh, det var ungefär en halv mile till vår närmaste granne, Rhines ställe, och sedan ungefär en fjärdedels mile till Brightbills,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

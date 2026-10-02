@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<div class=\\\"lyrics\\\"> (first lyrics block) — repeated throughout the lyric stanzas\",\"severity\":\"major\",\"source_quote\":\"All hail the power of Jesus’ name, Let angels prostrate fall ...\",\"suggested_fix\":\"Translate the entire quoted hymn stanzas into Afrikaans with no English words left inside the quoted lyrics. Use the same Afrikaans wording already used elsewhere in the translation (for example, replace English \\\"Hail\\\" with \\\"Ere aan\\\" or the phrasing used in your translation such as \\\"Ere aan die Naam van Jesus toe!\\\" consistently). Preserve stanza breaks and HTML structure exactly.\",\"translation_quote\":\"Ere aan die Naam van Jesus toe!<br>\\nLaat engele nederig val,<br>\\nBring die koninklike diadeem voort,<br>\\nOm Hom te kroon, Here van almal! ... (but several lines still contain English words such as \\\"Hail\\\" and \\\"trophies\\\")\"},{\"location\":\"Paragraph describing the missionary singing (source.html paragraph beginning \\\"As soon as he reached their mountain home...\\\")\",\"severity\":\"major\",\"source_quote\":\"he began to play and sing in the native language, “All hail the power of Jesus’ name!”\",\"suggested_fix\":\"Translate the quoted sung phrase into Afrikaans (do not leave it in English). Use the same translation used for the hymn text above, for example: “Ere aan die Naam van Jesus toe!” Ensure the quotation marks and punctuation remain as in the HTML.\",\"translation_quote\":\"begin om te speel en sing in die plaaslike taal, “All hail the power of Jesus’ name!”\"},{\"location\":\"First content paragraph (\\\"This hymn, often called...\\\") — opening sentence in translation\",\"severity\":\"minor\",\"source_quote\":\"This hymn, often called the “National Anthem of Christendom,” is perhaps one of the greatest of hymns of all time.\",\"suggested_fix\":\"Correct the typographic/wording error: change \\\"Hierdie hy lied\\\" to a proper Afrikaans rendering such as \\\"Hierdie gesang\\\" or \\\"Hierdie hymlied\\\" (commonly \\\"gesang\\\" or \\\"lied'').\",\"translation_quote\":\"Hierdie hy lied, dikwels die “Nasionale Volkslied van die Christendom” genoem, is miskien een van die grootste liedere van alle tye.\"},{\"location\":\"Paragraph describing the Sermon on the Mount (\\\"He then read the Sermon on the Mount...\\\")\",\"severity\":\"minor\",\"source_quote\":\"He then read the Sermon on the Mount and sat down without comment.\",\"suggested_fix\":\"Translate the phrase correctly as \\\"die Bergrede\\\" (or \\\"die Bergpredikant\\\" is incorrect). Replace \\\"Bergpredikant\\\" with \\\"Bergrede\\\" or \\\"die Bergrede\\\" to match the conventional Afrikaans term for that sermon.\",\"translation_quote\":\"Hy het toe die Bergpredikant gelees en sonder kommentaar gaan sit.\"},{\"location\":\"Paragraph naming Oliver Holden (\\\"Coronation, composed by Oliver Holden — a Massachusetts carpenter...\\\")\",\"severity\":\"minor\",\"source_quote\":\"Oliver Holden, a Massachusetts carpenter, self-taught musician, and respected singing-school teacher\",\"suggested_fix\":\"Correct the spelling of \\\"Massachusetts\\\" in Afrikaans. For example: \\\"’n Massachusetts-houtbewerker\\\" or the Afrikaans convention \\\"’n houtbewerker uit Massachusetts\\\". Preserve the existing punctuation and tag structure.\",\"translation_quote\":\"’n Massachusets-houtbewerker, selfopgeleide musikant en gerespekteerde sangskoolonderwyser\"}],\"passed\":false,\"score\":72}",
+    "content_bytes": 3326,
+    "content_evidence_truncated": false,
+    "content_sha256": "7bfaa15f0edb06c69b842c6264e671e50bfc133ea8b859a2a257133678e3845c",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1658,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5434,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7092
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

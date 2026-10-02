@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<p>…he had an obvious call from God upon his life. He was a conservative man who chose <em>…rather to suffer affliction with the people of God, than to enjoy the pleasures of sin for a season –Hebrews 11:25.</em></p>",
+      "severity": "minor",
+      "source_quote": "and he had an obvious call from God upon his life.",
+      "suggested_fix": "Replace the non‑Urdu loanword \"بلنگ\" with an idiomatic Urdu phrase. For example: \"اور اس کی زندگی پر خدا کی واضح پکار تھی۔\" or \"اور اس کی زندگی پر خدا کی واضح بلاء/بلا تھی۔\" Preserve the surrounding HTML and emphasis tags exactly.",
+      "translation_quote": "اور اس کی زندگی پر خدا کی واضح بلنگ تھی۔"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

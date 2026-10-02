@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7cbd868e-aaf0-41d4-98b4-fe6dc6751cdd",
+    "response_id": "chatcmpl-EUX3Y0Y1BwurA4BEYxIr3f9g1DmTC",
+    "usage": {
+      "completion_tokens": 1174,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5326,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6500
+    }
+  },
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph mentioning the hymn title (within translation of source.html second paragraph)",
+        "severity": "major",
+        "source_quote": "The text of this hymn, All Hail the Power of Jesus Name, has been translated into almost every language where Christianity is known.",
+        "suggested_fix": "Translate the hymn title into French (or present a faithful translated rendering immediately followed by the original title in parentheses). For example: «Le texte de cet hymne, “Salut au pouvoir du nom de Jésus” (All Hail the Power of Jesus' Name), a été traduit…». Preserve the surrounding HTML and punctuation.",
+        "translation_quote": "Le texte de cet hymne, All Hail the Power of Jesus Name, a été traduit dans presque toutes les langues où le christianisme est connu."
+      },
+      {
+        "location": "Missionary anecdote (paragraph describing Mr. Scott singing)",
+        "severity": "major",
+        "source_quote": "At once the missionary drew out the violin that he always carried with him and began to play and sing in the native language, “All hail the power of Jesus' name!”",
+        "suggested_fix": "Translate the quoted sung line into French, matching the hymn text used in the translated lyrics earlier. For example: «…se mit à jouer et chanter dans la langue native, “Salut au pouvoir du nom de Jésus!”». Preserve the quotation marks and punctuation and the surrounding HTML.",
+        "translation_quote": "…se mit à jouer et chanter dans la langue native, «All hail the power of Jesus' name!»"
+      },
+      {
+        "location": "Image alt attribute at end of article (figure img alt)",
+        "severity": "major",
+        "source_quote": "Sheet music for All Hail the Power of Jesus’ Name, tune DIADEM C. M. with Refrain",
+        "suggested_fix": "Translate the alt text into French and translate the hymn title there as well, keeping tune identifiers as appropriate. For example: alt=\"Partition pour Salut au pouvoir du nom de Jésus, air DIADEM C. M. avec refrain\". Preserve the img tag and its attributes (src, loading) unchanged except for the alt value.",
+        "translation_quote": "Partition pour All Hail the Power of Jesus’ Name, air DIADEM C. M. avec refrain"
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

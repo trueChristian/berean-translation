@@ -2,7 +2,6 @@
   "article_id": "9b13e502-993c-4536-a32d-ae1a62c36db5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,58 @@
         },
         "total_tokens": 4327
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1227,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4042,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5269
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html — first line <em>Psalm 34:7</em>",
+      "severity": "major",
+      "source_quote": "<em>The angel of the LORD encampeth round about them that fear him, and delivereth them –Psalm 34:7.</em>",
+      "suggested_fix": "Translate the book name into Urdu and keep chapter:verse unchanged. For example: <em>خداوند کا فرشتہ اُن لوگوں کے اردگرد خیمہ زن ہوتا ہے جو اُس سے ڈرتے ہیں، اور اُنہیں چھڑاتا ہے —زبور 34:7.</em>",
+      "translation_quote": "<em>خداوند کا فرشتہ اُن لوگوں کے اردگرد خیمہ زن ہوتا ہے جو اُس سے ڈرتے ہیں، اور اُنہیں چھڑاتا ہے —Psalm 34:7.</em>"
+    },
+    {
+      "location": "source.html — paragraph with Psalm 56:3 reference",
+      "severity": "major",
+      "source_quote": "... pray and remember the Bible verse which says: <em>What time I am afraid, I will trust in thee –Psalm 56:3.</em>",
+      "suggested_fix": "Translate the book name into Urdu and keep chapter:verse unchanged. For example: <em>جب میں ڈرتا ہوں تو میں تم پر بھروسہ کروں گا —زبور 56:3.</em> (integrated into the existing Urdu sentence, preserving punctuation and tags).",
+      "translation_quote": "... ماں ہمیں ہمیشہ دعا کرنے اور بائبل کی اس آیت کو یاد رکھنے کی تلقین کرتی تھیں جو کہتی ہے: <em>جب میں ڈرتا ہوں تو میں تم پر بھروسہ کروں گا —Psalm 56:3.</em>"
+    },
+    {
+      "location": "source.html — closing paragraph with Psalm 22:21 reference",
+      "severity": "major",
+      "source_quote": "...There is a verse in Psalms which says: <em>Save me from the lion’s mouth… –Psalm 22:21.</em>",
+      "suggested_fix": "Replace the English book name with the Urdu conventional form while keeping chapter:verse. For example: <em>مجھے شیر کے منہ سے نجات دے… —زبور 22:21.</em> (preserve italics and dash).",
+      "translation_quote": "... زبور میں ایک آیت ہے جو کہتی ہے: <em>مجھے شیر کے منہ سے نجات دے… —Psalm 22:21.</em>"
+    },
+    {
+      "location": "source.section",
+      "severity": "major",
+      "source_quote": "Children’s Corner",
+      "suggested_fix": "Translate the section heading into standard Urdu idiom. Suggested translation: \"بچوں کا گوشہ\" (replace the English section value with this Urdu phrase).",
+      "translation_quote": "Children’s Corner"
+    }
+  ],
   "id": "1bb5d6c725eb045fbe4c826b50155e23",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "urd",
@@ -100,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 75,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/024b14cea96a528a42f66f77d442fb07d0e5035a02e35254ae96bf4fcc0c193f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

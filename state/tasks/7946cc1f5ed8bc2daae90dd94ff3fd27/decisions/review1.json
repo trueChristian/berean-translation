@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning \"There was only one problem though.\" (third paragraph after Grandma's opening)",
+      "severity": "minor",
+      "source_quote": "There was only one problem though. The Rhine family had an old man living in their summer house. His name was Pierce, and he had a very fierce dog; at least he acted very fierce! He was kept behind a high wire fence connected to an old shed.",
+      "suggested_fix": "Clarify the antecedent of \"He was kept...\" so it clearly refers to the dog (not the man). Preserve the existing HTML tags and sentence order. For example, in Italian change the sentence \"Era tenuto dietro una recinzione alta di filo collegata a un vecchio capanno.\" to: \"Il cane era tenuto dietro una recinzione alta di filo collegata a un vecchio capanno.\"",
+      "translation_quote": "C'era però un problema. La famiglia Rhine aveva un vecchio che viveva nella loro casa estiva. Si chiamava Pierce, e aveva un cane molto feroce; almeno si comportava in modo molto minaccioso! Era tenuto dietro una recinzione alta di filo collegata a un vecchio capanno."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

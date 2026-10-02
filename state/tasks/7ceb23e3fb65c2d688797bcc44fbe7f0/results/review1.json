@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "03d0fc8a-a642-4ecf-8dfe-93d0822ee34c",
+    "response_id": "chatcmpl-EUX3YnGf1FFYC0VjOOqYFNCCP1kem",
+    "usage": {
+      "completion_tokens": 1158,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4454,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5612
+    }
+  },
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing Hebrews 11:13-16 (near \"When we understand...\")",
+        "severity": "major",
+        "source_quote": "...declare plainly that [we] seek a country …a better country, that is, an heavenly: wherefore God is not ashamed to be called [our] God: for he hath prepared for [us] a city –Hebrews 11:13-16.",
+        "suggested_fix": "Render the bracketed first-person plural pronouns as first-person plural in Spanish to preserve the author's inclusive meaning. For example: \"…declaramos públicamente que buscamos una patria… una mejor patria, es decir, celestial; por lo cual Dios no se avergüenza de ser llamado nuestro Dios: porque nos ha preparado una ciudad —Hebreos 11:13-16.\" Preserve the verse numbers and HTML structure exactly as in the translation.",
+        "translation_quote": "…declaramos públicamente que buscamos una patria… una mejor patria, es decir, celestial; por lo cual Dios no se avergüenza de ser llamado su Dios: porque les ha preparado una ciudad —Hebreos 11:13-16."
+      }
+    ],
+    "passed": false,
+    "score": 74
+  }
+}

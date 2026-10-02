@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.title / translation.title\",\"severity\":\"major\",\"source_quote\":\"All Hail the Power of Jesus Name\",\"suggested_fix\":\"Translate the title so it conveys the original meaning and register. A faithful Modern Standard Arabic rendering would be, for example: «ليهلّل سلطانُ اسمِ يسوع» or «تحيّةٌ لسلطانِ اسمِ يسوع». Replace the current title «السلام لتسليم اسم يسوع» with one of these (or an equivalent faithful phrasing) and keep it in the title element without altering HTML structure.\",\"translation_quote\":\"السلام لتسليم اسم يسوع\"},{\"location\":\"source.html (first paragraph, emphasized Scripture quotation) / translation.html (first paragraph)\",\"severity\":\"minor\",\"source_quote\":\"Thou art worthy, O Lord, to receive glory and honour and power: for thou hast created all things, and for thy pleasure they are and were created –Revelation 4:11.\",\"suggested_fix\":\"Render the verse in clear, idiomatic Modern Standard Arabic preserving the scripture sense. For example: «أنتَ مستحقّ يا ربُّ أن تأخذ المجدَ والشرفَ والقدرةَ، لأنّك خلقتَ كلّ الأشياء، ولهذا قُصدَتْ وكانتْ خالِقاً لمسرّتكَ» is awkward — better: «أنتَ مستحقّ يا ربُّ أن تأخذَ المجدَ والشرفَ والقُدرةَ، لأنّك خَلَقْتَ كلَّ الأشياء، ولهذا كانتْ خَلْقُها ومن أجل مسرتك» is still unclear. A recommended, faithful and idiomatic rendering: «أنتَ مستحقّ، يا ربُّ، أن تأخذَ المجدَ والشرفَ والقوّةَ، لأنّك خلقتَ كلّ شيء، ومن أجل مسرتك خُلِقَتْ وكانتْ موجودةً» or alternatively «… ومن أجل مسرتك خُلِقَتْ» Keep the citation «–رؤيا 4:11» unchanged. Replace the current rendering «ومن أجل مسرتك كانت موجودة وتُوجد» with one of the suggested idiomatic forms.\",\"translation_quote\":\"أنت مستحق، يا رب، أن تأخذ المجد والشرف والقدرة: لأنك خلقت كل الأشياء، ومن أجل مسرتك كانت موجودة وتُوجد –رؤيا 4:11.\"},{\"location\":\"source.html (title of hymn inside body & repeated refrain lines) / translation.html (lyrics and refrain)\",\"severity\":\"major\",\"source_quote\":\"All hail the power of Jesus' name,\",\"suggested_fix\":\"The repeated opening line of the hymn has been mistranslated in the body and lyrics. It must be translated consistently and so as to convey the original meaning and register. Suggested faithful Modern Standard Arabic renderings: «ليهلّل سلطانُ اسمِ يسوع» or «تعظّموا لسلطانِ اسمِ يسوع». Replace every occurrence of «السلام لتسليم اسم يسوع» and similar phrasings in the lyrics, headings, and alt text with one consistent, faithful rendering while preserving HTML tags and structure (e.g., inside <div class=\\\"lyrics\\\"> and alt attributes).\",\"translation_quote\":\"السلام لتسليم اسم يسوع,\"},{\"location\":\"source.html (paragraph about the tune 'Diadem' composer) / translation.html\",\"severity\":\"minor\",\"source_quote\":\"James Ellor, an English layman\",\"suggested_fix\":\"The English name in the source is 'James Ellor'. The translation uses 'جيمس إليوت' (Elliot). Restore the correct spelling transliterated into Arabic to match the source's printed name (e.g., «جيمس إيلور») or preserve the original spelling 'James Ellor' if that is the editorial policy, but do not change the printed English name. Keep the change only in the translated text, preserving HTML structure.\",\"translation_quote\":\"جيمس إليوت\"},{\"location\":\"source.html (paragraph about John Wesley hearing Perronet) / translation.html\",\"severity\":\"minor\",\"source_quote\":\"He then read the Sermon on the Mount and sat down without comment.\",\"suggested_fix\":\"Translate the phrase idiomatically as «قرأ موعظة الجبل ثم جلس من دون تعليق.» Replace the current «قرأ عظات الجبل» (plural/awkward) with «قرأ موعظة الجبل» to match the conventional English title and singular sense.\",\"translation_quote\":\"ثم قرأ عظات الجبل وجلس دون تعليق.\"},{\"location\":\"source.html (lyrics: \\\"Let high born seraphs tune the lyre, And, as they tune it, fall\\\") / translation.html (corresponding stanza)\",\"severity\":\"minor\",\"source_quote\":\"Let high born seraphs tune the lyre, And, as they tune it, fall Before His face who tunes their choir, And crown Him Lord of all!\",\"suggested_fix\":\"Translate musical terms and imagery accurately and idiomatically. The English says 'tune the lyre' — a faithful Arabic rendering would use a known instrument name like «القيثارة» or «العود» rather than «القانون» which conveys a different instrument (the psaltery). A suggested revision: «لتعزف السرافيم ذواتُ النسبِ القيثارة، فإذا عزفوها سجدوا أمام وجهِ الذي يصوِّبُ جَوقَهم، وتوِّجوه ربًّا على الجميع!» Apply the fix within the existing <div class=\\\"lyrics\\\"> stanza, keeping tags intact.\",\"translation_quote\":\"لتعزف السرافيم المولودة عالية القامة القانون،\\n    وها هي تسقط بينما تعزفها،\\n    أمام وجه الذي يُنظّم جوقة أصواتهم،\\n    وتُتَوِّجُه ربًا على الكل!\"}],\"passed\":false,\"score\":70}",
+    "content_bytes": 5654,
+    "content_evidence_truncated": false,
+    "content_sha256": "8610e9850afbbf64d319ff94e070604b7c5a417beeb75ac56f3475a959e00dd7",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1895,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5389,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7284
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

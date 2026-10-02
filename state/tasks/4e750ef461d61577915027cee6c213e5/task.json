@@ -2,7 +2,6 @@
   "article_id": "6080d813-75a2-4123-9552-3c4f75c81219",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:40+00:00",
   "events": [
@@ -24,9 +23,72 @@
         },
         "total_tokens": 6600
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2090,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6259,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8349
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph 11 (Revelation 13:16-17 quote)",
+      "severity": "major",
+      "source_quote": "And he causeth all, both small and great, rich and poor, free and bond, to receive a mark in their right hand, or in their foreheads: And that no man might buy or sell, save he that had the mark, or the name of the beast, or the number of his name –Revelation 13:16-17.",
+      "suggested_fix": "Translate the quoted Scripture phrase so it accurately renders the English image. Replace the current Bengali phrase that renders “foreheads” incorrectly with the standard Bengali word for forehead and keep the meaning close to the English. For example: “আর তিনি সকলকে, ছোটো ও বড়ো, ধনী ও দরিদ্র, মুক্ত ও দাস, তাদের ডানহাতে বা কপালে একটি চিহ্ন গ্রহণ করান; এবং যাতে কেউ কেবল সে চিহ্ন, অথবা দানবের নাম, বা তার নামের সংখ্যা যার আছে, তবেই ক্রয় বা বিক্রয় করতে পারে – প্রকাশিতবই 13:16-17।” Preserve the HTML structure and place the corrected Bengali quotation where the current quoted Scripture appears.",
+      "translation_quote": "...—<em>আর তিনি সকলকে, ছোট্র ও বড়, ধনী ও দরিদ্র, মুক্ত ও দাস, তাদের ডানহাতে বা মণিকোণায় একটি চিহ্ন গ্রহণ করান: <strong>আর যাতে কেউ কেবল তিনি থাকা ব্যতীত ক্রয় বা বিক্রয় করতে না পারে</strong>, জানোয়ারটির নাম বা তার নামের সংখ্যা ছাড়া—প্রকটিত প্রকাশনা 13:16-17।</em>"
+    },
+    {
+      "location": "Title",
+      "severity": "minor",
+      "source_quote": "Why I Have Not Gotten the Covid Shot",
+      "suggested_fix": "Improve grammatical naturalness in Bengali. Replace the current title 'কেন আমি কোভিড টিকা নেই?' with a fluent rendering that preserves the English sense, for example: 'কেন আমি কোভিড টিকা নিইনি' or 'কেন আমি কোভিড টিকা করিনি'. Keep the article's HTML title tag unchanged except for the corrected Bengali text.",
+      "translation_quote": "কেন আমি কোভিড টিকা নেই?"
+    },
+    {
+      "location": "Paragraph 3 (measles)",
+      "severity": "minor",
+      "source_quote": "We were assured that we would not get smallpox, polio, measles or whatever else we were vaccinated for.",
+      "suggested_fix": "Translate the disease name 'measles' into standard Bengali rather than leaving the English word. For example: 'ছোটচর্মরোগ, পলিও, কাশি-জ্বর (measles) …' or better simply 'শিশুরণ' is not correct — use the common medical term 'রুবেলা' or the widely understood Bengali 'দাদ' / 'মেজলস' depending on the publication's style. Suggested: '...ছোটচর্মরোগ, পলিও, কাশি-জ্বর (measles) বা যেই রোগের জন্য টিকা দেওয়া হয়েছিল তা পাব না।' Ensure consistency with the magazine's usual disease-name conventions.",
+      "translation_quote": "...ছোটচর্মরোগ, পলিও, measles বা যেই রোগের জন্য টিকাদান করা হয়েছিল তা পাব না।"
+    },
+    {
+      "location": "Paragraphs referencing plant names (Paragraphs 6–7)",
+      "severity": "minor",
+      "source_quote": "pigweeds ... Palmer amaranth Pigweed",
+      "suggested_fix": "Decide whether to render these common plant names into Bengali or mark them as English botanical/common names consistently. If translating, use a recognised Bengali common name or provide the English name in parentheses. Example: 'আমাদের ঝামেলাপূর্ণ পিগউইড (pigweeds) ... Palmer amaranth (Palmer amaranth pigweed)' or 'পিগউইড (Pigweed) ... Palmer amaranth (Palmer amaranth Pigweed)'. Keep the original HTML tags and positions.",
+      "translation_quote": "‘pigweeds’ (এবং পরে) ‘Palmer amaranth Pigweed’"
+    },
+    {
+      "location": "Paragraph 3 (sugar cube treatment phrasing)",
+      "severity": "minor",
+      "source_quote": "the sugar cube treatment which was an oral vaccination against polio",
+      "suggested_fix": "Render the phrase more naturally in Bengali while preserving the meaning. For example: 'পলিওর বিরুদ্ধে যে মৌখিক টিকাটি দেওয়া হতো সেটি চিনির কিউবের ওপর রেখে নেওয়া জৈবপ্রণালীর মতোই ছিল' or simpler 'পলিওর বিরুদ্ধে যে মৌখিক টিকাদান ছিল, তা চিনির কিউবের মাধ্যমে করা হতো।' Replace the existing awkward phrasing but keep HTML structure.",
+      "translation_quote": "পলিওর বিরুদ্ধে মৌখিক টিকাকরণ হিসেবে যানিতে চিনির মিনি কিউবের মতো একটি উপায়ে চিকিৎসা করানো হয়েছিল।"
+    },
+    {
+      "location": "Scripture book naming consistency (multiple locations where 'Revelation' is cited)",
+      "severity": "minor",
+      "source_quote": "Revelation 13:16-17; Revelation 14:10-11; Revelation 14:12; Revelation 12:11",
+      "suggested_fix": "Use a consistent Bengali form for the book name throughout the article. The translation currently alternates between 'প্রকটিত প্রকাশনা' and 'প্রকাশিত গ্রন্থ'. Choose one standard form (commonly 'প্রকাশিতবই' or 'প্রকাশিত গ্রন্থ') and apply it consistently for all Revelation citations. For example, use 'প্রকাশিতবই' each time: 'প্রকাশিতবই 13:16-17', etc. Do not change verse numbers or placement.",
+      "translation_quote": "(uses both) 'প্রকটিত প্রকাশনা 13:16-17' and later 'প্রকাশিত গ্রন্থ 14:10-11'"
+    }
+  ],
   "id": "4e750ef461d61577915027cee6c213e5",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ben",
@@ -100,11 +162,13 @@
     }
   },
   "protected": false,
+  "quality_score": 85,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/733eeaa1a812b6193e133350be5a00b31e3585142bda55cfaea2f725f3dda88f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "f7d8a08704733486f924816fbfd515b7c40bf25c984ecd111bf0fe403aaa2dde",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

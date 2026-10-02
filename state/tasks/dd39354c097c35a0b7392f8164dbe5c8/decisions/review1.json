@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning \"“Oh, that’s far. Mother won’t let us walk on the road at all,” added Micah.\" (children's dialog where child's name appears)",
+      "severity": "major",
+      "source_quote": "Micah",
+      "suggested_fix": "Translate or transliterate the name Micah correctly as माइकाह (or माइका) consistently throughout the translation. Replace माइकल with माइकाह in every occurrence.",
+      "translation_quote": "माइकल"
+    },
+    {
+      "location": "Paragraph: \"We skipped along, watching the dust swirl beneath our feet on that warm summer morning. ... through the gully, over the rippling creek, and up the steep hill\"",
+      "severity": "major",
+      "source_quote": "over the rippling creek",
+      "suggested_fix": "Restore the original sense: translate 'rippling creek' as तरंगित नाला / हल्की लहरों वाला नाला / फिसलता नाला, whichever best fits the style. For example, replace 'जर्जर नहर' with 'तरंगित नाला' (or 'हल्की लहरों वाला नाला').",
+      "translation_quote": "जर्जर नहर पर"
+    },
+    {
+      "location": "Paragraph: \"The Rhine family had an old man living in their summer house.\"",
+      "severity": "minor",
+      "source_quote": "summer house",
+      "suggested_fix": "Translate 'summer house' into Hindi rather than leaving the English transliteration. Suggestion: replace 'समर हाउस' with 'गर्मियों का घर' or 'ग्रीष्मकालीन आवास' as fits the tone. Use the same term consistently.",
+      "translation_quote": "समर हाउस"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

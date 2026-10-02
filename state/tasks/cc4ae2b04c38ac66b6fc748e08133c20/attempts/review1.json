@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html paragraph: \\\"But suddenly there was a shout! It was Pierce, with a whip in his hand.\\\"\",\"severity\":\"minor\",\"source_quote\":\"\\\"But suddenly there was a shout! It was Pierce, with a whip in his hand.\\\"\",\"suggested_fix\":\"Render the nuance of \\\"shout\\\" more accurately in Spanish. Replace \\\"Pero de pronto se oyó una voz.\\\" with e.g. \\\"Pero de pronto se oyó un grito.\\\" or \\\"Pero de pronto alguien gritó.\\\" to preserve the original intensity.\",\"translation_quote\":\"\\\"Pero de pronto se oyó una voz. Era Pierce, con un látigo en la mano.\\\"\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 604,
+    "content_evidence_truncated": false,
+    "content_sha256": "a395df91bb0c4611ec274e537f23db51b12bb3506d806d1ace42a9ae23916746",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1059,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3669,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4728
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

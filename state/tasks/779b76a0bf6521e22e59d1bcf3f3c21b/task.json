@@ -2,7 +2,6 @@
   "article_id": "dce3d3b3-8b56-4be5-9674-e682b97d3b43",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,45 @@
         },
         "total_tokens": 5140
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1028,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4598,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5626
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>...Laissons cet article nous aider à nous enracin­er et nous établir dans la Vérité biblique d’Abba Père — un Père qui prend soin de ses enfants...</p>",
+      "severity": "minor",
+      "source_quote": "Let's allow this article to help us to become rooted and grounded in the biblical Truth of Abba Father—a Father who cares for His children.",
+      "suggested_fix": "Remove the unexpected mid-word soft hyphenation and ensure standard spacing/orthography: « Laissons cet article nous aider à nous enracin­er et nous établir » → « Laissons cet article nous aider à nous enracin­er et à nous établir » or better: « Laissons cet article nous aider à nous enracin­er et à nous établir dans la vérité biblique d'Abba Père, un Père qui prend soin de ses enfants. » Preserve original HTML tags and punctuation.",
+      "translation_quote": "Laissons cet article nous aider à nous enracin­er et nous établir dans la Vérité biblique d’Abba Père — un Père qui prend soin de ses enfants."
+    },
+    {
+      "location": "<h3>Histoire de l’Église et Faut‑il qu’un chrétien vote</h3>",
+      "severity": "minor",
+      "source_quote": "Church History and Should A Christian Vote",
+      "suggested_fix": "Add a question mark and adjust capitalization/punctuation for natural French titling. Suggested fix preserving tag: change content to « Histoire de l’Église et : Faut‑il qu’un chrétien vote ? » or at minimum « Histoire de l’Église et Faut‑il qu’un chrétien voter ? » (keep within the same <h3> tag).",
+      "translation_quote": "Histoire de l’Église et Faut‑il qu’un chrétien vote"
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:18+00:00",
   "id": "779b76a0bf6521e22e59d1bcf3f3c21b",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "fra",
@@ -100,11 +135,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c16edd05d12043a927f45367071112d6f71c0042bc3d1b02d0bfb5b8d330f1e2.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d0410b3ae98c7c6c4b8643e82b8513a58f4f423e430db25e79b18dc18a3fab41",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.title\",\"severity\":\"major\",\"source_quote\":\"Depression\",\"suggested_fix\":\"Translate the English title into Dutch. Replace the translation title text with a natural Dutch rendering such as: \\\"Depressie\\\".\",\"translation_quote\":\"Depression\"},{\"location\":\"source.section\",\"severity\":\"major\",\"source_quote\":\"A Word From A Doctor\",\"suggested_fix\":\"Translate the section/strapline into Dutch. Replace the translation section text with a natural Dutch rendering such as: \\\"Een woord van een (huis)arts\\\" or \\\"Een woord van een dokter\\\" (consistent with site style).\",\"translation_quote\":\"A Word From A Doctor\"},{\"location\":\"article body — paragraph mentioning Job’s friends\",\"severity\":\"minor\",\"source_quote\":\"We know the story of Job’s friends.\",\"suggested_fix\":\"Fix the English-style possessive in Dutch. Replace “Job’s vrienden” with the standard Dutch form without an apostrophe, e.g. \\\"Jobs vrienden\\\" or rephrase to \\\"We kennen het verhaal van de vrienden van Job.\\\"\",\"translation_quote\":\"We kennen het verhaal van Job’s vrienden.\"}],\"passed\":false,\"score\":85}",
+    "content_bytes": 1102,
+    "content_evidence_truncated": false,
+    "content_sha256": "95f04390a08f30d9e1d1577f57ed2013cc46e79ef4a86a9b151346606a650140",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 568,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10548,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11116
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3cd42960-095a-4c12-9ed9-292b843eb2a1",
+    "response_id": "chatcmpl-EUX3eaVRQ8uW1HsYNbOpl9G76b9Qe",
+    "usage": {
+      "completion_tokens": 565,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4396,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4961
+    }
+  },
+  "received_at": "2026-10-02T12:55:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.section / translation.section",
+        "severity": "minor",
+        "source_quote": "FROM THE EDITOR",
+        "suggested_fix": "Use a more natural and complete Portuguese heading. Either keep the existing translation 'DO EDITOR' or prefer 'DO EDITOR' with correct capitalization. If you prefer a closer literal rendering, use 'DO EDITOR' or 'DO EDITOR'. Ensure site styling/locale preferences dictate capitalization.",
+        "translation_quote": "DO EDITOR"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

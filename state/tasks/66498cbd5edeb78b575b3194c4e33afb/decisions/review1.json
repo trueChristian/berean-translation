@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.title / translation.title",
+      "severity": "major",
+      "source_quote": "Moses in Midian",
+      "suggested_fix": "Translate the English title into Italian while preserving HTML structure. For example: replace <title> or the title field content with \"Mosè in Madian\" (note: use Italian conventional forms for names). Do not alter other tags or attributes.",
+      "translation_quote": "Moses in Midian"
+    },
+    {
+      "location": "source.section / translation.section",
+      "severity": "major",
+      "source_quote": "CHARACTER STUDIES",
+      "suggested_fix": "Translate the section label into standard contemporary Italian, preserving the field content structure. For example replace \"CHARACTER STUDIES\" with \"STUDI SUL CARATTERE\" (or another equivalent idiomatic rendering). Do not change HTML tags or attributes.",
+      "translation_quote": "CHARACTER STUDIES"
+    },
+    {
+      "location": "source.html paragraph about Egyptian offender (near \"With the sword he had overcome an Egyptian offender...\")",
+      "severity": "minor",
+      "source_quote": "With the sword he had overcome an Egyptian offender, but with the rod he overcame the entire forces of Egypt.",
+      "suggested_fix": "Adjust the Italian phrasing for clarity and idiomatic grammar while preserving meaning and HTML. For example, change \"offender Egiziano\" to \"un egiziano offensore\" or better: \"un egiziano\" or \"un oppressore egiziano\" so the sentence reads naturally: \"Con la spada aveva vinto un egiziano oppressore, ma con il bastone sconfisse le intere forze d’Egitto.\" Preserve italics/emphasis tags as in the source where present.",
+      "translation_quote": "Con la spada aveva vinto un offender Egiziano, ma con il bastone sconfisse le forze intere d’Egitto."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

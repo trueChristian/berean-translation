@@ -2,7 +2,6 @@
   "article_id": "f09d8cd5-b48f-470f-936f-263e6940b6bd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,58 @@
         },
         "total_tokens": 5826
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1475,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5539,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7014
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html — paragraph 2 (sentence mentioning the hymn title)",
+      "severity": "major",
+      "source_quote": "The text of this hymn, All Hail the Power of Jesus Name, has been translated into almost every language where Christianity is known.",
+      "suggested_fix": "Translate the hymn's English title into Russian in-line (preserve it as a title), e.g. «текст этого гимна, «Да здравствует власть Иисусова Имени», был переведён...». Do not leave the substantive quoted title in English.",
+      "translation_quote": "Текст этого гимна, All Hail the Power of Jesus Name, был переведён почти на все языки, где известна христианская вера."
+    },
+    {
+      "location": "source.html — <figure> img alt attribute",
+      "severity": "major",
+      "source_quote": "Sheet music for All Hail the Power of Jesus’ Name, tune DIADEM C. M. with Refrain",
+      "suggested_fix": "Translate the entire alt text into Russian and translate the hymn title portion as well. For example: \"Нотная запись гимна «Да здравствует власть Иисусова Имени», мелодия DIADEM C. M. с припевом\" — i.e., replace the English hymn title with the Russian title used in the article.",
+      "translation_quote": "Нотная запись гимна All Hail the Power of Jesus’ Name, мелодия DIADEM C. M. с припевом"
+    },
+    {
+      "location": "source.html — occurrences of the hymn title in running text",
+      "severity": "major",
+      "source_quote": "All Hail the Power of Jesus Name (appears twice in source running text)",
+      "suggested_fix": "Replace the in-text English hymn title with its Russian rendering used for the article title («Да здравствует власть Иисусова Имени»). Quoted substantive prose must be translated into the target language; keep the original as a parenthetical only if the editor requires both-language display, but the authoritative English must be presented in translated form in the article body.",
+      "translation_quote": "All Hail the Power of Jesus Name (appears untranslated in the Russian article text)"
+    },
+    {
+      "location": "source.html — various occurrences of author name Perronet (spelling variants)",
+      "severity": "minor",
+      "source_quote": "Edward Perronet (source uses single consistent spelling 'Perronet')",
+      "suggested_fix": "Use a single consistent Russian transliteration throughout. For example, standardize on «Перронет» (no diacritic) or «Перроне́т» but apply it consistently. Update all occurrences to match chosen form.",
+      "translation_quote": "Эдвард Перроне́т / Перронет (both forms appear in the translation)"
+    }
+  ],
   "id": "bcbfa859ef8f2393e84eaf41658f9423",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "rus",
@@ -100,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 80,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6b076b1f67d6fafc1720a4ac2de4e895d6d3d4ebd14b1f3db48cc7447fd2506b.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

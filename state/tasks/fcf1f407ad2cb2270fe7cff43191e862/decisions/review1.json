@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Opening dialogue, paragraph 3 (hesitation)",
+      "severity": "minor",
+      "source_quote": "“I don’t know how to explain it,” she hesitated…",
+      "suggested_fix": "Replace the Greek verb with the correct contemporary form. Example replacement inside same <p> element: «Δεν ξέρω πώς να το εξηγήσω», είπε διστακτικά…",
+      "translation_quote": "«Δεν ξέρω πώς να το εξηγήσω», δισταξα… «Απλώς νιώθω κουρασμένη τις περισσότερες φορές. ...»"
+    },
+    {
+      "location": "Section heading and metadata: source.section / <article> section element",
+      "severity": "minor",
+      "source_quote": "A Word From A Doctor",
+      "suggested_fix": "Use a more natural contemporary Greek rendering for the section heading while preserving the tag. Example replacement for the section field or the displayed heading: «Λόγος από γιατρό» or «Μήνυμα από έναν γιατρό». (If you prefer shorter: «Από έναν γιατρό»).",
+      "translation_quote": "Μια λέξη από γιατρό"
+    },
+    {
+      "location": "Heading “Be Willing to be the Initiator” and corresponding paragraph",
+      "severity": "minor",
+      "source_quote": "Be Willing to be the Initiator",
+      "suggested_fix": "Use more idiomatic Modern Greek for the heading and any instances in the paragraph. Suggested replacement for the <h2> and first sentence in that <p>: <h2>Πάρε την πρωτοβουλία</h2> and <p>Τα άτομα με κατάθλιψη έχουν πολύ χαμηλά επίπεδα ενέργειας...</p>",
+      "translation_quote": "Να είσαι διατεθειμένος να είσαι εσύ ο αρχηγός"
+    },
+    {
+      "location": "Scripture quote wording style (James 5:16)",
+      "severity": "minor",
+      "source_quote": "…The effectual fervent prayer of a righteous man availeth much –James 5:16.",
+      "suggested_fix": "Consider a contemporary Modern Greek rendering that preserves the verse meaning while reducing archaic wording. Example replacement inside the same <p> element: «Η αποτελεσματική, θερμή προσευχή ενός δικαίου έχει μεγάλη δύναμη –Ιακώβου 5:16.» (leave verse reference unchanged).",
+      "translation_quote": "…Ο ενεργός επίπονος προσευχήσις δικαίου πολλά δύναται –Ιακώβου 5:16."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

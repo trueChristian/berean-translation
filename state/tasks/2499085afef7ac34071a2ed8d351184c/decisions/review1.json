@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>Zoals eerder genoemd, voegen we in dit nummer enkele nieuwe rubrieken toe. Eén over kerkgeschiedenis die geschreven wordt door twee jonge broeders uit onze kerk. En één over psalm-/gezangsgeschiedenissen die geschreven wordt door een van onze bestuursleden, een middelbare getrouwde man, die ook uit onze kerk komt.</p>",
+      "severity": "minor",
+      "source_quote": "And one on Hymn Histories being written by one of our board members, a middle-aged married man, who is also from our church.",
+      "suggested_fix": "Gebruik een natuurlijkere, gestandaardiseerde Nederlandse formulering voor “middle-aged”. Bijvoorbeeld: vervang \"een middelbare getrouwde man\" door \"een bestuurslid van middelbare leeftijd (getrouwd)\" of \"een getrouwde man van middelbare leeftijd\" zodat de zinsbouw vloeiender is en de betekenis behouden blijft.",
+      "translation_quote": "En één over psalm-/gezangsgeschiedenissen die geschreven wordt door een van onze bestuursleden, een middelbare getrouwde man, die ook uit onze kerk komt."
+    },
+    {
+      "location": "<p>Als we kijken naar het leven van Jona, vangen we glimpjes op van “De God Die Niet Loslaat”. Vaak verliest een worstelende gelovige de Waarheid van God uit het oog omdat hij gelooft de leugen dat niemand geeft om hem, maar de waarheid is dit—de God van de Bijbel laat ons niet gewoon vallen of keert Zijn gezicht van ons af het ogenblik dat wij een verkeerde afslag nemen of een misstap begaan. Laat dit artikel ons helpen geworteld en gegrond te raken in de bijbelse Waarheid van Abba Vader—een Vader die om Zijn kinderen geeft. We hebben ook het tweede artikel in een doorlopende serie over discipelschap, evenals een artikel geschreven door een middelbare, geestelijk rijpe zuster die haar aanmoediging deelt voor zusters om te evalueren wat God van hun kleding denkt.</p>",
+      "severity": "minor",
+      "source_quote": "…as well as an article written by a middle-aged, spiritually-mature sister who shares her encouragement for sisters to evaluate what God thinks of their attire.",
+      "suggested_fix": "Pas ook hier de vertaling van “middle-aged” aan naar een natuurlijker Nederlands. Bijvoorbeeld: vervang \"een middelbare, geestelijk rijpe zuster\" door \"een geestelijk rijpe zuster van middelbare leeftijd\". Dit behoudt betekenis en leest beter in het Nederlands.",
+      "translation_quote": "…evenals een artikel geschreven door een middelbare, geestelijk rijpe zuster die haar aanmoediging deelt voor zusters om te evalueren wat God van hun kleding denkt."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

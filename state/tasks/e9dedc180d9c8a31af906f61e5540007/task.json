@@ -2,7 +2,6 @@
   "article_id": "f82c479a-345a-4ffa-98d9-f10ddef90777",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,38 @@
         },
         "total_tokens": 9189
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 540,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8978,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9518
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.section",
+      "severity": "minor",
+      "source_quote": "Inspirations for Youth",
+      "suggested_fix": "Translate the section metadata into standard contemporary Swedish. For example: \"Inspiration för ungdomar\" (or \"Inspiration för unga\"), preserving capitalization style used on the site.",
+      "translation_quote": "Inspirations for Youth"
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:18+00:00",
   "id": "e9dedc180d9c8a31af906f61e5540007",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "swe",
@@ -100,11 +128,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/eccdba3e3a9e4ccc5d82f838542b8fe66f04a1399c4d03991b86efac69021bc9.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "9fe63733192a6c2b1a16992f2a220dd14dbfe93f8ff3f2c18b549b1da7db5b88",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

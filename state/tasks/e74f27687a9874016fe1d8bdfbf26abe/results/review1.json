@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "87b58b66-4937-4c5a-9047-80dbef7759f5",
+    "response_id": "chatcmpl-EUX43PonwT9HBaMTk90ybRRaMQdTi",
+    "usage": {
+      "completion_tokens": 734,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5564,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6298
+    }
+  },
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph 1 (opening sentence)",
+        "severity": "minor",
+        "source_quote": "I have enjoyed listening to, and even taking part in, discussions about the Covid shot—about why someone has, and why the other has not, received it.",
+        "suggested_fix": "Use the translator's consistent preferred rendering for the author's recurring choice to avoid the word “vaccine.” Either render the opening reference as injeção contra a Covid or Covid shot (injeção/Covid) so it matches the author’s later explicit statement that he does not call it a 'vacina'. Suggested wording: \"Tenho gostado de ouvir, e até de participar, de discussões sobre a injeção contra a Covid — sobre por que alguém a recebeu e por que outro não.\"",
+        "translation_quote": "Tenho gostado de ouvir, e até de participar, de discussões sobre a vacina contra a Covid — sobre por que alguém a recebeu e por que outro não."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

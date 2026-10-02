@@ -1,0 +1,92 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0299de78-7640-4477-801d-f599cfa95ce3",
+    "response_id": "chatcmpl-EUX3wS88zhlwdHmwwxDYJxr11MnrA",
+    "usage": {
+      "completion_tokens": 2352,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4782,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7134
+    }
+  },
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing Proverbs 21:1 (third-to-last sentence of the 7th <p> after the first figure)",
+        "severity": "major",
+        "source_quote": "The king’s heart is in the hand of the LORD, as the rivers of water: he turneth it whithersoever he will –Proverbs 21:1.",
+        "suggested_fix": "Translate the quoted Scripture into Urdu (Perso‑Arabic script), preserving the book name and the exact chapter:verse. For example replace the English verse with an Urdu rendering of Proverbs 21:1 and keep the reference “–امثال 21:1” (do not change the chapter/verse numbers or remove the citation). Preserve the surrounding <em> tags and HTML structure.",
+        "translation_quote": "<em>The king’s heart is in the hand of the LORD, as the rivers of water: he turneth it whithersoever he will –Proverbs 21:1.</em>"
+      },
+      {
+        "location": "Paragraph containing Daniel 4:31-32 (same paragraph as Proverbs quote)",
+        "severity": "major",
+        "source_quote": "…That the most High ruleth in the kingdom of men, and giveth it to whomsoever he will –Daniel 4:31-32.",
+        "suggested_fix": "Translate the quoted Scripture into Urdu (Perso‑Arabic script) and render the book name in conventional Urdu (e.g. \"دانیال\") with the identical chapter:verse range “–دانیال 4:31-32”. Keep the <em> tags and surrounding punctuation exactly as in the source HTML.",
+        "translation_quote": "<em>…That the most High ruleth in the kingdom of men, and giveth it to whomsoever he will –Daniel 4:31-32.</em>"
+      },
+      {
+        "location": "Paragraph quoting John 18:36 (paragraph beginning “Throughout the history of the Anabaptist people…”)",
+        "severity": "major",
+        "source_quote": "…My kingdom is not of this world: if my kingdom were of this world, then would my servants fight … but now is my kingdom not from hence –John 18:36.",
+        "suggested_fix": "Translate the quoted Scripture into Urdu (Perso‑Arabic script), using the conventional Urdu book name for John (e.g. “یوحنا”) and preserve the exact chapter and verse \"–یوحنا 18:36\". Keep the ellipses and <em> tags as in the source HTML.",
+        "translation_quote": "<em>…My kingdom is not of this world: if my kingdom were of this world, then would my servants fight … but now is my kingdom not from hence –John 18:36.</em>"
+      },
+      {
+        "location": "Paragraph containing Hebrews 11:13-16 (same paragraph as the John quote)",
+        "severity": "major",
+        "source_quote": "…strangers and pilgrims on the earth. [While we] …declare plainly that [we] seek a country …a better country, that is, an heavenly: wherefore God is not ashamed to be called [our] God: for he hath prepared for [us] a city –Hebrews 11:13-16.",
+        "suggested_fix": "The quoted block contains English text and bracketed English placeholders. Translate the entire quoted passage into Urdu (Perso‑Arabic script), render the book name in Urdu (e.g. “عبرانیوں”) and keep the reference “–عبرانیوں 11:13-16”. Translate bracketed insertions as Urdu equivalents rather than leaving English in brackets. Preserve the <em> tags and punctuation.",
+        "translation_quote": "<em>…strangers and pilgrims on the earth. [While we] …declare plainly that [we] seek a country …a better country, that is, an heavenly: wherefore God is not ashamed to be called [our] God: for he hath prepared for [us] a city –Hebrews 11:13-16.</em>"
+      },
+      {
+        "location": "Paragraph quoting 2 Corinthians 6:17 (same paragraph as Hebrews quote)",
+        "severity": "major",
+        "source_quote": "…come out from among them, and be ye separate… –2 Corinthians 6:17.",
+        "suggested_fix": "Translate this Scripture quotation into Urdu (Perso‑Arabic script), render the book name conventionally (e.g. “دوسرے کرنتھیوں”) and retain the exact chapter:verse “–2 کرنتھیوں 6:17”. Preserve the <em> tags and surrounding punctuation.",
+        "translation_quote": "<em>…come out from among them, and be ye separate… –2 Corinthians 6:17.</em>"
+      },
+      {
+        "location": "Paragraph quoting Romans 13:1-4 (paragraph beginning “Let’s always cultivate a right attitude…”)",
+        "severity": "major",
+        "source_quote": "Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God … For he is the minister of God to thee… –Romans 13:1-4.",
+        "suggested_fix": "Translate the quoted Scripture into Urdu (Perso‑Arabic script), use the conventional Urdu book name (e.g. “رومنوں” or “رومیوں” depending on the publication’s style) and keep the exact chapter:verse “–رومن 13:1-4”. Keep the <em> tags and ellipses as in the source.",
+        "translation_quote": "<em>Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God … For he is the minister of God to thee… –Romans 13:1-4.</em>"
+      },
+      {
+        "location": "Paragraph quoting 1 Timothy 2:1-2 (paragraph beginning “So, what is the solution…”)",
+        "severity": "major",
+        "source_quote": "I exhort therefore, that, first of all, supplications, prayers, intercessions, and giving of thanks, be made for all men; For kings, and for all that are in authority; that we may lead a quiet and peaceable life in all godliness and honesty. 1 Timothy 2:1-2.",
+        "suggested_fix": "Translate the full quoted New Testament passage into Urdu (Perso‑Arabic script), render the book name as “1 تیموتھیس” or the convention used by the publication and keep the exact chapter:verse reference “–1 تیموتھیس 2:1-2”. Preserve punctuation and <em> tags.",
+        "translation_quote": "<em>I exhort therefore, that, first of all, supplications, prayers, intercessions, and giving of thanks, be made for all men; For kings, and for all that are in authority; that we may lead a quiet and peaceable life in all godliness and honesty. 1 Timothy 2:1-2.</em>"
+      },
+      {
+        "location": "Paragraph quoting Matthew 17:20 (same paragraph as 1 Timothy quote)",
+        "severity": "major",
+        "source_quote": "And Jesus said unto them … verily I say unto you, If ye have faith as a grain of mustard seed, ye shall say unto this mountain, Remove hence to yonder place; and it shall remove; and nothing shall be impossible unto you –Matthew 17:20.",
+        "suggested_fix": "Translate this quotation into Urdu (Perso‑Arabic script), render the book name conventionally (e.g. “متی”) and keep the exact chapter:verse “–متی 17:20”. Maintain the <em> tags and ellipses.",
+        "translation_quote": "<em>And Jesus said unto them … verily I say unto you, If ye have faith as a grain of mustard seed, ye shall say unto this mountain, Remove hence to yonder place; and it shall remove; and nothing shall be impossible unto you –Matthew 17:20.</em>"
+      },
+      {
+        "location": "Paragraph quoting James 5:16 (same paragraph as Matthew quote)",
+        "severity": "major",
+        "source_quote": "…The effectual fervent prayer of a righteous man availeth much –James 5:16.",
+        "suggested_fix": "Translate this Scripture into Urdu (Perso‑Arabic script), use the conventional Urdu book name (e.g. “یعقوب”) and preserve the chapter:verse “–یعقوب 5:16”. Keep the <em> tags and punctuation intact.",
+        "translation_quote": "<em>…The effectual fervent prayer of a righteous man availeth much –James 5:16.</em>"
+      }
+    ],
+    "passed": false,
+    "score": 65
+  }
+}

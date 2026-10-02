@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph about Danzig (paragraph beginning: \"A particularly shocking case of Mennonite political involvement came from the churches in or around Danzig.\")",
+      "severity": "critical",
+      "source_quote": "scores of the 6,000 believers in the surrounding congregations joined various Nazi organizations.",
+      "suggested_fix": "Replace the mistranslation that introduces a different institution. Change “συναγωγές/εκκλησίες” to a single faithful rendering of the English “congregations” in Greek, e.g. “εκκλησίες” (not “συναγωγές/εκκλησίες”).",
+      "translation_quote": "δεκάδες από τους 6.000 πιστούς στις περιβάλλουσες συναγωγές/εκκλησίες εντάχθηκαν σε διάφορους ναζιστικούς οργανισμούς."
+    },
+    {
+      "location": "Paragraph on postwar Nuremberg trials (paragraph beginning: \"Perhaps the most concerning episode ... comes after the war.\")",
+      "severity": "minor",
+      "source_quote": "noting the justice that was to come through the Nuremburg trials, effectively shrugged the blame from off their shoulders.",
+      "suggested_fix": "Use a more natural Greek phrasing for “Nuremburg trials” and for the verb phrase. For example: “και παρατηρώντας τη δικαιοσύνη που θα εφαρμοζόταν μέσω των δικών της Νυρεμβέργης, ουσιαστικά απέσυρε το βάρος της ευθύνης από πάνω τους.” → preferable: “και παρατηρώντας τη δικαιοσύνη που θα εφαρμοζόταν μέσω των δικών της Νυρεμβέργης, ουσιαστικά απέσυραν από πάνω τους το βάρος της ευθύνης.” (corrects person/number agreement and word order).",
+      "translation_quote": "αναγνωρίζοντας εν μέρει το φοβερό βάθος στο οποίο είχαν πέσει και σημειώνοντας τη δικαιοσύνη που θα εφαρμοζόταν μέσω των δικών της Νυρεμβέργης, ουσιαστικά απέσυρε το βάρος της ευθύνης από πάνω τους."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

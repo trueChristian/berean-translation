@@ -2,7 +2,6 @@
   "article_id": "9b13e502-993c-4536-a32d-ae1a62c36db5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 3966
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1028,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3756,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4784
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph that begins ““Wow!” exclaimed Sharon.”",
+      "severity": "minor",
+      "source_quote": "“Wow!” exclaimed Sharon. “That was really scary, wasn’t it?”",
+      "suggested_fix": "Translate the exclamation idiomatically into Afrikaans (for example: “Wou!” or “Sjoe!”) and translate “scary” into Afrikaans. Preserve the two-sentence structure. Example fix: “‘Wou!’ roep Sharon uit. ‘Dit was regtig eng, was dit nie?’”",
+      "translation_quote": "“Woe!” roep Sharon uit. “Dis regtig scary, was dit nie?”"
+    },
+    {
+      "location": "Same paragraph (second sentence)",
+      "severity": "minor",
+      "source_quote": "“That was really scary, wasn’t it?”",
+      "suggested_fix": "Replace the English adjective “scary” with an Afrikaans equivalent (e.g., “eng” or “angstaanjaend”) so the sentence is fully in the target language. Example: “Dis regtig eng, was dit nie?”",
+      "translation_quote": "“Dis regtig scary, was dit nie?”"
+    },
+    {
+      "location": "Paragraph that begins “I was so scared. I just stood frozen to the spot. I don’t remember if I screamed, or if I prayed.”",
+      "severity": "minor",
+      "source_quote": "I don’t remember if I screamed, or if I prayed.",
+      "suggested_fix": "Remove the duplicated word “of” in the Afrikaans sentence. Example correction: replace “Ek onthou nie of ek geskree het nie, of of ek gebid het.” with “Ek onthou nie of ek geskree het nie, of ek gebid het.”",
+      "translation_quote": "Ek onthou nie of ek geskree het nie, of of ek gebid het."
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:18+00:00",
   "id": "6acd00f4a667ececb9ab963f67e71087",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "afr",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/024b14cea96a528a42f66f77d442fb07d0e5035a02e35254ae96bf4fcc0c193f.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

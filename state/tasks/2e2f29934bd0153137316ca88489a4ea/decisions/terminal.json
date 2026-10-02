@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.title",
+      "severity": "minor",
+      "source_quote": "From the Editor",
+      "suggested_fix": "Translate the English title into standard contemporary Italian, preserving the same capitalization style if desired. For example: \"Dall'editore\" or \"Dalla redazione\". Replace the value of the translation title field (translation.title) with the chosen Italian rendering.",
+      "translation_quote": "From the Editor"
+    },
+    {
+      "location": "source.section",
+      "severity": "minor",
+      "source_quote": "FROM THE EDITOR",
+      "suggested_fix": "Translate the English section label into standard contemporary Italian, preserving emphasis/capitalization if required by the site. For example: \"DALL'EDITORE\" or \"DALLA REDAZIONE\". Replace the value of the translation section field (translation.section) with the chosen Italian rendering.",
+      "translation_quote": "FROM THE EDITOR"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

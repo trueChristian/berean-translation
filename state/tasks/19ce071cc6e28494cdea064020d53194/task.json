@@ -2,7 +2,6 @@
   "article_id": "5fc18c0d-013c-40d0-aabb-e8f7c7c404eb",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,65 @@
         },
         "total_tokens": 5714
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1240,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5436,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6676
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html paragraph 1 (Scripture quotation)",
+      "severity": "critical",
+      "source_quote": "Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted?… –Matthew 5:13.",
+      "suggested_fix": "Translate the verse into contemporary Modern Hebrew faithfully, without adding or changing referents. For example: “אתם מלח הארץ; ואם המלח יאבד את מלחו, במה יומלח? … — מתי 5:13.” (Preserve the chapter and verse numbering exactly as in the source.)",
+      "translation_quote": "<em>אתם מלח הארץ; ואם המלח יאבד את טעמו, בא״מה יהוה מלוח?… –מתי 5:13.</em>"
+    },
+    {
+      "location": "source.html paragraph 5 (first sentence)",
+      "severity": "minor",
+      "source_quote": "The beginnings of the 20th century brought about the first World War, which ended with the defeat of Germany and its allies.",
+      "suggested_fix": "Remove duplicated word and use natural Hebrew phrasing. For example: “ראשית המאה העשרים הביאה את מלחמת העולם הראשונה, אשר הסתיימה בתבוסת גרמניה ובעלות בריתה.”",
+      "translation_quote": "ראשית המאה העשרים הביאה את מלחמת העולם הראשונה הראשונה, שהסתיימה בתבוסת גרמניה ובעלות בריתה."
+    },
+    {
+      "location": "source.html paragraph 2 (phrase choice)",
+      "severity": "minor",
+      "source_quote": "What led them to such an un-Christ-like position? A true understanding of their story must begin, naturally, with their beginnings.",
+      "suggested_fix": "Replace unnatural calque “עמדה העולםית” with the idiomatic “עמדה עולמית”. For example: “... משום שהיו כמעט מסורים בשלמותם למנהיג ולעמדה עולמית.”",
+      "translation_quote": "... משום שהיו כמעט מסורים בשלמותם למנהיג ולעמדה העולםית."
+    },
+    {
+      "location": "source.html paragraph 11 (word choice)",
+      "severity": "minor",
+      "source_quote": "This image was pushed by state propaganda departments, who circulated writings, pamphlets, and even two immensely popular movies...",
+      "suggested_fix": "Use a natural Hebrew term for those who produced and spread propaganda. Replace “מתדלקי התעמולה הממלכתיות” with “מחלקות התעמולה הממלכתיות” (which already appears later) or “גורמי התעמולה הממלכתיים.”",
+      "translation_quote": "תדמית זו הודחפה על ידי מתדלקי התעמולה הממלכתיות, שהפיצו כתבים, עלונים ואפילו שני סרטים פופולריים עצומים..."
+    },
+    {
+      "location": "source.html final paragraph (source line)",
+      "severity": "minor",
+      "source_quote": "Source:\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction",
+      "suggested_fix": "Translate the label “Source:” into Hebrew (e.g., “מקור:”) and keep the URL unchanged. Example: “מקור:\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction”",
+      "translation_quote": "Source:\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction"
+    }
+  ],
   "id": "19ce071cc6e28494cdea064020d53194",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "heb",
@@ -100,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 62,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1bdcb7e456b7a6b0faa951b73ad2e9f64625a3dfb5338112d027e556e66e5f0a.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "f30546ec55676f8dd6c74177eaa70932f9093041fab1ceced906b186d9df3a00",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

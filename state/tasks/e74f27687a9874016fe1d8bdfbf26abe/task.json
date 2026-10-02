@@ -2,7 +2,6 @@
   "article_id": "6080d813-75a2-4123-9552-3c4f75c81219",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:40+00:00",
   "events": [
@@ -24,9 +23,38 @@
         },
         "total_tokens": 5839
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 734,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5564,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6298
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html paragraph 1 (opening sentence)",
+      "severity": "minor",
+      "source_quote": "I have enjoyed listening to, and even taking part in, discussions about the Covid shot—about why someone has, and why the other has not, received it.",
+      "suggested_fix": "Use the translator's consistent preferred rendering for the author's recurring choice to avoid the word “vaccine.” Either render the opening reference as injeção contra a Covid or Covid shot (injeção/Covid) so it matches the author’s later explicit statement that he does not call it a 'vacina'. Suggested wording: \"Tenho gostado de ouvir, e até de participar, de discussões sobre a injeção contra a Covid — sobre por que alguém a recebeu e por que outro não.\"",
+      "translation_quote": "Tenho gostado de ouvir, e até de participar, de discussões sobre a vacina contra a Covid — sobre por que alguém a recebeu e por que outro não."
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:18+00:00",
   "id": "e74f27687a9874016fe1d8bdfbf26abe",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "por",
@@ -100,11 +128,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/733eeaa1a812b6193e133350be5a00b31e3585142bda55cfaea2f725f3dda88f.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "f7d8a08704733486f924816fbfd515b7c40bf25c984ecd111bf0fe403aaa2dde",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

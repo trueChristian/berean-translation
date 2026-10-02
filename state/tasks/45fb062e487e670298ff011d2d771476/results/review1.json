@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "da64e307-6fff-45e1-8372-075cbb36e3db",
+    "response_id": "chatcmpl-EUX3g5YTWkRyUhVg4Y2drO2dRzjYm",
+    "usage": {
+      "completion_tokens": 562,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5428,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5990
+    }
+  },
+  "received_at": "2026-10-02T12:55:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph containing 'Source:' (end of article)",
+        "severity": "minor",
+        "source_quote": "Source:\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction",
+        "suggested_fix": "Translate the label 'Source:' into Korean while retaining the original URL. For example: '출처:\\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction' (preserve the exact URL and its placement).",
+        "translation_quote": "Source:<br>anabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

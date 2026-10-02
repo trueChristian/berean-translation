@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<p>Paragraph about 1929 Russian Mennonite refugees (source.html third-to-last paragraph beginning \"In 1929, the Mennonites came under the eye of Germany...\")",
+      "severity": "critical",
+      "source_quote": "In 1929, the Mennonites came under the eye of Germany and its rapidly expanding Nazi Party. 13,000 Russian Mennonite refugees descended on Moscow, seeking an exit from the Communist-run country.",
+      "suggested_fix": "Translate the numeric and nationality information accurately and remove the spurious nationality. Replace the mistranslated phrase with a faithful rendering of the English: e.g. \"Mwaka 1929, Wamenonite walivutia macho ya Ujerumani na Chama chake cha Nazi kilichoendelea kukua kwa kasi. Wakimbizi 13,000 Wamenonite wa Urusi waliondoka Moscow, wakitafuta njia ya kuondoka katika nchi iliyodhibitiwa na Wakomunisti.\" Preserve the number 13,000 and the reference to Russia/Moscow and to Communist-run country.",
+      "translation_quote": "Mwaka 1929, Wamenonite walipingwa na macho ya Ujerumani na Chama chake cha Nazi kilichoendelea kukua kwa kasi. Wakenya Wamenonite 13,000 waliotoka Urusi walitoka Moscow, wakitafuta kujiondoa katika nchi iliyokaliwa na Wakomunisti."
+    },
+    {
+      "location": "<p>Paragraph describing Nazi themes (source.html paragraph about party themes: hatred for non-German groups and distaste for communism)",
+      "severity": "critical",
+      "source_quote": "Hatred for most non-German (Aryan) groups became a central party theme, along with a violent distaste for communism.",
+      "suggested_fix": "Correct the ideological term. 'Communism' must be rendered as the ideological term 'komunisti/ukomunisti' (or 'ukomunizimu') rather than 'ubepari wa kitaifa' which means something else. Suggested fix: \"Chuki kwa makundi mengi yasiyo ya Kijerumani (Waariani) ikawa mada kuu ya chama, pamoja na ghadhabu kali dhidi ya Ukomunisti.\"",
+      "translation_quote": "Chuki kwa makundi mengi yasiyo ya Kijerumani (Aryani) ikawa mada kuu ya chama, pamoja na ghadhabu kali dhidi ya ubepari wa kitaifa (komunisti)."
+    },
+    {
+      "location": "<p>Paragraph referring to the Nuremburg trials (source.html paragraph about postwar response)",
+      "severity": "minor",
+      "source_quote": "…noting the justice that was to come through the Nuremburg trials, effectively shrugged the blame from off their shoulders.",
+      "suggested_fix": "Correct the target-language rendering of the trial name to match common usage in Swahili (keep spelling consistent with the English proper name). Use 'kesi za Nuremberg' or 'kesi za Nuremburg' consistently. Suggested fix: \"…na kukumbuka haki iliyokuja kupitia kesi za Nuremberg, kwa kiasi fulani waliweka lawama mbali nao.\"",
+      "translation_quote": "…na kukumbuka haki iliyokuja kupitia kesi za Nuremberg, kwa kiasi fulani waliweka lawama mbali nao."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.section / translation.section",
+      "severity": "minor",
+      "source_quote": "FROM THE EDITOR",
+      "suggested_fix": "Use a more natural and complete Portuguese heading. Either keep the existing translation 'DO EDITOR' or prefer 'DO EDITOR' with correct capitalization. If you prefer a closer literal rendering, use 'DO EDITOR' or 'DO EDITOR'. Ensure site styling/locale preferences dictate capitalization.",
+      "translation_quote": "DO EDITOR"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

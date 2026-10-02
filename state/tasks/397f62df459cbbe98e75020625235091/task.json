@@ -2,7 +2,6 @@
   "article_id": "f09d8cd5-b48f-470f-936f-263e6940b6bd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 6570
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1382,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6167,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7549
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<article> — lyrics block (first occurrence)",
+      "severity": "major",
+      "source_quote": "All hail the power of Jesus’ name,\n    Let angels prostrate fall\n    Bring forth the royal diadem,\n    To crown Him Lord of all!",
+      "suggested_fix": "Translate the quoted hymn stanzas into Greek, preserving the stanza breaks and the surrounding <div class=\"lyrics\"> and <p> tags. Example (illustrative only — translator should choose final wording):\n<p>Χαίρετε τη δύναμη του ονόματος του Ιησού,<br>\nΑς πέσουν συντετριμμένοι οι άγγελοι·<br>\nΦέρτε το βασιλικό διάδημα,<br>\nΓια να Τον στεφανώσετε Κύριο όλων!</p>\nDo this for every English stanza so that all quoted hymn text appears in Greek. Do not leave the hymn lyrics in English.",
+      "translation_quote": "All hail the power of Jesus’ name,\n    Let angels prostrate fall\n    Bring forth the royal diadem,\n    To crown Him Lord of all!"
+    },
+    {
+      "location": "<article> — biographical paragraph (\"Huguenot\")",
+      "severity": "major",
+      "source_quote": "He was a descendant of a distinguished French Huguenot family who had fled to Switzerland and later to England because of the religious persecution in France.",
+      "suggested_fix": "Correct the mistranslation of 'Huguenot'. Replace the current Greek rendering 'γαλλικής οικογένειας Ουγκώ' with a correct translation such as 'διακεκριμένης γαλλικής οικογένειας Ουγενότων' (or 'οικογένειας Ουγενότων') so the historic group is accurately named. Preserve surrounding HTML and sentence structure.",
+      "translation_quote": "Ήταν απόγονος μιας εξέχουσας γαλλικής οικογένειας Ουγκώ, που είχε καταφύγει στην Ελβετία και αργότερα στην Αγγλία εξαιτίας της θρησκευτικής διωγμού στη Γαλλία."
+    },
+    {
+      "location": "source.title and <article> top/title element",
+      "severity": "minor",
+      "source_quote": "All Hail the Power of Jesus Name",
+      "suggested_fix": "Title should convey the imperative and idiom of the hymn in natural Modern Greek. Suggested revision: 'Χαίρετε τη δύναμη του ονόματος του Ιησού' or 'Χαίρετε, η δύναμη του ονόματος του Ιησού' depending on house style. Update both the translation title field and the <article> title text so they match and read idiomatically.",
+      "translation_quote": "Χαίρετε, η Δύναμη του Ονόματος του Ιησού"
+    }
+  ],
   "id": "397f62df459cbbe98e75020625235091",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ell",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 48,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6b076b1f67d6fafc1720a4ac2de4e895d6d3d4ebd14b1f3db48cc7447fd2506b.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

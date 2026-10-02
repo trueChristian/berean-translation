@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing Hebrews 11:13-16 (near \"When we understand...\")",
+      "severity": "major",
+      "source_quote": "...declare plainly that [we] seek a country …a better country, that is, an heavenly: wherefore God is not ashamed to be called [our] God: for he hath prepared for [us] a city –Hebrews 11:13-16.",
+      "suggested_fix": "Render the bracketed first-person plural pronouns as first-person plural in Spanish to preserve the author's inclusive meaning. For example: \"…declaramos públicamente que buscamos una patria… una mejor patria, es decir, celestial; por lo cual Dios no se avergüenza de ser llamado nuestro Dios: porque nos ha preparado una ciudad —Hebreos 11:13-16.\" Preserve the verse numbers and HTML structure exactly as in the translation.",
+      "translation_quote": "…declaramos públicamente que buscamos una patria… una mejor patria, es decir, celestial; por lo cual Dios no se avergüenza de ser llamado su Dios: porque les ha preparado una ciudad —Hebreos 11:13-16."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

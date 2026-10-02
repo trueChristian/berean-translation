@@ -2,7 +2,6 @@
   "article_id": "6080d813-75a2-4123-9552-3c4f75c81219",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:40+00:00",
   "events": [
@@ -24,9 +23,38 @@
         },
         "total_tokens": 5846
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 689,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5570,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6259
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph about resistant weeds (source.html paragraph starting \"Sure, farmers had several good years...\")",
+      "severity": "minor",
+      "source_quote": "Today, every farmer knows about ‘Palmer amaranth Pigweed’. You can almost ‘pour’ glyphosate on it, and still it thrives.",
+      "suggested_fix": "Option A (preferred): Preserve the original proper name but add the conventional target-language botanical/common form in parentheses to aid Spanish readers, e.g. “Palmer amaranth (amaranthus palmeri, conocida como pigweed o ‘Palmer amaranth Pigweed’)”. Option B (minimal): Leave the English name but add a brief Spanish label: “la ‘Palmer amaranth Pigweed’ (una maleza conocida como amaranthus palmeri)”. This keeps the untranslated proper name while giving a clear Spanish reference.",
+      "translation_quote": "Hoy, todo agricultor conoce la «Palmer amaranth Pigweed». Casi puede uno «verter» glifosato sobre ella y aun así prospera."
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:18+00:00",
   "id": "c63c49372f65dc452e33e54d7510b054",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "spa",
@@ -100,11 +128,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/733eeaa1a812b6193e133350be5a00b31e3585142bda55cfaea2f725f3dda88f.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "f7d8a08704733486f924816fbfd515b7c40bf25c984ecd111bf0fe403aaa2dde",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

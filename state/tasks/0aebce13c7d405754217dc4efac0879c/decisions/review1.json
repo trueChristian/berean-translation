@@ -1,0 +1,77 @@
+{
+  "findings": [
+    {
+      "location": "source.html ¶ containing Revelation 13:16-17 (around: \"And he causeth all, both small and great...\")",
+      "severity": "critical",
+      "source_quote": "And he causeth all, both small and great, rich and poor, free and bond, to receive a mark in their right hand, or in their foreheads: And that no man might buy or sell, save he that had the mark, or the name of the beast, or the number of his name –Revelation 13:16-17.",
+      "suggested_fix": "Translate the entire quoted Scripture into contemporary Modern Hebrew, preserving the verse numbers and placement exactly. For example (as a model only; translator should match the style used elsewhere): «וְהוּא עוֹשֶׂה כָּל־אֶת־הַקָּטָן וְאֵת הַגָּדוֹל וְאֶת־הָעָשִׁיר וְאֶת־הָֽאֶבְיוֹן וְאֶת־הַחָפְשִׁי וְאֶת־הַעֶבֶד לְקַבֵּל אוֹת עַל־יַד־יְמִינוֹ אוֹ עַל־מְצַח־רֹאשׁוֹ; וְלֹא־יָכֹל לִמְכֹר וְלִקְנוֹת כָּל־הָאֶלָּא אִם־אֲשֶׁר יֵשׁ־לוֹ הָאוֹת אוֹ שֵׁם הַחַיָּה אוֹ מִסְפַּר שֵׁמוֹ.» –ִ(שמרו את \"–Revelation 13:16-17\" בתרגום העברי המקובל: \"גלות 13:16-17\" או צורת הפסוקים המקובלת באתר). Ensure the book name uses the standard Hebrew name (e.g., \"התגלות\"/\"חזון יוחנן\"/\"הגלות\" according to site style) and keep the reference numbers unchanged.",
+      "translation_quote": "And he causeth all, both small and great, rich and poor, free and bond, to receive a mark in their right hand, or in their foreheads: And that no man might buy or sell, save he that had the mark, or the name of the beast, or the number of his name –Revelation 13:16-17."
+    },
+    {
+      "location": "source.html ¶ containing other inline Scripture references left in English (\"–See Matthew 24:21 and Revelation 7:14.\")",
+      "severity": "critical",
+      "source_quote": "–See Matthew 24:21 and Revelation 7:14.",
+      "suggested_fix": "Translate this instruction and the verse references into Hebrew and render the book names in standard Hebrew forms while keeping chapter:verse unchanged. For example: \"–ראו מתי 24:21 והתגלות 7:14.\" (Adjust the abbreviation/format to match the publisher's Hebrew style guide.)",
+      "translation_quote": "–See Matthew 24:21 and Revelation 7:14."
+    },
+    {
+      "location": "source.html ¶ containing the 2 Corinthians quotation (\"Wherefore come out from among them...\")",
+      "severity": "critical",
+      "source_quote": "Wherefore come out from among them, and be ye separate, saith the Lord, and touch not the unclean thing; and I will receive you –2 Corinthians 6:17.",
+      "suggested_fix": "Translate this quoted Scripture into Hebrew and use the standard Hebrew book name and verse notation, preserving the placement and numbers. Example model: «לָכֵן צֵאוּ מִתּוֹכָם וְהִפָּרוּ מִמֶּנָּם, נְאֻם ה׳, וּנְגַעֲרוּ אַל־תְּחָרְרוּ בְטֻמְאָה; וַאֲנִי אֶקַּחְתִּיכֶם.» –2 Corinthians 6:17 (render book name as \"קורינתים ב' 6:17\" או לפי סגנון האתר).",
+      "translation_quote": "Wherefore <strong>come out from among them, and be ye separate</strong>, saith the Lord, and touch not the unclean thing; and I will receive you –2 Corinthians 6:17."
+    },
+    {
+      "location": "source.html ¶ containing Revelation 14:10-12 quotations left partly in English",
+      "severity": "critical",
+      "source_quote": "Here is the patience of the saints: here are they that keep the commandments of God, and the faith of Jesus –Revelation 14:12.",
+      "suggested_fix": "Translate this quoted Scripture into Hebrew, preserving verse numbering and Hebrew book name. For example: «הִנֵּה סְבִלְתַּן שֶׁל־הַקְּדֹשִׁים: הֵן אֵלֶּה הַשּׁוֹמְרִים אֶת־מִצְוֹת הָאֱלֹהִים וְאֶת־הָאֱמוּנָה בִּישׁוּעַ.» –התגלות 14:12. Ensure all Revelation quotations in the article are similarly rendered into Hebrew.",
+      "translation_quote": "<em>Here is the patience of the saints: here are they that keep the commandments of God, and the faith of Jesus –Revelation 14:12.</em>"
+    },
+    {
+      "location": "source.html ¶ containing Revelation 12:11 quotation left in English",
+      "severity": "critical",
+      "source_quote": "And they overcame him by the blood of the Lamb, and by the word of their testimony; and they loved not their lives unto the death –Revelation 12:11.",
+      "suggested_fix": "Translate this quoted Scripture into Hebrew with standard Hebrew book name and verse notation, preserving placement. Example model: «וַיַּנַּצְחוּ אוֹתוֹ בְּדַם הַמְּשִׂיחַ וּבְאִמְרוֹת עֵדֻתָם; וְלֹא־אָמְרוּ לְנַפְשֵׁיהֶם עַד־הַמָּוֶת.» –התגלות 12:11. (Use the publication's customary Hebrew rendering of book names.)",
+      "translation_quote": "<em>And they overcame him by the blood of the Lamb, and by the word of their testimony; and they loved not their lives unto the death –Revelation 12:11.</em>"
+    },
+    {
+      "location": "source.html ¶ containing \"Read Matthew 24:4-28.\" left in English",
+      "severity": "major",
+      "source_quote": "Read Matthew 24:4-28.",
+      "suggested_fix": "Translate this reading direction and render the book name and verse range in Hebrew (e.g., \"קראו מתי 24:4-28.\"). Keep the chapter and verse range identical.",
+      "translation_quote": "<em>Read Matthew 24:4-28.</em>"
+    },
+    {
+      "location": "source.html first paragraph (\"I venture to say we could have seven people... maybe eight different ideas.\")",
+      "severity": "minor",
+      "source_quote": "I venture to say we could have seven people give their viewpoint on the subject and maybe have eight different ideas.",
+      "suggested_fix": "Correct Hebrew phrasing to convey the intended idiom. Current translation uses \"אתגר לומר\" which misrenders the sense. Suggested Hebrew: \"אעז ואמר שאם נשמע שבעה אנשים שיתנו את דעתם על הנושא, אולי נקבל שמונה דעות שונות.\" Replace the existing sentence to match that idiom and preserve author's tone.",
+      "translation_quote": "אתגר לומר שיכולנו לשמוע שבעה אנשים שיתנו את דעתם על הנושא ולקבל אולי שמונה דעות שונות."
+    },
+    {
+      "location": "source.html second paragraph (\"I begin with the disclaimer...\")",
+      "severity": "minor",
+      "source_quote": "I begin with the disclaimer that these are my thoughts, and I am quite okay with someone disagreeing.",
+      "suggested_fix": "The Hebrew uses הכחשה (denial) which changes tone. Replace with a neutral \"הצהרת אחריות\" or \"תנאי פרסום\". Suggested Hebrew: \"אני מתחיל בהצהרת אחריות: אלו מחשבותיי ואני לגמרי מוכן שאחרים יחלוקו עלי.\"",
+      "translation_quote": "אני מתחיל בהכחשה שאלה הן מחשבותיי, ואני לגמרי מוכן שמישהו יחלוק עליהן."
+    },
+    {
+      "location": "source.html paragraph about smallpox vaccination (\"smallpox\")",
+      "severity": "major",
+      "source_quote": "I went with my mother to the health department and received a vaccination in my upper arm for smallpox. (The pock mark is still there)",
+      "suggested_fix": "Correct translation of 'smallpox' to the proper Hebrew term. The source refers to smallpox (variola). The Hebrew translation uses 'אבעבועות רוח' (chickenpox). Replace with the correct target-language term for smallpox (commonly 'אבעבועות שחורות' or the publisher's preferred term), and keep parenthetical remark. Example: \"קיבלתי חיסון בזרוע העליונה נגד אבעבועות שחורות. (הצלקת עדיין שם)\"",
+      "translation_quote": "קיבלתי חיסון בזרוע העליונה נגד אבעבועות רוח. (הצלקת עדיין שם)"
+    },
+    {
+      "location": "source.html paragraph about pigweeds (\"pigweeds\")",
+      "severity": "major",
+      "source_quote": "We didn’t realize how fast our troublesome ‘pigweeds’ (and other weeds) in the south, would mutate and develop a resistance to glyphosate.",
+      "suggested_fix": "The translation rendered 'pigweeds' as \"ה'צמדי חזיר'\" which is incorrect and not a usable Hebrew plant name. Replace with an accurate translation or transliteration and, if desired, keep the Latin/common name in parentheses. For example: \"לא הבנו כמה מהר העשבים השוטים המדוברים, כגון ה-Palmer amaranth (Pigweed) בדרום, יעברו מוטציות ויפתחו עמידות לגליפוסאט.\" Or use a Hebrew common name used in Israeli/agricultural sources. Preserve sense that these are weeds developing resistance.",
+      "translation_quote": "לא הבנו כמה מהר ה'צמדי חזיר' המטרידים שלנו (ועשבים אחרים) בדרום ישנו את עצמם ויפתחו עמידות לגליפוסאט."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

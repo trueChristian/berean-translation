@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "cf523a35-466a-4464-b61b-fb3ad1b0d72b",
+    "response_id": "chatcmpl-EUX3YmV53iUMrNHUOopzBjcJFL0XM",
+    "usage": {
+      "completion_tokens": 881,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5513,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6394
+    }
+  },
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph beginning with 'Source:' (source.html)",
+        "severity": "minor",
+        "source_quote": "Source:\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction",
+        "suggested_fix": "Translate the label “Source:” into Hindi to match the target-language rendering of the rest of the article while keeping the URL unchanged. For example: “स्रोत:\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction”",
+        "translation_quote": "Source:\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

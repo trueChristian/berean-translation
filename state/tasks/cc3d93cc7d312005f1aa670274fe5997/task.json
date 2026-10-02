@@ -2,7 +2,6 @@
   "article_id": "34125090-b480-4d63-b13a-33d47470f335",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:40+00:00",
   "events": [
@@ -24,9 +23,58 @@
         },
         "total_tokens": 8975
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1823,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8700,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10523
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html — multiple scripture citations (e.g. the first paragraph, Matthew 4:18-22 and many others)",
+      "severity": "critical",
+      "source_quote": "…–Matthew 4:18-22.\n\n…–Matthew 3:11-12.\n\n–Luke 8:1-3.\n\n–Luke 5:20.\n\n–Luke 5:21.\n\n–Luke 5:22-24.\n\n–Romans 10:3.\n\n–Isaiah 64:6.\n\n–Ephesians 1:7.\n\n–Luke 7:37-39.\n\n–Luke 7:44-47.\n\n–Luke 7:48.\n\n–Matthew 1:21.",
+      "suggested_fix": "Translate all quoted Scripture book names into standard contemporary Hindi (keep chapter and verse numbers exactly as in the source). Do not change the verse numbers or ranges. Examples of conventional translations to use: Matthew → मत्ती, Luke → लूका, John → यूहन्ना, Isaiah → यशायाह, Romans → रोमियों (or रोम), Ephesians → इफिसियों, etc. Apply this consistently for every inline citation and verse citation in the article (including the short parenthetical references and the em‑formatted quoted passages). For example: “–Matthew 4:18-22.” → “–मत्ती 4:18-22.”; “–Luke 8:1-3.” → “–लूका 8:1-3.”. Ensure every instance in the translation where a Scripture citation appears follows this form (book name in Hindi + original chapter:verse).",
+      "translation_quote": "…–Matthew 4:18-22.\n\n…–Matthew 3:11-12.\n\n–Luke 8:1-3.\n\n–Luke 5:20.\n\n–Luke 5:21.\n\n–Luke 5:22-24.\n\n–Romans 10:3.\n\n–Isaiah 64:6.\n\n–Ephesians 1:7.\n\n–Luke 7:37-39.\n\n–Luke 7:44-47.\n\n–Luke 7:48.\n\n–Matthew 1:21."
+    },
+    {
+      "location": "source.subtitle / translation.subtitle",
+      "severity": "major",
+      "source_quote": "The second article in the series “The Call of Discipleship”",
+      "suggested_fix": "Translate the subtitle to faithfully reflect the English meaning. The English phrase “The Call of Discipleship” refers to the theme/title of the series and should be translated as शिष्यत्व का आह्वान (or another equivalent that preserves 'call' and 'discipleship'). The full subtitle could be: “शृंखला ‘शिष्यत्व का आह्वान’ का दूसरा लेख”. Replace the current translation (“अनुशासन के आह्वान”) which incorrectly renders 'discipleship' as 'discipline'.",
+      "translation_quote": "“अनुशासन के आह्वान” श्रृंखला का दूसरा लेख"
+    },
+    {
+      "location": "source.section / translation.section",
+      "severity": "major",
+      "source_quote": "The New Testament Church",
+      "suggested_fix": "Translate the section title into natural contemporary Hindi conveying the intended meaning. The current translation (\"नया नियमनीय गिरजाघर\") is awkward and inaccurate. A clearer, faithful rendering would be: “नए नियम की कलीसिया” or simply “नया नियम: कलीसिया” or “नए नियम की चर्च”. Use one consistent form throughout the site; for contemporary standard Hindi, I suggest: “नए नियम की कलीसिया”.",
+      "translation_quote": "नया नियमनीय गिरजाघर"
+    },
+    {
+      "location": "source.html — paragraph with English word left in parentheses",
+      "severity": "minor",
+      "source_quote": "Holiness is the full sum of the righteousness of Jesus manifested in our lives by the work of regeneration and the inner renewing of the Holy Ghost.",
+      "suggested_fix": "Remove or translate the residual English word in parentheses. In the translation the sentence contains “यीशु की धार्मिकता (righteousness)”. Replace the parenthetical English with a Hindi term (for example, remove the parentheses and use only a Hindi word: \"यीशु की धार्मिकता\" or, if a clarifying synonym is desired, \"धार्मिकता/धर्मशोभा\"—but do not leave the English word). Ensure no substantive English words that affect meaning remain in the translated body text.",
+      "translation_quote": "यीशु की धार्मिकता (righteousness)"
+    }
+  ],
   "id": "cc3d93cc7d312005f1aa670274fe5997",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "hin",
@@ -100,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 65,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/21c8641ce0ae285627965ca28d18397c39ccff0fa09ba301857fc1d0049b6b9d.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "b3a0b32450038629cf20919c69af275c4549e0b458e25e2b5d03da547dfb97f7",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

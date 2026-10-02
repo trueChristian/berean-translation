@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "07726c5e-3e90-483b-8298-3d0460ae583d",
+    "response_id": "chatcmpl-EUX3YpfrGRAeM6vdGPsOzUaQpislB",
+    "usage": {
+      "completion_tokens": 2336,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5588,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7924
+    }
+  },
+  "received_at": "2026-10-02T12:55:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening Scripture (first <p><em> element)",
+        "severity": "major",
+        "source_quote": "Thou art worthy, O Lord, to receive glory and honour and power: for thou hast created all things, and for thy pleasure they are and were created –Revelation 4:11.",
+        "suggested_fix": "Translate the verse accurately into Hebrew, preserving meaning of 'glory, honour, and power' and the reference. For example: \"אתה ראוי, אדוני, לקבל כבוד, ועתיר הדר, ועוז: כי אתה בראת כל הנוצרים, ובחפצך הם נבראו – ההתגלות לְיוֹחָנָן 4:11.\" (Or use conventional Hebrew wording: \"אתה ראוי, אדוני, לקבל כבוד, והדר, ועז; כי אתה בראת את כל הדברים, ובחפצך הם והיו נבראים. — התגלות 4:11.\")",
+        "translation_quote": "\"אתה ראוי, אדון, לקבל כבוד והדר ושלוה: כי אתה בראת כל הדברים, ובחפצך הם נבראו – חזון יוחנן 4:11.\""
+      },
+      {
+        "location": "Paragraph about Oliver Holden (near \"Coronation\" mention)",
+        "severity": "major",
+        "source_quote": "\"Coronation,\" composed by Oliver Holden, a Massachusetts carpenter, self-taught musician, and respected singing-school teacher, is most widely used in America.",
+        "suggested_fix": "Correctly render the occupations and modifiers: e.g. \"'Coronation,' שחיבר אוליבר הולדן, נגר ממסצ'וסטס, מוזיקאי אוטודידקט ומורה מכובד בבתי-ספר לשירה, נפוצה ביותר בארצות הברית.\" Preserve order and meaning.",
+        "translation_quote": "\"\\\"Coronation,\\\" בהרכבת אוליבר הולדן, נגר ממאסצ'וסטס, נגרים ותושב מנגן אוטודידקט, ומורה מכובד בבתי ספר לשירה, משמשת ביותר בארצות הברית.\""
+      },
+      {
+        "location": "Reference to Rev. John Rippon (paragraph about 1787 addition)",
+        "severity": "major",
+        "source_quote": "As it now stands in our hymnbooks, the hymn is shortened and changed, and one stanza has been added by the famous hymn collector, Rev. John Rippon, in 1787.",
+        "suggested_fix": "Render the honorific and name correctly in Hebrew. For example: \"ובשנת 1787 נוסף עליו בית אחד על ידי אוסף המנונים המפורסם, הרו׳׳ח ג'ון ריפון (Rev. John Rippon).\" Or simply: \"הרב ג'ון ריפון.\" Do not produce garbled transliteration.",
+        "translation_quote": "\"...ובשנת 1787 נוסף עליו בית אחד על ידי אוסף המנוני המפורסם, הרֵוָו ק. ג'ון ריפון.\""
+      },
+      {
+        "location": "Hymn stanza 4 (lyrics div)",
+        "severity": "major",
+        "source_quote": "Crown Him, ye martyrs of your God, Who from His altar call; Extol the stem of Jesse’s rod, And crown Him Lord of all!",
+        "suggested_fix": "Translate 'martyrs' and the clause 'Who from His altar call' faithfully. For example: \"המליכוהו, אתם מעידים על האל שלכם / אתם קדושים שנשחטו למענו, הקוראים מהמאזבח שלו; שבחו את שיבת שושלת ישי, והמליכוהו כאדון על הכל!\" Or: \"המליכוהו, אתם קדושי ה' שקראו ממנו מן המזבח; שבחו את גזע ישי, והמליכוהו...\" Keep theological sense: 'martyrs' = \"קדושים/משתפכין\" and 'from His altar call' = 'המזבח שלו קורא להם' — rephrase to match Hebrew idiom while preserving meaning.",
+        "translation_quote": "\"המליכוהו, קדושים שעברתם על מזבח אלוהיכם,<br>\n    שהזמינו אותו מן המזבח;<br>\n    גוללו לתהילה את גזע משיח ישי,<br>\n    והמליכוהו כאדון על הכל!\""
+      },
+      {
+        "location": "Hymn stanza 3 (lyrics div)",
+        "severity": "minor",
+        "source_quote": "Crown Him, ye morning stars of light, Who fixed this floating ball, Now hail the Strength of Israel’s might, And crown Him Lord of all!",
+        "suggested_fix": "Correct agreement and clarity for 'Who fixed this floating ball.' Suggested Hebrew: \"המליכוהו, כוכבי הבוקר של האור, שהעמידו/ שקיבעו את הכדור הצף הזה\" — better: \"שהציבו את עולם היקום\" or \"שעליו נחה בריאת העולם\". Ensure singular/plural agreement matches English subject.",
+        "translation_quote": "\"המליכוהו, כוכבי הבוקר של האור,<br>\n    שהקבעו את הכדור הצף הזה;<br>\n    עכשיו שברכו את כוחו של עם ישראל,<br>\n    והמליכוהו כאדון על הכל!\""
+      },
+      {
+        "location": "Use of English hymn title inside Hebrew sentence (early paragraph)",
+        "severity": "minor",
+        "source_quote": "The text of this hymn, All Hail the Power of Jesus Name, has been translated into almost every language where Christianity is known.",
+        "suggested_fix": "Either translate the English title into Hebrew in-line or present the English title in quotes with a Hebrew translation. For example: \"טקסט המנון זה — 'All Hail the Power of Jesus' Name' (בעברית: 'ישר כוח לשמו של ישוע') — תורגם...\" Leaving the English title entirely unmarked can interrupt Hebrew flow.",
+        "translation_quote": "\"טקסט המנון זה, All Hail the Power of Jesus Name, תורגם כמעט לכל שפה שבה ידועה הנצרות.\""
+      }
+    ],
+    "passed": false,
+    "score": 62
+  }
+}

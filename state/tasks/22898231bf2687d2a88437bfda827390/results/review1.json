@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "50842762-3180-4b8f-bda7-4a3ba1003a43",
+    "response_id": "chatcmpl-EUX3nhbrc3oaG6vzFRsDjemYIP5nv",
+    "usage": {
+      "completion_tokens": 568,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10548,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11116
+    }
+  },
+  "received_at": "2026-10-02T12:55:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.title",
+        "severity": "major",
+        "source_quote": "Depression",
+        "suggested_fix": "Translate the English title into Dutch. Replace the translation title text with a natural Dutch rendering such as: \"Depressie\".",
+        "translation_quote": "Depression"
+      },
+      {
+        "location": "source.section",
+        "severity": "major",
+        "source_quote": "A Word From A Doctor",
+        "suggested_fix": "Translate the section/strapline into Dutch. Replace the translation section text with a natural Dutch rendering such as: \"Een woord van een (huis)arts\" or \"Een woord van een dokter\" (consistent with site style).",
+        "translation_quote": "A Word From A Doctor"
+      },
+      {
+        "location": "article body — paragraph mentioning Job’s friends",
+        "severity": "minor",
+        "source_quote": "We know the story of Job’s friends.",
+        "suggested_fix": "Fix the English-style possessive in Dutch. Replace “Job’s vrienden” with the standard Dutch form without an apostrophe, e.g. \"Jobs vrienden\" or rephrase to \"We kennen het verhaal van de vrienden van Job.\"",
+        "translation_quote": "We kennen het verhaal van Job’s vrienden."
+      }
+    ],
+    "passed": false,
+    "score": 85
+  }
+}

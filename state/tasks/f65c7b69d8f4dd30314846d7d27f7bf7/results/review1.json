@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1e1880ae-986b-4d37-80fd-4585c0b33aad",
+    "response_id": "chatcmpl-EUX3rXaF2f7WIXjAsADiTpwPQ0feU",
+    "usage": {
+      "completion_tokens": 1132,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5695,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6827
+    }
+  },
+  "received_at": "2026-10-02T12:55:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.title",
+        "severity": "major",
+        "source_quote": "Why I Have Not Gotten the Covid Shot",
+        "suggested_fix": "Translate the English title into standard contemporary Dutch, preserving meaning and tone. For example: \"Waarom ik de covidprik niet heb genomen\" or \"Waarom ik de Covid-prik niet heb laten zetten.\" Replace the current English title text with the chosen Dutch rendering.",
+        "translation_quote": "Why I Have Not Gotten the Covid Shot"
+      },
+      {
+        "location": "source.section",
+        "severity": "major",
+        "source_quote": "Issues Facing the Church",
+        "suggested_fix": "Translate the English section label into Dutch. Use a natural, standard rendering that fits the website's tone. For example: \"Vraagstukken voor de kerk\" or \"Kwesties waarmee de kerk wordt geconfronteerd.\" Replace the current English section text with the chosen Dutch rendering.",
+        "translation_quote": "Issues Facing the Church"
+      },
+      {
+        "location": "<article> paragraph: \"This is the way our Maker designed us. One of the first people I personally knew that had Covid was told they would have six months of immunity. I wondered how they figured that out so quickly.\"",
+        "severity": "minor",
+        "source_quote": "This is the way our Maker designed us. One of the first people I personally knew that had Covid was told they would have six months of immunity. I wondered how they figured that out so quickly. This was a new virus, and we had no experience to draw on for this virus. Also, the viruses we were familiar with gave lifetime immunity to that strain. So what science was behind this?",
+        "suggested_fix": "Correct the grammatical gender/relative pronoun for \"stam\" in Dutch. Replace \"ons lichaam immuniteit tegen dat stam opbouwde\" with \"ons lichaam immuniteit tegen die stam opbouwde.\" (Keep tags and paragraph structure unchanged.)",
+        "translation_quote": "Zo heeft onze Schepper ons ontworpen. Een van de eerste mensen die ik persoonlijk kende die Covid had, werd verteld dat ze zes maanden immuniteit zouden hebben. Ik vroeg me af hoe ze dat zo snel konden uitrekenen. Dit was een nieuw virus, en we hadden geen ervaring om op terug te vallen voor dit virus. Ook gaven de virussen die we kenden levenslange immuniteit tegen dat stam. Dus op welke wetenschap was dit gebaseerd?"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

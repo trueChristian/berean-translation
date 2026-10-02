@@ -2,7 +2,6 @@
   "article_id": "53e8b534-1f5e-4d9d-b191-99707a404256",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 13614
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1617,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13119,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14736
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html — opening verse (Exodus 3:1)",
+      "severity": "minor",
+      "source_quote": "Now Moses kept the flock of Jethro his father-in-law, the priest of Midian: and he led the flock to the backside of the desert, and came to the mountain of God, even to Horeb –Exodus 3:1.",
+      "suggested_fix": "Translate the place-name in a conventional Modern Greek form and keep natural contemporary orthography. For example: «Ο Μωυσής φύλαγε τα πρόβατα του Ιεθρώ, του πενθέρου του, ιερέα της Μιδιάν· και οδήγησε τα πρόβατα στο πίσω μέρος της ερήμου και έφτασε στο όρος του Θεού, στο Χωρήβ (Έξοδος 3:1).» Preserve the verse reference format (Έξοδος 3:1).",
+      "translation_quote": "<em>Τώρα ο Μωυσης εφυλασσέ τα πρόβατα του Ιεθρὼ του πενθέρου αυτού, ιερεία της Μιδιάν· και επήγε τα πρόβατα εις το μετάπλευρον της ερήμου, και ήλθεν εις τον όρος του Θεού, εις το Ώρεν –Έξοδος 3:1.</em>"
+    },
+    {
+      "location": "throughout — Scripture quotations (diacritics and style)",
+      "severity": "minor",
+      "source_quote": "Quoted Scripture passages in the source are in standard contemporary English (e.g., Exodus 3:1; Acts 7:22-23; Matthew 11:29; Hebrews 12:6-8).",
+      "suggested_fix": "Render all quoted Scripture in contemporary Monotonic Modern Greek orthography and idiom (no polytonic or inconsistent diacritics), using conventional Modern Greek punctuation and book names (e.g., «Πράξεις 7:22-23», «Κατά Ματθαίον 11:29», «Εβραίους 12:6-8»). Ensure quotes read naturally in Modern Greek while faithfully conveying the English text. Example fix for Acts 7:22-23: «…μάθαινε κάθε σοφίαν των Αιγυπτίων, και ήταν ισχυρός σε λόγους και έργα. Και όταν ήταν τετράκοντα ετών, ενεφύσησε στην καρδιά του να επισκεφθεί τους αδελφούς του, τους υιούς Ισραήλ (Πράξεις 7:22-23).»",
+      "translation_quote": "Several scripture quotations use polytonic or mixed orthography, archaizing forms, or inconsistent book abbreviations (examples: «Πραξ. 7:22-23», «Παροιμίαι 17:3» with polytonic diacritics, «Κατ. Ματθ. 11:29»)."
+    },
+    {
+      "location": "source.title / opening verse — rendering of 'backside of the desert' and 'Horeb'",
+      "severity": "minor",
+      "source_quote": "the backside of the desert has long been understood as God’s school... (and Exodus 3:1 mentions 'Horeb').",
+      "suggested_fix": "Use natural Modern Greek idiom for 'the backside of the desert' (e.g., «το πίσω μέρος της ερήμου» or «η άλλη πλευρά της ερήμου») and a standard Modern Greek form for 'Horeb' (Χωρήβ or Χωρήβ/Χωρήβ depending on your editorial preference). For example: «Το πίσω μέρος της ερήμου έχει πολύ καιρό θεωρηθεί ως το σχολείο του Θεού…» and in the verse render «…στο όρος του Θεού, στο Χωρήβ (Έξοδος 3:1).»",
+      "translation_quote": "«... επήγε τα πρόβατα εις το μετάπλευρον της ερήμου ... εις το Ώρεν –Έξοδος 3:1.»"
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:18+00:00",
   "id": "641701bcdc814d06472e1a9bc29a0fdb",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ell",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/365d9282d87d4aa677224ff762d700ce731f7082e9ff05f45c1ca235035b1881.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "fa6973e1c0869cf8ea44c825b0af02960182750ad2e2fbf60dce9af0c7f03feb",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

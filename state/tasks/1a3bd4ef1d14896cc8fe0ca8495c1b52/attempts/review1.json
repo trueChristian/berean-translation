@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph: \\\"Some people may have poor coping skills.\\\" (around the paragraph discussing street drugs)\",\"severity\":\"minor\",\"source_quote\":\"Some people may have poor coping skills. Unfortunately, many turn to street drugs or alcohol to try to smother the feelings that they can’t control otherwise.\",\"suggested_fix\":\"Translate the English term \\\"street drugs\\\" into contemporary Norwegian Bokmål. For example: \\\"Dessverre tyr mange til gate- eller rusmidler (ulovlige rusmidler) eller alkohol for å forsøke å kvele følelser de ellers ikke klarer å kontrollere.\\\" Preserve the original sentence structure and HTML tags.\",\"translation_quote\":\"Noen mennesker kan ha dårlige mestringsstrategier. Dessverre tyr mange til street drugs eller alkohol for å forsøke å kvele følelser de ellers ikke klarer å kontrollere.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 878,
+    "content_evidence_truncated": false,
+    "content_sha256": "8adaa8476f232f7ea6c523bb86e85400dcc2a600bbe6adf6c45ca068339dbfe8",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 783,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10901,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11684
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

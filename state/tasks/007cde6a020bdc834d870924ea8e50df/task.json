@@ -2,7 +2,6 @@
   "article_id": "9b13e502-993c-4536-a32d-ae1a62c36db5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,65 @@
         },
         "total_tokens": 3970
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1628,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3695,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5323
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>… Den ble holdt bak et høyt piggtrådgjerde knyttet til et gammelt skur.</p>",
+      "severity": "major",
+      "source_quote": "He was kept behind a high wire fence connected to an old shed.",
+      "suggested_fix": "Oversett til et nøytralt og bokmålsmessig uttrykk som gjengir «high wire fence» uten å tilføre ny teknisk detalj. Forslag: «Den ble holdt bak et høyt gjerde av tråd som var festet til et gammelt skur.» Behold HTML-taggen uendret.",
+      "translation_quote": "Den ble holdt bak et høyt piggtrådgjerde knyttet til et gammelt skur."
+    },
+    {
+      "location": "<title>Reddet fra „løvens\" gap</title> (translation.title)",
+      "severity": "minor",
+      "source_quote": "Saved From the “Lion’s” Mouth",
+      "suggested_fix": "Korriger ujevn og uheldig bruk av anførselstegn. Bruk korrekte norske anførselstegn eller rette doble anførselstegn konsekvent. Forslag: «Reddet fra «løvens» gap» eller «Reddet fra «løvens» gap» (med vanlige norske vinkelanførselstegn).",
+      "translation_quote": "Reddet fra „løvens\" gap"
+    },
+    {
+      "location": "<p>Vi bodde på en gammel gård, tilbake langs en liten vei på en grusvei.</p>",
+      "severity": "minor",
+      "source_quote": "We lived on an old farm, back a short lane along a dirt road.",
+      "suggested_fix": "Setningen er litt klossete/duplikat på norsk. Foreslå en mer idiomatisk gjengivelse uten å endre HTML-strukturen. Forslag: «Vi bodde på en gammel gård, tilbake langs en liten grusvei.»",
+      "translation_quote": "Vi bodde på en gammel gård, tilbake langs en liten vei på en grusvei."
+    },
+    {
+      "location": "<p>«Åh, det var omtrent en halv mile til vår nærmeste nabo…»</p>",
+      "severity": "minor",
+      "source_quote": "Oh, it was about half a mile to our closest neighbor…",
+      "suggested_fix": "Enhet «mile» kan forvirre norske lesere (norsk 'mil' betyr 10 km). Behold tallverdien, men gjør enheten klar eller behold originalordet i kursiv. Forslag: «… omtrent en halv mile (half a mile) til vår nærmeste nabo…» eller oversett til metrisk om ønskelig: «omtrent 800 meter».",
+      "translation_quote": "Åh, det var omtrent en halv mile til vår nærmeste nabo, Rhine-familien, og så omtrent en kvart mile til Brightbill-familien,"
+    },
+    {
+      "location": "<p>… med hendene bak seg på det hardpakkede grustaket…</p>",
+      "severity": "minor",
+      "source_quote": "… sitting in the middle of the dirt road, with her hands behind her on the hard packed gravel…",
+      "suggested_fix": "«grustaket» betyr vanligvis 'gravel pit' og endrer bildet. Bruk en presis beskrivelse som bevarer meningen: «det hardpakkede gruslaget» eller «det hardpakkede grusteppet». Forslag: «… med hendene bak seg på det hardpakkede gruslaget…»",
+      "translation_quote": "med hendene bak seg på det hardpakkede grustaket, føtter og ben i været, sparkende og sparkende,"
+    }
+  ],
   "id": "007cde6a020bdc834d870924ea8e50df",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "nob",
@@ -100,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 80,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/024b14cea96a528a42f66f77d442fb07d0e5035a02e35254ae96bf4fcc0c193f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

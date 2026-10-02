@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>… Den ble holdt bak et høyt piggtrådgjerde knyttet til et gammelt skur.</p>\",\"severity\":\"major\",\"source_quote\":\"He was kept behind a high wire fence connected to an old shed.\",\"suggested_fix\":\"Oversett til et nøytralt og bokmålsmessig uttrykk som gjengir «high wire fence» uten å tilføre ny teknisk detalj. Forslag: «Den ble holdt bak et høyt gjerde av tråd som var festet til et gammelt skur.» Behold HTML-taggen uendret.\",\"translation_quote\":\"Den ble holdt bak et høyt piggtrådgjerde knyttet til et gammelt skur.\"},{\"location\":\"<title>Reddet fra „løvens\\\" gap</title> (translation.title)\",\"severity\":\"minor\",\"source_quote\":\"Saved From the “Lion’s” Mouth\",\"suggested_fix\":\"Korriger ujevn og uheldig bruk av anførselstegn. Bruk korrekte norske anførselstegn eller rette doble anførselstegn konsekvent. Forslag: «Reddet fra «løvens» gap» eller «Reddet fra «løvens» gap» (med vanlige norske vinkelanførselstegn).\",\"translation_quote\":\"Reddet fra „løvens\\\" gap\"},{\"location\":\"<p>Vi bodde på en gammel gård, tilbake langs en liten vei på en grusvei.</p>\",\"severity\":\"minor\",\"source_quote\":\"We lived on an old farm, back a short lane along a dirt road.\",\"suggested_fix\":\"Setningen er litt klossete/duplikat på norsk. Foreslå en mer idiomatisk gjengivelse uten å endre HTML-strukturen. Forslag: «Vi bodde på en gammel gård, tilbake langs en liten grusvei.»\",\"translation_quote\":\"Vi bodde på en gammel gård, tilbake langs en liten vei på en grusvei.\"},{\"location\":\"<p>«Åh, det var omtrent en halv mile til vår nærmeste nabo…»</p>\",\"severity\":\"minor\",\"source_quote\":\"Oh, it was about half a mile to our closest neighbor…\",\"suggested_fix\":\"Enhet «mile» kan forvirre norske lesere (norsk 'mil' betyr 10 km). Behold tallverdien, men gjør enheten klar eller behold originalordet i kursiv. Forslag: «… omtrent en halv mile (half a mile) til vår nærmeste nabo…» eller oversett til metrisk om ønskelig: «omtrent 800 meter».\",\"translation_quote\":\"Åh, det var omtrent en halv mile til vår nærmeste nabo, Rhine-familien, og så omtrent en kvart mile til Brightbill-familien,\"},{\"location\":\"<p>… med hendene bak seg på det hardpakkede grustaket…</p>\",\"severity\":\"minor\",\"source_quote\":\"… sitting in the middle of the dirt road, with her hands behind her on the hard packed gravel…\",\"suggested_fix\":\"«grustaket» betyr vanligvis 'gravel pit' og endrer bildet. Bruk en presis beskrivelse som bevarer meningen: «det hardpakkede gruslaget» eller «det hardpakkede grusteppet». Forslag: «… med hendene bak seg på det hardpakkede gruslaget…»\",\"translation_quote\":\"med hendene bak seg på det hardpakkede grustaket, føtter og ben i været, sparkende og sparkende,\"}],\"passed\":false,\"score\":80}",
+    "content_bytes": 2798,
+    "content_evidence_truncated": false,
+    "content_sha256": "13156ac832ed69fd1e45cf10eec31f859f25cface2d5dde0a539093fe82da3e0",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1628,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3695,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5323
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

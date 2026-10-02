@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "<p>Hilsener til hver enkelt i den verdige navn Jesus Kristus, vår Frelser og vår Forløser.</p>",
+      "severity": "minor",
+      "source_quote": "Greetings to each one in the worthy name of Jesus Christ, our Saviour, and our Redeemer.",
+      "suggested_fix": "Korriger norsk grammatikk og idiom: «Hilsener til hver enkelt i det verdige navn av Jesus Kristus, vår Frelser og vår Forløser.» Alternativt mer idiomatisk: «Hilsener til hver enkelt i Jesu Kristi, vår Frelser og Forløser, verdige navn.»",
+      "translation_quote": "Hilsener til hver enkelt i den verdige navn Jesus Kristus, vår Frelser og vår Forløser."
+    },
+    {
+      "location": "<p>Han ble rykket opp fra sitt komfortable liv i Egypt som adoptert sønn av kongelighet og ble så sendt av Gud ut i ørkenen...</p>",
+      "severity": "minor",
+      "source_quote": "He was uprooted from his comfortable lifestyle in Egypt as an adopted son of royalty and was then sent by God into the desert...",
+      "suggested_fix": "«adopted son of royalty» bør gjengis mer idiomatisk: «adoptert sønn i kongelighet» eller bedre «adoptert sønn av kongelige» eller «adoptert sønn i en kongelig familie.» Foreslått rettelse: «Han ble rykket opp fra sitt komfortable liv i Egypt som adoptert sønn i en kongelig familie…»",
+      "translation_quote": "Han ble rykket opp fra sitt komfortable liv i Egypt som adoptert sønn av kongelighet og ble så sendt av Gud ut i ørkenen for å lære noen høyst nødvendige lekser..."
+    },
+    {
+      "location": "<p>Når vi ser på Jonas’ liv, får vi glimt av «Den Gud som ikke gir slipp». ... men sannheten er denne—bibelen Gud slipper oss ikke bare, eller vender ryggen til oss, det øyeblikket vi tar et feilskritt eller snur feil vei.</p>",
+      "severity": "minor",
+      "source_quote": "Often a struggling believer loses sight of the Truth of God because they believe the lie that no one cares, yet the truth of the matter is this—the God of the Bible doesn’t just drop us, or turn His back on us, the instant that we take a wrong turn or a misstep.",
+      "suggested_fix": "Setningen har grammatikk- og stilfeil som kan forstyrre meningsforståelsen. Forslag: «...men sannheten er denne — Gud i Bibelen slipper oss ikke bare, eller vender ryggen til oss i det øyeblikk vi tar et feilskritt eller snur feil vei.» Sørg for stor forbokstav i «Bibelen» og at «Gud i Bibelen» står som en enhet.",
+      "translation_quote": "Ofte mister en troende i kamp synet av Guds sannhet fordi vedkommende tror løgnen om at ingen bryr seg, men sannheten er denne—bibelen Gud slipper oss ikke bare, eller vender ryggen til oss, det øyeblikket vi tar et feilskritt eller snur feil vei."
+    },
+    {
+      "location": "<p>«…fremmede og fremmede på jorden. [Mens vi] …bekjenner åpenlyst at [vi] søker et land …et bedre land, det vil si et himmelsk: hvorfore Gud er ikke skammer seg for å kalles [vår] Gud: for han har beredt for [oss] en by – Hebreerne 11:13-16.»</p>",
+      "severity": "major",
+      "source_quote": "...we must function as ...strangers and pilgrims on the earth. [While we] ...declare plainly that [we] seek a country ...a better country, that is, an heavenly: wherefore God is not ashamed to be called [our] God: for he hath prepared for [us] a city –Hebrews 11:13-16.",
+      "suggested_fix": "Den norske versjonen gjengir «strangers and pilgrims» som «fremmede og fremmede», som er en feiloversettelse (repetisjon). Forslag til korrekt, trofast gjengivelse: «…fremmede og pilegrimer på jorden. [Mens vi] …bekjenner åpenlyst at [vi] søker et land …et bedre land, det vil si et himmelsk: derfor skammer ikke Gud seg for å kalles [vår] Gud: for han har beredt for [oss] en by – Hebreerne 11:13-16.» Behold hakeparenteser og vershenvisning som i originalen.",
+      "translation_quote": "Når vi forstår og utvikler et personlig verdensbilde som er grunnfestet på prinsippet om to riker, innser vi at vi må fungere som <em>…fremmede og fremmede på jorden. [Mens vi] …bekjenner åpenlyst at [vi] søker et land …et bedre land, det vil si et himmelsk: hvorfore Gud er ikke skammer seg for å kalles [vår] Gud: for han har beredt for [oss] en by – Hebreerne 11:13-16.</em>"
+    },
+    {
+      "location": "<p>...La oss alltid minne oss om at <em>…Den rettferdiges bønner som er virksom og varmt bedt, står i mye—Jakob 5:16.</em></p>",
+      "severity": "major",
+      "source_quote": "Let us always remember that <em>…The effectual fervent prayer of a righteous man availeth much –James 5:16.</em>",
+      "suggested_fix": "Norsk setning er grammatikalsk og meningsmessig feil («står i mye»). Behold bibelhenvisningen, men gjengi verset på norsk på en klar og trofast måte. Foreslått rettelse (naturlig bokmål): «La oss alltid huske at …Den virksomme, inderlige bønn fra en rettferdig rykker meget fram – Jakob 5:16.» Alternativ mer idiomatisk: «…Den virksomme forbønnen fra en rettferdig har stor kraft – Jakob 5:16.»",
+      "translation_quote": "La oss alltid minne oss om at <em>…Den rettferdiges bønner som er virksom og varmt bedt, står i mye—Jakob 5:16.</em>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph describing Otto Andres / Danzig (translation paragraph containing \"Otto Andres devint le naz i le mieux classé après le premier dans la région de Dantzig...\")",
+      "severity": "minor",
+      "source_quote": "Otto Andres became the second-highest ranked Nazi of the Danzig area",
+      "suggested_fix": "Correct the garbled phrase and render the rank clearly in French while preserving meaning. For example: \"Otto Andres devint le deuxième nazi le mieux classé dans la région de Dantzig\" or \"Otto Andres devint le deuxième dirigeant nazi le mieux classé dans la région de Dantzig.\" Preserve placement and tags.",
+      "translation_quote": "Otto Andres devint le naz i le mieux classé après le premier dans la région de Dantzig, et des dizaines des 6 000 croyants des congrégations environnantes rejoignirent diverses organisations nazies."
+    },
+    {
+      "location": "Source line at end of article",
+      "severity": "minor",
+      "source_quote": "Source:\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction",
+      "suggested_fix": "Translate the label 'Source:' into French to match target-language conventions. For example: \"Source : anabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction\" (leave the URL unchanged).",
+      "translation_quote": "Source:\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

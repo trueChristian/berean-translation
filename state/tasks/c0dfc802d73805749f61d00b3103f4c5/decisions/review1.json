@@ -1,0 +1,63 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing Revelation 13:16-17 (around: \"And he causeth all, both small and great...\")",
+      "severity": "critical",
+      "source_quote": "And he causeth all, both small and great, rich and poor, free and bond, to receive a mark in their right hand, or in their foreheads: And that no man might buy or sell, save he that had the mark, or the name of the beast, or the number of his name –Revelation 13:16-17.",
+      "suggested_fix": "Translate the quoted Scripture into Italian and use the conventional Italian book name. Example replacement text (preserving the same surrounding HTML/emphasis): «E fece sì che tutti, i piccoli e i grandi, i ricchi e i poveri, i liberi e i servi, ricevessero un marchio sulla mano destra o sulla fronte; e che nessuno potesse comprare o vendere, se non colui che avesse il marchio, o il nome della bestia, o il numero del suo nome» – Apocalisse 13:16-17.",
+      "translation_quote": "And he causeth all, both small and great, rich and poor, free and bond, to receive a mark in their right hand, or in their foreheads: And that no man might buy or sell, save he that had the mark, or the name of the beast, or the number of his name –Revelation 13:16-17."
+    },
+    {
+      "location": "Paragraph with parenthetical citation \"–See Matthew 24:21 and Revelation 7:14.\"",
+      "severity": "major",
+      "source_quote": "–See Matthew 24:21 and Revelation 7:14.",
+      "suggested_fix": "Replace the English book names with Italian equivalents and translate the cue word. Example: «–Vedi Matteo 24:21 e Apocalisse 7:14.»",
+      "translation_quote": "–Vedi Matthew 24:21 and Revelation 7:14."
+    },
+    {
+      "location": "Paragraph quoting 2 Corinthians 6:17 (around: \"Wherefore come out from among them, and be ye separate...\")",
+      "severity": "critical",
+      "source_quote": "Wherefore come out from among them, and be ye separate, saith the Lord, and touch not the unclean thing; and I will receive you –2 Corinthians 6:17.",
+      "suggested_fix": "Translate the Bible quotation into Italian and use the conventional Italian book name. Example replacement (preserving emphasis/tags): «Perciò, uscite dal loro mezzo e separatevi, dice il Signore, e separatevi dalle cose immunde; e io vi accoglierò» – 2 Corinzi 6:17.",
+      "translation_quote": "Wherefore come out from among them, and be ye separate, saith the Lord, and touch not the unclean thing; and I will receive you –2 Corinthians 6:17."
+    },
+    {
+      "location": "Paragraph referencing Revelation 14:10-11 and quoting Revelation 14:12 (around: \"Here is the patience of the saints...\")",
+      "severity": "critical",
+      "source_quote": "Here is the patience of the saints: here are they that keep the commandments of God, and the faith of Jesus –Revelation 14:12.",
+      "suggested_fix": "Translate the quoted verse into Italian and convert the book name. Example: «Qui sta la perseveranza dei santi: ecco quelli che osservano i comandamenti di Dio e la fede di Gesù» – Apocalisse 14:12.",
+      "translation_quote": "Here is the patience of the saints: here are they that keep the commandments of God, and the faith of Jesus –Revelation 14:12."
+    },
+    {
+      "location": "Paragraph citing \"–Vedi Matthew 24:21 and Revelation 7:14\" earlier appeared, and later the line \"Revelation 14:10-11 dichiara...\"",
+      "severity": "major",
+      "source_quote": "Revelation 14:10-11 dichiara che tutti coloro che prendono il marchio sigilleranno il loro destino all’inferno.",
+      "suggested_fix": "Change the English book name to Italian. Example: «Apocalisse 14:10-11 dichiara che...». If the author intended the verse text to be quoted, translate the verse text into Italian as well (see other suggestions).",
+      "translation_quote": "Revelation 14:10-11 dichiara che tutti coloro che prendono il marchio sigilleranno il loro destino all’inferno."
+    },
+    {
+      "location": "Paragraph containing: \"–Vedi Matthew 24:21 and Revelation 7:14.\" earlier and later another citation: \"–Vedi Matthew 24:21 and Revelation 7:14.\" (duplicate occurrence)",
+      "severity": "minor",
+      "source_quote": "–Vedi Matthew 24:21 and Revelation 7:14.",
+      "suggested_fix": "Replace the English book names with Italian equivalents. Use e.g. «–Vedi Matteo 24:21 e Apocalisse 7:14.»",
+      "translation_quote": "–Vedi Matthew 24:21 and Revelation 7:14."
+    },
+    {
+      "location": "Paragraph with instruction-style citation: \"<em>Read Matthew 24:4-28.</em>\"",
+      "severity": "critical",
+      "source_quote": "Read Matthew 24:4-28.",
+      "suggested_fix": "Translate the directive and the book name into Italian. Example: «<em>Leggi Matteo 24:4-28.</em>»",
+      "translation_quote": "Read Matthew 24:4-28."
+    },
+    {
+      "location": "Paragraph quoting Revelation 12:11 in English (around: \"And they overcame him by the blood of the Lamb...\")",
+      "severity": "critical",
+      "source_quote": "And they overcame him by the blood of the Lamb, and by the word of their testimony; and they loved not their lives unto the death –Revelation 12:11.",
+      "suggested_fix": "Translate the quoted Scripture into Italian and convert the book name. Example: «Egli li sconfissero per mezzo del sangue dell’Agnello e per la parola della loro testimonianza; e non amarono la loro vita fino alla morte» – Apocalisse 12:11.",
+      "translation_quote": "And they overcame him by the blood of the Lamb, and by the word of their testimony; and they loved not their lives unto the death –Revelation 12:11."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph: \"But suddenly there was a shout! It was Pierce, with a whip in his hand.\"",
+      "severity": "minor",
+      "source_quote": "\"But suddenly there was a shout! It was Pierce, with a whip in his hand.\"",
+      "suggested_fix": "Render the nuance of \"shout\" more accurately in Spanish. Replace \"Pero de pronto se oyó una voz.\" with e.g. \"Pero de pronto se oyó un grito.\" or \"Pero de pronto alguien gritó.\" to preserve the original intensity.",
+      "translation_quote": "\"Pero de pronto se oyó una voz. Era Pierce, con un látigo en la mano.\""
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

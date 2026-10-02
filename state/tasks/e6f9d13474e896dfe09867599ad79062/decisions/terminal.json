@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html — first paragraph (parenthetical phrase)",
+      "severity": "minor",
+      "source_quote": "progenitor (originator or author) of our beliefs, Christ Himself",
+      "suggested_fix": "Translate the parenthetical phrase clearly and idiomatically. Replace \"ہمارے عقائد کے بانی (مین خالق)، خود مسیح\" with \"ہمارے عقائد کے بانی (اصلی موجد یا مؤلف)، خود مسیح\" to remove the stray/incorrect word \"مین\" and convey the intended meaning.",
+      "translation_quote": "ہمارے عقائد کے بانی (مین خالق)، خود مسیح"
+    },
+    {
+      "location": "source.html — paragraph describing propaganda (1929 paragraph)",
+      "severity": "minor",
+      "source_quote": "state propaganda departments, who circulated writings, pamphlets, and even two immensely popular movies",
+      "suggested_fix": "\"pamphlets\" should be translated with an appropriate Urdu word. Replace \"تحریریں، برقیات، اور حتیٰ کہ دو بہت مقبول فلمیں\" with \"تحریریں، پمفلٹس (یا جزوہ جات)، اور حتیٰ کہ دو بہت مقبول فلمیں\" or better yet \"تحریریں، پمفلٹس (کتبچے)، اور حتیٰ کہ دو بہت مقبول فلمیں\" to avoid the unclear word \"برقیات\".",
+      "translation_quote": "تحریریں، برقیات، اور حتیٰ کہ دو بہت مقبول فلمیں"
+    },
+    {
+      "location": "source.title and source.html (title rendering)",
+      "severity": "minor",
+      "source_quote": "The Integrity of the Church",
+      "suggested_fix": "Use the more common Urdu word for 'church' to match typical journalistic/religious usage. Replace title \"کلیسیا کی سالمیت\" with \"کلیسہ کی سالمیت\" (or keep \"کلیسہ\" consistently in both title and body) to improve naturalness and consistency.",
+      "translation_quote": "کلیسیا کی سالمیت"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

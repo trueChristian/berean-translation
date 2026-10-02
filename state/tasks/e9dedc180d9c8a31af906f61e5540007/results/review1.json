@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "843f6ab0-f607-4cca-8d54-75b271072d35",
+    "response_id": "chatcmpl-EUX3nC72Szg57GBs9ympmoYN4KM8q",
+    "usage": {
+      "completion_tokens": 540,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8978,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9518
+    }
+  },
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.section",
+        "severity": "minor",
+        "source_quote": "Inspirations for Youth",
+        "suggested_fix": "Translate the section metadata into standard contemporary Swedish. For example: \"Inspiration för ungdomar\" (or \"Inspiration för unga\"), preserving capitalization style used on the site.",
+        "translation_quote": "Inspirations for Youth"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

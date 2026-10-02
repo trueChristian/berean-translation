@@ -2,7 +2,6 @@
   "article_id": "dce3d3b3-8b56-4be5-9674-e682b97d3b43",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 5048
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1391,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4707,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6098
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>Laastens, laat ons die twee kort artikels oor kerkgeskiedenis oorweeg. Een van ons doelwitte vir hierdie uitgawe is souerig met die bewustheid dat die land waarin ons woon (die V.S.) in November van hierdie jaar na tussentydse verkiesings gaan ...</p>",
+      "severity": "minor",
+      "source_quote": "One of our goals for this issue is burdened with the awareness that the country in which we live (the U.S.) is approaching mid-term elections in November of this year ...",
+      "suggested_fix": "Replace the phrase 'is souerig met die bewustheid' with a correct Afrikaans rendering of 'is burdened with the awareness', e.g. 'is besorgd oor die bewustheid' or better 'is bedrieg met die bewustheid' is wrong — use 'is bewus daarvan' or 'is belas met die bewustheid'. Suggested sentence: 'Een van ons doelwitte vir hierdie uitgawe is gedryf deur die bewustheid dat die land waarin ons woon (die V.S.) in November van hierdie jaar na tussentydse verkiesings gaan ...'",
+      "translation_quote": "Een van ons doelwitte vir hierdie uitgawe is souerig met die bewustheid dat die land waarin ons woon (die V.S.) in November van hierdie jaar na tussentydse verkiesings gaan ..."
+    },
+    {
+      "location": "<p>Laat ons altyd ’n regte ingesteldheid in ons harte kweek sodat ons praatjies en optrede God se siening oor die saak weerspieël wanneer Hy deur die apostel Paulus vir ons sê: <em>Laat elke siel die hoër magte onderwerp wees. Want daar is geen mag behalwe van God nie; die magte wat is, is deur God bestel … Want hy is ’n dienaar van God vir jou… — Romeine 13:1–4.</em></p>",
+      "severity": "minor",
+      "source_quote": "Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God … For he is the minister of God to thee… –Romans 13:1-4.",
+      "suggested_fix": "Grammar and idiom: 'Laat elke siel die hoër magte onderwerp wees' is awkward in Afrikaans. Use a clearer idiomatic translation while preserving the verse meaning, for example: 'Laat elkeen ondergeskik wees aan die hoër magte.' Or: 'Laat elke siel onderwerp wees aan die hoër magte.' This preserves fidelity to the source and reads naturally.",
+      "translation_quote": "Laat ons altyd ’n regte ingesteldheid in ons harte kweek sodat ons praatjies en optrede God se siening oor die saak weerspieël wanneer Hy deur die apostel Paulus vir ons sê: <em>Laat elke siel die hoër magte onderwerp wees. ... — Romeine 13:1–4.</em>"
+    },
+    {
+      "location": "<p>Die apostel Paulus gee vir ons baie duidelike leiding wanneer hy sê, <em>Ek vermaan dan vóór alles: dat smekinge, gebede, voorbiddings en dankseggings gemaak word vir alle mense; vir konings en vir almal wat in hoëposisies is; dat ons ’n rustige en rustige lewe mag lei in alle Godsvrugtigheid en ernstige ernstigeheid. — 1 Timoteus 2:1–2.</em></p>",
+      "severity": "minor",
+      "source_quote": "I exhort therefore, that, first of all, supplications, prayers, intercessions, and giving of thanks, be made for all men; For kings, and for all that are in authority; that we may lead a quiet and peaceable life in all godliness and honesty. 1 Timothy 2:1-2.",
+      "suggested_fix": "Remove duplicated words that appear to be translation errors. Replace '’n rustige en rustige lewe' with '’n rustige en vreedsame lewe' and 'ernstige ernstigeheid' with 'godsvrug en eerlikheid' or 'Godsvrugtigheid en eerlikheid' to mirror the source meaning. Suggested phrasing: 'dat ons ’n rustige en vreedsame lewe mag lei in alle Godsvrugtigheid en eerlikheid.'",
+      "translation_quote": "Ek vermaan dan vóór alles: dat smekinge, gebede, voorbiddings en dankseggings gemaak word vir alle mense; vir konings en vir almal wat in hoëposisies is; dat ons ’n rustige en rustige lewe mag lei in alle Godsvrugtigheid en ernstige ernstigeheid. — 1 Timoteus 2:1–2."
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:18+00:00",
   "id": "b85827b0c9740e07eead19d4c2717cea",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "afr",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c16edd05d12043a927f45367071112d6f71c0042bc3d1b02d0bfb5b8d330f1e2.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d0410b3ae98c7c6c4b8643e82b8513a58f4f423e430db25e79b18dc18a3fab41",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

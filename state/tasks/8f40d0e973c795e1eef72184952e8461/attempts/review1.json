@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>…he had an obvious call from God upon his life. He was a conservative man who chose <em>…rather to suffer affliction with the people of God, than to enjoy the pleasures of sin for a season –Hebrews 11:25.</em></p>\",\"severity\":\"minor\",\"source_quote\":\"and he had an obvious call from God upon his life.\",\"suggested_fix\":\"Replace the non‑Urdu loanword \\\"بلنگ\\\" with an idiomatic Urdu phrase. For example: \\\"اور اس کی زندگی پر خدا کی واضح پکار تھی۔\\\" or \\\"اور اس کی زندگی پر خدا کی واضح بلاء/بلا تھی۔\\\" Preserve the surrounding HTML and emphasis tags exactly.\",\"translation_quote\":\"اور اس کی زندگی پر خدا کی واضح بلنگ تھی۔\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 784,
+    "content_evidence_truncated": false,
+    "content_sha256": "5bfd604acd7ded1fcfc4f7504f58b30a715bd1e7ef66ff8e30a58a3c2c031e46",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 702,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9431,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10133
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

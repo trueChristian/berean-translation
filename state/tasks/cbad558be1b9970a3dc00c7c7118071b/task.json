@@ -2,7 +2,6 @@
   "article_id": "f09d8cd5-b48f-470f-936f-263e6940b6bd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 5860
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1343,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5382,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6725
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>...After eight years of co-operation with the Wesleys, Perronet’s strong-mindedness and free spirit caused a division between them, as he disagreed with some of their regulations. They continued, however, to esteem and love each other.</p>",
+      "severity": "major",
+      "source_quote": "\"After eight years of co-operation with the Wesleys, Perronet’s strong-mindedness and free spirit caused a division between them, as he disagreed with some of their regulations.\"",
+      "suggested_fix": "Rendere il senso di \"strong-mindedness\" come \"determinazione\" o \"fermezza di carattere\" invece di \"incostanza\", che inverte il significato. Esempio di correzione mantenendo i tag HTML: <p>Dopo otto anni di collaborazione con i Wesley, la fermezza di carattere e lo spirito libero di Perronet causarono una divisione tra loro, poiché egli non era d’accordo con alcune loro regolamentazioni. Tuttavia continuarono a stimarsi e ad amarsi reciprocamente.</p>",
+      "translation_quote": "\"Dopo otto anni di collaborazione con i Wesley, l’incostanza e lo spirito libero di Perronet causarono una divisione tra loro, poiché egli non era d’accordo con alcune loro regolamentazioni. Tuttavia continuarono a stimarsi e ad amarsi reciprocamente.\""
+    },
+    {
+      "location": "<div class=\"lyrics\"> (first stanza)",
+      "severity": "minor",
+      "source_quote": "\"Bring forth the royal diadem,\"",
+      "suggested_fix": "\"royal diadem\" è reso in modo colloquiale con l’aggettivo dopo il sostantivo in italiano più naturale. Correzione suggerita all'interno del blocco lyrics: <p>Portate il diadema reale,<br>\nPer incoronarlo Signore di tutti!</p>",
+      "translation_quote": "\"Portate il reale diadema,\""
+    },
+    {
+      "location": "<div class=\"lyrics\"> (second stanza)",
+      "severity": "minor",
+      "source_quote": "\"Let high born seraphs tune the lyre,\"",
+      "suggested_fix": "La resa \"serafini nati in alto\" suona innaturale e non rispetta il registro poetico dell'originale. Suggerisco: <p>Lasciate che i serafini, d’alta nascita, accordino la lira,<br>\nE, mentre l’accordano, cadano</p> (mantenendo i tag HTML).",
+      "translation_quote": "\"Lasciate che i serafini nati in alto accordino la lira,\""
+    }
+  ],
   "id": "cbad558be1b9970a3dc00c7c7118071b",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ita",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6b076b1f67d6fafc1720a4ac2de4e895d6d3d4ebd14b1f3db48cc7447fd2506b.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

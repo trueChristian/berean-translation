@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "<p>...staatstropaganda-departemente ...</p>",
+      "severity": "minor",
+      "source_quote": "This image was pushed by state propaganda departments, who circulated writings, pamphlets, and even two immensely popular movies, depicting the Mennonites as strong, red-blooded Germans valiantly striving against the unjust oppression of the Russian Communists.",
+      "suggested_fix": "Correct misspelling and word choice; keep meaning. Replace the clause in Afrikaans with: \"Hierdie beeld is deur staatspropaganda-departemente aangeblaas, wat geskrifte, brosjures en selfs twee uiters gewilde films versprei het wat die Mennoniete afbeeld as sterk, rooibloedige Duitsers wat dapper teen die onregverdige onderdrukking deur die Russiese Kommuniste staan.\"",
+      "translation_quote": "Hierdie beeld is deur staatspropaganda-departemente aangeblaas, wat geskifte, brosjures en selfs twee uiters gewilde films versprei het wat die Mennonite uitgebeeld het as sterk, rooi-bloedige Duitsers wat dapper teen die onregverdige onderdrukking deur die Russiese Kommuniste staan."
+    },
+    {
+      "location": "<p>...sent Hitler a letter thanking him...</p>",
+      "severity": "minor",
+      "source_quote": "...they went so far as to send Hitler a letter thanking him for being the “savior of the German peoples” and pledging their support to his government.",
+      "suggested_fix": "Repair the awkward/unclear Afrikaans phrasing while preserving meaning. For example: \"Ongelukkig het hierdie kerke die Nazi-aandag verwelkom en het hulle sover gegaan as om aan Hitler ’n brief te stuur waarin hulle hom bedank het as die 'verlosser van die Duitse volke' en hul steun aan sy regering belowe het.\"",
+      "translation_quote": "Ongelukkig het hierdie kerke die Nazi-aandag verwelkom en gegaan sover as om aan Hitler ŉ brief te stuur waarin hy bedank is vir die wees die “verlosser van die Duitse volke” en waarin hulle hul steun aan sy regering belowe het."
+    },
+    {
+      "location": "throughout article (references to 'Mennonite' plural)",
+      "severity": "minor",
+      "source_quote": "The Mennonites of 20th century Germany... / The Mennonites of Germany... / many Mennonites...",
+      "suggested_fix": "Use the correct Afrikaans plural form consistently: \"Mennoniete\" (plural) where the English uses \"Mennonites.\" Replace occurrences of \"Die Mennonite\" or lone \"Mennonite\" intended as plural with \"Die Mennoniete\" or context-appropriate plural phrasing.",
+      "translation_quote": "Die Mennonite van Duitsland is ŉ besonder interessante... / Die Mennonite van die 20ste eeu in Duitsland het... / 13 000 Russiese Mennonite-vlugelinge..."
+    },
+    {
+      "location": "<p>...handed Hitler the office of prime minister...</p>",
+      "severity": "minor",
+      "source_quote": "In the long run, their political might handed Hitler the office of prime minister.",
+      "suggested_fix": "Clarify the Afrikaans phrasing to read smoothly and accurately. Suggested wording: \"Op die lang duur het hul politieke mag Hitler die amp van minister-president (premier) besorg.\" Replace the current phrase \"het Hitler die amp van minister-president (premier) ingehou.\"",
+      "translation_quote": "Op die lang duur het hul politieke mag Hitler die amp van minister-president (premier) ingehou."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

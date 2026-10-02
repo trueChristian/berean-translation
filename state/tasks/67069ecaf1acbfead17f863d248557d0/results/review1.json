@@ -1,0 +1,106 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d9049dce-a9c0-426f-afaf-3315002ea769",
+    "response_id": "chatcmpl-EUX3XVoauMGYeZnvQiuARZ4VUCGfj",
+    "usage": {
+      "completion_tokens": 2846,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4752,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7598
+    }
+  },
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> paragraph containing Proverbs 21:1 (around: \"The king’s heart is in the hand of the LORD...\")",
+        "severity": "critical",
+        "source_quote": "The king’s heart is in the hand of the LORD, as the rivers of water: he turneth it whithersoever he will –Proverbs 21:1.",
+        "suggested_fix": "Translate the entire quoted Scripture into Hindi and keep the reference exactly as printed. Preserve the <em> tag and surrounding punctuation. For example: <em>यहोवा के हाथ में मनुष्य का हृदय रहता है; वह उसे जैसे नदियों के बहने के समान जहाँ मन चाहे मोड़ देता है। –Proverbs 21:1.</em>",
+        "translation_quote": "<em>The king’s heart is in the hand of the LORD, as the rivers of water: he turneth it whithersoever he will –Proverbs 21:1.</em>"
+      },
+      {
+        "location": "<article> paragraph containing Daniel 4:31-32 (around: \"That the most High ruleth in the kingdom of men...\")",
+        "severity": "critical",
+        "source_quote": "…That the most High ruleth in the kingdom of men, and giveth it to whomsoever he will –Daniel 4:31-32.",
+        "suggested_fix": "Translate the quoted Scripture into standard Hindi and preserve the citation. Keep the <em> tag. Example: <em>…परमोच्च मनुष्यों के राज्य में राज्य करता है, और जिसको चाहे उसे देता है –Daniel 4:31-32.</em>",
+        "translation_quote": "<em>…That the most High ruleth in the kingdom of men, and giveth it to whomsoever he will –Daniel 4:31-32.</em>"
+      },
+      {
+        "location": "<article> paragraph containing John 18:36 (around: \"My kingdom is not of this world...\")",
+        "severity": "critical",
+        "source_quote": "…My kingdom is not of this world: if my kingdom were of this world, then would my servants fight … but now is my kingdom not from hence –John 18:36.",
+        "suggested_fix": "Translate the quoted Scripture into Hindi and retain the verse reference and <em> tags. Example: <em>…मेरा राज्य इस संसार का नहीं है; यदि मेरा राज्य इस संसार का होता, तो मेरे दास लड़ते; पर अब मेरा राज्य यहाँ से नहीं है –John 18:36.</em>",
+        "translation_quote": "<em>…My kingdom is not of this world: if my kingdom were of this world, then would my servants fight … but now is my kingdom not from hence –John 18:36.</em>"
+      },
+      {
+        "location": "<article> paragraph containing Hebrews 11:13-16 (around: \"strangers and pilgrims on the earth...\")",
+        "severity": "critical",
+        "source_quote": "…strangers and pilgrims on the earth. [While we] …declare plainly that [we] seek a country …a better country, that is, an heavenly: wherefore God is not ashamed to be called [our] God: for he hath prepared for [us] a city –Hebrews 11:13-16.",
+        "suggested_fix": "Translate the entire quoted passage into Hindi, preserving punctuation and the chapter/verse citation inside the <em> tag. Example: <em>…पर यहोवा के यहाँ परदेशी और अतिथि बताए गए हैं; और स्पष्ट रूप से घोषित करते हैं कि हम एक देश की खोज कर रहे हैं…एक उत्तम देश, अर्थात् स्वर्गीय; इसलिए परमेश्वर को हमारे परमेश्वर कहा जाना लज्जास्पद न था: क्योंकि उसने हमारे लिए एक नगर तैयार किया है –Hebrews 11:13-16.</em>",
+        "translation_quote": "<em>…strangers and pilgrims on the earth. [While we] …declare plainly that [we] seek a country …a better country, that is, an heavenly: wherefore God is not ashamed to be called [our] God: for he hath prepared for [us] a city –Hebrews 11:13-16.</em>"
+      },
+      {
+        "location": "<article> paragraph containing 2 Corinthians 6:17 (around: \"come out from among them, and be ye separate...\")",
+        "severity": "critical",
+        "source_quote": "…come out from among them, and be ye separate… –2 Corinthians 6:17.",
+        "suggested_fix": "Translate the quoted Scripture into Hindi within the <em> tag, retaining the verse reference. Example: <em>…उनके मध्य से बहिष्कृत हो जाओ, और पृथक हो जाओ… –2 Corinthians 6:17.</em>",
+        "translation_quote": "<em>…come out from among them, and be ye separate… –2 Corinthians 6:17.</em>"
+      },
+      {
+        "location": "<article> paragraph containing Romans 13:1-4 (around: \"Let every soul be subject unto the higher powers...\")",
+        "severity": "critical",
+        "source_quote": "Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God … For he is the minister of God to thee… –Romans 13:1-4.",
+        "suggested_fix": "Translate the quoted Scripture into Hindi and keep the <em> tag and reference. Example: <em>सब मनुष्य ऊँचे अधिकारों के अधीन हों; क्योंकि कोई अधिकार परमेश्वर से न होकर नहीं, और जो अधिकार हैं वे परमेश्वर द्वारा स्थापित किए गए हैं… क्योंकि वह तुम्हारे लिए परमेश्वर का सेवक है… –Romans 13:1-4.</em>",
+        "translation_quote": "<em>Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God … For he is the minister of God to thee… –Romans 13:1-4.</em>"
+      },
+      {
+        "location": "<article> paragraph containing 1 Timothy 2:1-2 (around: \"I exhort therefore, that, first of all, supplications...\")",
+        "severity": "critical",
+        "source_quote": "I exhort therefore, that, first of all, supplications, prayers, intercessions, and giving of thanks, be made for all men; For kings, and for all that are in authority; that we may lead a quiet and peaceable life in all godliness and honesty. 1 Timothy 2:1-2.",
+        "suggested_fix": "Translate the quoted Scripture into Hindi within the <em> tag and retain the verse reference exactly. Example: <em>इसलिए मैं उत्साहपूर्वक उपदेश करता हूँ कि सब प्रकार की विनतीयें, प्रार्थनाएँ, मध्यस्थताएँ और धन्यवाद देना सब मनुष्यों के लिए की जाए; विशेषकर राजाों और सभी अधिकार रखने वालों के लिए, ताकि हम सब भक्ति और सज्जनता में शांत और धैर्यपूर्ण जीवन बिताएँ। 1 Timothy 2:1-2.</em>",
+        "translation_quote": "<em>I exhort therefore, that, first of all, supplications, prayers, intercessions, and giving of thanks, be made for all men; For kings, and for all that are in authority; that we may lead a quiet and peaceable life in all godliness and honesty. 1 Timothy 2:1-2.</em>"
+      },
+      {
+        "location": "<article> paragraph containing Matthew 17:20 (around: \"If ye have faith as a grain of mustard seed...\")",
+        "severity": "critical",
+        "source_quote": "And Jesus said unto them … verily I say unto you, If ye have faith as a grain of mustard seed, ye shall say unto this mountain, Remove hence to yonder place; and it shall remove; and nothing shall be impossible unto you –Matthew 17:20.",
+        "suggested_fix": "Translate the quoted Scripture into Hindi keeping the <em> tag and verse reference. Example: <em>और यीशु ने उनसे कहा… मैं तुम से सच कहता हूँ, यदि तुम्हारे पास सरसों के दाने के समान विश्वास हो, तो तुम इस पहाड़ से कहोगे, इधर से उधर हट जा; और वह हट जाएगा; और तुम्हारे लिए कुछ भी असंभव न होगा –Matthew 17:20.</em>",
+        "translation_quote": "<em>And Jesus said unto them … verily I say unto you, If ye have faith as a grain of mustard seed, ye shall say unto this mountain, Remove hence to yonder place; and it shall remove; and nothing shall be impossible unto you –Matthew 17:20.</em>"
+      },
+      {
+        "location": "<article> paragraph containing James 5:16 (around: \"The effectual fervent prayer of a righteous man availeth much\")",
+        "severity": "critical",
+        "source_quote": "…The effectual fervent prayer of a righteous man availeth much –James 5:16.",
+        "suggested_fix": "Translate the quoted Scripture into Hindi in the <em> tag and retain the verse citation. Example: <em>…धर्मी मनुष्य की प्रभावशाली उत्साही प्रार्थना बहुत कुछ कर सकती है –James 5:16.</em>",
+        "translation_quote": "<em>…The effectual fervent prayer of a righteous man availeth much –James 5:16.</em>"
+      },
+      {
+        "location": "<article> paragraph: sentence about God accomplishing His sovereign will (paragraph beginning \"Ultimately, we must trust God...\")",
+        "severity": "major",
+        "source_quote": "Ultimately, we must trust God to bring about His will for the winding down of the “clock of time” as time speeds onward towards the end of time. God will do this through hardening the hearts of ungodly men in positions of power, just like Pharaoh of old, to accomplish His sovereign will for the world.",
+        "suggested_fix": "The Hindi translation currently reads: “परमेश्वर दुनिया के लिए अपनी सार्वभौमिक इच्छा को पूरा करने के लिए सत्ता में अस्थिर पुरुषों के हृदय को कठोर करने के माध्यम से ऐसा करेगा, बिलकुल जैसे पुराने फ़िरौन के साथ, ताकि अपना परलोकीय विधान पूरा कर सके।” This alters diction and inserts the unclear phrase “परलोकीय विधान”. Replace with a faithful rendering preserving meaning. Suggested Hindi: “अन्ततः, हमें परमेश्वर पर भरोसा रखना चाहिए कि वे समय के ‘घड़ी’ के घटने के साथ अपनी इच्छा पूर्ण करेंगे जैसे-जैसे समय अंत की ओर बढ़ता है। परमेश्वर यह तब कर देगा जब वह सत्ता में असभ्य पुरुषों के हृदयों को कठोर कर देगा, बिलकुल जैसे पुराने फ़िरौन के साथ हुआ था, ताकि वह इस जगत के लिए अपनी सार्वभौमिक (या सार्वभौमिकता) इच्छा पूरी कर सके।” Keep sentence structure and punctuation as in source.",
+        "translation_quote": "“परमेश्वर दुनिया के लिए अपनी सार्वभौमिक इच्छा को पूरा करने के लिए सत्ता में अस्थिर पुरुषों के हृदय को कठोर करने के माध्यम से ऐसा करेगा, बिलकुल जैसे पुराने फ़िरौन के साथ, ताकि अपना परलोकीय विधान पूरा कर सके।”"
+      },
+      {
+        "location": "<figure> second image alt attribute (source alt: \"A straight road through a misty autumn forest\")",
+        "severity": "minor",
+        "source_quote": "A straight road through a misty autumn forest",
+        "suggested_fix": "Translate the alt text into accurate, natural Hindi preserving meaning and brevity. For example: alt=\"कोहरे भरे शरद्-वन से होकर एक सीधा रास्ता\". Keep the alt attribute and <img> tag unchanged otherwise.",
+        "translation_quote": "एक कुशल मार्ग जो कोहरे भरे शरद्-वन से होकर जाता है"
+      }
+    ],
+    "passed": false,
+    "score": 40
+  }
+}

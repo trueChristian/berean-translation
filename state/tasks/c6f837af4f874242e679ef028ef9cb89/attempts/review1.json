@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph about Danzig (paragraph beginning: \\\"A particularly shocking case of Mennonite political involvement came from the churches in or around Danzig.\\\")\",\"severity\":\"critical\",\"source_quote\":\"scores of the 6,000 believers in the surrounding congregations joined various Nazi organizations.\",\"suggested_fix\":\"Replace the mistranslation that introduces a different institution. Change “συναγωγές/εκκλησίες” to a single faithful rendering of the English “congregations” in Greek, e.g. “εκκλησίες” (not “συναγωγές/εκκλησίες”).\",\"translation_quote\":\"δεκάδες από τους 6.000 πιστούς στις περιβάλλουσες συναγωγές/εκκλησίες εντάχθηκαν σε διάφορους ναζιστικούς οργανισμούς.\"},{\"location\":\"Paragraph on postwar Nuremberg trials (paragraph beginning: \\\"Perhaps the most concerning episode ... comes after the war.\\\")\",\"severity\":\"minor\",\"source_quote\":\"noting the justice that was to come through the Nuremburg trials, effectively shrugged the blame from off their shoulders.\",\"suggested_fix\":\"Use a more natural Greek phrasing for “Nuremburg trials” and for the verb phrase. For example: “και παρατηρώντας τη δικαιοσύνη που θα εφαρμοζόταν μέσω των δικών της Νυρεμβέργης, ουσιαστικά απέσυρε το βάρος της ευθύνης από πάνω τους.” → preferable: “και παρατηρώντας τη δικαιοσύνη που θα εφαρμοζόταν μέσω των δικών της Νυρεμβέργης, ουσιαστικά απέσυραν από πάνω τους το βάρος της ευθύνης.” (corrects person/number agreement and word order).\",\"translation_quote\":\"αναγνωρίζοντας εν μέρει το φοβερό βάθος στο οποίο είχαν πέσει και σημειώνοντας τη δικαιοσύνη που θα εφαρμοζόταν μέσω των δικών της Νυρεμβέργης, ουσιαστικά απέσυρε το βάρος της ευθύνης από πάνω τους.\"}],\"passed\":false,\"score\":68}",
+    "content_bytes": 2271,
+    "content_evidence_truncated": false,
+    "content_sha256": "0699fd4455729f1136031283acdfefb7e8a0273fc01bfe3ae45345675a0bbc0e",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1107,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6521,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7628
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

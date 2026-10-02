@@ -391,6 +391,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.html",
+      "html_sha256": "1034b84b841fa5aec85c6ae7c67d9a7ce8df08edb75f609956ef5b15bc1354a8",
+      "human_reviewed": false,
+      "id": "5fc18c0d-013c-40d0-aabb-e8f7c7c404eb",
+      "images": [
+        {
+          "alt": "ʼn klein wit kerk in ŉ bergvallei",
+          "public_path": "/images/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.json",
+      "metadata_sha256": "8cd632f7b92d728ea9841f4efc786f8047eb5b785df85d4fb6ac77bdfe53dd71",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "KERKGESKIEDENIS",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "f30546ec55676f8dd6c74177eaa70932f9093041fab1ceced906b186d9df3a00",
+      "status": "ready",
+      "subtitle": "NAZI-DUITSLAND EN DIE MENNONIETE",
+      "title": "Die Integriteit van die Kerk",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "46d3b29bf93c9986006e0aa4760664d440c076e97703be49adb606080c1e149a",
       "human_reviewed": false,
@@ -534,6 +562,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "Die Hawe van Rus",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.html",
+      "html_sha256": "07dd5ad13d58e9aa393a0f671684755d7e3c42ab644d2596dafab23b0b675fce",
+      "human_reviewed": false,
+      "id": "9b13e502-993c-4536-a32d-ae1a62c36db5",
+      "images": [
+        {
+          "alt": "‚n Gestreepte hond wat ‚n kettingkraag dra",
+          "public_path": "/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-1.png"
+        },
+        {
+          "alt": "Plase en geboue oor ‚n golwende landelike vallei in die herfs",
+          "public_path": "/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-2.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.json",
+      "metadata_sha256": "c63fd7cfa659a42d3553188d54f62e5a0af5999b04ca06907e10ac723b818f7f",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Kindershoek",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Gered uit die „Leeuwemond”",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -878,6 +938,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "Die Christen‑Humanis",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43.html",
+      "html_sha256": "b50532fb5fdd91bdc03ea8e04f3c0da3f6c54d404a00ef964b43fb76ccef9d30",
+      "human_reviewed": false,
+      "id": "dce3d3b3-8b56-4be5-9674-e682b97d3b43",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43-1.png"
+        },
+        {
+          "alt": "’n Reguit pad deur ’n mistige herfswoud",
+          "public_path": "/images/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43-2.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43.json",
+      "metadata_sha256": "7d3e99d859c28eadf9daa915ba275ba94bec3f7e9d270ff35091aa04ee795f47",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "VAN DIE REDAKTEUR",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d0410b3ae98c7c6c4b8643e82b8513a58f4f423e430db25e79b18dc18a3fab41",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Van die Redakteur",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -2795,6 +2887,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.html",
+      "html_sha256": "aa5ee7f9a1316a552cac850ca1fbd8608322df66ad992a96225c172d81923f88",
+      "human_reviewed": false,
+      "id": "5fc18c0d-013c-40d0-aabb-e8f7c7c404eb",
+      "images": [
+        {
+          "alt": "山谷中的一座小白色教堂",
+          "public_path": "/images/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.json",
+      "metadata_sha256": "848e00b3f3da5e9778f27a051a76e4c4b5969b3d6e92d4c03075bda8f881ddf9",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "教会历史",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "f30546ec55676f8dd6c74177eaa70932f9093041fab1ceced906b186d9df3a00",
+      "status": "ready",
+      "subtitle": "纳粹德国与门诺派",
+      "title": "教会的诚信",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/8f996405-d870-4074-947b-35190faad643.html",
       "html_sha256": "72cb7885f43733686e6d42856f20db951b73a4485d0cb67d9c577976d580e6e0",
       "human_reviewed": false,
@@ -2846,6 +2966,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "情境性负荷",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.html",
+      "html_sha256": "fc4fc41bec33459c9eb78b847614a06b2f9cfae12b09956f0f050b889065c646",
+      "human_reviewed": false,
+      "id": "9b13e502-993c-4536-a32d-ae1a62c36db5",
+      "images": [
+        {
+          "alt": "一只戴着链项圈的虎斑犬",
+          "public_path": "/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-1.png"
+        },
+        {
+          "alt": "秋季起伏乡间山谷中的农田和建筑",
+          "public_path": "/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-2.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.json",
+      "metadata_sha256": "41c158a913f1dfb77cd95384d073b174fe403a5e2ec25734e1d3591004fef4cf",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "儿童天地",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037",
+      "status": "ready",
+      "subtitle": null,
+      "title": "从“狮口”被救",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -3231,6 +3383,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "基督教人文主义者",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43.html",
+      "html_sha256": "3ce7da1213ad420203662adcd095581928f222ddce55f72b128d58426bb5ab70",
+      "human_reviewed": false,
+      "id": "dce3d3b3-8b56-4be5-9674-e682b97d3b43",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43-1.png"
+        },
+        {
+          "alt": "穿越薄雾秋林的一条笔直公路",
+          "public_path": "/images/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43-2.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43.json",
+      "metadata_sha256": "7e9b16d8447bd92bb2058b46c05973ec21445e95fdefd46116271ab0e62cc6e7",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "来自主编",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d0410b3ae98c7c6c4b8643e82b8513a58f4f423e430db25e79b18dc18a3fab41",
+      "status": "ready",
+      "subtitle": null,
+      "title": "主编寄语",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -4653,6 +4837,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/53e8b534-1f5e-4d9d-b191-99707a404256.html",
+      "html_sha256": "adf069160357bf4abddb99146815c70a2e9fb0da0e4f6c39aae1d445b984cd29",
+      "human_reviewed": false,
+      "id": "53e8b534-1f5e-4d9d-b191-99707a404256",
+      "images": [
+        {
+          "alt": "Ευρύ κοιλώματος ερήμου κατώ από στρωμένα όρη και νεφέλα",
+          "public_path": "/images/articles/53e8b534-1f5e-4d9d-b191-99707a404256-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/53e8b534-1f5e-4d9d-b191-99707a404256.json",
+      "metadata_sha256": "4350a4e8864b974a77c1d9515ca897e890dc845944ddb10f8563caf1d8ce6914",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ΜΕΛΕΤΕΣ ΧΑΡΑΚΤΗΡΑ",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "fa6973e1c0869cf8ea44c825b0af02960182750ad2e2fbf60dce9af0c7f03feb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ο Μωυσής στη Μιδιάν",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.html",
       "html_sha256": "75c0642d7af21ff72571645d48d5bb0a362f2d4a9354ad6abc9543b2fb1a0be6",
       "human_reviewed": false,
@@ -4757,6 +4969,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0.html",
+      "html_sha256": "3230602929545f35a9581b6a73e6a05ae21f0ca73026867ad98afa9f2df11e4c",
+      "human_reviewed": false,
+      "id": "9240e6d5-f395-4db7-ab6f-3b4b603d6ea0",
+      "images": [
+        {
+          "alt": "Ένας ομιχλώδης φθινοπωρινός δάσος που αντανακλάται σε μια ήρεμη λίμνη",
+          "public_path": "/images/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0.json",
+      "metadata_sha256": "1f5118a54f931b72254fe3c394f79b6e9364b21dca48a5b4dcd911e4626a5e88",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Μια λέξη από γιατρό",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5dadc96220966a62c190dc496511f1659046db2b2d97b2ce157a164fa768d4e2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Κατάθλιψη",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
       "html_sha256": "a174d69957a2bc7c3ec9098d05cbba0c8668bfe6caea034c278196e7b4ce1aeb",
       "human_reviewed": false,
@@ -4780,6 +5020,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "Υπερφόρτωση από περιστάσεις",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.html",
+      "html_sha256": "50df2ad7df13de6cc3f8ced89606c9fb85048b2fbf88ee77383a45dff33d9ca5",
+      "human_reviewed": false,
+      "id": "9b13e502-993c-4536-a32d-ae1a62c36db5",
+      "images": [
+        {
+          "alt": "Ένας τριχοχρωματιστός σκύλος με δείκτη κολάρο",
+          "public_path": "/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-1.png"
+        },
+        {
+          "alt": "Αγροτικά χωράφια και κτίσματα σ' έναν λοφώδη αγροτικό κάμπο το φθινόπωρο",
+          "public_path": "/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-2.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.json",
+      "metadata_sha256": "6c3dd8ea81072f255b4551b9de1a4c45edb3179a25422e5b0a9d986a76e67124",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Γωνιά των Παιδιών",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Σωθήκαμε από το «στόμα του λιονταριού»",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -5660,6 +5932,57 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.html",
+      "html_sha256": "368f83a4925f63ec9e9f32b6a8b9432ee83a25c55025e05b91a80fbfd4a73563",
+      "human_reviewed": false,
+      "id": "5fc18c0d-013c-40d0-aabb-e8f7c7c404eb",
+      "images": [
+        {
+          "alt": "Une petite église blanche dans une vallée de montagne",
+          "public_path": "/images/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.json",
+      "metadata_sha256": "91ac025c6e174c707b65fe1309cbda0befe73f78618382fd820571d9da297c19",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "HISTOIRE DE L'ÉGLISE",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "f30546ec55676f8dd6c74177eaa70932f9093041fab1ceced906b186d9df3a00",
+      "status": "ready",
+      "subtitle": "L'ALLEMAGNE NAZIE ET LES MENNONITES",
+      "title": "L'intégrité de l'Église",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/6080d813-75a2-4123-9552-3c4f75c81219.html",
+      "html_sha256": "06cdda2f0d707b2404cbab93552bd1b545b48342ca604419158a6c8687e32f30",
+      "human_reviewed": false,
+      "id": "6080d813-75a2-4123-9552-3c4f75c81219",
+      "images": [],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/6080d813-75a2-4123-9552-3c4f75c81219.json",
+      "metadata_sha256": "3478591c6301ac69be0b0228eb33b3cb5ad851c5afa7bf2d0ee14aee83204342",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Problèmes auxquels l'Église est confrontée",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "f7d8a08704733486f924816fbfd515b7c40bf25c984ecd111bf0fe403aaa2dde",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Pourquoi je n’ai pas reçu l’injection contre le Covid",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "af3c74744d8baf7c1da2e3106cadb07525f7820dd29067eb6e4f78c5c386effd",
       "human_reviewed": false,
@@ -5780,6 +6103,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0.html",
+      "html_sha256": "bd4fedcca4624af03f343013af2e1bb7d16493dab4531b4da0c817797ca08295",
+      "human_reviewed": false,
+      "id": "9240e6d5-f395-4db7-ab6f-3b4b603d6ea0",
+      "images": [
+        {
+          "alt": "Une forêt d’automne embrumée se reflétant dans un lac calme",
+          "public_path": "/images/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0.json",
+      "metadata_sha256": "1bd53ac0c3212c75a4414cad05858b4fb1f46122437cfc4c40db2d6bdb403c6f",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Un mot d'un médecin",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5dadc96220966a62c190dc496511f1659046db2b2d97b2ce157a164fa768d4e2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dépression",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
       "html_sha256": "0eacd03d390d46b2a386392b62d2153314c8139ee9911784c9c7d8ca72c4a072",
       "human_reviewed": false,
@@ -5831,6 +6182,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "Quand toutes tes miséricordes, ô mon Dieu",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.html",
+      "html_sha256": "2fc8e6f1a199183ff82e67ae0591a61b9baa8f02532e2f32bdbab7b6dc5353c4",
+      "human_reviewed": false,
+      "id": "9b13e502-993c-4536-a32d-ae1a62c36db5",
+      "images": [
+        {
+          "alt": "Un chien bringé portant un collier à chaîne",
+          "public_path": "/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-1.png"
+        },
+        {
+          "alt": "Champs et bâtiments de ferme à travers une vallée rurale ondulante en automne",
+          "public_path": "/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-2.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.json",
+      "metadata_sha256": "b41bdb300ad5719dca6de6765f470900b6dcb84eb982842ba5e7cf687cefd281",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Coin des enfants",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Sauvés de la gueule du « lion »",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -6267,6 +6650,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "L'humaniste chrétien",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43.html",
+      "html_sha256": "0c520b6aff40a3c679b3d85d10440f10cb81ef3d62f336bc6c65472176e12db5",
+      "human_reviewed": false,
+      "id": "dce3d3b3-8b56-4be5-9674-e682b97d3b43",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43-1.png"
+        },
+        {
+          "alt": "Une route droite à travers une forêt d'automne brumeuse",
+          "public_path": "/images/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43-2.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43.json",
+      "metadata_sha256": "89106fed5149477cf617803c6884acc2b527c8d54472b868bb7ac26b0e3ba7b5",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "DU RÉDACTEUR",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d0410b3ae98c7c6c4b8643e82b8513a58f4f423e430db25e79b18dc18a3fab41",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Du rédacteur",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -7039,6 +7454,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "संपादक से",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.html",
+      "html_sha256": "63c55b85d86d4a0abc44da5b7d1a4a97ac5753211e4d28bb5ad5fb7553c4482f",
+      "human_reviewed": false,
+      "id": "5fc18c0d-013c-40d0-aabb-e8f7c7c404eb",
+      "images": [
+        {
+          "alt": "एक पर्वतीय घाटी में एक छोटा सफेद चर्च",
+          "public_path": "/images/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.json",
+      "metadata_sha256": "b6077ce1fc5ae6c8aa3dbeb18a9aaefd624b40a941aef8bc95c40fcb2495e22b",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "चर्च इतिहास",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "f30546ec55676f8dd6c74177eaa70932f9093041fab1ceced906b186d9df3a00",
+      "status": "ready",
+      "subtitle": "नाज़ी जर्मनी और मेनोनाइट्स",
+      "title": "चर्च की सत्यनिष्ठा",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -8177,6 +8620,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.html",
+      "html_sha256": "17a2a6ba9cf3c65dfea3a5179746ba9063beace961f34130f9b772066f7a11e8",
+      "human_reviewed": false,
+      "id": "5fc18c0d-013c-40d0-aabb-e8f7c7c404eb",
+      "images": [
+        {
+          "alt": "Sebuah gereja kecil berwarna putih di lembah pegunungan",
+          "public_path": "/images/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.json",
+      "metadata_sha256": "e58e9622e82fa3b6a1e49da2763667e01bee327137fd6ed39e615dc5b28a2b4a",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SEJARAH GEREJA",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "f30546ec55676f8dd6c74177eaa70932f9093041fab1ceced906b186d9df3a00",
+      "status": "ready",
+      "subtitle": "JERMAN NAZI DAN MENNONIT",
+      "title": "Integritas Gereja",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "48a5b5ff87dd62e3fa45b879bee6782de3dc3207da573674e5d632b133c4bb75",
       "human_reviewed": false,
@@ -8320,6 +8791,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "Circumstantial Overload",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.html",
+      "html_sha256": "4a36de764c0468ef33a7714f066bf21063e372aab7e05643865cf9b5c22bf273",
+      "human_reviewed": false,
+      "id": "9b13e502-993c-4536-a32d-ae1a62c36db5",
+      "images": [
+        {
+          "alt": "Seekor anjing belang memakai kerah rantai",
+          "public_path": "/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-1.png"
+        },
+        {
+          "alt": "Ladang dan bangunan pertanian melintasi lembah pedesaan bergelombang di musim gugur",
+          "public_path": "/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-2.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.json",
+      "metadata_sha256": "a70295afc1453bc5cbf87e6910ea68eeaf2c1768e8a19c22b17342efa1f7cedf",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Sudut Anak-anak",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Selamat dari \"Mulut Singa\"",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -8790,6 +9293,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43.html",
+      "html_sha256": "ea20e813648b614fefb38ef076395185f294cbaa69690455c59a646468b7609f",
+      "human_reviewed": false,
+      "id": "dce3d3b3-8b56-4be5-9674-e682b97d3b43",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43-1.png"
+        },
+        {
+          "alt": "Sebuah jalan lurus melalui hutan musim gugur yang berkabut",
+          "public_path": "/images/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43-2.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43.json",
+      "metadata_sha256": "225740defff5d9f1126b326207cf04e6ea3ec826be7cc7dd26a16d400b24b65c",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "DARI EDITOR",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d0410b3ae98c7c6c4b8643e82b8513a58f4f423e430db25e79b18dc18a3fab41",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dari Editor",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/deabdd90-c842-4ed6-ad15-c2fa9870b099.html",
       "html_sha256": "2dcfc89ba795f8dd95b0a547c359219f6eda8a482c0e944282dd02b910b16169",
       "human_reviewed": false,
@@ -8869,6 +9404,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Bangkitlah, bersukacitalah",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd.html",
+      "html_sha256": "076d58ed121ca7444c41c365cb1b2afb9aa0bf285c751a54af3304bf32d45980",
+      "human_reviewed": false,
+      "id": "f09d8cd5-b48f-470f-936f-263e6940b6bd",
+      "images": [
+        {
+          "alt": "Lembaran musik untuk All Hail the Power of Jesus’ Name, melodi DIADEM C. M. dengan Refrain",
+          "public_path": "/images/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd-1.png"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd.json",
+      "metadata_sha256": "aae989732da24787f20497d6aa74a64dccc364d8619783870d3e618c989bd902",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Sejarah Hymne",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Hormatlah kepada Kuasa Nama Yesus",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -9641,6 +10204,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0.html",
+      "html_sha256": "3b6eab1edc09de9864ad0b40d3503b1a5f05f384c8150117e8351dae18f4e459",
+      "human_reviewed": false,
+      "id": "9240e6d5-f395-4db7-ab6f-3b4b603d6ea0",
+      "images": [
+        {
+          "alt": "Una foresta autunnale nebbiosa riflessa in un lago calmo",
+          "public_path": "/images/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0.json",
+      "metadata_sha256": "1eb4e53adb022538ee71ab1fa3046ccd0955f22421c2e72565d77fb5d54b509f",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Una parola da un medico",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5dadc96220966a62c190dc496511f1659046db2b2d97b2ce157a164fa768d4e2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Depressione",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
       "html_sha256": "c85eb0362b4dca55123c693274022b463bc4bad641f1bd761fbbbcac9c0a1071",
       "human_reviewed": false,
@@ -9664,6 +10255,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "Circumstantial Overload",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.html",
+      "html_sha256": "888d68eadcedf392d8b5e93b7a55e979a5e0471e539b37593bfbf5e4f7ee0f6d",
+      "human_reviewed": false,
+      "id": "9b13e502-993c-4536-a32d-ae1a62c36db5",
+      "images": [
+        {
+          "alt": "Un cane tigrato che indossa un collare a catena",
+          "public_path": "/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-1.png"
+        },
+        {
+          "alt": "Campi e edifici agricoli attraverso una valle rurale ondulata in autunno",
+          "public_path": "/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-2.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.json",
+      "metadata_sha256": "e6d77ed471c263c8b3bc67a4d507745ec06c5d90a7162ba5637aeea88fdbc4cb",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Angolo dei bambini",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Salvati dalla bocca del «leone»",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -10146,6 +10769,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "L'Umanista Cristiano",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43.html",
+      "html_sha256": "0e9093d96bdb2fd21e992198b7929c4d01d669d6ec3656ae172e1a2a085bca27",
+      "human_reviewed": false,
+      "id": "dce3d3b3-8b56-4be5-9674-e682b97d3b43",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43-1.png"
+        },
+        {
+          "alt": "Una strada dritta attraverso una foresta autunnale nebbiosa",
+          "public_path": "/images/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43-2.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43.json",
+      "metadata_sha256": "e6df6107cf27c349eb5f81a6051e1a26d9067a395f5bb29aed587e22290aba7a",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "FROM THE EDITOR",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d0410b3ae98c7c6c4b8643e82b8513a58f4f423e430db25e79b18dc18a3fab41",
+      "status": "ready",
+      "subtitle": null,
+      "title": "From the Editor",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -10722,6 +11377,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.html",
+      "html_sha256": "0b59f35936911b674d0fa9385b030de890821a8c886d470f6830db74f811490d",
+      "human_reviewed": false,
+      "id": "5fc18c0d-013c-40d0-aabb-e8f7c7c404eb",
+      "images": [
+        {
+          "alt": "산골 골짜기에 있는 작은 흰색 교회",
+          "public_path": "/images/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.json",
+      "metadata_sha256": "f5a7723ffa1cb69993ceb5923b9850c3eef6e76d9e706af96c623845d68298b9",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "교회사",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "f30546ec55676f8dd6c74177eaa70932f9093041fab1ceced906b186d9df3a00",
+      "status": "ready",
+      "subtitle": "나치 독일과 메노나이트",
+      "title": "교회의 온전성",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "de3fc5df3cf800256f10649e9e08b0fd34b6fa1e6ca46153b4ea33ddadec39af",
       "human_reviewed": false,
@@ -11221,6 +11904,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "기독교적 휴머니스트",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43.html",
+      "html_sha256": "c98849cf2206a869dd413ffff6830d5d47eed21c38abb4071631574b77d614a4",
+      "human_reviewed": false,
+      "id": "dce3d3b3-8b56-4be5-9674-e682b97d3b43",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43-1.png"
+        },
+        {
+          "alt": "안개 낀 가을 숲을 지나가는 곧게 뻗은 길",
+          "public_path": "/images/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43-2.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43.json",
+      "metadata_sha256": "dbda939de48345a63d9e61929e560f03a10c6971f99fa65a5da2132a8b25275a",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "편집장 서신",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d0410b3ae98c7c6c4b8643e82b8513a58f4f423e430db25e79b18dc18a3fab41",
+      "status": "ready",
+      "subtitle": null,
+      "title": "편집장의 글",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -11728,6 +12443,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/53e8b534-1f5e-4d9d-b191-99707a404256.html",
+      "html_sha256": "675b1801f946acb54a29f3e81b5a328e0c8787500a2bc08d55f7afd7227ea48a",
+      "human_reviewed": false,
+      "id": "53e8b534-1f5e-4d9d-b191-99707a404256",
+      "images": [
+        {
+          "alt": "Een brede woestijnvallei onder gelaagde bergen en wolken",
+          "public_path": "/images/articles/53e8b534-1f5e-4d9d-b191-99707a404256-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/53e8b534-1f5e-4d9d-b191-99707a404256.json",
+      "metadata_sha256": "f247dd65f586338535fd6216a405205ca66d810f77411b76cdfbf3eb6e0f1d28",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "KARAKTERSTUDIES",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "fa6973e1c0869cf8ea44c825b0af02960182750ad2e2fbf60dce9af0c7f03feb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Mozes in Midian",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/58963510-f56e-43e0-88dd-0eb9941ddea9.html",
       "html_sha256": "2db49bb5fec264420c16aa757ca8b5aeeee1dabc68386bf1a7f21078b3e936ce",
       "human_reviewed": false,
@@ -11823,6 +12566,34 @@
       "status": "ready",
       "subtitle": "De voorbereiding-slaap",
       "title": "A Christ-Centered Courtship Series",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.html",
+      "html_sha256": "e1f9b338f393455d6b0dad1b6c029ee2cd7033d1d5232d62e5a07338a0ab113a",
+      "human_reviewed": false,
+      "id": "5fc18c0d-013c-40d0-aabb-e8f7c7c404eb",
+      "images": [
+        {
+          "alt": "Een klein wit kerkje in een bergvallei",
+          "public_path": "/images/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.json",
+      "metadata_sha256": "ddd3bf42280d15d43a4233f5d2e014a5dde1ac6e42c1d6b6bb8bce19edd092b4",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "KERKgeschiedenis",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "f30546ec55676f8dd6c74177eaa70932f9093041fab1ceced906b186d9df3a00",
+      "status": "ready",
+      "subtitle": "NAZI-DUITSLAND EN DE MENNONIETEN",
+      "title": "De integriteit van de kerk",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -11971,6 +12742,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "De haven van rust",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.html",
+      "html_sha256": "d860b785195be5fa3de17bf8ed02c33fe27f1bc96e711e34ad241f9ad44267e6",
+      "human_reviewed": false,
+      "id": "9b13e502-993c-4536-a32d-ae1a62c36db5",
+      "images": [
+        {
+          "alt": "Een gestreepte hond met een kettinghalsband",
+          "public_path": "/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-1.png"
+        },
+        {
+          "alt": "Akkerland en gebouwen over een golvende landelijke vallei in de herfst",
+          "public_path": "/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-2.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.json",
+      "metadata_sha256": "5ed1bd8150c0a429c944974a1b0815156387bfd6cb99b7a9935ac3c670832b3d",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Kinderhoek",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Gered uit de “mond van de leeuw”",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -12421,6 +13224,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "De christelijke humanist",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43.html",
+      "html_sha256": "f6f82159eb6322f34ef0793f455ca30831f4a3f0dd8a72b11005ef7dc34bd153",
+      "human_reviewed": false,
+      "id": "dce3d3b3-8b56-4be5-9674-e682b97d3b43",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43-1.png"
+        },
+        {
+          "alt": "Een rechte weg door een mistig herfstbos",
+          "public_path": "/images/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43-2.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43.json",
+      "metadata_sha256": "1cb69586c89a546abc358fca310daa8b664e4addd623ae9154934531c7275b1f",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Van de redacteur",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d0410b3ae98c7c6c4b8643e82b8513a58f4f423e430db25e79b18dc18a3fab41",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Van de redacteur",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -13104,6 +13939,57 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.html",
+      "html_sha256": "6d50a979f72425db60390e10b6823568180a68007b31a424dec616f5fabc8ed6",
+      "human_reviewed": false,
+      "id": "5fc18c0d-013c-40d0-aabb-e8f7c7c404eb",
+      "images": [
+        {
+          "alt": "En liten hvit kirke i en fjelldal",
+          "public_path": "/images/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.json",
+      "metadata_sha256": "4ff189b6bf69753e30ee2ff5a2574328e4ee7c1c08c1ef4505cb6b5df78fa3a0",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "KIRKEHISTORIE",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "f30546ec55676f8dd6c74177eaa70932f9093041fab1ceced906b186d9df3a00",
+      "status": "ready",
+      "subtitle": "NAZI-TYSKLAND OG MENNONITTENE",
+      "title": "Kirkens integritet",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/6080d813-75a2-4123-9552-3c4f75c81219.html",
+      "html_sha256": "f9b3b49f8a4958e3b4b6493447cd748d4c870cc67150f724d126fcf8c5378748",
+      "human_reviewed": false,
+      "id": "6080d813-75a2-4123-9552-3c4f75c81219",
+      "images": [],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/6080d813-75a2-4123-9552-3c4f75c81219.json",
+      "metadata_sha256": "1a82bbb9a1644843a0f106d00437f3f0c7f6feb240f238ecb2d52a7ad33f93d5",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Utfordringer kirken står overfor",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "f7d8a08704733486f924816fbfd515b7c40bf25c984ecd111bf0fe403aaa2dde",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Hvorfor jeg ikke har tatt Covid‑sprøyten",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "5a521ce180bd06aedefc6a5755b5746542cdc1b7158a44b28654f8def95f9f3c",
       "human_reviewed": false,
@@ -13219,6 +14105,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Guds by",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0.html",
+      "html_sha256": "36754e174c0f1718d64a30e5e4dfd9008be93b097c831e10a5ef03c4ac48911f",
+      "human_reviewed": false,
+      "id": "9240e6d5-f395-4db7-ab6f-3b4b603d6ea0",
+      "images": [
+        {
+          "alt": "En tåkete høstskog speilet i en stille innsjø",
+          "public_path": "/images/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0.json",
+      "metadata_sha256": "d9496b8dcaff368d8327caf09a312ce02d1e5a15407f77c00b988eeea9ebde51",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Et ord fra en lege",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5dadc96220966a62c190dc496511f1659046db2b2d97b2ce157a164fa768d4e2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Depresjon",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -14015,6 +14929,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/34125090-b480-4d63-b13a-33d47470f335.html",
+      "html_sha256": "5b28b90cc18ba320dc1cfc8478fafabcac94902fc1b132e47207bb37b6339275",
+      "human_reviewed": false,
+      "id": "34125090-b480-4d63-b13a-33d47470f335",
+      "images": [
+        {
+          "alt": "Nascer do sol sobre picos montanhosos acidentados",
+          "public_path": "/images/articles/34125090-b480-4d63-b13a-33d47470f335-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/34125090-b480-4d63-b13a-33d47470f335.json",
+      "metadata_sha256": "99a32cfe5f10c8dda19602c9581eb1ac34e1f20fd1b4f0e9c70ac6d8f2bd8874",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "A Igreja do Novo Testamento",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "b3a0b32450038629cf20919c69af275c4549e0b458e25e2b5d03da547dfb97f7",
+      "status": "ready",
+      "subtitle": "O segundo artigo da série “O Chamado do Discipulado”",
+      "title": "Um Chamado à Santidade",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/3be24d0c-4c97-452e-b3c3-177e16d990ff.html",
       "html_sha256": "652d02367d2ad3ae7147fea42f2ac805d885ddd67d916b375571ee8a02ce5063",
       "human_reviewed": false,
@@ -14265,6 +15207,57 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.html",
+      "html_sha256": "36a38f7171af542813f28ff495e215180587d5f7cd47c6d1daf89ace2c8828a8",
+      "human_reviewed": false,
+      "id": "5fc18c0d-013c-40d0-aabb-e8f7c7c404eb",
+      "images": [
+        {
+          "alt": "Uma pequena igreja branca num vale montanhoso",
+          "public_path": "/images/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.json",
+      "metadata_sha256": "633d89b56ac891868e1faf20d3b61058d7c9f91fd938fee677db82b2355dc4c2",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "HISTÓRIA DA IGREJA",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "f30546ec55676f8dd6c74177eaa70932f9093041fab1ceced906b186d9df3a00",
+      "status": "ready",
+      "subtitle": "ALEMANHA NAZISTA E OS MENONITAS",
+      "title": "A Integridade da Igreja",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/6080d813-75a2-4123-9552-3c4f75c81219.html",
+      "html_sha256": "33e1370bbbfbd87c984b2c94270335925e58bf02bedb36d296501082ee0c8aeb",
+      "human_reviewed": false,
+      "id": "6080d813-75a2-4123-9552-3c4f75c81219",
+      "images": [],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/6080d813-75a2-4123-9552-3c4f75c81219.json",
+      "metadata_sha256": "19b6fc90ab77613158dee8d44ec01a68e145d4e392a176287abe95e4b24a712c",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Questões que Afetam a Igreja",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "f7d8a08704733486f924816fbfd515b7c40bf25c984ecd111bf0fe403aaa2dde",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Por Que Não Tomei a Injeção contra a Covid",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "623b15c04747a058c986805f0c60841ac6d39c1e0ef889ece7bddd8f82e8966e",
       "human_reviewed": false,
@@ -14385,6 +15378,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0.html",
+      "html_sha256": "b7ffe348b42e6d41501d60e98e1af1fdd2b0478ee36a6e95b12b2cebca108c9e",
+      "human_reviewed": false,
+      "id": "9240e6d5-f395-4db7-ab6f-3b4b603d6ea0",
+      "images": [
+        {
+          "alt": "Uma floresta outonal enevoada refletida em um lago calmo",
+          "public_path": "/images/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0.json",
+      "metadata_sha256": "c1c03d1585aa1922bf32d1da997dc0046809f7c1fe93fe1dcdf8555144ada7b3",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Uma Palavra de um Médico",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5dadc96220966a62c190dc496511f1659046db2b2d97b2ce157a164fa768d4e2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Depressão",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
       "html_sha256": "75b74db9c37f2c88b080225dda7742239b6939bb4ba3708cc5aeb41a76ca359f",
       "human_reviewed": false,
@@ -14408,6 +15429,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "Circumstantial Overload",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.html",
+      "html_sha256": "cd0f28d8fc6c5fed964a1de7ace6b2adf49987be7b62de21b4f42d793cc6a790",
+      "human_reviewed": false,
+      "id": "9b13e502-993c-4536-a32d-ae1a62c36db5",
+      "images": [
+        {
+          "alt": "Um cão malhado usando uma coleira de corrente",
+          "public_path": "/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-1.png"
+        },
+        {
+          "alt": "Campos e construções da fazenda através de um vale rural ondulado no outono",
+          "public_path": "/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-2.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.json",
+      "metadata_sha256": "e8550b0b469865cfa2c780d7d58eb6543d3c257c91c3353db5e33c4501aaec6f",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Cantinho das Crianças",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Salvos da boca do \"leão\"",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -14840,6 +15893,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "O Humanista Cristão",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43.html",
+      "html_sha256": "2f0447a184cefe27fe2deccac37c45e9fbbee47ec9b1170515416a61792e4b40",
+      "human_reviewed": false,
+      "id": "dce3d3b3-8b56-4be5-9674-e682b97d3b43",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43-1.png"
+        },
+        {
+          "alt": "Uma estrada reta por uma floresta outonal enevoada",
+          "public_path": "/images/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43-2.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43.json",
+      "metadata_sha256": "c75f6bf19a8609c83425a74a68f269a5f862cecb299de5ce451497d637b62cd5",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "DO EDITOR",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d0410b3ae98c7c6c4b8643e82b8513a58f4f423e430db25e79b18dc18a3fab41",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Do Editor",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -15435,6 +16520,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Влияние, изменившее жизнь",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.html",
+      "html_sha256": "3bb08f863502509244d9011772d9c6805634fa30ce8506ae367ac15c70d23aae",
+      "human_reviewed": false,
+      "id": "5fc18c0d-013c-40d0-aabb-e8f7c7c404eb",
+      "images": [
+        {
+          "alt": "Небольшая белая церковь в горной долине",
+          "public_path": "/images/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.json",
+      "metadata_sha256": "65544e37087851ab794cfd6b9b8a5542f9e8d3594aa8d250f12116ed5e73d799",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ИСТОРИЯ ЦЕРКВИ",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "f30546ec55676f8dd6c74177eaa70932f9093041fab1ceced906b186d9df3a00",
+      "status": "ready",
+      "subtitle": "НАЦИСТСКАЯ ГЕРМАНИЯ И МЕННОНИТЫ",
+      "title": "Непорочность Церкви",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -16590,6 +17703,57 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.html",
+      "html_sha256": "31c1718883b5bbc5c53e39745b7df6c266828af757f30ebccb90c20d9a9f6aa1",
+      "human_reviewed": false,
+      "id": "5fc18c0d-013c-40d0-aabb-e8f7c7c404eb",
+      "images": [
+        {
+          "alt": "Una pequeña iglesia blanca en un valle montañoso",
+          "public_path": "/images/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.json",
+      "metadata_sha256": "8dbd7ff9bc904681f49468f25619ca07b384f4e17940875483cad5bff80c6605",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "HISTORIA DE LA IGLESIA",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "f30546ec55676f8dd6c74177eaa70932f9093041fab1ceced906b186d9df3a00",
+      "status": "ready",
+      "subtitle": "ALEMANIA NAZI Y LOS MENONITAS",
+      "title": "La integridad de la Iglesia",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/6080d813-75a2-4123-9552-3c4f75c81219.html",
+      "html_sha256": "cba402d303f7d8a25884700df57ee2c90a6ef1e32b5fcb20b1997d1e4aa60a68",
+      "human_reviewed": false,
+      "id": "6080d813-75a2-4123-9552-3c4f75c81219",
+      "images": [],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/6080d813-75a2-4123-9552-3c4f75c81219.json",
+      "metadata_sha256": "86d692b82f2195f77bec8d645e0e058ad266d5a2e8eb90836f317cfeaedbe433",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Cuestiones que enfrenta la Iglesia",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "f7d8a08704733486f924816fbfd515b7c40bf25c984ecd111bf0fe403aaa2dde",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Por qué no me he puesto la inyección contra el Covid",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "213c30d0d575241d5b12876840f149a69463c1168805cf69f190cc3f843909d2",
       "human_reviewed": false,
@@ -16710,6 +17874,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0.html",
+      "html_sha256": "f577c6cb619ec69f2aa6e619cf6e6cd82e8a71441bf0f1ee7499c3c3b851f389",
+      "human_reviewed": false,
+      "id": "9240e6d5-f395-4db7-ab6f-3b4b603d6ea0",
+      "images": [
+        {
+          "alt": "Un bosque otoñal brumoso reflejado en un lago tranquilo",
+          "public_path": "/images/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0.json",
+      "metadata_sha256": "f93ab9a590463f7563b533295a5d4a048a142b5b5bf51aeb2c163a28db9f8378",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Una palabra de un médico",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5dadc96220966a62c190dc496511f1659046db2b2d97b2ce157a164fa768d4e2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Depresión",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
       "html_sha256": "541615a67b7452ed4db5c8600218f90520b677d2947bb21db28d785615a12f1c",
       "human_reviewed": false,
@@ -16797,6 +17989,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "Cuando todas tus misericordias, oh Dios mío",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.html",
+      "html_sha256": "81f51eaf851d78a26affe4fbea4dead7510f813dd7be1a98d1bf1d8caae6e7e4",
+      "human_reviewed": false,
+      "id": "9b13e502-993c-4536-a32d-ae1a62c36db5",
+      "images": [
+        {
+          "alt": "Un perro atigrado con un collar de cadena",
+          "public_path": "/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-1.png"
+        },
+        {
+          "alt": "Campos y edificios de la granja a través de un valle rural ondulado en otoño",
+          "public_path": "/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-2.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.json",
+      "metadata_sha256": "693c22c4278080f663828f7e52b9eee1d73ae7b6d5ef11049a53fbc207d11a38",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Rincón Infantil",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Salvadas de la boca del “león”",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -19089,6 +20313,34 @@
     },
     {
       "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/f82c479a-345a-4ffa-98d9-f10ddef90777.html",
+      "html_sha256": "8edb540607da80a7b6c72f61d94285f2fe58ec1792b4d1155cf183f5ae1eaf17",
+      "human_reviewed": false,
+      "id": "f82c479a-345a-4ffa-98d9-f10ddef90777",
+      "images": [
+        {
+          "alt": "Dagsljus som tränger in i en mörk fängelsehåla genom ett gallerfönster",
+          "public_path": "/images/articles/f82c479a-345a-4ffa-98d9-f10ddef90777-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/f82c479a-345a-4ffa-98d9-f10ddef90777.json",
+      "metadata_sha256": "2e199f2bde8a1e22a035ff63562019ff02d76ceee21b1017729df8b5d605f7f7",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Inspirations for Youth",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "9fe63733192a6c2b1a16992f2a220dd14dbfe93f8ff3f2c18b549b1da7db5b88",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Varnande råd från en mor i fängelset",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
       "direction": "rtl",
       "html": "content/urd/articles/02db24ae-5132-49c6-a6fd-da73417871e3.html",
       "html_sha256": "d48292d38ab26eb4095677798522bae6ec4cd34676ec9c77e748737b1f867ac8",
@@ -19516,6 +20768,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/53e8b534-1f5e-4d9d-b191-99707a404256.html",
+      "html_sha256": "c848a6f43e6c4fef11b4f86decefdebc889872b138b92e92ce095a82e8df00c4",
+      "human_reviewed": false,
+      "id": "53e8b534-1f5e-4d9d-b191-99707a404256",
+      "images": [
+        {
+          "alt": "پرت در پرت پہاڑوں اور بادلوں کے نیچے ایک وسیع صحرائی وادی",
+          "public_path": "/images/articles/53e8b534-1f5e-4d9d-b191-99707a404256-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/53e8b534-1f5e-4d9d-b191-99707a404256.json",
+      "metadata_sha256": "80cb6c7f8f74aedea6ce8b543396fbd41cbd2d97875471247940df9a0d4f6f0b",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "کردار کے مطالعے",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "fa6973e1c0869cf8ea44c825b0af02960182750ad2e2fbf60dce9af0c7f03feb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "موسیٰ مدیان میں",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/5a87c21f-cce9-4033-8a43-5458311bc7f0.html",
       "html_sha256": "7ed646af19a78a5c76d94807bea7735ed40f64e33317e3e0e3cdb4a0a1389677",
       "human_reviewed": false,
@@ -19543,6 +20823,34 @@
       "status": "ready",
       "subtitle": "تیاری کی نیند",
       "title": "ایک مسیح مرکزِ رشتہ ازدواجی سلسلہ",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.html",
+      "html_sha256": "a74a1125240067b27f024fd542c83606396bfd1bd91ee86ec25848c504141302",
+      "human_reviewed": false,
+      "id": "5fc18c0d-013c-40d0-aabb-e8f7c7c404eb",
+      "images": [
+        {
+          "alt": "ایک پہاڑی وادی میں ایک چھوٹی سفید کلیسیا",
+          "public_path": "/images/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/5fc18c0d-013c-40d0-aabb-e8f7c7c404eb.json",
+      "metadata_sha256": "c6d0c58849c4a0ce59557e7470f4d6173c194bf1093c5d7a94c115c7c0787b79",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "چرچ کی تاریخ",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "f30546ec55676f8dd6c74177eaa70932f9093041fab1ceced906b186d9df3a00",
+      "status": "ready",
+      "subtitle": "نازی جرمنی اور مینوناائٹس",
+      "title": "کلیسیا کی سالمیت",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {

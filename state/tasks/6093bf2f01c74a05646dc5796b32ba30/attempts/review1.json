@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p class=\\\"drop-cap\\\"> (opening paragraph)\",\"severity\":\"minor\",\"source_quote\":\"Sotegen Van Den Houte of Ghent, Holland was martyred for her faith in the Lord, Jesus Christ.\",\"suggested_fix\":\"Preserve the exact printed English proper name throughout the translation. If the English printed form is “Sotegen Van Den Houte” use that same spelling consistently in the Afrikaans text (or reproduce the author’s printed variant in every occurrence).\",\"translation_quote\":\"Op 27 November 1560 is Sotegen Van Den Houte van Gent, Holland, vanweë haar geloof in die Here Jesus Christus gemartel.\"},{\"location\":\"<p><strong>Aanvaar vermaning.</strong> (sentence about instructors)\",\"severity\":\"major\",\"source_quote\":\"always allow yourselves to be instructed by those who fear the Lord.\",\"suggested_fix\":\"Translate the phrase to convey the printed meaning “those who fear the Lord” (people who fear the LORD). Replace the incorrect Afrikaans phrasing “deur die vreeslike van die Here” with a natural, faithful rendering such as “deur dié wat die HERE vrees” or “deur diees wat die Here vrees”. Preserve surrounding HTML tags and punctuation exactly.\",\"translation_quote\":\"laat julle altyd deur die vreeslike van die Here onderrig.\"},{\"location\":\"<p><em>’n Wyse seun <strong>lui</strong> na die vermaning van sy vader: maar ’n verhulder hoor nie bestraffing nie – Spreuke 13:1.</em>\",\"severity\":\"major\",\"source_quote\":\"A wise son heareth his father’s instruction: but a scorner heareth not rebuke –Proverbs 13:1.\",\"suggested_fix\":\"The key verb in the English is “heareth” and must be translated to an Afrikaans verb meaning “hears/listens to.” Replace the incorrect word “lui” (which means “lazy”) with “luister” or “neem ter harte,” e.g. “’n wyse seun luister na die vermaning van sy vader.” Keep the Scripture reference and structure unchanged.\",\"translation_quote\":\"’n Wyse seun <strong>lui</strong> na die vermaning van sy vader: maar ’n verhulder hoor nie bestraffing nie – Spreuke 13:1.\"},{\"location\":\"<p><em>Liegende lippe is ’n gruwel vir die HERE: maar dié wat trou betoon, is Sy welbehae –Spreuke 12:22.</em> (following sentence)\",\"severity\":\"major\",\"source_quote\":\"I admonish you to beware of lying, since liars have no part in the kingdom of God. –see Revelation 21:8.\",\"suggested_fix\":\"The English warns about “liars” (people who lie). The Afrikaans translation incorrectly uses “leiers” (leaders). Replace “leiers” with a faithful rendering for “liars,” such as “leuenaars” or “lyeenaars.” Example fix: “Ek verman julle om op te pas vir leuen, aangesien leuenaars geen deel in die koninkryk van God het nie.” Preserve the Scripture cross-reference unchanged.\",\"translation_quote\":\"Ek verman julle om op te pas vir leuen, aangesien leiers geen deel in die koninkryk van God het nie. <em>–sien Openbaring 21:8.</em>\"}],\"passed\":false,\"score\":72}",
+    "content_bytes": 2976,
+    "content_evidence_truncated": false,
+    "content_sha256": "7f498265f10af7c58207659e08c40a65f0b5cd632be60f029a5c9c8c91820d51",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1395,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8910,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10305
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

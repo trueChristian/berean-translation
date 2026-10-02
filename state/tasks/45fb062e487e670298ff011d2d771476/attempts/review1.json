@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html paragraph containing 'Source:' (end of article)\",\"severity\":\"minor\",\"source_quote\":\"Source:\\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction\",\"suggested_fix\":\"Translate the label 'Source:' into Korean while retaining the original URL. For example: '출처:\\\\nanabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction' (preserve the exact URL and its placement).\",\"translation_quote\":\"Source:<br>anabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 595,
+    "content_evidence_truncated": false,
+    "content_sha256": "9a8832f9e61fb76f870397a216b1eded5f7cca4ce86e1ec838db69b7b8d1e6a2",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 562,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5428,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5990
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

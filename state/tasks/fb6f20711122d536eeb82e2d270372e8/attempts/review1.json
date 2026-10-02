@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<h3>Church History and Should A Christian Vote</h3>\",\"severity\":\"major\",\"source_quote\":\"Church History and Should A Christian Vote\",\"suggested_fix\":\"Translate this heading into Russian and preserve HTML tag. For example: <h3>История церкви и должен ли христианин голосовать</h3> (or another idiomatic Russian rendering of the two English titles), keeping the exact tag and attributes unchanged.\",\"translation_quote\":\"<h3>Church History and Should A Christian Vote</h3>\"},{\"location\":\"<p>…one on Hymn Histories being written by one of our board members, a middle-aged married man, who is also from our church.</p>\",\"severity\":\"major\",\"source_quote\":\"one on Hymn Histories being written by one of our board members, a middle-aged married man, who is also from our church.\",\"suggested_fix\":\"Restore the descriptor 'married' in the Russian sentence to match the English source. Preserve HTML and sentence placement. For example: \\\"Одна — истории гимнов, которую пишет один из членов нашего совета, женатый мужчина средних лет, также из нашей церкви.\\\"\",\"translation_quote\":\"\\\"И одна — истории гимнов, которую пишет один из членов нашего совета, мужчина средних лет, также из нашей церкви.\\\"\"}],\"passed\":false,\"score\":65}",
+    "content_bytes": 1474,
+    "content_evidence_truncated": false,
+    "content_sha256": "22699c858557b225d09a84d014a16cceefcf2e5273c6a10095a5366d45cdbfd3",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1199,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4588,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5787
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "96ee5e92-d0d4-45b0-8f69-e4f38bddb926",
+    "response_id": "chatcmpl-EUX3oI6piMkryyuVKL4glRhNWyniz",
+    "usage": {
+      "completion_tokens": 1475,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5539,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7014
+    }
+  },
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph 2 (sentence mentioning the hymn title)",
+        "severity": "major",
+        "source_quote": "The text of this hymn, All Hail the Power of Jesus Name, has been translated into almost every language where Christianity is known.",
+        "suggested_fix": "Translate the hymn's English title into Russian in-line (preserve it as a title), e.g. «текст этого гимна, «Да здравствует власть Иисусова Имени», был переведён...». Do not leave the substantive quoted title in English.",
+        "translation_quote": "Текст этого гимна, All Hail the Power of Jesus Name, был переведён почти на все языки, где известна христианская вера."
+      },
+      {
+        "location": "source.html — <figure> img alt attribute",
+        "severity": "major",
+        "source_quote": "Sheet music for All Hail the Power of Jesus’ Name, tune DIADEM C. M. with Refrain",
+        "suggested_fix": "Translate the entire alt text into Russian and translate the hymn title portion as well. For example: \"Нотная запись гимна «Да здравствует власть Иисусова Имени», мелодия DIADEM C. M. с припевом\" — i.e., replace the English hymn title with the Russian title used in the article.",
+        "translation_quote": "Нотная запись гимна All Hail the Power of Jesus’ Name, мелодия DIADEM C. M. с припевом"
+      },
+      {
+        "location": "source.html — occurrences of the hymn title in running text",
+        "severity": "major",
+        "source_quote": "All Hail the Power of Jesus Name (appears twice in source running text)",
+        "suggested_fix": "Replace the in-text English hymn title with its Russian rendering used for the article title («Да здравствует власть Иисусова Имени»). Quoted substantive prose must be translated into the target language; keep the original as a parenthetical only if the editor requires both-language display, but the authoritative English must be presented in translated form in the article body.",
+        "translation_quote": "All Hail the Power of Jesus Name (appears untranslated in the Russian article text)"
+      },
+      {
+        "location": "source.html — various occurrences of author name Perronet (spelling variants)",
+        "severity": "minor",
+        "source_quote": "Edward Perronet (source uses single consistent spelling 'Perronet')",
+        "suggested_fix": "Use a single consistent Russian transliteration throughout. For example, standardize on «Перронет» (no diacritic) or «Перроне́т» but apply it consistently. Update all occurrences to match chosen form.",
+        "translation_quote": "Эдвард Перроне́т / Перронет (both forms appear in the translation)"
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

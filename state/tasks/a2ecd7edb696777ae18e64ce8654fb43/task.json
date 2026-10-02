@@ -2,7 +2,6 @@
   "article_id": "9b13e502-993c-4536-a32d-ae1a62c36db5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 4041
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1321,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3691,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5012
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<article> first <p> (epigraph)",
+      "severity": "minor",
+      "source_quote": "The angel of the LORD encampeth round about them that fear him, and delivereth them –Psalm 34:7.",
+      "suggested_fix": "Capitalize the first word to match standard sentence casing in Indonesian and optionally use conventional rendering for 'LORD' as in other places: e.g. \"Malaikat TUHAN berkemah di sekeliling orang-orang yang takut akan Dia, dan melepaskan mereka – Mazmur 34:7.\" Preserve verse number and punctuation.",
+      "translation_quote": " malaikat TUHAN berkemah di sekeliling orang-orang yang takut akan Dia, dan melepaskan mereka –Mazmur 34:7."
+    },
+    {
+      "location": "Paragraph that begins “Aku tidak ingat apa yang terjadi setelah Pierce menjauhkan anjing hari itu...",
+      "severity": "minor",
+      "source_quote": "“I don’t remember what happened after Pierce got the dog away that day, or if we ever got Mother’s sugar, but I will never forget what happened that day.",
+      "suggested_fix": "Add the missing closing quotation mark at the end of the paragraph to match the source's quotation punctuation. Example: add a closing ” at the end of the paragraph text.",
+      "translation_quote": "“Aku tidak ingat apa yang terjadi setelah Pierce menjauhkan anjing hari itu, atau apakah kami pernah mendapatkan gula Ibu, tetapi aku tidak akan pernah melupakan apa yang terjadi hari itu."
+    },
+    {
+      "location": "Paragraph describing Lori falling (sentence about feet/legs)",
+      "severity": "minor",
+      "source_quote": "...with her hands behind her on the hard packed gravel, feet and legs in the air, kicking and kicking, spinning around and around as that angry dog circled her, jumping in at her and nipping at her feet and legs!",
+      "suggested_fix": "Make the body-part wording consistent and idiomatic in Indonesian. The translation currently uses \"kaki dan kakinya\" first and later \"kaki dan betisnya\"; choose one clear rendering (for example, \"kakinya dan betisnya\" or \"kaki dan betisnya\") and apply it consistently. Preserve meaning (both feet and lower legs were being nipped).",
+      "translation_quote": "...duduk di tengah jalan tanah, dengan tangan di belakangnya di kerikil padat yang keras, kaki dan kakinya di udara, menendang-nendang, berputar-putar sementara anjing marah itu mengelilinginya, menyerang dan menggigit pada kaki dan betisnya!"
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:18+00:00",
   "id": "a2ecd7edb696777ae18e64ce8654fb43",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ind",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/024b14cea96a528a42f66f77d442fb07d0e5035a02e35254ae96bf4fcc0c193f.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

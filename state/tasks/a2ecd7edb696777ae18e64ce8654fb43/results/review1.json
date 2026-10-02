@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1b90bfe7-77b7-4d0d-bc00-027d26b54fa5",
+    "response_id": "chatcmpl-EUX3hmn37Qfu4wGIEb29XA36PBuD3",
+    "usage": {
+      "completion_tokens": 1321,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3691,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5012
+    }
+  },
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> first <p> (epigraph)",
+        "severity": "minor",
+        "source_quote": "The angel of the LORD encampeth round about them that fear him, and delivereth them –Psalm 34:7.",
+        "suggested_fix": "Capitalize the first word to match standard sentence casing in Indonesian and optionally use conventional rendering for 'LORD' as in other places: e.g. \"Malaikat TUHAN berkemah di sekeliling orang-orang yang takut akan Dia, dan melepaskan mereka – Mazmur 34:7.\" Preserve verse number and punctuation.",
+        "translation_quote": " malaikat TUHAN berkemah di sekeliling orang-orang yang takut akan Dia, dan melepaskan mereka –Mazmur 34:7."
+      },
+      {
+        "location": "Paragraph that begins “Aku tidak ingat apa yang terjadi setelah Pierce menjauhkan anjing hari itu...",
+        "severity": "minor",
+        "source_quote": "“I don’t remember what happened after Pierce got the dog away that day, or if we ever got Mother’s sugar, but I will never forget what happened that day.",
+        "suggested_fix": "Add the missing closing quotation mark at the end of the paragraph to match the source's quotation punctuation. Example: add a closing ” at the end of the paragraph text.",
+        "translation_quote": "“Aku tidak ingat apa yang terjadi setelah Pierce menjauhkan anjing hari itu, atau apakah kami pernah mendapatkan gula Ibu, tetapi aku tidak akan pernah melupakan apa yang terjadi hari itu."
+      },
+      {
+        "location": "Paragraph describing Lori falling (sentence about feet/legs)",
+        "severity": "minor",
+        "source_quote": "...with her hands behind her on the hard packed gravel, feet and legs in the air, kicking and kicking, spinning around and around as that angry dog circled her, jumping in at her and nipping at her feet and legs!",
+        "suggested_fix": "Make the body-part wording consistent and idiomatic in Indonesian. The translation currently uses \"kaki dan kakinya\" first and later \"kaki dan betisnya\"; choose one clear rendering (for example, \"kakinya dan betisnya\" or \"kaki dan betisnya\") and apply it consistently. Preserve meaning (both feet and lower legs were being nipped).",
+        "translation_quote": "...duduk di tengah jalan tanah, dengan tangan di belakangnya di kerikil padat yang keras, kaki dan kakinya di udara, menendang-nendang, berputar-putar sementara anjing marah itu mengelilinginya, menyerang dan menggigit pada kaki dan betisnya!"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

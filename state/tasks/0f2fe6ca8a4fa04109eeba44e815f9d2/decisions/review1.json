@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "major",
+      "source_quote": "Saved From the “Lion’s” Mouth",
+      "suggested_fix": "Translate the title into Korean while preserving the author’s theology and sense. Suggested Korean rendering: \"\"사자의\" 입에서 구원받음\" (or \"사자의 입에서 구원받음\"). Ensure the quotation marks around “Lion” remain as in English title if stylistic, but render the words in Korean.",
+      "translation_quote": "Saved From the “Lion’s” Mouth"
+    },
+    {
+      "location": "/article p (final quoted scripture) — Psalm 22:21",
+      "severity": "major",
+      "source_quote": "Save me from the lion’s mouth… –Psalm 22:21.",
+      "suggested_fix": "Render the quoted Scripture passage faithfully into Korean without added explanatory words. A faithful translation of the printed English fragment would be: \"사자의 입에서 나를 건져 주소서… — 시편 22:21.\" Replace the current translated phrase that inserts additional parenthetical wording.",
+      "translation_quote": "<em>내가 사자(사나운 입)로부터 나를 건지소서… — 시편 22:21.</em>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

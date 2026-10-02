@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d5c6f846-7552-4bae-ac46-c1d01ed82d81",
+    "response_id": "chatcmpl-EUX3t0UBwu77yY6BHMtzRW30JPMpt",
+    "usage": {
+      "completion_tokens": 1382,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6167,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7549
+    }
+  },
+  "received_at": "2026-10-02T12:55:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> — lyrics block (first occurrence)",
+        "severity": "major",
+        "source_quote": "All hail the power of Jesus’ name,\n    Let angels prostrate fall\n    Bring forth the royal diadem,\n    To crown Him Lord of all!",
+        "suggested_fix": "Translate the quoted hymn stanzas into Greek, preserving the stanza breaks and the surrounding <div class=\"lyrics\"> and <p> tags. Example (illustrative only — translator should choose final wording):\n<p>Χαίρετε τη δύναμη του ονόματος του Ιησού,<br>\nΑς πέσουν συντετριμμένοι οι άγγελοι·<br>\nΦέρτε το βασιλικό διάδημα,<br>\nΓια να Τον στεφανώσετε Κύριο όλων!</p>\nDo this for every English stanza so that all quoted hymn text appears in Greek. Do not leave the hymn lyrics in English.",
+        "translation_quote": "All hail the power of Jesus’ name,\n    Let angels prostrate fall\n    Bring forth the royal diadem,\n    To crown Him Lord of all!"
+      },
+      {
+        "location": "<article> — biographical paragraph (\"Huguenot\")",
+        "severity": "major",
+        "source_quote": "He was a descendant of a distinguished French Huguenot family who had fled to Switzerland and later to England because of the religious persecution in France.",
+        "suggested_fix": "Correct the mistranslation of 'Huguenot'. Replace the current Greek rendering 'γαλλικής οικογένειας Ουγκώ' with a correct translation such as 'διακεκριμένης γαλλικής οικογένειας Ουγενότων' (or 'οικογένειας Ουγενότων') so the historic group is accurately named. Preserve surrounding HTML and sentence structure.",
+        "translation_quote": "Ήταν απόγονος μιας εξέχουσας γαλλικής οικογένειας Ουγκώ, που είχε καταφύγει στην Ελβετία και αργότερα στην Αγγλία εξαιτίας της θρησκευτικής διωγμού στη Γαλλία."
+      },
+      {
+        "location": "source.title and <article> top/title element",
+        "severity": "minor",
+        "source_quote": "All Hail the Power of Jesus Name",
+        "suggested_fix": "Title should convey the imperative and idiom of the hymn in natural Modern Greek. Suggested revision: 'Χαίρετε τη δύναμη του ονόματος του Ιησού' or 'Χαίρετε, η δύναμη του ονόματος του Ιησού' depending on house style. Update both the translation title field and the <article> title text so they match and read idiomatically.",
+        "translation_quote": "Χαίρετε, η Δύναμη του Ονόματος του Ιησού"
+      }
+    ],
+    "passed": false,
+    "score": 48
+  }
+}

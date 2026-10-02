@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 3 (parenthetical remark)",
+      "severity": "major",
+      "source_quote": "(The pock mark is still there)",
+      "suggested_fix": "Translate the parenthetical correctly to Swedish, preserving the original meaning that the author still has the smallpox scar. For example: \"(Ärren från vattkopporna finns fortfarande kvar)\" or \"(Ärrmärket finns fortfarande kvar)\" — keep it as a short parenthesis and preserve italics/bold only if present in source HTML.",
+      "translation_quote": "(Kulan finns kvar än)"
+    },
+    {
+      "location": "Paragraph 20 (quotation of 2 Corinthians 6:17)",
+      "severity": "minor",
+      "source_quote": "Wherefore come out from among them, and be ye separate, saith the Lord, and touch not the unclean thing; and I will receive you –2 Corinthians 6:17.",
+      "suggested_fix": "Restore a fluent, standard contemporary Swedish rendering that clearly conveys the imperative sense. The current translation begins with \"Varför:\" which reads as the question word 'why' rather than a rendering of 'Wherefore'/'Therefore'. Suggested correction: replace \"Varför: Gå ut från dem och skilj er, säger Herren; rör icke vid det orena, så skall jag taga er till mig –2 Korinthierbrevet 6:17.\" Ensure the verse reference number remains unchanged.",
+      "translation_quote": "<em>Varför: <strong>Gå ut från dem och skilj er, säger Herren; rör icke vid det orena</strong>, så skall jag taga er till mig –2 Korinthierbrevet 6:17.</em>"
+    },
+    {
+      "location": "Paragraph 22 (quote rendered as \"ända är ännu icke\")",
+      "severity": "minor",
+      "source_quote": "He said along with this, ‘the end is not yet’.",
+      "suggested_fix": "Use a clear contemporary Swedish equivalent for 'the end is not yet'. The current phrase \"ända är ännu icke\" is awkward/archaic. Suggested fix: \"han sade samtidigt: 'ändock är ännu icke slutet'\" or \"han sade också: 'ändå är slutet ännu inte'\" — keep the meaning equivalent to the English source.",
+      "translation_quote": "\"ända är ännu icke\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

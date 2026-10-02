@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "476d1385-e928-4cf2-8c02-5d22f3998b60",
+    "response_id": "chatcmpl-EUX3pDxzyZYmx75qju8s3VEfe2wi6",
+    "usage": {
+      "completion_tokens": 1122,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5326,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6448
+    }
+  },
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...their political might handed Hitler the office of prime minister. ...</p>",
+        "severity": "major",
+        "source_quote": "The thousands of new Nazi Party members enabled the Nazi Party to seriously contest many local elections, and in Germany’s Parliament, they were able to control enough votes to sway policy making. In the long run, their political might handed Hitler the office of prime minister.",
+        "suggested_fix": "Translate the phrase to clearly match the source meaning. Replace the current Swedish phrase that alters the office with a direct equivalent of “prime minister” (e.g. \"till ämbetet som premiärminister\" or \"till posten som rikskansler\" if the author intended the German title). Preserve surrounding HTML and punctuation.",
+        "translation_quote": "...gav deras politiska styrka Hitler ämbetet som rikspresidentens motsvarighet (statsminister). När han säkrat den positionen... "
+      },
+      {
+        "location": "<p><em>Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted?… –Matthew 5:13.</em></p>",
+        "severity": "minor",
+        "source_quote": "Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted?… –Matthew 5:13.",
+        "suggested_fix": "No doctrinal change, but for contemporary Swedish register and idiom consider a more natural phrasing while preserving meaning and the Scripture reference formatting. For example: \"Ni är jordens salt. Men blir saltet smaklöst, med vad skall det saltas igen? … – Matteus 5:13.\" (retain punctuation and the citation exactly as in the source).",
+        "translation_quote": "<em>Ni är jordens salt; men blir saltet smaklöst, med vad skall det salts igen? … – Matteus 5:13.</em>"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

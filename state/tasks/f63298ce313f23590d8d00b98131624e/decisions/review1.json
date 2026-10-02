@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph: \"Dalam dunia natural naluri \\\"orang lama\\\" kita cenderung...\",\"html_tag\":null",
+      "severity": "minor",
+      "source_quote": "In the natural world our “old man” has the tendency to think that we must “do something” if we expect things to go in a “right” direction.",
+      "suggested_fix": "Adjust word order and punctuation for clearer Indonesian idiom. Example: \"Dalam dunia alamiah, 'orang lama' kita cenderung berpikir bahwa kita harus 'melakukan sesuatu' jika berharap segala sesuatu berjalan ke arah yang 'benar'.\" Preserve the same HTML tag and placement.",
+      "translation_quote": "Dalam dunia natural naluri \"orang lama\" kita cenderung berpikir bahwa kita harus \"melakukan sesuatu\" jika kita berharap segala sesuatu berjalan ke arah yang \"benar\"."
+    },
+    {
+      "location": "Paragraph: \"Pada akhirnya, kita harus mempercayai Allah untuk mewujudkan kehendak-Nya seiring berjalannya \\\"jam waktu\\\" menuju akhir zaman.\",",
+      "severity": "minor",
+      "source_quote": "Ultimately, we must trust God to bring about His will for the winding down of the “clock of time” as time speeds onward towards the end of time.",
+      "suggested_fix": "Consider a more idiomatic rendering of \"clock of time\" into Indonesian. Example: \"seiring berputarnya 'jam waktu' menuju akhir zaman\" or simply \"seiring berjalannya waktu menuju akhir zaman.\" Either option preserves meaning; keep the existing HTML structure.",
+      "translation_quote": "Pada akhirnya, kita harus mempercayai Allah untuk mewujudkan kehendak-Nya seiring berjalannya \"jam waktu\" menuju akhir zaman."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

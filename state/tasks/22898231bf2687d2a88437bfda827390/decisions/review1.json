@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.title",
+      "severity": "major",
+      "source_quote": "Depression",
+      "suggested_fix": "Translate the English title into Dutch. Replace the translation title text with a natural Dutch rendering such as: \"Depressie\".",
+      "translation_quote": "Depression"
+    },
+    {
+      "location": "source.section",
+      "severity": "major",
+      "source_quote": "A Word From A Doctor",
+      "suggested_fix": "Translate the section/strapline into Dutch. Replace the translation section text with a natural Dutch rendering such as: \"Een woord van een (huis)arts\" or \"Een woord van een dokter\" (consistent with site style).",
+      "translation_quote": "A Word From A Doctor"
+    },
+    {
+      "location": "article body — paragraph mentioning Job’s friends",
+      "severity": "minor",
+      "source_quote": "We know the story of Job’s friends.",
+      "suggested_fix": "Fix the English-style possessive in Dutch. Replace “Job’s vrienden” with the standard Dutch form without an apostrophe, e.g. \"Jobs vrienden\" or rephrase to \"We kennen het verhaal van de vrienden van Job.\"",
+      "translation_quote": "We kennen het verhaal van Job’s vrienden."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -2,7 +2,6 @@
   "article_id": "dce3d3b3-8b56-4be5-9674-e682b97d3b43",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,45 @@
         },
         "total_tokens": 4992
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1040,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4514,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5554
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>Zoals eerder genoemd, voegen we in dit nummer enkele nieuwe rubrieken toe. Eén over kerkgeschiedenis die geschreven wordt door twee jonge broeders uit onze kerk. En één over psalm-/gezangsgeschiedenissen die geschreven wordt door een van onze bestuursleden, een middelbare getrouwde man, die ook uit onze kerk komt.</p>",
+      "severity": "minor",
+      "source_quote": "And one on Hymn Histories being written by one of our board members, a middle-aged married man, who is also from our church.",
+      "suggested_fix": "Gebruik een natuurlijkere, gestandaardiseerde Nederlandse formulering voor “middle-aged”. Bijvoorbeeld: vervang \"een middelbare getrouwde man\" door \"een bestuurslid van middelbare leeftijd (getrouwd)\" of \"een getrouwde man van middelbare leeftijd\" zodat de zinsbouw vloeiender is en de betekenis behouden blijft.",
+      "translation_quote": "En één over psalm-/gezangsgeschiedenissen die geschreven wordt door een van onze bestuursleden, een middelbare getrouwde man, die ook uit onze kerk komt."
+    },
+    {
+      "location": "<p>Als we kijken naar het leven van Jona, vangen we glimpjes op van “De God Die Niet Loslaat”. Vaak verliest een worstelende gelovige de Waarheid van God uit het oog omdat hij gelooft de leugen dat niemand geeft om hem, maar de waarheid is dit—de God van de Bijbel laat ons niet gewoon vallen of keert Zijn gezicht van ons af het ogenblik dat wij een verkeerde afslag nemen of een misstap begaan. Laat dit artikel ons helpen geworteld en gegrond te raken in de bijbelse Waarheid van Abba Vader—een Vader die om Zijn kinderen geeft. We hebben ook het tweede artikel in een doorlopende serie over discipelschap, evenals een artikel geschreven door een middelbare, geestelijk rijpe zuster die haar aanmoediging deelt voor zusters om te evalueren wat God van hun kleding denkt.</p>",
+      "severity": "minor",
+      "source_quote": "…as well as an article written by a middle-aged, spiritually-mature sister who shares her encouragement for sisters to evaluate what God thinks of their attire.",
+      "suggested_fix": "Pas ook hier de vertaling van “middle-aged” aan naar een natuurlijker Nederlands. Bijvoorbeeld: vervang \"een middelbare, geestelijk rijpe zuster\" door \"een geestelijk rijpe zuster van middelbare leeftijd\". Dit behoudt betekenis en leest beter in het Nederlands.",
+      "translation_quote": "…evenals een artikel geschreven door een middelbare, geestelijk rijpe zuster die haar aanmoediging deelt voor zusters om te evalueren wat God van hun kleding denkt."
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:17+00:00",
   "id": "2499085afef7ac34071a2ed8d351184c",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "nld",
@@ -100,11 +135,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c16edd05d12043a927f45367071112d6f71c0042bc3d1b02d0bfb5b8d330f1e2.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d0410b3ae98c7c6c4b8643e82b8513a58f4f423e430db25e79b18dc18a3fab41",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

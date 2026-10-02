@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "bca2dde7-5c8e-4bf7-8291-a5e4d2823bec",
+    "response_id": "chatcmpl-EUX3qCxyTKsel3aBSgP1lM9BCgGTx",
+    "usage": {
+      "completion_tokens": 1364,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5282,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6646
+    }
+  },
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "final paragraph (near end) in source.html",
+        "severity": "minor",
+        "source_quote": "This is a cautionary tale of the dangers of an unequal yoking of the church with the world.",
+        "suggested_fix": "Translate the phrase more idiomatically in Norwegian and fix the garbled spacing. Replace the current translation fragment \"en ulikt hemmet sammenslåing mellom kirke og verden\" with e.g. \"en ulikt sammenbinding mellom kirke og verden\" or \"faren ved at kirken blir ulikt knyttet til verden\" while preserving the surrounding HTML and paragraph structure.",
+        "translation_quote": "Dette er en formaning om farene ved en ulikt hemmet sammenslåing mellom kirke og verden."
+      },
+      {
+        "location": "paragraph with film/propaganda sentence in source.html",
+        "severity": "minor",
+        "source_quote": "...depicting the Mennonites as strong, red-blooded Germans valiantly striving against the unjust oppression of the Russian Communists.",
+        "suggested_fix": "Fix spacing and hyphenation in Norwegian. Remove the space after the hyphen in \"røde- blodige\" so it reads \"røde-blodige\" or use a more natural phrase such as \"karske, røde-blodige tyskere\" or simply \"kraftige, røde-blodige tyskere\". Preserve the paragraph HTML tags and order.",
+        "translation_quote": "...som skildret mennonittene som sterke, røde- blodige tyskere som tappert strevde mot den urettferdige undertrykkelsen fra de russiske kommunistene."
+      },
+      {
+        "location": "final source credit paragraph in source.html",
+        "severity": "minor",
+        "source_quote": "Source:<br>anabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction",
+        "suggested_fix": "Translate the word \"Source:\" into Norwegian and keep the URL unchanged. Replace \"Source:\" with \"Kilde:\" so the paragraph reads e.g. \"Kilde:<br>anabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction\". Preserve the <p> and <br> tags and the URL exactly as in the source.",
+        "translation_quote": "Source:<br>anabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

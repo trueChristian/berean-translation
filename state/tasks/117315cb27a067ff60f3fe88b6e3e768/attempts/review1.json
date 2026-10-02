@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.section / translation.section\",\"severity\":\"minor\",\"source_quote\":\"FROM THE EDITOR\",\"suggested_fix\":\"Use a more natural and complete Portuguese heading. Either keep the existing translation 'DO EDITOR' or prefer 'DO EDITOR' with correct capitalization. If you prefer a closer literal rendering, use 'DO EDITOR' or 'DO EDITOR'. Ensure site styling/locale preferences dictate capitalization.\",\"translation_quote\":\"DO EDITOR\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 482,
+    "content_evidence_truncated": false,
+    "content_sha256": "987e7498e18939fa1adcebf7380ae33d7327f8876ef0835a17e50d6d9243d9ea",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 565,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4396,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4961
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

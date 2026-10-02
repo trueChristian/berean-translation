@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "<p>“My, my, you children like to hear stories, don’t you?” replied Grandma, with a twinkle in her eye.</p>",
+      "severity": "minor",
+      "source_quote": "“My, my, you children like to hear stories, don’t you?” replied Grandma, with a twinkle in her eye.",
+      "suggested_fix": "Translate the interjection idiomatically into contemporary Modern Greek (keep tone). For example: «Μα, μα, παιδιά, σας αρέσει να ακούτε ιστορίες, έτσι δεν είναι;» or «Ωω, παιδιά, σας αρέσουν οι ιστορίες, έτσι δεν είναι;» Preserve the surrounding HTML and punctuation.",
+      "translation_quote": "«Μπαμπαμ, σας αρέσουν να ακούτε ιστορίες, έτσι δεν είναι;» απάντησε η Γιαγιά με ένα σπινθήρισμα στα μάτια της."
+    },
+    {
+      "location": "<figure> <img src=\"/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-1.png\" alt=\"A brindle dog wearing a chain collar\" loading=\"lazy\"> </figure>",
+      "severity": "minor",
+      "source_quote": "A brindle dog wearing a chain collar",
+      "suggested_fix": "Correct the Greek alt text to accurately and idiomatically describe the image. For example: alt=\"Ένας ριγωτός (brindle) σκύλος με κολάρο αλυσίδας\" or alt=\"Ένας ριγωτός σκύλος με κολάρο αλυσίδας\". Preserve the <img> tag and its attributes.",
+      "translation_quote": "alt=\"Ένας τριχοχρωματιστός σκύλος με δείκτη κολάρο\""
+    },
+    {
+      "location": "<p>“We lived on an old farm, back a short lane along a dirt road. One morning, Mother called us in from our play and said she was out of sugar.</p>",
+      "severity": "minor",
+      "source_quote": "We lived on an old farm, back a short lane along a dirt road. One morning, Mother called us in from our play and said she was out of sugar.",
+      "suggested_fix": "Keep the past narrative tense in Greek (reflecting the English past-tense storytelling). Replace present-tense verbs with past tense. For example: «Μένουσαμε σε ένα παλιό αγρόκτημα, πίσω σε ένα μικρό μονοπάτι κατά μήκος ενός χωμάτινου δρόμου. Μια πρωινή μέρα, η μαμά μας φώναξε από το παιχνίδι…» (use ἠ αντίστοιχο past forms). Preserve HTML.",
+      "translation_quote": "«Μένουμε σε ένα παλιό αγρόκτημα, πίσω σε ένα μικρό μονοπάτι κατά μήκος ενός χωμάτινου δρόμου. Μια μέρα το πρωί, η Μαμά μας κάλεσε από το παιχνίδι και είπε ότι τελείωνε η ζάχαρη.»"
+    },
+    {
+      "location": "<p>with her hands behind her on the hard packed gravel, feet and legs in the air, kicking and kicking, spinning around and around as that angry dog circled her</p>",
+      "severity": "minor",
+      "source_quote": "with her hands behind her on the hard packed gravel, feet and legs in the air, kicking and kicking, spinning around and around as that angry dog circled her, jumping in at her and nipping at her feet and legs!",
+      "suggested_fix": "Avoid the accidental duplication and render idiomatically in Greek. For example: «καθόταν στη μέση του χωμάτινου δρόμου, με τα χέρια πίσω της πάνω στο σκληρά συμπιεσμένο χαλίκι, τα πόδια της σηκωμένα στον αέρα, κλωτσώντας και γυρίζοντας καθώς ο θυμωμένος σκύλος την κύκλωνε, πηδώντας πάνω της και δαγκώνοντας τα πόδια της.» Preserve punctuation and HTML structure.",
+      "translation_quote": "«...με τα χέρια πίσω της στο σκληρά συμπιεσμένο χαλίκι, τα πόδια και τα πόδια της στον αέρα, κλωτσώντας και κλωτσώντας, γυρίζοντας γύρω-γύρω καθώς αυτός ο θυμωμένος σκύλος την περιφέροταν, πηδώντας πάνω της και δαγκώνοντας τα πόδια και τα πόδια της!»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

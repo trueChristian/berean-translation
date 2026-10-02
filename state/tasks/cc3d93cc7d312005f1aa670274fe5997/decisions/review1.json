@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.html — multiple scripture citations (e.g. the first paragraph, Matthew 4:18-22 and many others)",
+      "severity": "critical",
+      "source_quote": "…–Matthew 4:18-22.\n\n…–Matthew 3:11-12.\n\n–Luke 8:1-3.\n\n–Luke 5:20.\n\n–Luke 5:21.\n\n–Luke 5:22-24.\n\n–Romans 10:3.\n\n–Isaiah 64:6.\n\n–Ephesians 1:7.\n\n–Luke 7:37-39.\n\n–Luke 7:44-47.\n\n–Luke 7:48.\n\n–Matthew 1:21.",
+      "suggested_fix": "Translate all quoted Scripture book names into standard contemporary Hindi (keep chapter and verse numbers exactly as in the source). Do not change the verse numbers or ranges. Examples of conventional translations to use: Matthew → मत्ती, Luke → लूका, John → यूहन्ना, Isaiah → यशायाह, Romans → रोमियों (or रोम), Ephesians → इफिसियों, etc. Apply this consistently for every inline citation and verse citation in the article (including the short parenthetical references and the em‑formatted quoted passages). For example: “–Matthew 4:18-22.” → “–मत्ती 4:18-22.”; “–Luke 8:1-3.” → “–लूका 8:1-3.”. Ensure every instance in the translation where a Scripture citation appears follows this form (book name in Hindi + original chapter:verse).",
+      "translation_quote": "…–Matthew 4:18-22.\n\n…–Matthew 3:11-12.\n\n–Luke 8:1-3.\n\n–Luke 5:20.\n\n–Luke 5:21.\n\n–Luke 5:22-24.\n\n–Romans 10:3.\n\n–Isaiah 64:6.\n\n–Ephesians 1:7.\n\n–Luke 7:37-39.\n\n–Luke 7:44-47.\n\n–Luke 7:48.\n\n–Matthew 1:21."
+    },
+    {
+      "location": "source.subtitle / translation.subtitle",
+      "severity": "major",
+      "source_quote": "The second article in the series “The Call of Discipleship”",
+      "suggested_fix": "Translate the subtitle to faithfully reflect the English meaning. The English phrase “The Call of Discipleship” refers to the theme/title of the series and should be translated as शिष्यत्व का आह्वान (or another equivalent that preserves 'call' and 'discipleship'). The full subtitle could be: “शृंखला ‘शिष्यत्व का आह्वान’ का दूसरा लेख”. Replace the current translation (“अनुशासन के आह्वान”) which incorrectly renders 'discipleship' as 'discipline'.",
+      "translation_quote": "“अनुशासन के आह्वान” श्रृंखला का दूसरा लेख"
+    },
+    {
+      "location": "source.section / translation.section",
+      "severity": "major",
+      "source_quote": "The New Testament Church",
+      "suggested_fix": "Translate the section title into natural contemporary Hindi conveying the intended meaning. The current translation (\"नया नियमनीय गिरजाघर\") is awkward and inaccurate. A clearer, faithful rendering would be: “नए नियम की कलीसिया” or simply “नया नियम: कलीसिया” or “नए नियम की चर्च”. Use one consistent form throughout the site; for contemporary standard Hindi, I suggest: “नए नियम की कलीसिया”.",
+      "translation_quote": "नया नियमनीय गिरजाघर"
+    },
+    {
+      "location": "source.html — paragraph with English word left in parentheses",
+      "severity": "minor",
+      "source_quote": "Holiness is the full sum of the righteousness of Jesus manifested in our lives by the work of regeneration and the inner renewing of the Holy Ghost.",
+      "suggested_fix": "Remove or translate the residual English word in parentheses. In the translation the sentence contains “यीशु की धार्मिकता (righteousness)”. Replace the parenthetical English with a Hindi term (for example, remove the parentheses and use only a Hindi word: \"यीशु की धार्मिकता\" or, if a clarifying synonym is desired, \"धार्मिकता/धर्मशोभा\"—but do not leave the English word). Ensure no substantive English words that affect meaning remain in the translated body text.",
+      "translation_quote": "यीशु की धार्मिकता (righteousness)"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3af6b9bc-8f6f-4060-ae1b-38b72e58fa9e",
+    "response_id": "chatcmpl-EUX3Zc1PkNnl9yatIVJiEzctKfqUb",
+    "usage": {
+      "completion_tokens": 1279,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5414,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6693
+    }
+  },
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"lyrics\"> (first lyrics block, eight stanzas)",
+        "severity": "critical",
+        "source_quote": "All hail the power of Jesus’ name,\n    Let angels prostrate fall\n    Bring forth the royal diadem,\n    To crown Him Lord of all! ... (all eight stanzas in English)",
+        "suggested_fix": "Translate these hymn stanzas into Kiswahili, preserving the HTML structure and line breaks exactly as in the source. Do not leave the quoted hymn text in English. For example, inside the same <div class=\"lyrics\">...</div> replace the English stanzas with a faithful Kiswahili rendition that conveys the printed meaning of each line (preserve stanza order and stanza breaks).",
+        "translation_quote": "All hail the power of Jesus’ name,\n    Let angels prostrate fall\n    Bring forth the royal diadem,\n    To crown Him Lord of all! ... (all eight stanzas left in English)"
+      },
+      {
+        "location": "Paragraph: “I was born and I am likely to die in the tottering communion of the Church of England, but I despise her nonsense.”",
+        "severity": "major",
+        "source_quote": "I was born and I am likely to die in the tottering communion of the Church of England, but I despise her nonsense.",
+        "suggested_fix": "Restore the negative sense of 'I despise her nonsense.' The translation currently reads “nimethamini upuuzi wake” (I have valued/appreciated her nonsense), which reverses the meaning. Replace with a Kiswahili rendering that preserves the original negation and tone, e.g. “Nimezaliwa na natarajia kufa katika umoja unaokatika wa Kanisa la Uingereza, lakini nayachukia upuuzi wake.”",
+        "translation_quote": "“Nimezaliwa na natarajia kufa katika umoja wa Kanisa la Uingereza unaokatika, lakini nimethamini upuuzi wake.”"
+      },
+      {
+        "location": "Paragraph: “threw himself strenuously into the evangelistic endeavors of the Wesleys”",
+        "severity": "minor",
+        "source_quote": "threw himself strenuously into the evangelistic endeavors of the Wesleys during the 1740s and 1750s.",
+        "suggested_fix": "The phrase has been mistranslated as “kujenga bidii katika juhudi za kuminisha,” which obscures meaning. Use a clear Kiswahili equivalent for 'evangelistic endeavors', e.g. “kujivisha kikamilifu katika shughuli za uinjilishaji za Wesley” or “kujiingiza kwa bidii katika juhudi za uinjilishaji za Wesley.” Preserve the original timeframe and HTML tags.",
+        "translation_quote": "“kujenga bidii katika juhudi za kuminisha za Wesley wakati wa miaka ya 1740 na 1750.”"
+      },
+      {
+        "location": "Paragraph telling the missionary story (violin reference)",
+        "severity": "minor",
+        "source_quote": "At once the missionary drew out the violin that he always carried with him and began to play and sing in the native language, “All hail the power of Jesus’ name!”",
+        "suggested_fix": "The translation renders 'violin' incorrectly as “filimbi ya fidla.” Replace with a correct Kiswahili term such as “violini” or “alakisi/kinanda cha violedi” depending on preferred register. For example: “Mara moja misheni alitoa violin aliyokuwa akibeba kila wakati naye na akaanza kupiga na kuimba kwa lugha yao ya asili, ‘All hail the power of Jesus’ name!’” Also translate the quoted hymn (see critical finding) into Kiswahili in this sentence.",
+        "translation_quote": "“Mara moja mshindi huyo alitoa filimbi ya fidla aliyekuwa akibeba kila wakati naye na akaanza kupiga na kuimba kwa lugha yao ya asili, “All hail the power of Jesus’ name!””"
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

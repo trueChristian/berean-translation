@@ -2,7 +2,6 @@
   "article_id": "f09d8cd5-b48f-470f-936f-263e6940b6bd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 5712
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1255,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5309,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6564
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p class=\"drop-cap\"> (second sentence)",
+      "severity": "minor",
+      "source_quote": "The text of this hymn, All Hail the Power of Jesus Name, has been translated into almost every language where Christianity is known.",
+      "suggested_fix": "Translate the hymn title into Indonesian or mark it as a title in Indonesian. Preserve the sentence structure and HTML. For example: replace 'All Hail the Power of Jesus Name' with 'Hormatlah kepada Kuasa Nama Yesus' so the sentence reads (in-place):\n\nThe text of this hymn, Hormatlah kepada Kuasa Nama Yesus, telah diterjemahkan ke hampir setiap bahasa...",
+      "translation_quote": "Teks himne ini, All Hail the Power of Jesus Name, telah diterjemahkan ke hampir setiap bahasa tempat Kekristenan dikenal."
+    },
+    {
+      "location": "<div class=\"lyrics\"> (seventh stanza of first lyrics block)",
+      "severity": "minor",
+      "source_quote": "Sinners, whose love can ne’er forget\n    The wormwood and the gall,",
+      "suggested_fix": "The current translation is awkward and has a mid-sentence capitalization and semantic looseness. Render the meaning more faithfully into Indonesian, keeping HTML and stanza structure. Suggested replacement (in-place):\n\nOrang-orang berdosa, yang kasihnya tak pernah melupakan\n    pahit dan racun,\n\nor better preserving the idiom: \n\nOrang-orang berdosa, yang tak pernah melupakan\n    kepahitan dan racun,",
+      "translation_quote": "Orang-orang berdosa, yang kasihnya tak pernah lupa\n    Pahit dan racun,"
+    },
+    {
+      "location": "Metadata/title (translation.title)",
+      "severity": "minor",
+      "source_quote": "All Hail the Power of Jesus Name",
+      "suggested_fix": "Consider a more idiomatic Indonesian hymn title. Current translation 'Hormatlah kepada Kuasa Nama Yesus' is acceptable but could be smoothed to 'Segala Hormat bagi Kuasa Nama Yesus' or 'Hormatlah atas Kuasa Nama Yesus' depending on house style. If keeping current title, no change required; if preferred, replace translation.title value accordingly while preserving HTML structure.",
+      "translation_quote": "Hormatlah kepada Kuasa Nama Yesus"
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:17+00:00",
   "id": "09263d3d092507e28cabd352fd63a196",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ind",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6b076b1f67d6fafc1720a4ac2de4e895d6d3d4ebd14b1f3db48cc7447fd2506b.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

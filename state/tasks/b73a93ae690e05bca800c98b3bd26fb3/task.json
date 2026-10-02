@@ -2,7 +2,6 @@
   "article_id": "6080d813-75a2-4123-9552-3c4f75c81219",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:40+00:00",
   "events": [
@@ -24,9 +23,44 @@
         },
         "total_tokens": 5953
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 514,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 320,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5677,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6191
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.title",
+      "severity": "major",
+      "source_quote": "Why I Have Not Gotten the Covid Shot",
+      "suggested_fix": "Translate the English title into standard Bahasa Indonesia and preserve meaning. Suggested translation: \"Mengapa Saya Belum Mendapat Suntikan Covid\" (or \"Mengapa Saya Belum Disuntik Covid\"). Replace the translation.title value with the chosen Indonesian title.",
+      "translation_quote": "Why I Have Not Gotten the Covid Shot"
+    },
+    {
+      "location": "source.section",
+      "severity": "major",
+      "source_quote": "Issues Facing the Church",
+      "suggested_fix": "Translate the English section name into standard Bahasa Indonesia. Suggested translation: \"Isu yang Dihadapi Gereja\" or \"Isu yang Dihadapi Jemaat\". Replace the translation.section value with the chosen Indonesian section name.",
+      "translation_quote": "Issues Facing the Church"
+    }
+  ],
   "id": "b73a93ae690e05bca800c98b3bd26fb3",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ind",
@@ -100,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 85,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/733eeaa1a812b6193e133350be5a00b31e3585142bda55cfaea2f725f3dda88f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "f7d8a08704733486f924816fbfd515b7c40bf25c984ecd111bf0fe403aaa2dde",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

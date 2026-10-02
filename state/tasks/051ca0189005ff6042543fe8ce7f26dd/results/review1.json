@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5d2c9a78-fd4e-4a52-ac8d-c265ff3dee36",
+    "response_id": "chatcmpl-EUX4VE2oICFxNKpi3J6dDn438TiMJ",
+    "usage": {
+      "completion_tokens": 1612,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5804,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7416
+    }
+  },
+  "received_at": "2026-10-02T12:55:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph 3 (Edward Perronet biography)",
+        "severity": "major",
+        "source_quote": "He was a descendant of a distinguished French Huguenot family who had fled to Switzerland and later to England because of the religious persecution in France.",
+        "suggested_fix": "Translate 'a descendant of a distinguished French Huguenot family' correctly. Replace \"وہ ایک ممتاز فرانسیسی ہیوگنوٹ خاندان کے خاندان نویس تھے\" with a faithful Urdu rendering such as: \"وہ ایک ممتاز فرانسیسی ہیوگنوٹ خاندان کے وارث/نسل سے تعلق رکھتے تھے\" (preserving HTML tags and surrounding text).",
+        "translation_quote": "وہ ایک ممتاز فرانسیسی ہیوگنوٹ خاندان کے خاندان نویس تھے جو مذہبی ظلم و ستم کے سبب سویٹزرلینڈ اور بعد میں انگلینڈ ہجرت کر گئے تھے۔"
+      },
+      {
+        "location": "source.html various (Edward Perronet name)",
+        "severity": "minor",
+        "source_quote": "Edward Perronet",
+        "suggested_fix": "Use a single consistent Urdu spelling for the name throughout the article. For example replace all variants (\"اڈورڈ پیرو نیٹ\", \"ایڈورڈ پیرو نیٹ\") with one consistent form such as \"ایڈورڈ پیرو نیٹ\" (preserve tags and positions).",
+        "translation_quote": "اڈورڈ پیرو نیٹ / ایڈورڈ پیرو نیٹ (both forms appear in the translation)."
+      },
+      {
+        "location": "source.html opening paragraphs and later (hymn title and magazine title)",
+        "severity": "minor",
+        "source_quote": "first appearing in the November 1779 issue of Gospel Magazine\nAll Hail the Power of Jesus Name",
+        "suggested_fix": "Translate or consistently render publication and hymn-title occurrences into Urdu script. For the magazine title, use a transliteration or translated form consistently (for example \"گاسپل میگزین\" or \"Gospel Magazine\" in italics/transliteration). For the hymn title, render it in Urdu each time it appears (e.g. \"تمام سلام — ’خداوند یسوع کے نام کی طاقت کو سلام‘\"), or consistently transliterate it in Perso‑Arabic script. Do not leave some occurrences in English while others are translated. Preserve HTML tags and placement.",
+        "translation_quote": "Gospel Magazine\nAll Hail the Power of Jesus Name (left in English in several places)."
+      },
+      {
+        "location": "source.html lyrics stanzas (first verse and other lyrical lines)",
+        "severity": "minor",
+        "source_quote": "All hail the power of Jesus’ name,\nLet angels prostrate fall\nBring forth the royal diadem,\nTo crown Him Lord of all!",
+        "suggested_fix": "Render the poetic lines in clear, idiomatic Urdu that preserves the original meaning and poetic cadence. For example, replace the current lines such as \"تمام سلام، یسوع کے نام کی طاقت پر، فرشتے سجدہ کریں اور گر جائیں\" with a more natural and faithful rendering like: \"تمام سلام ہو یسوع کے نام کی شان کو، فرشتے ہوں سجدہ روئے، شاہی تاج پیش کرو، تاکہ وہ سب کا خدا تاجپوش ہو۔\" Ensure the translation of all stanzas communicates the original sense; fix obvious mistranslations (see e.g. \"اونچے جنمی سرِ فرشتے بُدھیار کو چھیڑیں\" which is unintelligible). Keep the HTML structure of the lyrics block unchanged.",
+        "translation_quote": "تمام سلام، یسوع کے نام کی طاقت پر، فرشتے سجدہ کریں اور گر جائیں\nشاہی تاج پیش کریں، تاکہ اُسے سب کا رب تخت دیا جائے!  (and other stanzas where lines like \"اونچے جنمی سرِ فرشتے بُدھیار کو چھیڑیں\" appear)."
+      },
+      {
+        "location": "source.html paragraph about Wesleys (spelling of 'Wesleys'/'Wesley')",
+        "severity": "minor",
+        "source_quote": "the Wesleys and George Whitefield\nCharles Wesley\nJohn Wesley",
+        "suggested_fix": "Use consistent and conventional Urdu renderings for 'Wesley' and 'the Wesleys'. Currently variants like \"ویژلیز\", \"ویسلی\", and \"ویژلیز کے\" appear. Choose one standard form such as \"ویسلی\" for John/Charles Wesley and \"ویسلی خاندان\" or \"ویسلی برادران\" for 'the Wesleys', and apply it everywhere. Preserve HTML tags and positions.",
+        "translation_quote": "ویژلیز / ویسلی (inconsistent forms appear)."
+      }
+    ],
+    "passed": false,
+    "score": 73
+  }
+}

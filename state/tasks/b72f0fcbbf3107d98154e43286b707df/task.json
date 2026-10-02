@@ -2,7 +2,6 @@
   "article_id": "6080d813-75a2-4123-9552-3c4f75c81219",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:40+00:00",
   "events": [
@@ -24,9 +23,79 @@
         },
         "total_tokens": 6197
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2138,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5917,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8055
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html — paragraph containing Revelation 13:16-17 (English quotation left inside emphasized text)",
+      "severity": "critical",
+      "source_quote": "And he causeth all, both small and great, rich and poor, free and bond, to receive a mark in their right hand, or in their foreheads: And that no man might buy or sell, save he that had the mark, or the name of the beast, or the number of his name –Revelation 13:16-17.",
+      "suggested_fix": "Translate the quoted Scripture into Kiswahili (conventional Swahili Bible book name, exact verse numbers unchanged). Example replacement (Union/standard phrasing): “Na yeye akamfanya aliyeweza, afanye wote, wadogo na wakubwa, matajiri na maskini, huru na watumwa, wapokee alama kwenye mkono wao wa kuume au kwenye paji la uso wao; na wala hakuna aliyekuwa akiweza kununua au kuuza, isipokuwa yule aliyekuwa na alama, au jina la mnyama, au nambari ya jina lake. —Ufunuo 13:16-17.” Preserve the original HTML tags and emphasis around the quotation.",
+      "translation_quote": "<em>And he causeth all, both small and great, rich and poor, free and bond, to receive a mark in their right hand, or in their foreheads: <strong>And that no man might buy or sell, save he that</strong> had the mark, or the name of the beast, or the number of his name –Revelation 13:16-17.</em>"
+    },
+    {
+      "location": "source.html — paragraph containing 2 Corinthians 6:17 (English quotation left inside emphasized text)",
+      "severity": "major",
+      "source_quote": "Wherefore come out from among them, and be ye separate, saith the Lord, and touch not the unclean thing; and I will receive you –2 Corinthians 6:17.",
+      "suggested_fix": "Translate this quoted Scripture into Kiswahili with conventional book name and verse numbers unchanged. Example: “Kwa hiyo, toka miongoni mwao, na jitenge, asema Bwana; mimi sitagusa kitu kisicho safi; nami nitawakubali. —2 Wakorintho 6:17.” Keep HTML structure and emphasis tags.",
+      "translation_quote": "<em>Wherefore <strong>come out from among them, and be ye separate</strong>, saith the Lord, and touch not the unclean thing; and I will receive you –2 Corinthians 6:17.</em>"
+    },
+    {
+      "location": "source.html — paragraph containing Revelation 14:12 and Revelation 14:10-11 (English quotations left inside emphasized text)",
+      "severity": "critical",
+      "source_quote": "Revelation 14:10-11 declares that all who take the mark will seal their destiny in hell. The next verse gives a calling for the endurance of the saints—Here is the patience of the saints: here are they that keep the commandments of God, and the faith of Jesus –Revelation 14:12.",
+      "suggested_fix": "Translate both cited/quoted verses into Kiswahili (conventional book name; verse numbers unchanged). Example replacements: For 14:10-11: “Atakayemwabudu mnyama na picha yake, na atakayepokea alama yake paji la uso au mkononi, (naye) pia ataumia kwa jua la moto na siri ya Mungu, hiyo ndiyo kiu ya milele. —Ufunuo 14:10-11.” For 14:12: “Hapo ndipo uvumilivu wa watakatifu; hapo ndipo wale wanaotunza amri za Mungu na imani ya Yesu. —Ufunuo 14:12.” Preserve emphasis/HTML.",
+      "translation_quote": "<em>Here is the patience of the saints: here are they that keep the commandments of God, and the faith of Jesus –Revelation 14:12.</em>"
+    },
+    {
+      "location": "source.html — paragraph containing Read Matthew 24:4-28 (left in English)",
+      "severity": "minor",
+      "source_quote": "Read Matthew 24:4-28.",
+      "suggested_fix": "Translate this instruction into Kiswahili and use the conventional Swahili book name. Suggested: “Soma Mathayo 24:4-28.” Preserve emphasis tags if any.",
+      "translation_quote": "<em>Read Matthew 24:4-28.</em>"
+    },
+    {
+      "location": "source.html — paragraph containing Revelation 12:11 (English quotation left inside emphasized text)",
+      "severity": "major",
+      "source_quote": "And they overcame him by the blood of the Lamb, and by the word of their testimony; and they loved not their lives unto the death –Revelation 12:11.",
+      "suggested_fix": "Translate the quoted verse into Kiswahili with the conventional book name and verse numbers unchanged. Example: “Na walimshinda kwa damu ya Mwana Kondoo, na kwa neno la ushuhuda wao; nao hawakupenda maisha yao hata kufikia kifo. —Ufunuo 12:11.” Preserve HTML emphasis.",
+      "translation_quote": "<em>And they overcame him by the blood of the Lamb, and by the word of their testimony; and they loved not their lives unto the death –Revelation 12:11.</em>"
+    },
+    {
+      "location": "source.html — last paragraph: phrase translating English 'inoculated with the Holy Ghost from heaven' as 'kuchinjwa kwa Roho Mtakatifu kutoka mbinguni'",
+      "severity": "major",
+      "source_quote": "to be inoculated with the Holy Ghost from heaven.",
+      "suggested_fix": "The translation used 'kuchinjwa' which in Kiswahili means 'to be slaughtered' and misconstrues the author's intent. Use a Kiswahili verb that conveys 'to be filled/infused/imbued' (positive spiritual inoculation). Suggested replacement: “kuwekwa/kuingizwa na Roho Mtakatifu kutoka mbinguni” or “kuinjizwa na Roho Mtakatifu kutoka mbinguni.” Keep the surrounding sentence structure and any emphasis/HTML.",
+      "translation_quote": "“...na kuchinjwa kwa Roho Mtakatifu kutoka mbinguni.”"
+    },
+    {
+      "location": "source.title",
+      "severity": "minor",
+      "source_quote": "Why I Have Not Gotten the Covid Shot",
+      "suggested_fix": "Title uses English 'Covid Shot' translated as “Duru la Covid,” which is non-idiomatic and inconsistent with body text that uses 'chanjo' elsewhere. Suggested title: “Kwa Nini Sijapata Chanjo ya Covid” (preserves meaning and is idiomatic Swahili).",
+      "translation_quote": "\"Kwa Nini Sijapata Duru la Covid\""
+    }
+  ],
   "id": "b72f0fcbbf3107d98154e43286b707df",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "swa",
@@ -100,11 +169,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/733eeaa1a812b6193e133350be5a00b31e3585142bda55cfaea2f725f3dda88f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "f7d8a08704733486f924816fbfd515b7c40bf25c984ecd111bf0fe403aaa2dde",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

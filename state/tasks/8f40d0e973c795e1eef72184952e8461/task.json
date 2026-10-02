@@ -2,7 +2,6 @@
   "article_id": "53e8b534-1f5e-4d9d-b191-99707a404256",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,38 @@
         },
         "total_tokens": 9641
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 702,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9431,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10133
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>…he had an obvious call from God upon his life. He was a conservative man who chose <em>…rather to suffer affliction with the people of God, than to enjoy the pleasures of sin for a season –Hebrews 11:25.</em></p>",
+      "severity": "minor",
+      "source_quote": "and he had an obvious call from God upon his life.",
+      "suggested_fix": "Replace the non‑Urdu loanword \"بلنگ\" with an idiomatic Urdu phrase. For example: \"اور اس کی زندگی پر خدا کی واضح پکار تھی۔\" or \"اور اس کی زندگی پر خدا کی واضح بلاء/بلا تھی۔\" Preserve the surrounding HTML and emphasis tags exactly.",
+      "translation_quote": "اور اس کی زندگی پر خدا کی واضح بلنگ تھی۔"
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:18+00:00",
   "id": "8f40d0e973c795e1eef72184952e8461",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "urd",
@@ -100,11 +128,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/365d9282d87d4aa677224ff762d700ce731f7082e9ff05f45c1ca235035b1881.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "fa6973e1c0869cf8ea44c825b0af02960182750ad2e2fbf60dce9af0c7f03feb",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning 'We know the story of Job’s friends.' (near heading 'Don’t Jump to Conclusions')\",\"severity\":\"critical\",\"source_quote\":\"We know the story of Job’s friends. They rode up to see Job after disaster fell on him and sat quietly in shock for several days upon seeing the devastation that had happened to him.\",\"suggested_fix\":\"Replace the mistranslated proper name 'حزقیا' (Hezekiah) with the correct biblical name 'ایوب' (Job) and corresponding Urdu phrasing. For example: 'ہم ایوب کے دوستوں کی کہانی جانتے ہیں۔ انہوں نے تباہی کے بعد ایوب سے ملنے آئے اور وہاں ہونے والے نقصان کو دیکھ کر چند دن خاموشی سے بیٹھے رہے۔' Preserve surrounding HTML and punctuation exactly as in the translation.\",\"translation_quote\":\"ہم حزقیا کے دوستوں کی کہانی جانتے ہیں۔ اُنہوں نے تباہی آنے کے بعد حزقیا سے ملنے آئے اور اس شہادت کو دیکھ کر چند دن خاموشی سے بیٹھے رہے۔\"}],\"passed\":false,\"score\":70}",
+    "content_bytes": 1148,
+    "content_evidence_truncated": false,
+    "content_sha256": "58fd4e653b68d8ba6c4dc550cd1ec5c4436c2342bff8e11d864855a223324e4b",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 824,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11779,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12603
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

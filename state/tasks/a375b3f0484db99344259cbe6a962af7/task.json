@@ -2,7 +2,6 @@
   "article_id": "5fc18c0d-013c-40d0-aabb-e8f7c7c404eb",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 5620
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1364,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5282,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6646
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "final paragraph (near end) in source.html",
+      "severity": "minor",
+      "source_quote": "This is a cautionary tale of the dangers of an unequal yoking of the church with the world.",
+      "suggested_fix": "Translate the phrase more idiomatically in Norwegian and fix the garbled spacing. Replace the current translation fragment \"en ulikt hemmet sammenslåing mellom kirke og verden\" with e.g. \"en ulikt sammenbinding mellom kirke og verden\" or \"faren ved at kirken blir ulikt knyttet til verden\" while preserving the surrounding HTML and paragraph structure.",
+      "translation_quote": "Dette er en formaning om farene ved en ulikt hemmet sammenslåing mellom kirke og verden."
+    },
+    {
+      "location": "paragraph with film/propaganda sentence in source.html",
+      "severity": "minor",
+      "source_quote": "...depicting the Mennonites as strong, red-blooded Germans valiantly striving against the unjust oppression of the Russian Communists.",
+      "suggested_fix": "Fix spacing and hyphenation in Norwegian. Remove the space after the hyphen in \"røde- blodige\" so it reads \"røde-blodige\" or use a more natural phrase such as \"karske, røde-blodige tyskere\" or simply \"kraftige, røde-blodige tyskere\". Preserve the paragraph HTML tags and order.",
+      "translation_quote": "...som skildret mennonittene som sterke, røde- blodige tyskere som tappert strevde mot den urettferdige undertrykkelsen fra de russiske kommunistene."
+    },
+    {
+      "location": "final source credit paragraph in source.html",
+      "severity": "minor",
+      "source_quote": "Source:<br>anabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction",
+      "suggested_fix": "Translate the word \"Source:\" into Norwegian and keep the URL unchanged. Replace \"Source:\" with \"Kilde:\" so the paragraph reads e.g. \"Kilde:<br>anabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction\". Preserve the <p> and <br> tags and the URL exactly as in the source.",
+      "translation_quote": "Source:<br>anabaptisthistorians.org/2018/02/07mennonites-and-the-holocaust-an-introduction"
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:18+00:00",
   "id": "a375b3f0484db99344259cbe6a962af7",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "nob",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1bdcb7e456b7a6b0faa951b73ad2e9f64625a3dfb5338112d027e556e66e5f0a.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "f30546ec55676f8dd6c74177eaa70932f9093041fab1ceced906b186d9df3a00",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

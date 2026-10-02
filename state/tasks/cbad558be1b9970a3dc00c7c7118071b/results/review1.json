@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "2dd92317-dcf4-40b8-9cb1-c813c2390a22",
+    "response_id": "chatcmpl-EUX3dquboVfMeu9U33G9JdIFGykb0",
+    "usage": {
+      "completion_tokens": 1343,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5382,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6725
+    }
+  },
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...After eight years of co-operation with the Wesleys, Perronet’s strong-mindedness and free spirit caused a division between them, as he disagreed with some of their regulations. They continued, however, to esteem and love each other.</p>",
+        "severity": "major",
+        "source_quote": "\"After eight years of co-operation with the Wesleys, Perronet’s strong-mindedness and free spirit caused a division between them, as he disagreed with some of their regulations.\"",
+        "suggested_fix": "Rendere il senso di \"strong-mindedness\" come \"determinazione\" o \"fermezza di carattere\" invece di \"incostanza\", che inverte il significato. Esempio di correzione mantenendo i tag HTML: <p>Dopo otto anni di collaborazione con i Wesley, la fermezza di carattere e lo spirito libero di Perronet causarono una divisione tra loro, poiché egli non era d’accordo con alcune loro regolamentazioni. Tuttavia continuarono a stimarsi e ad amarsi reciprocamente.</p>",
+        "translation_quote": "\"Dopo otto anni di collaborazione con i Wesley, l’incostanza e lo spirito libero di Perronet causarono una divisione tra loro, poiché egli non era d’accordo con alcune loro regolamentazioni. Tuttavia continuarono a stimarsi e ad amarsi reciprocamente.\""
+      },
+      {
+        "location": "<div class=\"lyrics\"> (first stanza)",
+        "severity": "minor",
+        "source_quote": "\"Bring forth the royal diadem,\"",
+        "suggested_fix": "\"royal diadem\" è reso in modo colloquiale con l’aggettivo dopo il sostantivo in italiano più naturale. Correzione suggerita all'interno del blocco lyrics: <p>Portate il diadema reale,<br>\nPer incoronarlo Signore di tutti!</p>",
+        "translation_quote": "\"Portate il reale diadema,\""
+      },
+      {
+        "location": "<div class=\"lyrics\"> (second stanza)",
+        "severity": "minor",
+        "source_quote": "\"Let high born seraphs tune the lyre,\"",
+        "suggested_fix": "La resa \"serafini nati in alto\" suona innaturale e non rispetta il registro poetico dell'originale. Suggerisco: <p>Lasciate che i serafini, d’alta nascita, accordino la lira,<br>\nE, mentre l’accordano, cadano</p> (mantenendo i tag HTML).",
+        "translation_quote": "\"Lasciate che i serafini nati in alto accordino la lira,\""
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

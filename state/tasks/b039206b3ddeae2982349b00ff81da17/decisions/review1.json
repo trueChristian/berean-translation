@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "source.title / translation.title",
+      "severity": "major",
+      "source_quote": "All Hail the Power of Jesus Name",
+      "suggested_fix": "Translate the English title into Spanish (preserving the article HTML tags/attributes). For example: \"Todo el poder al nombre de Jesús\" or an equivalent idiomatic Spanish title. Replace the translation.title value with the chosen Spanish title.",
+      "translation_quote": "All Hail the Power of Jesus Name"
+    },
+    {
+      "location": "source.section / translation.section",
+      "severity": "major",
+      "source_quote": "A Hymn History",
+      "suggested_fix": "Translate the section name into Spanish while preserving the field value format. For example: \"Historia de un himno\". Replace translation.section with the Spanish rendering.",
+      "translation_quote": "A Hymn History"
+    },
+    {
+      "location": "source.html — paragraph containing hymn-name and parenthetical English title",
+      "severity": "major",
+      "source_quote": "The text of this hymn, All Hail the Power of Jesus Name, has been translated into almost every language where Christianity is known.",
+      "suggested_fix": "Translate the referenced hymn title into Spanish within the article text (quoted titles and other substantive prose must be translated). For example: \"El texto de este himno, 'Todo el poder al nombre de Jesús', se ha traducido...\" Preserve the surrounding HTML and punctuation.",
+      "translation_quote": "El texto de este himno, All Hail the Power of Jesus Name, se ha traducido a casi todos los idiomas donde se conoce el cristianismo."
+    },
+    {
+      "location": "source.html — hymn stanza (final stanza before closing)",
+      "severity": "major",
+      "source_quote": "Let every tribe and every tongue\nThat bound creation's call\nNow shout in universal song,\nThe crowned Lord of all!",
+      "suggested_fix": "The translation here is inaccurate and ungrammatical ('Que la llamada de la creación ató' is incorrect). Render the four lines in natural Spanish that preserves the original sense and verse breaks. Suggested corrected translation (preserve HTML tags):\n\"Que cada tribu y cada lengua\nque la creación llamó,\nahora clamen en canción universal,\nal Señor coronado de todo!\"",
+      "translation_quote": "Que cada tribu y cada lengua\nQue la llamada de la creación ató\nAhora clamen en canción universal,\n¡Al Señor coronado de todo!"
+    },
+    {
+      "location": "source.html — hymn stanzas (multiple lines)",
+      "severity": "minor",
+      "source_quote": "Let high born seraphs tune the lyre, And, as they tune it, fall Before His face who tunes their choir, And crown Him Lord of all!",
+      "suggested_fix": "The verb 'tune' was translated as 'tunen', which is nonstandard Spanish. Use an appropriate Spanish verb such as 'afinar' or 'entonar' to convey the meaning. Example corrected lines (preserve HTML): \"Que los serafines de alta cuna afinen la lira, / y, al afinarla, caigan / ante su rostro, que afina su coro, / ¡y coronadle Señor de todo!\"",
+      "translation_quote": "Que los serafines de alta cuna tunen la lira,\nY, al afinarla, caigan\nAnte Su rostro, que afina su coro,\n¡Y coronadle Señor de todo!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

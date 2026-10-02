@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.title",
+      "severity": "major",
+      "source_quote": "Why I Have Not Gotten the Covid Shot",
+      "suggested_fix": "Translate the English title into standard Bahasa Indonesia and preserve meaning. Suggested translation: \"Mengapa Saya Belum Mendapat Suntikan Covid\" (or \"Mengapa Saya Belum Disuntik Covid\"). Replace the translation.title value with the chosen Indonesian title.",
+      "translation_quote": "Why I Have Not Gotten the Covid Shot"
+    },
+    {
+      "location": "source.section",
+      "severity": "major",
+      "source_quote": "Issues Facing the Church",
+      "suggested_fix": "Translate the English section name into standard Bahasa Indonesia. Suggested translation: \"Isu yang Dihadapi Gereja\" or \"Isu yang Dihadapi Jemaat\". Replace the translation.section value with the chosen Indonesian section name.",
+      "translation_quote": "Issues Facing the Church"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -2,7 +2,6 @@
   "article_id": "9b13e502-993c-4536-a32d-ae1a62c36db5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 4113
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1151,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3774,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4925
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph containing Psalm 56 (near middle): <p>…But Mamma always reminded us…</p> — translation paragraph starting \"Tous les jours, quand…\"",
+      "severity": "minor",
+      "source_quote": "But Mother always reminded us to pray and remember the Bible verse which says: What time I am afraid, I will trust in thee –Psalm 56:3.",
+      "suggested_fix": "Replace the rendered French phrase that shifts nuance with a more natural, faithful rendering of the English promise. For example, change « Quand je suis dans la crainte, je cherche en toi ma confiance – Psaume 56:3. » to « Quand j’ai peur, je me confie en toi – Psaume 56:3. » This preserves the meaning \"I will trust in thee\" and is idiomatic in French.",
+      "translation_quote": "« Quand je suis dans la crainte, je cherche en toi ma confiance – Psaume 56:3. »"
+    },
+    {
+      "location": "Paragraph where narrator whispers \"I will trust and not be afraid.\" (sentence: « je mettrai ma confiance et je ne craindrai pas. »)",
+      "severity": "minor",
+      "source_quote": "I will trust and not be afraid.",
+      "suggested_fix": "Use a more idiomatic and faithful French phrasing: replace « je mettrai ma confiance et je ne craindrai pas. » with « je me confierai et je n’aurai pas peur. » or « je me confierai en Dieu et je ne craindrai pas. »",
+      "translation_quote": "« je mettrai ma confiance et je ne craindrai pas. »"
+    },
+    {
+      "location": "Paragraph naming the nearby neighbor: \"Oh, it was about half a mile... the Rhine’s place\" — translation uses « chez les Rhine »",
+      "severity": "minor",
+      "source_quote": "Oh, it was about half a mile to our closest neighbor, the Rhine’s place, and then about another quarter of a mile to the Brightbills,",
+      "suggested_fix": "Use a more natural French rendering for the English possessive with a family name. Replace « chez les Rhine » with « chez les Rhine (la famille Rhine) », or better « chez les Rhine » → « chez la famille Rhine » or « chez les Rhine (chez les Rhine) ». Recommended: « …à environ un demi-mile jusqu'à notre voisin le plus proche, chez la famille Rhine, puis encore environ un quart de mile jusqu'aux Brightbill. »",
+      "translation_quote": "« c'était à environ un demi-mile jusqu'à notre voisin le plus proche, chez les Rhine, puis encore environ un quart de mile jusqu'aux Brightbill, »"
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:18+00:00",
   "id": "79f9dee91fcc44c4592236b4be9e3baa",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "fra",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/024b14cea96a528a42f66f77d442fb07d0e5035a02e35254ae96bf4fcc0c193f.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

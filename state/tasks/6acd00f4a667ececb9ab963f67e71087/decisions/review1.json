@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph that begins ““Wow!” exclaimed Sharon.”",
+      "severity": "minor",
+      "source_quote": "“Wow!” exclaimed Sharon. “That was really scary, wasn’t it?”",
+      "suggested_fix": "Translate the exclamation idiomatically into Afrikaans (for example: “Wou!” or “Sjoe!”) and translate “scary” into Afrikaans. Preserve the two-sentence structure. Example fix: “‘Wou!’ roep Sharon uit. ‘Dit was regtig eng, was dit nie?’”",
+      "translation_quote": "“Woe!” roep Sharon uit. “Dis regtig scary, was dit nie?”"
+    },
+    {
+      "location": "Same paragraph (second sentence)",
+      "severity": "minor",
+      "source_quote": "“That was really scary, wasn’t it?”",
+      "suggested_fix": "Replace the English adjective “scary” with an Afrikaans equivalent (e.g., “eng” or “angstaanjaend”) so the sentence is fully in the target language. Example: “Dis regtig eng, was dit nie?”",
+      "translation_quote": "“Dis regtig scary, was dit nie?”"
+    },
+    {
+      "location": "Paragraph that begins “I was so scared. I just stood frozen to the spot. I don’t remember if I screamed, or if I prayed.”",
+      "severity": "minor",
+      "source_quote": "I don’t remember if I screamed, or if I prayed.",
+      "suggested_fix": "Remove the duplicated word “of” in the Afrikaans sentence. Example correction: replace “Ek onthou nie of ek geskree het nie, of of ek gebid het.” with “Ek onthou nie of ek geskree het nie, of ek gebid het.”",
+      "translation_quote": "Ek onthou nie of ek geskree het nie, of of ek gebid het."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

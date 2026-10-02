@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 15 (Revelation 13:16-17 quote)",
+      "severity": "critical",
+      "source_quote": "And he causeth all, both small and great, rich and poor, free and bond, to receive a mark in their right hand, or in their foreheads: And that no man might buy or sell, save he that had the mark, or the name of the beast, or the number of his name –Revelation 13:16-17.",
+      "suggested_fix": "Translate the entire quoted Scripture into Afrikaans, preserving the verse reference exactly as printed. For example (inserted inline in the same location and keeping the HTML/emphasis tags as in source): “En hy laat almal, die klein en die groot, die ryk en die arm, die vrye en die slaaf, 'n merkteken in hul regterhand of op hul voorkop ontvang; en dat niemand kan koop of verkoop, behalwe hy wat die merkteken het, of die naam van die dier, of die getal van sy naam – Openbaring 13:16-17.” Ensure the quotation marks/italic and bold elements remain around the same words as in the source HTML.",
+      "translation_quote": "<em>And he causeth all, both small and great, rich and poor, free and bond, to receive a mark in their right hand, or in their foreheads: <strong>And that no man might buy or sell, save he that</strong> had the mark, or the name of the beast, or the number of his name –Revelation 13:16-17.</em>"
+    },
+    {
+      "location": "Paragraph 18 (parenthetical Scripture citations: Matthew 24:21 and Revelation 7:14)",
+      "severity": "critical",
+      "source_quote": "–See Matthew 24:21 and Revelation 7:14.",
+      "suggested_fix": "Translate the parenthetical Scripture reference text into Afrikaans while keeping the verse identifiers unchanged. For example: “–Sien Matteus 24:21 en Openbaring 7:14.” Replace the English 'See' and the English book names with conventional Afrikaans book names and keep the verse numbers as in the source.",
+      "translation_quote": "<em>–See Matthew 24:21 and Revelation 7:14.</em>"
+    },
+    {
+      "location": "Paragraph 20 (quotation and references: 2 Corinthians 6:17 and Revelation 14:12)",
+      "severity": "critical",
+      "source_quote": "Wherefore <strong>come out from among them, and be ye separate</strong>, saith the Lord, and touch not the unclean thing; and I will receive you –2 Corinthians 6:17. Revelation 14:10-11 declares that all who take the mark will seal their destiny in hell. The next verse gives a calling for the endurance of the saints—<em>Here is the patience of the saints: here are they that keep the commandments of God, and the faith of Jesus –Revelation 14:12.</em>",
+      "suggested_fix": "Translate all quoted Scripture passages and the in-line quoted sentence from Revelation 14:12 into Afrikaans, preserving verse references and the HTML emphasis/bold tags. Example fixes (preserve punctuation and tags): “Waarom: <strong>trek uit uit hul midde en skei julle af</strong>, sê die Here, en raak die onreine nie aan; en Ek sal julle ontvang – 2 Korintiërs 6:17.” And for Revelation 14:12: “Hier is die geduld van die heiliges: hier is dié wat die gebooie van God bewaar en die geloof van Jesus – Openbaring 14:12.” Ensure the preceding sentence about Revelation 14:10-11 is also accurately translated into Afrikaans if it contains quoted Scripture or specific theological claim that originally came from the English text.",
+      "translation_quote": "<em>Wherefore <strong>come out from among them, and be ye separate</strong>, saith the Lord, and touch not the unclean thing; and I will receive you –2 Corinthians 6:17.</em> Openbaring 14:10-11 verklaar dat almal wat die merkteken neem, hul lot in hel verseël. Die volgende vers gee ’n roep vir die volharding van die heiliges—<em>Here is the patience of the saints: here are they that keep the commandments of God, and the faith of Jesus –Revelation 14:12.</em>"
+    },
+    {
+      "location": "Paragraph 21 (Read Matthew 24:4-28 and Revelation 12:11 quotes)",
+      "severity": "critical",
+      "source_quote": "Read Matthew 24:4-28. ... And they overcame him by the blood of the Lamb, and by the word of their testimony; and they loved not their lives unto the death –Revelation 12:11.",
+      "suggested_fix": "Translate the instruction and Scripture quotation into Afrikaans and render book names in conventional Afrikaans forms while preserving chapter and verse numbers. For example: “Lees Matteus 24:4-28.” And translate the Revelation 12:11 quotation: “En hulle het hom oorwin deur die bloed van die Lam en deur die woord van hulle getuienis; en hulle het hulle lewens nie liefgehad tot die dood toe nie – Openbaring 12:11.” Keep the emphasis tags as in the source.",
+      "translation_quote": "<em>Read Matthew 24:4-28.</em> ... <em>And they overcame him by the blood of the Lamb, and by the word of their testimony; and they loved not their lives unto the death –Revelation 12:11.</em>"
+    },
+    {
+      "location": "Paragraph 2 (\"I am quite okay with someone disagreeing\")",
+      "severity": "major",
+      "source_quote": "I begin with the disclaimer that these are my thoughts, and I am quite okay with someone disagreeing.",
+      "suggested_fix": "Correct the Afrikaans to convey 'okay with someone disagreeing' rather than 'someone being unhappy'. Suggested Afrikaans rendering preserving tone: “Ek begin met die voorbehoud dat dit my gedagtes is, en ek is heeltemal instaat om saam te leef met iemand wat nie saamstem nie.” Or: “... en ek het niks daarmee teen dat iemand anders nie saamstem nie.” Keep the HTML paragraph tag unchanged.",
+      "translation_quote": "Ek begin met die voorbehoud dat dit my gedagtes is, en ek is heeltemal okee daarmee dat iemand ongelukkig is daarmee."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

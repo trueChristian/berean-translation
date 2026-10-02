@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.section",
+      "severity": "minor",
+      "source_quote": "Inspirations for Youth",
+      "suggested_fix": "Translate the section metadata into standard contemporary Swedish. For example: \"Inspiration för ungdomar\" (or \"Inspiration för unga\"), preserving capitalization style used on the site.",
+      "translation_quote": "Inspirations for Youth"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

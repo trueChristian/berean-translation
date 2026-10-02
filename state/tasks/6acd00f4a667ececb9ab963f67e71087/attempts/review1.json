@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph that begins ““Wow!” exclaimed Sharon.”\",\"severity\":\"minor\",\"source_quote\":\"“Wow!” exclaimed Sharon. “That was really scary, wasn’t it?”\",\"suggested_fix\":\"Translate the exclamation idiomatically into Afrikaans (for example: “Wou!” or “Sjoe!”) and translate “scary” into Afrikaans. Preserve the two-sentence structure. Example fix: “‘Wou!’ roep Sharon uit. ‘Dit was regtig eng, was dit nie?’”\",\"translation_quote\":\"“Woe!” roep Sharon uit. “Dis regtig scary, was dit nie?”\"},{\"location\":\"Same paragraph (second sentence)\",\"severity\":\"minor\",\"source_quote\":\"“That was really scary, wasn’t it?”\",\"suggested_fix\":\"Replace the English adjective “scary” with an Afrikaans equivalent (e.g., “eng” or “angstaanjaend”) so the sentence is fully in the target language. Example: “Dis regtig eng, was dit nie?”\",\"translation_quote\":\"“Dis regtig scary, was dit nie?”\"},{\"location\":\"Paragraph that begins “I was so scared. I just stood frozen to the spot. I don’t remember if I screamed, or if I prayed.”\",\"severity\":\"minor\",\"source_quote\":\"I don’t remember if I screamed, or if I prayed.\",\"suggested_fix\":\"Remove the duplicated word “of” in the Afrikaans sentence. Example correction: replace “Ek onthou nie of ek geskree het nie, of of ek gebid het.” with “Ek onthou nie of ek geskree het nie, of ek gebid het.”\",\"translation_quote\":\"Ek onthou nie of ek geskree het nie, of of ek gebid het.\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 1537,
+    "content_evidence_truncated": false,
+    "content_sha256": "11d5559ed0d35555a15d4d8e6c1bb9040fd1403eded6149ad9af57b07e496baa",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1028,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3756,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4784
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

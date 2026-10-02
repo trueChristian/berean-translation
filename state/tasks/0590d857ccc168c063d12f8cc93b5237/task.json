@@ -2,7 +2,6 @@
   "article_id": "dce3d3b3-8b56-4be5-9674-e682b97d3b43",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,38 @@
         },
         "total_tokens": 5232
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 892,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4765,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5657
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>\"Moses in Midian\"... paragraph</p>",
+      "severity": "minor",
+      "source_quote": "He was uprooted from his comfortable lifestyle in Egypt as an adopted son of royalty and was then sent by God into the desert to learn some much-needed lessons in further preparation towards becoming God’s servant.",
+      "suggested_fix": "원문 의미를 더 명확히 전달하도록 문장을 약간 다듬으십시오. 예: \"그는 왕실의 양자로서 이집트에서 안락한 생활을 누리다가 뿌리 뽑혀, 하나님의 종이 되기 위한 준비로서 하나님에 의해 광야로 보내졌습니다.\" (원문 HTML 태그와 순서는 변경하지 마십시오.)",
+      "translation_quote": "그는 양자로서 이집트에서의 안락한 생활에서 뿌리 뽑혀 왕실의 양자가 되었고, 하나님의 종이 되기 위한 추가적인 준비로서 반드시 배워야 할 여러 교훈을 배우기 위해 하나님에 의해 광야로 보내졌습니다."
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:17+00:00",
   "id": "0590d857ccc168c063d12f8cc93b5237",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "kor",
@@ -100,11 +128,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c16edd05d12043a927f45367071112d6f71c0042bc3d1b02d0bfb5b8d330f1e2.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d0410b3ae98c7c6c4b8643e82b8513a58f4f423e430db25e79b18dc18a3fab41",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

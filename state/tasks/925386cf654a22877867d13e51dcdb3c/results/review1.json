@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "66b6eae7-bc8b-4e6b-9dde-1495e62c6a57",
+    "response_id": "chatcmpl-EUX3jzj0akss9NsVvDcXmw9uqoOd9",
+    "usage": {
+      "completion_tokens": 1132,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5594,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6726
+    }
+  },
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"lyrics\"> (first lyrics block, eight stanzas)",
+        "severity": "critical",
+        "source_quote": "All hail the power of Jesus’ name,\nLet angels prostrate fall\nBring forth the royal diadem,\nTo crown Him Lord of all! ... (all eight English stanzas as in source)",
+        "suggested_fix": "Translate all eight quoted stanzas into contemporary standard Hindi (Devanagari), preserving stanza order, line breaks, and the fact that these are quoted hymn-lyrics. Do not leave the English lines in place. Example (narrowly scoped — translator should produce a full faithful translation consistent with the hymn’s meaning):\n\"हे यीशु के नाम की जय बोलो,\nदूत हो कर स्तब्ध हो जाओ;\nसिरोपट लाओ शाही, भव्य,\nऔर उसे सबका स्वामी मुकुट दे!\"\nTranslate each stanza similarly into Hindi, keeping the same stanza count and placement within the same <div class=\"lyrics\"> tags (do not change HTML structure or attributes).",
+        "translation_quote": "All hail the power of Jesus’ name,\\nLet angels prostrate fall\\nBring forth the royal diadem,\\nTo crown Him Lord of all! ... (English eight stanzas still present in translation)"
+      },
+      {
+        "location": "<p class=\"drop-cap\"> (first paragraph mentioning the hymn title)",
+        "severity": "major",
+        "source_quote": "All Hail the Power of Jesus Name",
+        "suggested_fix": "Translate the hymn title into Hindi in every place where it appears in the article body text. Use a contemporary Hindi rendering that preserves the printed meaning (for example: \"हे यीशु के नाम की जय\" or another faithful, idiomatic rendering). Do not leave the English title un-translated inside the narrative text. Preserve the article HTML tags and attributes; replace only the English title text with the Hindi translation.",
+        "translation_quote": "All Hail the Power of Jesus Name (left in English in multiple places in the translated article) "
+      },
+      {
+        "location": "<p> (paragraph describing Perronet reading the Sermon)",
+        "severity": "major",
+        "source_quote": "Sermon on the Mount",
+        "suggested_fix": "Translate this quoted substantive phrase into Hindi (for example: \"पर्वत पर दिया गया उपदेश\" or the commonly used Hindi title \"पहाड़ी उपदेश\"). Replace the English phrase inside the same paragraph and preserve surrounding punctuation and HTML. Quoted substantive prose must be rendered into the target language.",
+        "translation_quote": "Sermon on the Mount (left in English in translation)"
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "fa1415d5-98d9-4d20-87bc-9c77a18834c1",
+    "response_id": "chatcmpl-EUX3h39nd8pOrS5vAuCWeWpxlSH5O",
+    "usage": {
+      "completion_tokens": 677,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5081,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5758
+    }
+  },
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph mentioning postwar trials (\"the Nuremburg trials\")",
+        "severity": "minor",
+        "source_quote": "the justice that was to come through the Nuremburg trials",
+        "suggested_fix": "Use the same proper-name orthography as the English source or a consistent target-language convention. Either restore the English spelling \"Nuremburg\" or keep the Spanish conventional form \"Núremberg\"—but be consistent with house style. Example fix (keeping Spanish convention): conservar \"juicios de Núremberg\" tal como ya aparece en la traducción.",
+        "translation_quote": "la justicia que se avecinaba con los juicios de Núremberg"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

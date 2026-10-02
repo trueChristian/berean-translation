@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c722de6a-c617-450c-ba62-ab01b049b717",
+    "response_id": "chatcmpl-EUX3fZPEnNzNCott2xDm7QUwzW9Rx",
+    "usage": {
+      "completion_tokens": 1559,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5595,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7154
+    }
+  },
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph (Scripture reference) in source.html",
+        "severity": "major",
+        "source_quote": "Revelation 4:11.",
+        "suggested_fix": "Use the conventional Bengali book name for Revelation and keep the chapter:verse unchanged. For example: \"প্রকাশিত বাক্য ৪:১১।\" Replace the current rendering with that form in the same emphasized paragraph.",
+        "translation_quote": "প্রকাশিতবর্ণনা ৪:১১।"
+      },
+      {
+        "location": "Multiple <div class=\"lyrics\"> blocks (full hymn stanzas) in source.html",
+        "severity": "critical",
+        "source_quote": "All hail the power of Jesus’ name,\nLet angels prostrate fall\nBring forth the royal diadem,\nTo crown Him Lord of all! ... (entire English hymn stanzas as printed in source)",
+        "suggested_fix": "Translate all quoted hymn stanzas into Bengali, preserving stanza breaks and the enclosing <div class=\"lyrics\"> and <p> tags exactly as in the source. Quoted substantive prose (the hymn text) must be rendered into the target language and should faithfully convey the printed English meaning and stanza order. Do not leave the stanzas in English; replace the English lines with a faithful Bengali rendering inside the same tags.",
+        "translation_quote": "All hail the power of Jesus’ name,<br>\nLet angels prostrate fall<br>\nBring forth the royal diadem,<br>\nTo crown Him Lord of all! ... (English left unchanged in the translation)"
+      },
+      {
+        "location": "title field (source.title)",
+        "severity": "major",
+        "source_quote": "All Hail the Power of Jesus Name",
+        "suggested_fix": "Translate the article title into Bengali (use a natural, idiomatic title that preserves the theology of the original). For example: \"যীশুর নামে সর্বশক্তিকে শ্রদ্ধা\" or another faithful Bengali equivalent. Do not leave the authoritative English title untranslated in the title metadata.",
+        "translation_quote": "All Hail the Power of Jesus Name"
+      },
+      {
+        "location": "<img> alt attribute in source.html",
+        "severity": "major",
+        "source_quote": "Sheet music for All Hail the Power of Jesus’ Name, tune DIADEM C. M. with Refrain",
+        "suggested_fix": "Replace the current alt text with a faithful Bengali rendering that conveys the same information and retains the hymn identification, tune name and 'with Refrain'. Example: \"All Hail the Power of Jesus’ Name-এর সীট মিউজিক — সুর 'DIADEM (C. M.)' রিফ্রেইনসহ\" Keep the alt attribute inside the <img> tag and preserve other tag attributes.",
+        "translation_quote": "All Hail the Power of Jesus’ Name-র খাব্যবস্থার সুর DIADEM C. M. রিফ্রেইনের সঙ্গে-এর পিয়ানো সীট"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

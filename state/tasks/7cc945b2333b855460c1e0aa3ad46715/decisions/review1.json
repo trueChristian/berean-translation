@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "<div class=\"lyrics\"> (first occurrence) — English hymn stanzas (all eight original stanzas)",
+      "severity": "critical",
+      "source_quote": "All hail the power of Jesus’ name,\n    Let angels prostrate fall\n    Bring forth the royal diadem,\n    To crown Him Lord of all!\n\nLet high born seraphs tune the lyre,\n    And, as they tune it, fall\n    Before His face who tunes their choir,\n    And crown Him Lord of all!\n\nCrown Him, ye morning stars of light,\n    Who fixed this floating ball,\n    Now hail the Strength of Israel’s might,\n    And crown Him Lord of all!\n\nCrown Him, ye martyrs of your God,\n    Who from His altar call;\n    Extol the stem of Jesse’s rod,\n    And crown Him Lord of all!\n\nYe seed of Israel’s chosen race,\n    Ye ransomed of the fall,\n    Hail Him who saves you by His grace\n    And crown Him Lord of all!\n\nHail Him, ye heirs of David’s line,\n    Whom David Lord did call.\n    The God incarnate, Man divine,\n    And crown Him Lord of all!\n\nSinners, whose love can ne’er forget\n    The wormwood and the gall,\n    Go spread your trophies at His feet,\n    And crown Him Lord of all!\n\nLet every tribe and every tongue\n    That bound creation’s call\n    Now shout in universal song,\n    The crowned Lord of all!",
+      "suggested_fix": "Translate these quoted hymn stanzas into contemporary Norwegian Bokmål, preserving stanza breaks and the hymn’s theological content. Keep the surrounding <div class=\"lyrics\"> and <p> tags exactly as in the source HTML and replace only the English text with the Norwegian translation (do not remove or alter HTML structure or attributes). For example, replace each English line with an accurate Norwegian rendering that conveys the printed English meaning and retains the same chapter/verse and hymn structure.",
+      "translation_quote": "All hail the power of Jesus’ name,\n    Let angels prostrate fall\n    Bring forth the royal diadem,\n    To crown Him Lord of all!\n\nLet high born seraphs tune the lyre,\n    And, as they tune it, fall\n    Before His face who tunes their choir,\n    And crown Him Lord of all!\n\nCrown Him, ye morning stars of light,\n    Who fixed this floating ball,\n    Now hail the Strength of Israel’s might,\n    And crown Him Lord of all!\n\nCrown Him, ye martyrs of your God,\n    Who from His altar call;\n    Extol the stem of Jesse’s rod,\n    And crown Him Lord of all!\n\nYe seed of Israel’s chosen race,\n    Ye ransomed of the fall,\n    Hail Him who saves you by His grace\n    And crown Him Lord of all!\n\nHail Him, ye heirs of David’s line,\n    Whom David Lord did call.\n    The God incarnate, Man divine,\n    And crown Him Lord of all!\n\nSinners, whose love can ne’er forget\n    The wormwood and the gall,\n    Go spread your trophies at His feet,\n    And crown Him Lord of all!\n\nLet every tribe and every tongue\n    That bound creation’s call\n    Now shout in universal song,\n    The crowned Lord of all!"
+    },
+    {
+      "location": "<div class=\"lyrics\"> (second occurrence) — added stanza by John Rippon",
+      "severity": "critical",
+      "source_quote": "Oh, that with yonder sacred throng\n    We at His feet may fall;\n    We’ll join the everlasting song,\n    And crown Him Lord of all.",
+      "suggested_fix": "Translate this added stanza (John Rippon’s insertion) into contemporary Norwegian Bokmål and replace the English text inside the existing <div class=\"lyrics\">/<p> tags. Preserve the HTML structure and stanza lineation exactly as in the source.",
+      "translation_quote": "Oh, that with yonder sacred throng\n    We at His feet may fall;\n    We’ll join the everlasting song,\n    And crown Him Lord of all."
+    },
+    {
+      "location": "Introductory paragraph — hymn title left in English",
+      "severity": "minor",
+      "source_quote": "The text of this hymn, All Hail the Power of Jesus Name, has been translated into almost every language where Christianity is known.",
+      "suggested_fix": "Translate the hymn title into Norwegian Bokmål in running text (consistent with the translated article title). For example: replace 'All Hail the Power of Jesus Name' with «Hyll kraften i Jesu navn» (or keep the original in italics alongside the Norwegian title if the editor prefers both forms). Do not change surrounding HTML tags.",
+      "translation_quote": "Teksten til denne salmen, All Hail the Power of Jesus Name, er blitt oversatt til nesten alle språk hvor kristendommen er kjent."
+    },
+    {
+      "location": "References list",
+      "severity": "minor",
+      "source_quote": "A Treasury of Hymn Stories\n  101 Hymn stories\n  “Coronation” Tune -Oliver Holden 1765-1844\n  “Miles Lane” Tune -William Shrubsole, 1760-1806\n  “Diadem” Tune -James Elliot, 1838\n  “Let Us Crown Him” Tune -James McGranahan 1840-1907",
+      "suggested_fix": "Either translate the English reference titles into Norwegian Bokmål (while preserving work titles and author names) or mark them as original-language titles (e.g., italicize) but ensure they are presented consistently with the rest of the translated metadata. Do not alter HTML structure—only replace or annotate the textual reference lines as appropriate.",
+      "translation_quote": "A Treasury of Hymn Stories\n  101 Hymn stories\n  «Coronation» Tune -Oliver Holden 1765-1844\n  «Miles Lane» Tune -William Shrubsole, 1760-1806\n  «Diadem» Tune -James Elliot, 1838\n  «Let Us Crown Him» Tune -James McGranahan 1840-1907"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

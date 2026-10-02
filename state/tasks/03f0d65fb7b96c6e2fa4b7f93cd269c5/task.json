@@ -2,7 +2,6 @@
   "article_id": "dce3d3b3-8b56-4be5-9674-e682b97d3b43",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48ca5aad9dcc44968209557af36ba713",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 6039
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1857,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5764,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7621
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>Στον φυσικό κόσμο, ο «παλαιός άνθρωπός» μας τείνει να πιστεύει ότι πρέπει να «κάνουμε κάτι»...</p>",
+      "severity": "minor",
+      "source_quote": "In the natural world our “old man” has the tendency to think that we must “do something” if we expect things to go in a “right” direction.",
+      "suggested_fix": "Render the phrase idiomatically in contemporary Modern Greek and correct the placement of the possessive. For example: replace «ο «παλαιός άνθρωπός» μας» with «ο παλαιός μας άνθρωπος» (keeping the meaning intact). Preserve existing HTML tags and surrounding text.",
+      "translation_quote": "Στον φυσικό κόσμο, ο «παλαιός άνθρωπός» μας τείνει να πιστεύει ότι πρέπει να «κάνουμε κάτι» αν περιμένουμε τα πράγματα να πάνε σε «σωστή» κατεύθυνση."
+    },
+    {
+      "location": "Multiple <em>...</em> elements containing Bible quotations (e.g. Proverbs 21:1, Daniel 4:31-32, John 18:36, Hebrews 11:13-16, 2 Corinthians 6:17, Romans 13:1-4, 1 Timothy 2:1-2, Matthew 17:20, James 5:16)",
+      "severity": "major",
+      "source_quote": "All quoted Scripture passages as printed in the English source (e.g. \"The king’s heart is in the hand of the LORD, as the rivers of water: he turneth it whithersoever he will –Proverbs 21:1.\", \"…That the most High ruleth in the kingdom of men, and giveth it to whomsoever he will –Daniel 4:31-32.\", etc.)",
+      "suggested_fix": "Quoted Scripture must be translated into contemporary Modern Greek and must faithfully convey the authoritative English text as printed in the source. The current translation uses Koine/ancient-style Greek and in at least one place inserts an incorrect editorial fragment (see next finding). Replace each <em>...</em> biblical quotation with a clear, idiomatic Modern Greek rendering that preserves the exact verse numbers and punctuation. Example for Proverbs 21:1 (suggested, not prescriptive): «Η καρδιά του βασιλιά βρίσκεται στα χέρια του Κυρίου· όπως τα ρεύματα του νερού, όπου θέλει την στρέφει. —Παροιμίες 21:1.» Make equivalent contemporary renderings for all other quoted verses (Daniel 4:31-32; John 18:36; Hebrews 11:13-16; 2 Corinthians 6:17; Romans 13:1-4; 1 Timothy 2:1-2; Matthew 17:20; James 5:16) and replace the existing <em>...</em> contents accordingly, preserving the <em> tags, verse references, and article HTML structure.",
+      "translation_quote": "Κατά κύριο λόγο, οι αποσπάσματα εμφανίζονται σε αρχαϊκή/Κοινή μορφή (π.χ. «ἡ καρδία τοῦ βασιλέως ἐν χειρὶ Κυρίου... —Παροιμίες 21:1.») και όχι σε σύγχρονη νεοελληνική γλώσσα."
+    },
+    {
+      "location": "<p>«…πάροικοι καὶ παρεπίδημοι ἐπὶ τῆς γῆς· [ἐν τῷ κάτι] …δηλῶσαι ὅτι ζητοῦμε πατρίδα …καλύτερον τὴν ἐπουράνιον· ... —Ἑβραίους 11:13-16.</em></p>",
+      "severity": "major",
+      "source_quote": "\"...declare plainly that [we] seek a country ...a better country, that is, an heavenly: wherefore God is not ashamed to be called [our] God: for he hath prepared for [us] a city –Hebrews 11:13-16.\"",
+      "suggested_fix": "The translation contains an inserted fragment \"[ἐν τῷ κάτι]\" that does not appear in the English source and distorts meaning. Remove this insertion and render Hebrews 11:13-16 idiomatically in contemporary Modern Greek, preserving the bracketed editorial markers only if they correspond to bracketed text in the English source. For example: «…δηλώνοντας καθαρά ότι ζητούμε πατρίδα, καλύτερη, την επουράνια· διό τοῦτο ο Θεός δεν ντρέπεται να καλείται Θεός μας· επειδή έχει ετοιμάσει για εμάς πόλη. —Ἑβραίους 11:13-16.» (Use Modern Greek script and wording.) Preserve the <em> tags and verse reference placement.",
+      "translation_quote": "<em>…πάροικοι καὶ παρεπίδημοι ἐπὶ τῆς γῆς· [ἐν τῷ κάτι] …δηλῶσαι ὅτι ζητοῦμε πατρίδα …καλύτερον τὴν ἐπουράνιον· ... —Ἑβραίους 11:13-16.</em>"
+    }
+  ],
   "id": "03f0d65fb7b96c6e2fa4b7f93cd269c5",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ell",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c16edd05d12043a927f45367071112d6f71c0042bc3d1b02d0bfb5b8d330f1e2.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d0410b3ae98c7c6c4b8643e82b8513a58f4f423e430db25e79b18dc18a3fab41",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

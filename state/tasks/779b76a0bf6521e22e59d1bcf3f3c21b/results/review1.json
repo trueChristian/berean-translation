@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5793fae9-751c-49c8-9c0f-f382dec9337d",
+    "response_id": "chatcmpl-EUX3Yfg0NVa3UUuP4g9jfq97Cf3xe",
+    "usage": {
+      "completion_tokens": 1028,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4598,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5626
+    }
+  },
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...Laissons cet article nous aider à nous enracin­er et nous établir dans la Vérité biblique d’Abba Père — un Père qui prend soin de ses enfants...</p>",
+        "severity": "minor",
+        "source_quote": "Let's allow this article to help us to become rooted and grounded in the biblical Truth of Abba Father—a Father who cares for His children.",
+        "suggested_fix": "Remove the unexpected mid-word soft hyphenation and ensure standard spacing/orthography: « Laissons cet article nous aider à nous enracin­er et nous établir » → « Laissons cet article nous aider à nous enracin­er et à nous établir » or better: « Laissons cet article nous aider à nous enracin­er et à nous établir dans la vérité biblique d'Abba Père, un Père qui prend soin de ses enfants. » Preserve original HTML tags and punctuation.",
+        "translation_quote": "Laissons cet article nous aider à nous enracin­er et nous établir dans la Vérité biblique d’Abba Père — un Père qui prend soin de ses enfants."
+      },
+      {
+        "location": "<h3>Histoire de l’Église et Faut‑il qu’un chrétien vote</h3>",
+        "severity": "minor",
+        "source_quote": "Church History and Should A Christian Vote",
+        "suggested_fix": "Add a question mark and adjust capitalization/punctuation for natural French titling. Suggested fix preserving tag: change content to « Histoire de l’Église et : Faut‑il qu’un chrétien vote ? » or at minimum « Histoire de l’Église et Faut‑il qu’un chrétien voter ? » (keep within the same <h3> tag).",
+        "translation_quote": "Histoire de l’Église et Faut‑il qu’un chrétien vote"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

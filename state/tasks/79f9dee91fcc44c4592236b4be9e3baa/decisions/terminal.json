@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing Psalm 56 (near middle): <p>…But Mamma always reminded us…</p> — translation paragraph starting \"Tous les jours, quand…\"",
+      "severity": "minor",
+      "source_quote": "But Mother always reminded us to pray and remember the Bible verse which says: What time I am afraid, I will trust in thee –Psalm 56:3.",
+      "suggested_fix": "Replace the rendered French phrase that shifts nuance with a more natural, faithful rendering of the English promise. For example, change « Quand je suis dans la crainte, je cherche en toi ma confiance – Psaume 56:3. » to « Quand j’ai peur, je me confie en toi – Psaume 56:3. » This preserves the meaning \"I will trust in thee\" and is idiomatic in French.",
+      "translation_quote": "« Quand je suis dans la crainte, je cherche en toi ma confiance – Psaume 56:3. »"
+    },
+    {
+      "location": "Paragraph where narrator whispers \"I will trust and not be afraid.\" (sentence: « je mettrai ma confiance et je ne craindrai pas. »)",
+      "severity": "minor",
+      "source_quote": "I will trust and not be afraid.",
+      "suggested_fix": "Use a more idiomatic and faithful French phrasing: replace « je mettrai ma confiance et je ne craindrai pas. » with « je me confierai et je n’aurai pas peur. » or « je me confierai en Dieu et je ne craindrai pas. »",
+      "translation_quote": "« je mettrai ma confiance et je ne craindrai pas. »"
+    },
+    {
+      "location": "Paragraph naming the nearby neighbor: \"Oh, it was about half a mile... the Rhine’s place\" — translation uses « chez les Rhine »",
+      "severity": "minor",
+      "source_quote": "Oh, it was about half a mile to our closest neighbor, the Rhine’s place, and then about another quarter of a mile to the Brightbills,",
+      "suggested_fix": "Use a more natural French rendering for the English possessive with a family name. Replace « chez les Rhine » with « chez les Rhine (la famille Rhine) », or better « chez les Rhine » → « chez la famille Rhine » or « chez les Rhine (chez les Rhine) ». Recommended: « …à environ un demi-mile jusqu'à notre voisin le plus proche, chez la famille Rhine, puis encore environ un quart de mile jusqu'aux Brightbill. »",
+      "translation_quote": "« c'était à environ un demi-mile jusqu'à notre voisin le plus proche, chez les Rhine, puis encore environ un quart de mile jusqu'aux Brightbill, »"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "source.html — Genesis 1:31 quoted passage (first paragraph containing Scripture)",
+      "severity": "critical",
+      "source_quote": "<em>And God saw every thing that he had made, and, behold, it was very good… –Genesis 1:31.</em>",
+      "suggested_fix": "Translate the quoted Scripture into Hindi, preserving the verse reference exactly. For example, replace the English quoted text with a faithful Hindi rendering of Genesis 1:31 (keeping the citation “–Genesis 1:31.”). Do not change the chapter:verse numbering or add/omit any part of the quoted verse.",
+      "translation_quote": "<em>And God saw every thing that he had made, and, behold, it was very good… –Genesis 1:31.</em>"
+    },
+    {
+      "location": "source.html — Genesis 3:12-13 and Genesis 3:16-19 quoted passages",
+      "severity": "critical",
+      "source_quote": "<em>And the man said, <strong>The woman whom thou gavest to be with me, she gave me of the tree</strong>, and I did eat. And the LORD God said unto the woman, What is this that thou hast done? And the woman said, <strong>The serpent beguiled me, and I did</strong> eat –Genesis 3:12-13.</em>\n...\n<em>Unto the woman he said, I will greatly multiply thy sorrow and thy conception; in sorrow thou shalt bring forth children; and thy desire shall be to thy husband, and he shall rule over thee. And unto Adam he said, Because thou hast hearkened unto the voice of thy wife, and hast eaten of the tree, of which I commanded thee, saying, Thou shalt not eat of it: cursed is the ground for thy sake; in sorrow shalt thou eat of it all the days of thy life; Thorns also and thistles shall it bring forth to thee; and thou shalt eat the herb of the field; In the sweat of thy face shalt thou eat bread, till thou return unto the ground; for out of it wast thou taken: for dust thou art, and unto dust shalt thou return –Genesis 3:16-19.</em>",
+      "suggested_fix": "These entire quoted biblical passages must be translated into Hindi (faithfully reflecting the printed English meaning) and the verse citations retained unchanged. Replace the English quotations with accurate Hindi translations of Genesis 3:12–13 and Genesis 3:16–19, preserving the exact verse numbers in the citation.",
+      "translation_quote": "<em>And the man said, <strong>The woman whom thou gavest to be with me, she gave me of the tree</strong>, and I did eat. And the LORD God said unto the woman, What is this that thou hast done? And the woman said, <strong>The serpent beguiled me, and I did</strong> eat –Genesis 3:12-13.</em>\n...\n<em>Unto the woman he said, I will greatly multiply thy sorrow and thy conception; in sorrow thou shalt bring forth children; and thy desire shall be to thy husband, and he shall rule over thee. And unto Adam he said, Because thou hast hearkened unto the voice of thy wife, and hast eaten of the tree, of which I commanded thee, saying, Thou shalt not eat of it: cursed is the ground for thy sake; in sorrow shalt thou eat of it all the days of thy life; Thorns also and thistles shall it bring forth to thee; and thou shalt eat the herb of the field; In the sweat of thy face shalt thou eat bread, till thou return unto the ground; for out of it wast thou taken: for dust thou art, and unto dust shalt thou return –Genesis 3:16-19.</em>"
+    },
+    {
+      "location": "source.html — Other Scripture quotations left in English (Ruth 1:20-21; Ruth 4:14-16; Jeremiah 20:14-18; James 5:16; Psalm 32 reference formatting)",
+      "severity": "critical",
+      "source_quote": "Examples:\n<em>…Call me not Naomi [pleasant], call me Mara [bitter]: for the Almighty hath dealt very bitterly with me. I went out full, and the LORD hath brought me home again empty: why then call ye me Naomi, seeing the LORD hath testified against me, and the Almighty hath afflicted me? –Ruth 1:20-21.</em>\n\n<em>And the women said unto Naomi, Blessed be the LORD, which hath not left thee this day without a kinsman... –Ruth 4:14-16.</em>\n\n<em>Cursed be the day wherein I was born... –Jeremiah 20:14-18.</em>\n\n<em>…The effectual fervent prayer of a righteous man availeth much –James 5:16.</em>\n\n(Also note earlier in the article the parenthetical reference “(See Psalm chapter 32)” in the source.)",
+      "suggested_fix": "All quoted Scripture passages must be translated into Hindi while keeping the exact chapter:verse citations unchanged. Replace each English-block quotation (Ruth 1:20–21, Ruth 4:14–16, Jeremiah 20:14–18, James 5:16, etc.) with faithful Hindi translations. Also render biblical book names, when appearing in running text as references (e.g., “See Galatians 6:2”, “See Proverbs 27:17”, “See 2 Corinthians 10:12”), into conventional Hindi forms (e.g., “गलातियों 6:2”, “नीतिवचन 27:17”, “2 कुरिन्थियों 10:12”) while preserving the numeric citations exactly.",
+      "translation_quote": "Same English biblical quotations appear in translation, e.g.:\n<em>…Call me not Naomi [pleasant], call me Mara [bitter]: for the Almighty hath dealt very bitterly with me... –Ruth 1:20-21.</em>\n\n<em>And the women said unto Naomi, Blessed be the LORD... –Ruth 4:14-16.</em>\n\n<em>Cursed be the day wherein I was born... –Jeremiah 20:14-18.</em>\n\n<em>…The effectual fervent prayer of a righteous man availeth much –James 5:16.</em>"
+    },
+    {
+      "location": "source.html — image alt text",
+      "severity": "major",
+      "source_quote": "alt=\"A misty autumn forest reflected in a calm lake\"",
+      "suggested_fix": "The translation’s alt attribute is incorrect and includes the unrelated word 'शराबी'. Replace the alt text with an accurate Hindi rendering of the original English alt text, preserving the same meaning. Suggested alt: alt=\"एक शांत झील में परावर्तित धुंधले पतझड़ के जंगल का दृश्य\" (or similar idiomatic Hindi conveying 'a misty autumn forest reflected in a calm lake').",
+      "translation_quote": "alt=\"एक शांत झील में परावर्तित धुंधला शराबी शरद् वनों का दृश्य\""
+    },
+    {
+      "location": "source.html — Bible book names used in running references (examples: \"Galatians 6:2\", \"Proverbs 27:17\", \"2 Corinthians 10:12\")",
+      "severity": "major",
+      "source_quote": "(See Galatians 6:2)\n(See Proverbs 27:17)\n(See 2 Corinthians 10:12)",
+      "suggested_fix": "Use conventional Hindi forms for biblical book names in running text and parenthetical references. For example: \"(देखें गलातियों 6:2)\", \"(देखें नीतिवचन 27:17)\", \"(देखें 2 कुरिन्थियों 10:12)\". Keep chapter and verse numbers identical and in the same positions.",
+      "translation_quote": "Translator left these references as English words: \"(देखें Galatians 6:2)\", \"(देखें Proverbs 27:17)\", \"(देखें 2 Corinthians 10:12)\" (note: some appear untranslated or inconsistent)"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

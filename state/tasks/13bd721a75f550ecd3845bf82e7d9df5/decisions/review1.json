@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning 'We know the story of Job’s friends.' (near heading 'Don’t Jump to Conclusions')",
+      "severity": "critical",
+      "source_quote": "We know the story of Job’s friends. They rode up to see Job after disaster fell on him and sat quietly in shock for several days upon seeing the devastation that had happened to him.",
+      "suggested_fix": "Replace the mistranslated proper name 'حزقیا' (Hezekiah) with the correct biblical name 'ایوب' (Job) and corresponding Urdu phrasing. For example: 'ہم ایوب کے دوستوں کی کہانی جانتے ہیں۔ انہوں نے تباہی کے بعد ایوب سے ملنے آئے اور وہاں ہونے والے نقصان کو دیکھ کر چند دن خاموشی سے بیٹھے رہے۔' Preserve surrounding HTML and punctuation exactly as in the translation.",
+      "translation_quote": "ہم حزقیا کے دوستوں کی کہانی جانتے ہیں۔ اُنہوں نے تباہی آنے کے بعد حزقیا سے ملنے آئے اور اس شہادت کو دیکھ کر چند دن خاموشی سے بیٹھے رہے۔"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

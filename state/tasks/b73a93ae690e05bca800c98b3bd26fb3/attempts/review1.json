@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.title\",\"severity\":\"major\",\"source_quote\":\"Why I Have Not Gotten the Covid Shot\",\"suggested_fix\":\"Translate the English title into standard Bahasa Indonesia and preserve meaning. Suggested translation: \\\"Mengapa Saya Belum Mendapat Suntikan Covid\\\" (or \\\"Mengapa Saya Belum Disuntik Covid\\\"). Replace the translation.title value with the chosen Indonesian title.\",\"translation_quote\":\"Why I Have Not Gotten the Covid Shot\"},{\"location\":\"source.section\",\"severity\":\"major\",\"source_quote\":\"Issues Facing the Church\",\"suggested_fix\":\"Translate the English section name into standard Bahasa Indonesia. Suggested translation: \\\"Isu yang Dihadapi Gereja\\\" or \\\"Isu yang Dihadapi Jemaat\\\". Replace the translation.section value with the chosen Indonesian section name.\",\"translation_quote\":\"Issues Facing the Church\"}],\"passed\":false,\"score\":85}",
+    "content_bytes": 870,
+    "content_evidence_truncated": false,
+    "content_sha256": "e6e23fa44be248e3ffccdc7339166a4956ab63ae82ec200a2539c92616e50784",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 514,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5677,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6191
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

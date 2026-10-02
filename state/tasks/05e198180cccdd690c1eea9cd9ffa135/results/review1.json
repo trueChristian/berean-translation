@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7eb1c0de-9451-4221-9526-90ddd71bc81e",
+    "response_id": "chatcmpl-EUX4VqxsPOEV58Wv3qjL1peyM06oS",
+    "usage": {
+      "completion_tokens": 1284,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6996,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8280
+    }
+  },
+  "received_at": "2026-10-02T12:55:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph quoting Revelation 14:12 (near: “The next verse gives a calling for the endurance of the saints—Here is the patience of the saints…”)",
+        "severity": "major",
+        "source_quote": "Here is the patience of the saints: here are they that keep the commandments of God, and the faith of Jesus –Revelation 14:12.",
+        "suggested_fix": "Translate the quoted verse faithfully into Modern Greek, preserving the meaning of “patience/endurance” (not ‘armour’). A faithful rendering would be: «Ιδού η υπομονή των αγίων· ιδού οι τηρούντες τις εντολές του Θεού και την πίστιν του Ιησού.» Replace the current translation of that quoted verse with the suggested wording, keeping the same inline emphasis/HTML tags if any.",
+        "translation_quote": "<em>Αυτός είναι ο πανοπλισμός των αγίων· αυτοί είνε οι τηρούντες τας εντολάς του Θεού και την πίστιν του Ιησού –Αποκάλυψις 14:12.</em> "
+      },
+      {
+        "location": "Paragraph quoting 2 Corinthians 6:17 (near: “Wherefore come out from among them, and be ye separate…”)",
+        "severity": "minor",
+        "source_quote": "Wherefore come out from among them, and be ye separate, saith the Lord, and touch not the unclean thing; and I will receive you –2 Corinthians 6:17.",
+        "suggested_fix": "Correct the Greek gender/wording to reflect ‘from among them’ (i.e., people) and more natural contemporary Greek phrasing. Suggested: «Διότι γι' αυτό βγείτε από μέσα τους και ξεχωρίστε, λέει ο Κύριος· μην αγγίζετε τα ακάθαρτα, και θα σας δεχθώ.» Replace the current sentence with this rendering, preserving the HTML structure and emphasis tags.",
+        "translation_quote": "<em>Διότι διά τούτο <strong>βγείτε απ’ αυτά, και ξεχωρίσατε</strong>, λέγει ο Κύριος· και αφόμενοι τα ακάθαρτα, θα σας δεχθώ –Β΄ Κορινθίους 6:17.</em>"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

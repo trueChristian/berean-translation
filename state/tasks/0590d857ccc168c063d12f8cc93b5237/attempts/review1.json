@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>\\\"Moses in Midian\\\"... paragraph</p>\",\"severity\":\"minor\",\"source_quote\":\"He was uprooted from his comfortable lifestyle in Egypt as an adopted son of royalty and was then sent by God into the desert to learn some much-needed lessons in further preparation towards becoming God’s servant.\",\"suggested_fix\":\"원문 의미를 더 명확히 전달하도록 문장을 약간 다듬으십시오. 예: \\\"그는 왕실의 양자로서 이집트에서 안락한 생활을 누리다가 뿌리 뽑혀, 하나님의 종이 되기 위한 준비로서 하나님에 의해 광야로 보내졌습니다.\\\" (원문 HTML 태그와 순서는 변경하지 마십시오.)\",\"translation_quote\":\"그는 양자로서 이집트에서의 안락한 생활에서 뿌리 뽑혀 왕실의 양자가 되었고, 하나님의 종이 되기 위한 추가적인 준비로서 반드시 배워야 할 여러 교훈을 배우기 위해 하나님에 의해 광야로 보내졌습니다.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 1007,
+    "content_evidence_truncated": false,
+    "content_sha256": "d1a8f561b0465abc28b90aece0e0140477c1236d8510530a1b418b3dd87e1461",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 892,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4765,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5657
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
