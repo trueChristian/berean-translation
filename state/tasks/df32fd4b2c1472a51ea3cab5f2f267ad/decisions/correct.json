@@ -1,0 +1,6 @@
+{
+  "findings": [],
+  "outcome": "structural_rejection",
+  "reason": "Expected one complete outer article element",
+  "stage": "correct"
+}
