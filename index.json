@@ -627,6 +627,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
+      "html_sha256": "8f23e4e489274ddc6f5cb95a75a6221c5a2d6cab80961f9a0408e5a4c61a7193",
+      "human_reviewed": false,
+      "id": "1c75dce8-1781-427f-8099-01596d53c2a4",
+      "images": [
+        {
+          "alt": "সবুজ তৃণে দাঁড়ানো একটি ক্ষুদ্র বাদামী পাখি",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-1.jpg"
+        },
+        {
+          "alt": "সবুজ পটভূমির বিরুদ্ধে একটি কাটা ডালের উপরে বসা নীল-সাদা পাখি",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/1c75dce8-1781-427f-8099-01596d53c2a4.json",
+      "metadata_sha256": "d75497300d43b350a9587599feb19c6c3bf1d66616008aed20cf845053341d68",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "প্রধান নিবন্ধ",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
+      "status": "ready",
+      "subtitle": "এবং আমার চারপাশে বৃত্তাকার সঙ্গীত ঘুরছে।",
+      "title": "সমস্ত প্রকৃতি গান করে",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
       "html_sha256": "c4e9e3eac33ed58e4531ae30f2659b9ef77cddbb6c78208c6bce4936a3ee8e85",
       "human_reviewed": false,
@@ -774,6 +806,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "খ্রিস্টান মানবতাবাদী",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ben/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.html",
+      "html_sha256": "5ae9605c05c756ee5fe1a645432f8289ebe22c5c30c2c540d1001bdb056b68df",
+      "human_reviewed": false,
+      "id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
+      "images": [
+        {
+          "alt": "একটি ছোট নৌকা শান্ত জলের কিনারায় উজ্জ্বল সূর্যাস্তের সময়",
+          "public_path": "/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.json",
+      "metadata_sha256": "201e33f8b51c244181753e03948491fbb19607d23bdd7a4395fc01e9a389aca3",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "কবিতা",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "উঠো, আনন্দ কর!",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {

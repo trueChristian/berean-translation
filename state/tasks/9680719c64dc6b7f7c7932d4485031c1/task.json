@@ -2,7 +2,6 @@
   "article_id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b0124086b9c54f0786b8a28a5bee5cf5",
   "campaign": "gh-36909407714",
   "created_at": "2026-10-01T18:48:07+00:00",
   "events": [
@@ -62,38 +61,29 @@
         },
         "total_tokens": 2864
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 730,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1542,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2272
+      }
     }
   ],
-  "findings": [
-    {
-      "location": "<div class=\"poem\"> first stanza, line ending",
-      "severity": "major",
-      "source_quote": "Give thanks and laud, for more is here!",
-      "suggested_fix": "Translate the whole line into Bengali, preserving the HTML and line break. Example: Replace 'কৃতজ্ঞতা জ্ঞাপন করো এবং গাও, আরও অনেক কিছু here—' with 'কৃতজ্ঞতা জ্ঞাপন করো ও স্তব করো, কারণ আরও আছে—' preserving the <strong> and <br> tags.",
-      "translation_quote": "কৃতজ্ঞতা জ্ঞাপন করো এবং গাও, আরও অনেক কিছু here—"
-    },
-    {
-      "location": "<div class=\"poem\"> second stanza, line 2",
-      "severity": "minor",
-      "source_quote": "Extol and praise His worthy name!",
-      "suggested_fix": "Use an idiomatic Bengali rendering for 'Extol' and correct the mistranslated/incorrect word. For example: replace 'তাঁর যোগ্য নাম উচ্চবাষ্পে স্তব করো!' with 'তাঁর যোগ্য নাম উচ্চকণ্ঠে স্তব করো!' preserving the <strong> and <br> tags.",
-      "translation_quote": "তাঁর যোগ্য নাম উচ্চবাষ্পে স্তব করো!"
-    },
-    {
-      "location": "<div class=\"poem\"> second stanza, line 4",
-      "severity": "minor",
-      "source_quote": "And showers blessings from above,",
-      "suggested_fix": "Correct the apparent typo/mistranslation 'বুধিয়ে' to an appropriate Bengali verb meaning 'showers/dispenses'. For example: replace 'ওপর থেকে আশীর্বাদ বুধিয়ে ছড়ান,' with 'উপর থেকে আশীর্বাদ বর্ষণ করেন,' preserving the <strong> and <br> tags.",
-      "translation_quote": "ওপর থেকে আশীর্বাদ বুধিয়ে ছড়ান,"
-    },
-    {
-      "location": "<div class=\"poem\"> third stanza, line 5",
-      "severity": "minor",
-      "source_quote": "In wondrous beauty bend the knee;",
-      "suggested_fix": "Improve idiomatic expression for 'bend the knee'. For example: replace 'আশ্চর্যজনক সৌন্দর্যে হাঁটু গোড়াও—' with 'আশ্চর্য সৌন্দর্যে হাঁটু গেড়ে পড়ো—' preserving the <strong> and <br> tags.",
-      "translation_quote": "আশ্চর্যজনক সৌন্দর্যে হাঁটু গোড়াও—"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T00:12:23+00:00",
   "id": "9680719c64dc6b7f7c7932d4485031c1",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ben",
@@ -137,13 +127,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/106121576068d9bdf697518dbfe2c70eff09e46a5d060eef756de2cfcb440b7f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

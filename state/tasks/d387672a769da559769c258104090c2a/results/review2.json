@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "07a1b504-1164-4792-a927-5f658c782984",
+    "response_id": "chatcmpl-EUL7Q1PAzZEs1v6dzvmlaq4w9nEW5",
+    "usage": {
+      "completion_tokens": 1356,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4370,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5726
+    }
+  },
+  "received_at": "2026-10-02T00:12:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>“I first felt the adjustment in my wallet, but I consoled myself that this was only temporary. ...”</p>",
+        "severity": "minor",
+        "source_quote": "“I first felt the adjustment in my wallet, but I consoled myself that this was only temporary.”",
+        "suggested_fix": "Use a clear, idiomatic Bengali rendering for “in my wallet” such as: “প্রথমে আমি আমার ওয়ালেটে (ব্যালেট/ব্যাগে) পরিবর্তনটি অনুভব করলাম, কিন্তু নিজেকে আশ্বস্ত করলাম যে এটা কেবল সাময়িক।” Preserve HTML tags and surrounding quotation marks.",
+        "translation_quote": "“প্রথমে আমি আমার পয়সার ব্যঞ্জনে পরিবর্তনটি অনুভব করলাম, কিন্তু আমি নিজেকে আশ্বাস দিলাম যে এটা কেবল অল্পসময়ের জন্য।”"
+      },
+      {
+        "location": "<h2>Talk about your situation with someone you trust</h2>\n  <p>Sometimes just talking about problems can help you to put issues in perspective.</p>",
+        "severity": "minor",
+        "source_quote": "Talk about your situation with someone you trust",
+        "suggested_fix": "Render the heading idiomatically and grammatically in Bengali, for example: \"আপনি যাকে বিশ্বাস করেন তার সঙ্গে আপনার পরিস্থিতি নিয়ে কথা বলুন\". Keep the H2 tag and surrounding structure unchanged.",
+        "translation_quote": "<h2>আপনি কারো প্রতি বিশ্বাসযোগ্যকে আপনার পরিস্থিতি সম্পর্কে বলুন</h2>\n  <p>কখনো কখনো কেবল সমস্যাগুলো নিয়ে কথা বললেই আপনার সমস্যা সম্পর্কে পরিপ্রেক্ষিত স্থির হয়।</p>"
+      },
+      {
+        "location": "<p>Sometimes this type of overload is not public knowledge. Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.</p>",
+        "severity": "minor",
+        "source_quote": "Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.",
+        "suggested_fix": "Clarify the phrase “plain circles” in idiomatic Bengali that preserves the intended meaning (likely referring to the Plain/Anabaptist community or simple/plain-living circles). For example: \"আমাদের সরল-জীবনসম্পন্ন সম্প্রদায়ের মধ্যে সংঘটিত দুঃখজনক ঘটনাগুলো সাধারণত প্রার্থনা, আর্থিক সহায়তা এবং সাপ্তাহিক বাজেট আপডেট পায়।\" Keep punctuation and tags unchanged.",
+        "translation_quote": "“আমাদের সরল চেনের ভিতরে সংঘটিত দুঃখজনক ঘটনাগুলো সাধারণত প্রার্থনা, আর্থিক সহায়তা, এবং সাপ্তাহিক বাজেট আপডেট পায়।”"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

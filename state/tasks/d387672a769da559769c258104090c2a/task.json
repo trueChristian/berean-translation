@@ -2,7 +2,6 @@
   "article_id": "93978dae-706d-43d4-abee-6b6e011683fa",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b0124086b9c54f0786b8a28a5bee5cf5",
   "campaign": "gh-36909407714",
   "created_at": "2026-10-01T18:48:07+00:00",
   "events": [
@@ -62,45 +61,52 @@
         },
         "total_tokens": 8229
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1356,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4370,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5726
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "<p>…A few years ago, one of their chicken houses burned down.…</p> (first occurrence in source.html)",
-      "severity": "major",
-      "source_quote": "one of their chicken houses burned down",
-      "suggested_fix": "Translate \"chicken house\" accurately (e.g., \"মুরগিদের খাঁচা\" or \"মুরগির ঘর\") rather than \"কুকুরঘর\". Preserve surrounding HTML and punctuation.",
-      "translation_quote": "তাদের একটি কুকুরঘর (chicken house) জ্বলে যায়।"
-    },
-    {
-      "location": "<p>…the chicken house needs to be finished in six months!…</p> (later paragraph in source.html)",
-      "severity": "major",
-      "source_quote": "the chicken house needs to be finished in six months!",
-      "suggested_fix": "Use the correct target-language phrase for \"chicken house\" (e.g., \"মুরগির ঘরটি\") instead of \"কুকুরঘরটি\", and preserve the rest of the sentence and punctuation.",
-      "translation_quote": "আর কুকুরঘরটি ছয় মাসের মধ্যে শেষ করতে হবে!"
-    },
-    {
-      "location": "<h2>Believe that God cares</h2>\n<p>…Say it. Read the Psalms over and over.…</p> and final paragraph with Psalmist reference",
-      "severity": "major",
-      "source_quote": "Read the Psalms over and over. … And say with the Psalmist, “In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1).",
-      "suggested_fix": "Translate or transliterate the book name correctly. Replace \"ভেসালের বই (Psalms)\" and \"ভেসালের লেখকের\" with an accurate Bengali rendering such as \"গীতসংহিতা (Psalms)\" or simply \"সঙ্গলীত/গীতসংহিতা\" consistently. Keep the English Bible quotations exactly as in the source and preserve surrounding HTML tags.",
-      "translation_quote": "ভেসালের বই (Psalms) বারবার পড়ুন.… এবং ভেসালের লেখকের সঙ্গে বলুন, “In thee, O LORD, do I put my trust: let me never be put to confusion” (Psalm 71:1)।"
-    },
-    {
-      "location": "<p>“I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.”</p>",
+      "location": "<p>“I first felt the adjustment in my wallet, but I consoled myself that this was only temporary. ...”</p>",
       "severity": "minor",
-      "source_quote": "I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.",
-      "suggested_fix": "Translate \"yawning\" with a standard Bengali term such as \"আহাড়ানো\" or \"জাল্‌প লক্ষ্য করা\" to reflect the English sense (tiredness), e.g., \"মধ্যরাতে যখন তাকে আহাড়াতে দেখলাম/শোনা গেল তাতে আমি ভাবলাম সে ঘুমাচ্ছে না।\" Preserve HTML tags and punctuation.",
-      "translation_quote": "আমি তখনই আশঙ্কিত হয়ে উঠলাম যখন শুনলাম সে মধ্যরাতে হাই হাই করছে এবং জানলাম সে ঘুমায় না।"
+      "source_quote": "“I first felt the adjustment in my wallet, but I consoled myself that this was only temporary.”",
+      "suggested_fix": "Use a clear, idiomatic Bengali rendering for “in my wallet” such as: “প্রথমে আমি আমার ওয়ালেটে (ব্যালেট/ব্যাগে) পরিবর্তনটি অনুভব করলাম, কিন্তু নিজেকে আশ্বস্ত করলাম যে এটা কেবল সাময়িক।” Preserve HTML tags and surrounding quotation marks.",
+      "translation_quote": "“প্রথমে আমি আমার পয়সার ব্যঞ্জনে পরিবর্তনটি অনুভব করলাম, কিন্তু আমি নিজেকে আশ্বাস দিলাম যে এটা কেবল অল্পসময়ের জন্য।”"
     },
     {
-      "location": "<p>“Then the spark in Rick’s eyes was replaced with a dull stare. He became distant from us.”</p>",
+      "location": "<h2>Talk about your situation with someone you trust</h2>\n  <p>Sometimes just talking about problems can help you to put issues in perspective.</p>",
       "severity": "minor",
-      "source_quote": "the spark in Rick’s eyes was replaced with a dull stare",
-      "suggested_fix": "Render the idiom more naturally in Bengali to preserve nuance (e.g., \"রিকের চোখের দীপটা নিভে গিয়ে বিষণ্ণ দৃষ্টিতে পরিণত হয়েছিল\") while keeping HTML intact.",
-      "translation_quote": "তারপর রিকের চোখের দীপকটি ফিকে হয়ে এক প্রতিবিম্বে পরিণত হয়।"
+      "source_quote": "Talk about your situation with someone you trust",
+      "suggested_fix": "Render the heading idiomatically and grammatically in Bengali, for example: \"আপনি যাকে বিশ্বাস করেন তার সঙ্গে আপনার পরিস্থিতি নিয়ে কথা বলুন\". Keep the H2 tag and surrounding structure unchanged.",
+      "translation_quote": "<h2>আপনি কারো প্রতি বিশ্বাসযোগ্যকে আপনার পরিস্থিতি সম্পর্কে বলুন</h2>\n  <p>কখনো কখনো কেবল সমস্যাগুলো নিয়ে কথা বললেই আপনার সমস্যা সম্পর্কে পরিপ্রেক্ষিত স্থির হয়।</p>"
+    },
+    {
+      "location": "<p>Sometimes this type of overload is not public knowledge. Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.</p>",
+      "severity": "minor",
+      "source_quote": "Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.",
+      "suggested_fix": "Clarify the phrase “plain circles” in idiomatic Bengali that preserves the intended meaning (likely referring to the Plain/Anabaptist community or simple/plain-living circles). For example: \"আমাদের সরল-জীবনসম্পন্ন সম্প্রদায়ের মধ্যে সংঘটিত দুঃখজনক ঘটনাগুলো সাধারণত প্রার্থনা, আর্থিক সহায়তা এবং সাপ্তাহিক বাজেট আপডেট পায়।\" Keep punctuation and tags unchanged.",
+      "translation_quote": "“আমাদের সরল চেনের ভিতরে সংঘটিত দুঃখজনক ঘটনাগুলো সাধারণত প্রার্থনা, আর্থিক সহায়তা, এবং সাপ্তাহিক বাজেট আপডেট পায়।”"
     }
   ],
+  "finished_at": "2026-10-02T00:12:23+00:00",
   "id": "d387672a769da559769c258104090c2a",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ben",
@@ -144,13 +150,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 92,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/655f2b893d535149fb7f0e71fcdd48b885970929ae2439021fc6d8de3cd6b11b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

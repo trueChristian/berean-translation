@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f4fdf9ea-f72d-42f0-9eb0-c134473e6566",
+    "response_id": "chatcmpl-EUL7bxbgcWQuP3PknoGg0CRvKO068",
+    "usage": {
+      "completion_tokens": 1194,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3241,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4435
+    }
+  },
+  "received_at": "2026-10-02T00:12:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> first paragraph, opening line",
+        "severity": "critical",
+        "source_quote": "I can still smell the tantalizing cacophony of odors as I clutched my father’s strong hand, weaving our way through the masses of tourists that crowded the building.",
+        "suggested_fix": "Replace the non-Bengali word with a correct Bengali rendering. Preserve meaning and tone. For example: \"আমি এখনও বাবার শক্ত হাতটি আঁকড়ে ধরে ভবন ভরে থাকা পর্যটকদের ভিড়ের মধ্য দিয়ে এগোতে গিয়ে সেই মনোমুগ্ধকর জটিল গন্ধগুলোর ছোঁয়া এখনও অনুভব করতে পারি।\" Ensure no non-Bengali characters remain.",
+        "translation_quote": "আমি 아직ো বাবার শক্ত হাতটি আঁকড়ে ধরে ভবন ভরতি ভিড়-পর্যটকদের মধ্য দিয়ে এগিয়ে চলার সময় সেই মনোমুগ্ধকর মিশ্র গন্ধগুলোর শিহরণ অনুভব করি।"
+      },
+      {
+        "location": "Mandela quotation (third paragraph)",
+        "severity": "major",
+        "source_quote": "Nelson Mandela, former president of South Africa wrote, “Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?”",
+        "suggested_fix": "Correct the Bengali translation of the quoted sentence so it faithfully conveys the English wording and is idiomatic Bengali. Preserve punctuation and quotation marks. Example: “ব্যর্থতা একজন শিক্ষক; জীবনের শেষে আপনি কোনটিকে নিয়ে সবচেয়ে খারাপ অনুভব করবেন বলে মনে করেন—ব্যর্থ হওয়া না চেষ্টা না করা?” Also keep the attribution as in source.",
+        "translation_quote": "দক্ষিণ আফ্রিকার প্রাক্তন রাষ্ট্রপতি নেলসন ম্যান্ডেলা লিখেছেন, “ব্যর্থতা একজন শিক্ষক, এবং জীবনের শেষে আপনি কী নিয়ে সবচেয়ে খারাপ অনুভব করবেন বলে মনে করেন—বিফল্য না চেষ্টাই না করা?”"
+      },
+      {
+        "location": "Image alt text (figure > img @alt)",
+        "severity": "minor",
+        "source_quote": "Pink and white crown vetch flowers in a green meadow",
+        "suggested_fix": "Use a fully Bengali description or an accepted Bengali common name rather than a transliterated English plant name. For example: \"সবুজ ঘাসের মাঠে গোলাপি ও সাদা ক্রাউনের ভেচ (crown vetch) ফুল\" or if a common Bengali name exists, use that. Preserve descriptive order and color details.",
+        "translation_quote": "সবুজ ঘাসের মাঠে গোলাপী ও সাদা ক্রাউন ভেটচ ফুল"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

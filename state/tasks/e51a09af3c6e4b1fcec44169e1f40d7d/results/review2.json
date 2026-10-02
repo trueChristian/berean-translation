@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "db029f27-dc1f-46f7-b1a8-f37720ee0044",
+    "response_id": "chatcmpl-EUL7ShkEjJ6QbggHnlNa6DZrW87WY",
+    "usage": {
+      "completion_tokens": 2111,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1408,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7277,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9388
+    }
+  },
+  "received_at": "2026-10-02T00:12:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Blockquote epitaph (near top of article)",
+        "severity": "minor",
+        "source_quote": "John Newton, once an infidel and libertine, a servant of slaves in Africa, was, by the rich mercy of our Lord and Savior Jesus Christ, preserved, restored, pardoned, and appointed to preach the faith he had long labored to destroy!",
+        "suggested_fix": "Preserve the original sense and register more closely. Keep 'libertine' and 'servant of slaves' rendered to match the author's intended meaning (libertine = dissolute person; servant of slaves = captive/worker for slave traders or 'slave-trader' as historically understood). Example (preserving HTML and punctuation):\n<blockquote><p><em>জন নিউটন, একবার একজন অবিশ্বাসী ও অনাচারসত্ত্বাবাদী (libertine), আফ্রিকার দাস-ব্যবসায়ীদের একজন সেবক (servant of slaves), আমাদের প্রভু ও পরিত্রাতার যীশু খ্রীষ্টের সমৃদ্ধ কৃপায় রক্ষিত, পুনরুদ্ধারকৃত, ক্ষমাপ্রাপ্ত ও দীর্ঘদিন ধরে ধ্বংস করতে তিনি যে বিশ্বাসের বিরুদ্ধে লড়েছিলেন সেই বিশ্বাস প্রচার করার জন্য নিয়োগপ্রাপ্ত ছিলেন!</em></p></blockquote>",
+        "translation_quote": "<blockquote><p><em>জন নিউটন, এককালীন অবিশ্বাসী ও অনাচারী, আফ্রিকার দাসদের এক নৈব্রত সেবক, আমাদের প্রভু ও পরিত্রাতার যীশু খ্রীষ্টের সমৃদ্ধ কৃপায় রক্ষিত, পুনরুদ্ধারকৃত, ক্ষমা প্রাপ্ত এবং দীর্ঘদিন ধরে ধ্বংস করতে তিনি যাঁর জন্য প্রাণপণ লড়েছেন সেই বিশ্বাস প্রচার করার জন্য নিয়োগপ্রাপ্ত ছিলেন!</em></p></blockquote>"
+      },
+      {
+        "location": "Paragraph quoting Thoughts Upon the African Slave Trade (paragraph about 1788 book)",
+        "severity": "major",
+        "source_quote": "\"Needless to say, the capturing, selling and transporting of black slaves to the plantations in the West Indies and America was a cruel and vicious way of life.\"",
+        "suggested_fix": "Restore the full original quotation including the geographic specification 'to the plantations in the West Indies and America' and avoid inserting words not in the source (the translation added 'কৃষকদের' i.e. 'farmers'). Keep the sentence faithful to the English text and punctuation. Example fix: \n\nতিনি লিখেছেন, “Needless to say, the capturing, selling and transporting of black slaves to the plantations in the West Indies and America was a cruel and vicious way of life.”\n\nOr if rendering wholly into Bengali while preserving the exact referents: \n\nতিনি লিখেছেন, “প্রকৃতই বলবার কী আছে, পশ্চিম ইন্ডিজ ও আমেরিকার প্ল্যানটেশনে কালো দাসদের ধরে রাখা, বিক্রি করা এবং পরিবহন করা ছিল একটি নিষ্ঠুর ও দুর্বৃত্ত জীবনধারা।”",
+        "translation_quote": "“উল্লেখ্য যে, কৃষকদের প্ল্যানটেশনে কালো দাসদের ধরে, বিক্রি ও পরিবহন করা ছিল একটি নিষ্ঠুর ও দুষ্ট পথ।”"
+      }
+    ],
+    "passed": false,
+    "score": 85
+  }
+}
