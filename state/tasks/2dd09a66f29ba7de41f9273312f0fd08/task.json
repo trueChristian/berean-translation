@@ -2,7 +2,6 @@
   "article_id": "6485a6ed-e76f-4142-9e27-e649823cb1a3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "34f90e3653a74618a9933fce235305fc",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -43,18 +42,60 @@
         },
         "total_tokens": 13581
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 2237,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8749,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10986
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[156]: source /article[1]/p[59]/em[3] ('start', 'em', ()); translation /article[1]/p[59] ('end', 'p')",
-      "translation_quote": ""
+      "location": "<article> — paragraph containing 1 Peter 3:3-6 (source_html paragraph beginning with “Whose adorning let it not be… –1 Peter 3:3-6.”)",
+      "severity": "major",
+      "source_quote": "Whose adorning let it not be that outward adorning of plaiting the hair, and of wearing of gold, or of putting on of apparel; But let it be the hidden man of the heart, in that which is not corruptible, even the ornament of a meek and quiet spirit, which is in the sight of God of great price. For after this manner in the old time the holy women also, who trusted in God, adorned themselves, being in subjection unto their own husbands: Even as Sara obeyed Abraham, calling him lord: whose daughters ye are, as long as ye do well, and are not afraid with any amazement –1 Peter 3:3-6.",
+      "suggested_fix": "Translate the quoted Scripture so it accurately renders the English sense into natural Afrikaans. Preserve the sentence structure and meaning (no additions or omissions). For this verse, a faithful Afrikaans rendering would be for example: “Wie se versiering moet nie die uiterlike versiering van gevlegte hare, of die dra van goud, of die aantrek van klere wees nie; maar laat dit die verborgen mens van die hart wees, in die onverganklike, selfs die sieraad van ’n sagmoedige en stil gees, wat in die oë van God van groot waarde is. Want op hierdie wyse het ook in die verlede die heilige vroue, wat op God vertrou het, hulle versier deur onderdanigheid aan hulle eie mans: soos Sara aan Abraham gehoorsaam was en hom Here genoem het; wie se dogters julle is, solank julle goed doen en nie vrees nie.” Replace the current translated quote (which uses “vleispluim” etc.) with the corrected Afrikaans quotation inside the same <em>...</em> and <p> tags, keeping punctuation and the final reference “– 1 Petrus 3:3-6.” intact.",
+      "translation_quote": "<em>Wie se versiering moet nie die uiterlike versiering wees van ’n vleispluim van die hare, en van die dra van goud, of van die aantrek van klere nie; Maar laat dit die verborgen mens van die hart wees, in dit wat onverganklik is, selfs die sieraad van ’n sagmoedige en stil gees, wat in die oë van God van groot waarde is. Want op hierdie wyse het ook in die ou tyd die heilige vroue, wat op God vertrou het, hulle versier, deur onderdanigheid aan hulle eie mans: Soos Sara aan Abraham gehoorsaam was en hom Here genoem het: wie se dogters julle is, solank julle goed doen, en geen vrees het nie – 1 Petrus 3:3-6.</em>"
+    },
+    {
+      "location": "<article> — paragraph explaining “Plaiting: folding, doubling, braiding.” and related definitions (source_html paragraph beginning “Plaiting: folding, doubling, braiding.”)",
+      "severity": "major",
+      "source_quote": "Plaiting: folding, doubling, braiding.",
+      "suggested_fix": "Correct the lexical gloss so it conveys the English meaning in standard Afrikaans. Use the conventional Afrikaans terms for hair-braiding. Suggested replacement: “Geflegte hare / vleit / vlechtwerk: vouing, dubbelslaan, vlecht.” Or more simply: “Vlecht (vleiting, gevlegte hare): vouing, dubbelslaan, vlecht.” Replace the current erroneous forms (“Vleispluim / vleispluiming … vleit”) with the corrected Afrikaans terms, preserving the same paragraph tag structure.",
+      "translation_quote": "<p>Vleispluim / vleispluiming: vouing, dubbelslaan, vleit.</p>"
+    },
+    {
+      "location": "<article> — paragraph with proverb “A little leaven leaveneth the whole lump.” (source_html paragraph beginning “A little leaven leaveneth the whole lump.”)",
+      "severity": "major",
+      "source_quote": "A little leaven leaveneth the whole lump.",
+      "suggested_fix": "The current translation (“’n Bietjie gis gis die hele slag.”) does not convey the proverb’s meaning in Afrikaans. Replace it with a clear, idiomatic Afrikaans rendering that preserves the biblical proverb, for example: “’n Bietjie gis gis die hele deeg” or “’n bietjie gis gis die hele deeg” (or the more literal: “’n bietjie gis laat die hele deeg rys”). Update the text inside the same <p> tag and keep surrounding punctuation and tags unchanged.",
+      "translation_quote": "<p>Ons moet hierdie vrugte in ons lewens versier en ook hierdie dinge beoefen saam met diegene wat dieselfde dinge in hulle eie lewens beoefen. ’n Bietjie gis gis die hele slag.</p>"
+    },
+    {
+      "location": "Throughout translation — occasional awkward or nonstandard Afrikaans word choices (examples: paragraph using “vergewis” for “be aware,” some lexical choices like “videosale,” “vleispluim”)",
+      "severity": "minor",
+      "source_quote": "We live in a time where there are many distractions. ... The one thing we should be aware of is called adornment and the other is foolishness or looseness.",
+      "suggested_fix": "These are style/idiom issues rather than changes of meaning. Use more natural Afrikaans phrasing in a few spots (preserve meaning). Examples: change “Die een ding waarvan ons ons behoort te vergewis” to “Een ding waarvan ons bewus moet wees”; change “videosale” to “videosale/arcades” → prefer “video-arcades” or “speletjessale.” These fixes are optional improvements — ensure no scripture quotes are altered except to correct meaning as above. Leave HTML tags and structure unchanged.",
+      "translation_quote": "<p>Die een ding waarvan ons ons behoort te vergewis, word sieraad of versiering genoem en die ander is dwaasheid of losbandigheid.</p>"
     }
   ],
+  "finished_at": "2026-10-02T13:07:20+00:00",
   "id": "2dd09a66f29ba7de41f9273312f0fd08",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "afr",
@@ -128,11 +169,13 @@
     }
   },
   "protected": false,
+  "quality_score": 62,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8318b57a6ada492a7c60f08b638ec3749b04818458e4f26c4da97c0bb96e2624.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "645f3b0dd9dba2fa145399753da1e466b9d79164115d769d8a631979fc803973",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

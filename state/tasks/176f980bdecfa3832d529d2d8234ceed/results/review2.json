@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d900d451-8e6c-4f50-aa1d-666edc4010e9",
+    "response_id": "chatcmpl-EUXBvXC5Ay2RldYOeHU7PgnnPxdtg",
+    "usage": {
+      "completion_tokens": 1141,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8919,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10060
+    }
+  },
+  "received_at": "2026-10-02T13:07:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 3 (translation)",
+        "severity": "major",
+        "source_quote": "The bane of the zealot is often too little confidence in God and too much confidence in the flesh.",
+        "suggested_fix": "Replace the mistranslated phrase with wording that preserves the source meaning. For example: \"Plagen for den nidkjære er ofte for liten tillit til Gud og for stor tillit til kjødets evner.\" (Keep HTML structure and emphasis tags as in the translation.)",
+        "translation_quote": "Fanebæreren for den nidkjære er ofte for liten tillit til Gud og for stor tillit til kjødets evner."
+      },
+      {
+        "location": "Metadata: section field",
+        "severity": "minor",
+        "source_quote": "CHARACTER STUDIES",
+        "suggested_fix": "Correct the Norwegian Bokmål section heading to the conventional spelling: \"KARAKTERSTUDIER\" (replace the existing section value).",
+        "translation_quote": "KARRAKTERSTUDIER"
+      },
+      {
+        "location": "Heading: \"God's Promotion\" translated as \"Guds heving\" (paragraph heading)",
+        "severity": "minor",
+        "source_quote": "God's Promotion",
+        "suggested_fix": "Use a more idiomatic Norwegian rendering that preserves the sense of being raised/advanced. Suggested fix: change heading to \"Guds forfremmelse\". Preserve the h2 tag and its position.",
+        "translation_quote": "Guds heving"
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

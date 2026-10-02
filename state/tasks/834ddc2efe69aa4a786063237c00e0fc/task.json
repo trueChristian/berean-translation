@@ -2,7 +2,6 @@
   "article_id": "6485a6ed-e76f-4142-9e27-e649823cb1a3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "34f90e3653a74618a9933fce235305fc",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -43,18 +42,38 @@
         },
         "total_tokens": 12705
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 971,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8244,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9215
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[53]: source /article[1]/p[20]/em[1]/strong[1] ('start', 'strong', ()); translation /article[1]/p[20]/em[1] ('end', 'em')",
-      "translation_quote": ""
+      "location": "paragraphs with word-definitions near \"Plaiting/Plaiting:\" and \"Apparel:\" and \"Ornament:\"",
+      "severity": "minor",
+      "source_quote": "Plaiting: folding, doubling, braiding.\n\nApparel: clothing; external habiliments or decorations.\n\nOrnament: That which embellishes; or something which, added to another thing, renders it most beautiful to the eye.",
+      "suggested_fix": "Translate the English head-words into Spanish to avoid leaving substantive article text in English. Keep the existing Spanish glosses but change the head-words. For example: replace \"Plaiting:\" with \"Trenzado:\" (or \"Trenzar:\"), \"Apparel:\" with \"Vestimenta:\" and \"Ornament:\" with \"Ornamento:\". Preserve the existing Spanish definitions exactly as now rendered.",
+      "translation_quote": "Plaiting: plegar, doblar, trenzar.\n\nApparel: vestimenta; ropas externas o adornos.\n\nOrnament: aquello que embellece; o algo que, añadido a otra cosa, la hace más hermosa a la vista."
     }
   ],
+  "finished_at": "2026-10-02T13:07:21+00:00",
   "id": "834ddc2efe69aa4a786063237c00e0fc",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "spa",
@@ -128,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8318b57a6ada492a7c60f08b638ec3749b04818458e4f26c4da97c0bb96e2624.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "645f3b0dd9dba2fa145399753da1e466b9d79164115d769d8a631979fc803973",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

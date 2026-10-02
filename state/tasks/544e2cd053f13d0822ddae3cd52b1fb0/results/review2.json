@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ed759a35-87a8-4cec-90e1-113c81d61c9a",
+    "response_id": "chatcmpl-EUXBaZRNL0SEk3UgfD3IMMwNGkR0L",
+    "usage": {
+      "completion_tokens": 965,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8560,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9525
+    }
+  },
+  "received_at": "2026-10-02T13:07:21+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph starting with \"Avoid a luxurious life.\" (heading)",
+        "severity": "minor",
+        "source_quote": "Avoid a luxurious life.",
+        "suggested_fix": "Use plural imperative consistent with the rest of the translation (vosotros form). Replace the heading text with: \"Evitad una vida lujosa.\"",
+        "translation_quote": "Evita una vida lujosa."
+      },
+      {
+        "location": "Penultimate paragraph beginning \"This is my last farewell...\" (first sentence of that paragraph)",
+        "severity": "minor",
+        "source_quote": "This is my last farewell, my dear lambs. always remember each other in love; diligently learn to read and write and obey everyone in that which is good.",
+        "suggested_fix": "Fix capitalization at the start of the second sentence. Change \"recordad siempre los unos a los otros con amor;\" to begin with an initial capital: \"Recordad siempre los unos a los otros con amor;\"",
+        "translation_quote": "Este es mi último adiós, mis queridos corderitos. recordad siempre los unos a los otros con amor; diligentemente aprendan a leer y escribir y obedeced a todos en lo que es bueno."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

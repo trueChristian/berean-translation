@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>Greetings to each one in the worthy name of Jesus Christ, our Saviour, and our Redeemer.</p>",
+      "severity": "minor",
+      "source_quote": "Greetings to each one in the worthy name of Jesus Christ, our Saviour, and our Redeemer.",
+      "suggested_fix": "Use natural, grammatical German and customary Christian formula. Replace the translation string only (preserve the surrounding <p> tags) with: \"Grüße an jeden Einzelnen im würdigen Namen Jesu Christi, unseres Retters und Erlösers.\"",
+      "translation_quote": "Gruß an jeden Einzelnen im würdigen Namen von Jesus Christus, unserem Retter und Erlöser."
+    },
+    {
+      "location": "closing paragraph paragraphs and pronoun usage (throughout)",
+      "severity": "minor",
+      "source_quote": "Until the next time, may God be with each one and grant you grace and peace as you walk faithfully according to His Word. Let us pray for each other as we go through the trying times in our world today.",
+      "suggested_fix": "Make the address register consistent in German. The translation mixes formal (»Sie«, »Ihnen«) and informal plural (»euch«, »Lasst uns«). Choose one register and apply consistently. Two minimal options (replace only the text inside the final <p> tag):\n- Formal: \"Bis zum nächsten Mal möge Gott bei jedem von Ihnen sein und Ihnen Gnade und Frieden schenken, während Sie treu nach seinem Wort wandeln. Lassen Sie uns füreinander beten, während wir durch die schweren Zeiten in unserer Welt gehen.\" \n- Informal/plural: \"Bis zum nächsten Mal möge Gott bei jedem von euch sein und euch Gnade und Frieden schenken, während ihr treu nach seinem Wort wandelt. Lasst uns füreinander beten, während wir durch die schweren Zeiten in unserer Welt gehen.\"",
+      "translation_quote": "Bis zum nächsten Mal möge Gott bei jedem von Ihnen sein und euch Gnade und Frieden schenken, während ihr treu nach seinem Wort wandelt. Lasst uns füreinander beten, während wir durch die schweren Zeiten in unserer Welt gehen."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

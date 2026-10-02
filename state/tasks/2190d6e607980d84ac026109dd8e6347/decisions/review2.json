@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Several inline scripture references in source.html (Genesis, Ruth, Jeremiah, James, Ruth, Jeremiah, James, 2 Corinthians)",
+      "severity": "major",
+      "source_quote": "… –Genesis 1:31.\n… –Genesis 3:12-13.\n… –Genesis 3:16-19.\n… –Ruth 1:20-21.\n… –Ruth 4:14-16.\n… –Jeremiah 20:14-18.\n… –James 5:16.\n… (See 2 Corinthians 10:12)",
+      "suggested_fix": "Translate and localize the English book names in each Scripture reference into standard contemporary Russian while keeping the exact chapter and verse numbers unchanged and preserving punctuation and tags. Examples of correct replacements (apply similarly in each location):\n- \"–Genesis 1:31.\" -> \"–Бытие 1:31.\"\n- \"–Genesis 3:12-13.\" -> \"–Бытие 3:12-13.\"\n- \"–Genesis 3:16-19.\" -> \"–Бытие 3:16-19.\"\n- \"–Ruth 1:20-21.\" -> \"–Руфь 1:20-21.\"\n- \"–Ruth 4:14-16.\" -> \"–Руфь 4:14-16.\"\n- \"–Jeremiah 20:14-18.\" -> \"–Иеремия 20:14-18.\"\n- \"–James 5:16.\" -> \"–Иакова 5:16.\" (or \"–Послание Иакова 5:16.\")\n- \"(See 2 Corinthians 10:12)\" -> \"(См. 2-е Коринфянам 10:12)\" or \"(См. 2 Коринфянам 10:12)\".\nMake the same change wherever those English book names appear in inline verse citations or parenthetical references. Preserve the surrounding HTML and emphasis tags exactly as in the translation (e.g., keep em/strong tags and the dash).",
+      "translation_quote": "… –Genesis 1:31.\n… –Genesis 3:12-13.\n… –Genesis 3:16-19.\n… –Ruth 1:20-21.\n… –Ruth 4:14-16.\n… –Jeremiah 20:14-18.\n… –James 5:16.\n… (See 2 Corinthians 10:12)"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

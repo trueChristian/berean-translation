@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "paragraphs with word-definitions near \"Plaiting/Plaiting:\" and \"Apparel:\" and \"Ornament:\"",
+      "severity": "minor",
+      "source_quote": "Plaiting: folding, doubling, braiding.\n\nApparel: clothing; external habiliments or decorations.\n\nOrnament: That which embellishes; or something which, added to another thing, renders it most beautiful to the eye.",
+      "suggested_fix": "Translate the English head-words into Spanish to avoid leaving substantive article text in English. Keep the existing Spanish glosses but change the head-words. For example: replace \"Plaiting:\" with \"Trenzado:\" (or \"Trenzar:\"), \"Apparel:\" with \"Vestimenta:\" and \"Ornament:\" with \"Ornamento:\". Preserve the existing Spanish definitions exactly as now rendered.",
+      "translation_quote": "Plaiting: plegar, doblar, trenzar.\n\nApparel: vestimenta; ropas externas o adornos.\n\nOrnament: aquello que embellece; o algo que, añadido a otra cosa, la hace más hermosa a la vista."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

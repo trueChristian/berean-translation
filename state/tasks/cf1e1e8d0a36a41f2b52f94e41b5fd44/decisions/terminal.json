@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>…David paragraph in source.html (instructions to my son, David)</p>",
+      "severity": "major",
+      "source_quote": "Love one another without contention or quarreling. Be kind to your sisters. Bear them up as the stronger and out of love help all you can. Assist them out of brotherly love.",
+      "suggested_fix": "Translate the imperative plural correctly and preserve the sense of present command. Replace the current Italian sentence with an imperative: \"Amatevi gli uni gli altri senza contese né litigi. Sii benevolo con le tue sorelle. Sostienile come il più forte e, per amore, aiutale quanto puoi. Assistile con amore fraterno.\" (Preserve surrounding HTML and paragraph structure.)",
+      "translation_quote": "Amavi l’un l’altro senza contesa né litigi. Sii benevolo con le tue sorelle. Sostienile come il più forte e per amore aiutale quanto puoi. Assistile con amore fraterno."
+    },
+    {
+      "location": "<p>…Instructions to my daughters Betgen and Tanneken paragraph</p>",
+      "severity": "minor",
+      "source_quote": "Don’t be quarrelsome, talkative, light-minded, proud, or surly of speech.",
+      "suggested_fix": "Adjust adjectives to agree in gender/number with the addressed feminine plural (\"figlie\" / \"voi\"). Replace the phrase with: \"Non siate litigiose, chiacchierone, frivole, orgogliose o scontrose nel parlare.\" or better: \"Non siate litigiose, chiacchierine, frivole, orgogliose o scontrose nel parlare.\" (Choose one idiomatic feminine form and apply it consistently.) Preserve the paragraph HTML tags and order.",
+      "translation_quote": "Non siate litigiose, chiacchierone, frivole, orgogliose o scontrose nel parlare."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

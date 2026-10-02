@@ -2,7 +2,6 @@
   "article_id": "f82c479a-345a-4ffa-98d9-f10ddef90777",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "34f90e3653a74618a9933fce235305fc",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -43,18 +42,53 @@
         },
         "total_tokens": 13690
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1476,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8715,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10191
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[13]: source /article[1]/p[3]/em[2]/strong[1] ('start', 'strong', ()); translation /article[1]/p[3]/em[2] ('end', 'em')",
-      "translation_quote": ""
+      "location": "Paragraph with beatitudes and surrounding lines (around \"Vær milde, barmhjertige og rene av hjertet.\")",
+      "severity": "major",
+      "source_quote": "Learn to be meek and lowly in heart for such are blessed and shall inherit the earth. Be ye therefore merciful, as your Father also is merciful. Luke 6:36. And, Blessed are the meek: for they shall inherit the earth –Matthew 5:5.",
+      "suggested_fix": "Translate the three referenced sayings so they preserve their distinct meanings and keep correct verse attributions. In Norwegian Bokmål Matthew 5:3 is \"Salige er de som er fattige i ånden\", Matthew 5:5 is \"Salige er de mildmodige; for de skal arve jorden.\" Keep Luke 6:36 (Vær barmhjertige...) separate. Replace the current line that renders Matthew 5:5 as \"Salige er de fattige i ånden\" with the correct Norwegian rendering of Matthew 5:5. Preserve HTML and emphasis tags exactly as in source. Example fix (keeping tags): <em>Vær derfor barmhjertige, som deres Far også er barmhjertig. Lukas 6:36.</em> Og, <em>Salige er de mildmodige: for de skal arve jorden – Matteus 5:5.</em> (Ensure verse numbers unchanged and that \"fattige i ånden\" is used only for Matthew 5:3 if that verse appears.)",
+      "translation_quote": "<em>Vær derfor barmhjertige, som deres Far også er barmhjertig. Lukas 6:36.</em> Og, <em>Salige er de fattige i ånden, for de skal arve himmelriket – Matteus 5:5.</em>"
+    },
+    {
+      "location": "Paragraph about Daniel, Shadrach, Meshach, and Abednego (paragraph ending \"He delivered them from the den of lions and out of the fiery furnace.\")",
+      "severity": "minor",
+      "source_quote": "Thus, faithfully they walked in the ways of the Lord. They made themselves acceptable to God in prayer and supplication, therefore, he did great things through them. He delivered them from the den of lions and out of the fiery furnace.",
+      "suggested_fix": "Correct the Norwegian verb form and wording to convey the original meaning: replace \"Han frihet dem fra løvehulen og ut av ildovnen.\" with a grammatically correct translation such as \"Han fridde dem fra løvehulen og ut av ildovnen.\" Preserve surrounding HTML and punctuation.",
+      "translation_quote": "Derfor gjorde Han store ting gjennom dem. Han frihet dem fra løvehulen og ut av ildovnen."
+    },
+    {
+      "location": "Paragraph about Joseph sold to Egypt (sentence starting \"When the Egyptian woman sought to seduce him, he feared God\")",
+      "severity": "minor",
+      "source_quote": "When Joseph was sold into Egypt, he desired no worldly dainties. When the Egyptian woman sought to seduce him, he feared God, and God preserved him.",
+      "suggested_fix": "Fix the typo \"frøktet\" which should be \"fruktet\" (fruktet Gud = feared God). Replace the phrase while keeping the sentence structure and HTML tags unchanged: \"Da den egyptiske kvinnen søkte å forføre ham, fruktet han Gud, og Gud bevarte ham.\"",
+      "translation_quote": "Da den egyptiske kvinnen søkte å forføre ham, frøktet han Gud, og Gud bevarte ham."
     }
   ],
+  "finished_at": "2026-10-02T13:07:20+00:00",
   "id": "489b6ef6e61b7cc46b0ef33b84415717",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "nob",
@@ -128,11 +162,13 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/eccdba3e3a9e4ccc5d82f838542b8fe66f04a1399c4d03991b86efac69021bc9.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "9fe63733192a6c2b1a16992f2a220dd14dbfe93f8ff3f2c18b549b1da7db5b88",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

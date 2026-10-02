@@ -2,7 +2,6 @@
   "article_id": "dce3d3b3-8b56-4be5-9674-e682b97d3b43",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "34f90e3653a74618a9933fce235305fc",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -43,18 +42,45 @@
         },
         "total_tokens": 7076
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1103,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4536,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5639
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[7]; missing: 21:1, 4:31-32; extra: none",
-      "translation_quote": ""
+      "location": "<p>Greetings to each one in the worthy name of Jesus Christ, our Saviour, and our Redeemer.</p>",
+      "severity": "minor",
+      "source_quote": "Greetings to each one in the worthy name of Jesus Christ, our Saviour, and our Redeemer.",
+      "suggested_fix": "Use natural, grammatical German and customary Christian formula. Replace the translation string only (preserve the surrounding <p> tags) with: \"Grüße an jeden Einzelnen im würdigen Namen Jesu Christi, unseres Retters und Erlösers.\"",
+      "translation_quote": "Gruß an jeden Einzelnen im würdigen Namen von Jesus Christus, unserem Retter und Erlöser."
+    },
+    {
+      "location": "closing paragraph paragraphs and pronoun usage (throughout)",
+      "severity": "minor",
+      "source_quote": "Until the next time, may God be with each one and grant you grace and peace as you walk faithfully according to His Word. Let us pray for each other as we go through the trying times in our world today.",
+      "suggested_fix": "Make the address register consistent in German. The translation mixes formal (»Sie«, »Ihnen«) and informal plural (»euch«, »Lasst uns«). Choose one register and apply consistently. Two minimal options (replace only the text inside the final <p> tag):\n- Formal: \"Bis zum nächsten Mal möge Gott bei jedem von Ihnen sein und Ihnen Gnade und Frieden schenken, während Sie treu nach seinem Wort wandeln. Lassen Sie uns füreinander beten, während wir durch die schweren Zeiten in unserer Welt gehen.\" \n- Informal/plural: \"Bis zum nächsten Mal möge Gott bei jedem von euch sein und euch Gnade und Frieden schenken, während ihr treu nach seinem Wort wandelt. Lasst uns füreinander beten, während wir durch die schweren Zeiten in unserer Welt gehen.\"",
+      "translation_quote": "Bis zum nächsten Mal möge Gott bei jedem von Ihnen sein und euch Gnade und Frieden schenken, während ihr treu nach seinem Wort wandelt. Lasst uns füreinander beten, während wir durch die schweren Zeiten in unserer Welt gehen."
     }
   ],
+  "finished_at": "2026-10-02T13:07:21+00:00",
   "id": "75d16484d5badbad855e5a482caab77a",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "deu",
@@ -128,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c16edd05d12043a927f45367071112d6f71c0042bc3d1b02d0bfb5b8d330f1e2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d0410b3ae98c7c6c4b8643e82b8513a58f4f423e430db25e79b18dc18a3fab41",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

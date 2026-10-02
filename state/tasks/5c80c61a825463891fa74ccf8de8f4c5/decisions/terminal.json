@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 5 (English source: “The miraculous river rescue by Pharoah’s daughter…” / Translation paragraph 5)",
+      "severity": "major",
+      "source_quote": "The miraculous river rescue by Pharoah’s daughter would serve to confirm that he was destined to be an instrument of God’s divine orchestration.",
+      "suggested_fix": "Remove the inserted river name and render only what the English says. For example, translate as: “ফারাওর কন্যার দ্বারা নদের মধ্য থেকে অলৌকিকভাবে উদ্ধার করা এ কথা নিশ্চিত করে যে তিনি ঈশ্বরের ঐশ্বরিক পরিকল্পনার একটি যন্ত্র হয়ে থাকবেন।” (Preserve existing HTML tags and punctuation.)",
+      "translation_quote": "ফারাওর কন্যার সরস্বতী নদীর অলৌকিক উদ্ধারে এই সত্য নিশ্চিত হয়েছিল যে তিনি ঈশ্বরের ঐশ্বরিক অনুক্রমের একটি যন্ত্র হতে নির্ধারিত।"
+    },
+    {
+      "location": "Title and body name usage (title vs body)",
+      "severity": "minor",
+      "source_quote": "Moses in Midian / Now Moses kept the flock...",
+      "suggested_fix": "Use a consistent conventional target-language name. Either render the title and body with the same Bengali form. The source uses the English name “Moses”; the translation uses both “মোসা” (body) and “মোশে” (title). Prefer one consistent form (e.g., মোসা) throughout. Update the title element to match: \"মোসা মিদিয়ানে\" or change body usages to match the title. Preserve tags and structure.",
+      "translation_quote": "Title: মোশে মিদিয়ানে — Body: multiple occurrences of মোসা"
+    },
+    {
+      "location": "Paragraph 3 (English: “The bane of the zealot is often too little confidence in God and too much confidence in the flesh.” / Translation paragraph 3)",
+      "severity": "minor",
+      "source_quote": "The bane of the zealot is often too little confidence in God and too much confidence in the flesh.",
+      "suggested_fix": "Correct an omitted or awkward phrase to better reflect the English meaning without adding new content. For example: “উত্সাহীর দুর্ভোগ প্রায়ই ঈশ্বরের প্রতি অপর্যাপ্ত বিশ্বাস এবং দেহের প্রতি অতিরিক্ত আত্মনির্ভরতার ফল।” (Keep original HTML tags.)",
+      "translation_quote": "উত্সাহীর দুর্ভোগ প্রায়ই ঈশ্বরের প্রতি অপ্রচুর আত্মবিশ্বাস এবং মানসিক দেহে অতিরিক্ত আত্মনির্ভরতা।"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

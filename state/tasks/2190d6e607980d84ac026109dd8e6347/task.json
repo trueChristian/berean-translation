@@ -2,7 +2,6 @@
   "article_id": "9240e6d5-f395-4db7-ab6f-3b4b603d6ea0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "34f90e3653a74618a9933fce235305fc",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:40+00:00",
   "events": [
@@ -43,18 +42,39 @@
         },
         "total_tokens": 16751
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1420,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10863,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12283
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[16]: source /article[1]/p[8]/em[1] ('start', 'em', ()); translation /article[1]/p[8] ('end', 'p')",
-      "translation_quote": ""
+      "location": "Several inline scripture references in source.html (Genesis, Ruth, Jeremiah, James, Ruth, Jeremiah, James, 2 Corinthians)",
+      "severity": "major",
+      "source_quote": "… –Genesis 1:31.\n… –Genesis 3:12-13.\n… –Genesis 3:16-19.\n… –Ruth 1:20-21.\n… –Ruth 4:14-16.\n… –Jeremiah 20:14-18.\n… –James 5:16.\n… (See 2 Corinthians 10:12)",
+      "suggested_fix": "Translate and localize the English book names in each Scripture reference into standard contemporary Russian while keeping the exact chapter and verse numbers unchanged and preserving punctuation and tags. Examples of correct replacements (apply similarly in each location):\n- \"–Genesis 1:31.\" -> \"–Бытие 1:31.\"\n- \"–Genesis 3:12-13.\" -> \"–Бытие 3:12-13.\"\n- \"–Genesis 3:16-19.\" -> \"–Бытие 3:16-19.\"\n- \"–Ruth 1:20-21.\" -> \"–Руфь 1:20-21.\"\n- \"–Ruth 4:14-16.\" -> \"–Руфь 4:14-16.\"\n- \"–Jeremiah 20:14-18.\" -> \"–Иеремия 20:14-18.\"\n- \"–James 5:16.\" -> \"–Иакова 5:16.\" (or \"–Послание Иакова 5:16.\")\n- \"(See 2 Corinthians 10:12)\" -> \"(См. 2-е Коринфянам 10:12)\" or \"(См. 2 Коринфянам 10:12)\".\nMake the same change wherever those English book names appear in inline verse citations or parenthetical references. Preserve the surrounding HTML and emphasis tags exactly as in the translation (e.g., keep em/strong tags and the dash).",
+      "translation_quote": "… –Genesis 1:31.\n… –Genesis 3:12-13.\n… –Genesis 3:16-19.\n… –Ruth 1:20-21.\n… –Ruth 4:14-16.\n… –Jeremiah 20:14-18.\n… –James 5:16.\n… (See 2 Corinthians 10:12)"
     }
   ],
+  "finished_at": "2026-10-02T13:07:20+00:00",
   "id": "2190d6e607980d84ac026109dd8e6347",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "rus",
@@ -128,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 85,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f177e57409e960665e128f135c5d31a6b5c47dfb179f4bf630790d509d4b9294.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "5dadc96220966a62c190dc496511f1659046db2b2d97b2ce157a164fa768d4e2",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

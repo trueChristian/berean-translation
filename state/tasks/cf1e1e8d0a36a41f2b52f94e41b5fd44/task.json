@@ -2,7 +2,6 @@
   "article_id": "f82c479a-345a-4ffa-98d9-f10ddef90777",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "34f90e3653a74618a9933fce235305fc",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -43,18 +42,46 @@
         },
         "total_tokens": 14003
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1314,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8897,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10211
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[13]: source /article[1]/p[3]/em[2]/strong[1] ('start', 'strong', ()); translation /article[1]/p[3]/em[2] ('end', 'em')",
-      "translation_quote": ""
+      "location": "<p>…David paragraph in source.html (instructions to my son, David)</p>",
+      "severity": "major",
+      "source_quote": "Love one another without contention or quarreling. Be kind to your sisters. Bear them up as the stronger and out of love help all you can. Assist them out of brotherly love.",
+      "suggested_fix": "Translate the imperative plural correctly and preserve the sense of present command. Replace the current Italian sentence with an imperative: \"Amatevi gli uni gli altri senza contese né litigi. Sii benevolo con le tue sorelle. Sostienile come il più forte e, per amore, aiutale quanto puoi. Assistile con amore fraterno.\" (Preserve surrounding HTML and paragraph structure.)",
+      "translation_quote": "Amavi l’un l’altro senza contesa né litigi. Sii benevolo con le tue sorelle. Sostienile come il più forte e per amore aiutale quanto puoi. Assistile con amore fraterno."
+    },
+    {
+      "location": "<p>…Instructions to my daughters Betgen and Tanneken paragraph</p>",
+      "severity": "minor",
+      "source_quote": "Don’t be quarrelsome, talkative, light-minded, proud, or surly of speech.",
+      "suggested_fix": "Adjust adjectives to agree in gender/number with the addressed feminine plural (\"figlie\" / \"voi\"). Replace the phrase with: \"Non siate litigiose, chiacchierone, frivole, orgogliose o scontrose nel parlare.\" or better: \"Non siate litigiose, chiacchierine, frivole, orgogliose o scontrose nel parlare.\" (Choose one idiomatic feminine form and apply it consistently.) Preserve the paragraph HTML tags and order.",
+      "translation_quote": "Non siate litigiose, chiacchierone, frivole, orgogliose o scontrose nel parlare."
     }
   ],
+  "finished_at": "2026-10-02T13:07:21+00:00",
   "id": "cf1e1e8d0a36a41f2b52f94e41b5fd44",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ita",
@@ -128,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 90,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/eccdba3e3a9e4ccc5d82f838542b8fe66f04a1399c4d03991b86efac69021bc9.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "9fe63733192a6c2b1a16992f2a220dd14dbfe93f8ff3f2c18b549b1da7db5b88",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

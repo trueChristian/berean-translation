@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<article> paragraph under <h2>\"Menangani Dosa\"</h2> containing the James 5:16 quotation",
+      "severity": "major",
+      "source_quote": "Confess your faults one to another, and pray one for another, that ye may be healed… –James 5:16.",
+      "suggested_fix": "Replace the current Indonesian quotation with a faithful Indonesian rendering of James 5:16 that matches the article's earlier James 5:16 rendering (or otherwise faithfully conveys the English text). For example: <em>\"Akuilah dosamu seorang kepada yang lain, dan berdoalah seorang untuk yang lain, supaya kamu sembuh… –Yakobus 5:16.\"</em> Preserve the surrounding <em> tags and the exact placement of the verse and citation.",
+      "translation_quote": "<em>Aku tidak tahan lagi, aku harus mengaku dosa-dosaku kepadamu; aku akan menyatakan pelanggaranku terhadap-Mu, maka engkau mengampuni kesalahan orang berdosa –Yakobus 5:16.</em>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

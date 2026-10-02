@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c4791a30-5083-4902-844c-ccd1321a9249",
+    "response_id": "chatcmpl-EUXBbtc5byAasPNarebgHp9XlQeqf",
+    "usage": {
+      "completion_tokens": 1390,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9178,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10568
+    }
+  },
+  "received_at": "2026-10-02T13:07:21+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing Mark 10:42-44 (God’s Purging section)",
+        "severity": "major",
+        "source_quote": "…Ye know that they which are accounted to rule over the Gentiles exercise lordship over them; and their great ones exercise authority upon them –Mark 10:42. But … whosoever will be great among you, shall be your minister: And whosoever of you will be the chiefest, shall be servant of all –Mark 10:43-44.",
+        "suggested_fix": "Render the quoted Scripture faithfully and without added words. Replace the translated quotation with a literal, faithful Afrikaans rendering of Mark 10:42-44 that mirrors the English passage’s content and punctuation (do not insert extra clauses). For example: “Julle weet dat hulle wat as heersers oor die heidene beskou word, oor hulle heers; en hul grootes oefen mag oor hulle uit – Markus 10:42. Maar onder julle moet dit nie so wees nie; maar wie onder julle groot wil wees, sal julle dienaar wees; en wie onder julle die eerste wil wees, sal julle die slaaf van almal wees – Markus 10:43-44.” Ensure the first sentence corresponds exactly to Mark 10:42 in meaning and that verses 43–44 do not include any extra introductory clause not in the source text.",
+        "translation_quote": "<em>…Julle weet dat hulle wat beskou word as heersers oor die nasies, oor hulle heers; en hul grootes oefen mag oor hulle uit – Markus 10:42.</em> Terwyl Moses se strewe na geregtigheid edel mag gewees het, was sy oriëntasie bloot heidens. Dit mag werk om die pikorde in ’n hoenderhok te bepaal, maar dit is bestem om te misluk in die leiding van God se volk. <em>Maar julle sal nie so wees nie; maar wie onder julle groot wil wees, sal julle dienaar wees; en wie van julle die eerste wil wees, sal julle die slaaf van almal wees – Markus 10:43-44.</em>"
+      },
+      {
+        "location": "God's Purging section, Proverbs 17:3 quotation",
+        "severity": "major",
+        "source_quote": "The fining pot is for silver, and the furnace for gold: but the LORD trieth the hearts –Proverbs 17:3.",
+        "suggested_fix": "Correct the Afrikaans translation of Proverbs 17:3 so it faithfully conveys the English meaning. The first clause should refer to the smelting/refining vessel (smeltkroes) or fining pot, not a word that reads like 'sinner'. Replace the current line with a faithful Afrikaans rendering such as: “Die smeltkroes is vir silwer en die smeltvuur vir goud; maar die HERE beproef die harte – Spreuke 17:3.” Preserve punctuation and verse reference formatting consistent with other Scripture quotations in the article.",
+        "translation_quote": "<em>Die sondaar is vir silwer en die smeltkroes vir goud, maar die HERE beproef die harte – Spreuke 17:3.</em>"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

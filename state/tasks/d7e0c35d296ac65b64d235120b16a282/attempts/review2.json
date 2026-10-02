@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:07:21+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Multiple in article HTML (blocks quoted as Scripture: Psalm 19:7; Proverbs 9:10; 2 Timothy 2:4-22; Titus 2:11-12; Isaiah 61:10; Revelation 21:2-3; Galatians 6:7; Matthew 10:28; John 14:6-7; 1 Timothy 2:9-10; Hebrews/Genesis parenthetical)\",\"severity\":\"critical\",\"source_quote\":\"Examples of source Scripture text (English as in authoritative article): \\\"The law of the LORD is perfect, converting the soul… –Psalm 19:7.\\\"; \\\"No man that warreth entangleth himself with the affairs of this life... –2 Timothy 2:4-22.\\\"; \\\"For the grace of God that bringeth salvation hath appeared to all men... –Titus 2:11-12.\\\"; (and other full quoted verses in English)\",\"suggested_fix\":\"Translate each quoted Scripture passage fully into Bengali, preserving the printed chapter and verse numbers exactly and using conventional Bengali Bible book names. For example, render the verse text into Bengali (not left in English) and append the reference with the Bengali book name and the same numerals (e.g., Matthew 5:8 -> মথি 5:8 or the conventional Bengali form used consistently in the site). Do this for every quoted verse and any parenthetical reference such as \\\"–see Hebrews 11:17 and Genesis 22:13.\\\" Ensure the quoted text conveys the authoritative English meaning as printed (do not substitute a different English version) but present it in natural contemporary Bengali.\" ,\"translation_quote\":\"The translation leaves many quoted verses in English, e.g. \\\"The law of the LORD is <strong>perfect,</strong> converting the soul… –Psalm 19:7.\\\"; \\\"No man that warreth entangleth himself with the affairs of this life... –2 Timothy 2:4-22.\\\"; \\\"For the grace of God that bringeth salvation hath appeared to all men... –Titus 2:11-12.\\\" (and others remain in English).\"},{\"location\":\"Early gloss/headword list in article HTML (e.g., 'Adorn:', 'Plaiting:', 'Apparel:', 'Ornament:')\",\"severity\":\"major\",\"source_quote\":\"Source English gloss headings and definitions: \\\"Adorn: to deck or beautify; set off; to embellish by anything external or adventitious; to display the beauty or excellence of.\\\"; \\\"Plaiting: folding, doubling, braiding.\\\"; \\\"Apparel: clothing; external habiliments or decorations.\\\"; \\\"Ornament: That which embellishes; or something which, added to another thing, renders it most beautiful to the eye.\\\"\",\"suggested_fix\":\"Translate these gloss headings and their definitions into Bengali. Preserve the HTML tag structure and position. For example, replace \\\"Adorn:\\\" with \\\"সজ্জা:\\\" and render the definition in Bengali, keeping the explanatory sense faithful to the English source. Do the same for \\\"Plaiting:\\\", \\\"Apparel:\\\", and \\\"Ornament:\\\" and their definitions so readers see the full substantive prose in Bengali.\" ,\"translation_quote\":\"The translation currently shows those gloss headings left in English (e.g., \\\"Adorn:\\\", \\\"Plaiting:\\\", \\\"Apparel:\\\", \\\"Ornament:\\\") with English definitions in the translated article.\"},{\"location\":\"Verses and verse-references left partly-English or with English book names (scattered: e.g., the 1 Peter quotation ending with \\\"—1 Peter 3:3-6.\\\", Hebrew/Genesis parenthetical \\\"–see Hebrews 11:17 and Genesis 22:13.\\\")\",\"severity\":\"major\",\"source_quote\":\"Source uses English book names in references: \\\"—1 Peter 3:3-6.\\\"; \\\"–see Hebrews 11:17 and Genesis 22:13.\\\"\",\"suggested_fix\":\"Replace English book names with their conventional Bengali forms as used in common Bengali Bibles, keeping chapter and verse numbers unchanged. For example, use the established Bengali book names consistently (and used on the site) for 1 Peter, Hebrews, Genesis, Psalm, Matthew, John, etc. Do not alter the chapter:verse numerals or the placement of the reference. If unsure of the site's house style, use the common Bengali Bible names and match them throughout the article.\" ,\"translation_quote\":\"The translation retains English book names in multiple references (e.g., \\\"—1 Peter 3:3-6.\\\", \\\"–see Hebrews 11:17 and Genesis 22:13.\\\").\"}],\"passed\":false,\"score\":55}",
+    "content_bytes": 4067,
+    "content_evidence_truncated": false,
+    "content_sha256": "46b63556ebad0d1b8003c873a93a0cf059b82a91c8fd40991adec30776162f59",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 2212,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1216,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9090,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11302
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

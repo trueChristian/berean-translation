@@ -2,7 +2,6 @@
   "article_id": "f82c479a-345a-4ffa-98d9-f10ddef90777",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "34f90e3653a74618a9933fce235305fc",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -43,18 +42,59 @@
         },
         "total_tokens": 13246
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1203,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8586,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9789
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[13]: source /article[1]/p[3]/em[2]/strong[1] ('start', 'strong', ()); translation /article[1]/p[3]/em[2] ('end', 'em')",
-      "translation_quote": ""
+      "location": "Paragraph with heading 'Avoid a luxurious life.' (around line containing that heading)",
+      "severity": "minor",
+      "source_quote": "<strong>Avoid a luxurious life.</strong> My children, do not desire the luxuries of fine food or wine.",
+      "suggested_fix": "Translate the heading into Portuguese and match the register used throughout (e.g. \"<strong>Evitem uma vida luxuosa.</strong>\" or \"<strong>Evitem a vida luxuosa.</strong>\"). Preserve surrounding HTML tags and punctuation.",
+      "translation_quote": "<strong>Avoid a vida luxuosa.</strong> Meus filhos, não desejeis as luxúrias de boa comida ou vinho."
+    },
+    {
+      "location": "Multiple paragraphs (various imperatives and pronouns) — opening greeting and many admonitions",
+      "severity": "minor",
+      "source_quote": "Grace, peace, and mercy from God, the Father, and the Lord, Jesus Christ, to my dear children... First, I admonish you, my most beloved children, always allow yourselves to be instructed...",
+      "suggested_fix": "Make pronominal/register usage consistent in Portuguese. The translation mixes 'vós' (e.g. 'admoesto-vos', 'sede') with 'tu' forms and modern plural 'vocês' forms ('tua', 'tuas', 'sejas'). Choose one register (suggestion: use plural formal 'vós' rarely used in modern Portuguese — better: use plural polite 'vocês' or consistently use 'vós'/'vosso') and apply it throughout. Do not change HTML structure or scripture rendering.",
+      "translation_quote": "Translation mixes 'vós' and 'tu' forms across paragraphs (examples: 'admoesto-vos', 'guardai vossa língua', then later 'Guarda tua língua.', 'Tu és o mais velho; aprende sabedoria, para que sejas...')."
+    },
+    {
+      "location": "Paragraph near end: final signature line",
+      "severity": "minor",
+      "source_quote": "written in haste (while trembling with cold), out of love for you all, amen.",
+      "suggested_fix": "Correct the parenthetical phrasing into idiomatic Portuguese and fix word form: replace '(tremer de frio)' with '(tremendo de frio)' or '(tremendo de frio)'. Preserve HTML tags and punctuation.",
+      "translation_quote": "Escrito por mim, Soetgen van den Houte, vossa mãe em grilhões; escrito às pressas (tremer de frio), por amor a todos vós, amém."
+    },
+    {
+      "location": "Paragraph beginning 'Do not create tumult...' / 'Suffer affliction rather than afflicting others.'",
+      "severity": "minor",
+      "source_quote": "Suffer affliction rather than afflicting others. Suffer reproach rather than reproaching others. Be slandered rather than slandering others.",
+      "suggested_fix": "Fix typographical error in Portuguese verb 'Sofer' -> 'Sofrei' or 'Sofram' to follow chosen register and tense. Ensure imperative forms match the rest of the translation style.",
+      "translation_quote": "Sofer as aflições antes de afligir os outros. Sofrei a reprovação em vez de reprovar os outros. Sede caluniados antes de caluniares outros."
     }
   ],
+  "finished_at": "2026-10-02T13:07:20+00:00",
   "id": "0dea27525154ec281f3a216c8dbc11a9",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "por",
@@ -128,11 +168,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/eccdba3e3a9e4ccc5d82f838542b8fe66f04a1399c4d03991b86efac69021bc9.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "9fe63733192a6c2b1a16992f2a220dd14dbfe93f8ff3f2c18b549b1da7db5b88",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

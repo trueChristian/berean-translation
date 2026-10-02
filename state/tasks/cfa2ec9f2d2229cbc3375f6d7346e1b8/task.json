@@ -2,7 +2,6 @@
   "article_id": "f82c479a-345a-4ffa-98d9-f10ddef90777",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "34f90e3653a74618a9933fce235305fc",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -43,18 +42,52 @@
         },
         "total_tokens": 13687
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1246,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8772,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10018
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[13]: source /article[1]/p[3]/em[2]/strong[1] ('start', 'strong', ()); translation /article[1]/p[3]/em[2] ('end', 'em')",
-      "translation_quote": ""
+      "location": "<p>…They chose to have pulse [vegetables] and water. —translated paragraph about Daniel (near “Daniel chapter 1”)",
+      "severity": "minor",
+      "source_quote": "They wanted to observe the law and commandments of their fathers with sobriety and thankfulness in the fear of God. In the end, they were fairer and fatter than those who ate of the king’s dainties, see Daniel chapter 1. Thus, faithfully they walked in the ways of the Lord. They made themselves acceptable to God in prayer and supplication, therefore, he did great things through them. He delivered them from the den of lions and out of the fiery furnace.",
+      "suggested_fix": "Remove the duplicated gloss or keep a single clear French rendering. For example: replace “ils choisirent d’avoir des légumes [légumes] et de l’eau” with “ils choisirent des légumes et de l’eau” (or “ils choisirent des légumineuses [légumes] et de l’eau” if you prefer to preserve the ‘pulse’ nuance). Preserve existing HTML tags and punctuation.",
+      "translation_quote": "Mais ils choisirent d’avoir des légumes [légumes] et de l’eau."
+    },
+    {
+      "location": "<p>Instructions to my son, David.</p> (David paragraph — inconsistent person/number and register)",
+      "severity": "minor",
+      "source_quote": "Love one another without contention or quarreling. Be kind to your sisters. Bear them up as the stronger and out of love help all you can. Assist them out of brotherly love.",
+      "suggested_fix": "Make pronouns and verb forms consistent for the addressee(s). The English addresses David directly (singular). Use consistent singular imperative forms for direct address. For example: change “Aimez-vous les uns les autres sans dispute ni querelle. Sois bon envers tes sœurs. Soutiens-les comme le plus fort et par amour aide-les autant que tu pourras. Aide-les par amour fraternel.” to a consistent direct singular: “Aime ta famille sans dispute ni querelle. Sois bon envers tes sœurs. Soutiens-les en tant que frère aîné, et, par amour, aide-les autant que tu pourras.” Preserve HTML structure.",
+      "translation_quote": "Aimez-vous les uns les autres sans dispute ni querelle. Sois bon envers tes sœurs. Soutiens-les comme le plus fort et par amour aide-les autant que tu pourras. Aide-les par amour fraternel."
+    },
+    {
+      "location": "<p>Ceci est mon dernier adieu, mes chers agneaux. souvenez-vous toujours les uns des autres…</p> (final paragraphs)",
+      "severity": "minor",
+      "source_quote": "This is my last farewell, my dear lambs. always remember each other in love; diligently learn to read and write and obey everyone in that which is good.",
+      "suggested_fix": "Correct sentence capitalization in French. For example, capitalize “Souvenez‑vous” at the start of the sentence: “Ceci est mon dernier adieu, mes chers agneaux. Souvenez‑vous toujours les uns des autres dans l’amour;…” Preserve HTML tags.",
+      "translation_quote": "Ceci est mon dernier adieu, mes chers agneaux. souvenez-vous toujours les uns des autres dans l’amour; apprenez assidûment à lire et à écrire et obéissez à chacun en ce qui est bien."
     }
   ],
+  "finished_at": "2026-10-02T13:07:21+00:00",
   "id": "cfa2ec9f2d2229cbc3375f6d7346e1b8",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "fra",
@@ -128,11 +161,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/eccdba3e3a9e4ccc5d82f838542b8fe66f04a1399c4d03991b86efac69021bc9.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "9fe63733192a6c2b1a16992f2a220dd14dbfe93f8ff3f2c18b549b1da7db5b88",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:07:21+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"paragraphs with word-definitions near \\\"Plaiting/Plaiting:\\\" and \\\"Apparel:\\\" and \\\"Ornament:\\\"\",\"severity\":\"minor\",\"source_quote\":\"Plaiting: folding, doubling, braiding.\\n\\nApparel: clothing; external habiliments or decorations.\\n\\nOrnament: That which embellishes; or something which, added to another thing, renders it most beautiful to the eye.\",\"suggested_fix\":\"Translate the English head-words into Spanish to avoid leaving substantive article text in English. Keep the existing Spanish glosses but change the head-words. For example: replace \\\"Plaiting:\\\" with \\\"Trenzado:\\\" (or \\\"Trenzar:\\\"), \\\"Apparel:\\\" with \\\"Vestimenta:\\\" and \\\"Ornament:\\\" with \\\"Ornamento:\\\". Preserve the existing Spanish definitions exactly as now rendered.\",\"translation_quote\":\"Plaiting: plegar, doblar, trenzar.\\n\\nApparel: vestimenta; ropas externas o adornos.\\n\\nOrnament: aquello que embellece; o algo que, añadido a otra cosa, la hace más hermosa a la vista.\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 1005,
+    "content_evidence_truncated": false,
+    "content_sha256": "0e0e3266c28c12ba51eee37cf8fba929d882326b312e3a7eaf8290f9511a61f3",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 971,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8244,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9215
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

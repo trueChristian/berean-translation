@@ -2,7 +2,6 @@
   "article_id": "f09d8cd5-b48f-470f-936f-263e6940b6bd",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "34f90e3653a74618a9933fce235305fc",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -43,18 +42,60 @@
         },
         "total_tokens": 8461
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1434,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5150,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6584
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
+      "location": "source.title",
       "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[1]; missing: 4:11; extra: none",
-      "translation_quote": ""
+      "source_quote": "All Hail the Power of Jesus Name",
+      "suggested_fix": "Übersetze den Artikeltitel ins Deutsche und erhalte HTML-Struktur unverändert, z. B. <title>Alle Ehre dem Namen Jesu</title> (oder eine andere passende idiomatische deutsche Version).",
+      "translation_quote": "All Hail the Power of Jesus Name"
+    },
+    {
+      "location": "source.html -> lyrics blocks (alle acht Strophen und die hinzugefügte Strophe)",
+      "severity": "critical",
+      "source_quote": "All hail the power of Jesus’ name,\nLet angels prostrate fall\nBring forth the royal diadem,\nTo crown Him Lord of all!\n\nLet high born seraphs tune the lyre,\nAnd, as they tune it, fall\nBefore His face who tunes their choir,\nAnd crown Him Lord of all!\n\nCrown Him, ye morning stars of light,\nWho fixed this floating ball,\nNow hail the Strength of Israel’s might,\nAnd crown Him Lord of all!\n\nCrown Him, ye martyrs of your God,\nWho from His altar call;\nExtol the stem of Jesse’s rod,\nAnd crown Him Lord of all!\n\nYe seed of Israel’s chosen race,\nYe ransomed of the fall,\nHail Him who saves you by His grace\nAnd crown Him Lord of all!\n\nHail Him, ye heirs of David’s line,\nWhom David Lord did call.\nThe God incarnate, Man divine,\nAnd crown Him Lord of all!\n\nSinners, whose love can ne’er forget\nThe wormwood and the gall,\nGo spread your trophies at His feet,\nAnd crown Him Lord of all!\n\nLet every tribe and every tongue\nThat bound creation’s call\nNow shout in universal song,\nThe crowned Lord of all!\n\nOh, that with yonder sacred throng\nWe at His feet may fall;\nWe’ll join the everlasting song,\nAnd crown Him Lord of all.",
+      "suggested_fix": "Übersetze alle gedruckten Liedstrophen vollständig ins Deutsche (einschließlich der hinzugefügten Strophe von John Rippon), wobei die HTML-Tags und die Strophenanordnung beibehalten werden. Beispiel (nur als formale Vorgabe, nicht zwingend diese Wortwahl):\n<p>Alle Ehr' sei nun dem Namen Jesu,<br>\nEngel fallen nieder all;<br>\nBringt den königlichen Diadem hervor,<br>\nUnd krönt Ihn, Herr von all!</p>\n…\n<p>O möcht' mit jener heiligen Schar<br>\nWir vor Seinen Füßen fall'n;<br>\nWir singen mit im ew'gen Chor,<br>\nUnd krönen Ihn, den Herrn von all.</p>\nErsetze jede englische Strophe durch ihre deutsche Entsprechung und behalte die <div class=\"lyrics\">-Struktur und <p>-Zeilenumbrüche unverändert.",
+      "translation_quote": "(Die Lyrics-Blöcke sind im übersetzten HTML unverändert in englischer Sprache wiedergegeben.)"
+    },
+    {
+      "location": "source.html -> multiple inline occurrences of the hymn title and quoted phrase",
+      "severity": "major",
+      "source_quote": "All Hail the Power of Jesus Name (Titel/Nennung im Fließtext); “All hail the power of Jesus’ name!” (im Bericht über Mr. Scott)",
+      "suggested_fix": "Übersetze jede Nennung des Liedtitels und jede direkt zitierte Zeile des Liedes ins Deutsche, auch wenn sie in Anführungszeichen stehen. Erhalte dabei vorhandene HTML-Tags und Reihenfolge. Beispiel: „Alle Ehr' sei nun dem Namen Jesu“ oder eine adäquate idiomatische deutsche Fassung.",
+      "translation_quote": "Der Liedtitel und die zitierte Zeile bleiben in der Übersetzung unübersetzt auf Englisch."
+    },
+    {
+      "location": "source.html -> composer/reference name spellings (consistency)",
+      "severity": "minor",
+      "source_quote": "source.html: earlier paragraph names composer as \"James Ellor\"; references list \"James Elliot\"",
+      "suggested_fix": "Stelle die Namensschreibung konsistent mit der autoritativen englischen Quelle her. Wenn die Quelle im Fließtext \"James Ellor\" schreibt, übernimm diese Form auch in der Referenzliste (oder umgekehrt), ohne andere Änderung an der HTML-Struktur.",
+      "translation_quote": "Im übersetzten Fließtext erscheint \"James Ellor\", in den Quellenangaben steht \"James Elliot\"."
     }
   ],
+  "finished_at": "2026-10-02T13:07:21+00:00",
   "id": "737bd691536abc8cd515ea5f47e7ea55",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "deu",
@@ -128,11 +169,13 @@
     }
   },
   "protected": false,
+  "quality_score": 65,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6b076b1f67d6fafc1720a4ac2de4e895d6d3d4ebd14b1f3db48cc7447fd2506b.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "6485a6ed-e76f-4142-9e27-e649823cb1a3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "34f90e3653a74618a9933fce235305fc",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -43,18 +42,53 @@
         },
         "total_tokens": 13150
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1639,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8587,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10226
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Forbidden HTML element: strong=kita",
-      "translation_quote": ""
+      "location": "Paragraph beginning \"Adorn: to deck or beautify; set off; to embellish by anything external or adventitious; to display the beauty or excellence of.\" (source.html) — corresponding translated paragraph beginning \"Adorn: menghias atau mempercantik; menonjolkan; menghias dengan sesuatu yang bersifat luar atau kebetulan; menampilkan kecantikan atau keunggulan.\" (translation.html)",
+      "severity": "major",
+      "source_quote": "Adorn: to deck or beautify; set off; to embellish by anything external or adventitious; to display the beauty or excellence of.",
+      "suggested_fix": "Translate the headword and the gloss label into Bahasa Indonesia and preserve the gloss meaning. For example: \"Hiasan / Adorn: menghias atau mempercantik; menonjolkan; menghias dengan sesuatu yang bersifat luar atau kebetulan; menampilkan kecantikan atau keunggulan.\" (or simply \"Hiasan:\" if you prefer a single Indonesian headword). Ensure the label is not left in English and keep the gloss text as currently translated.",
+      "translation_quote": "Adorn: menghias atau mempercantik; menonjolkan; menghias dengan sesuatu yang bersifat luar atau kebetulan; menampilkan kecantikan atau keunggulan."
+    },
+    {
+      "location": "Multiple glossary/definition headings throughout the article (e.g., paragraph headings: \"Plaiting:\", \"Apparel:\", \"Ornament:\", \"Meek:\", \"Quiet:\", \"Subjection:\", \"Afraid:\", \"Amazement:\", \"Entangleth:\", \"Shun:\", \"Profane:\", \"Vain:\", \"Babblings:\", \"Flee:\", \"Lusts:\", \"Righteousness:\", \"Faith:\", \"Charity:\", \"Peace:\", \"Pure:\", \"Shamefacedness:\", \"Sobriety:\") — corresponding headings in translation remain in English (e.g. \"Plaiting:\", \"Apparel:\", etc.).",
+      "severity": "major",
+      "source_quote": "Plaiting: folding, doubling, braiding. / Apparel: clothing; external habiliments or decorations. / Ornament: That which embellishes; or something which, added to another thing, renders it most beautiful to the eye. / Meek: mild of temper; ... (etc.)",
+      "suggested_fix": "Translate each English gloss heading into standard Bahasa Indonesia while keeping the explanatory gloss in Indonesian as already done. Example replacements: \"Plaiting:\" → \"Mengepang:\" or \"Pelipatan (Plaiting):\", \"Apparel:\" → \"Pakaian:\", \"Ornament:\" → \"Perhiasan:\", \"Meek:\" → \"Lemah lembut:\", \"Quiet:\" → \"Tenang:\", etc. Keep the existing Indonesian definitions; only change the heading words so no substantive English glossary terms remain.",
+      "translation_quote": "Plaiting: melipat, menggandakan, mengepang. / Apparel: pakaian; atribut luar atau hiasan luar. / Ornament: sesuatu yang memperindah; atau sesuatu yang, bila ditambahkan ke sesuatu yang lain, menjadikannya paling indah di mata. / Meek: lemah lembut dalam tabiat; lunak; lembut; tidak mudah terpancing atau tersinggung; bersikap sabar, tahan terhadap luka. (etc.)"
+    },
+    {
+      "location": "Paragraph defining \"Quiet\" (translation.html): \"Quiet: tenang; ...; tidak menimbulkan offense; ...\"",
+      "severity": "minor",
+      "source_quote": "Quiet: still; being in a state of rest; not moving; peaceable; not turbulent; not giving offence; not exciting controversy, disorder, or trouble; mild; meek; contented.",
+      "suggested_fix": "Replace the remaining English word \"offence\" with an appropriate Indonesian equivalent. For example: \"... tidak menimbulkan rasa tersinggung; ...\" or \"... tidak menimbulkan penghinaan/menyinggung; ...\" Keep the rest of the translated definition intact and in Indonesian.",
+      "translation_quote": "Quiet: tenang; berada dalam keadaan istirahat; tidak bergerak; damai; tidak bergolak; tidak menimbulkan offense; tidak membangkitkan kontroversi, kekacauan, atau masalah; lemah lembut; tunduk; puas."
     }
   ],
+  "finished_at": "2026-10-02T13:07:21+00:00",
   "id": "96d08930e7356d384cb910d3567413a8",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ind",
@@ -128,11 +162,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8318b57a6ada492a7c60f08b638ec3749b04818458e4f26c4da97c0bb96e2624.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "645f3b0dd9dba2fa145399753da1e466b9d79164115d769d8a631979fc803973",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

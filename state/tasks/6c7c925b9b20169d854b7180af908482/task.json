@@ -2,7 +2,6 @@
   "article_id": "34125090-b480-4d63-b13a-33d47470f335",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "34f90e3653a74618a9933fce235305fc",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:40+00:00",
   "events": [
@@ -43,18 +42,38 @@
         },
         "total_tokens": 13757
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 841,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8679,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9520
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[44]: source /article[1]/p[14]/em[3]/strong[1] ('start', 'strong', ()); translation /article[1]/p[14]/em[3] ('end', 'em')",
-      "translation_quote": ""
+      "location": "<p>... -Matthew 3:11-12.</p> (paragraph with Matthew 3:11-12)",
+      "severity": "minor",
+      "source_quote": "Whose fan is in his hand, and he will throughly purge his floor, and gather his wheat into the garner; but he will burn up the chaff with unquenchable fire –Matthew 3:11-12.",
+      "suggested_fix": "한국어 독자가 원문 의미(곡식을 떼부는 도구인 'winnowing fan' 또는 '키')를 바로 이해하도록 번역어를 명확히 해주십시오. 예: «…그의 키(탈곡용 부채)가 그의 손에 있나니 그가 곧 그의 타작마당을 깨끗하게 하여 곡식을 그의 곳간에 모으시고 쭉정이는 꺼지지 아니할 불로 태우시리라 -마태복음 3:11-12.» 기존 HTML 구조와 태그를 그대로 유지하여 해당 <em>...</em> 안의 성경구절 본문만 교정해주세요.",
+      "translation_quote": "이는 성령과 불의 세례와 예수님이 가져오실 철저한 정결을 말합니다. 예수께서는 폭력으로 오신 것이 아니지만 그의 의로운 임재는 도리어 가루질하는 바람처럼 팔레스타인 전역을 휩쓸었습니다. 그를 거부한 자들은 날려가 버려져 이야기에서 사라졌고, 그를 사랑한 자들은 선택된 자로 드러나 이전에 알려지지 않았던 원리들 위에 세워진 새 왕국의 창시자가 되었습니다."
     }
   ],
+  "finished_at": "2026-10-02T13:07:21+00:00",
   "id": "6c7c925b9b20169d854b7180af908482",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "kor",
@@ -128,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/21c8641ce0ae285627965ca28d18397c39ccff0fa09ba301857fc1d0049b6b9d.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "b3a0b32450038629cf20919c69af275c4549e0b458e25e2b5d03da547dfb97f7",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "53e8b534-1f5e-4d9d-b191-99707a404256",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "34f90e3653a74618a9933fce235305fc",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -43,18 +42,46 @@
         },
         "total_tokens": 13400
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1527,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8634,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10161
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[77]: source /article[1]/p[18]/em[1]/strong[1] ('start', 'strong', ()); translation /article[1]/p[18]/em[1] ('end', 'em')",
-      "translation_quote": ""
+      "location": "source.html paragraph: \"Upon hearing this tale, their father, Reuel, was so impressed that he gave Moses a reception, a job, and a wife… all in one verse. –see Exodus 2:21.\"",
+      "severity": "minor",
+      "source_quote": "\"their father, Reuel, was so impressed that he gave Moses a reception, a job, and a wife… all in one verse. –see Exodus 2:21.\"",
+      "suggested_fix": "Use the standard Chinese Bible transliteration for Reuel (流珥) and remove the unclear/duplicated romanizations. Preserve the surrounding HTML and punctuation. For example: \"听了这个故事，他们的父亲流珥深受感动，就为摩西设摆筵宴，给他一个差事并把女儿给他作妻子……都写在一节经文里。——参见出埃及记 2:21。\"",
+      "translation_quote": "\"听了这个故事，他们的父亲流利勒（利乌）深受感动，就为摩西设摆筵宴，给他一个差事并把女儿给他作妻子……都写在一节经文里。——参见出埃及记 2:21。\""
+    },
+    {
+      "location": "source.html multiple Scripture quotations (e.g. Acts 9:6 and others)",
+      "severity": "minor",
+      "source_quote": "All quoted Scripture in the English source (examples: \"what wilt thou have me to do?\" Acts 9:6; other KJV quotations throughout).",
+      "suggested_fix": "Ensure all quoted Scripture are rendered in standard Simplified Chinese characters consistently. Several quoted verses contain Traditional characters (for example \"甚麼\" and \"暫時\"); convert these to Simplified forms (\"什么\", \"暂时\") to match the requested target-language convention. Keep the existing verse divisions, punctuation, and HTML tags unchanged. Example correction inside the target HTML: change \"主阿，你要我作甚麼事？主說：起來，下到城裡去，必有人告訴你當作的事。——使徒行传 9:6。\" to \"主啊，你要我作什么事？主说：起来，下到城里去，必有人告诉你当作的事。——使徒行传 9:6。\"",
+      "translation_quote": "Examples found in the translation: \"他战兢惊恐，问主说：主阿，你要我作甚麼事？主說：起來，下到城裡去，必有人告訴你當作的事。——使徒行传 9:6。\" and \"宁可<em>…与神的百姓一同受苦，不肯暫時享受罪的快樂。——希伯来书 11:25。</em>\""
     }
   ],
+  "finished_at": "2026-10-02T13:07:21+00:00",
   "id": "ef7161972cc86775f10326967d0c8945",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "cmn",
@@ -128,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/365d9282d87d4aa677224ff762d700ce731f7082e9ff05f45c1ca235035b1881.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "fa6973e1c0869cf8ea44c825b0af02960182750ad2e2fbf60dce9af0c7f03feb",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

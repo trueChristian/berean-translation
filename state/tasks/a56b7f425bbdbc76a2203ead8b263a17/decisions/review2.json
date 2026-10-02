@@ -1,0 +1,91 @@
+{
+  "findings": [
+    {
+      "location": "source.html — first paragraph (opening sentence)",
+      "severity": "major",
+      "source_quote": "Being a ruler over a group of people is marked with stress, hard decisions, and sleepless nights—certainly not a position for the mentally weak or immature.",
+      "suggested_fix": "Translate the entire sentence into Russian, preserving meaning and tone. Example: «Быть правителем группы людей сопряжено со стрессом, трудными решениями и бессонными ночами — это, безусловно, не должность для душевно слабых или незрелых людей.»",
+      "translation_quote": "Быть правителем группы людей сопряжено со стрессом, трудными решениями и бессонными ночами—certainly not a position for the mentally weak or immature."
+    },
+    {
+      "location": "source.html — first paragraph (later in para)",
+      "severity": "major",
+      "source_quote": "The average person does not fully mature until the age of 25, according to neuroscientific studies.<sup>1</sup> And yet, in AD 54, a ruler was appointed who was only seventeen years old.",
+      "suggested_fix": "Translate the English sentence fragments fully into Russian, keeping the superscript endnote marker. Example: «По данным нейронаучных исследований, средний человек полностью не созревает до 25 лет.<sup>1</sup> И тем не менее в 54 г. н. э. был возведён на престол правитель, которому было всего семнадцать лет.»",
+      "translation_quote": "The average person does not fully mature until the age of 25, according to neuroscientific studies.<sup>1</sup> And yet, in AD 54, a ruler was appointed who was only seventeen years old."
+    },
+    {
+      "location": "source.html — paragraph about artist/performances",
+      "severity": "major",
+      "source_quote": "He believed himself to be an artist—a genius, even—and gave massive public performances.",
+      "suggested_fix": "Translate the whole sentence into Russian, including the parenthetical/emphatic phrase. Example: «Он считал себя артистом — даже гением — и устраивал массовые публичные представления.»",
+      "translation_quote": "Он считал себя артистом—even a genius—and устраивал массовые публичные представления."
+    },
+    {
+      "location": "source.html — paragraph about Olympic rules",
+      "severity": "major",
+      "source_quote": "In A.D. 67, he entered into the Olympic Games, which was against the rules (no emperor was allowed to compete in the Games).",
+      "suggested_fix": "Translate the parenthetical English into Russian and render the whole sentence idiomatically. Example: «В 67 г. н. э. он принял участие в Олимпийских играх, что противоречило правилам (императору было запрещено участвовать в состязаниях).»",
+      "translation_quote": "В 67 году н. э. он принял участие в Олимпийских играх, что противоречило правилам (no emperor was allowed to compete in the Games)."
+    },
+    {
+      "location": "source.html — paragraph quoting Tacitus",
+      "severity": "critical",
+      "source_quote": "Tacitus, a secular Roman writer, described it as such, “Nero fastened the guilt and inflicted the most exquisite tortures on a class hated for their abominations, called Christians by the populace. Mockery of every sort was added to their deaths. Covered with the skins of beasts, they were torn by dogs and perished, or were nailed to crosses, or were doomed to the flames and burnt, to serve as nightly illumination when daylight had expired.”",
+      "suggested_fix": "Translate the author identification and the entire Tacitus quotation into Russian, preserving that it is a quoted secular Roman source and keeping punctuation and quotation marks. Example for translation: «Титан (Tacitus), светский римский историк, так описывает это: «Нерон возложил вину и применил самые изощрённые пытки к классу, ненавидимому за их мерзости, называемому народом христианами. К их казням прибавлялись всяческие насмешки. Их, покрыв шкурами зверей, рвали собаками и они умирали, или прибивали к крестам, или предавали огню и сжигали, чтобы служить ночным освещением, когда заканчивался день.»»",
+      "translation_quote": "Tacitus, a secular Roman writer, described it as such, “Nero fastened the guilt and inflicted the most exquisite tortures on a class hated for their abominations, called Christians by the populace. Mockery of every sort was added to their deaths. Covered with the skins of beasts, they were torn by dogs and perished, or were nailed to crosses, or were doomed to the flames and burnt, to serve as nightly illumination when daylight had expired.”"
+    },
+    {
+      "location": "source.html — paragraph quoting Romans 13:1-5 (Paul)",
+      "severity": "critical",
+      "source_quote": "Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God. Whosoever therefore resisteth the power, resisteth the ordinance of God: and they that resist shall receive to themselves damnation. For rulers are not a terror to good works, but to the evil. Wilt thou then not be afraid of the power? do that which is good, and thou shalt have praise of the same: For he is the minister of God to thee for good. But if thou do that which is evil, be afraid; for he beareth not the sword in vain: for he is the minister of God, a revenger to execute wrath upon him that doeth evil. Wherefore ye must needs be subject, not only for wrath, but also for conscience sake –Romans 13: 1-5.",
+      "suggested_fix": "Translate the entire quoted Scripture (Romans 13:1-5) into Russian, using conventional Russian book name and keeping chapter/verse numbers unchanged. Example: «Пусть всякая душа подчиняется высшим властям; ибо нет власти не от Бога; существующие же власти установлены Богом. Итак, противящийся власти противится Божьему учреждению; а противящиеся сами на себя осуждение обретают. Власти не устрашают добрых дел, но злых. Ты хочешь, чтобы не боялись власти? Делай добро, и будешь иметь похвалу от неё; ибо она служитель Божий тебе на благо. Если же делаешь зло, то бойся; ибо она не напрасно носит меч; она слуга Божий, мстит ради гнева над сделавшим зло. Поэтому надобно подчиняться не только ради гнева, но и ради совести. — Римлянам 13:1-5.» Ensure the quoted block is clearly marked as a translation of the quotation in the article.",
+      "translation_quote": "Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God. Whosoever therefore resisteth the power, resisteth the ordinance of God: and they that resist shall receive to themselves damnation. For rulers are not a terror to good works, but to the evil. Wilt thou then not be afraid of the power? do that which is good, and thou shalt have praise of the same: For he is the minister of God to thee for good. But if thou do that which is evil, be afraid; for he beareth not the sword in vain: for he is the minister of God, a revenger to execute wrath upon him that doeth evil. Wherefore ye must needs be subject, not only for wrath, but also for conscience sake –Romans 13: 1-5."
+    },
+    {
+      "location": "source.html — paragraph quoting Acts 5:29",
+      "severity": "critical",
+      "source_quote": "…We ought to obey God rather than men –Acts 5:29.",
+      "suggested_fix": "Translate the Scripture quotation into Russian, preserving book name and verse number. Example: «…Мы повинны повиноваться Богу, а не человекам — Деяния 5:29.»",
+      "translation_quote": "…We ought to obey God rather than men –Acts 5:29."
+    },
+    {
+      "location": "source.html — paragraph quoting Ephesians 5:15-17 and 1 Corinthians 4:2",
+      "severity": "critical",
+      "source_quote": "See then that ye walk circumspectly, not as fools, but as wise, Redeeming the time, because the days are evil. Wherefore be ye not unwise, but understanding what the will of the Lord is –Ephesians 5:15-17. And Let a man so account of us, as of the ministers of Christ, and stewards of the mysteries of God. Moreover it is required in stewards, that a man be found faithful –1 Corinthians 4:2.",
+      "suggested_fix": "Translate both quoted Scripture passages into Russian, preserving book names and verse numbers. Examples: «Итак берегитесь поступать благоразумно, не как неумные, но как мудрые; покупайте время, потому что дни лукавы; не будьте нерассудительны, но поймите, какова воля Господня. — Ефесянам 5:15-17.» и «Пусть человек так считает нас, как служителей Христовых и домовладык тайн Божиих. А требование у домоправителей — чтобы каждый оказался верным. — 1 Коринфянам 4:2.» Ensure they replace the English quotations in the translation.",
+      "translation_quote": "See then that ye walk circumspectly, not as fools, but as wise, Redeeming the time, because the days are evil. Wherefore be ye not unwise, but understanding what the will of the Lord is –Ephesians 5:15-17. And Let a man so account of us, as of the ministers of Christ, and stewards of the mysteries of God. Moreover it is required in stewards, that a man be found faithful –1 Corinthians 4:2."
+    },
+    {
+      "location": "source.html — multiple places where English rhetorical questions remain",
+      "severity": "minor",
+      "source_quote": "How would we respond to such a ruler? How <em>did</em> Christians respond to him?",
+      "suggested_fix": "Translate the rhetorical questions fully into Russian, keeping emphasis. Example: «Как бы мы отреагировали на такого правителя? Как же на него отвечали христиане?»",
+      "translation_quote": "How would we respond to such a ruler? How <em>did</em> Christians respond to him?"
+    },
+    {
+      "location": "source.html — multiple places where short English phrases remain (e.g., “no emperor was allowed to compete in the Games”, “Trumpeting”, “acting”, “he won more than 1,800 first-place prizes…”)",
+      "severity": "major",
+      "source_quote": "no emperor was allowed to compete in the Games; trumpeting; acting; he won more than 1,800 first-place prizes for his supposed exhibits of artistry.",
+      "suggested_fix": "Translate each remaining English phrase/fragment into Russian, rendering them idiomatically. E.g., «императору было запрещено участвовать в Играх», «сигнальная труба (трубные соревнования)», «актёрское мастерство», «в 66 г. н. э. он завоевал более 1 800 первых мест за якобы художественные выступления.»",
+      "translation_quote": "no emperor was allowed to compete in the Games; trumpeting; acting; he won more than 1,800 first-place prizes for his supposed exhibits of artistry."
+    },
+    {
+      "location": "source.html — closing line “Endnote:” and final reference",
+      "severity": "minor",
+      "source_quote": "Endnote:",
+      "suggested_fix": "Translate the label 'Endnote:' into Russian («Примечание:») and keep the URL unchanged. Example: «Примечание: ncbi.nlm.nih.gov/pmc/articles/PMC3621648»",
+      "translation_quote": "Endnote:"
+    },
+    {
+      "location": "source.html — article data-article-id attribute",
+      "severity": "minor",
+      "source_quote": "data-article-id=\"22957e4c-ccce-4a76-b982-60e61ec6b998\" (translation) vs data-article-id=\"22957e4c-ccce-4a76-b982-60e61ec6b998\" (source)",
+      "suggested_fix": "Ensure the article's data-article-id in the translation exactly matches the source id. If the source id is immutable, restore it to match the authoritative source HTML.",
+      "translation_quote": "data-article-id=\"22957e4c-ccce-4a76-b982-60e61ec6b998\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

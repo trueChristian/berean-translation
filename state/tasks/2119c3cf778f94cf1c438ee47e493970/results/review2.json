@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7cd7751e-47b9-44c3-a528-b63cd5cf0f3f",
+    "response_id": "chatcmpl-EUXBoOTGc1GyXplA17waAhZkLgN9Q",
+    "usage": {
+      "completion_tokens": 797,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8941,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9738
+    }
+  },
+  "received_at": "2026-10-02T13:07:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...“När Mose gick igenom Midjans portar var den första scen Gud ställde framför hans ögon en orättvisa vid en brunn. <em>Och Midjans prästs hade sju döttrar… –2 Mosebok 2:16</em>...</p>",
+        "severity": "minor",
+        "source_quote": "\"Now the priest of Midian had seven daughters… –Exodus 2:16\"",
+        "suggested_fix": "Correct the Swedish genitive/word form. Replace “Midjans prästs hade sju döttrar” with “Midjans präst hade sju döttrar” (or “Midjans präst hade sju döttrar… –2 Mosebok 2:16”) so it is grammatical Swedish while preserving the Scripture reference and punctuation.",
+        "translation_quote": "\"Och Midjans prästs hade sju döttrar… –2 Mosebok 2:16\""
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

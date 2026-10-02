@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<p>…They chose to have pulse [vegetables] and water. —translated paragraph about Daniel (near “Daniel chapter 1”)",
+      "severity": "minor",
+      "source_quote": "They wanted to observe the law and commandments of their fathers with sobriety and thankfulness in the fear of God. In the end, they were fairer and fatter than those who ate of the king’s dainties, see Daniel chapter 1. Thus, faithfully they walked in the ways of the Lord. They made themselves acceptable to God in prayer and supplication, therefore, he did great things through them. He delivered them from the den of lions and out of the fiery furnace.",
+      "suggested_fix": "Remove the duplicated gloss or keep a single clear French rendering. For example: replace “ils choisirent d’avoir des légumes [légumes] et de l’eau” with “ils choisirent des légumes et de l’eau” (or “ils choisirent des légumineuses [légumes] et de l’eau” if you prefer to preserve the ‘pulse’ nuance). Preserve existing HTML tags and punctuation.",
+      "translation_quote": "Mais ils choisirent d’avoir des légumes [légumes] et de l’eau."
+    },
+    {
+      "location": "<p>Instructions to my son, David.</p> (David paragraph — inconsistent person/number and register)",
+      "severity": "minor",
+      "source_quote": "Love one another without contention or quarreling. Be kind to your sisters. Bear them up as the stronger and out of love help all you can. Assist them out of brotherly love.",
+      "suggested_fix": "Make pronouns and verb forms consistent for the addressee(s). The English addresses David directly (singular). Use consistent singular imperative forms for direct address. For example: change “Aimez-vous les uns les autres sans dispute ni querelle. Sois bon envers tes sœurs. Soutiens-les comme le plus fort et par amour aide-les autant que tu pourras. Aide-les par amour fraternel.” to a consistent direct singular: “Aime ta famille sans dispute ni querelle. Sois bon envers tes sœurs. Soutiens-les en tant que frère aîné, et, par amour, aide-les autant que tu pourras.” Preserve HTML structure.",
+      "translation_quote": "Aimez-vous les uns les autres sans dispute ni querelle. Sois bon envers tes sœurs. Soutiens-les comme le plus fort et par amour aide-les autant que tu pourras. Aide-les par amour fraternel."
+    },
+    {
+      "location": "<p>Ceci est mon dernier adieu, mes chers agneaux. souvenez-vous toujours les uns des autres…</p> (final paragraphs)",
+      "severity": "minor",
+      "source_quote": "This is my last farewell, my dear lambs. always remember each other in love; diligently learn to read and write and obey everyone in that which is good.",
+      "suggested_fix": "Correct sentence capitalization in French. For example, capitalize “Souvenez‑vous” at the start of the sentence: “Ceci est mon dernier adieu, mes chers agneaux. Souvenez‑vous toujours les uns des autres dans l’amour;…” Preserve HTML tags.",
+      "translation_quote": "Ceci est mon dernier adieu, mes chers agneaux. souvenez-vous toujours les uns des autres dans l’amour; apprenez assidûment à lire et à écrire et obéissez à chacun en ce qui est bien."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

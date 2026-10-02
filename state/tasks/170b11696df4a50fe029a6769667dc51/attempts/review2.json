@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:07:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.title / translation.title\",\"severity\":\"minor\",\"source_quote\":\"Why I Have Not Gotten the Covid Shot\",\"suggested_fix\":\"Fix target-language title to use natural Russian grammar. Suggested replacement (preserving article title element): <title>Почему я не сделал прививку от Covid</title> or <title>Почему я не делаю прививку от Covid</title>. Keep other HTML tags/attributes unchanged.\",\"translation_quote\":\"Почему я не делался прививку от Covid\"},{\"location\":\"<p> describing pigweeds (early-90s farming paragraph)\",\"severity\":\"minor\",\"source_quote\":\"We didn’t realize how fast our troublesome ‘pigweeds’ (and other weeds) in the south, would mutate and develop a resistance to glyphosate.\",\"suggested_fix\":\"Translate the common noun 'pigweeds' into Russian rather than leaving the English term in quotes. Suggested inline fix preserving tags and punctuation: «мы не представляли, как быстро наши досаждающие сорняки — палмер-амарант (и другие сорняки) — на юге мутируют…» or «…наши докучливые сорняки (palmer amaranth, и другие)…» Ensure it appears inside the same <p> element where the English sentence occurs.\",\"translation_quote\":\"Мы не понимали, как быстро наши назойливые «pigweeds» (и другие сорняки) на юге мутируют и развивают устойчивость к глифосату.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 1626,
+    "content_evidence_truncated": false,
+    "content_sha256": "1f5c1ba950421651a28b7a2696bd014ef8f1765bb600981ca0e9d928e401b020",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 853,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5904,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6757
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

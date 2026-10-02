@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "309e49dc-03a1-4aa7-b785-7a293be33169",
+    "response_id": "chatcmpl-EUXC3lvweDNcPniUVpy2q0Y6Ga0Gj",
+    "usage": {
+      "completion_tokens": 648,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11838,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12486
+    }
+  },
+  "received_at": "2026-10-02T13:07:21+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>“First is Naomi.” — Source paragraph about biblical examples (source.html, paragraph after “Causes of Depression” heading)",
+        "severity": "major",
+        "source_quote": "First is Naomi. We know that she went with her husband and her two sons to Moab because of a famine that was affecting southern Israel.",
+        "suggested_fix": "Remove the incorrect attribution “ইমানুয়েলের স্ত্রী” and render the sentence as a clear identification of Naomi only. For example, replace the translation sentence that currently begins “প্রথমটি হলো ইমানুয়েলের স্ত্রী নাওমি (নাওমি)।” with: “প্রথমটি হলো নাওমি। আমরা জানি যে তিনি তার স্বামী ও দুই পুত্রকে নিয়ে ময়ব (Moab) গিয়েছিলেন…” (preserve the existing translated remainder of the paragraph).",
+        "translation_quote": "“প্রথমটি হলো ইমানুয়েলের স্ত্রী নাওমি (নাওমি)। আমরা জানি যে তিনি তার স্বামী ও দুই পুত্রকে নিয়ে ময়াব দেখেছিলেন কারণ দক্ষিণ ইস্রায়েলের উপর দুর্ভিক্ষ চলছিল।\""
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

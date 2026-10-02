@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<p>... -Matthew 3:11-12.</p> (paragraph with Matthew 3:11-12)",
+      "severity": "minor",
+      "source_quote": "Whose fan is in his hand, and he will throughly purge his floor, and gather his wheat into the garner; but he will burn up the chaff with unquenchable fire –Matthew 3:11-12.",
+      "suggested_fix": "한국어 독자가 원문 의미(곡식을 떼부는 도구인 'winnowing fan' 또는 '키')를 바로 이해하도록 번역어를 명확히 해주십시오. 예: «…그의 키(탈곡용 부채)가 그의 손에 있나니 그가 곧 그의 타작마당을 깨끗하게 하여 곡식을 그의 곳간에 모으시고 쭉정이는 꺼지지 아니할 불로 태우시리라 -마태복음 3:11-12.» 기존 HTML 구조와 태그를 그대로 유지하여 해당 <em>...</em> 안의 성경구절 본문만 교정해주세요.",
+      "translation_quote": "이는 성령과 불의 세례와 예수님이 가져오실 철저한 정결을 말합니다. 예수께서는 폭력으로 오신 것이 아니지만 그의 의로운 임재는 도리어 가루질하는 바람처럼 팔레스타인 전역을 휩쓸었습니다. 그를 거부한 자들은 날려가 버려져 이야기에서 사라졌고, 그를 사랑한 자들은 선택된 자로 드러나 이전에 알려지지 않았던 원리들 위에 세워진 새 왕국의 창시자가 되었습니다."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

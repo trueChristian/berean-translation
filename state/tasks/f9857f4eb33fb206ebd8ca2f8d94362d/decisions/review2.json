@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph: \"For us, it represents a period...\" (translation paragraph beginning \"Для нас это период, когда...\")",
+      "severity": "minor",
+      "source_quote": "For us, it represents a period when the parched sands of time about us seem to be producing nothing more fruitful than a revelation of our dry, crusty heart—shriveled and wasted by the consequences of our failures and past sins.",
+      "suggested_fix": "Replace the mistranslation \"коралловой (запекшейся) души\" with a natural Russian rendering conveying \"dry, crusty heart\" — e.g. \"сухого, потрескавшегося сердца — сморщенного и иссохшего...\". Keep the rest of the sentence as translated.",
+      "translation_quote": "сухой, коралловой (запекшейся) души — сморщенной и иссушенной…"
+    },
+    {
+      "location": "Paragraph: \"...in the silent solitude of the back burner where God has ordained...\" (translation paragraph containing \"в тихой уединённости заднего плиты...\" )",
+      "severity": "minor",
+      "source_quote": "...in the silent solitude of the back burner where God has ordained that many of His people go until they learn to...",
+      "suggested_fix": "The idiom \"back burner\" is awkwardly and incorrectly rendered as \"заднего плиты\". Use an idiomatic Russian equivalent such as \"в тихой уединённости на заднем плане\" or \"в тихой уединённости на «втором плане»\". For example: \"в тихой уединённости, на заднем плане, где Бог назначил многих Своих людей находиться...\"",
+      "translation_quote": "в тихой уединённости заднего плиты, где Бог назначил многих Своих людей находиться..."
+    },
+    {
+      "location": "Paragraph: opening line (translation first paragraph)",
+      "severity": "minor",
+      "source_quote": "Now Moses kept the flock of Jethro his father-in-law, the priest of Midian: and he led the flock to the backside of the desert, and came to the mountain of God, even to Horeb –Exodus 3:1.",
+      "suggested_fix": "The English proper name \"Jethro\" has several conventional Russian forms (Иофор, Иетро). The translation uses \"Иофора\" which is acceptable; confirm consistency with the website's style. If the site prefers the more common Russian form \"Иетро\", change it to that form throughout. No other change to the citation text is needed.",
+      "translation_quote": "Теперь Моисей пас овец Иофора, тестя своего, священника Мадиамского; и привёл овец к обратной стороне пустыни, и пришёл к горе Божией, к Хориву – Исход 3:1."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

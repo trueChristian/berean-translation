@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "12ff2085-5925-4423-9000-5b79c40cb97d",
+    "response_id": "chatcmpl-EUXBgNAc3jpOVFexUliwtbvACJ8A1",
+    "usage": {
+      "completion_tokens": 1892,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4652,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6544
+    }
+  },
+  "received_at": "2026-10-02T13:07:21+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing John 18:36 (within <p> starting \"Throughout the history of the Anabaptist people...\")",
+        "severity": "critical",
+        "source_quote": "…My kingdom is not of this world: if my kingdom were of this world, then would my servants fight … but now is my kingdom not from hence –John 18:36.",
+        "suggested_fix": "Replace the current Hebrew rendering of the John 18:36 quotation with a faithful, readable Hebrew rendering of the English verse as printed. Preserve the punctuation and the reference. Example suggestion (keep inside the same <em> tags): «…ממלכתי אינה מן העולם הזה; אילו היתה ממלכתי מן העולם הזה, משרתיי היו נלחמים—אבל כעת ממלכתי אינה מכאן. (יוחנן 18:36)»",
+        "translation_quote": "<em>ממלכתי אינה מן העולם הזה; אל היו ממלכתי היתה מן העולם הזה היו עבי מי - אבל כעת לא מן פה ממלכתי. (יוחנן 18:36)</em>"
+      },
+      {
+        "location": "Paragraph about prayer closet (within <p> starting \"So, what is the solution...\")",
+        "severity": "major",
+        "source_quote": "The Christian’s secret power of influence lies in the power of prayer that is produced in the privacy of his or her closet.",
+        "suggested_fix": "Restore the intended meaning of 'closet' (a private place of prayer) rather than the current translation that means 'shower/bathroom'. Replace the phrase with a Hebrew expression that conveys a private place for prayer, e.g.: «בסודיות חדרו הפרטי לתפילה» or «בפרטיות חדר המיטות/חדר התפילה שלו או שלה». Keep surrounding sentence structure and tags unchanged.",
+        "translation_quote": "כוח ההשפעה הסודי של הנוצרי נעוץ בכוח התפילה שנעשה בפרטיות המקלחת שלו או שלה."
+      },
+      {
+        "location": "Matthew 17:20 quotation (within <p> starting \"So, what is the solution...\")",
+        "severity": "major",
+        "source_quote": "And Jesus said unto them … verily I say unto you, If ye have faith as a grain of mustard seed, ye shall say unto this mountain, Remove hence to yonder place; and it shall remove; and nothing shall be impossible unto you –Matthew 17:20.",
+        "suggested_fix": "Correct the Hebrew quotation so it faithfully conveys the English text. The current Hebrew contains duplicated and malformed words (\"הזה הזה\" and \"היזר\"). Suggested replacement (inside the same <em> tags): «וישוע אמר להם … באמן אני אומר לכם: אם יהיה לכם אמונה כגרגיר חרדל, תאמרו להר הזה: הסתלק הנה אל המקום ההוא; והוא יסתלק; ולכם לא יהיה דבר בלתי אפשרי. (מתי 17:20)» — or a similarly accurate, idiomatic Hebrew rendering that preserves the verse meaning and reference.",
+        "translation_quote": "<em>וישוע אמר להם ... באמן אני אמר לכם: אם יהיה לכם אמונה כמין-חרדל תאמרו להר הזה הזה היזר אל המקום ההוא והוא יזוז; ואף כלום לא יהיה בלתי אפשרי לכם. (מתי 17:20)</em>"
+      },
+      {
+        "location": "James 5:16 quotation (same paragraph)",
+        "severity": "minor",
+        "source_quote": "…The effectual fervent prayer of a righteous man availeth much –James 5:16.",
+        "suggested_fix": "Provide a clearer, idiomatic Hebrew rendering of the verse while preserving meaning. The current rendering («תפלתו המחוללת והחריפה של צדיק מורגשת הרבה») is awkward and slightly off. Suggested wording (inside the same <em> tags): «תפלתו הַמַּשְׁפִּיעָה וְהָעַתּוּקֶת שֶׁל צַדִּיק יוֹעִילָה רַבָּה. (יעקב 5:16)» or more naturally «תפלתו הבוערת והיעילה של צדיק מועילה מאוד. (יעקב 5:16)».",
+        "translation_quote": "<em>תפלתו המחוללת והחריפה של צדיק מורגשת הרבה. (יעקב 5:16)</em>"
+      },
+      {
+        "location": "Intro paragraph about schedule (second <p>)",
+        "severity": "minor",
+        "source_quote": "Our ultimate goal is to have them arrive in your mailboxes in the months of March, June, September, and December of each year.",
+        "suggested_fix": "Minor wording/idiom fix: the Hebrew uses 'באופן תזונתי יותר' which is incorrect/garbled for 'more timely'. Replace with an idiomatic phrase such as «בזמן יותר מתאים» or «במהירות ואמינות גדולות יותר» while preserving meaning.",
+        "translation_quote": "המטרה הסופית שלנו היא שהם יגיעו לתיבות הדואר שלכם בחודשים מרץ, יוני, ספטמבר ודצמבר של כל שנה. התפללו עבורנו כאשר אנו ממשיכים להתקדם לעבר לוח זמנים זה."
+      }
+    ],
+    "passed": false,
+    "score": 40
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "9b13e502-993c-4536-a32d-ae1a62c36db5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "34f90e3653a74618a9933fce235305fc",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -43,18 +42,66 @@
         },
         "total_tokens": 5796
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1495,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3765,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5260
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[1]; missing: 34:7; extra: 33:7",
-      "translation_quote": ""
+      "location": "source.html paragraph: \"...kept behind a high wire fence connected to an old shed.\"",
+      "severity": "minor",
+      "source_quote": "kept behind a high wire fence connected to an old shed.",
+      "suggested_fix": "Заменить на: «Её держали за высоким проволочным забором, примыкающим к старому сараю.» — исправлена форма слова «старой сараю» на корректную «старому сараю». Сохранить тег абзаца и пунктуацию.",
+      "translation_quote": "«Её держали за высоким проволочным забором, примыкающим к старой сараю.»"
+    },
+    {
+      "location": "source.html paragraph describing the shed later: \"There before us was the old shed, and on the other side was the high fence...\"",
+      "severity": "minor",
+      "source_quote": "There before us was the old shed, and on the other side was the high fence which kept in Pierce’s mean dog.",
+      "suggested_fix": "Заменить «старая сарайка» на согласованную, нейтральную форму «старый сарай», чтобы сохранить единообразие и корректность: «Там впереди стоял старый сарай, а по ту сторону — высокий забор, который держал злую собаку Пирса.»",
+      "translation_quote": "«Там впереди стояла старая сарайка, а по ту сторону — высокий забор, который держал злую собаку Пирса.»"
+    },
+    {
+      "location": "source.html paragraph: \"Every day when we walked to school, that dog frightened us terribly with his fierce barking and growling.\"",
+      "severity": "minor",
+      "source_quote": "...frightened us terribly with his fierce barking and growling.",
+      "suggested_fix": "Заменить «рёваньем» на корректное русское слово «рычанием»: «эта собака ужасно нас пугала своим лаем и рычанием.»",
+      "translation_quote": "«эта собака ужасно нас пугала своим лаем и рёваньем.»"
+    },
+    {
+      "location": "source.html paragraph: \"...sitting in the middle of the dirt road, with her hands behind her on the hard packed gravel...\"",
+      "severity": "minor",
+      "source_quote": "sitting in the middle of the dirt road, with her hands behind her on the hard packed gravel, feet and legs in the air, kicking and kicking...",
+      "suggested_fix": "Заменить неточное/неестественное «твёрдый утёс из гравия» на адекватную передачу «твёрдой утрамбованной гравийной поверхности/дороге»: «она упала и сидела посреди грунтовой дороги, опираясь руками о твёрдую утрамбованную гравийную поверхность, ноги и ступни в воздухе, бьётся и бьётся...». Сохранить структуру абзаца и HTML.",
+      "translation_quote": "«она упала и сидит посреди грунтовой дороги, опираясь руками о твёрдый утёс из гравия, ноги и ступни в воздухе, бьётся и бьётся, кувыркаясь...»"
+    },
+    {
+      "location": "source.html paragraph: \"Still, we hurried by as fast as our legs could take us.\"",
+      "severity": "minor",
+      "source_quote": "Still, we hurried by as fast as our legs could take us.",
+      "suggested_fix": "Заменить «быстрей» на нормативное «быстрее»: «Тем не менее мы проскальзывали мимо как можно быстрее.»",
+      "translation_quote": "«Тем не менее мы проскальзывали мимо как можно быстрей.»"
     }
   ],
+  "finished_at": "2026-10-02T13:07:21+00:00",
   "id": "fd16dba15d42e33c39d2f77948186b45",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "rus",
@@ -128,11 +175,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/024b14cea96a528a42f66f77d442fb07d0e5035a02e35254ae96bf4fcc0c193f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

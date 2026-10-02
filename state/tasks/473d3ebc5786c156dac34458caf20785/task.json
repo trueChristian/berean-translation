@@ -2,7 +2,6 @@
   "article_id": "dce3d3b3-8b56-4be5-9674-e682b97d3b43",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "34f90e3653a74618a9933fce235305fc",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -43,18 +42,60 @@
         },
         "total_tokens": 7242
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1719,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1024,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4669,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6388
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Duplicate HTML attribute",
-      "translation_quote": ""
+      "location": "<p>Detta nummer av tidskriften kan verka komma snabbare på hälarna efter det förra.</p>",
+      "severity": "minor",
+      "source_quote": "This magazine issue may seem to be arriving more quickly on the heels of the last one.",
+      "suggested_fix": "Bevara meningen och idiomen på svenska. Föreslagen ersättning inom samma tag: <p>Detta nummer av tidskriften kan verka komma snabbare efter det förra.</p>",
+      "translation_quote": "Detta nummer av tidskriften kan verka komma snabbare på hälarna efter det förra."
+    },
+    {
+      "location": "<p>... få varje kvartalsnummer ut i mer tid.</p>",
+      "severity": "minor",
+      "source_quote": "We are continuing to tighten up our schedule as we work towards getting each quarterly issue out in a more timely manner.",
+      "suggested_fix": "\"i mer tid\" är otydligt på svenska. Bevara HTML och struktur; föreslagen ersättning: <p>Vi fortsätter att tajta till vårt schema medan vi arbetar för att få ut varje kvartalsnummer i bättre tid.</p>",
+      "translation_quote": "Vi fortsätter att tajta till vårt schema medan vi arbetar för att få varje kvartalsnummer ut i mer tid."
+    },
+    {
+      "location": "<p>... Guds Bibelns Gud lämnar oss inte bara, eller vänder ryggen åt oss ...</p>",
+      "severity": "minor",
+      "source_quote": "...the God of the Bible doesn’t just drop us, or turn His back on us, the instant that we take a wrong turn or a misstep.",
+      "suggested_fix": "\"Guds Bibelns Gud\" är felaktig/klumpig svenska. Behåll taggar och sammanhang. Förslag: <p>…Bibelnns Gud lämnar oss inte bara, eller vänder ryggen åt oss i samma ögonblick som vi tar ett felsteg.</p>  (Bättre alternativ: \"Bibeln visar att Gud lämnar oss inte...\" eller helt enkelt \"Gud lämnar oss inte...\")",
+      "translation_quote": "Guds Bibelns Gud lämnar oss inte bara, eller vänder ryggen åt oss i samma ögonblick som vi tar ett felsteg eller gör en avvikelse."
+    },
+    {
+      "location": "<p>... <em>…gör er därför urskilda från dem, och rör er ifrån dem… – 2 Korintierbrevet 6:17.</em></p>",
+      "severity": "minor",
+      "source_quote": "…come out from among them, and be ye separate… –2 Corinthians 6:17.",
+      "suggested_fix": "\"urskilda\" och \"rör er ifrån dem\" är olämpliga svenska uttryck för den bibelöversättningens innebörd. Behåll HTML och kursiv markering. Förslag: <p>…<em>kom ut från dem och håll er åtskilda… – 2 Korintierbrevet 6:17.</em></p>",
+      "translation_quote": "…gör er därför urskilda från dem, och rör er ifrån dem… – 2 Korintierbrevet 6:17."
     }
   ],
+  "finished_at": "2026-10-02T13:07:20+00:00",
   "id": "473d3ebc5786c156dac34458caf20785",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "swe",
@@ -128,11 +169,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/c16edd05d12043a927f45367071112d6f71c0042bc3d1b02d0bfb5b8d330f1e2.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "d0410b3ae98c7c6c4b8643e82b8513a58f4f423e430db25e79b18dc18a3fab41",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

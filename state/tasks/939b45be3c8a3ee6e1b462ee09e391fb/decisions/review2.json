@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<p>“First is Naomi.” — Source paragraph about biblical examples (source.html, paragraph after “Causes of Depression” heading)",
+      "severity": "major",
+      "source_quote": "First is Naomi. We know that she went with her husband and her two sons to Moab because of a famine that was affecting southern Israel.",
+      "suggested_fix": "Remove the incorrect attribution “ইমানুয়েলের স্ত্রী” and render the sentence as a clear identification of Naomi only. For example, replace the translation sentence that currently begins “প্রথমটি হলো ইমানুয়েলের স্ত্রী নাওমি (নাওমি)।” with: “প্রথমটি হলো নাওমি। আমরা জানি যে তিনি তার স্বামী ও দুই পুত্রকে নিয়ে ময়ব (Moab) গিয়েছিলেন…” (preserve the existing translated remainder of the paragraph).",
+      "translation_quote": "“প্রথমটি হলো ইমানুয়েলের স্ত্রী নাওমি (নাওমি)। আমরা জানি যে তিনি তার স্বামী ও দুই পুত্রকে নিয়ে ময়াব দেখেছিলেন কারণ দক্ষিণ ইস্রায়েলের উপর দুর্ভিক্ষ চলছিল।\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

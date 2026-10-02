@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.html — first paragraph (Exodus 3:1 verse)",
+      "severity": "critical",
+      "source_quote": "Now Moses kept the flock of Jethro his father-in-law, the priest of Midian: and he led the flock to the backside of the desert, and came to the mountain of God, even to Horeb –Exodus 3:1.",
+      "suggested_fix": "Render the verse into correct Modern Standard Arabic and correctly transliterate the name Jethro as used in Arabic Bibles. Example (Van Dyck Bible style): «والآن كان موسى راعياً لحميه يثرون الكاهن المدياني، فقاد الغنم إلى وراء البرية وجاء إلى جبل الله، إلى حوريب» –خروج 3:1. Preserve verse reference placement and punctuation exactly as in the source (–Exodus 3:1).",
+      "translation_quote": "والآن كان موسى راعياً لغامِل شوعه حبوبين، الكاهن المدياني، فقاد الغنم إلى وراء البرية وجاء إلى جبل الله، إلى حوريب –خروج 3:1."
+    },
+    {
+      "location": "source.html — Hebrews 12:6-8 quotation paragraph",
+      "severity": "critical",
+      "source_quote": "For whom the Lord loveth he chasteneth, and scourgeth every son whom he receiveth. If ye endure chastening, God dealeth with you as with sons; for what son is he whom the father chasteneth not? But if ye be without chastisement, whereof all are partakers, then are ye bastards, and not sons –Hebrews 12:6-8.",
+      "suggested_fix": "Replace the garbled Arabic rendering with a faithful Modern Standard Arabic translation that conveys the printed English meaning and preserves verse reference. Example (Van Dyck/Biblical style): «فَمَنَ يُحِبُّهُ الرَّبُّ فَيُؤَدِّبُهُ، وَيجلِدُ كُلَّ ابنٍ يَقْبَلُهُ. إِن كُنْتُمْ تَحْتَمِلُونَ التَّأْدِيبَ فَيُعاملُكُمُ اللهُ كَبَنِينَ، لأَنَّ أَيَّ ابنٍ لا يُؤَدَّبُهُ الآبُ؟ وَأَمَّا إِنْ كُنْتُمْ بِلَا تَأْدِيبٍ الَّذِي يُشَارِكُ فِيهِ الْجَمِيعُ فَأَنْتُمْ غُرَبَاءُ وَلَسْتُمْ أَبْنَاءً» –عبرانيين 12:6-8. Ensure number, order, and placement of verses match the source.",
+      "translation_quote": "فمن يحبه الرب يؤدبه ويجلده كل ابن يقبله. فإن كان تحت التئدة فتحاسبهم كما لآبناء، لأنه أي ابن من الآب لا يؤدبه؟ وأما إن كنتم بلا تأديب الذي شارك فيه الجميع فأنتم أبناؤنا غير شرعيين ولسستم أبناء –عبرانيين 12:6-8."
+    },
+    {
+      "location": "source.html — Exodus 3:1 and other scripture-quotations consistency",
+      "severity": "major",
+      "source_quote": "(Multiple short scripture quotations throughout, e.g. Exodus 3:1, Acts 7:22-23, Acts 7:20, Hebrews 11:25, Exodus 2:16, Exodus 2:19, Mark 10:42-44, Genesis 46:34, Psalm 25:9, Acts 9:6, Proverbs 17:3, Exodus 2:16, Exodus 2:21, Exodus 3:10, Exodus 3:11, Exodus 3:12, Exodus 4:14, Exodus 4:24, Exodus 3:14, Hebrews 12:6-8, Matthew 11:29, Philippians 3:10)",
+      "suggested_fix": "Verify every quoted Scripture passage is translated into Arabic faithfully, preserving the meaning and the exact chapter:verse references and placement. Most quotations are rendered acceptably, but any quotation that shows wording errors, corruption, or mismatched meaning (for example the corrupted Hebrews 12:6-8 and the corrupted first-verse name) must be corrected. Use a consistent Modern Standard Arabic Bible phrasing (Van Dyck or equivalent) and keep verse references exactly as in the source.",
+      "translation_quote": "(The translation contains many Scripture quotations in Arabic; see above examples where some are correctly translated, but Hebrews 12:6-8 and Exodus 3:1 include corrupted wording and a corrupted proper name.)"
+    },
+    {
+      "location": "source.html — Hebrews quotation punctuation and idiom (minor)",
+      "severity": "minor",
+      "source_quote": "For whom the Lord loveth he chasteneth, and scourgeth every son whom he receiveth. If ye endure chastening, God dealeth with you as with sons; for what son is he whom the father chasteneth not? But if ye be without chastisement, whereof all are partakers, then are ye bastards, and not sons –Hebrews 12:6-8.",
+      "suggested_fix": "Beyond correcting the substantive wording (see critical finding), adjust punctuation and phrasing to natural Modern Standard Arabic idiom (for example, use «فمن يحبّه الرب يؤدّبه ويجلد كل ابن يقبَله». Avoid literal or awkward constructions like «أبناؤنا غير شرعيين ولسستم أبناء»).",
+      "translation_quote": "فمن يحبه الرب يؤدبه ويجلده كل ابن يقبله. فإن كان تحت التئدة فتحاسبهم كما لآبناء، لأنه أي ابن من الآب لا يؤدبه؟ وأما إن كنتم بلا تأديب الذي شارك فيه الجميع فأنتم أبناؤنا غير شرعيين ولسستم أبناء –عبرانيين 12:6-8."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; no further automatic correction is allowed",
+  "stage": "terminal"
+}

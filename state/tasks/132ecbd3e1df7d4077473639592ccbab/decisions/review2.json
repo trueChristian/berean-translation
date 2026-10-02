@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "source.html — paragraph containing Matthew 5:8 (near start)",
+      "severity": "major",
+      "source_quote": "Jesus said: Blessed are the pure in heart: for they shall see God –Matthew 5:8.",
+      "suggested_fix": "Translate the verse faithfully into Hindi and localize the book name. Preserve meaning (“pure in heart” not “gire mutthi wale”). For example, replace the entire inline English with a Hindi rendering and localized reference (keeping punctuation/placement). Example replacement (retain HTML tags and emphasis as in source): <em>धन्य हैं जो हृदय से शुद्ध हैं: क्योंकि वे परमेश्वर को देखेंगे — मत्ती 5:8।</em>",
+      "translation_quote": "यीशु ने कहा: <em>धन्य हैं वे जो गिरे मुट्ठी वाले हैं: क्योंकि वे परमेश्वर को देखेंगे –Matthew 5:8.</em>"
+    },
+    {
+      "location": "source.html — block quotation of 1 Peter 3:3-6",
+      "severity": "major",
+      "source_quote": "Whose adorning let it not be that outward adorning of plaiting the hair, and of wearing of gold, or of putting on of apparel; But let it be the hidden man of the heart, in that which is not corruptible, even the ornament of a meek and quiet spirit, which is in the sight of God of great price. For after this manner in the old time the holy women also, who trusted in God, adorned themselves, being in subjection unto their own husbands: Even as Sara obeyed Abraham, calling him lord: whose daughters ye are, as long as ye do well, and are not afraid with any amazement –1 Peter 3:3-6.",
+      "suggested_fix": "The quoted Scripture must be translated fully and faithfully into Hindi, preserving the original meaning (including that Sarah obeyed Abraham, calling him lord — i.e., she obeyed, not that she 'gave a command'). Localize the citation to Hindi book name. Replace the English block with a faithful Hindi translation and localized reference, preserving emphasis tags. Example replacement: <em>जिसका अलंकरण बाहरी अलंकरण न हो, जैसे कि बालों की चोटी बनाना, या सुनहरा आभूषण पहनना, या वस्त्र पहन लेना; परन्तु हृदय का छुपा हुआ मन हो, जो नाश न होनेवाला है, नम्र और शांत आत्मा का आभूषण, जो परमेश्वर की दृष्टि में बड़ा मूल्यवान है। क्योंकि पुराने समय में भी परमेश्वर पर भरोसा करने वाली पवित्र स्त्रियाँ ऐसे ही अपने पतिकों के अधीन रहकर अलंकृत होती थीं। जैसे सारा ने अब्राहम की आज्ञा मानी और उसे प्रभु कहा; आप उसी की संतानियाँ हैं जब तक आप भले काम करोगी और किसी आश्चर्य में भयभीत न हो — 1 पतरस 3:3-6।</em>",
+      "translation_quote": "<em>जिसका अलंकरण बाहर का अलंकरण न हो, जैसे कि बालों को पटेलना, और सोने पहनना, या वस्त्र पहनना; परन्तु नियमें हृदय का छिपा हुआ मन हो, जो नाश न होनेवाला, नम्र और शांत आत्मा का आभूषण हो, जो परमेश्वर की दृष्टि में महँगा है। क्योंकि पुराने समय में भी प्रभु में आशा रखनेवाली पवित्र स्त्रियाँ ऐसे ही अपने पतिकों के अधीन होकर अलंकृत होती थीं: जैसे सारा ने अब्राहम को आज्ञा दी, और उसे स्वामी कहा: आप उसी की संतान हैं, बशर्ते आप भले काम करो और किसी विस्मय में भयभीत न हों –1 Peter 3:3-6.</em>"
+    },
+    {
+      "location": "source.html — paragraph near end quoting John 14:6-7",
+      "severity": "major",
+      "source_quote": "Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me If ye had known me, ye should have known my Father also: and from henceforth ye know him, and have seen him –John 14:6-7.",
+      "suggested_fix": "Translate the entire quotation into Hindi and localize the citation. Remove the embedded English fragment. Example replacement (preserve emphasis tags): <em>यीशु ने उससे कहा, 'मैं मार्ग, सत्य और जीवन हूँ: कोई मेरे द्वारा पिता के पास नहीं आता। अगर तुम मुझे जानते होते तो तुम मेरे पिता को भी जानते होते; और अब से तुम उसे जानते हो और तुमने उसे देखा है' — यूहन्ना 14:6-7.</em>",
+      "translation_quote": "<em>यीशु ने उससे कहा, मैं मार्ग, सत्य और जीवन हूँ: कोई भी पिता के पास मेरे द्वारा नहीं आता If ye had known me, ye should have known my Father also: and from henceforth ye know him, and have seen him</em> –<em>John 14:6-7.</em>"
+    },
+    {
+      "location": "source.title / source.html — title",
+      "severity": "minor",
+      "source_quote": "With What Should We Be Adorned?",
+      "suggested_fix": "Title is translated correctly in sense but check idiomatic phrasing. Current translation: \"हम किससे अलंकृत होने चाहिए?\" is understandable but slightly awkward. Suggest a smoother Hindi phrasing that preserves theology, e.g. \"हमें किससे अलंकृत होना चाहिए?\" or \"हमें किन चीज़ों से अलंकृत होना चाहिए?\" (choose one).",
+      "translation_quote": "हम किससे अलंकृत होने चाहिए?"
+    },
+    {
+      "location": "source.html — multiple places where English book names and verse references are left in English (e.g., \"–Matthew 5:8.\", \"–Psalm 19:7.\", \"–Proverbs 9:10\", \"–2 Timothy 2:4-22.\", \"–1 Timothy 2:9-10.\", \"–Titus 2:11-12.\", \"–Isaiah 61:10.\", \"–Revelation 21:2-3.\", \"–Galatians 6:7.\", \"–Hebrews 11:17 and Genesis 22:13.\")",
+      "severity": "major",
+      "source_quote": "Multiple scripture references in English (for example: –Matthew 5:8; –Psalm 19:7; –Proverbs 9:10; –2 Timothy 2:4-22; –1 Timothy 2:9-10; –Titus 2:11-12; –Isaiah 61:10; –Revelation 21:2-3; –Galatians 6:7; –Hebrews 11:17 and Genesis 22:13).",
+      "suggested_fix": "Localize all biblical book names to standard Hindi forms while keeping chapter and verse numbers unchanged and placed as in source. Examples: Matthew → मत्ती, Psalm → भजन संहिता (or भजन) 19:7 commonly \"भजन संहिता 19:7\" but consistent site style may use \"भजन 19:7\"; Proverbs → नीतिवचन; 2 Timothy → तीमुथियुस द्वितीय; 1 Timothy → तीमुथियुस प्रथम; Titus → तीतुस; Isaiah → यशया; Revelation → प्रकाशितवाक्य; Galatians → गलातियों; Hebrews → इब्रानियों; Genesis → उत्पत्ति. Replace each English citation with localized Hindi book name and same verse numbers, preserving punctuation and emphasis tags.",
+      "translation_quote": "Examples throughout translation: “–Matthew 5:8.”, “–Psalm 19:7.”, “–Proverbs 9:10”, “–2 Timothy 2:4-22.”, “–1 Timothy 2:9-10.”, “–Titus 2:11-12.”, “–Isaiah 61:10.”, “–Revelation 21:2-3.”, “–Galatians 6:7.”, “–see Hebrews 11:17 and Genesis 22:13.”"
+    },
+    {
+      "location": "source.html — paragraph where the heading 'Adorn:' is rendered as 'Alorn:' (typo) and definition follows",
+      "severity": "minor",
+      "source_quote": "Adorn: to deck or beautify; set off; to embellish by anything external or adventitious; to display the beauty or excellence of.",
+      "suggested_fix": "Correct the heading to the Hindi equivalent of 'Adorn' (e.g., 'अलंकरण:' or 'अलंकरण —') and provide a proper Hindi translation of the definition. For example: अलंकरण: सज़ाना या सुंदर बनाना; किसी बाह्य चीज़ द्वारा शोभा बढ़ाना; किसी वस्तु की सुंदरता या उत्कृष्टता को प्रदर्शित करना। Replace the erroneous 'Alorn:' token with this and preserve paragraph tags.",
+      "translation_quote": "Alorn: सजाना या सुसज्जित करना; किसी बाह्य या आकस्मिक चीज़ से श्रृंगारित करना; सुंदरता या उत्कृष्टता का प्रदर्शन करना।"
+    },
+    {
+      "location": "source.html — several lexical items left in English (e.g., 'Plaiting:', 'Apparel:', 'Ornament:', 'Meek:', 'Quiet:', 'Entangleth:', 'Shun:', 'Profane:', 'Vain:', 'Babblings:', 'Flee:', 'Lusts:', 'Righteousness:', 'Faith:', 'Charity:', 'Peace:', 'Pure:', 'Shamefacedness:', 'Sobriety:') and occasional inline English words ('in ornaments', 'If ye had known me...')",
+      "severity": "minor",
+      "source_quote": "Headword lists and some inline words appear in English in source (e.g., Plaiting:, Apparel:, Ornament:, Meek:, Quiet:, etc.; and English fragments like 'in ornaments' and 'If ye had known me...').",
+      "suggested_fix": "Translate these headwords and any residual English fragments into Hindi while preserving their role as dictionary-style headwords and the surrounding HTML. For example, 'Plaiting:' → 'चोटी बनाना / प्लैटिंग:' or simply 'Plaiting (चोटी बनाना):' depending on site style; but better to render purely in Hindi: 'चोटी बनाना:' with definition following. Also replace inline English fragments with full Hindi renderings (see John 14:6-7 finding).",
+      "translation_quote": "Examples: “Plaiting: मोड़ना, दोगुना करना, चोटी बनाना।”; “Apparel: वस्त्र; बाह्य पोशाक या सजावट।”; and inline: \"in ornaments\" and the English clause left in John 14:6-7."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -2,7 +2,6 @@
   "article_id": "9240e6d5-f395-4db7-ab6f-3b4b603d6ea0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "34f90e3653a74618a9933fce235305fc",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:40+00:00",
   "events": [
@@ -43,18 +42,39 @@
         },
         "total_tokens": 16280
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 824,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10722,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11546
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Unsupported HTML attribute: say",
-      "translation_quote": ""
+      "location": "<article> paragraph under <h2>\"Menangani Dosa\"</h2> containing the James 5:16 quotation",
+      "severity": "major",
+      "source_quote": "Confess your faults one to another, and pray one for another, that ye may be healed… –James 5:16.",
+      "suggested_fix": "Replace the current Indonesian quotation with a faithful Indonesian rendering of James 5:16 that matches the article's earlier James 5:16 rendering (or otherwise faithfully conveys the English text). For example: <em>\"Akuilah dosamu seorang kepada yang lain, dan berdoalah seorang untuk yang lain, supaya kamu sembuh… –Yakobus 5:16.\"</em> Preserve the surrounding <em> tags and the exact placement of the verse and citation.",
+      "translation_quote": "<em>Aku tidak tahan lagi, aku harus mengaku dosa-dosaku kepadamu; aku akan menyatakan pelanggaranku terhadap-Mu, maka engkau mengampuni kesalahan orang berdosa –Yakobus 5:16.</em>"
     }
   ],
+  "finished_at": "2026-10-02T13:07:21+00:00",
   "id": "9cb03506290aad44252be1d56f124455",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ind",
@@ -128,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f177e57409e960665e128f135c5d31a6b5c47dfb179f4bf630790d509d4b9294.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "5dadc96220966a62c190dc496511f1659046db2b2d97b2ce157a164fa768d4e2",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d030951f-2c09-4c88-89a4-2c73a00f119e",
+    "response_id": "chatcmpl-EUXBt1U9MCwOE3yBVtIhC6Mg3WIcj",
+    "usage": {
+      "completion_tokens": 1477,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8083,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9560
+    }
+  },
+  "received_at": "2026-10-02T13:07:21+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing Adam Clark quote (near middle)",
+        "severity": "minor",
+        "source_quote": "It was this which made the conduct of the person mentioned in the text inexcusable; he might have had a proper marriage garment, if he had applied for it.",
+        "suggested_fix": "Preserve the singular sense of \"inexcusable\" used in the English quotation. In the quoted Adam Clark passage, change « inexcusables » to « inexcusables ; » only if plural sense intended — otherwise use singular « inexcusables » → replace with « inexcusables » → better: « inexcusables » → but more correct: « inexcusable ». Update the French quote to read: « ...ce qui rendait la conduite de la personne mentionnée dans le texte inexcusable ; il aurait pu avoir un vêtement nuptial convenable, s'il en avait fait la demande. »",
+        "translation_quote": "C'est cela qui rendait la conduite de la personne mentionnée dans le texte inexcusables ; il aurait pu avoir un vêtement nuptial convenable, s'il en avait fait la demande \"."
+      },
+      {
+        "location": "Paragraph with phrase Many \"holy men\" and \"holy women\" (around discussion of 'form of godliness')",
+        "severity": "minor",
+        "source_quote": "Many “holy men” and “holy women” down through the ages have sought to live a holy life in their own strength.",
+        "suggested_fix": "Fix the incorrect escape sequence and typography. Replace the broken text \"hommes saints\" and \"femmes saintes\" that currently appears as many d\"hommes saints\" and de \"femmes saintes\" with properly quoted French punctuation: « hommes saints » and « femmes saintes ».",
+        "translation_quote": "Ce qui arrive toujours, c'est que nous nous contentons d'une forme de piété qui est inférieure à la justice du Christ. Nous nous contentons d'une religion faisable.\n\nL'apôtre Paul, écrivant ...\n\nCette « justice de Dieu » ...\n\n... Beaucoup d\"hommes saints\" et de \"femmes saintes\" à travers les âges ont cherché à vivre une vie sainte par leur propre force."
+      },
+      {
+        "location": "Quotation of Matthew 3:11-12 (John the Baptist)",
+        "severity": "minor",
+        "source_quote": "Whose fan is in his hand, and he will throughly purge his floor, and gather his wheat into the garner; but he will burn up the chaff with unquenchable fire –Matthew 3:11-12.",
+        "suggested_fix": "The French rendition uses « van » which is non‑idiomatic here. Use a more standard French rendering of the winnowing implement and action to match the biblical image. For example: « Il tiendra son van (ou son fléau pour vanner) dans sa main, et il nettoiera entièrement son aire… » Better: « Il tiendra son vanoir (ou son instrument de vannage) dans sa main, et il purgera entièrement son aire, et rassemblera son blé dans le grenier ; mais il brûlera la paille d’un feu inextinguible. » Choose one idiomatic term (e.g. « vanoir » or « van » accompanied by clarifying wording) so the image is clear to French readers.",
+        "translation_quote": "Il tient son van dans sa main, et il nettoiera son aire, et rassemblera son blé dans le grenier ; mais il brûlera la paille par un feu inextinguible –Matthieu 3:11-12."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

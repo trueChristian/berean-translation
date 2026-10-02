@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:07:21+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"First paragraph salutation (source.html <p class=\\\"drop-cap\\\"> and following paragraph)\",\"severity\":\"minor\",\"source_quote\":\"Grace, peace, and mercy from God, the Father, and the Lord, Jesus Christ, to my dear children, David, Betgen, and Tanneken.\",\"suggested_fix\":\"Use a phrasing that preserves the author's address to her children. Replace \\\"إخوتي الصغار الأعزاء، داود وبيتجن وتانكن\\\" with \\\"أولادي الأعزاء داود وبيتجن وتانكن\\\" (or \\\"أطفالي الأعزاء داود وبيتجن وتانكن\\\") to match the original family‑address tone.\",\"translation_quote\":\"النِّعمة والسلام والرحمة من الله الآب والرب يسوع المسيح لإخوتي الصغار الأعزاء، داود وبيتجن وتانكن.\"},{\"location\":\"Paragraph beginning \\\"Paul teaches us to live peaceably...\\\"\",\"severity\":\"minor\",\"source_quote\":\"Paul teaches us to live peaceably with all men if it be possible. –see 1 Peter 3:10 and Romans 12:18.\",\"suggested_fix\":\"Correct typographical/spacing errors and verb form: replace \\\"يعلمانَا بولس أن نحيَا بسلام\\\" with \\\"يعلّمنا بولس أن نحيا بسلام\\\" so the Arabic verb forms and spacing are standard and readable.\",\"translation_quote\":\"يعلمانَا بولس أن نحيَا بسلام مع جميع الناس إذا أمكن. <em>–انظر 1 بطرس 3:10 ورومية 12:18.</em>\"},{\"location\":\"Paragraph about Daniel, Shadrach, Meshach, and Abednego\",\"severity\":\"minor\",\"source_quote\":\"Be sober and thankful as you have heard me read of Daniel, Shadrach, Meshach, and Abednego.\",\"suggested_fix\":\"Use conventional Arabic Bible forms for the three Babylonian companions to match readers' expectations. Replace \\\"دانيال وشتراك وميشأخ وعدنغو\\\" with the commonly accepted Arabic forms, e.g. \\\"دانيال وشدرخ وميشاع وعبد نغو\\\" (or the edition's preferred Arabic Bible spelling). Ensure consistency with the site's Bible name usage.\",\"translation_quote\":\"كونوا رصينين وشاكرين كما سمعتم أني أقرأ عن دانيال وشتراك وميشأخ وعدنغو.\"}],\"passed\":true,\"score\":96}",
+    "content_bytes": 2262,
+    "content_evidence_truncated": false,
+    "content_sha256": "ccc9c20d3e3b6b9cdac21db83b856d98e788a0219726ed731accdb1e04dd8ed1",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1433,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8716,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10149
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -2,7 +2,6 @@
   "article_id": "f82c479a-345a-4ffa-98d9-f10ddef90777",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "34f90e3653a74618a9933fce235305fc",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -43,18 +42,45 @@
         },
         "total_tokens": 13479
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 871,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8662,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9533
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[13]: source /article[1]/p[3]/em[2]/strong[1] ('start', 'strong', ()); translation /article[1]/p[3]/em[2] ('end', 'em')",
-      "translation_quote": ""
+      "location": "source.section / translation.section",
+      "severity": "minor",
+      "source_quote": "Inspirations for Youth",
+      "suggested_fix": "Use a natural, idiomatic Dutch equivalent. Either keep the current translation or consider the slightly more literal plural 'Inspiraties voor jongeren' or the more common editorial heading 'Inspiratie voor jongeren'. No change required if the publisher prefers the present wording.",
+      "translation_quote": "Inspiratie voor jongeren"
+    },
+    {
+      "location": "Throughout article (divine-name capitalization)",
+      "severity": "minor",
+      "source_quote": "(English original uses 'the Lord, Jesus Christ' and ordinary capitalization)",
+      "suggested_fix": "Ensure consistent modern Dutch capitalization for divine names. The translation mixes 'Heere', 'HEERE' and 'den Heere'. Standard contemporary Dutch editorial practice is to use 'de Heere' or 'de Heer' consistently. Pick one form and apply it consistently throughout the article.",
+      "translation_quote": "Instances such as 'de Heere', 'HEERE', and 'den Heere' appear in the translation."
     }
   ],
+  "finished_at": "2026-10-02T13:07:20+00:00",
   "id": "0f09b118137533a4c8ea97c77174d9e0",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "nld",
@@ -128,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/eccdba3e3a9e4ccc5d82f838542b8fe66f04a1399c4d03991b86efac69021bc9.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "9fe63733192a6c2b1a16992f2a220dd14dbfe93f8ff3f2c18b549b1da7db5b88",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

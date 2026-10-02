@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph starting with \"Avoid a luxurious life.\" (heading)",
+      "severity": "minor",
+      "source_quote": "Avoid a luxurious life.",
+      "suggested_fix": "Use plural imperative consistent with the rest of the translation (vosotros form). Replace the heading text with: \"Evitad una vida lujosa.\"",
+      "translation_quote": "Evita una vida lujosa."
+    },
+    {
+      "location": "Penultimate paragraph beginning \"This is my last farewell...\" (first sentence of that paragraph)",
+      "severity": "minor",
+      "source_quote": "This is my last farewell, my dear lambs. always remember each other in love; diligently learn to read and write and obey everyone in that which is good.",
+      "suggested_fix": "Fix capitalization at the start of the second sentence. Change \"recordad siempre los unos a los otros con amor;\" to begin with an initial capital: \"Recordad siempre los unos a los otros con amor;\"",
+      "translation_quote": "Este es mi último adiós, mis queridos corderitos. recordad siempre los unos a los otros con amor; diligentemente aprendan a leer y escribir y obedeced a todos en lo que es bueno."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.title / translation.title",
+      "severity": "minor",
+      "source_quote": "Why I Have Not Gotten the Covid Shot",
+      "suggested_fix": "Fix target-language title to use natural Russian grammar. Suggested replacement (preserving article title element): <title>Почему я не сделал прививку от Covid</title> or <title>Почему я не делаю прививку от Covid</title>. Keep other HTML tags/attributes unchanged.",
+      "translation_quote": "Почему я не делался прививку от Covid"
+    },
+    {
+      "location": "<p> describing pigweeds (early-90s farming paragraph)",
+      "severity": "minor",
+      "source_quote": "We didn’t realize how fast our troublesome ‘pigweeds’ (and other weeds) in the south, would mutate and develop a resistance to glyphosate.",
+      "suggested_fix": "Translate the common noun 'pigweeds' into Russian rather than leaving the English term in quotes. Suggested inline fix preserving tags and punctuation: «мы не представляли, как быстро наши досаждающие сорняки — палмер-амарант (и другие сорняки) — на юге мутируют…» or «…наши докучливые сорняки (palmer amaranth, и другие)…» Ensure it appears inside the same <p> element where the English sentence occurs.",
+      "translation_quote": "Мы не понимали, как быстро наши назойливые «pigweeds» (и другие сорняки) на юге мутируют и развивают устойчивость к глифосату."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

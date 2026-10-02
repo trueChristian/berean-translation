@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<p>…Genesis 3:12-13 quote in source.html</p>",
+      "severity": "minor",
+      "source_quote": "<em>And the man said, <strong>The woman whom thou gavest to be with me, she gave me of the tree</strong>, and I did eat. And the LORD God said unto the woman, What is this that thou hast done? And the woman said, <strong>The serpent beguiled me, and I did</strong> eat –Genesis 3:12-13.</em>",
+      "suggested_fix": "The German translation is faithful but slightly awkward in phrasing. Replace the first clause's relative pronoun 'die' with the personal pronoun 'sie' for more natural contemporary German: e.g. „Und der Mensch sprach: ‚Die Frau, die du mir zur Seite gegeben hast, sie hat mir von dem Baum gegeben, und ich aß.‘“ → „Und der Mensch sprach: ‚Die Frau, die du mir zur Seite gegeben hast, sie hat mir von dem Baum gegeben, und ich aß.‘“ or more smoothly: „Und der Mensch sprach: ‚Die Frau, die du mir zur Seite gegeben hast, hat mir von dem Baum gegeben, und ich aß.‘“ Preserve the verse numbers and placement exactly as in the source.",
+      "translation_quote": "<em>Und der Mensch sprach: <strong>Die Frau, die du mir zur Seite gegeben hast, die hat mir von dem Baum gegeben</strong>, und ich aß. Und der HERR, Gott, sprach zu der Frau: Was ist das, das du getan hast? Und die Frau sprach: <strong>Die Schlange hat mich verführt, und ich aß</strong> –Genesis 3:12-13.</em>"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

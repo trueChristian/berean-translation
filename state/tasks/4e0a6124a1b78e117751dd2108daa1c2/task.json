@@ -2,7 +2,6 @@
   "article_id": "9240e6d5-f395-4db7-ab6f-3b4b603d6ea0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "34f90e3653a74618a9933fce235305fc",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:40+00:00",
   "events": [
@@ -43,18 +42,38 @@
         },
         "total_tokens": 16670
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 971,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10713,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11684
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[8]; missing: 1:31; extra: none",
-      "translation_quote": ""
+      "location": "<p>…Genesis 3:12-13 quote in source.html</p>",
+      "severity": "minor",
+      "source_quote": "<em>And the man said, <strong>The woman whom thou gavest to be with me, she gave me of the tree</strong>, and I did eat. And the LORD God said unto the woman, What is this that thou hast done? And the woman said, <strong>The serpent beguiled me, and I did</strong> eat –Genesis 3:12-13.</em>",
+      "suggested_fix": "The German translation is faithful but slightly awkward in phrasing. Replace the first clause's relative pronoun 'die' with the personal pronoun 'sie' for more natural contemporary German: e.g. „Und der Mensch sprach: ‚Die Frau, die du mir zur Seite gegeben hast, sie hat mir von dem Baum gegeben, und ich aß.‘“ → „Und der Mensch sprach: ‚Die Frau, die du mir zur Seite gegeben hast, sie hat mir von dem Baum gegeben, und ich aß.‘“ or more smoothly: „Und der Mensch sprach: ‚Die Frau, die du mir zur Seite gegeben hast, hat mir von dem Baum gegeben, und ich aß.‘“ Preserve the verse numbers and placement exactly as in the source.",
+      "translation_quote": "<em>Und der Mensch sprach: <strong>Die Frau, die du mir zur Seite gegeben hast, die hat mir von dem Baum gegeben</strong>, und ich aß. Und der HERR, Gott, sprach zu der Frau: Was ist das, das du getan hast? Und die Frau sprach: <strong>Die Schlange hat mich verführt, und ich aß</strong> –Genesis 3:12-13.</em>"
     }
   ],
+  "finished_at": "2026-10-02T13:07:20+00:00",
   "id": "4e0a6124a1b78e117751dd2108daa1c2",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "deu",
@@ -128,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f177e57409e960665e128f135c5d31a6b5c47dfb179f4bf630790d509d4b9294.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "5dadc96220966a62c190dc496511f1659046db2b2d97b2ce157a164fa768d4e2",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

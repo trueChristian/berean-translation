@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8ccfe069-ef58-44a3-a71d-77b3b8dd6f62",
+    "response_id": "chatcmpl-EUXBytZpeSR3wElEWG1tIen2olZKb",
+    "usage": {
+      "completion_tokens": 1495,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3765,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5260
+    }
+  },
+  "received_at": "2026-10-02T13:07:21+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph: \"...kept behind a high wire fence connected to an old shed.\"",
+        "severity": "minor",
+        "source_quote": "kept behind a high wire fence connected to an old shed.",
+        "suggested_fix": "Заменить на: «Её держали за высоким проволочным забором, примыкающим к старому сараю.» — исправлена форма слова «старой сараю» на корректную «старому сараю». Сохранить тег абзаца и пунктуацию.",
+        "translation_quote": "«Её держали за высоким проволочным забором, примыкающим к старой сараю.»"
+      },
+      {
+        "location": "source.html paragraph describing the shed later: \"There before us was the old shed, and on the other side was the high fence...\"",
+        "severity": "minor",
+        "source_quote": "There before us was the old shed, and on the other side was the high fence which kept in Pierce’s mean dog.",
+        "suggested_fix": "Заменить «старая сарайка» на согласованную, нейтральную форму «старый сарай», чтобы сохранить единообразие и корректность: «Там впереди стоял старый сарай, а по ту сторону — высокий забор, который держал злую собаку Пирса.»",
+        "translation_quote": "«Там впереди стояла старая сарайка, а по ту сторону — высокий забор, который держал злую собаку Пирса.»"
+      },
+      {
+        "location": "source.html paragraph: \"Every day when we walked to school, that dog frightened us terribly with his fierce barking and growling.\"",
+        "severity": "minor",
+        "source_quote": "...frightened us terribly with his fierce barking and growling.",
+        "suggested_fix": "Заменить «рёваньем» на корректное русское слово «рычанием»: «эта собака ужасно нас пугала своим лаем и рычанием.»",
+        "translation_quote": "«эта собака ужасно нас пугала своим лаем и рёваньем.»"
+      },
+      {
+        "location": "source.html paragraph: \"...sitting in the middle of the dirt road, with her hands behind her on the hard packed gravel...\"",
+        "severity": "minor",
+        "source_quote": "sitting in the middle of the dirt road, with her hands behind her on the hard packed gravel, feet and legs in the air, kicking and kicking...",
+        "suggested_fix": "Заменить неточное/неестественное «твёрдый утёс из гравия» на адекватную передачу «твёрдой утрамбованной гравийной поверхности/дороге»: «она упала и сидела посреди грунтовой дороги, опираясь руками о твёрдую утрамбованную гравийную поверхность, ноги и ступни в воздухе, бьётся и бьётся...». Сохранить структуру абзаца и HTML.",
+        "translation_quote": "«она упала и сидит посреди грунтовой дороги, опираясь руками о твёрдый утёс из гравия, ноги и ступни в воздухе, бьётся и бьётся, кувыркаясь...»"
+      },
+      {
+        "location": "source.html paragraph: \"Still, we hurried by as fast as our legs could take us.\"",
+        "severity": "minor",
+        "source_quote": "Still, we hurried by as fast as our legs could take us.",
+        "suggested_fix": "Заменить «быстрей» на нормативное «быстрее»: «Тем не менее мы проскальзывали мимо как можно быстрее.»",
+        "translation_quote": "«Тем не менее мы проскальзывали мимо как можно быстрей.»"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

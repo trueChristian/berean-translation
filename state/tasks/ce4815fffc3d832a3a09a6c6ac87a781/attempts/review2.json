@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:07:21+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html paragraph 2 (heading and first sentences)\",\"severity\":\"major\",\"source_quote\":\"Receive admonition. First, I admonish you, my most beloved children, always allow yourselves to be instructed by those who fear the Lord.\",\"suggested_fix\":\"Translate the heading and sentences to convey admonition (warning/encouragement), not praise or punishment. For example: \\\"Pokea adhimisho (au: Pokea onyo). Kwanza, nawatahadharisha, watoto wangu mpenzi, msiache kujiwezesha kufundishwa na wale wanaomcha Bwana.\\\" Preserve imperative tone and meaning that the mother is admonishing, not praising. Keep structure and HTML tags unchanged.\",\"translation_quote\":\"<strong>Pokea adhabu.</strong> Kwanza, ninawapongeza, watoto wangu wa mpenzi, kila wakati jiwekee kunuliwa na wale wanaomcha Bwana.\"},{\"location\":\"source.html paragraph 2 (sentence about obedience and orphans)\",\"severity\":\"major\",\"source_quote\":\"As long as you obey good admonition and instruction, God will be your Father and not leave you as orphans.\",\"suggested_fix\":\"Restore intended meaning about obedience and God not leaving them as orphans. Suggested Kiswahili: \\\"Iwapo mtatimiza ushauri na mafundisho mema, Mungu atakuwa Baba yenu na hatawaacha kama yatima.\\\" Replace the existing garbled sentence but keep original punctuation and emphasis.\",\"translation_quote\":\"Muda wote mnatimiza ushauri na mafundisho mema, Mungu atakuwa Baba yenu na wasiwasi kuwatupa yatakayowafanya waachwe kama yatokanayo.\"},{\"location\":\"source.html paragraph 2 (scripture quotation phrase)\",\"severity\":\"minor\",\"source_quote\":\"For David says: 'What man is he that feareth the LORD? him shall he teach in the way that he shall choose –Psalm 25:12.'\",\"suggested_fix\":\"The quoted Scripture must be translated idiomatically and accurately into Kiswahili. The current rendering is understandable but awkward. Suggested Kiswahili: \\\"Maana anasema Daudi: 'Ni nani yule anayeogopa Bwana? Naye atamfundisha njia atakayomchagua.' —Zaburi 25:12.\\\" Ensure book name uses conventional form \\\"Zaburi\\\" and keep verse number as printed.\",\"translation_quote\":\"Kwa kuwa David anasema: <em>Nani yule mtu anayemuogopa BWANA? ndiye atakayemfundisha njia atakayomchagua –Zaburi 25:12.</em>\"},{\"location\":\"source.html heading 'Guard your tongue.' paragraph\",\"severity\":\"minor\",\"source_quote\":\"Guard your tongue, that it speak no evil. Do not practice deceit or backbiting with your lips.\",\"suggested_fix\":\"Translation should use standard Kiswahili idioms: e.g., \\\"Linda ulimi wako usilozungumze mabaya. Usifanye udanganyifu wala kumtukana wengine kwa midomo yako.\\\" Replace literal or awkward phrasing (e.g., \\\"usiliseme mabaya\\\") with these idiomatic forms while preserving meaning.\",\"translation_quote\":\"Watoto wangu wapendwa, linda ulimi wenu, usiliseme mabaya. Msifanye udanganyifu wala kueneza chuki kwa midomo yenu.\"},{\"location\":\"source.html heading 'Receive admonition.' (heading choice)\",\"severity\":\"minor\",\"source_quote\":\"Receive admonition.\",\"suggested_fix\":\"Heading translated as \\\"Pokea adhabu\\\" (meaning punishment) is a semantic error. Use a correct Kiswahili equivalent such as \\\"Pokea onyo\\\" or \\\"Pokea mafundisho\\\" to match the English heading. Preserve tag structure.\",\"translation_quote\":\"<strong>Pokea adhabu.</strong>\"}],\"passed\":false,\"score\":72}",
+    "content_bytes": 3317,
+    "content_evidence_truncated": false,
+    "content_sha256": "af3ebd2b54297382c8c19153b32e7c04dc3631eefe4d8c22e27e14c4d47cd86a",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1340,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9089,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10429
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

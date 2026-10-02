@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.section / translation.section",
+      "severity": "minor",
+      "source_quote": "Inspirations for Youth",
+      "suggested_fix": "Use a natural, idiomatic Dutch equivalent. Either keep the current translation or consider the slightly more literal plural 'Inspiraties voor jongeren' or the more common editorial heading 'Inspiratie voor jongeren'. No change required if the publisher prefers the present wording.",
+      "translation_quote": "Inspiratie voor jongeren"
+    },
+    {
+      "location": "Throughout article (divine-name capitalization)",
+      "severity": "minor",
+      "source_quote": "(English original uses 'the Lord, Jesus Christ' and ordinary capitalization)",
+      "suggested_fix": "Ensure consistent modern Dutch capitalization for divine names. The translation mixes 'Heere', 'HEERE' and 'den Heere'. Standard contemporary Dutch editorial practice is to use 'de Heere' or 'de Heer' consistently. Pick one form and apply it consistently throughout the article.",
+      "translation_quote": "Instances such as 'de Heere', 'HEERE', and 'den Heere' appear in the translation."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "<p>Detta nummer av tidskriften kan verka komma snabbare på hälarna efter det förra.</p>",
+      "severity": "minor",
+      "source_quote": "This magazine issue may seem to be arriving more quickly on the heels of the last one.",
+      "suggested_fix": "Bevara meningen och idiomen på svenska. Föreslagen ersättning inom samma tag: <p>Detta nummer av tidskriften kan verka komma snabbare efter det förra.</p>",
+      "translation_quote": "Detta nummer av tidskriften kan verka komma snabbare på hälarna efter det förra."
+    },
+    {
+      "location": "<p>... få varje kvartalsnummer ut i mer tid.</p>",
+      "severity": "minor",
+      "source_quote": "We are continuing to tighten up our schedule as we work towards getting each quarterly issue out in a more timely manner.",
+      "suggested_fix": "\"i mer tid\" är otydligt på svenska. Bevara HTML och struktur; föreslagen ersättning: <p>Vi fortsätter att tajta till vårt schema medan vi arbetar för att få ut varje kvartalsnummer i bättre tid.</p>",
+      "translation_quote": "Vi fortsätter att tajta till vårt schema medan vi arbetar för att få varje kvartalsnummer ut i mer tid."
+    },
+    {
+      "location": "<p>... Guds Bibelns Gud lämnar oss inte bara, eller vänder ryggen åt oss ...</p>",
+      "severity": "minor",
+      "source_quote": "...the God of the Bible doesn’t just drop us, or turn His back on us, the instant that we take a wrong turn or a misstep.",
+      "suggested_fix": "\"Guds Bibelns Gud\" är felaktig/klumpig svenska. Behåll taggar och sammanhang. Förslag: <p>…Bibelnns Gud lämnar oss inte bara, eller vänder ryggen åt oss i samma ögonblick som vi tar ett felsteg.</p>  (Bättre alternativ: \"Bibeln visar att Gud lämnar oss inte...\" eller helt enkelt \"Gud lämnar oss inte...\")",
+      "translation_quote": "Guds Bibelns Gud lämnar oss inte bara, eller vänder ryggen åt oss i samma ögonblick som vi tar ett felsteg eller gör en avvikelse."
+    },
+    {
+      "location": "<p>... <em>…gör er därför urskilda från dem, och rör er ifrån dem… – 2 Korintierbrevet 6:17.</em></p>",
+      "severity": "minor",
+      "source_quote": "…come out from among them, and be ye separate… –2 Corinthians 6:17.",
+      "suggested_fix": "\"urskilda\" och \"rör er ifrån dem\" är olämpliga svenska uttryck för den bibelöversättningens innebörd. Behåll HTML och kursiv markering. Förslag: <p>…<em>kom ut från dem och håll er åtskilda… – 2 Korintierbrevet 6:17.</em></p>",
+      "translation_quote": "…gör er därför urskilda från dem, och rör er ifrån dem… – 2 Korintierbrevet 6:17."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph salutation (source.html <p class=\"drop-cap\"> and following paragraph)",
+      "severity": "minor",
+      "source_quote": "Grace, peace, and mercy from God, the Father, and the Lord, Jesus Christ, to my dear children, David, Betgen, and Tanneken.",
+      "suggested_fix": "Use a phrasing that preserves the author's address to her children. Replace \"إخوتي الصغار الأعزاء، داود وبيتجن وتانكن\" with \"أولادي الأعزاء داود وبيتجن وتانكن\" (or \"أطفالي الأعزاء داود وبيتجن وتانكن\") to match the original family‑address tone.",
+      "translation_quote": "النِّعمة والسلام والرحمة من الله الآب والرب يسوع المسيح لإخوتي الصغار الأعزاء، داود وبيتجن وتانكن."
+    },
+    {
+      "location": "Paragraph beginning \"Paul teaches us to live peaceably...\"",
+      "severity": "minor",
+      "source_quote": "Paul teaches us to live peaceably with all men if it be possible. –see 1 Peter 3:10 and Romans 12:18.",
+      "suggested_fix": "Correct typographical/spacing errors and verb form: replace \"يعلمانَا بولس أن نحيَا بسلام\" with \"يعلّمنا بولس أن نحيا بسلام\" so the Arabic verb forms and spacing are standard and readable.",
+      "translation_quote": "يعلمانَا بولس أن نحيَا بسلام مع جميع الناس إذا أمكن. <em>–انظر 1 بطرس 3:10 ورومية 12:18.</em>"
+    },
+    {
+      "location": "Paragraph about Daniel, Shadrach, Meshach, and Abednego",
+      "severity": "minor",
+      "source_quote": "Be sober and thankful as you have heard me read of Daniel, Shadrach, Meshach, and Abednego.",
+      "suggested_fix": "Use conventional Arabic Bible forms for the three Babylonian companions to match readers' expectations. Replace \"دانيال وشتراك وميشأخ وعدنغو\" with the commonly accepted Arabic forms, e.g. \"دانيال وشدرخ وميشاع وعبد نغو\" (or the edition's preferred Arabic Bible spelling). Ensure consistency with the site's Bible name usage.",
+      "translation_quote": "كونوا رصينين وشاكرين كما سمعتم أني أقرأ عن دانيال وشتراك وميشأخ وعدنغو."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

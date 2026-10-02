@@ -2,7 +2,6 @@
   "article_id": "6080d813-75a2-4123-9552-3c4f75c81219",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "34f90e3653a74618a9933fce235305fc",
   "campaign": "gh-37008082026",
   "created_at": "2026-10-02T12:41:40+00:00",
   "events": [
@@ -43,18 +42,45 @@
         },
         "total_tokens": 9799
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 853,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5904,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6757
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[41]: source /article[1]/p[14]/em[1]/strong[1] ('start', 'strong', ()); translation /article[1]/p[14]/em[1] ('end', 'em')",
-      "translation_quote": ""
+      "location": "source.title / translation.title",
+      "severity": "minor",
+      "source_quote": "Why I Have Not Gotten the Covid Shot",
+      "suggested_fix": "Fix target-language title to use natural Russian grammar. Suggested replacement (preserving article title element): <title>Почему я не сделал прививку от Covid</title> or <title>Почему я не делаю прививку от Covid</title>. Keep other HTML tags/attributes unchanged.",
+      "translation_quote": "Почему я не делался прививку от Covid"
+    },
+    {
+      "location": "<p> describing pigweeds (early-90s farming paragraph)",
+      "severity": "minor",
+      "source_quote": "We didn’t realize how fast our troublesome ‘pigweeds’ (and other weeds) in the south, would mutate and develop a resistance to glyphosate.",
+      "suggested_fix": "Translate the common noun 'pigweeds' into Russian rather than leaving the English term in quotes. Suggested inline fix preserving tags and punctuation: «мы не представляли, как быстро наши досаждающие сорняки — палмер-амарант (и другие сорняки) — на юге мутируют…» or «…наши докучливые сорняки (palmer amaranth, и другие)…» Ensure it appears inside the same <p> element where the English sentence occurs.",
+      "translation_quote": "Мы не понимали, как быстро наши назойливые «pigweeds» (и другие сорняки) на юге мутируют и развивают устойчивость к глифосату."
     }
   ],
+  "finished_at": "2026-10-02T13:07:20+00:00",
   "id": "170b11696df4a50fe029a6769667dc51",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "rus",
@@ -128,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/733eeaa1a812b6193e133350be5a00b31e3585142bda55cfaea2f725f3dda88f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "f7d8a08704733486f924816fbfd515b7c40bf25c984ecd111bf0fe403aaa2dde",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

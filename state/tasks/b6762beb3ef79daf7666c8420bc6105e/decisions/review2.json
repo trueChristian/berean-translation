@@ -1,0 +1,63 @@
+{
+  "findings": [
+    {
+      "location": "<p>Every day when we walked to school, that dog frightened us terribly with his fierce barking and growling. But Mother always reminded us to pray and remember the Bible verse which says: <em>What time I am afraid, I will trust in thee –Psalm 56:3.</em> Still, we hurried by as fast as our legs could take us.</p>",
+      "severity": "critical",
+      "source_quote": "What time I am afraid, I will trust in thee –Psalm 56:3.",
+      "suggested_fix": "Translate the quoted Scripture into contemporary Modern Hebrew and keep the reference exactly as printed. For example: <em>בְּיוֹם אֲנִי אָמוּר זֶה אוֹרֵד, אֶבְטַח בָּךְ – תהילים 56:3.</em> (Use fluent contemporary Hebrew wording; preserve the chapter:verse numbering exactly as in the source.)",
+      "translation_quote": "<em>When I am afraid, I will trust in thee – Psalm 56:3.</em> (left in English in the translation)"
+    },
+    {
+      "location": "<p>... 'I will trust and not be afraid.' </p>",
+      "severity": "major",
+      "source_quote": "I will trust and not be afraid.",
+      "suggested_fix": "Translate this sentence into Hebrew, matching the meaning of the English sentence and consistent with the quoted Scripture nearby. Example: 'אבֱטַח ולא אפחד.' Place the Hebrew text inside the same paragraph where the English phrase now appears, preserving HTML tags and order.",
+      "translation_quote": "'I will trust and not be afraid.' (left in English in the translation paragraph)"
+    },
+    {
+      "location": "<p>\"...There is a verse in Psalms which says: <em>Save me from the lion’s mouth… –Psalm 22:21.</em>...\"</p>",
+      "severity": "critical",
+      "source_quote": "Save me from the lion’s mouth… –Psalm 22:21.",
+      "suggested_fix": "Translate the quoted Scripture into Hebrew and preserve the chapter:verse exactly. For example: <em>הַצִּילֵנִי מִפִּי הָאַרִי… – תהילים 22:21.</em> (Use natural contemporary Hebrew phrasing; keep the ellipsis and the reference numbering unchanged.)",
+      "translation_quote": "<em>Save me from the lion’s mouth… – Psalm 22:21.</em> (left in English in the translation)"
+    },
+    {
+      "location": "<article> title and opening metadata</article>",
+      "severity": "critical",
+      "source_quote": "Saved From the “Lion’s” Mouth",
+      "suggested_fix": "The article title must be translated into the target language. Provide a natural contemporary Hebrew title that preserves the author's meaning and theology, for example: \"ניצלנו מפי ה\"ארי\"\" or \"ניצול מפי ה'ארי'\" (choose the best idiomatic rendering). Do not leave the English title in the translated title field. Preserve any HTML structure around the title.",
+      "translation_quote": "\"Saved From the “Lion’s” Mouth\" (title remained in English in the translation metadata)"
+    },
+    {
+      "location": "<p>We also walked every day to school, which was quite a bit further than the Brightbill farm. ... There was only one problem though. The Rhine family had an old man living in their summer house. His name was Pierce, and he had a very fierce dog; at least he acted very fierce! He was kept behind a high wire fence connected to an old shed.</p>",
+      "severity": "minor",
+      "source_quote": "he had a very fierce dog; at least he acted very fierce!",
+      "suggested_fix": "Render the meaning naturally in Hebrew. The current rendering 'כלב שאילץ פחד; לפחות כך הוא התנהג!' is unidiomatic and changes sense. Suggestion: 'היה לו כלב נורא מפחיד; לפחות הוא נהג כך!' or 'היה לו כלב מרושע שנראה נורא, או לפחות התנהג כך.' Preserve punctuation and sentence order in the same <p> paragraph.",
+      "translation_quote": "'היה לו כלב שאילץ פחד; לפחות כך הוא התנהג!'"
+    },
+    {
+      "location": "<p>...we passed through the gully, over the rippling creek... </p>",
+      "severity": "major",
+      "source_quote": "gully",
+      "suggested_fix": "Replace the incorrect translation 'גאולה' with the correct geographic term. Use 'שוחה', 'נחלית', 'ערוץ', or 'קניון קטן' depending on sense; in this rural context 'ערוץ' or 'שקע' is appropriate. For example: 'עברנו דרך הערוץ' or 'עברנו דרך תקע/שקע' — pick 'ערוץ' if consistent with surrounding rural imagery. Preserve the paragraph's HTML tags.",
+      "translation_quote": "'גאולה' (translated as 'gully' → 'גאולה')"
+    },
+    {
+      "location": "<p>He whipped and whipped that dog and finally got him away from Lori and back inside the fence where he belonged...</p>",
+      "severity": "minor",
+      "source_quote": "He whipped and whipped that dog and finally got him away from Lori and back inside the fence where he belonged, as Lori and I stood there, trembling, and crying with relief.",
+      "suggested_fix": "Correct the awkward/unintended words. The current Hebrew 'היכה ושיפך בשוט את הכלב' is ungrammatical. Suggested rendering: 'הוא היכה בשוט את הכלב שוב ושוב, ולבסוף הצליח להרחיקו מלורי ולהחזירו אל תוך הגדר למקומו, ולורי ואני עמדנו שם רועדות ובוכות מרוב הקלה.' Preserve punctuation and tags.",
+      "translation_quote": "'היכה ושיפך בשוט את הכלב ולבסוף הצליח להרחיקו מלורי ולהחזירו בתוך הגדר למקום שבו הוא שייך, כאשר לורי ואני עמדנו שם, רועדות ובוכות מרוב הקלה.'"
+    },
+    {
+      "location": "<p>...there before us was the old shed, and on the other side was the high fence which kept in Pierce’s mean dog.</p>",
+      "severity": "minor",
+      "source_quote": "Pierce’s mean dog",
+      "suggested_fix": "The translation uses 'כלב המחמד של פירס' which changes 'mean' (vicious) to 'pet'. Replace with 'הכלב המרושע/האכזרי של פירס' or 'הכלב האלים של פירס' to match the original meaning. Keep HTML structure.",
+      "translation_quote": "'כלב המחמד של פירס'"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

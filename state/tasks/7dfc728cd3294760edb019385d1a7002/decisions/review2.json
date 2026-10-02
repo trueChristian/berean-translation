@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph: \"In the very beginning, God created the world and Adam and Eve. And God saw every thing...\" (Genesis 1:31)",
+      "severity": "major",
+      "source_quote": "\"Before the Fall, everything was perfect.\"",
+      "suggested_fix": "Replace the mistranslated word \"Mwisho\" with a correct rendering of \"the Fall\" such as \"kuporomoka\" or \"kuanguka\" (e.g., \"Kabla ya kuanguka, kila kitu kilikuwa kikamilifu.\"). Preserve the surrounding sentence structure and HTML tags.",
+      "translation_quote": "\"Kabla ya Mwisho, kila kitu kilikuwa kikamilifu.\""
+    },
+    {
+      "location": "Paragraph: patient question about possible medical cause",
+      "severity": "critical",
+      "source_quote": "\"Do you think I have a thyroid problem or am low in some mineral or vitamin?\"",
+      "suggested_fix": "Correct the mistranslation of \"thyroid\". Replace \"tezi dume\" (prostate) with an accurate Kiswahili term such as \"tezi ya kiraka\" or \"tezi ya shingo (tezi ya kiraka)\" so the sentence reads e.g. \"Je, unafikiri nina tatizo la tezi ya kiraka au ninakosa madini au vitamini fulani?\" Preserve punctuation and HTML tags.",
+      "translation_quote": "\"Je, unafikiri nina tatizo la tezi dume au ninakosa madini au vitamini fulani?\""
+    },
+    {
+      "location": "Lead dialogue paragraph: patient hesitates",
+      "severity": "minor",
+      "source_quote": "“I don’t know how to explain it,” she hesitated… “I just feel tired most of the time.\"",
+      "suggested_fix": "Use a more idiomatic Kiswahili verb for \"hesitated\" (e.g., \"alichelewa kusema\" or \"akayaza\"), and render the ellipsis naturally. For example: \"‘Siwezi kuelezea vizuri,’ alichelewa kusema… ‘Ninahisi kuchoka mara nyingi.’\" Preserve the surrounding punctuation and tags.",
+      "translation_quote": "\"Siwezi kuelezea vizuri,\" aliyeyuka… \"Ninahisi kuchoka mara nyingi.\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
