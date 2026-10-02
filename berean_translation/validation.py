@@ -31,7 +31,7 @@ def validate_repository(config, check_index=True):
         expected_files.update((pub['html_path'],pub['metadata_path']))
         source = state.source(pub)
         candidate,tail,text = state.publication_candidate(pub)
-        validate_translation(source,candidate)
+        validate_translation(source,candidate,language=language)
         if bool(tail) == pub['human_reviewed']:
             raise ContractError('Notice state disagrees with human review; run the review-sync worker')
         if digest(text) != pub['html_sha256'] or json_hash({k:candidate[k] for k in ('title','subtitle','section')}) != pub['metadata_sha256']:

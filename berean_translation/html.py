@@ -204,21 +204,32 @@ def clock_mentions(text: str, *, localized: bool = False) -> list:
     return mentions
 
 
-def protected_reference_numbers(original: str, translated: str) -> tuple[Counter, Counter]:
+def protected_reference_numbers(original: str, translated: str, *, language: str | None = None) -> tuple[Counter, Counter]:
     original, translated = decimal_digits(original), decimal_digits(translated)
+    if language in ('deu', 'heb'):
+        # Only trusted task/publication language enables localized citation
+        # grammar. Keep original offsets for the source-backed clock rules.
+        from .reference_notation import reference_mentions
+        source_references = reference_mentions(original, 'eng', target_language=language)
+        target_references = reference_mentions(translated, language)
+    else:
+        source_references = [(m.start(), m.end(), reference_value(m.group()))
+                             for m in REFERENCE_NUMBER.finditer(original)]
+        target_references = [(m.start(), m.end(), reference_value(m.group()))
+                             for m in REFERENCE_NUMBER.finditer(translated)]
     source_clocks = clock_mentions(original)
     target_clocks = clock_mentions(translated, localized=True)
     # Only a complete, one-to-one equivalent set of explicit source clocks can
     # justify exemptions in the corresponding HTML block. Extra copies, wrong
     # times, and clocks elsewhere in the article cannot consume a reference.
     if not source_clocks or Counter(x[2] for x in source_clocks) != Counter(x[2] for x in target_clocks):
-        return reference_numbers(original), reference_numbers(translated)
+        return Counter(x[2] for x in source_references), Counter(x[2] for x in target_references)
 
-    def without_clocks(text, clocks):
-        return Counter(reference_value(match.group()) for match in REFERENCE_NUMBER.finditer(text)
-                       if not any(start <= match.start() and match.end() <= end for start,end,_ in clocks))
+    def without_clocks(references, clocks):
+        return Counter(value for left, right, value in references
+                       if not any(start <= left and right <= end for start,end,_ in clocks))
 
-    return without_clocks(original, source_clocks), without_clocks(translated, target_clocks)
+    return without_clocks(source_references, source_clocks), without_clocks(target_references, target_clocks)
 
 
 def describe_reference_difference(original: Counter, translated: Counter) -> str:
@@ -227,7 +238,7 @@ def describe_reference_difference(original: Counter, translated: Counter) -> str
     return f'missing: {describe(original - translated)}; extra: {describe(translated - original)}'
 
 
-def validate_translation(source: dict, candidate: dict) -> Fragment:
+def validate_translation(source: dict, candidate: dict, *, language: str | None = None) -> Fragment:
     if not isinstance(candidate, dict) or set(candidate) != {'html','title','subtitle','section'}:
         raise ContractError('Translation must contain exactly html, title, subtitle, section')
     if not isinstance(candidate['html'], str):
@@ -247,7 +258,8 @@ def validate_translation(source: dict, candidate: dict) -> Fragment:
         raise ContractError('A substantive block was emptied or inserted')
     for path in dict.fromkeys([*original.text_by_block, *translated.text_by_block]):
         left, right = protected_reference_numbers(' '.join(original.text_by_block.get(path, [])),
-                                                 ' '.join(translated.text_by_block.get(path, [])))
+                                                 ' '.join(translated.text_by_block.get(path, [])),
+                                                 language=language)
         if left != right:
             raise ContractError(f'Scripture chapter/verse numbers or ranges changed at {path}; '
                                 + describe_reference_difference(left, right))
