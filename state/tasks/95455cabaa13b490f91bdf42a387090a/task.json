@@ -2,7 +2,6 @@
   "article_id": "b3c8e9e3-2b81-4f91-846f-23e68fbd5b70",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,38 +61,44 @@
         },
         "total_tokens": 14359
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1096,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8670,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9766
+      }
     }
   ],
   "findings": [
     {
-      "location": "source.html — opening paragraph (2 Timothy quote and names)",
-      "severity": "major",
-      "source_quote": "When I call to remembrance the unfeigned faith that is in thee, which dwelt first in thy grandmother Lois, and thy mother Eunice; and I am persuaded that in thee also. — 2 Timothy 1:5 (reference in opening paragraph)",
-      "suggested_fix": "Restore the proper name as printed in the authoritative English: translate Eunice as the conventional Norwegian form \"Eunike\" (or keep \"Eunice\" only if that is the publication's standard), and ensure Lois is likewise rendered as \"Lois\" or the conventional Norwegian form. Keep the rest of the verse translation intact and maintain the Scripture reference. Preserve the surrounding <p class=\"drop-cap\"><em>…</em></p> tags and punctuation.",
-      "translation_quote": "...som først bodde i din bestemor Lois og i din mor Evnis, og jeg har visshet om at den også bor i deg. Derfor minner jeg deg om å vekke opp Guds nådegave... — 2 Timoteus 1:4-7."
-    },
-    {
-      "location": "source.html — multiple occurrences of Eve (original \"Eve\")",
-      "severity": "major",
-      "source_quote": "As with their mother Eve, many of these voices appeal to her feminine spirit, but as their mother Eve discovered, unless it is the voice of God, it leads to death and destruction.",
-      "suggested_fix": "Translate the biblical proper name consistently as the conventional Norwegian form \"Eva\" (not \"Evva\"). Update every occurrence in the article where the English \"Eve\" appears to \"Eva\", preserving punctuation and sentence structure. Do not alter the theological content. Preserve original HTML tags.",
-      "translation_quote": "Som med deres mor Evva appellerer mange av disse stemmene til hennes kvinnelige ånd, men som deres mor Evva oppdaget, ..."
-    },
-    {
-      "location": "source.subtitle (metadata)",
-      "severity": "major",
-      "source_quote": "THE DISCIPLESHIP SERIES (subtitle in English)",
-      "suggested_fix": "Translate the subtitle into Norwegian Bokmål to match the other translated metadata fields. A suitable translation is: \"DISIPPELSKAPSEN\" or preferably \"DISIPPELSKAPSSERIEN\" depending on house style. Replace the English subtitle value while preserving the field structure. Do not change HTML article body tags (metadata lives outside source.html).",
-      "translation_quote": "THE DISCIPLESHIP SERIES"
-    },
-    {
-      "location": "source.title (metadata)",
+      "location": "Paragraph: «Jeg vil gjerne at vi skal vurdere hvordan tro på Gud påvirker de primære lengslene i hjertet hos kvinnen. Hver kvinne lengter etter identitet, trygghet og mening. Jesus har kommet for å møte denne hjertelængselen.» and other occurrences of «hjertelængsel/hjertelængsler/hjertelængsler»",
       "severity": "minor",
-      "source_quote": "Women of Faith (article title)",
-      "suggested_fix": "Prefer the idiomatic Norwegian rendering that preserves the author's repeated theological phrase. Suggested title: \"Troens kvinner\" (rather than \"Kvinner i tro\"). Replace title field text accordingly. This preserves theology and the phrase used repeatedly in the body. Do not change HTML tags or order.",
-      "translation_quote": "Kvinner i tro"
+      "source_quote": "Jesus has come to meet that heart longing.",
+      "suggested_fix": "Use contemporary Bokmål spelling/idiom. Replace instances of «hjertelængsel», «hjertelængsler» or similar with «hjertets lengsel» or «hjertets lengsler» (or plural «hjertets lengsler» / «hjertelngsler» if preferred), and use «lengsel» / «lengsler» rather than Danish-style «længsel/længsler». For example: «Jesus har kommet for å møte denne hjertets lengselen.» or preferably «Jesus har kommet for å møte denne hjertets lengsel.»",
+      "translation_quote": "Jesus har kommet for å møte denne hjertelængselen."
+    },
+    {
+      "location": "Paragraph: «Sara var faktisk Abrahams halv-søster. De hadde samme far, men ikke samme mor.»",
+      "severity": "minor",
+      "source_quote": "Sarah was indeed Abraham’s half-sister. They had the same father, but not the same mother.",
+      "suggested_fix": "Use standard Bokmål compounding. Replace «halv-søster» with «halvsøster» (no hyphen): «Sara var faktisk Abrahams halvsøster.»",
+      "translation_quote": "Sara var faktisk Abrahams halv-søster."
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "95455cabaa13b490f91bdf42a387090a",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "nob",
@@ -137,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 62,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8cfe76a75d2704a515e0bc44af297afb5a26a042a45e137da71cec303c344e97.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "84afe7c1fae039864478445557b2cd71f3647f31db181086b533ee7c5b51637a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

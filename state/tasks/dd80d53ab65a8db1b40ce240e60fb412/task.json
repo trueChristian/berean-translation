@@ -2,7 +2,6 @@
   "article_id": "02db24ae-5132-49c6-a6fd-da73417871e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,38 +61,44 @@
         },
         "total_tokens": 9244
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 954,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5289,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6243
+      }
     }
   ],
   "findings": [
     {
-      "location": "source.html — opening emphasized Scripture (Ephesians 1:17-18)",
-      "severity": "critical",
-      "source_quote": "That the God of our Lord Jesus Christ, the Father of glory, may give unto you the spirit of wisdom and revelation in the knowledge of him: The eyes of your understanding being enlightened; that ye may know what is the hope of his calling… –Ephesians 1:17-18.",
-      "suggested_fix": "Translate the quoted Scripture into contemporary standard Hindi, preserving the verse numbers and the meaning of the printed English. Example (rendered as quoted Scripture in Hindi): \"हमारे प्रभु यीशु मसीह के परमेश्वर, महिमा के पिता, आपको उसकी ज्ञान में ज्ञान और प्रकाश के आत्मा दें, कि आपके समझ के नेत्र प्रकाशित हों; कि आप जानें कि उसकी बुलाहट की क्या आशा है… —एफ़िसियों 1:17-18.\" (Place the Hindi translation exactly where the English scripture currently appears, keeping the italic/emphasis tags and the verse reference.)",
-      "translation_quote": "That the God of our Lord Jesus Christ, the Father of glory, may give unto you the spirit of wisdom and revelation in the knowledge of him: The eyes of your understanding being enlightened; that ye may know what is the hope of his calling… –Ephesians 1:17-18."
-    },
-    {
-      "location": "translation metadata — title field",
-      "severity": "critical",
-      "source_quote": "The Hope of Your Calling",
-      "suggested_fix": "Translate the article title into contemporary standard Hindi (preserving the article-title role and not changing HTML structure). Suggested translation: \"आपकी बुलाहट की आशा\" or \"तुम्हारी बुलाहट की आशा\" depending on publication style (use respectful/plural 'आपकी' if the magazine uses formal address). Replace the English title text with the chosen Hindi text in the translation title field.",
-      "translation_quote": "The Hope of Your Calling"
-    },
-    {
-      "location": "translation metadata — section field",
-      "severity": "critical",
-      "source_quote": "INSPIRATIONS FOR YOUTH",
-      "suggested_fix": "Translate the section name into contemporary standard Hindi and replace the English section text. Suggested translation: \"युवाओं के लिए प्रेरणाएँ\". Ensure the translated section string replaces the English exactly in the translation.section field.",
-      "translation_quote": "INSPIRATIONS FOR YOUTH"
-    },
-    {
-      "location": "translation metadata — subtitle field",
+      "location": "<p><em>…—लूका 19:12-13।</em></p>",
       "severity": "minor",
-      "source_quote": "LIVING AS YOUTH WITH AN ETERNAL PERSPECTIVE",
-      "suggested_fix": "Fully translate the subtitle into Hindi and remove the remaining English word 'YOUTH'. The translation already provided is close but contains the English word. Suggested subtitle: \"युवा के रूप में अनन्त परिप्रेक्ष्य के साथ जीना\" or more idiomatically \"युवाओं के लिए: अनन्त परिप्रेक्ष्य के साथ जीना\". Replace the translation.subtitle value with the fully Hindi string.",
-      "translation_quote": "YOUTH के रूप में अनन्त परिप्रेक्ष्य के साथ जीना"
+      "source_quote": "And he called his ten servants, and delivered them ten pounds, and said unto them, Occupy till I come –Luke 19:12-13.",
+      "suggested_fix": "Translate the phrase “Occupy till I come” into natural, idiomatic Hindi that conveys the charge to use/manage/engage the resources until the master returns. For example: \"और उन से कहा, 'मेरे आने तक काम में लगो'\" or \"'मेरे आने तक इनसे कारोबार करते रहो'\". Preserve the verse reference and surrounding HTML.",
+      "translation_quote": "\"मेरे आने तक यह ग्रहण करो\" –लूका 19:12-13।"
+    },
+    {
+      "location": "<p><em>हमारे प्रभु यीशु मसीह…प्रकटव्य का आत्मा…</em></p>",
+      "severity": "minor",
+      "source_quote": "That the God of our Lord Jesus Christ, the Father of glory, may give unto you the spirit of wisdom and revelation in the knowledge of him: The eyes of your understanding being enlightened;",
+      "suggested_fix": "Use a more natural Hindi rendering for “spirit of wisdom and revelation” (प्रकटव्य का आत्मा is awkward). Suggested: \"बुद्धि और प्रकटता का आत्मा\" or \"बुद्धि और प्रकट होने की आत्मा\" so the meaning is clear. Preserve surrounding punctuation, emphasis tags, and verse reference.",
+      "translation_quote": "\"वह आपको उसके ज्ञान में बुद्धि और प्रकटव्य का आत्मा दें; आपके समझ के नेत्र प्रकाशित हों;\""
     }
   ],
+  "finished_at": "2026-10-02T11:25:28+00:00",
   "id": "dd80d53ab65a8db1b40ce240e60fb412",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "hin",
@@ -137,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d4096c8e219a9ff87d56f7ba5b34e9e5d1258bfb4281edd00108b01120b10b28.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "e60beaba9e12466f123cfd1ae7a96811ce97cb1cb87bf5ed6c8de7f6afdd6660",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

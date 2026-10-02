@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "00f75561-cf8e-4753-9d10-0f8bf42c26f7",
+    "response_id": "chatcmpl-EUVeKF6HPcLVnqwhf0M8RwaYmyqF1",
+    "usage": {
+      "completion_tokens": 1074,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3885,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4959
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 3 (source.html) — phrase: \"hammock\"",
+        "severity": "minor",
+        "source_quote": "Ellie’s father was resting in a hammock out on the lawn while the rest of the family tried to find the most comfortable place to seek relief from the heat.",
+        "suggested_fix": "Translate the common noun \"hammock\" into standard Indonesian rather than leaving the English word. For example: \"Ayah Ellie sedang beristirahat di sebuah hamok (ayunan) di halaman rumput\" or simply \"Ayah Ellie sedang beristirahat di sebuah ayunan/hamok di halaman rumput.\" Preserve original sentence HTML structure and punctuation.",
+        "translation_quote": "Ayah Ellie sedang beristirahat di hammock di halaman rumput sementara anggota keluarga lainnya mencoba mencari tempat paling nyaman untuk mengurangi panas."
+      },
+      {
+        "location": "Paragraph 13 (source.html) — phrase: \"gable ends\"",
+        "severity": "minor",
+        "source_quote": "Indeed, the roof had been cleanly stripped away and the gable ends stoically stood there, holding up nothing.",
+        "suggested_fix": "Remove the parenthetical English and translate the architectural term into natural Indonesian. For example: \"Memang, atap itu tersingkap bersih dan ujung-ujung gonjong berdiri tegak tanpa menyangga apa pun.\" Or: \"...dan ujung-ujung atap (gonjong) berdiri tegak...\" Keep the same sentence structure and HTML.",
+        "translation_quote": "Memang, atap itu tersingkap bersih dan ujung-ujung gonjong (gable) berdiri tegak tanpa menyangga apa pun."
+      },
+      {
+        "location": "Paragraph 4 (source.html) — phrase: \"sunporch\" translation choice",
+        "severity": "minor",
+        "source_quote": "The family gathered on the sunporch to watch the approaching storm.",
+        "suggested_fix": "Use a more natural, standard Indonesian term for \"sunporch\". Suggested translations: \"serambi bercahaya\", \"serambi\", or simply \"teras\". Example: \"Keluarga berkumpul di serambi untuk menyaksikan badai yang mendekat.\" Preserve HTML and punctuation.",
+        "translation_quote": "Keluarga berkumpul di teras yang menghadap matahari untuk menyaksikan badai yang mendekat."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

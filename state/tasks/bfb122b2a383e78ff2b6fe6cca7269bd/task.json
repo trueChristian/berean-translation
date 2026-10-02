@@ -2,7 +2,6 @@
   "article_id": "50068373-cc3d-4587-a605-3f37fc05b3ad",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,59 +61,45 @@
         },
         "total_tokens": 16990
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1382,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10189,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11571
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "source.html — multiple <em> Scripture quotations (James 1:5, Psalm 103:2-3, James 5:16, James 2:15-16, 1 Corinthians 12:26, Philippians 1:21)",
-      "severity": "critical",
-      "source_quote": "<em>If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him –James 1:5.</em>\n\n...\n\n<em>Bless the LORD, O my soul, and forget not all his benefits: Who forgiveth all thine iniquities; who healeth all thy diseases –Psalm 103:2-3.</em>\n\n...\n\n<em>…The effectual fervent prayer of a righteous man availeth much –James 5:16.</em>\n\n...\n\n<blockquote>\n  <p><em>If a brother or sister be naked, and destitute of daily food, And one of you say unto them, Depart in peace, be ye warmed and filled; notwithstanding ye give them not those things which are needful to the body; what doth it profit? –James 2:15-16.</em></p>\n</blockquote>\n\n...\n\n<em>…اشتكى عضو اشتكى معه سائر الأعضاء… –1 Corinthians 12:26.</em>\n\n...\n\n<em>For to me to live is Christ, and to die is gain –Philippians 1:21.</em>",
-      "suggested_fix": "Translate every quoted Scripture passage into Modern Standard Arabic, preserving the exact chapter:verse citations and placement. Keep the surrounding HTML (<em>, <blockquote>, etc.) unchanged. Example fixes (replace English inner text with Arabic):\n- Replace <em>If any of you lack wisdom... –James 1:5.</em> with <em>«وإن كان لأحد منكم نقص حكمة فليطلب من الله ... يُعطى له» – يعقوب 1:5.</em> (render the verse in Arabic S. Standard phrasing preserving citation).\n- Replace the Psalm quote with an Arabic rendering: <em>«بارك يا نفسي الرب، ولا تنس كل مزاياه: الذي يغفر كل آثامك، الذي يشفي كل أمراضك» – مزمور 103:2-3.</em>\n- Replace James 5:16, James 2:15-16, 1 Corinthians 12:26, Philippians 1:21 with appropriate Arabic translations of those quoted lines, preserving punctuation and the original citation placement.\n(Do not change tags, do not alter verse numbers or their placement; only replace the English quoted text with faithful Arabic translations.)",
-      "translation_quote": "Same quoted passages left in English in the translation (<em>...</em>), e.g. <em>If any of you lack wisdom... –James 1:5.</em>, <em>Bless the LORD, O my soul... –Psalm 103:2-3.</em>, etc."
-    },
-    {
-      "location": "source.subtitle / translation.subtitle",
+      "location": "Paragraph containing James 1:5 (near \"Choosing Wisely\" section)",
       "severity": "major",
-      "source_quote": "PART 2",
-      "suggested_fix": "Translate the subtitle text into Arabic. For example: replace \"PART 2\" with \"الجزء 2\" (keep exact HTML placement/attributes).",
-      "translation_quote": "PART 2"
+      "source_quote": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him –James 1:5.",
+      "suggested_fix": "Translate the entire quoted verse into Arabic faithfully (do not truncate with ellipsis). Preserve the full meaning of the English printed verse. Suggested Arabic rendering to insert in place of the current ellipses: «إن كان لأحد منكم نقصُ حكمةٍ فليطلُبْ منَ اللهِ الّذِي يُعطي جَميعَ النّاسِ بسَخاءٍ، ولا يَوبِخُ، فيُعطى لهُ» – يعقوب 1:5. Keep the citation \"– يعقوب 1:5.\"",
+      "translation_quote": "<em>If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him –James 1:5.</em> We need wisdom..."
     },
     {
-      "location": "source.section / translation.section",
-      "severity": "major",
-      "source_quote": "A Word From A Doctor",
-      "suggested_fix": "Translate the section metadata into Arabic. For example: replace \"A Word From A Doctor\" with \"كلمة من طبيب\" (or an equivalent MSA phrase). Do not alter other metadata structure.",
-      "translation_quote": "A Word From A Doctor"
-    },
-    {
-      "location": "source.html — heading for endnotes",
-      "severity": "major",
-      "source_quote": "<h2><em>Endnotes:</em></h2>",
-      "suggested_fix": "Translate the endnotes heading into Arabic while preserving tags. For example: <h2><em>الملاحظات الختامية:</em></h2> or <h2><em>ملاحظات ختامية:</em></h2>. Keep the <em> and <h2> tags unchanged.",
-      "translation_quote": "<h2><em>Endnotes:</em></h2>"
-    },
-    {
-      "location": "source.html — untranslated quoted blocks left in English inside body (multiple places)",
-      "severity": "major",
-      "source_quote": "Several other short quoted English strings remain in the translation, e.g. in the conclusion: <em>For to me to live is Christ, and to die is gain –Philippians 1:21.</em> (as above), and a few inline quoted phrases.",
-      "suggested_fix": "All quoted substantive English phrases that are part of the article's content (especially Scripture quotations and any other quoted sentence-length text) must be translated into Arabic. Preserve the exact citations and HTML tags. Do not leave any quoted Scripture or authorial quoted sentences in English.",
-      "translation_quote": "Same English quoted phrases left untranslated (examples repeated as above)."
-    },
-    {
-      "location": "source.html — wording/clause in Arabic translation (stylistic/clarity)",
+      "location": "Paragraph in Chemotherapy section (sentence listing cancers helped by chemo)",
       "severity": "minor",
-      "source_quote": "Many of the things that increase the risk of cancer are things that (hopefully) we, as Christian people, are already avoiding.",
-      "suggested_fix": "The translation rendered this as: \"العديد من الأشياء التي تزيد من خطر الإصابة بالسرطان هي أمور نتجنّبها نحن، كمسيحيين، على أمل أن نكون بالفعل نتجنبها.\" This duplicates 'نتجنبها' and reads awkwardly. Suggest: \"العديد من الأشياء التي تزيد من خطر الإصابة بالسرطان هي أمور نتجنّبها نحن كمسيحيين، على أمل أننا نفعل ذلك بالفعل.\" Keep HTML unchanged.",
-      "translation_quote": "\"العديد من الأشياء التي تزيد من خطر الإصابة بالسرطان هي أمور نتجنّبها نحن، كمسيحيين، على أمل أن نكون بالفعل نتجنبها.\""
-    },
-    {
-      "location": "source.html — punctuation/casing small error",
-      "severity": "minor",
-      "source_quote": "\"a normal white cell count is between 4,000 and 10,000. but during cancer treatments I have seen patient’s white cell count drop down to 200.\"",
-      "suggested_fix": "In the translation this became two sentences with a lowercase 'but' in English fragment context previously. Ensure Arabic punctuation and sentence casing are correct. For instance: \"قد يكون عدد الخلايا البيضاء الطبيعي بين 4,000 و10,000، لكن أثناء علاجات السرطان رأيت أعدادًا تنخفض إلى 200.\" Preserve numerical values and HTML.",
-      "translation_quote": "\"قد يكون عدد الخلايا البيضاء الطبيعي بين 4,000 و10,000، لكن أثناء علاجات السرطان رأيت أعدادًا تنخفض إلى 200.\""
+      "source_quote": "While chemotherapy sounds scary, it actually works quite well for certain types of cancers, such as blood cancers (like leukemias), lymphoma, and breast cancer.",
+      "suggested_fix": "Avoid duplicating 'lymphoma' in the Arabic list. Render the list to match the English ordering without repetition. Suggested Arabic revision: \"…يعمل جيدًا لأنواعٍ معينة من السرطان، مثل سرطانات الدم (كـ اللوكيميا واللمفوما) وسرطان الثدي.\" or if keeping parentheses: \"مثل سرطانات الدم (كاللوكيميا)، واللمفوما، وسرطان الثدي.\"",
+      "translation_quote": "بينما يبدو العلاج الكيميائي مخيفًا، إلا أنه يعمل بشكل جيد جدًا لأنواع معينة من السرطان، مثل سرطانات الدم (كالأورام الليمفاوية واللوكيميا)، واللمفوما، وسرطان الثدي."
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "bfb122b2a383e78ff2b6fe6cca7269bd",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "ara",
@@ -158,13 +143,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 80,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/ca58532aaa94c358a76e9a6922849fbf4aab671b6f2fafb891db698c9be52b26.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "ba22efc6cb9233faebc78cea85896092801ad5d430d2342a669d196dab4937e6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

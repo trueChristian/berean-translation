@@ -2,7 +2,6 @@
   "article_id": "cc225bc9-2dda-46f3-a628-13af4fd95e7a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,66 +61,80 @@
         },
         "total_tokens": 6716
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 2859,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1152,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3367,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6226
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "source.html — paragraph containing Hebrews 7:12 (near end)",
-      "severity": "critical",
+      "location": "<p>… Church History article focuses on Bible prophecy pertaining to the end times",
+      "severity": "minor",
+      "source_quote": "The Church History article focuses on Bible prophecy pertaining to the end times",
+      "suggested_fix": "Replace with a more natural and accurate Hebrew rendering of “Bible prophecy,” e.g. \"מאמר היסטוריית הכנסייה מתמקד בנבואות תנ\"כיות הנוגעות לימים האחרונים.\" Preserve HTML tags and surrounding text.",
+      "translation_quote": "מאמר היסטוריית הכנסייה מתמקד בנבואת ספרי הקודש הנוגעת לימים האחרונים"
+    },
+    {
+      "location": "<p>… teaches multiple marriage seminars each year",
+      "severity": "minor",
+      "source_quote": "who together with his wife teaches multiple marriage seminars each year",
+      "suggested_fix": "Use the standard Hebrew word \"סמינרים\" instead of the uncommon/awkward \"סמינריונים\": e.g. \"שלצדו אשתו מעביר מספר סמינרים בנושא נישואין מדי שנה.\"",
+      "translation_quote": "שלצדו אשתו מעביר כמה סמינריונים בנושא נישואין מדי שנה"
+    },
+    {
+      "location": "<p>… instilling God’s Word in the hearts of the next generation.",
+      "severity": "minor",
+      "source_quote": "instilling God’s Word in the hearts of the next generation.",
+      "suggested_fix": "Correct the Hebrew typo/grammar \"בלבבי\" to a natural phrasing such as \"בהשרשת דבר האל בלבם של הדור הבא\" or \"השרשת דבר ה׳ בלבבות הדור הבא.\" Preserve punctuation and HTML.",
+      "translation_quote": "השרשת דבר ה׳ בלבבי הדור הבא."
+    },
+    {
+      "location": "<p>…seemingly miles of wires and electronic this and electronic that.",
+      "severity": "minor",
+      "source_quote": "seemingly miles of wires and electronic this and electronic that.",
+      "suggested_fix": "Render the idiom naturally in Hebrew, e.g. \"כְּאִלּוּ קילומטרים של חוטים\" or \"כמלא קילומטרים של חוטים\" rather than the current awkward phrasing. Keep surrounding sentence structure and tags.",
+      "translation_quote": "ונראים כמעין \"קילומטרים\" של חוטים ואלקטרוניקה זו וזו."
+    },
+    {
+      "location": "<p>Hebrews 7:12 quote",
+      "severity": "major",
       "source_quote": "For the priesthood being changed, there is made of necessity a change also of the law –Hebrews 7:12.",
-      "suggested_fix": "Translate the entire quoted Scripture into Hebrew, preserving the book name and chapter: e.g. «כִּי שֻׁנָּה הַכְּהוּנָּה, יֵצֵא בִּצְרִיכוּת שִׁנּוּי גַּם בַּחֹק» —העברים 7:12. (Use conventional modern-Hebrew book name \"העברים\" and keep the reference \"7:12\" unchanged.) Preserve the surrounding <em> tags and punctuation.",
-      "translation_quote": "<em>For the priesthood being changed, there is made of necessity a change also of the law –Hebrews 7:12.</em>"
+      "suggested_fix": "The Hebrew rendering should be accurate and idiomatic. The present translation \"כִּי שֻׁנָּה הַכְּהוּנָּה, יֵצֵא בִּצְרִיכוּת שִׁנּוּי גַּם בַּחֹק — העברים 7:12.\" is literal and awkward. Suggest: \"כִּי אִם הֻשְׁנָה הַכְּהֻנָּה, יֵצֵא בָּנָאִי לַחֹק שִׁנּוּי גַּם־כֵּן — העברים 7:12.\" or better yet a smooth idiomatic rendering: \"כִּי בְּשִׁנּוּי הַכְּהֻנָּה נִכְרֵךְ גַּם שִׁנּוּי בַּחֹק — העברים 7:12.\" Ensure wording conveys the original meaning without altering doctrine.",
+      "translation_quote": "<em>כִּי שֻׁנָּה הַכְּהוּנָּה, יֵצֵא בִּצְרִיכוּת שִׁנּוּי גַּם בַּחֹק — העברים 7:12.</em>"
     },
     {
-      "location": "source.html — paragraph containing Ephesians 4:14",
-      "severity": "critical",
+      "location": "<p>Ephesians 4:14 quote",
+      "severity": "major",
       "source_quote": "That we [should] henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine… –Ephesians 4:14.",
-      "suggested_fix": "Translate the quoted Scripture into Hebrew and keep the reference: e.g. «כְּלָכִי לֹא נְהִי יַתְמוּמִים עוֹד, נָעוּ בְּכָל־רוּחַ בְּתוֹרָה» —אפסים 4:14. (Use modern-Hebrew book name \"אפסים\" and keep the verse numbering exactly.) Retain the <em> tags.",
-      "translation_quote": "<em>That we [should] henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine… –Ephesians 4:14.</em>"
+      "suggested_fix": "The current Hebrew rendering is ungrammatical and distorts readability: \"כְּלָכִי לֹא נְהִי יַתְמוּמִים עוֹד, נָעוּ בְּכָל־רוּחַ בְּתוֹרָה… — אפסים 4:14.\" Produce a clear, idiomatic translation preserving sense and punctuation, e.g.: \"לְמַעְלָה נַעֲמִיד כִּי לֹא נְהִי עוֹד יְלָדִים, נִתְנַעֲרִים וּנוּשִׁים בְּכָל־רוּחַ תּוֹרָה… — אפסים 4:14.\" or simply: \"כָּכָה לֹא נְהִי עוֹד יְתָמִים, מדוללים ומוסעים בְּכָל־רוּחַ דָּעַת... — אפסים 4:14.\" Keep the reference as printed.",
+      "translation_quote": "<em>כְּלָכִי לֹא נְהִי יַתְמוּמִים עוֹד, נָעוּ בְּכָל־רוּחַ בְּתוֹרָה… — אפסים 4:14.</em>"
     },
     {
-      "location": "source.html — paragraph containing Matthew 24:12-13",
-      "severity": "critical",
+      "location": "<p>Matthew 24:12-13 quote",
+      "severity": "minor",
       "source_quote": "And because iniquity shall abound, the love of many shall wax cold. But he that shall endure unto the end, the same shall be saved –Matthew 24:12-13.",
-      "suggested_fix": "Translate the quoted Scripture into Hebrew and keep the reference: e.g. «וְיֶחֱשֵׁף רָעָה רְבָבָה, וְיָקָר תִּתְקַרֵרָּה אַהֲבַת רַבִּים; וְהַמַּהֲדֶה עַד־הַסּוֹף, הוּא יִנָּצֵל.» —מתי 24:12-13. (Use modern-Hebrew book name \"מתי\" and keep verse numbers unchanged.)",
-      "translation_quote": "<em>And because iniquity shall abound, the love of many shall wax cold. But he that shall endure unto the end, the same shall be saved –Matthew 24:12-13.</em>"
-    },
-    {
-      "location": "source.section and translation.section metadata",
-      "severity": "major",
-      "source_quote": "FROM THE EDITOR",
-      "suggested_fix": "Section label should match the English meaning. Replace the translated section value with the correct Hebrew equivalent: \"מאת העורך\" (or if an editorial heading is preferred, \"מאת העורך / מֵעֶרֵךְ\"). Do not use \"מֵעֵדִית\" which is incorrect/garbled.",
-      "translation_quote": "\"מֵעֵדִית\""
-    },
-    {
-      "location": "source.html — paragraph about carburetor and injector pump",
-      "severity": "major",
-      "source_quote": "most farmers had gas-powered tractors with a carburetor or a diesel tractor with a manually powered injector pump.",
-      "suggested_fix": "Correct technical terms in Hebrew. Translate 'carburetor' accurately as \"קרבורטור\" or \"מְצַרֵת\" (modern Hebrew often uses \"קרבורטור\"), and keep 'injector pump' as \"משאבת הזרקה\". Example: \"לרוב החקלאים היו טרקטורים עם מנוע בנזין וקרבורטור, או טרקטור דיזל עם משאבת הזרקה ידנית.\"",
-      "translation_quote": "\"טרקטורים עם מנוע בנזין עם מצמד או טרקטור דיזל עם משאבת הזרקה ידנית.\""
-    },
-    {
-      "location": "source.html — paragraph about vehicle drivetrains",
-      "severity": "minor",
-      "source_quote": "All vehicles used to be rear-wheel drive or four-wheel drive.",
-      "suggested_fix": "Render drivetrain terms idiomatically: e.g. \"בדרך כלל המכוניות היו עם הנעה אחורית או הנעה לכל ארבעת הגלגלים.\" Replace \"ארבע גלגלים\" with \"הנעה לכל ארבעת הגלגלים\" or \"הנעה כפולה\" depending on meaning.",
-      "translation_quote": "\"כל המכוניות היו בעבר עם הנעה אחורית או ארבע גלגלים.\""
-    },
-    {
-      "location": "source.html — paragraph about Amish in Holmes County",
-      "severity": "major",
-      "source_quote": "From my vantage point observing the Amish of Holmes County, these two items have done more to change a people and a culture...",
-      "suggested_fix": "Properly render the place and group name in Hebrew and fix the garbled phrase. Suggestion: \"מנקודת מבטי, בהתבוננות על האמיש במחוז הולמס, שני הפריטים האלה שינו קבוצה ותרבות באופן נרחב יותר כמעט מכל דבר אחר בזמן האחרון.\" Keep 'Holmes County' as \"מחוז הולמס\" and 'Amish' as \"האמיש\".",
-      "translation_quote": "\"בעמיש בני קאונתי הולמס\""
-    },
-    {
-      "location": "source.html — paragraph with phrase 'paused in quiet reminiscence'",
-      "severity": "minor",
-      "source_quote": "As I paused in quiet reminiscence, I was surprised by all the things that have changed...",
-      "suggested_fix": "The Hebrew phrasing is awkward and partly mistranslated: replace \"השתתקפתי בפֶּנִים וזכרתי ברוך\" with a natural idiom such as \"כשעצרתי להרהור שקט, הופתעתי...\"",
-      "translation_quote": "\"כשהשתתקפתי בפֶּנִים וזכרתי ברוך\""
+      "suggested_fix": "The current Hebrew is literal and somewhat archaic: \"וְיֶחֱשֵׁף רָעָה רְבָבָה, וְיָקָר תִּתְקַרֵרָּה אַהֲבַת רַבִּים; וְהַמַּהֲדֶה עַד־הַסּוֹף, הוּא יִנָּצֵל — מתי 24:12-13.\" Provide a clearer idiomatic version while preserving meaning, e.g.: \"וּמִפְּנֵי שֶׁתִּשְׁרֶה רָשָׁעָה בֶּהָמָה, תִּקרָרְרָה אַהֲבַת רַבִּים; וּמִי שֶׁיִּתְמַשֵּׁךְ עַד־הַסֹּוף, הוּא יְהוּשַׁע — מתי 24:12-13.\" Ensure verb forms and idiom are natural.",
+      "translation_quote": "<em>וְיֶחֱשֵׁף רָעָה רְבָבָה, וְיָקָר תִּתְקַרֵרָּה אַהֲבַת רַבִּים; וְהַמַּהֲדֶה עַד־הַסּוֹף, הוּא יִנָּצֵל — מתי 24:12-13.</em>"
     }
   ],
+  "finished_at": "2026-10-02T11:25:28+00:00",
   "id": "f35b47c587d1f009fdde824535065452",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "heb",
@@ -165,13 +178,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 82,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/75bf9f86ddf02e207a89e1a74e3d26989515704eae85bcbc97e911af15e7ea76.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1d62440b3aaa33963e8085784efc020cfa0cf8cb3b508148be95c55907a09059",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

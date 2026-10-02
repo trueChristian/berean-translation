@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "cacdeb59-e6d6-47d2-9978-e36ff0c9a5c1",
+    "response_id": "chatcmpl-EUVeIxx0X8zXGTDoF2UKxlT8l0BdN",
+    "usage": {
+      "completion_tokens": 671,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11417,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12088
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...It was first used in the 1940s when doctors used a derivative of nitrogen mustard to treat lymphoma.</p>",
+        "severity": "minor",
+        "source_quote": "\"a derivative of nitrogen mustard\"",
+        "suggested_fix": "Correct the transliteration of 'nitrogen mustard' in the Bengali HTML while preserving tags. For example: change 'নাইট্রোজেন মাস্টার-এর' to 'নাইট্রোজেন মাস্টার্ড-এর' (or 'নাইট্রোজেন মাস্টার্ডের') so the technical term matches the English identity.",
+        "translation_quote": "\"নাইট্রোজেন মাস্টার-এর\""
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

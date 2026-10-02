@@ -2,7 +2,6 @@
   "article_id": "b6a6823e-0f2a-4354-aebb-5c37ad85937a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,38 +61,45 @@
         },
         "total_tokens": 11057
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1565,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 960,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6159,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7724
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "blockquote.lyrics — stanza 3, line 'Angels to beckon me'",
-      "severity": "critical",
-      "source_quote": "Angels to beckon me",
-      "suggested_fix": "Translate the line faithfully into Greek conveying the meaning 'Angels to beckon me' (i.e., angels summoning/beckoning the singer nearer). Preserve the hymn sense and meter but do not introduce new actions (such as killing). Example: «Άγγελοι να με κελεύσουν» or «Άγγελοι να με προσκαλέσουν». Replace the existing incorrect text: «Άγγελοι να με σκοτώσουν—όχι––να με κινήσουν— να με καλούν» with a faithful translation like «Άγγελοι να μου γνέψουν».",
-      "translation_quote": "Άγγελοι να με σκοτώσουν—όχι––να με κινήσουν— να με καλούν"
-    },
-    {
-      "location": "multiple paragraphs quoting hymn title (e.g., 'Nearer, My God to Thee' in Boston Peace Jubilee paragraph and elsewhere)",
+      "location": "source.html — blockquote (fourth stanza)",
       "severity": "major",
-      "source_quote": "Nearer, my God, to Thee",
-      "suggested_fix": "Quoted substantive English prose (including hymn titles that are part of the printed authoritative text) must be translated into the target language. Replace the English title occurrences with a faithful Greek rendering used consistently throughout the article (for example: «Κοντύτερα, Θεέ μου, σε Σένα» or another literal, idiomatic Greek equivalent). Ensure every instance of the hymn title and any other quoted English substantive phrases are translated.",
-      "translation_quote": "«Nearer, My God to Thee»; «Nearer, my God, to Thee,»"
+      "source_quote": "Then, with my waking thoughts\nBright with Thy praise,\nOut of my stony griefs\nBethel I'll raise;\nSo by my woes to be\nNearer, my God, to Thee,\nNearer to Thee!",
+      "suggested_fix": "Replace the mistranslated/duplicated fourth stanza in the translation with a faithful rendering preserving meaning and stanza structure. Example Greek wording to insert inside the existing <blockquote class=\"lyrics\"> block (preserve tags):\n\n<p>Τότε, με τις αφυπνισμένες μου σκέψεις\nΛαμπρές από τον ύμνο Σου,\nΑπό τις πετρώδεις θλίψεις μου\nΘα υψώσω ένα Βηθὲλ;\nΈτσι, μέσα από τα δεινά μου,\nΝα είμαι κοντύτερα, Θεέ μου, σε Σένα,\nΚοντύτερα σε Σένα!</p>\n\n(Adjust punctuation/diacritics as needed to match surrounding stanzas; do not change HTML structure or class names.)",
+      "translation_quote": "Τότε, με τις αφυπνισμένες σκέψεις μου\nΛαμπρές με τον ύμνο Σου,\nΑπό τις πετρώδεις λύπες μου\nΑπό τις πετρώδεις λύπες μου θα υψώσω ένα Βηθὲλ,\nΈτσι διαμέσου των δεινών μου να είμαι\nΚοντύτερα, Θεέ μου, σε Σένα,\nΚοντύτερα σε Σένα!"
     },
     {
-      "location": "first content paragraph 'consumption' translation",
+      "location": "source.html — second paragraph (mother's cause of death)",
       "severity": "minor",
-      "source_quote": "her mother died of consumption, known today as tuberculosis",
-      "suggested_fix": "The translator rendered 'consumption' as 'καχεξία, γνωστή σήμερα ως φυματίωση', which implies cachexia and is misleading. Use a phrasing that correctly identifies 'consumption' as tuberculosis in modern terms, for example: «πέθανε από την ασθένεια που τότε ονομάζονταν 'consumption' — σήμερα γνωστή ως φυματίωση.» Or simply: «πέθανε από φυματίωση (τότε ονομάζονταν 'consumption').»",
-      "translation_quote": "πέθανε από καχεξία, γνωστή σήμερα ως φυματίωση"
-    },
-    {
-      "location": "blockquote.lyrics — stanza 1 punctuation and stanza 4 'Bethel I’ll raise' translation",
-      "severity": "minor",
-      "source_quote": "E’en though it be a cross\nThat raiseth me;",
-      "suggested_fix": "Remove the question mark which alters tone and possibly meaning. Render without interrogative punctuation and ensure 'That raiseth me' is translated as causative (that lifts or exalts me). Example: «Ακόμη κι αν είναι σταυρός / Που με ανυψώνει,» (with a comma). For 'Bethel I'll raise' ensure idiomatic Greek capturing the idea 'I will raise a Bethel (a memorial) out of my stony griefs' — e.g., «Από τις πετρώδεις λύπες μου θα υψώσω ένα Βηθὲλ» rather than the current phrasing with a question mark and ‹Θα ανυψώσω ένα Βηθέλ;› punctuation.",
-      "translation_quote": "Ακόμη κι αν είναι ένας σταυρός\nΠου με ανυψώνει; / Θα ανυψώσω ένα Βηθέλ;"
+      "source_quote": "When she was five years old, her mother died of consumption, known today as tuberculosis.",
+      "suggested_fix": "Adjust the parenthetical explanation so it preserves the original time/reference relation: consumption was the historical term; today the disease is called tuberculosis. Suggested concise Greek phrasing to replace the parenthetical in the existing paragraph (keep HTML tags):\n\n«Όταν ήταν πέντε ετών, η μητέρα της πέθανε από consumption — ό,τι σήμερα ονομάζεται φυματίωση.»\n\nor alternately: «Όταν ήταν πέντε ετών, η μητέρα της πέθανε από το νόσημα που τότε ονομαζόταν “consumption” και σήμερα καλείται φυματίωση.»",
+      "translation_quote": "Όταν ήταν πέντε ετών, η μητέρα της πέθανε από φυματίωση (τότε ονομάζονταν «consumption»)."
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "81faa73f11de90e4716890fc177ec1c8",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "ell",
@@ -137,13 +143,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/bdacc95910a7433231bb636adde27ced309ebbaf33d26f4288193a37ef1ecead.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "529627b867a50e286116891ac48830f9194ac5c383794aa0c674aa93ff18825d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

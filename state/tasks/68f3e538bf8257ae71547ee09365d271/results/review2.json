@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4a1eaae3-3ed3-4a58-9331-c031cfc99fdf",
+    "response_id": "chatcmpl-EUVebC25XlFF3Yl2j4zYwh7PeTUfJ",
+    "usage": {
+      "completion_tokens": 1286,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10315,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11601
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning \"The religious atmosphere of first century Israel...\" (about who benefited from system)",
+        "severity": "major",
+        "source_quote": "The ones who bought into it the most were the ones who received the most from this system of exclusive access to God and His promises.",
+        "suggested_fix": "Translate the meaning faithfully: convey that those who embraced and profited most from the system were the primary beneficiaries (i.e., they gained the most). Keep the structure of the HTML paragraph unchanged and replace the mistranslated clause. Example (in Greek, preserving article HTML tags): «Όσοι αποδέχονταν περισσότερο αυτό το σύστημα ήταν και αυτοί που επωφελούνταν περισσότερο από την αποκλειστική πρόσβαση στον Θεό και στις υποσχέσεις Του.»",
+        "translation_quote": "«Όσοι επωφελούνταν περισσότερο από αυτό το σύστημα αποκλειστικής πρόσβασης στον Θεό και στις υποσχέσεις Του ήταν εκείνοι που το υπέστησαν πιο έντονα.»"
+      },
+      {
+        "location": "Paragraph: \"In their minds, the day of the Lord was come, and Constantine was the rod of iron with which God would rule.\"",
+        "severity": "minor",
+        "source_quote": "Constantine was the rod of iron with which God would rule.",
+        "suggested_fix": "Correct Greek gender/inflection for natural, idiomatic rendering of the metaphor. Replace «το σιδηρούν ράβδος με την οποία ο Θεός θα βασίλευε» with a grammatically correct phrase such as «η σιδηρά ράβδος με την οποία ο Θεός θα βασίλευε» or «η σιδηρή ράβδος με την οποία ο Θεός θα βασίλευε». Preserve HTML tags and surrounding punctuation.",
+        "translation_quote": "«Στο μυαλό τους, η ημέρα του Κυρίου είχε έλθει, και ο Κωνσταντίνος ήταν το σιδηρούν ράβδος με την οποία ο Θεός θα βασίλευε.»"
+      },
+      {
+        "location": "Paragraphs referencing Munster / Muensterites and Jan names",
+        "severity": "minor",
+        "source_quote": "the tale of the infamous Muensterites gives us a further example... / Jan Matthysz and Jan of Leiden",
+        "suggested_fix": "Make the transliteration/inflection of place and people names consistent and idiomatic in Greek. For example, render “Muensterites” as «Μυνστεριανοί» or «οι του Μύνστερ» and keep the two leaders consistently as «Γιάν Ματθίζ» / «Γιάν του Leiden» or «Γιαν Ματθίσ» depending on the chosen transliteration convention. Ensure the same form is used throughout the article. Preserve HTML structure.",
+        "translation_quote": "«το αφήγημα των διαβόητων Μύνστερων μας δίνει ένα ακόμη παράδειγμα... / Οι Jan μετανάστευσαν στο Μύνστερ...»"
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

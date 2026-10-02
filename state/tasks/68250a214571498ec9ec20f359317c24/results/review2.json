@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7004bd37-71f3-4c8b-8359-8ba6d8b2239e",
+    "response_id": "chatcmpl-EUVdwtRgeeMgKk74flJxVdCDoOQFY",
+    "usage": {
+      "completion_tokens": 1155,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3421,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4576
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing Hebrews 7:12 (near: \"For the priesthood being changed...\")",
+        "severity": "major",
+        "source_quote": "For the priesthood being changed, there is made of necessity a change also of the law –Hebrews 7:12.",
+        "suggested_fix": "تین حرفی انگریزی کتاب کے نام کو ہدف زبان میں تبدیل کریں، اور آیت کے حوالہ جاتی نمبر همان رہا جائے۔ مثال کے طور پر، انگریزی \"Hebrews 7:12\" کو اردو میں \"عبرانیوں 7:12\" سے بدل دیں۔ پوری عبارت اسی <em>...</em> ٹیگ کے اندر رہنی چاہیے۔",
+        "translation_quote": "<em>قربانیوں کے منصب کے بدل جانے کے سبب لازم ہے کہ شریعت میں بھی تبدیلی ہو—Hebrews 7:12۔</em>"
+      },
+      {
+        "location": "Paragraph containing Ephesians 4:14 (near: \"That we [should] henceforth be no more children...\")",
+        "severity": "major",
+        "source_quote": "That we [should] henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine… –Ephesians 4:14.",
+        "suggested_fix": "انگریزی کتاب کے نام \"Ephesians\" کو ہدف زبان کے متعارف شدہ نام سے بدلیں، برقرار رکھیں کہ حوالہ جات کے اعداد و شمار (باب:آیت) وہی رہیں۔ مثال: \"—افسیوں 4:14\"۔ اس تبدیلی کو اسی <em>...</em> ٹیگ میں کریں۔",
+        "translation_quote": "<em>اب ہم بچے نہ رہیں جو ہر تعلیم کی ہوا سے بہہ لئے جاتے اور ہر تبلیغ کی لہر کے ساتھ لے جایا جاتے ہیں…—Ephesians 4:14۔</em>"
+      },
+      {
+        "location": "Paragraph containing Matthew 24:12-13 (final quoted Scripture)",
+        "severity": "major",
+        "source_quote": "And because iniquity shall abound, the love of many shall wax cold. But he that shall endure unto the end, the same shall be saved –Matthew 24:12-13.",
+        "suggested_fix": "انگریزی کتاب کے نام \"Matthew\" کو اردو متبادل سے بدلیں جبکہ باب اور آیتیں جوں کی توں رہیں۔ مثال: \"—متی 24:12-13\"۔ اس تبدیلی کو اسی <em>...</em> ٹیگ میں کریں۔",
+        "translation_quote": "<em>اور کیونکہ بدی میں اضافہ ہوگا، بہتوں کی محبت ٹھنڈی پڑ جائے گی۔ مگر جو آخر تک ثابت رہے گا وہ نجات پائے گا—Matthew 24:12-13۔</em>"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

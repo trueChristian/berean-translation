@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e5107f55-4d9e-46e8-9e2c-0a3c0cb7f012",
+    "response_id": "chatcmpl-EUVeD28ZWf66BadFSDDeMR2gIYVDU",
+    "usage": {
+      "completion_tokens": 1181,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6211,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 2816
+      },
+      "total_tokens": 7392
+    }
+  },
+  "received_at": "2026-10-02T11:25:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph ending with \"...under etableringen av kolonial‑America.\"",
+        "severity": "minor",
+        "source_quote": "This story provides a glimpse into some of the interesting details surrounding the life of conservative Anabaptists just before and during the establishing of Colonial America.",
+        "suggested_fix": "Translate \"Colonial America\" to Norwegian. Replace \"kolonial‑America\" with \"kolonial‑Amerika\" (preserve hyphenation and surrounding HTML).",
+        "translation_quote": "Denne historien gir et glimt av noen av de interessante detaljene som omga livet til konservative anabaptister rett før og under etableringen av kolonial‑America."
+      },
+      {
+        "location": "Paragraph beginning \"Noen år etter å ha vært i Penns skoger...\"",
+        "severity": "minor",
+        "source_quote": "Sometime, after being in Penn’s woods for a number of years, Hans Groff received word that his wife, Anna (Bare) Groff, back in Europe, had passed away.",
+        "suggested_fix": "Smooth Norwegian phrasing. Replace the sentence \"Noen år etter å ha vært i Penns skoger et antall år, fikk Hans Groff beskjed...\" with \"Noen år etter å ha oppholdt seg i Penns skoger fikk Hans Groff beskjed...\" to remove redundancy and improve idiom (preserve HTML).",
+        "translation_quote": "Noen år etter å ha vært i Penns skoger et antall år, fikk Hans Groff beskjed om at hans kone, Anna (Bare) Groff, hjemme i Europa, hadde gått bort."
+      },
+      {
+        "location": "Multiple paragraphs with distance measures (e.g. \"sju miles (ca. 11 km)\", \"60 miles (ca. 97 km)\")",
+        "severity": "minor",
+        "source_quote": "...about seven miles north of Philadelphia in that day... 60 miles west of Germantown... The closest doctor... was 60 miles away.",
+        "suggested_fix": "Avoid adding units or conversions that were not in the authoritative English text. Either remove the added metric conversions or ensure they are presented as parenthetical editorial notes. Suggested replacement examples (preserve HTML):\n- replace \"sju miles (ca. 11 km)\" with \"sju miles\";\n- replace \"60 miles (ca. 97 km)\" with \"60 miles\";\n- replace \"60 miles unna (ca. 97 km)\" with \"60 miles unna\".\nIf metric conversions are required by publishing policy, mark them clearly as editorial additions.",
+        "translation_quote": "...omtrent sju miles (ca. 11 km) nord for Philadelphia... 60 miles (ca. 97 km) vest for Germantown... Den nærmeste lege... var 60 miles unna (ca. 97 km)."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

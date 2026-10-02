@@ -6,9 +6,32 @@
       "campaign": "gh-36992568621",
       "event": "requested",
       "task": "c4bc796222e5ec1545ade6857b148b08"
+    },
+    {
+      "at": "2026-10-02T11:25:27+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "c4bc796222e5ec1545ade6857b148b08"
     }
   ],
   "language": "hin",
   "latest_task": "c4bc796222e5ec1545ade6857b148b08",
-  "published": null
+  "published": {
+    "html_path": "content/hin/articles/c16663c4-9436-466b-bffd-dd954a5f3442.html",
+    "html_sha256": "a3953101329891c551f08600885466027bb1626be8327edaf57b692fbceaaf30",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
+    "metadata_path": "content/hin/articles/c16663c4-9436-466b-bffd-dd954a5f3442.json",
+    "metadata_sha256": "58eac00ec80b8d0d38fdcd4696f0a90ec766944e4a2d257c28fc02125b8ca878",
+    "model": "gpt-5-mini-2025-08-07",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"hi\" dir=\"ltr\" role=\"note\">\n  <p>इस लेख का अनुवाद OpenAI (मॉडल: gpt-5-mini-2025-08-07) द्वारा कृत्रिम बुद्धिमत्ता से किया गया है और अभी इसकी मानवीय समीक्षा नहीं हुई है। अंग्रेज़ी मूल पाठ ही प्रामाणिक संस्करण है। अर्थ के बारे में संदेह होने पर कृपया अंग्रेज़ी मूल पाठ देखें। <a href=\"/en/articles/c16663c4-9436-466b-bffd-dd954a5f3442/\" data-source-article-id=\"c16663c4-9436-466b-bffd-dd954a5f3442\" hreflang=\"en\">अंग्रेज़ी मूल पाठ</a></p>\n</aside>",
+    "published_at": "2026-10-02T11:25:27+00:00",
+    "quality_score": 97,
+    "review_model": "gpt-5-mini-2025-08-07",
+    "source_revision": "9e6e1db340e802f71c7018950dc820482ecc4e5e",
+    "source_snapshot": "state/sources/930958d5d08150faddf8cc6d4ba6c22ee28be341e3250f81368856d9c75f0afc.json",
+    "task": "c4bc796222e5ec1545ade6857b148b08",
+    "translation_key": "8dd5d606c1d8d9cf5603a40e68a843196a12e272a0bd52717b5de07e6983516a"
+  }
 }

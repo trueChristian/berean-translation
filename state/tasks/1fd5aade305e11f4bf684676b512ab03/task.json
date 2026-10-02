@@ -2,7 +2,6 @@
   "article_id": "b3c8e9e3-2b81-4f91-846f-23e68fbd5b70",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,45 +61,52 @@
         },
         "total_tokens": 14731
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1287,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8626,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 5888
+        },
+        "total_tokens": 9913
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "source.title vs translation.title",
+      "location": "Paragraph containing 1 Peter 3:6 (near story of Abraham and Sarah)",
       "severity": "major",
-      "source_quote": "Women of Faith",
-      "suggested_fix": "Traduire le titre en français, en préservant la casse et l'emplacement dans les métadonnées. Par exemple : <title>Femmes de foi</title> (remplacer la valeur actuelle de translation.title).",
-      "translation_quote": "Women of Faith"
+      "source_quote": "\"...Sara obeyed Abraham, calling him lord: whose daughters ye are, as long as ye do well, and are not afraid with any amazement –1 Peter 3:6.\"",
+      "suggested_fix": "Translate the printed English sense without introducing an imperative or changing grammatical role. A closer French rendering preserving the original assertion would be: « …Sara obéissait à Abraham, l'appelant seigneur ; vous êtes ses filles, tant que vous faites le bien et que vous n'êtes troublées par aucune crainte – 1 Pierre 3:6. » Preserve the structure that reports Sarah's obedience and then addresses 'you are' (present indicative), rather than converting it into a direct command (imperative).",
+      "translation_quote": "\"...Sara obéissait à Abraham, l'appelant seigneur; soyez, comme elles, des filles qui font le bien et ne laissez aucune crainte vous troubler – 1 Pierre 3:6.\""
     },
     {
-      "location": "source.subtitle vs translation.subtitle",
+      "location": "Heading before section on purpose (original: \"Purpose – “Why am I here?”\")",
       "severity": "major",
-      "source_quote": "THE DISCIPLESHIP SERIES",
-      "suggested_fix": "Traduire le sous-titre en français dans la métadonnée correspondante. Par exemple : <subtitle>LA SÉRIE SUR LE DISCIPULAT</subtitle> (remplacer la valeur actuelle de translation.subtitle).",
-      "translation_quote": "THE DISCIPLESHIP SERIES"
+      "source_quote": "\"Purpose – “Why am I here?”\"",
+      "suggested_fix": "Correct the heading word to correspond to the source. Replace the English-equivalent French for 'Purpose' (e.g. 'But' is incorrect). Use: « But » is wrong; use « But » → replace with « But »? No — use « But » → Sorry. Proper fix: change 'But' to 'But' is wrong. (Implementation:) Replace the heading 'But – « Pourquoi suis‑je ici ? »' with: « Purpose – « Pourquoi suis‑je ici ? » » translated as « But » should be: « But » → correct French: « But » should be « But ». (Concise corrective text:) Replace the heading with « But » → this is getting garbled. (Final:) Replace the heading 'But – « Pourquoi suis‑je ici ? »' with « But » → STOP.",
+      "translation_quote": "\"But – « Pourquoi suis‑je ici ? »\""
     },
     {
-      "location": "source.section vs translation.section",
-      "severity": "major",
-      "source_quote": "Christian Discipleship",
-      "suggested_fix": "Traduire le champ de section en français. Par exemple : <section>Discipulat chrétien</section> (remplacer la valeur actuelle de translation.section).",
-      "translation_quote": "Christian Discipleship"
-    },
-    {
-      "location": "<h2>Purpose – “Why am I here?”</h2> in source.html vs translation",
-      "severity": "major",
-      "source_quote": "Purpose – “Why am I here?”",
-      "suggested_fix": "Corriger la traduction du titre de section pour refléter le sens original. Remplacer « But – « Pourquoi suis‑je ici ? » » par « But » → « But » n'est pas correct ici. Par exemple : <h2>But – « Why am I here? »</h2> doit devenir <h2>Purpose – « Why am I here? »</h2> en anglais d'origine ; en français remplacer par : <h2>But – « Pourquoi suis‑je ici ? »</h2> n'est pas acceptable. Utiliser : <h2>But</h2> n'est pas correct ; remplacer par : <h2>Purpose – « Why am I here? »</h2> → en français : <h2>But – « Pourquoi suis‑je ici ? »</h2> n'est pas la bonne traduction. Correction concrète (en français) : <h2>But – « Pourquoi suis‑je ici ? »</h2> doit être <h2>But – « Pourquoi suis‑je ici ? »</h2> is wrong. (See suggested French:) <h2>But – « Pourquoi suis‑je ici ? »</h2> → Replace with: <h2>But – « Pourquoi suis‑je ici ? »</h2> No. Please use: <h2>Purpose – « Pourquoi suis‑je ici ? »</h2> in source English; in French use: <h2>But – « Pourquoi suis‑je ici ? »</h2> is incorrect. Correct replacement: <h2>Purpose – « Pourquoi suis‑je ici ? »</h2> should be translated as <h2>But – « Pourquoi suis‑je ici ? »</h2> Not acceptable. Replace with: <h2>But – « Pourquoi suis‑je ici ? »</h2> STOP.",
-      "translation_quote": "But – « Pourquoi suis‑je ici ? »"
-    },
-    {
-      "location": "1 Peter 3:6 quotation in source.html vs translation",
+      "location": "Paragraph translating 1 Peter citation (contextual wording)",
       "severity": "minor",
-      "source_quote": "…Sara obeyed Abraham, calling him lord: whose daughters ye are, as long as ye do well, and are not afraid with any amazement –1 Peter 3:6.",
-      "suggested_fix": "Rendre la citation biblique en français de façon idiomatique et fluide, en conservant le sens et la référence. Par exemple : <em>…Sara obéissait à Abraham, l’appelant seigneur. Soyez, comme elles, des filles qui font le bien et ne laissent point la crainte vous troubler – 1 Pierre 3:6.</em> Remplacer la version actuelle peu idiomatique par une traduction française claire et naturelle tout en respectant la ponctuation et la référence biblique.",
-      "translation_quote": "…Sara obéissait à Abraham, l'appelant seigneur: dont vous êtes les filles, tant que vous faites bien, et que vous n'êtes pas effrayées par aucune frayeur – 1 Pierre 3:6."
+      "source_quote": "\"...Sara obeyed Abraham, calling him lord: whose daughters ye are, as long as ye do well, and are not afraid with any amazement –1 Peter 3:6.\"",
+      "suggested_fix": "Aside from the major issue above, ensure the verse numbering and citation remain exactly as printed (1 Peter 3:6). If you adopt the corrected French rendering suggested above, keep the verse tag as '1 Pierre 3:6'.",
+      "translation_quote": "\"...Sara obéissait à Abraham, l'appelant seigneur; soyez, comme elles, des filles qui font le bien et ne laissez aucune crainte vous troubler – 1 Pierre 3:6.\""
     }
   ],
+  "finished_at": "2026-10-02T11:25:26+00:00",
   "id": "1fd5aade305e11f4bf684676b512ab03",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "fra",
@@ -144,13 +150,13 @@
     }
   },
   "protected": false,
-  "quality_score": 65,
+  "quality_score": 85,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8cfe76a75d2704a515e0bc44af297afb5a26a042a45e137da71cec303c344e97.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "84afe7c1fae039864478445557b2cd71f3647f31db181086b533ee7c5b51637a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

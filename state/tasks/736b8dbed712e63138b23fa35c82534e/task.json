@@ -2,7 +2,6 @@
   "article_id": "3be24d0c-4c97-452e-b3c3-177e16d990ff",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,31 +61,51 @@
         },
         "total_tokens": 14613
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1460,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8011,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9471
+      }
     }
   ],
   "findings": [
     {
-      "location": "<p>Paragraph beginning “Eunice was a Jewess…” (source.html third-to-last paragraph before the 1 Timothy 4:5 inline quote)",
-      "severity": "critical",
-      "source_quote": "Eunice was a Jewess, who, upon embracing faith in Christ, found herself in an unequal yoke with a Greek. We read that unfeigned faith was first wrought in her mother Lois, and that affected Eunice. This, in turn, had a sanctifying effect on young Timothy, who was then prepared for the work of the Lord. We have no record that his father was added to the faith, but one can only imagine the initial turmoil within the breast of this young Jewess as she reverently honored her head and circumcised not her son but rather committed him to prayer.",
-      "suggested_fix": "Render the whole sentence faithfully in contemporary Modern Greek, preserving the meaning that Eunice reverently honoured her husband (her head) and did not circumcise her son but instead committed him to prayer. Fix the corrupted token and the altered sense. For example (replace only the inner text, keep HTML tags):\n\nΕυνίκη ήταν Ιουδαία, που, όταν ασπάστηκε την πίστη στον Χριστό, βρέθηκε σε άνιση ένωση με έναν Έλληνα. Διαβάζουμε ότι η αληθινή πίστη πρώτα ενεργήθηκε στη μητέρα της, Λωΐς, και αυτό επηρέασε την Ευνίκη. Τούτο με τη σειρά του άσκησε αγιάζουσα επίδραση στον νεαρό Τιμόθεο, που τότε ετοιμάστηκε για το έργο του Κυρίου. Δεν έχουμε καταγραφή ότι ο πατέρας του προστέθηκε στην πίστη, αλλά μπορούμε να φανταστούμε την αρχική αναταραχή στην ψυχή αυτής της νεαρής Ιουδαίας καθώς ευλαβικά τιμούσε τον άνδρα της ως κεφαλή και δεν περιέκοψε (circumcised) τον γιο της, αλλά τον παρέδωσε στην προσευχή.\n\n(Adjust wording to match the publication's style; do not change HTML structure.)",
-      "translation_quote": "Η Ευνίκη ήταν Ιουδαία, η οποία, αφού ασπάστηκε την πίστη στον Χριστό, βρέθηκε σε άνισο ζυγό με έναν Έλληνα. Διαβάζουμε ότι αληθινή πίστη πρώτα δούλευε στη μητέρα της Λωΐδα, και αυτό επηρέασε την Ευνίκη. Αυτό, με τη σειρά του, είχε αγιάζουσα επίδραση στον νεαρό Τιμόθεο, που τότε ετοιμάστηκε για το έργο του Κυρίου. Δεν έχουμε καταγραφή ότι ο πατέρας του προστέθηκε στην πίστη, αλλά μπορεί κανείς να φανταστεί τα αρχικά αναταραχή στην ψυχή αυτής της νεαρής Ιουδαίας καθώς τίμησε ευλαβικά την προϊσταμένη της θέση και δεν περιέcircμως τον γιο της αλλά τον παρέδωσε στην προσευχή."
-    },
-    {
-      "location": "<article>opening blockquote and multiple in-text scripture quotations (source.html blockquotes and inline italic scripture quotes)",
-      "severity": "major",
-      "source_quote": "All blockquoted and inline Scripture quotations as printed in the authoritative English article (examples: “For the unbelieving husband is sanctified by the wife... –1 Corinthians 7:14-16.”; multiple other NT/OT citations)",
-      "suggested_fix": "The translation uses several archaic/Koine-style forms and diacritics (e.g., presence of polytonic characters like initial rough breathing marks and forms such as ἁγία, usage of clause punctuation and syntactic archaisms) which conflict with the project's instruction to use contemporary Modern Greek. Revise the Scripture translations and any inline quoted scripture passages to contemporary Modern Greek orthography and idiom (monotonic accentuation, modern vocabulary and syntax) while preserving the exact chapter:verse references and the printed meaning. Example: replace «ἁγία …» with «αγία …», and remove polytonic diacritics throughout scripture quotes. Do not alter verse numbers or the order/placement of quotations. Keep HTML tags unchanged.",
-      "translation_quote": "Examples include: «…τώρα όμως είναι ἁγία …» (1 Corinthians quote) and Greek-archaic particles/diacritics and wordforms present across blockquotes (e.g., in John 17:6-17 blockquote)."
-    },
-    {
-      "location": "<p>Paragraph that begins “The inside sanctified by faith and prayer” — sentence quoting Proverbs 4:23 inline (source.html inline scripture after that paragraph)</p>",
+      "location": "First blockquote (1 Corinthians 7:14-16) and other Scripture quotations throughout the article",
       "severity": "minor",
-      "source_quote": "…for out of it are the issues of life –Proverbs 4:23.",
-      "suggested_fix": "The inline rendering of Proverbs 4:23 in the translation is correct in sense but should use contemporary, idiomatic Modern Greek phrasing and monotonic accents. For fidelity and readability, render the verse in a natural Modern Greek version equivalent (keeping verse numbers unchanged). Example replacement (preserve HTML tags): «…γιατί αφ' ὧν ἐκπορεύονται τὰ ῥεύματα τῆς ζωῆς –Παροιμίες 4:23.» → better contemporary: «…γιατί από αυτήν προέρχονται οι πηγές της ζωής –Παροιμίες 4:23.»",
-      "translation_quote": "«…διότι από αυτήν εξέρχονται οι πηγές της ζωής –Παροιμίες 4:23.»"
+      "source_quote": "For the unbelieving husband is sanctified by the wife, and the unbelieving wife is sanctified by the husband: else were your children unclean; but now are they holy … For what knowest thou, O wife, whether thou shalt save thy husband? or how knowest thou, O man, whether thou shalt save thy wife? –1 Corinthians 7:14-16.",
+      "suggested_fix": "Translate the quoted Scripture into contemporary Modern Greek register (use modern, natural phrasing) while preserving the chapter and verse numbers and the placement of the quotation within the same HTML blockquote. For example, replace archaic words/forms (οίδεις → ξέρεις, γύναι → γυναίκα where appropriate in natural modern Greek) so the quotations read naturally to contemporary Greek speakers. Keep the quote inside the same <blockquote> and <p><em>…</em></p> tags and leave the reference “–1 Corinthians 7:14-16.” unchanged.",
+      "translation_quote": "Διότι ο άπιστος σύζυγος είναι αγιασμένος από τη γυναίκα, και η άπιστη σύζυγος αγιάζεται από τον άνδρα· αλλιώς τα παιδιά σας θα ήσαν ακάθαρτα· τώρα όμως είναι άγια … Τι οίδεις, γύναι, εάν σώσεις τον άνδρα σου; ή τι οίδεις, άνδρα, εάν σώσεις τη γυναίκα σου; –1 Κορινθίους 7:14-16."
+    },
+    {
+      "location": "Scripture quotations (e.g. Matthew 23:25-26, Proverbs 4:23, John 17:6-17, Ephesians 5:25-27, 1 Timothy 4:5, 2 Timothy 3:15-16, Psalm 1:1, 1 Peter 3:1-7)",
+      "severity": "minor",
+      "source_quote": "Woe unto you, scribes and Pharisees, hypocrites! for ye make clean the outside of the cup and of the platter, but within they are full of extortion and excess. Thou blind Pharisee, cleanse first that which is within the cup and platter, that the outside of them may be clean also –Matthew 23:25-26.",
+      "suggested_fix": "Modernize the register of all Scripture quotations to contemporary Modern Greek while preserving meaning and all chapter/verse identifiers and HTML structure. Avoid Koine/archaic inflections (e.g., replace «Ουαί σε σας» with «Ουαί σε σας» could be retained as a literary device, but prefer clearer modern phrasing such as «Ουαί σε σας, γραμματείς και Φαρισαίοι, υποκριτές!» only if it reads naturally; however prefer modern verbs and pronouns where possible). Do this consistently in every <blockquote> that contains Scripture. Leave the tags and reference markers unchanged.",
+      "translation_quote": "Ουαί σε σας, γραμματείες και Φαρισαίοι υποκριταί! διότι καθαρίζετε το εξωτερικό του ποτηρίου και του δίσκου, ενώ μέσα αυτά είναι γεμάτα εκμετάλλευση και υπερβολή. Ω τυφλέ Φαρισαίε, καθάρισον πρώτον το εντός του ποτηρίου και του δίσκου, ώστε να καθαρισθεί και το έξω αυτών –Ματθαίος 23:25-26."
+    },
+    {
+      "location": "Narrative and exposition (throughout the body)",
+      "severity": "minor",
+      "source_quote": "What a foolish thing it would be for a man to wash only the outside of a cup, which is to be looked at, and to leave the inside dirty, which is to be used.",
+      "suggested_fix": "Adjust occasional archaisms and formal lexical choices in the narrative translation to contemporary Modern Greek phrasing for better readability (examples: «τι ανόητο» is acceptable, but elsewhere avoid forms like «είναι άγαρ», «ουδένα», «εδοξάσθην», «δια του λόγου»). Make these wording updates while preserving the author’s theological meaning and keeping the original HTML tags and structure intact. No structural changes to paragraphs or quoted Scripture placement.",
+      "translation_quote": "Τι ανόητο θα ήταν για έναν άνδρα να πλένει μόνο το εξωτερικό ενός ποτηριού, που φαίνεται, και να αφήνει το εσωτερικό βρώμικο, που χρησιμοποιείται."
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "736b8dbed712e63138b23fa35c82534e",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "ell",
@@ -130,13 +149,13 @@
     }
   },
   "protected": false,
-  "quality_score": 68,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/54ee0eee893e8f116003f464d27484aec73d193d6d0149063d036fb9fd416e93.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "70ee1b1d710de512ea89ec934930eb1c2b6800a8dcbc40df2712b76ac2d1b4e0",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

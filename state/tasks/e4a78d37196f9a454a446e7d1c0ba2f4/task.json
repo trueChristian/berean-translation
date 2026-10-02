@@ -2,7 +2,6 @@
   "article_id": "c16663c4-9436-466b-bffd-dd954a5f3442",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,31 +61,44 @@
         },
         "total_tokens": 13588
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 795,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8145,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8940
+      }
     }
   ],
   "findings": [
     {
-      "location": "Paragraph containing John 14:15 and 1 John 2:4 (near middle of article)",
-      "severity": "major",
-      "source_quote": "If ye love me, keep my commandments –John 14:15. And, He that saith, I know him, and keepeth not his commandments, is a liar, and the truth is not in him –1 John 2:4.",
-      "suggested_fix": "Translate the two verses accurately and separately without adding or omitting sense. Replace the current Urdu rendering with a faithful translation that preserves the imperative sense of \"keep my commandments\" (i.e., obey/keep) and does not introduce extra qualifiers. For example: \"اگر تم مجھ سے محبت رکھتے ہو تو میرے حکموں کی پابندی کرو — یوحنا 14:15۔ اور جو کہتا ہے 'میں اُسے جانتا ہوں' اور اپنے حکموں کی پابندی نہیں کرتا، وہ جھوٹا ہے، اور سچائی اُس کے اندر نہیں ہے — 1 یوحنا 2:4.\" (Preserve article HTML tags and punctuation exactly as in source.)",
-      "translation_quote": "کلامِ مقدس کو یاد رکھو: <em>اگر تم مجھ سے محبت رکھتے ہو تو میری حکموں کو نہ صرف مانو—یوحنا 14:15۔ اور، جو کہتا ہے، میں اسے جانتا ہوں، اور اس کے حکموں کی پابندی نہیں کرتا، وہ جھوٹا ہے، اور سچائی اُس کے اندر نہیں ہے—1 یوحنا 2:4۔</em>"
-    },
-    {
-      "location": "Title element",
+      "location": "translation.title",
       "severity": "minor",
       "source_quote": "Drift",
-      "suggested_fix": "Translate the title into Urdu and avoid leaving the original English in parentheses unless the publication style requires retaining the English. Either use the translated title alone (e.g., \"بہاؤ\") or, if both are required by style, keep but place the Urdu first without parentheses. Preserve the title field HTML/structure.",
+      "suggested_fix": "Remove the retained English word in parentheses so the title is fully in Urdu. E.g., replace\n<title>بہاؤ (Drift)</title>\nwith\n<title>بہاؤ</title>\n(preserve the existing HTML tag structure and attributes).",
       "translation_quote": "بہاؤ (Drift)"
     },
     {
-      "location": "Paragraph describing battlefield sacrifice (paragraph under \"Brotherly love\")",
+      "location": "source.html paragraph about the holy kiss / translation.html same paragraph",
       "severity": "minor",
-      "source_quote": "Some of the greatest acts of showing love for one another have happened on the battlefield. Men have jumped on grenades, and they have jumped in front of bullets to save their comrades.",
-      "suggested_fix": "Restore the clear battlefield imagery by translating \"jumped on grenades\" and \"jumped in front of bullets\" literally and idiomatically in Urdu. For example: \"میدانِ جنگ میں ایک دوسرے کے لیے محبت کے کچھ عظیم ترین کردار وقوع پذیر ہوئے ہیں۔ مردوں نے اپنے ساتھیوں کی جان بچانے کے لیے گرانڈ (یا دستی بم) پر چھلانگ لگائی ہے، اور گولیوں کے سامنے کود گئے ہیں۔\" Keep HTML tags as in source.",
-      "translation_quote": "بھائی چارہ دکھانے کے کچھ عظیم ترین اعمال میدانِ جنگ میں ہوئے ہیں۔ مرد نے ہملے پر چھلانگ لگائی ہے، اور اپنے ساتھی کی جان بچانے کے لیے گولیوں کے سامنے کود گئے ہیں۔"
+      "source_quote": "People have visited our church and asked if we practice the holy kiss. I reply that we do; however, understanding the need to love one another comes first.",
+      "suggested_fix": "Remove the leftover English transliteration in parentheses so the phrase is fully rendered in Urdu and reads naturally. E.g., replace\n\"مقدس بوسہ (ہولی کس)\" \nwith\n\"مقدس بوسہ\"\n(or another conventional Urdu rendering such as \"پاک بوسہ\"), preserving the HTML paragraph tags and surrounding text exactly as in the translation file.",
+      "translation_quote": "مقدس بوسہ (ہولی کس) دیتے ہیں؛ تاہم ایک دوسرے سے محبت کرنے کی ضرورت کو سمجھنا پہلے آتا ہے۔"
     }
   ],
+  "finished_at": "2026-10-02T11:25:28+00:00",
   "id": "e4a78d37196f9a454a446e7d1c0ba2f4",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "urd",
@@ -130,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/930958d5d08150faddf8cc6d4ba6c22ee28be341e3250f81368856d9c75f0afc.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "8dd5d606c1d8d9cf5603a40e68a843196a12e272a0bd52717b5de07e6983516a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

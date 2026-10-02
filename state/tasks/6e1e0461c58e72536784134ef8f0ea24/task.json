@@ -2,7 +2,6 @@
   "article_id": "b3c8e9e3-2b81-4f91-846f-23e68fbd5b70",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,24 +61,37 @@
         },
         "total_tokens": 14253
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 878,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8951,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9829
+      }
     }
   ],
   "findings": [
     {
-      "location": "<p>…Matthew quote (source.html)</p>",
-      "severity": "critical",
-      "source_quote": "For in that she hath poured this ointment on my body, she did it for my burial –Matthew 26:12.",
-      "suggested_fix": "Translate the quoted Matthew 26:12 faithfully into Kiswahili, preserving that it explains the anointing was done preparing Jesus for burial. Example fix (preserve <em> tags and punctuation): <em>Kwa maana alipoteka mafuta haya kwenye mwili wangu, alifanya hivyo kwa ajili ya mazishi yangu – Mathayo 26:12.</em>",
-      "translation_quote": "<em>Kwa maana alipotaka kumwacha huyo, alinifanya tayari kwa maziko yangu – Mathayo 26:12.</em>"
-    },
-    {
-      "location": "Paragraph beginning \"Did Paul not say in Ephesians...\" (source.html)",
+      "location": "Paragraph about Rahab (source.html paragraph starting 'The Bible abounds with accounts of women who lived by faith. Consider the harlot Rahab...')",
       "severity": "minor",
-      "source_quote": "Did Paul not say in Ephesians chapter five that the husband is “the savior of the body”?",
-      "suggested_fix": "Correct the translator's rendering of the apostle Paul's name to standard Kiswahili form. Replace “Paolo” with “Paulo”. Example fix (preserve surrounding HTML): \"Je, Paulo hakusema katika Waefeso sura tano kwamba mume ni 'mkombozi wa mwili'?\"",
-      "translation_quote": "\"Je, Paolo hakusema katika Waefeso sura tano kwamba mume ni “mkombozi wa mwili”?\""
+      "source_quote": "Consider the harlot Rahab.",
+      "suggested_fix": "The translation uses “mke haramu Rahabu.” That is understandable but nonstandard Swahili Bible usage commonly renders her name as “Rahabu” (with final -u is acceptable) and the phrase for “the harlot” is typically “msichana wa mizinga” or “mchawi” is wrong — keep a clear, neutral phrase. Suggest keeping “Rahabu” and using the more neutral “mke wa mali mtakatifu” is incorrect. Recommended minimal change: use “Mademu Rahabu” or simply “Rahabu” with context preserved. Example suggested wording (Swahili): “Fikiria Rahabu, msichana wa mizinga.”",
+      "translation_quote": "Fikiria juu ya mke haramu Rahabu."
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "6e1e0461c58e72536784134ef8f0ea24",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "swa",
@@ -123,13 +135,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8cfe76a75d2704a515e0bc44af297afb5a26a042a45e137da71cec303c344e97.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "84afe7c1fae039864478445557b2cd71f3647f31db181086b533ee7c5b51637a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

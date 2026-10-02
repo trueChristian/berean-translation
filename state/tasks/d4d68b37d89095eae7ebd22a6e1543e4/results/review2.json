@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "42f32f28-695a-4db9-b378-eb39b141993c",
+    "response_id": "chatcmpl-EUVe90M74VMXpHoA6GFSOL0DYrIj2",
+    "usage": {
+      "completion_tokens": 655,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1532,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2187
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> → <div class=\"poem\"> → stanza 6 (line: \"Do we have time for that still small voice?\")",
+        "severity": "minor",
+        "source_quote": "Do we have time for that still small voice?",
+        "suggested_fix": "Adjust wording for more natural Kiswahili word order and clarity while preserving meaning: change <p>Tuna wakati wa sauti ndogo bado?<br>\n    Au je, pesa zetu zinazungumza, zikitutoa fursa?</p> to <p>Je, bado tuna muda wa ile sauti tulivu ndogo?<br>\n    Au je, pesa zetu zinazungumza, zikitutawanya fursa?</p>",
+        "translation_quote": "Tuna wakati wa sauti ndogo bado?\n    Au je, pesa zetu zinazungumza, zikitutoa fursa?"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

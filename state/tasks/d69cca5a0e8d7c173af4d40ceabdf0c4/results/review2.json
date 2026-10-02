@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "857a5420-8088-48c4-9af2-d02cd4c05b77",
+    "response_id": "chatcmpl-EUVe6nUxqhtbKfNyZ9I35pzyGhOUa",
+    "usage": {
+      "completion_tokens": 912,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1531,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2443
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"><p>1 (line 2)",
+        "severity": "minor",
+        "source_quote": "Or are they the same; can someone see?",
+        "suggested_fix": "Revise to a more natural Norwegian phrasing that preserves meaning: replace \"Eller er de ett; kan noen se det?\" with \"Eller er de det samme — kan noen se det?\"",
+        "translation_quote": "Eller er de ett; kan noen se det?"
+      },
+      {
+        "location": "<div class=\"poem\"><p>2 ( stanza 2, line 2)",
+        "severity": "minor",
+        "source_quote": "They trade their lives, with no reason why.",
+        "suggested_fix": "Use a clearer idiomatic Norwegian verb phrase: replace \"De bytter sine liv, uten grunn å gripe.\" with \"De bytter bort livene sine, uten noen grunn.\"",
+        "translation_quote": "De bytter sine liv, uten grunn å gripe."
+      },
+      {
+        "location": "<div class=\"poem\"><p>9 (penultimate line)",
+        "severity": "minor",
+        "source_quote": "Lying to yourself is a foolish thing—",
+        "suggested_fix": "Make the phrasing more natural and concise in Norwegian while preserving meaning: replace \"Å lyve for seg selv er en tåpelig ting—\" with \"Å lyve for seg selv er tåpelig—\" or \"Det er tåpelig å lyve for seg selv—\"",
+        "translation_quote": "Å lyve for seg selv er en tåpelig ting—"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

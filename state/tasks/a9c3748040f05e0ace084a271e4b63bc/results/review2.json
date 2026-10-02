@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f65f3181-d795-470f-aba8-f3214fefa74b",
+    "response_id": "chatcmpl-EUVdw6W3RE3xzmNFpuWtSirPKXJaV",
+    "usage": {
+      "completion_tokens": 1350,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1088,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1541,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2891
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> <div class=\"poem\"> 第3 stanza, second line (English source: “What about our wives, or children to please?”)",
+        "severity": "major",
+        "source_quote": "“What about our wives, or children to please?”",
+        "suggested_fix": "Replace the Hebrew line with a rendering that preserves the English meaning: \"\\\"ומה עם נשותינו, או כדי לרצות את ילדינו?\\\"\" (keep surrounding <p> and other HTML intact).",
+        "translation_quote": "\"\\\"ומה עם נשותינו, או ילדים לשמחה?\\\"\""
+      },
+      {
+        "location": "<article> <div class=\"poem\"> 第9 stanza, first line (English source: \"Lying to yourself is a foolish thing—\")",
+        "severity": "major",
+        "source_quote": "Lying to yourself is a foolish thing—",
+        "suggested_fix": "Replace the Hebrew line with a closer literal equivalent that preserves meaning: \"להשקר לעצמך הוא דבר טיפשי—\" (keep surrounding <p> and other HTML intact).",
+        "translation_quote": "להשמיד את עצמך בשקר הוא מטופש—"
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

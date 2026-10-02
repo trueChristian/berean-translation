@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c739ff2f-cada-4ab3-8d8d-b2af62374f58",
+    "response_id": "chatcmpl-EUVe1EQYUnD4Dnr50dHOroE6HObSz",
+    "usage": {
+      "completion_tokens": 1002,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8405,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9407
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph mentioning 'Menno Simmons' (around the section on Anabaptist split)",
+        "severity": "minor",
+        "source_quote": "This would be the church of Menno Simmons, and the root of the Mennonite churches of today.",
+        "suggested_fix": "Ensure the proper name in Russian reflects the author’s English spelling or an established Russian form. Options: (1) If keeping the English spelling 'Menno Simmons' as printed in the source, use a direct transliteration 'Менно Симмонс'. (2) If the intended reference is Menno Simons (common historical form), use the established Russian form 'Менно Симонс' or 'Менно Симонсa (Менно Симонс)'. Keep the spelling consistent with the source's printed form or a standard Russian historiographical form.",
+        "translation_quote": "Это была церковь Менно Симонса и корень современных меннонитских общин."
+      },
+      {
+        "location": "Sentence in English source with 'Munser' (paragraph describing Jans moving to Munser in early 1534)",
+        "severity": "minor",
+        "source_quote": "The Jans moved to Munser in early 1534, and began sending out prophets and messengers, who called all “Anabaptists” to congregate at this “New Jerusalem”.",
+        "suggested_fix": "The English source contains a likely typographical error 'Munser'. The translator corrected this to 'Мюнстер' (the historically correct city name). Recommend keeping the corrected, standard place name 'Мюнстер' in Russian (no change needed) or, if strict fidelity to source orthography is required, preserve the original spelling 'Munser' as 'Мунсер'.",
+        "translation_quote": "Яны прибыли в Мюнстер в начале 1534 года и начали посылать пророков и вестников, призывавших всех «анабаптистов» собраться в этой «Новой Иерусалиме»."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

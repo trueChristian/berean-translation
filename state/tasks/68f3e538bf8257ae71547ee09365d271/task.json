@@ -2,7 +2,6 @@
   "article_id": "b9a7b1b8-0a23-4e53-b835-31bf5a42dc33",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,24 +61,52 @@
         },
         "total_tokens": 17535
       }
-    }
-  ],
-  "findings": [
-    {
-      "location": "source.html — first paragraph (John 21:22 quote)",
-      "severity": "major",
-      "source_quote": "<em>If I will that he [John] tarry till I come, what is that to thee? follow thou me. John 21:22.</em>",
-      "suggested_fix": "Translate the verse into contemporary Modern Greek as a faithful rendering of the printed English quotation and preserve the reference. Replace the current Koine-style/incorrect Greek with a modern-Greek translation. For example (preserve the surrounding <em> tags and the verse number): <em>Αν θέλω να μείνει αυτός μέχρι να έλθω, τί πρὸς σένα; εσύ ἄκολούθει μοι.—Ιωάννης 21:22.</em> Or, in contemporary Modern Greek without archaisms: <em>Εάν θέλω να μείνει αυτός μέχρι να έρθω, τί σε αφορά; εσύ ακολούθα με. — Ιωάννης 21:22.</em> Ensure the chosen rendering is in contemporary Modern Greek and the chapter:verse notation remains exactly “Ιωάννης 21:22.”",
-      "translation_quote": "<em>Εἰ δὸν θέλω αὐτὸν μεῖναι μέχρι ἧς ἔρχομαι, τί πρὸς σὲ; Ἀκολούθει μοι.—Ιωάννης 21:22.</em>"
     },
     {
-      "location": "source.html — third paragraph (sentence about imminence of Christ's return)",
-      "severity": "major",
-      "source_quote": "Now, two thousand years since Christ gave that promise, His soon return seems just as imminent as it did to the first century believers.",
-      "suggested_fix": "The translation changed the meaning by rendering 'soon return' as ««στενή» επιστροφή Του», which is incorrect and alters the sense. Replace with a contemporary-Greek rendering that preserves the original meaning about the return seeming 'soon' or 'imminent'. Suggested replacement sentence in Greek: «Τώρα, δύο χιλιάδες χρόνια αφότου ο Χριστός έδωσε αυτή την υπόσχεση, η επικείμενη επιστροφή Του φαίνεται εξίσου άμεση όπως και για τους πιστούς του πρώτου αιώνα.» Keep the rest of the paragraph unchanged and preserve HTML tags.",
-      "translation_quote": "<p>Τώρα, δύο χιλιάδες χρόνια αφότου ο Χριστός έδωσε αυτή την υπόσχεση, η «στενή» επιστροφή Του φαίνεται εξίσου επικείμενη όπως και στους πιστούς του πρώτου αιώνα.</p>"
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1286,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10315,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11601
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "findings": [
+    {
+      "location": "Paragraph beginning \"The religious atmosphere of first century Israel...\" (about who benefited from system)",
+      "severity": "major",
+      "source_quote": "The ones who bought into it the most were the ones who received the most from this system of exclusive access to God and His promises.",
+      "suggested_fix": "Translate the meaning faithfully: convey that those who embraced and profited most from the system were the primary beneficiaries (i.e., they gained the most). Keep the structure of the HTML paragraph unchanged and replace the mistranslated clause. Example (in Greek, preserving article HTML tags): «Όσοι αποδέχονταν περισσότερο αυτό το σύστημα ήταν και αυτοί που επωφελούνταν περισσότερο από την αποκλειστική πρόσβαση στον Θεό και στις υποσχέσεις Του.»",
+      "translation_quote": "«Όσοι επωφελούνταν περισσότερο από αυτό το σύστημα αποκλειστικής πρόσβασης στον Θεό και στις υποσχέσεις Του ήταν εκείνοι που το υπέστησαν πιο έντονα.»"
+    },
+    {
+      "location": "Paragraph: \"In their minds, the day of the Lord was come, and Constantine was the rod of iron with which God would rule.\"",
+      "severity": "minor",
+      "source_quote": "Constantine was the rod of iron with which God would rule.",
+      "suggested_fix": "Correct Greek gender/inflection for natural, idiomatic rendering of the metaphor. Replace «το σιδηρούν ράβδος με την οποία ο Θεός θα βασίλευε» with a grammatically correct phrase such as «η σιδηρά ράβδος με την οποία ο Θεός θα βασίλευε» or «η σιδηρή ράβδος με την οποία ο Θεός θα βασίλευε». Preserve HTML tags and surrounding punctuation.",
+      "translation_quote": "«Στο μυαλό τους, η ημέρα του Κυρίου είχε έλθει, και ο Κωνσταντίνος ήταν το σιδηρούν ράβδος με την οποία ο Θεός θα βασίλευε.»"
+    },
+    {
+      "location": "Paragraphs referencing Munster / Muensterites and Jan names",
+      "severity": "minor",
+      "source_quote": "the tale of the infamous Muensterites gives us a further example... / Jan Matthysz and Jan of Leiden",
+      "suggested_fix": "Make the transliteration/inflection of place and people names consistent and idiomatic in Greek. For example, render “Muensterites” as «Μυνστεριανοί» or «οι του Μύνστερ» and keep the two leaders consistently as «Γιάν Ματθίζ» / «Γιάν του Leiden» or «Γιαν Ματθίσ» depending on the chosen transliteration convention. Ensure the same form is used throughout the article. Preserve HTML structure.",
+      "translation_quote": "«το αφήγημα των διαβόητων Μύνστερων μας δίνει ένα ακόμη παράδειγμα... / Οι Jan μετανάστευσαν στο Μύνστερ...»"
+    }
+  ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "68f3e538bf8257ae71547ee09365d271",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "ell",
@@ -123,13 +150,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 80,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1b89de23229eb76f45635f4ff8dcdc61cf2a0af8d7f5b597cc9c5c560ef20e62.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "d586dd43ac554896b8fef04467efcb67fca005c8dae5313bc95967b13d0bd0fc",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

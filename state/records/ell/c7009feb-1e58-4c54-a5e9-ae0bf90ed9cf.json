@@ -6,9 +6,32 @@
       "campaign": "gh-36992568621",
       "event": "requested",
       "task": "79db1ecd341106424e556728c92feb2e"
+    },
+    {
+      "at": "2026-10-02T11:25:27+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "79db1ecd341106424e556728c92feb2e"
     }
   ],
   "language": "ell",
   "latest_task": "79db1ecd341106424e556728c92feb2e",
-  "published": null
+  "published": {
+    "html_path": "content/ell/articles/c7009feb-1e58-4c54-a5e9-ae0bf90ed9cf.html",
+    "html_sha256": "9d0e93029bd3d8796770d5532d8aa4fbd7062e5dab7163004e7a7bdc002da592",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
+    "metadata_path": "content/ell/articles/c7009feb-1e58-4c54-a5e9-ae0bf90ed9cf.json",
+    "metadata_sha256": "f63d490962061d451e187760fd55c9d617c9aa99abe6e0aab8954ccd20670832",
+    "model": "gpt-5-mini-2025-08-07",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"el\" dir=\"ltr\" role=\"note\">\n  <p>Το άρθρο αυτό μεταφράστηκε με τεχνητή νοημοσύνη της OpenAI (μοντέλο: gpt-5-mini-2025-08-07) και δεν έχει ακόμη ελεγχθεί από άνθρωπο. Το αγγλικό πρωτότυπο αποτελεί την αυθεντική έκδοση αναφοράς. Σε περίπτωση αμφιβολίας για το νόημα, συμβουλευτείτε το αγγλικό πρωτότυπο. <a href=\"/en/articles/c7009feb-1e58-4c54-a5e9-ae0bf90ed9cf/\" data-source-article-id=\"c7009feb-1e58-4c54-a5e9-ae0bf90ed9cf\" hreflang=\"en\">Αγγλικό πρωτότυπο</a></p>\n</aside>",
+    "published_at": "2026-10-02T11:25:27+00:00",
+    "quality_score": 97,
+    "review_model": "gpt-5-mini-2025-08-07",
+    "source_revision": "9e6e1db340e802f71c7018950dc820482ecc4e5e",
+    "source_snapshot": "state/sources/007fc316198faf474d16a29be6ce55b2d1edd73a2740466b844468e370ef99fd.json",
+    "task": "79db1ecd341106424e556728c92feb2e",
+    "translation_key": "1f7c34bc947a663a71aab745b050e25b087d38fd1ef4f605c7cdf8255d9c68b7"
+  }
 }

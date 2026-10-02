@@ -2,7 +2,6 @@
   "article_id": "cc225bc9-2dda-46f3-a628-13af4fd95e7a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,45 +61,29 @@
         },
         "total_tokens": 6367
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 474,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3397,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3871
+      }
     }
   ],
-  "findings": [
-    {
-      "location": "Paragraph 1 (first sentence of article HTML)",
-      "severity": "minor",
-      "source_quote": "The Church History article focuses on Bible prophecy pertaining to the end times and some various ways that over the years certain elements of the church got off track from the Biblical teaching as it pertained to their everyday life.",
-      "suggested_fix": "Translate the heading/phrase clearly into Hindi. Replace “चर्च हिलकियत का लेख” with a natural Hindi rendering such as: \"चर्च इतिहास का लेख\" or \"चर्च इतिहास संबंधी लेख\" so the meaning (“Church History”) is clear to Hindi readers while preserving the author's intent.",
-      "translation_quote": "चर्च हिलकियत का लेख अन्त समय से सम्बंधित बाइबिल भविष्यवाणी..."
-    },
-    {
-      "location": "Paragraph beginning “Forty-plus years ago,”",
-      "severity": "minor",
-      "source_quote": "Forty-plus years ago, most farmers had gas-powered tractors with a carburetor or a diesel tractor with a manually powered injector pump.",
-      "suggested_fix": "Replace the mixed English/Hindi expression “चालीस-plus साल पहले” with a full Hindi phrase such as “चालीस से अधिक वर्ष पहले” to make the text idiomatic and fully in the target language.",
-      "translation_quote": "चालीस-plus साल पहले, अधिकांश किसान..."
-    },
-    {
-      "location": "Paragraph describing childhood vehicles (same paragraph as above)",
-      "severity": "minor",
-      "source_quote": "All vehicles used to be rear-wheel drive or four-wheel drive. How odd it seemed when the first front-wheel drive cars started to appear.",
-      "suggested_fix": "The translation uses English technical terms repeatedly. Use conventional Hindi/Devanagari renderings or established transliterations consistently, for example: \"पहले सभी वाहन पीछे पहियों से चलने वाले (रीयर-व्हील ड्राइव) या चार पहियों से चलने वाले (फोर-व्हील ड्राइव) हुआ करते थे। जब पहली बार फ्रंट-व्हील ड्राइव कारें दिखने लगीं तो कितना अजीब लगा।\" (Or keep the English terms but render them consistently in Devanagari.)",
-      "translation_quote": "पहले सभी वाहन रियर-व्हील ड्राइव या फोर-व्हील ड्राइव हुआ करते थे। जब पहली बार फ्रंट-व्हील ड्राइव कारें दिखने लगीं तो कितना अजीब लगा।"
-    },
-    {
-      "location": "Paragraph describing the author’s recovery from Covid (paragraph with \"उबर चुका/चुकी हूँ\")",
-      "severity": "minor",
-      "source_quote": "...and finally, praise the Lord, I have mostly recovered from most of the long-term effects of Covid. A special thanks to each one who has prayed for my health.",
-      "suggested_fix": "Avoid slash forms that show both grammatical genders. Choose the narrator’s intended gender or rephrase impersonally. For example: \"...और अंततः, प्रभु की स्तुति हो, मैं कोविड के अधिकांश दीर्घकालिक प्रभावों से लगभग पूरी तरह उबर चुका हूँ। मेरी स्वास्थ्य के लिये प्रार्थना करने वाले प्रत्येक व्यक्ति का विशेष धन्यवाद।\" If the translator does not know the narrator's gender and the site prefers gender-neutral phrasing, use an impersonal construction: \"...मैं कोविड के अधिकांश दीर्घकालिक प्रभावों से अधिकांशतः उबर चुका/उबर चुकी हूँ\" should be resolved to a single form per site conventions.",
-      "translation_quote": "...मैं कोविड के अधिकांश दीर्घकालिक प्रभावों से ज्यादातर उबर चुका/चुकी हूँ। मेरी स्वास्थ्य के लिये प्रार्थना करने वाले प्रत्येक व्यक्ति का विशेष धन्यवाद।"
-    },
-    {
-      "location": "Paragraph with Ephesians quotation (Hebrews/Ephesians sequence)",
-      "severity": "major",
-      "source_quote": "That we [should] henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine… –Ephesians 4:14.",
-      "suggested_fix": "This is a quoted scriptural phrase and must faithfully convey the source meaning. The current Hindi \"किसी सिखावन के हर मीठे-हवा से\" renders \"every wind of doctrine\" inaccurately (\"मीठे-हवा\" means \"sweet wind\", altering sense). Replace the phrase with a faithful Hindi rendering such as: \"ताकि अब से हम और बच्चे न रहें, न ही सिखावन की हर हवा से उछलते हुए और भटकते हुए... –इफिसियों 4:14।\" or \"...न ही किसी भी सिखावन की हवा से उड़ा किये जाने वाले...\" Preserve the verse numbering and punctuation exactly as in the source.",
-      "translation_quote": "ताकि अब से हम और बच्चे न रहें, न तो किसी सिखावन के हर मीठे-हवा से झुलाये जाने वाले… –इफिसियों 4:14।"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "c13a90b911dcccdf3d1a22b189623792",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "hin",
@@ -144,13 +127,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/75bf9f86ddf02e207a89e1a74e3d26989515704eae85bcbc97e911af15e7ea76.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "1d62440b3aaa33963e8085784efc020cfa0cf8cb3b508148be95c55907a09059",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

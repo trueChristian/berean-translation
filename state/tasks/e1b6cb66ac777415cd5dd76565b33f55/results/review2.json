@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "32b6ebe4-e200-4f71-81f3-aace6c371bb8",
+    "response_id": "chatcmpl-EUVe8jDR4oMX2AFF2ormHSrhUktP3",
+    "usage": {
+      "completion_tokens": 1080,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4113,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5193
+    }
+  },
+  "received_at": "2026-10-02T11:25:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Of special interest was our neighbor Melvin. His barn had collapsed on top of dozens of cattle and then a fire had broken out. The neighbor men tried desperately to rescue what cattle they could, but in the end, many of the steers could not be saved.</p>",
+        "severity": "minor",
+        "source_quote": "His barn had collapsed on top of dozens of cattle and then a fire had broken out. ... many of the steers could not be saved.",
+        "suggested_fix": "Translate 'barn' with the more standard Hindi agricultural term and make terminology for 'steers' consistent. For example: \"उसका खलिहान दर्जनों मवेशियों के ऊपर ढह गया और फिर आग लग गई। पड़ोसी पुरुष हताश होकर जितनी मवेशियाँ बचा सकें उन्हें बचाने की कोशिश करते रहे, पर अंत में कई नटेर (या 'नट'/'नर मवेशी') बच नहीं सके।\" (Choose one consistent Hindi term for 'steers' such as 'नर मवेशी' or keep 'बैलों' throughout.) Ensure the fix preserves surrounding HTML tags and structure.",
+        "translation_quote": "खास ध्यान हमारे पड़ोसी मेलविन की तरफ था। उसकी शेड दर्जनों मवेशियों के ऊपर ढह गई और फिर आग लग गई। पड़ोसी पुरुष हताश होकर जितनी मवेशियाँ बचा सके उन्हें बचाने की कोशिश करते रहे, पर अंत में कई बैल बच नहीं सके।"
+      },
+      {
+        "location": "<p>Sunday came, but no one went to church. ... \"All I can think about is those poor steers!\"</p>",
+        "severity": "minor",
+        "source_quote": "\"All I can think about is those poor steers!\"",
+        "suggested_fix": "Use the same Hindi word for 'steers' as used elsewhere in the article for consistency (see previous suggestion). For example, if you choose 'बैलों' elsewhere, translate this line: “मेरे दिमाग में बस उन बेबस बैलों की ही याद आती है!” or if you choose 'नर मवेशी' use that term consistently.",
+        "translation_quote": "एली का छोटा भाई रोया, “मेरे दिमाग में बस उन बेबस बैलों की ही याद आती है!”"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

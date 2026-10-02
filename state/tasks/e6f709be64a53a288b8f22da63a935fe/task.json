@@ -2,7 +2,6 @@
   "article_id": "2b07502a-cbf0-4b92-8bb8-7910a5557f84",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:09+00:00",
   "events": [
@@ -62,31 +61,66 @@
         },
         "total_tokens": 10818
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1640,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6502,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8142
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "Paragraph 2 (\"local Prince, Elector Ludwig\")",
+      "location": "source.html ¶4 (\"Another major improvement was the introduction of the legume, clover.\")",
       "severity": "major",
-      "source_quote": "In the mid-1600s, the local Prince, Elector Ludwig, invited the exiled Swiss Brethren into the Palatinate to help rebuild the farms...",
-      "suggested_fix": "Translate the title accurately. Replace \"Mfalme mteule Ludwig\" with a phrase that conveys Elector rather than king (e.g., \"Waziri Mfalme mteule/Alimkaribia Mfalme mteule\" is incorrect). Use a Kiswahili phrase such as \"Mfalme mteule (Elector) Ludwig\" or better: \"Mfalme mteule (Elector) Ludwig\" is still confusing—recommended: \"Mchaguzi (Elector) Ludwig\" or \"Ludwig, Mchaguzi (Elector)\" so the historical office 'Elector' is preserved. Maintain the name order and keep the original historical term in parentheses if helpful: \"Mchaguzi (Elector) Ludwig\".",
-      "translation_quote": "Katikati za miaka ya 1600, Mkuu wa eneo hilo, Mfalme mteule Ludwig, alimkaribisha Wabrethreni waliotawanywa katika Pfaltzland ili kusaidia..."
+      "source_quote": "Another major improvement was the introduction of the legume, clover.",
+      "suggested_fix": "Translate 'legume, clover' accurately into Kiswahili (e.g. \"marenge/maharage kama vile klova\" or \"maharage [legume], kama klova\"). Preserve meaning that clover is a legume introduced to improve soil/forage.",
+      "translation_quote": "Maboresho makubwa mengine ilikuwa utambulisho wa mahindi ya mazao ya mto (legume), kama clover."
     },
     {
-      "location": "Paragraph about Germantown (sentence: \"It seems that here is where the Swiss Brethren first became known as Mennists or Mennonites.\")",
+      "location": "source.html ¶1 (\"They were referred to as the Swiss Brethren\")",
       "severity": "minor",
-      "source_quote": "It seems that here is where the Swiss Brethren first became known as Mennists or Mennonites.",
-      "suggested_fix": "Correct the mixed-language term. Replace \"Mennists au Mennonites\" with a Kiswahili rendering such as \"Mennists au Mennonites\" is mixing French; use \"Mennists au\" -> \"Mennists au\" should be fully Kiswahili/English: e.g., \"walianza kuitwa Mennists au Mennonites\" or better simply \"walipoanza kuitwa Mennonites (Mennists)\". Ensure only Kiswahili words or conventional names remain.",
-      "translation_quote": "Inaonekana hapa ndipo Wabrethreni wa Uswisi walipoanza kuitwa Mennists au Mennonites."
+      "source_quote": "They were referred to as the Swiss Brethren",
+      "suggested_fix": "Translate the phrase fully into Kiswahili. Avoid leaving 'Brethren' in English; use a Kiswahili equivalent such as \"Wavulana wa Uswisi\", \"Wabrethreni wa Uswisi\" or \"Wazee/Waislamu?\" (depending on context). Recommended: \"Wabrethreni wa Uswisi\" or simply \"Wabrethreni wa Uswisi\" with 'Brethren' rendered consistently.",
+      "translation_quote": "Waliitwa Wabrethreni wa Uswisi"
     },
     {
-      "location": "Paragraph beginning \"That is the background...\" (sentence including 'possibly they planned...')",
+      "location": "source.html ¶6 (list of groups welcomed by Penn: \"German Baptist, Schwenkfelders and Pietists\")",
+      "severity": "major",
+      "source_quote": "He welcomed Quakers from England, Huguenots from France, Mennonites from Holland, German Baptist, Schwenkfelders and Pietists from Germany, as well as Swiss Brethren and Jews...",
+      "suggested_fix": "'German Baptist' should be translated as 'Wabaptisti wa Kijerumani' (or 'Waleti? not correct'). Render the full list in idiomatic Kiswahili: e.g. \"Wakwaya kutoka Uingereza, Wahuguenote kutoka Ufaransa, Wamennonite kutoka Uholanzi, Wabaptisti wa Kijerumani, Schwenkfelders na Pietisti kutoka Ujerumani, pamoja na Wabrethreni wa Uswisi...\"",
+      "translation_quote": "Alikaribisha Wakwaya kutoka Uingereza, Wahuguenot kutoka Ufaransa, Wamennonite kutoka Uholanzi, Waletani wa Kijerumani, Schwenkfelders na Pietists kutoka Ujerumani, pamoja na Wabrethreni wa Uswisi na Wayahudi..."
+    },
+    {
+      "location": "source.html ¶4 (\"which helped them feed more dairy cattle, and, in turn, allowed them to produce milk through the winters\")",
       "severity": "minor",
-      "source_quote": "Possibly they planned to have him get settled in over there and then come back for her.",
-      "suggested_fix": "Remove the stray English word and make sentence idiomatic Kiswahili. Replace \"walipanga that Hans aangalie\" with \"inawezekana walipanga Hans aangalie kwanza huko, kisha arudi kumchukua\" or similar fluent Kiswahili.",
-      "translation_quote": "Inawezekana walipanga that Hans aangalie kabla ili kisha kurudi kumchukua."
+      "source_quote": "which helped them feed more dairy cattle, and, in turn, allowed them to produce milk through the winters.",
+      "suggested_fix": "Render the practical meaning clearly in Kiswahili: e.g. \"iliowasaidia kuliwisha ng'ombe wa maziwa zaidi na, kwa hivyo, kuwawezesha kupata maziwa hata majira ya baridi.\" Replace the unclear phrase \"kuzalisha maziwa mjini za baridi.\"",
+      "translation_quote": "kuwasaidia kulisha ng’ombe wengi wa maziwa, na kwa hiyo, kuwawezesha kuzalisha maziwa mjini za baridi."
+    },
+    {
+      "location": "source.html ¶3–¶6 (parenthetical/borrowed terms and anglicisms: 'Ferhexing', 'Mennonites (Mennists)', 'Quakers', 'Huguenots')",
+      "severity": "minor",
+      "source_quote": "\"Ferhexing\" (the Pennsylvania Dutch term for witchcraft); \"Mennonites\"; \"Quakers\"; \"Huguenots\"",
+      "suggested_fix": "Either translate or provide conventional Kiswahili renderings and ensure consistency. For example: keep 'Ferhexing' as a quoted loanword but explain briefly in Kiswahili (already done), render 'Mennonites' as 'Wamennonite' consistently (avoid adding un-translated English variant 'Mennists'), and use Kiswahili forms 'Wakwaya' for Quakers and 'Wahuguenoti' for Huguenots consistently. Remove or translate stray English 'Mennists' in parentheses.",
+      "translation_quote": "In a few places the translation keeps or introduces English forms: \"Ferhexing\" (neno la Pennsylvania Dutch...), \"Mennonites (Mennists)\", \"Wakwaya\" is rendered but other terms vary."
     }
   ],
+  "finished_at": "2026-10-02T11:25:28+00:00",
   "id": "e6f709be64a53a288b8f22da63a935fe",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "swa",
@@ -130,13 +164,13 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 62,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/589bbbf06d53e840c1b02c16b5a0e9d55ee78fbc01185cea481271c35d6c3b97.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "b3e43e634638cbb2acbfd582a6dcb7a3f9f4e2dc77e578bc59a693261f0aa67b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

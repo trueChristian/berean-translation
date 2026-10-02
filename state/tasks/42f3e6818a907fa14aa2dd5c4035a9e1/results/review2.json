@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "33c5debc-97fd-4d71-9947-8b6139f15f78",
+    "response_id": "chatcmpl-EUVeOiSaWRFcn75c9QrYP603NHJj2",
+    "usage": {
+      "completion_tokens": 1652,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12442,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 14094
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing James 1:5 (near \"In deciding what course of treatment...\")",
+        "severity": "minor",
+        "source_quote": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him –James 1:5.",
+        "suggested_fix": "Render the verse in clear contemporary Modern Greek (preserving the verse reference). Replace the current wording with a natural, modern phrasing such as: «Εάν δε κανείς από εσάς στερείται σοφίας, ας την ζητήσει από τον Θεό, που δίνει σε όλους γενναιόδωρα χωρίς μομφή· και θα του δοθεί. — Ιάκωβος 1:5.» Ensure grammar is idiomatic (avoid the unidiomatic verb \"εκλείπει\").",
+        "translation_quote": "<em>Εάν δε κανείς από εσάς εκλείπει τη σοφία, ας την αιτηθεί από τον Θεό, που δίνει σε όλους γενναιόδωρα χωρίς ψόγο· και θα του δοθεί. — Ιάκωβος 1:5.</em>"
+      },
+      {
+        "location": "Paragraph explaining \"neutropenic fever\" (under 'Be Willing to Keep Your Distance')",
+        "severity": "minor",
+        "source_quote": "…a “neutropenic fever” (a febrile illness with a really low white cell count).",
+        "suggested_fix": "Adjust the parenthetical explanation to a clearer contemporary Greek rendering that keeps the original meaning. For example: «(«ουδετεροπενικός πυρετός», δηλαδή πυρετός με πολύ χαμηλό αριθμό λευκών αιμοσφαιρίων)». Replace the current parenthesis which reads \"παρατεταμένη πυρετική κατάσταση με πολύ χαμηλό αριθμό λευκών\" (which can imply 'prolonged' rather than 'febrile illness').",
+        "translation_quote": "…«ουδετεροπενικό πυρετό» (παρατεταμένη πυρετική κατάσταση με πολύ χαμηλό αριθμό λευκών)."
+      },
+      {
+        "location": "Biblical quotations style and register (multiple locations: James 5:16, Psalm 103:2-3, 1 Corinthians 12:26, Philippians 1:21 etc.)",
+        "severity": "minor",
+        "source_quote": "For to me to live is Christ, and to die is gain –Philippians 1:21. (and other quoted verses in the source)",
+        "suggested_fix": "Use contemporary Modern Greek phrasing for quoted Scripture passages so they read naturally to modern Greek readers while preserving the printed meaning and verse references. Examples:\n- Philippians 1:21: «Για μένα, το να ζω είναι Χριστός και το να πεθαίνω είναι κέρδος. — Φιλιππησίους 1:21.»\n- James 5:16: «Η αποτελεσματική, σπαρακτική προσευχή του δικαίου ωφελεί πολύ. — Ιάκωβος 5:16.»\n- Psalm 103:2-3: consider a contemporary form like «Ευλόγησον, ψυχή μου, τον Κύριο, και μη λησμονείς όλα τα αγαθά Του· Αυτός αφαιρεί όλα τα σφάλματά σου και ιάται όλα τα νοσήματά σου. — Ψαλμός 103:2-3.»\nDo not alter verse numbers or placement; only modernize register/language so quotations read as natural Modern Greek.",
+        "translation_quote": "Examples in the translation: <em>Εμοί το ζην Χριστός, και το αποθανείν κέρδος — Φιλιππησίους 1:21.</em>; <em>…Η αποτελεσματική, θερμή προσευχή του δικαίου ωφελεί πολύ. — Ιάκωβος 5:16.</em>"
+      }
+    ],
+    "passed": true,
+    "score": 95
+  }
+}

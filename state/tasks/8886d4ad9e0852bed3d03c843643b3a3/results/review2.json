@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "bbe6de8f-1fda-413b-81d0-7b06d15be817",
+    "response_id": "chatcmpl-EUVeCs7P5l51WwVfd6MGr0WBbdMF2",
+    "usage": {
+      "completion_tokens": 1083,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6830,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7913
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.section / translation.section",
+        "severity": "minor",
+        "source_quote": "The Godly Home",
+        "suggested_fix": "Use a more literal or conventional Hebrew equivalent for “Godly” (e.g., \"הבית הנוצרי\" or \"הבית החסידי\" or better: \"הבית המְשַׁמֵּשׁ/הבית הקדוש שבּאופי אלוהי\") to match nuance. If the translator prefers a short title, \"הבית הפרֹש\" is not appropriate; recommended: \"הבית החסיד\" or simply retain \"הבית הצדיק\" only if the editor confirms this captures the intended nuance.",
+        "translation_quote": "הבית הצדיק"
+      },
+      {
+        "location": "multiple locations (Proverbs 4:23 and surrounding sentence)",
+        "severity": "minor",
+        "source_quote": "...for out of it are the issues of life –Proverbs 4:23.",
+        "suggested_fix": "The current rendering \"…מפני שממנו יוצאות תמורות החיים\" is awkward and departs from the natural Hebrew idiom. Suggest a clearer translation that preserves the sense: e.g. \"…כי ממנו יוצאות מעינות החיים – משלי ד:כג\" (or keep the reference format used elsewhere: \"–משלי 4:23\"). Ensure consistent reference formatting.",
+        "translation_quote": "…מפני שממנו יוצאות תמורות החיים –משלי 4:23."
+      },
+      {
+        "location": "paragraph about Eunice/Lois (source.html middle)",
+        "severity": "minor",
+        "source_quote": "Eunice was a Jewess, who, upon embracing faith in Christ, found herself in an unequal yoke with a Greek. We read that unfeigned faith was first wrought in her mother Lois, and that affected Eunice.",
+        "suggested_fix": "The Hebrew phrase \"אין לנו תיעוד שאביו הוסיף לאמונה\" later is slightly ambiguous/awkward (\"הוסיף לאמונה\" can read as 'added' rather than 'joined the faith'). Use a clearer Hebrew verb: \"הצטרף לאמונה\" or \"התווסף לאמונה\" (better: \"הצטרף לאמונה\"). Also in this paragraph the name Lois appears as \"לוויס (Lois)\" — consider using a single natural Hebrew transliteration without the parenthetical English (e.g., \"לוויס\") for consistency with the rest of the article.",
+        "translation_quote": "יוניקה (Eunice) הייתה יהודיה... האמנה האמיתית נעשתה תחילה באמה לוויס (Lois) ... אין לנו תיעוד שאביו הוסיף לאמונה"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

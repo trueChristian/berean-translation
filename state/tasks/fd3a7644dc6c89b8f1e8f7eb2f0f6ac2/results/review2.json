@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "bffc751a-3a40-427d-9883-d067ace20a5b",
+    "response_id": "chatcmpl-EUVdwp76Og8BMwZCv9JrLkxSNXQMJ",
+    "usage": {
+      "completion_tokens": 1496,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7485,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8981
+    }
+  },
+  "received_at": "2026-10-02T11:25:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph about Pharisees (around \"Still, they were critically unsuccessful.\")",
+        "severity": "minor",
+        "source_quote": "Still, they were critically unsuccessful.",
+        "suggested_fix": "Fix the garbled text and restore a clear Bengali rendering for \"Pharisaic attempts... are generally fruitless.\" Preserve HTML structure and surrounding tags.",
+        "translation_quote": "তবুও তারা নিন্দনীয়ভাবে ব্যর্থ ছিল।\n\n... সহধর্মিনী ও সন্তানের জীবনের পৃষ্ঠতলীয় বিশদ ও অসঙ্গতিগুলোকে বের করে সরিয়ে フেলার ফারিসীয় প্রচেষ্টা সাধারণত বেকার হয়।"
+      },
+      {
+        "location": "source.html — same paragraph containing Japanese katakana",
+        "severity": "minor",
+        "source_quote": "Pharisaic attempts to root out and remove the surface details and inconsistencies from the lives of their helpmate and children, in order to sanctify them, are generally fruitless.",
+        "suggested_fix": "Replace the garbled/foreign sequence 'フেলার' and render the phrase idiomatically in Bengali. For example: 'তবে ফারিসীধর্মী উপায়ে সহধর্মিণী ও সন্তানের জীবনের পৃষ্ঠতলীয় বিশদ ও অসঙ্গতিগুলোকে বের করে সরিয়ে দেওয়ার প্রচেষ্টা সাধারণত ফলহীন থাকে।' Keep original HTML tags unchanged.",
+        "translation_quote": "সহধর্মিনী ও সন্তানের জীবনের পৃষ্ঠতলীয় বিশদ ও অসঙ্গতিগুলোকে বের করে সরিয়ে フেলার ফারিসীয় প্রচেষ্টা সাধারণত বেকার হয়।"
+      },
+      {
+        "location": "source.html — Eunice / Timothy paragraph (sentence about circumcision and prayer)",
+        "severity": "minor",
+        "source_quote": "We read that unfeigned faith was first wrought in her mother Lois, and that affected Eunice. This, in turn, had a sanctifying effect on young Timothy, who was then prepared for the work of the Lord. We have no record that his father was added to the faith, but one can only imagine the initial turmoil within the breast of this young Jewess as she reverently honored her head and circumcised not her son but rather committed him to prayer.",
+        "suggested_fix": "The phrase 'circumcised not her son' is mistranslated awkwardly as 'শরীরানুপাতে করালেন না'. Render explicitly and idiomatically in Bengali as 'তাঁর পুত্রকে খৎ করাননি বরং প্রার্থনায় অর্পণ করলেন।' Preserve HTML tags and punctuation.",
+        "translation_quote": "...তিনি সম্মানজনে তাঁর স্বামীর প্রতি সম্মান দেখালেন এবং তাঁর পুত্রকে শরীরানুপাতে করালেন না বরং প্রার্থনায় অর্পণ করলেন।"
+      },
+      {
+        "location": "source.html — orthography/consistency in lead paragraph",
+        "severity": "minor",
+        "source_quote": "As we gaze across the thoroughfare of homes surrounding us, we grieve as we behold one Christian tragedy after another. ... Christianity is not a rubber stamp that automatically clones offspring after the same sort.",
+        "suggested_fix": "There are a few inconsistent spellings of 'Christian/Christ' throughout the translation (e.g., 'খ্রিস্টানরই', 'খ্রীষ্টিয়তা', 'খ্রীষ্ট'). Standardize to contemporary Bengali spelling (suggested: 'খ্রিস্টান' and 'খ্রিস্টিয়তা' or consistently 'খ্রিস্টান/খ্রিস্ট্য়...') throughout the article for clarity. No HTML changes required.",
+        "translation_quote": "...প্রায় প্রতিটি খ্রিষ্টানরই কিছু নিকট আত্মীয় আছে... খ্রিস্টিয়তা এমন কোন রাবারের স্ট্যাম্প নয়..."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

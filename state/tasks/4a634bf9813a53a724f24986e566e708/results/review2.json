@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "78219c02-d00a-4deb-9533-bb7db90fcced",
+    "response_id": "chatcmpl-EUVeQTWPSwIIlYuWyYJ9KQTRw4JUi",
+    "usage": {
+      "completion_tokens": 974,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8700,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9674
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.section -> translation.section",
+        "severity": "minor",
+        "source_quote": "CHURCH HISTORY",
+        "suggested_fix": "Use the target-language equivalent that matches register and capitalization of the source. Recommended: \"HISTORIA YA KANISA\" (all caps to match source) or sentence-style capitalization \"Historia ya Kanisa\" if the site uses sentence-style headings consistently.",
+        "translation_quote": "HISTORIA YA KANISA"
+      },
+      {
+        "location": "source.html paragraph: \"...where God had ordained one high priest to serve the people throughout his life.\" -> translation paragraph: \"...ambako Mungu aliamuru kuhani mkuu mmoja aihudumie judea kwa maisha yake yote.\"",
+        "severity": "minor",
+        "source_quote": "where God had ordained one high priest to serve the people throughout his life.",
+        "suggested_fix": "Correct small lexical/spacing issue to improve clarity in Kiswahili. Recommended: replace \"aihudumie judea kwa maisha yake yote\" with \"amhudumie watu kwa maisha yake yote\" or \"amhudumie watu wa Israeli kwa maisha yake yote\" to preserve the original meaning and proper noun rendering.",
+        "translation_quote": "aihudumie judea kwa maisha yake yote"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

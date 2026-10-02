@@ -2,7 +2,6 @@
   "article_id": "f21c4f39-9508-4f75-9e0c-0c68468c41f8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,45 +61,52 @@
         },
         "total_tokens": 7536
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 852,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4327,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 1792
+        },
+        "total_tokens": 5179
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "title",
-      "severity": "critical",
-      "source_quote": "Thunder, Twisters, and Trust",
-      "suggested_fix": "Translate the English title into Bengali. For example: “বজ্র, ঘূর্ণিঝড় ও বিশ্বাস” (or another idiomatic Bengali title). Preserve this as the <title> field value in the translation metadata.",
-      "translation_quote": "Thunder, Twisters, and Trust"
+      "location": "Final paragraph (near end of article)",
+      "severity": "major",
+      "source_quote": "Knowing that God is the Master of the wind is still a comfort and an assurance to her.",
+      "suggested_fix": "Translate the phrase so it preserves the authoritative English meaning and conventional theological tone in Bengali. For example: “জানতে পেরে যে ঈশ্বরই বাতাসের কর্তা, তা এখনো তার কাছে সান্ত্বনা ও নিশ্চয়তা।” Keep the rest of the sentence as translated.",
+      "translation_quote": "“জানতে পেরে যে ঈশ্বরই বাতাসের স্বামী—এটি এখনও তার কাছে সান্ত্বনা ও নিশ্চয়তা হয়ে আছে।”"
     },
     {
-      "location": "section",
-      "severity": "major",
+      "location": "Metadata: title and section",
+      "severity": "minor",
       "source_quote": "Children’s Corner",
-      "suggested_fix": "Translate the section name into standard Bengali. For example: “শিশুদের কোণ” or “শিশু কোণ” and place that translated string in the translation 'section' field.",
-      "translation_quote": "Children’s Corner"
+      "suggested_fix": "Use the standard Bengali term for this section. For example: “শিশুদের কোণ” is acceptable (the translation already uses this). No change required if you accept it; if you prefer a more formal phrase, consider “শিশুদের কর্ণার” only if audience prefers transliteration.",
+      "translation_quote": "“শিশুদের কোণ”"
     },
     {
-      "location": "article paragraph (\"playthings... hurried into the house\")",
-      "severity": "major",
-      "source_quote": "She quickly gathered up her playthings and hurried into the house.",
-      "suggested_fix": "Correct the mistranslation that uses a wrong word (\"মধ্যবিত্তে\"). Use a natural Bengali rendering that preserves meaning, e.g.: \"সে দ্রুত তার খেলনা কান্ডাস্ট করে বাড়ির ভেতরে ছুটে ঢুকল।\" (Keep original HTML paragraph tags unchanged.)",
-      "translation_quote": "সে দ্রুত তার খেলনা তুলে নিয়ে বাড়ির মধ্যবিত্তে দৌড়ে ঢুকল।"
-    },
-    {
-      "location": "article paragraph (\"break the glass\")",
-      "severity": "major",
-      "source_quote": "Ellie wondered if it was possible that it was raining hard enough to break the glass.",
-      "suggested_fix": "Remove the added word that changes meaning (\"শয়তানের\"). Translate faithfully, e.g.: \"এলি ভাবল, বৃষ্টি কি এত প্রবল যে জানালার কাচ ভেঙে যাবে?\" (Preserve the same paragraph <p> tags.)",
-      "translation_quote": "এলি ভেবে উঠল—এত জোরে বৃষ্টি হচ্ছে যে শয়তানের কাচও ভেঙে যেতে পারে কি না।"
-    },
-    {
-      "location": "article paragraph (\"humidity and heat had returned making the night hot and muggy\")",
-      "severity": "major",
-      "source_quote": "After the storm had passed the humidity and heat had returned making the night hot and muggy.",
-      "suggested_fix": "Correct the mistranslation that renders 'heat' as 'শীতলতা' (coldness). Use a faithful Bengali equivalent, e.g.: \"ঝড় কাটার পর আর্দ্রতা ও তাপ ফিরে আসে, রাতটি আবার গরম ও চাপলা হয়ে গেল।\"",
-      "translation_quote": "ঝড় কেটে যাওয়ার পর আর্দ্রতা ও শীতলতা ফিরে এসেছিল, রাতটি পুনরায় গরম ও আর্দ্র হয়ে উঠল।"
+      "location": "Multiple paragraphs (throughout)",
+      "severity": "minor",
+      "source_quote": "church",
+      "suggested_fix": "Use the conventional Bengali word for Christian worship gathering. Replace instances of “চার্চ” with “গির্জা” to match target-language conventions for religious terminology.",
+      "translation_quote": "“চার্চ” (appears in paragraph about preparing food for the company invited after church)"
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "5d3ab98ac78b86664f0732776cb1cfb6",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "ben",
@@ -144,13 +150,13 @@
     }
   },
   "protected": false,
-  "quality_score": 75,
+  "quality_score": 70,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1896269e1d50cee8808d069728099a272936b67afb461b50cf790049cb1e46b5.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "ea6f4c2c1d99d58d1a9f3a20171db73a83fd2eecbd0478f01bb5f8591bf41415",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

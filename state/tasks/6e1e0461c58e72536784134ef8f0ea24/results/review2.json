@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e3c59a3d-3c68-49fa-80ec-f2806871cbab",
+    "response_id": "chatcmpl-EUVdwgx4lgvNIG1UE6B3Mr9y3cVcs",
+    "usage": {
+      "completion_tokens": 878,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8951,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9829
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph about Rahab (source.html paragraph starting 'The Bible abounds with accounts of women who lived by faith. Consider the harlot Rahab...')",
+        "severity": "minor",
+        "source_quote": "Consider the harlot Rahab.",
+        "suggested_fix": "The translation uses “mke haramu Rahabu.” That is understandable but nonstandard Swahili Bible usage commonly renders her name as “Rahabu” (with final -u is acceptable) and the phrase for “the harlot” is typically “msichana wa mizinga” or “mchawi” is wrong — keep a clear, neutral phrase. Suggest keeping “Rahabu” and using the more neutral “mke wa mali mtakatifu” is incorrect. Recommended minimal change: use “Mademu Rahabu” or simply “Rahabu” with context preserved. Example suggested wording (Swahili): “Fikiria Rahabu, msichana wa mizinga.”",
+        "translation_quote": "Fikiria juu ya mke haramu Rahabu."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

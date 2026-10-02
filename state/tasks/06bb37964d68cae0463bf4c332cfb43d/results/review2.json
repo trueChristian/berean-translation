@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "083e3ed6-a7e8-4269-87e6-9d3c2018c81f",
+    "response_id": "chatcmpl-EUVeNZQnns8TLWHdts9pCAJZeCSJM",
+    "usage": {
+      "completion_tokens": 2426,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7525,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9951
+    }
+  },
+  "received_at": "2026-10-02T11:25:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — multiple scripture quotations (e.g., Matthew 16:25)",
+        "severity": "critical",
+        "source_quote": "For whosoever will save his life shall lose it: and whosoever will lose his life for my sake shall find it –Matthew 16:25.",
+        "suggested_fix": "Translate the quoted Scripture into Bengali, preserving the chapter and verse reference exactly. For example: «যে কোনো ব্যক্তি তার জীবন রক্ষা করতে চাইবে, সে তা হারাবে; আর যে ব্যক্তি আমার জন্য তার জীবন হারাবে, সে তা পাবে — মথি 16:25.» Replace the entire English verse text (including the dash and verse reference) with an equivalent Bengali rendering and keep the verse number \"Matthew 16:25\" as shown (using conventional Bengali book name is allowed but chapter:verse numbers must remain unchanged).",
+        "translation_quote": "<em>For whosoever will save his life shall lose it: and whosoever will lose his life for my sake shall find it –Matthew 16:25.</em>"
+      },
+      {
+        "location": "source.html — multiple scripture quotations (John 14:15 and 1 John 2:4)",
+        "severity": "critical",
+        "source_quote": "If ye love me, keep my commandments –John 14:15. And, He that saith, I know him, and keepeth not his commandments, is a liar, and the truth is not in him –1 John 2:4.",
+        "suggested_fix": "Translate both quoted verses into Bengali, preserving the verse references exactly. For example: «যদি তোমরা আমাকে ভালবাসো, তবে আমার আজ্ঞা মানবে — যোহন 14:15। এবং যে বলে, 'আমি তাঁকে চিনি', এবং তাঁর আজ্ঞা মানে না, সে মিথ্যাবাদী; ও সত্য তাতে নেই — 1 যোহন 2:4.» Replace the English text with Bengali while keeping the chapter:verse numbers unchanged.",
+        "translation_quote": "<em>If ye love me, keep my commandments –John 14:15. And, He that saith, I know him, and keepeth not his commandments, is a liar, and the truth is not in him –1 John 2:4.</em>"
+      },
+      {
+        "location": "source.html — heading 'Brotherly love' section, two paragraphs left in English",
+        "severity": "major",
+        "source_quote": "People have visited our church and asked if we practice the holy kiss. I reply that we do; however, understanding the need to love one another comes first. Many churches are doing away with the holy kiss, which is clearly instructed in the Word. And it seems appropriate because they have stopped loving one another. I don’t believe we understand the importance of this topic—having love one for another. When our love causes us to suffer for one another, the world sees it. Often, the reason a brotherhood stops loving each other is because they are not in the fight “together” anymore. They have become independent.\n\nSome of the greatest acts of showing love for one another have happened on the battlefield. Men have jumped on grenades, and they have jumped in front of bullets to save their comrades. Because they have fought together, they look out for each other. What if a soldier marching out to battle would notice a fellow soldier’s ammunition clip fall from his gun? What would he do? Would he remain quiet because his comrade might get mad? Or would he remain quiet because he knew that he had his own problems? No. He would help his brother. If ungodly men on the battlefield can practice this, why can’t God’s people do so in the church? Before I was converted, I was in the military. I chose to suffer for my country. Now that I’m a Christian, I now choose to suffer for my Lord.",
+        "suggested_fix": "Translate these two paragraphs into Bengali, preserving meaning, theological nuance, and any metaphors. Keep paragraph breaks and HTML tags unchanged. For example, render them into Bengali and insert in place of the English text within the same <p>...</p> elements so the structure remains intact.",
+        "translation_quote": "People have visited our church and asked if we practice the holy kiss. I reply that we do; however, understanding the need to love one another comes first. Many churches are doing away with the holy kiss, which is clearly instructed in the Word. And it seems appropriate because they have stopped loving one another. I don’t believe we understand the importance of this topic—having love one for another. When our love causes us to suffer for one another, the world sees it. Often, the reason a brotherhood stops loving each other is because they are not in the fight “together” anymore. They have become independent.\n\nSome of the greatest acts of showing love for one another have happened on the battlefield. Men have jumped on grenades, and they have jumped in front of bullets to save their comrades. Because they have fought together, they look out for each other. What if a soldier marching out to battle would notice a fellow soldier’s ammunition clip fall from his gun? What would he do? Would he remain quiet because his comrade might get mad? Or would he remain quiet because he knew that he had his own problems? No. He would help his brother. If ungodly men on the battlefield can practice this, why can’t God’s people do so in the church? Before I was converted, I was in the military. I chose to suffer for my country. Now that I’m a Christian, I now choose to suffer for my Lord."
+      },
+      {
+        "location": "source.html — multiple Scripture quotations later in article (James 5:5-6; Luke 8:14; 2 Timothy 3:1-5; Revelation 3:15-16; Ephesians 4:11-13)",
+        "severity": "critical",
+        "source_quote": "Ye have lived in pleasure on the earth, and been wanton; ye have nourished your hearts, as in a day of slaughter. Ye have condemned and killed the just; and he doth not resist you –James 5:5-6.\n\nAnd that which fell among thorns are they, which, when they have heard, go forth, and are choked with cares and riches and pleasures of this life, and bring no fruit to perfection –Luke 8:14.\n\nThis know also, that in the last days perilous times shall come. For men shall be lovers of their own selves, covetous, boasters, proud, blasphemers, disobedient to parents, unthankful, unholy, Without natural affection, trucebreakers, false accusers, incontinent, fierce, despisers of those that are good, Traitors, heady, highminded, lovers of pleasures more than lovers of God; Having a form of godliness, but denying the power thereof: from such turn away –2 Timothy 3:1-5.\n\nI know thy works, that thou art neither cold nor hot: I would thou wert cold or hot. So then because thou art lukewarm, and neither cold nor hot, I will spue thee out of my mouth –Revelation 3:15-16.\n\nAnd he gave some, apostles; and some, prophets; and some, evangelists; and some, pastors and teachers; For the perfecting of the saints, for the work of the ministry, for the edifying of the body of Christ: Till we all come in the unity of the faith, and of the knowledge of the Son of God, unto a perfect man, unto the measure of the stature of the fulness of Christ: – Ephesians 4:11-13.",
+        "suggested_fix": "Translate each quoted Scripture passage into Bengali, preserving the chapter:verse references exactly and keeping them in the same locations. Use conventional Bengali book names if desired, but do not alter or omit any verse numbers or ranges. Replace the English italicized scripture texts with faithful Bengali translations that convey the same meaning and theological nuance.",
+        "translation_quote": "<em>Ye have lived in pleasure on the earth, and been wanton; ye have nourished your hearts, as in a day of slaughter. Ye have condemned and killed the just; and he doth not resist you –James 5:5-6.</em>\n\n<em>And that which fell among thorns are they, which, when they have heard, go forth, and are choked with cares and riches and pleasures of this life, and bring no fruit to perfection –Luke 8:14.</em>\n\n<em>This know also, that in the last days perilous times shall come. For men shall be lovers of their own selves, covetous, boasters, proud, blasphemers, disobedient to parents, unthankful, unholy, Without natural affection, trucebreakers, false accusers, incontinent, fierce, despisers of those that are good, Traitors, heady, highminded, lovers of pleasures more than lovers of God; Having a form of godliness, but denying the power thereof: from such turn away –2 Timothy 3:1-5.</em>\n\n<em>I know thy works, that thou art neither cold nor hot: I would thou wert cold or hot. So then because thou art lukewarm, and neither cold nor hot, I will spue thee out of my mouth –Revelation 3:15-16.</em>\n\n<em>And he gave some, apostles; and some, prophets; and some, evangelists; and some, pastors and teachers; For the perfecting of the saints, for the work of the ministry, for the edifying of the body of Christ: Till we all come in the unity of the faith, and of the knowledge of the Son of God, unto a perfect man, unto the measure of the stature of the fulness of Christ: – Ephesians 4:11-13.</em>"
+      }
+    ],
+    "passed": false,
+    "score": 65
+  }
+}

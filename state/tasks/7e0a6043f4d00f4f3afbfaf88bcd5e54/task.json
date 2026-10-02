@@ -2,7 +2,6 @@
   "article_id": "cc225bc9-2dda-46f3-a628-13af4fd95e7a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,17 +61,29 @@
         },
         "total_tokens": 4701
       }
-    }
-  ],
-  "findings": [
+    },
     {
-      "location": "source.html — paragraph containing Ephesians 4:14 (penultimate paragraph)",
-      "severity": "major",
-      "source_quote": "That we [should] henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine… –Ephesians 4:14.",
-      "suggested_fix": "将“被各样的风俗所吹动”改为更忠实于英文经文的汉语表述，例如“被各样的教导之风所吹动”或“被各样的教义之风所吹动”。请在保持原有 <em> 标签和句子结构的前提下替换文本。",
-      "translation_quote": "叫我们不再作小孩子，随波逐流，被各样的风俗所吹动。——以弗所书 4:14。"
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 666,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3060,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3726
+      }
     }
   ],
+  "findings": [],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "7e0a6043f4d00f4f3afbfaf88bcd5e54",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "cmn",
@@ -116,13 +127,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/75bf9f86ddf02e207a89e1a74e3d26989515704eae85bcbc97e911af15e7ea76.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "1d62440b3aaa33963e8085784efc020cfa0cf8cb3b508148be95c55907a09059",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

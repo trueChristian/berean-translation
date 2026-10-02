@@ -2,7 +2,6 @@
   "article_id": "c7009feb-1e58-4c54-a5e9-ae0bf90ed9cf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,31 +61,37 @@
         },
         "total_tokens": 8593
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1032,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4681,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5713
+      }
     }
   ],
   "findings": [
     {
-      "location": "Paragraph containing Romans 2:5-6 (near middle of article)",
-      "severity": "critical",
-      "source_quote": "…the righteous judgment of God; Who will render to every man according to his deeds –Romans 2:5-6.",
-      "suggested_fix": "Translate the quoted English scripture text into contemporary Modern Greek, preserving the printed meaning and leaving the chapter/verse reference unchanged. For example (one possible rendering that preserves meaning and placement): «…η δίκαια κρίσις τοῦ Θεοῦ· ὃς ἀποδώσει ἑκάστῳ κατὰ τὰ ἔργα αὐτοῦ –Ρωμαίους 2:5-6.» However, do not substitute a different Bible version: render the quoted authoritative English prose faithfully into Modern Greek and keep the reference “Romans 2:5-6” exactly as in the source (use conventional Modern Greek book name forms, e.g. «Ρωμαίους 2:5-6»). Preserve the surrounding HTML and inline emphasis tags as in the source.",
-      "translation_quote": "…the righteous judgment of God; Who will render to every man according to his deeds –Romans 2:5-6."
-    },
-    {
-      "location": "Final paragraphs containing Jude 1:3 citation",
-      "severity": "critical",
-      "source_quote": "…the faith which was once delivered unto the saints –Jude 1:3.",
-      "suggested_fix": "Translate the quoted English scripture phrase into contemporary Modern Greek, preserving meaning and keeping the chapter/verse reference unchanged. For example: «…την πίστιν ἡν ἅπαξ παρεδόθη τοῖς ἁγίοις –Ιούδα 1:3.» (Use a conventional Modern Greek book name form such as «Ιούδα 1:3».) Keep the original punctuation, emphasis (italics) and HTML structure from the source.",
-      "translation_quote": "…the faith which was once delivered unto the saints –Jude 1:3."
-    },
-    {
-      "location": "Paragraph about Acts 19 (the 'Great is Diana' quote)",
+      "location": "Last paragraph before closing (paragraph containing 'unscriptural modern doctrines' / Jude 1:3)",
       "severity": "minor",
-      "source_quote": "Great is Diana of the Ephesians",
-      "suggested_fix": "The translator rendered the quoted phrase in Koine Greek («Μέγα εστὶ τὴν Διὰνάν τὴν Ἐφέσων»). The project requested contemporary Modern Greek. Render the quoted exclamation into Modern Greek idiom while preserving the quoted-prose status and meaning. For example: «Η Διάνα των Εφέσων είναι μεγάλη» or a closer exclamatory Modern Greek rendering «Μεγάλη είναι η Διάνα των Εφεσίων». Keep the quotation marks and place the translated quote exactly where the English quote appears in the source.",
-      "translation_quote": "«Μέγα εστὶ τὴν Διὰνάν τὴν Ἐφέσων»"
+      "source_quote": "If a church is successful in turning its members’ faith and focus to Jesus as revealed in His Word, these members will then be unwilling to allow the church to accept unscriptural modern doctrines, and the church will remain sound in …the faith which was once delivered unto the saints –Jude 1:3.",
+      "suggested_fix": "Replace the Greek adjective «ασκηρές» with a phrase that accurately conveys «unscriptural» (i.e., 'αντίθετες προς τη Γραφή' or 'ασύμβατες με τη Γραφή'). For example: «...δε θα επιτρέψουν στην εκκλησία να αποδεχθεί σύγχρονες διδασκαλίες ασύμβατες με τη Γραφή, και η εκκλησία θα παραμείνει υγιής στο …την πίστη η οποία μια φορά παραδόθηκε στους αγίους –Ιούδα 1:3.»",
+      "translation_quote": "...δε θα επιτρέψουν στην εκκλησία να αποδεχθεί ασκηρές σύγχρονες διδασκαλίες, και η εκκλησία θα παραμείνει υγιής στο …την πίστη η οποία μια φορά παραδόθηκε στους αγίους –Ιούδα 1:3."
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "79db1ecd341106424e556728c92feb2e",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "ell",
@@ -130,13 +135,13 @@
     }
   },
   "protected": false,
-  "quality_score": 40,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/007fc316198faf474d16a29be6ce55b2d1edd73a2740466b844468e370ef99fd.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "1f7c34bc947a663a71aab745b050e25b087d38fd1ef4f605c7cdf8255d9c68b7",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

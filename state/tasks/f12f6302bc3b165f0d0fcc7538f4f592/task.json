@@ -2,7 +2,6 @@
   "article_id": "02db24ae-5132-49c6-a6fd-da73417871e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,66 +61,44 @@
         },
         "total_tokens": 9800
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 984,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 320,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4957,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5941
+      }
     }
   ],
   "findings": [
     {
-      "location": "source.html — opening epigraph (Ephesians 1:17-18)",
-      "severity": "major",
+      "location": "source.html — opening Ephesians quotation (first paragraph)",
+      "severity": "minor",
       "source_quote": "That the God of our Lord Jesus Christ, the Father of glory, may give unto you the spirit of wisdom and revelation in the knowledge of him: The eyes of your understanding being enlightened; that ye may know what is the hope of his calling… –Ephesians 1:17-18.",
-      "suggested_fix": "Terjemahkan kutipan Alkitab ke dalam Bahasa Indonesia. Contoh penggantian yang setia pada makna: «supaya Allah Tuhan kita Yesus Kristus, Bapa kemuliaan, memberi kepada kamu roh hikmat dan wahyu dalam pengenalan akan Dia; supaya Ia menerangkan mata hati kamu, sehingga kamu mengerti, apakah pengharapan dari panggilan-Nya… –Efesus 1:17-18.» Ganti teks Inggris yang sekarang dengan versi Bahasa Indonesia di dalam tag <em> seperti aslinya.",
-      "translation_quote": "That the God of our Lord Jesus Christ, the Father of glory, may give unto you the spirit of wisdom and revelation in the knowledge of him: The eyes of your understanding being enlightened; that ye may know what is the hope of his calling… –Ephesians 1:17-18."
+      "suggested_fix": "Keep the theological meaning and make the sentence flow naturally in Bahasa Indonesia while preserving the sense that God gives the spirit and that the eyes of understanding are enlightened. Example revision (preserve HTML/em tags and structure):\n\n<em>supaya Allah Tuhan kita Yesus Kristus, Bapa kemuliaan, memberi kepada kamu roh hikmat dan wahyu dalam pengenalan akan Dia, sehingga mata hati kamu diterangi; supaya kamu mengerti apakah pengharapan dari panggilan-Nya… –Efesus 1:17-18.</em>\n\nThis keeps the causative link (“supaya… sehingga…”) and retains theological force that God grants the spirit and the eyes of understanding are enlightened.",
+      "translation_quote": "<em>supaya Allah Tuhan kita Yesus Kristus, Bapa kemuliaan, memberi kepada kamu roh hikmat dan wahyu dalam pengenalan akan Dia: supaya Ia menerangkan mata hati kamu; <strong>supaya kamu mengerti apakah pengharapan dari panggilan-Nya…</strong> –Efesus 1:17-18.</em>"
     },
     {
-      "location": "source.html — Luke 19 parable quote (Luke 19:12-13)",
-      "severity": "major",
+      "location": "source.html — Luke 19 quotation (paragraph with perumpamaan)",
+      "severity": "minor",
       "source_quote": "He said therefore, A certain nobleman went into a far country to receive for himself a kingdom, and to return. And he called his ten servants, and delivered them ten pounds, and said unto them, Occupy till I come –Luke 19:12-13.",
-      "suggested_fix": "Kutipan ayat harus diterjemahkan ke Bahasa Indonesia. Contoh penggantian: «Lalu ia berkata: Seorang bangsawan pergi ke negeri yang jauh untuk menerima bagi dirinya suatu kerajaan dan pulang kembali. Ia memanggil hamba-hambanya yang sepuluh orang, memberi mereka sepuluh pound dan berkata kepada mereka: Berusahalah kamu sampai aku datang. –Lukas 19:12-13.» Pertahankan tag <em> dan rujukan ayatnya.",
-      "translation_quote": "He said therefore, A certain nobleman went into a far country to receive for himself a kingdom, and to return. And he called his ten servants, and delivered them ten pounds, and said unto them, Occupy till I come –Luke 19:12-13."
-    },
-    {
-      "location": "source.html — inline English phrase left untranslated in body: “occupy till the Lord returns”",
-      "severity": "major",
-      "source_quote": "occupy till the Lord returns",
-      "suggested_fix": "Frasa substantif ini merupakan bagian penting dari makna dan harus diterjemahkan ke Bahasa Indonesia. Ganti dengan frasa setia seperti: “mengusahakan sampai Tuhan datang” atau “berusahalah sampai Tuhan datang”. Pastikan tata letak dan tanda kutip/italik aslinya dipertahankan.",
-      "translation_quote": "occupy till the Lord returns"
-    },
-    {
-      "location": "source.html — Matthew 5:13 quotation",
-      "severity": "major",
-      "source_quote": "Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted? it is thenceforth good for nothing, but to be cast out, and to be trodden under foot of men –Matthew 5:13.",
-      "suggested_fix": "Terjemahkan kutipan Alkitab tersebut ke Bahasa Indonesia. Contoh: «Kamu adalah garam dunia. Jika garam itu menjadi tawar, dengan apakah ia akan diasinkan? Tidak ada gunanya lagi selain dibuang dan diinjak orang. –Matius 5:13.» Ganti teks Inggris saat ini dengan terjemahan Bahasa Indonesia di dalam tag <em> sesuai posisi aslinya.",
-      "translation_quote": "Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted? it is thenceforth good for nothing, but to be cast out, and to be trodden under foot of men –Matthew 5:13."
-    },
-    {
-      "location": "source.html — Hebrews 12:1-2 quotation",
-      "severity": "major",
-      "source_quote": "Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight, and the sin which doth so easily beset us, and let us run with patience the race that is set before us, Looking unto Jesus the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God –Hebrews 12:1-2.",
-      "suggested_fix": "Kutipan ini harus diterjemahkan ke Bahasa Indonesia. Contoh penggantian yang setia: «Karena kita mempunyai begitu banyak saksi, marilah kita menanggalkan setiap beban dan dosa yang mudah merintangi kita, dan marilah kita berlari dengan tekun dalam perlombaan yang diwajibkan kepada kita, sambil menatap kepada Yesus, yang memimpin dan menyempurnakan iman kita. Ia yang oleh sukacita yang ditentukan bagi-Nya telah tahan menanggung salib, dan memandang hina kehormatan, dan duduk di sebelah kanan takhta Allah. –Ibrani 12:1-2.» Gantikan kutipan Inggris saat ini dengan versi Bahasa Indonesia dalam tag <em> sesuai aslinya.",
-      "translation_quote": "Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight, and the sin which doth so easily beset us, and let us run with patience the race that is set before us, Looking unto Jesus the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God –Hebrews 12:1-2."
-    },
-    {
-      "location": "source.html — Romans 15:13 quotation at article end",
-      "severity": "major",
-      "source_quote": "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Ghost –Romans 15:13.",
-      "suggested_fix": "Kutipan Alkitab ini harus diterjemahkan ke Bahasa Indonesia. Contoh penggantian: «Dan sekarang Allah sumber pengharapan memenuhi kamu dengan segala sukacita dan damai sejahtera dalam iman, supaya oleh kekuatan Roh Kudus kamu berlimpah dalam pengharapan. –Roma 15:13.» Ganti teks Inggris saat ini dengan versi Bahasa Indonesia di dalam tag <em> seperti aslinya.",
-      "translation_quote": "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Ghost –Romans 15:13."
-    },
-    {
-      "location": "source.title, source.subtitle, source.section metadata",
-      "severity": "major",
-      "source_quote": "title: The Hope of Your Calling\nsubtitle: LIVING AS YOUTH WITH AN ETERNAL PERSPECTIVE\nsection: INSPIRATIONS FOR YOUTH",
-      "suggested_fix": "Metadata yang berperan sebagai teks artikel harus diterjemahkan ke Bahasa Indonesia. Contoh: title → \"Pengharapan Panggilanmu\" (atau \"Harapan Panggilanmu\"); subtitle → \"Menjadi Pemuda dengan Perspektif Kekal\"; section → \"INSPIRASI UNTUK PEMUDA\" (atau \"Inspirasi bagi Pemuda\"). Ganti nilai metadata Inggris dengan padanan Bahasa Indonesia yang tepat, mempertahankan huruf besar/kecil sesuai pedoman situs jika perlu.",
-      "translation_quote": "title: The Hope of Your Calling\nsubtitle: LIVING AS YOUTH WITH AN ETERNAL PERSPECTIVE\nsection: INSPIRATIONS FOR YOUTH"
-    },
-    {
-      "location": "source.html — sentence translating “Confess it. Repent of it.”",
-      "severity": "major",
-      "source_quote": "Confess it. Repent of it. Then… Go, and sin no more!",
-      "suggested_fix": "Kalimat terjemahan saat ini salah alih-wicara: teks Inggris memerintahkan pembaca, bukan penulis. Ganti terjemahan dengan perintah yang setia: «Akuilah itu. Bertobatlah darinya. Lalu... Pergilah, dan jangan berbuat dosa lagi!» atau «Akuilah dosamu. Bertobatlah. Lalu pergilah dan jangan berbuat dosa lagi!» Pastikan kata ganti dan imperatif diarahkan kepada pembaca (kamu/anda), bukan menjadi pernyataan penulis \"Aku mengaku itu.\"",
-      "translation_quote": "Aku mengaku itu. Bertobatlah darinya. Lalu… Pergilah, dan jangan berbuat dosa lagi!"
+      "suggested_fix": "The translation is accurate in meaning but uses the English unit name “pound.” Use a common Indonesian convention for old currency in Bible quotations while preserving the reference and sense (do not change verse numbers). Example revision (preserve HTML/em tags):\n\n<em>Lalu ia berkata: Seorang bangsawan pergi ke negeri yang jauh untuk menerima bagi dirinya suatu kerajaan dan pulang kembali. Ia memanggil hamba-hambanya yang sepuluh orang, memberi mereka sepuluh pound (unit uang pada zaman itu) dan berkata kepada mereka: Berusahalah sampai aku datang. –Lukas 19:12-13.</em>\n\nAlternatively you may render simply as “sepuluh pound” but the parenthetical note can help target-language readers understand it denotes an historical monetary unit.",
+      "translation_quote": "<em>Lalu ia berkata: Seorang bangsawan pergi ke negeri yang jauh untuk menerima bagi dirinya suatu kerajaan dan pulang kembali. Ia memanggil hamba-hambanya yang sepuluh orang, memberi mereka sepuluh pound dan berkata kepada mereka: Berusahalah sampai aku datang. –Lukas 19:12-13.</em>"
     }
   ],
+  "finished_at": "2026-10-02T11:25:28+00:00",
   "id": "f12f6302bc3b165f0d0fcc7538f4f592",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "ind",
@@ -165,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 40,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d4096c8e219a9ff87d56f7ba5b34e9e5d1258bfb4281edd00108b01120b10b28.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "e60beaba9e12466f123cfd1ae7a96811ce97cb1cb87bf5ed6c8de7f6afdd6660",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

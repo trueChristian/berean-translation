@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1d255b9b-fe4a-4d5e-bd7f-ec5329526988",
+    "response_id": "chatcmpl-EUVeYzRDOK0r1u9eCYEqEnrJ1OoW6",
+    "usage": {
+      "completion_tokens": 1208,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6445,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7653
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 4 (about crop rotation / clover)",
+        "severity": "minor",
+        "source_quote": "Another major improvement was the introduction of the legume, clover. This came from seed which the Dutch Mennonites gifted to them.",
+        "suggested_fix": "הפוך את המשפט לזורם וברור בעברית: \"שיפור משמעותי נוסף היה הכנסת הקלובר (צמח ממשפחת הקטניות). הזרעים ניתנו במתנה על ידי המנוניטים ההולנדים.\" (השמט את ה׳לו׳ המיותר ותתקן את המשקל התחבירי).",
+        "translation_quote": "שיפור משמעותי נוסף היה הכנסת הקלובר (צמח ממשפחת הקטניות). הזרעים לו ניתנו במתנה על ידי המנוניטים ההולנדים."
+      },
+      {
+        "location": "Paragraph beginning of 'רפואה' section (line about her herbal experience)",
+        "severity": "minor",
+        "source_quote": "She had a lot of experience with growing herbs and making herbal remedies.",
+        "suggested_fix": "תקן טעות הקלדה והחריג תחבירי: החלף \"Yייתכן\" ב\"ייתכן\" והעדף ניסוח טבעי: \"הייתה לה ניסיון רב בגידול עשבים ובהכנת תרופות צמחיות.\"",
+        "translation_quote": "הייתה לה המון ניסיון בגידול עשבים ובהכנת תרופות צמחיות. Yייתכן שהיא הייתה הדמות הקרובה ביותר ל'רופא' במרחב של עשרות מיילים."
+      },
+      {
+        "location": "Paragraph describing the first wife living as a single sister",
+        "severity": "minor",
+        "source_quote": "His first wife chose to live as a single sister in that church community.",
+        "suggested_fix": "הצע ניסוח רציף ובהיר בעברית: החליף \"מכשירה/מיילדת\" ב\"מיילדת\" או \"מכשירה/מיילדת\" מוסבר בפורמט נורמלי; לדוגמה: \"נראה כי הייתה מיילדת עוד לפני שהגיעה לארץ זו והמשיכה במקצוע זה לאחר שהגיעה.\"",
+        "translation_quote": "נראה כי הייתה מכשירה/מיילדת עוד לפני שיגרה לארץ זו והמשיכה במקצוע זה לאחר שהייתה כאן."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

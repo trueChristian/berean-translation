@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "299e8ff8-20b2-45a0-afb0-281bee51fc91",
+    "response_id": "chatcmpl-EUVe9uvEbzS5iYdMzmocexsBjVvxL",
+    "usage": {
+      "completion_tokens": 1230,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8815,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10045
+    }
+  },
+  "received_at": "2026-10-02T11:25:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph quoting Matthew 26:12 (near section 'Purpose')",
+        "severity": "major",
+        "source_quote": "For in that she hath poured this ointment on my body, she did it for my burial –Matthew 26:12.",
+        "suggested_fix": "Translate the exact quoted English verse's content into Russian without adding extra clauses. A faithful, concise rendering would be: «Ибо, так как она помазала тело Моё к погребению, то сказал Я вам: где бы ни проповедано было сие по всему миру, и о том, что она сделала, будет воспоминаться в её память» — only if that exact wording appears in the authoritative English source. If the authoritative English source is the shorter sentence shown in source_quote, render that shorter sentence in Russian, for example: «Ибо, что она помазала тело Мое миром сему к погребению, — сказала Я вам: где бы ни проповедано было сие по всему миру, и воспоминаться будет о том, что она сделала — Матфея 26:12.» However, do not add any additional phrases that were not present in the source. Ensure the Russian text corresponds exactly in meaning and verse scope to the English source_quote and preserve the chapter/verse notation unchanged: «– Matthew 26:12» as «– Матфея 26:12.»",
+        "translation_quote": "«Ибо, так как она помазала тело Моё к погребению, то говорю вам: где бы ни проповедано было сие по всему миру, и о том, что она сделала, будет воспоминаться в её память – Матфея 26:12.»"
+      },
+      {
+        "location": "Paragraph quoting 1 Peter 3:6 (section 'Security', paragraph about Sarah obeying Abraham)",
+        "severity": "critical",
+        "source_quote": "…Sara obeyed Abraham, calling him lord: whose daughters ye are, as long as ye do well, and are not afraid with any amazement –1 Peter 3:6.",
+        "suggested_fix": "The current Russian rendering is garbled and changes the meaning (\"которых вы дочь\" is ungrammatical and alters attribution). Render the verse faithfully into Russian preserving its meaning and the verse reference. A clear, literal Russian rendering faithful to the English source_quote would be, for example: «…Сара повиновалась Аврааму, называя его господином; вы — дочери его, пока делаете добро и не боитесь ни от какой угрозы» — and append the unchanged verse citation «– 1 Петра 3:6.» Adjust phrasing to be grammatical Russian but do not add, omit, or invert clauses. Ensure the quotation is clearly marked as quoted text and is translated rather than left in English.",
+        "translation_quote": "«…Сара повиновалась Аврааму, называя его господином: которых вы дочь, так долго как добро творите и не боитесь никакого стыда – 1 Петра 3:6.»"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

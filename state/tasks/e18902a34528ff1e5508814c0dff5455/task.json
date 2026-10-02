@@ -2,7 +2,6 @@
   "article_id": "2b07502a-cbf0-4b92-8bb8-7910a5557f84",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:09+00:00",
   "events": [
@@ -62,45 +61,51 @@
         },
         "total_tokens": 10356
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1181,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6211,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 2816
+        },
+        "total_tokens": 7392
+      }
     }
   ],
   "findings": [
     {
-      "location": "<p>…Germantown, about seven miles north of Philadelphia in that day,…</p>",
-      "severity": "major",
-      "source_quote": "about seven miles north of Philadelphia in that day",
-      "suggested_fix": "Translate the distance correctly as \"omtrent sju miles\" or use kilometers equivalently but accurately (e.g., \"omtrent sju miles (ca. 11 km)\"). Keep the original distance unit meaning. Replace the phrase in the translation with one of these: \"omtrent sju miles nord for Philadelphia på den tiden\" or \"omtrent sju miles (ca. 11 km) nord for Philadelphia på den tiden.\"",
-      "translation_quote": "omkring sju mil nord for Philadelphia på den tiden"
-    },
-    {
-      "location": "<p>…60 miles west of Germantown and civilization.…</p>",
-      "severity": "major",
-      "source_quote": "60 miles west of Germantown and civilization",
-      "suggested_fix": "Preserve the original distance unit. Replace the incorrect \"60 mil\" with \"60 miles\" or an accurate metric conversion in parentheses, e.g. \"60 miles vest for Germantown og sivilisasjonen (ca. 97 km)\". Do not use the Norwegian unit \"mil\" which is 10 km and changes the factual distance.",
-      "translation_quote": "60 mil vest for Germantown og sivilisasjonen."
-    },
-    {
-      "location": "<p>…The closest doctor, apothecary, hardware, or general store was 60 miles away.…</p>",
-      "severity": "major",
-      "source_quote": "The closest doctor, apothecary, hardware, or general store was 60 miles away.",
-      "suggested_fix": "Restore the original distance unit meaning. Replace \"60 mil\" with \"60 miles\" or provide an accurate conversion: \"Den nærmeste lege, apotek, jernvare- eller kolonialbutikk var 60 miles unna (ca. 97 km).\"",
-      "translation_quote": "Den nærmeste lege, apotek, jernvare- eller kolonialbutikk var 60 mil unna."
-    },
-    {
-      "location": "<p>…They received a land patent for 10,000 acres for their families…</p>",
-      "severity": "major",
-      "source_quote": "a land patent for 10,000 acres",
-      "suggested_fix": "Keep the original area unit (acres). Replace \"10 000 mål\" with \"10 000 acres\" or translate with an accurate metric conversion in parentheses, e.g. \"et jordbrev på 10 000 acres (omtrent 4 047 hektar)\". Do not use the Norwegian unit \"mål\" which alters the meaning.",
-      "translation_quote": "et jordbrev på 10 000 mål"
-    },
-    {
-      "location": "<p>…Many of the Hoffs (house/barn fort enclosures) were burned out…</p>",
+      "location": "Paragraph ending with \"...under etableringen av kolonial‑America.\"",
       "severity": "minor",
-      "source_quote": "Hoffs (house/barn fort enclosures)",
-      "suggested_fix": "Correct the Norwegian rendering and spelling. Replace \"Hoffs (hus/loft befeste lser)\" with a clear, idiomatic translation like \"Hoffs (hus-/låvebefestninger)\" or \"Hoffs (hus- og låvebefestninger)\" preserving the explanatory parenthesis.",
-      "translation_quote": "Hoffs (hus/loft befeste lser)"
+      "source_quote": "This story provides a glimpse into some of the interesting details surrounding the life of conservative Anabaptists just before and during the establishing of Colonial America.",
+      "suggested_fix": "Translate \"Colonial America\" to Norwegian. Replace \"kolonial‑America\" with \"kolonial‑Amerika\" (preserve hyphenation and surrounding HTML).",
+      "translation_quote": "Denne historien gir et glimt av noen av de interessante detaljene som omga livet til konservative anabaptister rett før og under etableringen av kolonial‑America."
+    },
+    {
+      "location": "Paragraph beginning \"Noen år etter å ha vært i Penns skoger...\"",
+      "severity": "minor",
+      "source_quote": "Sometime, after being in Penn’s woods for a number of years, Hans Groff received word that his wife, Anna (Bare) Groff, back in Europe, had passed away.",
+      "suggested_fix": "Smooth Norwegian phrasing. Replace the sentence \"Noen år etter å ha vært i Penns skoger et antall år, fikk Hans Groff beskjed...\" with \"Noen år etter å ha oppholdt seg i Penns skoger fikk Hans Groff beskjed...\" to remove redundancy and improve idiom (preserve HTML).",
+      "translation_quote": "Noen år etter å ha vært i Penns skoger et antall år, fikk Hans Groff beskjed om at hans kone, Anna (Bare) Groff, hjemme i Europa, hadde gått bort."
+    },
+    {
+      "location": "Multiple paragraphs with distance measures (e.g. \"sju miles (ca. 11 km)\", \"60 miles (ca. 97 km)\")",
+      "severity": "minor",
+      "source_quote": "...about seven miles north of Philadelphia in that day... 60 miles west of Germantown... The closest doctor... was 60 miles away.",
+      "suggested_fix": "Avoid adding units or conversions that were not in the authoritative English text. Either remove the added metric conversions or ensure they are presented as parenthetical editorial notes. Suggested replacement examples (preserve HTML):\n- replace \"sju miles (ca. 11 km)\" with \"sju miles\";\n- replace \"60 miles (ca. 97 km)\" with \"60 miles\";\n- replace \"60 miles unna (ca. 97 km)\" with \"60 miles unna\".\nIf metric conversions are required by publishing policy, mark them clearly as editorial additions.",
+      "translation_quote": "...omtrent sju miles (ca. 11 km) nord for Philadelphia... 60 miles (ca. 97 km) vest for Germantown... Den nærmeste lege... var 60 miles unna (ca. 97 km)."
     }
   ],
+  "finished_at": "2026-10-02T11:25:28+00:00",
   "id": "e18902a34528ff1e5508814c0dff5455",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "nob",
@@ -144,13 +149,13 @@
     }
   },
   "protected": false,
-  "quality_score": 65,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/589bbbf06d53e840c1b02c16b5a0e9d55ee78fbc01185cea481271c35d6c3b97.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "b3e43e634638cbb2acbfd582a6dcb7a3f9f4e2dc77e578bc59a693261f0aa67b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

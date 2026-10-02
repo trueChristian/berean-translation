@@ -2,7 +2,6 @@
   "article_id": "a6ab0f33-e20a-4b19-ae47-f094395a54f8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,17 +61,51 @@
         },
         "total_tokens": 2421
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 799,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1519,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2318
+      }
     }
   ],
   "findings": [
     {
-      "location": "<article> stanza 3, line 2 (\"What about our wives, or children to please?\")",
-      "severity": "major",
-      "source_quote": "“What about our wives, or children to please?”",
-      "suggested_fix": "Translate the rhetorical question about pleasing family members. For example: «А как же наши жёны и дети — чтобы угодить им?» or «А как же наши жёны и дети, ради которых мы стараемся?» Preserve the interrogative tone and idea of 'to please' (угодить/ради них), not 'for pay'.",
-      "translation_quote": "«А как же жёны наши, дети — ради мзды?»"
+      "location": "<article> <div class=\"poem\"> <p> (final two lines)",
+      "severity": "minor",
+      "source_quote": "Lying to yourself is a foolish thing—\n    “Freedom, or bondage?” is the question I bring.",
+      "suggested_fix": "Translate the second line to convey the sense of the speaker 'bringing' or 'posing' the question, and make the phrasing idiomatic in Russian. For example: «Врать себе — глупо и напрасно —\n    «Свобода или рабство?» — вот вопрос, который я выношу.» Preserve the poem tags and line breaks.",
+      "translation_quote": "Врать себе — глупо и пусто — так и быть:\n    «Свобода или рабство?» — вот вопрос, что нести."
+    },
+    {
+      "location": "<article> <div class=\"poem\"> <p> (third stanza)",
+      "severity": "minor",
+      "source_quote": "The bills pile up for comforts and ease;",
+      "suggested_fix": "Use a Russian word that preserves 'ease' (comfort and ease) rather than 'лени' (laziness), which shifts the meaning. For example: «Счета растут ради удобств и покоя;» Keep tags and punctuation.",
+      "translation_quote": "Счета растут ради удобств и лени; "
+    },
+    {
+      "location": "<article> <div class=\"poem\"> <p> (second stanza)",
+      "severity": "minor",
+      "source_quote": "They trade their lives, with no reason why.",
+      "suggested_fix": "Render the idea of exchanging their lives for purchasable things without adding an existential 'зачем жить'. Suggested: «Меняют свою жизнь на них, не задав себе причины.» or «Меняют жизнь на это, не зная почему.»",
+      "translation_quote": "Меняют жизнь на них, не зная, зачем жить."
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "aee52f0638a8346a1fb6d856d1272872",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "rus",
@@ -116,13 +149,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1de56fab2737a3548fafa046f54e8b49fd10031dc8824cc6696d1a638910abcb.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "e5687feec796faa59fb2c84ea91a33a13b26784033d8d71bfc9aba932005e757",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

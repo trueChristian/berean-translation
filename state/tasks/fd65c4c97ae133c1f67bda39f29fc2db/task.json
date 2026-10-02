@@ -2,7 +2,6 @@
   "article_id": "2b07502a-cbf0-4b92-8bb8-7910a5557f84",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,24 +61,51 @@
         },
         "total_tokens": 9515
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1229,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5996,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7225
+      }
     }
   ],
   "findings": [
     {
-      "location": "source.html — Lead paragraph (first <p class=\"lead\">)",
-      "severity": "major",
-      "source_quote": "They also refused military service, obeying Christ’s commands to “bless them that persecute you” and “love your enemies”.",
-      "suggested_fix": "请将引文更准确、通顺地翻译为中文，并保留作为引用的体裁。建议翻译为：“他们也拒绝服兵役，遵行基督的命令：‘要祝福那逼迫你们的人’和‘要爱你们的仇敌’。” 保持原文引号结构并在相同位置替换现有译文，保留外层 <p class=\"lead\"> 标签和其它 HTML 属性不变。",
-      "translation_quote": "他们也拒绝服兵役，遵行基督“为逼迫你们的祝福”和“爱你们的仇敌”的命令。"
+      "location": "lead paragraph",
+      "severity": "minor",
+      "source_quote": "Their enemies called them “Anabaptists” because they rejected infant baptism.",
+      "suggested_fix": "将括号中的英文术语“Anabaptists”移除或换成中文译名的括注，例如：将“再洗派（Anabaptists）”改为“再洗派（又称‘再洗派’/门诺派，视上下文而定）”或仅保留中文“再洗派”。不要保留未翻译的英文单词作为括注。",
+      "translation_quote": "他们被称为瑞士弟兄会，天主教徒与新教徒都将他们视为国家的敌人。敌人称他们为“再洗派”（Anabaptists），因为他们拒绝为婴儿施洗。"
     },
     {
-      "location": "source.html — Misunderstanding section, first sentence of the paragraph beginning '在在潘恩的林地住了若干年后…'",
+      "location": "paragraph about crop improvements (third paragraph of body)",
       "severity": "minor",
-      "source_quote": "Sometime, after being in Penn’s woods for a number of years, Hans Groff received word that his wife, Anna (Bare) Groff, back in Europe, had passed away.",
-      "suggested_fix": "修正重复用字，使语句通顺。建议将“在在潘恩的林地住了若干年后”改为“在潘恩的林地住了若干年后”。 保持段落的 HTML 结构不变。",
-      "translation_quote": "在在潘恩的林地住了若干年后，汉斯·格罗夫收到消息，说他的妻子安娜（Bare）格罗夫在欧洲已经去世。"
+      "source_quote": "...accused them of “Ferhexing” (the Pennsylvania Dutch term for witchcraft) the ground...",
+      "suggested_fix": "不要在括号中保留英文解释。将括号内英文说明译成中文，例如将“Ferhexing（the Pennsylvania Dutch term for witchcraft）”改为“Ferhexing（宾夕法尼亚德语中指巫术）”。",
+      "translation_quote": "...指责他们对土地行“Ferhexing”（宾夕法尼亚德语中指巫术）（当然这并不属实）。"
+    },
+    {
+      "location": "several paragraphs with place/person names",
+      "severity": "minor",
+      "source_quote": "Pfaltzland; Elector Ludwig; Anabaptists; Mennonites; Hoffs (house/barn fort enclosures); Schwenkfelders; Pietists",
+      "suggested_fix": "避免在括号或并列处保留未翻译的英文或原文词语。对专有名词可保留原名的音译或常用中文名，并在需要时用中文注释解释。如将“Pfaltzland”译为“普法尔茨（Pfaltzland）”或直接“普法尔茨”，将“Elector Ludwig”译为“选侯亲王路易”，将“Hoffs (house/barn fort enclosures)”改为“院落（即房屋/谷仓的防护围墙）”，将“Schwenkfelders”和“Pietists”分别给出中文音译/常用译名并用中文解释，而不是把英文单词直接放在括号中。",
+      "translation_quote": "第2段：...如德国的普法尔茨（Pfaltzland），... 17世纪中叶，当地的选侯亲王路易（Elector Ludwig）... 第5段：...荷兰门诺派（Mennonites）赠送的种子。 第1段：敌人称他们为“再洗派”（Anabaptists）... 第3段：许多院落（Hoffs，房屋/谷仓的防护围墙）... 第6段：...浸信会、施温克费尔德派（Schwenkfelders）和虔信派（Pietists）..."
     }
   ],
+  "finished_at": "2026-10-02T11:25:28+00:00",
   "id": "fd65c4c97ae133c1f67bda39f29fc2db",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "cmn",
@@ -123,13 +149,13 @@
     }
   },
   "protected": false,
-  "quality_score": 85,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/589bbbf06d53e840c1b02c16b5a0e9d55ee78fbc01185cea481271c35d6c3b97.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "b3e43e634638cbb2acbfd582a6dcb7a3f9f4e2dc77e578bc59a693261f0aa67b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

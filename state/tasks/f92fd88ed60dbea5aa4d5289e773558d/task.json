@@ -2,7 +2,6 @@
   "article_id": "2b07502a-cbf0-4b92-8bb8-7910a5557f84",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:09+00:00",
   "events": [
@@ -62,31 +61,51 @@
         },
         "total_tokens": 9848
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1431,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5993,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7424
+      }
     }
   ],
   "findings": [
     {
-      "location": "Paragraph: \"Medicine\" (article body) — place name",
-      "severity": "major",
-      "source_quote": "She lived in a little house, with a small barn (possibly built by Hans for her) on top of a steep hill overlooking Farmersville, called “Cat’s Back Hill”.",
-      "suggested_fix": "Übersetzen Sie den Ortsnamen ins Deutsche oder kennzeichnen Sie ihn als übersetzten Eigennamen. Beispiel: „sie lebte in einem kleinen Haus mit einer kleinen Scheune (möglicherweise von Hans für sie gebaut) auf einem steilen Hügel oberhalb von Farmersville, genannt ‚Cat’s Back Hill‘.“ Falls Sie den Namen völlig eindeutschten wollen: „‚Cats Rücken-Hügel‘“ (oder eine andere inhaltstreue deutsche Wiedergabe). Behalten Sie unbedingt die Anführungszeichen und die Reihenfolge der HTML-Tags bei.",
-      "translation_quote": "Sie lebte in einem kleinen Haus mit einer kleinen Scheune (möglicherweise von Hans für sie gebaut) auf einem steilen Hügel mit Blick auf Farmersville, genannt “Cat’s Back Hill”. "
+      "location": "source.html <p class=\"lead\"> (sentence: “Many were arrested, imprisoned, tortured mercilessly and finally, many were martyred for not recanting their faith.”)",
+      "severity": "minor",
+      "source_quote": "Many were arrested, imprisoned, tortured mercilessly and finally, many were martyred for not recanting their faith.",
+      "suggested_fix": "Preserve the explicitly religious tone of “martyred” (which carries theological meaning of dying for the faith). Translate with a German word or phrase that retains that nuance, e.g. »schließlich viele als Märtyrer getötet/hingerichtet, weil sie ihren Glauben nicht widerriefen.«",
+      "translation_quote": "Viele wurden verhaftet, inhaftiert, ohne Erbarmen gefoltert und schließlich hingerichtet, weil sie ihren Glauben nicht widerrufen wollten."
     },
     {
-      "location": "Several paragraphs — forms of address",
+      "location": "source.html second paragraph (reference to Palatinate/Pfaltzland)",
       "severity": "minor",
-      "source_quote": "a woman showed up in the community and introduced herself as Mrs. Hans Groff.",
-      "suggested_fix": "Übersetzen Sie die Anrede ins Deutsche, z. B. „stellte sich als Frau Hans Groff vor.“ Behalten Sie die Satzstruktur und vorhandene HTML-Tags bei.",
-      "translation_quote": "Jahre später tauchte eine Frau in der Gemeinde auf und stellte sich als Mrs. Hans Groff vor."
+      "source_quote": "In some places, like the Palatinate (Pfaltzland) in Germany, as many as 70% of the inhabitants had died of either war or disease.",
+      "suggested_fix": "Source uses the form “Pfaltzland” in parentheses. In German the common historical term is “Pfalz” or “Pfalzland”; if you choose to retain the source’s parenthetical spelling, mirror it or else consistently use the contemporary German conventional form. Suggested wording: »… wie in der Pfalz (Pfaltzland) …« or simply »… wie in der Pfalz …«",
+      "translation_quote": "An manchen Orten, wie in der Pfalz in Deutschland, waren bis zu 70 % der Einwohner entweder durch Krieg oder Krankheit gestorben."
     },
     {
-      "location": "Paragraph about Hoffs (early history) — technical term retained",
+      "location": "source.html paragraph about land patent (\"They received a land patent for 10,000 acres\")",
       "severity": "minor",
-      "source_quote": "Many of the Hoffs (house/barn fort enclosures) were burned out and the fields were left uncultivated for years.",
-      "suggested_fix": "‚Hoffs‘ ist im Englischen belassen; das ist akzeptabel, da die Übersetzung die erläuternde Klammer („Haus-/Scheunenbefestigungen“) liefert. Wenn Sie dennoch vollständig einheitlich übersetzen wollen, ersetzen Sie ‚Hoffs‘ durch ‚Höfe‘ oder ‚Hofbefestigungen‘ und behalten Sie die Erklärung in Klammern bei. Beispiel: „Viele Hoffs (Haus-/Scheunenbefestigungen) wurden ausgebrannt…“",
-      "translation_quote": "Viele Hoffs (Haus-/Scheunenbefestigungen) waren ausgebrannt, und die Felder blieben jahrelang unbestellt."
+      "source_quote": "They received a land patent for 10,000 acres for their families and others that might come later.",
+      "suggested_fix": "Consider localizing the unit name or making it typographically consistent: translate 'acres' to German lower-case (»acres«) or add a parenthetical conversion. Example: »Sie erhielten ein Landpatent über 10.000 Acres (ca. 4.047 ha) …«",
+      "translation_quote": "Sie erhielten ein Landpatent über 10.000 Acres für ihre Familien und andere, die später kommen könnten."
     }
   ],
+  "finished_at": "2026-10-02T11:25:28+00:00",
   "id": "f92fd88ed60dbea5aa4d5289e773558d",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "deu",
@@ -130,13 +149,13 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/589bbbf06d53e840c1b02c16b5a0e9d55ee78fbc01185cea481271c35d6c3b97.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "b3e43e634638cbb2acbfd582a6dcb7a3f9f4e2dc77e578bc59a693261f0aa67b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "78ba0778-33af-422c-977e-48c82aabaf28",
+    "response_id": "chatcmpl-EUVeUF6rXSiC1h7bjjLUXQVn4Yyua",
+    "usage": {
+      "completion_tokens": 1030,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8401,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9431
+    }
+  },
+  "received_at": "2026-10-02T11:25:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning 'When the heart of the believer is dealt with first, the visible dimensions of the home fall into place in succession.' (English source, under heading 'The Outside Sanctified by the Word')",
+        "severity": "major",
+        "source_quote": "When the heart of the believer is dealt with first, the visible dimensions of the home fall into place in succession.",
+        "suggested_fix": "Translate the sense of 'dealt with' as 'pris en charge', 'traité' or 'traité en premier lieu', not 'dépourvu'. Replace the current sentence with: «Quand le cœur du croyant est traité en premier lieu, les dimensions visibles du foyer se mettent en place successivement.» Preserve surrounding HTML and punctuation.",
+        "translation_quote": "Quand le coeur du croyant est dépourvu en premier lieu, les dimensions visibles du foyer se mettent en place successivement."
+      },
+      {
+        "location": "Throughout translated HTML (multiple places including title and many paragraphs)",
+        "severity": "minor",
+        "source_quote": "(entire article contains normal accented French characters)",
+        "suggested_fix": "Remove spurious Unicode escape sequences (e.g. '\\u0000', '\\u0000e9', '\\u0000e0', '\\u0000a0', '\\u0000f4', etc.) and ensure proper UTF-8 encoded accented characters (é, è, à, ô, etc.). For example change 'sanctifi\\u0000e9' to 'sanctifié', 'l'ap\\u0000f4tre' to 'l'apôtre', 'Un foyer sanctifi\\u0000e9' to 'Un foyer sanctifié', and non-breaking spaces encoded as proper U+00A0 where needed. Preserve HTML structure and tags.",
+        "translation_quote": "Car l\\u0000epoux incr\\u0000e9dule est sanctifi\\u0000e9 par la femme... (and many other occurrences with embedded \\u0000 sequences)"
+      },
+      {
+        "location": "Paragraph quoting Proverbs 4:23 (English source)",
+        "severity": "minor",
+        "source_quote": "...for out of it are the issues of life –Proverbs 4:23.",
+        "suggested_fix": "The French translation uses «... car de lui jaillissent les sources de la vie – Proverbes 4:23.» which is acceptable, but verify punctuation and spacing before the dash and ensure 'Proverbes 4:23' is formatted consistently with other verse citations.",
+        "translation_quote": "... Si le coeur est bien gardé, tout va bien, \u0000a0... car de lui jaillissent les sources de la vie \u0000e2– Proverbes 4:23."
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

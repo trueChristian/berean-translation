@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "2dc814af-abbf-4a78-963d-0e3e986c929f",
+    "response_id": "chatcmpl-EUVeEyu9Ul0rtubaM1QfzuMDhpJvF",
+    "usage": {
+      "completion_tokens": 1640,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6502,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8142
+    }
+  },
+  "received_at": "2026-10-02T11:25:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html ¶4 (\"Another major improvement was the introduction of the legume, clover.\")",
+        "severity": "major",
+        "source_quote": "Another major improvement was the introduction of the legume, clover.",
+        "suggested_fix": "Translate 'legume, clover' accurately into Kiswahili (e.g. \"marenge/maharage kama vile klova\" or \"maharage [legume], kama klova\"). Preserve meaning that clover is a legume introduced to improve soil/forage.",
+        "translation_quote": "Maboresho makubwa mengine ilikuwa utambulisho wa mahindi ya mazao ya mto (legume), kama clover."
+      },
+      {
+        "location": "source.html ¶1 (\"They were referred to as the Swiss Brethren\")",
+        "severity": "minor",
+        "source_quote": "They were referred to as the Swiss Brethren",
+        "suggested_fix": "Translate the phrase fully into Kiswahili. Avoid leaving 'Brethren' in English; use a Kiswahili equivalent such as \"Wavulana wa Uswisi\", \"Wabrethreni wa Uswisi\" or \"Wazee/Waislamu?\" (depending on context). Recommended: \"Wabrethreni wa Uswisi\" or simply \"Wabrethreni wa Uswisi\" with 'Brethren' rendered consistently.",
+        "translation_quote": "Waliitwa Wabrethreni wa Uswisi"
+      },
+      {
+        "location": "source.html ¶6 (list of groups welcomed by Penn: \"German Baptist, Schwenkfelders and Pietists\")",
+        "severity": "major",
+        "source_quote": "He welcomed Quakers from England, Huguenots from France, Mennonites from Holland, German Baptist, Schwenkfelders and Pietists from Germany, as well as Swiss Brethren and Jews...",
+        "suggested_fix": "'German Baptist' should be translated as 'Wabaptisti wa Kijerumani' (or 'Waleti? not correct'). Render the full list in idiomatic Kiswahili: e.g. \"Wakwaya kutoka Uingereza, Wahuguenote kutoka Ufaransa, Wamennonite kutoka Uholanzi, Wabaptisti wa Kijerumani, Schwenkfelders na Pietisti kutoka Ujerumani, pamoja na Wabrethreni wa Uswisi...\"",
+        "translation_quote": "Alikaribisha Wakwaya kutoka Uingereza, Wahuguenot kutoka Ufaransa, Wamennonite kutoka Uholanzi, Waletani wa Kijerumani, Schwenkfelders na Pietists kutoka Ujerumani, pamoja na Wabrethreni wa Uswisi na Wayahudi..."
+      },
+      {
+        "location": "source.html ¶4 (\"which helped them feed more dairy cattle, and, in turn, allowed them to produce milk through the winters\")",
+        "severity": "minor",
+        "source_quote": "which helped them feed more dairy cattle, and, in turn, allowed them to produce milk through the winters.",
+        "suggested_fix": "Render the practical meaning clearly in Kiswahili: e.g. \"iliowasaidia kuliwisha ng'ombe wa maziwa zaidi na, kwa hivyo, kuwawezesha kupata maziwa hata majira ya baridi.\" Replace the unclear phrase \"kuzalisha maziwa mjini za baridi.\"",
+        "translation_quote": "kuwasaidia kulisha ng’ombe wengi wa maziwa, na kwa hiyo, kuwawezesha kuzalisha maziwa mjini za baridi."
+      },
+      {
+        "location": "source.html ¶3–¶6 (parenthetical/borrowed terms and anglicisms: 'Ferhexing', 'Mennonites (Mennists)', 'Quakers', 'Huguenots')",
+        "severity": "minor",
+        "source_quote": "\"Ferhexing\" (the Pennsylvania Dutch term for witchcraft); \"Mennonites\"; \"Quakers\"; \"Huguenots\"",
+        "suggested_fix": "Either translate or provide conventional Kiswahili renderings and ensure consistency. For example: keep 'Ferhexing' as a quoted loanword but explain briefly in Kiswahili (already done), render 'Mennonites' as 'Wamennonite' consistently (avoid adding un-translated English variant 'Mennists'), and use Kiswahili forms 'Wakwaya' for Quakers and 'Wahuguenoti' for Huguenots consistently. Remove or translate stray English 'Mennists' in parentheses.",
+        "translation_quote": "In a few places the translation keeps or introduces English forms: \"Ferhexing\" (neno la Pennsylvania Dutch...), \"Mennonites (Mennists)\", \"Wakwaya\" is rendered but other terms vary."
+      }
+    ],
+    "passed": false,
+    "score": 62
+  }
+}

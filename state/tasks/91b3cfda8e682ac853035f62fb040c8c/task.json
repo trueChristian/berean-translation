@@ -2,7 +2,6 @@
   "article_id": "3be24d0c-4c97-452e-b3c3-177e16d990ff",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,31 +61,44 @@
         },
         "total_tokens": 10498
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 872,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6550,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7422
+      }
     }
   ],
   "findings": [
     {
-      "location": "<p> paragraph (third paragraph of article)",
+      "location": "<blockquote>…1 Peter 3:1-7</blockquote> paragraph",
       "severity": "minor",
-      "source_quote": "Our impotency is not caused due to the lack of God’s power, but because our dim understanding is infested and infiltrated with the influences of this present world.",
-      "suggested_fix": "Correct grammatical agreement and wording in Portuguese. Replace \"nosso entendimento turvo está infestados e infiltrado\" with a grammatically consistent phrase such as \"nosso entendimento turvo está infestado e infiltrado pelas influências deste mundo presente.\" Preserve original HTML and punctuation.",
-      "translation_quote": "Nossa impotência não se deve à falta do poder de Deus, mas porque nosso entendimento turvo está infestados e infiltrado pelas influências deste mundo presente."
+      "source_quote": "While they behold your chaste conversation coupled with fear.",
+      "suggested_fix": "Translate \"coupled with fear\" to a phrasing that more closely reflects the English sense (reverent/with godly fear). Example: \"enquanto contemplam a vossa vida casta, acompanhada de temor reverente.\" Preserve surrounding HTML tags and structure.",
+      "translation_quote": "\"Enquanto estão vendo a vossa vida casta e respeitosa.\""
     },
     {
-      "location": "<p> paragraph beginning \"Here Peter speaks...\" (contains Eunice/Lois reference)",
-      "severity": "major",
-      "source_quote": "Eunice was a Jewess, who, upon embracing faith in Christ, found herself in an unequal yoke with a Greek. We read that unfeigned faith was first wrought in her mother Lois, and that affected Eunice. This, in turn, had a sanctifying effect on young Timothy...",
-      "suggested_fix": "Restore the author's proper name as printed in the English source: change \"Lóide\" back to the printed English name rendered in conventional Portuguese form. Use \"Lois\" (or the conventional Portuguese transliteration 'Lois') rather than \"Lóide\", to faithfully convey the printed reference. Example replacement: \"Lemos que a fé não fingida foi primeiramente operada em sua mãe Lois, e isso afetou Eunice.\" Keep HTML and surrounding sentence structure unchanged.",
-      "translation_quote": "Lemos que a fé não fingida foi primeiramente operada em sua mãe Lóide, e isso afetou Eunice."
-    },
-    {
-      "location": "<p> paragraph beginning \"Here Peter speaks...\" (same paragraph describing honoring head)",
-      "severity": "major",
-      "source_quote": "...as she reverently honored her head and circumcised not her son but rather committed him to prayer.",
-      "suggested_fix": "The English phrase \"honored her head\" refers to honoring her husband (the head of the household), not to honoring a 'chief' or 'boss'. Replace the mistranslation \"honrava seu chefe\" with a phrase that reflects the original meaning, e.g. \"honrava reverentemente a sua cabeça (seu marido)\" or better: \"honrava reverentemente o seu marido como sua cabeça\". Preserve punctuation and tags.",
-      "translation_quote": "...enquanto ela reverentemente honrava seu chefe e não circuncidava seu filho, mas antes o colocava em oração."
+      "location": "metadata: section",
+      "severity": "minor",
+      "source_quote": "The Godly Home",
+      "suggested_fix": "Section translated as \"O Lar Piedoso\" is acceptable, but to ensure more internationally idiomatic Portuguese you may consider \"O Lar Piedoso\" or \"O Lar Devoto\" depending on the publisher's preferred register. No HTML change required unless the publisher chooses an alternate wording.",
+      "translation_quote": "\"O Lar Piedoso\""
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "91b3cfda8e682ac853035f62fb040c8c",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "por",
@@ -130,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/54ee0eee893e8f116003f464d27484aec73d193d6d0149063d036fb9fd416e93.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "70ee1b1d710de512ea89ec934930eb1c2b6800a8dcbc40df2712b76ac2d1b4e0",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

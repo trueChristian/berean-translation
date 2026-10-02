@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "11087ff3-76b4-4134-9c1f-e623bc8b4b92",
+    "response_id": "chatcmpl-EUVeNaGgBb20b4duCa00VRH6Iaw3g",
+    "usage": {
+      "completion_tokens": 919,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9442,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10361
+    }
+  },
+  "received_at": "2026-10-02T11:25:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph 4 (\"As with their mother Eve,...\")",
+        "severity": "minor",
+        "source_quote": "As with their mother Eve, many of these voices appeal to her feminine spirit, but as their mother Eve discovered, unless it is the voice of God, it leads to death and destruction.",
+        "suggested_fix": "Use a more natural Urdu phrasing for 'mother Eve'. Replace \"اپنی مادِر ایو کے ساتھ\" with \"اپنی ماں ایو کی مانند\" to read smoothly while preserving meaning and theology. Keep original HTML tags and order.",
+        "translation_quote": "اپنی مادِر ایو کے ساتھ کی طرح، ان میں سے بہت سی آوازیں اس کی زنانہ روح کو لبھاتی ہیں، مگر جیسا کہ اس کی مادِر ایو نے دریافت کیا، جب تک وہ خدا کی آواز نہ ہو، وہ موت اور تباہی کی طرف لے جاتی ہیں۔"
+      },
+      {
+        "location": "source.html section heading (\"Anabaptist communities\")",
+        "severity": "minor",
+        "source_quote": "Young women, especially in our Anabaptist communities, are largely at the mercy of the prominent men in their lives to define their identity.",
+        "suggested_fix": "Standardize transliteration to a more familiar Urdu form: replace \"انابابٹسٹ\" with \"اناباپٹسٹ\" (اناباپٹسٹ برادریاں) so readers recognize the term. Preserve HTML structure.",
+        "translation_quote": "نوجوان خواتین، خاص طور پر ہمارے انابابٹسٹ معاشروں میں، زیادہ تر اپنے گرد موجود نمایاں مردوں کے رحم و کرم پر اپنی شناخت کی تعریف کرتی ہیں۔"
+      },
+      {
+        "location": "source.html opening quotation of 2 Timothy 1:4-7",
+        "severity": "minor",
+        "source_quote": "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2 Timothy 1:4-7.",
+        "suggested_fix": "Consider a slightly more idiomatic Urdu rendering for 'spirit of a sound mind' (e.g., \"صحیح ذہن\" or \"سمجھ بوجھ کا روح\") while preserving the verse reference and theological meaning. Current \"صحت مند عقل کا روح\" is understandable but less idiomatic. Do not change verse numbers or HTML structure.",
+        "translation_quote": "کیونکہ خدا نے ہمیں خوف کا روح نہیں دیا، بلکہ قوت، محبت اور صحت مند عقل کا روح دیا ہے۔ –2 تِموتھی 1:4-7۔"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

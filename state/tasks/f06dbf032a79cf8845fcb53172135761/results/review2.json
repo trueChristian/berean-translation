@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ddbd3325-d6a1-442e-abb2-f34ed05645ee",
+    "response_id": "chatcmpl-EUVeF84QuI0s6tKp1YmZFmocw8GkS",
+    "usage": {
+      "completion_tokens": 1567,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5335,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6902
+    }
+  },
+  "received_at": "2026-10-02T11:25:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...consumption, known today as tuberculosis.</p>",
+        "severity": "minor",
+        "source_quote": "consumption, known today as tuberculosis",
+        "suggested_fix": "Vertaal die Engelse term 'consumption' in die teks. Voorstel: vervang die deel van die sin \"destyds \"consumption\" genoem is\" met \"destyds wat 'consumption' genoem is\" of ewe beter: \"wat destyds 'consumption' genoem is (vandag tuberkulose).\" (Behoud HTML-struktuur.)",
+        "translation_quote": "destyds \"consumption\" genoem is oorlede — wat ons vandag tuberkulose noem."
+      },
+      {
+        "location": "<blockquote class=\"lyrics\"> stanza 3</blockquote>",
+        "severity": "minor",
+        "source_quote": "Angels to beckon me",
+        "suggested_fix": "Die vertaling voeg onnodige woorde en verander die frase-ritme. Stel voor om die reël te verander na: \"Engele om my te wenk\" of \"Engele om my toe te wuif\" sodat dit getrou is aan die bron en idiomaties klink. (Behoud die <blockquote> en <p> tags.)",
+        "translation_quote": "Engele om my te wenk nader te kom"
+      },
+      {
+        "location": "<p>...\"Drawing near, to their amazement, they saw fifty Syrian students...\"</p>",
+        "severity": "minor",
+        "source_quote": "Drawing near, to their amazement, they saw fifty Syrian students standing under some trees in a circle, and singing in Arabic 'Nearer, my God, to Thee,'",
+        "suggested_fix": "Die Afrikaanse weergawe het die sintaksis verwronge begin met \"Nader kom,\" wat die sin onduidelik maak. Stel voor: vervang die begin van die sin met \"Toe hulle naderkom, het hulle tot hulle verbasing vyftig Siriese studente...\" en laat die res van die sin soos vertaal voortgaan, met die citaat in Afrikaans. (Behoud die aanhalingstruktuur en HTML.)",
+        "translation_quote": "Nader kom, tot hulle verbasing het hulle vyftig Siriese studente onder sommige bome in ’n sirkel sien staan en in Arabies sing ‘Nader, my God, tot U,’"
+      },
+      {
+        "location": "<figure> <img alt=\"...\"> </figure>",
+        "severity": "minor",
+        "source_quote": "Sheet music for Nearer, My God, to Thee",
+        "suggested_fix": "Die alt-tekst is in die bron-Engels en moes in Afrikaans geherlei word met ’n standaard term. Stel voor om die alt-atribuut te vervang met: \"Bladmuziek vir 'Nader, my God, tot U'\" of die meer idiomatiese Afrikaans \"Bladmusiek vir 'Nader, my God, tot U'\". (Behoud die <img> tag en ander HTML-attribuute onveranderd.)",
+        "translation_quote": "Bladspeelmusiek vir Nader, my God, tot U"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

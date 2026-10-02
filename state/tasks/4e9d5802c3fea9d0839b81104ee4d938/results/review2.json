@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f4a7c276-8531-4fec-8cab-5b225b970705",
+    "response_id": "chatcmpl-EUVeShw64urNvNusl7u6kBvHAqHpH",
+    "usage": {
+      "completion_tokens": 1210,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7634,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8844
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing 2 Timothy 3:1-5 (around \"Plesier\" heading)",
+        "severity": "critical",
+        "source_quote": "This know also, that in the last days perilous times shall come. For men shall be lovers of their own selves, covetous, boasters, proud, blasphemers, disobedient to parents, unthankful, unholy, Without natural affection, trucebreakers, false accusers, incontinent, fierce, despisers of those that are good, Traitors, heady, highminded, lovers of pleasures more than lovers of God; Having a form of godliness, but denying the power thereof: from such turn away –2 Timothy 3:1-5.",
+        "suggested_fix": "Translate the entire verse cluster faithfully so the meaning of every listed characteristic matches the authoritative English. In particular correct the mistranslation of \"Without natural affection, trucebreakers\" which the translation rendered as \"sonder natuurlike liefde, verbruikers van ooreenkomste\" (which misstates the meaning). A faithful Afrikaans rendering would preserve the sequence and senses, for example: “En dit weet jy ook, dat in die laaste dae moeilike tye sal kom. Want mense sal selfliefhebbers wees, geldgierig, opscheppers, trots, lasteraars, ongehoorsaam aan ouers, ondankbaar, goddeloos, sonder natuurlike liefde, breekers van verbond, valse beskuldigders, onkuis, woedend, veragters van die goede, verraaiers, waaghalsig, hoogmoedig, meer liefhebbers van plesier as liefhebbers van God; hulle het 'n vorm van godsvrug, maar ontken die krag daarvan: van sulkes moet jy wegdraai – 2 Timoteus 3:1-5.” Replace the current Afrikaans quoted block with a corrected translation that preserves each element and the verse numbers unchanged.",
+        "translation_quote": "<em>En dit moet jy ook weet, dat in die laaste dae moeilike tye sal kom. Want mense sal selfliefhebbers wees, geldgierig, opscheppers, hoogmoediges, lastering betig, ongehoorsaam aan ouders, ondankbaar, onheilig, sonder natuurlike liefde, verbruikers van ooreenkomste, vals beskuldigders, onkuis, woedend, veragters van die goeie, verraaiers, waagmoedig, selfverhewend, meer liefhebbers van plesier as liefhebbers van God; hulle het 'n vorm van vroomheid, maar verbaal ontken hulle die krag daarvan: van sulkes moet jy wegdraai – 2 Timoteus 3:1-5.</em>"
+      },
+      {
+        "location": "Paragraph beginning \"Hoe begin dit alles? Subtiel.\" (Dress section)",
+        "severity": "minor",
+        "source_quote": "Dear ones, the world is laughing at us.",
+        "suggested_fix": "Correct the informal vocative. The translation uses the nonstandard/unclear word \"Bestees,\" which is not idiomatic Afrikaans. Replace with a standard rendering such as \"Liewe ones\" is not correct; a natural, idiomatic choice would be \"Liewe mense,\" \"Liewe vriende,\" or simply \"Liewe toehoorders\" depending on tone. For example: \"Liewe vriende, die wêreld lag vir ons.\"",
+        "translation_quote": "Bestees, die wêreld lag vir ons."
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

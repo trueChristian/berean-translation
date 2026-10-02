@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0e554a6a-c5c1-4975-849c-b80d69bb6bbf",
+    "response_id": "chatcmpl-EUVe5Qi20PdaPP7X3nMLaTOXa5uzA",
+    "usage": {
+      "completion_tokens": 1423,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7008,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8431
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first paragraph (lead)",
+        "severity": "major",
+        "source_quote": "This story starts in Switzerland, in the 1500s. A group of Christian believers, desiring to obey Jesus and return to the teachings of the Apostles and the early Church, separated from both the Catholic and Protestant state-run Churches in several Cantons of Switzerland.",
+        "suggested_fix": "Replace the corresponding Bengali sentence so it faithfully conveys the English meaning: it should state that in 1500s Switzerland a group of Christian believers, desiring to obey Jesus and return to the teachings of the Apostles and the early Church, separated from the Catholic and Protestant state-run churches in several cantons. Preserve HTML tags and punctuation. Proposed Bengali correction (preserving the <p class=\"lead\"> tag):\n\n<p class=\"lead\">এই গল্পটি ১৫০০-এর দশকের সুইজারল্যান্ডে শুরু হয়। যীশুকে বাধ্যভাবে মান্য করতে এবং প্রেরিতদের ও প্রাথমিক চার্চের শিক্ষার দিকে ফিরে যেতে ইচ্ছুক বলে একদল খ্রিস্টান বিশ্বাসী সুইজারল্যান্ডের একাধিক ক্যান্টনে কাথলিক ও প্রোটেস্ট্যান্ট—উভয়েই—রাষ্ট্রীয় পরিচালিত চার্চ থেকে বিচ্ছিন্ন হয়ে পড়েছিল।</p>\n\n(Do not include the English sentence — translate its meaning into Bengali exactly as above.)",
+        "translation_quote": "এই গল্পটি ১৫০০-এর দশকের সুইজারল্যান্ডে শুরু হয়। যীশুকে অনুগত হতে এবং প্রেরিতদের ও প্রাথমিক চার্চের শিক্ষা অনুসরণ করে অনাবর্তিত রাজ্যবিরুদ্ধ কাথলিক ও প্রোটেস্ট্যান্ট রাজ্য-চর্চা থেকে বিচ্ছিন্ন হয়ে পড়া এক দল খ্রিস্টান বিশ্বাসী একাধিক ক্যান্টনের মধ্যে আলাদা হয়ে গেলো।"
+      },
+      {
+        "location": "source.html — first paragraph (lead)",
+        "severity": "minor",
+        "source_quote": "separated from both the Catholic and Protestant state-run Churches",
+        "suggested_fix": "Correct phrasing/word choice and remove garbled words. Use a clear Bengali phrasing for \"state-run Churches\" such as \"রাষ্ট্রীয় পরিচালিত চার্চ\" or \"রাষ্ট্র-চালিত চার্চ\" and remove the nonsense token \"অনাবর্তিত\". Example fix incorporated in the major suggested_fix above.",
+        "translation_quote": "প্রেরিতদের ও প্রাথমিক চার্চের শিক্ষা অনুসরণ করে অনাবর্তিত রাজ্যবিরুদ্ধ কাথলিক ও প্রোটেস্ট্যান্ট রাজ্য-চর্চা থেকে বিচ্ছিন্ন হয়ে পড়া"
+      },
+      {
+        "location": "source.html — third paragraph",
+        "severity": "minor",
+        "source_quote": "Hoffs (house/barn fort enclosures)",
+        "suggested_fix": "Clarify parenthetical translation to a more idiomatic Bengali phrase for the local historic term. Suggested replacement within that sentence: \"হফ (ঘর/ছাগলখানা বা খামার-প্রতিরক্ষা প্রাঙ্গণ)\" or \"হফ (ঘর/খামারের দুর্গ বা নিরাপদ প্রাঙ্গণ)\" to capture meaning of fortified house/barn enclosure. Preserve the existing HTML and surrounding sentence text.",
+        "translation_quote": "হফ (ঘর/খামারকেন্দ্রিক নিরাপদ প্রাঙ্গণ)"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "2b07502a-cbf0-4b92-8bb8-7910a5557f84",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:09+00:00",
   "events": [
@@ -62,59 +61,52 @@
         },
         "total_tokens": 12011
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1423,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7008,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8431
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "title",
+      "location": "source.html — first paragraph (lead)",
       "severity": "major",
-      "source_quote": "Mennonites, Misunderstandings, and Herbal Medicines",
-      "suggested_fix": "Translate the English title into standard Bengali, preserving meaning (e.g., \"মেনোনাইটরা, ভুলবুঝাবুঝি ও হার্বাল ওষুধ\"). Do not leave the title in English.",
-      "translation_quote": "Mennonites, Misunderstandings, and Herbal Medicines"
+      "source_quote": "This story starts in Switzerland, in the 1500s. A group of Christian believers, desiring to obey Jesus and return to the teachings of the Apostles and the early Church, separated from both the Catholic and Protestant state-run Churches in several Cantons of Switzerland.",
+      "suggested_fix": "Replace the corresponding Bengali sentence so it faithfully conveys the English meaning: it should state that in 1500s Switzerland a group of Christian believers, desiring to obey Jesus and return to the teachings of the Apostles and the early Church, separated from the Catholic and Protestant state-run churches in several cantons. Preserve HTML tags and punctuation. Proposed Bengali correction (preserving the <p class=\"lead\"> tag):\n\n<p class=\"lead\">এই গল্পটি ১৫০০-এর দশকের সুইজারল্যান্ডে শুরু হয়। যীশুকে বাধ্যভাবে মান্য করতে এবং প্রেরিতদের ও প্রাথমিক চার্চের শিক্ষার দিকে ফিরে যেতে ইচ্ছুক বলে একদল খ্রিস্টান বিশ্বাসী সুইজারল্যান্ডের একাধিক ক্যান্টনে কাথলিক ও প্রোটেস্ট্যান্ট—উভয়েই—রাষ্ট্রীয় পরিচালিত চার্চ থেকে বিচ্ছিন্ন হয়ে পড়েছিল।</p>\n\n(Do not include the English sentence — translate its meaning into Bengali exactly as above.)",
+      "translation_quote": "এই গল্পটি ১৫০০-এর দশকের সুইজারল্যান্ডে শুরু হয়। যীশুকে অনুগত হতে এবং প্রেরিতদের ও প্রাথমিক চার্চের শিক্ষা অনুসরণ করে অনাবর্তিত রাজ্যবিরুদ্ধ কাথলিক ও প্রোটেস্ট্যান্ট রাজ্য-চর্চা থেকে বিচ্ছিন্ন হয়ে পড়া এক দল খ্রিস্টান বিশ্বাসী একাধিক ক্যান্টনের মধ্যে আলাদা হয়ে গেলো।"
     },
     {
-      "location": "subtitle",
-      "severity": "major",
-      "source_quote": "MENNONITE LIFE IN THE CONESTOGA VALLEY OF COLONIAL PENNSYLVANIA",
-      "suggested_fix": "Translate the English subtitle into standard Bengali while preserving the original sense (e.g., \"ঔপনিবেশিক পেনসিলভানিয়ার কনেস্টোগা উপত্যকার মেনোনাইট জীবন\"). Do not leave the subtitle in English.",
-      "translation_quote": "MENNONITE LIFE IN THE CONESTOGA VALLEY OF COLONIAL PENNSYLVANIA"
-    },
-    {
-      "location": "section",
-      "severity": "major",
-      "source_quote": "Victorious Christian Living",
-      "suggested_fix": "Translate the section name into Bengali (e.g., \"বিজয়ী খ্রিস্টীয় জীবন\"), keeping it as a short section label. Do not leave it in English.",
-      "translation_quote": "Victorious Christian Living"
-    },
-    {
-      "location": "paragraph about Palatinate invitation (source html 2nd <p>)",
-      "severity": "major",
-      "source_quote": "the local Prince, Elector Ludwig, invited the exiled Swiss Brethren into the Palatinate to help rebuild the farms because of their reputation as excellent husbandmen and tillers of the soil.",
-      "suggested_fix": "Correct the mistranslation of \"reputation\". The translation currently uses a word meaning \"deception/fraud.\" Render as \"খেতখামারে দক্ষতার খ্যাতি\" or \"মাটি চাষে শ্রেষ্ঠ খ্যাতির কারণে\" to preserve the English meaning.",
-      "translation_quote": "স্থানীয় প্রিন্স, ইলেক্টর লুডভিগ, তাদের কৃষি দক্ষতা ও মাটি-চাষে বিশেষ প্রতারণার কারণে নির্বাসিত সুইস ব্রেদ্রেনদের প্যলাটিনেটে আহ্বান জানিয়েছিলেন খামারগুলো পুনঃনির্মাণে সহায়তা করার জন্য।"
-    },
-    {
-      "location": "heading labels in article body",
-      "severity": "major",
-      "source_quote": "Misunderstanding\n\nMedicine",
-      "suggested_fix": "Translate these section headings into Bengali (for example, \"ভুল-অনুধাবন\" for \"Misunderstanding\" and \"ঔষধ\": or \"চিকিৎসা\" for \"Medicine\") and keep them as heading elements. Do not leave headings in English.",
-      "translation_quote": "Misunderstanding\n\nMedicine"
-    },
-    {
-      "location": "paragraph about 1708 winter (source html containing 'froze')",
+      "location": "source.html — first paragraph (lead)",
       "severity": "minor",
-      "source_quote": "So cold that some of their stored root crops froze in the cold cellars.",
-      "suggested_fix": "Remove the stray non-Bengali character and render fully in Bengali (e.g., \"এতটাই শীত ছিল যে তাদের জমা করা মূলশস্যগুলোর কিছু ঠান্ডায় পেঁতলে গিয়েছিল\" or \"বাহী কুপুতে জমা মূলশস্যগুলো বরফে জড়িয়ে পড়ে\"). Ensure no extraneous characters remain.",
-      "translation_quote": "এতটাই শীত ছিল যে তাদের জমা করা মূলশস্যগুলোর কেউ কেউ ঠান্ডায় ঠান্ডা বক্ষঘরগুলোতে凍ে গিয়েছিল।"
+      "source_quote": "separated from both the Catholic and Protestant state-run Churches",
+      "suggested_fix": "Correct phrasing/word choice and remove garbled words. Use a clear Bengali phrasing for \"state-run Churches\" such as \"রাষ্ট্রীয় পরিচালিত চার্চ\" or \"রাষ্ট্র-চালিত চার্চ\" and remove the nonsense token \"অনাবর্তিত\". Example fix incorporated in the major suggested_fix above.",
+      "translation_quote": "প্রেরিতদের ও প্রাথমিক চার্চের শিক্ষা অনুসরণ করে অনাবর্তিত রাজ্যবিরুদ্ধ কাথলিক ও প্রোটেস্ট্যান্ট রাজ্য-চর্চা থেকে বিচ্ছিন্ন হয়ে পড়া"
     },
     {
-      "location": "paragraph describing first settlers (around 'FirstSettlers')",
+      "location": "source.html — third paragraph",
       "severity": "minor",
-      "source_quote": "Many of those first settlers were from Holland and Sweden and were part of the Mennonite Church of the Netherlands.",
-      "suggested_fix": "Fix the stray English concatenation and ensure Bengali phrasing is smooth (e.g., replace \"FirstSettlers-দের\" with \"প্রথম বসতি স্থাপনকারীদের মধ্যে\").",
-      "translation_quote": "FirstSettlers-দের মধ্যে অনেকেই হল্যান্ড ও সুইডেন থেকে এসেছিলেন এবং নেদারল্যান্ডসের মেনোনাইট চার্চের অংশ ছিলেন।"
+      "source_quote": "Hoffs (house/barn fort enclosures)",
+      "suggested_fix": "Clarify parenthetical translation to a more idiomatic Bengali phrase for the local historic term. Suggested replacement within that sentence: \"হফ (ঘর/ছাগলখানা বা খামার-প্রতিরক্ষা প্রাঙ্গণ)\" or \"হফ (ঘর/খামারের দুর্গ বা নিরাপদ প্রাঙ্গণ)\" to capture meaning of fortified house/barn enclosure. Preserve the existing HTML and surrounding sentence text.",
+      "translation_quote": "হফ (ঘর/খামারকেন্দ্রিক নিরাপদ প্রাঙ্গণ)"
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "c3669b2283453360129196dd9c1f8dce",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "ben",
@@ -158,13 +150,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 78,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/589bbbf06d53e840c1b02c16b5a0e9d55ee78fbc01185cea481271c35d6c3b97.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "b3e43e634638cbb2acbfd582a6dcb7a3f9f4e2dc77e578bc59a693261f0aa67b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

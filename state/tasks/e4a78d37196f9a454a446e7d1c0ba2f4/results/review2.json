@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "2560eff2-ba88-4639-b6ca-18f2a7d5f7de",
+    "response_id": "chatcmpl-EUVdwGq93252MBfI88WBe4T07z5mq",
+    "usage": {
+      "completion_tokens": 795,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8145,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8940
+    }
+  },
+  "received_at": "2026-10-02T11:25:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.title",
+        "severity": "minor",
+        "source_quote": "Drift",
+        "suggested_fix": "Remove the retained English word in parentheses so the title is fully in Urdu. E.g., replace\n<title>بہاؤ (Drift)</title>\nwith\n<title>بہاؤ</title>\n(preserve the existing HTML tag structure and attributes).",
+        "translation_quote": "بہاؤ (Drift)"
+      },
+      {
+        "location": "source.html paragraph about the holy kiss / translation.html same paragraph",
+        "severity": "minor",
+        "source_quote": "People have visited our church and asked if we practice the holy kiss. I reply that we do; however, understanding the need to love one another comes first.",
+        "suggested_fix": "Remove the leftover English transliteration in parentheses so the phrase is fully rendered in Urdu and reads naturally. E.g., replace\n\"مقدس بوسہ (ہولی کس)\" \nwith\n\"مقدس بوسہ\"\n(or another conventional Urdu rendering such as \"پاک بوسہ\"), preserving the HTML paragraph tags and surrounding text exactly as in the translation file.",
+        "translation_quote": "مقدس بوسہ (ہولی کس) دیتے ہیں؛ تاہم ایک دوسرے سے محبت کرنے کی ضرورت کو سمجھنا پہلے آتا ہے۔"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

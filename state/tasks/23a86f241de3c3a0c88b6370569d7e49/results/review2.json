@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "fcefd45a-fd92-46fe-9ed0-5bff04a26545",
+    "response_id": "chatcmpl-EUVeYkgRaCF8JJQpxs01Tyvj3NeEW",
+    "usage": {
+      "completion_tokens": 719,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7515,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8234
+    }
+  },
+  "received_at": "2026-10-02T11:25:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph: \"Some people in our churches who are drifting towards the world have perfected a feel-good gospel.\"",
+        "severity": "minor",
+        "source_quote": "Some people in our churches who are drifting towards the world have perfected a feel-good gospel.",
+        "suggested_fix": "Use a more idiomatic Russian rendering that preserves the evaluative sense of \"feel-good gospel\" (an upbeat, consoling version of the gospel that lacks biblical seriousness). For example: «Некоторые в наших общинах, тянущиеся к миру, довели до совершенства «утешительное» или «приятное» Евангелие.»",
+        "translation_quote": "Некоторые в наших общинах, которые тянутся к миру, усовершенствовали благостную евангелие."
+      },
+      {
+        "location": "source.html paragraph: \"a woman of the church dressed with a cape dress that is form-fitting, and with a little covering hanging skimpily on the back of her head?\"",
+        "severity": "minor",
+        "source_quote": "a woman of the church dressed with a cape dress that is form-fitting, and with a little covering hanging skimpily on the back of her head?",
+        "suggested_fix": "Clarify the clothing term to better match the original nuance. \"Cape dress\" denotes a modest dress with a cape/covering; current «платье с капюшоном» can imply a hooded garment. Suggested wording: «платье с накидкой, облегающее фигуру, и с небольшой покрывалкой, небрежно свисающей на затылке».",
+        "translation_quote": "женщина из церкви в платье с капюшоном, которое облегает фигуру, и с небольшой покрывалкой, небрежно повисшей на затылке?"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

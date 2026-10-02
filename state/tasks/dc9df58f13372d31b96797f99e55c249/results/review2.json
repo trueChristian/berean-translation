@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "15eb7b40-1eab-48eb-a287-4d5c81ade00e",
+    "response_id": "chatcmpl-EUVe7Zc8kxKuFaD3ab8GA3HNEOWZP",
+    "usage": {
+      "completion_tokens": 841,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7925,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8766
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing \"Remember a little leaven leavens the lump. (1 Corinthians 5)\" — near the section closing the \"Pleasure\" subsection (translated paragraph: \"...조금의 누룩이 덩이를 부풀게 하는 것을 기억하라. (1 Corinthians 5)\")",
+        "severity": "minor",
+        "source_quote": "Remember a little leaven leavens the lump. (1 Corinthians 5)",
+        "suggested_fix": "Replace the English book name with the conventional Korean book name and keep the chapter reference unchanged. For example: “조금의 누룩이 덩이를 부풀게 하는 것을 기억하라. (고린도전서 5)”",
+        "translation_quote": "조금의 누룩이 덩이를 부풀게 하는 것을 기억하라. (1 Corinthians 5)"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "46f7b747-9e97-4f2a-b282-85667649a5b0",
+    "response_id": "chatcmpl-EUVeSuC2LCyhfGQet7ucFSZgmoU9V",
+    "usage": {
+      "completion_tokens": 1260,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3921,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1792
+      },
+      "total_tokens": 5181
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: “Indeed, the roof had been cleanly stripped away and the gable ends stoically stood there, holding up nothing.”",
+        "severity": "major",
+        "source_quote": "Indeed, the roof had been cleanly stripped away and the gable ends stoically stood there, holding up nothing.",
+        "suggested_fix": "Translate \"gable ends\" with an appropriate architectural term in contemporary Hebrew that conveys the triangular end walls of the roof (e.g., \"הקצוות המשולשים של הגג\" or \"קירות החזית המשולשים של הגג\"). Preserve the sense that those gable ends remain but are supporting nothing. Example replacement: «אכן, הגג נקרע לחלוטין וקצות המשולשים של הגג עמדו שם בצפיפות, ללא כל תמיכה מתחתיהם.» or more simply: «אכן, הגג נקרע לחלוטין וקירות החזית המשולשים של הגג עמדו שם, מחזיקים כלום.»",
+        "translation_quote": "אכן, הגג נקרע לחלוטין וקצות החרטום עמדו יציבים, מחזיקים כלום."
+      },
+      {
+        "location": "Paragraphs: \"Of special interest was our neighbor Melvin. His barn had collapsed on top of dozens of cattle ... many of the steers could not be saved.\" and \"...she could barely bring herself to watch the loading up of the dead steers.\"",
+        "severity": "major",
+        "source_quote": "Of special interest was our neighbor Melvin. His barn had collapsed on top of dozens of cattle and then a fire had broken out... many of the steers could not be saved.\n...\nShe could barely bring herself to watch the loading up of the dead steers.",
+        "suggested_fix": "Use a consistent, accurate Hebrew term for \"cattle/steers.\" The English consistently uses \"cattle\" and specifically \"steers\" (male cattle). Do not alternate between פרות/פרים/בקר. Suggested consistent translations: use «בקר» (general) or «שוּרוֹי־בקר/שור» (if emphasizing male steers); a practical fix: «עשרות ראשי בקר» and later «הרבה מהשׁוֹרוֹת/השּׁוֹרִים לא הצלחו להינצל» — better: «רבים מהבקר לא ניתנו להצלה» and «היא בקושי יכלה להביט בהעמסת גוויות הבקר המתים.»",
+        "translation_quote": "מעניין במיוחד היה השכן שלנו, מֶלווין. האסם שלו קרס על עשרות פרות ואז פרצה שריפה. ... אבל בסוף רבים מהפרים לא ניתנו להצלה.\n...\nוהיא בקושי יכלה להביט בהעמסה של הפרים המתים."
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

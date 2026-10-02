@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ca0eb23a-daa9-4526-bd0a-f25cbc22b83e",
+    "response_id": "chatcmpl-EUVe4kzop3yC6cj9mo60zHBXdtGlJ",
+    "usage": {
+      "completion_tokens": 1032,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4681,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5713
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Last paragraph before closing (paragraph containing 'unscriptural modern doctrines' / Jude 1:3)",
+        "severity": "minor",
+        "source_quote": "If a church is successful in turning its members’ faith and focus to Jesus as revealed in His Word, these members will then be unwilling to allow the church to accept unscriptural modern doctrines, and the church will remain sound in …the faith which was once delivered unto the saints –Jude 1:3.",
+        "suggested_fix": "Replace the Greek adjective «ασκηρές» with a phrase that accurately conveys «unscriptural» (i.e., 'αντίθετες προς τη Γραφή' or 'ασύμβατες με τη Γραφή'). For example: «...δε θα επιτρέψουν στην εκκλησία να αποδεχθεί σύγχρονες διδασκαλίες ασύμβατες με τη Γραφή, και η εκκλησία θα παραμείνει υγιής στο …την πίστη η οποία μια φορά παραδόθηκε στους αγίους –Ιούδα 1:3.»",
+        "translation_quote": "...δε θα επιτρέψουν στην εκκλησία να αποδεχθεί ασκηρές σύγχρονες διδασκαλίες, και η εκκλησία θα παραμείνει υγιής στο …την πίστη η οποία μια φορά παραδόθηκε στους αγίους –Ιούδα 1:3."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

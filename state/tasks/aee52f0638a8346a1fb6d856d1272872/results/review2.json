@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "bb0efff2-1ff3-4057-8816-1b55aea4ea56",
+    "response_id": "chatcmpl-EUVdy8uzPPFjU1aVKSvpzLlmzHR9k",
+    "usage": {
+      "completion_tokens": 799,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1519,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2318
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> <div class=\"poem\"> <p> (final two lines)",
+        "severity": "minor",
+        "source_quote": "Lying to yourself is a foolish thing—\n    “Freedom, or bondage?” is the question I bring.",
+        "suggested_fix": "Translate the second line to convey the sense of the speaker 'bringing' or 'posing' the question, and make the phrasing idiomatic in Russian. For example: «Врать себе — глупо и напрасно —\n    «Свобода или рабство?» — вот вопрос, который я выношу.» Preserve the poem tags and line breaks.",
+        "translation_quote": "Врать себе — глупо и пусто — так и быть:\n    «Свобода или рабство?» — вот вопрос, что нести."
+      },
+      {
+        "location": "<article> <div class=\"poem\"> <p> (third stanza)",
+        "severity": "minor",
+        "source_quote": "The bills pile up for comforts and ease;",
+        "suggested_fix": "Use a Russian word that preserves 'ease' (comfort and ease) rather than 'лени' (laziness), which shifts the meaning. For example: «Счета растут ради удобств и покоя;» Keep tags and punctuation.",
+        "translation_quote": "Счета растут ради удобств и лени; "
+      },
+      {
+        "location": "<article> <div class=\"poem\"> <p> (second stanza)",
+        "severity": "minor",
+        "source_quote": "They trade their lives, with no reason why.",
+        "suggested_fix": "Render the idea of exchanging their lives for purchasable things without adding an existential 'зачем жить'. Suggested: «Меняют свою жизнь на них, не задав себе причины.» or «Меняют жизнь на это, не зная почему.»",
+        "translation_quote": "Меняют жизнь на них, не зная, зачем жить."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

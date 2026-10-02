@@ -2,7 +2,6 @@
   "article_id": "b6a6823e-0f2a-4354-aebb-5c37ad85937a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,24 +61,44 @@
         },
         "total_tokens": 8459
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 943,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5155,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6098
+      }
     }
   ],
   "findings": [
     {
-      "location": "<figure> <figcaption> (scripture line)",
-      "severity": "major",
-      "source_quote": "Draw nigh to God, and he will draw nigh to you. -Jas. 4:8",
-      "suggested_fix": "Translate the Scripture verse into standard contemporary Dutch, preserving meaning and the reference: e.g. \"Nader tot God, en Hij zal tot u naderen. -Jak. 4:8\" (use conventional Dutch book name abbreviation Jak. and keep verse numbers unchanged). Replace the current line with that translation and preserve the exact figcaption HTML structure.",
-      "translation_quote": "Naad u tot God, en Hij zal tot u naderen. -Jas. 4:8"
+      "location": "Throughout article — term consistency",
+      "severity": "minor",
+      "source_quote": "hymn / hymn writer / hymnal / hymns",
+      "suggested_fix": "Use a single preferred Dutch term consistently (either \"hymne\" or \"gezang\") throughout the translation for coherence. For example, replace instances of \"hymne\" with \"gezang\" (or vice versa) so all occurrences read the same.",
+      "translation_quote": "Dit hymne / schrijfster van dit hymne / liedboek / hymneschrijfster"
     },
     {
-      "location": "Throughout article (mentions of hymn title in running text and quoted accounts)",
-      "severity": "major",
-      "source_quote": "\"Nearer, My God, to Thee\" (multiple occurrences in source HTML)",
-      "suggested_fix": "Translate all quoted substantive English hymn titles and quoted lines into Dutch in-line (not only the hymn text block). The source repeatedly quotes the hymn title in English; these must be rendered in Dutch consistently (for example: \"Nader, mijn God, tot U\" or another consistent contemporary Dutch rendering decided by editor). Preserve quotation marks and the number and placement of references; do not leave the quoted substantive prose in English.",
-      "translation_quote": "\"Nearer, My God, to Thee\" (left in English in several paragraphs)"
+      "location": "Paragraph 4 (and elsewhere) — repetition of 'predikant'",
+      "severity": "minor",
+      "source_quote": "their pastor, the Rev. William Johnson Fox",
+      "suggested_fix": "Consider using a single Dutch rendering for \"Rev.\" consistently (e.g. \"predikant William Johnson Fox\" or \"dominee William Johnson Fox\"). No doctrinal or factual change is required—this is a stylistic consistency suggestion.",
+      "translation_quote": "de predikant, de predikant William Johnson Fox"
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "8af72c0e97eb942c63a87da58f258021",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "nld",
@@ -123,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/bdacc95910a7433231bb636adde27ced309ebbaf33d26f4288193a37ef1ecead.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "529627b867a50e286116891ac48830f9194ac5c383794aa0c674aa93ff18825d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

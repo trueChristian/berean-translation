@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "af87f73b-dbc3-4408-b59c-5ab95376538b",
+    "response_id": "chatcmpl-EUVe9PEsx7guVfGayfwP8378BTrmK",
+    "usage": {
+      "completion_tokens": 1064,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7545,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8609
+    }
+  },
+  "received_at": "2026-10-02T11:25:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph 1",
+        "severity": "minor",
+        "source_quote": "tortured mercilessly",
+        "suggested_fix": "Fix Greek spelling/word choice to convey 'mercilessly tortured' idiomatically (preserve HTML tags). Replace «βασανίστηκαν ανελεύνως» with «βασανίστηκαν ανελέητα» or «βασανίστηκαν ανελεήτως».",
+        "translation_quote": "Πολλοί συνελήφθησαν, φυλακίστηκαν, βασανίστηκαν ανελεύνως και τελικά πολλοί μαρτύρησαν επειδή δεν απαρνήθηκαν την πίστη τους."
+      },
+      {
+        "location": "source.html paragraph 4",
+        "severity": "minor",
+        "source_quote": "legume, clover",
+        "suggested_fix": "Use the standard Greek term for 'legume' in this agricultural context. Replace «ψυχανθούς, τριφύλλι» with «ψυχανθές, τριφύλλι» (or «ψυχανθές (τριφύλλι)») to match grammatical agreement. Preserve HTML.",
+        "translation_quote": "Μια άλλη σημαντική βελτίωση ήταν η εισαγωγή του ψυχανθούς, τριφύλλι."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

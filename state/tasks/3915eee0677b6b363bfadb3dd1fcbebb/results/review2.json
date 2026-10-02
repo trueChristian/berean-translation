@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f34fa5dd-035e-42e1-b255-1046ccb1084d",
+    "response_id": "chatcmpl-EUVea3o2xmn6oDANBYSIkPrHdZpTp",
+    "usage": {
+      "completion_tokens": 768,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3948,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4716
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first paragraph (Freud quote)",
+        "severity": "major",
+        "source_quote": "“only through the solidarity of all the participants (of a group) could the sense of guilt be assuaged.”",
+        "suggested_fix": "Replace the Arabic word «الفداء من شعور الذنب لا يتحقق إلا من خلال تضامن جميع المشاركين (في المجموعة)» with a translation that preserves the original meaning 'the sense of guilt could be lessened/assuaged.' For example: «لا يمكن تخفيف شعور الذنب إلا من خلال تضامن جميع المشاركين (في المجموعة)». Keep the same punctuation and quotation marks as in the translation.",
+        "translation_quote": "«الفداء من شعور الذنب لا يتحقق إلا من خلال تضامن جميع المشاركين (في المجموعة)». "
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

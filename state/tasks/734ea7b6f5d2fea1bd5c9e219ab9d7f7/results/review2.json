@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "88668c5f-2128-4e15-93e4-2d5ea8bb1bb7",
+    "response_id": "chatcmpl-EUVdwuOOHCSYCGCOfGCENwCR8BTuO",
+    "usage": {
+      "completion_tokens": 1394,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4125,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5519
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Dad was resting in a hammock out on the lawn while the rest of the family tried to find the most comfortable place to seek relief from the heat.</p>",
+        "severity": "major",
+        "source_quote": "Dad was resting in a hammock out on the lawn",
+        "suggested_fix": "Translate hammock with a correct Kiswahili word (e.g., “hamaki” or a short descriptive phrase such as “kitanda cha kamba (hamaki)”) preserving the HTML paragraph structure.",
+        "translation_quote": "Baba alikuwa akipumzika kwenye mtaro nje kwenye uwanja"
+      },
+      {
+        "location": "<p>The wail of sirens could be heard in the distance and as they looked around the neighborhood, they could see smoke just beyond some trees.</p>",
+        "severity": "major",
+        "source_quote": "The wail of sirens could be heard in the distance",
+        "suggested_fix": "Translate “sirens” into Kiswahili (for example “kengele za dharura” or “kelele za kengele za uokoaji”) and keep the rest of the sentence structure in the same paragraph.",
+        "translation_quote": "Kelele za sirens zilisikika kwa mbali"
+      },
+      {
+        "location": "<p>Upon hearing this, Mom directed the children to stand by the cellar door. If things got worse, down they would go! Ellie felt so scared. What was going to happen to them? Would their house blow away? Would any of them get hurt?</p>",
+        "severity": "minor",
+        "source_quote": "stand by the cellar door",
+        "suggested_fix": "Use a more natural Kiswahili term for “cellar door” (e.g., “mlango wa ghorofa ya chini” is acceptable but consider “mlango wa chini/basement” -> “mlango wa chumba cha chini (cellar)” or simply “mlango la chumba cha chini”) to avoid ambiguity.",
+        "translation_quote": "wamesimame kando ya mlango wa ghorofa ya chini"
+      },
+      {
+        "location": "<p>The winds had been so strong that some electric poles were blown over causing the electricity to be disconnected so there were no lights or fans.</p>",
+        "severity": "minor",
+        "source_quote": "some electric poles were blown over causing the electricity to be disconnected",
+        "suggested_fix": "Use a clearer Kiswahili verb for “blown over” (e.g., “zilivunjwa” or “zilirushwa”/“zilirushwa ardhini”) and make the cause-effect phrasing clearer: “nguzo za umeme zilivunjwa/zirushwa, hivyo umeme ukakatika” while preserving paragraph tags.",
+        "translation_quote": "baadhi ya nguzo za umeme zilifunguka na kusababisha umeme kuzimwa hivyo hakukuwa na taa wala mashabiki"
+      },
+      {
+        "location": "<p>“What was that?” exclaimed Mom as suddenly, a sheet of tin whizzed past the sunporch windows and disappeared beyond the garden.</p>",
+        "severity": "minor",
+        "source_quote": "a sheet of tin whizzed past the sunporch windows and disappeared beyond the garden",
+        "suggested_fix": "The translation “kifunika cha bati kiliporota” is understandable but awkward; consider “kifungu cha bati kiliruka karibu na madirisha ya veranda kisha kutoweka kando ya bustani” to preserve the image and natural Kiswahili phrasing.",
+        "translation_quote": "kifunika cha bati kiliporota mbele ya madirisha ya veranda na kutoweka kando ya bustani"
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

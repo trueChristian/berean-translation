@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "990a2c35-9d4d-4903-bf0d-8ee689b993aa",
+    "response_id": "chatcmpl-EUVeE3fbh8noDonBCFt7QbChIXkl6",
+    "usage": {
+      "completion_tokens": 795,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8750,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9545
+    }
+  },
+  "received_at": "2026-10-02T11:25:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "Women of Faith",
+        "suggested_fix": "Use a phrasing that more closely mirrors the English idiom while sounding natural in Swedish. Replace the translation title with \"Kvinnor av tro\".",
+        "translation_quote": "Troende kvinnor"
+      },
+      {
+        "location": "first paragraph (drop-cap) — first verse clause",
+        "severity": "minor",
+        "source_quote": "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind –2 Timothy 1:4-7.",
+        "suggested_fix": "Use a more idiomatic Swedish rendering for \"spirit of fear\". Replace \"en fruktans ande\" with \"en fruktansfull ande\" or the common translation \"en fruktans anda\" depending on house style. Example: \"Ty Gud har inte gett oss en fruktans anda, utan kraftens, kärlekens och ett nyktert sinne – 2 Timoteusbrevet 1:4-7.\"",
+        "translation_quote": "Ty Gud har inte gett oss en fruktans ande, utan kraftens, kärlekens och ett nyktert sinne – 2 Timoteusbrevet 1:4-7."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

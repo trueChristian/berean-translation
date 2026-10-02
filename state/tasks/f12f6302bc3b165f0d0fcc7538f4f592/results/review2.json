@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1ba17e4f-6935-4380-b3ef-d8243fcd10ce",
+    "response_id": "chatcmpl-EUVeDZ3mixlc12kE2R28VSJ99ANc2",
+    "usage": {
+      "completion_tokens": 984,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4957,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5941
+    }
+  },
+  "received_at": "2026-10-02T11:25:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — opening Ephesians quotation (first paragraph)",
+        "severity": "minor",
+        "source_quote": "That the God of our Lord Jesus Christ, the Father of glory, may give unto you the spirit of wisdom and revelation in the knowledge of him: The eyes of your understanding being enlightened; that ye may know what is the hope of his calling… –Ephesians 1:17-18.",
+        "suggested_fix": "Keep the theological meaning and make the sentence flow naturally in Bahasa Indonesia while preserving the sense that God gives the spirit and that the eyes of understanding are enlightened. Example revision (preserve HTML/em tags and structure):\n\n<em>supaya Allah Tuhan kita Yesus Kristus, Bapa kemuliaan, memberi kepada kamu roh hikmat dan wahyu dalam pengenalan akan Dia, sehingga mata hati kamu diterangi; supaya kamu mengerti apakah pengharapan dari panggilan-Nya… –Efesus 1:17-18.</em>\n\nThis keeps the causative link (“supaya… sehingga…”) and retains theological force that God grants the spirit and the eyes of understanding are enlightened.",
+        "translation_quote": "<em>supaya Allah Tuhan kita Yesus Kristus, Bapa kemuliaan, memberi kepada kamu roh hikmat dan wahyu dalam pengenalan akan Dia: supaya Ia menerangkan mata hati kamu; <strong>supaya kamu mengerti apakah pengharapan dari panggilan-Nya…</strong> –Efesus 1:17-18.</em>"
+      },
+      {
+        "location": "source.html — Luke 19 quotation (paragraph with perumpamaan)",
+        "severity": "minor",
+        "source_quote": "He said therefore, A certain nobleman went into a far country to receive for himself a kingdom, and to return. And he called his ten servants, and delivered them ten pounds, and said unto them, Occupy till I come –Luke 19:12-13.",
+        "suggested_fix": "The translation is accurate in meaning but uses the English unit name “pound.” Use a common Indonesian convention for old currency in Bible quotations while preserving the reference and sense (do not change verse numbers). Example revision (preserve HTML/em tags):\n\n<em>Lalu ia berkata: Seorang bangsawan pergi ke negeri yang jauh untuk menerima bagi dirinya suatu kerajaan dan pulang kembali. Ia memanggil hamba-hambanya yang sepuluh orang, memberi mereka sepuluh pound (unit uang pada zaman itu) dan berkata kepada mereka: Berusahalah sampai aku datang. –Lukas 19:12-13.</em>\n\nAlternatively you may render simply as “sepuluh pound” but the parenthetical note can help target-language readers understand it denotes an historical monetary unit.",
+        "translation_quote": "<em>Lalu ia berkata: Seorang bangsawan pergi ke negeri yang jauh untuk menerima bagi dirinya suatu kerajaan dan pulang kembali. Ia memanggil hamba-hambanya yang sepuluh orang, memberi mereka sepuluh pound dan berkata kepada mereka: Berusahalah sampai aku datang. –Lukas 19:12-13.</em>"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

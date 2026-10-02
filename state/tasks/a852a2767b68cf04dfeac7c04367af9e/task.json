@@ -2,7 +2,6 @@
   "article_id": "b9a7b1b8-0a23-4e53-b835-31bf5a42dc33",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,24 +61,29 @@
         },
         "total_tokens": 13846
       }
-    }
-  ],
-  "findings": [
-    {
-      "location": "source.html — paragraph mentioning Menno Simmons (near middle)",
-      "severity": "major",
-      "source_quote": "This would be the church of Menno Simmons, and the root of the Mennonite churches of today.",
-      "suggested_fix": "Restore the author’s original spelling from the English source. Replace the translation sentence so it names the person exactly as in the source English: “Detta skulle bli Menno Simmons kyrka, och roten till dagens mennonitiska kyrkor.” Preserve HTML tags and surrounding markup.",
-      "translation_quote": "Detta skulle bli Menno Simons kyrka, och roten till dagens mennonitiska kyrkor."
     },
     {
-      "location": "source.html — final paragraph (scripture attribution)",
-      "severity": "minor",
-      "source_quote": "Luke has recorded the instructions of Jesus on this point: …Luke 17: 22-23.",
-      "suggested_fix": "Correct the Swedish book name to the conventional form. Replace “Lukus” with “Lukas” so the sentence reads: “Lukas har nedtecknat Jesu instruktioner i denna fråga: … <em>…Dagarna skall komma ... – Luk 17:22–23.</em>” Preserve HTML and em tags.",
-      "translation_quote": "Lukus har nedtecknat Jesu instruktioner i denna fråga: <em>…Dagarna skall komma då ni skall ha önskan att få se en av Människo Sonens dagar, men ni skall inte få se det. Man skall säga till er: Se här! eller: Se där! Gå inte efter dem och följ dem inte – Luk 17:22–23.</em>"
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 730,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8466,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9196
+      }
     }
   ],
+  "findings": [],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "a852a2767b68cf04dfeac7c04367af9e",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "swe",
@@ -123,13 +127,13 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1b89de23229eb76f45635f4ff8dcdc61cf2a0af8d7f5b597cc9c5c560ef20e62.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d586dd43ac554896b8fef04467efcb67fca005c8dae5313bc95967b13d0bd0fc",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

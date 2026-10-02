@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "43d95af8-0611-48f8-bd3d-1ca401c7598d",
+    "response_id": "chatcmpl-EUVdwE1o5wA1fzSL65f1S9HuhITyR",
+    "usage": {
+      "completion_tokens": 897,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5970,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6867
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.title",
+        "severity": "minor",
+        "source_quote": "Mennonites, Misunderstandings, and Herbal Medicines",
+        "suggested_fix": "Use the plural form of \"Mennonites\" in Indonesian to match the source title. Replace the translation string exactly (inside the title field) with: \"Mennonites, Kesalahpahaman, dan Obat-Obatan Herbal\" (preserve article title HTML structure).",
+        "translation_quote": "Mennonite, Kesalahpahaman, dan Obat-Obatan Herbal"
+      },
+      {
+        "location": "source.html (paragraph containing \"10,000 acres\")",
+        "severity": "minor",
+        "source_quote": "They received a land patent for 10,000 acres for their families and others that might come later.",
+        "suggested_fix": "Preserve the original plural unit and number formatting (comma as thousands separator is acceptable in English-derived metadata). In the translated paragraph, change the phrase to: \"Mereka menerima hak milik atas 10,000 acres untuk keluarga mereka dan orang lain yang mungkin datang kemudian.\" Or, if you prefer a localized unit word in Indonesian while preserving the original numeric reference form, use: \"10,000 acres\" (keep the English unit word \"acres\" and the number exactly as printed). Ensure plurality is reflected as \"acres.\"",
+        "translation_quote": "Mereka menerima hak milik atas 10.000 acre untuk keluarga mereka dan orang lain yang mungkin datang kemudian."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

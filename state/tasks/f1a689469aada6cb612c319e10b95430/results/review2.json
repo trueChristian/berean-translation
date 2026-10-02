@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "da5422a9-a3c8-4abb-bf9b-576d643ffd60",
+    "response_id": "chatcmpl-EUVe38GYAxp4rQ9tRb68HXzvd9tKT",
+    "usage": {
+      "completion_tokens": 699,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6215,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6914
+    }
+  },
+  "received_at": "2026-10-02T11:25:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p> (paragraph describing trees)",
+        "severity": "minor",
+        "source_quote": "...some six feet in diameter and over 100 feet tall...",
+        "suggested_fix": "Translate and present measurements consistently in the target language. Replace the mixed English/metric phrasing with Swedish and metric equivalents, e.g. \"cirka 1,8 m i diameter och över 30 m höga\" (or keep both units entirely in Swedish: \"cirka sex fot i diameter och över 30 meter höga\"), and remove the stray English unit words (\"feet\"). Preserve the numeric meaning and approximate conversion.",
+        "translation_quote": "...vissa sex feet (cirka 1,8 m) i diameter och över 100 feet (över 30 m) höga..."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

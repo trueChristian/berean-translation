@@ -2,7 +2,6 @@
   "article_id": "b3c8e9e3-2b81-4f91-846f-23e68fbd5b70",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,31 +61,58 @@
         },
         "total_tokens": 16120
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1120,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9411,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10531
+      }
     }
   ],
   "findings": [
     {
-      "location": "Opening paragraph (second sentence)",
-      "severity": "major",
-      "source_quote": "“Oh God, give us mothers like Eunice and grandmothers like Lois. Give us women who are women of faith. Give us women who know how to stand for truth against the tide of human rationalization that is destroying the lives of so many well-meaning people. Give us women who are unwavering in their loyalty to Jesus Christ, to their husbands, and to their calling to represent the spirit of Jesus in all of life. Amen”.",
-      "suggested_fix": "Restore the meaning of “well-meaning people” (भले इरादे वाले लोग). Revise the Hindi to reflect “well-meaning” rather than “selfless”. For example: “मानव तर्कसंग्रह की बाढ़ के विरुद्ध जो इतने भले-इरादे वाले लोगों के जीवन को नष्ट कर रही है।”",
-      "translation_quote": "“हे परमेश्वर, हमें यूनिका जैसी माताएँ और लोइस जैसी दादियाँ दे। हमें ऐसी स्त्रियाँ दे जो विश्वास की महिलाएँ हों। हमें ऐसी महिलाएँ दे जो बहुत-इरादे से सच्चाई के लिये खड़ी हों, उस मानव तर्कसंग्रह की बाढ़ के विरुद्ध जो इतने निःस्वार्थ लोगों के जीवन को नष्ट कर रही है। हमें ऐसी महिलाएँ दे जो यीशु मसीह, अपने पतियों, और पूरे जीवन में यीशु की आत्मा का प्रतिनिधित्व करने की अपनी बुलाहट के प्रति अडिग निष्ठावान हों। आमीन।”"
+      "location": "Paragraph 1 (verse quote and metadata)",
+      "severity": "minor",
+      "source_quote": "Lois, and thy mother Eunice; and I am persuaded that in thee also. ... –2 Timothy 1:4-7.",
+      "suggested_fix": "Use a consistent and conventional Hindi transliteration for 'Eunice' (e.g., 'यूनिस' or 'यूनीस') to match common Hindi Bible/name usage, and ensure the same transliteration is used throughout the article.",
+      "translation_quote": "...जो पहले तुम्हारी दादी लोइस और तुम्हारी मां यूनिका में वास करता था; ... – 2 तिमोथियुस 1:4-7."
     },
     {
-      "location": "All quoted Scripture references (throughout article)",
+      "location": "Paragraph where 1 Timothy 2:14 is cited",
       "severity": "minor",
-      "source_quote": "2 Timothy 1:4-7; Genesis 3:16; 1 Timothy 2:14; 1 Peter 3:6; Hebrews 13:6; Luke 10:38-42; Matthew 26:12; Genesis 12:13; Hebrews 11",
-      "suggested_fix": "Use conventional Hindi/Devanagari forms of the Biblical book names while keeping chapter and verse numbers unchanged. For example: 2 Timothy → 2 तिमोथियुस (or commonly used Hindi form), Genesis → उत्पत्ति, 1 Timothy → 1 तीमथियुस (or तीमथियुस), 1 Peter → 1 पतरस, Hebrews → इब्रानियों, Luke → लूका, Matthew → मत्ती. Update each citation consistently (e.g., “2 तिमोथियुस 1:4-7”, “उत्पत्ति 3:16”, “1 तीमथियुस 2:14”, “1 पतरस 3:6”, “इब्रानियों 13:6”, “लूका 10:38-42”, “मत्ती 26:12”, “उत्पत्ति 12:13”, “इब्रानियों 11”).",
-      "translation_quote": "References appear as English book names with chapter/verse numbers (e.g., “2 Timothy 1:4-7.”, “Genesis 3:16”, “1 Timothy 2:14”, “1 Peter 3:6”, “Hebrews 13:6”, “Luke 10:38-42”, “Matthew 26:12”, “Genesis 12:13”, “Hebrews 11”)."
+      "source_quote": "see 1 Timothy 2:14",
+      "suggested_fix": "Use a consistent Hindi spelling for 'Timothy' throughout the translation (choose either 'तिमोथियुस', 'तीमथियुस', or 'तिमोथियु�' and apply it uniformly).",
+      "translation_quote": "(देखें 1 तीमथियुस 2:14)।"
     },
     {
-      "location": "Paragraph mentioning 'Anabaptist' (Identity section)",
+      "location": "Paragraph with ‘Anabaptist’ reference",
       "severity": "minor",
-      "source_quote": "Young women, especially in our Anabaptist communities, are largely at the mercy of the prominent men in their lives to define their identity.",
-      "suggested_fix": "Use a clearer, conventional transliteration or established Hindi term for “Anabaptist”. For example: “अνάबप्तिस्ट” is nonstandard—prefer “अनाबाप्तिस्ट समुदायों” → better: “अनाबप्तिस्ट (Anabaptist) समुदायों” or simply retain the English in parentheses for clarity: “अनाबप्तिस्ट (Anabaptist) समुदायों” or a commonly used Hindi transliteration “अना-बप्तिस्ट समुदायों”. Ensure consistent spelling throughout.",
-      "translation_quote": "“युवा महिलाएँ, विशेषकर हमारे अनाबाप्तिस्ट समुदायों में, प्रायः अपनी पहचान को परिभाषित करने में अपने जीवन के प्रमुख पुरुषों पर आधारित रहती हैं।”"
+      "source_quote": "Especially in our Anabaptist communities",
+      "suggested_fix": "Either translate or consistently transliterate 'Anabaptist' into Hindi without leaving an English parenthetical, or keep a single form consistently (e.g., 'अनाबप्तिस्ट समुदायों' or 'अनाॅबाप्तिस्ट समुदायों'). Remove the extra English in parentheses if not needed.",
+      "translation_quote": "विशेषकर हमारे अनाबप्तिस्ट (Anabaptist) समुदायों में"
+    },
+    {
+      "location": "Paragraphs mentioning 'scarlet thread'",
+      "severity": "minor",
+      "source_quote": "a scarlet thread",
+      "suggested_fix": "Consider rendering 'scarlet' into common Hindi color word for clarity (e.g., 'लाल रेशमी धागा' or 'लाल धागा') unless the translator intentionally prefers the English loanword 'स्कारलेट' for stylistic reasons. Keep consistent usage throughout.",
+      "translation_quote": "एक स्कारलेट धागा。"
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "93905b80a2de15c20dd559a0ba2bf0b4",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "hin",
@@ -130,13 +156,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8cfe76a75d2704a515e0bc44af297afb5a26a042a45e137da71cec303c344e97.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "84afe7c1fae039864478445557b2cd71f3647f31db181086b533ee7c5b51637a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

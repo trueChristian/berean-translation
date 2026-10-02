@@ -2,7 +2,6 @@
   "article_id": "c16663c4-9436-466b-bffd-dd954a5f3442",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,45 +61,45 @@
         },
         "total_tokens": 12900
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1210,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7634,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8844
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "Throughout article (scripture citations)",
-      "severity": "major",
-      "source_quote": "Matthew 16:25; John 14:15; 1 John 2:4; James 5:5-6; Luke 8:14; 2 Timothy 3:1-5; Revelation 3:15-16; 1 Corinthians 5; Ephesians 4:11-13",
-      "suggested_fix": "Translate the biblical book names to conventional Afrikaans forms and keep verse numbers/ranges exactly as in the English. For example: \"Matthew 16:25\" → \"Matteus 16:25\"; \"John 14:15\" → \"Johannes 14:15\"; \"1 John 2:4\" → \"1 Johannes 2:4\"; \"James 5:5-6\" → \"Jakobus 5:5-6\"; \"Luke 8:14\" → \"Lukas 8:14\"; \"2 Timothy 3:1-5\" → \"2 Timoteus 3:1-5\"; \"Revelation 3:15-16\" → \"Openbaring 3:15-16\"; \"1 Corinthians 5\" → \"1 Korintiërs 5\"; \"Ephesians 4:11-13\" → \"Efesiërs 4:11-13\". Do not change the verse numbers or formatting other than the book names.",
-      "translation_quote": "Examples as translated in the submission: \"– Matthew 16:25.\"; \"–John 14:15.\"; \"– 1 John 2:4.\"; \"–James 5:5-6.\"; \"– Luke 8:14.\"; \"–2 Timothy 3:1-5.\"; \"–Revelation 3:15-16.\"; \"(1 Corinthians 5)\"; \"– Ephesians 4:11-13.\""
+      "location": "Paragraph containing 2 Timothy 3:1-5 (around \"Plesier\" heading)",
+      "severity": "critical",
+      "source_quote": "This know also, that in the last days perilous times shall come. For men shall be lovers of their own selves, covetous, boasters, proud, blasphemers, disobedient to parents, unthankful, unholy, Without natural affection, trucebreakers, false accusers, incontinent, fierce, despisers of those that are good, Traitors, heady, highminded, lovers of pleasures more than lovers of God; Having a form of godliness, but denying the power thereof: from such turn away –2 Timothy 3:1-5.",
+      "suggested_fix": "Translate the entire verse cluster faithfully so the meaning of every listed characteristic matches the authoritative English. In particular correct the mistranslation of \"Without natural affection, trucebreakers\" which the translation rendered as \"sonder natuurlike liefde, verbruikers van ooreenkomste\" (which misstates the meaning). A faithful Afrikaans rendering would preserve the sequence and senses, for example: “En dit weet jy ook, dat in die laaste dae moeilike tye sal kom. Want mense sal selfliefhebbers wees, geldgierig, opscheppers, trots, lasteraars, ongehoorsaam aan ouers, ondankbaar, goddeloos, sonder natuurlike liefde, breekers van verbond, valse beskuldigders, onkuis, woedend, veragters van die goede, verraaiers, waaghalsig, hoogmoedig, meer liefhebbers van plesier as liefhebbers van God; hulle het 'n vorm van godsvrug, maar ontken die krag daarvan: van sulkes moet jy wegdraai – 2 Timoteus 3:1-5.” Replace the current Afrikaans quoted block with a corrected translation that preserves each element and the verse numbers unchanged.",
+      "translation_quote": "<em>En dit moet jy ook weet, dat in die laaste dae moeilike tye sal kom. Want mense sal selfliefhebbers wees, geldgierig, opscheppers, hoogmoediges, lastering betig, ongehoorsaam aan ouders, ondankbaar, onheilig, sonder natuurlike liefde, verbruikers van ooreenkomste, vals beskuldigders, onkuis, woedend, veragters van die goeie, verraaiers, waagmoedig, selfverhewend, meer liefhebbers van plesier as liefhebbers van God; hulle het 'n vorm van vroomheid, maar verbaal ontken hulle die krag daarvan: van sulkes moet jy wegdraai – 2 Timoteus 3:1-5.</em>"
     },
     {
-      "location": "source.section / translation.section",
-      "severity": "major",
-      "source_quote": "MUSINGS OF A MISSIONARY",
-      "suggested_fix": "Translate the section name into standard contemporary Afrikaans (matching the target-language guidance). For example: \"MUSINGS OF A MISSIONARY\" → \"OGENBLIKKE VAN 'N SENDENAA R\" or a more idiomatic rendering such as \"BESINNINGS VAN 'N SENDENAA R\" (choose consistent orthography and spacing). Ensure the section text is fully in Afrikaans.",
-      "translation_quote": "\"MUSINGS OF A MISSIONARY\" (left in English in the translation) "
-    },
-    {
-      "location": "First paragraph — \"plywood\"",
+      "location": "Paragraph beginning \"Hoe begin dit alles? Subtiel.\" (Dress section)",
       "severity": "minor",
-      "source_quote": "a large sheet of plywood",
-      "suggested_fix": "Use a standard Afrikaans term for plywood. Replace \"spilplank\" with a more common word such as \"lae multiplex\"/\"multiplexplaat\" or \"spaanplaat\" depending on intended material. If the author meant commercial plywood, \"multiplexplaat\" is appropriate.",
-      "translation_quote": "\"'n groot stuk spilplank\""
-    },
-    {
-      "location": "First paragraph — \"several inches\" phrasing",
-      "severity": "minor",
-      "source_quote": "After he was several inches off",
-      "suggested_fix": "Use standard Afrikaans plural and phrasing: change \"verskeie duim of meer daarvandaan\" to \"veral duim verder\" or \"veral duim daarvandaan\" or \"veral duim of meer daarvandaan\" but with plural 'duim(e)' as appropriate — e.g., \"veral duim(e) daarvan af\" or \"verskeie duim verder\" for clarity and grammatical correctness.",
-      "translation_quote": "\"Na hy verskeie duim of meer daarvandaan was\""
-    },
-    {
-      "location": "Paragraph on social media — phrasing and register",
-      "severity": "minor",
-      "source_quote": "selfies, tweeting, Facebook",
-      "suggested_fix": "Make the list idiomatic in Afrikaans and avoid mixed terms. For example: \"selfies, Twitter en Facebook\" or \"selfies, tweets en Facebook\". Remove the odd compound \"selfone-selfies\" and render as \"selfies\" or \"selfoon-selfies\" if necessary, but prefer the simple loanword \"selfies.\"",
-      "translation_quote": "\"selfone-selfies, tweet, Facebook, en noem maar op\""
+      "source_quote": "Dear ones, the world is laughing at us.",
+      "suggested_fix": "Correct the informal vocative. The translation uses the nonstandard/unclear word \"Bestees,\" which is not idiomatic Afrikaans. Replace with a standard rendering such as \"Liewe ones\" is not correct; a natural, idiomatic choice would be \"Liewe mense,\" \"Liewe vriende,\" or simply \"Liewe toehoorders\" depending on tone. For example: \"Liewe vriende, die wêreld lag vir ons.\"",
+      "translation_quote": "Bestees, die wêreld lag vir ons."
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "4e9d5802c3fea9d0839b81104ee4d938",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "afr",
@@ -144,13 +143,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 82,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/930958d5d08150faddf8cc6d4ba6c22ee28be341e3250f81368856d9c75f0afc.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "8dd5d606c1d8d9cf5603a40e68a843196a12e272a0bd52717b5de07e6983516a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

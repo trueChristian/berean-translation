@@ -2,7 +2,6 @@
   "article_id": "b6a6823e-0f2a-4354-aebb-5c37ad85937a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,45 +61,29 @@
         },
         "total_tokens": 8867
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 602,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5252,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5854
+      }
     }
   ],
-  "findings": [
-    {
-      "location": "source.title / translation.title",
-      "severity": "major",
-      "source_quote": "Nearer, My God, to Thee",
-      "suggested_fix": "Translate the hymn title into French consistently. Replace the English title with the established French rendering used in the translated hymn text, e.g. « Plus près de toi, mon Dieu ». Ensure the title field contains only the French title (no English).",
-      "translation_quote": "Nearer, My God, to Thee"
-    },
-    {
-      "location": "<article> body — multiple occurrences (paragraphs mentioning the hymn and historical accounts)",
-      "severity": "major",
-      "source_quote": "Instances of the hymn title and quoted hymn name in the English source: “Nearer, My God, to Thee” (appears several times in paragraphs about performances, Boston Peace Jubilee, Syrian students, Johnstown flood, Titanic).",
-      "suggested_fix": "Translate every quoted occurrence of the hymn title into French, matching the translation used in the hymn block (for example « Plus près de toi, mon Dieu »). Do not leave the quoted hymn name in English. Maintain quotation marks and punctuation as in the source HTML.",
-      "translation_quote": "Nearer, My God, to Thee (appears multiple times unchanged in French translation paragraphs)"
-    },
-    {
-      "location": "<figure> img alt attribute",
-      "severity": "major",
-      "source_quote": "alt=\"Sheet music for Nearer, My God, to Thee\"",
-      "suggested_fix": "Translate the alt text fully into French, including the hymn title. For example: alt=\"Partition pour 'Plus près de toi, mon Dieu'\". Preserve the attribute and its quotes exactly in the HTML.",
-      "translation_quote": "alt=\"Partition pour Nearer, My God, to Thee\""
-    },
-    {
-      "location": "<figure> figcaption and body occurrences of quoted hymn title inside quotations and running text",
-      "severity": "major",
-      "source_quote": "Quoted hymn in English within body and figcaption, e.g. text: « Nearer, My God, to Thee » and quoted Arabic instance ‘Nearer, my God, to Thee’.",
-      "suggested_fix": "Replace these English quoted instances with the French translation used in the hymn block, e.g. « Plus près de toi, mon Dieu ». For the quoted Arabic example, keep the structure referring to the Arabic text but translate the hymn title into French: ‘Plus près de toi, mon Dieu’.",
-      "translation_quote": "‘Nearer, my God, to Thee’ and « Nearer, My God, to Thee » left in English in several locations"
-    },
-    {
-      "location": "First paragraph, word spacing",
-      "severity": "minor",
-      "source_quote": "\"recueilshymniques or books of hymns\" (English source: \"hymnal or book of hymns\")",
-      "suggested_fix": "Fix spacing and typographical error in French: insert a space and correct the compound to a proper French phrase. For example: \"recueils hymnologiques\" is awkward — better: \"recueils d'hymnes\" or \"recueils hymnaux\". Replace \"recueilshymniques\" with \"recueils d'hymnes\".",
-      "translation_quote": "\"recueilshymniques ou livres d’hymnes\" (missing space and awkward phrasing)"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "6cfc1f500761a3bd53313eeac1198f33",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "fra",
@@ -144,13 +127,13 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/bdacc95910a7433231bb636adde27ced309ebbaf33d26f4288193a37ef1ecead.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "529627b867a50e286116891ac48830f9194ac5c383794aa0c674aa93ff18825d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

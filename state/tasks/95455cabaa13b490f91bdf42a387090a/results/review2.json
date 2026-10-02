@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f6d057af-069d-45a9-93b5-3bfc7137088e",
+    "response_id": "chatcmpl-EUVeS6XyMtDs7OfTxAw8WQSlawaHN",
+    "usage": {
+      "completion_tokens": 1096,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8670,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9766
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: «Jeg vil gjerne at vi skal vurdere hvordan tro på Gud påvirker de primære lengslene i hjertet hos kvinnen. Hver kvinne lengter etter identitet, trygghet og mening. Jesus har kommet for å møte denne hjertelængselen.» and other occurrences of «hjertelængsel/hjertelængsler/hjertelængsler»",
+        "severity": "minor",
+        "source_quote": "Jesus has come to meet that heart longing.",
+        "suggested_fix": "Use contemporary Bokmål spelling/idiom. Replace instances of «hjertelængsel», «hjertelængsler» or similar with «hjertets lengsel» or «hjertets lengsler» (or plural «hjertets lengsler» / «hjertelngsler» if preferred), and use «lengsel» / «lengsler» rather than Danish-style «længsel/længsler». For example: «Jesus har kommet for å møte denne hjertets lengselen.» or preferably «Jesus har kommet for å møte denne hjertets lengsel.»",
+        "translation_quote": "Jesus har kommet for å møte denne hjertelængselen."
+      },
+      {
+        "location": "Paragraph: «Sara var faktisk Abrahams halv-søster. De hadde samme far, men ikke samme mor.»",
+        "severity": "minor",
+        "source_quote": "Sarah was indeed Abraham’s half-sister. They had the same father, but not the same mother.",
+        "suggested_fix": "Use standard Bokmål compounding. Replace «halv-søster» with «halvsøster» (no hyphen): «Sara var faktisk Abrahams halvsøster.»",
+        "translation_quote": "Sara var faktisk Abrahams halv-søster."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

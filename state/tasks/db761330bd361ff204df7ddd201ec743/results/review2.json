@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5bc4aa54-8a44-4c47-afc0-0d17410a4221",
+    "response_id": "chatcmpl-EUVdwSzyrR8v3pGapstE4hKdtbHkh",
+    "usage": {
+      "completion_tokens": 1551,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8380,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9931
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 1 (John quote)",
+        "severity": "minor",
+        "source_quote": "...If I will that he [John] tarry till I come, what is that to thee? follow thou me. John 21:22.",
+        "suggested_fix": "Preserve the explanatory bracket around “John” (or reproduce its sense) in Arabic to mirror the author’s editorial note. For example: «فَإِنْ شِئْتُ أَنْ يَبْقَى هُوَ (يوحنا) إِلَى مَجِيئِي، فَمَا لَكَ؟ اتَّبِعْنِي. يوحنا 21:22.»",
+        "translation_quote": "«فَإِنْ شِئْتُ أَنْ يَبْقَى هُوَ إِلَى مَجِيئِي، فَمَا لَكَ؟ اتَّبِعْنِي. يوحنا 21:22.»"
+      },
+      {
+        "location": "Paragraph about 'ravening wolves' (near paragraph: “Now separated from its original identity as sheep...”)",
+        "severity": "minor",
+        "source_quote": "Now separated from its original identity as sheep in this world, the coming centuries would see “Christians” become ravening wolves, destroying, killing, and corrupting.",
+        "suggested_fix": "The English phrase “ravening wolves” conveys the idea of predatory/rapacious wolves. The Arabic translation “ذئاب منكوبة” reads as “afflicted/stricken wolves,” which alters the metaphor. Use a term that preserves predatory sense, e.g. «ذِئابٌ جائعةٌ كاسرةٌ» or «ذئاب مفترسة».",
+        "translation_quote": "\"الآن، منفصلة عن هويتها الأصلية كخراف في هذا العالم، ستشهد القرون اللاحقة تحول \\\"المسيحيين\\\" إلى ذئاب منكوبة، مدمرة، قاتلة، وفاسدة.\""
+      },
+      {
+        "location": "Multiple paragraphs referring to 'Anabaptists'",
+        "severity": "minor",
+        "source_quote": "Anabaptists / Anabaptist",
+        "suggested_fix": "The translator uses inconsistent transliterations/forms (e.g. \"أنابابتستيين\", \"الأنابابتست\"). Use a single conventional Arabic form throughout (for example: «الأنابابتست» for the movement and «الأنابابتستيون» or «الأنابابتستيون/الأنابابتستيون» for people) to ensure clarity and consistency.",
+        "translation_quote": "Examples include: \"كأنابابتستيين\", \"الأنابابتست\", \"الأنابابتستية\" (used in different places)."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

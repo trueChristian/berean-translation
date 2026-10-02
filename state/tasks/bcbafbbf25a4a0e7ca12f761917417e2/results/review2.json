@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "471b0b11-8090-4375-884d-ec7a00431439",
+    "response_id": "chatcmpl-EUVdwymAwxQwiJ16Z3jhFIFVQZ3eP",
+    "usage": {
+      "completion_tokens": 1489,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8862,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 3840
+      },
+      "total_tokens": 10351
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...Fathers play a key role in the early development...</p> (paragraph beginning “Fathers play a key role…”)",
+        "severity": "major",
+        "source_quote": "Abusive fathers, absent fathers, and indifferent fathers leave in their wake little girls who are uncertain of who they are, or of their value as a person.",
+        "suggested_fix": "Replace the mistranslated phrase with an Afrikaans equivalent that preserves the meaning “abusive, absent, and indifferent fathers”. For example: \"Mishandelde vaders, afwesige vaders en ongeërgde/onversorgde vaders laat agter klein meisies...\" (choose ongeërgde or ongeïntegreerd is wrong; best: \"ongeïnteresseerde vaders\"). Keep the rest of the sentence unchanged. Ensure the word for “indifferent” is \"ongeïnteresseerde\" or \"onversorgde\" rather than \"onverskrokke\".",
+        "translation_quote": "Mishandelde vaders, afwesige vaders en onverskrokke vaders laat agter klein meisies wat onseker is oor wie hulle is, of oor hul waarde as 'n persoon."
+      },
+      {
+        "location": "<p>...Martha on the other hand was “cumbered about much serving”.</p> (paragraph starting “Martha on the other hand…”)",
+        "severity": "major",
+        "source_quote": "Martha on the other hand was “cumbered about much serving”.",
+        "suggested_fix": "Replace the incorrect Afrikaans word \"skaars\" (which means \"scarce\") with a phrase that conveys being burdened or distracted by many tasks. For example: \"Marta daarenteen was oorlaai met baie dienswerk\" or \"Marta daarenteen was swaar bekommerd oor baie bediening.\" Preserve the quoted feel of the English phrase where appropriate (use quotes or italics as in source).",
+        "translation_quote": "Marta aan die ander kant was “skaars oor baie bediening”."
+      },
+      {
+        "location": "<p>...We read nothing of Sarah’s reaction to Abraham’s plan. All we know is that ... –1 Peter 3:6.</p> (paragraph quoting 1 Peter 3:6)",
+        "severity": "major",
+        "source_quote": "Sara obeyed Abraham, calling him lord: whose daughters ye are, as long as ye do well, and are not afraid with any amazement –1 Peter 3:6.",
+        "suggested_fix": "The Afrikaans rendering has become garbled and changes the meaning. Replace the translation with a faithful target-language rendering of the verse that preserves the original sense and placement. For example: \"…Sara het Abraham gehoorsaam en hom Here genoem. Julle is sy dogters, solank julle goed doen en julle nie met enige vrees bevrees word nie. –1 Petrus 3:6.\" Ensure the verse remains a translation of the quoted Scripture and sits in the same HTML element and formatting as the source.",
+        "translation_quote": "…Sara aan Abraham gehoorsaam was en hom aangespreek het as Here: aan wie julle dogters is, solank julle goed doen en julle nie met enige angs bevrees word nie – 1 Petrus 3:6."
+      },
+      {
+        "location": "<p>...For the wellbeing of your children:</p> (paragraph in summary about children)",
+        "severity": "minor",
+        "source_quote": "Today, more than ever we need mothers to be women of faith who can project onto their children that walking with God is real and satisfying.",
+        "suggested_fix": "Fix a small typo: change \"kuns projekteer\" to \"kan projekteer\" so the sentence reads naturally in Afrikaans: \"... wat aan hul kinders kan projekteer dat stap met God werklik en bevredigend is.\"",
+        "translation_quote": "...het ons moeders nodig wat vroue van geloof is wat aan hul kinders kunt projekteer dat stap met God werklik en bevredigend is."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

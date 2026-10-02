@@ -2,7 +2,6 @@
   "article_id": "b9a7b1b8-0a23-4e53-b835-31bf5a42dc33",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,45 +61,29 @@
         },
         "total_tokens": 14091
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 474,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8462,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8936
+      }
     }
   ],
-  "findings": [
-    {
-      "location": "source.html — first paragraph, scripture quote (John 21:22)",
-      "severity": "critical",
-      "source_quote": "...<em>If I will that he [John] tarry till I come, what is that to thee? follow thou me. John 21:22.</em>",
-      "suggested_fix": "Translate the quoted Scripture into Italian, preserving meaning and the reference. Example: <em>«Se voglio che costui rimanga finché io venga, che t’importa? Tu invece seguimi.» Giovanni 21:22.</em> Preserve the <em> tag and the exact reference 'John 21:22' rendered as 'Giovanni 21:22' or the conventional Italian book name, but do not leave the quoted text in English.",
-      "translation_quote": "...<em>If I will that he [John] tarry till I come, what is that to thee? follow thou me. John 21:22.</em>"
-    },
-    {
-      "location": "source.html — final paragraph, Luke quotation (Luke 17:22-23)",
-      "severity": "critical",
-      "source_quote": "Luke has recorded the instructions of Jesus on this point: <em>…The days will come, when ye shall desire to see one of the days of the Son of man, and ye shall not see it. And they shall say to you, See here; or, see there: go not after them, nor follow them –Luke 17: 22-23.</em>",
-      "suggested_fix": "Translate the quoted Scripture into Italian, preserving the sense and the reference. Example: replace the English quote with an Italian rendering such as: <em>«Verranno giorni in cui desidererete vedere uno dei giorni del Figlio dell’uomo, e non lo vedrete; gli si dirà: “Ecco qui” o: “Ecco là”; non andate e non correte dietro.» Luca 17:22-23.</em> Keep the <em> tag and the reference 'Luke 17:22-23' as 'Luca 17:22-23'.",
-      "translation_quote": "Luca ha registrato le istruzioni di Gesù su questo punto: <em>…The days will come, when ye shall desire to see one of the days of the Son of man, and ye shall not see it. And they shall say to you, See here; or, see there: go not after them, nor follow them –Luke 17: 22-23.</em>"
-    },
-    {
-      "location": "source.html — final paragraph, Matthew quotation (Matthew 24:14)",
-      "severity": "critical",
-      "source_quote": "...and then shall the end come –Matthew 24:14.",
-      "suggested_fix": "Translate the quoted Scripture (or the phrase quoted from Scripture) into Italian and render the book name in Italian. Example: <em>«e allora verrà la fine» — Matteo 24:14.</em> Preserve the punctuation, the <em> tag, and the exact chapter:verse reference 'Matthew 24:14' as 'Matteo 24:14'.",
-      "translation_quote": "... <em>and then shall the end come –Matthew 24:14.</em>"
-    },
-    {
-      "location": "source.html — several occurrences (first paragraph) — target-language clarity/grammar",
-      "severity": "minor",
-      "source_quote": "Jesus, upon His ascension back into His heavenly home, gave a final directive to His disciples...",
-      "suggested_fix": "Fix Italian article and preposition agreement: change “Gesù, alla sua ascensione nel suo dimora celeste,” to “Gesù, alla sua ascensione nella sua dimora celeste,” to correct gender/agreement and improve idiomatic Italian.",
-      "translation_quote": "Gesù, alla sua ascensione nel suo dimora celeste, diede un ultimo comandamento ai suoi discepoli,..."
-    },
-    {
-      "location": "source.html — mention of 'Menno Simmons' (paragraph about Dirk and Obbe Philips)",
-      "severity": "major",
-      "source_quote": "This would be the church of Menno Simmons, and the root of the Mennonite churches of today.",
-      "suggested_fix": "Restore the original proper name as in the English source (Menno Simmons). The translation currently uses 'Menno Simons', which changes the spelling of the cited historical name. Either retain 'Menno Simmons' as in source or, if the author intended a different spelling, confirm editorially. Suggested minimal fix: replace 'Menno Simons' with 'Menno Simmons' to match the authoritative English article.",
-      "translation_quote": "Questa sarebbe stata la chiesa di Menno Simons e la radice delle chiese mennonite odierne."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "d16382c56613a54d6b1cebfe44110f58",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "ita",
@@ -144,13 +127,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 100,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1b89de23229eb76f45635f4ff8dcdc61cf2a0af8d7f5b597cc9c5c560ef20e62.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d586dd43ac554896b8fef04467efcb67fca005c8dae5313bc95967b13d0bd0fc",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

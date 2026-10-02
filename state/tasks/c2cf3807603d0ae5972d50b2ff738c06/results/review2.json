@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e3b2ed4e-0b5c-46a2-9d27-67a7b8881fdc",
+    "response_id": "chatcmpl-EUVdwvnqSsMLTXzVtaJT2NTob0q6H",
+    "usage": {
+      "completion_tokens": 655,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1519,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2174
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, stanza 8 (English source: \"The more we have, the more we need;\\n    The love of money starts with a seed.\")",
+        "severity": "minor",
+        "source_quote": "The more we have, the more we need;\n    The love of money starts with a seed.",
+        "suggested_fix": "Translate the second line more literally to preserve the simple image of 'a seed' without adding an explanatory quality. For example: “De liefde voor geld begint als een zaad.” or “De liefde voor geld begint met een zaad.”",
+        "translation_quote": "Hoe meer we hebben, hoe meer we verlangen;\n    De liefde voor geld begint met een zaad van dwalen."
+      },
+      {
+        "location": "Poem, stanza 5 (English source: \"We need time for God, and our families too.\\n    Maybe less time at work could surely do.\")",
+        "severity": "minor",
+        "source_quote": "We need time for God, and our families too.\n    Maybe less time at work could surely do.",
+        "suggested_fix": "Smooth the Dutch phrasing so it sounds natural and retains the clear conditional sense of the English. Suggested renderings: “We hebben tijd nodig voor God en ook voor ons gezin. Misschien zou minder werktijd daar zeker in helpen.” or “Misschien zou minder tijd op het werk dat zeker mogelijk maken.”",
+        "translation_quote": "We hebben tijd nodig voor God, en ook voor ons gezin.\n    Misschien zou minder werk daar zeker in voorzien."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

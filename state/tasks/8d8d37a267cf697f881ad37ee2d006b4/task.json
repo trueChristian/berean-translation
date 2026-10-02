@@ -2,7 +2,6 @@
   "article_id": "b6a6823e-0f2a-4354-aebb-5c37ad85937a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,45 +61,44 @@
         },
         "total_tokens": 9783
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1282,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5386,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6668
+      }
     }
   ],
   "findings": [
     {
-      "location": "<blockquote class=\"lyrics\"> (first stanza and other stanzas)",
-      "severity": "critical",
-      "source_quote": "Nearer, my God, to Thee,\nNearer to Thee!\nE’en though it be a cross\nThat raiseth me;\nStill all my song would be,\nNearer, my God, to Thee,\nNearer to Thee!",
-      "suggested_fix": "Sahihisha tafsiri ya beti zote za wimbo katika <blockquote class=\"lyrics\"> ili ziakisi kwa uaminifu maana ya Kiingereza. Beti zinazotolewa ni maandishi yaliyokokotolewa (hymn lyrics) na lazima zitatafsiriwa kwa Kiswahili kinachofaa na kinachomilika kimaana (si maneno yasiyoeleweka). Mfano wa moja kwa moja, lakini wa kisasa na mwaminifu kwa mstari wa kwanza na mfululizo: “Karibu zaidi, Mungu wangu kwako, / Karibu zaidi kwako! / Hata kama ni msalaba / Utanilea; / Bado wimbo wangu wote utakuwa, / Karibu zaidi, Mungu wangu kwako, / Karibu zaidi kwako!” Badilisha kila mstari kwa Kiswahili kinachofuata maana ya asili (kwa mfano, “That raiseth me” = “Unaoninilea/Unanilea,” “Though like the wanderer, / The sun gone down” = “Hata kama mpenzi wa kutembea, / Jua limezama,” au maneno mengine yaliyothibitishwa na muktadha wa wimbo).",
-      "translation_quote": "Karibu zaidi, Mungu wangu kwako,\nKaribu zaidi kwako!\nHata kama ni msalaba\nUnaonifuma juu;\nBado wimbo wangu wote ungekuwa,\nKaribu zaidi, Mungu wangu kwako,\nKaribu zaidi kwako!"
-    },
-    {
-      "location": "First paragraph (description of constitution)",
-      "severity": "major",
-      "source_quote": "Although she had a full and productive life, it was short, hastened on by her delicate and frail constitution.",
-      "suggested_fix": "Badilisha tafsiri ili kuonyesha vizuri maana ya Kiingereza: 'delicate and frail constitution' inamaanisha mwili dhaifu, ngumu wa kustawi (fragile health). Pendekezo: “Ingawa aliishi maisha yaliyojaa uzalishaji na shughuli, yalikuwa mafupi, yakachochewa na miili yake dhaifu na yenye shida ya kiafya.” (Au: “...yakusahihishwa na sura yake dhaifu na mwili usio imara.”) Hifadhi muundo wa HTML kama ulivyo.",
-      "translation_quote": "Ingawa aliishi maisha yaliyojaa uzalishaji na shughuli, yalikuwa mafupi, yakaharakishwa na mwili wake dhaifu na nadhifu."
-    },
-    {
-      "location": "Second paragraph (consumption/tuberculosis)",
+      "location": "paragraph 1 (first paragraph text)",
       "severity": "minor",
-      "source_quote": "When she was five years old, her mother died of consumption, known today as tuberculosis.",
-      "suggested_fix": "Epuka kurudia neno 'kifua kikuu' mara mbili; tafsiri sahihi: “Alipokuwa na umri wa miaka mitano, mamake alikufa kwa kifua kikuu, kinachojulikana leo kama kifua kikuu (tuberkulosi).” Boresha kwa moja ya chaguo zifuatazo: “...alichemu kwa kifua kikuu (tuberkulosi).” Iliwekee muundo wa HTML.",
-      "translation_quote": "Alipokuwa na umri wa miaka mitano, mamake alikufa kwa sababu ya kifua kikuu, kinachojulikana leo kama kifua kikuu (tuberkulosi)."
-    },
-    {
-      "location": "First paragraph (vivacious translated)",
-      "severity": "major",
       "source_quote": "a person full of life, vivacious, beautiful, talented, and a person who’s “exalted character always made a deep impression upon all who knew her”.",
-      "suggested_fix": "Tafsiri ya 'vivacious' na usanifu wa orodha umepotoshwa. Badilisha kwa Kiswahili kinachofaa: “mtu aliyebeba uhai, mtulivu wa moyo, mrembo, mwenye kipaji, ambaye ‘tabia yake iliyosimama iliwalea hisia kwa wote waliomjua.’” Au: “...mtu aliyehai, mwenye uzuri wa roho (vivacious), mrembo, mwenye vipaji...” (Chagua muundo unaoendana katika sentensi na msamiati sahihi.)",
-      "translation_quote": "Mwandishi huyu wa nyimbo alikuwa mwanamke mwenye tamaa kubwa na furaha; mtu aliyejaa uhai, mwenye nguvu za mwili, mrembo, mwenye kipaji, na mtu ambaye “tabia yake iliyoinuka daima iliamsha hisia za kina kwa wote waliomuijua”."
+      "suggested_fix": "Avoid unintentional repetition and improve flow. For example, keep adjectives concise and nonredundant while preserving meaning: replace the phrase beginning “mwanamke aliyehai, mrembo, mwenye vipaji na furaha; mtu aliyejaa uhai, mwenye uzuri, mwenye kipaji…” with a single, fluent phrase such as “mwanamke aliyejaa uhai, mwenye haiba, mrembo, na mwenye vipaji; tabia yake iliyoinuka daima iliwacha msukumo mkubwa kwa wote waliomjua.” Preserve the existing HTML tags and placement.",
+      "translation_quote": "Wimbo huu kwa ujumla unaonekana kuwa mmoja ya nyimbo kuu zaidi zilizowahi kuandikwa na mwanamke. Unaweza kupatikana karibu katika kila kitabu cha nyimbo au kitabu cha nyimbo kilichochapishwa leo. Mwandishi huyu wa nyimbo alikuwa mwanamke aliyehai, mrembo, mwenye vipaji na furaha; mtu aliyejaa uhai, mwenye uzuri, mwenye kipaji, na mtu ambaye “tabia yake iliyoinuka daima iliwacha msukumo mkubwa kwa wote waliomjua”."
     },
     {
-      "location": "Various small grammatical concords (paragraphs and stanza intro)",
+      "location": "lyrics stanza 2 (blockquote .lyrics, stanza 2)",
       "severity": "minor",
-      "source_quote": "This hymn is universally thought to be one of the greatest hymns ever authored by a woman. It can be found in nearly every hymnal or book of hymns published today.",
-      "suggested_fix": "Sahihisha makosa ya muafaka wa kisarufi: mfano 'ambayo bado unatumika leo' inapaswa kuwa 'ambayo bado inatumika leo.' Pia 'Hivyo punde alitimiza...' → 'Hivi punde alitimiza...' hakika ni 'Hivi karibuni' si 'Hivi punde' adhabu ndogo ila boresha wakati. Fanyeni marekebisho madogo ya muafaka wa nomino na vitenzi ili Kiswahili kiwe sawa kisarufi. Hifadhi alama za HTML.",
-      "translation_quote": "Hivi punde alitimiza hadithi kamili ya Biblia katika beti hizi tano za wimbo usiofaa kupotea ambao bado unatumika leo."
+      "source_quote": "Though like the wanderer,\n    The sun gone down,",
+      "suggested_fix": "The translation renders “wanderer” as “mpenzi wa kutembea,” which changes nuance and reads awkwardly in Kiswahili. Prefer a succinct equivalent that conveys the sense of a lone traveler/wayfarer, for example: “Hata kama mtembea” or “Hata kama mwendazake.” Replace “Hata kama ni mpenzi wa kutembea, Jua likiwa limeanguka,” with e.g. “Hata kama mtembea, jua likiwa limeanguka,” preserving stanza structure and HTML tags.",
+      "translation_quote": "Hata kama ni mpenzi wa kutembea,\n    Jua likiwa limeanguka,"
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "8d8d37a267cf697f881ad37ee2d006b4",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "swa",
@@ -144,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 68,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/bdacc95910a7433231bb636adde27ced309ebbaf33d26f4288193a37ef1ecead.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "529627b867a50e286116891ac48830f9194ac5c383794aa0c674aa93ff18825d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "3be24d0c-4c97-452e-b3c3-177e16d990ff",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,45 +61,52 @@
         },
         "total_tokens": 15347
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1030,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8401,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9431
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "Translation — heading inside article HTML (between </blockquote> and <p class=\"lead\">) and later headings",
-      "severity": "critical",
-      "source_quote": "The Inside Sanctified by Faith and Prayer\n\n... (later) The Outside Sanctified by the Word",
-      "suggested_fix": "Translate the English headings into French, preserving their placement and the surrounding tags. Replace the two English headings with French equivalents inside the same <h2> tags, e.g. <h2> L'intimité sanctifiée par la foi et la prière </h2> and <h2> L'extérieur sanctifié par la Parole </h2>. Do not change tag structure or attributes.",
-      "translation_quote": "<h2>The Inside Sanctified by Faith and Prayer</h2>\n...\n<h2>The Outside Sanctified by the Word</h2>"
-    },
-    {
-      "location": "Translation — many places contain embedded NUL/escape sequences (e.g. \"\\u0000e0\", \"\\u0000e2\", \"\\u0000f4\", etc.)",
+      "location": "Paragraph beginning 'When the heart of the believer is dealt with first, the visible dimensions of the home fall into place in succession.' (English source, under heading 'The Outside Sanctified by the Word')",
       "severity": "major",
-      "source_quote": "Example from source: \"As we gaze across the thoroughfare of homes surrounding us, we grieve...\" (normal text with standard punctuation and accents only in English source)",
-      "suggested_fix": "Remove the encoding escape sequences and restore normal French characters. For example, replace sequences like \"\\u0000e0\" by 'à', \"\\u0000e9\" by 'é', \"\\u0000e8\" by 'è', \"\\u0000e2\" by 'â', \"\\u0000f4\" by 'ô', \"\\u0000e7\" by 'ç', and fix stray NUL bytes. Ensure the string encoding is UTF-8 and that no '\\u0000' tokens remain in the translated HTML text. Keep HTML tags exactly as in the translation file.",
-      "translation_quote": "Car l\\u0000epoux incr\\u0000e9dule est sanctifi\\u0000e9 par la femme... (numerous occurrences throughout the translated HTML)"
+      "source_quote": "When the heart of the believer is dealt with first, the visible dimensions of the home fall into place in succession.",
+      "suggested_fix": "Translate the sense of 'dealt with' as 'pris en charge', 'traité' or 'traité en premier lieu', not 'dépourvu'. Replace the current sentence with: «Quand le cœur du croyant est traité en premier lieu, les dimensions visibles du foyer se mettent en place successivement.» Preserve surrounding HTML and punctuation.",
+      "translation_quote": "Quand le coeur du croyant est dépourvu en premier lieu, les dimensions visibles du foyer se mettent en place successivement."
     },
     {
-      "location": "Translation — proper names and words corrupted or mistranslated (within paragraph about Eunice and Lois; also earlier: \"vessels\" -> \"v\u0000eases saints\")",
-      "severity": "major",
-      "source_quote": "\"Eunice was a Jewess... We read that unfeigned faith was first wrought in her mother Lois...\" and earlier: \"They spent many a rigorous hour paying heed to countless miniscule details to make their vessels holy.\"",
-      "suggested_fix": "Restore the proper names and key nouns in correct French forms and spelling, preserving HTML. Replace the corrupted forms with correct French: 'Lois' (not 'Loefs'), 'vessels' -> 'vases' or 'récipients' as appropriate, and ensure accents are correct: e.g. in the pharisees paragraph use 'vases saints' or better 'vases sacrés' depending on intended nuance. Keep the sentence structure and tags unchanged aside from the corrected words.",
-      "translation_quote": "...leurs v\\u0000eases saints. ... Lo\\u0000efs ..."
-    },
-    {
-      "location": "Translation — untranslated single English word left inside a French sentence: \"blemish\" in Ephesians quote",
+      "location": "Throughout translated HTML (multiple places including title and many paragraphs)",
       "severity": "minor",
-      "source_quote": "\"...that it might be holy and without blemish –Ephesians 5:25-27.\"",
-      "suggested_fix": "Translate the English word into French within the same blockquote so the Scripture quote is entirely in French. Replace 'blemish' with 'tache' or the conventional French biblical phrasing 'sans tache ni ride' as in standard French Bible renderings. Preserve the blockquote and <em> tags and the verse reference unchanged.",
-      "translation_quote": "...mais qu\\u0000e2elle soit sainte et sans blemish \\u0000e2– \\u0000e9ph\\u0000e9siens 5:25-27."
+      "source_quote": "(entire article contains normal accented French characters)",
+      "suggested_fix": "Remove spurious Unicode escape sequences (e.g. '\\u0000', '\\u0000e9', '\\u0000e0', '\\u0000a0', '\\u0000f4', etc.) and ensure proper UTF-8 encoded accented characters (é, è, à, ô, etc.). For example change 'sanctifi\\u0000e9' to 'sanctifié', 'l'ap\\u0000f4tre' to 'l'apôtre', 'Un foyer sanctifi\\u0000e9' to 'Un foyer sanctifié', and non-breaking spaces encoded as proper U+00A0 where needed. Preserve HTML structure and tags.",
+      "translation_quote": "Car l\\u0000epoux incr\\u0000e9dule est sanctifi\\u0000e9 par la femme... (and many other occurrences with embedded \\u0000 sequences)"
     },
     {
-      "location": "Translation — paragraph-level mistranslation/awkwardness: sentence about Eunice not circumcising her son (meaning changed/confusing)",
+      "location": "Paragraph quoting Proverbs 4:23 (English source)",
       "severity": "minor",
-      "source_quote": "\"This, in turn, had a sanctifying effect on young Timothy, who was then prepared for the work of the Lord. We have no record that his father was added to the faith, but one can only imagine the initial turmoil within the breast of this young Jewess as she reverently honored her head and circumcised not her son but rather committed him to prayer.\"",
-      "suggested_fix": "Clarify and correct the French so it matches the English meaning (that Eunice did not circumcise her son but entrusted him to God in prayer). For example: \"...alors qu'elle honorait pieusement son chef et qu'elle ne fit pas circoncire son fils, mais le confia plutôt à la prière.\" Preserve sentence order and tags.",
-      "translation_quote": "...alors qu\\u0000e2elle honorait pieusement son chef et ne fit pas circoncire son fils mais le remit plut\\u0000f4t \\u0000e0 la pri\\u0000e8re."
+      "source_quote": "...for out of it are the issues of life –Proverbs 4:23.",
+      "suggested_fix": "The French translation uses «... car de lui jaillissent les sources de la vie – Proverbes 4:23.» which is acceptable, but verify punctuation and spacing before the dash and ensure 'Proverbes 4:23' is formatted consistently with other verse citations.",
+      "translation_quote": "... Si le coeur est bien gardé, tout va bien, \u0000a0... car de lui jaillissent les sources de la vie \u0000e2– Proverbes 4:23."
     }
   ],
+  "finished_at": "2026-10-02T11:25:26+00:00",
   "id": "1f94c5474a2c2b83ce2d23cdbb2ff90e",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "fra",
@@ -144,13 +150,13 @@
     }
   },
   "protected": false,
-  "quality_score": 55,
+  "quality_score": 84,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/54ee0eee893e8f116003f464d27484aec73d193d6d0149063d036fb9fd416e93.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "70ee1b1d710de512ea89ec934930eb1c2b6800a8dcbc40df2712b76ac2d1b4e0",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

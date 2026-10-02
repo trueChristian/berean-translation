@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "35370e30-2c09-4d57-92f8-9d7b2481821e",
+    "response_id": "chatcmpl-EUVeCAZVodJlZmpMc2Ahb6KkN66sE",
+    "usage": {
+      "completion_tokens": 1209,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3339,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4548
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning \"Ninapowasiliana na wengine...\"",
+        "severity": "minor",
+        "source_quote": "Is it just me, or since Covid is the general public less friendly and more private with their interactions?",
+        "suggested_fix": "Replace the mistranslated phrase with an idiomatic Kiswahili equivalent that preserves the original sense. Suggested replacement: \"Je, ni mimi tu, au tangu Covid umma kwa ujumla umekuwa sio rafiki na kuwa kibinafsi zaidi katika mwingiliano wao?\" (i.e., change \"umefanya kuwa rafikichanga na kuwa binafsi zaidi\" to \"umekuwa sio rafiki na kuwa kibinafsi zaidi\"). Preserve existing HTML tags and punctuation.",
+        "translation_quote": "Je, ni mimi tu, au tangu Covid umma kwa ujumla umefanya kuwa rafikichanga na kuwa binafsi zaidi katika mwingiliano wao?"
+      },
+      {
+        "location": "Paragraph describing Lee Rufener's article (sentence with \"expository teaching\")",
+        "severity": "minor",
+        "source_quote": "Lee Rufener takes an unapologetic approach in his effort to share some expository teaching on practical ways to have a sanctified home.",
+        "suggested_fix": "Change the word \"upokezi\" (incorrect word choice) to a clearer Kiswahili rendering of \"expository\" that preserves the theological meaning. Suggested replacement: \"Lee Rufener anachukua njia isiyokuwa ya udhuru katika jitihada zake za kushiriki mafundisho ya ufafanuzi kuhusu njia za vitendo za kuwa na nyumba iliyo takatifu.\" (i.e., replace \"mafundisho ya upokezi\" with \"mafundisho ya ufafanuzi\" or \"mafundisho ya kufafanua maandiko\"). Preserve existing HTML tags and punctuation.",
+        "translation_quote": "Lee Rufener anachukua njia isiyokuwa ya udhuru katika jitihada zake za kushiriki mafundisho ya upokezi juu ya njia za vitendo za kuwa na nyumba iliyo takatifu."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

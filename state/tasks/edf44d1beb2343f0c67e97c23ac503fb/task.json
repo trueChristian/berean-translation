@@ -2,7 +2,6 @@
   "article_id": "b6a6823e-0f2a-4354-aebb-5c37ad85937a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,31 +61,66 @@
         },
         "total_tokens": 9444
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1766,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5420,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7186
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "Second paragraph (sentence about cause of mother's death)",
+      "location": "source.html — paragraph 2 (reference to book title)",
       "severity": "major",
-      "source_quote": "When she was five years old, her mother died of consumption, known today as tuberculosis.",
-      "suggested_fix": "Translate the original meaning: indicate that the mother died of 'consumption' (the historical term) and that this illness is known today as tuberculosis. For example, replace the translated sentence with: «Когда ей было пять лет, её мать умерла от чахотки (в настоящее время называемой туберкулёзом).» Preserve surrounding HTML tags and punctuation.",
-      "translation_quote": "Когда ей было пять лет, её мать умерла от туберкулёза, известного тогда как «чахотка»."
+      "source_quote": "I quote from <em>101 Hymn Stories</em>:",
+      "suggested_fix": "Translate or render the English book title into Russian (keep HTML tags). Example: заменить <em>101 Hymn Stories</em> на <em>«101 историй о гимнах»</em> или на подходящую общепринятую русскую форму названия, сохранив теги: I quote from <em>101 Hymn Stories</em> → Я цитирую из <em>«101 Историй о гимнах»</em>:",
+      "translation_quote": "Говоря об авторе гимна, я цитирую из <em>101 Hymn Stories</em>:"
     },
     {
-      "location": "Paragraph about Syrian students (quote inside paragraph)",
+      "location": "source.html — paragraph 8 (reference to hymn book title)",
       "severity": "major",
-      "source_quote": "Drawing near, to their amazement, they saw fifty Syrian students standing under some trees in a circle, and singing in Arabic ‘Nearer, my God, to Thee,’ Professor Hitchcock...",
-      "suggested_fix": "Translate the quoted English hymn phrase into Russian, as other quoted substantive prose is translated elsewhere. Replace the English quoted phrase ‘Nearer, my God, to Thee’ with its Russian rendering used in the article (e.g. «Ближе, Господи, ко Тебе»), preserving punctuation and quote marks. Example replacement for the clause: «...и поющих по-арабски «Ближе, Господи, ко Тебе».»",
-      "translation_quote": "«Подойдя ближе, к их изумлению, они увидели пятьдесят сирийских студентов, стоявших под деревьями в кругу и поющих по-арабски ‘Nearer, my God, to Thee’.»"
+      "source_quote": "published the next year in the hymn book <em>Hymns and Anthems</em> prepared by Rev. Fox",
+      "suggested_fix": "Translate or render the English book title into Russian (keep HTML tags). Example: заменить <em>Hymns and Anthems</em> на <em>«Гимны и Антемы»</em> или на общепринятую русскую форму, сохранив теги: published ... in the hymn book <em>Hymns and Anthems</em> → опубликован в сборнике <em>«Гимны и Антемы»</em>.",
+      "translation_quote": "Этот великий гимн был написан в 1840 году и опубликован на следующий год в сборнике гимнов <em>Hymns and Anthems</em>,"
     },
     {
-      "location": "Paragraph naming other hymns by Lowell Mason",
+      "location": "source.html — paragraph 9 (reference to secondary book title)",
+      "severity": "major",
+      "source_quote": "I quote from <em>A Treasury of Hymn Stories</em>,",
+      "suggested_fix": "Translate or render this English title into Russian (keep HTML tags). Example: заменить <em>A Treasury of Hymn Stories</em> на <em>«Сокровищница историй о гимнах»</em> или на подходящую общепринятую русскую форму названия, сохранив теги: I quote from <em>A Treasury of Hymn Stories</em>, → Я цитирую из <em>«Сокровищница историй о гимнах»</em>,",
+      "translation_quote": "Описывая этот случай, я цитирую из <em>A Treasury of Hymn Stories</em>:"
+    },
+    {
+      "location": "source.html — first paragraph",
       "severity": "minor",
-      "source_quote": "Other hymns by Mason include “From Greenland’s Icy Mountains”, “When I Survey the Wondrous Cross”, “A Charge to Keep I Have”, “Joy to the World”, “My Faith Looks Up to Thee”, and “O Day of Rest and Gladness”.",
-      "suggested_fix": "Translate or provide conventional Russian titles for the cited hymn titles (they are quoted substantive items). Replace the English titles with commonly used Russian equivalents (or transliterate if no accepted translation), for example: «К другим гимнам Мэйсона относятся „Из ледяных гор Гренландии“, „Когда я созерцаю дивный крест“, „Надежный долг хранить обязан“ (use established Russian hymn titles where available), „Радость миру“, „Веру мою к Тебе возношу“ и „День покоя и радости“.» Keep the original English titles only if there is a clear, established convention to retain them; otherwise provide the translation. Preserve punctuation and HTML.",
-      "translation_quote": "«Among other hymns by Mason — «From Greenland’s Icy Mountains», «When I Survey the Wondrous Cross», «A Charge to Keep I Have», «Joy to the World», «My Faith Looks Up to Thee» и «O Day of Rest and Gladness».»"
+      "source_quote": "a person full of life, vivacious, beautiful, talented, and a person who’s “exalted character always made a deep impression upon all who knew her”.",
+      "suggested_fix": "Improve Russian idiom and grammatical agreement while preserving meaning. Suggested phrasing (keeping content and meaning): «женщина, полная жизни: живая, красивая, талантливая; её возвышенный характер всегда производил глубокое впечатление на всех, кто её знал».",
+      "translation_quote": "Автор гимна была женщиной с большими устремлениями и склонностью к наслаждению жизнью; человеком, полной жизни, живой, красивой, талантливой, и человеком, чья «возвышенная натура всегда производила глубокое впечатление на всех, кто её знал»."
+    },
+    {
+      "location": "source.html — first paragraph",
+      "severity": "minor",
+      "source_quote": "it was short, hastened on by her delicate and frail constitution.",
+      "suggested_fix": "Correct Russian grammar and word order to reflect the English meaning. Suggested phrasing: «Она вела полную и плодотворную, но недолгую жизнь, которую ускорило её хрупкое и слабое здоровье.»",
+      "translation_quote": "Хотя у неё была насыщенная и плодотворная жизнь, она была недолгой, ускоренной её хрупким и слабым здоровьем."
     }
   ],
+  "finished_at": "2026-10-02T11:25:28+00:00",
   "id": "edf44d1beb2343f0c67e97c23ac503fb",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "rus",
@@ -130,13 +164,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 88,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/bdacc95910a7433231bb636adde27ced309ebbaf33d26f4288193a37ef1ecead.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "529627b867a50e286116891ac48830f9194ac5c383794aa0c674aa93ff18825d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

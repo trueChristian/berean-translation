@@ -2,7 +2,6 @@
   "article_id": "2b07502a-cbf0-4b92-8bb8-7910a5557f84",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:09+00:00",
   "events": [
@@ -62,59 +61,51 @@
         },
         "total_tokens": 11473
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1208,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6445,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7653
+      }
     }
   ],
   "findings": [
     {
-      "location": "source.html, first paragraph",
-      "severity": "major",
-      "source_quote": "They were referred to as the Swiss Brethren and were deemed as enemies of the state, by the Catholics and Protestants alike.",
-      "suggested_fix": "Translate the group name accurately and consistently. Replace \"קראו להם האלפים השוויצרים\" with a standard Hebrew rendering of \"the Swiss Brethren\" such as \"האחים השוויצרים\" or \"האחים השוויצריים\" (recommendation: \"האחים השוויצרים\"). Keep the rest of the sentence unchanged.",
-      "translation_quote": "קראו להם האלפים השוויצרים והם נחשבו אויבי המדינה, הן בעיני הקתולים והן בעיני הפרוטסטנטים."
-    },
-    {
-      "location": "source.html, third paragraph",
-      "severity": "major",
-      "source_quote": "Although the Swiss Brethren were needed economically, and their faith was tolerated, their churches were not recognized.",
-      "suggested_fix": "Correct the mistranslation of \"their faith was tolerated.\" Replace \"ואמונתם הובלה\" with \"ואמונם נסבל\" or \"ואמונתם התקבלה בסבילות\" so the meaning 'tolerated' is preserved.",
-      "translation_quote": "אף על פי שהאנבפטיסטים השוויצרים נדרשו מבחינה כלכלית ואמונתם הובלה, כנסיותיהם לא הוכרו."
-    },
-    {
-      "location": "source.html, tenth paragraph",
-      "severity": "major",
-      "source_quote": "They received a land patent for 10,000 acres for their families and others that might come later.",
-      "suggested_fix": "Do not convert or change the unit. Preserve the printed English number and unit in the Hebrew translation. Replace \"10,000 דונם\" with \"10,000 acres\" rendered in Hebrew characters or a conventional unit equivalence that preserves the original: e.g. \"10,000 acres (10,000 אקרים)\" or simply \"10,000 אקרים\". The reviewer recommends: \"10,000 אקרים\".",
-      "translation_quote": "הם קיבלו פטנט אדמה על 10,000 דונם עבור משפחותיהם ואחרים שעשויים לבוא מאוחר יותר."
-    },
-    {
-      "location": "source.html, fifth paragraph",
-      "severity": "major",
+      "location": "Paragraph 4 (about crop rotation / clover)",
+      "severity": "minor",
       "source_quote": "Another major improvement was the introduction of the legume, clover. This came from seed which the Dutch Mennonites gifted to them.",
-      "suggested_fix": "Clarify the plant identification and fix the garbled phrasing. Replace the current sentence with a faithful Hebrew rendering: e.g. \"שיפור משמעותי נוסף היה הכנסת הקלובר (צמח ממשפחת הקטניות). הזרעים לו ניתנו במתנה על ידי המנוניטים ההולנדיים.\" Preserve meaning that clover is a legume and that seed was a gift.",
-      "translation_quote": "שיפור משמעותי נוסף היה הכנסת הקלובר, קוטנית שמשפחת הקטניות — התוסף הגיע מזרעים שנתרמו להם על ידי המנוניטים ההולנדים."
+      "suggested_fix": "הפוך את המשפט לזורם וברור בעברית: \"שיפור משמעותי נוסף היה הכנסת הקלובר (צמח ממשפחת הקטניות). הזרעים ניתנו במתנה על ידי המנוניטים ההולנדים.\" (השמט את ה׳לו׳ המיותר ותתקן את המשקל התחבירי).",
+      "translation_quote": "שיפור משמעותי נוסף היה הכנסת הקלובר (צמח ממשפחת הקטניות). הזרעים לו ניתנו במתנה על ידי המנוניטים ההולנדים."
     },
     {
-      "location": "source.html, paragraph listing big trees",
+      "location": "Paragraph beginning of 'רפואה' section (line about her herbal experience)",
       "severity": "minor",
-      "source_quote": "Huge walnut, hickory, chestnuts, maples, white pines, and oaks, some six feet in diameter and over 100 feet tall, covered much of their new lands",
-      "suggested_fix": "Fix the garbled measurement and botanical rendering. The translation rendered metric/imperial awkwardly and produced a typo for 'white pines'. Replace \"חלקם בקוטר של כשתיים מטרים ובעלי גובה מעל 30 מטרים\" with a translation that preserves the printed dimensions: \"אשר חלקם בקוטר של כ־6 רגל ובגובה של יותר מ‑100 רגל\" (or render as in Hebrew using 'כ‑6 רגל' and 'מעל 100 רגל'). Also correct malformed 'ני pין' to \"מחטי אצטרובל (white pines)\" or simply \"אורני האצטרובל הלבנים (white pines)\". Suggested Hebrew: \"אגוזים ענקיים, היקורי, ערמונים, מייפלים, אורניות לבנות ואלונים, חלקם בקוטר של כ‑6 רגל ובגובה של למעלה מ‑100 רגל, כיסו חלק גדול מאדמתם החדשה.\"",
-      "translation_quote": "עצי אגוז ענקיים, היקורי, ערמונים, מייפלים, אורני וני pין לבנים, חלקם בקוטר של כשתיים מטרים ובעלי גובה מעל 30 מטרים, כיסו חלק גדול מאדמתם החדשה (למעט כמה מרבצים פתוחים שהשאירו האמריקאים הילידים ובתי גידול ביצתיים)."
+      "source_quote": "She had a lot of experience with growing herbs and making herbal remedies.",
+      "suggested_fix": "תקן טעות הקלדה והחריג תחבירי: החלף \"Yייתכן\" ב\"ייתכן\" והעדף ניסוח טבעי: \"הייתה לה ניסיון רב בגידול עשבים ובהכנת תרופות צמחיות.\"",
+      "translation_quote": "הייתה לה המון ניסיון בגידול עשבים ובהכנת תרופות צמחיות. Yייתכן שהיא הייתה הדמות הקרובה ביותר ל'רופא' במרחב של עשרות מיילים."
     },
     {
-      "location": "source.html, metadata/section",
+      "location": "Paragraph describing the first wife living as a single sister",
       "severity": "minor",
-      "source_quote": "Victorious Christian Living",
-      "suggested_fix": "The section title translation \"חיים נוצחים מנצחים\" is redundant and awkward. Recommend a more natural Hebrew rendering that preserves meaning: e.g. \"חיים נוצריים מנצחים\" or \"חיי נוצרים מנצחים\". Replace the translation's section field accordingly.",
-      "translation_quote": "חיים נוצחים מנצחים"
-    },
-    {
-      "location": "source.html, medicine paragraph",
-      "severity": "minor",
-      "source_quote": "She was possibly the closest one to being a doctor for many miles around.",
-      "suggested_fix": "The translation uses an awkward phrasing. Suggest a clearer Hebrew idiom: replace \"הייתה הקרובה ביותר לדמות של רופא למרחקים של מיילים רבים סביב\" with \"ייתכן שהיא הייתה הדמות הקרובה ביותר ל'רופא' במרחב של עשרות מיילים.\"",
-      "translation_quote": "ייתכן שהייתה הקרובה ביותר לדמות של רופא למרחקים של מיילים רבים סביב."
+      "source_quote": "His first wife chose to live as a single sister in that church community.",
+      "suggested_fix": "הצע ניסוח רציף ובהיר בעברית: החליף \"מכשירה/מיילדת\" ב\"מיילדת\" או \"מכשירה/מיילדת\" מוסבר בפורמט נורמלי; לדוגמה: \"נראה כי הייתה מיילדת עוד לפני שהגיעה לארץ זו והמשיכה במקצוע זה לאחר שהגיעה.\"",
+      "translation_quote": "נראה כי הייתה מכשירה/מיילדת עוד לפני שיגרה לארץ זו והמשיכה במקצוע זה לאחר שהייתה כאן."
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "632022ce33b36b4b95d575069d30ca73",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "heb",
@@ -158,13 +149,13 @@
     }
   },
   "protected": false,
-  "quality_score": 65,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/589bbbf06d53e840c1b02c16b5a0e9d55ee78fbc01185cea481271c35d6c3b97.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "b3e43e634638cbb2acbfd582a6dcb7a3f9f4e2dc77e578bc59a693261f0aa67b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

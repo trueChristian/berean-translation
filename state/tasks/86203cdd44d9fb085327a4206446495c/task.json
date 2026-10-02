@@ -2,7 +2,6 @@
   "article_id": "cc225bc9-2dda-46f3-a628-13af4fd95e7a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,45 +61,44 @@
         },
         "total_tokens": 6106
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1209,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3339,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4548
+      }
     }
   ],
   "findings": [
     {
-      "location": "Paragraph containing Hebrews quotation (near end)",
-      "severity": "major",
-      "source_quote": "For the priesthood being changed, there is made of necessity a change also of the law –Hebrews 7:12.",
-      "suggested_fix": "Translate the quoted Scripture into Kiswahili faithfully and clearly; preserve chapter and verse. Suggested Kiswahili rendering: <em\"Kwa kuwa huduma ya ualimu imebadilika, lazima pia sheria ibadilike.—Waebrania 7:12.</em> (or another conventional Kiswahili Bible wording), inserted exactly where the English quotation appears, preserving the <em> tag and the citation.",
-      "translation_quote": "<em>Kwa kuwa huduma ya makuhani imebadilika, lazima pia sheria izingiwe—Waebrania 7:12.</em>"
-    },
-    {
-      "location": "Paragraph containing Ephesians quotation (near end)",
-      "severity": "critical",
-      "source_quote": "That we [should] henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine… –Ephesians 4:14.",
-      "suggested_fix": "This translation introduced a change in sense (negation and wrong verbs). The Scripture quotation must be translated faithfully into Kiswahili and preserve the original meaning. Suggested Kiswahili rendering: <em>Hivyo basi hatungekuwa tena watoto, tukiorodheshwa kwa mawimbi yote ya mafundisho, tukitafutwa na kila upepo wa mafundisho…—Waefeso 4:14.</em> (or a conventional Kiswahili Bible wording). Insert the corrected quotation with the <em> tag and citation exactly where the English appears.",
-      "translation_quote": "<em>Kwa hiyo tusivumilie tena kuwa watoto, wakorofishwaji na wabebaji kwa upepo wote wa mafundisho…—Waefeso 4:14.</em>"
-    },
-    {
-      "location": "Final sentence (closing benediction)",
-      "severity": "major",
-      "source_quote": "May we be among those who shall endure until the end.",
-      "suggested_fix": "The translation rendered this as a statement about God (Mungu atutii miongoni mwa wale...), which changes the original wish/prayer about the readers. Correct to a first-person plural wish in Kiswahili, preserving sense: \"Tuwe miongoni mwa wale watakaovumilia hadi mwisho.\" Replace the existing sentence keeping HTML structure.",
-      "translation_quote": "Mungu atutii miongoni mwa wale watakaovumilia hadi mwisho."
-    },
-    {
-      "location": "Earlier sentence: \"to become more Biblical\"",
+      "location": "Paragraph beginning \"Ninapowasiliana na wengine...\"",
       "severity": "minor",
-      "source_quote": "Thus, if we need to change to become more Biblical, then we should.",
-      "suggested_fix": "The translation uses \"Kibeberi\" which is nonstandard/incorrect. Use conventional Kiswahili adjective for Biblical, e.g. \"Kibiblia\" or \"kulingana na Biblia\". Suggested fix: \"kwa hivyo, ikiwa tunahitaji kubadilika ili kuwa zaidi kulingana na Biblia, basi tunapaswa.\"",
-      "translation_quote": "kwa hivyo, tukihitaji kubadilika ili kuwa zaidi Kibeberi, basi tunapaswa."
+      "source_quote": "Is it just me, or since Covid is the general public less friendly and more private with their interactions?",
+      "suggested_fix": "Replace the mistranslated phrase with an idiomatic Kiswahili equivalent that preserves the original sense. Suggested replacement: \"Je, ni mimi tu, au tangu Covid umma kwa ujumla umekuwa sio rafiki na kuwa kibinafsi zaidi katika mwingiliano wao?\" (i.e., change \"umefanya kuwa rafikichanga na kuwa binafsi zaidi\" to \"umekuwa sio rafiki na kuwa kibinafsi zaidi\"). Preserve existing HTML tags and punctuation.",
+      "translation_quote": "Je, ni mimi tu, au tangu Covid umma kwa ujumla umefanya kuwa rafikichanga na kuwa binafsi zaidi katika mwingiliano wao?"
     },
     {
-      "location": "Paragraph about tractors: \"carburetor\" and related phrasing",
+      "location": "Paragraph describing Lee Rufener's article (sentence with \"expository teaching\")",
       "severity": "minor",
-      "source_quote": "gas-powered tractors with a carburetor or a diesel tractor with a manually powered injector pump.",
-      "suggested_fix": "The word \"karabara\" in the translation appears to be a mistranscription of \"karbuteta\"/\"karbureta\"; render technical terms idiomatically in Kiswahili (e.g., \"karbureta\" or \"kibadilishaji mafuta\") and keep meaning: \"trekta za gasoline zenye karbureta au trekta za dizeli zenye pampu ya sindano ya mkono.\"",
-      "translation_quote": "trekta za mafuta yenye karabara au trekta za dizeli zilizo na pampu ya sindano inayowekwa kwa mkono."
+      "source_quote": "Lee Rufener takes an unapologetic approach in his effort to share some expository teaching on practical ways to have a sanctified home.",
+      "suggested_fix": "Change the word \"upokezi\" (incorrect word choice) to a clearer Kiswahili rendering of \"expository\" that preserves the theological meaning. Suggested replacement: \"Lee Rufener anachukua njia isiyokuwa ya udhuru katika jitihada zake za kushiriki mafundisho ya ufafanuzi kuhusu njia za vitendo za kuwa na nyumba iliyo takatifu.\" (i.e., replace \"mafundisho ya upokezi\" with \"mafundisho ya ufafanuzi\" or \"mafundisho ya kufafanua maandiko\"). Preserve existing HTML tags and punctuation.",
+      "translation_quote": "Lee Rufener anachukua njia isiyokuwa ya udhuru katika jitihada zake za kushiriki mafundisho ya upokezi juu ya njia za vitendo za kuwa na nyumba iliyo takatifu."
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "86203cdd44d9fb085327a4206446495c",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "swa",
@@ -144,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 40,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/75bf9f86ddf02e207a89e1a74e3d26989515704eae85bcbc97e911af15e7ea76.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "1d62440b3aaa33963e8085784efc020cfa0cf8cb3b508148be95c55907a09059",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

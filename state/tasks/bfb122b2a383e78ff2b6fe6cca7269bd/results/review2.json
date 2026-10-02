@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "2f3c9fc5-67d6-48f9-8ff1-3f8e74a17e57",
+    "response_id": "chatcmpl-EUVdwxSron4Js9YTGiGb553JFDT0F",
+    "usage": {
+      "completion_tokens": 1382,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10189,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11571
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing James 1:5 (near \"Choosing Wisely\" section)",
+        "severity": "major",
+        "source_quote": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him –James 1:5.",
+        "suggested_fix": "Translate the entire quoted verse into Arabic faithfully (do not truncate with ellipsis). Preserve the full meaning of the English printed verse. Suggested Arabic rendering to insert in place of the current ellipses: «إن كان لأحد منكم نقصُ حكمةٍ فليطلُبْ منَ اللهِ الّذِي يُعطي جَميعَ النّاسِ بسَخاءٍ، ولا يَوبِخُ، فيُعطى لهُ» – يعقوب 1:5. Keep the citation \"– يعقوب 1:5.\"",
+        "translation_quote": "<em>If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him –James 1:5.</em> We need wisdom..."
+      },
+      {
+        "location": "Paragraph in Chemotherapy section (sentence listing cancers helped by chemo)",
+        "severity": "minor",
+        "source_quote": "While chemotherapy sounds scary, it actually works quite well for certain types of cancers, such as blood cancers (like leukemias), lymphoma, and breast cancer.",
+        "suggested_fix": "Avoid duplicating 'lymphoma' in the Arabic list. Render the list to match the English ordering without repetition. Suggested Arabic revision: \"…يعمل جيدًا لأنواعٍ معينة من السرطان، مثل سرطانات الدم (كـ اللوكيميا واللمفوما) وسرطان الثدي.\" or if keeping parentheses: \"مثل سرطانات الدم (كاللوكيميا)، واللمفوما، وسرطان الثدي.\"",
+        "translation_quote": "بينما يبدو العلاج الكيميائي مخيفًا، إلا أنه يعمل بشكل جيد جدًا لأنواع معينة من السرطان، مثل سرطانات الدم (كالأورام الليمفاوية واللوكيميا)، واللمفوما، وسرطان الثدي."
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "da524f86-ed99-4794-91b5-60696ad34a41",
+    "response_id": "chatcmpl-EUVeE4CYxtiXQEC0jJ0Mk6iZ0pxyf",
+    "usage": {
+      "completion_tokens": 1766,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5420,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7186
+    }
+  },
+  "received_at": "2026-10-02T11:25:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph 2 (reference to book title)",
+        "severity": "major",
+        "source_quote": "I quote from <em>101 Hymn Stories</em>:",
+        "suggested_fix": "Translate or render the English book title into Russian (keep HTML tags). Example: заменить <em>101 Hymn Stories</em> на <em>«101 историй о гимнах»</em> или на подходящую общепринятую русскую форму названия, сохранив теги: I quote from <em>101 Hymn Stories</em> → Я цитирую из <em>«101 Историй о гимнах»</em>:",
+        "translation_quote": "Говоря об авторе гимна, я цитирую из <em>101 Hymn Stories</em>:"
+      },
+      {
+        "location": "source.html — paragraph 8 (reference to hymn book title)",
+        "severity": "major",
+        "source_quote": "published the next year in the hymn book <em>Hymns and Anthems</em> prepared by Rev. Fox",
+        "suggested_fix": "Translate or render the English book title into Russian (keep HTML tags). Example: заменить <em>Hymns and Anthems</em> на <em>«Гимны и Антемы»</em> или на общепринятую русскую форму, сохранив теги: published ... in the hymn book <em>Hymns and Anthems</em> → опубликован в сборнике <em>«Гимны и Антемы»</em>.",
+        "translation_quote": "Этот великий гимн был написан в 1840 году и опубликован на следующий год в сборнике гимнов <em>Hymns and Anthems</em>,"
+      },
+      {
+        "location": "source.html — paragraph 9 (reference to secondary book title)",
+        "severity": "major",
+        "source_quote": "I quote from <em>A Treasury of Hymn Stories</em>,",
+        "suggested_fix": "Translate or render this English title into Russian (keep HTML tags). Example: заменить <em>A Treasury of Hymn Stories</em> на <em>«Сокровищница историй о гимнах»</em> или на подходящую общепринятую русскую форму названия, сохранив теги: I quote from <em>A Treasury of Hymn Stories</em>, → Я цитирую из <em>«Сокровищница историй о гимнах»</em>,",
+        "translation_quote": "Описывая этот случай, я цитирую из <em>A Treasury of Hymn Stories</em>:"
+      },
+      {
+        "location": "source.html — first paragraph",
+        "severity": "minor",
+        "source_quote": "a person full of life, vivacious, beautiful, talented, and a person who’s “exalted character always made a deep impression upon all who knew her”.",
+        "suggested_fix": "Improve Russian idiom and grammatical agreement while preserving meaning. Suggested phrasing (keeping content and meaning): «женщина, полная жизни: живая, красивая, талантливая; её возвышенный характер всегда производил глубокое впечатление на всех, кто её знал».",
+        "translation_quote": "Автор гимна была женщиной с большими устремлениями и склонностью к наслаждению жизнью; человеком, полной жизни, живой, красивой, талантливой, и человеком, чья «возвышенная натура всегда производила глубокое впечатление на всех, кто её знал»."
+      },
+      {
+        "location": "source.html — first paragraph",
+        "severity": "minor",
+        "source_quote": "it was short, hastened on by her delicate and frail constitution.",
+        "suggested_fix": "Correct Russian grammar and word order to reflect the English meaning. Suggested phrasing: «Она вела полную и плодотворную, но недолгую жизнь, которую ускорило её хрупкое и слабое здоровье.»",
+        "translation_quote": "Хотя у неё была насыщенная и плодотворная жизнь, она была недолгой, ускоренной её хрупким и слабым здоровьем."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

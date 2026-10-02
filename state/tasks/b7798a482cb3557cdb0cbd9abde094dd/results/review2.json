@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "36496b06-6120-47d8-b2bb-d99fe8d576c0",
+    "response_id": "chatcmpl-EUVe1gHcJJYYQ460GakbmsH9cZVLM",
+    "usage": {
+      "completion_tokens": 703,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3969,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4672
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"Indeed, the roof had been cleanly stripped away and the gable ends stoically stood there, holding up nothing.\"",
+        "severity": "minor",
+        "source_quote": "Indeed, the roof had been cleanly stripped away and the gable ends stoically stood there, holding up nothing.",
+        "suggested_fix": "Use a more natural Norwegian phrasing for \"cleanly stripped away\" and \"stoically stood\" to improve idiom and flow. Example: \"Taket var blitt revet helt av, og gavlendene sto igjen, tomme og blottstilte.\" Preserve HTML and surrounding sentence structure.",
+        "translation_quote": "Virkelig nok var taket blitt ryddig revet bort, og gavlendene stod der stoiskt og holdt ingenting oppe."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

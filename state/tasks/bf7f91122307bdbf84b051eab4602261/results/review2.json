@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6d6cbe6d-ca61-474d-a32c-73c4e7c4709c",
+    "response_id": "chatcmpl-EUVdwlL8vPc9UowRXFwi7sXp6luFK",
+    "usage": {
+      "completion_tokens": 1462,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8230,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9692
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 3 (sentence containing English loanword)",
+        "severity": "minor",
+        "source_quote": "Now, two thousand years since Christ gave that promise, His soon return seems just as imminent as it did to the first century believers.",
+        "suggested_fix": "Replace the English loanword 'imminent' with a correct Dutch equivalent: bijvoorbeeld \"nabij\" of \"aanstaande\". Keep the HTML tags and structure unchanged. Suggested Dutch: \"Nu, tweeduizend jaar nadat Christus die belofte gaf, lijkt Zijn spoedige terugkeer nog even nabij als voor de gelovigen van de eerste eeuw.\"",
+        "translation_quote": "Nu, tweeduizend jaar nadat Christus die belofte gaf, lijkt Zijn nabij terugkeer nog even imminent als voor de gelovigen van de eerste eeuw."
+      },
+      {
+        "location": "Paragraph final (sentence about world reconciling to the church)",
+        "severity": "minor",
+        "source_quote": "Not only would they accept a position of power in the empire, but they would also accept Constantine as a benefactor and protector of the church itself.",
+        "suggested_fix": "Correct the Dutch wording \"het uitstreken van hen als voorbeelden\" which is ungrammatical/unclear. Replace with a clear equivalent that preserves the sense: e.g. \"hen tot voorbeelden van het rijk maken\" or \"hen als voorbeelden voor het rijk neerzetten\". Keep tags and order unchanged. Example: \"... van het kruisigen, onthoofden en martelen van hen naar het tot voorbeelden voor het rijk maken van hen.\"",
+        "translation_quote": "Die gunst schijnbaar beïnvloedde de helderheid waarmee zij de schijnbare verzoening van de wereld met de kerk bekeken. Niet alleen accepteerden zij een positie van macht in het rijk, zij accepteerden ook Constantijn als weldoener en beschermer van de kerk zelf. In hun gedachten was de dag des Heren gekomen en was Constantijn de IJzeren staf waarmee God zou regeren."
+      },
+      {
+        "location": "Paragraph about continued expectation (word choice)",
+        "severity": "minor",
+        "source_quote": "In the light of this continued earnest expectation of the end times, what have we to learn about our interpretations of prophecy from those who have attempted to decipher the prophetic portions of Scripture in earlier ages?",
+        "suggested_fix": "The translation uses \"aanhoudende eerlijke verwachting\", which is awkward and changes tone. Suggest using a more idiomatic Dutch rendering of \"continued earnest expectation\": e.g. \"aanhoudende ernstige verwachting\" or \"aanhoudende innige verwachting\". Keep HTML structure unchanged. Example: \"In het licht van deze aanhoudende innige verwachting van de eindtijd, wat leren wij...\"",
+        "translation_quote": "In het licht van deze aanhoudende eerlijke verwachting van de eindtijd, wat leren wij over onze interpretaties van profetie van hen die in vroegere tijden hebben geprobeerd de profetische gedeelten van de Schrift te ontcijferen?"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

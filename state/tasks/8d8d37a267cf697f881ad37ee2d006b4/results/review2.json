@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6e19c631-570e-428f-813b-804e983e08aa",
+    "response_id": "chatcmpl-EUVeKW0nF3PGh4OMpXPRsOVyZNBhx",
+    "usage": {
+      "completion_tokens": 1282,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5386,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6668
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "paragraph 1 (first paragraph text)",
+        "severity": "minor",
+        "source_quote": "a person full of life, vivacious, beautiful, talented, and a person who’s “exalted character always made a deep impression upon all who knew her”.",
+        "suggested_fix": "Avoid unintentional repetition and improve flow. For example, keep adjectives concise and nonredundant while preserving meaning: replace the phrase beginning “mwanamke aliyehai, mrembo, mwenye vipaji na furaha; mtu aliyejaa uhai, mwenye uzuri, mwenye kipaji…” with a single, fluent phrase such as “mwanamke aliyejaa uhai, mwenye haiba, mrembo, na mwenye vipaji; tabia yake iliyoinuka daima iliwacha msukumo mkubwa kwa wote waliomjua.” Preserve the existing HTML tags and placement.",
+        "translation_quote": "Wimbo huu kwa ujumla unaonekana kuwa mmoja ya nyimbo kuu zaidi zilizowahi kuandikwa na mwanamke. Unaweza kupatikana karibu katika kila kitabu cha nyimbo au kitabu cha nyimbo kilichochapishwa leo. Mwandishi huyu wa nyimbo alikuwa mwanamke aliyehai, mrembo, mwenye vipaji na furaha; mtu aliyejaa uhai, mwenye uzuri, mwenye kipaji, na mtu ambaye “tabia yake iliyoinuka daima iliwacha msukumo mkubwa kwa wote waliomjua”."
+      },
+      {
+        "location": "lyrics stanza 2 (blockquote .lyrics, stanza 2)",
+        "severity": "minor",
+        "source_quote": "Though like the wanderer,\n    The sun gone down,",
+        "suggested_fix": "The translation renders “wanderer” as “mpenzi wa kutembea,” which changes nuance and reads awkwardly in Kiswahili. Prefer a succinct equivalent that conveys the sense of a lone traveler/wayfarer, for example: “Hata kama mtembea” or “Hata kama mwendazake.” Replace “Hata kama ni mpenzi wa kutembea, Jua likiwa limeanguka,” with e.g. “Hata kama mtembea, jua likiwa limeanguka,” preserving stanza structure and HTML tags.",
+        "translation_quote": "Hata kama ni mpenzi wa kutembea,\n    Jua likiwa limeanguka,"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

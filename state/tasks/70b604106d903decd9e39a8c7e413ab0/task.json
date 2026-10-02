@@ -2,7 +2,6 @@
   "article_id": "f21c4f39-9508-4f75-9e0c-0c68468c41f8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,31 +61,44 @@
         },
         "total_tokens": 7344
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1191,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4195,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5386
+      }
     }
   ],
   "findings": [
     {
-      "location": "<p>“That’s got to be Melvin’s barn burning!” exclaimed Dad. “I’m going to go see what I can do to help.”</p>",
-      "severity": "major",
-      "source_quote": "“That’s got to be Melvin’s barn burning!” exclaimed Dad.",
-      "suggested_fix": "ترجمے میں اس جملے کو واضح، فطری اردو میں درست کریں اور 'barn' کا مناسب ترجمہ استعمال کریں۔ مثال درست ترجمہ: “وہ تو میلون کا اصطبل جل رہا ہے!” یا “وہ میلون کی کھلیاں/آشیانہ جل رہا ہے!” (یہاں 'barn' کے لیے 'اصطبل' عام اور مناسب اصطلاح ہے).",
-      "translation_quote": "“وہ تو میلون کے کھیت کا عمار جل رہا ہے!” باپ نے کہا۔ “میں دیکھنے جا رہا ہوں کہ میں کیسے مدد کر سکتا ہوں۔”"
+      "location": "source.html ¶6 (\"She noted the concern and alarm on her parents’ faces...\")",
+      "severity": "minor",
+      "source_quote": "She noted the concern and alarm on her parents’ faces as they watched and waited.",
+      "suggested_fix": "درج ذیل اردو جملے کی فامِ فعل اور ضمیری ہم آہنگی درست کریں تاکہ واضح ہو کہ مشاہدہ ایلی نے کیا: \"اس نے اپنے والدین کے چہروں پر فکرمندی اور تشویش دیکھی جب وہ دیکھ رہے تھے اور انتظار کر رہے تھے۔\" (یا زیادہ واضح: \"ایلی نے اپنے والدین کے چہروں پر فکرمندی اور تشویش دیکھی جب وہ دیکھ رہے اور انتظار کر رہے تھے۔\"). موجودہ ترجمے میں \"وہ ہوا کی طاقت دیکھ کر حیران تھا... اس نے اپنے والدین...\" کے مطالعے میں جنس/ضمیر کا ملاپ غیر واضح یا غیر درست مضمر کر رہا ہے؛ فعل کو مؤنث (حیران تھی) اور ضمیر کو ایلی سے مربوط رکھیں۔",
+      "translation_quote": "وہ ہوا کی طاقت دیکھ کر حیران تھا جو ایلی نے اپنی سات سالہ عمر میں کبھی محسوس نہیں کی تھی۔ اس نے اپنے والدین کے چہروں پر فکرمندی اور تشویش نوٹ کی جب وہ دیکھ رہے تھے اور انتظار کر رہے تھے۔"
     },
     {
-      "location": "<p>The neighbor men tried desperately to rescue what cattle they could, but in the end, many of the steers could not be saved.</p>",
-      "severity": "critical",
-      "source_quote": "The neighbor men tried desperately to rescue what cattle they could, but in the end, many of the steers could not be saved.",
-      "suggested_fix": "یہاں 'steers' (نر چھوٹے بیل/گوشت کے لیے پالے گئے بیل) کو درست اردو میں ترجمہ کریں۔ 'بانسریاں' غلط اور معنی بدل دیتی ہے۔ درست ترجمہ کی مثال: “پڑوسی مرد مویشوں کو بچانے کی جان لڑا گئے، مگر آخر کار بہت سے بیل بچائے نہیں جا سکے۔” یا “...مگر آخرکار کئی اسٹیر/نر بیل بچائے نہیں جا سکے۔” ('بیل' یا 'نَر بیل' مناسب ہیں).",
-      "translation_quote": "پڑوسی مرد مویشوں کو بچانے کی کوشش میں جان لگاتے رہے، مگر آخرکار بہت سے بانسریاں بچائی نہیں جاسکیں۔"
-    },
-    {
-      "location": "<p>Indeed, the roof had been cleanly stripped away and the gable ends stoically stood there, holding up nothing.</p>",
-      "severity": "major",
-      "source_quote": "Indeed, the roof had been cleanly stripped away and the gable ends stoically stood there, holding up nothing.",
-      "suggested_fix": "'gable ends' اور اس جملے کا عمومی معنٰی درست اور فصیح اردو میں بحال کریں۔ مثلاً: “درحقیقت چھت بالکل اچھی طرح اتر چکی تھی اور گمبہ نما سلاخیں/چھت کے سِروں جیسی عمودی ساختیں بے جان کھڑی تھیں، جن کا کوئی سہارا نہیں تھا۔” یہاں 'gable ends' کے لیے 'گبلی حصے' یا 'چھت کے چوٹی والے سرے' استعمال کیا جا سکتا ہے۔",
-      "translation_quote": "واقعی، چھت صاف طور پر اتر گئی تھی اور گبل اینڈ بے تکلف کھڑے تھے، جو کچھ بھی سہارا دینے کے لیے کچھ نہیں رکھ رہے تھے۔"
+      "location": "source.html ¶15 (\"The wail of sirens could be heard...\")",
+      "severity": "minor",
+      "source_quote": "The wail of sirens could be heard in the distance and as they looked around the neighborhood, they could see smoke just beyond some trees.",
+      "suggested_fix": "\"سائرن کی وائل\" جیسی غیر روایتی ترکیب کو ہٹاکر فطری اردو بنائیں، مثلاً: \"دور سے سائرن کی چیخ سنائی دے رہی تھی اور جب انہوں نے محلے میں ادھر ادھر دیکھا تو کچھ درختوں کے پار دھواں دکھائی دیا۔\" یا \"دور سے سائرن کی آواز سنائی دے رہی تھی...\"۔ موجودہ \"وائل\" الفاظ غیر فصیح ہے؛ اسے \"آواز\"، \"چیخ\" یا \"بجتی ہوئی سائرن\" سے بدل دیں۔",
+      "translation_quote": "دور کہیں سائرن کی وائل سنائی دے رہی تھی اور جب انہوں نے محلے میں ادھر ادھر دیکھا تو کچھ درختوں کے پار دھواں نظر آیا۔"
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "70b604106d903decd9e39a8c7e413ab0",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "urd",
@@ -130,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1896269e1d50cee8808d069728099a272936b67afb461b50cf790049cb1e46b5.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "ea6f4c2c1d99d58d1a9f3a20171db73a83fd2eecbd0478f01bb5f8591bf41415",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

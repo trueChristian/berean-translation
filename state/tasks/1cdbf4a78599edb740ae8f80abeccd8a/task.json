@@ -2,7 +2,6 @@
   "article_id": "3be24d0c-4c97-452e-b3c3-177e16d990ff",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,24 +61,59 @@
         },
         "total_tokens": 12045
       }
-    }
-  ],
-  "findings": [
-    {
-      "location": "Paragraph beginning \"Eunice was a Jewess...\" (source.html)",
-      "severity": "major",
-      "source_quote": "Eunice was a Jewess, who, upon embracing faith in Christ, found herself in an unequal yoke with a Greek. We read that unfeigned faith was first wrought in her mother Lois, and that affected Eunice. This, in turn, had a sanctifying effect on young Timothy, who was then prepared for the work of the Lord. We have no record that his father was added to the faith, but one can only imagine the initial turmoil within the breast of this young Jewess as she reverently honored her head and circumcised not her son but rather committed him to prayer.",
-      "suggested_fix": "Translate the full passage so it preserves the original meaning and relationships, use consistent and conventional Korean forms for the proper names (Eunice = '유니게' or '에우니게', Lois = '로이스'), and render 'honored her head' clearly as honoring her husband and 'circumcised not her son but rather committed him to prayer' faithfully. Example (preserve HTML tags and punctuation):\n\n\"유니게는 유대 여인이었는데, 그리스도를 믿게 되었을 때 그리스인과 불균형한 멍에를 지게 되었습니다. 우리는 참된 믿음이 먼저 그의 어머니 로이스에게서 역사했고 그것이 유니게에게 영향을 주었다고 읽습니다. 이것은 다시 어린 디모데에게 거룩하게 하는 영향을 주어 그가 주의 일에 준비되게 했습니다. 그의 아버지가 믿음에 더해졌다는 기록은 없습니다. 그러나 이 젊은 유대 여인이 처음 느꼈을 혼란을 상상할 수 있습니다. 그녀는 경외함으로 남편을 공경하였고, 아들을 할례시키지는 못했으나 오히려 그를 기도에 맡겼습니다.\"",
-      "translation_quote": "\"율니게는 유대 여성이었는데 그리스도를 믿을 때 불균형한 멍에를 지는 이와 동거하게 되었습니다. 우리는 참된 믿음이 먼저 그의 어머니 로이스에게서 역사했고 그것이 유니게에게 영향을 주었다고 읽습니다. 이것은 다시 어린 디모데에게 거룩하게 하는 영향을 주어 그가 주의 일에 준비되게 했습니다. 그의 아버지가 믿음에 더해졌다는 기록은 없으나, 이 어린 유대 여인의 가슴 속에 처음 일어났을 혼란을 상상할 수밖에 없습니다. 그녀는 경외심으로 그 위에 존경을 표하며 아들을 할례하지 아니하고 오히려 그를 기도에 맡겼습니다.\""
     },
     {
-      "location": "Same paragraph, proper-name consistency (source.title/source.html)",
-      "severity": "minor",
-      "source_quote": "Eunice ... Lois",
-      "suggested_fix": "Use a single, conventional Korean transliteration for the proper name 'Eunice' throughout the translation and ensure 'Lois' is consistently rendered. Recommended: Eunice = '유니게' or '에우니게' (pick one) and Lois = '로이스'. Update all occurrences to the chosen spellings to avoid confusion.",
-      "translation_quote": "The translation uses both \"율니게\" and \"유니게\" for Eunice, and \"로이스\" for Lois in other places."
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 2797,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7339,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10136
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
+  "findings": [
+    {
+      "location": "source.html — paragraph quoting 1 Corinthians 7:14-16 (opening blockquote)",
+      "severity": "minor",
+      "source_quote": "For the unbelieving husband is sanctified by the wife, and the unbelieving wife is sanctified by the husband: else were your children unclean; but now are they holy … For what knowest thou, O wife, whether thou shalt save thy husband? or how knowest thou, O man, whether thou shalt save thy wife? –1 Corinthians 7:14-16.",
+      "suggested_fix": "성경 인용은 권위 있는 한국어 성경 번역문(예: 개역개정, 개역한글 등)의 통상적 문장으로 충실하게 옮기십시오. 예: \"믿지 아니하는 남편이 아내로 말미암아 거룩하게 되고 믿지 아니하는 아내가 남편으로 말미암아 거룩하게 되나니 그렇지 아니하면 너희 자녀들은 정결치 못하였으리라. 그러나 이제는 거룩하니라… 아내여 네가 네 남편을 구원할 줄 어떻게 알겠느냐 혹은 남자여 네가 네 아내를 구원할 줄 어떻게 알겠느냐?\" 식으로, 인용구 전체를 일관된 한국어 성경 표현으로 고쳐 주십시오.",
+      "translation_quote": "믿지 않는 남편은 아내로 말미암아 거룩하게 되고, 믿지 않는 아내는 남편으로 말미암아 거룩하게 되나니 그렇지 아니하면 너희 자녀들은 더럽다할 것이로되 이제는 거룩하니라 … 아내여 네가 어떻게 네 남편을 구원할 줄 알겠느냐? 혹은 남자여 네가 어떻게 네 아내를 구원할 줄 알겠느냐? -고린도전서 7:14-16."
+    },
+    {
+      "location": "source.html — paragraph about Eunice/Lois/Timothy (English: \"Eunice was a Jewess...\")",
+      "severity": "major",
+      "source_quote": "Eunice was a Jewess, who, upon embracing faith in Christ, found herself in an unequal yoke with a Greek. We read that unfeigned faith was first wrought in her mother Lois, and that affected Eunice. This, in turn, had a sanctifying effect on young Timothy, who was then prepared for the work of the Lord. We have no record that his father was added to the faith, but one can only imagine the initial turmoil within the breast of this young Jewess as she reverently honored her head and circumcised not her son but rather committed him to prayer.",
+      "suggested_fix": "고유명사와 인물 전개는 원문 의미 그대로 전달되어야 합니다. 'Eunice'의 표기와 텍스트 내 사용은 일관되게 하나의 표기로 수정하십시오(권장 표기: '유니게' 또는 '에우니케' 중 편집 방침에 맞게 하나로 통일). 원문 'did not circumcise her son but committed him to prayer'는 잘못 번역되어 있는데, 영어 원문은 'did not circumcise'가 아니라 'did not neglect circumcision but rather' 같은 의미일 수 있으므로 원문권위와 일치하도록 다시 번역하십시오. (제안) \"유니게는 유대 여성이었는데 그리스도를 믿을 때 헬라인과 불균형한 멍에에 놓이게 되었습니다. 기록에는 거짓 없는 믿음이 먼저 그의 어머니 로이스에게서 역사하였고 그 믿음이 유니게에게 영향을 미쳤으며, 그 결과 어린 디모데에게 거룩하게 하는 영향이 있어 그가 주의 일에 준비되었다고 기록합니다. 그의 아버지가 믿음에 더해졌다는 기록은 없으나, 이 젊은 유대인 여인이 존경을 가지고 남편을 대하며 아들을 할례하지 않았다는 서술은 원문 의도와 일치하는지 확인하고, 필요하면 원문 문맥에 맞게 '아들을 할례하지 않았다'로 번역된 부분을 원문대로 정확히 옮기십시오.)",
+      "translation_quote": "율니게는 유대 여성이었는데 그리스도를 믿을 때 불균형한 멍에를 지는 이와 동거하게 되었습니다. 우리는 참된 믿음이 먼저 그의 어머니 로이스에게서 역사했고 그것이 유니게에게 영향을 주었다고 읽습니다. 이것은 다시 어린 디모데에게 거룩하게 하는 영향을 주어 그가 주의 일에 준비되게 했습니다. 우리는 그의 아버지가 믿음에 더해졌다는 기록은 없으나, 이 어린 유대 여인의 가슴 속에 처음 일어났을 혼란을 상상할 수밖에 없습니다. 그녀는 경외심으로 그 위에 존경을 표하며 아들을 할례하지 아니하고 오히려 그를 기도에 맡겼습니다."
+    },
+    {
+      "location": "source.html — John 17:6-17 blockquote and translation (long blockquote)",
+      "severity": "critical",
+      "source_quote": "I have manifested thy name unto the men which thou gavest me out of the world: thine they were, and thou gavest them me; and they have kept thy word. ... Sanctify them through thy truth: thy word is truth –John 17:6-17.",
+      "suggested_fix": "인용된 요한복음 17:6-17은 권위 있는 한국어 성경 번역(예: 개역개정, 개역한글 등)으로 정확하게 옮겨야 합니다. 현재 번역문 일부 구절이 원문 의미를 왜곡하거나 부정확한 문장(예: '멸망의 아들 곧 율법대로 되리한 사람은 이를 이루게 하려 함이라' 등)을 포함합니다. 전체 인용을 신뢰할 수 있는 한국어 성경 문장으로 교체하십시오. 예(개역개정): \"내가 아버지의 이름을 세상에 속한 자들 가운데서 아버지께서 내게 주신 자들에게 나타내었고 그들은 아버지께 속하였고 아버지께서 내게 주셨나이다... 진리로 그들로 거룩하게 하옵소서 아버지의 말씀은 진리니이다.\"(요 17:6-17) — 편집 지침에 따라 한 번의 일관된 한국어 성경 본문으로 대체해 주십시오.",
+      "translation_quote": "내가 아버지의 이름을 세상에서 아버지께 주신 사람들에게 나타내었노니 그들은 아버지께 속하였고 아버지께서 내게 주셨나이다 또 그들이 아버지의 말씀을 지켰나이다 이제 그들이 내가 받은 바 모든 것이 아버지께로 말미암은 줄 아는도다. 내가 그들에게 아버지께로부터 받은 말을 주었고 그들이 받았고 참으로 내가 아버지께로부터 나왔고 아버지께서 나를 보내셨음을 알았으며 믿었나이다. 내가 그들을 위하여 기도하노니 세상을 위하여 기도하지 아니하고 아버지께서 내게 주신 자들을 위하여 하노니 이는 다 아버지께 속함이라. 내 것도 다 아버지의 것이요 아버지의 것도 다 내 것이니 내 안에서 영화롭게 되셨나이다. 나는 이미 세상에 있지 아니하되 이 사람들은 아직 세상에 있나이다. 내가 아버지께로 가나이다. 거룩하신 아버지여 아버지의 이름으로 아버지께서 내게 주신 자들을 지키사 그들이 우리가 하나인 것 같이 하나가 되게 하소서 내가 세상에 있을 때에 내가 그들을 아버지의 이름으로 지켰나니 아버지께서 내게 주신 자 중에서 하나도 잃지 아니하였고 멸망의 아들 곧 율법대로 되리한 사람은 이를 이루게 하려 함이라 이제 내가 아버지께로 가나이다. 이말을 세상에 있을 때에 내가 말하노니 그들로 내 기쁨을 그들 안에 충만케 하려 함이니이다. 내가 그들에게 아버지의 말씀을 주었나니 세상은 저희를 미워하였나이다 이는 저희가 세상에 속하지 아니함이니 나도 세상에 속하지 아니함이니이다. 내가 저희를 세상에서 제외하여 데려가기를 구하지 아니하오되 악에게서 지키시기를 구하나이다. 저희는 세상에 속하지 아니함이니 나도 세상에 속하지 아니함이니이다. 진리로 저희를 거룩하게 하옵소서 아버지의 말씀은 진리니이다 -요한복음 17:6-17."
+    },
+    {
+      "location": "source.html — Psalm 1:1 blockquote translation",
+      "severity": "major",
+      "source_quote": "Blessed is the man that walketh not in the counsel of the ungodly, nor standeth in the way of sinners, nor sitteth in the seat of the scornful –Psalm 1:1.",
+      "suggested_fix": "현 번역은 원문 의미를 뒤바꾼 표현을 포함합니다(부정 표현이 잘못 결합됨). 성경 인용은 한 권위 있는 한국어 성경 문장으로 대체하십시오. 예(개역개정): \"복 있는 사람은 악인들의 꾀를 따르지 아니하며 죄인들의 길에 서지 아니하며 오만한 자들의 자리에 앉지 아니하고\" 또는 편집 방침에 맞는 표준 번역으로 고쳐 주세요.",
+      "translation_quote": "복이 있을진저 여호와를 경외하지 아니하며 악인의 꾀를 따르지 아니하고 죄인들의 길에 서지 아니하며 조롱하는 자들의 자리에 앉지 아니하는 사람은 -시편 1:1."
+    }
+  ],
+  "finished_at": "2026-10-02T11:25:26+00:00",
   "id": "1cdbf4a78599edb740ae8f80abeccd8a",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "kor",
@@ -123,13 +157,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 62,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/54ee0eee893e8f116003f464d27484aec73d193d6d0149063d036fb9fd416e93.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "70ee1b1d710de512ea89ec934930eb1c2b6800a8dcbc40df2712b76ac2d1b4e0",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

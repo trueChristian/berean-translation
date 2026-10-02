@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "be995a33-28fe-42db-91b5-55441ad77989",
+    "response_id": "chatcmpl-EUVeO5cAbXby0RvddmtAQi8btqlry",
+    "usage": {
+      "completion_tokens": 1576,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5095,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6671
+    }
+  },
+  "received_at": "2026-10-02T11:25:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...In Luke 19 is the parable...<em>He said therefore, A certain nobleman went into a far country... –Luke 19:12-13.</em></p>",
+        "severity": "major",
+        "source_quote": "A certain nobleman went into a far country to receive for himself a kingdom, and to return.",
+        "suggested_fix": "Translate 'a certain nobleman' with a Kiswahili phrase that preserves the original social rank (not 'mfalme'). For example: 'mwana mtu mwenye hadhi' or 'jamaa mwenye hadhi' or use a standard Bible phrasing such as 'mwana wa mtu wa hadhi.' Replace the sentence accordingly so it reads: «Mwanamtu mmoja mwenye hadhi alikwenda nchi mbali kupokea ufalme wake na kurudi.»",
+        "translation_quote": "Akasema hivyo: Mfalme fulani alikwenda nchi mbali kupokea ufalme wake na kurudi."
+      },
+      {
+        "location": "<h2>INSPIRATIONS FOR YOUTH (section/title)</h2>",
+        "severity": "minor",
+        "source_quote": "INSPIRATIONS FOR YOUTH",
+        "suggested_fix": "Use a concise Kiswahili equivalent that preserves the sense 'inspirations for youth.' Suggested replacements: 'MOTISHA KWA VIJANA' or 'MATOLEO YA MSUKUMO KWA VIJANA.' Replace the translated section value 'VICHANGIAJI KWA WATU WENYE UMRI MDOGO' which means 'contributors for young people' rather than 'inspirations for youth.'",
+        "translation_quote": "VICHANGIAJI KWA WATU WENYE UMRI MDOGO"
+      },
+      {
+        "location": "<p>...Jesus said: <em>Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted? it is thenceforth good for nothing... –Matthew 5:13.</em></p>",
+        "severity": "minor",
+        "source_quote": "Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted? it is thenceforth good for nothing, but to be cast out, and to be trodden under foot of men –Matthew 5:13.",
+        "suggested_fix": "Render the quoted Scripture using a clear, conventional Kiswahili Bible phrasing so the meaning is unmistakable. For example: «Ninyi ndio chumvi ya dunia; lakini ikiwa chumvi imepoteza ladha yake, vipi itapata ladha tena? Haifai tena chochote, ila kutupwa nje na kutamilikiwa na watu.» Or use the standard Union/Modern Kiswahili Bible wording if the publication follows a particular Bible translation. Replace the current sentence to match that conventional wording while preserving the verse reference and punctuation.",
+        "translation_quote": "<em>Ninyi ndio chumvi ya dunia; lakini ikiwa chumvi imepoteza utenu, ivitakavyopendwa kutumika tena? Haina maana tena isipokuwa kutupwa nje na kutikaliwa na watu –Mathayo 5:13.</em>"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

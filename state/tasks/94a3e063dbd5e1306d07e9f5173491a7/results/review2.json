@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c7e79b41-f482-448e-9a01-0cf972a22080",
+    "response_id": "chatcmpl-EUVeQdK1SS2PkgWe3VH7Hdafvd5b0",
+    "usage": {
+      "completion_tokens": 837,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3088,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3925
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> paragraph containing Hebrews 7:12",
+        "severity": "minor",
+        "source_quote": "For the priesthood being changed, there is made of necessity a change also of the law –Hebrews 7:12.",
+        "suggested_fix": "Revise to a more natural and grammatical Spanish that preserves the printed meaning, e.g.: \"Porque cambiado el sacerdocio, es necesario que también haya un cambio de la ley – Hebreos 7:12.\" or \"Porque cambiado el sacerdocio, es necesario que haya también un cambio en la ley – Hebreos 7:12.\" Preserve the <em> tags around the verse exactly as in the source HTML.",
+        "translation_quote": "<em>Porque cambiado el sacerdocio, es necesario que haya también cambio de la ley – Hebreos 7:12.</em>"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

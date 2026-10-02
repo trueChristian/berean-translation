@@ -2,7 +2,6 @@
   "article_id": "3be24d0c-4c97-452e-b3c3-177e16d990ff",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,52 +61,51 @@
         },
         "total_tokens": 12703
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1083,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6830,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7913
+      }
     }
   ],
   "findings": [
     {
-      "location": "source.html — opening blockquote (1 Corinthians 7:14-16)",
-      "severity": "critical",
-      "source_quote": "For the unbelieving husband is sanctified by the wife, and the unbelieving wife is sanctified by the husband: else were your children unclean; but now are they holy … For what knowest thou, O wife, whether thou shalt save thy husband? or how knowest thou, O man, whether thou shalt save thy wife? –1 Corinthians 7:14-16.",
-      "suggested_fix": "Translate the quoted Scripture into Hebrew including the book name in conventional Hebrew form and keep the chapter:verse numbers unchanged. Example: «כי האיש שאינו מאמין נקשר על־ידי האשה, והאשה שאינה מאמינה נקשרת על־ידי האיש; ובלבד שאם כן היו ילדיכם טמאים; אך עתה הם קדושים … מי את יודעת, הו אישה, אם תשיעי את בעלך? או מי אתה יודע, הו איש, אם תושיע את אשתך? –א׳ קורינתיים 7:14-16.» (Adjust wording to reflect the article’s chosen English wording.)",
-      "translation_quote": "כי האיש האמונתי מקודש על־ידי האישה, והאישה האמונתי מקודשת על־ידי האיש; אחרת היו ילדיכם טמאים; אך עתה הם קודשים … כי מי אתה יודע, אשה, האם תושיעי את בעלך? או כיצד אתה יודע, איש, האם תושיע את אשתך? –1 Corinthians 7:14-16."
+      "location": "source.section / translation.section",
+      "severity": "minor",
+      "source_quote": "The Godly Home",
+      "suggested_fix": "Use a more literal or conventional Hebrew equivalent for “Godly” (e.g., \"הבית הנוצרי\" or \"הבית החסידי\" or better: \"הבית המְשַׁמֵּשׁ/הבית הקדוש שבּאופי אלוהי\") to match nuance. If the translator prefers a short title, \"הבית הפרֹש\" is not appropriate; recommended: \"הבית החסיד\" or simply retain \"הבית הצדיק\" only if the editor confirms this captures the intended nuance.",
+      "translation_quote": "הבית הצדיק"
     },
     {
-      "location": "source.html — opening blockquote (first clause)",
-      "severity": "critical",
-      "source_quote": "For the unbelieving husband is sanctified by the wife, and the unbelieving wife is sanctified by the husband",
-      "suggested_fix": "Correct the mistranslation that inverts affirmation/negation. The English refers to ‘the unbelieving husband/wife’ (i.e. the spouse who does not believe). The Hebrew currently reads as if they are believers. Use an unambiguous Hebrew rendering of ‘the unbelieving husband’ and ‘the unbelieving wife’ such as: «האיש שאינו מאמין» and «האישה שאינה מאמינה».",
-      "translation_quote": "כי האיש האמונתי מקודש על־ידי האישה, והאישה האמונתי מקודשת על־ידי האיש;"
+      "location": "multiple locations (Proverbs 4:23 and surrounding sentence)",
+      "severity": "minor",
+      "source_quote": "...for out of it are the issues of life –Proverbs 4:23.",
+      "suggested_fix": "The current rendering \"…מפני שממנו יוצאות תמורות החיים\" is awkward and departs from the natural Hebrew idiom. Suggest a clearer translation that preserves the sense: e.g. \"…כי ממנו יוצאות מעינות החיים – משלי ד:כג\" (or keep the reference format used elsewhere: \"–משלי 4:23\"). Ensure consistent reference formatting.",
+      "translation_quote": "…מפני שממנו יוצאות תמורות החיים –משלי 4:23."
     },
     {
-      "location": "source.html — headings 'The Inside Sanctified by Faith and Prayer' and 'The Outside Sanctified by the Word'",
-      "severity": "major",
-      "source_quote": "The Inside Sanctified by Faith and Prayer\n\n... \n\nThe Outside Sanctified by the Word",
-      "suggested_fix": "Translate both section headings into Hebrew, using contemporary idiomatic phrasing consistent with the article tone. Examples: «הפנימי מקודש באמונה ובתפילה» and «החיצוני מקודש בדבר (או במשנת) האל» or «החיצוני מקודש באמצעות דבר האל» (prefer the latter if consistent with the rest of the translation). Preserve heading positions and HTML tags.",
-      "translation_quote": "The Inside Sanctified by Faith and Prayer\n\n...\n\nThe Outside Sanctified by the Word"
-    },
-    {
-      "location": "source.html — all blockquote scripture citations (book names)",
-      "severity": "major",
-      "source_quote": "All inline Scripture references such as: –1 Corinthians 7:14-16., –Matthew 23:25-26., –Proverbs 4:23., –1 Peter 3:1-7., –1 Timothy 4:5., –2 Timothy 3:15-16., –Ephesians 5:25-27., –Psalm 1:1., –John 17:6-17.",
-      "suggested_fix": "Translate the biblical book names to conventional Modern Hebrew forms while leaving chapter and verse numerals unchanged. For example: 1 Corinthians → 'א׳ קורינתיים', Matthew → 'מתי' or 'מתי (בשפת המקובל)', Proverbs → 'משלי', 1 Peter → 'א׳ פטרוס', 1 Timothy → 'א׳ טימותאוס', 2 Timothy → 'ב׳ טימותאוס', Ephesians → 'אפסים' (or 'א׳פכש' per style), Psalm → 'תהילים', John → 'יוחנן'. Ensure each Scripture blockquote ends with the Hebrew book name + exact chapter:verse(s).",
-      "translation_quote": "… –Matthew 23:25-26.\n… –Proverbs 4:23.\n… –1 Peter 3:1-7.\n… –1 Timothy 4:5.\n… –2 Timothy 3:15-16.\n… –Ephesians 5:25-27.\n… –Psalm 1:1.\n… –John 17:6-17."
-    },
-    {
-      "location": "source.html — paragraph about 'Eunice' and 'Lois'",
+      "location": "paragraph about Eunice/Lois (source.html middle)",
       "severity": "minor",
       "source_quote": "Eunice was a Jewess, who, upon embracing faith in Christ, found herself in an unequal yoke with a Greek. We read that unfeigned faith was first wrought in her mother Lois, and that affected Eunice.",
-      "suggested_fix": "Use conventional Hebrew forms or transliterations consistently for personal names and ensure clarity: 'אוניקה (Eunice)' is a transliteration error — the common form is 'יוניקה' or better 'יוניקה/יוניקיה' depending on target usage. Also translate 'Jewess' idiomatically as 'יהודיה'. Example fix: «יוניקה (Eunice) הייתה יהודיה, וכשהתחברה לאמונה במשיח מצאה עצמה בעול שווה־לא־שווה עם יווני. אנו קוראים שהאמונה האמיתית נצרבה תחילה באמה לוייס (Lois), וזה השפיע על יוניקה.» Keep the parenthetical English only if editorial style requires it; otherwise translate names into Hebrew script consistently.",
-      "translation_quote": "אוניקה (Eunice) הייתה יהודיה, אשר עם קבלת אמונה במשיח מצאה עצמה בעול שווה לא־שווה עם יווני."
-    },
-    {
-      "location": "source.html — use of unusual Hebrew words/typographical errors (e.g. 'כלייהם', 'ניצרן', 'להּומָת')",
-      "severity": "minor",
-      "source_quote": "They spent many a rigorous hour paying heed to countless miniscule details to make their vessels holy. … However quick-sighted they are in other things; Christ calls them blind. … these must first be recognized, mortified, and subdued.",
-      "suggested_fix": "Correct mistranslations/typos and unnatural word choices. Examples: 'vessels' should be 'כליהם' or 'כלי־הם' not 'כלייהם'; 'However quick-sighted' should be translated as 'כמה שחדים/חדי־ראייה הם בעניינים אחרים' not 'ניצרן'; 'mortified' in theological sense should be 'להמית' (לְהָמִית) or 'להדכּא' — use 'להכריע'/'להדכּוֹת' depending on register. Review the Hebrew for typos introduced (e.g., 'להּומָת' is incorrect) and replace with standard modern Hebrew verbs and spelling to match tone. Fix each instance in place, preserving HTML structure.",
-      "translation_quote": "הפרושים הבינו את העיקרון היטב. הם הקדישו שעות רבות וקפדניות ... \nכמה שניצרן בחדות בעניינים אחרים; המשיח כינה אותם עיוורים.\n... אלה חייבים ראשית להיחשף, להּומָת ולהיות מושלמות."
+      "suggested_fix": "The Hebrew phrase \"אין לנו תיעוד שאביו הוסיף לאמונה\" later is slightly ambiguous/awkward (\"הוסיף לאמונה\" can read as 'added' rather than 'joined the faith'). Use a clearer Hebrew verb: \"הצטרף לאמונה\" or \"התווסף לאמונה\" (better: \"הצטרף לאמונה\"). Also in this paragraph the name Lois appears as \"לוויס (Lois)\" — consider using a single natural Hebrew transliteration without the parenthetical English (e.g., \"לוויס\") for consistency with the rest of the article.",
+      "translation_quote": "יוניקה (Eunice) הייתה יהודיה... האמנה האמיתית נעשתה תחילה באמה לוויס (Lois) ... אין לנו תיעוד שאביו הוסיף לאמונה"
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "8886d4ad9e0852bed3d03c843643b3a3",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "heb",
@@ -151,13 +149,13 @@
     }
   },
   "protected": false,
-  "quality_score": 40,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/54ee0eee893e8f116003f464d27484aec73d193d6d0149063d036fb9fd416e93.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "70ee1b1d710de512ea89ec934930eb1c2b6800a8dcbc40df2712b76ac2d1b4e0",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

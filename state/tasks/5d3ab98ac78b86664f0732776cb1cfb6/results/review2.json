@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "dac0b86d-b526-4385-bc1f-6ba6985e32ae",
+    "response_id": "chatcmpl-EUVeVb0MPvHJvmsrhRz1ZwC1LqBiw",
+    "usage": {
+      "completion_tokens": 852,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4327,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1792
+      },
+      "total_tokens": 5179
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph (near end of article)",
+        "severity": "major",
+        "source_quote": "Knowing that God is the Master of the wind is still a comfort and an assurance to her.",
+        "suggested_fix": "Translate the phrase so it preserves the authoritative English meaning and conventional theological tone in Bengali. For example: “জানতে পেরে যে ঈশ্বরই বাতাসের কর্তা, তা এখনো তার কাছে সান্ত্বনা ও নিশ্চয়তা।” Keep the rest of the sentence as translated.",
+        "translation_quote": "“জানতে পেরে যে ঈশ্বরই বাতাসের স্বামী—এটি এখনও তার কাছে সান্ত্বনা ও নিশ্চয়তা হয়ে আছে।”"
+      },
+      {
+        "location": "Metadata: title and section",
+        "severity": "minor",
+        "source_quote": "Children’s Corner",
+        "suggested_fix": "Use the standard Bengali term for this section. For example: “শিশুদের কোণ” is acceptable (the translation already uses this). No change required if you accept it; if you prefer a more formal phrase, consider “শিশুদের কর্ণার” only if audience prefers transliteration.",
+        "translation_quote": "“শিশুদের কোণ”"
+      },
+      {
+        "location": "Multiple paragraphs (throughout)",
+        "severity": "minor",
+        "source_quote": "church",
+        "suggested_fix": "Use the conventional Bengali word for Christian worship gathering. Replace instances of “চার্চ” with “গির্জা” to match target-language conventions for religious terminology.",
+        "translation_quote": "“চার্চ” (appears in paragraph about preparing food for the company invited after church)"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

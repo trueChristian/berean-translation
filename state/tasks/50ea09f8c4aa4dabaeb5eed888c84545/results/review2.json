@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e7e2029f-9295-49ea-b32d-948b95f6fb57",
+    "response_id": "chatcmpl-EUVeT5cCAt06wmrUhrVDRio7ERllz",
+    "usage": {
+      "completion_tokens": 1225,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8907,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10132
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 1 (first <p>) — sentence ending with “داخل ہوں۔ اُن کی ولادت…”",
+        "severity": "minor",
+        "source_quote": "His birth would be unnoticed in a society that was not only in desperate need of, but also expecting, a Savior to arrive.",
+        "suggested_fix": "Replace or smooth the phrase “داخل ہوں۔ اُن کی ولادت اُس معاشرے میں بے نوٹس رہ گئی” to more idiomatic Urdu, e.g. “انہیں ایک ایسے معاشرے میں پیدا ہونے کا کوئی احساس نہ ہوا جو نہ صرف نجات دہندہ کا شدید محتاج تھا بلکہ اس کی آمد کی توقع بھی کر رہا تھا۔” (preserve HTML tags and surrounding text).",
+        "translation_quote": "خدا کی طرف سے تقریبا چار سو سال کی نسبتاً ساکت مدت نے اس کی وجہ سے وہ جسمانی، انسانی بدن میں دنیا میں داخل ہوں۔ اُن کی ولادت اُس معاشرے میں بے نوٹس رہ گئی جو نہ صرف نجات دہندہ کا شدید محتاج تھا بلکہ آنے والے نجات دہندہ کی توقع بھی رکھتا تھا۔"
+      },
+      {
+        "location": "Paragraph beginning “ذرا حالیہ زمانے کے اندر...” (Munster/Muenster section)",
+        "severity": "minor",
+        "source_quote": "In a matter more recently related to us as Anabaptists, the tale of the infamous Muensterites gives us a further example...",
+        "suggested_fix": "Standardize transliteration of Muenster/Muensterites. The translation uses both “میونیسٹرائٹس” and “میونسٹر” (for the city). Use a single consistent form (e.g. “میونسٹرائٹس” for the group and “میونسٹر” for the city) throughout to avoid reader confusion. Make the same change wherever the variant appears. Preserve tags and order.",
+        "translation_quote": "ذرا حالیہ زمانے کے اندر، جو ہمیں انا بپٹسٹ سمجھ کے حوالے سے بتایا جاتا ہے، غناغت والے میونیسٹرائٹس کی بدنام کہا نی ہمیں نبوت کی غلط تعبیر کے خطرات کا ایک اور ثبوت دیتی ہے، خاص طور پر مسیح کی دوسری آئندہ واپسی کے بارے میں نبوت کی۔"
+      },
+      {
+        "location": "Paragraph about Constantine attending bishops' meetings",
+        "severity": "minor",
+        "source_quote": "Constantine sat in on meetings of the bishops, even though at the time he was not baptized nor was he even seeking baptism.",
+        "suggested_fix": "The translation’s Urdu is accurate but slightly wordy/awkward: “کونسٹنٹائن نے بشپوں کی ملاقاتوں میں بیٹھنا شروع کر دیا، حالاں کہ اُس وقت وہ نہ غسلِ تعمید لیتا تھا نہ اُس نے غسلِ تعمید کی خواہش ظاہر کی تھی۔” Consider simplifying to “کونسٹنٹائن نے پہلی بار بھیسپس کی ملاقاتوں میں شرکت کی، حالانکہ وہ اس وقت ذبحِ تعمید (غسلِ تعمید) سے ابھی تک گزر چکا نہ تھا اور نہ ہی اس کی خواہش رکھتے تھے۔” (keep theological meaning intact).",
+        "translation_quote": "کونسٹنٹائن نے بشپوں کی ملاقاتوں میں بیٹھنا شروع کر دیا، حالاں کہ اُس وقت وہ نہ غسلِ تعمید لیتا تھا نہ اُس نے غسلِ تعمید کی خواہش ظاہر کی تھی۔"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0b69447d-526a-4985-9d57-96bc8d7d4d16",
+    "response_id": "chatcmpl-EUVeLoRtTFa20t4RHd2uWAdwxU3Rn",
+    "usage": {
+      "completion_tokens": 872,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6550,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7422
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<blockquote>…1 Peter 3:1-7</blockquote> paragraph",
+        "severity": "minor",
+        "source_quote": "While they behold your chaste conversation coupled with fear.",
+        "suggested_fix": "Translate \"coupled with fear\" to a phrasing that more closely reflects the English sense (reverent/with godly fear). Example: \"enquanto contemplam a vossa vida casta, acompanhada de temor reverente.\" Preserve surrounding HTML tags and structure.",
+        "translation_quote": "\"Enquanto estão vendo a vossa vida casta e respeitosa.\""
+      },
+      {
+        "location": "metadata: section",
+        "severity": "minor",
+        "source_quote": "The Godly Home",
+        "suggested_fix": "Section translated as \"O Lar Piedoso\" is acceptable, but to ensure more internationally idiomatic Portuguese you may consider \"O Lar Piedoso\" or \"O Lar Devoto\" depending on the publisher's preferred register. No HTML change required unless the publisher chooses an alternate wording.",
+        "translation_quote": "\"O Lar Piedoso\""
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

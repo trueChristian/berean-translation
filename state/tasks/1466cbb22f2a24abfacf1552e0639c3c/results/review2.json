@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "dbfbc870-43d9-454f-9c2e-07ae6a98fefd",
+    "response_id": "chatcmpl-EUVe9kdKnaudglMHxmVhwI1yHeeNX",
+    "usage": {
+      "completion_tokens": 1366,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8618,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9984
+    }
+  },
+  "received_at": "2026-10-02T11:25:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph quoting Genesis 12:13 (near \"Abraham said to Sarah, ...\")",
+        "severity": "critical",
+        "source_quote": "Abraham said to Sarah, Say, I pray thee, thou art my sister: that it may be well with me for thy sake; and my soul shall live because of thee –Genesis 12:13.",
+        "suggested_fix": "Translate the verse so it conveys the original sense in natural Bahasa Indonesia. For example: \"Abraham berkata kepada Sara, ‘Karena itu, katakanlah, “Engkaulah saudariku,” supaya aku mendapat kebaikan oleh karena engkau; dan jiwaku akan hidup oleh karena engkau’ – Kejadian 12:13.\" Preserve the verse number and placement exactly as in the source HTML.",
+        "translation_quote": "<em>Berbudaya katakanlah engkau saudaraku: supaya aku beroleh kebaikan karena engkau; dan hidupku akan tetap ada oleh karena engkau – Kejadian 12:13.</em>"
+      },
+      {
+        "location": "Paragraph quoting 1 Peter 3:6 (near Sarah's obedience)",
+        "severity": "critical",
+        "source_quote": "...Sara obeyed Abraham, calling him lord: whose daughters ye are, as long as ye do well, and are not afraid with any amazement –1 Peter 3:6.",
+        "suggested_fix": "Render the verse in clear, faithful Bahasa Indonesia. For example: \"…Sara taat kepada Abraham, dengan memanggil dia tuan. Demikianlah juga kamu, hai anak-anaknya, selama kamu berbuat baik dan tidak takut terhadap apa pun yang menakutkan – 1 Petrus 3:6.\" Keep the verse reference unchanged and in the same place in the paragraph.",
+        "translation_quote": "<em>…Sara taat kepada Abraham, menyapanya: Hai tuan; terhadap anak-anakmu engkaulah anak-anaknya, selama kamu berbuat baik dan tidak takut akan sesuatu yang mengejutkan – 1 Petrus 3:6.</em>"
+      },
+      {
+        "location": "Final paragraph of article (last sentence)",
+        "severity": "minor",
+        "source_quote": "Your peaceful, joyful countenance of a soul that’s at rest in Jesus is an influence that is rivaled by little else in this world.",
+        "suggested_fix": "Improve idiomatic clarity while preserving meaning. Suggested wording: \"Wajahmu yang damai dan penuh sukacita — tanda jiwa yang beristirahat dalam Yesus — adalah pengaruh yang sedikit yang dapat menandinginya di dunia ini.\" This keeps the theological claim and tone but corrects the awkward Indonesian.",
+        "translation_quote": "Wajahmu yang damai dan penuh sukacita dari jiwa yang beristirahat dalam Yesus adalah pengaruh yang sedikit yang dapat menandinginya di dunia ini."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

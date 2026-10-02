@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "543f2470-974c-4bc2-8d65-cc23a2701f5d",
+    "response_id": "chatcmpl-EUVe1vaA5uDmrCktsShaCO2Fu1r1R",
+    "usage": {
+      "completion_tokens": 1460,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8011,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9471
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First blockquote (1 Corinthians 7:14-16) and other Scripture quotations throughout the article",
+        "severity": "minor",
+        "source_quote": "For the unbelieving husband is sanctified by the wife, and the unbelieving wife is sanctified by the husband: else were your children unclean; but now are they holy … For what knowest thou, O wife, whether thou shalt save thy husband? or how knowest thou, O man, whether thou shalt save thy wife? –1 Corinthians 7:14-16.",
+        "suggested_fix": "Translate the quoted Scripture into contemporary Modern Greek register (use modern, natural phrasing) while preserving the chapter and verse numbers and the placement of the quotation within the same HTML blockquote. For example, replace archaic words/forms (οίδεις → ξέρεις, γύναι → γυναίκα where appropriate in natural modern Greek) so the quotations read naturally to contemporary Greek speakers. Keep the quote inside the same <blockquote> and <p><em>…</em></p> tags and leave the reference “–1 Corinthians 7:14-16.” unchanged.",
+        "translation_quote": "Διότι ο άπιστος σύζυγος είναι αγιασμένος από τη γυναίκα, και η άπιστη σύζυγος αγιάζεται από τον άνδρα· αλλιώς τα παιδιά σας θα ήσαν ακάθαρτα· τώρα όμως είναι άγια … Τι οίδεις, γύναι, εάν σώσεις τον άνδρα σου; ή τι οίδεις, άνδρα, εάν σώσεις τη γυναίκα σου; –1 Κορινθίους 7:14-16."
+      },
+      {
+        "location": "Scripture quotations (e.g. Matthew 23:25-26, Proverbs 4:23, John 17:6-17, Ephesians 5:25-27, 1 Timothy 4:5, 2 Timothy 3:15-16, Psalm 1:1, 1 Peter 3:1-7)",
+        "severity": "minor",
+        "source_quote": "Woe unto you, scribes and Pharisees, hypocrites! for ye make clean the outside of the cup and of the platter, but within they are full of extortion and excess. Thou blind Pharisee, cleanse first that which is within the cup and platter, that the outside of them may be clean also –Matthew 23:25-26.",
+        "suggested_fix": "Modernize the register of all Scripture quotations to contemporary Modern Greek while preserving meaning and all chapter/verse identifiers and HTML structure. Avoid Koine/archaic inflections (e.g., replace «Ουαί σε σας» with «Ουαί σε σας» could be retained as a literary device, but prefer clearer modern phrasing such as «Ουαί σε σας, γραμματείς και Φαρισαίοι, υποκριτές!» only if it reads naturally; however prefer modern verbs and pronouns where possible). Do this consistently in every <blockquote> that contains Scripture. Leave the tags and reference markers unchanged.",
+        "translation_quote": "Ουαί σε σας, γραμματείες και Φαρισαίοι υποκριταί! διότι καθαρίζετε το εξωτερικό του ποτηρίου και του δίσκου, ενώ μέσα αυτά είναι γεμάτα εκμετάλλευση και υπερβολή. Ω τυφλέ Φαρισαίε, καθάρισον πρώτον το εντός του ποτηρίου και του δίσκου, ώστε να καθαρισθεί και το έξω αυτών –Ματθαίος 23:25-26."
+      },
+      {
+        "location": "Narrative and exposition (throughout the body)",
+        "severity": "minor",
+        "source_quote": "What a foolish thing it would be for a man to wash only the outside of a cup, which is to be looked at, and to leave the inside dirty, which is to be used.",
+        "suggested_fix": "Adjust occasional archaisms and formal lexical choices in the narrative translation to contemporary Modern Greek phrasing for better readability (examples: «τι ανόητο» is acceptable, but elsewhere avoid forms like «είναι άγαρ», «ουδένα», «εδοξάσθην», «δια του λόγου»). Make these wording updates while preserving the author’s theological meaning and keeping the original HTML tags and structure intact. No structural changes to paragraphs or quoted Scripture placement.",
+        "translation_quote": "Τι ανόητο θα ήταν για έναν άνδρα να πλένει μόνο το εξωτερικό ενός ποτηριού, που φαίνεται, και να αφήνει το εσωτερικό βρώμικο, που χρησιμοποιείται."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

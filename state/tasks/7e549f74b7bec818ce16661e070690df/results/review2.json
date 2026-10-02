@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1d877d40-3866-447f-8e6f-98d3f351acdd",
+    "response_id": "chatcmpl-EUVe6R3yQgWPsKDRYmleN4Y8ArLoO",
+    "usage": {
+      "completion_tokens": 970,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4022,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4992
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 1 (opening line)",
+        "severity": "minor",
+        "source_quote": "“My, it’s warm!” exclaimed Mom.",
+        "suggested_fix": "Translate the exclamation in a more natural contemporary Afrikaans idiom. For example replace ““Ag, dis warm!” roep Ma uit.” with ““Ai, dis warm!” roep Ma.” or simply ““Ai, dis warm!” sê Ma.” — keep the existing paragraph tags and punctuation.",
+        "translation_quote": "“Ag, dis warm!” roep Ma uit."
+      },
+      {
+        "location": "Paragraph 5 (command to children)",
+        "severity": "minor",
+        "source_quote": "“Quickly, children!” called Mom. “Put away your toys; it’s about to storm!”",
+        "suggested_fix": "The translation ““Klaar vinnig, kinders!” het Ma geroep.” is awkward in Afrikaans. Use a more idiomatic command such as ““Vinnig, kinders!” het Ma geroep.” and keep the remainder: “Berg julle speelgoed weg; dit gaan storm!” Maintain the paragraph's HTML structure.",
+        "translation_quote": "“Klaar vinnig, kinders!” het Ma geroep. “Berg julle speelgoed weg; dit gaan storm!”"
+      },
+      {
+        "location": "Penultimate paragraph (closing reflection)",
+        "severity": "minor",
+        "source_quote": "Most of all, as she has learned to trust God in every area of her life, she has found Him to always be faithful. Learning to replace fear with trust always brings peace to the heart.",
+        "suggested_fix": "The phrase “Mees van alles” is an uncommon literalism in Afrikaans. Replace with a more natural rendering such as “Boonop,” or “Meer as enigiets,” e.g. “Meer as enigiets, soos sy geleer het om God in elke area van haar lewe te vertrou, het sy Hom altyd getrou gevind.” Keep paragraph tags unchanged.",
+        "translation_quote": "Mees van alles, soos sy geleer het om God in elke area van haar lewe te vertrou, het sy Hom altyd getrou gevind."
+      },
+      {
+        "location": "Paragraph about post-storm conditions",
+        "severity": "minor",
+        "source_quote": "After the storm had passed the humidity and heat had returned making the night hot and muggy.",
+        "suggested_fix": "The translation uses the loanword “humiditeit” while earlier the piece used “vogtig.” For consistency and more idiomatic Afrikaans, render as “Toe die storm verby was, het die vog en hitte teruggekeer, en die nag het weer warm en drukkend geword.” Preserve the paragraph HTML.",
+        "translation_quote": "Nadat die storm verby was, het die humiditeit en hitte teruggekeer en die nag warm en drukkend gemaak."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

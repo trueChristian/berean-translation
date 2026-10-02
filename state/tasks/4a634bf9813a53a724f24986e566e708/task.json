@@ -2,7 +2,6 @@
   "article_id": "b9a7b1b8-0a23-4e53-b835-31bf5a42dc33",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,38 +61,44 @@
         },
         "total_tokens": 14630
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 974,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8700,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9674
+      }
     }
   ],
   "findings": [
     {
-      "location": "Paragraph 1 (John quotation)",
-      "severity": "major",
-      "source_quote": "If I will that he [John] tarry till I come, what is that to thee? follow thou me. John 21:22.",
-      "suggested_fix": "Translate the quoted Scripture accurately into Kiswahili preserving the meaning of 'follow thou me'. For example: «Ikiwa nitamtaka yeye [Yohana] abaki hadi nitakaporudi, hilo linekugushe vipi? Mfuate mimi. Yohana 21:22.» Ensure the verb clearly means 'follow' (e.g., 'Mfuate mimi' or 'Mfuate mimi wewe').",
-      "translation_quote": "<em>Ikiwa nitahitaji yeye [Yohana] abaki hadi nitakaporudi, nini hilo lako? Umanike mimi. Yohana 21:22.</em>"
-    },
-    {
-      "location": "Paragraph 1 (phrase referring to those who call Jesus 'Lord')",
-      "severity": "major",
-      "source_quote": "by those who called Him Lord.",
-      "suggested_fix": "Use a standard Kiswahili rendering for 'Lord' here that preserves the theological sense (e.g., 'Bwana' or 'Mwana Bwana' depending on style). Replace 'Mwana-Koti' with 'Bwana' or 'Mwenye Bwana' as appropriate to the publication's usage. Example: 'na wale waliomwita Bwana.'",
-      "translation_quote": "na wale waliomwita Mwana-Koti."
-    },
-    {
-      "location": "Near end, Luke quotation (verb choice)",
+      "location": "source.section -> translation.section",
       "severity": "minor",
-      "source_quote": "...The days will come, when ye shall desire to see one of the days of the Son of man, and ye shall not see it. And they shall say to you, See here; or, see there: go not after them, nor follow them –Luke 17: 22-23.",
-      "suggested_fix": "Use a more idiomatic Kiswahili verb for 'desire' (e.g., 'mtatamani' or 'mtaumwa kutamani') and check punctuation/capitalization. Suggested rendering: «…Zitakuja siku mtakatamani kuona moja ya siku za Mwana wa Adamu, wala hamtaiona. Wataleta kwenu, ‘Tazama hapa’; au, ‘tazama pale’: msimfuate, wala msimwendee. — Luka 17:22-23.»",
-      "translation_quote": "<em>…Zitakuja siku, mtakazorota kuona moja ya siku za Mwana wa Adamu, wala hamtaiona. Wataleta kwenu, Tazama hapa; au, tazama pale: msimfuatie, wala msimfuate –Luka 17:22-23.</em>"
+      "source_quote": "CHURCH HISTORY",
+      "suggested_fix": "Use the target-language equivalent that matches register and capitalization of the source. Recommended: \"HISTORIA YA KANISA\" (all caps to match source) or sentence-style capitalization \"Historia ya Kanisa\" if the site uses sentence-style headings consistently.",
+      "translation_quote": "HISTORIA YA KANISA"
     },
     {
-      "location": "Paragraph beginning 'K katika mifano hii yote ...' (unexpected character)",
+      "location": "source.html paragraph: \"...where God had ordained one high priest to serve the people throughout his life.\" -> translation paragraph: \"...ambako Mungu aliamuru kuhani mkuu mmoja aihudumie judea kwa maisha yake yote.\"",
       "severity": "minor",
-      "source_quote": "In all three of these examples, the prophecy contained in God’s Word was twisted into results that strayed far from the will of God for His children.",
-      "suggested_fix": "Remove stray character 'K' at start of paragraph and confirm first word begins the Kiswahili translation of the English sentence. For example: begin the paragraph with 'Katika mifano hii yote mitatu,...'",
-      "translation_quote": "<p>K katika mifano hii yote mitatu, unabii ulio katika Neno la Mungu uligeuzwa hadi matokeo yaliyorudia mbali na mapenzi ya Mungu kwa watoto Wake.</p>"
+      "source_quote": "where God had ordained one high priest to serve the people throughout his life.",
+      "suggested_fix": "Correct small lexical/spacing issue to improve clarity in Kiswahili. Recommended: replace \"aihudumie judea kwa maisha yake yote\" with \"amhudumie watu kwa maisha yake yote\" or \"amhudumie watu wa Israeli kwa maisha yake yote\" to preserve the original meaning and proper noun rendering.",
+      "translation_quote": "aihudumie judea kwa maisha yake yote"
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "4a634bf9813a53a724f24986e566e708",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "swa",
@@ -137,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1b89de23229eb76f45635f4ff8dcdc61cf2a0af8d7f5b597cc9c5c560ef20e62.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d586dd43ac554896b8fef04467efcb67fca005c8dae5313bc95967b13d0bd0fc",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

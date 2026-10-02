@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4232a721-6930-4ea9-b91b-f7eb9c062a10",
+    "response_id": "chatcmpl-EUVeayXHH4ERYJcrROrQLARWbUEsf",
+    "usage": {
+      "completion_tokens": 1563,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4997,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6560
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing Hebrews 12:1-2 (near end)",
+        "severity": "minor",
+        "source_quote": "Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight, and the sin which doth so easily beset us, and let us run with patience the race that is set before us, Looking unto Jesus the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God –Hebrews 12:1-2.",
+        "suggested_fix": "Render the Swedish in fluent, idiomatic grammar while preserving the meaning and verse reference. For example: \"Eftersom vi nu är omgivna av en så stor skara vittnen, låt oss lägga bort allt som tynger oss och synden som så lätt fångar oss, och med uthållighet springa löpningen som ligger framför oss, medan vi fäster blicken på Jesus, trons upphovsman och fullkomnare... –Hebreerbrevet 12:1-2.\" (Preserve the verse reference and the quoted-verse structure exactly as in source HTML.)",
+        "translation_quote": "<em>Vi se då omkring oss på en så stor skara vittnen, låt oss lägga bort allt som tynger och synden som så lätt slår an, och låt oss springa uthålligt i kampen som ligger framför oss, med blicken fäst vid Jesus, trons upphovsman och fullkomnare, som för den glädje som låg framför honom uthärdade korset, och satte skam åt det, och tog plats på Guds trons högra sida –Hebreerbrevet 12:1-2.</em>"
+      },
+      {
+        "location": "Paragraph beginning “Personligt ansvar” (sentence quoting parable)",
+        "severity": "minor",
+        "source_quote": "He said therefore, A certain nobleman went into a far country to receive for himself a kingdom, and to return. And he called his ten servants, and delivered them ten pounds, and said unto them, Occupy till I come –Luke 19:12-13.",
+        "suggested_fix": "The Swedish wording of the quoted line is mostly correct but the verb choice for \"Occupy till I come\" can be made clearer/less ambiguous. Suggest: \"…och sade till dem: Förvalt (eller 'bruka') intill dess jag kommer – Lukas 19:12–13.\" Keep the verse reference format exactly as in source HTML.",
+        "translation_quote": "<em>Han sade därför: En viss furste for bort till främmande land för att taga till sig ett rike och sedan återkomma. Och när han kallade sina tio tjänare gav han dem tio penningar och sade till dem: Förvärva intill dess jag kommer –Lukas 19:12-13.</em>"
+      },
+      {
+        "location": "Paragraph under “Personligt ansvar” (sentence about \"occupy till the Lord returns\")",
+        "severity": "minor",
+        "source_quote": "Like the servants in the parable, we have each been given resources that we need to “occupy till the Lord returns”.",
+        "suggested_fix": "The Swedish rendition is understandable but slightly awkward: \"tjäna med intill dess Herren kommer\". Suggest a clearer phrasing that preserves the original sense, e.g. \"har vi var och en fått resurser som vi behöver bruka/intill dess Herren kommer\" or \"som vi måste använda tills Herren kommer.\"",
+        "translation_quote": "<p>Det är lätt att ha inställningen att om vi inte offrar vår tid i någon frivillig kapacitet på en missionsinriktad plats, så finns det inte mycket mer att göra för himmelriket. Är det verkligen verkligheten? Liksom tjänarna i liknelsen har var och en av oss fått resurser som vi måste “tjäna med intill dess Herren kommer”.</p>"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "31c54d55-04b4-49b7-8d6f-2375b9ff8b53",
+    "response_id": "chatcmpl-EUVe1PHjxNCgt47NVzPCkIR52KTcn",
+    "usage": {
+      "completion_tokens": 1095,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7969,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9064
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 2 (second paragraph of article HTML)",
+        "severity": "minor",
+        "source_quote": "At first it shocks us; later it becomes the new normal.",
+        "suggested_fix": "Replace the Hindi phrase that reads awkwardly with a natural rendering that preserves the meaning. For example: \"पहले यह हमें चौंका देता है; बाद में यह नया सामान्य बन जाता है।\" Preserve the surrounding <p>…</p> tags.",
+        "translation_quote": "पहले यह हमें झेला देता है; बाद में यह नया सामान्य बन जाता है।"
+      },
+      {
+        "location": "John 13:35 paragraph",
+        "severity": "minor",
+        "source_quote": "By this shall all men know that ye are my disciples, if ye have love one to another –John 13:35.",
+        "suggested_fix": "Use a more natural Hindi verb form for the injunction. For example: \"इससे सब लोग जान लेंगे कि तुम मेरे शिष्य हो, यदि तुम एक दूसरे से प्रेम रखते हो — यूहन्ना 13:35.\" Preserve the <p><em>…</em></p> tag structure.",
+        "translation_quote": "<em>इस से सब लोग जान लेंगे कि तुम मेरे शिष्य हो, यदि तुम एक दूसरे से प्रेम रखना — यूहन्ना 13:35.</em>"
+      },
+      {
+        "location": "Ephesians 4:11-13 paragraph",
+        "severity": "minor",
+        "source_quote": "For the perfecting of the saints, for the work of the ministry, for the edifying of the body of Christ: Till we all come in the unity of the faith, and of the knowledge of the Son of God, unto a perfect man, unto the measure of the stature of the fulness of Christ: – Ephesians 4:11-13.",
+        "suggested_fix": "Improve fluency by using a more idiomatic Hindi rendering for 'for the perfecting of the saints' (\"धर्मियों की परिपक्वता के लिये\") and 'edifying' (\"मसीह के शरीर का उत्थान करने के लिये\"). Keep the existing emphasis and the <em>…</em> tags. Example replacement within the same <p><em>…</em></p>: \"शुद्ध लोगों की परिपक्वता के लिये, सेवाकार्य के लिये, मसीह के शरीर के उत्थान के लिये: ... — इफिसियों 4:11-13.\"",
+        "translation_quote": "<em>और उसने कुछ को, प्रेरित; कुछ को, भविष्यवक्ता; कुछ को, सुसमाचारक; और कुछ को, चरवाहे और शिक्षक दिये; शुद्द लोगों को सिद्ध करने के लिये, सेवकाई के काम के लिये, मसीह के शरीर को उस्‍ताद करने के लिये: जब तक हम सब विश्वास की एकता में और परमेश्वर के पुत्र के ज्ञान में एक परिपूर्ण मनुष्य तक, मसीह की पूर्णता के माप तक न पहुँचें: — इफिसियों 4:11-13.</em>"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

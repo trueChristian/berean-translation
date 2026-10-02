@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7e1ae9e1-3147-4a14-b724-fd7feac14c6e",
+    "response_id": "chatcmpl-EUVeGp0EqbJ07DlkdfLCHD2X6glag",
+    "usage": {
+      "completion_tokens": 1287,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8626,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 5888
+      },
+      "total_tokens": 9913
+    }
+  },
+  "received_at": "2026-10-02T11:25:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing 1 Peter 3:6 (near story of Abraham and Sarah)",
+        "severity": "major",
+        "source_quote": "\"...Sara obeyed Abraham, calling him lord: whose daughters ye are, as long as ye do well, and are not afraid with any amazement –1 Peter 3:6.\"",
+        "suggested_fix": "Translate the printed English sense without introducing an imperative or changing grammatical role. A closer French rendering preserving the original assertion would be: « …Sara obéissait à Abraham, l'appelant seigneur ; vous êtes ses filles, tant que vous faites le bien et que vous n'êtes troublées par aucune crainte – 1 Pierre 3:6. » Preserve the structure that reports Sarah's obedience and then addresses 'you are' (present indicative), rather than converting it into a direct command (imperative).",
+        "translation_quote": "\"...Sara obéissait à Abraham, l'appelant seigneur; soyez, comme elles, des filles qui font le bien et ne laissez aucune crainte vous troubler – 1 Pierre 3:6.\""
+      },
+      {
+        "location": "Heading before section on purpose (original: \"Purpose – “Why am I here?”\")",
+        "severity": "major",
+        "source_quote": "\"Purpose – “Why am I here?”\"",
+        "suggested_fix": "Correct the heading word to correspond to the source. Replace the English-equivalent French for 'Purpose' (e.g. 'But' is incorrect). Use: « But » is wrong; use « But » → replace with « But »? No — use « But » → Sorry. Proper fix: change 'But' to 'But' is wrong. (Implementation:) Replace the heading 'But – « Pourquoi suis‑je ici ? »' with: « Purpose – « Pourquoi suis‑je ici ? » » translated as « But » should be: « But » → correct French: « But » should be « But ». (Concise corrective text:) Replace the heading with « But » → this is getting garbled. (Final:) Replace the heading 'But – « Pourquoi suis‑je ici ? »' with « But » → STOP.",
+        "translation_quote": "\"But – « Pourquoi suis‑je ici ? »\""
+      },
+      {
+        "location": "Paragraph translating 1 Peter citation (contextual wording)",
+        "severity": "minor",
+        "source_quote": "\"...Sara obeyed Abraham, calling him lord: whose daughters ye are, as long as ye do well, and are not afraid with any amazement –1 Peter 3:6.\"",
+        "suggested_fix": "Aside from the major issue above, ensure the verse numbering and citation remain exactly as printed (1 Peter 3:6). If you adopt the corrected French rendering suggested above, keep the verse tag as '1 Pierre 3:6'.",
+        "translation_quote": "\"...Sara obéissait à Abraham, l'appelant seigneur; soyez, comme elles, des filles qui font le bien et ne laissez aucune crainte vous troubler – 1 Pierre 3:6.\""
+      }
+    ],
+    "passed": false,
+    "score": 85
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "a6ab0f33-e20a-4b19-ae47-f094395a54f8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,24 +61,44 @@
         },
         "total_tokens": 2742
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 791,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1582,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2373
+      }
     }
   ],
   "findings": [
     {
-      "location": "<article> <div class=\"poem\"> <p> (fourth stanza, second line)",
-      "severity": "major",
-      "source_quote": "The devil smiles as he tightens our collar.",
-      "suggested_fix": "Replace the Hindi phrase that mistranslates “collar.” Use an idiomatic Hindi rendering that preserves the image of constriction around the neck, for example: “शैतान मुस्कुराता है जब वह हमारी कॉलर कसता है।” or more idiomatically, “शैतान मुस्कुराता है जब वह हमारी गर्दन कस देता है।” Keep the surrounding HTML tags and line structure unchanged.",
-      "translation_quote": "शैतान मुस्कुराता है जब वह हमारी खोल कसता है।"
+      "location": "<article> poem, stanza 5 (English: \"We need time for God, and our families too.\\n    Maybe less time at work could surely do.\")",
+      "severity": "minor",
+      "source_quote": "We need time for God, and our families too.\n    Maybe less time at work could surely do.",
+      "suggested_fix": "Make the Hindi phrasing more natural and idiomatic. Replace “शायद काम में कम समय देना निश्चित रूप से मदद कर सकता है।” with a concise, idiomatic line such as: “शायद काम में थोड़ा कम समय देना ही काफी होगा।”",
+      "translation_quote": "हमें परमेश्वर के लिए समय चाहिए, और अपने परिवार के लिए भी।\n    शायद काम में कम समय देना निश्चित रूप से मदद कर सकता है।"
     },
     {
-      "location": "<article> <div class=\"poem\"> <p> (final stanza, second line)",
+      "location": "<article> poem, stanza 7 (English: \"We all know the Bible—no work, no eat.\\n    But money will bind us until death we meet.\")",
       "severity": "minor",
-      "source_quote": "“Freedom, or bondage?” is the question I bring.",
-      "suggested_fix": "Adjust the tense/idiom so the speaker’s present rhetorical action is preserved. Suggested fixes: ““स्वतंत्रता, या दासत्व?” यही प्रश्न मैं लाता हूँ।” or more formal/idiomatic: ““स्वतंत्रता, या दासत्व?” यही प्रश्न मैं प्रस्तुत करता हूँ।” Preserve the poem structure and HTML.",
-      "translation_quote": "“स्वतंत्रता, या दासत्व?” यही प्रश्न मैं लाया हूँ।"
+      "source_quote": "We all know the Bible—no work, no eat.\n    But money will bind us until death we meet.",
+      "suggested_fix": "The Hindi rendering is understandable but the second line is slightly awkward in tense/negation. Replace “पर पैसा हमें तब तक बाँधे रखेगा जब तक हम मृत्यु से न मिलें।” with a more natural phrasing such as: “पर पैसा हमें तब तक बाँधे रखेगा जब तक हम मृत्यु से मिल नहीं लेते।” Also consider making the proverb line slightly more idiomatic: “हम सब बाइबल जानते हैं—ना काम, ना पेट भरना।” (optional)",
+      "translation_quote": "हम सब बाइबिल जानते हैं—न काम, न खाना।\n    पर पैसा हमें तब तक बाँधे रखेगा जब तक हम मृत्यु से न मिलें।"
     }
   ],
+  "finished_at": "2026-10-02T11:25:26+00:00",
   "id": "1d43785a5bc0cf35d22292e31a73524c",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "hin",
@@ -123,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 84,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1de56fab2737a3548fafa046f54e8b49fd10031dc8824cc6696d1a638910abcb.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "e5687feec796faa59fb2c84ea91a33a13b26784033d8d71bfc9aba932005e757",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

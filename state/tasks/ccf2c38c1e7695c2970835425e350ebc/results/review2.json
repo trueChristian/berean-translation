@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "512e0de0-800b-48b1-a34c-29149f920c0e",
+    "response_id": "chatcmpl-EUVe78q6PR9nLsAqnQLfpbQM9kSV2",
+    "usage": {
+      "completion_tokens": 914,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7318,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8232
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...Koopt een paar van die \"coole\" merk-schoenen en een cowboyhoed.</p>",
+        "severity": "minor",
+        "source_quote": "Buy a pair of the “cool” name brand shoes, and a cowboy hat.",
+        "suggested_fix": "Preserve the original sentence mood/tense in Dutch and make it idiomatic: change \"Koopt een paar van die \\\"coole\\\" merk-schoenen en een cowboyhoed.\" to \"Koop een paar van die \\\"coole\\\" merk-schoenen en een cowboyhoed.\" or, to keep the narrative/listing tone, use \"Ze kopen een paar...\" depending on the sentence rhythm elsewhere. No HTML structure change.",
+        "translation_quote": "Koopt een paar van die \"coole\" merk-schoenen en een cowboyhoed."
+      },
+      {
+        "location": "<p>...met een klein hoofdbedekkinkje dat schamel op de achterkant van haar hoofd hangt?</p>",
+        "severity": "minor",
+        "source_quote": "a little covering hanging skimpily on the back of her head",
+        "suggested_fix": "Fix a small spelling/typography error: replace \"hoofdbedekkinkje\" with \"hoofdbedekkinkje\" is still wrong; correct Dutch would be \"hoofdbedekkinkje\" is nonstandard. Better: \"klein hoofdbedekkinkje\" → \"klein hoofddeksel\" or \"klein hoofdbedekkinkje\" → preferably \"een klein doekje\" or \"een klein hoofdbedeksel\". Suggested minimal fix: change to \"een klein hoofdbedeksel dat schamel op de achterkant van haar hoofd hangt.\" Preserve HTML.",
+        "translation_quote": "met een klein hoofdbedekkinkje dat schamel op de achterkant van haar hoofd hangt?"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "02db24ae-5132-49c6-a6fd-da73417871e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,66 +61,29 @@
         },
         "total_tokens": 10235
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 154,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 128,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5356,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5510
+      }
     }
   ],
-  "findings": [
-    {
-      "location": "source.html — opening epigraph (Ephesians 1:17-18)",
-      "severity": "critical",
-      "source_quote": "That the God of our Lord Jesus Christ, the Father of glory, may give unto you the spirit of wisdom and revelation in the knowledge of him: The eyes of your understanding being enlightened; that ye may know what is the hope of his calling… –Ephesians 1:17-18.",
-      "suggested_fix": "Translate the verse faithfully into Bengali, preserving the meaning of \"the spirit of wisdom and revelation in the knowledge of him\" and \"the eyes of your understanding being enlightened\". Do not introduce foreign script words or alter theological sense. For example (as a faithful rendering you may use):\n\n<em>মহিমার পিতা, আমাদের প্রভু যিশু খ্রিস্টের ঈশ্বর তাকে দাও, তিনি তোমাদেরকে তাঁর আমি-জানার মধ্যে প্রজ্ঞা ও প্রকাশনার আত্মা দান করুন; তোমাদের বোধের চোখ আলোকিত হোক; যেন তোমরা তাঁর ডাকে থাকা আশাটি জানো… –এফিসীয় ১:১৭-১৮।</em>\n\nPreserve the HTML tags and placement exactly as in source.html.",
-      "translation_quote": "<em>যা আমাদের প্রভু যিশু খ্রিস্টের ঈশ্বর, মহিমার পিতা, তিনি তোমাদেরকে জ্ঞানের মধ্যে তাঁর কর্তৃত্ব ও প্রবচনবোধের আত্মা দান করুন; তোমাদের বোধের চোখ روشن হোক; <strong>যাতে তোমরা জানো তাঁর ডাকে থাকা আশাটি কী…</strong> –এফিসীয় ১:১৭-১৮।</em>"
-    },
-    {
-      "location": "source.html — paragraph 3 (word \"pursue\")",
-      "severity": "major",
-      "source_quote": "What is purpose? Do you have purpose? Everyone has things they pursue, whether it is preparing themselves for a certain sport, pursuing a career, or devoting time to a certain hobby.",
-      "suggested_fix": "Remove the non-Bengali characters and translate the clause \"things they pursue\" with idiomatic Bengali. For example: \"প্রত্যেকেরই কিছু লক্ষ্য থাকে যা তাঁরা অনুসরণ করে—হোক তা কোনো ক্রীড়ার জন্য নিজেকে প্রস্তুত করা, কোনো পেশার অন্বেষণ, বা কোনো শখে সময় নিবেদন করা।\" Preserve HTML tags and paragraph breaks.",
-      "translation_quote": "তুমি কি কি অনুসরণ করছ, এবং কি তোমার কাছে কোনো নির্দিষ্ট লক্ষ্য আছে? প্রত্যেকেরই কিছু追求 থাকে — হয় সেটা কোনো ক্রীড়ার জন্য নিজেকে প্রস্তুত করা, কোনো পেশার पीछায় থাকা, বা কোনো শখে সময় নিবেদন করা।"
-    },
-    {
-      "location": "source.html — Luke 19 parable paragraph",
-      "severity": "major",
-      "source_quote": "He said therefore, A certain nobleman went into a far country to receive for himself a kingdom, and to return. And he called his ten servants, and delivered them ten pounds, and said unto them, Occupy till I come –Luke 19:12-13.",
-      "suggested_fix": "The translation inserts unnatural and incorrect terms (e.g. \"নিজ ইংরেজি রাজ্য\") and mixes phrasing. Provide a clear, faithful Bengali rendering of the quoted Scripture text, preserving chapter and verse. For example: \n\n<em>তিনি বললেন, তাই: এক মহামান্য ব্যক্তি দূর দেশে গিয়ে নিজের জন্য একটি রাজ্য গ্রহণ করতে ও ফিরে আসতে গেলেন; তিনি তাঁর দশ জন দাসকে ডেকে তাদেরকে দশ মণ দিলেন এবং বললেন, 'আমার আসা পর্যন্ত ব্যবসা করো' –লূক ১৯:১২-১৩।</em>\n\nKeep HTML structure consistent.",
-      "translation_quote": "<em>তাই তিনি বললেন, এক ব্যক্তি—এক মহামান্য ব্যক্তি—দূর দেশে গিয়ে নিজ ইংরেজি রাজ্য গ্রহণ করিতে, এবং ফিরিবার উদ্দেশ্যে রইলেন। তিনি তাঁর দশ গৃহকর্মীককে ডাকিলেন, এবং তাদেরকে দশ মানক দিলেন, এবং বলিলেন তাদের আমার আসা পর্যন্ত ব্যবসা করো –লূক ১৯:১২-১৩।</em>"
-    },
-    {
-      "location": "source.html — insertion of untranslated English fragment and untranslated word in parentheses",
-      "severity": "major",
-      "source_quote": "...Occupy till I come –Luke 19:12-13.",
-      "suggested_fix": "Remove the left-in-English phrase and any English explanatory note inside parentheses. All substantive prose from the source must be translated into Bengali. If an explanatory parenthesis is necessary, translate it into Bengali. Example: replace \"—প্রভু ফিরে আসা পর্যন্ত—we must occupy.\" with a fully Bengali rendering or omit the English clause.",
-      "translation_quote": "...প্রভু ফিরে আসা পর্যন্ত—we must occupy."
-    },
-    {
-      "location": "source.section",
-      "severity": "minor",
-      "source_quote": "INSPIRATIONS FOR YOUTH",
-      "suggested_fix": "Translate the section heading into natural Bengali instead of a transliteration. Suggested: \"যুবদের জন্য অনুপ্রেরণা\" or \"যুবপ্রেরণা\" according to site style. Preserve casing and placement in metadata.",
-      "translation_quote": "ইনস্পিরেশনস ফর ইয়ুথ"
-    },
-    {
-      "location": "source.title",
-      "severity": "minor",
-      "source_quote": "The Hope of Your Calling",
-      "suggested_fix": "Title translation is acceptable but consider a more idiomatic Bengali phrasing such as \"তোমার ডাকার আশা\" is acceptable; no mandatory change required. Ensure capitalization style matches site conventions.",
-      "translation_quote": "তোমার ডাকার আশা"
-    },
-    {
-      "location": "source.html — Matthew 5:13 quotation",
-      "severity": "minor",
-      "source_quote": "Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted? it is thenceforth good for nothing, but to be cast out, and to be trodden under foot of men –Matthew 5:13.",
-      "suggested_fix": "The scripture is translated acceptably but the Bengali could be smoothed for idiom and accuracy (e.g. use \"লবণ\" consistently and render the final clause \"মানুষের পদদেশে পিষে ফেলা হয়\" more naturally). Keep the quoted Scripture fully in Bengali and preserve verse reference.",
-      "translation_quote": "<em>তোমরা পৃথিবীর লবন; কিন্তু যদি লবন তার স্বাদ খুইয়ে ফেলে, তাহলে তাকে আর কী দ্বারা স্বাদ দেবে? তার থেকে আর কোনো কাজে যোগ্য থাকে না, কিন্তু ছেড়ে দেয়া এবং মানুষের কাছে পা-তলায় পিষে ফেলা হয় –মথি ৫:১৩।</em>"
-    },
-    {
-      "location": "source.html — Hebrews 12:1-2 quotation",
-      "severity": "major",
-      "source_quote": "Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight, and the sin which doth so easily beset us, and let us run with patience the race that is set before us, Looking unto Jesus the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God –Hebrews 12:1-2.",
-      "suggested_fix": "The quoted Scripture contains awkward and inaccurate Bengali wording that obscures meaning (e.g. \"অতএব আমরা অনেক ভোরের সাক্ষীরা ঘিরা আছে দেখিয়া...\"). Re-translate the quoted passage faithfully into clear Bengali. Example: \n\n<em>অতএব, যেহেতু আমাদের চারপাশে এমন এক বিশাল সাক্ষীদের মেঘ ঘিরে আছে, তাই আমরা প্রতিটি ভার ত্যাগ করে এবং খুব সহজেই ঘিরে থাকা পাপকে ত্যাগ করে ধৈর্য ধারণের সঙ্গে আমাদের সামনে রাখা দৌড়টা দৌড়াই, আমাদের বিশ্বাসের রচয়িতা ও সম্পূর্ণকারীর দিকে চেয়ে; যিনি সামনে রাখা আনন্দের কারণেই ক্রুশ সহ্য করে লজ্জাকে তুচ্ছ গণ্য করলেন এবং ঈশ্বরের সিংহাসনের ডানদিকে অধিষ্ঠিত হলেন –ইব্রু ১২:১-২।</em>\n\nPreserve HTML tags.",
-      "translation_quote": "<em>অতএব আমরা অনেক ভোরের সাক্ষীরা ঘিরা আছে দেখিয়া, প্রতিটি ভার ত্যাগ করি, এবং সহজে আমাদেরকে পরিবেষ্টিত করে এমন পাপকে, ধৈর্য সহকারে সেই দৌড় শুরু করি যা আমাদের সামনে রাখা হয়েছে, আমাদের বিশ্বাসের নির্মাতা ও সমাপ্তির দিকে দেখিয়া; যে তাকে সামনে রাখা আনন্দের জন্য ক্রুশ সহ্য করিয়া লজ্জাকে তুচ্ছ গেল, এবং ঈশ্বরের সিংহাসনের ডানদিকে অধিষ্ঠিত আছে –ইব্রু ১২:১-২।</em>"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "a2fa9ba33ff600c3527ed4684484ef7e",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "ben",
@@ -165,13 +127,13 @@
     }
   },
   "protected": false,
-  "quality_score": 35,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d4096c8e219a9ff87d56f7ba5b34e9e5d1258bfb4281edd00108b01120b10b28.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "e60beaba9e12466f123cfd1ae7a96811ce97cb1cb87bf5ed6c8de7f6afdd6660",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "60973d4d-a19a-47f5-8936-f9d183d7cbc7",
+    "response_id": "chatcmpl-EUVfQg1gIiuYBR9wAtYmFmxiFNtXZ",
+    "usage": {
+      "completion_tokens": 1935,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8742,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10677
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.section",
+        "severity": "major",
+        "source_quote": "Christian Discipleship",
+        "suggested_fix": "Use an accurate, idiomatic Hebrew rendering of the section metadata. Suggested: \"חניכת תלמידים\" or \"דיסציפלשיפ\" (if the publication uses a transliteration). Keep the same placement and HTML structure.",
+        "translation_quote": "נצרות ומיקוד תלמידות"
+      },
+      {
+        "location": "source.html (multiple Scripture book names)",
+        "severity": "major",
+        "source_quote": "2 Timothy; Ephesians; 1 Timothy; Genesis; 1 Peter; Hebrews; Luke; Matthew; Hebrews (13:6) etc.",
+        "suggested_fix": "Use conventional Modern Hebrew names for the biblical books consistently. Examples: 2 Timothy = \"טימוטאוס ב'\" (or \"אל טימוטאוס השנייה\" depending on house style); Ephesians = \"אל אנשי אפסוס\" or the common \"אל האפסיים\" (choose the publication's conventional form) rather than \"אפסיים\"; 1 Timothy = \"טימוטאוס א'\"; Genesis = \"בראשית\" (already correct where used); 1 Peter = \"פטרוס א'\"; Hebrews = \"איגרת אל העברים\" or commonly shortened \"אל העברים\" (use one consistent form); Luke = \"לוקס\" is unconventional — prefer \"לוקס\" only if consistent with house style, otherwise \"לוקס\" or \"לוקס\" should match chosen convention; Matthew = \"מתי\" is acceptable but ensure consistency. Update each in-place Scripture citation to the chosen conventional form and keep the original chapter:verse numbering unchanged.",
+        "translation_quote": "טימותאוס ב'; אפסיים; טימותאוס א'; בראשית; פטרוס א'; איגרת אל העברים; לוקס; מתיאו; איגרת אל העברים 13:6"
+      },
+      {
+        "location": "source.html (translation of author/locale metadata in byline area)",
+        "severity": "minor",
+        "source_quote": "by Donald Brechbill\nChambersburg, PA",
+        "suggested_fix": "The translator preserved the attribution in source_context.byline separately; if the author/location appears inside source.html it must be preserved verbatim in the same structure. If the site renders byline separately, no change is required. If you choose to translate this line inside the article html, render the name unchanged and translate the place name as needed (e.g. \"Chambersburg, PA\" → \"צ'מברסבורג, פנסילבניה\").",
+        "translation_quote": ""
+      },
+      {
+        "location": "source.html (several transliteration/orthography choices for proper names and phrases)",
+        "severity": "minor",
+        "source_quote": "Lois; Eunice; \"the harlot Rahab\"; \"scarlet thread\"; \"Anabaptist\"; \"the savior of the body\" (Ephesians 5)",
+        "suggested_fix": "Standardize transliteration and target-language idioms for proper names and fixed phrases. Examples: Lois = \"לוֹיִס\" or \"לויס\"; Eunice = \"יוניקי\" or \"יוניקה\" (pick one consistent form used by the publication); \"scarlet thread\" → \"חוט ארגמן\" (already used — keep consistent); \"Anabaptist\" → use the Hebrew convention the publication prefers (e.g. \"אנבפטיסטים/אנאבפטיסטי/אנאבפטיזם\"). Keep the original theological assertions intact while normalizing spelling.",
+        "translation_quote": "לוֹאיס; יוניקה; רחב; חוט ארגמן; אנאבפטיסטיות; \"המושיע של הגוף\""
+      },
+      {
+        "location": "source.html (inconsistent rendering of some quoted Scripture translation phrasing)",
+        "severity": "minor",
+        "source_quote": "\"For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind\" (2 Timothy 1:7) and other quoted verses",
+        "suggested_fix": "Ensure quoted Scripture passages are translated into fluent Modern Hebrew using a single consistent convention for rendering quotations of Scripture in the article (e.g. choose one Hebrew Bible phrasing and apply it consistently). Do not substitute a different Bible version; instead render the printed authoritative English into idiomatic Hebrew that faithfully conveys the same wording and clause structure. Keep chapter and verse numbers unchanged.",
+        "translation_quote": "(Scripture quotations are present in Hebrew but show a mix of idiomatic forms and inconsistent book-name forms across the article.)"
+      }
+    ],
+    "passed": false,
+    "score": 86
+  }
+}

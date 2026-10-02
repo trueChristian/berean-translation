@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "2a5bad64-4417-4f9b-bcd6-3b8d0f29154e",
+    "response_id": "chatcmpl-EUVeOMWcGUoaAAm9wIrQGjNT5sA1W",
+    "usage": {
+      "completion_tokens": 1330,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4932,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6262
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 2 (opening paragraphs) — sentence: \"...Означает ли практическая жизнь христианина лишь быть членом церкви и каждый день иметь личные духовные часы?\"",
+        "severity": "minor",
+        "source_quote": "Does practically living out our Christian life just mean being a member of our church and having personal devotions every day?",
+        "suggested_fix": "Use a more idiomatic Russian phrase for \"personal devotions\" to match common church usage. For example: \"...означает ли практическая христианская жизнь лишь быть членом церкви и ежедневно иметь личное время молитвы и чтения Библии?\" Preserve original HTML structure and tags.",
+        "translation_quote": "...состоит ли наша христианская жизнь только в этом? Означает ли практическая жизнь христианина лишь быть членом церкви и каждый день иметь личные духовные часы?"
+      },
+      {
+        "location": "Several places (throughout article) — inconsistent second‑person address: shifts between 'ты' and 'вы'",
+        "severity": "minor",
+        "source_quote": "What is purpose? Do you have purpose? ... What are the things you are pursuing... Do you spend time praying and seeking God’s will for your life?",
+        "suggested_fix": "Choose and use a consistent second‑person form throughout the translation (either 'ты' for informal/young audience or 'вы' for formal/plural). For a youth section 'ты' may be appropriate; revise lines that use 'вы' to 'ты' (or vice versa) for consistency. Examples to change: \"Есть ли у тебя предназначение?\" is 'ты' while earlier and later passages use 'вам/вы' — harmonize them. Preserve HTML structure.",
+        "translation_quote": "Что такое предназначение? Есть ли у тебя предназначение?... Тратишь ли ты время на молитву и в поисках воли Божьей для своей жизни? ... Начните с просьбы к Богу помочь вам увидеть области..."
+      }
+    ],
+    "passed": true,
+    "score": 95
+  }
+}

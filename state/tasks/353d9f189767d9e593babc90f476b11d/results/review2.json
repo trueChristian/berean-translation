@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5ae08b50-e078-4b2e-8ce7-a0a862804b09",
+    "response_id": "chatcmpl-EUVeZXowmFTe1PpSmLTFAnvF7GB8h",
+    "usage": {
+      "completion_tokens": 1150,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1514,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2664
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first stanza, line 2",
+        "severity": "minor",
+        "source_quote": "Freedom, or bondage—which will it be?\n    Or are they the same; can someone see?",
+        "suggested_fix": "Bevara meningsnyansen men använd idiomatisk svenska. Till exempel: \"Frihet eller träldom — vilket blir det?\\nEller är de samma; kan någon se det?\". I översättningen: ändra \"— vad blir det?\" till \"— vilket blir det?\" och lägg till \"det\" i den andra raden.",
+        "translation_quote": "Frihet eller träldom—vad blir det?\n    Eller är de samma — kan någon se det?"
+      },
+      {
+        "location": "source.html — stanza 3",
+        "severity": "minor",
+        "source_quote": "The bills pile up for comforts and ease;",
+        "suggested_fix": "\"Ease\" bör återges som 'lätthet' eller 'bekymmerslöshet' snarare än 'frid' för att behålla avsedd betydelse. Förslag: \"Räkningarna hopar sig för bekvämlighet och lättja;\". Bevara HTML-strukturen.",
+        "translation_quote": "Räkningarna växer för bekvämlighet och frid;"
+      },
+      {
+        "location": "source.html — stanza 4",
+        "severity": "minor",
+        "source_quote": "We spend all our days chasing the dollar.",
+        "suggested_fix": "\"Chasing the dollar\" betyder att förfölja pengar; \"slösar våra dagar\" förändrar tonen till att handla om slöseri. Föreslå: \"Vi tillbringar alla våra dagar i jakten på dollar.\"",
+        "translation_quote": "Vi slösar våra dagar i jakten på dollar."
+      },
+      {
+        "location": "source.html — stanza 6",
+        "severity": "minor",
+        "source_quote": "Do we have time for that still small voice?",
+        "suggested_fix": "Gör översättningen idiomatisk: rekommendera \"Den lilla, stilla rösten\" (kommatecken och ordföljd). Exempel: \"Har vi tid för den lilla, stilla rösten?\"",
+        "translation_quote": "Har vi tid för den lilla stilla rösten?"
+      },
+      {
+        "location": "source.html — stanza 7",
+        "severity": "minor",
+        "source_quote": "We all know the Bible—no work, no eat.\n    But money will bind us until death we meet.",
+        "suggested_fix": "Följ svenska idiom för 'no work, no eat' och 'until death we meet'. Förslag: \"Vi känner alla bibelordet — ingen arbetar, ingen äter.\\nMen pengar binder oss tills vi möter döden.\" Eller \"tills döden skiljer oss åt.\" Behåll bindestreck/mellanslag i samma struktur som originalet.",
+        "translation_quote": "Vi känner alla Bibeln—ingen arbetar — ingen äter.\n    Men pengar binder oss tills döden är satt."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

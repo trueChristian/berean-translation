@@ -2,7 +2,6 @@
   "article_id": "b9a7b1b8-0a23-4e53-b835-31bf5a42dc33",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,38 +61,51 @@
         },
         "total_tokens": 14982
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1225,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8907,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10132
+      }
     }
   ],
   "findings": [
     {
-      "location": "source.html — paragraph containing John 21:22 (first paragraph)",
-      "severity": "critical",
-      "source_quote": "If I will that he [John] tarry till I come, what is that to thee? follow thou me. John 21:22.",
-      "suggested_fix": "Translate the quoted Scripture into Urdu and render the book name and verse number in conventional Urdu form. Example replacement (preserve the surrounding <em> tags and punctuation): <em>اگر میں چاہوں کہ وہ میرے آنے تک ٹھہر جائے تو تم سے کیا تعلق؟ تو میرے پیچھے چلے جانا۔ — یوحنا 21:22.</em>",
-      "translation_quote": "<em>If I will that he [John] tarry till I come, what is that to thee? follow thou me. John 21:22.</em>"
+      "location": "Paragraph 1 (first <p>) — sentence ending with “داخل ہوں۔ اُن کی ولادت…”",
+      "severity": "minor",
+      "source_quote": "His birth would be unnoticed in a society that was not only in desperate need of, but also expecting, a Savior to arrive.",
+      "suggested_fix": "Replace or smooth the phrase “داخل ہوں۔ اُن کی ولادت اُس معاشرے میں بے نوٹس رہ گئی” to more idiomatic Urdu, e.g. “انہیں ایک ایسے معاشرے میں پیدا ہونے کا کوئی احساس نہ ہوا جو نہ صرف نجات دہندہ کا شدید محتاج تھا بلکہ اس کی آمد کی توقع بھی کر رہا تھا۔” (preserve HTML tags and surrounding text).",
+      "translation_quote": "خدا کی طرف سے تقریبا چار سو سال کی نسبتاً ساکت مدت نے اس کی وجہ سے وہ جسمانی، انسانی بدن میں دنیا میں داخل ہوں۔ اُن کی ولادت اُس معاشرے میں بے نوٹس رہ گئی جو نہ صرف نجات دہندہ کا شدید محتاج تھا بلکہ آنے والے نجات دہندہ کی توقع بھی رکھتا تھا۔"
     },
     {
-      "location": "source.html — final paragraph containing Luke 17:22-23",
-      "severity": "critical",
-      "source_quote": "…The days will come, when ye shall desire to see one of the days of the Son of man, and ye shall not see it. And they shall say to you, See here; or, see there: go not after them, nor follow them –Luke 17: 22-23.",
-      "suggested_fix": "Translate the quoted Scripture into Urdu and render the book name and verse range in conventional Urdu form. Preserve emphasis tags. Example replacement: <em>…آنے والے دن ہوں گے جب تم انسان کے بیٹے کے ایک دن کو دیکھنے کی تمنا کرو گے اور تم اسے نہیں دیکھوگے۔ اور وہ تم سے کہیں گے، یہاں دیکھو؛ یا وہاں دیکھو: ان کے پیچھے نہ جاؤ، نہ ہی ان کی پیروی کرو۔ — لوقا 17:22-23.</em>",
-      "translation_quote": "<em>…The days will come, when ye shall desire to see one of the days of the Son of man, and ye shall not see it. And they shall say to you, See here; or, see there: go not after them, nor follow them –Luke 17: 22-23.</em>"
+      "location": "Paragraph beginning “ذرا حالیہ زمانے کے اندر...” (Munster/Muenster section)",
+      "severity": "minor",
+      "source_quote": "In a matter more recently related to us as Anabaptists, the tale of the infamous Muensterites gives us a further example...",
+      "suggested_fix": "Standardize transliteration of Muenster/Muensterites. The translation uses both “میونیسٹرائٹس” and “میونسٹر” (for the city). Use a single consistent form (e.g. “میونسٹرائٹس” for the group and “میونسٹر” for the city) throughout to avoid reader confusion. Make the same change wherever the variant appears. Preserve tags and order.",
+      "translation_quote": "ذرا حالیہ زمانے کے اندر، جو ہمیں انا بپٹسٹ سمجھ کے حوالے سے بتایا جاتا ہے، غناغت والے میونیسٹرائٹس کی بدنام کہا نی ہمیں نبوت کی غلط تعبیر کے خطرات کا ایک اور ثبوت دیتی ہے، خاص طور پر مسیح کی دوسری آئندہ واپسی کے بارے میں نبوت کی۔"
     },
     {
-      "location": "source.html — final paragraph containing Matthew 24:14 (same paragraph as Luke quote)",
-      "severity": "critical",
-      "source_quote": "and then shall the end come –Matthew 24:14.",
-      "suggested_fix": "Translate the quoted Scripture phrase into Urdu and render the book name and verse in conventional Urdu form. Preserve ellipsis/spacing and emphasis tags. Example replacement (continuing the sentence): <em>…اور پھر انجام آئے گا۔ — متی 24:14.</em>",
-      "translation_quote": "<em>and then shall the end come –Matthew 24:14.</em>"
-    },
-    {
-      "location": "source.html — paragraph discussing Roman rule and century reference (paragraph starting “This was not the last time an oppressed people would be deceived… The year was 306”)",
-      "severity": "major",
-      "source_quote": "This time, the teachings of Jesus and the words of His disciples would be misinterpreted to fit the changing political and religious landscape of fourth century Rome. The year was 306, and Diocletian...",
-      "suggested_fix": "Correct the century reference in the translation. The English specifies 'fourth century' and the year 306 (which is in the fourth century). In the Urdu translation this was rendered as 'تیسری صدی میں' which is incorrect. Replace with 'چوتھی صدی میں' (or otherwise align the century wording with 'چوتھی صدی' and retain the year 306).",
-      "translation_quote": "\"اس آخری مثال نہیں تھی جب کوئی مظلوم قوم دھوکہ کھائے گی، کیونکہ رومی حکومت تیسری صدی میں خدا کے لوگوں کی اجتماعی تعبیرات میں ایک اور بڑی غلط فہمی کا مشاہدہ کرے گی۔ اس بار عیسیٰ کی تعلیمات... سن 306 تھی, ...\""
+      "location": "Paragraph about Constantine attending bishops' meetings",
+      "severity": "minor",
+      "source_quote": "Constantine sat in on meetings of the bishops, even though at the time he was not baptized nor was he even seeking baptism.",
+      "suggested_fix": "The translation’s Urdu is accurate but slightly wordy/awkward: “کونسٹنٹائن نے بشپوں کی ملاقاتوں میں بیٹھنا شروع کر دیا، حالاں کہ اُس وقت وہ نہ غسلِ تعمید لیتا تھا نہ اُس نے غسلِ تعمید کی خواہش ظاہر کی تھی۔” Consider simplifying to “کونسٹنٹائن نے پہلی بار بھیسپس کی ملاقاتوں میں شرکت کی، حالانکہ وہ اس وقت ذبحِ تعمید (غسلِ تعمید) سے ابھی تک گزر چکا نہ تھا اور نہ ہی اس کی خواہش رکھتے تھے۔” (keep theological meaning intact).",
+      "translation_quote": "کونسٹنٹائن نے بشپوں کی ملاقاتوں میں بیٹھنا شروع کر دیا، حالاں کہ اُس وقت وہ نہ غسلِ تعمید لیتا تھا نہ اُس نے غسلِ تعمید کی خواہش ظاہر کی تھی۔"
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "50ea09f8c4aa4dabaeb5eed888c84545",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "urd",
@@ -137,13 +149,13 @@
     }
   },
   "protected": false,
-  "quality_score": 65,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1b89de23229eb76f45635f4ff8dcdc61cf2a0af8d7f5b597cc9c5c560ef20e62.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d586dd43ac554896b8fef04467efcb67fca005c8dae5313bc95967b13d0bd0fc",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6f495c7c-15b7-409c-886a-ace351990894",
+    "response_id": "chatcmpl-EUVeK7QkXuPEY2eAvpQGm3modnoTm",
+    "usage": {
+      "completion_tokens": 1431,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5993,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7424
+    }
+  },
+  "received_at": "2026-10-02T11:25:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html <p class=\"lead\"> (sentence: “Many were arrested, imprisoned, tortured mercilessly and finally, many were martyred for not recanting their faith.”)",
+        "severity": "minor",
+        "source_quote": "Many were arrested, imprisoned, tortured mercilessly and finally, many were martyred for not recanting their faith.",
+        "suggested_fix": "Preserve the explicitly religious tone of “martyred” (which carries theological meaning of dying for the faith). Translate with a German word or phrase that retains that nuance, e.g. »schließlich viele als Märtyrer getötet/hingerichtet, weil sie ihren Glauben nicht widerriefen.«",
+        "translation_quote": "Viele wurden verhaftet, inhaftiert, ohne Erbarmen gefoltert und schließlich hingerichtet, weil sie ihren Glauben nicht widerrufen wollten."
+      },
+      {
+        "location": "source.html second paragraph (reference to Palatinate/Pfaltzland)",
+        "severity": "minor",
+        "source_quote": "In some places, like the Palatinate (Pfaltzland) in Germany, as many as 70% of the inhabitants had died of either war or disease.",
+        "suggested_fix": "Source uses the form “Pfaltzland” in parentheses. In German the common historical term is “Pfalz” or “Pfalzland”; if you choose to retain the source’s parenthetical spelling, mirror it or else consistently use the contemporary German conventional form. Suggested wording: »… wie in der Pfalz (Pfaltzland) …« or simply »… wie in der Pfalz …«",
+        "translation_quote": "An manchen Orten, wie in der Pfalz in Deutschland, waren bis zu 70 % der Einwohner entweder durch Krieg oder Krankheit gestorben."
+      },
+      {
+        "location": "source.html paragraph about land patent (\"They received a land patent for 10,000 acres\")",
+        "severity": "minor",
+        "source_quote": "They received a land patent for 10,000 acres for their families and others that might come later.",
+        "suggested_fix": "Consider localizing the unit name or making it typographically consistent: translate 'acres' to German lower-case (»acres«) or add a parenthetical conversion. Example: »Sie erhielten ein Landpatent über 10.000 Acres (ca. 4.047 ha) …«",
+        "translation_quote": "Sie erhielten ein Landpatent über 10.000 Acres für ihre Familien und andere, die später kommen könnten."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

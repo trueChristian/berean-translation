@@ -1,0 +1,78 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "abc58d8f-9afc-497e-9de8-a035d278f160",
+    "response_id": "chatcmpl-EUVdwHggzJ2Tsx4Stp7YWOUd5TwaS",
+    "usage": {
+      "completion_tokens": 2859,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1152,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3367,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6226
+    }
+  },
+  "received_at": "2026-10-02T11:25:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>… Church History article focuses on Bible prophecy pertaining to the end times",
+        "severity": "minor",
+        "source_quote": "The Church History article focuses on Bible prophecy pertaining to the end times",
+        "suggested_fix": "Replace with a more natural and accurate Hebrew rendering of “Bible prophecy,” e.g. \"מאמר היסטוריית הכנסייה מתמקד בנבואות תנ\"כיות הנוגעות לימים האחרונים.\" Preserve HTML tags and surrounding text.",
+        "translation_quote": "מאמר היסטוריית הכנסייה מתמקד בנבואת ספרי הקודש הנוגעת לימים האחרונים"
+      },
+      {
+        "location": "<p>… teaches multiple marriage seminars each year",
+        "severity": "minor",
+        "source_quote": "who together with his wife teaches multiple marriage seminars each year",
+        "suggested_fix": "Use the standard Hebrew word \"סמינרים\" instead of the uncommon/awkward \"סמינריונים\": e.g. \"שלצדו אשתו מעביר מספר סמינרים בנושא נישואין מדי שנה.\"",
+        "translation_quote": "שלצדו אשתו מעביר כמה סמינריונים בנושא נישואין מדי שנה"
+      },
+      {
+        "location": "<p>… instilling God’s Word in the hearts of the next generation.",
+        "severity": "minor",
+        "source_quote": "instilling God’s Word in the hearts of the next generation.",
+        "suggested_fix": "Correct the Hebrew typo/grammar \"בלבבי\" to a natural phrasing such as \"בהשרשת דבר האל בלבם של הדור הבא\" or \"השרשת דבר ה׳ בלבבות הדור הבא.\" Preserve punctuation and HTML.",
+        "translation_quote": "השרשת דבר ה׳ בלבבי הדור הבא."
+      },
+      {
+        "location": "<p>…seemingly miles of wires and electronic this and electronic that.",
+        "severity": "minor",
+        "source_quote": "seemingly miles of wires and electronic this and electronic that.",
+        "suggested_fix": "Render the idiom naturally in Hebrew, e.g. \"כְּאִלּוּ קילומטרים של חוטים\" or \"כמלא קילומטרים של חוטים\" rather than the current awkward phrasing. Keep surrounding sentence structure and tags.",
+        "translation_quote": "ונראים כמעין \"קילומטרים\" של חוטים ואלקטרוניקה זו וזו."
+      },
+      {
+        "location": "<p>Hebrews 7:12 quote",
+        "severity": "major",
+        "source_quote": "For the priesthood being changed, there is made of necessity a change also of the law –Hebrews 7:12.",
+        "suggested_fix": "The Hebrew rendering should be accurate and idiomatic. The present translation \"כִּי שֻׁנָּה הַכְּהוּנָּה, יֵצֵא בִּצְרִיכוּת שִׁנּוּי גַּם בַּחֹק — העברים 7:12.\" is literal and awkward. Suggest: \"כִּי אִם הֻשְׁנָה הַכְּהֻנָּה, יֵצֵא בָּנָאִי לַחֹק שִׁנּוּי גַּם־כֵּן — העברים 7:12.\" or better yet a smooth idiomatic rendering: \"כִּי בְּשִׁנּוּי הַכְּהֻנָּה נִכְרֵךְ גַּם שִׁנּוּי בַּחֹק — העברים 7:12.\" Ensure wording conveys the original meaning without altering doctrine.",
+        "translation_quote": "<em>כִּי שֻׁנָּה הַכְּהוּנָּה, יֵצֵא בִּצְרִיכוּת שִׁנּוּי גַּם בַּחֹק — העברים 7:12.</em>"
+      },
+      {
+        "location": "<p>Ephesians 4:14 quote",
+        "severity": "major",
+        "source_quote": "That we [should] henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine… –Ephesians 4:14.",
+        "suggested_fix": "The current Hebrew rendering is ungrammatical and distorts readability: \"כְּלָכִי לֹא נְהִי יַתְמוּמִים עוֹד, נָעוּ בְּכָל־רוּחַ בְּתוֹרָה… — אפסים 4:14.\" Produce a clear, idiomatic translation preserving sense and punctuation, e.g.: \"לְמַעְלָה נַעֲמִיד כִּי לֹא נְהִי עוֹד יְלָדִים, נִתְנַעֲרִים וּנוּשִׁים בְּכָל־רוּחַ תּוֹרָה… — אפסים 4:14.\" or simply: \"כָּכָה לֹא נְהִי עוֹד יְתָמִים, מדוללים ומוסעים בְּכָל־רוּחַ דָּעַת... — אפסים 4:14.\" Keep the reference as printed.",
+        "translation_quote": "<em>כְּלָכִי לֹא נְהִי יַתְמוּמִים עוֹד, נָעוּ בְּכָל־רוּחַ בְּתוֹרָה… — אפסים 4:14.</em>"
+      },
+      {
+        "location": "<p>Matthew 24:12-13 quote",
+        "severity": "minor",
+        "source_quote": "And because iniquity shall abound, the love of many shall wax cold. But he that shall endure unto the end, the same shall be saved –Matthew 24:12-13.",
+        "suggested_fix": "The current Hebrew is literal and somewhat archaic: \"וְיֶחֱשֵׁף רָעָה רְבָבָה, וְיָקָר תִּתְקַרֵרָּה אַהֲבַת רַבִּים; וְהַמַּהֲדֶה עַד־הַסּוֹף, הוּא יִנָּצֵל — מתי 24:12-13.\" Provide a clearer idiomatic version while preserving meaning, e.g.: \"וּמִפְּנֵי שֶׁתִּשְׁרֶה רָשָׁעָה בֶּהָמָה, תִּקרָרְרָה אַהֲבַת רַבִּים; וּמִי שֶׁיִּתְמַשֵּׁךְ עַד־הַסֹּוף, הוּא יְהוּשַׁע — מתי 24:12-13.\" Ensure verb forms and idiom are natural.",
+        "translation_quote": "<em>וְיֶחֱשֵׁף רָעָה רְבָבָה, וְיָקָר תִּתְקַרֵרָּה אַהֲבַת רַבִּים; וְהַמַּהֲדֶה עַד־הַסּוֹף, הוּא יִנָּצֵל — מתי 24:12-13.</em>"
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

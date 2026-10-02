@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "2367b679-8858-4376-ba26-7b10b412c835",
+    "response_id": "chatcmpl-EUVeDAg2mBQfBE74GUTXpV8GhoqWR",
+    "usage": {
+      "completion_tokens": 1715,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5413,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7128
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...מצטט מ-<em>101 Hymn Stories</em>...</p>",
+        "severity": "major",
+        "source_quote": "“I quote from <em>101 Hymn Stories</em>”",
+        "suggested_fix": "Translate the English book title into Hebrew (preserve the <em> tag). For example: <em>101 סיפורי מזמורים</em>. Keep the surrounding HTML unchanged.",
+        "translation_quote": "\"בדבריה על כותבת המזמור אני מצטט מ־<em>101 Hymn Stories</em>: \\\"היא הייתה גם ידועה...\\\"\""
+      },
+      {
+        "location": "<p>...אני מצטט מ-<em>A Treasury of Hymn Stories</em>...</p>",
+        "severity": "major",
+        "source_quote": "\"Regarding this incident, I quote from <em>A Treasury of Hymn Stories</em>, ‘Drawing near,...’\"",
+        "suggested_fix": "Translate the English book title into Hebrew (preserve the <em> tag). For example: <em>אוצר סיפורי מזמורים</em>. Keep the surrounding HTML unchanged.",
+        "translation_quote": "\"לגבי המקרה הזה אני מצטט מ־<em>A Treasury of Hymn Stories</em>, \\\"כשהתקרבו, להפתעתם,...\\\"\""
+      },
+      {
+        "location": "<p>...published the next year in the hymn book <em>Hymns and Anthems</em> prepared by Rev. Fox...</p>",
+        "severity": "minor",
+        "source_quote": "\"published the next year in the hymn book <em>Hymns and Anthems</em> prepared by Rev. Fox\"",
+        "suggested_fix": "Translate the hymn-book title into Hebrew (preserve the <em> tag). For example: <em>מזמורים ומעלות</em> or a literal translation <em>מזמורים ותשבחות</em>, depending on preferred style. Keep the surrounding HTML unchanged.",
+        "translation_quote": "\"מזמור זה נכתב ב־1840 ופורסם שנה לאחר מכן בספר המזמורים <em>Hymns and Anthems</em> שאותו ערך הכומר פוקס...\""
+      },
+      {
+        "location": "<figure> <figcaption>...-Jas. 4:8</figcaption>",
+        "severity": "minor",
+        "source_quote": "\"Draw nigh to God, and he will draw nigh to you.\" -Jas. 4:8",
+        "suggested_fix": "Render the Scripture citation in conventional Hebrew form and keep the verse numbering unchanged. For example: replace \"-Jas. 4:8\" with \"—יעקב 4:8\" or \"—יעקב ד׳:ח׳\". Do not alter the quoted Hebrew translation already provided. Preserve figcaption HTML.",
+        "translation_quote": "\"<em>התקרבו אל־האלוהים, והוא יתקרב אליכם.</em> -Jas. 4:8\""
+      },
+      {
+        "location": "<p>...the hymn was wedded with the present-day tune \"Bethany\"...</p>",
+        "severity": "minor",
+        "source_quote": "\"the hymn was wedded with the present-day tune \"Bethany\" composed especially for the text by Lowell Mason\"",
+        "suggested_fix": "Render the tune name into Hebrew (transliteration or conventional form) or mark it as a proper noun in Hebrew typography. For example: \"הלחין במיוחד למילים את הלחן הידוע כיום 'בתני' (Bethany) מאת לואל מייסון\" — keep the HTML and sentence structure intact.",
+        "translation_quote": "\"...אז הלחן זוהה עם הלחן הידוע כיום \\\"Bethany\\\" שחובר במיוחד למילות המזמור על־ידי לואל מייסון...\""
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

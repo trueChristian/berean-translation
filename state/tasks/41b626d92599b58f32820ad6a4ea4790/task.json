@@ -2,7 +2,6 @@
   "article_id": "a6ab0f33-e20a-4b19-ae47-f094395a54f8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,87 +61,44 @@
         },
         "total_tokens": 3895
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 932,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1516,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2448
+      }
     }
   ],
   "findings": [
     {
-      "location": "<article> / <div class=\"poem\"> / first <p> (line 1)",
-      "severity": "major",
-      "source_quote": "Freedom, or bondage—which will it be?",
-      "suggested_fix": "Übersetzen Sie neutral und idiomatisch: \"Freiheit oder Knechtschaft — was wird es sein?\". Ersetzen Sie die fehlerhafte Formulierung im Übersetzungs-HTML entsprechend, ohne andere Tags zu verändern.",
-      "translation_quote": "Freiheit oder Knechtschaft—was wird es sein?"
-    },
-    {
-      "location": "<article> / <div class=\"poem\"> / first <p> (line 2)",
-      "severity": "major",
+      "location": "First stanza, line 2",
+      "severity": "minor",
       "source_quote": "Or are they the same; can someone see?",
-      "suggested_fix": "Übersetzen Sie das Bild klar und wörtlich-natürlich: \"Oder sind sie dasselbe; kann das jemand erkennen?\". Im HTML ersetzen Sie die fehlerhafte Phrase \"kann das jemand klar erspähn\" durch die vorgeschlagene Formulierung.",
-      "translation_quote": "Oder sind sie gleich; kann das jemand klar erspähn?"
+      "suggested_fix": "Use grammatically appropriate agreement for German. Replace \"Oder sind sie dasselbe; kann das jemand erkennen?\" with \"Oder sind sie dasselbe; kann das jemand sehen?\" is literal but better: \"Oder sind sie dasselbe? Kann das jemand erkennen?\" Or, to agree in gender, use \"Oder sind sie dasselbe?\" → prefer \"Oder sind sie dasselbe?\" is still awkward; better: \"Oder sind sie dasselbe? Kann das jemand erkennen?\" Alternatively, to match German gender agreement: \"Oder sind sie dasselbe?\" could be left but recommended: \"Oder sind sie dasselbe? Kann das jemand erkennen?\" (If you prefer strict grammatical agreement: \"Oder sind sie dasselbe?\" is acceptable poetically; if you want grammatical concord with feminine nouns: change to \"Oder sind sie dieselben?\" )",
+      "translation_quote": "Oder sind sie dasselbe; kann das jemand erkennen?"
     },
     {
-      "location": "<article> / <div class=\"poem\"> / second <p> (line 2)",
-      "severity": "major",
-      "source_quote": "They trade their lives, with no reason why.",
-      "suggested_fix": "Übersetzen Sie präzise: \"Sie verkaufen ihr Leben, ohne zu wissen, warum.\" Ersetzen Sie die ungrammatischen und sinnverändernden Worte \"ohne Fragen zu haufen\" durch die vorgeschlagene Formulierung.",
-      "translation_quote": "Verkaufen ihr Leben, ohne Fragen zu haufen."
-    },
-    {
-      "location": "<article> / <div class=\"poem\"> / third <p> (line 1)",
+      "location": "Third stanza, line 2",
       "severity": "minor",
-      "source_quote": "The bills pile up for comforts and ease;",
-      "suggested_fix": "Stellen Sie die Wortwahl idiomatisch her: \"Die Rechnungen türmen sich für Bequemlichkeiten und Annehmlichkeiten;\" oder belassen Sie \"Komfort und Ruh\" nur wenn es bewusst dichterisch ist. Ersetzen Sie gegebenenfalls \"Komfort und Ruh\" durch \"Komfort und Ruhe\".",
-      "translation_quote": "Rechnungen türmen sich für Komfort und Ruh;"
-    },
-    {
-      "location": "<article> / <div class=\"poem\"> / fourth <p> (line 2)",
-      "severity": "major",
-      "source_quote": "The devil smiles as he tightens our collar.",
-      "suggested_fix": "Übersetzen Sie wörtlich und idiomatisch: \"Der Teufel lächelt, während er unseren Kragen fester zieht.\" Entfernen Sie das unpassende Bild \"beim Schnauben\" und die stilistisch problematische Wortstellung \"zieht an unsre Krägen beim Schnauben\" und ersetzen Sie sie durch die vorgeschlagene Fassung.",
-      "translation_quote": "Der Teufel lächelt, zieht an unsre Krägen beim Schnauben."
-    },
-    {
-      "location": "<article> / <div class=\"poem\"> / fifth <p> (line 2)",
-      "severity": "minor",
-      "source_quote": "Maybe less time at work could surely do.",
-      "suggested_fix": "Formulieren Sie idiomatischer: \"Weniger Arbeit würde uns sicher guttun.\" Ersetzen Sie die ungewöhnliche Wendung \"ganz sicher gut als Brauch\" durch \"uns sicher guttun\" oder ähnliche natürliche Formulierung.",
-      "translation_quote": "Vielleicht täte weniger Arbeit ganz sicher gut als Brauch."
-    },
-    {
-      "location": "<article> / <div class=\"poem\"> / sixth <p> (line 2)",
-      "severity": "minor",
-      "source_quote": "Or does our money talk, and give us no choice?",
-      "suggested_fix": "Flüssigere, idiomatische Übersetzung: \"Oder redet unser Geld und lässt uns keine Wahl?\" Ersetzen Sie die umständliche Phrase \"und lässt uns keine Wahl im Sinne\" durch die vorgeschlagene Formulierung.",
-      "translation_quote": "Oder spricht unser Geld und lässt uns keine Wahl im Sinne?"
-    },
-    {
-      "location": "<article> / <div class=\"poem\"> / seventh <p> (line 1)",
-      "severity": "major",
-      "source_quote": "We all know the Bible—no work, no eat.",
-      "suggested_fix": "Diese Zeile bezieht sich ausdrücklich auf eine biblische Paraphrase und sollte klar und knapp wiedergegeben werden: \"Wir kennen die Bibel: Wer nicht arbeitet, soll auch nicht essen.\" (wörtlich: \"No work, no eat\" als gebräuchliche Paraphrase). Ersetzen Sie \"kein Fleiß, kein Brot essen\" durch die vorgeschlagene übersetzte Paraphrase, um den Sinn und Ton zu wahren.",
-      "translation_quote": "Wir kennen die Bibel—kein Fleiß, kein Brot essen."
-    },
-    {
-      "location": "<article> / <div class=\"poem\"> / eighth <p> (line 2)",
-      "severity": "minor",
-      "source_quote": "The love of money starts with a seed.",
-      "suggested_fix": "Vermeiden Sie das hinzufügende Adjektiv, das den Sinn leicht ändert. Übersetzen Sie neutral: \"Die Liebe zum Geld beginnt mit einem Samen.\" Ersetzen Sie \"einem Samen unbeschwert\" durch \"einem Samen\".",
-      "translation_quote": "Die Liebe zum Geld beginnt mit einem Samen unbeschwert."
-    },
-    {
-      "location": "<article> / <div class=\"poem\"> / ninth <p> (line 1)",
-      "severity": "minor",
-      "source_quote": "Lying to yourself is a foolish thing—",
-      "suggested_fix": "Gängigere, idiomatische Übersetzung: \"Sich selbst zu belügen ist töricht.\" Entfernen Sie das unpassende Wort \"Ring\" in der Übersetzung der Schlusszeile (siehe unten) und korrigieren Sie die Wortstellung.",
-      "translation_quote": "Sich selbst zu belügen ist ein törichter Ring—"
-    },
-    {
-      "location": "<article> / <div class=\"poem\"> / ninth <p> (line 2)",
-      "severity": "major",
-      "source_quote": "“Freedom, or bondage?” is the question I bring.",
-      "suggested_fix": "Übersetzen Sie klar und wörtlich: \"‚Freiheit oder Knechtschaft?‘ — das ist die Frage, die ich stelle.\" Ersetzen Sie die unidiomatische \"das ist die Frage, die ich bring\" durch eine natürliche deutsche Wendung wie vorgeschlagen.",
-      "translation_quote": "„Freiheit oder Knechtschaft?“ das ist die Frage, die ich bring."
+      "source_quote": "\"What about our wives, or children to please?\"",
+      "suggested_fix": "Use standard contemporary German instead of the colloquial contraction. Replace \"„Was ist mit unseren Frauen, oder Kindern, die wir erfreu'n?“\" with \"„Was ist mit unseren Frauen oder Kindern, um sie zu erfreuen?“\" or more idiomatically: \"‚Was ist mit unseren Frauen oder unseren Kindern, die wir erfreuen wollen?‘\"",
+      "translation_quote": "„Was ist mit unseren Frauen, oder Kindern, die wir erfreu'n?“"
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "41b626d92599b58f32820ad6a4ea4790",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "deu",
@@ -186,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 45,
+  "quality_score": 95,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1de56fab2737a3548fafa046f54e8b49fd10031dc8824cc6696d1a638910abcb.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "e5687feec796faa59fb2c84ea91a33a13b26784033d8d71bfc9aba932005e757",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

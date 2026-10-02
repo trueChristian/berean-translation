@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "11cf3cc2-5c44-4bee-9b53-04192cc23d4c",
+    "response_id": "chatcmpl-EUVe80nziyyyYRGJILuy1qyIHztz3",
+    "usage": {
+      "completion_tokens": 997,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11063,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12060
+    }
+  },
+  "received_at": "2026-10-02T11:25:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "section.endnotes <h2>",
+        "severity": "minor",
+        "source_quote": "<h2><em>Endnotes:</em></h2>",
+        "suggested_fix": "Replace the English heading with a Hindi heading while preserving the tags. For example: <h2><em>एंडनोट्स:</em></h2> (or <h2><em>संदर्भ:</em></h2>)",
+        "translation_quote": "<h2><em>Endnotes:</em></h2>"
+      },
+      {
+        "location": "paragraph (surgery) — sentence containing \"exploratory surgery\"",
+        "severity": "minor",
+        "source_quote": "Many people do seem to get sicker after having an exploratory surgery when their cancer is being diagnosed.",
+        "suggested_fix": "Translate the parenthetical/explanatory English term into Hindi or remove the parenthetical English while preserving the sentence and tags. For example: \"कई लोग खोजी शल्यक्रिया के बाद अस्वस्थ प्रतीत होते हैं जब उनका कैंसर निदान हो रहा होता है।\" (replace or remove the parenthetical \"(exploratory surgery)\")",
+        "translation_quote": "पर कई लोग खोजी शल्यक्रिया (exploratory surgery) के बाद अस्वस्थ प्रतीत होते हैं जब उनका कैंसर निदान हो रहा होता है।"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

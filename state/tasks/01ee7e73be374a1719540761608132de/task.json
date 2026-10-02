@@ -2,7 +2,6 @@
   "article_id": "2b07502a-cbf0-4b92-8bb8-7910a5557f84",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:09+00:00",
   "events": [
@@ -62,31 +61,29 @@
         },
         "total_tokens": 11142
       }
-    }
-  ],
-  "findings": [
-    {
-      "location": "source.html — first paragraph (quoted commands)",
-      "severity": "major",
-      "source_quote": "“bless them that persecute you” and “love your enemies”.",
-      "suggested_fix": "Translate both quoted commands into natural, accurate Hindi and replace the garbled/partly-English rendering. For example: “जो तुम्हें सताते हैं, उन्हें आशीर्वाद दो” और “अपने शत्रुओं से प्रेम करो”。 Preserve the quotation marks and punctuation exactly as in the source HTML.",
-      "translation_quote": "\"आवspraak करने वालों को आशीर्वाद दो\" और \"अपने शत्रुओं से प्रेम करो\"।"
     },
     {
-      "location": "source.html — paragraph about crop rotation / legumes (third and fourth paragraphs)",
-      "severity": "minor",
-      "source_quote": "Another major improvement was the introduction of the legume, clover.",
-      "suggested_fix": "Render 'legume' and 'clover' accurately in Hindi. For example: \"एक और प्रमुख सुधार फलियों के पौधे का परिचय था, विशेषकर क्लोवर।\" Keep punctuation and placement inside the paragraph unchanged.",
-      "translation_quote": "एक और प्रमुख सुधार चौड़ाई फलियों का परिचय था, विशेषकर क्लोवर।"
-    },
-    {
-      "location": "source.section (metadata)",
-      "severity": "minor",
-      "source_quote": "Victorious Christian Living",
-      "suggested_fix": "Translate the section name into contemporary standard Hindi instead of transliterating. For example: \"विजयी ईसाई जीवन\" (or another site-preferred Hindi rendering). Update the translation field value for section accordingly.",
-      "translation_quote": "विक्टोरियस क्रिश्चियन लिविंग"
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 410,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6672,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7082
+      }
     }
   ],
+  "findings": [],
+  "finished_at": "2026-10-02T11:25:26+00:00",
   "id": "01ee7e73be374a1719540761608132de",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "hin",
@@ -130,13 +127,13 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/589bbbf06d53e840c1b02c16b5a0e9d55ee78fbc01185cea481271c35d6c3b97.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "b3e43e634638cbb2acbfd582a6dcb7a3f9f4e2dc77e578bc59a693261f0aa67b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

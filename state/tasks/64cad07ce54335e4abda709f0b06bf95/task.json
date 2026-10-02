@@ -2,7 +2,6 @@
   "article_id": "02db24ae-5132-49c6-a6fd-da73417871e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,24 +61,51 @@
         },
         "total_tokens": 8077
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1563,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4997,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6560
+      }
     }
   ],
   "findings": [
     {
-      "location": "source.section / translation.section",
-      "severity": "major",
-      "source_quote": "INSPIRATIONS FOR YOUTH",
-      "suggested_fix": "Restore the correct target-language rendering of the English section. Replace the translation field value with a faithful Swedish equivalent of \"INSPIRATIONS FOR YOUTH\", for example: \"INSPIRATIONER FÖR UNGDOM\" (or \"INSPIRATIONER FÖR UNGDOMAR\" if your style guide prefers). Do not use wording that implies adults (e.g. \"UPPVAXNA\").",
-      "translation_quote": "INSPIRATIONER FÖR UPPVAXNA"
+      "location": "Paragraph containing Hebrews 12:1-2 (near end)",
+      "severity": "minor",
+      "source_quote": "Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight, and the sin which doth so easily beset us, and let us run with patience the race that is set before us, Looking unto Jesus the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God –Hebrews 12:1-2.",
+      "suggested_fix": "Render the Swedish in fluent, idiomatic grammar while preserving the meaning and verse reference. For example: \"Eftersom vi nu är omgivna av en så stor skara vittnen, låt oss lägga bort allt som tynger oss och synden som så lätt fångar oss, och med uthållighet springa löpningen som ligger framför oss, medan vi fäster blicken på Jesus, trons upphovsman och fullkomnare... –Hebreerbrevet 12:1-2.\" (Preserve the verse reference and the quoted-verse structure exactly as in source HTML.)",
+      "translation_quote": "<em>Vi se då omkring oss på en så stor skara vittnen, låt oss lägga bort allt som tynger och synden som så lätt slår an, och låt oss springa uthålligt i kampen som ligger framför oss, med blicken fäst vid Jesus, trons upphovsman och fullkomnare, som för den glädje som låg framför honom uthärdade korset, och satte skam åt det, och tog plats på Guds trons högra sida –Hebreerbrevet 12:1-2.</em>"
     },
     {
-      "location": "source.html (near end of paragraph beginning \"I början av artikeln frågade jag vad du eftersträvar.\") / translation.html",
+      "location": "Paragraph beginning “Personligt ansvar” (sentence quoting parable)",
       "severity": "minor",
-      "source_quote": "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Ghost –Romans 15:13.",
-      "suggested_fix": "Remove the duplicated word so the sentence is grammatically correct in Swedish. Change \"Visar ditt liv att att uppfylla Guds vilja är din högsta prioritet\" to \"Visar ditt liv att uppfylla Guds vilja är din högsta prioritet\" or better: \"Visar ditt liv att uppfyllandet av Guds vilja är din högsta prioritet\" depending on your house style.",
-      "translation_quote": "Visar ditt liv att att uppfylla Guds vilja är din högsta prioritet, eller finns det något annat som tar den platsen?"
+      "source_quote": "He said therefore, A certain nobleman went into a far country to receive for himself a kingdom, and to return. And he called his ten servants, and delivered them ten pounds, and said unto them, Occupy till I come –Luke 19:12-13.",
+      "suggested_fix": "The Swedish wording of the quoted line is mostly correct but the verb choice for \"Occupy till I come\" can be made clearer/less ambiguous. Suggest: \"…och sade till dem: Förvalt (eller 'bruka') intill dess jag kommer – Lukas 19:12–13.\" Keep the verse reference format exactly as in source HTML.",
+      "translation_quote": "<em>Han sade därför: En viss furste for bort till främmande land för att taga till sig ett rike och sedan återkomma. Och när han kallade sina tio tjänare gav han dem tio penningar och sade till dem: Förvärva intill dess jag kommer –Lukas 19:12-13.</em>"
+    },
+    {
+      "location": "Paragraph under “Personligt ansvar” (sentence about \"occupy till the Lord returns\")",
+      "severity": "minor",
+      "source_quote": "Like the servants in the parable, we have each been given resources that we need to “occupy till the Lord returns”.",
+      "suggested_fix": "The Swedish rendition is understandable but slightly awkward: \"tjäna med intill dess Herren kommer\". Suggest a clearer phrasing that preserves the original sense, e.g. \"har vi var och en fått resurser som vi behöver bruka/intill dess Herren kommer\" or \"som vi måste använda tills Herren kommer.\"",
+      "translation_quote": "<p>Det är lätt att ha inställningen att om vi inte offrar vår tid i någon frivillig kapacitet på en missionsinriktad plats, så finns det inte mycket mer att göra för himmelriket. Är det verkligen verkligheten? Liksom tjänarna i liknelsen har var och en av oss fått resurser som vi måste “tjäna med intill dess Herren kommer”.</p>"
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "64cad07ce54335e4abda709f0b06bf95",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "swe",
@@ -123,13 +149,13 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d4096c8e219a9ff87d56f7ba5b34e9e5d1258bfb4281edd00108b01120b10b28.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "e60beaba9e12466f123cfd1ae7a96811ce97cb1cb87bf5ed6c8de7f6afdd6660",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

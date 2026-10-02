@@ -2,7 +2,6 @@
   "article_id": "f21c4f39-9508-4f75-9e0c-0c68468c41f8",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,38 +61,58 @@
         },
         "total_tokens": 7045
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 970,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4022,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4992
+      }
     }
   ],
   "findings": [
     {
-      "location": "<p>“My, it’s warm!” exclaimed Mom. “A nice, good rain is what we need to cool things off a bit.”</p>",
-      "severity": "major",
-      "source_quote": "“A nice, good rain is what we need to cool things off a bit.”",
-      "suggested_fix": "Translate the meaning faithfully rather than adding 'light'. Replace “’n Goeie, ligte reën is wat ons nodig het om dit ’n bietjie af te koel.” with something like “’n Goeie reën is wat ons nodig het om dit ’n bietjie af te koel.” or “’n lekker, goeie reën is wat ons nodig het om dit ’n bietjie af te koel.”",
-      "translation_quote": "“’n Goeie, ligte reën is wat ons nodig het om dit ’n bietjie af te koel.”"
+      "location": "Paragraph 1 (opening line)",
+      "severity": "minor",
+      "source_quote": "“My, it’s warm!” exclaimed Mom.",
+      "suggested_fix": "Translate the exclamation in a more natural contemporary Afrikaans idiom. For example replace ““Ag, dis warm!” roep Ma uit.” with ““Ai, dis warm!” roep Ma.” or simply ““Ai, dis warm!” sê Ma.” — keep the existing paragraph tags and punctuation.",
+      "translation_quote": "“Ag, dis warm!” roep Ma uit."
     },
     {
-      "location": "<p>Of special interest was our neighbor Melvin. His barn had collapsed on top of dozens of cattle and then a fire had broken out. ... many of the steers could not be saved.</p>",
+      "location": "Paragraph 5 (command to children)",
       "severity": "minor",
-      "source_quote": "many of the steers could not be saved.",
-      "suggested_fix": "Use a correct, idiomatic Afrikaans word for 'steers' (plural of young castrated bulls / male cattle). Replace “bulte” (unidiomatic) with “bulle” or “stiers” depending on intended nuance. Suggested: “maar uiteindelik kon baie van die bulle nie gered word nie.”",
-      "translation_quote": "“... uiteindelik kon baie van die bulte nie gespaar word nie.”"
+      "source_quote": "“Quickly, children!” called Mom. “Put away your toys; it’s about to storm!”",
+      "suggested_fix": "The translation ““Klaar vinnig, kinders!” het Ma geroep.” is awkward in Afrikaans. Use a more idiomatic command such as ““Vinnig, kinders!” het Ma geroep.” and keep the remainder: “Berg julle speelgoed weg; dit gaan storm!” Maintain the paragraph's HTML structure.",
+      "translation_quote": "“Klaar vinnig, kinders!” het Ma geroep. “Berg julle speelgoed weg; dit gaan storm!”"
     },
     {
-      "location": "<p>Sunday came, but no one went to church. The morning was spent over at Melvin’s, hauling away dead cattle, clearing away burnt hay, and simply just being there for one another.</p>",
+      "location": "Penultimate paragraph (closing reflection)",
       "severity": "minor",
-      "source_quote": "hauling away dead cattle, clearing away burnt hay, and simply just being there for one another.",
-      "suggested_fix": "Correct the mistranslation of 'hauling away'—'uitruilend' is incorrect. Use an appropriate verb phrase such as “wat die oggend by Melvin deurgebring is om die dooie beeste weg te laai, verbrand hooi uit te ruim en net daar vir mekaar te wees.”",
-      "translation_quote": "“Die oggend is by Melvin deurgebring, doodbeeste uitruilend, verbrand hooi wegruimend, en net daar wees vir mekaar.”"
+      "source_quote": "Most of all, as she has learned to trust God in every area of her life, she has found Him to always be faithful. Learning to replace fear with trust always brings peace to the heart.",
+      "suggested_fix": "The phrase “Mees van alles” is an uncommon literalism in Afrikaans. Replace with a more natural rendering such as “Boonop,” or “Meer as enigiets,” e.g. “Meer as enigiets, soos sy geleer het om God in elke area van haar lewe te vertrou, het sy Hom altyd getrou gevind.” Keep paragraph tags unchanged.",
+      "translation_quote": "Mees van alles, soos sy geleer het om God in elke area van haar lewe te vertrou, het sy Hom altyd getrou gevind."
     },
     {
-      "location": "<title>“Thunder, Twisters, and Trust”</title>",
+      "location": "Paragraph about post-storm conditions",
       "severity": "minor",
-      "source_quote": "Thunder, Twisters, and Trust",
-      "suggested_fix": "Consider standard Afrikaans plural punctuation for 'tornadoes'. The translator used “Tornado’s” (with apostrophe). Use either “Tornado’s” if following common usage, or more standard Afrikaans plurals like “Tornados” or “tornado’s” consistently. Suggested: “Donder, Tornados en Vertroue” or “Donder, tornado's en Vertroue” depending on house style. (This is a punctuation/style note, not a change of meaning.)",
-      "translation_quote": "\"Donder, Tornado’s en Vertroue\""
+      "source_quote": "After the storm had passed the humidity and heat had returned making the night hot and muggy.",
+      "suggested_fix": "The translation uses the loanword “humiditeit” while earlier the piece used “vogtig.” For consistency and more idiomatic Afrikaans, render as “Toe die storm verby was, het die vog en hitte teruggekeer, en die nag het weer warm en drukkend geword.” Preserve the paragraph HTML.",
+      "translation_quote": "Nadat die storm verby was, het die humiditeit en hitte teruggekeer en die nag warm en drukkend gemaak."
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "7e549f74b7bec818ce16661e070690df",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "afr",
@@ -137,13 +156,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1896269e1d50cee8808d069728099a272936b67afb461b50cf790049cb1e46b5.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "ea6f4c2c1d99d58d1a9f3a20171db73a83fd2eecbd0478f01bb5f8591bf41415",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

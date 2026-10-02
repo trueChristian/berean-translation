@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "bd7bc204-f2c5-4020-8a33-378e48c3b396",
+    "response_id": "chatcmpl-EUVfQhf7iRkwidNJrmFS82wDLFV5k",
+    "usage": {
+      "completion_tokens": 2279,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5592,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7871
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph",
+        "severity": "minor",
+        "source_quote": "This hymn writer was a woman of great ambition and enjoyment; a person full of life, vivacious, beautiful, talented, and a person who’s “exalted character always made a deep impression upon all who knew her”.",
+        "suggested_fix": "Correct the Urdu phrasing so the attributes are clearly ascribed to the hymn writer (سارہ فلاور ایڈم), and render idiomatically. For example: replace \"اس نظم نگارہ نے بڑھتی ہوئی خواہشات اور زندگی سے لطف اندوزی میں کمال حاصل کیا؛ وہ توانائی سے بھرپور...\" with wording that directly describes her: \"نظم نگار ایک بلند حوصلہ اور زندگی سے بھرپور عورت تھیں؛ توانائی سے بھرپور، زندہ دل، خوبصورت، ہنرمند، اور ایک ایسی شخصیت جن کی 'بلند حیثیت' نے انہیں جاننے والوں پر ہمیشہ گہرا اثر چھوڑا۔\"",
+        "translation_quote": "اس نظم نگارہ نے بڑھتی ہوئی خواہشات اور زندگی سے لطف اندوزی میں کمال حاصل کیا؛ وہ توانائی سے بھرپور، زندہ دل، خوبصورت، ہونہار اور ایک ایسی شخصیت تھی جس کی \"بلند حیثیت نے ہمیشہ ان تمام لوگوں پر گہرا اثر چھوڑا جو اسے جانتے تھے\"۔"
+      },
+      {
+        "location": "Second paragraph (book citation)",
+        "severity": "major",
+        "source_quote": "I quote from 101 Hymn Stories: “She was also widely known for her many literary accomplishments...\"",
+        "suggested_fix": "Translate the book title into Urdu (and optionally retain the English title in parentheses). Replace \"<em>101 Hymn Stories</em>\" with a translated form such as \"<em>101 نغماتی کہانیاں (101 Hymn Stories)</em>\" or an appropriate Urdu rendering. Ensure the surrounding quoted sentence remains translated into Urdu (it already is).",
+        "translation_quote": "نظم نگار کے بارے میں میں <em>101 Hymn Stories</em> سے نقل کرتا ہوں: \"وہ اپنی متعدد ادبی کامیابیوں کے لیے بھی وسیع پیمانے پر جانی جاتی تھیں، حالانکہ ان کی نازک صحت ہمیشہ ان کی کئی امنگوں کے لیے رکاوٹ رہی۔\""
+      },
+      {
+        "location": "Paragraph beginning “This great hymn was written in 1840...” (hymnal title)",
+        "severity": "major",
+        "source_quote": "published the next year in the hymn book Hymns and Anthems prepared by Rev. Fox",
+        "suggested_fix": "Translate the hymnal title into Urdu or provide a bilingual rendering. Replace \"<em>Hymns and Anthems</em>\" with a translated form such as \"<em>نغمات و ترانم (Hymns and Anthems)</em>\" or another suitable Urdu title while preserving the emphasis tag and HTML. Maintain the rest of the sentence as translated.",
+        "translation_quote": "یہ عظیم نظم 1840 میں لکھی گئی اور اگلے سال ہمن بک <em>Hymns and Anthems</em> میں شائع ہوئی جو ریو. فاکس، نظم نگار کے پادری نے تیار کی تھی۔"
+      },
+      {
+        "location": "Paragraph listing Lowell Mason’s other hymns",
+        "severity": "major",
+        "source_quote": "Other hymns by Mason include “From Greenland’s Icy Mountains”, “When I Survey the Wondrous Cross”, “A Charge to Keep I Have”, “Joy to the World”, “My Faith Looks Up to Thee”, and “O Day of Rest and Gladness”.",
+        "suggested_fix": "Render the hymn titles into Urdu (or provide Urdu translations with the English titles in parentheses). For example: replace the English titles with appropriate Urdu renderings such as \"'From Greenland’s Icy Mountains' (گرین لینڈ کے برفیلے پہاڑوں سے)، 'When I Survey the Wondrous Cross' (جب میں شاندار صلیب کا مشاہدہ کرتا ہوں)، ...\" Keep them as quoted titles and preserve punctuation and HTML. This preserves fidelity to the source's quoted substantive prose.",
+        "translation_quote": "میسن کے دیگر نغمات میں \"From Greenland’s Icy Mountains\", \"When I Survey the Wondrous Cross\", \"A Charge to Keep I Have\", \"Joy to the World\", \"My Faith Looks Up to Thee\", اور \"O Day of Rest and Gladness\" شامل ہیں۔"
+      },
+      {
+        "location": "Figure figcaption (hymn tune name and rubric)",
+        "severity": "major",
+        "source_quote": "BETHANY 6. 4. 6. 4. 6. 6. 6. 4.\nSarah F. Adams, 1840\nLowell Mason, 1856",
+        "suggested_fix": "Either translate or clearly mark the tune-name/metadata in Urdu with the original in parentheses. For example: replace the English block with something like \"<strong>بیتھنی (BETHANY) 6.4.6.4.6.6.6.4.</strong><br>\n<strong>Sarah F. Adams، 1840</strong><br>\n<strong>Lowell Mason، 1856</strong>\". Preserve the original HTML tags and layout.",
+        "translation_quote": "<strong>387</strong><br>\n<strong>BETHANY 6. 4. 6. 4. 6. 6. 6. 4.</strong><br>\nSarah F. Adams, 1840<br>\nLowell Mason, 1856"
+      },
+      {
+        "location": "Paragraph quoting A Treasury of Hymn Stories",
+        "severity": "major",
+        "source_quote": "Regarding this incident, I quote from A Treasury of Hymn Stories, “Drawing near, to their amazement, they saw fifty Syrian students...\"",
+        "suggested_fix": "Translate the book title into Urdu (and optionally keep the English in parentheses). Replace \"<em>A Treasury of Hymn Stories</em>\" with an Urdu rendering such as \"<em>نغماتی کہانیوں کا خزانہ (A Treasury of Hymn Stories)</em>\" and ensure the quoted material is fully translated (it already is).",
+        "translation_quote": "اس واقعہ کے بارے میں میں <em>A Treasury of Hymn Stories</em> سے نقل کرتا ہوں، \"قریب پہنچ کر، ان کی حیرت کے لیے، انہوں نے دیکھا کہ پچاس سیرین طالب علم درختوں کے نیچے دائرے میں کھڑے ہیں، اور عربی میں ‘میرے خدائے قریب تر’ گا رہے ہیں، پروفیسر ہچکاک نے بعد میں اس واقعے کے بارے میں کہا کہ سیرین نوجوانوں کی طرف سے اس مسیحی نظم کا گا نا انہیں آنسوؤں تک لے گیا، اور اس نے انہیں اس سے زیادہ متاثر کیا جتنا انہوں نے کبھی سنا تھا۔\""
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

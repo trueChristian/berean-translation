@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7223a811-61a2-4942-96d7-9bd79420f76e",
+    "response_id": "chatcmpl-EUVdweiGQNeVHHDeSiMEkdPrClC8x",
+    "usage": {
+      "completion_tokens": 1712,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6328,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8040
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"In 1710, the group moved up to the Conestoga Valley...\" (English) / مقابلة الفقرة المقابلة في الترجمة",
+        "severity": "minor",
+        "source_quote": "huge walnut, hickory, chestnuts, maples, white pines, and oaks",
+        "suggested_fix": "استبدال الترجمة الحالية بتراكيب صحيحة لأن اسماء الأشجار تحوي خطأ. مقترح: «أشجار الجوز والهيكوري والكستناء والقيقب والصنوبِر الأبيض والبلوط» — حافظ على الترتيب والمعنى الأصلي.",
+        "translation_quote": "أشجار جوز الكرفس والهيكوري والكاستناء والقيقب والصنوبر الأبيض والبلوط"
+      },
+      {
+        "location": "Paragraph: \"Many of those first settlers were from Holland and Sweden...\" / الفقرة المقابلة",
+        "severity": "minor",
+        "source_quote": "it seems that here is where the Swiss Brethren first became known as Mennists or Mennonites.",
+        "suggested_fix": "تصحيح الانسجام النحوي والعدد لاستخدام الصيغة الصحيحة للجمع والصفة. مقترح: استبدال «هنا أصبحت الإخوة السويسرية معروفة» بـ «هنا أصبح الإخوة السويسريون معروفين» أو «هنا عُرِفَ الإخوة السويسريون لأول مرة».",
+        "translation_quote": "يبدو أنه هنا أصبحت الإخوة السويسرية معروفة لأول مرة باسم المينونيين أو المينونيت."
+      },
+      {
+        "location": "Several paragraphs where an English term appears in parentheses (examples: \"بالاتينات (Pfaltzland)\", \"الكنيسة المصلحة (Reformed)\", \"ويليام بنّ والكويكرز (الكويكرز)\")",
+        "severity": "minor",
+        "source_quote": "Pfaltzland; Reformed; Quakers",
+        "suggested_fix": "إزالة التكرار أو وضع الترجمة الأولى متبوعة بالمصطلح الإنجليزي إذا لزم التنسيق، لكن لا تترك أدوات أو نسخ غير ضرورية بالإنجليزية داخل النص المترجم. أمثلة مقترحة: «البلاتاينات (Pfaltzland)» أو فقط «بلاتينات»، و«المصلحة (Reformed)» → «المصلحة» أو «المصلحة (Reformed)» إذا أردتم إبقاء المصطلح الإنجليزي كمرجع؛ و«ويليام بن والكويكرز» بدلاً من «ويليام بنّ والكويكرز (الكويكرز)».",
+        "translation_quote": "الاتصال عدة مواضع: بالاتينات (Pfaltzland) ؛ الكنيسة المصلحة (Reformed) ؛ سمع ويليام بنّ والكويكرز (الكويكرز)."
+      },
+      {
+        "location": "Paragraph: lead and elsewhere — rendering of the pejorative name",
+        "severity": "minor",
+        "source_quote": "Their enemies called them “Anabaptists” because they rejected infant baptism.",
+        "suggested_fix": "التأكيد أن التسمية جاءت من خصومهم كما في المصدر؛ الصياغة الحالية تفعل ذلك، لكنها قد تُحسّن نحوياً إلى: «أطلق عليهم أعداؤهم اسم «المعادون للتعميد» لأنهم رفضوا تعميد الرضع.»",
+        "translation_quote": "أطلق أعداؤهم عليهم اسم «المعادين للتعميد» لأنهم رفضوا تعميد الرضع."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "b6a6823e-0f2a-4354-aebb-5c37ad85937a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,24 +61,29 @@
         },
         "total_tokens": 8515
       }
-    }
-  ],
-  "findings": [
-    {
-      "location": "Throughout article body (multiple paragraphs)",
-      "severity": "major",
-      "source_quote": "“Nearer, My God to Thee” (appears in original English in paragraphs about the Boston Peace Jubilee, Syrian students, Johnstown flood, and Titanic)",
-      "suggested_fix": "Translate every in-text mention and quoted occurrence of the hymn title/line into Swedish to match the translated hymn text and the article title. For example: replace “Nearer, My God to Thee” and “Nearer, my God, to Thee” with “Närmare, min Gud, till Dig”. In the paragraph describing Syrian students singing in Arabic, preserve the detail that they sang in Arabic but present the hymn line in Swedish inside quotes (e.g.: ...såg de femtio syriska studenter stå under några träd i en cirkel och sjunga på arabiska ”Närmare, min Gud, till Dig”.). Do this for every occurrence so no substantive quoted prose remains in English.",
-      "translation_quote": "”Nearer, My God to Thee” / ”Nearer, my God, to Thee” (left in English in multiple places in the translation)"
     },
     {
-      "location": "Paragraph about contributions to the hymnal (fourth paragraph)",
-      "severity": "minor",
-      "source_quote": "“Together, they contributed thirteen texts and sixty-two new tunes.”",
-      "suggested_fix": "Use natural Swedish number order: change “tretton texter och två och sextio nya melodier.” to “tretton texter och sextiotvå nya melodier.”",
-      "translation_quote": "”Tillsammans bidrog de med tretton texter och två och sextio nya melodier.”"
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 602,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5266,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5868
+      }
     }
   ],
+  "findings": [],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "a1a77136a08eef18282ac8014a0a6519",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "swe",
@@ -123,13 +127,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 100,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/bdacc95910a7433231bb636adde27ced309ebbaf33d26f4288193a37ef1ecead.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "529627b867a50e286116891ac48830f9194ac5c383794aa0c674aa93ff18825d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

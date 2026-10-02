@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f3fdf04f-fb0c-41a3-809f-87563a51c668",
+    "response_id": "chatcmpl-EUVe8tfPJfvGPCEvf6tpy9GebHaIO",
+    "usage": {
+      "completion_tokens": 982,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9462,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10444
+    }
+  },
+  "received_at": "2026-10-02T11:25:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html paragraph containing \"প্রায়ই اقلیت প্রোটেস্ট্যান্ট\"",
+        "severity": "major",
+        "source_quote": "Throughout the country, the Catholic Church remained the predominant religion, clinging to their power through ruthless displays of physical force, most often directed towards the minority Protestant congregations.",
+        "suggested_fix": "Replace the untranslated Arabic word اقلیت with a Bengali equivalent. For example: \"প্রায়ই সংখ্যালঘু প্রোটেস্ট্যান্ট সম্প্রদায়গুলোর বিরুদ্ধে\" or \"প্রায়ই সংখ্যালঘু প্রোটেস্ট্যান্ট সম্প্রদায়গুলোর বিরুদ্ধে\" so the sentence reads entirely in Bengali.",
+        "translation_quote": "প্রদেশব্যাপী ক্যাথলিক চার্চ প্রধান ধর্ম হিসেবে ছিল, তাদের শক্তি ধরে রাখার জন্য নির্মম শারীরিক বলপ্রয়োগের মাধ্যমে—প্রায়ই اقلیت প্রোটেস্ট্যান্ট সম্প্রদায়গুলোর বিরুদ্ধে।"
+      }
+    ],
+    "passed": false,
+    "score": 85
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0a0d0d97-fa81-413b-be27-ca6c9ea5dfd4",
+    "response_id": "chatcmpl-EUVeNSgXVPBCbRI0cP3R0hp3hNgc3",
+    "usage": {
+      "completion_tokens": 708,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1538,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2246
+    }
+  },
+  "received_at": "2026-10-02T11:25:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Jouself lieg is ’n dwaasheid—<br>\n    “Vryheid, of slawerny?” is die vraag wat ek bring.</p>",
+        "severity": "minor",
+        "source_quote": "Lying to yourself is a foolish thing—\n    “Freedom, or bondage?” is the question I bring.",
+        "suggested_fix": "Make the Afrikaans phrasing more natural and idiomatic. For example: \"Om jouself te lieg is dwaasheid—\" or \"Om jouself te bedrieg is ’n dwaasheid—\". Preserve the HTML and line break.",
+        "translation_quote": "Jouself lieg is ’n dwaasheid—\n    “Vryheid, of slawerny?” is die vraag wat ek bring."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

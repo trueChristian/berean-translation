@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f19890ad-f30c-4eab-b8cb-2b9130ac95d2",
+    "response_id": "chatcmpl-EUVdwgd6z9Pqp7Y21W9noBeKNnjxt",
+    "usage": {
+      "completion_tokens": 954,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5289,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6243
+    }
+  },
+  "received_at": "2026-10-02T11:25:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p><em>…—लूका 19:12-13।</em></p>",
+        "severity": "minor",
+        "source_quote": "And he called his ten servants, and delivered them ten pounds, and said unto them, Occupy till I come –Luke 19:12-13.",
+        "suggested_fix": "Translate the phrase “Occupy till I come” into natural, idiomatic Hindi that conveys the charge to use/manage/engage the resources until the master returns. For example: \"और उन से कहा, 'मेरे आने तक काम में लगो'\" or \"'मेरे आने तक इनसे कारोबार करते रहो'\". Preserve the verse reference and surrounding HTML.",
+        "translation_quote": "\"मेरे आने तक यह ग्रहण करो\" –लूका 19:12-13।"
+      },
+      {
+        "location": "<p><em>हमारे प्रभु यीशु मसीह…प्रकटव्य का आत्मा…</em></p>",
+        "severity": "minor",
+        "source_quote": "That the God of our Lord Jesus Christ, the Father of glory, may give unto you the spirit of wisdom and revelation in the knowledge of him: The eyes of your understanding being enlightened;",
+        "suggested_fix": "Use a more natural Hindi rendering for “spirit of wisdom and revelation” (प्रकटव्य का आत्मा is awkward). Suggested: \"बुद्धि और प्रकटता का आत्मा\" or \"बुद्धि और प्रकट होने की आत्मा\" so the meaning is clear. Preserve surrounding punctuation, emphasis tags, and verse reference.",
+        "translation_quote": "\"वह आपको उसके ज्ञान में बुद्धि और प्रकटव्य का आत्मा दें; आपके समझ के नेत्र प्रकाशित हों;\""
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

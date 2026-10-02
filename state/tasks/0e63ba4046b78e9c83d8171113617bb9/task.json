@@ -2,7 +2,6 @@
   "article_id": "02db24ae-5132-49c6-a6fd-da73417871e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,45 +61,52 @@
         },
         "total_tokens": 9178
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1576,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5095,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6671
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "source.html — opening epigraph (Ephesians 1:17-18)",
-      "severity": "critical",
-      "source_quote": "That the God of our Lord Jesus Christ, the Father of glory, may give unto you the spirit of wisdom and revelation in the knowledge of him: The eyes of your understanding being enlightened; that ye may know what is the hope of his calling… –Ephesians 1:17-18.",
-      "suggested_fix": "Translate the quoted Scripture into Kiswahili, preserving verse numbers and punctuation and preserving the emphasis tags (italics and the strong tag around the emphasized fragment). For example (render only as guidance — translator should use standard Swahili Bible phrasing used elsewhere on the site): “Iwe Mungu wa Bwana wetu Yesu Kristo, Baba wa utukufu, akawaepushee roho ya hekima na ufunuo kwa kumjua yeye; macho ya moyo wenu yawe yaliwashwa, mpate kujua ni nini tumaini la wito wake… –Waefeso 1:17-18.” Ensure the Bible text is in Kiswahili and the citation remains “–Ephesians 1:17-18” replaced with conventional Kiswahili book name (e.g., “–Waefeso 1:17-18”).",
-      "translation_quote": "That the God of our Lord Jesus Christ, the Father of glory, may give unto you the spirit of wisdom and revelation in the knowledge of him: The eyes of your understanding being enlightened; that ye may know what is the hope of his calling… –Ephesians 1:17-18."
+      "location": "<p>...In Luke 19 is the parable...<em>He said therefore, A certain nobleman went into a far country... –Luke 19:12-13.</em></p>",
+      "severity": "major",
+      "source_quote": "A certain nobleman went into a far country to receive for himself a kingdom, and to return.",
+      "suggested_fix": "Translate 'a certain nobleman' with a Kiswahili phrase that preserves the original social rank (not 'mfalme'). For example: 'mwana mtu mwenye hadhi' or 'jamaa mwenye hadhi' or use a standard Bible phrasing such as 'mwana wa mtu wa hadhi.' Replace the sentence accordingly so it reads: «Mwanamtu mmoja mwenye hadhi alikwenda nchi mbali kupokea ufalme wake na kurudi.»",
+      "translation_quote": "Akasema hivyo: Mfalme fulani alikwenda nchi mbali kupokea ufalme wake na kurudi."
     },
     {
-      "location": "source.html — Luke 19 parable paragraph (Luke 19:12-13)",
-      "severity": "critical",
-      "source_quote": "He said therefore, A certain nobleman went into a far country to receive for himself a kingdom, and to return. And he called his ten servants, and delivered them ten pounds, and said unto them, Occupy till I come –Luke 19:12-13.",
-      "suggested_fix": "Translate the quoted Scripture into Kiswahili, preserving the verse numbers and book name in conventional Kiswahili form. For example (guidance): “Akasema hivyo, Mfalme fulani alienda nchi mbali kupokea ufalme kwake na kurudi. Akawaita watumishi wake kumi, akawapa mkate wa fedha kumi, akawaambia: Fanyeni biashara hadi nirudi –Luka 19:12-13.” Keep the text in Kiswahili and retain the citation as “–Luka 19:12-13”.",
-      "translation_quote": "He said therefore, A certain nobleman went into a far country to receive for himself a kingdom, and to return. And he called his ten servants, and delivered them ten pounds, and said unto them, Occupy till I come –Luke 19:12-13."
+      "location": "<h2>INSPIRATIONS FOR YOUTH (section/title)</h2>",
+      "severity": "minor",
+      "source_quote": "INSPIRATIONS FOR YOUTH",
+      "suggested_fix": "Use a concise Kiswahili equivalent that preserves the sense 'inspirations for youth.' Suggested replacements: 'MOTISHA KWA VIJANA' or 'MATOLEO YA MSUKUMO KWA VIJANA.' Replace the translated section value 'VICHANGIAJI KWA WATU WENYE UMRI MDOGO' which means 'contributors for young people' rather than 'inspirations for youth.'",
+      "translation_quote": "VICHANGIAJI KWA WATU WENYE UMRI MDOGO"
     },
     {
-      "location": "source.html — Matthew 5:13 quotation in “Where do I start?” section",
-      "severity": "critical",
+      "location": "<p>...Jesus said: <em>Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted? it is thenceforth good for nothing... –Matthew 5:13.</em></p>",
+      "severity": "minor",
       "source_quote": "Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted? it is thenceforth good for nothing, but to be cast out, and to be trodden under foot of men –Matthew 5:13.",
-      "suggested_fix": "Translate the quoted Scripture into Kiswahili and keep the reference in conventional Kiswahili book-name form. For example (guidance): “Ninyi ndio chumvi ya dunia; lakini ikiwa chumvi imepoteza utenu, ipatikanaje kuwasilishwa tena? Haina faida yoyote tena isipokuwa kutupwa nje na kutikaliwa na watu –Mathayo 5:13.” Ensure the Bible text is rendered into Kiswahili and the citation reads “–Mathayo 5:13”.",
-      "translation_quote": "Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted? it is thenceforth good for nothing, but to be cast out, and to be trodden under foot of men –Matthew 5:13."
-    },
-    {
-      "location": "source.html — Hebrews 12:1-2 quotation near confession/repentance paragraph",
-      "severity": "critical",
-      "source_quote": "Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight, and the sin which doth so easily beset us, and let us run with patience the race that is set before us, Looking unto Jesus the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God –Hebrews 12:1-2.",
-      "suggested_fix": "Translate the quoted Scripture into Kiswahili, preserving verse numbers and using the conventional Kiswahili book name. For example (guidance): “Kwa hivyo, tukiwa na wafuasi wengi wanaotuukunga kwa ushahidi, tufute uzito wote na dhambi inayotukazia kwa urahisi, tumefukuza kwa uvumilivu mbio zilizowekwa mbele yetu, tukimtazama Yesu mwanzilishi na mkamilifu wa imani yetu; kwa ajili ya furaha iliyokusudiwa kwake akavumilia msalaba, akavumilia aibu, na ameketi mkono wa kuume wa kiti cha enzi cha Mungu –Waebrania 12:1-2.” Make sure the Scripture block is translated into Kiswahili and the citation reads “–Waebrania 12:1-2”.",
-      "translation_quote": "Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight, and the sin which doth so easily beset us, and let us run with patience the race that is set before us, Looking unto Jesus the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God –Hebrews 12:1-2."
-    },
-    {
-      "location": "source.html — closing quoted benediction (Romans 15:13)",
-      "severity": "critical",
-      "source_quote": "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Ghost –Romans 15:13.",
-      "suggested_fix": "Translate the quoted Scripture into Kiswahili and keep the verse reference in conventional Kiswahili form. For example (guidance): “Mungu wa matumaini awajaze nanyi furaha yote na amani katika kumwamini, mpasame katika matumaini kwa nguvu ya Roho Mtakatifu –Warumi 15:13.” Ensure the Scripture text is translated into Kiswahili and the citation reads “–Warumi 15:13”.",
-      "translation_quote": "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Ghost –Romans 15:13."
+      "suggested_fix": "Render the quoted Scripture using a clear, conventional Kiswahili Bible phrasing so the meaning is unmistakable. For example: «Ninyi ndio chumvi ya dunia; lakini ikiwa chumvi imepoteza ladha yake, vipi itapata ladha tena? Haifai tena chochote, ila kutupwa nje na kutamilikiwa na watu.» Or use the standard Union/Modern Kiswahili Bible wording if the publication follows a particular Bible translation. Replace the current sentence to match that conventional wording while preserving the verse reference and punctuation.",
+      "translation_quote": "<em>Ninyi ndio chumvi ya dunia; lakini ikiwa chumvi imepoteza utenu, ivitakavyopendwa kutumika tena? Haina maana tena isipokuwa kutupwa nje na kutikaliwa na watu –Mathayo 5:13.</em>"
     }
   ],
+  "finished_at": "2026-10-02T11:25:26+00:00",
   "id": "0e63ba4046b78e9c83d8171113617bb9",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "swa",
@@ -144,13 +150,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 82,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d4096c8e219a9ff87d56f7ba5b34e9e5d1258bfb4281edd00108b01120b10b28.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "e60beaba9e12466f123cfd1ae7a96811ce97cb1cb87bf5ed6c8de7f6afdd6660",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

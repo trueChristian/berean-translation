@@ -2,7 +2,6 @@
   "article_id": "c7009feb-1e58-4c54-a5e9-ae0bf90ed9cf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,31 +61,38 @@
         },
         "total_tokens": 6262
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 768,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3948,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4716
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "source.title / translation.title",
+      "location": "source.html — first paragraph (Freud quote)",
       "severity": "major",
-      "source_quote": "Group Morality vs Godly Judgment",
-      "suggested_fix": "Translate the article title into Modern Standard Arabic and preserve meaning and theological emphasis. For example: «أخلاق الجماعة مقابل حكم الله». Place the translated title exactly in the translation.title field.",
-      "translation_quote": "Group Morality vs Godly Judgment"
-    },
-    {
-      "location": "source.section / translation.section",
-      "severity": "major",
-      "source_quote": "Featured Article",
-      "suggested_fix": "Translate the section label into Modern Standard Arabic. For example: «مقال متميز». Replace the English phrase in the translation.section field with the Arabic equivalent.",
-      "translation_quote": "Featured Article"
-    },
-    {
-      "location": "source.html (final paragraph) / translation.html (final paragraph)",
-      "severity": "minor",
-      "source_quote": "May each one of us, both collectively and individually, focus our faith on Jesus Christ.",
-      "suggested_fix": "The Arabic rendering «ليحنِ كل واحد منا، جماعيًا وفرديًا، إيماننا نحو يسوع المسيح.» uses the verb ليحنِ which is awkward and can be misconstrued. Use a clearer, idiomatic Modern Standard Arabic phrasing that preserves the original petitionary tone. Suggested revision: «ليجعل كل واحد منا، جماعيًا وفرديًا، إيمانه منصبًا على يسوع المسيح.» or «ليكرّس كل واحد منا، جماعيًا وفرديًا، إيمانه ليسوع المسيح.»",
-      "translation_quote": "ليحنِ كل واحد منا، جماعيًا وفرديًا، إيماننا نحو يسوع المسيح."
+      "source_quote": "“only through the solidarity of all the participants (of a group) could the sense of guilt be assuaged.”",
+      "suggested_fix": "Replace the Arabic word «الفداء من شعور الذنب لا يتحقق إلا من خلال تضامن جميع المشاركين (في المجموعة)» with a translation that preserves the original meaning 'the sense of guilt could be lessened/assuaged.' For example: «لا يمكن تخفيف شعور الذنب إلا من خلال تضامن جميع المشاركين (في المجموعة)». Keep the same punctuation and quotation marks as in the translation.",
+      "translation_quote": "«الفداء من شعور الذنب لا يتحقق إلا من خلال تضامن جميع المشاركين (في المجموعة)». "
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "3915eee0677b6b363bfadb3dd1fcbebb",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "ara",
@@ -136,7 +142,7 @@
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/007fc316198faf474d16a29be6ce55b2d1edd73a2740466b844468e370ef99fd.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "1f7c34bc947a663a71aab745b050e25b087d38fd1ef4f605c7cdf8255d9c68b7",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

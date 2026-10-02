@@ -2,7 +2,6 @@
   "article_id": "cc225bc9-2dda-46f3-a628-13af4fd95e7a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,24 +61,37 @@
         },
         "total_tokens": 5160
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 837,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3088,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3925
+      }
     }
   ],
   "findings": [
     {
-      "location": "<article> paragraph containing Hebrews 7:12 (near end)",
-      "severity": "major",
-      "source_quote": "For the priesthood being changed, there is made of necessity a change also of the law –Hebrews 7:12.",
-      "suggested_fix": "Translate the clause without adding a conditional 'si' that changes the original assertion. A faithful Spanish rendering preserving the original meaning: \"Porque cambiado el sacerdocio, es necesario que haya también cambio de la ley — Hebreos 7:12.\" (Preserve the <em> tags around the verse as in the source.)",
-      "translation_quote": "Porque si cambia el sacerdocio, es necesario que haya también cambio de ley – Hebreos 7:12."
-    },
-    {
-      "location": "<article> paragraph containing Ephesians 4:14 (preceding final paragraph)",
+      "location": "<article> paragraph containing Hebrews 7:12",
       "severity": "minor",
-      "source_quote": "That we [should] henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine… –Ephesians 4:14.",
-      "suggested_fix": "Restore the parallel sense 'tossed to and fro, and carried about' so the Spanish conveys both ideas. Suggested faithful rendering: \"para que ya no seamos niños, sacudidos y llevados de acá para allá por todo viento de doctrina… — Efesios 4:14.\" (Keep the <em> tags around the verse as in the source.)",
-      "translation_quote": "para que ya no seamos niños, sacudidos por todo viento de doctrina… – Efesios 4:14."
+      "source_quote": "For the priesthood being changed, there is made of necessity a change also of the law –Hebrews 7:12.",
+      "suggested_fix": "Revise to a more natural and grammatical Spanish that preserves the printed meaning, e.g.: \"Porque cambiado el sacerdocio, es necesario que también haya un cambio de la ley – Hebreos 7:12.\" or \"Porque cambiado el sacerdocio, es necesario que haya también un cambio en la ley – Hebreos 7:12.\" Preserve the <em> tags around the verse exactly as in the source HTML.",
+      "translation_quote": "<em>Porque cambiado el sacerdocio, es necesario que haya también cambio de la ley – Hebreos 7:12.</em>"
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "94a3e063dbd5e1306d07e9f5173491a7",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "spa",
@@ -123,13 +135,13 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/75bf9f86ddf02e207a89e1a74e3d26989515704eae85bcbc97e911af15e7ea76.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "1d62440b3aaa33963e8085784efc020cfa0cf8cb3b508148be95c55907a09059",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

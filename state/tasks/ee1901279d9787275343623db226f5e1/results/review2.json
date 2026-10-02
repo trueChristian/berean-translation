@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "314c507c-8436-458b-b6ee-ff8224bbc847",
+    "response_id": "chatcmpl-EUVdzUXPkFIOO7Wubf3Uk0PqmnCwz",
+    "usage": {
+      "completion_tokens": 893,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4987,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5880
+    }
+  },
+  "received_at": "2026-10-02T11:25:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.section",
+        "severity": "minor",
+        "source_quote": "INSPIRATIONS FOR YOUTH",
+        "suggested_fix": "Use a more natural Norwegian plural or idiomatic rendering to match the English plural nuance. Suggested translation: \"INSPIRASJONER FOR UNGDOM\" or keep as \"INSPIRASJON FOR UNGDOM\" if the publication's house style prefers an uncountable singular. Preserve exact tag and capitalization.",
+        "translation_quote": "INSPIRASJON FOR UNGDOM"
+      },
+      {
+        "location": "source.html (Luke quote, Luke 19:12-13)",
+        "severity": "minor",
+        "source_quote": "He said therefore, A certain nobleman went into a far country to receive for himself a kingdom, and to return. And he called his ten servants, and delivered them ten pounds, and said unto them, Occupy till I come –Luke 19:12-13.",
+        "suggested_fix": "The chosen Norwegian \"Forvalt dem til jeg kommer\" is acceptable, but it softens the sense of 'occupy/engage [the resources] until I come'. Consider a phrasing that more closely mirrors the active sense of \"occupy/engage\" such as: \"Forvalt dem og tjen med dem til jeg kommer\" or \"Bruk dem til jeg kommer\". Keep the scripture reference unchanged and preserve the <em> tags.",
+        "translation_quote": "Han sa derfor: En viss adelsmann drog bort til et fjernt land for å få seg et kongedømme og for å komme igjen. Og han kalte de ti tjenerne sine til seg og gav dem ti pund og sa til dem: Forvalt dem til jeg kommer –Lukas 19:12-13."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

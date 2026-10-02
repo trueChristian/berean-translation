@@ -2,7 +2,6 @@
   "article_id": "02db24ae-5132-49c6-a6fd-da73417871e3",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,31 +61,44 @@
         },
         "total_tokens": 8520
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1330,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4932,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6262
+      }
     }
   ],
   "findings": [
     {
-      "location": "source.html — Luke quotation (near: \"gave them ten pounds\")",
-      "severity": "major",
-      "source_quote": "He said therefore, A certain nobleman went into a far country to receive for himself a kingdom, and to return. And he called his ten servants, and delivered them ten pounds, and said unto them, Occupy till I come –Luke 19:12-13.",
-      "suggested_fix": "Replace the mistranslated monetary term with a conventional Russian biblical equivalent for \"pounds/mina\". For example: \"Он сказал же: некто знатный пошёл в далёкую страну принять себе царство и возвратиться; и призвав десять слуг своих, дал им десять мин и сказал им: занимайтесь, доколе я приду – Луки 19:12–13.\" (use «десять мин» or another standard equivalent such as «десять мен»/«десять мины», but do not use the nonstandard word «минариев\"). Ensure the rest of the verse text remains exactly as in the translation and keep the same verse reference punctuation and placement.",
-      "translation_quote": "Он сказал же: некто знатный пошёл в далёкую страну принять себе царство и возвратиться; и призвав десять слуг своих, дал им десять минариев и сказал им: занимайтесь, доколе я приду – Луки 19:12-13."
-    },
-    {
-      "location": "source.html — Hebrews quotation (Hebrews 12:1-2)",
-      "severity": "major",
-      "source_quote": "Wherefore seeing we also are compassed about with so great a cloud of witnesses, let us lay aside every weight, and the sin which doth so easily beset us, and let us run with patience the race that is set before us, Looking unto Jesus the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God –Hebrews 12:1-2.",
-      "suggested_fix": "Render the quoted Scripture in a wording that preserves the original clauses and theological sense. For example: \"Отсюда, имея вокруг нас такое множество свидетелей, отвергнем всякое бремя и грех, который так легко опутывает нас, и будем терпеливо бежать назначенную нам гонку, взирая на Иисуса, Начальника и Совершителя веры нашей; Который ради предлежащей Ему радости претерпел крест, не убоявшись посрамления и иже одесную престола Божия – Евреям 12:1-2.\" (adjust to match standard Russian Bible phrasing while preserving the printed English meaning). Replace the current phrase «ту легкомысленность, которая так легко опутывает нас» with «грех, который так легко опутывает нас» or similar literal equivalent to maintain fidelity.",
-      "translation_quote": "Итак, имея вокруг нас такое множество свидетелей, отвергнем всякий обременяющий нас грех и ту легкомысленность, которая так легко опутывает нас, и будем терпеливо бежать назначенную нам гонку, взирая на Иисуса, Начальника и Совершителя веры нашей; Который ради предлежащей Ему радости претерпел крест, не убоявшись посрамления и взошёл одесную престола Божия – Евреям 12:1-2."
-    },
-    {
-      "location": "source.section (metadata)",
+      "location": "Paragraph 2 (opening paragraphs) — sentence: \"...Означает ли практическая жизнь христианина лишь быть членом церкви и каждый день иметь личные духовные часы?\"",
       "severity": "minor",
-      "source_quote": "INSPIRATIONS FOR YOUTH",
-      "suggested_fix": "Translate the section metadata into Russian. For example: \"Вдохновение для молодёжи\" or \"Вдохновения для молодёжи\". Ensure the translated string replaces the English section value in the translation metadata.",
-      "translation_quote": "INSPIRATIONS FOR YOUTH"
+      "source_quote": "Does practically living out our Christian life just mean being a member of our church and having personal devotions every day?",
+      "suggested_fix": "Use a more idiomatic Russian phrase for \"personal devotions\" to match common church usage. For example: \"...означает ли практическая христианская жизнь лишь быть членом церкви и ежедневно иметь личное время молитвы и чтения Библии?\" Preserve original HTML structure and tags.",
+      "translation_quote": "...состоит ли наша христианская жизнь только в этом? Означает ли практическая жизнь христианина лишь быть членом церкви и каждый день иметь личные духовные часы?"
+    },
+    {
+      "location": "Several places (throughout article) — inconsistent second‑person address: shifts between 'ты' and 'вы'",
+      "severity": "minor",
+      "source_quote": "What is purpose? Do you have purpose? ... What are the things you are pursuing... Do you spend time praying and seeking God’s will for your life?",
+      "suggested_fix": "Choose and use a consistent second‑person form throughout the translation (either 'ты' for informal/young audience or 'вы' for formal/plural). For a youth section 'ты' may be appropriate; revise lines that use 'вы' to 'ты' (or vice versa) for consistency. Examples to change: \"Есть ли у тебя предназначение?\" is 'ты' while earlier and later passages use 'вам/вы' — harmonize them. Preserve HTML structure.",
+      "translation_quote": "Что такое предназначение? Есть ли у тебя предназначение?... Тратишь ли ты время на молитву и в поисках воли Божьей для своей жизни? ... Начните с просьбы к Богу помочь вам увидеть области..."
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "93700fee69d4b752b0f37827255ddab9",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "rus",
@@ -130,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 95,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d4096c8e219a9ff87d56f7ba5b34e9e5d1258bfb4281edd00108b01120b10b28.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "e60beaba9e12466f123cfd1ae7a96811ce97cb1cb87bf5ed6c8de7f6afdd6660",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

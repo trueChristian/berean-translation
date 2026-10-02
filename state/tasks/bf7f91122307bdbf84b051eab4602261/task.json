@@ -2,7 +2,6 @@
   "article_id": "b9a7b1b8-0a23-4e53-b835-31bf5a42dc33",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,24 +61,51 @@
         },
         "total_tokens": 13724
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1462,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8230,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9692
+      }
     }
   ],
   "findings": [
     {
-      "location": "source.html — first paragraph (John quote) and final paragraph (Luke and Matthew quotes)",
-      "severity": "critical",
-      "source_quote": "<em>If I will that he [John] tarry till I come, what is that to thee? follow thou me. John 21:22.</em>\n...\n<em>…The days will come, when ye shall desire to see one of the days of the Son of man, and ye shall not see it. And they shall say to you, See here; or, see there: go not after them, nor follow them –Luke 17: 22-23.</em>\n...\n<em>and then shall the end come –Matthew 24:14.</em>",
-      "suggested_fix": "Translate each quoted Scripture passage into Dutch, preserving the exact chapter and verse numbers, punctuation, italics, and placement. For example: \n- Replace the John quote with a faithful Dutch rendering and keep \"John 21:22.\" (e.g. \"<em>Indien ik wil dat hij [Johannes] blijft totdat ik kom, wat gaat dat jou aan? Volg mij. Johannes 21:22.</em>\") — use a natural, faithful translation of the quoted text. \n- Replace the Luke quote with a Dutch rendering and keep \"Luke 17:22-23.\" (e.g. \"<em>...Er zullen dagen komen, waarin gij begeert één van de dagen des Mensenzoons te zien, en gij zult het niet zien. En zij zullen tot u zeggen: Zie hier, of zie daar; gaat niet daarheen, volgt ze niet — Lukas 17:22-23.</em>\") \n- Replace the Matthew quote with a Dutch rendering and keep \"Matthew 24:14.\" (e.g. \"<em>en dan zal het einde komen — Mattheüs 24:14.</em>\").\nDo not leave the quoted Biblical prose in English. Keep the HTML tags, italics, and the exact verse references as in the source.",
-      "translation_quote": "<em>If I will that he [John] tarry till I come, what is that to thee? follow thou me. John 21:22.</em>\n...\n<em>…The days will come, when ye shall desire to see one of the days of the Son of man, and ye shall not see it. And they shall say to you, See here; or, see there: go not after them, nor follow them –Luke 17: 22-23.</em>\n...\n<em>and then shall the end come –Matthew 24:14.</em>"
+      "location": "Paragraph 3 (sentence containing English loanword)",
+      "severity": "minor",
+      "source_quote": "Now, two thousand years since Christ gave that promise, His soon return seems just as imminent as it did to the first century believers.",
+      "suggested_fix": "Replace the English loanword 'imminent' with a correct Dutch equivalent: bijvoorbeeld \"nabij\" of \"aanstaande\". Keep the HTML tags and structure unchanged. Suggested Dutch: \"Nu, tweeduizend jaar nadat Christus die belofte gaf, lijkt Zijn spoedige terugkeer nog even nabij als voor de gelovigen van de eerste eeuw.\"",
+      "translation_quote": "Nu, tweeduizend jaar nadat Christus die belofte gaf, lijkt Zijn nabij terugkeer nog even imminent als voor de gelovigen van de eerste eeuw."
     },
     {
-      "location": "source.html — paragraph mentioning Menno Simmons / Menno Simons",
-      "severity": "major",
-      "source_quote": "This would be the church of Menno Simmons, and the root of the Mennonite churches of today.",
-      "suggested_fix": "Restore the author’s exact proper-name spelling from the English source. Replace the translated name with the original \"Menno Simmons\" to match the authoritative English text. Preserve surrounding punctuation and HTML structure. (Do not change other correct Dutch renderings surrounding the name.)",
-      "translation_quote": "Dit zou de kerk van Menno Simons zijn en de wortel van de hedendaagse doopsgezinde kerken."
+      "location": "Paragraph final (sentence about world reconciling to the church)",
+      "severity": "minor",
+      "source_quote": "Not only would they accept a position of power in the empire, but they would also accept Constantine as a benefactor and protector of the church itself.",
+      "suggested_fix": "Correct the Dutch wording \"het uitstreken van hen als voorbeelden\" which is ungrammatical/unclear. Replace with a clear equivalent that preserves the sense: e.g. \"hen tot voorbeelden van het rijk maken\" or \"hen als voorbeelden voor het rijk neerzetten\". Keep tags and order unchanged. Example: \"... van het kruisigen, onthoofden en martelen van hen naar het tot voorbeelden voor het rijk maken van hen.\"",
+      "translation_quote": "Die gunst schijnbaar beïnvloedde de helderheid waarmee zij de schijnbare verzoening van de wereld met de kerk bekeken. Niet alleen accepteerden zij een positie van macht in het rijk, zij accepteerden ook Constantijn als weldoener en beschermer van de kerk zelf. In hun gedachten was de dag des Heren gekomen en was Constantijn de IJzeren staf waarmee God zou regeren."
+    },
+    {
+      "location": "Paragraph about continued expectation (word choice)",
+      "severity": "minor",
+      "source_quote": "In the light of this continued earnest expectation of the end times, what have we to learn about our interpretations of prophecy from those who have attempted to decipher the prophetic portions of Scripture in earlier ages?",
+      "suggested_fix": "The translation uses \"aanhoudende eerlijke verwachting\", which is awkward and changes tone. Suggest using a more idiomatic Dutch rendering of \"continued earnest expectation\": e.g. \"aanhoudende ernstige verwachting\" or \"aanhoudende innige verwachting\". Keep HTML structure unchanged. Example: \"In het licht van deze aanhoudende innige verwachting van de eindtijd, wat leren wij...\"",
+      "translation_quote": "In het licht van deze aanhoudende eerlijke verwachting van de eindtijd, wat leren wij over onze interpretaties van profetie van hen die in vroegere tijden hebben geprobeerd de profetische gedeelten van de Schrift te ontcijferen?"
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "bf7f91122307bdbf84b051eab4602261",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "nld",
@@ -123,13 +149,13 @@
     }
   },
   "protected": false,
-  "quality_score": 40,
+  "quality_score": 96,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1b89de23229eb76f45635f4ff8dcdc61cf2a0af8d7f5b597cc9c5c560ef20e62.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d586dd43ac554896b8fef04467efcb67fca005c8dae5313bc95967b13d0bd0fc",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

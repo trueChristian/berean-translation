@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9dc609ad-6d99-40d0-b38f-32cfb075bda5",
+    "response_id": "chatcmpl-EUVeTzaTsgTcWLafqWRBdnkbK0sot",
+    "usage": {
+      "completion_tokens": 791,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1582,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2373
+    }
+  },
+  "received_at": "2026-10-02T11:25:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> poem, stanza 5 (English: \"We need time for God, and our families too.\\n    Maybe less time at work could surely do.\")",
+        "severity": "minor",
+        "source_quote": "We need time for God, and our families too.\n    Maybe less time at work could surely do.",
+        "suggested_fix": "Make the Hindi phrasing more natural and idiomatic. Replace “शायद काम में कम समय देना निश्चित रूप से मदद कर सकता है।” with a concise, idiomatic line such as: “शायद काम में थोड़ा कम समय देना ही काफी होगा।”",
+        "translation_quote": "हमें परमेश्वर के लिए समय चाहिए, और अपने परिवार के लिए भी।\n    शायद काम में कम समय देना निश्चित रूप से मदद कर सकता है।"
+      },
+      {
+        "location": "<article> poem, stanza 7 (English: \"We all know the Bible—no work, no eat.\\n    But money will bind us until death we meet.\")",
+        "severity": "minor",
+        "source_quote": "We all know the Bible—no work, no eat.\n    But money will bind us until death we meet.",
+        "suggested_fix": "The Hindi rendering is understandable but the second line is slightly awkward in tense/negation. Replace “पर पैसा हमें तब तक बाँधे रखेगा जब तक हम मृत्यु से न मिलें।” with a more natural phrasing such as: “पर पैसा हमें तब तक बाँधे रखेगा जब तक हम मृत्यु से मिल नहीं लेते।” Also consider making the proverb line slightly more idiomatic: “हम सब बाइबल जानते हैं—ना काम, ना पेट भरना।” (optional)",
+        "translation_quote": "हम सब बाइबिल जानते हैं—न काम, न खाना।\n    पर पैसा हमें तब तक बाँधे रखेगा जब तक हम मृत्यु से न मिलें।"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

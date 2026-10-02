@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "bb7278d4-d95c-4f52-a4e6-383781076c82",
+    "response_id": "chatcmpl-EUVea4ZdgttdMJUejYK5PValak5LZ",
+    "usage": {
+      "completion_tokens": 935,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9731,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 4864
+      },
+      "total_tokens": 10666
+    }
+  },
+  "received_at": "2026-10-02T11:25:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing 1 Corinthians quote (in HTML: the paragraph under \"做些小家务\" that contains the Paul quote)",
+        "severity": "minor",
+        "source_quote": "…one member suffer[s], all the members suffer with it… –1 Corinthians 12:26.",
+        "suggested_fix": "Translate the English Bible reference into standard Mandarin Chinese book-name form and keep the chapter/verse numbers and placement unchanged. For example: “…一个肢体受苦，所有肢体就一同受苦…——哥林多前书 12:26.” Preserve punctuation and HTML structure.",
+        "translation_quote": "…一个肢体受苦，所有肢体就一同受苦… –1 Corinthians 12:26."
+      },
+      {
+        "location": "Endnotes heading (the <h2> inside section class=\"endnotes\")",
+        "severity": "minor",
+        "source_quote": "<h2><em>Endnotes:</em></h2>",
+        "suggested_fix": "Translate the heading into Mandarin while preserving the HTML tags. For example: <h2><em>注释：</em></h2> or <h2><em>尾注：</em></h2>. Do not alter the endnote links themselves.",
+        "translation_quote": "<h2><em>Endnotes:</em></h2>"
+      }
+    ],
+    "passed": true,
+    "score": 95
+  }
+}

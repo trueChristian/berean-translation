@@ -2,7 +2,6 @@
   "article_id": "b9a7b1b8-0a23-4e53-b835-31bf5a42dc33",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26611a137b61432fa3202d0b66e356e2",
   "campaign": "gh-36992568621",
   "created_at": "2026-10-02T09:56:08+00:00",
   "events": [
@@ -62,52 +61,44 @@
         },
         "total_tokens": 14359
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1002,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8405,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9407
+      }
     }
   ],
   "findings": [
     {
-      "location": "source.html — paragraph 1 (scripture reference)",
-      "severity": "major",
-      "source_quote": "<em>If I will that he [John] tarry till I come, what is that to thee? follow thou me. John 21:22.</em>",
-      "suggested_fix": "Translate the book name into Russian and keep chapter/verse unchanged. Preserve punctuation and placement. For example: <em>Если я захочу, чтобы он [Иоанн] оставался, пока Я приду, — что тебе до того? Иди за Мною. Иоанна 21:22.</em>",
-      "translation_quote": "<em>Если я захочу, чтобы он [Иоанн] остался, пока приду я, — что тебе до того? иди за мною. John 21:22.</em>"
-    },
-    {
-      "location": "source.html — final paragraph (Luke reference)",
-      "severity": "major",
-      "source_quote": "<em>…The days will come, when ye shall desire to see one of the days of the Son of man, and ye shall not see it. And they shall say to you, See here; or, see there: go not after them, nor follow them –Luke 17: 22-23.</em>",
-      "suggested_fix": "Translate the book name 'Luke' into Russian (Иоанна/Луки as appropriate to the verse form) and keep chapter/verse numbers. Also ensure the em-tagged quoted text matches the translation. For example: <em>…Настанут дни, когда вы будете желать увидеть один из дней Сына Человеческого, и вы не увидите его. И скажут вам: вот здесь; или: там; не ходите за ними и не бегите — Луки 17:22-23.</em>",
-      "translation_quote": "<em>…Настанут дни, когда вы будете желать увидеть один из дней Сына Человеческого, и вы не увидите его. И скажут вам: вот здесь; или: там; не ходите и не бегите за ними — Luke 17:22-23.</em>"
-    },
-    {
-      "location": "source.html — final sentence (Matthew reference)",
-      "severity": "major",
-      "source_quote": "<em>and then shall the end come –Matthew 24:14.</em>",
-      "suggested_fix": "Translate the book name 'Matthew' into Russian and keep chapter/verse numbers. For example: <em>и тогда придёт конец — Матфея 24:14.</em>",
-      "translation_quote": "<em>и тогда придёт конец — Matthew 24:14.</em>"
-    },
-    {
-      "location": "source.html — paragraph 1 (idiom/word choice)",
+      "location": "Paragraph mentioning 'Menno Simmons' (around the section on Anabaptist split)",
       "severity": "minor",
-      "source_quote": "\"would be preached unto all the world\"",
-      "suggested_fix": "Use the more natural Russian idiom \"весь мир\" rather than \"всем миру\". Replace the phrase in the translation with \"весь мир\": e.g. \"Его историю и Его Евангелие должны были проповедовать всему миру те, кто называет Его Господом.\"",
-      "translation_quote": "\"Историю Его жизни и Его Евангелие должны были проповедовать всем миру те, кто называет Его Господом.\""
+      "source_quote": "This would be the church of Menno Simmons, and the root of the Mennonite churches of today.",
+      "suggested_fix": "Ensure the proper name in Russian reflects the author’s English spelling or an established Russian form. Options: (1) If keeping the English spelling 'Menno Simmons' as printed in the source, use a direct transliteration 'Менно Симмонс'. (2) If the intended reference is Menno Simons (common historical form), use the established Russian form 'Менно Симонс' or 'Менно Симонсa (Менно Симонс)'. Keep the spelling consistent with the source's printed form or a standard Russian historiographical form.",
+      "translation_quote": "Это была церковь Менно Симонса и корень современных меннонитских общин."
     },
     {
-      "location": "source.html — paragraph 4 (grammar/clarity)",
+      "location": "Sentence in English source with 'Munser' (paragraph describing Jans moving to Munser in early 1534)",
       "severity": "minor",
-      "source_quote": "\"His birth would be unnoticed in a society that was not only in desperate need of, but also expecting, a Savior to arrive.\"",
-      "suggested_fix": "Smooth the Russian construction to agree grammatically: replace \"но и ожидая Его прихода\" with \"но и ожидало Его прихода.\" For example: \"Его рождение осталось бы незамеченным в обществе, которое не только крайне нуждалось в Спасителе, но и ожидало Его прихода.\"",
-      "translation_quote": "\"Его рождение осталось бы незаметным в обществе, которое не только крайне нуждалось в Спасителе, но и ожидая Его прихода.\""
-    },
-    {
-      "location": "source.html — multiple paragraphs (proper name consistency)",
-      "severity": "minor",
-      "source_quote": "Muensterites / Munster (city)",
-      "suggested_fix": "Ensure consistent and conventional Russian rendering of the place and derived adjective. Use «Мюнстер» for the city and «мюнстериты» (or «мюнстерцы») for the group. For example: replace «менстеритов» and any variants with «мюнстеритов» and keep consistency with instances of «Мюнстер» in the text.",
-      "translation_quote": "\"менстеритов\" (and other occurrences)"
+      "source_quote": "The Jans moved to Munser in early 1534, and began sending out prophets and messengers, who called all “Anabaptists” to congregate at this “New Jerusalem”.",
+      "suggested_fix": "The English source contains a likely typographical error 'Munser'. The translator corrected this to 'Мюнстер' (the historically correct city name). Recommend keeping the corrected, standard place name 'Мюнстер' in Russian (no change needed) or, if strict fidelity to source orthography is required, preserve the original spelling 'Munser' as 'Мунсер'.",
+      "translation_quote": "Яны прибыли в Мюнстер в начале 1534 года и начали посылать пророков и вестников, призывавших всех «анабаптистов» собраться в этой «Новой Иерусалиме»."
     }
   ],
+  "finished_at": "2026-10-02T11:25:27+00:00",
   "id": "bdfe6a29e51091322cf440d7d910831f",
   "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
   "language": "rus",
@@ -151,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1b89de23229eb76f45635f4ff8dcdc61cf2a0af8d7f5b597cc9c5c560ef20e62.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d586dd43ac554896b8fef04467efcb67fca005c8dae5313bc95967b13d0bd0fc",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
