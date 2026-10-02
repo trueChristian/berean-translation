@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "135aa3af-788b-4f13-9cc1-601d68bedb8c",
+    "response_id": "chatcmpl-EUILiVuO0pzI68Gk1G2hpMhsy7KxD",
+    "usage": {
+      "completion_tokens": 1027,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6748,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7775
+    }
+  },
+  "received_at": "2026-10-02T00:07:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “God’s people had been instructed by Jeremiah…” (around Psalm 137 / Jeremiah references)",
+        "severity": "major",
+        "source_quote": "God’s people had been instructed by Jeremiah to build houses, plant gardens, and raise families.",
+        "suggested_fix": "Remove the added timing/period phrase. Translate faithfully without introducing a specific historical marker not present in the source. For example: \"하나님의 백성은 예레미야에게 집을 짓고, 정원을 심고, 자녀를 키우라고 명령받았습니다.\" Preserve the original sentence structure and do not add \"여호야김 때에.\"",
+        "translation_quote": "여호야김 때에 예레미야가 그들에게 집을 짓고, 정원을 심고, 자녀를 일으키라고 명령했음에도 불구하고 그들은 그 가치를 보지 못했습니다."
+      },
+      {
+        "location": "Article subtitle",
+        "severity": "minor",
+        "source_quote": "and ‘round me rings the music of the spheres.",
+        "suggested_fix": "Translate the subtitle into the target language or explicitly mark it as intentionally left in the original language. For a faithful Korean rendering consistent with the rest of the translation, consider: \"그리고 내 주위에는 천구의 음악이 울려 퍼진다.\" If the publisher prefers to keep the original English phrase, add a brief Korean translation in parentheses.",
+        "translation_quote": "and ‘round me rings the music of the spheres."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

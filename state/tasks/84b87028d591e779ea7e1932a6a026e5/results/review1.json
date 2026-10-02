@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c49ab756-998b-4ded-bfe9-d3252967fa7c",
+    "response_id": "chatcmpl-EUILtYgRYEeqH7t7n7v1McEcHiYco",
+    "usage": {
+      "completion_tokens": 742,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2814,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3556
+    }
+  },
+  "received_at": "2026-10-02T00:07:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<h2>Toothaches and Road Trips</h2>",
+        "severity": "major",
+        "source_quote": "Toothaches and Road Trips",
+        "suggested_fix": "Replace the translated heading text inside the same tag to accurately reflect the source meaning while preserving the HTML tag. For example: <h2>치통과 자동차 여행</h2>",
+        "translation_quote": "<h2>이쑤시개 통증과 자동차 여행</h2>"
+      },
+      {
+        "location": "<title>Procrastination Overload</title> (article title)",
+        "severity": "minor",
+        "source_quote": "Procrastination Overload",
+        "suggested_fix": "Optionally replace the translated title with a more natural Korean rendering that preserves the original meaning while keeping the same tag. For example: <title>미루기의 과부하</title> or <title>미루기 과부하</title> (either is acceptable).",
+        "translation_quote": "<title>지연 과부하</title>"
+      }
+    ],
+    "passed": false,
+    "score": 85
+  }
+}

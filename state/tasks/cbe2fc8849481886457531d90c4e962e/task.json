@@ -2,7 +2,6 @@
   "article_id": "93978dae-706d-43d4-abee-6b6e011683fa",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "74267bba8f334e95976248f4837f4b9e",
   "campaign": "gh-36910113689",
   "created_at": "2026-10-01T18:54:09+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 4481
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1046,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4102,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5148
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<p>Sometimes this type of overload is not public knowledge. Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates. At the same time, other saints are suffering deeply on the sidelines with little recognition or financial aid.</p>",
+      "severity": "minor",
+      "source_quote": "Traumatic events in our plain circles tend to receive prayer, finances, and weekly budget updates.",
+      "suggested_fix": "Replace the translated phrase \"우리의 평범한 범주에서 발생한 외상 사건\" with wording that preserves the sense of the English \"plain circles\" (a reference to Plain/Plain-Live Christian communities) rather than a literal/ambiguous rendering of \"plain\". For example: \"플레인(Plain) 공동체에서 발생한 외상 사건은 기도, 재정적 도움, 주간 예산 업데이트를 받는 경향이 있습니다.\"",
+      "translation_quote": "우리의 평범한 범주에서 발생한 외상 사건은 기도, 재정적 도움, 주간 예산 업데이트를 받는 경향이 있습니다."
+    },
+    {
+      "location": "<h2>Find routine</h2>\n  <p>When stress prevails, racing thoughts, forgetfulness, and inability to focus comes uninvited. Having a routine can bring some rhythm to your mental well-being. The smallest normalcy brings a moment of pleasure, and it is soothing to the soul.</p>",
+      "severity": "minor",
+      "source_quote": "Find routine",
+      "suggested_fix": "The current translation rendered the heading as \"일상(routine)을 찾아라\", which introduces an unnecessary English parenthetical and slightly non-idiomatic form. Suggest a more natural Korean heading preserving the original meaning: \"일상을 찾아라\" or \"규칙적인 일상을 찾아라\".",
+      "translation_quote": "일상(routine)을 찾아라"
+    }
+  ],
+  "finished_at": "2026-10-02T00:07:32+00:00",
   "id": "cbe2fc8849481886457531d90c4e962e",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "kor",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/655f2b893d535149fb7f0e71fcdd48b885970929ae2439021fc6d8de3cd6b11b.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

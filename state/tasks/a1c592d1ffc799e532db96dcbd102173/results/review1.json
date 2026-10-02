@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "110e96b3-4965-424d-84f7-e3f12b706f4f",
+    "response_id": "chatcmpl-EUILt3zJga0umRCAQwWRMVuSpLn0C",
+    "usage": {
+      "completion_tokens": 633,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6833,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7466
+    }
+  },
+  "received_at": "2026-10-02T00:07:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>…My brother responded with, “Some plant, some water, but God gives the increase.”…</p>",
+        "severity": "minor",
+        "source_quote": "Some plant, some water, but God gives the increase.",
+        "suggested_fix": "Preserve the original sense of \"plant\" (심다/심는 사람 or 심는 일) rather than translating as \"씨앗\" (seed). For example, change the translated sentence to: “어떤 이는 심고, 어떤 이는 물 주지만, 증가를 주시는 분은 하나님이십니다.” Ensure the change keeps original HTML tags and structure.",
+        "translation_quote": "“어떤 것은 씨앗이고, 어떤 것은 물이지만, 증가를 주시는 분은 하나님이십니다.”"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

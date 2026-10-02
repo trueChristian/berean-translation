@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9a2d0b25-ad16-4045-90bd-bb7e499a8816",
+    "response_id": "chatcmpl-EUIM23gqcAFO4n1yJJqDOSF39NASv",
+    "usage": {
+      "completion_tokens": 850,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3084,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3934
+    }
+  },
+  "received_at": "2026-10-02T00:07:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Second paragraph, author names",
+        "severity": "minor",
+        "source_quote": "Katrina Hoover Lee, Johnny Miller, and Ruthann Stelfox.",
+        "suggested_fix": "Preserve the original proper-name spelling or use a standard Korean transliteration that clearly reflects the English names. For example: \"카트리나 후버 리, 조니 밀러, 루트앤 스텔폭스\" or keep the English names unchanged. Ensure 'Ruthann' is not rendered as '루탄'.",
+        "translation_quote": "카트리나 후버 리, 조니 밀러, 루탄 스텔폭스 같은 잘 알려진 작가들과 어깨를 나란히 했다."
+      },
+      {
+        "location": "Paragraph with phrase \"eager readers\"",
+        "severity": "minor",
+        "source_quote": "eager readers scattered across the globe",
+        "suggested_fix": "Use a more natural Korean rendering for 'eager readers' such as '열렬한 독자들' or '열성적인 독자들' rather than the literal '열독자들'.",
+        "translation_quote": "전 세계에 흩어져 있는 열독자들에게 영감을 주는 생각들을 전달하는 수단이다."
+      },
+      {
+        "location": "Paragraph mentioning COVID-19 “vaccines” (quotation marks)",
+        "severity": "minor",
+        "source_quote": "these new and unproven COVID-19 “vaccines.”",
+        "suggested_fix": "Remove the backslash escape before the quotation mark so that the punctuation appears correctly in HTML. For example: COVID-19 \"백신\"들 → COVID-19 \"백신\"들 (without a stray backslash) or use appropriate Korean quotation marks: COVID-19 ‘백신’들.",
+        "translation_quote": "이 새로운 입증되지 않은 COVID-19 \"백신\"들에 대한 정보를 포함할지 여부를 확신하지 못했다."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

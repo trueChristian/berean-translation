@@ -2519,6 +2519,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
+      "html_sha256": "400d3a492da9730e14190473140358a4b8318538cb94b6065064cfbdb4e0fbb6",
+      "human_reviewed": false,
+      "id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
+      "images": [
+        {
+          "alt": "초록 초원에 핀 분홍색과 흰색 관목충영 꽃",
+          "public_path": "/images/articles/52074824-2feb-4fe4-96d0-a08ec72c3565-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.json",
+      "metadata_sha256": "db007dbca1ac8c7e0f69f3f4049760c95c55f1ff1773f0f2f5b7d17838dc3dbf",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "편집자에게서",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "편집자의 글",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "de3fc5df3cf800256f10649e9e08b0fd34b6fa1e6ca46153b4ea33ddadec39af",
       "human_reviewed": false,
@@ -2542,6 +2570,62 @@
       "status": "ready",
       "subtitle": null,
       "title": "편집장의 글",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
+      "html_sha256": "bf01f43b702851153ad7f71c51d781e33749e553a6d000b3fa4f5a23abe6a939",
+      "human_reviewed": false,
+      "id": "93978dae-706d-43d4-abee-6b6e011683fa",
+      "images": [
+        {
+          "alt": "위에서 본 모래 해안을 따라 부서지는 바닷파도.",
+          "public_path": "/images/articles/93978dae-706d-43d4-abee-6b6e011683fa-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/93978dae-706d-43d4-abee-6b6e011683fa.json",
+      "metadata_sha256": "abe91c01bee10e590cafc9fd23ea60faf434684262f96eab0718adeb4f3fed46",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SISTER TO SISTER",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
+      "status": "ready",
+      "subtitle": null,
+      "title": "상황적 과부하",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
+      "html_sha256": "1ac4d86938860f97cc05ccf39c4beb72b4c9956afbd10fe626a1b965b9a68e29",
+      "human_reviewed": false,
+      "id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
+      "images": [
+        {
+          "alt": "잎이 무성한 숲을 가로지르는 좁은 오솔길",
+          "public_path": "/images/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.json",
+      "metadata_sha256": "354bad005b8b641c27e302cd8097cd3645c55ad999f0d352326a4f05eee0e413",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "어린이 코너",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
+      "status": "ready",
+      "subtitle": null,
+      "title": "자민이 똑똑해지다",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -2602,6 +2686,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "봄의 영광",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
+      "html_sha256": "7f7a573e5c7439b91173d8cf78c0120eb7b5959d704ab95e77ee8c23f0319e9f",
+      "human_reviewed": false,
+      "id": "db7b1129-282d-4f48-aefa-f839cb585426",
+      "images": [
+        {
+          "alt": "손이 물을 주자 흙에서 새싹들이 돋아나는 연속 장면",
+          "public_path": "/images/articles/db7b1129-282d-4f48-aefa-f839cb585426-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/db7b1129-282d-4f48-aefa-f839cb585426.json",
+      "metadata_sha256": "eff73b28fa975b067f502b47923ff205cdd7af3cea4736c2c0b8f007641ae5fd",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "선교사의 사색",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "기독교적 휴머니스트",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {

@@ -2,7 +2,6 @@
   "article_id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "74267bba8f334e95976248f4837f4b9e",
   "campaign": "gh-36910113689",
   "created_at": "2026-10-01T18:54:09+00:00",
   "events": [
@@ -24,6 +23,41 @@
         },
         "total_tokens": 3065
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 742,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2814,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3556
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<h2>Toothaches and Road Trips</h2>",
+      "severity": "major",
+      "source_quote": "Toothaches and Road Trips",
+      "suggested_fix": "Replace the translated heading text inside the same tag to accurately reflect the source meaning while preserving the HTML tag. For example: <h2>치통과 자동차 여행</h2>",
+      "translation_quote": "<h2>이쑤시개 통증과 자동차 여행</h2>"
+    },
+    {
+      "location": "<title>Procrastination Overload</title> (article title)",
+      "severity": "minor",
+      "source_quote": "Procrastination Overload",
+      "suggested_fix": "Optionally replace the translated title with a more natural Korean rendering that preserves the original meaning while keeping the same tag. For example: <title>미루기의 과부하</title> or <title>미루기 과부하</title> (either is acceptable).",
+      "translation_quote": "<title>지연 과부하</title>"
     }
   ],
   "id": "84b87028d591e779ea7e1932a6a026e5",
@@ -69,11 +103,13 @@
     }
   },
   "protected": false,
+  "quality_score": 85,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5fd263b236cc5e1da73816f24d29564842c820fa1abbcc53a271dfa0bf31493f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

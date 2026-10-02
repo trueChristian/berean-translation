@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0c4111c0-da8b-4007-8631-4534eb9dfbcd",
+    "response_id": "chatcmpl-EUIM1vrxJy9ntmHWzs1D6Jv78PqzW",
+    "usage": {
+      "completion_tokens": 934,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1547,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2481
+    }
+  },
+  "received_at": "2026-10-02T00:07:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first stanza, final line",
+        "severity": "major",
+        "source_quote": "Give thanks and laud, for more is here!",
+        "suggested_fix": "Translate without adding explanatory content. Replace the current line with a neutral rendering such as: \"감사하며 찬양하라, 더 있음이 여기에 있도다!\" or more naturally, \"감사하며 찬양하라, 더 있는 것이 여기 있도다!\" (preserve surrounding <p><strong>…</strong></p> and <br> tags).",
+        "translation_quote": "감사하며 찬양하라, 더 큰 은혜가 여기에 있도다!"
+      }
+    ],
+    "passed": false,
+    "score": 85
+  }
+}
