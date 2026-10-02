@@ -1,0 +1,60 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Edward Martin",
+          "role": "Editor"
+        }
+      ],
+      "raw": "Edward Martin"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "400977eb-3421-51cc-992f-b947d2cda0f4"
+    },
+    "id": "c22883c1-1d69-4c5e-aa81-d4015bf4e473",
+    "images": [
+      {
+        "alt": "A misty evergreen forest in a mountainous landscape",
+        "caption": null,
+        "credit": "Misty Photography",
+        "public_path": "/images/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473-1.jpg",
+        "repository_path": "public/images/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473-1.jpg",
+        "rights_note": "The masthead credits Misty Photography on page 3; no separate license is stated. Rely on the publisher permission reported by the project owner and preserve the credit before production publication. The embedded asset was copied byte-for-byte without transformation.",
+        "role": "editorial background photograph",
+        "sequence": 1,
+        "source_page": 3
+      }
+    ],
+    "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "From the EDITOR",
+    "sequence": 1,
+    "series": null,
+    "source_pages": {
+      "end": 3,
+      "start": 3
+    },
+    "subtitle": null,
+    "title": "From the Editor",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "30052a6e30e3a2a5dcfd74dd54865f96f75a37aa3874957873b2815937fc8f7f",
+    "metadata_sha256": "b8fd54d0d5e3179f8e063ab5724715e18f8b0fa2d1f922c43639f745d8e30dc1",
+    "structure_sha256": "19e6888c50892d9c1c9514ad9a6950da7aefc86c2147a0b39aaf57ac69ae86d2",
+    "text_sha256": "9dbb98c9d3258eba7d0a50356e2c4bd23b9ad3f77bc9cedd9b59ca225f0a4017",
+    "translation_metadata_sha256": "da11571a63ed77980c590a90ae0498a525eafd0ab5e04fa4cc65d59665a84aef"
+  },
+  "html": "<article data-article-id=\"c22883c1-1d69-4c5e-aa81-d4015bf4e473\">\n  <p>Greetings in the worthy name of the Lord Jesus Christ. As I gaze out across the barren January landscape, I can’t help but wonder what this new year will bring. Undoubtedly, it will bring a mixture of joy and sorrow, excitement and drear, laughter and tears, and everything else in between, which only an Almighty Creator God can arrange in such a way that will magnify His worthy power and excellence. Yet our finite, negative minds tend to anticipate all the bad things that could happen. Will inflation drive food prices even higher? Will widespread fighting erupt across the Middle East? What will happen in the elections? Will the losing party resort to protests and rioting?</p>\n\n  <p>I suppose, since the fall of man, these fear-driven thoughts have roamed through the minds of humanity at the beginning of each year. Yet, as it is so aptly pointed out by the writer of the article, “God’s Faithfulness Manifest Even in the Curse”, God has kindly provided for humanity since the beginning of time. Looking back at God’s faithfulness to man over the centuries, we have no reason to doubt God will do the same for us in 2024.</p>\n\n  <p>Despite God’s faithfulness to us, the effects of the fall of man are still evident. Family members get sick, church and relationship struggles rob us of sleep, the checkbook runs dry, the children squabble and cry, and the demands of our schedules have us hopping from one event to the next. And sometimes, it seems that all these calamities hit us at the same time. Our bodies and minds are not created to handle this. We become weary. Bone tired. Exhausted to the point when even thinking hurts. We face burnout. In this issue, “A Word From the Doctor” guides us as we face the maze of life, giving us practical and Biblical solutions to avoid or recover from burnout. He writes, “Jesus knows our limitations. He wants us to have balance, living in such a way that we not only have strength for today but also for tomorrow, next week, and next year – till He comes again.”</p>\n\n  <figure>\n    <img src=\"/images/articles/c22883c1-1d69-4c5e-aa81-d4015bf4e473-1.jpg\" alt=\"A misty evergreen forest in a mountainous landscape\">\n  </figure>\n\n  <p>Perhaps one good remedy to reduce the stress of life would be to go for a bike ride. But we need to be careful and avoid getting into a bike race like the two lads did in this issue’s children’s story. We may end up with more stress than we bargained for.</p>\n\n  <p>Despite our best efforts to live stress-free lives, we still meet with the unexpected. Last week I was cleaning out our broiler houses in preparation for a new flock. I leaned across the tractor fender to push a partly opened door out of the way. As I stood up, my foot accidentally hit the hydrostatic pedal, lurching the tractor forward and throwing me off-balance. My foot somehow got caught under the pedal, and for a split second, I feared I would fall right in front of the rear wheel. In a last-ditch effort, I threw myself away from the tractor. My foot slipped out of my shoe, and I landed unharmed on the ground. The tractor slowly headed off with my shoe still wedged under the pedal. All ended well, and a few lessons were learned. It was nothing other than the providence of God that prevented a freak incident from becoming a bad accident. Truly I agree with Solomon, “For the LORD shall be thy confidence, and shall keep thy foot from being taken” (Proverbs 3:26).</p>\n\n  <p>As we navigate through this year, let’s join the hymnwriter in worship, where he writes:</p>\n\n  <div class=\"poem\">\n    <p><em>When all Thy mercies, O my God,<br>\n    My rising soul surveys,<br>\n    Transported with the view, I’m lost<br>\n    In wonder, love and praise.</em></p>\n  </div>\n\n  <p>It is only by the mercies of an all-loving God that we have life and breath. May we give our all to Him and to the work of His kingdom in heartfelt thanksgiving for His unspeakable gift.</p>\n\n  <p>Blessings to all,</p>\n\n  <p>Edward Martin</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+  "translation_key": "7328fe7985535229790c376868603624111ed137e1665aff6a36b03d5b4d90fa"
+}

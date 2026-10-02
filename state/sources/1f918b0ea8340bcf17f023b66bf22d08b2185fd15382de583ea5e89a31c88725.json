@@ -1,0 +1,62 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Coshocton, Ohio",
+          "name": "Joel A Hostetler"
+        }
+      ],
+      "raw": "by Joel A Hostetler\nCoshocton, Ohio"
+    },
+    "categories": {
+      "additional": [
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "97efa86c-46a8-499e-850a-d626dce2fd7c",
+    "images": [
+      {
+        "alt": "A misty evergreen forest reflected in a lake",
+        "caption": null,
+        "credit": "Misty Photography",
+        "public_path": "/images/articles/97efa86c-46a8-499e-850a-d626dce2fd7c-1.jpg",
+        "repository_path": "public/images/articles/97efa86c-46a8-499e-850a-d626dce2fd7c-1.jpg",
+        "rights_note": "The page-2 masthead credits Misty Photography for printed page 32; no separate permission notice or license terms are stated for this image.",
+        "role": "lead image",
+        "sequence": 1,
+        "source_page": 32
+      }
+    ],
+    "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "HYMN HISTORY",
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 34,
+      "start": 32
+    },
+    "subtitle": null,
+    "title": "When All Thy Mercies, O My God",
+    "topics": [
+      "a90cf148-a3d8-5e37-82fc-f56d05f17fbc",
+      "2c9550e4-1450-557f-8363-1fb690ef5eb8"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "58e2b61f4be34bd917f2cbed1e6e25aabf4095f660bae025065b6f0a60170fe1",
+    "metadata_sha256": "63e3fe075e4d1c3c0e6d2c82ec056cc22e335c0b84c75fa8ace93243e514ff1e",
+    "structure_sha256": "916a5f3a560e82acc7ddd0824e08430fa47165ec664b31531899231f00516722",
+    "text_sha256": "bfd39c6bdd2e07fc0a6af1b79b3932fc5b0828ad3de003c3b029c01cb3018aea",
+    "translation_metadata_sha256": "46de29a36e0122aa03a3af0290e0b1ec028f1118efaf0b5a57f551f2cde50c99"
+  },
+  "html": "<article data-article-id=\"97efa86c-46a8-499e-850a-d626dce2fd7c\">\n  <blockquote>\n    <p><em>\"O give thanks unto the God of heaven: for His mercy endureth for ever\"<br>\n    —Psalm 136:26</em></p>\n  </blockquote>\n\n  <figure>\n    <img src=\"/images/articles/97efa86c-46a8-499e-850a-d626dce2fd7c-1.jpg\" alt=\"A misty evergreen forest reflected in a lake\" loading=\"lazy\">\n  </figure>\n\n  <p>In your journey of life, from infancy to where you are today, have you ever taken a few minutes to meditate on the mercy God has shown you? Infancy to childhood, childhood to youth, youth to adulthood, and beyond, God's everlasting mercy is upon them that fear Him! The scripture says in Deuteronomy 7:9 that the mercy of God extends way past our short lives here on earth, even to a thousand generations. Take a moment and wonder in the glory and beauty of this unchanging, eternal attribute of God!</p>\n\n  <p>As we take a look at the history behind this hymn, let us endeavor to see the hand of God at work in the life of the hymn writer. The hymn, \"When All Thy Mercies O My God,\" written in 1712, has been published in 994 hymnals and is to this day in the list of the best 100 hymns ever written. As the writer nears the end of his time on earth, he reflects in this hymn his awe at the mercies of God toward him throughout his life.</p>\n\n  <p>Joseph Addison, born May 1, 1672, was an English essayist, poet, and man of letters. Concerning his birth, we find that he <em>“appeared weak and unlikely to live\"</em>, Mr. Tyers says.<sup>*</sup> And that <em>“he was laid out for dead as soon as he was born.”</em> Without doubt, the providence of God preserved his young life and gave him nearly half a century to serve Him on the earth. He was the eldest son of Lancelot Addison, a well-learned man and minister in his church. His father, being a studious man himself, made sure his son Joseph had a good education. He commenced his studies in his hometown of Milston, in Wiltshire, England.</p>\n\n  <p>While in school around 1685, the 13-year-old hymn writer met and became best of friends with Richard Steele, the two of them being only a few months apart in age. They continued their friendship throughout the years, and 27 years later from 1711 to 1712, they cofounded The Spectator magazine, in which this hymn was first published.</p>\n\n  <p>After passing through several schools, Addison went to Oxford when he was about 15 years old. While he was there, he continued to gain in learning and skill, especially in the areas of writing Latin poems and essays. By the time he was 22, in 1694, he also began to show his skill at writing English poetry.</p>\n\n  <p>One of the most notable details of his life that conveyed to him the mercy of God is how he managed to narrowly escape an awful shipwreck. It was this tragedy and his frightening tale of survival that would go on to inspire the writing of this uplifting hymn.</p>\n\n  <p>Here is the hymn with the original 13 verses:</p>\n\n  <section class=\"lyrics\">\n    <p><em>When all Thy mercies, O my God,<br>\n    My rising soul surveys,<br>\n    Transported with the view,<br>\n    I’m lost In wonder, love and praise.</em></p>\n\n    <p><em>Thy Providence my life sustained,<br>\n    And all my wants redressed,<br>\n    While in the silent womb I lay,<br>\n    And hung upon the breast.</em></p>\n\n    <p><em>To all my weak complaints and cries<br>\n    Thy mercy lent an ear,<br>\n    Ere yet my feeble thoughts had learned,<br>\n    To form themselves in prayer.</em></p>\n\n    <p><em>Unnumbered comforts to my soul<br>\n    Thy tender care bestowed,<br>\n    Before my infant heart conceived<br>\n    From Whom those comforts flowed.</em></p>\n\n    <p><em>When in the slippery paths of youth<br>\n    With heedless steps I ran,<br>\n    Thine arm unseen conveyed me safe,<br>\n    And led me up to man.</em></p>\n\n    <p><em>Through hidden dangers, toils, and deaths,<br>\n    It gently cleared my way;<br>\n    And through the pleasing snares of vice,<br>\n    More to be feared than they.</em></p>\n\n    <p><em>O how shall words with equal warmth<br>\n    The gratitude declare,<br>\n    That glows within my ravished heart?<br>\n    But thou canst read it there.</em></p>\n\n    <p><em>Thy bounteous hand with worldly bliss<br>\n    Hath made my cup run o’er;<br>\n    And, in a kind and faithful Friend,<br>\n    Hath doubled all my store.</em></p>\n\n    <p><em>Ten thousand thousand precious gifts<br>\n    My daily thanks employ;<br>\n    Nor is the last a cheerful heart<br>\n    That tastes those gifts with joy.</em></p>\n\n    <p><em>When worn with sickness, oft hast Thou<br>\n    With health renewed my face;<br>\n    And, when in sins and sorrows sunk,<br>\n    Revived my soul with grace.</em></p>\n\n    <p><em>Through every period of my life<br>\n    Thy goodness I’ll pursue<br>\n    And after death, in distant worlds,<br>\n    The glorious theme renew.</em></p>\n\n    <p><em>When nature fails, and day and night<br>\n    Divide Thy works no more,<br>\n    My ever grateful heart,<br>\n    O Lord,Thy mercy shall adore.</em></p>\n\n    <p><em>Through all eternity to Thee<br>\n    A joyful song I’ll raise;<br>\n    For, oh, eternity’s too short<br>\n    To utter all Thy praise!</em></p>\n  </section>\n\n  <p>As we endeavor to understand the life and story of the hymnologist, let's take a short look at some disappointments he faced. Being single into his 40s, he had hopes of someday having a happy marriage. His marriage to Charlotte, a widow of 15 years, didn’t turn out as he had anticipated. It is said that their courtship was long and anxious. They were married in August 1716 in his 44th year. A quote states that <em>“He is said to have first known her by becoming tutor to her son. The marriage, if uncontradicted report can be credited, made no addition to his happiness; it neither found them nor made them equal.\"</em><sup>*</sup> In addition to his less-than-ideal marriage, the loss of his good friend Richard Steele sometime after that took a toll on him.</p>\n\n  <p>By the year 1717, his health began to decline rapidly, and by March 1718, he had to resign some of his work positions, having a great need for rest and quietness. <em>\"The disease under which Addison laboured appears to have been asthma. It became more violent after his retirement from office and was now accompanied by dropsy. His deathbed was placid and resigned, and comforted by those religious hopes which he had so often suggested to others...\"</em> <sup>*</sup></p>\n\n  <p>One last note I will include here on the life of the hymn writer is the account of his passing. There was a young man by the name of Lord Warwick, rough and loose in character, who Addison had often tried to win to the faith, all to no avail. Nearing the end of his life, he endeavored one last attempt to impress this young man with the importance of Christianity. He sent for him to come and be present as he passed away, saying, \"I have sent for you that you may see how a Christian can die.\" We have no record of how this experience affected Warwick’s behavior, but we can assume that it most likely did. Joseph Addison died at Holland House on the 17th of June, 1719, six weeks after his 47th birthday. He is buried in the Poet's Corner of Westminster Abbey.</p>\n\n  <p>This hymn has several tunes: “St Peter,” composed by Alexander Robert Reinagle in 1836, is used in the Church Hymnal and Christian Hymnary. The tune \"Geneva\" was composed by John Cole in 1805. He was born in Tewksbury, England, and came to the United States in his boyhood. Baltimore, Maryland became his American home, and he was educated there. Early in life, he became a musician and music publisher. He continued to compose music until his death. This tune is found in the Zion's Praises, Hymns of the Church, and Harmonia Sacra. The tune \"Contemplation\", composed by F.A.Gore Ouseley, is more widely used by evangelical and other church groups. Other hymns by Joseph Addison include \"The Lord my Pasture Shall Prepare\" and \"The Spacious Firmament.\" Here is one final quote to help us understand who Joseph Addison was and what he believed. \"His religion has nothing in it enthusiastic or superstitious; he appears neither weakly credulous nor wantonly skeptical; his morality is neither dangerously lax nor impracticably rigid. All the enchantment of fancy and all the cogency of argument are employed to recommend to the reader his real interest, the care of pleasing the Author of his being.\"</p>\n\n  <p class=\"source-note\">*sourced from Wikipedia and hymnary.org</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+  "translation_key": "151c676a3a3f4de7275eee354cc0c629e172ecc2dbb372f12ae064df79d4e44e"
+}
