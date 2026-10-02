@@ -254,3 +254,12 @@ class DownstreamTests(unittest.TestCase):
         calls=self.provider.create_calls
         with self.assertRaises(ContractError): self.engine.prepare()
         self.assertEqual(calls,self.provider.create_calls)
+
+    def test_each_rejected_stage_retains_gate_decision_after_later_attempt(self):
+        for original in self.originals:
+            first=self.state.read(f'state/tasks/{original["id"]}/decisions/review1.json')
+            final=self.state.read(f'state/tasks/{original["id"]}/decisions/review2.json')
+            self.assertEqual(first['outcome'],'quality_rejection')
+            self.assertEqual(final['outcome'],'quality_rejection')
+            self.assertTrue(first['findings'])
+            self.assertEqual(self.state.read(f'state/tasks/{original["id"]}/decisions/terminal.json')['outcome'],'not_ready')
