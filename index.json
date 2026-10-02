@@ -4215,6 +4215,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
+      "html_sha256": "62e902aff6324ff5397b6382fe68e3309ff37cc04f0f9cb34d0469b7a3042ad5",
+      "human_reviewed": false,
+      "id": "1c75dce8-1781-427f-8099-01596d53c2a4",
+      "images": [
+        {
+          "alt": "초록 초원에 서 있는 작은 갈색 새",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-1.jpg"
+        },
+        {
+          "alt": "초록 배경의 잘린 가지에 앉아 있는 파랑과 흰색의 새",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/1c75dce8-1781-427f-8099-01596d53c2a4.json",
+      "metadata_sha256": "faa160b446db8f08f06befcb703f7cff68eb83d43f87447d08acc998a5b6d178",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "주요 기사",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
+      "status": "ready",
+      "subtitle": "그리고 내 주위에는 천구의 음악이 울려 퍼진다.",
+      "title": "온 자연이 노래한다",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.html",
       "html_sha256": "7e962d518c9909df6d03002f4fbcfb62d19a72d4ec5791af05b8e75fcfdf97d1",
       "human_reviewed": false,
@@ -4427,6 +4459,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.html",
+      "html_sha256": "a887bd150d18773677f8983f41993fafc9c7fd6bd2c1941947b221cafcf9a871",
+      "human_reviewed": false,
+      "id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
+      "images": [
+        {
+          "alt": "나선형 노트와 연필 옆에 놓인 커피 한 잔입니다.",
+          "public_path": "/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.json",
+      "metadata_sha256": "024fb4d5fa7f0f86e683727da0fe60cd10a45602b55773ed0cce62c004d1bdf8",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "자매에게",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "미루기 과부하",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
       "html_sha256": "1ac4d86938860f97cc05ccf39c4beb72b4c9956afbd10fe626a1b965b9a68e29",
       "human_reviewed": false,
@@ -4538,6 +4598,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "기독교적 휴머니스트",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.html",
+      "html_sha256": "1a1f86b62c2d1c8b50154498e193d279de97cd01cef940e9d3a88ffade2ef779",
+      "human_reviewed": false,
+      "id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
+      "images": [
+        {
+          "alt": "선명한 석양 속 잔잔한 물가에 있는 작은 배",
+          "public_path": "/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.json",
+      "metadata_sha256": "61e0e23a9b12e85d49a03a16b7960690d28038e56c716f5531159e06f8b91831",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "시",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "일어나 기뻐하라",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {

@@ -2,7 +2,6 @@
   "article_id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d39b527beae846efb42dc7f1bbebef15",
   "campaign": "gh-36910113689",
   "created_at": "2026-10-01T18:54:08+00:00",
   "events": [
@@ -62,17 +61,29 @@
         },
         "total_tokens": 2638
       }
-    }
-  ],
-  "findings": [
+    },
     {
-      "location": "source.html — first stanza, final line",
-      "severity": "major",
-      "source_quote": "Give thanks and laud, for more is here!",
-      "suggested_fix": "Translate without adding explanatory content. Replace the current line with a neutral rendering such as: \"감사하며 찬양하라, 더 있음이 여기에 있도다!\" or more naturally, \"감사하며 찬양하라, 더 있는 것이 여기 있도다!\" (preserve surrounding <p><strong>…</strong></p> and <br> tags).",
-      "translation_quote": "감사하며 찬양하라, 더 큰 은혜가 여기에 있도다!"
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 666,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1545,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2211
+      }
     }
   ],
+  "findings": [],
+  "finished_at": "2026-10-02T00:14:43+00:00",
   "id": "c28b8573a16bbe62863fc8e1f13996ba",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "kor",
@@ -116,13 +127,13 @@
     }
   },
   "protected": false,
-  "quality_score": 85,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/106121576068d9bdf697518dbfe2c70eff09e46a5d060eef756de2cfcb440b7f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
