@@ -18,6 +18,12 @@
       "campaign": "gh-36981712493",
       "event": "requested",
       "task": "880be306720c845ae3fc2fc12bab5171"
+    },
+    {
+      "at": "2026-10-02T08:41:30+00:00",
+      "event": "not_ready",
+      "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[41]; missing: 4:8; extra: 4:9",
+      "task": "880be306720c845ae3fc2fc12bab5171"
     }
   ],
   "language": "swe",
