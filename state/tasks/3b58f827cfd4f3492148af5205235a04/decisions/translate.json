@@ -1,0 +1,6 @@
+{
+  "findings": [],
+  "outcome": "structural_rejection",
+  "reason": "Malformed HTML closing tag: strong,",
+  "stage": "translate"
+}

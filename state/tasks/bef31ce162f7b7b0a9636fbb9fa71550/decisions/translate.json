@@ -1,0 +1,6 @@
+{
+  "findings": [],
+  "outcome": "structural_rejection",
+  "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[5]; missing: 3:13-17; extra: 3:1-5",
+  "stage": "translate"
+}
