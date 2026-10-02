@@ -131,8 +131,8 @@
   "status": "active",
   "task_counts": {
     "complete": 4,
-    "in_batch": 5,
-    "not_ready": 1
+    "in_batch": 4,
+    "not_ready": 2
   },
   "tasks": [
     "b0c4597e49781fe79158974a0da524b3",

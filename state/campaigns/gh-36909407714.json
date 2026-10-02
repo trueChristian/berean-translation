@@ -128,10 +128,10 @@
   ],
   "skipped": [],
   "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
-  "status": "active",
+  "status": "finished",
   "task_counts": {
-    "complete": 5,
-    "in_batch": 5
+    "complete": 7,
+    "not_ready": 3
   },
   "tasks": [
     "446f2861ea6a7da7847db51af52d03d9",
