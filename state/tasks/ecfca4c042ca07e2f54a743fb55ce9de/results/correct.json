@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b48be4bc-0f5f-4547-ba35-6eee10d22066",
+    "response_id": "chatcmpl-EUUQw3dpnHtEmFRbViIjjOCtnroi0",
+    "usage": {
+      "completion_tokens": 685,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2549,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3234
+    }
+  },
+  "received_at": "2026-10-02T11:17:37+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9\">\n<figure>\n  <img src=\"/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg\" alt=\"شجرة وحيدة خالية الأوراق في حقل ثلجي\">\n</figure>\n\n<div class=\"poem\">\n  <p>الآن هو فصل الشتاء؛ الثلج المتساقط<br>\n  جعل السماوات كلها صافية ببرودة؛<br>\n  عبر الأغصان الخالية من الأوراق، تهب الرياح الحادة،<br>\n  وكل الأرض تبدو ميتة وكئيبة.</p>\n\n  <p>ومع ذلك فمحبة الله لم تنقطع؛<br>\n  وحياته تتنفس في الهواء القارس؛<br>\n  جماله يرسم الفجر القاني،<br>\n  ويكسو كل غصن بأكاليل لامعة.</p>\n\n  <p>ومع أن الرياح الحادة تهب في الخارج،<br>\n  والسموات باردة، والصقيع قارس،<br>\n  يضيق بيتنا دائرته الآن،<br>\n  ويزداد ضياؤه داخله دفئًا.</p>\n\n  <p>يا إلهي، أنت تمنح برد الشتاء،<br>\n  كما تعطي أيضاً أشعة الفرح الصيفية،<br>\n  بأحضان محبتك تُدفئنا،<br>\n  وتحفظنا في أيام حياتنا الشتوية.</p>\n</div>\n</article>\n",
+    "section": "قصيدة",
+    "subtitle": null,
+    "title": "نشيد الشتاء"
+  }
+}

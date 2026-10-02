@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "fbbf4901-17ba-4311-b960-62ffea773db6",
+    "response_id": "chatcmpl-EUUQg1OW2z0kp6ZTrXyes0HBsjAHQ",
+    "usage": {
+      "completion_tokens": 790,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1937,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2727
+    }
+  },
+  "received_at": "2026-10-02T11:17:36+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8f996405-d870-4074-947b-35190faad643\">\n<figure>\n  <img src=\"/images/articles/8f996405-d870-4074-947b-35190faad643-1.jpg\" alt=\"被光秃冬树环绕的雪地小径\">\n</figure>\n\n<div class=\"poem\">\n  <p>上帝之城，何等广大辽阔<br>\n  你那高耸的城墙广布天边！<br>\n  你的忠实子民，作为受特许的自由民，<br>\n  分布于各代各方：</p>\n\n  <p>一圣教会，一勇壮军队，<br>\n  一心一志，崇高不移；<br>\n  同心事奉，一曲丰收歌，<br>\n  一位万权之王。</p>\n\n  <p>你的言语自人类远古以来<br>\n  何等纯粹地传下！<br>\n  你的帝国何其壮阔地发展，<br>\n  以自由、爱与真理为基！</p>\n\n  <p>你的烽火于黑夜中闪耀，<br>\n  光芒永不衰竭！<br>\n  你的高塔如何宁静而明亮，<br>\n  迎接破晓的晨光！</p>\n\n  <p>巨浪的愤怒冲击徒然，<br>\n  流沙的漂移亦徒然：<br>\n  在永恒的磐石上安然无恙，<br>\n  永恒之城屹立不倒。</p>\n</div>\n</article>\n",
+    "section": "诗",
+    "subtitle": null,
+    "title": "上帝之城"
+  }
+}

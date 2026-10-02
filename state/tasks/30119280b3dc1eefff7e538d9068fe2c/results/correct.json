@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "375bb176-d953-4d76-b5e9-bf9ba72f1af7",
+    "response_id": "chatcmpl-EUUQhL1mXZbYzNaSXgLm80W9TD0sd",
+    "usage": {
+      "completion_tokens": 1055,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2509,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3564
+    }
+  },
+  "received_at": "2026-10-02T11:17:35+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9\">\n<figure>\n  <img src=\"/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg\" alt=\"Et ensomt bart tre på et snødekt jorde\">\n</figure>\n\n<div class=\"poem\">\n  <p>Nå er det vinter; den falne snøen<br>\n  har gjort himmelen kaldt og klar;<br>\n  gjennom bladløse greiner blåser de skarpe vinder,<br>\n  og hele jorden ligger død og øde.</p>\n\n  <p>Og likevel er ikke Guds kjærlighet borte;<br>\n  hans liv i den bitende luft ånder;<br>\n  hans skjønnhet maler daggryets røde skjær,<br>\n  og kler hver kvist med glitrende kranser.</p>\n\n  <p>Og selv om ute de skarpe vindene blåser,<br>\n  og himmelen er kald, og frostene biter,<br>\n  hjemmet trekker nå sin sirkel nærmere,<br>\n  og varmere gløder lyset der inne.</p>\n\n  <p>O Gud, du gir vinterens kulde,<br>\n  liksom sommerens glade stråler,<br>\n  du innhyller oss varmt i din kjærlighet,<br>\n  og bevarer oss gjennom livets vinterdager.</p>\n</div>\n</article>\n",
+    "section": "Dikt",
+    "subtitle": null,
+    "title": "Vintervise"
+  }
+}

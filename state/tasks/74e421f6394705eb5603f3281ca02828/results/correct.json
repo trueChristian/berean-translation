@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ca9c4273-5858-4248-80f4-74bc75b7608c",
+    "response_id": "chatcmpl-EUUQhh2TB2E92IGwzTx7Yi32CBScl",
+    "usage": {
+      "completion_tokens": 688,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2064,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2752
+    }
+  },
+  "received_at": "2026-10-02T11:17:36+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8f996405-d870-4074-947b-35190faad643\">\n<figure>\n  <img src=\"/images/articles/8f996405-d870-4074-947b-35190faad643-1.jpg\" alt=\"En snötäckt stig intill kala vinterträd\">\n</figure>\n\n<div class=\"poem\">\n  <p>Guds stad, hur vida och fjärran<br>\n  breder dina höga murar ut sig!<br>\n  De sanna äro dina fria medborgare<br>\n  i varje tid och varje land:</p>\n\n  <p>En helig kyrka, en stark armé,<br>\n  ett orubbligt, högt mål;<br>\n  en verksam skara, en skördesång,<br>\n  en allsmäktig Konung.</p>\n\n  <p>Hur rent har ditt tal nått oss ner<br>\n  från människans uråldriga ungdom!<br>\n  Hur stolt har ditt rike vuxit fram<br>\n  av frihet, kärlek och sanning!</p>\n\n  <p>Hur glimma dina vaktseldar genom natten<br>\n  med en aldrig sviktande stråle!<br>\n  Hur reser sig dina torn, fridfulla och klara,<br>\n  för att möta daggrynningens ljus!</p>\n\n  <p>Förgäves stormens arga slag,<br>\n  förgäves de drivande sandarna:<br>\n  oskadd på den eviga Klippan<br>\n  står den eviga staden kvar.</p>\n</div>\n</article>\n",
+    "section": "Dikt",
+    "subtitle": null,
+    "title": "Guds stad"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4da22039-2d79-4f70-b65c-335ee18d2ccf",
+    "response_id": "chatcmpl-EUUQhV1E1mLa0AghTj6Jz0ngebEaz",
+    "usage": {
+      "completion_tokens": 600,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2291,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2891
+    }
+  },
+  "received_at": "2026-10-02T11:17:36+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8f996405-d870-4074-947b-35190faad643\">\n<figure>\n  <img src=\"/images/articles/8f996405-d870-4074-947b-35190faad643-1.jpg\" alt=\"Um caminho nevado ao lado de árvores de inverno sem folhas\">\n</figure>\n\n<div class=\"poem\">\n  <p>Cidade de Deus, quão larga e distante<br>\n  se estendem, sublimes, as tuas muralhas!<br>\n  Teus verdadeiros cidadãos por carta<br>\n  são de toda idade e clima:</p>\n\n  <p>Uma igreja santa, um exército forte,<br>\n  um propósito firme e elevado;<br>\n  um grupo em ação, um cântico de ceifa,<br>\n  um Rei onipotente.</p>\n\n  <p>Quão pura desceu a tua palavra<br>\n  desde a juventude primeva do homem!<br>\n  Quão grandemente teu império cresceu<br>\n  de liberdade, amor e verdade!</p>\n\n  <p>Como brilham teus faróis vigilantes pela noite<br>\n  com raio que nunca se apaga!<br>\n  Como erguem-se tuas torres, serenas e claras,<br>\n  para encontrar o dia que amanhece!</p>\n\n  <p>Em vão o choque furioso das ondas,<br>\n  em vão as areias que avançam:<br>\n  incólume sobre a Rocha eterna<br>\n  permanece a cidade eterna.</p>\n</div>\n</article>\n",
+    "section": "Poema",
+    "subtitle": null,
+    "title": "Cidade de Deus"
+  }
+}

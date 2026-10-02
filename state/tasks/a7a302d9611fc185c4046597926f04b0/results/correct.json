@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9afde98d-0827-4c66-968a-145a166d773e",
+    "response_id": "chatcmpl-EUUQh3sZOFOgejcAYGsUkdS2vE0qF",
+    "usage": {
+      "completion_tokens": 768,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2412,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3180
+    }
+  },
+  "received_at": "2026-10-02T11:17:36+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9\">\n<figure>\n  <img src=\"/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg\" alt=\"Mti mwekavu mpweke kwenye uwanja uliofunikwa na theluji\">\n</figure>\n\n<div class=\"poem\">\n  <p>Sasa ni msimu wa baridi;<br>\n  theluji imeacha mbingu zikiwa wazi kwa baridi;<br>\n  kupitia matawi yasiyo na majani, upepo mkali unasukuma,<br>\n  na dunia yote imekufa na imejaa huzuni.</p>\n\n  <p>Na bado upendo wa Mungu haujatoweka;<br>\n  uhai wake unakopevuka katika hewa yenye ukali;<br>\n  uzuri wake unapaka alfajiri ya rangi ya waridi,<br>\n  na kuifunika kila tawi kwa pete zenye kung'aa.</p>\n\n  <p>Na ingawa ule upepo mkali unavuma nje,<br>\n  na anga ni baridi, na barafu ni kali,<br>\n  nyumbani sasa unazidisha ukanda wake wa karibu,<br>\n  na mwanga wake ndani unawaka kwa joto zaidi.</p>\n\n  <p>Mungu, wewe hutupa baridi ya msimu wa baridi,<br>\n  pamoja na miale ya furaha ya msimu wa joto,<br>\n  kwa upendo wako unatufunika kwa joto,<br>\n  na kutulinda katika siku za baridi za maisha.</p>\n</div>\n</article>\n",
+    "section": "Shairi",
+    "subtitle": null,
+    "title": "Wimbo wa Majira ya Baridi"
+  }
+}

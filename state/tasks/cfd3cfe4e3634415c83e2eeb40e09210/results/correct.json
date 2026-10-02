@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9170b5fa-d24a-4de3-bd3b-a7644a631a5c",
+    "response_id": "chatcmpl-EUURudSg7CiEQh56A72EizwhmjzuM",
+    "usage": {
+      "completion_tokens": 752,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2332,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3084
+    }
+  },
+  "received_at": "2026-10-02T11:17:37+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8f996405-d870-4074-947b-35190faad643\">\n<figure>\n  <img src=\"/images/articles/8f996405-d870-4074-947b-35190faad643-1.jpg\" alt=\"নগ্ন শীতকালীন গাছগুলোর পাশে তুষারঢাকা পথ\">\n</figure>\n\n<div class=\"poem\">\n  <p>ঈশ্বরের নগরী, কী বিস্তৃত আর কী দূরপ্রসারী<br>\n  তোমার মহৎ প্রাচীর বিস্তৃত!<br>\n  সত্যিকারের তোমার সংবিধিবদ্ধ মুক্ত নাগরিকেরা<br>\n  প্রত্যেক যুগ ও অঞ্চলের লোকেরা:</p>\n\n  <p>এক পবিত্র মণ্ডলী, এক নির্মোম বাহিনী,<br>\n  এক অটল, উচ্চ উদ্দেশ্য;<br>\n  এক কর্মঠ দল, এক ফসলের গান,<br>\n  এক সর্বশক্তিমান রাজা।</p>\n\n  <p>কত নিখাদভাবে তোমার ভাষা নেমে আসে<br>\n  মানুষের প্রাচীন যৌবন থেকে!<br>\n  কত মহানভাবে যুগ ধরে বেড়েছে তোমার রাজ্য<br>\n  স্বাধীনতা, প্রেম ও সত্যে!</p>\n\n  <p>রাত জুড়ে কীভাবে তোমার পাহারা-আগুন ঝলমলে করে,<br>\n  কখনো ম্লান না হওয়া রশ্মি বহন করে!<br>\n  কীভাবে তোমার মিনার উঠে, নির্মল ও উজ্জ্বল,<br>\n  ভোরের আলোকে অভিনন্দন জানাতে!</p>\n\n  <p>নিরর্থক হলো ঢেউয়ের ক্রোধপূর্ণ ধাক্কা,<br>\n  নিরর্থক হলো ভাসমান বালুকা:<br>\n  অনাহত নির্ভর করে আছে চিরশিলার ওপর<br>\n  চিরন্তন নগরী।</p>\n</div>\n</article>\n",
+    "section": "কবিতা",
+    "subtitle": null,
+    "title": "ঈশ্বরের নগরী"
+  }
+}

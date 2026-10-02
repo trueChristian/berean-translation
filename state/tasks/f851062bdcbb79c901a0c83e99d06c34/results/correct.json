@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b79d4b69-92df-44f9-abee-df42274b87e4",
+    "response_id": "chatcmpl-EUUR0FbRMhGWSl3s0MSaAqdWQx6bJ",
+    "usage": {
+      "completion_tokens": 837,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2497,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3334
+    }
+  },
+  "received_at": "2026-10-02T11:17:37+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9\">\n<figure>\n  <img src=\"/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg\" alt=\"बर्फ़ीले मैदान में एक अकेला नंगा पेड़\">\n</figure>\n\n<div class=\"poem\">\n  <p>अब शीत ऋतु है; गिरी हुई बर्फ़<br>\n  आसमां को ठंडी तरह से साफ़ छोड़ गई है;<br>\n  पत्तिहीन डालों से तेज़ हवाएँ बहती हैं,<br>\n  और सारा संसार मृत तथा उदास पड़ा है।</p>\n\n  <p>परन्तु परमेश्वर का प्रेम न हटता है;<br>\n  उसका जीवन तीखी हवा में साँस लेता है;<br>\n  उसकी शोभा भोर की लालिमा को रंग देती है,<br>\n  और हर शाखा को चमकदार माला से सजा देती है।</p>\n\n  <p>और यद्यपि बाहर तेज़ हवाएँ चलती हैं,<br>\n  और आकाश ठंडे हैं, और पाले तीखे हैं,<br>\n  अब घर अपने घेरे को और करीब खींच लेता है,<br>\n  और उसके भीतर उसकी रोशनी और गर्म होती है।</p>\n\n  <p>हे परमेश्वर, आप देते हैं शीत की ठंड,<br>\n  और साथ ही गर्मियों की प्रसन्न किरणें भी,<br>\n  अपनी प्रेम में आप हमें गर्मजोशी से घेरते हैं,<br>\n  और जीवन के शीतकालीन दिनों में हमें रखते हैं।</p>\n</div>\n</article>\n",
+    "section": "कविता",
+    "subtitle": null,
+    "title": "शीत गीत"
+  }
+}

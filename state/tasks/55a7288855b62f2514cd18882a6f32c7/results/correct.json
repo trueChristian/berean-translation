@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "52421231-1d9a-4718-a1cc-4329c9150db5",
+    "response_id": "chatcmpl-EUUQmZaAtscZ35s8P37SDhadRBnQ3",
+    "usage": {
+      "completion_tokens": 731,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2066,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2797
+    }
+  },
+  "received_at": "2026-10-02T11:17:36+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9\">\n<figure>\n  <img src=\"/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg\" alt=\"برف پوش میدان میں اکیلا برہنہ درخت\">\n</figure>\n\n<div class=\"poem\">\n  <p>اب سردیوں کا موسم ہے؛ گIRI ہوئی برف<br>\n  آسمان کو ٹھنڈا اور صاف چھوڑ گئی ہے؛<br>\n  بنا پتے والے شاخوں سے تیز ہوائیں چلتی ہیں،<br>\n  اور ساری زمین مردہ اور سنسان پڑی ہے۔</p>\n\n  <p>اور پھر بھی خدا کی محبت ختم نہیں ہوئی؛<br>\n  اس کی زندگی تیز ہوا میں سانس لیتی ہے؛<br>\n  اس کی خوبصورتی خونِ سرخ صبح کو رنگ دیتی ہے،<br>\n  اور ہر شاخ کو چمکتی ہاروں سے سجاتی ہے۔</p>\n\n  <p>اور اگر باہر تیز ہوائیں چلیں،<br>\n  اور آسمان ٹھنڈے ہیں، اور سخت جمی ہوئی یخ بستگی ہے،<br>\n  گھر اب اپنا دائرہ تنگ کرتا ہے،<br>\n  اور اس کے اندر روشنی زیادہ گرم جلتی ہے۔</p>\n\n  <p>اے خدا، تو سردیوں کی سردی دیتا ہے،<br>\n  جیسی کہ تو گرمیوں کی خوشگوار کرنیں بھی دیتا ہے،<br>\n  تو اپنی محبت میں ہمیں گرم جوشی سے لپیٹ لیتا ہے،<br>\n  اور زندگی کے سرد دنوں میں ہمارا خیال رکھتا ہے۔</p>\n</div>\n</article>\n",
+    "section": "نظم",
+    "subtitle": null,
+    "title": "سردیوں کا نغمہ"
+  }
+}

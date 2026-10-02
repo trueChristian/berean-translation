@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "eeb3bdb8-0c69-4708-bfdd-ac86ea5d508c",
+    "response_id": "chatcmpl-EUUQu69adCX6HAwGV6NUTW1668oTp",
+    "usage": {
+      "completion_tokens": 684,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2194,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2878
+    }
+  },
+  "received_at": "2026-10-02T11:17:37+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8f996405-d870-4074-947b-35190faad643\">\n<figure>\n  <img src=\"/images/articles/8f996405-d870-4074-947b-35190faad643-1.jpg\" alt=\"'n Sneeupad langs kaal winterbome\">\n</figure>\n\n<div class=\"poem\">\n  <p>Stad van God, hoe wyd en ver<br>\n  wyd uitgespan jou verhewe mure!<br>\n  Die getroues is jou gecharterde vryburgers<br>\n  uit elke ouderdom en klimaat:</p>\n\n  <p>Een heilige kerk, een magtig kryg,<br>\n  een standvastige, hooggesinde strewe;<br>\n  een arbeidende skare, een oeslied,<br>\n  een Almagtige Koning.</p>\n\n  <p>Hoe rein het jou woord neergedaal<br>\n  van die mens se oorspronklike jeug!<br>\n  Hoe majestueus het jou heerskappy gegroei<br>\n  van vryheid, liefde en waarheid!</p>\n\n  <p>Hoe flikker jou wagvure deur die nag<br>\n  met 'n onverflakkende straal!<br>\n  Hoe verrys jou torings, rustig en blink,<br>\n  om die dageraad te verwelkom!</p>\n\n  <p>Tevergeefs die brandings woeste treffers,<br>\n  tevergeefs die drywende sand:<br>\n  ongedeerd op die ewige Rots<br>\n  staan die ewige stad.</p>\n</div>\n</article>\n",
+    "section": "Gedig",
+    "subtitle": null,
+    "title": "Stad van God"
+  }
+}

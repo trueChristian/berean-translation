@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6048ba28-e77c-4ec7-8979-605b18d91c8a",
+    "response_id": "chatcmpl-EUUR0Uh9mtnF3xIwcOPEiBXEZ6iqv",
+    "usage": {
+      "completion_tokens": 909,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2288,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3197
+    }
+  },
+  "received_at": "2026-10-02T11:17:37+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8f996405-d870-4074-947b-35190faad643\">\n<figure>\n  <img src=\"/images/articles/8f996405-d870-4074-947b-35190faad643-1.jpg\" alt=\"Njia ya theluji kando ya miti bila majani ya msimu wa baridi\">\n</figure>\n\n<div class=\"poem\">\n  <p>Mji wa Mungu, umeenea kwa upana na umbali gani<br>\n  kuta zako kuu zimeenezeka!<br>\n  Wa kweli ni raia walioteuliwa, wa kila umri na eneo:<br>\n  wa kila umri na mkoa:</p>\n\n  <p>Kanisa moja takatifu, jeshi moja lenye nguvu,<br>\n  nia moja thabiti, iliyo juu;<br>\n  kundi moja linalofanya kazi, wimbo mmoja wa mavuno,<br>\n  Mfalme mmoja mwenye uwezo wote.</p>\n\n  <p>Kwa uzuri gani hotuba yako imetoka<br>\n  tangu utotoni pa mwanadamu!<br>\n  Kwa ukuu gani ufalme wako umeendelea kukua<br>\n  wa uhuru, upendo, na kweli!</p>\n\n  <p>Jivuni vako vya kuangalia vinaangaza kupitia usiku<br>\n  kwa miale isiyozimika!<br>\n  Kila mnara wako unainuka, mtulivu na angavu,<br>\n  kukutana na alfajiri ya siku!</p>\n\n  <p>Kwa bure kugonga kwa mawimbi yenye hasira,<br>\n  kwa bure mchanga unaotembea:<br>\n  bila kuathirika juu ya Mwamba wa milele<br>\n  mji wa milele unasimama.</p>\n</div>\n</article>\n",
+    "section": "Shairi",
+    "subtitle": null,
+    "title": "Mji wa Mungu"
+  }
+}

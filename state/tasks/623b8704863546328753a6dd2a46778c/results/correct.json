@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "82e85c65-9310-41ef-ba70-5cb9af38886c",
+    "response_id": "chatcmpl-EUURoginEPq2BnBJpFkeNdagAM25z",
+    "usage": {
+      "completion_tokens": 1606,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3691,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5297
+    }
+  },
+  "received_at": "2026-10-02T11:17:36+00:00",
+  "result": {
+    "html": "<article data-article-id=\"042fce50-3724-4100-b397-093c6d081e89\">\n<p>El 21 de enero de 1525 fue el 500.º aniversario del anabaptismo. Hace quinientos años tuvo lugar un acontecimiento monumental en la historia de la iglesia cristiana. Un pequeño grupo de cristianos radicales se reunió en silencio en la casa de Felix Mantz en Zúrich, Suiza. El gobierno de la iglesia estatal de Zúrich había ordenado a los padres que hicieran bautizar a sus infantes o que se enfrentaran a ser desterrados de sus hogares. Reunirse para estudios bíblicos y reuniones de oración también estaba prohibido. Sin embargo, en aquella noche invernal trascendental, Felix Mantz, Conrad Grebel, George Blaurock y algunos más llevaron su obediencia un paso más allá. Después de orar y de comprometerse a servir a Dios fielmente, George Blaurock le pidió a Conrad Grebel que lo bautizara en verdadera fe cristiana, y Conrad lo hizo. Los demás también solicitaron el bautismo, y George, a su vez, también los bautizó. Y así nació el anabaptismo, tal como lo conocemos.</p>\n\n<p>Aunque estos tres hombres desempeñaron un papel clave en la historia anabaptista, la Reforma no comenzó con ellos. El verdadero catalizador que avivó las llamas del avivamiento se encendió 88 años antes. En 1436, un orfebre alemán llamado Johannes Gutenberg inventó una imprenta de tipos móviles. Esto mejoró dramáticamente la impresión, y los libros pudieron imprimirse en mayores cantidades. En lugar de que solo unos pocos libros estuvieran en manos de los ricos, la persona común ahora podía permitirse comprar libros. Los primeros libros que se imprimieron en la prensa de Gutenberg fueron Biblias. Cuando la gente común comenzó a comprar y leer Biblias, empezaron a darse cuenta de que la oscuridad de la opresión religiosa les impedía comprender la verdadera luz de la Palabra de Dios. Y así nació la Reforma.</p>\n\n<p>Avancemos 588 años. El papel impreso todavía inspira a hombres y mujeres. Pero hoy es mucho más fácil imprimir una revista periódica como El Latido del Remanente. Simplemente tomamos la pluma o el teclado y escribimos. Nuestro documento se edita digitalmente y se envía electrónicamente a la imprenta. Tras subir los archivos, la prensa imprimirá 6.000 copias en poco más de 12 horas. Luego queda terminada y se envía por correo a 51 países de todo el mundo y a muchos estados de los EE. UU. La impresión ha recorrido un largo camino desde 1436, cuando cada página tenía que componerse e imprimirse individualmente.</p>\n\n<figure>\n  <img src=\"/images/articles/042fce50-3724-4100-b397-093c6d081e89-1.jpg\" alt=\"Biblia de Gutenberg en exhibición en la Biblioteca del Congreso de los EE. UU.\">\n  <figcaption><em>Biblia de Gutenberg en exhibición en la Biblioteca del Congreso de los EE. UU.</em></figcaption>\n</figure>\n\n<p>Según un proyecto de Google de 2010, se publicaron globalmente poco menos de 130 millones de libros. Desde entonces, la UNESCO estima que aproximadamente 2,2 millones de títulos nuevos se publican cada año. Al añadir estas publicaciones anuales al recuento inicial, podemos estimar que en 2024 hay más de 160 millones de libros únicos en el mundo. Este número no tiene en cuenta los libros que pueden haber quedado fuera de impresión o que se hayan dejado de publicar desde su publicación inicial. El sabio predicador tenía razón cuando escribió: “Y además, hijo mío, sé exhortado; porque de hacer muchos libros no hay fin, y mucho estudio es grave cansancio para la carne” (Eclesiastés 12:12).</p>\n\n<p>Usemos esta libertad de prensa para la gloria de Dios mientras tengamos la oportunidad. Trabajo para Christian Aid Ministries, y regularmente escuchamos testimonios de cristianos en países cerrados y restringidos que son sumamente bendecidos al recibir literatura cristiana. Una persona de un lugar no divulgado escribió: “...todos nos turnamos para leer la revista en la iglesia. Una revista muy edificante. ¡Dios los bendiga! Bendiciones de Dios.” Escuchar testimonios como este me hace estar más agradecido por lo que tenemos. Pero estoy seguro de que las personas en países perseguidos valoran su literatura cristiana más que nosotros, que tenemos Biblias y literatura cristiana en abundancia.</p>\n\n<p>En este número, reimprimimos dos artículos por solicitud. Una iglesia gloriosa, de Barry Grant, y Gozo en las grietas, de Sheryl Zeiset, se imprimieron por primera vez en 2019. Que nuestras iglesias demuestren las virtudes y que nuestros hogares irradien la belleza que se retrata en estos artículos atemporales.</p>\n\n<p>Bendiciones a todos,</p>\n\n<p>Edward Martin</p>\n</article>\n",
+    "section": "De la REDACCIÓN",
+    "subtitle": null,
+    "title": "De la redacción"
+  }
+}

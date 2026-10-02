@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "34f6e1de-0cad-4f67-a612-03a4ea576ad4",
+    "response_id": "chatcmpl-EUUQxa5cFXWbZnAMlQgVc2A8NKwIl",
+    "usage": {
+      "completion_tokens": 985,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2737,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3722
+    }
+  },
+  "received_at": "2026-10-02T11:17:36+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8f996405-d870-4074-947b-35190faad643\">\n<figure>\n  <img src=\"/images/articles/8f996405-d870-4074-947b-35190faad643-1.jpg\" alt=\"Een besneeuwd pad langs kale winterbomen\">\n</figure>\n\n<div class=\"poem\">\n  <p>Stad van God, hoe breed en wijd<br>\n  ligt uit uw muren, hoog en groot!<br>\n  De ware zijn uw vrije burgers<br>\n  uit ieder tijdperk en elk land:</p>\n\n  <p>Één heilige kerk, één sterk leger,<br>\n  één standvastig, hoog streven;<br>\n  één werkende schaar, één oogstzang,<br>\n  één almachtige Koning.</p>\n\n  <p>Hoe zuiver is uw woord bij ons gekomen<br>\n  uit 's mensen eerste jeugd!<br>\n  Hoe groots is uw rijk gegroeid<br>\n  van vrijheid, liefde en waarheid!</p>\n\n  <p>Hoe glanzen uw wachtvuren door de nacht<br>\n  met een straal die nooit verflauwt!<br>\n  Hoe rijzen uw torens, sereen en licht,<br>\n  om de dageraad tegemoet te gaan!</p>\n\n  <p>Tevergeefs de woeste slag der branding,<br>\n  tevergeefs het schuivend zand:<br>\n  ongeschonden op de eeuwige Rots<br>\n  staat de eeuwige stad.</p>\n</div>\n</article>\n",
+    "section": "Gedicht",
+    "subtitle": null,
+    "title": "Stad van God"
+  }
+}
