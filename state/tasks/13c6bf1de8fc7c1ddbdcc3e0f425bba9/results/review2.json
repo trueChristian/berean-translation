@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6d09766a-8a19-4952-a5f5-6a0d79c8608a",
+    "response_id": "chatcmpl-EUIH03Je4asVC2syi7jahbbC5njhf",
+    "usage": {
+      "completion_tokens": 1355,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7647,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9002
+    }
+  },
+  "received_at": "2026-10-02T00:07:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 2 (translation)",
+        "severity": "minor",
+        "source_quote": "As the child gained strength enough to resume play, the great dinner bell released its peal to all around, but Helen did not respond.",
+        "suggested_fix": "Render more natural Bengali and preserve meaning: replace \"ঘর-বাহিরে বিশাল ডিনারের ঘণ্টা তার খনি ছেড়ে সে সবায় শিখরিত করল\" with a clearer phrasing such as \"শিশুটি খেলায় যোগদানের জন্য যথেষ্ট শক্তি ফিরে পাওয়ার সময় আশেপাশের বড় ভোজঘণ্টার কণ্ঠ চারদিকে ঘোড়ালো, কিন্তু হেলেন সাড়া দিল না।\"",
+        "translation_quote": "শিশুটি খেলার যোগ্য শক্তি ফিরে পেয়েছে, তখন ঘর-বাহিরে বিশাল ডিনারের ঘণ্টা তার খনি ছেড়ে সে সবায় শিখরিত করল, কিন্তু হেলেন সাড়া দিল না।"
+      },
+      {
+        "location": "Paragraph beginning \"We each may think ourselves into a deep cave\" (translation)",
+        "severity": "minor",
+        "source_quote": "We each may think ourselves into a deep cave, but we must thank ourselves out.",
+        "suggested_fix": "Clarify idiom in Bengali to convey same exhortation. Replace \"আমাদের নিজেদের কৃতজ্ঞতায় বের হতে হবে\" with a more idiomatic rendering such as \"আমরা চাইলে নিজের মনের ভেতর অপূর্ণতা ও গুহা-সদৃশ চিন্তা তৈরি করে নিতে পারি, কিন্তু কৃতজ্ঞতা ব্যক্ত করে সেই অন্ধকার থেকে বেরিয়ে আসতেই হবে।\"",
+        "translation_quote": "আমরা প্রত্যেকে নিজের মনকে গভীর গুহায় ভাবতে পারি, কিন্তু আমাদের নিজেদের কৃতজ্ঞতায় বের হতে হবে।"
+      },
+      {
+        "location": "Headings (three: \"Prayer Begets Power\", \"Peace Begets Love\", \"Thankfulness Begets a Sound Mind\")",
+        "severity": "minor",
+        "source_quote": "Prayer Begets Power; Peace Begets Love; Thankfulness Begets a Sound Mind",
+        "suggested_fix": "For target-language clarity and consistency, translate the English headings into Bengali (keeping original HTML structure). Examples: \"Prayer Begets Power\" → \"প্রার্থনা থেকে শক্তি জন্মায়\"; \"Peace Begets Love\" → \"শান্তি থেকে প্রেম জন্মায়\"; \"Thankfulness Begets a Sound Mind\" → \"কৃতজ্ঞতা থেকে সুস্থ মন জন্মায়\". (If the publication policy prefers keeping original English headings, this is optional.)",
+        "translation_quote": "Prayer Begets Power\n\n...\n\nPeace Begets Love\n\n...\n\nThankfulness Begets a Sound Mind"
+      },
+      {
+        "location": "Several stylistic/idiomatic sentences (scattered)",
+        "severity": "minor",
+        "source_quote": "The human mind is an amazing and intricate creation. Though many have sought to understand it, its operational ability remains incomprehensible to mankind.",
+        "suggested_fix": "A few sentences are translated literally and read awkwardly in Bengali. Recommend light copy edits for idiom and fluency without changing theological content. Example: change \"মানব মন চমৎকার ও জটিল একটি সৃষ্টিকর্ম\" to \"মানব মন একটি বিস্ময়কর ও জটিল সৃষ্টিকর্ম\"; \"এর কার্যকরী ক্ষমতা ... অপরিমেয়ই রয়ে গেছে\" → \"এর কার্যকারিতা মানুষের জন্য অপরিমেয় রয়ে গেছে\".",
+        "translation_quote": "মানব মন চমৎকার ও জটিল একটি সৃষ্টিকর্ম। অনেকেই এটিকে বোঝার চেষ্টা করেছেন, তবু এর কার্যকরী ক্ষমতা মানুষদের জন্য অপরিমেয়ই রয়ে গেছে।"
+      }
+    ],
+    "passed": true,
+    "score": 95
+  }
+}

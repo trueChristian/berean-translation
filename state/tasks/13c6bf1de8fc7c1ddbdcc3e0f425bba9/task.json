@@ -2,7 +2,6 @@
   "article_id": "10933457-b503-48e1-9346-49ff54d1b6fe",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "77408dd393274d0e9a02fd38672a90cc",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -43,17 +42,58 @@
         },
         "total_tokens": 12021
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1355,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7647,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9002
+      }
     }
   ],
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[10]: source /article[1]/p[5]/em[1] ('start', 'em', ()); translation /article[1]/p[5] ('end', 'p')",
-      "translation_quote": ""
+      "location": "Paragraph 2 (translation)",
+      "severity": "minor",
+      "source_quote": "As the child gained strength enough to resume play, the great dinner bell released its peal to all around, but Helen did not respond.",
+      "suggested_fix": "Render more natural Bengali and preserve meaning: replace \"ঘর-বাহিরে বিশাল ডিনারের ঘণ্টা তার খনি ছেড়ে সে সবায় শিখরিত করল\" with a clearer phrasing such as \"শিশুটি খেলায় যোগদানের জন্য যথেষ্ট শক্তি ফিরে পাওয়ার সময় আশেপাশের বড় ভোজঘণ্টার কণ্ঠ চারদিকে ঘোড়ালো, কিন্তু হেলেন সাড়া দিল না।\"",
+      "translation_quote": "শিশুটি খেলার যোগ্য শক্তি ফিরে পেয়েছে, তখন ঘর-বাহিরে বিশাল ডিনারের ঘণ্টা তার খনি ছেড়ে সে সবায় শিখরিত করল, কিন্তু হেলেন সাড়া দিল না।"
+    },
+    {
+      "location": "Paragraph beginning \"We each may think ourselves into a deep cave\" (translation)",
+      "severity": "minor",
+      "source_quote": "We each may think ourselves into a deep cave, but we must thank ourselves out.",
+      "suggested_fix": "Clarify idiom in Bengali to convey same exhortation. Replace \"আমাদের নিজেদের কৃতজ্ঞতায় বের হতে হবে\" with a more idiomatic rendering such as \"আমরা চাইলে নিজের মনের ভেতর অপূর্ণতা ও গুহা-সদৃশ চিন্তা তৈরি করে নিতে পারি, কিন্তু কৃতজ্ঞতা ব্যক্ত করে সেই অন্ধকার থেকে বেরিয়ে আসতেই হবে।\"",
+      "translation_quote": "আমরা প্রত্যেকে নিজের মনকে গভীর গুহায় ভাবতে পারি, কিন্তু আমাদের নিজেদের কৃতজ্ঞতায় বের হতে হবে।"
+    },
+    {
+      "location": "Headings (three: \"Prayer Begets Power\", \"Peace Begets Love\", \"Thankfulness Begets a Sound Mind\")",
+      "severity": "minor",
+      "source_quote": "Prayer Begets Power; Peace Begets Love; Thankfulness Begets a Sound Mind",
+      "suggested_fix": "For target-language clarity and consistency, translate the English headings into Bengali (keeping original HTML structure). Examples: \"Prayer Begets Power\" → \"প্রার্থনা থেকে শক্তি জন্মায়\"; \"Peace Begets Love\" → \"শান্তি থেকে প্রেম জন্মায়\"; \"Thankfulness Begets a Sound Mind\" → \"কৃতজ্ঞতা থেকে সুস্থ মন জন্মায়\". (If the publication policy prefers keeping original English headings, this is optional.)",
+      "translation_quote": "Prayer Begets Power\n\n...\n\nPeace Begets Love\n\n...\n\nThankfulness Begets a Sound Mind"
+    },
+    {
+      "location": "Several stylistic/idiomatic sentences (scattered)",
+      "severity": "minor",
+      "source_quote": "The human mind is an amazing and intricate creation. Though many have sought to understand it, its operational ability remains incomprehensible to mankind.",
+      "suggested_fix": "A few sentences are translated literally and read awkwardly in Bengali. Recommend light copy edits for idiom and fluency without changing theological content. Example: change \"মানব মন চমৎকার ও জটিল একটি সৃষ্টিকর্ম\" to \"মানব মন একটি বিস্ময়কর ও জটিল সৃষ্টিকর্ম\"; \"এর কার্যকরী ক্ষমতা ... অপরিমেয়ই রয়ে গেছে\" → \"এর কার্যকারিতা মানুষের জন্য অপরিমেয় রয়ে গেছে\".",
+      "translation_quote": "মানব মন চমৎকার ও জটিল একটি সৃষ্টিকর্ম। অনেকেই এটিকে বোঝার চেষ্টা করেছেন, তবু এর কার্যকরী ক্ষমতা মানুষদের জন্য অপরিমেয়ই রয়ে গেছে।"
     }
   ],
+  "finished_at": "2026-10-02T00:07:35+00:00",
   "id": "13c6bf1de8fc7c1ddbdcc3e0f425bba9",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "ben",
@@ -97,11 +137,13 @@
     }
   },
   "protected": false,
+  "quality_score": 95,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/26b7a664a367b633bc68dce4ce41099ba34f55c7da13d83df0ec0180ed003d97.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "b862596e1902f47704d5b4543248cd118dbbf01a8d05be354c99504278ee33ab",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

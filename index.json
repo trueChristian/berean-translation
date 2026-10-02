@@ -595,6 +595,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/10933457-b503-48e1-9346-49ff54d1b6fe.html",
+      "html_sha256": "c1241e22c236b3e817c4453bb0cd62548c69c8f58cbc5751e1951b312e30636e",
+      "human_reviewed": false,
+      "id": "10933457-b503-48e1-9346-49ff54d1b6fe",
+      "images": [
+        {
+          "alt": "সবুজ পাতার মধ্যে একটি কমলা-কালো প্রজাপতি",
+          "public_path": "/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-1.jpg"
+        },
+        {
+          "alt": "ছোট কমলার অর্কিডের ডাল",
+          "public_path": "/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-2.png"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/10933457-b503-48e1-9346-49ff54d1b6fe.json",
+      "metadata_sha256": "a4cf1c4b3ada5daa646c35f39c538d8a239900d26c3a6dd3772434241b772fd5",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "বিজয়ী খ্রিস্টীয় জীবনযাপন",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "b862596e1902f47704d5b4543248cd118dbbf01a8d05be354c99504278ee33ab",
+      "status": "ready",
+      "subtitle": null,
+      "title": "শক্তি, প্রেম, এবং একটি সুস্থ মন",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
       "html_sha256": "c4e9e3eac33ed58e4531ae30f2659b9ef77cddbb6c78208c6bce4936a3ee8e85",
       "human_reviewed": false,
@@ -1239,6 +1271,70 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/fbfb182b-bb05-434f-a664-b74c68153e61.html",
+      "html_sha256": "3b5fe28a2223763221a1d802023d42cef0aa77ed51459febbeb63d9a34830e63",
+      "human_reviewed": false,
+      "id": "fbfb182b-bb05-434f-a664-b74c68153e61",
+      "images": [
+        {
+          "alt": "Eine Waschmaschine und Wäschekörbe in einem Raum",
+          "public_path": "/images/articles/fbfb182b-bb05-434f-a664-b74c68153e61-1.jpg"
+        },
+        {
+          "alt": "Ein Notizbuch, Stifte, Kaffee und eine Pflanze auf einem Schreibtisch",
+          "public_path": "/images/articles/fbfb182b-bb05-434f-a664-b74c68153e61-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/fbfb182b-bb05-434f-a664-b74c68153e61.json",
+      "metadata_sha256": "836810be91e0123b5fcd5184e5f7b27bd9ef4c3914728cae61030ec85bcec6c9",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Schwester zu Schwester",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Das Überlastungssyndrom",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
+      "html_sha256": "4aeda05ce0a1b0d444f6dff1ed1f1b202868973f2324ed6e053f0f83abf7a1f7",
+      "human_reviewed": false,
+      "id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
+      "images": [
+        {
+          "alt": "Ένα εμπορικό κατάστημα της πόλης με κόκκινη πόρτα και έναν φανό δρόμου",
+          "public_path": "/images/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46-1.jpg"
+        },
+        {
+          "alt": "Ένα χέρι που κρατάει ένα ανοιχτό βιβλίο",
+          "public_path": "/images/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.json",
+      "metadata_sha256": "7991a7fc6539effe8522723f641e41da6f62278e8ba991fbde441c1cf7a4cc2d",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ΕΜΠΝΕΥΣΕΙΣ ΓΙΑ ΝΕΟΥΣ",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ο Κεν κι Εγώ",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
       "html_sha256": "c68506fdd8d6dddd603c5691263b1da4dfeb29290bfcd308bf6dafd86d3dd310",
       "human_reviewed": false,
@@ -1466,6 +1562,70 @@
       "status": "ready",
       "subtitle": null,
       "title": "Lève-toi, sois dans la joie",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/fbfb182b-bb05-434f-a664-b74c68153e61.html",
+      "html_sha256": "5dcaf528d9fc0286d5c80e49446baf9afc3fb2edb461e2b1f7a394d32c54e100",
+      "human_reviewed": false,
+      "id": "fbfb182b-bb05-434f-a664-b74c68153e61",
+      "images": [
+        {
+          "alt": "Une machine à laver et des paniers à linge dans une pièce",
+          "public_path": "/images/articles/fbfb182b-bb05-434f-a664-b74c68153e61-1.jpg"
+        },
+        {
+          "alt": "Un carnet, des stylos, du café et une plante sur un bureau",
+          "public_path": "/images/articles/fbfb182b-bb05-434f-a664-b74c68153e61-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/fbfb182b-bb05-434f-a664-b74c68153e61.json",
+      "metadata_sha256": "5c4743cb4b3647bc38df42cfd1f88932e2b6b61d2af8a50b3479bcaf669b5013",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "DE SŒUR À SŒUR",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Le syndrome de surcharge",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/heb/articles/10933457-b503-48e1-9346-49ff54d1b6fe.html",
+      "html_sha256": "fb0538f67185c79037810ff27c35f884b52ebe7879e10fc332ab65702dc69be7",
+      "human_reviewed": false,
+      "id": "10933457-b503-48e1-9346-49ff54d1b6fe",
+      "images": [
+        {
+          "alt": "פרפר כתום-שחור בין עלים ירוקים",
+          "public_path": "/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-1.jpg"
+        },
+        {
+          "alt": "גבעול של סחלבונים קטנים כתומים",
+          "public_path": "/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-2.png"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/10933457-b503-48e1-9346-49ff54d1b6fe.json",
+      "metadata_sha256": "0ff958b86ba92d873bd27f966dbcb2cc2cd2daad518518eb80a281ee19218158",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "חיים נוצריים מנצחים",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "b862596e1902f47704d5b4543248cd118dbbf01a8d05be354c99504278ee33ab",
+      "status": "ready",
+      "subtitle": null,
+      "title": "כוח, אהבה ומוח שפוי",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -2455,6 +2615,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/fbfb182b-bb05-434f-a664-b74c68153e61.html",
+      "html_sha256": "87bde48f3200cd0f0597eeb4e9b0ad68c8bdad589f9a498a2eea34e51f6d95f4",
+      "human_reviewed": false,
+      "id": "fbfb182b-bb05-434f-a664-b74c68153e61",
+      "images": [
+        {
+          "alt": "Una lavatrice e cesti della biancheria in una stanza",
+          "public_path": "/images/articles/fbfb182b-bb05-434f-a664-b74c68153e61-1.jpg"
+        },
+        {
+          "alt": "Un quaderno, penne, caffè e una pianta su una scrivania",
+          "public_path": "/images/articles/fbfb182b-bb05-434f-a664-b74c68153e61-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/fbfb182b-bb05-434f-a664-b74c68153e61.json",
+      "metadata_sha256": "15e643c1055faf7c21667bc3f93f8bc1a8e3a523402721a773eca2b51ecc76ef",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Sorella a sorella",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La sindrome del sovraccarico",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/10933457-b503-48e1-9346-49ff54d1b6fe.html",
       "html_sha256": "e17a9efd1d61ec363012ffc39e3a36ef4a9bad3f4e0d49e8f9d5ae538d35932e",
       "human_reviewed": false,
@@ -2719,6 +2911,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/10933457-b503-48e1-9346-49ff54d1b6fe.html",
+      "html_sha256": "ea6c455b76a8d1f635688726d13a49b68e5e6ff400b78c5cf38a2dda7447947a",
+      "human_reviewed": false,
+      "id": "10933457-b503-48e1-9346-49ff54d1b6fe",
+      "images": [
+        {
+          "alt": "An orange-and-black butterfly among green leaves",
+          "public_path": "/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-1.jpg"
+        },
+        {
+          "alt": "A stem of small orange orchids",
+          "public_path": "/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-2.png"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/10933457-b503-48e1-9346-49ff54d1b6fe.json",
+      "metadata_sha256": "429a0716e6919c14abfb9fabeeac88e8f1ed55c277c9dc489674fae2e26f34ee",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "OVERWINNEND CHRISTELIJK LEVEN",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "b862596e1902f47704d5b4543248cd118dbbf01a8d05be354c99504278ee33ab",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kracht, Liefde en een Gezonde Geest",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/45c612ff-1966-4079-9ba5-09ab022917ea.html",
       "html_sha256": "9736db4b62ec877a24e8433e6b83709780b78d51de7c16db4b792f4f451a9363",
       "human_reviewed": false,
@@ -2806,6 +3030,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "Ken en ik",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/fbfb182b-bb05-434f-a664-b74c68153e61.html",
+      "html_sha256": "5c111cc0e2d096cecadc4c1c0421b9a848567bbe31c56047a84aa19e82223821",
+      "human_reviewed": false,
+      "id": "fbfb182b-bb05-434f-a664-b74c68153e61",
+      "images": [
+        {
+          "alt": "Een wasmachine en wasmanden in een kamer",
+          "public_path": "/images/articles/fbfb182b-bb05-434f-a664-b74c68153e61-1.jpg"
+        },
+        {
+          "alt": "Een notitieboek, pennen, koffie en een plant op een bureau",
+          "public_path": "/images/articles/fbfb182b-bb05-434f-a664-b74c68153e61-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/fbfb182b-bb05-434f-a664-b74c68153e61.json",
+      "metadata_sha256": "70f9334fdc92225b7f8028b88c3abba1fee8093e2a44f0111edd0ed447ad7677",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ZUSTER TOT ZUSTER",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Het overbelastingssyndroom",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -3103,6 +3359,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/fbfb182b-bb05-434f-a664-b74c68153e61.html",
+      "html_sha256": "dbbca3b6c5b431285ecf91bb078d689544169b56960af88b397cd0a7a00b054e",
+      "human_reviewed": false,
+      "id": "fbfb182b-bb05-434f-a664-b74c68153e61",
+      "images": [
+        {
+          "alt": "En vaskemaskin og kleskurver i et rom",
+          "public_path": "/images/articles/fbfb182b-bb05-434f-a664-b74c68153e61-1.jpg"
+        },
+        {
+          "alt": "En notatbok, penner, kaffe og en plante på et skrivebord",
+          "public_path": "/images/articles/fbfb182b-bb05-434f-a664-b74c68153e61-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/fbfb182b-bb05-434f-a664-b74c68153e61.json",
+      "metadata_sha256": "8f5681692db885d838bde923ca806aebddaac9c617b51a36914a92f8e5e729f0",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Søster til søster",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Overbelastningssyndromet",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
       "html_sha256": "3ed4b7a778bec697532c6354890a7f3227ff088fccb089c1d52899433803a5ff",
       "human_reviewed": false,
@@ -3339,6 +3627,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
+      "html_sha256": "373e673197dbf03b9a70d47112c4238dfa7f0675a19f7fad9622bf47d765cf9f",
+      "human_reviewed": false,
+      "id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
+      "images": [
+        {
+          "alt": "Uma vitrine urbana com uma porta vermelha e um poste de luz",
+          "public_path": "/images/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46-1.jpg"
+        },
+        {
+          "alt": "Uma mão segurando um livro aberto",
+          "public_path": "/images/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.json",
+      "metadata_sha256": "657d907b2053851f6b794342b709ca6dea68b0cefbcf044d8242b6a2397442d1",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "INSPIRAÇÕES PARA A JUVENTUDE",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ken e Eu",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f.html",
       "html_sha256": "0a38c5ccc4288a4de6b919a9b9671462e58e03db2d4e78247240ebbacfd2a9d5",
       "human_reviewed": false,
@@ -3390,6 +3710,70 @@
       "status": "ready",
       "subtitle": null,
       "title": "Erguei-vos e alegrai-vos!",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/fbfb182b-bb05-434f-a664-b74c68153e61.html",
+      "html_sha256": "f23dd19ca88a966de2a8690734aad3f0d71e1414a067a67feb157f9abd8e7d17",
+      "human_reviewed": false,
+      "id": "fbfb182b-bb05-434f-a664-b74c68153e61",
+      "images": [
+        {
+          "alt": "Uma máquina de lavar e cestos de roupa numa sala",
+          "public_path": "/images/articles/fbfb182b-bb05-434f-a664-b74c68153e61-1.jpg"
+        },
+        {
+          "alt": "Um caderno, canetas, café e uma planta numa secretária",
+          "public_path": "/images/articles/fbfb182b-bb05-434f-a664-b74c68153e61-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/fbfb182b-bb05-434f-a664-b74c68153e61.json",
+      "metadata_sha256": "bfc0686acb38a7968faf39d6316ce2f896a391dac96ad9149ab02ef9fd748ee7",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "IRMÃ PARA IRMÃ",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "A Síndrome da Sobrecarga",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/10933457-b503-48e1-9346-49ff54d1b6fe.html",
+      "html_sha256": "e587202abd6dd8e1d79ab7b4495246b44c141f5ef15b892cbcd56fb3043e1ec0",
+      "human_reviewed": false,
+      "id": "10933457-b503-48e1-9346-49ff54d1b6fe",
+      "images": [
+        {
+          "alt": "Оранжево-чёрная бабочка среди зелёных листьев",
+          "public_path": "/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-1.jpg"
+        },
+        {
+          "alt": "Стебель маленьких оранжевых орхидей",
+          "public_path": "/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-2.png"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/10933457-b503-48e1-9346-49ff54d1b6fe.json",
+      "metadata_sha256": "f471d1f58ea706b893e1a1ba520cd1b55f7b7f7f972e68fa35ef1dff5de4df3a",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ПОБЕДОНОСНАЯ ХРИСТИАНСКАЯ ЖИЗНЬ",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "b862596e1902f47704d5b4543248cd118dbbf01a8d05be354c99504278ee33ab",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Сила, любовь и здравый ум",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -3590,6 +3974,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "Восстаньте и радуйтесь!",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/fbfb182b-bb05-434f-a664-b74c68153e61.html",
+      "html_sha256": "cb5119bae2176a3deacb8a5bd9335134408a8921d4a3f0ec2af634a1ffaf68e4",
+      "human_reviewed": false,
+      "id": "fbfb182b-bb05-434f-a664-b74c68153e61",
+      "images": [
+        {
+          "alt": "Стиральная машина и корзины с бельем в комнате",
+          "public_path": "/images/articles/fbfb182b-bb05-434f-a664-b74c68153e61-1.jpg"
+        },
+        {
+          "alt": "Блокнот, ручки, кофе и растение на письменном столе",
+          "public_path": "/images/articles/fbfb182b-bb05-434f-a664-b74c68153e61-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/fbfb182b-bb05-434f-a664-b74c68153e61.json",
+      "metadata_sha256": "7a1f4b01d6a85c68bf7766bd43eff7ed2375b607cb4336df036bfaa4b941c281",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "СЕСТРА К СЕСТРЕ",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Синдром перегруза",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -4107,6 +4523,70 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/45c612ff-1966-4079-9ba5-09ab022917ea.html",
+      "html_sha256": "0055a3a2260eb84db9d2e765e605c3d488612c30839a374ee7ad8e54dc3dcffa",
+      "human_reviewed": false,
+      "id": "45c612ff-1966-4079-9ba5-09ab022917ea",
+      "images": [
+        {
+          "alt": "Ua ya manjano dhidi ya majani ya kijani",
+          "public_path": "/images/articles/45c612ff-1966-4079-9ba5-09ab022917ea-1.jpg"
+        },
+        {
+          "alt": "Umyonga wa Uyoga ukikua juu ya sakafu ya msitu iliyofunikwa na moss",
+          "public_path": "/images/articles/45c612ff-1966-4079-9ba5-09ab022917ea-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/45c612ff-1966-4079-9ba5-09ab022917ea.json",
+      "metadata_sha256": "21323f5357dfefcca813de78a87c6e10776e05cc0fc9c6da966cd7b5f43f75cc",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SIFA ZA MUNGU",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "307ff3dcec107109e8c031e07835839a270150b1f8308d14b1a8b6811fd4f56d",
+      "status": "ready",
+      "subtitle": "Kutoka Sioni, ukamilifu wa uzuri, Mungu ameangaza. Zaburi 50:2",
+      "title": "Mungu, Ukamilifu wa Uzuri",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
+      "html_sha256": "7a8b4ed16913980116945ff6d372631f75df81b0598d3e73b8b4e2800666d4ce",
+      "human_reviewed": false,
+      "id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
+      "images": [
+        {
+          "alt": "Duka la mji lenye mlango mwekundu na taa ya barabarani",
+          "public_path": "/images/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46-1.jpg"
+        },
+        {
+          "alt": "Mkono ukishikilia kitabu kilichofunguliwa",
+          "public_path": "/images/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46-2.jpg"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.json",
+      "metadata_sha256": "165f9a0e0d367d5f9e8208e186d8efeb1e2c3f693bd0964a1beca5076a5af38f",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "MSUKUMO KWA VIJANA",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Mimi na Ken",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
       "html_sha256": "8178b4aee4de9194772d774b17062f1fce66a32d930508ef35b3b8d7088108e9",
       "human_reviewed": false,
@@ -4226,6 +4706,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "Ken och jag",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/10933457-b503-48e1-9346-49ff54d1b6fe.html",
+      "html_sha256": "37342dcecf1157c072b0544b716e6f39fc587d673cb104ee08c820c2fe19fed9",
+      "human_reviewed": false,
+      "id": "10933457-b503-48e1-9346-49ff54d1b6fe",
+      "images": [
+        {
+          "alt": "سبز پتوں کے درمیان اورنج اور سیاہ تتلی",
+          "public_path": "/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-1.jpg"
+        },
+        {
+          "alt": "چھوٹے اورنج آرکڈ کے پھولوں کی ڈالی",
+          "public_path": "/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-2.png"
+        }
+      ],
+      "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/10933457-b503-48e1-9346-49ff54d1b6fe.json",
+      "metadata_sha256": "a5c78140a0632840dd731d5c38be8dfc74e1c514957f3492513afd35529126cc",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "فاتح مسیحی زندگی",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "b862596e1902f47704d5b4543248cd118dbbf01a8d05be354c99504278ee33ab",
+      "status": "ready",
+      "subtitle": null,
+      "title": "طاقت، محبت، اور پُرسکون ذہن",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {

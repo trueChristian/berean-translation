@@ -6,9 +6,32 @@
       "campaign": "gh-36911235156",
       "event": "requested",
       "task": "ed375a1df9273e6fc756c7db62a34d61"
+    },
+    {
+      "at": "2026-10-02T00:07:35+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "ed375a1df9273e6fc756c7db62a34d61"
     }
   ],
   "language": "swa",
   "latest_task": "ed375a1df9273e6fc756c7db62a34d61",
-  "published": null
+  "published": {
+    "html_path": "content/swa/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
+    "html_sha256": "7a8b4ed16913980116945ff6d372631f75df81b0598d3e73b8b4e2800666d4ce",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
+    "metadata_path": "content/swa/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.json",
+    "metadata_sha256": "165f9a0e0d367d5f9e8208e186d8efeb1e2c3f693bd0964a1beca5076a5af38f",
+    "model": "gpt-5-mini-2025-08-07",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"sw\" dir=\"ltr\" role=\"note\">\n  <p>Makala hii imetafsiriwa kwa akili bandia ya OpenAI (modeli: gpt-5-mini-2025-08-07) na bado haijahakikiwa na binadamu. Maandishi asilia ya Kiingereza ndiyo toleo lenye mamlaka. Ikiwa kuna shaka kuhusu maana, tafadhali rejelea maandishi asilia ya Kiingereza. <a href=\"/en/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46/\" data-source-article-id=\"ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46\" hreflang=\"en\">Maandishi asilia ya Kiingereza</a></p>\n</aside>",
+    "published_at": "2026-10-02T00:07:35+00:00",
+    "quality_score": 97,
+    "review_model": "gpt-5-mini-2025-08-07",
+    "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+    "source_snapshot": "state/sources/0c059a0312fc4bb7c1d9113fe70aaa013f3daaefdb55449ee68204bcbaa1c79e.json",
+    "task": "ed375a1df9273e6fc756c7db62a34d61",
+    "translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18"
+  }
 }

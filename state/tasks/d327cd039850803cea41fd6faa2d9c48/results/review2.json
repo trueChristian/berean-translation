@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0f3ec8f7-a4cc-4f61-a0a0-88d2ec2b2acc",
+    "response_id": "chatcmpl-EUIH9JbAxe2uSNdUIVjTBIbxjfHKU",
+    "usage": {
+      "completion_tokens": 1134,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4802,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5936
+    }
+  },
+  "received_at": "2026-10-02T00:07:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Are you declining a request because life is too full, or is it an excuse?</p> (Part 2, paragraph beginning \"Identifying overload\")",
+        "severity": "major",
+        "source_quote": "Are you declining a request because life is too full, or is it an excuse?",
+        "suggested_fix": "Replace the mistranslated phrase with a correct Swedish rendering preserving sentence structure. Example: \"Tackar du nej till en förfrågan därför att livet är för fullt, eller är det en ursäkt?\"",
+        "translation_quote": "Negr du tackar nej till en förfrågan för att livet är för fullt, eller är det en ursäkt?"
+      },
+      {
+        "location": "<p>Household duties and caring for our families fill our days. Sometimes those tasks alone make us extremely busy.</p> (Part 1, paragraph beginning \"Household duties\")",
+        "severity": "minor",
+        "source_quote": "Sometimes those tasks alone make us extremely busy.",
+        "suggested_fix": "Adjust wording to a more natural Swedish equivalent that retains the same meaning. Example: \"Ibland gör bara dessa uppgifter oss extremt upptagna.\"",
+        "translation_quote": "Ibland gör de uppgifterna oss ensamma extremt upptagna."
+      },
+      {
+        "location": "<p>Symptoms of overload can include lack of sleep, strained relationships, procrastination, fear of failure, and a susceptible immune system.</p> (Part 2, paragraph beginning \"No one can overextend themselves indefinitely.\")",
+        "severity": "minor",
+        "source_quote": "a susceptible immune system",
+        "suggested_fix": "Render the phrase in idiomatic Swedish to convey weakened immune function. Example: \"ett försvagat immunförsvar\" or \"överkänsligt immunsystem\" depending on preferred idiom.",
+        "translation_quote": "ett mottagligt immunsystem"
+      },
+      {
+        "location": "<p>There are so many good things to be involved in, and new inspirations come daily. Sometimes tasks can be incorporated into my/our schedule.</p> (Part 2, paragraph beginning \"This has saved me a great deal of stress.\")",
+        "severity": "minor",
+        "source_quote": "Sometimes tasks can be incorporated into my/our schedule.",
+        "suggested_fix": "Fix the slash spacing and choose a single consistent pronoun form as in the source. Example: \"Ibland kan uppgifter införlivas i mitt/vårt schema.\" (no space after slash) or decide \"mitt schema\" or \"vårt schema\" to match the authorial voice.",
+        "translation_quote": "Ibland kan uppgifter införlivas i mitt/ vårt schema."
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

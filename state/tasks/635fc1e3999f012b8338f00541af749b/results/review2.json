@@ -1,0 +1,92 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "01516d71-6c6f-41c7-be27-4717e1ebd1c5",
+    "response_id": "chatcmpl-EUIHOxZPfHyzDP8mM3wVmhVvbFqkX",
+    "usage": {
+      "completion_tokens": 2552,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7110,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9662
+    }
+  },
+  "received_at": "2026-10-02T00:07:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph 3 (verse quote)",
+        "severity": "major",
+        "source_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.” (2 Timothy 1:7)",
+        "suggested_fix": "Translate this quoted Scripture text into Arabic while preserving the original printed English wording (i.e., render the exact words of the article's English quotation into Arabic). Replace the English quote with an Arabic rendering that directly reflects the source quote, and keep the reference (2 Timothy 1:7) unchanged and in parentheses.",
+        "translation_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.” (2 Timothy 1:7)"
+      },
+      {
+        "location": "source.html — paragraph 6 (Paul quote)",
+        "severity": "major",
+        "source_quote": "“troubled on every side; without were fightings, within were fears.” (2 Corinthians 7:5)",
+        "suggested_fix": "Translate this quoted Scripture/Paul quotation into Arabic preserving the printed English wording of the source (i.e., render the English text into Arabic consistent with the article's quoted phrasing). Keep the verse reference (2 Corinthians 7:5) exactly as in the source.",
+        "translation_quote": "“troubled on every side; without were fightings, within were fears.” (2 Corinthians 7:5)"
+      },
+      {
+        "location": "source.html — paragraph 4 (Job quote)",
+        "severity": "major",
+        "source_quote": "“A dreadful sound is in his ears: in prosperity the destroyer shall come upon him. He believeth not that he shall return out of darkness, and he is waited for of the sword.” (Job 15:21, 22)",
+        "suggested_fix": "Translate this quoted Scripture text into Arabic preserving the printed English wording of the source (render the English quotation into Arabic). Leave the citation (Job 15:21, 22) unchanged.",
+        "translation_quote": "“A dreadful sound is in his ears: in prosperity the destroyer shall come upon him. He believeth not that he shall return out of darkness, and he is waited for of the sword.” (Job 15:21, 22)"
+      },
+      {
+        "location": "source.html — section with multiple Scripture quotations and lists (Job 23:1-6 and Psalms, etc.)",
+        "severity": "major",
+        "source_quote": "“Then Job answered and said, Even to day is my complaint bitter: my stroke is heavier than my groaning. Oh that I knew where I might find him! ... No; but he would put strength in me.” (Job 23:1-6)  \n\n<li>David —“I poured out my complaint before him; I shewed before him my trouble.” (Psalm 142:2)</li>\n<li>Hannah —“For out of the abundance of my complaint and grief have I spoken hitherto.” (1 Samuel 1:16)</li>\n<li>Jeremiah —“He hath filled me with bitterness, he hath made me drunken with wormwood.” (Lamentations 3:15)</li>\n<li>Naomi —“Call me Mara: for the Almighty hath dealt very bitterly with me.” (Ruth 1:20)</li>\n<li>Hezekiah —“He will cut me off with pining sickness: from day even to night wilt thou make an end of me.” (Isaiah 38:12)</li>\n<li>Jesus — “My God, my God, why hast thou forsaken me?” (Matthew 27:46)</li>",
+        "suggested_fix": "All of these quoted biblical lines are printed in English in the source and must be rendered into Arabic in a way that conveys the printed English wording of the article (i.e., translate the article's English quotations into Arabic consistently). Do not substitute a different Bible version or paraphrase; produce Arabic translations that reflect the exact English text given in the source, and keep verse citations unchanged and in their original form.",
+        "translation_quote": "“Then Job answered and said, Even to day is my complaint bitter: my stroke is heavier than my groaning. Oh that I knew where I might find him! ... No; but he would put strength in me.” (Job 23:1-6)  \n\n<li>داود —“I poured out my complaint before him; I shewed before him my trouble.” (Psalm 142:2)</li>\n<li>حنّة —“For out of the abundance of my complaint and grief have I spoken hitherto.” (1 Samuel 1:16)</li>\n<li>إرميا —“He hath filled me with bitterness, he hath made me drunken with wormwood.” (Lamentations 3:15)</li>\n<li>نعومي —“Call me Mara: for the Almighty hath dealt very bitterly with me.” (Ruth 1:20)</li>\n<li>حزقيا —“He will cut me off with pining sickness: from day even to night wilt thou make an end of me.” (Isaiah 38:12)</li>\n<li>يسوع — “My God, my God, why hast thou forsaken me?” (Matthew 27:46)</li>"
+      },
+      {
+        "location": "source.html — paragraph 17 (quote containing 1 John 4:18)",
+        "severity": "major",
+        "source_quote": "“there is no fear in love; but perfect love casteth out fear: because fear hath torment. He that feareth is not made perfect in love.” (1 John 4:18)",
+        "suggested_fix": "Translate this quoted Scripture text into Arabic in a way that conveys the printed English wording of the source quotation. Keep the verse reference (1 John 4:18) unchanged.",
+        "translation_quote": "“there is no fear in love; but perfect love casteth out fear: because fear hath torment. He that feareth is not made perfect in love.” (1 John 4:18)"
+      },
+      {
+        "location": "source.html — paragraph 24 (Isaiah quote)",
+        "severity": "major",
+        "source_quote": "“... neither fear ye their fear, nor be afraid. Sanctify the LORD of hosts himself; and let him be your fear, and let him be your dread.” (Isaiah 8:12, 13)",
+        "suggested_fix": "Translate this quoted Scripture text into Arabic reflecting the printed English wording of the article's quotation. Preserve the original verse citation (Isaiah 8:12, 13).",
+        "translation_quote": "“... neither fear ye their fear, nor be afraid. Sanctify the LORD of hosts himself; and let him be your fear, and let him be your dread.” (Isaiah 8:12, 13)"
+      },
+      {
+        "location": "source.html — paragraph 26 (1 Peter quote)",
+        "severity": "major",
+        "source_quote": "\"the grace that is to be brought unto you at the revelation of Jesus Christ;\" (1 Peter 1:13)",
+        "suggested_fix": "Translate this quoted Scripture phrase into Arabic conveying the printed English wording of the source. Keep the reference (1 Peter 1:13) unchanged.",
+        "translation_quote": "\"the grace that is to be brought unto you at the revelation of Jesus Christ;\" (1 Peter 1:13)"
+      },
+      {
+        "location": "source.html — final blockquote (Philippians 4:7,8)",
+        "severity": "major",
+        "source_quote": "“And the peace of God, which passeth all understanding, shall keep your hearts and minds through Christ Jesus. Finally, brethren, whatsoever things are true... think on these things.” — Philippians 4:7, 8",
+        "suggested_fix": "Translate the entire blockquoted passage into Arabic so that it conveys the printed English wording used in the source article. Preserve the line breaks and the verse citation (Philippians 4:7, 8) as in the source.",
+        "translation_quote": "“And the peace of God,<br>\n    which passeth all understanding,<br>\n    shall keep your hearts and minds through Christ Jesus.<br>\n    Finally, brethren, whatsoever things are true,<br>\n    whatsoever things are honest, whatsoever things are just,<br>\n    whatsoever things are pure, whatsoever things are lovely,<br>\n    whatsoever things are of good report;<br>\n    if there be any virtue, and if there be any praise,<br>\n    think on these things.” — Philippians 4:7, 8"
+      },
+      {
+        "location": "source.html — paragraph 1 (minor grammar)",
+        "severity": "minor",
+        "source_quote": "\"the child would die of the strain\"",
+        "suggested_fix": "In Arabic translation the phrase appears as “تموت الطفلة من هذه الإرهاق” (incorrect gender/number). Change to grammatically correct Arabic: “تموت الطفلة من هذا الإرهاق” or “تموت الطفلة من الإرهاق.”",
+        "translation_quote": "\"خشي طبيب العائلة أن تموت الطفلة من هذه الإرهاق\""
+      }
+    ],
+    "passed": false,
+    "score": 65
+  }
+}

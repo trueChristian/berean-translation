@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d9349f97-961c-4a69-8181-b0b60a3fba66",
+    "response_id": "chatcmpl-EUIHGXOyjF9jczldje5tMxQnlgsfc",
+    "usage": {
+      "completion_tokens": 1146,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6629,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7775
+    }
+  },
+  "received_at": "2026-10-02T00:07:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph under <h2>Through Music and Sound</h2>",
+        "severity": "minor",
+        "source_quote": "the songbird praising its Maker, the rumble of thunder, or the simple patter of rain on the roof.",
+        "suggested_fix": "Replace the incorrect rendering of \"songbird\" and the awkward rendering of \"the rumble of thunder\" with idiomatic Swahili that preserves the original meaning. For example: change \"ndege mchungaji akimtukuza Muumba wake, radi taratibu, au patapaka ya mvua juu ya paa.\" to \"ndege wa wimbo ikimtukuza Muumba wake, mlio la radi, au patapaka rahisi ya mvua juu ya paa.\" Ensure only the quoted text inside the existing <p> tag is modified and keep all HTML tags and attributes unchanged.",
+        "translation_quote": "ndege mchungaji akimtukuza Muumba wake, radi taratibu, au patapaka ya mvua juu ya paa."
+      },
+      {
+        "location": "source.subtitle / translation.subtitle",
+        "severity": "minor",
+        "source_quote": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2",
+        "suggested_fix": "Minor style suggestion to match register of the English subtitle more closely while preserving the meaning and the Scripture citation. Optionally render as: \"Kutoka Sioni, ukamilifu wa uzuri umeangaza; Mungu ameonyesha. Psalmi 50:2\" (or keep current rendering). This is optional — no HTML changes required other than replacing subtitle text if desired.",
+        "translation_quote": "Kutoka Sioni, ukamilifu wa uzuri, Mungu ameangaza. Zaburi 50:2"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

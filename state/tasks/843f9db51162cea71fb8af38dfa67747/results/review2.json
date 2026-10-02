@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0860ece1-2f48-4419-b0cd-40fb1a20ded8",
+    "response_id": "chatcmpl-EUIGhe6Arm6hFTmPYjQwE9lmXr2gf",
+    "usage": {
+      "completion_tokens": 895,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1540,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2435
+    }
+  },
+  "received_at": "2026-10-02T00:07:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> third stanza, line 4 (\"These new births more divine:\")",
+        "severity": "major",
+        "source_quote": "These new births more divine:",
+        "suggested_fix": "Restore sense of 'births' (natal occurrences) rather than 'deeds'. Translate to Dutch conveying 'new births'—e.g. \"Deze nieuwgeboren wedergeboorten meer goddelijk:\" or \"Deze nieuwgeboren wedergeboorten, meer goddelijk:\"—keeping the substantive idea of new births/being-born rather than 'daden'. Preserve punctuation and stanza structure.",
+        "translation_quote": "Deze nieuwgeboren daden meer goddelijk:"
+      },
+      {
+        "location": "<div class=\"poem\"> fifth stanza, line 2–3 (\"Divine Redeemer, graciously\\nRenew this heart of mine.\")",
+        "severity": "minor",
+        "source_quote": "Divine Redeemer, graciously\nRenew this heart of mine.",
+        "suggested_fix": "Fix word order, spelling and capitalization while preserving original HTML tags. Use a natural Dutch rendering that preserves theology and tone, for example: \"Goddelijke Verlosser, vernieuwing mij genadiglijk\\nDit hart van mij.\" or better \"Goddelijke Verlosser, vernieuw genadiglijk\\ndit hart van mij.\" Ensure 'genadiglijk' orthography is intentionally archaic if matching source tone; otherwise use modern 'genadig' (e.g. \"Goddelijke Verlosser, vernieuw genadig dit hart van mij.\"). Keep line breaks identical to source paragraph.",
+        "translation_quote": "Goddelijke Verlosser, vernieuw genadiglijk\nDit hart van mij."
+      }
+    ],
+    "passed": false,
+    "score": 68
+  }
+}

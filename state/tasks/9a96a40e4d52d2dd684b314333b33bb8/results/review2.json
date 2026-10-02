@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e76cb32e-1c6b-46d1-afd5-443f6dfec133",
+    "response_id": "chatcmpl-EUIGkrAXXploiiPXwrbDA08Nh7HYg",
+    "usage": {
+      "completion_tokens": 1769,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8937,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10706
+    }
+  },
+  "received_at": "2026-10-02T00:07:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Ecclesiastes 12:1-7 ...</p> (Demenz in der Bibel section)",
+        "severity": "major",
+        "source_quote": "“Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, ... Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.”",
+        "suggested_fix": "Restore the original English Scripture quotation exactly as it appears in source.html. Replace the German rendering of Ecclesiastes 12:1-7 with the verbatim English passage from source.html, preserving punctuation and quotation marks and any surrounding HTML tags.",
+        "translation_quote": "„Gedenke deines Schöpfers in den Tagen deiner Jugend, ehe die bösen Tage kommen und die Jahre nahen, ... Dann wird der Staub wieder zur Erde zurückkehren, wie er gewesen ist, und der Geist wird zu dem Gott zurückkehren, der ihn gegeben hat.“"
+      },
+      {
+        "location": "<p>“And thou shalt teach them diligently unto thy children, ...” (Deuteronomy 6:7 in Demenz in der Bibel section)</p>",
+        "severity": "major",
+        "source_quote": "“And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up” (Deuteronomy 6:7).",
+        "suggested_fix": "Restore the original English Scripture quotation exactly as it appears in source.html. Replace the German translation of Deuteronomy 6:7 with the verbatim English sentence from source.html, including the parenthetical reference and quotation marks, preserving surrounding HTML structure.",
+        "translation_quote": "„Und du sollst sie deinen Kindern einschärfen und davon reden, wenn du in deinem Hause sitzt und wenn du auf dem Wege gehst und wenn du dich niederlegst und wenn du aufstehst“ (Deuteronomium 6:7)."
+      },
+      {
+        "location": "<p>Galatians quotation in Conclusion</p>",
+        "severity": "minor",
+        "source_quote": "“But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law” (Galatians 5:22-23).",
+        "suggested_fix": "No doctrinal change here, but for consistency of Scripture presentation: either keep all Scripture quotations in English exactly as in the source (preferred) or mark clearly if a translation is intentionally provided. Currently Galatians remains in English while earlier passages were translated to German; to be consistent, restore Ecclesiastes and Deuteronomy to the original English text (see major findings) so that all Scripture quotations match the source. Do not alter the Galatians passage.",
+        "translation_quote": "„Wesentlich ist, die Früchte des Geistes in die Praxis umzusetzen. „But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law“ (Galatians 5:22-23).”"
+      },
+      {
+        "location": "<p>“We moved on to talking about other things, but I could tell that Al’s heart was breaking.” / corresponding German paragraph</p>",
+        "severity": "minor",
+        "source_quote": "“We moved on to talking about other things, but I could tell that Al’s heart was breaking.”",
+        "suggested_fix": "Fix the English possessive left in the German text. Replace \"Al’s Herz\" or \"Al’s Herz zerbrach\" with correct German phrasing preserving meaning, e.g. \"aber ich konnte sehen, wie Al sein Herz zerbrach\" or better: \"aber ich konnte sehen, wie sein Herz, Al's, zerbrach\" (preferred: \"aber ich konnte sehen, wie sein Herz schwer zerbrach\" / \"und ich sah, wie Al innerlich zerbrach\"). Keep original HTML tags intact.",
+        "translation_quote": "\"Wir wechselten das Thema, aber ich konnte sehen, wie Al’s Herz zerbrach. Seine Frau von 48 Jahren sah äußerlich wie immer aus und doch war sie eine völlig andere Person.\""
+      },
+      {
+        "location": "<p>Lecanemab cost parenthetical</p>",
+        "severity": "minor",
+        "source_quote": "\"This medication is very expensive ($26,500 per year)and it has been linked to an increase in strokes.\"",
+        "suggested_fix": "Preserve the original numeric and currency formatting from source.html. Replace \"(26.500 USD pro Jahr)\" with the source wording \"($26,500 per year)\" (keeping spacing and punctuation), or at minimum use a consistent localized format but preserve the original currency symbol and numeric value exactly as in source.html if that is the editorial policy. Keep surrounding HTML unchanged.",
+        "translation_quote": "\"Dieses Medikament ist sehr teuer (26.500 USD pro Jahr) und es wurde mit einem Anstieg von Schlaganfällen in Verbindung gebracht.\""
+      }
+    ],
+    "passed": false,
+    "score": 75
+  }
+}

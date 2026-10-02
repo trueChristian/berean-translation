@@ -2,7 +2,6 @@
   "article_id": "fbfb182b-bb05-434f-a664-b74c68153e61",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "77408dd393274d0e9a02fd38672a90cc",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -43,17 +42,37 @@
         },
         "total_tokens": 6969
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 436,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 320,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4556,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4992
+      }
     }
   ],
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[7]; missing: 5:30; extra: 17:30",
-      "translation_quote": ""
+      "location": "source.html -> paragraph: \"Commitment overload happens by default.\" (Part 2)",
+      "severity": "minor",
+      "source_quote": "Commitment overload happens by default.",
+      "suggested_fix": "Translate the term 'commitment overload' into Dutch to avoid unnecessary English loanword. Example: replace with \"Overbelasting door verplichtingen gebeurt als vanzelf.\" Preserve surrounding sentence structure and punctuation.",
+      "translation_quote": "Commitment-overload gebeurt als vanzelf."
     }
   ],
+  "finished_at": "2026-10-02T00:07:35+00:00",
   "id": "367477c5c9e7c69127cc9f5f9b4e763e",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "nld",
@@ -97,11 +116,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/57473773ac5b1974a223c6159a928ec4b7d4781abd867e42854e5f7e38041953.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

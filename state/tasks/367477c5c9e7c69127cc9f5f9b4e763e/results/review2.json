@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1c86f7d6-be84-4b6c-aefa-e39adb2a49da",
+    "response_id": "chatcmpl-EUIH1JYUHLgKcf0IcYsPFd4x3IFAB",
+    "usage": {
+      "completion_tokens": 436,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4556,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4992
+    }
+  },
+  "received_at": "2026-10-02T00:07:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html -> paragraph: \"Commitment overload happens by default.\" (Part 2)",
+        "severity": "minor",
+        "source_quote": "Commitment overload happens by default.",
+        "suggested_fix": "Translate the term 'commitment overload' into Dutch to avoid unnecessary English loanword. Example: replace with \"Overbelasting door verplichtingen gebeurt als vanzelf.\" Preserve surrounding sentence structure and punctuation.",
+        "translation_quote": "Commitment-overload gebeurt als vanzelf."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

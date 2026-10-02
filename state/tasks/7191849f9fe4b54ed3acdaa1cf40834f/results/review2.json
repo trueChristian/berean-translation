@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e8ec6d10-0926-4c7d-b45e-775b3f2a6a61",
+    "response_id": "chatcmpl-EUIH1yhxlXaQBWtVqZsSZzTalIEAH",
+    "usage": {
+      "completion_tokens": 1251,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7103,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8354
+    }
+  },
+  "received_at": "2026-10-02T00:07:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Chacun de nous peut se penser dans une grotte profonde, mais nous devons nous remercier pour en sortir.</p>",
+        "severity": "major",
+        "source_quote": "We each may think ourselves into a deep cave, but we must thank ourselves out.",
+        "suggested_fix": "Translate the intended meaning while preserving HTML: replace the paragraph content with: <p>Chacun de nous peut s'imaginer prisonnier d'une profonde caverne, mais nous devons nous en sortir par la reconnaissance.</p>",
+        "translation_quote": "Chacun de nous peut se penser dans une grotte profonde, mais nous devons nous remercier pour en sortir."
+      },
+      {
+        "location": "<p>... il semble exister une corrélation directe entre le fructueux — pouvoir, amour et esprit sain — et le «radical» — prière, paix et action de grâces.</p>",
+        "severity": "minor",
+        "source_quote": "there seems to be a direct correlation between the fruitful - power, love and sound mind, to the “rootful”- prayer, peace, and thankfulness.",
+        "suggested_fix": "Use a French term that preserves the source nuance \"rootful\" (i.e., 'axé sur la racine' or 'enracinné'). Replace the clause with: <p>... il semble exister une corrélation directe entre le fructueux — pouvoir, amour et esprit sain — et le «relié aux racines» — prière, paix et action de grâces.</p>",
+        "translation_quote": "il semble exister une corrélation directe entre le fructueux — pouvoir, amour et esprit sain — et le «radical» — prière, paix et action de grâces."
+      },
+      {
+        "location": "<p>Fear is the ominous adversary to a sound mind. ... If we are to resist it in these days, we he must rise with all diligence in defiant warfare.</p>",
+        "severity": "minor",
+        "source_quote": "If we are to resist it in these days, we he must rise with all diligence in defiant warfare.",
+        "suggested_fix": "Preserve author's original wording except for obvious typographical issues; render as a faithful French equivalent while keeping the sense: replace in translation with: <p>Si nous voulons y résister en ces jours, nous devons nous lever avec toute diligence et livrer une guerre de défi.</p>",
+        "translation_quote": "Si nous devons lui résister en ces jours, nous devons nous lever avec toute diligence dans une guerre défiant l'ennemi."
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

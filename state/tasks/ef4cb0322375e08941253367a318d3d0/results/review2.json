@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4dbd294c-4779-485d-8a26-7197a22dd896",
+    "response_id": "chatcmpl-EUIHFJqtz2m9zFjac1QdBywRkjExS",
+    "usage": {
+      "completion_tokens": 1429,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7413,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8842
+    }
+  },
+  "received_at": "2026-10-02T00:07:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>It was through base fear that the evil servant buried his talent and did not trade with it. In his eyes his master was austere and to be feared. But God has not given us the spirit of fear but of love.</p>",
+        "severity": "major",
+        "source_quote": "In his eyes his master was austere and to be feared.",
+        "suggested_fix": "Render the meaning of \"austere and to be feared\" correctly in Afrikaans. For example: \"In sy oë was sy meester streng en om gevrees te word.\" or \"In sy oë was sy meester streng en vreesaanjaend.\" Preserve sentence structure and HTML tags.",
+        "translation_quote": "In sy oë was sy baas hartelik en om vrees te word."
+      },
+      {
+        "location": "<p>Through the lad's tender eyes, his father's character is unflawed. His skill is unmatched. Even the brand of vehicle he drives is the best, and he emulates his every action. Even though every father knows the limitations of his son's expectations, we all bask in the seasonal loyalty.</p>",
+        "severity": "minor",
+        "source_quote": "we all bask in the seasonal loyalty.",
+        "suggested_fix": "Correct the Afrikaans verb that conveys \"bask\". Replace the mistranslated/typo \"bad ons almal\" with a correct verb such as \"baad ons almal\" or rephrase to \"ons almal geniet dit saam\" while keeping HTML tags unchanged.",
+        "translation_quote": "bad ons almal in die seisoenale lojaliteit."
+      },
+      {
+        "location": "<p>It can only be secured through prayer, peace, and thankfulness. This may take some reprogramming of our minds to reach into the subconscious recesses, but we must soberly gird up the loins of our minds and exercise them if we ever hope to obtain “the grace that is to be brought unto you at the revelation of Jesus Christ;” (1 Peter 1:13)</p>",
+        "severity": "minor",
+        "source_quote": "we must soberly gird up the loins of our minds and exercise them",
+        "suggested_fix": "Improve idiomatic Afrikaans for the metaphor \"gird up the loins of our minds\" so it reads naturally while preserving author's sense. Example: \"maar ons moet soberlik die lede van ons verstand omgord en dit oefen\" or \"maar ons moet soberlik die rêrtuie van ons gedagtes omgord en dit oefen.\" Keep sentence order and HTML tags intact.",
+        "translation_quote": "maar ons moet soberlik die lewens van ons gedagtes omgord en dit oefen as ons ooit hoop om “the grace that is to be brought unto you at the revelation of Jesus Christ;” (1 Peter 1:13) te verkry."
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "01c0edcb-81f9-4d48-8a0e-8b63d03121d8",
+    "response_id": "chatcmpl-EUIGhkeSNTNkRgaTP2YtA8GVjJzAa",
+    "usage": {
+      "completion_tokens": 912,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4712,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5624
+    }
+  },
+  "received_at": "2026-10-02T00:07:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Une surcharge incessante peut provoquer une épuisement physique et mental au point où nous perdons enthousiasme, énergie et sens.</p>",
+        "severity": "minor",
+        "source_quote": "Relentless overload can cause physical and mental exhaustion to the point where we feel deprived of enthusiasm, energy, and purpose.",
+        "suggested_fix": "Correct the gender agreement and article: replace \"une épuisement\" with \"un épuisement\" while preserving surrounding HTML: <p>Une surcharge incessante peut provoquer un épuisement physique et mental au point où nous perdons enthousiasme, énergie et sens.</p>",
+        "translation_quote": "Une surcharge incessante peut provoquer une épuisement physique et mental au point où nous perdons enthousiasme, énergie et sens."
+      },
+      {
+        "location": "<p>Cessez de vous inquiéter de la perfection et prenez des décisions basées sur ce qui est le mieux pour aujourd’hui. Les femmes au foyer joyeuses et aimant s’amuser peuvent avoir quelques moutons de poussière sous les meubles, mais elles dégagent une aura qui attire les gens vers leur cœur et leur maison.</p>",
+        "severity": "minor",
+        "source_quote": "Fun-loving, happy, homemakers might have a few dust bunnies under the furniture, but they radiate an aura that draws people to their hearts and homes.",
+        "suggested_fix": "Improve idiomatic phrasing for natural French while preserving HTML: replace \"joyeuses et aimant s’amuser\" with a more idiomatic adjective phrase such as \"joyeuses et enjouées\". Suggested HTML: <p>Cessez de vous inquiéter de la perfection et prenez des décisions basées sur ce qui est le mieux pour aujourd’hui. Les femmes au foyer joyeuses et enjouées peuvent avoir quelques moutons de poussière sous les meubles, mais elles dégagent une aura qui attire les gens vers leur cœur et leur maison.</p>",
+        "translation_quote": "Les femmes au foyer joyeuses et aimant s’amuser peuvent avoir quelques moutons de poussière sous les meubles, mais elles dégagent une aura qui attire les gens vers leur cœur et leur maison."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

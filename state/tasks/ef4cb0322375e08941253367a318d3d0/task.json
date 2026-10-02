@@ -2,7 +2,6 @@
   "article_id": "10933457-b503-48e1-9346-49ff54d1b6fe",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "77408dd393274d0e9a02fd38672a90cc",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -43,17 +42,52 @@
         },
         "total_tokens": 11747
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1429,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7413,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8842
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[10]: source /article[1]/p[5]/em[1] ('start', 'em', ()); translation /article[1]/p[5] ('end', 'p')",
-      "translation_quote": ""
+      "location": "<p>It was through base fear that the evil servant buried his talent and did not trade with it. In his eyes his master was austere and to be feared. But God has not given us the spirit of fear but of love.</p>",
+      "severity": "major",
+      "source_quote": "In his eyes his master was austere and to be feared.",
+      "suggested_fix": "Render the meaning of \"austere and to be feared\" correctly in Afrikaans. For example: \"In sy oë was sy meester streng en om gevrees te word.\" or \"In sy oë was sy meester streng en vreesaanjaend.\" Preserve sentence structure and HTML tags.",
+      "translation_quote": "In sy oë was sy baas hartelik en om vrees te word."
+    },
+    {
+      "location": "<p>Through the lad's tender eyes, his father's character is unflawed. His skill is unmatched. Even the brand of vehicle he drives is the best, and he emulates his every action. Even though every father knows the limitations of his son's expectations, we all bask in the seasonal loyalty.</p>",
+      "severity": "minor",
+      "source_quote": "we all bask in the seasonal loyalty.",
+      "suggested_fix": "Correct the Afrikaans verb that conveys \"bask\". Replace the mistranslated/typo \"bad ons almal\" with a correct verb such as \"baad ons almal\" or rephrase to \"ons almal geniet dit saam\" while keeping HTML tags unchanged.",
+      "translation_quote": "bad ons almal in die seisoenale lojaliteit."
+    },
+    {
+      "location": "<p>It can only be secured through prayer, peace, and thankfulness. This may take some reprogramming of our minds to reach into the subconscious recesses, but we must soberly gird up the loins of our minds and exercise them if we ever hope to obtain “the grace that is to be brought unto you at the revelation of Jesus Christ;” (1 Peter 1:13)</p>",
+      "severity": "minor",
+      "source_quote": "we must soberly gird up the loins of our minds and exercise them",
+      "suggested_fix": "Improve idiomatic Afrikaans for the metaphor \"gird up the loins of our minds\" so it reads naturally while preserving author's sense. Example: \"maar ons moet soberlik die lede van ons verstand omgord en dit oefen\" or \"maar ons moet soberlik die rêrtuie van ons gedagtes omgord en dit oefen.\" Keep sentence order and HTML tags intact.",
+      "translation_quote": "maar ons moet soberlik die lewens van ons gedagtes omgord en dit oefen as ons ooit hoop om “the grace that is to be brought unto you at the revelation of Jesus Christ;” (1 Peter 1:13) te verkry."
     }
   ],
+  "finished_at": "2026-10-02T00:07:35+00:00",
   "id": "ef4cb0322375e08941253367a318d3d0",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "afr",
@@ -97,11 +131,13 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/26b7a664a367b633bc68dce4ce41099ba34f55c7da13d83df0ec0180ed003d97.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "b862596e1902f47704d5b4543248cd118dbbf01a8d05be354c99504278ee33ab",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

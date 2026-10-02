@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e42cb6eb-ceb2-4e7f-8e9f-d07c7327dc9f",
+    "response_id": "chatcmpl-EUIGytAhVlRFMZGQlBLeHSjvvOXff",
+    "usage": {
+      "completion_tokens": 2078,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1088,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7345,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9423
+    }
+  },
+  "received_at": "2026-10-02T00:07:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>... Guds ord. “For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.” (2 Timothy 1:7)</p>",
+        "severity": "major",
+        "source_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.” (2 Timothy 1:7)",
+        "suggested_fix": "Render the quoted Scripture consistently into Swedish (or keep the original English quotation exactly as in the source). The source quotes are in English; the translation must either keep those exact English lines or present them in Swedish that faithfully conveys the printed English wording. Example Swedish rendering preserving the sense: “Ty Gud har icke gett oss fruktans ande, utan kraftens och kärlekens och ett sundt sinne.” (2 Timoteusbrevet 1:7)",
+        "translation_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.” (2 Timothy 1:7)"
+      },
+      {
+        "location": "Multiple scripture quotations left in English (throughout the article) — examples include Job 15:21, 22; Philippians 4:6 7; Job 23:1-6; listed citations (Psalm 142:2; 1 Samuel 1:16; Lamentations 3:15; Ruth 1:20; Isaiah 38:12; Matthew 27:46); 1 John 4:18; Psalm 119:165; 1 John 4:19, 20; Isaiah 8:12, 13; 1 Peter 1:13; blockquote Philippians 4:7, 8.",
+        "severity": "major",
+        "source_quote": "All scripture quotations appear in English in the source article exactly as printed there (e.g., “Be careful for nothing; but in every thing by prayer...” (Philippians 4:6 7)).",
+        "suggested_fix": "Make all Scripture quotations consistent with the handling chosen for the first quoted verse: either (A) keep the original English quotations verbatim in the Swedish article (matching the source), or (B) translate each quoted verse into Swedish in a way that faithfully conveys the exact printed English wording. Ensure verse references (book names and chapter:verse numbers) remain identical to the source. Example: translate Philippians 4:6-7 into Swedish that matches the English sense: “Var inte bekymrade för något, utan låt i allt genom bön och åkallan med tacksägelse era önskningar bli framlagda inför Gud. Och Guds frid, som övergår allt förstånd, skall bevara era hjärtan och era tankar i Kristus Jesus.” (Filipperbrevet 4:6–7)",
+        "translation_quote": "Multiple verses remain quoted in English (e.g., “Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God. And the peace of God...”(Philippians 4:6 7))."
+      },
+      {
+        "location": "<p>... men vi måste nyktert spänna sinnets länder och öva dem ... “the grace that is to be brought unto you at the revelation of Jesus Christ;” (1 Peter 1:13)</p>",
+        "severity": "minor",
+        "source_quote": "“the grace that is to be brought unto you at the revelation of Jesus Christ;” (1 Peter 1:13) — source phrase: “gird up the loins of your mind”",
+        "suggested_fix": "The Swedish phrase “spänna sinnets länder” is awkward and not an idiomatic rendering of “gird up the loins of your mind.” Suggest a clearer, idiomatic Swedish rendering that preserves the metaphor and author’s tone, for example: “men vi måste nyktra spänna sinnets bälte och träna det” or “men vi måste nyktert förbereda våra sinnen och öva dem” while keeping the quoted English phrase (1 Peter 1:13) handled consistently with the other scripture quotations per the first suggested fix.",
+        "translation_quote": "“men vi måste nyktert spänna sinnets länder och öva dem om vi någonsin hoppas erhålla “the grace that is to be brought unto you at the revelation of Jesus Christ;” (1 Peter 1:13)” }],"
+      },
+      {
+        "location": "",
+        "severity": "minor",
+        "source_quote": "",
+        "suggested_fix": "",
+        "translation_quote": ""
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

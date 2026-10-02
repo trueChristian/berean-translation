@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ec85fe65-bbbf-4485-b2fb-0b63e8da7f54",
+    "response_id": "chatcmpl-EUIHK5WvyD9XpzKwUZsaxGkgCfm4a",
+    "usage": {
+      "completion_tokens": 836,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4712,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5548
+    }
+  },
+  "received_at": "2026-10-02T00:07:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"That means if you are an avid bread maker, it’s all right to toss a few loaves of bread into your shopping cart.\" (Part 1)",
+        "severity": "minor",
+        "source_quote": "That means if you are an avid bread maker, it’s all right to toss a few loaves of bread into your shopping cart.",
+        "suggested_fix": "Use a natural, grammatically correct Russian wording for \"avid bread maker.\" Replace \"вы увлечённая хлебопёка\" with e.g. \"если вы увлечены выпечкой хлеба\" or \"если вы заядлая пекарь хлеба\" (better: \"если вы увлечены выпечкой хлеба, можно положить пару буханок в корзину\"). Preserve original HTML structure and punctuation.",
+        "translation_quote": "Это значит, что если вы увлечённая хлебопёка, можно положить пару буханок хлеба в корзину покупок — и это нормально."
+      },
+      {
+        "location": "Paragraph: \"A renowned doughnut maker was asked to have a stand at an auction.\" (Part 2)",
+        "severity": "minor",
+        "source_quote": "A renowned doughnut maker was asked to have a stand at an auction.",
+        "suggested_fix": "The translation \"получила предложение поставить своё место на аукционе\" is awkward/unclear in Russian. Suggest a clearer phrasing while preserving meaning, e.g. \"известной производительнице пончиков предложили поставить прилавок на аукционе\" or \"попросили вести прилавок на аукционе.\" Keep original HTML tags and sentence order unchanged.",
+        "translation_quote": "Одна известная производительница пончиков получила предложение поставить своё место на аукционе."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

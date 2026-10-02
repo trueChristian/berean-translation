@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3c480bd5-8bc9-4cd3-9f41-efb2bb95f0c9",
+    "response_id": "chatcmpl-EUIH18HWn6RKOQX7yoh3pO8OpBnmJ",
+    "usage": {
+      "completion_tokens": 958,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7095,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8053
+    }
+  },
+  "received_at": "2026-10-02T00:07:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<figure> (first image) alt attribute",
+        "severity": "minor",
+        "source_quote": "<img src=\"/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-1.jpg\" alt=\"An orange-and-black butterfly among green leaves\">",
+        "suggested_fix": "Translate the alt text into Dutch while preserving the img tag and attributes. Example replacement: <img src=\"/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-1.jpg\" alt=\"Een oranje-zwarte vlinder tussen groene bladeren\">",
+        "translation_quote": "<img src=\"/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-1.jpg\" alt=\"An orange-and-black butterfly among green leaves\">"
+      },
+      {
+        "location": "<figure> (second image) alt attribute",
+        "severity": "minor",
+        "source_quote": "<img src=\"/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-2.png\" alt=\"A stem of small orange orchids\">",
+        "suggested_fix": "Translate the alt text into Dutch while preserving the img tag and attributes. Example replacement: <img src=\"/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-2.png\" alt=\"Een steel met kleine oranje orchideeën\">",
+        "translation_quote": "<img src=\"/images/articles/10933457-b503-48e1-9346-49ff54d1b6fe-2.png\" alt=\"A stem of small orange orchids\">"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

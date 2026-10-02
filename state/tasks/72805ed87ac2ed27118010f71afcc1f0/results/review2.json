@@ -1,0 +1,78 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d3c81977-1e07-4a75-98df-46ed1851ac89",
+    "response_id": "chatcmpl-EUIGhR7YhDlqA6RiKVW1u6pO02Rsh",
+    "usage": {
+      "completion_tokens": 1771,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4853,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6624
+    }
+  },
+  "received_at": "2026-10-02T00:07:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<ul> (Part 1, concepts list)",
+        "severity": "major",
+        "source_quote": "Homemakers, especially godly homemakers, are never frustrated.",
+        "suggested_fix": "Translate the phrase \"godly homemakers\" accurately without adding denominational or sectarian sense. For example: \"עושות הבית, ובפרט עושות בית מסורות/יראיות/חסידות אלוהים, אינן מתוסכלות לעולם\" should be revised to preserve the author's intended nuance. A safe literal rendering: \"עושות הבית, ובפרט עושות בית שמאמות/יראיות, אינן מתוסכלות לעולם.\" Preserve the original theological sense (godly) rather than implying a specific movement. Keep the surrounding HTML structure unchanged.",
+        "translation_quote": "עושות הבית, ובפרט עושות בית חסידות, אינן מתוסכלות לעולם."
+      },
+      {
+        "location": "Paragraph: \"A mother cannot consistently...\" (Part 1)",
+        "severity": "major",
+        "source_quote": "A mother cannot consistently be one step ahead of her family’s needs.",
+        "suggested_fix": "Correct the mistranslation and grammatical error. Replace the current Hebrew with a faithful rendering such as: \"אם אם לא תמיד יכולה להיות צעד אחד לפני צרכי משפחתה.\" should be corrected to: \"אם אם לא תמיד יכולה\" is wrong—use: \"אם אֵם לא יכולה תמיד להיות צעד אחד לפני צרכי משפחתה.\" or better: \"אם אם לא יכולה\" → \"אם אם לא יכולה\" is still wrong; recommended fix: \"אם אם לא יכולה\" → \"אם אם לא יכולה\" is invalid. Proper fix to preserve meaning: \"אם אם לא יכולה תמיד להיות צעד אחד לפני צרכי משפחתה.\" (Preserve tags.)",
+        "translation_quote": "אם אם לא תמיד יכולה להיות צעד אחד לפני צרכי משפחתה."
+      },
+      {
+        "location": "Paragraph: \"If you are an avid bread maker...\" (Part 1, 'Accept your limits')",
+        "severity": "major",
+        "source_quote": "That means if you are an avid bread maker, it’s all right to toss a few loaves of bread into your shopping cart.",
+        "suggested_fix": "Fix gender/verb and idiomatic errors so the sentence conveys the original. Replace: \"אם את אופים לחם בהתלהבות, זה בסדר להשליך כמה כיכרות לעגלה בסופר.\" with a correct, faithful translation such as: \"זאת אומרת, אם את אופת/אופה לחם בהתלהבות, זה בסדר לשים כמה כיכרות בעגלה בקניות.\" Preserve HTML tags.",
+        "translation_quote": "זה אומרת, אם את אופים לחם בהתלהבות, זה בסדר להשליך כמה כיכרות לעגלה בסופר."
+      },
+      {
+        "location": "Heading: \"Imperfect women make good homemakers\" (Part 1)",
+        "severity": "major",
+        "source_quote": "Imperfect women make good homemakers",
+        "suggested_fix": "Correct the duplicated words and ensure idiomatic Hebrew. Replace: \"נשים בלתי מושלמות עושות עoshות בית טובות\" with: \"נשים בלתי מושלמות עושות עושות בית טובות\" is wrong. Suggested fix: \"נשים בלתי מושלמות עושות בית טובות\" or better: \"נשים שאינן מושלמות יכולות להיות עושות בית טובות.\" Preserve the <h3> tag.",
+        "translation_quote": "נשים בלתי מושלמות עושות עושות בית טובות"
+      },
+      {
+        "location": "Paragraph with the doughnut-maker anecdote (Part 2, 'Seek advice')",
+        "severity": "major",
+        "source_quote": "A renowned doughnut maker was asked to have a stand at an auction. She asked her husband what he thought about it.",
+        "suggested_fix": "The translation introduced an incorrect phrase that changes meaning. Replace \"אשת סמנכרת סופגניות ידועה\" (nonsensical \"assistant-manager woman of doughnuts\") with a faithful rendering such as: \"אשה ידועה בהכנת סופגניות/אשת הכנת סופגניות מפורסמת נתבקשה...\" and keep the rest of the anecdote equivalent to the source. Preserve paragraph tags.",
+        "translation_quote": "אשת סמנכרת סופגניות ידועה נתבקשה לפתוח דוכן במכירה פומבית."
+      },
+      {
+        "location": "Paragraph: \"Sometimes we suffer consequences...\" (Part 2)",
+        "severity": "minor",
+        "source_quote": "Sometimes we suffer consequences for keeping a pace that is beyond our resources.",
+        "suggested_fix": "Fix awkward literalness/typo: \"אנו סובלות משילולים על קיום קצב העולה על משאבינו.\" appears to use an incorrect word \"שילולים\". Replace with \"סובלנו תוצאות/השלכות\" to match source: e.g. \"לעתים אנו סובלות ההשלכות על קיום קצב העולה על משאבינו.\" Preserve tags.",
+        "translation_quote": "לעתים אנו סובלות משילולים על קיום קצב העולה על משאבינו."
+      },
+      {
+        "location": "Paragraph: \"Let an idea or request gel before committing\" (Part 2)",
+        "severity": "minor",
+        "source_quote": "Consider waiting a few hours before incorporating new ideas and requests.",
+        "suggested_fix": "The translation retains meaning but mixes \"לי/לנו\" and contains a slash in Hebrew \"לוח הזמנים שלי/שלנו\". Prefer a consistent singular/plural register per the article voice. Suggested fix: choose singular or plural and remove the slash, e.g. \"לעתים משימות יכולות להשתלב בלוח הזמנים שלי. לפעמים עלי פשוט לוותר...\" Preserve tags.",
+        "translation_quote": "לעתים משימות יכולות להשתלב בלוח הזמנים שלי/שלנו. לפעמים אחרות עלי פשוט לוותר ולהתמקד במה שחשוב ביותר."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

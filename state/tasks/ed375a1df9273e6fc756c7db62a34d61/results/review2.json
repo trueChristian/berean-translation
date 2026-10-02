@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8c0e2d97-b094-46b8-aef8-0e70ce692a53",
+    "response_id": "chatcmpl-EUIHAVEuHTqmEbXHTPDIPZS0KHZJE",
+    "usage": {
+      "completion_tokens": 1203,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6592,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7795
+    }
+  },
+  "received_at": "2026-10-02T00:07:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph: \"She charged up the stairs bellowing angrily, and Ken was sure that he was in trouble. To his relief, she continued down the hall.\"",
+        "severity": "minor",
+        "source_quote": "She charged up the stairs bellowing angrily, and Ken was sure that he was in trouble. To his relief, she continued down the hall.",
+        "suggested_fix": "Translate the motion idiomatically as movement along the corridor. Preserve meaning that she continued walking away down the corridor. For example, replace the phrase \"aliendelea chini ya ukuta wa korido\" with \"aliendelea kwenye korido\" or \"aliendelea kutembea kwenye korido\" so it clearly conveys she kept walking down the hall.",
+        "translation_quote": "Alipanda ngazi akiwa akilia kwa hasira, na Ken alikuwa hakika alikuwa katika shida. Kwa faraja yake, aliendelea chini ya ukuta wa korido."
+      },
+      {
+        "location": "source.html paragraph: \"He woke the next morning, still hidden behind the door.\"",
+        "severity": "minor",
+        "source_quote": "He woke the next morning, still hidden behind the door.",
+        "suggested_fix": "Use the common Swahili phrase for 'the next morning' — \"asubuhi iliyofuata\" — to improve naturalness. For example, change \"Aliamka asubuhi iliyoifu, bado amejificha nyuma ya mlango.\" to \"Aliamka asubuhi iliyofuata, bado akiwa amejificha nyuma ya mlango.\"",
+        "translation_quote": "Aliamka asubuhi iliyoifu, bado amejificha nyuma ya mlango."
+      },
+      {
+        "location": "source.html first paragraph: \"pawn shop\"",
+        "severity": "minor",
+        "source_quote": "pawn shop",
+        "suggested_fix": "Keep a concise and idiomatic Swahili equivalent. The translation uses two slightly different phrasings (\"duka lake la nyumba ya kubadilishia dhahabu\" and later \"duka lake la kubadilishia dhahabu\"). Use a single clear term such as \"duka la kubadilishia dhahabu (pawn shop)\" or simply \"duka la pawn\" consistently.",
+        "translation_quote": "duka lake la nyumba ya kubadilishia dhahabu; duka lake la kubadilishia dhahabu"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

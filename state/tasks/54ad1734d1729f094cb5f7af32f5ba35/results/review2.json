@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3293ade4-2a5f-49c2-b630-b593e6ba6303",
+    "response_id": "chatcmpl-EUIHG1zBFzwxEs59stKIxc1tzEohJ",
+    "usage": {
+      "completion_tokens": 1335,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4842,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6177
+    }
+  },
+  "received_at": "2026-10-02T00:07:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Maybe you can go to a Tupperware party, attend a Bible study, and repaint the bathroom all in one week. But should you?</p>",
+        "severity": "critical",
+        "source_quote": "Maybe you can go to a Tupperware party, attend a Bible study, and repaint the bathroom all in one week. But should you?",
+        "suggested_fix": "Preserve the original meaning: translate “repaint the bathroom” correctly. For example, replace the sentence inside the same <p>…</p> with: \"Miskien kan jy in een week by ’n Tupperware-partytjie gaan, by ’n Bybelstudie teenwoordig wees en die badkamer opnuut verf. Maar moet jy?\" (keep existing HTML tags and attributes unchanged).",
+        "translation_quote": "Miskien kan jy in een week by ’n Tupperware-partytjie gaan, by ’n Bybelstudie teenwoordig wees en die badkamer oopsit. Maar moet jy?"
+      },
+      {
+        "location": "<p>All my family members know that we eat dinner at 5:30. But a late arrival habit is trending, and it bothers me.</p>",
+        "severity": "minor",
+        "source_quote": "All my family members know that we eat dinner at 5:30. But a late arrival habit is trending, and it bothers me.",
+        "suggested_fix": "Fix typo and natural phrasing while preserving HTML: replace the translation inside the same <p>…</p> with e.g. \"Al my gesinslede weet dat ons om 5:30 eet. Maar daar ontwikkel ’n neiging van laat aankom, en dit pla my.\"",
+        "translation_quote": "Al my gesinslede weet dat ons om 5:30 eet. Maar ’n trend van laat aankomsmis gewoonte ontstaan, en dit pla my."
+      },
+      {
+        "location": "<p>Commitment overload happens by default. ...</p>",
+        "severity": "minor",
+        "source_quote": "Commitment overload happens by default.",
+        "suggested_fix": "Use a more idiomatic Afrikaans term for \"commitment\" without changing meaning. For example, within the same <p>…</p> replace \"Toewysing-oorlading gebeur by verstek.\" with \"Oorlading deur te veel verbintenisse gebeur by verstek.\" or \"Verpligtinge-oorlading gebeur by verstek.\" (preserve tags).",
+        "translation_quote": "Toewysing-oorlading gebeur by verstek."
+      },
+      {
+        "location": "<p>She asked her husband what he thought about it. He said, “As long as you don’t complain and stress about it like you did last year, I don’t care.” Was her husband saying “yes” or “no”?</p>",
+        "severity": "minor",
+        "source_quote": "He said, “As long as you don’t complain and stress about it like you did last year, I don’t care.” Was her husband saying “yes” or “no”?:",
+        "suggested_fix": "Correct phrasing and word order in the husband’s quote to reflect the English more naturally while preserving HTML. For example: \"Hy sê: ‘Solank jy nie kla of daaroor stres soos verlede jaar nie, gee dit vir my nie om.’ Was hy nou ‘ja’ of ‘nee’?’\"",
+        "translation_quote": "Hy sê, “Solank jy nie kla en jou daaroor stres soos verlede jaar nie, gee dit my niks om.” Was haar man “ja” of “nee” sê?"
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

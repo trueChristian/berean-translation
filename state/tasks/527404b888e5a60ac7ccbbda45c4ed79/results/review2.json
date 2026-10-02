@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ea208f05-a99a-4457-a313-7b57ddbab5b0",
+    "response_id": "chatcmpl-EUIHKTk7CBYjgz8eBMs8Mp7lwwlls",
+    "usage": {
+      "completion_tokens": 865,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4758,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5623
+    }
+  },
+  "received_at": "2026-10-02T00:07:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Når jeg fortalte mannen min om frustrasjonen, sa han enkelt: «Hvorfor forklarer du ikke problemet og slutter å være så opphengt i det?» Godt poeng. Å proaktivt søke løsninger fungerer for mange problemområder.</p>",
+        "severity": "minor",
+        "source_quote": "“Why don’t you explain the issue and quit being so uptight about it?” Good point. Proactively seeking solutions works for many problem areas.",
+        "suggested_fix": "Preserve meaning but use more natural Bokmål phrasing. Replace “Å proaktivt søke løsninger” with “Å aktivt/forhåndsvis søke løsninger” or better: “Å aktivt søke løsninger fungerer for mange problemområder.” Keep original HTML tags and punctuation unchanged.",
+        "translation_quote": "«Hvorfor forklarer du ikke problemet og slutter å være så opphengt i det?» Godt poeng. Å proaktivt søke løsninger fungerer for mange problemområder."
+      },
+      {
+        "location": "<p>Ha en detaljert kalender for å få et bilde av fortid, nåtid og fremtidige hendelser. Hvis familien din hadde influensa forrige uke og du planlegger en tur til en annen stat neste uke, bør du legge til mer da? Hva er familiens emosjonelle helse? Er mannen din stresset på jobben? Noen ganger er det bedre å ha et tidsglipp uten planer slik at det kan fylles med det som er viktig nå. Du kan ikke gjøre en god jobb med noe hvis du er spredt for tynt. For mange forpliktelser gjør det vanskelig å bli personlig forfrisket og vennlig. Å velge forpliktelser klokt vil hjelpe deg å investere energien din der den er mest verdifull for i dag.</p>",
+        "severity": "minor",
+        "source_quote": "Sometimes it is better to have a time slot of nothing so it can be filled with what is important now.",
+        "suggested_fix": "“Et tidsglipp uten planer” is awkward in Bokmål. Suggest replacing with a clearer phrasing such as “et ledig tidsrom uten planer” or “en ledig tid slik at den kan fylles med det som er viktig nå.” Preserve the surrounding HTML tags and sentence structure.",
+        "translation_quote": "Noen ganger er det bedre å ha et tidsglipp uten planer slik at det kan fylles med det som er viktig nå."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

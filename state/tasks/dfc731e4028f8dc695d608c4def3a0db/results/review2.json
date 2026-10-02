@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6a28f2d8-edaf-440c-bd80-e8619a3fef7f",
+    "response_id": "chatcmpl-EUIGhTugWsrLzY7Erk6ldMkAy8UIa",
+    "usage": {
+      "completion_tokens": 625,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6050,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6675
+    }
+  },
+  "received_at": "2026-10-02T00:07:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> third <p> (near: \"What lay behind those flashing eyes, and what memories are stored beneath his ever-crowning beanie?\")",
+        "severity": "minor",
+        "source_quote": "What lay behind those flashing eyes, and what memories are stored beneath his ever-crowning beanie?",
+        "suggested_fix": "Translate the phrase more literally to preserve the peculiar image. Replace “o que memórias estão guardadas sob seu gorro sempre apertado?” with “que memórias estão guardadas sob seu gorro que sempre o coroava?” (preserve surrounding HTML).",
+        "translation_quote": "O que havia por trás daqueles olhos faiscantes, e que memórias estão guardadas sob seu gorro sempre apertado?"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

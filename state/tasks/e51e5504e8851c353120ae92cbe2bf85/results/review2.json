@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "27502c94-c67c-4021-bda4-2394d0d95aa7",
+    "response_id": "chatcmpl-EUIHBS3zQgytEybinCS9FmhqOcRh9",
+    "usage": {
+      "completion_tokens": 1017,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5147,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6164
+    }
+  },
+  "received_at": "2026-10-02T00:07:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph: \"No one can overextend themselves indefinitely. ...\" (Part 2, paragraph listing symptoms)",
+        "severity": "critical",
+        "source_quote": "No one can overextend themselves indefinitely. Sometimes we suffer consequences for keeping a pace that is beyond our resources. Symptoms of overload can include lack of sleep, strained relationships, procrastination, fear of failure, and a susceptible immune system.",
+        "suggested_fix": "Translate the untranslated English phrase and ensure the full symptom list is in Urdu and matches the source meaning and order. Replace the current sentence in the translation with: \"کوئی بھی ہمیشہ کے لیے خود کو حد سے زیادہ پھیلائے نہیں رکھ سکتا۔ بعض اوقات ہم اس تیزی کے نتائج بھگتتے ہیں جو ہمارے وسائل سے بڑھ کر ہوتی ہے۔ اوورلوڈ کی علامات میں نیند کی کمی، رشتوں میں کشیدگی، التوا، ناکامی کا خوف، اور کمزور مدافعتی نظام شامل ہو سکتے ہیں۔\" Preserve original meaning and the original symptom order.",
+        "translation_quote": "اوورلوڈ کی علامات میں نیند کی کمی، strained relationships, التوا، ناکامی کا خوف، اور کمزور مدافعتی نظام شامل ہو سکتے ہیں۔"
+      },
+      {
+        "location": "source.section metadata",
+        "severity": "minor",
+        "source_quote": "SISTER TO SISTER",
+        "suggested_fix": "Use a more natural Urdu rendering of the section title. Replace the translation section value \"بہن بہن سے\" with a more idiomatic phrase such as \"بہن سے بہن\" (or keep a faithful transliteration like \"سِسٹر ٹو سِسٹر\" if preferred by the publisher).",
+        "translation_quote": "بہن بہن سے"
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

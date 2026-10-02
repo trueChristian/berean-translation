@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "961d6560-5054-4a99-bddc-30678d1c9697",
+    "response_id": "chatcmpl-EUIHAVZKKVeupzB0dHCtdYMjvKe5T",
+    "usage": {
+      "completion_tokens": 1942,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6468,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8410
+    }
+  },
+  "received_at": "2026-10-02T00:07:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.subtitle / translation.subtitle",
+        "severity": "major",
+        "source_quote": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2",
+        "suggested_fix": "Translate the subtitle into Hebrew (preserve it as subtitle text). Example: \"מציון זרח יופי המלא; אלוהים זרח. תהלים 50:2\" — or otherwise render the printed English citation into Hebrew while preserving the quoted Bible wording style the author used. Do not remove or replace the scriptural reference number.",
+        "translation_quote": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2"
+      },
+      {
+        "location": "Multiple <h2> headings in translation.html (Through the Gospel; Through Creation; Through Music and Sound; Through the Church:)",
+        "severity": "major",
+        "source_quote": "Through the Gospel\n\nThrough Creation\n\nThrough Music and Sound\n\nThrough the Church:",
+        "suggested_fix": "Translate each <h2> heading into Hebrew, preserving the <h2> tags and structure. Examples: <h2>דרך הבשורה</h2>, <h2>דרך הבריאה</h2>, <h2>דרך המוזיקה והקול</h2>, <h2>דרך הכנסייה</h2>. Do not alter surrounding HTML attributes or article structure.",
+        "translation_quote": "<h2>Through the Gospel</h2>\n...\n<h2>Through Creation</h2>\n...\n<h2>Through Music and Sound</h2>\n...\n<h2>Through the Church:</h2>"
+      },
+      {
+        "location": "Paragraph beginning with the quoted 2 Corinthians passage (translation.html)",
+        "severity": "major",
+        "source_quote": "\"In whom the god of this world hath blinded the minds of them which believe not, lest the light of the glorious gospel of Christ, who is the image of God, should shine unto them...\" (2 Corinthians 4:4-6) In the awfulness of the Passion of Christ, we find a profound and sober beauty— the beauty of a sacrifice made by a sinless Savior for undeserving humanity.",
+        "suggested_fix": "The Hebrew rendering of \"In the awfulness of the Passion of Christ\" is garbled and ungrammatical. Replace the phrase with a clear Hebrew equivalent that preserves the author's meaning and theology, e.g. \"בעצימות ייסורי המשיח\" or \"בנוראות ייסורי המשיח\". Keep the surrounding translated sentence and preserve the quoted English scripture exactly as in source if you choose not to translate scripture. Maintain HTML tags.",
+        "translation_quote": "“In whom the god of this world hath blinded the minds of them which believe not, lest the light of the glorious gospel of Christ, who is the image of God, should shine unto them. For we preach not ourselves, but Christ Jesus the Lord; and ourselves your servants for Jesus' sake. For God, who commanded the light to shine out of darkness, hath shined in our hearts, to give the light of the knowledge of the glory of God in the face of Jesus Christ” (2 Corinthians 4:4-6). בשקומת הסבל של היסורים המשיח, אנו מוצאים יופי עמוק ויאושני—יופי של קורבן שניתן על-ידי מושיע ללא חטא למען אנושות שאינה ראויה."
+      },
+      {
+        "location": "Paragraph about creation: \"אלוהים הביט בעבודתו והכריזה שהיא טובה.\"",
+        "severity": "minor",
+        "source_quote": "In our attempt to live non-extravagant lives we sometimes fail to take joy in the beautiful things in life. It is right and good and in harmony with how we were created to find pleasure in things of beauty.",
+        "suggested_fix": "Fix verb gender/agreement: change \"והכריזה\" to the correct masculine form \"והכריז\" (or recast the clause naturally in Hebrew) so the verb agrees with אלוהים/השם/א־לוהים and the sentence reads smoothly. Preserve original HTML paragraph tags.",
+        "translation_quote": "התחושה הממלאת של הישג שנובעת מעבודה שבוצעה היטב מקוריה בבריאה, שם אלוהים הביט בעבודתו והכריזה שהיא טובה."
+      },
+      {
+        "location": "Word for 'sequoia' in creation paragraph (translation.html)",
+        "severity": "minor",
+        "source_quote": "a towering redwood",
+        "suggested_fix": "Correct the Hebrew transliteration/spelling. Replace \"סקוויות\" with a standard Hebrew form such as \"סקווויה\" (or \"עצים מסוג סקווויה\") to reflect the tree intended. Keep surrounding sentence structure and HTML.",
+        "translation_quote": "סקווייה גבוהת קומה (translated as \"סקוויות גבוהת קומה\" in the file as \"סקוויות גבוהת קומה\")"
+      },
+      {
+        "location": "Hebrews quotation and surrounding sentence (translation.html)",
+        "severity": "major",
+        "source_quote": "let us “lift up the hands which hang down and the feeble knees” (Hebrews 12:12) and let us press on.",
+        "suggested_fix": "The quoted scripture reference and the translated clause are partially garbled: the translation reads 'נְרומם את הידים הנופלות ואת הברכיים המעֵתות” (Hebrews 12:12)'. Restore a faithful Hebrew rendering that preserves the printed English scripture quotation or present the same English quotation consistently; fix mis-typed Hebrew letters and punctuation. Example fix: 'לכן נרים את הידים הנופלות ואת הברכיים המעטות (Hebrews 12:12) ונמשיך להתקדם.' Ensure the closing quotation marks and parentheses are correct and preserve HTML paragraph tags.",
+        "translation_quote": "...נְרומם את הידים הנופלות ואת הברכיים המעֵתות” (Hebrews 12:12) ונמשיך הלאה."
+      }
+    ],
+    "passed": false,
+    "score": 68
+  }
+}

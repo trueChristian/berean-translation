@@ -2,7 +2,6 @@
   "article_id": "b43320f3-e4e8-450b-865c-099ef704149c",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "77408dd393274d0e9a02fd38672a90cc",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -43,17 +42,59 @@
         },
         "total_tokens": 13400
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1643,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8389,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10032
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
+      "location": "source.html — first paragraph and subsequent scripture-quotation paragraphs",
       "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[91]: source /article[1]/blockquote[2]/p[1]/em[1]/br[3] ('start', 'br', ()); translation /article[1]/blockquote[2]/p[1]/em[1] ('end', 'em')",
-      "translation_quote": ""
+      "source_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”",
+      "suggested_fix": "Translate or render these quoted Scripture lines into Bengali so they convey the printed English wording of the authoritative article, preserving the verse references and any parenthetical clarifications. For example, replace the English quotes with Bengali renderings that faithfully convey the printed English text, while keeping the parenthetical verse citations intact and in the same position inside the paragraph. Preserve all existing HTML tags and attributes exactly. (Do not replace with a different Bible version; the Bengali text should reflect the English sentences presented in the source.)",
+      "translation_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”"
+    },
+    {
+      "location": "source.html — section headers and subheadings (beginning of second half)",
+      "severity": "major",
+      "source_quote": "<h2>How can we live a morally pure life?</h2>\n\n  <p><strong>Be Humble.</strong> James 5 says, “Confess your faults one to another that ye may be healed.” ...</p>",
+      "suggested_fix": "Translate the heading and the emphasized subheadings into Bengali while preserving their HTML markup. For example replace <h2>How can we live a morally pure life?</h2> with a Bengali equivalent inside the same <h2> tag, and replace <strong>Be Humble.</strong> (and the other <strong>...</strong> subheadings) with Bengali equivalents, keeping the <strong> tags and surrounding paragraph tags unchanged. Scripture citations and quoted English phrases inside the paragraph (if intentionally left as printed English) should be handled as in the earlier fix to ensure consistency with the source's printed English wording requirement.",
+      "translation_quote": "<h2>How can we live a morally pure life?</h2>\n\n  <p><strong>Be Humble.</strong> James 5 says, “Confess your faults one to another that ye may be healed.” ...</p>"
+    },
+    {
+      "location": "source.html — image alt attribute",
+      "severity": "major",
+      "source_quote": "<img src=\"/images/articles/b43320f3-e4e8-450b-865c-099ef704149c-1.jpg\" alt=\"An orange-and-black butterfly perched beside red berries\">",
+      "suggested_fix": "Correct the alt text to accurately reflect the English source alt description. Replace the current Bengali alt value with a faithful Bengali rendering of the English source alt (not adding or inventing details). Preserve the img tag and its attributes exactly except for the alt text. For example: alt=\"কমলা ও কালো রঙের প্রজাপতি লাল বেরির পাশে বসে আছে\"",
+      "translation_quote": "<img src=\"/images/articles/b43320f3-e4e8-450b-865c-099ef704149c-1.jpg\" alt=\"লাল বেরি-ফুলের পাশে বসা কমলা-কালোতৃণপাতা পাতার ওপরে দ্বিতীয় আপতিত প্রজাপতি\">"
+    },
+    {
+      "location": "source.html — multiple in-body quoted English scripture lines later in article (e.g., John 10:10, James 1:15, Hebrews 4:13, Numbers 32:23, Psalm citations)",
+      "severity": "major",
+      "source_quote": "John 10:10, James 1:15: “Then when lust hath conceived, it bringeth forth sin: and sin, when it is finished, bringeth forth death” Verse 16 says, “Do not (be deceived) my beloved brethren.” Hebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).” Numbers 32:23 is still very true, saying, “Be sure your sin will find you out.”",
+      "suggested_fix": "Render the in-text quoted Scripture sentences into Bengali so they convey the printed English wording from the source, and keep verse references where they appear. Ensure the Bengali rendering is faithful to the English text displayed in the authoritative article (do not substitute another Bible translation’s wording). Keep the sentence punctuation and placement inside the same paragraph and preserve all HTML tags.",
+      "translation_quote": "John 10:10-এ যীশু বলেছেন, “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy” সব ধার্মিক সম্পর্ককেই। ... Hebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).” ... Numbers 32:23 এখনো খুবই সত্য, বলে, “Be sure your sin will find you out.”"
     }
   ],
+  "finished_at": "2026-10-02T00:07:35+00:00",
   "id": "22dba05f3ffdbc92f32ac76e1d3144b8",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "ben",
@@ -97,11 +138,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6e098ac8eb342eaa406de38f5a002ad3b708959025887f49dfe6141d191cd700.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "f7304b582e2d69344173a19198f46ca88b1132d0c44e0b4021e5c3668c34cd95",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

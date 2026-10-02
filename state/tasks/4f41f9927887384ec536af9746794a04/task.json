@@ -2,7 +2,6 @@
   "article_id": "62646d6d-87be-47a6-880f-0ade408a3402",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "77408dd393274d0e9a02fd38672a90cc",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:44+00:00",
   "events": [
@@ -43,17 +42,52 @@
         },
         "total_tokens": 5282
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1412,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3094,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4506
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[24]: source /article[1]/p[4] ('end', 'p'); translation /article[1]/p[4]/em[1] ('start', 'em', ())",
-      "translation_quote": ""
+      "location": "<p>…When the Psalmist wrote…</p> (second paragraph of source.html)",
+      "severity": "major",
+      "source_quote": "When the Psalmist wrote, “Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9).",
+      "suggested_fix": "Translate Psalmist as ‘গীতিকার’ or ‘কবি’ (preserving theological sense) and preserve the exact English scriptural quotation in parentheses as in the source. For example: “নিশ্চয়ই গীতিকার যখন লেখেছিলেন, “Let the floods clap their hands… (Psalms 98:8-9).”",
+      "translation_quote": "নিশ্চয়ই পুরাণকার যখন লেখেছিলেন, “Let the floods clap their hands: let the hills be joyful together before the LORD; for he cometh to judge the earth: with righteousness shall he judge the world, and the people with equity” (Psalms 98:8-9), তখন এই উদ্দীপ্ত বছরের সময়টাই ছিল।"
+    },
+    {
+      "location": "<p>…Hymn History article…</p> (fourth paragraph of source.html)",
+      "severity": "minor",
+      "source_quote": "Millions who never experienced Christ the fountain as described in the Hymn History article in this issue:",
+      "suggested_fix": "Render the title reference idiomatically and clearly in Bengali while preserving the sense that this is the magazine section/title. Use a readable translation such as “এই সংখ্যায় প্রকাশিত ‘Hymn History’ শিরোনামের নিবন্ধে বর্ণিত ফোয়ারা” or keep the English title in quotes if it is a section name: “...as described in the ‘Hymn History’ article in this issue.”",
+      "translation_quote": "লক্ষ লক্ষ যারা কখনোই খ্রিস্ট—এই সংস্করণ-ইতিহাস-গীতের নিবন্ধে বর্ণিত ফোয়ারা হিসেবে অভিজ্ঞ হয়নি:"
+    },
+    {
+      "location": "<p>…words of the prophet Isaiah…</p> (final paragraphs before closing)",
+      "severity": "minor",
+      "source_quote": "let us be reminded of the words of the prophet Isaiah, “For as the earth bringeth forth her bud …” (Isaiah 61:11).",
+      "suggested_fix": "Translate ‘the prophet Isaiah’ correctly and avoid redundant phrasing. For example: “তাহলে চলুন নবী ইশায়ার (Isaiah) এর কথাগুলো স্মরণ করি: “For as the earth bringeth forth her bud …” (Isaiah 61:11).” Preserve the exact English scripture quotation in parentheses as in the source.",
+      "translation_quote": "তেমন আমরা আমাদের বাগান রোপণ করি এবং গাছগুলোকে ফুলে ফোটতে দেখি, তেমনি নবজাত জীবনের কথা স্মরণ করিয়ে দেয় নববাণী—যেমন নববাণী Isaiah-এর কথায় আছে, “For as the earth bringeth forth her bud, and as the garden causeth the things that are sown in it to spring forth; so the Lord GOD will cause righteousness and praise to spring forth before all the nations” (Isaiah 61:11)।"
     }
   ],
+  "finished_at": "2026-10-02T00:07:35+00:00",
   "id": "4f41f9927887384ec536af9746794a04",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "ben",
@@ -97,11 +131,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5455d2cd09d57a9e870ea92c4b7c08c9a0c8a2c68c077d639797bdc8f61c6072.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "4d9dfcb569c766d66f27a0b849e928a00092f623d094123ff8457715b95737af",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

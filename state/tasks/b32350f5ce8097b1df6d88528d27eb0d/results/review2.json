@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "dedf2c46-f268-428f-8e4d-5eff9f2220f4",
+    "response_id": "chatcmpl-EUIGr0L2XZlaX2lhxMbMKtkiUICar",
+    "usage": {
+      "completion_tokens": 976,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4818,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5794
+    }
+  },
+  "received_at": "2026-10-02T00:07:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — <ul> first <li>",
+        "severity": "minor",
+        "source_quote": "Homemakers are capable of handling everything.",
+        "suggested_fix": "Replace the Italian phrase with a correct equivalent preserving HTML: <li>Le casalinghe sono capaci di gestire tutto.</li>",
+        "translation_quote": "<li>Le casalinghe siano capaci di gestare tutto.</li>"
+      },
+      {
+        "location": "source.html — section metadata",
+        "severity": "minor",
+        "source_quote": "SISTER TO SISTER",
+        "suggested_fix": "Use title-style capitalization consistent with the Italian translation or preserve source casing as required by the publisher. Suggested fix (preserve field structure): \"Sorella a Sorella\" (or keep all caps if site requires).",
+        "translation_quote": "\"Sorella a sorella\""
+      },
+      {
+        "location": "source.html — paragraph near end of Part 1 (two-sentence sequence)",
+        "severity": "minor",
+        "source_quote": "Everyone differs when it comes to how much we can handle. On the other hand, everyone is the same; we all have limits.",
+        "suggested_fix": "Make gender agreement consistent in Italian while preserving meaning. Suggested fix: \"Ognuna di noi è diversa per quanto riguarda quanto può sopportare. D'altro canto, siamo tutte uguali: abbiamo tutte dei limiti.\"",
+        "translation_quote": "<p>Ognuna di noi è diversa per quanto riguarda quanto può sopportare. D’altro canto, siamo tutte uguali; abbiamo tutti dei limiti.</p>"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

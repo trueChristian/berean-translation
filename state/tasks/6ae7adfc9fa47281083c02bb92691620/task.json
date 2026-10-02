@@ -2,7 +2,6 @@
   "article_id": "45c612ff-1966-4079-9ba5-09ab022917ea",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "77408dd393274d0e9a02fd38672a90cc",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -43,17 +42,44 @@
         },
         "total_tokens": 10494
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1146,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6629,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7775
+      }
     }
   ],
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Duplicate HTML attribute",
-      "translation_quote": ""
+      "location": "source.html — paragraph under <h2>Through Music and Sound</h2>",
+      "severity": "minor",
+      "source_quote": "the songbird praising its Maker, the rumble of thunder, or the simple patter of rain on the roof.",
+      "suggested_fix": "Replace the incorrect rendering of \"songbird\" and the awkward rendering of \"the rumble of thunder\" with idiomatic Swahili that preserves the original meaning. For example: change \"ndege mchungaji akimtukuza Muumba wake, radi taratibu, au patapaka ya mvua juu ya paa.\" to \"ndege wa wimbo ikimtukuza Muumba wake, mlio la radi, au patapaka rahisi ya mvua juu ya paa.\" Ensure only the quoted text inside the existing <p> tag is modified and keep all HTML tags and attributes unchanged.",
+      "translation_quote": "ndege mchungaji akimtukuza Muumba wake, radi taratibu, au patapaka ya mvua juu ya paa."
+    },
+    {
+      "location": "source.subtitle / translation.subtitle",
+      "severity": "minor",
+      "source_quote": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2",
+      "suggested_fix": "Minor style suggestion to match register of the English subtitle more closely while preserving the meaning and the Scripture citation. Optionally render as: \"Kutoka Sioni, ukamilifu wa uzuri umeangaza; Mungu ameonyesha. Psalmi 50:2\" (or keep current rendering). This is optional — no HTML changes required other than replacing subtitle text if desired.",
+      "translation_quote": "Kutoka Sioni, ukamilifu wa uzuri, Mungu ameangaza. Zaburi 50:2"
     }
   ],
+  "finished_at": "2026-10-02T00:07:35+00:00",
   "id": "6ae7adfc9fa47281083c02bb92691620",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "swa",
@@ -97,11 +123,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8ff6615d88d56d991342498ce45e0382ed69e4ee6f5e71d66558a915bc80e645.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "307ff3dcec107109e8c031e07835839a270150b1f8308d14b1a8b6811fd4f56d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "753e2f12-61bc-43de-91f9-b6f2515efc30",
+    "response_id": "chatcmpl-EUIGtlf1gQQrqn7BnpzKd4DXYYeWj",
+    "usage": {
+      "completion_tokens": 1357,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6798,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8155
+    }
+  },
+  "received_at": "2026-10-02T00:07:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>“And I heard a voice from heaven, as the voice of many waters, and as the voice of a great thunder: and I heard the voice of harpers harping with their harps” (Revelation 14:2) ...</p>",
+        "severity": "major",
+        "source_quote": "praises flowing from the angels, the four beasts and twenty elders, and the great multitude which no man can number;",
+        "suggested_fix": "Replace the incorrect Hindi phrase 'चार निर्जीव प्राणियों' with a faithful rendering of 'the four beasts' that preserves the sense of living, miraculous creatures — for example: 'चार जीवित पशु' or better, the common transliteration used in Hindi Bible translations 'चार जीवित प्राणी'. Make only the minimal lexical change in that sentence so the structure and tags remain unchanged.",
+        "translation_quote": "गरजती हुई और बिजली; देवदूतों, चार निर्जीव प्राणियों और बीस बुजुर्गों से निकलने वाले स्तवन; और वह बहुत बड़ी भीड़ जिसका कोई गणना न कर सके;"
+      },
+      {
+        "location": "<p>“In whom the god of this world hath blinded the minds of them which believe not ...</p>",
+        "severity": "minor",
+        "source_quote": "a sinless Savior for undeserving humanity",
+        "suggested_fix": "Replace 'असंयत मनुष्यता' with a clearer, faithful Hindi rendering of 'undeserving humanity', e.g. 'अपर्याप्त योग्य मानवता' is awkward; better: 'अयोग्य मानवता' or 'अर्थात् असंमत/अर्ह न माने जानेवाली मानवता'. Use a single concise choice; for example: 'एक पवित्र उद्धारकर्ता द्वारा अयोग्य मानवता के लिये किया गया बलिदान'.",
+        "translation_quote": "क्राइस्ट के दुःखद घटनाक्रम की गंभीरता में हमें एक गहन और गंभीर सुंदरता मिलती है—एक पवित्र उद्धारकर्ता द्वारा असंयत मनुष्यता के लिए की गई बलिदान की सुंदरता।"
+      },
+      {
+        "location": "<p>जब इज़राइल के बच्चे रेगिस्तान में चले जाते थे, उन्होंने प्रभु के बीच रहने के लिए कानाबे (tabernacle) बनाया।</p>",
+        "severity": "minor",
+        "source_quote": "they built the tabernacle as a place for God to dwell among them.",
+        "suggested_fix": "Correct the mistransliterated or spurious term 'कानाबे' to a standard Hindi rendering. Either use a direct transliteration 'टैबरनेकल (tabernacle)' or the common Hindi Bible term 'प्रार्थनाशाला/आश्रय-प्रासाद' if that matches the publication's style. Prefer minimal change keeping one parenthetical: e.g. 'उन्होंने प्रभु के बीच रहने के लिए टैबरनेकल (tabernacle) बनाया।'",
+        "translation_quote": "उन्होंने प्रभु के बीच रहने के लिए कानाबे (tabernacle) बनाया।"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

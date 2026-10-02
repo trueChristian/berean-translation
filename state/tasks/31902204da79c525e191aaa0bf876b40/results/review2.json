@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e0028204-baac-4827-95e4-53e713e73fd4",
+    "response_id": "chatcmpl-EUIHAlnzt2Pctbgf0myflLCTmErLr",
+    "usage": {
+      "completion_tokens": 2727,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8492,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11219
+    }
+  },
+  "received_at": "2026-10-02T00:07:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing 'God loves you too much to let you keep hiding what needs to be brought out and forgiven.' (source paragraph that includes Hebrews 4:13 and Numbers 32:23)",
+        "severity": "major",
+        "source_quote": "God loves you too much to let you keep hiding what needs to be brought out and forgiven.",
+        "suggested_fix": "Correct the meaning so it matches the source English. Suggested Korean rendering preserving surrounding HTML: \"하나님은 드러나고 용서받아야 할 것을 계속 숨기도록 내버려 두실 만큼 당신을 사랑하시는 분이 아닙니다.\" Or more smoothly: \"하나님은 당신이 드러나고 용서받아야 할 것을 계속 숨기도록 내버려 두시지 않을 만큼 당신을 사랑하십니다.\"",
+        "translation_quote": "하나님은 용서받고 드러나야 할 것을 계속 숨기도록 너무나도 사랑하십니다."
+      },
+      {
+        "location": "First scripture paragraph (contains Matthew 5:8; Philippians 1:10; Philippians 4:8; 1Timothy 5:22; Revelation 19; Psalm 24:3-4)",
+        "severity": "major",
+        "source_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”",
+        "suggested_fix": "The article's printed English scripture quotations should be rendered into Korean in a way that faithfully conveys the exact printed English wording. Replace the retained English quoted verses with Korean renderings that correspond to the English text while preserving the verse references and surrounding HTML. Example replacements for this paragraph (keep citation parentheses intact): “복 있는 사람은 마음이 청결한 사람이라” (Matthew 5:8). “이는 너희로 선한 것을 분별하며 성결하고 범죄함이 없이 그리스도의 날까지 이르게 하려 함이니라” (Philippians 1:10). “무릇 참되며 경건하며 의로우며 정결한 것을 생각하라” (Philippians 4:8). “네 자신을 정결하게 하라” (1Timothy 5:22). \"The pure in heart shall see God.\"(Revelation 19) and for Psalm 24:3-4, render the quoted question and answer in Korean aligned to the English phrasing.",
+        "translation_quote": "“Blessed are the pure in heart” (Matthew 5:8). “That ye may approve things that are excellent; that ye may be sincere (pure) and without offense till the day of Christ” (Philippians 1:10). “Think on things that are pure” (Philippians 4:8). “Keep thyself pure” (1Timothy 5:22). Revelation 19 says “The pure in heart shall see God.” Psalm 24:3-4 asks “Who shall see God?” The answer is “he that hath clean hands and a pure heart.”"
+      },
+      {
+        "location": "Multiple in-text scripture quotations and short-sentence markers throughout article (examples: 'I John 1:6 says...', 'John 10:10, Jesus said, “the devil wants to steal, kill, and destroy. He wants to steal your purity, kill your character, and destroy”', 'James 1:15... Verse 16 says, “Do not (be deceived) my beloved brethren.”', 'James 5 says, “Confess your faults one to another that ye may be healed.”', 'I Peter 5:5 tells us that God gives grace to the humble.', 'Matthew 23:26, where He said, \"First clean the inside of the cup, so that the outside may be clean also.\"', 'Romans 2:16 tells of the day when God will judge the secrets of men.')",
+        "severity": "major",
+        "source_quote": "Multiple English scripture quotes and verse fragments as shown in source text.",
+        "suggested_fix": "Translate or render each printed English scripture quotation and short quoted verse into Korean so that it conveys the exact printed English wording. Keep the verse references in parentheses exactly as in the source. For example: - I John 1:6: “If we say that we have fellowship with him, and walk in darkness, we lie, and do not the truth.” → 한국어로 원문 영어 의미에 맞게 번역하여 삽입(예: “만일 우리가 그와 사귀노라 하고 어두움 가운데 행하면 거짓말하며 진리를 행치 아니하느니라” (I John 1:6)). - John 10:10: render the quoted clause in Korean to match printed English. Repeat for each quoted scripture fragment. Do not substitute a different Bible version or paraphrase; aim to convey the printed English wording in Korean.",
+        "translation_quote": "Various quoted scripture lines left in English throughout the translation (see examples above)."
+      },
+      {
+        "location": "Section headings and emphasized English phrases left untranslated (examples: <h2>How can we live a morally pure life?</h2>; <strong>Be Humble.</strong>, <strong>Be Honest.</strong>, <strong>Be transparent.</strong>, <strong>Tell yourself the truth.</strong>, <strong>Teach your eyes to bounce.</strong>, <strong>Teaching our children.</strong>, <strong>Keep your emotions.</strong>, <strong>Flee lust and fornication.</strong>)",
+        "severity": "minor",
+        "source_quote": "How can we live a morally pure life? / Be Humble. / Be Honest. / Be transparent. / Tell yourself the truth. / Teach your eyes to bounce. / Teaching our children. / Keep your emotions. / Flee lust and fornication.",
+        "suggested_fix": "Translate these section headings and emphasized imperatives into Korean to match the article's target language while preserving the HTML tags and nesting. Example replacements (preserve <strong> tags): <h2>도덕적으로 순결한 삶을 어떻게 살 수 있는가?</h2> and <strong>겸손하라.</strong>, <strong>정직하라.</strong>, <strong>투명해지라.</strong>, <strong>스스로에게 진실하라.</strong>, <strong>눈을 훈련시켜 튕기게 하라.</strong>, <strong>자녀교육.</strong>, <strong>감정을 지키라.</strong>, <strong>정욕과 혼음을 피하라.</strong> Ensure replacements preserve original HTML structure and attributes.",
+        "translation_quote": "<h2>How can we live a morally pure life?</h2> and multiple <strong>English</strong> headings present in translated HTML."
+      },
+      {
+        "location": "Paragraph: 'Hebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).” How can we be so naive and foolish to think we can hide anything from God? Or take it a step further: Why would we want to hide something from Him? Numbers 32:23 is still very true, saying, “Be sure your sin will find you out.”'",
+        "severity": "minor",
+        "source_quote": "Hebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).” ... Numbers 32:23 ... “Be sure your sin will find you out.”",
+        "suggested_fix": "Render these quoted Bible phrases into Korean consistent with the printed English wording while keeping the verse references. Example: “히브리서 4:13: '하나님의 보좌 앞에 드러나지 않는 피조물이 없고... 모든 것이 그분의 눈앞에 벌거벗겨져 드러나 있나니'” and for Numbers 32:23 translate to convey 'Be sure your sin will find you out.' Preserve the emphatic meaning that God will expose hidden sin.",
+        "translation_quote": "Hebrews 4:13 says, “Neither is there any creature that is not manifest in his sight: but all things are naked and opened unto the eyes of him with whom (we will give account to).” ... “Be sure your sin will find you out.”"
+      }
+    ],
+    "passed": false,
+    "score": 65
+  }
+}

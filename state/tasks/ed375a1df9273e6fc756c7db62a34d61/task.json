@@ -2,7 +2,6 @@
   "article_id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "77408dd393274d0e9a02fd38672a90cc",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -43,17 +42,51 @@
         },
         "total_tokens": 10270
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1203,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6592,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7795
+      }
     }
   ],
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Forbidden HTML element: pharaka=\"\"",
-      "translation_quote": ""
+      "location": "source.html paragraph: \"She charged up the stairs bellowing angrily, and Ken was sure that he was in trouble. To his relief, she continued down the hall.\"",
+      "severity": "minor",
+      "source_quote": "She charged up the stairs bellowing angrily, and Ken was sure that he was in trouble. To his relief, she continued down the hall.",
+      "suggested_fix": "Translate the motion idiomatically as movement along the corridor. Preserve meaning that she continued walking away down the corridor. For example, replace the phrase \"aliendelea chini ya ukuta wa korido\" with \"aliendelea kwenye korido\" or \"aliendelea kutembea kwenye korido\" so it clearly conveys she kept walking down the hall.",
+      "translation_quote": "Alipanda ngazi akiwa akilia kwa hasira, na Ken alikuwa hakika alikuwa katika shida. Kwa faraja yake, aliendelea chini ya ukuta wa korido."
+    },
+    {
+      "location": "source.html paragraph: \"He woke the next morning, still hidden behind the door.\"",
+      "severity": "minor",
+      "source_quote": "He woke the next morning, still hidden behind the door.",
+      "suggested_fix": "Use the common Swahili phrase for 'the next morning' — \"asubuhi iliyofuata\" — to improve naturalness. For example, change \"Aliamka asubuhi iliyoifu, bado amejificha nyuma ya mlango.\" to \"Aliamka asubuhi iliyofuata, bado akiwa amejificha nyuma ya mlango.\"",
+      "translation_quote": "Aliamka asubuhi iliyoifu, bado amejificha nyuma ya mlango."
+    },
+    {
+      "location": "source.html first paragraph: \"pawn shop\"",
+      "severity": "minor",
+      "source_quote": "pawn shop",
+      "suggested_fix": "Keep a concise and idiomatic Swahili equivalent. The translation uses two slightly different phrasings (\"duka lake la nyumba ya kubadilishia dhahabu\" and later \"duka lake la kubadilishia dhahabu\"). Use a single clear term such as \"duka la kubadilishia dhahabu (pawn shop)\" or simply \"duka la pawn\" consistently.",
+      "translation_quote": "duka lake la nyumba ya kubadilishia dhahabu; duka lake la kubadilishia dhahabu"
     }
   ],
+  "finished_at": "2026-10-02T00:07:35+00:00",
   "id": "ed375a1df9273e6fc756c7db62a34d61",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "swa",
@@ -97,11 +130,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0c059a0312fc4bb7c1d9113fe70aaa013f3daaefdb55449ee68204bcbaa1c79e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

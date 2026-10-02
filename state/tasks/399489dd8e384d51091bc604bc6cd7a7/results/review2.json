@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "94a1ec82-6b86-4331-b70b-e4b6e59bd896",
+    "response_id": "chatcmpl-EUIH7PpGHwnK97kQTCeVSdP4PrFRe",
+    "usage": {
+      "completion_tokens": 1151,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4545,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5696
+    }
+  },
+  "received_at": "2026-10-02T00:07:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...without much thought, we fill our days.</p> (Part 1, paragraph 2)",
+        "severity": "minor",
+        "source_quote": "Then, without warning, we reach the overload point when we feel as though we cannot possibly handle any more. Relentless overload can cause physical and mental exhaustion to the point where we feel deprived of enthusiasm, energy, and purpose. Some women seem to have a built-in indicator of where the overload line is. Others, like myself, struggle to find that balance. Constantly. There are so many good, interesting, and exciting options right at our fingertips; without much thought, we fill our days.",
+        "suggested_fix": "In the translated paragraph, use the indicative form for \"we fill our days\" to match the original meaning and natural Portuguese usage. Replace \"preenchermos os nossos dias\" with \"preenchemos os nossos dias\". Preserve existing HTML tags and surrounding text.",
+        "translation_quote": "Há tantas opções boas, interessantes e empolgantes ao nosso alcance; sem grande reflexão, preenchermos os nossos dias."
+      },
+      {
+        "location": "<p>This has saved me a great deal of stress. ... incorporated into my/our schedule.</p> (Part 2, paragraph under \"Let an idea or request gel before committing\")",
+        "severity": "minor",
+        "source_quote": "This has saved me a great deal of stress. There are so many good things to be involved in, and new inspirations come daily. Sometimes tasks can be incorporated into my/our schedule. Other times I must simply let them go and stay focused on what is most important. Consider waiting a few hours before incorporating new ideas and requests.",
+        "suggested_fix": "Remove the extra space after the slash to match normal punctuation in Portuguese and improve readability. Change \"meu/ nosso horário\" to \"meu/nosso horário\" (no space after slash). Preserve HTML tags.",
+        "translation_quote": "Por vezes as tarefas podem ser incorporadas no meu/ nosso horário."
+      },
+      {
+        "location": "<p>Fun-loving, happy, homemakers might have a few dust bunnies under the furniture...</p> (Part 1, paragraph under \"Imperfect women make good homemakers\")",
+        "severity": "minor",
+        "source_quote": "Fun-loving, happy, homemakers might have a few dust bunnies under the furniture, but they radiate an aura that draws people to their hearts and homes.",
+        "suggested_fix": "The literal translation \"coelhos de pó\" for \"dust bunnies\" is nonstandard in Portuguese and may confuse readers. Use an idiomatic expression such as \"alguns floquinhos de pó\" or \"algumas bolinhas de pó\" to preserve meaning and tone. For example, replace \"coelhos de pó\" with \"algumas bolinhas de pó\". Preserve surrounding HTML tags.",
+        "translation_quote": "Donas de casa divertidas e felizes podem ter alguns coelhos de pó debaixo dos móveis, mas irradiam uma aura que atrai as pessoas aos seus corações e lares."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

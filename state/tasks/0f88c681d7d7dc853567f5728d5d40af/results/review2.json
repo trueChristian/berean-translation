@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "eca12459-4eed-476c-b705-eda8dfceb133",
+    "response_id": "chatcmpl-EUIHLy5A78MCgXDIptpMEEWfqQZo8",
+    "usage": {
+      "completion_tokens": 1121,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7178,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8299
+    }
+  },
+  "received_at": "2026-10-02T00:07:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 3 (Hebrew translation) — sentence ending with English Bible quote (2 Timothy 1:7)",
+        "severity": "minor",
+        "source_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.” (2 Timothy 1:7)",
+        "suggested_fix": "Preserve the English quotation exactly as in source (it is acceptable to keep it in English) but consider adding no-change note. If the site expects only Hebrew text, provide a transliteration or Hebrew translation in addition to the exact printed English, but do not replace or alter the authoritative English text.",
+        "translation_quote": "“For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.” (2 Timothy 1:7)"
+      },
+      {
+        "location": "Paragraph 6 (Hebrew translation) — phrase 'האדם הפנימי, לפחות בעילום-מוחין'",
+        "severity": "minor",
+        "source_quote": "the inward man, at least subconsciously, must deal with the strain.",
+        "suggested_fix": "Use a clearer, more idiomatic Hebrew rendering of 'subconsciously', e.g. 'באופן תת-הכרתי' or 'ברמה תת-מודעת', preserving the sentence structure and meaning.",
+        "translation_quote": "האדם הפנימי, לפחות בעילום-מוחין, חייב להתמודד עם המתח."
+      },
+      {
+        "location": "Paragraph 11 (Hebrew translation) — phrase 'על בוּם החיים'",
+        "severity": "minor",
+        "source_quote": "we must carefully weave these two scriptures together on the loom of life",
+        "suggested_fix": "Replace the unclear transliteration 'בוּם' with the correct Hebrew word for 'loom' or an idiomatic phrase, e.g. 'על טווּח החיים' or 'באריג חיי היום־יום', keeping the metaphor of weaving intact.",
+        "translation_quote": "עלינו לארוג בקפידה שתי הפסוקים הללו זה עם זה על בוּם החיים, שכן נראה שיש קשר ישיר בין ה\"פורה\" — כח, אהבה ומוח ישר — ל\"שורשית\" — תפילה, שלום והכרת תודה."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

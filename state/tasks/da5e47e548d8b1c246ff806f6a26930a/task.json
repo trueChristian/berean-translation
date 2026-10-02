@@ -2,7 +2,6 @@
   "article_id": "ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "77408dd393274d0e9a02fd38672a90cc",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:47+00:00",
   "events": [
@@ -43,17 +42,44 @@
         },
         "total_tokens": 12387
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1040,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7658,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8698
+      }
     }
   ],
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Duplicate HTML attribute",
-      "translation_quote": ""
+      "location": "Paragraph 3 (near phrase describing Ken's beanie) in source.html and corresponding paragraph in translation.html",
+      "severity": "minor",
+      "source_quote": "what memories are stored beneath his ever-crowning beanie?",
+      "suggested_fix": "Translate the image idiom more naturally into Modern Greek while preserving meaning. For example, replace «και τι αναμνήσεις φυλάγονταν κάτω από το συνεχώς κορώνα σκούφο του;» with «και ποιες αναμνήσεις κρύβονται κάτω από τον πάντα φθαρμένο/φορεμένο σκούφο του;» (or another fluent Greek rendering that conveys a frequently‑worn beanie). Keep the existing HTML tags and structure.",
+      "translation_quote": "και τι αναμνήσεις φυλάγονταν κάτω από το συνεχώς κορώνα σκούφο του;"
+    },
+    {
+      "location": "Paragraph describing Sunday school song (section where the child sings) in source.html and corresponding paragraph in translation.html",
+      "severity": "minor",
+      "source_quote": "“Jesus loves the little children, all the children of the world.”",
+      "suggested_fix": "The original author included an English song line; the translation currently preserves it verbatim in English. For consistency with the requested Modern Greek target language, consider translating the song lyric into Greek while preserving the quoted structure. For example replace the English line with ««Ο Ιησούς αγαπάει τ’ μικρά παιδιά, όλα τα παιδιά του κόσμου.»»\". Keep the HTML tags and quotation marks as in the translation.",
+      "translation_quote": "“Jesus loves the little children, all the children of the world.”"
     }
   ],
+  "finished_at": "2026-10-02T00:07:35+00:00",
   "id": "da5e47e548d8b1c246ff806f6a26930a",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "ell",
@@ -97,11 +123,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0c059a0312fc4bb7c1d9113fe70aaa013f3daaefdb55449ee68204bcbaa1c79e.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "03b22514685d6a7ad7deac3ffaa8f1b8ef1c721672234bc6d07e819f653dfc18",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

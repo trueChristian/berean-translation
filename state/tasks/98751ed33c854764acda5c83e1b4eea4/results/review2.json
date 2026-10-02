@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e2e5a5ef-ac9b-49d6-ae96-110b9efa0153",
+    "response_id": "chatcmpl-EUIGhPo2Udu9QIpNTZ60UA0XWfgUM",
+    "usage": {
+      "completion_tokens": 2020,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6286,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8306
+    }
+  },
+  "received_at": "2026-10-02T00:07:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"drop-cap\"> (opening paragraph)",
+        "severity": "major",
+        "source_quote": "With one last attempt, I feebly yelled above the tension, “Ken, we don’t want to ...” but once more, I was rudely cut off.",
+        "suggested_fix": "Preserve the first-person structure and meaning. Restore a faithful, idiomatic Hebrew rendering keeping the narrator's person and the interrupted speech: e.g., “בניסיון אחרון צעקתי בקול חלש מעל המתיחות, ‘קן, אנחנו לא רוצים ל—’ אך שוב קוצצתי באופן בוטה.”",
+        "translation_quote": "בניסיון אחרון צעקתי בקול חלש מעל המתיחות, “קן, אנחנו לא רוצים ל…” אך שוב קוצצתי בחוסר מעודן."
+      },
+      {
+        "location": "multiple paragraphs (narrator pronouns)",
+        "severity": "major",
+        "source_quote": "“Get out of my shop! I don’t need people like you around me! And never come back!” My lips quivered as I looked into the dark, angry eyes of the yelling man. I blinked back the unbidden tears, realizing that once more, I had to leave this man that I loved.",
+        "suggested_fix": "The translation shifts narrator gender/verb forms (masculine vs. feminine) in places, producing inconsistency with the English. Keep Hebrew verb/gender forms consistent with the source narrator. If the source narrator uses first-person feminine (or masculine) throughout, mirror that. Example (masculine narrator): “צא מהחנות שלי! אין לי צורך באנשים כמותך סביבי! ואל תחזור לעולם!” שפתיי רעדו כשמבטי נעץ בעיניו הכועסות והאפילות של האיש שצעק. מחקתי בדמעה שלא רצתה לבוא, והבנתי שזו שוב הפעם שבה נאלצתי לעזוב את האיש שאהבתי.”",
+        "translation_quote": "“צא מהחנות שלי! אין לי צורך באנשים כמותך פה! ואל תחזור לעולם!” שפתיי רעדו כשמבטי נעץ בעיניו האפלות והכועסות של האיש שצעק. מחקתי בדמעה שלא רצתה לבוא, והבנתי שזו שוב הפעם שבה אני צריך לעזוב את האיש שאהבתי."
+      },
+      {
+        "location": "Paragraph describing the pawn shop (mid-article)",
+        "severity": "major",
+        "source_quote": "With slumped shoulders and downcast eyes, I turned to escape the confines of his dingy, pawn shop, his ever-crescendoing voice drowning the last hope of respite.",
+        "suggested_fix": "The source specifies a 'pawn shop.' The translation must reflect that; later the translation inconsistently renders this as a 'pawn shop' but elsewhere as 'חנות השעון' (watch shop). Use a single, accurate term for pawn shop throughout (e.g., חנות משכנתא/חנות משכון/חנות פדיון — standard Hebrew: 'חנוּת משכון' or 'בית משכון' — choose consistent term). Replace incorrect 'חנות השעון' with the chosen term. Maintain 'dingy' as 'מוכתמת בעשן' or 'מוזנחת'.",
+        "translation_quote": "פניתי להימלט מגדרות החנות המוכתמת שלו; קולו, שהלך וגבר, טבע את התקווה האחרונה להקל.\n...\nעכשיו קן יושב בחנות השעון שלו, לבד, פצוע, עצוב ומחביא עצמו."
+      },
+      {
+        "location": "Paragraph with Sunday-school song (foster-home paragraph)",
+        "severity": "minor",
+        "source_quote": "He wiped his tears as he began to sing under his breath a song he had heard in Sunday school, “Jesus loves the little children, all the children of the world.”",
+        "suggested_fix": "The quoted English line appears in the source; in translation this line remains in English. Either (a) render the quoted hymn line in Hebrew in an idiomatic way while making clear it is a quoted verse/song the character recalled, or (b) if policy is to 'convey the printed English' when the source printed it in English, ensure the translation reproduces the English exactly and marks it as a quotation. Currently the translation leaves the English intact but does not typographically mark it as a quoted foreign-language fragment; make this explicit. Example: “…החל לשיר בלחש שיר ששמע בבית הספר של יום ראשון: ‘Jesus loves the little children, all the children of the world.’”",
+        "translation_quote": "הוא מחק את דמעותיו והחל לשיר בלחש שיר ששמע בבית הספר של יום ראשון: “Jesus loves the little children, all the children of the world.”"
+      },
+      {
+        "location": "Paragraph near the end about God's purpose for the narrator",
+        "severity": "major",
+        "source_quote": "God also wanted me to carry a burden in my youth. He knew how easily I would be distracted with money and fun. He knew that I needed a burden to carry, a soul to care for.",
+        "suggested_fix": "The translation here is garbled and changes meaning (nonsensical phrasing: “אלוהים גם רצה שנתאהב בעול במיעוט שנותיי”). Restore the intended meaning and theological nuance: e.g., “אלוהים גם רצה שאקח על עצמי נטל בנעוריי. הוא ידע כמה בקלות אתבלבל מאחיזת הכסף והפנאי. הוא ידע שאצטרך נשא כדי לשאת, נשמה לדאוג לה.” Preserve sentence order and clause meanings.",
+        "translation_quote": "אלוהים גם רצה שנתאהב בעול במיעוט שנותיי. הוא ידע כמה בקלות אהיה מוסח על ידי כסף וכיף. הוא ידע שאני צריך נשא לשאת, נשמה לדאוג לה."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

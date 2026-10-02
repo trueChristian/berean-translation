@@ -2,7 +2,6 @@
   "article_id": "fbfb182b-bb05-434f-a664-b74c68153e61",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "77408dd393274d0e9a02fd38672a90cc",
   "campaign": "gh-36911235156",
   "created_at": "2026-10-01T19:03:49+00:00",
   "events": [
@@ -43,17 +42,44 @@
         },
         "total_tokens": 7393
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 836,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4712,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5548
+      }
     }
   ],
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[7]; missing: 5:30; extra: 17:30",
-      "translation_quote": ""
+      "location": "Paragraph: \"That means if you are an avid bread maker, it’s all right to toss a few loaves of bread into your shopping cart.\" (Part 1)",
+      "severity": "minor",
+      "source_quote": "That means if you are an avid bread maker, it’s all right to toss a few loaves of bread into your shopping cart.",
+      "suggested_fix": "Use a natural, grammatically correct Russian wording for \"avid bread maker.\" Replace \"вы увлечённая хлебопёка\" with e.g. \"если вы увлечены выпечкой хлеба\" or \"если вы заядлая пекарь хлеба\" (better: \"если вы увлечены выпечкой хлеба, можно положить пару буханок в корзину\"). Preserve original HTML structure and punctuation.",
+      "translation_quote": "Это значит, что если вы увлечённая хлебопёка, можно положить пару буханок хлеба в корзину покупок — и это нормально."
+    },
+    {
+      "location": "Paragraph: \"A renowned doughnut maker was asked to have a stand at an auction.\" (Part 2)",
+      "severity": "minor",
+      "source_quote": "A renowned doughnut maker was asked to have a stand at an auction.",
+      "suggested_fix": "The translation \"получила предложение поставить своё место на аукционе\" is awkward/unclear in Russian. Suggest a clearer phrasing while preserving meaning, e.g. \"известной производительнице пончиков предложили поставить прилавок на аукционе\" or \"попросили вести прилавок на аукционе.\" Keep original HTML tags and sentence order unchanged.",
+      "translation_quote": "Одна известная производительница пончиков получила предложение поставить своё место на аукционе."
     }
   ],
+  "finished_at": "2026-10-02T00:07:35+00:00",
   "id": "ffd721b6c43cd31d23f6bee49afcc33f",
   "issue_id": "b907e28f-f764-5c23-95cd-7103ee3a0784",
   "language": "rus",
@@ -97,11 +123,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/57473773ac5b1974a223c6159a928ec4b7d4781abd867e42854e5f7e38041953.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "3ad21ca2ae65e6a4ddb873b598e502b898989a046001ba9ff166000764c01b7c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
