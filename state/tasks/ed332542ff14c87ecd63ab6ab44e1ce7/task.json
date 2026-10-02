@@ -2,7 +2,6 @@
   "article_id": "d0395fde-712d-488d-a161-c26c87ed128b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "54ad68dd7b7f400a8b75ca35edf3f872",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,29 @@
         },
         "total_tokens": 11019
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 5557,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 256,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10554,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 16111
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[39]; missing: 6:46; extra: none",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -36,6 +55,7 @@
       "translation_quote": ""
     }
   ],
+  "finished_at": "2026-10-02T12:47:26+00:00",
   "id": "ed332542ff14c87ecd63ab6ab44e1ce7",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "kor",
@@ -113,7 +133,7 @@
   "review_model": "gpt-5-mini",
   "source_snapshot": "state/sources/424016ec077ce60b7ce19dc1c1e702f6403927db5e19e2310bed3e34f10db986.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "28073e361d20840e4b86554b9fb0dc665e6272c0d3acf705cd41f2c5576aaa35",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

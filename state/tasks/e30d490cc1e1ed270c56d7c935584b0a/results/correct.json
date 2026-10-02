@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "bd082419-6ed6-4138-9071-44027258e89b",
+    "response_id": "chatcmpl-EUWvq6Pl7kdvO7J34GNFZiyOQigmg",
+    "usage": {
+      "completion_tokens": 1344,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3105,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4449
+    }
+  },
+  "received_at": "2026-10-02T12:47:26+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3\">\n  <p>C'était l'un de ces dimanches après-midi de fin de printemps où le soleil brillait enfin chaudement. C'était la période de l'année où les petits garçons semblent avoir plein d'énergie en plus. Le petit Davy était assis sur la berge de la route avec quelques garçons du quartier qui étaient passés. Il avait envie de sauter de joie en attendant la course à venir.</p>\n\n  <p>Deux garçons plus âgés, le Grand David et Paul, arrivèrent avec des bicyclettes flambant neuves. Ce n'étaient pas les bicyclettes ordinaires que les autres garçons avaient. C'étaient de belles Vista avec une peinture neuve et brillante, des garde-boue chromés étincelants et trois vitesses. Ces bicyclettes glissaient sans à-coup sur la route recouverte de gravillons et de scellant. Avec des roulements à billes neufs, elles filaient sans presque aucun effort appliqué aux pédales. Bien qu'il ne semblât pas y avoir beaucoup de différence entre les bicyclettes, celle du Grand David était d'un brun châtaigne étincelant, et celle de Paul d'un bleu pailleté métallisé.</p>\n\n  <p>«Eh bien,» commença à se vanter le Grand David, «avec mes jambes plus longues, et mon WD40 fraîchement pulvérisé, mon vélo est sûr d'être le plus rapide.»</p>\n\n  <p>«Non,» répliqua Paul, «mes jambes plus courtes peuvent pomper plus vite, et l'huile pour vélo haute performance de Schwinn surpasse de loin le WD40, qui n'est vraiment bon que pour les grincements.»</p>\n\n  <p>«Une course ! Une course !» dirent les autres garçons, «Pourquoi ne pas régler ça par une course ?»</p>\n\n  <p>«D'accord,» dit le Grand David, «Nous ferons une course et verrons quel vélo est vraiment le plus rapide.»</p>\n\n  <p>«Pariez !» acquiesça Paul. «Nous partirons du haut de la colline de Billy et nous descendrons jusqu'en bas,» dit-il en montrant la berge de la route où les autres garçons étaient assis.</p>\n\n  <p>Un, deux, trois, PARTEZ et ils s'élancèrent ! Ils dévalèrent la colline, pédalant de toutes leurs forces.</p>\n\n  <p>«Allez Paul !» et «Allez Grand David !» criaient les garçons en bas de la colline. Tout ce tumulte réveilla le terrier de Little Davy, Nellie. Aboyant bruyamment, Nellie tourna autour du silo aussi vite que ses quatre petites pattes pouvaient la porter. Elle se dirigea tout droit vers la bicyclette du Grand David à l'avant, aboyant fortement pour essayer de la faire s'arrêter. Pauvre Nellie ne se rendait pas compte qu'une autre bicyclette essayait de doubler la première.</p>\n\n  <p>Thump, la bicyclette qui doublait heurta le chien ! Crash, boum, les deux bicyclettes se percutèrent !</p>\n\n  <p>«Hé – aïe !» Oooff ! Deux garçons passèrent par-dessus les guidons et tombèrent lourdement sur la route. Ces bicyclettes étincelantes n'étaient plus brillantes. Elles étaient gisant en tas, rayées et striées de goudron. Nellie revint boitillante près du silo et resta couchée là pendant plusieurs heures.</p>\n\n  <p>Les autres garçons restèrent sur la berge, la bouche ouverte. Rapidement, ils coururent vers les deux grands garçons allongés près de leurs nouvelles bicyclettes. «Ça va ?» demandèrent-ils.</p>\n\n  <p>«Je vais m'en sortir,» dit Paul lentement, «mais plus de courses. Qui se soucie même de savoir quel vélo est le plus rapide ?»</p>\n\n  <p>Même si le petit Davy est maintenant grand-père, il n'a pas oublié la course de bicyclettes de ce dimanche d'autrefois, quand le Grand David et Paul apprirent que se vanter et se pavaner se termine généralement en un crash.</p>\n\n  <figure>\n    <img src=\"/images/articles/a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3-1.jpg\" alt=\"Deux garçons faisant la course à vélo en descente tandis qu'un petit chien traverse la route\">\n    <figcaption>\"L'ORGUEIL PRÉCÈDE LA RUINE,<br>\n    ET L'ESPRIT HAUTAIN PRÉCÈDE LA CHUTE\"<br>\n    -PROVERBES 16:18</figcaption>\n  </figure>\n</article>\n",
+    "section": "Le coin des enfants",
+    "subtitle": null,
+    "title": "LA COURSE DE VÉLO"
+  }
+}

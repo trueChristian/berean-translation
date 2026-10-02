@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "bdefb0c8-855d-4585-9bbd-74d613676465",
+    "response_id": "chatcmpl-EUWw9AjmCDP6kL9KxFnppEkpFxBtw",
+    "usage": {
+      "completion_tokens": 1389,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3014,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4403
+    }
+  },
+  "received_at": "2026-10-02T12:47:26+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3\">\n  <p>Het was een van die zondagnamiddagen in de late lente waarin de zon eindelijk warm scheen. Het was de tijd van het jaar waarin kleine jongens schijnbaar extra veel energie hebben. Kleine Davy zat op de wegwal met wat buurtjongens die even waren langsgekomen. Hij had zin om op en neer te springen in afwachting van de aankomende wedstrijd.</p>\n\n  <p>Twee oudere jongens, Grote David en Paul, verschenen met gloednieuwe fietsen. Dit waren niet de gewone fietsen die de andere jongens hadden. Het waren mooie Vista-fietsen met glanzende nieuwe verf, glimmende chromen spatborden en drie versnellingen. Deze fietsen gleden soepel over de chip- and seal-weg zonder te rammelen. Met nieuwe kogellagers zoefden ze voort met nauwelijks enige inspanning op de pedalen. Hoewel er niet veel verschil leek te zijn tussen de fietsen, was die van Grote David glanzend kastanjebruin en die van Paul fonkelend metallicblauw.</p>\n\n  <p>\"Wel,\" begon Grote David te bluffen, \"Met mijn langere benen en vers gespoten WD40 zal mijn fiets zeker de snelste zijn.\"</p>\n\n  <p>\"Nee,\" daagde Paul uit, \"mijn kortere benen kunnen sneller trappen, en Schwinns hoogwaardige fietsenolie overtreft WD40 ruimschoots, dat eigenlijk alleen voor piepjes is.\"</p>\n\n  <p>\"Een race! Een race!\" zeiden de andere jongens, \"Waarom niet beslissen met een wedstrijd?\"</p>\n\n  <p>\"Oké,\" zei Grote David, \"We doen een race en kijken wiens fiets echt de snelste is.\"</p>\n\n  <p>\"Dat klopt!\" stemde Paul toe. \"We starten bovenaan Billys heuvel en racen helemaal naar beneden,\" zei hij, terwijl hij naar de wegwal wees waar de andere jongens zaten.</p>\n\n  <p>Een, twee, drie, GA en ze waren weg! Heen en weer roetsjten ze de heuvel af, trampend alsof hun leven ervan afhing.</p>\n\n  <p>\"Vooruit Paul!\" en \"Vooruit Grote David!\" schreeuwden de jongens onderaan de heuvel. Al het lawaai maakte Nellie, Little Davy's rattenterriër, wakker. Hard blaffend zoefde Nellie rond de silo zo snel als haar vier kleine pootjes haar konden dragen. Ze ging recht op Grote Davids fiets voorop af en blafte luid om hem te laten stoppen. Arme Nellie realiseerde zich niet dat een andere fiets de eerste probeerde in te halen.</p>\n\n  <p>Boem, de passerende fiets raakte de hond! Kraak, bonk, de twee fietsen botsten tegen elkaar!</p>\n\n  <p>\"Hé – au!\" Oooff! Twee jongens vlogen over het stuur en belandden hard op de weg. Die glanzende fietsen waren niet langer schitterend. Ze lagen op een hoop, bekrast en gestreept met teer. Nellie strompelde terug naast de silo en bleef daar enkele uren liggen.</p>\n\n  <p>De andere jongens stonden op de wal met open monden. Snel renden ze naar de twee grote jongens die bij hun nieuwe fietsen lagen. \"Gaan jullie wel?\" vroegen ze.</p>\n\n  <p>\"Het komt wel goed,\" zei Paul langzaam, \"maar geen wedstrijden meer. Wie geeft er eigenlijk om wiens fiets de snelste is.\"</p>\n\n  <p>Hoewel Little Davy nu opa is, is hij de fietswedstrijd van die lang vervlogen zondagnamiddag niet vergeten, toen Grote David en Paul leerden dat opscheppen en pronken meestal met een klap eindigt.</p>\n\n  <figure>\n    <img src=\"/images/articles/a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3-1.jpg\" alt=\"Twee jongens racen met fietsen heuvelaf terwijl een kleine hond de weg instormt\">\n    <figcaption>\"HOOGMOED GAAT VOORAF AAN<br>\n    VERDERF, EN EEN<br>\n    ARROGANTE GEEST VOOR<br>\n    EEN VAL\"<br>\n    -SPREUKEN 16:18</figcaption>\n  </figure>\n</article>\n",
+    "section": "Kinderhoek",
+    "subtitle": null,
+    "title": "DE FIETSENWEDSTRIJD"
+  }
+}

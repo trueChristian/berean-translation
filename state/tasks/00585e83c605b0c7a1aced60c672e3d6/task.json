@@ -2,7 +2,6 @@
   "article_id": "20914547-a133-4159-bd5b-dff81f36453b",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "54ad68dd7b7f400a8b75ca35edf3f872",
   "campaign": "gh-37007882719",
   "created_at": "2026-10-02T12:39:55+00:00",
   "events": [
@@ -24,9 +23,29 @@
         },
         "total_tokens": 10232
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 5593,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 64,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10188,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 15781
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[99]: source /article[1]/blockquote[9] ('start', 'blockquote', ()); translation /article[1]/p[25] ('start', 'p', ())",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -36,6 +55,7 @@
       "translation_quote": ""
     }
   ],
+  "finished_at": "2026-10-02T12:47:25+00:00",
   "id": "00585e83c605b0c7a1aced60c672e3d6",
   "issue_id": "88b65b14-fda8-5b6b-bfa2-9830cabf064d",
   "language": "ara",
@@ -113,7 +133,7 @@
   "review_model": "gpt-5-mini",
   "source_snapshot": "state/sources/a5fa4336ac24fe4ded7bc5c6695694845b2e95ac589cd5689bedc4b3e79ef2b1.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "2780d41d80f578475e27d5e54969bef54c79aef92fae3008a281d5b3d0e475c3",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

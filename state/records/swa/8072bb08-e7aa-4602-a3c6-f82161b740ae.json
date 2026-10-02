@@ -6,6 +6,12 @@
       "campaign": "gh-37007882719",
       "event": "requested",
       "task": "91ca3ff3c7739fad9c90216e4d3e5857"
+    },
+    {
+      "at": "2026-10-02T12:47:26+00:00",
+      "event": "not_ready",
+      "reason": "Forbidden HTML element: pkatika",
+      "task": "91ca3ff3c7739fad9c90216e4d3e5857"
     }
   ],
   "language": "swa",

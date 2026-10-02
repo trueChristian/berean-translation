@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML/metadata contract",
+      "severity": "critical",
+      "source_quote": "",
+      "suggested_fix": "Forbidden HTML element: pnilishangazwa.",
+      "translation_quote": ""
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[13]: source /article[1]/p[5]/em[1] ('start', 'em', ()); translation /article[1]/p[5] ('end', 'p')",
+  "stage": "terminal"
+}

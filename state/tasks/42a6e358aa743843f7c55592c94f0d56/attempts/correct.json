@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:47:26+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3\\\">\\n  <p>Itu adalah salah satu Minggu sore di akhir musim semi ketika matahari akhirnya bersinar hangat. Itu adalah waktu dalam setahun ketika anak laki-laki kecil tampak memiliki banyak energi ekstra. Si kecil Davy sedang duduk di tepi jalan bersama beberapa anak tetangga yang singgah. Ia ingin melompat-lompat karena tidak sabar menantikan lomba yang akan datang.</p>\\n\\n  <p>Dua anak laki-laki yang lebih besar, David Besar dan Paul, muncul dengan sepeda baru. Ini bukan sepeda biasa seperti yang dimiliki anak-anak lain. Mereka adalah sepeda Vista yang indah dengan cat baru yang mengkilap, spatbor krom berkilau, dan tiga kecepatan. Sepeda-sepeda ini meluncur mulus di jalan beraspal tanpa bergetar. Dengan bearing bola baru, mereka melaju cepat hampir tanpa perlu tenaga yang kuat pada pedal. Meskipun tampaknya tidak banyak perbedaan antara sepeda-sepeda itu, sepeda David Besar berwarna cokelat kastanye yang mengilap, dan sepeda Paul berwarna biru metalik berkilau.</p>\\n\\n  <p>“Nah,” David Besar mulai membanggakan diri, “dengan kaki yang lebih panjang, dan WD40 yang baru disemprotkan, sepedaku pasti akan menjadi yang tercepat.”</p>\\n\\n  <p>“Tidak,” tantang Paul, “kaki ku yang lebih pendek bisa mengayuh lebih cepat, dan oli sepeda Schwinn yang bermutu tinggi jauh melampaui WD40, yang sebenarnya hanya untuk bunyi berdecit.”</p>\\n\\n  <p>“Lomba! Lomba!” seru anak-anak lain, “Mengapa tidak menyelesaikannya dengan lomba?”</p>\\n\\n  <p>“Baik,” kata David Besar, “Kita akan mengadakan lomba dan lihat sepeda siapa yang memang tercepat.”</p>\\n\\n  <p>“Siap!” Paul setuju. “Kita mulai dari puncak bukit Billy dan balapan turun sampai ke dasar,” katanya sambil menunjuk ke tepi jalan tempat anak-anak lain duduk.</p>\\n\\n  <p>Satu, dua, tiga, MULAI dan mereka berangkat! Turun bukit mereka datang, mengayuh sekuat tenaga.</p>\\n\\n  <p>“Ayo Paul!” dan “Ayo David Besar!” teriak anak-anak di dasar bukit. Semua keributan itu membangunkan anjing rat terrier milik si kecil Davy, Nellie. Menyalak keras, Nellie berputar mengelilingi silo secepat empat kakinya kecil bisa membawanya. Ia langsung menuju sepeda David Besar di depan, menggonggong keras mencoba menghentikannya. Kasihan Nellie tidak menyadari sepeda lain berusaha menyalip yang di depan.</p>\\n\\n  <p>Thump, sepeda yang menyalip menabrak anjing itu! Crash, bang, kedua sepeda itu bertabrakan!</p>\\n\\n  <p>“Hei – aduh!” Oooff! Dua anak terlempar melewati setang dan mendarat dengan keras di jalan. Sepeda-sepeda yang mengkilap itu tidak lagi bercahaya. Mereka tergeletak bertumpuk, tergores dan penuh noda tar. Nellie pincang kembali di samping silo dan tetap berbaring di sana selama beberapa jam.</p>\\n\\n  <p>Anak-anak lain berdiri di tepi dengan mulut ternganga. Dengan cepat, mereka berlari ke dua anak laki-laki besar yang terbaring di samping sepeda baru mereka. “Kalian baik-baik saja?” tanya mereka.</p>\\n\\n  <p>“Aku akan baik-baik saja,” kata Paul perlahan, “tapi tidak ada lagi lomba. Siapa peduli sepeda siapa yang tercepat.”</p>\\n\\n  <p>Meskipun si kecil Davy sekarang sudah kakek, ia belum melupakan lomba sepeda pada Minggu sore dulu itu, ketika David Besar dan Paul belajar bahwa membanggakan diri dan pamer biasanya berakhir dengan kejadian yang menghancurkan.</p>\\n\\n  <figure>\\n    <img src=\\\"/images/articles/a5c73ca1-d6f7-4c61-a33d-cbf8de22b7f3-1.jpg\\\" alt=\\\"Dua anak laki-laki berlomba sepeda menuruni bukit sementara seekor anjing kecil berlari ke jalan\\\">\\n    <figcaption>\\\"KESOMBONGAN MENDATANGI<br>\\n    KEBINASAAN, DAN SUATU<br>\\n    SEMANGAT SOMBONG SEBELUM<br>\\n    KEJATUHAN\\\"<br>\\n    -AMSAL 16:18</figcaption>\\n  </figure>\\n</article>\\n\",\"section\":\"Sudut Anak-anak\",\"subtitle\":null,\"title\":\"PERLOMBAAN SEPEDA\"}",
+    "content_bytes": 3843,
+    "content_evidence_truncated": false,
+    "content_sha256": "b76c7c6076f92951adef6ff8747bbade299c2de9195cdc8275f5b3c0280b2d4e",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1912,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3090,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5002
+    }
+  },
+  "review_attempts": 0,
+  "stage": "correct",
+  "translation_attempts": 2
+}

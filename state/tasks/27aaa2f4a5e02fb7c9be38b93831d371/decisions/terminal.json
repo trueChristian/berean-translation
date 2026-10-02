@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML/metadata contract",
+      "severity": "critical",
+      "source_quote": "",
+      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[32]: source /article[1]/figure[1]/figcaption[1]/br[1] ('start', 'br', ()); translation /article[1]/figure[1]/figcaption[1] ('end', 'figcaption')",
+      "translation_quote": ""
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[35]: source /article[1]/figure[1]/figcaption[1]/br[4] ('start', 'br', ()); translation /article[1]/figure[1]/figcaption[1] ('end', 'figcaption')",
+  "stage": "terminal"
+}

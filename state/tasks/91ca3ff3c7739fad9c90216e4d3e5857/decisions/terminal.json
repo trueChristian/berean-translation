@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML/metadata contract",
+      "severity": "critical",
+      "source_quote": "",
+      "suggested_fix": "Forbidden HTML element: pkatika",
+      "translation_quote": ""
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Forbidden HTML element: pkatika",
+  "stage": "terminal"
+}
