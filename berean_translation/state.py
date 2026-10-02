@@ -195,19 +195,23 @@ class State:
         recovery_policy = config.runtime.get('automatic_downstream_recovery', {})
         # Keep reporting on the same exact, non-recyclable ledger as acceptance.
         # Local imports avoid the recovery modules' dependency on TERMINAL.
-        from .downstream import ledger
+        from .downstream import funding_ledger
         from .recovery import money
-        allocated, _ = ledger(self)
+        funding = funding_ledger(self)
+        allocated = funding['shared_policy_usd']
         cap = money(recovery_policy.get('total_budget_usd', 0))
         if not recovery_policy.get('enabled'):
-            recovery_status = 'Paused: new downstream recovery submissions are disabled; held work is not silently retried.'
+            recovery_status = 'Paused: hourly/shared-policy recovery submissions are disabled; separately authorized manual workflow requests retain their own ceilings.'
         elif allocated + money(recovery_policy.get('campaign_budget_usd', 0)) > cap:
             recovery_status = 'Budget blocked: the next hourly recovery envelope does not fit the remaining authorization.'
         else:
             recovery_status = 'Enabled: eligible held candidates can enter bounded hourly recovery; passing all gates is still required.'
         rows += ['', '## Held-work recovery', '', recovery_status,
-                 f'Accepted lifetime recovery allocations: ${allocated:.6f} / ${cap:.2f}. '
+                 f'Hourly/shared-policy funding. Accepted lifetime recovery allocations: ${allocated:.6f} / ${cap:.2f}. '
                  'Allocations are not recycled after failure or cancellation.',
+                 f'Separately authorized manual workflow allocations: ${funding["manual_workflow_usd"]:.6f} '
+                 f'across {funding["manual_workflow_count"]} accepted runs. Each run is limited to its own explicit ceiling; '
+                 'these permanent allocations do not consume or enable the hourly policy.',
                  'Policy refusals, unknown legacy outcomes, source changes and exhausted per-source attempts remain held for owner attention.',
                  'A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.']
         errors = sorted((self.root/'state/queue-errors').glob('*.json'))

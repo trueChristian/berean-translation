@@ -421,7 +421,7 @@ class Engine:
         campaign = self.state.read(f'state/campaigns/{batch["campaign"]}.json')
         if campaign.get('downstream_recovery'):
             downstream.validate_history(self.config, self.state, {t['id']:t for t in self.state.tasks()})
-            if not downstream.validate_policy(self.config)['enabled']:
+            if not downstream.submission_enabled(self.config, campaign):
                 return
         if campaign.get('downstream_recovery'):
             tasks = [self.state.read(f'state/tasks/{identity}/task.json') for identity in batch['tasks']]
@@ -573,7 +573,7 @@ class Engine:
                 if campaign.get('downstream_recovery'):
                     if not campaign.get('downstream_acceptance_complete'):
                         raise ContractError('Downstream acceptance incomplete; allocation retained and paid work blocked')
-                    if not downstream.validate_policy(self.config)['enabled']:
+                    if not downstream.submission_enabled(self.config, campaign):
                         break
                 if campaign.get('recovery_of_campaign') and not campaign.get('recovery_acceptance_complete'):
                     raise ContractError('Recovery acceptance is incomplete; its allocation is retained and paid work is blocked')

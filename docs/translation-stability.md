@@ -65,8 +65,10 @@ source-compatible publication readiness remains in the issue/language tables;
 website deployment must be verified separately.
 
 The report also states whether new downstream recovery is paused or whether the
-next hourly envelope is budget blocked. Recovery remains disabled until a
-separately approved total cap is configured. Once authorized, eligible held pairs
+next hourly envelope is budget blocked. Hourly recovery remains disabled until a
+separately approved total cap is configured. Explicit main-branch manual repair
+runs use their own one-time ceiling and report those allocations separately.
+Once authorized, eligible held pairs
 have one bounded repair plus independent review, not an unlimited retry loop.
 Every accepted envelope remains allocated after failure/cancellation. Policy
 refusals, unknown legacy outcomes, changed source, and exhausted source attempts

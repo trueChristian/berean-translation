@@ -33,7 +33,7 @@ on:
         options: ["1", "2", "3", "4", "5"]
         default: "3"
       budget_usd:
-        description: "Explicit USD cap for this request; paid work also requires an enabled configured recovery budget"
+        description: "Explicit one-time USD ceiling for this manual run; does not enable or increase hourly recovery"
         required: true
         type: string
         default: "1"
@@ -49,7 +49,7 @@ permissions:
 # serialized collector alone selects exact candidates and allocates repair spend.
 jobs:
   enqueue:
-    if: github.ref == 'refs/heads/main'
+    if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-24.04
     timeout-minutes: 5
     steps:

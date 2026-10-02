@@ -137,11 +137,21 @@ class DownstreamEntrypointTests(unittest.TestCase):
             enqueue_github(self.config, self.request(dry_run=False), 'fixture/repo', 'fixture', transport)
         transport.assert_not_called()
 
-    def test_disabled_policy_rejects_paid_cli_before_enqueue(self):
+    def test_paid_cli_without_dispatch_provenance_rejects_before_enqueue(self):
         result, enqueue, errors = self.cli({**self.env, 'INPUT_DRY_RUN': 'false'})
         self.assertEqual(result, 1)
-        self.assertRegex(errors, '(?i)(disabled|enabled|budget|configured)')
+        self.assertIn('workflow_dispatch context', errors)
         enqueue.assert_not_called()
+
+    def test_manual_authorization_cannot_be_published_to_another_repository(self):
+        request = self.request(id='gh-202', dry_run=False, requested_by='fixture-owner',
+            manual_authorization={'kind':'github_workflow_dispatch', 'repository':'fixture/repo',
+                'workflow_ref':'fixture/repo/.github/workflows/ai-repair.yml@refs/heads/main',
+                'run_id':'202', 'actor':'fixture-owner'})
+        transport = Mock()
+        with self.assertRaisesRegex(ContractError, 'different repository'):
+            enqueue_github(self.config, request, 'fixture/other', 'fixture', transport)
+        transport.assert_not_called()
 
     def test_queue_request_is_immutable_and_duplicate_is_idempotent(self):
         request, calls = self.request(), []
@@ -222,7 +232,7 @@ class DownstreamEntrypointTests(unittest.TestCase):
         self.assertNotIn('concurrency', workflow)
         self.assertEqual(workflow['permissions'], {'contents': 'write'})
         job = workflow['jobs']['enqueue']
-        self.assertEqual(job['if'], "github.ref == 'refs/heads/main'")
+        self.assertEqual(job['if'], "github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main'")
         self.assertEqual(job['steps'][0]['with'], {'ref': 'main', 'persist-credentials': 'false'})
         enqueue = job['steps'][1]
         self.assertEqual(enqueue['run'], 'python3 -m berean_translation enqueue-env')

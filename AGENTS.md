@@ -64,10 +64,14 @@ not model prompts. Provider refusals, content filters and legacy outcomes that
 cannot distinguish them remain held for owner attention, never bypassed.
 
 The disabled `automatic_downstream_recovery` policy requires a separately approved
-lifetime total cap before paid manual or hourly work. A serialized collector may
-queue one small batch per UTC hour (best effort), with at most five article pairs.
-Manual model choice does not enlarge this cap. Accepted nonempty campaign envelopes
-are permanent allocations, including partial acceptance, cancellation and failure;
-never reset/recycle them or alter original campaign budgets. Cancel an incomplete
+lifetime total cap before hourly work. An explicit main-branch **AI — Repair held
+translations** `workflow_dispatch` instead authorizes only its selected one-time
+USD ceiling and at most five pairs, with durable run/workflow/repository/actor
+provenance. It does not enable hourly work or enlarge the standing cap. A rerun of
+the same run ID cannot allocate again or change the original inputs. Both funding
+scopes share the once-per-source attempt exclusion and serialized collector.
+Accepted nonempty campaign envelopes are permanent allocations, including partial
+acceptance, cancellation and failure; never reset/recycle them or alter original
+campaign budgets. Cancel an incomplete
 acceptance through the worker so proven never-submitted children are reconciled
 and retained. Do not hand-edit terminal tasks or their frozen predecessor records.

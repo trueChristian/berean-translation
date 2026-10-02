@@ -30,6 +30,9 @@ def enqueue_github(config, request, repository: str, token: str, transport=githu
     if request.get('operation') == 'repair':
         from .downstream import validate_request
         validate_request(config, request)
+        if (request.get('manual_authorization') and
+                request['manual_authorization']['repository'] != repository):
+            raise ContractError('Manual repair authorization belongs to a different repository')
     elif not recovery_selector(request, config.runtime['max_tasks_per_request']):
         config.select_languages(request['languages'])
     config.model(request['model']); config.model(request['review_model'])

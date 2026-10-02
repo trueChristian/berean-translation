@@ -13,7 +13,7 @@ source and record hashes. Both roles default to `gpt-6.1-sol`; `gpt-6-astra` and
 existing registered models are selectable. Actual project model access and
 translation quality have **not** been verified by paid calls.
 
-Once enabled, the existing serialized collector queues at most one recovery batch
+Once its separate standing policy is enabled, the existing serialized collector queues at most one recovery batch
 per UTC hour. GitHub schedules are best effort; this is not an on-the-hour SLA.
 The default small batch is three pairs. Manual enqueuers write unique immutable
 requests and never mutate runtime records themselves. Automatic source refresh
@@ -35,15 +35,33 @@ is invented, and no model or prompt switch is used to bypass a provider refusal.
 
 ## Spending and activation
 
-Paid downstream execution ships **disabled**, with a zero total USD authorization.
-Preview is available without a provider. Before enabling, the owner must approve
-and configure a separate total cap and per-campaign envelope in
-`automatic_downstream_recovery`. The total cap covers manual and hourly work
-combined. Nonempty accepted envelopes count forever, even when unused, failed,
-cancelled or partially staged. Empty selections cost/allocate nothing. A manual
-choice cannot increase the approved total. No existing parent budget is raised,
-reset or recycled. Each article/language/source fingerprint gets at most one
-downstream attempt, including cancelled/partially staged selections.
+Hourly downstream execution ships **disabled**, with a zero standing total USD
+authorization. Preview is available without a provider. Before enabling hourly
+work, the owner must approve and configure a separate total cap and per-campaign
+envelope in `automatic_downstream_recovery`.
+
+A manual **AI — Repair held translations** run from `main`, with preview unchecked
+and an explicit positive budget, authorizes only that run's chosen USD ceiling,
+models and at most five pairs. It can run while hourly recovery is disabled.
+Trusted GitHub Actions `workflow_dispatch` context supplies the run ID, workflow
+ref, repository and actor; no workflow input can manufacture this authorization.
+The immutable queue request binds that provenance to all selected inputs. A
+scheduled request cannot carry manual authorization. The collector checkpoints a
+separate permanent manual envelope before creating any child task. It can finish
+that bounded work without enabling the standing policy.
+
+Rerunning the same workflow run is idempotent: its stable `gh-<run_id>` request ID
+does not allocate or restart work again. Different inputs under the same ID are
+rejected. A new manual run is a new explicit authorization, but cannot retry an
+already-attempted article/language/source fingerprint. Legacy requests without
+manual authorization remain bound to the shared policy; they are not migrated.
+
+Both funding scopes retain nonempty accepted envelopes forever, even when unused,
+failed, cancelled or partially staged. Empty selections cost/allocate nothing.
+The status report shows standing allocations and historical manual allocations
+separately. No existing parent or standing budget is raised, reset or recycled.
+Each article/language/source fingerprint gets at most one downstream attempt
+across both scopes, including cancelled/partially staged selections.
 
 This intentionally does not turn a small envelope into guaranteed completion.
 A later stage that cannot fit its conservative reservation stays held; preview
@@ -53,7 +71,9 @@ choose a practical envelope before bulk activation. New reasoning-model caps are
 See [model pricing assumptions](model-pricing.md) for cache-write and long-context
 conservative cost bounds. Reported usage never frees reserved/allocated money.
 
-Disabling the policy pauses queued/prepared downstream submissions. Collection
+Disabling the standing policy pauses its queued/prepared submissions; it does not
+revoke a separately authorized manual envelope. Use normal campaign cancellation
+to stop that manual campaign. Collection
 and reconciliation of work already submitted remain allowed. Source fingerprints
 are checked against the collector's coherent current English scan at selection,
 preparation, resumed submission and publication. Changed, public or human-reviewed
@@ -81,6 +101,9 @@ Offline regression coverage exercises repair/review/publication, quality failure
 fresh fallback, truncation/refusal classification, immutable history, current-source
 checks, public/human protection, duplicate requests, UTC-hour deduplication,
 cumulative and stage budgets, disabled execution, interrupted staging/cancellation,
-model tampering, workflow entrypoints and cache/long-context pricing. Full unit
+model tampering, workflow entrypoints and cache/long-context pricing. The actual
+manual Actions shell is also exercised offline through the real CLI/queue path,
+with only GitHub HTTP transport stubbed, including the reported Luna/three-pair/$10
+inputs, rerun idempotency, context rejection and bounded collector completion. Full unit
 suite, repository validation and exact-commit CI must pass before ready status.
 No paid run, activation, merge or deployment is part of this PR.
