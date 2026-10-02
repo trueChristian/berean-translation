@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c2da7951-2b4f-49f2-b391-e4dc0084a0ff",
+    "response_id": "chatcmpl-EUUMKak9Na18nAWGZOa3fkiXWQl4B",
+    "usage": {
+      "completion_tokens": 1508,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1520,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3028
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> first stanza, line 1-4",
+        "severity": "major",
+        "source_quote": "'Tis winter now; the fallen snow\n  has left the heavens all coldly clear;\n  through leafless boughs, the sharp winds blow,\n  and all the earth lies dead and drear.",
+        "suggested_fix": "Übersetze die vier Zeilen möglichst wörtlich und idiomatisch ins Deutsche, ohne Bedeutungsverschiebung. Beispielvorschlag, der den Ton und die Bildsprache bewahrt: \"Es ist jetzt Winter; der gefallene Schnee\n  hat den Himmel kalt und klar gemacht;\n  durch blattlose Zweige wehen scharfe Winde,\n  und alles Land liegt tot und düster.\"",
+        "translation_quote": "'Es ist jetzt Winter; der gefallene Schnee\n  hat den Himmel kalt und klar gemacht;\n  durch blattlose Zweige weht der scharfe Weh,\n  und die ganze Erde liegt tot und sacht."
+      },
+      {
+        "location": "<div class=\"poem\"> second stanza, line 1 and 4",
+        "severity": "major",
+        "source_quote": "And yet God's love is not withdrawn;\n  his life within the keen air breathes;\n  his beauty paints the crimson dawn,\n  and clothes each branch with glittering wreaths.",
+        "suggested_fix": "Die Zeilen 1–4 sollten die Zusicherung von Gottes fortwährender Gegenwart und die Bildmetaphern (\"crimson dawn\", \"glittering wreaths\") treu wiedergeben. Vermeide falsche Bedeutungen wie \"Duft\" oder unklare Neuschöpfungen. Vorschlag: \"Und doch ist Gottes Liebe nicht entschwunden;\n  sein Leben atmet in der scharfen Luft;\n  seine Schönheit malt die purpurne Morgenröte\n  und kleidet jeden Zweig mit funkelnden Kränzen.\"",
+        "translation_quote": "Und doch ist Gottes Liebe nicht entzogen;\n  sein Leben atmet in der klaren Luft;\n  sein Schönsein malt die purpurne Morgenröte, \n  und schmückt jeden Ast mit funkelndem Duft."
+      },
+      {
+        "location": "<div class=\"poem\"> third stanza, lines 1–4",
+        "severity": "major",
+        "source_quote": "And though abroad the sharp winds blow,\n  and skies are chill, and frosts are keen,\n  home closer draws her circle now,\n  and warmer glows her light within.",
+        "suggested_fix": "Die Personifikation von \"home\" als Ortskreis/Heim muss erhalten bleiben; die Übersetzung soll Sinn und Bildsprache (näheres Zusammenrücken, wärmeres Licht drinnen) wiedergeben. Vorschlag: \"Und obgleich draußen scharfe Winde wehen,\n  die Himmel kühl und Reif so beißend sind,\n  zieht das heimische Kreis sich enger nun,\n  und wärmer leuchtet drinnen sein Licht.\"",
+        "translation_quote": "Und obwohl draußen scharfe Winde wehn,\n  und Himmel kühl, und Reif so bitterschchien,\n  zieht heimwärts nun das Haus den Kreis sich zu, \n  und wärmer leuchtet drin sein liebendien."
+      },
+      {
+        "location": "<div class=\"poem\"> fourth stanza, entire stanza",
+        "severity": "major",
+        "source_quote": "O God, you give the winter's cold,\n  as well as summer's joyous rays,\n  you warmly in your love enfold,\n  and keep us through life's wintry days.",
+        "suggested_fix": "Die theologische Aussage (Gott schenkt sowohl Winterkälte als auch Sommerstrahlen; er hält uns in seiner Liebe durch die \"wintry days\" des Lebens) darf nicht verfälscht oder mit erfundenen Begriffen ersetzt werden. Vermeide Neuschöpfungen wie \"Liebesbrauch\" oder \"Winterwahlen\". Vorschlag: \"O Gott, du gibst die Winterkälte ebenso\n  wie die frohen Strahlen des Sommers;\n  du hüllst uns warm in deiner Liebe\n  und behütest uns durch der Lebens wintrige Tage.\"",
+        "translation_quote": "O Gott, du gibst die Winterkälte auch,\n  wie auch der Sommer frohe Strahlen;\n  du hüllst uns warm in deiner Liebesbrauch,\n  und hältst uns durch der Lebens Winterwahlen."
+      },
+      {
+        "location": "<figure>\n  <img ... alt=\"...\">",
+        "severity": "minor",
+        "source_quote": "alt=\"A lone bare tree in a snowy field\"",
+        "suggested_fix": "Die Bildbeschreibung ist bereits ins Deutsche übertragen, das ist korrekt. Kleinere stilistische Verbesserung möglich: \"Ein einzelner kahler Baum auf einem verschneiten Feld\". Keine inhaltliche Änderung notwendig.",
+        "translation_quote": "alt=\"Ein einzelner kahler Baum in einem verschneiten Feld\""
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

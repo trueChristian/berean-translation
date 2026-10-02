@@ -2,7 +2,6 @@
   "article_id": "fbb7faf4-04de-4858-b608-09cb6aedaacf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 12590
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1695,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12112,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13807
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Paragraph containing Proverbs 4:5-9 (source.html <p> with Proverbs quote)",
+      "severity": "minor",
+      "source_quote": "Proverbs 4:5-9 says, “Get wisdom, get understanding: forget it not; neither decline from the words of my mouth. Forsake her not, and she shall preserve thee: love her, and she shall keep thee. Wisdom is the principal thing; therefore get wisdom: and with all thy getting get understanding. Exalt her, and she shall promote thee: she shall bring thee to honour, when thou dost embrace her. She shall give to thine head an ornament of grace: a crown of glory shall she deliver to thee.”",
+      "suggested_fix": "The translation renders the Scripture into Greek, but uses an archaic/older register (e.g. “μη την αφήνης”, “μη αποκλίνης”, “εκύψωσέ την”) that conflicts with the user's instruction to use contemporary Modern Greek. Revise the Greek wording to a contemporary, natural register while preserving the meaning and keeping the chapter/verse numbers unchanged. Example (suggested phrasing in contemporary Modern Greek): “Απόκτησε σοφία, απόκτησε σύνεση· μην τη λησμονήσεις, μη παρεκκλίνεις από τα λόγια μου. Μη την εγκαταλείπεις· θα σε φυλάξει· αγάπησέ την και θα σε προστατεύσει. Η σοφία είναι το υπέρτατο αγαθό· απόκτησέ την· και με ό,τι αποκτάς, απόκτησε σύνεση. Δώσε της θέση και θα σε ανυψώσει· θα σε τιμήσει όταν την περιβάλλεις. Θα βάλει στο κεφάλι σου στολίδι χάρης· θα σου χαρίσει στέμμα δόξης.” (Apply same modernizing approach to the entire quoted passage.)",
+      "translation_quote": "«Πάρε σοφίαν, πάρε σύνεσιν· μη την αφήνης· μη αποκλίνης από τα λόγια του στόματός μου. Μη την εγκαταλείψης, και αυτή σε φυλάξει· αγάπησέ την, και αυτή σε φυλάξει. Η σοφία είναι το κύριον· απόκτησον λοιπόν σοφίαν· και με ό,τι αποκτάς απόκτησον σύνεσιν. Εκύψωσέ την, και αυτό σε υψώσει· και όταν την αγκαλιάσεις, θα σε τιμήσει. Θα δώσει στο κεφάλι σου κόσμημα χάρης· στέμμα δόξης θα σου δώσει.»"
+    },
+    {
+      "location": "Paragraph explaining the CARS acronym (source.html around Robert Harris/CARS)",
+      "severity": "minor",
+      "source_quote": "Robert Harris made an acronym CARS, that helps sort out whether information on a website is valid. Credibility, past Accuracy, Reasonableness, and Supporting information are all important to look at to see if we should value the information on a website.",
+      "suggested_fix": "The translation retains the English expansion of the acronym (Credibility, Accuracy, Reasonableness, Supporting information) in English inside the Greek paragraph. To follow the user's request for a Greek translation and to improve readability, translate the four terms into contemporary Greek while keeping the acronym CARS as the named method (if the author deliberately used the English acronym). For example: “Αξιοπιστία (Credibility), Ιστορική Ακρίβεια (Accuracy), Λογικότητα (Reasonableness) και Υποστηρικτικές Πληροφορίες (Supporting information)…” or fully Greek equivalents without parentheses if preferred. Ensure the acronym label “CARS” remains as in the source.",
+      "translation_quote": "Ο Ρόμπερτ Χάρις δημιούργησε το ακρωνύμιο CARS, που βοηθά να ξεχωρίσουμε αν οι πληροφορίες σε έναν ιστότοπο είναι έγκυρες. Αξιοπιστία (Credibility), παρελθούσα Ακρίβεια (Accuracy), Λογικότητα (Reasonableness) και Υποστηρικτικές πληροφορίες (Supporting information) είναι όλα σημαντικά να εξεταστούν για να δούμε αν πρέπει να εκτιμήσουμε τις πληροφορίες σε έναν ιστότοπο.<sup>2</sup>."
+    },
+    {
+      "location": "Paragraph quoting Psalm 103:3 (source.html <p> with Psalm quote)",
+      "severity": "minor",
+      "source_quote": "Psalms 103:3 says of God, “Who forgiveth all thine iniquities; who healeth all thy diseases.”",
+      "suggested_fix": "The Greek rendering of the Psalm is present but again uses an older, somewhat archaic form (“Που σβήνει όλες τις ανομίες σου· που ιάται πάσας τας ασθενείας σου.”). The user asked for contemporary Modern Greek. Please modernize the grammar and vocabulary while preserving the verse meaning and leaving the chapter/verse numbers unchanged. Suggested contemporary phrasing: “Ψαλμοί 103:3: ‘Ο οποίος συγχωρεί όλες τις ανομίες σου, ο οποίος ιατρεύει όλες τις ασθένειές σου.’”",
+      "translation_quote": "«Ψαλμοί 103:3 λένε για τον Θεό: «Που σβήνει όλες τις ανομίες σου· που ιάται πάσας τας ασθενείας σου.»»"
+    }
+  ],
+  "finished_at": "2026-10-02T10:04:50+00:00",
   "id": "2590e61ba7e81eed63e3f84dfddbe03b",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ell",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6a174f90d4349eed5395b954b6464250e64e874608b754c80cbaf37735556faf.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e438e2a5dbbb36ddf11340e0d96ac331f86b42c4c964f5787972c99d3487ba67",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

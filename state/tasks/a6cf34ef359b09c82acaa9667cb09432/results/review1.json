@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7e9b7140-2a68-47b5-bbfb-400452cc11a2",
+    "response_id": "chatcmpl-EUUOPSFNFDpzJodIF3VYX5T3SLxPZ",
+    "usage": {
+      "completion_tokens": 954,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9291,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10245
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html (entire article body)",
+        "severity": "critical",
+        "source_quote": "All article paragraphs and headings (e.g., opening anecdote about Ben, sections 'Get Wisdom!', 'Confirmation Bias', 'Doctors Can Identify Dangerous Situations', etc.)",
+        "suggested_fix": "Translate every paragraph and heading of the article into Bengali, preserving the existing HTML structure, tags, order, nesting, and immutable attributes. Do not leave substantive prose in English. Maintain the author's theology and tone. Keep Bible book names in conventional Bengali forms and preserve exact chapter and verse numbers and placement (for example, translate 'Proverbs 4:5-9' and the verse text into Bengali, and retain 'I Kings 3:9,10' as '1 রাজা 3:9,10' or the site's preferred Bengali book name). Ensure quoted Scripture passages are translated into Bengali (not left in English) and embedded where the English had them, preserving punctuation and numbering as in the source.",
+        "translation_quote": "Most of the article remains in English (nearly all paragraphs and headings are untranslated)."
+      },
+      {
+        "location": "source.html (Scripture quotations)",
+        "severity": "major",
+        "source_quote": "Proverbs 4:5-9 says, “Get wisdom, get understanding: forget it not; neither decline from the words of my mouth. ...” and later Psalms 103:3 says of God, “Who forgiveth all thine iniquities; who healeth all thy diseases.” and reference to James 5:16.",
+        "suggested_fix": "Translate all quoted Scripture texts into standard contemporary Bengali, accurately conveying the printed English meaning. Use conventional Bengali names for the books (e.g., 'สุপ্রভাত'—no, use 'সাংগত'—[note: keep to actual Bengali names such as 'প্রবচন' for Proverbs, 'পবিত্র গ্রন্থ'—correct: 'প্রবচন', 'গীতোস্লোক'—but supply correct conventional forms]) and preserve exact chapter and verse numbers and their placement. Do not substitute a different Bible version; preserve the meaning as printed. Example: render 'Proverbs 4:5-9' passage into Bengali inside the same <p> element replacing the English quotation.",
+        "translation_quote": "The Scripture quotations remain in English inside the translation."
+      },
+      {
+        "location": "source.html (references section and cited titles)",
+        "severity": "minor",
+        "source_quote": "References list: 'Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models - PMC (nih.gov)', 'Evaluating Internet Research Sources', 'Sale of Health-Related Products | AMA-Code (ama-assn.org)', '65% of Americans believe they are above average in intelligence: Results of two nationally representative surveys - PMC (nih.gov)'.",
+        "suggested_fix": "Translate the visible reference titles and any translatable metadata into Bengali, or at minimum provide Bengali translations for titles while keeping source URLs and proper names intact. Ensure cited work titles that are not proper names are rendered in Bengali script so the reference section is fully localized in presentation. Preserve exact ordering and HTML structure of the <ol> and <li> elements.",
+        "translation_quote": "The reference titles remain in English."
+      },
+      {
+        "location": "source.title and source.section",
+        "severity": "minor",
+        "source_quote": "Title: 'The Googlification of Medicine'; Section: 'A WORD FROM THE DOCTOR'",
+        "suggested_fix": "The translation has already rendered the title as 'চিকিৎসার গুগলীকরণ' and section as 'ডাক্তারের কথা'. Confirm these are acceptable in idiomatic Bengali. If preferred, consider slight editorial alternatives (e.g., section 'ডাক্তারের কথাবার্তা' only as stylistic suggestion). This is optional; no structural change required.",
+        "translation_quote": "Translated title: 'চিকিৎসার গুগলীকরণ'; translated section: 'ডাক্তারের কথা'."
+      }
+    ],
+    "passed": false,
+    "score": 30
+  }
+}

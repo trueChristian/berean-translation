@@ -2,7 +2,6 @@
   "article_id": "042fce50-3724-4100-b397-093c6d081e89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 3400
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1578,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1088,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2986,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4564
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<article> first paragraph, name spelling",
+      "severity": "minor",
+      "source_quote": "\"Felix Mantz\" ... \"Feliz Mantz\"",
+      "suggested_fix": "The English source uses both spellings (\"Felix Mantz\" and later \"Feliz Mantz\"). The translation consistently uses \"Felix Mantz.\" To preserve fidelity to the authoritative English text as printed, either reproduce the same inconsistent spelling sequence (use \"Felix Mantz\" at the first occurrence and \"Feliz Mantz\" at the later occurrence) or, if the publisher prefers one correct form, make the same single spelling choice in the English source and in the translation. Suggested narrow fix in Swedish: change the later occurrence to match the English printed form at that location (i.e., use \"Feliz Mantz\" where the English has that spelling).",
+      "translation_quote": "\"Felix Mantz\" (only) in both occurrences"
+    },
+    {
+      "location": "<article> first paragraph, phrase \"a monumental event\"",
+      "severity": "minor",
+      "source_quote": "\"a monumental event in the history of the Christian church occurred.\"",
+      "suggested_fix": "Swedish grammar correction: replace \"monumentalt händelse\" with the correct indefinite nominative form \"en monumental händelse\" to match the English meaning and be grammatically correct. Suggested fix: change to \"en monumental händelse i den kristna kyrkans historia inträffade.\"",
+      "translation_quote": "\"en monumentalt händelse i den kristna kyrkans historia.\""
+    },
+    {
+      "location": "<figure> img alt and figcaption",
+      "severity": "minor",
+      "source_quote": "\"Gutenberg Bible on display at the U.S. Library of Congress.\"",
+      "suggested_fix": "Improve Swedish idiom and word order while preserving the printed content. Suggested narrow fixes: alt attribute: change to \"Gutenbergbibeln utställd i Library of Congress i USA\". figcaption: change to \"Gutenbergbibeln utställd i Library of Congress i USA.\" (Keep HTML tags and placement unchanged.)",
+      "translation_quote": "alt=\"Gutenbergbibel på display i Library of Congress, USA\"; figcaption: \"Gutenbergbibel på display i Library of Congress i USA.\""
+    }
+  ],
+  "finished_at": "2026-10-02T10:04:51+00:00",
   "id": "5e4060bd9b8933fedc7fd4ce8e943271",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "swe",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/901933390bbab68b30ba65d224e53d69f0af822b49f3cdb694876c259f4bd250.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "a8b13667ad0bdee6e94fb75c94d958fc5f824dbcd185202cd5cc7be6e9274a4c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "21180900-6bdd-4c06-a4ed-fd0f6b8a3571",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,8 +23,65 @@
         },
         "total_tokens": 5202
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1407,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4735,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6142
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "source.html paragraph 2 (Potemkin name)",
+      "severity": "minor",
+      "source_quote": "Viceroy Potemkin",
+      "suggested_fix": "使用目标语言中更常见的音译以提高读者识别度，例如“波捷姆金”或更常见的“波捷金/波将金”。保留括号内英文原名（Potemkin）可选以供识别，但不要改变原文含义。",
+      "translation_quote": "副王波捷明（Potemkin）"
+    },
+    {
+      "location": "source.html paragraph 3 (Chortitza / Old Colony)",
+      "severity": "minor",
+      "source_quote": "“Old Colony” was established at Chortitza.",
+      "suggested_fix": "“Chortitza”的常用中文音译有“霍尔蒂察”、“霍尔蒂察（Chortitza）”或“乔尔提察”。建议选用一个更常见或更可识别的译名并在第一次出现时保留原文括注，例如“霍尔蒂察（Chortitza）”，以便读者识别历史地名。保留“Old Colony”的译法“老殖民地”是可以的，不建议改动其含义。",
+      "translation_quote": "“老殖民地”（Old Colony）在乔尔提察（Chortitza）建立。"
+    },
+    {
+      "location": "source.html paragraph 11 (kulaks term consistency)",
+      "severity": "minor",
+      "source_quote": "the kulaks, the wealthy class of peasants",
+      "suggested_fix": "在全文中对“kulaks”一词保持一致的译法。当前译文先用“有产农民（kulaks）”，后文又用“库拉克”。建议统一为“库拉克（kulaks）”或“有产农民（库拉克）”，并在首次出现时给出中文与括注英文，以后直接使用首选译法。",
+      "translation_quote": "因此，当有产农民（kulaks）这一富裕阶层遭到新政府迫害时，门诺派被视为人民的敌人并不令人意外。"
+    },
+    {
+      "location": "source.html paragraph 13 (Turkey Red Wheat name)",
+      "severity": "minor",
+      "source_quote": "Turkey Red Wheat",
+      "suggested_fix": "将作物名称翻译为目标语更常见的表述以便读者理解。建议将“Turkey Red Wheat”译为“土耳其红小麦”或“土耳其红麦”，并在首次出现时可保留英文括注（Turkey Red Wheat）。当前译为“火鸡红麦”直译生硬且易生歧义，建议改为“土耳其红小麦（Turkey Red Wheat）”。",
+      "translation_quote": "火鸡红麦（Turkey Red Wheat）"
+    },
+    {
+      "location": "source.html paragraph 18 (Gulag title formatting)",
+      "severity": "minor",
+      "source_quote": "the Gulag Archipelago, a book written by a Russian officer who was accused of treason. That author, Aleksandr Solzhenitsyn, painted...",
+      "suggested_fix": "中文已译为《古拉格群岛》，但保留英文原书名在括号中并把作者名音译为常见形式即可。当前译文为“《古拉格群岛》（Gulag Archipelago）……作者亚历山大·索尔仁尼琴（Aleksandr Solzhenitsyn）”。建议将作者姓名的拼写统一为常见中文惯用译名“亚历山大·索尔仁尼琴（Aleksandr Solzhenitsyn）”或“亚历山大·索仁尼琴”，并保持书名格式《古拉格群岛》为主，英文原名可保留。此为风格/一致性建议，无需改动原意。",
+      "translation_quote": "《古拉格群岛》（Gulag Archipelago）。作者亚历山大·索尔仁尼琴（Aleksandr Solzhenitsyn）描绘了反对苏联者遭受对待与流放的可怕画面。"
+    }
+  ],
+  "finished_at": "2026-10-02T10:04:51+00:00",
   "id": "b6c06415bc0423b8e7f9b4ec3966bea2",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "cmn",
@@ -69,11 +125,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/e6d5dd4085cebb3593cea88c0c7b399e589533f4996bbdc3712184dc25845fc4.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "eb6b57cc0ff9251672705de37bad2d751542487f4ae521b68aaf1b67b286861e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

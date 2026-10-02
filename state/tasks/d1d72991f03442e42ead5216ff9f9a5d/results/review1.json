@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a8c48a8d-6716-4980-95e5-9e1d497884ac",
+    "response_id": "chatcmpl-EUUK8r8h2fswjY9jAHO9dVokE9ER9",
+    "usage": {
+      "completion_tokens": 1092,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7710,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8802
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "paragraph containing Eph. 5:27 (near start)",
+        "severity": "minor",
+        "source_quote": "The apostle Paul says that Jesus is coming back for “. . .a glorious church, not having spot, or wrinkle, or any such thing; but that it should be holy and without blemish” (Eph. 5:27).",
+        "suggested_fix": "Keep the meaning but improve Swedish fluency. Replace “utan att den skulle vara helig och fläckfri” with “som är helig och fläckfri” so the sentence reads naturally while preserving the original claim that the church will be holy and without blemish: “...en härlig kyrka, utan fläck eller veck eller något sådant, som är helig och fläckfri” (Ef. 5:27).",
+        "translation_quote": "”…en härlig kyrka, utan fläck eller veck eller något sådant, utan att den skulle vara helig och fläckfri” (Ef. 5:27)."
+      },
+      {
+        "location": "paragraph quoting Matt. 11:5",
+        "severity": "minor",
+        "source_quote": "“The blind receive their sight, and the lame walk, the lepers are cleansed, and the deaf hear, the dead are raised up, and the poor have the gospel preached to them ” (Matt. 11:5).",
+        "suggested_fix": "Correct the Swedish word order and idiom for clarity while preserving the scripture content. Replace “de haltar gå” with “de haltar får gå” or simply “de haltar får gå” → better: “de blinda får sina ögon, och de haltar får gå, spetälska blir renade, och de döva får höra, de döda uppstår, och de fattiga får evangelium predikat för sig” (Matt. 11:5).",
+        "translation_quote": "”De blinda får sina ögon, och de haltar gå, spetälska blir renade, och de döva höra, de döda uppstå, och de fattiga får evangelium predikat för sig” (Matt. 11:5)."
+      },
+      {
+        "location": "paragraph beginning “There is power in submission.” (Alexander the Great story)",
+        "severity": "minor",
+        "source_quote": "The story is told that Alexander and a small company of soldiers approached a strongly fortified, walled city.",
+        "suggested_fix": "Small tense/wording correction for natural Swedish: change “Hundratals år sedan erövrade en man vid namn Alexander den store nästan hela den då kända världen” to “För hundratals år sedan erövrade en man vid namn Alexander den store nästan hela den då kända världen.” This preserves meaning and improves idiomatic Swedish.",
+        "translation_quote": "”Det finns kraft i underordnande. Hundratals år sedan erövrade en man vid namn Alexander den store nästan hela den då kända världen med militär styrka och list blandat med diplomati.”"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

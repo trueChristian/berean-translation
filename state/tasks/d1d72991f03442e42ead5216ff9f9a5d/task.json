@@ -2,7 +2,6 @@
   "article_id": "58963510-f56e-43e0-88dd-0eb9941ddea9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 8052
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1092,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7710,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8802
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "paragraph containing Eph. 5:27 (near start)",
+      "severity": "minor",
+      "source_quote": "The apostle Paul says that Jesus is coming back for “. . .a glorious church, not having spot, or wrinkle, or any such thing; but that it should be holy and without blemish” (Eph. 5:27).",
+      "suggested_fix": "Keep the meaning but improve Swedish fluency. Replace “utan att den skulle vara helig och fläckfri” with “som är helig och fläckfri” so the sentence reads naturally while preserving the original claim that the church will be holy and without blemish: “...en härlig kyrka, utan fläck eller veck eller något sådant, som är helig och fläckfri” (Ef. 5:27).",
+      "translation_quote": "”…en härlig kyrka, utan fläck eller veck eller något sådant, utan att den skulle vara helig och fläckfri” (Ef. 5:27)."
+    },
+    {
+      "location": "paragraph quoting Matt. 11:5",
+      "severity": "minor",
+      "source_quote": "“The blind receive their sight, and the lame walk, the lepers are cleansed, and the deaf hear, the dead are raised up, and the poor have the gospel preached to them ” (Matt. 11:5).",
+      "suggested_fix": "Correct the Swedish word order and idiom for clarity while preserving the scripture content. Replace “de haltar gå” with “de haltar får gå” or simply “de haltar får gå” → better: “de blinda får sina ögon, och de haltar får gå, spetälska blir renade, och de döva får höra, de döda uppstår, och de fattiga får evangelium predikat för sig” (Matt. 11:5).",
+      "translation_quote": "”De blinda får sina ögon, och de haltar gå, spetälska blir renade, och de döva höra, de döda uppstå, och de fattiga får evangelium predikat för sig” (Matt. 11:5)."
+    },
+    {
+      "location": "paragraph beginning “There is power in submission.” (Alexander the Great story)",
+      "severity": "minor",
+      "source_quote": "The story is told that Alexander and a small company of soldiers approached a strongly fortified, walled city.",
+      "suggested_fix": "Small tense/wording correction for natural Swedish: change “Hundratals år sedan erövrade en man vid namn Alexander den store nästan hela den då kända världen” to “För hundratals år sedan erövrade en man vid namn Alexander den store nästan hela den då kända världen.” This preserves meaning and improves idiomatic Swedish.",
+      "translation_quote": "”Det finns kraft i underordnande. Hundratals år sedan erövrade en man vid namn Alexander den store nästan hela den då kända världen med militär styrka och list blandat med diplomati.”"
+    }
+  ],
+  "finished_at": "2026-10-02T10:04:51+00:00",
   "id": "d1d72991f03442e42ead5216ff9f9a5d",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "swe",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/59d4849e1c86348caee3bfc73f9939e2ea68bc740d52161ef37989eff904e79d.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "717da8d77d6092ac85798d90532d1ee4a9c48672d09b7616b1eb527cfd86d893",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

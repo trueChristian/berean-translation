@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0cb01ba3-bcc7-421a-bb5d-db1ed5fd6b91",
+    "response_id": "chatcmpl-EUUOAZsi3j9BBJuh1TNAMZSb39cb2",
+    "usage": {
+      "completion_tokens": 1694,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1088,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4004,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5698
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "major",
+        "source_quote": "The Mint Man",
+        "suggested_fix": "Translate the title into contemporary standard Hindi, preserving the author's intended meaning. For example: \"मिंट वाला आदमी\" or \"मिंट मैन\" (preferably fully Hindi: \"मिंट वाला आदमी\"). Replace the current untranslated transliteration \"द मिंट मैन\" with a Hindi rendering, preserving HTML tags and attributes (none present in title field).",
+        "translation_quote": "द मिंट मैन"
+      },
+      {
+        "location": "html — paragraph describing children clustering (simile)",
+        "severity": "minor",
+        "source_quote": "a swarm of young boys and girls began to cluster around Brother Silas like chickadees at a birdfeeder.",
+        "suggested_fix": "Render the simile so it conveys the original image of many small birds gathering at a feeder. A closer Hindi equivalent would be: \"जैसे चिड़ियाँ किसी पक्षी-खाना पर इकट्ठा होती हैं\" or \"जैसे पक्षी फीडर पर इकट्ठा हो जाते हैं\". Replace the current phrasing that reads \"पिंजरे पर चिड़ियों का घोंसला,\" which changes the image.",
+        "translation_quote": "लड़कों और लड़कियों का एक झुंड भाई साइलस के आसपास इकट्ठा होने लगा जैसे पिंजरे पर चिड़ियों का घोंसला।"
+      },
+      {
+        "location": "html — sentence where Dirk says 'Thank you'",
+        "severity": "minor",
+        "source_quote": "When Dirk’s turn came, he dutifully said, “Thank you,” without even thinking what he said.",
+        "suggested_fix": "Translate the nuance accurately. The source implies he said the words automatically, without thinking; it does not mean he acted selflessly. A suitable Hindi rendering: \"...उसने बिना सोचे-समझे सिर्फ 'धन्यवाद' कह दिया.\" Replace the current insertion of \"निःस्वार्थ भाव\" which adds unintended meaning.",
+        "translation_quote": "जब डिर्क की बारी आई, तो उसने बिना सोचे-समझे निःस्वार्थ भाव से कहा, “धन्यवाद।”"
+      },
+      {
+        "location": "html — reference to the book of Numbers",
+        "severity": "minor",
+        "source_quote": "read through Numbers 11",
+        "suggested_fix": "Use the conventional Hindi Bible book name without parenthetical English. Replace \"गिनती की पुस्तक (Numbers) के अध्याय 11\" with a conventional Hindi form such as \"गिनती (अध्याय 11)\" or simply \"गिनती 11\" (e.g., \"गिनती की पुस्तक, अध्याय 11 पढ़े\"). Preserve original chapter/verse numbers and punctuation.",
+        "translation_quote": "गिनती की पुस्तक (Numbers) के अध्याय 11 को पढ़े"
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

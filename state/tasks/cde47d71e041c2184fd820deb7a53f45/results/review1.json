@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "be5383c1-6b25-493d-bfcd-6a3579346f5d",
+    "response_id": "chatcmpl-EUULU4fUkFOXDgXr5Ifzc36QuMNDj",
+    "usage": {
+      "completion_tokens": 819,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1543,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2362
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html — <div class=\"poem\"> stanza 1, line 3",
+        "severity": "minor",
+        "source_quote": "The true thy chartered freemen are\n  of every age and clime:",
+        "suggested_fix": "Replace or remove the visible soft-hyphen in \"verbrief­ten\" (it appears as a discretionary hyphen). Use \"verbriefte Freien\" without the hyphenation for normal contemporary German typography.",
+        "translation_quote": "Die wahren sind deine verbrief­ten Freien\n  aus jeder Zeit und jedem Land:"
+      },
+      {
+        "location": "translation.html — <div class=\"poem\"> stanza 2, line 3",
+        "severity": "minor",
+        "source_quote": "one working band, one harvest-song,",
+        "suggested_fix": "Consider rendering \"one working band\" as \"eine arbeitende Schar\" or \"eine arbeitende Schar/Truppe\" if you want a more idiomatic, poetic German equivalent for \"band\" in the sense of a group. \"ein arbeitender Bund\" is comprehensible but a little prosaic for poetry.",
+        "translation_quote": "ein arbeitender Bund, ein Erntelied,"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

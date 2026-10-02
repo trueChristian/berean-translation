@@ -2,7 +2,6 @@
   "article_id": "deabdd90-c842-4ed6-ad15-c2fa9870b099",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 6725
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1167,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6183,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7350
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<figure> <img alt> (end of article)",
+      "severity": "minor",
+      "source_quote": "<img src=\"/images/articles/deabdd90-c842-4ed6-ad15-c2fa9870b099-1.png\" alt=\"Sheet music for Crown Him with Many Crowns\" loading=\"lazy\">",
+      "suggested_fix": "Translate the image alt-text so it fully appears in Bahasa Indonesia and uses the translated hymn title. For example: alt=\"Notasi musik untuk 'Mahkotailah Dia dengan Banyak Mahkota'\" (preserve quotes or punctuation as appropriate in HTML).",
+      "translation_quote": "<img src=\"/images/articles/deabdd90-c842-4ed6-ad15-c2fa9870b099-1.png\" alt=\"Notasi musik untuk Crown Him with Many Crowns\" loading=\"lazy\">"
+    },
+    {
+      "location": "Multiple occurrences of untranslated work titles within article body (e.g., book titles, hymn collections)",
+      "severity": "minor",
+      "source_quote": "Hymns of the Heart; The Passion of Jesus; Hymns and Sacred Lyrics; Hymns of the Church; Diademata",
+      "suggested_fix": "Either translate or present the titles in a localized form or mark them as original-language titles consistently. If translating, use conventional Bahasa Indonesia rendering while keeping original title in italics if desired. Example: <em>Hymns of the Heart</em> → <em>Hymns of the Heart</em> (atau «Hymns of the Heart» jika dipertahankan dalam bahasa Inggris). For <em>Diademata</em>, retain as a Greek/Latin technical name but consider adding parenthetical translation: <em>Diademata</em> (\"mahkota kerajaan\").",
+      "translation_quote": "The translation currently keeps these titles in their original form (e.g., <em>Hymns of the Heart</em>, <em>The Passion of Jesus</em>, <em>Hymns and Sacred Lyrics</em>, <em>Hymns of the Church</em>, <em>Diademata</em>)."
+    }
+  ],
+  "finished_at": "2026-10-02T10:04:51+00:00",
   "id": "b082c86735d029995bca4bd1fde4a507",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ind",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/abeb1f35c1949ea978d144c1eae3a8c74b9cda2edc2ef460b0d918ec0851fa83.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "01644cf9abc17411f3b235a99895bb87e8eec445a9ac28e6394d4afb94966251",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

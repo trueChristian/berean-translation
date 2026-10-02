@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "82d96d3d-ed61-48f2-84a0-67351dc101bf",
+    "response_id": "chatcmpl-EUUK5gpgiGRbb0lME0MWXoXfTUy63",
+    "usage": {
+      "completion_tokens": 1212,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1633,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2845
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<figure> <img alt>",
+        "severity": "minor",
+        "source_quote": "A snowy path beside bare winter trees",
+        "suggested_fix": "Alt متن کو ہلکی زبان اور درست ہجے کے ساتھ بدل دیں: \"برف سے ڈھکا راستہ جو بے پتے سردیوں کے درختوں کے ساتھ ہے\" یا بہتر: \"برف سے ڈھکا راستہ جس کے دونوں طرف سردیوں کے بے پتے درخت ہیں\"۔ HTML مثال: <img ... alt=\"برف سے ڈھکا راستہ جس کے دونوں طرف سردیوں کے بے پتے درخت ہیں\">",
+        "translation_quote": "برف سے ڈھکا راستہ جو بےپتے سردیوں کے درختوں کے ساتھ ہے"
+      },
+      {
+        "location": "<div class=\"poem\"> first stanza, line 3-4 (\"chartered freemen\")",
+        "severity": "minor",
+        "source_quote": "The true thy chartered freemen are\nof every age and clime:",
+        "suggested_fix": "\"chartered freemen\" کا مفہوم واضح رکھنے کے لیے ترجمہ کو زیادہ موزوں الفاظ میں بدل دیں، مثلاً: \"سچے تیرے چارٹر یافتہ آزاد شہری ہیں\" یا \"سچے تیرے چارٹر والے آزاد شہری ہیں\"۔ HTML مثال اس پیراگراف میں مطلوبہ متن بدل دیں: <p>ایک سچے، چارٹر یافتہ آزاد شہری ہیں<br>ہر زمانے اور ہر علاقے کے:</p>",
+        "translation_quote": "سچے تیرے منظور شدہ آزاد شہری ہیں\nہر زمانے اور ہر علاقے کے:"
+      },
+      {
+        "location": "<div class=\"poem\"> third stanza, line 1-2 (\"How purely hath thy speech come down / from man's primaeval youth!\")",
+        "severity": "minor",
+        "source_quote": "How purely hath thy speech come down\nfrom man's primaeval youth!",
+        "suggested_fix": "رِدھم اور مطلب کو محفوظ رکھنے کے لیے لائن کو روانی کے ساتھ درست کریں، مثلاً: \"کتنی پاکیزگی سے تیری خوشبو/تقویٰ نے نازل ہو کر انسان کے ابتدائی شباب سے ہم تک پہنچا دیا ہے\"۔ ایک براہِ راست مگر بہتر ترجمہ: \"کتنی پاکیزگی سے تیری زبان نازل ہوئی ہے\nآدمی کے ابتدائی شباب سے!\"۔ HTML مثال: <p>کتنی پاکیزگی سے تیری زبان نازل ہوئی ہے<br>آدمی کے ابتدائی شباب سے!</p>",
+        "translation_quote": "کتنی پاکیزگی سے تیری زبان نیچی انسانیت سے اتری ہے\nآدمی کے ابتدائی شباب سے!"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

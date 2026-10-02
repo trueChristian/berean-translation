@@ -2,7 +2,6 @@
   "article_id": "f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,90 @@
         },
         "total_tokens": 1826
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1485,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1550,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3035
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> stanza 1, line 1–2",
+      "severity": "minor",
+      "source_quote": "'Tis winter now; the fallen snow\n  has left the heavens all coldly clear;",
+      "suggested_fix": "Translate idiomatically and grammatically into Bokmål. For example: \"Nå er det vinter; den falne snøen\n  har gjort himmelen kaldt og klar;\" (preserve line breaks and poem HTML).",
+      "translation_quote": "Nå er det vinter; den falne snø\n  har latt himmelen kaldt og klar bli se;"
+    },
+    {
+      "location": "<div class=\"poem\"> stanza 2, line 3",
+      "severity": "major",
+      "source_quote": "his beauty paints the crimson dawn,",
+      "suggested_fix": "Remove invented word and render the image faithfully. Suggested Bokmål: \"hans skjønnhet maler daggryets røde skjær,\" (preserve line break).",
+      "translation_quote": "hans skjønnhet maler morgengryets røde porte,"
+    },
+    {
+      "location": "<div class=\"poem\"> stanza 2, line 4",
+      "severity": "major",
+      "source_quote": "and clothes each branch with glittering wreaths.",
+      "suggested_fix": "Do not add unrelated words. Translate as a natural idiom: \"og kler hver kvist med glitrende kranser.\"",
+      "translation_quote": "og kler hver kvist med glitrende krans og lem."
+    },
+    {
+      "location": "<div class=\"poem\"> stanza 2, line 2",
+      "severity": "minor",
+      "source_quote": "his life within the keen air breathes;",
+      "suggested_fix": "'keen air' should be reflected as 'bitende' or 'kjølig' rather than 'klar' to keep the connotation. Suggested: \"hans liv i den bitre luft ånder.\"",
+      "translation_quote": "hans liv i den klare luft ånder frem;"
+    },
+    {
+      "location": "<div class=\"poem\"> stanza 3, line 3",
+      "severity": "minor",
+      "source_quote": "home closer draws her circle now,",
+      "suggested_fix": "Correct word order and inflection in Bokmål. Suggested: \"hjemmet trekker nå sin sirkel nærmere,\" (preserve line break).",
+      "translation_quote": "trekker hjemmet sin sirkel nærmere nås,"
+    },
+    {
+      "location": "<div class=\"poem\"> stanza 3, line 4",
+      "severity": "minor",
+      "source_quote": "and warmer glows her light within.",
+      "suggested_fix": "Avoid added adjectives and awkward phrasing. Suggested: \"og varmere gløder lyset der inne.\"",
+      "translation_quote": "og varmere gløder lyset innvendig og sart."
+    },
+    {
+      "location": "<div class=\"poem\"> stanza 4, line 2",
+      "severity": "minor",
+      "source_quote": "as well as summer's joyous rays,",
+      "suggested_fix": "Correct grammar and word order: \"like så sommerens glade stråler;\" or \"liksom sommerens glade stråler.\"",
+      "translation_quote": "likeså som sommerens glade stråler gi;"
+    },
+    {
+      "location": "<div class=\"poem\"> stanza 4, line 3",
+      "severity": "major",
+      "source_quote": "you warmly in your love enfold,",
+      "suggested_fix": "Do not translate to a verb meaning 'lock' (låser). Use an appropriate verb like \"omfavner\" or \"innhyller\": \"du innhyller oss varmt i din kjærlighet,\"",
+      "translation_quote": "du varmer oss i din kjærlighet og låser,"
+    },
+    {
+      "location": "<div class=\"poem\"> stanza 4, line 4",
+      "severity": "minor",
+      "source_quote": "and keep us through life's wintry days.",
+      "suggested_fix": "Preserve 'days' (dager). Suggested: \"og bevarer oss gjennom livets vinterdager.\"",
+      "translation_quote": "og vokter oss gjennom livets vintersti."
     }
   ],
   "id": "30119280b3dc1eefff7e538d9068fe2c",
@@ -69,11 +152,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1ed33a15abc99ca0a5621844be43f6764a1df6e4da098bed1eb0cbfbb0276cbd.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

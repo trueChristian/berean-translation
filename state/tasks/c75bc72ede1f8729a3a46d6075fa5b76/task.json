@@ -2,7 +2,6 @@
   "article_id": "deabdd90-c842-4ed6-ad15-c2fa9870b099",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 7145
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1838,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 960,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6671,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8509
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Paragraph: \"They began to publish verses...\" (source.html third <p> after blockquote) — English book titles left untranslated",
+      "severity": "major",
+      "source_quote": "Hymns of the Heart (1848) and The Passion of Jesus (1852)",
+      "suggested_fix": "Translate or provide conventional Urdu forms for the book titles (preserve italics/HTML). For example: <em>دل کے نغمے (Hymns of the Heart)</em> اور <em>ی‍سوع کا جنون (The Passion of Jesus)</em> — or else transliterate with Urdu script inside the existing <em>...</em> tags. Keep the years unchanged and retain the <em> tags exactly where they are in the HTML.",
+      "translation_quote": "<em>Hymns of the Heart</em> (1848) اور <em>The Passion of Jesus</em> (1852)."
+    },
+    {
+      "location": "Section: Bridges lyrics — third stanza first line (source.html inside Bridges stanza 3)",
+      "severity": "major",
+      "source_quote": "Crown Him the Lord of peace! Whose power a scepter sways,",
+      "suggested_fix": "Correct the mistranslation of 'scepter' (which was rendered as the month 'ستمبر'). Replace the phrase with an accurate Urdu rendering that keeps the poetic sense, preserving HTML tags and line breaks. Suggested Urdu: \"اسے امن کا خداوند قرار دے اور تاج دو! جس کی قوت ایک حکمرانی کی عصا ہلاتی ہے،\" Update the corresponding line in the translation to: \"اسے امن کا خداوند قرار دے اور تاج دو! جس کی قوت ایک حکمرانی کی عصا ہلاتی ہے،\"",
+      "translation_quote": "اسے امن کا خداوند قرار دے اور تاج دو! جس کی قوت ستمبر کو ہلا دیتی ہے،"
+    },
+    {
+      "location": "Multiple locations: book titles, hymns, and metadata left in English (e.g., \"Hymns and Sacred Lyrics\", \"Hymns of the Church\", \"Hymns of the Heart\", \"The Passion of Jesus\", \"Hymns and Sacred Lyrics\", \"Hymns of the Church\", \"A Treasury of Hymn Stories\", \"Diademata\", \"Rise, Glorious Conqueror\", \"The Song of the Seraphs\")",
+      "severity": "major",
+      "source_quote": "Hymns and Sacred Lyrics; Hymns of the Church; A Treasury of Hymn Stories; Diademata; Rise, Glorious Conqueror; The Song of the Seraphs",
+      "suggested_fix": "Translate or provide conventional Urdu renderings (or transliterations in Perso-Arabic script) for all quoted book titles, hymn titles, and the source-note items. Preserve emphasis tags (<em>...</em>) and punctuation/years exactly. Examples: <em>Hymns and Sacred Lyrics</em> → <em>حمد اور مقدس اشعار (Hymns and Sacred Lyrics)</em>; <em>Hymns of the Church</em> → <em>کلیسائی حمد (Hymns of the Church)</em>; <em>A Treasury of Hymn Stories</em> → <em>حمدوں کی کہانیوں کا خزانہ (A Treasury of Hymn Stories)</em>; <em>Diademata</em> may remain in transliterated Greek script but include an Urdu gloss: <em>Diademata (دیادیماٹا)</em>. For hymn titles in running text, translate them as well (for example, \"Rise, Glorious Conqueror\" → \"اٹھو، شاندار فاتح\"). Ensure no quoted substantive prose or metadata remains in English.",
+      "translation_quote": "Multiple instances where original English titles remain in italics or plain English, e.g., <em>Hymns and Sacred Lyrics</em>, <em>Hymns of the Church</em>, <em>A Treasury of Hymn Stories</em>, <em>Diademata</em>, \"Rise, Glorious Conqueror\", \"The Song of the Seraphs\"."
     }
   ],
   "id": "c75bc72ede1f8729a3a46d6075fa5b76",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 62,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/abeb1f35c1949ea978d144c1eae3a8c74b9cda2edc2ef460b0d918ec0851fa83.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "01644cf9abc17411f3b235a99895bb87e8eec445a9ac28e6394d4afb94966251",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

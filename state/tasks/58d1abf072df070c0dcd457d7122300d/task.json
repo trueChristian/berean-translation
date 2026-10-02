@@ -2,7 +2,6 @@
   "article_id": "b37f8111-4563-4b5b-ab9f-1f87bcd2b46a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 6591
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1463,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5997,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7460
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<p class=\"source-note\">…</p>",
+      "severity": "critical",
+      "source_quote": "The article is reprinted by request. It was first printed in The Heartbeat of the Remnant in the Autumn 2019 issue. Previously printed in Earthen Vessels.",
+      "suggested_fix": "Translate this entire source-note into Hebrew, preserving the existing HTML structure and tags. For example replace the English text inside the <p class=\"source-note\">…</p> with a Hebrew rendering while keeping the <em> and <span> tags in place, e.g.: <p class=\"source-note\"><em>המאמר מפורסם מחדש לפי בקשה. הוא פורסם לראשונה ב־</em><span>The Heartbeat of the Remnant</span><em> בגיליון סתיו 2019. פורסם בעבר ב־</em><span>Earthen Vessels</span><em>.</em></p> (Preserve the <span> elements around the publication names and do not change the surrounding tags or attributes.)",
+      "translation_quote": "<p class=\"source-note\"><em>The article is reprinted by request. It was first printed in </em><span>The Heartbeat of the Remnant</span><em> in the Autumn 2019 issue. Previously printed in </em><span>Earthen Vessels</span><em>.</em></p> "
+    },
+    {
+      "location": "<p>...giving the angry army officer a solar panel and a transformer on top of the other things he demanded.</p> — translation sentence",
+      "severity": "minor",
+      "source_quote": "giving the angry army officer a solar panel and a transformer on top of the other things he demanded.",
+      "suggested_fix": "Correct the Hebrew word for 'transformer' to a standard term. Replace the current word במשנּה (which contains a typographic/nikkud error) with either 'משנה-מתח' or 'טרנספורמטור' depending on house style. Example: 'לתת לו פאנל סולארי ומשנה־מתח על גבי שאר הדברים שדרש.'",
+      "translation_quote": "\"על ידי מתן פאנל סולארי ומשנּה מעל ודברים נוספים שדורש.\""
+    },
+    {
+      "location": "<p>\"I lug heavy buckets of water to that spot\" — translation paragraph about watering backyard patch",
+      "severity": "minor",
+      "source_quote": "I lug heavy buckets of water to that spot and sometimes take all five of my children on the city buses to visit yet another flower garden in search of more flowers.",
+      "suggested_fix": "Consider using a stronger verb to match 'lug' (conveying effort). Replace 'אני מזיזה דליים כבדים של מים' with 'אני סוחבת/נושאת דליים כבדים של מים' to more precisely convey the sense of effort. Preserve surrounding punctuation and sentence order.",
+      "translation_quote": "\"אני מזיזה דליים כבדים של מים לאותו מקום...\""
+    },
+    {
+      "location": "<p>\"It’s cold (45 degrees or colder in the morning).\" — translation of temperature parenthesis",
+      "severity": "minor",
+      "source_quote": "It’s cold (45 degrees or colder in the morning).",
+      "suggested_fix": "Clarify the temperature unit in Hebrew. Add 'פרנהייט' or convert to Celsius to avoid ambiguity. For example: '(45°F או פחות בבוקר)' or '(כ־7°C או פחות בבוקר)'.",
+      "translation_quote": "\"קריר (45 מעלות או פחות בבוקר).\""
     }
   ],
   "id": "58d1abf072df070c0dcd457d7122300d",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 80,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8a0658267fa9eaeafccc26ac6637cde2343d272e4862413edce341f1010a3f2c.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "810e77f1e38c86de9278d0fba622dcb0789774ee530b139604475db68ad15426",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

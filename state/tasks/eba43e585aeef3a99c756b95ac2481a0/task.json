@@ -2,7 +2,6 @@
   "article_id": "a42c5719-aea1-47ed-abad-ed0cd2571382",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,41 @@
         },
         "total_tokens": 4470
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1025,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4003,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5028
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Paragraph beginning ““Sal hy Sondag by die kerk wees?” ...” (translation paragraph containing “trok”)",
+      "severity": "major",
+      "source_quote": "“Will he be in church on Sunday?” interjected Dirk, stopping the travels of his tractor in his concern to hear the answer.",
+      "suggested_fix": "Replace the incorrect vehicle word with the faithful rendering of the source. For example, change “trok” to “trekker” or “traktor” so the sentence reads: “…en die reis van sy trekker/traktor gestop omdat hy die antwoord wil hoor.” Preserve punctuation and HTML structure.",
+      "translation_quote": "“Sal hy Sondag by die kerk wees?” het Dirk ingegrap en die reis van sy trok gestop omdat hy die antwoord wil hoor."
+    },
+    {
+      "location": "<figure> alt attribute",
+      "severity": "minor",
+      "source_quote": "A glass jar spilling wrapped mints beside a potted plant",
+      "suggested_fix": "Use a target-language word that matches “glass jar” (a jar, not a bottle). For example, change “glasbottel” to “glasbottel/glaspot” or preferably “glaspot” so the alt reads: “ʼn glaspot wat toegerolde pepermuntjies langs ’n potplant uitstrooi”. Preserve the exact alt attribute structure.",
+      "translation_quote": "ʼn Glasbottel wat toegerolde pepermuntjies langs ’n potplant uitstrooi"
     }
   ],
   "id": "eba43e585aeef3a99c756b95ac2481a0",
@@ -69,11 +103,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/75a969c45055c429de95d7ac7fb5ad9ae24609ae4e6f17660c8fb6226abf6c70.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "cb49d9b32a113d5c0bf30e44cdec3451c0a5ce43ad2cf97a5830259f43dd1f79",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

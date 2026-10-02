@@ -2,7 +2,6 @@
   "article_id": "8f996405-d870-4074-947b-35190faad643",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 2033
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1343,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 960,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1566,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2909
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> stanza 4 lines 1-2",
+      "severity": "major",
+      "source_quote": "How gleam thy watch-fires through the night\nwith never-fainting ray!",
+      "suggested_fix": "Translate \"watch-fires\" as a form of watch/fires/beacons rather than \"vakttorn\" (watch-towers). For example: \"Hur glimma vakternas eldar genom natten\nmed ett aldrig sviktande sken!\" or \"Hur glimma dina vaktseldar genom natten\nmed en aldrig sviktande stråle!\" Preserve the two-line structure and the sense of light/beacons rather than towers.",
+      "translation_quote": "Hur glimma dina vakttorn genom natten\nmed en aldrig sviktande stråle!"
+    },
+    {
+      "location": "<div class=\"poem\"> stanza 4 line 4",
+      "severity": "minor",
+      "source_quote": "to meet the dawning day!",
+      "suggested_fix": "Correct the Swedish wording to the conventional phrase \"daggrynningens ljus\" or \"daggryningens sken\". For example: \"för att möta daggrynningens ljus!\"",
+      "translation_quote": "för att möta daggroendets ljus!"
+    },
+    {
+      "location": "<div class=\"poem\"> stanza 5 line 2",
+      "severity": "minor",
+      "source_quote": "in vain the drifting sands:",
+      "suggested_fix": "Use a more idiomatic Swedish rendering of \"drifting sands\", for example \"de drivande sandarna\" or \"de drivande sanddynerna\". Suggested: \"förgäves de drivande sandarna:\"",
+      "translation_quote": "förgäves de driva sandarna:"
     }
   ],
   "id": "74e421f6394705eb5603f3281ca02828",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d3ca99062c7b8454e6587c9b32705a7d35c0d70cbcf6c1f6f8eaefeb762c95bf.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "63f32eb5571bce4d8b82e7103273aaf0a3a4bf91449228454d16a781256867bd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

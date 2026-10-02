@@ -2,7 +2,6 @@
   "article_id": "8f996405-d870-4074-947b-35190faad643",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 2128
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1215,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1597,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2812
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> — stanza 1, line 2",
+      "severity": "minor",
+      "source_quote": "The true thy chartered freemen are / of every age and clime:",
+      "suggested_fix": "Translate \"chartered freemen\" as a phrase that conveys the legal/privileged status in conventional Swahili, e.g. \"wanaopewa huru za kifungu/charter\" or \"wanaohifadhiwa kama raia walioteuliwa\". A concise suggestion: \"wao ni wenye haki za chombo kutoka kila umri na eneo:\". Preserve the two-line stanza break and HTML tags.",
+      "translation_quote": "Wa kweli ni raia waliochaguliwa wako / wa kila umri na mkoa:"
+    },
+    {
+      "location": "<div class=\"poem\"> — stanza 4, line 1",
+      "severity": "major",
+      "source_quote": "How gleam thy watch-fires through the night",
+      "suggested_fix": "\"Watch-fires\" refers to sentry/guard fires or beacon fires. Replace the current literal/awkward \"Jivuni vako vya kuangalia\" with an idiomatic rendering such as \"Vituo vyako vya mwanga wa walinzi vinaangaza usiku\" or \"moto/mishumaa yako ya wachungaji yanaangaza usiku\". Keep the stanza line structure and HTML tags.",
+      "translation_quote": "Jivuni vako vya kuangalia vinaangaza kupitia usiku"
+    },
+    {
+      "location": "<div class=\"poem\"> — stanza 4, line 1-2",
+      "severity": "minor",
+      "source_quote": "with never-fainting ray!",
+      "suggested_fix": "The phrase means \"with an unfailing/undimmed light\". Replace \"miale isiyoyeyuka\" (literally \"non-melting rays\") with a natural phrase such as \"kwa mwanga usiozimika\" or \"kwa miale isiyozimika\". Keep stanza breaks and tags.",
+      "translation_quote": "kwa miale isiyoyeyuka!"
+    },
+    {
+      "location": "<div class=\"poem\"> — stanza 5, line 2",
+      "severity": "major",
+      "source_quote": "in vain the drifting sands:",
+      "suggested_fix": "The phrase means \"drifting sands\" (sands moved by wind/tide). \"mtondo unaotembea kwa upepo\" is incorrect. Use \"mchanga unaotembea/unaorushwa na upepo\" or \"mchanga unaoelea\". Example: \"kwa bure mchanga unaotembea:\". Preserve stanza and HTML tags.",
+      "translation_quote": "kwa bure mtondo unaotembea kwa upepo:"
     }
   ],
   "id": "fe9ecf02703a32738aa77ca0ae11d544",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 81,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d3ca99062c7b8454e6587c9b32705a7d35c0d70cbcf6c1f6f8eaefeb762c95bf.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "63f32eb5571bce4d8b82e7103273aaf0a3a4bf91449228454d16a781256867bd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

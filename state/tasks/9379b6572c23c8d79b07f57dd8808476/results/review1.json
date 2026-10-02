@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "622b665c-d017-41f7-8974-90a1fe97d0a7",
+    "response_id": "chatcmpl-EUUM8WBfu2Oq0uVbSminNQ9BWxlld",
+    "usage": {
+      "completion_tokens": 1304,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12634,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13938
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.section / translation.section",
+        "severity": "major",
+        "source_quote": "INSPIRATIONS FOR YOUTH",
+        "suggested_fix": "Translate the section name into contemporary Swedish (preserve case and placement). For example: \"INSPIRATION FÖR UNGA\" or simply \"Inspiration för ungdom\" depending on house style. Replace the translation.section value with the chosen Swedish rendering.",
+        "translation_quote": "INSPIRATIONS FOR YOUTH"
+      },
+      {
+        "location": "source.title / translation.title",
+        "severity": "major",
+        "source_quote": "A Christ-Centered Courtship Series",
+        "suggested_fix": "Translate the article title into contemporary Swedish, preserving sense and theological emphasis. For example: \"En Kristuscentrerad uppvaktning — serie\" or \"En Kristuscentrerad courtship-serie\" depending on preferred terminology. Replace the translation.title value with the chosen Swedish rendering.",
+        "translation_quote": "A Christ-Centered Courtship Series"
+      },
+      {
+        "location": "source.subtitle / translation.subtitle",
+        "severity": "major",
+        "source_quote": "The Preparation Sleep",
+        "suggested_fix": "Translate the subtitle into contemporary Swedish. For example: \"Förberedelsesömnen\" or \"Preparationssömnen\" (match article body usage). Replace the translation.subtitle value with the Swedish rendering.",
+        "translation_quote": "The Preparation Sleep"
+      },
+      {
+        "location": "source.html — h2 (opening of article) / translation.html — h2",
+        "severity": "major",
+        "source_quote": "<h2>The Preparation Sleep.</h2>",
+        "suggested_fix": "Translate this heading in the article HTML to Swedish to match the rest of the translation. For example: <h2>Preparationssömnen.</h2> or <h2>Förberedelsesömnen.</h2>. Preserve the <h2> tag and punctuation.",
+        "translation_quote": "<h2>The Preparation Sleep.</h2>"
+      },
+      {
+        "location": "source.html — article-note (publication title) / translation.html — article-note",
+        "severity": "minor",
+        "source_quote": "<em>After printing all five articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet.</em>",
+        "suggested_fix": "Translate the full sentence and render the publication title according to house style. If the publication title should remain in English as a proper name, keep it but mark it as such; otherwise provide a Swedish rendering in italics or a parenthetical translation. Example: <em>Efter att ha publicerat alla fem artiklar i <em>The Heartbeat of the Remnant</em> kommer vi att ge ut dem i ett häfte.</em> or <em>Efter att ha publicerat alla fem artiklar i <em>Remnantens hjärtslag</em> kommer vi ...</em> Preserve the existing <em> tags and punctuation.",
+        "translation_quote": "<em>A Christ-centered Courtship är en serie budskap ... Efter att ha tryckt alla fem artiklar i </em>The Heartbeat of the Remnant<em> publicerar vi dem i ett häfte.</em>"
+      },
+      {
+        "location": "source.html — first paragraph translation ('hovmand')",
+        "severity": "minor",
+        "source_quote": "\"A Christ-centered Courtship is a series of messages on godly courtship preached by Paul Hershberger.\"",
+        "suggested_fix": "Consider a more idiomatic Swedish rendering for 'courtship'. Replace 'hovmand' with a standard contemporary term such as 'uppvaktning' or the established loanword 'courtship' if the publication uses it. For example: \"En Kristuscentrerad uppvaktning är en serie budskap om gudfruktig uppvaktning...\" Preserve the surrounding HTML and tags.",
+        "translation_quote": "\"A Christ-centered Courtship är en serie budskap om gudfruktig hovmand...\""
+      }
+    ],
+    "passed": false,
+    "score": 65
+  }
+}

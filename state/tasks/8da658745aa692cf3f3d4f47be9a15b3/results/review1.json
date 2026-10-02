@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "125ad194-b072-4db5-8d89-36da6baf4b28",
+    "response_id": "chatcmpl-EUULCDLGm7tsmXunEmM93THeuunI4",
+    "usage": {
+      "completion_tokens": 1001,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13447,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 14448
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.title",
+        "severity": "major",
+        "source_quote": "A Christ-Centered Courtship Series",
+        "suggested_fix": "Translate the English title into Hindi, preserving it as the article title in the translation field. Example: \"एक मसीह-केंद्रित प्रेम-परिचय श्रृंखला\" (or another idiomatic Hindi rendering chosen by the editor). Do not leave the title in English.",
+        "translation_quote": "A Christ-Centered Courtship Series"
+      },
+      {
+        "location": "source.section",
+        "severity": "minor",
+        "source_quote": "INSPIRATIONS FOR YOUTH",
+        "suggested_fix": "Translate the section name into contemporary standard Hindi. For example: \"युवा प्रेरणाएँ\" or \"युवा के लिए प्रेरणाएँ\" (choose the preferred idiom).",
+        "translation_quote": "INSPIRATIONS FOR YOUTH"
+      },
+      {
+        "location": "source.html: first paragraph (article-note)",
+        "severity": "major",
+        "source_quote": "After printing all five articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet.",
+        "suggested_fix": "Translate the publication title phrase so the whole sentence is in Hindi. If the publication title should remain as a title, render it in Hindi script (transliteration) or translate it according to the publisher's house style. Example: \"सभी पाँच लेखों को 'द हार्टबीट ऑफ़ द रेम्नैंट' में छापने के बाद, हम इन्हें एक पुस्तिका के रूप में प्रकाशित करेंगे।\" (or translate the publication's title into Hindi if there is an established Hindi title). Ensure the inner title is not left in unaltered English unless house style requires it; if kept in English, it still must be presented in Devanagari or be clearly marked per publisher rules.",
+        "translation_quote": "... सभी पांच लेखों को </em>The Heartbeat of the Remnant<em>, में छापने के बाद ..."
+      },
+      {
+        "location": "source.html paragraph: \"Each animal had a male and a female, but he was the only one like him.\" (Genesis context; Genesis 2:20)",
+        "severity": "critical",
+        "source_quote": "\"Each animal had a male and a female, but he was the only one like him.\"",
+        "suggested_fix": "Correct the mistranslation that introduced negation. The translation currently reads: \"हर पशु का न पुरूष था न ही स्त्री, पर वह अकेला अपना जैसा था,\" which incorrectly says animals had neither male nor female. It should convey that every animal had both a male and a female, while Adam was unique. Suggested Hindi rendering: \"हर पशु का नर और मादा दोनों थे, पर वह अकेला अपना जैसा था।\" Replace the incorrect sentence in the corresponding paragraph, preserving existing HTML tags and punctuation.",
+        "translation_quote": "\"हर पशु का न पुरूष था न ही स्त्री, पर वह अकेला अपना जैसा था।\""
+      }
+    ],
+    "passed": false,
+    "score": 40
+  }
+}

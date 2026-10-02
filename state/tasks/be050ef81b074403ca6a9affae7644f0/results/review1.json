@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "af9d9611-9db3-41ce-a6a1-22f65898ef6a",
+    "response_id": "chatcmpl-EUUKEIkzlzdj9hweu2hTP7laAcbhH",
+    "usage": {
+      "completion_tokens": 934,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1577,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2511
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> — stanza 2, line 3 (\"one working band\")",
+        "severity": "minor",
+        "source_quote": "one working band, one harvest-song,",
+        "suggested_fix": "Replace \"одна трудящаяся толпа\" with a phrase that better preserves the collective, organized sense of \"band\" (not the negative connotation of \"толпа\"). Suggested options: \"одна работная дружина\", \"одна труженическая орава\", or simply \"одно работающее братство\" depending on the desired tone. Preserve surrounding HTML and line breaks.",
+        "translation_quote": "одна трудящаяся толпа, одна песнь жатвы,"
+      },
+      {
+        "location": "<div class=\"poem\"> — stanza 1, line 3 (\"The true thy chartered freemen are\")",
+        "severity": "minor",
+        "source_quote": "The true thy chartered freemen are of every age and clime:",
+        "suggested_fix": "\"Chartered freemen\" carries the sense of enfranchised, rights-bearing members. The translation \"Истинно свободны в нём твои граждане\" communicates freedom but loses the legal/charter nuance. Consider: \"Истинными твоими уставными гражданами являются\" or \"Истинные твои уставные граждане всех времён и климата\" or more natural Russian: \"Истинные твои уставные граждане всех времён и стран:\". Keep punctuation and line breaks.",
+        "translation_quote": "Истинно свободны в нём твои граждане всех времен и земель:"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "649e2175-bdae-4354-9901-f16bc0323acb",
+    "response_id": "chatcmpl-EUUKfF6oLaPaibhcMtTGYwb0BX641",
+    "usage": {
+      "completion_tokens": 966,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6845,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7811
+    }
+  },
+  "received_at": "2026-10-02T10:04:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html | paragraph 3 (after figure) — sentence: \"Winter is the season of profound, persistent cold that drives the frost deeper and thickens the ice on the ponds.\"",
+        "severity": "minor",
+        "source_quote": "Winter is the season of profound, persistent cold that drives the frost deeper and thickens the ice on the ponds.",
+        "suggested_fix": "Replace the mistranslated phrase with an idiomatic Urdu rendering that preserves the sense: e.g. \"سردی ایک ایسا موسم ہے جس میں گہری اور مستقل ٹھنڈک ہوتی ہے جو برف کو مزید گہرا کر دیتی ہے اور تالابوں پر برف کو گاڑھا کر دیتی ہے۔\" Ensure HTML and surrounding tags remain unchanged.",
+        "translation_quote": "سردی ایک ایسا موسم ہے جس میں گہری اور مستقل ٹھنڈک ہوتی ہے جو پِاہنے کو مزید سخت کرتی ہے اور تالابوں پر برف جمادیتی ہے۔"
+      },
+      {
+        "location": "source.html | paragraph 2 under first long paragraph — phrase: \"Winter Wonderland\" (song title)",
+        "severity": "minor",
+        "source_quote": "Winter Wonderland",
+        "suggested_fix": "Either translate the song title into Urdu quotes or mark as an unchanged English title consistently. Suggested Urdu rendering: \"ونٹر وُنڈرلینڈ\" (اگر عنوان کو انگریزی رسمِ الخط میں چھوڑنا ضروری ہو تو ایسا برقرار رکھیں). Keep surrounding HTML intact.",
+        "translation_quote": "Winter Wonderland"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

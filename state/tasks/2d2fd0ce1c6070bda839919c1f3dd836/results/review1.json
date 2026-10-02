@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e28d1a57-32a6-450d-9d27-f87b19b20396",
+    "response_id": "chatcmpl-EUUK38HFHeNc9KZiUq2vFgLaDJy6U",
+    "usage": {
+      "completion_tokens": 1174,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7492,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8666
+    }
+  },
+  "received_at": "2026-10-02T10:04:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing Ephesians 5:27 (source.html near: The apostle Paul says that Jesus is coming back for “. . .a glorious church, not having spot, or wrinkle, or any such thing; but that it should be holy and without blemish” (Eph. 5:27).)",
+        "severity": "critical",
+        "source_quote": "“. . .a glorious church, not having spot, or wrinkle, or any such thing; but that it should be holy and without blemish” (Eph. 5:27).",
+        "suggested_fix": "Translate the quoted Scripture so it accurately reflects “church” (kerk), not “body”. For example: “„...een heerlijke kerk, zonder vlek of rimpel of iets dergelijks; maar dat zij heilig en onberispelijk mag zijn” (Ef. 5:27). Replace the current translation of the verse with this corrected Dutch rendering inside the same paragraph and with the same verse reference.",
+        "translation_quote": "“...een verheerlijkt lichaam, zonder vlek of rimpel of iets dergelijks; maar dat het heilig en onbesmet mag zijn” (Ef. 5:27)."
+      },
+      {
+        "location": "Paragraph containing sentence: \"No one is interested in a defeated Gospel, no one except those who are living in defeat because they have chosen the things of this world over God and His Word.\"",
+        "severity": "critical",
+        "source_quote": "No one is interested in a defeated Gospel, no one except those who are living in defeat because they have chosen the things of this world over God and His Word.",
+        "suggested_fix": "Correct the mistranslation that flips the meaning (“living in defeat” became “in victory”). A faithful Dutch rendering would be: “Niemand is geïnteresseerd in een verslagen evangelie, niemand behalve degenen die in nederlaag leven omdat zij de dingen van deze wereld boven God en Zijn Woord hebben gekozen.” Replace the current sentence with this corrected version.",
+        "translation_quote": "Niemand is geïnteresseerd in een verslagen evangelie, niemand behalve degenen die in overwinning leven omdat zij de dingen van deze wereld boven God en Zijn Woord hebben gekozen."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

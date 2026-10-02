@@ -2,7 +2,6 @@
   "article_id": "042fce50-3724-4100-b397-093c6d081e89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 3481
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1971,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1216,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3003,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4974
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<p>…After the files are uploaded, the printing press will print 6,000 copies in a little over 12 hours.…</p>",
+      "severity": "major",
+      "source_quote": "After the files are uploaded, the printing press will print 6,000 copies in a little over 12 hours.",
+      "suggested_fix": "Translate the temporal phrase faithfully to match the source: «بعد رفع الملفات، ستطبع الماكينة 6000 نسخة في قليل أكثر من 12 ساعة.» (or «في أكثر من 12 ساعة بقليل») — preserve the meaning “a little over 12 hours.”",
+      "translation_quote": "بعد رفع الملفات، ستطبع الماكينة 6000 نسخة في أقل من 12 ساعة."
+    },
+    {
+      "location": "<p>…The state church government of Zürich had ordered parents to have their infants baptized…</p>",
+      "severity": "minor",
+      "source_quote": "The state church government of Zürich had ordered parents to have their infants baptized…",
+      "suggested_fix": "Correct the redundant/awkward rendering while preserving meaning. Use a clearer Arabic phrasing such as: «أصدرت حكومة كنيسة الولاية في زيورخ أمراً بأن يعمّد الآباء أطفالهم الرضّع…» — keep structure and content intact.",
+      "translation_quote": "كانت حكومة الكنيسة الحكومية في زيورخ قد أصدرت أمراً للأهالي بتعميد رضّعهم…"
+    },
+    {
+      "location": "<p>…A small group of radical Christians quietly gathered in the home of Felix Mantz in Zürich, Switzerland.…</p>",
+      "severity": "minor",
+      "source_quote": "A small group of radical Christians quietly gathered in the home of Felix Mantz in Zürich, Switzerland.",
+      "suggested_fix": "Preserve the same proper-name spelling consistently as in the source. The English source uses both \"Felix Mantz\" and later (typo) \"Feliz Mantz.\" Reproduce the same spellings in the same places (or, better, keep a single consistent transliteration matching the source's primary spelling). For example: use «فيليكس مانتز» consistently for both occurrences if the authoritative source intended \"Felix.\"",
+      "translation_quote": "جمعت مجموعة صغيرة من المسيحيين المتشددين بهدوء في بيت فيليكس مانتز في زيورخ بسويسرا.\n…أخذ فيليز مانتز وكونراد غريبل وجورج بلوروك…"
+    },
+    {
+      "location": "<p>…A Glorious Church by Barry Grant and Joy in the Crevices by Sheryl Zeiset were both first printed in 2019.…</p>",
+      "severity": "minor",
+      "source_quote": "A Glorious Church by Barry Grant and Joy in the Crevices by Sheryl Zeiset were both first printed in 2019.",
+      "suggested_fix": "Preserve the authors' names as in the English source (proper names). Either leave the Latin-script names or ensure accurate Arabic transliteration. Suggested fixes: «\"A Glorious Church\" لِـ Barry Grant و\"Joy in the Crevices\" لِـ Sheryl Zeiset» or correct Arabic transliterations such as «باري غرانت» and «شيريل زايسِت» depending on the intended spelling. Do not introduce misspellings (e.g., «بارري غرانت»).",
+      "translation_quote": "نُشِر كل من \"كنيسة مجيدة\" لبارري غرانت و\"فرح في الشقوق\" لشيريل زيزت أولاً عام 2019."
     }
   ],
   "id": "62201960d3afb40c494d9d985f9d27cb",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/901933390bbab68b30ba65d224e53d69f0af822b49f3cdb694876c259f4bd250.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a8b13667ad0bdee6e94fb75c94d958fc5f824dbcd185202cd5cc7be6e9274a4c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

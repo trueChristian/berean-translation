@@ -2,7 +2,6 @@
   "article_id": "f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 2065
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 888,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1534,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2422
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> — 3rd stanza, line 1–2",
+      "severity": "minor",
+      "source_quote": "And though abroad the sharp winds blow,\n  and skies are chill, and frosts are keen,",
+      "suggested_fix": "Reformuler pour un français plus naturel et fluide, en conservant le sens : remplacer le texte du 3e quatrain par exemple par «Et bien que dehors soufflent des vents âpres,\n  que les cieux soient froids et que les gels soient mordants,». Conserver les balises HTML existantes et remplacer uniquement le contenu textuel à l'intérieur du <p> correspondant.",
+      "translation_quote": "Et bien que dehors soufflent les vents aigus,\n  et que les cieux soient froids, et que les gels soient mordants,"
+    },
+    {
+      "location": "<div class=\"poem\"> — 3rd stanza, line 3–4",
+      "severity": "minor",
+      "source_quote": "home closer draws her circle now,\n  and warmer glows her light within.",
+      "suggested_fix": "Rendre la phrase idiomatique en français tout en respectant le sens : par exemple «le foyer resserre désormais son cercle,\n  et sa lumière y brille plus chaleureusement.» Remplacer uniquement le texte à l'intérieur du même <p>.",
+      "translation_quote": "le foyer resserre maintenant son cercle,\n  et plus chaleureuse brille sa lumière à l'intérieur."
+    },
+    {
+      "location": "<div class=\"poem\"> — 2nd stanza, line 1",
+      "severity": "minor",
+      "source_quote": "And yet God's love is not withdrawn;",
+      "suggested_fix": "Petite amélioration stylistique pour fluidité : remplacer «Et pourtant l'amour de Dieu n'est pas retiré ;» par «Pourtant l'amour de Dieu ne se retire pas ;». Conserver les balises HTML et ne remplacer que le texte du vers indiqué.",
+      "translation_quote": "Et pourtant l'amour de Dieu n'est pas retiré ;"
+    }
+  ],
+  "finished_at": "2026-10-02T10:04:51+00:00",
   "id": "8db4156def7838ef068c73094a1a92d4",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "fra",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1ed33a15abc99ca0a5621844be43f6764a1df6e4da098bed1eb0cbfbb0276cbd.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

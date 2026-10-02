@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "286b7212-6e3c-4207-b26b-d67cea004572",
+    "response_id": "chatcmpl-EUUJtonEF8xEAjKGNEP95eblSYpXL",
+    "usage": {
+      "completion_tokens": 1448,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4530,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5978
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph 2 (\"Two rows from the front of the auditorium...\")",
+        "severity": "major",
+        "source_quote": "Two rows from the front of the auditorium, Dirk spotted Brother Silas’ white hair and his black vest.",
+        "suggested_fix": "Translate \"auditorium\" and the spatial relation accurately. For example: «Δύο σειρές από το μπροστινό μέρος της αίθουσας, ο Dirk είδε τα λευκά μαλλιά του Αδελφού Silas και το μαύρο γιλέκο του.» This preserves that Dirk is seated two rows back from the front of the auditorium/assembly hall.",
+        "translation_quote": "Δύο σειρές μπροστά από την εξέδρα, ο Dirk είδε τα λευκά μαλλιά του Αδελφού Silas και το μαύρο γιλέκο του."
+      },
+      {
+        "location": "source.html — paragraph beginning with ““I’m sorry. I didn’t think about it like that,” Dirk sniveled...”",
+        "severity": "minor",
+        "source_quote": "“I’m sorry. I didn’t think about it like that,” Dirk sniveled, using his sleeve as a handkerchief.",
+        "suggested_fix": "Correct the verb to convey \"sniveled\" (i.e., sobbing/sniffling), not the unrelated verb \"smelled.\" Use a Greek verb/phrase matching the childish sobbing action, e.g. «“Συγγνώμη. Δεν το σκέφτηκα έτσι,” γόγγυσε ο Dirk, χρησιμοποιώντας το μανίκι του ως μαντήλι.» or «...είπε ο Dirk κλαίγοντας, χρησιμοποιώντας το μανίκι του ως μαντήλι.»",
+        "translation_quote": "«Συγγνώμη. Δεν το σκέφτηκα έτσι», μύρισε ο Dirk, χρησιμοποιώντας το μανίκι του ως μαντήλι."
+      },
+      {
+        "location": "source.html — final paragraph (\"He then reached into his vest pocket and pulled out a mint. A Lifesaver, to be exact.\")",
+        "severity": "minor",
+        "source_quote": "He then reached into his vest pocket and pulled out a mint. A Lifesaver, to be exact.",
+        "suggested_fix": "Avoid redundant phrasing and keep the simple sequence of actions. For example: «Έπειτα έβγαλε μια μέντα από την τσέπη του γιλέκου. Μια Lifesaver, για να είμαστε ακριβείς.» (or translate the product name if preferred).",
+        "translation_quote": "Έπειτα έβγαλε μια μέντα από την τσέπη του γιλέκου και την τράβηξε έξω. Μια Lifesaver, για να είμαστε ακριβείς."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

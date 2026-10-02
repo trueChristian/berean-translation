@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "747beb3f-e724-4b20-9d8c-432c2b7a379a",
+    "response_id": "chatcmpl-EUUKjnkCHJIXpMs5sMUVSpQl4hMy1",
+    "usage": {
+      "completion_tokens": 1027,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1542,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2569
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Fourth stanza, line 4 (final line of poem) — <div class=\"poem\"> stanza 4",
+        "severity": "major",
+        "source_quote": "and keep us through life's wintry days.",
+        "suggested_fix": "Terjemahkan frasa ini agar setia pada arti bahasa Inggris: \"menjaga kami selama hari-hari musim dingin dalam hidup ini.\" Misalnya: \"dan menjaga kami selama hari-hari musim dingin dalam hidup ini.\"",
+        "translation_quote": "dan menjaga kami selama hari-hari musim dinginku hidup ini."
+      },
+      {
+        "location": "<figure> <img> alt attribute",
+        "severity": "minor",
+        "source_quote": "A lone bare tree in a snowy field",
+        "suggested_fix": "Gunakan susunan kata yang lebih alami dalam Bahasa Indonesia. Misalnya: \"Sebuah pohon telanjang sendirian di ladang bersalju\" atau lebih ringkas \"Sebuah pohon telanjang sendirian di ladang bersalju.\" Gantilah atribut alt sesuai contoh tanpa mengubah tag atau atribut lainnya.",
+        "translation_quote": "Sebuah pohon telanjang di ladang bersalju sendirian"
+      },
+      {
+        "location": "Third stanza, line 1 — <div class=\"poem\"> stanza 3",
+        "severity": "minor",
+        "source_quote": "And though abroad the sharp winds blow,",
+        "suggested_fix": "Pertimbangkan menyusun ulang untuk kelancaran idiomatik Bahasa Indonesia: misalnya \"Dan meskipun di luar angin tajam berhembus,\" bisa diganti dengan \"Dan meskipun di luar angin tajam terus berhembus,\" namun terjemahan saat ini dapat diterima. Tidak perlu mengubah struktur HTML.",
+        "translation_quote": "Dan meskipun di luar angin tajam berhembus,"
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "08f7a53f-42eb-42e2-854e-c77c0d60ea1a",
+    "response_id": "chatcmpl-EUUK9n5joaDfVSYqM58iJSpfcfKqt",
+    "usage": {
+      "completion_tokens": 961,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6087,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7048
+    }
+  },
+  "received_at": "2026-10-02T10:04:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...le Southern Highlands of Tanzania.</p>",
+        "severity": "minor",
+        "source_quote": "We now live in an easier place; the Southern Highlands of Tanzania.",
+        "suggested_fix": "Translate or localize the region name into standard contemporary Italian and preserve meaning. For example: “le Highlands meridionali della Tanzania” or “l'altopiano meridionale della Tanzania”. Replace the English phrase but keep it inside the same paragraph and tags.",
+        "translation_quote": "Ora viviamo in un luogo più facile: le Southern Highlands della Tanzania."
+      },
+      {
+        "location": "<p>...Fa freddo (45 degrees or less in the morning).</p>",
+        "severity": "minor",
+        "source_quote": "It’s cold (45 degrees or colder in the morning).",
+        "suggested_fix": "Keep the original numeric temperature wording but avoid implying a unit change. Either keep the original ambiguous wording (e.g. “45 degrees o meno”) or specify the unit as in the English source only if known. Suggested fix: “Fa freddo (45 gradi o meno al mattino).” If the publication uses Celsius, add “(45 °F/≈7 °C)” only if the editor confirms unit conversion. Implement the change inside the same paragraph and tags.",
+        "translation_quote": "Fa freddo (45 gradi o meno al mattino)."
+      },
+      {
+        "location": "<p>...peace lilies...</p>",
+        "severity": "minor",
+        "source_quote": "There are peace lilies, roses, hibiscus, and other bright flowers blooming, and succulents growing in delightful little pots.",
+        "suggested_fix": "Correct the Italian name of 'peace lilies' to a standard contemporary form. Replace “spatafilli” with “spatifilli” (or “spathiphyllum/spatifillo” per houseplant usage). Keep the rest of the sentence unchanged and inside the same paragraph and tags.",
+        "translation_quote": "Ci sono spatafilli, rose, ibischi e altri fiori vivaci in fiore, e piante succulente che crescono in deliziosi vasetti."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

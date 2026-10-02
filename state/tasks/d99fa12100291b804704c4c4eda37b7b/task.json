@@ -2,7 +2,6 @@
   "article_id": "5a87c21f-cce9-4033-8a43-5458311bc7f0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 14191
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1033,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13910,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14943
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html — first paragraph (magazine title in article-note)",
+      "severity": "major",
+      "source_quote": "After printing all five articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet.",
+      "suggested_fix": "Translate the magazine title into Arabic and preserve the surrounding <em> tags and HTML structure. For example: After printing all five articles in </em>«نبض الباقين»<em>, we will publish them in a booklet. (Replace the English title only, keep the original <em> tags in place.)",
+      "translation_quote": "بعد طباعة المقالات الخمس كلها في </em>The Heartbeat of the Remnant<em>، سننشرها في كتيّب."
+    },
+    {
+      "location": "source.section (metadata)",
+      "severity": "major",
+      "source_quote": "INSPIRATIONS FOR YOUTH",
+      "suggested_fix": "Translate the section string into Arabic in the translation metadata. For example: \"إلهامات للشباب\" (replace the English section value with the Arabic equivalent while leaving the field name unchanged).",
+      "translation_quote": "INSPIRATIONS FOR YOUTH"
+    },
+    {
+      "location": "second figure alt attribute (image 2) in source.html",
+      "severity": "major",
+      "source_quote": "A three-panel collage of winter trees and a snowy rural scene",
+      "suggested_fix": "Correct the Arabic alt text to faithfully reflect the English alt. Replace the current Arabic alt with a direct translation that preserves meaning, for example: \"تجميعة من ثلاث صور لأشجار شتوية ومشهد ريفي مغطى بالثلوج\". Preserve the img tag and its attributes; change only the alt value.",
+      "translation_quote": "مجموعة صور ثلاثية للّبنات الشتوية ومشهد ريفي مغطى بالثلج"
     }
   ],
   "id": "d99fa12100291b804704c4c4eda37b7b",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 80,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0a1dcaa5cafea68d0933d4307f622a54749ce00327ed437d6329e9b9b2a36c0b.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "403dccfee978e00bf41c2daf2df29e8cfa526a0ef6c19371773e58abc48734b6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

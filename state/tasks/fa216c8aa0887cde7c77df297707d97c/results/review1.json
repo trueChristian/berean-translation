@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1d3526d8-2222-4f97-8d1a-8615dd8f088d",
+    "response_id": "chatcmpl-EUUK6IyiUZFmqgNABvhwQRVjHInnY",
+    "usage": {
+      "completion_tokens": 759,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3802,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4561
+    }
+  },
+  "received_at": "2026-10-02T10:04:52+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph 2 (mint identification)",
+        "severity": "minor",
+        "source_quote": "Lifesavers, to be exact.",
+        "suggested_fix": "Standardize the treatment of the brand name and make plurality consistent. For example: replace \"Genauer gesagt Lifesavers.\" with \"Genauer gesagt: Lifesavers.\" or \"Genauer gesagt: Lifesaver-Bonbons.\"",
+        "translation_quote": "Genauer gesagt Lifesavers."
+      },
+      {
+        "location": "translation.section / source.section",
+        "severity": "minor",
+        "source_quote": "Children’s Corner",
+        "suggested_fix": "Use the more common single-word German equivalent for a section heading. For example replace \"Kinder-Ecke\" with \"Kinderecke\" to match typical German magazine section styling.",
+        "translation_quote": "Kinder-Ecke"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

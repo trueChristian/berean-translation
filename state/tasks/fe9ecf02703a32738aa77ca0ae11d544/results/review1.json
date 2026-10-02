@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ed308c64-9c81-438b-827a-cf7f90a07f14",
+    "response_id": "chatcmpl-EUUJuuqrrV1swCmDJMQVsVxIMJw80",
+    "usage": {
+      "completion_tokens": 1215,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1597,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2812
+    }
+  },
+  "received_at": "2026-10-02T10:04:52+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> — stanza 1, line 2",
+        "severity": "minor",
+        "source_quote": "The true thy chartered freemen are / of every age and clime:",
+        "suggested_fix": "Translate \"chartered freemen\" as a phrase that conveys the legal/privileged status in conventional Swahili, e.g. \"wanaopewa huru za kifungu/charter\" or \"wanaohifadhiwa kama raia walioteuliwa\". A concise suggestion: \"wao ni wenye haki za chombo kutoka kila umri na eneo:\". Preserve the two-line stanza break and HTML tags.",
+        "translation_quote": "Wa kweli ni raia waliochaguliwa wako / wa kila umri na mkoa:"
+      },
+      {
+        "location": "<div class=\"poem\"> — stanza 4, line 1",
+        "severity": "major",
+        "source_quote": "How gleam thy watch-fires through the night",
+        "suggested_fix": "\"Watch-fires\" refers to sentry/guard fires or beacon fires. Replace the current literal/awkward \"Jivuni vako vya kuangalia\" with an idiomatic rendering such as \"Vituo vyako vya mwanga wa walinzi vinaangaza usiku\" or \"moto/mishumaa yako ya wachungaji yanaangaza usiku\". Keep the stanza line structure and HTML tags.",
+        "translation_quote": "Jivuni vako vya kuangalia vinaangaza kupitia usiku"
+      },
+      {
+        "location": "<div class=\"poem\"> — stanza 4, line 1-2",
+        "severity": "minor",
+        "source_quote": "with never-fainting ray!",
+        "suggested_fix": "The phrase means \"with an unfailing/undimmed light\". Replace \"miale isiyoyeyuka\" (literally \"non-melting rays\") with a natural phrase such as \"kwa mwanga usiozimika\" or \"kwa miale isiyozimika\". Keep stanza breaks and tags.",
+        "translation_quote": "kwa miale isiyoyeyuka!"
+      },
+      {
+        "location": "<div class=\"poem\"> — stanza 5, line 2",
+        "severity": "major",
+        "source_quote": "in vain the drifting sands:",
+        "suggested_fix": "The phrase means \"drifting sands\" (sands moved by wind/tide). \"mtondo unaotembea kwa upepo\" is incorrect. Use \"mchanga unaotembea/unaorushwa na upepo\" or \"mchanga unaoelea\". Example: \"kwa bure mchanga unaotembea:\". Preserve stanza and HTML tags.",
+        "translation_quote": "kwa bure mtondo unaotembea kwa upepo:"
+      }
+    ],
+    "passed": false,
+    "score": 81
+  }
+}

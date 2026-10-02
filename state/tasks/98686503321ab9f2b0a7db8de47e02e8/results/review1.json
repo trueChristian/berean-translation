@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "63fd52f3-e7ba-42b0-a272-8b77101750dc",
+    "response_id": "chatcmpl-EUUMYAwxTGFQa9fWTA41UhbXnyhDh",
+    "usage": {
+      "completion_tokens": 1458,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3865,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5323
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph 1",
+        "severity": "major",
+        "source_quote": "He was intent on locating Brother Silas before the service began. Every Sunday morning, he would crane his neck in search of the hoary head of the fellowship’s oldest member",
+        "suggested_fix": "Translate the meaning correctly: render “the hoary head of the fellowship’s oldest member” as referring to the old man’s white hair / elderly status. For example: “הוא נחוש לאתר את האח סילס לפני שהטקס יתחיל. בכל בוקר ראשון היה מותח את צווארו בחיפוש אחר ראשו הלבין של המבוגר המבוגר ביותר בקהילה.” (Preserve HTML tags and order.)",
+        "translation_quote": "היה נחוש לאתר את Brother Silas לפני שהטקס יתחיל. כל בוקר ראשון, הוא היה מותח את צווארו בחיפוש אחר הראש הכסוף של בן־הזקונים בקהילה"
+      },
+      {
+        "location": "source.html paragraph with “worship God”",
+        "severity": "critical",
+        "source_quote": "We go to church services to worship God.",
+        "suggested_fix": "Correct the Hebrew verb for worship. Replace the mistranslation “לעבד את אלוהים” (which reads as “to make into a slave” or is otherwise wrong) with the correct phrase “לעבוד את אלוהים” or a more natural Hebrew phrasing such as “כדי לעבוד את אלוהים” or “כדי להעריץ את אלוהים,” keeping the sentence structure. (Preserve surrounding tags.)",
+        "translation_quote": "אנחנו הולכים למניינים כדי לעבד את אלוהים."
+      },
+      {
+        "location": "source.html multiple instances of character title/name",
+        "severity": "minor",
+        "source_quote": "Brother Silas",
+        "suggested_fix": "Translate the English title+name into idiomatic Hebrew. Either translate the title to Hebrew consistently (e.g., “האח סילס” or “אח’ סילס”) or transliterate consistently without the English word “Brother.” Do this everywhere it appears (in narrative and dialog). Ensure spacing and punctuation are natural in Hebrew (e.g., “האח סילס” or “ברדר סיילס” per style guide).",
+        "translation_quote": "Brother Silas (scattered occurrences: “Brother Silas”, “-Brother Silas”) "
+      },
+      {
+        "location": "source.html paragraph where Hebrew is unidiomatic/word-choice errors (example: “נמהל”, “צוהריו”)",
+        "severity": "minor",
+        "source_quote": "He didn’t lose any time eating that mint, and before he knew it, the mint was gone and he could go on with his afternoon and with the rest of the week.",
+        "suggested_fix": "Fix unnatural or incorrect Hebrew words: e.g., “Dirk לא התמהמה ללעוס את הסוכריה, ולפני שהבין זאת, הסוכריה נעלמה והוא יכול היה להמשיך עם צהריו ושאר השבוע.” — “צהריו” is wrong in context (should be “צהריו” = his noon, but awkward). Replace with natural phrasing: “Dirk לא התמהמה ללעוס את הסוכריה; לפני ששם לב היא כבר נגמרה, והוא יכל להמשיך את יום השבתון/את שאר היום ואת השבוע.” Also replace “נמהל” (not a correct verb here) with “הסתובב לאט/המתין מעט/היסס” where appropriate. Review entire text for similar non-idiomatic or misspelled words (e.g., “Dirk יכל לדעת” → “יכול לדעת”). Preserve HTML structure.",
+        "translation_quote": "Dirk לא התמהמה ללעוס את הסוכריה, ולפני שהבין זאת, הסוכריה נעלמה והוא יכול היה להמשיך עם צהריו ושאר השבוע.\n...\nלמעלה מחודש עבר לפני ש-Brother Silas הרגיש מספיק טוב כדי ללכת למניינים שוב. כשהוא חזר, עיניו של Dirk נצצו למראהו. בסיום המניין, Dirk נמהל מעט לפני שגיחש אליו."
+      }
+    ],
+    "passed": false,
+    "score": 58
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "28b0fed2-6591-4460-84fb-8e59aa022503",
+    "response_id": "chatcmpl-EUUNDyxqBElN4xLzfQAZGxvYhubMt",
+    "usage": {
+      "completion_tokens": 741,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4139,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4880
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph 1",
+        "severity": "major",
+        "source_quote": "he would crane his neck in search of the hoary head of the fellowship’s oldest member",
+        "suggested_fix": "In the translation, replace the phrase that incorrectly introduces a 'cap' with a faithful rendering of 'hoary head' (meaning the white-haired head of the fellowship’s oldest member). For example: “وہ تنظیم کے سب سے بزرگ رکن کے سفید بالوں والی سر کو تلاش کرتا” or more idiomatically “وہ تنظیم کے سب سے بزرگ رکن کے سفید سر کی تلاش کرتا” (preserve the surrounding <p> tags and sentence structure).",
+        "translation_quote": "ہر اتوار کی صبح وہ اپنے گلے کو کھینچ کر تنظیم کے سب سے بزرگ رکن کے سفیدہ بال والی ٹوپی تلاش کرتا، اور ہر بار اس کی ماں ڈرک کو وہ نگاہ ڈالتی جو مطلب ہوتا تھا، “چپ چاپ بیٹھو اور آگے دیکھو۔”"
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

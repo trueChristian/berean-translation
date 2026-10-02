@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d9aa7ad0-6b1f-452d-a1c4-7a60f7c1da30",
+    "response_id": "chatcmpl-EUUJu5KJnTpY0BNyricZ5qKF7DktD",
+    "usage": {
+      "completion_tokens": 1363,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5011,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6374
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "critical",
+        "source_quote": "A Chronicle Like to Ours",
+        "suggested_fix": "Translate the article title into contemporary Norwegian Bokmål, preserving HTML structure. For example: \"En krønike lik vår\" (replace the English title with the Norwegian text in the title field).",
+        "translation_quote": "A Chronicle Like to Ours"
+      },
+      {
+        "location": "<p>…after its annexation by Russia in 1783.</p>",
+        "severity": "critical",
+        "source_quote": "The group first entered Russia upon the urgings of the Viceroy Potemkin, who came into authority over the area now known as Ukraine after its annexation by Russia in 1783.",
+        "suggested_fix": "Correct the mistranslation that reverses the actor of the annexation. The target text currently reads as if Russia was annexed. Replace the sentence in Norwegian so it correctly says that the area (now Ukraine) was annexed by Russia in 1783. For example: \"Gruppen kom først inn i Russland etter påtrykk fra visekonge Potemkin, som fikk myndighet over området som i dag kalles Ukraina etter at dette området ble annektert av Russland i 1783.\"",
+        "translation_quote": "Gruppen kom først inn i Russland etter påtrykk fra visekonge Potemkin, som fikk myndighet over området som i dag kalles Ukraina etter anneksjonen av Russland i 1783."
+      },
+      {
+        "location": "<p>…“Ponder the path of thy feet, and let all thy ways be established” (Proverbs 4:26).</p>",
+        "severity": "minor",
+        "source_quote": "“Ponder the path of thy feet, and let all thy ways be established” (Proverbs 4:26).",
+        "suggested_fix": "Use the conventional Norwegian Bokmål name for the biblical book. The translation currently renders the citation as \"Ordspørkene 4:26\" which is a nonstandard form. Replace with the conventional form (e.g., \"Ordspråkene 4:26\"). Keep the Norwegian rendering of the verse as-is if stylistically acceptable.",
+        "translation_quote": "«Betrakt dine fots vei, og la alle dine stier bli faste» (Ordspørkene 4:26)."
+      },
+      {
+        "location": "<p>…the <em>Gulag Archipelago</em> …</p>",
+        "severity": "minor",
+        "source_quote": "The atrocities of the Soviet government against its citizens are well documented in various works, most famously in the <em>Gulag Archipelago</em>, a book written by a Russian officer who was accused of treason.",
+        "suggested_fix": "Standardize the rendering of the book title in Norwegian. The translation uses \"<em>Gulagarkipelet</em>\" (one word). Prefer either a hyphenated or spaced form consistent with Norwegian usage, for example \"<em>Gulag-arkipelet</em>\" or keep the original English title in italics if the publication's Norwegian title differs. Make the form consistent and idiomatic.",
+        "translation_quote": "Sovjetregjeringens grusomheter mot sine borgere er godt dokumentert i ulike verk, mest berømt i <em>Gulagarkipelet</em>, en bok skrevet av en russisk offiser som ble anklaget for landsforræderi."
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

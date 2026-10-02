@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6cefce9a-bd50-46f5-9163-affa4e200eb1",
+    "response_id": "chatcmpl-EUUK5O61UA6tzFYdsyXzb6qCrVAFk",
+    "usage": {
+      "completion_tokens": 1097,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6444,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7541
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Terwijl de razende winden om hem heen gieren, slaat de mens zijn kraag omhoog tegen de kou en de vochtigheid. ... We grimmig onder de dreigende ijzige greep die ons gevangen houdt en verlangen naar de uiteindelijke ontbinding daarvan.</p>",
+        "severity": "minor",
+        "source_quote": "We grimace under the menacing icy grip that holds us captive and longingly anticipate its eventual release.",
+        "suggested_fix": "Correct de Nederlandse zin zodat de betekenis en grammatica helder zijn. Bijvoorbeeld: \"We trekken een grimlach onder de dreigende ijzige greep die ons gevangen houdt en verlangen naar de uiteindelijke ontbinding daarvan.\" of beter: \"We grimasen onder de dreigende ijzige greep die ons gevangen houdt en verlangen naar de uiteindelijke ontbinding daarvan.\"",
+        "translation_quote": "We grimmig onder de dreigende ijzige greep die ons gevangen houdt en verlangen naar de uiteindelijke ontbinding daarvan."
+      },
+      {
+        "location": "<p>De geliefde discipel verspeet geen woorden toen hij ons het feit bracht dat . . . het was winter.</p>",
+        "severity": "minor",
+        "source_quote": "The beloved disciple wasted no words when he brought us the fact that . . . it was winter.",
+        "suggested_fix": "'Wasted no words' is mistransliteraat; gebruik een idiomatisch correct Nederlands. Bijvoorbeeld: \"De geliefde discipel verschoonde ons niet met woorden toen hij ons het feit meedeelde dat... het was winter.\" of beter: \"De geliefde discipel verloor geen woorden toen hij ons het feit meedeelde dat... het was winter.\"",
+        "translation_quote": "De geliefde discipel verspeet geen woorden toen hij ons het feit bracht dat . . . het was winter."
+      },
+      {
+        "location": "<p>Er zijn anderen die de koude klap van de winter hebben doorstaan en ereen afkeer van hebben dat iemand hetzelfde zou moeten meemaken.</p>",
+        "severity": "minor",
+        "source_quote": "There are others who have endured the cold blast of winter and loathe that any should have to experience the same.",
+        "suggested_fix": "Typfout en woordvolgorde corrigeren om de betekenis duidelijk te maken. Bijvoorbeeld: \"Er zijn anderen die de koude klap van de winter hebben doorstaan en er een afkeer van hebben dat iemand hetzelfde zou moeten meemaken.\" of: \"Er zijn anderen die de koude klap van de winter hebben doorstaan en die het verafschuwen dat iemand hetzelfde zou moeten meemaken.\"",
+        "translation_quote": "Er zijn anderen die de koude klap van de winter hebben doorstaan en ereen afkeer van hebben dat iemand hetzelfde zou moeten meemaken."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

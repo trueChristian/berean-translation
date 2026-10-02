@@ -2,7 +2,6 @@
   "article_id": "a42c5719-aea1-47ed-abad-ed0cd2571382",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 4934
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1448,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4530,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5978
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html — paragraph 2 (\"Two rows from the front of the auditorium...\")",
+      "severity": "major",
+      "source_quote": "Two rows from the front of the auditorium, Dirk spotted Brother Silas’ white hair and his black vest.",
+      "suggested_fix": "Translate \"auditorium\" and the spatial relation accurately. For example: «Δύο σειρές από το μπροστινό μέρος της αίθουσας, ο Dirk είδε τα λευκά μαλλιά του Αδελφού Silas και το μαύρο γιλέκο του.» This preserves that Dirk is seated two rows back from the front of the auditorium/assembly hall.",
+      "translation_quote": "Δύο σειρές μπροστά από την εξέδρα, ο Dirk είδε τα λευκά μαλλιά του Αδελφού Silas και το μαύρο γιλέκο του."
+    },
+    {
+      "location": "source.html — paragraph beginning with ““I’m sorry. I didn’t think about it like that,” Dirk sniveled...”",
+      "severity": "minor",
+      "source_quote": "“I’m sorry. I didn’t think about it like that,” Dirk sniveled, using his sleeve as a handkerchief.",
+      "suggested_fix": "Correct the verb to convey \"sniveled\" (i.e., sobbing/sniffling), not the unrelated verb \"smelled.\" Use a Greek verb/phrase matching the childish sobbing action, e.g. «“Συγγνώμη. Δεν το σκέφτηκα έτσι,” γόγγυσε ο Dirk, χρησιμοποιώντας το μανίκι του ως μαντήλι.» or «...είπε ο Dirk κλαίγοντας, χρησιμοποιώντας το μανίκι του ως μαντήλι.»",
+      "translation_quote": "«Συγγνώμη. Δεν το σκέφτηκα έτσι», μύρισε ο Dirk, χρησιμοποιώντας το μανίκι του ως μαντήλι."
+    },
+    {
+      "location": "source.html — final paragraph (\"He then reached into his vest pocket and pulled out a mint. A Lifesaver, to be exact.\")",
+      "severity": "minor",
+      "source_quote": "He then reached into his vest pocket and pulled out a mint. A Lifesaver, to be exact.",
+      "suggested_fix": "Avoid redundant phrasing and keep the simple sequence of actions. For example: «Έπειτα έβγαλε μια μέντα από την τσέπη του γιλέκου. Μια Lifesaver, για να είμαστε ακριβείς.» (or translate the product name if preferred).",
+      "translation_quote": "Έπειτα έβγαλε μια μέντα από την τσέπη του γιλέκου και την τράβηξε έξω. Μια Lifesaver, για να είμαστε ακριβείς."
     }
   ],
   "id": "746b123e7ccf7cf1617115ca766346c5",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/75a969c45055c429de95d7ac7fb5ad9ae24609ae4e6f17660c8fb6226abf6c70.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "cb49d9b32a113d5c0bf30e44cdec3451c0a5ce43ad2cf97a5830259f43dd1f79",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "725af435-47fb-40e4-8e85-1793a2096be1",
+    "response_id": "chatcmpl-EUUJxVKMWGqevOoDZFs3XUb5LPasp",
+    "usage": {
+      "completion_tokens": 1556,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7582,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9138
+    }
+  },
+  "received_at": "2026-10-02T10:04:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing \"Wretched sinners are forgiven and living a transformed life.\" (around Matt. 11:5)",
+        "severity": "major",
+        "source_quote": "\"Wretched sinners are forgiven and living a transformed life.\"",
+        "suggested_fix": "Translate the adjective correctly to convey 'transformed' (not 'related'). Replace \"verwandtes Leben\" with \"verwandelt(e)s Leben\" or better \"ein verwandtes Leben\" → \"ein verwandeltes Leben\" (keeping the sentence grammar). Example replacement in the translation paragraph: \"Armselige Sünder werden vergeben und leben ein verwandeltes Leben.\"",
+        "translation_quote": "\"Armselige Sünder werden vergeben und leben ein verwandtes Leben.\""
+      },
+      {
+        "location": "Multiple Scripture citations (throughout article)",
+        "severity": "minor",
+        "source_quote": "Eph. 5:27; Matt. 16:18; 1 John 1:9; Matt. 11:5; 2 Tim. 3:12; Matt. 16:24; Jas. 4:7; Heb. 13:17; 1 Pet. 2:13; Eph. 5:21; John 13:35; 1 Cor. 13:7",
+        "suggested_fix": "Use conventional German book names/abbreviations while keeping chapter:verse numbers and placement unchanged. Examples: Eph. 5:27 → Eph. 5,27 (or \"Eph.\" → \"Eph.\" is acceptable but better: \"Eph.\"→\"Eph.\" is English; prefer German forms such as \"Eph.\"→\"Eph.\" is borderline). Recommended concrete replacements: \"(Eph. 5:27)\" → \"(Eph. 5,27)\" or \"(Eph. 5,27)\"; \"(Matt. 16:18)\" → \"(Mt. 16,18)\" or \"(Matt. 16,18)\" → use commonly used German abbreviation \"Mt.\"; \"(1 John 1:9)\" → \"(1 Joh. 1,9)\"; \"(Matt. 11:5)\" → \"(Mt. 11,5)\"; \"(2 Tim. 3:12)\" → \"(2 Tim. 3,12)\" or \"(2 Tim. 3,12)\"; \"(Jas. 4:7)\" → \"(Jak. 4,7)\"; \"(Heb. 13:17)\" → \"(Hebr. 13,17)\"; \"(1 Pet. 2:13)\" → \"(1 Petr. 2,13)\"; \"(Eph. 5:21)\" → \"(Eph. 5,21)\"; \"(John 13:35)\" → \"(Joh. 13,35)\"; \"(1 Cor. 13:7)\" → \"(1 Kor. 13,7)\". Keep original punctuation of the citation parentheses and place.",
+        "translation_quote": "Examples as translated: \"(Eph. 5:27)\", \"(Matt. 16:18)\", \"(1 John 1:9)\", \"(Matt. 11:5)\", \"(2 Tim. 3:12)\", \"(Matt. 16:24)\", \"(Jas. 4:7)\", \"(Heb. 13:17)\", \"(1 Pet. 2:13)\", \"(Eph. 5:21)\", \"(John 13:35)\", \"(1 Cor. 13:7)\""
+      },
+      {
+        "location": "Quote of son's exclamation (paragraph with \"Daddy, he just told a lie!\")",
+        "severity": "minor",
+        "source_quote": "\"Daddy, he just told a lie!\"",
+        "suggested_fix": "Localize the child's exclamation to standard contemporary German. Replace \"Daddy\" with \"Papa\" (or \"Vater\" if more formal), e.g. \"Papa, er hat gerade gelogen!\" Keep the exclamation and punctuation.",
+        "translation_quote": "\"Daddy, er hat gerade gelogen!\""
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

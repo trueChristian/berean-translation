@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1ac53322-f611-46b5-9132-83d7ee004b08",
+    "response_id": "chatcmpl-EUULc0Lb2E7tVF21pWurdEYIeklip",
+    "usage": {
+      "completion_tokens": 2221,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3242,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5463
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first paragraph (sentence about baptism order)",
+        "severity": "major",
+        "source_quote": "The state church government of Zürich had ordered parents to have their infants baptized or face being banished from their homes.",
+        "suggested_fix": "Translate the sentence to faithfully convey the original meaning: that the Zürich state church government ordered parents to have their infants baptized, or they would be banished from their homes. Preserve sense and causality; do not add or rearrange words. Example Bengali: \"জুরিখের রাষ্ট্রীয় চার্চ সরকার অভিভাবকদের আদেশ দিয়েছিল যে তাদের নবজাতককে বাপ্তিস্ম দিতে হবে; তা না হলে তাদেরকে বাড়ি থেকে নির্বাসিত করা হবে।\"",
+        "translation_quote": "জুরিখের রাষ্ট্রীয় চার্চ সরকার অভিভাবকদের আদেশ করেছিল যে তাদের শৈশবকালে শিশুকে ভুলে বা না করে নয়, নবজাতককে বাপ্তিস্ম দেওয়া হবে; অন্যথায় তারা তাদের বাড়ি থেকে নির্বাসিত হবেন।"
+      },
+      {
+        "location": "source.html — first paragraph (name spelling/consistency)",
+        "severity": "minor",
+        "source_quote": "Felix Mantz",
+        "suggested_fix": "Use a single consistent, translated or transliterated form of the proper name throughout the article. If you transliterate, use Bengali script consistently (e.g., \"ফেলিক্স মান্টজ\"). Avoid switching back to the English spelling mid-paragraph.",
+        "translation_quote": "...ফেলিক্স মান্টজের বাসায়... তবু, ঐ ঐতিহাসিক শীতের সন্ধ্যায়, Feliz Mantz, Conrad Grebel, George Blaurock..."
+      },
+      {
+        "location": "source.html — first paragraph (mixed-script verbs and names)",
+        "severity": "minor",
+        "source_quote": "After praying and committing to serve God faithfully, George Blaurock asked Conrad Grebel to baptize him in true Christian faith, which Conrad did.",
+        "suggested_fix": "Keep verbs and names consistently in Bengali script and grammar. For example: \"প্রার্থনা করে এবং বিশ্বস্তভাবে ঈশ্বরকে সেবা করার প্রতিশ্রুতি দিয়ে, জর্জ ব্লাউরক কনরাদ গ্রেবলকে অনুরোধ করলেন যাতে তিনি তাকে প্রকৃত খ্রিস্টীয় বিশ্বাসে বাপ্তিস্ম দেন; কনরাদ তা করলেন।\"",
+        "translation_quote": "প্রার্থনা করে এবং বিশ্বস্তভাবে ঈশ্বরকে সেবা করার সঙ্গে প্রতিশ্রুতিবদ্ধ হয়ে, George Blaurock Conrad Grebel-কে তাকে প্রকৃত খ্রিষ্টীয় বিশ্বাসে বাপ্তিস্ম প্রদান করতে অনুরোধ করলেন, যা Conrad করলেন।"
+      },
+      {
+        "location": "source.html — paragraph about testimonies (\"undisclosed location\")",
+        "severity": "minor",
+        "source_quote": "One person from an undisclosed location wrote, “. . . we all take turns reading the magazine in church. A very edifying magazine. God bless you! God’s blessings.”",
+        "suggested_fix": "Translate \"undisclosed location\" as \"অঘোষিত স্থান/অবস্থান\" or \"নাম প্রকাশ করা হয়নি\" so meaning of anonymity is preserved. Also render the quoted testimony wholly in Bengali script and punctuation. Example: \"একজন ব্যক্তি, যাঁর অবস্থান প্রকাশ করা হয়নি, লিখেছিলেন: '…আমরা সবাই চার্চে পালাক্রমে ম্যাগাজিনটি পড়ি। এটি অত্যন্ত উপকারী একটি ম্যাগাজিন। ঈশ্বর তোমাদের আশীর্বাদ করুন! ঈশ্বরের বরকত।'\"",
+        "translation_quote": "একটি অননুমোদিত অবস্থান থেকে একজন ব্যক্তি লিখেছিলেন, “... আমরা সবাই চার্চে পালাক্রমে ম্যাগাজিনটি পড়ি। একটি অত্যন্ত উপকারী ম্যাগাজিন। ঈশ্বর তোমাদের আশীর্বাদ করুক! ঈশ্বরের বরকত।”"
+      },
+      {
+        "location": "source.html — paragraph about reprinting articles (titles left untranslated and garbled phrase)",
+        "severity": "major",
+        "source_quote": "In this issue, we reprinted two articles by request. A Glorious Church by Barry Grant and Joy in the Crevices by Sheryl Zeiset were both first printed in 2019. May our churches demonstrate the virtues and our homes radiate the beauty that is portrayed in these timeless articles.",
+        "suggested_fix": "Article titles and the sentence expressing the benediction are substantive text and must be translated into Bengali. Also fix the garbled word \"কChurchসমূহ\". Example correction: \"এই সংখ্যায়, গ্রাহকের অনুরোধে আমরা দুটি প্রবন্ধ পুনঃপ্রকাশ করেছি। ব্যারি গ্র্যান্টের 'A Glorious Church' এবং শেরিল জেইসেটের 'Joy in the Crevices'—উভয়ই প্রথম প্রকাশিত হয়েছিল ২০১৯ সালে। আমাদের গির্জাগুলো সেই গুণাবলী প্রদর্শন করুক এবং আমাদের ঘরগুলো সেই সৌন্দর্য বিকিরিত করুক যা এই চিরন্তন প্রবন্ধগুলোতে চিত্রিত হয়েছে।\" (If you choose to translate the article titles into Bengali, do so consistently.)",
+        "translation_quote": "এই সংখ্যায়, আমরা অনুরোধে দুটি প্রবন্ধ পুনরায় মুদ্রণ করেছি। Barry Grant-এর A Glorious Church এবং Sheryl Zeiset-এর Joy in the Crevices—উভয়ই প্রথম প্রকাশিত হয়েছিল 2019 সালে। আমাদের কChurchসমূহ সেই গুণাবলী প্রদর্শন করুন এবং আমাদের ঘরগুলো সেই সৌন্দর্য বিকিরিত করুক যা এই চিরন্তন প্রবন্ধগুলিতে চিত্রিত হয়েছে।"
+      },
+      {
+        "location": "source.html — quote of Ecclesiastes (book name formatting)",
+        "severity": "minor",
+        "source_quote": "“And further, by these, my son, be admonished: of making many books there is no end; and much study is a weariness of the flesh” (Ecclesiastes 12:12).",
+        "suggested_fix": "The verse is translated, which is acceptable, but the book name should use the conventional Bengali form used elsewhere on the site. Ensure the quotation is in Bengali script and that verse numbering is unchanged. If the site uses \"উপদেশক বই\" or \"সভোপদেশক\" for Ecclesiastes, use the consistent preferred form. Example: \"(সভোপদেশক 12:12)\" or site's chosen form.",
+        "translation_quote": "“এবং আরও, এ সব দ্বারা, আমার সন্তান, সাবধান হও: অনেক বই রচনার কোনো শেষ নেই; এবং অধ্যয়ন বক্ষের ক্লান্তি গড়ে তোলে” (প্রবচনকর্তা 12:12)।"
+      }
+    ],
+    "passed": false,
+    "score": 68
+  }
+}

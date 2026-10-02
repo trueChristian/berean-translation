@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "628fa1c8-f5db-4f7a-94f2-6435a5364c94",
+    "response_id": "chatcmpl-EUUKkrwY3Yr1pzg6nzk0uBhjrMVn9",
+    "usage": {
+      "completion_tokens": 897,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3820,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4717
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Translation paragraph containing English 'sniveled' (near the sentence where Dirk apologizes using his sleeve)",
+        "severity": "minor",
+        "source_quote": "“I’m sorry. I didn’t think about it like that,” Dirk sniveled, using his sleeve as a handkerchief.",
+        "suggested_fix": "Use a standard Modern Standard Arabic verb for 'sniveled' that clearly conveys the childish, sobbing tone. For example: «قال ديرك وهو يذرف الدموع ويستخدم كمّه كمنديل.» or «تمتم ديرك باكيًا وهو يستخدم كمّه كمنديل.» Replace the current verb form «شخّ ديرك» with one of these.",
+        "translation_quote": "«آسف. لم أفكر في الأمر بهذا الشكل», شخّ ديرك وهو يستخدم كمّه كمنديل."
+      },
+      {
+        "location": "Title (source.title)",
+        "severity": "minor",
+        "source_quote": "The Mint Man",
+        "suggested_fix": "The translated title «رجل الأقراص» is understandable but slightly odd in Arabic. Consider a wording that more directly conveys 'mint' such as «رجل الحلوى النعناعية» or the simpler «رجل النعناع» to preserve the original sense.",
+        "translation_quote": "\"رجل الأقراص\""
+      },
+      {
+        "location": "Multiple occurrences of the brand name 'Lifesavers'",
+        "severity": "minor",
+        "source_quote": "Lifesavers, to be exact.",
+        "suggested_fix": "Leaving the brand name untranslated is acceptable for proper names, but to match Modern Standard Arabic conventions either keep the transliteration consistently as «لايفسيفرز»/«لايف سيفرز» or translate descriptively as «حلوى منقذة للحياة (Lifesavers)» only if you want explicit clarity. Suggested narrow fix: change «قرص لايف سيفر تحديدًا» to «قرص لايف سيفرز تحديدًا» for consistent transliteration of the English plural form.",
+        "translation_quote": "\"قرص لايف سيفر تحديدًا.\""
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

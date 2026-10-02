@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "60064842-4be3-4040-953c-4064f7c72d05",
+    "response_id": "chatcmpl-EUUJux3usEM8iYFileImbLnIdBmlN",
+    "usage": {
+      "completion_tokens": 1484,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2940,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4424
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> / <p> (first paragraph, sentence containing names)",
+        "severity": "major",
+        "source_quote": "\"Felix Mantz in Zürich, Switzerland. ... Yet, on this momentous winter evening, Feliz Mantz, Conrad Grebel, George Blaurock, and a few others...\"",
+        "suggested_fix": "使人名拼写在全文中一致。保留作者原始人名，但在译文中统一中文化首见并在括号中给出原文拼写。保持 HTML 结构不变。建议将第二处“Feliz Mantz”改为与首处一致的中文+括号形式：\"费利克斯·曼茨（Felix Mantz）、康拉德·格雷贝尔（Conrad Grebel）、乔治·布劳罗克（George Blaurock）及其他几人...\"",
+        "translation_quote": "\"然而，在这个具有重大意义的冬夜，Feliz Mantz、Conrad Grebel、George Blaurock和其他几个人把他们的顺服推进了一步。\""
+      },
+      {
+        "location": "<article> / <p> (first paragraph and closing signature)",
+        "severity": "minor",
+        "source_quote": "\"After praying and committing to serve God faithfully, George Blaurock asked Conrad Grebel to baptize him...\" and closing signature \"Edward Martin\"",
+        "suggested_fix": "在全文中对首次出现的人名采用中文译名并在括号中标注原文拼写，随后出现时可使用中文或保持一致的处理方式。不要在同一段落中混用原文与已汉化的人名。示例修改保持 HTML 标签结构不变：将“George Blaurock”“Conrad Grebel”改作“乔治·布劳罗克（George Blaurock）”“康拉德·格雷贝尔（Conrad Grebel）”。结尾署名“Edward Martin”建议改为“爱德华·马丁（Edward Martin）”或至少与文中人名呈现方式一致。",
+        "translation_quote": "段内多处使用拉丁字母人名，例如“Feliz Mantz、Conrad Grebel、George Blaurock”和结尾的“Edward Martin”，首次出现中文已给出“费利克斯·曼茨（Felix Mantz）”，但后文不一致。"
+      },
+      {
+        "location": "<article> / <p> (third paragraph)",
+        "severity": "minor",
+        "source_quote": "\"Fast forward 588 years. The printed paper still inspires men and women.\"",
+        "suggested_fix": "译文“印刷的纸张仍然激励着男女”语义可更通顺自然，建议修改为“印刷品至今仍激励着人们”或“印刷的书刊至今仍能激励人心”。保持 HTML 结构不变。",
+        "translation_quote": "\"快进到588年后。印刷的纸张仍然激励着男女。\""
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

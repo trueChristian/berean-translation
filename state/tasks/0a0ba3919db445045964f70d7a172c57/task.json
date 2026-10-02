@@ -2,7 +2,6 @@
   "article_id": "21180900-6bdd-4c06-a4ed-fd0f6b8a3571",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,41 @@
         },
         "total_tokens": 6492
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1346,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6014,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7360
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Paragraph mentioning Turkey Red Wheat (source.html third-to-last paragraph before WWII paragraph)",
+      "severity": "major",
+      "source_quote": "By this time, the strong agricultural society of the Mennonites had transformed Ukraine into a breadbasket, its vast fields sown with wheat developed specifically by the Mennonites: Turkey Red Wheat.",
+      "suggested_fix": "Translate the crop name into contemporary Modern Greek or provide a conventional Greek rendering immediately after the English name in parentheses. Preserve the sentence structure and HTML tags. Example fix (Greek): «...τα απέραντα χωράφια της είχαν σπαρθεί με σιτάρι ειδικά αναπτυγμένο από τους Μεννονίτες: το σιτάρι «Turkey Red» (Turkey Red Wheat).» Or fully translated: «...τα απέραντα χωράφια της είχαν σπαρθεί με σιτάρι ειδικά αναπτυγμένο από τους Μεννονίτες: το λεγόμενο Τουρκίτικο Κόκκινο Σιτάρι (Turkey Red Wheat).»",
+      "translation_quote": "Μέχρι τότε, η ισχυρή αγροτική κοινωνία των Μεννονιτών είχε μετατρέψει την Ουκρανία σε μια αποθήκη τροφίμων, τα απέραντα χωράφια της είχαν σπαρθεί με σιτάρι ειδικά αναπτυγμένο από τους Μεννονίτες: το Turkey Red Wheat."
+    },
+    {
+      "location": "Paragraph describing alignment with Germans ('gave their bodies at the stake and sword' sentence)",
+      "severity": "major",
+      "source_quote": "And so it was that the descendants of those helpless believers who gave their bodies at the stake and sword aligned themselves with a worldly kingdom that promised to protect and provide for them.",
+      "suggested_fix": "Correct the mistranslation of 'gave their bodies at the stake and sword' to a faithful Modern Greek rendering that preserves the original meaning (martyrdom and violent death by stake and sword). Keep HTML tags and surrounding sentence structure. Example fix (Greek): «Και έτσι συνέβη ότι οι απόγονοι εκείνων των ανήμπορων πιστών, που είχαν προσφέρει τα σώματά τους στο μαρτύριο, στο παλούκι και στο σπαθί, ευθυγραμμίστηκαν με ένα κοσμικό βασίλειο …» Or more idiomatically: «… που είχαν θυσιάσει τα σώματά τους στο μαρτύριο — στο παλούκι και στο σπαθί — ευθυγραμμίστηκαν …»",
+      "translation_quote": "Και έτσι συνέβη ότι οι απόγονοι εκείνων των ανήμπορων πιστών που έδωσαν τα σώματά τους στον σωρό και στο ξίφος ευθυγραμμίστηκαν με ένα κοσμικό βασίλειο που υποσχόταν να τους προστατεύσει και να τους προμηθεύσει."
     }
   ],
   "id": "0a0ba3919db445045964f70d7a172c57",
@@ -69,11 +103,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/e6d5dd4085cebb3593cea88c0c7b399e589533f4996bbdc3712184dc25845fc4.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "eb6b57cc0ff9251672705de37bad2d751542487f4ae521b68aaf1b67b286861e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "5a87c21f-cce9-4033-8a43-5458311bc7f0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,41 @@
         },
         "total_tokens": 12740
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 938,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12529,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13467
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html — multiple paragraphs (beginning and middle)",
+      "severity": "major",
+      "source_quote": "“The Preparation Sleep.” (heading) + multiple occurrences of the phrase preparation sleep in paragraphs discussing Genesis 2 and Eve/Adam and later sections.",
+      "suggested_fix": "Translate the heading and every substantive occurrence of the English term into standard Bahasa Indonesia, preserving the article HTML structure. For example: replace the h2 text “The Preparation Sleep.” with “Tidur Persiapan.” and replace in-body occurrences of the phrase “preparation sleep” with “tidur persiapan” or “tidur yang bertunas” consistently. Do not alter other HTML tags or paragraph structure.",
+      "translation_quote": "<h2>The Preparation Sleep.</h2> ... “Jika Hawa tidak masuk ke dalam preparation sleep seperti itu juga, Adam akan kesulitan memasuki preparation sleep jika Hawa mencoba menarik perhatiannya. Hawa perlu tidur dengan cara yang sama seperti Adam.” (translation left the English phrase preparation sleep unchanged in multiple places)"
+    },
+    {
+      "location": "source.title, source.subtitle, source.section (metadata)",
+      "severity": "major",
+      "source_quote": "title: \"A Christ-Centered Courtship Series\"; subtitle: \"The Preparation Sleep\"; section: \"INSPIRATIONS FOR YOUTH\"",
+      "suggested_fix": "Translate the metadata fields into standard Bahasa Indonesia, preserving casing and exact field placement (these are metadata strings, not HTML). Suggested translations: title -> \"Seri Pacaran yang Berpusat pada Kristus\"; subtitle -> \"Tidur Persiapan\"; section -> \"INSPIRASI UNTUK KAUM MUDA\". Do not modify the order or any HTML in source.html — only replace the metadata field values.",
+      "translation_quote": "title: \"A Christ-Centered Courtship Series\"; subtitle: \"The Preparation Sleep\"; section: \"INSPIRATIONS FOR YOUTH\" (left in English in the translation metadata)"
     }
   ],
   "id": "784cf986362f76f8868e7b013aa48932",
@@ -69,11 +103,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0a1dcaa5cafea68d0933d4307f622a54749ce00327ed437d6329e9b9b2a36c0b.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "403dccfee978e00bf41c2daf2df29e8cfa526a0ef6c19371773e58abc48734b6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "b5ea052a-167f-45c4-bf40-cd463c4546b6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 7073
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1788,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1344,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6670,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8458
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<p>“The moral character of Adonijah had eroded, for “his father had not displeased him at any time in saying, Why hast thou done so?” (1 Kings 1:6).” (English source, paragraph under \"Strengthening\")",
+      "severity": "minor",
+      "source_quote": "Adonijah",
+      "suggested_fix": "Restore the conventional target‑language form of the proper name. Replace “Adonia” with the standard Italian Bible form “Adonija” (or “Adonijah” if the publication prefers to keep the English spelling), e.g. “Il carattere morale di Adonija si era eroso, perché … (1 Re 1:6).”",
+      "translation_quote": "Il carattere morale di Adonia si era eroso, perché “suo padre non lo aveva rimproverato in nessun tempo, dicendo: Perché hai fatto così?” (1 Re 1:6)."
+    },
+    {
+      "location": "<p>“While a few gay tunes, such as Winter Wonderland, seek to capitalize upon its majestic moments, winter is generally despised by the normal inhabitants of this earth.” (English source, second paragraph)",
+      "severity": "minor",
+      "source_quote": "Winter Wonderland",
+      "suggested_fix": "Either translate or typographically mark the song title as a foreign title. Options: (a) translate the title into Italian if an established Italian title exists; or (b) keep the English title but set it as a titled work (e.g. in italics) and optionally add an explanatory note in Italian. Example: “alcune canzonette gaie, come Winter Wonderland, …” → “alcune canzonette gaie, come Winter Wonderland, …” (in corsivo) or “(la canzone ‘Winter Wonderland’)”.",
+      "translation_quote": "Pur se alcune canzonette gaie, come Winter Wonderland, cercano di capitalizzare i suoi momenti maestosi, l’inverno è generalmente disprezzato dagli abitanti normali di questa terra."
+    }
+  ],
+  "finished_at": "2026-10-02T10:04:51+00:00",
   "id": "c9ff42a0eb2e5fcf90761fbdbf05d29d",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ita",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/cb70a64f61d5d6ea793a28714a8210160bd2f71712162f15c2619f188dcf0e3f.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "43083ba7fbaa256f5105f34da9e51d125c38a107a8d91b3864609877708b8ea8",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

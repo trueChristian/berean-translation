@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f53c2505-0074-4c3b-8073-191e89ea12b7",
+    "response_id": "chatcmpl-EUUPCD4qbtPBiAnoCLtIe1UmYCuld",
+    "usage": {
+      "completion_tokens": 1358,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3237,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4595
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph, first two sentences",
+        "severity": "critical",
+        "source_quote": "January 21, 1525, was the 500th anniversary of Anabaptism. Five hundred years ago, a monumental event in the history of the Christian church occurred.",
+        "suggested_fix": "Replace “पचास सौ साल पहले” with “500 साल पहले” or “पाँच सौ साल पहले” to correctly render “five hundred years ago.” Preserve the adjacent dates/phrasing as in the source.",
+        "translation_quote": "21 जनवरी, 1525 को अनाबाप्तिस्टवाद (Anabaptism) का 500वां वर्षगांठ था। पचास सौ साल पहले, ईसाई चर्च के इतिहास में एक महत्वपूर्ण घटना घटी।"
+      },
+      {
+        "location": "Fifth paragraph, quoted Scripture (Ecclesiastes 12:12)",
+        "severity": "critical",
+        "source_quote": "“And further, by these, my son, be admonished: of making many books there is no end; and much study is a weariness of the flesh” (Ecclesiastes 12:12).",
+        "suggested_fix": "Render the quoted verse faithfully in Hindi so it preserves the meaning of the printed English. For example: “और आगे, मेरे पुत्र, इनसे भी सहमनित हो: अनेक पुस्तकें बनाने का अंत नहीं है; और अधिक अध्ययन देह को श्रम का कारण है” (सभोपदेशक 12:12). Ensure the verse is clearly marked as a quotation and retains the Scripture reference exactly as in the source (Ecclesiastes 12:12).",
+        "translation_quote": "“और आगे, मेरे पुत्र, इनसे भी शुद्ध हो जा: अनेक पुस्तकें बनाने का अंत नहीं है; और अधिक अध्ययन शरीर को श्रमहीन कर देता है” (सभोपदेशक 12:12)।"
+      },
+      {
+        "location": "Third paragraph, sentence about printing press run time and counts",
+        "severity": "minor",
+        "source_quote": "After the files are uploaded, the printing press will print 6,000 copies in a little over 12 hours. It is then finished and mailed to 51 countries around the world and many states in the U.S.",
+        "suggested_fix": "Minor wording/number clarity: translate “a little over 12 hours” more idiomatically as “लगभग 12 घंटे में” or “12 घंटे से थोड़े अधिक में.” Also check that “51 countries” remains numerically identical and that the flow reads naturally in Hindi (no change to meaning).",
+        "translation_quote": "फ़ाइलें अपलोड होने के बाद, प्रेस थोड़े से अधिक 12 घंटों में 6,000 प्रतियां छाप देगा। फिर इसे तैयार करके दुनिया के 51 देशों और अमेरिका के कई राज्यों में भेज दिया जाता है।"
+      }
+    ],
+    "passed": false,
+    "score": 62
+  }
+}

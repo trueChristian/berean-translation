@@ -2,7 +2,6 @@
   "article_id": "58963510-f56e-43e0-88dd-0eb9941ddea9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 7827
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 976,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7616,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8592
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Paragraph containing: \"God forbid if we begin to believe that we are better off doing things alone without our brothers.\" (near heading 'Obedience')",
+      "severity": "minor",
+      "source_quote": "God forbid if we begin to believe that we are better off doing things alone without our brothers.",
+      "suggested_fix": "Use an Indonesian idiom that preserves the warning-tone and meaning. Replace the sentence \"Tuhan melarang jika kita mulai percaya bahwa kita lebih baik melakukan sesuatu sendirian tanpa saudara-saudara kita.\" with: \"Jauhkanlah Tuhan, jika kita mulai percaya bahwa kita lebih baik melakukan sesuatu sendiri tanpa saudara-saudari kita.\" or \"Semoga Tuhan melindungi kita jika kita mulai percaya bahwa kita lebih baik melakukan sesuatu sendiri tanpa saudara-saudari kita.\"",
+      "translation_quote": "Tuhan melarang jika kita mulai percaya bahwa kita lebih baik melakukan sesuatu sendirian tanpa saudara-saudara kita."
+    },
+    {
+      "location": "Paragraph quoting 1 John 1:9",
+      "severity": "minor",
+      "source_quote": "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness (1 John 1:9).",
+      "suggested_fix": "Adjust wording/punctuation for natural Indonesian phrasing while preserving meaning. Replace \"Ia adalah setia dan adil sehingga Ia akan mengampuni dosa kita dan menyucikan kita dari segala kejahatan\" with \"Ia setia dan adil, sehingga Ia akan mengampuni dosa-dosa kita dan menyucikan kita dari segala kejahatan.\"",
+      "translation_quote": "Firman Allah berkata “Jika kita mengaku dosa kita, Ia adalah setia dan adil sehingga Ia akan mengampuni dosa kita dan menyucikan kita dari segala kejahatan” (1 Yoh. 1:9)."
+    }
+  ],
+  "finished_at": "2026-10-02T10:04:50+00:00",
   "id": "2b23709b2cca55ca88a624b11158b267",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ind",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/59d4849e1c86348caee3bfc73f9939e2ea68bc740d52161ef37989eff904e79d.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "717da8d77d6092ac85798d90532d1ee4a9c48672d09b7616b1eb527cfd86d893",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

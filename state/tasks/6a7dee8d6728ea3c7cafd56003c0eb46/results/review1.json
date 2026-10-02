@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1d239098-be6b-918f-a64e-8dcf1c279f2c",
+    "response_id": "chatcmpl-EUUOkyZ7NVO7zSMd8vhk3UOwBXIGc",
+    "usage": {
+      "completion_tokens": 1009,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10316,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11325
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<section class=\"references\"> (References list)",
+        "severity": "minor",
+        "source_quote": "<ol>\n      <li><cite>Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models - PMC (nih.gov)</cite></li>\n      <li><cite>Evaluating Internet Research Sources</cite></li>\n      <li><cite>Sale of Health-Related Products | AMA-Code (ama-assn.org)</cite></li>\n      <li><cite>65% of Americans believe they are above average in intelligence: Results of two nationally representative surveys - PMC (nih.gov)</cite></li>\n    </ol>",
+        "suggested_fix": "Translate the visible citation titles (the text inside each <cite> element) into standard contemporary Afrikaans so that all article-visible metadata is presented in the target language. Preserve the HTML structure, tags, order and any URLs or identifiers. Example fixes (narrowly scoped — keep original links and parentheses unchanged):\n\n<li><cite>Prestasie van ChatGPT op die USMLE: Potensiaal vir KI-ondersteunde mediese onderrig met groot taalmodelle - PMC (nih.gov)</cite></li>\n<li><cite>Evaluering van internetnavorsingsbronne</cite></li>\n<li><cite>Verkope van gesondheidsverwante produkte | AMA-kode (ama-assn.org)</cite></li>\n<li><cite>65% van Amerikaners glo hulle is bo gemiddeld in intelligensie: Resultate van twee nasionaal-vertegenwoordigende opnames - PMC (nih.gov)</cite></li>",
+        "translation_quote": "<ol>\n      <li><cite>Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models - PMC (nih.gov)</cite></li>\n      <li><cite>Evaluating Internet Research Sources</cite></li>\n      <li><cite>Sale of Health-Related Products | AMA-Code (ama-assn.org)</cite></li>\n      <li><cite>65% of Americans believe they are above average in intelligence: Results of two nationally representative surveys - PMC (nih.gov)</cite></li>\n    </ol>"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

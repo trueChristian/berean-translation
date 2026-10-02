@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1a2001be-5729-4cad-aef9-f33bd1471a82",
+    "response_id": "chatcmpl-EUUKhe8MFX5xx8WISSYYsr6pe74mZ",
+    "usage": {
+      "completion_tokens": 1033,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13490,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 14523
+    }
+  },
+  "received_at": "2026-10-02T10:04:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html first <p class=\"article-note\"> (publication title)",
+        "severity": "major",
+        "source_quote": "After printing all five articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet.",
+        "suggested_fix": "Translate the publication title inside the same <em>...</em> tags into Urdu. Preserve the existing HTML structure and tags exactly. Example replacement (leave tags unchanged):\n... جب ہم نے تمام پانچ مضامین کو </em>خلاصۂ باقیہ کا دل (The Heartbeat of the Remnant)<em> میں شائع کیا، تو ہم انہیں ایک کتابچہ کی صورت میں شائع کریں گے۔ ...\nOr if you prefer fully translated title without English in parentheses: use your chosen Urdu rendering between the same </em> and <em> tags.",
+        "translation_quote": "جب ہم نے تمام پانچ مضامین کو </em>The Heartbeat of the Remnant<em> میں شائع کیا، تو ہم انہیں ایک کتابچہ کی صورت میں شائع کریں گے۔ یہ پانچ میں سے چوتھا مضمون ہے۔"
+      },
+      {
+        "location": "source.title and opening phrase",
+        "severity": "minor",
+        "source_quote": "A Christ-Centered Courtship Series",
+        "suggested_fix": "Consider a more idiomatic Urdu rendering that preserves the authorial theology and genre. Keep the same HTML title tag and order. Two possible alternatives (choose one and replace the translation's title text):\n- </title>ایک مسیح مرکزِ رشتہ ازدواجی سلسلہ</title>\n- </title>ایک مسیح محورِ منسلک رفاقت کا سلسلہ</title>\n(Do not change HTML tags—only replace the visible title text.)",
+        "translation_quote": "ایک مسیح مرکزِ دِلعاشق ملاقات سلسلہ"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

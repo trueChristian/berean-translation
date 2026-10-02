@@ -2,7 +2,6 @@
   "article_id": "042fce50-3724-4100-b397-093c6d081e89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,8 +23,37 @@
         },
         "total_tokens": 3409
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1360,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1216,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3006,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4366
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<figure> caption and <img> alt",
+      "severity": "minor",
+      "source_quote": "Gutenberg Bible on display at the U.S. Library of Congress",
+      "suggested_fix": "Translate or localize the institutional name into contemporary Bokmål while preserving the reference to the U.S. institution. For example: «Gutenbergbibelen utstilt i det amerikanske kongressbiblioteket (Library of Congress).» Preserve the existing HTML structure and tags.",
+      "translation_quote": "Gutenbergbibelen utstilt i det amerikanske Library of Congress."
+    }
+  ],
+  "finished_at": "2026-10-02T10:04:51+00:00",
   "id": "db121205a7513895f4b5306dc1b8f647",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "nob",
@@ -69,11 +97,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/901933390bbab68b30ba65d224e53d69f0af822b49f3cdb694876c259f4bd250.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "a8b13667ad0bdee6e94fb75c94d958fc5f824dbcd185202cd5cc7be6e9274a4c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

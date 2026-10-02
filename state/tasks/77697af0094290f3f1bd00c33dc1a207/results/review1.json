@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "34168ed6-8b17-4624-862e-cfd6681f2fed",
+    "response_id": "chatcmpl-EUUJuMxTQeaoQMjh2yR1fPGwXrWcE",
+    "usage": {
+      "completion_tokens": 1031,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1564,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2595
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<img alt>",
+        "severity": "minor",
+        "source_quote": "A snowy path beside bare winter trees",
+        "suggested_fix": "Use a more natural French phrasing for the image alt text while preserving meaning. For example: «Un chemin enneigé bordé d'arbres d'hiver dépouillés» or «Un chemin enneigé bordé d'arbres nus en hiver».",
+        "translation_quote": "Un chemin enneigé à côté d'arbres d'hiver nus"
+      },
+      {
+        "location": "Poem, stanza 1, line 3",
+        "severity": "minor",
+        "source_quote": "The true thy chartered freemen are of every age and clime:",
+        "suggested_fix": "Render the legal/technical sense of \"chartered freemen\" more clearly in French to preserve the nuance that these are enfranchised/citizen members by charter. Suggested phrasing: «Les vrais, tes citoyens affranchis, sont de tout âge et de tout climat :» or «Tes vrais citoyens assermentés sont de tout âge et de tout climat :».",
+        "translation_quote": "Les vrais, tes hommes affranchis, sont de tout âge et de tout climat :"
+      },
+      {
+        "location": "Poem, stanza 3, line 1",
+        "severity": "minor",
+        "source_quote": "How purely hath thy speech come down from man's primaeval youth!",
+        "suggested_fix": "Consider a more idiomatic rendering of \"primaeval youth\" to convey \"early humanity/primeval time\" in French. For example: «Comme ta parole s'est purement transmise depuis les origines de l'humanité !» or «...depuis la prime enfance de l'humanité !».",
+        "translation_quote": "Comme ta parole est descendue purement\n  de la prime jeunesse de l'homme !"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

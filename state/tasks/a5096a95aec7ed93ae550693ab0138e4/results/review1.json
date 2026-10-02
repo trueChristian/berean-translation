@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "acbb0360-bde9-4286-9270-e608cc8a5e44",
+    "response_id": "chatcmpl-EUUNyZ9DPn6YoFZBQzx4EDsfwzhDY",
+    "usage": {
+      "completion_tokens": 1236,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7641,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8877
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Second paragraph of article body (\"We live in a day when lines are being crossed, blurred, and confused...\")",
+        "severity": "minor",
+        "source_quote": "We live in a day when lines are being crossed, blurred, and confused.",
+        "suggested_fix": "Use a more natural Bokmål rendering. For example: «Vi lever i en tid da grensene viskes ut, blir uklare og forvirrende.» Preserve HTML tags and paragraph order.",
+        "translation_quote": "Vi lever i en tid da linjer blir krysset, uklaregjort og forvirret."
+      },
+      {
+        "location": "Paragraph quoting Matthew 11:5 (paragraph beginning \"That something is a heart that has been truly changed...\")",
+        "severity": "major",
+        "source_quote": "“The blind receive their sight, and the lame walk, the lepers are cleansed, and the deaf hear, the dead are raised up, and the poor have the gospel preached to them ” (Matt. 11:5).",
+        "suggested_fix": "Translate the verse in a faithful, natural Bokmål Bible-style wording that preserves the listed actions and the structure of the original. For example: «De blinde får synet tilbake, og de halt går, spedalske blir renset, og de døve hører, de døde blir reist opp, og de fattige får evangeliet forkynt» (Matt. 11:5). Replace the current rendered wording exactly within the same paragraph and keep the reference unchanged.",
+        "translation_quote": "«De blinde ser, og de halt går, spedalske blir renset, og de døve hører, de døde blir reist opp, og fattige blir evangelisert» (Matt. 11:5)."
+      },
+      {
+        "location": "Paragraph beginning \"When we become a part of the kingdom of God, we cannot be effective if we each do what we want...\" (paragraph with phrase \"There is a war raging...\")",
+        "severity": "major",
+        "source_quote": "There is a war raging, and we cannot fight it alone.",
+        "suggested_fix": "Correct the translation to convey the present continuous sense of an active conflict. For example: «Det pågår en kamp, og vi kan ikke kjempe den alene.» or «En krig raser, og vi kan ikke kjempe den alene.» Update the sentence in-place, keeping paragraph tags and order.",
+        "translation_quote": "Det rasler av krig, og vi kan ikke kjempe den alene."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

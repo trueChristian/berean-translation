@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6d34080d-d5a1-4549-a091-950aa4b3b184",
+    "response_id": "chatcmpl-EUUP7fjp7cb6k0fFAKbF68N0WC6S0",
+    "usage": {
+      "completion_tokens": 1343,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1566,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2909
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> stanza 4 lines 1-2",
+        "severity": "major",
+        "source_quote": "How gleam thy watch-fires through the night\nwith never-fainting ray!",
+        "suggested_fix": "Translate \"watch-fires\" as a form of watch/fires/beacons rather than \"vakttorn\" (watch-towers). For example: \"Hur glimma vakternas eldar genom natten\nmed ett aldrig sviktande sken!\" or \"Hur glimma dina vaktseldar genom natten\nmed en aldrig sviktande stråle!\" Preserve the two-line structure and the sense of light/beacons rather than towers.",
+        "translation_quote": "Hur glimma dina vakttorn genom natten\nmed en aldrig sviktande stråle!"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 4 line 4",
+        "severity": "minor",
+        "source_quote": "to meet the dawning day!",
+        "suggested_fix": "Correct the Swedish wording to the conventional phrase \"daggrynningens ljus\" or \"daggryningens sken\". For example: \"för att möta daggrynningens ljus!\"",
+        "translation_quote": "för att möta daggroendets ljus!"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 5 line 2",
+        "severity": "minor",
+        "source_quote": "in vain the drifting sands:",
+        "suggested_fix": "Use a more idiomatic Swedish rendering of \"drifting sands\", for example \"de drivande sandarna\" or \"de drivande sanddynerna\". Suggested: \"förgäves de drivande sandarna:\"",
+        "translation_quote": "förgäves de driva sandarna:"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

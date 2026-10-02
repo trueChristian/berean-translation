@@ -2,7 +2,6 @@
   "article_id": "fbb7faf4-04de-4858-b608-09cb6aedaacf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,62 @@
         },
         "total_tokens": 9623
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1611,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9348,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10959
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<article> opening through paragraph before <h2>得智慧！</h2> (lead and subsequent English paragraphs)",
+      "severity": "critical",
+      "source_quote": "“So, what brings you in today?” I asked Ben, a 40-year-old man who was sitting across from me. … I have always said that if you know more than your doctor, either you need a healthy dose of humility or a new doctor— or maybe both.",
+      "suggested_fix": "Translate these opening paragraphs into standard written Mandarin (Simplified Chinese), preserving the source HTML tags and structure exactly (e.g., <p class=\"lead\"> and subsequent <p> blocks). The translation must faithfully convey the original English meaning, including the anecdote about Ben, the discussion of requested tests (blood count, thyroid, Vitamin B1, DHEA, CT scans), the physician's dialogue and reflections on patients researching online and AI (ChatGPT) passing USMLE, and the sentence about humility or finding a new doctor. Do not leave any substantive English prose in these paragraphs; render all quoted material and narrative into Chinese while keeping Scripture references and numeric citations unchanged.",
+      "translation_quote": "（这些段落仍保持英文，见翻译版开头多段英文文本）"
+    },
+    {
+      "location": "Paragraph: \"The fact that your mother’s cousin took milkweed extract...\"",
+      "severity": "major",
+      "source_quote": "The fact that your mother’s cousin took milkweed extract and felt much better from similar symptoms to yours is interesting.",
+      "suggested_fix": "Correct the plant name translation to match the original English 'milkweed'. Replace “马兜铃草提取物” with a Chinese rendering that accurately corresponds to English 'milkweed' (e.g., “乳草/马利筋（milkweed）提取物” or another commonly accepted Chinese name for milkweed). Keep the rest of the sentence meaning intact. Ensure the remedy name is not rendered as 马兜铃草 (Aristolochia), which is a different, potentially misleading herb.",
+      "translation_quote": "“你母亲的表亲服用马兜铃草提取物并从与你相似的症状中明显好转”"
+    },
+    {
+      "location": "All <img> alt attributes (three figures)",
+      "severity": "minor",
+      "source_quote": "alt=\"A stack of old Bibles and books\"; alt=\"A gloved hand holding blood sample tubes\"; alt=\"A wide collage showing healthcare professionals and a pharmacy\"",
+      "suggested_fix": "Translate the image alt text into Mandarin while preserving the image tags and other attributes exactly. For example: alt=\"一叠旧圣经与书籍\"; alt=\"带手套的手持血样试管\"; alt=\"展现医疗专业人员与药房的宽幅拼贴图\" — or similar idiomatic Chinese that faithfully conveys the English alt text. Do not alter file paths or other attributes.",
+      "translation_quote": "alt attributes remain in English in the translation HTML"
+    },
+    {
+      "location": "References section (citation titles left in English)",
+      "severity": "minor",
+      "source_quote": "<li><cite>Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models - PMC (nih.gov)</cite></li> ...",
+      "suggested_fix": "Although proper names and titles can remain in original form, translate any descriptive or translatable parts of the citation titles where appropriate into Chinese consistent with the rest of the translation. Alternatively, if the publication or title is normally presented in English in Chinese contexts, add a parenthetical Chinese rendering. Preserve citation order and numeric reference markers. Do not remove or alter URLs or citation identifiers.",
+      "translation_quote": "References retained in English in translation"
+    },
+    {
+      "location": "Several early paragraphs where author discusses CARS acronym and AMA guidelines (terminology clarity)",
+      "severity": "minor",
+      "source_quote": "Robert Harris made an acronym CARS, that helps sort out whether information on a website is valid. Credibility, past Accuracy, Reasonableness, and Supporting information ... The American Medical Association has guidelines ...",
+      "suggested_fix": "Ensure the acronym CARS is explained in Chinese and that the four words are translated idiomatically and accurately (e.g., 可信度、以往准确性、合理性与支持性资料). Also ensure 'American Medical Association (AMA)' is rendered as '美国医学会 (AMA)' so readers recognize the organization. Keep the acronym and its expansion consistent and clear in Chinese.",
+      "translation_quote": "罗伯特·哈里斯提出了一个首字母缩略词 CARS... 美国医学会（AMA）对医生在诊所出售产品的伦理行为有指南。"
     }
   ],
   "id": "496d1233b5dda5742e76fe4ef5500163",
@@ -69,11 +124,13 @@
     }
   },
   "protected": false,
+  "quality_score": 40,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6a174f90d4349eed5395b954b6464250e64e874608b754c80cbaf37735556faf.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "e438e2a5dbbb36ddf11340e0d96ac331f86b42c4c964f5787972c99d3487ba67",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

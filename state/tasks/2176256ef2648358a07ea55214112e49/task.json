@@ -2,7 +2,6 @@
   "article_id": "b37f8111-4563-4b5b-ab9f-1f87bcd2b46a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 6298
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 961,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6087,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7048
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<p>...le Southern Highlands of Tanzania.</p>",
+      "severity": "minor",
+      "source_quote": "We now live in an easier place; the Southern Highlands of Tanzania.",
+      "suggested_fix": "Translate or localize the region name into standard contemporary Italian and preserve meaning. For example: “le Highlands meridionali della Tanzania” or “l'altopiano meridionale della Tanzania”. Replace the English phrase but keep it inside the same paragraph and tags.",
+      "translation_quote": "Ora viviamo in un luogo più facile: le Southern Highlands della Tanzania."
+    },
+    {
+      "location": "<p>...Fa freddo (45 degrees or less in the morning).</p>",
+      "severity": "minor",
+      "source_quote": "It’s cold (45 degrees or colder in the morning).",
+      "suggested_fix": "Keep the original numeric temperature wording but avoid implying a unit change. Either keep the original ambiguous wording (e.g. “45 degrees o meno”) or specify the unit as in the English source only if known. Suggested fix: “Fa freddo (45 gradi o meno al mattino).” If the publication uses Celsius, add “(45 °F/≈7 °C)” only if the editor confirms unit conversion. Implement the change inside the same paragraph and tags.",
+      "translation_quote": "Fa freddo (45 gradi o meno al mattino)."
+    },
+    {
+      "location": "<p>...peace lilies...</p>",
+      "severity": "minor",
+      "source_quote": "There are peace lilies, roses, hibiscus, and other bright flowers blooming, and succulents growing in delightful little pots.",
+      "suggested_fix": "Correct the Italian name of 'peace lilies' to a standard contemporary form. Replace “spatafilli” with “spatifilli” (or “spathiphyllum/spatifillo” per houseplant usage). Keep the rest of the sentence unchanged and inside the same paragraph and tags.",
+      "translation_quote": "Ci sono spatafilli, rose, ibischi e altri fiori vivaci in fiore, e piante succulente che crescono in deliziosi vasetti."
+    }
+  ],
+  "finished_at": "2026-10-02T10:04:50+00:00",
   "id": "2176256ef2648358a07ea55214112e49",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ita",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8a0658267fa9eaeafccc26ac6637cde2343d272e4862413edce341f1010a3f2c.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "810e77f1e38c86de9278d0fba622dcb0789774ee530b139604475db68ad15426",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

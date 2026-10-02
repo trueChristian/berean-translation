@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "74a17aa0-95a0-477d-8b66-bb552b4fde55",
+    "response_id": "chatcmpl-EUUKyRElkvcBw3ewB5EnQxwmFy2JM",
+    "usage": {
+      "completion_tokens": 849,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1544,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2393
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> stanza 2, line 2",
+        "severity": "minor",
+        "source_quote": "his life within the keen air breathes;",
+        "suggested_fix": "Сохраните смысл, но улучшите порядок слов в русском для естественности: \"Его жизнь дышит в пронизывающем воздухе;\" — замените \"Его жизнь в пронизывающем воздухе дышит;\" на это.",
+        "translation_quote": "Его жизнь в пронизывающем воздухе дышит;"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 4, line 4",
+        "severity": "minor",
+        "source_quote": "and keep us through life's wintry days.",
+        "suggested_fix": "Словосочетание «житейские зимние дни» звучит неестественно для современного русского. Предложение: \"и хранишь нас в жизненные зимние дни.\" или более поэтически: \"и хранишь нас в житейские зимние часы/дни зимние жизни.\" Выберите одну из более естественных форм.",
+        "translation_quote": "и хранишь нас в житейские зимние дни."
+      }
+    ],
+    "passed": true,
+    "score": 95
+  }
+}

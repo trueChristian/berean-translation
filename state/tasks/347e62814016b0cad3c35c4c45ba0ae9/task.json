@@ -2,7 +2,6 @@
   "article_id": "f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 1818
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 875,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1532,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2407
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> stanza 2, verso 2 (\"his life within the keen air breathes;\")",
+      "severity": "minor",
+      "source_quote": "his life within the keen air breathes;",
+      "suggested_fix": "Consider a more idiomatic rendering in Italian for smoother rhythm and clarity, e.g. \"la sua vita respira nell'aria pungente;\" — preserve meaning but improve word order.",
+      "translation_quote": "la sua vita nell'aria pungente respira;"
+    },
+    {
+      "location": "<div class=\"poem\"> stanza 3, verso 1-2 (\"home closer draws her circle now, / and warmer glows her light within.\")",
+      "severity": "minor",
+      "source_quote": "home closer draws her circle now, and warmer glows her light within.",
+      "suggested_fix": "\"Home\" è personificata; la traduzione \"il focolare stringe ora il suo cerchio più vicino\" è comprensibile ma leggermente awkward in italiano. Suggestione alternativa per maggiore naturalezza: \"la casa ora accorcia il suo cerchio, / e più caldo risplende il suo lume dentro.\" Preserve the poetic personification and meaning.",
+      "translation_quote": "il focolare stringe ora il suo cerchio più vicino, e più caldo arde la sua luce dentro."
+    }
+  ],
+  "finished_at": "2026-10-02T10:04:50+00:00",
   "id": "347e62814016b0cad3c35c4c45ba0ae9",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ita",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1ed33a15abc99ca0a5621844be43f6764a1df6e4da098bed1eb0cbfbb0276cbd.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

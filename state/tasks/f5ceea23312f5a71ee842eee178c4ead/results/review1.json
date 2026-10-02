@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b08eeef1-ab23-4d47-9f58-da3f3d1d86fc",
+    "response_id": "chatcmpl-EUULf3bfO1ShxMAFLY8XJDOLU9Yb7",
+    "usage": {
+      "completion_tokens": 1630,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9287,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10917
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html — entire article body (multiple paragraphs)",
+        "severity": "critical",
+        "source_quote": "“So, what brings you in today?” I asked Ben, a 40-year-old man who was sitting across from me.\n\n“Well,” he answered. “I have a few different symptoms. The biggest one is that I am always tired, but I’ve also been gaining weight, and my knees hurt some in the mornings.”\n\n... (entire article continues in English, including narrative, explanations, examples, and conclusions) ...",
+        "suggested_fix": "Translate the full article body into Kiswahili. Preserve all HTML structure and tags exactly as in source.html (paragraphs, headings, figures, figure/img elements, references section etc.). Do not remove, add, or reorder paragraphs. Faithfully render the author’s theological claims and tone in Kiswahili without altering doctrinal meaning. Ensure all substantive prose (narrative, assertions, examples, medical descriptions, and explanations) appears in Kiswahili rather than English.",
+        "translation_quote": "“So, what brings you in today?” I asked Ben, a 40-year-old man who was sitting across from me.\n\n“Well,” he answered. “I have a few different symptoms. The biggest one is that I am always tired, but I’ve also been gaining weight, and my knees hurt some in the mornings.”\n\n... (entire article continues in English, including narrative, explanations, examples, and conclusions) ..."
+      },
+      {
+        "location": "translation.html — quoted Scripture passages (Proverbs 4:5-9; Psalms 103:3; James 5:16; I Kings 3:9,10; Proverbs 18:15)",
+        "severity": "critical",
+        "source_quote": "Proverbs 4:5-9 says, “Get wisdom, get understanding: forget it not; neither decline from the words of my mouth. Forsake her not, and she shall preserve thee: love her, and she shall keep thee. Wisdom is the principal thing; therefore get wisdom: and with all thy getting get understanding. Exalt her, and she shall promote thee: she shall bring thee to honour, when thou dost embrace her. She shall give to thine head an ornament of grace: a crown of glory shall she deliver to thee.”\n\nPsalms 103:3 says of God, “Who forgiveth all thine iniquities; who healeth all thy diseases.”\n\n(I Kings 3:9,10) ... (James 5:16)",
+        "suggested_fix": "Translate all quoted Scripture passages into Kiswahili using conventional Kiswahili Bible book names and preserve exact chapter and verse designations and the number/placement of references as in the source. Render the biblical quotations faithfully to the printed English meaning (do not substitute a different scriptural claim). Keep the Scripture quotes as part of the same paragraph/HTML element where they appear in source.html.",
+        "translation_quote": "Proverbs 4:5-9 says, “Get wisdom, get understanding: forget it not; neither decline from the words of my mouth. Forsake her not, and she shall preserve thee: love her, and she shall keep thee. Wisdom is the principal thing; therefore get wisdom: and with all thy getting get understanding. Exalt her, and she shall promote thee: she shall bring thee to honour, when thou dost embrace her. She shall give to thine head an ornament of grace: a crown of glory shall she deliver to thee.”\n\nPsalms 103:3 says of God, “Who forgiveth all thine iniquities; who healeth all thy diseases.”\n\n(James 5:16) ..."
+      },
+      {
+        "location": "translation.html — references section (section.references <ol><li><cite>…</cite>)",
+        "severity": "minor",
+        "source_quote": "<ol>\n      <li><cite>Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models - PMC (nih.gov)</cite></li>\n      <li><cite>Evaluating Internet Research Sources</cite></li>\n      <li><cite>Sale of Health-Related Products | AMA-Code (ama-assn.org)</cite></li>\n      <li><cite>65% of Americans believe they are above average in intelligence: Results of two nationally representative surveys - PMC (nih.gov)</cite></li>\n    </ol>",
+        "suggested_fix": "Translate the visible citation titles (the text inside <cite>) into Kiswahili where they are standalone descriptive titles, while preserving any proper names, URLs, and the order of items. If a citation is an established English title that must remain unchanged for bibliographic reasons (e.g., exact study title), preserve it verbatim but consider adding a brief Kiswahili explanatory phrase in parentheses. Do not change the HTML structure or remove links. Ensure the references remain accurate and correspond to the same sources as the English version.",
+        "translation_quote": "<ol>\n      <li><cite>Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models - PMC (nih.gov)</cite></li>\n      <li><cite>Evaluating Internet Research Sources</cite></li>\n      <li><cite>Sale of Health-Related Products | AMA-Code (ama-assn.org)</cite></li>\n      <li><cite>65% of Americans believe they are above average in intelligence: Results of two nationally representative surveys - PMC (nih.gov)</cite></li>\n    </ol>"
+      }
+    ],
+    "passed": false,
+    "score": 30
+  }
+}

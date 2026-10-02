@@ -2,7 +2,6 @@
   "article_id": "5a87c21f-cce9-4033-8a43-5458311bc7f0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,41 @@
         },
         "total_tokens": 13767
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1033,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13490,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14523
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html first <p class=\"article-note\"> (publication title)",
+      "severity": "major",
+      "source_quote": "After printing all five articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet.",
+      "suggested_fix": "Translate the publication title inside the same <em>...</em> tags into Urdu. Preserve the existing HTML structure and tags exactly. Example replacement (leave tags unchanged):\n... جب ہم نے تمام پانچ مضامین کو </em>خلاصۂ باقیہ کا دل (The Heartbeat of the Remnant)<em> میں شائع کیا، تو ہم انہیں ایک کتابچہ کی صورت میں شائع کریں گے۔ ...\nOr if you prefer fully translated title without English in parentheses: use your chosen Urdu rendering between the same </em> and <em> tags.",
+      "translation_quote": "جب ہم نے تمام پانچ مضامین کو </em>The Heartbeat of the Remnant<em> میں شائع کیا، تو ہم انہیں ایک کتابچہ کی صورت میں شائع کریں گے۔ یہ پانچ میں سے چوتھا مضمون ہے۔"
+    },
+    {
+      "location": "source.title and opening phrase",
+      "severity": "minor",
+      "source_quote": "A Christ-Centered Courtship Series",
+      "suggested_fix": "Consider a more idiomatic Urdu rendering that preserves the authorial theology and genre. Keep the same HTML title tag and order. Two possible alternatives (choose one and replace the translation's title text):\n- </title>ایک مسیح مرکزِ رشتہ ازدواجی سلسلہ</title>\n- </title>ایک مسیح محورِ منسلک رفاقت کا سلسلہ</title>\n(Do not change HTML tags—only replace the visible title text.)",
+      "translation_quote": "ایک مسیح مرکزِ دِلعاشق ملاقات سلسلہ"
     }
   ],
   "id": "38513605100afb8880086b21254a14ca",
@@ -69,11 +103,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0a1dcaa5cafea68d0933d4307f622a54749ce00327ed437d6329e9b9b2a36c0b.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "403dccfee978e00bf41c2daf2df29e8cfa526a0ef6c19371773e58abc48734b6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

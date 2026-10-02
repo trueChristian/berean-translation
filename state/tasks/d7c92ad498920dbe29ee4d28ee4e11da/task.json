@@ -2,7 +2,6 @@
   "article_id": "21180900-6bdd-4c06-a4ed-fd0f6b8a3571",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,62 @@
         },
         "total_tokens": 5179
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1757,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4968,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6725
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "First paragraph",
+      "severity": "major",
+      "source_quote": "the Russian Mennonites came into being as a group in a way quite similar to that of us with an Anabaptist heritage",
+      "suggested_fix": "ترجم \"Anabaptist\" إلى المصطلح المقصود والمدرَك في العربية. اقترح: «المنحدرين من الإرث الأنابابتستي» أو «الأنابابتست». عدل العبارة إلى: «تشكّلت مجموعة مينونيت روسيا بطريقة شبيهة جداً بتشكّلنا نحن ذوي الإرث الأنابابتستي.»",
+      "translation_quote": "الشعب الذي نطلق عليه عادة اسم مينونيت روسيا تشكل كمجموعة بطريقة مشابهة جداً للطريقة التي تشكلنا نحن ذوو الإرث الإسهالي. نحن نشأنا من ذات مناطق أوروبا، ومن كثيرٍ من تعاليم الإصهالبة المبكرة نفسها،..."
+    },
+    {
+      "location": "Second paragraph (description of local peoples)",
+      "severity": "major",
+      "source_quote": "The residents of New Russia, as it was then called, were mostly nomads and Cossacks, a seminomadic group present in the steppes of Russia.",
+      "suggested_fix": "\"Cossacks\" تُرجَم عادةً إلى «الكوزاق» أو «القباطنة» ليس دقيقاً. أصلح العبارة إلى: «كان سكان روسيا الجديدة، كما كانت تُسمى آنذاك، في الغالب رُحلاً وكوزاقاً، وهي مجموعة شبه رحّالة تستوطن سهوب روسيا.»",
+      "translation_quote": "كان سكان روسيا الجديدة، كما كانت تُسمى آنذاك، في الغالب من الرُحل والقباطنة، وهي مجموعة شبه رَحَالة موجودة في سهوب روسيا."
+    },
+    {
+      "location": "Fifth paragraph (prosperity sentence)",
+      "severity": "major",
+      "source_quote": "As the churches grew, so did their prosperity.",
+      "suggested_fix": "\"prosperity\" تُرجَم إلى «الازدهار» أو «الرِّفاهية». استبدل كلمة \"رخاوة\" الخاطئة بكلمة مناسبة: «مع نمو الكنائس، نمت أيضاً رخاوة المجتمع وازدهاره.» → «مع نمو الكنائس، نمت أيضاً ازدهارهم ورخاؤهم.» أو ببساطة: «مع نمو الكنائس، نَمَت أيضاً رخاءاتهم وازدهارهم.»",
+      "translation_quote": "ومع نمو الكنائس، نمت أيضاً رخاوة المجتمع وازدهاره."
+    },
+    {
+      "location": "Paragraph referencing the Gulag book (near end)",
+      "severity": "major",
+      "source_quote": "the Gulag Archipelago, a book written by a Russian officer who was accused of treason. That author, Aleksandr Solzhenitsyn, painted a terrible picture...",
+      "suggested_fix": "عنوان الكتاب اختُلط فيه نصّ غير عربي («ГУЛاغ») داخل الترجمة، ويجب أن يُعرض بالعربية أو بحرف لاتيني مقروء. استبدل بـ: «الأرخبيل الغولاغ» أو «The Gulag Archipelago» مع طباعة عربية موحّدة: «الأرخبيل الغولاغ (Gulag Archipelago)». تأكد من هجاء اسم المؤلف: «ألكسندر سولجنيتسين» أو «ألكسندر سولجينيتسين» بشكل ثابت ومألوف بالعربية، واحتفظ بوصف الكاتب كما في المصدر إن أردتم: «كتاب كتبه رجل روسي اتُهم بالخيانة» أو احتفظ بصيغة المصدر: «كتاب كتبه ضابط روسي اُتُّهم بالخيانة.»",
+      "translation_quote": "كتاب <em>الأرخبيل الغУЛاغ</em> (Gulag Archipelago)، كتاب كتبه ضابط روسي اُتُّهم بالخيانة."
+    },
+    {
+      "location": "Paragraph about kulaks wording (two places)",
+      "severity": "minor",
+      "source_quote": "the kulaks, the wealthy class of peasants, came under persecution from the new government",
+      "suggested_fix": "المترجم استخدم كل من «الكولاك» و«كولاك» متناقضين. اقترح توحيد المصطلح إلى «الكوﻻك (kulaks)» أو «الكولاك» مع شرح مختصر عند الظهور الأول إن لزم. مثال: «الكولاك، طبقة الفلاحين الأثرياء،...»",
+      "translation_quote": "عندما تعرض الكولاك، طبقة الفلاحين الأثرياء، للاضطهاد من الحكومة الجديدة، اعتُبر المينونيت أعداءً للشعب."
     }
   ],
   "id": "d7c92ad498920dbe29ee4d28ee4e11da",
@@ -69,11 +124,13 @@
     }
   },
   "protected": false,
+  "quality_score": 62,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/e6d5dd4085cebb3593cea88c0c7b399e589533f4996bbdc3712184dc25845fc4.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "eb6b57cc0ff9251672705de37bad2d751542487f4ae521b68aaf1b67b286861e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

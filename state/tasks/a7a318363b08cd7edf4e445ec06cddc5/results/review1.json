@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "89e4255f-0787-4226-acad-143155bbaf34",
+    "response_id": "chatcmpl-EUUOnRElhFvvo20jiABQwYvYlw2Ty",
+    "usage": {
+      "completion_tokens": 995,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5146,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6141
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Throughout (proper name of the group)",
+        "severity": "minor",
+        "source_quote": "The people we commonly refer to as the Russian Mennonites",
+        "suggested_fix": "한국어에서 통상적으로 쓰이는 표기 '메노나이트'로 고쳐 독자에게 더 자연스럽고 일관된 표기를 사용하십시오. 예: \"러시아 메노나이트\". HTML 구조를 변경하지 말고 단어만 교체하십시오.",
+        "translation_quote": "우리가 흔히 러시아 맨어나이트(Russian Mennonites)라 부르는 사람들"
+      },
+      {
+        "location": "Paragraph containing \"Old Colony\" (third paragraph)",
+        "severity": "minor",
+        "source_quote": "the “Old Colony” was established at Chortitza.",
+        "suggested_fix": "한국어 독자에게 더 자연스럽도록 영어 표제를 괄호 안에 두는 대신 주된 번역어를 강조하고 영어 표기를 괄호로 덧붙이십시오. 예: \"구(舊) 식민지(Old Colony)\" → \"구 식민지(Old Colony)\" 또는 \"'구 식민지' (Old Colony)\". 현재 번역의 한자 표기와 괄호 사용이 다소 어색하므로 한자 표기는 선택적으로 제거해도 무방합니다. HTML 요소는 변경하지 마십시오.",
+        "translation_quote": "462가구의 첫 이민은 1788년에 시작되었고, \"구(舊)식민지(Old Colony)\"는 촐티차(Chortitza)에 세워졌습니다."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

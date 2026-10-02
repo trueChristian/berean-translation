@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "70bcafa5-481f-4c75-a506-9956bb24c3dc",
+    "response_id": "chatcmpl-EUUKaUz49ZJOEc0OyO6smDtAkATwm",
+    "usage": {
+      "completion_tokens": 1383,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2984,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4367
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Last paragraph of third <p> (printing history) — sentence: \"L’impression a parcouru un long chemin depuis 1436, lorsque chaque page devait être composées et imprimée individuellement.\"",
+        "severity": "minor",
+        "source_quote": "\"...when each page had to be set up and printed individually.\"",
+        "suggested_fix": "Correct grammatical agreement: change \"devait être composées\" to \"devait être composée\" so the past passive participle agrees with \"page\" (singular, feminine).",
+        "translation_quote": "\"L’impression a parcouru un long chemin depuis 1436, lorsque chaque page devait être composées et imprimée individuellement.\""
+      },
+      {
+        "location": "Penultimate paragraph — article titles left in English (quoted substantive prose)",
+        "severity": "major",
+        "source_quote": "\"A Glorious Church by Barry Grant and Joy in the Crevices by Sheryl Zeiset were both first printed in 2019.\"",
+        "suggested_fix": "Translate the article titles into French (quoted substantive prose must be rendered in the target language). Preserve the authors and year and the surrounding sentence structure. Example: replace \"A Glorious Church de Barry Grant et Joy in the Crevices de Sheryl Zeiset\" with a faithful French rendering of the titles, e.g. \"Un Église glorieuse de Barry Grant et Joie dans les crevasses de Sheryl Zeiset\" (or another translator-approved wording), and keep the rest of the sentence unchanged.",
+        "translation_quote": "\"A Glorious Church de Barry Grant et Joy in the Crevices de Sheryl Zeiset ont tous deux été publiés pour la première fois en 2019.\""
+      },
+      {
+        "location": "Third paragraph (periodical name) — magazine title left in English inside body text",
+        "severity": "major",
+        "source_quote": "\"...it is much easier to print a periodical magazine such as The Heartbeat of the Remnant.\"",
+        "suggested_fix": "Translate the magazine title or present it in a French typographic form consistent with the rest of the translation. Quoted or translatable article metadata appearing in the article body should be rendered into the target language. For example: replace \"The Heartbeat of the Remnant\" with a French rendering such as \"Le Battement du Reste\" (or another approved translation of the publication title), or keep the original title but indicate it as a proper name in French punctuation if the style guide requires. Preserve the surrounding sentence.",
+        "translation_quote": "\"...il est beaucoup plus facile d’imprimer un périodique comme The Heartbeat of the Remnant.\""
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

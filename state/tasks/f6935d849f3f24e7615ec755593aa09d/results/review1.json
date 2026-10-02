@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8b9b26be-82a9-4bfb-972c-234459232648",
+    "response_id": "chatcmpl-EUUJucEoK8Fm2YbHWNWI4eCg97pNn",
+    "usage": {
+      "completion_tokens": 952,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3909,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4861
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph 2 (\"Two rows from the front of the auditorium...\")",
+        "severity": "minor",
+        "source_quote": "Two rows from the front of the auditorium, Dirk spotted Brother Silas’ white hair and his black vest.",
+        "suggested_fix": "Use a closer equivalent for \"front of the auditorium\" in Russian. Replace \"В двух рядах от сцены\" with \"В двух рядах от передней части зала\" or \"В двух рядах от переднего ряда зала\", to avoid implying a stage when the English says the front of the auditorium.",
+        "translation_quote": "В двух рядах от сцены Дирк заметил белые волосы брата Сайласа и его чёрный жилет."
+      },
+      {
+        "location": "source.html — paragraph 2 and last paragraph (brand name Lifesavers)",
+        "severity": "minor",
+        "source_quote": "Lifesavers, to be exact.",
+        "suggested_fix": "The brand name Lifesavers is acceptable untranslated, but for clarity and typographic consistency in Russian it should be set off or transliterated. Suggest changing \"Конфетки Lifesavers, если быть точным.\" to either \"конфеты «Lifesavers», если быть точным.\" or \"конфеты «Лайфсейверс», если быть точным.\"",
+        "translation_quote": "Конфетки Lifesavers, если быть точным."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

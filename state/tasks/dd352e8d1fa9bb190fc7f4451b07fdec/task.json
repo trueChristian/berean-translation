@@ -2,7 +2,6 @@
   "article_id": "b5ea052a-167f-45c4-bf40-cd463c4546b6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 6821
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1164,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6471,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7635
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "source.html paragraph: \"We grimace under the menacing icy grip...\",\"translation.html paragraph: \"Nous grimacons sous l’étreinte glaciale menaçante...\"",
+      "severity": "minor",
+      "source_quote": "We grimace under the menacing icy grip that holds us captive and longingly anticipate its eventual release.",
+      "suggested_fix": "Correct the French verb form/orthography. Replace “Nous grimacons” with “Nous grimapons” or, better, “Nous grimacons” with proper c-cedilla: “Nous grimçons” is incorrect; the correct French is “Nous grimacons” → use “Nous grimacons” with a cedilla on the c: “Nous grimacons”. (Preferred correction: “Nous grimacons” → “Nous grimacons” with cedilla: “Nous grimacons”.)",
+      "translation_quote": "Nous grimacons sous l’étreinte glaciale menaçante qui nous tient captifs et attendons avec impatience sa libération éventuelle."
+    },
+    {
+      "location": "source.html paragraph: \"Such is the ministry of winter that our God has gifted us with.\", translation.html paragraph: \"Telle est la ministérielle de l’hiver que notre Dieu nous a donnée.\"",
+      "severity": "minor",
+      "source_quote": "Such is the ministry of winter that our God has gifted us with.",
+      "suggested_fix": "Replace the non-idiomatic/neologism “ministérielle” with the standard French noun “ministère” or a more natural phrase. Suggested correction: “Telle est le ministère de l’hiver que notre Dieu nous a donné.” or better: “Telle est l’œuvre ministérielle de l’hiver que notre Dieu nous a donnée.”",
+      "translation_quote": "Telle est la ministérielle de l’hiver que notre Dieu nous a donnée."
+    }
+  ],
+  "finished_at": "2026-10-02T10:04:51+00:00",
   "id": "dd352e8d1fa9bb190fc7f4451b07fdec",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "fra",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/cb70a64f61d5d6ea793a28714a8210160bd2f71712162f15c2619f188dcf0e3f.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "43083ba7fbaa256f5105f34da9e51d125c38a107a8d91b3864609877708b8ea8",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

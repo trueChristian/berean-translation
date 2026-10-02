@@ -2,7 +2,6 @@
   "article_id": "fbb7faf4-04de-4858-b608-09cb6aedaacf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 11119
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 843,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10768,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11611
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "First paragraph (lead) — drop-cap and opening word",
+      "severity": "minor",
+      "source_quote": "“S o, what brings you in today?”",
+      "suggested_fix": "Render the dropped initial as intended (the English 'S' was a dropped-cap in the source). Either use a dropped-cap matching the English original letter or make the Hindi opening fully natural without an erroneous single-letter drop-cap. For example, replace the existing '<span class=\"drop-cap\">“क</span>ि, तो आज ...' with '<span class=\"drop-cap\">“तो</span> क्या, आज ...' or use '<span class=\"drop-cap\">“S</span>ो, ...' only if your layout requires preserving the original Latin dropped-cap. Ensure the visible initial character is a normal, readable character in Hindi and that the sentence reads naturally.",
+      "translation_quote": "“कि, तो आज यहाँ किस बात के लिए आए हो?” मैंने बेन से पूछा, ..."
+    },
+    {
+      "location": "Proverbs quotation paragraph (Proverbs 4:5-9) — encoding/artifact inside a Hindi word",
+      "severity": "minor",
+      "source_quote": "\"Wisdom is the principal thing; therefore get wisdom: and with all thy getting get understanding.\"",
+      "suggested_fix": "Remove the stray control/encoding character in the Hindi rendering. Replace 'प्रज्ञा प्राप्\\u0010त कर' with 'प्रज्ञा प्राप्त कर' (single correct Hindi word without embedded control code). Check the file encoding so no hidden control characters remain in the output.",
+      "translation_quote": "“प्रज्ञा प्रधान है; इसलिये प्रज्ञा प्राप्\u0010त कर; और जितना कुछ तुम प्राप्\u0010त करो उस पर बुद्धि भी प्राप्\u0010त कर।”"
+    }
+  ],
+  "finished_at": "2026-10-02T10:04:51+00:00",
   "id": "cfcd3d444c87883962ff181f6df7e586",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "hin",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6a174f90d4349eed5395b954b6464250e64e874608b754c80cbaf37735556faf.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e438e2a5dbbb36ddf11340e0d96ac331f86b42c4c964f5787972c99d3487ba67",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

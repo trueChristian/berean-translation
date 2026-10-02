@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1a9e9bd3-bad4-4d05-bae9-82523a2db9e7",
+    "response_id": "chatcmpl-EUUKLxNEhk0RWIE7BCkMhRBdRQyXJ",
+    "usage": {
+      "completion_tokens": 1109,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12079,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13188
+    }
+  },
+  "received_at": "2026-10-02T10:04:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.title",
+        "severity": "critical",
+        "source_quote": "A Christ-Centered Courtship Series",
+        "suggested_fix": "Translate the English title into Spanish in the translation.title field. Suggested Spanish title: \"Un noviazgo centrado en Cristo\". Preserve the same capitalization style used in the translation metadata.",
+        "translation_quote": "A Christ-Centered Courtship Series"
+      },
+      {
+        "location": "translation.section",
+        "severity": "critical",
+        "source_quote": "INSPIRATIONS FOR YOUTH",
+        "suggested_fix": "Translate the English section name into Spanish in the translation.section field. Suggested Spanish section: \"INSPIRACIONES PARA JÓVENES\" (keep all-caps if site uses all-caps for section headings).",
+        "translation_quote": "INSPIRATIONS FOR YOUTH"
+      },
+      {
+        "location": "translation.html — paragraph beginning “Si no estás casado, puede parecer…”",
+        "severity": "minor",
+        "source_quote": "...Contentment is caring about the things of the Lord.",
+        "suggested_fix": "Translate the orphan English word left inside the Spanish sentence. Replace \"La contentment (contentamiento) es preocuparse por las cosas del Señor.\" with a fully Spanish rendering such as: \"El contentamiento (contentamiento) es preocuparse por las cosas del Señor.\" or preferably remove the duplicate and use simply: \"El contentamiento es preocuparse por las cosas del Señor.\"",
+        "translation_quote": "La contentment (contentamiento) es preocuparse por las cosas del Señor."
+      },
+      {
+        "location": "translation.html — paragraph listing spirit contrasts (\"¿Qué espíritu sale de mí?\")",
+        "severity": "minor",
+        "source_quote": "Tough or compassionate?",
+        "suggested_fix": "Fix the typographical split in the Spanish word. Replace \"Du ro o compasivo?\" with the correct Spanish: \"¿Duro o compasivo?\"",
+        "translation_quote": "Du ro o compasivo?"
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

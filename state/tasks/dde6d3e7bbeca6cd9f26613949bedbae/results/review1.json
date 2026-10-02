@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f4932ff8-0760-402a-9c55-7c51311ac76f",
+    "response_id": "chatcmpl-EUUM6SQu6j4YewjjlVAQ4rZyG32Gh",
+    "usage": {
+      "completion_tokens": 1636,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3026,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4662
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Paragraph 1 (first paragraph)</p>",
+        "severity": "major",
+        "source_quote": "Feliz Mantz, Conrad Grebel, George Blaurock, and a few others",
+        "suggested_fix": "Use a single consistent, faithful transliteration of the personal names used in the English source. Replace both occurrences so they match and are consistent: e.g. \"Феликс Манц, Конрад Гребель, Георг Блаурок\" (or another conventional Russian transliteration), and ensure the same spelling appears every time the names occur.",
+        "translation_quote": "Фелиз Манц, Конрад Гребель, Георг Блаукрак и несколько других / Феликса Манца в Цюрихе, Швейцария."
+      },
+      {
+        "location": "<p>Paragraph 2 (Gutenberg sentence)</p>",
+        "severity": "minor",
+        "source_quote": "a German goldsmith named Johannes Gutenberg invented a moveable type printing press.",
+        "suggested_fix": "Correct the Russian word order and case to a natural and grammatically correct phrase. For example: \"в 1436 году немецкий золотых дел мастер Иоганн Гутенберг изобрёл печатный станок с подвижными литерами\" should be rendered as \"в 1436 году немецкий золотых дел мастер Иоганн Гутенберг изобрёл печатный станок с подвижными литерами\" → better: \"в 1436 году немецкий золотых дел мастер Иоганн Гутенберг изобрёл печатный станок с подвижными литерами\" — or more idiomatically: \"в 1436 году немецкий ювелир и мастер по золоту Иоганн Гутенберг изобрёл печатный станок с подвижными литерами.\"",
+        "translation_quote": "В 1436 году немецкий золотых дел мастер Иоганн Гутенберг изобрёл печатный станок с подвижными литерами."
+      },
+      {
+        "location": "<p>Paragraph 2 (timing phrase)</p>",
+        "severity": "minor",
+        "source_quote": "the Reformation did not begin with them. The real catalyst for flaming the fires of revival was kindled 88 years earlier.",
+        "suggested_fix": "Make the temporal phrasing idiomatic and grammatically correct in Russian. Replace \"событие, произошедшее на 88 лет раньше\" with \"событие, случившееся на 88 лет раньше\" or better \"событие, случившееся за 88 лет до этого.\"",
+        "translation_quote": "Настоящим катализатором, разжёгшим пламя пробуждения, стало событие, произошедшее на 88 лет раньше."
+      },
+      {
+        "location": "<p>Paragraph 1 (name consistency)</p>",
+        "severity": "major",
+        "source_quote": "Felix Mantz",
+        "suggested_fix": "Resolve the inconsistent transliteration of the same English name: change both occurrences to a single correct Russian form (for example, \"Феликс Манц\").",
+        "translation_quote": "Феликса Манца / Фелиз Манц"
+      },
+      {
+        "location": "<p>Paragraph 1 (surname Blaurock)</p>",
+        "severity": "major",
+        "source_quote": "George Blaurock",
+        "suggested_fix": "Use a faithful and consistent transliteration of the surname Blaurock. Replace \"Георг Блаукрак\" with a conventional transliteration such as \"Георг Блау́рок\" (or \"Джордж Блаурок\" if following English 'George') and ensure consistency throughout the article.",
+        "translation_quote": "Георг Блаукрак попросил Конрада Гребеля крестить его в истинной христианской вере"
+      }
+    ],
+    "passed": false,
+    "score": 68
+  }
+}

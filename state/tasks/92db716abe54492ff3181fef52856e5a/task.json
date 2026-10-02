@@ -2,7 +2,6 @@
   "article_id": "b5ea052a-167f-45c4-bf40-cd463c4546b6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,69 @@
         },
         "total_tokens": 7148
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1439,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6553,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7992
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html — paragraph containing 1 Kings 1:6 (\"The moral character of Adonijah...\")",
+      "severity": "major",
+      "source_quote": "The moral character of Adonijah had eroded, for “his father had not displeased him at any time in saying, Why hast thou done so?” (1 Kings 1:6).",
+      "suggested_fix": "Restore the proper name and preserve the Scripture citation. Replace “Adonia” with “Adonijah” (retaining target-language punctuation/format) in the translated HTML paragraph so the proper biblical person is named correctly and matches the English source.",
+      "translation_quote": "Watak moral Adonia telah terkikis, karena “ayahnya tidak pernah menegur dia pada setiap waktu, katanya: Mengapa engkau berbuat demikian?” (1 Raja-raja 1:6)."
+    },
+    {
+      "location": "source.title",
+      "severity": "minor",
+      "source_quote": "It Was Winter",
+      "suggested_fix": "Title is fine; no change required. (No action needed.)",
+      "translation_quote": "Musim Dingin"
+    },
+    {
+      "location": "source.html — <figure> <img> alt attribute",
+      "severity": "minor",
+      "source_quote": "alt=\"Snow-covered evergreen trees\"",
+      "suggested_fix": "Adjust the alt text to be natural Indonesian while preserving meaning. Suggested replacement within the img tag: alt=\"Pohon-pohon hijau yang tertutup salju\"",
+      "translation_quote": "alt=\"Pohon-pohon hijau penutup salju\""
+    },
+    {
+      "location": "source.html — paragraph about Stradivari (\"wood of the day had been seasoned...\")",
+      "severity": "minor",
+      "source_quote": "most have resolved that the wood of the day had been seasoned by difficult winters, producing a quality that cannot be replicated in our day.",
+      "suggested_fix": "Change the single-word rendering that carries an unintended meaning. Replace “dipermanis oleh musim dingin yang berat” with a more accurate Indonesian equivalent such as “telah mengalami pengeringan/pematangan oleh musim dingin yang berat” to reflect the original sense of wood being \"seasoned/aged\" rather than 'sweetened.' Preserve surrounding HTML tags and punctuation.",
+      "translation_quote": "kebanyakan berpendapat bahwa kayu pada masa itu telah dipermanis oleh musim dingin yang berat, menghasilkan kualitas yang tidak dapat ditiru pada zaman kita."
+    },
+    {
+      "location": "source.html — paragraph heading and text (\"Musim dingin is the season of profound...\")",
+      "severity": "minor",
+      "source_quote": "Winter is the season of profound, persistent cold that drives the frost deeper and thickens the ice on the ponds.",
+      "suggested_fix": "Correct minor repetition/awkwardness in translation: change the opening of the paragraph from “Musim dingin adalah musim dingin yang mendalam...” to a smoother phrasing such as “Musim dingin adalah masa dingin yang mendalam dan berkepanjangan...” while keeping the HTML structure unchanged.",
+      "translation_quote": "Musim dingin adalah musim dingin yang mendalam dan terus-menerus yang mendorong embun beku semakin dalam dan menebalkan es di kolam."
+    },
+    {
+      "location": "source.html — paragraph using the word \"austeritas\" (\"It takes the heavy austerity of winter...\")",
+      "severity": "minor",
+      "source_quote": "It takes the heavy austerity of winter to perform the genius of love in our hearts.",
+      "suggested_fix": "Use a more natural Indonesian term for “austerity” to improve clarity. Replace “austeritas berat” with e.g. “ketegasan/kerasnya musim dingin” or “kekerasan musim dingin” to convey the intended sense. Keep tags and sentence structure.",
+      "translation_quote": "Diperlukan austeritas berat musim dingin untuk menjalankan kejeniusan kasih dalam hati kita."
     }
   ],
   "id": "92db716abe54492ff3181fef52856e5a",
@@ -69,11 +131,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/cb70a64f61d5d6ea793a28714a8210160bd2f71712162f15c2619f188dcf0e3f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "43083ba7fbaa256f5105f34da9e51d125c38a107a8d91b3864609877708b8ea8",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

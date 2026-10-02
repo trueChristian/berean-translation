@@ -2,7 +2,6 @@
   "article_id": "fbb7faf4-04de-4858-b608-09cb6aedaacf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,8 +23,37 @@
         },
         "total_tokens": 10846
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1009,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10316,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11325
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<section class=\"references\"> (References list)",
+      "severity": "minor",
+      "source_quote": "<ol>\n      <li><cite>Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models - PMC (nih.gov)</cite></li>\n      <li><cite>Evaluating Internet Research Sources</cite></li>\n      <li><cite>Sale of Health-Related Products | AMA-Code (ama-assn.org)</cite></li>\n      <li><cite>65% of Americans believe they are above average in intelligence: Results of two nationally representative surveys - PMC (nih.gov)</cite></li>\n    </ol>",
+      "suggested_fix": "Translate the visible citation titles (the text inside each <cite> element) into standard contemporary Afrikaans so that all article-visible metadata is presented in the target language. Preserve the HTML structure, tags, order and any URLs or identifiers. Example fixes (narrowly scoped — keep original links and parentheses unchanged):\n\n<li><cite>Prestasie van ChatGPT op die USMLE: Potensiaal vir KI-ondersteunde mediese onderrig met groot taalmodelle - PMC (nih.gov)</cite></li>\n<li><cite>Evaluering van internetnavorsingsbronne</cite></li>\n<li><cite>Verkope van gesondheidsverwante produkte | AMA-kode (ama-assn.org)</cite></li>\n<li><cite>65% van Amerikaners glo hulle is bo gemiddeld in intelligensie: Resultate van twee nasionaal-vertegenwoordigende opnames - PMC (nih.gov)</cite></li>",
+      "translation_quote": "<ol>\n      <li><cite>Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models - PMC (nih.gov)</cite></li>\n      <li><cite>Evaluating Internet Research Sources</cite></li>\n      <li><cite>Sale of Health-Related Products | AMA-Code (ama-assn.org)</cite></li>\n      <li><cite>65% of Americans believe they are above average in intelligence: Results of two nationally representative surveys - PMC (nih.gov)</cite></li>\n    </ol>"
+    }
+  ],
+  "finished_at": "2026-10-02T10:04:51+00:00",
   "id": "6a7dee8d6728ea3c7cafd56003c0eb46",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "afr",
@@ -69,11 +97,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6a174f90d4349eed5395b954b6464250e64e874608b754c80cbaf37735556faf.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e438e2a5dbbb36ddf11340e0d96ac331f86b42c4c964f5787972c99d3487ba67",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

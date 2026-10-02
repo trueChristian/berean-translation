@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "715b1cfd-8cb7-48f0-8b66-f750dd90a116",
+    "response_id": "chatcmpl-EUUK3QX3WLk0rq0CDSrbeJdAnkY8L",
+    "usage": {
+      "completion_tokens": 1214,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6018,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7232
+    }
+  },
+  "received_at": "2026-10-02T10:04:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<blockquote> (Scripture citation)",
+        "severity": "minor",
+        "source_quote": "“... (Rom. 11:33–36).”",
+        "suggested_fix": "Use the conventional Portuguese book name/abbreviation for Romans while keeping chapter and verse numbers unchanged. Example: “(Rom. 11:33–36).” -> “(Rom. 11:33–36).” (If your style guide prefers another Portuguese abbreviation such as “Rm.”, change to “(Rm. 11:33–36)”). Preserve punctuation and the verse-range exactly.",
+        "translation_quote": "“... (Rom. 11:33–36).”"
+      },
+      {
+        "location": "<p class=\"source-note\"> (Sourcing line at end of article)",
+        "severity": "minor",
+        "source_quote": "<em>Sourced from: A Treasury of Hymn Stories, hymnary.org, umc-discipleship.org, FBC</em>",
+        "suggested_fix": "Translate the sourcing label into Portuguese while leaving the listed English titles/URLs/identifiers as-is. Preserve the <em> tag. Example: <em>Fontes: A Treasury of Hymn Stories, hymnary.org, umc-discipleship.org, FBC</em>",
+        "translation_quote": "<em>Sourced from: A Treasury of Hymn Stories, hymnary.org, umc-discipleship.org, FBC</em>"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a18a198f-7976-4b7b-8815-120c53943f5d",
+    "response_id": "chatcmpl-EUUKEB9l4tQ6J2X1M6n9pKQvmdvYR",
+    "usage": {
+      "completion_tokens": 1514,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1589,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3103
+    }
+  },
+  "received_at": "2026-10-02T10:04:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> stanza 1, line 3",
+        "severity": "minor",
+        "source_quote": "The true thy chartered freemen are / of every age and clime:",
+        "suggested_fix": "Use a more idiomatic Hebrew rendering of \"chartered freemen\" that conveys legal/privileged status (e.g., \"החברים הזכאים הרשומים\" or \"אזרחייך המוענקים זכויות מיוחדות\") rather than \"אזרחייך המוסמכים\", which reads awkwardly. Preserve the plural sense and keep the clause meaning: the true, officially recognized members from every age and climate.",
+        "translation_quote": "הנאמנים האמתיים הם אזרחייך המוסמכים<br>\n  מכל דור ומכל אקלים:"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 3, line 1",
+        "severity": "minor",
+        "source_quote": "How purely hath thy speech come down / from man's primaeval youth!",
+        "suggested_fix": "The verb \"come down\" is better rendered as \"ירדה\" or \"הגיעה\" rather than \"נפלה\" to avoid a connotation of accidental falling. Suggested: \"כמה טהורה ירדה דיבורך מאז נעוריו הראשוניים של האדם!\"",
+        "translation_quote": "כמה טהורה נפלה דיבורך מלפני<br>\n  נעוריו הראשוניים של האדם!"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 3, line 2",
+        "severity": "minor",
+        "source_quote": "How grandly hath thine empire grown / of freedom, love, and truth!",
+        "suggested_fix": "Word order and agreement are awkward. Suggested clearer idiom: \"כמה גדלה ושגשגה אימפרייתך של חירות, אהבה ואמת!\" or \"כמה גדלה אימפרייתך של חירות, אהבה ואמת והפכה למרשימה!\"",
+        "translation_quote": "כמה מרחיבה אימפרייתך צמחה<br>\n  של חירות, אהבה ואמת!"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 4, line 1",
+        "severity": "minor",
+        "source_quote": "How gleam thy watch-fires through the night / with never-fainting ray!",
+        "suggested_fix": "\"ניצוצות משמרותיך\" and \"בקרן אור\" are slightly awkward. Consider: \"כמה זוהרות משמרותייך בלילה בקרן אור שאינה דוהה!\" or \"כמה זוהרות המוציאות שלך בלילה בקרן חסרת דעיכה!\" to convey continuous shining.",
+        "translation_quote": "כמה ניצוצות משמרותיך ניצבים בלילה<br>\n  בקרן אור שאינה דועכת!"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 5, lines 1–2</location>",
+        "severity": "minor",
+        "source_quote": "In vain the surge's angry shock, / in vain the drifting sands:",
+        "suggested_fix": "The Hebrew phrasing is awkward and partially obscures meaning. Better: \"בשווא זעמם של הגלים, ושווא התקפה של החול הנודד:\" or \"בשווא זעמם של הגלים, ובשווא חול נודד:\" to mirror the parallelism and clarity of the original.",
+        "translation_quote": "ריקם זעמם של הגלים, לשוא תקפת הזרם,<br>\n  לשוא חול הנודד:"
+      }
+    ],
+    "passed": true,
+    "score": 95
+  }
+}

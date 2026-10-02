@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a06acf1c-87e3-4807-a247-96b957a1e996",
+    "response_id": "chatcmpl-EUUKmgMJbRzi3lBYkiU2tO5MsZ57h",
+    "usage": {
+      "completion_tokens": 1025,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2872,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3897
+    }
+  },
+  "received_at": "2026-10-02T10:04:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning \"According to a 2010 Google project...\" / Paragraph beginning \"Vamos usar esta liberdade de imprensa...\" (testimony sentence)",
+        "severity": "minor",
+        "source_quote": "One person from an undisclosed location wrote, “. . . we all take turns reading the magazine in church. A very edifying magazine. God bless you! God’s blessings.”",
+        "suggested_fix": "Add the indefinite article before \"Pessoa\" to read \"Uma pessoa de local não divulgado escreveu:\" so the Portuguese is grammatically natural. Preserve the quoted testimony text and punctuation exactly as in the translation.",
+        "translation_quote": "Pessoa de local não divulgado escreveu: “...todos nós revezamos a leitura da revista na igreja. Uma revista muito edificante. Deus os abençoe! Bênçãos de Deus.”"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

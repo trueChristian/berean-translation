@@ -2,7 +2,6 @@
   "article_id": "a42c5719-aea1-47ed-abad-ed0cd2571382",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 4132
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 952,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3909,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4861
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "source.html — paragraph 2 (\"Two rows from the front of the auditorium...\")",
+      "severity": "minor",
+      "source_quote": "Two rows from the front of the auditorium, Dirk spotted Brother Silas’ white hair and his black vest.",
+      "suggested_fix": "Use a closer equivalent for \"front of the auditorium\" in Russian. Replace \"В двух рядах от сцены\" with \"В двух рядах от передней части зала\" or \"В двух рядах от переднего ряда зала\", to avoid implying a stage when the English says the front of the auditorium.",
+      "translation_quote": "В двух рядах от сцены Дирк заметил белые волосы брата Сайласа и его чёрный жилет."
+    },
+    {
+      "location": "source.html — paragraph 2 and last paragraph (brand name Lifesavers)",
+      "severity": "minor",
+      "source_quote": "Lifesavers, to be exact.",
+      "suggested_fix": "The brand name Lifesavers is acceptable untranslated, but for clarity and typographic consistency in Russian it should be set off or transliterated. Suggest changing \"Конфетки Lifesavers, если быть точным.\" to either \"конфеты «Lifesavers», если быть точным.\" or \"конфеты «Лайфсейверс», если быть точным.\"",
+      "translation_quote": "Конфетки Lifesavers, если быть точным."
+    }
+  ],
+  "finished_at": "2026-10-02T10:04:51+00:00",
   "id": "f6935d849f3f24e7615ec755593aa09d",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "rus",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/75a969c45055c429de95d7ac7fb5ad9ae24609ae4e6f17660c8fb6226abf6c70.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "cb49d9b32a113d5c0bf30e44cdec3451c0a5ce43ad2cf97a5830259f43dd1f79",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "dd8f8dd2-fe52-4fac-abfb-0c954d712988",
+    "response_id": "chatcmpl-EUUJuXePQBOyuHklka2n7RUAYtbUr",
+    "usage": {
+      "completion_tokens": 1635,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1579,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3214
+    }
+  },
+  "received_at": "2026-10-02T10:04:52+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> stanza 2, line 1",
+        "severity": "minor",
+        "source_quote": "his life within the keen air breathes;",
+        "suggested_fix": "Translate the sense naturally and with correct noun choice and gender. Replace \"उसकी जीवनी तीखी हवा में साँस लेती है;\" with \"उसका जीवन तीखी हवा में साँस लेता है;\" to use the proper word for 'life' and correct verb agreement.",
+        "translation_quote": "उसकी जीवनी तीखी हवा में साँस लेती है;"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 2, line 2",
+        "severity": "minor",
+        "source_quote": "his beauty paints the crimson dawn,",
+        "suggested_fix": "\"crimson\" should be translated to indicate deep red dawn (लालिमा/लाल भोर). Replace \"उसकी शोभा सुरभित भोर को रंगती है,\" with \"उसकी शोभा लालिमा से भरी भोर को रंगती है\" or \"उसकी शोभा भोर की लालिमा को रंग देती है।\"",
+        "translation_quote": "उसकी शोभा सुरभित भोर को रंगती है,"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 3, line 2",
+        "severity": "major",
+        "source_quote": "and skies are chill, and frosts are keen,",
+        "suggested_fix": "The translation wrongly renders 'frosts' as 'ओस-कण' (dewdrops). This changes the imagery. Replace \"और आकाश ठंडे हैं, और ओस-कण तीखे हैं,\" with \"और आकाश ठंडे हैं, और पाले तीखे हैं,\" or \"और आकाश ठंडे हैं, और पाले कड़े हैं,\" so that 'frosts' (पाल/पाला) is correctly conveyed.",
+        "translation_quote": "और आकाश ठंडे हैं, और ओस-कण तीखे हैं,"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 3, line 3",
+        "severity": "minor",
+        "source_quote": "home closer draws her circle now,",
+        "suggested_fix": "Personification/gender and verb agreement are uneven: the translation uses \"घर अब अपने घेरे को और पास खींचता है,\" where घेरना/खींचना with 'घर' can be masculine or feminine; prefer idiomatic phrasing. Suggest \"अब घर अपने घेरे को और करीब खींच लेता है,\" or \"अब घर अपना घे_in_रा और निकट कर लेता है.\" (preserve HTML structure).",
+        "translation_quote": "घर अब अपने घेरे को और पास खींचता है,"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 4, line 2",
+        "severity": "minor",
+        "source_quote": "as well as summer's joyous rays,",
+        "suggested_fix": "Awkward and slightly ungrammatical phrasing. Replace \"उसी प्रकार जैसे गर्मियों की हर्षित किरणें भी देते हैं,\" with a clear parallel: \"और साथ ही गर्मियों की प्रसन्न किरणें भी देते हैं।\"",
+        "translation_quote": "उसी प्रकार जैसे गर्मियों की हर्षित किरणें भी देते हैं,"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 4, line 4</location>",
+        "severity": "minor",
+        "source_quote": "and keep us through life's wintry days.",
+        "suggested_fix": "Awkward verb phrase \"रखे रहते हैं\" should be smoothed to \"रखते हैं\" or \"रखा करते हैं\". Suggest: \"और जीवन के शीतकालीन दिनों में हमें संभालते/रखते हैं।\"",
+        "translation_quote": "और जीवन के शीतकालीन दिनों में हमें रखे रहते हैं।"
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

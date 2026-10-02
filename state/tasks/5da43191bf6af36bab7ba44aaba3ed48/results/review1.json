@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0bf0dc31-7fc8-456b-8f7e-d3180c785c31",
+    "response_id": "chatcmpl-EUUMnQpPLbG1oHT2jGnukn7rGgS7z",
+    "usage": {
+      "completion_tokens": 1500,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5203,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6703
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 2 (about nomads/Cossacks)",
+        "severity": "major",
+        "source_quote": "The residents of New Russia, as it was then called, were mostly nomads and Cossacks, a seminomadic group present in the steppes of Russia.",
+        "suggested_fix": "Translate the sense accurately. Replace the Kiswahili phrase that renders \"nomads\" as \"wavamizi\" (invaders) with the correct word for nomads (e.g., “wahamaji wa kabila/waimami” or “wao walikuwa wahamaji/wanahamaji”), and render \"Cossacks, a seminomadic group present in the steppes of Russia\" as “Cossack, kundi la nusu-wahamaji lililopo tambarare za Urusi.” Preserve sentence structure and HTML tags.",
+        "translation_quote": "Wakazi wa New Russia, kama ilivyokuwa ikitajwa wakati huo, waliokuwa zaidi wavamizi wa maeneo na Cossacks, kundi la nusu-wahamaji lililokuwa katika tambarare za Urusi."
+      },
+      {
+        "location": "Paragraph beginning \"And so, they embraced the invading Germans.\"",
+        "severity": "major",
+        "source_quote": "And so, they embraced the invading Germans.",
+        "suggested_fix": "Correct the mistranslation of \"invading Germans.\" The Kiswahili currently uses “Wajerumani waliotovuliwa,” which falsely means \"disrobed Germans\" or is nonsensical. Replace with a correct translation such as “wakakumbatia Wajerumani waliovamia” or “walikumbatia Waarabu?\" (use the correct ethnic name). Ensure the verb conveys \"invading\" (e.g., \"waliovamia\").",
+        "translation_quote": "Na hivyo, walikumbatia Wajerumani waliotovuliwa."
+      },
+      {
+        "location": "Penultimate paragraph (anti-Communist phrase)",
+        "severity": "minor",
+        "source_quote": "that was vehemently anti-Communist- to this beleaguered group of believers, this must have seemed to be a God sent miracle to deliver them from their burdensome exile.",
+        "suggested_fix": "Translate the parenthetical/English phrase into Kiswahili rather than leaving an English term in parentheses. Replace “na ambayo ilikuwa kwa msimamo mkali dhidi ya Kialamu (Anti-Communist)” with a single fluent Kiswahili rendering such as “na ambayo ilikuwa dhidi ya Ukomunisti kwa msimamo mkali” or “iliyokuwa kwa msimamo mkali dhidi ya Ukomunisti.” Keep meaning and punctuation.",
+        "translation_quote": "na ambayo ilikuwa kwa msimamo mkali dhidi ya Kialamu (Anti-Communist) — kwa kundi hili la waumini walioteseka, hili lilionekana kama muujiza..."
+      },
+      {
+        "location": "Final paragraph (scripture citation)",
+        "severity": "minor",
+        "source_quote": "“Ponder the path of thy feet, and let all thy ways be established” (Proverbs 4:26).",
+        "suggested_fix": "Translate the Bible book name into conventional Kiswahili while keeping the chapter:verse numbers unchanged. Replace the English parenthetical reference “(Proverbs 4:26)” with the Kiswahili book name and the same numbers, e.g., “(Mithali 4:26).” The quoted proverb itself is already translated; ensure the book name is localized.",
+        "translation_quote": "“Tafakari njia za miguu yako, na yawe njia zako zote zimarishwe” (Proverbs 4:26)."
+      },
+      {
+        "location": "Paragraph about collectivization (\"collectivized\")",
+        "severity": "minor",
+        "source_quote": "the agricultural communities ... were collectivized and put under government control.",
+        "suggested_fix": "Do not leave the English term in parentheses. Replace “(collectivized)” with a Kiswahili equivalent (e.g., “kulikotwa umiliki wa pamoja” or “kulikokolezwa/kuunganishwa umiliki/kuwekwa katika mifumo ya umiliki wa pamoja”) and remove the English word, producing a fluent Kiswahili sentence.",
+        "translation_quote": "Ibada za kidini mara chache ziliruhusiwa, na jamii za kilimo ... zilikusanywa kanuni za umiliki wa pamoja (collectivized) na kuwekwa chini ya udhibiti wa serikali."
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

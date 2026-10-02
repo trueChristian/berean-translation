@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b65bcbbf-42e4-4af7-adf0-a557bbd8c84c",
+    "response_id": "chatcmpl-EUUKLG3HfbmztTTG7ql3XEW43cSkf",
+    "usage": {
+      "completion_tokens": 1838,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7236,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9074
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Translation — paragraph beginning \"Ένας από τους στόχους μου...\" (h2 'Άδειασμα των οριζόντιων επιφανειών')",
+        "severity": "minor",
+        "source_quote": "the rush and mess and noise of a family are beautiful too.",
+        "suggested_fix": "Μεταφράστε «the rush» με την κατάλληλη λέξη για «βιασύνη»/«σφοδρή κίνηση», όχι με λέξη που σημαίνει βιασμό. Π.χ.: «η βιασύνη, η ακαταστασία και ο θόρυβος μιας οικογένειας είναι κι αυτά όμορφα.»",
+        "translation_quote": "ο βιασμός, η ακαταστασία και ο θόρυβος μιας οικογένειας είναι κι αυτά όμορφα."
+      },
+      {
+        "location": "Translation — paragraph about mountain view (paragraph starting «Ακόμη και το βουνό που φαίνεται...» )",
+        "severity": "minor",
+        "source_quote": "patchwork of gardens and fields",
+        "suggested_fix": "Αντικαταστήστε την άκομψη ή αδόκιμη λέξη «μπακλάζ» με έγκυρη απόδοση όπως «ψηφιδωτό» ή «μωσαϊκό». Π.χ.: «το όμορφο μωσαϊκό των κήπων και των χωραφιών.»",
+        "translation_quote": "το όμορφο μπακλάζ των κήπων και των χωραφιών."
+      },
+      {
+        "location": "Translation — title element and title text",
+        "severity": "minor",
+        "source_quote": "Joy in the Crevices",
+        "suggested_fix": "Διορθώστε τη σύνταξη και την επιλογή λέξεων στο ελληνικό τίτλο. Καλύτερες επιλογές: «Χαρά στις ρωγμές» ή «Χαρά στις ρωγμές της ζωής». (Αποφύγετε «Χαρά στις Ραγίσματα», που είναι μη φυσική σύνταξη.)",
+        "translation_quote": "Χαρά στις Ραγίσματα"
+      },
+      {
+        "location": "Translation — paragraph 'Άδειασμα των οριζόντιων επιφανειών' first sentence",
+        "severity": "critical",
+        "source_quote": "the rush and mess and noise of a family are beautiful too.",
+        "suggested_fix": "Η λέξη «βιασμός» στο ελληνικό κείμενο είναι εντελώς ακατάλληλη και αλλοιώνει τελείως το νόημα (σημαίνει ‘rape’). Αντικαταστήστε άμεσα με «βιασύνη» ή «βοή» ανάλογα με το ύφος. Π.χ.: «η βιασύνη, η ακαταστασία και ο θόρυβος μιας οικογένειας είναι κι αυτά όμορφα.»",
+        "translation_quote": "ο βιασμός, η ακαταστασία και ο θόρυβος μιας οικογένειας είναι κι αυτά όμορφα."
+      },
+      {
+        "location": "Translation — final source-note (publication titles)",
+        "severity": "major",
+        "source_quote": "It was first printed in The Heartbeat of the Remnant in the Autumn 2019 issue. Previously printed in Earthen Vessels.",
+        "suggested_fix": "Τα ονόματα των εκδόσεων εμφανίζονται στο πρωτότυπο ως τμήμα παραπομπής/πρότασης και πρέπει να αποδοθούν στο ελληνικό κείμενο ως μεταφρασμένα ή μεταγραμμένα τίτλοι στα ελληνικά (ή σε παράθεση με ελληνικό περιβάλλον). Μπορείτε να διατηρήσετε το αγγλικό πρωτότυπο σε εισαγωγικά αν χρειάζεται, αλλά μην αφήνετε αμετάφραστα τα τμήματα που λειτουργούν ως γραπτή παραπομπή. Π.χ.: «Πρωτοεκτυπώθηκε στο τεύχος Φθινοπώρου 2019 του The Heartbeat of the Remnant (Το Χτύπημα της Καρδιάς του Υπολείμματος). Προηγουμένως δημοσιεύτηκε στο Earthen Vessels (Χάλκινα Αγγεία).»",
+        "translation_quote": "<em>Το άρθρο επανεκτυπώνεται μετά από αίτηση. Πρωτοεκτυπώθηκε στο </em><span>The Heartbeat of the Remnant</span><em> στο τεύχος του Φθινοπώρου 2019. Προηγουμένως δημοσιεύτηκε στο </em><span>Earthen Vessels</span><em>.</em>"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

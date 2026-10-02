@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e6440557-5cd1-4d9f-809c-343a63d9d059",
+    "response_id": "chatcmpl-EUULAMm63UNlxnKHX2M2gReRhAGq6",
+    "usage": {
+      "completion_tokens": 1482,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5978,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7460
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph: \"One of my goals is to clean off all flat surfaces in my house and leave only pleasant, tasteful things.\" (corresponds to translation paragraph beginning \"Одна из моих целей — очистить все плоские поверхности\")",
+        "severity": "minor",
+        "source_quote": "One of my goals is to clean off all flat surfaces in my house and leave only pleasant, tasteful things. I function so much better if my house is a restful, orderly place.",
+        "suggested_fix": "Improve Russian idiom and clarity while preserving meaning. Replace the sentence \"Я действую гораздо лучше, если дом — место отдыха и порядка.\" with a more natural rendering, for example: \"Мне намного легче жить и работать, если дом — место отдыха и порядка.\" or \"Я чувствую себя куда лучше, когда дом — место отдыха и порядка.\" Preserve HTML structure and surrounding text.",
+        "translation_quote": "Я действую гораздо лучше, если дом — место отдыха и порядка."
+      },
+      {
+        "location": "source.html final paragraph with publication credits (class=\"source-note\")",
+        "severity": "minor",
+        "source_quote": "The article is reprinted by request. It was first printed in The Heartbeat of the Remnant in the Autumn 2019 issue. Previously printed in Earthen Vessels.",
+        "suggested_fix": "Translate the publication titles into Russian (publication metadata should be localized). Replace the English span elements with Russian translations or accepted localized titles while preserving the surrounding tags and order. Example edit (preserve <span> tags):\n<p class=\"source-note\"><em>Статья воспроизведена по просьбе. Первоначально напечатана в </em><span>Пульс Уцелевших</span><em> в выпуске Осень 2019. Ранее печаталась в </em><span>Глиняные Сосуды</span><em>.</em></p>\nIf exact established Russian titles exist for these periodicals, use those; otherwise provide a natural Russian translation inside the existing <span> elements.",
+        "translation_quote": "<p class=\"source-note\"><em>Статья воспроизведена по просьбе. Первоначально напечатана в </em><span>The Heartbeat of the Remnant</span><em> в выпуске Autumn 2019. Ранее печаталась в </em><span>Earthen Vessels</span><em>.</em></p>"
+      }
+    ],
+    "passed": true,
+    "score": 95
+  }
+}

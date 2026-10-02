@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6f61ab10-61d2-4227-9c96-662bb2ec4967",
+    "response_id": "chatcmpl-EUUKFG0A5IoQhel5N1DXdcU8fA9NZ",
+    "usage": {
+      "completion_tokens": 1157,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6208,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7365
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<blockquote> (Romans quote)",
+        "severity": "minor",
+        "source_quote": "“O the depth of the riches both of the wisdom and knowledge of God! how unsearchable are His judgments, and his ways past finding out! For who hath known the mind of the Lord? Or who hath been his counsellor? Or who hath first given to him, and it shall be recompensed unto him again? For of Him, and through Him, and to him, are all things: to whom be glory for ever. Amen” (Rom. 11:33–36).",
+        "suggested_fix": "Correct the French rendering for natural grammar while preserving the meaning. Replace the existing translated sentence with: « Ô profondeur des richesses, de la sagesse et de la connaissance de Dieu ! Que ses jugements sont insondables et impénétrables ses voies ! Car qui a connu la pensée du Seigneur ? Qui a été son conseiller ? Qui lui a donné premièrement, et cela lui sera rendu ? Car de lui, par lui et pour lui sont toutes choses. À lui la gloire aux siècles ! Amen » (Rom. 11:33–36).",
+        "translation_quote": "« Ô profondeur des richesses, de la sagesse et de la connaissance de Dieu ! Que ses jugements sont insondables et impénétrables ses voies ! Car qui a connu la pensée du Seigneur ? Qui l'a été son conseiller ? Qui lui a donné premièrement, et cela lui sera rendu ? Car de lui, par lui et pour lui sont toutes choses. À lui la gloire aux siècles ! Amen » (Rom. 11:33–36)."
+      },
+      {
+        "location": "Paragraph about the tune (near end)",
+        "severity": "minor",
+        "source_quote": "A great part of this song’s enduring quality is the tune it is paired with. This refrain was written especially for this song by Sir George Job Elvey in 1868 and was given the name of Diademata.",
+        "suggested_fix": "“Refrain” is a slightly misleading translation for the English “tune.” Use a more natural French term that preserves the original meaning: replace the sentence with, for example, « Une grande part de la qualité durable de ce chant tient à la mélodie qui l’accompagne. Cette mélodie fut spécialement composée pour ce chant par Sir George Job Elvey en 1868 et porta le nom de Diademata. »",
+        "translation_quote": "« Une grande part de la qualité durable de ce chant tient à la mélodie qui l’accompagne. Ce refrain fut spécialement composé pour ce chant par Sir George Job Elvey en 1868 et porta le nom de <em>Diademata</em>. »"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7aef01a1-a114-4fec-8e43-68f4e732192c",
+    "response_id": "chatcmpl-EUUK5Xn7zr3Sqh4s4tcG8d4KI6OB6",
+    "usage": {
+      "completion_tokens": 1587,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5061,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6648
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...Turkey Red Wheat.</p>",
+        "severity": "major",
+        "source_quote": "By this time, the strong agricultural society of the Mennonites had transformed Ukraine into a breadbasket, its vast fields sown with wheat developed specifically by the Mennonites: Turkey Red Wheat.",
+        "suggested_fix": "Translate the crop name into Swedish or supply an accepted Swedish rendering immediately following the English name in parentheses. For example: \"...vete utvecklat särskilt av mennoniterna: Turkey Red-vete (Turkey Red Wheat).\" Preserve the surrounding HTML and sentence structure.",
+        "translation_quote": "Vid denna tid hade det starka jordbrukssamhället bland mennoniterna förvandlat Ukraina till en kornbod, dess vida fält sådda med vete utvecklat särskilt av mennoniterna: Turkey Red Wheat."
+      },
+      {
+        "location": "<p>...USSR.</p>",
+        "severity": "major",
+        "source_quote": "...the treatment and exile of those who had opposed the USSR.",
+        "suggested_fix": "Translate the abbreviation 'USSR' into Swedish. Use 'Sovjetunionen' in the translation, preserving the sentence structure and HTML. For example: \"...behandlingen och landsförvisningen av dem som motsatt sig Sovjetunionen.\"",
+        "translation_quote": "Den författaren, Aleksandr Solzhenitsyn, målade upp en fruktansvärd bild av behandlingen och landsförvisningen av dem som motsatt sig USSR."
+      },
+      {
+        "location": "Throughout article (instances of 'menonitkyrkan' vs 'mennoniterna')",
+        "severity": "minor",
+        "source_quote": "This hardy crop had made the Mennonite church quite wealthy, and their colonies had grown and flourished into villages of comfort and, at times, extravagance.",
+        "suggested_fix": "Ensure consistent and correct spelling of the group name in Swedish. Use 'mennoniterna' for the people and 'mennonitkyrkan' (with double 'n') for the church where appropriate. Example correction in the paragraph: replace 'menonitkyrkan' with 'mennonitkyrkan'. Preserve HTML tags and sentence order.",
+        "translation_quote": "Denna härdiga gröda hade gjort menonitkyrkan ganska rik, och deras kolonier hade växt och blomstrat till byar av bekvämlighet och ibland överdådighet."
+      },
+      {
+        "location": "<p>...Religösa gudstjänster...</p>",
+        "severity": "minor",
+        "source_quote": "Religious services were rarely allowed, and the agricultural communities that had fed Russia and many others besides were collectivized and put under government control.",
+        "suggested_fix": "Correct the misspelling 'Religösa' to 'Religiösa'. Keep the sentence and surrounding HTML unchanged.",
+        "translation_quote": "Religösa gudstjänster tilläts sällan, och de jordbrukssamhällen som hade fött Ryssland och många andra blev kollektiviserade och sattes under statlig kontroll."
+      },
+      {
+        "location": "<p>...gav sina kroppar till bål och svärd...</p>",
+        "severity": "minor",
+        "source_quote": "the descendants of those helpless believers who gave their bodies at the stake and sword aligned themselves with a worldly kingdom...",
+        "suggested_fix": "The phrasing is awkward in Swedish. Suggest a clearer, idiomatic rendering preserving the original meaning, e.g. 'ättlingarna till de hjälplösa troende som tidigare offrat sina kroppar på bål och genom svärd...' Keep HTML tags and sentence order.",
+        "translation_quote": "ättlingarna till de hjälplösa troende som gav sina kroppar till bål och svärd ställde sig på samma sida som ett världsligt rike som lovade att skydda och förse dem."
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

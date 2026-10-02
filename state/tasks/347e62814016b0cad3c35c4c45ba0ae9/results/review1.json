@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "97a3f6c7-f756-4383-b3c4-3a2cb366b351",
+    "response_id": "chatcmpl-EUUKZ6Q3zCmDWMDGGCabncEvfiZDP",
+    "usage": {
+      "completion_tokens": 875,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1532,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2407
+    }
+  },
+  "received_at": "2026-10-02T10:04:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> stanza 2, verso 2 (\"his life within the keen air breathes;\")",
+        "severity": "minor",
+        "source_quote": "his life within the keen air breathes;",
+        "suggested_fix": "Consider a more idiomatic rendering in Italian for smoother rhythm and clarity, e.g. \"la sua vita respira nell'aria pungente;\" — preserve meaning but improve word order.",
+        "translation_quote": "la sua vita nell'aria pungente respira;"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 3, verso 1-2 (\"home closer draws her circle now, / and warmer glows her light within.\")",
+        "severity": "minor",
+        "source_quote": "home closer draws her circle now, and warmer glows her light within.",
+        "suggested_fix": "\"Home\" è personificata; la traduzione \"il focolare stringe ora il suo cerchio più vicino\" è comprensibile ma leggermente awkward in italiano. Suggestione alternativa per maggiore naturalezza: \"la casa ora accorcia il suo cerchio, / e più caldo risplende il suo lume dentro.\" Preserve the poetic personification and meaning.",
+        "translation_quote": "il focolare stringe ora il suo cerchio più vicino, e più caldo arde la sua luce dentro."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

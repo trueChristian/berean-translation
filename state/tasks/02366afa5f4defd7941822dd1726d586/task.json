@@ -2,7 +2,6 @@
   "article_id": "21180900-6bdd-4c06-a4ed-fd0f6b8a3571",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 5695
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1108,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5291,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6399
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<figure> <img alt> (image alt text)",
+      "severity": "minor",
+      "source_quote": "<img ... alt=\"A historical photograph of windmills, people, and livestock\">",
+      "suggested_fix": "Translate and describe the image accurately in contemporary Urdu. Replace the current alt text with a natural, correct rendering for “windmills”: e.g. \"پریس یا ہوادار چکیوں، لوگوں، اور مویشیوں کی ایک تاریخی تصویر\" or better: \"ہوا چکیوں (ونڈملز)، لوگوں، اور مویشیوں کی ایک تاریخی تصویر\" — preserving that it is a historical photograph.",
+      "translation_quote": "<img ... alt=\"کھمبے والے پنکھے، لوگ، اور مویشیوں کی ایک تاریخی تصویر\">"
+    },
+    {
+      "location": "Paragraph about kulaks (two places)",
+      "severity": "minor",
+      "source_quote": "\"It is, therefore, no surprise that when the kulaks, the wealthy class of peasants, came under persecution from the new government...\" / \"With the label of kulak and being generally defenseless, the Mennonites faced intense persecution.\"",
+      "suggested_fix": "Use a consistent, standard Urdu transliteration/term for \"kulak(s)\" throughout. For example: always use \"کُلاکس (kulak)\" or \"کُلَک\" or the fully translated descriptive phrase \"امیر کسان (کُلاکس)\". Replace the inconsistent occurrence \"کالک\" with the chosen form.",
+      "translation_quote": "\"لہٰذا یہ کوئی تعجب کی بات نہیں کہ جب کالا کس (kulaks)، یعنی امیر طبقے کے کسان...\" / \"کالک کا لیبل اور عمومی طور پر لاچار حالت کے سبب مینونا ئٹس شدید ظلم و ستم کا سامنا کرنے لگے۔\""
+    },
+    {
+      "location": "Paragraph mentioning Gulag Archipelago and Solzhenitsyn",
+      "severity": "minor",
+      "source_quote": "\"most famously in the Gulag Archipelago, a book written by a Russian officer who was accused of treason. That author, Aleksandr Solzhenitsyn...\"",
+      "suggested_fix": "Use a conventional Urdu rendering of the title and the author’s name. Correct the transliteration of the title to a standard form (for example \"گولاگ آرکپیلاگو (Gulag Archipelago)\") and ensure the author name is consistently transliterated (\"الیگزینڈر سولژنٹسِن\" or a commonly used Urdu form).",
+      "translation_quote": "\"سب سے مشہور طور پر گولاگ آرکپیلگو (<em>Gulag Archipelago</em>)... اس مصنف، الیگزینڈر سولژنٹسن (Aleksandr Solzhenitsyn)، نے...\""
+    }
+  ],
+  "finished_at": "2026-10-02T10:04:50+00:00",
   "id": "02366afa5f4defd7941822dd1726d586",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "urd",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/e6d5dd4085cebb3593cea88c0c7b399e589533f4996bbdc3712184dc25845fc4.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "eb6b57cc0ff9251672705de37bad2d751542487f4ae521b68aaf1b67b286861e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

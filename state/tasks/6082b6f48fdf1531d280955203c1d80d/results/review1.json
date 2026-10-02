@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8b63f0d2-5763-48ee-9474-e087f3da37d2",
+    "response_id": "chatcmpl-EUUNbELe1T7CgXyF3O8iC4GoWiCQK",
+    "usage": {
+      "completion_tokens": 1906,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1280,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1657,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3563
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> stanza 1, line 1",
+        "severity": "minor",
+        "source_quote": "'Tis winter now; the fallen snow",
+        "suggested_fix": "Replace the archaic/awkward Greek phrasing ‹το πέφτον χιόνι› with a natural contemporary rendering, e.g. ‹το πεσμένο χιόνι›, preserving the sentence structure.",
+        "translation_quote": "Είναι πια χειμώνας· το πέφτον χιόνι"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 1, line 3",
+        "severity": "minor",
+        "source_quote": "through leafless boughs, the sharp winds blow,",
+        "suggested_fix": "Use a more natural, grammatical modern rendering for 'leafless boughs' and correct adjective agreement. Suggested: ‹μέσα από κλαδιά χωρίς φύλλα σφυρίζουν οι δριμείς άνεμοι› or ‹μέσα από άφυλλα κλαδιά σφυρίζουν οι δριμείς άνεμοι›.",
+        "translation_quote": "μέσα από άφυλλες κλαδιές σφυρίζουν οι δριμείς άνεμοι,"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 3, line 1",
+        "severity": "minor",
+        "source_quote": "And though abroad the sharp winds blow,",
+        "suggested_fix": "Correct the adjective form ‹δριμείοι› to the standard modern form ‹δριμείς›: e.g. ‹Κι αν έξω φυσούν οι δριμείς άνεμοι›.",
+        "translation_quote": "Κι αν έξω φυσούν οι δριμείοι άνεμοι,"
+      },
+      {
+        "location": "<div class=\"poem\"> stanza 3, lines 3–4",
+        "severity": "minor",
+        "source_quote": "home closer draws her circle now, / and warmer glows her light within.",
+        "suggested_fix": "The English personification uses feminine pronouns for 'home' (her). The translation uses neuter nouns but masculine possessive pronouns (τον κύκλό του, το φως του), which is a grammatical and personification mismatch. Either (A) keep neuter and use neuter possessives: ‹το σπίτι τώρα σφίγγει πιο κοντά τον κύκλο του, και πιο ζεστά λάμπει το φως του μέσα› or (B) preserve the feminine personification by using a feminine noun for 'home' (e.g. ‹η οικία›) and feminine possessives: ‹η οικία τώρα σφίγγει πιο κοντά τον κύκλο της, και πιο ζεστό λάμπει το φως της μέσα›. Choose one consistent option.",
+        "translation_quote": "το σπίτι τώρα σφίγγει πιο κοντά τον κύκλό του,\n  και πιο ζεστό λάμπει το φως του μέσα."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

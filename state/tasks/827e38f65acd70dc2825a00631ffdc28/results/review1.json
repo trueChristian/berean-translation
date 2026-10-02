@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0248e0e3-6166-4c72-8617-c5505cea4ac2",
+    "response_id": "chatcmpl-EUUKp5EvJlRjhSrjO2v9YNqjBPHOu",
+    "usage": {
+      "completion_tokens": 1208,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5964,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7172
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph and source note (source.html end)",
+        "severity": "major",
+        "source_quote": "The article is reprinted by request. It was first printed in The Heartbeat of the Remnant in the Autumn 2019 issue. Previously printed in Earthen Vessels.",
+        "suggested_fix": "Translate the entire source-note into Arabic, including the publication titles or provide a clear, faithful Arabic rendering of those publication titles in the same HTML structure. Preserve the HTML tags and order. For example, replace the English titles inside the <span> elements with Arabic-rendered titles while keeping the surrounding <em> and <span> tags: <p class=\"source-note\"><em>تم إعادة طبع المقال بناءً على طلب. نُشر لأول مرة في </em><span>نبض الباقين</span><em> في عدد خريف 2019. نُشر سابقًا في </em><span>آنية طينية</span><em>.</em></p> — or, if the publisher prefers to keep the original English names, include an Arabic translation immediately alongside them (also inside the same span), e.g. <span>The Heartbeat of the Remnant (نبض الباقين)</span> and <span>Earthen Vessels (آنية طينية)</span>. Do not leave the publication titles only in English; render them in Arabic text within the same HTML structure.",
+        "translation_quote": "<p class=\"source-note\"><em>تم إعادة طبع المقال بناءً على طلب. نُشر لأول مرة في </em><span>The Heartbeat of the Remnant</span><em> في عدد خريف 2019. نُشر سابقًا في </em><span>Earthen Vessels</span><em>.</em></p> "
+      },
+      {
+        "location": "Paragraph about gifting the army officer (source.html mid-late)",
+        "severity": "minor",
+        "source_quote": "my husband left for another trip back to the village to “heap on coals of fire” by giving the angry army officer a solar panel and a transformer on top of the other things he demanded.",
+        "suggested_fix": "Correct the mistranslation/typo for 'transformer' and consider a more literal/faithful rendering of the idiom “heap on coals of fire” (if desired by the editor). At minimum change 'محولة' to the correct Arabic noun 'محول'. Suggested corrected Arabic phrase preserving HTML structure/context: \"...غادر هذا الصباح في رحلة أخرى إلى القرية ليُقدّم حسب التعبير الإنجليزي 'heap on coals of fire' بإعطاء الضابط الغاضب لوحًا شمسيًا ومحولًا بالإضافة إلى الأشياء الأخرى التي طالب بها.\"",
+        "translation_quote": "\"...غادر هذا الصباح في رحلة أخرى إلى القرية ليُسخِّن قلب الضابط الغاضب بإعطائه لوحًا شمسيًا ومحولة بالإضافة إلى الأشياء الأخرى التي طالب بها.\""
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

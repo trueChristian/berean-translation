@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "386c1bd4-3f4e-439e-a754-c18b34b8fbef",
+    "response_id": "chatcmpl-EUUJuDFi7jGQTZOuQTEXpqF9gWJ51",
+    "usage": {
+      "completion_tokens": 830,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6603,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7433
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "major",
+        "source_quote": "Joy in the Crevices",
+        "suggested_fix": "Translate the title to accurately convey 'crevices' (small cracks/crevices in life). Suggested Bengali title: “চিহ্নহীন কোণে আনন্দ” or “খাঁড়ি-খানা বা ফাটলে আনন্দ” (preferably: “খাঁড়ির কল্পে আনন্দ” or better: “ফাটল-কোণে আনন্দ”). Keep it concise and idiomatic.",
+        "translation_quote": "শরিকালার খাঁড়ায় আনন্দ"
+      },
+      {
+        "location": "figure > img @alt",
+        "severity": "minor",
+        "source_quote": "Winter greenery and a pinecone arranged by a window",
+        "suggested_fix": "Correct the alt text to reflect the image meaning. Suggested Bengali: “এক জানালার ধারে সাজানো শীতের সবুজ গাছপালা এবং একটি পাইনকন” or “এক জানালার ধারে সাজানো শীতকালীন সবুজ উদ্ভিদ এবং একটি পাইনকন।”",
+        "translation_quote": "এক জানালার ধারে স্থাপিত শীতকালীন সবুজ আলো এবং একটি পাইনকন"
+      },
+      {
+        "location": "<h2>Clearing off all horizontal surfaces</h2> and its translation",
+        "severity": "minor",
+        "source_quote": "Clearing off all horizontal surfaces",
+        "suggested_fix": "Use the correct Bengali term for 'horizontal' (সমতল or অনুভূমিক) and avoid 'অনুভূতিগত' which is incorrect. Suggested heading: “সব অনুভূমিক পৃষ্ঠ পরিষ্কার রাখা” or “ঘরের সব সমতল পৃষ্ঠ পরিষ্কার রাখা।”",
+        "translation_quote": "সমস্ত অনুভূতিগত সমতল পৃষ্ঠ পরিষ্কার রাখা"
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

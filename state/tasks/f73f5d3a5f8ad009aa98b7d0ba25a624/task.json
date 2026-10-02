@@ -2,7 +2,6 @@
   "article_id": "b5ea052a-167f-45c4-bf40-cd463c4546b6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 6950
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1277,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6662,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7939
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html paragraph 3 (\"As we cross the equinox...\")",
+      "severity": "minor",
+      "source_quote": "As we cross the equinox, “the days get longer, and winter gets stronger”, states the old proverb, and it remains incisively correct.",
+      "suggested_fix": "Translate or localize “equinox” into standard Afrikaans (do not leave the English word). For example: replace the phrase with: \"Soos ons die gelyklop oorsteek, sê die ou spreekwoord: 'die dae word langer, en die winter word sterker,' en dit bly skerp korrek.\" Preserve the existing HTML and punctuation.",
+      "translation_quote": "Soos ons die equinox oorsteek, stel die ou spreekwoord dat “die dae langer word, en die winter sterker raak”, en dit bly skerp korrek."
+    },
+    {
+      "location": "source.html paragraph 4 (\"Northern tradition states that the robins...\")",
+      "severity": "minor",
+      "source_quote": "Northern tradition states that the robins must get snowed on three times before the full arrival of spring.",
+      "suggested_fix": "The translator rendered \"robins\" as \"swartbosvinke\", which is a different bird-name and can mislead readers. Use a standard Afrikaans name for \"robins\" (for example \"rooiborsvoëls\" or simply \"robins\" transliterated if preferred by the publication) so the meaning of the proverb is preserved. Suggested replacement: \"Noordelike tradisie sê dat die robins (rooiborsvoëls) drie keer in die sneeu moet beland voordat die lente volkome aankom.\" Preserve HTML and punctuation.",
+      "translation_quote": "Noordelike tradisie sê dat die swartebosvinke drie keer in die sneeu moet beland voordat die lente volkome aankom."
+    },
+    {
+      "location": "source.section (metadata)",
+      "severity": "minor",
+      "source_quote": "FEATURED ARTICLE",
+      "suggested_fix": "The English section heading \"FEATURED ARTICLE\" should be rendered in correct, idiomatic Afrikaans. The translation used \"UITGEHETE ARTIKEL\", which appears to contain a typographical error. Use a conventional rendering such as \"UITGELIGTE ARTIKEL\". Do not change HTML structure—only update the section text in the metadata.",
+      "translation_quote": "UITGEHETE ARTIKEL"
     }
   ],
   "id": "f73f5d3a5f8ad009aa98b7d0ba25a624",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/cb70a64f61d5d6ea793a28714a8210160bd2f71712162f15c2619f188dcf0e3f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "43083ba7fbaa256f5105f34da9e51d125c38a107a8d91b3864609877708b8ea8",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

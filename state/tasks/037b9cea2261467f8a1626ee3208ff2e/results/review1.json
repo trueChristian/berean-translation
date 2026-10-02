@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "2b9a2314-6ce6-4e28-855a-1b2a33dc49b2",
+    "response_id": "chatcmpl-EUUJtBya9A59Dlp0DXI5Hkqv4LqLg",
+    "usage": {
+      "completion_tokens": 1024,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2933,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3957
+    }
+  },
+  "received_at": "2026-10-02T10:04:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> paragraph 1",
+        "severity": "major",
+        "source_quote": "Felix Mantz",
+        "suggested_fix": "Perbaiki ejaan nama sesuai sumber: gantikan \"Feliz Mantz\" dengan \"Felix Mantz\" di tempat yang menerjemahkan nama tersebut, mis. <p>... di rumah Felix Mantz di Zürich, Swiss. ...</p>",
+        "translation_quote": "Feliz Mantz"
+      },
+      {
+        "location": "<article> paragraph 3",
+        "severity": "minor",
+        "source_quote": "Fast forward 588 years.",
+        "suggested_fix": "Gunakan ungkapan idiomatis Bahasa Indonesia yang alami; ganti \"Melompat cepat 588 tahun.\" dengan \"Maju cepat 588 tahun.\" sehingga tetap ringkas dan mudah dibaca, mis. <p>Maju cepat 588 tahun. ...</p>",
+        "translation_quote": "Melompat cepat 588 tahun."
+      },
+      {
+        "location": "<article> paragraph 1",
+        "severity": "minor",
+        "source_quote": "the state church government of Zürich had ordered parents to have their infants baptized or face being banished from their homes.",
+        "suggested_fix": "Perhalus frasa agar tata bahasa dan idiom Bahasa Indonesia lebih alami tanpa mengubah makna. Contoh koreksi: ganti \"Pemerintah gereja-negara Zürich telah memerintahkan orangtua untuk membaptis bayi mereka atau menghadapi pengusiran dari rumah mereka.\" dengan \"Pemerintah gereja di Zürich telah memerintahkan orangtua untuk membaptis bayi mereka, atau mereka akan diusir dari rumah.\"",
+        "translation_quote": "Pemerintah gereja-negara Zürich telah memerintahkan orangtua untuk membaptis bayi mereka atau menghadapi pengusiran dari rumah mereka."
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

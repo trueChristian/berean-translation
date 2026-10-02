@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "10dd3696-44bd-4d05-99a0-0701c151171b",
+    "response_id": "chatcmpl-EUUKP3As9rUvs8pRHVc8ymwxhvf5Q",
+    "usage": {
+      "completion_tokens": 1117,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1527,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2644
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html > .poem > p:nth-of-type(1)",
+        "severity": "minor",
+        "source_quote": "has left the heavens all coldly clear;",
+        "suggested_fix": "Translate as a clear, idiomatic phrase such as “het die hemel koud en helder gelaat;” preserving the sense “coldly clear.”",
+        "translation_quote": "het die hemel skoon en koud deursigbaar gelaat;"
+      },
+      {
+        "location": "source.html > .poem > p:nth-of-type(3)",
+        "severity": "minor",
+        "source_quote": "and frosts are keen,",
+        "suggested_fix": "Render the phrase idiomatically and grammatically, for example “en ryp byt skerp,” or “en ryp is skerp,” to avoid the current ungrammatical word order.",
+        "translation_quote": "en die lug is koud, en ryp byt skerper,"
+      },
+      {
+        "location": "source.html > .poem > p:nth-of-type(3)",
+        "severity": "minor",
+        "source_quote": "home closer draws her circle now,",
+        "suggested_fix": "Remove the duplicated “nou” and use natural Afrikaans word order, e.g. “huis trek nou haar kring nouer,” → “die huis trek nou haar kring nouer” → better: “die huis trek nou haar kring nouer.” (If keeping the article’s poetic brevity, use “die huis trek nou haar kring nouer.”)",
+        "translation_quote": "die huis trek nou haar kring nouer,"
+      },
+      {
+        "location": "source.html > .poem > p:nth-of-type(3)",
+        "severity": "minor",
+        "source_quote": "and warmer glows her light within.",
+        "suggested_fix": "Fix the orthography to standard Afrikaans: change “gloe” to “gloei” — e.g. “en binnenshuis gloei haar lig warmer.”",
+        "translation_quote": "en binnenshuis gloe haar lig warmer."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

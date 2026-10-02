@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "da1fc450-aaa3-48d6-aa6a-f4e7baf171f6",
+    "response_id": "chatcmpl-EUUMzSPti4eqFhRLexnNaGzVgV6GZ",
+    "usage": {
+      "completion_tokens": 1578,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1088,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2986,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4564
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> first paragraph, name spelling",
+        "severity": "minor",
+        "source_quote": "\"Felix Mantz\" ... \"Feliz Mantz\"",
+        "suggested_fix": "The English source uses both spellings (\"Felix Mantz\" and later \"Feliz Mantz\"). The translation consistently uses \"Felix Mantz.\" To preserve fidelity to the authoritative English text as printed, either reproduce the same inconsistent spelling sequence (use \"Felix Mantz\" at the first occurrence and \"Feliz Mantz\" at the later occurrence) or, if the publisher prefers one correct form, make the same single spelling choice in the English source and in the translation. Suggested narrow fix in Swedish: change the later occurrence to match the English printed form at that location (i.e., use \"Feliz Mantz\" where the English has that spelling).",
+        "translation_quote": "\"Felix Mantz\" (only) in both occurrences"
+      },
+      {
+        "location": "<article> first paragraph, phrase \"a monumental event\"",
+        "severity": "minor",
+        "source_quote": "\"a monumental event in the history of the Christian church occurred.\"",
+        "suggested_fix": "Swedish grammar correction: replace \"monumentalt händelse\" with the correct indefinite nominative form \"en monumental händelse\" to match the English meaning and be grammatically correct. Suggested fix: change to \"en monumental händelse i den kristna kyrkans historia inträffade.\"",
+        "translation_quote": "\"en monumentalt händelse i den kristna kyrkans historia.\""
+      },
+      {
+        "location": "<figure> img alt and figcaption",
+        "severity": "minor",
+        "source_quote": "\"Gutenberg Bible on display at the U.S. Library of Congress.\"",
+        "suggested_fix": "Improve Swedish idiom and word order while preserving the printed content. Suggested narrow fixes: alt attribute: change to \"Gutenbergbibeln utställd i Library of Congress i USA\". figcaption: change to \"Gutenbergbibeln utställd i Library of Congress i USA.\" (Keep HTML tags and placement unchanged.)",
+        "translation_quote": "alt=\"Gutenbergbibel på display i Library of Congress, USA\"; figcaption: \"Gutenbergbibel på display i Library of Congress i USA.\""
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

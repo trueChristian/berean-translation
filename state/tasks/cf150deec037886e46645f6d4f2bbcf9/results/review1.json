@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "560d7810-c4ec-4d1a-8b7b-f54ba7220e6d",
+    "response_id": "chatcmpl-EUUJuufAy2p4n1MRVtF5WiUJUECe0",
+    "usage": {
+      "completion_tokens": 909,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6490,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7399
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<figure> <img alt> (image alt text)",
+        "severity": "minor",
+        "source_quote": "Winter greenery and a pinecone arranged by a window",
+        "suggested_fix": "Translate the alt more idiomatically into standard Urdu. For example: \"کھڑکی کے پاس سجایا ہوا سرمائی سبزہ اور ایک پائن کون\" or \"کھڑکی کے پاس سردیوں کا سبزہ اور ایک پائن کون\". Preserve the existing img tag and other attributes; replace only the alt text.",
+        "translation_quote": "کھڑکی کے پاس سجایا ہوا سرمائیز سبزہ اور ایک پائن کون"
+      },
+      {
+        "location": "source-note (publication titles)",
+        "severity": "minor",
+        "source_quote": "The Heartbeat of the Remnant; Earthen Vessels",
+        "suggested_fix": "Either translate the publication names into Urdu conventional forms or clearly mark them as original English titles. If you prefer a translated rendering, replace the spans content (while preserving the spans) with: \"The Heartbeat of the Remnant\" → \"دی ہارٹ بیٹ آف دا ریمننٹ (The Heartbeat of the Remnant)\" or a fully translated equivalent, and \"Earthen Vessels\" → \"مٹی کے برتن (Earthen Vessels)\". Do not change surrounding HTML structure—only edit the span contents.",
+        "translation_quote": "<span>The Heartbeat of the Remnant</span> ... <span>Earthen Vessels</span>"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

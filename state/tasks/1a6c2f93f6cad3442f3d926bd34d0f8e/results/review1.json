@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f3bfd3fc-ad35-4b4c-b4ea-2cad1256c268",
+    "response_id": "chatcmpl-EUUJtWhDqrPJFf5LKUVg5WMPOBg5F",
+    "usage": {
+      "completion_tokens": 1036,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1560,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2596
+    }
+  },
+  "received_at": "2026-10-02T10:04:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> <p> stanza 3 (How purely hath thy speech come down from man's primaeval youth!)</p>",
+        "severity": "minor",
+        "source_quote": "How purely hath thy speech come down from man's primaeval youth!",
+        "suggested_fix": "Replace \"pudore\" with a word that conveys purity rather than modesty. Suggested Italian: \"Con quanta purezza la tua parola è discesa dalla primigenia giovinezza dell'uomo!\" Preserve the existing HTML tags and stanza structure.",
+        "translation_quote": "Con quanto pudore la tua parola è discesa dalla primigenia giovinezza dell'uomo!"
+      },
+      {
+        "location": "<div class=\"poem\"> <p> stanza 1 (The true thy chartered freemen are / of every age and clime:)</p>",
+        "severity": "minor",
+        "source_quote": "The true thy chartered freemen are of every age and clime:",
+        "suggested_fix": "Consider rendering \"chartered freemen\" to preserve the legal/privileged sense of \"freemen\" rather than the more generic \"cittadini.\" Suggested Italian: \"I veri tuoi liberi, con privilegi sanciti, sono d'ogni età e clima:\" or more succinctly \"I veri tuoi liberi (con diritto), di ogni età e clima:\" Keep the stanza line breaks and tags unchanged.",
+        "translation_quote": "Veri tuoi cittadini sono gli uomini di ogni età e clima:"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "c0acf126-58a3-483c-9fd0-e21def815f2b",
+    "response_id": "chatcmpl-EUUL0AgOcmAFJHgckSLUkweTt3CX3",
+    "usage": {
+      "completion_tokens": 1073,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3720,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4793
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph 1 (opening)",
+        "severity": "minor",
+        "source_quote": "Dirk scanned the sanctuary, trying to be discreet and yet utterly failing as he twisted and turned in his seat.",
+        "suggested_fix": "Adjust Dutch verb choice to a more contemporary form for readability. For example, replace \"scande\" with \"scande\" is archaic but acceptable; consider \"scannde\" is incorrect — use \"keek rond\" or \"scande\" → \"keek onopvallend rond\" to match contemporary Dutch style while preserving meaning.",
+        "translation_quote": "Dirk scande de kerkzaal, probeerde onopvallend te zijn en faalde er toch volkomen in terwijl hij zich omdraaide en in zijn stoel wrong."
+      },
+      {
+        "location": "source.html throughout (address/title styling)",
+        "severity": "minor",
+        "source_quote": "Brother Silas",
+        "suggested_fix": "Consistency of capitalization for the honorific: the English uses initial capital 'Brother'. In Dutch translation the honorific appears as lowercase 'broer Silas' throughout. Decide on consistent style: either capitalize the honorific in all occurrences (\"Broeder Silas\" or \"Broer Silas\") or keep lowercase but be consistent. If the site prefers Dutch conventions, use 'broeder Silas' or 'broer Silas' consistently and with chosen capitalization.",
+        "translation_quote": "broer Silas (multiple occurrences) "
+      },
+      {
+        "location": "source.html paragraph referencing Numbers 11",
+        "severity": "minor",
+        "source_quote": "Father then asked Dirk to read through Numbers 11 and copy down the sentences that showed ungratefulness and how God felt about it.",
+        "suggested_fix": "Book name is translated as \"Numeri 11\" which is acceptable in many Dutch Bible references, but confirm site style for book names. If the preferred Dutch convention is \"Numeri\" keep as is; if the site prefers \"Numeri (Numeri)\" or \"Numeri (Numeri)\" no change needed. If the preferred Dutch name is \"Numeri\" this is fine. If the site prefers the Dutch vernacular \"Numeri\" (some use \"Numeri\"), keep as is. No change required unless site style dictates alternate form like \"Numeri (Numeri)\".",
+        "translation_quote": "Numeri 11"
+      },
+      {
+        "location": "source.html image alt",
+        "severity": "minor",
+        "source_quote": "A glass jar spilling wrapped mints beside a potted plant",
+        "suggested_fix": "Slightly improve Dutch idiomatic phrasing in the alt text for clarity: e.g. change \"Een glazen pot die verpakte mints naast een potplant morst\" → \"Een glazen pot die verpakte mints naast een potplant morst.\" (Alternatively: \"Een glazen pot waar verpakte mints uitvallen, naast een potplant\") Preserve simple noun order and meaning.",
+        "translation_quote": "Een glazen pot die verpakte mints naast een potplant morst"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

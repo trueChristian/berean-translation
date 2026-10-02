@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e6791a0b-b740-4c1d-8e49-d601e6ede949",
+    "response_id": "chatcmpl-EUULIAWouPbWHDTmmJ79ocyjqOJ0F",
+    "usage": {
+      "completion_tokens": 1120,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1573,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2693
+    }
+  },
+  "received_at": "2026-10-02T10:04:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> <p>... 마지막 연, 4행</p>",
+        "severity": "minor",
+        "source_quote": "and keep us through life's wintry days.",
+        "suggested_fix": "<p>오 주님, 당신은 겨울의 추위도 주시고,<br>\n  여름의 기쁜 햇살도 주시네,<br>\n  당신의 사랑으로 우리를 따뜻하게 감싸며,<br>\n  인생의 겨울 날들을 지켜 주시네.</p>",
+        "translation_quote": "인생의 겨운 날들을 지켜 주시네."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

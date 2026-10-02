@@ -2,7 +2,6 @@
   "article_id": "b37f8111-4563-4b5b-ab9f-1f87bcd2b46a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,41 @@
         },
         "total_tokens": 6759
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1066,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6536,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7602
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html — final paragraph (source-note) <span>The Heartbeat of the Remnant</span>",
+      "severity": "major",
+      "source_quote": "<em>The article is reprinted by request. It was first printed in </em><span>The Heartbeat of the Remnant</span><em> in the Autumn 2019 issue. Previously printed in </em><span>Earthen Vessels</span><em>.</em>",
+      "suggested_fix": "Translate the publication titles into contemporary standard Hindi (inside the same <span> tags). Preserve the surrounding HTML structure and emphasis tags exactly. For example: <em>यह लेख अनुरोध पर पुनर्प्रकाशित किया गया है। यह पहली बार </em><span>रिमनेंट की धड़कन</span><em> के शरद् 2019 अंक में छपा था। पहले यह </em><span>अर्थेन वेसल्स</span><em> में छपा था।</em> — or, if the publications have established Hindi titles, use those exact conventional Hindi titles inside the <span> elements.",
+      "translation_quote": "<p class=\"source-note\"><em>यह लेख अनुरोध पर पुनर्प्रकाशित किया गया है। यह पहली बार </em><span>The Heartbeat of the Remnant</span><em> के शरद् 2019 अंक में छपा था। पहले यह </em><span>Earthen Vessels</span><em> में छपा था।</em></p>\""
+    },
+    {
+      "location": "source.section",
+      "severity": "minor",
+      "source_quote": "SISTER TO SISTER",
+      "suggested_fix": "Translate the section label into contemporary standard Hindi, preserving the field content (no HTML here). For example: \"BEFORE: SISTER TO SISTER\" → \"AFTER: बहन से बहन\" (or another preferred conventional translation).",
+      "translation_quote": "\"SISTER TO SISTER\""
     }
   ],
   "id": "b30e4977afb04d17ca4b8eac7ccf67c8",
@@ -69,11 +103,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8a0658267fa9eaeafccc26ac6637cde2343d272e4862413edce341f1010a3f2c.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "810e77f1e38c86de9278d0fba622dcb0789774ee530b139604475db68ad15426",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

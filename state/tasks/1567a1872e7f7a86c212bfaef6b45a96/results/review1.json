@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b5c3b83c-e3d6-482f-a24f-1dd643f6d585",
+    "response_id": "chatcmpl-EUUKphCsRusXO6E86zAtYHi0ofn4V",
+    "usage": {
+      "completion_tokens": 712,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1502,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2214
+    }
+  },
+  "received_at": "2026-10-02T10:04:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> third stanza, line 1",
+        "severity": "minor",
+        "source_quote": "home closer draws her circle now,",
+        "suggested_fix": "Preserve the personification and gender of the English line by using a target-language phrasing that reflects \"her\" (the household/home as feminine). For example, change the translation line to: \"en thuis trekt haar kring nu nauwer samen,\" keeping it inside the same <p> tag.",
+        "translation_quote": "trekt het huis nu zijn kring nauwer samen"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

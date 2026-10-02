@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3333849e-36d4-4369-8de6-107b096c965a",
+    "response_id": "chatcmpl-EUUMF670FO8GstKX1I7X38TtPuEmR",
+    "usage": {
+      "completion_tokens": 780,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12699,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13479
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<ol> (What kind of partner do I need? — item 2)",
+        "severity": "critical",
+        "source_quote": "One that is virtuous.",
+        "suggested_fix": "Replace the mistranslation with a correct Russian equivalent conveying virtue. For example: «Тот, кто добродетелен» or «Тот, кто обладает добродетелью (добродетельный)». Preserve the HTML structure and position of the list item.",
+        "translation_quote": "Тот, кто порочен добродетелью (добродетельный)."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

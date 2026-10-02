@@ -2,7 +2,6 @@
   "article_id": "deabdd90-c842-4ed6-ad15-c2fa9870b099",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 6611
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1157,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6208,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7365
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<blockquote> (Romans quote)",
+      "severity": "minor",
+      "source_quote": "“O the depth of the riches both of the wisdom and knowledge of God! how unsearchable are His judgments, and his ways past finding out! For who hath known the mind of the Lord? Or who hath been his counsellor? Or who hath first given to him, and it shall be recompensed unto him again? For of Him, and through Him, and to him, are all things: to whom be glory for ever. Amen” (Rom. 11:33–36).",
+      "suggested_fix": "Correct the French rendering for natural grammar while preserving the meaning. Replace the existing translated sentence with: « Ô profondeur des richesses, de la sagesse et de la connaissance de Dieu ! Que ses jugements sont insondables et impénétrables ses voies ! Car qui a connu la pensée du Seigneur ? Qui a été son conseiller ? Qui lui a donné premièrement, et cela lui sera rendu ? Car de lui, par lui et pour lui sont toutes choses. À lui la gloire aux siècles ! Amen » (Rom. 11:33–36).",
+      "translation_quote": "« Ô profondeur des richesses, de la sagesse et de la connaissance de Dieu ! Que ses jugements sont insondables et impénétrables ses voies ! Car qui a connu la pensée du Seigneur ? Qui l'a été son conseiller ? Qui lui a donné premièrement, et cela lui sera rendu ? Car de lui, par lui et pour lui sont toutes choses. À lui la gloire aux siècles ! Amen » (Rom. 11:33–36)."
+    },
+    {
+      "location": "Paragraph about the tune (near end)",
+      "severity": "minor",
+      "source_quote": "A great part of this song’s enduring quality is the tune it is paired with. This refrain was written especially for this song by Sir George Job Elvey in 1868 and was given the name of Diademata.",
+      "suggested_fix": "“Refrain” is a slightly misleading translation for the English “tune.” Use a more natural French term that preserves the original meaning: replace the sentence with, for example, « Une grande part de la qualité durable de ce chant tient à la mélodie qui l’accompagne. Cette mélodie fut spécialement composée pour ce chant par Sir George Job Elvey en 1868 et porta le nom de Diademata. »",
+      "translation_quote": "« Une grande part de la qualité durable de ce chant tient à la mélodie qui l’accompagne. Ce refrain fut spécialement composé pour ce chant par Sir George Job Elvey en 1868 et porta le nom de <em>Diademata</em>. »"
+    }
+  ],
+  "finished_at": "2026-10-02T10:04:51+00:00",
   "id": "b61d7569e4e70eb4eedf33581d777d50",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "fra",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/abeb1f35c1949ea978d144c1eae3a8c74b9cda2edc2ef460b0d918ec0851fa83.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "01644cf9abc17411f3b235a99895bb87e8eec445a9ac28e6394d4afb94966251",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

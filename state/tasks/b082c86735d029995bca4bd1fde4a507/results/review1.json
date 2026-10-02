@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0ca04f1d-af54-4206-be31-40d672771eb0",
+    "response_id": "chatcmpl-EUUJuEsqUs07ezreMAAv4jpykw5Th",
+    "usage": {
+      "completion_tokens": 1167,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6183,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7350
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<figure> <img alt> (end of article)",
+        "severity": "minor",
+        "source_quote": "<img src=\"/images/articles/deabdd90-c842-4ed6-ad15-c2fa9870b099-1.png\" alt=\"Sheet music for Crown Him with Many Crowns\" loading=\"lazy\">",
+        "suggested_fix": "Translate the image alt-text so it fully appears in Bahasa Indonesia and uses the translated hymn title. For example: alt=\"Notasi musik untuk 'Mahkotailah Dia dengan Banyak Mahkota'\" (preserve quotes or punctuation as appropriate in HTML).",
+        "translation_quote": "<img src=\"/images/articles/deabdd90-c842-4ed6-ad15-c2fa9870b099-1.png\" alt=\"Notasi musik untuk Crown Him with Many Crowns\" loading=\"lazy\">"
+      },
+      {
+        "location": "Multiple occurrences of untranslated work titles within article body (e.g., book titles, hymn collections)",
+        "severity": "minor",
+        "source_quote": "Hymns of the Heart; The Passion of Jesus; Hymns and Sacred Lyrics; Hymns of the Church; Diademata",
+        "suggested_fix": "Either translate or present the titles in a localized form or mark them as original-language titles consistently. If translating, use conventional Bahasa Indonesia rendering while keeping original title in italics if desired. Example: <em>Hymns of the Heart</em> → <em>Hymns of the Heart</em> (atau «Hymns of the Heart» jika dipertahankan dalam bahasa Inggris). For <em>Diademata</em>, retain as a Greek/Latin technical name but consider adding parenthetical translation: <em>Diademata</em> (\"mahkota kerajaan\").",
+        "translation_quote": "The translation currently keeps these titles in their original form (e.g., <em>Hymns of the Heart</em>, <em>The Passion of Jesus</em>, <em>Hymns and Sacred Lyrics</em>, <em>Hymns of the Church</em>, <em>Diademata</em>)."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "fbb7faf4-04de-4858-b608-09cb6aedaacf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 10276
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1158,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9862,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11020
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<p>...CT Scan of his head, chest, and abdomen.</p>",
+      "severity": "major",
+      "source_quote": "He also wanted a CT Scan of his head, chest, and abdomen.",
+      "suggested_fix": "ترجم العبارة إلى اللغة العربية بدقة مع الحفاظ على التركيب الأصلي: «كما أراد فحصًا مقطعيًا محوسبًا (CT) لرأسه وصدره وبطنه.» (ضع النص داخل نفس الوسم <p> في مكان الترجمة الحالية).",
+      "translation_quote": "كما أراد تصويراً مقطعيًا لحجمه الرأس والصدر والبطن."
+    },
+    {
+      "location": "<figure> <img src=\"/images/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf-1.jpg\" alt=\"A stack of old Bibles and books\" loading=\"lazy\"> </figure>",
+      "severity": "minor",
+      "source_quote": "A stack of old Bibles and books",
+      "suggested_fix": "بدّل ترجمة نص البديل إلى صياغة دقيقة: «كومة من نسخ وكتب إنجيلية قديمة» أو ببساطة «كومة من نسخ وكتب إنجيلية قديمة/مخطوطات دينية قديمة» حسب سياق الصورة. احتفظ بالوسم <img> كما هو واستبدل قيمة السمة alt فقط.",
+      "translation_quote": "كومة من كتب ونسخ قديمة من الأناجيل"
+    },
+    {
+      "location": "<p class=\"lead\">“So, what brings you in today?” I asked Ben, a 40-year-old man...",
+      "severity": "minor",
+      "source_quote": "“So, what brings you in today?”",
+      "suggested_fix": "اقترح صياغة عربية أكثر طبيعية للافتتاحية مع الحفاظ على المعنى: استبدال «ماذا جاء بك اليوم؟» بـ «ما الذي أحضرَكَ اليوم؟» أو «ما الذي جاء بك اليوم إلى هنا؟». ضع التعديل داخل نفس الوسم <p class=\"lead\">.",
+      "translation_quote": "«ماذا جاء بك اليوم؟»"
     }
   ],
   "id": "47d0b3d3ed242966dbdfcb69694c6450",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6a174f90d4349eed5395b954b6464250e64e874608b754c80cbaf37735556faf.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "e438e2a5dbbb36ddf11340e0d96ac331f86b42c4c964f5787972c99d3487ba67",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

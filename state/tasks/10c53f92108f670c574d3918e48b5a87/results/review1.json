@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f141c034-5bd3-4e6e-ae84-dcf561236bfd",
+    "response_id": "chatcmpl-EUUKTRCdlmPQHOX3LlatjGrBdCVTq",
+    "usage": {
+      "completion_tokens": 1710,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6251,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7961
+    }
+  },
+  "received_at": "2026-10-02T10:04:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>Matthew Bridges föddes ... <em>Hymns of the Heart</em> (1848) och <em>The Passion of Jesus</em> (1852).</p>",
+        "severity": "critical",
+        "source_quote": "Hymns of the Heart (1848) and The Passion of Jesus (1852).",
+        "suggested_fix": "Translate the English book titles into Swedish, preserving the <em> tags and punctuation. Example: <em>Hymns of the Heart</em> → <em>Hymns of the Heart</em> (if a published Swedish title exists) or translate generically to <em>Hjärtats psalmer</em> (1848). <em>The Passion of Jesus</em> → <em>Jesu lidande</em> (1852). If the publisher prefers to keep original English titles, include a Swedish translation immediately after in parentheses, e.g. <em>The Passion of Jesus</em> (”Jesu lidande”).",
+        "translation_quote": "Härifrån fortsätter jag berättelsen genom att ge en kort historik över vår psalmförfattares kyrkoliv."
+      },
+      {
+        "location": "<p>... publicerade dem i sin <em>Hymns and Sacred Lyrics</em> 1874.</p>",
+        "severity": "critical",
+        "source_quote": "published it in his <em>Hymns and Sacred Lyrics</em> in 1874.",
+        "suggested_fix": "Translate the English book title inside the <em> tag into Swedish or provide a parenthetical Swedish rendering. Example: <em>Hymns and Sacred Lyrics</em> → <em>Psalmer och heliga lyrik</em> (1874), or keep original then add Swedish: <em>Hymns and Sacred Lyrics</em> (”Psalmer och heliga lyrik”).",
+        "translation_quote": "publicerade dem i sin <em>Hymns and Sacred Lyrics</em> 1874."
+      },
+      {
+        "location": "<p>... som publicerats i sångboken <em>Hymns of the Church</em>, ...</p>",
+        "severity": "critical",
+        "source_quote": "as published in the <em>Hymns of the Church</em> songbook",
+        "suggested_fix": "Translate the songbook title into Swedish or add a Swedish rendering in parentheses, preserving <em> tags. Example: <em>Hymns of the Church</em> → <em>Kyrkans psalmer</em> or <em>Hymns of the Church</em> (”Kyrkans psalmer”).",
+        "translation_quote": "Psalmen, som publicerats i sångboken <em>Hymns of the Church</em>,"
+      },
+      {
+        "location": "<section class=\"lyrics\" aria-labelledby=\"bridges-lyrics\">\n    <h2 id=\"bridges-lyrics\">Crown Him with Many Crowns</h2>",
+        "severity": "critical",
+        "source_quote": "Crown Him with Many Crowns (section heading and hymn title).",
+        "suggested_fix": "Translate the hymn title used as the section heading into Swedish, preserving the <h2> tag and id attribute. Example: <h2 id=\"bridges-lyrics\">Kröna honom med många kronor</h2>. Also translate the parallel Thring section heading similarly.",
+        "translation_quote": "<h2 id=\"bridges-lyrics\">Crown Him with Many Crowns</h2>"
+      },
+      {
+        "location": "<section class=\"lyrics\" aria-labelledby=\"thring-lyrics\">\n    <h2 id=\"thring-lyrics\">Crown Him with Many Crowns</h2>",
+        "severity": "critical",
+        "source_quote": "Crown Him with Many Crowns (Thring section heading).",
+        "suggested_fix": "Translate this hymn title heading into Swedish, preserving the <h2> tag and id. Example: <h2 id=\"thring-lyrics\">Kröna honom med många kronor</h2>.",
+        "translation_quote": "<h2 id=\"thring-lyrics\">Crown Him with Many Crowns</h2>"
+      },
+      {
+        "location": "<p class=\"source-note\"><em>Sourced from: A Treasury of Hymn Stories, hymnary.org, umc-discipleship.org, FBC</em></p>",
+        "severity": "critical",
+        "source_quote": "Sourced from: A Treasury of Hymn Stories, hymnary.org, umc-discipleship.org, FBC",
+        "suggested_fix": "Translate or localize the 'Sourced from' label into Swedish and, where appropriate, translate translatable English publication titles. Preserve the <em> tag. Example: <em>Källor: A Treasury of Hymn Stories, hymnary.org, umc-discipleship.org, FBC</em>. If any source titles have established Swedish renderings, use those.",
+        "translation_quote": "<em>Sourced from: A Treasury of Hymn Stories, hymnary.org, umc-discipleship.org, FBC</em>"
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

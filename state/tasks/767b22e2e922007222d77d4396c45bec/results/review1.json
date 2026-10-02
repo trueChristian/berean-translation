@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "098466cf-2d4a-43d6-b991-5a03a7615c8a",
+    "response_id": "chatcmpl-EUUJt0p9yxO6ni4aFPkq15QaoS7iW",
+    "usage": {
+      "completion_tokens": 915,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7305,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8220
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> paragraph: \"He wrestled with God...\" (source.html third paragraph)",
+        "severity": "major",
+        "source_quote": "As he wrestled with God and pled for victory, he began to hear a recurring message from other professing Christians, “No one is perfect!”",
+        "suggested_fix": "Translate the verb 'wrestled' into natural Portuguese instead of leaving an English form. Replace “wrestlava” with a correct Portuguese equivalent such as “lutou” or “contendia com” (suggested phrasing: “Enquanto ele lutava com Deus e suplicava por vitória, começou a ouvir...” ). Preserve the rest of the sentence and punctuation exactly.",
+        "translation_quote": "Enquanto ele wrestlava com Deus e suplicava por vitória, começou a ouvir uma mensagem recorrente de outros cristãos professos: “Ninguém é perfeito!”"
+      },
+      {
+        "location": "source.section metadata",
+        "severity": "major",
+        "source_quote": "MUSINGS OF A MISSIONARY",
+        "suggested_fix": "Translate the section heading into Portuguese in a way that preserves the genre and tone. Suggested translation: \"REFLEXÕES DE UM MISSIONÁRIO\" (or \"REFLEXÕES DE UM MISSIONÁRIO\" in all caps to match original styling). Replace the untranslated English section string with that Portuguese rendering.",
+        "translation_quote": "MUSINGS OF A MISSIONARY"
+      },
+      {
+        "location": "<article> paragraph: \"When I joined the Marine Corps...\" (Negação de si mesmo section)",
+        "severity": "minor",
+        "source_quote": "I remember the first day of boot camp when I joined the Marine Corps after graduating from high school.",
+        "suggested_fix": "Use the most natural and conventional Portuguese name for the U.S. Marine Corps. Possible fixes: \"quando entrei para o Corpo de Fuzileiros Navais (U.S. Marine Corps) depois de me formar no ensino médio\" or simply \"quando entrei para o Corpo de Fuzileiros Navais\". Keep the military example intact and preserve meaning.",
+        "translation_quote": "Lembro-me do primeiro dia do campo de treinamento quando entrei na Marinha de Fuzileiros depois de me formar no ensino médio."
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

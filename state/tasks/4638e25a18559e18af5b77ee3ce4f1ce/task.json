@@ -2,7 +2,6 @@
   "article_id": "a42c5719-aea1-47ed-abad-ed0cd2571382",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 3986
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 682,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3763,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4445
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "source.title / translation.title",
+      "severity": "minor",
+      "source_quote": "The Mint Man",
+      "suggested_fix": "Consider a target-language title that preserves the original sense (a man who gives out mints, not a vendor). Suggested alternatives: \"Pria Pembagi Permen Mint\" or \"Pria Pembagi Mint\". If the translator prefers a shorter form, \"Si Pembagi Permen Mint\" keeps the emphasis on his giving rather than selling.",
+      "translation_quote": "Si Penjual Permen Mint"
+    },
+    {
+      "location": "source.html (paragraph with simile) / translation.html (same paragraph)",
+      "severity": "minor",
+      "source_quote": "a swarm of young boys and girls began to cluster around Brother Silas like chickadees at a birdfeeder.",
+      "suggested_fix": "The translated simile uses \"burung-ciung,\" a literal borrowing that may be unfamiliar to many Indonesian readers. Consider replacing with a more familiar idiom while preserving the image of small birds crowding at a feeder. Suggested alternatives: \"seperti kawanan burung kecil di tempat makan burung\" or \"seperti burung-burung kecil yang berkerumun di tempat makan burung.\"",
+      "translation_quote": "kawanan anak laki-laki dan perempuan mulai mengerumuni Saudara Silas seperti burung-ciung di tempat makan burung"
+    }
+  ],
+  "finished_at": "2026-10-02T10:04:51+00:00",
   "id": "4638e25a18559e18af5b77ee3ce4f1ce",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "ind",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/75a969c45055c429de95d7ac7fb5ad9ae24609ae4e6f17660c8fb6226abf6c70.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "cb49d9b32a113d5c0bf30e44cdec3451c0a5ce43ad2cf97a5830259f43dd1f79",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

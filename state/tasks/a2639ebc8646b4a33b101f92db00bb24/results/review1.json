@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "97c7aa69-bf8f-4838-8c15-157889104886",
+    "response_id": "chatcmpl-EUUNKEx4gXFtF5HLmRyyWWQbFO2en",
+    "usage": {
+      "completion_tokens": 1645,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6075,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7720
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"Nu wil ik hier tussenbeide komen... anabaptistisch perspectief\" (third full paragraph)",
+        "severity": "major",
+        "source_quote": "Now, I want to interject here that I trust his decision was made in all good conscience toward God, even though we look on today from an Anabaptist viewpoint and question his reasons for doing so.",
+        "suggested_fix": "Restore the neutral phrasing of the source. Replace the translator's more specific group name with a direct rendering of the original phrase. For example: \"Nu wil ik hier tussenbeide komen en zeggen dat ik vertrouw dat zijn beslissing in alle gewetensvolheid tegenover God werd genomen, ook al kijken wij er vandaag vanuit een anabaptistisch perspectief naar en betwijfelen wij zijn beweegredenen.\"",
+        "translation_quote": "Nu wil ik hier tussenbeide komen en zeggen dat ik vertrouw dat zijn beslissing in alle gewetensvolheid tegenover God werd genomen, ook al kijken wij er vandaag als mennonieten vanuit een anabaptistisch perspectief naar en betwijfelen wij zijn beweegredenen."
+      },
+      {
+        "location": "Penultimate paragraph: \"wholehearted\" left in English",
+        "severity": "minor",
+        "source_quote": "May our congregations continue our practice of corporate, whole-hearted singing, lifting our voices in praise to the Lord in the assembly of the saints!",
+        "suggested_fix": "Translate the English word \"whole-hearted\" into Dutch to match the rest of the sentence. For example: \"Mogen onze gemeenten doorgaan met de praktijk van gezamenlijke, wholehearted zang...\" should be changed to \"Mogen onze gemeenten doorgaan met de praktijk van gezamenlijke, van harte gedragen zang, onze stemmen verheffend in lof aan de Heere in de vergadering der heiligen!\" or \"gezamenlijke, hartgrondige zang\" depending on style preference.",
+        "translation_quote": "Mogen onze gemeenten voortgaan met onze praktijk van gezamenlijke, wholehearted zang, onze stemmen verheffend in lof aan de Heere in de vergadering der heiligen!"
+      },
+      {
+        "location": "Bridges stanza 6: phrase \"yonder\" untranslated",
+        "severity": "minor",
+        "source_quote": "Crown Him the Lord of heaven! One with the Father known, And the blest Spirit, through Him given from yonder triune throne!",
+        "suggested_fix": "Translate the remaining English word \"yonder\" into Dutch. For example: replace \"van die drievoudige troon yonder\" with \"van die drievoudige troon daarboven\" or \"van die drievige troon yónder\" (preferably the natural Dutch: \"van die drievoudige troon daarboven\").",
+        "translation_quote": "Kroon Hem, de Heer van de hemel! Eén met de Vader gekend,\n    En de gezegende Geest, door Hem gegeven van die drievoudige troon yonder!"
+      }
+    ],
+    "passed": false,
+    "score": 75
+  }
+}

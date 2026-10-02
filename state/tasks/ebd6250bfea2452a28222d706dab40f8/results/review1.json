@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "fb8a9ca6-b8c6-49b5-9d47-c2b46efacce3",
+    "response_id": "chatcmpl-EUUK5Jz5A9vEhLvtNkS0teul0Z9iF",
+    "usage": {
+      "completion_tokens": 1284,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1563,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2847
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\">, stanza 1, line 3",
+        "severity": "major",
+        "source_quote": "The true thy chartered freemen are\n  of every age and clime:",
+        "suggested_fix": "Translate the sense of \"chartered freemen\" as people who are enfranchised or formally recognized members, not as something traded. Replace \"verhandigde vryburgers\" with a phrase like \"gecharterde vryburgers\" or \"gepokte vryburgers\" (better: \"gecharterde vryburgers\" or \"geregistreerde vryburgers\"). Keep the rest of the clause intact and idiomatic. Example replacement in translation: \"Die getroues is jou gecharterde vryburgers\n  uit elke ouderdom en klimaat:\"",
+        "translation_quote": "Die getroues is jou verhandigde vryburgers\n  uit elke ouderdom en klimaat:"
+      },
+      {
+        "location": "<div class=\"poem\">, stanza 2, line 2",
+        "severity": "major",
+        "source_quote": "one steadfast, high intent;",
+        "suggested_fix": "\"high intent\" here means \"lofty/loftier purpose/aspiration\", not \"holy\". Replace \"heilige strewe\" with an Afrikaans phrase that conveys \"high/lofty intent\", e.g. \"hooggesinde strewe\" or \"hooggesinde doel\". Example: \"een standvastige, hooggesinde strewe;\"",
+        "translation_quote": "een standvastige, heilige strewe;"
+      },
+      {
+        "location": "<div class=\"poem\">, stanza 4, line 1",
+        "severity": "major",
+        "source_quote": "How gleam thy watch-fires through the night\n  with never-fainting ray!",
+        "suggested_fix": "\"never-fainting ray\" should convey an ever-shining, unfading light. \"onverslindende straal\" is incorrect (means \"unswallowing\"). Replace with \"onverflakkende straal\" or \"nooit-verswakende straal\". Example: \"Hoe flikker jou wagvure deur die nag\n  met 'n onverflakkende straal!\"",
+        "translation_quote": "Hoe flikker jou wagvure deur die nag\n  met onverslindende straal!"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

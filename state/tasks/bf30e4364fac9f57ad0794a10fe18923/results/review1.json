@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ddc0500c-4e3a-4e67-afb5-5e6edb6f575b",
+    "response_id": "chatcmpl-EUUKML0BWU67RqBylmR2HS6R1ecoe",
+    "usage": {
+      "completion_tokens": 1107,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15241,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 16348
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.title / translation.title",
+        "severity": "major",
+        "source_quote": "A Christ-Centered Courtship Series",
+        "suggested_fix": "Translate the article title into contemporary Modern Greek and preserve meaning. For example: «Σειρά: Ένας Χριστοκεντρικός Γάμος» (or simply «Ένας Χριστοκεντρικός Γάμος»). Replace the English title text with the chosen Greek rendering in the translation.title field.",
+        "translation_quote": "A Christ-Centered Courtship Series"
+      },
+      {
+        "location": "source.section / translation.section",
+        "severity": "major",
+        "source_quote": "INSPIRATIONS FOR YOUTH",
+        "suggested_fix": "Translate the section name into Modern Greek, keeping the same register. For example: «ΕΜΠΝΕΥΣΕΙΣ ΓΙΑ ΝΕΟΥΣ» or «ΕΜπΝΕΥΣΕΙΣ ΓΙΑ ΤΗΝ ΝΕΟΛΑΙΑ». Replace the English section text with the chosen Greek rendering in the translation.section field.",
+        "translation_quote": "INSPIRATIONS FOR YOUTH"
+      },
+      {
+        "location": "source.html — Luke 3:21–23 quotation (final paragraph)",
+        "severity": "critical",
+        "source_quote": "\"And Jesus himself began to be about thirty years of age . . . \" (Luke 3:21–23).",
+        "suggested_fix": "Correct the quoted Scripture in Greek so it faithfully conveys the original English verse and preserves the chapter/verse and age number. Use a clear Modern Greek rendering that retains the verse numerals exactly as in the source. For example: «Και ο Ιησούς, όταν άρχισε το έργο Του, ήταν περίπου τριάντα ετών...» (Λουκάς 3:21–23). Replace the incorrect Greek clause «εμελέταρχεν είκοσι περίπου ετών…» with a faithful Greek rendering that reflects 'about thirty years of age' and ensure verse reference formatting remains as in the source.",
+        "translation_quote": "«Και αυτός εμελέταρχεν είκοσι περίπου ετών…» (Λουκάς 3:21–23)."
+      }
+    ],
+    "passed": false,
+    "score": 62
+  }
+}

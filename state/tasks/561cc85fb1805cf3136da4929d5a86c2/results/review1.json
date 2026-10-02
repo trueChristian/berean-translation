@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e0b053a9-11bf-4ab8-b933-750dc484f696",
+    "response_id": "chatcmpl-EUULvA2S7K3B9tSybx3gEkuGs50lu",
+    "usage": {
+      "completion_tokens": 794,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1605,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2399
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — second line of first stanza (poem text)",
+        "severity": "major",
+        "source_quote": "The true thy chartered freemen are\n  of every age and clime:",
+        "suggested_fix": "Replace the translated lines with wording that preserves the original attribution (that the faithful are the chartered freemen), for example:\n\n<div class=\"poem\">\n  <p>上帝之城，何等广大辽阔<br>\n  你那高耸的城墙广布天边！<br>\n  你的忠实子民，作为受特许的自由民，<br>\n  分布于各代各方：</p>\n\n(Keep the remainder of the stanza and tags unchanged.)",
+        "translation_quote": "真理使你成为特许的自由民，\n  无论何代何方皆属其内："
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

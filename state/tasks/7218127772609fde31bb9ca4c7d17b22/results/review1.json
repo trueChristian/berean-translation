@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "551b0fac-49c3-4eb5-8270-cb3d2a0fe7af",
+    "response_id": "chatcmpl-EUUJt3gjhdgBg7ZFtbFvu1lIwZNf0",
+    "usage": {
+      "completion_tokens": 1371,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3151,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4522
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph, personal names",
+        "severity": "minor",
+        "source_quote": "a small group of radical Christians quietly gathered in the home of Felix Mantz in Zürich, Switzerland.",
+        "suggested_fix": "Remove the added English-name parenthetical or render names only in Korean without inserting the English in parentheses to preserve original structure. For example: \"스위스 취리히의 펠릭스 만츠의 집에 조용히 모였다.\" (omit \"(Felix Mantz)\").",
+        "translation_quote": "스위스 취리히의 펠릭스 만츠(Felix Mantz)의 집에 조용히 모였다."
+      },
+      {
+        "location": "Final paragraphs, cited article titles",
+        "severity": "minor",
+        "source_quote": "A Glorious Church by Barry Grant and Joy in the Crevices by Sheryl Zeiset were both first printed in 2019.",
+        "suggested_fix": "Translate the English article titles into Korean (or provide Korean equivalents) rather than leaving them in English, because these are translatable article titles referenced in the body. For example: \"배리 그랜트의 '영광스러운 교회'(A Glorious Church)와 셰릴 자이젯의 '틈새의 기쁨'(Joy in the Crevices)\" — preserving original English in parentheses is optional.",
+        "translation_quote": "배리 그랜트(Barry Grant)의 \"A Glorious Church\"와 셰릴 자이젯(Sheryl Zeiset)의 \"Joy in the Crevices\"는 모두 2019년에 처음 실렸다."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

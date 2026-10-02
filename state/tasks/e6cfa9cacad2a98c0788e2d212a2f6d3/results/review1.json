@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b880d928-d56b-4e56-877d-303f21d15e4f",
+    "response_id": "chatcmpl-EUUK9KVUpQ0Ojby2QruxSJGsWInKN",
+    "usage": {
+      "completion_tokens": 981,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2883,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3864
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph 3 (sentence beginning with \"Fast forward 588 years.\")",
+        "severity": "minor",
+        "source_quote": "Fast forward 588 years.",
+        "suggested_fix": "Translate this English phrase into Dutch to match the surrounding text. For example: \"Snel vooruit 588 jaar\" or better idiomatically: \"Snel vooruit naar 588 jaar later,\" or simply \"588 jaar later.\" Replace the English phrase exactly in the translation while preserving surrounding punctuation and HTML.",
+        "translation_quote": "Fast forward 588 years."
+      },
+      {
+        "location": "source.html — <figure> alt and <figcaption>",
+        "severity": "minor",
+        "source_quote": "Gutenberg Bible on display at the U.S. Library of Congress",
+        "suggested_fix": "Translate the institution name into standard Dutch usage or make the entire phrase consistently Dutch. For example: \"Gutenbergbijbel tentoongesteld in de Library of Congress (Verenigde Staten)\" or fully translated: \"Gutenbergbijbel tentoongesteld in de Bibliotheek van het Amerikaanse Congres.\" Apply the same wording in both the alt attribute and the figcaption, preserving HTML structure.",
+        "translation_quote": "Gutenbergbijbel tentoongesteld in de Amerikaanse Library of Congress"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

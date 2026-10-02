@@ -2,7 +2,6 @@
   "article_id": "8f996405-d870-4074-947b-35190faad643",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 2678
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 988,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1560,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2548
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<article> / <div class=\"poem\"> / stanza 1, line 3",
+      "severity": "minor",
+      "source_quote": "The true thy chartered freemen are",
+      "suggested_fix": "Behold preserve the nuance that these freemen are 'chartered' — dvs. holdt som innvilget rettigheter/privilegier. Forslag: bruk \"de dine av kronede rettigheter frie\" er for tungt; en enkel og naturlig løsning: \"De lovbestemte frie, dine borgere er\" eller \"Dine frie, med tildelte rettigheter, er\". Velg én av disse i målspråkets stil. (Behold HTML-strukturen uendret.)",
+      "translation_quote": "De virkelig frie, dine borgere er"
+    },
+    {
+      "location": "<article> / <div class=\"poem\"> / stanza 2, line 3",
+      "severity": "minor",
+      "source_quote": "one working band, one harvest-song,",
+      "suggested_fix": "\"Band\" i denne sammenhengen betyr 'gruppe' eller 'fellesskap', ikke 'flokk' (som kan assosieres med dyr). Forslag: bytt \"én arbeidende flokk\" til \"én arbeidende gruppe\" eller \"én arbeidende menighet/fellesskap\" avhengig av ønsket tone. (Behold HTML-tags.)",
+      "translation_quote": "én arbeidende flokk, én høst-sang,"
+    },
+    {
+      "location": "<article> / <div class=\"poem\"> / stanza 4, line 1",
+      "severity": "minor",
+      "source_quote": "How gleam thy watch-fires through the night",
+      "suggested_fix": "\"watch-fires\" er et poetisk bilde for vaktholdsbål eller vaktholdets fakler. \"vakthavende bål\" er litt tungt. Forslag: \"hvordan skinner dine vaktbål gjennom natten\" eller \"hvordan blinker dine vaktsignallys gjennom natten\" for mer idiomatisk bokmål. (Behold HTML-tags.)",
+      "translation_quote": "Hvor skinner dine vakthavende bål gjennom natten"
+    }
+  ],
+  "finished_at": "2026-10-02T10:04:51+00:00",
   "id": "d9e0d502e5168655c3de7070b240c3c4",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "nob",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d3ca99062c7b8454e6587c9b32705a7d35c0d70cbcf6c1f6f8eaefeb762c95bf.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "63f32eb5571bce4d8b82e7103273aaf0a3a4bf91449228454d16a781256867bd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

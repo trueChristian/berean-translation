@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3802af27-3db3-9aaf-bbaf-c38bea2b2a9b",
+    "response_id": "chatcmpl-EUUKoo94FUPtoEMDA14V5nyyd9qSU",
+    "usage": {
+      "completion_tokens": 1109,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4166,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5275
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html ¶ (paragraph containing “No, I think it will be quite a while till he’ll feel able to be at church again. He’s very sick, Dirk,” Father said.)",
+        "severity": "major",
+        "source_quote": "“No, I think it will be quite a while till he’ll feel able to be at church again. He’s very sick, Dirk,” Father said.",
+        "suggested_fix": "Translate the whole sentence into fluent Bengali and do not mix an English word with a Bengali suffix. Example correction (preserve HTML paragraph tags and punctuation): “না, আমি মনে করি ও আবার চার্চে আসতে অনেক দিন লাগবে। সে খুব অসুস্থ, ডির্ক,” পিতা বললেন।",
+        "translation_quote": "“না, আমি মনে করিchurchে আসতে সে অনেকদিন লাগবে। সে খুব অসুস্থ, ডির্ক,” পিতা বললেন।"
+      },
+      {
+        "location": "source.title / translation.title",
+        "severity": "major",
+        "source_quote": "The Mint Man",
+        "suggested_fix": "Translate the title into standard Bengali (use Bengali script). Preserve the title as a target-language translation rather than leaving English words in Latin script. Example: \"মিন্ট ম্যান\" or better stylistic Bengali: \"মিন্ট মানব\" or \"মিন্টের মানুষ\" (choose one consistent with the publication style). Do not alter HTML structure — replace the contents of the <title> field only.",
+        "translation_quote": "দ্য মিন্ট ম্যান"
+      },
+      {
+        "location": "source.section / translation.section",
+        "severity": "major",
+        "source_quote": "Children’s Corner",
+        "suggested_fix": "Translate the section name into Bengali using a conventional idiom for a children's column. Example: \"শিশুদের কর্নার\" or the more natural Bengali \"শিশুদের কোণ\". Replace the translation.section value accordingly.",
+        "translation_quote": "Children’s Corner"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

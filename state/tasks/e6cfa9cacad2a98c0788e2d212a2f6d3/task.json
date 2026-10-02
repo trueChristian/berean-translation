@@ -2,7 +2,6 @@
   "article_id": "042fce50-3724-4100-b397-093c6d081e89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 3294
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 981,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2883,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3864
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "source.html — paragraph 3 (sentence beginning with \"Fast forward 588 years.\")",
+      "severity": "minor",
+      "source_quote": "Fast forward 588 years.",
+      "suggested_fix": "Translate this English phrase into Dutch to match the surrounding text. For example: \"Snel vooruit 588 jaar\" or better idiomatically: \"Snel vooruit naar 588 jaar later,\" or simply \"588 jaar later.\" Replace the English phrase exactly in the translation while preserving surrounding punctuation and HTML.",
+      "translation_quote": "Fast forward 588 years."
+    },
+    {
+      "location": "source.html — <figure> alt and <figcaption>",
+      "severity": "minor",
+      "source_quote": "Gutenberg Bible on display at the U.S. Library of Congress",
+      "suggested_fix": "Translate the institution name into standard Dutch usage or make the entire phrase consistently Dutch. For example: \"Gutenbergbijbel tentoongesteld in de Library of Congress (Verenigde Staten)\" or fully translated: \"Gutenbergbijbel tentoongesteld in de Bibliotheek van het Amerikaanse Congres.\" Apply the same wording in both the alt attribute and the figcaption, preserving HTML structure.",
+      "translation_quote": "Gutenbergbijbel tentoongesteld in de Amerikaanse Library of Congress"
+    }
+  ],
+  "finished_at": "2026-10-02T10:04:51+00:00",
   "id": "e6cfa9cacad2a98c0788e2d212a2f6d3",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "nld",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/901933390bbab68b30ba65d224e53d69f0af822b49f3cdb694876c259f4bd250.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "a8b13667ad0bdee6e94fb75c94d958fc5f824dbcd185202cd5cc7be6e9274a4c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

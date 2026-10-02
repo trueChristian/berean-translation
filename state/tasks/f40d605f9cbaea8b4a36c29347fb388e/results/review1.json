@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5a84531e-9dbf-4df4-8e39-40eaa264eb59",
+    "response_id": "chatcmpl-EUULN13LPjNtQAuP0xjCIHe4VeYqn",
+    "usage": {
+      "completion_tokens": 995,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1574,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2569
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> <p>Third stanza, line 2</p>",
+        "severity": "major",
+        "source_quote": "How grandly hath thine empire grown<br>\nof freedom, love, and truth!",
+        "suggested_fix": "Replace the mistranslated possessive to reflect the original second-person possessive. For example: \"Betapa megah kerajaaanmu telah berkembang<br>\natas kebebasan, kasih, dan kebenaran!\" (preserve line break and HTML tags).",
+        "translation_quote": "Betapa megah kerajaanku telah berkembang<br>\natas kebebasan, kasih, dan kebenaran!"
+      },
+      {
+        "location": "<div class=\"poem\"> <p>First stanza, line 3</p>",
+        "severity": "minor",
+        "source_quote": "The true thy chartered freemen are<br>\nof every age and clime:",
+        "suggested_fix": "Consider a more idiomatic rendering of \"chartered freemen\" that preserves the sense of enfranchised or registered free citizens. For example: \"Orang-orang merdeka yang tercatat adalah milikmu<br>\ndari setiap zaman dan iklim:\" or \"Warga merdeka yang diberi hak adalah milikmu<br>\ndari setiap zaman dan iklim:\" (preserve line break and HTML tags).",
+        "translation_quote": "Orang merdeka sejati adalah milikmu<br>\ndari setiap zaman dan iklim:"
+      },
+      {
+        "location": "<div class=\"poem\"> <p>Third stanza, line 1</p>",
+        "severity": "minor",
+        "source_quote": "How purely hath thy speech come down<br>\nfrom man's primaeval youth!",
+        "suggested_fix": "The literal translation \"masa kanak-kanak permulaan manusia\" is awkward. Suggest a smoother rendering that keeps the original meaning, e.g.: \"Betapa suci ucapmu telah turun<br>\ndari zaman kanak-kanak pertama manusia!\" or \"...dari masa kanak-kanak manusia purba!\" (preserve line break and HTML tags).",
+        "translation_quote": "Betapa murni ucapmu telah turun<br>\ndari masa kanak-kanak permulaan manusia!"
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

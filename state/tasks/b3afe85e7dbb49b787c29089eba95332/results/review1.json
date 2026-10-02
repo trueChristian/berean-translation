@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e3748350-93bb-419f-a1bc-e84998924bb3",
+    "response_id": "chatcmpl-EUUK47ZEKu1uWOLp1otTIGCtuh6nO",
+    "usage": {
+      "completion_tokens": 1284,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6144,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7428
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"source-note\">…</p>",
+        "severity": "major",
+        "source_quote": "<p class=\"source-note\"><em>The article is reprinted by request. It was first printed in </em><span>The Heartbeat of the Remnant</span><em> in the Autumn 2019 issue. Previously printed in </em><span>Earthen Vessels</span><em>.</em></p>",
+        "suggested_fix": "Translate the entire source-note into Afrikaans while preserving the exact HTML structure and the English titles inside the <span> elements. For example: <p class=\"source-note\"><em>Die artikel is op versoek herdruk. Dit is eerste gedruk in </em><span>The Heartbeat of the Remnant</span><em> in die Herfs 2019-uitgawe. Voorheen gedruk in </em><span>Earthen Vessels</span><em>.</em></p>",
+        "translation_quote": "<p class=\"source-note\"><em>The article is reprinted by request. It was first printed in </em><span>The Heartbeat of the Remnant</span><em> in the Autumn 2019 issue. Previously printed in </em><span>Earthen Vessels</span><em>.</em></p>"
+      },
+      {
+        "location": "<p>…Raid your local market, and you will be surprised…</p> (paragraph under \"Serving food tastefully\")",
+        "severity": "minor",
+        "source_quote": "Raid your local market and you will be surprised with what you can find in glassware and other beautiful dishes that brighten your table.",
+        "suggested_fix": "Correct the Afrikaans verb. Replace 'Raai jou plaaslike mark' (which means 'guess') with an instruction such as 'Gaan loer by jou plaaslike mark' or 'Soek by jou plaaslike mark'. Preserve the paragraph tags. Example: <p>Gaan loer by jou plaaslike mark, en jy sal verbaas wees oor wat jy in glasware en ander pragtige skottelgoed kan vind wat jou tafel ophelder.</p>",
+        "translation_quote": "<p>Raai jou plaaslike mark, en jy sal verbaas wees oor wat jy in glasware en ander pragtige skottelgoed kan vind wat jou tafel ophelder.</p>"
+      },
+      {
+        "location": "<figure> <img alt=\"...\"> </figure> (image alt text)",
+        "severity": "minor",
+        "source_quote": "alt=\"Winter greenery and a pinecone arranged by a window\"",
+        "suggested_fix": "Match number and idiomatic Afrikaans for the singular English noun. Change 'dennepitte' (plural) to the singular 'dennepit'. Preserve the img tag and other attributes. Example: <img ... alt=\"Wintergroenery en ’n dennepit gerangskik by ’n venster\" ...>",
+        "translation_quote": "alt=\"Wintergroenery en ’n dennepitte gerangskik by ’n venster\""
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

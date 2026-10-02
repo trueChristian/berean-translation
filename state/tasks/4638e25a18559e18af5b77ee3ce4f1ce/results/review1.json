@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e2591a7b-68c4-422c-8f3f-be8bd69f5696",
+    "response_id": "chatcmpl-EUUKciS5NWekmdpSBxiMIPlxRTFKU",
+    "usage": {
+      "completion_tokens": 682,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3763,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4445
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.title / translation.title",
+        "severity": "minor",
+        "source_quote": "The Mint Man",
+        "suggested_fix": "Consider a target-language title that preserves the original sense (a man who gives out mints, not a vendor). Suggested alternatives: \"Pria Pembagi Permen Mint\" or \"Pria Pembagi Mint\". If the translator prefers a shorter form, \"Si Pembagi Permen Mint\" keeps the emphasis on his giving rather than selling.",
+        "translation_quote": "Si Penjual Permen Mint"
+      },
+      {
+        "location": "source.html (paragraph with simile) / translation.html (same paragraph)",
+        "severity": "minor",
+        "source_quote": "a swarm of young boys and girls began to cluster around Brother Silas like chickadees at a birdfeeder.",
+        "suggested_fix": "The translated simile uses \"burung-ciung,\" a literal borrowing that may be unfamiliar to many Indonesian readers. Consider replacing with a more familiar idiom while preserving the image of small birds crowding at a feeder. Suggested alternatives: \"seperti kawanan burung kecil di tempat makan burung\" or \"seperti burung-burung kecil yang berkerumun di tempat makan burung.\"",
+        "translation_quote": "kawanan anak laki-laki dan perempuan mulai mengerumuni Saudara Silas seperti burung-ciung di tempat makan burung"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

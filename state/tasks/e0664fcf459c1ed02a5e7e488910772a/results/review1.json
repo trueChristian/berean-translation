@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "cd188b04-d55f-4c1b-8439-11313806c799",
+    "response_id": "chatcmpl-EUUJuxytg11giozuh3t9RAUFRRrZI",
+    "usage": {
+      "completion_tokens": 951,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6986,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7937
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph mentioning robins (third full paragraph of article HTML)",
+        "severity": "minor",
+        "source_quote": "Northern tradition states that the robins must get snowed on three times before the full arrival of spring.",
+        "suggested_fix": "Translate 'robins' using the normal Hindi name (e.g., \"रॉबिन पक्षी\" or simply \"रॉबिन\") and remove the odd gloss 'गुदगुदे'. Keep the rest of the sentence intact. Example: \"उत्तरी परंपरा कहती है कि रॉबिन पक्षी को वसंत के पूर्ण आगमन से पहले तीन बार बर्फ में फँसना चाहिए।\"",
+        "translation_quote": "\"उत्तरी परंपरा कहती है कि गुदगुदे पक्षी (रोबिन) को वसंत के पूर्ण आगमन से पहले तीन बार बर्फ में फँसना चाहिए।\""
+      },
+      {
+        "location": "Paragraph referencing a popular tune (second full paragraph)",
+        "severity": "minor",
+        "source_quote": "While a few gay tunes, such as Winter Wonderland, seek to capitalize upon its majestic moments, winter is generally despised by the normal inhabitants of this earth.",
+        "suggested_fix": "Translate or transliterate the song title 'Winter Wonderland' into Hindi (or enclose a transliteration), since it is quoted substantive prose. Example: \"कुछ हँसमुख धुनें, जैसे 'विंटर वंडरलैंड' (Winter Wonderland), उसके भव्य पलों का उपयोग करने की कोशिश करती हैं...\"",
+        "translation_quote": "\"हालाँकि कुछ हँसमुख धुनें, जैसे Winter Wonderland, उसके भव्य पलों का उपयोग करने की कोशिश करती हैं...\""
+      }
+    ],
+    "passed": true,
+    "score": 95
+  }
+}

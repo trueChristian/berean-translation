@@ -2,7 +2,6 @@
   "article_id": "b5ea052a-167f-45c4-bf40-cd463c4546b6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,69 @@
         },
         "total_tokens": 7939
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1461,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6768,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8229
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<article> paragraph 3 (source: \"man and beast battle its ferocity\")",
+      "severity": "major",
+      "source_quote": "\"Man and beast battle its ferocity, and even the lifeless machinery rebels against winter’s adamant arrival.\"",
+      "suggested_fix": "Translate the sense correctly into Kiswahili. Replace the incorrect word \"mizoga\" (carcasses) with an appropriate word for animals/beasts. For example: \"Mwanadamu na wanyama wanapigana na ukali wake, hata mashine zisizo na uhai zinapinga kuingia kwa msimu wa baridi.\" Preserve sentence structure and HTML tags.",
+      "translation_quote": "\"Mwanadamu na mizoga huzitaka nguvu zake, na hata mashine zisizo na maisha zinopinga kuingia kwa msimu huyu mkali.\""
+    },
+    {
+      "location": "<article> paragraph 3 (source: \"crack and crevice\")",
+      "severity": "minor",
+      "source_quote": "\"Chilly drafts penetrate every crack and crevice, forcing their heartless presence into the most private chambers.\"",
+      "suggested_fix": "Replace the unclear/incorrect word \"punku\" with a standard Kiswahili equivalent such as \"mchezo\" is wrong; use \"pengo\" or \"nyufa\". Suggested sentence: \"Upepo baridi hupenya katika kila pengo na nyufa, ikiingiza uwepo wake usio na huruma hata katika vyumba vya kibinafsi zaidi.\"",
+      "translation_quote": "\"Upepo baridi hupenya katika kila mwanya na punku, kuingiza uwepo wake usio na huruma katika vyumba vya kibinafsi zaidi.\""
+    },
+    {
+      "location": "<article> paragraph 6 (source: \"Bounties of harvest\")",
+      "severity": "minor",
+      "source_quote": "\"The bounties of harvest provide an aura of rejoicing in their sheaves...\"",
+      "suggested_fix": "Avoid leaving the English loanword capitalized as \"Bounty\" and translate it into Kiswahili. Suggested: \"Mavuno ya majani huleta furaha katika vimbili vyao...\" or simply \"Mavuno yanatoa hisia za shangwe...\"",
+      "translation_quote": "\"Bounty za mavuno huleta furaha katika mizinga yao, na mioyo ya watu bado inafurahi...\""
+    },
+    {
+      "location": "<article> paragraph 18 (source: \"a luthier by the name of Stradivari created violins\")",
+      "severity": "major",
+      "source_quote": "\"In the 1700s, a luthier by the name of Stradivari created violins unequaled in their excellence for beautiful sound.\"",
+      "suggested_fix": "Correctly translate technical terms and the object. A \"luthier\" is a maker of stringed instruments, and \"violins\" must be translated as \"fidla\" or the common Kiswahili term \"viyolini\" (or \"fidla/vyolin\" depending on style). Also fix the subsequent sentence that refers to \"violins\" (not tastes). Suggested translation: \"Mnamo karne ya 1700, fundi ala wa majembe ambaye aliitwa Stradivari alitengeneza violini visivyolinganishwa kwa uzuri wa sauti.\" Preserve HTML and surrounding paragraph structure.",
+      "translation_quote": "\"Mnamo karne ya 1700, mchongaji wa vioo aitwaye Stradivari alitengeneza vionjo ambavyo havikulinganishwa kwa urembo wa sauti.\""
+    },
+    {
+      "location": "<article> paragraph 18 (source: \"the wood of the day had been seasoned by difficult winters\")",
+      "severity": "minor",
+      "source_quote": "\"most have resolved that the wood of the day had been seasoned by difficult winters, producing a quality that cannot be replicated in our day.\"",
+      "suggested_fix": "If keeping the violin example, ensure 'wood' and 'seasoned' are clear. Translate as: \"mbao za wakati huo zilikuwa zimefunikwa/kuoshwa na majira magumu ya baridi, zikitoa ubora usio wezekana kurudiwa katika zama zetu.\"",
+      "translation_quote": "\"mbao za siku zake zilikuwa zimekaza kwa majira ya baridi magumu, zikatoa ubora usioweza kurudiwa katika wakati wetu.\""
+    },
+    {
+      "location": "<article> image alt attribute",
+      "severity": "minor",
+      "source_quote": "alt=\"Snow-covered evergreen trees\"",
+      "suggested_fix": "Alt text is translated correctly but ensure idiomatic Kiswahili: current alt is acceptable. No fix required unless preferred: \"Miti ya kijani-milele iliyofunikwa na theluji\".",
+      "translation_quote": "alt=\"Miti ya kijani iliyofunikwa kwa theluji\""
     }
   ],
   "id": "4d9fc3ffc74d3a2af99c0feb0e6390e9",
@@ -69,11 +131,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/cb70a64f61d5d6ea793a28714a8210160bd2f71712162f15c2619f188dcf0e3f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "43083ba7fbaa256f5105f34da9e51d125c38a107a8d91b3864609877708b8ea8",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

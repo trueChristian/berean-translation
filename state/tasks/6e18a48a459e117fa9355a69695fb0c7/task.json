@@ -2,7 +2,6 @@
   "article_id": "8f996405-d870-4074-947b-35190faad643",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,41 @@
         },
         "total_tokens": 1828
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1262,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1553,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2815
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> — first stanza, line 2–3",
+      "severity": "major",
+      "source_quote": "City of God, how broad and far\noutspread thy walls sublime!\nThe true thy chartered freemen are\nof every age and clime:",
+      "suggested_fix": "Render the four lines so they preserve the spatial image of walls 'outspread' and the original sense of 'the true thy chartered freemen are' (i.e., 'os teus verdadeiros cidadãos franquedos/registrados são'). A faithful Portuguese suggestion that keeps the poetic line breaks and HTML structure:\n\n<p>Cidade de Deus, quão larga e distante\nse estendem, sublimes, as tuas muralhas!\nTeus verdadeiros, teus libertos registrados\nsão de toda idade e clima:</p>\n\nNotes: keep 'se estendem' (or 'espalham-se') for outspread, and translate 'the true thy chartered freemen are' as 'Teus verdadeiros, teus libertos/forçados/charterados são' — here 'chartered freemen' historically means 'registered/liberated citizens'; I suggest 'seus verdadeiros concidadãos registados' or 'teus verdadeiros concidadãos de carta'. Choose 'Teus verdadeiros concidadãos de carta são' if you prefer literal historic register wording.",
+      "translation_quote": "Cidade de Deus, quão larga e vasta\nerguem-se as tuas paredes sublimes!\nTua verdade faz livres os que nela restam\nde toda era e climas:"
+    },
+    {
+      "location": "<div class=\"poem\"> — first stanza, line 3",
+      "severity": "critical",
+      "source_quote": "The true thy chartered freemen are\nof every age and clime:",
+      "suggested_fix": "This line has been mistranslated and introduces new doctrine and wording ('Tua verdade faz livres os que nela restam') that do not correspond to the English. It must be translated to convey the original meaning that the city’s 'chartered freemen' (i.e., those declared or enrolled as citizens/free members) are truly from every age and climate. Suggested faithful translation (preserving poem tags and line break):\n\n<p>... \nTeus verdadeiros concidadãos de carta\nsão de toda idade e clima:</p>\n\nOr, if 'concidadãos de carta' sounds awkward in Portuguese, use:\n\n<p>...\nTeus verdadeiros cidadãos por carta\nsão de toda idade e clima:</p>\n\nDo not replace the quoted substantive phrase with an explanatory paraphrase such as 'Tua verdade faz livres...' — preserve the attribution that the people are 'chartered freemen.'",
+      "translation_quote": "Tua verdade faz livres os que nela restam\nde toda era e climas:"
     }
   ],
   "id": "6e18a48a459e117fa9355a69695fb0c7",
@@ -69,11 +103,13 @@
     }
   },
   "protected": false,
+  "quality_score": 50,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d3ca99062c7b8454e6587c9b32705a7d35c0d70cbcf6c1f6f8eaefeb762c95bf.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "63f32eb5571bce4d8b82e7103273aaf0a3a4bf91449228454d16a781256867bd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

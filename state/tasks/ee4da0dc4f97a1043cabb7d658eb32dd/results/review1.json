@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b990e13b-d49b-46d5-ae48-62fd3faa2cce",
+    "response_id": "chatcmpl-EUUKXnZ2JT98wKm9Ciid6ckQ0qHeo",
+    "usage": {
+      "completion_tokens": 1183,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3895,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5078
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 1 (sentence: \"He was intent on locating Brother Silas before the service began.\")",
+        "severity": "major",
+        "source_quote": "he would crane his neck in search of the hoary head of the fellowship’s oldest member",
+        "suggested_fix": "Translate \"the hoary head\" to convey \"white-haired/elder\" (not \"upweke\" which means \"lonely\"). For example: \"aliweka shingo kutafuta kichwa chake chelewe kilicho na nywele za kijivu cha mwanachama mzee wa kikundi\" or more smoothly \"aliweka shingo kutafuta nywele zake za kijivu — mzee zaidi katika kikundi.\" Preserve meaning that it refers to an old/white-haired member.",
+        "translation_quote": "algekea shingo yake kutafuta kichwa cha upweke cha mwanachama mzee wa kikundi"
+      },
+      {
+        "location": "Figure alt text",
+        "severity": "minor",
+        "source_quote": "A glass jar spilling wrapped mints beside a potted plant",
+        "suggested_fix": "Use a Kiswahili word for \"potted plant\" that is not a cooking vessel. For example: \"chupa ya glasi ikimwaga mints zilizofungwa kando ya mmea uliopandwa kwenye bakuli/katoni/utepe\" or \"...kando ya mmea uliowekwa kwenye chombo\". Also consider translating \"wrapped mints\" as \"mints zilizofunikwa\" or \"zimetengenezwa\" more naturally.",
+        "translation_quote": "Chupa ya glasi ikimwaga mints iliyofungwa kando ya mmea kwenye sufuria"
+      },
+      {
+        "location": "Title (and repeated in metadata)",
+        "severity": "minor",
+        "source_quote": "The Mint Man",
+        "suggested_fix": "Consider a more natural Kiswahili rendering. \"Mtu wa Mints\" is understandable but awkward. Alternatives: \"Mwanaume wa Mints\", \"Mtu wa Mints wa Kanisa\", or a descriptive title such as \"Mwanaume wa Mints (Mtu wa Mints)\". If you wish to preserve a concise title, \"Mwanaume wa Mints\" is preferable.",
+        "translation_quote": "Mtu wa Mints"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

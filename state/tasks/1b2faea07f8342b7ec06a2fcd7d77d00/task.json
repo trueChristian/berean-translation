@@ -2,7 +2,6 @@
   "article_id": "5a87c21f-cce9-4033-8a43-5458311bc7f0",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 12479
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 835,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12192,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13027
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "A Christ-Centered Courtship Series",
+      "suggested_fix": "Translate the English title into Dutch, preserving the author's theology and sense. For example: \"Een Christusgerichte verkering-serie\" or better idiomatic Dutch: \"Een Christusgerichte verkering\" (keep capitalization consistent with site style).",
+      "translation_quote": "A Christ-Centered Courtship Series"
+    },
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "INSPIRATIONS FOR YOUTH",
+      "suggested_fix": "Translate the section metadata into contemporary Dutch. For example: \"INSPIRATIES VOOR JONGEREN\" or \"INSPIRATIES VOOR DE JEUGD\" depending on site terminology. Preserve all-caps styling if used by the site.",
+      "translation_quote": "INSPIRATIONS FOR YOUTH"
+    },
+    {
+      "location": "article body, paragraph: \"We bespraken in het vorige nummer Satan’s Snares voor man en vrouw.\"",
+      "severity": "minor",
+      "source_quote": "Satan’s Snares",
+      "suggested_fix": "Translate the English title of the prior topic into Dutch while preserving it as a title. A suitable rendering: \"Satan's valstrikken\" or \"De valstrikken van Satan\". If the publication prefers to keep the original English title as a proper name, add italics or quotation marks per house style; otherwise translate it.",
+      "translation_quote": "Satan’s Snares voor man en vrouw"
+    }
+  ],
+  "finished_at": "2026-10-02T10:04:50+00:00",
   "id": "1b2faea07f8342b7ec06a2fcd7d77d00",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "nld",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0a1dcaa5cafea68d0933d4307f622a54749ce00327ed437d6329e9b9b2a36c0b.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "403dccfee978e00bf41c2daf2df29e8cfa526a0ef6c19371773e58abc48734b6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

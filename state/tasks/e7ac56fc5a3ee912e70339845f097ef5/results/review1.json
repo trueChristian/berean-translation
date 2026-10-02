@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "37a03ac3-101b-4931-a5d6-c57dca5ad10d",
+    "response_id": "chatcmpl-EUUJusyaH4Xq7MG3p69rSiclo8naW",
+    "usage": {
+      "completion_tokens": 607,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1522,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2129
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> <p> primeira estrofe, verso 2 (linha: \"por ramos sem folhas, sopra o vento agudo,\")",
+        "severity": "minor",
+        "source_quote": "through leafless boughs, the sharp winds blow,",
+        "suggested_fix": "Corrigir para plural para refletir o plural do original. Por exemplo: substituir \"por ramos sem folhas, sopra o vento agudo,\" por \"por ramos sem folhas, sopram os ventos agudos,\" (mantendo a mesma estrutura HTML).",
+        "translation_quote": "por ramos sem folhas, sopra o vento agudo,"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "2d0a22a2-a30a-4450-980e-7297336762af",
+    "response_id": "chatcmpl-EUUK88ICGiWTiq8RFnsEezYXuA3nU",
+    "usage": {
+      "completion_tokens": 625,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1521,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2146
+    }
+  },
+  "received_at": "2026-10-02T10:04:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> <p>segunda estrofa, verso 3 (\"crimson dawn\")</p>",
+        "severity": "minor",
+        "source_quote": "\"his beauty paints the crimson dawn,\"",
+        "suggested_fix": "Usar una opción más natural y literal en español para \"crimson dawn\", por ejemplo \"la aurora carmesí\" o \"el alba carmesí\". Mantener la etiqueta y estructura HTML exactamente igual, p. ej.: <p>Y sin embargo el amor de Dios no se retira;<br>\nsu vida en el aire cortante respira;<br>\nsu belleza pinta la aurora carmesí,<br>\ny viste cada rama con guirnaldas brillantes.</p>",
+        "translation_quote": "\"su belleza pinta la aurora encarnada,\""
+      },
+      {
+        "location": "<div class=\"poem\"> <p>tercera estrofa, verso 3 (\"home closer draws her circle now\")</p>",
+        "severity": "minor",
+        "source_quote": "\"home closer draws her circle now,\"",
+        "suggested_fix": "Preferir una formulación más idiomática y clara en español como \"el hogar estrecha ahora su círculo\" o \"el hogar acorta ahora su círculo\". Ejemplo que respeta la estructura HTML: <p>Y aunque afuera soplen los vientos agudos,<br>\ny los cielos estén fríos, y las heladas severas,<br>\nel hogar estrecha ahora su círculo,<br>\ny más cálida resplandece su luz interior.</p>",
+        "translation_quote": "\"el hogar ahora cierra más su círculo,\""
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

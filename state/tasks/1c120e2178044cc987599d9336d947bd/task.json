@@ -2,7 +2,6 @@
   "article_id": "f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,8 +23,58 @@
         },
         "total_tokens": 1806
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1923,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1344,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1531,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3454
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "<figure> <img alt>",
+      "severity": "minor",
+      "source_quote": "A lone bare tree in a snowy field",
+      "suggested_fix": "Correct Swedish grammar and natural word order in the alt text. For example: \"Ett ensamt kalt träd i ett snötäckt fält\" or more idiomatically \"Ett ensamt kalat träd i ett snötäckt fält\" (preserve article 'Ett' because 'träd' is neuter). Replace the img alt attribute value with the corrected string, preserving other attributes and tags.",
+      "translation_quote": "En ensam kal träd i ett snötäckt fält"
+    },
+    {
+      "location": "1st stanza, line 3 (\"through leafless boughs, the sharp winds blow\")",
+      "severity": "minor",
+      "source_quote": "through leafless boughs, the sharp winds blow",
+      "suggested_fix": "Preserve the plural and natural word order in Swedish. For example: \"genom lövlösa grenar blåser de skarpa vindarna\" or \"de skarpa vindarna blåser genom lövlösa grenar.\" Update the corresponding poem line text inside the <div class=\"poem\"> without changing HTML structure.",
+      "translation_quote": "genom lövlösa grenar blåser den skarpa vinden"
+    },
+    {
+      "location": "3rd stanza, line 2 (\"and skies are chill, and frosts are keen\")",
+      "severity": "minor",
+      "source_quote": "and skies are chill, and frosts are keen",
+      "suggested_fix": "Restore a grammatically complete Swedish phrasing that preserves the original meaning. For example: \"och himlen är kall, och frostarna är bitande\" or \"och himlen är kall, och frosten är bitande.\" Replace the fragment currently used with one of these complete phrasings in the poem text.",
+      "translation_quote": "och himlen är kall, och frosten bitande"
+    },
+    {
+      "location": "4th stanza, line 3 (\"you warmly in your love enfold,\")",
+      "severity": "minor",
+      "source_quote": "you warmly in your love enfold,",
+      "suggested_fix": "The translation inserts an explicit object ('oss'), which is not present in the source line. This is a small amplification; keep it or, to be more literal while natural in Swedish, render it as e.g. \"du omsluter varmt i din kärlek\" or \"du omsluter oss varmt i din kärlek\" depending on whether the poet's implied object should be explicit. If you choose to keep the object, use \"du omsluter oss varmt i din kärlek.\" Update the poem line accordingly.",
+      "translation_quote": "du omsluter oss varmt i din kärlek"
+    }
+  ],
+  "finished_at": "2026-10-02T10:04:50+00:00",
   "id": "1c120e2178044cc987599d9336d947bd",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "swe",
@@ -69,11 +118,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1ed33a15abc99ca0a5621844be43f6764a1df6e4da098bed1eb0cbfbb0276cbd.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

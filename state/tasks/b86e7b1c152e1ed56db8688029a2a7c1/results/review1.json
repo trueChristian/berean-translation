@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "334844dc-0e1c-456c-9a18-69655eacf44d",
+    "response_id": "chatcmpl-EUUJul28TKxdnFhJ6Q5LlNy6QAFNC",
+    "usage": {
+      "completion_tokens": 814,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3847,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4661
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html — paragraph containing \"continuant à conversar\"",
+        "severity": "minor",
+        "source_quote": "...all while continuing to chat with the men.",
+        "suggested_fix": "Replace the incorrect/foreign verb with the correct French verb. For example: \"tout en continuant à converser avec les hommes.\" Preserve surrounding punctuation and tags.",
+        "translation_quote": "\"Le frère Silas distribuait aimablement ses pastilles à tour de rôle, tout en continuant à conversar avec les hommes.\""
+      },
+      {
+        "location": "translation.html — paragraph containing \"T’as-tu déjà pensé\"",
+        "severity": "minor",
+        "source_quote": "“Did you ever stop to think how many times Brother Silas has to do this to keep his pockets well lined with mints for all you children?”",
+        "suggested_fix": "Fix the nonstandard/questionable spoken-form construction. Use a standard written interrogative: \"T'en es-tu déjà rendu compte ?\" or \"As-tu déjà pensé à combien de fois... ?\" e.g.: \"T'en es-tu déjà rendu compte combien de fois le frère Silas doit faire cela pour garder ses poches bien garnies de pastilles pour vous tous les enfants ?\"",
+        "translation_quote": "\"T’as-tu déjà pensé combien de fois le frère Silas doit faire cela pour garder ses poches bien garnies de pastilles pour vous tous les enfants ?\""
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

@@ -2,7 +2,6 @@
   "article_id": "8f996405-d870-4074-947b-35190faad643",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 2103
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1350,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1635,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2985
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<figure> <img> alt",
+      "severity": "minor",
+      "source_quote": "A snowy path beside bare winter trees",
+      "suggested_fix": "Alt টেক্সটে ইংরেজি অর্থের সঠিক বাংলা অনুবাদ ব্যবহার করুন এবং কনটেক্সট অনুযায়ী অক্ষরভ্রষ্টি ঠিক করুন। উদাহরণ: \"নগ্ন শীতকালীন গাছগুলোর পাশে তুষারঢাকা পথ\"।",
+      "translation_quote": "নগ্ন শীতকালীন গাছের পাশে তুষারচ覆াৎ পথ"
+    },
+    {
+      "location": "<div class=\"poem\"> stanza 4, line 2 (\"How gleam thy watch-fires through the night with never-fainting ray!\")",
+      "severity": "minor",
+      "source_quote": "How gleam thy watch-fires through the night with never-fainting ray!",
+      "suggested_fix": "বাংলা লাইনে প্রবাহ ও বোধ-সুসংহত রাখুন; বর্তমান অনুবাদটি বাক্যগতভাবে খটকা দেয়। পরামর্শ: \"রাত জুড়ে কীভাবে তোমার পাহারা-আগুন ঝলমলে করে, কখনো ম্লান হওয়া না-থাকার রশ্মি নিয়ে!\" বা সংক্ষিপ্তভাবে: \"রাতভরে তোমার পাহারা-আগুন কীভাবে ঝলমলে করে, কখনো ম্লান নয় সেই দীপপ্রভা!\"",
+      "translation_quote": "রাত্রির মধ্যে কী ঝলমলে তোমার পাহারা-আগুন জ্বলে কখনো দুর্বল না হওয়া আলোকের স্রোত!"
+    },
+    {
+      "location": "<div class=\"poem\"> stanza 4, line 3 (\"How rise thy towers, serene and bright,\")",
+      "severity": "major",
+      "source_quote": "How rise thy towers, serene and bright,",
+      "suggested_fix": "\"towers\" শব্দটির সঠিক বাংলা অনুবাদ ব্যবহার করুন। বর্তমান অনুবাদে \"তোমার মসনদগৃহ\" বলে অনুবাদ করা হয়েছে, যা সার্বিক অর্থ পরিবর্তন করে (\"throne-houses\" বা অন্য কিছু বোঝায়)। এটি কবিতার মূল ইমেজ — উজ্জ্বল এবং শান্ত টাওয়ার/যৌথ/কেলায় — বদলে দেয়। যথার্থ অনুবাদ হতে পারে: \"কীভাবে তোমার মিনার উঠিছে, নির্মল ও উজ্জ্বল,\" বা \"তোমার মিনার/কোণাপট্টিগুলি কী নির্মল ও উজ্জ্বলভাবে উত্থিত হয়,\"।",
+      "translation_quote": "কী নির্মলভাবে উঠে তোমার মসনদগৃহ, উজ্জ্বল ও শান্ত,"
     }
   ],
   "id": "cfd3cfe4e3634415c83e2eeb40e09210",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 74,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d3ca99062c7b8454e6587c9b32705a7d35c0d70cbcf6c1f6f8eaefeb762c95bf.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "63f32eb5571bce4d8b82e7103273aaf0a3a4bf91449228454d16a781256867bd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

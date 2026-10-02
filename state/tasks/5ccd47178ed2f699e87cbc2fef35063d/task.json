@@ -2,7 +2,6 @@
   "article_id": "fbb7faf4-04de-4858-b608-09cb6aedaacf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,34 @@
         },
         "total_tokens": 10091
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1020,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9623,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10643
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Paragraph beginning with “Proverbs 4:5-9 says, “Get wisdom...”",
+      "severity": "critical",
+      "source_quote": "Proverbs 4:5-9 says, “Get wisdom, get understanding: forget it not; neither decline from the words of my mouth. Forsake her not, and she shall preserve thee: love her, and she shall keep thee. Wisdom is the principal thing; therefore get wisdom: and with all thy getting get understanding. Exalt her, and she shall promote thee: she shall bring thee to honour, when thou dost embrace her. She shall give to thine head an ornament of grace: a crown of glory shall she deliver to thee.”",
+      "suggested_fix": "Correct the book name to the conventional target-language form for Proverbs and preserve the translated Scripture quotation. Replace “Prediker 4:5-9 zegt:” with “Spreuken 4:5-9 zegt:” (keeping the Dutch translation of the quoted verses as already present). Do not change verse numbers or the quoted text beyond ensuring the book name is Spreuken.",
+      "translation_quote": "Prediker 4:5-9 zegt: “Verwerf wijsheid, verwerf inzicht; vergeet het niet en wijk niet af van de woorden van mijn mond. Verlaat haar niet, dan zal zij u bewaren; heb haar lief, dan zal zij u behoeden. Wijsheid is het voornaamste; verkrijg dan wijsheid, en met al uw verkrijging verkrijg inzicht. Verhef haar, dan zal zij u verhogen; zij zal u eren, wanneer u haar omhelst. Zij zal een krans van genade geven aan uw hoofd; een kroon van majesteit zal zij u schenken.”"
     }
   ],
   "id": "5ccd47178ed2f699e87cbc2fef35063d",
@@ -69,11 +96,13 @@
     }
   },
   "protected": false,
+  "quality_score": 80,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6a174f90d4349eed5395b954b6464250e64e874608b754c80cbaf37735556faf.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "e438e2a5dbbb36ddf11340e0d96ac331f86b42c4c964f5787972c99d3487ba67",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

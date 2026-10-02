@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6f00e28e-91d1-403e-95b5-7b46952b3e15",
+    "response_id": "chatcmpl-EUUKXG7NRb3Mh7udsZgle5e1ntCnS",
+    "usage": {
+      "completion_tokens": 809,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5923,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6732
+    }
+  },
+  "received_at": "2026-10-02T10:04:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"source-note\">…</p> (end of article)",
+        "severity": "major",
+        "source_quote": "The article is reprinted by request. It was first printed in The Heartbeat of the Remnant in the Autumn 2019 issue. Previously printed in Earthen Vessels.",
+        "suggested_fix": "Translate the cited publication titles into German while preserving the surrounding HTML structure and tags. For example, replace the English spans with German renderings inside the existing <span> tags: \n- <span>The Heartbeat of the Remnant</span> → <span>Der Herzschlag des Überrests</span>\n- <span>Earthen Vessels</span> → <span>Irdene Gefäße</span>\nDo not remove or reorder the <em> and <span> tags; only replace the inner text nodes with the German translations so the metadata appears fully rendered in the target language.",
+        "translation_quote": "<p class=\"source-note\"><em>Der Artikel wurde auf Anfrage nachgedruckt. Er erschien erstmals in </em><span>The Heartbeat of the Remnant</span><em> in der Herbstausgabe 2019. Zuvor veröffentlicht in </em><span>Earthen Vessels</span><em>.</em></p>"
+      }
+    ],
+    "passed": false,
+    "score": 85
+  }
+}

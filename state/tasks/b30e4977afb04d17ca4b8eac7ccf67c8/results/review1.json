@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "acc7f65d-00d4-4fd1-b50f-90d4842ca94e",
+    "response_id": "chatcmpl-EUUJukjIcFUtRKuLvWmFy0CPLDv9r",
+    "usage": {
+      "completion_tokens": 1066,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6536,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7602
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — final paragraph (source-note) <span>The Heartbeat of the Remnant</span>",
+        "severity": "major",
+        "source_quote": "<em>The article is reprinted by request. It was first printed in </em><span>The Heartbeat of the Remnant</span><em> in the Autumn 2019 issue. Previously printed in </em><span>Earthen Vessels</span><em>.</em>",
+        "suggested_fix": "Translate the publication titles into contemporary standard Hindi (inside the same <span> tags). Preserve the surrounding HTML structure and emphasis tags exactly. For example: <em>यह लेख अनुरोध पर पुनर्प्रकाशित किया गया है। यह पहली बार </em><span>रिमनेंट की धड़कन</span><em> के शरद् 2019 अंक में छपा था। पहले यह </em><span>अर्थेन वेसल्स</span><em> में छपा था।</em> — or, if the publications have established Hindi titles, use those exact conventional Hindi titles inside the <span> elements.",
+        "translation_quote": "<p class=\"source-note\"><em>यह लेख अनुरोध पर पुनर्प्रकाशित किया गया है। यह पहली बार </em><span>The Heartbeat of the Remnant</span><em> के शरद् 2019 अंक में छपा था। पहले यह </em><span>Earthen Vessels</span><em> में छपा था।</em></p>\""
+      },
+      {
+        "location": "source.section",
+        "severity": "minor",
+        "source_quote": "SISTER TO SISTER",
+        "suggested_fix": "Translate the section label into contemporary standard Hindi, preserving the field content (no HTML here). For example: \"BEFORE: SISTER TO SISTER\" → \"AFTER: बहन से बहन\" (or another preferred conventional translation).",
+        "translation_quote": "\"SISTER TO SISTER\""
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

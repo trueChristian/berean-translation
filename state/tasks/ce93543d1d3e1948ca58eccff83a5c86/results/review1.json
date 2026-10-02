@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5f23ac6f-a50e-48b6-9397-f7632ab3da91",
+    "response_id": "chatcmpl-EUULd1SLfItahynQdJZv7Z0JoneQV",
+    "usage": {
+      "completion_tokens": 923,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5732,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6655
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...Livrar-se da cortina murk e feia da sala de aula e substituí‑la por uma nova amarela...</p>",
+        "severity": "major",
+        "source_quote": "Get rid of the limp, ugly curtain in the schoolroom and replace it with a fresh yellow one (yes, even if it does take a few dollars to do so, I remind my penny-pinching soul).",
+        "suggested_fix": "Replace the untranslated/incorrect phrase with an appropriate Portuguese rendering that preserves the author's meaning. For example: \"Livrar-se da cortina murcha e feia da sala de aula e substituí‑la por uma nova amarela (sim, mesmo que isso custe alguns dólares, lembro à minha alma sovina).\" Preserve the surrounding HTML and punctuation exactly; only change the words \"cortina murk e feia\" to \"cortina murcha e feia\" (or another equivalent such as \"cortina flácida e feia\").",
+        "translation_quote": "Livrar-se da cortina murk e feia da sala de aula e substituí‑la por uma nova amarela (sim, mesmo que isso custe alguns dólares, lembro à minha alma sovina)."
+      }
+    ],
+    "passed": false,
+    "score": 68
+  }
+}

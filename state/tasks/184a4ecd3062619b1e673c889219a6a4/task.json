@@ -2,7 +2,6 @@
   "article_id": "fbb7faf4-04de-4858-b608-09cb6aedaacf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,41 @@
         },
         "total_tokens": 10148
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2261,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9744,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12005
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "article > opening paragraphs through just before <h2>Dapatkan Hikmat!</h2>",
+      "severity": "critical",
+      "source_quote": "“So, what brings you in today?” I asked Ben, a 40-year-old man who was sitting across from me.\n\n“Well,” he answered. “I have a few different symptoms. The biggest one is that I am always tired, but I’ve also been gaining weight, and my knees hurt some in the mornings.”\n\nI mentally began to go through what doctors call a differential diagnosis – things that can cause the cluster of symptoms that a patient has. I usually let the patient explain what symptoms he is experiencing and then ask questions to try to hone in on the specific diagnosis.\n\nBen went on for a little while longer. Then, he proceeded to pull out a piece of paper. “So, Doctor,” he told me. “I’ve done some research into my diagnosis, and I think these are tests that I need to have done to work things up.”\n\nI looked at the list. It was pretty long and included some things I probably would have ordered anyway, like a blood count and thyroid level, but also some very odd things like a Vitamin B1 level and a DHEA level. He also wanted a CT Scan of his head, chest, and abdomen.\n\n“This is a lot of testing,” I said. “I’m not sure we need to do all of it. Can we talk a little bit more about your symptoms and then try to hone in on what testing would be best to sort it out?”\n\nBen was not impressed. “I have done my research!” He told me firmly. “These days, with the internet, you can find out things that your doctor wouldn’t tell you about – maybe things he doesn’t even know to test for. The problem is that I need YOU to order these things for me so my insurance will cover them. Otherwise, I wouldn’t even be here.”\n\nWith that, we’ll leave Ben and his uncomfortable doctor behind. There have always been patients who brought in articles from magazines telling the reader, “Six things your doctor won’t tell you about your health” and listing testing that should be done. It does seem to have gotten worse.\n\nA lot of patients know more than their doctors. They can search for their symptoms on the web and find out all sorts of things that could cause those symptoms.\n\nBeyond that, artificial intelligence is smart. Chat GPT, an artificial intelligence platform, was able to pass the three parts of the US Medical Licensure Exam. It didn’t do terribly well— it only got just above a passing grade, but I suppose that’s good enough that it could open an office across the street from mine and start seeing patients.\n\nIn some ways letting patients have access to this level of information is a good thing. Doctors aren’t some sort of high priests who are given special rights to access the Holiest of Holies of medical information. More than that, doctors are anything but perfect, and you have only to read online reviews to see that they don’t listen well, botch procedures, and struggle with difficult diagnoses.\n\nIt can be challenging, though, when patients believe that they know more than their doctor. I have always said that if you know more than your doctor, either you need a healthy dose of humility or a new doctor— or maybe both.",
+      "suggested_fix": "Translate these opening paragraphs into Bahasa Indonesia, preserving the original HTML structure and tags (p class=\"lead\", subsequent <p> elements). Maintain the same attributions, quotes, and quoted material (e.g., the patient’s direct speech) in Indonesian. Preserve the reference to “Chat GPT” as a proper name but render the surrounding explanatory text in Indonesian. Do not alter scripture or reference numbering; keep footnote superscript markers (e.g., <sup>1</sup>) in place.",
+      "translation_quote": "“So, what brings you in today?” I asked Ben, a 40-year-old man who was sitting across from me.\n\n“Well,” he answered. “I have a few different symptoms. The biggest one is that I am always tired, but I’ve also been gaining weight, and my knees hurt some in the mornings.”\n\nI mentally began to go through what doctors call a differential diagnosis – things that can cause the cluster of symptoms that a patient has. I usually let the patient explain what symptoms he is experiencing and then ask questions to try to hone in on the specific diagnosis.\n\nBen went on for a little while longer. Then, he proceeded to pull out a piece of paper. “So, Doctor,” he told me. “I’ve done some research into my diagnosis, and I think these are tests that I need to have done to work things up.”\n\nI looked at the list. It was pretty long and included some things I probably would have ordered anyway, like a blood count and thyroid level, but also some very odd things like a Vitamin B1 level and a DHEA level. He also wanted a CT Scan of his head, chest, and abdomen.\n\n“This is a lot of testing,” I said. “I’m not sure we need to do all of it. Can we talk a little bit more about your symptoms and then try to hone in on what testing would be best to sort it out?”\n\nBen was not impressed. “I have done my research!” He told me firmly. “These days, with the internet, you can find out things that your doctor wouldn’t tell you about – maybe things he doesn’t even know to test for. The problem is that I need YOU to order these things for me so my insurance will cover them. Otherwise, I wouldn’t even be here.”\n\nWith that, we’ll leave Ben and his uncomfortable doctor behind. There have always been patients who brought in articles from magazines telling the reader, “Six things your doctor won’t tell you about your health” and listing testing that should be done. It does seem to have gotten worse.\n\nA lot of patients know more than their doctors. They can search for their symptoms on the web and find out all sorts of things that could cause those symptoms.\n\nBeyond that, artificial intelligence is smart. Chat GPT, an artificial intelligence platform, was able to pass the three parts of the US Medical Licensure Exam. It didn’t do terribly well— it only got just above a passing grade, but I suppose that’s good enough that it could open an office across the street from mine and start seeing patients.\n\nIn some ways letting patients have access to this level of information is a good thing. Doctors aren’t some sort of high priests who are given special rights to access the Holiest of Holies of medical information. More than that, doctors are anything but perfect, and you have only to read online reviews to see that they don’t listen well, botch procedures, and struggle with difficult diagnoses.\n\nIt can be challenging, though, when patients believe that they know more than their doctor. I have always said that if you know more than your doctor, either you need a healthy dose of humility or a new doctor— or maybe both."
+    },
+    {
+      "location": "references section (end of article)",
+      "severity": "major",
+      "source_quote": "<ol>\n      <li><cite>Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models - PMC (nih.gov)</cite></li>\n      <li><cite>Evaluating Internet Research Sources</cite></li>\n      <li><cite>Sale of Health-Related Products | AMA-Code (ama-assn.org)</cite></li>\n      <li><cite>65% of Americans believe they are above average in intelligence: Results of two nationally representative surveys - PMC (nih.gov)</cite></li>\n    </ol>",
+      "suggested_fix": "Translate the visible citation titles into Indonesian while preserving the HTML <section class=\"references\"> structure, the ordered list <ol>, the <li> items and <cite> tags, and the original ordering and URLs (if present elsewhere). Keep identifiers like 'PMC (nih.gov)' and 'ama-assn.org' as proper names/URLs but render the human-readable titles in Bahasa Indonesia so the citations appear in the article's target language.",
+      "translation_quote": "<ol>\n      <li><cite>Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models - PMC (nih.gov)</cite></li>\n      <li><cite>Evaluating Internet Research Sources</cite></li>\n      <li><cite>Sale of Health-Related Products | AMA-Code (ama-assn.org)</cite></li>\n      <li><cite>65% of Americans believe they are above average in intelligence: Results of two nationally representative surveys - PMC (nih.gov)</cite></li>\n    </ol>"
     }
   ],
   "id": "184a4ecd3062619b1e673c889219a6a4",
@@ -69,11 +103,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6a174f90d4349eed5395b954b6464250e64e874608b754c80cbaf37735556faf.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "e438e2a5dbbb36ddf11340e0d96ac331f86b42c4c964f5787972c99d3487ba67",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "cc15696b-3504-4d5c-971b-ac58da7d089c",
+    "response_id": "chatcmpl-EUUKH0mYbYD7MkLhSxQEN59spAqtM",
+    "usage": {
+      "completion_tokens": 1915,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1547,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3462
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> first stanza, line 1",
+        "severity": "minor",
+        "source_quote": "'Tis winter now; the fallen snow",
+        "suggested_fix": "استبدل \"إنها الآن شتاء\" بعبارة صحيحة نحويًا ومألوفة بالعربية مثل: \"إنه الآن شتاء\" أو \"الآن هو فصل الشتاء\"",
+        "translation_quote": "إنها الآن شتاء؛ الثلج المتساقط"
+      },
+      {
+        "location": "<div class=\"poem\"> second stanza, line 1",
+        "severity": "major",
+        "source_quote": "And yet God's love is not withdrawn;",
+        "suggested_fix": "\"not withdrawn\" ينبغي أن تُنقل بمعنى استمرار العطاء أو عدم الانقطاع، لا بمعنى \"لم تُنسَ\". اقترح: \"ومع ذلك فمحبة الله لم تنقطع؛\" أو \"ومع ذلك فمحبة الله لم تُسحب؛\"",
+        "translation_quote": "ومع ذلك فمحبة الله لم تُنسَ؛"
+      },
+      {
+        "location": "<div class=\"poem\"> second stanza, line 2",
+        "severity": "minor",
+        "source_quote": "his life within the keen air breathes;",
+        "suggested_fix": "الفعل والضمائر في العربية يحتاجان إلى تركيب سليم. اقترح: \"وحياته تتنفس في الهواء القارس؛\" أو \"وحياته تنبض في الهواء القارس؛\"",
+        "translation_quote": "حياته في الهواء القارس تتنفس؛"
+      },
+      {
+        "location": "<div class=\"poem\"> third stanza, lines 1–4</severity><missing/>,",
+        "severity": "major",
+        "source_quote": "And though abroad the sharp winds blow,\nand skies are chill, and frosts are keen,\nhome closer draws her circle now,\nand warmer glows her light within.",
+        "suggested_fix": "العبارة الشاعرية \"home closer draws her circle now\" تعني أن البيت يقرب دائرته (أي يقرب الناس بعضهم إلى بعض) وليس أن \"يقترب البيت من دائرته\". كما أن \"warmer glows her light within\" تحتاج تركيبًا عربيًا صحيحًا متوافقًا مع مراعاة التأنيس والتذكير. اقترح ترجمة مقترحة تحافظ على المعنى والوزن الشعري: \"ومع أن الرياح الحادة تهب بالخارج،\nوالسموات باردة، والصقيع قارس،\nيضيقُ بيتنا دائرته الآن،\nويزداد ضياؤه داخله دفئًا.\"",
+        "translation_quote": "ومع أن الرياح الحادة تهب في الخارج،\nوالسموات باردة، والصقيع قارس،\nيقترب البيت من دائرته الآن،\nوتتلألأ داخله أنواره بحرارة أدفأ."
+      },
+      {
+        "location": "<div class=\"poem\"> fourth stanza, line 1",
+        "severity": "major",
+        "source_quote": "O God, you give the winter's cold,",
+        "suggested_fix": "الفعل المضارع المصاغ إلى المخاطب يجب أن يكون بصيغة فاعل سليمة (أنت تعطي/تمنح). \"أنت تعطى\" في الترجمة الحالية تُظهر خطأ نحوياً (صيغة المبني للمجهول أو خطأ في التشكيل). اقترح: \"يا إلهي، أنت تمنح برد الشتاء،\" أو \"يا إلهي، أنت تُعطي بردَ الشتاء،\"",
+        "translation_quote": "يا إلهي، أنت تعطى برد الشتاء،"
+      },
+      {
+        "location": "<figure> img alt",
+        "severity": "minor",
+        "source_quote": "A lone bare tree in a snowy field",
+        "suggested_fix": "الترجمة الحالية \"شجرة عارية وحيدة\" قد تُفهم سلبيًا بسبب كلمة \"عارية\"؛ الأفضل استخدام \"عارية الأوراق\" أو \"خالية الأوراق\" لإبقاء الدلالة المقصودة. اقترح: \"شجرة وحيدة خالية الأوراق في حقل ثلجي\"",
+        "translation_quote": "شجرة عارية وحيدة في حقل ثلجي"
+      }
+    ],
+    "passed": false,
+    "score": 40
+  }
+}

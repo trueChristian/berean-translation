@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "134c673b-e8a6-4d2c-9aee-5c4086b8465b",
+    "response_id": "chatcmpl-EUULFHsX4m3P6DA6obRqSXPSrD8LE",
+    "usage": {
+      "completion_tokens": 835,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12192,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13027
+    }
+  },
+  "received_at": "2026-10-02T10:04:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "A Christ-Centered Courtship Series",
+        "suggested_fix": "Translate the English title into Dutch, preserving the author's theology and sense. For example: \"Een Christusgerichte verkering-serie\" or better idiomatic Dutch: \"Een Christusgerichte verkering\" (keep capitalization consistent with site style).",
+        "translation_quote": "A Christ-Centered Courtship Series"
+      },
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "INSPIRATIONS FOR YOUTH",
+        "suggested_fix": "Translate the section metadata into contemporary Dutch. For example: \"INSPIRATIES VOOR JONGEREN\" or \"INSPIRATIES VOOR DE JEUGD\" depending on site terminology. Preserve all-caps styling if used by the site.",
+        "translation_quote": "INSPIRATIONS FOR YOUTH"
+      },
+      {
+        "location": "article body, paragraph: \"We bespraken in het vorige nummer Satan’s Snares voor man en vrouw.\"",
+        "severity": "minor",
+        "source_quote": "Satan’s Snares",
+        "suggested_fix": "Translate the English title of the prior topic into Dutch while preserving it as a title. A suitable rendering: \"Satan's valstrikken\" or \"De valstrikken van Satan\". If the publication prefers to keep the original English title as a proper name, add italics or quotation marks per house style; otherwise translate it.",
+        "translation_quote": "Satan’s Snares voor man en vrouw"
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

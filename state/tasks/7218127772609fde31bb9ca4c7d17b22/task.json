@@ -2,7 +2,6 @@
   "article_id": "042fce50-3724-4100-b397-093c6d081e89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 3746
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1371,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1024,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3151,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4522
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "First paragraph, personal names",
+      "severity": "minor",
+      "source_quote": "a small group of radical Christians quietly gathered in the home of Felix Mantz in Zürich, Switzerland.",
+      "suggested_fix": "Remove the added English-name parenthetical or render names only in Korean without inserting the English in parentheses to preserve original structure. For example: \"스위스 취리히의 펠릭스 만츠의 집에 조용히 모였다.\" (omit \"(Felix Mantz)\").",
+      "translation_quote": "스위스 취리히의 펠릭스 만츠(Felix Mantz)의 집에 조용히 모였다."
+    },
+    {
+      "location": "Final paragraphs, cited article titles",
+      "severity": "minor",
+      "source_quote": "A Glorious Church by Barry Grant and Joy in the Crevices by Sheryl Zeiset were both first printed in 2019.",
+      "suggested_fix": "Translate the English article titles into Korean (or provide Korean equivalents) rather than leaving them in English, because these are translatable article titles referenced in the body. For example: \"배리 그랜트의 '영광스러운 교회'(A Glorious Church)와 셰릴 자이젯의 '틈새의 기쁨'(Joy in the Crevices)\" — preserving original English in parentheses is optional.",
+      "translation_quote": "배리 그랜트(Barry Grant)의 \"A Glorious Church\"와 셰릴 자이젯(Sheryl Zeiset)의 \"Joy in the Crevices\"는 모두 2019년에 처음 실렸다."
+    }
+  ],
+  "finished_at": "2026-10-02T10:04:51+00:00",
   "id": "7218127772609fde31bb9ca4c7d17b22",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "kor",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/901933390bbab68b30ba65d224e53d69f0af822b49f3cdb694876c259f4bd250.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "a8b13667ad0bdee6e94fb75c94d958fc5f824dbcd185202cd5cc7be6e9274a4c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

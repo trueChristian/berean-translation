@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "afb6d6b9-1190-4726-a958-a30965039ea4",
+    "response_id": "chatcmpl-EUULNRy16qgT91dxbiBHWw4N9xOwY",
+    "usage": {
+      "completion_tokens": 1033,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13910,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 14943
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first paragraph (magazine title in article-note)",
+        "severity": "major",
+        "source_quote": "After printing all five articles in </em>The Heartbeat of the Remnant<em>, we will publish them in a booklet.",
+        "suggested_fix": "Translate the magazine title into Arabic and preserve the surrounding <em> tags and HTML structure. For example: After printing all five articles in </em>«نبض الباقين»<em>, we will publish them in a booklet. (Replace the English title only, keep the original <em> tags in place.)",
+        "translation_quote": "بعد طباعة المقالات الخمس كلها في </em>The Heartbeat of the Remnant<em>، سننشرها في كتيّب."
+      },
+      {
+        "location": "source.section (metadata)",
+        "severity": "major",
+        "source_quote": "INSPIRATIONS FOR YOUTH",
+        "suggested_fix": "Translate the section string into Arabic in the translation metadata. For example: \"إلهامات للشباب\" (replace the English section value with the Arabic equivalent while leaving the field name unchanged).",
+        "translation_quote": "INSPIRATIONS FOR YOUTH"
+      },
+      {
+        "location": "second figure alt attribute (image 2) in source.html",
+        "severity": "major",
+        "source_quote": "A three-panel collage of winter trees and a snowy rural scene",
+        "suggested_fix": "Correct the Arabic alt text to faithfully reflect the English alt. Replace the current Arabic alt with a direct translation that preserves meaning, for example: \"تجميعة من ثلاث صور لأشجار شتوية ومشهد ريفي مغطى بالثلوج\". Preserve the img tag and its attributes; change only the alt value.",
+        "translation_quote": "مجموعة صور ثلاثية للّبنات الشتوية ومشهد ريفي مغطى بالثلج"
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}

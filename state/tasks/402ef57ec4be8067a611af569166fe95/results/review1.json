@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "911c822f-4947-46f8-8a21-b4d89eb01d9f",
+    "response_id": "chatcmpl-EUUJtfermix2YZZgmVOiq9k9eiOVW",
+    "usage": {
+      "completion_tokens": 912,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5883,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6795
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing \"science project\" (near <h2>Iets leuks doen met mijn kinderen</h2>)",
+        "severity": "minor",
+        "source_quote": "a fun science project",
+        "suggested_fix": "Use the correct Dutch compound noun: change \"een leuk wetenschapproject\" to \"een leuk wetenschapsproject\" or \"een leuk natuurwetenschappelijk project\".",
+        "translation_quote": "\"zoals een leuk wetenschapproject\""
+      },
+      {
+        "location": "Paragraph containing \"math facts\" (in the paragraph under <h2>Vrolijk spreken</h2>)",
+        "severity": "minor",
+        "source_quote": "math facts",
+        "suggested_fix": "Translate the phrase into natural Dutch. Replace \"tafelfeiten\" / \"tafel feiten\" with \"rekensommen\" or \"tafelsommen\" to reflect the meaning of basic arithmetic exercises.",
+        "translation_quote": "\"En wat hebben tafelfeiten, brooddeeg en vuile vloeren nou echt te maken met vreugde?\""
+      },
+      {
+        "location": "Paragraphs using the English word \"compound\" (multiple occurrences)",
+        "severity": "minor",
+        "source_quote": "compound",
+        "suggested_fix": "Either keep the English loanword if editorial style allows, or use a standard Dutch equivalent for clarity, e.g. replace \"compound\" with \"terrein\", \"woonterrein\" or \"omheind erf\" consistently.",
+        "translation_quote": "\"het feit dat ik week aan week opgesloten zit in ons compound.\" and \"Onlangs werd ons compound in het dorp overgenomen door het lokale leger,\""
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

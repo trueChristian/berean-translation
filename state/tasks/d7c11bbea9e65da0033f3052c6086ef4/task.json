@@ -2,7 +2,6 @@
   "article_id": "b5ea052a-167f-45c4-bf40-cd463c4546b6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,62 @@
         },
         "total_tokens": 8357
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1654,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7952,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9606
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "Paragraph containing Psalm quotation (source.html paragraph: ““Thou hast set all the borders of the earth: thou hast made summer and winter” (Psalm 74:17).”)",
+      "severity": "major",
+      "source_quote": "“Thou hast set all the borders of the earth: thou hast made summer and winter” (Psalm 74:17).",
+      "suggested_fix": "Translate the quoted Scripture to faithfully convey the printed English meaning (“you made summer and winter”), using conventional Modern Greek Scripture phrasing and the same chapter/verse notation. For example: «Έθεσες τα σύνορα της γης· συ εποίησας το καλοκαίρι και τον χειμώνα» (Ψαλμοί 74:17). Preserve the verse numbers exactly as in the source.",
+      "translation_quote": "«Έθεσας τα όρια της γης· συ ώρισας θέρμην και ψύχος» (Ψαλμοί 74:17)."
+    },
+    {
+      "location": "Paragraph: “hearth and home” (section 'Togetherness')",
+      "severity": "major",
+      "source_quote": "We speak in the same breath, of hearth and home, and it is in winter that the hearth glows and love grows.",
+      "suggested_fix": "Restore the intended meaning of the English idiom “hearth and home” (hearth = εστία, home = οικία/σπίτι). Replace the mistranslation that turned εστία into “εστιατόριο”. Suggested rendering: «Μιλάμε με την ίδια λέξη για την εστία και το σπίτι, και είναι ο χειμώνας που η εστία λάμπει και η αγάπη μεγαλώνει.» Preserve original HTML tags/structure when inserting the corrected sentence.",
+      "translation_quote": "«Μιλάμε με την ίδια φωνή για το εστιατόριο και το σπίτι, και είναι το χειμώνα που το τζάκι λάμπει και η αγάπη μεγαλώνει.»"
+    },
+    {
+      "location": "Top figure caption / in-text song reference (paragraph mentioning Winter Wonderland)",
+      "severity": "minor",
+      "source_quote": "While a few gay tunes, such as Winter Wonderland, seek to capitalize upon its majestic moments, winter is generally despised by the normal inhabitants of this earth.",
+      "suggested_fix": "Translate the song title or indicate it in Greek typographic convention. Either translate the title into Greek or put it in Greek quotation marks as a title in Greek script (e.g. «Winter Wonderland» → «Winter Wonderland» in Greek script if keeping original; better: «Winter Wonderland» rendered as «Winter Wonderland» is acceptable if treated as a title, but consider translating to «Χειμωνιάτικος Παράδεισος» only if that matches the magazine style). Ensure it is not left as an un-translated English phrase if your style guide requires translation. Preserve surrounding punctuation and tags.",
+      "translation_quote": "«Ενώ μερικές χαρούμενες μελωδίες, όπως το Winter Wonderland, επιχειρούν να εκμεταλλευτούν τις μεγαλειώδεις στιγμές του,...»"
+    },
+    {
+      "location": "Paragraph with John 1:46 quotation (source: “Can there any good thing come out of Nazareth?”)",
+      "severity": "minor",
+      "source_quote": "“Can there any good thing come out of Nazareth?” (John 1:46).",
+      "suggested_fix": "Adjust Greek wording for natural, idiomatic phrasing while preserving the verse meaning. For example: «Μπορεί να βγει κανένα καλό από τη Ναζαρέτ;» (Ιωάννης 1:46). Keep the verse reference identical.",
+      "translation_quote": "«Μπορεί να βγή από τη Ναζαρέτ τι καλό;» (Ιωάννης 1:46)."
+    },
+    {
+      "location": "Paragraph referencing Stradivari (section 'Strengthening')",
+      "severity": "minor",
+      "source_quote": "In the 1700s, a luthier by the name of Stradivari created violins unequaled in their excellence for beautiful sound.",
+      "suggested_fix": "Use the conventional Greek rendering of the maker's name (Στραντιβάριι, Στραντιβάριους, or Στραντιβάρι depending on house style) and a clearer term for luthier (ταγιούρης/οργανοποιός). Suggested: «Στις αρχές του 1700, ένας οργανοποιός με το όνομα Στραντιβάρι δημιούργησε βιολιά…» Preserve tags/structure.",
+      "translation_quote": "«Στις αρχές του 1700, ένας βιολιστής με το όνομα Στραντιβάρι δημιούργησε βιολιά …»"
     }
   ],
   "id": "d7c11bbea9e65da0033f3052c6086ef4",
@@ -69,11 +124,13 @@
     }
   },
   "protected": false,
+  "quality_score": 65,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/cb70a64f61d5d6ea793a28714a8210160bd2f71712162f15c2619f188dcf0e3f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "43083ba7fbaa256f5105f34da9e51d125c38a107a8d91b3864609877708b8ea8",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

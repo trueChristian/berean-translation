@@ -2,7 +2,6 @@
   "article_id": "8f996405-d870-4074-947b-35190faad643",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,8 +23,44 @@
         },
         "total_tokens": 2330
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 819,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1543,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2362
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "translation.html — <div class=\"poem\"> stanza 1, line 3",
+      "severity": "minor",
+      "source_quote": "The true thy chartered freemen are\n  of every age and clime:",
+      "suggested_fix": "Replace or remove the visible soft-hyphen in \"verbrief­ten\" (it appears as a discretionary hyphen). Use \"verbriefte Freien\" without the hyphenation for normal contemporary German typography.",
+      "translation_quote": "Die wahren sind deine verbrief­ten Freien\n  aus jeder Zeit und jedem Land:"
+    },
+    {
+      "location": "translation.html — <div class=\"poem\"> stanza 2, line 3",
+      "severity": "minor",
+      "source_quote": "one working band, one harvest-song,",
+      "suggested_fix": "Consider rendering \"one working band\" as \"eine arbeitende Schar\" or \"eine arbeitende Schar/Truppe\" if you want a more idiomatic, poetic German equivalent for \"band\" in the sense of a group. \"ein arbeitender Bund\" is comprehensible but a little prosaic for poetry.",
+      "translation_quote": "ein arbeitender Bund, ein Erntelied,"
+    }
+  ],
+  "finished_at": "2026-10-02T10:04:51+00:00",
   "id": "cde47d71e041c2184fd820deb7a53f45",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "deu",
@@ -69,11 +104,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d3ca99062c7b8454e6587c9b32705a7d35c0d70cbcf6c1f6f8eaefeb762c95bf.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "63f32eb5571bce4d8b82e7103273aaf0a3a4bf91449228454d16a781256867bd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

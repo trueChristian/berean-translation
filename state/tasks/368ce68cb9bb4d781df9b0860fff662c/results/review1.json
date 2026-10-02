@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5a35631b-c446-4775-a419-549288529781",
+    "response_id": "chatcmpl-EUUKA6h6cnpSVL1lWOfZwJbdpBDCb",
+    "usage": {
+      "completion_tokens": 1433,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6205,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7638
+    }
+  },
+  "received_at": "2026-10-02T10:04:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing \"Apoc. 19:12\" (translation paragraph beginning \"Matthew Bridges compose originariamente il canto nel 1851...\")",
+        "severity": "minor",
+        "source_quote": "Matthew Bridges originally penned the song in 1851. He wrote six stanzas, all based upon Rev. 19:12: “ ... and on His head were many crowns.”",
+        "suggested_fix": "Use the conventional Italian name for the biblical book so readers clearly recognize the reference. For example, replace “Apoc. 19:12” with “Apocalisse 19:12” (or the standard Italian abbreviation “Apoc.” only if your house style uses it). Preserve the verse numbers and punctuation.",
+        "translation_quote": "Matthew Bridges compose originariamente il canto nel 1851. Scrisse sei strofe, tutte basate su Apoc. 19:12: “ ... e sulla sua testa c'erano molte corone.”"
+      },
+      {
+        "location": "Final exhortation paragraph (translation paragraph beginning \"Possa la nostra congregazione...\")",
+        "severity": "minor",
+        "source_quote": "Crown Him, our Lord Jesus Christ, with many crowns, for he is worthy!",
+        "suggested_fix": "Correct the target-language verb form and fix the accidental uppercase pronoun. Replace “IncoronateLO, il nostro Signore Gesù Cristo, con molte corone, poiché egli è degno!” with “Incoronatelo, il nostro Signore Gesù Cristo, con molte corone, poiché egli è degno!” Preserve surrounding HTML tags and punctuation.",
+        "translation_quote": "Possa la nostra congregazione proseguire la pratica del canto corale e di tutto il cuore, innalzando le nostre voci in lode al Signore nell'assemblea dei santi! IncoronateLO, il nostro Signore Gesù Cristo, con molte corone, poiché egli è degno!"
+      },
+      {
+        "location": "Paragraph introducing Thring stanzas (translation paragraph beginning \"Le 12 strofe sono state mescolate...\")",
+        "severity": "major",
+        "source_quote": "Also included as well are the six couplets by Thring.",
+        "suggested_fix": "The translation misrenders the English \"six couplets\" as “sei terzine” (which means three-line stanzas). This changes the factual claim about the form of Thring's contributions. Replace “sei terzine di Thring” with a faithful rendering such as “le sei coppie di strofe di Thring” or “le sei coppie (o sei coppie di versi) di Thring,” or simply “le sei strofe di Thring” if that matches the intended meaning in the English. Preserve HTML tags and the phrase in context.",
+        "translation_quote": "Sono incluse anche le sei terzine di Thring."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

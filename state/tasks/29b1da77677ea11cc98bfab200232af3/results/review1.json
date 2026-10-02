@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f20b8920-4e65-4197-827c-e3b4f340c321",
+    "response_id": "chatcmpl-EUUK5xbVUZltXqLbJfRZ2TsaFvpT7",
+    "usage": {
+      "completion_tokens": 1629,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5193,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6822
+    }
+  },
+  "received_at": "2026-10-02T10:04:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "1st content paragraph mentioning Potemkin (source.html first <p> of 2nd paragraph)",
+        "severity": "major",
+        "source_quote": "The group first entered Russia upon the urgings of the Viceroy Potemkin, who came into authority over the area now known as Ukraine after its annexation by Russia in 1783.",
+        "suggested_fix": "Replace “Visegraaf Potemkin” with an accurate Afrikaans equivalent of “Viceroy,” e.g. “vise-koning Potemkin” or simply “vise-koning (viceroy) Potemkin.” Preserve the name Potemkin and the rest of the sentence structure.",
+        "translation_quote": "Die groep het eers Rusland binnegekom op versoek van die Visegraaf Potemkin, wat beheer oor die gebied wat nou as Oekraïne bekend staan gekry het ná die anneksasie deur Rusland in 1783."
+      },
+      {
+        "location": "Paragraph about Danzig offer (source.html same paragraph)",
+        "severity": "minor",
+        "source_quote": "The Mennonites in Danzig, Poland, were first approached with the offer of land, which would have appealed to them because they were routinely denied land ownership as a semi-persecuted people at that time.",
+        "suggested_fix": "Improve phrasing for idiomatic Afrikaans and clarity: render as “Die Menoniete in Danzig in Pole is eers genader met ’n aanbod om grond” or “Die Menoniete in Danzig (Pole) is eers genader met die aanbod van grond.” Keep the location Danzig and the country Poland.",
+        "translation_quote": "Die Menoniete in Danzig, Pole, is eers genader met die aanbod van grond, wat vir hulle aantreklik sou wees omdat hulle daardie tyd gereeld verhoed is om grond te besit as ’n semi-vervolgde volk."
+      },
+      {
+        "location": "Paragraph naming the wheat (source.html paragraph beginning “By this time, the strong agricultural society...”)",
+        "severity": "major",
+        "source_quote": "Turkey Red Wheat.",
+        "suggested_fix": "Translate the crop name into Afrikaans while preserving it as an identified variety. For example: “Turkey Red-koring” or “’Turkey Red’-koring (Turkey Red Wheat)” — preferably the former or “Turkey Red-koring (Turkey Red Wheat)” if the editor wants the English printed name also visible, but ensure the primary rendering is Afrikaans and the English is not left as the main untranslated substantive prose.",
+        "translation_quote": "Turkey Red-wes (Turkey Red Wheat)."
+      },
+      {
+        "location": "Paragraph about supporters of Germans / Nazis (paragraph beginning “We readers, who are blessed...”)",
+        "severity": "major",
+        "source_quote": "what the end result was of wholesale support for the Nazis",
+        "suggested_fix": "Replace the inaccurate or misleading Afrikaans term “Natsionaliste” with a faithful translation of “Nazis” (e.g. “Nazi’s”, “Nasionaalsosialiste” or “die Nazi’s / Nasionaalsosialiste”). Ensure consistency with earlier usage (“Nazi Germany” was correctly given as “Nazi-Duitsland” in the source).",
+        "translation_quote": "...wat die uitkoms was van massiewe ondersteuning vir die Natsionaliste,"
+      },
+      {
+        "location": "Paragraph about being deposed and exiled (sentence describing October Revolution)",
+        "severity": "minor",
+        "source_quote": "the reigning tsar, or emperor, was deposed and exiled, and a new government was set up.",
+        "suggested_fix": "Use a more precise Afrikaans verb for “deposed,” e.g. “onttroon” rather than “afgegradeer.” Suggested rendering: “waar die heersende tsaar, of keiser, ontroon en verban is, en ’n nuwe regering ingestel is.”",
+        "translation_quote": "’n gebeurtenis waar die heersende tsaar, of keiser, afgegradeer en verban is, en ’n nuwe regering ingestel is."
+      },
+      {
+        "location": "Image alt text (figure <img> alt attribute)",
+        "severity": "minor",
+        "source_quote": "A historical photograph of windmills, people, and livestock",
+        "suggested_fix": "Correct the translated alt text so it renders “windmills” accurately. Use “windmeul(e)n” or “windmeulens” (e.g. “’n Historiese foto van windmeulens, mense en vee” or “’n Historiese foto van windmeulens, mense en vee”). Avoid “mieliesmeulens,” which suggests corn mills.",
+        "translation_quote": "’n Historiese foto van mieliesmeulens, mense en vee"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

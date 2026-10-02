@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "93c12393-8d39-43ef-9a38-7b4f40ddba65",
+    "response_id": "chatcmpl-EUULAIiB8LLRJFdCCSxpdjlVeCXyo",
+    "usage": {
+      "completion_tokens": 1201,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5170,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6371
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “In 1917, the Bolsheviks...”",
+        "severity": "minor",
+        "source_quote": "the reigning tsar, or emperor, was deposed and exiled",
+        "suggested_fix": "Translate or transliterate all substantive words into Hindi and preserve meaning. Replace the Hindi phrase that currently mixes an incorrect Hindi word and English with a clean Hindi rendering, e.g. change “राज कर रहे सार (ज़ार), या सम्राट को हटाया और exile किया गया” to “राज कर रहे ज़ार (या सम्राट) को हटाया गया और निर्वासित कर दिया गया” preserving the surrounding HTML tags and punctuation.",
+        "translation_quote": "राज कर रहे सार (ज़ार), या सम्राट को हटाया और exile किया गया, और एक नई सरकार स्थापित की गई।"
+      },
+      {
+        "location": "Same paragraph (phrase)",
+        "severity": "minor",
+        "source_quote": "the reigning tsar, or emperor",
+        "suggested_fix": "Fix the erroneous Hindi word “सार” (which is incorrect here) so the Hindi reads naturally. Replace “राज कर रहे सार (ज़ार), या सम्राट” with “राज कर रहे ज़ार (या सम्राट)” so the parenthetical and apposition match the English structure. Preserve HTML.",
+        "translation_quote": "राज कर रहे सार (ज़ार), या सम्राट को हटाया और exile किया गया"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

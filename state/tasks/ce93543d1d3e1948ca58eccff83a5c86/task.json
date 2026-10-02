@@ -2,7 +2,6 @@
   "article_id": "b37f8111-4563-4b5b-ab9f-1f87bcd2b46a",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,34 @@
         },
         "total_tokens": 6147
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 923,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5732,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6655
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<p>...Livrar-se da cortina murk e feia da sala de aula e substituí‑la por uma nova amarela...</p>",
+      "severity": "major",
+      "source_quote": "Get rid of the limp, ugly curtain in the schoolroom and replace it with a fresh yellow one (yes, even if it does take a few dollars to do so, I remind my penny-pinching soul).",
+      "suggested_fix": "Replace the untranslated/incorrect phrase with an appropriate Portuguese rendering that preserves the author's meaning. For example: \"Livrar-se da cortina murcha e feia da sala de aula e substituí‑la por uma nova amarela (sim, mesmo que isso custe alguns dólares, lembro à minha alma sovina).\" Preserve the surrounding HTML and punctuation exactly; only change the words \"cortina murk e feia\" to \"cortina murcha e feia\" (or another equivalent such as \"cortina flácida e feia\").",
+      "translation_quote": "Livrar-se da cortina murk e feia da sala de aula e substituí‑la por uma nova amarela (sim, mesmo que isso custe alguns dólares, lembro à minha alma sovina)."
     }
   ],
   "id": "ce93543d1d3e1948ca58eccff83a5c86",
@@ -69,11 +96,13 @@
     }
   },
   "protected": false,
+  "quality_score": 68,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/8a0658267fa9eaeafccc26ac6637cde2343d272e4862413edce341f1010a3f2c.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "810e77f1e38c86de9278d0fba622dcb0789774ee530b139604475db68ad15426",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

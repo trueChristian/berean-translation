@@ -2,7 +2,6 @@
   "article_id": "f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,48 @@
         },
         "total_tokens": 1870
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1380,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1024,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1595,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2975
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "<div class=\"poem\"> — stanza 3, line 2",
+      "severity": "major",
+      "source_quote": "and skies are chill, and frosts are keen,",
+      "suggested_fix": "Preserve the meaning that frosts are sharp/intense rather than implying snowfall. For example, replace the second line of stanza 3 inside the same <p> block with: \n  اور آسمان ٹھنڈے ہیں، اور سخت جمی ہوئی یخ بستگی ہے،\n(keep the surrounding HTML and line-break <br> tags unchanged).",
+      "translation_quote": "اور اگر باہر تیز ہوائیں چلیں،\n  اور آسمان ٹھنڈے اور برف جھڑتی ہو،"
+    },
+    {
+      "location": "<title> element (source.title)",
+      "severity": "minor",
+      "source_quote": "Winter Song",
+      "suggested_fix": "Use an idiomatic, correctly spelled Urdu title. Replace the translation title value with: \"سردیوں کا نغمہ\" (remove the extra diacritic marks and use standard spelling).",
+      "translation_quote": "سرِِِدِیوں کا نغمہ"
+    },
+    {
+      "location": "<img alt=\"...\"> attribute",
+      "severity": "minor",
+      "source_quote": "A lone bare tree in a snowy field",
+      "suggested_fix": "Prefer the more natural Urdu adjective for 'bare' when describing a tree. Replace the alt text value with: \"برف پوش میدان میں اکیلا برہنہ درخت\" (preserve the <img> tag and its attributes).",
+      "translation_quote": "برف پوش میدان میں اکیلا ننگا درخت"
     }
   ],
   "id": "55a7288855b62f2514cd18882a6f32c7",
@@ -69,11 +110,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1ed33a15abc99ca0a5621844be43f6764a1df6e4da098bed1eb0cbfbb0276cbd.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

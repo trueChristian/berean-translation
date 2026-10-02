@@ -3,6 +3,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/042fce50-3724-4100-b397-093c6d081e89.html",
+      "html_sha256": "ccba5a2c72413b53c74c89c36dac208c64822ce9a60a5a2e6791f46d7134d992",
+      "human_reviewed": false,
+      "id": "042fce50-3724-4100-b397-093c6d081e89",
+      "images": [
+        {
+          "alt": "Gutenberg-bibel wat in die VSA se Kongresbiblioteek uitgestal is",
+          "public_path": "/images/articles/042fce50-3724-4100-b397-093c6d081e89-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/042fce50-3724-4100-b397-093c6d081e89.json",
+      "metadata_sha256": "0c28f5b71125df0d61ab4dbe471a6e356679699919b94b680b5e1ceb5a2d01cb",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Van die REDAKTEUR",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "a8b13667ad0bdee6e94fb75c94d958fc5f824dbcd185202cd5cc7be6e9274a4c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Van die redakteur",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
       "html_sha256": "d460557884c73a69c86e0daeb7ce136c02c0aaae16459b0d206ca9c57dc75d35",
       "human_reviewed": false,
@@ -418,6 +446,70 @@
     },
     {
       "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.html",
+      "html_sha256": "275c4d7b1b43e13ffdabfd5b98ec294e45014c0bd6f296b499e4cd48ae30c097",
+      "human_reviewed": false,
+      "id": "f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9",
+      "images": [
+        {
+          "alt": "’n eensame kaal boom in ’n sneeuveld",
+          "public_path": "/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.json",
+      "metadata_sha256": "0c805bc2d142abce5262311b753e3c49b9d1e8d5d99b5e6a2d233cabf2994e5a",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Gedig",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Winterlied",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf.html",
+      "html_sha256": "7432b779e9b646478b1aa54d7e9e1c778ebb6b9349c72e186e4a4e83f086bef2",
+      "human_reviewed": false,
+      "id": "fbb7faf4-04de-4858-b608-09cb6aedaacf",
+      "images": [
+        {
+          "alt": "’n Stapel ou Bybels en boeke",
+          "public_path": "/images/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf-1.jpg"
+        },
+        {
+          "alt": "’n Handskoenhand wat bloedmonsterbuisies vashou",
+          "public_path": "/images/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf-2.jpg"
+        },
+        {
+          "alt": "’n Breë kollage wat gesondheidswerkers en ’n apteek wys",
+          "public_path": "/images/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf-3.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf.json",
+      "metadata_sha256": "cc5bd764b0bdc513b072e7eb6b6777210d13ee0fdb227a6602a087e5936015fa",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "’N WOORD VAN DIE DOKTER",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "e438e2a5dbbb36ddf11340e0d96ac331f86b42c4c964f5787972c99d3487ba67",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Die Googlifikasie van Medisyne",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
       "direction": "rtl",
       "html": "content/ara/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
       "html_sha256": "f66d80693c253e50b888f4fd01bb8201c784c17ab9ba2892cfbe22a5d9967bbb",
@@ -598,6 +690,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "التحميل الظرفي",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.html",
+      "html_sha256": "01f0cfbda79c9d270945a6044a120c5ffd1304e7693ef5cab362be4dd0657ec6",
+      "human_reviewed": false,
+      "id": "a42c5719-aea1-47ed-abad-ed0cd2571382",
+      "images": [
+        {
+          "alt": "جرة زجاجية تفيض بأقراص نعناع مغلفة بجانب نبات مزروع في أصيص",
+          "public_path": "/images/articles/a42c5719-aea1-47ed-abad-ed0cd2571382-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.json",
+      "metadata_sha256": "0e0eabfbb77ac8afb14c7ad86204a52ea35b849100e23d95753bdc30cc371045",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ركن الأطفال",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "cb49d9b32a113d5c0bf30e44cdec3451c0a5ce43ad2cf97a5830259f43dd1f79",
+      "status": "ready",
+      "subtitle": "قصة عن الامتنان",
+      "title": "رجل الأقراص",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -1207,6 +1327,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.html",
+      "html_sha256": "3215ab744249450365e99b8f3bf8ade260837c15ae9e61e8500b92d544e99e93",
+      "human_reviewed": false,
+      "id": "f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9",
+      "images": [
+        {
+          "alt": "একাকী খামের গাছতলা তুষারে ঢাকা একটি মাঠে",
+          "public_path": "/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.json",
+      "metadata_sha256": "65ec4153fa2c1ba27a71a037237d4e84558664b002f8baf7bf34373af54afd99",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "কবিতা",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712",
+      "status": "ready",
+      "subtitle": null,
+      "title": "শীতের গান",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/fbfb182b-bb05-434f-a664-b74c68153e61.html",
       "html_sha256": "e4f8bfc66c00484ebd67186b9fee2f91b6a21e33524d809218b5684db0964965",
       "human_reviewed": false,
@@ -1299,6 +1447,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571.html",
+      "html_sha256": "e8c46629fa956b1dc47759a26ae5bdfbb0a15b915b113d6580019d14872bc351",
+      "human_reviewed": false,
+      "id": "21180900-6bdd-4c06-a4ed-fd0f6b8a3571",
+      "images": [
+        {
+          "alt": "风车、人物与牲畜的历史照片",
+          "public_path": "/images/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571.json",
+      "metadata_sha256": "775d54e08f21bd58dec5cb6cfd0ba2f2104e34d63c72e7e3017e04881346ec1b",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "教会历史",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "eb6b57cc0ff9251672705de37bad2d751542487f4ae521b68aaf1b67b286861e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "像我们的一部编年史",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
       "html_sha256": "964caee90788f21d1d7a8bb6b78bb3a312172ee68df846de76633d89c5d4ee0b",
       "human_reviewed": false,
@@ -1354,6 +1530,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "情境性负荷",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.html",
+      "html_sha256": "7e56e487efbd6e9119e925894fbda52ae4cdcf64680816c4e569c690d2fe8f8e",
+      "human_reviewed": false,
+      "id": "a42c5719-aea1-47ed-abad-ed0cd2571382",
+      "images": [
+        {
+          "alt": "一个玻璃罐倾倒着包着糖纸的薄荷糖，旁边有一盆植物",
+          "public_path": "/images/articles/a42c5719-aea1-47ed-abad-ed0cd2571382-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.json",
+      "metadata_sha256": "b0fc198e109f1f193197697ce9f2ea87ec1125c50067f65445b8de0fec8c335b",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "儿童天地",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "cb49d9b32a113d5c0bf30e44cdec3451c0a5ce43ad2cf97a5830259f43dd1f79",
+      "status": "ready",
+      "subtitle": "关于感恩的一个故事",
+      "title": "薄荷糖先生",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -1447,6 +1651,62 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a.html",
+      "html_sha256": "f36c75ff40f767449a04eb1079bb67de402d45aef72361dcc389de5b5df6c591",
+      "human_reviewed": false,
+      "id": "b37f8111-4563-4b5b-ab9f-1f87bcd2b46a",
+      "images": [
+        {
+          "alt": "窗边摆放的冬季绿色植物和一个松果",
+          "public_path": "/images/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a.json",
+      "metadata_sha256": "76a6158cf121332b3f7bcdd2feddd9c3fe7a3217ee26d151046129b3800e5caf",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SISTER TO SISTER",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "810e77f1e38c86de9278d0fba622dcb0789774ee530b139604475db68ad15426",
+      "status": "ready",
+      "subtitle": null,
+      "title": "裂缝中的喜乐",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6.html",
+      "html_sha256": "852b23d543272a32598a4a985de7ea09d02bdefd1428aeb5cc78e544cf773d8d",
+      "human_reviewed": false,
+      "id": "b5ea052a-167f-45c4-bf40-cd463c4546b6",
+      "images": [
+        {
+          "alt": "被雪覆盖的常绿树木",
+          "public_path": "/images/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6.json",
+      "metadata_sha256": "e448ef9b84026004cef32b786e41e52ab7af09468ccc674e12719021840281d0",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "精品文章",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "43083ba7fbaa256f5105f34da9e51d125c38a107a8d91b3864609877708b8ea8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "就是冬天",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
       "html_sha256": "6cbb891f4aeae13b6244eb9fb4b289e2d7d9764c0bf6bddf1d25b6420d2f263b",
       "human_reviewed": false,
@@ -1530,6 +1790,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "起来欢喜吧",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.html",
+      "html_sha256": "e0d534de5f86faf20e2d124dd7bcd29d716f9bd532196acce8916ec7383574ca",
+      "human_reviewed": false,
+      "id": "f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9",
+      "images": [
+        {
+          "alt": "雪地中孤零零的光秃树",
+          "public_path": "/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.json",
+      "metadata_sha256": "57e091e23c32d295cc3785279bd95a9503e7b51c1dea7fc2ee5aee4defbf60e7",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "诗歌",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712",
+      "status": "ready",
+      "subtitle": null,
+      "title": "冬之歌",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -1743,6 +2031,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/8f996405-d870-4074-947b-35190faad643.html",
+      "html_sha256": "48605f33c869a6e20a6bc1ea8b82fbcedd5190df16e8c8a235d4f199b07d290f",
+      "human_reviewed": false,
+      "id": "8f996405-d870-4074-947b-35190faad643",
+      "images": [
+        {
+          "alt": "Ein verschneiter Pfad neben kahlen Winterbäumen",
+          "public_path": "/images/articles/8f996405-d870-4074-947b-35190faad643-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/8f996405-d870-4074-947b-35190faad643.json",
+      "metadata_sha256": "09733de92c256300f14087141d55ffb78caf79b4a1b8d0ca10ad332a46ba3df5",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Gedicht",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "63f32eb5571bce4d8b82e7103273aaf0a3a4bf91449228454d16a781256867bd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Stadt Gottes",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
       "html_sha256": "919faaedc00d30ca0a62e2fc065e4b71af1a936c0d90473735bda569eccd690f",
       "human_reviewed": false,
@@ -1766,6 +2082,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Umständebedingte Überlastung",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.html",
+      "html_sha256": "504089fbe743dccf9e0822ab3658d135b777acc2314fb44663c317ba5b6cfc9f",
+      "human_reviewed": false,
+      "id": "a42c5719-aea1-47ed-abad-ed0cd2571382",
+      "images": [
+        {
+          "alt": "Ein Glasgefäß kippt eingewickelte Pfefferminzbonbons neben einer Topfpflanze aus",
+          "public_path": "/images/articles/a42c5719-aea1-47ed-abad-ed0cd2571382-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.json",
+      "metadata_sha256": "2134d053eda10cd483e9ec4adfde54fae3116071928dd9b7ab459892b25f3d5f",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Kinder-Ecke",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "cb49d9b32a113d5c0bf30e44cdec3451c0a5ce43ad2cf97a5830259f43dd1f79",
+      "status": "ready",
+      "subtitle": "Eine Geschichte über Dankbarkeit",
+      "title": "Der Pfefferminzmann",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -2459,6 +2803,70 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.html",
+      "html_sha256": "06e14ca2e70d652bdce782bfdd59ba6e25854eb1afcaa5f1ccf4e9b29a54aec6",
+      "human_reviewed": false,
+      "id": "f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9",
+      "images": [
+        {
+          "alt": "Ένα μοναχικό γυμνό δέντρο σε χιονισμένο χωράφι",
+          "public_path": "/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.json",
+      "metadata_sha256": "687b24de87496346e13b43fc9cfc4df2e5d48a588fe2ea850cf1dad64881d46f",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Ποίημα",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Χειμωνιάτικο τραγούδι",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf.html",
+      "html_sha256": "cc3e3c3a94088a54dbd6814eb66d9e35c01eead448b8c686e0cfa777f9b20381",
+      "human_reviewed": false,
+      "id": "fbb7faf4-04de-4858-b608-09cb6aedaacf",
+      "images": [
+        {
+          "alt": "Στοίβα από παλιά Ευαγγέλια και βιβλία",
+          "public_path": "/images/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf-1.jpg"
+        },
+        {
+          "alt": "Γαντοφορεμένο χέρι που κρατά δοκιμαστικούς σωλήνες αίματος",
+          "public_path": "/images/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf-2.jpg"
+        },
+        {
+          "alt": "Ευρεία κολάζ που δείχνει επαγγελματίες υγείας και ένα φαρμακείο",
+          "public_path": "/images/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf-3.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf.json",
+      "metadata_sha256": "c8d9ba5dd63d31a56aeccf16a1b8510b88608c188917eed14c6dd61c3c1ceff0",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ΕΝΑ ΜΗΝΥΜΑ ΑΠΟ ΤΟΝ ΓΙΑΤΡΟ",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "e438e2a5dbbb36ddf11340e0d96ac331f86b42c4c964f5787972c99d3487ba67",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Η «Γκουγκλοποίηση» της Ιατρικής",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/fbfb182b-bb05-434f-a664-b74c68153e61.html",
       "html_sha256": "e2a31666fe09f31edaf780250cee9646321aa02a63ea6d04b98bb9f4e49e3eaa",
       "human_reviewed": false,
@@ -2546,6 +2954,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Du plaisir pour tous",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571.html",
+      "html_sha256": "f7c6b75da165721ecc7a5a200be1ac2fb5f2ce9ea6e4ecc7149910ed971ec7e3",
+      "human_reviewed": false,
+      "id": "21180900-6bdd-4c06-a4ed-fd0f6b8a3571",
+      "images": [
+        {
+          "alt": "Une photographie historique de moulins à vent, de personnes et de bétail",
+          "public_path": "/images/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571.json",
+      "metadata_sha256": "04f224cafc7372b2a61fdf806f3a8be77dbae88cc815ed83f535be878a902acc",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "HISTOIRE DE L’ÉGLISE",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "eb6b57cc0ff9251672705de37bad2d751542487f4ae521b68aaf1b67b286861e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Une chronique semblable à la nôtre",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -2767,6 +3203,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/8f996405-d870-4074-947b-35190faad643.html",
+      "html_sha256": "ecc4087fb87cc1d41af4360fd1609476684166cb71557a1d2ff14b0b99145834",
+      "human_reviewed": false,
+      "id": "8f996405-d870-4074-947b-35190faad643",
+      "images": [
+        {
+          "alt": "Un chemin enneigé à côté d'arbres d'hiver nus",
+          "public_path": "/images/articles/8f996405-d870-4074-947b-35190faad643-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/8f996405-d870-4074-947b-35190faad643.json",
+      "metadata_sha256": "e1fb51640c024bee46d7e3c067a89b993e5d58dc5706111fd3eb0eb60e758197",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Poème",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "63f32eb5571bce4d8b82e7103273aaf0a3a4bf91449228454d16a781256867bd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Cité de Dieu",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
       "html_sha256": "0eacd03d390d46b2a386392b62d2153314c8139ee9911784c9c7d8ca72c4a072",
       "human_reviewed": false,
@@ -2790,6 +3254,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Surcharge circonstancielle",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.html",
+      "html_sha256": "9f4623dad97f5be56975eabe35cc8a8f232f48639a28a047ebd267a5e997fae9",
+      "human_reviewed": false,
+      "id": "a42c5719-aea1-47ed-abad-ed0cd2571382",
+      "images": [
+        {
+          "alt": "Un bocal en verre renversant des pastilles enveloppées à côté d’une plante en pot",
+          "public_path": "/images/articles/a42c5719-aea1-47ed-abad-ed0cd2571382-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.json",
+      "metadata_sha256": "bd6b3b845df6e077dde19d9a5f1729e336ba3c79ed4657f8cdb246ada6b3a36f",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Coin des enfants",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "cb49d9b32a113d5c0bf30e44cdec3451c0a5ce43ad2cf97a5830259f43dd1f79",
+      "status": "ready",
+      "subtitle": "Une histoire de gratitude",
+      "title": "L'homme aux pastilles",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -2883,6 +3375,62 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a.html",
+      "html_sha256": "18a1c3526903874df3c76f84bc0e29900914fd83282c4bf1940e28cb3bc97798",
+      "human_reviewed": false,
+      "id": "b37f8111-4563-4b5b-ab9f-1f87bcd2b46a",
+      "images": [
+        {
+          "alt": "Verdure hivernale et un cône de pin disposés près d'une fenêtre",
+          "public_path": "/images/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a.json",
+      "metadata_sha256": "8f43416181f7e36a8a120dcf2edf775fd61b7b3ef820a7ec4a8b517fbd00d8d5",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Sœur à sœur",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "810e77f1e38c86de9278d0fba622dcb0789774ee530b139604475db68ad15426",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La joie dans les fissures",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6.html",
+      "html_sha256": "66c7812e1cb601c2c51b2c2ead1c996e441df44998145d2a0f582add2b98c4e4",
+      "human_reviewed": false,
+      "id": "b5ea052a-167f-45c4-bf40-cd463c4546b6",
+      "images": [
+        {
+          "alt": "Conifères couverts de neige",
+          "public_path": "/images/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6.json",
+      "metadata_sha256": "1d13ecfa46d37774a1bd9e3d753045002b4a73fea5083c278a4d661122a7c0be",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ARTICLE EN VEDETTE",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "43083ba7fbaa256f5105f34da9e51d125c38a107a8d91b3864609877708b8ea8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "C'était l'hiver",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f.html",
       "html_sha256": "ccbce9f640a464bafceec34cd9cf4759892ed9124f84ad13dfa32b3503be411b",
       "human_reviewed": false,
@@ -2939,6 +3487,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/deabdd90-c842-4ed6-ad15-c2fa9870b099.html",
+      "html_sha256": "daffa4c3eacdef90624a42d8df34cac2fcbac7bb1334aa81ebcfb7effb92ba70",
+      "human_reviewed": false,
+      "id": "deabdd90-c842-4ed6-ad15-c2fa9870b099",
+      "images": [
+        {
+          "alt": "Partition de Crown Him with Many Crowns",
+          "public_path": "/images/articles/deabdd90-c842-4ed6-ad15-c2fa9870b099-1.png"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/deabdd90-c842-4ed6-ad15-c2fa9870b099.json",
+      "metadata_sha256": "6ad1c1c0b66ce70de4ad33f5fe27af1760ed5704757037651be1c1f43783e6d8",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "HISTOIRE DES HYMNES",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "01644cf9abc17411f3b235a99895bb87e8eec445a9ac28e6394d4afb94966251",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Couronnez‑le de nombreuses couronnes",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.html",
       "html_sha256": "9233f9d68cfd634479e4972654684e97c1e48d9ebcea240ff4ccc3214e31ee72",
       "human_reviewed": false,
@@ -2962,6 +3538,70 @@
       "status": "ready",
       "subtitle": null,
       "title": "Lève-toi, sois dans la joie",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.html",
+      "html_sha256": "0867f21ed02dec4a2d4628406158bd8391203724885dc63374f6f6f4fe29a0e2",
+      "human_reviewed": false,
+      "id": "f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9",
+      "images": [
+        {
+          "alt": "Un arbre solitaire dépouillé dans un champ enneigé",
+          "public_path": "/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.json",
+      "metadata_sha256": "f2aea56b30a4c090e73b858b78d99f888d8fb0fa1ea3fa9b19985c8ba3ddcc31",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Poème",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Chant d'hiver",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf.html",
+      "html_sha256": "bda5388cb40b5545c0bc04d18610a0a5798f9a88ed86379f338cdde5030460f1",
+      "human_reviewed": false,
+      "id": "fbb7faf4-04de-4858-b608-09cb6aedaacf",
+      "images": [
+        {
+          "alt": "Une pile de vieilles Bibles et de livres",
+          "public_path": "/images/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf-1.jpg"
+        },
+        {
+          "alt": "Une main gantée tenant des tubes d'échantillons de sang",
+          "public_path": "/images/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf-2.jpg"
+        },
+        {
+          "alt": "Un grand collage montrant des professionnels de la santé et une pharmacie",
+          "public_path": "/images/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf-3.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf.json",
+      "metadata_sha256": "499e83a1cf398d374c1773f865892ff4be11647a1efb42a5a4fe1401834bb2d2",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "UNE PAROLE DU MÉDECIN",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "e438e2a5dbbb36ddf11340e0d96ac331f86b42c4c964f5787972c99d3487ba67",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La «googlification» de la médecine",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -3054,6 +3694,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "מאת העורך",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/heb/articles/8f996405-d870-4074-947b-35190faad643.html",
+      "html_sha256": "d4378c8a5527472c46bff378a9376803f8769d1d277a8a825b8de18f63819883",
+      "human_reviewed": false,
+      "id": "8f996405-d870-4074-947b-35190faad643",
+      "images": [
+        {
+          "alt": "שביל מושלג לצד עצי חורף ערומים",
+          "public_path": "/images/articles/8f996405-d870-4074-947b-35190faad643-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/8f996405-d870-4074-947b-35190faad643.json",
+      "metadata_sha256": "31ef3edd831110ddc98ca53755336441662c694e67fe699c448ee8bd26e70477",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "שיר",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "63f32eb5571bce4d8b82e7103273aaf0a3a4bf91449228454d16a781256867bd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "עיר האלוהים",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -3230,6 +3898,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "सबके लिए मज़ा",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571.html",
+      "html_sha256": "c43b529745c274d5dc9eabaef8dcb06bc692711245bc5b963a0c0052db1bfca1",
+      "human_reviewed": false,
+      "id": "21180900-6bdd-4c06-a4ed-fd0f6b8a3571",
+      "images": [
+        {
+          "alt": "पवनचक्कियाँ, लोग और पशुधन का ऐतिहासिक फ़ोटोग्राफ",
+          "public_path": "/images/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571.json",
+      "metadata_sha256": "4d1bf2ff3e10ff33c37848f0eaab4b5c17ffe9d95dac0e95fc55ea82e885f35b",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "चर्च इतिहास",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "eb6b57cc0ff9251672705de37bad2d751542487f4ae521b68aaf1b67b286861e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "हमारे समान एक इतिहास",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -3507,6 +4203,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6.html",
+      "html_sha256": "65976c56396ad87d6a914ce3eaae1666117fc1414b809998dd68c4de40b98303",
+      "human_reviewed": false,
+      "id": "b5ea052a-167f-45c4-bf40-cd463c4546b6",
+      "images": [
+        {
+          "alt": "बर्फ से ढँके शाश्वत हरित पेड़",
+          "public_path": "/images/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6.json",
+      "metadata_sha256": "467d41bf8264448dec776e6bcba69a7cca00f0ed2264d601acb1c116c4d81974",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "विशेष आलेख",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "43083ba7fbaa256f5105f34da9e51d125c38a107a8d91b3864609877708b8ea8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "यह सर्दी थी",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
       "html_sha256": "9ba312457044d5e009ee5b074f2925ae055c40f2ce945fa8d93e38232056f4bd",
       "human_reviewed": false,
@@ -3558,6 +4282,42 @@
       "status": "ready",
       "subtitle": null,
       "title": "उठो, आनन्दित हो!",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf.html",
+      "html_sha256": "b5194be6484d9ca641109b0900c72a546e4c28ecdb891bc824260fbb1595294b",
+      "human_reviewed": false,
+      "id": "fbb7faf4-04de-4858-b608-09cb6aedaacf",
+      "images": [
+        {
+          "alt": "पुरानी बाइबलों और पुस्तकों का ढेर",
+          "public_path": "/images/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf-1.jpg"
+        },
+        {
+          "alt": "दस्ताने पहने हुए हाथ द्वारा खून के सैंपल ट्यूब पकड़े हुए",
+          "public_path": "/images/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf-2.jpg"
+        },
+        {
+          "alt": "स्वास्थ्य पेशेवरों और एक फार्मेसी को दिखाते हुए विस्तृत कोलाज",
+          "public_path": "/images/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf-3.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf.json",
+      "metadata_sha256": "49b80bbd830eb3469b92197d49dfb5144297735f1c2bfb97eb7ccdc5e187171e",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "डॉक्टर से एक शब्द",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "e438e2a5dbbb36ddf11340e0d96ac331f86b42c4c964f5787972c99d3487ba67",
+      "status": "ready",
+      "subtitle": null,
+      "title": "चिकित्सा का गूँगलिफिकेशन",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -3807,6 +4567,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/58963510-f56e-43e0-88dd-0eb9941ddea9.html",
+      "html_sha256": "213620165efd14bd86e1f2c5e80e4ac73f7b6df5ec55eda3fad512e824580df8",
+      "human_reviewed": false,
+      "id": "58963510-f56e-43e0-88dd-0eb9941ddea9",
+      "images": [
+        {
+          "alt": "Kolase tiga panel dari sebuah pintu gereja kayu, sebuah gereja tertutup salju, dan cabang cemara yang diselimuti salju",
+          "public_path": "/images/articles/58963510-f56e-43e0-88dd-0eb9941ddea9-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/58963510-f56e-43e0-88dd-0eb9941ddea9.json",
+      "metadata_sha256": "9d150941c54ccc75038c382eeabca622191a51c8dd6751ab5dd617a9ddc7e78a",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "MUSINGS OF A MISSIONARY",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "717da8d77d6092ac85798d90532d1ee4a9c48672d09b7616b1eb527cfd86d893",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Sebuah Gereja yang Mulia",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "48a5b5ff87dd62e3fa45b879bee6782de3dc3207da573674e5d632b133c4bb75",
       "human_reviewed": false,
@@ -3894,6 +4682,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Circumstantial Overload",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.html",
+      "html_sha256": "3b573d79ae411f0d855a896d9995df7eb2e550be10e49a68dd50f4a755d08189",
+      "human_reviewed": false,
+      "id": "a42c5719-aea1-47ed-abad-ed0cd2571382",
+      "images": [
+        {
+          "alt": "Sebuah toples kaca menumpahkan permen mint yang dibungkus di samping tanaman dalam pot",
+          "public_path": "/images/articles/a42c5719-aea1-47ed-abad-ed0cd2571382-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.json",
+      "metadata_sha256": "0fc302d5af94ccc7aac5068a0c962388459f88af15b4acba7cd5249b24d6c48d",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Sudut Anak-anak",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "cb49d9b32a113d5c0bf30e44cdec3451c0a5ce43ad2cf97a5830259f43dd1f79",
+      "status": "ready",
+      "subtitle": "Sebuah Cerita Tentang Rasa Syukur",
+      "title": "Si Penjual Permen Mint",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -4039,6 +4855,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/deabdd90-c842-4ed6-ad15-c2fa9870b099.html",
+      "html_sha256": "2dcfc89ba795f8dd95b0a547c359219f6eda8a482c0e944282dd02b910b16169",
+      "human_reviewed": false,
+      "id": "deabdd90-c842-4ed6-ad15-c2fa9870b099",
+      "images": [
+        {
+          "alt": "Notasi musik untuk Crown Him with Many Crowns",
+          "public_path": "/images/articles/deabdd90-c842-4ed6-ad15-c2fa9870b099-1.png"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/deabdd90-c842-4ed6-ad15-c2fa9870b099.json",
+      "metadata_sha256": "06cfefdeb044afc94477fae8c010346b3dfa4eb82ea27ef8443debe7abd8e74e",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SEJARAH HIMNE",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "01644cf9abc17411f3b235a99895bb87e8eec445a9ac28e6394d4afb94966251",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Mahkotailah Dia dengan Banyak Mahkota",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.html",
       "html_sha256": "c9af235eee6bb640ec64a16c8e7457bfd23f102ea3bbdcea184d7f327f46b2a5",
       "human_reviewed": false,
@@ -4099,6 +4943,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/042fce50-3724-4100-b397-093c6d081e89.html",
+      "html_sha256": "581e3a738761b2c43a3d986709bb1439fc23a2d39a3214bd22bf5af34d58ffd4",
+      "human_reviewed": false,
+      "id": "042fce50-3724-4100-b397-093c6d081e89",
+      "images": [
+        {
+          "alt": "Bibbia di Gutenberg esposta alla Biblioteca del Congresso degli Stati Uniti",
+          "public_path": "/images/articles/042fce50-3724-4100-b397-093c6d081e89-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/042fce50-3724-4100-b397-093c6d081e89.json",
+      "metadata_sha256": "93c93a042f81b96dcf93f3d31455efb2326322901e2f4f4572f54a6919a98e39",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Dal direttore",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "a8b13667ad0bdee6e94fb75c94d958fc5f824dbcd185202cd5cc7be6e9274a4c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dalla redazione",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
       "html_sha256": "4bf8c206f6198d3431fe85c996c1ceb3ece761f07aa5215fbbf2acd3f100edbf",
       "human_reviewed": false,
@@ -4154,6 +5026,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Divertimento per tutti",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571.html",
+      "html_sha256": "b01c08236b9d96814fdf20cb5d2aade7183da84b892c026d9329d085143c53e7",
+      "human_reviewed": false,
+      "id": "21180900-6bdd-4c06-a4ed-fd0f6b8a3571",
+      "images": [
+        {
+          "alt": "Una fotografia storica di mulini a vento, persone e bestiame",
+          "public_path": "/images/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571.json",
+      "metadata_sha256": "883bded4da3a4e0bc85612ff283f903a1f641d575be1e33359b63cb374a121f2",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "STORIA DELLA CHIESA",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "eb6b57cc0ff9251672705de37bad2d751542487f4ae521b68aaf1b67b286861e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Una cronaca simile alla nostra",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -4315,6 +5215,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/8f996405-d870-4074-947b-35190faad643.html",
+      "html_sha256": "7831c7b74291874a9f811767cd514eabb31e46e432ab723793a197b676aee9ce",
+      "human_reviewed": false,
+      "id": "8f996405-d870-4074-947b-35190faad643",
+      "images": [
+        {
+          "alt": "Un sentiero innevato accanto ad alberi invernali spogli",
+          "public_path": "/images/articles/8f996405-d870-4074-947b-35190faad643-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/8f996405-d870-4074-947b-35190faad643.json",
+      "metadata_sha256": "fcab51f80a1e103e13579fc8e0905b3b7daab823fe7c80cc0a89c43291101c8b",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Poesia",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "63f32eb5571bce4d8b82e7103273aaf0a3a4bf91449228454d16a781256867bd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Città di Dio",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
       "html_sha256": "c85eb0362b4dca55123c693274022b463bc4bad641f1bd761fbbbcac9c0a1071",
       "human_reviewed": false,
@@ -4338,6 +5266,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Circumstantial Overload",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.html",
+      "html_sha256": "00d330593364477c58b45dae6a94a1274d54a11f0e843e0cafc532fdd5ca555f",
+      "human_reviewed": false,
+      "id": "a42c5719-aea1-47ed-abad-ed0cd2571382",
+      "images": [
+        {
+          "alt": "Un barattolo di vetro che rovescia mentine incartate accanto a una pianta in vaso",
+          "public_path": "/images/articles/a42c5719-aea1-47ed-abad-ed0cd2571382-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.json",
+      "metadata_sha256": "daa38e3d17fd0fd788c9a4a3abce0663b5327151e6eb9f4f446de67af94e45c0",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Angolo dei Bambini",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "cb49d9b32a113d5c0bf30e44cdec3451c0a5ce43ad2cf97a5830259f43dd1f79",
+      "status": "ready",
+      "subtitle": "Una storia sulla gratitudine",
+      "title": "L'uomo delle mentine",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -4431,6 +5387,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a.html",
+      "html_sha256": "e60c8d884c1e8c4942dff024adbe8c710234de4ceb2d9f8dff4d85152f48854d",
+      "human_reviewed": false,
+      "id": "b37f8111-4563-4b5b-ab9f-1f87bcd2b46a",
+      "images": [
+        {
+          "alt": "Verde invernale e una pigna disposti vicino a una finestra",
+          "public_path": "/images/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a.json",
+      "metadata_sha256": "fb3ec24b39031bdddc4171334b32d249309f62d839797d12f53a072f8a118fc1",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SORELLA A SORELLA",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "810e77f1e38c86de9278d0fba622dcb0789774ee530b139604475db68ad15426",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Gioia nelle crepe",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/b43320f3-e4e8-450b-865c-099ef704149c.html",
       "html_sha256": "a2d01b6f3b9c3f7b9e18c6637c83c45d58dc0b5134ce8956c2814ea2fa08ec01",
       "human_reviewed": false,
@@ -4454,6 +5438,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Moralmente Puri in una Società Corrotta",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6.html",
+      "html_sha256": "436f2d4e266b72c5deebf9d93c4cf727452cab9dace810ac9a4a6bebae1e105e",
+      "human_reviewed": false,
+      "id": "b5ea052a-167f-45c4-bf40-cd463c4546b6",
+      "images": [
+        {
+          "alt": "Alberi sempreverdi coperti di neve",
+          "public_path": "/images/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6.json",
+      "metadata_sha256": "95c92ebfe850cc91665e514d35c4afb13af7bd4c52cec249a9e7f0a723bb4d1c",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ARTICOLO IN EVIDENZA",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "43083ba7fbaa256f5105f34da9e51d125c38a107a8d91b3864609877708b8ea8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Era inverno",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -4543,6 +5555,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.html",
+      "html_sha256": "350c4223c7e00fde489892ae83997dbb7639c50a15613bdab3be32817f793aa0",
+      "human_reviewed": false,
+      "id": "f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9",
+      "images": [
+        {
+          "alt": "Un albero spoglio solitario in un campo innevato",
+          "public_path": "/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.json",
+      "metadata_sha256": "03105b913103549439158194e1b2e994a41441aff7c58658490226b3a2bd049d",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Poesia",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Canto d'inverno",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/fbfb182b-bb05-434f-a664-b74c68153e61.html",
       "html_sha256": "87bde48f3200cd0f0597eeb4e9b0ad68c8bdad589f9a498a2eea34e51f6d95f4",
       "human_reviewed": false,
@@ -4570,6 +5610,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "La sindrome del sovraccarico",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/042fce50-3724-4100-b397-093c6d081e89.html",
+      "html_sha256": "b2ba3470efb0adab47377f36ee8106fa7fecdc805eb6cc5df77e8ac011c2c912",
+      "human_reviewed": false,
+      "id": "042fce50-3724-4100-b397-093c6d081e89",
+      "images": [
+        {
+          "alt": "미국 의회도서관에 전시된 구텐베르크 성경",
+          "public_path": "/images/articles/042fce50-3724-4100-b397-093c6d081e89-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/042fce50-3724-4100-b397-093c6d081e89.json",
+      "metadata_sha256": "3b1985ac314123980d3ac1e37bf0b4616eae1e50678456a3c15545e49b72d138",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "편집장의 글",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "a8b13667ad0bdee6e94fb75c94d958fc5f824dbcd185202cd5cc7be6e9274a4c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "편집장의 글",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -4662,6 +5730,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "모두를 위한 즐거움",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571.html",
+      "html_sha256": "5cf10bb8086d2456c2fff96ac5381da5127aec7b65b052916a5d8603f334d5e0",
+      "human_reviewed": false,
+      "id": "21180900-6bdd-4c06-a4ed-fd0f6b8a3571",
+      "images": [
+        {
+          "alt": "풍차들과 사람들, 가축이 찍힌 역사적 사진",
+          "public_path": "/images/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571.json",
+      "metadata_sha256": "c0f726fe201904f3401dc2b4a21f42b112d91bc3bf4f610e0e09bb600a29c68e",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "교회 역사",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "eb6b57cc0ff9251672705de37bad2d751542487f4ae521b68aaf1b67b286861e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "우리와 닮은 연대기",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -4887,6 +5983,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.html",
+      "html_sha256": "cc2e39cff6000bb4bba72d989c16d1655fb81f02c0900fdaae6fd6ad80359705",
+      "human_reviewed": false,
+      "id": "a42c5719-aea1-47ed-abad-ed0cd2571382",
+      "images": [
+        {
+          "alt": "흰 종이로 포장된 사탕이 쏟아진 유리병이 화분 옆에 놓여 있다",
+          "public_path": "/images/articles/a42c5719-aea1-47ed-abad-ed0cd2571382-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.json",
+      "metadata_sha256": "d40c2d58e689477691a5bbfe7973e79d6837957329bc82179cb40e849ed43d92",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "어린이 코너",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "cb49d9b32a113d5c0bf30e44cdec3451c0a5ce43ad2cf97a5830259f43dd1f79",
+      "status": "ready",
+      "subtitle": "감사에 관한 이야기",
+      "title": "민트 남자",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.html",
       "html_sha256": "a887bd150d18773677f8983f41993fafc9c7fd6bd2c1941947b221cafcf9a871",
       "human_reviewed": false,
@@ -4975,6 +6099,62 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a.html",
+      "html_sha256": "832b321605b75b487c0ead55061895771312ad05721bab49b8dbe326903b96ef",
+      "human_reviewed": false,
+      "id": "b37f8111-4563-4b5b-ab9f-1f87bcd2b46a",
+      "images": [
+        {
+          "alt": "창가에 놓인 겨울의 푸릇함과 솔방울 배치",
+          "public_path": "/images/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a.json",
+      "metadata_sha256": "8bcc6d1715ff0d35b597a1a7a69dea1162e9e3ca80090ee27048b50eaa574907",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "자매에게 자매로",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "810e77f1e38c86de9278d0fba622dcb0789774ee530b139604475db68ad15426",
+      "status": "ready",
+      "subtitle": null,
+      "title": "틈새 속의 기쁨",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6.html",
+      "html_sha256": "824ac3acfe833759e15f2450d6fe3419ee13dc2c7aafa39e5a9e14dc52a22430",
+      "human_reviewed": false,
+      "id": "b5ea052a-167f-45c4-bf40-cd463c4546b6",
+      "images": [
+        {
+          "alt": "눈으로 덮인 상록수들",
+          "public_path": "/images/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6.json",
+      "metadata_sha256": "e0a9dd8ebe1c1227ddaa786f301a30251265efbcf48efaf407efd6e56d72af46",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "추천 기사",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "43083ba7fbaa256f5105f34da9e51d125c38a107a8d91b3864609877708b8ea8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "겨울이었다",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/cdb88be0-93b0-4362-bc3b-1488aff1a76f.html",
       "html_sha256": "e9ab013709f569b68be8a0fc68f62804a3c412a6d958f3f8a6ceba9fa893a9de",
       "human_reviewed": false,
@@ -5054,6 +6234,62 @@
       "status": "ready",
       "subtitle": null,
       "title": "일어나 기뻐하라",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.html",
+      "html_sha256": "a6b71a1d9eba661d759e5664675c84847375b86e7dd76a9a6b2dce1e555c20d5",
+      "human_reviewed": false,
+      "id": "f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9",
+      "images": [
+        {
+          "alt": "눈 덮인 들판에 홀로 선 나목",
+          "public_path": "/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.json",
+      "metadata_sha256": "a8bb525cee0036e911312fec30704292931e802a77e8e8dbada1b3802b712934",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "시",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712",
+      "status": "ready",
+      "subtitle": null,
+      "title": "겨울 노래",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/042fce50-3724-4100-b397-093c6d081e89.html",
+      "html_sha256": "7bab68c3b74c6e481ccd6375d13b9a8b2ca645b9610334054cef2c6cad199265",
+      "human_reviewed": false,
+      "id": "042fce50-3724-4100-b397-093c6d081e89",
+      "images": [
+        {
+          "alt": "Gutenbergbijbel tentoongesteld in de Amerikaanse Library of Congress",
+          "public_path": "/images/articles/042fce50-3724-4100-b397-093c6d081e89-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/042fce50-3724-4100-b397-093c6d081e89.json",
+      "metadata_sha256": "be262f597113ebc3b30b34bdfb017121ec4b90e57d63394792c495c0230f2b2b",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Van de REDACTEUR",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "a8b13667ad0bdee6e94fb75c94d958fc5f824dbcd185202cd5cc7be6e9274a4c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Van de redacteur",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -5275,6 +6511,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/5a87c21f-cce9-4033-8a43-5458311bc7f0.html",
+      "html_sha256": "c712e832b39b491347878027100b8cfc62db34d3023eaf9078c6fcd662125930",
+      "human_reviewed": false,
+      "id": "5a87c21f-cce9-4033-8a43-5458311bc7f0",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/5a87c21f-cce9-4033-8a43-5458311bc7f0-1.jpg"
+        },
+        {
+          "alt": "Een drieluikcollage van winterbomen en een besneeuwd landelijk tafereel",
+          "public_path": "/images/articles/5a87c21f-cce9-4033-8a43-5458311bc7f0-2.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/5a87c21f-cce9-4033-8a43-5458311bc7f0.json",
+      "metadata_sha256": "9b6bd46415c1c3ed9e21bdf4ef1b68071389883e50de80e0f984c181fa5e494f",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "INSPIRATIONS FOR YOUTH",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "403dccfee978e00bf41c2daf2df29e8cfa526a0ef6c19371773e58abc48734b6",
+      "status": "ready",
+      "subtitle": "De voorbereiding-slaap",
+      "title": "A Christ-Centered Courtship Series",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "8960c25d53063484acc15f2f2648153d6e5f2d811aecd9c86984fff3ee0a29d5",
       "human_reviewed": false,
@@ -5362,6 +6630,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Overbelasting door omstandigheden",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.html",
+      "html_sha256": "0ebdf4e385917a05dc3c42725a3ba17ff8cfd15a888de68fc489466713931a18",
+      "human_reviewed": false,
+      "id": "a42c5719-aea1-47ed-abad-ed0cd2571382",
+      "images": [
+        {
+          "alt": "Een glazen pot die verpakte mints naast een potplant morst",
+          "public_path": "/images/articles/a42c5719-aea1-47ed-abad-ed0cd2571382-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.json",
+      "metadata_sha256": "0f1ac3d8f1e6ff3bf577ba8eeb383f64b16ad676ecdd45a72b7eee322cceaffa",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Kinderhoek",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "cb49d9b32a113d5c0bf30e44cdec3451c0a5ce43ad2cf97a5830259f43dd1f79",
+      "status": "ready",
+      "subtitle": "Een verhaal over dankbaarheid",
+      "title": "De Pepermuntman",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -5455,6 +6751,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a.html",
+      "html_sha256": "2d07288055ff096ed8177230391f5c236e1f0684773c05fa1fc992f21e9c0ec0",
+      "human_reviewed": false,
+      "id": "b37f8111-4563-4b5b-ab9f-1f87bcd2b46a",
+      "images": [
+        {
+          "alt": "Wintergroen en een dennenappel gerangschikt bij een raam",
+          "public_path": "/images/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a.json",
+      "metadata_sha256": "0cbd99def6b077c58e70abf1e21e1872f90f65b71192a11feaafc9a3700a07a1",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SISTER TO SISTER",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "810e77f1e38c86de9278d0fba622dcb0789774ee530b139604475db68ad15426",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Vreugde in de spleten",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/b43320f3-e4e8-450b-865c-099ef704149c.html",
       "html_sha256": "844e1b51acf135dd0b5d030d1ad2fe2fb3ee4aa858b8cd11b6093f68b1cb29f1",
       "human_reviewed": false,
@@ -5478,6 +6802,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Moreel zuiver in een corrupte maatschappij",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6.html",
+      "html_sha256": "cc4befcb5a443aa2bc309d1fb6a155a4a5653b5e1257f6d0dfe4a9ebc6d523fb",
+      "human_reviewed": false,
+      "id": "b5ea052a-167f-45c4-bf40-cd463c4546b6",
+      "images": [
+        {
+          "alt": "Sneeuwbedekte groenblijvende bomen",
+          "public_path": "/images/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6.json",
+      "metadata_sha256": "d8d65bfd20c6f45518ad4365f28ba59c7483afb714ec39b42bf07e055d063a5b",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "UITGELICHT ARTIKEL",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "43083ba7fbaa256f5105f34da9e51d125c38a107a8d91b3864609877708b8ea8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Het was winter",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -5571,6 +6923,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.html",
+      "html_sha256": "0527d7f9b7bb5d76586516c6e8f371a4b3894f4b5d2e258b00585050360071d0",
+      "human_reviewed": false,
+      "id": "f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9",
+      "images": [
+        {
+          "alt": "Een eenzame kale boom in een besneeuwd veld",
+          "public_path": "/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.json",
+      "metadata_sha256": "47ca6a3f5822a74eaf62036d422e918ce57f14a53e7a0cb56987502c318e5b9c",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Gedicht",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Winterslied",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/fbfb182b-bb05-434f-a664-b74c68153e61.html",
       "html_sha256": "5c111cc0e2d096cecadc4c1c0421b9a848567bbe31c56047a84aa19e82223821",
       "human_reviewed": false,
@@ -5598,6 +6978,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Het overbelastingssyndroom",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/042fce50-3724-4100-b397-093c6d081e89.html",
+      "html_sha256": "2c7b4ac36c181aa52c60aedace6ff60ba18632d6805e2af7c8fe837a6976bd2a",
+      "human_reviewed": false,
+      "id": "042fce50-3724-4100-b397-093c6d081e89",
+      "images": [
+        {
+          "alt": "Gutenbergbibelen utstilt i det amerikanske Library of Congress",
+          "public_path": "/images/articles/042fce50-3724-4100-b397-093c6d081e89-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/042fce50-3724-4100-b397-093c6d081e89.json",
+      "metadata_sha256": "2877492aae16327edf4ddf9eb5d6fb56f6cc8a3645b4b52a1095a47996e1b65e",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Fra REDAKTØREN",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "a8b13667ad0bdee6e94fb75c94d958fc5f824dbcd185202cd5cc7be6e9274a4c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Fra redaktøren",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -5911,6 +7319,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/8f996405-d870-4074-947b-35190faad643.html",
+      "html_sha256": "603358da1919cfffbb15e5b8dbfc33abfdcacd6ac456cca82aaec449e253b8da",
+      "human_reviewed": false,
+      "id": "8f996405-d870-4074-947b-35190faad643",
+      "images": [
+        {
+          "alt": "En snødekt sti ved nakne vintertrær",
+          "public_path": "/images/articles/8f996405-d870-4074-947b-35190faad643-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/8f996405-d870-4074-947b-35190faad643.json",
+      "metadata_sha256": "e45550fb62ecd386138bca2756c43893cc687f7b3f36a49f128364716e6c0798",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Dikt",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "63f32eb5571bce4d8b82e7103273aaf0a3a4bf91449228454d16a781256867bd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Guds by",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
       "html_sha256": "94f91847a7f8cd508c6afe70eb2627b4b0c1c9bcf604adc8438e45f6b6736b00",
       "human_reviewed": false,
@@ -5934,6 +7370,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Omstendighetsbelastning",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.html",
+      "html_sha256": "131794d1602d6705bbe976e4c778d4386203da8b0294d7a9dafe141884e2709d",
+      "human_reviewed": false,
+      "id": "a42c5719-aea1-47ed-abad-ed0cd2571382",
+      "images": [
+        {
+          "alt": "En glasskrukke som søler innpakkede pastiller ved siden av en potteplante",
+          "public_path": "/images/articles/a42c5719-aea1-47ed-abad-ed0cd2571382-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.json",
+      "metadata_sha256": "58cf0062ef0f5ee6aa41f5d34159b2922b8040fb02340ba032f25d3a777b8274",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Barnas hjørne",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "cb49d9b32a113d5c0bf30e44cdec3451c0a5ce43ad2cf97a5830259f43dd1f79",
+      "status": "ready",
+      "subtitle": "En historie om takknemlighet",
+      "title": "Myntmannen",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -6174,6 +7638,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Overbelastningssyndromet",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/042fce50-3724-4100-b397-093c6d081e89.html",
+      "html_sha256": "3acc28494336d4e6249a0c66a10e1b3b6e6fee3b4b17b5a10baaf64f14ea3649",
+      "human_reviewed": false,
+      "id": "042fce50-3724-4100-b397-093c6d081e89",
+      "images": [
+        {
+          "alt": "Bíblia de Gutenberg em exibição na Biblioteca do Congresso dos EUA",
+          "public_path": "/images/articles/042fce50-3724-4100-b397-093c6d081e89-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/042fce50-3724-4100-b397-093c6d081e89.json",
+      "metadata_sha256": "1a45986e1752d2c31374f4f4b0189a794d1ee5bd168416157c49302aa6b79401",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Do Editor",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "a8b13667ad0bdee6e94fb75c94d958fc5f824dbcd185202cd5cc7be6e9274a4c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Do Editor",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -6595,6 +8087,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/deabdd90-c842-4ed6-ad15-c2fa9870b099.html",
+      "html_sha256": "47792224f895374dd5d7f337bd540157595cecfd430db9ffeb5bc433d5ed971e",
+      "human_reviewed": false,
+      "id": "deabdd90-c842-4ed6-ad15-c2fa9870b099",
+      "images": [
+        {
+          "alt": "Partitura de Crown Him with Many Crowns",
+          "public_path": "/images/articles/deabdd90-c842-4ed6-ad15-c2fa9870b099-1.png"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/deabdd90-c842-4ed6-ad15-c2fa9870b099.json",
+      "metadata_sha256": "8604d2b50c4169959bfc97ccebaae3da053e107cf603bbdaa255c268f097a331",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "HISTÓRIA DOS HINOS",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "01644cf9abc17411f3b235a99895bb87e8eec445a9ac28e6394d4afb94966251",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Coroe-o com Muitas Coroas",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/e848a36d-36eb-4f7d-aea7-e17ab34a8870.html",
       "html_sha256": "857e5a14dcf6ebefb8db52b1254fa512cb13ac8a9d709602ee60a530ca22e1fd",
       "human_reviewed": false,
@@ -6650,6 +8170,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Erguei-vos e alegrai-vos!",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.html",
+      "html_sha256": "7447c0c7181a8955f3aa78f5961d244f65110d072378c60b64b8195f7365129b",
+      "human_reviewed": false,
+      "id": "f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9",
+      "images": [
+        {
+          "alt": "Uma árvore solitária e desfolhada em um campo nevado",
+          "public_path": "/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.json",
+      "metadata_sha256": "3925370889e867b41b40c13b3ebc0964a858083abefe0e811b8a859f54a16b81",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Poema",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Canção de Inverno",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -6963,6 +8511,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/8f996405-d870-4074-947b-35190faad643.html",
+      "html_sha256": "6a7a9f0eb9c9499e6d98f3a523137d49577c1b2e3b30d0d1897995f20e56d3da",
+      "human_reviewed": false,
+      "id": "8f996405-d870-4074-947b-35190faad643",
+      "images": [
+        {
+          "alt": "Заснеженная тропа рядом с голыми зимними деревьями",
+          "public_path": "/images/articles/8f996405-d870-4074-947b-35190faad643-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/8f996405-d870-4074-947b-35190faad643.json",
+      "metadata_sha256": "de2bcb3d1695c9ec00b39e7201f6516d4f6d9ad2ed73017b4c6fb7bd6a084440",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Стихотворение",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "63f32eb5571bce4d8b82e7103273aaf0a3a4bf91449228454d16a781256867bd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Город Божий",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
       "html_sha256": "9b5f56a0e009d92912d3665d20d1ba033a63bcd43e434cc2b42e0b4343e2a9c6",
       "human_reviewed": false,
@@ -6986,6 +8562,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Перегрузка обстоятельствами",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.html",
+      "html_sha256": "580e7436020f38d36bd352860cfe7ace7b9a76d4c79a33b0119f392f6fe5cadf",
+      "human_reviewed": false,
+      "id": "a42c5719-aea1-47ed-abad-ed0cd2571382",
+      "images": [
+        {
+          "alt": "Стеклянная банка, из которой рассыпаны завернутые мятные конфеты рядом с горшечным растением",
+          "public_path": "/images/articles/a42c5719-aea1-47ed-abad-ed0cd2571382-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.json",
+      "metadata_sha256": "226e406696ddb69638e6cb29631bb99015ad01ddc139a0ee3671f6dd6c18d27c",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Уголок для детей",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "cb49d9b32a113d5c0bf30e44cdec3451c0a5ce43ad2cf97a5830259f43dd1f79",
+      "status": "ready",
+      "subtitle": "Рассказ о благодарности",
+      "title": "Человек с мятой",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -7079,6 +8683,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a.html",
+      "html_sha256": "e119b68766f8ab09cbb5b33051a95ed99e4834bab69915c04df7bdef4dc6803e",
+      "human_reviewed": false,
+      "id": "b37f8111-4563-4b5b-ab9f-1f87bcd2b46a",
+      "images": [
+        {
+          "alt": "Зелень зимы и шишка, уложенные у окна",
+          "public_path": "/images/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a.json",
+      "metadata_sha256": "a5471a7445c0f6224ee7a47678d8ae4b4f05d726205a36b36b399279149415dd",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "СЕСТРА К СЕСТРЕ",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "810e77f1e38c86de9278d0fba622dcb0789774ee530b139604475db68ad15426",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Радость в щелях",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6.html",
       "html_sha256": "3943cd9c2a23bd0cd5178eaccda69b6f333901e2ac2963b91d4788c130def24e",
       "human_reviewed": false,
@@ -7158,6 +8790,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Восстаньте и радуйтесь!",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.html",
+      "html_sha256": "b5ee4809b8162a1fcd79c479392c548c834c5d30cffb0f0f9190bd4ace39357f",
+      "human_reviewed": false,
+      "id": "f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9",
+      "images": [
+        {
+          "alt": "Одинокое голое дерево в заснеженном поле",
+          "public_path": "/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.json",
+      "metadata_sha256": "f18c3fa068e40ce125eceaf1e254b29d21ed29bc2483817e1e40d64f94d6db71",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Стихотворение",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Зимняя песнь",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -7250,6 +8910,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Diversión para todos",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571.html",
+      "html_sha256": "e2b1d10aee785ece024a6772e08436c2337bb86b9b318e11cbfbf6fff44fd9a3",
+      "human_reviewed": false,
+      "id": "21180900-6bdd-4c06-a4ed-fd0f6b8a3571",
+      "images": [
+        {
+          "alt": "Una fotografía histórica de molinos de viento, personas y ganado",
+          "public_path": "/images/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571.json",
+      "metadata_sha256": "c0ec8d715ffcad38ac1657768ad45cee48fcaa452e84f9fd03372b94d62e7c42",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "HISTORIA DE LA IGLESIA",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "eb6b57cc0ff9251672705de37bad2d751542487f4ae521b68aaf1b67b286861e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Una crónica semejante a la nuestra",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -7503,6 +9191,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.html",
+      "html_sha256": "65e29130e496fb10f06050ae514789ccd1dba714fb75a6627c77fa24bf742ee4",
+      "human_reviewed": false,
+      "id": "a42c5719-aea1-47ed-abad-ed0cd2571382",
+      "images": [
+        {
+          "alt": "Un tarro de vidrio que derrama mentas envueltas junto a una planta en maceta",
+          "public_path": "/images/articles/a42c5719-aea1-47ed-abad-ed0cd2571382-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.json",
+      "metadata_sha256": "679332c087e1eaf4425d746bd575fe3db9e3b116469be605010075ece26a4d2f",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Rincón infantil",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "cb49d9b32a113d5c0bf30e44cdec3451c0a5ce43ad2cf97a5830259f43dd1f79",
+      "status": "ready",
+      "subtitle": "Una historia sobre la gratitud",
+      "title": "El hombre de las mentas",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.html",
       "html_sha256": "960379c194bc41c96659409c9d02bbd9996f77fe10e6fb4daf21797a289040e6",
       "human_reviewed": false,
@@ -7554,6 +9270,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Jamin se vuelve listo",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a.html",
+      "html_sha256": "49cf5febc712f1320335e0392bd0b83532ffcffda675635d1fa0e9b426d1c6d1",
+      "human_reviewed": false,
+      "id": "b37f8111-4563-4b5b-ab9f-1f87bcd2b46a",
+      "images": [
+        {
+          "alt": "Verde invernal y una piña dispuestos junto a una ventana",
+          "public_path": "/images/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a.json",
+      "metadata_sha256": "6257a358fc519378e73b2f6859faf669a96c5bb3e762d4a9d085c4259724b7ff",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SISTER TO SISTER",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "810e77f1e38c86de9278d0fba622dcb0789774ee530b139604475db68ad15426",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Alegría en las rendijas",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -7615,6 +9359,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/deabdd90-c842-4ed6-ad15-c2fa9870b099.html",
+      "html_sha256": "60fcaafb49fd5c3b9460d613b24b0b875b9f61d3d8109d21dcb72f33f5930531",
+      "human_reviewed": false,
+      "id": "deabdd90-c842-4ed6-ad15-c2fa9870b099",
+      "images": [
+        {
+          "alt": "Partitura de Coronadle con muchas coronas",
+          "public_path": "/images/articles/deabdd90-c842-4ed6-ad15-c2fa9870b099-1.png"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/deabdd90-c842-4ed6-ad15-c2fa9870b099.json",
+      "metadata_sha256": "3e5c9340cafb840825871086496f8ff18d90c0f68f41c7551aa7f5bb45569f94",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "HISTORIA DEL HIMNO",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "01644cf9abc17411f3b235a99895bb87e8eec445a9ac28e6394d4afb94966251",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Coronadle con muchas coronas",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.html",
       "html_sha256": "d373f02b331211cf0346ccfbb970cc7c0e89d06567d201474b169b0796fba656",
       "human_reviewed": false,
@@ -7638,6 +9410,70 @@
       "status": "ready",
       "subtitle": null,
       "title": "Levantaos y alegraos",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.html",
+      "html_sha256": "d01050712aafc9c82aa84f07b02e5a3c92ff91919beff34490ca3189cc0920e4",
+      "human_reviewed": false,
+      "id": "f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9",
+      "images": [
+        {
+          "alt": "Un árbol solitario y desnudo en un campo nevado",
+          "public_path": "/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.json",
+      "metadata_sha256": "c7a4bb42b70268eb7fe01daa43fe5ccd0c5f68764d06d62e9feb5ed6ea0eea1a",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Poema",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Canto de invierno",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf.html",
+      "html_sha256": "773a4f420dcf0d209af9cce636abe56fff0f25f851177a89138ebdd91a71f981",
+      "human_reviewed": false,
+      "id": "fbb7faf4-04de-4858-b608-09cb6aedaacf",
+      "images": [
+        {
+          "alt": "Una pila de Biblias y libros antiguos",
+          "public_path": "/images/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf-1.jpg"
+        },
+        {
+          "alt": "Una mano enguantada sosteniendo tubos de muestra de sangre",
+          "public_path": "/images/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf-2.jpg"
+        },
+        {
+          "alt": "Un collage amplio que muestra profesionales de la salud y una farmacia",
+          "public_path": "/images/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf-3.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf.json",
+      "metadata_sha256": "bb37aab9fe1746fc01d853a76866cb9f7b89d9ed5fdb4796a8c5d68f3f5dc557",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "UNA PALABRA DEL DOCTOR",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "e438e2a5dbbb36ddf11340e0d96ac331f86b42c4c964f5787972c99d3487ba67",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La googlificación de la medicina",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -7971,6 +9807,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/042fce50-3724-4100-b397-093c6d081e89.html",
+      "html_sha256": "8632a892d39e84a876f71331a78a4ff1d35323a1534c16f5313ac12732151c2c",
+      "human_reviewed": false,
+      "id": "042fce50-3724-4100-b397-093c6d081e89",
+      "images": [
+        {
+          "alt": "Gutenbergbibel på display i Library of Congress, USA",
+          "public_path": "/images/articles/042fce50-3724-4100-b397-093c6d081e89-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/042fce50-3724-4100-b397-093c6d081e89.json",
+      "metadata_sha256": "7929aae4d60dfece24e4dc12350eb9dd0ac07571ec9f7fca94be7e1e439aba16",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Från redaktören",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "a8b13667ad0bdee6e94fb75c94d958fc5f824dbcd185202cd5cc7be6e9274a4c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Från redaktören",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
       "html_sha256": "8178b4aee4de9194772d774b17062f1fce66a32d930508ef35b3b8d7088108e9",
       "human_reviewed": false,
@@ -8091,6 +9955,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/58963510-f56e-43e0-88dd-0eb9941ddea9.html",
+      "html_sha256": "2a032da23772df1a2f731d57682ce1320e94a4c18a860b3dd2650caf83f1f94a",
+      "human_reviewed": false,
+      "id": "58963510-f56e-43e0-88dd-0eb9941ddea9",
+      "images": [
+        {
+          "alt": "Ett trepaneligt kollage av en träkyrkodörr, en kyrka i snö och snötäckta barrgrenar",
+          "public_path": "/images/articles/58963510-f56e-43e0-88dd-0eb9941ddea9-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/58963510-f56e-43e0-88dd-0eb9941ddea9.json",
+      "metadata_sha256": "45d95d19b751b19e21b05864d9abe6fe31dba47db19873038892cdb1285585f5",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "TANKAR FRÅN EN MISSIONÄR",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "717da8d77d6092ac85798d90532d1ee4a9c48672d09b7616b1eb527cfd86d893",
+      "status": "ready",
+      "subtitle": null,
+      "title": "En härlig kyrka",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "dc0ddb06c92eca410b5b9c9e0fff078990e65fd99a7f89181f2f67454d9656c4",
       "human_reviewed": false,
@@ -8142,6 +10034,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Omständighetsmässig överbelastning",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.html",
+      "html_sha256": "7b65d589c14eae0f8c23056f865a21cb2eae3c03611e0eb8cff4bef316e0c6b0",
+      "human_reviewed": false,
+      "id": "a42c5719-aea1-47ed-abad-ed0cd2571382",
+      "images": [
+        {
+          "alt": "Ett glasburk som spiller ut inslagna pastiller bredvid en krukväxt",
+          "public_path": "/images/articles/a42c5719-aea1-47ed-abad-ed0cd2571382-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.json",
+      "metadata_sha256": "e4862ba2c0a6d737192b11221e610dfb6bffefd5f38a09c5b59622691785c73d",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Barnhörnan",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "cb49d9b32a113d5c0bf30e44cdec3451c0a5ce43ad2cf97a5830259f43dd1f79",
+      "status": "ready",
+      "subtitle": "En berättelse om tacksamhet",
+      "title": "Mintmannen",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -8235,6 +10155,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a.html",
+      "html_sha256": "076b37c9d22ec5d7a34f3fc0a340208a4f0b3c8e347f7d9bb51559ba21307d6a",
+      "human_reviewed": false,
+      "id": "b37f8111-4563-4b5b-ab9f-1f87bcd2b46a",
+      "images": [
+        {
+          "alt": "Vintergrönska och en tallkotte arrangerad vid ett fönster",
+          "public_path": "/images/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a.json",
+      "metadata_sha256": "7d235e66701c1ca2b122241a5cf2b05f3d1a048dacaeda23db8a9d3d492b0d66",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SYSTER TILL SYSTER",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "810e77f1e38c86de9278d0fba622dcb0789774ee530b139604475db68ad15426",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Glädje i sprickorna",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
       "html_sha256": "9b4c444dffb09c90c9c818d5254eef718a45ef2dd0b58b1a5fd3eb98060019b8",
       "human_reviewed": false,
@@ -8286,6 +10234,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Stå upp, var glad",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.html",
+      "html_sha256": "8345777e747b15a9987af7c5652c19fe165ff0dec849891470ebefd87cd2ddf8",
+      "human_reviewed": false,
+      "id": "f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9",
+      "images": [
+        {
+          "alt": "En ensam kal träd i ett snötäckt fält",
+          "public_path": "/images/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/f31b1f66-9cee-419c-b2b0-87d9b9b2e3a9.json",
+      "metadata_sha256": "7c60c4a5feb857c3d8e91d3c4225193524f6678c5b2cf06b064b372bccdf6b5d",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Dikt",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "64cdf7082ea467a42d74808a22c2a82024cfedd4ef10b43183ee247b9c9bb712",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Vintersång",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -8378,6 +10354,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "سب کے لیے مزہ",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571.html",
+      "html_sha256": "c020240ccc1462ee6178daa73375cb279a3e54b9b800f9064a8569612aa42df3",
+      "human_reviewed": false,
+      "id": "21180900-6bdd-4c06-a4ed-fd0f6b8a3571",
+      "images": [
+        {
+          "alt": "کھمبے والے پنکھے، لوگ، اور مویشیوں کی ایک تاریخی تصویر",
+          "public_path": "/images/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571.json",
+      "metadata_sha256": "acab14f8729c433b59b7b8fc05cea0292a99155ab48088baa4bb53bc859d5dcc",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "کلیسائی تاریخ",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "eb6b57cc0ff9251672705de37bad2d751542487f4ae521b68aaf1b67b286861e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ہم جیسے ایک تاریخی بیان",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -8531,6 +10535,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/8f996405-d870-4074-947b-35190faad643.html",
+      "html_sha256": "95a403ac5b807b27c3acb0fd73fa0b3aa18da7b6b7e45733bf04933e4f55b374",
+      "human_reviewed": false,
+      "id": "8f996405-d870-4074-947b-35190faad643",
+      "images": [
+        {
+          "alt": "برف سے ڈھکا راستہ جو بےپتے سردیوں کے درختوں کے ساتھ ہے",
+          "public_path": "/images/articles/8f996405-d870-4074-947b-35190faad643-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/8f996405-d870-4074-947b-35190faad643.json",
+      "metadata_sha256": "1b19b470900d214c6f58462c4a95f35e8907c5319f33d0c5c6e11ed10f1ecde5",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "نظم",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "63f32eb5571bce4d8b82e7103273aaf0a3a4bf91449228454d16a781256867bd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "خدا کا شہر",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
       "html_sha256": "5b49c9648489412b7969b983bc29288ca8091081f19f33d66ef3ab7dd78a4b0a",
       "human_reviewed": false,
@@ -8655,6 +10687,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a.html",
+      "html_sha256": "fc8532155ad060995e1be132e0488a09670ea0a6328918360267fa0fe0e294b7",
+      "human_reviewed": false,
+      "id": "b37f8111-4563-4b5b-ab9f-1f87bcd2b46a",
+      "images": [
+        {
+          "alt": "کھڑکی کے پاس سجایا ہوا سرمائیز سبزہ اور ایک پائن کون",
+          "public_path": "/images/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a.json",
+      "metadata_sha256": "987f8a763498c61cfbe3551027b1725178c28e5f7da053c95c3e6a69d6d86661",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SISTER TO SISTER",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "810e77f1e38c86de9278d0fba622dcb0789774ee530b139604475db68ad15426",
+      "status": "ready",
+      "subtitle": null,
+      "title": "خوشی دراڑوں میں",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/b43320f3-e4e8-450b-865c-099ef704149c.html",
       "html_sha256": "c80dc53a64f07911776a90d8c56aa43024520a7d752f2f68d73b463299f38224",
       "human_reviewed": false,
@@ -8678,6 +10738,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "ایک بگاڑے ہوئے معاشرے میں اخلاقی طور پر پاک",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6.html",
+      "html_sha256": "7dbb1f254f096999ca91b338ef0af00d4df57f3caa3224045e6f1514d32f8bf7",
+      "human_reviewed": false,
+      "id": "b5ea052a-167f-45c4-bf40-cd463c4546b6",
+      "images": [
+        {
+          "alt": "برف سے ڈھکے ہوئے ہمیشہ سرسبز درخت",
+          "public_path": "/images/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6-1.jpg"
+        }
+      ],
+      "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6.json",
+      "metadata_sha256": "e385b68236fcfc5720ae96fe5d1089cbd30ef34efec416910cb62d30fe7b1e84",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "نمایاں مضمون",
+      "source_revision": "5c62ffa52b9fc80a270c9632a314e4be2373e292",
+      "source_translation_key": "43083ba7fbaa256f5105f34da9e51d125c38a107a8d91b3864609877708b8ea8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "سردی کا موسم تھا",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {

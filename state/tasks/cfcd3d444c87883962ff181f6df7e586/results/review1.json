@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1aeda706-9cf4-4a59-bb28-1f29bc6249f5",
+    "response_id": "chatcmpl-EUUJud94QAftcQjVJm2onzGbW2EoV",
+    "usage": {
+      "completion_tokens": 843,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10768,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11611
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph (lead) — drop-cap and opening word",
+        "severity": "minor",
+        "source_quote": "“S o, what brings you in today?”",
+        "suggested_fix": "Render the dropped initial as intended (the English 'S' was a dropped-cap in the source). Either use a dropped-cap matching the English original letter or make the Hindi opening fully natural without an erroneous single-letter drop-cap. For example, replace the existing '<span class=\"drop-cap\">“क</span>ि, तो आज ...' with '<span class=\"drop-cap\">“तो</span> क्या, आज ...' or use '<span class=\"drop-cap\">“S</span>ो, ...' only if your layout requires preserving the original Latin dropped-cap. Ensure the visible initial character is a normal, readable character in Hindi and that the sentence reads naturally.",
+        "translation_quote": "“कि, तो आज यहाँ किस बात के लिए आए हो?” मैंने बेन से पूछा, ..."
+      },
+      {
+        "location": "Proverbs quotation paragraph (Proverbs 4:5-9) — encoding/artifact inside a Hindi word",
+        "severity": "minor",
+        "source_quote": "\"Wisdom is the principal thing; therefore get wisdom: and with all thy getting get understanding.\"",
+        "suggested_fix": "Remove the stray control/encoding character in the Hindi rendering. Replace 'प्रज्ञा प्राप्\\u0010त कर' with 'प्रज्ञा प्राप्त कर' (single correct Hindi word without embedded control code). Check the file encoding so no hidden control characters remain in the output.",
+        "translation_quote": "“प्रज्ञा प्रधान है; इसलिये प्रज्ञा प्राप्\u0010त कर; और जितना कुछ तुम प्राप्\u0010त करो उस पर बुद्धि भी प्राप्\u0010त कर।”"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

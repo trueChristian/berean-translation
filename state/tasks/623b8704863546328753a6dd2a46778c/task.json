@@ -2,7 +2,6 @@
   "article_id": "042fce50-3724-4100-b397-093c6d081e89",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,55 @@
         },
         "total_tokens": 3274
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1356,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2924,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4280
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html — first paragraph, proper name",
+      "severity": "critical",
+      "source_quote": "Felix Mantz",
+      "suggested_fix": "Restaurar el nombre correcto \"Felix Mantz\" (sin cambiar a 'Feliz'). Conservar exactamente la grafía del nombre propio tal como en la fuente inglesa dentro de la misma estructura HTML: <p>… en la casa de Felix Mantz en Zúrich …</p>",
+      "translation_quote": "Feliz Mantz"
+    },
+    {
+      "location": "translation.title",
+      "severity": "major",
+      "source_quote": "From the Editor",
+      "suggested_fix": "Traducir el campo del título al español para que coincida con la versión traducida del artículo o mantener consistencia con la etiqueta de sección. Por ejemplo: \"De la redacción\" o \"Del editor\" según la preferencia editorial. No dejar el título en inglés en el metadato: \"title\":\"De la redacción\"",
+      "translation_quote": "From the Editor"
+    },
+    {
+      "location": "source.html — paragraph 3 and paragraph mentioning magazine name and paragraph about reprinted articles",
+      "severity": "major",
+      "source_quote": "The Heartbeat of the Remnant; A Glorious Church; Joy in the Crevices",
+      "suggested_fix": "Traducir los títulos y nombres citados al español (o presentarlos claramente como títulos traducidos), conservando la forma de título dentro del texto. Ejemplos sugeridos en el mismo HTML: \"una revista periódica como El Latido del Remanente\" (o mantener el título en cursiva seguido de su traducción entre paréntesis si la política editorial lo prefiere). Para los títulos de artículos reimpresos: \"Una iglesia gloriosa\" para \"A Glorious Church\" y \"Gozo en las grietas\" para \"Joy in the Crevices\". Mantener las etiquetas HTML tal como están: <p>… una revista periódica como El Latido del Remanente. …</p> y <p>En este número, reimprimimos dos artículos por solicitud. \"Una iglesia gloriosa\", de Barry Grant, y \"Gozo en las grietas\", de Sheryl Zeiset, se imprimieron…</p>",
+      "translation_quote": "The Heartbeat of the Remnant; A Glorious Church, de Barry Grant, y Joy in the Crevices, de Sheryl Zeiset"
+    },
+    {
+      "location": "source.html — first paragraph, sequence/number of founders referenced",
+      "severity": "minor",
+      "source_quote": "Feliz Mantz, Conrad Grebel, George Blaurock, and a few others",
+      "suggested_fix": "Corregir la grafía a \"Felix Mantz\" (ver corrección crítica). Verificar además la concordancia en español: \"Felix Mantz, Conrad Grebel, George Blaurock y algunos otros\" dentro del mismo párrafo HTML sin alterar la estructura: <p>… Feliz Mantz, Conrad Grebel, George Blaurock y algunos más …</p>",
+      "translation_quote": "Feliz Mantz, Conrad Grebel, George Blaurock y algunos más"
     }
   ],
   "id": "623b8704863546328753a6dd2a46778c",
@@ -69,11 +117,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/901933390bbab68b30ba65d224e53d69f0af822b49f3cdb694876c259f4bd250.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a8b13667ad0bdee6e94fb75c94d958fc5f824dbcd185202cd5cc7be6e9274a4c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

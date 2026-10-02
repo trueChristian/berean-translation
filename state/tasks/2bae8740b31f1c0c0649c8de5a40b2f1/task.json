@@ -2,7 +2,6 @@
   "article_id": "fbb7faf4-04de-4858-b608-09cb6aedaacf",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,8 +23,51 @@
         },
         "total_tokens": 9817
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1100,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9542,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10642
+      }
     }
   ],
+  "findings": [
+    {
+      "location": "Paragraph: \"I mentally began to go through...\" (third <p> in source.html)",
+      "severity": "minor",
+      "source_quote": "I mentally began to go through what doctors call a differential diagnosis – things that can cause the cluster of symptoms that a patient has.",
+      "suggested_fix": "Restore the explicit first-person subject and natural Spanish capitalization. For example: \"Comencé mentalmente a repasar lo que los médicos llaman diagnóstico diferencial: las cosas que pueden causar el conjunto de síntomas que presenta un paciente.\" Preserve the existing <p> tag and surrounding HTML.",
+      "translation_quote": " mentalmente comencé a repasar lo que los médicos llaman un diagnóstico diferencial: las cosas que pueden causar el conjunto de síntomas que presenta un paciente."
+    },
+    {
+      "location": "Paragraph: \"There are 36 trillion cells...\" (under \"Humility is Needed\" / \"Se necesita humildad\")",
+      "severity": "minor",
+      "source_quote": "There are 36 trillion cells in the human body, and normally, they all work together perfectly; the problem is figuring out what to do when they don’t.",
+      "suggested_fix": "Clarify the large-number term to avoid international ambiguity of \"billón/billones.\" Use \"36 billones (36 trillion)\" or \"36 trillones (US)\" depending on target convention. Example: \"Hay 36 billones (36 trillion) de células en el cuerpo humano...\" Preserve the surrounding <p> tag.",
+      "translation_quote": "Hay 36 billones de células en el cuerpo humano, y normalmente todas trabajan juntas a la perfección; el problema es descubrir qué hacer cuando no lo hacen."
+    },
+    {
+      "location": "Paragraph: Explanation of CARS acronym (near discussion of Robert Harris)",
+      "severity": "minor",
+      "source_quote": "Robert Harris made an acronym CARS, that helps sort out whether information on a website is valid. Credibility, past Accuracy, Reasonableness, and Supporting information are all important to look at...",
+      "suggested_fix": "Adjust the expansion to a more idiomatic Spanish phrasing for \"past Accuracy\" and ensure consistent capitalization. Example: \"Credibilidad, exactitud histórica, razonabilidad e información que lo respalde...\" Preserve the existing sentence structure and HTML tags.",
+      "translation_quote": "Robert Harris creó el acrónimo CARS, que ayuda a distinguir si la información en un sitio web es válida. Credibilidad, Exactitud pasada, Razonabilidad e Información de respaldo son aspectos importantes a revisar..."
+    }
+  ],
+  "finished_at": "2026-10-02T10:04:50+00:00",
   "id": "2bae8740b31f1c0c0649c8de5a40b2f1",
   "issue_id": "81196f7a-e1f3-5653-ba8e-1ca6a2824470",
   "language": "spa",
@@ -69,11 +111,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6a174f90d4349eed5395b954b6464250e64e874608b754c80cbaf37735556faf.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e438e2a5dbbb36ddf11340e0d96ac331f86b42c4c964f5787972c99d3487ba67",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

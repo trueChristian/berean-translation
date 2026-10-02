@@ -2,7 +2,6 @@
   "article_id": "21180900-6bdd-4c06-a4ed-fd0f6b8a3571",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e63b1e66e4f648158695803b9be3350f",
   "campaign": "gh-36985402305",
   "created_at": "2026-10-02T08:41:20+00:00",
   "events": [
@@ -24,6 +23,41 @@
         },
         "total_tokens": 5306
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1141,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4839,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5980
+      }
+    }
+  ],
+  "findings": [
+    {
+      "location": "source.html paragraph 2 (\"The group first entered Russia upon the urgings of the Viceroy Potemkin...\")",
+      "severity": "major",
+      "source_quote": "The group first entered Russia upon the urgings of the Viceroy Potemkin, who came into authority over the area now known as Ukraine after its annexation by Russia in 1783.",
+      "suggested_fix": "Replace the incorrect title translation in the corresponding translation paragraph. In the translation HTML, change \"Wasekretaris Potemkin\" to a correct, conventional Indonesian rendering of \"Viceroy Potemkin\", for example: \"Wakil Raja Potemkin\". Preserve surrounding HTML and sentence structure. Example replacement: \"Kelompok ini pertama kali memasuki Rusia atas dorongan Wakil Raja Potemkin, yang berkuasa atas daerah yang sekarang dikenal sebagai Ukraina setelah aneksasinya oleh Rusia pada 1783.\"",
+      "translation_quote": "Kelompok ini pertama kali memasuki Rusia atas dorongan Wasekretaris Potemkin, yang berkuasa atas daerah yang sekarang dikenal sebagai Ukraina setelah aneksasinya oleh Rusia pada 1783."
+    },
+    {
+      "location": "source.html final paragraph (Proverbs quotation)",
+      "severity": "major",
+      "source_quote": "“Ponder the path of thy feet, and let all thy ways be established” (Proverbs 4:26).",
+      "suggested_fix": "Translate the Bible book name into conventional Bahasa Indonesia while keeping chapter and verse unchanged. In the translation HTML, replace the parenthetical English reference \"(Proverbs 4:26)\" with the Indonesian convention \"(Amsal 4:26)\". Preserve the quoted Indonesian verse text already provided. Example replacement at the end of the paragraph: “Renungkanlah jalan kakimu, maka segala lakumu akan tegak” (Amsal 4:26).",
+      "translation_quote": "“Renungkanlah jalan kakimu, maka segala lakumu akan tegak” (Proverbs 4:26)."
     }
   ],
   "id": "86732b38ed6b36604d3426190336d7ed",
@@ -69,11 +103,13 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/e6d5dd4085cebb3593cea88c0c7b399e589533f4996bbdc3712184dc25845fc4.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "eb6b57cc0ff9251672705de37bad2d751542487f4ae521b68aaf1b67b286861e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

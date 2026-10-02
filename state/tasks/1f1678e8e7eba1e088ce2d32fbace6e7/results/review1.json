@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "10d1656f-429b-4fb9-aaed-df8e719dae90",
+    "response_id": "chatcmpl-EUUJtiv8sE3d9hcTXwHprnyFwwOta",
+    "usage": {
+      "completion_tokens": 1831,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1280,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2981,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4812
+    }
+  },
+  "received_at": "2026-10-02T10:04:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> paragraph 3 (magazine name)",
+        "severity": "minor",
+        "source_quote": "a periodical magazine such as The Heartbeat of the Remnant.",
+        "suggested_fix": "If you prefer the magazine title left in English as a proper name, keep as is. If you prefer it localized, translate the phrase so the title remains clearly marked as a title (for example: «un periodico come The Heartbeat of the Remnant» or «un periodico come “The Heartbeat of the Remnant”»). No HTML change needed; adjust only the running text.",
+        "translation_quote": "un periodico come The Heartbeat of the Remnant."
+      },
+      {
+        "location": "<article> paragraph 10 (reprinted article titles)",
+        "severity": "minor",
+        "source_quote": "A Glorious Church by Barry Grant and Joy in the Crevices by Sheryl Zeiset were both first printed in 2019.",
+        "suggested_fix": "Translate or mark the article titles consistently. Options: keep original English as proper titles (acceptable) or render the titles into Italian. If translating, preserve the exact names and authors and HTML structure; e.g. replace with: «“A Glorious Church” di Barry Grant e “Joy in the Crevices” di Sheryl Zeiset furono pubblicati per la prima volta nel 2019.»",
+        "translation_quote": "A Glorious Church di Barry Grant e Joy in the Crevices di Sheryl Zeiset sono stati entrambi pubblicati per la prima volta nel 2019."
+      },
+      {
+        "location": "<article> top paragraph and later same paragraph (proper name spelling)",
+        "severity": "minor",
+        "source_quote": "Felix Mantz ... Feliz Mantz",
+        "suggested_fix": "The English source text itself uses both spellings. Preserve the same inconsistency if you must mirror the source precisely, or standardize to the spelling used most commonly in authoritative sources (Felix Mantz). To mirror the source exactly, leave as is; to standardize, change the second occurrence to “Felix Mantz.” No HTML change needed; edit only the text.",
+        "translation_quote": "Felix Mantz ... Feliz Mantz"
+      },
+      {
+        "location": "metadata/title element",
+        "severity": "minor",
+        "source_quote": "From the Editor",
+        "suggested_fix": "Use a consistent rendering of the English heading in Italian. Either translate as «Dal direttore» or «Dalla redazione» consistently to match the section. If the site style uses “From the Editor” = “Dal direttore,” change the translation.title to “Dal direttore.”",
+        "translation_quote": "Dalla redazione"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

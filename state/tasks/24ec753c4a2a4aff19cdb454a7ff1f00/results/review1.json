@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "dc14731c-aaff-4127-b1d8-79a8f78a817c",
+    "response_id": "chatcmpl-EUUJtp1bpaAkObi2SCUYgQspEXXt9",
+    "usage": {
+      "completion_tokens": 1312,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5997,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7309
+    }
+  },
+  "received_at": "2026-10-02T10:04:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...Il fait froid (45 degrés ou moins le matin)....</p>",
+        "severity": "minor",
+        "source_quote": "It’s cold (45 degrees or colder in the morning).",
+        "suggested_fix": "Clarify the temperature unit to match the original meaning. Either indicate Fahrenheit explicitly or convert to Celsius. Example fixes (pick one) — (a) «Il fait froid (45 °F [≈7 °C] le matin).» or (b) «Il fait froid (environ 7 °C le matin).» Preserve the surrounding paragraph and HTML tags.",
+        "translation_quote": "Il fait froid (45 degrés ou moins le matin)."
+      },
+      {
+        "location": "<p>...Il y a des spathiphyllums, des roses, des hibiscus... </p>",
+        "severity": "minor",
+        "source_quote": "There are peace lilies, roses, hibiscus and other bright flowers blooming, and succulents growing...",
+        "suggested_fix": "Use the common French name for \"peace lilies\" or supply the botanical name parenthetically so French readers recognize the plant. Suggested wording: «Il y a des lis de la paix (spathiphyllums), des roses, des hibiscus…» or «Il y a des spathiphyllums (lis de la paix), des roses, des hibiscus…». Preserve the HTML structure.",
+        "translation_quote": "Il y a des spathiphyllums, des roses, des hibiscus et d'autres fleurs vives en fleur, et des succulentes qui poussent... "
+      },
+      {
+        "location": "<p class=\"source-note\"><em>... dans le numéro Autumn 2019. ...</em></p>",
+        "severity": "minor",
+        "source_quote": "It was first printed in The Heartbeat of the Remnant in the Autumn 2019 issue.",
+        "suggested_fix": "Translate the season label into French to keep metadata wholly localized. Suggested fix: replace «Autumn 2019» with «automne 2019» so the note reads: «... dans le numéro automne 2019.» Keep the English publication titles as they are (permitted) and preserve the exact HTML and tag structure.",
+        "translation_quote": "... dans le numéro Autumn 2019."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f10d61cf-f72b-4666-b286-669f638f2bb7",
+    "response_id": "chatcmpl-EUUK1e1e3DSiUtHN5Vt9dEH3L9UgS",
+    "usage": {
+      "completion_tokens": 1069,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10007,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11076
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<section class=\"references\"> (end of article)",
+        "severity": "minor",
+        "source_quote": "<ol>\n      <li><cite>Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models - PMC (nih.gov)</cite></li>\n      <li><cite>Evaluating Internet Research Sources</cite></li>\n      <li><cite>Sale of Health-Related Products | AMA-Code (ama-assn.org)</cite></li>\n      <li><cite>65% of Americans believe they are above average in intelligence: Results of two nationally representative surveys - PMC (nih.gov)</cite></li>\n    </ol>",
+        "suggested_fix": "Translate the visible citation titles into French (preserving the <section>, <ol>, <li>, and <cite> tags and their order). For example: \n- <cite>Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models - PMC (nih.gov)</cite>\nshould become something like\n- <cite>Performance de ChatGPT au USMLE : potentiel des grands modèles de langage pour l'enseignement médical assisté par IA - PMC (nih.gov)</cite>\nApply analogous literal but natural French translations to the other three <cite> entries, keeping the same links and HTML structure.",
+        "translation_quote": "<ol>\n      <li><cite>Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models - PMC (nih.gov)</cite></li>\n      <li><cite>Evaluating Internet Research Sources</cite></li>\n      <li><cite>Sale of Health-Related Products | AMA-Code (ama-assn.org)</cite></li>\n      <li><cite>65% of Americans believe they are above average in intelligence: Results of two nationally representative surveys - PMC (nih.gov)</cite></li>\n    </ol>"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

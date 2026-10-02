@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3447b765-43c8-4086-a05b-a857f68c2072",
+    "response_id": "chatcmpl-EUUJtgwHQSA0nVIHfFRUMktjfsJiz",
+    "usage": {
+      "completion_tokens": 976,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7616,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8592
+    }
+  },
+  "received_at": "2026-10-02T10:04:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing: \"God forbid if we begin to believe that we are better off doing things alone without our brothers.\" (near heading 'Obedience')",
+        "severity": "minor",
+        "source_quote": "God forbid if we begin to believe that we are better off doing things alone without our brothers.",
+        "suggested_fix": "Use an Indonesian idiom that preserves the warning-tone and meaning. Replace the sentence \"Tuhan melarang jika kita mulai percaya bahwa kita lebih baik melakukan sesuatu sendirian tanpa saudara-saudara kita.\" with: \"Jauhkanlah Tuhan, jika kita mulai percaya bahwa kita lebih baik melakukan sesuatu sendiri tanpa saudara-saudari kita.\" or \"Semoga Tuhan melindungi kita jika kita mulai percaya bahwa kita lebih baik melakukan sesuatu sendiri tanpa saudara-saudari kita.\"",
+        "translation_quote": "Tuhan melarang jika kita mulai percaya bahwa kita lebih baik melakukan sesuatu sendirian tanpa saudara-saudara kita."
+      },
+      {
+        "location": "Paragraph quoting 1 John 1:9",
+        "severity": "minor",
+        "source_quote": "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness (1 John 1:9).",
+        "suggested_fix": "Adjust wording/punctuation for natural Indonesian phrasing while preserving meaning. Replace \"Ia adalah setia dan adil sehingga Ia akan mengampuni dosa kita dan menyucikan kita dari segala kejahatan\" with \"Ia setia dan adil, sehingga Ia akan mengampuni dosa-dosa kita dan menyucikan kita dari segala kejahatan.\"",
+        "translation_quote": "Firman Allah berkata “Jika kita mengaku dosa kita, Ia adalah setia dan adil sehingga Ia akan mengampuni dosa kita dan menyucikan kita dari segala kejahatan” (1 Yoh. 1:9)."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

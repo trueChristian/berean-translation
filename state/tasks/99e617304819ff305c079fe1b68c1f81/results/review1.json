@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "283f336f-5b14-428e-a85a-1935e78ec4f8",
+    "response_id": "chatcmpl-EUUMlfyEF3n63PKwUcCWpUXchkZyb",
+    "usage": {
+      "completion_tokens": 1313,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3849,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5162
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: “Two rows from the front of the auditorium…” (second <p>)",
+        "severity": "minor",
+        "source_quote": "Two rows from the front of the auditorium, Dirk spotted Brother Silas’ white hair and his black vest.",
+        "suggested_fix": "Translate the spatial detail idiomatically in Norwegian. Replace «To rader fra scenen fikk Dirk øye på…» with e.g. «To rader fra foran i auditoriet fikk Dirk øye på bror Silas’ hvite hår og hans svarte vest.» This preserves that it is two rows from the front of the auditorium (not from the stage).",
+        "translation_quote": "To rader fra scenen fikk Dirk øye på bror Silas’ hvite hår og hans svarte vest."
+      },
+      {
+        "location": "Paragraph: telephone/recorded message (paragraph beginning “That Thursday, the phone rang…”)",
+        "severity": "minor",
+        "source_quote": "When his mother picked it up, Dirk could tell that it was a recorded message announcing something because his mother only listened instead of holding up her end of the conversation.",
+        "suggested_fix": "The translation misrenders the nuance. Replace «for moren hadde bare lagt på og lyttet i stedet for å føre en samtale» with a phrase that conveys she listened to a recorded announcement rather than taking part in a two‑way conversation, e.g. «for moren bare lyttet — det var en innspilt melding — i stedet for å føre en samtale.»",
+        "translation_quote": "for moren hadde bare lagt på og lyttet i stedet for å føre en samtale."
+      },
+      {
+        "location": "Paragraph: Dirk stops his tractor to hear (paragraph beginning ““Will he be in church on Sunday?””)",
+        "severity": "minor",
+        "source_quote": "“Will he be in church on Sunday?” interjected Dirk, stopping the travels of his tractor in his concern to hear the answer.",
+        "suggested_fix": "The current rendering «stanset traktoren sin i reisens iver» is unclear/unnatural. Replace with a clear, idiomatic Norwegian version that keeps the original meaning, for example: «»Kommer han til å være i kirken på søndag?» innskjøt Dirk, og stanset traktoren han lekte med for å høre svaret.»",
+        "translation_quote": "«Kommer han til å være i kirken på søndag?» innskjøt Dirk og stanset traktoren sin i reisens iver for å høre svaret."
+      },
+      {
+        "location": "Paragraph: simile about children clustering (third <p>)",
+        "severity": "minor",
+        "source_quote": "a swarm of young boys and girls began to cluster around Brother Silas like chickadees at a birdfeeder.",
+        "suggested_fix": "The translation uses the word «meisveder», which is not a correct or natural Norwegian word for chickadees or tits. Use a natural equivalent such as «som meisunger ved et fuglebrett» or «som meiseflokk ved et fuglebrett.»",
+        "translation_quote": "klyngret en sverm av små gutter og jenter seg rundt bror Silas som meisveder ved et fuglebrett."
+      }
+    ],
+    "passed": true,
+    "score": 96
+  }
+}

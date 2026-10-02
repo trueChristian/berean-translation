@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "2f0535a4-953a-45b0-b0ee-52f33a0fbeee",
+    "response_id": "chatcmpl-EUUL1nLIF1DVRFVZ9UpvJs9N02OAK",
+    "usage": {
+      "completion_tokens": 1141,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4839,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5980
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html paragraph 2 (\"The group first entered Russia upon the urgings of the Viceroy Potemkin...\")",
+        "severity": "major",
+        "source_quote": "The group first entered Russia upon the urgings of the Viceroy Potemkin, who came into authority over the area now known as Ukraine after its annexation by Russia in 1783.",
+        "suggested_fix": "Replace the incorrect title translation in the corresponding translation paragraph. In the translation HTML, change \"Wasekretaris Potemkin\" to a correct, conventional Indonesian rendering of \"Viceroy Potemkin\", for example: \"Wakil Raja Potemkin\". Preserve surrounding HTML and sentence structure. Example replacement: \"Kelompok ini pertama kali memasuki Rusia atas dorongan Wakil Raja Potemkin, yang berkuasa atas daerah yang sekarang dikenal sebagai Ukraina setelah aneksasinya oleh Rusia pada 1783.\"",
+        "translation_quote": "Kelompok ini pertama kali memasuki Rusia atas dorongan Wasekretaris Potemkin, yang berkuasa atas daerah yang sekarang dikenal sebagai Ukraina setelah aneksasinya oleh Rusia pada 1783."
+      },
+      {
+        "location": "source.html final paragraph (Proverbs quotation)",
+        "severity": "major",
+        "source_quote": "“Ponder the path of thy feet, and let all thy ways be established” (Proverbs 4:26).",
+        "suggested_fix": "Translate the Bible book name into conventional Bahasa Indonesia while keeping chapter and verse unchanged. In the translation HTML, replace the parenthetical English reference \"(Proverbs 4:26)\" with the Indonesian convention \"(Amsal 4:26)\". Preserve the quoted Indonesian verse text already provided. Example replacement at the end of the paragraph: “Renungkanlah jalan kakimu, maka segala lakumu akan tegak” (Amsal 4:26).",
+        "translation_quote": "“Renungkanlah jalan kakimu, maka segala lakumu akan tegak” (Proverbs 4:26)."
+      }
+    ],
+    "passed": false,
+    "score": 72
+  }
+}

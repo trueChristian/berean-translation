@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a621996f-3342-43ec-8229-df16a0990b98",
+    "response_id": "chatcmpl-EUUNT2MWdXcoJc5uQaUqHSIfQZ9zd",
+    "usage": {
+      "completion_tokens": 872,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6170,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7042
+    }
+  },
+  "received_at": "2026-10-02T10:04:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html ¶ near: \"succulents growing in delightful little pots.\"",
+        "severity": "minor",
+        "source_quote": "There are peace lilies, roses, hibiscus, and other bright flowers blooming, and succulents growing in delightful little pots.",
+        "suggested_fix": "Correct the Swedish spelling of \"succulents\" to the more common Swedish form. Replace \"suckulenter\" with \"sukkulenter\" (or another preferred standard spelling) while preserving the surrounding sentence and HTML tags.",
+        "translation_quote": "Det finns peace lilies, rosor, hibiskus och andra klara blommor, och suckulenter växer i ljuvliga små krukor."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}
