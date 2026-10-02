@@ -1302,11 +1302,10 @@
     }
   ],
   "source_revision": "0caae6dc9af4c5fcda48e20d7717688ab3d59bde",
-  "status": "active",
+  "status": "finished",
   "task_counts": {
-    "complete": 8,
-    "in_batch": 19,
-    "not_ready": 33
+    "complete": 18,
+    "not_ready": 42
   },
   "tasks": [
     "ada28dc26ae60ba5f686ac0dae986780",
