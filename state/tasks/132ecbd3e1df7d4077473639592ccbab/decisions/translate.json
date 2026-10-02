@@ -1,0 +1,6 @@
+{
+  "findings": [],
+  "outcome": "structural_rejection",
+  "reason": "Forbidden HTML element: object",
+  "stage": "translate"
+}

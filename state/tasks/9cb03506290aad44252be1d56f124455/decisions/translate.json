@@ -1,0 +1,6 @@
+{
+  "findings": [],
+  "outcome": "structural_rejection",
+  "reason": "Unsupported HTML attribute: say",
+  "stage": "translate"
+}
