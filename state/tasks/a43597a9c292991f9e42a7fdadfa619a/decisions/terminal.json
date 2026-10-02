@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML/metadata contract",
+      "severity": "critical",
+      "source_quote": "",
+      "suggested_fix": "Forbidden HTML element: strong}{draag",
+      "translation_quote": ""
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[57]: source /article[1]/figure[1]/figcaption[1]/em[1]/br[1] ('start', 'br', ()); translation /article[1]/figure[1]/figcaption[1]/em[1] ('end', 'em')",
+  "stage": "terminal"
+}

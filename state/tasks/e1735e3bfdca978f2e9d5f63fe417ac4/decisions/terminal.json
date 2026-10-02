@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML/metadata contract",
+      "severity": "critical",
+      "source_quote": "",
+      "suggested_fix": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[4]; missing: 17:24-25; extra: none",
+      "translation_quote": ""
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[4]; missing: 17:24-25; extra: none",
+  "stage": "terminal"
+}

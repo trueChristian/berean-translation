@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML/metadata contract",
+      "severity": "critical",
+      "source_quote": "",
+      "suggested_fix": "Malformed HTML closing tag: strong，<strong",
+      "translation_quote": ""
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Malformed HTML closing tag: strong，<strong",
+  "stage": "terminal"
+}
