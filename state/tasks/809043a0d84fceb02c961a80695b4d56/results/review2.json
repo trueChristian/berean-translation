@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "5a7be435-58aa-410e-aeed-932a9b1a998b",
+    "response_id": "chatcmpl-EUL8pqrm1NXw7ps4ENIhmuinkF3vV",
+    "usage": {
+      "completion_tokens": 910,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9028,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9938
+    }
+  },
+  "received_at": "2026-10-02T00:12:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "section metadata",
+        "severity": "major",
+        "source_quote": "A WORD FROM THE DOCTOR",
+        "suggested_fix": "Translate the original section header literally or equivalently without adding new qualifiers. Replace the translation value with a direct equivalent of the source, for example \"EN HÄLSNING FRÅN LÄKAREN\" or \"ORD FRÅN LÄKAREN\", rather than the current added qualifier. Preserve all-uppercase styling only if required by the publishing system.",
+        "translation_quote": "EN VÄNLIG HÄLSNING FRÅN LÄKAREN"
+      }
+    ],
+    "passed": false,
+    "score": 80
+  }
+}
