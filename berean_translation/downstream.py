@@ -1,4 +1,4 @@
-"""Bounded repair-first recovery with a separate, never-recycled authorization cap.
+"""Bounded repair-first recovery with permanent, separately funded envelopes.
 
 The serialized collector owns selection, allocation and task creation. Historical
 campaigns and terminal tasks are read-only inputs, not resettable retry counters.
@@ -12,6 +12,8 @@ from .recovery import money
 from .state import TERMINAL
 
 POLICY = 'automatic_downstream_recovery'
+MANUAL_SCOPE = 'manual_workflow'
+SHARED_SCOPE = 'shared_policy'
 
 
 def validate_policy(config):
@@ -37,11 +39,38 @@ def validate_policy(config):
     return policy
 
 
+def validate_manual_authorization(request):
+    """Validate provenance recorded by the trusted workflow CLI, never an input flag.
+
+    The queue is durable trusted repository state. This is a consistency check,
+    not an authentication mechanism for arbitrary externally supplied JSON.
+    """
+    if 'manual_authorization' not in request:
+        return False
+    authorization = request['manual_authorization']
+    fields = {'kind', 'repository', 'workflow_ref', 'run_id', 'actor'}
+    if (not isinstance(authorization, dict) or set(authorization) != fields
+            or any(type(authorization[key]) is not str for key in fields)):
+        raise ContractError('Manual recovery requires immutable workflow-dispatch authorization')
+    repository, run_id, actor = (authorization[key] for key in ('repository', 'run_id', 'actor'))
+    if (authorization['kind'] != 'github_workflow_dispatch'
+            or not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9_.-]*/[A-Za-z0-9][A-Za-z0-9_.-]*', repository)
+            or authorization['workflow_ref'] != repository + '/.github/workflows/ai-repair.yml@refs/heads/main'
+            or not re.fullmatch(r'[1-9][0-9]*', run_id)
+            or not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9-]{0,38}(?:\[bot\])?', actor)
+            or request.get('id') != 'gh-' + run_id
+            or request.get('requested_by') != actor
+            or 'scheduled_hour' in request):
+        raise ContractError('Manual recovery authorization must match its run, actor and main-branch workflow')
+    return True
+
+
 def validate_request(config, request):
     fields = {'id', 'operation', 'model', 'review_model', 'budget_usd', 'dry_run',
-              'requested_by', 'max_articles', 'scheduled_hour'}
+              'requested_by', 'max_articles', 'scheduled_hour', 'manual_authorization'}
     if (not isinstance(request, dict) or set(request) - fields
             or request.get('operation') != 'repair'
+            or not isinstance(request.get('id'), str)
             or not re.fullmatch(r'[A-Za-z0-9_-]{1,80}', request.get('id', ''))
             or type(request.get('dry_run')) is not bool):
         raise ContractError('Downstream repair requires an immutable bounded request without other selectors')
@@ -52,8 +81,9 @@ def validate_request(config, request):
     if not budget or budget > money(config.runtime['max_campaign_usd']):
         raise ContractError('Downstream request requires an explicit positive campaign budget')
     config.model(request.get('model')); config.model(request.get('review_model'))
+    manual = validate_manual_authorization(request)
     policy = validate_policy(config)
-    if not request['dry_run'] and not policy['enabled']:
+    if not request['dry_run'] and not manual and not policy['enabled']:
         raise ContractError('Paid downstream recovery is disabled pending an approved total budget')
     hour = request.get('scheduled_hour')
     if hour is not None:
@@ -70,8 +100,42 @@ def recovery_key(task):
     return digest(':'.join(task[k] for k in ('language', 'article_id', 'translation_key')))
 
 
-def ledger(state):
-    total, keys, allocations = money(0), set(), []
+def funding_settings(campaign):
+    return {key: campaign.get(key) for key in ('funding_scope', 'request_sha256',
+        'budget_usd', 'downstream_allocation_usd', 'allocation_index',
+        'allocation_before_usd', 'approved_total_usd')}
+
+
+def campaign_funding_scope(campaign):
+    request = campaign.get('downstream_request')
+    if not isinstance(request, dict):
+        raise ContractError('Downstream immutable authorization is missing or changed')
+    manual = validate_manual_authorization(request)
+    scope = campaign.get('funding_scope', SHARED_SCOPE)
+    if (scope not in (MANUAL_SCOPE, SHARED_SCOPE)
+            or (scope == MANUAL_SCOPE) != manual):
+        raise ContractError('Downstream funding scope must match its immutable authorization')
+    # Old shared-policy campaigns predate this fingerprint. All newly accepted
+    # envelopes freeze it, including previews and requests with no eligible work.
+    if ('funding_scope' in campaign or 'funding_sha256' in campaign) and (
+            json_hash(funding_settings(campaign)) != campaign.get('funding_sha256')):
+        raise ContractError('Downstream frozen funding authorization changed')
+    if manual and (type(campaign.get('allocation_index')) is not int
+            or campaign['allocation_index'] != 1
+            or money(campaign.get('allocation_before_usd')) != money(0)
+            or money(campaign.get('approved_total_usd')) != money(request.get('budget_usd'))):
+        raise ContractError('Manual recovery must retain its own explicit, one-run spending ceiling')
+    return scope
+
+
+def submission_enabled(config, campaign):
+    """Hourly policy changes cannot revoke or enlarge a manual run's own cap."""
+    return (campaign_funding_scope(campaign) == MANUAL_SCOPE
+            or validate_policy(config)['enabled'])
+
+
+def funding_ledger(state):
+    total, manual_total, keys, allocations, manual_count = money(0), money(0), set(), [], 0
     for campaign in state.campaigns():
         queued = state.read(f'state/queue/{campaign["id"]}.json')
         if not (campaign.get('downstream_recovery') or campaign.get('operation') == 'repair'
@@ -84,12 +148,14 @@ def ledger(state):
                 or request.get('id') != campaign.get('id')
                 or request.get('operation') != 'repair'
                 or request.get('dry_run') is not campaign.get('dry_run')
+                or request.get('requested_by') != campaign.get('requested_by')
                 or money(request.get('budget_usd')) != money(campaign.get('budget_usd'))
                 or any(request.get(k) != campaign.get(k) for k in ('model', 'review_model'))):
             raise ContractError('Downstream immutable authorization is missing or changed')
         queued = state.read(f'state/queue/{campaign["id"]}.json')
         if queued is not None and queued != request:
             raise ContractError('Downstream queue request changed after acceptance')
+        scope = campaign_funding_scope(campaign)
         allocation = money(campaign.get('downstream_allocation_usd'))
         selections = campaign.get('selection', [])
         if campaign['dry_run']:
@@ -102,7 +168,11 @@ def ledger(state):
             continue
         if allocation != money(campaign['budget_usd']):
             raise ContractError('Accepted downstream envelope is permanent, including cancelled work')
-        allocations.append(campaign)
+        if scope == MANUAL_SCOPE:
+            manual_total += allocation
+            manual_count += 1
+        else:
+            allocations.append(campaign)
         for item in selections:
             key = item.get('recovery_key')
             if not isinstance(key, str) or key in keys:
@@ -115,7 +185,15 @@ def ledger(state):
         total += money(campaign['downstream_allocation_usd'])
         if total > money(campaign['approved_total_usd']):
             raise ContractError('Downstream allocations exceeded their frozen authorization')
-    return total, keys
+    return {'shared_policy_usd': total, 'manual_workflow_usd': manual_total,
+            'shared_policy_count': len(allocations), 'manual_workflow_count': manual_count,
+            'recovery_keys': keys}
+
+
+def ledger(state):
+    """Retain the shared-policy total API, with once-only keys across both scopes."""
+    funding = funding_ledger(state)
+    return funding['shared_policy_usd'], funding['recovery_keys']
 
 
 def refusal(task):
@@ -181,10 +259,12 @@ def accept(engine, request):
             raise ContractError('Campaign identity already exists with different inputs')
         ledger(state)
         return existing
-    allocated, used = ledger(state)
+    funding = funding_ledger(state)
+    allocated, used = funding['shared_policy_usd'], funding['recovery_keys']
+    manual = validate_manual_authorization(request)
     policy = validate_policy(config)
     budget = money(request['budget_usd'])
-    if not request['dry_run'] and allocated + budget > money(policy['total_budget_usd']):
+    if not request['dry_run'] and not manual and allocated + budget > money(policy['total_budget_usd']):
         raise ContractError('Downstream lifetime spending envelope exhausted; prior allocations are never recycled')
     tasks = state.tasks()
     selections, skipped = [], []
@@ -216,9 +296,10 @@ def accept(engine, request):
         'source_revision': state.read('state/source.json')['revision'],
         'budget_usd': float(budget), 'reserved_usd': 0.0, 'reported_usage_usd': 0.0,
         'downstream_allocation_usd': 0.0 if request['dry_run'] or not selections else float(budget),
-        'allocation_index': 1 + sum(bool(c.get('downstream_allocation_usd')) for c in state.campaigns()
-                                     if c.get('downstream_recovery')),
-        'allocation_before_usd': float(allocated), 'approved_total_usd': float(money(policy.get('total_budget_usd', 0))),
+        'funding_scope': MANUAL_SCOPE if manual else SHARED_SCOPE,
+        'allocation_index': 1 if manual else 1 + funding['shared_policy_count'],
+        'allocation_before_usd': 0.0 if manual else float(allocated),
+        'approved_total_usd': float(budget if manual else money(policy.get('total_budget_usd', 0))),
         'tasks': [], 'selection': selections, 'skipped': skipped, 'dry_run': request['dry_run'],
         'status': 'planned' if request['dry_run'] else 'acceptance_incomplete',
         'downstream_acceptance_complete': False,
@@ -237,6 +318,7 @@ def accept(engine, request):
         campaign['status'] = 'finished'
         campaign['downstream_acceptance_complete'] = True
     campaign['execution_settings_sha256'] = json_hash(execution_settings(campaign))
+    campaign['funding_sha256'] = json_hash(funding_settings(campaign))
     state.save_campaign(campaign)
     if request['dry_run'] or not selections:
         return campaign

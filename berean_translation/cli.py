@@ -25,6 +25,25 @@ def env_bool(name, default=False):
     return raw == 'true'
 
 
+def manual_repair_authorization(request):
+    """Bind one explicit request to the trusted Actions dispatch, not an input flag.
+
+    GitHub supplies this context to the main-only workflow. It is durable audit
+    provenance within the trusted repository, not a bearer token or permission
+    to start further runs. Reruns keep the original run ID and request identity.
+    """
+    repository = os.environ.get('GITHUB_REPOSITORY', '')
+    workflow_ref = repository + '/.github/workflows/ai-repair.yml@refs/heads/main'
+    if (os.environ.get('GITHUB_ACTIONS') != 'true'
+            or os.environ.get('GITHUB_EVENT_NAME') != 'workflow_dispatch'
+            or os.environ.get('GITHUB_REF') != 'refs/heads/main'
+            or os.environ.get('GITHUB_WORKFLOW_REF') != workflow_ref):
+        raise ContractError('A manual repair budget requires the trusted main AI Repair workflow_dispatch context')
+    return {'kind': 'github_workflow_dispatch', 'repository': repository,
+            'workflow_ref': workflow_ref, 'run_id': os.environ.get('GITHUB_RUN_ID', ''),
+            'actor': request.get('requested_by')}
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root',type=Path,default=Path.cwd())
@@ -90,6 +109,8 @@ def main(argv=None):
                     budget_usd=os.environ.get('INPUT_BUDGET_USD', ''),
                     model=os.environ.get('INPUT_MODEL') or policy.get('model', 'gpt-6.1-sol'),
                     review_model=os.environ.get('INPUT_REVIEW_MODEL') or policy.get('review_model', 'gpt-6.1-sol'))
+                if not request['dry_run'] or os.environ.get('GITHUB_ACTIONS') == 'true':
+                    request['manual_authorization'] = manual_repair_authorization(request)
                 validate_request(config, request)
             elif selection_mode == 'exact-recovery':
                 request['budget_usd'] = os.environ.get('INPUT_BUDGET_USD', '')
