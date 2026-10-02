@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3e781271-87e6-4231-a27a-2963c5cf2aa4",
+    "response_id": "chatcmpl-EUIGvE22XE0BroZ8wRWSMI7gvAdGA",
+    "usage": {
+      "completion_tokens": 1574,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3575,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5149
+    }
+  },
+  "received_at": "2026-10-02T00:07:03+00:00",
+  "result": {
+    "html": "<article data-article-id=\"52074824-2feb-4fe4-96d0-a08ec72c3565\">\n  <p class=\"drop-cap\">Jeg kan fortsatt lukte den fristende kakofonien av dufter mens jeg holdt farens sterke hånd og vevde oss gjennom mengden av turister som fylte bygningen. Selgerne på Green Dragon Farmer’s Market i Ephrata, PA, gjorde sitt beste for å friste kjøpere med rader av fersk fisk på is, oster i alle varianter, pålegg og smørbrød, og hauger av frisk frukt. Og, åh, godteriet! Mitt unge førskolehode hadde aldri sett så mange fristende søtsaker på ett sted samtidig.</p>\n\n  <p>De to siste dagene for meg var som gutten i godteributikken. Jeg hadde privilegiet å delta på Christian Aid Ministries’ første årlige forfatterkonferanse. Jeg børstet skuldre med kjente forfattere som Katrina Hoover Lee, Johnny Miller og Ruthann Stelfox. Jeg snakket med ambisiøse skribenter og erfarne lærere. Jeg fikk muligheten til å sitte gjennom timer med inspirerende og lærerike verksteder om hvordan man skriver for å kommunisere, bruker realistisk dialog, beskrivende skriving og mye mer. Vi hadde alle ett felles mål for øye. Sammen deler vi og lærer hvordan vi effektivt kan kommunisere det som er i våre hjerter, og gjennom den skrevne ordets kraft overføre disse tankene til deres hjerter.</p>\n\n  <p><em>The Heartbeat of the Remnant</em> er et middel for å formidle inspirerende tanker til ivrige lesere spredt over hele kloden. Modige forfattere går frem med penn og papir eller tastatur og skjerm og hjelper til med å spre de gode nyhetene fra Guds Ord med forsiktighet, korreksjon og oppbyggelse. Likevel trenger vi flere slike forfattere. Vi trenger unge troende som modig sender inn sine første barnehistorier. Erfarne bestefedre som bringer formanende ord til den yngre generasjonen. Mødre som deler erfaringer og prøvelser med andre mødre som er midt i oppdragelsen av små. Ungdom som oppmuntrer medungdom til å presse seg mot målet om å motta prisen for det høye kall i Kristus Jesus. Fedre som med et bekymret blikk ser verden presse seg inn mot de kristne hjem. Sammen vil disse aspirerende forfatterne produsere et tidsskrift som vil vare på stuebordet i mange år. Jeg oppmuntrer dere, medtroende, til å gi det et forsøk. Nelson Mandela, tidligere president i Sør-Afrika, skrev: «Failure is a teacher, and at the end of your life, what do you think you’ll feel worst about, failing or never trying?»</p>\n\n  <p>Berean Voice har som mål å tilby trykt materiale som vil hjelpe lesere å navigere gjennom livets varierte og vanskelige årstider. Alt vårt materiale er tilgjengelig uten kostnad, men vi er avhengige av donasjoner fra våre støttespillere. Her er en liste over bøker vi har tilgjengelig:</p>\n\n  <p class=\"book-list\">The Power of the Love of Truth<br>\n  Christian Counseling- Counterfeit?<br>\n  The Heart of God<br>\n  Free Indeed!<br>\n  Pilgrims and Politics<br>\n  Cup &amp; Cross<br>\n  The High Cost of Holistic Healing<br>\n  Secrets of Successful Writing<br>\n  The Catholic Connection<br>\n  Psychiatry and Mood altering Medications<br>\n  The Mennonite Church and Modernism</p>\n\n  <p>I 2017 og 2018 trykket Berean Voice en serie vaksineartikler i <em>The Heartbeat of the Remnant</em>-magasinet. Disse artiklene var et oppriktig forsøk på å undersøke ulike aspekter av vaksinebruk med en ubiasert tilnærming. Vi forsøkte å presentere fakta så klart som mulig og la leserne trekke sine egne konklusjoner.</p>\n\n  <p>Siden den gang har vi mottatt en rekke forespørsler fra våre lesere om å publisere alle vaksineartiklene i en brosjyre, noe vi gikk med på å gjøre. Men så kom 2019, med koronaviruset. Denne monumentale hendelsen snudde vaksinedebatten på hodet og førte til et hektisk løp for å få COVID-19-midler på markedet, mange av dem ikke tilstrekkelig testet. Vi satte trykkingen på vent, usikre på om vi skulle inkludere informasjon om disse nye og uprøvde COVID-19 «vaksinene». Etter hvert som tiden gikk og COVID-19s dødelige natur avtok, bestemte vi oss for å publisere de opprinnelige vaksineartiklene i en brosjyre uten ytterligere artikler om COVID-19-debatten. Vi er glade for at prosjektet nærmer seg ferdigstillelse og vil bli kunngjort når det blir utgitt.</p>\n\n  <p>Velsignelser til alle,</p>\n\n  <p class=\"byline\">Edward Martin</p>\n\n  <figure>\n    <img src=\"/images/articles/52074824-2feb-4fe4-96d0-a08ec72c3565-1.jpg\" alt=\"Rosa og hvite kransvicker-blomster i en grønn eng\" loading=\"lazy\">\n  </figure>\n</article>\n",
+    "section": "Fra REDAKTØREN",
+    "subtitle": null,
+    "title": "Fra redaktøren"
+  }
+}
