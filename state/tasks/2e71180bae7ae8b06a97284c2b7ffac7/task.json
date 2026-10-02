@@ -2,7 +2,6 @@
   "article_id": "3dba2cb8-660e-4855-8e00-57bcc3bee74f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "fc7fdd94d4b84bd2838b8ec76eed25c4",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -43,9 +42,29 @@
         },
         "total_tokens": 11378
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 5633,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11168,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 16801
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[37]: source /article[1]/p[10]/em[1]/strong[1] ('start', 'strong', ()); translation /article[1]/p[10]/em[1] ('end', 'em')",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "source.html — opening italic paragraph (first <p>)",
@@ -97,6 +116,7 @@
       "translation_quote": "(left in English inside <em>) * “Charles Spurgeon, well known for his evangelistic abilities, firmly refused to adopt the practice of altar calls and he severely criticized it. ...”  ‘I should like to go into the enquiry-room.’ I dare say you would, but we are not willing to pander to popular superstition. ... - Pleading and Encouragement – Charles Haddon Spurgeon – Aug 17, 1841  ** What A Revival Of Religion Is – Charles Grandison Finney – The Belknap Press Of Harvard University ...  *** Spirit Force vs. Psychic Force – Watchman Nee"
     }
   ],
+  "finished_at": "2026-10-02T13:00:11+00:00",
   "id": "2e71180bae7ae8b06a97284c2b7ffac7",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "heb",
@@ -176,7 +196,7 @@
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/b4fa54187a6f53bb54a1fc744963a43657fb9cc366925b4147ee29ecc59e0ba6.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "892a457085e971e00bab46af7f91c51fbdea164ca51ce422e2038ddc5e401e17",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

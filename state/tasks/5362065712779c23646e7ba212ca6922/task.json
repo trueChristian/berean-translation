@@ -2,7 +2,6 @@
   "article_id": "269bd2b1-418e-4d93-bd15-e7937c1adb85",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "fc7fdd94d4b84bd2838b8ec76eed25c4",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -43,9 +42,29 @@
         },
         "total_tokens": 12292
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 5396,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 192,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11959,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 17355
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[22]: source /article[1]/p[10] ('end', 'p'); translation /article[1]/p[10]/em[1] ('start', 'em', ())",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "<p><em>The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent me to heal the brokenhearted, to preach deliverance to the captives, and recovering of sight to the blind, to set at liberty them that are bruised, To preach the acceptable year of the Lord –Luke 4:18-19.</em></p> (opening paragraph in translation)",
@@ -104,6 +123,7 @@
       "translation_quote": "یوحنا 5 میں، یسوع نے وہ شخص شفا دی جو بیتحداسہ کے حوض کے کنارے پڑا تھا۔ وہ تریynta آٹھ سال سے اس بیماری میں مبتلا تھا۔ یسوع وہاں سے گزرے اور اسے شفا دی۔ بعد میں جب اس سے مندر میں ملے تو اس نے اسے کہا، “دیکھو، تُو ٹھیک ہو گیا ہے: مزید گناہ نہ کر، کہ کہیں تیرے ساتھ بُری چیز نہ ہو جائے۔”"
     }
   ],
+  "finished_at": "2026-10-02T13:00:11+00:00",
   "id": "5362065712779c23646e7ba212ca6922",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "urd",
@@ -183,7 +203,7 @@
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/cff3b99283ac5731e52f58a9f2a616f2665b7254c005e40044018899ae3703d0.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "fc44b039aea712201d6120cdd0a9cc720777f5be0958b210ab2feef1a8e2d639",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

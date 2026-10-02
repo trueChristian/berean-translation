@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "source.html — opening paragraph (Ephesians 4:8)",
+      "severity": "critical",
+      "source_quote": "Wherefore he saith, When he ascended up on high, he led captivity captive, and gave gifts unto men –Ephesians 4:8.",
+      "suggested_fix": "Translate the quoted verse into Russian, using conventional Russian book name and keeping the chapter:verse number unchanged. For example: «Посему и сказал: &quot;Восшедши на высоту, пленил плен и дал дары людям» — Ефесянам 4:8.» Preserve the inline <em> tags as in the source.",
+      "translation_quote": "Wherefore he saith, When he ascended up on high, he led captivity captive, and gave gifts unto men –Ephesians 4:8."
+    },
+    {
+      "location": "source.html — second paragraph (Ephesians 4:11)",
+      "severity": "critical",
+      "source_quote": "And he [God] gave some, apostles; and some, prophets; and some, evangelists; and some, pastors and teachers –Ephesians 4:11.",
+      "suggested_fix": "Translate this quoted verse into Russian with the conventional book name and keep the verse numbers. Example: «И Он [Бог] поставил одних апостолами, других — пророками, иных — евангелистами, иных — пастырями и учителями» — Ефесянам 4:11. Preserve the <em> emphasis tags.",
+      "translation_quote": "And he [God] gave some, apostles; and some, prophets; and some, evangelists; and some, pastors and teachers –Ephesians 4:11."
+    },
+    {
+      "location": "source.html — paragraph quoting 1 Corinthians 12:11",
+      "severity": "major",
+      "source_quote": "But all these worketh that one and the selfsame Spirit, dividing to every man severally as he will –1 Corinthians 12:11.",
+      "suggested_fix": "Translate the quoted clause into Russian and use conventional Russian book name with unchanged chapter:verse. Example: «Но всё это производит один и тот же Дух, разделяя каждому по отдельности, как Ему угодно» — 1 Коринфянам 12:11. Keep the surrounding punctuation and tags.",
+      "translation_quote": "But all these worketh that one and the selfsame Spirit, dividing to every man severally as he will –1 Corinthians 12:11."
+    },
+    {
+      "location": "source.html — paragraph quoting Hebrews 2:4 and 1 Corinthians 12:11 together",
+      "severity": "critical",
+      "source_quote": "God also bearing them witness, both with signs and wonders, and with divers miracles, and gifts of the Holy Ghost, according to his own will? –Hebrews 2:4.\n\nBut all these worketh that one and the selfsame Spirit, dividing to every man severally as he will –1 Corinthians 12:11.",
+      "suggested_fix": "Both quoted Scripture passages must be translated into Russian with conventional book names and unchanged chapter:verse numbers. Example: «И Бог также свидетельствовал об этом знамениями и чудесами, с различными силами и дарами Духа Святого, по Своей воле» — Евреям 2:4; and the 1 Коринфянам 12:11 rendering as in previous suggestion. Preserve emphasis/italics tags as in source.",
+      "translation_quote": "God also bearing them witness, both with signs and wonders, and with divers miracles, and gifts of the Holy Ghost, according to his own will? –Hebrews 2:4.\n\nBut all these worketh that one and the selfsame Spirit, dividing to every man severally as he will –1 Corinthians 12:11."
+    },
+    {
+      "location": "source.html — section with James 3:13-18 (long block quoted in English)",
+      "severity": "critical",
+      "source_quote": "Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom. But if ye have bitter envying and strife in your hearts, glory not, and lie not against the truth. This wisdom descendeth not from above, but is earthly, sensual, devilish. For where envying and strife is, there is confusion and every evil work. But the wisdom that is from above is first pure, then peaceable, gentle, and easy to be intreated, full of mercy and good fruits, without partiality, and without hypocrisy. And the fruit of righteousness is sown in peace of them that make peace. –James 3:13-18.",
+      "suggested_fix": "Translate the entire quoted James 3:13–18 passage into Russian, using the conventional book name and keeping the verse range identical. Example: «Кто из вас мудр и разумен, покажи делами своими в кротости мудрости; а если у вас зависть горькая и внутренняя ссора, то не хвалитесь и не лгите против истины. Такая мудрость не с высоты нисходит, но земная, душевная, бесовская. Ибо где зависть и ссора, там смутa и всякое худое дело; а мудрость, с высоты, прежде чиста, затем мирна, кротка, легко податлива, полна милосердия и добрых плодов, беспристрастна и не лицемерна. Плод праведности сеется в мире теми, кто сеет мир» — Иаков 3:13-18. Preserve the <em> or <strong> tags if present around portions of the quotation.",
+      "translation_quote": "Who is a wise man and endued with knowledge among you? let him shew out of a good conversation his works with meekness of wisdom. But if ye have bitter envying and strife in your hearts, glory not, and lie not against the truth. This wisdom descendeth not from above, but is earthly, sensual, devilish. For where envying and strife is, there is confusion and every evil work. But the wisdom that is from above is first pure, then peaceable, gentle, and easy to be intreated, full of mercy and good fruits, without partiality, and without hypocrisy. And the fruit of righteousness is sown in peace of them that make peace. –James 3:13-18."
+    },
+    {
+      "location": "source.html — multiple inline Scripture references left in English form (examples: 1 Timothy 4:14, 1 Corinthians 12:24-25, 1 Corinthians 14:22, 2 Corinthians 12:7-12)",
+      "severity": "major",
+      "source_quote": "Instances throughout the translation where Scripture references or small quoted clauses remain in English, e.g. \"–1 Timothy 4:14.\", \"(1 Corinthians 12:24-25)\", \"–1 Corinthians 14:22.\", \"(2 Corinthians 12:7-12)\" and small quoted clauses such as \"…the laying on of the hands of the presbytery –1 Timothy 4:14.\"",
+      "suggested_fix": "Ensure all quoted Scripture text (even brief clauses) is translated into Russian and use conventional Russian book names (1 Тимофею, 1 Коринфянам, 2 Коринфянам, etc.), keeping chapter:verse numbers exactly the same. Also translate short quoted phrases that are part of Scripture (e.g. \"the laying on of the hands of the presbytery\") into Russian while preserving punctuation and HTML. Example: «…возложением рук пресвитерского сословия — 1 Тимофею 4:14.»",
+      "translation_quote": "–1 Timothy 4:14.; (1 Corinthians 12:24-25); –1 Corinthians 14:22.; (2 Corinthians 12:7-12); …the laying on of the hands of the presbytery –1 Timothy 4:14."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[37]: source /article[1]/p[9]/em[1]/strong[1] ('start', 'strong', ()); translation /article[1]/p[9]/em[1] ('end', 'em')",
+  "stage": "terminal"
+}

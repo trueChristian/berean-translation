@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9576b60c-9721-4e2e-995d-ed5603cf6411",
+    "response_id": "chatcmpl-EUX799PCc4hdpsprcmuTi47UQ92ig",
+    "usage": {
+      "completion_tokens": 1766,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3979,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5745
+    }
+  },
+  "received_at": "2026-10-02T13:00:12+00:00",
+  "result": {
+    "html": "<article data-article-id=\"4ab4f655-4a17-4f5c-9623-e9085bd401f9\">\n  <figure>\n      <img src=\"/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-1.png\" alt=\"Ett barn som täljer en pinne med en liten kniv med rött handtag\" loading=\"lazy\">\n    </figure>\n\n  <p>Lunchrasten var över och det var den där ljuvliga stunden på dagen när mamma sa att det var dags för vila. Eftersom Ellie var tio behövde hon inte längre ta eftermiddagslur varje dag, så hon började fundera på hur hon skulle tillbringa sin fria tid. Hon älskade att vara utomhus, så den soliga himlen och den friska luften denna särskilt härliga sommardag drog henne nästan utanför dörren.</p>\n\n  <p>”Jag vet!” tänkte hon för sig själv. ”Det här vore en perfekt tid att prova täljandet med den där kniven Paul gav mig.”</p>\n\n  <p>Hon hade tillbringat en vecka hos sin moster och morbror som bodde flera län bort, och medan hon var där hade hennes kusin Paul gett henne en kniv som han gjort själv. Den hade ett kort, runt handtag och han hade satt in en bit stål i ena änden. Han hade sedan slipat bladet till en fin vass egg. Han kunde snida de roligaste små ansikten på små träbitar och Ellie var alltid ivrig att se vad han skulle skapa härnäst. Hon försökte efterlikna honom, men det verkade inte som om hon skulle få fram något särskilt spännande inom en snar framtid. Ändå var det roligt att försöka, så hon tog fram kniven ur byrån i sitt sovrum och gick ut.</p>\n\n  <p>Det stora lönnträdet framför deras gamla stenhus lockade henne. De lågt hängande grenarna verkade vara den perfekta platsen att sitta och prova kniven igen. Ellie valde några stora kvistar och klättrade upp i trädets svala skugga. När hon väl satt till rätta började hon skära och pilla på sina träbitar. Hon kunde fortfarande inte få fram ögon och näsa, men hon tyckte om att tälja hack och hyvla av små bitar bark. Det var ett avkopplande sätt att sysselsätta sig medan hon njöt av eftermiddagens tystnad. Hon var så glad att det trädet stod på deras gård, och hon var så glad att Paul gett henne den täljningskniven.</p>\n\n  <p>Efter en stund började grenen Ellie satt på kännas knottrig och hård, och kvistarna hon täljde hade nästan försvunnit. ”Jag borde gå och se vad pojkarna gör,” tänkte hon. Hon flyttade sig till den lägsta grenen och satt beredd, redo att hoppa ner som hon alltid gjorde för att kliva ur trädet.</p>\n\n  <p>Hon stannade upp och tittade på kniven i sin hand. ”Hoppa aldrig ner från någonstans medan du håller en kniv i handen!” hennes mammas röst klingade i minnet. ”Det är en mycket farlig sak att göra. Du kan bli väldigt illa skuren.” Ellie satt och tänkte på det en stund.</p>\n\n  <p>”Ja, jag vet att det förmodligen är sant,” sade hon till sig själv. ”Men jag tror att om jag är mycket försiktig kan jag hoppa ner och det kommer gå bra,” resonerade hon.</p>\n\n  <p>Hon höll kniven hårt i höger hand och hoppade snabbt ner till marken. Just när hon landade vek sig vristen och gav efter under henne. Hon föll olyckligt på vänster ben. Och, oj då! Den lilla kniven hade gått rakt in i hennes vänstra handled när hon försökte hålla balansen. Hon ryckte snabbt ut den och såg, med hjärtat bultande, hur blodet vällde upp, mörkt och varmt. Det var ett litet snitt, bara ungefär 0,6 centimeter långt, men det gick ganska djupt.</p>\n\n  <p>Vad skulle hon göra nu? Ja, det rådde ingen tvekan—hennes mamma hade ju haft rätt ändå! I sitt hjärta visste hon att det rätta att göra skulle vara att genast gå till sin mor och berätta vad hon gjort. Men hon kände skuld och skam. Hon hade vetat bättre än att hoppa ner med den där kniven, ändå hade hon gjort det. Skyldigt tryckte hon tummen mot såret och smög in i huset. Blödningen slutade snart, och efter att ha hittat ett plåster och satt det på snittet lade hon försiktigt undan kniven och hittade en bok att läsa. Hon berättade aldrig för sin mamma vad hon gjort förrän många år senare, när hon var vuxen.</p>\n\n  <p>Idag, när hon ser på det ärr som fortfarande syns efter 40 år, undrar hon varför Gud skyddade henne. Hon hade varit en dum liten flicka som inte genast gick till sin mor och bekände vad hon gjort. Hon kunde ha fått en svår infektion av att bli skuren med en smutsig, något rostig kniv. Trots att hon handlat dåraktigt är hon tacksam att Gud beskyddade henne, men hon önskar fortfarande att hon bett om förlåtelse och erkänt sin olydnad för sin mor.</p>\n\n  <p>Det är aldrig klokt att dölja något för sina föräldrar. De behöver få veta om de fel du begår, oavsett hur skamsen eller generad du än känner dig. Föräldrar behöver veta allt som händer deras barn. Det är Guds ordning att fäder och mödrar ska finnas där för sina barn, hjälpa när du blir skadad och vägleda och lära dig medan du lär dig att vara ett gott, lydigt barn. Guds väg är alltid den bästa.</p>\n\n  <figure>\n      <img src=\"/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-2.jpg\" alt=\"En repgunga som hänger i ett stort träd\" loading=\"lazy\">\n    </figure>\n</article>\n",
+    "section": "Barnens hörna",
+    "subtitle": null,
+    "title": "Mamman hade rätt"
+  }
+}

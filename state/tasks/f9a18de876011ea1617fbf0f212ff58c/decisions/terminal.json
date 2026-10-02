@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.title → translation.title",
+      "severity": "major",
+      "source_quote": "O Love That Wilt Not Let Me Go",
+      "suggested_fix": "Translate the article title into Bahasa Indonesia, preserving HTML structure. For example: \"O Cinta Yang Tak Kan Melepaskanku\" (or another accepted Indonesian rendering). Replace the translation.title value with the chosen Indonesian title.",
+      "translation_quote": "O Love That Wilt Not Let Me Go"
+    },
+    {
+      "location": "source.html (multiple places) → translation.html (body and figure alt)",
+      "severity": "major",
+      "source_quote": "Occurrences of the hymn title and quoted hymn name in the English source: the text and quotations such as\n- the closing paragraph header: “O Love, That Wilt Not Let Me Go”\n- references within the article to the hymn name\n- figure alt text: \"Sheet music for O Love That Wilt Not Let Me Go\"",
+      "suggested_fix": "Translate every occurrence of the hymn title within the article body and image alt text into Bahasa Indonesia, keeping quotation marks or emphasis as in the source and preserving HTML tags and attributes. Example replacements (choose consistent rendering used for the title):\n- In paragraph text: replace “O Love, That Wilt Not Let Me Go” with “O Cinta yang Tak Kan Melepaskanku” (or another accepted Indonesian rendering) and keep punctuation/quotes.\n- In the <img> alt attribute, replace alt=\"Sheet music for O Love That Wilt Not Let Me Go\" with alt=\"Notasi lagu untuk O Cinta yang Tak Kan Melepaskanku\".\nDo not leave the hymn title in English anywhere in the translated HTML metadata or content.",
+      "translation_quote": "Empat kata kunci dari “O Love, That Wilt Not Let Me Go” adalah: cinta, terang, sukacita, dan salib.; <img ... alt=\"Notasi lagu untuk O Love That Wilt Not Let Me Go\" ...>"
+    },
+    {
+      "location": "translation.html — paragraph with quoted first-person account",
+      "severity": "minor",
+      "source_quote": "“My hymn was composed in the manse of Innellan on the evening of June 6, 1882. ...”",
+      "suggested_fix": "Correct the misspelling/inconsistency of the Indonesian word for 'hymn' in this paragraph. The translation currently uses \"Himen saya\" (misspelled) once while elsewhere it uses \"Himne.\" Replace \"Himen\" with the consistent Indonesian spelling \"Himne\" so all occurrences match.",
+      "translation_quote": "“Himen saya disusun di rumah dinas Innellan pada malam 6 Juni 1882. ...”"
+    },
+    {
+      "location": "translation.html — first paragraph century notation",
+      "severity": "minor",
+      "source_quote": "\"the latter part of the 19th century\"",
+      "suggested_fix": "Remove the redundant English ordinal superscript marker \"<sup>th</sup>\" after 'abad ke-19' in the Indonesian translation. Use the localized form \"abad ke-19\" (without the English '<sup>th</sup>'). Preserve HTML tags. For example: \"abad ke-19\" instead of \"abad ke-19<sup>th</sup>\".",
+      "translation_quote": "\"abad ke-19<sup>th</sup>\""
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[2]: source /article[1]/p[1]/sup[1] ('start', 'sup', ()); translation /article[1]/p[1] ('end', 'p')",
+  "stage": "terminal"
+}
