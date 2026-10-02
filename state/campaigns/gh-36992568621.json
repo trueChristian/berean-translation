@@ -1604,7 +1604,8 @@
   "source_revision": "9e6e1db340e802f71c7018950dc820482ecc4e5e",
   "status": "active",
   "task_counts": {
-    "in_batch": 260
+    "in_batch": 259,
+    "not_ready": 1
   },
   "tasks": [
     "7e0a6043f4d00f4f3afbfaf88bcd5e54",
