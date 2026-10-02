@@ -18,6 +18,12 @@
       "campaign": "gh-36981712493",
       "event": "requested",
       "task": "552a205056280b3dac446c319a286b97"
+    },
+    {
+      "at": "2026-10-02T09:56:22+00:00",
+      "event": "not_ready",
+      "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[101]: source /article[1]/h2[5] ('start', 'h2', ()); translation /article[1]/p[44] ('start', 'p', ())",
+      "task": "552a205056280b3dac446c319a286b97"
     }
   ],
   "language": "urd",

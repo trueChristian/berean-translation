@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "35042264-10c4-4dad-b1f9-770e0e5a7fa0",
+    "response_id": "chatcmpl-EUTazADaWjMXVSvOZLInYOzdkKCTo",
+    "usage": {
+      "completion_tokens": 1991,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4355,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6346
+    }
+  },
+  "received_at": "2026-10-02T09:56:22+00:00",
+  "result": {
+    "html": "<article data-article-id=\"a76ef013-7cf5-4e99-8312-3a9818d244ff\">\n  <figure>\n    <img src=\"/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg\" alt=\"Kikombe cha kahawa kando ya daftari lenye kishikilia na penseli.\">\n  </figure>\n  <p class=\"drop-cap\">Ukuwa na haraka ya dakika za mwisho ni kitu ambacho wanawake wengi wa nyumbani hukabiliana nacho mara kwa mara. Haijalishi tumeandaa vipi, wakati mwingine tunachelewesha kazi kwa sababu hatuzipendi au tunasubiri hadi tukanyanyashwe na shinikizo.</p>\n  <p>Ukweli wa kuendelea kuchelewesha kazi unaweza kusababisha viwango vya juu vya msongo wa mawazo. Labda mimi ni wa ajabu, lakini ni vigumu kwangu kubaki mtulivu na mwenye nidhamu wakati shinikizo linaongezeka. Wakati mambo ya dakika za mwisho yanapokamilika mimi huwa nimechoka sana hadi siwezi kufurahia tukio lililotangazwa.</p>\n  <h2>Maumivu ya meno na safari za barabarani</h2>\n  <p>Ni fumbo kwangu kwa nini mwanachama wa familia anafika katika kiti cha daktari wa meno siku moja au mbili kabla hatujaondoka kwenye safari. Labda haijatokea mara nyingi kama ninavyofikiri, lakini kuchanganyikiwa kwa safari isiyotarajiwa kwa daktari wa meno wakati usiokuwa mzuri kumewekwa kwa nguvu katika akili yangu. Sasa ninaratibu miadi ya kufikirika kabla ya safari. Ikiwa si dharura ya meno, tatizo lingine linaweza kujaza muda huo.</p>\n  <p>Muda wa mwisho wa kazi ni sehemu ya kawaida ya maisha. Bila hayo tungekuwa hatuna motisha, na siku zetu zingekosa kusudi. Kuingiliwa pia ni sehemu ya kawaida ya maisha. Huwapa kwa daima mabadiliko yasiyotabirika kwa siku na wiki zetu. Tukiruhusu kazi nyingi kusubiri hadi dakika za mwisho, kuingiliwa na tarehe za mwisho huzuriana, na vurugu zinaanza kutawala.</p>\n  <h2>Badilisha Hali ya Dakika za Mwisho</h2>\n  <p>Haiwezekani kuondoa tarehe za mwisho na kuingiliwa, lakini tunaweza kupunguza kazi za dakika za mwisho. Wakati mwingine inahitaji kuangalia nyuma kwa uaminifu ili kugundua kilichochangia msongo wetu. Mara nyingi, tunalaumu kuingiliwa na kushindwa kutambua kwamba upangaji mbaya au kuchelewesha kazi huenda kilikuwa chanzo.</p>\n  <p>Kwa mfano, ikiwa wageni wanakuja na tunapanga kuosha madirisha na kutengeneza tamu pamoja na kazi nyingine kumi na mbili siku ya kuwasili kwao, hakuna nafasi ya usumbufu. Kutoka kwa uzoefu, tunajua usumbufu utakuja. Basi, si bora kupanga kukabiliana na kuumwa na sindano ya nyuki au kugonga mguu?</p>\n  <p>Kwanini usipange kuosha madirisha na kutengeneza tamu siku nyingine? Hiyo inaweza kumaanisha alama za vidole kwa madirisha na tamu rahisi zaidi, lakini si bora kuliko msongo mkubwa wa mawazo dakika za mwisho?</p>\n  <h2>Fanya baadhi ya kazi mapema</h2>\n  <p>Kuamua mapema mchana nini cha kuandaa kwa chakula cha jioni na kufungashia mfuko wa vifaa vya mtoto mapema ni mambo madogo yanayoweza kufanya tofauti kubwa dakika za mwisho. Watoto wetu walipokuwa wadogo, nilianza kufungasha vali siku moja kabla ya safari badala ya siku ya kuondoka. Niliweza kukabiliana vizuri na ghasia za dakika za mwisho ikiwa kazi hiyo ilikuwa imefanywa mapema.</p>\n  <h2>Fanya kazi muhimu zaidi kwanza</h2>\n  <p>Njia hii inatoa uhuru wa kuacha kazi za umuhimu mdogo wakati tunashindana na muda.</p>\n  <p>Wakati mwingine si kila kitu kwenye orodha ya kazi kina thamani sawa. Kuacha kazi ni vigumu kwa mtu anayetaka kila kitu kiwe kamili, lakini inawezekana kukuza tabia mpya.</p>\n  <h2>Gawa kazi kuwa vipande vidogo</h2>\n  <p>Mara nyingine ukubwa wa kazi hufanya ionekane kubwa mno kuanza. Gawa kazi kubwa kuwa sehemu ndogo ndogo. Kumaliza kazi ndogo ni rahisi kudhibiti. Kusafisha jikoni yangu kwa kina ni kazi ambayo sipendi kufanya. Ikiwa mpangilio wangu unasema, “safisha jikoni kwa kina,” ni rahisi kupuuza.</p>\n  <p>Lakini ikiwa mpangilio wangu unasema, “safisha vifaa, futa ndani ya makabati, na osha madirisha,” inafaa kutekelezeka zaidi.</p>\n  <p>Kuna matukio mengi yenye furaha maishani; kwa nini ujibwage kwa kuchelewesha? Jiruhusu kuishi maisha kwa njia tofauti. Mabadiliko madogo machache yanaweza kufanya tofauti kubwa kati ya dakika za mwisho zenye baraka au zenye msongo wa mawazo.</p>\n</article>\n",
+    "section": "DADA KWA DADA",
+    "subtitle": null,
+    "title": "Kuzidiwa na Kuwachelewesha"
+  }
+}
