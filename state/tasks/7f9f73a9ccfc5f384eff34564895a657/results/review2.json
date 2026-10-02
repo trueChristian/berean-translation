@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ede1dd91-6f0b-48bb-9036-ef94bb91c5ee",
+    "response_id": "chatcmpl-EUL8iKBDCtY0zzLKfLbYPHYJTI9Us",
+    "usage": {
+      "completion_tokens": 1705,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2889,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4594
+    }
+  },
+  "received_at": "2026-10-02T00:12:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>...Kwanini usipange kusafisha madirisha na kutengeneza keki siku nyingine? Hiyo inaweza kumaanisha alama za vidole kwenye madirisha na keki rahisi zaidi, lakini haibetter kuliko msongo mkubwa wa mawazo kwa dakika za mwisho?</p>",
+        "severity": "major",
+        "source_quote": "Why not schedule window washing and dessert another day? That might mean some fingerprints on the windows and a simpler dessert, but isn’t that better than a great deal of stress at the last minute?",
+        "suggested_fix": "Replace the untranslated/incorrect English fragment with correct Kiswahili while preserving the HTML paragraph tags. For example: <p>Kwanini usipange kusafisha madirisha na kutengeneza keki siku nyingine? Hiyo inaweza kumaanisha alama za vidole kwenye madirisha na keki rahisi zaidi, lakini siendelee kuhusisha msongo mkubwa wa mawazo kwa dakika za mwisho?</p> (or more simply: \"...lakini si hicho ni bora kuliko msongo mkubwa wa mawazo kwa dakika za mwisho?\")",
+        "translation_quote": "Kwanini usipange kusafisha madirisha na kutengeneza keki siku nyingine? Hiyo inaweza kumaanisha alama za vidole kwenye madirisha na keki rahisi zaidi, lakini haibetter kuliko msongo mkubwa wa mawazo kwa dakika za mwisho?"
+      },
+      {
+        "location": "<p>...Lakini ikiwa mpangaji wangu anasema, “safisha vifaa vya nyumbani, futa/mfute kabati, na suuza madirisha,” inaonekana inawezekana zaidi.</p>",
+        "severity": "major",
+        "source_quote": "But if my planner says, “clean appliances, wipe out cupboards, and wash windows,” it seems more doable.",
+        "suggested_fix": "Correct word choices and remove the slash so the list reads fluently in Kiswahili, preserving the paragraph tags. For example: <p>Lakini ikiwa mpangaji wangu anasema, “safisha vifaa vya nyumbani, futa kabati, na suafisha madirisha,” inaonekana inawezekana zaidi.</p> or use: <p>...“safisha vifaa vya nyumbani, futa kabati, na suawa madirisha,”...</p> (use consistent, correct verbs: \"futa kabati\" and \"safisha madirisha\").",
+        "translation_quote": "Lakini ikiwa mpangaji wangu anasema, “safisha vifaa vya nyumbani, futa/mfute kabati, na suuza madirisha,” inaonekana inawezekana zaidi."
+      },
+      {
+        "location": "<p>...Usumbufu pia ni sehemu ya kawaida ya maisha. Huvuka-ghafla huleta mabadiliko yasiyotabirika katika siku zetu na wiki zetu. Tukiacha kazi nyingi zikusubiri hadi dakika za mwisho, usitisho na tarehe za mwisho vinakutana, na vurugu zinaanza kutawala.</p>",
+        "severity": "minor",
+        "source_quote": "Interruptions are also a normal part of life. They constantly give an unpredictable twist to our days and weeks. If we let too many tasks wait until the last minute, interruptions and deadlines collide, and chaos reigns.",
+        "suggested_fix": "Use a consistent translation for \"interruptions\" (either \"usumbufu\" or \"usumbukaji/kuingilia\") throughout this paragraph to avoid confusion. For example: replace \"usitisho\" with \"usumbufu\" so the sentence reads \"...Tukiacha kazi nyingi zikusubiri hadi dakika za mwisho, usumbufu na tarehe za mwisho vinakutana...\" Preserve the paragraph tags.",
+        "translation_quote": "Usumbufu pia ni sehemu ya kawaida ya maisha. Huvuka-ghafla huleta mabadiliko yasiyotabirika katika siku zetu na wiki zetu. Tukiacha kazi nyingi zikusubiri hadi dakika za mwisho, usitisho na tarehe za mwisho vinakutana, na vurugu zinaanza kutawala."
+      }
+    ],
+    "passed": false,
+    "score": 81
+  }
+}

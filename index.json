@@ -5003,6 +5003,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
+      "html_sha256": "80f2f38e98c605f5f5bee57cbac0e9c7248d508ec45145b085727d31b8d85464",
+      "human_reviewed": false,
+      "id": "1c75dce8-1781-427f-8099-01596d53c2a4",
+      "images": [
+        {
+          "alt": "Ndege mdogo wa rangi ya kahawia amesimama kwenye shamba la kijani",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-1.jpg"
+        },
+        {
+          "alt": "Ndege mwenye rangi ya bluu na nyeupe amekaa kwenye tawi lililokatwa dhidi ya mandhari ya kijani",
+          "public_path": "/images/articles/1c75dce8-1781-427f-8099-01596d53c2a4-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/1c75dce8-1781-427f-8099-01596d53c2a4.json",
+      "metadata_sha256": "22c2f2a071e7221706a8e69186ee9a761cb249bca4fdc9c8cd7ad6aec496b989",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "MAKALA ILIYOTEULIWA",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
+      "status": "ready",
+      "subtitle": "na karibu nami kunatia sauti muziki wa anga.",
+      "title": "ASILI YOTE INAIMBA",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.html",
       "html_sha256": "21fe11cc0b8bbda47121ab1c25d8d5669b2e62852e2ef9f513b9ce0d39c41a88",
       "human_reviewed": false,
@@ -5095,6 +5127,62 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
+      "html_sha256": "f948a101f3ff7be361082bfa7e8870987de3d6f4f04fae0c64768d7529224de5",
+      "human_reviewed": false,
+      "id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
+      "images": [
+        {
+          "alt": "Maua ya rangi ya waridi na nyeupe ya crown vetch kwenye uwanja wa kijani",
+          "public_path": "/images/articles/52074824-2feb-4fe4-96d0-a08ec72c3565-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.json",
+      "metadata_sha256": "458dddcfcc8bd4919dd008e84d4d82a964c7d9b79123ac4fb9a545ef2d5c2cd1",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Kutoka kwa MHARIRI",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kutoka kwa Mhariri",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
+      "html_sha256": "ae409ad6c8a71f50e3899165f9ac4c356104880095a23949ad3e2508859f5fe2",
+      "human_reviewed": false,
+      "id": "93978dae-706d-43d4-abee-6b6e011683fa",
+      "images": [
+        {
+          "alt": "Mawimbi ya bahari yanavunjika kando ya ufuo wa mchanga ukiwa unaonekana kutoka juu.",
+          "public_path": "/images/articles/93978dae-706d-43d4-abee-6b6e011683fa-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/93978dae-706d-43d4-abee-6b6e011683fa.json",
+      "metadata_sha256": "72eb8cf338a74355c3ee45437fcb17cc8c0fdd1a91abe559c2d268940af09d4e",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "DADA KWA DADA",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Mzigo wa mazingira",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
       "html_sha256": "7a8b4ed16913980116945ff6d372631f75df81b0598d3e73b8b4e2800666d4ce",
       "human_reviewed": false,
@@ -5122,6 +5210,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Mimi na Ken",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.html",
+      "html_sha256": "4efaf48ea63a57cb91014b3a7974b10e5d7223e993fcdc4953d5b732425d6d55",
+      "human_reviewed": false,
+      "id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
+      "images": [
+        {
+          "alt": "Boti ndogo kando ya maji tulivu wakati wa machweo yenye rangi",
+          "public_path": "/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6.json",
+      "metadata_sha256": "1f3c93881c97adb65152a1fcd4824f429690c38fdb40533b2a3ad9e35ad6fd6a",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Shairi",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Inuka, furahini!",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {

@@ -2,7 +2,6 @@
   "article_id": "80e78d22-936e-48de-885a-f9a8898d5e42",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "27171e827da04653b84d0d866d017219",
   "campaign": "gh-36909987232",
   "created_at": "2026-10-01T18:54:08+00:00",
   "events": [
@@ -62,31 +61,38 @@
         },
         "total_tokens": 19630
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1237,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12275,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13512
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "<h2>Matarajio matano kwa mfululizo huu wa Ukaribu wa Mapenzi Uliozingatia Kristo.</h2>\n  <p>Lengo #1. Kurudisha mioyo ya wavulana kwa watoto wao.</p>\n  <p>Lengo #2. Kurudisha mioyo ya watoto kwa wavulana wao.</p>",
+      "location": "<p>1 Peter 3:7 “Likewise, ye husbands, dwell with them according to knowledge, giving honor unto the wife, as unto the weaker vessel, and as being heirs together of the grace of life; that your prayers be not hindered.”</p>\n  <p>As husbands, we give honor to the wife. She is the weaker vessel and the one that born the children! She’s gone through a lot of traumatic changes in her life. She’s the one that gets worn out and tires sooner.</p>",
       "severity": "major",
-      "source_quote": "Goal #1. To turn the hearts of the fathers to their children.\nGoal #2. To turn the hearts of the children to their fathers.",
-      "suggested_fix": "Replace the two translated goal lines so they preserve the original meaning (fathers/children). For example:\n<p>Lengo #1. Kurudisha mioyo ya baba kwa watoto wao.</p>\n<p>Lengo #2. Kurudisha mioyo ya watoto kwa baba zao.</p>",
-      "translation_quote": "Lengo #1. Kurudisha mioyo ya wavulana kwa watoto wao.\nLengo #2. Kurudisha mioyo ya watoto kwa wavulana wao."
-    },
-    {
-      "location": "<h2>Mpango wa Mungu kwa Mwanamume na Mwanamke</h2>\n  <p>Mathayo 12:1 inasema, “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them.”",
-      "severity": "major",
-      "source_quote": "Ecclesiastes 12:1 says, “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them.”",
-      "suggested_fix": "Correct the book citation to match the source. Replace 'Mathayo 12:1' with 'Mhubiri 12:1' (Swahili name for Ecclesiastes) or leave as 'Ecclesiastes 12:1' if the publication prefers English book names. For example:\n<p>Mhubiri 12:1 inasema, “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them.”</p>",
-      "translation_quote": "Mathayo 12:1 inasema, “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them.”"
-    },
-    {
-      "location": "<h2>2) Kuwaacha na kushikana kwa umoja kwa maisha.</h2>\n  <p>“Therefore Bshall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24).</p>",
-      "severity": "minor",
-      "source_quote": "“Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24).",
-      "suggested_fix": "Remove the stray character 'B' so the quoted verse reads correctly in the translation. For example:\n<p>“Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24).</p>",
-      "translation_quote": "“Therefore Bshall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24)."
+      "source_quote": "\"Likewise, ye husbands, dwell with them according to knowledge, giving honor unto the wife, as unto the weaker vessel, and as being heirs together of the grace of life; that your prayers be not hindered.\" ... \"She is the weaker vessel and the one that born the children! She’s gone through a lot of traumatic changes in her life. She’s the one that gets worn out and tires sooner.",
+      "suggested_fix": "Replace the incorrect Swahili word \"mfuko\" with a correct rendering of \"weaker vessel\" such as \"chombo dhaifu\" (or \"chombo dhaifu/mfupa dhaifu\" if preferred). Preserve sentence structure and surrounding HTML. Example corrected fragment: \"Yeye ni chombo dhaifu na ndiyo aliyebeba watoto! Amepitia mabadiliko mengi ya kiuchungu maishani mwake. Yeye ndiye anayechoka mapema na kuchoka zaidi.\"",
+      "translation_quote": "\"Kama waume, tunamzawadia heshima mke. Yeye ni mfuko dhaifu na ndiye aliyebeba watoto! Amepitia mabadiliko mengi ya kiuchungu maishani mwake. Yeye ndiye anayechoka mapema na kuchoka zaidi.\""
     }
   ],
+  "finished_at": "2026-10-02T00:12:04+00:00",
   "id": "07c77983bf5c3082207033a728f59905",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "swa",
@@ -130,13 +136,13 @@
     }
   },
   "protected": false,
-  "quality_score": 65,
+  "quality_score": 90,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1813629ba31cec5f42c8546808ad86fd17dc2aca775e7cb43f2368f4a4530061.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "27171e827da04653b84d0d866d017219",
   "campaign": "gh-36909987232",
   "created_at": "2026-10-01T18:54:08+00:00",
   "events": [
@@ -62,52 +61,37 @@
         },
         "total_tokens": 6071
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 946,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3114,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4060
+      }
     }
   ],
   "findings": [
     {
-      "location": "<p class=\"drop-cap\"> (first paragraph)",
-      "severity": "minor",
-      "source_quote": "piles of fresh fruit",
-      "suggested_fix": "Translate to a word that conveys 'piles' or 'heaps' (e.g., 'mafundo ya matunda safi' or 'mabakuli ya matunda safi') to preserve the original image.",
-      "translation_quote": "vifuko vya matunda safi"
-    },
-    {
-      "location": "<p> (second paragraph)</p>",
-      "severity": "minor",
-      "source_quote": "I had the opportunity to sit under hours of inspirational and educational workshops on how to write to communicate, using realistic dialog, descriptive writing, and much more.",
-      "suggested_fix": "Replace 'makazi ya masaa ya warsa' with wording that correctly renders 'sit under hours of ... workshops', for example: 'nilipata fursa ya kushiriki masaa ya warsha zenye msukumo na elimu kuhusu jinsi ya kuandika...' Preserve the existing HTML tags and surrounding paragraph.",
-      "translation_quote": "Nilipata fursa ya kukaa chini ya makazi ya masaa ya warsa zilizojaa msukumo na elimu juu ya jinsi ya kuandika..."
-    },
-    {
-      "location": "<p> (third paragraph)</p>",
-      "severity": "major",
-      "source_quote": "Seasoned grandfathers who bring words of admonishment to the younger generation.",
-      "suggested_fix": "'Admonishment' here means reproof, correction, or admonition — not 'punishment'. Change 'maneno ya adhabu' to a phrase that conveys admonition, e.g. 'maneno ya maonya' or 'maneno ya kuwaonya'. Keep the original HTML paragraph tags and formatting.",
-      "translation_quote": "Babu walio na uzoefu ambao wanaleta maneno ya adhabu kwa kizazi kipya."
-    },
-    {
-      "location": "<p> (fourth paragraph)</p>",
+      "location": "<p>In 2017 and 2018, the Berean Voice printed a series of vaccine articles in <em>The Heartbeat of the Remnant</em> magazine. These articles were a sincere effort to examine various aspects of vaccine usage with an unbiased approach. We attempted to present the facts as clearly as possible and let the readers draw their own conclusions.</p>",
       "severity": "minor",
       "source_quote": "The Berean Voice has a goal to provide printed material that will help readers navigate through the varied and difficult seasons of life.",
-      "suggested_fix": "Change 'maandishi yaliyopachikwa' to a clearer Kiswahili equivalent of 'printed material', for example 'vifungu/vipengele vilivyochapwa' or 'vinyonge vya kuchapishwa' or simply 'vifungu vilivyochapwa'. Preserve the paragraph HTML.",
-      "translation_quote": "The Berean Voice ina lengo la kutoa maandishi yaliyopachikwa ambayo yatasaidia wasomaji..."
-    },
-    {
-      "location": "<p> (COVID paragraph)</p>",
-      "severity": "minor",
-      "source_quote": "We put the printing on hold, unsure whether to include information on these new and unproven COVID-19 “vaccines.”",
-      "suggested_fix": "Replace 'tukiazimia ikiwa tu tunapaswa' with clearer wording that reflects 'we were unsure/wondering whether to include...', for example: 'tulizuilia uchapaji, tukiahidiwa/tukiwa hatari ikiwa tunapaswa kujumuisha habari kuhusu ...' or better: 'tulizuia uchapaji, tukiwa hatari ikiwa tunapaswa kujumuisha habari kuhusu chanjo hizi mpya za COVID-19 ambazo hazijathibitishwa.' Preserve paragraph HTML.",
-      "translation_quote": "Tulizuia uchapaji, tukiazimia ikiwa tu tunapaswa kujumuisha habari kuhusu “chanjo” hizi mpya za COVID-19 ambazo hazijathibitishwa."
-    },
-    {
-      "location": "<figure><img alt=...></figure>",
-      "severity": "minor",
-      "source_quote": "Pink and white crown vetch flowers in a green meadow",
-      "suggested_fix": "Use 'maua' rather than 'wazimbali' for 'flowers'. For example: change alt to 'Maua ya rangi ya waridi na nyeupe ya crown vetch kwenye uwanja wa kijani'. Preserve the figure/img tag and its attributes.",
-      "translation_quote": "Wazimbali wa rangi ya waridi na nyeupe katika uwanja wa kijani"
+      "suggested_fix": "Replace the phrase \"maandishi yaliyopachikwa\" with a clearer Kiswahili equivalent that preserves the meaning \"printed material\", for example: \"nyenzo zilizochapishwa\" or \"vitabu/maandishi vilivyochapishwa\". Keep the rest of the sentence unchanged and preserve HTML tags.",
+      "translation_quote": "The Berean Voice ina lengo la kutoa maandishi yaliyopachikwa ambayo yatasaidia wasomaji kupita katika misimu mbalimbali na ngumu za maisha."
     }
   ],
+  "finished_at": "2026-10-02T00:12:04+00:00",
   "id": "8819696a895eec214e9de22f5f1c5394",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "swa",
@@ -151,13 +135,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 95,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/bfd32875bae1c5d468e2e36f74da09a376963ebbef7c9772d51528cb0cd0f755.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

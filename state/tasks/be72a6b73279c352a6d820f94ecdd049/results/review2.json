@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8cdc0f81-ef80-4be3-b0b4-9d901fd1e89a",
+    "response_id": "chatcmpl-EUL7lxxoWcjFiAgXQmyhZH89Fp90G",
+    "usage": {
+      "completion_tokens": 1215,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3312,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4527
+    }
+  },
+  "received_at": "2026-10-02T00:12:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 2 (English source)",
+        "severity": "minor",
+        "source_quote": "Would he always be clumsy? Would he always say things wrong?",
+        "suggested_fix": "Replace the Kiswahili translation that renders \"clumsy\" as \"mwangavu\" with a correct term such as \"mwenye ucheshi/aliyekosea kwa urahisi/aliyekosea\" depending on tone. For example: \"Je, atabaki kuwa mcheshi kila wakati? Je, atabaki kusema vitu vibaya?\" or better \"Je, atabaki kuwa msumbufu kila wakati? Je, atabaki kusema vitu vibaya?\" Preserve surrounding punctuation and tags.",
+        "translation_quote": "\"Je, atabaki kuwa mwangavu kila wakati? Je, atabaki kusema vitu vibaya? Hivyo alisema Kenny.\""
+      },
+      {
+        "location": "Paragraph 3 (English source)",
+        "severity": "minor",
+        "source_quote": "Very well, then Jamin would be simple. Kenny would be smart.",
+        "suggested_fix": "Change the Kiswahili \"mnyonge\" (which means \"weak\" or \"meek\") to a phrase that better matches the English sense of \"simple\" (simple-minded) — e.g. \"rahisi wa kukosea\" or \"mwenye akili ndogo\". Suggested wording: \"Sawa basi, Jamin angekuwa mnyonge wa akili / angekuwa mwepesi wa kukosea. Kenny angekuwa mwerevu.\" Keep original sentence structure and punctuation.",
+        "translation_quote": "\"Sawa basi, Jamin angekuwa mnyonge. Kenny angekuwa mwerevu.\""
+      },
+      {
+        "location": "Paragraph with \"Kenny reeled free.\" (English source)",
+        "severity": "minor",
+        "source_quote": "Kenny reeled free.",
+        "suggested_fix": "The Kiswahili \"Kenny alitoroka\" reads as \"Kenny ran away/escaped\", which alters nuance. Replace with wording that conveys the physical action of being freed and stumbling/recovering—e.g. \"Kenny alirudishwa kwa nguvu\" is awkward; better: \"Kenny alipasuka na kujikusanya\" or \"Kenny alitoka kwa kupepuka/kujikuta huru kwa poleni\". A concrete suggestion: \"Kenny aliteremka kwa mdundo na kujikusanya.\" Preserve punctuation.",
+        "translation_quote": "\"Kwa haraka, mikono imara ya Jamin ilifungua meno hayo. Kenny alitoroka. “Unaweza kutembea?”\""
+      },
+      {
+        "location": "Paragraph about going to the wash house (English source)",
+        "severity": "minor",
+        "source_quote": "Jamin went to the wash house and scrubbed his hands.",
+        "suggested_fix": "The translation \"choo cha kunawa\" is literal and could be misunderstood (\"choo\" usually means toilet). Use a clearer Kiswahili term for a wash house or utility sink, e.g. \"alienda chumba cha kuosha mikono\" or \"alienda sehemu ya kuosha mikono\". Example: \"Jamin alienda sehemu ya kuosha mikono na kusafisha mikono yake.\" Preserve tags and flow.",
+        "translation_quote": "\"Jamin alienda kwenye choo cha kunawa na kusafisha mikono yake.\""
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

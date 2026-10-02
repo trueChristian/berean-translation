@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9ebb3133-3130-4309-9497-54beece7c7d7",
+    "response_id": "chatcmpl-EUL8iVE3u5IZpWxPcuy6CJegym2C8",
+    "usage": {
+      "completion_tokens": 946,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3114,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4060
+    }
+  },
+  "received_at": "2026-10-02T00:12:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>In 2017 and 2018, the Berean Voice printed a series of vaccine articles in <em>The Heartbeat of the Remnant</em> magazine. These articles were a sincere effort to examine various aspects of vaccine usage with an unbiased approach. We attempted to present the facts as clearly as possible and let the readers draw their own conclusions.</p>",
+        "severity": "minor",
+        "source_quote": "The Berean Voice has a goal to provide printed material that will help readers navigate through the varied and difficult seasons of life.",
+        "suggested_fix": "Replace the phrase \"maandishi yaliyopachikwa\" with a clearer Kiswahili equivalent that preserves the meaning \"printed material\", for example: \"nyenzo zilizochapishwa\" or \"vitabu/maandishi vilivyochapishwa\". Keep the rest of the sentence unchanged and preserve HTML tags.",
+        "translation_quote": "The Berean Voice ina lengo la kutoa maandishi yaliyopachikwa ambayo yatasaidia wasomaji kupita katika misimu mbalimbali na ngumu za maisha."
+      }
+    ],
+    "passed": true,
+    "score": 95
+  }
+}

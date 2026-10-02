@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "7c135e46-c293-4328-81d3-63c1dcdf9360",
+    "response_id": "chatcmpl-EUL7l0naXbFd0UN0GaIIw4hN3exWT",
+    "usage": {
+      "completion_tokens": 975,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1526,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2501
+    }
+  },
+  "received_at": "2026-10-02T00:12:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<div class=\"poem\"> — stanza 2, line 4",
+        "severity": "minor",
+        "source_quote": "And showers blessings from above,",
+        "suggested_fix": "Preserve the straightforward sense without introducing a simile. Replace \"Na hunyesha baraka kama mvua kutoka mbinguni,\" with \"Na hunyesha baraka kutoka mbinguni,\" (preserve surrounding <p><strong> tags and line break).",
+        "translation_quote": "Na hunyesha baraka kama mvua kutoka mbinguni,"
+      },
+      {
+        "location": "<div class=\"poem\"> — stanza 1, line 6",
+        "severity": "minor",
+        "source_quote": "Give thanks and laud, for more is here!",
+        "suggested_fix": "Avoid adding the qualifier \"mema\" that is not in the English. Replace \"Mpe shukrani na sifu, maana mema zaidi yamekuja hapa!\" with \"Mpe shukrani na sifu, maana zaidi yamekuja hapa!\" (preserve surrounding <p><strong> tags and line break).",
+        "translation_quote": "Mpe shukrani na sifu, maana mema zaidi yamekuja hapa!"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

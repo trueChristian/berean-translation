@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e7b01bb3-ab9d-4da8-a86d-daeac0e0345f",
+    "response_id": "chatcmpl-EUL7ldJjxiVadiohXAoV4NwKwQKyj",
+    "usage": {
+      "completion_tokens": 1237,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12275,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13512
+    }
+  },
+  "received_at": "2026-10-02T00:12:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>1 Peter 3:7 “Likewise, ye husbands, dwell with them according to knowledge, giving honor unto the wife, as unto the weaker vessel, and as being heirs together of the grace of life; that your prayers be not hindered.”</p>\n  <p>As husbands, we give honor to the wife. She is the weaker vessel and the one that born the children! She’s gone through a lot of traumatic changes in her life. She’s the one that gets worn out and tires sooner.</p>",
+        "severity": "major",
+        "source_quote": "\"Likewise, ye husbands, dwell with them according to knowledge, giving honor unto the wife, as unto the weaker vessel, and as being heirs together of the grace of life; that your prayers be not hindered.\" ... \"She is the weaker vessel and the one that born the children! She’s gone through a lot of traumatic changes in her life. She’s the one that gets worn out and tires sooner.",
+        "suggested_fix": "Replace the incorrect Swahili word \"mfuko\" with a correct rendering of \"weaker vessel\" such as \"chombo dhaifu\" (or \"chombo dhaifu/mfupa dhaifu\" if preferred). Preserve sentence structure and surrounding HTML. Example corrected fragment: \"Yeye ni chombo dhaifu na ndiyo aliyebeba watoto! Amepitia mabadiliko mengi ya kiuchungu maishani mwake. Yeye ndiye anayechoka mapema na kuchoka zaidi.\"",
+        "translation_quote": "\"Kama waume, tunamzawadia heshima mke. Yeye ni mfuko dhaifu na ndiye aliyebeba watoto! Amepitia mabadiliko mengi ya kiuchungu maishani mwake. Yeye ndiye anayechoka mapema na kuchoka zaidi.\""
+      }
+    ],
+    "passed": false,
+    "score": 90
+  }
+}

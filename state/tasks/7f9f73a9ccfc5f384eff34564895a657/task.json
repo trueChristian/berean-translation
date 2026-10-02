@@ -2,7 +2,6 @@
   "article_id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "27171e827da04653b84d0d866d017219",
   "campaign": "gh-36909987232",
   "created_at": "2026-10-01T18:54:08+00:00",
   "events": [
@@ -62,38 +61,52 @@
         },
         "total_tokens": 5401
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1705,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2889,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4594
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "<p>Kuchelewesha kazi kwa tabia kunaweza kusababisha viwango vya juu vya msongo wa mawazo. Labda mimi ni wa ajabu, lakini ni vigumu kwangu kubaki mwenye utulivu na mtulivu ninapokua shinikizo likiongezeka. Wakati mambo ya dakika za mwisho yanapokamilishwa mimi huwa nimechoka mno kula siwezi kufurahia tukio lililopangwa.</p>",
+      "location": "<p>...Kwanini usipange kusafisha madirisha na kutengeneza keki siku nyingine? Hiyo inaweza kumaanisha alama za vidole kwenye madirisha na keki rahisi zaidi, lakini haibetter kuliko msongo mkubwa wa mawazo kwa dakika za mwisho?</p>",
       "severity": "major",
-      "source_quote": "By the time the last minute things are completed I’m too exhausted to enjoy the planned event.",
-      "suggested_fix": "Wakati mambo ya dakika za mwisho yanapokamilishwa mimi huwa nimechoka mno na siwezi kufurahia tukio lililopangwa.",
-      "translation_quote": "Wakati mambo ya dakika za mwisho yanapokamilishwa mimi huwa nimechoka mno kula siwezi kufurahia tukio lililopangwa."
+      "source_quote": "Why not schedule window washing and dessert another day? That might mean some fingerprints on the windows and a simpler dessert, but isn’t that better than a great deal of stress at the last minute?",
+      "suggested_fix": "Replace the untranslated/incorrect English fragment with correct Kiswahili while preserving the HTML paragraph tags. For example: <p>Kwanini usipange kusafisha madirisha na kutengeneza keki siku nyingine? Hiyo inaweza kumaanisha alama za vidole kwenye madirisha na keki rahisi zaidi, lakini siendelee kuhusisha msongo mkubwa wa mawazo kwa dakika za mwisho?</p> (or more simply: \"...lakini si hicho ni bora kuliko msongo mkubwa wa mawazo kwa dakika za mwisho?\")",
+      "translation_quote": "Kwanini usipange kusafisha madirisha na kutengeneza keki siku nyingine? Hiyo inaweza kumaanisha alama za vidole kwenye madirisha na keki rahisi zaidi, lakini haibetter kuliko msongo mkubwa wa mawazo kwa dakika za mwisho?"
     },
     {
-      "location": "<p>Ni fumbo kwangu kwa nini mshirika wa familia anafika kiti cha daktari wa meno siku moja au mbili kabla ya kuondoka kwenye safari. Labda hajatokea mara nyingi kama ninavyodhani, lakini kuchanganyikiwa kwa safari isiyopangwa ya kwenda kwa daktari wa meno wakati usiofaa kumeweka fitina akilini mwangu. Sasa napanga miadi ya kufikirika kabla ya safari. Ikiwa si dharura ya meno, suala lingine litasubiri nafasi hiyo.</p>",
-      "severity": "minor",
-      "source_quote": "If it is not a dental emergency, some other issue is bound to fill that time slot.",
-      "suggested_fix": "Ikiwa si dharura ya meno, jambo lingine kawaida litajitokeza kujaa nafasi hiyo.",
-      "translation_quote": "Ikiwa si dharura ya meno, suala lingine litasubiri nafasi hiyo."
-    },
-    {
-      "location": "<p>Muda wa mwisho ni sehemu ya kawaida ya maisha. Bila yao tungekuwa bila motisha, na siku zetu zingekuwa bila kusudi. Usitisho pia ni sehemu ya kawaida ya maisha. Huvuka-ghafla huleta mabadiliko yasiyotabirika katika siku zetu na wiki zetu. Tukiacha kazi nyingi zikusubiri hadi dakika za mwisho, usitisho na tarehe za mwisho vinakutana, na vurugu zinaanza kutawala.</p>",
-      "severity": "minor",
-      "source_quote": "Interruptions are also a normal part of life.",
-      "suggested_fix": "Usumbufu/vizingiti pia ni sehemu ya kawaida ya maisha.",
-      "translation_quote": "Usitisho pia ni sehemu ya kawaida ya maisha."
-    },
-    {
-      "location": "<p>Lakini ikiwa mpangaji wangu anasema, “safisha vito vya nyumbani, suka makabati, na suuza madirisha,” inaonekana inawezekana zaidi.</p>",
+      "location": "<p>...Lakini ikiwa mpangaji wangu anasema, “safisha vifaa vya nyumbani, futa/mfute kabati, na suuza madirisha,” inaonekana inawezekana zaidi.</p>",
       "severity": "major",
       "source_quote": "But if my planner says, “clean appliances, wipe out cupboards, and wash windows,” it seems more doable.",
-      "suggested_fix": "Lakini ikiwa mpangaji wangu anasema, “safisha vifaa vya nyumbani, futa/mfute kabati, na suuza madirisha,” inaonekana inawezekana zaidi.",
-      "translation_quote": "Lakini ikiwa mpangaji wangu anasema, “safisha vito vya nyumbani, suka makabati, na suuza madirisha,” inaonekana inawezekana zaidi."
+      "suggested_fix": "Correct word choices and remove the slash so the list reads fluently in Kiswahili, preserving the paragraph tags. For example: <p>Lakini ikiwa mpangaji wangu anasema, “safisha vifaa vya nyumbani, futa kabati, na suafisha madirisha,” inaonekana inawezekana zaidi.</p> or use: <p>...“safisha vifaa vya nyumbani, futa kabati, na suawa madirisha,”...</p> (use consistent, correct verbs: \"futa kabati\" and \"safisha madirisha\").",
+      "translation_quote": "Lakini ikiwa mpangaji wangu anasema, “safisha vifaa vya nyumbani, futa/mfute kabati, na suuza madirisha,” inaonekana inawezekana zaidi."
+    },
+    {
+      "location": "<p>...Usumbufu pia ni sehemu ya kawaida ya maisha. Huvuka-ghafla huleta mabadiliko yasiyotabirika katika siku zetu na wiki zetu. Tukiacha kazi nyingi zikusubiri hadi dakika za mwisho, usitisho na tarehe za mwisho vinakutana, na vurugu zinaanza kutawala.</p>",
+      "severity": "minor",
+      "source_quote": "Interruptions are also a normal part of life. They constantly give an unpredictable twist to our days and weeks. If we let too many tasks wait until the last minute, interruptions and deadlines collide, and chaos reigns.",
+      "suggested_fix": "Use a consistent translation for \"interruptions\" (either \"usumbufu\" or \"usumbukaji/kuingilia\") throughout this paragraph to avoid confusion. For example: replace \"usitisho\" with \"usumbufu\" so the sentence reads \"...Tukiacha kazi nyingi zikusubiri hadi dakika za mwisho, usumbufu na tarehe za mwisho vinakutana...\" Preserve the paragraph tags.",
+      "translation_quote": "Usumbufu pia ni sehemu ya kawaida ya maisha. Huvuka-ghafla huleta mabadiliko yasiyotabirika katika siku zetu na wiki zetu. Tukiacha kazi nyingi zikusubiri hadi dakika za mwisho, usitisho na tarehe za mwisho vinakutana, na vurugu zinaanza kutawala."
     }
   ],
+  "finished_at": "2026-10-02T00:12:04+00:00",
   "id": "7f9f73a9ccfc5f384eff34564895a657",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "swa",
@@ -137,13 +150,13 @@
     }
   },
   "protected": false,
-  "quality_score": 72,
+  "quality_score": 81,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5fd263b236cc5e1da73816f24d29564842c820fa1abbcc53a271dfa0bf31493f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

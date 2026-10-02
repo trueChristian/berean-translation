@@ -2,7 +2,6 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "27171e827da04653b84d0d866d017219",
   "campaign": "gh-36909987232",
   "created_at": "2026-10-01T18:54:08+00:00",
   "events": [
@@ -62,59 +61,59 @@
         },
         "total_tokens": 6564
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1215,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3312,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4527
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "source.html paragraph 7 (webworms sentence)",
-      "severity": "critical",
-      "source_quote": "The fall webworms had been at work, and their web curtains shuttered from branches overhead.",
-      "suggested_fix": "Translate the sentence to convey that fall webworms had been busy and their silk-web curtains hung from the branches overhead. Preserve the image of webbing on the branches rather than introducing unrelated words.",
-      "translation_quote": "Waridi wa mteenthari wa vuli walikuwa wameshindwa, na pazia lao la wavuli lilifungwa kutoka kwenye matawi juu."
-    },
-    {
-      "location": "source.html paragraph 11 (\"a frustrated heap\" and references)",
-      "severity": "major",
-      "source_quote": "But Kenny was there. As Jamin clumped into the meadow, he could see a frustrated heap to his right. The heap’s voice had a familiar ring. The heap’s face was lit in pain. The heap was Kenny.",
-      "suggested_fix": "Render \"a frustrated heap\" and the subsequent sentences to reflect a collapsed or crumpled figure (person) — e.g. 'aliona mtu aliyekunjikana kwa huzuni upande wake wa kulia. Sauti yake ilikuwa ya kumfahamu. Uso wake ulikuwa umejaa maumivu. Yule mtu alikuwa Kenny.' Do not translate 'heap' as 'mkusanyiko' (pile/gathering).",
-      "translation_quote": "Wakati Jamin alipokuwa akielekea katika uwanda, aliweza kuona mkusanyiko wa mshtuko upande wake wa kulia. Sauti ya mkusanyiko huo ilikuwa na toni ya kumfahamu. Uso wa mkusanyiko huo ulikuwa umetakaswa na maumivu. Mkusanyiko huo alikuwa Kenny."
-    },
-    {
-      "location": "source.html paragraph 12 (\"Did you step in a trap?\")",
-      "severity": "major",
-      "source_quote": "“Did you step in a trap?”",
-      "suggested_fix": "Translate the question to make clear it's about stepping into a trap: e.g. 'Je, umeingia kwenye mtego?' or 'Je, umeingia kwenye kitengo cha mtego?' The translator used 'kitengo cha mtego' earlier which is awkward; prefer 'mtego' or 'kitao cha mtego' consistent with other uses.",
-      "translation_quote": "“Je, umeingia kwenye kitengo cha mtego?”"
-    },
-    {
-      "location": "source.html paragraph 14 (\"If you support me, I can hobble along.\")",
-      "severity": "major",
-      "source_quote": "“Yes. I think so. If you support me, I can hobble along.”",
-      "suggested_fix": "Translate 'support me' as 'unanigongea' is wrong — it should convey physical support: e.g. 'Ikiwa utanichukua kwa mkono / kuunga mkono, nitaweza kuhema kwa kinamelimeli / kutembea kwa polepole.' Avoid 'utanigusa' which changes meaning to merely touching.",
-      "translation_quote": "“Ndio. Nadhani. Ikiwa utanigusa, nitaweza kutetemeka.”"
-    },
-    {
-      "location": "source.html paragraph 17 (\"Grandma Otto rocked some more\")",
-      "severity": "major",
-      "source_quote": "Grandma Otto rocked some more, then smiled.",
-      "suggested_fix": "Translate 'rocked some more' to mean rocking back in her rocker (swinging), not 'jumped': e.g. 'Bibi Otto alitetemeka kidogo tena kwenye kiti chake, kisha akatabasamu.' Do not use 'aliruka' which means 'she jumped.'",
-      "translation_quote": "Bibi Otto aliruka kwa kiti chake tena, kisha akatabasamu."
-    },
-    {
-      "location": "source.html paragraph 2 (older brother sentence and pronoun)",
+      "location": "Paragraph 2 (English source)",
       "severity": "minor",
-      "source_quote": "Or at least that’s what his older brother told him.",
-      "suggested_fix": "Fix the mistranscription/typo 'ndoda' to the correct Kiswahili word. A correct rendering: 'Au angalau hivyo kaka yake alivyomwambia.'",
-      "translation_quote": "Au angalau hivyo ndoda yake alivyomweleza."
+      "source_quote": "Would he always be clumsy? Would he always say things wrong?",
+      "suggested_fix": "Replace the Kiswahili translation that renders \"clumsy\" as \"mwangavu\" with a correct term such as \"mwenye ucheshi/aliyekosea kwa urahisi/aliyekosea\" depending on tone. For example: \"Je, atabaki kuwa mcheshi kila wakati? Je, atabaki kusema vitu vibaya?\" or better \"Je, atabaki kuwa msumbufu kila wakati? Je, atabaki kusema vitu vibaya?\" Preserve surrounding punctuation and tags.",
+      "translation_quote": "\"Je, atabaki kuwa mwangavu kila wakati? Je, atabaki kusema vitu vibaya? Hivyo alisema Kenny.\""
     },
     {
-      "location": "source.html paragraph 15 (\"Darkness stained the ground\")",
+      "location": "Paragraph 3 (English source)",
       "severity": "minor",
-      "source_quote": "Darkness stained the ground around Kenny.",
-      "suggested_fix": "Translate to convey the image of darkness or blackness around Kenny, e.g. 'Giza lilimvizia/kulifunika udongo karibu na Kenny.' Current 'Giza lilikuwa limechafua ardhi' is awkward; prefer 'lilipamba' or 'lilijaza' depending on tone.",
-      "translation_quote": "Giza lilikuwa limechafua ardhi karibu na Kenny."
+      "source_quote": "Very well, then Jamin would be simple. Kenny would be smart.",
+      "suggested_fix": "Change the Kiswahili \"mnyonge\" (which means \"weak\" or \"meek\") to a phrase that better matches the English sense of \"simple\" (simple-minded) — e.g. \"rahisi wa kukosea\" or \"mwenye akili ndogo\". Suggested wording: \"Sawa basi, Jamin angekuwa mnyonge wa akili / angekuwa mwepesi wa kukosea. Kenny angekuwa mwerevu.\" Keep original sentence structure and punctuation.",
+      "translation_quote": "\"Sawa basi, Jamin angekuwa mnyonge. Kenny angekuwa mwerevu.\""
+    },
+    {
+      "location": "Paragraph with \"Kenny reeled free.\" (English source)",
+      "severity": "minor",
+      "source_quote": "Kenny reeled free.",
+      "suggested_fix": "The Kiswahili \"Kenny alitoroka\" reads as \"Kenny ran away/escaped\", which alters nuance. Replace with wording that conveys the physical action of being freed and stumbling/recovering—e.g. \"Kenny alirudishwa kwa nguvu\" is awkward; better: \"Kenny alipasuka na kujikusanya\" or \"Kenny alitoka kwa kupepuka/kujikuta huru kwa poleni\". A concrete suggestion: \"Kenny aliteremka kwa mdundo na kujikusanya.\" Preserve punctuation.",
+      "translation_quote": "\"Kwa haraka, mikono imara ya Jamin ilifungua meno hayo. Kenny alitoroka. “Unaweza kutembea?”\""
+    },
+    {
+      "location": "Paragraph about going to the wash house (English source)",
+      "severity": "minor",
+      "source_quote": "Jamin went to the wash house and scrubbed his hands.",
+      "suggested_fix": "The translation \"choo cha kunawa\" is literal and could be misunderstood (\"choo\" usually means toilet). Use a clearer Kiswahili term for a wash house or utility sink, e.g. \"alienda chumba cha kuosha mikono\" or \"alienda sehemu ya kuosha mikono\". Example: \"Jamin alienda sehemu ya kuosha mikono na kusafisha mikono yake.\" Preserve tags and flow.",
+      "translation_quote": "\"Jamin alienda kwenye choo cha kunawa na kusafisha mikono yake.\""
     }
   ],
+  "finished_at": "2026-10-02T00:12:04+00:00",
   "id": "be72a6b73279c352a6d820f94ecdd049",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "swa",
@@ -158,13 +157,13 @@
     }
   },
   "protected": false,
-  "quality_score": 62,
+  "quality_score": 90,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a7ca25068c1bad9f392aef90030e0bae4b2e168a2dbdfb445b23493e0ef481c1.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

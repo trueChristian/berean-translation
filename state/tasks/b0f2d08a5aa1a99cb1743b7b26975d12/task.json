@@ -2,7 +2,6 @@
   "article_id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "27171e827da04653b84d0d866d017219",
   "campaign": "gh-36909987232",
   "created_at": "2026-10-01T18:54:08+00:00",
   "events": [
@@ -62,87 +61,44 @@
         },
         "total_tokens": 4369
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 975,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1526,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2501
+      }
     }
   ],
   "findings": [
     {
-      "location": "title",
+      "location": "<div class=\"poem\"> — stanza 2, line 4",
       "severity": "minor",
-      "source_quote": "Arise be glad",
-      "suggested_fix": "Use a natural Kiswahili title equivalent without changing nuance: e.g., \"Inuka, furahini\" is acceptable. Confirm orthography/capitalization per site style.",
-      "translation_quote": "Inuka, furahini!"
+      "source_quote": "And showers blessings from above,",
+      "suggested_fix": "Preserve the straightforward sense without introducing a simile. Replace \"Na hunyesha baraka kama mvua kutoka mbinguni,\" with \"Na hunyesha baraka kutoka mbinguni,\" (preserve surrounding <p><strong> tags and line break).",
+      "translation_quote": "Na hunyesha baraka kama mvua kutoka mbinguni,"
     },
     {
-      "location": "figure > img alt",
-      "severity": "minor",
-      "source_quote": "A small boat at the edge of calm water during a vivid sunset",
-      "suggested_fix": "Alt text is acceptable but could be slightly tightened to natural Kiswahili phrasing: e.g., \"Boti ndogo kando ya maji tulivu wakati wa machweo yenye rangi.\" (current translation already matches this — keep as is).",
-      "translation_quote": "Boti ndogo kando ya maji tulivu wakati wa machweo yenye rangi"
-    },
-    {
-      "location": "poem stanza 1, line 1",
-      "severity": "minor",
-      "source_quote": "Arise be glad! For dawn is here!",
-      "suggested_fix": "Translation is faithful in meaning. Consider changing \"alfajiri\" to the more common \"fajar\" only if site prefers dialect; otherwise keep \"alfajiri\". No change required.",
-      "translation_quote": "Inuka, furahini! Kwa maana alfajiri imefika!"
-    },
-    {
-      "location": "poem stanza 1, line 5",
-      "severity": "minor",
-      "source_quote": "Rejoice and praise the King of Kings!",
-      "suggested_fix": "The translated phrase \"Mnumben mfalme wa Wafalme\" contains a likely misspelling/grammatical form. Use a standard imperative plural form: \"Mshangilieni na mnumbeni Mfalme wa Wafalme\" or \"Mshangilie na mtukuze Mfalme wa Wafalme\" depending on tone. Preserve the plural/imperative sense of the English.",
-      "translation_quote": "Mnumben mfalme wa Wafalme!"
-    },
-    {
-      "location": "poem stanza 1, line 6",
+      "location": "<div class=\"poem\"> — stanza 1, line 6",
       "severity": "minor",
       "source_quote": "Give thanks and laud, for more is here!",
-      "suggested_fix": "Translation conveys the sense but \"sifu\" and word order could be smoothed: e.g., \"Mpe shukrani na sifu, maana mema zaidi yamekuja hapa.\" Consider using \"mem zaidi\" instead of \"zaidi ipo hapa\" to improve idiom.",
-      "translation_quote": "Shukrani mpe na sifu, kwani zaidi ipo hapa!"
-    },
-    {
-      "location": "poem stanza 2, line 4",
-      "severity": "major",
-      "source_quote": "And showers blessings from above,",
-      "suggested_fix": "Current translation \"Na hunyesha baraka kutoka juu\" is awkward and semantically off (\"hunyesha\" is not idiomatic for 'showers' in this sense). Use a Kiswahili verb that conveys abundant bestowing: e.g., \"Na hunyesha/unyeshea baraka kutoka juu\" is still odd; better: \"Na hunyesha baraka nyingi kutoka juu\" or \"Na hunyesha baraka kama mvua kutoka mbinguni.\" Preserve the metaphor of abundant bestowal.",
-      "translation_quote": "Na hunyesha baraka kutoka juu,"
-    },
-    {
-      "location": "poem stanza 2, line 6",
-      "severity": "major",
-      "source_quote": "Adore and praise our mighty Lord!",
-      "suggested_fix": "The translation \"Mchonge na mbariki Bwana wetu mwenye nguvu!\" uses the nonstandard word \"Mchonge\" which is not a correct Kiswahili imperative for 'adore'. Replace with a correct verb/imperative: e.g., \"Mnimbe na mmbariki Bwana wetu Mwenye Nguvu!\" or \"Mnimtumaini na mbariki Bwana wetu mwenye nguvu!\" Ensure \"Mnimbe\" or \"Mtukuzeni\" aligns with the poetic register.",
-      "translation_quote": "Mchonge na mbariki Bwana wetu mwenye nguvu!"
-    },
-    {
-      "location": "poem stanza 3, line 2",
-      "severity": "major",
-      "source_quote": "And worship Him with reverent praise;",
-      "suggested_fix": "Translation \"Na ukamke yeye kwa sifa za heshima;\" is incorrect grammatically and semantically. \"Ukamke\" is not a correct verb here. Use an imperative/infinitive that means 'worship Him with reverent praise', e.g., \"na mumwabudu kwa sifa za kuheshimu\" or \"na mnamwabudu kwa sifa za hofu takatifu.\" Preserve the reverent tone.",
-      "translation_quote": "Na ukamke yeye kwa sifa za heshima;"
-    },
-    {
-      "location": "poem stanza 3, line 3",
-      "severity": "major",
-      "source_quote": "Bow down in awful, holy fear-",
-      "suggested_fix": "The translation \"Kunjua chini kwa hofu takatifu-\" is wrong: \"kunnjua\" is not the correct verb and the phrase order is unidiomatic. Replace with a natural rendering such as \"Kunjua chini kwa hofu takatifu\" is still awkward; preferred: \"Pinda goti kwa hofu takatifu\" or \"Duka kwa hofu takatifu\" (\"bow down\" => \"pinda goti\" or \"kukunjua\" but \"kukunjua\" is wrong). Use \"Pinda goti kwa hofu takatifu\" to match the original rhythm and meaning.",
-      "translation_quote": "Kunjua chini kwa hofu takatifu-"
-    },
-    {
-      "location": "poem stanza 3, line 5",
-      "severity": "major",
-      "source_quote": "In wondrous beauty bend the knee;",
-      "suggested_fix": "Translation \"Kwa uzuri wa ajabu pinda goti;\" is understandable but preserve poetic flow and word order: recommend \"Katika uzuri wa ajabu pinda goti;\" or \"Kwa uzuri wa ajabu, pinda goti;\" to be grammatically smooth.",
-      "translation_quote": "Kwa uzuri wa ajabu pinda goti;"
-    },
-    {
-      "location": "poem stanza 3, line 6",
-      "severity": "major",
-      "source_quote": "Adore th’ almighty King of Kings!",
-      "suggested_fix": "Translation reads \"Mchonge mfalme wa Wafalme wa pekee!\" which introduces \"wa pekee\" (\"unique\") not present in source, and again uses the nonstandard verb \"Mchonge\". Replace with a faithful, idiomatic imperative such as \"Mtukuzeni Mfalme wa Wafalme Mwenye Nguvu!\" or \"Mnumbeni Mfalme wa Wafalme Mwenye Nguvu!\" Do not add \"wa pekee.\"",
-      "translation_quote": "Mchonge mfalme wa Wafalme wa pekee!"
+      "suggested_fix": "Avoid adding the qualifier \"mema\" that is not in the English. Replace \"Mpe shukrani na sifu, maana mema zaidi yamekuja hapa!\" with \"Mpe shukrani na sifu, maana zaidi yamekuja hapa!\" (preserve surrounding <p><strong> tags and line break).",
+      "translation_quote": "Mpe shukrani na sifu, maana mema zaidi yamekuja hapa!"
     }
   ],
+  "finished_at": "2026-10-02T00:12:04+00:00",
   "id": "b0f2d08a5aa1a99cb1743b7b26975d12",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "swa",
@@ -186,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 55,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/106121576068d9bdf697518dbfe2c70eff09e46a5d060eef756de2cfcb440b7f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

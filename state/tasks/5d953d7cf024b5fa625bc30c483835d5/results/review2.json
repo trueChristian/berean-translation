@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6a8b698c-9105-4cf1-88ec-26abd25eb6d6",
+    "response_id": "chatcmpl-EUL8iubiBUaji54cbsNAsD8Nltz48",
+    "usage": {
+      "completion_tokens": 1825,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6614,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8439
+    }
+  },
+  "received_at": "2026-10-02T00:12:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"lead\"> (first paragraph)",
+        "severity": "minor",
+        "source_quote": "Birds hold a unique place in God’s creation, for their sphere is in the heavens.",
+        "suggested_fix": "Render the phrase so it clearly expresses 'their sphere is in the heavens' in idiomatic Kiswahili, e.g. replace \"kwa kuwa wenzake ni katika mbingu\" with \"kwa kuwa eneo lao ni mbinguni\" or \"kwa kuwa waliko mbinguni\" to preserve meaning and grammatical agreement.",
+        "translation_quote": "Ndege wanashikilia nafasi ya kipekee katika uumbaji wa Mungu, kwa kuwa wenzake ni katika mbingu."
+      },
+      {
+        "location": "<p class=\"lead\"> (second sentence of same paragraph)",
+        "severity": "minor",
+        "source_quote": "Man may mount on the wings of a plane and evade the lower earth for a few hours, but the heavens will never be a place of his common dominion.",
+        "suggested_fix": "Clarify that the image is of a man mounting \"on the wings of a plane\" (i.e., an airplane) rather than introducing an unintended alternative reading. Suggest: replace \"Mtu anaweza kupanda kwenye ndege au kwa mabawa ya ndege\" with \"Mtu anaweza kupanda kwa ndege na, kwa saa chache, kuondoka juu ya dunia ya chini\" or \"Mtu anaweza kupanda kwa ndege, akiepuka dunia ya chini kwa saa chache\".",
+        "translation_quote": "Mtu anaweza kupanda kwenye ndege au kwa mabawa ya ndege na kuepuka dunia ya chini kwa saa chache, lakini mbingu hazitawahi kuwa eneo la mamlaka yake ya kawaida."
+      },
+      {
+        "location": "<p class=\"lead\"> (sentence about dog and cat)",
+        "severity": "minor",
+        "source_quote": "The dog barks at an intruder to drive him away, while the cat mews for attention.",
+        "suggested_fix": "Correct the verb so it conveys 'barks' and 'drives away' rather than implying killing. Suggested: replace \"Mbwa huwauwa mduku kwa mgeni kumzuilia\" with \"Mbwa hupiga kelele kwa mgeni ili kumwondoa\" or \"Mbwa hupiga kelele kumwazuia wageni\". Also render the cat clause idiomatically: \"wakati paka anapiga mewinghu kwa umakini\" → \"wakati paka hutia sauti kuomba umakini\".",
+        "translation_quote": "Mbwa huwauwa mduku kwa mgeni kumzuilia, wakati paka ankatia sauti kuomba umakini."
+      },
+      {
+        "location": "throughout article (bird species names and some quotations)",
+        "severity": "minor",
+        "source_quote": "References to bird species and some quoted lines appear in English in the source: e.g., \"killdeer\", \"song sparrow\", \"rose-breasted grosbeak\", \"wren\", \"canary\", \"nightingale\", \"robins\", \"buntings\"; and some quoted phrases (e.g., Paul quote \"Doth not nature itself teach you?\").",
+        "suggested_fix": "If the editorial preference is full translation into Kiswahili, provide Kiswahili common names where appropriate or keep original English names but mark them consistently (e.g., italicize or put in parentheses). For the non-scriptural direct quote (Paul's rhetorical question), either translate it into Kiswahili or mark it as an original-language quotation. Example: translate \"Doth not nature itself teach you?\" → \"Je, si asili yenyewe inakufundisha?\". (This is a stylistic suggestion; not required if policy prefers preserving original phrasing.)",
+        "translation_quote": "Examples retained in translation: \"Doth not nature itself teach you?\"; \"killdeer\"; \"song sparrow\"; \"rose-breasted grosbeak\"; \"wren\"; \"canary\"; \"nightingale\"; \"robins\"; \"buntings\"."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

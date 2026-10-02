@@ -2,7 +2,6 @@
   "article_id": "1c75dce8-1781-427f-8099-01596d53c2a4",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "27171e827da04653b84d0d866d017219",
   "campaign": "gh-36909987232",
   "created_at": "2026-10-01T18:54:08+00:00",
   "events": [
@@ -62,38 +61,58 @@
         },
         "total_tokens": 10905
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1825,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 960,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6614,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8439
+      }
     }
   ],
   "findings": [
     {
-      "location": "source.html — paragraph 2 (\"Man may mount on the wings of a plane...\")",
-      "severity": "major",
+      "location": "<p class=\"lead\"> (first paragraph)",
+      "severity": "minor",
+      "source_quote": "Birds hold a unique place in God’s creation, for their sphere is in the heavens.",
+      "suggested_fix": "Render the phrase so it clearly expresses 'their sphere is in the heavens' in idiomatic Kiswahili, e.g. replace \"kwa kuwa wenzake ni katika mbingu\" with \"kwa kuwa eneo lao ni mbinguni\" or \"kwa kuwa waliko mbinguni\" to preserve meaning and grammatical agreement.",
+      "translation_quote": "Ndege wanashikilia nafasi ya kipekee katika uumbaji wa Mungu, kwa kuwa wenzake ni katika mbingu."
+    },
+    {
+      "location": "<p class=\"lead\"> (second sentence of same paragraph)",
+      "severity": "minor",
       "source_quote": "Man may mount on the wings of a plane and evade the lower earth for a few hours, but the heavens will never be a place of his common dominion.",
-      "suggested_fix": "Translate the idea of an airplane (aeroplane) correctly. For example: replace the current sentence in the translation with: \"Mtu anaweza kupanda kwa ndege (au kwenye mabawa ya ndege) na kuepuka dunia ya chini kwa saa chache, lakini mbingu hazitawahi kuwa eneo la mamlaka yake ya kawaida.\" Preserve the existing HTML tags and structure.",
-      "translation_quote": "Mtu anaweza kupanda kwa mapanga ya ndege na kuepuka dunia ya chini kwa saa chache, lakini mbingu hazitawahi kuwa eneo la tawi lake la kawaida."
+      "suggested_fix": "Clarify that the image is of a man mounting \"on the wings of a plane\" (i.e., an airplane) rather than introducing an unintended alternative reading. Suggest: replace \"Mtu anaweza kupanda kwenye ndege au kwa mabawa ya ndege\" with \"Mtu anaweza kupanda kwa ndege na, kwa saa chache, kuondoka juu ya dunia ya chini\" or \"Mtu anaweza kupanda kwa ndege, akiepuka dunia ya chini kwa saa chache\".",
+      "translation_quote": "Mtu anaweza kupanda kwenye ndege au kwa mabawa ya ndege na kuepuka dunia ya chini kwa saa chache, lakini mbingu hazitawahi kuwa eneo la mamlaka yake ya kawaida."
     },
     {
-      "location": "source.html — paragraph 9 (reference to Jehoshaphat / Exodus scene)",
-      "severity": "critical",
-      "source_quote": "Their singing erupted at the passage of the Red Sea in the days of Jehoshaphat and had been known to defeat armies.",
-      "suggested_fix": "Correct the mistranslated biblical reference/name. The source names Jehoshaphat (who led praise that defeated an army); the translation incorrectly renders this as 'Yosia'. Replace 'Yosia' with 'Jehoshaphat' (or a localized form that clearly matches the English name Jehoshaphat) to preserve the author's intended biblical allusion. Keep HTML structure unchanged.",
-      "translation_quote": "Wimbo wao ulilipuka wakati wa kuvuka Bahari Nyekundu katika siku za Yosia na ulikuwa maarufu kushinda majeshi."
-    },
-    {
-      "location": "source.html — paragraph 2 (\"the earthly human shares its nature with the mammals of the field\")",
+      "location": "<p class=\"lead\"> (sentence about dog and cat)",
       "severity": "minor",
-      "source_quote": "Similarly, the earthly human shares its nature with the mammals of the field.",
-      "suggested_fix": "Fix awkward/doubled wording and improve idiomatic Kiswahili. For example: replace the sentence in the translation with: \"Vivyo hivyo, mwanadamu wa hapa duniani anashiriki tabia ya wanyama wengine wa shamba.\" Preserve HTML tags.",
-      "translation_quote": "Vivyo hivyo, mwanadamu wa dunia anashirikiana tabia yake na wanyama wanyama wa shambani."
+      "source_quote": "The dog barks at an intruder to drive him away, while the cat mews for attention.",
+      "suggested_fix": "Correct the verb so it conveys 'barks' and 'drives away' rather than implying killing. Suggested: replace \"Mbwa huwauwa mduku kwa mgeni kumzuilia\" with \"Mbwa hupiga kelele kwa mgeni ili kumwondoa\" or \"Mbwa hupiga kelele kumwazuia wageni\". Also render the cat clause idiomatically: \"wakati paka anapiga mewinghu kwa umakini\" → \"wakati paka hutia sauti kuomba umakini\".",
+      "translation_quote": "Mbwa huwauwa mduku kwa mgeni kumzuilia, wakati paka ankatia sauti kuomba umakini."
     },
     {
-      "location": "source.html — paragraph 5 (\"spring\")",
+      "location": "throughout article (bird species names and some quotations)",
       "severity": "minor",
-      "source_quote": "The robin opens up the choir in early spring, but his song is soon surpassed...",
-      "suggested_fix": "Clarify season reference idiomatically in Kiswahili. For example: replace 'mapema spring' with 'mapema msimu wa kuchipua (majira ya machipuko)' or simply 'mapema msimu wa prolifera' only if idiomatic. Keep HTML markup intact.",
-      "translation_quote": "Robin huanzisha kwaya mapema spring, lakini wimbo wake huharibika haraka katika uzuri na song sparrow na tena na rose-breasted grosbeak."
+      "source_quote": "References to bird species and some quoted lines appear in English in the source: e.g., \"killdeer\", \"song sparrow\", \"rose-breasted grosbeak\", \"wren\", \"canary\", \"nightingale\", \"robins\", \"buntings\"; and some quoted phrases (e.g., Paul quote \"Doth not nature itself teach you?\").",
+      "suggested_fix": "If the editorial preference is full translation into Kiswahili, provide Kiswahili common names where appropriate or keep original English names but mark them consistently (e.g., italicize or put in parentheses). For the non-scriptural direct quote (Paul's rhetorical question), either translate it into Kiswahili or mark it as an original-language quotation. Example: translate \"Doth not nature itself teach you?\" → \"Je, si asili yenyewe inakufundisha?\". (This is a stylistic suggestion; not required if policy prefers preserving original phrasing.)",
+      "translation_quote": "Examples retained in translation: \"Doth not nature itself teach you?\"; \"killdeer\"; \"song sparrow\"; \"rose-breasted grosbeak\"; \"wren\"; \"canary\"; \"nightingale\"; \"robins\"; \"buntings\"."
     }
   ],
+  "finished_at": "2026-10-02T00:12:04+00:00",
   "id": "5d953d7cf024b5fa625bc30c483835d5",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "swa",
@@ -137,13 +156,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6b4fad51874daab2b26c2a97a4e4c4aa1580e7cb9aed0a786736362fa6dfa46a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
