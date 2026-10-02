@@ -58,3 +58,15 @@ def archive(state, task, row, maximum_bytes):
                       'translation_attempts': task['translation_attempts'],
                       'review_attempts': task['review_attempts'], 'response': result})
     return result
+
+
+def decision(state, task, stage, outcome, reason=None, findings=None):
+    """Keep the gate's decision even when a later stage replaces task.findings."""
+    path = f'state/tasks/{task["id"]}/decisions/{stage}.json'
+    value = {'stage':stage, 'outcome':outcome, 'reason':reason, 'findings':findings or []}
+    previous = state.read(path)
+    if previous is not None:
+        if previous != value:
+            raise ContractError('Stage decision cannot overwrite prior audit evidence')
+        return
+    state.write(path, value)

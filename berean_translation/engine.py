@@ -19,7 +19,7 @@ from .refresh import enqueue_source_refreshes
 from .recovery import is_recovery_campaign, plan_recovery, recorded_request, recovery_selector
 from .state import State, TERMINAL
 from . import downstream
-from .attempts import archive
+from .attempts import archive, decision
 
 BATCH_TERMINAL = {'completed','failed','expired','cancelled'}
 
@@ -271,6 +271,7 @@ class Engine:
         if reason:
             task['failure'] = reason
         self.state.save_task(task)
+        decision(self.state, task, 'terminal', status, reason, task.get('findings', []))
         record = self.state.record(task['language'],task['article_id'])
         record['history'].append({'event':status,'task':task['id'],'at':task['finished_at'],'reason':reason})
         self.state.save_record(record)
@@ -341,6 +342,7 @@ class Engine:
                 try:
                     validate_translation(self.state.source(task),result)
                 except ContractError as exc:
+                    decision(self.state, task, stage, 'structural_rejection', str(exc))
                     if stage == 'translate' and not task.get('downstream_recovery'):
                         task['findings'] = [{'severity':'critical','location':'HTML/metadata contract',
                                              'source_quote':'','translation_quote':'','suggested_fix':str(exc)}]
@@ -349,15 +351,18 @@ class Engine:
                         self.state.save_task(task)
                         return
                     raise
+                decision(self.state, task, stage, 'structural_pass')
                 task['stage'] = 'review1' if stage == 'translate' else 'review2'
             else:
                 task['review_model_actual'] = provenance['model']
                 task['quality_score'] = result.get('score')
                 task['findings'] = result.get('findings',[])
                 if accepted_review(result,campaign['quality_threshold']):
+                    decision(self.state, task, stage, 'quality_pass', findings=task['findings'])
                     self.state.save_task(task)
                     self.publish(task)
                     return
+                decision(self.state, task, stage, 'quality_rejection', findings=task['findings'])
                 if stage == 'review2' or task.get('downstream_recovery'):
                     task['failure_kind'] = 'quality_rejection'
                     self.finish(task,'not_ready','Final review failed; no further automatic correction is allowed')
@@ -369,6 +374,8 @@ class Engine:
         except (ContractError,KeyError,TypeError,UnicodeError) as exc:
             if task.get('failure_kind') == 'structured_response':
                 task['failure_kind'] = 'invalid_result'
+            if self.state.read(f'state/tasks/{task["id"]}/decisions/{stage}.json') is None:
+                decision(self.state, task, stage, task['failure_kind'], str(exc))
             self.finish(task,'not_ready',str(exc))
 
     def recover(self, batch):
