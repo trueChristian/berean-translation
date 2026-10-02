@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8b4b0423-13fe-42ec-b4b1-06e70b17aeda",
+    "response_id": "chatcmpl-EUIB1phD9rGzBgp5nhZRIOl8l83lC",
+    "usage": {
+      "completion_tokens": 682,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2921,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3603
+    }
+  },
+  "received_at": "2026-10-02T00:08:00+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> paragraph: \"Toothaches and Road Trips\" section, third paragraph (sentence with rhetorical question)",
+        "severity": "major",
+        "source_quote": "So, isn’t it better to “plan” for a bee sting and a stubbed toe?",
+        "suggested_fix": "Replace the translated sentence fragment \"तो, क्या यह बेहतर नहीं है कि हम मधुमक्खी के काटने और अंगुली ठोकने के लिए \\\"योजना\\\" न बना लें?\" with a phrasing that preserves the affirmative sense of the English question. For example: \"तो, क्या यह बेहतर नहीं है कि हम मधुमक्खी के काटने और अंगुली ठोकने के लिए \\\"योजना\\\" बना लें?\" (keep the surrounding HTML and punctuation unchanged).",
+        "translation_quote": "\"तो, क्या यह बेहतर नहीं है कि हम मधुमक्खी के काटने और अंगुली ठोकने के लिए \\\"योजना\\\" न बना लें?\""
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

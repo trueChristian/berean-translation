@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8d0c7bde-8494-4304-a17f-03d6ab67652b",
+    "response_id": "chatcmpl-EUIBFfs1bTcu9vtgOrOEtC7Hhu7nI",
+    "usage": {
+      "completion_tokens": 1187,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3181,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4368
+    }
+  },
+  "received_at": "2026-10-02T00:08:00+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p class=\"drop-cap\"> (first paragraph)",
+        "severity": "minor",
+        "source_quote": "the Green Dragon Farmer’s Market in Ephrata, PA, were trying their best to entice buyers",
+        "suggested_fix": "Use a standard Hindi transliteration and correct the apostrophe. Example: replace “ग्रीन ड्रैगन फ़ार्मर’स मार्केट” with “ग्रीन ड्रैगन फ़ार्मर’स मार्केट” → better: “ग्रीन ड्रैगन फ़ार्मर्स मार्केट” or “ग्रीन ड्रैगन फ़ार्मर्‍ज़ मार्केट” (choose one consistent transliteration). Preserve the surrounding HTML tags and punctuation.",
+        "translation_quote": "ग्रीन ड्रैगन फ़ार्मर’स मार्केट के विक्रेता अपने ताज़ा मछलियों की पंक्तियों को बर्फ पर बिछाकर..."
+      },
+      {
+        "location": "<p> (third paragraph)",
+        "severity": "minor",
+        "source_quote": "I had the privilege of attending Christian Aid Ministries’ first Annual Writers’ Conference.",
+        "suggested_fix": "Minor grammatical correction in Hindi: change “लेखकों की सम्मेलन” to the correct postposition “लेखकों के सम्मेलन”. Preserve HTML tags. Example replacement: “क्रिश्चियन एड मिशनरीज़ की पहली वार्षिक लेखकों की सम्मेलन में भाग लेने का सौभाग्य” → “क्रिश्चियन एड मिशनरीज़ के पहले वार्षिक लेखकों के सम्मेलन में भाग लेने का सौभाग्य”.",
+        "translation_quote": "मुझे क्रिश्चियन एड मिशनरीज़ की पहली वार्षिक लेखकों की सम्मेलन में भाग लेने का सौभाग्य मिला।"
+      },
+      {
+        "location": "<p> (fifth paragraph)",
+        "severity": "minor",
+        "source_quote": "The Berean Voice has a goal to provide printed material that will help readers navigate",
+        "suggested_fix": "Consistency/style: the source uses the English title \"The Berean Voice.\" In Hindi the translation currently uses “द बरीअन वॉइस”. For a clearer Hindi rendering either keep the English name intact (“The Berean Voice”) or transliterate without the Hindi definite article: “बेरियन वॉइस” or “बरीअन वॉइस”. Example: replace “द बरीअन वॉइस” with “The Berean Voice” or “बरीअन वॉइस” to match the source’s presentation. Preserve HTML tags.",
+        "translation_quote": "द बरीअन वॉइस का लक्ष्य मुद्रित सामग्री प्रदान करना है जो पाठकों को..."
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

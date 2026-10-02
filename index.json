@@ -2059,6 +2059,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
+      "html_sha256": "718c0e53398cb255a59f519469d62d71122e643c0ab079c79bcf63dec5211bc1",
+      "human_reviewed": false,
+      "id": "52074824-2feb-4fe4-96d0-a08ec72c3565",
+      "images": [
+        {
+          "alt": "हरा मैदान जिसमें गुलाबी और सफेद क्राउन वेच फूल हैं",
+          "public_path": "/images/articles/52074824-2feb-4fe4-96d0-a08ec72c3565-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.json",
+      "metadata_sha256": "3886e92906b6555e6f934aa3f0ac0945ec7a5fe5a0057299eeb053fe111f1734",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "संपादक से",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "07ae155b0b4cf661eb75ef859e9053bc0225d98c1e6b263b7fb39286306a2e8e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "संपादक से",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/62646d6d-87be-47a6-880f-0ade408a3402.html",
       "html_sha256": "c2381744ecb2378a1749d659931294db3d52a91d6f90d3936ee9a753a0740716",
       "human_reviewed": false,
@@ -2146,6 +2174,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "परिस्थितिजन्य अतिभार",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
+      "html_sha256": "81e5071e44ac6761a81c0fd84a2542497df544980e18b41d6cad08e876ecd933",
+      "human_reviewed": false,
+      "id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
+      "images": [
+        {
+          "alt": "पत्तों से घिरे वन के बीच में एक तंग पगडंडी",
+          "public_path": "/images/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.json",
+      "metadata_sha256": "b3d5f950e0a3f1c033fd3f54f62456fe0737d89a0b7ce70df8fd46ee32b50340",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "बच्चों का कोना",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
+      "status": "ready",
+      "subtitle": null,
+      "title": "जैमिन होशियार बनता है",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
