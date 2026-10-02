@@ -1895,6 +1895,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
+      "html_sha256": "db38ce4ccb7c0f4abf7d984d1d0ed06a5b355fedc091b09577b00e59c6280279",
+      "human_reviewed": false,
+      "id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
+      "images": [
+        {
+          "alt": "Bola lampu yang menyala di dalam lentera gelap.",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-1.jpg"
+        },
+        {
+          "alt": "Seekor kupu-kupu di antara bunga liar dan rerumputan yang cerah.",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.json",
+      "metadata_sha256": "b0acb43c5b7385f35442907ccee26d023401d46df0be1430f8d1d415237a30ca",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "A WORD FROM THE DOCTOR",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dealing with Cynicism",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
       "html_sha256": "c465e157928656c6a6b2d924615c5956ac0e87c327fa2998b11058a4a0f412b3",
       "human_reviewed": false,
@@ -2074,6 +2106,34 @@
       "status": "ready",
       "subtitle": "Rencana Allah bagi Laki-laki dan Perempuan",
       "title": "Sebuah Pacaran yang Berpusat pada Kristus",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ind/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
+      "html_sha256": "2354a7aa95cf00c17d3769d4ad33485d5256c071478698d87e62eec13fcdbdf8",
+      "human_reviewed": false,
+      "id": "93978dae-706d-43d4-abee-6b6e011683fa",
+      "images": [
+        {
+          "alt": "Ombak laut pecah di sepanjang garis pantai berpasir yang terlihat dari atas.",
+          "public_path": "/images/articles/93978dae-706d-43d4-abee-6b6e011683fa-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/93978dae-706d-43d4-abee-6b6e011683fa.json",
+      "metadata_sha256": "eba838f7a6f3f5967923bb35aa536da73bc531fb5dd3806dc663f763ccb2e1dc",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SISTER TO SISTER",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Circumstantial Overload",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {

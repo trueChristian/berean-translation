@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ec9fcb39-8128-42ba-8d2d-83fe3ecd9d6f",
+    "response_id": "chatcmpl-EUILBrDXkl2DqsXXZzzCAALGDX2q4",
+    "usage": {
+      "completion_tokens": 1630,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8804,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10434
+    }
+  },
+  "received_at": "2026-10-02T00:07:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Throughout article — section headings (e.g. <h2> elements)",
+        "severity": "minor",
+        "source_quote": "<h2>Cynicism</h2> ... <h2>Cynicism in the Bible</h2> ... <h2>The Opposite of Cynicism</h2> ... <h2>Look for Hope in the Right Places</h2> ... <h2>Remember that We Have Undeserved Hope</h2> ... <h2>Small Efforts Do Make a Difference</h2> ... <h2>A Few Things to Remember</h2> ... <h2>Conclusion</h2>",
+        "suggested_fix": "Translate the H2 headings into Indonesian to match the article body language. Preserve tag structure and attributes. Example replacements: <h2>Cynicism</h2> -> <h2>Sinisme</h2>; <h2>Cynicism in the Bible</h2> -> <h2>Sinisme dalam Alkitab</h2>; <h2>The Opposite of Cynicism</h2> -> <h2>Lawannya Sinisme</h2>; <h2>Look for Hope in the Right Places</h2> -> <h2>Carilah Harapan di Tempat yang Tepat</h2>; <h2>Remember that We Have Undeserved Hope</h2> -> <h2>Ingat bahwa Kita Menerima Harapan yang Tak Layak</h2>; <h2>Small Efforts Do Make a Difference</h2> -> <h2>Upaya Kecil Membuat Perbedaan</h2>; <h2>A Few Things to Remember</h2> -> <h2>Beberapa Hal yang Perlu Diingat</h2>; <h2>Conclusion</h2> -> <h2>Kesimpulan</h2>. Keep exact H2 tags and any attributes intact.",
+        "translation_quote": "<h2>Cynicism</h2> ... <h2>Cynicism in the Bible</h2> ... <h2>The Opposite of Cynicism</h2> ... <h2>Look for Hope in the Right Places</h2> ... <h2>Remember that We Have Undeserved Hope</h2> ... <h2>Small Efforts Do Make a Difference</h2> ... <h2>A Few Things to Remember</h2> ... <h2>Conclusion</h2>"
+      },
+      {
+        "location": "Body text — proper name spelling in paragraph describing reaction after finding rehab (near \"her husband nodded vigorously, while Elise continued to stare silently at the floor\")",
+        "severity": "minor",
+        "source_quote": "...her husband nodded vigorously, while Elise continued to stare silently at the floor.",
+        "suggested_fix": "Preserve the author's original spelling. If the authoritative English source contains an inconsistent spelling (both \"Elsie\" and \"Elise\" appear), keep the same sequence and spelling as in source.html. In the translation, change the affected phrase to match the source spelling exactly. Example (if source uses \"Elise\" at that exact place): replace the sentence with the same name spelling inside the same tags: \"...suaminya mengangguk hebat, sementara Elise terus menatap lantai dalam diam.\"",
+        "translation_quote": "...suaminya mengangguk hebat, sementara Elsie terus menatap lantai dalam diam."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

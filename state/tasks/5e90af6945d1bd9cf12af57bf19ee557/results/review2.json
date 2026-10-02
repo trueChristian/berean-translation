@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e99f4639-3103-4b2d-bf6b-ccc64e971329",
+    "response_id": "chatcmpl-EUIKzSErStprgjkJDyvsvKGLTVkT9",
+    "usage": {
+      "completion_tokens": 825,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3834,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4659
+    }
+  },
+  "received_at": "2026-10-02T00:07:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: “I knew something wasn’t right, but I couldn’t put my finger on it.” (English source, mid-article)",
+        "severity": "minor",
+        "source_quote": "I knew something wasn’t right, but I couldn’t put my finger on it.",
+        "suggested_fix": "Use an Indonesian idiom that preserves the intended meaning (unable to identify the cause), e.g. change to: “Saya tahu ada yang tidak beres, tetapi saya tidak bisa menunjuk penyebabnya.” — preserve the surrounding HTML and punctuation.",
+        "translation_quote": "Saya tahu ada yang tidak beres, tetapi saya tidak bisa menunjukkannya."
+      },
+      {
+        "location": "Heading: “Intentionally seek a breather” and corresponding paragraph",
+        "severity": "minor",
+        "source_quote": "Intentionally seek a breather",
+        "suggested_fix": "Improve natural Indonesian word order while keeping meaning. Suggested revision: change heading to “Carilah jeda secara sengaja” (or simply “Carilah jeda”) and in the paragraph, change any awkward phrasing accordingly. Preserve HTML tags.",
+        "translation_quote": "Cari jeda secara sengaja"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}
