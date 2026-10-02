@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "50a312a0-fb01-4181-a99a-4502578f78ed",
+    "response_id": "chatcmpl-EUX1xA0l7HYFU9dUtmAaNMyweV635",
+    "usage": {
+      "completion_tokens": 1799,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3818,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5617
+    }
+  },
+  "received_at": "2026-10-02T12:55:08+00:00",
+  "result": {
+    "html": "<article data-article-id=\"58d3859b-42f6-4cf1-80e6-fa847d9dc4a4\">\n  <figure>\n    <img src=\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-1.jpg\" alt=\"Forniture scolastiche colorate e uno stetoscopio su uno sfondo pallido\">\n  </figure>\n  <p class=\"drop-cap\">Da bambino potresti pensare di non poter fare la differenza nella vita delle persone che ti circondano, ma non è vero! I tuoi piccoli atti di gentilezza non saranno dimenticati in fretta. Essere un vero amico per qualcuno che soffre può cambiare per sempre la vita di quella persona.</p>\n  <p>Questa è la storia vera di “Hadassah” (non il suo vero nome), una ragazza che attendeva con molta impazienza l’inizio della scuola. Quando iniziò la prima elementare, che delusione scoprire che le bambine di seconda erano pronte a prendersela con qualcuno, o almeno così sembrava. Forse sarebbe stato meglio se Hadassah si fosse difesa, ma non lo fece. Invece scelse di comportarsi come se non le facesse male e cercò di ignorarle. Alcuni giorni andavano meglio di altri, ma purtroppo questo andò avanti per tre o quattro anni.</p>\n  <p>Certo, ci furono anche bei momenti, ma molte sere tornava a casa da scuola piangendo per gran parte del tragitto e desiderando di non dover tornare a scuola il giorno dopo!</p>\n  <p>Un giorno, una delle ragazze perse la penna. Era sicura che l’avesse rubata Hadassah. Questo fu molto angosciante per l’attenta Hadassah. Alla ricreazione successiva fu accusata di barare con le sue schede. Molte altre storie inventate circolarono tra le ragazze.</p>\n  <p>Tuttavia, c’era una bambina in quel gruppo di seconde, che diremo si chiamasse “Esther”. Era la migliore amica di Hadassah e la sostenne per tutti quegli anni difficili.</p>\n  <p>Esther era una bambina molto dolce e gentile, ed è soprattutto questo che Hadassah ricordava di lei. Esther aveva la fibrosi cistica e negli anni ’70 non c’erano tante opzioni di trattamento per quella malattia come oggi, così quei pazienti di solito morivano molto giovani. Man mano che la malattia di Esther peggiorava, i giorni in cui si sentiva abbastanza bene per andare a scuola divennero rari. Poiché Esther era benvoluta, i giorni in cui era a scuola erano speciali per tutti. Forse Esther si rese conto che sarebbe stata in cielo prima delle altre ragazze—non lo sappiamo con certezza. Ma insegnò alle ragazze una canzone, “Quanto dista il cielo”, che a Hadassah piace ancora cantare oggi!</p>\n  <p>Hadassah ricorda ancora di aver visto la squadra di emergenza passare davanti a casa sua quando portarono Esther in ospedale per l’ultima volta. Fu un gruppo di scolarette molto triste quando Esther morì all’età di 13 anni. Esther aveva toccato i cuori di molte persone nella sua breve vita, comprese le infermiere che si erano prese cura di lei durante il ricovero. Hadassah ricorda ancora di aver visto alcune delle infermiere piangere al funerale di Esther. Pensi che Hadassah dimenticherà mai Esther? Mai!</p>\n  <p>Oltre a essere la sua migliore amica, un altro raggio di luce per Hadassah fu che quando Esther era a scuola le altre ragazze non erano così cattive con lei (Hadassah). Capitarono le cose che verso la quarta elementare Esther era più spesso a scuola. Un giorno tornò a casa e raccontò ai suoi genitori ciò di cui era testimone a scuola—come le altre ragazze stessero contro Hadassah e la trattassero così male. Il padre di Esther sollevò questo problema al successivo incontro genitori/insegnanti. Che cambiamento giorno e notte iniziò il giorno dopo! Una delle ragazze perfino andò da Hadassah e si scusò. Finalmente poterono essere tutte amiche e oggi quelle ragazze sono le “vecchie amiche di scuola” di Hadassah.</p>\n  <p>Vale la pena stare accanto a qualcuno che viene trattato con cattiveria. Il tuo sostegno potrebbe essere ciò che Dio usa per aiutare il tuo amico a superare i momenti difficili in modo positivo! E condividilo con i tuoi genitori, loro possono aiutare a trovare un modo per cambiare il problema.</p>\n  <figure>\n    <img src=\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-2.jpg\" alt=\"Una classe vuota con file di banchi\" loading=\"lazy\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-3.jpg\" alt=\"Bambini che impilano le loro mani insieme\" loading=\"lazy\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg\" alt=\"Un’ambulanza che procede con le luci d’emergenza accese\" loading=\"lazy\">\n  </figure>\n</article>\n",
+    "section": "Angolo dei bambini",
+    "subtitle": null,
+    "title": "Un’influenza che cambia la vita"
+  }
+}

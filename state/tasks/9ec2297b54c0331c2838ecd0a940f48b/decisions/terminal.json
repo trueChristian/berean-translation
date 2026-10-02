@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph: “x-ray department” (source.html near “Radiation isn’t something that most people deal with on a regular basis. However, if you work in an x-ray department…” )",
+      "severity": "minor",
+      "source_quote": "if you work in an x-ray department",
+      "suggested_fix": "Use the standard Afrikaans term and correct spelling while preserving HTML structure: change to “as jy in ’n röntgenafdeling werk”",
+      "translation_quote": "as jy in ’n röntgendiftdepartment werk"
+    },
+    {
+      "location": "Paragraph: “squamous cell carcinoma” (source.html in the paragraph classifying skin cancers)",
+      "severity": "major",
+      "source_quote": "squamous cell carcinoma",
+      "suggested_fix": "Translate the medical term accurately into standard Afrikaans. Replace the incorrect literal/odd rendering with the conventional term, for example: “skuamsel‑karsinoom” or “plaveisel‑selkarsinoom”, preserving the HTML paragraph and tag structure.",
+      "translation_quote": "skuimige-sel-karsinoom"
+    },
+    {
+      "location": "Paragraph: “cured meats” (source.html in the section on nitrites / diet)",
+      "severity": "major",
+      "source_quote": "Nitrites are typically present in smoked and cured meats.",
+      "suggested_fix": "Correct the translation to convey ‘cured’ (i.e., preserved/cured), not ‘fried/spiced’. Suggested Afrikaans: “Nitriete is tipies in gerookte en gepekelde/gekureerde vleis teenwoordig.” Preserve the paragraph tags exactly.",
+      "translation_quote": "Nitriete is tipies in gerookte en gebraaide/gekruide vleis teenwoordig."
+    },
+    {
+      "location": "Paragraph: “CEA-125” example (source.html discussing screening tests)",
+      "severity": "minor",
+      "source_quote": "An example of a bad test, in this respect, is the CEA-125. CEA-125 is a chemical that is made by some types of cancer.",
+      "suggested_fix": "If the author intentionally used the identifier “CEA-125”, preserve it as printed. However, check for typographical clarity in Afrikaans: keep “CEA-125” but ensure surrounding wording is clear. Suggested wording: “’n Voorbeeld van ’n swak toets, in hierdie opsig, is die CEA-125. CEA-125 is ’n chemikalie wat deur sekere tipes kanker gemaak word.” (Preserve tags.)",
+      "translation_quote": "’n Voorbeeld van ’n swak toets, in hierdie opsig, is die CEA-125. CEA-125 is ’n chemikalie wat deur sekere tipes kanker gemaak word."
+    },
+    {
+      "location": "Paragraph: United States Preventive Services Task Force recommendation sentence (source.html describing mammogram interval)",
+      "severity": "minor",
+      "source_quote": "they recommend every other year for the use of mammograms for women between the ages of 50 and 75",
+      "suggested_fix": "Use a more natural Afrikaans phrasing for 'every other year' (biennially) while keeping the meaning: e.g. “hulle beveel die gebruik van mammogramme elke twee jaar aan vir vroue tussen 50 en 75 jaar.” Replace current phrase but preserve HTML.",
+      "translation_quote": "hulle beveel elkeen twee jaar die gebruik van mammogramme aan vir vroue tussen die ouderdomme van 50 en 75"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[114]: source /article[1]/p[45]/strong[2] ('start', 'strong', ()); translation /article[1]/p[45] ('end', 'p')",
+  "stage": "terminal"
+}

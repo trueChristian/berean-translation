@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<p>...ever learning, and never able to come to the knowledge of the truth –2 Timothy 3:7.</p>",
+      "severity": "major",
+      "source_quote": "ever learning, and never able to come to the knowledge of the truth –2 Timothy 3:7.",
+      "suggested_fix": "Oversett eller lokaliser den bibelske referansen og/eller boktittelen til norsk i samme linje, og behold kapittel/vers-nummeret uendret. Forslag: «alltid lærende, og aldri i stand til å komme til sannhetens kunnskap – 2. Timoteus 3,7.» (merk mellomrom etter tankestrek og norsk bokstavform for bibelboken). Behold HTML/em-taggene som i originalen.",
+      "translation_quote": "alltid lærende, og aldri i stand til å komme til sannhetens kunnskap –2 Timothy 3:7."
+    },
+    {
+      "location": "<p>...Felix Manz ... nearly a century prior ...</p> (later paragraph near execution)",
+      "severity": "major",
+      "source_quote": "Felix Manz",
+      "suggested_fix": "Retur til korrekt navnstavemåte brukt i kildeteksten: «Felix Manz». I den aktuelle setningen der oversettelsen nå har «Feliz Manz», endre «Feliz» til «Felix». Behold originale tegnsetting og anførselstegn hvis til stede.",
+      "translation_quote": "Feliz Manz"
+    },
+    {
+      "location": "<p>...Mayor Rhan ...</p> (later paragraph describing aftermath)",
+      "severity": "major",
+      "source_quote": "Rudolf Rhan",
+      "suggested_fix": "Korriger den feilstavede formen i oversettelsen til samme form som i kilden: «Rudolf Rhan». I avsnittet hvor oversettelsen nå har «Rhudlof Rhan», rett dette til «Rudolf Rhan».",
+      "translation_quote": "Rhudlof Rhan"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[1]; missing: 3:7; extra: none",
+  "stage": "terminal"
+}

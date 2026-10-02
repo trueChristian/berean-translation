@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:08+00:00",
+  "response": {
+    "content": "{\n  \"html\": \"<article data-article-id=\\\"58d3859b-42f6-4cf1-80e6-fa847d9dc4a4\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-1.jpg\\\" alt=\\\"Färgglada skolmaterial och ett stetoskop på en ljus bakgrund\\\">\\n  </figure>\\n  <p class=\\\"drop-cap\\\">Som barn kanske du tror att du inte kan göra någon skillnad i människors liv runt omkring dig, men det är inte sant! Dina små vänliga handlingar kommer inte att glömmas i första taget. Att vara en sann vän för någon som har ont kan förändra den personens liv för alltid.</p>\\n  <p>Det här är den sanna historien om ”Hadassah” (inte hennes riktiga namn) en ung flicka som verkligen såg fram emot att börja skolan. När hon började i första klass blev det en besvikelse att upptäcka att flickorna i andra klass var redo att vara elaka mot någon, eller så verkade det. Kanske hade det varit bättre om Hadassah hade stått upp mot dem, men det gjorde hon inte. Istället valde hon att låtsas som om det inte gjorde ont och försökte ignorera dem. Vissa dagar var bättre än andra, men tyvärr fortsatte detta i tre eller fyra år.</p>\\n  <p>Visst fanns det även goda stunder, men många kvällar gick hon hem från skolan och grät större delen av vägen och önskade att hon inte behövde gå tillbaka till skolan nästa dag!</p>\\n  <p>En dag tappade en av flickorna sin penna. Hon var säker på att Hadassah hade stulit den. Detta var mycket upprörande för den mycket samvetsgranna Hadassah. Nästa rast blev hon anklagad för att fuska på sina läxa-kort. Många andra påhittade historier cirkulerade också bland flickorna.</p>\\n  <p>Men det fanns en liten flicka i den andra klassens grupp som vi ska säga hette ”Esther”. Hon var Hadassahs bästa vän och stöttade henne genom alla de där svåra åren.</p>\\n  <p>Esther var en mycket mild, söt flicka, vilket mest är vad Hadassah mindes henne för. Esther hade cystisk fibros och på 1970-talet fanns det inte lika många behandlingsmöjligheter för den sjukdomen som nu finns, så de patienterna dog vanligtvis mycket unga. När Esthers sjukdom blev värre, blev de dagar då hon kände sig tillräckligt bra för att vara i skolan sällsynta. Eftersom Esther var omtyckt var de dagar då hon var i skolan speciella för alla. Kanske förstod Esther att hon skulle komma till himlen före de andra flickorna—men det vet vi inte säkert. Men hon lärde flickorna en sång, ”Hur långt är himlen”, som Hadassah fortfarande tycker om att sjunga idag!</p>\\n  <p>Hadassah minns fortfarande att hon såg ambulansen köra förbi hennes hus när de tog Esther till sjukhuset för sista gången. Det var en mycket sorgsen grupp skoltjejer när Esther dog vid 13 års ålder. Esther hade berört många människors hjärtan under sitt korta liv, inklusive de sjuksköterskor som hade vårdat henne under hennes sjukhusvistelse. Hadassah minns fortfarande att hon såg några av sjuksköterskorna gråta på Esthers begravning. Tror du att Hadassah någonsin kommer att glömma Esther? Aldrig!</p>\\n  <p>Förutom att vara hennes bästa vän var en annan ljuspunkt för Hadassah att när Esther var i skolan var de andra flickorna inte lika elaka mot henne (Hadassah). Det råkade bli så att ungefär i fjärde klass var Esther oftare i skolan. En dag gick hon hem och berättade för sina föräldrar vad hon bevittnat i skolan—hur de andra flickorna vände sig mot Hadassah och var så elaka mot henne. Esthers pappa tog upp detta problem på nästa föräldra-/lärarmöte. Vilken natt-och-dag-förändring som började redan nästa dag! En av flickorna kom till och med fram till Hadassah och bad om ursäkt. Till slut kunde de alla vara vänner och idag är de där flickorna Hadassahs \\\"gamla skolvänner\\\".</p>\\n  <p>Det är värt det att stå vid sidan av någon som blir illa behandlad. Ditt stöd kan vara vad Gud använder för att hjälpa din vän att gå igenom sina svåra tider på ett bra sätt! Och dela det med dina föräldrar, de kan hjälpa till att hitta ett sätt att förändra problemet.</p>\\n  <figure>\\n    <img src=\\\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-2.jpg\\\" alt=\\\"Ett tomt klassrum med rader av bänkar\\\" loading=\\\"lazy\\\">\\n  </figure>\\n  <figure>\\n    <img src=\\\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-3.jpg\\\" alt=\\\"Barn som lägger sina händer ovanpå varandra\\\" loading=\\\"lazy\\\">\\n  </figure>\\n  <figure>\\n    <img src=\\\"/images/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4-4.jpg\\\" alt=\\\"En ambulans som kör med sina nödljus på\\\" loading=\\\"lazy\\\">\\n  </figure>\\n</article>\\n\",\n  \"section\": \"Barnhörnan\",\n  \"subtitle\": null,\n  \"title\": \"En livsförändrande påverkan\"\n}",
+    "content_bytes": 4720,
+    "content_evidence_truncated": false,
+    "content_sha256": "0025c8ea9a40376f0c203765faa80bbf613d9cebc802cdd848ebff007701537c",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1427,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3515,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4942
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

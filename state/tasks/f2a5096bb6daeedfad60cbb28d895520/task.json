@@ -2,7 +2,6 @@
   "article_id": "55b18915-e213-448c-8fe1-d430e195e768",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "47aea9c7779142f682cf789c33821e13",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:13+00:00",
   "events": [
@@ -43,9 +42,29 @@
         },
         "total_tokens": 10858
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 5452,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10267,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 15719
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[86]: source /article[1]/p[28]/em[1] ('start', 'em', ()); translation /article[1]/p[28] ('end', 'p')",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "source.html — paragraph containing Matthew 14:22 quote (line with «…straightway Jesus constrained his disciples to get into a ship…»).",
@@ -62,6 +81,7 @@
       "translation_quote": "(several examples) «Και εν τη τετάρτη αγρυπνία της νυκτός ήλθεν προς αυτούς ο Ιησούς, περπατών επί της θαλάσσης. Και ότε οι μαθηταί τον είδαν περιπατούντα επί της θαλάσσης, εταράχθησαν, λέγοντες, Εστίν πνεύμα· και εκραύγασαν από φόβου. Αλλά αμέσως ο Ιησούς ελάλησεν προς αυτούς, λέγων, Θαρρήσατε· εγώ ειμί· μη φοβεῖσθε –Ματθαίος 14:25-27.»"
     }
   ],
+  "finished_at": "2026-10-02T12:55:09+00:00",
   "id": "f2a5096bb6daeedfad60cbb28d895520",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ell",
@@ -141,7 +161,7 @@
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/47641161e24a4c36535a9aad69db399a5b74987fc191a5346da200439748cac7.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "73de90ede959b89d4fd696b2e9474c165d018804ec574570e47ca5f30322f740",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

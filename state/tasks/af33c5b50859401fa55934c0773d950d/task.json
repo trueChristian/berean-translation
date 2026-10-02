@@ -2,7 +2,6 @@
   "article_id": "55b18915-e213-448c-8fe1-d430e195e768",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "47aea9c7779142f682cf789c33821e13",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -43,9 +42,29 @@
         },
         "total_tokens": 9936
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 4595,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 192,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9537,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14132
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[86]: source /article[1]/p[28]/em[1] ('start', 'em', ()); translation /article[1]/p[28] ('end', 'p')",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "source.html — opening blockquote (Matthew 14:28-29)",
@@ -76,6 +95,7 @@
       "translation_quote": "\"...Paul wrote, <em>But the natural man receiveth not the things of the Spirit of God... –1 Corinthians 2:14.</em> Men of faith, are men whose lives are governed by spiritual realities that are incomprehensible to the natural man. If you will be a man of faith, expect to be misunderstood...\""
     }
   ],
+  "finished_at": "2026-10-02T12:55:09+00:00",
   "id": "af33c5b50859401fa55934c0773d950d",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ben",
@@ -155,7 +175,7 @@
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/47641161e24a4c36535a9aad69db399a5b74987fc191a5346da200439748cac7.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "73de90ede959b89d4fd696b2e9474c165d018804ec574570e47ca5f30322f740",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "71a8a627-ef21-4efb-9dd1-36d5124ac192",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "47aea9c7779142f682cf789c33821e13",
   "campaign": "gh-37007803504",
   "created_at": "2026-10-02T12:38:12+00:00",
   "events": [
@@ -43,9 +42,29 @@
         },
         "total_tokens": 7313
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 3333,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 256,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7044,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10377
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[33]: source /article[1]/p[9]/em[2] ('start', 'em', ()); translation /article[1]/p[9] ('end', 'p')",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "translation.title",
@@ -76,6 +95,7 @@
       "translation_quote": "tout ce qu'il entendait était ce que 1 Corinthiens chapitre 14 appelle des <em>langues</em> (tongues) et comme il ne comprenait pas la langue et qu'aucune <em>interprétation</em> n'était donnée, il ne pouvait pas être édifié."
     }
   ],
+  "finished_at": "2026-10-02T12:55:09+00:00",
   "id": "a788894cf73f5b3ef73e6c1b0e03a623",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "fra",
@@ -155,7 +175,7 @@
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/9bbeaa248aca4a5e53cf4e710626c35ad1fcffe1f073f387e31c0a9f5dd08124.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c8c09427567d4bc1f9b13eb8f03d2de65724d1971e30094c9e925e9045066f8d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
