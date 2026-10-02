@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d693883b-fb7d-4b0b-8d13-89de53f016e0",
+    "response_id": "chatcmpl-EULBpp3HHQBa8k7vGpkJnOHOL3PMD",
+    "usage": {
+      "completion_tokens": 1245,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4015,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5260
+    }
+  },
+  "received_at": "2026-10-02T00:14:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>“In time the mess was cleaned up, and Rick looked into rebuilding. The quotes were higher than expected, so he opted to do some of the work himself. He also took on a part-time job to provide more income. Our boys were old enough to help, yet they couldn’t do much without Rick’s direction.”</p>",
+        "severity": "minor",
+        "source_quote": "“In time the mess was cleaned up, and Rick looked into rebuilding. The quotes were higher than expected, so he opted to do some of the work himself. He also took on a part-time job to provide more income. Our boys were old enough to help, yet they couldn’t do much without Rick’s direction.”",
+        "suggested_fix": "Use idiomatic Swedish passive/word order and plural for “quotes/estimates”. For example: “Så småningom städades röran upp, och Rick undersökte möjligheten att bygga upp igen. Anbuden var högre än väntat, så han valde att göra en del av arbetet själv. Han tog också ett deltidsjobb för att få mer inkomst. Våra pojkar var tillräckligt gamla för att hjälpa till, men de kunde inte göra mycket utan Ricks anvisningar.” Preserve original HTML tags and placement.",
+        "translation_quote": "“Så småningom blev röran städad upp, och Rick funderade på att bygga upp igen. Offerten var högre än väntat, så han valde att göra en del av arbetet själv. Han tog också ett deltidsjobb för att få mer inkomst. Våra pojkar var tillräckligt gamla för att hjälpa till, men de kunde inte göra mycket utan Ricks anvisningar.”"
+      },
+      {
+        "location": "<p>“That was the straw that broke the camel’s back,” Becky said. “I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.”</p>",
+        "severity": "minor",
+        "source_quote": "“That was the straw that broke the camel’s back,” Becky said. “I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.”",
+        "suggested_fix": "Small grammatical correction for natural Swedish phrasing: change “Jag blev orolig när jag hörde honom gäspa mitt i natten och visste att han inte sov.” to “Jag blev orolig när jag hörde honom gäspa mitt i natten och förstod att han inte sov.” Preserve original HTML tags and placement.",
+        "translation_quote": "“Det var droppen som fick bägaren att rinna över,” sa Becky. “Jag blev orolig när jag hörde honom gäspa mitt i natten och visste att han inte sov.”"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

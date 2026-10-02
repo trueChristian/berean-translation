@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ef82c5dd-243a-4dbc-a4e6-1dfaf180e886",
+    "response_id": "chatcmpl-EULC7scfl3bIskHdQlinqkMCKspmp",
+    "usage": {
+      "completion_tokens": 2113,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6625,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8738
+    }
+  },
+  "received_at": "2026-10-02T00:14:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph beginning “Fåglar är mångfaldiga.” (third full paragraph after first image)",
+        "severity": "major",
+        "source_quote": "The robin opens up the choir in early spring, but his song is soon surpassed in beauty by the song sparrow and again by the rose-breasted grosbeak. The song of the wren trumps them all for longevity and vibrancy. The canary sings in a cage, while the nightingale sings in the dark. The robins sing in the rain. The buntings fill in the heat of the day when other birds are silent.",
+        "suggested_fix": "Either translate the English bird common names into standard contemporary Swedish (e.g. \"song sparrow\" → appropriate Swedish name or scientific name if no common name is used) or preserve the original English names consistently and mark them as vernacular in English (for example keep them but add the scientific name in parentheses). Maintain the author's intended meaning and preserve the surrounding HTML tags and punctuation. Example: replace “song sparrow” with its Swedish equivalent (or with the scientific name in parentheses) and do likewise for “rose-breasted grosbeak” and “buntings.”",
+        "translation_quote": "Rödhaken öppnar kören tidigt på våren, men hans sång överträffas snart i skönhet av song sparrow och återigen av rose-breasted grosbeak. Gärdsmygens sång slår dem alla vad gäller livslängd och livskraft. Kanariefågeln sjunger i ett bur, medan näktergalen sjunger i mörkret. Rödhakorna sjunger i regnet. Buntings fyller i dagens hetta när andra fåglar är tysta."
+      },
+      {
+        "location": "source.html — paragraph beginning “Försummelse. cowbird (Molothrus) är också svart…”",
+        "severity": "major",
+        "source_quote": "The cowbird is also black (the female is brown/gray). She will be found sitting on a high vantage, shamelessly calling to her lovers by her shrill screeching. She then has the audacity to lay her egg in another bird’s nest, forcing them to raise her offspring.",
+        "suggested_fix": "Consistently render the species name into Swedish (\"cowbird\" → \"kopparsvala\" is not correct; find the standard Swedish common name for Molothrus or else present the English common name and include the scientific name in parentheses). Also preserve capitalization and punctuation. Keep the explanatory parenthetical \"(Molothrus)\" if desired, but do not start the paragraph with a lower‑case English word. Example: change the paragraph start to “Försummelse. Bylärka (Molothrus) är också svart (honan är brun/grå).” or translate to the appropriate Swedish common name, keeping the HTML structure unchanged.",
+        "translation_quote": "Försummelse. cowbird (Molothrus) är också svart (honan är brun/grå). Hon kommer att hittas sittande på en hög utkiksplats, skamlöst kallande på sina älskare med sitt skärande skri. Hon har sedan fräckheten att lägga sitt ägg i en annan fågels bo, tvingande dem att uppfostra hennes avkomma."
+      },
+      {
+        "location": "source.html — multiple locations where single English bird names or idioms remain untranslated (e.g. first descriptive paragraphs and later sections)",
+        "severity": "minor",
+        "source_quote": "happy as a lark; Killdeer; starling; grackle; crow; buntings; canary",
+        "suggested_fix": "Either translate idiomatic English phrases (\"happy as a lark\") into natural contemporary Swedish or explicitly preserve them as quoted English idioms. For species names that have common Swedish equivalents (for example \"killdeer\", \"starling\", \"grackle\"), prefer the Swedish common name for readability and consistency. Ensure consistency across the article (don't translate some species and leave others in English). Keep all original HTML tags and attributes as-is.",
+        "translation_quote": "Uttrycket “happy as a lark” ... Killdeer visar också ... Av sådana är de värdelösa svartfåglarna, stararna och gracklarna. Kråkor visar sig också ... Buntings fyller ... Kanariefågeln sjunger i ett bur ..."
+      },
+      {
+        "location": "source.title",
+        "severity": "minor",
+        "source_quote": "ALL NATURE SINGS",
+        "suggested_fix": "Title translation is acceptable but stylistically \"HELA NATUREN SJUNGER\" reads awkward in Swedish; consider \"ALLA NATURER\" would be wrong — recommended alternatives are “ALLA NATUREN SJUNGER” is unidiomatic. Prefer “HELA NATURSKAPELSEN SJUNGER” or simply “ALLA NATURER SJUNGER” only if it preserves the author's tone. If you retain \"HELA NATUREN SJUNGER\", no doctrinal change is made; this is a style suggestion only. Preserve the title HTML element unchanged.",
+        "translation_quote": "HELA NATUREN SJUNGER"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

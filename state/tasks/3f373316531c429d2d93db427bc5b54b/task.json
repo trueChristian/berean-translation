@@ -2,7 +2,6 @@
   "article_id": "93978dae-706d-43d4-abee-6b6e011683fa",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "194e6e44971545a48bf431815c171173",
   "campaign": "gh-36910785828",
   "created_at": "2026-10-01T18:59:40+00:00",
   "events": [
@@ -62,17 +61,44 @@
         },
         "total_tokens": 6306
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1245,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4015,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5260
+      }
     }
   ],
   "findings": [
     {
-      "location": "<p>Ibland är denna typ av överbelastning inte allmänt känd. Traumatiska händelser i våra närmaste kretsar får ofta bön, ekonomiskt stöd och veckouppdateringar om budgeten. Samtidigt lider andra troende djupt i kulisserna med liten uppriktighet eller ekonomisk hjälp.</p>",
-      "severity": "major",
-      "source_quote": "At the same time, other saints are suffering deeply on the sidelines with little recognition or financial aid.",
-      "suggested_fix": "Replace \"liten uppriktighet eller ekonomisk hjälp\" with wording that accurately reflects the source meaning: e.g. \"med lite erkännande eller ekonomisk hjälp.\" Preserve the surrounding HTML exactly as in the translation and only change the erroneous phrase.",
-      "translation_quote": "Samtidigt lider andra troende djupt i kulisserna med liten uppriktighet eller ekonomisk hjälp."
+      "location": "<p>“In time the mess was cleaned up, and Rick looked into rebuilding. The quotes were higher than expected, so he opted to do some of the work himself. He also took on a part-time job to provide more income. Our boys were old enough to help, yet they couldn’t do much without Rick’s direction.”</p>",
+      "severity": "minor",
+      "source_quote": "“In time the mess was cleaned up, and Rick looked into rebuilding. The quotes were higher than expected, so he opted to do some of the work himself. He also took on a part-time job to provide more income. Our boys were old enough to help, yet they couldn’t do much without Rick’s direction.”",
+      "suggested_fix": "Use idiomatic Swedish passive/word order and plural for “quotes/estimates”. For example: “Så småningom städades röran upp, och Rick undersökte möjligheten att bygga upp igen. Anbuden var högre än väntat, så han valde att göra en del av arbetet själv. Han tog också ett deltidsjobb för att få mer inkomst. Våra pojkar var tillräckligt gamla för att hjälpa till, men de kunde inte göra mycket utan Ricks anvisningar.” Preserve original HTML tags and placement.",
+      "translation_quote": "“Så småningom blev röran städad upp, och Rick funderade på att bygga upp igen. Offerten var högre än väntat, så han valde att göra en del av arbetet själv. Han tog också ett deltidsjobb för att få mer inkomst. Våra pojkar var tillräckligt gamla för att hjälpa till, men de kunde inte göra mycket utan Ricks anvisningar.”"
+    },
+    {
+      "location": "<p>“That was the straw that broke the camel’s back,” Becky said. “I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.”</p>",
+      "severity": "minor",
+      "source_quote": "“That was the straw that broke the camel’s back,” Becky said. “I became alarmed when I heard him yawning in the middle of the night and knew that he was not sleeping.”",
+      "suggested_fix": "Small grammatical correction for natural Swedish phrasing: change “Jag blev orolig när jag hörde honom gäspa mitt i natten och visste att han inte sov.” to “Jag blev orolig när jag hörde honom gäspa mitt i natten och förstod att han inte sov.” Preserve original HTML tags and placement.",
+      "translation_quote": "“Det var droppen som fick bägaren att rinna över,” sa Becky. “Jag blev orolig när jag hörde honom gäspa mitt i natten och visste att han inte sov.”"
     }
   ],
+  "finished_at": "2026-10-02T00:14:26+00:00",
   "id": "3f373316531c429d2d93db427bc5b54b",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "swe",
@@ -116,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 70,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/6b48763402450c7e0df39647d2a787036f46aac8668dba9a3257ef7c81d3ee1a.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

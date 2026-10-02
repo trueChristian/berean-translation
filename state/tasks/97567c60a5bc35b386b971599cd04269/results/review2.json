@@ -1,0 +1,92 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "4c561ba8-4c38-455d-a4ab-2e70accae79e",
+    "response_id": "chatcmpl-EULC5AMMcRKZKEPNA5z99jgx3HR3e",
+    "usage": {
+      "completion_tokens": 2293,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12168,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 14461
+    }
+  },
+  "received_at": "2026-10-02T00:14:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Throughout article — multiple Bible quotations (e.g., Ecclesiastes 12:1 paragraph, Genesis paragraphs, Mark and Paul quotations, Ephesians and 1 Peter quotations)",
+        "severity": "critical",
+        "source_quote": "Ecclesiastes 12:1 says, “Remember now thy Creator...”; Genesis 2:18-24 and Genesis 1:26-28 (full English quotations); Mark 10:7; Mark 10:8-9; 2 Corinthians 6:14-15; 1 Corinthians 7:39; 1 Corinthians 11:3; Ephesians 6:1-3; Proverbs 3:1-2; Ephesians 5:21,22,24 and 5:25,28,29 and verse 33; 1 Peter 3:7; Psalm 144:12; Ephesians 5:24-29 (all presented in English in source)",
+        "suggested_fix": "Render each printed English Bible quotation into Swedish in a way that faithfully conveys the exact wording and meaning of the printed English text used in the source. Preserve the quoted text boundaries and the verse references. Example: replace the English quotation marks and English verses with Swedish translations that reflect the source wording (do not substitute a different English/Swedish Bible version text that changes meaning). Ensure every Bible quotation that appears in the source is translated (or presented in Swedish) at the same locations in the HTML, preserving tags and punctuation around them.",
+        "translation_quote": "Ecclesiastes 12:1 says, “Remember now thy Creator...”; (same full English quotations remain in translation) "
+      },
+      {
+        "location": "Genesis quotation paragraph immediately after “Låt oss gå till början i Genesis.”",
+        "severity": "critical",
+        "source_quote": "“And the LORD God said, It is not good that the man should be alone; I will make him an help meet for him....” (Genesis 2:18-24)",
+        "suggested_fix": "Translate the entire Genesis 2:18-24 quotation into Swedish consistent with the printed English wording in the source, and place it in the same paragraph, preserving the verse reference in parentheses. Do not leave the English quotation in the Swedish text.",
+        "translation_quote": "“And the LORD God said, It is not good that the man should be alone; I will make him an help meet for him....” (Genesis 2:18-24)"
+      },
+      {
+        "location": "Paragraph beginning ““And God said, Let us make man in our image...” (Genesis 1:26-28)",
+        "severity": "critical",
+        "source_quote": "“And God said, Let us make man in our image...” (Genesis 1:26-28)",
+        "suggested_fix": "Translate this quoted Genesis 1:26-28 passage into Swedish in place, preserving the verse reference and ensuring the Swedish rendering conveys the same printed English words and theological meaning.",
+        "translation_quote": "“And God said, Let us make man in our image...” (Genesis 1:26-28)"
+      },
+      {
+        "location": "Paragraph quoting Genesis 2:18 later: “And the Lord God said, It is not good that the man should be alone; I will make him an help meet for him” (Genesis 2:18).",
+        "severity": "critical",
+        "source_quote": "“And the Lord God said, It is not good that the man should be alone; I will make him an help meet for him” (Genesis 2:18).",
+        "suggested_fix": "Translate the quoted Genesis 2:18 into Swedish here, mirroring the source's printed English meaning and keeping the verse reference in parentheses.",
+        "translation_quote": "“And the Lord God said, It is not good that the man should be alone; I will make him an help meet for him” (Genesis 2:18)."
+      },
+      {
+        "location": "Multiple Ephesians quotations preserved in English (e.g., Ephesians 5:21,22,24 and 5:25,28,29 and later Ephesians 5:24-29)",
+        "severity": "critical",
+        "source_quote": "Ephesians 5:21,22,24 says, “Submitting yourselves one to another in the fear of God. Wives, submit yourselves unto your own husbands, as unto the Lord...”; and Ephesians 5:25,28,29 and 5:24-29 quotations (all in English)",
+        "suggested_fix": "Translate each of these Ephesians quotations into Swedish at the same locations, preserving the theological content and the verse references exactly as the source printed them.",
+        "translation_quote": "Ephesians 5:21,22,24 says, “Submitting yourselves one to another in the fear of God. Wives, submit yourselves unto your own husbands, as unto the Lord...\" (English text left unchanged)"
+      },
+      {
+        "location": "Paragraphs quoting 2 Corinthians, 1 Corinthians, Mark, 1 Peter, Psalm, Proverbs etc. — many Bible quotes left in English",
+        "severity": "critical",
+        "source_quote": "Examples: “Be ye not unequally yoked together with unbelievers...” (2 Corinthians 6:14-15); “The wife is bound by the law...” (1 Corinthians 7:39); Mark 10:7-9; 1 Peter 3:7; Psalm 144:12; Proverbs 3:1-2 (all quoted in English in the source)",
+        "suggested_fix": "Translate each printed English scripture quotation into Swedish at the same positions, ensuring the Swedish wording reflects the printed English meaning in the source and retaining verse references. Do not leave the English in the Swedish article.",
+        "translation_quote": "(These scripture quotations remain in English throughout the translation)"
+      },
+      {
+        "location": "Paragraph under section 2) — first line: “Therefore Bshall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24).",
+        "severity": "major",
+        "source_quote": "“Therefore Bshall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24).",
+        "suggested_fix": "Correct the source-quoted typo/garbled word 'Bshall' by rendering the verse as in source English (with the same printed words) translated into Swedish. If the source contains a typographical error inside the quoted verse, reflect the intended printed English wording when translating into Swedish (i.e., use the standard wording corresponding to Genesis 2:24) and keep the verse reference. Preserve HTML structure.",
+        "translation_quote": "“Therefore Bshall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24)."
+      },
+      {
+        "location": "Section heading translation: source section 'INSPIRATIONS FOR YOUTH' → translation 'INSPIRATIONER FÖR UNGDOM'",
+        "severity": "minor",
+        "source_quote": "INSPIRATIONS FOR YOUTH",
+        "suggested_fix": "Use the standard contemporary Swedish plural and idiom for this section heading: consider 'INSPIRATIONER FÖR UNGDOMEN' or 'INSPIRATIONER FÖR UNGDOM' if editorial style prefers uninflected nouns, but ensure consistency with site style. No HTML structural change required.",
+        "translation_quote": "INSPIRATIONER FÖR UNGDOM"
+      },
+      {
+        "location": "Paragraph under 5) (Swedish): 'Om de är jämlikt okade och Gud välsignar dem med barn...'",
+        "severity": "major",
+        "source_quote": "\"If they are equally yoked and God blesses them with children, it becomes a joyful haven...\" (Genesis-based argument)",
+        "suggested_fix": "Fix the mistranslation/typo 'jämlikt okade' — render the intended Swedish phrase for 'equally yoked' idiomatically and correctly, e.g. 'om de är jämlikt okade' is incorrect; use 'om de är jämlikt okade' is not a valid Swedish form. Suggested correction: 'om de är jämlikt okade' → better: 'om de är jämlikt okade' should be replaced with 'om de är jämlikt okade (\"equally yoked\")' — more properly: 'om de är jämlikt ihopbundna' or 'om de är jämlikt okade' is unclear. Prefer: 'om de är rätt förenade' or 'om de är jämlikt okade' should be replaced by 'om de bär ett jämlikt ok' or 'om de är jämlikt förbundna'. Choose one idiomatic Swedish rendering and apply it consistently.",
+        "translation_quote": "Om de är jämlikt okade och Gud välsignar dem med barn, blir det en glädjefylld hamn där Gud kan bo."
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

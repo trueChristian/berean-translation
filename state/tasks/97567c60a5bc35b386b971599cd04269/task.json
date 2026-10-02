@@ -2,7 +2,6 @@
   "article_id": "80e78d22-936e-48de-885a-f9a8898d5e42",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "194e6e44971545a48bf431815c171173",
   "campaign": "gh-36910785828",
   "created_at": "2026-10-01T18:59:40+00:00",
   "events": [
@@ -62,38 +61,94 @@
         },
         "total_tokens": 19766
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 2293,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12168,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14461
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "<p>Adam och Eva hade aldrig haft någon följeslagare förut. Adam och Eva hade aldrig låtit hjärtats känslor gå före. Något hände i Adam och Evas hjärtan. Adam var en ”ensiktsman” och Eva var en ”ensflicka”. De gav aldrig sina hjärtas passioner till någon annan. Gud har den planen för oss också. Guds plan för med sig välsignelser.</p>",
+      "location": "Throughout article — multiple Bible quotations (e.g., Ecclesiastes 12:1 paragraph, Genesis paragraphs, Mark and Paul quotations, Ephesians and 1 Peter quotations)",
+      "severity": "critical",
+      "source_quote": "Ecclesiastes 12:1 says, “Remember now thy Creator...”; Genesis 2:18-24 and Genesis 1:26-28 (full English quotations); Mark 10:7; Mark 10:8-9; 2 Corinthians 6:14-15; 1 Corinthians 7:39; 1 Corinthians 11:3; Ephesians 6:1-3; Proverbs 3:1-2; Ephesians 5:21,22,24 and 5:25,28,29 and verse 33; 1 Peter 3:7; Psalm 144:12; Ephesians 5:24-29 (all presented in English in source)",
+      "suggested_fix": "Render each printed English Bible quotation into Swedish in a way that faithfully conveys the exact wording and meaning of the printed English text used in the source. Preserve the quoted text boundaries and the verse references. Example: replace the English quotation marks and English verses with Swedish translations that reflect the source wording (do not substitute a different English/Swedish Bible version text that changes meaning). Ensure every Bible quotation that appears in the source is translated (or presented in Swedish) at the same locations in the HTML, preserving tags and punctuation around them.",
+      "translation_quote": "Ecclesiastes 12:1 says, “Remember now thy Creator...”; (same full English quotations remain in translation) "
+    },
+    {
+      "location": "Genesis quotation paragraph immediately after “Låt oss gå till början i Genesis.”",
+      "severity": "critical",
+      "source_quote": "“And the LORD God said, It is not good that the man should be alone; I will make him an help meet for him....” (Genesis 2:18-24)",
+      "suggested_fix": "Translate the entire Genesis 2:18-24 quotation into Swedish consistent with the printed English wording in the source, and place it in the same paragraph, preserving the verse reference in parentheses. Do not leave the English quotation in the Swedish text.",
+      "translation_quote": "“And the LORD God said, It is not good that the man should be alone; I will make him an help meet for him....” (Genesis 2:18-24)"
+    },
+    {
+      "location": "Paragraph beginning ““And God said, Let us make man in our image...” (Genesis 1:26-28)",
+      "severity": "critical",
+      "source_quote": "“And God said, Let us make man in our image...” (Genesis 1:26-28)",
+      "suggested_fix": "Translate this quoted Genesis 1:26-28 passage into Swedish in place, preserving the verse reference and ensuring the Swedish rendering conveys the same printed English words and theological meaning.",
+      "translation_quote": "“And God said, Let us make man in our image...” (Genesis 1:26-28)"
+    },
+    {
+      "location": "Paragraph quoting Genesis 2:18 later: “And the Lord God said, It is not good that the man should be alone; I will make him an help meet for him” (Genesis 2:18).",
+      "severity": "critical",
+      "source_quote": "“And the Lord God said, It is not good that the man should be alone; I will make him an help meet for him” (Genesis 2:18).",
+      "suggested_fix": "Translate the quoted Genesis 2:18 into Swedish here, mirroring the source's printed English meaning and keeping the verse reference in parentheses.",
+      "translation_quote": "“And the Lord God said, It is not good that the man should be alone; I will make him an help meet for him” (Genesis 2:18)."
+    },
+    {
+      "location": "Multiple Ephesians quotations preserved in English (e.g., Ephesians 5:21,22,24 and 5:25,28,29 and later Ephesians 5:24-29)",
+      "severity": "critical",
+      "source_quote": "Ephesians 5:21,22,24 says, “Submitting yourselves one to another in the fear of God. Wives, submit yourselves unto your own husbands, as unto the Lord...”; and Ephesians 5:25,28,29 and 5:24-29 quotations (all in English)",
+      "suggested_fix": "Translate each of these Ephesians quotations into Swedish at the same locations, preserving the theological content and the verse references exactly as the source printed them.",
+      "translation_quote": "Ephesians 5:21,22,24 says, “Submitting yourselves one to another in the fear of God. Wives, submit yourselves unto your own husbands, as unto the Lord...\" (English text left unchanged)"
+    },
+    {
+      "location": "Paragraphs quoting 2 Corinthians, 1 Corinthians, Mark, 1 Peter, Psalm, Proverbs etc. — many Bible quotes left in English",
+      "severity": "critical",
+      "source_quote": "Examples: “Be ye not unequally yoked together with unbelievers...” (2 Corinthians 6:14-15); “The wife is bound by the law...” (1 Corinthians 7:39); Mark 10:7-9; 1 Peter 3:7; Psalm 144:12; Proverbs 3:1-2 (all quoted in English in the source)",
+      "suggested_fix": "Translate each printed English scripture quotation into Swedish at the same positions, ensuring the Swedish wording reflects the printed English meaning in the source and retaining verse references. Do not leave the English in the Swedish article.",
+      "translation_quote": "(These scripture quotations remain in English throughout the translation)"
+    },
+    {
+      "location": "Paragraph under section 2) — first line: “Therefore Bshall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24).",
       "severity": "major",
-      "source_quote": "Adam was a “one-woman man,” and Eve was a “one-man woman.”",
-      "suggested_fix": "Replace the two neologisms with a clear Swedish equivalent that preserves the English idiom and meaning. For example: \"Adam var en man trogen endast en kvinna, och Eva var en kvinna trogen endast en man.\" Preserve the surrounding HTML tags and punctuation.",
-      "translation_quote": "Adam var en ”ensiktsman” och Eva var en ”ensflicka”. De gav aldrig sina hjärtas passioner till någon annan. Gud har den planen för oss också. Guds plan för med sig välsignelser."
+      "source_quote": "“Therefore Bshall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24).",
+      "suggested_fix": "Correct the source-quoted typo/garbled word 'Bshall' by rendering the verse as in source English (with the same printed words) translated into Swedish. If the source contains a typographical error inside the quoted verse, reflect the intended printed English wording when translating into Swedish (i.e., use the standard wording corresponding to Genesis 2:24) and keep the verse reference. Preserve HTML structure.",
+      "translation_quote": "“Therefore Bshall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24)."
     },
     {
-      "location": "<h2>Five goals for this Christ-Centered Courtship series.</h2>",
+      "location": "Section heading translation: source section 'INSPIRATIONS FOR YOUTH' → translation 'INSPIRATIONER FÖR UNGDOM'",
       "severity": "minor",
-      "source_quote": "Five goals for this Christ-Centered Courtship series.",
-      "suggested_fix": "Translate the heading into Swedish to match the rest of the article. For example: \"Fem mål för denna serie om Kristuscentrerad förlovning.\" Keep the exact tag <h2> and its position unchanged.",
-      "translation_quote": "Five goals for this Christ-Centered Courtship series."
+      "source_quote": "INSPIRATIONS FOR YOUTH",
+      "suggested_fix": "Use the standard contemporary Swedish plural and idiom for this section heading: consider 'INSPIRATIONER FÖR UNGDOMEN' or 'INSPIRATIONER FÖR UNGDOM' if editorial style prefers uninflected nouns, but ensure consistency with site style. No HTML structural change required.",
+      "translation_quote": "INSPIRATIONER FÖR UNGDOM"
     },
     {
-      "location": "Multiple <h2> headings (e.g. <h2>God’s Plan for Male and Female</h2>, <h2>1) God brings Eve to Adam.</h2>, <h2>2) Leaving and cleaving in unity for life.</h2>, <h2>3) They shall be one flesh.</h2>, <h2>5) God planned for us to have children.</h2>, <h2>7) A godly marriage.</h2>, <h2>8) Being heirs together of the grace of life.</h2>, <h2>9) A blessed and secure home.</h2>, <h2>10) As Christ and the church.</h2>)",
-      "severity": "minor",
-      "source_quote": "(Various English section/subsection headings in source)",
-      "suggested_fix": "Translate these section and subsection headings into Swedish for consistency. Example translations: \"Guds plan för man och kvinna\", \"1) Gud för Eva till Adam\", \"2) Att lämna och hålla fast i livslång enhet\", \"3) De ska vara ett kött\", \"5) Gud planerade att vi skulle få barn\", \"7) Ett gudfruktigt äktenskap\", \"8) Att vara gemena arvingar av livets nåd\", \"9) Ett välsignat och tryggt hem\", \"10) Som Kristus och kyrkan\". Preserve the <h2> tags and their order.",
-      "translation_quote": "(Headings left in English throughout the translation) "
-    },
-    {
-      "location": "Various paragraph-level Bible-quotation attributions and verse references (for example paragraphs quoting Ephesians, Proverbs, Genesis etc.)",
-      "severity": "minor",
-      "source_quote": "Biblical quotations in the source are presented in English (King James-style)",
-      "suggested_fix": "The source uses English Bible quotations; the translation generally preserves those English quotations which is acceptable per instruction. However, for consistency of language in running text you may optionally add short Swedish explanatory lead-ins where currently an English Bible-book name appears in running Swedish text (for example change \"Ephesians 5:21,22,24 says\" to \"Efesierbrevet 5:21, 22, 24 säger\"), while keeping the literal quoted English verses intact. Do not alter the quoted Bible text itself. Preserve HTML structure.",
-      "translation_quote": "The translation retains the English quoted Bible verses and English book names in many places (e.g. \"Ephesians 5:21,22,24 says...\")."
+      "location": "Paragraph under 5) (Swedish): 'Om de är jämlikt okade och Gud välsignar dem med barn...'",
+      "severity": "major",
+      "source_quote": "\"If they are equally yoked and God blesses them with children, it becomes a joyful haven...\" (Genesis-based argument)",
+      "suggested_fix": "Fix the mistranslation/typo 'jämlikt okade' — render the intended Swedish phrase for 'equally yoked' idiomatically and correctly, e.g. 'om de är jämlikt okade' is incorrect; use 'om de är jämlikt okade' is not a valid Swedish form. Suggested correction: 'om de är jämlikt okade' → better: 'om de är jämlikt okade' should be replaced with 'om de är jämlikt okade (\"equally yoked\")' — more properly: 'om de är jämlikt ihopbundna' or 'om de är jämlikt okade' is unclear. Prefer: 'om de är rätt förenade' or 'om de är jämlikt okade' should be replaced by 'om de bär ett jämlikt ok' or 'om de är jämlikt förbundna'. Choose one idiomatic Swedish rendering and apply it consistently.",
+      "translation_quote": "Om de är jämlikt okade och Gud välsignar dem med barn, blir det en glädjefylld hamn där Gud kan bo."
     }
   ],
+  "finished_at": "2026-10-02T00:14:26+00:00",
   "id": "97567c60a5bc35b386b971599cd04269",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "swe",
@@ -137,13 +192,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 60,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/e0ca6854ef7d1689d17ab4ffac7f5e07248e977a63b564f24d6ed100c4113579.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

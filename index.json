@@ -5635,6 +5635,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
+      "html_sha256": "471fb7ffbbf4681ead22078d85d5552906510dd83276705bb05f415597db6542",
+      "human_reviewed": false,
+      "id": "93978dae-706d-43d4-abee-6b6e011683fa",
+      "images": [
+        {
+          "alt": "Havsvågor som bryter mot en sandig strand sett ovanifrån.",
+          "public_path": "/images/articles/93978dae-706d-43d4-abee-6b6e011683fa-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/93978dae-706d-43d4-abee-6b6e011683fa.json",
+      "metadata_sha256": "5c65e39d9af79ea66e91110b88309f5f20aafc2d273e3085ddb7d1a3d47976b4",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "SYSTER TILL SYSTER",
+      "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
+      "source_translation_key": "d7b1cfda837405a0bee2e24a6e95433b89a84907e574aecb4065ec2a4607dbac",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Omständighetsmässig överbelastning",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.html",
       "html_sha256": "e9bab3a6f99448636ebf9c9aff73f83edeb965f1e0f723dc612f5c3b5b4c3bb9",
       "human_reviewed": false,
