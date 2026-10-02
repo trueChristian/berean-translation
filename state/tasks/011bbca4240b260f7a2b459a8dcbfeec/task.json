@@ -2,7 +2,6 @@
   "article_id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42cf595b7f8a46d19bb5eeb707121514",
   "campaign": "gh-36910662071",
   "created_at": "2026-10-01T18:57:44+00:00",
   "events": [
@@ -62,24 +61,51 @@
         },
         "total_tokens": 7086
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1214,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 768,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3852,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5066
+      }
     }
   ],
   "findings": [
     {
-      "location": "<p>“Jamin.” It was Grandma. The porch light showed her in her old rocker. A heavy comforter lay on her shoulders.</p>",
-      "severity": "major",
-      "source_quote": "“Jamin.” It was Grandma. The porch light showed her in her old rocker. A heavy comforter lay on her shoulders.",
-      "suggested_fix": "Translate the clause to match the source: keep “on her shoulders” (not another body part). For example, replace the translated sentence with: “«Τζάμιν.» Ήταν η γιαγιά. Το φως της βεράντας την έδειχνε στην παλιά της κουνιστή πολυθρόνα. Ένας βαριός επιπλέρντης (ή «βαριά κουβέρτα») ήταν στους ώμους της.” Preserve existing HTML tags and structure.",
-      "translation_quote": "«Τζάμιν.» Ήταν η γιαγιά. Το φως της βεράντας την έδειχνε στην παλιά της κουνιστή πολυθρόνα. Μία βαριά κουβέρτα ήταν στα πόδια της."
+      "location": "Paragraph: \"Very well, then Jamin would be simple.\" (third paragraph)",
+      "severity": "minor",
+      "source_quote": "Very well, then Jamin would be simple. Kenny would be smart.",
+      "suggested_fix": "Translate the nuance so it clearly conveys the intended sense of \"simple\" (i.e., \"not clever\" or \"plain/unknowing\") rather than the neutral word \"απλός.\" Suggested rendering: «Καλώς λοιπόν — ο Τζάμιν θα ήταν ανόητος/άχρηστος/λίγο έξυπνος» (choose one that matches the tone). Preserve original sentence order and punctuation.",
+      "translation_quote": "Πολύ καλά, λοιπόν ο Τζάμιν θα ήταν απλός. Ο Κέννι θα ήταν έξυπνος."
     },
     {
-      "location": "<p>The fall webworms had been at work, and their web curtains shuttered from branches overhead.</p>",
+      "location": "Paragraph: \"Darkness stained the ground around Kenny.\" (ninth paragraph)",
       "severity": "minor",
-      "source_quote": "The fall webworms had been at work, and their web curtains shuttered from branches overhead.",
-      "suggested_fix": "Render the English image “musky” / webworm curtains faithfully without introducing ‘mold’ if unintended. Suggested Greek phrasing: “Οι fall webworms (ή ‘οι αραχνοσκώληκες του φθινοπώρου’) είχαν δουλέψει, και οι ιστούς τους κρέμονταν σαν κουρτίνες από τα κλαδιά πάνω.” Preserve HTML tags and sentence placement.",
-      "translation_quote": "Οι κάμπιες του φθινοπώρου είχαν δουλέψει, και οι μακριές τους ιστοί κρέμονταν από τα κλαδιά πάνω."
+      "source_quote": "Darkness stained the ground around Kenny.",
+      "suggested_fix": "Use an idiomatic Greek active construction to convey that darkness spread over or stained the ground. Suggested rendering: «Το σκοτάδι είχε λεκιάσει/σκεπάσει το χώμα γύρω από τον Κέννι.» This keeps the original meaning and reads naturally in Greek.",
+      "translation_quote": "Το σκοτάδι είχε λεκιαστεί στο χώμα γύρω από τον Κέννι."
+    },
+    {
+      "location": "Image alt text",
+      "severity": "minor",
+      "source_quote": "A narrow path winding through a leafy woodland",
+      "suggested_fix": "Adjust word order and idiom for natural Modern Greek alt text. Suggested rendering: «Στενό μονοπάτι που διασχίζει φυλλωμένο δάσος» or «Στενό μονοπάτι που στριφογυρίζει μέσα σε φυλλωμένο δάσος». Replace the current phrasing with one of these.",
+      "translation_quote": "Μονοπάτι στενό που στρίβει μέσα από φυλλώδες δάσος"
     }
   ],
+  "finished_at": "2026-10-02T05:27:32+00:00",
   "id": "011bbca4240b260f7a2b459a8dcbfeec",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ell",
@@ -123,13 +149,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/a7ca25068c1bad9f392aef90030e0bae4b2e168a2dbdfb445b23493e0ef481c1.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

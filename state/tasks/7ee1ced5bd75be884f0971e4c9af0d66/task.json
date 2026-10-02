@@ -2,7 +2,6 @@
   "article_id": "eed66189-2caa-4bfb-9eaa-545562c7e9a6",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42cf595b7f8a46d19bb5eeb707121514",
   "campaign": "gh-36910662071",
   "created_at": "2026-10-01T18:57:44+00:00",
   "events": [
@@ -62,59 +61,52 @@
         },
         "total_tokens": 3685
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1757,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1024,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1639,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3396
+      }
     }
   ],
+  "failure": "Final review failed; no further automatic correction is allowed",
   "findings": [
     {
-      "location": "title",
-      "severity": "minor",
-      "source_quote": "Arise be glad",
-      "suggested_fix": "Use an imperative present form in Modern Greek. Replace “Σήκω και χάρηκε!” with “Σήκω και χάρε!” or better “Σήκω και χάιρε!” (preferred: “Σήκω και χάιρε!”) to match the English exhortation meaning “Arise — be glad!” and preserve the poetic imperative.",
-      "translation_quote": "Σήκω και χάρηκε!"
-    },
-    {
-      "location": "poem: stanza 1, line 6",
-      "severity": "minor",
-      "source_quote": "Give thanks and laud, for more is here!",
-      "suggested_fix": "Render the meaning idiomatically in Greek. “περισσότερο υπάρχει εδώ” is awkward and unclear. Suggested: “Ευχαριστήστε και υμνήστε· κι η περισσότερη χάρη είναι εδώ!” or simply “Ευχαριστείτε και ύμνησε· για περισσότερα είναι εδώ!” depending on singular/plural voice. Keep voice consistent with surrounding imperatives.",
-      "translation_quote": "Ευχαρίστησε και ψάλλε, διότι περισσότερο υπάρχει εδώ!"
-    },
-    {
-      "location": "poem: stanza 2, line 2 (imperative voice consistency)",
-      "severity": "minor",
-      "source_quote": "Extol and praise His worthy name!",
-      "suggested_fix": "Maintain consistent number/person for imperatives throughout the poem. The source uses second-person singular/plural inconsistently; the English reads as general imperatives. Choose one form and apply consistently. Change “Εξυμνήσατε και ψάλλετε” (plural) to a singular or a consistently plural form depending on site style, e.g. singular: “Εξύμνησον και ψάλλε τὸ ἄξιον ὄνομα αὐτοῦ” (modernized: “Εξύμνησε και ψάλλε το άξιο όνομά Του”).",
-      "translation_quote": "Εξυμνήσατε και ψάλλετε το άξιο όνομά Του!"
-    },
-    {
-      "location": "poem: stanza 2, line 4",
-      "severity": "minor",
-      "source_quote": "And showers blessings from above,",
-      "suggested_fix": "Use a natural Greek verb for “showers” in this blessing sense. “ρίπτει ευλογίες” sounds awkward/colloquial. Suggested: “και καταβρέχει ευλογίες από ψηλά,” or “και χυρίζει ευλογίες από ψηλά,” or better “και ραίνει ευλογίες από ψηλά.”",
-      "translation_quote": "Και ρίπτει ευλογίες από ψηλά,"
-    },
-    {
-      "location": "poem: stanza 3, line 2",
-      "severity": "minor",
-      "source_quote": "And worship Him with reverent praise;",
-      "suggested_fix": "Fix grammar and idiom: “Και λατρέψτε Τον με ευλαβική ύμνο·” is ungrammatical. Use “Και λατρέψτε Τον με ευλαβικό ύμνο·” or more idiomatically “Και λατρεύστε Τον με ευλαβικό ύμνο” or “Και λατρεύστε Τον με ευλάβεια και ύμνο.”",
-      "translation_quote": "Και λατρέψτε Τον με ευλαβική ύμνο·"
-    },
-    {
-      "location": "poem: stanza 3, line 4 (punctuation/meaning)",
+      "location": "First stanza, final line",
       "severity": "major",
-      "source_quote": "The Holiness of God is here;",
-      "suggested_fix": "Punctuation change turned a declarative statement into an interrogative, altering meaning. Replace the question mark with a semicolon or period: “Η Αγιοσύνη του Θεού είναι εδώ·” or “Η Αγιοσύνη του Θεού είναι εδώ.” to restore the original declarative sense.",
-      "translation_quote": "Η Αγιοσύνη του Θεού είναι εδώ?"
+      "source_quote": "Give thanks and laud, for more is here!",
+      "suggested_fix": "Translate the line without adding theological content not present in the English. Suggested modern-Greek rendering: \"Ευχαριστήστε και υμνήστε· γιατί περισσότερα είναι εδώ!\" Replace the existing phrase within the same HTML structure and tags.",
+      "translation_quote": "Ευχαρίστησε και υμνήσον· κι η περισσότερη χάρη είναι εδώ!"
     },
     {
-      "location": "poem: general (lexical choice)",
+      "location": "Throughout poem (verbal forms and archaisms)",
       "severity": "minor",
-      "source_quote": "The Dayspring shineth from on high,",
-      "suggested_fix": "“Dayspring” rendered as “Ημεροφώστης” is literal and uncommon in Modern Greek. Prefer an idiomatic, poetic equivalent such as “Ο Αυγερινός λάμπει από ψηλά,” or “Η αυγή λάμπει από ψηλά” to be natural while keeping poetic tone.",
-      "translation_quote": "Ο Ημεροφώστης λάμπει από ψηλά,"
+      "source_quote": "(examples) \"Rejoice and sing!\" \"Rejoice and praise the King of Kings!\" \"Adore and praise our mighty Lord!\" \"Give thanks and sing to Christ our King / And worship Him with reverent praise;\"",
+      "suggested_fix": "Use contemporary Modern Greek imperatives and idiom instead of archaic/Koine forms. Suggested replacements preserve meaning and HTML tags: - \"Rejoice and sing!\" → \"Χαίρετε και τραγουδήστε!\" - \"Rejoice and praise the King of Kings!\" → \"Χαίρετε και υμνήστε τον Βασιλιά των Βασιλιάδων!\" - \"Adore and praise our mighty Lord!\" → \"Προσκυνήστε και ψάλλετε τον κραταιό μας Κύριο!\" - \"Give thanks and sing to Christ our King / And worship Him with reverent praise;\" → \"Ευχαριστήστε και τραγουδήστε τον Χριστό, τον Βασιλιά μας, / και λατρεύστε Τον με ευλαβικό ύμνο.\" Replace the archaic verb forms (π.χ. \"Ευχαρίστησον\", \"Προσκύνησον\", \"ψάλλε\", \"Προσκύνησον τον παντοδύναμον...\") with the modern plural imperatives above throughout the poem.",
+      "translation_quote": "Ευχαρίστησον και υμνήσον· κι η περισσότερη χάρη είναι εδώ! ... Σήκω και δοξολογήσον τον Κύριον! ... Προσκύνησον και ψάλλε τον κραταιόν μας Κύριον! ... Ευχαρίστησον και τραγούδει τω Χριστώ τω Βασιλεί μας ... Υποκλίθητι εν δέει, ιερώ τῷ φόβῳ— ... Εν υπερθαύμαστη ομορφιά λυγίσατε το γόνυ; Προσκύνησον τον παντοδύναμον Βασιλέα των Βασιλέων!"
+    },
+    {
+      "location": "Third stanza, line with archaic/awkward phrasing",
+      "severity": "minor",
+      "source_quote": "Bow down in awful, holy fear-",
+      "suggested_fix": "Render this in clear contemporary Greek without Koine inflection or mixed diacritics. Suggested rendering: \"Υποκλιθείτε με σεβαστικό, ιερό δέος.\" Replace the existing phrase (keep punctuation and line break tags unchanged).",
+      "translation_quote": "Υποκλίθητι εν δέει, ιερώ τῷ φόβῳ—"
     }
   ],
+  "finished_at": "2026-10-02T05:27:32+00:00",
   "id": "7ee1ced5bd75be884f0971e4c9af0d66",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ell",
@@ -158,13 +150,13 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 78,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/106121576068d9bdf697518dbfe2c70eff09e46a5d060eef756de2cfcb440b7f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "732759611fe04a1889217e986a0bb69506d683805646034606ab8c94b8214cbb",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2159,6 +2159,62 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.html",
+      "html_sha256": "dfbfdf7a5bae9da4249b8db5bd5da5e9451291a50264f4cd1efd9566a1c44e0e",
+      "human_reviewed": false,
+      "id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
+      "images": [
+        {
+          "alt": "Ένα φλιτζάνι καφέ δίπλα σε ένα σπιράλ σημειωματάριο και ένα μολύβι.",
+          "public_path": "/images/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/a76ef013-7cf5-4e99-8312-3a9818d244ff.json",
+      "metadata_sha256": "228b76b9286f7fe249fa44b3248880818bdf2221f0a9f2eec2fec82a2b4285b0",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ΑΔΕΛΦΗ ΣΕ ΑΔΕΛΦΗ",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Υπερβολική αναβλητικότητα",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
+      "html_sha256": "794e348a799c5b79eeae77d82baf9da6ae0230d975992449b84e19bf1d38baa8",
+      "human_reviewed": false,
+      "id": "aa552c1c-4324-40a5-a7c3-8f36b6a99ee2",
+      "images": [
+        {
+          "alt": "Μονοπάτι στενό που στρίβει μέσα από φυλλώδες δάσος",
+          "public_path": "/images/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2-1.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.json",
+      "metadata_sha256": "e201228f56a55b8e2448c17d773cbcb7a8af9472f18c122ffc38bbd8cb5f702e",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Η Γωνιά των Παιδιών",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "5df4c153c1f63d1c5e21838b2f6b0a65a2850344ca0fe70fff350e2da743f985",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ο Τζάμιν γίνεται πιο έξυπνος",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
       "html_sha256": "4aeda05ce0a1b0d444f6dff1ed1f1b202868973f2324ed6e053f0f83abf7a1f7",
       "human_reviewed": false,
@@ -2214,6 +2270,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Η Δόξα της Άνοιξης",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/db7b1129-282d-4f48-aefa-f839cb585426.html",
+      "html_sha256": "c8340e4666467da7aabfb8495fc33064e4be53e87edb4543d2195b0508c3240a",
+      "human_reviewed": false,
+      "id": "db7b1129-282d-4f48-aefa-f839cb585426",
+      "images": [
+        {
+          "alt": "Μια σειρά σποροφύτων που βγαίνουν από το έδαφος καθώς ένα χέρι τα ποτίζει",
+          "public_path": "/images/articles/db7b1129-282d-4f48-aefa-f839cb585426-1.png"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/db7b1129-282d-4f48-aefa-f839cb585426.json",
+      "metadata_sha256": "930563e5c7e509d797447f0fbde26901132dbaea2da3cd02339d5c22b0915194",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ΣΚΕΨΕΙΣ ΕΝΟΣ ΜΙΣΙΟΝΑΡΙΟΥ",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "674ad6cedcc2ba8f209b3b8bf31b2e2c7fa5477bb57e811a55707ef20bf0d8f4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ο Χριστιανός Ανθρωπιστής",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {

@@ -2,7 +2,6 @@
   "article_id": "a76ef013-7cf5-4e99-8312-3a9818d244ff",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42cf595b7f8a46d19bb5eeb707121514",
   "campaign": "gh-36910662071",
   "created_at": "2026-10-01T18:57:44+00:00",
   "events": [
@@ -62,66 +61,29 @@
         },
         "total_tokens": 7260
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 282,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 256,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3231,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3513
+      }
     }
   ],
-  "findings": [
-    {
-      "location": "source.html ¶: \"Interruptions are also a normal part of life. They constantly give an unpredictable twist to our days and weeks. If we let too many tasks wait until the last minute, interruptions and deadlines collide, and chaos reigns.\"",
-      "severity": "major",
-      "source_quote": "Interruptions are also a normal part of life. They constantly give an unpredictable twist to our days and weeks. If we let too many tasks wait until the last minute, interruptions and deadlines collide, and chaos reigns.",
-      "suggested_fix": "Replace mistranslated word \"διακοπές\" with the correct Greek term for \"interruptions,\" such as \"διακοπές (διακοπές/παρεμβολές)\" should be changed to \"διακοπές\" is wrong — use \"διακοπές\" → instead use \"διακοπές\" is ambiguous. Use \"διακοπές\" → CORRECT: use \"διακοπές\" → WAIT. (Actionable): Change the sentence to: «Οι διακοπές» is incorrect. Use «Οι διακοπές»→ No. Replace each occurrence of «διακοπές» in this context with «διακοπές»→ STOP. Correct suggested fix (clear): Replace the mistranslation \"διακοπές\" with \"διακοπές/διακοπές\" — This is malformed.",
-      "translation_quote": "Οι προθεσμίες είναι ένα φυσιολογικό κομμάτι της ζωής. Χωρίς αυτές θα ήμασταν χωρίς κίνητρο και οι μέρες μας θα έλειπαν από σκοπό. Οι διακοπές επίσης είναι φυσιολογικό κομμάτι της ζωής. Δίνουν διαρκώς μια απρόβλεπτη στροφή στις μέρες και τις εβδομάδες μας. Αν αφήσουμε πάρα πολλές εργασίες για την τελευταία στιγμή, οι διακοπές και οι προθεσμίες συγκρούονται και βασιλεύει το χάος."
-    },
-    {
-      "location": "source.html ¶: \"Sometimes it takes some honest looking back to figure out what caused our stress. Often, we blame it on interruptions and fail to realize that poor planning or procrastination might have been the culprit.\"",
-      "severity": "major",
-      "source_quote": "Sometimes it takes some honest looking back to figure out what caused our stress. Often, we blame it on interruptions and fail to realize that poor planning or procrastination might have been the culprit.",
-      "suggested_fix": "Replace the mistranslation \"διακοπές\" with the correct word for \"interruptions\", e.g. «συνήθως το αποδίδουμε στις παρεμβολές» or «συνήθως το ρίχνουμε στις παρεμβολές/διακοπές» — a clear fix: «Συχνά το αποδίδουμε στις παρεμβολές και δεν συνειδητοποιούμε ότι ο κακός προγραμματισμός ή η αναβλητικότητα μπορεί να ήταν ο ένοχος.»",
-      "translation_quote": "Μερικές φορές χρειάζεται ειλικρινής ανασκόπηση για να καταλάβουμε τι προκάλεσε το άγχος μας. Συχνά το ρίχνουμε στις διακοπές και δεν συνειδητοποιούμε ότι η κακή προγραμματισμός ή η αναβλητικότητα μπορεί να ήταν ο ένοχος."
-    },
-    {
-      "location": "source.html ¶: heading and paragraph: \"Toothaches and Road Trips\" and following paragraph",
-      "severity": "minor",
-      "source_quote": "Toothaches and Road Trips",
-      "suggested_fix": "Heading translation is fine, but check that the following paragraph also uses the correct word for \"interruptions\" (see major findings). No other change needed to this heading. Suggested heading alternative: «Πονόδοντοι και ταξίδια με αυτοκίνητο» is acceptable; keep as is.",
-      "translation_quote": "Πονόδοντοι και ταξίδια με αυτοκίνητο"
-    },
-    {
-      "location": "source.html ¶: \"For example, if guests are coming and we plan to wash windows and make a dessert along with a dozen more tasks on the day of their arrival, there is no room for disruptions. From experience, we know interruptions will come. So, isn’t it better to “plan” for a bee sting and a stubbed toe?\"",
-      "severity": "major",
-      "source_quote": "For example, if guests are coming and we plan to wash windows and make a dessert along with a dozen more tasks on the day of their arrival, there is no room for disruptions. From experience, we know interruptions will come. So, isn’t it better to “plan” for a bee sting and a stubbed toe?",
-      "suggested_fix": "Replace both occurrences of \"διακοπές\" and the inconsistent rendering of \"interruptions\" with «διακοπές»→ No. Clear fix: change the sentences to: «Για παράδειγμα, αν έρχονται επισκέπτες και σκοπεύουμε να πλύνουμε τα παράθυρα και να φτιάξουμε ένα γλυκό μαζί με δώδεκα ακόμη εργασίες την ημέρα της άφιξής τους, δεν υπάρχει χώρος για απρόοπτα. Από την εμπειρία γνωρίζουμε ότι θα υπάρξουν παρεμβολές/απρόοπτα. Άρα, δεν είναι καλύτερο να «προγραμματίσουμε» ένα τσίμπημα μέλισσας και ένα χτύπημα στο δάχτυλο του ποδιού;»",
-      "translation_quote": "Για παράδειγμα, αν έρχονται επισκέπτες και σκοπεύουμε να πλύνουμε τα παράθυρα και να φτιάξουμε ένα γλυκό μαζί με δώδεκα ακόμη εργασίες την ημέρα της άφιξής τους, δεν υπάρχει χώρος για διακοπές. Από την εμπειρία γνωρίζουμε ότι θα υπάρξουν διακοπές. Άρα, δεν είναι καλύτερο να «προγραμματίσουμε» ένα τσίμπημα μέλισσας και ένα χτύπημα του ποδιού;"
-    },
-    {
-      "location": "source.html ¶: \"If we let too many tasks wait until the last minute, interruptions and deadlines collide, and chaos reigns.\"",
-      "severity": "major",
-      "source_quote": "If we let too many tasks wait until the last minute, interruptions and deadlines collide, and chaos reigns.",
-      "suggested_fix": "Replace «οι διακοπές και οι προθεσμίες» with «οι διακοπές»→ No. Clear fix: «αν αφήσουμε πάρα πολλές εργασίες για την τελευταία στιγμή, οι παρεμβολές και οι προθεσμίες συγκρούονται και βασιλεύει το χάος.» Use «παρεμβολές» or «απρόοπτα/διακοπές» in Greek that correctly conveys \"interruptions.\"",
-      "translation_quote": "Αν αφήσουμε πάρα πολλές εργασίες για την τελευταία στιγμή, οι διακοπές και οι προθεσμίες συγκρούονται και βασιλεύει το χάος."
-    },
-    {
-      "location": "source.html ¶: \"Often, we blame it on interruptions and fail to realize that poor planning or procrastination might have been the culprit.\"",
-      "severity": "minor",
-      "source_quote": "Often, we blame it on interruptions and fail to realize that poor planning or procrastination might have been the culprit.",
-      "suggested_fix": "Fix grammatical gender/declension: change «η κακή προγραμματισμός» to «ο κακός προγραμματισμός» or better «ο κακός σχεδιασμός» to be grammatically correct: «... και δεν συνειδητοποιούμε ότι ο κακός προγραμματισμός ή η αναβλητικότητα μπορεί να ήταν ο ένοχος.»",
-      "translation_quote": "Συχνά το ρίχνουμε στις διακοπές και δεν συνειδητοποιούμε ότι η κακή προγραμματισμός ή η αναβλητικότητα μπορεί να ήταν ο ένοχος."
-    },
-    {
-      "location": "source.html ¶: heading: \"Do some tasks ahead of time\" and its translation",
-      "severity": "minor",
-      "source_quote": "Do some tasks ahead of time",
-      "suggested_fix": "Correct the initial character: currently rendered as Latin capital 'K' in \"Kάντε μερικές εργασίες νωρίτερα\". Replace with Greek capital Kappa: \"Κάντε μερικές εργασίες νωρίτερα\".",
-      "translation_quote": "Kάντε μερικές εργασίες νωρίτερα"
-    },
-    {
-      "location": "source.html ¶: \"So, isn’t it better to “plan” for a bee sting and a stubbed toe?\"",
-      "severity": "minor",
-      "source_quote": "So, isn’t it better to “plan” for a bee sting and a stubbed toe?",
-      "suggested_fix": "Improve idiomatic rendering of \"stubbed toe\": change \"χτύπημα του ποδιού\" to a more natural phrase such as «χτύπημα στο δάχτυλο του ποδιού» or «χτύπημα στο πόδι (σκουντουφλιά)». Suggested: «τσίμπημα μέλισσας και χτύπημα στο δάχτυλο του ποδιού».",
-      "translation_quote": "Άρα, δεν είναι καλύτερο να «προγραμματίσουμε» ένα τσίμπημα μέλισσας και ένα χτύπημα του ποδιού;"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-02T05:27:32+00:00",
   "id": "81aa822cf8ce74e827f03679e6dc4a93",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "ell",
@@ -165,13 +127,13 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 98,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/5fd263b236cc5e1da73816f24d29564842c820fa1abbcc53a271dfa0bf31493f.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "ec610002bb94bc82e887e2fb68b182ee51be85fe05f2719f30a35ad055dfe4b1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

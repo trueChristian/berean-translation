@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "0cabad74-799b-4205-8872-4b6a1d07a514",
+    "response_id": "chatcmpl-EULDRCiXfy36dvnXxRA4E7HE2h2R5",
+    "usage": {
+      "completion_tokens": 1757,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1639,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3396
+    }
+  },
+  "received_at": "2026-10-02T05:27:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First stanza, final line",
+        "severity": "major",
+        "source_quote": "Give thanks and laud, for more is here!",
+        "suggested_fix": "Translate the line without adding theological content not present in the English. Suggested modern-Greek rendering: \"Ευχαριστήστε και υμνήστε· γιατί περισσότερα είναι εδώ!\" Replace the existing phrase within the same HTML structure and tags.",
+        "translation_quote": "Ευχαρίστησε και υμνήσον· κι η περισσότερη χάρη είναι εδώ!"
+      },
+      {
+        "location": "Throughout poem (verbal forms and archaisms)",
+        "severity": "minor",
+        "source_quote": "(examples) \"Rejoice and sing!\" \"Rejoice and praise the King of Kings!\" \"Adore and praise our mighty Lord!\" \"Give thanks and sing to Christ our King / And worship Him with reverent praise;\"",
+        "suggested_fix": "Use contemporary Modern Greek imperatives and idiom instead of archaic/Koine forms. Suggested replacements preserve meaning and HTML tags: - \"Rejoice and sing!\" → \"Χαίρετε και τραγουδήστε!\" - \"Rejoice and praise the King of Kings!\" → \"Χαίρετε και υμνήστε τον Βασιλιά των Βασιλιάδων!\" - \"Adore and praise our mighty Lord!\" → \"Προσκυνήστε και ψάλλετε τον κραταιό μας Κύριο!\" - \"Give thanks and sing to Christ our King / And worship Him with reverent praise;\" → \"Ευχαριστήστε και τραγουδήστε τον Χριστό, τον Βασιλιά μας, / και λατρεύστε Τον με ευλαβικό ύμνο.\" Replace the archaic verb forms (π.χ. \"Ευχαρίστησον\", \"Προσκύνησον\", \"ψάλλε\", \"Προσκύνησον τον παντοδύναμον...\") with the modern plural imperatives above throughout the poem.",
+        "translation_quote": "Ευχαρίστησον και υμνήσον· κι η περισσότερη χάρη είναι εδώ! ... Σήκω και δοξολογήσον τον Κύριον! ... Προσκύνησον και ψάλλε τον κραταιόν μας Κύριον! ... Ευχαρίστησον και τραγούδει τω Χριστώ τω Βασιλεί μας ... Υποκλίθητι εν δέει, ιερώ τῷ φόβῳ— ... Εν υπερθαύμαστη ομορφιά λυγίσατε το γόνυ; Προσκύνησον τον παντοδύναμον Βασιλέα των Βασιλέων!"
+      },
+      {
+        "location": "Third stanza, line with archaic/awkward phrasing",
+        "severity": "minor",
+        "source_quote": "Bow down in awful, holy fear-",
+        "suggested_fix": "Render this in clear contemporary Greek without Koine inflection or mixed diacritics. Suggested rendering: \"Υποκλιθείτε με σεβαστικό, ιερό δέος.\" Replace the existing phrase (keep punctuation and line break tags unchanged).",
+        "translation_quote": "Υποκλίθητι εν δέει, ιερώ τῷ φόβῳ—"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}
