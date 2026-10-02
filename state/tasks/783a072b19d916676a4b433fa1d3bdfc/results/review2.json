@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "74b92bc6-6c4f-4cb2-8e64-9b1893fe2bc1",
+    "response_id": "chatcmpl-EUL87GOjYYzEdyc6WOwWQicMmrWEu",
+    "usage": {
+      "completion_tokens": 1099,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6703,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7802
+    }
+  },
+  "received_at": "2026-10-02T00:12:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> first paragraph — brother's quote",
+        "severity": "major",
+        "source_quote": "“Some plant, some water, but God gives the increase.”",
+        "suggested_fix": "Translate the idiom accurately while preserving the original meaning and word order where possible. Example fix (preserve straight quotes): “Some plant, some water, but God gives the increase.” or in French while keeping the English quotation as printed: “Some plant, some water, but God gives the increase.” If a French idiomatic rendering is required, use: « Certains plantent, d'autres arrosent, mais c'est Dieu qui donne l'accroissement. »",
+        "translation_quote": "« Certaines plantes, un peu d'eau, mais Dieu donne l'accroissement. »"
+      },
+      {
+        "location": "Romans quotation paragraph (Romans 1:18-32)",
+        "severity": "critical",
+        "source_quote": "So how can one be a humanist and believe in God? ... ” (Romans 1:18-32).",
+        "suggested_fix": "The authoritative English article prints the full Bible quotation in English. Bible quotations must reproduce the printed English text exactly rather than being translated into the target language. Replace the French rendering of Romans 1:18-32 with the original English passage exactly as it appears in the source (including punctuation and parentheses). Ensure the enclosing HTML tags and paragraph order are preserved.",
+        "translation_quote": "« Dans Romains, nous lisons, « Car la colère de Dieu se révèle du ciel contre toute impiété et injustice des hommes, qui retiennent la vérité captive par leur injustice; ... » (Romans 1:18-32). »"
+      },
+      {
+        "location": "Colossians quotation paragraph (Colossians 1:16)",
+        "severity": "critical",
+        "source_quote": "“For by him were all things created, that are in heaven, and that are in earth, visible and invisible... all things were created by him, and for him” (Colossians 1:16).",
+        "suggested_fix": "Restore the printed English Bible quotation verbatim. Replace the French rendition of Colossians 1:16 with the exact English text as in the source article (preserve punctuation and parentheses).",
+        "translation_quote": "« « Car c'est en lui qu'ont été créées toutes les choses qui sont dans les cieux et sur la terre, les visibles et les invisibles, ... toutes choses ont été créées par lui et pour lui » (Colossiens 1:16). »"
+      },
+      {
+        "location": "John quotation paragraph (John 15:18)",
+        "severity": "critical",
+        "source_quote": "“If the world hate you, ye know that it hated me before it hated you. (John 15:18)”",
+        "suggested_fix": "The Bible quotation must appear exactly as printed in the English source. Replace the French translation of John 15:18 with the original English text from the source article, preserving punctuation and parentheses.",
+        "translation_quote": "« « Si le monde vous hait, sachez qu'il m'a haï avant vous. (Jean 15:18) » »"
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

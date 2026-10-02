@@ -1699,6 +1699,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
+      "html_sha256": "b2f9a9f0d9e36d2eb8050e963407828f908093b128dbde0d738e0dbdc9c6cd81",
+      "human_reviewed": false,
+      "id": "80e78d22-936e-48de-885a-f9a8898d5e42",
+      "images": [
+        {
+          "alt": "Un homme et une femme marchant ensemble à travers une prairie verdoyante",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-1.jpg"
+        },
+        {
+          "alt": "Un père et une mère regardant leur nouveau-né",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-2.jpg"
+        },
+        {
+          "alt": "Une famille debout ensemble devant une cascade",
+          "public_path": "/images/articles/80e78d22-936e-48de-885a-f9a8898d5e42-3.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/80e78d22-936e-48de-885a-f9a8898d5e42.json",
+      "metadata_sha256": "2ee5f73912733d6713c094be8cb989701aa3a7920bbc7ad711fd04123bcd7fe0",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "INSPIRATIONS POUR LA JEUNESSE",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
+      "status": "ready",
+      "subtitle": "Le plan de Dieu pour l’homme et la femme",
+      "title": "Une fréquentation centrée sur Christ",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/93978dae-706d-43d4-abee-6b6e011683fa.html",
       "html_sha256": "0eacd03d390d46b2a386392b62d2153314c8139ee9911784c9c7d8ca72c4a072",
       "human_reviewed": false,

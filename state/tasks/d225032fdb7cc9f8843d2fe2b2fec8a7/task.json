@@ -2,7 +2,6 @@
   "article_id": "80e78d22-936e-48de-885a-f9a8898d5e42",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "af5d42d1a12a42b3a6c1c71332bc3eb8",
   "campaign": "gh-36909223255",
   "created_at": "2026-10-01T18:47:35+00:00",
   "events": [
@@ -62,38 +61,44 @@
         },
         "total_tokens": 19958
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1700,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1088,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12221,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13921
+      }
     }
   ],
   "findings": [
     {
-      "location": "source.html — multiple Bible quotations (beginning at Ecclesiastes 12:1)",
-      "severity": "critical",
-      "source_quote": "Ecclesiastes 12:1 says, “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them.” ... (multiple subsequent full Bible passages in English: Genesis 2:18-24; Genesis 1:26-28; Genesis 2:22-23; Genesis 2:24; Mark 10:7; Mark 10:8-9; 2 Corinthians 6:14-15; 1 Corinthians 7:39; Genesis 1:28; Genesis 9:1; Genesis 9:7; 1 Corinthians 11:3; Ephesians 6:1-3; Proverbs 3:1-2; Ephesians 5:21,22,24; Ephesians 5:25,28,29; Ephesians 5:33; 1 Peter 3:7; Psalm 144:12; Ephesians 5:24-29)",
-      "suggested_fix": "Translate each quoted Bible passage so the translation conveys the printed English text from the source (i.e., render the exact English wording into French), preserving the source punctuation and verse references. For example replace the untranslated Ecclesiastes sentence with a French rendering that reflects the source wording (keeping the verse citation): “Ecclésiaste 12:1 dit : « Souviens-toi de ton Créateur pendant les jours de ta jeunesse, avant que les jours mauvais arrivent… » (adapted to convey the source English wording in French). Apply the same approach to each subsequent scripture block and inline quotation so every scripture instance in source.html appears in French matching the source-English meaning and punctuation.",
-      "translation_quote": "Ecclesiastes 12:1 dit, “Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them.” ... (same subsequent Bible passages preserved in English)"
-    },
-    {
-      "location": "source.html — opening article-note paragraph",
-      "severity": "major",
+      "location": "<article> → first <p class=\"article-note\">",
+      "severity": "minor",
       "source_quote": "A Christ-centered Courtship is a series of messages on godly courtship preached by Paul Hershberger.",
-      "suggested_fix": "Restore the meaning of the English source exactly in French using an idiomatic but faithful rendering. Replace the current French with: « Une fréquentation centrée sur Christ est une série de messages sur le fréquentation pieuse (ou la cour) prêchés par Paul Hershberger. » (Keep the rest of the paragraph structure and HTML tags unchanged.)",
+      "suggested_fix": "Keep the existing HTML and tags but change the French wording to a neutral, correct term. For example: replace the text inside the <em>…</em> (first sentence) with: \"Une fréquentation centrée sur Christ est une série de messages sur le fréquentation pieuse prêchés par Paul Hershberger.\" (preserve the surrounding <em> tags and punctuation exactly as currently ordered).",
       "translation_quote": "Un courtisan centré sur Christ est une série de messages sur le fréquentation pieuse prêchés par Paul Hershberger."
     },
     {
-      "location": "source.html — inline sentence introducing Ephesians and other verse quotations (multiple places)",
+      "location": "Multiple parenthetical Scripture citations (throughout the article)",
       "severity": "minor",
-      "source_quote": "Ephesians 5:21,22,24 says, “Submitting yourselves one to another in the fear of God. Wives, submit yourselves unto your own husbands, as unto the Lord. . . Therefore as the church is subject unto Christ, so let the wives be to their own husbands in every thing.”",
-      "suggested_fix": "Translate the introductory English clause (« Ephesians 5:21,22,24 says, ») into French to match the surrounding translation style. Example: replace with « Éphésiens 5:21,22,24 dit : » and then render the quoted text in French according to the previous critical finding (i.e., translate the quoted scripture text as well). Preserve the verse citation and punctuation exactly as in source.html.",
-      "translation_quote": "Ephesians 5:21,22,24 says, “Submitting yourselves one to another in the fear of God. Wives, submit yourselves unto your own husbands, as unto the Lord. . . Therefore as the church is subject unto Christ, so let the wives be to their own husbands in every thing.”"
-    },
-    {
-      "location": "source.html — preserved source typo “Therefore Bshall a man leave his father and his mother…” (Genesis 2:24)",
-      "severity": "minor",
-      "source_quote": "“Therefore Bshall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24).",
-      "suggested_fix": "Correct the obvious typographical error while preserving the quoted wording and verse citation. Change “Therefore Bshall” to “Therefore shall” within the quoted passage (rendered into French as per scripture-translation instruction in the critical finding). If choosing to translate the whole verse to French, ensure the corrected wording is reflected there: e.g. « ‘Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh’ (Genesis 2:24). » rendered in French matching the original meaning.",
-      "translation_quote": "“Therefore Bshall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh” (Genesis 2:24)."
+      "source_quote": "(Genesis 2:18-24)  (Genesis 1:26-28)  (Mark 10:8-9)  (2 Corinthians 6:14-15)  (1 Corinthians 7:39)  (Genesis 1:28)  (Genesis 9:1)  (Genesis 9:7)  (1 Corinthians 11:3)  (Ephesians 6:1-3)  (Proverbs 3:1-2)  (Ephesians 5:24-29)  (Ephesians 5:24-29)  (1 Peter 3:7)  (Psalm 144:12)",
+      "suggested_fix": "Preserve the HTML but make the book names consistent and localized. Either render all parenthetical references consistently in English (as in the source) or consistently translate the book names into French. For example, to localize to French while preserving the citation numbers, replace instances like \"(Genesis 2:18-24)\" with \"(Genèse 2:18-24)\" throughout the HTML. Do not alter verse numbers or the parentheses, and preserve whitespace and punctuation and the surrounding <p> tags.",
+      "translation_quote": "(Genesis 2:18-24)  (Genesis 1:26-28)  (Mark 10:8-9)  (2 Corinthians 6:14-15)  (1 Corinthians 7:39)  (Genesis 1:28)  (Genesis 9:1)  (Genesis 9:7)  (1 Corinthians 11:3)  (Ephesians 6:1-3)  (Proverbs 3:1-2)  (Ephesians 5:24-29)  (Ephesians 5:24-29)  (1 Peter 3:7)  (Psalm 144:12)"
     }
   ],
+  "finished_at": "2026-10-02T00:12:20+00:00",
   "id": "d225032fdb7cc9f8843d2fe2b2fec8a7",
   "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
   "language": "fra",
@@ -137,13 +142,13 @@
     }
   },
   "protected": false,
-  "quality_score": 60,
+  "quality_score": 97,
   "review_attempts": 2,
   "review_model": "gpt-5-mini",
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/1813629ba31cec5f42c8546808ad86fd17dc2aca775e7cb43f2368f4a4530061.json",
   "stage": "review2",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "0f91576ab2993d54e3f407c5279b4ada52edba0f5a3739068f1e84db2d722fe6",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "cd8db74b-b68a-44ee-ab57-fc16aaab8812",
+    "response_id": "chatcmpl-EULAaMVGAqpwrTuquWRVuS1sWEiSs",
+    "usage": {
+      "completion_tokens": 1700,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1088,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12221,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13921
+    }
+  },
+  "received_at": "2026-10-02T00:12:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> → first <p class=\"article-note\">",
+        "severity": "minor",
+        "source_quote": "A Christ-centered Courtship is a series of messages on godly courtship preached by Paul Hershberger.",
+        "suggested_fix": "Keep the existing HTML and tags but change the French wording to a neutral, correct term. For example: replace the text inside the <em>…</em> (first sentence) with: \"Une fréquentation centrée sur Christ est une série de messages sur le fréquentation pieuse prêchés par Paul Hershberger.\" (preserve the surrounding <em> tags and punctuation exactly as currently ordered).",
+        "translation_quote": "Un courtisan centré sur Christ est une série de messages sur le fréquentation pieuse prêchés par Paul Hershberger."
+      },
+      {
+        "location": "Multiple parenthetical Scripture citations (throughout the article)",
+        "severity": "minor",
+        "source_quote": "(Genesis 2:18-24)  (Genesis 1:26-28)  (Mark 10:8-9)  (2 Corinthians 6:14-15)  (1 Corinthians 7:39)  (Genesis 1:28)  (Genesis 9:1)  (Genesis 9:7)  (1 Corinthians 11:3)  (Ephesians 6:1-3)  (Proverbs 3:1-2)  (Ephesians 5:24-29)  (Ephesians 5:24-29)  (1 Peter 3:7)  (Psalm 144:12)",
+        "suggested_fix": "Preserve the HTML but make the book names consistent and localized. Either render all parenthetical references consistently in English (as in the source) or consistently translate the book names into French. For example, to localize to French while preserving the citation numbers, replace instances like \"(Genesis 2:18-24)\" with \"(Genèse 2:18-24)\" throughout the HTML. Do not alter verse numbers or the parentheses, and preserve whitespace and punctuation and the surrounding <p> tags.",
+        "translation_quote": "(Genesis 2:18-24)  (Genesis 1:26-28)  (Mark 10:8-9)  (2 Corinthians 6:14-15)  (1 Corinthians 7:39)  (Genesis 1:28)  (Genesis 9:1)  (Genesis 9:7)  (1 Corinthians 11:3)  (Ephesians 6:1-3)  (Proverbs 3:1-2)  (Ephesians 5:24-29)  (Ephesians 5:24-29)  (1 Peter 3:7)  (Psalm 144:12)"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}
