@@ -2,7 +2,6 @@
   "article_id": "1bdf0b87-af5f-4c9b-99a2-004277f7718d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 9544
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1564,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9268,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10832
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>...Festus said with a loud voice, Paul, thou art beside thyself; much learning doth make thee mad –Acts 26:24.</p> (source.html, paragraph with Acts 26:24)",
+      "severity": "major",
+      "source_quote": "...Festus said with a loud voice, Paul, thou art beside thyself; much learning doth make thee mad –Acts 26:24.",
+      "suggested_fix": "Terjemahkan frasa kunci \"thou art beside thyself\" secara bermakna (menggambarkan kehilangan keseimbangan mental/gelisah), bukan \"kecewa\". Ganti terjemahan saat ini dengan padanan yang setia ke arti Inggris: misalnya: “...Festus berseru dengan suara nyaring: Paulus, engkau tidak waras; banyaknya pembelajaran membuat engkau gila –Kisah Para Rasul 26:24.” Pertahankan tanda baca dan penempatan rujukan Kitab Suci persis seperti sumber.",
+      "translation_quote": "...Festus berseru dengan suara nyaring: Paulus, engkau kecewa; banyaknya pelajaran membuat engkau gila –Kisah Para Rasul 26:24."
+    },
+    {
+      "location": "Multiple occurrences of word \"science\" in source (e.g., first paragraph of 'Creation' section) — translated as “ilmupengetahuan” without space (translation.html)",
+      "severity": "minor",
+      "source_quote": "When I think about the subject of science, I often begin with the subject of creation.",
+      "suggested_fix": "Perbaiki ejaan/pengetikan agar mengikuti idiom Bahasa Indonesia yang benar: gunakan dua kata terpisah \"ilmu pengetahuan\" (dengan spasi). Contoh: \"...ketika saya memikirkan subjek ilmu pengetahuan...\". Jangan gabungkan menjadi satu kata.",
+      "translation_quote": "...di mana “ilmupengetahuan” dan Alkitab bersinggungan."
+    },
+    {
+      "location": "Romans 1:20 quotation (source.html and translation.html)",
+      "severity": "minor",
+      "source_quote": "For the invisible things of him from the creation of the world are clearly seen, being understood by the things that are made, even his eternal power and Godhead; so that they are without excuse –Romans 1:20.",
+      "suggested_fix": "Perhalus terjemahan agar mempertahankan struktur dan makna teks sumber tanpa menambahkan frasa asing atau konstruksi yang membingungkan (mis. kata 'kaitkan-Nya' tidak wajar). Usulkan penggantian dengan terjemahan yang lebih lugas dan setia makna: mis. \"Karena apa yang dapat diketahui tentang Allah nyata di antara mereka; Allah sendiri yang menyatakannya kepada mereka; segala yang tidak kelihatan dari-Nya — keabadian kekuasaan-Nya dan keilahian-Nya — dapat dilihat sejak penciptaan dunia dalam segala yang dijadikan, sehingga mereka tidak bercela. –Roma 1:20.\" (Gunakan bahasa Indonesia baku dan simpan rujukan kitab).",
+      "translation_quote": "Karena apa yang dapat dikenal tentang Allah adalah nyata bagi mereka. Allah telah menyatakannya kepada mereka. Dari penciptaan dunia kaitkan-Nya dengan segala sesuatu yang terlihat—kekuatan-Nya yang kekal dan keilahian-Nya—sehingga mereka tidak dapat berdalih. –Roma 1:20."
+    }
+  ],
   "id": "c803aeb2b7c4bd184e769e0bd5d5f272",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ind",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 78,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/52f684b8d02f77793b6e7dc1b48ec48b97a6055434007d0dad3db046e47c8044.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "5fb27f23eb62db29608050722b6dfaf82ff0b381b3a8cf3c6ff5dca578b5db55",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.title / translation.title",
+      "severity": "major",
+      "source_quote": "Mother Was Right",
+      "suggested_fix": "Vertaal de titel in het Nederlands. Voorstel: \"Moeder had gelijk\" — vervang de waarde van translation.title met deze Nederlandse titel.",
+      "translation_quote": "Mother Was Right"
+    },
+    {
+      "location": "source.section / translation.section",
+      "severity": "major",
+      "source_quote": "Children’s Corner",
+      "suggested_fix": "Vertaal de sectietitel in het Nederlands. Voorstel: \"Kinderhoek\" of \"Kinderhoekje\" — vervang de waarde van translation.section met de gekozen Nederlandse term.",
+      "translation_quote": "Children’s Corner"
+    },
+    {
+      "location": "source.html — paragraph describing the fall (original: \"she fell awkwardly onto her left leg\")",
+      "severity": "minor",
+      "source_quote": "She fell awkwardly onto her left leg.",
+      "suggested_fix": "Gebruik een natuurlijke en correcte Nederlandse term voor 'left leg'. Vervang \"Ze viel onhandig op haar linkerpoot.\" door bijvoorbeeld \"Ze viel onhandig op haar linkerbeen.\" om de betekenis en register te herstellen.",
+      "translation_quote": "Ze viel onhandig op haar linkerpoot."
+    },
+    {
+      "location": "source.html — paragraph about visiting aunt and uncle (original: \"several counties over\")",
+      "severity": "minor",
+      "source_quote": "She had spent a week with her aunt and uncle who lived several counties over from hers",
+      "suggested_fix": "Lokalisatie: 'counties' werd in de vertaling als het Engelse woord met apostrof weergegeven. Gebruik een Nederlandse formulering. Voorstel: \"die enkele counties verderop woonden\" OF beter \"die enkele graafschappen verderop woonden\" (als 'county' bedoeld is). Vervang \"een paar county’s verderop woonden\" door de gekozen Nederlandse versie.",
+      "translation_quote": "die een paar county’s verderop woonden"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

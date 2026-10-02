@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.section / translation.section",
+      "severity": "minor",
+      "source_quote": "SISTER TO SISTER",
+      "suggested_fix": "Translate the section header into natural, idiomatic Korean that preserves the column meaning. Suggested wording: \"자매에게 자매로\" or \"자매에게 보내는 글\" (choose one and keep the HTML tag and position unchanged).",
+      "translation_quote": "언니에게서 언니에게"
+    },
+    {
+      "location": "source.html paragraph with verse reference",
+      "severity": "minor",
+      "source_quote": "...And as they went forth, Jehoshaphat stood and said, …Believe in the LORD your God, so shall ye be established; believe his prophets, so shall ye prosper. And… he appointed singers unto the LORD, and that should praise the beauty of holiness, as they went out before the army… – verses 21-20.",
+      "suggested_fix": "Preserve the original odd verse-range ordering as printed in the authoritative English, but consider clarifying only if editorial changes are allowed. If keeping the printed form, ensure the identical ordering appears in the translation (currently rendered as \"21–20절\"). If an editorial correction is permitted, change to the correct ascending order \"20–21절\". Do not alter HTML structure.",
+      "translation_quote": "그들은 이른 아침에 일어나 … 나아갈 때에 여호사밧이 일어 서서 이르되 너희는 너희 하나님 여호와를 믿으라 그리하면 세우심을 얻을 것이요 또 그 선지자를 믿으라 그리하면 형통하리라 하고 또 … 그가 여호와를 위하여 찬송하는 자들을 임명하되 거룩함의 아름다움을 찬송할 자를 군대 앞에서 행하게 하였더라(21–20절)."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "<p>För oss som kristna, låt oss alltid hålla vår blick fäst vid himlens Gud. Detta är den Gud som Paulus förkunnade på Marsfältet <em>—Gud, han som har skapat världen och allt som finns i den; eftersom han är HERRE över himmel och jord, bor han inte i byggnader som är byggda med händer; Han blir inte tjänad av människohänder som om han behövde något, eftersom han ger åt alla liv och andning och allt – Apostlagärningarna 17:24–25.</em></p>",
+      "severity": "minor",
+      "source_quote": "But for us as Christians, let us always keep our focus fixed on the God of heaven. This is the God that Paul declared on Mars Hill — God that made the world and all things therein, seeing that he is Lord of heaven and earth, dwelleth not in temples made with hands; Neither is worshipped with men’s hands, as though he needed any thing, seeing he giveth to all life, and breath, and all things; –Acts 17:24-25.",
+      "suggested_fix": "\"Marsfältet\" är begripligt men kan i svenskt bibel- och fackspråk ofta återges som \"Areopagen\". Överväg att ersätta \"Marsfältet\" med \"Areopagen\" för att bättre matcha etablerad svenskspråkig bibelterminologi. Exempel: \"...som Paulus förkunnade på Areopagen (Apostlagärningarna 17:24–25).\" Bevara HTML-taggar och kursiv markering exakt som i källan.",
+      "translation_quote": "...som Paulus förkunnade på Marsfältet <em>—Gud, han som har skapat världen och allt som finns i den; ... – Apostlagärningarna 17:24–25.</em>"
+    },
+    {
+      "location": "<p>Låt oss hålla ögonen fästa på Jesus <em>…trons upphovsman och fullkomnare; som för den glädjes skull som stod inför honom uthärdade korset och föraktade skammen, och är satt på Guds tronens högra sida – Hebréerna 12:2.</em></p>",
+      "severity": "minor",
+      "source_quote": "Let us keep our eyes fixed on Jesus …the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God –Hebrews 12:2.",
+      "suggested_fix": "Brödtexten är trogen men den svenska satsen är något tung: \"som för den glädjes skull som stod inför honom\" är onödigt dubbel. För bättre svenska och bibelförtrogen stil föreslå: \"…trons upphovsman och fullkomnare, som för den glädje som väntade honom uthärdade korset, föraktade skammen och sitter på Guds trons högra sida – Hebréerna 12:2.\" Bevara kursiv markering och referensen oförändrade.",
+      "translation_quote": "<em>…trons upphovsman och fullkomnare; som för den glädjes skull som stod inför honom uthärdade korset och föraktade skammen, och är satt på Guds tronens högra sida – Hebréerna 12:2.</em>"
+    },
+    {
+      "location": "<p>Artikeltitlar i engelska behålls: “Bible Helps” och The Foolishness of Preaching</p>",
+      "severity": "minor",
+      "source_quote": "the article that we have chosen to share from “Bible Helps” in this issue is one of the best discourses on the subject of “faith and works”... Finally, we have The Foolishness of Preaching an evaluation regarding the basis of churches using “the altar call”",
+      "suggested_fix": "Det är acceptabelt att lämna publiceringstitlar och verkstitlar på engelska, men för konsekvens rekommenderas att använda svenska typografiska citationstecken och eventuellt kursivera titlar. Till exempel: “Bible Helps” → ”Bible Helps”, och The Foolishness of Preaching → ”The Foolishness of Preaching”. Ingen förändring av innehåll eller referens krävs; bevara HTML-struktur oförändrad.",
+      "translation_quote": "Artikeln vi valt att återge från “Bible Helps” i detta nummer ... Slutligen har vi The Foolishness of Preaching—en granskning ..."
+    },
+    {
+      "location": "<p>Övergripande idiom och rytm i flera stycken</p>",
+      "severity": "minor",
+      "source_quote": "Recently, I have been reflecting on the current status of life as a committed Bible-believing Christian in our world today. ... Current skyrocketing inflation, the potential of unprecedented heating costs for many, the rumors of rising interest rates, and the ongoing shortage of goods all tend to cause a person to be jolted out of a sense of normality.",
+      "suggested_fix": "Översättningen är i huvudsak korrekt men vissa meningar kan göras mer idiomatiska svenska: t.ex. \"the potential of unprecedented heating costs for many\" nu \"risken för en aldrig tidigare skådad uppvärmningskostnad för många\" — överväg \"risken för mycket höga uppvärmningskostnader för många\" för läsbarhet. Dessa är stilistiska förbättringsförslag; ingen ändring av doktrin eller innehåll behövs.",
+      "translation_quote": "Nyligen har jag funderat över vad det innebär i dag att vara en hängiven bibeltroende kristen. ... Den nu kraftigt stigande inflationen, risken för en aldrig tidigare skådad uppvärmningskostnad för många, ryktet om stigande räntor och den pågående bristen på varor får lätt en att ryckas ur känslan av normalitet."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

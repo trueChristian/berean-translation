@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e463ee1f-48df-4663-bbed-4cf5735a0799",
+    "response_id": "chatcmpl-EUX2uQTwGfokel2Ux0pYEWwDYp1Gs",
+    "usage": {
+      "completion_tokens": 1710,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3565,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5275
+    }
+  },
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 5 (Acts 17:24-25 quotation)",
+        "severity": "major",
+        "source_quote": "—God that made the world and all things therein, seeing that he is Lord of heaven and earth, dwelleth not in temples made with hands; Neither is worshipped with men’s hands, as though he needed any thing, seeing he giveth to all life, and breath, and all things; –Acts 17:24-25.",
+        "suggested_fix": "Translate the quotation accurately into Kiswahili, preserving the Scripture’s meaning and citation. Also correct the place-name rendering for Mars Hill earlier in the paragraph (see separate finding). Suggested Kiswahili rendering for the quotation: —Mungu aliyeumba dunia na vitu vyote vilivyo ndani yake; kwa maana yeye ndiye Bwana wa mbingu na nchi, hafaili kuishi katika madhabahu yaliyojengwa kwa mikono; wala haisifiwi kwa mikono ya watu, kana kwamba anahitaji kitu chochote; kwa maana yeye ndiye anayewapa wote uhai, pumzi, na vitu vyote; –Matendo 17:24-25.",
+        "translation_quote": "—Mungu ambaye aliumba dunia na vitu vyote vilivyo ndani yake; kwa kuwa yeye ndiye Bwana wa mbingu na duniani, hajazi ndani ya makanisa yaliyotengenezwa kwa mikono; wala hajumuimbiwi kwa mikono ya watu, kana kwamba anahitaji kitu chochote; kwa kuwa yeye hutoa kwa wote uhai, na pumzi, na vitu vyote; – Matendo 17:24-25."
+      },
+      {
+        "location": "Paragraph 5 (reference to 'Mars Hill')",
+        "severity": "major",
+        "source_quote": "Paul declared on Mars Hill",
+        "suggested_fix": "Use the conventional Kiswahili rendering for the place where Paul spoke (Areopagus / Mars Hill). Replace the literal/odd phrasing Hekalu la Mars with a conventional translation such as 'walehubiriwa na Paulo kwenye Mlima wa Areopagi (Mars Hill)' or simply 'Paulo aliyehubiri kwenye Mlima wa Areopagi'.",
+        "translation_quote": "Paulo katika Hekalu la Mars"
+      },
+      {
+        "location": "Paragraph 7 (Hebrews 12:2 quotation and book name)",
+        "severity": "major",
+        "source_quote": "…the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God –Hebrews 12:2.",
+        "suggested_fix": "Correct the book name and render the quotation accurately in Kiswahili. The translation currently uses an incorrect book name 'Wabiblia'. Use the conventional Kiswahili name 'Waebrania' and translate 'author and finisher' idiomatically (e.g., 'mwamalizaji na mkamilishaji' or 'mwanzishaji na mkamilishaji'). Suggested Kiswahili rendering: …mwandishi na mkamilishaji wa imani yetu; naye, kwa maana ya furaha iliyokuwa mbele yake, alivumilia msalaba, akatukana aibu, na ameketi mkono wa kulia wa kiti cha enzi cha Mungu. – Waebrania 12:2.",
+        "translation_quote": "…mwandishi na mfinyazo wa imani yetu; ambaye kwa furaha iliyokuwa mbele yake alivumilia msalaba, akadharau aibu, na ameketi upande wa kulia wa kiti cha enzi cha Mungu – Wabiblia 12:2."
+      },
+      {
+        "location": "Paragraph 11 (reference to 'Bible Helps')",
+        "severity": "major",
+        "source_quote": "The article that we have chosen to share from “Bible Helps” in this issue is one of the best discourses on the subject of “faith and works” that I have ever read.",
+        "suggested_fix": "Do not leave quoted substantive publication titles untranslated. Either translate the title into Kiswahili or present it in a way acceptable in the target language context (for example: 'kutoka katika toleo la “Bible Helps”' but preferably translate if a conventional title exists). If translating, keep it clearly indicated as a title (e.g., 'kutoka katika “Kusaidia kwa Biblia” (Bible Helps)').",
+        "translation_quote": "Makala tunayochagua kushirikisha kutoka “Bible Helps” katika toleo hili ni mojawapo ya mihadhara bora kuhusu mada ya “imani na matendo” ambayo nimewahi kusoma."
+      },
+      {
+        "location": "Paragraph 11 (description of contributor 'a bishop')",
+        "severity": "major",
+        "source_quote": "Brother Leonard Martin, a bishop in one of our churches has shared an exhortation on spiritual gifts in the church",
+        "suggested_fix": "'Bishop' (the source term) must be preserved in sense; translating it as 'mchungaji' alters the office. Use the correct Kiswahili term for bishop (e.g., 'askofu' or 'biskopu' depending on the target publication's convention). Suggested rendering: 'Kaka Leonard Martin, askofu katika mmoja wa makanisa yetu, ameshare...'.",
+        "translation_quote": "Kaka Leonard Martin, mchungaji mmoja katika makanisa yetu, amegawana wito wa kuhamasisha kuhusu vipawa vya kiroho ndani ya kanisa..."
+      }
+    ],
+    "passed": false,
+    "score": 58
+  }
+}

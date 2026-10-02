@@ -2,7 +2,6 @@
   "article_id": "3f679973-e351-4fe3-8930-e08d9fba23a5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,45 @@
         },
         "total_tokens": 8133
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 696,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7858,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8554
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.section / translation.section",
+      "severity": "minor",
+      "source_quote": "INSPIRATIONS FOR YOUTH",
+      "suggested_fix": "Översätt avsnittsnamnet till svenska. Bevara formateringen exakt (fältvärdet, inga HTML-taggar). Exempel: \"INSPIRATIONER FÖR UNGDOM\" eller \"INSPIRATION FÖR UNGDOM\" beroende på önskad stil.",
+      "translation_quote": "INSPIRATIONS FOR YOUTH"
+    },
+    {
+      "location": "source.title / translation.title",
+      "severity": "minor",
+      "source_quote": "God Would Not Let Me Go",
+      "suggested_fix": "Rubriken på svenska är begriplig men kan förtydligas för att bättre fånga verbetiviteten i engelskan. Föreslagen alternativformulering som är närmare nyans: \"Gud ville inte låta mig gå\" eller \"Gud släppte mig inte\". Behåll exakta titelsträngen i title-fältet om redaktionen vill ha en annan nyans.",
+      "translation_quote": "Gud lät mig inte gå"
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:36+00:00",
   "id": "e82c8beb92c6bfd57c0836a069bc4f2d",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "swe",
@@ -100,11 +135,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/beecf92a90c285721a9995122795a9f69f408d8654cdb4e9b021a1869ce1805f.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d910d483e90bcd959841ed8e96903546f249749ffefaa1d05b277a01a16ea99d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

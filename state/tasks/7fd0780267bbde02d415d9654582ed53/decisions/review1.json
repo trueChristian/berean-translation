@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "source.title",
+      "severity": "major",
+      "source_quote": "Lessons From Second Chronicles Twenty",
+      "suggested_fix": "Translate the title to contemporary Modern Hebrew that preserves the book name and chapter: e.g. \"לקחים מפרק כ' בספר דברי הימים ב'\" or \"לקחים מספר דברי הימים ב' פרק כ'\". Use the conventional target‑language book name and keep the chapter number formatting.",
+      "translation_quote": "לקחים מממלכת דברי הימים ב׳ פרק כ"
+    },
+    {
+      "location": "source.html: paragraph 2 (verse 3 clause)",
+      "severity": "major",
+      "source_quote": "Jehoshaphat laid his fear aside, set himself to seek the Lord, and proclaimed a fast throughout all the land of Judah – verse 3.",
+      "suggested_fix": "Render the meaning faithfully in Hebrew. The current Hebrew contains the phrase \"השׁתחווה למחוללם\" which is ungrammatical and changes meaning. A faithful rendering: \"יהושפט הניח את פחדו, חישב לדרוש את ה׳ והכריז צום בכל ארץ יהודה — פסוק 3.\" Preserve the structure and intention of the English sentence.",
+      "translation_quote": "יהושפט הדיח את פחדו הצידה, השתחווה למחוללם וביקש את ה׳, והכריז צום בכל ארץ יהודה – פסוק 3."
+    },
+    {
+      "location": "source.html: paragraph 2 (verse 6 quotation)",
+      "severity": "major",
+      "source_quote": "And [he] said, O LORD God of our fathers, art not thou God in heaven? and rulest not thou over all the kingdoms of the heathen? and in thine hand is there not power and might, so that none is able to withstand thee? –verse 6.",
+      "suggested_fix": "The translation renders the clause inaccurately and with awkward phrasing (\"מושל בכל מלכי העמים\"). Translate the quotation faithfully into Hebrew idiom while preserving the clauses and rhetorical questions. Suggested: \"ויאמר: 'ה׳ אלוהי אבותינו — האינך אתה אלוהי השמים? האינך אתה מושל בכל ממלכות הגוים? והלא בידיך כח ועז, ואין מִנְעֵה לפניך?' — פסוק 6.\"",
+      "translation_quote": "ויאמר ה׳ אלהי אבותנו הלא אתה אלהי השמים והלא אתה מושל בכל מלכי העמים ובידך כח ועז ואין מעצור לפניך? – פסוק 6."
+    },
+    {
+      "location": "source.html: paragraph 3 (\"my Lord’s feet\")",
+      "severity": "major",
+      "source_quote": "Finally, I let go and fall exhausted at my Lord’s feet, and my heart echoes the words of Jehoshaphat, the king of Judah.",
+      "suggested_fix": "The translation uses \"הרוחני שלי\" (my spiritual one) which alters the personal address to the Lord and is theologically and contextually inaccurate. Translate as a direct reference to the Lord: e.g. \"לבסוף אני משחררת ונופלת מותשת לרגלי בעלי/לאדוני, ולבי מהדהד את דברי יהושפט...\" Preserve the original sense of falling at the Lord's feet.",
+      "translation_quote": "לבסוף אני משחררת ונופלת מותשת בפני הרוחני שלי, ולבי מהדהד את דברי יהושפט, מלך יהודה."
+    },
+    {
+      "location": "source.html: paragraph with verses 21-20 (ordering and quoted text)",
+      "severity": "major",
+      "source_quote": "And they rose early in the morning, …and as they went forth, Jehoshaphat stood and said, …Believe in the LORD your God, so shall ye be established; believe his prophets, so shall ye prosper. And… he appointed singers unto the LORD, and that should praise the beauty of holiness, as they went out before the army… – verses 21-20.",
+      "suggested_fix": "The translation reverses the verse order and introduces garbled phrasing (\"שירו את יפי הקדש בבואם לפני הלכוד\") that does not correspond to the English citation. Restore faithful Hebrew rendering and correct verse order and phrasing. Suggested faithful translation of the quoted material: \"ויקמו בשחר הבוקר... וביציאתם עמד יהושפט ואמר, 'האמינו ביהוה אלהיכם ותקומו; האמינו בנביאיו ותצליחו.' ויעד להם זמרים לשבח את יפי הקודש בהליכה לפני הצבא... — פסוקים 20–21.\" Keep chapter/verse numbering unchanged and preserve the quoted clauses.",
+      "translation_quote": "וכשהם יצאו מן העיר, יהושפט עודד אותם. ויקמו בשחר הבוקר, …וביציאתם עמד יהושפט ואמר, …האמינו ביהוה אלהיכם ותקומו; האמינו בנביאיו ותצליחו. ו…יעד זמרים ליהוה שירו את יפי הקדש בבואם לפני הלכוד… – פסוקים 21-20."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

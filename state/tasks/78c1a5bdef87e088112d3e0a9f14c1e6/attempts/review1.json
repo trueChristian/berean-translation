@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"Paragraph beginning \\\"De morgen brak aan;...\\\" (translation paragraph containing verse citation “– verzen 20-21.”)\",\n      \"severity\": \"major\",\n      \"source_quote\": \"… and as they went forth, Jehoshaphat stood and said, …Believe in the LORD your God, so shall ye be established; believe his prophets, so shall ye prosper. And… he appointed singers unto the LORD, and that should praise the beauty of holiness, as they went out before the army… – verses 21-20.\",\n      \"suggested_fix\": \"Restore the original verse reference order exactly as in the authoritative English: use “– versen 21-20.” (Preserve the unusual order rather than 'correcting' it.)\",\n      \"translation_quote\": \"… en als zij uitgingen, stond Jehoshafat en zeide, …Gelooft in den HEERE, uw God, zo zult gij bevestigd worden; gelooft zijne profeten, zo zult gij voorspoedig zijn. En… hij stelde zangers voor den HEERE aan, die de schoonheid der heiligheid loven zouden, terwijl zij voor het leger uitgingen… – verzen 20-21.\"\n    },\n    {\n      \"location\": \"Throughout (name of king: multiple paragraphs: opening paragraph, the paragraph ending with \\\"...de woorden van Jehoshafat, de koning van Juda.\\\")\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Jehoshaphat\",\n      \"suggested_fix\": \"Make the king's name consistent with the authoritative English spelling used in source.title/source.html. Use a single Dutch rendering throughout (e.g., “Jehoshaphat”) to match the source author name and preserve fidelity.\",\n      \"translation_quote\": \"Jehoshafat (also appears as Jehoshafat in several paragraphs)\"\n    },\n    {\n      \"location\": \"Paragraph beginning \\\"En Jehoshafat boog zijn hoofd...\\\" (paragraph containing “– vers 18.” and the phrase about God doing a miracle)\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"…because it’s a miracle which only the all-mighty, all-powerful God can do.\",\n      \"suggested_fix\": \"The English paired synonyms are 'all-mighty, all-powerful.' The translation uses 'almachtige, alomtegenwoordige' (the second term means 'omnipresent'), which changes the nuance. Change 'alomtegenwoordige' to a closer equivalent of 'all-powerful' such as 'almachtige, almachtige' (avoid repetition) or better: 'de almachtige, alomtegenwoordige' is incorrect for 'all-powerful.' Prefer 'de almachtige, de almachtige' is awkward. Suggested precise fix: replace 'almachtige, alomtegenwoordige God' with 'almachtige, almachtige God' is not idiomatic; better: 'de almachtige God' or 'de almachtige, almachtige God' is redundant. Recommended wording: 'alleen de almachtige God' or 'alleen de almachtige, almachtige God' — ideally: 'alleen de almachtige God' (concise and faithful).\",\n      \"translation_quote\": \"…omdat het een wonder is dat alleen de almachtige, alomtegenwoordige God kan doen.\"\n    }\n  ],\n  \"passed\": false,\n  \"score\": 85\n}",
+    "content_bytes": 2924,
+    "content_evidence_truncated": false,
+    "content_sha256": "15d5206ffb531e3b40c9b705d716df199bb23ee94a0db2211187382b013af794",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1761,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5167,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6928
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

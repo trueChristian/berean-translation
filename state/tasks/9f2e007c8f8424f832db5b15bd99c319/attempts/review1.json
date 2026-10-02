@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html — paragraph containing Psalm 103:1-5\",\"severity\":\"major\",\"source_quote\":\"Who satisfieth thy mouth with good things; so that thy youth is renewed like the eagle’s –Psalm 103:1-5.\",\"suggested_fix\":\"Translate the clause to convey 'thy youth is renewed' (not 'your old age'). For example: « Qui rassasie de biens ta bouche; et qui te fait rajeunir comme l'aigle –Psaume 103:1-5. » Preserve the verse number and formatting exactly as in the source.\",\"translation_quote\":\"Qui rassasie de biens ta vieillesse; et te fait rajeunir comme l'aigle –Psaume 103:1-5.\"}],\"passed\":false,\"score\":78}",
+    "content_bytes": 633,
+    "content_evidence_truncated": false,
+    "content_sha256": "c9fc1d1fec40015aa7694b97b5cfcfeb0b64e2b658540cdbd01acebcf69d769f",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1081,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9048,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10129
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,63 @@
+{
+  "findings": [
+    {
+      "location": "<p><em>The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent me to heal the brokenhearted, to preach deliverance to the captives, and recovering of sight to the blind, to set at liberty them that are bruised, To preach the acceptable year of the Lord –Luke 4:18-19.</em></p> (opening paragraph in translation)",
+      "severity": "critical",
+      "source_quote": "<em>The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent me to heal the brokenhearted, to preach deliverance to the captives, and recovering of sight to the blind, to set at liberty them that are bruised, To preach the acceptable year of the Lord –Luke 4:18-19.</em>",
+      "suggested_fix": "Translate this quoted Scripture into standard contemporary Urdu (Perso-Arabic script), preserving the chapter and verse notation exactly as “–Luke 4:18-19”. Keep the <em> tags in place. For example, replace the English quote with an Urdu rendering that faithfully conveys the printed English meaning and retains the same reference at the end.",
+      "translation_quote": "<em>The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent me to heal the brokenhearted, to preach deliverance to the captives, and recovering of sight to the blind, to set at liberty them that are bruised, To preach the acceptable year of the Lord –Luke 4:18-19.</em>"
+    },
+    {
+      "location": "Paragraph mentioning Luke 4:21 in translation: “جب وہ ختم ہوا تو اس نے کہا، …This day is this scripture fulfilled in your ears –Luke 4:21۔”",
+      "severity": "critical",
+      "source_quote": "“This day is this scripture fulfilled in your ears –Luke 4:21.”",
+      "suggested_fix": "Translate the quoted clause into Urdu, keeping the verse notation “–Luke 4:21.” Preserve punctuation and the surrounding sentence structure and HTML. Do not leave the quoted Scripture in English.",
+      "translation_quote": "…This day is this scripture fulfilled in your ears –Luke 4:21."
+    },
+    {
+      "location": "Paragraph with John 10:10 in translation: “یسوع نے کہا، …I am come that they might have life, and that they might have it more abundantly – John 10:10۔”",
+      "severity": "critical",
+      "source_quote": "“…I am come that they might have life, and that they might have it more abundantly – John 10:10.”",
+      "suggested_fix": "Translate this quoted verse into Urdu, preserving the chapter/verse reference as “–John 10:10.” Keep the surrounding punctuation and <p> tags intact.",
+      "translation_quote": "…I am come that they might have life, and that they might have it more abundantly – John 10:10."
+    },
+    {
+      "location": "Paragraph that reproduces James 5:14-16 in translation (left in English)",
+      "severity": "critical",
+      "source_quote": "Is any sick among you? let him call for the elders of the church; and let them pray over him, anointing him with oil in the name of the Lord: And the prayer of faith shall save the sick, and the Lord shall raise him up; and if he have committed sins, they shall be forgiven him. Confess your faults one to another, and pray one for another, that ye may be healed. The effectual fervent prayer of a righteous man availeth much –James 5:14-16.",
+      "suggested_fix": "Translate the entire James 5:14-16 quotation into Urdu, keeping the reference exactly as “–James 5:14-16.” Preserve the <p> element and emphasis if any. Quoted Scripture must appear in the target language per the rubric.",
+      "translation_quote": "Is any sick among you? let him call for the elders of the church; and let them pray over him, anointing him with oil in the name of the Lord: And the prayer of faith shall save the sick, and the Lord shall raise him up; and if he have committed sins, they shall be forgiven him. Confess your faults one to another, and pray one for another, that ye may be healed. The effectual fervent prayer of a righteous man availeth much –James 5:14-16."
+    },
+    {
+      "location": "Paragraph quoting Psalm 119:67 and Luke 4:18-19 later in translation (left in English)",
+      "severity": "critical",
+      "source_quote": "<em>Before I was afflicted I went astray: but now have I kept thy word –Psalm 119:67.</em> Jesus said: <em>The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent me to heal the brokenhearted, to preach deliverance to the captives, and recovering of sight to the blind, to set at liberty them that are bruised, To preach the acceptable year of the Lord –Luke 4:18-19. </em>",
+      "suggested_fix": "Translate both quoted Scripture passages (Psalm 119:67 and Luke 4:18-19) into Urdu and keep the exact verse citations unchanged. Preserve emphasis (<em>) tags and surrounding punctuation.",
+      "translation_quote": "<em>Before I was afflicted I went astray: but now have I kept thy word –Psalm 119:67.</em> Jesus said: <em>The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent me to heal the brokenhearted, to preach deliverance to the captives, and recovering of sight to the blind, to set at liberty them that are bruised, To preach the acceptable year of the Lord –Luke 4:18-19. </em>"
+    },
+    {
+      "location": "Section with the block quote of the Sermon on the Mount (blockquote) — all three paragraphs inside remain in English in the translation",
+      "severity": "critical",
+      "source_quote": "“Ye have heard that it hath been said, An eye for an eye, and a tooth for a tooth: But I say unto you, That ye resist not evil: but whosoever shall smite thee on thy right cheek, turn to him the other also. ... Ye have heard that it hath been said, Thou shalt love thy neighbour, and hate thine enemy. But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you; ...”",
+      "suggested_fix": "Translate the entire Sermon on the Mount blockquote into Urdu, preserving the <blockquote> and nested <p> elements and emphasis (<em>) exactly as in the source. Do not leave these quoted teachings in English. Maintain any punctuation and quotation marks as in the source HTML.",
+      "translation_quote": "“Ye have heard that it hath been said, An eye for an eye, and a tooth for a tooth: But I say unto you, That ye resist not evil: but whosoever shall smite thee on thy right cheek, turn to him the other also. ... Ye have heard that it hath been said, Thou shalt love thy neighbour, and hate thine enemy. But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you; ...”"
+    },
+    {
+      "location": "Lists under headings Fear / Anxiety / Anger where some verse quotations remain in English (1 John 4:18, Psalm 56:3, Philippians 4:6, Ephesians 4:31)",
+      "severity": "major",
+      "source_quote": "<em> There is no fear in love; but perfect love casteth out fear –1 John 4:18.</em>\n\n<em> What time I am afraid, I will trust in thee –Psalm 56:3. </em>\n\n<em> Be careful [anxious] for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God –Philippians 4:6. </em>\n\n<em>Let all bitterness, and wrath, and anger, and clamour, and evil speaking, be put away from you, with all malice –Ephesians 4:31.</em>",
+      "suggested_fix": "Translate each of these quoted verses into Urdu (Perso-Arabic script) and retain the exact chapter and verse citations (e.g., “–1 John 4:18”, “–Psalm 56:3”, etc.). Keep the <em> tags and list structure (<ul>/<li>) unchanged. These are substantive quoted passages and must be in the target language.",
+      "translation_quote": "<em> There is no fear in love; but perfect love casteth out fear –1 John 4:18.</em>\n\n<em> What time I am afraid, I will trust in thee –Psalm 56:3. </em>\n\n<em> Be careful [anxious] for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God –Philippians 4:6. </em>\n\n<em>Let all bitterness, and wrath, and anger, and clamour, and evil speaking, be put away from you, with all malice –Ephesians 4:31.</em>"
+    },
+    {
+      "location": "Paragraph describing John 5 (translation): contains corrupted text for the time period (“تریynta آٹھ سال” appears)",
+      "severity": "minor",
+      "source_quote": "In John 5, Jesus healed a man who lay by the pool of Bethesda. He had this infirmity for thirty-eight years. Jesus came by and healed him. Later when He met him in the temple He said to him, “Behold, thou art made whole: sin no more, lest a worse thing come unto thee.”",
+      "suggested_fix": "Correct the numeric/typographic corruption so the Urdu renders “تڑتیس آٹھ سال” or preferably “اَڑتیس سال” (38) correctly in Perso-Arabic digits or words, consistent with the style used elsewhere. Also translate the quoted clause “Behold, thou art made whole: sin no more, lest a worse thing come unto thee.” into Urdu, keeping the context and meaning and preserving quotation marks and punctuation.",
+      "translation_quote": "یوحنا 5 میں، یسوع نے وہ شخص شفا دی جو بیتحداسہ کے حوض کے کنارے پڑا تھا۔ وہ تریynta آٹھ سال سے اس بیماری میں مبتلا تھا۔ یسوع وہاں سے گزرے اور اسے شفا دی۔ بعد میں جب اس سے مندر میں ملے تو اس نے اسے کہا، “دیکھو، تُو ٹھیک ہو گیا ہے: مزید گناہ نہ کر، کہ کہیں تیرے ساتھ بُری چیز نہ ہو جائے۔”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

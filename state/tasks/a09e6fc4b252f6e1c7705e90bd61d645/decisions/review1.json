@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph: \"She knew the right thing to do would be to go directly to her mother and tell her what she had done.\" (near middle of article)",
+      "severity": "critical",
+      "source_quote": "In her heart, she knew the right thing to do would be to go directly to her mother and tell her what she had done.",
+      "suggested_fix": "Replace the mistranslated verb 'להרוג' with the correct verb 'ללכת'. Suggested Hebrew: \"בליבה ידעה שהדבר הנכון היה ללכת מיד לאמה ולספר לה מה עשתה.\" Preserve punctuation and surrounding HTML.",
+      "translation_quote": "בליבה ידעה שהדבר הנכון היה להרוג ישר לאמה ולספר לה מה עשתה."
+    },
+    {
+      "location": "Paragraph describing the ankle injury and fall (sentence beginning 'Just as she landed...')",
+      "severity": "major",
+      "source_quote": "Just as she landed, her ankle turned and gave way under her. She fell awkwardly onto her left leg.",
+      "suggested_fix": "Correct the meaning and the mistranslated/mistyped verbs. Recommended Hebrew: \"ברגע שנחתה, הקרסול שלה התעקם ונתן תחתיה. היא נפלה בצורה מגושמת על רגל שמאל.\" (or: \"ברגע שנחתה, הקרסול שלה נתעקל ונכנע; היא נפלה בצורה מגושמת על רגל שמאל.\")",
+      "translation_quote": "ברגע שנחתה, הקרסול שלה התכופף ונשבר תחתיה. היא נופפת בצורה מגושמת על רגל שמאל."
+    },
+    {
+      "location": "Paragraph about watching the blood well up (same paragraph as above)",
+      "severity": "minor",
+      "source_quote": "She quickly pulled it out and watched, with her heart beating rapidly, as the blood welled up, dark and warm.",
+      "suggested_fix": "Fix the verb typo and smooth phrasing. Suggested Hebrew: \"היא משכה אותה במהירות וצפתה, ליבה דופק במהירות, כשהדם החל לעלות — כהה וחם.\" Or: \"היא משכה אותה במהירות וצפתה, ליבה דופק בחוזקה, כשהדם עלה — כהה וחם.\"",
+      "translation_quote": "היא משכה אותה במהירות וצפתה, ליבה דופק במהירות, כשהדם עלה, כהה וחמים."
+    },
+    {
+      "location": "Paragraph describing enjoyment in the tree (sentence about enjoying the quiet afternoon)",
+      "severity": "minor",
+      "source_quote": "It was a relaxing thing with which to be occupied while enjoying the quietness of the afternoon.",
+      "suggested_fix": "Correct awkward wording that appears mistranslated ('תהנתה' is incorrect). Suggested Hebrew: \"זה היה עניין מרגיע שמילא אותה בזמן שנהנתה בשקט של אחר הצהריים.\" or \"זה היה מעשה מרגיע שבעזרתו נהנתה מהשקט של אחר הצהריים.\"",
+      "translation_quote": "זה היה עניין מרגיע שתפס אותה בזמן שהתהנתה בשקט של אחר הצהריים."
+    },
+    {
+      "location": "Paragraph beginning 'Today, as she looks at that scar...' (near end)",
+      "severity": "major",
+      "source_quote": "Today, as she looks at that scar, which is still visible from 40 years ago, she wonders why God had protected her.",
+      "suggested_fix": "Restore accurate, natural Hebrew; current translation has 'כשגדירה' (nonsense). Suggested Hebrew: \"כיום, כשהיא מסתכלת על אותה צלקת שעדיין נראית מאז לפני ארבעים שנה, היא תוהה מדוע אלוהים הגן עליה.\"",
+      "translation_quote": "היום, כשגדירה צלקת זו שעדיין נראית מאז לפני 40 שנה, היא תוהה מדוע אלוהים הגן עליה."
+    },
+    {
+      "location": "Paragraph describing the knife's physical description (early middle)",
+      "severity": "minor",
+      "source_quote": "It had a short, round handle and he had inserted a small piece of steel into one end. He then honed the blade to a nice sharp edge.",
+      "suggested_fix": "Improve clarity: the Hebrew phrasing 'הייתה לה ידית קצרה ועגלית' is slightly awkward (gender/possession). Suggested: \"לה הייתה ידית קצרה ועגולה, והוא הכניס לחלקה קצה חתיכת פלדה קטנה. אחר כך חידד את הלהב עד שקיבל קצה חד.\"",
+      "translation_quote": "הייתה לה ידית קצרה ועגלית והוא הכניס חתיכת פלדה קטנה לקצה אחד. אחר כך חידד את הלהב עד שהפך לחד."
+    },
+    {
+      "location": "Final paragraph, first sentence (about hiding things from parents)",
+      "severity": "minor",
+      "source_quote": "It is never wise to hide anything from your parents.",
+      "suggested_fix": "The translation repeats 'תתביישי או תתביישי' (duplicate). Suggest: \"אף פעם לא חכם להסתיר דבר מה מהוריך. הם צריכים לדעת על הדברים הרעים שאת עושה, לא משנה כמה תתביישי.\"",
+      "translation_quote": "אף פעם לא חכם להסתיר דבר מה מהוריך. הם צריכים לדעת על הדברים הרעים שאת עושה, לא משנה כמה תתביישי או תתביישי."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

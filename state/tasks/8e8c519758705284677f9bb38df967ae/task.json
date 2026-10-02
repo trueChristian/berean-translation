@@ -2,7 +2,6 @@
   "article_id": "2e021f55-6588-4d9d-bd0a-068af80732ff",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,66 @@
         },
         "total_tokens": 5859
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1308,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5328,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6636
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html paragraph 2 (first occurrence of name)",
+      "severity": "minor",
+      "source_quote": "Jehoshaphat",
+      "suggested_fix": "Bruk én konsekvent målform for kongens navn gjennom hele teksten. Anbefalt: Jehoshaphat (eller Jehosafat hvis du foretrekker norsk form), og rett eventuelle inkonsekvente forekomster til samme form.",
+      "translation_quote": "Jehoshafat"
+    },
+    {
+      "location": "translation.html paragraph 6 (later occurrence of name)",
+      "severity": "minor",
+      "source_quote": "Jehoshaphat",
+      "suggested_fix": "Se over og gjør navnet konsistent med resten av oversettelsen (Jehoshaphat eller Jehosafat).",
+      "translation_quote": "Jehoshafat / Jehoshafat (inconsistent spellings present)"
+    },
+    {
+      "location": "translation.html paragraph 3",
+      "severity": "minor",
+      "source_quote": "Sometimes it’s small things, like loneliness on a Sunday afternoon. <em>This is not comfortable, God, and I’m afraid.</em>",
+      "suggested_fix": "Korriger den småfeilaktige sammenstillinga i siteringen: endre ««hva om»-s scenariene» til «de fryktede 'hva om'-scenariene» eller «'hva om'-scenariene».",
+      "translation_quote": "...selv uten at de fryktede «hva om»-s scenariene blir virkelighet."
+    },
+    {
+      "location": "translation.html paragraph 17 (Morning dawned)",
+      "severity": "minor",
+      "source_quote": "Morning dawned; it was the day God had told them to go out against these enemies.",
+      "suggested_fix": "Rettskrivings-/ordvalgskorreksjon: erstatt «Morgenen gryte;» med f.eks. «Morgenen grydet» eller «Morgenen gryde» (naturlig norsk: «Morgenen gryte» er feil). Anbefalt: «Morgenen gryte» → «Morgenen gryde» eller bedre «Morgenen gryde» → «Morgenen gryed»? (beste: «Morgenen gryet» eller «Morgenen gryde»). Jeg anbefaler: «Morgenen gryet; det var dagen…» eller enklere: «Morgenen gryde (sic)» → «Morgenen gryde» → Correct: \"Morgenen gryte\" should be \"Morgenen gryet\"/\"Da morgenen gryde\"; anbefalt endelig: «Morgenen grydde; det var dagen Gud hadde sagt de skulle gå ut mot disse fiendene.»",
+      "translation_quote": "Morgenen gryte; det var dagen Gud hadde sagt de skulle gå ut mot disse fiendene."
+    },
+    {
+      "location": "translation.html paragraph 11",
+      "severity": "minor",
+      "source_quote": "all-mighty, all-powerful God",
+      "suggested_fix": "Unngå unødvendig gjentakelse. Bytt «den allmektige, allmektige Gud» til «den allmektige, allkraftige Gud» eller «den allmektige, allmektige og allkraftige Gud» hvis du ønsker to forskjellige adjektiver. En kort, klart anbefalt løsning: «den allmektige og allkraftige Gud».",
+      "translation_quote": "den allmektige, allmektige Gud"
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:35+00:00",
   "id": "8e8c519758705284677f9bb38df967ae",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "nob",
@@ -100,11 +156,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f31cc8b34c5cf672315cfd39ccfc47a998b57e754ee6813a57508dd0fe98b5c8.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "c849e4ea3ad84b761d78091fcac24b6703c3038258305b91a3abd924f8250de9",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

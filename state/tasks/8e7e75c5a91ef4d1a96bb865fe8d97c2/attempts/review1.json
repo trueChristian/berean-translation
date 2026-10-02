@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>...she loved being outdoors, so the sunny skies and fresh air of this particularly lovely summer day fairly pulled her outside.</p>\",\"severity\":\"minor\",\"source_quote\":\"she loved being outdoors, so the sunny skies and fresh air of this particularly lovely summer day fairly pulled her outside.\",\"suggested_fix\":\"Remplacer la phrase traduite incorrectement par une formulation naturelle : « elle aimait être dehors, aussi le ciel ensoleillé et l’air frais de cette journée d’été particulièrement belle l’attirèrent dehors. »\",\"translation_quote\":\"elle aimait être dehors, aussi le soleil et l’air frais de cette journée d’été particulièrement belle la tirèrent-ils presque dehors.\"},{\"location\":\"<p>...she began cutting and picking away at her pieces of wood.</p>\",\"severity\":\"minor\",\"source_quote\":\"she began cutting and picking away at her pieces of wood.\",\"suggested_fix\":\"Remplacer « couper et à ébaucher » par une tournure plus idiomatique et fidèle : « elle commença à tailler et à écorner ses morceaux de bois. »\",\"translation_quote\":\"elle commença à couper et à ébaucher ses morceaux de bois.\"}],\"passed\":true,\"score\":95}",
+    "content_bytes": 1196,
+    "content_evidence_truncated": false,
+    "content_sha256": "f2716f93d76ab713e89d60c438d504b251a6f76795b4c31089480ab5a5293ae9",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1103,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3559,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4662
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

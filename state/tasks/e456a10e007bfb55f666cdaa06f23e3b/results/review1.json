@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "14b91cdd-505a-41ea-8c89-98ede885413f",
+    "response_id": "chatcmpl-EUX3GU1falNJvNMVlpKt7Dq22ohph",
+    "usage": {
+      "completion_tokens": 1339,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3321,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4660
+    }
+  },
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>For us as Christians, let us always keep our focus fixed on the God of heaven. This is the God that Paul declared on Mars Hill—<em>...Acts 17:24-25.</em></p>",
+        "severity": "critical",
+        "source_quote": "the God that Paul declared on Mars Hill",
+        "suggested_fix": "将“马其顿山上”改为正确的地名。Mars Hill（英语常用名）在中文基督教出版物中通常译为“亚略巴古”或“马尔斯山（亚略巴古）”。请在翻译中将“保罗在马其顿山上所宣告的那位神”修正为“保罗在亚略巴古（马尔斯山）所宣告的那位神”，并保留后面的经文引述不变。",
+        "translation_quote": "保罗在马其顿山上所宣告的那位神——<em>造天地和其中万物的神既是天地的主，便不住人手所造的殿，也不需人手服事，好像缺少什么，乃是自己叫万人生命、气息、万物的——使徒行传 17:24-25。</em>"
+      },
+      {
+        "location": "<p>...All scripture is given by inspiration of God, and is profitable for doctrine, for reproof,... –2 Timothy 3:13-17.</p>",
+        "severity": "major",
+        "source_quote": "All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: That the man of God may be perfect, throughly furnished unto all good works –2 Timothy 3:13-17.",
+        "suggested_fix": "移除或改写翻译中不必要的插入选项或释义。不要在引文中插入替代译文或括注。请将该经文集中为一个连贯的中文翻译，忠实表达原英文经文意义并保留经文编号。建议改为：\n“圣经都是神所默示的，于教导、督责、使人归正、教导人学义都是有益的，叫属神的人得以完全，预备行各样的善事——提摩太后书 3:13-17。”\n（若采用其他权威中文圣经文字，仍须保持原文含义一致且不加括注。）",
+        "translation_quote": "圣经都是神所默示的，（或作：圣经都是上帝所默示），于教导、督责、使人归正、教导人学义都是有益的，叫属神的人得以完全，预备行各样的善事—提摩太后书 3:13-17。"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

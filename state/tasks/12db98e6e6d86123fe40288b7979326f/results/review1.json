@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "131d0758-dd46-4623-b4a1-c0038e7cc76e",
+    "response_id": "chatcmpl-EUX4C5lMwDc121KkRHhn7KUHbNyvn",
+    "usage": {
+      "completion_tokens": 1765,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1088,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8778,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10543
+    }
+  },
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"...There is in all of us a desire for healing and wholeness. In the garden of Eden...\" (translated paragraph beginning: \"في هذا المقال سننظر...\")",
+        "severity": "minor",
+        "source_quote": "He came to provide a remedy for our brokenness. He came to repair the damage that sin has brought into humanity.",
+        "suggested_fix": "Replace the awkward phrase \"ناشزِ الإنسانية\" with a faithful, clear rendering such as \"الإنسانية المكسورة\" or \"الكسور التي أحدثتها الخطيئة في البشر\" so the sentence reads: \"جاء يسوع ليزوّد دواءً لكسرنا. جاء ليصلح الأذى الذي جلبته الخطيئة إلى البشر.\"",
+        "translation_quote": "جاء يسوع ليزوّد دواءً لناشزِ الإنسانية. جاء ليصلح الأذى الذي جلبه الخطيئة إلى البشر."
+      },
+      {
+        "location": "Paragraph quoting James 5:14-16 (translated paragraph beginning: \"هل من مريض بينكم? ...\")",
+        "severity": "major",
+        "source_quote": "There is a thorn in the flesh. He sought the Lord three times for healing. God's answer came back always the same, “My grace is sufficient for you, for my strength is made perfect in your weakness.”",
+        "suggested_fix": "Correct the grammatical subject to match the English: the author says that Paul \"sought the Lord three times.\" The translation currently reads \"طلب الرب ثلاث مرات للشفاء,\" which incorrectly makes the Lord the one who was requested. Change to a clear Arabic rendering preserving the subject (Paul/the apostle): e.g. \"طلب بولس الرب ثلاث مرات للشفاء\" or if keeping the author's voice: \"طلب الرب منه ثلاث مرات الشفاء\" is not correct; use \"لذلك طلب بولس الرب ثلاث مرات أن يُشفى\". Make the sentence: \"لهذا طلب بولس الشفاء من الرب ثلاث مرات. جاء جواب الله دائماً نفسه: 'تكفيك نعمتي...'\"",
+        "translation_quote": "ولهذا السبب أعطي بولس شوكة في الجسد. طلب الرب ثلاث مرات للشفاء. جاء جواب الله دائماً نفسه، «تكفيك نعمتي، لأن قوتي تُكمَل في الضعف.»"
+      },
+      {
+        "location": "Paragraph citing James 5:14-16 (same paragraph)",
+        "severity": "minor",
+        "source_quote": "The effectual fervent prayer of a righteous man availeth much –James 5:14-16.",
+        "suggested_fix": "The phrase \"effectual fervent prayer of a righteous man\" is rendered unclearly as \"صلاة الرجل الصالح المشركة\". Provide a clearer, standard Arabic rendering that conveys the sense \"الصلاة الفعالة والمُحِرَّة (أو الحارة) لرجلِ بَارّ\" or \"الصلاة المُخْتمرَة والرَّجاءِ لرجل تقي\". For example: \"وصلاة الرجل البار الحارة تُجدُّ كثيراً.\"",
+        "translation_quote": "صلوة الرجل الصالح المشركة تنفع كثيراً –يعقوب 5:14-16."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

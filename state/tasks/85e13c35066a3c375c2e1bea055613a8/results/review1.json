@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "9187084c-2bdc-4bc1-88e6-04fc16b219dc",
+    "response_id": "chatcmpl-EUX2kioWtg930kEs0z0Mph6hqZxVQ",
+    "usage": {
+      "completion_tokens": 909,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9007,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9916
+    }
+  },
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph starting \"Paul had been ingrained\" (third full paragraph) and subsequent paragraph where the name appears",
+        "severity": "major",
+        "source_quote": "Paul had been ingrained in Jewish learning at the feet of Gamaliel and was affluent in understanding both Hebrew and Greek, but in preaching the cross of Christ, he laid his learning aside.",
+        "suggested_fix": "Replace the Spanish form \"Pablo\" with the standard Italian proper name \"Paolo\" wherever it appears. Preserve surrounding HTML and punctuation. Example fix: change \"Pablo era stato istruito...\" to \"Paolo era stato istruito...\"",
+        "translation_quote": "Pablo era stato istruito nello studiosità giudaica ai piedi di Gamaliele ed era esperto sia in ebraico sia in greco, ma nel predicare la croce di Cristo mise da parte il suo sapere."
+      }
+    ],
+    "passed": false,
+    "score": 86
+  }
+}

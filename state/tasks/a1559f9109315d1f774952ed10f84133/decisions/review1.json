@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html opening paragraph and multiple inline Scripture quotations (e.g. 1 Corinthians 1:17-21; 2 Corinthians 10:10; Mark 4:16-17; John 3:8; Romans 10:17; Hebrews 6:18-19; Luke 14:23; Matthew 11:28; John 7:37; Acts 3:19; 2 Corinthians 5:20; Acts 20:21; 1 Corinthians 4:15-16; 1 Corinthians 11:1; 1 Thessalonians 5:13)",
+      "severity": "critical",
+      "source_quote": "<em>For Christ sent me not to baptize, but to preach the gospel: not with wisdom of words, lest the cross of Christ should be made of none effect. For the preaching of the cross is to them that perish foolishness; but unto us which are saved it is the power of God. …it pleased God by the foolishness of preaching to save them that believe –1 Corinthians –1:17-21. </em> (and other Scripture quotations shown in English throughout the article)",
+      "suggested_fix": "Translate every quoted Scripture passage into contemporary Dutch, preserving the exact chapter and verse numbers and the placement of the reference. Do not change or remove the verse numbers/ranges or the order of references. Example replacement for the opening quote (use standard Dutch Bible phrasing consistent with the publication): “Want Christus heeft mij niet gezonden om te dopen, maar om het Evangelie te verkondigen; niet in de wijsheid der woorden, opdat het kruis van Christus niet worde tenietgedaan. Want de prediking van het kruis is voor hen die verloren gaan een dwaasheid, maar voor ons die behouden worden is het de kracht van God. …want het heeft God behaagd door de dwaasheid der prediking hen te behouden die geloven – 1 Korintiërs 1:17-21.” Apply the same treatment to each Scripture block (e.g., translate 2 Corinthians 10:10, Mark 4:16-17, John 3:8, Rom 10:17, Heb 6:18-19, Luke 14:23, Matt 11:28, John 7:37, Acts 3:19, 2 Cor 5:20, Acts 20:21, 1 Cor 4:15-16, 1 Cor 11:1, 1 Thess 5:13), keeping the verse references exactly as in the English source.",
+      "translation_quote": "The translation leaves those Scripture quotations in English (for example: “For Christ sent me not to baptize... –1 Corinthians –1:17-21.” and “For his letters, say they, are weighty and powerful; but his bodily presence is weak, and his speech contemptible –2 Corinthians 10:10.” etc.)"
+    },
+    {
+      "location": "Endnotes / quoted non-biblical source material (Endnotes: Finney quote, Spurgeon quote, Watchman Nee citation)",
+      "severity": "major",
+      "source_quote": "<em>** What A Revival Of Religion Is – Charles Grandison Finney – The Belknap Press Of Harvard University A “Revival of Religion” presupposes a declension. Almost all the religion in the world has been produced by revivals. God has found it necessary to take advantage of the excitability there is in mankind, to produce powerful excitements among them, before he can lead them to obey. Men are so sluggish, there are so many things to lead their minds off from religion, and to oppose the influence of the gospel that it is necessary to raise an excitement among them, till the tide rises so high as to sweep away the opposing obstacles. They must be so excited that they will break over these counteracting influences, before they will obey God.</em> (and other endnote quotations left in English)",
+      "suggested_fix": "Translate the endnote quotations and all other substantive quoted prose (non-biblical citations and long quoted passages) into Dutch, preserving the attribution and the original titles/identifiers where appropriate. For example translate Finney’s quoted paragraph into Dutch and keep the bibliographic attribution in the same order and structure (do not alter HTML tags). Likewise translate the Spurgeon excerpt and the Watchman Nee line into Dutch while preserving the citation lines (author, title) in their original positions. Do not leave substantive quoted prose in English.",
+      "translation_quote": "Endnotes and cited passages remain in English in the translation (e.g., the Finney paragraph and the Spurgeon enquiry-room quotation are un-translated)."
+    },
+    {
+      "location": "Several emphasized inline non-scripture quotations left in English (e.g. “lest the cross of Christ should be made of none effect –1 Corinthians 1:17.”; “For his letters... –2 Corinthians 10:10.”; other single-verse inline quotes)",
+      "severity": "major",
+      "source_quote": "Inline emphasized sentences that are direct quotations of Scripture are left in English in the translation, for example: <em>…lest the cross of Christ should be made of none effect –1 Corinthians 1:17.</em> and <em>For his letters, say they, are weighty and powerful; but his bodily presence is weak, and his speech contemptible –2 Corinthians 10:10. </em>",
+      "suggested_fix": "Translate these inline quoted verses into Dutch while keeping the reference and placement unchanged and preserving emphasis tags and punctuation. Example: replace “<em>…lest the cross of Christ should be made of none effect –1 Corinthians 1:17.</em>” with the Dutch rendering “<em>…opdat het kruis van Christus niet tenietgedaan worde – 1 Korintiërs 1:17.</em>” (or a comparable standard Dutch Bible wording) and similarly for other inline quotations.",
+      "translation_quote": "Inline Scripture quotations remain in English in translation (see examples above)."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

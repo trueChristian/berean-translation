@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.html — paragraph referencing 1 Corinthians 6:9-11",
+      "severity": "major",
+      "source_quote": "(see 1 Corinthians 6:9-11)",
+      "suggested_fix": "Translate the Bible book name into Norwegian and use conventional Norwegian verse notation. For example: “(se 1. Kor 6,9–11)” or “(se 1 Korinterbrev 6,9–11)”. Keep the exact chapter/verse numbers and placement unchanged.",
+      "translation_quote": "(se 1 Corinthians 6:9-11)"
+    },
+    {
+      "location": "source.html — paragraph quoting 1 Peter 3:15",
+      "severity": "major",
+      "source_quote": "…be ready always to give an answer to every man that asketh [us] you a reason of the hope that is in [us] you with meekness and fear: –1 Peter 3:15.",
+      "suggested_fix": "Translate the Bible book name/reference into Norwegian and preserve the verse reference placement. For example: “…være alltid rede til å gi et svar til enhver som krever av dere en grunn for det håp som er i dere, med mildhet og respekt. –1 Pet 3,15.” or “–1 Peter 3,15” rendered with a conventional Norwegian form: “–1. Pet 3,15” or “–1 Pet 3,15.” Do not change the quoted wording beyond normal Norwegian rendering of the English quoted verse already present in the translation.",
+      "translation_quote": "…være alltid rede til å gi et svar til enhver som krever av dere en grunn for det håp som er i dere, med mildhet og respekt: –1 Peter 3:15. "
+    },
+    {
+      "location": "source.html — paragraph quoting 2 Timothy 4:7-8",
+      "severity": "major",
+      "source_quote": "I have fought a good fight, I have finished my course, I have kept the faith: Henceforth there is laid up for me a crown of righteousness, which the Lord, the righteous judge, shall give me at that day: and not to me only, but unto all them also that love his appearing –2 Timothy 4:7-8.",
+      "suggested_fix": "Translate the Bible book name/reference into Norwegian using conventional form while preserving chapter/verse numbers and placement. For example: change the trailing reference to “–2 Tim 4,7–8” or “–2 Timoteus 4,7–8”. Ensure any other occurrences of the same reference are changed consistently.",
+      "translation_quote": "Jeg har kjempet den gode kamp, jeg har fullført løpet, jeg har bevart troen: Fremover er det lagt opp for meg en rettferdighetens krans, som Herren, den rettferdige dommer, skal gi meg den dagen: og ikke bare til meg, men også til alle dem som elsker hans åpenbaring –2 Timothy 4:7-8."
+    },
+    {
+      "location": "source.html — paragraph quoting James 4:8",
+      "severity": "major",
+      "source_quote": "Draw nigh to God, and he will draw nigh to you… –James 4:8.",
+      "suggested_fix": "Translate the Bible book name/reference into Norwegian and use conventional verse notation. For example: change to “–Jakob 4,8” or “–Jakob 4:8” or “–Jak 4,8”. Keep the quoted verse translated as already rendered in Norwegian.",
+      "translation_quote": "<em>Nærm dere Gud, så skal han nærme seg dere… –James 4:8. </em>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

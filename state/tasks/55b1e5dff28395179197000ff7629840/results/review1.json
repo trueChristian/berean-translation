@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "d61ad0bd-154f-4ae2-90d3-db5b4e8f8592",
+    "response_id": "chatcmpl-EUX2k9Vi1RG5zz9URKtYYCWUKaS0T",
+    "usage": {
+      "completion_tokens": 1410,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3860,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5270
+    }
+  },
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"She fell awkwardly onto her left leg. And, oh no! That little knife had plunged into her left wrist as she was trying to keep her balance.\"",
+        "severity": "major",
+        "source_quote": "She fell awkwardly onto her left leg. And, oh no! That little knife had plunged into her left wrist as she was trying to keep her balance.",
+        "suggested_fix": "Translate both body parts unambiguously as in the English: keep the explicit \"left leg\" and \"left wrist\". For example (in Bengali, preserving article HTML structure): replace the mistranslated sentence with: \"সে বাঁ পাশের পায়ে অদ্ভুতভাবে পড়ে গেল। আর, ওহ না! ভারসাম্য রক্ষা করার চেষ্টা করার সময় ছোট ছুরিটা তার বাঁ কবজিতে ঢুকে গেল।\" Ensure \"left leg\" = \"বাঁ পা\" or \"বাঁ পায়ের উপর\" and \"left wrist\" = \"বাঁ কবজি\" (not colloquial/ambiguous terms like 'কনিষ্ঠহাত' or unclear phrasing).",
+        "translation_quote": "\"সে বাঁ টেনে অদ্ভুতভাবে পড়ে গেল। আর, আহ! যেই ছোট ছুরিটা ছিল তা তার বাঁ কনিষ্ঠহাতে ঢুকেই গেল যখন সে ভারসাম্য বজায় রাখার চেষ্টা করছিল।\""
+      },
+      {
+        "location": "Paragraph: \"She quickly pulled it out and watched, with her heart beating rapidly, as the blood welled up, dark and warm.\"",
+        "severity": "major",
+        "source_quote": "She quickly pulled it out and watched, with her heart beating rapidly, as the blood welled up, dark and warm.",
+        "suggested_fix": "The clause about pressing her thumb on the wound appears later in English and should be translated accurately where it occurs. Also the action \"pressed her thumb on top of the wound\" must be rendered as \"তার انگুলে (আঙ্গুলের তালু/অঙ্গুলা) দিয়ে কাটা জায়গার উপর চাপ দিল\" — specifically use \"বৃন্তে তার থাম্ব/অঙ্গুলের তালু চাপ দিল\" or simpler \"সে দ্রুত তার থাম্ব দিয়ে কাটা জায়গায় চেপে ধরল।\" Replace the incorrect phrase that reads as if her palm was cut or that uses 'কেটে থাকা' unintentionally. Suggested Bengali sentence for the sequence: \"সে দ্রুত ছুরিটি টেনে বের করে আরেকটু ধীর হৃদয়ের স্পন্দন শুনতে লাগল, রক্ত গাঢ় ও উষ্ণ হয়ে ওপর উঠে। দোষবোধে সে দ্রুত তার থাম্বটি কাটা জায়গার ওপর চাপিয়ে ঘরে ঢুকল।\"",
+        "translation_quote": "\"দোষবোধে, সে দ্রুত তার আঙ্গুলের তালুটা কেটে থাকা জায়গার উপরে চাপ দিল এবং ঘরে ঢুকল। রক্তশাব্দ শীঘ্রই থেমে গেল...\""
+      },
+      {
+        "location": "Whole article — body-part terminology consistency",
+        "severity": "minor",
+        "source_quote": "left leg; left wrist; pressed her thumb",
+        "suggested_fix": "Use standard, unambiguous Bengali anatomical terms consistently: \"বাঁ পা\" or \"বাঁ পায়ের উপরে\" for 'left leg'; \"বাঁ কবজি\" for 'left wrist'; and \"থাম্ব/অঙ্গুলের তালু চাপ দেওয়া\" or simply \"সে তার থাম্ব দিয়ে কাটা অংশ চেপে ধরল\" for 'pressed her thumb'. Update the translated phrases where the current wording is ambiguous or could be read as something else (for instance, \"বাঁ টেনে\" is unclear).",
+        "translation_quote": "Scattered instances e.g. \"সে বাঁ টেনে অদ্ভুতভাবে পড়ে গেল\" and \"তার বাঁ কনিষ্ঠহাতে ঢুকেই গেল\" and \"আঙ্গুলের তালুটা কেটে থাকা জায়গার উপরে চাপ দিল\""
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

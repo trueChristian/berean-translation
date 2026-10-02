@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html — paragraph containing verse citation near \"And they rose early in the morning...\" (around the middle of the article)",
+      "severity": "major",
+      "source_quote": "– verses 21-20.",
+      "suggested_fix": "Restore the original scripture reference numbers exactly as they appear in the authoritative English source. Replace the Russian citation “— стихи 20–21.” with a faithful rendering that preserves the original numbering and punctuation, for example: “— стихи 21–20.” (preserve spacing and punctuation consistent with the translation). Do not reorder or 'correct' the verse numbers; keep them exactly as printed in source.html.",
+      "translation_quote": "— стихи 20–21."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

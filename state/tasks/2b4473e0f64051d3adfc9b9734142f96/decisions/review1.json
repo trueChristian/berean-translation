@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph 3 (Paul’s hearing quote beginning)",
+      "severity": "major",
+      "source_quote": "During the hearing Paul <em>…reasoned of righteousness, temperance, and judgment to come, </em>[until finally] <em>Felix trembled, and answered, Go thy way for this time; when I have a convenient season, I will call for thee –Acts 24:25.</em>",
+      "suggested_fix": "Translate the quoted phrase to accurately reflect English meaning (\"reasoned\" = argued/appealed), and keep the Scripture reference. For example: <em>…han talte om rettferdighet, måtehold og den forestående dom –</em> [til slutt] <em>skjelvet Felix, og svarte: Gå nå bort; når jeg får anledning, skal jeg kalle på deg – Apostlenes gjerninger 24:25.</em>",
+      "translation_quote": "Under høringen <em>…tvang han dem om rettferdighet, avholdenhet og den kommende dom –</em> [til slutt] <em>skjelvet Felix, og svarte: Gå bort for denne gang; når jeg får anledning, skal jeg kalle på deg – Apostlenes gjerninger 24:25.</em>"
+    },
+    {
+      "location": "source.html multiple locations (language register/variety errors)",
+      "severity": "minor",
+      "source_quote": "(Examples) \"The fool hath said in his heart, There is no God… –Psalm 14:1.\"; \"Even the smartest quantum physicists\"; \"Selv\" etc.",
+      "suggested_fix": "Use contemporary Norwegian Bokmål consistently. Replace Nynorsk or dialect forms and other non‑Bokmål spellings/words. Specific replacements: • \"Den dårlege seier i sitt hjarta: Det finst ingen Gud… – Salme 14:1.\" → \"Dårskapen sier i sitt hjerte: 'Det finnes ingen Gud'… – Salme 14:1.\" OR better Bokmål idiom: \"Dårskap sier i sitt hjerte: 'Det finnes ingen Gud'… – Salme 14:1.\" • \"Sjøl\" → \"Selv\". • \"finnst\" occurrences → \"finnes\" where appropriate. Make these changes throughout the translation to conform to Bokmål.",
+      "translation_quote": "\"<em>Den dårlege seier i sitt hjarta: Det finst ingen Gud… – Salme 14:1.</em>\"; \"Sjøl de smartest kvantefysikerne...\" (appears as 'Sjøl' and other non‑Bokmål forms)."
+    },
+    {
+      "location": "source.section metadata",
+      "severity": "major",
+      "source_quote": "A WORD FROM A DOCTOR",
+      "suggested_fix": "Translate the section header into Norwegian Bokmål. For example: \"ET ORD FRA EN LEGE\" or a natural Bokmål equivalent consistent with site style. Ensure this replaces the English string in the translated metadata.",
+      "translation_quote": "A WORD FROM A DOCTOR"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

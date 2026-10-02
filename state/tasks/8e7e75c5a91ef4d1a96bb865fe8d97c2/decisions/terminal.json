@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>...she loved being outdoors, so the sunny skies and fresh air of this particularly lovely summer day fairly pulled her outside.</p>",
+      "severity": "minor",
+      "source_quote": "she loved being outdoors, so the sunny skies and fresh air of this particularly lovely summer day fairly pulled her outside.",
+      "suggested_fix": "Remplacer la phrase traduite incorrectement par une formulation naturelle : « elle aimait être dehors, aussi le ciel ensoleillé et l’air frais de cette journée d’été particulièrement belle l’attirèrent dehors. »",
+      "translation_quote": "elle aimait être dehors, aussi le soleil et l’air frais de cette journée d’été particulièrement belle la tirèrent-ils presque dehors."
+    },
+    {
+      "location": "<p>...she began cutting and picking away at her pieces of wood.</p>",
+      "severity": "minor",
+      "source_quote": "she began cutting and picking away at her pieces of wood.",
+      "suggested_fix": "Remplacer « couper et à ébaucher » par une tournure plus idiomatique et fidèle : « elle commença à tailler et à écorner ses morceaux de bois. »",
+      "translation_quote": "elle commença à couper et à ébaucher ses morceaux de bois."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

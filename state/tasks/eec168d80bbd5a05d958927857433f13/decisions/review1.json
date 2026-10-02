@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing Mark 4:16-17 (around middle of article)",
+      "severity": "major",
+      "source_quote": "And these are they likewise which are sown on stony ground; who, when they have heard the word, immediately receive it with gladness; And have no root in themselves, and so endure but for a time: afterward, when affliction or persecution ariseth for the word’s sake, immediately they are offended –Mark 4:16-17.",
+      "suggested_fix": "Translate the verse without adding or altering descriptive words. Replace the phrase currently rendered as “boa terra pedregosa” with wording faithful to the English: for example, “E estes são os que foram semeados em terreno pedregoso; os quais, quando ouviram a palavra, logo a recebem com alegria; e não têm raiz em si mesmos, e duram apenas por algum tempo...” (preserve the remainder of the verse exactly as in the English source).",
+      "translation_quote": "<em>E estes são os que foram semeados em boa terra pedregosa; os quais, quando ouviram a palavra, logo a recebem com alegria; e não têm raiz em si mesmos, e duram apenas por algum tempo: depois, quando surge alguma tribulação ou perseguição por causa da palavra, logo se escandalizam –Marcos 4:16-17. </em>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

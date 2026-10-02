@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "source.html — first paragraph",
+      "severity": "major",
+      "source_quote": "This hymn is generally thought to be one of the most loved hymns written during the latter part of the 19th century.",
+      "suggested_fix": "Translate fully into Bengali and remove the English word 'generally'. For example: \"এই স্তবকটি সাধারণত 19শ শতকের শেষভাগে রচিত সবচেয়ে প্রিয় স্তবকগুলোর একটি বলে বিবেচিত হয়।\"",
+      "translation_quote": "এই স্তবক generally ভাবা হয় 19<sup>th</sup> শতকের শেষভাগে রচিত সবচেয়ে প্রিয় স্তবকগুলোর একটি।"
+    },
+    {
+      "location": "source.html — multiple places where book/tune/hymn titles remain in English (e.g., references, paragraph about later writings, last paragraph)",
+      "severity": "major",
+      "source_quote": "Life and Work; Moments on the Mount; Voice of the Spirit; Rests by the River; St. Margaret; \"O Love, That Wilt Not Let Me Go\"",
+      "suggested_fix": "Translate or transliterate these titles consistently into Bengali (they are quoted substantive prose). Keep the original work/ tune names in parentheses only if an editorial choice, but the authoritative English article requires the quoted prose to be rendered in the target language. Examples: \"চার্চ অব স্কটল্যান্ডের মাসিক ম্যাগাজিন ‹লাইফ অ্যান্ড ওয়ার্ক›\" or fully translated \"লাইফ অ্যান্ড ওয়ার্ক (Life and Work)\"; \"Moments on the Mount\" → \"মোমেন্টস অন দ্য মাউন্ট\" or translate the meaning if an established Bengali title exists. Apply this to all cited titles and the hymn's English title when it appears as part of the prose, e.g.: \"‘ও লভ, দ্যাট উইল্ট নট লেট মি গো’ (O Love, That Wilt Not Let Me Go)\".",
+      "translation_quote": "<em>Life and Work</em> (in paragraph); <em>Moments on the Mount</em>, <em>Voice of the Spirit</em>, and <em>Rests by the River</em> (in later paragraph); <em>St. Margaret</em> (in tune paragraph); “O Love, That Wilt Not Let Me Go”-র (final paragraph)."
+    },
+    {
+      "location": "source.html — paragraph beginning 'Soon, however, he was chosen minister...'",
+      "severity": "major",
+      "source_quote": "Soon, however, he was chosen minister of the Church of Scotland in the seaport summer resort of Innellan.",
+      "suggested_fix": "Correct the mistranslation of 'Soon, however,' which in the Bengali draft became 'তবু সোনার মধ্যে' (nonsense). Replace with an accurate Bengali rendering that preserves meaning. Example: \"কিন্তু শীঘ্রই তাকে ইননেলান নামক সমুদ্রতীরের গ্রীষ্মকালীন রিসর্টে চার্চ অব স্কটল্যান্ডের মন্ত্রী হিসেবে নির্বাচিত করা হয়।\"",
+      "translation_quote": "তবু সোনার মধ্যে, তিনি নির্বাচন হয়ে ইননেলান নামক সমুদ্রতীরবর্তী গ্রীষ্মকালীন রিসর্টের চার্চ অব স্কটল্যান্ডের মন্ত্রীর স্থান গ্রহণ করেন।"
+    },
+    {
+      "location": "source.html — paragraph describing the memory lapse and psalm request",
+      "severity": "minor",
+      "source_quote": "He sat down and commenced to request a psalm to be sung, and, after the song, with perfect calmness told the audience what had happened.",
+      "suggested_fix": "'request a psalm to be sung' is rendered oddly as 'একটি রাজকীয় কীর্তন গাইবার অনুরোধ' (literally 'royal hymn'), which changes nuance. Replace with a clearer Bengali phrasing: \"সে বসে একটি পস্‌লাম গাওয়ার অনুরোধ করলেন\" or \"তিনি একটি স্তবক গান গাওয়ার অনুরোধ করলেন।\"",
+      "translation_quote": "তিনি বসে গিয়ে একটি রাজকীয় কীর্তন গাইবার অনুরোধ শুরু করলেন, এবং গান শেষ হলে পুরো শান্তচিত্তে শ্রোতাদের জানালেন কী ঘটেছে।"
+    },
+    {
+      "location": "source.html — image alt text",
+      "severity": "minor",
+      "source_quote": "Sheet music for O Love That Wilt Not Let Me Go",
+      "suggested_fix": "Alt text must be translated into Bengali. Suggested translation: \"O Love That Wilt Not Let Me Go-এর সঙ্গীতপত্র\" (or Bengali translation of hymn title consistent with earlier decision). Ensure the alt attribute in the HTML is updated accordingly.",
+      "translation_quote": "alt=\"O Love That Wilt Not Let Me Go-এর সঙ্গীতপত্র\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

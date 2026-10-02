@@ -2,7 +2,6 @@
   "article_id": "1caf6642-2283-4363-b3b6-33e40c39f945",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,86 @@
         },
         "total_tokens": 4990
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2054,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4777,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6831
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph 3 (source.html) — sentence about four more years of theological study and remaining single",
+      "severity": "major",
+      "source_quote": "He was a brilliant scholar, even spending four more years after graduation in more theological studies, all the while remaining single.",
+      "suggested_fix": "Translate as a single coherent sentence that preserves the original facts: that after graduation he spent four additional years in theological study and during that time he remained unmarried. Example (Kiswahili): \"Alikuwa mwanafunzi mwenye akili sana, akitumia miaka minne zaidi baada ya kuhitimu kwa masomo ya theolojia, wakati huo wote akiwa hajaoa.\" Preserve surrounding HTML tags and order.",
+      "translation_quote": "Alikuwa mtaalam mwenye akili, akatumia miaka mingine minne baada ya graduation kwa masomo ya ziada ya kifalme, huku akiendelea kwa ndoa."
+    },
+    {
+      "location": "Paragraph 3 — phrase translating 'theological' as 'kifalme' and 'remaining single' as 'akiendelea kwa ndoa'",
+      "severity": "major",
+      "source_quote": "theological studies, all the while remaining single",
+      "suggested_fix": "Replace inaccurate words with correct Kiswahili equivalents: 'masomo ya theolojia' for 'theological studies' and 'akayekaa mja mzima/hajaoa' or 'akiwa hajaoa' for 'remaining single'. Example: 'masomo ya theolojia, huku akiwa hajaoa.'",
+      "translation_quote": "masomo ya ziada ya kifalme, huku akiendelea kwa ndoa."
+    },
+    {
+      "location": "Paragraph 4 (assistant to Dr. Macduff)",
+      "severity": "major",
+      "source_quote": "He entered the university at the early age of 15 and graduated with high honors in 1861 at the age of 19. He was a brilliant scholar, even spending four more years after graduation in more theological studies, all the while remaining single. After his graduation he became entirely dependent on others, relying much upon his two sisters, ...",
+      "suggested_fix": "Correct the mistranslation of 'assistant pastor to the renowned Dr. Macduff' context and of 'in whose church of thousands of members he had been brought up.' Use 'msaidizi wa mchungaji' or 'mchungaji msaidizi kwa Dr. Macduff' and render 'brought up in his church of thousands' as 'ambayo alikuwa amekulia katika kanisa lake lenye maelfu ya wanachama.' Ensure wording preserves that he was raised in Macduff's large church.",
+      "translation_quote": "Alikuwa mtaalam mwenye akili, akatumia miaka mingine minne baada ya graduation kwa masomo ya ziada ya kifalme, huku akiendelea kwa ndoa. Baada ya kuhitimu alitegemea kabisa wengine, akitegemea sana ndugu zake wawili, ambao walikuwa watiifu kiasi cha kujifunza Kilatini, Kigiriki, na Kiebrania kwa sababu walienda wakidhani kuwa inaweza kumsaidia katika masomo yake ya kikatoliki."
+    },
+    {
+      "location": "Paragraph 4 (siblings learned languages)",
+      "severity": "major",
+      "source_quote": "relying much upon his two sisters, who were so dedicated that they learned Latin, Greek, and Hebrew since they thought it might aid him in his theological studies.",
+      "suggested_fix": "Translate accurately: 'walijifunza Kilatini, Kigiriki, na Kiebrania kwa sababu waliamini kuwa ingeweza kumsaidia katika masomo yake ya theolojia.' Do not change 'theological' to 'kikatoliki' (which changes denominational sense).",
+      "translation_quote": "waliwahi kujifunza Kilatini, Kigiriki, na Kiebrania kwa sababu walienda wakidhani kuwa inaweza kumsaidia katika masomo yake ya kikatoliki."
+    },
+    {
+      "location": "Paragraph 5 (chosen minister at Innellan)",
+      "severity": "major",
+      "source_quote": "Soon, however, he was chosen minister of the Church of Scotland in the seaport summer resort of Innellan.",
+      "suggested_fix": "Render correctly: 'Hivi karibuni, alichaguliwa kuwa mchungaji wa Kanisa la Scotland katika mji wa pwani wa kitalu wa Innellan.' But prefer clearer Kiswahili: 'Hivi karibuni, alichaguliwa kuwa mchungaji (minister) wa Kanisa la Scotland katika mji wa pwani na kizoezi cha kiangazi cha Innellan.'",
+      "translation_quote": "alichaguliwa kuwa mwinjilisti wa Kanisa la Scotland katika mji wa kitalu cha pwani wa Innellan."
+    },
+    {
+      "location": "Paragraph 7 (memorizing sermons — 'request a psalm to be sung')",
+      "severity": "minor",
+      "source_quote": "He sat down and commenced to request a psalm to be sung, and, after the song, with perfect calmness told the audience what had happened.",
+      "suggested_fix": "Improve phrasing to natural Kiswahili while preserving meaning. Example: 'Alikaa chini na akaomba kusomwa au kuimbwa zaburi, na baada ya wimbo huo, kwa utulivu kamili aliwaeleza wasikilizaji kilichotokea.'",
+      "translation_quote": "Alikaa chini na akaanza kuomba zaburi iimbwe, na, baada ya wimbo, kwa utulivu kamili alisema hadharani kilichotokea."
+    },
+    {
+      "location": "Paragraph 9 (popular account — bride leaving)",
+      "severity": "minor",
+      "source_quote": "this text was a result of the severe trial Matheson faced after his soon-to-be bride left him just before their marriage when she learned of his impending total blindness.",
+      "suggested_fix": "Clarify in Kiswahili without adding certainty. Example: 'hadithi maarufu ... ni kwamba ilitokana na jaribu kali alipokumbana nayo Matheson baada ya mchumba wake kumwacha kabla ya ndoa walipojua atakuwa kipofu kabisa.'",
+      "translation_quote": "ni kwamba maandishi haya yalikuwa matokeo ya jaribu kali alilokumbana nayo Matheson baada ya mrembo wake wa kuolewa kumwacha kabla ya ndoa yao alipopata habari ya upofu wake wa baadaye."
+    },
+    {
+      "location": "Paragraph 9 (imagery: 'flickering torch' and 'borrowed ray')",
+      "severity": "major",
+      "source_quote": "such as the “flickering torch” and the “borrowed ray” in the second verse",
+      "suggested_fix": "Translate the poetic images faithfully into Kiswahili. Do not render 'flickering torch' as 'taifa za mwanga'. Suggested translation: 'kama \"mshumaa unaotetemeka\" na \"miale iliyokopwa\"' (or 'mwangaza uliokopwa' for 'borrowed ray'). Preserve that these are verse images in the second verse.",
+      "translation_quote": "kama “taifa za mwanga” na “miale iliyokopwa” kwenye betu ya pili"
+    }
+  ],
   "id": "e744bd8c38590cf0bab54b1d66adf990",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "swa",
@@ -100,11 +176,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/4199dfaab0d5a21bda226eb26899e60946a88bb7c00ae9c880acb09af21e3ca7.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

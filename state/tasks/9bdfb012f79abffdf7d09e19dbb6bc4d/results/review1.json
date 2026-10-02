@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3d8e5b1a-618c-45f4-9ab9-19fc56a9f4b1",
+    "response_id": "chatcmpl-EUX2kMN4t4UNwOGbg9yBmMUdI8bnW",
+    "usage": {
+      "completion_tokens": 1259,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3422,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4681
+    }
+  },
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing reference to article title (near: \"The Foolishness of Preaching\")",
+        "severity": "major",
+        "source_quote": "Finally, we have The Foolishness of Preaching an evaluation regarding the basis of churches using “the altar call” — is it founded in the Scriptures and the history of the church or is it a method that the church has borrowed from the world in more recent years?!",
+        "suggested_fix": "Translate the English article title into French so no substantive prose remains untranslated. For example: «Enfin, nous avons La folie de la prédication, une évaluation concernant la base de l'utilisation par les églises de « l'appel à l'autel » — est‑il fondé dans les Écritures et dans l'histoire de l'église ou est‑ce une méthode que l'église a empruntée au monde ces dernières années ?» Preserve the surrounding punctuation and HTML structure.",
+        "translation_quote": "Enfin, nous avons The Foolishness of Preaching, une évaluation concernant la base de l'utilisation par les églises de « l'appel à l'autel » — est-il fondé dans les Écritures et dans l'histoire de l'église ou est-ce une méthode que l'église a empruntée au monde ces dernières années ?!"
+      },
+      {
+        "location": "Paragraph quoting Acts 17 introduction (\"Mars Hill\")",
+        "severity": "minor",
+        "source_quote": "For us as Christians, let us always keep our focus fixed on the God of heaven. This is the God that Paul declared on Mars Hill —God that made the world and all things therein... –Acts 17:24-25.",
+        "suggested_fix": "Use either the conventional French name for the place or retain the original proper name as in the English source. Recommended options (choose one and apply in the same HTML span):\n- Keep the proper name as in the source: «sur Mars Hill —»\n- Use the established French equivalent: «à l'Aréopage —»\nExample with Aréopage: «C'est le Dieu que Paul a proclamé à l'Aréopage — Dieu qui a fait le monde et toutes choses qui s'y trouvent... – Actes 17:24-25.»",
+        "translation_quote": "C'est le Dieu que Paul a proclamé sur le mont de Mars — Dieu qui a fait le monde et toutes choses qui s'y trouvent, puisqu'il est le Seigneur du ciel et de la terre, n'habite point dans des temples faits de main d'homme; ... – Actes 17:24-25."
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

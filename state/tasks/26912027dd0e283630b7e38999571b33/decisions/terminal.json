@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<figure> <figcaption> (scripture caption)",
+      "severity": "minor",
+      "source_quote": "PUT ON THE WHOLE ARMOUR OF GOD, that ye may be able to\n    stand against the wiles of the devil.  For we wrestle not against flesh and blood, but against principalities, against powers, against the rulers of the darkness of this world, AGAINST SPIRITUAL WICKEDNESS IN HIGH PLACES.  EPHESIANS 6:11-12",
+      "suggested_fix": "Исправить регистры и немного улучшить стилистическую плавность перевода в подписи, сохранив смысл и нумерацию ссылки. Например: «ОБЛЕЧИТЕСЬ В ПОЛНЫЕ ДУХОВНЫЕ ДОСПЕХИ БОГА, чтобы вы могли противостоять уловкам дьявола. Ибо мы не боремся с плотью и кровью, но с начальствами, с властями, с мироправителями тьмы сего века, С ДУХОВНЫМИ ЗЛЫМИ СИЛАМИ НА НЕБЕСНЫХ МЕСТАХ. ЕФЕСИЯНАМ 6:11–12» — сохранив HTML-структуру <figcaption> без изменений.",
+      "translation_quote": "<strong>ОБЛЕЧИТЕСЬ В ПОЛНЫЕ ДУХОВНЫЕ Доспехи БОГА,</strong> <em>чтобы вы могли<br>\n    противостоять уловкам дьявола.</em><br><br>\n    <em>Ибо мы не имеем борьбы с плотью и кровью, но с начальствами,<br>\n    с властями, с мироправителями тьмы этой,</em><br>\n    <strong>С ДУХОВНЫМИ ЗЛЫМИ СИЛАМИ НА НЕБЕСНЫХ МЕСТАХ.</strong><br>\n    ЕФЕСИЯНАМ 6:11-12"
+    },
+    {
+      "location": "Paragraph with parenthetical reference to the Bible (\"the sharpest of two-edged swords (The Holy Scriptures)\")",
+      "severity": "minor",
+      "source_quote": "they would be armed with the sharpest of two-edged swords (The Holy Scriptures), guided by a power (The Holy Spirit) greater than any naval fleet.",
+      "suggested_fix": "Prefer the conventional plural/or collective phrasing for the quoted idea to match the English plurality 'The Holy Scriptures'. Change «(Священным Писанием)» to «(Священными Писаниями)» or «(Священным Писанием)» only if the author’s intended singular referent is known. Keep the rest unchanged. (This is a minor consistency/style suggestion, not a doctrinal correction.)",
+      "translation_quote": "вместо пулемётов и гранат они были вооружены самым острым из мечей с двумя лезвиями (Священным Писанием), направляемыми силой (Святым Духом), большей, чем любой морской флот."
+    },
+    {
+      "location": "Figure figcaption — book name and verse format",
+      "severity": "minor",
+      "source_quote": "EPHESIANS 6:11-12",
+      "suggested_fix": "Standard Russian practice uses book names in sentence case and an en dash for ranges. Suggest «Ефесянам 6:11–12». Preserve the exact chapter and verse numbers and placement.",
+      "translation_quote": "ЕФЕСИЯНАМ 6:11-12"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

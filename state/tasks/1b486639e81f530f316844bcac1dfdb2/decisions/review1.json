@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "source.title / translation.title",
+      "severity": "critical",
+      "source_quote": "The Foolishness of Preaching",
+      "suggested_fix": "Translate the English title into standard written Korean, preserving meaning and theological tone. For example: \"설교의 어리석음\" (or another idiomatic equivalent chosen by the translator). Replace the translation.title value with the Korean title string. Do not alter HTML structure or attributes.",
+      "translation_quote": "The Foolishness of Preaching"
+    },
+    {
+      "location": "source.html — multiple quoted Scripture epigraph (first paragraph)",
+      "severity": "critical",
+      "source_quote": "For Christ sent me not to baptize, but to preach the gospel: not with wisdom of words, lest the cross of Christ should be made of none effect. For the preaching of the cross is to them that perish foolishness; but unto us which are saved it is the power of God. …it pleased God by the foolishness of preaching to save them that believe –1 Corinthians –1:17-21.",
+      "suggested_fix": "Translate the entire quoted Scripture passage into Korean, conveying the authoritative English text as printed (not substituting another Bible version). Use conventional Korean book name (고린도전서) and preserve chapter:verse numbers exactly as in the source (1:17-21). Example translation (one permissible rendering consistent with the printed English): \"그리스도께서 나를 세례 주려고 보내신 것이 아니라 복음을 전하려고 보내셨으니, 말의 지혜로 하지 아니하여 그리스도의 십자가가 헛되지 않게 하려 함이라. 십자가의 말씀이 멸망하는 자들에게는 멸망하는 것이요, 우리에게는 구원받는 자들에게는 하나님의 능력이라. …하나님께서 미련한 것 곧 전도의 미련함으로 믿는 자들을 구원하시기를 기뻐하셨도다 -- 고린도전서 1:17-21.\" Replace the English quotation inside the <em>…</em> tags with the Korean rendering and update the book-name to conventional Korean form while keeping the printed chapter/verse numbers unchanged.",
+      "translation_quote": "For Christ sent me not to baptize, but to preach the gospel: not with wisdom of words, lest the cross of Christ should be made of none effect. For the preaching of the cross is to them that perish foolishness; but unto us which are saved it is the power of God. …it pleased God by the foolishness of preaching to save them that believe –1 Corinthians –1:17-21."
+    },
+    {
+      "location": "source.html — paragraph with 1 Corinthians 1:17 reference (near 3rd paragraph)",
+      "severity": "major",
+      "source_quote": "…lest the cross of Christ should be made of none effect –1 Corinthians 1:17.",
+      "suggested_fix": "Translate this quoted Scripture clause into Korean and render the reference using the conventional Korean book name and exactly the same chapter:verse (고린도전서 1:17). For example: \"...그리스도의 십자가가 헛되게 되지 않도록 하려 함이라 -- 고린도전서 1:17.\" Replace the English clause within the <em>…</em> tags with the Korean translation.",
+      "translation_quote": "…lest the cross of Christ should be made of none effect –1 Corinthians 1:17."
+    },
+    {
+      "location": "source.html — paragraph with 2 Corinthians 10:10 quote",
+      "severity": "major",
+      "source_quote": "For his letters, say they, are weighty and powerful; but his bodily presence is weak, and his speech contemptible –2 Corinthians 10:10.",
+      "suggested_fix": "Translate the quoted sentence into Korean and render the reference with the conventional Korean book name (고린도후서 10:10). Example: \"그들이 말하되 그의 편지들은 강하고 능력이 있으나 그의 몸은 약하고 그의 말하는 것은 하찮다 -- 고린도후서 10:10.\" Replace the English quotation (inside <em>…</em>) with the Korean translation while preserving punctuation and the chapter:verse exactly.",
+      "translation_quote": "For his letters, say they, are weighty and powerful; but his bodily presence is weak, and his speech contemptible –2 Corinthians 10:10."
+    },
+    {
+      "location": "source.html — block with Matthew 11:28 and John 7:37 quotes (several occurrences)",
+      "severity": "major",
+      "source_quote": "Come unto me, …and I will give you rest –Matthew 11:28,  \n\n\nand, \n\n\n\nIf any man thirst, let him come unto me, and drink –John 7:37,",
+      "suggested_fix": "Translate both Scripture quotations into Korean and render the book names in Korean (마태복음 11:28; 요한복음 7:37), preserving chapter:verse numbers. For example: \"수고하고 무거운 짐을 진 사람들아 다 내게로 오라 내가 너희를 쉬게 하리라 -- 마태복음 11:28\" and \"누구든지 목마르거든 내게로 와서 마시라 -- 요한복음 7:37.\" Replace the English quoted strings (including the ellipses) with faithful Korean translations inside the <em>…</em> tags.",
+      "translation_quote": "Come unto me, …and I will give you rest –Matthew 11:28,  \n\n\nand, \n\n\n\nIf any man thirst, let him come unto me, and drink –John 7:37,"
+    },
+    {
+      "location": "source.html — multiple in-text Scripture quotes left in English (Acts 3:19; 2 Corinthians 5:20; Acts 20:21; Luke 14:23; Mark 4:16-17; 1 Corinthians 4:15-16; 1 Corinthians 11:1; 1 Thessalonians 5:13; Hebrews 6:18-19; John 3:8; Romans 10:17)",
+      "severity": "major",
+      "source_quote": "Repent ye therefore, and be converted, that your sins may be blotted out… –Acts 3:19,  \n\n\n\n…we pray you in Christ›s stead, be ye reconciled to God –2 Corinthians 5:20.  \n\n\n\n…to the Jews, and also to the Greeks, repentance toward God, and faith toward our Lord Jesus Christ –Acts 20:21.  \n\n\n\n…<strong>compel</strong> them to come in, that my house may be filled –Luke 14:23  \n\n\n\nAnd these are they likewise which are sown on stony ground; who, when they have heard the word, immediately receive it with gladness; And have no root in themselves, and so endure but for a time: afterward, when affliction or persecution ariseth for the word’s sake, immediately they are offended –Mark 4:16-17.  \n\n\n\nFor though ye have ten thousand instructors in Christ, yet have ye not many fathers: for in Christ Jesus I have begotten you through the gospel. Wherefore I beseech you, be ye followers of me –1 Corinthians 4:15-16.  \n\n\n\nBe ye followers of me, even as I also am of Christ –1 Corinthians 11:1.  \n\n\n\nAnd we beseech you, brethren, to know them which labour among you, and are over you in the Lord, and admonish you; And to esteem them very highly in love for their work’s sake… –1 Thessalonians 5:13.  \n\n\n\n… have fled for refuge to lay hold upon the hope set before us: Which hope we have as an <strong>anchor of the soul</strong>, both sure and stedfast… –Hebrews 6:18-19.  \n\n\n\nThe wind bloweth where it listeth… John 3:8,  \n\n\n\nSo then faith cometh by hearing, and hearing by the word of God –Romans 10:17.",
+      "suggested_fix": "Each quoted Scripture verse or clause must be translated into Korean and the reference book names rendered in conventional Korean forms (e.g., 사도행전, 고린도후서, 사도행전, 누가복음, 마가복음, 고린도전서, 데살로니가전서, 히브리서, 요한복음, 로마서), preserving the exact chapter:verse numbering. Replace each English quotation (currently inside <em>…</em> tags or similar) with a faithful Korean rendering while keeping punctuation and the displayed verse markers unchanged. Example: \"회개하라 그리하면 너희 죄가 도말되리라 -- 사도행전 3:19.\" Provide Korean translations for all such quotations throughout the HTML.",
+      "translation_quote": "(see source_quote — multiple English scripture passages listed above) "
+    },
+    {
+      "location": "source.html — quoted non-scriptural endnotes and cited titles remain in English (Endnotes section)",
+      "severity": "minor",
+      "source_quote": "* “Charles Spurgeon, well known for his evangelistic abilities, firmly refused to adopt the practice of altar calls and he severely criticized it. He viewed the altar call as a method to force decisions as results, but he recognized its potential abuse and dangers.” Altar Calls – Bill Brenner\n\n‘I should like to go into the enquiry-room.’ ... - Pleading and Encouragement – Charles Haddon Spurgeon – Aug 17, 1841\n\n** What A Revival Of Religion Is – Charles Grandison Finney – The Belknap Press Of Harvard University ...\n\n*** Spirit Force vs. Psychic Force – Watchman Nee",
+      "suggested_fix": "Translate the body of the quoted endnote text and any quoted passages into Korean, and render the cited titles and bibliographic information into Korean in a way that preserves the original English title if the publisher/work title is being cited (you may keep the original English title in parentheses after a Korean translation if desired). At minimum, the quoted descriptive sentences and the Spurgeon quotation should be translated into Korean, and the Bible-related or theological quotes should also be in Korean. Preserve the italic/emphasis tags and the HTML structure exactly as in the source when replacing the English text with Korean translations.",
+      "translation_quote": "(Endnotes block currently in English as shown in the translation.)"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

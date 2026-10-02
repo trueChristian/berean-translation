@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "<p>...समानों की जारी कमी—all ये एक व्यक्ति को स्वाभाविकता की अनुभूति से जकड़ कर बाहर कर देते हैं।</p>",
+      "severity": "minor",
+      "source_quote": "Current skyrocketing inflation, the potential of unprecedented heating costs for many, the rumors of rising interest rates, and the ongoing shortage of goods all tend to cause a person to be jolted out of a sense of normality.",
+      "suggested_fix": "Remove the stray English word and render the full clause in Hindi. For example: \"...और सामानों की जारी कमी — ये सभी किसी व्यक्ति को स्वाभाविक स्थिति से झटके में बाहर कर देती हैं।\" Preserve existing HTML and punctuation.",
+      "translation_quote": "...वर्तमान आसमान छूती महंगाई, कई लोगों के लिए अभूतपूर्व हीटिंग लागत की संभावनाएँ, बढ़ती ब्याज दरों की अफ़वाहें, और समानों की जारी कमी—all ये एक व्यक्ति को स्वाभाविकता की अनुभूति से जकड़ कर बाहर कर देते हैं।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

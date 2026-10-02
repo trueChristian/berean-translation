@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html > <p> (paragraph describing wound size)",
+      "severity": "major",
+      "source_quote": "It was a small cut, only about one quarter of an inch long, but it had gone in rather deeply.",
+      "suggested_fix": "Translate the measurement accurately. Replace the Swedish phrase that gives the length as \"ungefär en halv centimeter\" with an accurate metric equivalent of one quarter of an inch (≈0,64 cm). For example: \"bara ungefär 0,64 centimeter lång\" or a rounded \"bara ungefär 0,6 centimeter lång\". Preserve the sentence structure and surrounding HTML.",
+      "translation_quote": "Det var ett litet snitt, bara ungefär en halv centimeter långt, men det gick ganska djupt."
+    },
+    {
+      "location": "source.html > <figure> (first image alt attribute)",
+      "severity": "minor",
+      "source_quote": "alt=\"A child whittling a stick with a small red-handled knife\"",
+      "suggested_fix": "Use a natural Swedish phrasing for the alt text and keep it short. For example: alt=\"Ett barn som täljer en pinne med en liten kniv med rött handtag\". Preserve the alt attribute and other img attributes.",
+      "translation_quote": "alt=\"Ett barn som täljer en pinne med en liten röd-handtagskniv\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

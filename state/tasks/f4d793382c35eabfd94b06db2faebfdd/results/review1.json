@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a9310b4a-b772-425e-b511-459d315a0da9",
+    "response_id": "chatcmpl-EUX2kJ9OHeVgEuZDFsNWbmAOPZSzr",
+    "usage": {
+      "completion_tokens": 1277,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3647,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4924
+    }
+  },
+  "received_at": "2026-10-02T12:55:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<img alt> of first figure (source.html beginning)",
+        "severity": "minor",
+        "source_quote": "A child whittling a stick with a small red-handled knife",
+        "suggested_fix": "Vertaal die beeld-beskrywing duidelik en idiomaties: gebruik bijv. “’n Kind kerf aan ’n stokkie met ’n klein mes met ’n rooi handvatsel.” Behou enkel aanhalingstekens soos in die vertaling (’n).",
+        "translation_quote": "’n Kind snit ’n stokkie met ’n klein rooi-gehandhandelde mes"
+      },
+      {
+        "location": "Paragraph with “She paused” (near middle)",
+        "severity": "minor",
+        "source_quote": "She paused, looking at the knife in her hand.",
+        "suggested_fix": "Gebruik korrekte Afrikaanse frase vir ‘paused’ — byvoorbeeld: “Sy het stilgehou en na die mes in haar hand gekyk.” Dit herstel grammatika en idiomatiese natuurlikheid.",
+        "translation_quote": "Sy het gepauser en na die mes in haar hand gekyk."
+      },
+      {
+        "location": "Sentence describing knife plunging into wrist (paragraph with 'plunged into her left wrist')",
+        "severity": "minor",
+        "source_quote": "That little knife had plunged into her left wrist as she was trying to keep her balance.",
+        "suggested_fix": "Herstel die werkwoordsvorm: vervang “indring” met “ingedring” of herformuleer: “Daardie klein mes het in haar linkerpols ingedring terwyl sy probeer om haar balans te behou.”",
+        "translation_quote": "Daardie klein mes het in haar linkerpols indring terwyl sy probeer om haar balans te behou."
+      },
+      {
+        "location": "Alt text of second figure (final figure)",
+        "severity": "minor",
+        "source_quote": "A rope swing hanging from a large tree",
+        "suggested_fix": "Gebruik ’n duidelike Afrikaanse term vir rope swing, byvoorbeeld: “’n Tou-swaai hang aan ’n groot boom.” Vervang die ongepaste neologisme met die korrekte woord “swaai.”",
+        "translation_quote": "’n Tou-wingswa hang aan ’n groot boom"
+      },
+      {
+        "location": "Paragraph describing visiting aunt and uncle (third paragraph)",
+        "severity": "minor",
+        "source_quote": "She had spent a week with her aunt and uncle who lived several counties over from hers",
+        "suggested_fix": "Woordekeuse: vervang “’n paar provinsies van hulle af” met ’n meer akkurate vertaling van “several counties over,” bv. “wat ’n paar counties verder van hulle af gewoon het” of, as ‘county’ nie as term gebruik word in die teikentaal-konteks, “wat ’n paar dorpe verder van hulle af gewoon het.” Kies die beste toelaatlike plaaslike ekwivalent.",
+        "translation_quote": "’n paar provinsies van hulle af gewoon het"
+      }
+    ],
+    "passed": false,
+    "score": 92
+  }
+}

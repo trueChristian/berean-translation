@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2 (first <p>)",
+      "severity": "major",
+      "source_quote": "he had been whisked off to the Roman Procurator Felix",
+      "suggested_fix": "Use the correct office-title used in the English source. Replace \"procónsul romano Félix\" with \"procurador romano Félix\" (or simply \"el procúctor romano Félix\" if preferred), preserving the name \"Félix\".",
+      "translation_quote": "Unos días después, lo llevaron ante el procónsul romano Félix debido al peligro que representaba un grupo de conspiradores judíos."
+    },
+    {
+      "location": "Paragraph 3 (Acts 24:25 quote)",
+      "severity": "major",
+      "source_quote": "Felix trembled, and answered, Go thy way for this time; when I have a convenient season, I will call for thee –Acts 24:25.",
+      "suggested_fix": "Preserve the name as in the English source (Félix). Replace the Spanish \"Felipe tembló, y respondió: Ve, por ahora; cuando tenga oportunidad, te llamaré –Hechos 24:25.\" with \"Félix tembló, y respondió: Ve, por ahora; cuando tenga oportunidad, te llamaré –Hechos 24:25.\" so the quoted person matches the original.",
+      "translation_quote": "[hasta que finalmente] <em>Felipe tembló, y respondió: Ve, por ahora; cuando tenga oportunidad, te llamaré –Hechos 24:25.</em>"
+    },
+    {
+      "location": "Paragraph quoting Romans 1:20",
+      "severity": "major",
+      "source_quote": "For the invisible things of him from the creation of the world are clearly seen, being understood by the things that are made, even his eternal power and Godhead; so that they are without excuse –Romans 1:20.",
+      "suggested_fix": "Translate only the text present in the authoritative English source. Remove the extra inserted clause that is not in the source. Replace the current Spanish rendering with a faithful translation of the exact English verse, for example: \"Porque las cosas invisibles de él, desde la creación del mundo, se ven claramente, siendo entendidas por las cosas que se han hecho, de modo que manifiestan su eterno poder y deidad, de modo que son inexcusables –Romanos 1:20.\" Ensure the verse conveys the printed English meaning and does not add material from other verses.",
+      "translation_quote": "Pablo dice: <em>Porque las cosas invisibles de él, desde la constitución del mundo, se entienden por las cosas que están hechas, de modo que son inexcusables su poder eterno y deidad; de manera que, habiendo conocido a Dios, no le glorificaron como a Dios –Romanos 1:20.</em>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

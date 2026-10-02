@@ -2,7 +2,6 @@
   "article_id": "4ab4f655-4a17-4f5c-9623-e9085bd401f9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,45 @@
         },
         "total_tokens": 3955
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 791,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 384,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3668,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4459
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>She had spent a week with her aunt and uncle who lived several counties over from hers and while there, her cousin Paul had given her a knife that he had made.</p>",
+      "severity": "minor",
+      "source_quote": "She had spent a week with her aunt and uncle who lived several counties over from hers and while there, her cousin Paul had given her a knife that he had made.",
+      "suggested_fix": "원문의 시제·시점 정보를 유지하면서 한국어로 자연스럽게 옮기십시오. 예: \"그녀는 몇 개 카운티를 넘나드는 숙모와 숙부 댁에서 일주일을 보냈는데, 그곳에서 사촌 폴이 직접 만든 칼을 그녀에게 주었다.\"",
+      "translation_quote": "며칠 전 그녀는 몇 카운티 떨어진 숙모와 숙부 댁에서 일주일을 보냈고, 그곳에서 사촌 폴이 직접 만든 칼을 선물해 주었다."
+    },
+    {
+      "location": "<p>It was a small cut, only about one quarter of an inch long, but it had gone in rather deeply.</p>",
+      "severity": "minor",
+      "source_quote": "It was a small cut, only about one quarter of an inch long, but it had gone in rather deeply.",
+      "suggested_fix": "수치 단위는 한국어 관용표현으로 다듬어 주세요. 예: \"상처는 작아서 길이가 약 1/4인치(약 0.6cm)였지만 꽤 깊게 박혔다.\" 또는 단위를 한국식으로 바꿀 경우 괄호로 원 단위를 병기해 주세요.",
+      "translation_quote": "상처는 작아 한 쿼터 인치쯤 되었지만 비교적 깊게 들어가 있었다."
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:35+00:00",
   "id": "a019d7288909dde339b0ff03100429d1",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "kor",
@@ -100,11 +135,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d403f379edde7ed1b9230df32b8a4aa9dad598dcb4dff15ce8551751f262d6f8.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "bea4c0be47f056e7707aebabc8049992e7243ac83fcd337c2189cd783f263083",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

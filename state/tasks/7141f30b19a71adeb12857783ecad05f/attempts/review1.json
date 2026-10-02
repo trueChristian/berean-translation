@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph about Mark 2 (the paralytic)\",\"severity\":\"major\",\"source_quote\":\"“Thy sins be forgiven thee.” Then He said, “Rise up and walk.”\",\"suggested_fix\":\"Translate the quoted sayings exactly as printed in the authoritative English, without adding words. Replace the translation that adds an address with a faithful rendering of the English phrase. For example: “‘Teus pecados te são perdoados.’ Depois disse: ‘Levanta‑te e anda.’” (preserve punctuation and the order of the two statements as in the source).\",\"translation_quote\":\"“Filho, perdoados te são os teus pecados.” Depois disse: “Levanta‑te, toma o teu leito e vai para tua casa.”\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 730,
+    "content_evidence_truncated": false,
+    "content_sha256": "e79f7ca552cc082665553e9684f429f64eaca6d20ca5d3aed37f73cff7d2f1b7",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 888,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8654,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9542
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

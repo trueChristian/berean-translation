@@ -2,7 +2,6 @@
   "article_id": "1bdf0b87-af5f-4c9b-99a2-004277f7718d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,72 @@
         },
         "total_tokens": 9731
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2651,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9327,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11978
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph with Acts 24:25 and Acts 26:24 (first long <p> after second)",
+      "severity": "major",
+      "source_quote": "During the hearing Paul <em>…reasoned of righteousness, temperance, and judgment to come, </em>[until finally] <em>Felix trembled, and answered, Go thy way for this time; when I have a convenient season, I will call for thee –Acts 24:25. </em>Then towards the end of Paul’s oration <em>…Festus said with a loud voice, Paul, thou art beside thyself; much learning doth make thee mad –Acts 26:24.</em>",
+      "suggested_fix": "Render the quoted scripture phrases accurately and idiomatically in Swedish, preserving the structure and verse numbers. Also remove or correct the nonsensical Swedish verb currently used for the first clause. For example (only as a narrow textual repair of this HTML paragraph):\n\nUnder the hearing Paul <em>…målade ut rättfärdighet, dygd och den kommande domen, </em>[tills slutligen] <em>skakade Felix och svarade: 'Gå din väg för denna gång; när jag får en lämplig tid skall jag kalla på dig.' – Apostlagärningarna 24:25.</em> Mot slutet av Paulus tal <em>…sade Festus högt: 'Paulus, du är galen; stor lärdom gör dig tokig.' – Apostlagärningarna 26:24.</em>\n\nApply the replacement only inside this existing <p> element and preserve all tags and verse-number punctuation exactly where they appear.",
+      "translation_quote": "Under förhöret <em>…tvärrade han för rättfärdighet, sättning och kommande dom, </em>[tills slutligen] <em>Felix skakade i sina inälvor och svarade: Gå din väg för denna gång; när jag får en lämplig tid skall jag kalla på dig –Apostlagärningarna 24:25.</em> Mot slutet av Paulus tal <em>…sade Festus hög röst: Paulus, du är galen; mycket lärdom gör dig galen –Apostlagärningarna 26:24.</em>"
+    },
+    {
+      "location": "Multiple <h3> headings left in English: <h3>Creation</h3>, <h3>The Laws of the Universe Still Stand</h3>, <h3>Science Will Never Understand Everything</h3>, <h3>Presuppositions are a Problem</h3>, <h3>Many Scientists Believe in God</h3>, <h3>Science and Medicine</h3>, <h3>Why Treatments Need to be Studied</h3>, <h3>What Makes a Good Study</h3>, <h3>Problems</h3>, <h3>Conclusion</h3>",
+      "severity": "major",
+      "source_quote": "Headings in source HTML are in English (e.g. Creation; The Laws of the Universe Still Stand; Science Will Never Understand Everything; etc.)",
+      "suggested_fix": "Translate all article headings into Swedish consistently using contemporary Swedish. Preserve the <h3> tags and their placement. Suggested translations (example replacements only):\n- <h3>Creation</h3> → <h3>Skapelsen</h3>\n- <h3>The Laws of the Universe Still Stand</h3> → <h3>Universums lagar består</h3>\n- <h3>Science Will Never Understand Everything</h3> → <h3>Vetenskapen kommer aldrig förstå allt</h3>\n- <h3>Presuppositions are a Problem</h3> → <h3>Förutsättningar är ett problem</h3>\n- <h3>Many Scientists Believe in God</h3> → <h3>Många vetenskapsmän tror på Gud</h3>\n- <h3>Science and Medicine</h3> → <h3>Vetenskap och medicin</h3>\n- <h3>Why Treatments Need to be Studied</h3> → <h3>Varför behandlingar måste studeras</h3>\n- <h3>What Makes a Good Study</h3> → <h3>Vad som kännetecknar en bra studie</h3>\n- <h3>Problems</h3> → <h3>Problem</h3>\n- <h3>Conclusion</h3> → <h3>Slutsats</h3>\n\nMake the replacements in-place, preserving the tags exactly and not altering surrounding text or punctuation.",
+      "translation_quote": "<h3>Creation</h3>\n...\n<h3>The Laws of the Universe Still Stand</h3>\n...\n<h3>Science Will Never Understand Everything</h3>\n...\n<h3>Presuppositions are a Problem</h3>\n...\n<h3>Many Scientists Believe in God</h3>\n...\n<h3>Science and Medicine</h3>\n...\n<h3>Why Treatments Need to be Studied</h3>\n...\n<h3>What Makes a Good Study</h3>\n...\n<h3>Problems</h3>\n...\n<h3>Conclusion</h3>"
+    },
+    {
+      "location": "Paragraph about Paul quoting 'Greek and Cretan philosophers and poets' (early paragraphs)",
+      "severity": "minor",
+      "source_quote": "quoting not only from the Jewish Bible, but also from a variety of Greek and Cretan philosophers and poets.",
+      "suggested_fix": "Correct the adjective for people from Crete to standard Swedish. Replace 'kretska' with 'kretensiska' (or 'kretensiska' philosophers and poets). Make the change only within this sentence.",
+      "translation_quote": "Han gjorde det klart i sina brev och predikningar, och citerade inte bara från den judiska Bibeln utan också från en rad grekiska och kretska filosofer och poeter."
+    },
+    {
+      "location": "Paragraph about Felix's reaction (same paragraph as Acts quotes)",
+      "severity": "minor",
+      "source_quote": "Felix trembled, and answered, Go thy way for this time; when I have a convenient season, I will call for thee –Acts 24:25.",
+      "suggested_fix": "The literal rendering 'skakade i sina inälvor' is awkward in Swedish for the English 'Felix trembled.' Use a natural Swedish idiom such as 'Felix skakade' or 'Felix darrade' inside the quoted scripture clause. Preserve the verse reference exactly. Example replacement inside the <em> element: 'Felix skakade och svarade: ... –Apostlagärningarna 24:25.'",
+      "translation_quote": "<em>Felix skakade i sina inälvor och svarade: Gå din väg för denna gång; när jag får en lämplig tid skall jag kalla på dig –Apostlagärningarna 24:25.</em>"
+    },
+    {
+      "location": "Paragraph about Aretaeus and dating (diabetes history)",
+      "severity": "minor",
+      "source_quote": "Aretaeus of Cappadocia in the second century AD was the first person to give a complete description of diabetes",
+      "suggested_fix": "The translation currently says 'Aretaeus från Kappadokien på 100-talet e.Kr.' which implies first century. Change to 'på 100–talet e.Kr.' is ambiguous; better to render 'på 100‑/200‑talet' or explicitly 'på 100‑/200‑talet' only if necessary. Prefer 'på 100‑/200‑talet e.Kr.' or simply 'på 100‑/200‑talet' is not ideal. Recommended narrow fix: replace with 'på 100‑/200‑talet e.Kr.' or 'på andra århundradet e.Kr.' to match 'second century AD'. For accuracy use: 'på 100‑/200‑talet' is not acceptable; replace with 'på andra århundradet e.Kr.'",
+      "translation_quote": "Aretaeus från Kappadokien på 100-talet e.Kr. var den första som gav en fullständig beskrivning av diabetes och gav faktiskt sjukdomen namnet <em>diabetes</em>."
+    },
+    {
+      "location": "Paragraph about bloodletting (George Washington)",
+      "severity": "minor",
+      "source_quote": "His doctors probably damaged his chances of recovery by bleeding him four times for a total of close to 40 percent of his blood volume.",
+      "suggested_fix": "The Swedish translation contains awkward and inconsistent verbs ('låta blod honom', 'tappat honom', 'blodutmärktning'). Replace with clear Swedish idiom for bloodletting such as 'de tappade blod fyra gånger' and 'blodförlust' so the meaning is preserved. Make the correction only inside this paragraph, preserving all tags.",
+      "translation_quote": "Hans läkare skadade förmodligen hans chanser till återhämtning genom att låta blod honom fyra gånger till en total nära 40 procent av hans blodvolym. ... De flesta som dog efter blodutmärktning skulle förmodligen ha dött ändå, men att tappna svårt sjuka människor hjälper dem inte att återhämta sig."
+    }
+  ],
   "id": "221ef30ea5ccecb66ed9e06beca45565",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "swe",
@@ -100,11 +162,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/52f684b8d02f77793b6e7dc1b48ec48b97a6055434007d0dad3db046e47c8044.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "5fb27f23eb62db29608050722b6dfaf82ff0b381b3a8cf3c6ff5dca578b5db55",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

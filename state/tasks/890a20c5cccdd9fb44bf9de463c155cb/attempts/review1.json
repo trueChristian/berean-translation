@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>Era um corte pequeno, de apenas cerca de seis milímetros, mas havia entrado relativamente profundo.</p>\",\"severity\":\"major\",\"source_quote\":\"It was a small cut, only about one quarter of an inch long, but it had gone in rather deeply.\",\"suggested_fix\":\"Render the original measurement without changing the printed numeric unit. Replace the sentence with a faithful Portuguese rendering of \\\"one quarter of an inch\\\": \\\"Era um corte pequeno, de apenas cerca de um quarto de polegada, mas havia entrado relativamente profundo.\\\" (If a metric conversion is desired, include it parenthetically without replacing the original printed unit: \\\"(aprox. 6 mm)\\\").\",\"translation_quote\":\"Era um corte pequeno, de apenas cerca de seis milímetros, mas havia entrado relativamente profundo.\"},{\"location\":\"<p>Ela havia passado uma semana com sua tia e tio, que moravam a várias cidades de distância, e, enquanto estava lá, seu primo Paul lhe dera uma faca que ele mesmo havia feito.</p>\",\"severity\":\"minor\",\"source_quote\":\"She had spent a week with her aunt and uncle who lived several counties over from hers and while there, her cousin Paul had given her a knife that he had made.\",\"suggested_fix\":\"Preserve the sense of the original geographic unit. Replace \\\"várias cidades de distância\\\" with a closer equivalent to \\\"counties\\\" in Portuguese, e.g. \\\"vários condados de distância\\\" or \\\"várias comarcas de distância\\\", depending on the publication's preferred term. Example: \\\"...que moravam a vários condados de distância...\\\"\",\"translation_quote\":\"Ela havia passado uma semana com sua tia e tio, que moravam a várias cidades de distância, e, enquanto estava lá, seu primo Paul lhe dera uma faca que ele mesmo havia feito.\"}],\"passed\":false,\"score\":88}",
+    "content_bytes": 1788,
+    "content_evidence_truncated": false,
+    "content_sha256": "7dd0803e3e6250c879d2a7aab5f02277173eee64431bd34a7deb2f460ec05f3a",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 979,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3444,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4423
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

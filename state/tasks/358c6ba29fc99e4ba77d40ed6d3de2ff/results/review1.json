@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "50987387-dd8e-4e89-8ef5-b9a117bc57e3",
+    "response_id": "chatcmpl-EUX3MgVEaZyvCSQjk4SEh1gN3CtaD",
+    "usage": {
+      "completion_tokens": 903,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3540,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4443
+    }
+  },
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — first <img> alt attribute",
+        "severity": "minor",
+        "source_quote": "alt=\"A child whittling a stick with a small red-handled knife\"",
+        "suggested_fix": "Korrigiere die Alt-Beschreibung im Zieltext zu einer natürlichen, grammatisch korrekten deutschen Formulierung und erhalte die Bedeutung: z. B. alt=\"Ein Kind schnitzt einen Stock mit einem kleinen Messer mit rotem Griff\". Bewahre die HTML-Struktur unverändert.",
+        "translation_quote": "alt=\"Ein Kind schnitzt einen Stock mit einem kleinen, rotgriffs Messer\""
+      },
+      {
+        "location": "source.html — paragraph about aunt/uncle (\"counties\")",
+        "severity": "minor",
+        "source_quote": "She had spent a week with her aunt and uncle who lived several counties over from hers",
+        "suggested_fix": "Formuliere die Stelle im Zieltext natürlicher: z. B. „Sie hatte eine Woche bei ihrer Tante und ihrem Onkel verbracht, die einige Countys von ihrem eigenen entfernt wohnten.“ → besser: „Sie hatte eine Woche bei ihrer Tante und ihrem Onkel verbracht, die mehrere Countys von ihrer Heimat entfernt wohnten.“ (oder auf Deutsch: „die mehrere Grafschaften entfernt wohnten“). Ersetze nur den Wortlaut, erhalte HTML-Tags unverändert.",
+        "translation_quote": "Sie hatte eine Woche bei ihrer Tante und ihrem Onkel verbracht, die einige Countys von ihrem eigenen entfernt wohnten"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>She had spent a week with her aunt and uncle who lived several counties over from hers and while there, her cousin Paul had given her a knife that he had made.</p>\",\"severity\":\"minor\",\"source_quote\":\"She had spent a week with her aunt and uncle who lived several counties over from hers and while there, her cousin Paul had given her a knife that he had made.\",\"suggested_fix\":\"원문의 시제·시점 정보를 유지하면서 한국어로 자연스럽게 옮기십시오. 예: \\\"그녀는 몇 개 카운티를 넘나드는 숙모와 숙부 댁에서 일주일을 보냈는데, 그곳에서 사촌 폴이 직접 만든 칼을 그녀에게 주었다.\\\"\",\"translation_quote\":\"며칠 전 그녀는 몇 카운티 떨어진 숙모와 숙부 댁에서 일주일을 보냈고, 그곳에서 사촌 폴이 직접 만든 칼을 선물해 주었다.\"},{\"location\":\"<p>It was a small cut, only about one quarter of an inch long, but it had gone in rather deeply.</p>\",\"severity\":\"minor\",\"source_quote\":\"It was a small cut, only about one quarter of an inch long, but it had gone in rather deeply.\",\"suggested_fix\":\"수치 단위는 한국어 관용표현으로 다듬어 주세요. 예: \\\"상처는 작아서 길이가 약 1/4인치(약 0.6cm)였지만 꽤 깊게 박혔다.\\\" 또는 단위를 한국식으로 바꿀 경우 괄호로 원 단위를 병기해 주세요.\",\"translation_quote\":\"상처는 작아 한 쿼터 인치쯤 되었지만 비교적 깊게 들어가 있었다.\"}],\"passed\":true,\"score\":97}",
+    "content_bytes": 1527,
+    "content_evidence_truncated": false,
+    "content_sha256": "3a1a1294cf14fc8586aec4c57eb736d56795f8691bd5920cf0bfc47ed6d74ed9",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 791,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3668,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4459
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

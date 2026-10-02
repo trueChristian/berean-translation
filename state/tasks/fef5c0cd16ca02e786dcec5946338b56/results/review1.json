@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "849c04a8-ec21-4d3d-9282-648e27d46e52",
+    "response_id": "chatcmpl-EUX2kENgHWaPZSQlH6ROvvHSjUbvM",
+    "usage": {
+      "completion_tokens": 1353,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4838,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6191
+    }
+  },
+  "received_at": "2026-10-02T12:55:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "major",
+        "source_quote": "O Love That Wilt Not Let Me Go",
+        "suggested_fix": "Translate the English title into Afrikaans (preserve HTML structure). For example: \"O Liefde, wat my nie loslaat nie\" (replace the value of the title field with the translated title string).",
+        "translation_quote": "O Love That Wilt Not Let Me Go"
+      },
+      {
+        "location": "section",
+        "severity": "major",
+        "source_quote": "A HYMN HISTORY",
+        "suggested_fix": "Translate the section heading into Afrikaans, preserving case/formatting as required by the site. For example: \"’n GESANGS-GESKIEDENIS\" or \"’n Gesangsgeskiedenis\" (replace the translation.section value with the Afrikaans phrase).",
+        "translation_quote": "A HYMN HISTORY"
+      },
+      {
+        "location": "source.html — italicized publication and book titles (multiple occurrences)",
+        "severity": "major",
+        "source_quote": "Life and Work\nMoments on the Mount\nVoice of the Spirit\nRests by the River",
+        "suggested_fix": "Translate the cited publication and book titles into Afrikaans (keep them italicized in the HTML). For example: \n- <em>Life and Work</em> → <em>Lewe en Werk</em>\n- <em>Moments on the Mount</em> → <em>Moomente op die Berg</em>\n- <em>Voice of the Spirit</em> → <em>Stem van die Gees</em>\n- <em>Rests by the River</em> → <em>Rus by die Rivier</em>\nReplace each English italicized title in source.html with the Afrikaans rendering, preserving the <em> tags and order.",
+        "translation_quote": "Life and Work\nMoments on the Mount\nVoice of the Spirit\nRests by the River"
+      },
+      {
+        "location": "source.html — paragraph about composer",
+        "severity": "minor",
+        "source_quote": "The tune was composed one year later by a prominent Scotch organist of his day, Albert L. Peace, who was asked to write a tune especially for Matheson’s text.",
+        "suggested_fix": "Correct the occupation translation to standard Afrikaans. Replace \"Skotse organis\" with \"prominente Skotse orrelis\" or \"prominente Skotse organis\" is incorrect. Suggested Afrikaans: \"Die melodie is een jaar later deur ’n prominente Skotse orrelis van sy tyd, Albert L. Peace, gecomponeer...\" Preserve sentence structure and HTML tags.",
+        "translation_quote": "Die melodie is een jaar later deur ’n prominente Skotse organis van sy tyd, Albert L. Peace, gecomponeer, wat versoek is om ’n musiekstuk spesiaal vir Matheson se teks te skryf."
+      },
+      {
+        "location": "source.html — image alt attribute",
+        "severity": "minor",
+        "source_quote": "Sheet music for O Love That Wilt Not Let Me Go",
+        "suggested_fix": "Provide an accurate Afrikaans alt text that faithfully conveys the English alt text. For example: alt=\"Bladmuziek vir 'O Love That Wilt Not Let Me Go'\" Keep the <img> tag and other attributes exactly the same, only replace the alt text string.",
+        "translation_quote": "Blaaowskiere vir O Love That Wilt Not Let Me Go"
+      },
+      {
+        "location": "source.html — paragraph with 'single'",
+        "severity": "minor",
+        "source_quote": "all the while remaining single.",
+        "suggested_fix": "Fix a typographical error in the Afrikaans translation: replace \"onggetroud\" with the correct spelling \"ongetroud\". Preserve surrounding HTML/punctuation.",
+        "translation_quote": "onggetroud"
+      }
+    ],
+    "passed": false,
+    "score": 70
+  }
+}

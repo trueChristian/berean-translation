@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing Hebrews 12:2 (near end of fourth-to-last paragraph)",
+      "severity": "major",
+      "source_quote": "Let us keep our eyes fixed on Jesus …the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God –Hebrews 12:2.",
+      "suggested_fix": "Translate the phrase faithfully to preserve the original theological meaning. Replace the Norwegian wording \"trosbekjennerens opphavsmann og fullender\" with a correct rendering such as \"vår tros opphavsmann og fullender\" or \"vår tros opphavsmann og fullender; han som ...\" so it clearly reads that Jesus is the originator and completer of our faith (not 'the confessor of faith'). Keep the rest of the verse translation unchanged except for necessary grammatical agreement.",
+      "translation_quote": "La oss holde våre øyne festet på Jesus <em>…trosbekjennerens opphavsmann og fullender; han som for den glede som lå foran ham utholdt korset, og foraktet skammen, og sitter ved Guds trones høyre hånd –Hebreerne 12:2.</em>"
+    },
+    {
+      "location": "Paragraph mentioning selected article titles (middle of penultimate content paragraph)",
+      "severity": "major",
+      "source_quote": "The article that we have chosen to share from “Bible Helps” in this issue is one of the best discourses on the subject of “faith and works” that I have ever read. ... Finally, we have The Foolishness of Preaching an evaluation regarding the basis of churches using “the altar call”—is it founded in the Scriptures and the history of the church or is it a method that the church has borrowed from the world in more recent years?!",
+      "suggested_fix": "Translate the English article and section titles into Norwegian (or render them in typographically marked translation) because quoted substantive prose in the source must be presented in the target language. For example: replace “Bible Helps” with «Bible Helps» only if the original is an established title that should remain in English and the publisher policy allows it; otherwise translate or provide a Norwegian explanatory rendering. Translate “faith and works” to «tro og gjerninger» (already used later) and translate the article title \"The Foolishness of Preaching\" to «Forkynnelsens dårskap» (or another publisher-approved Norwegian title). Also translate “the altar call” to «alterkallet» (already used) and ensure the English titles are not left unrendered inside the Norwegian paragraph. If the publisher prefers to keep original English titles, mark them consistently (e.g., in italics) and provide a Norwegian translation in parentheses.",
+      "translation_quote": "Artikkelen vi har valgt å dele fra “Bible Helps” i dette nummeret er en av de beste avhandlinger om emnet «tro og gjerninger» jeg noen gang har lest. ... Til slutt har vi The Foolishness of Preaching — en vurdering av grunnlaget for kirker som bruker «alterkallet» — er det forankret i Skriftene og kirkens historie eller er det en metode kirken har lånt fra verden i nyere tid?!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

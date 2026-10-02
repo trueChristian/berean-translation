@@ -2,7 +2,6 @@
   "article_id": "b40d86c2-0814-40ea-a893-20dd7fcbdadb",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:38+00:00",
   "events": [
@@ -24,9 +23,59 @@
         },
         "total_tokens": 10475
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1603,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10188,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11791
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph: \"Two years earlier, the Selective Training and Service Act of 1940...\" (English) / Corresponding Greek paragraph beginning \"Αυτοί οι νέοι είχαν κληθεί...\"",
+      "severity": "minor",
+      "source_quote": "the Selective Training and Service Act of 1940",
+      "suggested_fix": "Use the correct article and idiomatic Greek legal phrase. Replace \"Το Νόμος περί Επιλεκτικής Εκπαίδευσης και Θητείας του 1940\" with \"Ο Νόμος περί Επιλεκτικής Εκπαίδευσης και Θητείας του 1940\" (or alternatively «Ο νόμος για την Επιλεκτική Εκπαίδευση και Θητεία του 1940»). Preserve surrounding HTML tags and punctuation.",
+      "translation_quote": "Το Νόμος περί Επιλεκτικής Εκπαίδευσης και Θητείας του 1940"
+    },
+    {
+      "location": "Figcaption: first line (English) / Greek figcaption first line",
+      "severity": "minor",
+      "source_quote": "PUT ON THE WHOLE ARMOUR OF GOD, that ye may be able to stand against the wiles of the devil.",
+      "suggested_fix": "Use a more natural and theologically customary rendering for \"wiles of the devil\" in Modern Greek. Replace \"ενάντια στις κολακείες του διαβόλου\" with \"ενάντια στα τεχνάσματα (ή \"τους δόλους\") του διαβόλου.\" Keep capitalization and HTML structure as in the translation.",
+      "translation_quote": "ΦΟΡΕΣΤΕ ΟΛΗ ΤΗΝ ΠΑΝΟΠΛΙΑ ΤΟΥ ΘΕΟΥ, για να μπορείτε να\n    σταθείτε ενάντια στις κολακείες του διαβόλου."
+    },
+    {
+      "location": "Paragraph describing mental patients (English) / Corresponding Greek paragraph",
+      "severity": "minor",
+      "source_quote": "the mentally handicapped",
+      "suggested_fix": "Use a less dated and more sensitive Modern Greek phrase. Replace \"ψυχικά καθυστερημένων\" with \"άτομα με νοητική αναπηρία\" or \"άτομα με διανοητική αναπηρία.\" Preserve the sentence structure and HTML tags.",
+      "translation_quote": "την προσοχή στη θέση των ψυχικά καθυστερημένων"
+    },
+    {
+      "location": "Paragraph describing banzai charge (English) / Corresponding Greek paragraph",
+      "severity": "minor",
+      "source_quote": "a banzai charge (a typically nocturnal all-out attack of massed infantry yelling at the top of their voices as they charged)",
+      "suggested_fix": "Adjust minor grammatical awkwardness in the parenthetical Greek explanation. Replace \"μια τυπικά νυχτερινή ολομέτωπη επίθεση πεζικού που φωνάζει με όλη του τη δύναμη καθώς ορμά\" with \"μια, συνήθως νυχτερινή, ολομέτωπη επίθεση πεζικού, όπου οι άντρες φωνάζουν με όλη τους τη δύναμη καθώς ορμούν.\" Keep the parenthesis and punctuation unchanged.",
+      "translation_quote": "μια τυπικά νυχτερινή ολομέτωπη επίθεση πεζικού που φωνάζει με όλη του τη δύναμη καθώς ορμά"
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:35+00:00",
   "id": "4a3332d75dc02a4eec2768d362aaec35",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ell",
@@ -100,11 +149,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/303eea9ede343be1d9acddc326e79733cfaca30a9ec14bd67edc70779b0f9f08.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "c767adc49633e338375567a05addcb2f986e5c013a016c2592a1cd600a81bb50",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

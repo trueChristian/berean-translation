@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 1 (source.html)\",\"severity\":\"minor\",\"source_quote\":\"treaties and ceasefires are only delays in the violence.\",\"suggested_fix\":\"Corregir la frase a una expresión gramaticalmente correcta en español, conservando la idea plural: p. ej., \\\"los tratados y los ceses de fuego son solo demoras en la violencia.\\\"\",\"translation_quote\":\"los tratados y los cese el fuegos son solo demoras en la violencia.\"},{\"location\":\"Throughout article (abbreviation use)\",\"severity\":\"minor\",\"source_quote\":\"Conscientious objectors were placed in various service roles through these programs. ... Despite the bureaucratic acceptance of the conscientious objectors’ (COs) convictions, and their subsequent alternate service, ...\",\"suggested_fix\":\"Mantener la abreviatura usada en el original o explicarla explícitamente en español. Recomiendo usar la abreviatura paralela al original: \\\"(CO)\\\" o adaptar consistentemente al español con nota una sola vez: \\\"objetores de conciencia (OC/CO)\\\". Por ejemplo: \\\"... de los objetores de conciencia (CO) ...\\\" y luego usar \\\"CO\\\" de forma consistente.\",\"translation_quote\":\"A pesar de la aceptación burocrática de las convicciones de los objetores de conciencia (OC) y de su servicio alternativo posterior, ...\"}],\"passed\":true,\"score\":98}",
+    "content_bytes": 1303,
+    "content_evidence_truncated": false,
+    "content_sha256": "fa3959c2676d3fca3207342c36d650480d2cf9369344cd736d52ea76b94c856e",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1138,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7793,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8931
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

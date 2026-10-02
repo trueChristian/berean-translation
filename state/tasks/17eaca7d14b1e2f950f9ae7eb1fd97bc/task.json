@@ -2,7 +2,6 @@
   "article_id": "fb65688b-5aaf-4194-a345-31f6f1355389",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:38+00:00",
   "events": [
@@ -24,9 +23,38 @@
         },
         "total_tokens": 3832
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 839,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3353,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4192
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph containing Acts reference (source.html 5th <p>)",
+      "severity": "minor",
+      "source_quote": "Let us keep our focus fixed on the God of heaven. This is the God that Paul declared on Mars Hill—God that made the world and all things therein, seeing that he is Lord of heaven and earth, dwelleth not in temples made with hands; Neither is worshipped with men’s hands, as though he needed any thing, seeing he giveth to all life, and breath, and all things; –Acts 17:24-25.",
+      "suggested_fix": "The source uses the name \"Mars Hill.\" The translation uses the equivalent classical name \"Areopagus.\" To preserve the author's original wording and avoid even a minor shift in tone, render the place name as in the source: \"Mars Hill\" (or include both as \"Mars Hill (Areopagus)\") while keeping the rest of the Dutch rendering unchanged.",
+      "translation_quote": "Voor ons als christenen: laten we onze blik altijd gericht houden op de God van de hemel. Dit is de God die Paulus verklaarde op de Areopagus —God die de wereld en alle dingen daarin gemaakt heeft; aangezien Hij Heer is van hemel en aarde, woont Hij niet in tempels gemaakt met handen; Hij wordt ook niet door mensenhanden gediend, als had Hij iets nodig, Hij geeft immers aan allen leven en adem en alle dingen; – Handelingen 17:24-25."
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:35+00:00",
   "id": "17eaca7d14b1e2f950f9ae7eb1fd97bc",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "nld",
@@ -100,11 +128,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0d188eedb4a6b0936348346a7bbb1d6ba410af25119039e27c08f30a398b9e61.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "2b4f275d7b7ba8096cb0ab03fead7b5dd10aa236b7e3bc6ad2626bd76b72e500",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

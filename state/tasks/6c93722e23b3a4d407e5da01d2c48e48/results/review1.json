@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "2e1957bb-04df-4ca5-a7a6-9f5c1a5c7247",
+    "response_id": "chatcmpl-EUX34mjpUiAxwSUAihGwjeOAxfh3L",
+    "usage": {
+      "completion_tokens": 1247,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3489,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4736
+    }
+  },
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<p>…Hebrews 12:2.</em>",
+        "severity": "major",
+        "source_quote": "...the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God –Hebrews 12:2.",
+        "suggested_fix": "Replace the incorrect/unknown Italian neologism with an idiomatic, theologically correct rendering. For example: \"…l’autore e il compitore della nostra fede\" → \"…l’autore e il perfezionatore della nostra fede\" (or \"…l’autore e il compimento della nostra fede\" is less idiomatic; preferred: \"perfezionatore\"). Preserve the surrounding HTML and emphasis tag.",
+        "translation_quote": "Manteniamo gli occhi fissi su Gesù <em>…l’autore e il compitore della nostra fede; il quale, per la gioia che gli era posta davanti, sostenne la croce, disprezzando l’onta, e si è assiso alla destra del trono di Dio –Ebrei 12:2.</em>"
+      },
+      {
+        "location": "<p>Infine, abbiamo The Foolishness of Preaching, una valutazione... </p>",
+        "severity": "minor",
+        "source_quote": "Finally, we have The Foolishness of Preaching an evaluation regarding the basis of churches using “the altar call” — is it founded in the Scriptures and the history of the church or is it a method that the church has borrowed from the world in more recent years?!",
+        "suggested_fix": "Translate the English title into natural contemporary Italian while preserving that it is a title (you may keep it in quotes if intended as the essay title). Suggested: replace \"La sciocchezza della predicazione\" with \"La follia della predicazione\" or \"La stoltezza della predicazione\" if you want to mirror the rhetorical force of 'Foolishness'. Keep punctuation and HTML structure unchanged.",
+        "translation_quote": "Infine, abbiamo La sciocchezza della predicazione, una valutazione riguardo alla base delle chiese che usano «la chiamata all’altare»—è fondata nelle Scritture e nella storia della chiesa o è un metodo che la chiesa ha preso in prestito dal mondo in anni più recenti?!"
+      },
+      {
+        "location": "<p>In una tendenza in sviluppo...</p>",
+        "severity": "minor",
+        "source_quote": "In an increasingly developing trend, there is a surprising rise of hostility towards the committed believer.",
+        "suggested_fix": "Improve idiomatic phrasing to standard contemporary Italian. For example: replace \"In una tendenza in sviluppo,\" with \"In una tendenza in crescita,\" or \"Con una tendenza in crescita,\". Keep HTML tags the same.",
+        "translation_quote": "Tuttavia, il mondo sembra muoversi verso una prospettiva sempre più negativa nei confronti del popolo di Dio. In una tendenza in sviluppo, c’è un sorprendente aumento dell’ostilità verso il credente impegnato."
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

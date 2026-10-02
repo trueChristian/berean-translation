@@ -2,7 +2,6 @@
   "article_id": "269bd2b1-418e-4d93-bd15-e7937c1adb85",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,44 @@
         },
         "total_tokens": 9336
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1431,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9125,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10556
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html — paragraph quoting James 5:14-16 (near \"I was diagnosed with cancer...\")",
+      "severity": "critical",
+      "source_quote": "Is any sick among you? let him call for the elders of the church; and let them pray over him, anointing him with oil in the name of the Lord: And the prayer of faith shall save the sick, and the Lord shall raise him up; and if he have committed sins, they shall be forgiven him. Confess your faults one to another, and pray one for another, that ye may be healed. The effectual fervent prayer of a righteous man availeth much –James 5:14-16.",
+      "suggested_fix": "Replace the translated Scripture with a faithful Indonesian rendering that clearly conveys the English text. Preserve the punctuation and verse reference. For example: \"Adakah di antara kamu yang sakit? Hendaklah ia memanggil penatua-penatua jemaat, dan hendaklah mereka mendoakan dia dan mengurapinya dengan minyak dalam nama Tuhan; dan doa iman akan menyelamatkan orang yang sakit, dan Tuhan akan membangunkannya; dan jika ia telah berbuat dosa, maka ia akan diampuni. Aku-ikutlah dosa seorang kepada yang lain, dan doalah seorang untuk yang lain, supaya kamu sembuh. Doa orang benar, apabila dengan yakin didoakan, besar kuasanya. – Yakobus 5:14-16.\" (Or use an established Indonesian Bible wording that faithfully renders the full verse group.) Note: Do not leave any part of the quoted Scripture mistranslated or garbled (the current translation contains the nonsensical phrase \"Aku-ikutlah dosamu seorang kepada yang lain\"). The corrected text must be placed in the same paragraph and preserve the article HTML tags exactly as in the source.",
+      "translation_quote": "Adakah orang yang sakit di antara kamu? Hendaklah ia memanggil penatua-penatua jemaat, dan hendaklah mereka mendoakan dia dan mengurapinya dengan minyak dalam nama Tuhan: Dan doa iman akan menyelamatkan orang yang sakit, dan Tuhan akan membangunkannya; dan jika ia telah berbuat dosa, maka ia akan diampuni. Aku-ikutlah dosamu seorang kepada yang lain, dan doalah seorang untuk yang lain, supaya kamu sembuh. Doa orang benar, jika dengan yakin didoakan, besar kuasanya – Yakobus 5:14-16."
+    },
+    {
+      "location": "metadata — source.title, source.subtitle, source.section",
+      "severity": "major",
+      "source_quote": "title: \"Discipleship—The Path of Healing\"\nsubtitle: \"The Discipleship Series\"\nsection: \"VICTORIOUS CHRISTIAN LIVING\"",
+      "suggested_fix": "Translate the article metadata into standard Bahasa Indonesia (preserve capitalization style as required by the publication). Suggested translations: title -> \"Pemuridan — Jalan Penyembuhan\"; subtitle -> \"Seri Pemuridan\"; section -> \"KEHIDUPAN KRISTEN YANG MENANG\". Replace the English metadata strings in the translation with these Indonesian equivalents so that no substantive translatable metadata remains in English.",
+      "translation_quote": "title: \"Discipleship—The Path of Healing\"\nsubtitle: \"The Discipleship Series\"\nsection: \"VICTORIOUS CHRISTIAN LIVING\""
+    }
+  ],
   "id": "a568dc4f11105abd0fe3e4ad5df57588",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ind",
@@ -100,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/cff3b99283ac5731e52f58a9f2a616f2665b7254c005e40044018899ae3703d0.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "fc44b039aea712201d6120cdd0a9cc720777f5be0958b210ab2feef1a8e2d639",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

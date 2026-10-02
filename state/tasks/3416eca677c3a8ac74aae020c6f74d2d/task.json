@@ -2,7 +2,6 @@
   "article_id": "3f679973-e351-4fe3-8930-e08d9fba23a5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,58 @@
         },
         "total_tokens": 8737
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1518,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8462,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9980
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph: \"On July 31, 2011, I was baptized upon the confession of my faith.\"",
+      "severity": "major",
+      "source_quote": "On July 31, 2011, I was baptized upon the confession of my faith.",
+      "suggested_fix": "Translate the sentence clearly and unambiguously into Bengali preserving the original factual claim. For example: \"২০১১ সালের ৩১ জুলাই, আমি আমার বিশ্বাস স্বীকার করে বাপ্তিস্মগ্রহণ করি।\" (Preserve the date and the affirmative baptism statement.)",
+      "translation_quote": "২০১১ সাল, ৩১ জুলাই, আমি আমার বিশ্বাস স্বীকার করে জলবপ্তিস্মরণ করিনি—বপ্তিস্মরণে গিয়েছিলাম。"
+    },
+    {
+      "location": "Multiple locations: Scripture references (1 Corinthians 6:9-11; 1 Peter 3:15; 2 Timothy 4:7-8; James 4:8)",
+      "severity": "major",
+      "source_quote": "(see 1 Corinthians 6:9-11), we should … –1 Peter 3:15.  … –2 Timothy 4:7-8. … –James 4:8.",
+      "suggested_fix": "Translate the Bible book names into standard Bengali forms and keep the chapter:verse numbers unchanged. For consistency and fidelity use conventional Bengali book names used by the publication, for example: \"(দেখুন 1 করিন্থীয় 6:9-11)\" and append references as \"—1 পিতর 3:15।\" or the publication's standard (e.g. \"—2 তীমোথিয়ু 4:7-8।\", \"—যাকোব 4:8।\"). Replace all English book names with Bengali equivalents throughout the article while keeping chapter and verse numeration identical.",
+      "translation_quote": "(দেখুন 1 Corinthians 6:9-11), আমাদের উচিত… <em>…সবসময় প্রস্তুত থাকা যে যাকে-ই কেউ তোমাদের কাছ থেকে আশা সম্পর্কে কারণ জানতে চায়, বিনয় ও ভয় নিয়ে উত্তর দিতে। – 1 Peter 3:15।</em> … – 2 Timothy 4:7-8। … <em>ঈশ্বরের কাছে নিকটে হও, তাহলেই তিনি তোমাদের কাছে নিকটে হবেন… – James 4:8।</em>"
+    },
+    {
+      "location": "Paragraph describing the accident victim: \"there sat a young girl who appeared to be in her mid-twenties and was visibly banged up.\"",
+      "severity": "minor",
+      "source_quote": "there sat a young girl who appeared to be in her mid-twenties and was visibly banged up.",
+      "suggested_fix": "Render the age-range and condition more faithfully and idiomatically in Bengali. For example: \"সেখানে একজন তরুণী বসে ছিলেন, যার বয়স প্রায় কুড়ি-পঁচিশ বছর জাতীয় মনে হচ্ছিল এবং তিনি স্পষ্টভাবে আহত ছিলেন।\"",
+      "translation_quote": "সেখানে একটি তরুণী মেধাবী কিয়দংশে বিশ বছরের মতো দেখা গেল যিনি সুস্পষ্টভাবে জখমপ্রাপ্ত ছিলেন।"
+    },
+    {
+      "location": "Paragraph: \"As first responders, all we found was...\"",
+      "severity": "minor",
+      "source_quote": "As first responders, all we found was a car seat that wasn’t fastened in, with no evidence of a baby anywhere.",
+      "suggested_fix": "Use an appropriate Bengali term for \"first responders\" (e.g., \"প্রাথমিক উদ্ধারকারী\" or \"প্রথম সহকারী উদ্ধারকর্মী\") and clarify the sentence. For example: \"প্রাথমিক উদ্ধারকারীদের হিসেবে আমরা কেবল একটি ঠিকমত লাগানো না থাকা শিশুর সীটটিই পেলাম, এবং আশেপাশে শিশুর কোনো চিহ্ন ছিল না।\"",
+      "translation_quote": "প্রথম প্রতিক্রিয়াবিহীনদের হিসেবে আমরা যে একমাত্র জিনিসটি পেলাম তা ছিল একটি কার সীট যা বেধে রাখা হয়নি, এবং আশেপাশে শিশুটির কোনো নিদর্শন পাওয়া যায়নি।"
+    }
+  ],
   "id": "3416eca677c3a8ac74aae020c6f74d2d",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ben",
@@ -100,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/beecf92a90c285721a9995122795a9f69f408d8654cdb4e9b021a1869ce1805f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d910d483e90bcd959841ed8e96903546f249749ffefaa1d05b277a01a16ea99d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

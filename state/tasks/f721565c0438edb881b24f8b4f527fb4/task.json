@@ -2,7 +2,6 @@
   "article_id": "4ab4f655-4a17-4f5c-9623-e9085bd401f9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,58 @@
         },
         "total_tokens": 3686
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1065,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3475,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4540
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.title / translation.title",
+      "severity": "major",
+      "source_quote": "Mother Was Right",
+      "suggested_fix": "Vertaal de titel in het Nederlands. Voorstel: \"Moeder had gelijk\" — vervang de waarde van translation.title met deze Nederlandse titel.",
+      "translation_quote": "Mother Was Right"
+    },
+    {
+      "location": "source.section / translation.section",
+      "severity": "major",
+      "source_quote": "Children’s Corner",
+      "suggested_fix": "Vertaal de sectietitel in het Nederlands. Voorstel: \"Kinderhoek\" of \"Kinderhoekje\" — vervang de waarde van translation.section met de gekozen Nederlandse term.",
+      "translation_quote": "Children’s Corner"
+    },
+    {
+      "location": "source.html — paragraph describing the fall (original: \"she fell awkwardly onto her left leg\")",
+      "severity": "minor",
+      "source_quote": "She fell awkwardly onto her left leg.",
+      "suggested_fix": "Gebruik een natuurlijke en correcte Nederlandse term voor 'left leg'. Vervang \"Ze viel onhandig op haar linkerpoot.\" door bijvoorbeeld \"Ze viel onhandig op haar linkerbeen.\" om de betekenis en register te herstellen.",
+      "translation_quote": "Ze viel onhandig op haar linkerpoot."
+    },
+    {
+      "location": "source.html — paragraph about visiting aunt and uncle (original: \"several counties over\")",
+      "severity": "minor",
+      "source_quote": "She had spent a week with her aunt and uncle who lived several counties over from hers",
+      "suggested_fix": "Lokalisatie: 'counties' werd in de vertaling als het Engelse woord met apostrof weergegeven. Gebruik een Nederlandse formulering. Voorstel: \"die enkele counties verderop woonden\" OF beter \"die enkele graafschappen verderop woonden\" (als 'county' bedoeld is). Vervang \"een paar county’s verderop woonden\" door de gekozen Nederlandse versie.",
+      "translation_quote": "die een paar county’s verderop woonden"
+    }
+  ],
   "id": "f721565c0438edb881b24f8b4f527fb4",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "nld",
@@ -100,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d403f379edde7ed1b9230df32b8a4aa9dad598dcb4dff15ce8551751f262d6f8.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "bea4c0be47f056e7707aebabc8049992e7243ac83fcd337c2189cd783f263083",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

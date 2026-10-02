@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "6a525269-5c8b-4bb6-aa89-e88e13068412",
+    "response_id": "chatcmpl-EUX2kBiWf0y0HJM4FZ7yDXwWNn8b3",
+    "usage": {
+      "completion_tokens": 918,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5123,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6041
+    }
+  },
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning \"Morning dawned; it was the day God had told them to go out against these enemies...\" (source.html) / corresponding translation paragraph beginning \"Surgiu a manhã; era o dia que Deus lhes dissera...\" (translation.html)",
+        "severity": "major",
+        "source_quote": "…Believe in the LORD your God, so shall ye be established; believe his prophets, so shall ye prosper. And… he appointed singers unto the LORD, and that should praise the beauty of holiness, as they went out before the army… – verses 21-20.",
+        "suggested_fix": "Restore the verse-range exactly as printed in the authoritative English source. In the translated paragraph, change the citation back to mirror the source's printed range. Replace “– versículos 21-22.” with “– versículos 21-20.” (Preserve surrounding HTML and punctuation.)",
+        "translation_quote": "… Credes no SENHOR vosso Deus, e estareis seguros; credes nos seus profetas, e prosperareis. E… nomeou cantores ao SENHOR, que deveriam louvar a formosura da santidade, indo à frente do exército… – versículos 21-22."
+      }
+    ],
+    "passed": false,
+    "score": 86
+  }
+}

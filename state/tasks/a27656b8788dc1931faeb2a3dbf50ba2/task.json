@@ -2,7 +2,6 @@
   "article_id": "3dba2cb8-660e-4855-8e00-57bcc3bee74f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 9690
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1201,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 320,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9476,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10677
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html — multiple inline Bible quotations (examples: first paragraph; paragraph quoting 1 Corinthians 1:17; 2 Corinthians 10:10; Mark 4:16-17; John 3:8; Romans 10:17; Hebrews 6:18-19; Luke 14:23)",
+      "severity": "critical",
+      "source_quote": "For Christ sent me not to baptize, but to preach the gospel: not with wisdom of words, lest the cross of Christ should be made of none effect. For the preaching of the cross is to them that perish foolishness; but unto us which are saved it is the power of God. …it pleased God by the foolishness of preaching to save them that believe –1 Corinthians –1:17-21.",
+      "suggested_fix": "Translate every quoted Scripture passage into standard contemporary Bengali (Bengali script), preserving book name (in conventional Bengali form), exact chapter and verse numbers/ranges, and the number and placement of references. For example replace the English with a faithful Bengali rendering: «কারণ খ্রীষ্ট আমাকে বাপ্তিস্মা দানে নয় বরং সুসমাচার প্রচার করতে পাঠিয়েছেন; বাক্যের ক্ষণজ্ঞান দিয়ে নয়, যেন খ্রীষ্টের ক্রুশ শূন্যীকৃত না হয়ে যায়। যে লোকেরা নষ্ট হয় তাদের কাছে ক্রুশের প্রচারণাই বোকামি; কিন্তু আমাদের যারা রক্ষা পেয়েছি তাদের কাছে তা ঈশ্বরের শক্তি। …ঐসব বিশ্বাসীদের রক্ষা করতে ঈশ্বরকে প্রচারের বোকামি দ্বারা ভাল লাগিল। — 1 কোরিন্থীয় 1:17-21» Preserve the same verse numeration and punctuation as in the English source. Apply the same treatment to all other Bible quotations (e.g., 2 কোরিন্থীয় 10:10; মর্ক 4:16-17; যোহন 3:8; রোমীয় 10:17; হিব্রু 6:18-19; লূক 14:23). Do not leave quoted Scripture in English text.",
+      "translation_quote": "(many in-article Bible quotations remain in English; example:) \"For Christ sent me not to baptize, but to preach the gospel: not with wisdom of words, lest the cross of Christ should be made of none effect... –1 Corinthians –1:17-21.\""
+    },
+    {
+      "location": "source.title",
+      "severity": "major",
+      "source_quote": "The Foolishness of Preaching",
+      "suggested_fix": "Translate the article title into Bengali using idiomatic contemporary Bengali while preserving theological meaning. For example: «প্রচারের বোকামি» or «প্রচারের অদ্ভুত বোকামি» depending on tone. Replace the English title string in the translation metadata with the Bengali title. Do not change HTML structure or attributes.",
+      "translation_quote": "The Foolishness of Preaching"
+    },
+    {
+      "location": "source.section and source.html — section header and endnote quoted material (examples: section field 'ISSUES AFFECTING THE CHURCH'; endnotes in English such as Finney and Spurgeon quotations)",
+      "severity": "major",
+      "source_quote": "ISSUES AFFECTING THE CHURCH\n\n** What A Revival Of Religion Is – Charles Grandison Finney – The Belknap Press Of Harvard University ...",
+      "suggested_fix": "Translate the section name into Bengali (conventional site taxonomy equivalent), e.g. «চার্চকে প্রভাবিত করা সমস্যা» or a simpler conventional label such as «চার্চকে প্রভাবিত করা বিষয়গুলি». Also translate the endnote quotations and bibliographic snippets into Bengali (the quoted prose should be translated; preserve proper names and titles where appropriate but translate explanatory prose and the quoted sentences). Keep citation details (author names, book titles) as they appear but translate any accompanying quoted sentences into Bengali. Do not leave endnote quoted prose in English.",
+      "translation_quote": "ISSUES AFFECTING THE CHURCH\n\n** What A Revival Of Religion Is – Charles Grandison Finney – The Belknap Press Of Harvard University A “Revival of Religion” presupposes a declension...."
+    }
+  ],
   "id": "a27656b8788dc1931faeb2a3dbf50ba2",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ben",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 40,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/b4fa54187a6f53bb54a1fc744963a43657fb9cc366925b4147ee29ecc59e0ba6.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "892a457085e971e00bab46af7f91c51fbdea164ca51ce422e2038ddc5e401e17",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

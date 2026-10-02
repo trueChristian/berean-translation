@@ -2,7 +2,6 @@
   "article_id": "3f679973-e351-4fe3-8930-e08d9fba23a5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,58 @@
         },
         "total_tokens": 8220
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1790,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1024,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7806,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9596
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html — paragraph referencing 1 Corinthians 6:9-11",
+      "severity": "major",
+      "source_quote": "(see 1 Corinthians 6:9-11)",
+      "suggested_fix": "Translate the Bible book name into Norwegian and use conventional Norwegian verse notation. For example: “(se 1. Kor 6,9–11)” or “(se 1 Korinterbrev 6,9–11)”. Keep the exact chapter/verse numbers and placement unchanged.",
+      "translation_quote": "(se 1 Corinthians 6:9-11)"
+    },
+    {
+      "location": "source.html — paragraph quoting 1 Peter 3:15",
+      "severity": "major",
+      "source_quote": "…be ready always to give an answer to every man that asketh [us] you a reason of the hope that is in [us] you with meekness and fear: –1 Peter 3:15.",
+      "suggested_fix": "Translate the Bible book name/reference into Norwegian and preserve the verse reference placement. For example: “…være alltid rede til å gi et svar til enhver som krever av dere en grunn for det håp som er i dere, med mildhet og respekt. –1 Pet 3,15.” or “–1 Peter 3,15” rendered with a conventional Norwegian form: “–1. Pet 3,15” or “–1 Pet 3,15.” Do not change the quoted wording beyond normal Norwegian rendering of the English quoted verse already present in the translation.",
+      "translation_quote": "…være alltid rede til å gi et svar til enhver som krever av dere en grunn for det håp som er i dere, med mildhet og respekt: –1 Peter 3:15. "
+    },
+    {
+      "location": "source.html — paragraph quoting 2 Timothy 4:7-8",
+      "severity": "major",
+      "source_quote": "I have fought a good fight, I have finished my course, I have kept the faith: Henceforth there is laid up for me a crown of righteousness, which the Lord, the righteous judge, shall give me at that day: and not to me only, but unto all them also that love his appearing –2 Timothy 4:7-8.",
+      "suggested_fix": "Translate the Bible book name/reference into Norwegian using conventional form while preserving chapter/verse numbers and placement. For example: change the trailing reference to “–2 Tim 4,7–8” or “–2 Timoteus 4,7–8”. Ensure any other occurrences of the same reference are changed consistently.",
+      "translation_quote": "Jeg har kjempet den gode kamp, jeg har fullført løpet, jeg har bevart troen: Fremover er det lagt opp for meg en rettferdighetens krans, som Herren, den rettferdige dommer, skal gi meg den dagen: og ikke bare til meg, men også til alle dem som elsker hans åpenbaring –2 Timothy 4:7-8."
+    },
+    {
+      "location": "source.html — paragraph quoting James 4:8",
+      "severity": "major",
+      "source_quote": "Draw nigh to God, and he will draw nigh to you… –James 4:8.",
+      "suggested_fix": "Translate the Bible book name/reference into Norwegian and use conventional verse notation. For example: change to “–Jakob 4,8” or “–Jakob 4:8” or “–Jak 4,8”. Keep the quoted verse translated as already rendered in Norwegian.",
+      "translation_quote": "<em>Nærm dere Gud, så skal han nærme seg dere… –James 4:8. </em>"
+    }
+  ],
   "id": "e72f9407ccdad410f538690850503790",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "nob",
@@ -100,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/beecf92a90c285721a9995122795a9f69f408d8654cdb4e9b021a1869ce1805f.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d910d483e90bcd959841ed8e96903546f249749ffefaa1d05b277a01a16ea99d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "1bdf0b87-af5f-4c9b-99a2-004277f7718d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 9595
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1562,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9320,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10882
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html paragraph 3 (Paul’s hearing quote beginning)",
+      "severity": "major",
+      "source_quote": "During the hearing Paul <em>…reasoned of righteousness, temperance, and judgment to come, </em>[until finally] <em>Felix trembled, and answered, Go thy way for this time; when I have a convenient season, I will call for thee –Acts 24:25.</em>",
+      "suggested_fix": "Translate the quoted phrase to accurately reflect English meaning (\"reasoned\" = argued/appealed), and keep the Scripture reference. For example: <em>…han talte om rettferdighet, måtehold og den forestående dom –</em> [til slutt] <em>skjelvet Felix, og svarte: Gå nå bort; når jeg får anledning, skal jeg kalle på deg – Apostlenes gjerninger 24:25.</em>",
+      "translation_quote": "Under høringen <em>…tvang han dem om rettferdighet, avholdenhet og den kommende dom –</em> [til slutt] <em>skjelvet Felix, og svarte: Gå bort for denne gang; når jeg får anledning, skal jeg kalle på deg – Apostlenes gjerninger 24:25.</em>"
+    },
+    {
+      "location": "source.html multiple locations (language register/variety errors)",
+      "severity": "minor",
+      "source_quote": "(Examples) \"The fool hath said in his heart, There is no God… –Psalm 14:1.\"; \"Even the smartest quantum physicists\"; \"Selv\" etc.",
+      "suggested_fix": "Use contemporary Norwegian Bokmål consistently. Replace Nynorsk or dialect forms and other non‑Bokmål spellings/words. Specific replacements: • \"Den dårlege seier i sitt hjarta: Det finst ingen Gud… – Salme 14:1.\" → \"Dårskapen sier i sitt hjerte: 'Det finnes ingen Gud'… – Salme 14:1.\" OR better Bokmål idiom: \"Dårskap sier i sitt hjerte: 'Det finnes ingen Gud'… – Salme 14:1.\" • \"Sjøl\" → \"Selv\". • \"finnst\" occurrences → \"finnes\" where appropriate. Make these changes throughout the translation to conform to Bokmål.",
+      "translation_quote": "\"<em>Den dårlege seier i sitt hjarta: Det finst ingen Gud… – Salme 14:1.</em>\"; \"Sjøl de smartest kvantefysikerne...\" (appears as 'Sjøl' and other non‑Bokmål forms)."
+    },
+    {
+      "location": "source.section metadata",
+      "severity": "major",
+      "source_quote": "A WORD FROM A DOCTOR",
+      "suggested_fix": "Translate the section header into Norwegian Bokmål. For example: \"ET ORD FRA EN LEGE\" or a natural Bokmål equivalent consistent with site style. Ensure this replaces the English string in the translated metadata.",
+      "translation_quote": "A WORD FROM A DOCTOR"
+    }
+  ],
   "id": "2b4473e0f64051d3adfc9b9734142f96",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "nob",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 68,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/52f684b8d02f77793b6e7dc1b48ec48b97a6055434007d0dad3db046e47c8044.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "5fb27f23eb62db29608050722b6dfaf82ff0b381b3a8cf3c6ff5dca578b5db55",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

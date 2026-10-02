@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.html — paragraph beginning \"Whenever he preached, the open Bible...\"",
+      "severity": "major",
+      "source_quote": "During the messages, his eyes looked straight at the congregation, and many went away with no clue that they just listened to a blind preacher.",
+      "suggested_fix": "Replace the Dutch phrase that mistranslates \"messages\". Use a church/sermon-appropriate term such as \"prediking\", \"preken\" or \"toespraken\". For example: \"Tijdens de preken keken zijn ogen rechtstreeks naar de gemeente, en velen gingen weg zonder te beseffen dat ze naar een blinde predikant hadden geluisterd.\" Preserve surrounding sentence structure and HTML tags.",
+      "translation_quote": "\"Tijdens de boodschappen keken zijn ogen rechtstreeks naar de gemeente, en velen gingen weg zonder te beseffen dat ze naar een blinde predikant hadden geluisterd.\""
+    },
+    {
+      "location": "source.section (section metadata)",
+      "severity": "minor",
+      "source_quote": "A HYMN HISTORY",
+      "suggested_fix": "Translate the section heading into standard contemporary Dutch unless the publisher requires the English heading. Suggested translation: \"EEN LIEDGESCHIEDENIS\" or a more natural editorial phrase such as \"Een hymnegeschiedenis\". Update the translation field for section accordingly.",
+      "translation_quote": "\"A HYMN HISTORY\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "ab8a3cc2-3800-4f36-a131-418809253238",
+    "response_id": "chatcmpl-EUX33X3C0ZETffssj0z8s3JqDaKzQ",
+    "usage": {
+      "completion_tokens": 1321,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8632,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9953
+    }
+  },
+  "received_at": "2026-10-02T12:55:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning \"Why should we take issue with the practice...\" (source.html)",
+        "severity": "major",
+        "source_quote": "Why should we take issue with the practice if the scripture doesn’t forbid it? The answer lies in the question of the propriety of the invitation system.",
+        "suggested_fix": "Corregir la traducción para que refleje \"propriety\" en el sentido de \"idoneidad/pertinencia\" o \"corrección moral/procedimental\", no \"propiedad\" (posesión). Ejemplo sugerido: \"¿Por qué habríamos de objetar la práctica si la Escritura no la prohíbe? La respuesta reside en la cuestión de la idoneidad (o pertinencia) del sistema de invitación.\" Mantener el resto del texto igual.",
+        "translation_quote": "¿Por qué habríamos de objetar la práctica si la Escritura no la prohíbe? La respuesta reside en la cuestión de la propiedad del sistema de invitación."
+      },
+      {
+        "location": "Article metadata: section field (source.section)",
+        "severity": "minor",
+        "source_quote": "ISSUES AFFECTING THE CHURCH",
+        "suggested_fix": "Traducir el campo de sección al español, usando lenguaje claro e internacionalmente comprensible. Ejemplo sugerido: \"CUESTIONES QUE AFECTAN A LA IGLESIA\" o \"PROBLEMAS QUE AFECTAN A LA IGLESIA\". No cambiar la estructura HTML del artículo, solo actualizar el valor de la propiedad section en el sistema de metadatos traducido.",
+        "translation_quote": "ISSUES AFFECTING THE CHURCH"
+      }
+    ],
+    "passed": false,
+    "score": 84
+  }
+}

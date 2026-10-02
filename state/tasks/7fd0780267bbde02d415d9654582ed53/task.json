@@ -2,7 +2,6 @@
   "article_id": "2e021f55-6588-4d9d-bd0a-068af80732ff",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,65 @@
         },
         "total_tokens": 5594
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1737,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5175,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6912
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.title",
+      "severity": "major",
+      "source_quote": "Lessons From Second Chronicles Twenty",
+      "suggested_fix": "Translate the title to contemporary Modern Hebrew that preserves the book name and chapter: e.g. \"לקחים מפרק כ' בספר דברי הימים ב'\" or \"לקחים מספר דברי הימים ב' פרק כ'\". Use the conventional target‑language book name and keep the chapter number formatting.",
+      "translation_quote": "לקחים מממלכת דברי הימים ב׳ פרק כ"
+    },
+    {
+      "location": "source.html: paragraph 2 (verse 3 clause)",
+      "severity": "major",
+      "source_quote": "Jehoshaphat laid his fear aside, set himself to seek the Lord, and proclaimed a fast throughout all the land of Judah – verse 3.",
+      "suggested_fix": "Render the meaning faithfully in Hebrew. The current Hebrew contains the phrase \"השׁתחווה למחוללם\" which is ungrammatical and changes meaning. A faithful rendering: \"יהושפט הניח את פחדו, חישב לדרוש את ה׳ והכריז צום בכל ארץ יהודה — פסוק 3.\" Preserve the structure and intention of the English sentence.",
+      "translation_quote": "יהושפט הדיח את פחדו הצידה, השתחווה למחוללם וביקש את ה׳, והכריז צום בכל ארץ יהודה – פסוק 3."
+    },
+    {
+      "location": "source.html: paragraph 2 (verse 6 quotation)",
+      "severity": "major",
+      "source_quote": "And [he] said, O LORD God of our fathers, art not thou God in heaven? and rulest not thou over all the kingdoms of the heathen? and in thine hand is there not power and might, so that none is able to withstand thee? –verse 6.",
+      "suggested_fix": "The translation renders the clause inaccurately and with awkward phrasing (\"מושל בכל מלכי העמים\"). Translate the quotation faithfully into Hebrew idiom while preserving the clauses and rhetorical questions. Suggested: \"ויאמר: 'ה׳ אלוהי אבותינו — האינך אתה אלוהי השמים? האינך אתה מושל בכל ממלכות הגוים? והלא בידיך כח ועז, ואין מִנְעֵה לפניך?' — פסוק 6.\"",
+      "translation_quote": "ויאמר ה׳ אלהי אבותנו הלא אתה אלהי השמים והלא אתה מושל בכל מלכי העמים ובידך כח ועז ואין מעצור לפניך? – פסוק 6."
+    },
+    {
+      "location": "source.html: paragraph 3 (\"my Lord’s feet\")",
+      "severity": "major",
+      "source_quote": "Finally, I let go and fall exhausted at my Lord’s feet, and my heart echoes the words of Jehoshaphat, the king of Judah.",
+      "suggested_fix": "The translation uses \"הרוחני שלי\" (my spiritual one) which alters the personal address to the Lord and is theologically and contextually inaccurate. Translate as a direct reference to the Lord: e.g. \"לבסוף אני משחררת ונופלת מותשת לרגלי בעלי/לאדוני, ולבי מהדהד את דברי יהושפט...\" Preserve the original sense of falling at the Lord's feet.",
+      "translation_quote": "לבסוף אני משחררת ונופלת מותשת בפני הרוחני שלי, ולבי מהדהד את דברי יהושפט, מלך יהודה."
+    },
+    {
+      "location": "source.html: paragraph with verses 21-20 (ordering and quoted text)",
+      "severity": "major",
+      "source_quote": "And they rose early in the morning, …and as they went forth, Jehoshaphat stood and said, …Believe in the LORD your God, so shall ye be established; believe his prophets, so shall ye prosper. And… he appointed singers unto the LORD, and that should praise the beauty of holiness, as they went out before the army… – verses 21-20.",
+      "suggested_fix": "The translation reverses the verse order and introduces garbled phrasing (\"שירו את יפי הקדש בבואם לפני הלכוד\") that does not correspond to the English citation. Restore faithful Hebrew rendering and correct verse order and phrasing. Suggested faithful translation of the quoted material: \"ויקמו בשחר הבוקר... וביציאתם עמד יהושפט ואמר, 'האמינו ביהוה אלהיכם ותקומו; האמינו בנביאיו ותצליחו.' ויעד להם זמרים לשבח את יפי הקודש בהליכה לפני הצבא... — פסוקים 20–21.\" Keep chapter/verse numbering unchanged and preserve the quoted clauses.",
+      "translation_quote": "וכשהם יצאו מן העיר, יהושפט עודד אותם. ויקמו בשחר הבוקר, …וביציאתם עמד יהושפט ואמר, …האמינו ביהוה אלהיכם ותקומו; האמינו בנביאיו ותצליחו. ו…יעד זמרים ליהוה שירו את יפי הקדש בבואם לפני הלכוד… – פסוקים 21-20."
+    }
+  ],
   "id": "7fd0780267bbde02d415d9654582ed53",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "heb",
@@ -100,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 50,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f31cc8b34c5cf672315cfd39ccfc47a998b57e754ee6813a57508dd0fe98b5c8.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "c849e4ea3ad84b761d78091fcac24b6703c3038258305b91a3abd924f8250de9",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "17da611f-e454-45f6-9c81-db3b8054f99d",
+    "response_id": "chatcmpl-EUX2up6935vlBBDszRpK09itIt6Zk",
+    "usage": {
+      "completion_tokens": 1164,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8931,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10095
+    }
+  },
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing Psalm 8 (source and translation near \"When I consider thy heavens... / Quando considero os teus céus...\")",
+        "severity": "minor",
+        "source_quote": "When I consider thy heavens, the work of thy fingers, the moon and the stars, which thou hast ordained; What is man, that thou art mindful of him? and the son of man, that thou visitest him? –Psalm 8:3-4.",
+        "suggested_fix": "Correct a small typo in the translated sentence: change \"ai formaste\" to \"ali formaste\" or simply \"que formaste\" so the Portuguese reads naturally and accurately: e.g. \"...a lua e as estrelas que ali formaste; que é o homem... – Salmo 8:3‑4.\"",
+        "translation_quote": "Quando considero os teus céus, obra dos teus dedos, a lua e as estrelas que ai formaste; que é o homem, para que te lembres dele? e o filho do homem, para que o visites? – Salmo 8:3‑4."
+      },
+      {
+        "location": "Paragraph containing Psalm 14 citation (source and translation near \"The fool hath said in his heart...\")",
+        "severity": "minor",
+        "source_quote": "The fool hath said in his heart, There is no God… –Psalm 14:1.",
+        "suggested_fix": "Consider using a more common modern Portuguese rendering of the verb to improve fluency, for example: \"Disse o tolo no seu coração: Não há Deus... – Salmo 14:1.\" The current \"Dize o tolo\" is archaic but not theologically different; this is stylistic.",
+        "translation_quote": "<em>Dize o tolo no seu coração: Não há Deus… – Salmo 14:1.</em>"
+      }
+    ],
+    "passed": true,
+    "score": 98
+  }
+}

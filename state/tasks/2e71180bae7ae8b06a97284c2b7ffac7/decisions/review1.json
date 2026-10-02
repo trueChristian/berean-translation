@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "source.html — opening italic paragraph (first <p>)",
+      "severity": "critical",
+      "source_quote": "For Christ sent me not to baptize, but to preach the gospel: not with wisdom of words, lest the cross of Christ should be made of none effect. For the preaching of the cross is to them that perish foolishness; but unto us which are saved it is the power of God. …it pleased God by the foolishness of preaching to save them that believe –1 Corinthians –1:17-21.",
+      "suggested_fix": "Translate the entire quoted Scripture passage into contemporary Modern Hebrew, preserving the citation “1 Corinthians 1:17-21” exactly. Do not leave the biblical quotation in English. Keep the surrounding <em> tags and punctuation intact. Example: “כי המשיח שלחני לא לכתוב בטבילה, אלא להטיף את הבשורה; לא בחכמת דברות כדי שלא תבטל צלב המשיח. כי הטפת הצלב היא לבלתי־נשׂרים שטות; אבל לנו הנושעים היא כוח האל. …וסמך ה׳ בטיפשות ההטפה להושיע את המאמינים – 1 קורינתים 1:17-21.” (Render according to the translator’s preferred Hebrew Bible style, but ensure the Hebrew conveys the printed English meaning and preserves the chapter/verse numbers.)",
+      "translation_quote": "(left in English) For Christ sent me not to baptize, but to preach the gospel: not with wisdom of words, lest the cross of Christ should be made of none effect. For the preaching of the cross is to them that perish foolishness; but unto us which are saved it is the power of God. …it pleased God by the foolishness of preaching to save them that believe –1 Corinthians –1:17-21."
+    },
+    {
+      "location": "source.html — paragraph with “…lest the cross of Christ should be made of none effect –1 Corinthians 1:17.”",
+      "severity": "critical",
+      "source_quote": "…lest the cross of Christ should be made of none effect –1 Corinthians 1:17.",
+      "suggested_fix": "Translate the quoted clause and the verse reference into Hebrew, keeping the same placement and <em> tags. Example: “…כדי שלא תבטל צלב המשיח – 1 קורינתים א' 1:17.” Preserve the punctuation and emphasis formatting from the source.",
+      "translation_quote": "(partly untranslated) <em>…lest the cross of Christ should be made of none effect –1 Corinthians 1:17.</em>"
+    },
+    {
+      "location": "source.html — paragraph with 2 Corinthians quotation",
+      "severity": "critical",
+      "source_quote": "For his letters, say they, are weighty and powerful; but his bodily presence is weak, and his speech contemptible –2 Corinthians 10:10.",
+      "suggested_fix": "Translate the full Scripture quotation into Hebrew and keep the reference “2 Corinthians 10:10” unchanged. Keep the <em> tags. Example: “כִּי עֲל־אֲשֶׁר אִם־הֶם אוֹמְרִים, שֶׁמִּכְתָּבָיו קַלִּים וְעֲצֻמִים; וְהוּא בֶּעָרֶךְ נָחוּשׁ וּבִדְבָרוֹ מְזֻלָּל – 2 קורינתים 10:10.”",
+      "translation_quote": "(left in English inside <em>) For his letters, say they, are weighty and powerful; but his bodily presence is weak, and his speech contemptible –2 Corinthians 10:10."
+    },
+    {
+      "location": "source.html — multiple in-text Scripture quotations left in English (e.g., Matthew 11:28; John 7:37; Acts 3:19; 2 Corinthians 5:20; Acts 20:21; Luke 14:23)",
+      "severity": "critical",
+      "source_quote": "Come unto me, …and I will give you rest –Matthew 11:28; …If any man thirst, let him come unto me, and drink –John 7:37; Repent ye therefore, and be converted, that your sins may be blotted out… –Acts 3:19; …we pray you in Christ›s stead, be ye reconciled to God –2 Corinthians 5:20; …to the Jews, and also to the Greeks, repentance toward God, and faith toward our Lord Jesus Christ –Acts 20:21; …compel them to come in, that my house may be filled –Luke 14:23.",
+      "suggested_fix": "Translate each quoted Scripture passage into Modern Hebrew while preserving the exact chapter and verse references (e.g., “מתי 11:28”, or the standard Hebrew book name conventions such as “מתי 11:28”; keep the numeric references as in the source). Maintain the original punctuation and emphasis tags. Do not leave any quoted scriptural text in English.",
+      "translation_quote": "(left in English) Come unto me, …and I will give you rest –Matthew 11:28; …If any man thirst, let him come unto me, and drink –John 7:37; Repent ye therefore, and be converted, that your sins may be blotted out… –Acts 3:19; …we pray you in Christ›s stead, be ye reconciled to God –2 Corinthians 5:20; …to the Jews, and also to the Greeks, repentance toward God, and faith toward our Lord Jesus Christ –Acts 20:21; …compel them to come in, that my house may be filled –Luke 14:23."
+    },
+    {
+      "location": "source.html — Mark 4:16-17 quotation",
+      "severity": "critical",
+      "source_quote": "And these are they likewise which are sown on stony ground; who, when they have heard the word, immediately receive it with gladness; And have no root in themselves, and so endure but for a time: afterward, when affliction or persecution ariseth for the word’s sake, immediately they are offended –Mark 4:16-17.",
+      "suggested_fix": "Translate this Gospel quotation into Hebrew and keep the reference “Mark 4:16-17” unchanged. Preserve the <em> formatting and ensure the Hebrew conveys the printed English meaning (e.g., use “מרקוס ד׳ 16–17” or conventional Hebrew book name “מרקוס 4:16-17”).",
+      "translation_quote": "(left in English inside <em>) And these are they likewise which are sown on stony ground; who, when they have heard the word, immediately receive it with gladness; And have no root in themselves, and so endure but for a time: afterward, when affliction or persecution ariseth for the word’s sake, immediately they are offended –Mark 4:16-17."
+    },
+    {
+      "location": "source.html — Hebrews quotation left partly English in paragraph about engineered faith",
+      "severity": "critical",
+      "source_quote": "… have fled for refuge to lay hold upon the hope set before us: Which hope we have as an anchor of the soul, both sure and stedfast… –Hebrews 6:18-19.",
+      "suggested_fix": "Translate the quoted Hebrews passage into Hebrew, preserving the verse numbers “Hebrews 6:18-19.” Keep emphasis and any added emphasis marker. Example: “…פנינו אל המשתכן כמחסה ונחבק את התקווה שניצבת לפנינו; את התקווה הזאת יש לנו לעוגן הנפש, בטוח ויציב… – עברים 6:18-19.”",
+      "translation_quote": "(left in English in <em>) … have fled for refuge to lay hold upon the hope set before us: Which hope we have as an <strong>anchor of the soul</strong>, both sure and stedfast… –Hebrews 6:18-19."
+    },
+    {
+      "location": "source.html — endnotes and quoted secular/secondary material left in English (Spurgeon, Finney, Watchman Nee quotes)",
+      "severity": "major",
+      "source_quote": "* “Charles Spurgeon, well known for his evangelistic abilities, firmly refused to adopt the practice of altar calls and he severely criticized it. He viewed the altar call as a method to force decisions as results, but he recognized its potential abuse and dangers.” Altar Calls – Bill Brenner  \n\n‘I should like to go into the enquiry-room.’ ... - Pleading and Encouragement – Charles Haddon Spurgeon – Aug 17, 1841  \n\n** What A Revival Of Religion Is – Charles Grandison Finney – The Belknap Press Of Harvard University ...  \n\n*** Spirit Force vs. Psychic Force – Watchman Nee",
+      "suggested_fix": "Translate the substantive quoted prose in the endnotes (the explanatory sentence about Spurgeon, the Spurgeon quotation, the Finney passage, and the Watchman Nee title/context) into Hebrew. Preserve the bibliographic citations and titles (proper names and titles may remain in English only when standard, but the quoted sentences must be in Hebrew). Keep the original order and <em> tags. For example, render Spurgeon’s quoted sentence in Hebrew, then retain the source citation in the same place. Do not leave quoted substantive prose in English in the translated article.",
+      "translation_quote": "(left in English inside <em>) * “Charles Spurgeon, well known for his evangelistic abilities, firmly refused to adopt the practice of altar calls and he severely criticized it. ...”  ‘I should like to go into the enquiry-room.’ I dare say you would, but we are not willing to pander to popular superstition. ... - Pleading and Encouragement – Charles Haddon Spurgeon – Aug 17, 1841  ** What A Revival Of Religion Is – Charles Grandison Finney – The Belknap Press Of Harvard University ...  *** Spirit Force vs. Psychic Force – Watchman Nee"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

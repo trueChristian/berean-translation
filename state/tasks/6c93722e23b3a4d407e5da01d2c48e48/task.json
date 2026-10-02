@@ -2,7 +2,6 @@
   "article_id": "fb65688b-5aaf-4194-a345-31f6f1355389",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:38+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 3828
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1247,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3489,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4736
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>…Hebrews 12:2.</em>",
+      "severity": "major",
+      "source_quote": "...the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God –Hebrews 12:2.",
+      "suggested_fix": "Replace the incorrect/unknown Italian neologism with an idiomatic, theologically correct rendering. For example: \"…l’autore e il compitore della nostra fede\" → \"…l’autore e il perfezionatore della nostra fede\" (or \"…l’autore e il compimento della nostra fede\" is less idiomatic; preferred: \"perfezionatore\"). Preserve the surrounding HTML and emphasis tag.",
+      "translation_quote": "Manteniamo gli occhi fissi su Gesù <em>…l’autore e il compitore della nostra fede; il quale, per la gioia che gli era posta davanti, sostenne la croce, disprezzando l’onta, e si è assiso alla destra del trono di Dio –Ebrei 12:2.</em>"
+    },
+    {
+      "location": "<p>Infine, abbiamo The Foolishness of Preaching, una valutazione... </p>",
+      "severity": "minor",
+      "source_quote": "Finally, we have The Foolishness of Preaching an evaluation regarding the basis of churches using “the altar call” — is it founded in the Scriptures and the history of the church or is it a method that the church has borrowed from the world in more recent years?!",
+      "suggested_fix": "Translate the English title into natural contemporary Italian while preserving that it is a title (you may keep it in quotes if intended as the essay title). Suggested: replace \"La sciocchezza della predicazione\" with \"La follia della predicazione\" or \"La stoltezza della predicazione\" if you want to mirror the rhetorical force of 'Foolishness'. Keep punctuation and HTML structure unchanged.",
+      "translation_quote": "Infine, abbiamo La sciocchezza della predicazione, una valutazione riguardo alla base delle chiese che usano «la chiamata all’altare»—è fondata nelle Scritture e nella storia della chiesa o è un metodo che la chiesa ha preso in prestito dal mondo in anni più recenti?!"
+    },
+    {
+      "location": "<p>In una tendenza in sviluppo...</p>",
+      "severity": "minor",
+      "source_quote": "In an increasingly developing trend, there is a surprising rise of hostility towards the committed believer.",
+      "suggested_fix": "Improve idiomatic phrasing to standard contemporary Italian. For example: replace \"In una tendenza in sviluppo,\" with \"In una tendenza in crescita,\" or \"Con una tendenza in crescita,\". Keep HTML tags the same.",
+      "translation_quote": "Tuttavia, il mondo sembra muoversi verso una prospettiva sempre più negativa nei confronti del popolo di Dio. In una tendenza in sviluppo, c’è un sorprendente aumento dell’ostilità verso il credente impegnato."
+    }
+  ],
   "id": "6c93722e23b3a4d407e5da01d2c48e48",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ita",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 82,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0d188eedb4a6b0936348346a7bbb1d6ba410af25119039e27c08f30a398b9e61.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "2b4f275d7b7ba8096cb0ab03fead7b5dd10aa236b7e3bc6ad2626bd76b72e500",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -2,7 +2,6 @@
   "article_id": "1bdf0b87-af5f-4c9b-99a2-004277f7718d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,58 @@
         },
         "total_tokens": 9377
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1372,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9102,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10474
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph containing Acts 24:25 (source.html third <p>)",
+      "severity": "major",
+      "source_quote": "[until finally] Felix trembled, and answered, Go thy way for this time; when I have a convenient season, I will call for thee –Acts 24:25.",
+      "suggested_fix": "Translate the verse idiomatically into Dutch preserving its meaning and scripture citation. For example: “(totdat eindelijk) Felix beefde en antwoordde: Ga nu heen; wanneer ik een geschikt ogenblik heb, zal ik u roepen – Handelingen 24:25.” Replace the current translation of this verse with a faithful Dutch rendering and keep the reference as Handelingen 24:25.",
+      "translation_quote": "[totdat eindelijk] Felix beefde en antwoordde: Ga heen, want voor deze tijd; wanneer ik een geschikt ogenblik heb, zal ik u roepen – Handelingen 24:25."
+    },
+    {
+      "location": "Paragraph containing Acts 26:24 (source.html third <p>)",
+      "severity": "minor",
+      "source_quote": "…Festus said with a loud voice, Paul, thou art beside thyself; much learning doth make thee mad –Acts 26:24.",
+      "suggested_fix": "Correct the proper name and provide a natural Dutch translation of the verse while preserving the scripture citation. For example: “…zei Festus met luide stem: Paulus, gij zijt buiten uzelf; veel geleerdheid maakt u krankzinnig – Handelingen 26:24.” Replace the current “Paulüs” with the conventional Dutch form “Paulus.”",
+      "translation_quote": "…zei Festus met luide stem: Paulüs, gij zijt buiten uzelf; veel geleerdheid maakt u krankzinnig – Handelingen 26:24."
+    },
+    {
+      "location": "Paragraph mentioning “intelligent design” and “seeing God’s fingerprints” (section 'Schepping')",
+      "severity": "major",
+      "source_quote": "There are many books delving into the subject of intelligent design and seeing God’s fingerprints throughout creation.",
+      "suggested_fix": "Translate the substantive English phrases into Dutch. These are quoted/standalone substantive expressions and must appear in the target language. For example: “Er zijn veel boeken die ingaan op het onderwerp van intelligent design (intelligent ontwerp) en op het zien van Gods vingerafdrukken door de schepping heen.” Or translate both phrases fully: “...het 'intelligent ontwerp' en het 'zien van Gods vingerafdrukken' door de schepping heen.” Ensure the English terms are not left untranslated in the article text.",
+      "translation_quote": "Er zijn veel boeken die ingaan op <em>intelligent design</em> en op het <em>zien van Gods vingerafdrukken</em> door de schepping heen."
+    },
+    {
+      "location": "Image alt text (figure <img> alt attribute)",
+      "severity": "minor",
+      "source_quote": "Laboratory glassware, green leaves, capsules, and a cream jar",
+      "suggested_fix": "Ensure the alt text is a natural Dutch rendering preserving the descriptive content. The current translation uses correct Dutch but consider minor wording consistency: “Laboratoriumglaswerk, groene bladeren, capsulepillen en een crèmepotje” is acceptable; if you prefer slightly more idiomatic: “Laboratoriumglaswerk, groene bladeren, capsules en een crèmepotje.”",
+      "translation_quote": "Laboratoriumglaswerk, groene bladeren, capsulepillen en een crèmepotje"
+    }
+  ],
   "id": "d920a380cfb49ef4708bd4d2911be94a",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "nld",
@@ -100,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/52f684b8d02f77793b6e7dc1b48ec48b97a6055434007d0dad3db046e47c8044.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "5fb27f23eb62db29608050722b6dfaf82ff0b381b3a8cf3c6ff5dca578b5db55",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

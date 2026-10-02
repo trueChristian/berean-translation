@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "cc6557eb-7a39-47a1-ab32-b4f01a62a746",
+    "response_id": "chatcmpl-EUX2k6ET5ZilrR1kfcrtYBtcMBSaY",
+    "usage": {
+      "completion_tokens": 1119,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3511,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4630
+    }
+  },
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "<article> first paragraph",
+        "severity": "minor",
+        "source_quote": "Greetings of brotherly love to one and all.",
+        "suggested_fix": "Replace the translated sentence with a natural Afrikaans equivalent preserving tone: \"Goeie groete van broederlike liefde aan een en almal.\"",
+        "translation_quote": "Goeie groete van broederlike liefde aan ’n en aan almal."
+      },
+      {
+        "location": "<article> second paragraph, first sentence",
+        "severity": "minor",
+        "source_quote": "Recently, I have been reflecting on the current status of life as a committed Bible-believing Christian in our world today.",
+        "suggested_fix": "Remove the incorrect adverb and use a direct translation: change \"Onlangs het ek gewoonlik besin\" to \"Onlangs het ek besin\" (or \"Onlangs het ek begin besin\" if the sense is recent reflection).",
+        "translation_quote": "Onlangs het ek gewoonlik besin oor die huidige toestand van die lewe as ’n toegewyde Bybelgelowige Christen in ons wêreld vandag."
+      },
+      {
+        "location": "<article> penultimate paragraph (beginning '’n Laaste gedagte…')",
+        "severity": "minor",
+        "source_quote": "One final thought… over the years our readers have, at times, shared with us ways that they think we could improve our magazine for the good of all who read it and to present a more clear gospel message.",
+        "suggested_fix": "Improve word order and flow in Afrikaans: change \"deur die jare het ons lesers soms met ons gedeel maniere waarop hulle dink ons kan ons tydskrif verbeter\" to \"deur die jare het ons lesers soms maniere met ons gedeel waarop hulle dink ons ons tydskrif kan verbeter\" or more smoothly \"deur die jare het lesers soms maniere met ons gedeel waarop hulle dink ons die tydskrif kan verbeter\".",
+        "translation_quote": "’n Laaste gedagte… deur die jare het ons lesers soms met ons gedeel maniere waarop hulle dink ons kan ons tijdskrif verbeter tot voordeel van almal wat dit lees en om ’n duideliker evangelieboodskap voor te hou. Ons verwelkom dat om voort te gaan."
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

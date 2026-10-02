@@ -2,7 +2,6 @@
   "article_id": "fb65688b-5aaf-4194-a345-31f6f1355389",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:38+00:00",
   "events": [
@@ -24,9 +23,37 @@
         },
         "total_tokens": 4008
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 824,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3669,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4493
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>...समानों की जारी कमी—all ये एक व्यक्ति को स्वाभाविकता की अनुभूति से जकड़ कर बाहर कर देते हैं।</p>",
+      "severity": "minor",
+      "source_quote": "Current skyrocketing inflation, the potential of unprecedented heating costs for many, the rumors of rising interest rates, and the ongoing shortage of goods all tend to cause a person to be jolted out of a sense of normality.",
+      "suggested_fix": "Remove the stray English word and render the full clause in Hindi. For example: \"...और सामानों की जारी कमी — ये सभी किसी व्यक्ति को स्वाभाविक स्थिति से झटके में बाहर कर देती हैं।\" Preserve existing HTML and punctuation.",
+      "translation_quote": "...वर्तमान आसमान छूती महंगाई, कई लोगों के लिए अभूतपूर्व हीटिंग लागत की संभावनाएँ, बढ़ती ब्याज दरों की अफ़वाहें, और समानों की जारी कमी—all ये एक व्यक्ति को स्वाभाविकता की अनुभूति से जकड़ कर बाहर कर देते हैं।"
+    }
+  ],
   "id": "dcee6b170f881b59328dec68df2e7fe2",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "hin",
@@ -100,11 +127,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0d188eedb4a6b0936348346a7bbb1d6ba410af25119039e27c08f30a398b9e61.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "2b4f275d7b7ba8096cb0ab03fead7b5dd10aa236b7e3bc6ad2626bd76b72e500",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

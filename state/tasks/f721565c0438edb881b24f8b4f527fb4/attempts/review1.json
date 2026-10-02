@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:36+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"source.title / translation.title\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Mother Was Right\",\n      \"suggested_fix\": \"Vertaal de titel in het Nederlands. Voorstel: \\\"Moeder had gelijk\\\" — vervang de waarde van translation.title met deze Nederlandse titel.\",\n      \"translation_quote\": \"Mother Was Right\"\n    },\n    {\n      \"location\": \"source.section / translation.section\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Children’s Corner\",\n      \"suggested_fix\": \"Vertaal de sectietitel in het Nederlands. Voorstel: \\\"Kinderhoek\\\" of \\\"Kinderhoekje\\\" — vervang de waarde van translation.section met de gekozen Nederlandse term.\",\n      \"translation_quote\": \"Children’s Corner\"\n    },\n    {\n      \"location\": \"source.html — paragraph describing the fall (original: \\\"she fell awkwardly onto her left leg\\\")\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"She fell awkwardly onto her left leg.\",\n      \"suggested_fix\": \"Gebruik een natuurlijke en correcte Nederlandse term voor 'left leg'. Vervang \\\"Ze viel onhandig op haar linkerpoot.\\\" door bijvoorbeeld \\\"Ze viel onhandig op haar linkerbeen.\\\" om de betekenis en register te herstellen.\",\n      \"translation_quote\": \"Ze viel onhandig op haar linkerpoot.\"\n    },\n    {\n      \"location\": \"source.html — paragraph about visiting aunt and uncle (original: \\\"several counties over\\\")\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"She had spent a week with her aunt and uncle who lived several counties over from hers\",\n      \"suggested_fix\": \"Lokalisatie: 'counties' werd in de vertaling als het Engelse woord met apostrof weergegeven. Gebruik een Nederlandse formulering. Voorstel: \\\"die enkele counties verderop woonden\\\" OF beter \\\"die enkele graafschappen verderop woonden\\\" (als 'county' bedoeld is). Vervang \\\"een paar county’s verderop woonden\\\" door de gekozen Nederlandse versie.\",\n      \"translation_quote\": \"die een paar county’s verderop woonden\"\n    }\n  ],\n  \"passed\": false,\n  \"score\": 70\n}",
+    "content_bytes": 2035,
+    "content_evidence_truncated": false,
+    "content_sha256": "3947d331d8b433cdec0a6e9618a839f64fafbb959ef8b2c731a6818c87e8d9ad",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1065,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3475,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4540
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -2,7 +2,6 @@
   "article_id": "4ab4f655-4a17-4f5c-9623-e9085bd401f9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,79 @@
         },
         "total_tokens": 3833
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2087,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 832,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3557,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5644
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Paragraph: \"She knew the right thing to do would be to go directly to her mother and tell her what she had done.\" (near middle of article)",
+      "severity": "critical",
+      "source_quote": "In her heart, she knew the right thing to do would be to go directly to her mother and tell her what she had done.",
+      "suggested_fix": "Replace the mistranslated verb 'להרוג' with the correct verb 'ללכת'. Suggested Hebrew: \"בליבה ידעה שהדבר הנכון היה ללכת מיד לאמה ולספר לה מה עשתה.\" Preserve punctuation and surrounding HTML.",
+      "translation_quote": "בליבה ידעה שהדבר הנכון היה להרוג ישר לאמה ולספר לה מה עשתה."
+    },
+    {
+      "location": "Paragraph describing the ankle injury and fall (sentence beginning 'Just as she landed...')",
+      "severity": "major",
+      "source_quote": "Just as she landed, her ankle turned and gave way under her. She fell awkwardly onto her left leg.",
+      "suggested_fix": "Correct the meaning and the mistranslated/mistyped verbs. Recommended Hebrew: \"ברגע שנחתה, הקרסול שלה התעקם ונתן תחתיה. היא נפלה בצורה מגושמת על רגל שמאל.\" (or: \"ברגע שנחתה, הקרסול שלה נתעקל ונכנע; היא נפלה בצורה מגושמת על רגל שמאל.\")",
+      "translation_quote": "ברגע שנחתה, הקרסול שלה התכופף ונשבר תחתיה. היא נופפת בצורה מגושמת על רגל שמאל."
+    },
+    {
+      "location": "Paragraph about watching the blood well up (same paragraph as above)",
+      "severity": "minor",
+      "source_quote": "She quickly pulled it out and watched, with her heart beating rapidly, as the blood welled up, dark and warm.",
+      "suggested_fix": "Fix the verb typo and smooth phrasing. Suggested Hebrew: \"היא משכה אותה במהירות וצפתה, ליבה דופק במהירות, כשהדם החל לעלות — כהה וחם.\" Or: \"היא משכה אותה במהירות וצפתה, ליבה דופק בחוזקה, כשהדם עלה — כהה וחם.\"",
+      "translation_quote": "היא משכה אותה במהירות וצפתה, ליבה דופק במהירות, כשהדם עלה, כהה וחמים."
+    },
+    {
+      "location": "Paragraph describing enjoyment in the tree (sentence about enjoying the quiet afternoon)",
+      "severity": "minor",
+      "source_quote": "It was a relaxing thing with which to be occupied while enjoying the quietness of the afternoon.",
+      "suggested_fix": "Correct awkward wording that appears mistranslated ('תהנתה' is incorrect). Suggested Hebrew: \"זה היה עניין מרגיע שמילא אותה בזמן שנהנתה בשקט של אחר הצהריים.\" or \"זה היה מעשה מרגיע שבעזרתו נהנתה מהשקט של אחר הצהריים.\"",
+      "translation_quote": "זה היה עניין מרגיע שתפס אותה בזמן שהתהנתה בשקט של אחר הצהריים."
+    },
+    {
+      "location": "Paragraph beginning 'Today, as she looks at that scar...' (near end)",
+      "severity": "major",
+      "source_quote": "Today, as she looks at that scar, which is still visible from 40 years ago, she wonders why God had protected her.",
+      "suggested_fix": "Restore accurate, natural Hebrew; current translation has 'כשגדירה' (nonsense). Suggested Hebrew: \"כיום, כשהיא מסתכלת על אותה צלקת שעדיין נראית מאז לפני ארבעים שנה, היא תוהה מדוע אלוהים הגן עליה.\"",
+      "translation_quote": "היום, כשגדירה צלקת זו שעדיין נראית מאז לפני 40 שנה, היא תוהה מדוע אלוהים הגן עליה."
+    },
+    {
+      "location": "Paragraph describing the knife's physical description (early middle)",
+      "severity": "minor",
+      "source_quote": "It had a short, round handle and he had inserted a small piece of steel into one end. He then honed the blade to a nice sharp edge.",
+      "suggested_fix": "Improve clarity: the Hebrew phrasing 'הייתה לה ידית קצרה ועגלית' is slightly awkward (gender/possession). Suggested: \"לה הייתה ידית קצרה ועגולה, והוא הכניס לחלקה קצה חתיכת פלדה קטנה. אחר כך חידד את הלהב עד שקיבל קצה חד.\"",
+      "translation_quote": "הייתה לה ידית קצרה ועגלית והוא הכניס חתיכת פלדה קטנה לקצה אחד. אחר כך חידד את הלהב עד שהפך לחד."
+    },
+    {
+      "location": "Final paragraph, first sentence (about hiding things from parents)",
+      "severity": "minor",
+      "source_quote": "It is never wise to hide anything from your parents.",
+      "suggested_fix": "The translation repeats 'תתביישי או תתביישי' (duplicate). Suggest: \"אף פעם לא חכם להסתיר דבר מה מהוריך. הם צריכים לדעת על הדברים הרעים שאת עושה, לא משנה כמה תתביישי.\"",
+      "translation_quote": "אף פעם לא חכם להסתיר דבר מה מהוריך. הם צריכים לדעת על הדברים הרעים שאת עושה, לא משנה כמה תתביישי או תתביישי."
+    }
+  ],
   "id": "a09e6fc4b252f6e1c7705e90bd61d645",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "heb",
@@ -100,11 +169,13 @@
     }
   },
   "protected": false,
+  "quality_score": 60,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d403f379edde7ed1b9230df32b8a4aa9dad598dcb4dff15ce8551751f262d6f8.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "bea4c0be47f056e7707aebabc8049992e7243ac83fcd337c2189cd783f263083",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

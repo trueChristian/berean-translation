@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "17c5fc50-1477-402c-a145-5c2afddf4042",
+    "response_id": "chatcmpl-EUX2wYdFPbbBQ3cc404UADEhLXvO5",
+    "usage": {
+      "completion_tokens": 1239,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9197,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10436
+    }
+  },
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph with Bartimaeus (translation): \"Va’, la tua fede ti ha guaritò.\"",
+        "severity": "minor",
+        "source_quote": "“Go thy way; thy faith hath made thee whole.”",
+        "suggested_fix": "Correct the Italian verb form and accent to standard spelling: replace “guaritò” with “guarito”.",
+        "translation_quote": "“Va’, la tua fede ti ha guaritò.”"
+      },
+      {
+        "location": "Paragraph about healing process (translation): \"remediazione esteriore\" / \"remediazione\"",
+        "severity": "minor",
+        "source_quote": "\"Healing is a process that requires inner restoration with outside remediation.\"",
+        "suggested_fix": "Use a more natural contemporary Italian term. Replace “remediazione esteriore” (or the single word “remediazione”) with a more idiomatic phrase such as “intervento esterno” or “ristoro esterno”.",
+        "translation_quote": "\"La guarigione è un processo che richiede una restaurazione interiore con una remediazione esteriore.\""
+      },
+      {
+        "location": "James 5 quote rendering (translation): beginning of verse punctuation and phrasing",
+        "severity": "minor",
+        "source_quote": "\"Is any sick among you? let him call for the elders of the church; and let them pray over him, anointing him with oil in the name of the Lord: And the prayer of faith shall save the sick, and the Lord shall raise him up; and if he have committed sins, they shall be forgiven him. Confess your faults one to another, and pray one for another, that ye may be healed. The effectual fervent prayer of a righteous man availeth much –James 5:14-16.\"",
+        "suggested_fix": "Adjust punctuation and capitalization for clarity in Italian while preserving the verse content. For example: “È qualcuno di voi malato? Chiami gli anziani della chiesa e preghino su di lui, ungendolo con olio nel nome del Signore. La preghiera della fede salverà il malato, e il Signore lo rialzerà; e se ha commesso peccati, gli saranno perdonati. Confessate dunque i vostri peccati gli uni agli altri, e pregate gli uni per gli altri, affinché siate guariti. La preghiera fervente del giusto ha grande efficacia –Giacomo 5:14-16.” (Preserve the verse order and references.)",
+        "translation_quote": "\"È qualcuno di voi malato? chiami gli anziani della chiesa e pregano su di lui, ungendolo con olio nel nome del Signore; E la preghiera della fede salverà il malato, e il Signore lo rialzerà; e se ha commesso peccati, gli saranno perdonati. Confessate dunque i vostri peccati gli uni agli altri, e pregate gli uni per gli altri, affinché siate guariti. La preghiera fervente del giusto ha grande efficacia –Giacomo 5:14-16.\""
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "50982450-259e-4904-a6c4-05ab3a83c2a1",
+    "response_id": "chatcmpl-EUX3FshnAYwWiSc20TjRB2CnM4eZt",
+    "usage": {
+      "completion_tokens": 1431,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9125,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10556
+    }
+  },
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph quoting James 5:14-16 (near \"I was diagnosed with cancer...\")",
+        "severity": "critical",
+        "source_quote": "Is any sick among you? let him call for the elders of the church; and let them pray over him, anointing him with oil in the name of the Lord: And the prayer of faith shall save the sick, and the Lord shall raise him up; and if he have committed sins, they shall be forgiven him. Confess your faults one to another, and pray one for another, that ye may be healed. The effectual fervent prayer of a righteous man availeth much –James 5:14-16.",
+        "suggested_fix": "Replace the translated Scripture with a faithful Indonesian rendering that clearly conveys the English text. Preserve the punctuation and verse reference. For example: \"Adakah di antara kamu yang sakit? Hendaklah ia memanggil penatua-penatua jemaat, dan hendaklah mereka mendoakan dia dan mengurapinya dengan minyak dalam nama Tuhan; dan doa iman akan menyelamatkan orang yang sakit, dan Tuhan akan membangunkannya; dan jika ia telah berbuat dosa, maka ia akan diampuni. Aku-ikutlah dosa seorang kepada yang lain, dan doalah seorang untuk yang lain, supaya kamu sembuh. Doa orang benar, apabila dengan yakin didoakan, besar kuasanya. – Yakobus 5:14-16.\" (Or use an established Indonesian Bible wording that faithfully renders the full verse group.) Note: Do not leave any part of the quoted Scripture mistranslated or garbled (the current translation contains the nonsensical phrase \"Aku-ikutlah dosamu seorang kepada yang lain\"). The corrected text must be placed in the same paragraph and preserve the article HTML tags exactly as in the source.",
+        "translation_quote": "Adakah orang yang sakit di antara kamu? Hendaklah ia memanggil penatua-penatua jemaat, dan hendaklah mereka mendoakan dia dan mengurapinya dengan minyak dalam nama Tuhan: Dan doa iman akan menyelamatkan orang yang sakit, dan Tuhan akan membangunkannya; dan jika ia telah berbuat dosa, maka ia akan diampuni. Aku-ikutlah dosamu seorang kepada yang lain, dan doalah seorang untuk yang lain, supaya kamu sembuh. Doa orang benar, jika dengan yakin didoakan, besar kuasanya – Yakobus 5:14-16."
+      },
+      {
+        "location": "metadata — source.title, source.subtitle, source.section",
+        "severity": "major",
+        "source_quote": "title: \"Discipleship—The Path of Healing\"\nsubtitle: \"The Discipleship Series\"\nsection: \"VICTORIOUS CHRISTIAN LIVING\"",
+        "suggested_fix": "Translate the article metadata into standard Bahasa Indonesia (preserve capitalization style as required by the publication). Suggested translations: title -> \"Pemuridan — Jalan Penyembuhan\"; subtitle -> \"Seri Pemuridan\"; section -> \"KEHIDUPAN KRISTEN YANG MENANG\". Replace the English metadata strings in the translation with these Indonesian equivalents so that no substantive translatable metadata remains in English.",
+        "translation_quote": "title: \"Discipleship—The Path of Healing\"\nsubtitle: \"The Discipleship Series\"\nsection: \"VICTORIOUS CHRISTIAN LIVING\""
+      }
+    ],
+    "passed": false,
+    "score": 60
+  }
+}

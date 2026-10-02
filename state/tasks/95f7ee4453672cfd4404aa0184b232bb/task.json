@@ -2,7 +2,6 @@
   "article_id": "4ab4f655-4a17-4f5c-9623-e9085bd401f9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,45 @@
         },
         "total_tokens": 3781
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1132,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3570,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4702
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Translation paragraph containing \"нашла маленькую пластырь\" (near middle of article)",
+      "severity": "minor",
+      "source_quote": "She quickly pulled it out and watched, with her heart beating rapidly, as the blood welled up, dark and warm. It was a small cut, only about one quarter of an inch long, but it had gone in rather deeply.\n\nWhat should she do now? Yes, there was no doubt about it, her mom had been right after all! In her heart, she knew the right thing to do would be to go directly to her mother and tell her what she had done. But she felt guilty and ashamed. She had known better than to jump down with that knife, yet she had gone ahead and done it anyway. Guiltily, she quickly pressed her thumb on top of the wound and slipped into the house. The bleeding soon stopped, and after finding a little bandage and placing it on her cut, she quietly put her knife away and found a book to read.",
+      "suggested_fix": "The Russian translation has an agreement/case error: \"найдя маленькую пластырь и наложив его на порез\" is ungrammatical. Change to: \"и, найдя маленький пластырь и наложив его на порез, она тихо убрала нож и взяла книгу, чтобы почитать.\" (preserve existing sentence order and HTML tags).",
+      "translation_quote": "Кровотечение вскоре остановилось, и, найдя маленькую пластырь и наложив его на порез, она тихо убрала нож и взяла книгу, чтобы почитать."
+    },
+    {
+      "location": "Image alt text for second figure (end of article)",
+      "severity": "minor",
+      "source_quote": "A rope swing hanging from a large tree",
+      "suggested_fix": "The translated alt text uses the singular archaic form \"качеля\". Use the standard modern plural or singular form: \"Верёвочные качели, свисающие с большого дерева\" or \"Верёвочная качеля, свисающая с большого дерева\" — preferably use the common plural: \"Верёвочные качели, свисающие с большого дерева.\"",
+      "translation_quote": "Верёвочная качеля, свисающая с большого дерева"
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:35+00:00",
   "id": "95f7ee4453672cfd4404aa0184b232bb",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "rus",
@@ -100,11 +135,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d403f379edde7ed1b9230df32b8a4aa9dad598dcb4dff15ce8551751f262d6f8.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "bea4c0be47f056e7707aebabc8049992e7243ac83fcd337c2189cd783f263083",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

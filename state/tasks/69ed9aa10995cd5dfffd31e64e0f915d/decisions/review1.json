@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "source.html — opening paragraph (second paragraph of article)",
+      "severity": "major",
+      "source_quote": "The modern Christian world has duly accepted many of the lowly vehicles that God used to usher in the Kingdom.",
+      "suggested_fix": "Translate the sentence clearly and idiomatically into Hindi preserving meaning (\"Kingdom\" = \"राज्य\" or \"राज्य की की स्थापना\"). Preserve HTML tags and placement. Example replacement (preserve <p>...): \"आधुनिक ईसाई जगत ने उन अनेक साधनों को स्वीकार किया है जिनके द्वारा परमेश्वर ने राज्य की स्थापना करवाई थी।\"",
+      "translation_quote": "आधुनिक ईसाई जगत ने राजाी की आयी हुई व्यवस्था में भगवान ने जिन अनेक निम्नलिखित माध्यरों का उपयोग किया था उन्हें भली-भांति स्वीकार कर लिया है।"
+    },
+    {
+      "location": "source.html — opening paragraph (same paragraph, multiple words)",
+      "severity": "minor",
+      "source_quote": "The virgin birth, the rough-hewn manger, and the swaddling clothes have become sovereign monuments that we could scarcely do without.",
+      "suggested_fix": "Correct typographical and lexical errors and use idiomatic Hindi. For example, replace 'राजाी की आयी हुई व्यवस्था', 'माध्यरों', 'लंगोटीें' with proper words and spelling. Suggested rendering: \"कुँवारी जन्म, सादा पालना, और लंगोटियाँ अब ऐसे प्रमुख प्रतीक बन गए हैं जिनके बिना हम मुश्किल से चल सकते हैं।\" Keep HTML tags unchanged.",
+      "translation_quote": "कुँवारी जन्म, खुरदुरे घास का पालना, और लंगोटीें ऐसे प्रमुख स्मारक बन गए हैं जिनके बिना हम कठिनाई से ही रह सकते हैं।"
+    },
+    {
+      "location": "source.html — second paragraph (sentence near end)",
+      "severity": "minor",
+      "source_quote": "Even the rude donkey is appreciated on Good Friday and the old, rugged cross has become a spiritual emblem nominally displayed on neck chains and ornate pulpit carvings.",
+      "suggested_fix": "Fix awkward phrasing and incorrect word choice. For example: \"यहाँ तक कि सादा गधा भी गुड फ्राइडे पर सम्मानित किया जाता है, और पुराना, कठोर क्रूस एक आध्यात्मिक प्रतीक बन गया है जिसे अक्सर गर्दन की चैन और सजावटी मंदिर/पल्पिट की नक्क़ाशी पर दिखाया जाता है।\" Preserve tags.",
+      "translation_quote": "यहाँ तक कि एक साधारण गधे की भी गुड फ्राइडे पर कदर की जाती है और पुराना, कठोर क्रूस आध्यात्मिक प्रतीक बन गया है जिसे नाममात्र के तौर पर गर्दन की चैन और अलंकृत उचारणों पर दिखाया जाता है।"
+    },
+    {
+      "location": "source.html — endnotes (Finney paragraph block)",
+      "severity": "critical",
+      "source_quote": "** What A Revival Of Religion Is – Charles Grandison Finney – The Belknap Press Of Harvard University A “Revival of Religion” presupposes a declension. Almost all the religion in the world has been produced by revivals. God has found it necessary to take advantage of the excitability there is in mankind, to produce powerful excitements among them, before he can lead them to obey. Men are so sluggish, there are so many things to lead their minds off from religion, and to oppose the influence of the gospel that it is necessary to raise an excitement among them, till the tide rises so high as to sweep away the opposing obstacles. They must be so excited that they will break over these counteracting influences, before they will obey God.",
+      "suggested_fix": "This entire quoted substantive passage must be translated into Hindi (quoted prose must not remain in English). Preserve the endnote structure and HTML tags. Suggested translation (rendered inside the existing <p><em>...</em></p>): \"** 'What A Revival Of Religion Is' — चार्ल्स ग्रैंडिसन फिन्नी — द बेलनैप प्रेस ऑफ हार्वर्ड यूनिवर्सिटी: 'धार्मिक पुनरुत्थान' एक पतन की पूर्व-स्थितिकता मानता है। दुनिया का लगभग सारा धर्म पुनरुत्थानों के द्वारा उत्पन्न हुआ है। परमेश्वर ने पाया कि मनुष्यों में जो उत्तेजनशीलता है, उसका लाभ उठाना आवश्यक है—उनमें शक्तिशाली उत्तेजनाएँ उत्पन्न करने के लिए, इससे पहले कि वह उन्हें आज्ञाकारी बना सके। मन बहुत सुस्त है, धर्म से मन हटाने के लिए कई बातें हैं और सुसमाचार के प्रभाव का विरोध करनेवाली चीज़ें भी हैं; अतः उनके बीच एक उत्तेजना पैदा करना आवश्यक है, तब तक जब तक ज्वार उतना ऊँचा न उठ जाये कि विरोधी बाधाओं को बहा दे। उन्हें इतना उत्तेजित होना चाहिए कि वे इन विरोधी प्रभावों को तोड़ सकें, इससे पहले कि वे परमेश्वर की आज्ञा मानें।'\" Adjust wording as needed but ensure full translation of the quoted passage.",
+      "translation_quote": "** What A Revival Of Religion Is – Charles Grandison Finney – The Belknap Press Of Harvard University A “Revival of Religion” presupposes a declension. Almost all the religion in the world has been produced by revivals. God has found it necessary to take advantage of the excitability there is in mankind, to produce powerful excitements among them, before he can lead them to obey. Men are so sluggish, there are so many things to lead their minds off from religion, and to oppose the influence of the gospel that it is necessary to raise an excitement among them, till the tide rises so high as to sweep away the opposing obstacles. They must be so excited that they will break over these counteracting influences, before they will obey God."
+    },
+    {
+      "location": "source.html — endnotes (first endnote and Spurgeon quote)",
+      "severity": "minor",
+      "source_quote": "‘I should like to go into the enquiry-room.’ I dare say you would, but we are not willing to pander to popular superstition. We fear that in those rooms men are warmed into a fictitious confidence. Very few of the supposed converts of enquiry-rooms turn out well. Go to your God at once, even where you now are. Cast yourself on Christ, at once, ere you stir an inch!’ - Pleading and Encouragement – Charles Haddon Spurgeon – Aug 17, 1841",
+      "suggested_fix": "The Spurgeon quote is currently translated, but ensure punctuation and citation formatting are clear and that the full quoted passage is translated (it appears translated). If any English fragments or citation lines remain, either translate the quoted prose or (if a title/identifier) keep as original but ensure quoted prose is translated. Suggested: verify that the entire Spurgeon quote is in Hindi and correct minor spacing issues (e.g., 'पूछताछ- कक्षों' → 'पूछताछ-कक्षों').",
+      "translation_quote": "‘मैं पूछताछ कक्ष में जाना चाहूँगा।’ मैं कहता हूँ आप शायद जायेंगे, पर हम लोकप्रिय अंधविश्वास को खुश करने के लिए तैयार नहीं हैं। हमें डर है कि उन कक्षों में पुरुष एक काल्पनिक आश्वासन में गर्म हो उठते हैं। पूछताछ- कक्षों के कथित परिवर्तितों में बहुत कम ही ठीक निकलते हैं। अभी अपने ईश्वर के पास जाओ, यहीं जहाँ तुम हो। स्वयं को मसीह पर फेंक दो, तुरंत, इससे पहले कि तुम एक इंच भी हिलो!’ - Pleading and Encouragement – Charles Haddon Spurgeon – Aug 17, 1841"
+    },
+    {
+      "location": "source.html — throughout article (wording/spelling errors and idiom issues)",
+      "severity": "minor",
+      "source_quote": "multiple sentences (examples: \"chosen\", \"lay his learning aside\", \"the foolhardy of preaching\")",
+      "suggested_fix": "Proofread the Hindi translation for typographical errors, incorrect word choices, spacing, and awkward literal renderings. Examples: 'माध्यरों' → 'माध्यमों'; 'काचुना हुआ है' → 'चुना गया है'; 'उचारणों' → 'नक्काशी' or 'शिल्प'; 'श्रेय न दे कर सच्चाई की शक्ति का निहित न माना जाए' → simplify to 'सफलता को कला की शक्ति का श्रेय न जाए, बल्कि सच्चाई की शक्ति मानी जाए।' Keep HTML unchanged; apply corrections inline.",
+      "translation_quote": "Multiple occurrences, e.g. \"माध्यरों\", \"काचुना हुआ है—वह आजकल बढ़ते हुए तिरस्कृत हो रहा है।\", \"उचारणों\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

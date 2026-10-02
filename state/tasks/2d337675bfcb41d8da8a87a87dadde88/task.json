@@ -2,7 +2,6 @@
   "article_id": "2e021f55-6588-4d9d-bd0a-068af80732ff",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,80 @@
         },
         "total_tokens": 5374
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1058,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5098,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6156
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html paragraph 2 (verse markers)",
+      "severity": "minor",
+      "source_quote": "– verse 3. … –verse 6.",
+      "suggested_fix": "Translate the English verse markers into Spanish for consistency with the rest of the translation. Replace “verse”/“verses” with “versículo”/“versículos” (or the abbreviated “v.”/“vv.”) keeping the same numbers and punctuation. Example: “–versículo 3.” and “–versículo 6.”",
+      "translation_quote": "–verse 3. … –verse 6."
+    },
+    {
+      "location": "source.html paragraph 6 (verse markers)",
+      "severity": "minor",
+      "source_quote": "–verse 12.",
+      "suggested_fix": "Translate the English verse marker into Spanish. Example: “–versículo 12.”",
+      "translation_quote": "–verse 12."
+    },
+    {
+      "location": "source.html paragraph 8 (verse markers)",
+      "severity": "minor",
+      "source_quote": "–verse 15.",
+      "suggested_fix": "Translate the English verse marker into Spanish. Example: “–versículo 15.”",
+      "translation_quote": "–verse 15."
+    },
+    {
+      "location": "source.html paragraph 9 (verse markers)",
+      "severity": "minor",
+      "source_quote": "–verses 16-17.",
+      "suggested_fix": "Translate the English verse marker into Spanish and keep the same verse range. Example: “–versículos 16-17.”",
+      "translation_quote": "–verses 16-17."
+    },
+    {
+      "location": "source.html paragraph 10 (verse markers)",
+      "severity": "minor",
+      "source_quote": "–verse 18.",
+      "suggested_fix": "Translate the English verse marker into Spanish. Example: “–versículo 18.”",
+      "translation_quote": "–verse 18."
+    },
+    {
+      "location": "source.html paragraph 13 (verse markers and order)",
+      "severity": "minor",
+      "source_quote": "– verses 21-20.",
+      "suggested_fix": "Translate the English verse markers into Spanish. Also consider preserving the original numerical order as printed in the authoritative English (the English printed “21-20” which is unusual); do not change verse numbers. Example: “–versículos 21-20.”",
+      "translation_quote": "–verses 21-20."
+    },
+    {
+      "location": "source.html paragraph 15 (verse markers)",
+      "severity": "minor",
+      "source_quote": "–verses 22-23.",
+      "suggested_fix": "Translate the English verse markers into Spanish and keep the same range. Example: “–versículos 22-23.”",
+      "translation_quote": "–verses 22-23."
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:35+00:00",
   "id": "2d337675bfcb41d8da8a87a87dadde88",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "spa",
@@ -100,11 +170,13 @@
     }
   },
   "protected": false,
+  "quality_score": 95,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f31cc8b34c5cf672315cfd39ccfc47a998b57e754ee6813a57508dd0fe98b5c8.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "c849e4ea3ad84b761d78091fcac24b6703c3038258305b91a3abd924f8250de9",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

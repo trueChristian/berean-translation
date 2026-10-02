@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph 2 (verse markers)",
+      "severity": "minor",
+      "source_quote": "– verse 3. … –verse 6.",
+      "suggested_fix": "Translate the English verse markers into Spanish for consistency with the rest of the translation. Replace “verse”/“verses” with “versículo”/“versículos” (or the abbreviated “v.”/“vv.”) keeping the same numbers and punctuation. Example: “–versículo 3.” and “–versículo 6.”",
+      "translation_quote": "–verse 3. … –verse 6."
+    },
+    {
+      "location": "source.html paragraph 6 (verse markers)",
+      "severity": "minor",
+      "source_quote": "–verse 12.",
+      "suggested_fix": "Translate the English verse marker into Spanish. Example: “–versículo 12.”",
+      "translation_quote": "–verse 12."
+    },
+    {
+      "location": "source.html paragraph 8 (verse markers)",
+      "severity": "minor",
+      "source_quote": "–verse 15.",
+      "suggested_fix": "Translate the English verse marker into Spanish. Example: “–versículo 15.”",
+      "translation_quote": "–verse 15."
+    },
+    {
+      "location": "source.html paragraph 9 (verse markers)",
+      "severity": "minor",
+      "source_quote": "–verses 16-17.",
+      "suggested_fix": "Translate the English verse marker into Spanish and keep the same verse range. Example: “–versículos 16-17.”",
+      "translation_quote": "–verses 16-17."
+    },
+    {
+      "location": "source.html paragraph 10 (verse markers)",
+      "severity": "minor",
+      "source_quote": "–verse 18.",
+      "suggested_fix": "Translate the English verse marker into Spanish. Example: “–versículo 18.”",
+      "translation_quote": "–verse 18."
+    },
+    {
+      "location": "source.html paragraph 13 (verse markers and order)",
+      "severity": "minor",
+      "source_quote": "– verses 21-20.",
+      "suggested_fix": "Translate the English verse markers into Spanish. Also consider preserving the original numerical order as printed in the authoritative English (the English printed “21-20” which is unusual); do not change verse numbers. Example: “–versículos 21-20.”",
+      "translation_quote": "–verses 21-20."
+    },
+    {
+      "location": "source.html paragraph 15 (verse markers)",
+      "severity": "minor",
+      "source_quote": "–verses 22-23.",
+      "suggested_fix": "Translate the English verse markers into Spanish and keep the same range. Example: “–versículos 22-23.”",
+      "translation_quote": "–verses 22-23."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

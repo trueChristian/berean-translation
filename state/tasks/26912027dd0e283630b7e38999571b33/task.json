@@ -2,7 +2,6 @@
   "article_id": "b40d86c2-0814-40ea-a893-20dd7fcbdadb",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:38+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 8461
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1735,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 960,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8120,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9855
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<figure> <figcaption> (scripture caption)",
+      "severity": "minor",
+      "source_quote": "PUT ON THE WHOLE ARMOUR OF GOD, that ye may be able to\n    stand against the wiles of the devil.  For we wrestle not against flesh and blood, but against principalities, against powers, against the rulers of the darkness of this world, AGAINST SPIRITUAL WICKEDNESS IN HIGH PLACES.  EPHESIANS 6:11-12",
+      "suggested_fix": "Исправить регистры и немного улучшить стилистическую плавность перевода в подписи, сохранив смысл и нумерацию ссылки. Например: «ОБЛЕЧИТЕСЬ В ПОЛНЫЕ ДУХОВНЫЕ ДОСПЕХИ БОГА, чтобы вы могли противостоять уловкам дьявола. Ибо мы не боремся с плотью и кровью, но с начальствами, с властями, с мироправителями тьмы сего века, С ДУХОВНЫМИ ЗЛЫМИ СИЛАМИ НА НЕБЕСНЫХ МЕСТАХ. ЕФЕСИЯНАМ 6:11–12» — сохранив HTML-структуру <figcaption> без изменений.",
+      "translation_quote": "<strong>ОБЛЕЧИТЕСЬ В ПОЛНЫЕ ДУХОВНЫЕ Доспехи БОГА,</strong> <em>чтобы вы могли<br>\n    противостоять уловкам дьявола.</em><br><br>\n    <em>Ибо мы не имеем борьбы с плотью и кровью, но с начальствами,<br>\n    с властями, с мироправителями тьмы этой,</em><br>\n    <strong>С ДУХОВНЫМИ ЗЛЫМИ СИЛАМИ НА НЕБЕСНЫХ МЕСТАХ.</strong><br>\n    ЕФЕСИЯНАМ 6:11-12"
+    },
+    {
+      "location": "Paragraph with parenthetical reference to the Bible (\"the sharpest of two-edged swords (The Holy Scriptures)\")",
+      "severity": "minor",
+      "source_quote": "they would be armed with the sharpest of two-edged swords (The Holy Scriptures), guided by a power (The Holy Spirit) greater than any naval fleet.",
+      "suggested_fix": "Prefer the conventional plural/or collective phrasing for the quoted idea to match the English plurality 'The Holy Scriptures'. Change «(Священным Писанием)» to «(Священными Писаниями)» or «(Священным Писанием)» only if the author’s intended singular referent is known. Keep the rest unchanged. (This is a minor consistency/style suggestion, not a doctrinal correction.)",
+      "translation_quote": "вместо пулемётов и гранат они были вооружены самым острым из мечей с двумя лезвиями (Священным Писанием), направляемыми силой (Святым Духом), большей, чем любой морской флот."
+    },
+    {
+      "location": "Figure figcaption — book name and verse format",
+      "severity": "minor",
+      "source_quote": "EPHESIANS 6:11-12",
+      "suggested_fix": "Standard Russian practice uses book names in sentence case and an en dash for ranges. Suggest «Ефесянам 6:11–12». Preserve the exact chapter and verse numbers and placement.",
+      "translation_quote": "ЕФЕСИЯНАМ 6:11-12"
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:35+00:00",
   "id": "26912027dd0e283630b7e38999571b33",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "rus",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/303eea9ede343be1d9acddc326e79733cfaca30a9ec14bd67edc70779b0f9f08.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "c767adc49633e338375567a05addcb2f986e5c013a016c2592a1cd600a81bb50",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

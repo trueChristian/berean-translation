@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.title",
+      "severity": "major",
+      "source_quote": "Mother Was Right",
+      "suggested_fix": "Translate the English title into standard Bahasa Indonesia and preserve it in the translation title field. For example: <title>Ibu Benar</title> (or another idiomatic rendering such as \"Ibu Itu Benar\"). Do not change any HTML structure—replace only the text node for the title.",
+      "translation_quote": "Mother Was Right"
+    },
+    {
+      "location": "source.section",
+      "severity": "major",
+      "source_quote": "Children’s Corner",
+      "suggested_fix": "Translate the section name into standard Bahasa Indonesia. For example: \"Sudut Anak-anak\" or \"Sudut Anak\". Replace only the section text; keep any HTML or attribute structure unchanged.",
+      "translation_quote": "Children’s Corner"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

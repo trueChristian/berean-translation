@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning \"De morgen brak aan;...\" (translation paragraph containing verse citation “– verzen 20-21.”)",
+      "severity": "major",
+      "source_quote": "… and as they went forth, Jehoshaphat stood and said, …Believe in the LORD your God, so shall ye be established; believe his prophets, so shall ye prosper. And… he appointed singers unto the LORD, and that should praise the beauty of holiness, as they went out before the army… – verses 21-20.",
+      "suggested_fix": "Restore the original verse reference order exactly as in the authoritative English: use “– versen 21-20.” (Preserve the unusual order rather than 'correcting' it.)",
+      "translation_quote": "… en als zij uitgingen, stond Jehoshafat en zeide, …Gelooft in den HEERE, uw God, zo zult gij bevestigd worden; gelooft zijne profeten, zo zult gij voorspoedig zijn. En… hij stelde zangers voor den HEERE aan, die de schoonheid der heiligheid loven zouden, terwijl zij voor het leger uitgingen… – verzen 20-21."
+    },
+    {
+      "location": "Throughout (name of king: multiple paragraphs: opening paragraph, the paragraph ending with \"...de woorden van Jehoshafat, de koning van Juda.\")",
+      "severity": "minor",
+      "source_quote": "Jehoshaphat",
+      "suggested_fix": "Make the king's name consistent with the authoritative English spelling used in source.title/source.html. Use a single Dutch rendering throughout (e.g., “Jehoshaphat”) to match the source author name and preserve fidelity.",
+      "translation_quote": "Jehoshafat (also appears as Jehoshafat in several paragraphs)"
+    },
+    {
+      "location": "Paragraph beginning \"En Jehoshafat boog zijn hoofd...\" (paragraph containing “– vers 18.” and the phrase about God doing a miracle)",
+      "severity": "minor",
+      "source_quote": "…because it’s a miracle which only the all-mighty, all-powerful God can do.",
+      "suggested_fix": "The English paired synonyms are 'all-mighty, all-powerful.' The translation uses 'almachtige, alomtegenwoordige' (the second term means 'omnipresent'), which changes the nuance. Change 'alomtegenwoordige' to a closer equivalent of 'all-powerful' such as 'almachtige, almachtige' (avoid repetition) or better: 'de almachtige, alomtegenwoordige' is incorrect for 'all-powerful.' Prefer 'de almachtige, de almachtige' is awkward. Suggested precise fix: replace 'almachtige, alomtegenwoordige God' with 'almachtige, almachtige God' is not idiomatic; better: 'de almachtige God' or 'de almachtige, almachtige God' is redundant. Recommended wording: 'alleen de almachtige God' or 'alleen de almachtige, almachtige God' — ideally: 'alleen de almachtige God' (concise and faithful).",
+      "translation_quote": "…omdat het een wonder is dat alleen de almachtige, alomtegenwoordige God kan doen."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

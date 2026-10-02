@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph about Mark 2 (the paralytic)",
+      "severity": "major",
+      "source_quote": "“Thy sins be forgiven thee.” Then He said, “Rise up and walk.”",
+      "suggested_fix": "Translate the quoted sayings exactly as printed in the authoritative English, without adding words. Replace the translation that adds an address with a faithful rendering of the English phrase. For example: “‘Teus pecados te são perdoados.’ Depois disse: ‘Levanta‑te e anda.’” (preserve punctuation and the order of the two statements as in the source).",
+      "translation_quote": "“Filho, perdoados te são os teus pecados.” Depois disse: “Levanta‑te, toma o teu leito e vai para tua casa.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

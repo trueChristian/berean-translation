@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Translation paragraph containing \"нашла маленькую пластырь\" (near middle of article)",
+      "severity": "minor",
+      "source_quote": "She quickly pulled it out and watched, with her heart beating rapidly, as the blood welled up, dark and warm. It was a small cut, only about one quarter of an inch long, but it had gone in rather deeply.\n\nWhat should she do now? Yes, there was no doubt about it, her mom had been right after all! In her heart, she knew the right thing to do would be to go directly to her mother and tell her what she had done. But she felt guilty and ashamed. She had known better than to jump down with that knife, yet she had gone ahead and done it anyway. Guiltily, she quickly pressed her thumb on top of the wound and slipped into the house. The bleeding soon stopped, and after finding a little bandage and placing it on her cut, she quietly put her knife away and found a book to read.",
+      "suggested_fix": "The Russian translation has an agreement/case error: \"найдя маленькую пластырь и наложив его на порез\" is ungrammatical. Change to: \"и, найдя маленький пластырь и наложив его на порез, она тихо убрала нож и взяла книгу, чтобы почитать.\" (preserve existing sentence order and HTML tags).",
+      "translation_quote": "Кровотечение вскоре остановилось, и, найдя маленькую пластырь и наложив его на порез, она тихо убрала нож и взяла книгу, чтобы почитать."
+    },
+    {
+      "location": "Image alt text for second figure (end of article)",
+      "severity": "minor",
+      "source_quote": "A rope swing hanging from a large tree",
+      "suggested_fix": "The translated alt text uses the singular archaic form \"качеля\". Use the standard modern plural or singular form: \"Верёвочные качели, свисающие с большого дерева\" or \"Верёвочная качеля, свисающая с большого дерева\" — preferably use the common plural: \"Верёвочные качели, свисающие с большого дерева.\"",
+      "translation_quote": "Верёвочная качеля, свисающая с большого дерева"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

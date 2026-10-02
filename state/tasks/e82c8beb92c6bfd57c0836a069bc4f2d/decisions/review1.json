@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "source.section / translation.section",
+      "severity": "minor",
+      "source_quote": "INSPIRATIONS FOR YOUTH",
+      "suggested_fix": "Översätt avsnittsnamnet till svenska. Bevara formateringen exakt (fältvärdet, inga HTML-taggar). Exempel: \"INSPIRATIONER FÖR UNGDOM\" eller \"INSPIRATION FÖR UNGDOM\" beroende på önskad stil.",
+      "translation_quote": "INSPIRATIONS FOR YOUTH"
+    },
+    {
+      "location": "source.title / translation.title",
+      "severity": "minor",
+      "source_quote": "God Would Not Let Me Go",
+      "suggested_fix": "Rubriken på svenska är begriplig men kan förtydligas för att bättre fånga verbetiviteten i engelskan. Föreslagen alternativformulering som är närmare nyans: \"Gud ville inte låta mig gå\" eller \"Gud släppte mig inte\". Behåll exakta titelsträngen i title-fältet om redaktionen vill ha en annan nyans.",
+      "translation_quote": "Gud lät mig inte gå"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

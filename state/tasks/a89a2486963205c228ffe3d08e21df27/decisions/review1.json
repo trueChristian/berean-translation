@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "source.html — paragraph: \"Guiltily, she quickly pressed her thumb on top of the wound and slipped into the house.\"",
+      "severity": "major",
+      "source_quote": "Guiltily, she quickly pressed her thumb on top of the wound and slipped into the house.",
+      "suggested_fix": "Translate the agent as the thumb (انگوٹھا) rather than a ring. Replace the Urdu phrase \"اپنی انگوٹھی سے زخم پر دباؤ ڈالا\" with: \"شرمندگی سے اس نے فوراً اپنے انگوٹھے کو زخم پر دبا دیا اور گھر میں داخل ہو گئی۔\" Preserve the surrounding sentence structure and HTML tags.",
+      "translation_quote": "شرمندگی کے ساتھ، اس نے جلدی سے اپنی انگوٹھی سے زخم پر دباؤ ڈالا اور گھر میں اندر چھپ گئی۔"
+    },
+    {
+      "location": "source.section (metadata)",
+      "severity": "major",
+      "source_quote": "Children’s Corner",
+      "suggested_fix": "Translate the section name into standard Urdu. Replace the translation.section value \"Children’s Corner\" with \"بچوں کا گوشہ\" (or another site-standard Urdu rendering of the section name).",
+      "translation_quote": "Children’s Corner"
+    },
+    {
+      "location": "source.title",
+      "severity": "minor",
+      "source_quote": "Mother Was Right",
+      "suggested_fix": "The title translation \"ماں درست تھیں\" is understandable but slightly awkward in register. Consider the single-voice past form \"ماں درست تھیں\" is acceptable; if you prefer a more natural short title, use \"ماں صحیح تھیں\" or \"ماں درست تھیں\" is also acceptable. No HTML change required.",
+      "translation_quote": "ماں درست تھیں"
+    },
+    {
+      "location": "source.html — paragraph: \"She shifted to the lowest branch and sat poised, ready to jump down like she always did to get out of the tree.\"",
+      "severity": "minor",
+      "source_quote": "She shifted to the lowest branch and sat poised, ready to jump down like she always did to get out of the tree.",
+      "suggested_fix": "The Urdu phrase \"مثل ہمیشہ\" is non-idiomatic. Replace \"اور مثل ہمیشہ نیچے چھلانگ لگانے کے لیے تیار بیٹھی\" with: \"اور ہمیشہ کی طرح نیچے چھلانگ لگانے کے لیے تیار بیٹھی۔\" Preserve tags.",
+      "translation_quote": "وہ سب سے نیچی شاخ کی طرف منتقل ہوئی اور مثل ہمیشہ نیچے چھلانگ لگانے کے لیے تیار بیٹھی۔"
+    },
+    {
+      "location": "source.html — paragraph: \"She still couldn’t make eyes and a nose appear, but she had fun carving notches and shaving off small pieces of bark.\"",
+      "severity": "minor",
+      "source_quote": "She still couldn’t make eyes and a nose appear, but she had fun carving notches and shaving off small pieces of bark.",
+      "suggested_fix": "The phrase \"carving notches\" is translated awkwardly as \"چیروں\". Use a clearer Urdu term such as \"نقوش تراشنا\" or \"کھنڈار تراشنا\". Suggested replacement: \"وہ ابھی تک آنکھیں اور ناک تراش نہیں پاتی تھی، مگر وہ نشانات تراشنے اور چھال کے چھوٹے ٹکڑے ہٹانے میں مزہ محسوس کرتی تھی۔\"",
+      "translation_quote": "وہ ابھی تک آنکھیں اور ناک دکھا کر تراش نہیں سکتی تھی، مگر اسے چیروں اور چھال کے چھوٹے ٹکڑے ہٹانے میں مزہ آ رہا تھا۔"
+    },
+    {
+      "location": "source.html — opening paragraph: \"mom said it was time for a break.\"",
+      "severity": "minor",
+      "source_quote": "mom said it was time for a break.",
+      "suggested_fix": "The Urdu \"ماں نے کہا کہ سونا بند کرو اور آرام کا وقت ہے۔\" is slightly awkward and literal. A more natural rendering: \"ماں نے کہا کہ اب آرام کرنے کا وقت ہے۔\" Replace the phrase accordingly, keeping HTML intact.",
+      "translation_quote": "ماں نے کہا کہ سونا بند کرو اور آرام کا وقت ہے۔"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

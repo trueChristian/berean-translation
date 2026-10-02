@@ -1,0 +1,57 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3f511a7c-262c-46ea-9d2e-6cf83c4867ef",
+    "response_id": "chatcmpl-EUX2j6XUJeT2KpDpd2JMasgqI2568",
+    "usage": {
+      "completion_tokens": 1327,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8908,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10235
+    }
+  },
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph: \"...one of the necessities to seek healing through the anointing with oil is the clearing of the heart of any known, unconfessed sin...\" (near the discussion of James 5:14-16)",
+        "severity": "major",
+        "source_quote": "\"one of the necessities to seek healing through the anointing with oil is the clearing of the heart of any known, unconfessed sin.\"",
+        "suggested_fix": "Render the English meaning precisely. Replace the incorrect Dutch phrase “enige bekende, onbekennde zonde” with a clear translation that preserves the original sense: “enige bekende, ongebiechte zonde” or better: “enige bekende, niet-belijden zonde”. A recommended phrasing: “een van de noodzakelijkheden om genezing te zoeken door de zalving met olie is het reinigen van het hart van enige bekende, niet-betwiste / niet-belijden zonde.” (Prefer: “enige bekende, niet-belijden zonde”.)",
+        "translation_quote": "\"Dus een van de noodzakelijkheden om genezing te zoeken door de zalving met olie is het reinigen van het hart van enige bekende, onbekennde zonde.\""
+      },
+      {
+        "location": "Paragraph: “My last bloodwork came back “undetectable”.”",
+        "severity": "major",
+        "source_quote": "\"My last bloodwork came back 'undetectable'.\"",
+        "suggested_fix": "Do not leave the English word in parentheses and do not use a non-idiomatic Dutch word. Translate the quoted passage fully into Dutch and use a natural medical phrasing. For example: “Mijn laatste bloedonderzoek toonde geen waarneembare ziektewaarden aan” or more literally: “Mijn laatste bloedonderzoek was 'niet detecteerbaar'.” A concise recommended rendering: “Mijn laatste bloedonderzoek toonde geen detecteerbare afwijkingen (niet-detecteerbaar).” Remove the orphaned English parenthetical “(undetectable)”.",
+        "translation_quote": "\"Mijn laatste bloedonderzoek bleek “onvindbaar” (undetectable).\""
+      },
+      {
+        "location": "Hebrews 4:1-2 paragraph (Dutch contains an English word)",
+        "severity": "minor",
+        "source_quote": "\"but the word preached did not profit them, not being mixed with faith in them that heard it\" (Hebrews 4:1-2, quoted)",
+        "suggested_fix": "Remove the stray English 'also' and render the verse in idiomatic, accurate Dutch consistent with the rest of the translation. The current sentence contains “gelijk also tot hen”; replace with “gelijk ook tot hen”. For example: “Want ook tot ons is het evangelie verkondigd gelijk ook tot hen; maar het woord verkondigd nuttigde hun niet, niet gemengd met geloof in hen die het hoorden.”",
+        "translation_quote": "\"...Want ook tot ons is het evangelie verkondigd gelijk also tot hen; maar het woord verkondigd <strong>nuttigde hun niet, niet gemengd met geloof </strong>in hen die het hoorden – Hebreeën 4:1-2.\""
+      },
+      {
+        "location": "Passage: \"My last bloodwork came back 'undetectable'\" — choice of Dutch word \"onvindbaar\"",
+        "severity": "minor",
+        "source_quote": "\"My last bloodwork came back 'undetectable'.\"",
+        "suggested_fix": "The Dutch word “onvindbaar” is a poor choice for translating the medical term “undetectable.” Replace with an idiomatic medical rendering such as “niet aantoonbaar” or “niet-detecteerbaar”. E.g.: “Mijn laatste bloedonderzoek was niet aantoonbaar” or “Mijn laatste bloedonderzoek was niet detecteerbaar.”",
+        "translation_quote": "\"Mijn laatste bloedonderzoek bleek “onvindbaar” (undetectable).\""
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<p>Cariche suicida, annientamenti d'artiglieria e bombardamenti aerei...</p>",
+      "severity": "minor",
+      "source_quote": "Suicide charges, artillery annihilation, and arial bombardments made life for the common soldier a living nightmare.",
+      "suggested_fix": "Correggere il numero e l'accordo plurale in italiano: «Cariche suicide, annientamenti d'artiglieria e bombardamenti aerei…»",
+      "translation_quote": "Cariche suicida, annientamenti d'artiglieria e bombardamenti aerei trasformavano la vita del soldato comune in un incubo."
+    },
+    {
+      "location": "<p>Un proiettile vagante, alcuni pesando quanto una piccola automobile, poteva cadere dal cielo con risultati letali.</p>",
+      "severity": "minor",
+      "source_quote": "A wayward shell, some weighing as much as a small car, could fall from the sky with deadly results.",
+      "suggested_fix": "Correggere la concordanza grammaticale: sostituire «alcuni» con «alcuni dei quali» oppure riformulare «alcuni dei quali pesavano quanto una piccola automobile»; es.: «Un proiettile vagante, alcuni dei quali pesavano quanto una piccola automobile, poteva cadere dal cielo con risultati letali.»",
+      "translation_quote": "Un proiettile vagante, alcuni pesando quanto una piccola automobile, poteva cadere dal cielo con risultati letali."
+    },
+    {
+      "location": "<p>Il tempo stava ora per scadere per i giapponesi. Sparsi su troppi fronti—with truppe, equipaggiamento e risorse in esaurimento—combatterono una disperata campagna difensiva.</p>",
+      "severity": "minor",
+      "source_quote": "Time was now running out for the Japanese. Spread thin—with troops, equipment, and resources dwindling—they fought a desperate defensive campaign.",
+      "suggested_fix": "Sostituire la parola inglese errante «with» con la sua controparte italiana («con») e togliere i caratteri di em-dash non-localizzati se necessario. Es.: «Sparsi su troppi fronti — con truppe, equipaggiamento e risorse in esaurimento — combatterono una disperata campagna difensiva.»",
+      "translation_quote": "Il tempo stava ora per scadere per i giapponesi. Sparsi su troppi fronti—with truppe, equipaggiamento e risorse in esaurimento—combatterono una disperata campagna difensiva."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

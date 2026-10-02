@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph containing James 4:8 (near end of article)",
+      "severity": "critical",
+      "source_quote": "Draw nigh to God, and he will draw nigh to you… –James 4:8.",
+      "suggested_fix": "Terjemahkan ayat secara akurat ke Bahasa Indonesia sesuai makna teks sumber: “Mendekatlah kepada Allah, dan Ia akan mendekat kepadamu… – Yakobus 4:8.” Ganti teks terjemahan yang salah tanpa mengubah struktur HTML atau atributnya.",
+      "translation_quote": "<em>Janganlah dekat dengan dunia, maka Ia akan dekat dengan kamu... – James 4:8.</em>"
+    },
+    {
+      "location": "Inline Scripture reference in paragraph that cites 1 Corinthians 6:9-11",
+      "severity": "major",
+      "source_quote": "(see 1 Corinthians 6:9-11)",
+      "suggested_fix": "Gunakan bentuk nama kitab yang lazim dalam Bahasa Indonesia: ganti \"1 Corinthians 6:9-11\" menjadi \"1 Korintus 6:9-11\". Jangan ubah angka atau penempatan rujukan.",
+      "translation_quote": "(lihat 1 Corinthians 6:9-11)"
+    },
+    {
+      "location": "Two Scripture citations: 2 Timothy 4:7-8 and James 4:8 (citation forms)",
+      "severity": "major",
+      "source_quote": "–2 Timothy 4:7-8.  ...  –James 4:8.",
+      "suggested_fix": "Gunakan nama kitab Alkitab versi Bahasa Indonesia: ganti \"2 Timothy 4:7-8\" menjadi \"2 Timotius 4:7-8\" dan ganti \"James 4:8\" menjadi \"Yakobus 4:8\". Pertahankan tanda baca dan penempatan referensi sebagaimana aslinya.",
+      "translation_quote": "– 2 Timothy 4:7-8.  ...  <em>... – James 4:8.</em>"
+    },
+    {
+      "location": "Passage rendering of 2 Timothy 4:7-8 paragraph (pronoun consistency)",
+      "severity": "minor",
+      "source_quote": "...there is laid up for each of us a crown of righteousness, which the Lord, the righteous judge, shall give me at that day: and not to me only but unto all them also that love his appearing. I have fought a good fight, I have finished my course, I have kept the faith: Henceforth there is laid up for me a crown of righteousness, which the Lord, the righteous judge, shall give me at that day: and not to me only, but unto all them also that love his appearing –2 Timothy 4:7-8.",
+      "suggested_fix": "Maintain the original pronoun perspective consistently when translating quoted first-person lines. Render the quoted passage into Indonesian preserving first-person phrasing (e.g., use \"bagiku\" / \"aku\" consistently to match the English first-person statements) or follow a single consistent register rather than switching between \"kita\" and \"saya/aku\". Example fix for the paragraph: “...disediakan bagiku sebuah mahkota kebenaran, yang akan diberikan kepada ku oleh Tuhan, Hakim yang adil, pada hari itu; dan bukan hanya bagi aku, tetapi juga bagi semua orang yang merindukan kedatangan-Nya. Aku telah berjuang perjuangan yang baik, aku telah menyelesaikan perlombaanku, aku telah memelihara imanku: selanjutnya disediakan bagiku mahkota kebenaran...”",
+      "translation_quote": "ada disediakan bagi kita masing-masing mahkota kebenaran, yang akan diberikan oleh Tuhan, hakim yang benar, kepada saya pada hari itu: dan bukan hanya kepada saya, tetapi juga kepada semua orang yang merindukan kedatangan-Nya. Aku telah berjuang perjuangan yang baik, aku telah menyelesaikan perlombaanku, aku telah memelihara iman: Selanjutnya disediakan bagiku mahkota kebenaran, yang akan diberikan oleh Tuhan, hakim yang benar, pada hari itu: dan bukan hanya bagiku, tetapi juga bagi semua orang yang merindukan kedatangan-Nya – 2 Timothy 4:7-8."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

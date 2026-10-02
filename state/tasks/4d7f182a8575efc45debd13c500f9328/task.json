@@ -2,7 +2,6 @@
   "article_id": "fb65688b-5aaf-4194-a345-31f6f1355389",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:38+00:00",
   "events": [
@@ -24,9 +23,52 @@
         },
         "total_tokens": 3851
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1119,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3511,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4630
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<article> first paragraph",
+      "severity": "minor",
+      "source_quote": "Greetings of brotherly love to one and all.",
+      "suggested_fix": "Replace the translated sentence with a natural Afrikaans equivalent preserving tone: \"Goeie groete van broederlike liefde aan een en almal.\"",
+      "translation_quote": "Goeie groete van broederlike liefde aan ’n en aan almal."
+    },
+    {
+      "location": "<article> second paragraph, first sentence",
+      "severity": "minor",
+      "source_quote": "Recently, I have been reflecting on the current status of life as a committed Bible-believing Christian in our world today.",
+      "suggested_fix": "Remove the incorrect adverb and use a direct translation: change \"Onlangs het ek gewoonlik besin\" to \"Onlangs het ek besin\" (or \"Onlangs het ek begin besin\" if the sense is recent reflection).",
+      "translation_quote": "Onlangs het ek gewoonlik besin oor die huidige toestand van die lewe as ’n toegewyde Bybelgelowige Christen in ons wêreld vandag."
+    },
+    {
+      "location": "<article> penultimate paragraph (beginning '’n Laaste gedagte…')",
+      "severity": "minor",
+      "source_quote": "One final thought… over the years our readers have, at times, shared with us ways that they think we could improve our magazine for the good of all who read it and to present a more clear gospel message.",
+      "suggested_fix": "Improve word order and flow in Afrikaans: change \"deur die jare het ons lesers soms met ons gedeel maniere waarop hulle dink ons kan ons tydskrif verbeter\" to \"deur die jare het ons lesers soms maniere met ons gedeel waarop hulle dink ons ons tydskrif kan verbeter\" or more smoothly \"deur die jare het lesers soms maniere met ons gedeel waarop hulle dink ons die tydskrif kan verbeter\".",
+      "translation_quote": "’n Laaste gedagte… deur die jare het ons lesers soms met ons gedeel maniere waarop hulle dink ons kan ons tijdskrif verbeter tot voordeel van almal wat dit lees en om ’n duideliker evangelieboodskap voor te hou. Ons verwelkom dat om voort te gaan."
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:35+00:00",
   "id": "4d7f182a8575efc45debd13c500f9328",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "afr",
@@ -100,11 +142,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0d188eedb4a6b0936348346a7bbb1d6ba410af25119039e27c08f30a398b9e61.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "2b4f275d7b7ba8096cb0ab03fead7b5dd10aa236b7e3bc6ad2626bd76b72e500",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

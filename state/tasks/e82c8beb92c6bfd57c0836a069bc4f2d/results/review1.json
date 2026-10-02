@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "a69e808d-146e-404e-8dff-586063741ac1",
+    "response_id": "chatcmpl-EUX3Ol9wvuM9QUTbJCkAzREqVEH8b",
+    "usage": {
+      "completion_tokens": 696,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7858,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8554
+    }
+  },
+  "received_at": "2026-10-02T12:55:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.section / translation.section",
+        "severity": "minor",
+        "source_quote": "INSPIRATIONS FOR YOUTH",
+        "suggested_fix": "Översätt avsnittsnamnet till svenska. Bevara formateringen exakt (fältvärdet, inga HTML-taggar). Exempel: \"INSPIRATIONER FÖR UNGDOM\" eller \"INSPIRATION FÖR UNGDOM\" beroende på önskad stil.",
+        "translation_quote": "INSPIRATIONS FOR YOUTH"
+      },
+      {
+        "location": "source.title / translation.title",
+        "severity": "minor",
+        "source_quote": "God Would Not Let Me Go",
+        "suggested_fix": "Rubriken på svenska är begriplig men kan förtydligas för att bättre fånga verbetiviteten i engelskan. Föreslagen alternativformulering som är närmare nyans: \"Gud ville inte låta mig gå\" eller \"Gud släppte mig inte\". Behåll exakta titelsträngen i title-fältet om redaktionen vill ha en annan nyans.",
+        "translation_quote": "Gud lät mig inte gå"
+      }
+    ],
+    "passed": true,
+    "score": 97
+  }
+}

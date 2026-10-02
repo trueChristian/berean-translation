@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "<p><em>** What A Revival Of Religion Is – Charles Grandison Finney – The Belknap Press Of Harvard University",
+      "severity": "minor",
+      "source_quote": "“A revival is not a miracle, or dependent on a miracle, in any sense. It is a purely philosophical result of the right use of the constituted means”.",
+      "suggested_fix": "Replace the translated phrase «Une réveil n'est pas un miracle…» with the grammatically correct «Un réveil n'est pas un miracle…». Maintain the rest of the sentence as translated.",
+      "translation_quote": "«Une réveil n'est pas un miracle, ni dépendant d'un miracle, en aucun sens. C'est un résultat purement philosophique de la bonne utilisation des moyens constitués»."
+    },
+    {
+      "location": "<p>…Faith-engineered / paragraph containing “hit and run” ministries",
+      "severity": "minor",
+      "source_quote": "The contemporary emergence of thousands of “hit and run” ministries should cause us concern.",
+      "suggested_fix": "The translation renders “hit and run” ministries as «ministères “coup d'éclair”», which is awkward and non‑idiomatic in French. Replace «ministères “coup d'éclair”» with a more natural equivalent such as «ministères éphémères» or «ministères “coup d'éclair” (ministères éphémères)» depending on desired literalness. Keep the HTML structure unchanged.",
+      "translation_quote": "«L'émergence contemporaine de milliers de ministères « coup d'éclair » devrait nous préoccuper.»"
+    },
+    {
+      "location": "<p>If anyone was capable of articulating a flourish of orations in an accurate philosophical language it would have been the Apostle Paul.",
+      "severity": "minor",
+      "source_quote": "If anyone was capable of articulating a flourish of orations in an accurate philosophical language it would have been the Apostle Paul.",
+      "suggested_fix": "The translator rendered “a flourish of orations” as «un éclat d'oraisons», which is odd in French. Replace «un éclat d'oraisons» with a more idiomatic phrasing such as «un épanchement d'oraisons», «des oraisons brillantes» or «un tour d'éloquence» to better convey the English meaning. Preserve surrounding tags and punctuation.",
+      "translation_quote": "«Si quelqu'un était capable d'articuler un éclat d'oraisons dans un langage philosophique précis, ce fut l'apôtre Paul.»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

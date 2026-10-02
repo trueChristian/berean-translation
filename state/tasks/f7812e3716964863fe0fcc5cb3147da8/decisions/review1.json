@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.html paragraph that begins \"Morning dawned; it was the day God had told them to go out against these enemies.\" (the paragraph including the quoted verse range at the end)",
+      "severity": "major",
+      "source_quote": "– verses 21-20.",
+      "suggested_fix": "Restore the original verse-range ordering exactly as in the authoritative English: “– verses 21-20.” Keep the surrounding HTML and punctuation unchanged.",
+      "translation_quote": "– Verse 20–21."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

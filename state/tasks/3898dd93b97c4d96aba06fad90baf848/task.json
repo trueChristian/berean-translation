@@ -2,7 +2,6 @@
   "article_id": "1bdf0b87-af5f-4c9b-99a2-004277f7718d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,37 @@
         },
         "total_tokens": 9601
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 878,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9251,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10129
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html paragraph containing Acts 24:25 (first block quoting Paul’s reasoning)",
+      "severity": "critical",
+      "source_quote": "…reasoned of righteousness, temperance, and judgment to come, [until finally] Felix trembled, and answered, Go thy way for this time; when I have a convenient season, I will call for thee –Acts 24:25.",
+      "suggested_fix": "Replace the mistranslated clause with a faithful Modern Standard Arabic rendering that preserves sense, person, and verse attribution and keeps the existing HTML/emphasis tags. For example: <em>…جادل في البرّ والتهذيب والدينونة الآتية،</em> [حتى أخيراً] <em>ارتعد فيلكس فأجاب: اذهب الآن؛ إذا أتيحت لي فرصة مناسبة سأرسلك - أعمال 24:25.</em> (Maintain the same <em>…</em> tags and punctuation exactly where they occur in the source.)",
+      "translation_quote": "<em>…كان يُجادل في البر والصلاح والدينونة الآتية، </em>[حتى أخيرًا] <em>ارتعد فلكس، فأجاب: اذهب الآن؛ متى أترفّق لكُدَّةً، أرسلكم –أعمال 24:25.</em>"
+    }
+  ],
   "id": "3898dd93b97c4d96aba06fad90baf848",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ara",
@@ -100,11 +127,13 @@
     }
   },
   "protected": false,
+  "quality_score": 65,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/52f684b8d02f77793b6e7dc1b48ec48b97a6055434007d0dad3db046e47c8044.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "5fb27f23eb62db29608050722b6dfaf82ff0b381b3a8cf3c6ff5dca578b5db55",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

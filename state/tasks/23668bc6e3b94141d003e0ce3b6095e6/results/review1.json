@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "85ef8f17-b09d-4ac9-a45a-2ffc37d737b5",
+    "response_id": "chatcmpl-EUX2xl6gKzm1BSnuAeN0pifx0NbcT",
+    "usage": {
+      "completion_tokens": 1479,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8928,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10407
+    }
+  },
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.title / translation.title",
+        "severity": "minor",
+        "source_quote": "The Foolishness of Preaching",
+        "suggested_fix": "Translate the English title into contemporary German and preserve meaning and tone. For example: „Die Torheit der Predigt“ (or keep translator's preferred idiom). Replace the translation.title value with the German title, preserving capitalization style used on the site.",
+        "translation_quote": "The Foolishness of Preaching"
+      },
+      {
+        "location": "source.section / translation.section",
+        "severity": "minor",
+        "source_quote": "ISSUES AFFECTING THE CHURCH",
+        "suggested_fix": "Translate the section label into contemporary German. For example: \"THEMEN, DIE DIE KIRCHE BETREFFEN\" or a suitable site-consistent German section heading. Replace translation.section with the chosen German wording.",
+        "translation_quote": "ISSUES AFFECTING THE CHURCH"
+      },
+      {
+        "location": "source.html — Endnotes (Finney quotation) / translation.html — Endnotes (Finney quotation)",
+        "severity": "major",
+        "source_quote": "** What A Revival Of Religion Is – Charles Grandison Finney – The Belknap Press Of Harvard University A “Revival of Religion” presupposes a declension. Almost all the religion in the world has been produced by revivals. God has found it necessary to take advantage of the excitability there is in mankind, to produce powerful excitements among them, before he can lead them to obey. Men are so sluggish, there are so many things to lead their minds off from religion, and to oppose the influence of the gospel that it is necessary to raise an excitement among them, till the tide rises so high as to sweep away the opposing obstacles. They must be so excited that they will break over these counteracting influences, before they will obey God.",
+        "suggested_fix": "This entire quoted endnote paragraph is substantive quoted prose and must be translated into the target language. Provide a German translation that faithfully conveys the printed English sense, preserve the bibliographic metadata (title, author, publisher) but translate the quoted explanatory paragraph. For example (narrowly scoped example translation): „** What A Revival Of Religion Is – Charles Grandison Finney – The Belknap Press Of Harvard University: Ein ‚Wiederaufleben der Religion‘ setzt einen Niedergang voraus. Fast alle Religion in der Welt wurde durch Erweckungen hervorgerufen. Gott hat es für notwendig befunden, die Erregbarkeit der Menschheit zu nutzen, um mächtige Erregungen unter ihnen zu erzeugen, bevor er sie zum Gehorsam führen kann. Die Menschen sind so träge, und es gibt so viele Dinge, die ihren Geist von der Religion ablenken und dem Einfluss des Evangeliums entgegenstehen, dass es notwendig ist, eine Erregung unter ihnen zu wecken, bis die Flut so hoch ansteigt, dass sie die entgegenstehenden Hindernisse hinwegspült. Sie müssen so erregt werden, dass sie über diese entgegenwirkenden Einflüsse hinwegbrechen, bevor sie Gott gehorchen.\"\nReplace the English paragraph in translation.html with the German rendering; keep the bibliographic title and author as appropriate but the quoted explanatory text must be translated.",
+        "translation_quote": "** What A Revival Of Religion Is – Charles Grandison Finney – The Belknap Press Of Harvard University Ein “Revival of Religion” presupposes a declension. Almost all the religion in the world has been produced by revivals. God has found it necessary to take advantage of the excitability there is in mankind, to produce powerful excitements among them, before he can lead them to obey. Men are so sluggish, there are so many things to lead their minds off from religion, and to oppose the influence of the gospel that it is necessary to raise an excitement among them, till the tide rises so high as to sweep away the opposing obstacles. They must be so excited that they will break over these counteracting influences, before they will obey God."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

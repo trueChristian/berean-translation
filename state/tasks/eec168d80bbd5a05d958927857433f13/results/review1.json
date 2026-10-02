@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "8a263f25-630e-4ba8-ac9a-9681512da1ff",
+    "response_id": "chatcmpl-EUX32EyWvUuTtCWhHa8nvW9hxxnbJ",
+    "usage": {
+      "completion_tokens": 1016,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8558,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9574
+    }
+  },
+  "received_at": "2026-10-02T12:55:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing Mark 4:16-17 (around middle of article)",
+        "severity": "major",
+        "source_quote": "And these are they likewise which are sown on stony ground; who, when they have heard the word, immediately receive it with gladness; And have no root in themselves, and so endure but for a time: afterward, when affliction or persecution ariseth for the word’s sake, immediately they are offended –Mark 4:16-17.",
+        "suggested_fix": "Translate the verse without adding or altering descriptive words. Replace the phrase currently rendered as “boa terra pedregosa” with wording faithful to the English: for example, “E estes são os que foram semeados em terreno pedregoso; os quais, quando ouviram a palavra, logo a recebem com alegria; e não têm raiz em si mesmos, e duram apenas por algum tempo...” (preserve the remainder of the verse exactly as in the English source).",
+        "translation_quote": "<em>E estes são os que foram semeados em boa terra pedregosa; os quais, quando ouviram a palavra, logo a recebem com alegria; e não têm raiz em si mesmos, e duram apenas por algum tempo: depois, quando surge alguma tribulação ou perseguição por causa da palavra, logo se escandalizam –Marcos 4:16-17. </em>"
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

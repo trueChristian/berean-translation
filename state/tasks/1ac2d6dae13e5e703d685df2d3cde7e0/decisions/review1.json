@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Throughout article (scripture references shown as English “verse”/“verses”), examples: first paragraph with reference, paragraph with “–verse 6.”, paragraph with “–verse 12.”, etc.",
+      "severity": "major",
+      "source_quote": "...– verse 3. ... –verse 6. ... –verse 12. ... –verse 15. ... –verses 16-17. ... –verse 18. ... –verses 22-23. ... – verses 21-20.",
+      "suggested_fix": "Translate the English label “verse”/“verses” into standard contemporary Bengali while leaving the chapter/verse numbers and their placement exactly as in the source. For example: “–verse 3.” → “–পদ 3.”; “–verses 16-17.” → “–পদ 16-17.” Ensure every occurrence (singular and plural) is changed consistently (e.g., use “পদ” for both singular and plural). Do not change the numeric values or their hyphenation/placement.",
+      "translation_quote": "...–verse 3. ... –verse 6. ... –verse 12. ... –verse 15. ... –verses 16-17. ... –verse 18. ... –verses 22-23. ... – verses 21-20."
+    },
+    {
+      "location": "Paragraph beginning “<p><em>আর যিহোশাফাত মাথা নমাতেন ... –verse 18. </em>” and sentence later in same paragraph with English word inserted: “আর তা আমাকে ও worship করায় ...”",
+      "severity": "major",
+      "source_quote": "\"And Jehoshaphat bowed his head with his face to the ground: and all Judah and the inhabitants of Jerusalem fell before the LORD, worshipping the LORD –verse 18.\"",
+      "suggested_fix": "Replace the English word “worship” left inside the Bengali sentence with an appropriate Bengali translation that mirrors the source meaning. For example: change “ও worship করায়” to “ওকে আরাধনা করতে অনুপ্রাণিত করে” or more simply “এবং তা আমাকে আরাধনায় অনুপ্রাণিত করে” so the sentence is fully in Bengali and faithfully conveys the original. Also translate the trailing scripture label as in the first finding (e.g., “–পদ 18.”).",
+      "translation_quote": "\"আর তা আমাকে ও worship করায় কারণ এটি এমন এক অলৌকিক কাজ... –verse 18. \""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

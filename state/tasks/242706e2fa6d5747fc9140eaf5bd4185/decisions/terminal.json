@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<p>June 15, 2018... pager...</p> (paragraph beginning \"June 15, 2018, at 4:40 pm. the scream...\")",
+      "severity": "minor",
+      "source_quote": "\"...as it crackled to life.\"",
+      "suggested_fix": "Replace the literal- sounding phrasing with a more natural Portuguese equivalent that preserves the image. For example: \"quando o pager dos serviços de emergência estalou e ganhou vida\" or \"quando o pager dos serviços de emergência soou, ganhando vida.\" Keep the surrounding sentence structure and punctuation unchanged.",
+      "translation_quote": "\"quando chiaram para a vida.\""
+    },
+    {
+      "location": "<p>...NoDoz® with an energy drink before I went to bed...</p> (paragraph beginning \"Although my stress level continued to rise...\")",
+      "severity": "minor",
+      "source_quote": "\"I resorted to taking high doses of NoDoz® with an energy drink before I went to bed, trying to get my nerves to relax...\"",
+      "suggested_fix": "The translated sentence is accurate but slightly informal in register. Consider a small style smoothing to make it read more naturally in international Portuguese while preserving meaning and the trademark: e.g. \"comecei a tomar doses elevadas de NoDoz® com uma bebida energética antes de ir para a cama, tentando fazer com que meus nervos relaxassem o suficiente para eu dormir.\"",
+      "translation_quote": "\"comecei a tomar altas doses de NoDoz® com uma bebida energética antes de ir para a cama, tentando fazer com que meus nervos relaxassem o suficiente para eu dormir (não tentem isto em casa, é perigoso).\""
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

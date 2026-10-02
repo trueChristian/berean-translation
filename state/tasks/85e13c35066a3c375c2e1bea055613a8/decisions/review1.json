@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph starting \"Paul had been ingrained\" (third full paragraph) and subsequent paragraph where the name appears",
+      "severity": "major",
+      "source_quote": "Paul had been ingrained in Jewish learning at the feet of Gamaliel and was affluent in understanding both Hebrew and Greek, but in preaching the cross of Christ, he laid his learning aside.",
+      "suggested_fix": "Replace the Spanish form \"Pablo\" with the standard Italian proper name \"Paolo\" wherever it appears. Preserve surrounding HTML and punctuation. Example fix: change \"Pablo era stato istruito...\" to \"Paolo era stato istruito...\"",
+      "translation_quote": "Pablo era stato istruito nello studiosità giudaica ai piedi di Gamaliele ed era esperto sia in ebraico sia in greco, ma nel predicare la croce di Cristo mise da parte il suo sapere."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

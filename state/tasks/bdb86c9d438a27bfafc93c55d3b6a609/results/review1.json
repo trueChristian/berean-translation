@@ -1,0 +1,50 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "b7d049db-1289-4af3-9b06-b6e585575706",
+    "response_id": "chatcmpl-EUX2r09UPMbVb5JO1TfV1DWmm4BpQ",
+    "usage": {
+      "completion_tokens": 1287,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4669,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5956
+    }
+  },
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.title",
+        "severity": "major",
+        "source_quote": "O Love That Wilt Not Let Me Go",
+        "suggested_fix": "Translate the hymn title into Italian in the translation.title field and keep any punctuation/diacritics appropriate for Italian. Suggested translation: \"O amore che non mi lasciare\" (or the more idiomatic and commonly used Italian rendering: \"O amore che non volgi mai le spalle\" — translator may choose the convention used by the target publication). Do not leave the title in English.",
+        "translation_quote": "O Love, That Wilt Not Let Me Go"
+      },
+      {
+        "location": "source.html -> <figure> <img alt=...>",
+        "severity": "major",
+        "source_quote": "alt=\"Sheet music for O Love That Wilt Not Let Me Go\"",
+        "suggested_fix": "Translate the image alt text into Italian and include the hymn title translated the same way as the article title. Suggested alt: \"spartito per ‘O amore che non mi lasciare'\" (or match whatever Italian title chosen above). Preserve the img tag and attributes exactly, only replace the alt attribute value.",
+        "translation_quote": "alt=\"spartito per O Love That Wilt Not Let Me Go\""
+      },
+      {
+        "location": "source.html -> paragraph starting with “For fortunately, Dr. Matheson did relate an account...” (the quoted first-person passage)",
+        "severity": "minor",
+        "source_quote": "“A genuine inspiration, I had the impression rather of having it dictated to me by some inward voice than of working it out myself.\"",
+        "suggested_fix": "Fix the Italian rendering to make the comparative construction grammatical and match the source meaning. Suggested corrected translation: “Una genuina ispirazione: ebbi piuttosto l'impressione che mi fosse stato dettato da qualche voce interiore, piuttosto che di averlo elaborato io stesso.” Replace only the Italian sentence in the existing <em>…</em> block, preserving tags and punctuation.",
+        "translation_quote": "“Una genuina ispirazione, ebbi piuttosto l’impressione che mi fosse stato dettato da qualche voce interiore che di lavorarlo io stesso."
+      }
+    ],
+    "passed": false,
+    "score": 78
+  }
+}

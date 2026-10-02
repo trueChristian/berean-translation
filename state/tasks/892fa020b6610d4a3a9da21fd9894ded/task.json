@@ -2,7 +2,6 @@
   "article_id": "3dba2cb8-660e-4855-8e00-57bcc3bee74f",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,58 @@
         },
         "total_tokens": 9198
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1750,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 256,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8849,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10599
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html opening paragraph (first <p> with emphasized quote)",
+      "severity": "critical",
+      "source_quote": "<em>For Christ sent me not to baptize, but to preach the gospel: not with wisdom of words, lest the cross of Christ should be made of none effect. For the preaching of the cross is to them that perish foolishness; but unto us which are saved it is the power of God. …it pleased God by the foolishness of preaching to save them that believe –1 Corinthians –1:17-21. </em>",
+      "suggested_fix": "Translate the entire quoted Scripture into Swedish, preserving verse numbers and punctuation exactly as in the source (but rendering book names in conventional Swedish). For example: <em>Eftersom Kristus inte har sänt mig för att döpa utan för att predika evangeliet, icke i vishetens ord, för att Kristi kors icke må göras tomt på verkan. Ty korsets ord är ju dem som förgås en dårskap, men för oss som blir frälsta är det Guds kraft. …det behagade Gud genom predikandets dårskap att frälsa dem som trodde – 1 Korinthierbrevet 1:17–21.</em> (Replace with an idiomatic, faithful Swedish Bible rendering; keep the exact chapter:verse range.) Preserve the surrounding <em> tags and spacing exactly as in source HTML.",
+      "translation_quote": "<em>For Christ sent me not to baptize, but to preach the gospel: not with wisdom of words, lest the cross of Christ should be made of none effect. For the preaching of the cross is to them that perish foolishness; but unto us which are saved it is the power of God. …it pleased God by the foolishness of preaching to save them that believe –1 Corinthians –1:17-21. </em>"
+    },
+    {
+      "location": "Multiple inline Scripture citations in body (examples: “…lest the cross of Christ should be made of none effect –1 Corinthians 1:17.”; “For his letters... –2 Corinthians 10:10.”; Matthew 11:28; John 7:37; Acts 3:19; 2 Corinthians 5:20; Acts 20:21; Mark 4:16-17; 1 Corinthians 4:15-16; 1 Corinthians 11:1; 1 Thessalonians 5:13; Hebrews 6:18-19; John 3:8; Romans 10:17)",
+      "severity": "critical",
+      "source_quote": "Examples from source: <em>…lest the cross of Christ should be made of none effect –1 Corinthians 1:17.</em>; <em>For his letters, say they, are weighty and powerful; but his bodily presence is weak, and his speech contemptible –2 Corinthians 10:10. </em>; <em>Come unto me, …and I will give you rest –Matthew 11:28,</em>; <em>…If any man thirst, let him come unto me, and drink –John 7:37, </em>; etc.",
+      "suggested_fix": "All quoted Scripture strings must be rendered into standard contemporary Swedish and keep the original verse numbers and placement. Do not leave any quoted scripture in English. Use conventional Swedish book names (e.g., Matteus, Johannes, Apostlagärningarna, Romarbrevet, 1 Korinthierbrevet, Markusevangeliet, Hebreerbrevet, Första Thessalonikerbrevet, Andra Korintierbrevet). Example: replace <em>…If any man thirst, let him come unto me, and drink –John 7:37, </em> with <em>…Om någon törstar, han komme till mig och dricke – Johannesevangeliet 7:37.</em> Preserve <em> tags, verse references, and punctuation exactly as positioned in source HTML.",
+      "translation_quote": "Many scripture quotations remain in English, e.g. <em>…lest the cross of Christ should be made of none effect –1 Corinthians 1:17.</em>; <em>For his letters, say they, are weighty and powerful... –2 Corinthians 10:10.</em>; <em>Come unto me... –Matthew 11:28,</em>; <em>…If any man thirst... –John 7:37,</em> etc."
+    },
+    {
+      "location": "Endnotes and quoted non-scripture passages (Endnotes: Spurgeon quote, Finney excerpt, Watchman Nee reference)",
+      "severity": "major",
+      "source_quote": "Endnotes include: <em>“Charles Spurgeon, well known for his evangelistic abilities, firmly refused to adopt the practice of altar calls and he severely criticized it. He viewed the altar call as a method to force decisions as results, but he recognized its potential abuse and dangers.” Altar Calls – Bill Brenner</em> and <em>‘I should like to go into the enquiry-room.’ I dare say you would, but we are not willing to pander to popular superstition. We fear that in those rooms men are warmed into a fictitious confidence... - Pleading and Encouragement – Charles Haddon Spurgeon – Aug 17, 1841</em> and Finney excerpt.",
+      "suggested_fix": "Translate all quoted substantive endnote passages and attributed quotations into Swedish while preserving quoted structure, italics/emphasis, and the cited bibliographic metadata (titles, dates, and author names may remain in original when they are proper names but the quoted prose must be in Swedish). For example translate Spurgeon’s quoted admonition into Swedish: <em>’Jag skulle vilja gå in i frågerummet.’ Jag vågar säga att du skulle vilja det, men vi vill inte smickra folkets vidskepelse... – Pleading and Encouragement – Charles Haddon Spurgeon – 17 aug 1841</em>. Keep the original citation labels (book titles) but render the quoted sentences into Swedish. Preserve HTML <em> tags and endnote headings as in source.",
+      "translation_quote": "Endnotes currently retain long quoted English passages (Spurgeon, Finney, Watchman Nee) unchanged."
+    },
+    {
+      "location": "Sentence translating \"Good Friday\" reference (paragraph 2)",
+      "severity": "minor",
+      "source_quote": "Original: \"Even the rude donkey is appreciated on Good Friday and the old, rugged cross...\"",
+      "suggested_fix": "The translator rendered \"Good Friday\" as \"påsken\" (Easter). To be more precise and faithful, use the Swedish term for Good Friday: \"långfredagen\". Adjust the sentence to: \"Till och med den enkla åsnan uppskattas på långfredagen...\" unless the author intended the broader Easter period, in which case keep \"påsken\" but note the original specifies Good Friday.",
+      "translation_quote": "\"Till och med den enkla åsnan uppskattas vid påsken\" (translated as 'påsken')"
+    }
+  ],
   "id": "892fa020b6610d4a3a9da21fd9894ded",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "swe",
@@ -100,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 68,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/b4fa54187a6f53bb54a1fc744963a43657fb9cc366925b4147ee29ecc59e0ba6.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "892a457085e971e00bab46af7f91c51fbdea164ca51ce422e2038ddc5e401e17",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

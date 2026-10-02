@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning \"Morning dawned; it was the day God had told them to go out against these enemies...\" (source.html) / corresponding translation paragraph beginning \"Surgiu a manhã; era o dia que Deus lhes dissera...\" (translation.html)",
+      "severity": "major",
+      "source_quote": "…Believe in the LORD your God, so shall ye be established; believe his prophets, so shall ye prosper. And… he appointed singers unto the LORD, and that should praise the beauty of holiness, as they went out before the army… – verses 21-20.",
+      "suggested_fix": "Restore the verse-range exactly as printed in the authoritative English source. In the translated paragraph, change the citation back to mirror the source's printed range. Replace “– versículos 21-22.” with “– versículos 21-20.” (Preserve surrounding HTML and punctuation.)",
+      "translation_quote": "… Credes no SENHOR vosso Deus, e estareis seguros; credes nos seus profetas, e prosperareis. E… nomeou cantores ao SENHOR, que deveriam louvar a formosura da santidade, indo à frente do exército… – versículos 21-22."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

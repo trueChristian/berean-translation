@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "source.section / translation.section",
+      "severity": "minor",
+      "source_quote": "From the EDITOR",
+      "suggested_fix": "Use idiomatic Portuguese capitalization for the section heading. Replace \"Do EDITOR\" with \"Do Editor\" (preserving HTML structure and tags).",
+      "translation_quote": "Do EDITOR"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

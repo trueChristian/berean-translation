@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning \"Why should we take issue with the practice...\" (source.html)",
+      "severity": "major",
+      "source_quote": "Why should we take issue with the practice if the scripture doesn’t forbid it? The answer lies in the question of the propriety of the invitation system.",
+      "suggested_fix": "Corregir la traducción para que refleje \"propriety\" en el sentido de \"idoneidad/pertinencia\" o \"corrección moral/procedimental\", no \"propiedad\" (posesión). Ejemplo sugerido: \"¿Por qué habríamos de objetar la práctica si la Escritura no la prohíbe? La respuesta reside en la cuestión de la idoneidad (o pertinencia) del sistema de invitación.\" Mantener el resto del texto igual.",
+      "translation_quote": "¿Por qué habríamos de objetar la práctica si la Escritura no la prohíbe? La respuesta reside en la cuestión de la propiedad del sistema de invitación."
+    },
+    {
+      "location": "Article metadata: section field (source.section)",
+      "severity": "minor",
+      "source_quote": "ISSUES AFFECTING THE CHURCH",
+      "suggested_fix": "Traducir el campo de sección al español, usando lenguaje claro e internacionalmente comprensible. Ejemplo sugerido: \"CUESTIONES QUE AFECTAN A LA IGLESIA\" o \"PROBLEMAS QUE AFECTAN A LA IGLESIA\". No cambiar la estructura HTML del artículo, solo actualizar el valor de la propiedad section en el sistema de metadatos traducido.",
+      "translation_quote": "ISSUES AFFECTING THE CHURCH"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "dab33932-273e-4e70-b729-f0cefae3ec43",
+    "response_id": "chatcmpl-EUX3HOJmj4x5gqlDLvizaaoSlgipT",
+    "usage": {
+      "completion_tokens": 1531,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7724,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9255
+    }
+  },
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph containing 2 Timothy 4:7-8 (in source.html between the paragraphs that end with \"there is laid up for each of us a crown...\" and the section-break)",
+        "severity": "major",
+        "source_quote": "We should be the light of the world! We should have something to offer others! We should be able to get along with one another! Yes, we do go through hard times individually and collectively as a church, but if we fight the good fight of faith, if we finish our course, if we keep the faith, there is laid up for each of us a crown of righteousness, which the Lord, the righteous judge, shall give me at that day: and not to me only but unto all them also that love his appearing. I have fought a good fight, I have finished my course, I have kept the faith: Henceforth there is laid up for me a crown of righteousness, which the Lord, the righteous judge, shall give me at that day: and not to me only, but unto all them also that love his appearing –2 Timothy 4:7-8.",
+        "suggested_fix": "Render the entire quoted Scripture passage clearly and accurately in Modern Standard Arabic, preserving the quotation as a contiguous translated Bible quotation and keeping the reference \"– 2 تيموثاوس 4:7-8\" unchanged. Do not alter the chapter and verse numbers or split/repeat the verse. For example (suggestion only; translator may use an accepted Arabic phrasing): «لقد حاربت قتالاً صالحاً، أكملت المسيرة، حفظت الإيمان. الآن مُحتفظ لي بإكليل البرّ، الذي سيمنحني إياه الرب القاضي الصالح في ذلك اليوم؛ وليس لي فقط، بل أيضًا للجميع الذين يحبون مجيئه». Ensure the odd/malformed phrase currently present (\"فمعدَّة لنا بلاطه صلاح، التي سيعطيني إياها الرب القاضي الصالح...\") is removed and replaced by a correct, faithful Arabic rendering of the quoted verses.",
+        "translation_quote": "يجب أن نكون نور العالم! يجب أن يكون لدينا ما نقدمه للآخرين! يجب أن نكون قادرين على التعايش مع بعضنا البعض! نعم، نمر بأوقات صعبة فرديًا وجماعيًا ككنيسة، لكن إذا حاربنا قتال الإيمان الصالح، إذا أكملنا مضمارنا، إذا حافظنا على الإيمان، فمعدَّة لنا بلاطه صلاح، التي سيعطيني إياها الرب القاضي الصالح في ذلك اليوم: وليس لي فقط بل لجميع الذين يحبون مجيئه. قد حاربت قتالًا صالحًا، قد أكملت مضمارًا، قد حفظت الإيمان: للمستقبل محفوظة لي إكليل البر الذي سيعطيني الرب القاضي الصالح في ذلك اليوم: وليس لي فقط بل لجميع الذين يحبون مجيئه – 2 تيموثاوس 4:7-8."
+      },
+      {
+        "location": "Paragraph opening of emergency scene (source.html paragraph starting \"June 15, 2018, at 4:40 pm. the scream of the emergency services’ pager split the peaceful afternoon...\")",
+        "severity": "minor",
+        "source_quote": "June 15, 2018, at 4:40 pm. the scream of the emergency services’ pager split the peaceful afternoon as it crackled to life. “One-car rollover on ‘Gingko Avenue’, possible entrapment,” was the repeated dispatch.",
+        "suggested_fix": "The Arabic rendering is understandable but contains awkward phrasing and a slight loss of the original cadence. Suggest a smoother Modern Standard Arabic rendering that preserves the detail and urgency, e.g.: «15 حزيران (يونيو) 2018، الساعة 4:40 مساءً — انقطع سكون الظهر بصراخ جهاز نداء الطوارئ الذي اشتعل بالحياة. 'انقلاب سيارة واحدة في شارع Gingko Avenue، احتمال وجود احتباس،' تكرر هذا البيان في الإرسال.» Keep the proper name 'Gingko Avenue' as in source (it's acceptable to leave proper names unchanged).",
+        "translation_quote": "15 حزيران (يونيو) 2018، الساعة 4:40 مساءً. انقطع صمت بعد الظهر بصراخ جهاز استدعاء خدمات الطوارئ وهو يشتعل. «انقلاب سيارة واحدة في شارع ‘Gingko Avenue’، احتمال وجود احتباس»، كان هذا البيان المتكرر."
+      }
+    ],
+    "passed": false,
+    "score": 82
+  }
+}

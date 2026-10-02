@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f0667b55-bc7d-4f7d-95c1-567a6d5bb0e3",
+    "response_id": "chatcmpl-EUX3SYHEm2q1HsTV4nJxySTQAMloO",
+    "usage": {
+      "completion_tokens": 548,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3512,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4060
+    }
+  },
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.title",
+        "severity": "major",
+        "source_quote": "Mother Was Right",
+        "suggested_fix": "Translate the English title into standard Bahasa Indonesia and preserve it in the translation title field. For example: <title>Ibu Benar</title> (or another idiomatic rendering such as \"Ibu Itu Benar\"). Do not change any HTML structure—replace only the text node for the title.",
+        "translation_quote": "Mother Was Right"
+      },
+      {
+        "location": "source.section",
+        "severity": "major",
+        "source_quote": "Children’s Corner",
+        "suggested_fix": "Translate the section name into standard Bahasa Indonesia. For example: \"Sudut Anak-anak\" or \"Sudut Anak\". Replace only the section text; keep any HTML or attribute structure unchanged.",
+        "translation_quote": "Children’s Corner"
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

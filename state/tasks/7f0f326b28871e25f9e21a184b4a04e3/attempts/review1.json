@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>Let’s stop focusing on the fact that evil seems to be prevailing...—2 Timothy 3:13-17.</p>\",\"severity\":\"minor\",\"source_quote\":\"...causing the conservatives and liberals to become even more polarized into opposing parties.\",\"suggested_fix\":\"Translate \\\"polarized\\\" into Bengali rather than leaving an English word in the sentence. For example: \\\"রক্ষণশীলরা এবং লিবারালরা আরও বেশি করে প্রতিপক্ষের দলে বিভক্ত হয়েছে।\\\"\",\"translation_quote\":\"... যার ফলে রক্ষণশীলরা এবং লিবারালরা আরও বেশি ধ্রুব polarized হয়ে বিপরীত দলের মধ্যে ভাগ হয়েছে।\"},{\"location\":\"<p>Let us keep our focus fixed on the God of heaven. This is the God that Paul declared on Mars Hill—God that made the world... –Acts 17:24-25. </em></p>\",\"severity\":\"major\",\"source_quote\":\"This is the God that Paul declared on Mars Hill—God that made the world and all things therein... –Acts 17:24-25.\",\"suggested_fix\":\"Correct the place-name translation. \\\"Mars Hill\\\" should be rendered as the conventional Bengali form referring to Acts 17 (e.g. \\\"মার্স হিল\\\" or \\\"মার্সের পাহাড়ে\\\"). Replace the phrase with: \\\"এঁই সেই ঈশ্বর যাকে পল মার্স হিলে ঘোষণা করেছিলেন — ... –প্রেরিতদের কর্ম ১৭:২৪-২৫।\\\" Preserve the surrounding HTML and emphasis tags exactly.\",\"translation_quote\":\"এঁই সেই ঈশ্বর যাকে পল মায়রের হিলে ঘোষণা করেছিলেন—যিনি পৃথিবী ও তাতে থাকা সবকিছু সৃষ্টি করেছেন... –প্রেরিতদের কর্ম ১৭:২৪-২৫।\"},{\"location\":\"<p>Finally, we have The Foolishness of Preaching an evaluation regarding the basis of churches using “the altar call”—is it founded in the Scriptures...?!</p>\",\"severity\":\"major\",\"source_quote\":\"...the basis of churches using “the altar call”—is it founded in the Scriptures and the history of the church or is it a method that the church has borrowed from the world in more recent years?!\",\"suggested_fix\":\"Correct the translation of \\\"the altar call.\\\" The current Bengali \\\"জমে আউটকল\\\" is incorrect and obscures the meaning. Use a clear target-language rendering such as \\\"অল্টার কল\\\" or better, \\\"উপবেদনার জন্য মঞ্চে আহ্বান\\\" depending on style. For a literal, widely recognized form use: \\\" 'দলিলের আহ্বান' (altar call)\\\" or simply \\\"অল্টার কল\\\". Example replacement sentence: \\\"অবশেষে, আমরা 'অল্টার কল' ব্যবহার করে চার্চগুলোর ভিত্তি সম্পর্কে একটি মূল্যায়ন রেখেছি—এটি কি শাস্ত্র ও চার্চের ইতিহাসে ভিত্তিহীন, নাকি সাম্প্রতিক বছরগুলোতে বিশ্বের কাছ থেকে নেওয়া একটি পদ্ধতি?\\\" Preserve original HTML tags.\",\"translation_quote\":\"অবশেষে, আমরা জমে আউটকল ব্যবহার করে চার্চগুলোর ভিত্তি সম্পর্কে একটি মূল্যায়ন রেখেছি—এটি কি শাস্ত্রে এবং চার্চের ইতিহাসে ভিত্তি রয়েছে না এটা কি এমন একটি পদ্ধতি যা চার্চ সাম্প্রতিক বছরগুলোতে বিশ্বের কাছ থেকে ধার নিয়েছে?!\"}],\"passed\":false,\"score\":68}",
+    "content_bytes": 4136,
+    "content_evidence_truncated": false,
+    "content_sha256": "a22285642947093e79f246ce71acb03837d3cfa7024a67066307ec1d716a1d5e",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1504,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3790,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5294
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

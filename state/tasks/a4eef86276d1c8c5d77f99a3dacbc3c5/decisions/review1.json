@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "<article> paragraph containing 2 Timothy quotation (source.html third quoted Scripture paragraph)",
+      "severity": "critical",
+      "source_quote": "All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: That the man of God may be perfect, throughly furnished unto all good works –2 Timothy 3:13-17.",
+      "suggested_fix": "Replace the mixed-language phrase \"ساری Schrift (کتاب مقدس) خدا کی الہامی ہے، اور ...\" with a full Urdu rendering of the quoted English Scripture, preserving the verse range and meaning. For example (keeping HTML structure and tags intact):\n\nساری کتابِ مقدّس خدا سے الہام یافتہ ہے، اور وہ تعلیم، مواخذہ، اصلاح، اور راستبازی کی تربیت کے لیے فائدہ مند ہے؛ تاکہ خدا کا آدمی کامل ہو، ہر نیک کام کے لیے کامل طور پر تیار ہو جائے – 2 تیموتھیس 3:13-17۔\n\n(Ensure the entire quoted passage is translated into standard Urdu without leaving any original-language word such as \"Schrift\".)",
+      "translation_quote": "<em>لیکن بد لوگ اور بہکانے والے بد سے بدتر ہوں گے، وہ دھوکہ دیں گے اور دھوکہ کھائیں گے۔ لیکن تم ان باتوں میں قائم رہو جو تم نے سیکھیں اور یقین حاصل کیا، یہ جانتے ہوئے کہ تم نے کس سے سیکھا ہے؛ اور بچپن سے تم نے مقدس کتابیں جانی ہیں، جو ایمان کے ذریعے مسیح یسوع میں نجات کے لیے حکمت عطا کر سکتی ہیں۔ ساری Schrift (کتاب مقدس) خدا کی الہامی ہے، اور تعلیم، مواخذہ، اصلاح، اور راستبازی کی تربیت کے لیے فائدہ مند ہے؛ تاکہ خدا کا آدمی کامل ہو، ہر نیک کام کے لیے کامل طور پر تیار ہو جائے – 2 تیموتھیس 3:13-17۔</em>"
+    },
+    {
+      "location": "<article> closing signature paragraph",
+      "severity": "minor",
+      "source_quote": "Curvin L. Wenger",
+      "suggested_fix": "Correct the transliteration of the author's name to more closely reflect the English proper name. Either retain the original Latin-script name exactly as in source metadata or use a standard Urdu transliteration. Suggested fixes (choose one and keep HTML paragraph tags unchanged):\n\n- Use original English: Curvin L. Wenger\n- Or corrected Urdu transliteration: کرونن ایل۔ وینگر  (if the intended name is \"Curvin\")\n\nNote: preserve the exact printed author string from source.html if the publication normally displays Latin-script bylines.",
+      "translation_quote": "کرون ایل۔ وینگر"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

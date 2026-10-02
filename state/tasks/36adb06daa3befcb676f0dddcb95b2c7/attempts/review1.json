@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"source.title\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Mother Was Right\",\n      \"suggested_fix\": \"Translate the English title into standard Bahasa Indonesia and preserve it in the translation title field. For example: <title>Ibu Benar</title> (or another idiomatic rendering such as \\\"Ibu Itu Benar\\\"). Do not change any HTML structure—replace only the text node for the title.\",\n      \"translation_quote\": \"Mother Was Right\"\n    },\n    {\n      \"location\": \"source.section\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Children’s Corner\",\n      \"suggested_fix\": \"Translate the section name into standard Bahasa Indonesia. For example: \\\"Sudut Anak-anak\\\" or \\\"Sudut Anak\\\". Replace only the section text; keep any HTML or attribute structure unchanged.\",\n      \"translation_quote\": \"Children’s Corner\"\n    }\n  ],\n  \"passed\": false,\n  \"score\": 88\n}",
+    "content_bytes": 912,
+    "content_evidence_truncated": false,
+    "content_sha256": "ac5f4ad6518d704dcbbb2ad04098589aeeeabe285eaf0d8ce4ba6e2cef2328e1",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 548,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3512,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4060
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

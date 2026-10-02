@@ -2,7 +2,6 @@
   "article_id": "4ab4f655-4a17-4f5c-9623-e9085bd401f9",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,45 @@
         },
         "total_tokens": 3879
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 903,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3540,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4443
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html — first <img> alt attribute",
+      "severity": "minor",
+      "source_quote": "alt=\"A child whittling a stick with a small red-handled knife\"",
+      "suggested_fix": "Korrigiere die Alt-Beschreibung im Zieltext zu einer natürlichen, grammatisch korrekten deutschen Formulierung und erhalte die Bedeutung: z. B. alt=\"Ein Kind schnitzt einen Stock mit einem kleinen Messer mit rotem Griff\". Bewahre die HTML-Struktur unverändert.",
+      "translation_quote": "alt=\"Ein Kind schnitzt einen Stock mit einem kleinen, rotgriffs Messer\""
+    },
+    {
+      "location": "source.html — paragraph about aunt/uncle (\"counties\")",
+      "severity": "minor",
+      "source_quote": "She had spent a week with her aunt and uncle who lived several counties over from hers",
+      "suggested_fix": "Formuliere die Stelle im Zieltext natürlicher: z. B. „Sie hatte eine Woche bei ihrer Tante und ihrem Onkel verbracht, die einige Countys von ihrem eigenen entfernt wohnten.“ → besser: „Sie hatte eine Woche bei ihrer Tante und ihrem Onkel verbracht, die mehrere Countys von ihrer Heimat entfernt wohnten.“ (oder auf Deutsch: „die mehrere Grafschaften entfernt wohnten“). Ersetze nur den Wortlaut, erhalte HTML-Tags unverändert.",
+      "translation_quote": "Sie hatte eine Woche bei ihrer Tante und ihrem Onkel verbracht, die einige Countys von ihrem eigenen entfernt wohnten"
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:35+00:00",
   "id": "358c6ba29fc99e4ba77d40ed6d3de2ff",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "deu",
@@ -100,11 +135,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/d403f379edde7ed1b9230df32b8a4aa9dad598dcb4dff15ce8551751f262d6f8.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "bea4c0be47f056e7707aebabc8049992e7243ac83fcd337c2189cd783f263083",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

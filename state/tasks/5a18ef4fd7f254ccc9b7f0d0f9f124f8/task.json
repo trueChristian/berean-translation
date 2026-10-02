@@ -2,7 +2,6 @@
   "article_id": "fb65688b-5aaf-4194-a345-31f6f1355389",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:38+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 4002
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1671,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3599,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5270
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>…사도 바울이 마케도니아의 아레오바고(마르스 힐)에서 선포한 하나님입니다<em>—세상과 그 가운데 있는 만물을 지으신 하나님을 보고 또 그가 하늘과 땅의 주이심으로 손으로 지은 전당에 거하지 아니하시며 사람의 손으로 섬김을 받지도 아니하시나니 곧 그가 모든 사람에게 생명과 호흡과 만물을 주시나니 –사도행전 17:24-25.</em></p>",
+      "severity": "major",
+      "source_quote": "“Paul declared on Mars Hill—God that made the world and all things therein, seeing that he is Lord of heaven and earth, dwelleth not in temples made with hands; Neither is worshipped with men’s hands, as though he needed any thing, seeing he giveth to all life, and breath, and all things; –Acts 17:24-25.”",
+      "suggested_fix": "Remove the incorrect geographic qualifier and render the reference consistently with the source. Preserve the author’s original phrase “Mars Hill” (or a single conventional equivalent). For example, replace the Korean phrase up to the verse with: \"사도 바울이 마스 힐(Mars Hill)에서 선포한 하나님입니다<em>—세상과 그 가운데 있는 만물을 지으신 하나님을 보고 ... –사도행전 17:24-25.</em>\" (i.e., delete \"마케도니아의 아레오바고\" and use one correct name form).",
+      "translation_quote": "“사도 바울이 마케도니아의 아레오바고(마르스 힐)에서 선포한 하나님입니다<em>—... –사도행전 17:24-25.</em>”"
+    },
+    {
+      "location": "<p>...마지막으로 우리는 ‘전도에서의 어리석음’이라는 글을 실었는데, 교회들이 사용하는 \"제단 호소(alter call)\"의 근거—그것이 성경과 교회의 역사에 기초한 것인지 아니면 근래 교회가 세상으로부터 차용한 방법인지—에 관해 평가하고 있습니다!</p>",
+      "severity": "minor",
+      "source_quote": "“the altar call”—is it founded in the Scriptures and the history of the church or is it a method that the church has borrowed from the world in more recent years?!”",
+      "suggested_fix": "Correct the English parenthetical label or render it fully in Korean. If retaining the English, correct spelling to \"altar call\" and keep consistent spacing/quotation: e.g. \"... '제단 호소(altar call)'의 근거—...\" Or translate fully: \"... '제단 호소(altar call)'\" with \"altar\" spelled correctly.",
+      "translation_quote": "\"...교회들이 사용하는 \\\"제단 호소(alter call)\\\"의 근거—...\""
+    },
+    {
+      "location": "<p>우리의 눈을 예수께 고정합시다<em>…믿음의 주요 또 온전케 하시는 이인 예수를 바라보자 저가 보심으로 인하여 고난을 참아 십자가를 게이치 아니하고 도리어 그 치욕을 경히 여기고 하나님 보좌 우편에 앉으셨느니라 –히브리서 12:2.</em></p>",
+      "severity": "minor",
+      "source_quote": "“...the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God –Hebrews 12:2.”",
+      "suggested_fix": "Fix a probable typographical/mistranscription error in the quoted verse rendering. Replace the garbled fragment \"게이치 아니하고\" with a faithful Korean rendering of \"despising the shame,\" such as \"치욕을 참대하지 아니하고\" or better \"치욕을 경히 여기시고\" consistent with style of other quoted verses. Keep the verse wholly in Korean and preserve verse reference formatting.",
+      "translation_quote": "\"...저가 보심으로 인하여 고난을 참아 십자가를 게이치 아니하고 도리어 그 치욕을 경히 여기고 하나님 보좌 우편에 앉으셨느니라 –히브리서 12:2.\""
+    }
+  ],
   "id": "5a18ef4fd7f254ccc9b7f0d0f9f124f8",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "kor",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 80,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0d188eedb4a6b0936348346a7bbb1d6ba410af25119039e27c08f30a398b9e61.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "2b4f275d7b7ba8096cb0ab03fead7b5dd10aa236b7e3bc6ad2626bd76b72e500",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1087,6 +1087,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/fb65688b-5aaf-4194-a345-31f6f1355389.html",
+      "html_sha256": "6a7ed65d4676a046d7aa71613373bf5b87829e1dc56be19e3c7bcc650fc5f6f5",
+      "human_reviewed": false,
+      "id": "fb65688b-5aaf-4194-a345-31f6f1355389",
+      "images": [],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/fb65688b-5aaf-4194-a345-31f6f1355389.json",
+      "metadata_sha256": "0a2c09df87d7b5351e558f99a6297f6841e86ef25de6802be2d1d9b184acc196",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Van die REDAKTEUR",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "2b4f275d7b7ba8096cb0ab03fead7b5dd10aa236b7e3bc6ad2626bd76b72e500",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Van die Redakteur",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf.html",
       "html_sha256": "7432b779e9b646478b1aa54d7e9e1c778ebb6b9349c72e186e4a4e83f086bef2",
       "human_reviewed": false,
@@ -1233,6 +1256,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "تأمل في الكنيسة المينونايتية الأمريكية المبكرة",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9.html",
+      "html_sha256": "0ad656f64d2fa16bc0c06eeb04fa9e693dc74960114dd2bb052afb913d1c35ba",
+      "human_reviewed": false,
+      "id": "4ab4f655-4a17-4f5c-9623-e9085bd401f9",
+      "images": [
+        {
+          "alt": "طفل ينحت عصا بسكين صغير بمقبض أحمر",
+          "public_path": "/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-1.png"
+        },
+        {
+          "alt": "أرجوحة حبل متدلية من شجرة كبيرة",
+          "public_path": "/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-2.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9.json",
+      "metadata_sha256": "5590ab754b7e6bddb306a0dbe9fdc8eecdbda69512be2b6f0aec8c004b4cd46e",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ركن الأطفال",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "bea4c0be47f056e7707aebabc8049992e7243ac83fcd337c2189cd783f263083",
+      "status": "ready",
+      "subtitle": null,
+      "title": "كانت أمي على حق",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -1821,6 +1876,29 @@
       "status": "ready",
       "subtitle": null,
       "title": "نشيد الشتاء",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/fb65688b-5aaf-4194-a345-31f6f1355389.html",
+      "html_sha256": "5109047b6413eac59f838f344866da6151b2459630987abe71239c0c577a60e4",
+      "human_reviewed": false,
+      "id": "fb65688b-5aaf-4194-a345-31f6f1355389",
+      "images": [],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/fb65688b-5aaf-4194-a345-31f6f1355389.json",
+      "metadata_sha256": "6babb11eaba9f2dbe63dda16cbae43b2d9d48fee86dedebc90300bfd6386c5b4",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "من هيئة التحرير",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "2b4f275d7b7ba8096cb0ab03fead7b5dd10aa236b7e3bc6ad2626bd76b72e500",
+      "status": "ready",
+      "subtitle": null,
+      "title": "من هيئة التحرير",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -2882,6 +2960,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9.html",
+      "html_sha256": "044729155a45b48cbe93bf8d9f15118c1b091f508c3c7256ffd050ff09bda3f2",
+      "human_reviewed": false,
+      "id": "4ab4f655-4a17-4f5c-9623-e9085bd401f9",
+      "images": [
+        {
+          "alt": "一个孩子用一把小红柄刀削木棍",
+          "public_path": "/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-1.png"
+        },
+        {
+          "alt": "一根挂在大树上的绳索秋千",
+          "public_path": "/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-2.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9.json",
+      "metadata_sha256": "5bbcf3645c417a8a570f16dfc9b1ea11a1b9a6e27bdd72516c842c67e203dc49",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "儿童角",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "bea4c0be47f056e7707aebabc8049992e7243ac83fcd337c2189cd783f263083",
+      "status": "ready",
+      "subtitle": null,
+      "title": "妈妈是对的",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/50068373-cc3d-4587-a605-3f37fc05b3ad.html",
       "html_sha256": "21c1ecaaf305f7a38e59c9cb1ee98975f88f85f24ff585b1f67761230e171b4b",
       "human_reviewed": false,
@@ -3706,6 +3816,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/1caf6642-2283-4363-b3b6-33e40c39f945.html",
+      "html_sha256": "a27a3b33bd001b5ab704d8f428285fff4987f8ac76570bb67e8395f63e0bae27",
+      "human_reviewed": false,
+      "id": "1caf6642-2283-4363-b3b6-33e40c39f945",
+      "images": [
+        {
+          "alt": "Notenblatt zu O Love That Wilt Not Let Me Go",
+          "public_path": "/images/articles/1caf6642-2283-4363-b3b6-33e40c39f945-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/1caf6642-2283-4363-b3b6-33e40c39f945.json",
+      "metadata_sha256": "05a83afa1939654d8977cfa172a0d695c89db038988e186812263ab91c252795",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "A HYMN HISTORY",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea",
+      "status": "ready",
+      "subtitle": null,
+      "title": "O Love That Wilt Not Let Me Go",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.html",
       "html_sha256": "d33b3bd955a5e93652f8125467ac6403c2557b84d32d21d58a7c4cc129d582bb",
       "human_reviewed": false,
@@ -3908,6 +4046,38 @@
       "status": "ready",
       "subtitle": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2",
       "title": "Gott, die Vollkommenheit der Schönheit",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9.html",
+      "html_sha256": "3372979135be764070bf7dc62d121d84b2fa59f7193125e2d889be2758f0469d",
+      "human_reviewed": false,
+      "id": "4ab4f655-4a17-4f5c-9623-e9085bd401f9",
+      "images": [
+        {
+          "alt": "Ein Kind schnitzt einen Stock mit einem kleinen, rotgriffs Messer",
+          "public_path": "/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-1.png"
+        },
+        {
+          "alt": "Eine Seilschaukel hängt an einem großen Baum",
+          "public_path": "/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-2.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9.json",
+      "metadata_sha256": "f9b700a7926263cdf431e842b86a3cb2591036dd45ebc3b71dd1fb8d65097379",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Kinder-Ecke",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "bea4c0be47f056e7707aebabc8049992e7243ac83fcd337c2189cd783f263083",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Die Mutter hatte Recht",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -5349,6 +5519,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.html",
+      "html_sha256": "a0185ef38bb0423f24c482758bf37f05c513e006046f7915b41e7d70b4b78bd2",
+      "human_reviewed": false,
+      "id": "b40d86c2-0814-40ea-a893-20dd7fcbdadb",
+      "images": [
+        {
+          "alt": "Σιλουέτες βουνών και πουλιά στο λυκαυγές κάτω από Εφεσίους 6:11-12",
+          "public_path": "/images/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.json",
+      "metadata_sha256": "20dc74c724172a6901078d4328a1f6751e182a409fe66ae0f0e738bd9dd17159",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ΙΣΤΟΡΙΑ ΤΗΣ ΕΚΚΛΗΣΙΑΣ",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c767adc49633e338375567a05addcb2f986e5c013a016c2592a1cd600a81bb50",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ήρωες",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/c7009feb-1e58-4c54-a5e9-ae0bf90ed9cf.html",
       "html_sha256": "9d0e93029bd3d8796770d5532d8aa4fbd7062e5dab7163004e7a7bdc002da592",
       "human_reviewed": false,
@@ -5664,6 +5862,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/1bdf0b87-af5f-4c9b-99a2-004277f7718d.html",
+      "html_sha256": "a050c16c7e7ac448517a4db722505d0f70cc8413cb9d37bc4688adb0339d7839",
+      "human_reviewed": false,
+      "id": "1bdf0b87-af5f-4c9b-99a2-004277f7718d",
+      "images": [
+        {
+          "alt": "Verrerie de laboratoire, feuilles vertes, capsules et un pot de crème",
+          "public_path": "/images/articles/1bdf0b87-af5f-4c9b-99a2-004277f7718d-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/1bdf0b87-af5f-4c9b-99a2-004277f7718d.json",
+      "metadata_sha256": "1c7c24dbecb221ef76daa723d351ffaccc31e2d177acda53b0bd8cacf7e60130",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "UN MOT D'UN MÉDECIN",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5fb27f23eb62db29608050722b6dfaf82ff0b381b3a8cf3c6ff5dca578b5db55",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La vision chrétienne de la science",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
       "html_sha256": "c68506fdd8d6dddd603c5691263b1da4dfeb29290bfcd308bf6dafd86d3dd310",
       "human_reviewed": false,
@@ -5839,6 +6065,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/3dba2cb8-660e-4855-8e00-57bcc3bee74f.html",
+      "html_sha256": "a546589164482d1b38abed830e916f433210fb8a40e606301cda13c57b8f529c",
+      "human_reviewed": false,
+      "id": "3dba2cb8-660e-4855-8e00-57bcc3bee74f",
+      "images": [],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/3dba2cb8-660e-4855-8e00-57bcc3bee74f.json",
+      "metadata_sha256": "d35c1b166dd66315b7e167509c32f3125d4211c89c66fdbc373701c03608c68c",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "QUESTIONS AFFECTANT L'ÉGLISE",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "892a457085e971e00bab46af7f91c51fbdea164ca51ce422e2038ddc5e401e17",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La folie de la prédication",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/45c612ff-1966-4079-9ba5-09ab022917ea.html",
       "html_sha256": "84fc8adda85bd6b3cc2bf27cf498044ea7221347e0425045db90add7d7e3e425",
       "human_reviewed": false,
@@ -5917,6 +6166,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "Que rien ne les scandalise",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9.html",
+      "html_sha256": "1f1dc19ad98603d0c9b57e2f0f8914bf2dd8c80c1cd4843b16d545af71269085",
+      "human_reviewed": false,
+      "id": "4ab4f655-4a17-4f5c-9623-e9085bd401f9",
+      "images": [
+        {
+          "alt": "Un enfant taille un bâton avec un petit couteau à manche rouge",
+          "public_path": "/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-1.png"
+        },
+        {
+          "alt": "Une balançoire en corde pendue à un grand arbre",
+          "public_path": "/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-2.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9.json",
+      "metadata_sha256": "ec8ba7807120ede8c451f5f9c1d849373ca1cb884f920eda522c3878335632c8",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Coin des enfants",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "bea4c0be47f056e7707aebabc8049992e7243ac83fcd337c2189cd783f263083",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Maman avait raison",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -9862,6 +10143,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/269bd2b1-418e-4d93-bd15-e7937c1adb85.html",
+      "html_sha256": "6a74e3b70895133126a9d4d010acda1b084c2dc2942d86a3b49d5765464aa637",
+      "human_reviewed": false,
+      "id": "269bd2b1-418e-4d93-bd15-e7937c1adb85",
+      "images": [
+        {
+          "alt": "Una vecchia porta di legno che si apre su una luce intensa",
+          "public_path": "/images/articles/269bd2b1-418e-4d93-bd15-e7937c1adb85-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/269bd2b1-418e-4d93-bd15-e7937c1adb85.json",
+      "metadata_sha256": "221b52b31e31bd2035e85830ee5183a7ff4a25f1c5bdcb06239a889d8305d89d",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "VITA CRISTIANA VINCENTE",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "fc44b039aea712201d6120cdd0a9cc720777f5be0958b210ab2feef1a8e2d639",
+      "status": "ready",
+      "subtitle": "La serie sul discepolato",
+      "title": "Discepolato—Il cammino della guarigione",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
       "html_sha256": "3173023422f9c0f80fea6b85841da0c5283d0c40f821be120f3fbfa9f2b7a959",
       "human_reviewed": false,
@@ -10032,6 +10341,38 @@
       "status": "ready",
       "subtitle": "Da contadino zurighese a martire anabattista",
       "title": "Hans Landis",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9.html",
+      "html_sha256": "1db43c948734892c3e3b89dd8004e53eefdcf3afc4299454f45df269240b9690",
+      "human_reviewed": false,
+      "id": "4ab4f655-4a17-4f5c-9623-e9085bd401f9",
+      "images": [
+        {
+          "alt": "Una bambina che intaglia un bastoncino con un piccolo coltello manico rosso",
+          "public_path": "/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-1.png"
+        },
+        {
+          "alt": "Un'altalena di corda appesa a un grande albero",
+          "public_path": "/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-2.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9.json",
+      "metadata_sha256": "89d861956acf916562b56f45dab9f457b8e01df1176d58ace67ee97cc3c517bd",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Angolo dei bambini",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "bea4c0be47f056e7707aebabc8049992e7243ac83fcd337c2189cd783f263083",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La mamma aveva ragione",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -10630,6 +10971,34 @@
       "status": "ready",
       "subtitle": "LA SERIE SUL DISCEPOLATO",
       "title": "Donne di fede",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.html",
+      "html_sha256": "34d144647559fab869cfd10620cdfd412c6c5f221bec3dc3c824fdb55ece0f1e",
+      "human_reviewed": false,
+      "id": "b40d86c2-0814-40ea-a893-20dd7fcbdadb",
+      "images": [
+        {
+          "alt": "Sagome di montagne e uccelli al crepuscolo sotto Efesini 6:11-12",
+          "public_path": "/images/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.json",
+      "metadata_sha256": "cc10f2a4625453156f5dad1b567863969c75f1e3399812ee279d58062ca6061f",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "STORIA DELLA CHIESA",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c767adc49633e338375567a05addcb2f986e5c013a016c2592a1cd600a81bb50",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Eroi",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -11305,6 +11674,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/2e021f55-6588-4d9d-bd0a-068af80732ff.html",
+      "html_sha256": "88330b2b0dca8dbf969e15907ddafb24ebea5914ae293ae534d5272e8c8d8e70",
+      "human_reviewed": false,
+      "id": "2e021f55-6588-4d9d-bd0a-068af80732ff",
+      "images": [
+        {
+          "alt": "밤의 눈 덮인 길에 빛나는 랜턴",
+          "public_path": "/images/articles/2e021f55-6588-4d9d-bd0a-068af80732ff-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/2e021f55-6588-4d9d-bd0a-068af80732ff.json",
+      "metadata_sha256": "b1b1bb22e1ca0d5a76cf7fe63c0fd70caae2f2d040d379a818d9f37304565b73",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "언니에게서 언니에게",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c849e4ea3ad84b761d78091fcac24b6703c3038258305b91a3abd924f8250de9",
+      "status": "ready",
+      "subtitle": null,
+      "title": "역대하 20장에서 배우는 교훈",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
       "html_sha256": "98a2ef3e4a3fda6e2c5cf38f327436ffca78c70f784ac81308936e0c419b544d",
       "human_reviewed": false,
@@ -11424,6 +11821,38 @@
       "status": "ready",
       "subtitle": "Out of Zion, the perfection of beauty, God hath shined. Psalms 50:2",
       "title": "God, The Perfection of Beauty",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9.html",
+      "html_sha256": "edc3cb6979ec883a9120a27e53ce2e07682c7cd1e39afba3385d300f124b0bac",
+      "human_reviewed": false,
+      "id": "4ab4f655-4a17-4f5c-9623-e9085bd401f9",
+      "images": [
+        {
+          "alt": "작은 빨간 손잡이 칼로 나뭇가지를 깎고 있는 아이",
+          "public_path": "/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-1.png"
+        },
+        {
+          "alt": "큰 나무에 매달린 밧줄 그네",
+          "public_path": "/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-2.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9.json",
+      "metadata_sha256": "0564fdace110fdee2b06df47a6a0e33cac4f9ac9be9317ac4e2c6b02032be574",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "어린이 코너",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "bea4c0be47f056e7707aebabc8049992e7243ac83fcd337c2189cd783f263083",
+      "status": "ready",
+      "subtitle": null,
+      "title": "어머니의 말씀이 옳았다",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -13632,6 +14061,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/fb65688b-5aaf-4194-a345-31f6f1355389.html",
+      "html_sha256": "9e86797942e6145882b45bc2971c842bd303322df1aa6961250f452ca30c6e06",
+      "human_reviewed": false,
+      "id": "fb65688b-5aaf-4194-a345-31f6f1355389",
+      "images": [],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/fb65688b-5aaf-4194-a345-31f6f1355389.json",
+      "metadata_sha256": "be262f597113ebc3b30b34bdfb017121ec4b90e57d63394792c495c0230f2b2b",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Van de REDACTEUR",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "2b4f275d7b7ba8096cb0ab03fead7b5dd10aa236b7e3bc6ad2626bd76b72e500",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Van de redacteur",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/fbb7faf4-04de-4858-b608-09cb6aedaacf.html",
       "html_sha256": "2e33706b328543f348e8bee0336f20b0bdc20781a9f8a031d4d8bff3edf9f0b0",
       "human_reviewed": false,
@@ -13967,6 +14419,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/2e021f55-6588-4d9d-bd0a-068af80732ff.html",
+      "html_sha256": "78a7cc6b549657e77d9af9d128deb633c45498397dcfc6409d36d25cb90b4077",
+      "human_reviewed": false,
+      "id": "2e021f55-6588-4d9d-bd0a-068af80732ff",
+      "images": [
+        {
+          "alt": "En lysende lanterne på en snølagt sti om natten",
+          "public_path": "/images/articles/2e021f55-6588-4d9d-bd0a-068af80732ff-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/2e021f55-6588-4d9d-bd0a-068af80732ff.json",
+      "metadata_sha256": "3751327a12ce5dc6b713f5138dedfb035cb4476cb5fe672855b2c36b7017125a",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Søster til søster",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c849e4ea3ad84b761d78091fcac24b6703c3038258305b91a3abd924f8250de9",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Leksjoner fra 2. Krønikebok, kapittel 20",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
       "html_sha256": "c6339c043ed3187688423c6ab1748fab3b2d4432ae971673b215176ab7896fee",
       "human_reviewed": false,
@@ -14049,6 +14529,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "Jeg vil gjemme Guds Ord i mitt (barns) hjerte",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9.html",
+      "html_sha256": "4147b36ac5f1513a232e5dc4db4285c4a134c5033e62d323d42ec986e25a1a5e",
+      "human_reviewed": false,
+      "id": "4ab4f655-4a17-4f5c-9623-e9085bd401f9",
+      "images": [
+        {
+          "alt": "Et barn som høvler en pinne med en liten kniv med rødt skaft",
+          "public_path": "/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-1.png"
+        },
+        {
+          "alt": "En tauhuske som henger fra et stort tre",
+          "public_path": "/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-2.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9.json",
+      "metadata_sha256": "0a2328c18e982c76b5c0e635ebad59789fac454cc2be56eee93cfd3eea2746d3",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Barnas hjørne",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "bea4c0be47f056e7707aebabc8049992e7243ac83fcd337c2189cd783f263083",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Mor hadde rett",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -14981,6 +15493,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/1bdf0b87-af5f-4c9b-99a2-004277f7718d.html",
+      "html_sha256": "d68a25f6a4bd187d01670a8e8b727e97614cda070b76463661a1c89a28c7b8e5",
+      "human_reviewed": false,
+      "id": "1bdf0b87-af5f-4c9b-99a2-004277f7718d",
+      "images": [
+        {
+          "alt": "Vidrarias de laboratório, folhas verdes, cápsulas e um frasco de creme",
+          "public_path": "/images/articles/1bdf0b87-af5f-4c9b-99a2-004277f7718d-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/1bdf0b87-af5f-4c9b-99a2-004277f7718d.json",
+      "metadata_sha256": "24466bf09c75b347f32d9f280ddbf740b5456e9a129b633c58fd90a6deb34015",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "UMA PALAVRA DE UM MÉDICO",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5fb27f23eb62db29608050722b6dfaf82ff0b381b3a8cf3c6ff5dca578b5db55",
+      "status": "ready",
+      "subtitle": null,
+      "title": "A visão cristã da ciência",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
       "html_sha256": "3ed4b7a778bec697532c6354890a7f3227ff088fccb089c1d52899433803a5ff",
       "human_reviewed": false,
@@ -15206,6 +15746,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Deus responde à oração?",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/3f679973-e351-4fe3-8930-e08d9fba23a5.html",
+      "html_sha256": "653b68c46bbe23360166b1ff8f32132f3511eb9ea58ee4a96c000e380be8a209",
+      "human_reviewed": false,
+      "id": "3f679973-e351-4fe3-8930-e08d9fba23a5",
+      "images": [
+        {
+          "alt": "Um caminhante ajudando outro a subir ao pôr do sol",
+          "public_path": "/images/articles/3f679973-e351-4fe3-8930-e08d9fba23a5-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/3f679973-e351-4fe3-8930-e08d9fba23a5.json",
+      "metadata_sha256": "023e0f829b3715985fe73c5b0561e468d19faf89b8d2d2417e584318f917cca8",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "INSPIRAÇÕES PARA A JUVENTUDE",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d910d483e90bcd959841ed8e96903546f249749ffefaa1d05b277a01a16ea99d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Deus Não Me Deixou Ir",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -16352,6 +16920,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/fb65688b-5aaf-4194-a345-31f6f1355389.html",
+      "html_sha256": "e40f9766ae4daae1ab46bfb6e15a50d1e350ea0938b8a8e894b08a4b8c2cb1a9",
+      "human_reviewed": false,
+      "id": "fb65688b-5aaf-4194-a345-31f6f1355389",
+      "images": [],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/fb65688b-5aaf-4194-a345-31f6f1355389.json",
+      "metadata_sha256": "045569ad365ed1295de529f10660f8e1ba9ed929ae5b5746ed3bbfc1171e9073",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Do EDITOR",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "2b4f275d7b7ba8096cb0ab03fead7b5dd10aa236b7e3bc6ad2626bd76b72e500",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Do Editor",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/fbfb182b-bb05-434f-a664-b74c68153e61.html",
       "html_sha256": "f23dd19ca88a966de2a8690734aad3f0d71e1414a067a67feb157f9abd8e7d17",
       "human_reviewed": false,
@@ -16646,6 +17237,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "Отвечает ли Бог на молитву?",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9.html",
+      "html_sha256": "bc67ac3207228179674686ad37fce1ed7e250f8ffd38a2dd8829d1f94cfd4540",
+      "human_reviewed": false,
+      "id": "4ab4f655-4a17-4f5c-9623-e9085bd401f9",
+      "images": [
+        {
+          "alt": "Ребёнок вырезает палочку маленьким ножом с красной ручкой",
+          "public_path": "/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-1.png"
+        },
+        {
+          "alt": "Верёвочная качеля, свисающая с большого дерева",
+          "public_path": "/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-2.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9.json",
+      "metadata_sha256": "a3150516a70cf05a2789ecb0dbc508134d93d78375ddd6cba47d23f434c8d6dd",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Детский уголок",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "bea4c0be47f056e7707aebabc8049992e7243ac83fcd337c2189cd783f263083",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Мать оказалась права",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -17113,6 +17736,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Радость в щелях",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.html",
+      "html_sha256": "e7d278bd421e99c749751b23126315140967cae3e78085725e57c7fec2281ea1",
+      "human_reviewed": false,
+      "id": "b40d86c2-0814-40ea-a893-20dd7fcbdadb",
+      "images": [
+        {
+          "alt": "Силуэты гор и птицы в сумерках под посланием к Ефесянам 6:11-12",
+          "public_path": "/images/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.json",
+      "metadata_sha256": "3d94f2b6d41968ecca3b76a2e6131049fb163032c72ac1e5f4261414bc5205d9",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "ИСТОРИЯ ЦЕРКВИ",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c767adc49633e338375567a05addcb2f986e5c013a016c2592a1cd600a81bb50",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Герои",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -17682,6 +18333,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/2e021f55-6588-4d9d-bd0a-068af80732ff.html",
+      "html_sha256": "8360018c0bbe1ede3140d1ce11e34a8ad5dc6c728d5aeb37425fc94d0b97c08f",
+      "human_reviewed": false,
+      "id": "2e021f55-6588-4d9d-bd0a-068af80732ff",
+      "images": [
+        {
+          "alt": "Un farol encendido en un sendero nevado por la noche",
+          "public_path": "/images/articles/2e021f55-6588-4d9d-bd0a-068af80732ff-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/2e021f55-6588-4d9d-bd0a-068af80732ff.json",
+      "metadata_sha256": "1afc310dd413aa4a38ad501f7aca91c81edf8cc908927c22b8f45ae913106878",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "HERMANA A HERMANA",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c849e4ea3ad84b761d78091fcac24b6703c3038258305b91a3abd924f8250de9",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Lecciones de Segunda Crónicas Veinte",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
       "html_sha256": "e5b53c78a15afea75bced86aae0c13179f7b806139eb458ec9e5c585b26bface",
       "human_reviewed": false,
@@ -17764,6 +18443,38 @@
       "status": "ready",
       "subtitle": null,
       "title": "¿Responde Dios la oración?",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9.html",
+      "html_sha256": "e7e578dd64951d88df7c24d385b6b17032227e8a37d69c480cc8002cef492616",
+      "human_reviewed": false,
+      "id": "4ab4f655-4a17-4f5c-9623-e9085bd401f9",
+      "images": [
+        {
+          "alt": "Una niña tallando un palo con un pequeño cuchillo de mango rojo",
+          "public_path": "/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-1.png"
+        },
+        {
+          "alt": "Un columpio de cuerda colgando de un gran árbol",
+          "public_path": "/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-2.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9.json",
+      "metadata_sha256": "9ba6a7203613d76bec8ffea8b5a2e07c72b836b4cfa93a8f2f2af664b983f638",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Rincón Infantil",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "bea4c0be47f056e7707aebabc8049992e7243ac83fcd337c2189cd783f263083",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Mamá Tenía Razón",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -18513,6 +19224,34 @@
       "status": "ready",
       "subtitle": "LA SERIE DE DISCIPULADO",
       "title": "Mujeres de fe",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.html",
+      "html_sha256": "8cb0a397fcfb15de85d6f00ceefe981bc35c565db849c63347fe3143290ab4b0",
+      "human_reviewed": false,
+      "id": "b40d86c2-0814-40ea-a893-20dd7fcbdadb",
+      "images": [
+        {
+          "alt": "Siluetas de montañas y aves al atardecer bajo Efesios 6:11-12",
+          "public_path": "/images/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.json",
+      "metadata_sha256": "348e6c55bb0f9fc97854d8e8acf9bee835efc4e466ae1d4e18c9df46a740a11d",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "HISTORIA DE LA IGLESIA",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c767adc49633e338375567a05addcb2f986e5c013a016c2592a1cd600a81bb50",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Héroes",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
@@ -19733,6 +20472,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/3f679973-e351-4fe3-8930-e08d9fba23a5.html",
+      "html_sha256": "2a0c6beb0172f50f191326ed162cf3c1cc753cfdb5d1a283a1d156fc5906a39e",
+      "human_reviewed": false,
+      "id": "3f679973-e351-4fe3-8930-e08d9fba23a5",
+      "images": [
+        {
+          "alt": "En vandrare hjälper en annan att klättra i solnedgången",
+          "public_path": "/images/articles/3f679973-e351-4fe3-8930-e08d9fba23a5-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/3f679973-e351-4fe3-8930-e08d9fba23a5.json",
+      "metadata_sha256": "ba949bb14997febaba976f13c2c4f6809aa1f7ec99b4d6f00db2a05bb51d5c77",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "INSPIRATIONS FOR YOUTH",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d910d483e90bcd959841ed8e96903546f249749ffefaa1d05b277a01a16ea99d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Gud lät mig inte gå",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/45c612ff-1966-4079-9ba5-09ab022917ea.html",
       "html_sha256": "5a84d764d558e8a715b7c17113254b3909b786d706e502be04ec9298bfc6b50c",
       "human_reviewed": false,
@@ -20643,6 +21410,29 @@
       "status": "ready",
       "subtitle": null,
       "title": "Varnande råd från en mor i fängelset",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/fb65688b-5aaf-4194-a345-31f6f1355389.html",
+      "html_sha256": "1193231a65b61896ddd1ad2d901c50a587884f44b275da42484c1baa7707c993",
+      "human_reviewed": false,
+      "id": "fb65688b-5aaf-4194-a345-31f6f1355389",
+      "images": [],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/fb65688b-5aaf-4194-a345-31f6f1355389.json",
+      "metadata_sha256": "7929aae4d60dfece24e4dc12350eb9dd0ac07571ec9f7fca94be7e1e439aba16",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "Från redaktören",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "2b4f275d7b7ba8096cb0ab03fead7b5dd10aa236b7e3bc6ad2626bd76b72e500",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Från redaktören",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {

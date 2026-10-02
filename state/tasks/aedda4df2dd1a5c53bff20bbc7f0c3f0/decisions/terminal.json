@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 1 (source.html)",
+      "severity": "minor",
+      "source_quote": "treaties and ceasefires are only delays in the violence.",
+      "suggested_fix": "Corregir la frase a una expresión gramaticalmente correcta en español, conservando la idea plural: p. ej., \"los tratados y los ceses de fuego son solo demoras en la violencia.\"",
+      "translation_quote": "los tratados y los cese el fuegos son solo demoras en la violencia."
+    },
+    {
+      "location": "Throughout article (abbreviation use)",
+      "severity": "minor",
+      "source_quote": "Conscientious objectors were placed in various service roles through these programs. ... Despite the bureaucratic acceptance of the conscientious objectors’ (COs) convictions, and their subsequent alternate service, ...",
+      "suggested_fix": "Mantener la abreviatura usada en el original o explicarla explícitamente en español. Recomiendo usar la abreviatura paralela al original: \"(CO)\" o adaptar consistentemente al español con nota una sola vez: \"objetores de conciencia (OC/CO)\". Por ejemplo: \"... de los objetores de conciencia (CO) ...\" y luego usar \"CO\" de forma consistente.",
+      "translation_quote": "A pesar de la aceptación burocrática de las convicciones de los objetores de conciencia (OC) y de su servicio alternativo posterior, ..."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -2,7 +2,6 @@
   "article_id": "fb65688b-5aaf-4194-a345-31f6f1355389",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:38+00:00",
   "events": [
@@ -24,9 +23,44 @@
         },
         "total_tokens": 3991
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1050,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 448,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3652,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4702
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<article> paragraph containing 2 Timothy quotation (source.html third quoted Scripture paragraph)",
+      "severity": "critical",
+      "source_quote": "All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: That the man of God may be perfect, throughly furnished unto all good works –2 Timothy 3:13-17.",
+      "suggested_fix": "Replace the mixed-language phrase \"ساری Schrift (کتاب مقدس) خدا کی الہامی ہے، اور ...\" with a full Urdu rendering of the quoted English Scripture, preserving the verse range and meaning. For example (keeping HTML structure and tags intact):\n\nساری کتابِ مقدّس خدا سے الہام یافتہ ہے، اور وہ تعلیم، مواخذہ، اصلاح، اور راستبازی کی تربیت کے لیے فائدہ مند ہے؛ تاکہ خدا کا آدمی کامل ہو، ہر نیک کام کے لیے کامل طور پر تیار ہو جائے – 2 تیموتھیس 3:13-17۔\n\n(Ensure the entire quoted passage is translated into standard Urdu without leaving any original-language word such as \"Schrift\".)",
+      "translation_quote": "<em>لیکن بد لوگ اور بہکانے والے بد سے بدتر ہوں گے، وہ دھوکہ دیں گے اور دھوکہ کھائیں گے۔ لیکن تم ان باتوں میں قائم رہو جو تم نے سیکھیں اور یقین حاصل کیا، یہ جانتے ہوئے کہ تم نے کس سے سیکھا ہے؛ اور بچپن سے تم نے مقدس کتابیں جانی ہیں، جو ایمان کے ذریعے مسیح یسوع میں نجات کے لیے حکمت عطا کر سکتی ہیں۔ ساری Schrift (کتاب مقدس) خدا کی الہامی ہے، اور تعلیم، مواخذہ، اصلاح، اور راستبازی کی تربیت کے لیے فائدہ مند ہے؛ تاکہ خدا کا آدمی کامل ہو، ہر نیک کام کے لیے کامل طور پر تیار ہو جائے – 2 تیموتھیس 3:13-17۔</em>"
+    },
+    {
+      "location": "<article> closing signature paragraph",
+      "severity": "minor",
+      "source_quote": "Curvin L. Wenger",
+      "suggested_fix": "Correct the transliteration of the author's name to more closely reflect the English proper name. Either retain the original Latin-script name exactly as in source metadata or use a standard Urdu transliteration. Suggested fixes (choose one and keep HTML paragraph tags unchanged):\n\n- Use original English: Curvin L. Wenger\n- Or corrected Urdu transliteration: کرونن ایل۔ وینگر  (if the intended name is \"Curvin\")\n\nNote: preserve the exact printed author string from source.html if the publication normally displays Latin-script bylines.",
+      "translation_quote": "کرون ایل۔ وینگر"
+    }
+  ],
   "id": "a4eef86276d1c8c5d77f99a3dacbc3c5",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "urd",
@@ -100,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 80,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/0d188eedb4a6b0936348346a7bbb1d6ba410af25119039e27c08f30a398b9e61.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "2b4f275d7b7ba8096cb0ab03fead7b5dd10aa236b7e3bc6ad2626bd76b72e500",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

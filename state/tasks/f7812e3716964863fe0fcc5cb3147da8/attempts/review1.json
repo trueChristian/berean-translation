@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:36+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"source.html paragraph that begins \\\"Morning dawned; it was the day God had told them to go out against these enemies.\\\" (the paragraph including the quoted verse range at the end)\",\"severity\":\"major\",\"source_quote\":\"– verses 21-20.\",\"suggested_fix\":\"Restore the original verse-range ordering exactly as in the authoritative English: “– verses 21-20.” Keep the surrounding HTML and punctuation unchanged.\",\"translation_quote\":\"– Verse 20–21.\"}],\"passed\":false,\"score\":80}",
+    "content_bytes": 508,
+    "content_evidence_truncated": false,
+    "content_sha256": "937ec0c0b7fdcf23c3174b51b9667ee80dbea61dc0131350589ecc548db87dbc",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 637,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5277,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5914
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

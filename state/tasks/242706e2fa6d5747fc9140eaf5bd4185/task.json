@@ -2,7 +2,6 @@
   "article_id": "3f679973-e351-4fe3-8930-e08d9fba23a5",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,45 @@
         },
         "total_tokens": 7862
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1011,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7512,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8523
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "<p>June 15, 2018... pager...</p> (paragraph beginning \"June 15, 2018, at 4:40 pm. the scream...\")",
+      "severity": "minor",
+      "source_quote": "\"...as it crackled to life.\"",
+      "suggested_fix": "Replace the literal- sounding phrasing with a more natural Portuguese equivalent that preserves the image. For example: \"quando o pager dos serviços de emergência estalou e ganhou vida\" or \"quando o pager dos serviços de emergência soou, ganhando vida.\" Keep the surrounding sentence structure and punctuation unchanged.",
+      "translation_quote": "\"quando chiaram para a vida.\""
+    },
+    {
+      "location": "<p>...NoDoz® with an energy drink before I went to bed...</p> (paragraph beginning \"Although my stress level continued to rise...\")",
+      "severity": "minor",
+      "source_quote": "\"I resorted to taking high doses of NoDoz® with an energy drink before I went to bed, trying to get my nerves to relax...\"",
+      "suggested_fix": "The translated sentence is accurate but slightly informal in register. Consider a small style smoothing to make it read more naturally in international Portuguese while preserving meaning and the trademark: e.g. \"comecei a tomar doses elevadas de NoDoz® com uma bebida energética antes de ir para a cama, tentando fazer com que meus nervos relaxassem o suficiente para eu dormir.\"",
+      "translation_quote": "\"comecei a tomar altas doses de NoDoz® com uma bebida energética antes de ir para a cama, tentando fazer com que meus nervos relaxassem o suficiente para eu dormir (não tentem isto em casa, é perigoso).\""
+    }
+  ],
+  "finished_at": "2026-10-02T12:55:35+00:00",
   "id": "242706e2fa6d5747fc9140eaf5bd4185",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "por",
@@ -100,11 +135,13 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/beecf92a90c285721a9995122795a9f69f408d8654cdb4e9b021a1869ce1805f.json",
   "stage": "review1",
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d910d483e90bcd959841ed8e96903546f249749ffefaa1d05b277a01a16ea99d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

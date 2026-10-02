@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>...– verses 21-20. He appointed singers to sing as they went, proclaiming to everyone and to the opposing army that they were on the Lord’s side.</p>\",\"severity\":\"major\",\"source_quote\":\"“– verses 21-20. He appointed singers to sing as they went, proclaiming to everyone and to the opposing army that they were on the Lord’s side.”\",\"suggested_fix\":\"Restore the exact scripture-reference text as printed in the authoritative English source. In the translation, replace “– versets 21‑22.” with “– versets 21‑20.” so the chapter/verse numbering exactly matches the English source text (preserve spacing and punctuation as appropriate in French).\",\"translation_quote\":\"“– versets 21‑22. Il désigna des chantres pour chanter en sortant, proclamant à tous et à l’armée ennemie qu’ils étaient du côté du Seigneur.”\"},{\"location\":\"<p>... Dieu dit à mon cœur de rester tranquille sans peur et de Laisser faire la lutte à Lui. ...</p>\",\"severity\":\"minor\",\"source_quote\":\"“But God tells my heart to sit still without fear and let Him do the fighting.”\",\"suggested_fix\":\"Fix capitalization in the French translation to follow normal French sentence case and to preserve the author's meaning. Replace “de Laisser faire la lutte à Lui.” with “de laisser à Lui le soin de livrer la lutte.” (or “de laisser à lui la lutte” is less idiomatic). Ensure pronoun/case is natural French: “laisser à Lui” could be improved to “lui laisser la lutte” while preserving theology. Suggested exact replacement preserving paragraph HTML: change the phrase to “de rester tranquille sans peur et de lui laisser faire la lutte.”\",\"translation_quote\":\"“Mais Dieu dit à mon cœur de rester tranquille sans peur et de Laisser faire la lutte à Lui. Cela demande plus de muscles spirituels…”\"}],\"passed\":false,\"score\":70}",
+    "content_bytes": 1902,
+    "content_evidence_truncated": false,
+    "content_sha256": "3d0ea01c4c3d53428dc12916c7a3b219180d6426c259ebfd1c3fd0fbbba92bf0",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1073,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5312,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6385
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

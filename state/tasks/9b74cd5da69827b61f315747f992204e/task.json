@@ -2,7 +2,6 @@
   "article_id": "1bdf0b87-af5f-4c9b-99a2-004277f7718d",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ab7f711f36c46f58baac4b7f45a58e1",
   "campaign": "gh-37007962259",
   "created_at": "2026-10-02T12:41:39+00:00",
   "events": [
@@ -24,9 +23,51 @@
         },
         "total_tokens": 10015
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1278,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9738,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11016
+      }
     }
   ],
   "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "source.html paragraph containing Acts 24:25 (early in article)",
+      "severity": "major",
+      "source_quote": "[until finally] Felix trembled, and answered, Go thy way for this time; when I have a convenient season, I will call for thee –Acts 24:25.",
+      "suggested_fix": "Translate the verb meaning \"trembled\" (shivered, was afraid) rather than a verb meaning \"made a loud noise/ thundered.\" Replace \"Felix gedreun het, en geantwoord het\" with an Afrikaans rendering that conveys trembling/being afraid, e.g. \"Felix het geskud van vrees, en geantwoord\" or \"Felix het beveg van vrees, en geantwoord\". Preserve the rest of the verse translation already provided.",
+      "translation_quote": "<em>…redede hy van geregtigheid, selfbeheersing en die toekomsige oordeel, </em>[totdat uiteindelik] <em>Felix gedreun het, en geantwoord het: Gaan heen; maar as ek ’n geskikte tyd kry, sal ek vir jou laat roep – Handelinge 24:25.</em> Toe, teen die einde van Paulus se rede, <em>…het Festus met ’n harde stem gesê: Paulus, jy is dwaas; baie geleerdheid maak jou mal – Handelinge 26:24.</em>"
+    },
+    {
+      "location": "source.html paragraph: \"There is a whole set of laws that governs the way that the earth rotates on its axis and orbits the sun.\"",
+      "severity": "major",
+      "source_quote": "There is a whole set of laws that governs the way that the earth rotates on its axis and orbits the sun.",
+      "suggested_fix": "The translation uses a verb that means \"surrounds\" rather than \"orbits.\" Replace \"die son omring\" with a phrase that clearly expresses \"orbits the sun\", for example \"en die son omloop\" or \"en die son omwentel\" or \"en die son omlopend\" (recommended: \"en die son omwentel\").",
+      "translation_quote": "<p>Daar is ’n hele stel wette wat die wyse beheer waarop die aarde om sy as draai en die son omring.</p>"
+    },
+    {
+      "location": "source.html paragraph about Felix keeping Paul in prison (early paragraph)",
+      "severity": "minor",
+      "source_quote": "though there was no evidence to convict Paul, Felix had kept him in prison for the next two years until the new Procurator, Festus, took his place.",
+      "suggested_fix": "Correct a typographical/word-choice error. The Afrikaans phrase \"om Paulus te vandeur te beskuldig\" contains an incorrect token \"vandeur.\" Replace with correct phrasing such as \"om Paulus te verteenwoordig/te vervolg/om Paulus te veroordel\" depending on intended nuance; the closest literal fix is: \"hoewel daar geen bewyse was om Paulus te veroordel nie, het Felix hom die volgende twee jaar in die tronk gehou...\"",
+      "translation_quote": "<p>’n Paar dae later is hy weggeneem na die Romeinse Prokureur Felix weens gevaar van ’n groep Joodse samenzweerders. Felix het na sy saak geluister en hoewel daar geen bewyse was om Paulus te vandeur te beskuldig nie, het Felix hom die volgende twee jaar in die tronk gehou totdat die nuwe prokureur Festus sy plek ingeneem het.</p>"
+    }
+  ],
   "id": "9b74cd5da69827b61f315747f992204e",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "afr",
@@ -100,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 67,
   "review_attempts": 1,
   "review_model": "gpt-5-mini",
+  "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/52f684b8d02f77793b6e7dc1b48ec48b97a6055434007d0dad3db046e47c8044.json",
-  "stage": "review1",
-  "status": "in_batch",
+  "stage": "correct",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "5fb27f23eb62db29608050722b6dfaf82ff0b381b3a8cf3c6ff5dca578b5db55",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

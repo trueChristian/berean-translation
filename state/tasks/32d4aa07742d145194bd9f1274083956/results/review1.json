@@ -1,0 +1,43 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "1cc31738-5aa7-42a4-b3d8-e0d3f8e184e8",
+    "response_id": "chatcmpl-EUX3LR735s8MelOFt1T0eXm3Fion5",
+    "usage": {
+      "completion_tokens": 811,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4543,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5354
+    }
+  },
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html — paragraph beginning \"Whenever he preached, the open Bible...\"",
+        "severity": "major",
+        "source_quote": "During the messages, his eyes looked straight at the congregation, and many went away with no clue that they just listened to a blind preacher.",
+        "suggested_fix": "Replace the Dutch phrase that mistranslates \"messages\". Use a church/sermon-appropriate term such as \"prediking\", \"preken\" or \"toespraken\". For example: \"Tijdens de preken keken zijn ogen rechtstreeks naar de gemeente, en velen gingen weg zonder te beseffen dat ze naar een blinde predikant hadden geluisterd.\" Preserve surrounding sentence structure and HTML tags.",
+        "translation_quote": "\"Tijdens de boodschappen keken zijn ogen rechtstreeks naar de gemeente, en velen gingen weg zonder te beseffen dat ze naar een blinde predikant hadden geluisterd.\""
+      },
+      {
+        "location": "source.section (section metadata)",
+        "severity": "minor",
+        "source_quote": "A HYMN HISTORY",
+        "suggested_fix": "Translate the section heading into standard contemporary Dutch unless the publisher requires the English heading. Suggested translation: \"EEN LIEDGESCHIEDENIS\" or a more natural editorial phrase such as \"Een hymnegeschiedenis\". Update the translation field for section accordingly.",
+        "translation_quote": "\"A HYMN HISTORY\""
+      }
+    ],
+    "passed": false,
+    "score": 88
+  }
+}

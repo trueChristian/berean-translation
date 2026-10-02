@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:36+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning \\\"Why should we take issue with the practice...\\\" (source.html)\",\"severity\":\"major\",\"source_quote\":\"Why should we take issue with the practice if the scripture doesn’t forbid it? The answer lies in the question of the propriety of the invitation system.\",\"suggested_fix\":\"Corregir la traducción para que refleje \\\"propriety\\\" en el sentido de \\\"idoneidad/pertinencia\\\" o \\\"corrección moral/procedimental\\\", no \\\"propiedad\\\" (posesión). Ejemplo sugerido: \\\"¿Por qué habríamos de objetar la práctica si la Escritura no la prohíbe? La respuesta reside en la cuestión de la idoneidad (o pertinencia) del sistema de invitación.\\\" Mantener el resto del texto igual.\",\"translation_quote\":\"¿Por qué habríamos de objetar la práctica si la Escritura no la prohíbe? La respuesta reside en la cuestión de la propiedad del sistema de invitación.\"},{\"location\":\"Article metadata: section field (source.section)\",\"severity\":\"minor\",\"source_quote\":\"ISSUES AFFECTING THE CHURCH\",\"suggested_fix\":\"Traducir el campo de sección al español, usando lenguaje claro e internacionalmente comprensible. Ejemplo sugerido: \\\"CUESTIONES QUE AFECTAN A LA IGLESIA\\\" o \\\"PROBLEMAS QUE AFECTAN A LA IGLESIA\\\". No cambiar la estructura HTML del artículo, solo actualizar el valor de la propiedad section en el sistema de metadatos traducido.\",\"translation_quote\":\"ISSUES AFFECTING THE CHURCH\"}],\"passed\":false,\"score\":84}",
+    "content_bytes": 1455,
+    "content_evidence_truncated": false,
+    "content_sha256": "7502585379fcdb3f05532d0bf0364e6f868ef3ba69eba4399e5b5283bb0d8478",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1321,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8632,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9953
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

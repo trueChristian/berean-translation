@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T12:55:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"<p>कुछ समय बाद, जिस शाखा पर एली बैठी थी वह粗 महसूस होने लगी और जिन टहनियों को वह काट रही थी वे लगभग नष्ट हो चुकी थीं।</p>\",\"severity\":\"minor\",\"source_quote\":\"After a time, the branch Ellie was sitting on began to feel rough and hard, and the twigs she was whittling had nearly disappeared.\",\"suggested_fix\":\"Replace the extraneous character and render the sentence fluently in Hindi. For example: <p>कुछ समय बाद, जिस शाखा पर एली बैठी थी वह खुरदरी और कठोर महसूस होने लगी और जिन टहनियों को वह काट रही थी वे लगभग नष्ट हो चुकी थीं।</p>\",\"translation_quote\":\"कुछ समय बाद, जिस शाखा पर एली बैठी थी वह粗 महसूस होने लगी और जिन टहनियों को वह काट रही थी वे लगभग नष्ट हो चुकी थीं।\"},{\"location\":\"<p>वह अपने चाचा-चाची के यहाँ एक हफ़्ता रही थी जो उसके काउंटी से कुछ मील दूर रहते थे और वहीं उसके चचेरे भाई पॉल ने उसे एक चाकू दिया था जो उसने खुद बनाया था।</p>\",\"severity\":\"minor\",\"source_quote\":\"She had spent a week with her aunt and uncle who lived several counties over from hers and while there, her cousin Paul had given her a knife that he had made.\",\"suggested_fix\":\"Restore the sense 'several counties over' rather than converting to miles. Use an appropriate Hindi phrasing such as: <p>वह अपने चाचा-चाची के यहाँ एक हफ्ता रही थी जो उसके काउंटियों में कई जिले दूर रहती थीं और वहीं उसके चचेरे भाई पॉल ने उसे एक चाकू दिया था जो उसने खुद बनाया था।</p> (Or keep 'काउंटी' as a loanword: 'जो उसके काउंटी से कई काउंटी दूर रहते थे')\",\"translation_quote\":\"वह अपने चाचा-चाची के यहाँ एक हफ़्ता रही थी जो उसके काउंटी से कुछ मील दूर रहते थे और वहीं उसके चचेरे भाई पॉल ने उसे एक चाकू दिया था जो उसने खुद बनाया था।\"},{\"location\":\"<p>दोषी होकर उसने जल्दी से अपनी अंगुली को घाव के ऊपर दबा दिया और घर में चली गई।</p>\",\"severity\":\"major\",\"source_quote\":\"Guiltily, she quickly pressed her thumb on top of the wound and slipped into the house.\",\"suggested_fix\":\"Correct the body part: 'thumb' should be translated as 'अंगूठा' (not 'अंगुली'). Suggested corrected sentence preserving tags: <p>दोषी होकर उसने जल्दी से अपने अंगूठे को घाव के ऊपर दबा दिया और घर में चली गई।</p>\",\"translation_quote\":\"दोषी होकर उसने जल्दी से अपनी अंगुली को घाव के ऊपर दबा दिया और घर में चली गई।\"}],\"passed\":false,\"score\":72}",
+    "content_bytes": 3894,
+    "content_evidence_truncated": false,
+    "content_sha256": "1396e32e0d34e76b6e66126d497bc66387cdac617683b5a78d924dbf6969fb1c",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1224,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 576,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3740,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4964
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
