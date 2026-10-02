@@ -2,7 +2,7 @@
 
 Generated from the pinned source catalogue and durable work records. No API call is made by this report.
 
-Observed English revision: `f5317f412fd603472a196c79c395c8e1ad392bd2`
+Observed English revision: `7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b`
 
 | Issue selector | Articles | Ready / target | Active | Not ready | Stale |
 | --- | ---: | ---: | ---: | ---: | ---: |
@@ -10,7 +10,7 @@ Observed English revision: `f5317f412fd603472a196c79c395c8e1ad392bd2`
 | `heartbeat-remnant-2024-spring` | 11 | 130 / 220 | 0 | 90 | 0 |
 | `heartbeat-remnant-2024-winter` | 11 | 135 / 220 | 0 | 85 | 0 |
 | `heartbeat-remnant-2023-summer` | 13 | 176 / 260 | 0 | 84 | 0 |
-| `heartbeat-remnant-2023-spring` | 10 | 0 / 200 | 0 | 0 | 0 |
+| `heartbeat-remnant-2023-spring` | 10 | 0 / 200 | 200 | 0 | 0 |
 | `heartbeat-remnant-2023-winter` | 12 | 0 / 240 | 0 | 0 | 0 |
 | `heartbeat-remnant-2022-winter` | 10 | 0 / 200 | 0 | 0 | 0 |
 | `heartbeat-remnant-2022-fall` | 11 | 0 / 220 | 0 | 0 | 0 |
@@ -86,31 +86,32 @@ Observed English revision: `f5317f412fd603472a196c79c395c8e1ad392bd2`
 | `heartbeat-remnant-2004-03` | 11 | 0 / 220 | 0 | 0 | 0 |
 | `heartbeat-remnant-2004-01` | 11 | 0 / 220 | 0 | 0 | 0 |
 | `heartbeat-remnant-2003-11` | 10 | 0 / 200 | 0 | 0 | 0 |
+| `heartbeat-remnant-2003-09` | 11 | 0 / 220 | 0 | 0 | 0 |
 
 ## Language readiness
 
 | Language | Ready / source articles | Human reviewed | Active candidates | Not-ready candidates | Corrected candidates |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 26 / 917 | 0 | 0 | 19 | 29 |
-| `hin` (hi) | 32 / 917 | 0 | 0 | 13 | 29 |
-| `spa` (es) | 37 / 917 | 0 | 0 | 8 | 19 |
-| `ara` (ar) | 24 / 917 | 0 | 0 | 21 | 32 |
-| `fra` (fr) | 36 / 917 | 0 | 0 | 9 | 17 |
-| `ben` (bn) | 23 / 917 | 0 | 0 | 22 | 40 |
-| `por` (pt) | 37 / 917 | 0 | 0 | 8 | 23 |
-| `ind` (id) | 36 / 917 | 0 | 0 | 9 | 26 |
-| `urd` (ur) | 32 / 917 | 0 | 0 | 13 | 31 |
-| `rus` (ru) | 30 / 917 | 0 | 0 | 15 | 30 |
-| `deu` (de) | 26 / 917 | 0 | 0 | 19 | 33 |
-| `nld` (nl) | 40 / 917 | 0 | 0 | 5 | 20 |
-| `afr` (af) | 31 / 917 | 0 | 0 | 14 | 30 |
-| `swa` (sw) | 17 / 917 | 0 | 0 | 28 | 42 |
-| `kor` (ko) | 32 / 917 | 0 | 0 | 13 | 24 |
-| `ita` (it) | 35 / 917 | 0 | 0 | 10 | 23 |
-| `heb` (he) | 8 / 917 | 0 | 0 | 37 | 42 |
-| `ell` (el) | 30 / 917 | 0 | 0 | 15 | 36 |
-| `swe` (sv) | 31 / 917 | 0 | 0 | 14 | 27 |
-| `nob` (nb) | 36 / 917 | 0 | 0 | 9 | 26 |
+| `cmn` (zh-Hans) | 26 / 928 | 0 | 10 | 19 | 29 |
+| `hin` (hi) | 32 / 928 | 0 | 10 | 13 | 29 |
+| `spa` (es) | 37 / 928 | 0 | 10 | 8 | 19 |
+| `ara` (ar) | 24 / 928 | 0 | 10 | 21 | 32 |
+| `fra` (fr) | 36 / 928 | 0 | 10 | 9 | 17 |
+| `ben` (bn) | 23 / 928 | 0 | 10 | 22 | 40 |
+| `por` (pt) | 37 / 928 | 0 | 10 | 8 | 23 |
+| `ind` (id) | 36 / 928 | 0 | 10 | 9 | 26 |
+| `urd` (ur) | 32 / 928 | 0 | 10 | 13 | 31 |
+| `rus` (ru) | 30 / 928 | 0 | 10 | 15 | 30 |
+| `deu` (de) | 26 / 928 | 0 | 10 | 19 | 33 |
+| `nld` (nl) | 40 / 928 | 0 | 10 | 5 | 20 |
+| `afr` (af) | 31 / 928 | 0 | 10 | 14 | 30 |
+| `swa` (sw) | 17 / 928 | 0 | 10 | 28 | 42 |
+| `kor` (ko) | 32 / 928 | 0 | 10 | 13 | 24 |
+| `ita` (it) | 35 / 928 | 0 | 10 | 10 | 23 |
+| `heb` (he) | 8 / 928 | 0 | 10 | 37 | 42 |
+| `ell` (el) | 30 / 928 | 0 | 10 | 15 | 36 |
+| `swe` (sv) | 31 / 928 | 0 | 10 | 14 | 27 |
+| `nob` (nb) | 36 / 928 | 0 | 10 | 9 | 26 |
 
 ## Issue / language work
 
@@ -198,6 +199,26 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `heartbeat-remnant-2023-summer` | `ell` | 10 / 13 | 0 | 0 | 3 | 0 |
 | `heartbeat-remnant-2023-summer` | `swe` | 10 / 13 | 0 | 0 | 3 | 0 |
 | `heartbeat-remnant-2023-summer` | `nob` | 11 / 13 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2023-spring` | `cmn` | 0 / 10 | 0 | 10 | 0 | 0 |
+| `heartbeat-remnant-2023-spring` | `hin` | 0 / 10 | 0 | 10 | 0 | 0 |
+| `heartbeat-remnant-2023-spring` | `spa` | 0 / 10 | 0 | 10 | 0 | 0 |
+| `heartbeat-remnant-2023-spring` | `ara` | 0 / 10 | 0 | 10 | 0 | 0 |
+| `heartbeat-remnant-2023-spring` | `fra` | 0 / 10 | 0 | 10 | 0 | 0 |
+| `heartbeat-remnant-2023-spring` | `ben` | 0 / 10 | 0 | 10 | 0 | 0 |
+| `heartbeat-remnant-2023-spring` | `por` | 0 / 10 | 0 | 10 | 0 | 0 |
+| `heartbeat-remnant-2023-spring` | `ind` | 0 / 10 | 0 | 10 | 0 | 0 |
+| `heartbeat-remnant-2023-spring` | `urd` | 0 / 10 | 0 | 10 | 0 | 0 |
+| `heartbeat-remnant-2023-spring` | `rus` | 0 / 10 | 0 | 10 | 0 | 0 |
+| `heartbeat-remnant-2023-spring` | `deu` | 0 / 10 | 0 | 10 | 0 | 0 |
+| `heartbeat-remnant-2023-spring` | `nld` | 0 / 10 | 0 | 10 | 0 | 0 |
+| `heartbeat-remnant-2023-spring` | `afr` | 0 / 10 | 0 | 10 | 0 | 0 |
+| `heartbeat-remnant-2023-spring` | `swa` | 0 / 10 | 0 | 10 | 0 | 0 |
+| `heartbeat-remnant-2023-spring` | `kor` | 0 / 10 | 0 | 10 | 0 | 0 |
+| `heartbeat-remnant-2023-spring` | `ita` | 0 / 10 | 0 | 10 | 0 | 0 |
+| `heartbeat-remnant-2023-spring` | `heb` | 0 / 10 | 0 | 10 | 0 | 0 |
+| `heartbeat-remnant-2023-spring` | `ell` | 0 / 10 | 0 | 10 | 0 | 0 |
+| `heartbeat-remnant-2023-spring` | `swe` | 0 / 10 | 0 | 10 | 0 | 0 |
+| `heartbeat-remnant-2023-spring` | `nob` | 0 / 10 | 0 | 10 | 0 | 0 |
 
 ## Campaigns
 
@@ -228,6 +249,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `gh-36981712493` | manual | translate | finished | 60 | 0.66302525 | 2.723356 / 10.00 | [state](state/campaigns/gh-36981712493.json) |
 | `gh-36985402305` | manual | translate | finished | 220 | 1.97256966 | 9.154220 / 10.00 | [state](state/campaigns/gh-36985402305.json) |
 | `gh-36992568621` | manual | translate | finished | 260 | 2.27880205 | 10.822642 / 20.00 | [state](state/campaigns/gh-36992568621.json) |
+| `gh-37007803504` | manual | translate | active | 200 | 0.00000000 | 0.000000 / 10.00 | [state](state/campaigns/gh-37007803504.json) |
 | `refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267` | source refresh | translate | finished | 1 | 0.00188212 | 0.021884 / 10.00 | [state](state/campaigns/refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267.json) |
 
 ## Provider batch lifecycle
