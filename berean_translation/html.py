@@ -151,9 +151,10 @@ class Fragment(HTMLParser):
 # Book names and surrounding prose need not have spaces in every language.
 # A digit boundary preserves the complete chapter number while recognizing
 # references such as 马可福音10:7 and their missing/changed counterparts.
-REFERENCE_NUMBER = re.compile(r'(?<!\d)\d+\s*:\s*\d+(?:\s*[-–—]\s*\d+)?')
+# Typographic hyphens are range punctuation, never a reason to drop the endpoint.
+REFERENCE_NUMBER = re.compile(r'(?<!\d)\d+\s*:\s*\d+(?:\s*[-‐‑–—]\s*\d+)?')
 EXPLICIT_CLOCK = re.compile(
-    r'(?<![\w:\-–—])(?P<hour>1[0-2]|0?[1-9])'
+    r'(?<![\w:\-‐‑–—])(?P<hour>1[0-2]|0?[1-9])'
     r'(?::(?P<minute>[0-5][0-9]))?\s*(?P<period>[ap])\.?\s*m\.?(?!\w)', re.I)
 # These are positive clock cues, not a list of Bible books to exclude. Unknown
 # or bare colon expressions remain protected, even when they look like times.
@@ -177,7 +178,7 @@ def decimal_digits(text: str) -> str:
 
 
 def reference_value(value: str) -> str:
-    return re.sub(r'\s+', '', value).replace('–','-').replace('—','-')
+    return re.sub(r'\s+', '', value).translate(str.maketrans('‐‑–—', '----'))
 
 
 def reference_numbers(text: str) -> Counter:
