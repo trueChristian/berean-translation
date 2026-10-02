@@ -1,0 +1,62 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Coshocton, OH",
+          "name": "Joel A Hostetler"
+        }
+      ],
+      "raw": "by Joel A Hostetler\nCoshocton, OH"
+    },
+    "categories": {
+      "additional": [
+        "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+      ],
+      "primary": "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+    },
+    "id": "b6a6823e-0f2a-4354-aebb-5c37ad85937a",
+    "images": [
+      {
+        "alt": "Sheet music for Nearer, My God, to Thee",
+        "caption": null,
+        "credit": "Sarah F. Adams, 1840; Lowell Mason, 1856",
+        "public_path": "/images/articles/b6a6823e-0f2a-4354-aebb-5c37ad85937a-1.png",
+        "repository_path": "public/images/articles/b6a6823e-0f2a-4354-aebb-5c37ad85937a-1.png",
+        "rights_note": "The printed score credits Sarah F. Adams, 1840, and Lowell Mason, 1856; no separate permission notice or license terms are stated. The vector/font-based score region was rendered from the printed page at 300 dpi and cropped to omit only magazine footer furniture.",
+        "role": "sheet music",
+        "sequence": 1,
+        "source_page": 21
+      }
+    ],
+    "issue_id": "82d196b3-f114-552a-93ea-c19fe8493a1c",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": "Hymn History",
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 21,
+      "start": 19
+    },
+    "subtitle": null,
+    "title": "Nearer, My God, to Thee",
+    "topics": [
+      "a90cf148-a3d8-5e37-82fc-f56d05f17fbc",
+      "d6ebfeda-a0bf-5dd2-82cb-200ba938dd05"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "2e2f4d1827ce3bdd1fa77944586be9f443c3fe87b183dcbdac4b0de7fc752750",
+    "metadata_sha256": "2e498b59f7d822ff7dcdef752299f1d26dde2eb1a7e796f05dc13b3d504e1476",
+    "structure_sha256": "82e6817716ec303847f34c2fb910841b4bafbd3993b309b91ca4343db7269307",
+    "text_sha256": "9bd52e91a4b14f202a720bdaf5c0031a8488c8eab70a2db71ad1d3d495f19a71",
+    "translation_metadata_sha256": "8ad7c607004561756f10dc569927919baba1971a69ecd46494ba764e6851b66c"
+  },
+  "html": "<article data-article-id=\"b6a6823e-0f2a-4354-aebb-5c37ad85937a\">\n  <p class=\"drop-cap\">This hymn is universally thought to be one of the greatest hymns ever authored by a woman. It can be found in nearly every hymnal or book of hymns published today. This hymn writer was a woman of great ambition and enjoyment; a person full of life, vivacious, beautiful, talented, and a person who’s “exalted character always made a deep impression upon all who knew her”. Although she had a full and productive life, it was short, hastened on by her delicate and frail constitution. This hymn story has touched many lives in times of distress and hardship, including death. It has been used of God to draw the hearts of men from their present distresses, heavenward, to the immortal realities beyond this life.</p>\n  <p>Sarah Flower Adam was born at Harlow, England on February 22, 1805, to Benjamin and Eliza Flower. When she was five years old, her mother died of consumption, known today as tuberculosis. Sarah and her older sister Eliza also inherited the same physical weakness. Speaking of the hymn writer I quote from <em>101 Hymn Stories</em>: “She was also widely known for her many literary accomplishments, though her delicate health was always a handicap for her many ambitions.”</p>\n  <p>In the year 1834, at the age of 29, Sarah married a prominent inventor and civil engineer, John Brydges. This distinguished couple made their home in London, England for the duration of their marriage, until the hymn writer’s death fourteen years later in 1848, at the early age of 43.</p>\n  <p>Sarah and her older sister Eliza made an outstanding team in the realm of music—writing and composing new songs. The elder sister being an accomplished musician, and the younger the hymn writer. One day their pastor, the Rev. William Johnson Fox, asked these two exceptional sisters if they would help him with the compilation for a new hymnal for his congregation. They committed to the project, and soon were busily occupied in helping him complete the song book. “Together, they contributed thirteen texts and sixty-two new tunes.”</p>\n  <p>One day as the two sisters were pressing into the task at hand, the pastor remarked that he wished he could have a hymn written to conclude a sermon he was preparing to preach on the account of Jacob and Esau. Eliza interrupted enthusiastically, “Sarah, now there’s an excellent idea for a new hymn for our hymnal. Why don’t you write your own hymn about Jacob’s dream?”</p>\n  <p>“Splendid!” replied the pastor. Later that day, after spending much time studying the Genesis account, absorbing the atmosphere, and feeling the dramatic movement of this Old Testament narrative, Sarah began to write. Soon she had versified the complete Biblical story into these five stanzas of the immortal hymn still in use today.</p>\n  <blockquote class=\"lyrics\">\n    <p>Nearer, my God, to Thee,<br>\n    Nearer to Thee!<br>\n    E’en though it be a cross<br>\n    That raiseth me;<br>\n    Still all my song would be,<br>\n    Nearer, my God, to Thee,<br>\n    Nearer to Thee!</p>\n    <p>Though like the wanderer,<br>\n    The sun gone down,<br>\n    Darkness be over me,<br>\n    My rest a stone;<br>\n    Yet in my dreams I’d be<br>\n    Nearer, my God, to Thee,<br>\n    Nearer to Thee!</p>\n    <p>There let the way appear,<br>\n    Steps unto heaven:<br>\n    All that Thou send’st to me<br>\n    In mercy given;<br>\n    Angels to beckon me<br>\n    Nearer, my God, to Thee,<br>\n    Nearer to Thee!</p>\n    <p>Then, with my waking thoughts<br>\n    Bright with Thy praise,<br>\n    Out of my stony griefs<br>\n    Bethel I’ll raise;<br>\n    So by my woes to be<br>\n    Nearer, my God, to Thee,<br>\n    Nearer to Thee!</p>\n    <p>Or if on joyful wing<br>\n    Cleaving the sky,<br>\n    Sun, moon, and stars forgot,<br>\n    Upwards I fly,<br>\n    Still all my song shall be,<br>\n    Nearer, my God, to Thee,<br>\n    Nearer to Thee!</p>\n  </blockquote>\n  <p>This great hymn was written in 1840 and published the next year in the hymn book <em>Hymns and Anthems</em> prepared by Rev. Fox, the hymn writer’s pastor. The hymn’s original tune was a composition of Eliza, Sarah’s older sister. In 1844, Rev. James Freeman Clarke introduced the hymn in America, but it did not become well known for another 12 years. At that point the hymn was wedded with the present-day tune “Bethany” composed especially for the text by Lowell Mason, who is sometimes referred to as the father of American church and school music. Other hymns by Mason include “From Greenland’s Icy Mountains”, “When I Survey the Wondrous Cross”, “A Charge to Keep I Have”, “Joy to the World”, “My Faith Looks Up to Thee”, and “O Day of Rest and Gladness”.</p>\n  <p>Many very interesting accounts have been recorded in conjunction with the use of this hymn, and its effect on those who sang it or heard it sung. In the Boston Peace Jubilee of 1872, which commemorated the end of the civil war, this hymn, “Nearer, My God to Thee”, was sung by 50,000 voices. In 1871, three renowned theologians, Professors Hitchcock, Smith, and Park, were traveling in Palestine, when they heard the faint strains of “Bethany” reach their ears. Regarding this incident, I quote from <em>A Treasury of Hymn Stories</em>, “Drawing near, to their amazement, they saw fifty Syrian students standing under some trees in a circle, and singing in Arabic ‘Nearer, my God, to Thee,’ Professor Hitchcock, speaking afterward of the event, said that the singing of that Christian hymn by those Syrian youths moved him to tears, and affected him more than any singing he had ever heard before”.</p>\n  <p>During the Johnstown City Flood of May 31, 1889 (a tragic disaster that killed over 2,000 people), an unfortunate railroad train rushed into the swirling flood waters. A young woman, prepared to be a missionary, and on her way to the far east, became one of those trapped in a railroad car which was turned up on end. Beyond the hope of rescue, she spoke calmly to the awe-struck crowd as they gazed helplessly at the unfolding tragedy as the car sank beneath the muddy waters. She ended up with prayer and by singing “Nearer, my God, to Thee,” in which she was joined by the grieving and sympathizing throng. As she sang, she passed away, coming indeed nearer to her God whom she loved and desired to serve.</p>\n  <p>Last, but not least, in the wee hours of April 15th, 1912, the story of the sinking of the proud and ill-fated ship, the <em>Titanic</em>, brings this song to our memory yet again. Many survivors that witnessed this great tragedy have testified that the hymn “Nearer, my God to Thee” was the final song played before the cold waves of the Atlantic Ocean silenced her forever—as the band played, the great ship sank, plunging into the depths, sending over 1,500 souls into eternity.</p>\n  <p>In conclusion, it is incredible how much music and singing affect us. As we have seen from some of these accounts, from praise to peril, from thanksgiving to tragedy, from worship to the worst disasters that man may experience, God has given us this priceless gift in the timeless possession of the old-time hymns. May they never lose their luster in our lives or in the lives of our posterity, until that final day when time shall cease to exist.</p>\n  <figure>\n    <img src=\"/images/articles/b6a6823e-0f2a-4354-aebb-5c37ad85937a-1.png\" alt=\"Sheet music for Nearer, My God, to Thee\">\n    <figcaption><em>Draw nigh to God, and he will draw nigh to you.</em> -Jas. 4:8<br>\n    <strong>387</strong><br>\n    <strong>BETHANY 6. 4. 6. 4. 6. 6. 6. 4.</strong><br>\n    Sarah F. Adams, 1840<br>\n    Lowell Mason, 1856</figcaption>\n  </figure>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "9e6e1db340e802f71c7018950dc820482ecc4e5e",
+  "translation_key": "529627b867a50e286116891ac48830f9194ac5c383794aa0c674aa93ff18825d"
+}
