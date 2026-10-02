@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "3b765156-61b4-4dbb-b07c-9a52636fc2f3",
+    "response_id": "chatcmpl-EULA7MPmMG1YevacOsEctDBSfjsGb",
+    "usage": {
+      "completion_tokens": 1001,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2684,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3685
+    }
+  },
+  "received_at": "2026-10-02T00:14:39+00:00",
+  "result": {
+    "html": "<article data-article-id=\"eed66189-2caa-4bfb-9eaa-545562c7e9a6\">\n  <figure>\n    <img src=\"/images/articles/eed66189-2caa-4bfb-9eaa-545562c7e9a6-1.jpg\" alt=\"Ένα μικρό σκάφος στην άκρη ήρεμου νερού κατά τη διάρκεια ζωηρού ηλιοβασιλέματος\" loading=\"lazy\">\n  </figure>\n\n  <div class=\"poem\">\n    <p><strong>Σήκω και χάιρε! Διότι η αυγή είναι εδώ!<br>\n    Χαίρε και τραγούδα! Η νύχτα πέρασε,<br>\n    Ο Αυγερινός λάμπει από ψηλά,<br>\n    Η χάρη του Θεού προς τον άνθρωπο είναι κοντά!<br>\n    Χαίρε και ύμνησε τον Βασιλιά των Βασιλιάδων!<br>\n    Ευχαρίστησε και υμνήσον· κι η περισσότερη χάρη είναι εδώ!</strong></p>\n\n    <p><strong>Σήκω και δοξολογήσον τον Κύριον!<br>\n    Εξύμνησον και ψάλλε το άξιον όνομά Του!<br>\n    Αυτός λάμπει από τους ουρανούς με αγάπη,<br>\n    Και ραίνει ευλογίες από ψηλά,<br>\n    Το έλεός Του κατεβαίνει προς τους ανθρώπους—<br>\n    Προσκύνησον και ψάλλε τον κραταιόν μας Κύριον!</strong></p>\n\n    <p><strong>Ευχαρίστησον και τραγούδει τω Χριστώ τω Βασιλεί μας<br>\n    Και λάτρεψον Αυτόν με ευλαβικόν ύμνον·<br>\n    Υποκλίθητι εν δέει, ιερώ τῷ φόβῳ—<br>\n    Η Αγιοσύνη του Θεού είναι εδώ·<br>\n    Εν υπερθαύμαστη ομορφιά λυγίσατε το γόνυ·<br>\n    Προσκύνησον τον παντοδύναμον Βασιλέα των Βασιλέων!</strong></p>\n  </div>\n</article>\n",
+    "section": "Ποίημα",
+    "subtitle": null,
+    "title": "Σήκω και χάιρε!"
+  }
+}
