@@ -1937,8 +1937,8 @@
   "status": "active",
   "task_counts": {
     "complete": 45,
-    "in_batch": 103,
-    "not_ready": 72
+    "in_batch": 94,
+    "not_ready": 81
   },
   "tasks": [
     "6dc8e4faea65c20a89d6112a9762f8eb",

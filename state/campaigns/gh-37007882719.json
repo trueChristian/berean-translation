@@ -2236,11 +2236,10 @@
   ],
   "skipped": [],
   "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
-  "status": "active",
+  "status": "finished",
   "task_counts": {
-    "complete": 79,
-    "in_batch": 88,
-    "not_ready": 73
+    "complete": 137,
+    "not_ready": 103
   },
   "tasks": [
     "18411e099ca36e481f1ccd1f33493fed",
