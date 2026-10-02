@@ -97,7 +97,7 @@
     "fe9ecf02703a32738aa77ca0ae11d544:correct"
   ],
   "id": "b4faa835f1e14f479071f1f2f26e85de",
-  "input_file_id": null,
+  "input_file_id": "file-R8qaRNuUFhwQpakYYPs7L6",
   "model": "gpt-5-mini",
   "payload_sha256": "3050fbff0dc13aed2700839ec18d556f1694757f903beebe1731929463316fdd",
   "remote_id": null,
