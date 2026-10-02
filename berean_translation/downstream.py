@@ -309,7 +309,7 @@ def accept(engine, request):
         'language_settings': {lang: copy.deepcopy(config.languages[lang]) for lang in languages},
         'glossaries': read_json(config.root/'config/glossaries.json')['languages'],
         'max_output_tokens': policy.get('max_output_tokens', config.runtime['max_output_tokens']),
-        'review_output_tokens': policy.get('review_output_tokens', config.runtime['review_output_tokens']),
+        'review_output_tokens': policy.get('review_output_tokens', config.review_output_limit(request['review_model'])),
         'quality_threshold': config.runtime['quality_threshold']}
     if not selections and not request['dry_run']:
         # No-op requests do not allocate funds. Record them as previews, while
