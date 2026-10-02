@@ -1,0 +1,6 @@
+{
+  "findings": [],
+  "outcome": "structural_rejection",
+  "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[10]; missing: 20:7 (x2), 20:8 (x2); extra: 19:8 (x2), 19:9 (x2)",
+  "stage": "correct"
+}

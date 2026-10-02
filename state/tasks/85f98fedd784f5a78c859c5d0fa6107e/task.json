@@ -2,7 +2,6 @@
   "article_id": "b8ff6643-9234-465f-ab06-4adfc189a851",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26af0fabd93643cf9f48087e9e5b9227",
   "campaign": "gh-37045474073",
   "created_at": "2026-10-02T18:09:42+00:00",
   "events": [
@@ -25,9 +24,30 @@
         },
         "total_tokens": 8077
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 3883,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8473,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8470,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12356
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[1]; missing: 8:22; extra: none",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -37,6 +57,7 @@
       "translation_quote": "<article data-article-id=\"b8ff6643-9234-465f-ab06-4adfc189a851\">\n  <p class=\"lead\"><em>כל ימי הארץ, זרע וקציר, וקור וחום, וקיץ וחורף, ויום ולילה לא ישבותו –בראשית ח׳:כ״ב.</em> שלום לכולם. בזמן שאני כותב את הדברים האלה, תחילת חודש מאי, ובכל זאת באזורנו עדיין נדמה שהאביב טרם הגיע ממש. יש הבזקי תקווה שהקיץ בוודאי יבוא — כמה מהעצים מלבלבים, ופרחים מוקדמים מסוימים כבר הרימו את פריחתם כדי להתנופף באומץ ברוחות הקרירות והלחות. ובכל זאת, באופן כללי מזג האוויר מרגיש הרבה יותר כמו חודש מרץ.</p>\n\n  <p>השבוע הקרוב מבטיח מזג אוויר חם ויבש, שאמור לשמח חקלאים ובעלי בתים רבים באזור. אנו צופים פעילות רבה, כשגינ"
     }
   ],
+  "finished_at": "2026-10-02T18:19:30+00:00",
   "id": "85f98fedd784f5a78c859c5d0fa6107e",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "heb",
@@ -129,7 +150,7 @@
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/a7ad1a6227f1cfa9e94538c9ab0eb21a71e9737ee9313da4c0a13a0a14896dbc.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
   "translation_model_actual": "gpt-6-luna"

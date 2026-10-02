@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Source /article[1]/p[10]/em[1]; translation /article[1]/p[10]/em[1]",
+      "severity": "critical",
+      "source_quote": "……? If this happens then “there will be a nuclear war.” If this happens then “it will cause World War 3 to begin.” “The Democrats are taking the U.S. to war with Russia.” These and many more comments are being made in our world today. To me it seems that when countries and individuals <em>…trust in chariots, and some in horses: Psalm 20:7a,</em> then their outcome will be that <em>They are brought down and [are] fallen… –Psalm 20:8a. But if …we will remember the name of the LORD our God –Psalm 20:7b,</em> <strong>then</strong> <em>…we are risen, and [will] stand upright –Psalm 20:8b.</em></p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[38:38], translation signature[38:40], insert). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>그렇다면 온갖 ‘만약’은 어떻습니까…? 이것이 일어나면 “핵전쟁이 일어날 것이다.” 이것이 일어나면 “제3차 세계대전이 시작될 것이다.” “민주당이 미국을 러시아와의 전쟁으로 끌고 가고 있다.” 오늘날 세상에는 이런 말과 그 밖의 많은 말들이 오가고 있습니다. 제게는 나라들과 사람들이 <em>…병거를 의지하고 어떤 이들은 말을 의지하나 –시편 20:7a,</em> 그들의 결과는 <em>그들은 엎드러지고 넘어지리로다… –시편 20:8a.</em> 그러나 <em>…우리는 우리 하나님 여호와의 이름을 기억하리로다 –시편 20:7b,</em> 그렇게 한다면 <strong>그때</strong> <em>…우리는 일어나 바로 서리로다 –시편 20:8b.</em></p>"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[40]: source /article[1]/p[10]/em[2] ('start', 'em', ()); translation /article[1]/p[10]/strong[1] ('start', 'strong', ())",
+  "stage": "terminal"
+}
