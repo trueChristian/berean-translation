@@ -2559,6 +2559,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
+      "html_sha256": "3173023422f9c0f80fea6b85841da0c5283d0c40f821be120f3fbfa9f2b7a959",
+      "human_reviewed": false,
+      "id": "28cd0392-f481-4e7c-9674-fbeb3c49fdf1",
+      "images": [
+        {
+          "alt": "Una lampadina luminosa dentro una lanterna scura.",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-1.jpg"
+        },
+        {
+          "alt": "Una farfalla tra fiori selvatici e erbe vivaci.",
+          "public_path": "/images/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1-2.jpg"
+        }
+      ],
+      "issue_id": "2dce7480-4f69-5b6c-85bd-1c4741ac6a49",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.json",
+      "metadata_sha256": "a6b6c4edf7db1834b79637906386d9f0f8c38886a100f6b451e20f4b2916fa2e",
+      "provider": "OpenAI",
+      "review_model": "gpt-5-mini-2025-08-07",
+      "section": "UNA PAROLA DAL DOTTORE",
+      "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
+      "source_translation_key": "01b12a3816da4d46cf519db2d3baeb7ae20985030feb4b12a45b0a68f6f6ee05",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Affrontare il cinismo",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
       "html_sha256": "c253b79c7b36cefad4437b19634e5e33c1bb3b26b04eec9846ac75258f84be75",
       "human_reviewed": false,
