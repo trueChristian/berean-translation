@@ -91,26 +91,26 @@ Observed English revision: `f5317f412fd603472a196c79c395c8e1ad392bd2`
 
 | Language | Ready / source articles | Human reviewed | Active candidates | Not-ready candidates | Corrected candidates |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 19 / 917 | 0 | 9 | 17 | 26 |
-| `hin` (hi) | 20 / 917 | 0 | 15 | 10 | 21 |
-| `spa` (es) | 29 / 917 | 0 | 9 | 7 | 14 |
-| `ara` (ar) | 17 / 917 | 0 | 14 | 14 | 27 |
-| `fra` (fr) | 35 / 917 | 0 | 5 | 5 | 14 |
-| `ben` (bn) | 15 / 917 | 0 | 20 | 10 | 31 |
-| `por` (pt) | 28 / 917 | 0 | 9 | 8 | 19 |
-| `ind` (id) | 25 / 917 | 0 | 14 | 6 | 19 |
-| `urd` (ur) | 25 / 917 | 0 | 13 | 7 | 25 |
-| `rus` (ru) | 25 / 917 | 0 | 9 | 11 | 24 |
-| `deu` (de) | 20 / 917 | 0 | 8 | 17 | 30 |
-| `nld` (nl) | 32 / 917 | 0 | 8 | 5 | 16 |
-| `afr` (af) | 20 / 917 | 0 | 16 | 9 | 23 |
-| `swa` (sw) | 10 / 917 | 0 | 16 | 19 | 34 |
-| `kor` (ko) | 28 / 917 | 0 | 6 | 11 | 20 |
-| `ita` (it) | 30 / 917 | 0 | 9 | 6 | 20 |
-| `heb` (he) | 6 / 917 | 0 | 12 | 27 | 33 |
-| `ell` (el) | 19 / 917 | 0 | 17 | 9 | 28 |
-| `swe` (sv) | 20 / 917 | 0 | 13 | 12 | 20 |
-| `nob` (nb) | 26 / 917 | 0 | 12 | 7 | 20 |
+| `cmn` (zh-Hans) | 19 / 917 | 0 | 9 | 17 | 29 |
+| `hin` (hi) | 20 / 917 | 0 | 15 | 10 | 29 |
+| `spa` (es) | 29 / 917 | 0 | 9 | 7 | 19 |
+| `ara` (ar) | 17 / 917 | 0 | 14 | 14 | 32 |
+| `fra` (fr) | 35 / 917 | 0 | 5 | 5 | 17 |
+| `ben` (bn) | 15 / 917 | 0 | 20 | 10 | 40 |
+| `por` (pt) | 28 / 917 | 0 | 9 | 8 | 23 |
+| `ind` (id) | 25 / 917 | 0 | 14 | 6 | 26 |
+| `urd` (ur) | 25 / 917 | 0 | 13 | 7 | 31 |
+| `rus` (ru) | 25 / 917 | 0 | 9 | 11 | 30 |
+| `deu` (de) | 20 / 917 | 0 | 8 | 17 | 33 |
+| `nld` (nl) | 32 / 917 | 0 | 8 | 5 | 20 |
+| `afr` (af) | 20 / 917 | 0 | 16 | 9 | 30 |
+| `swa` (sw) | 10 / 917 | 0 | 16 | 19 | 42 |
+| `kor` (ko) | 28 / 917 | 0 | 6 | 11 | 24 |
+| `ita` (it) | 30 / 917 | 0 | 9 | 6 | 23 |
+| `heb` (he) | 6 / 917 | 0 | 12 | 27 | 42 |
+| `ell` (el) | 19 / 917 | 0 | 17 | 9 | 36 |
+| `swe` (sv) | 20 / 917 | 0 | 13 | 12 | 27 |
+| `nob` (nb) | 26 / 917 | 0 | 12 | 7 | 26 |
 
 ## Issue / language work
 
@@ -227,7 +227,7 @@ Only combinations with requested or published work appear below. Counts of pendi
 | `gh-36911235156` | manual | translate | finished | 220 | 2.07687006 | 9.431976 / 10.00 | [state](state/campaigns/gh-36911235156.json) |
 | `gh-36981712493` | manual | translate | finished | 60 | 0.66302525 | 2.723356 / 10.00 | [state](state/campaigns/gh-36981712493.json) |
 | `gh-36985402305` | manual | translate | active | 220 | 1.80600953 | 9.154220 / 10.00 | [state](state/campaigns/gh-36985402305.json) |
-| `gh-36992568621` | manual | translate | active | 260 | 1.52735656 | 7.425891 / 20.00 | [state](state/campaigns/gh-36992568621.json) |
+| `gh-36992568621` | manual | translate | active | 260 | 1.52735656 | 9.839940 / 20.00 | [state](state/campaigns/gh-36992568621.json) |
 | `refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267` | source refresh | translate | finished | 1 | 0.00188212 | 0.021884 / 10.00 | [state](state/campaigns/refresh-0ba40e617813ed9365f7be1dc5d97c8a77ce5f336cfb3da5d7ed5bbef743b267.json) |
 
 ## Provider batch lifecycle
@@ -239,6 +239,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [02d4a7e00b9e41f990f9dced3c048991](state/batches/02d4a7e00b9e41f990f9dced3c048991/batch.json) / correct | collected / completed | 2 / 2 / 0 | 2026-10-01T20:37:12+00:00 | 2026-10-02T00:06:52+00:00 | 2026-10-02T00:06:51+00:00 |
 | [02f1c01f4c0c4918b31d802306658076](state/batches/02f1c01f4c0c4918b31d802306658076/batch.json) / review1 | collected / completed | 9 / 9 / 0 | 2026-10-01T19:21:56+00:00 | 2026-10-01T20:27:50+00:00 | 2026-10-01T20:27:49+00:00 |
 | [03063f2e598b42cfbbddae1e16e896f9](state/batches/03063f2e598b42cfbbddae1e16e896f9/batch.json) / review1 | collected / completed | 9 / 9 / 0 | 2026-10-01T19:40:54+00:00 | 2026-10-01T20:27:52+00:00 | 2026-10-01T20:27:52+00:00 |
+| [089463e4e71f4a938f56aa9b3f757701](state/batches/089463e4e71f4a938f56aa9b3f757701/batch.json) / correct | prepared / not recorded | ? / ? / ? | not recorded | not collected | not recorded |
 | [08daabea3be74039ad16d3774f879bd5](state/batches/08daabea3be74039ad16d3774f879bd5/batch.json) / review2 | collected / completed | 3 / 3 / 0 | 2026-10-01T21:36:37+00:00 | 2026-10-02T00:06:55+00:00 | 2026-10-02T00:06:54+00:00 |
 | [0c5048a3270f41f488e5de196f34159d](state/batches/0c5048a3270f41f488e5de196f34159d/batch.json) / translate | collected / completed | 10 / 10 / 0 | 2026-10-01T19:14:03+00:00 | 2026-10-01T19:15:02+00:00 | 2026-10-01T19:15:02+00:00 |
 | [0cabf89a6edc49198f585243c2192e61](state/batches/0cabf89a6edc49198f585243c2192e61/batch.json) / review2 | submitted / validating | 0 / 0 / 0 | not recorded | not collected | not recorded |
