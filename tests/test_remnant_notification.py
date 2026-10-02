@@ -7,6 +7,8 @@ import os
 from pathlib import Path
 import re
 import sys
+import subprocess
+import textwrap
 import tempfile
 import unittest
 from unittest.mock import Mock, patch
@@ -155,6 +157,20 @@ class NotificationTests(unittest.TestCase):
         with self.assertRaises(RuntimeError):
             self.send()
         self.assertEqual(self.state.read_bytes(), marker)
+
+    def test_http_errors_report_status_without_private_details_or_saved_success(self):
+        for status in (401, 403, 404, 429, 500):
+            with self.subTest(status=status):
+                self.request.side_effect = dispatch.urllib.error.HTTPError(
+                    'https://private.invalid/synthetic-token', status,
+                    'private response synthetic-token', {'Authorization': 'synthetic-token'},
+                    io.BytesIO(b'private response synthetic-token'))
+                with self.assertRaisesRegex(RuntimeError, 'HTTP ' + str(status)) as error:
+                    self.send()
+                self.assertNotIn('synthetic-token', str(error.exception))
+                self.assertNotIn('private', str(error.exception))
+                self.assertTrue(error.exception.__suppress_context__)
+                self.assertFalse(self.state.exists())
 
     def test_failure_preserves_marker_and_retry_recovers_without_leaking_details(self):
         self.send()
@@ -346,7 +362,7 @@ class WorkflowTests(unittest.TestCase):
         self.assertIn('github.event.workflow_run.head_repository.full_name == github.repository', text)
         self.assertNotIn('pull_request_target:', text)
 
-    def test_each_hook_step_requires_main_and_explicit_opt_in_and_success_save(self):
+    def test_each_hook_step_requires_main_token_presence_and_success_save(self):
         text = WORKFLOW.read_text(encoding='utf-8')
         steps = re.split(r'(?m)^      - name: ', text)[1:]
         selected = [step for step in steps if step.startswith((
@@ -357,7 +373,7 @@ class WorkflowTests(unittest.TestCase):
         for step in selected:
             condition = re.search(r'(?m)^        if: (.+)$', step).group(1)
             self.assertIn("github.ref == 'refs/heads/main'", condition)
-            self.assertIn("vars.REMNANT_NOTIFICATIONS_ENABLED == 'true'", condition)
+            self.assertIn("steps.remnant_config.outputs.configured == 'true'", condition)
             self.assertIn("(github.event_name != 'workflow_dispatch' || inputs.operation == 'collect')", condition)
             self.assertNotIn('always()', condition)
         notify = next(step for step in selected if step.startswith('Notify Remnant'))
@@ -365,11 +381,42 @@ class WorkflowTests(unittest.TestCase):
         self.assertIn('REMNANT_DISPATCH_TOKEN: ${{ secrets.REMNANT_DISPATCH_TOKEN }}', notify)
         self.assertNotIn('--token', notify)
         self.assertIn("steps.remnant_notify.outputs.sent == 'true'", save)
-        self.assertEqual(text.count('secrets.REMNANT_DISPATCH_TOKEN'), 1)
+        self.assertEqual(text.count('secrets.REMNANT_DISPATCH_TOKEN'), 2)
+        self.assertNotIn('REMNANT_NOTIFICATIONS_ENABLED', text)
+        self.assertNotRegex(text, r'(?m)^        if: .*secrets\.')
         self.assertNotIn('continue-on-error:', '\n'.join(selected))
         for step in selected:
             for reference in re.findall(r'uses: (\S+)', step):
                 self.assertRegex(reference, r'^[\w/-]+@[0-9a-f]{40}$')
+
+    def test_real_token_probe_script_only_outputs_a_boolean_and_missing_token_warning(self):
+        text = WORKFLOW.read_text(encoding='utf-8')
+        step = next(step for step in re.split(r'(?m)^      - name: ', text)[1:]
+                    if step.startswith('Check Remnant publishing token availability'))
+        condition = re.search(r'(?m)^        if: (.+)$', step).group(1)
+        self.assertEqual(condition, "github.ref == 'refs/heads/main' && (github.event_name != 'workflow_dispatch' || inputs.operation == 'collect')")
+        self.assertIn('id: remnant_config', step)
+        self.assertIn('REMNANT_DISPATCH_TOKEN: ${{ secrets.REMNANT_DISPATCH_TOKEN }}', step)
+        self.assertLess(text.index('id: remnant_config'), text.index('Restore the last accepted Remnant'))
+        script = textwrap.dedent(step.split('        run: |\n', 1)[1])
+        for token, expected in [('', 'false'), ('synthetic-secret-token', 'true')]:
+            for obsolete_flag in ('', 'false', 'true'):
+                with self.subTest(token_present=bool(token), obsolete_flag=obsolete_flag), tempfile.TemporaryDirectory() as tmp:
+                    output = Path(tmp) / 'output'
+                    summary = Path(tmp) / 'summary'
+                    result = subprocess.run(['bash', '--noprofile', '--norc', '-e', '-o', 'pipefail', '-c', script],
+                        env={'PATH': os.environ.get('PATH', ''), 'REMNANT_DISPATCH_TOKEN': token,
+                             'REMNANT_NOTIFICATIONS_ENABLED': obsolete_flag,
+                             'GITHUB_OUTPUT': str(output), 'GITHUB_STEP_SUMMARY': str(summary)},
+                        capture_output=True, text=True, check=True)
+                    self.assertEqual(output.read_text(), 'configured=' + expected + '\n')
+                    summary_text = summary.read_text() if summary.exists() else ''
+                    self.assertNotIn('synthetic-secret-token', result.stdout + result.stderr + output.read_text() + summary_text)
+                    if token:
+                        self.assertEqual(result.stdout + result.stderr + summary_text, '')
+                    else:
+                        self.assertIn('::warning::Remnant publishing skipped:', result.stdout)
+                        self.assertIn('REMNANT_DISPATCH_TOKEN is not configured', summary_text)
 
 
 if __name__ == '__main__':
