@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "f149ae08-6166-4bad-9a5c-1a1ca3704380",
+    "response_id": "chatcmpl-EUXGLw0hWfDxLOwJNERZi1LTrhVqu",
+    "usage": {
+      "completion_tokens": 702,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2083,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2785
+    }
+  },
+  "received_at": "2026-10-02T13:09:01+00:00",
+  "result": {
+    "html": "<article data-article-id=\"64012528-bcec-4189-96b5-32a226869815\">\n  <figure>\n    <img src=\"/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg\" alt=\"صورة ظلية لشخص يرفع كلا يديه في وجه سماء دافئة\">\n  </figure>\n  <p class=\"poem\">سيأتي يوم يكون فيه كل شيء على ما يرام.<br>\n  الأشياء السيئة ستكون كلها في الجحيم.<br>\n  لكن لا ينبغي أن ننسى أن ذلك اليوم لم يأت بعد.<br>\n  نحن في معركة؛ علينا أن ننتصر بعد.<br>\n  العدو يثور، ووقته هنا قصير.<br>\n  ينشر كل أكاذيبه لتشويه الحقيقة.<br>\n  الخطيئة في حياتنا هي هدفه العظيم.<br>\n  فهو يعلم جيدًا أنها ستكلّفنا أرواحنا.<br>\n  لا تحتاج لأن تكون عظيمة؛ خطيئة صغيرة تكفي.<br>\n  سيغشّ ويخدع، كل نفس يسعى لاقتناصها.<br>\n  سهام الأشرار تأتي من كل جانب.<br>\n  عندما يُواجَه بقدرة الله، ذلك الشيطان—يختبئ!<br>\n  عندما يكون الله معنا، لا يمكنه التقدم!<br>\n  عندما يكون الله معنا، لا فرصة للخطيئة!<br>\n  لأن عيون الرب تفتش هنا وهناك،<br>\n  لتجد واحدًا كاملًا، فسيُظهر قوّته!<br>\n  لنتخلَّ عن الصغير وننظر إلى ما هو أبعد.<br>\n  لنتمسك بقوة الله! حان وقت الاستجابة!</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "المعركة التي تحتدم"
+  }
+}

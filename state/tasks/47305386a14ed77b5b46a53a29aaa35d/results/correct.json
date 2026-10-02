@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "e667e695-05d1-44b3-ac1d-dab91db5cc95",
+    "response_id": "chatcmpl-EUXFCfICOvvSDj0rYkzJ4ulQuAt8B",
+    "usage": {
+      "completion_tokens": 606,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1993,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2599
+    }
+  },
+  "received_at": "2026-10-02T13:09:01+00:00",
+  "result": {
+    "html": "<article data-article-id=\"64012528-bcec-4189-96b5-32a226869815\">\n  <figure>\n    <img src=\"/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg\" alt=\"따뜻한 하늘을 배경으로 두 손을 들어 올린 사람의 실루엣\">\n  </figure>\n  <p class=\"poem\">모든 것이 잘될 날이 오리라.<br>\n  악한 것들은 모두 지옥에 있으리라.<br>\n  그러나 우리는 그날이 아직 오지 않았음을 잊지 말아야 한다.<br>\n  우리는 전투 중이며, 여전히 이겨야 한다.<br>\n  적은 격노하고 그의 시간은 짧다.<br>\n  그는 모든 거짓을 퍼뜨려 진리를 왜곡한다.<br>\n  우리의 삶 속 죄는 그의 큰 목표다.<br>\n  그는 그것이 우리의 영혼을 앗아갈 줄 잘 알고 있다.<br>\n  꼭 큰 죄일 필요는 없다; 작은 죄도 충분하다.<br>\n  그는 속이고 기만하여 각 영혼을 쫓아다닐 것이다.<br>\n  악인의 화살은 사방에서 날아온다.<br>\n  하나님의 능력 앞에 서면 그 마귀는 숨는다!<br>\n  하나님이 우리와 함께하실 때 그는 앞으로 나아갈 수 없다!<br>\n  하나님이 우리와 함께하실 때 죄는 기회를 얻지 못한다!<br>\n  주의 눈은 두루 살피시며,<br>\n  완전한 한 사람을 찾아 그의 능력을 보여 주신다!<br>\n  작은 것에 매여 있지 말고 더 멀리 보자.<br>\n  하나님의 능력을 붙잡자! 이제 응답할 때다!</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "격렬히 벌어지는 전투"
+  }
+}

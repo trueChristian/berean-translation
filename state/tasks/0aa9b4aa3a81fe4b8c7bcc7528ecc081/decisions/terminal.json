@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 1 (line 2 of poem)",
+      "severity": "major",
+      "source_quote": "The things that are bad will all be in hell.",
+      "suggested_fix": "Translate clearly and idiomatically without adding or mangling words. For example: \"Det som är ont ska alla hamna i helvetet.\" (Preserve meaning: the bad things will be in hell.)",
+      "translation_quote": "Det som är ont ska alla vara i helvetets kväl."
+    },
+    {
+      "location": "Paragraph 1 (line 11 of poem)",
+      "severity": "major",
+      "source_quote": "When faced with God’s power, that devil—he hides!",
+      "suggested_fix": "Do not add qualifiers or extra epithets. A faithful Swedish rendering would be: \"När han står inför Guds kraft, då gömmer sig djävulen!\" or more literally preserving the emphatic dash: \"När han möter Guds kraft — då gömmer sig djävulen!\"",
+      "translation_quote": "När han möter Guds kraft, då gömmer sig den gamle, så kall."
+    },
+    {
+      "location": "Paragraph 1 (lines 15–16 of poem)",
+      "severity": "major",
+      "source_quote": "For the eyes of the Lord seek to and fro,\nTo find one perfect, His power He’ll show!",
+      "suggested_fix": "Preserve the sense that the Lord is searching \"to and fro\" to find one perfect person and then will show His power. A clear rendering: \"Ty Herrens ögon söker hit och dit\nför att finna en enda fullkomlig — då skall Han visa sin kraft!\"",
+      "translation_quote": "Ty Herrens ögon söker hit och dit,\nFör att finna en fullkomlig, Hans kraft visar Han dit!"
+    },
+    {
+      "location": "Paragraph 1 (final line)",
+      "severity": "major",
+      "source_quote": "Let’s take hold of God’s power! It’s time to respond!",
+      "suggested_fix": "Render imperative and sense of responding. For example: \"Låt oss ta fast vid Guds kraft! Det är dags att svara!\" Do not insert archaic or incorrect words like \"from\" that alter meaning or grammar.",
+      "translation_quote": "Låt oss gripa Guds kraft! Det är tid att svara i from."
+    },
+    {
+      "location": "Paragraph 1 (line 7 of poem)",
+      "severity": "minor",
+      "source_quote": "It need not be big; a small sin will do.",
+      "suggested_fix": "Grammar/idiom improvement: translate the notion that even a small sin suffices. For example: \"Den behöver inte vara stor; en liten synd räcker.\"",
+      "translation_quote": "Den behöver inte vara stor; en liten synd duger bra."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[21]: source /article[1]/p[1]/br[17] ('start', 'br', ()); translation /article[1]/p[1] ('end', 'p')",
+  "stage": "terminal"
+}

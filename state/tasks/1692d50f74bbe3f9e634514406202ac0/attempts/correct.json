@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:09:00+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg\\\" alt=\\\"Melkweg en sterre bo donker berge en water\\\">\\n  </figure>\\n  <div class=\\\"poem\\\">\\n    <p>Wanneer jy, my vriend, op hierdie aarde staan<br>\\n    En opkyk na die uitspansel bo jou kop<br>\\n    Waar die ruimte wyd uitslaan, wat sien jy dan?<br>\\n    ’n Groot swart kombers gesprei oor die hemelboog<br>\\n    Met hier en daar soveel geheimsinnige ligte daarbo?<br>\\n    Of sien jy die afstande so onmeetlik wyd<br>\\n    Wat die verstand amper tot breekpunt strek<br>\\n    En jou die werklike grootte laat besef?<br>\\n    In die stilheid van die ruim hemel<br>\\n    Lyk die verre planete amper binne bereik<br>\\n    In vergelyking met die reuse afstande van die sterre.<br>\\n    Die maansikkel is nog nader aan jou,<br>\\n    En tog het dit drie volle dae vir die mens gekos<br>\\n    Om daardie klein sfeer wat so naby lyk te bereik.<br>\\n    Maar dit wat jy sien terwyl jy na die hoogtes staar<br>\\n    Wat jy nie eens kan begin begryp nie,<br>\\n    Is net ’n streep van al die uitgestrektheid<br>\\n    Buite die kennis van ons menslike ras.<br>\\n    En so, my vriend, hoop ek dat jy sal voel<br>\\n    Daardie grootheid, uitgestrektheid, leegheid van ruimte<br>\\n    Wat ons Skepper vir ons gemaak het sodat ons<br>\\n    Sy grootsheid en Sy teer liefde kan besef<br>\\n    En nederig ons koppe kan buig en Hom aanbid.</p>\\n  </div>\\n  <p><em>– deur Daniel Kaufman</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Wat sien jy?\"}",
+    "content_bytes": 1616,
+    "content_evidence_truncated": false,
+    "content_sha256": "4cc3369ee338671f56db8fc2cf2f6dee5fea21f9d56df80c21bfe88fb5ff8e53",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 728,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2720,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3448
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

@@ -2,7 +2,6 @@
   "article_id": "30d02d2c-805c-437c-ad10-4542362ab6de",
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "218868bb4abc4818bed9c11ca96932e3",
   "campaign": "gh-37008194209",
   "created_at": "2026-10-02T12:43:46+00:00",
   "events": [
@@ -43,9 +42,29 @@
         },
         "total_tokens": 12563
       }
+    },
+    {
+      "model": "gpt-5-mini-2025-08-07",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 5905,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12294,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "total_tokens": 18199
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[4]: source /article[1]/blockquote[1]/p[1]/em[1]/br[1] ('start', 'br', ()); translation /article[1]/blockquote[1]/p[1]/em[1] ('end', 'em')",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "Top blockquote (opening Scripture Luke 24:17)",
@@ -104,6 +123,7 @@
       "translation_quote": "(see Proverbs 13:12) ; (Genesis 41:1)"
     }
   ],
+  "finished_at": "2026-10-02T13:09:01+00:00",
   "id": "cae5bf1275e5dcbe8e4c5dc9d2f60d94",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "swe",
@@ -183,7 +203,7 @@
   "review_model_actual": "gpt-5-mini-2025-08-07",
   "source_snapshot": "state/sources/f6ab9961323e616863eb6439ba02dc39cc2ebee29143de95816c983763cc88c5.json",
   "stage": "correct",
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "ceb52dc3bb5b5ab212a3930b445c8849f8521bc253df2cec9d019d90e889292e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "139c63b0-dcd9-4ee1-a6f9-16bb1906a4f3",
+    "response_id": "chatcmpl-EUXEoNeucYikqJAH8smlHwbYU7Wj8",
+    "usage": {
+      "completion_tokens": 870,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2471,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3341
+    }
+  },
+  "received_at": "2026-10-02T13:09:01+00:00",
+  "result": {
+    "html": "<article data-article-id=\"64012528-bcec-4189-96b5-32a226869815\">\n  <figure>\n    <img src=\"/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg\" alt=\"Umbo la mtu akiinua mikono miwili dhidi ya anga ya joto\">\n  </figure>\n  <p class=\"poem\">Kuna siku itakayotokea yote yatakuwa sawa.<br>\n  Mambo mabaya yote yatakuwa motoni.<br>\n  Lakini tusisahau kuwa siku hiyo bado haijafika.<br>\n  Tuko katika vita; bado lazima tushinde.<br>\n  Adui anakasirika, muda wake hapa mfupi ni.<br>\n  Anasambaza uongo wake wote, ukweli kugeuza ni moyo wake.<br>\n  Dhambi katika maisha yetu, hilo ndilo lengo lake kuu.<br>\n  Kwa maana anajua vyema itagharimu nafsi yetu.<br>\n  Haihitaji kuwa kubwa; hata dhambi ndogo itatosha.<br>\n  Atatufanya udanganyifu, kufuata nafsi kila mmoja atatoa mtego.<br>\n  Mishale ya mabaya hutupiga kutoka pande zote.<br>\n  Anapokumbana na nguvu za Mungu, yule shetani hujificha!<br>\n  Wakati Mungu yuko pamoja nasi, hawezi kusonga mbele!<br>\n  Wakati Mungu yuko pamoja nasi, dhambi haina nafasi!<br>\n  Kwa kuwa macho ya Bwana yanatafuta kwa makini,<br>\n  Ili aweze kumtafuta mmoja kamili, nguvu zake zionyeshwe kwa wazi!<br>\n  Tuwache yale madogo na tuangalie mbali zaidi ya sasa.<br>\n  Tuchukue nguvu za Mungu! Ni wakati wa kujibu!</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Mapigano Yanayoendelea"
+  }
+}

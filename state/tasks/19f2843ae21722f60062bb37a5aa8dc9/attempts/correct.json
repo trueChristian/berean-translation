@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:09:00+00:00",
+  "response": {
+    "content": "{\n  \"html\": \"<article data-article-id=\\\"64012528-bcec-4189-96b5-32a226869815\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg\\\" alt=\\\"Silhouette d'une personne levant les deux mains contre un ciel chaleureux\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">Viendra un jour où tout ira bien.<br>\\n  Les choses mauvaises seront toutes en enfer.<br>\\n  Mais il ne faut pas oublier que ce jour n'est pas encore venu.<br>\\n  Nous sommes dans une bataille ; nous devons encore vaincre.<br>\\n  L'ennemi fait rage, son temps ici est court.<br>\\n  Il répand tous ses mensonges, pour déformer la vérité.<br>\\n  Le péché dans nos vies, c'est son grand objectif.<br>\\n  Car il sait très bien que cela nous coûtera notre âme.<br>\\n  Il n'est pas nécessaire que ce soit grave ; un petit péché suffit.<br>\\n  Il trompera et dupera, pour poursuivre chaque âme.<br>\\n  Les flèches du méchant viennent de tous côtés.<br>\\n  Face à la puissance de Dieu, ce diable—il se cache !<br>\\n  Quand Dieu est avec nous, il ne peut avancer !<br>\\n  Quand Dieu est avec nous, le péché n'a aucune chance !<br>\\n  Car les yeux du Seigneur scrutent d'un bout à l'autre,<br>\\n  Pour trouver ne serait-ce qu'un seul parfait, Il manifestera Sa puissance !<br>\\n  Abandonnons les choses secondaires et regardons bien au‑delà.<br>\\n  Saisissons la puissance de Dieu ! Il est temps de répondre !</p>\\n</article>\\n\",\n  \"section\": null,\n  \"subtitle\": null,\n  \"title\": \"La bataille qui fait rage\"\n}",
+    "content_bytes": 1522,
+    "content_evidence_truncated": false,
+    "content_sha256": "cb3af4494d596db8d79a790628fc2c140e89a985299e5deabc0bed5ba7409b19",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 845,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2264,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3109
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

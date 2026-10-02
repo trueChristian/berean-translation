@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:09:01+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"64012528-bcec-4189-96b5-32a226869815\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg\\\" alt=\\\"Silueta de una persona levantando ambas manos contra un cielo cálido\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">Vendrá un día en que todo irá bien.<br>\\n  Lo malo estará todo en el infierno, también.<br>\\n  Pero no debemos olvidar que ese día no ha llegado aún.<br>\\n  Estamos en una batalla; aún debemos vencer.<br>\\n  El enemigo enfurece; su tiempo aquí es corto.<br>\\n  Esparce todas sus mentiras para distorsionar la verdad.<br>\\n  El pecado en nuestras vidas es su gran ambición.<br>\\n  Porque sabe muy bien que nos costará el alma.<br>\\n  No tiene que ser grande; un pecado pequeño bastará.<br>\\n  Engañará y embaucará, buscando cada alma.<br>\\n  Las saetas de los impíos vienen de todos los lados.<br>\\n  Cuando se enfrenta al poder de Dios, ¡ese diablo—se esconde!<br>\\n  ¡Cuando Dios está con nosotros, no puede avanzar!<br>\\n  ¡Cuando Dios está con nosotros, el pecado no tiene oportunidad ya!<br>\\n  Porque los ojos del Señor escudriñan de un lado a otro,<br>\\n  Para encontrar uno perfecto, ¡su poder Él mostrará con arrojo!<br>\\n  Dejemos lo menor y miremos mucho más allá.<br>\\n  ¡Tomemos el poder de Dios! ¡Es hora de responder ya!</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"La batalla que hace estragos\"}",
+    "content_bytes": 1436,
+    "content_evidence_truncated": false,
+    "content_sha256": "58156c4e8fa9823a86a5cf0cc3cf0c886d70d69c82f5827a2a49c95bdd30fee0",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 627,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2522,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3149
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "70301be8-ba92-4cfb-803d-8246c48f7844",
+    "response_id": "chatcmpl-EUXEqgtoxgnJhgdbr7OVssj7nu7da",
+    "usage": {
+      "completion_tokens": 622,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1990,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2612
+    }
+  },
+  "received_at": "2026-10-02T13:09:01+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df\">\n  <figure>\n    <img src=\"/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg\" alt=\"Via Láctea e estrelas acima de montanhas escuras e água\">\n  </figure>\n  <div class=\"poem\">\n    <p>Quando tu, meu amigo, estiveres neste chão<br>\n    E olhando para o firmamento lá no alto<br>\n    Onde todo o espaço se estende, o que vês?<br>\n    Um grande manto negro estendido por todo o céu<br>\n    Com muitos mistérios de luz em algum lugar lá em cima?<br>\n    Ou consegues ver as distâncias tão grandes<br>\n    Que esticam a mente quase até romper<br>\n    E te fazem sentir o tamanho que realmente és?<br>\n    No silêncio imóvel do amplo céu,<br>\n    Os planetas distantes parecem quase ao alcance<br>\n    Comparados com a imensa distância às estrelas.<br>\n    A lua crescente está ainda mais próxima de ti,<br>\n    E, contudo, levou três dias inteiros para o homem alcançar<br>\n    Aquela pequena esfera tão perto à mão.<br>\n    Mas aquilo que vês ao mirar as alturas<br>\n    Que não podes começar a compreender<br>\n    É apenas um rasgo de toda a vastidão<br>\n    Além do conhecimento desta raça humana.<br>\n    E assim, meu amigo, espero que sintas<br>\n    Essa grandeza, vastidão, vazio do espaço<br>\n    Que nosso Criador fez para nós, para que possamos<br>\n    Sentir Sua grandeza e Seu terno amor<br>\n    E humilde inclinar nossas cabeças e adorá-Lo.</p>\n  </div>\n  <p><em>–by Daniel Kaufman</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "O que você vê?"
+  }
+}

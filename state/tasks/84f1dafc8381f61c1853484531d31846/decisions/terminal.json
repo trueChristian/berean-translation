@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "source.html — multiple locations (opening blockquote Luke 24:17; Jeremiah 15:18; 2 Corinthians 1:8-9; Luke 24:18; Acts 7:25; Numbers 11:14-15; Luke 24:16; Luke 24:19; 1 Corinthians 13:12; Genesis 28:20-21; Genesis 32:24-28; Luke 24:20; Job 24:17; Job 3:1-6; Luke 24:21; Genesis 15:12; 2 Corinthians 1:9; Luke 24:21; Psalm 13:1; Genesis 41:1; Psalm 105:18-19; Luke 24:22-23; 1 Kings 19:4; Luke 24:24; John 1:29; Luke 7:19; Matthew 27:46; Mark 16:13)",
+      "severity": "critical",
+      "source_quote": "All quoted Scripture and other quoted substantive passages as printed in source.html (examples: “And he said unto them, What manner of communications are these… –Luke 24:17.”; “Why is my pain perpetual… –Jeremiah 15:18.”; “For we would not, brethren… –2 Corinthians 1:8-9.”; poem: “Long my imprisoned spirit lay,… - Charles Wesley”; many more)",
+      "suggested_fix": "Translate every quoted Scripture verse and every other quoted substantive passage (including the Charles Wesley poem and any in‑text quoted phrases like “about threescore furlongs” when presented as quoted English) into standard contemporary Russian. Preserve the exact book names (in conventional Russian forms), chapter and verse numbers, ranges, and the number and placement of references unchanged. Keep HTML structure and em/blockquote tags unchanged; only replace the English quoted text with a faithful Russian rendering that conveys the printed authoritative English meaning. Example fixes (apply consistently across the article):\n- Replace “And he said unto them, What manner of communications are these… –Luke 24:17.” with «И сказал им: о чем вы разговариваете между собою, шагая и печальные? — Луки 24:17.» (use conventional Russian Bible book name and include the verse reference exactly as in source). \n- Translate the poem into Russian or, if an authorized Russian translation is unavailable, provide a faithful Russian rendition preserving the fact that it is a Charles Wesley quotation and keep the footer <em>- Charles Wesley</em>. \nDo this for every scripture and quoted passage in the article so no substantive quoted prose remains in English.",
+      "translation_quote": "Many scripture quotations and other quoted substantive prose remain in English in the translation (same examples as in source_quote)."
+    },
+    {
+      "location": "source.html — paragraph listing D words (first paragraph)",
+      "severity": "minor",
+      "source_quote": "“It appears rather coincidental that so many words with a negative connotation begin with the letter D: Disappointment, Doubt, Doleful, Doom, Disillusionment, Discouragement, Dreary, Defeat, Despondency, Depression, Despair, Devastation, Deception, and Death.”",
+      "suggested_fix": "Translate the English words in parentheses to Russian (or present only Russian equivalents). For consistency translate or transliterate all items. Example: replace 'Disappointment (разочарование), Doubt (сомнение), Doleful (печальный)… Death' with fully Russian terms: «разочарование, сомнение, печаль, рок, разочарование в иллюзиях, упадок духа, уныние, поражение, уныние/отчаяние (choose appropriate single term for 'Despondency'), депрессия, отчаяние, опустошение, обман и смерть.» Ensure no English lexical items remain in the list.",
+      "translation_quote": "Translation currently leaves the original English nouns in parentheses (e.g., “Disappointment (разочарование), Doubt (сомнение) … Death”)."
+    },
+    {
+      "location": "source.html — paragraph about distance: “about threescore furlongs”",
+      "severity": "minor",
+      "source_quote": "“The road from Jerusalem to Emmaus was about threescore furlongs or approximately seven miles.”",
+      "suggested_fix": "Translate the quoted phrase “about threescore furlongs” into Russian. Either render as «примерно шестьдесят срачков» is wrong — use an accurate idiomatic translation: «примерно шестьдесят саженей» is also inaccurate; better: replace quoted phrase with fully Russian wording and keep the explanatory measure: «Дорога от Иерусалима до Эммауса была «примерно шестьдесят фурлонгов», то есть примерно семь миль.» (If 'фурлонг' is unfamiliar, keep the numeric equivalence only: «примерно семь миль (около 11 км)»). Ensure the quoted English phrase is not left unchanged.",
+      "translation_quote": "Translation currently leaves “about threescore furlongs” in English inside em tags."
+    },
+    {
+      "location": "source.html — multiple inline English words left untranslated (examples: “D-Day”, “surrender (смирение)”, “reason” in emphasis, “two full years”, “FOMO”, “see Proverbs 13:12” parenthetical)",
+      "severity": "minor",
+      "source_quote": "Instances such as: “D-day” ; “His victory was through surrender” (English word 'surrender' in parentheses in translation); “Every reason” uses English 'reason' in <em> tags; “two full years (Genesis 41:1)”; “(see Proverbs 13:12)”; “FOMO”",
+      "suggested_fix": "Replace the residual English words with standard contemporary Russian equivalents (or translate and, if necessary, add a brief parenthetical explanation in Russian). Examples: “D‑day” → «День Д»; “surrender (смирение)” → use only «смирение» or «покаяние/сдача» depending on context; “reason” → «причина/повод» as appropriate in context; “two full years” → «полных два года»; “(see Proverbs 13:12)” → «(см. Притчи 13:12)»; “FOMO” → translate or explain: «страх упустить (FOMO)» or simply «страх упустить (FOMO)» so the English acronym need not stand alone.",
+      "translation_quote": "Examples shown in the translation where English words remain: “D-ден” used earlier but other places retain English; “surrender (смирение)” etc."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[4]: source /article[1]/blockquote[1]/p[1]/em[1]/br[1] ('start', 'br', ()); translation /article[1]/blockquote[1]/p[1]/em[1] ('end', 'em')",
+  "stage": "terminal"
+}

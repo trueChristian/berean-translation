@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:09:00+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"64012528-bcec-4189-96b5-32a226869815\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg\\\" alt=\\\"Siluett av en person som höjer båda händerna mot en varm himmel\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">Det kommer en dag när allt ska bli väl.<br>\\n  Det som är ont ska alla hamna i helvetet.<br>\\n  Men vi får inte glömma att den dagen inte är här.<br>\\n  Vi är i en kamp; vi måste fortfarande segra.<br>\\n  Fienden rasar, hans tid här är kort.<br>\\n  Han sprider alla sina lögner för att sanningen förvränga stort.<br>\\n  Synd i våra liv är hans stora mål.<br>\\n  Ty han vet mycket väl att det kan kosta oss vår själ.<br>\\n  Den behöver inte vara stor; en liten synd räcker.<br>\\n  Han lurar och bedrar och jagar varje själ han kan täcka.<br>\\n  De ogudaktigas pilar kommer från alla håll.<br>\\n  När han möter Guds kraft — då gömmer sig djävulen!<br>\\n  När Gud är med oss kan han inte gå fram!<br>\\n  När Gud är med oss har synd ingen chans!<br>\\n  Ty Herrens ögon söker hit och dit\\n  för att finna en enda fullkomlig — då skall Han visa sin kraft!<br>\\n  Låt oss göra slut med det lilla och se långt bortom.<br>\\n  Låt oss ta tag i Guds kraft! Det är dags att svara!</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Striden som rasar\"}",
+    "content_bytes": 1373,
+    "content_evidence_truncated": false,
+    "content_sha256": "e070d6b156012f3c3a2acc1e2e583541ba945a82de935f9ddae8e0146c327e25",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 826,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 384,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2292,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3118
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

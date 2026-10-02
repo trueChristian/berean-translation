@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:09:01+00:00",
+  "response": {
+    "content": "{\n  \"html\": \"<article data-article-id=\\\"64012528-bcec-4189-96b5-32a226869815\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg\\\" alt=\\\"Silhoeët van ’n persoon wat albei hande ophef teen ’n warm lug\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">Daar kom ’n dag wanneer alles goed sal wees.<br>\\n  Die dinge wat sleg is, sal in die hel wees.<br>\\n  Maar ons moet nie vergeet dat daardie dag nog nie aangebreek het nie.<br>\\n  Ons is in ’n geveg; ons moet steeds oorwin.<br>\\n  Die vyand woed; sy tyd hier is kort.<br>\\n  Hy versprei al sy leuens om die waarheid te verdraai.<br>\\n  Sonde in ons lewens is sy groot doelwit, want hy weet goed dit kan ons siel kos.<br>\\n  Dit hoef nie groot te wees nie; ’n klein sonde sal volstaan.<br>\\n  Hy sal bedrieg en mislei en elke siel agterna jaag.<br>\\n  Die pyle van die boosheid kom van alle kante af.<br>\\n  In die aangesig van God se krag verberg daardie duiwel hom!<br>\\n  Wanneer God by ons is, kan hy nie vorder nie!<br>\\n  Wanneer God by ons is, het sonde geen kans nie!<br>\\n  Want die oë van die Here soek heen en weer, om ’n volmaakte een te vind; dan sal Hy sy krag openbaar.<br>\\n  Laat ons klaar wees met die klein en kyk ver daarbuite.<br>\\n  Kom ons gryp God se krag! Dit is tyd om te reageer!</p>\\n</article>\\n\",\n  \"section\": null,\n  \"subtitle\": null,\n  \"title\": \"Die Stryd Wat Woed\"\n}",
+    "content_bytes": 1388,
+    "content_evidence_truncated": false,
+    "content_sha256": "a165c46ade294ba9b306d5148f2bf2d4064430a2d13d441e48cf40bf9192d5b1",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 794,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 320,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2952,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3746
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}

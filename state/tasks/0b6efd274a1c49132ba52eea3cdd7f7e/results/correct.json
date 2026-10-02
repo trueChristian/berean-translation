@@ -1,0 +1,29 @@
+{
+  "provenance": {
+    "model": "gpt-5-mini-2025-08-07",
+    "request_id": "fc9aef1d-528c-4c2d-b446-329f66dece86",
+    "response_id": "chatcmpl-EUXEv9rtSDklF35vaCYZ3FxsAsamI",
+    "usage": {
+      "completion_tokens": 810,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 256,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2467,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3277
+    }
+  },
+  "received_at": "2026-10-02T13:09:00+00:00",
+  "result": {
+    "html": "<article data-article-id=\"8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df\">\n  <figure>\n    <img src=\"/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg\" alt=\"שביל החלב והכוכבים מעל הרים אפלים ומים\">\n  </figure>\n  <div class=\"poem\">\n    <p>כשאתה, חברי, עומד על אדמה זו<br>\n    ומביט מעלה אל הרקיע הרחב.<br>\n    כאשר מתפרס כל חלל—מה אתה רואה?<br>\n    שמיכה שחורה ורחבה המתוחה על פני כל השמים<br>\n    ועליה כאן ושם ניצוץ של אור מסתורי?<br>\n    או האם אתה מבחין במרחקים כה עצומים<br>\n    שמתחילים לשבר את גבול ההבנה שלך<br>\n    וגורמים לך להרגיש את גודלך האמיתי?<br>\n    בדממת השקט של השמים הנרחבים,<br>\n    כוכבי הלכת הרחוקים נראים כמעט בהישג יד<br>\n    לעומת המרחק העצום אל הכוכבים.<br>\n    הסהר קרוב אליך אפילו יותר,<br>\n    ובכל זאת לקח לאדם שלושה ימים מלאים להגיע<br>\n    לאותו כדור קטן כל כך קרוב.<br>\n    אך מה שאתה רואה כשאתה מביט מעלה אל גבהים<br>\n    שאינך מסוגל אפילו להתחיל לתפוס<br>\n    אינו אלא פס של כל המרחב העצום<br>\n    שמעבר לידיעת המין האנושי הזה.<br>\n    לכן, חברי, אני מקווה שתרגיש<br>\n    את הגדולה, הרוחב והריקנות של החלל —<br>\n    שהבורא שלנו יצר עבורנו כדי שנוכל<br>\n    להרגיש את גדולתו ואת אהבתו העדינה<br>\n    ולהשפיל ראשינו בענווה ולהשתחוות לו.</p>\n  </div>\n  <p><em>–מאת דניאל קאופמן</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "מה אתה רואה?"
+  }
+}

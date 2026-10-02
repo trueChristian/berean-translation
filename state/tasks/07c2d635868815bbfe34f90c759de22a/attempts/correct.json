@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-10-02T13:09:00+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df-1.jpg\\\" alt=\\\"ملی وے اور ستارے تاریک پہاڑوں اور پانی کے اوپر\\\">\\n  </figure>\\n  <div class=\\\"poem\\\">\\n    <p>جب تم، میرے دوست، اس زمین پر کھڑے ہوتے ہو<br>\\n    اور فلک کی طرف نگاہ اٹھاتے ہو<br>\\n    جہاں پوری خلاء پھیلی ہوئی ہے، تو تم کیا دیکھتے ہو؟<br>\\n    ایک بڑا سا سیاہ کمبل جو سارا آسمان ڈھانپے ہوئے ہے<br>\\n    اور کہیں اوپر کئی پراسرار روشنی کے ٹکڑے؟<br>\\n    یا کیا تم اتنی دوری دیکھ سکتے ہو<br>\\n    جو ذہن کو تقریباً توڑ دینے تک پھیلی ہوئی ہے<br>\\n    اور تمہیں اپنی حقیقی چھوٹائی کا احساس دلاتی ہے؟<br>\\n    وسیع آسمان کی خاموشی میں،<br>\\n    دور دراز سیارے تقریباً پہنچ جانے جیسے لگتے ہیں<br>\\n    اس کے مقابلے میں کہ ستاروں تک کتنی عظیم دوری ہے۔<br>\\n    ہلالی چاند تمہارے اور بھی قریب ہے،<br>\\n    اور پھر بھی انسان کو پوری طرح پہنچنے میں تین دن لگے<br>\\n    اس چھوٹی سی کرۂِ چاند تک جو ہاتھ کے بالکل قریب تھی۔<br>\\n    لیکن جو تم دیکھتے ہو جب تم بلندیوں کی طرف نگاہ ڈالتے ہو<br>\\n    جنہیں تم سمجھنا بھی شروع نہیں کر سکتے<br>\\n    وہ محض ایک رخ ہے اس وسیع وسعت کا<br>\\n    جو اس انسانی نسل کے علم سے ماورا ہے۔<br>\\n    اور اس لیے، میرے دوست، میں امید کرتا ہوں کہ تم اس بات کا احساس کرو گے<br>\\n    وہ عظمت، وہ وسعت، وہ خلا کا رعب<br>\\n    جنہیں ہمارے خالق نے ہمارے لیے پیدا کیا تاکہ ہم<br>\\n    اس کی عظمت اور اس کی مہربان محبت محسوس کر سکیں<br>\\n    اور عاجزی سے اپنے سر جھکا کر اس کی عبادت کریں۔</p>\\n  </div>\\n  <p><em>–بذریعہ Daniel Kaufman</em></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"آپ کیا دیکھتے ہیں؟\"}",
+    "content_bytes": 2446,
+    "content_evidence_truncated": false,
+    "content_sha256": "f50c6b4042505baf3de0e1d16c7800794b7c3f55bf22bb113c8e26e58334c8f3",
+    "finish_reason": "stop",
+    "model": "gpt-5-mini-2025-08-07",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 807,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2614,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3421
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}
