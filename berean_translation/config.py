@@ -31,9 +31,19 @@ class Config:
                     raise ContractError(f'Ambiguous language alias: {alias}')
                 self.language_aliases[key] = code
         for name, model in self.models.items():
+            if not isinstance(model, dict):
+                raise ContractError('Model configuration must be an object')
             if not re.fullmatch(r'[a-z0-9][a-z0-9.-]*',name) or not re.fullmatch(r'[a-z0-9][a-z0-9.-]*',model.get('api_model','')):
                 raise ContractError('Invalid model identity')
-            for field in ('input_batch_usd_per_million','output_batch_usd_per_million'):
+            cache_fields = {'cached_input_batch_usd_per_million', 'cache_write_batch_usd_per_million'}
+            long_fields = {'long_context_threshold_tokens', 'long_context_input_multiplier',
+                           'long_context_output_multiplier'}
+            if (cache_fields & model.keys()) and not cache_fields <= model.keys():
+                raise ContractError('Cache pricing requires both read and write rates')
+            if (long_fields & model.keys()) and not long_fields <= model.keys():
+                raise ContractError('Long-context pricing requires a threshold and both multipliers')
+            for field in ('input_batch_usd_per_million','output_batch_usd_per_million',
+                          *sorted(cache_fields & model.keys())):
                 value = model.get(field)
                 if type(value) not in (int,float) or not math.isfinite(value) or value < 0:
                     raise ContractError('Model prices must be finite nonnegative numbers')
@@ -41,6 +51,14 @@ class Config:
                 raise ContractError('Model token limits must be positive integers')
             if model['max_output_tokens'] > model['context_tokens']:
                 raise ContractError('Output token limit exceeds model context')
+            if long_fields <= model.keys():
+                threshold = model['long_context_threshold_tokens']
+                if type(threshold) is not int or not 0 < threshold < model['context_tokens']:
+                    raise ContractError('Long-context threshold must be a positive input token count below context')
+                for field in ('long_context_input_multiplier', 'long_context_output_multiplier'):
+                    value = model[field]
+                    if type(value) not in (int, float) or not math.isfinite(value) or value < 1:
+                        raise ContractError('Long-context multipliers must be finite and at least one')
         for field in ('max_tasks_per_request','max_batch_requests','max_batch_bytes','max_output_tokens',
                       'review_output_tokens','max_source_html_bytes','max_result_bytes',
                       'max_batches_per_tick','max_pending_campaigns_per_tick'):
@@ -63,6 +81,8 @@ class Config:
             limit = refresh.get('max_campaigns_per_tick')
             if type(limit) is not int or not 1 <= limit <= 5:
                 raise ContractError('Automatic source refresh permits at most five campaigns per discovery tick')
+        from .downstream import validate_policy
+        validate_policy(self)
         if self.runtime['max_translation_attempts'] != 2:
             raise ContractError('Exactly two translation attempts are the hard limit')
         if self.runtime['quality_threshold'] != 95:

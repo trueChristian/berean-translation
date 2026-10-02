@@ -1,6 +1,6 @@
 """Structured API requests and conservative, stage-by-stage budget reservations."""
 from __future__ import annotations
-import math
+from decimal import Decimal, ROUND_CEILING
 from .common import ContractError, canonical, json_hash, loads, read_json
 
 TRANSLATION_SCHEMA = {
@@ -15,6 +15,70 @@ REVIEW_SCHEMA = {
                       **{k:{'type':'string'} for k in ('location','source_quote','translation_quote','suggested_fix')}},
         'required':['severity','location','source_quote','translation_quote','suggested_fix']}}},
     'required':['score','passed','findings']}
+
+
+def _batch_rates(model: dict, input_tokens: int) -> tuple[Decimal, Decimal, Decimal, Decimal]:
+    """Use the campaign's frozen prices, including whole-request long context."""
+    ordinary = Decimal(str(model['input_batch_usd_per_million']))
+    cached = Decimal(str(model.get('cached_input_batch_usd_per_million', ordinary)))
+    written = Decimal(str(model.get('cache_write_batch_usd_per_million', ordinary)))
+    output = Decimal(str(model['output_batch_usd_per_million']))
+    threshold = model.get('long_context_threshold_tokens')
+    if threshold is not None and input_tokens > threshold:
+        multiplier = Decimal(str(model['long_context_input_multiplier']))
+        ordinary, cached, written = (rate * multiplier for rate in (ordinary, cached, written))
+        output *= Decimal(str(model['long_context_output_multiplier']))
+    return ordinary, cached, written, output
+
+
+def reserve_cost(model: dict, input_tokens: int, output_tokens: int) -> float:
+    """Reserve the worst input category and all visible/reasoning output tokens."""
+    if any(type(value) is not int or value < 0 for value in (input_tokens, output_tokens)):
+        raise ContractError('Cost token bounds must be nonnegative integers')
+    ordinary, cached, written, output = _batch_rates(model, input_tokens)
+    # Cache writes replace ordinary input billing; no cache hit is assumed.
+    # Round up to a microdollar before the campaign ledger adds reservations.
+    microdollars = input_tokens * max(ordinary, cached, written) + output_tokens * output
+    return float(microdollars.to_integral_value(rounding=ROUND_CEILING) / 1000000)
+
+
+def usage_cost(model: dict, usage: dict) -> float | None:
+    """Price reported Chat Completions usage, conservatively filling cache gaps.
+
+    Missing/invalid total counters return None, never a fabricated zero. When
+    cache counters are absent or invalid, their unknown share uses the highest
+    input rate. Legacy frozen entries without cache prices retain their former
+    ordinary-input accounting. This is telemetry, not a release of reservations.
+    """
+    if not isinstance(usage, dict):
+        return None
+    input_tokens, output_tokens = usage.get('prompt_tokens'), usage.get('completion_tokens')
+    if any(type(value) is not int or value < 0 for value in (input_tokens, output_tokens)):
+        return None
+    ordinary, cached, written, output = _batch_rates(model, input_tokens)
+    unknown = max(ordinary, cached, written)
+    details = usage.get('prompt_tokens_details')
+    details = details if isinstance(details, dict) else {}
+    counts = {key:details.get(key) for key in ('cached_tokens', 'cache_write_tokens')}
+    # A reported malformed or contradictory breakdown cannot justify discounts.
+    malformed = any(value is not None and (type(value) is not int or value < 0)
+                    for value in counts.values())
+    if not malformed:
+        malformed = sum(value for value in counts.values() if value is not None) > input_tokens
+    if malformed:
+        input_cost = input_tokens * unknown
+    else:
+        cache_count, write_count = counts['cached_tokens'], counts['cache_write_tokens']
+        remainder = input_tokens - (cache_count or 0) - (write_count or 0)
+        # A missing cache-write count may conceal premium-rate input. If writes
+        # are known, unknown cache reads cannot cost more than ordinary input.
+        remainder_rate = max(ordinary, cached) if write_count is not None else unknown
+        if cache_count is not None and write_count is not None:
+            remainder_rate = ordinary
+        input_cost = ((cache_count or 0) * cached + (write_count or 0) * written
+                      + remainder * remainder_rate)
+    # completion_tokens already includes reasoning tokens; never add them again.
+    return float((input_cost + output_tokens * output) / 1000000)
 
 
 def build_request(config, state, task):
@@ -41,6 +105,8 @@ def build_request(config, state, task):
         payload['translation'] = state.candidate(task)
     if task['stage'] == 'correct':
         payload['correction_findings'] = task.get('findings',[])
+        if task.get('downstream_recovery'):
+            payload['rejection_reason'] = task.get('rejection_reason')
     output_limit = campaign['review_output_tokens'] if review else campaign['max_output_tokens']
     output_limit = min(output_limit,model['max_output_tokens'])
     body = {'model':model['api_model'],
@@ -56,8 +122,7 @@ def build_request(config, state, task):
     input_bound = len(canonical(body)) + 4096
     if input_bound + output_limit > model['context_tokens']:
         raise ContractError('Conservative request token bound exceeds the selected model context')
-    estimate = math.ceil((input_bound*model['input_batch_usd_per_million'] +
-                          output_limit*model['output_batch_usd_per_million'])) / 1000000
+    estimate = reserve_cost(model, input_bound, output_limit)
     line = {'custom_id':task['id'] + ':' + task['stage'],'method':'POST','url':'/v1/chat/completions','body':body}
     return line,estimate,input_bound
 

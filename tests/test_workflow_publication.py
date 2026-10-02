@@ -37,7 +37,8 @@ class WorkflowPublicationTests(unittest.TestCase):
             'group': 'berean-translation-state-writer', 'cancel-in-progress': 'false'})
         self.assertEqual(self.document['on']['schedule'], [{'cron': '7,22,37,52 * * * *'}])
         self.assertEqual(self.document['on']['workflow_run'], {
-            'workflows': ['AI — OpenAI', 'AI — Review', 'AI — Recover candidates'], 'types': ['completed']})
+            'workflows': ['AI — OpenAI', 'AI — Review', 'AI — Recover candidates',
+                          'AI — Repair held translations'], 'types': ['completed']})
         self.assertEqual(self.document['on']['push'], {'branches': ['main'], 'paths': ['content/**']})
         operation = self.document['on']['workflow_dispatch']['inputs']['operation']
         self.assertEqual(operation['options'], ['collect', 'cancel', 'resolve-absent'])

@@ -27,7 +27,10 @@ def enqueue_github(config, request, repository: str, token: str, transport=githu
         raise ContractError('Invalid target repository')
     if not re.fullmatch(r'[A-Za-z0-9_-]{1,80}',request['id']):
         raise ContractError('Invalid queue identity')
-    if not recovery_selector(request, config.runtime['max_tasks_per_request']):
+    if request.get('operation') == 'repair':
+        from .downstream import validate_request
+        validate_request(config, request)
+    elif not recovery_selector(request, config.runtime['max_tasks_per_request']):
         config.select_languages(request['languages'])
     config.model(request['model']); config.model(request['review_model'])
     positive_money(request['budget_usd'],config.runtime['max_campaign_usd'])

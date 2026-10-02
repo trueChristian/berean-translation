@@ -14,12 +14,12 @@ on:
       model:
         description: "Bounded correction model (saved candidate is reviewed first)"
         type: choice
-        options: [gpt-5-mini, gpt-4.1-mini, gpt-4.1-nano, gpt-4.1]
+        options: [gpt-5-mini, gpt-4.1-mini, gpt-4.1-nano, gpt-4.1, gpt-6.1-sol, gpt-6-astra]
         default: gpt-5-mini
       review_model:
         description: "Independent review model"
         type: choice
-        options: [gpt-5-mini, gpt-4.1-mini, gpt-4.1-nano, gpt-4.1]
+        options: [gpt-5-mini, gpt-4.1-mini, gpt-4.1-nano, gpt-4.1, gpt-6.1-sol, gpt-6-astra]
         default: gpt-5-mini
       budget_usd:
         description: "Full USD envelope permanently allocated from original remaining cap, including all stages"

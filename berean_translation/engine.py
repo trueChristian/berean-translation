@@ -18,6 +18,8 @@ from .requests import accepted_review, build_request, parse_response
 from .refresh import enqueue_source_refreshes
 from .recovery import is_recovery_campaign, plan_recovery, recorded_request, recovery_selector
 from .state import State, TERMINAL
+from . import downstream
+from .attempts import archive
 
 BATCH_TERMINAL = {'completed','failed','expired','cancelled'}
 
@@ -82,6 +84,8 @@ class Engine:
         return True,'new_or_changed_source'
 
     def accept_request(self, request):
+        if request.get('operation') == 'repair':
+            return downstream.accept(self, request)
         identity = request.get('id','')
         if not re.fullmatch(r'[A-Za-z0-9_-]{1,80}', identity):
             raise ContractError('Invalid queue request identity')
@@ -260,6 +264,8 @@ class Engine:
         self.checkpoint('runtime: accept pending translation requests')
 
     def finish(self, task, status, reason=None):
+        if task['status'] in TERMINAL:
+            return  # A replay cannot rewrite a terminal task or append duplicate history.
         task['status'],task['finished_at'] = status,now()
         task.pop('batch',None)
         if reason:
@@ -270,6 +276,8 @@ class Engine:
         self.state.save_record(record)
 
     def publish(self, task):
+        if task.get('downstream_recovery') and not downstream.current(self, task):
+            return self.finish(task, 'source_error', 'English source changed during downstream recovery')
         source, candidate = self.state.source(task),self.state.candidate(task)
         validate_translation(source,candidate)
         record = self.state.record(task['language'],task['article_id'])
@@ -307,27 +315,33 @@ class Engine:
         self.finish(task,'complete')
 
     def receive(self, task, row):
+        if task['status'] in TERMINAL:
+            return
         stage = task['stage']
+        observed = archive(self.state, task, row, self.config.runtime['max_result_bytes'])
+        task['failure_kind'] = observed['outcome']
+        from .requests import usage_cost
+        campaign = self.state.read(f'state/campaigns/{task["campaign"]}.json')
+        pricing = task['models'][task['review_model'] if stage.startswith('review') else task['model']]
+        cost = usage_cost(pricing, observed.get('usage') or {})
+        usage_key = task['id'] + ':' + stage
+        if cost is not None and usage_key not in campaign.get('accounted_responses', {}):
+            campaign.setdefault('accounted_responses', {})[usage_key] = cost
+            campaign['reported_usage_usd'] = round(campaign['reported_usage_usd'] + cost, 8)
+            self.state.save_campaign(campaign)
         try:
             result, provenance = parse_response(row,self.config.runtime['max_result_bytes'])
             self.state.write(f'state/tasks/{task["id"]}/results/{stage}.json',
                              {'result':result,'provenance':provenance,'received_at':now()})
             task['events'].append({'stage':stage,'model':provenance['model'],'usage':provenance['usage']})
             campaign = self.state.read(f'state/campaigns/{task["campaign"]}.json')
-            pricing = task['models'][task['review_model'] if stage.startswith('review') else task['model']]
-            usage = provenance.get('usage') or {}
-            if isinstance(usage.get('prompt_tokens'),int) and isinstance(usage.get('completion_tokens'),int):
-                campaign['reported_usage_usd'] = round(campaign['reported_usage_usd'] +
-                    (max(0,usage['prompt_tokens'])*pricing['input_batch_usd_per_million'] +
-                     max(0,usage['completion_tokens'])*pricing['output_batch_usd_per_million'])/1000000,8)
-                self.state.save_campaign(campaign)
             if stage in ('translate','correct'):
                 task['translation_model_actual'] = provenance['model']
                 self.state.save_candidate(task,result)
                 try:
                     validate_translation(self.state.source(task),result)
                 except ContractError as exc:
-                    if stage == 'translate':
+                    if stage == 'translate' and not task.get('downstream_recovery'):
                         task['findings'] = [{'severity':'critical','location':'HTML/metadata contract',
                                              'source_quote':'','translation_quote':'','suggested_fix':str(exc)}]
                         task['stage'],task['status'] = 'correct','queued'
@@ -344,7 +358,8 @@ class Engine:
                     self.state.save_task(task)
                     self.publish(task)
                     return
-                if stage == 'review2':
+                if stage == 'review2' or task.get('downstream_recovery'):
+                    task['failure_kind'] = 'quality_rejection'
                     self.finish(task,'not_ready','Final review failed; no further automatic correction is allowed')
                     return
                 task['stage'] = 'correct'
@@ -352,6 +367,8 @@ class Engine:
             task.pop('batch',None)
             self.state.save_task(task)
         except (ContractError,KeyError,TypeError,UnicodeError) as exc:
+            if task.get('failure_kind') == 'structured_response':
+                task['failure_kind'] = 'invalid_result'
             self.finish(task,'not_ready',str(exc))
 
     def recover(self, batch):
@@ -384,6 +401,20 @@ class Engine:
             return
         if batch['status'] != 'prepared':
             return
+        campaign = self.state.read(f'state/campaigns/{batch["campaign"]}.json')
+        if campaign.get('downstream_recovery'):
+            downstream.validate_history(self.config, self.state, {t['id']:t for t in self.state.tasks()})
+            if not downstream.validate_policy(self.config)['enabled']:
+                return
+        if campaign.get('downstream_recovery'):
+            tasks = [self.state.read(f'state/tasks/{identity}/task.json') for identity in batch['tasks']]
+            if any(not downstream.current(self, task) for task in tasks):
+                for task in tasks:
+                    self.finish(task, 'source_error', 'English source changed before downstream batch submission')
+                batch['status'] = 'cancelled_before_submission'
+                self.state.save_batch(batch)
+                self.checkpoint('runtime: hold stale downstream work without releasing reservations')
+                return
         payload = self.state.path(f'state/batches/{batch["id"]}/input.jsonl').read_bytes()
         if digest(payload) != batch['payload_sha256']:
             raise ContractError('Persisted batch payload was changed; refusing submission')
@@ -488,6 +519,8 @@ class Engine:
                     else:
                         diagnostic = request_failure(rows[key])
                         if diagnostic:
+                            observed = archive(self.state, task, rows[key], self.config.runtime['max_result_bytes'])
+                            task['failure_kind'] = observed['outcome']
                             task['provider_failure'] = diagnostic
                             self.finish(task,'not_ready',failure_reason(diagnostic))
                         else:
@@ -510,6 +543,7 @@ class Engine:
     def prepare(self):
         if not self.provider:
             return
+        downstream.validate_history(self.config, self.state, {t['id']:t for t in self.state.tasks()})
         groups = defaultdict(list)
         for task in self.state.tasks():
             if task['status'] == 'queued':
@@ -519,6 +553,11 @@ class Engine:
         for (campaign_id,stage,model), tasks in sorted(groups.items()):
             while tasks and prepared_count < self.config.runtime['max_batches_per_tick']:
                 campaign = self.state.read(f'state/campaigns/{campaign_id}.json')
+                if campaign.get('downstream_recovery'):
+                    if not campaign.get('downstream_acceptance_complete'):
+                        raise ContractError('Downstream acceptance incomplete; allocation retained and paid work blocked')
+                    if not downstream.validate_policy(self.config)['enabled']:
+                        break
                 if campaign.get('recovery_of_campaign') and not campaign.get('recovery_acceptance_complete'):
                     raise ContractError('Recovery acceptance is incomplete; its allocation is retained and paid work is blocked')
                 if campaign.get('cancel_requested'):
@@ -528,6 +567,14 @@ class Engine:
                 selected, lines, costs, size = [],[],[],0
                 while tasks and len(selected) < self.config.runtime['max_batch_requests']:
                     task = tasks[0]
+                    if task.get('downstream_recovery'):
+                        if not downstream.current(self, task):
+                            self.finish(task, 'source_error', 'English source changed before downstream submission')
+                            tasks.pop(0); continue
+                        if ((task['translation_attempts'] >= 1 and stage in ('translate', 'correct')) or
+                                (task['review_attempts'] >= 1 and stage in ('review1', 'review2'))):
+                            self.finish(task, 'not_ready', 'Downstream repair/review attempt limit reached')
+                            tasks.pop(0); continue
                     if ((stage in ('translate','correct') and task['translation_attempts'] >= 2) or
                             (stage.startswith('review') and task['review_attempts'] >= 2)):
                         self.finish(task,'not_ready','Hard attempt limit reached')
@@ -573,6 +620,8 @@ class Engine:
         campaign = self.state.read(f'state/campaigns/{identity}.json')
         if not campaign:
             raise ContractError('Unknown campaign')
+        if campaign.get('downstream_recovery') and not campaign.get('downstream_acceptance_complete'):
+            return downstream.abort_incomplete(self, campaign)
         if is_recovery_campaign(self.state, campaign):
             recorded_request(self.state, campaign)
             if (campaign.get('status') in ('acceptance_incomplete', 'acceptance_aborting', 'acceptance_aborted')
@@ -607,10 +656,13 @@ class Engine:
         if discover_source:
             self.discover()
             enqueue_source_refreshes(self)
+            downstream.enqueue_hour(self)
         self.accept_queue()
         self.collect()
         self.prepare()
         for campaign in self.state.campaigns():
+            if campaign.get('downstream_recovery') and not campaign.get('downstream_acceptance_complete'):
+                continue
             if campaign['dry_run'] or (campaign.get('recovery_of_campaign')
                                        and not campaign.get('recovery_acceptance_complete')):
                 continue

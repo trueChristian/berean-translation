@@ -1,0 +1,69 @@
+name: AI — Repair held translations
+
+on:
+  workflow_dispatch:
+    inputs:
+      model:
+        description: "Bounded repair model for eligible held candidates"
+        type: choice
+        options:
+          - gpt-6.1-sol
+          - gpt-6-astra
+          - gpt-5-mini
+          - gpt-4.1-mini
+          - gpt-4.1-nano
+          - gpt-4.1
+        default: gpt-6.1-sol
+      review_model:
+        description: "Independent review request model"
+        type: choice
+        options:
+          - gpt-6.1-sol
+          - gpt-6-astra
+          - gpt-5-mini
+          - gpt-4.1-mini
+          - gpt-4.1-nano
+          - gpt-4.1
+        default: gpt-6.1-sol
+      max_articles:
+        description: "Maximum eligible held candidates to repair (hard limit: 5)"
+        type: choice
+        options: ["1", "2", "3", "4", "5"]
+        default: "3"
+      budget_usd:
+        description: "Explicit USD cap for this request; paid work also requires an enabled configured recovery budget"
+        required: true
+        type: string
+        default: "1"
+      dry_run:
+        description: "Preview eligible held candidates only: no repairs, reservations, or paid requests"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+# Immutable unique requests preserve concurrent manual submissions. The existing
+# serialized collector alone selects exact candidates and allocates repair spend.
+jobs:
+  enqueue:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Check out trusted main
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Persist the held translation repair request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TRANSLATION_OPERATION: repair
+          TRANSLATION_SELECTION: downstream-recovery
+          INPUT_MAX_ARTICLES: ${{ inputs.max_articles }}
+          INPUT_MODEL: ${{ inputs.model }}
+          INPUT_REVIEW_MODEL: ${{ inputs.review_model }}
+          INPUT_BUDGET_USD: ${{ inputs.budget_usd }}
+          INPUT_DRY_RUN: ${{ inputs.dry_run }}
+        run: python3 -m berean_translation enqueue-env
